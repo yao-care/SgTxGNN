@@ -1,0 +1,175 @@
+## Icodextrin (DB00702) 藥物再利用證據分析
+
+在進行評估之前，先確認背景資訊：
+
+**Icodextrin 已知藥理：**
+- 澱粉衍生葡萄糖聚合物，作為滲透壓劑（osmotic agent）
+- 已上市用途：腹膜透析液（Extraneal®, Baxter）—資料標示「未上市」可能為新加坡本地未收錄
+- 作用機轉：利用膠體滲透壓（colloid oncotic pressure）進行跨腹膜液體移除，系統吸收極少
+- 已知安全疑慮：干擾 GDH-PQQ 血糖計讀數（假性高血糖）
+
+---
+
+```json
+{
+  "drug": "Icodextrin",
+  "drugbank_id": "DB00702",
+  "analysis_date": "2026-04-04",
+  "data_quality_warning": "所有適應症 clinical_trials_count=0, literature_count=0，全部評估結果僅依賴 TxGNN 模型預測分數，無任何臨床或文獻佐證",
+  "indications": [
+    {
+      "disease_name": "irritable bowel syndrome",
+      "txgnn_score": 0.9853,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Icodextrin 為難以系統吸收的葡萄糖聚合物，口服後在腸道中行為類似 FODMAP（可發酵但不吸收的碳水化合物），理論上反而可能加重 IBS 症狀（腸道滲透壓升高、腸道菌叢發酵產氣）。腹腔注射途徑與 IBS 腸道動力/內臟感知病理間無合理機轉連結。TxGNN 高分可能源於知識圖譜中腸道相關節點共同鄰域，而非真實藥理關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["機轉可能反向有害", "無任何臨床前動物模型數據支撐"]
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9741,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道結構性畸形（如食道閉鎖、氣管食道瘻管）屬先天發育異常，治療以外科手術為主。Icodextrin 作為滲透壓劑，對胚胎發育路徑（SOX2、FOXA2 等轉錄因子調控）無已知作用機轉。L5 純預測，缺乏生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["適應症為結構性先天異常，非藥物適應症", "生物合理性極低"]
+    },
+    {
+      "disease_name": "C1 inhibitor deficiency",
+      "txgnn_score": 0.9729,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "C1 抑制蛋白缺乏症（SERPING1 基因突變）導致補體系統及激肽釋放酶-激肽系統失調，治療需補充/替代 C1-INH 蛋白或阻斷缺失路徑（如 icatibant、berotralstat）。Icodextrin 為多糖分子，無法替代或誘導 C1-INH 蛋白功能，亦無已知抗補體或抗激肽系統活性。知識圖譜可能因 Icodextrin 的蛋白質互動網路節點與 SERPING1 路徑存在遠距鄰域關聯而產生高分。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["需蛋白替代治療，小分子多糖無法達成", "機轉缺乏支撐"]
+    },
+    {
+      "disease_name": "potassium deficiency disease",
+      "txgnn_score": 0.9719,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低鉀血症的藥物治療為直接補充鉀離子。Icodextrin 本身不含鉀，但其在腹膜透析中的確影響電解質平衡——透析液中 Icodextrin 可能減少鉀的清除（相較葡萄糖透析液），為間接作用且為已知副作用管理範疇，非治療性再利用。此連結屬透析副效應，不構成新適應症開發基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["電解質效應為透析副作用，非獨立治療機轉", "缺乏補鉀直接機轉"]
+    },
+    {
+      "disease_name": "serpinopathy with toxic serpin polymerization",
+      "txgnn_score": 0.9706,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毒性 Serpin 聚合症（如 α1-抗胰蛋白酶缺乏症 PiZZ 型）涉及蛋白質錯誤折疊與細胞內聚合物堆積，治療策略為分子伴侶、蛋白酶體增強或基因療法。Icodextrin 為胞外滲透壓劑，無法進入細胞干擾蛋白折疊/聚合路徑。與適應症的病理生理機轉完全不匹配。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["細胞內蛋白折疊疾病，胞外多糖無法介入", "生物合理性缺失"]
+    },
+    {
+      "disease_name": "hereditary angioedema with C1Inh deficiency",
+      "txgnn_score": 0.9681,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性血管性水腫（HAE）急性發作由緩激肽（bradykinin）過量引起，一線治療為 C1-INH 濃縮劑、icatibant（緩激肽 B2 受體拮抗劑）或 lanadelumab（預防）。雖 Icodextrin 的膠體滲透壓效應理論上可減少組織水腫，但 HAE 發作機轉為血管通透性增加而非滲透壓失衡，且 Icodextrin 無法到達受影響組織（皮下、黏膜下）發揮作用。與 C1 inhibitor deficiency 項目存在高度重疊（同為 C1-INH 缺乏相關病理），KG 預測可能存在冗餘。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["與 C1 inhibitor deficiency 高度重疊，KG 預測冗餘風險", "HAE 病理機轉為血管通透性增加，非滲透壓失衡"]
+    },
+    {
+      "disease_name": "esophageal disease",
+      "txgnn_score": 0.9677,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道疾病為廣義分類（涵蓋 GERD、食道炎、食道癌、賁門失弛緩症等），各子類別機轉差異極大。Icodextrin 無抗酸、抗炎、抗腫瘤或促動力已知機轉。此廣義分類本身反映 KG 節點聚合效應而非特定治療關聯，評估價值低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["過於廣義的疾病分類，無法評估具體機轉", "極可能為 KG 節點聚合假陽性"]
+    },
+    {
+      "disease_name": "familial visceral myopathy",
+      "txgnn_score": 0.9634,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性內臟肌病（ACTG2 等基因突變導致平滑肌功能障礙）引起腸道假性梗阻，目前無有效藥物治療，以支持性治療為主。Icodextrin 作為多糖滲透壓劑，對平滑肌收縮蛋白功能障礙無已知干預機轉。極罕見疾病，臨床試驗執行困難度極高。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["孤兒病，即使有機轉假設亦極難進行臨床試驗", "機轉缺乏"]
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "txgnn_score": 0.9581,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腎小管性酸中毒（RTA）涉及腎小管酸鹼調節缺陷（H⁺分泌或 HCO₃⁻再吸收障礙），治療以鹼補充劑（碳酸氫鈉/檸檬酸鉀）為主。Icodextrin 於腹膜透析中可藉由透析液緩衝劑（乳酸鹽/碳酸氫鹽）間接影響酸鹼平衡，但此為透析整體效果，非 Icodextrin 特異性機轉。在非透析患者中，Icodextrin 對腎小管功能無直接調控路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["間接透析效應非 Icodextrin 特異機轉", "非透析 RTA 患者中無作用路徑"]
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn_score": 0.9578,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "維生素缺乏症的治療為直接補充相應維生素。Icodextrin 為碳水化合物聚合物，不含維生素，亦無已知促進維生素吸收或合成的機轉。KG 高分可能源於營養代謝相關節點在知識圖譜中的廣泛連結，屬明顯假陽性預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["最明顯的 KG 假陽性案例", "無任何生物合理性"]
+    }
+  ]
+}
+```
+
+---
+
+## 整體評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 機轉可信度 |
+|--------|-----------|---------|---------|------|----------|
+| irritable bowel syndrome | 0.9853 | **L5** | **S0** | **Hold** | ⚠️ 極低（可能有害） |
+| non-syndromic esophageal malformation | 0.9741 | **L5** | **S0** | **Hold** | ❌ 無 |
+| C1 inhibitor deficiency | 0.9729 | **L5** | **S0** | **Hold** | ❌ 無 |
+| potassium deficiency disease | 0.9719 | **L5** | **S0** | **Hold** | ⚠️ 極低（透析副效應） |
+| serpinopathy with toxic serpin polymerization | 0.9706 | **L5** | **S0** | **Hold** | ❌ 無 |
+| hereditary angioedema with C1Inh deficiency | 0.9681 | **L5** | **S0** | **Hold** | ❌ 無 |
+| esophageal disease | 0.9677 | **L5** | **S0** | **Hold** | ❌ 無（廣義假陽性） |
+| familial visceral myopathy | 0.9634 | **L5** | **S0** | **Hold** | ❌ 無 |
+| renal tubular acidosis | 0.9581 | **L5** | **S0** | **Hold** | ⚠️ 極低（透析間接效應） |
+| vitamin deficiency disorder | 0.9578 | **L5** | **S0** | **Hold** | ❌ 無（最明顯假陽性） |
+
+---
+
+## 關鍵發現與建議
+
+### 🔴 全面 Hold 的系統性原因
+
+1. **資料缺口完全**：10 個適應症 × (0 臨床試驗 + 0 文獻) = 純模型預測，無任何實證基礎
+
+2. **Icodextrin 藥理特性限制**：
+   - 作用於腹腔/腹膜空間，系統性生物利用率極低
+   - 為惰性滲透壓劑，非受體作用藥物
+   - 預測適應症多為系統性/遺傳性疾病，與腹腔滲透壓作用機轉完全不符
+
+3. **KG 假陽性風險極高**：
+   - 多個適應症（C1 inhibitor deficiency vs HAE，esophageal malformation vs esophageal disease）存在節點重疊造成的冗餘高分
+   - vitamin deficiency、esophageal disease 等廣義分類節點本身就容易產生假性高 TxGNN 分數
+
+### ⚡ 若需後續優先研究方向
+
+若要對 Icodextrin 進行再利用研究，**腹腔相關適應症**才有機轉合理性（現有數據未收錄），例如：
+- 腹膜炎後沾黏預防（已有少量文獻）
+- 卵巢刺激症候群（OHSS）液體管理（已有 RCT，應為 L1-L2）
+- 腹腔鏡術後疼痛管理
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有藥物再利用候選需經臨床驗證方可應用。

@@ -1,0 +1,1134 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00459-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Acitretin",
+    "drugbank_id": "DB00459",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "acne (disease)",
+      "txgnn": {
+        "score": 0.999439299106598,
+        "rank": 1242
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04663906",
+            "title": "Does Oral Isotretinoin Increase the Risk of Developing Infection With and Complications From Covid-19, Compared to an Age-matched Background Population",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2021-01-15",
+            "completion_date": "2021-05-31",
+            "brief_summary": "There is a theoretical risk that the nasal mucosal dryness caused by oral retinoid medications may increase the risk of patients becoming infected with Covid-19.\n\nIsotretinoin is a drug used commonly in dermatology, usually for management of acne and occasionally for management of other dermatological diseases. The most common side effect of oral isotretinoin is mucocutaneous dryness, which can lead to nasal dryness and crusting. Isotretinoin is derived from vitamin A and produces this side effe",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Isotretinoin，非 Acitretin；Phase N/A、狀態 UNKNOWN；對評估 Acitretin 用於痤瘡完全無直接參考價值，屬於錯誤的適應症映射結果。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25640693",
+            "title": "European S1 guideline for the treatment of hidradenitis suppurativa/acne inversa.",
+            "authors": [
+              "Zouboulis C C",
+              "Desai N",
+              "Emtestam L",
+              "Hunger R E",
+              "Ioannides D"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2015",
+            "abstract": "Hidradenitis suppurativa/acne inversa (HS) is a chronic, inflammatory, recurrent, debilitating skin disease of the hair follicle that usually presents after puberty with painful, deep-seated, inflamed lesions in the apocrine gland-bearing areas of the body, most commonly the axillae, inguinal and anogenital regions. A mean disease incidence of 6.0 per 100,000 person-years and an average prevalence of 1% has been reported in Europe. HS has the highest impact on patients' quality of life among all",
+            "classification": {
+              "study_type": "Clinical Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12080949",
+            "title": "Nodulocystic acne and hidradenitis suppurativa treated with acitretin: a case report.",
+            "authors": [
+              "Scheman Andrew J"
+            ],
+            "journal": "Cutis",
+            "year": "2002",
+            "abstract": "Nodulocystic acne is a dermatologic disease that can result in significant damage to the skin of the face, chest, and back. Hidradenitis suppurativa is a scarring disease of the skin that causes deep cysts and abscesses on the axillae and anogenital areas. We review a case of a patient with severe nodulocystic facial acne and hidradenitis suppurativa that was treated with 2 full courses of isotretinoin. Although the patient's condition improved, some draining cysts persisted on the face and groi",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40888828",
+            "title": "Ethnic Differences of Palmoplantar Pustulosis: A Systematic Review.",
+            "authors": [
+              "Hsu Francis Li-Tien",
+              "Tsai Tsen-Fang"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2025",
+            "abstract": "Ethnic differences in the clinical and molecular features of many immune-mediated dermatoses have been reported, including psoriasis vulgaris and generalized pustular psoriasis. Palmoplantar pustulosis (PPP) is a chronic and relapsing inflammatory skin disease manifesting as crops of sterile pustules over an erythematous base on the palms and soles. To date, ethnic differences in PPP have been rarely studied.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29234829",
+            "title": "[Drug therapy of acne inversa].",
+            "authors": [
+              "Schneider-Burrus S",
+              "Arpa E",
+              "Kors C",
+              "Stavermann T",
+              "Sabat R"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2018",
+            "abstract": "Acne inversa is a chronic inflammatory destructive skin disease that affects about 1% of the population. The therapy should be personalized and consists of surgical and conservative procedures. Antibiotics are administered either topically or systemically. Combination therapy with clindamycin and rifampicin for 10-12 weeks can be very effective. Furthermore, TNF-α inhibitors show adequate efficacy and can be recommended. Adalimumab is the only approved drug product for systemic treatment of acne",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8573927",
+            "title": "Retinoids and sebaceous gland activity.",
+            "authors": [
+              "Geiger J M"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "1995",
+            "abstract": "The marked efficacy of isotretinoin in the treatment of acne is undoubtedly due to its potential to inhibit sebaceous gland activity. The question arises if the anti-acne effect of new oral retinoids can be predicted by using the currently available experimental models.",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28476075",
+            "title": "Drugs for discoid lupus erythematosus.",
+            "authors": [
+              "Jessop Sue",
+              "Whitelaw David A",
+              "Grainge Matthew J",
+              "Jayasekera Prativa"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2017",
+            "abstract": "Discoid lupus erythematosus (DLE) is a chronic form of cutaneous lupus, which can cause scarring. Many drugs have been used to treat this disease and some (such as thalidomide, cyclophosphamide and azathioprine) are potentially toxic. This is an update of a Cochrane Review first published in 2000, and previously updated in 2009. We wanted to update the review to assess whether any new information was available to treat DLE, as we were still unsure of the effectiveness of available drugs and how ",
+            "classification": {
+              "study_type": "Cochrane Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9074840",
+            "title": "Current use and future potential role of retinoids in dermatology.",
+            "authors": [
+              "Orfanos C E",
+              "Zouboulis C C",
+              "Almond-Roesler B",
+              "Geilen C C"
+            ],
+            "journal": "Drugs",
+            "year": "1997",
+            "abstract": "Since their introduction 15 years ago, retinoids have been increasingly used for topical and systemic treatment of psoriasis and other hyperkeratotic and parakeratotic skin disorders, keratotic genodermatoses, severe acne and acne-related dermatoses, and also for therapy and/or chemoprevention of skin cancer and other neoplasia. Oxidative metabolites of vitamin A (retinol) are natural retinoids present at low levels in the peripheral blood. Synthetic retinoids are classified into 3 generations i",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41692081",
+            "title": "Vitamins and the skin: Vitamin A and retinoids in dermatology.",
+            "authors": [
+              "Dessinioti Clio",
+              "Katsambas Andreas"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2026",
+            "abstract": "Vitamin A and analogs are widely used in dermatology, with retinoids being natural and synthetic vitamin A derivatives. Topical retinoids (especially tretinoin and tretinoin precursors) can diminish photoaging and contribute to the thickening and restoration of skin collagen. Retinoids used as therapeutic agents include oral retinoids (eg, isotretinoin, acitretin, alitretinoin, and bexarotene) and topical retinoids (eg, isotretinoin, tretinoin, adapalene, tazarotene, and trifarotene). Although r",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1617858",
+            "title": "Pharmacokinetics and therapeutic efficacy of retinoids in skin diseases.",
+            "authors": [
+              "Larsen F G",
+              "Nielsen-Kudsk F",
+              "Jakobsen P",
+              "Weismann K",
+              "Kragballe K"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1992",
+            "abstract": "The retinoids are a class of compounds that includes the natural forms and synthetic analogues of vitamin A. Isotretinoin, often referred to as a first generation retinoid, may be of considerable benefit to patients with severe, recalcitrant acne. Etretinate and acitretin, 2 aromatic compounds representing the second generation, have found their major success in the treatment of psoriasis, particularly in combination with more traditional therapies. Retinoid therapy is associated with a distinct",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2523875",
+            "title": "[Retinoids: the new status. Maintenance therapy, disorders of resorption in \"non-responders\", interactions and interferences with drugs, treatment of children and bone toxicity, acitetin and 13-cis-acitretin].",
+            "authors": [
+              "Orfanos C E"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "1989",
+            "abstract": "Oral retinoids are now well-established drugs for the systemic treatment of skin diseases. For etretinate to be effective on a long-term basis it is recommended that maintenance therapy should be continued for 3-6 months after clinical signs of the disease have disappeared. In \"non-responders\" with psoriasis the blood levels of etretinate may be low and increasing the dose to 1.5 mg/kg body weight per day will be necessary and helpful in some cases. The interaction of drugs should also be consid",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33036809",
+            "title": "Consensus on the use of oral isotretinoin in dermatology - Brazilian Society of Dermatology.",
+            "authors": [
+              "Bagatin Ediléia",
+              "Costa Caroline Sousa",
+              "Rocha Marco Alexandre Dias da",
+              "Picosse Fabíola Rosa",
+              "Kamamoto Cristhine Souza Leão"
+            ],
+            "journal": "Anais brasileiros de dermatologia",
+            "year": "2020",
+            "abstract": "Isotretinoin is a synthetic retinoid, derived from vitamin A, with multiple mechanisms of action and highly effective in the treatment of acne, despite common adverse events, manageable and dose-dependent. Dose-independent teratogenicity is the most serious. Therefore, off-label prescriptions require strict criteria.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38463557",
+            "title": "Successful Treatment of Refractory Synovitis, Acne, Pustulosis, Hyperostosis, and Osteitis (SAPHO) Syndrome with Baricitinib, a Janus Kinase Inhibitor.",
+            "authors": [
+              "Yang Jianqiu",
+              "Yuan Chunyu",
+              "Zhou Shengru",
+              "Teng Zhicheng",
+              "Li Min"
+            ],
+            "journal": "Clinical, cosmetic and investigational dermatology",
+            "year": "2024",
+            "abstract": "Synovitis, acne, pustulosis, hyperostosis, and osteitis (SAPHO) syndrome, a rare immune-mediated inflammatory disease, poses diagnostic and therapeutic challenges owing to its multi-system involvement, high heterogeneity, and lack of specific laboratory tests. Additionally, lacking evidence-based treatment recommendations, with the primary approach focusing on symptomatic relief. Herein, we report the case of a 32-year-old Chinese woman who presented with recurrent, generalized multiple osteoart",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11586072",
+            "title": "Retinoids--which dermatological indications will benefit in the near future?",
+            "authors": [
+              "Zouboulis C C"
+            ],
+            "journal": "Skin pharmacology and applied skin physiology",
+            "year": "2001",
+            "abstract": "Retinoids are compounds with pleiotropic functions and a relatively selective targeting of certain skin structures. They are vitamins, because retinol (vitamin A) is not synthesized in the body and must be derived from diet, but also hormones with intracrine activity, because retinol is transformed into molecules that bind to nuclear receptors, exhibit their activity, and are subsequently inactivated. Retinoids exert their effects on target cells by binding and activating nuclear retinoid recept",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26617362",
+            "title": "Medical Treatments of Hidradenitis Suppurativa: More Options, Less Evidence.",
+            "authors": [
+              "van der Zee Hessel H",
+              "Gulliver Wayne P"
+            ],
+            "journal": "Dermatologic clinics",
+            "year": "2016",
+            "abstract": "Hidradenitis suppurativa is a common debilitating skin disease that has been neglected by science. The disease is getting more and more attention, reflected by the rising number of scientific publications. There is a clear need for effective treatment. We are still at the beginning of improving care for these patients as demonstrated by the low levels of evidence for the medical treatments. Many of these therapies showed promising results, but are still waiting to be validated in randomized, con",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26911891",
+            "title": "The effect of oral isotretinoin on visual contrast sensitivity and amount of lacrimation in patients with acne vulgaris.",
+            "authors": [
+              "Polat Mualla",
+              "Kükner Şahap"
+            ],
+            "journal": "Cutaneous and ocular toxicology",
+            "year": "2017",
+            "abstract": "Acne vulgaris is a puberty-onset chronic inflammatory disease of the pilosebaceous unit. Isotretinoin is a derivative of vitamin A commonly used for severe and nodulocystic acne. While isotretinoin has many side effects related to the eye, visual system and lacrimation, there is no information regarding isotretinoin's influence on contrast sensitivity.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20874789",
+            "title": "Long-term results of acitretin therapy for hidradenitis suppurativa. Is acne inversa also a misnomer?",
+            "authors": [
+              "Boer J",
+              "Nazary M"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2011",
+            "abstract": "Hidradenitis suppurativa (HS) is a distressing chronic inflammatory skin disorder which affects predominantly the groins and axillae. In analogy to acne, oral isotretinoin has been considered in the treatment of HS, although there are strong indications that this drug has only a very limited therapeutic effect. During the past 25 years scattered case reports have described promising results of treatment with acitretin.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2112772",
+            "title": "Retinoid-induced inhibition of eosinophil LTC4 production.",
+            "authors": [
+              "Lehman P A",
+              "Henderson W R"
+            ],
+            "journal": "Prostaglandins",
+            "year": "1990",
+            "abstract": "Naturally occurring and synthetic retinoids demonstrate a marked antiinflammatory effect when employed in such disorders as acne and psoriasis. This effect may result in part from their inhibition of release of potent mediators (e.g. eicosanoids) by inflammatory cells. In this study, we examined the effect of eight retinoids (tretinoin, isotretinoin, retinol, retinal, acitretin, retinyl palmitate, etretinate, Ro 15-0778) on the release of leukotriene (LT)C4, an important lipid mediator generated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25856558",
+            "title": "Skin metabolism established with the use of MetaSite for selected retinoids employed in topical and systemic treatment of various skin disorders and found in cosmeceuticals.",
+            "authors": [
+              "Słoczyńska Karolina",
+              "Gunia-Krzyżak Agnieszka",
+              "Żelaszczyk Dorota",
+              "Waszkielewicz Anna M",
+              "Marona Henryk"
+            ],
+            "journal": "Acta biochimica Polonica",
+            "year": "2015",
+            "abstract": "Besides being widely used in cosmetics, retinoids are potent therapeutic agents used topically and systemically as anti-acne agents. The aim of this study was to predict with the use of MetaSite the skin metabolism of selected retinoids employed in treatment of skin disorders and found in cosmeceuticals. The following compounds were studied: retinol, retinaldehyde, retinoic acid, retinyl acetate, retinyl palmitate, acitretin, etretinate, adapalene and bexarotene.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Acitretin 透過 RAR 活化抑制皮脂腺活性並調節濾泡角化，理論上可減少粉刺形成。然而，在痤瘡治療中，同類藥物 Isotretinoin（13-cis retinoic acid）因對皮脂腺具更強選擇性，為已核准標準療法；Acitretin 對皮脂腺的直接效果顯著弱於 Isotretinoin，故機轉存在但非最優路徑。現有文獻多指向 acne inversa（hidradenitis suppurativa，HS）而非典型 acne vulgaris，兩者需明確區分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pediatric systemic lupus erythematosus",
+      "txgnn": {
+        "score": 0.9934611320495604,
+        "rank": 7858
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Retinoids 具有免疫調節作用，可調控 Th17/Treg 平衡，理論上對自體免疫疾病有潛在相關性。然而，Acitretin 對 SLE 的致病機轉（免疫複合體沉積、補體活化、Type I IFN pathway）無明確干預靶點。兒科族群安全性資料極為有限，且 pSLE 治療已有標準方案（Hydroxychloroquine, Steroids, MMF 等）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "fetal erythroblastosis",
+      "txgnn": {
+        "score": 0.992790699005127,
+        "rank": 8386
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胎兒紅母細胞症（Rh 或 ABO 血型不相容引起的溶血性疾病）與 Acitretin 作用機轉完全無交集。Acitretin 為 Pregnancy Category X 藥物，具明確致畸胎性（中軸骨骼、顱面、心臟缺陷），在妊娠相關情境中使用屬絕對禁忌。此適應症存在根本性安全禁忌，不得進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome",
+      "txgnn": {
+        "score": 0.9909607768058776,
+        "rank": 9833
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此罕見癌症易感症候群（可能涉及 TELANGIECTASIA 相關基因）與 Acitretin 之間無已知分子靶點連結。Retinoids 雖有化學預防潛力（透過 RAR 調控細胞分化與凋亡），但針對此特定遺傳症候群無任何前臨床或臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "complement component 4a deficiency",
+      "txgnn": {
+        "score": 0.9886625409126282,
+        "rank": 11538
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "補體 C4a 缺乏為免疫缺陷相關疾病，主要影響補體系統第二路徑。Acitretin 作用靶點為 RAR 核受體，不直接調控補體蛋白合成或功能。兩者無已知交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "subacute bacterial endocarditis",
+      "txgnn": {
+        "score": 0.984634816646576,
+        "rank": 14422
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "細菌性心內膜炎為感染性疾病，標準治療為抗生素（及外科手術）。Acitretin 無抗菌活性，且不影響心臟瓣膜生物膜形成或細菌毒力因子的相關通路。此預測明顯缺乏生物合理性，判斷為知識圖譜關聯雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "familial acanthosis nigricans",
+      "txgnn": {
+        "score": 0.9843490719795228,
+        "rank": 14597
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性黑棘皮症多由 FGFR2/FGFR3 活化突變或胰島素抵抗導致角質細胞過度增殖。Acitretin 透過 RAR 抑制角質細胞增殖並促進正常分化，機轉上具有相當合理性。類視色素類藥物（包括局部 retinoids）已在其他角化疾病有效，但針對家族性黑棘皮症尚無臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "prolapse of lacrimal gland",
+      "txgnn": {
+        "score": 0.9841564297676086,
+        "rank": 14706
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "淚腺脫垂為結構性/解剖性眼眶疾患，主要病因為眼眶筋膜支持組織鬆弛。此為機械性問題，標準治療為外科修復。Acitretin 的 RAR 作用機轉對結締組織支撐功能無直接效用，缺乏生物合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "urticaria, familial localized heat",
+      "txgnn": {
+        "score": 0.983616054058075,
+        "rank": 15037
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性局限性熱誘導蕁麻疹為罕見遺傳性肥大細胞活化疾病，主要機轉為溫度刺激觸發組織胺釋放。Acitretin 的 RAR 信號通路與肥大細胞脫顆粒機轉無直接關聯。雖 Retinoids 可調節皮膚免疫反應，但對此特定遺傳性蕁麻疹亞型無已知療效證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Sjogren syndrome",
+      "txgnn": {
+        "score": 0.9833939671516418,
+        "rank": 15189
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29704247",
+            "title": "Clinical and molecular characterization and response to acitretin in three families with Sjögren-Larsson syndrome.",
+            "authors": [
+              "Vural Seçil",
+              "Vural Atay",
+              "Akçimen Fulya",
+              "Bağci Işın S",
+              "Tunca Ceren"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2018",
+            "abstract": "Sjögren-Larsson syndrome (SLS) is a rare congenital disorder characterized by the triad of ichthyosis, spasticity, and mental retardation. Patients are usually referred to dermatology clinics during infancy. As paraplegia becomes the most debilitating symptom of the disease within a few years, ichthyosis, although a major burden for the patient, takes a back seat. Optimum treatment of ichthyosis in these children and the effect of treatment on different aspects such as severity of the ichthyosis",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19197545",
+            "title": "Sjögren-larsson syndrome: a study of clinical symptoms and dermatological treatment in 34 Swedish patients.",
+            "authors": [
+              "Gånemo Agneta",
+              "Jagell Sten",
+              "Vahlquist Anders"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "2009",
+            "abstract": "Sjögren-Larsson syndrome (SLS) is a recessively inherited disease with congenital ichthyosis, spastic diplegia or tetraplegia and mental retardation, caused by a deficiency of fatty aldehyde dehydrogenase. The aim of this study was to examine all 34 Swedish patients with SLS, emphasizing skin symptoms, dermatological treatment, and neurological symptoms (evaluated in some cases for more than 25 years by one and the same investigator). Structured interviews were conducted with the patients and th",
+            "classification": {
+              "study_type": "Clinical Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10449931",
+            "title": "Sjögren-Larsson syndrome: early diagnosis, dietary management and biochemical studies in two cases.",
+            "authors": [
+              "Taube B",
+              "Billeaud C",
+              "Labrèze C",
+              "Entressangles B",
+              "Fontan D"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "1999",
+            "abstract": "Sjögren-Larsson syndrome (SLS) is a rare autosomal recessive disorder with worldwide distribution. It consists of ichthyosis, spastic diplegia and mental retardation caused by an enzymatic defect in fatty alcohol oxidation.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12064854",
+            "title": "Cutaneous T cell lymphoma in a patient with primary biliary cirrhosis and secondary Sjögren's syndrome.",
+            "authors": [
+              "Stroehmann Arne",
+              "Dörner Thomas",
+              "Lukowsky Ansgar",
+              "Feist Eugen",
+              "Hiepe Falk"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2002",
+            "abstract": "We describe a patient with primary biliary cirrhosis (PBC) and secondary Sjogren's syndrome (SS) with pulmonary involvement who developed a cutaneous T cell lymphoma. The clinical course of secondary SS in PBC is thought to be less complicated than in progressive systemic scleroderma and SS. In contrast to secondary SS, the risk for developing non-Hodgkin's lymphoma is highly increased in patients with primary SS. Moreover, these lymphomas are usually of B cell origin. There are few reports of T",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8763418",
+            "title": "An appraisal of acitretin therapy in children with inherited disorders of keratinization.",
+            "authors": [
+              "Lacour M",
+              "Mehta-Nikhar B",
+              "Atherton D J",
+              "Harper J I"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "1996",
+            "abstract": "Retinoid therapy represents the treatment of choice for severe inherited disorders of keratinization. This paper reviews our experience of acitretin, compares acitretin with etretinate and defines guidelines for treatment. Forty-six children have received acitretin since 1992 in our hospital: 29 children had either lamellar ichthyosis (nine), non-bullous ichthyosiform erythroderma (five), bullous ichthyosiform erythroderma (four), Sjögren-Larsson syndrome (three) or another rare condition (eight",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 【重大命名混淆警告】現有 5 篇文獻實際描述的是「Sjögren-Larsson Syndrome（SLS，舍格倫-拉爾森症候群）」——一種 ALDH3A2 基因突變引起的脂肪醛去氫酶缺乏遺傳性魚鱗病，與「Sjögren's Syndrome（乾燥症）」為完全不同的疾病。Acitretin 對 SLS 的療效機轉：活化 RAR 改善角化異常、減輕魚鱗病皮膚症狀，具有合理性且有病例系列支持（L3 等級）。對 Sjögren's Syndrome（自體免疫外分泌腺疾病）：無直接機轉連結，無支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "pediatric systemic lupus erythematosus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "pediatric systemic lupus erythematosus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "pediatric systemic lupus erythematosus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "complement component 4a deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "complement component 4a deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "complement component 4a deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "subacute bacterial endocarditis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "subacute bacterial endocarditis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "subacute bacterial endocarditis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "familial acanthosis nigricans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "familial acanthosis nigricans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "familial acanthosis nigricans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "urticaria, familial localized heat"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "urticaria, familial localized heat"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "urticaria, familial localized heat"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "Sjogren syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "Sjogren syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acitretin",
+        "disease": "Sjogren syndrome"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    }
+  ]
+}

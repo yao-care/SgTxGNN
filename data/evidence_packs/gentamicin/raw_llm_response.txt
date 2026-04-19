@@ -1,0 +1,348 @@
+## Gentamicin (DB00798) 藥物再利用證據分析
+
+> **⚠️ 重要安全前提**：Gentamicin 為氨基糖苷類抗生素，具有明確的**腎毒性**與**耳毒性**，且為糖尿病腎病動物模型的標準腎毒性誘導劑。此安全背景貫穿所有適應症評估。
+
+```json
+{
+  "drug": "Gentamicin",
+  "drugbank_id": "DB00798",
+  "analysis_date": "2026-04-04",
+  "safety_flags": [
+    "腎毒性（劑量依賴性，累積性）",
+    "耳毒性（聽力損失、前庭毒性）",
+    "治療窗口窄，需TDM監測",
+    "禁忌：已有腎功能障礙患者高風險"
+  ],
+  "indications": [
+    {
+      "disease_name": "rheumatoid arthritis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "無直接抗RA機轉證據。現有證據集中於RA患者接受關節置換術時，Gentamicin作為感染預防藥物（抗生素浸潤骨水泥/膠原海綿）的外科輔助應用。潛在間接機轉：腸道/關節細菌抗原觸發RA自體免疫反應，抗生素介入可能降低免疫刺激；氨基糖苷類可能具有輕度NF-κB抑制活性，但尚未在RA背景下臨床驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00872066",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 上市後監測研究（n=243，completed）。標題截斷，結合Phase 4性質推斷為評估含Gentamicin骨科產品（如Gentamicin-PMMA骨水泥珠）在RA相關關節手術中的安全性/有效性監測，而非直接以Gentamicin治療RA疾病本身。相關性評為C級：提供RA患者使用Gentamicin的安全性數據，但不支持疾病修飾作用。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "41221316",
+          "study_type": "Systematic Review/Synthesis",
+          "tier": "2",
+          "note": "全髖關節置換相關感染的風險因子、預防與治療：Gentamicin抗生素骨水泥使用的系統性文獻，外科感染預防背景"
+        },
+        {
+          "pmid": "14649677",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "全膝關節置換術系統性抗生素合併抗生素骨水泥預防感染：RA患者手術感染預防脈絡"
+        },
+        {
+          "pmid": "11233881",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "RA多關節炎患者關節置換後微生物學與免疫學監測：Gentamicin在術後感染管理中的應用"
+        },
+        {
+          "pmid": "4579913",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "RA患者Serratia敗血性關節炎以Gentamicin治療感染根除：RA患者的感染併發症治療，非RA本身的治療"
+        },
+        {
+          "pmid": "33827581",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "RA患者tofacitinib治療期間Helicobacter canis菌血症：免疫抑制下感染風險背景文獻"
+        },
+        {
+          "pmid": "20374322",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "RA患者心包積液：RA心臟併發症，與Gentamicin無直接關聯"
+        },
+        {
+          "pmid": "40293759",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "非囊性纖維化支氣管擴張症：可能間接涉及RA-ILD背景，但主題偏離Gentamicin再利用核心"
+        },
+        {
+          "pmid": "31683054",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "NFKBIA變異免疫缺陷伴支氣管擴張：免疫調節機制背景，間接相關"
+        },
+        {
+          "pmid": "40119266",
+          "study_type": "Case Report/Review",
+          "tier": "3",
+          "note": "抗藥性Edwardsiella tarda敗血性休克：感染管理背景，非RA特異"
+        },
+        {
+          "pmid": "12447049",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "濕性傷口癒合：外科傷口管理，Gentamicin局部應用背景，與RA治療無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "sclerosing cholangitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "口服抗生素（包括Gentamicin）在極早發型IBD中使用，部分此類患者可能合併IBD相關性原發性硬化性膽管炎（PSC）。腸道微生物組調節被認為是PSC的潛在治療靶點（口服vancomycin在PSC中有初步研究）。ERCP術後感染預防（包括PSC患者的常見介入手術）為Gentamicin的已知臨床背景。腸-肝軸（gut-liver axis）微生物干預機轉有理論基礎，但Gentamicin對PSC的直接療效未見研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28564649",
+          "study_type": "Case Series",
+          "tier": "2",
+          "note": "口服Vancomycin + Gentamicin治療極早發型IBD：部分VEO-IBD患者可能合併硬化性膽管炎，此為最直接的間接證據；但為兒科案例，樣本極小"
+        },
+        {
+          "pmid": "28086796",
+          "study_type": "Prospective Study",
+          "tier": "2",
+          "note": "膽道阻塞患者ERCP術後感染預防添加抗菌劑：PSC患者常需ERCP，此為預防性用藥，非治療PSC疾病本身"
+        }
+      ]
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。潛在機轉假說：Gentamicin（及其他氨基糖苷類）可促進核糖體對premature termination codon（PTC）的read-through，若本症由無義突變（nonsense mutation）導致，理論上可部分恢復蛋白功能。但：(1)需確認具體突變類型；(2)Gentamicin全身長期暴露的腎毒性/耳毒性使此策略不可行；(3)骨骼/眼部發育異常的治療機會窗口極窄。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。PTC read-through機轉在理論層面適用於特定無義突變型骨骼發育症候群，但骨骼畸形屬先天性結構異常，生後干預的治療意義有限；Gentamicin毒性不支持長期全身給藥。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純計算預測。若本症涉及膠原蛋白IV型（COL4A）或其他基底膜蛋白的無義突變，PTC read-through理論上有相關性。然而：(1)本症累及腎臟（血尿），Gentamicin腎毒性構成明確禁忌風險；(2)無任何臨床前研究支持；(3)視網膜血管病變的機轉與Gentamicin已知藥理無交集。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純計算預測。18篇文獻經分析均為先天性眼部異常的通用綜述（Axenfeld-Rieger症候群、眼部缺損、視神經異常等），係搜尋關鍵字「ocular anomalies」匹配所致，與Gentamicin治療腦小血管疾病無實質關聯。額外限制：血腦屏障穿透率極低，限制Gentamicin在CNS疾病的應用；腦小血管病變的主要機轉（NOTCH3突變、膠原蛋白異常）與Gentamicin藥理無已知交集。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35882526",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Axenfeld-Rieger症候群：眼科發育異常，與Gentamicin治療腦小血管病無關，為關鍵字誤匹配"
+        },
+        {
+          "pmid": "6782689",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "眼部缺損：先天眼科，關鍵字誤匹配"
+        },
+        {
+          "pmid": "30182440",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "前腦無裂畸形神經病理：腦部發育異常，非Gentamicin治療相關"
+        },
+        {
+          "pmid": "33870948",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "視神經發育不全：眼科，無相關性"
+        },
+        {
+          "pmid": "11941259",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "先天性大角膜：眼科，無相關性"
+        },
+        {
+          "pmid": "10498002",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "傾斜視盤症候群：眼科，無相關性"
+        },
+        {
+          "pmid": "6390155",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "視盤異常：眼科，無相關性"
+        },
+        {
+          "pmid": "1458324",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "先天性眼部異常：眼科，無相關性"
+        },
+        {
+          "pmid": "16848213",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "雙行睫：眼科，無相關性"
+        },
+        {
+          "pmid": "22963965",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "鰓-眼-面症候群：眼科，無相關性"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Gentamicin在骨關節炎患者關節置換手術中作為感染預防藥物使用（外科適應症），但此為外科預防性應用，不能作為針對OA疾病本身的治療證據。無Gentamicin調節軟骨退化、滑膜炎症或OA疾病進展的機轉文獻。「Osteoarthritis susceptibility」為易感性/遺傳背景，非活動性疾病，治療框架更不適用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39990634",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "關節手術後病原體分佈、藥物抗性及術後護理干預：外科感染管理背景，Gentamicin使用為感染控制脈絡，非OA疾病治療"
+        }
+      ]
+    },
+    {
+      "disease_name": "diabetic nephropathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "safety_alert": "⚠️ 主動安全警示：Gentamicin為腎毒性藥物，以Gentamicin誘導腎損傷為糖尿病腎病動物模型的標準方法。使用Gentamicin治療糖尿病腎病在原則上相互矛盾，且現有文獻無任何支持性證據。",
+      "mechanistic_link": "反向警示：Gentamicin通過氧化壓力、粒線體損傷及溶酶體失能誘導腎小管上皮細胞死亡。糖尿病腎病患者腎功能已受損，Gentamicin清除率降低導致藥物蓄積，毒性風險倍增。文獻中出現DN相關搜尋結果的原因：(1)Gentamicin在DN患者中的藥代動力學研究（給藥調整，非治療）；(2)多篇論文研究如何保護腎臟免受Gentamicin毒性。無任何文獻支持Gentamicin作為DN的治療藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "24915992",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "⚠️ Nigerloxin改善Gentamicin誘導的腎氧化壓力：Gentamicin在此為腎毒性誘導劑（研究對象），非治療藥物"
+        },
+        {
+          "pmid": "18766456",
+          "study_type": "PK Study",
+          "tier": "2",
+          "note": "糖尿病vs非糖尿病血液透析患者Gentamicin藥代動力學比較：劑量調整研究，強調糖尿病患者需特別監控"
+        },
+        {
+          "pmid": "8062313",
+          "study_type": "PK Study",
+          "tier": "2",
+          "note": "不同程度糖尿病蛋白尿患者Gentamicin藥代動力學：腎功能損傷影響藥物清除，為安全性監測研究"
+        },
+        {
+          "pmid": "9481071",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "63歲糖尿病女性腎包膜下膿瘍：Gentamicin用於治療合併感染，非DN本身治療"
+        },
+        {
+          "pmid": "24191240",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "薑黃素腎保護效果：探討保護策略，Gentamicin毒性為陽性對照模型"
+        },
+        {
+          "pmid": "17935800",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "PACAP在腎病中的保護作用：腎臟保護機轉研究，Gentamicin腎毒性為實驗模型"
+        },
+        {
+          "pmid": "22706107",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Carnosine、Carnosinase與腎臟疾病：腎保護代謝研究，與Gentamicin無直接關聯"
+        },
+        {
+          "pmid": "16538977",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "DN大鼠尿中鳥苷乙酸排泄：DN病理機轉研究，Gentamicin未涉及"
+        },
+        {
+          "pmid": "26155451",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "低分子量幾丁聚糖清除甲基乙二醛：DN代謝研究，Gentamicin未涉及"
+        },
+        {
+          "pmid": "21621841",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "PACAP對泌尿系統影響：腎臟保護機轉綜述，Gentamicin毒性模型為背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。若本症由特定基因（如LIPH、HR基因）的無義突變引起，Gentamicin PTC read-through機轉在理論層面具潛力，但：(1)缺乏具體突變型別資料驗證；(2)毛髮稀少症與粟粒疹屬皮膚/毛囊發育障礙，局部給藥更合理但尚無研究；(3)Gentamicin系統性毒性不支持長期使用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。MDS為造血幹細胞克隆性疾病，主要機轉涉及體細胞突變、表觀遺傳調控異常及造血微環境失調；與Gentamicin的抗生素機轉（細菌30S核糖體抑制）無已知直接交集。額外考量：MDS患者常有感染風險需使用抗生素（對症治療背景），但此與疾病本身治療完全不同；Gentamicin骨髓毒性風險在血液疾病患者中需特別警惕。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 摘要評估表
+
+| 疾病 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵限制 |
+|------|-----------|---------|---------|------|---------|
+| 類風濕性關節炎 | 0.9776 | **L3** | S1 | Research Question | 僅為外科感染預防背景，非疾病修飾 |
+| 硬化性膽管炎 | 0.9750 | **L4** | S1 | Research Question | 極早發型IBD兒科案例，間接關聯 |
+| 骨關節炎易感性 | 0.9062 | **L4** | S0 | Hold | 外科感染預防背景，非OA治療 |
+| 糖尿病腎病 | 0.8992 | **L5** ⚠️ | S0 | **Hold（安全警示）** | Gentamicin本身為腎毒性誘導劑，主動禁忌 |
+| 腦小血管病 | 0.9170 | **L5** | S0 | Hold | 18篇文獻均為關鍵字誤匹配，BBB穿透差 |
+| 眼部裂隙小眼球症候群 | 0.9632 | **L5** | S0 | Hold | 純預測，PTC read-through理論假說 |
+| 短指-並指症候群 | 0.9528 | **L5** | S0 | Hold | 純預測，結構性先天異常治療受限 |
+| 遺傳性血尿-視網膜扭曲-攣縮症候群 | 0.9199 | **L5** | S0 | Hold | 腎臟受累患者腎毒性禁忌 |
+| 先天性毛髮稀少粟粒疹 | 0.8890 | **L5** | S0 | Hold | 純預測，皮膚適應症局部給藥更合理 |
+| 未分類骨髓增生異常症候群 | 0.8874 | **L5** | S0 | Hold | 純預測，無機轉連結，骨髓毒性風險 |
+
+---
+
+## 🔍 關鍵發現
+
+1. **RA 與 硬化性膽管炎** 是唯一值得進一步探索的適應症（Research Question），但需明確區分「Gentamicin用於RA患者」vs「Gentamicin治療RA疾病本身」
+
+2. **糖尿病腎病** 為主動反指示（active contraindication）：TxGNN高分(0.899)反映模型可能誤解文獻中Gentamicin與DN的頻繁共現，實際上是作為腎毒性模型而非治療
+
+3. **PTC Read-through 假說**：Gentamicin的非抗生素機轉（促進無義突變read-through）可能解釋多個遺傳稀有病的高TxGNN預測分數，但需個別確認突變型別，且藥物毒性使全身長期應用不可行
+
+4. **文獻品質警告**：多個適應症的文獻（尤其腦小血管病、OA、DN）為關鍵字誤匹配或背景文獻，並非真正支持性證據，需人工過濾後重新評估實際文獻相關性

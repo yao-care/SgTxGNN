@@ -1,0 +1,1158 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB12023-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Benralizumab",
+    "drugbank_id": "DB12023",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "thrombocytopenia due to immune destruction",
+      "txgnn": {
+        "score": 0.9934133887290956,
+        "rank": 7905
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IL-5Rα 路徑主要調控嗜酸性球生成與存活，與免疫破壞性血小板減少症（ITP）的主要發病機轉（B 細胞產生抗血小板 IgG 抗體、T 細胞介導血小板破壞）無直接生物學連結。雖有文獻報告 ITP 患者偶見嗜酸性球增多，但因果關係不明確，難以支持 IL-5Rα 抑制作為治療切入點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "dermatitis",
+      "txgnn": {
+        "score": 0.9916470050811768,
+        "rank": 9279
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04763447",
+            "title": "Impact of Omalizumab Withdrawal After a 3 Year Duration Treatment in Well Controlled Severe Allergic Asthma : a Multicentric Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 234,
+            "start_date": "2021-05-20",
+            "completion_date": "2027-05-20",
+            "brief_summary": "The optimal duration of the treatment by OMA remains unclear when asthma is well controlled. Data suggest that a large part of patients with well controlled asthma can discontinue OMA therapy without any asthma control deterioration or with an acceptable decrease in asthma control, therefore French experts propose that omalizumab can be given for \"3 to 5 yrs if asthma remains well controlled\".\n\nThe costs related to OMA are high and frequent injections represent severe constraints for patients. F",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "測試 Omalizumab（抗 IgE），非 Benralizumab，靶點完全不同，與本評估無直接相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT04605094",
+            "title": "A Phase 2 Multinational, Randomized, Double-blind, Parallel-group, 16-week Placebo-controlled Study With a 36-Week Extension to Investigate the Use of Benralizumab for Patients With Moderate to Severe Atopic Dermatitis Despite Treatment With Topical Medications (The HILLIER Study)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 194,
+            "start_date": "2020-11-12",
+            "completion_date": "2022-09-13",
+            "brief_summary": "The purpose of the study is to compare the efficacy and safety of benralizumab versus placebo and to compare benralizumab dosing regimens during extension period.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "最關鍵試驗：多國、隨機、雙盲、安慰劑對照 Phase 2 RCT，但被提前終止（enrollment 194 人）。TERMINATED 狀態高度提示療效不足或安全性疑慮，是本適應症最強的負面直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT03563066",
+            "title": "Benralizumab Regulates Atopic Dermatitis Through Effects on Eosinophils, Basophils and Innate Lymphoid Type 2 Cells.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2018-09-04",
+            "completion_date": "2021-09-28",
+            "brief_summary": "Atopic Dermatitis (AD), also known as eczema, is a common skin disease characterized by itchy lesions. The prevalence of AD has increased over the past few decades, with 15-30% of children and 2-10%of adults being affected. The lesions of AD patients are very inflamed, with an increased number of inflammatory cells in the skin. There are not many medications available that are fully effective and can be used long-term for treatment of atopic dermatitis. Benralizumab is a monoclonal antibody used",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接測試 Benralizumab 用於異位性皮膚炎，Phase 2，完成。樣本量極小（n=20），屬於概念驗證性研究，結果可能對應 PMID 37178404 的陰性報告。"
+            }
+          },
+          {
+            "nct_id": "NCT06477653",
+            "title": "A Pilot Phase 2 Study of the Safety and Efficacy of Dupilumab as Add-on Therapy for Hypereosinophilic Syndrome With Partial Clinical Response to Eosinophil-Depleting Biologic Agents",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2025-02-05",
+            "completion_date": "2027-03-30",
+            "brief_summary": "Background:\n\nHypereosinophilic syndrome (HES) is a blood disorder that causes high levels of white blood cells called eosinophils. HES can damage the lungs and airways, intestines, skin, and other organs. The current primary treatment for HES can cause serious side effects. Secondary treatments do not work in all people.\n\nObjective:\n\nTo test an approved drug (dupilumab), combined with other drugs, in people with HES.\n\nEligibility:\n\nPeople aged 18 years and older who take drugs (mepolizumab, resl",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "測試 Dupilumab（非 Benralizumab），不同靶點（IL-4Rα vs IL-5Rα），與本藥物無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT06734884",
+            "title": "Efficacy and Safety of Anti-interleukin 5 Receptor Therapy (Benralizumab) in Patients With Drug Reaction With Eosinophilia and Systemic Symptoms (DRESS)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 96,
+            "start_date": "2025-01-06",
+            "completion_date": "2029-09-01",
+            "brief_summary": "Drug Reaction with eosinophilia and Systemic Symptoms (DRESS) is a rare and severe multiorgan drug reaction whose pathophysiological mechanisms underlying remain unclear, but may involve the role of several immune cells like eosinophils. iIndeed,the number of eosinophils is increased in blood and/or in organs tiisues in at least 50% of patients with DRESS. There is no specific treatment available. The standard of care is corticosteroids, but they may be inefficient or poorly tolerated. The aim o",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "針對 DRESS 亞型（非廣義 dermatitis），嗜酸性球為 DRESS 核心病理，機轉連結較強。尚未開始招募，無結果可用，但值得追蹤。"
+            }
+          },
+          {
+            "nct_id": "NCT04126499",
+            "title": "Observational Retrospective Study to Characterise Patients Receiving Benralizumab in the Framework of an Individualized Access Program in Spain",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2020-01-13",
+            "completion_date": "2020-05-08",
+            "brief_summary": "Observational, retrospective study in adults (≥18 years) with severe asthma (maintenance treatment with high dose inhaled corticosteroids combined with long-acting agonist β2) and eosinophilic phenotype, who at the discretion of the investigator were candidates to receive benralizumab in the individualized access program approved by national health authorities.\n\nPrimary Objective: To describe the demographic and baseline characteristics in patients with severe eosinophilic asthma who participate",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "回顧性觀察研究，可提供真實世界安全性資料，但設計無法評估療效，且樣本量小。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36411004",
+            "title": "Monoclonal Antibodies (Biologics) for Allergic Rhinitis, Asthma, and Atopic Dermatitis During Pregnancy and Lactation.",
+            "authors": [
+              "L Ramos Courtney",
+              "Namazy Jennifer"
+            ],
+            "journal": "Immunology and allergy clinics of North America",
+            "year": "2023",
+            "abstract": "Asthma, allergic rhinitis, chronic urticaria, and atopic dermatitis are common diseases that affect hundreds of thousands of pregnant women each year. The authors discuss the use of biologics in women who are pregnant or lactating, indications, available safety information, and knowledge gaps. There are pregnant patients for which standard treatment is either inadequate or contraindicated; in those cases, monoclonal antibodies (biologics) should be considered despite the unknown risk to the fetu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35987486",
+            "title": "Safety of Biologics for Atopic Diseases During Pregnancy.",
+            "authors": [
+              "Shakuntulla Fnu",
+              "Chiarella Sergio E"
+            ],
+            "journal": "The journal of allergy and clinical immunology. In practice",
+            "year": "2022",
+            "abstract": "The high prevalence of atopic diseases in women of childbearing age reveals the need to determine the safety of biologics during pregnancy. This review summarizes the effects of 7 Food and Drug Administration-approved biologics (omalizumab, mepolizumab, reslizumab, benralizumab, dupilumab, tezepelumab, and tralokinumab) on maternal and fetal outcomes. For this purpose, we reviewed English-language publications to investigate whether the use of biologics for atopic diseases during pregnancy incre",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36355314",
+            "title": "The Combination of Dupilumab with Other Monoclonal Antibodies.",
+            "authors": [
+              "Gisondi P",
+              "Maurelli M",
+              "Costanzo A",
+              "Esposito M",
+              "Girolomoni G"
+            ],
+            "journal": "Dermatology and therapy",
+            "year": "2023",
+            "abstract": "Dupilumab is an interleukin-4 (IL-4) receptor alpha antagonist indicated for the treatment of moderate-to-severe atopic dermatitis (AD), which could be associated with atopic and non-atopic comorbidities for which concomitant administration of targeted pharmacotherapy including monoclonal antibodies could be required. However, the safety of combining dupilumab with other monoclonal antibodies for different therapeutic indication may be debated.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39600395",
+            "title": "Biologics in allergology and clinical immunology: Update on therapies for atopic diseases, urticaria, and angioedema and on safety aspects focusing on hypersensitivity reactions.",
+            "authors": [
+              "Jappe Uta",
+              "Bergmann Karl-Christian",
+              "Brinkmann Folke",
+              "Faihs Valentina",
+              "Gülsen Askin"
+            ],
+            "journal": "Allergologie select",
+            "year": "2024",
+            "abstract": "The development of targeted therapies for atopic diseases, urticaria, and angioedema with biologics is progressing rapidly: New \"targets\" of clinical-therapeutic relevance have been identified, the corresponding targeted antibodies developed, tested in clinical trials, and approved for therapy. These include the anti-IgE antibody omalizumab (also effective and approved for the treatment of urticaria), the anti-IL-4/13 receptor-specific antibody dupilumab, the two anti-IL-13 antibodies lebrikizum",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37178404",
+            "title": "Lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis: Results from the phase 2 randomized, double-blind, placebo-controlled HILLIER trial.",
+            "authors": [
+              "Guttman-Yassky E",
+              "Bahadori L",
+              "Brooks L",
+              "Clark K L",
+              "Grindebacke H"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "Phase 2 RCT 結果報告",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40781582",
+            "title": "Benralizumab Depletes IL-5Rα-Bearing Cells in Skin Lesions of Patients With Atopic Dermatitis.",
+            "authors": [
+              "Whetstone Christiane E",
+              "Cusack Ruth P",
+              "Price Emma L",
+              "Howie Karen J",
+              "Stevens Caitlin"
+            ],
+            "journal": "Clinical and translational allergy",
+            "year": "2025",
+            "abstract": "Atopic dermatitis (AD) is a chronic inflammatory skin disease characterized by tissue eosinophilia and itch. We evaluated the effect of eosinophil depletion with benralizumab on markers of inflammation in the skin of patients with AD.",
+            "classification": {
+              "study_type": "轉譯/機轉研究",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31690400",
+            "title": "Immunobiologic treatments for severe asthma, atopic dermatitis, and chronic urticaria.",
+            "authors": [
+              "Chiarella Sergio E"
+            ],
+            "journal": "Allergy and asthma proceedings",
+            "year": "2019",
+            "abstract": "Immunobiologic agents are an important therapeutic alternative for severe asthma, atopic dermatitis, and chronic urticaria. In this article, we reviewed the most relevant studies that addressed the use of anti-immunoglobulin E (omalizumab), anti-IL-5 (mepolizumab, reslizumab, and benralizumab), and anti-IL-4/IL-13 (dupilumab) treatments for these allergic diseases. In addition, we discussed emerging immunobiologic therapies, such as tezepelumab.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38695680",
+            "title": "Treating moderate-to-severe atopic dermatitis with benralizumab: results from the HILLIER study, a plain language summary.",
+            "authors": [
+              "Guttman-Yassky Emma",
+              "Bahadori Lila",
+              "Brooks Laura",
+              "Clark Ken L",
+              "Grindebacke Hanna"
+            ],
+            "journal": "Immunotherapy",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "Phase 2 Pilot RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36270814",
+            "title": "Benralizumab-induced interstitial granulomatous dermatitis: A case report.",
+            "authors": [
+              "Mankouri Farid",
+              "Gosse Laurie",
+              "Handwerk Tom",
+              "Guyot Benjamin",
+              "Pahus Laurie"
+            ],
+            "journal": "Therapie",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32375958",
+            "title": "Biologics for oral corticosteroid-dependent asthma.",
+            "authors": [
+              "Yılmaz İnsu"
+            ],
+            "journal": "Allergy and asthma proceedings",
+            "year": "2020",
+            "abstract": "Background: Oral corticosteroid (OCS) dependent asthma is one of the severe asthma phenotypes that requires personalized treatment. Objective: To review the role of biologic treatments in OCS-dependent asthma. Methods: A nonsystematic review was performed of emerging multiple novel biologics for potential treatment of OCS-dependent asthma. Results: The serious adverse effects of OCS can be seen as a result of their regular long-term administration. Anti-interleukin (IL) 5 (mepolizumab), anti-IL-",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39222631",
+            "title": "[Not Available].",
+            "authors": [],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39222630",
+            "title": "[Not Available].",
+            "authors": [],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33717370",
+            "title": "Efficacy and Safety of Biologic Agents in Chronic Urticaria, Asthma and Atopic Dermatitis - A Real-life Experience.",
+            "authors": [
+              "Abuzakouk Mohamed",
+              "Ghorab Omar K H A",
+              "Wahla Ali S",
+              "Zoumot Zaid",
+              "Nasir Mohsen"
+            ],
+            "journal": "The open respiratory medicine journal",
+            "year": "2020",
+            "abstract": "Several biologic agents have been approved for the treatment of asthma, chronic urticaria and atopic dermatitis. These therapeutic agents are especially useful for patients with severe or refractory symptoms. We present the real-life experience of four of the commonly used biologic agents in the United Arab Emirates.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34642091",
+            "title": "Strategies for choosing a biologic for your patient with allergy or asthma.",
+            "authors": [
+              "Saco Tara",
+              "Ugalde Israel C",
+              "Cardet Juan Carlos",
+              "Casale Thomas B"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2021",
+            "abstract": "To summarize the therapeutic effects and safety of biologics either approved or in clinical development for asthma, chronic obstructive pulmonary disease, urticaria, nasal polyps, atopic dermatitis, and eosinophilic esophagitis. This review attempts to provide some guidance when choosing among agents.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38074921",
+            "title": "Dual biologics for severe asthma and atopic dermatitis: Synopsis of two cases and literature review.",
+            "authors": [
+              "Matsumoto Takeshi",
+              "Sakurai Yumiko",
+              "Tashima Noriyuki",
+              "Matoba Tomoya",
+              "Kaneko Akiko"
+            ],
+            "journal": "Respirology case reports",
+            "year": "2024",
+            "abstract": "The efficacy and safety of the combination of biologic therapies remain unclear with an ineffective and insufficient single biologic for managing asthma. Herein, we report two cases using dual biologics for severe asthma and atopic dermatitis. A 52-year-old male patient who received dupilumab and mepolizumab, benralizumab, or tezepelumab, followed by bronchial thermoplasty, and a 41-year-old male patient who received dupilumab and omalizumab, both experienced improved asthma and atopic dermatiti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33138725",
+            "title": "Targeted Molecular Therapies in Allergy and Rhinology.",
+            "authors": [
+              "Damask Cecelia C",
+              "Ryan Matthew W",
+              "Casale Thomas B",
+              "Castro Mario",
+              "Franzese Christine B"
+            ],
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2021",
+            "abstract": "Biologic agents, monoclonal antibodies that target highly-specific molecular pathways of inflammation, are becoming integrated into care pathways for multiple disorders that are relevant in otolaryngology and allergy. These conditions share common inflammatory mechanisms of so-called Type 2 inflammation with dysregulation of immunoglobulin E production and eosinophil and mast cell degranulation leading to tissue damage. Biologic agents are now available for the treatment of chronic rhinosinusiti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38035014",
+            "title": "Parasitic infections related to anti-type 2 immunity monoclonal antibodies: a disproportionality analysis in the food and drug administration's adverse event reporting system (FAERS).",
+            "authors": [
+              "Pera Victor",
+              "Brusselle Guy G",
+              "Riemann Sebastian",
+              "Kors Jan A",
+              "Van Mulligen Erik M"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2023",
+            "abstract": "Introduction: Monoclonal antibodies (mAbs) targeting immunoglobulin E (IgE) [omalizumab], type 2 (T2) cytokine interleukin (IL) 5 [mepolizumab, reslizumab], IL-4 Receptor (R) α [dupilumab], and IL-5R [benralizumab]), improve quality of life in patients with T2-driven inflammatory diseases. However, there is a concern for an increased risk of helminth infections. The aim was to explore safety signals of parasitic infections for omalizumab, mepolizumab, reslizumab, dupilumab, and benralizumab. Met",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35620572",
+            "title": "Primary eosinophilic gastrointestinal disorders and allergy: Clinical and therapeutic implications.",
+            "authors": [
+              "Rossi Carlo Maria",
+              "Lenti Marco Vincenzo",
+              "Merli Stefania",
+              "Licari Amelia",
+              "Votto Martina"
+            ],
+            "journal": "Clinical and translational allergy",
+            "year": "2022",
+            "abstract": "Primary eosinophilic gastrointestinal disorders (EGID) are increasingly prevalent, immune-mediated, chronic conditions which primarily affect pediatric and young adult patients, leading to substantial disease burden, and poor quality of life. EGID may either involve single portions of the gastrointestinal tract (i.e., esophagus, stomach, small bowel, and colon) or a combination. Their strong association with allergic disorders has been recently recognized, and although their shared pathophysiolo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39234416",
+            "title": "Effect of benralizumab on inflammation in skin after intradermal allergen challenge in patients with moderate-to-severe atopic dermatitis.",
+            "authors": [
+              "Whetstone Christiane E",
+              "Cusack Ruth P",
+              "Price Emma",
+              "Howie Karen",
+              "Stevens Catie"
+            ],
+            "journal": "The journal of allergy and clinical immunology. Global",
+            "year": "2024",
+            "abstract": "Atopic dermatitis (AD) is a skin barrier dysfunction characterized by tissue eosinophilia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38878020",
+            "title": "Patients taking benralizumab, dupilumab, or mepolizumab have lower postvaccination SARS-CoV-2 immunity.",
+            "authors": [
+              "Runnstrom Martin C",
+              "Lamothe Pedro A",
+              "Faliti Caterina E",
+              "Cheedarla Narayanaiah",
+              "Moreno Alberto"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2024",
+            "abstract": "Biologic therapies inhibiting the IL-4 or IL-5 pathways are very effective in the treatment of asthma and other related conditions. However, the cytokines IL-4 and IL-5 also play a role in the generation of adaptive immune responses. Although these biologics do not cause overt immunosuppression, their effect in primary severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) immunization has not been studied completely.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嗜酸性球為異位性皮膚炎（Atopic Dermatitis, AD）重要效應細胞，IL-5/IL-5Rα 軸驅動嗜酸性球募集至皮膚病灶，Benralizumab 可耗盡皮膚中 IL-5Rα 陽性細胞（PMID 40781582）。然而 AD 核心發炎軸以 Th2/IL-4/IL-13 為主，單純耗盡嗜酸性球不足以解決 ILC2 激活與 IL-4/IL-13 驅動的上皮屏障破壞，臨床試驗結果已確認此侷限性。特殊亞型如 DRESS（藥物反應伴嗜酸性球增多）因嗜酸性球為核心病理角色，機轉連結較強。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acne keloid",
+      "txgnn": {
+        "score": 0.9913372993469238,
+        "rank": 9545
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "痤瘡瘢痕疙瘩（Acne Keloidalis Nuchae）主要由慢性毛囊炎症、纖維母細胞異常活化及膠原蛋白過度沉積所致，IL-5Rα/嗜酸性球軸在其發病機制中無已知核心作用。TGF-β 及纖維化路徑為主要靶點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn": {
+        "score": 0.9905434250831604,
+        "rank": 10162
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "新生兒皮肌炎為罕見自體免疫性肌肉炎症，主要由干擾素（IFN）路徑及 Th1 免疫失調介導，嗜酸性球增多非其核心特徵。IL-5Rα 抑制缺乏合理機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn": {
+        "score": 0.9903174638748168,
+        "rank": 10317
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無肌病性皮肌炎（Amyopathic Dermatomyositis）以皮膚症狀為主，與 MDA5 抗體及 IFN-I 高度活化相關。部分病例伴隨輕度嗜酸性球增多，但不構成核心發病機轉，IL-5Rα 靶點合理性不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn": {
+        "score": 0.9891958236694336,
+        "rank": 11113
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性萎縮性肢端皮炎為伯氏疏螺旋體（Borrelia burgdorferi）感染所致的晚期萊姆病皮膚表現，屬感染後纖維化過程，非嗜酸性球介導。IL-5Rα 靶點完全不適用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn": {
+        "score": 0.9890194535255432,
+        "rank": 11259
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "兒童結締組織病相關繼發性間質性肺病（CTD-ILD）主要由自體免疫介導纖維化及炎症所致。雖嗜酸性球性肺炎存在，但此特定亞型以 CTD（如 JDM、MCTD）相關機轉為主，IL-5Rα 靶點缺乏直接支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn": {
+        "score": 0.988993227481842,
+        "rank": 11281
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性種痘樣水皰病為 EBV 相關 T/NK 細胞淋巴增生性疾病，由病毒驅動的細胞毒性免疫反應介導，嗜酸性球並非主要病理角色。IL-5Rα 抑制無已知機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "autoimmune thrombocytopenic",
+      "txgnn": {
+        "score": 0.9837088584899902,
+        "rank": 14969
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫性血小板減少症與「thrombocytopenia due to immune destruction」機轉相近，均以 B 細胞產生抗 GP IIb/IIIa 抗體及 Fc 受體介導血小板破壞為核心，嗜酸性球角色邊緣。兩個適應症的評估結論一致。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Evans syndrome",
+      "txgnn": {
+        "score": 0.9824231863021852,
+        "rank": 15795
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Evans 症候群為自體免疫溶血性貧血（AIHA）合併免疫性血小板減少症，核心為 B 細胞自體抗體失調及 T 細胞調節異常，常與 SLE 或 CVID 相關。IL-5Rα 靶點與此多系列自體免疫疾病無直接機轉連結，建議優先評估 Rituximab（anti-CD20）等已有證據的生物製劑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "thrombocytopenia due to immune destruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "autoimmune thrombocytopenic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "autoimmune thrombocytopenic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "autoimmune thrombocytopenic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "Evans syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "Evans syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benralizumab",
+        "disease": "Evans syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

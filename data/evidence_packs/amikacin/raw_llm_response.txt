@@ -1,0 +1,445 @@
+## Amikacin (DB00479) 藥物再利用證據分析
+
+**藥物背景說明**：Amikacin 是廣效性氨基糖苷類（aminoglycoside）抗生素，透過結合細菌 30S 核糖體次單元抑制蛋白質合成，對需氧革蘭氏陰性菌具有強效活性。市場狀態標示「未上市」可能為特定國家/地區資料缺漏（全球範圍內 Amikacin 為已上市藥物）。
+
+---
+
+```json
+{
+  "drug": "Amikacin",
+  "drugbank_id": "DB00479",
+  "analysis_date": "2026-04-05",
+  "data_quality_flag": "market_status_anomaly — Amikacin 為全球已核准抗生素，'未上市' 疑為地區資料缺漏，分析仍以現有證據為準",
+  "indications": [
+    {
+      "disease_name": "paratyphoid fever",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "副傷寒沙門氏菌（Salmonella paratyphi A/B/C）為革蘭氏陰性腸桿菌科，Amikacin 透過 30S 核糖體抑制可有效對抗此類病原。臨床相關性在於多重抗藥性（MDR）菌株對傳統一線藥物（氯黴素、安比西林、TMP-SMX）產生抗藥後，Amikacin 可作為救援性抗生素。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2516600",
+          "year": "1989",
+          "study_type": "Case Series / Retrospective",
+          "tier": "3",
+          "relevance": "A",
+          "reasoning": "標題直接指向「對傳統治療有抗藥性的副傷寒B感染所使用的抗生素及結果」，是本組中與 Amikacin 治療副傷寒相關性最高的文獻，可能包含 Amikacin 作為替代療法的直接臨床結果資料。"
+        },
+        {
+          "pmid": "9459410",
+          "year": "1997",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "新生兒喹諾酮耐藥性副傷寒B腦膜炎案例，情境顯示需要氨基糖苷類替代治療，Amikacin 作為潛在救援藥物的間接證據。"
+        },
+        {
+          "pmid": "17337835",
+          "year": "2007",
+          "study_type": "Retrospective / Case Series",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "副傷寒敗血症的臨床描述，可能包含抗生素使用資料，提供間接相關性。"
+        },
+        {
+          "pmid": "30724049",
+          "year": "2018",
+          "study_type": "Cross-sectional / Microbiological",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "腸熱症患者的菌株分離與鑑定研究，提供流行病學背景但無直接 Amikacin 療效資料。"
+        },
+        {
+          "pmid": "26905550",
+          "year": "2014",
+          "study_type": "Retrospective / Antibiogram Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "教學醫院血液培養菌株的抗生素敏感性分析，提供 Amikacin 對沙門氏菌 MIC 資料，為間接支持性證據。"
+        },
+        {
+          "pmid": "18383953",
+          "year": "2007",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance": "C",
+          "reasoning": "前瞻性臨床微生物學研究，提供腸熱症的治療模式概況，相關性為背景資料層級。"
+        },
+        {
+          "pmid": "14596347",
+          "year": "2003",
+          "study_type": "Cross-sectional / Microbiological",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "約旦沙門氏菌流行率研究，提供地理性背景資料，與 Amikacin 療效無直接關聯。"
+        },
+        {
+          "pmid": "16410091",
+          "year": "2006",
+          "study_type": "Retrospective / Case Series",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "兒童脾臟膿瘍經皮引流管理，與副傷寒合併症相關，Amikacin 使用為治療組合的一部分。"
+        },
+        {
+          "pmid": "27407999",
+          "year": "2007",
+          "study_type": "Retrospective / Antibiogram Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "腸熱症中氯黴素敏感性再現的研究，說明抗藥性演化背景，間接支持 Amikacin 作為替代需求。"
+        },
+        {
+          "pmid": "10505326",
+          "year": "1999",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "急性白血病兒童合併副傷寒B膽囊炎的個案，提供特殊族群合併症的背景，與 Amikacin 療效無直接關聯。"
+        }
+      ],
+      "evidence_summary": "共 12 篇文獻，主要為抗生素敏感性研究、個案報告及回顧性研究（Tier 3）。PMID 2516600 提供最直接的臨床使用依據，但年代久遠（1989）。無 RCT 或前瞻性介入性研究。整體屬間接/個案層級證據，但機轉合理性高。"
+    },
+    {
+      "disease_name": "typhoid fever",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "傷寒沙門氏菌（Salmonella typhi）為革蘭氏陰性胞內菌，Amikacin 對其有體外抑菌活性。在多重抗藥性傷寒（MDR typhoid）情境下，氨基糖苷類可作為第三線替代方案，但因細胞內分佈限制（lysosomes），臨床療效相較喹諾酮類或第三代頭孢菌素為弱。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19554971",
+          "year": "2009",
+          "study_type": "In vitro / Laboratory Study",
+          "tier": "3",
+          "relevance": "A",
+          "reasoning": "「慶大黴素與 Amikacin 對傷寒沙門氏菌的體外活性」—最直接相關的實驗室研究，直接測試 Amikacin 的 MIC，為本適應症最高相關性文獻。"
+        },
+        {
+          "pmid": "7957789",
+          "year": "1994",
+          "study_type": "Prospective Observational / Clinical",
+          "tier": "2",
+          "relevance": "B",
+          "reasoning": "住院兒童多重抗藥性傷寒的前瞻性臨床和細菌學研究，MDR 情境下的治療選擇分析，Amikacin 可能被納入替代方案討論。"
+        },
+        {
+          "pmid": "38686255",
+          "year": "2024",
+          "study_type": "Retrospective / Systematic Antibiogram Analysis",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "2024年最新沙門氏菌抗生素圖譜綜合分析，提供當代抗藥性模式，可評估 Amikacin 現今臨床可用性。"
+        },
+        {
+          "pmid": "38965941",
+          "year": "2024",
+          "study_type": "Molecular / Retrospective",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "從膽囊切除術患者分離傷寒沙門氏菌的分子偵測研究，提供帶菌者背景資料，與 Amikacin 療效無直接關聯。"
+        },
+        {
+          "pmid": "20334064",
+          "year": "2009",
+          "study_type": "Cross-sectional / Antibiogram Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "加德滿都地區教學醫院腸熱症及沙門氏菌抗生素圖譜研究，提供地區性耐藥模式背景。"
+        },
+        {
+          "pmid": "37228010",
+          "year": "2023",
+          "study_type": "Cross-sectional / Epidemiological",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "瘧疾與傷寒共病流行病學研究，與 Amikacin 治療無直接相關性。"
+        },
+        {
+          "pmid": "9868065",
+          "year": "1997",
+          "study_type": "Retrospective / Clinical Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "178名傷寒患者的臨床和實驗室研究，提供治療模式背景，相關性為間接。"
+        },
+        {
+          "pmid": "2598731",
+          "year": "1989",
+          "study_type": "Retrospective / Clinical",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "奧氟沙星治療傷寒的療效研究，Amikacin 可能作為比較組，間接相關。"
+        },
+        {
+          "pmid": "26905550",
+          "year": "2014",
+          "study_type": "Retrospective / Antibiogram Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "同副傷寒組共用文獻，抗生素敏感性背景資料。"
+        },
+        {
+          "pmid": "18383953",
+          "year": "2007",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance": "C",
+          "reasoning": "同副傷寒組共用文獻，腸熱症治療模式背景資料。"
+        }
+      ],
+      "evidence_summary": "20篇文獻中，PMID 19554971 提供直接體外活性數據（L3 的主要依據）。2024年有兩篇最新抗藥性研究。缺乏 RCT，但體外活性加上流行病學研究構成 L3 等級。Amikacin 在 MDR 傷寒中已有臨床使用慣例（尤其在資源受限地區）。"
+    },
+    {
+      "disease_name": "salmonellosis",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "沙門氏菌屬（Salmonella spp.）為革蘭氏陰性腸桿菌，氨基糖苷類對其具有天然抑菌活性。Amikacin 因對氨基糖苷修飾酶（AME）的穩定性，在 gentamicin 耐藥菌株中仍可保持活性。動物實驗已驗證對 S. typhimurium 感染的治療效果。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8741602",
+          "year": "1996",
+          "study_type": "Animal Study (In vivo)",
+          "tier": "3",
+          "relevance": "A",
+          "reasoning": "「Amikacin 療法對實驗性鼠傷寒沙門氏菌感染的抗菌效果」—唯一動物實驗，直接測試 Amikacin 對沙門氏菌病的治療效果，是最高相關性文獻。"
+        },
+        {
+          "pmid": "19554971",
+          "year": "2009",
+          "study_type": "In vitro / Laboratory Study",
+          "tier": "3",
+          "relevance": "A",
+          "reasoning": "體外活性研究，直接測試 Amikacin 對沙門氏菌的 MIC，提供機轉驗證。"
+        },
+        {
+          "pmid": "993629",
+          "year": "1976",
+          "study_type": "Clinical Study / Case Series",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "「Amikacin 在產科、婦科和新生兒感染中的實驗室和臨床研究」—雖非直接針對沙門氏菌病，但提供早期 Amikacin 臨床使用的直接人體資料。"
+        },
+        {
+          "pmid": "36698730",
+          "year": "2023",
+          "study_type": "In vitro / Nanotechnology Study",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "百里香酚奈米粒與 Amikacin 協同抗生物膜活性研究，顯示 Amikacin 在克服耐藥性沙門氏菌方面的潛力（新型給藥策略）。"
+        },
+        {
+          "pmid": "30912318",
+          "year": "2019",
+          "study_type": "In vitro / Laboratory Study",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "太空飛行後腸炎沙門氏菌的 Amikacin 抗藥性增加研究，揭示耐藥機制，間接相關但指出重要安全性考量。"
+        },
+        {
+          "pmid": "38003763",
+          "year": "2023",
+          "study_type": "Retrospective / Epidemiological",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "2015-2021年侵入性與非侵入性沙門氏菌病例分析，提供流行病學背景。"
+        },
+        {
+          "pmid": "28784420",
+          "year": "2017",
+          "study_type": "Retrospective / Microbiological",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "沙門氏菌病抗菌素耐藥性及生理生物標誌物研究，提供耐藥性背景。"
+        },
+        {
+          "pmid": "17337835",
+          "year": "2007",
+          "study_type": "Retrospective / Case Series",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "副傷寒敗血症（沙門氏菌病亞型）的臨床描述，間接相關。"
+        },
+        {
+          "pmid": "9688200",
+          "year": "1998",
+          "study_type": "Retrospective / Microbiological",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "燒傷細菌學研究，沙門氏菌可能為燒傷感染病原之一，背景相關性低。"
+        },
+        {
+          "pmid": "1879957",
+          "year": "1991",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "抗生素脂質體與奈米粒遞送系統綜述，Amikacin 為例子之一，屬技術背景文獻。"
+        }
+      ],
+      "evidence_summary": "20篇文獻中，有1篇動物實驗（PMID 8741602）、2篇體外研究（PMID 19554971, 36698730）、1篇臨床案例系列（PMID 993629）提供直接或半直接證據。整合動物與體外資料，定為 L3。無 RCT 或前瞻性人體介入研究。"
+    },
+    {
+      "disease_name": "epiglottitis",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "會厭炎主要病原為 Haemophilus influenzae type b（Hib）及 Streptococcus pyogenes。Amikacin 對 Hib 有限度活性，但標準治療為第三代頭孢菌素（ceftriaxone），非氨基糖苷類。缺乏針對此適應症的機轉合理性支持。TxGNN 預測可能源於廣義抗細菌感染的知識圖譜連結，非特異性證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻。純 TxGNN 演算法預測。機轉支持度弱，現有標準治療成熟，不建議追求此方向。"
+    },
+    {
+      "disease_name": "meningococcemia",
+      "txgnn_score": 0.9958,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦膜炎雙球菌（Neisseria meningitidis）為革蘭氏陰性雙球菌，Amikacin 體外對其有抑菌活性。然而，氨基糖苷類藥物 CNS 穿透率極低（腦脊液/血清比 < 10%），且腦膜炎球菌血症的標準治療為高劑量盤尼西林G或頭孢菌素。Amikacin 的臨床使用僅限於新生兒腦膜炎的輔助治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1296535",
+          "year": "1992",
+          "study_type": "Retrospective / Comparative Study",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "「腦膜炎球菌性腦膜炎患者不同抗生素的比較療效」—最直接相關的文獻，可能包含 Amikacin 與其他抗生素的比較，但年代久遠（1992）且研究方法不確定。"
+        },
+        {
+          "pmid": "6397449",
+          "year": "1984",
+          "study_type": "Review / Case Series",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "新生兒細菌性腦膜炎管理的早期綜述，Amikacin 可能作為新生兒腦膜炎的輔助治療被提及，與腦膜炎球菌血症的直接相關性有限。"
+        },
+        {
+          "pmid": "12425878",
+          "year": "2002",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "新生兒腸球菌腦膜炎個案系列，病原為 Enterococcus（非 Neisseria），與腦膜炎球菌血症的相關性低，但展示 Amikacin 在 CNS 感染中的輔助角色。"
+        }
+      ],
+      "evidence_summary": "僅3篇文獻，均為歷史性（1984-2002）研究，研究方法不確定。CNS 穿透率限制是主要障礙。現有標準治療（盤尼西林、頭孢菌素）療效確立，本適應症不具有再利用優先性。"
+    },
+    {
+      "disease_name": "diffuse scleroderma",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫性系統性硬皮症（dcSSc）為自體免疫性纖維化疾病，病理機轉涉及 TGF-β 纖維化路徑、血管內皮功能障礙及免疫失調。Amikacin 為純抗菌機轉，與 dcSSc 的免疫病理無合理連結。TxGNN 高分可能源於知識圖譜中「藥物-蛋白質-疾病」的間接路徑（如共享蛋白質節點），非真實治療相關性的反映。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻，0/0。純演算法預測，機轉不合理，列為最低優先級。TxGNN 評分虛高（0.9982）可能為知識圖譜中的假陽性，建議進行路徑解析以了解預測依據。"
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "點狀上皮性角結膜炎（PEK）常見病因為病毒感染（腺病毒、HSV）或免疫介導性，偶有細菌性原因。雖然 Amikacin 確有眼科局部用途（細菌性結膜炎/角膜炎），但 PEK 的主要病因不在氨基糖苷類的抗菌範疇，且此特定亞型無文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻，0/0。即使 Amikacin 有眼科外用製劑，針對 PEK 此特定診斷的證據為零，不建議優先追求。"
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症為 ALB 基因突變導致的極罕見蛋白質缺乏症，與感染無關。然而，低白蛋白血症確實會影響 Amikacin 的蛋白質結合率（氨基糖苷類蛋白質結合率低，< 10%），進而影響藥物動力學，但此為藥代動力學考量，非治療性再利用。TxGNN 預測可能反映了蛋白質結合的共享節點，屬假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻，0/0。預測無合理治療機轉，分類為假陽性知識圖譜預測。"
+    },
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多克隆高黏滯症候群為血清蛋白異常增高所致的血液流變學疾病（如慢性炎症、感染驅動的免疫球蛋白多克隆增生）。若為感染性病因（如 HIV、肝炎），Amikacin 對特定細菌合併感染有角色，但針對高黏滯症候群本身無任何治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻，0/0。疾病機轉與 Amikacin 藥理無合理連結，確認為演算法假陽性。"
+    },
+    {
+      "disease_name": "hyperamylasemia",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高澱粉酶血症為胰臟或非胰臟來源的血清澱粉酶升高，需針對病因治療。值得注意的是，Amikacin 的腎毒性可能間接影響澱粉酶排泄，但此屬副作用考量，非治療關聯。無任何藥理機轉支持 Amikacin 用於降低澱粉酶或治療其病因。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻，0/0。不僅無治療機轉，Amikacin 的腎毒性副作用可能加重部分高澱粉酶血症患者的狀況，列為 Hold 並附帶安全性警示。"
+    }
+  ],
+  "overall_analysis": {
+    "high_priority_indications": [
+      {
+        "rank": 1,
+        "disease": "typhoid fever",
+        "rationale": "直接體外證據（PMID 19554971）+ 前瞻性臨床研究（PMID 7957789）+ 2024年最新抗藥性數據，機轉合理性最強，且 MDR 傷寒臨床需求明確。"
+      },
+      {
+        "rank": 2,
+        "disease": "salmonellosis",
+        "rationale": "唯一具有動物實驗直接治療證據（PMID 8741602）的適應症，加上體外活性及協同奈米給藥研究（PMID 36698730），科學價值較高。"
+      },
+      {
+        "rank": 3,
+        "disease": "paratyphoid fever",
+        "rationale": "與傷寒病理高度類似，PMID 2516600 提供 MDR 案例的歷史臨床數據，機轉同等合理。"
+      }
+    ],
+    "false_positive_flags": [
+      "diffuse scleroderma — 自體免疫疾病，機轉無關聯，高分假陽性",
+      "congenital analbuminemia — 遺傳性蛋白質缺乏，無治療機轉",
+      "polyclonal hyperviscosity syndrome — 血液流變學疾病，無機轉連結",
+      "hyperamylasemia — 無機轉連結，且 Amikacin 腎毒性可能為安全疑慮"
+    ],
+    "data_gaps": [
+      "original_moa 標記為 [Data Gap]：Amikacin 機轉已知（30S ribosome inhibitor），建議補全 DrugBank 資料",
+      "market_status '未上市' 疑為地區資料缺漏，需確認特定國家上市狀態",
+      "ddi_count = 0 明顯異常：Amikacin 有已知與神經肌肉阻斷劑、呋塞米的交互作用，需修正",
+      "typhoid fever / salmonellosis 無臨床試驗連結，建議補充 WHO ICTRP 及區域試驗資料庫搜尋"
+    ],
+    "safety_considerations": "Amikacin 的主要安全顧慮為腎毒性（dose-dependent）與耳毒性（不可逆），治療視窗窄，需 TDM（藥物濃度監測）。對於高澱粉酶血症（可能腎功能異常）患者需特別謹慎。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **typhoid fever** | L3 | S1 | Research Question | 直接體外活性研究 + 臨床研究 |
+| **salmonellosis** | L3 | S1 | Research Question | 動物實驗直接治療證據 |
+| **paratyphoid fever** | L4 | S1 | Research Question | 歷史臨床案例 + 抗生素圖譜 |
+| **meningococcemia** | L4 | S0 | Hold | CNS穿透率限制，歷史文獻 |
+| **epiglottitis** | L5 | S0 | Hold | 無文獻，機轉不支持 |
+| **diffuse scleroderma** | L5 | S0 | Hold | 純預測，機轉假陽性 |
+| **keratoconjunctivitis** | L5 | S0 | Hold | 純預測，無文獻 |
+| **congenital analbuminemia** | L5 | S0 | Hold | 純預測，假陽性 |
+| **hyperviscosity syndrome** | L5 | S0 | Hold | 純預測，假陽性 |
+| **hyperamylasemia** | L5 | S0 | Hold | 純預測 + 安全性疑慮 |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證方可應用。

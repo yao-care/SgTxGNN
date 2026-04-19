@@ -1,0 +1,587 @@
+## Ifosfamide (DB01181) 藥物再利用證據分析
+
+> ⚠️ **重要提示**：資料集標注 `original_moa: "[Data Gap]"`，但 Ifosfamide 為已知烷化劑（Oxazaphosphorine 類），透過 DNA 鏈交聯阻斷腫瘤細胞複製，屬成熟化療藥物。市場狀態「未上市」可能為新加坡本地藥局資料空缺，並非全球未上市。
+
+---
+
+```json
+{
+  "drug": "Ifosfamide",
+  "drugbank_id": "DB01181",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Ifosfamide 為烷化劑，MoA 為 DNA 烷基化交聯，[Data Gap] 係本地資料集缺漏，非機轉不明。市場狀態需確認是否為 SG 在地資料問題。",
+  "indications": [
+    {
+      "disease_name": "female breast carcinoma",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ifosfamide 為烷化劑，透過 DNA 鏈交聯誘導快速分裂之乳癌細胞凋亡。常與 paclitaxel、docetaxel、carboplatin 組合，針對蒽環素耐藥或轉移性乳癌具理論基礎。存在一項 Phase 3 試驗（UNKNOWN 狀態），多項 Phase 2 完成，但尚缺乏已發表 Phase 3 主要終點結果，故定 L2。",
+      "safety_flags": [],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00954174",
+          "title": "Paclitaxel+Carboplatin vs Ifosfamide+Paclitaxel in Chemo-naive...",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 637,
+          "relevance_grade": "A",
+          "reasoning": "唯一 Phase 3 RCT，直接比較含 Ifosfamide 組合 vs 對照組，n=637 具統計效力。狀態 UNKNOWN 無法確認已發表結果，無法升至 L1，但為最關鍵試驗。"
+        },
+        {
+          "nct_id": "NCT00026078",
+          "title": "Docetaxel-Ifosfamide As First Line Chemotherapy In Metastatic Breast Cancer",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 42,
+          "relevance_grade": "A",
+          "reasoning": "直接評估 Ifosfamide 作為轉移性乳癌一線療法，n=42，與適應症高度相關。"
+        },
+        {
+          "nct_id": "NCT00002854",
+          "title": "Sequential High Dose Cycles of Cisplatin, Cyclophosphamide, Etoposide and IFO",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 完成試驗，評估含 IFO 高劑量方案安全性，支持乳癌中使用 Ifosfamide 的劑量依據，但非療效主體研究。"
+        },
+        {
+          "nct_id": "NCT00003086",
+          "title": "Samarium 153 as Part of Double Autologous Bone Marrow Transplant",
+          "phase": "PHASE1/2",
+          "status": "TERMINATED",
+          "enrollment": 12,
+          "relevance_grade": "C",
+          "reasoning": "試驗因故終止，樣本數極小，研究聚焦 Samarium 153，Ifosfamide 為輔助化療成分，相關性低。"
+        },
+        {
+          "nct_id": "NCT00020722",
+          "title": "Treatment of Stage IV Breast Cancer With Activated T Cells After PBSCT",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 7,
+          "relevance_grade": "C",
+          "reasoning": "試驗終止，n=7，主要評估免疫細胞治療，Ifosfamide 用於預處理，非主要干預。"
+        },
+        {
+          "nct_id": "NCT00012311",
+          "title": "Multi-Cycle High-Dose vs Conventionally-Dosed Chemotherapy",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": "N/A",
+          "relevance_grade": "B",
+          "reasoning": "比較高劑量與標準劑量化療，含 IFO 方案，對劑量優化有參考價值，但樣本數及結果不明。"
+        },
+        {
+          "nct_id": "NCT00006032",
+          "title": "Intensive-Dose Topotecan, Ifosfamide/Mesna and Etoposide (TIME) Followed by ABMT",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": "N/A",
+          "relevance_grade": "B",
+          "reasoning": "評估 TIME 方案（含 IFO）後幹細胞移植，試驗終止，但確認 IFO 為乳癌強化方案核心成分。"
+        },
+        {
+          "nct_id": "NCT04279509",
+          "title": "Chemotherapy Selection With High-throughput Drug Screen Using Patient Derived Organoids",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 35,
+          "relevance_grade": "C",
+          "reasoning": "研究類型為精準醫療篩選平台，IFO 為候選藥物之一，非特定療效評估試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "11932893",
+          "title": "Phase II study of paclitaxel and ifosfamide in anthracycline-resistant metastatic breast cancer",
+          "year": "2002",
+          "study_type": "Phase II Trial",
+          "tier": 2,
+          "note": "直接 Phase 2 RCT，針對蒽環素耐藥族群，療效證據強"
+        },
+        {
+          "pmid": "2347057",
+          "title": "Ifosfamide, methotrexate, and 5-FU: effective combination in resistant breast cancer",
+          "year": "1990",
+          "study_type": "Clinical Trial",
+          "tier": 2,
+          "note": "早期三藥組合研究，確立 IFO 在耐藥乳癌中的活性"
+        },
+        {
+          "pmid": "11138456",
+          "title": "Ifosfamide metabolism and DNA damage in tumour and peripheral blood lymphocytes of breast cancer patients",
+          "year": "2000",
+          "study_type": "Translational Study",
+          "tier": 2,
+          "note": "提供 IFO 在乳癌組織中的 PK/PD 及 DNA 損傷機轉直接證據"
+        },
+        {
+          "pmid": "10907953",
+          "title": "Combined 4-hydroxy-ifosfamide and vinorelbine treatment in human breast cell lines",
+          "year": "2000",
+          "study_type": "In Vitro Study",
+          "tier": 3,
+          "note": "細胞株協同效應研究，支持 IFO+VNR 組合機轉基礎"
+        },
+        {
+          "pmid": "1720382",
+          "title": "Ifosfamide/mesna: review of antineoplastic activity, pharmacokinetics and therapeutic use",
+          "year": "1991",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "系統性回顧含乳癌適應症早期證據彙整"
+        },
+        {
+          "pmid": "26030252",
+          "title": "Metaplastic carcinoma of the breast",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "特殊亞型乳癌（化生型）中 IFO 的使用文獻回顧"
+        }
+      ]
+    },
+    {
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉連結。TxGNN 預測可能基於 Ifosfamide 作為烷化劑的廣泛抗增殖效應推斷，但 MDS 為骨髓造血異常而非實體腫瘤，烷化劑實為 MDS 的已知致病因子（therapy-related MDS），使用具重大安全顧慮。",
+      "safety_flags": ["⚠️ 烷化劑為 therapy-related MDS 已知病因，使用於 MDS 患者具矛盾性安全疑慮"],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 5",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "5q- 症候群為 MDS 亞型，以 del(5q) 為標誌性染色體異常。現有標準治療為 Lenalidomide（免疫調節機轉）。Ifosfamide 烷化劑無特異性針對 del(5q) 克隆的理論基礎，且可能誘發次發性染色體不穩定性。",
+      "safety_flags": ["⚠️ 無針對 5q- 的機轉依據", "⚠️ 烷化劑可能加重染色體不穩定"],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "refractory cytopenia of childhood",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "兒童難治性血細胞減少症（RCC）屬低度 MDS，主要治療為免疫抑制療法或幹細胞移植前預處理。Ifosfamide 作為 ICE 方案（Ifosfamide + Carboplatin + Etoposide）預處理成分，理論上可透過骨髓清除達到移植前細胞減少，但此為間接應用。",
+      "safety_flags": ["⚠️ 現有試驗為兒童急性白血病研究，非 RCC 特定適應症"],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00003597",
+          "title": "rhTPO Plus G-CSF in Children Receiving Ifosfamide, Carboplatin, Etoposide",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 16,
+          "relevance_grade": "B",
+          "reasoning": "評估 ICE 方案在兒童惡性固體腫瘤中的造血支持，間接涉及 Ifosfamide 在兒童血液系統的安全應用，但非 RCC 特定研究。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8348510",
+          "title": "Ifosfamide with mesna and etoposide in recurrent, refractory acute leukemia in childhood",
+          "year": "1993",
+          "study_type": "Clinical Series",
+          "tier": 3,
+          "note": "IFO+VP-16 在兒童復發難治急性白血病中的活性報告，與 RCC 具部分生物背景重疊，但疾病不同"
+        }
+      ]
+    },
+    {
+      "disease_name": "severe congenital hypochromic anemia with ringed sideroblasts",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "環形鐵粒幼細胞性低色素貧血（如 XLSA、Pearson 症候群）為先天性鐵代謝或粒線體異常疾病，非增殖性腫瘤。Ifosfamide 細胞毒性機轉無法針對性修正造血缺陷，且烷化劑可能加劇貧血（骨髓毒性）。",
+      "safety_flags": ["⚠️ 先天性非腫瘤性疾病，烷化劑無治療理論依據", "⚠️ 可能加重骨髓抑制"],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "aregenerative anemia",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "再生不良性貧血（包含再生障礙性貧血）以造血幹細胞缺乏或骨髓衰竭為特徵，標準治療為免疫抑制或 HSCT。提供的 20 篇文獻均為 Ifosfamide 在其他癌症（淋巴瘤、肉瘤、肺癌）的研究，未見專門針對再生不良性貧血的證據。高劑量烷化劑可能誘發骨髓清除（移植前預處理場景），但此非再利用新適應症。",
+      "safety_flags": [
+        "⚠️ 提供文獻與再生不良性貧血無直接相關",
+        "⚠️ 烷化劑本身為骨髓毒性藥物，使用於骨髓衰竭患者具高度安全風險"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8120552",
+          "title": "Ifosfamide, carboplatin, and etoposide: a new regimen with a broad spectrum of activity",
+          "year": "1994",
+          "study_type": "Phase I/II Trial",
+          "tier": 2,
+          "note": "ICE 方案奠基研究，廣效性但針對實體腫瘤，非造血障礙"
+        },
+        {
+          "pmid": "37441423",
+          "title": "Outcome and toxicity of ICE versus gemcitabine and vinorelbine regimens",
+          "year": "2023",
+          "study_type": "Comparative Study",
+          "tier": 2,
+          "note": "最新 ICE 方案毒性與療效比較，揭示骨髓毒性 profile，對再生不良性貧血使用具反向安全意涵"
+        }
+      ]
+    },
+    {
+      "disease_name": "rhabdomyosarcoma (disease)",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ifosfamide 為橫紋肌肉瘤（RMS）多藥化療方案的核心藥物，透過 DNA 烷基化交聯對快速分裂的間葉組織來源腫瘤具直接細胞毒性。IRS-IV（Intergroup Rhabdomyosarcoma Study IV）確立其與 vincristine、actinomycin-D 組合（VAI/VIE）為標準治療依據。現有 Phase 3 完成試驗（NCT00003212, n=780）及多項 Phase 2 完成試驗，支持最高證據等級。",
+      "safety_flags": ["注意兒科劑量調整", "Ifosfamide 腦病變（encephalopathy）為已知副作用，需 methylene blue 預防"],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00003212",
+          "title": "Phase III: Two Schedules of Ifosfamide vs Standard Dose Doxorubicin in Soft Tissue Sarcoma",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 780,
+          "relevance_grade": "A",
+          "reasoning": "最高相關性：Phase 3 完成試驗，n=780，直接比較 Ifosfamide 不同給藥方案 vs 標準 Doxorubicin，RMS 涵蓋於軟組織肉瘤範疇，結果已發表，為 L1 核心依據。"
+        },
+        {
+          "nct_id": "NCT00379457",
+          "title": "A Protocol For Nonmetastatic Rhabdomyosarcoma [RMS-2005]",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 600,
+          "relevance_grade": "A",
+          "reasoning": "RMS 專病 Phase 3 試驗，n=600，直接評估含 IFO 方案於非轉移性 RMS 之療效，高度相關。"
+        },
+        {
+          "nct_id": "NCT00001335",
+          "title": "Ewing's Sarcoma, High Risk Rhabdomyosarcoma New Therapeutic Strategies",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 90,
+          "relevance_grade": "A",
+          "reasoning": "專針對高風險 RMS，Phase 2 完成，評估強化 IFO 方案，直接療效數據。"
+        },
+        {
+          "nct_id": "NCT00025441",
+          "title": "MMT 98 Study For Metastatic Disease Rhabdomyosarcoma",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": "N/A",
+          "relevance_grade": "A",
+          "reasoning": "國際多中心 RMS 轉移性疾病 Phase 2，含 IFO 方案，直接相關。"
+        },
+        {
+          "nct_id": "NCT00025363",
+          "title": "Randomized Phase II Window Study of Irinotecan Schedules in RMS",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 150,
+          "relevance_grade": "B",
+          "reasoning": "RMS 全組 Phase 2，評估 Irinotecan 新方案，IFO 為對照組背景化療，確認標準治療地位。"
+        },
+        {
+          "nct_id": "NCT03651375",
+          "title": "Hypofractionated Radiotherapy With Doxorubicin and Ifosfamide-based Chemotherapy in STS",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 46,
+          "relevance_grade": "B",
+          "reasoning": "軟組織肉瘤（含 RMS）放化療整合試驗，IFO 為化療主體，相關性高但非 RMS 專病。"
+        },
+        {
+          "nct_id": "NCT02050919",
+          "title": "Sorafenib With Chemotherapy, Radiation, and Surgery for High-Risk Soft Tissue Sarcoma",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 20,
+          "relevance_grade": "B",
+          "reasoning": "高風險軟組織肉瘤新輔助治療，IFO 為化療基底，n=20 樣本較小，間接相關。"
+        },
+        {
+          "nct_id": "NCT02180867",
+          "title": "Pazopanib Neoadjuvant Trial in Non-RMS Soft Tissue Sarcomas (PAZNTIS)",
+          "phase": "PHASE2/3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 140,
+          "relevance_grade": "C",
+          "reasoning": "非 RMS 軟組織肉瘤，IFO 為輔助化療，Pazopanib 為主要研究干預，與 RMS 適應症相關性較低。"
+        },
+        {
+          "nct_id": "NCT00003597",
+          "title": "rhTPO Plus G-CSF in Children Receiving ICE",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 16,
+          "relevance_grade": "B",
+          "reasoning": "評估 ICE 方案造血支持，涉及 RMS 等兒童惡性腫瘤，支持 IFO 兒科 RMS 安全性數據。"
+        },
+        {
+          "nct_id": "NCT00187109",
+          "title": "Phase I/II Trial of Recombinant Human Thrombopoietin in Children With Malignant Solid Tumors",
+          "phase": "PHASE1/2",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "聚焦 rhTPO 支持治療，IFO 為化療背景，主要研究目的非 RMS 療效。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "11408506",
+          "title": "Intergroup Rhabdomyosarcoma Study-IV: results for patients with nonmetastatic disease",
+          "year": "2001",
+          "study_type": "Phase III RCT (IRS-IV)",
+          "tier": 1,
+          "note": "最高等級：IRS-IV 主要結果，奠定 IFO 在 RMS 標準治療地位的核心文獻"
+        },
+        {
+          "pmid": "11846301",
+          "title": "Ifosfamide and etoposide are superior to vincristine and melphalan for pediatric metastatic RMS",
+          "year": "2001",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "隨機對照試驗，直接確立 IFO+VP-16 優於 VCR+Melphalan 於兒科轉移性 RMS"
+        },
+        {
+          "pmid": "26503200",
+          "title": "Intensive Multiagent Therapy Including Dose-Compressed Ifosfamide/Etoposide and VAC for RMS",
+          "year": "2016",
+          "study_type": "Prospective Clinical Trial",
+          "tier": 2,
+          "note": "劑量壓縮強化方案，顯示 IFO 強化療法在特定 RMS 亞群的療效數據"
+        },
+        {
+          "pmid": "17091486",
+          "title": "Comparison of VDC/IE alternating regimen for Ewing sarcoma/RMS",
+          "year": "2008",
+          "study_type": "Comparative Study",
+          "tier": 2,
+          "note": "VDC/IE（含 IFO+Etoposide）交替方案 vs 傳統方案比較"
+        },
+        {
+          "pmid": "40591908",
+          "title": "Clinical Features and Treatment Results in Children With Head and Neck Rhabdomyosarcoma",
+          "year": "2025",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "note": "最新 2025 年 H&N RMS 回顧性研究，確認 IFO 現代治療策略中的持續使用"
+        },
+        {
+          "pmid": "40056850",
+          "title": "Radiologic responses in high-risk STS treated with neoadjuvant chemotherapy",
+          "year": "2025",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "note": "2025 年含 IFO 新輔助方案的影像學反應評估，現代療效指標"
+        },
+        {
+          "pmid": "31786124",
+          "title": "Risk-based treatment strategy for non-RMS soft-tissue sarcomas in patients younger than 30",
+          "year": "2020",
+          "study_type": "Prospective Study",
+          "tier": 2,
+          "note": "年輕族群 STS 風險分層治療策略，IFO 為高風險組核心藥物"
+        }
+      ]
+    },
+    {
+      "disease_name": "myelodysplastic syndrome",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️【逆向信號警示】文獻分析顯示，提供的 20 篇文獻中，多篇明確記錄 Ifosfamide（作為烷化劑）為 therapy-related MDS/AML（t-MDS/t-AML）的致病因子，而非治療藥物。Ifosfamide 作為烷化劑透過 DNA 損傷累積，增加次發性血液惡性腫瘤風險（尤其與 Etoposide 合用時）。此為再利用的反向依據。",
+      "safety_flags": [
+        "🔴 Ifosfamide 為烷化劑，係 therapy-related MDS/AML 的已確認危險因子",
+        "🔴 多篇文獻記錄 IFO 治療後出現 MDS 作為嚴重遠期毒性",
+        "⚠️ 本適應症的 TxGNN 高分可能係知識圖譜中 IFO-MDS 連結為副作用而非療效關係之誤判"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00003406",
+          "title": "Phase I-II Intensive-Dose Ifosfamide, Carboplatin and Taxotere (IC-T) for AML/MDS",
+          "phase": "PHASE1/2",
+          "status": "COMPLETED",
+          "enrollment": 30,
+          "relevance_grade": "B",
+          "reasoning": "唯一直接於 AML/MDS 族群評估含 IFO 方案之試驗，n=30，Phase 1/2，提供部分療效信號但樣本小。"
+        },
+        {
+          "nct_id": "NCT04318678",
+          "title": "CD123-Directed T-Cell Therapy for AML (CATCHAML)",
+          "phase": "PHASE1",
+          "status": "RECRUITING",
+          "enrollment": 108,
+          "relevance_grade": "C",
+          "reasoning": "CAR-T 免疫治療試驗，IFO 僅用於淋巴細胞清除（lymphodepletion）前處理，非療效評估主體。"
+        },
+        {
+          "nct_id": "NCT03849651",
+          "title": "TCRαβ-depleted Progenitor Cell Graft With Blinatumomab",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 69,
+          "relevance_grade": "C",
+          "reasoning": "細胞治療試驗，IFO 為預處理化療成分，非 MDS 特定療效研究。"
+        },
+        {
+          "nct_id": "NCT03418038",
+          "title": "High Dose IV Ascorbic Acid as Adjunct to Salvage Chemotherapy in Relapsed AML",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 80,
+          "relevance_grade": "C",
+          "reasoning": "主要研究 Vitamin C 輔助作用，IFO 為背景化療，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29752743",
+          "title": "Therapy-related AML and MDS among refractory germ cell tumor patients",
+          "year": "2018",
+          "study_type": "Cohort Study",
+          "tier": 2,
+          "note": "⚠️ 反向證據：記錄 IFO 治療後 t-MDS/t-AML 發生率，係副作用而非療效文獻"
+        },
+        {
+          "pmid": "30165126",
+          "title": "Secondary Leukemia and MDS in Ewing and Osteosarcoma Patients",
+          "year": "2019",
+          "study_type": "Cohort Study",
+          "tier": 2,
+          "note": "⚠️ 反向證據：IFO 使用為次發性 MDS 的獨立預測因子"
+        },
+        {
+          "pmid": "9063380",
+          "title": "MDS presenting as third malignancy after NHL and osteosarcoma",
+          "year": "1997",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "⚠️ 反向證據：個案報告確認 IFO 為 MDS 致病因子之一"
+        },
+        {
+          "pmid": "14615911",
+          "title": "MDS (RARS) with +i(12p) abnormality after diagnosis",
+          "year": "2004",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "⚠️ 反向證據：IFO 治療後出現特殊染色體異常 MDS 亞型"
+        }
+      ]
+    },
+    {
+      "disease_name": "monocytic leukemia",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️【逆向信號警示】所有提供的文獻均記錄 Ifosfamide/Etoposide 組合作為繼發性急性單核球性白血病（secondary AML-M5/monocytic leukemia）的致病因素，而非治療方案。此為典型 therapy-related leukemia 場景，屬嚴重遠期化療毒性。",
+      "safety_flags": [
+        "🔴 三篇文獻均記錄繼發性白血病作為 IFO/VP-16 化療的嚴重遠期副作用",
+        "🔴 建議將此信號列為安全性警示而非再利用機會"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7677934",
+          "title": "Secondary leukemia associated with etoposide: review of serial germ cell tumor patients",
+          "year": "1993",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "⚠️ 反向證據：IFO+VP-16 方案後繼發性白血病系列案例分析"
+        },
+        {
+          "pmid": "9793267",
+          "title": "Secondary AML following VP16-containing regimens for NHL",
+          "year": "1998",
+          "study_type": "Cohort Study",
+          "tier": 2,
+          "note": "⚠️ 反向證據：含 VP-16（常與 IFO 合用）方案後繼發性 AML 發生率統計"
+        },
+        {
+          "pmid": "9059068",
+          "title": "Complete remission in secondary monocytic leukemia with LVP therapy",
+          "year": "1997",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "記錄次發性單核球白血病以 LVP 方案達 CR，提示此類白血病的治療方向（並非 IFO）"
+        }
+      ]
+    },
+    {
+      "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+      "txgnn_score": 0.9957,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "葡萄狀胚胎型橫紋肌肉瘤（Botryoid ERMS）為兒童生殖道少見 RMS 亞型，在組織學上屬 RMS 範疇，理論上應對 IFO 有反應（與主體 RMS 共享 MoA）。IRS 試驗系統性涵蓋此亞型，但獨立亞群樣本數極少，缺乏特定試驗數據。",
+      "safety_flags": ["注意兒童女性生殖系統輻射與化療之長期生育影響"],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23903199",
+          "title": "Embryonal rhabdomyosarcoma of the uterine cervix in adults: case report and review",
+          "year": "2013",
+          "study_type": "Case Report + Literature Review",
+          "tier": 3,
+          "note": "唯一相關文獻，確認 IFO 在子宮頸 ERMS 案例中的使用，樣本極有限，但支持外推自主體 RMS 的可行性"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "L1_indications": ["rhabdomyosarcoma (disease)"],
+    "L2_indications": ["female breast carcinoma"],
+    "L3_indications": [],
+    "L4_indications": [
+      "refractory cytopenia of childhood",
+      "aregenerative anemia",
+      "myelodysplastic syndrome",
+      "monocytic leukemia",
+      "botryoid-type embryonal rhabdomyosarcoma of the vagina"
+    ],
+    "L5_indications": [
+      "unclassified myelodysplastic syndrome",
+      "partial deletion of the long arm of chromosome 5",
+      "severe congenital hypochromic anemia with ringed sideroblasts"
+    ],
+    "adverse_signal_indications": [
+      "myelodysplastic syndrome",
+      "monocytic leukemia"
+    ],
+    "key_finding": "Ifosfamide 在 rhabdomyosarcoma 具 L1 級最高證據（IRS-IV Phase 3 完成），在 female breast carcinoma 具 L2 證據（多項 Phase 2 + 一項 Phase 3 UNKNOWN）。骨髓相關適應症（MDS、單核球白血病）呈現逆向安全性信號——文獻記錄 IFO 為此類疾病的致病因子而非治療藥物，建議將此警示納入知識圖譜邊緣方向標注修正。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣彙整
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 特殊標注 |
+|--------|-----------|---------|---------|------|---------|
+| rhabdomyosarcoma | 0.9967 | **L1** | **S3** | ✅ Proceed with Guardrails | 已是標準治療 (IRS-IV) |
+| female breast carcinoma | 0.9991 | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 3 需確認發表結果 |
+| botryoid ERMS of vagina | 0.9957 | L4 | S1 | 🔍 Research Question | RMS 亞型外推 |
+| refractory cytopenia of childhood | 0.9970 | L4 | S1 | 🔍 Research Question | 間接 ICE 方案數據 |
+| aregenerative anemia | 0.9968 | L4 | S0 | ⛔ Hold | 文獻無直接相關 |
+| myelodysplastic syndrome | 0.9966 | L4 | S0 | 🔴 **Hold** | **逆向信號：IFO 致 MDS** |
+| monocytic leukemia | 0.9964 | L4 | S0 | 🔴 **Hold** | **逆向信號：IFO 致繼發性白血病** |
+| unclassified MDS | 0.9971 | L5 | S0 | ⛔ Hold | 預測無據 |
+| partial del 5q | 0.9970 | L5 | S0 | ⛔ Hold | 無機轉依據 |
+| severe congenital hypochromic anemia | 0.9968 | L5 | S0 | ⛔ Hold | 先天性非腫瘤疾病 |
+
+> **⚠️ 模型警示**：`myelodysplastic syndrome` 與 `monocytic leukemia` 的高 TxGNN 分數很可能源於知識圖譜中 **Ifosfamide → MDS/AML** 連結方向誤判（副作用邊緣被解讀為療效邊緣）。建議回饋至 KG 構建團隊進行邊緣方向（edge direction）標注修正。

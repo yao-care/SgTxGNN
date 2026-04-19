@@ -1,0 +1,625 @@
+```json
+{
+  "drug": "Albendazole",
+  "drugbank_id": "DB00518",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "alveolar echinococcosis",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Albendazole 經肝臟代謝為 Albendazole sulfoxide，抑制蠕蟲微管蛋白聚合，破壞寄生蟲細胞骨架，阻斷葡萄糖攝取導致蟲體耗竭死亡。對多囊型棘球蚴原頭節具直接殺蟲效果，亦可抑制囊腫血管新生（抗 VEGF 機轉），為 WHO 指引推薦一線藥物。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07182305",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2、COMPLETED、194 人。直接以 Albendazole 治療早期肺泡型棘球蚴病，為本適應症最高等級直接臨床試驗，樣本量充足。"
+        },
+        {
+          "nct_id": "NCT02876146",
+          "relevance_grade": "B",
+          "reasoning": "COMPLETED、50 人，觀察性研究追蹤治療後寄生蟲活性及生物標記，支持 Albendazole 療效評估框架，但非介入性隨機試驗。"
+        },
+        {
+          "nct_id": "NCT06483880",
+          "relevance_grade": "B",
+          "reasoning": "肺包蟲囊切除術後輔助 Albendazole RCT，狀態 UNKNOWN，24 人，設計相關但針對囊型而非肺泡型，間接支持。"
+        },
+        {
+          "nct_id": "NCT05824442",
+          "relevance_grade": "C",
+          "reasoning": "診斷性研究（PCR 技術評估），43 人 RECRUITING，不涉及 Albendazole 治療介入，與療效評估無直接關聯。"
+        },
+        {
+          "nct_id": "NCT07176598",
+          "relevance_grade": "C",
+          "reasoning": "單一個案報告（n=1），三角肌原發性包蟲囊腫誤診案例，無統計效力，僅提供臨床現象學背景。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "19931502",
+          "study_type": "Expert Consensus Guideline",
+          "tier": "1",
+          "note": "WHO/ERCE 共識指引，明確推薦 Albendazole 為肺泡型及囊型棘球蚴病藥物治療標準方案。"
+        },
+        {
+          "pmid": "30760475",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "21世紀棘球蚴病治療進展系統性回顧，涵蓋 Albendazole 臨床實證總結。"
+        },
+        {
+          "pmid": "39254012",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2024年最新肺泡型棘球蚴病臨床回顧，確認 Albendazole 持續為核心治療。"
+        },
+        {
+          "pmid": "36974024",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "專門針對 Albendazole 治療肺泡型棘球蚴病的研究進展，機轉與療效詳細分析。"
+        },
+        {
+          "pmid": "38501660",
+          "study_type": "Pharmacological Study",
+          "tier": "2",
+          "note": "代謝機轉與藥理研究，闡明 Albendazole 在繼發性肝臟肺泡型棘球蚴病中的作用途徑。"
+        },
+        {
+          "pmid": "25526545",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "比較 Albendazole 與 Mebendazole 在棘球蚴病治療的系統性分析，強調 Albendazole 優先性。"
+        },
+        {
+          "pmid": "34688631",
+          "study_type": "Experimental Study",
+          "tier": "3",
+          "note": "Carvacrol 與 Albendazole 聯合用藥增效實驗研究，支持聯合治療策略。"
+        },
+        {
+          "pmid": "34808118",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "新型治療選項展望，確認 Albendazole 為現行基礎治療，探討未滿足需求。"
+        },
+        {
+          "pmid": "40093668",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2025年肝臟棘球蚴病管理現況，更新治療建議與手術/藥物整合策略。"
+        },
+        {
+          "pmid": "27846915",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "腎上腺肺泡型棘球蚴病個案，Albendazole 治療效果報告，提供罕見部位實證。"
+        }
+      ],
+      "evidence_summary": "具備 Phase 2 完成試驗（n=194）+ WHO 共識指引 + 大量臨床文獻支持，實際上為全球標準治療方案。TxGNN 預測分數 0.9997 與臨床實證高度一致。建議直接納入推薦，注意肝毒性監測（每 2 週 LFT）及療程中斷風險。"
+    },
+    {
+      "disease_name": "coenurosis",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Coenurosis 由多頭帶絛蟲（Taenia multiceps）幼蟲引起，與神經囊蟲病同屬帶絛蟲科。Albendazole 對絛蟲幼蟲具微管蛋白抑制作用，理論上具藥理外推性（class effect）。然而 coenurosis 在人類極為罕見，多數臨床試驗實為神經囊蟲病（Taenia solium）研究，不能直接等同。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02947581",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 神經囊蟲病試驗（Albendazole + Praziquantel），TERMINATED（107人），蛛網膜下腔囊蟲病，與 coenurosis 解剖位置相似但病原不同，提供間接外推依據。"
+        },
+        {
+          "nct_id": "NCT02243644",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 COMPLETED（97人），比較不同療程 Albendazole 治療神經囊蟲病，屬同類絛蟲感染，支持 class effect 推論。"
+        },
+        {
+          "nct_id": "NCT00290823",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 COMPLETED（110人），腦實質神經囊蟲病皮質類固醇劑量研究，Albendazole 為基礎治療，間接相關。"
+        },
+        {
+          "nct_id": "NCT00283699",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 COMPLETED（178人），神經囊蟲病治療試驗，Albendazole 治療組，提供絛蟲感染藥效基礎資料。"
+        },
+        {
+          "nct_id": "NCT00441285",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 COMPLETED（156人），Albendazole + Praziquantel 聯合治療安全性/療效，間接支持。"
+        },
+        {
+          "nct_id": "NCT07182305",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 肺泡型棘球蚴病研究，屬不同屬寄生蟲（Echinococcus vs Taenia），間接說明 Albendazole 抗絛蟲廣譜性。"
+        },
+        {
+          "nct_id": "NCT06376396",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 NOT_YET_RECRUITING（300人），Albendazole vs 聯合療法治療囊蟲病，未來可提供更高等級證據。"
+        },
+        {
+          "nct_id": "NCT00004403",
+          "relevance_grade": "B",
+          "reasoning": "Albendazole 治療囊蟲病引發癲癇之隨機研究（n=120），支持神經系統絛蟲感染的治療依據。"
+        },
+        {
+          "nct_id": "NCT00133458",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 WITHDRAWN（0人入組），未實際執行，無有效資料。"
+        },
+        {
+          "nct_id": "NCT06565507",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 NOT_YET_RECRUITING，Oxfendazole 研究（非 Albendazole），屬競爭藥物比較背景。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36548661",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "2022年人類彌漫性蛛網膜下腔 Coenurosis 個案報告，為目前最直接的疾病特異性文獻，Albendazole 使用記錄。"
+        },
+        {
+          "pmid": "32129220",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "神經囊蟲病綜合回顧，涵蓋 Albendazole 治療方案，提供相近適應症的系統性實證。"
+        },
+        {
+          "pmid": "12821837",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Albendazole 廣效驅蟲藥完整回顧，確認對多種絛蟲幼蟲的有效性。"
+        },
+        {
+          "pmid": "25056011",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "神經囊蟲病治療指引回顧，Albendazole 為標準治療，提供相鄰適應症的推論基礎。"
+        },
+        {
+          "pmid": "35213246",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "兒童囊蟲病 Albendazole 單療 vs 聯合 Praziquantel RCT，雖非 coenurosis 但提供最高等級間接實證。"
+        },
+        {
+          "pmid": "31945055",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "Albendazole 等藥物對 Taenia solium 預防性化療的系統性回顧，絛蟲屬 class effect 參考。"
+        },
+        {
+          "pmid": "9533454",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Albendazole 藥理完整回顧（1998），確認對絛蟲科幼蟲的廣譜活性機轉。"
+        },
+        {
+          "pmid": "15853623",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "神經囊蟲病藥物治療回顧，Albendazole 劑量與療程分析。"
+        }
+      ],
+      "evidence_summary": "Coenurosis 在人類極為罕見（全球個案報告<200例），無 Albendazole 直接 RCT 試驗。現有 Phase 3 試驗均針對神經囊蟲病（同科不同屬），藥理外推合理但缺乏直接驗證。評為 L3 基於：有限個案報告 + 豐富的相鄰適應症 Phase 3 證據。建議作為研究問題，需設計 coenurosis 專屬個案系列研究。"
+    },
+    {
+      "disease_name": "Cestode infectious disease",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "絛蟲感染（Cestode infectious disease）為廣義類別，涵蓋帶絛蟲、棘球蚴蟲等多種絛蟲。Albendazole 透過抑制β-微管蛋白聚合，對絛蟲幼蟲期（囊尾蚴、包蟲囊）具殺蟲活性，為 WHO 基本藥物清單收載藥物，廣泛用於多種絛蟲感染治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02947581",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 蛛網膜下腔囊蟲病（絛蟲感染），Albendazole + Praziquantel，雖 TERMINATED 但已入組 107 人，提供高等級直接證據。"
+        },
+        {
+          "nct_id": "NCT00290823",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED（110人），腦實質囊蟲病（絛蟲感染），Albendazole 為基礎治療，直接相關。"
+        },
+        {
+          "nct_id": "NCT00283699",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED（178人），神經囊蟲病（絛蟲感染）Albendazole 試驗，高度直接相關。"
+        },
+        {
+          "nct_id": "NCT07182305",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED（194人），肺泡型棘球蚴病（絛蟲感染），Albendazole 直接療效試驗。"
+        },
+        {
+          "nct_id": "NCT00004403",
+          "relevance_grade": "A",
+          "reasoning": "囊蟲病引發癲癇 Albendazole 隨機研究（n=120），絛蟲感染直接證據。"
+        },
+        {
+          "nct_id": "NCT07176598",
+          "relevance_grade": "C",
+          "reasoning": "單一個案報告（n=1），三角肌包蟲囊腫，統計效力不足，僅作背景參考。"
+        },
+        {
+          "nct_id": "NCT05824442",
+          "relevance_grade": "C",
+          "reasoning": "診斷性研究，不涉及治療介入，與療效評估無直接關聯。"
+        },
+        {
+          "nct_id": "NCT03950037",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 WITHDRAWN（0人），未執行，無有效資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30760475",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "棘球蚴病（絛蟲感染）21世紀治療進展系統回顧。"
+        },
+        {
+          "pmid": "31945055",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "Albendazole 等藥物預防絛蟲感染的系統性回顧，高等級廣類絛蟲實證。"
+        },
+        {
+          "pmid": "31642423",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "蛛網膜下腔神經囊蟲病治療後自然病程追蹤，Albendazole 療效觀察。"
+        },
+        {
+          "pmid": "36548661",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "人類彌漫性蛛網膜下腔 Coenurosis 個案，Albendazole 使用。"
+        },
+        {
+          "pmid": "31586448",
+          "study_type": "Experimental Study",
+          "tier": "3",
+          "note": "細胞激素聯合 Albendazole 預防/治療實驗性絛蟲感染，機轉研究。"
+        },
+        {
+          "pmid": "17675547",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "骨骼包蟲病回顧，Albendazole 在特殊解剖部位絛蟲感染的治療。"
+        },
+        {
+          "pmid": "31681642",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "肺部包蟲囊腫完整回顧，Albendazole 藥物治療及術後預防角色。"
+        }
+      ],
+      "evidence_summary": "廣義絛蟲感染類別具備多個 Phase 3 試驗（cysticercosis）及 Phase 2 試驗（alveolar echinococcosis），總體評為 L2。Albendazole 為 WHO 基本藥物，對多種絛蟲感染具廣譜活性，整體決策階段 S3。需依具體亞型（神經囊蟲病/棘球蚴病/其他）調整劑量方案。"
+    },
+    {
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn_score": 0.9882,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "DFSP 為皮膚低度惡性軟組織肉瘤，主要驅動機轉為 COL1A1-PDGFB 融合基因導致 PDGFR-β 持續活化，標準治療為 Imatinib（PDGFR 抑制劑）。Albendazole 微管蛋白抑制機轉與 DFSP 主要致病路徑無已知交集，缺乏生物合理性基礎。高 TxGNN 分數可能源於知識圖譜中的間接連結（如蟲病與軟組織病變的節點鄰近性），非直接藥理推論。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗及相關文獻。TxGNN 高分（0.9882）缺乏生物合理性支撐，疑為圖譜噪音或間接路徑產生的假陽性預測。DFSP 已有有效標靶治療（Imatinib），不建議將 Albendazole 投入此適應症研究，評為 Hold。"
+    },
+    {
+      "disease_name": "lung benign neoplasm",
+      "txgnn_score": 0.9834,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻主要分為兩類：①肺包蟲囊腫（寄生蟲源性肺部良性病變，Albendazole 有直接抗蟲機轉）；②抗腫瘤機轉研究（抑制 HIF-1α 依賴性糖解、促 PD-L1 泛素降解）。然而「肺良性腫瘤」本身（如纖維瘤、錯構瘤）通常不需藥物治療，且現有抗腫瘤機轉研究針對 NSCLC 而非良性腫瘤。本適應症的高 TxGNN 分數可能源於肺包蟲病的錯誤疾病本體對應。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37578473",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "肺囊型棘球蚴病回顧，肺部包蟲囊腫（寄生蟲性良性病變），Albendazole 治療有直接依據，但非一般肺良性腫瘤。"
+        },
+        {
+          "pmid": "37401873",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒童肺囊型棘球蚴病個案，同上，為寄生蟲性病變而非真性良性腫瘤。"
+        },
+        {
+          "pmid": "28063005",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "note": "Albendazole 抑制 NSCLC 細胞 HIF-1α 糖解及 VEGF 表達，細胞實驗，針對惡性而非良性腫瘤。"
+        },
+        {
+          "pmid": "37730912",
+          "study_type": "Animal/In vitro Study",
+          "tier": "3",
+          "note": "Albendazole 抗腫瘤效果並協同 PD-L1 免疫阻斷，前臨床研究，非良性腫瘤相關。"
+        },
+        {
+          "pmid": "35577504",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "note": "Albendazole 誘導 PD-L1 泛素降解促進免疫治療反應，機轉研究，與良性腫瘤治療需求不符。"
+        },
+        {
+          "pmid": "30541667",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "肺結節發現評估，主要為鑑別診斷討論，非 Albendazole 治療研究。"
+        }
+      ],
+      "evidence_summary": "文獻中涉及 Albendazole 的部分均為肺包蟲病（寄生蟲性病變）或 NSCLC 抗腫瘤機轉（前臨床），與真性肺良性腫瘤（錯構瘤、纖維瘤）無直接關聯。肺良性腫瘤通常無需藥物治療（手術切除或觀察為主），Albendazole 在此類別的治療需求存疑。評為 L4、S1，建議 Hold，優先釐清疾病本體對應的準確性。"
+    },
+    {
+      "disease_name": "lung hilum carcinoma",
+      "txgnn_score": 0.9833,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺門癌為原發性肺癌的解剖學分類，主要病理類型為小細胞肺癌或鱗狀細胞癌。Albendazole 前臨床研究顯示對 NSCLC 細胞系具抗增殖效果（HIF-1α 抑制、PD-L1 降解），但（1）尚無肺門癌特異性研究；（2）無任何臨床試驗；（3）現有標準治療（化療/免疫療法/靶向治療）已較成熟。TxGNN 高分可能因肺部疾病節點間的圖譜連結所致。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零直接文獻，僅靠預測模型高分。雖有前臨床肺癌機轉研究（非此適應症直接文獻），生物合理性有限且臨床空白過大。評為 L5、S0，建議 Hold，若有興趣應先確立前臨床肺門癌模型中的藥效，再規劃 Phase 1。"
+    },
+    {
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "txgnn_score": 0.9829,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IBMPFD（VCP 突變病，現稱 VCPD）為 VCP/p97 蛋白功能失調導致的泛素-蛋白酶體路徑缺陷疾病，呈現包涵體肌病、Paget 氏骨病及額顳葉失智三聯症。Albendazole 微管蛋白抑制機轉與 VCP 路徑無已知交集，且文獻全部為額顳葉失智的一般性回顧，無一篇涉及 Albendazole 或 IBMPFD 的治療研究。TxGNN 預測可能源於疾病本體層級的遠端關聯（如神經退化疾病節點群）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26595641",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "額顳葉失智一般性回顧，與 Albendazole 或 IBMPFD 無直接關聯，屬疾病背景文獻。"
+        },
+        {
+          "pmid": "35182511",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "額顳葉失智診斷與治療進展，無 Albendazole 相關內容。"
+        },
+        {
+          "pmid": "38687620",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "額顳葉失智遺傳至治療方法回顧，不涉及 Albendazole。"
+        },
+        {
+          "pmid": "35039149",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Progranulin 作為神經退化治療靶點，與 Albendazole 機轉無關。"
+        }
+      ],
+      "evidence_summary": "20篇文獻全為額顳葉失智一般性回顧，無一涉及 Albendazole 治療 IBMPFD 的內容。無生物合理性，無任何臨床試驗，零直接文獻。為明確假陽性預測，評為 L5、S0，建議 Hold。"
+    },
+    {
+      "disease_name": "fibroma of lung",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺纖維瘤為罕見肺部良性間質腫瘤，標準處置為手術切除，通常不需藥物治療。Albendazole 對非寄生蟲源性纖維性病變無已知機轉。缺乏治療需求基礎（良性、可手術切除），亦無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。肺纖維瘤為良性腫瘤，通常無需全身性藥物治療，Albendazole 再利用於此適應症缺乏醫療需求合理性。評為 L5、S0，建議 Hold。"
+    },
+    {
+      "disease_name": "hamartoma of lung",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺錯構瘤為最常見的肺部良性腫瘤，本質為正常肺組織異常排列（非增殖性），通常採觀察或手術切除，無藥物治療適應症。兩篇引用文獻均為包蟲囊腫鑑別診斷（模擬錯構瘤的影像表現），而非 Albendazole 治療錯構瘤研究。TxGNN 分數可能源於肺部包蟲病與肺良性病變在疾病本體的節點鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30825451",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "囊性肺病變模擬包蟲病個案（鑑別：錯構瘤 vs 平滑肌瘤），為影像鑑別診斷討論，非 Albendazole 療效研究。"
+        },
+        {
+          "pmid": "26591641",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "人類皮下惡絲蟲病個案，與肺錯構瘤治療無直接關聯，屬寄生蟲感染誤納文獻。"
+        }
+      ],
+      "evidence_summary": "2篇文獻均非 Albendazole 治療肺錯構瘤的研究，零臨床試驗。肺錯構瘤通常不需藥物治療，Albendazole 再利用於此適應症缺乏醫療需求合理性及生物合理性。評為 L5、S0，建議 Hold。"
+    },
+    {
+      "disease_name": "intestinal helminthiasis",
+      "txgnn_score": 0.9808,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Albendazole 為苯並咪唑類廣效驅蟲藥，選擇性抑制蠕蟲β-微管蛋白聚合，阻斷蟲體葡萄糖攝取，對蛔蟲（Ascaris）、鉤蟲（Hookworm）、蟯蟲（Enterobius）、鞭蟲（Trichuris）等多種腸道線蟲均有效。已獲 FDA 核准用於腸道線蟲感染，為 WHO 基本藥物清單收載，廣泛用於全球驅蟲計畫（Mass Drug Administration, MDA）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02675140",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 COMPLETED（209人），直接評估 Albendazole 腸道蠕蟲感染療效，高度直接相關，Phase 4 代表上市後確認研究。"
+        },
+        {
+          "nct_id": "NCT01327469",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 COMPLETED（2250人），大規模驅蟲方案比較，Albendazole 為比較組，提供高效力直接證據。"
+        },
+        {
+          "nct_id": "NCT01905436",
+          "relevance_grade": "A",
+          "reasoning": "N/A COMPLETED（21,862人），淋巴絲蟲病與蛔蟲感染 MDA 優化研究，Albendazole 核心藥物，超大規模真實世界數據。"
+        },
+        {
+          "nct_id": "NCT00367627",
+          "relevance_grade": "A",
+          "reasoning": "NA COMPLETED（200人），兩種驅蟲方案比較，直接評估 Albendazole 療效，相關性高。"
+        },
+        {
+          "nct_id": "NCT03501251",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED（286人），Moxidectin ± Albendazole 對鞭蟲感染療效，Albendazole 為對照/聯合藥物，提供現有療效基準。"
+        },
+        {
+          "nct_id": "NCT04041427",
+          "relevance_grade": "B",
+          "reasoning": "NA COMPLETED（12人），尿液 Albendazole 生物標記研究，確認 MDA 用藥合規性，間接支持。"
+        },
+        {
+          "nct_id": "NCT03435718",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 NOT_YET_RECRUITING（250人），Oxfendazole vs Albendazole 比較，提供競爭藥物背景，間接相關。"
+        },
+        {
+          "nct_id": "NCT03640403",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 COMPLETED（1,555人），瘧疾預防研究，Albendazole 非主要介入藥物，相關性較低。"
+        },
+        {
+          "nct_id": "NCT03598842",
+          "relevance_grade": "C",
+          "reasoning": "結核病與營養研究，Albendazole 為次要介入，不直接針對腸道蠕蟲療效評估。"
+        },
+        {
+          "nct_id": "NCT02947581",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 神經囊蟲病試驗，雖含 Albendazole，但適應症為 CNS 絛蟲病而非腸道蠕蟲感染。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6362125",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "1983年 870 人安慰劑對照 RCT，奠定 Albendazole 腸道蠕蟲感染療效基礎，為原始關鍵臨床研究。"
+        },
+        {
+          "pmid": "4028809",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "note": "1985年兒童腸道蠕蟲感染 Albendazole 臨床試驗，早期有效性確認研究。"
+        },
+        {
+          "pmid": "3986860",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "note": "1985年第二個兒童研究，進一步確認兒童族群有效性與安全性。"
+        },
+        {
+          "pmid": "6378710",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1984年確立 Albendazole 控制腸道蠕蟲感染的新概念，里程碑式回顧。"
+        },
+        {
+          "pmid": "3569213",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "note": "1987年腸道蠕蟲感染治療臨床試驗，擴展適用蟲種與族群範圍。"
+        },
+        {
+          "pmid": "3093720",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1986年 Albendazole 腸道蠕蟲感染早期臨床應用綜述。"
+        },
+        {
+          "pmid": "2208633",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "note": "1990年比較 Albendazole 與 Pyrantel 在腸道蠕蟲感染治療的療效，提供比較實證。"
+        },
+        {
+          "pmid": "12821837",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2002年廣效驅蟲藥完整回顧，確認 Albendazole 對個人與群體治療的全面實證。"
+        },
+        {
+          "pmid": "35672751",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "2022年單劑量 Albendazole 抗藥性與再感染研究，揭示公共衛生層面的挑戰。"
+        },
+        {
+          "pmid": "34794670",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "兒童重要線蟲感染現況回顧，Albendazole 治療建議更新。"
+        }
+      ],
+      "evidence_summary": "Albendazole 治療腸道蠕蟲感染具備最高等級臨床證據（L1）：多個 RCT（包括 870 人安慰劑對照試驗）+ Phase 4 大規模研究 + WHO 基本藥物收載 + 全球 MDA 計畫廣泛應用。為已確立適應症，評為 S3。注意事項：（1）單劑量療法對鞭蟲效果較差，需延長療程；（2）需監測肝功能（大劑量）；（3）注意抗藥性監測；（4）孕婦哺乳期禁用或謹慎使用。"
+    }
+  ],
+  "overall_summary": {
+    "high_priority_indications": [
+      "intestinal helminthiasis (L1/S3)",
+      "alveolar echinococcosis (L2/S3)",
+      "Cestode infectious disease (L2/S3)"
+    ],
+    "research_priority": [
+      "coenurosis (L3/S2) - 需設計 coenurosis 特異性個案系列研究"
+    ],
+    "hold_indications": [
+      "dermatofibrosarcoma protuberans (L5/S0) - 無生物合理性",
+      "lung benign neoplasm (L4/S1) - 治療需求存疑，疾病本體對應偏差",
+      "lung hilum carcinoma (L5/S0) - 無臨床證據",
+      "IBMPFD (L5/S0) - 無機轉關聯",
+      "fibroma of lung (L5/S0) - 無治療需求",
+      "hamartoma of lung (L5/S0) - 無治療需求"
+    ],
+    "key_safety_notes": [
+      "肝毒性：長期/高劑量使用需每 2 週監測 LFT",
+      "骨髓抑制：監測全血球計數",
+      "妊娠 Category C：動物致畸性研究陽性，妊娠期禁用",
+      "CNS 感染治療需同時使用皮質類固醇以避免炎症反應加重"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 建議推進（S3）— 3 個適應症
+
+| 適應症 | 證據等級 | 依據 |
+|--------|---------|------|
+| **腸道蠕蟲感染** | **L1** | 多個 RCT + Phase 4 + WHO 核准，為已確立標準治療 |
+| **肺泡型棘球蚴病** | **L2** | Phase 2 完成（n=194）+ WHO 指引推薦 |
+| **絛蟲感染（廣義）** | **L2** | 多個 Phase 3 試驗（神經囊蟲病）+ Phase 2（棘球蚴病）|
+
+### 🟡 研究問題（S2）— 1 個適應症
+
+| 適應症 | 證據等級 | 建議 |
+|--------|---------|------|
+| **Coenurosis** | **L3** | 人類罕見，無直接 RCT，但帶絛蟲科 class effect 合理，建議設計個案系列研究 |
+
+### 🔴 暫緩（S0–S1）— 6 個適應症
+
+- **DFSP、肺纖維瘤、肺錯構瘤、IBMPFD**（L5）：無臨床證據 + 無生物合理性，TxGNN 高分屬知識圖譜假陽性
+- **肺門癌**（L5）：僅前臨床機轉推論，無臨床試驗
+- **肺良性腫瘤**（L4）：文獻混淆（包蟲病 ≠ 真性肺良性腫瘤），治療需求不明確

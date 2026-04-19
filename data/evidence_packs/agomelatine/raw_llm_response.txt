@@ -1,0 +1,297 @@
+```json
+{
+  "drug_summary": {
+    "drug": "Agomelatine",
+    "drugbank_id": "DB06594",
+    "note": "Agomelatine（Valdoxan）為 MT1/MT2 褪黑激素受體促效劑 + 5-HT2C 拮抗劑，已於歐盟獲批用於重度憂鬱症（2009 年）。本地市場狀態「未上市」提示需考量當地法規路徑。original_indications 空值為資料缺口，非真實機轉空白。"
+  },
+  "indications": [
+    {
+      "disease_name": "melancholia",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Agomelatine 為 MT1/MT2 促效劑（調節晝夜節律、睡眠結構）合併 5-HT2C 拮抗劑（去抑制前額葉多巴胺/去甲腎上腺素釋放）。Melancholia 屬重度憂鬱症亞型，以快感缺失、早醒、晝夜節律紊亂為核心，與 agomelatine 雙機轉高度吻合。歐盟已核准用於 MDD（含 melancholic features）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29477251",
+          "study_type": "Network Meta-Analysis (RCT)",
+          "tier": "1",
+          "note": "Cipriani 2018 Lancet：21 種抗憂鬱藥大型網絡統合分析，agomelatine 療效與耐受性均優於多數比較藥，直接 L1 證據"
+        },
+        {
+          "pmid": "36253442",
+          "study_type": "Systematic Review / Meta-Analysis",
+          "tier": "1",
+          "note": "MDD 維持期抗憂鬱藥統合分析，支持 agomelatine 長期使用的效益"
+        },
+        {
+          "pmid": "39684343",
+          "study_type": "Systematic Review / Meta-Analysis",
+          "tier": "1",
+          "note": "Agomelatine 於糖尿病合併憂鬱患者之療效與安全性統合分析，2024 年最新直接證據"
+        },
+        {
+          "pmid": "25911132",
+          "study_type": "Meta-Analysis (RCT)",
+          "tier": "1",
+          "note": "抗憂鬱藥劑量等效統合分析，提供 agomelatine 劑量-效應參考"
+        },
+        {
+          "pmid": "41135546",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "2025 年抗憂鬱藥對心代謝影響系統回顧，agomelatine 安全性輪廓資料"
+        },
+        {
+          "pmid": "33549697",
+          "study_type": "Meta-Analysis",
+          "tier": "1",
+          "note": "抗憂鬱藥胃腸道副作用統合分析，agomelatine 相對優良的耐受性"
+        },
+        {
+          "pmid": "27508501",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "新世代抗憂鬱藥安全性與耐受性綜述，涵蓋 agomelatine 肝毒性警示"
+        },
+        {
+          "pmid": "37424409",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "快感缺失與憂鬱症機轉綜述，支持 agomelatine 對 melancholic 快感缺失的療效假說"
+        },
+        {
+          "pmid": "40129874",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2025 年快感缺失治療新進展，agomelatine 被列為具潛力選項"
+        },
+        {
+          "pmid": "34419186",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "晝夜節律睡眠障礙與憂鬱症關聯，支持 agomelatine 時鐘調節機轉"
+        }
+      ],
+      "guardrails": [
+        "本地核准前需走藥證申請流程（EMA 核准資料可支持文件申請）",
+        "肝功能監測：治療前、3 週、6 週、12 週、24 週檢測 ALT/AST（ALT > 3×ULN 需停藥）",
+        "避免與強效 CYP1A2 抑制劑（氟伏沙明、環丙沙星）合用",
+        "酒精依賴者禁用"
+      ]
+    },
+    {
+      "disease_name": "neurotic depression",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Neurotic depression（ICD-9: 300.4）臨床上高度重疊於 dysthymia 及輕至中度 MDD。Agomelatine 5-HT2C 拮抗作用可改善焦慮症狀，褪黑激素路徑調節睡眠品質，對此類患者之慢性低落與焦慮共病有理論支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29477251",
+          "study_type": "Network Meta-Analysis (RCT)",
+          "tier": "1",
+          "note": "Cipriani 2018：agomelatine 於廣義憂鬱症族群療效確立，間接適用 neurotic depression"
+        },
+        {
+          "pmid": "24033095",
+          "study_type": "Review / Clinical Overview",
+          "tier": "2",
+          "note": "Agomelatine in depression（2013）：針對 agomelatine 臨床定位的完整綜述，涵蓋焦慮憂鬱共病"
+        },
+        {
+          "pmid": "36253442",
+          "study_type": "Systematic Review / Meta-Analysis",
+          "tier": "1",
+          "note": "MDD 維持期統合分析，神經質憂鬱常需長期治療，適用性高"
+        },
+        {
+          "pmid": "37424409",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "快感缺失與憂鬱機轉，支持 agomelatine 對情感症狀的改善"
+        },
+        {
+          "pmid": "34419186",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "晝夜節律與憂鬱關聯，神經質憂鬱患者常有睡眠障礙，機轉相關"
+        },
+        {
+          "pmid": "25911132",
+          "study_type": "Meta-Analysis",
+          "tier": "1",
+          "note": "劑量等效統合分析，提供給藥參考"
+        },
+        {
+          "pmid": "27508501",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "安全性資料，長期使用 neurotic depression 時風險監控依據"
+        },
+        {
+          "pmid": "33549697",
+          "study_type": "Meta-Analysis",
+          "tier": "1",
+          "note": "胃腸道耐受性優，適合慢性病程患者"
+        },
+        {
+          "pmid": "39500601",
+          "study_type": "Meta-Analysis",
+          "tier": "3",
+          "note": "⚠️ 資料品質警示：本文獻為 valproate 於躁鬱症之研究，與 agomelatine / neurotic depression 無直接關聯，可能為收集器誤配"
+        },
+        {
+          "pmid": "40129874",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "快感缺失治療新進展"
+        }
+      ]
+    },
+    {
+      "disease_name": "dysthymic disorder",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "持續性憂鬱症（dysthymia）以慢性低落情緒、睡眠障礙為特徵。Agomelatine 褪黑激素路徑改善睡眠結構、5-HT2C 拮抗可提升動機與精力，機轉上有理論支持。但現有文獻（PMID 21527126）為一般抗憂鬱藥統合分析，非 agomelatine 專屬研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21527126",
+          "study_type": "Meta-Analysis (RCT)",
+          "tier": "1",
+          "note": "抗憂鬱藥用於 dysthymia 之安慰劑對照統合分析（2011），agomelatine 未特別分析，屬間接 L3 級證據；建議設計 agomelatine 專屬 dysthymia RCT"
+        }
+      ]
+    },
+    {
+      "disease_name": "agoraphobia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Agomelatine 5-HT2C 拮抗作用具抗焦慮潛力（5-HT2C 參與杏仁核恐懼迴路），褪黑激素受體調節 HPA 軸亦可降低焦慮。廣場恐懼症病理涉及杏仁核過度敏感，機轉上有生物學合理性，但缺乏直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21183900",
+          "study_type": "Clinical Study / Observational",
+          "tier": "2",
+          "note": "⚠️ 相關性警示：本文關注 Valdoxan 治療中重度憂鬱症之療效預測因子，並非直接研究 agoraphobia。標題中提及「憂鬱」，Agoraphobia 僅可能作為共病提及。屬間接 L4 證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "neurotic disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「神經症」為廣義分類（包含焦慮症、轉化症、強迫症等），Agomelatine 5-HT2C 拮抗對部分焦慮亞型有理論支持，但「neurotic disorder」作為整體診斷類別過於廣泛，缺乏足夠特異性進行建議。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39072578",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "精神科實踐中抗憂鬱藥綜述（2024），agomelatine 被提及為選項之一，屬極間接 L4 證據；未針對 neurotic disorder 作為獨立適應症討論"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性嬰兒陣發性斜頸為罕見兒童神經症候群，與偏頭痛譜系相關（CACNA1A 等離子通道基因變異）。Agomelatine 對此無已知機轉連結。高 TxGNN 分數（0.9996）可能源於知識圖譜中『神經系統疾病—抗憂鬱藥』的非特異性連結，屬預測偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚩 TxGNN 高分預測偽陽性警示：疾病機轉（離子通道病變/偏頭痛譜系）與藥物機轉（MT1/MT2 + 5-HT2C）無合理連結"
+    },
+    {
+      "disease_name": "Ohdo syndrome and variants",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ohdo 症候群為罕見遺傳性神經發育疾病（KAT6A、MED13L 等基因突變），以智能障礙、眼瞼下垂、心臟缺陷為主要表現。無任何已知機轉將 agomelatine 連結至此基因型疾病。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚩 遺傳性疾病預測偽陽性：TxGNN 評分可能反映知識圖譜對『精神科疾病』廣泛邊界的捕捉，非真實藥物相關性"
+    },
+    {
+      "disease_name": "ligneous conjunctivitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "木質性結膜炎為 plasminogen 基因缺陷導致的罕見纖維素性黏膜疾病，病理為纖維素清除障礙。與 agomelatine 的褪黑激素/血清素機轉完全無生物學交集。屬 TxGNN 遠距離知識圖譜路徑推論。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚩 機轉不相容：纖溶系統缺陷疾病 vs 神經傳導/晝夜節律藥物，預測可信度極低"
+    },
+    {
+      "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "為 Ohdo 症候群的特定基因亞型，屬罕見遺傳性神經發育疾病。與 agomelatine 機轉無連結，同 Ohdo syndrome 分析。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚩 遺傳性疾病預測偽陽性"
+    },
+    {
+      "disease_name": "Keppen-Lubinsky syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見遺傳性疾病（KCNK4 鉀離子通道突變），以嚴重智能障礙、早老外貌、脂肪代謝異常為特徵。與 agomelatine 機轉完全無關。全球報告病例極少（< 20 例），藥物再利用在此缺乏實際意義。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚩 孤兒病遠距離預測：KCNK4 離子通道病 vs 褪黑激素/5-HT2C 藥物，無研究基礎"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "rank": 1,
+        "disease": "melancholia",
+        "rationale": "L1 直接 RCT 證據（歐盟已核准），最強證據鏈，建議優先推進本地藥證申請"
+      },
+      {
+        "rank": 2,
+        "disease": "neurotic depression",
+        "rationale": "L2 多項系統回顧支持，與 MDD 機轉高度重疊，建議納入現有 MDD 臨床試驗次群體分析"
+      },
+      {
+        "rank": 3,
+        "disease": "dysthymic disorder",
+        "rationale": "L3 間接證據，機轉合理，建議設計 agomelatine 專屬 dysthymia 試驗作為研究問題"
+      }
+    ],
+    "data_quality_alerts": [
+      "⚠️ PMID 39500601（valproate/bipolar）出現於 neurotic depression 文獻列表，疑為收集器誤配，建議移除",
+      "⚠️ PMID 21183900 關於 valdoxan 於憂鬱症療效預測，被錯誤歸類至 agoraphobia，需人工驗證",
+      "⚠️ original_indications 空值為已知資料缺口（agomelatine 已於 EU 核准用於 MDD），需補全本地法規資料",
+      "⚠️ 5 個 L5 指徵（遺傳性罕見疾病 + 離子通道病）顯示 TxGNN 知識圖譜存在非特異性遠距離路徑推論，建議設定 mechanistic plausibility filter"
+    ],
+    "regulatory_note": "Agomelatine 在台灣/新加坡尚未取得藥證（未上市）。EMA 核准資料（Phase 3 RCT 完整套件）可作為 505(b)(2) 或類似快速審查路徑的文件基礎。肝功能監測要求為核心安全措施。"
+  }
+}
+```
+
+---
+
+## 評估摘要說明
+
+### 🟢 L1 → S3 | Melancholia（憂鬱症重度/憂鬱型）
+Agomelatine 在歐盟已有完整 Phase 3 RCT 資料支持，Cipriani 2018 大型網絡統合分析（21 種藥物比較）確立其療效地位。Melancholia 以**晝夜節律紊亂、早醒、快感缺失**為核心，與 agomelatine 雙機轉（MT1/MT2 晝夜調節 + 5-HT2C 快感迴路去抑制）**完美吻合**。建議直接走本地藥證申請路徑，需設定**肝功能監測 guardrail**。
+
+### 🟡 L2 → S2 | Neurotic Depression
+高度重疊於 MDD 臨床表現，多項系統回顧間接支持，含一篇 agomelatine 專論（PMID 24033095）。建議在現有 MDD 試驗中**納入此亞型次群體分析**，可行性高。
+
+### 🟡 L3 → S1 | Dysthymic Disorder
+僅有一般抗憂鬱藥統合分析（非 agomelatine 專屬），但機轉合理（慢性病程＋睡眠障礙正是 agomelatine 優勢）。需設計**專屬 Phase 2 RCT** 方可提升證據等級。
+
+### 🔴 L5 → S0 | 遺傳性罕見疾病群（5 項）
+Ohdo syndrome、Keppen-Lubinsky、ligneous conjunctivitis、benign paroxysmal torticollis 等均屬**遺傳性/離子通道/纖溶系統疾病**，與 agomelatine 機轉完全無生物學交集。高 TxGNN 分數（>0.998）反映知識圖譜的**非特異性遠距離連結偽陽性**，建議在下游篩選流程中加入**機轉可行性過濾層**。

@@ -1,0 +1,3516 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01167-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Itraconazole",
+    "drugbank_id": "DB01167",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "pneumocystosis",
+      "txgnn": {
+        "score": 0.9933974742889404,
+        "rank": 7917
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2121456",
+            "title": "Therapy and prophylaxis of systemic protozoan infections.",
+            "authors": [
+              "Van Voorhis W C"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "This article summarises current therapy and prophylaxis for Pneumocystis carinii, Toxoplasma gondii, Leishmania species, African trypanosomes (Trypanosoma brucei gambiense and T. b. rhodesiense), and American trypanosome (Trypanosoma cruzi) infections. Each agent and the disease it causes is briefly reviewed, and current data on the structure, mode of action, indications for treatment, dosage, administration, duration of therapy, efficacy, toxicity, and necessary monitoring during therapy are di",
+            "classification": {
+              "study_type": "Review (Systemic Protozoan)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8016481",
+            "title": "Infection after lung transplantation.",
+            "authors": [
+              "Paradis I L",
+              "Williams P"
+            ],
+            "journal": "Seminars in respiratory infections",
+            "year": "1993",
+            "abstract": "Infections have been and still are the major cause of morbidity and mortality after lung transplantation. Nevertheless, the negative impact of infection on outcome has lessened considerably over the last decade because of lessons learned in the prevention, identification, and treatment of infection. Antibiotics tailored to the results of cultures and stains of respiratory-tract secretions obtained from both the donor and recipient have markedly decreased the prevalence of bacterial pneumonia ear",
+            "classification": {
+              "study_type": "Cohort Review (Lung Transplant)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8397916",
+            "title": "Prophylaxis and treatment of infection in the bone marrow transplant recipient.",
+            "authors": [
+              "Winston D J"
+            ],
+            "journal": "Current clinical topics in infectious diseases",
+            "year": "1993",
+            "abstract": "Considerable progress has been made in the prophylaxis and treatment of infections in the bone marrow transplant recipient. Much of this progress is related to the availability of many new antimicrobial agents and biological products, as well as to an improved understanding of the pathogenesis of infections. Because of the expense associated with many of these agents and products, defensive strategies against infections must consider not only effectiveness but also cost (Table 16.9). It is now p",
+            "classification": {
+              "study_type": "Review/Cohort (BMT infections)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21418688",
+            "title": "HIV: primary and secondary prophylaxis for opportunistic infections.",
+            "authors": [
+              "Aberg Judith",
+              "Powderly William"
+            ],
+            "journal": "BMJ clinical evidence",
+            "year": "2010",
+            "abstract": "Opportunistic infections can occur in up to 40% of people with HIV infection and a CD4 count less than 250/mm(3), although the risks are much lower with use of highly active antiretroviral treatment.",
+            "classification": {
+              "study_type": "Review (OI Prophylaxis Guidelines)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36891307",
+            "title": "Unusual Talaromyces marneffei and Pneumocystis jirovecii coinfection in a child with a STAT1 mutation: A case report and literature review.",
+            "authors": [
+              "Yang Qin",
+              "Yu Chendi",
+              "Wu Yue",
+              "Cao Ke",
+              "Li Xiaonan"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2023",
+            "abstract": "Talaromyces marneffei and Pneumocystis jirovecii are the common opportunistic pathogens in immunodeficient patients. There have been no reports of T. marneffei and P. jirovecii coinfection in immunodeficient children. Signal transducer and activator of transcription 1 (STAT1) is a key transcription factor in immune responses. STAT1 mutations are predominately associated with chronic mucocutaneous candidiasis and invasive mycosis. We report a 1-year-2-month-old boy diagnosed with severe laryngiti",
+            "classification": {
+              "study_type": "Case Report (Coinfection)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30429396",
+            "title": "Comparing the profile of respiratory fungal pathogens amongst immunocompetent and immunocompromised hosts, their susceptibility pattern and correlation of various opportunistic respiratory fungal infections and their progression in relation to the CD4+T-cell counts.",
+            "authors": [
+              "Roohani Asma Husein",
+              "Fatima Nazish",
+              "Shameem Mohammad",
+              "Khan Haris Manzoor",
+              "Khan Parvez Anwar"
+            ],
+            "journal": "Indian journal of medical microbiology",
+            "year": "2018",
+            "abstract": "Invasive fungal infections are increasingly common in the nosocomial setting.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8187612",
+            "title": "[Disseminated histoplasmosis in AIDS].",
+            "authors": [
+              "Albrecht H",
+              "Stellbrink H J",
+              "Petersen J",
+              "Patzak A",
+              "Jäger H"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1994",
+            "abstract": "A 41-year-old man infected with HIV-1 developed fever up to 39.8 degrees C together with nonproductive cough and dyspnoea. Lactate dehydrogenase concentration rose from a level of 998 U/l to 6307 U/l. As pneumocystis carinii pneumonia was at first suspected he was treated with co-trimoxazole (1600 mg sulfamethoxazole and 320 mg trimethoprim, four times daily). But the symptoms did not abate. Bone-marrow puncture revealed numerous macrophages containing ovoid inclusions typical of Histoplasma cap",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26036497",
+            "title": "Invasive Fungal Infections After Kidney Transplantation: A Single-center Experience.",
+            "authors": [
+              "Santos T",
+              "Aguiar B",
+              "Santos L",
+              "Romaozinho C",
+              "Tome R"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "2015",
+            "abstract": "Invasive fungal infections (IFI) affecting transplant recipients are associated with increased mortality and graft dysfunction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8967681",
+            "title": "Uveitis associated with rifabutin prophylaxis and itraconazole therapy.",
+            "authors": [
+              "Lefort A",
+              "Launay O",
+              "Carbon C"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11737382",
+            "title": "A randomized, double-blind, placebo-controlled study of itraconazole capsules for the prevention of deep fungal infections in immunodeficient patients with HIV infection.",
+            "authors": [
+              "Smith D E",
+              "Bell J",
+              "Johnson M",
+              "Youle M",
+              "Gazzard B"
+            ],
+            "journal": "HIV medicine",
+            "year": "2001",
+            "abstract": "To determine whether systemic or deep fungal infections can be prevented, a double-blind, placebo-controlled, phase III trial of itraconazole prophylaxis was undertaken in HIV-infected patients.",
+            "classification": {
+              "study_type": "RCT (Prevention, not PCP-specific)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17594870",
+            "title": "Chronic granulomatous disease in pediatric patients: 25 years of experience.",
+            "authors": [
+              "Soler-Palacín P",
+              "Margareto C",
+              "Llobet P",
+              "Asensio O",
+              "Hernández M"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "2007",
+            "abstract": "Chronic granulomatous disease (CGD) is an uncommon primary immune deficiency (affecting 1/200,000 newborn infants) caused by a defect in phagocyte production of oxygen metabolites, and resulting in bacterial infections produced by catalase-positive microorganisms and fungal diseases that occasionally may prove fatal.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2233233",
+            "title": "Disseminated histoplasmosis in the acquired immune deficiency syndrome: clinical findings, diagnosis and treatment, and review of the literature.",
+            "authors": [
+              "Wheat L J",
+              "Connolly-Stringfield P A",
+              "Baker R L",
+              "Curfman M F",
+              "Eads M E"
+            ],
+            "journal": "Medicine",
+            "year": "1990",
+            "abstract": "Histoplasmosis is a serious opportunistic infection in patients with AIDS, often representing the first manifestation of the syndrome. Most infections occurring within the endemic region are caused by exogenous exposure, while those occurring in nonendemic areas may represent endogenous reactivation of latent foci of infection or exogenous exposure to microfoci located within those nonendemic regions. However, prospective investigations are needed to prove the mode of acquisition. The infection ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19080136",
+            "title": "[Pathogens and drug resistance of pulmonary infection in AIDS patients].",
+            "authors": [
+              "Li Ling-Hua",
+              "Tang Xiao-Ping",
+              "Cai Wei-Ping"
+            ],
+            "journal": "Zhonghua nei ke za zhi",
+            "year": "2008",
+            "abstract": "To study the pathogens and drug resistance profiles of pulmonary infection in patients with AIDS.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21973267",
+            "title": "Penetration of anti-infective agents into pulmonary epithelial lining fluid: focus on antifungal, antitubercular and miscellaneous anti-infective agents.",
+            "authors": [
+              "Rodvold Keith A",
+              "Yoo Liz",
+              "George Jomy M"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2011",
+            "abstract": "Epithelial lining fluid (ELF) is often considered to be the site of extracellular pulmonary infections. During the past 25 years, a limited number of studies have evaluated the intrapulmonary penetration of antifungal, antitubercular, antiparasitic and antiviral agents. For antifungal agents, differences in drug concentrations in ELF or bronchoalveolar lavage (BAL) fluid were observed among various formulations or routes of administration, and between agents within the same class. Aerosolized do",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22273250",
+            "title": "Non-bacterial infections in Asian patients treated with alemtuzumab: a retrospective study of the Asian Lymphoma Study Group.",
+            "authors": [
+              "Kim Seok Jin",
+              "Moon Joon Ho",
+              "Kim Hawk",
+              "Kim Jin Seok",
+              "Hwang Yu Yan"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2012",
+            "abstract": "This retrospective study concerns non-bacterial infections in Asian patients receiving alemtuzumab. The clinical data of 182 patients treated with alemtuzumab alone or alemtuzumab-containing chemotherapy between the years 2003 and 2009 was collected from six Asian countries. Alemtuzumab was used in the setting of frontline (n =48) or salvage (n =90) treatment, and as a part of the conditioning regimen for allogeneic stem cell transplant (n =44). Reactivation of cytomegalovirus (66/182) and varic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7877856",
+            "title": "[Aspergillosis in acquired immunodeficiency syndrome].",
+            "authors": [
+              "Meyohas M C",
+              "Roux P",
+              "Poirot J L",
+              "Meynard J L",
+              "Frottier J"
+            ],
+            "journal": "Pathologie-biologie",
+            "year": "1994",
+            "abstract": "From 1983 to 1991 only isolated cases of aspergillosis in AIDS patients were reported; since 1991, an increasing number of cases have been reported suggesting a recent emergence of this fungal infection. Aspergillosis occurs about 10 to 25 months after AIDS diagnosis in patients with CD4 below 50/mm3. Neutropenia and/or steroid therapy, which are known as predisposing factors in aspergillosis, are noticed in about one half of the patients. Previous pulmonary infection, especially pneumocystosis,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12606318",
+            "title": "Characterization of a lanosterol 14 alpha-demethylase from Pneumocystis carinii.",
+            "authors": [
+              "Morales Ian J",
+              "Vohra Pawan K",
+              "Puri Veenu",
+              "Kottom Theodore J",
+              "Limper Andrew H"
+            ],
+            "journal": "American journal of respiratory cell and molecular biology",
+            "year": "2003",
+            "abstract": "Pneumocystis carinii (PC) causes severe pneumonia in immunocompromised patients. PC is intrinsically resistant to treatment with azole antifungal medications. The enzyme lanosterol 14 alpha-demethylase (Erg11) is the target for azole antifungals. We cloned PCERG11 and compared its sequence to Erg11 proteins present in azole-resistant organisms, and performed chromosomal and Northern blot analysis for PCERG11. Of 13 potential sites which could confer resistance to azoles, two were identical to az",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8020389",
+            "title": "[HIV-associated histoplasmosis with pulmonary manifestation in Europe].",
+            "authors": [
+              "Wöckel W",
+              "Neher A",
+              "Morresi A"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1994",
+            "abstract": "A 35-year-old man developed weight loss, lower abdominal pain, diarrhoea, cough, fever and general deterioration in his health. He had been born and resident in the USA until 1991, when he moved to Germany. Since 1991 he had known that he was HIV-positive. The chest radiograph showed bilateral diffuse spotty marking and a rounded cardiac silhouette, the latter echocardiographically due to pericardial effusion. Tuberculostatic drugs were started because miliary tuberculosis was suspected. But as ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11362422",
+            "title": "Preventing opportunistic infections.",
+            "authors": [
+              "Cheng B"
+            ],
+            "journal": "PI perspective",
+            "year": "1995",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11363908",
+            "title": "Opportunistic infections: the growing challenge.",
+            "authors": [
+              "MacDougall D S"
+            ],
+            "journal": "Journal of the International Association of Physicians in AIDS Care",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Itraconazole 藉由抑制真菌 CYP51（Erg11）干擾麥角固醇生合成，但 Pneumocystis jirovecii 固醇代謝路徑特殊（麥角固醇含量極低、具獨特 Pneumocystis sterol pathway），對三唑類藥物幾乎無感受性，此為根本機轉不符。PMID 11737382 之 RCT 設計目的為預防免疫缺陷患者之廣泛性真菌感染，非針對 PCP 之特異性治療。現有 20 篇文獻多為免疫抑制背景下多重真菌感染的間接描述（骨髓/肺臟移植、AIDS 機會性感染），無直接治療 PCP 的臨床試驗證據。PCP 標準治療為 TMP-SMX，高分 TxGNN 評分（0.993）可能來自知識圖譜中「免疫缺陷-真菌感染」高度連結節點的非特異性推論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Cryptococcal meningitis",
+      "txgnn": {
+        "score": 0.9373692274093628,
+        "rank": 29268
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00012467",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Dose-Ranging, Phase II Study of the Safety and Antifungal Activity of Subcutaneous Recombinant Interferon-Gamma 1b (rIFN-Gamma 1b) in Conjunction With Standard Therapy in Patients With Acute Cryptococcal Meningitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2000-01",
+            "completion_date": "2001-07",
+            "brief_summary": "The purpose of this study is to examine the antifungal activity of recombinant interferon-gamma 1b (rIFN-gamma 1b) given with standard antifungal therapy.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 RCT，隨機雙盲安慰劑對照劑量探索設計，直接評估 Itraconazole 抗隱球菌活性與安全性，60 例已完成，為目前最高等級直接證據"
+            }
+          },
+          {
+            "nct_id": "NCT00000639",
+            "title": "A Randomized Double Blind Protocol Comparing Amphotericin B With Flucytosine to Amphotericin B Alone Followed by a Comparison of Fluconazole and Itraconazole in the Treatment of Acute Cryptococcal Meningitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "",
+            "completion_date": "1997-09",
+            "brief_summary": "To evaluate the effectiveness and safety of amphotericin B plus flucytosine (5-fluorocytosine) compared to amphotericin B alone for a first episode of acute cryptococcal meningitis in AIDS patients, and to compare the effectiveness and safety of fluconazole versus itraconazole.\n\nAt least 10 percent of patients with a low CD4 count and HIV infection will develop meningitis due to Cryptococcus neoformans. More effective treatments than the standard therapy need to be explored.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "比較 AmB+Flucytosine vs AmB 誘導療法，400 例大型試驗提供基準治療比較架構，Itraconazole 非直接研究藥物，但為後續維持治療橋接研究提供誘導療法參考標準"
+            }
+          },
+          {
+            "nct_id": "NCT00000975",
+            "title": "Pilot Study To Determine the Feasibility of Itraconazole for Primary Treatment and Suppression of Relapse of Disseminated Histoplasmosis in Patients With the Acquired Immunodeficiency Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "",
+            "completion_date": "1994-09",
+            "brief_summary": "To evaluate the feasibility of itraconazole as (1) primary therapy in histoplasmosis and (2) maintenance therapy after completion of primary therapy. To evaluate the effect of therapy of CNS histoplasmosis. To determine if resistance to drug occurs in patients who fail therapy.\n\nHistoplasmosis is a serious opportunistic infection in patients with AIDS. Although the clinical response to amphotericin B treatment in the AIDS patients is generally good, administration difficulties and toxicity detra",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 pilot，明確標題「Feasibility of Itraconazole for Primary Treatment and Suppression of Relapse」，直接回答 Itraconazole 作為一線及維持治療可行性，30 例完成"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29785613",
+            "title": "Neuroinfections caused by fungi.",
+            "authors": [
+              "Góralska Katarzyna",
+              "Blaszkowska Joanna",
+              "Dzikowiec Magdalena"
+            ],
+            "journal": "Infection",
+            "year": "2018",
+            "abstract": "Fungal infections of the central nervous system (FIs-CNS) have become significantly more common over the past 2 decades. Invasion of the CNS largely depends on the immune status of the host and the virulence of the fungal strain. Infections with fungi cause a significant morbidity in immunocompromised hosts, and the involvement of the CNS may lead to fatal consequences.",
+            "classification": {
+              "study_type": "Review (Neuroinfections)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37908716",
+            "title": "Clinical and mycological implications of cryptococcal meningitis in Iran.",
+            "authors": [
+              "Bashardoust Bahareh",
+              "Alavi Darazam Ilad",
+              "Daie Ghazvini Roshanak",
+              "Hashemi Seyed Jamal",
+              "Salehi Mohammadreza"
+            ],
+            "journal": "Heliyon",
+            "year": "2023",
+            "abstract": "Cryptococcal meningitis (CM) is an uncommon and severe infection that tends to affect both immunocompromised and immunocompetent hosts. To gain insights into the clinical and epidemiological characteristics of CM in Iran, this study evaluated patients with subacute or chronic meningitis referred to 15 Iranian hospitals. Relevant clinical and epidemiological characteristics of the patients were analyzed. Diagnosis of CM cases was performed by microscopic examination, culture, latex agglutination ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38935902",
+            "title": "Cryptococcosis-a systematic review to inform the World Health Organization Fungal Priority Pathogens List.",
+            "authors": [
+              "Dao Aiken",
+              "Kim Hannah Yejin",
+              "Garnham Katherine",
+              "Kidd Sarah",
+              "Sati Hatim"
+            ],
+            "journal": "Medical mycology",
+            "year": "2024",
+            "abstract": "Cryptococcosis causes a high burden of disease worldwide. This systematic review summarizes the literature on Cryptococcus neoformans and C. gattii infections to inform the World Health Organization's first Fungal Priority Pathogen List. PubMed and Web of Science were used to identify studies reporting on annual incidence, mortality, morbidity, antifungal resistance, preventability, and distribution/emergence in the past 10 years. Mortality rates due to C. neoformans were 41%-61%. Complications ",
+            "classification": {
+              "study_type": "Systematic Review (WHO FPPЛ)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8286622",
+            "title": "Cryptococcal meningitis and AIDS.",
+            "authors": [
+              "Powderly W G"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1993",
+            "abstract": "Dr. William G. Powderly provides a comprehensive review of the state of our knowledge regarding cryptococcal infection in persons with infection due to human immunodeficiency virus type 1. The introduction of fluconazole and itraconazole increased insight into prognostic factors affecting these patients. The need to suppress this fungal infection in individuals with impaired immunity has greatly altered the management of cryptococcal meningitis; therapy for this condition was established by the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32527201",
+            "title": "Comparison of cryptococcal meningitis in HIV-negative patients with and without lung infections.",
+            "authors": [
+              "Yang Ming",
+              "Cheng Lin",
+              "Sun Fengjun",
+              "Liu Fu",
+              "Feng Wei"
+            ],
+            "journal": "The Journal of international medical research",
+            "year": "2020",
+            "abstract": "To investigate the clinical features and outcomes of cryptococcal meningitis (CM) in HIV-negative patients with and without lung infections.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2552949",
+            "title": "Itraconazole therapy for cryptococcal meningitis and cryptococcosis.",
+            "authors": [
+              "Denning D W",
+              "Tucker R M",
+              "Hanson L H",
+              "Hamilton J R",
+              "Stevens D A"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1989",
+            "abstract": "We studied the efficacy of itraconazole, a new oral triazole, in 33 patients (32 were immunocompromised) with cryptococcosis. Diagnoses included cryptococcal meningitis (24 patients), cryptococcemia (19 patients), cryptococcuria (4 patients), osteomyelitis (1 patient), pulmonary cryptococcosis (1 patient), and soft-tissue cryptococcosis (2 patients). Twenty-six patients had the acquired immunodeficiency syndrome, and 4 were transplant recipients. Therapy (200 mg two times per day) was monitored ",
+            "classification": {
+              "study_type": "Clinical Trial/Prospective Cohort (Itraconazole direct)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8114801",
+            "title": "Cryptococcal meningitis: the place of itraconazole.",
+            "authors": [
+              "Cauwenbergh G"
+            ],
+            "journal": "Mycoses",
+            "year": "1993",
+            "abstract": "Itraconazole, an orally active broad-spectrum triazole antimycotic, has demonstrated anti-Cryptococcus activity in vitro and in animal models of cryptococcal meningitis. The drug has been used by a number of clinical groups for the treatment of cryptococcal meningitis, predominantly in AIDS patients. A problem that has been found with ketoconazole is the relatively low absorption of the drug in AIDS patients. This has resulted in ketoconazole plasma levels below the MIC90 (1-5 micrograms ml-1) n",
+            "classification": {
+              "study_type": "Clinical Review/Comparative Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1314105",
+            "title": "Azole antifungal agents.",
+            "authors": [
+              "Bodey G P"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1992",
+            "abstract": "The discovery of the antifungal activity of azole compounds represented an important therapeutic advance. Miconazole, ketoconazole, and fluconazole are currently commercially available, and itraconazole has undergone extensive clinical evaluation. Because of its limited activity and toxicity, miconazole has been replaced by newer agents. Ketoconazole has proven useful in therapy for superficial infections and invasive infections caused by the pathogenic fungi. Among its disadvantages are limited",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3010846",
+            "title": "Comparison of itraconazole and fluconazole in treatment of cryptococcal meningitis and candida pyelonephritis in rabbits.",
+            "authors": [
+              "Perfect J R",
+              "Savani D V",
+              "Durack D T"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1986",
+            "abstract": "Itraconazole and fluconazole, two new triazoles, were examined for their antifungal activity in rabbits. Fluconazole easily crossed the blood-cerebrospinal fluid barrier, and active drug was eliminated in high concentrations in the urine. On the other hand, itraconazole did not cross the blood-cerebrospinal fluid barrier in measurable amounts, and urine concentrations were variable. Despite differences in pharmacokinetics at the site of infection, both agents were equally effective in treating c",
+            "classification": {
+              "study_type": "Comparative Study (Itraconazole vs Fluconazole)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38141953",
+            "title": "Analysis of the relationship between drug susceptibility of Cryptococcus neoformans isolates and mortality in HIV-negative cryptococcal meningitis.",
+            "authors": [
+              "Su Zhihui",
+              "Wei Hang",
+              "Liu Jia",
+              "Li Chongwen",
+              "Xu Zirong"
+            ],
+            "journal": "Journal of global antimicrobial resistance",
+            "year": "2024",
+            "abstract": "The relationship between antifungal susceptibility and mortality of cryptococcal meningitis (CM) in HIV-negative patients is poorly understood.",
+            "classification": {
+              "study_type": "Susceptibility/Outcome Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21762212",
+            "title": "Cryptococcal meningitis in immunocompetent children.",
+            "authors": [
+              "Yuanjie Zhu",
+              "Jianghan Chen",
+              "Nan Xu",
+              "Xiaojun Wang",
+              "Hai Wen"
+            ],
+            "journal": "Mycoses",
+            "year": "2012",
+            "abstract": "To describe clinical characteristics, treatment and outcome of cryptococcal meningitis in immunocompetent children. Immunocompetent children with cryptococcal meningitis who attended Changzheng Hospital between 1998 and 2007 were retrospectively reviewed. During the 10 years reviewed, 11 children with cryptococcal meningitis were admitted to Changzheng hospital and identified as immunocompetent. The 11 children had a median age of 7.25 years. Headache (100%), fever (81.8%), nausea or vomiting (6",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7741819",
+            "title": "Management of cryptococcosis.",
+            "authors": [
+              "Dismukes W E"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1993",
+            "abstract": "Cryptococcosis is a common opportunistic fungal disease in immunocompromised patients and also may occur in normal hosts. Cryptococcal disease most frequently involves the lungs and central nervous system. Management remains controversial, especially in patients with life-threatening disease and those with underlying T-cell dysfunction due to AIDS, neoplasia, or corticosteroid therapy. While amphotericin B, usually in combination with flucytosine, generally is recommended as primary therapy for ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38755408",
+            "title": "Antifungal susceptibility and multilocus sequence typing (MLST) of Cryptococcus neoformans complex from HIV-associated cryptococcal meningitis patients in Manaus, Amazonas, Brazil.",
+            "authors": [
+              "Alves Marla Jalene",
+              "Cruz Katia Santana",
+              "Alves Gleica Soyan Barbosa",
+              "Grisolia Maria Eduarda",
+              "Menescal Victoria Violeta Fernandes"
+            ],
+            "journal": "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+            "year": "2024",
+            "abstract": "Cryptococcus neoformans is primarily responsible for cases of cryptococcal meningitis in individuals with HIV/AIDS. This study evaluated the susceptibility of C. neoformans obtained from individuals with cryptococcal meningitis associated with HIV/AIDS in Manaus, Amazonas, Brazil, against the action of the antifungals amphotericin B, flucytosine, fluconazole, itraconazole and posaconazole and analyzed it using Multilocus Sequence Typing (MLST) in order to identify the Sequence Types (STs). We an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19069104",
+            "title": "[Cryptococcosis].",
+            "authors": [
+              "Yoshida Koichiro",
+              "Shoji Hisashi",
+              "Niki Yoshihito"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "2008",
+            "abstract": "Cryptococcosis is a common fungal infection that caused by Cryptococcus neoformans in immunocompetent individuals as well as in immunosuppressive patients with such as the HIV infection. Measurements of the values of glucuronoxylomannan structuring capsule of C. neoformans in serum or cerebrospinal fluid are quite useful to diagnosis of pulmonary cryptococcosis and cryptococcal meningitis as major two forms of cryptococcosis. Azole anti-fungal agents including fulconazole, itraconazole for pulmo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18611705",
+            "title": "Cryptococcal meningitis: diagnosis and treatment.",
+            "authors": [
+              "Viviani M A"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "1996",
+            "abstract": "In the last decade, largely due to the increasing number of immunocompromised patients, particularly those with AIDS, there has been a dramatic increase in the incidence of cryptococcosis. The majority of human cryptoccoccal infections are caused by C. neoformans. Pulmonary cryptococcosis is the commonest form of infection and meningitis is the most severe, being fatal in most cases. Diagnosis is usually by culture and/or serology. Combined therapy with amphotericin B and flucytosine remains the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24368930",
+            "title": "Primary prophylaxis for cryptococcal meningitis and impact on mortality in HIV: a systematic review and meta-analysis.",
+            "authors": [
+              "Ssekitoleko Richard",
+              "Kamya Moses R",
+              "Reingold Arthur L"
+            ],
+            "journal": "Future virology",
+            "year": "2013",
+            "abstract": "To determine the role of primary antifungal prophylaxis in the prevention of cryptococcal meningitis and all-cause mortality in advanced HIV infection.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9277070",
+            "title": "Comparison of amphotericin B, flucytosine and itraconazole with amphotericin B and flucytosine in the treatment of cryptococcal meningitis in AIDS.",
+            "authors": [
+              "Chotmongkol V",
+              "Sukeepaisarncharoen W",
+              "Thavornpitak Y"
+            ],
+            "journal": "Journal of the Medical Association of Thailand = Chotmaihet thangphaet",
+            "year": "1997",
+            "abstract": "We compared amphotericin B (0.3 mg/kg/d) plus flucytosine (150 mg/kg/d) plus itraconazole (400 mg/d) (study group) with amphotericin B plus flucytosine (control group) by an open-randomized trial. In the study group, after CSF mycological cultures disclosed nothing, itraconazole was administrated alone through six weeks of treatment. Treatment was considered successful if the patient had two consecutive negative CSF cultures by the end of the 6-week treatment period. Fifty patients were enrolled",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1313682",
+            "title": "Itraconazole compared with amphotericin B plus flucytosine in AIDS patients with cryptococcal meningitis.",
+            "authors": [
+              "de Gans J",
+              "Portegies P",
+              "Tiessens G",
+              "Eeftinck Schattenkerk J K",
+              "van Boxtel C J"
+            ],
+            "journal": "AIDS (London, England)",
+            "year": "1992",
+            "abstract": "We conducted a comparison of itraconazole versus amphotericin B plus flucytosine in the initial treatment of cryptococcal meningitis in patients with AIDS and established the efficacy of itraconazole as maintenance treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2184512",
+            "title": "Overview: treatment of cryptococcal meningitis.",
+            "authors": [
+              "Sugar A M",
+              "Stern J J",
+              "Dupont B"
+            ],
+            "journal": "Reviews of infectious diseases",
+            "year": "1990",
+            "abstract": "Infections caused by Cryptococcus neoformans cause significant morbidity and high mortality, particularly among immunocompromised patients. Cryptococcal meningitis is an important cause of central nervous system disease and death in patients with AIDS. Although the introduction of amphotericin B has greatly improved the prognosis of patients with cryptococcal meningitis, 30 years of experience have revealed important clinical limitations, including modest efficacy, nephrotoxicity, other clinical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cryptococcus neoformans/gattii 對三唑類藥物敏感，Itraconazole 透過抑制 CYP51/ERG11 有效阻斷麥角固醇生合成，體外 MIC 低（通常 ≤ 0.25 mg/L）。有 2 項已完成 Phase 2 RCT 直接評估 Itraconazole 治療及維持療法（NCT00012467、NCT00000975），多篇 1980-1990 年代臨床研究確認療效。主要限制：Itraconazole 腦脊液穿透率（CSF/plasma ≈ 0.01）遠低於 Fluconazole（CSF/plasma ≈ 0.8），WHO 2022 指南將其列為次選（限 Fluconazole 不可及時）。建議使用護欄：需監控血清藥物濃度、注意 CYP3A4 DDI、確認 CSF culture 轉陰。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "trichosporonosis",
+      "txgnn": {
+        "score": 0.8901207447052002,
+        "rank": 35793
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27286691",
+            "title": "Efficacy and safety of itraconazole use in infants.",
+            "authors": [
+              "Chen Shuang",
+              "Sun Kai-Yi",
+              "Feng Xiao-Wei",
+              "Ran Xin",
+              "Lama Jebina"
+            ],
+            "journal": "World journal of pediatrics : WJP",
+            "year": "2016",
+            "abstract": "Itraconazole has been used to treat fungal infections, in particular invasive fungal infections in infants or neonates in many countries.",
+            "classification": {
+              "study_type": "Retrospective Cohort (Infants, Safety)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33164224",
+            "title": "Combinatory Effect of ALA-PDT and Itraconazole Treatment for Trichosporon asahii.",
+            "authors": [
+              "Lan Yu",
+              "Lu Sha",
+              "Zheng Bowen",
+              "Tang Zengqi",
+              "Li Jiahao"
+            ],
+            "journal": "Lasers in surgery and medicine",
+            "year": "2021",
+            "abstract": "Trichosporiosis is an opportunistic infection that includes superficial infections, white piedra, hypersensitivity pneumonitis, and invasive trichosporonosis. The effect of antifungal agents against these infections is largely weakened by drug resistance and biofilms-related virulence. Photodynamic therapy (PDT) is a new therapeutic approach developed not only to combat cancerous lesions but also to treat infectious diseases such as fungal infections. However, there are few studies on the antimi",
+            "classification": {
+              "study_type": "In vitro + ALA-PDT Combination Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9444410",
+            "title": "Efficacy of amphotericin B and azoles alone and in combination against disseminated trichosporonosis in neutropenic mice.",
+            "authors": [
+              "Kamberi P",
+              "Atsuro H",
+              "Takayoshi T",
+              "Masaru N"
+            ],
+            "journal": "Chemotherapy",
+            "year": "1998",
+            "abstract": "The activities of amphotericin B, miconazole, fluconazole, and itraconazole against Trichosporon beigelii were assessed in a mouse model of disseminated infection. Cyclophosphamide plus prednisolone-immunosuppressed ICR mice, intravenously challenged with a lethal inoculum of (6 x 10(6) CFU/ mouse), were assigned to receive 7 days of therapy with amphotericin B (0.5 or 2 mg/kg/day), miconazole (10 or 40 mg/kg/day), fluconazole (10 or 40 mg/kg/day), or itraconazole (10 and 40 mg/kg/day). The effi",
+            "classification": {
+              "study_type": "Animal Model/In vitro Combination",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15370667",
+            "title": "Trichosporonosis in a tertiary care cancer center: risk factors, changing spectrum and determinants of outcome.",
+            "authors": [
+              "Kontoyiannis Dimitrios P",
+              "Torres Harrys A",
+              "Chagua Marlon",
+              "Hachem Ray",
+              "Tarrand Jeffrey J"
+            ],
+            "journal": "Scandinavian journal of infectious diseases",
+            "year": "2004",
+            "abstract": "To assess the spectrum and outcome of trichosporonosis (TS) in cancer patients, we reviewed the medical records of 17 such patients with TS. TS presented most commonly as fungemia (n = 10, including 7 with central-venous-catheter-related infection) and either pulmonary or soft tissue infection (n = 3, each). Most patients (65%) had acute leukemia, 11 (65%) had neutropenia, and 9 (53%) had received high doses of corticosteroids. 10 patients had breakthrough TS during therapy with at least 1 of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34567886",
+            "title": "A Comprehensive Review of Trichosporon spp.: An Invasive and Emerging Fungus.",
+            "authors": [
+              "Mehta Vibha",
+              "Nayyar Charu",
+              "Gulati Neelam",
+              "Singla Nidhi",
+              "Rai Sunvir"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Trichosporon species are basidiomycetous yeast-like organisms found ubiquitous in nature. They are increasingly been recognized as opportunistic pathogens capable of causing life-threatening invasive diseases (trichosporonosis), especially in immuno-suppressed patients and rarely in immuno-competent patients too. Earlier multiple members of the genus Trichosporon were clubbed together as T. beigelli but after the advent of molecular techniques, more than 50 different subspecies and around 16 dif",
+            "classification": {
+              "study_type": "Comprehensive Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29681373",
+            "title": "Efficacy of recombinant human granulocyte-colony stimulating factor alone and in combination with antifungal agents against disseminated trichosporonosis in neutropenic mice.",
+            "authors": [
+              "Perparim Kamberi",
+              "Hashimoto Atsuro",
+              "Nasu Masaru"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "1996",
+            "abstract": "The ability of recombinant human granulocyte colony-stimulating factor (rhG-CSF) to protect and potentiate the activity of antifungal agents against a lethal Trichosporon beigelii infection in myelosuppressed mice was evaluated in this study. Mice were rendered neutropenic by 2 consecutive-day intraperitoneal injections of cyclophosphamide (200mg/kg). Recombinant hG-CSF, given subcutaneously at daily doses of 15, 60, and 120μg/kg for 6 days, shortened the period of neutropenia and increased the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40353656",
+            "title": "In vitro activity of isavuconazole, ravuconazole, and comparison of the Sensititre YeastOne and CLSI broth microdilution methods against clinical isolates of Trichosporon species.",
+            "authors": [
+              "Lo Shih-Hao",
+              "Tseng Yi-Ting",
+              "Chen Yee-Chun",
+              "Ho Mao-Wang",
+              "Lee Chen-Hsiang"
+            ],
+            "journal": "Journal of clinical microbiology",
+            "year": "2025",
+            "abstract": "This study aimed to evaluate the in vitro activity of isavuconazole and ravuconazole against clinical Trichosporon isolates. Additionally, we assessed the performance of the Sensititre YeastOne (SYO) assay compared to the reference Clinical and Laboratory Standards Institute (CLSI) broth microdilution (BMD) method for antifungal susceptibility testing. A total of 267 Trichosporon clinical isolates were collected from multiple centers in Taiwan between 2008 and 2020. The MIC values for amphoteric",
+            "classification": {
+              "study_type": "In vitro Susceptibility (2025)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36807459",
+            "title": "Aspects related to biofilm production and antifungal susceptibility of clinically relevant yeasts of the genus Trichosporon.",
+            "authors": [
+              "Lara Bruna Rossini",
+              "de Camargo Bruno Braidotti",
+              "Paula Claudete Rodrigues",
+              "Monari Gabrielle Pires de Morais",
+              "Garces Hans Garcia"
+            ],
+            "journal": "Medical mycology",
+            "year": "2023",
+            "abstract": "Trichosporonosis corresponds to a systemic fungal disease that leads to high mortality rates and is frequently associated with medical devices. It affects immunosuppressed patients in particular and is strongly linked to acquired human immunodeficiency, organ and tissue transplants, and malignant hematologic diseases such as leukemia and lymphomas. Trichosporon infections have been increasingly reported worldwide; however, little information is available either about their characteristics or the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21979867",
+            "title": "Genotyping and antifungal drug susceptibility of Trichosporon asahii isolated from Chinese patients.",
+            "authors": [
+              "Xia Zhikuan",
+              "Yang Rongya",
+              "Wang Wenling",
+              "Cong Lin"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2012",
+            "abstract": "As a major pathogenic agent of trichosporonosis, Trichosporon asahii can cause life-threatening infection in immunocompromised patients. In this study, we analyzed the genotypes of the intergenic spacer (IGS) 1 region of the rRNA gene and the antifungal drug susceptibility of eight T. asahii isolates obtained from Chinese patients. Five genotypes were identified from the eight isolates, including three novel genotypes, three genotype 1, and two genotype 4. The eight T. asahii isolates were resis",
+            "classification": {
+              "study_type": "Genotyping/Susceptibility",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28513482",
+            "title": "Trichosporon inkin causing subcutaneous sinus tract: Successfully treated by oral and ultrasound-guided intralesional itraconazole therapy.",
+            "authors": [
+              "Xiaoxi Xu",
+              "Yaling Dai",
+              "Kaiwen Zhuang",
+              "Xin Ran",
+              "Pradhan Sushmita"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26493614",
+            "title": "Subcutaneous Infection Associated with Trichosporon ovoides: A Case Report and Review of Literature.",
+            "authors": [
+              "Mohd Tap Ratna",
+              "Sabaratnam Parameswari",
+              "Ramli Nur Yasmin",
+              "Hashim Rohaidah",
+              "Mohd Fuat Abd Razak"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2016",
+            "abstract": "Trichosporon species are opportunistic yeasts which can cause infections, especially in immunocompromised patients. This is a report of Trichosporon ovoides that caused subcutaneous infection in a patient with underlying ischemic heart disease. The identification of fungal isolate was confirmed by PCR sequencing of ITS and large subunit regions in rRNA gene. In vitro susceptibility study showed that the isolate was susceptible to amphotericin B, fluconazole and voriconazole, and resistant to cas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37573054",
+            "title": "Intergenic spacer (IGS-1) region sequence-based identification, genotypic analysis, and antifungal susceptibility of clinical Trichosporon species.",
+            "authors": [
+              "Parashar Abhila",
+              "Rastogi Vijaylatha",
+              "Prakash Hariprasath",
+              "Pandey Abhishek",
+              "Rudramurthy Shivaprakash M"
+            ],
+            "journal": "Indian journal of medical microbiology",
+            "year": "2023",
+            "abstract": "Molecular genotyping of Trichosporon species using intergenic spacer region (IGS-1) sequencing and antifungal drug susceptibility testing of T. asahii clinical isolates from Indian patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16205970",
+            "title": "Microbiological characteristics of medically important Trichosporon species.",
+            "authors": [
+              "Li Hou-Min",
+              "Du Hong-Tao",
+              "Liu Wei",
+              "Wan Zhe",
+              "Li Ruo-Yu"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2005",
+            "abstract": "Trichosporon species are opportunistic pathogens associated with a high mortality rate in immunocompromised patients. Disseminated trichosporonosis is uncommon but reports are increasing. In this study, using 16 stock clinical isolates of suspected Trichosporon species and 4 known Trichosporon strains, we investigated the morphology, physio-biochemistry, molecular biology and antifungal susceptibility characteristics of these Trichosporon spp. and discovered that ITS sequence-based identificatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9926973",
+            "title": "Hematogenous trichosporonosis in cancer patients: report of 12 cases including 5 during prophylaxis with itraconazol.",
+            "authors": [
+              "Krcmery V",
+              "Mateicka F",
+              "Kunová A",
+              "Spánik S",
+              "Gyarfás J"
+            ],
+            "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+            "year": "1999",
+            "abstract": "Twelve cases of Trichosporon spp. fungemias occurring in a national cancer institution within 10 years are described. The trend of hematogenous trichosporonosis within the last 10 years is increasing. While no cases occurred in 1988-1991, after 1991, Trichosporon spp. was the most common species among non-Candida spp. fungemias in 1993-1997. The 12 cases of fungemia included 5 that started while the patients were receiving prophylaxis with oral itraconazole, and 2 appeared despite empiric therap",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25590228",
+            "title": "Trichosporon asahii infection presenting as chronic meningo-ventriculitis and intra ventricular fungal ball: a case report and literature review.",
+            "authors": [
+              "Kumar Anil",
+              "Udayakumaran Suhas",
+              "Babu Rachana",
+              "Rajamma Bindhu M",
+              "Prakash Anupam"
+            ],
+            "journal": "Mycoses",
+            "year": "2015",
+            "abstract": "Central nervous system trichosporonosis is a rare clinical entity and so far only six cases including three each of brain abscess and meningitis has been on record. We report a rare case of chronic meningo-ventriculitis and intraventricular fungal ball due to Trichosporon asahii in an 18-year-old immunocompetent male from Burundi, east Africa. Neuroendoscopy showed multiple nodules and a fungal ball within the ventricle, which on culture grew T. asahii. He was initially empirically treated with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27144725",
+            "title": "Molecular characterisation and antifungal susceptibility of clinical Trichosporon isolates in India.",
+            "authors": [
+              "Rastogi Vijaylatha",
+              "Honnavar Prasanna",
+              "Rudramurthy Shivaprakash M",
+              "Pamidi Umabala",
+              "Ghosh Anup"
+            ],
+            "journal": "Mycoses",
+            "year": "2016",
+            "abstract": "In Asian countries, Trichosporon infection is a well-known disease in Japan. In India, the infection is increasingly recognised. The study was conducted to characterise the clinical Trichosporon isolates from India by phenotypic and molecular techniques. A total of 31 Trichosporon clinical isolates, recovered from patients of 14 hospitals across India were sequenced (ITS and IGS1 regions of rDNA). In vitro drug susceptibility testing of the isolates was performed against amphotericin-B, fluconaz",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11190415",
+            "title": "Fungal infections in patients with neutropenia: challenges in prophylaxis and treatment.",
+            "authors": [
+              "Herbrecht R",
+              "Neuville S",
+              "Letscher-Bru V",
+              "Natarajan-Amé S",
+              "Lortholary O"
+            ],
+            "journal": "Drugs & aging",
+            "year": "2000",
+            "abstract": "Fungal infections are a leading cause of mortality in patients with neutropenia. Candidiasis and aspergillosis account for most invasive fungal infections. General prophylactic measures include strict hygiene and environmental measures. Haemopoietic growth factors shorten the duration of neutropenia and thus may reduce the incidence of fungal infections. Fluconazole is appropriate for antifungal prophylaxis and should be offered to patients with prolonged neutropenia, such as high-risk patients ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21900517",
+            "title": "Three-locus identification, genotyping, and antifungal susceptibilities of medically important Trichosporon species from China.",
+            "authors": [
+              "Guo Li-Na",
+              "Xiao Meng",
+              "Kong Fanrong",
+              "Chen Sharon C-A",
+              "Wang He"
+            ],
+            "journal": "Journal of clinical microbiology",
+            "year": "2011",
+            "abstract": "Three reference and 45 clinical isolates of Trichosporon were analyzed by conventional phenotypic and molecular methods to determine the species and genotypes of Trichosporon isolates from China. Target loci for molecular methods included the internal transcribed spacer (ITS) region, the D1/D2 domain of the 26S rRNA gene, and the intergenic spacer 1 (IGS1) region. Identification of eight Trichosporon species was achieved, of which Trichosporon asahii was the most common. Of the sequence-based mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32436877",
+            "title": "Epidemiology and Antifungal Susceptibility of Infections Caused by Trichosporon Species: An Emerging Non-Candida and Non-Cryptococcus Yeast Worldwide.",
+            "authors": [
+              "Singh Sukhwinder",
+              "Capoor Malini Rajinder",
+              "Varshney Swati",
+              "Gupta Dipendra Kumar",
+              "Verma Pradeep Kumar"
+            ],
+            "journal": "Indian journal of medical microbiology",
+            "year": "2019",
+            "abstract": "Over the past four decades, there has been an increase in the number of fatal opportunistic invasive trichosporonosis cases especially in immunocompromised hosts.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17189098",
+            "title": "The prophylactic effectiveness of various antifungal agents against the progression of trichosporonosis fungemia to disseminated disease in a neutropenic mouse model.",
+            "authors": [
+              "Tokimatsu Issei",
+              "Kushima Hisako",
+              "Hashinaga Kazuhiko",
+              "Umeki Kenji",
+              "Ohama Minoru"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2007",
+            "abstract": "Neutropenic mice with latent trichosporonemia were given various antifungal agents (amphotericin B, fluconazole, itraconazole) or saline to determine which antifungal agent could be useful for prophylaxis. The 3-week-survival rate was 80% in the fluconazole group, 50% in the amphotericin B group, 45% in the itraconazole group, and 30% in the saline group. Compared with the other antifungal agents, fluconazole offered superior prophylaxis against the progression of trichosporonosis fungemia to di",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Trichosporon asahii 等對三唑類具部分敏感性，Itraconazole 體外 MIC₅₀ 通常 0.03–1 mg/L，但播散性感染臨床療效有限，因固有耐藥株比例高且免疫缺陷宿主清除力不足。PMID 33164224 體外研究顯示 ALA-PDT 聯合 Itraconazole 具協同效應。文獻包含體外敏感性數據、動物模型及個案報告，無對照試驗。PMID 34567886 系統性回顧確認 Itraconazole 為 Trichosporon 感染可選治療之一，但建議先行 MIC 檢測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hyalohyphomycosis",
+      "txgnn": {
+        "score": 0.8901207447052002,
+        "rank": 35794
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23813829",
+            "title": "Rare opportunistic mycoses in cats: phaeohyphomycosis and hyalohyphomycosis: ABCD guidelines on prevention and management.",
+            "authors": [
+              "Lloret Albert",
+              "Hartmann Katrin",
+              "Pennisi Maria Grazia",
+              "Ferrer Lluis",
+              "Addie Diane"
+            ],
+            "journal": "Journal of feline medicine and surgery",
+            "year": "2013",
+            "abstract": "Phaeohyphomycoses and hyalohyphomycoses are rare opportunistic infections acquired from the environment. More cases have been reported in recent years in humans and cats.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10614958",
+            "title": "Cutaneous hyalohyphomycosis caused by Paecilomyces lilacinus in an immunocompetent host successfully treated with itraconazole: case report and review.",
+            "authors": [
+              "Gutiérrez-Rodero F",
+              "Moragón M",
+              "Ortiz de la Tabla V",
+              "Mayol M J",
+              "Martín C"
+            ],
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "1999",
+            "abstract": "Paecilomyces lilacinus is an emerging fungal pathogen that is highly resistant to many antifungal drugs. Skin and subcutaneous soft tissue infections caused by this organism are very unusual. Most cases occur in patients with impaired host defenses or following surgical procedures. There has been only one previous report of a histologically confirmed cutaneous infection due to Paecilomyces lilacinus in a patient without predisposing factors. Described here is the second histopathologically prove",
+            "classification": {
+              "study_type": "Case Report (Paecilomyces, successful)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15357743",
+            "title": "Cutaneous hyalohyphomycosis caused by Paecilomyces lilacinus: report of three cases and review of the literature.",
+            "authors": [
+              "Hall Virginia C",
+              "Goyal Sanjiva",
+              "Davis Mark D P",
+              "Walsh John S"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2004",
+            "abstract": "Cutaneous infection with Paecilomyces lilacinus is encountered worldwide, with most infections occurring either iatrogenically or in immunocompromised hosts. We report three cases of cutaneous hyalohyphomycosis caused by P. lilacinus, one of which occurred in an immunocompetent individual. In addition, we review the 17 cases previously reported in the literature. Although this infection can be difficult to treat, most cases are not fatal. Most cases responded well to systemic azole antifungal ag",
+            "classification": {
+              "study_type": "Case Series/Review (Paecilomyces)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38550822",
+            "title": "Hyalohyphomycosis (Fusariosis): Atypical Presentation in an Immunocompetent Individual Responding to Itraconazole.",
+            "authors": [
+              "Konda Deepthi",
+              "Balasubramanian Pradeep",
+              "Mohanan Saritha",
+              "Chandrashekhar Laxmisha"
+            ],
+            "journal": "Indian dermatology online journal",
+            "year": "2024",
+            "abstract": "Hyalohyphomycosis includes infections caused by various fungal species that produce hyaline, septate, branched hyphae. Fusarium is one such species which usually causes multiple papulo-nodules, ecthyma gangrenosum-like ulcers in immunocompromised individuals. Also, fusariosis is usually difficult to manage and responds favorably to amphotericin B, voriconazole, and posaconazole in disseminated cases. Here, we report an atypical case of cutaneous fusariosis in an immunocompetent individual who pr",
+            "classification": {
+              "study_type": "Case Report (Immunocompetent, Fusariosis response)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26223159",
+            "title": "Fusarium onychomycosis: prevalence, clinical presentations, response to itraconazole and terbinafine pulse therapy, and 1-year follow-up in nine cases.",
+            "authors": [
+              "Ranawaka Ranthilaka R",
+              "Nagahawatte Ajith",
+              "Gunasekara Thusitha Aravinda"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2015",
+            "abstract": "Invasive fusariosis is an infection with Fusarium spp. that primarily affects patients with hematologic malignancies and hematopoietic cell transplant recipients. Wounds, digital ulcers, onychomycosis, and paronychia are the typical cutaneous portals of entry. Early management of mycotic nails in immunocompromised and diabetic hosts is crucial to prevent life-threatening disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28705676",
+            "title": "Current antifungal treatment of fusariosis.",
+            "authors": [
+              "Al-Hatmi Abdullah M S",
+              "Bonifaz Alexandro",
+              "Ranque Stephane",
+              "Sybren de Hoog G",
+              "Verweij Paul E"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2018",
+            "abstract": "Fungi of the genus Fusarium are well known as major plant pathogens and soil inhabitants, but also cause a broad spectrum of human infections. Fusariosis is the second most common mould infection after aspergillosis, and keratitis is the most encountered implantation infection in immunocompetent individuals. Natamycin is active against Fusarium species both in vitro and in vivo, and is used along with voriconazole as the mainstay of treatment for Fusarium keratitis. Onychomycosis is treated with",
+            "classification": {
+              "study_type": "Review (Current Fusariosis Treatment)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26702918",
+            "title": "In vitro combinations of natamycin with voriconazole, itraconazole and micafungin against clinical Fusarium strains causing keratitis.",
+            "authors": [
+              "Al-Hatmi Abdullah M S",
+              "Meletiadis Joseph",
+              "Curfs-Breuker Ilse",
+              "Bonifaz Alexandro",
+              "Meis Jacques F"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2016",
+            "abstract": "Fusarium species cause a broad spectrum of infections, from superficial to disseminated disease. Because Fusarium species are intrinsically resistant to most antifungal drugs, new approaches are needed. The aim of the present study was to evaluate the in vitro combination of natamycin with currently used antifungal drugs.",
+            "classification": {
+              "study_type": "In vitro Combination (Natamycin+Itraconazole)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38935914",
+            "title": "Fusarium species,Scedosporium species, and Lomentospora prolificans: A systematic review to inform the World Health Organization priority list of fungal pathogens.",
+            "authors": [
+              "Marinelli Tina",
+              "Kim Hannah Yejin",
+              "Halliday Catriona L",
+              "Garnham Katherine",
+              "Bupha-Intr Olivia"
+            ],
+            "journal": "Medical mycology",
+            "year": "2024",
+            "abstract": "Recognizing the growing global burden of fungal infections, the World Health Organization established a process to develop a priority list of fungal pathogens (FPPL). In this systematic review, we aimed to evaluate the epidemiology and impact of infections caused by Fusarium spp., Scedosporium spp., and Lomentospora prolificans to inform the first FPPL. PubMed and Web of Sciences databases were searched to identify studies published between January 1, 2011 and February 23, 2021, reporting on mor",
+            "classification": {
+              "study_type": "Systematic Review WHO (Fusarium)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11981740",
+            "title": "Progressive cutaneous hyalohyphomycosis due to Paecilomyces lilacinus: rapid response to treatment with caspofungin and itraconazole.",
+            "authors": [
+              "Safdar Amar"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2002",
+            "abstract": "A case of rapidly progressive cutaneous infection due to Paecilomyces lilacinus developed in a woman with advanced pancreatic cancer who did not have granulocytopenia. The infection responded favorably to caspofungin and itraconazole combination therapy.",
+            "classification": {
+              "study_type": "Case Report (Paecilomyces, rapid response)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17343584",
+            "title": "Disseminated pheohyphomycosis.",
+            "authors": [
+              "Shivaswamy Kanakapura N",
+              "Pradhan Prashanth",
+              "Laxmisha Chandrashekar",
+              "Thappa Devinder M",
+              "Jayanthi Soundararaghavan"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2007",
+            "abstract": "A 40-year-old male agricultural laborer presented to our clinic with asymptomatic swellings on his left hand and left leg of 2 years' duration. A pea-sized swelling was first noticed on the back of the left hand, which was gradual in onset and slowly progressed to its present size. The patient later noticed multiple swellings over his left leg and thigh, with a similar progression. There was no history suggestive of inflammatory changes or discharge from the lesions. There was no previous histor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25039437",
+            "title": "Successful sequential treatment with itraconazole and ALA-PDT for chromoblastomycosis because of Alternaria alternata.",
+            "authors": [
+              "Liu Ze-Hu",
+              "Xia Xiu-Jiao"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2014",
+            "abstract": "Alternaria alternata is a rare etiology of phaeohyphomycosis in immunocompromised patients, which has never been reported to cause chromoblastomycosis. As far as we know, this is the first chromoblastomycosis case successfully treated with a short course of systemic antifungals and subsequent 5-aminolevulinic acid-photodynamic therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15983738",
+            "title": "Successful treatment of antifungal- and cryotherapy-resistant subcutaneous hyalohyphomycosis in an immunocompetent case with topical 5% imiquimod cream.",
+            "authors": [
+              "Erbagci Zulal",
+              "Tuncel A Almila",
+              "Erkilic Suna",
+              "Zer Yasemin"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2005",
+            "abstract": "Hyalohyphomycosis is an unusual opportunistic mycotic infection where the tissue morphology of the causative organism is mycelial. Etiological agents, which are not responsible for the otherwise-named infections like aspergillosis, are the species of non-dematiaceous hyaline hyphomycetes including Penicillium, Paecilomyces, Acremonium (formerly known Cephalosporium), Beauveria, Fusarium, and Scopulariopsis. Several cases of Acremonium infection have been described in immunocompromised patients; ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30324156",
+            "title": "An unusual case of hyalohyphomycosis due to Purpureocillium lilacinum in a patient with myasthenia gravis.",
+            "authors": [
+              "Raghavan Ramya",
+              "Chithra Gomathi",
+              "Fernandez Sanal",
+              "Shamana Suryanarayana Bettadpura",
+              "Singh Rakesh"
+            ],
+            "journal": "Current medical mycology",
+            "year": "2018",
+            "abstract": "Purpureocillium lilacinum (previously known as Paecilomyces lilacinus) and Paecilomyces variotii cause hyalohyphomycosis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12227488",
+            "title": "Cutaneous hyalohyphomycosis and onychomycosis caused by Onychocola canadensis: report of the first case from Turkey.",
+            "authors": [
+              "Erbagci Zülal",
+              "Balci Iclal",
+              "Erkiliç Suna",
+              "Zer Yasemin",
+              "Inci Ramazan"
+            ],
+            "journal": "The Journal of dermatology",
+            "year": "2002",
+            "abstract": "We present the first Turkish case of skin and nail infection due to Onychocola canadensis in an otherwise healthy farmer who frequently worked barefoot on soil. Cutaneous involvement consisted of scaly and hyperkeratotic lesions resembling tinea pedis, erythematous plaques, and dermal papulonodules of various sizes simulating Majocchi's granuloma. Repeated cultures from nail plates, skin scrapings and needle aspiration materials from papules or nodules all yielded the same mold on Sabouroud dext",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16244897",
+            "title": "Evaluation of Fusarium solani hyphae and conidia susceptibility to amphotericin B and itraconazole: study of a clinical case.",
+            "authors": [
+              "Teixeira A B A",
+              "Moretti M L",
+              "Trabasso P",
+              "von Nowakonski A",
+              "Aoki F H"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2005",
+            "abstract": "Fusarium species are hyaline moulds belonging to the hyalohyphomycosis group that are usually found in the soil and plants. This organism has emerged as a cause of disseminated invasive disease. The correlation between in vitro value and clinical efficacy is low and many patients remain unresponsive to treatment despite in vitro susceptibility. We determined growth control for Fusarium solani using the BioCell-Tracer system that measures the growth rate of a single fungal hypha, and the effect o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21993589",
+            "title": "Resistant Fusarium keratitis progressing to endophthalmitis.",
+            "authors": [
+              "Edelstein Sean L",
+              "Akduman Levent",
+              "Durham Benjamin H",
+              "Fothergill Annette W",
+              "Hsu Hugo Y"
+            ],
+            "journal": "Eye & contact lens",
+            "year": "2012",
+            "abstract": "To report a case of multidrug-resistant Fusarium sp keratitis that progressed to endophthalmitis and that eventually required enucleation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25582205",
+            "title": "[Etiology and pathogens of fungal endophthalmitis].",
+            "authors": [
+              "Sun Shiying",
+              "Zhao Ge",
+              "Sun Xiaoyan",
+              "Wang Qian",
+              "Yu Bin"
+            ],
+            "journal": "[Zhonghua yan ke za zhi] Chinese journal of ophthalmology",
+            "year": "2014",
+            "abstract": "To evaluate epidemiologic features and laboratory findings of fungal endophthalmitis in north China.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37605217",
+            "title": "Onychomycosis due to Fusarium species in different continents, literature review on diagnosis and treatment.",
+            "authors": [
+              "Haghani Iman",
+              "Hedayati Mohammad Taghi",
+              "Shokohi Tahereh",
+              "Kermani Firoozeh",
+              "Ghazanfari Mona"
+            ],
+            "journal": "Mycoses",
+            "year": "2024",
+            "abstract": "Fusarium species are an emerging cause of onychomycosis, and the number of cases has dramatically increased in recent decades worldwide. This review presents an overview of the onychomycosis cases caused by Fusarium species and diagnosis and treatment that have been reported in the literature. The most common causative agent of onychomycosis is F. solani species complex, which accounts for 11.68% of the cases of Fusarium onychomycosis, followed by the F. oxysporum species complex (164 out of 166",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37045456",
+            "title": "Cerebral phaeohyphomycosis at a tertiary healthcare center in Saudi Arabia.",
+            "authors": [
+              "Alabdely Mayyadah H",
+              "Alolayan Abdullah S",
+              "Almaghrabi Reem S",
+              "Al-Abdely Hail M"
+            ],
+            "journal": "Neurosciences (Riyadh, Saudi Arabia)",
+            "year": "2023",
+            "abstract": "To report cases of cerebral phaeohyphomycosis at a tertiary hospital in Riyadh, Saudi Arabia. Phaeohyphomycetes are a widely distributed group of fungi whose cell walls contain 1,8 dihydroxynaphthalene-melanin. Cerebral infections caused by these fungi are uncommon and primarily associated with neurotrophic phaeohyphomycetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11030312",
+            "title": "Clinical picture. Cutaneous hyalohyphomycosis.",
+            "authors": [
+              "Assaf C",
+              "Goerdt S",
+              "Seibold M",
+              "Orfanos C"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2000",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hyalohyphomycosis 為多病原菌疾病譜（Paecilomyces lilacinus、Fusarium spp.、Acremonium 等），Itraconazole 療效因病原菌種差異極大。對 Paecilomyces lilacinus 有明確個案報告療效（PMID 10614958、11981740），但 Fusarium 屬天然耐藥（MIC > 16 mg/L）。PMID 38935914 系統性回顧（WHO FPPЛ）確認 Fusarium 對 Itraconazole 耐藥，不建議用於 Fusariosis。建議依病原菌別個別進行體外敏感性測試後方可決策。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "penicilliosis",
+      "txgnn": {
+        "score": 0.8901207447052002,
+        "rank": 35795
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06926569",
+            "title": "Single High-dose of Liposomal Amphotericin B in Combination With B/F/TAF for HIV/AIDS-associated Talaromycosis",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 116,
+            "start_date": "2025-05-01",
+            "completion_date": "2026-05-01",
+            "brief_summary": "This study aims to compare the efficacy and safety of a single high-dose Liposomal Amphotericin B (L-AMB) against conventional Amphotericin B deoxycholate (AmBD) for HIV-associated Talaromycosis.\n\nThe investigators hypothesize that L-AMB induction therapy (10 mg/kg) is non-inferior to AmBD (0.5-0.7 mg/kg/d) in efficacy and has an improved safety profile.\n\nThe study's primary objective is to provide evidence supporting the guideline recommendation of single high-dose L-AMB for HIV-infected indivi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase NA，LAmB 單次高劑量聯合 B/F/TAF 替代方案研究，Itraconazole 為比較標準，116 例，間接強化 Itraconazole 作為現行標準治療之參照地位"
+            }
+          },
+          {
+            "nct_id": "NCT06525389",
+            "title": "Liposomal Amphotericin B and Flucytosine Antifungal Strategy for Talaromycosis (LAmB-FAST)",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 428,
+            "start_date": "2026-04-01",
+            "completion_date": "2031-11-01",
+            "brief_summary": "LAmB-FAST is a factorial randomized controlled trial simultaneously testing two interventions in one trial. LAmB-FAST seeks to inform treatment guidelines on the induction and maintenance therapy of HIV-associated talaromycosis (formerly called penicilliosis) and will answer the following three questions:\n\n1. Is induction therapy using a single 10 mg\\\\/kg dose of liposomal amphotericin B (LAmB) is more effective than 14 days of the conventional deoxycholate amphotericin B (DAmB)?\n2. Is adding fl",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 LAmB-FAST（428 例），Itraconazole consolidation 為標準對照臂，直接確立其在 Talaromycosis 治療流程中的核心地位，雖尚未招募（2024），設計最高證據等級"
+            }
+          },
+          {
+            "nct_id": "NCT04031053",
+            "title": "Assessment of Itraconazole Pharmacokinetic With and Without Efavirenz Using the Capsule Formulation as Part of Talaromycosis Treatment in HIV-infected Adults",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2019-06-01",
+            "completion_date": "2021-04-30",
+            "brief_summary": "Talaromycosis continues to be a common opportunistic fungal infection among people living with HIV/AIDS (PLWHA) in Southeast Asia and remains a leading cause of death among this population. Itraconazole (ITZ) is an important component of talaromycosis treatment. In Thailand, the capsule formulation of ITZ is primarily used to treat talaromycosis but it is known to have lower bioavailability than the more expensive solution formulation. Limited data on the drug exposure of ITZ with the capsule fo",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PK/DDI 研究（20 例，狀態 UNKNOWN），評估 Efavirenz 對 Itraconazole 膠囊 PK 影響，直接回答 HIV/AIDS 併用最常見 DDI 問題，提供安全性實施參數，非療效研究"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9831676",
+            "title": "Epidemiology and management of penicilliosis in human immunodeficiency virus-infected patients.",
+            "authors": [
+              "Sirisanthana T",
+              "Supparatpinyo K"
+            ],
+            "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+            "year": "1998",
+            "abstract": "Penicillium marneffei is a dimorphic fungus that can cause systemic mycosis in humans. It is endemic in Southeast Asia, the Guangxi province of China, Hong Kong, and Taiwan. Prior to the epidemic of human immunodeficiency virus (HIV), penicilliosis was a rare event. The incidence of this fungal infection has increased markedly during the past few years, paralleling the incidence of HIV infection. The patients usually present with fever, anemia, weight loss, skin lesions, generalized lymphadenopa",
+            "classification": {
+              "study_type": "Cohort/Epidemiology (Management Guidelines)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25391487",
+            "title": "Penicilliosis and AIDS in Haiphong, Vietnam: evolution and predictive factors of death.",
+            "authors": [
+              "Son V T",
+              "Khue P M",
+              "Strobel M"
+            ],
+            "journal": "Medecine et maladies infectieuses",
+            "year": "2014",
+            "abstract": "The study objective was to assess the lethality rates and the predictive factors for death in AIDS patients infected by Penicillium marneffei (Pm) in Hai Phong, Vietnam.",
+            "classification": {
+              "study_type": "Prospective Cohort (Haiphong, Mortality)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16242368",
+            "title": "Histoplasmosis and penicilliosis: comparison of clinical features, laboratory findings and outcome.",
+            "authors": [
+              "Mootsikapun Piroon",
+              "Srikulbutr Sukanya"
+            ],
+            "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+            "year": "2006",
+            "abstract": "Histoplasmosis and penicilliosis are infections caused by the dimorphic fungi, Histoplasma capsulatum and Penicillium marneffei, respectively. The aim of this study was to compare the clinical presentation, laboratory and radiologic findings and outcome of these infections at Srinagarind Hospital, Khon Kaen, Thailand.",
+            "classification": {
+              "study_type": "Comparative Cohort (vs Histoplasmosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24973303",
+            "title": "Airway obstruction caused by penicilliosis: a case report and review of the literature.",
+            "authors": [
+              "Boonsarngsuk Viboon",
+              "Eksombatchai Dararat",
+              "Kanoksil Wasana",
+              "Tantrakul Visasiri"
+            ],
+            "journal": "Archivos de bronconeumologia",
+            "year": "2015",
+            "abstract": "Penicilliosis is an opportunistic infection in HIV-infected and other immunocompromised patients mostly in Southeast Asia, Southern China, Hong Kong, and Taiwan, with respiratory manifestations in about one-third of patients. We report the case of a 26-year-old non-HIV immunocompromised patient presenting with an airway obstruction caused by penicilliosis, together with a review of the literature of this rare condition.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10561715",
+            "title": "Penicilliosis marneffei: another AIDS defining illness in Southeast Asia.",
+            "authors": [
+              "Nittayananta W"
+            ],
+            "journal": "Oral diseases",
+            "year": "1999",
+            "abstract": "Penicilliosis marneffei, a common mycosis among AIDS patients living in Southeast Asia, has been recently suggested for inclusion in the AIDS surveillance case definition. Infections with Penicillium marneffei were rare in the past, but infections with this dimorphic fungus have increased with the endemic of AIDS in the region. The reservoir of P. marneffei in nature is still unknown, although it seems likely that inhalation may be the route of entry of the organism leading to infection in human",
+            "classification": {
+              "study_type": "Review/Cohort (AIDS-defining illness)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38935909",
+            "title": "Talaromyces marneffei, Coccidioides species, and Paracoccidioides species-a systematic review to inform the World Health Organization priority list of fungal pathogens.",
+            "authors": [
+              "Morris Arthur J",
+              "Kim Hannah Yejin",
+              "Nield Blake",
+              "Dao Aiken",
+              "McMullan Brendan"
+            ],
+            "journal": "Medical mycology",
+            "year": "2024",
+            "abstract": "The World Health Organization, in response to the growing burden of fungal disease, established a process to develop a fungal pathogen priority list. This systematic review aimed to evaluate the epidemiology and impact of infections caused by Talaromyces marneffei, Coccidioides species, and Paracoccidioides species. PubMed and Web of Sciences databases were searched to identify studies published between 1 January 2011 and 23 February 2021 reporting on mortality, complications and sequelae, antif",
+            "classification": {
+              "study_type": "Systematic Review (WHO FPPЛ, Talaromyces)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11364335",
+            "title": "Penicilliosis.",
+            "authors": [
+              "Powderly W G"
+            ],
+            "journal": "Journal of the International Association of Physicians in AIDS Care",
+            "year": "1997",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32674642",
+            "title": "Drug-related talaromycosis: A case report.",
+            "authors": [
+              "Lu Yongsheng",
+              "Shi Quan",
+              "Yu Jing"
+            ],
+            "journal": "International journal of immunopathology and pharmacology",
+            "year": "2020",
+            "abstract": "Talaromycosis is a rare deep fungal infection caused by Talaromyces marneffei. Currently, methamphetamine has become the second-largest drug abuse category in the world after cannabis and has become a serious public health problem. Methamphetamine can inhibit human immune system and increase the probability of pathogenic microorganism infection. On 8 October 2016, a 20-year-old man with a fever history of 2 months was admitted to our hospital. He had bloody stools and abdominal pain during hospi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11829723",
+            "title": "Antifungal use in HIV infection.",
+            "authors": [
+              "Marty Francisco",
+              "Mylonakis Eleftherios"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2002",
+            "abstract": "Systemic fungal infections continue to be a major cause of morbidity and mortality among HIV-infected patients. Mucosal candidiasis remains the most common fungal disease in this population, while cryptococcosis and aspergillosis are associated with significant mortality. Histoplasmosis and penicilliosis are relatively common in some areas. Blastomycosis, coccidioidomycosis and paracoccidioidomycosis have also been described in association with HIV. Over the last decade, a number of clinical tri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8816141",
+            "title": "Infection due to Penicillium marneffei, an emerging pathogen: review of 155 reported cases.",
+            "authors": [
+              "Duong T A"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1996",
+            "abstract": "A disseminated and progressive infection, penicilliosis marneffei is the third most common opportunistic infection in human immunodeficiency virus (HIV)-infected patients in certain parts of Southeast Asia. Penicillium marneffei is endemic in Southeast Asia and the southern part of China. Cases have been reported from both Eastern and Western countries. This review discusses the history, epidemiology, mycology, clinical manifestations, diagnosis, and treatment of penicilliosis marneffei, on the ",
+            "classification": {
+              "study_type": "Case Series Review (155 cases)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24531088",
+            "title": "Penicilliosis marneffei complicated with interstitial pneumonia.",
+            "authors": [
+              "Furusawa Haruhiko",
+              "Miyazaki Yasunari",
+              "Sonoda Shiro",
+              "Tsuchiya Kimitake",
+              "Yaguchi Takashi"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2014",
+            "abstract": "A 71-year-old man with interstitial pneumonia was hospitalized due to a pulmonary infection. He had been living in Thailand and had returned to Japan three months earlier. Antibiotic therapy initially cleared the infection; however, the patient's condition relapsed. Pseudomonas aeruginosa and Penicillium sp. were both detected in sputum and bronchial lavage fluid cultures and Penicillium sp. was identified to be P. marneffei. The infiltration observed on chest radiographs improved following trea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37064726",
+            "title": "Penicilliosis in a Non-HIV Patient: A Case Report.",
+            "authors": [
+              "Hakeem Sai Chandra",
+              "Kulirankal Kiran G",
+              "Mary Ann",
+              "Moni Merlin",
+              "Sathyapalan Dipu T"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "A 68-year-old female, with a known case of mantle cell lymphoma, came with complaints of persistent cough with expectoration for three months, not responding to multiple courses of antibiotics. Bronchoscopy was done and bronchoalveolar lavage (BAL) culture revealed Penicillium species. She was started on IV liposomal amphotericin B for 14 days and then switched to oral itraconazole which showed a response to treatment. Early diagnosis of penicilliosis and prompt treatment are important as it is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20926165",
+            "title": "[Penicilliosis in Vietnam: a series of 94 patients].",
+            "authors": [
+              "Vu Hai V",
+              "Ngo A T",
+              "Ngo V H",
+              "Nguyen Q H",
+              "Massip P"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2010",
+            "abstract": "Haiphong is the second city of Vietnam most affected by HIV infection. Penicilliosis represents the third leading cause of opportunistic infection. However, this systemic fungal infection remains poorly knew by practitioners. This study aimed to clarify the clinical, diagnostic and therapeutic aspects of penicilliosis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35157189",
+            "title": "Characteristics and Prognosis of Talaromyces marneffei Infection in HIV-positive Children in Southern China.",
+            "authors": [
+              "Xue Xiaochun",
+              "Zou Jun",
+              "Fang Wenjie",
+              "Liu Xiaogang",
+              "Chen Min"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2022",
+            "abstract": "Knowledge about the clinical characteristics and prognostic factors of Talaromyces marneffei infection in children is limited, especially in HIV-positive children. We performed a retrospective study of all HIV-positive pediatric inpatients with T. marneffei infection in a tertiary hospital in Southern China between 2014 and 2019 and analyzed the related risk factors of poor prognosis using logistic regression. Overall, 28 cases were enrolled and the prevalence of talaromycosis in AIDS children w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15686974",
+            "title": "Four cats with fungal rhinitis.",
+            "authors": [
+              "Whitney Beth L",
+              "Broussard John",
+              "Stefanacci Joseph D"
+            ],
+            "journal": "Journal of feline medicine and surgery",
+            "year": "2005",
+            "abstract": "Fungal rhinitis is uncommon in the cat and cases of nasal aspergillosis-penicilliosis have been rarely reported. Signs of fungal rhinitis include epistaxis, sneezing, mucopurulent nasal discharge and exophthalmos. Brachycephalic feline breeds seem to be at increased risk for development of nasal aspergillosis-penicilliosis. Computed tomography (CT) imaging and rhinoscopy are useful in assessing the extent of the disease and in obtaining diagnostic samples. Fungal culture may lead to false negati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37226893",
+            "title": "Impact of pathogen genetics on clinical phenotypes in a population of Talaromyces marneffei from Vietnam.",
+            "authors": [
+              "Sephton-Clark Poppy",
+              "Nguyen Thu",
+              "Hoa Ngo Thi",
+              "Ashton Philip",
+              "van Doorn H Rogier"
+            ],
+            "journal": "Genetics",
+            "year": "2023",
+            "abstract": "Talaromycosis, a severe and invasive fungal infection caused by Talaromyces marneffei, is difficult to treat and impacts those living in endemic regions of Southeast Asia, India, and China. While 30% of infections result in mortality, our understanding of the genetic basis of pathogenesis for this fungus is limited. To address this, we apply population genomics and genome-wide association study approaches to a cohort of 336 T. marneffei isolates collected from patients who enrolled in the Itraco",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33894704",
+            "title": "Penicilliosis marneffei in HIV negative children: three case reports.",
+            "authors": [
+              "Fan Jiang-Hua",
+              "Luo Hai-Yan",
+              "Yang Long-Gui",
+              "Wang Meng-Ying",
+              "Xiao Zheng-Hui"
+            ],
+            "journal": "Annals of palliative medicine",
+            "year": "2021",
+            "abstract": "This study aimed to report the clinical characteristics of penicilliosis marneffei (PSM) in three children negative to HIV. Three children were diagnosed with PSM in the Department of Emergency Medicine, Hunan Children's Hospital between February 2016 to July 2020. The clinical characteristics, laboratory findings, and concomitant diseases were recorded, and the related literatures were reviewed. The clinical characteristics and treatment of PSM were reported according to our experience and lite",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8472804",
+            "title": "Treatment and serological studies of an Italian case of penicilliosis marneffei contracted in Thailand by a drug addict infected with the human immunodeficiency virus.",
+            "authors": [
+              "Viviani M A",
+              "Tortorano A M",
+              "Rizzardini G",
+              "Quirino T",
+              "Kaufman L"
+            ],
+            "journal": "European journal of epidemiology",
+            "year": "1993",
+            "abstract": "A case of disseminated penicilliosis marneffei, the first to be diagnosed in Italy, is described in a male HIV-positive drug addict. The patient had visited Thailand several times in the two years prior to his hospitalization. The presenting signs were fever, productive cough, facial skin papules and pustules, nodules on both thumbs and oropharyngeal candidiasis. Penicillium marneffei was isolated from a series of blood specimens with the lysis centrifugation procedure. Septate, yeast-like cells",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12060110",
+            "title": "Bone marrow penicilliosis.",
+            "authors": [
+              "So Chi-Chui",
+              "Wong Kit-Fai"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30429396",
+            "title": "Comparing the profile of respiratory fungal pathogens amongst immunocompetent and immunocompromised hosts, their susceptibility pattern and correlation of various opportunistic respiratory fungal infections and their progression in relation to the CD4+T-cell counts.",
+            "authors": [
+              "Roohani Asma Husein",
+              "Fatima Nazish",
+              "Shameem Mohammad",
+              "Khan Haris Manzoor",
+              "Khan Parvez Anwar"
+            ],
+            "journal": "Indian journal of medical microbiology",
+            "year": "2018",
+            "abstract": "Invasive fungal infections are increasingly common in the nosocomial setting.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Talaromyces marneffei（原 Penicillium marneffei）對 Itraconazole 具高度敏感性（MIC₉₀ ≤ 0.125 mg/L）。Itraconazole 為 WHO 2022 指南推薦之 T. marneffei 感染鞏固期（consolidation）及次級預防（secondary prophylaxis）標準用藥，靜脈 AmB 誘導 2 週後，口服 Itraconazole 10 週為東南亞標準療程。NCT06525389（Phase 3 LAmB-FAST，428 例）將 Itraconazole consolidation 作為對照標準臂，確立現行地位。主要護欄：需監控血清谷濃度（目標 > 0.5 mg/L）、與 HIV 用藥（EFV、NVP）之 CYP3A4 交互作用（NCT04031053 PK 研究直接處理此問題）、以及吸收不穩定問題（膠囊劑型需與食物/酸性飲料同服）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "geotrichosis",
+      "txgnn": {
+        "score": 0.8901207447052002,
+        "rank": 35796
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9009647",
+            "title": "Geotrichosis of oral mucosa.",
+            "authors": [
+              "Listemann H",
+              "Schönrock-Nabulsi P",
+              "Kuse R",
+              "Meigel W"
+            ],
+            "journal": "Mycoses",
+            "year": "1996",
+            "abstract": "A livid, sharply defined enanthema of the oral mucosa with ulcerations on the soft palate in a patient presenting with de novo acute myeloid leukaemia with prolonged, therapy-induced granulocytopenia (< 0.5 nl-1 for 113 days!) was diagnosed as geotrichosis. Geotrichum capitatum was identified both in vivo and in vitro. Pneumonic infiltrates in the upper lobes of both lungs were treated with amphotericin B infusions. Healing of the aforementioned enanthema was only achieved after addition of 5-fl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19621612",
+            "title": "[Investigation of in vitro activities of fluconazole, itraconazole and voriconazole against clinical isolates of Blastoschizomyces capitatus (Geotrichum capitatum) by two different methods].",
+            "authors": [
+              "Sancak Banu",
+              "Alp Sehnaz",
+              "Hasçelik Gülşen",
+              "Arikan Sevtap"
+            ],
+            "journal": "Mikrobiyoloji bulteni",
+            "year": "2009",
+            "abstract": "Blastoschizomyces capitatus is an emerging opportunistic pathogen that may lead to invasive infections particularly in neutropenic patients. In this study, the in vitro activities of fluconazole, itraconazole and voriconazole against 15 clinical B. copitatus isolates were determined by microdilution method (MD) and Etest. The isolation and identification of the isolates were done by standard mycological methods. MD tests were done in accordance with CLSI microdilution method (M27A-2). Etest was ",
+            "classification": {
+              "study_type": "In vitro Susceptibility",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35018329",
+            "title": "Invasive Geotrichum klebahnii fungal infection: A case report.",
+            "authors": [
+              "Tshisevhe Vhudzani",
+              "Mitton Barend",
+              "Skosana Lebogang"
+            ],
+            "journal": "Access microbiology",
+            "year": "2021",
+            "abstract": "Geotrichosis is a world-wide mycosis caused by Geotrichum species. We report a rare case of an invasive cutaneous infection by Geotrichum klebahnii in a female patient with undiagnosed diabetes mellitus. The patient presented with right facial swelling not responding to antibiotics and could not recall trauma to the site of the lesion. Histological examination showed fungal hyphae invading salivary glands and bony tissues, and G. klebahnii was isolated from the culture of biopsy material. Matrix",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21088357",
+            "title": "Successful treatment of systemic Geotrichum capitatum infection by liposomal amphotericin-B, itraconazole, and voriconazole in a Japanese man.",
+            "authors": [
+              "Ikuta Katsuya",
+              "Torimoto Yoshihiro",
+              "Yamamoto Masayo",
+              "Okamura Naoka",
+              "Hosoki Takaaki"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2010",
+            "abstract": "Severe systemic Geotrichum capitatum (G. capitatum) infection is rare, especially in Japan. G. capitatum infection has been reported mainly in immunocompromised patients and the prognosis is poor with a mortality rate of approximately 50-75%. Here, we report a Japanese case of systemic G. capitatum infection in a severe neutropenic patient who was receiving chemotherapy for acute myelogeneous leukemia with multilineage dysplasia. G. capitatum was isolated from blood cultures, and also formed mul",
+            "classification": {
+              "study_type": "Case Report (LAmB + Itraconazole, successful)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9775185",
+            "title": "[Geotrichum capitatum infection in a neutropenic patient. Apropos of a case and review of the literature].",
+            "authors": [
+              "Fouassier M",
+              "Joly D",
+              "Cambon M",
+              "Peigue-Lafeuille H",
+              "Condat P"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "1998",
+            "abstract": "Geotrichum capitatum sepsis are rare, occurring exclusively in immunocompromised patients.",
+            "classification": {
+              "study_type": "Case Report + Literature Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9670762",
+            "title": "Geotrichum capitatum septicaemia in neutropenic patients: case report and review of the literature.",
+            "authors": [
+              "Schiemann R",
+              "Glasmacher A",
+              "Bailly E",
+              "Horré R",
+              "Molitor E"
+            ],
+            "journal": "Mycoses",
+            "year": "1998",
+            "abstract": "We report a case of systemic infection with Geotrichum capitatum in a patient with acute myeloid leukaemia. Three days before death, the patient developed acute renal failure, probably caused by occlusion of glomerula with hyphae of G. capitatum. Up until now, prophylaxis and treatment of infections caused by Geotrichum capitatum have not been established. However, the prophylactic administration of high-dose itraconazole and the therapeutic use of liposomal amphotericin B are subjects of discus",
+            "classification": {
+              "study_type": "Case Report + Literature Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8569813",
+            "title": "Treatment of chronic disseminated Geotrichum capitatum infection with high cumulative dose of colloidal amphotericin B and itraconazole in a leukaemia patient.",
+            "authors": [
+              "Cofrancesco E",
+              "Viviani M A",
+              "Boschetti C",
+              "Tortorano A M",
+              "Balzani A"
+            ],
+            "journal": "Mycoses",
+            "year": "1995",
+            "abstract": "A case of disseminated granulomatous Geotrichum capitatum infection is reported. A young patient with blastic crisis of chronic myelogenous leukaemia developed septicaemia caused by G. capitatum in the post-chemotherapy aplastic phase. Subsequently, disseminated infection of the liver, spleen, pancreas and kidneys was observed. Treatment with high cumulative doses of a lipid formulation of amphotericin B (Amphocil, 20.2 g in 11 weeks) and maintenance with itraconazole resolved clinical manifesta",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28150341",
+            "title": "Invasive infections due to Saprochaete and Geotrichum species: Report of 23 cases from the FungiScope Registry.",
+            "authors": [
+              "Durán Graeff Luisa",
+              "Seidel Danila",
+              "Vehreschild Maria J G T",
+              "Hamprecht Axel",
+              "Kindo Anupma"
+            ],
+            "journal": "Mycoses",
+            "year": "2017",
+            "abstract": "Saprochaete and Geotrichum spp. are rare emerging fungi causing invasive fungal diseases in immunosuppressed patients and scarce evidence is available for treatment decisions. Among 505 cases of rare IFD from the FungiScope™ registry, we identified 23 cases of invasive infections caused by these fungi reported from 10 countries over a 12-year period. All cases were adults and previous chemotherapy with associated neutropenia was the most common co-morbidity. Fungaemia was confirmed in 14 (61%) c",
+            "classification": {
+              "study_type": "Retrospective Case Series (FungiScope, 23 cases)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2615781",
+            "title": "Disseminated Geotrichum capitatum infection in a patient with acute myeloid leukemia.",
+            "authors": [
+              "Mahul P",
+              "Piens M A",
+              "Guyotat D",
+              "Godard J",
+              "Archimbaud E"
+            ],
+            "journal": "Mycoses",
+            "year": "1989",
+            "abstract": "A case of invasive Geotrichum capitatum infection is reported; a young patient had an acute leukemia for which he received a chemotherapy, and presented sepsis with blood cultures for Geotrichum capitatum, namely Dipodascus spicifer; this pathogen only described in cactus rot, is responsible for the first case of a human disseminated infection reported in literature. Then he developed a splenic and epididymic infection, with positive cultures for Geotrichum capitatum after splenectomy and castra",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Geotrichum/Saprochaete 屬（G. capitatum, G. klebahnii）對三唑類具部分敏感性，PMID 19621612 體外研究確認 Itraconazole 有活性。PMID 21088357 報告 LAmB 聯合 Itraconazole 成功治療 G. capitatum 感染。PMID 28150341 FungiScope 23 例回顧性研究為目前最大病例系列，但最佳治療方案仍無共識。疾病罕見性（全球案例 < 200 例）導致 RCT 設計不可行，適合作為罕見真菌感染研究問題，治療前務必進行 MIC 測試。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "maple bark strippers' lung",
+      "txgnn": {
+        "score": 0.8883194327354431,
+        "rank": 35948
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Maple bark strippers' lung 為接觸楓樹皮下真菌 Cryptostroma corticale 孢子引起的過敏性肺炎（Hypersensitivity Pneumonitis，HP），屬 III/IV 型超敏反應，並非活性真菌感染。病理機轉為免疫複合物沉積及 CD4+ T 細胞介導肉芽腫反應，抗真菌藥物對此免疫病理機制無治療作用。標準治療為迴避過敏原和必要時使用類固醇。文獻數為零，TxGNN 高分（0.888）為演算法在「真菌相關肺部疾病」知識圖譜節點的非特異性泛化推論，無任何臨床應用依據，建議從候選清單中移除。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.875049889087677,
+        "rank": 37192
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38574764",
+            "title": "Clinico-mycological and therapeutic updates on cutaneous dermatophytic infections in the era of Trichophyton indotineae.",
+            "authors": [
+              "Khurana Ananta",
+              "Sharath Savitha",
+              "Sardana Kabir",
+              "Chowdhary Anuradha"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2024",
+            "abstract": "Trichophyton indotineae has emerged as a novel dermatophyte species resulting in treatment recalcitrant skin infections. While the earliest reports came from India, T. indotineae has now spread to many parts of the world and is rapidly becoming a global health concern. Accurate identification of T. indotineae requires elaborate mycological investigations which is beyond the domain of routine microbiology testing. Extensive, non-inflammatory and atypical presentations are commonly seen with this ",
+            "classification": {
+              "study_type": "Review (Dermatophytosis, not Leprosy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40613321",
+            "title": "Trichophyton indotineae: Epidemiology, antifungal resistance and antifungal stewardship strategies.",
+            "authors": [
+              "Gupta Aditya K",
+              "Susmita",
+              "Nguyen Hien C",
+              "Liddy Amanda",
+              "Talukder Mesbah"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2026",
+            "abstract": "There has been a recent shift in the epidemiology of superficial fungal infections (tinea, dermatophytosis, dermatomycoses). Trichophyton indotineae is an emerging dermatophyte species of significant global concern for its contagious nature and antifungal drug resistance. This scoping review includes available clinical and laboratory assessments of T. indotineae to provide a comprehensive up-to-date overview of its epidemiology, clinical manifestations, diagnostic approaches, antifungal suscepti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22682191",
+            "title": "Lobomycosis.",
+            "authors": [
+              "Talhari Sinésio",
+              "Talhari Carolina"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2012",
+            "abstract": "Lobomycosis is a rare chronic fungal infection of the subcutaneous tissue found in South America, mainly in Brazil. It is caused by Lacazia loboi. Its clinical manifestations are dermal nodules, either lenticular or in plaques, and keloidlike lesions that can resemble nodular leprosy or leishmaniasis, other subcutaneous mycoses (sporotrychosis, chromomycosis, paracoccidioidomycosis), keloids, and malignant tumors. Diagnosis is made by the histopathological findings of the fungus. For treatment, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33768016",
+            "title": "Super Bioavailable Itraconazole and Its Place and Relevance in Recalcitrant Dermatophytosis: Revisiting Skin Levels of Itraconazole and Minimum Inhibitory Concentration Data.",
+            "authors": [
+              "Sardana Kabir",
+              "Mathachan Sinu Rose"
+            ],
+            "journal": "Indian dermatology online journal",
+            "year": "2021",
+            "abstract": "Itraconazole, is the most commonly prescribed oral antifungal agent in India, and has a low minimum inhibitory concentration as compared to other oral antifungals, and in conjunction with the markedly high skin levels, the drug should have a predictably good clinical response which is not the consistent experience of clinicians. Probably the variation in pelletization parameters might affect the bioavailability of the drug and consequently affect the serum levels. The maximum bioavailability of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37923859",
+            "title": "Comparison between the efficacy of terbinafine and itraconazole orally vs. the combination of the two drugs in treating recalcitrant dermatophytosis.",
+            "authors": [
+              "Hassaan Zinab Rabia Abo Almaati",
+              "Mohamed Hassan Abou Khodair",
+              "Eldahshan Ramadan Mohamed",
+              "Elsaie Mohamed L"
+            ],
+            "journal": "Scientific reports",
+            "year": "2023",
+            "abstract": "Fungal infections are a challenging to treat cutaneous condition. Approximately 20-25% of humans are affected by superficial fungal infections that invade and multiply within keratinized tissues. To compare the efficacy of either terbinafine or itraconazole orally versus the combination of the two drugs in the treatment of recalcitrant dermatophytosis. The current study included 45 patients with recalcitrant dermatophytosis who were distributed into 3 groups (each of 15 patients); Group A receiv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39325271",
+            "title": "Reactive oxygen species-inducing itraconazole and its anti-biofilm activity against resistant Candida parapsilosis sensu lato biofilm cells isolated from patients with recalcitrant onychomycosis.",
+            "authors": [
+              "Kamali Monireh",
+              "Ghaderi Aliasghar",
+              "Tamimi Pegah",
+              "Firooz Alireza",
+              "Nasiri Kashani Mansour"
+            ],
+            "journal": "Archives of dermatological research",
+            "year": "2024",
+            "abstract": "Candida parapsilosis was introduced as the second most responsible for nail involvement. The colonization of biotic and abiotic surfaces by Candida spp. can result in the formation of biofilms, which possess a high level of resistance to typical antifungal agents. Since Candida spp. can produce biofilm mass on the surface of the nails, dermatologists should consider appropriate antifungals to eliminate both the planktonic and biofilm cells. The aim of this research was to determine the antifunga",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27917843",
+            "title": "Author's reply.",
+            "authors": [
+              "Ardeshna Kenit P",
+              "Rohatgi Shaurya",
+              "Jerajani Hemangi R"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37907954",
+            "title": "The pipeline for drugs for control and elimination of neglected tropical diseases: 2. Oral anti-infective drugs and drug combinations for off-label use.",
+            "authors": [
+              "Pfarr Kenneth M",
+              "Krome Anna K",
+              "Al-Obaidi Issraa",
+              "Batchelor Hannah",
+              "Vaillant Michel"
+            ],
+            "journal": "Parasites & vectors",
+            "year": "2023",
+            "abstract": "In its 'Road map for neglected tropical diseases 2021-2030', the World Health Organization outlined its targets for control and elimination of neglected tropical diseases (NTDs) and research needed to achieve them. For many NTDs, this includes research for new treatment options for case management and/or preventive chemotherapy. Our review of small-molecule anti-infective drugs recently approved by a stringent regulatory authority (SRA) or in at least Phase 2 clinical development for regulatory ",
+            "classification": {
+              "study_type": "Review (NTD Drug Pipeline, indirect)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18390158",
+            "title": "[Leprosy and paracoccidioidomycosis].",
+            "authors": [
+              "Méndez E de los A",
+              "Nardin M E",
+              "Busquets N P",
+              "Lorenz R G",
+              "Iribas J L"
+            ],
+            "journal": "Revista Argentina de microbiologia",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (Leprosy + Paracoccidioidomycosis coinfection)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37266073",
+            "title": "Management of Dermatophytosis: Real-World Indian Perspective.",
+            "authors": [
+              "Shenoy Manjunath",
+              "Poojari Shital",
+              "Rengasamy Madhu",
+              "Vedmurthy Maya",
+              "Barua Shyamanta"
+            ],
+            "journal": "Indian dermatology online journal",
+            "year": "2023",
+            "abstract": "In spite of the availability of multiple consensus statements on dermatophytosis management, different treatment approaches have been experienced in India and require more scrutiny to further update guidelines and improve patient care.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25614735",
+            "title": "Sporotrichosis: an overview and therapeutic options.",
+            "authors": [
+              "Mahajan Vikram K"
+            ],
+            "journal": "Dermatology research and practice",
+            "year": "2014",
+            "abstract": "Sporotrichosis is a chronic granulomatous mycotic infection caused by Sporothrix schenckii, a common saprophyte of soil, decaying wood, hay, and sphagnum moss, that is endemic in tropical/subtropical areas. The recent phylogenetic studies have delineated the geographic distribution of multiple distinct Sporothrix species causing sporotrichosis. It characteristically involves the skin and subcutaneous tissue following traumatic inoculation of the pathogen. After a variable incubation period, prog",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32955729",
+            "title": "The science and rationale of arriving at the correct drug and dosimetry of griseofulvin, fluconazole, terbinafine and itraconazole in superficial dermatophyte infections: an important step before a pragmatic trial.",
+            "authors": [
+              "Sardana K",
+              "Mathachan S R"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30041646",
+            "title": "Expert Consensus on The Management of Dermatophytosis in India (ECTODERM India).",
+            "authors": [
+              "Rajagopalan Murlidhar",
+              "Inamadar Arun",
+              "Mittal Asit",
+              "Miskeen Autar K",
+              "Srinivas C R"
+            ],
+            "journal": "BMC dermatology",
+            "year": "2018",
+            "abstract": "Dermatophytosis management has become an important public health issue, with a large void in research in the area of disease pathophysiology and management. Current treatment recommendations appear to lose their relevance in the current clinical scenario. The objective of the current consensus was to provide an experience-driven approach regarding the diagnosis and management of tinea corporis, cruris and pedis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29371538",
+            "title": "An Assessment of In Vitro Antifungal Activities of Efinaconazole and Itraconazole against Common Non-Dermatophyte Fungi Causing Onychomycosis.",
+            "authors": [
+              "Tupaki-Sreepurna Ananya",
+              "Jishnu Bhavna T",
+              "Thanneru Vijayakishore",
+              "Sharma Savitri",
+              "Gopi Anjana"
+            ],
+            "journal": "Journal of fungi (Basel, Switzerland)",
+            "year": "2017",
+            "abstract": "Onychomycosis is a fungal nail infection which is relatively common and difficult to treat. Treatment modalities include nail avulsion, surgical debridement and combination therapy with oral and topical antifungal drugs. In spite of a host of available drugs, clinical cure rates remain discouraging. Drug toxicities, prolonged regimens, lack of patient compliance, and high keratin affinity of drugs are all contributive factors. Efinaconazole is a novel topical triazole antifungal agent that has s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35869803",
+            "title": "Molecular epidemiology and clinical-laboratory aspects of chromoblastomycosis in Mato Grosso, Brazil.",
+            "authors": [
+              "Guevara Armando",
+              "Nery Andréia Ferreira",
+              "de Souza Carvalho Melhem Márcia",
+              "Bonfietti Lucas",
+              "Rodrigues Anderson Messias"
+            ],
+            "journal": "Mycoses",
+            "year": "2022",
+            "abstract": "Chromoblastomycosis is a disease caused by melanized fungi, primarily belonging to the genera Fonsecaea and Cladophialophora, mainly affecting individuals who are occupationally exposed to soil and plant products. This research aimed to determine the clinical, epidemiological and laboratory characteristics of chromoblastomycosis in the state of Mato Grosso, Brazil.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37606343",
+            "title": "An update on the myriad antifungal resistance mechanisms in dermatophytes and the place of experimental and existential therapeutic agents for Trichophyton complex implicated in tinea corporis and cruris.",
+            "authors": [
+              "Sardana Kabir",
+              "Sharath Savitha",
+              "Khurana Ananta",
+              "Ghosh Shamik"
+            ],
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2023",
+            "abstract": "There is an epidemic emergence of increased resistance in dermatophytes with to antifungal drugs with ergosterol1 (Erg1) and Erg11 mutations to terbinafine and azoles. Apart from mutations, mechanisms that predict clinical failure include efflux pumps, cellular kinases, heat shock proteins (Hsp), and biofilms. Apart from itraconazole and SUBATM (Super-Bioavailable) itraconazole, measures that can be used in terbinafine failure include efflux-pump inhibitors, Hsp inhibitors and judicious use of a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34637525",
+            "title": "Chromoblastomycosis in Latin America and the Caribbean: Epidemiology over the past 50 years.",
+            "authors": [
+              "Guevara Armando",
+              "Siqueira Nathan Pereira",
+              "Nery Andreia Ferreira",
+              "Cavalcante Leticia Rossetto da Silva",
+              "Hagen Ferry"
+            ],
+            "journal": "Medical mycology",
+            "year": "2021",
+            "abstract": "Chromoblastomycosis is a chronic disease caused by melanized fungi that mainly affect individuals performing soil-related labor. The objective of this study was to analyze the epidemiological and clinical characteristics of chromoblastomycosis in Latin America and the Caribbean by an extensive literature review. An integrative review was performed of English, French, Portuguese, and Spanish publications in LILACS, SciELO, PubMed, SCOPUS and Web of Science databases covering the period 1969-2019.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27297276",
+            "title": "Successful treatment of recurrent dermatophytosis with isotretinoin and itraconazole.",
+            "authors": [
+              "Ardeshna Kenit P",
+              "Rohatgi Shaurya",
+              "Jerajani Hemangi R"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37266092",
+            "title": "Nail Society of India (NSI) Recommendations for Pharmacologic Therapy of Onychomycosis.",
+            "authors": [
+              "Mahajan Khushbu",
+              "Grover Chander",
+              "Relhan Vineet",
+              "Tahiliani Sushil",
+              "Singal Archana"
+            ],
+            "journal": "Indian dermatology online journal",
+            "year": "2023",
+            "abstract": "Onychomycosis (OM) is the commonest cause of dystrophic nails, responsible for upto 50% of cases. Apart from significantly damaging the nails, quality of life, and self-image of the sufferer, it also acts as a reservoir of fungal infections carrying important implications for emerging recalcitrant dermatophytoses. Treatment of OM is based on guidelines released almost a decade back, in addition to published literature and personal preferences. Hence, an expert group of nail society of India (NSI",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36107379",
+            "title": "COVID-19-associated pulmonary aspergillosis (CAPA) in Iranian patients admitted with severe COVID-19 pneumonia.",
+            "authors": [
+              "Erami Mahzad",
+              "Hashemi Seyed Jamal",
+              "Raiesi Omid",
+              "Fattahi Mahsa",
+              "Getso Muhammad Ibrahim"
+            ],
+            "journal": "Infection",
+            "year": "2023",
+            "abstract": "Bacterial or virus co-infections with SARS-CoV-2 have been reported in many studies; however, the knowledge on Aspergillus co-infection among patients with COVID-19 was limited. This study was conducted to identify and isolate fungal agents and to evaluate the prevalence of pulmonary aspergillosis (CAPA) as well as antifungal susceptibility patterns of Aspergillus species in patients with COVID-19 admitted to Shahid Beheshti Hospital, Kashan, Iran.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Leprosy（痲瘋病）由 Mycobacterium leprae（革蘭氏陽性、抗酸性分枝桿菌）引起，Itraconazole 為純抗真菌藥物，對細菌無任何抗菌活性，機轉根本不符。現有 20 篇文獻均與 Leprosy 治療無直接關聯：主要為皮膚癬菌症、Lobomycosis、皮膚真菌合併感染描述（PMID 18390158 為麻瘋+副球孢子菌症合併感染個案），以及 NTD 藥物管線綜述（PMID 37907954）。TxGNN 高分（0.875）可能源自知識圖譜中「慢性皮膚肉芽腫疾病」節點的跨疾病錯誤連結（麻瘋皮膚肉芽腫 vs 真菌性肉芽腫）。建議從候選清單中移除並標記為演算法偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "congenital candidiasis",
+      "txgnn": {
+        "score": 0.850448489189148,
+        "rank": 39146
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34898894",
+            "title": "Common Antifungal Drugs in Pregnancy: Risks and Precautions.",
+            "authors": [
+              "Patel Madhuri A",
+              "Aliporewala Veeral M",
+              "Patel Disha A"
+            ],
+            "journal": "Journal of obstetrics and gynaecology of India",
+            "year": "2021",
+            "abstract": "Fungal skin infections are on the rise in India, and pregnant women are not immune to them. They are one of the commonest causes of secondary pruritus in pregnancy and can worsen the quality of life. Cutaneous dermatophytic infections have seen a recent emergence as a public health problem in India with increasing incidence as well as failure to appropriately respond to treatment. Vaginal candidiasis may cause obstetric and perinatal complications such as chorioamnionitis, premature rupture of m",
+            "classification": {
+              "study_type": "Review (Antifungals in Pregnancy/Neonates, Safety)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1326096",
+            "title": "Treatment of neonatal Candida albicans septicemia with itraconazole.",
+            "authors": [
+              "van den Anker J N"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (Neonatal, 1992)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Itraconazole 對 Candida albicans 具明確抗真菌活性（CYP51 抑制），機轉可行。然而新生兒 PK 特殊：口服吸收不穩定（依賴酸性胃環境），血清白蛋白低導致游離藥物濃度不可預測，且無新生兒 PK/PD 劑量確認研究。PMID 34898894 明確指出妊娠/新生兒期使用 Itraconazole 安全性疑慮（潛在致畸性、QT 延長、心臟毒性）。僅有 PMID 1326096（1992 年）1 例新生兒 Candida 敗血症個案報告，距今 34 年，缺乏當代安全性評估。現行新生兒念珠菌感染指南首選 Fluconazole（有充足 PK 資料）或 AmB，在更強安全性數據出現前建議 Hold。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "candida glabrata",
+      "txgnn": {
+        "score": 0.850448489189148,
+        "rank": 39147
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38308518",
+            "title": "Molecular epidemiology and antimicrobial resistance of vaginal Candida glabrata isolates in Namibia.",
+            "authors": [
+              "Dunaiski Cara M",
+              "Kock Marleen M",
+              "Chan Wai Yin",
+              "Ismail Arshad",
+              "Peters Remco P H"
+            ],
+            "journal": "Medical mycology",
+            "year": "2024",
+            "abstract": "Candida glabrata is the most common non-albicans Candida species that causes vulvovaginal candidiasis (VVC). Given the intrinsically low susceptibility of C. glabrata to azole drugs, investigations into C. glabrata prevalence, fungal susceptibility profile, and molecular epidemiology are necessary to optimise the treatment of VVC. This molecular epidemiological study was conducted to determine antifungal drug profile, single nucleotide polymorphisms (SNPs) associated with phenotypic antifungal r",
+            "classification": {
+              "study_type": "Epidemiology/Molecular Resistance",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37623592",
+            "title": "Antifungal Susceptibility Pattern of Candida glabrata from a Referral Center and Reference Laboratory: 2012-2022.",
+            "authors": [
+              "Chesdachai Supavit",
+              "Yetmar Zachary A",
+              "Ranganath Nischal",
+              "Everson Jenna J",
+              "Wengenack Nancy L"
+            ],
+            "journal": "Journal of fungi (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "The prevalence of invasive candidiasis caused by non-Candida albicans has rapidly increased. Candida glabrata (Nakaseomyces glabrata) is an important pathogen associated with substantial mortality. Our study examined the antifungal temporal susceptibility of C. glabrata and cross-resistance/non-wild-type patterns with other azoles and echinocandins. Laboratory data of all adult patients with C. glabrata isolated from clinical specimens at the Mayo Clinic, Rochester, from 2012 to 2022 were collec",
+            "classification": {
+              "study_type": "Observational Susceptibility Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26991302",
+            "title": "Candida glabrata among Candida spp. from environmental health practitioners of a Brazilian Hospital.",
+            "authors": [
+              "Savastano Catarina",
+              "de Oliveira Silva Elisa",
+              "Gonçalves Lindyanne Lemos",
+              "Nery Jéssica Maria",
+              "Silva Naiara Chaves"
+            ],
+            "journal": "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]",
+            "year": "2016",
+            "abstract": "The incidence of the species Candida albicans and non-albicans Candida was evaluated in a Brazilian Tertiary Hospital from the environment and health practitioners. In a 12-month period we had a total positivity of 19.65% of Candida spp. The most recurring non-albicans Candida species was C. glabrata (37.62%), generally considered a species of low virulence, but with a higher mortality rate than C. albicans. Subsequently, C. parapsilosis (25.74%) and C. tropicalis (16.86%) were the second and th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33875436",
+            "title": "Pyrogallol and Fluconazole Interact Synergistically In Vitro against Candida glabrata through an Efflux-Associated Mechanism.",
+            "authors": [
+              "Yao Dongting",
+              "Zhang Guanyi",
+              "Chen Weiqin",
+              "Chen Jia",
+              "Li Zhen"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2021",
+            "abstract": "Candida glabrata is currently the first or second most commonly encountered non-albicans Candida species worldwide. The potential severity of Candida resistance mandates the discovery of novel antifungal agents, including those that can be used in combination therapies. In this study, we evaluated the in vitro interactions of pyrogallol (PG) and azole drugs against 22 clinical C. glabrata isolates. The potential mechanism underlying the synergism between PG and fluconazole (FLC) was investigated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35369470",
+            "title": "Multilocus Sequence Typing and Antifungal Susceptibility of Vaginal and Non-vaginal Candida glabrata Isolates From China.",
+            "authors": [
+              "Chen Yisheng",
+              "Wu Yongqin",
+              "Lulou Kaiyi",
+              "Yao Dongting",
+              "Ying Chunmei"
+            ],
+            "journal": "Frontiers in microbiology",
+            "year": "2022",
+            "abstract": "Candida glabrata is a common cause of Candida infections. In our present study, we investigated the antifungal susceptibility and molecular epidemiology of vaginal and non-vaginal C. glabrata isolates. Seventy-six vaginal C. glabrata strains isolated from patients with vulvovaginal candidiasis and 57 non-vaginal C. glabrata isolates were collected at two hospitals in Shanghai, China. Antifungal susceptibility was examined using a broth microdilution method. Multilocus sequence typing was used fo",
+            "classification": {
+              "study_type": "MLST + Susceptibility",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32536122",
+            "title": "[Pathogenicity and drug-resistance analysis of Candida glabrata in patients with oral candidiasis].",
+            "authors": [
+              "He C",
+              "Song Y",
+              "Chang X K"
+            ],
+            "journal": "Zhonghua yi xue za zhi",
+            "year": "2020",
+            "abstract": "Objective: To investigate the detection rate, population features and in vitro antifungal drug susceptibility of Candida glabrata in patients with oral candidiasis. Methods: The saliva fungi culture cases and the ratio of Candida glabrata in patients with oral candidiasis were analyzed during 2014-2018. Fungal species were identified by CHROMagar Candida chromogenic medium and API 20C AUX yeast identification kit. Sixty strains with cfu≥200/ml were collected and performed the in vitro antifungal",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12234857",
+            "title": "Prospective, multicenter surveillance study of Candida glabrata: fluconazole and itraconazole susceptibility profiles in bloodstream, invasive, and colonizing strains and differences between isolates from three urban teaching hospitals in New York City (Candida Susceptibility Trends Study, 1998 to 1999).",
+            "authors": [
+              "Safdar Amar",
+              "Chaturvedi Vishnu",
+              "Koll Brian S",
+              "Larone Davise H",
+              "Perlin David S"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2002",
+            "abstract": "Since the 1990s, the substantial increase in the rate of Candida glabrata infections has become a serious problem. As most C. glabrata infections arise from the host's endogenous microflora, the present prospective, multicenter analysis included all clinical isolates associated with colonization and with systemic and hematogenous candidiasis. Among 347 C. glabrata isolates, the overall rates of resistance to fluconazole (MIC > or = 64 micro g/ml) and itraconazole (MIC > or = 1 micro g/ml) were 1",
+            "classification": {
+              "study_type": "Prospective Multicenter Surveillance",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23390908",
+            "title": "[Genotyping of Vaginal Candida glabrata Isolates Using Microsatellite Marker Analysis and DNA Sequencing to Identify Mutations Associated with Antifungal Resistance].",
+            "authors": [
+              "Döğen Aylin",
+              "Durukan Hüseyin",
+              "Güzel Ahmet Barış",
+              "Oksüz Zehra",
+              "Kaplan Engin"
+            ],
+            "journal": "Mikrobiyoloji bulteni",
+            "year": "2013",
+            "abstract": "Vulvovaginal candidosis is the second most common cause of vaginitis (17-39%) after bacterial vaginosis (22-50%). Since the diagnosis of vulvovaginal candidosis mainly depends on clinical findings without mycologic confirmatory tests and treated empirically, the actual incidence rate of vulvovaginal candidosis is unknown. Approximately 70-90% of vulvovaginal candidosis cases are caused by Candida albicans, however the increasing incidence of C.glabrata infections and its reduced susceptibility t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33774107",
+            "title": "Molecular epidemiology, antifungal susceptibility and virulence factors of Candida glabrata complex strains in Kayseri/Turkey.",
+            "authors": [
+              "Kaan Özge",
+              "Koç A Nedret",
+              "Atalay Mustafa Altay",
+              "Mutlu Sarigüzel Fatma"
+            ],
+            "journal": "Microbial pathogenesis",
+            "year": "2021",
+            "abstract": "Candida nivariensis and Candida bracarensis are included in Candida glabrata complex, which are usually misidentified as C. glabrata based on phenotypic identification methods. It was aimed to identify C. glabrata complex isolated from various clinical samples in Kayseri/Turkey to the species level and to determine antifungal susceptibilities, virulence factors, and molecular epidemiology.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15258831",
+            "title": "In vitro activity of voriconazole and other antifungal agents against clinical isolates of Candida glabrata and Candida krusei.",
+            "authors": [
+              "Drago M",
+              "Scaltrito M M",
+              "Morace G"
+            ],
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "2004",
+            "abstract": "The antifungal susceptibility of 309 Candida glabrata and 63 Candida krusei clinical isolates was tested via the Sensititre YeastOne-3 system (Trek Diagnostic Systems, East Grinstead, UK) to compare the in vitro activity of voriconazole with that of five other antifungal agents (amphotericin B, fluconazole, itraconazole, ketoconazole, and flucytosine). Voriconazole was highly active (MIC90, 0.5 microg/ml) against isolates of both species, including those for which the MICs of itraconazole and fl",
+            "classification": {
+              "study_type": "In vitro Susceptibility (Voriconazole vs others)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28588560",
+            "title": "Molecular Epidemiology and Antifungal Susceptibility of Candida glabrata in China (August 2009 to July 2014): A Multi-Center Study.",
+            "authors": [
+              "Hou Xin",
+              "Xiao Meng",
+              "Chen Sharon C-A",
+              "Kong Fanrong",
+              "Wang He"
+            ],
+            "journal": "Frontiers in microbiology",
+            "year": "2017",
+            "abstract": "Candida glabrata is an increasingly important cause of invasive candidiasis. In China, relatively little is known of the molecular epidemiology of C. glabrata and of its antifungal susceptibility patterns. Here we studied 411 non-duplicate C. glabrata isolates from 411 patients at 11 hospitals participating in the National China Hospital Invasive Fungal Surveillance Net program (CHIF-NET; 2010-2014). Genotyping was performed using multilocus sequence typing (MLST) employing six genetic loci and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29164434",
+            "title": "Isolated Cutaneous Granuloma Caused by Candida glabrata: A Rare Case Report and Literature Review.",
+            "authors": [
+              "Fan Yibin",
+              "Pan Weili",
+              "Wang Guizhen",
+              "Huang Youming",
+              "Li Yali"
+            ],
+            "journal": "Mycopathologia",
+            "year": "2018",
+            "abstract": "The incidence of candidiasis due to non-albicans Candida species (especially Candida glabrata) has significantly increased in recent decades. Candida glabrata often invades immunocompromised hosts and causes systemic or mucosal infections, whereas cutaneous infections are rarely reported. We present a rare case of cutaneous infection caused by C. glabrata and review all similar cases available in the PubMed database. A patient was admitted to the hospital with a 2-month history of a plaque on th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25426605",
+            "title": "Genotypic, phenotypic, and proteomic characterization of Candida glabrata during sequential fluconazole exposure.",
+            "authors": [
+              "Samaranayake Yuthika Hemamala",
+              "Cheung Becky Pik Ki",
+              "Yau Joyce Yick Yee",
+              "Yeung Kim Wai",
+              "Samaranayake Lakshman Perera"
+            ],
+            "journal": "Journal of investigative and clinical dentistry",
+            "year": "2011",
+            "abstract": "Candida glabrata is a major pathogen in humans known to be intrinsically resistant to fluconazole. However, genotypic, phenotypic, and proteomic changes associated with reduced susceptibility to fluconazole are not properly understood. The aim of this study was to observe specific phenotypic, chromosomal, and proteomic alterations in a Candida glabrata strain sequentially exposed to fluconazole.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35528623",
+            "title": "High incidence of azole resistance among Candida albicans and C. glabrata isolates in Northeastern Iran.",
+            "authors": [
+              "Zarrinfar Hossein",
+              "Kord Zahra",
+              "Fata Abdolmajid"
+            ],
+            "journal": "Current medical mycology",
+            "year": "2021",
+            "abstract": "Resistance to antifungal drugs is increasing among Candida isolates from patients with vulvovaginal candidiasis (VVC). Lack of correct diagnosis of Candida causing VVC and the experimental use of antifungal drugs are the main causes of this resistance. This study aimed to determine the susceptibility of antifungal drugs against Candida species isolated from VVC in Northeastern Iran.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10524556",
+            "title": "Candida glabrata arthritis: case report and review of the literature of Candida arthritis.",
+            "authors": [
+              "Zmierczak H",
+              "Goemaere S",
+              "Mielants H",
+              "Verbruggen G",
+              "Veys E M"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "1999",
+            "abstract": "We report a case of arthritis due to Candida (Torulopsis) glabrata in two different joints at different times in the same patient. The first episode of arthritis was situated in the right ankle and lasted more than 1 year before the patient agreed to the proposed treatment. Therapy with intravenous amphotericin B and oral fluconazole failed. A cure was achieved with weekly intra-articular administration of amphotericin B, which was continued for more than 20 weeks and combined with oral itracona",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39136534",
+            "title": "Virulence and resistance factors of Nakaseomyces glabratus (formerly known as Candida glabrata) in Europe: A systematic review.",
+            "authors": [
+              "Rodríguez-Cerdeira Carmen",
+              "Pinto-Almazán Rodolfo",
+              "Saunte Ditte M L",
+              "Hay R",
+              "Szepietowski Jacek C"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2025",
+            "abstract": "Nakaseomyces glabratus (N. glabratus) formerly known as Candida glabrata (C. glabrata), is an endogenous opportunistic pathogen, which is generally located in the gastrointestinal tract but can spread in immunocompromised patients. N. glabratus is the second most common pathogen that causes candidemia in several countries. N. glabratus virulence factors may increase antifungal resistance and reduce the number of available treatment options. High resistance to azoles and increasing resistance to ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30096698",
+            "title": "Prevalence and antifungal susceptibility profiles of Candida glabrata, Candida parapsilosis and their close-related species in oral candidiasis.",
+            "authors": [
+              "Miranda-Cadena Katherine",
+              "Marcos-Arias Cristina",
+              "Mateo Estibaliz",
+              "Aguirre José Manuel",
+              "Quindós Guillermo"
+            ],
+            "journal": "Archives of oral biology",
+            "year": "2018",
+            "abstract": "To evaluate the importance of Candida glabrata, Candida parapsilosis and their close-related species, Candida bracarensis, Candida nivariensis, Candida metapsilosis and Candida orthopsilosis in patients with oral candidiasis and, to determine the in vitro activities of antifungal drugs currently used for the treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35138666",
+            "title": "Green synthesis of selenium nanoparticles and evaluate their effect on the expression of ERG3, ERG11 and FKS1 antifungal resistance genes in Candida albicans and Candida glabrata.",
+            "authors": [
+              "Hosseini Bafghi M",
+              "Zarrinfar H",
+              "Darroudi M",
+              "Zargar M",
+              "Nazari R"
+            ],
+            "journal": "Letters in applied microbiology",
+            "year": "2022",
+            "abstract": "Drug resistance in Candida species has been considerably increased in the last decades. Given the opposition to antifungal agents, toxicity and interactions of the antimicrobial drugs, identifying new antifungal agents seems essential. This study assessed the antifungal effects of nanoparticles (NPs) on the standard strains of Candida albicans and Candida glabrata and determined the expression genes, including ERG3, ERG11 and FKS1. Selenium nanoparticles (Se-NPs) were biosynthesized with a stand",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7830098",
+            "title": "Fluconazole, itraconazole and ketoconazole in vitro activity against Candida spp.",
+            "authors": [
+              "Arévalo M P",
+              "Arias A",
+              "Andreu A",
+              "Rodríguez C",
+              "Sierra A"
+            ],
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "1994",
+            "abstract": "The in vitro activity of fluconazole, itraconazole and ketoconazole against 625 Candida yeast strains from patients treated at the University Hospital of the Canaries, by means of a micromethod of dilution in broth enriched with Yeast Nitrogen Base (YNB), and buffered to pH7, has been assessed. Species distribution was as follows: Candida albicans (388), Candida tropicalis (84), Candida glabrata (84), Candida parapsilosis (69). Our results show 10.0% and 8.8% of C. albicans resistant to itracona",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35285249",
+            "title": "Synergistic activity of dobutamine combined with azoles and its mechanism of action against strains of Candida glabrata.",
+            "authors": [
+              "Barroso Fatima Dd",
+              "da Silva Lisandra J",
+              "Sá Lívia Gav",
+              "da Silva Cecília R",
+              "Neto João Ba"
+            ],
+            "journal": "Future microbiology",
+            "year": "2022",
+            "abstract": "Aims: To evaluate the antifungal effect of dobutamine against Candida glabrata as well as its synergism with azoles and its action on biofilm. Methods: The M27-A3 protocol and flow cytometry were used for elucidation of the possible mechanism of action. Results: The tested isolates presented MICs ranging from 2 to 32 μg/ml for dobutamine, with fungistatic effect. A total of 82% of the strains showed synergism with fluconazole, with 90% showing synergism with itraconazole. The effect on biofilm f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Candida glabrata（現稱 Nakaseomyces glabrata）具天然降低三唑類敏感性之特性，主因 CYP51 基因多態性、CDR1/CDR2 外排泵過表達及生物膜形成。PMID 12234857 前瞻性多中心監測研究（2002）確認 C. glabrata 對 Itraconazole 耐藥率高，臨床失敗案例有記錄。PMID 33875436 體外研究顯示 Pyrogallol+Fluconazole 有協同效應，但無 Itraconazole 組合優勢數據。ESCMID/IDSA 指南均不推薦 Itraconazole 作為 C. glabrata 感染一線或次選治療（Echinocandins 為首選，Amphotericin B 為次選）。現有文獻主要為流行病學耐藥監測，非治療療效研究，臨床使用將面臨既有耐藥性障礙。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "pneumocystosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "pneumocystosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "pneumocystosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "Cryptococcal meningitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "Cryptococcal meningitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "Cryptococcal meningitis"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "trichosporonosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "trichosporonosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "trichosporonosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "hyalohyphomycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "hyalohyphomycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "hyalohyphomycosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "penicilliosis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "penicilliosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "penicilliosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "geotrichosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "geotrichosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "geotrichosis"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "maple bark strippers' lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "maple bark strippers' lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "maple bark strippers' lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "congenital candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "congenital candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "congenital candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "candida glabrata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "candida glabrata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Itraconazole",
+        "disease": "candida glabrata"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

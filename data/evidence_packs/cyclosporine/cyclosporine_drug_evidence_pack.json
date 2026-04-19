@@ -1,0 +1,1888 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00091-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cyclosporine",
+    "drugbank_id": "DB00091",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "granulomatous disease, chronic, autosomal recessive",
+      "txgnn": {
+        "score": 0.9967516660690308,
+        "rank": 4844
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01917708",
+            "title": "Abatacept for Post-Transplant Immune Suppression in Children and Adolescents Receiving Allogeneic Hematopoietic Stem Cell Transplants for Non-Malignant Diseases",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2014-01",
+            "completion_date": "2019-09-19",
+            "brief_summary": "This is a single arm, phase I study to assess the tolerability of abatacept when combined with cyclosporine and mycophenolate mofetil as graft versus host disease prophylaxis in children undergoing unrelated hematopoietic stem cell transplant for serious non-malignant diseases as well as to assess the immunological effects of abatacept. Participants will be followed for 2 years.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "本試驗主藥為 Abatacept（CTLA4-Ig），用於同種異體造血幹細胞移植後免疫抑制，Cyclosporine 僅為背景 GVHD 預防方案的一部分，非獨立干預組；Phase 1，n=10，完成但樣本極小，不能單獨支持 CsA 對 CGD 的直接再利用。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22078471",
+            "title": "Excellent survival after sibling or unrelated donor stem cell transplantation for chronic granulomatous disease.",
+            "authors": [
+              "Martinez Caridad A",
+              "Shah Sweta",
+              "Shearer William T",
+              "Rosenblatt Howard M",
+              "Paul Mary E"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2012",
+            "abstract": "Matched related donor (MRD) hematopoietic stem cell transplantation (HSCT) is a successful treatment for chronic granulomatous disease (CGD), but the safety and efficacy of HSCT from unrelated donors is less certain.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cyclosporine 作為鈣調磷酸酶抑制劑，抑制 T 細胞活化與 IL-2 分泌，在同種異體幹細胞移植（SCT）中作為標準 GVHD 預防用藥。慢性肉芽腫病（CGD）目前根治性治療為同種異體 SCT，CsA 在此扮演 GVHD 預防角色，而非直接針對 CGD 病理機轉；再利用潛力為間接且場景限定。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "brain aneurysm",
+      "txgnn": {
+        "score": 0.9950191974639891,
+        "rank": 6473
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28437485",
+            "title": "T cell function is dispensable for intracranial aneurysm formation and progression.",
+            "authors": [
+              "Miyata Haruka",
+              "Koseki Hirokazu",
+              "Takizawa Katsumi",
+              "Kasuya Hidetoshi",
+              "Nozaki Kazuhiko"
+            ],
+            "journal": "PloS one",
+            "year": "2017",
+            "abstract": "Given the social importance of intracranial aneurysm as a major cause of a lethal subarachnoid hemorrhage, clarification of mechanisms underlying the pathogenesis of this disease is essential for improving poor prognosis once after rupture. Previous histopathological analyses of human aneurysm walls have revealed the presence of T cells in lesions suggesting involvement of this type of cell in the pathogenesis. However, it remains unclear whether T cell actively participates in intracranial aneu",
+            "classification": {
+              "study_type": "Experimental/Basic Science",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8372707",
+            "title": "A strategy for analyzing multiple parameters with application to aneurysmal SAH patients all of them clipped but treated with and without cyclosporine.",
+            "authors": [
+              "Ryba M",
+              "Pastuszko M",
+              "Dziewiecki C",
+              "Andrychowski J",
+              "Bojarski P"
+            ],
+            "journal": "Acta neurochirurgica",
+            "year": "1993",
+            "abstract": "The study evaluated the effectiveness of the combination of nimodipine and cyclosporine A vs nimodipine alone in the prevention of delayed neurologic deficit in 82 (31 plus 51) patients in whom intracranial aneurysms were clipped within 72 h after subarachnoid haemorrhage. The tests performed included examination of the neurological condition before and after operation, angiography of cerebral arteries to visualize vasospasm, and analysis of the distribution and amount of blood in the brain flui",
+            "classification": {
+              "study_type": "Statistical Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7731253",
+            "title": "Intracerebral hemorrhage in liver transplant recipients.",
+            "authors": [
+              "Wijdicks E F",
+              "de Groen P C",
+              "Wiesner R H",
+              "Krom R A"
+            ],
+            "journal": "Mayo Clinic proceedings",
+            "year": "1995",
+            "abstract": "To analyze possible causative mechanisms for intracranial hemorrhage after orthotopic liver transplantation.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9007860",
+            "title": "The safety and efficacy of cyclosporine A in the prevention of vasospasm in patients with Fisher grade 3 subarachnoid hemorrhages: a pilot study.",
+            "authors": [
+              "Manno E M",
+              "Gress D R",
+              "Ogilvy C S",
+              "Stone C M",
+              "Zervas N T"
+            ],
+            "journal": "Neurosurgery",
+            "year": "1997",
+            "abstract": "To evaluate the safety and any potential effect of cyclosporine A (CycA) in preventing cerebral vasospasm.",
+            "classification": {
+              "study_type": "Clinical Study (non-RCT)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3289771",
+            "title": "Cyclosporine-pancuronium interaction in a patient with a renal allograft.",
+            "authors": [
+              "Crosby E",
+              "Robblee J A"
+            ],
+            "journal": "Canadian journal of anaesthesia = Journal canadien d'anesthesie",
+            "year": "1988",
+            "abstract": "A case is described of a 54-year-old 55 kg patient who presented for clipping of a middle cerebral aneurysm two years after a successful renal allograft. Immunosuppression was maintained with azathioprine 100 mg daily, cyclosporine 300 mg daily and prednisone 10 mg daily. The patient had chronic hypertension controlled with nifedipine 40 mg daily and furosemide 20 mg daily. The cyclosporine level taken on the morning of surgery was 166 micrograms.L-1. Induction of anaesthesia consisted of fentan",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33221920",
+            "title": "Macrophage activation syndrome in children with Kawasaki disease: an experience from a tertiary care hospital in northwest India.",
+            "authors": [
+              "Pilania Rakesh Kumar",
+              "Jindal Ankur Kumar",
+              "Johnson Nameirakpam",
+              "Prithvi Ashwini",
+              "Vignesh Pandiarajan"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2021",
+            "abstract": "To carry out a review of clinical characteristics, laboratory profiles, management and outcomes of patients with Kawasaki disease (KD) and macrophage activation syndrome (MAS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1763680",
+            "title": "Cyclosporine A prevents neurological deterioration of patients with SAH--a preliminary report.",
+            "authors": [
+              "Ryba M",
+              "Pastuszko M",
+              "Iwanska K",
+              "Bidzinski J",
+              "Dziewiecki C"
+            ],
+            "journal": "Acta neurochirurgica",
+            "year": "1991",
+            "abstract": "In the present study we found that the neurological outcome in patients anaesthetized for early clipping (up to 72 h after SAH) of a ruptured aneurysm and treated with cyclosporine A was significantly better than the neurological state of control patients without immuno-suppressive treatment. The results justify the presumption that auto-immune reactions are involved in the deterioration of the postoperative neurological state of patients with SAH after rupture of an intracranial aneurysm. Suppl",
+            "classification": {
+              "study_type": "Preliminary Clinical Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26975840",
+            "title": "Concomitant coiling reduces metalloproteinase levels in flow diverter-treated aneurysms but anti-inflammatory treatment has no effect.",
+            "authors": [
+              "Thielen Evan",
+              "McClure Megan",
+              "Rouchaud Aymeric",
+              "Ding Yong-Hong",
+              "Dai Daying"
+            ],
+            "journal": "Journal of neurointerventional surgery",
+            "year": "2017",
+            "abstract": "Flow diverters (FD) can cause rare but devastating delayed aneurysm ruptures in which matrix metalloproteinases (MMPs) have been potentially implicated. Concomitant coiling or anti-inflammatory medications have been proposed to prevent the risk of delayed ruptures. The aim of this study was to evaluate concomitant coiling and ciclosporin in regulating the expression of MMPs in FD-treated aneurysms.",
+            "classification": {
+              "study_type": "Translational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15219065",
+            "title": "[Vascular Aspergillus infection in two recipients of kidneys from the same donor].",
+            "authors": [
+              "Garrido J",
+              "Labrador P J",
+              "Lerma L",
+              "Heras M",
+              "García P"
+            ],
+            "journal": "Nefrologia : publicacion oficial de la Sociedad Espanola Nefrologia",
+            "year": "2004",
+            "abstract": "We describe a clinical case of two patients who received a cadaveric renal graft from the same donor in a multi-organ extraction procedure. The donor was a 39-years-old woman who died of intracranial tumour. A benign ganglioma was shown in biopsy. The two recipients received the same immunosuppressive regimen. Induction comprised cyclosporin A, steroids and basiliximab while cyclosporin A and steroids were used in maintenance immunosuppression. The A patient was a 53-year-old woman with chronic ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12086172",
+            "title": "Behçet's disease with severe arterial involvement in a child.",
+            "authors": [
+              "Beşbaş N",
+              "Ozyürek E",
+              "Balkanci F",
+              "Ozen S",
+              "Saatçi I"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2002",
+            "abstract": "Behçet's disease is a vasculitis characterised by its thrombotic tendency. In some patients, manifestations of vascular lesions may dominate the clinical picture instead of the classic triad. We describe a 13-year-old boy with a 1.5-year history of Behçet's disease presenting with complaints of acute abdominal pain, severe headache and decreased vision. His work-up revealed a saccular aneurysm of the distal abdominal aorta, thrombosis in the right common iliac, external iliac and femoral arterie",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2587967",
+            "title": "[Rare vascular complications of Behçet's disease (so-called angiobehçet)].",
+            "authors": [
+              "Stricker H",
+              "Salvetti M"
+            ],
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1989",
+            "abstract": "Vascular involvement in Behçet's disease is rare and may cause life-threatening complications. We report on 3 patients who presented with vascular problems in the course of the illness. (1) A 37-year-old woman suffered multiple pulmonary artery aneurysms (PAA) 3 years after the first symptoms of Behçet's disease (BD) had been noted. They completely regressed under three-month high-dose corticosteroid therapy and remission has lasted now for 2 years. (2) The second patient, a 22-year-old man, dev",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "1990 年代假說認為 CsA 透過抑制 T 細胞介導的神經炎症，可能預防蜘蛛網膜下腔出血（SAH）後腦血管痙攣；然而 2017 年新證據（PMID 28437485）顯示 T 細胞功能對顱內動脈瘤形成與進展為非必要，直接質疑 CsA 的作用假說，且該領域無 RCT 支持，證據互相矛盾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9939312934875488,
+        "rank": 7437
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "本病為罕見先天性發育異常（眼缺損性小眼畸形合併肢根性發育不良），屬結構性/遺傳性疾病，CsA 免疫抑制機轉對其病理無已知相關性。TxGNN 高分（0.9939）可能反映知識圖譜中非特異性鄰接性，而非生物學合理性。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "congenital ichthyosiform erythroderma",
+      "txgnn": {
+        "score": 0.993787169456482,
+        "rank": 7550
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性魚鱗病樣紅皮病為角化基因突變所致的角化障礙，主要機轉為表皮屏障缺失而非免疫失調。雖然 CsA 在其他炎症性皮膚病（如嚴重濕疹）有使用先例，但現有資料集中無直接臨床試驗或文獻支持此適應症，仍需個案報告或概念驗證研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "fetal erythroblastosis",
+      "txgnn": {
+        "score": 0.993681788444519,
+        "rank": 7650
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17906594",
+            "title": "Unconjugated bilirubin efflux by bovine brain microvascular endothelial cells in vitro.",
+            "authors": [
+              "Sequeira Deryk",
+              "Watchko Jon F",
+              "Daood Monica J",
+              "O'Day Terrence L",
+              "Mahmood Burhan"
+            ],
+            "journal": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
+            "year": "2007",
+            "abstract": "The passage of unconjugated bilirubin (UCB) across the blood-brain barrier into the central nervous system is a crucial first step in the development of kernicterus. The objective of the current study was to characterize the passage of UCB across primary bovine brain microvascular endothelial cell (BBMVEC) monolayers in vitro.",
+            "classification": {
+              "study_type": "In Vitro Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胎兒紅細胞增多症（Rh/ABO 不合溶血）主要機轉為母體同種抗體介導的紅血球破壞，理論上 CsA 免疫抑制可能抑制抗體產生，但懷孕期間 CsA 使用有明確安全疑慮（腎毒性、高血壓等），且所提供唯一文獻（PMID 17906594）僅為膽紅素轉運體外研究，與 CsA 治療無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9931381344795228,
+        "rank": 8129
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "本病為先天性肢體發育異常（短指並指），屬遺傳性骨骼形態異常，CsA 免疫抑制機轉對其無生物學合理性。高 TxGNN 分數（0.9931）可能為知識圖譜拓撲假陽性，無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "prolapse of lacrimal gland",
+      "txgnn": {
+        "score": 0.9908350706100464,
+        "rank": 9933
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "淚腺脫垂主要為解剖結構鬆弛/手術問題，非炎症性免疫疾病。CsA 在乾眼症/免疫性淚腺炎有已知適應症（可能透過知識圖譜鄰接傳播至此節點），但對結構性淚腺脫垂無機轉合理性，且資料集中無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "excretory apparatus of the lacrimal system anomaly",
+      "txgnn": {
+        "score": 0.989891529083252,
+        "rank": 10612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "淚液排泄系統異常涵蓋先天性/解剖性病變，CsA 對結構性異常無直接治療機轉。資料集中無臨床試驗或文獻支持，與「nasolacrimal duct disease」預測可能共享知識圖譜相鄰性，但後者有更具體的炎症性亞型（如後天性淚點狹窄）支持 CsA 使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.989407479763031,
+        "rank": 10960
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00633373",
+            "title": "An Open-label Treatment Use Protocol of Cyclosporine Inhalation Solution (CIS) in Lung Transplant Recipients",
+            "phase": "N/A",
+            "status": "NO_LONGER_AVAILABLE",
+            "enrollment": "N/A",
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "Currently there are no approved therapies for lung transplant recipients in the United States (US). Treatment with CIS following lung transplantation has previously been demonstrated to result in a clinically meaningful improvement in survival and chronic rejection-free survival compared to placebo, but additional data supporting its use is needed prior to Food and Drug Administration (FDA) approval. This treatment use protocol is a mechanism for providing eligible lung transplant recipients ear",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "開放性使用協議（NO_LONGER_AVAILABLE），CsA 吸入液用於肺移植受者；雖不提供對照證據，但反映真實臨床需求。"
+            }
+          },
+          {
+            "nct_id": "NCT01334892",
+            "title": "A Phase II, Multicentre, Randomised, Double-blind, Placebo Controlled Clinical Trial to Investigate the Efficacy and Safety of Aerosolised Liposomal Ciclosporin A Versus Aerosolised Placebo in the Prevention of Bronchiolitis Obliterans Syndrome in Lung Transplant Patients",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 130,
+            "start_date": "2009-12",
+            "completion_date": "2014-12",
+            "brief_summary": "Immunosuppression is a key intervention in patients with solid organ transplant and is usually achieved by combination therapy with systemic CsA or tacrolimus with azathioprine, mycophenolate mofetil (MMF), or corticoids. However, the outcomes after lung transplantation are poor when compared with those after heart, kidney, or liver transplantation, with a survival rate of only 55% for recipients of lung transplants.\n\nAdditional application of aerosolised L-CsA should suppress T-cell activation ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3，TERMINATED（n=130），多中心雙盲安慰劑對照研究 L-CsA，雖終止但提供安全性與初步療效資料，等級 A。"
+            }
+          },
+          {
+            "nct_id": "NCT00755781",
+            "title": "A Multi-Center, Randomized, Controlled Study to Demonstrate the Efficacy and Safety of Cyclosporine Inhalation Solution (CIS) in Improving Bronchiolitis Obliterans Syndrome-Free Survival Following Lung Transplantation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 284,
+            "start_date": "2008-09",
+            "completion_date": "2011-11",
+            "brief_summary": "A Phase III, multi-center, randomized, controlled study designed to demonstrate the efficacy and safety of Cyclosporine Inhalation Solution (CIS)in improving survival and preventing bronchiolitis obliterans syndrome (BOS) when given prophylactically to lung transplant recipients in addition to their standard immunosuppressive regimen.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，COMPLETED，n=284，多中心隨機對照研究，直接評估 Cyclosporine 吸入液（CIS）在肺移植受者 BOS 中的療效與安全性，為最高直接證據等級。"
+            }
+          },
+          {
+            "nct_id": "NCT04039347",
+            "title": "A Phase III, Extension Clinical Trial to Demonstrate Efficacy and Safety of Liposomal Cyclosprine a Via the PARI Investigational EFlow® Device and SoC in Treating Bronchiolitis Obliterans in Patients Post Single or Double Lung Transplant",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 262,
+            "start_date": "2020-03-12",
+            "completion_date": "2025-12",
+            "brief_summary": "The objective of the trial is to assess the long-term safety and efficacy of L-CsA plus Standard of Care (SoC) in the treatment of BOS in single (SLT) and double lung transplant (DLT) recipients.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 延伸試驗，ACTIVE_NOT_RECRUITING，n=262，脂質體 CsA（L-CsA）吸入劑，直接針對 BOS/BO 療效與安全性，高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT07124078",
+            "title": "A Phase 2, Randomized, Open-Label Study of Axatilimab Versus Best Available Therapy in Pediatric Participants With Chronic Graft-Versus-Host Disease After at Least 2 Prior Lines of Systemic Therapy (AGAVE-256)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2026-03-31",
+            "completion_date": "2029-07-31",
+            "brief_summary": "This study will be conducted to compare Axatilimab Versus Best Available Therapy in Pediatric Participants With Chronic Graft Versus Host Disease After at Least 2 Prior Lines of Systemic Therapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，RECRUITING，主藥為 Axatilimab（CSF-1R 抑制劑）對比 BAT 治療兒童難治性慢性 GVHD；CsA 可能在 BAT 背景方案中，與氣道 BOS 適應症相關性較低。"
+            }
+          },
+          {
+            "nct_id": "NCT01106833",
+            "title": "A Phase II/III Randomized, Multicenter Trial Comparing Sirolimus Plus Prednisone and Sirolimus/Calcineurin Inhibitor Plus Prednisone for the Treatment of Chronic Graft-versus-Host Disease (BMT CTN Protocol #0801)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 151,
+            "start_date": "2010-04",
+            "completion_date": "2018-06",
+            "brief_summary": "This study is designed as a combined Phase II/III, randomized, open label, multicenter, prospective comparative study of sirolimus plus prednisone versus sirolimus/calcineurin-inhibitor plus prednisone for the treatment of chronic GVHD. Patients will be stratified by transplant center and will be randomized to an experimental arm of one of the two pre-specified experimental arms (sirolimus + prednisone or the comparator arm of sirolimus + calcineurin inhibitor + prednisone) in a 1:1 ratio.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2/3，COMPLETED，n=151，比較 Sirolimus+Prednisone 與 Sirolimus/鈣調磷酸酶抑制劑方案，CsA 為比較組之一；間接支持 CsA 在移植後 BOS 預防的位置。"
+            }
+          },
+          {
+            "nct_id": "NCT00378677",
+            "title": "Pilot Study of Cyclosporine A Dry Powder Inhalation in Lung Transplant Patients With Bronchiolitis Obliterans Syndrome",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 7,
+            "start_date": "2007-02",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to investigate whether dry powder inhalation of Cyclosporine A is beneficial in lung transplant patients with Bronchiolitis Obliterans Syndrome. For patients suffering from this syndrome often no therapeutic options are available. Furthermore, the side effects of the maintenance therapy leaves no room for dose increments. The hypothesis for this trial is that when Cyclosporine A is administered locally (in the lungs) chronic rejection can be treated more effectively ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "EARLY_PHASE1，n=7，先導研究 CsA 乾粉吸入劑在肺移植 BOS 患者中，樣本極小但直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT01650545",
+            "title": "A Pilot Study to Demonstrate Efficacy and Safety of Aerosol Liposomal Cyclosporine (L-CsA) in the Treatment of Bronchiolitis Obliterans Syndrome After Lung Transplantation",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2012-07",
+            "completion_date": "2019-11",
+            "brief_summary": "This is a single-center pilot study to investigate the efficacy and safety of aerosolized liposomal cyclosporine A in the treatment of chronic rejection in lung transplant recipients with bronchiolitis obliterans syndrome (BOS).\n\nThe primary objective is to evaluate the efficacy of liposomal cyclosporine A in the treatment of chronic rejection. Pulmonary function and changes in BOS grade are the primary end points.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 1/2，COMPLETED，n=21，先導性研究霧化脂質體 CsA 治療 BOS，提供早期安全性與劑量資料。"
+            }
+          },
+          {
+            "nct_id": "NCT01526850",
+            "title": "Phase Ⅱ/Ⅲ Clinical Trial, Multicenter, Randomized, Controlled, for the Evaluation of Efficacy and Safety of Therapy With Allogenic Mesenchymal Stem Cells in Patients With Chronic Graft Versus Host Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2012-02",
+            "completion_date": "2014-06",
+            "brief_summary": "The primary purpose of the study is to evaluate the safety and efficacy of mesenchymal stem cells (MSC) for the treatment of patients who have developed an extensive chronic graft versus host disease (with skin and/or liver damage) after HSCs transplantation and do not respond to first-line therapy.\n\nThe secondary purpose of the study is to evaluate the effect of mesenchymal stem cells (MSC) on one-year survival rate, long-term survival rate, life quality and recurrence of patients who have deve",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3，n=100，評估 L-CsA 療效與安全性，UNKNOWN 狀態，但直接針對 BOS。"
+            }
+          },
+          {
+            "nct_id": "NCT00092937",
+            "title": "Secondary Transplantation Using Moderate Dose Busulfan as Conditioning for a Patient With Partial Reconstitution Post Initial Allogeneic Transplantation",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 2,
+            "start_date": "2004-09-23",
+            "completion_date": "2010-04-06",
+            "brief_summary": "This protocol is designed for a single specific patient. It uses busulfan as a conditioning agent in a second stem cell transplant procedure for a patient with chronic granulomatous disease (CGD), a disorder in which a certain type of white cells, called myeloid cells, do not function properly. This causes increased risk of serious bacterial and fungal infections that can lead to organ dysfunction, such as kidney disease, as well as formation of granulomas-non-cancerous masses that can cause obs",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，n=2，二次移植條件方案研究，CsA 為標準背景免疫抑制，非 BOS 直接治療研究。"
+            }
+          },
+          {
+            "nct_id": "NCT01475162",
+            "title": "Phase I-II Study Using Tocilizumab for Treatment of Steroid Refractory Acute Graft-versus-Host Disease",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 14,
+            "start_date": "2011-08-08",
+            "completion_date": "2018-09-29",
+            "brief_summary": "This trial designed to evaluate the toxicity and efficacy of tocilizumab in the treatment of steroid refractory acute graft versus host disease (GVHD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06085079",
+            "title": "A 24-week Two-armed Proof-of-concept Exploratory Analysis of Subcutaneous Ixekizumab Administration in Patients With Recalcitrant Non-infectious Intermediate, Posterior, Panuveitis, or Chronic Steroid-dependent Anterior Uveitis.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2022-06-01",
+            "completion_date": "2024-12-30",
+            "brief_summary": "The objective of this study is to explore the efficacy of ixekizumab in treating patients with a diagnosis of non-infectious intermediate, posterior, panuveitis, or chronic steroid-dependent anterior uveitis who had failed treatment with a classic synthetic DMARD including methotrexate, mycophenolate, cyclosporin, azathioprine, cyclophosphamide and/or at least one anti-TNF agent including adalimumab, infliximab, etanercept, golimumab or certolizumab.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03042676",
+            "title": "Observational, Electronic Database With a Prospective Phase and Retrospective Phase for the Follow up of the ATG_FamilyStudy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 104,
+            "start_date": "2017-09-15",
+            "completion_date": "2018-06-30",
+            "brief_summary": "Allogeneic hematopoietic stem cell transplantation (HSCT) is capable of definitive cure of acute leukemias. The most important post-transplant complication is graft vs host disease (GVHD) which can be substantially decreased by the addition of anti-T lymphocyte globulin (ATG-Grafalon) to the standard GVHD prophylaxis (cyclosporin and methotrexate) without any increase in relapses and infections (Kroger et al NEJM 2016, ClinicalTrials.gov number, NCT00678275). In the ATG\\_familystudy (prospective",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00938236",
+            "title": "CIS002: An Open-Label, Multi-Center, Extension Study of Cyclosporine Inhalation Solution in Subjects Previously Enrolled in the APT Study CIS001",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 17,
+            "start_date": "2009-12",
+            "completion_date": "2011-12",
+            "brief_summary": "This trial is a longterm follow up of a phase III study of inhaled cyclosporine for the prevention of chronic rejection in lung transplant recipients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04692376",
+            "title": "Mesenchymal Stem Cell for Treatment of Chronic Graft-versus-host Disease After Allogenetic Hematopoietic Stem Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 152,
+            "start_date": "2021-01-10",
+            "completion_date": "2023-06-30",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of mesenchymal stem cells in patients with chronic graft-versus-host disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03657342",
+            "title": "A Phase III Clinical Trial to Demonstrate Efficacy / Safety of Liposomal Cyclosporine A + Standard of Care (SoC) vs SoC Alone in Treating Chronic Lung Allograft Dysfunction / Bronchiolitis Obliterans in Patients Post Single Lung Transplant",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 62,
+            "start_date": "2019-03-26",
+            "completion_date": "2024-04-16",
+            "brief_summary": "The objective of this trial is to assess the efficacy and safety of aerosolized liposomal cyclosporine A (L-CsA) as add-on therapy to standard of care (SoC) as compared to SoC alone in single lung transplant recipients with chronic lung allograft dysfunction (CLAD)-bronchiolitis obliterans syndrome (BOS).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06821542",
+            "title": "A Phase 3, Randomized, Open-Label Study of Axatilimab Versus Best Available Therapy in Participants With Chronic Graft Versus Host Disease After at Least 2 Prior Lines of Systemic Therapy",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 9,
+            "start_date": "2025-06-04",
+            "completion_date": "2032-11-30",
+            "brief_summary": "This study will be conducted to compare Axatilimab Versus Best Available Therapy in Participants With Chronic Graft Versus Host Disease After at Least 2 Prior Lines of Systemic Therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01240525",
+            "title": "Multicenter Randomized Phase II Study to Evaluate the Efficacy of Prophylactic Transfer of CD4 Lymphocytes After T-cell Depleted Reduced Intensity HLA-Identical Sibling Transplantation for Haematological Cancers",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 114,
+            "start_date": "2011-11",
+            "completion_date": "2019-11",
+            "brief_summary": "RATIONALE: Giving low doses of chemotherapy, such as fludarabine and melphalan, before a donor stem cell transplant helps stop the growth of cancer cells. It also stops the patient's immune system from rejecting the donor's stem cells. The donated stem cells may replace the patient's immune cells and help destroy any remaining cancer cells (graft-versus-tumor effect). Giving an infusion of the donor's T cells (donor lymphocyte infusion) that have been treated in the laboratory after the transpla",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01860183",
+            "title": "Comparison of 3g Versus 2g Mycophenolate Mofetil in Combination With Tacrolimus on Progression of Chronic Histology Changes in Kidney Transplant Recipients",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 76,
+            "start_date": "2013-05",
+            "completion_date": "2016-06-01",
+            "brief_summary": "Development of chronic changes (scarring) in transplanted kidney tissue is a major cause of long-term kidney function deterioration and ultimately graft loss. It results from both immunologic and non-immunologic mechanisms. Mycophenolate mofetil (MMF) is immunosuppressive drug used for prevention of rejection after kidney transplant, usually in combination with a calcineurin inhibitor (tacrolimus or cyclosporine), with or without corticosteroids. Besides immunosuppression, MMF may also have dire",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02936505",
+            "title": "A Scandinavian Controlled, Randomized, Open-label, and Multi-centre Study Evaluating if Once-daily Tacrolimus or Twice-daily Cyclosporin, Reduces the 3-year Incidence of Chronic Lung Allograft Dysfunction After Lung Transplantation",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 249,
+            "start_date": "2016-10-12",
+            "completion_date": "2026-10-30",
+            "brief_summary": "A controlled randomized, open-label, multi-centre study evaluating if an immunosuppressive protocol, based on ATG-induction, once daily tacrolimus-dose (Advagraf®), mycophenolate mofetil and corticosteroid reduces the incidence of chronic lung allograft dysfunction (CLAD) after lung transplantation, in comparison with a standard cyclosporin-based protocol.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01380535",
+            "title": "A Randomized Controlled Study of Extracorporeal Photopheresis (ECP) Therapy With UVADEX for the Treatment of Patients With Moderate to Severe Chronic Graft-versus-Host Disease (cGvHD)",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2011-11",
+            "completion_date": "2015-03",
+            "brief_summary": "Chronic graft-versus-host disease (cGVHD) is a long-lasting complication that can occur after transplants. The transplanted cells seem to fight with the patient's own cells.\n\nExtracorporeal photopheresis (ECP) is a fairly new procedure for cGVHD. The participant gets a port to hook up to a machine. The machine removes the white blood cells, mixes them with a light-sensitive drug, shines light on it, and puts all the blood back in.\n\nThis study will find out if patients respond better if they get ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01222039",
+            "title": "Multicenter Clinical Trial Phase I/II Randomized, Controlled, for the Evaluation of Safety and Feasibility of Therapy With Two Different Doses of Allogenic Mesenchymal Stem Cells From Adipose Tissue in Patients With Chronic Graft Versus Host Disease.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2010-06",
+            "completion_date": "2014-06",
+            "brief_summary": "The main purpose of this trial is to assess the safety and feasibility of treatment with two-dose infusion of allogeneic mesenchymal stem cells from adipose tissue expanded in vitro in patients undergoing haematopoietic stem cell transplantation (HSCT, who have developed chronic and extensive graft versus host disease (GVHD).\n\nMesenchymal stem cells (MSCs) express low levels of HLA class I molecules, and do not express class II molecules neither CD40, CD80 and CD86, being unable to induce prolif",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01273207",
+            "title": "Extension Study (Extended Access) of Cyclosporine Inhalation Solution (CIS) in Lung Transplant and Hematopoietic Stem Cell Transplant Recipients for the Treatment of Bronchiolitis Obliterans",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 7,
+            "start_date": "2012-03-02",
+            "completion_date": "2019-05-23",
+            "brief_summary": "Bronchiolitis Obliterans (BO) is an obstructive lung disease that can affect individuals that have undergone a lung or hematopoietic stem cell transplant. BO has been studied most extensively in lung transplant recipients, where it is considered to represent chronic lung rejection. It is the leading cause of death after lung transplant, with mortality rates up to 55 percent. In hematopoietic stem cell transplantation, BO is thought to be a manifestation of chronic graft-vs-host disease (GVHD). U",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01439958",
+            "title": "A Long-term Safety Follow-up Study of L-CsA Therapy for Patients Who Participated in Study 12011.201 and Volunteered to Continue or to Cross-over to L-CsA Inhalation Therapy",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 14,
+            "start_date": "2012-02",
+            "completion_date": "2014-12",
+            "brief_summary": "The purpose of this study is to evaluate long-term safety of L-CsA in prevention of bronchiolitis obliterans syndrome (BOS) following lung transplantation (LTx) in patients previously enrolled in phase II/III L-CsA clinical trial 12011.201.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03640481",
+            "title": "A Phase 2, Randomized, Multicenter Study to Evaluate the Efficacy and Safety of KD025 in Subjects With Chronic Graft Versus Host Disease (cGVHD) After At Least 2 Prior Lines of Systemic Therapy (The ROCKstar Study)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 159,
+            "start_date": "2018-10-11",
+            "completion_date": "2023-12-11",
+            "brief_summary": "This is a Phase 2, randomized, multicenter study to evaluate the efficacy and safety of KD025 in subjects with Chronic Graft Versus Host Disease (cGVHD) after at least 2 prior lines of systemic therapy",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01287078",
+            "title": "Phase II Trial of Cyclosporine Inhalation Solution (CIS) in Lung Transplant and Hematopoietic Stem Cell Transplant Recipients for Treatment of Bronchiolitis Obliterans Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2011-01-29",
+            "completion_date": "2018-08-08",
+            "brief_summary": "Background:\n\n\\- Bronchiolitis obliterans or bronchiolitis obliterans syndrome is a lung disorder that occurs as a complication of either lung transplantation or bone marrow/blood stem cell transplantation. One of the complications of transplant is the occurrence of graft versus host disease (in hematopoietic stem cell transplants) and host versus graft disease (in lung transplantation). In these diseases, the cells attack the lungs and cause irreversible small airway fibrosis referred to as bron",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02291770",
+            "title": "Treatment of of Chronic Graft-Versus-Host Disease With Mesenchymal Stromal Cells. A Phase III Randomized Open Label Multi-center Study in Southern China.",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 130,
+            "start_date": "2014-10",
+            "completion_date": "2019-12",
+            "brief_summary": "Chronic Graft-versus-Host Disease (cGvHD) is a potentially lethal disorder. A variety of second line immunosuppressive agents have been investigated but no optimal treatment has emerged. There is therefore a need for novel treatment strategies. Mesenchymal stromal cells (MSC) exhibit immunomodulatory properties and a recent pilot study suggests a response rate of 70% in steroid- refractory patients. In the present randomized study the efficacy and safety of MSC treatment will be further studied ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01862965",
+            "title": "Treatment of Newly Diagnosed Moderate or Severe Chronic Graft-versus-host Disease With Prednisone and Everolimus (PredEver First) - A Prospective Multicenter Phase IIA Study -",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2013-03-06",
+            "completion_date": "2019-03",
+            "brief_summary": "In this study patients with moderate to severe chronic graft-versus-host disease will be treated with a combination of prednisone and everolimus. Patients will be treated on the study for a maximum of 12 months and followed up for another 12 months.\n\nThe primary hypothesis of this study is that the addition of everolimus to prednisone increases response rates without increasing treatment related mortality or mortality due to relapse of underlying disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02345850",
+            "title": "A Randomized, Multi-Center, Phase III Trial of Calcineurin Inhibitor-Free Interventions for Prevention of Graft-versus-Host Disease (BMT CTN 1301; Progress II)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 346,
+            "start_date": "2015-08",
+            "completion_date": "2020-10-05",
+            "brief_summary": "The study is designed as a three arm randomized Phase III, multicenter trial comparing two calcineurin inhibitor (CNI)-free strategies for Graft-versus-Host Disease (GVHD) prophylaxis to standard tacrolimus and methotrexate (Tac/Mtx) in patients with hematologic malignancies undergoing myeloablative conditioning hematopoietic stem cell transplantation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02966301",
+            "title": "Phase II Study of First Line Treatment of Chronic Graft Versus Host Disease With Arsenic Trioxide",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2016-12",
+            "completion_date": "2020-06",
+            "brief_summary": "This study aims to evaluate the early chronic GvHD events (first line therapy), if the addition of arsenic trioxide to standard therapy with corticosteroids, with or without cyclosporine, will be effective in controlling chronic GvHD and to reduce the duration of corticosteroid therapy",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02638467",
+            "title": "Allogeneic Haematopoietic Stem Cell Transplantation From a Matched Donor in Patients With Chronic Myeloid Leukemia Failing to Gain Normal Hemopoiesis Under TKIs Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 2,
+            "start_date": "2015-11",
+            "completion_date": "2020-02",
+            "brief_summary": "Patients newly diagnosed with chronic phase chronic myeloid leukemia undergo treatment with TK inhibitors (TKI). A possible cause of TK failure is represented by the insufficient recovery of normal Ph- hematopoiesis during TKI treatment, with consequent severe cytopenias that limit TKI adequate administration. Although rare, this event happens in a proportion of 4-5% of CML patients. Our hypothesis is to circumvent this peculiar condition by providing a normal hematopoiesis from a HLA-matched do",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03190733",
+            "title": "A Randomized,Open,Multicenter and Prospective Study of the Optimized Dose of Anti-Thymoglobuline in Haploidentical Allogeneic Stem Cell Transplantation",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 192,
+            "start_date": "2017-08-30",
+            "completion_date": "2021-09-30",
+            "brief_summary": "In this study, a randomized, prospective, multicenter, open cohort study was conducted to investigate patients with acute leukemia (14～60-year-old) with different ATG doses (10 mg / kg and 12.5 mg / kg ) in fludarabine, busulfan, cyclophosphamide and antilymphocyte globulin (FBCA) pretreatment protocol of Haploidentical hematopoietic stem cell transplantation (haplo-HSCT). The purpose is to compare the incidences of chronic graft vs host disease (cGVHD) in haplo-HSCT recipients receiving differe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04930562",
+            "title": "A Phase 2, Multicenter Study to Evaluate the Efficacy and Safety of BN101 in Subject With Chronic Graft Versus Host Disease (cGVHD) After at Least Fist Line of Systemic Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2021-04-27",
+            "completion_date": "2022-12-10",
+            "brief_summary": "This is a phase 2, open-label, multicenter trial to evaluate the efficacy and safety of BN101 in subjects with Chronic Graft Versus Host Disease (cGVHD) after at least First Line of systemic therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01429844",
+            "title": "Randomized, Open-label, Multi-Center Study Comparing Tacrolimus With Cyclosporin, Both Arms in Combination With Mycophenolate Mofetil and Corticosteroids for Prevention of Bronchiolitis Obliterans Syndrome in Lung Transplant Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 274,
+            "start_date": "2001-01",
+            "completion_date": "2010-08",
+            "brief_summary": "The purpose of the study is to compare efficacy and safety of two different immunosuppressive regimens for prevention of bronchiolitis obliterans syndrome (BOS) (chronic lung allograft rejection)after lung transplantation: tacrolimus versus cyclosporine, both in combination with mycophenolate mofetil and steroids. The study was powered to detect a 15% reduction in BOS in tacrolimus treated patients.\n\nStudy design: open-label, randomized, comparative, multi-center, investigator driven",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03656926",
+            "title": "A Phase III Clinical Trial to Demonstrate Efficacy / Safety of Liposomal Cyclosporine A + Standard of Care (SoC) vs SoC Alone in Treating Chronic Lung Allograft Dysfunction / Bronchiolitis Obliterans in Patients Post Double Lung Transplant",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 169,
+            "start_date": "2019-03-26",
+            "completion_date": "2024-03-12",
+            "brief_summary": "The objective of this trial was to assess the efficacy and safety of aerosolized liposomal cyclosporine A (L-CsA) as add-on therapy to standard of care (SoC) as compared to SoC alone in double lung transplant (DLT) recipients with chronic lung allograft dysfunction (CLAD)-bronchiolitis obliterans syndrome (BOS).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04107675",
+            "title": "A Phase IIa Multi-Center, Randomized, Single-Blind Safety Study of Liposomal Cyclosporine A to Treat Bronchiolitis Obliterans Syndrome Following Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2020-02-11",
+            "completion_date": "2022-12-15",
+            "brief_summary": "Primary Objective:\n\nThe primary objective of this study is to assess the tolerability and safety of two dose levels of aerosolized L-CsA vs placebo in addition to SoC therapy for BOS in adult allo-HSCT recipients.\n\nSecondary Objectives:\n\nThe secondary objectives of this study are to assess PK and exploratory efficacy and quality of life of two dose levels of aerosolized L-CsA vs placebo in addition to SoC therapy for BOS in adult allo-HSCT recipients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36800551",
+            "title": "Novel Approaches to the Treatment of Chronic Graft-Versus-Host Disease.",
+            "authors": [
+              "Zeiser Robert"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2023",
+            "abstract": "The Oncology Grand Rounds series is designed to place original reports published in the Journal into clinical context. A case presentation is followed by a description of diagnostic and management challenges, a review of the relevant literature, and a summary of the authors' suggested management approaches. The goal of this series is to help readers better understand how to apply the results of key studies, including those published in Journal of Clinical Oncology, to patients seen in their own ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38563735",
+            "title": "Cyclosporine-Associated Organizing Pneumonia.",
+            "authors": [
+              "Singh Harjinder",
+              "Patel Parth",
+              "Mawari Samih",
+              "Caliman Neil"
+            ],
+            "journal": "American journal of therapeutics",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report/Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8420072",
+            "title": "The effect of cyclosporine on the progression of human immunodeficiency virus type 1 infection transmitted by transplantation--data on four cases and review of the literature.",
+            "authors": [
+              "Schwarz A",
+              "Offermann G",
+              "Keller F",
+              "Bennhold I",
+              "L'age-Stehr J"
+            ],
+            "journal": "Transplantation",
+            "year": "1993",
+            "abstract": "Two women and two men were infected with the human immunodeficiency virus type 1 (HIV-1) transmitted by renal transplantation from i.v. drug-addicted donors in 1984. The four recipients were treated with cyclosporine and methylprednisolone (one patient only for three months because of early graft failure). Two patients died 66 and 74 months after transplantation, one of endocarditis and one of cerebral hemorrhage. Despite several infections including urinary tract infection (n = 8), peritonitis ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37805414",
+            "title": "[Efficacy evaluation of 0.05% cyclosporine A and 0.1% tacrolimus eye drops in the treatment of severe dry eye associated with chronic graft-versus-host disease].",
+            "authors": [
+              "Liu S W",
+              "Zhao Y H",
+              "Ma J",
+              "Shen Z",
+              "Hu B H"
+            ],
+            "journal": "[Zhonghua yan ke za zhi] Chinese journal of ophthalmology",
+            "year": "2023",
+            "abstract": "Objective: To evaluate the effectiveness and safety of 0.05% cyclosporine A and 0.1% tacrolimus eye drops in treating severe dry eye associated with chronic graft-versus-host disease (cGVHD). Methods: This non-randomized concurrent control trial enrolled 83 eyes from 83 patients with cGVHD-associated severe dry eye. The treatment had two phases. During the initial shock treatment period (0-3 months), 44 patients received 0.05% cyclosporine A eye drops (4 times/day; group A) and 39 patients recei",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39261378",
+            "title": "Efficacy of tacrolimus versus cyclosporine after lung transplantation: an updated systematic review, meta-analysis, and trial sequential analysis of randomized controlled trials.",
+            "authors": [
+              "Suilik Husam Abu",
+              "Al-Shammari Ali Saad",
+              "Soliman Youssef",
+              "Suilik Mohamed Abu",
+              "Naeim Kamal A"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2024",
+            "abstract": "Little data supports using tacrolimus versus cyclosporin for immunosuppression concerning acute rejection and bronchiolitis obliterans syndrome/Chronic Lung Allograft Dysfunction CLAD complications following lung transplantation (LTx). Our goal was to evaluate the use of tacrolimus versus cyclosporine in preventing these complications after LTx.",
+            "classification": {
+              "study_type": "Systematic Review & Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23821513",
+            "title": "Immunosuppression: what's standard and what's new?",
+            "authors": [
+              "Witt Chad A",
+              "Hachem Ramsey R"
+            ],
+            "journal": "Seminars in respiratory and critical care medicine",
+            "year": "2013",
+            "abstract": "Lung transplantation is the ultimate treatment option for patients with end-stage lung disease. Chronic rejection, in the form of bronchiolitis obliterans syndrome, and noncytomegalovirus infections are the major causes of morbidity and mortality beyond the first year after transplantation. Most lung transplant recipients are treated lifelong with a three-drug immunosuppression regimen consisting of a calcineurin inhibitor, an antimetabolite, and low-dose corticosteroids. However, induction and ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9426106",
+            "title": "New immunosuppressive regimens in lung transplantation.",
+            "authors": [
+              "Briffa N",
+              "Morris R E"
+            ],
+            "journal": "The European respiratory journal",
+            "year": "1997",
+            "abstract": "Survival after lung transplantation is less than 50% after 5 yrs and is limited by infection and obliterative bronchiolitis. There is, therefore, a need for new immunosuppressive regimens if we are to attempt to improve long-term survival. Several trials in lung transplantation of new immunosuppressive agents are in the planning stages. In this article, we review the experience with a new monoclonal agent (interleukin 2 (IL2) receptor antagonist) in kidney transplantation, together with the phar",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2189665",
+            "title": "Obliterative bronchiolitis.",
+            "authors": [
+              "Theodore J",
+              "Starnes V A",
+              "Lewiston N J"
+            ],
+            "journal": "Clinics in chest medicine",
+            "year": "1990",
+            "abstract": "The mass of evidence suggests that OB is a manifestation of allograft rejection in the time period later than that usually associated with acute postoperative rejection. Respiratory infection may serve to amplify (and possibly trigger) this process. A maintenance immunosuppression regimen utilizing cyclosporine A, prednisone, and azathioprine appears to be much more effective than an earlier regimen utilizing only the first two drugs. Aggressive surveillance utilizing prospective measurement of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22554673",
+            "title": "Tacrolimus and cyclosporine have differential effects on the risk of development of bronchiolitis obliterans syndrome: results of a prospective, randomized international trial in lung transplantation.",
+            "authors": [
+              "Treede Hendrik",
+              "Glanville Allan R",
+              "Klepetko Walter",
+              "Aboyoun Christina",
+              "Vettorazzi Eik"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2012",
+            "abstract": "Chronic lung allograft dysfunction, which manifests as bronchiolitis obliterans syndrome (BOS), is recognized as the primary cause of morbidity and mortality after lung transplantation. In this study we assessed the efficacy and safety of two de novo immunosuppression protocols to prevent BOS.",
+            "classification": {
+              "study_type": "Comparative Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23331973",
+            "title": "Cyclosporine A drives a Th17- and Th2-mediated posttransplant obliterative airway disease.",
+            "authors": [
+              "Lemaître P H",
+              "Vokaer B",
+              "Charbonnier L-M",
+              "Iwakura Y",
+              "Field K A"
+            ],
+            "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+            "year": "2013",
+            "abstract": "Calcineurin-inhibitor refractory bronchiolitis obliterans (BO) represents the leading cause of late graft failure after lung transplantation. T helper (Th)2 and Th17 lymphocytes have been associated with BO development. Taking advantage of a fully allogeneic trachea transplantation model in mice, we addressed the pathogenicity of Th cells in obliterative airway disease (OAD) occurring in cyclosporine A (CsA)-treated recipients. We found that CsA prevented CD8(+) T cell infiltration into the graf",
+            "classification": {
+              "study_type": "Experimental/Translational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16386609",
+            "title": "Rapamycin in lung transplantation.",
+            "authors": [
+              "Hernández R Laporta",
+              "Gil P Ussetti",
+              "Gallo C García",
+              "de Pablo Gafas A",
+              "Hernández M C Carreño"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "2005",
+            "abstract": "Rapamycin (RAPA) is a powerful immunosuppressant that also acts as an antiproliferative, which, therefore, could be useful in the treatment and prevention of bronchiolitis obliterans (BOS) in lung transplant recipients. We sought to report our experiences with RAPA in lung transplant patients with BOS that has not responded to the administration of other drugs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16890113",
+            "title": "Cyclosporine C2 target levels and acute cellular rejection after lung transplantation.",
+            "authors": [
+              "Glanville Allan R",
+              "Aboyoun Christina L",
+              "Morton Judith M",
+              "Plit Marshall",
+              "Malouf Monique A"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2006",
+            "abstract": "Acute pulmonary allograft rejection (AR) is the most important risk factor for bronchiolitis obliterans syndrome (BOS), which is associated with reduced quality of life and decreased survival after lung transplantation (LTx). Trough (C0) cyclosporine (CyA) levels have a poor correlation with area-under-the-curve (AUC) measurements of cyclosporine exposure compared with 2-hour post-dose (C2) levels, but there are no published guidelines for C2 levels after LTx. Hence, we assessed the utility of C",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34699688",
+            "title": "Capitalizing on the concept of local immune suppression by inhalation for lung transplant recipients.",
+            "authors": [
+              "Iacono Aldo"
+            ],
+            "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+            "year": "2022",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10741273",
+            "title": "The relationship between angiogenesis and the immune response in carcinogenesis and the progression of malignant disease.",
+            "authors": [
+              "O'Byrne K J",
+              "Dalgleish A G",
+              "Browning M J",
+              "Steward W P",
+              "Harris A L"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2000",
+            "abstract": "Recent studies have demonstrated that angiogenesis and suppressed cell-mediated immunity (CMI) play a central role in the pathogenesis of malignant disease facilitating tumour growth, invasion and metastasis. In the majority of tumours, the malignant process is preceded by a pathological condition or exposure to an irritant which itself is associated with the induction of angiogenesis and/or suppressed CMI. These include: cigarette smoking, chronic bronchitis and lung cancer; chronic oesophagiti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2407357",
+            "title": "Heart-lung transplantation: an overview.",
+            "authors": [
+              "Starnes V A"
+            ],
+            "journal": "Cardiology clinics",
+            "year": "1990",
+            "abstract": "Heart-lung transplantation is in a state of evolution, but for selected patients with end-stage cardiopulmonary and pulmonary disease, it can offer long-term rehabilitation. In the 8 years since heart-lung transplantation was begun at Stanford, much experience has accrued and significant improvements have been made. Advances that have made heart-lung transplantation feasible include better immunosuppression, particularly the triple-drug protocol of cyclosporine, azathioprine, and corticosteroids",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23698397",
+            "title": "Suppression of coronavirus replication by cyclophilin inhibitors.",
+            "authors": [
+              "Tanaka Yoshikazu",
+              "Sato Yuka",
+              "Sasaki Takashi"
+            ],
+            "journal": "Viruses",
+            "year": "2013",
+            "abstract": "Coronaviruses infect a variety of mammalian and avian species and cause serious diseases in humans, cats, mice, and birds in the form of severe acute respiratory syndrome (SARS), feline infectious peritonitis (FIP), mouse hepatitis, and avian infectious bronchitis, respectively. No effective vaccine or treatment has been developed for SARS-coronavirus or FIP virus, both of which cause lethal diseases. It has been reported that a cyclophilin inhibitor, cyclosporin A (CsA), could inhibit the repli",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38741362",
+            "title": "Association Between FEV₁ Decline Rate and Mortality in Long-Term Follow-Up of a 21-Patient Pilot Clinical Trial of Inhaled Liposomal Cyclosporine Plus Standard-of-Care Versus Standard-of-Care Alone for Bronchiolitis Obliterans Syndrome After Lung Transplantation.",
+            "authors": [
+              "Iacono Aldo",
+              "Wijesinha Marniker",
+              "Völp Andreas",
+              "Korotun Maksim",
+              "Terrin Michael"
+            ],
+            "journal": "Annals of transplantation",
+            "year": "2024",
+            "abstract": "BACKGROUND The association between forced expiratory volume in 1 second (FEV1) trajectory and mortality in bronchiolitis obliterans syndrome (BOS) is not well defined. Using long-term data from a prior clinical trial of inhaled liposomal cyclosporine A (L-CsA-I) for lung transplant patients with BOS, this study examined the association between longitudinal FEV₁ change and mortality. MATERIAL AND METHODS We analyzed long-term data from a clinical trial which randomized 21 patients with BOS (³20% ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37355201",
+            "title": "Belumosudil Impacts Immunosuppression Pharmacokinetics in Patients with Chronic Graft-versus-Host Disease.",
+            "authors": [
+              "Gonzalez Rebecca",
+              "Gaskill Eric",
+              "Padilla Maya",
+              "Pidala Joseph",
+              "Lazaryan Aleksandr"
+            ],
+            "journal": "Transplantation and cellular therapy",
+            "year": "2023",
+            "abstract": "Belumosudil (BEL) is a novel Rho-associated coiled-coil containing protein kinase 2 (ROCK2) inhibitor approved for the treatment of chronic graft-versus-host disease (cGVHD) in patients who have failed 2 or more prior lines of systemic therapy. Although the pharmacokinetic effects of BEL on other immunosuppressive (IS) agents have not been clinically evaluated, in vitro data indicate that BEL may have possible interactions with drugs with a narrow therapeutic index used to treat cGVHD, such as t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28662986",
+            "title": "Therapy options for chronic lung allograft dysfunction-bronchiolitis obliterans syndrome following first-line immunosuppressive strategies: A systematic review.",
+            "authors": [
+              "Benden Christian",
+              "Haughton Maria",
+              "Leonard Saoirse",
+              "Huber Lars C"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2017",
+            "abstract": "Long-term success of lung transplantation is limited by the development of chronic lung allograft dysfunction (CLAD), of which bronchiolitis obliterans syndrome (BOS) is the most common form. This systematic review sought to identify the current evidence base for CLAD-BOS therapies after initial immunosuppressive treatment strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28471870",
+            "title": "The Effect of Immunosuppression on Airway Integrity.",
+            "authors": [
+              "Bellon Hannelore",
+              "Vandermeulen Elly",
+              "Verleden Stijn E",
+              "Heigl Tobias",
+              "Vriens Hanne"
+            ],
+            "journal": "Transplantation",
+            "year": "2017",
+            "abstract": "Insults to the airway epithelium play a key role in constrictive bronchiolitis after lung transplantation, the typical hallmark of chronic rejection. Our hypothesis is that immunosuppressives might affect airway integrity.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此「bronchitis」在臨床試驗脈絡中幾乎全指肺移植後閉塞性細支氣管炎綜合徵（BOS/BO）——一種 T 細胞介導的慢性排斥反應。CsA 作為鈣調磷酸酶抑制劑，抑制 IL-2 驅動的 T 細胞增殖，為 BOS 標準預防與治療基礎；吸入型脂質體 CsA（L-CsA）可直接作用於氣道黏膜，規避系統性毒性，機轉合理性強且有多項 Phase 3 RCT 完成。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "nasolacrimal duct disease",
+      "txgnn": {
+        "score": 0.988901138305664,
+        "rank": 11350
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07171710",
+            "title": "Comparative Evaluation of 0.05% Cyclosporine A Plus Absorbable Punctal Plugs Versus 0.05% Cyclosporine A Monotherapy in Sjögren's Syndrome-Associated Dry Eye: A Paired-Eye Study",
+            "phase": "NA",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 30,
+            "start_date": "2024-03-01",
+            "completion_date": "2026-03-31",
+            "brief_summary": "To study the effectiveness of 0.05% cyclosporine A eye drops in combination with smart plug absorbable lacrimal duct plugs in the monotherapy of cyclosporine for SSDE.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase NA（比較效果研究），ENROLLING_BY_INVITATION，n=30，直接比較 0.05% CsA 滴眼液合併可吸收淚點塞 vs. 單獨 CsA 治療後天性淚點狹窄；為目前最直接相關試驗，但非隨機對照設計，樣本小。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37463348",
+            "title": "Topical cyclosporin A 0.05% eye drops for management of symptomatic acquired punctal stenosis: a prospective, controlled clinical study.",
+            "authors": [
+              "Nassief Mona",
+              "Lotfy Nancy M"
+            ],
+            "journal": "Orbit (Amsterdam, Netherlands)",
+            "year": "2024",
+            "abstract": "To study the efficacy of cyclosporin 0.05% eye drops in the management of grade 1 and 2 acquired punctal stenosis and to compare the results with the clinical outcomes of mini-Monoka insertion.",
+            "classification": {
+              "study_type": "Prospective Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19659981",
+            "title": "Erosive mucosal lichen planus and secondary epiphora responding to systemic cyclosporin A treatment.",
+            "authors": [
+              "Boyce Aaron E",
+              "Marshman Gillian",
+              "Mills Richard A D"
+            ],
+            "journal": "The Australasian journal of dermatology",
+            "year": "2009",
+            "abstract": "Erosive mucosal lichen planus (LP) is a well-established variant of LP characterized by the formation of ulcerative lesions predominantly involving the oral and genital mucosae. Less commonly, this condition may involve oesophageal and/or ocular mucosal surfaces, and case reports within the ophthalmology literature have recently confirmed the potential for this condition to affect the nasolacrimal ducts. We report the case of a woman with severe cicatrizing mucosal LP and ocular symptoms seconda",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "後天性淚點狹窄（acquired punctal stenosis）與鼻淚管疾病部分亞型具有局部免疫炎症機轉（如苔癬樣黏膜炎、慢性眼表炎症）。局部 0.05% CsA 滴眼液透過抑制 T 細胞介導的結膜/淚道黏膜炎症，可能改善後天性淚點/鼻淚管狹窄；機轉與 CsA 乾眼症適應症相似，生物學合理性中等。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "granulomatous disease, chronic, autosomal recessive"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "granulomatous disease, chronic, autosomal recessive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "granulomatous disease, chronic, autosomal recessive"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "brain aneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "brain aneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "brain aneurysm"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "congenital ichthyosiform erythroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "congenital ichthyosiform erythroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "congenital ichthyosiform erythroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "excretory apparatus of the lacrimal system anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "excretory apparatus of the lacrimal system anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "excretory apparatus of the lacrimal system anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 36,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "nasolacrimal duct disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "nasolacrimal duct disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclosporine",
+        "disease": "nasolacrimal duct disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    }
+  ]
+}

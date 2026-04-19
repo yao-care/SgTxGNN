@@ -1,0 +1,821 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01176-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cyclizine",
+    "drugbank_id": "DB01176",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.9998000264167786,
+        "rank": 623
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8573923",
+            "title": "Detection of action, inhibition and augmentation spectra in solar urticaria.",
+            "authors": [
+              "Miyauchi H",
+              "Horio T"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "1995",
+            "abstract": "The action spectrum of solar urticaria varies among cases. In addition, light spectra outside the activating wavelengths can influence the wheal formation in selected patients.",
+            "classification": {
+              "study_type": "光生物學機轉研究（Photobiological mechanistic study）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cyclizine 為 H1 受體拮抗劑，H1 blockade 可抑制組織胺介導的皮膚血管擴張與搔癢反應，為抗組織胺藥物治療蕁麻疹的標準機轉。但 Cyclizine 屬第一代（鎮靜型），臨床上已被第二代取代，需考量 CNS 副作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9996086955070496,
+        "rank": 985
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抗膽鹼作用可減少鼻腔分泌，H1 阻斷可緩解組織胺介導的鼻黏膜充血。然而「nasal cavity disease」診斷分類過於廣泛（含腫瘤、息肉、感染等異質性疾病），機轉關聯僅適用於過敏性子集，整體適應症定義不精確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.999537467956543,
+        "rank": 1095
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性喉咽炎主要為病毒或細菌感染所致，Cyclizine 的 H1/抗膽鹼機轉無直接抗感染或抗炎效果。TxGNN 高分可能源於知識圖譜中的上呼吸道疾病節點連結，而非生物學合理性。缺乏任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "cold urticaria",
+      "txgnn": {
+        "score": 0.998404324054718,
+        "rank": 2885
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "冷性蕁麻疹由低溫刺激觸發肥大細胞脫顆粒釋放組織胺，H1 拮抗劑為標準治療選項（指南推薦第二代 H1 拮抗劑）。Cyclizine 具有機轉合理性，但無任何特定文獻或試驗支持，且第一代抗組織胺的鎮靜副作用不具優勢。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.9975180625915528,
+        "rank": 4014
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "玫瑰痤瘡性結膜炎主要為慢性炎症（Th1/Th17 介導）及神經血管功能失調，H1 阻斷作用有限。抗膽鹼效果可能加重眼乾症狀（減少淚液分泌），存在潛在危害風險。不建議進一步研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9949390888214112,
+        "rank": 6533
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4148490",
+            "title": "Migraine treated with an antihistamine-analgesic combination.",
+            "authors": [],
+            "journal": "The Practitioner",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "早期臨床試驗（Pre-modern RCT era clinical study）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20420788",
+            "title": "Prescribing for migraine with the focus on selective 5HT1-receptor agonists: a pharmacy database analysis.",
+            "authors": [
+              "Truter I"
+            ],
+            "journal": "International journal of clinical pharmacology and therapeutics",
+            "year": "2010",
+            "abstract": "The primary aim was to determine the prescribing patterns and cost of drugs for migraine focusing on selective 5HT1-receptor agonists (triptans) in a primary care patient population.",
+            "classification": {
+              "study_type": "藥局資料庫分析（Pharmacy database analysis）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11472386",
+            "title": "Patterns of ergotamine and sumatriptan use in the Netherlands from 1991 to 1997.",
+            "authors": [
+              "Rahimtoola H",
+              "Egberts A C",
+              "Buurma H",
+              "Tijssen C C",
+              "Leufkens H G"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2001",
+            "abstract": "The objective of this study was to assess usage patterns of ergotamine and sumatriptan over a period of 6 years, primarily to evaluate the impact that sumatriptan has had on the prescription of ergotamine. This study used ergotamine and sumatriptan prescription data representing inhabitants of eight cities in the Netherlands and covering the period of 1991-1997. The yearly incidence of new users between 1991 and 1997 was estimated for both drugs as well as for the drug of first choice to be pres",
+            "classification": {
+              "study_type": "藥物使用型態研究（Drug utilization study）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3926322",
+            "title": "Acute migraine attack therapy: comparison of naproxen sodium and an ergotamine tartrate compound.",
+            "authors": [
+              "Pradalier A",
+              "Rancurel G",
+              "Dordain G",
+              "Verdure L",
+              "Rascol A"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1985",
+            "abstract": "The efficacy of safety of naproxen sodium and ergotamine tartrate were compared for the treatment of acute migraine attack in a randomized, parallel trial with 114 participating patients. At the start of symptoms, patients took either three tablets of naproxen sodium (275 mg each) or one of an ergotamine combination (containing 2 mg ergotamine tartrate, 91.5 mg caffeine, and 50 mg cyclizine chlorhydrate). Patients were followed for three months or until six attacks were monitored, whichever came",
+            "classification": {
+              "study_type": "臨床比較研究（Comparative clinical study）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10842162",
+            "title": "Chronic ergot toxicity: A rare cause of lower extremity ischemia.",
+            "authors": [
+              "Garcia G D",
+              "Goff J M",
+              "Hadro N C",
+              "O'donnell S D",
+              "Greatorex P S"
+            ],
+            "journal": "Journal of vascular surgery",
+            "year": "2000",
+            "abstract": "Chronic ergot toxicity is a rare cause of lower extremity ischemia. The cornerstone of therapy in ergot toxicity is to discontinue the use of caffeine, cigarettes, and all ergot-containing medications. Although multiple different therapies have been recommended for acute toxicity, no specific treatment is uniformly recommended in chronic toxicity. We present a case of long-term ergot use for migraine headaches in a woman who had severe chronic lower extremity claudication. This case demonstrates",
+            "classification": {
+              "study_type": "案例報告／安全性文獻（Case report / Safety literature）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cyclizine 曾作為麥角胺複方成分（ergotamine + cyclizine）用於偏頭痛急性期治療，抗組織胺作用可協同止嘔並可能輔助血管收縮效果。文獻主要圍繞麥角胺複方，cyclizine 的獨立貢獻尚未釐清。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.99425208568573,
+        "rank": 7152
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉自律神經頭痛（如叢發性頭痛）機轉為三叉神經-副交感神經反射弧異常激活，H1 拮抗對此機轉無直接干預。無文獻或試驗支持，不具優先研究價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "rhinitis",
+      "txgnn": {
+        "score": 0.9935332536697388,
+        "rank": 7797
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過敏性鼻炎由 IgE 介導的組織胺釋放引起，H1 拮抗劑為一線用藥（指南已優先推薦第二代，如 loratadine、cetirizine）。Cyclizine 具機轉合理性但無特定證據，且第一代鎮靜副作用在臨床上不具競爭優勢。類藥效應（class effect）已有更佳藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn": {
+        "score": 0.992787539958954,
+        "rank": 8390
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頑固性異位性皮膚炎現代治療以 dupilumab、JAK 抑制劑等生物製劑為主，機轉為 Th2/IL-4/IL-13 路徑。Cyclizine 的 H1 阻斷僅能緩解搔癢症狀，無法改變疾病修飾進程。不具研究優先性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn": {
+        "score": 0.9882821440696716,
+        "rank": 11839
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「IgE responsiveness, atopic」為免疫表型分類，非具體疾病適應症。Cyclizine 無法調節 IgE 生成或 Th2 免疫偏向，此預測可能為知識圖譜中過敏相關節點的間接推論，生物學合理性低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "rhinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "rhinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "rhinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyclizine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

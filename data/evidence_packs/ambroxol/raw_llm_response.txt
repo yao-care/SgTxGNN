@@ -1,0 +1,181 @@
+## Ambroxol (DB06742) 藥物再利用證據分析
+
+**藥物背景說明**：Ambroxol 是 bromhexine 的活性代謝物，全球廣泛用作祛痰/黏液溶解劑，在新加坡標記為「未上市」（可能以複方形式存在）。已知 MOA 包括：促進肺表面活性物質分泌、電壓門控鈉通道阻斷（局部麻醉效果）、抗炎及抗氧化作用。
+
+---
+
+```json
+{
+  "drug": "Ambroxol",
+  "drugbank_id": "DB06742",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "新加坡市場未上市；MOA資料標記為[Data Gap]，但依藥理文獻推定；多項婦科預測可能為KG鄰近節點假陽性群集",
+  "indications": [
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ambroxol促進黏液分泌正常化、抑制黏液素過度分泌，可改善鼻腔黏膜清除功能；鈉通道阻斷作用可能緩解鼻黏膜充血感覺。機轉相關性中等。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26525480",
+          "title": "[The new possibility for the treatment of acute cough]",
+          "year": "2015",
+          "study_type": "Review/Commentary",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "文獻主題為急性咳嗽治療，與鼻腔疾病屬上呼吸道連續體，提供間接支持；非直接針對nasal cavity disease的RCT，降為B級相關性"
+        }
+      ],
+      "flags": ["僅1篇間接文獻", "需搜尋鼻竇炎/鼻炎專項RCT以提升等級"]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ambroxol的局部麻醉機轉（Nav1.7/1.8阻斷）可緩解咽喉疼痛；在歐洲市場已有Ambroxol含片（lozenge）用於咽喉炎的臨床試驗（非本資料集收錄），TxGNN高分可能捕捉此KG連結。提供資料中雖無直接証據，但文獻外部知識支持L4。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["資料集外有歐洲lozenge臨床證據（未收錄）", "建議補充PMID搜尋：ambroxol sore throat pharyngitis"]
+    },
+    {
+      "disease_name": "vulvovaginal candidiasis",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉連結。Ambroxol抗炎特性理論上可緩解念珠菌感染引起的局部炎症，但無抗真菌活性文獻支持。高TxGNN分數可能來自KG中婦科疾病節點群集效應（假陽性）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["KG群集假陽性風險高", "與vulvitis/vulvovaginitis/ulceration of vulva同時出現，疑為系統性節點擴散"]
+    },
+    {
+      "disease_name": "faucial diphtheria",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "白喉為細菌毒素疾病，標準治療為抗毒素+抗生素。Ambroxol無抗菌或抗毒素機轉。黏液溶解作用對假膜形成無效。機轉關聯性極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["疾病病理與藥物機轉完全不匹配", "優先級最低"]
+    },
+    {
+      "disease_name": "cervical disc degenerative disorder",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接機轉假說：Ambroxol鈉通道阻斷可能緩解神經根性疼痛（Nav1.7/1.8在痛覺傳導中的角色）；抗炎作用可能減少椎間盤炎症。但無任何臨床或前臨床證據支持此適應症，機轉為高度推測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["鈉通道機轉屬遠端推論", "若有疼痛管理研究興趣可列為低優先研究問題"]
+    },
+    {
+      "disease_name": "vulvitis",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無臨床證據。抗炎機轉理論上可緩解外陰炎症，但給藥途徑（口服/吸入）與局部病灶不匹配，無外用劑型研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["婦科節點群集假陽性", "與vulvovaginal candidiasis同群"]
+    },
+    {
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "txgnn_score": 0.9883,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "萎縮性陰道炎主因為雌激素缺乏，Ambroxol無荷爾蒙或黏膜再生機轉。KG中可能因「黏膜分泌」節點產生誤導性連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["病因與MOA根本不匹配", "婦科節點群集第3例"]
+    },
+    {
+      "disease_name": "ulceration of vulva",
+      "txgnn_score": 0.9880,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰潰瘍為症狀性診斷，病因多樣（感染、自體免疫、創傷）。Ambroxol無傷口癒合或抗潰瘍特異性機轉，局部麻醉作用僅能暫時緩解疼痛，非治療性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["婦科節點群集第4例", "症狀緩解≠適應症"]
+    },
+    {
+      "disease_name": "vulvar neoplasm",
+      "txgnn_score": 0.9870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無抗腫瘤機轉文獻。雖部分研究探討Ambroxol對化療誘導黏膜炎的保護作用，但無外陰腫瘤特異性證據。與其他婦科預測同屬KG群集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["腫瘤適應症需特別謹慎", "最低優先級", "婦科節點群集第5例"]
+    },
+    {
+      "disease_name": "vulvovaginitis",
+      "txgnn_score": 0.9866,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無臨床證據。機轉連結與vulvovaginal candidiasis類似，但更廣泛。婦科節點群集系統性假陽性的一部分。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["婦科節點群集第6例（共6例）", "強烈建議整體降級篩除"]
+    }
+  ],
+  "cross_indication_analysis": {
+    "clustering_alert": {
+      "type": "KG節點群集假陽性警告",
+      "affected_indications": [
+        "vulvovaginal candidiasis",
+        "vulvitis",
+        "postmenopausal atrophic vaginitis",
+        "ulceration of vulva",
+        "vulvar neoplasm",
+        "vulvovaginitis"
+      ],
+      "count": 6,
+      "reasoning": "6個婦科相關適應症同時出現高分（0.987-0.999），且全部0臨床試驗、0文獻。此模式強烈提示TxGNN知識圖譜中婦科解剖節點（vulva/vagina）與Ambroxol間存在非特異性路徑傳播，建議在後續管線中以整批方式排除或降低評分權重。"
+    },
+    "priority_ranking": [
+      {"rank": 1, "disease": "acute laryngopharyngitis", "rationale": "機轉最直接（Nav鈉通道），外部文獻佐證存在"},
+      {"rank": 2, "disease": "nasal cavity disease", "rationale": "唯一有資料集內文獻支持的適應症"},
+      {"rank": 3, "disease": "cervical disc degenerative disorder", "rationale": "疼痛機轉潛力，但需前臨床驗證"},
+      {"rank": 4, "disease": "faucial diphtheria", "rationale": "機轉不匹配，最低優先"}
+    ]
+  },
+  "data_quality_notes": {
+    "moa_gap": "原始資料MOA標記[Data Gap]，本分析依藥理文獻（sodium channel blocker + surfactant promoter + anti-inflammatory）推定",
+    "market_status_note": "新加坡未上市可能影響監管路徑評估，但不影響科學證據等級",
+    "ddi_count_zero": "DDI=0可能反映資料庫收錄不完整，而非真正無交互作用（已知與NSAIDs、抗生素有協同或交互作用）"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| nasal cavity disease | **L4** | **S1** | Research Question ✅ |
+| acute laryngopharyngitis | **L4** | **S1** | Research Question ✅ |
+| cervical disc degenerative disorder | **L5** | **S0** | Hold ⚠️ |
+| faucial diphtheria | **L5** | **S0** | Hold ❌ |
+| vulvovaginal candidiasis | **L5** | **S0** | Hold ❌ |
+| vulvitis | **L5** | **S0** | Hold ❌ |
+| postmenopausal atrophic vaginitis | **L5** | **S0** | Hold ❌ |
+| ulceration of vulva | **L5** | **S0** | Hold ❌ |
+| vulvar neoplasm | **L5** | **S0** | Hold ❌ |
+| vulvovaginitis | **L5** | **S0** | Hold ❌ |
+
+**關鍵發現**：6個婦科適應症為 KG 節點群集假陽性，應整批排除。真正值得追蹤的是上呼吸道兩項（已有外部臨床證據基礎），以及疼痛機轉（長期研究方向）。

@@ -1,0 +1,191 @@
+```json
+{
+  "drug": "Hydrocortisone acetate",
+  "drugbank_id": "DB14539",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "市場狀態為「未上市」，原始適應症資料缺失，MOA 標記為 Data Gap。Hydrocortisone acetate 為糖皮質激素酯類衍生物，具抗炎、免疫抑制作用，局部外用為皮膚科一線藥物；TxGNN 預測集中於落髮相關疾病群，具生物學合理性。",
+  "indications": [
+    {
+      "disease_name": "alopecia areata",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "圓禿為 T 細胞介導的毛囊自體免疫攻擊；糖皮質激素透過抑制局部 IL-2、IFN-γ 及 NF-κB 通路壓制免疫微環境，恢復毛囊免疫赦免。局部或病灶內注射 hydrocortisone 為圓禿早期治療選項之一，機轉直接。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01453686",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（已完成，n=41），直接比較 Clobetasol 0.05% cream vs Hydrocortisone 1% cream 於圓禿療效。雖樣本數偏小，且 hydrocortisone 為對照組（可能療效較弱），仍構成直接 Phase 3 臨床證據，足以支持 L1 等級。需注意試驗藥物為 hydrocortisone 1% cream，與 DB14539（acetate 酯式）存在配方差異，需核實是否為同一化合物或等效物。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "4755919",
+          "study_type": "Clinical Study（Case Series/Pilot）",
+          "tier": "2",
+          "note": "1973 年早期臨床研究，評估病灶內皮下注射 hydrocortisone 治療嚴重圓禿；為直接用途證據，但年代久遠、方法學標準低。"
+        },
+        {
+          "pmid": "153470",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "1979 年皮膚病局部治療綜述，涵蓋 hydrocortisone 外用之一般適應症，間接支持皮膚科應用，非圓禿專屬研究。"
+        }
+      ],
+      "guardrails": [
+        "NCT01453686 顯示 hydrocortisone 療效可能不及 clobetasol，建議用於輕度/早期圓禿",
+        "DB14539 為 acetate 酯形式，需確認與試驗使用劑型的等效性",
+        "市場狀態為未上市，需評估是否有合法替代來源或製劑許可",
+        "長期局部糖皮質激素使用需監測皮膚萎縮、毛細血管擴張等副作用"
+      ]
+    },
+    {
+      "disease_name": "idiopathic steroid-sensitive nephrotic syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "疾病名稱本身即含「steroid-sensitive」，標準治療為全身性糖皮質激素（prednisolone/prednisone）。Hydrocortisone 為內源性糖皮質激素，具相同受體作用機轉（GR-α），理論上可達免疫抑制效果；然而腎病症候群需足夠全身暴露量，hydrocortisone acetate（局部/外用劑型為主）是否能達有效全身濃度存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "research_questions": [
+        "Hydrocortisone acetate 是否有全身性製劑可達腎病症候群治療所需血漿濃度？",
+        "與標準 prednisolone 相比，GR 親和力及生物利用度是否足夠？",
+        "是否有個案報告或間接文獻支持 hydrocortisone 用於 SSNS？"
+      ]
+    },
+    {
+      "disease_name": "telogen effluvium",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "休止期脫髮主因為全身性壓力（手術、生產、營養缺乏、甲狀腺疾病）誘發毛囊週期停滯，非免疫介導疾病。糖皮質激素機轉與主要病理無直接對應；TxGNN 預測可能源於落髮疾病群的圖譜鄰近性（graph proximity），而非生物學機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "無臨床試驗或文獻支持，僅有模型預測。建議暫不推進。"
+    },
+    {
+      "disease_name": "alopecia mucinosa",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛囊黏蛋白沉積症為罕見慢性炎症性皮膚病，部分病例與 T 細胞淋巴瘤相關。雖有炎症成分，但局部類固醇證據極為有限，且病因異質性高。無臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "罕見疾病，病例數稀少，預測可信度需保守評估。"
+    },
+    {
+      "disease_name": "Quinquaud's folliculitis decalvans",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛囊炎性禿髮（folliculitis decalvans）主要為細菌（金黃色葡萄球菌）觸發的中性球性炎症，標準治療以抗生素為主（rifampicin + clindamycin）。糖皮質激素單獨使用可能加重感染風險，機轉適配性差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "機轉不符，使用類固醇可能有安全疑慮，建議 Hold。"
+    },
+    {
+      "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性少毛症合併皮膚水皰為罕見基因缺陷疾病（如 LPAR6/LIPH 突變），本質為結構性/遺傳性缺陷，非炎症病理。糖皮質激素對基因缺陷無根本治療效果，機轉關聯性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia antibody deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見免疫缺陷合併脫髮綜合症，疾病定義不明確，文獻極度稀少。糖皮質激素理論上可調節抗體相關免疫反應，但無任何臨床依據支持此特定疾病。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見基因症候群（多系統受累），脫髮為遺傳缺陷表現之一。糖皮質激素對基因症候群的多器官缺陷無治療依據，機轉關聯性幾乎不存在。TxGNN 預測為圖譜鄰近效應（alopecia 疾病群聚）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "atrichia with papular lesions",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無毛症合併丘疹性病變（APL）由 VDR 或 HR 基因突變引起，為毛囊發育基因缺陷，非炎症性疾病。糖皮質激素對此類遺傳缺陷無治療價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "seborrheic keratosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脂漏性角化症為表皮良性增生性病變，與老化及 FGFR3/PIK3CA 突變相關，非炎症病理。糖皮質激素對角化增生無治療機轉，應用反而可能導致皮膚萎縮。此預測可能為模型雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "機轉適配性最差，建議最低優先級。"
+    }
+  ],
+  "summary": {
+    "L1": ["alopecia areata"],
+    "L2": [],
+    "L3": [],
+    "L4": ["idiopathic steroid-sensitive nephrotic syndrome"],
+    "L5": [
+      "telogen effluvium",
+      "alopecia mucinosa",
+      "Quinquaud's folliculitis decalvans",
+      "hereditary hypotrichosis with recurrent skin vesicles",
+      "alopecia antibody deficiency",
+      "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "atrichia with papular lesions",
+      "seborrheic keratosis"
+    ],
+    "proceed_with_guardrails": ["alopecia areata"],
+    "research_question": ["idiopathic steroid-sensitive nephrotic syndrome"],
+    "hold": [
+      "telogen effluvium",
+      "alopecia mucinosa",
+      "Quinquaud's folliculitis decalvans",
+      "hereditary hypotrichosis with recurrent skin vesicles",
+      "alopecia antibody deficiency",
+      "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "atrichia with papular lesions",
+      "seborrheic keratosis"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 L1 - Proceed with Guardrails：圓禿（Alopecia Areata）
+
+| 項目 | 內容 |
+|------|------|
+| **關鍵證據** | NCT01453686：已完成 Phase 3 RCT，直接比較 Hydrocortisone cream vs Clobetasol |
+| **機轉符合度** | ★★★★★ 糖皮質激素抑制毛囊自體免疫攻擊，機轉直接 |
+| **主要風險** | 試驗中可能為療效較差的對照組；acetate 配方與試驗劑型差異需確認 |
+| **建議行動** | 可進入製劑評估與可行性分析，但需標註「非優先類固醇選項」 |
+
+### 🟡 L4 - Research Question：類固醇敏感腎病症候群
+
+疾病命名本身即暗示類固醇治療有效，機轉高度合理，但：
+- **無直接臨床試驗或文獻**
+- 標準治療為 prednisolone（效價更高），hydrocortisone acetate 的系統性生物利用度存疑
+- 建議先釐清劑型/給藥路徑可行性
+
+### 🔴 L5 × 8 - Hold
+
+其餘 8 個適應症均**僅有 TxGNN 預測，無任何臨床支撐**。分析發現：
+- **圖譜聚集效應**：7/8 為落髮相關疾病，TxGNN 因知識圖譜中的疾病鄰近性給出高分，不代表臨床可行性
+- **遺傳性疾病誤導**（APL、hereditary hypotrichosis、alopecia syndrome）：根本病因為基因缺陷，類固醇無治療依據
+- **機轉反指**（folliculitis decalvans）：細菌性炎症，使用類固醇可能加重感染
+
+> ⚠️ **YMYL 免責聲明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選均需完整臨床驗證方可應用於患者照護。

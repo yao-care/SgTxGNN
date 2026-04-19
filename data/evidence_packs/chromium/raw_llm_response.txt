@@ -1,0 +1,585 @@
+## 藥物再利用證據分析：Chromium (DB11136)
+
+針對您提供的資料，進行詳細的跨適應症證據評估。本案核心發現：**RA 有罕見的 Phase 2/3 完成 RCT，OA 則存在嚴重的「植入物監測混淆」問題。**
+
+---
+
+```json
+{
+  "drug": "Chromium",
+  "drugbank_id": "DB11136",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "本藥物為三價鉻 (Cr³⁺) 補充劑，需與六價鉻（致癌物）及金屬植入物磨損釋出的鉻離子嚴格區分。TxGNN 信號中大量混入「植入物監測研究」，需逐一過濾。",
+  "indications": [
+    {
+      "disease_name": "osteoarthritis",
+      "txgnn_score": 0.9868,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 高分主要來自金屬對金屬 (MoM) 人工關節研究中鉻離子監測資料的知識圖譜共現，存在嚴重反向因果偏誤（鉻是植入物磨損產物而非治療劑）。三價鉻補充劑理論上可透過胰島素信號路徑減少軟骨代謝紊亂，但此機轉在 OA 中尚未充分驗證。唯一直接相關的 Phase 2 試驗（NCT00759993）已提前終止，顯示療效或安全性存疑。",
+      "signal_quality_warning": "48 個臨床試驗中，估計 >90% 為金屬植入物安全監測研究，非鉻作為治療劑的研究，TxGNN 信號嚴重失真。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00759993",
+          "title": "Safety and Efficacy of Chromium [for osteoarthritis] - 6 Week Pilot Study",
+          "relevance_grade": "A",
+          "reasoning": "唯一直接測試鉻補充劑治療 OA 的 Phase 2 試驗，但狀態為 TERMINATED（終止），入組 60 人後提前結束。終止原因未知，是本適應症最大的風險信號，需查詢 FDA/ClinicalTrials 記錄確認終止原因（療效失敗 vs. 安全疑慮 vs. 資金問題）。"
+        },
+        {
+          "nct_id": "NCT00586781",
+          "title": "STAR Total Ankle Replacement - Bilateral Arm",
+          "relevance_grade": "C",
+          "reasoning": "踝關節置換裝置研究（Phase 3），與鉻作為治療劑無關，被誤納入。"
+        },
+        {
+          "nct_id": "NCT00862511",
+          "title": "Serum Metal Ion Levels After Coated/Uncoated Implantation",
+          "relevance_grade": "C",
+          "reasoning": "監測關節植入物鉻離子釋出，非治療性研究。代表本適應症中大多數試驗的性質。"
+        },
+        {
+          "nct_id": "NCT02196792",
+          "title": "Polyethylene Wear, Migration in Total Hip Replacement",
+          "relevance_grade": "C",
+          "reasoning": "人工髖關節磨損研究，主動監測金屬離子，與鉻補充治療 OA 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT04585022",
+          "title": "Whole Blood Metal Ions in Metal-on-Metal THA",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "MoM 人工髖關節鉻離子監測，已終止。"
+        },
+        {
+          "nct_id": "NCT00561600",
+          "title": "DePuy ASR-XL Acetabular System Evaluation",
+          "relevance_grade": "C",
+          "reasoning": "已召回的 DePuy ASR 系統評估研究，監測有害鉻離子釋出，非治療性。"
+        },
+        {
+          "nct_id": "NCT05357378",
+          "title": "Hip Innovation Technology Reverse Hip Replacement System",
+          "relevance_grade": "C",
+          "reasoning": "新型髖關節置換裝置安全性研究，與鉻補充療法無關。"
+        },
+        {
+          "nct_id": "NCT03382652",
+          "title": "Continuum Metal Bearing System in THA",
+          "relevance_grade": "C",
+          "reasoning": "金屬對金屬髖關節系統評估，監測性質。"
+        },
+        {
+          "nct_id": "NCT05815953",
+          "title": "Polarstem vs Corail Hip Stem Micromotion Comparison",
+          "relevance_grade": "C",
+          "reasoning": "髖關節假體微動研究，非鉻補充療法。"
+        },
+        {
+          "nct_id": "NCT04058743",
+          "title": "Nickel Sensitivity on Patient Outcomes After TKA",
+          "relevance_grade": "C",
+          "reasoning": "鎳過敏與全膝置換術後結果，與鉻補充治療 OA 無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36945025",
+          "title": "Chromium/cobalt ions and oxidative stress in serum",
+          "year": "2023",
+          "study_type": "Observational",
+          "tier": "2",
+          "reasoning": "提供鉻離子與氧化壓力的機轉連結，間接支持三價鉻抗氧化假說，但研究對象為植入物患者而非補充劑。"
+        },
+        {
+          "pmid": "34628351",
+          "title": "Synovial tissue phenotype in knee OA patients",
+          "year": "2021",
+          "study_type": "Observational",
+          "tier": "3",
+          "reasoning": "OA 滑膜組織研究，與鉻補充無直接關聯。"
+        },
+        {
+          "pmid": "34724103",
+          "title": "Cobalt/chromium levels after MoM hip revision",
+          "year": "2023",
+          "study_type": "Cohort",
+          "tier": "3",
+          "reasoning": "植入物翻修後金屬離子追蹤，反映鉻的毒性監測而非治療效果。"
+        },
+        {
+          "pmid": "37394959",
+          "title": "Serum cobalt/chromium as predictors of outcome in ASR hip",
+          "year": "2023",
+          "study_type": "Cohort",
+          "tier": "3",
+          "reasoning": "ASR 系統植入物結果預測研究，鉻為毒性標記物。"
+        },
+        {
+          "pmid": "27294138",
+          "title": "Environmental factors and vanadium/chromium/calcium in human body",
+          "year": "2016",
+          "study_type": "Cross-sectional",
+          "tier": "3",
+          "reasoning": "環境暴露研究，與治療性鉻補充無直接關聯。"
+        },
+        {
+          "pmid": "33550449",
+          "title": "Return to sports and BMI reduction after arthroplasty",
+          "year": "2022",
+          "study_type": "Cohort",
+          "tier": "3",
+          "reasoning": "關節置換術後功能恢復研究，與鉻補充無關。"
+        },
+        {
+          "pmid": "36545926",
+          "title": "Cemented vs cementless dual mobility cups",
+          "year": "2022",
+          "study_type": "RCT",
+          "tier": "3",
+          "reasoning": "骨水泥型態比較研究，監測金屬離子，非鉻補充研究。"
+        },
+        {
+          "pmid": "35926884",
+          "title": "Metal ions after Birmingham hip resurfacing",
+          "year": "2022",
+          "study_type": "Cohort",
+          "tier": "3",
+          "reasoning": "金屬離子長期追蹤，與治療無關。"
+        },
+        {
+          "pmid": "37652450",
+          "title": "Birmingham Hip Resurfacing at 20 years",
+          "year": "2023",
+          "study_type": "Registry/Cohort",
+          "tier": "3",
+          "reasoning": "20 年長期植入物存活率研究，非治療性。"
+        },
+        {
+          "pmid": "22325959",
+          "title": "Cobalt/chromium ion release after large-diameter MoM THA",
+          "year": "2012",
+          "study_type": "Observational",
+          "tier": "3",
+          "reasoning": "大直徑 MoM 人工髖關節離子釋出，毒性監測研究。"
+        }
+      ],
+      "evidence_summary": "48 個試驗中僅 1 個（Grade A，NCT00759993）直接測試鉻補充治療 OA，但已終止。其餘為植入物安全監測研究。20 篇文獻均與植入物鉻離子相關，無一為治療性補充研究。",
+      "key_risk": "NCT00759993 終止原因不明，需釐清是否因安全事件或療效不佳"
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn_score": 0.9854,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉依據。文獻均為金屬植入物不良反應個案（adverse local tissue reaction, metallosis），顯示鉻離子對關節組織具有毒性，與「鉻預防 OA 易感性」的假設方向相反。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38910664",
+          "title": "Adverse Metal Reaction in Metal-on-Polyethylene Hip Arthroplasty",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "金屬不良反應個案報告，顯示鉻毒性，與治療假設相矛盾。"
+        },
+        {
+          "pmid": "34232144",
+          "title": "Adverse Local Tissue Reactions After Hip Resurfacing",
+          "year": "2021",
+          "study_type": "Cohort",
+          "tier": "3",
+          "reasoning": "髖關節表面置換術後局部不良組織反應，鉻作為有害因子。"
+        },
+        {
+          "pmid": "28892256",
+          "title": "T2-mapping MRI of cartilage near metal in HTO",
+          "year": "2018",
+          "study_type": "Observational",
+          "tier": "3",
+          "reasoning": "高位截骨術後軟骨 MRI 評估，與鉻補充治療無關。"
+        },
+        {
+          "pmid": "23383625",
+          "title": "Severe metallosis leading to femoral head perforation",
+          "year": "2013",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "嚴重金屬化個案，顯示鉻毒性最極端表現，不支持治療假設。"
+        },
+        {
+          "pmid": "956390",
+          "title": "Cytotoxic activity of lymphocytes against synovial cells",
+          "year": "1976",
+          "study_type": "In vitro",
+          "tier": "3",
+          "reasoning": "1976 年細胞毒性研究，與鉻補充無直接關聯。"
+        }
+      ],
+      "evidence_summary": "零臨床試驗，5 篇文獻均顯示鉻（植入物來源）對關節有害，與治療假設矛盾。此指標的高 TxGNN 分數可能為知識圖譜路徑噪音。"
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9854,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "三價鉻 (Cr³⁺) 具有抗炎及免疫調節特性：(1) 調節胰島素信號路徑，降低 NF-κB 激活及下游促炎細胞因子（TNF-α、IL-6、IL-1β）；(2) RA 患者血清鉻濃度顯著低於健康對照（PMID 3776595, 1153978），支持鉻缺乏-炎症假說；(3) 動物模型（佐劑誘發 RA 大鼠）中，三價鉻補充改善關節炎評分（PMID 35829940）；(4) 已有 Phase 2/3 RCT 完成並發表（PMID 39030450），與 baricitinib（JAK 抑制劑）頭對頭比較。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05545020",
+          "title": "Trivalent Chromium as a Treatment for Rheumatoid Arthritis Patients",
+          "phase": "PHASE2/3",
+          "status": "COMPLETED",
+          "enrollment": 60,
+          "relevance_grade": "A",
+          "reasoning": "核心關鍵試驗：直接測試三價鉻治療 RA，Phase 2/3 設計，已完成，入組 60 人。與 2024 年發表論文（PMID 39030450）對應，是本適應症最高品質直接證據。需注意樣本數偏小（N=60），且與 baricitinib 頭對頭設計顯示研究者具信心但也面臨高標準比較。"
+        },
+        {
+          "nct_id": "NCT00586781",
+          "title": "STAR Total Ankle Replacement",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "踝關節置換裝置研究，適應症包含 RA 患者，但測試的是裝置而非鉻補充劑，不相關。"
+        },
+        {
+          "nct_id": "NCT05509972",
+          "title": "In-vivo Wear Behaviour Study",
+          "relevance_grade": "C",
+          "reasoning": "植入物磨損研究，已終止（僅入組 7 人），與鉻補充無關。"
+        },
+        {
+          "nct_id": "NCT00757354",
+          "title": "Metal Ion Release From Metal-on-Metal Cementless THA",
+          "relevance_grade": "C",
+          "reasoning": "金屬離子監測研究，非鉻補充治療 RA。"
+        },
+        {
+          "nct_id": "NCT01437124",
+          "title": "Chromosome Abnormalities in Ceramic on Metal THA",
+          "relevance_grade": "C",
+          "reasoning": "金屬離子致染色體異常研究，顯示金屬鉻潛在遺傳毒性，非治療性。"
+        },
+        {
+          "nct_id": "NCT02405234",
+          "title": "PyroCarbon vs Metal Radial Head",
+          "relevance_grade": "C",
+          "reasoning": "橈骨頭假體材料比較研究（RA 患者），非鉻補充治療。"
+        },
+        {
+          "nct_id": "NCT06578897",
+          "title": "Post-Market Retrospective Revision Study",
+          "relevance_grade": "C",
+          "reasoning": "翻修術後市場監測研究，非鉻補充治療。"
+        },
+        {
+          "nct_id": "NCT03681639",
+          "title": "Zimmer Hip Resurfacing Survival Study",
+          "relevance_grade": "C",
+          "reasoning": "髖關節表面置換存活研究，非鉻補充治療 RA。"
+        },
+        {
+          "nct_id": "NCT01307384",
+          "title": "Continuum Metal on Polyethylene Acetabular System Follow-up",
+          "relevance_grade": "C",
+          "reasoning": "金屬對聚乙烯髖臼系統追蹤研究，非鉻補充治療。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39030450",
+          "title": "Trivalent chromium versus baricitinib for RA: first phase 2/3 randomized trial",
+          "year": "2024",
+          "study_type": "RCT (Phase 2/3)",
+          "tier": "1",
+          "reasoning": "★ 本適應症最關鍵文獻：三價鉻 vs. baricitinib 頭對頭 Phase 2/3 RCT 發表結果（2024年）。需評估主要終點是否達到、不良事件分佈及與 baricitinib 的非劣效/優效結論。此為整個 Chromium 再利用計畫的核心支撐文獻。"
+        },
+        {
+          "pmid": "35829940",
+          "title": "Trivalent chromium supplementation ameliorates adjuvant-induced RA in rats",
+          "year": "2022",
+          "study_type": "Animal Study (in vivo)",
+          "tier": "2",
+          "reasoning": "動物研究支持機轉假說：三價鉻透過上調特定分子路徑改善佐劑誘發關節炎，提供 NCT05545020 的臨床前基礎。"
+        },
+        {
+          "pmid": "3776595",
+          "title": "Chromium, nickel, cadmium in RA patients vs controls",
+          "year": "1986",
+          "study_type": "Case-control",
+          "tier": "2",
+          "reasoning": "RA 患者鉻水平顯著低於健康對照，支持鉻缺乏假說，為治療機轉提供流行病學依據。"
+        },
+        {
+          "pmid": "1153978",
+          "title": "Calcium, magnesium, copper, zinc, lead, chromium in RA patients",
+          "year": "1975",
+          "study_type": "Cross-sectional",
+          "tier": "2",
+          "reasoning": "早期觀察性研究確認 RA 患者鉻異常，雖年代久遠但為多項後續研究奠基。"
+        },
+        {
+          "pmid": "6150232",
+          "title": "Intestinal permeability and inflammation in RA: NSAID effects",
+          "year": "1984",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "RA 腸道通透性研究，間接可能與鉻吸收相關，但非直接鉻補充研究。"
+        },
+        {
+          "pmid": "8215627",
+          "title": "Renal effects of aspirin and methotrexate in RA",
+          "year": "1993",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "RA 傳統藥物腎毒性研究，與鉻補充無直接關聯，作為背景資料。"
+        },
+        {
+          "pmid": "31851875",
+          "title": "Gold: human exposure and toxic risks",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "金製劑治療 RA 的毒性評估，與鉻補充無直接關聯，可作為金屬療法歷史背景參考。"
+        },
+        {
+          "pmid": "300499",
+          "title": "Inhibition of ADCC by sera in RA",
+          "year": "1977",
+          "study_type": "Immunological Study",
+          "tier": "3",
+          "reasoning": "RA 免疫機制研究，年代較久，與鉻無直接關聯。"
+        },
+        {
+          "pmid": "299896",
+          "title": "Gastrointestinal blood loss in RA: aspirin/fenoprofen effects",
+          "year": "1977",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "NSAID 相關 GI 出血研究，與鉻補充無關。"
+        },
+        {
+          "pmid": "5054449",
+          "title": "Arthroplasty of knee in RA and OA: follow-up study",
+          "year": "1972",
+          "study_type": "Retrospective",
+          "tier": "3",
+          "reasoning": "1972 年膝關節置換追蹤，歷史性裝置研究，與鉻補充治療 RA 無關。"
+        }
+      ],
+      "guardrails": [
+        "確認 NCT05545020 主要終點數據及不良事件完整報告（PMID 39030450）",
+        "評估樣本數（N=60）是否足以作為監管申請依據",
+        "區分三價鉻 (Cr³⁺) 與六價鉻的安全性資料（六價鉻為已知致癌物）",
+        "監測腎功能（長期鉻補充的腎臟安全性）",
+        "考慮在亞洲族群進行橋接研究（當前試驗族群需確認）"
+      ],
+      "evidence_summary": "本適應症為 Chromium 再利用中唯一具有直接 RCT 證據的適應症。一個完成的 Phase 2/3 試驗（NCT05545020，N=60）和相應 2024 年發表論文（PMID 39030450）構成 L2 級別證據。動物研究和流行病學觀察（鉻缺乏與 RA 關聯）提供機轉支持。主要限制：樣本量較小，需要更大規模 Phase 3 確認。"
+    },
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.9798,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無可靠機轉假說。TxGNN 信號可能源自知識圖譜中關節疾病節點的非特異性連結。鉻無已知影響尿酸代謝或黃嘌呤氧化酶的機轉。文獻（PMID 40327953）討論的是鎘而非鉻對關節的影響。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40327953",
+          "title": "Cadmium exposure and joint disease review",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "研究對象為鎘（Cadmium），非鉻，被誤納入。"
+        },
+        {
+          "pmid": "8137607",
+          "title": "Efficacy of nutritional supplements used by athletes",
+          "year": "1993",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "運動員營養補充劑綜述，鉻可能被提及，但無痛風相關內容。"
+        },
+        {
+          "pmid": "20357931",
+          "title": "Urate oxidase knockdown and oxidative stress in hepatic cells",
+          "year": "2009",
+          "study_type": "In vitro",
+          "tier": "3",
+          "reasoning": "尿酸酶功能研究，與鉻完全無關。"
+        },
+        {
+          "pmid": "5904280",
+          "title": "Androgens and erythropoiesis in myelofibrosis",
+          "year": "1966",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "骨髓纖維化治療研究，與鉻及痛風均無關聯。"
+        },
+        {
+          "pmid": "14142409",
+          "title": "Familial disorder of uric acid metabolism (Lesch-Nyhan)",
+          "year": "1964",
+          "study_type": "Case Series",
+          "tier": "3",
+          "reasoning": "Lesch-Nyhan 症候群早期描述，與鉻無關。"
+        },
+        {
+          "pmid": "398030",
+          "title": "Pathologic changes in common arthritides and treatment",
+          "year": "1979",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "關節炎病理綜述，與鉻補充無直接關聯。"
+        },
+        {
+          "pmid": "4990190",
+          "title": "Kidney function with radioisotopes in gout",
+          "year": "1970",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "痛風腎功能研究，與鉻無關。"
+        }
+      ],
+      "evidence_summary": "零臨床試驗，7 篇文獻均與鉻補充治療痛風無直接關聯（包括誤納入的鎘研究）。TxGNN 分數高度可疑，建議排除。"
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9795,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉依據。假性軟骨發育不全為 COMP 基因突變引起的骨骼發育不良遺傳病，與鉻代謝無已知交集。TxGNN 信號可能源自知識圖譜中骨骼/軟骨相關節點的遠距路徑連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零試驗，零文獻。純模型預測，無任何臨床或基礎研究依據。不建議進入研究議程。"
+    },
+    {
+      "disease_name": "hepatic porphyria",
+      "txgnn_score": 0.9787,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "四篇文獻均非鉻補充治療肝性紫質症的研究。部分文獻涉及血紅素合成（δ-aminolevulinic acid）與無效紅血球生成，此路徑理論上與鐵代謝相關，但鉻的介入機轉缺乏依據。唯一可能的間接連結：鉻可能影響肝臟酶活性，但無直接紫質症研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "4639027",
+          "title": "Hepatic bilirubin synthesis and delivery to plasma",
+          "year": "1972",
+          "study_type": "Physiological Study",
+          "tier": "3",
+          "reasoning": "膽紅素合成基礎研究，與鉻補充無關。"
+        },
+        {
+          "pmid": "6074003",
+          "title": "CO production with ineffective erythropoiesis",
+          "year": "1967",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "無效紅血球生成的一氧化碳產生研究，與鉻無關。"
+        },
+        {
+          "pmid": "14237001",
+          "title": "Porphyria cutanea tarda with refractory anemia",
+          "year": "1964",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "1964 年紫質症個案，與鉻補充無關。"
+        },
+        {
+          "pmid": "14319615",
+          "title": "Lead poisoning relationship to acute intermittent porphyria",
+          "year": "1965",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "鉛中毒與急性間歇性紫質症的關係，與鉻無關，但提示重金屬可影響卟啉代謝。"
+        }
+      ],
+      "evidence_summary": "零試驗，4 篇文獻均為 1960-1970 年代的血液病/卟啉代謝研究，無一涉及鉻補充治療。不建議進入研究議程。"
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9780,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉依據。短軀幹侏儒症（brachyolmia）為脊椎骨骺發育不良遺傳病，與鉻代謝無已知交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零試驗，零文獻。純模型預測，不建議進入研究議程。"
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9769,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉依據。此為極罕見的眼-骨骼發育症候群，與鉻代謝無已知關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零試驗，零文獻。純模型預測，不建議進入研究議程。"
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9767,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉依據。Hunter-Thompson 型肢端中肢節發育不良為 GDF5/CDMP1 突變引起，與鉻代謝無已知交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零試驗，零文獻。純模型預測，不建議進入研究議程。"
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9758,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉依據。此罕見遺傳症候群同時影響脊椎及牙釉質發育，與鉻代謝無已知關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零試驗，零文獻。純模型預測，不建議進入研究議程。"
+    }
+  ],
+  "overall_assessment": {
+    "priority_indication": "rheumatoid_arthritis",
+    "priority_rationale": "唯一具有完成 Phase 2/3 RCT（NCT05545020）和 2024 年發表論文（PMID 39030450）的適應症，具有明確機轉依據和初步臨床療效信號",
+    "signal_contamination_warning": "本藥物 TxGNN 信號嚴重受到「金屬對金屬人工關節植入物鉻離子監測研究」污染。OA 48 個試驗中估計 >90% 與治療性鉻補充無關。建議在知識圖譜中區分『鉻作為治療劑』與『鉻作為植入物有害副產品』的節點路徑。",
+    "chromium_form_critical_note": "三價鉻 (Cr³⁺) vs. 六價鉻 (Cr⁶⁺) 的安全性截然不同。六價鉻為 IARC Group 1 致癌物，三價鉻為必需微量元素。所有後續研究設計須明確標示鉻的形態和劑量。",
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 1,
+      "L4": 0,
+      "L5": 8
+    },
+    "recommended_next_steps": [
+      "立即：詳細閱讀 PMID 39030450 全文，評估 RA Phase 2/3 試驗主要終點、安全性數據及統計效力",
+      "短期：查詢 NCT00759993（OA Phase 2 試驗）的終止原因（ClinicalTrials.gov 詳細記錄）",
+      "中期：針對 RA 適應症，設計亞洲族群的 Phase 3 確認試驗或橋接研究",
+      "長期：在 TxGNN 知識圖譜中建立金屬離子污染過濾機制，避免植入物監測研究干擾再利用信號"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣總覽
+
+| 適應症 | TxGNN 分數 | 試驗數 | 有效試驗 | 文獻品質 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|---------|---------|---------|---------|------|
+| **Rheumatoid Arthritis** | 0.9854 | 9→**1** | 1 (Phase 2/3 ✅) | Tier 1 存在 | **L2** | **S3** | **Proceed with Guardrails** |
+| Osteoarthritis | 0.9868 | 48→**1** | 1 (Phase 2 ❌終止) | Tier 2-3 | L3 | S1 | **Hold** |
+| OA susceptibility | 0.9854 | 0 | 0 | Tier 3 only | L5 | S0 | Hold |
+| Gout | 0.9798 | 0 | 0 | 不相關 | L5 | S0 | Hold |
+| Hepatic porphyria | 0.9787 | 0 | 0 | 不相關 | L5 | S0 | Hold |
+| 其餘 5 個罕見病 | 0.977x | 0 | 0 | 無文獻 | L5 | S0 | Hold |
+
+> **核心結論**：Chromium 的再利用潛力高度集中於**類風濕性關節炎**，已有 Phase 2/3 RCT 完成並發表。OA 的高 TxGNN 分數是「植入物監測噪音」的典型案例，應作為知識圖譜偏誤校正的教學案例。

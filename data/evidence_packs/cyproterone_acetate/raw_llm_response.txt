@@ -1,0 +1,315 @@
+## Cyproterone Acetate (DB04839) 藥物再利用證據分析
+
+以下為完整分析，重點提示：**三個血栓相關適應症（antithrombin/heparin/factor V）** 及 **migraine with brainstem aura** 均為安全疑慮紅旗；唯一具有實質臨床證據的是 **amenorrhea（PCOS 相關）**。
+
+---
+
+```json
+{
+  "drug": "Cyproterone acetate",
+  "drugbank_id": "DB04839",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "CPA 為強效抗雄激素/孕激素，已知副作用包含 VTE 風險上升、肝毒性及腦膜瘤。所有 thrombophilic 適應症均應優先評估安全矛盾。",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CPA 為孕激素受體強效促效劑，可影響神經類固醇合成途徑（progesterone → allopregnanolone），理論上調節 GABA-A 受體及三叉神經血管敏感性。月經性偏頭痛與黃體素波動相關，CPA 的穩定荷爾蒙濃度效果可能有益，但無直接治療試驗。現有文獻為間接荷爾蒙-偏頭痛關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "12390622",
+          "study_type": "Observational/Clinical",
+          "tier": "2",
+          "note": "停經後荷爾蒙補充與偏頭痛關係，孕激素類型影響偏頭痛頻率，CPA 未直接測試"
+        },
+        {
+          "pmid": "14670648",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "不同孕激素對大腦效應的綜述，神經類固醇機轉探討"
+        },
+        {
+          "pmid": "10857213",
+          "study_type": "Retrospective (adverse effects)",
+          "tier": "3",
+          "note": "CPA 長期副作用觀察，非療效研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全紅旗：有先兆偏頭痛（尤其腦幹先兆，即舊稱基底性偏頭痛）為含雌激素複合荷爾蒙避孕藥的絕對禁忌症（WHO MEC 4 級），因顯著增加缺血性卒中風險。現有 2 篇文獻均為禁忌症/血管風險指引，而非療效證據。此適應症在臨床上應主動排除 CPA 使用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30389542",
+          "study_type": "Clinical Guidelines (CNGOF)",
+          "tier": "2",
+          "note": "法國婦產科學會避孕指引，明確記載先兆偏頭痛為 CPA 禁忌"
+        },
+        {
+          "pmid": "25227335",
+          "study_type": "Review (safety/contraindication)",
+          "tier": "3",
+          "note": "荷爾蒙避孕與血栓及年齡關係，安全性評估而非療效"
+        }
+      ]
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何文獻或臨床試驗支持。機轉假說推測：性激素可調節冠狀動脈平滑肌 α2 腎上腺素受體及內皮素反應，但血管痙攣性心絞痛的病理機轉（冠狀動脈高反應性）與 CPA 抗雄激素/孕激素作用缺乏實質連結。純 AI 預測，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "antithrombin deficiency type 2",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 嚴重安全矛盾：CPA 已知透過降低 Protein S、增加 thrombin 生成及啟動凝血途徑造成 VTE 風險上升（見 thrombophilia 適應症之文獻群）。抗凝血酶缺乏患者本已處於高 VTE 風險，CPA 的促凝效應將造成疊加危害。此為藥物-疾病禁忌，無需進一步研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "heparin cofactor 2 deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全矛盾：Heparin cofactor 2 為 thrombin 抑制物，其缺乏導致血栓前狀態。CPA 促凝血效應（降低 Protein S、增強 thrombin 生成）在此類患者中具潛在致命風險。無任何支持性臨床資料，且機轉分析顯示明確危害方向。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 嚴重禁忌：Factor V 過量（非 Factor V Leiden，而是 Factor V 量增加）導致自發性血栓，CPA 同時增強多個凝血步驟，在此適應症中使用具有高度危害性。現有 thrombophilia 文獻（PMID 29614525, 32342502）已顯示 CPA 與 Factor V Leiden 交互作用可使 VTE 風險乘數倍增。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "此適應症的 20 篇文獻中，多數為癲癇相關研究（PMID 22938964, 22266888, 34575901 等），僅 PMID 33856647 明確探討偏頭痛與癲癇共同遺傳機轉（離子通道、神經炎症）。機轉假說：CPA 的神經類固醇效應（GABA-A 正向調節）可能影響皮質擴散抑制閾值，但此為高度推測性。需排除有先兆偏頭痛患者（卒中風險）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "study_type": "Review (shared mechanisms)",
+          "tier": "3",
+          "note": "偏頭痛與癲癇共同遺傳分子機轉，間接機轉支持"
+        },
+        {
+          "pmid": "34209535",
+          "study_type": "Review (neuroinflammation)",
+          "tier": "3",
+          "note": "神經炎症在癲癇中的作用，機轉間接相關"
+        },
+        {
+          "pmid": "16201993",
+          "study_type": "Basic Science/Review",
+          "tier": "3",
+          "note": "受體重排/離子通道，基礎機轉"
+        },
+        {
+          "pmid": "28086980",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "腦外傷後癲癇的炎症機轉，相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "amenorrhea (disease)",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "CPA 透過強效抗促性腺激素作用（抑制 LH/FSH）及抗雄激素效應（阻斷卵巢雄激素過度分泌），改善 PCOS 相關的 HPO 軸紊亂，恢復規律排卵週期。CPA+EE（Diane-35/Dianette）在歐洲已核准用於 PCOS 相關月經不規則。需注意：CPA 可「造成」功能性閉經（避孕機制之一），故此適應症特指 PCOS/高雄激素相關的月經過少或閉經，而非原發性閉經。",
+      "guardrails": [
+        "排除先天性/解剖性閉經（CPA 無效）",
+        "監測 VTE 風險（尤其 BMI > 30、吸菸者）",
+        "定期肝功能檢查（>6 個月使用）",
+        "長期使用需監測腦膜瘤風險（>25 mg/day）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01103518",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 試驗直接比較兩種 EE+CPA 製劑用於月經不規則，高度切題。狀態標為 UNKNOWN，需核查是否完成並有結果公佈"
+        },
+        {
+          "nct_id": "NCT04831151",
+          "relevance_grade": "B",
+          "reasoning": "比較 CPA vs drospirenone 複合避孕藥對血液學指標的影響（N=42），可提供 CPA 安全性比較資料"
+        },
+        {
+          "nct_id": "NCT02744131",
+          "relevance_grade": "B",
+          "reasoning": "PCOS 女性 OCP（含 CPA）vs Metformin 頭對頭比較，間接支持 CPA 在 PCOS 相關月經異常的療效"
+        },
+        {
+          "nct_id": "NCT02729545",
+          "relevance_grade": "C",
+          "reasoning": "針灸改善 PCOS 卵巢功能 Phase 2 試驗，CPA 僅為對照組，直接相關性低但確認 CPA 為 PCOS 標準對照"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2946604",
+          "study_type": "Multicentre Clinical Trial",
+          "tier": "2",
+          "note": "CPA 治療嚴重多毛症多中心試驗（含 PCOS/閉經族群），療效與安全性數據"
+        },
+        {
+          "pmid": "9130733",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "note": "GnRH agonist + OCP（含 CPA）組合治療，探討 HPO 軸調節"
+        },
+        {
+          "pmid": "6232474",
+          "study_type": "Review (PCOS)",
+          "tier": "3",
+          "note": "PCOS 綜合評述，CPA 為主要提及藥物之一"
+        },
+        {
+          "pmid": "12266391",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "CPA 作為抗雄激素排卵抑制劑的早期評述"
+        },
+        {
+          "pmid": "25961217",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "純孕激素避孕（含 CPA）在複合避孕藥禁忌女性中的應用"
+        }
+      ]
+    },
+    {
+      "disease_name": "breast fibrocystic disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "纖維囊性乳腺病與雌/孕激素失衡及局部雄激素受體活化相關。CPA 的抗雄激素作用理論上可減少乳腺上皮增殖及囊腫形成，孕激素效應可對抗雌激素刺激。PMID 1852100（1991）為最直接相關文獻，探討停經前女性纖維囊性乳腺病的荷爾蒙組織學相關性及治療反應，但 CPA 特異性資料不足。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1852100",
+          "study_type": "Observational/Histohormonal",
+          "tier": "2",
+          "note": "纖維囊性乳腺病荷爾蒙-組織學相關及治療反應，最直接相關文獻"
+        },
+        {
+          "pmid": "10576236",
+          "study_type": "Observational (imaging)",
+          "tier": "3",
+          "note": "HRT 對乳房的乳攝/超音波變化，CPA 為荷爾蒙製劑之一"
+        },
+        {
+          "pmid": "1467664",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "荷爾蒙避孕的利與弊綜述，提及乳腺效應"
+        },
+        {
+          "pmid": "2141702",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "跨性別女性 CPA 治療後乳房影像學變化，間接機轉資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "thrombophilia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 文獻性質完全為「CPA 導致血栓」的安全性資料，而非「CPA 治療血栓傾向」的療效資料。18 篇文獻記錄：CPA 降低 Protein S（24-38%）、增加 thrombin 生成、與 Factor V Leiden 交互作用使 VTE 風險乘數增加、在跨性別女性中觀察到靜脈及動脈血栓事件。此適應症代表的是 TxGNN 圖譜錯誤關聯（藥物副作用路徑被誤認為療效路徑），應標記為模型偽陽性。",
+      "model_artifact_flag": true,
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "15550051",
+          "study_type": "Observational (safety)",
+          "tier": "2",
+          "note": "CPA vs drospirenone 使用者促凝血變化比較，安全性"
+        },
+        {
+          "pmid": "24634164",
+          "study_type": "Cohort (pharmacovigilance)",
+          "tier": "2",
+          "note": "2012 年法國 CPA 使用者血栓栓塞事件藥物警戒報告"
+        },
+        {
+          "pmid": "29614525",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "複合避孕藥類型 × Factor V Leiden 基因型 × VTE 風險交互分析"
+        },
+        {
+          "pmid": "32342502",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "遺傳風險因子與不同 OCP 類型對 VTE 的聯合效應"
+        },
+        {
+          "pmid": "18064335",
+          "study_type": "Clinical (thrombin generation assay)",
+          "tier": "2",
+          "note": "CAT 法量化 CPA 對 thrombin 生成的影響，機轉研究"
+        },
+        {
+          "pmid": "14671159",
+          "study_type": "Cohort (transgender)",
+          "tier": "2",
+          "note": "跨性別者 CPA 荷爾蒙治療期間凝血變化及靜脈血栓事件"
+        },
+        {
+          "pmid": "19340712",
+          "study_type": "Case Report/Pharmacovigilance",
+          "tier": "3",
+          "note": "CPA+EE 避孕藥作為上肢靜脈血栓危險因子的個案報告"
+        },
+        {
+          "pmid": "24438944",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "甲狀腺功能、活化蛋白 C 抵抗與荷爾蒙避孕使用者 VTE 風險"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|----------|----------|------|----------|
+| amenorrhea (PCOS 相關) | **L3** | S2 | ✅ Proceed with Guardrails | Phase 4 試驗 + 多中心臨床資料，PCOS 公認療法 |
+| migraine disorder | L4 | S1 | 🔬 Research Question | 間接荷爾蒙-偏頭痛文獻，需設計前瞻研究 |
+| migraine w/ or w/o aura (susceptibility) | L4 | S1 | 🔬 Research Question | 偏頭痛/癲癇共同機轉文獻，高推測性 |
+| breast fibrocystic disease | L4 | S1 | 🔬 Research Question | 荷爾蒙機轉合理，直接療效資料不足 |
+| **migraine with brainstem aura** | **L5** | **S0** | 🚫 **Hold** | **明確禁忌症（WHO MEC 4）** |
+| **thrombophilia** | **L5** | **S0** | 🚫 **Hold** | **文獻全為 CPA 致血栓安全警示（模型偽陽性）** |
+| **antithrombin deficiency type 2** | **L5** | **S0** | 🚫 **Hold** | **藥物-疾病安全矛盾，致命風險** |
+| **heparin cofactor 2 deficiency** | **L5** | **S0** | 🚫 **Hold** | **促凝藥物用於抗凝缺乏，嚴重禁忌** |
+| **factor 5 excess / spontaneous thrombosis** | **L5** | **S0** | 🚫 **Hold** | **加倍 VTE 風險，藥物-疾病禁忌** |
+| Prinzmetal angina | L5 | S0 | 🚫 Hold | 純 AI 預測，無機轉支持，無資料 |
+
+> **模型品質注意**：`thrombophilia` 及三個血栓相關適應症的高 TxGNN score（0.99+）很可能源於 KG 中 CPA→VTE 的**副作用路徑**被誤學習為再利用信號，建議在 KG 建構階段區分「治療關係」與「副作用關係」邊。

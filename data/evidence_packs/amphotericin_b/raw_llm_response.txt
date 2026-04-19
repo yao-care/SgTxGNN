@@ -1,0 +1,225 @@
+## Amphotericin B (DB00681) 藥物再利用證據分析
+
+分析完成，以下為 10 個適應症的完整評估結果：
+
+```json
+{
+  "drug": "Amphotericin B",
+  "drugbank_id": "DB00681",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "本藥市場狀態標注為「未上市」，original_moa 為 Data Gap，但 AmB 為多烯類廣效抗真菌藥物（靶向真菌麥角固醇破壞細胞膜），全球廣泛用於侵襲性真菌感染。多個適應症涉及 KG 節點語義漂移（bacterial → fungal），評估時已逐一標注。",
+  "indications": [
+    {
+      "disease_name": "chronic rhinosinusitis",
+      "evidence_level": "L1",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "假說認為部分 CRS 由 Alternaria 等真菌誘導嗜酸性球炎症驅動（Mayo Clinic 真菌假說），AmB 局部鼻腔沖洗可清除真菌觸發源以減輕黏膜炎症。然而此機轉假說已受多項 Phase 3 RCT 及 meta-analysis 挑戰，現有臨床結果呈現混合/陰性效益。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00425620",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心 RCT，雙盲安慰劑對照，300 名 CRS 患者，已完成。直接評估鼻內 AmB 沖洗療效，為本適應症最高等級試驗證據。與多篇 meta-analysis 中納入的 RCT 研究同屬本適應症核心試驗群。"
+        },
+        {
+          "nct_id": "NCT03935828",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 研究已 WITHDRAWN，入組 0 人，研究聚焦術後急性惡化 CRS 抗生素使用而非 AmB 專一評估，無實際數據貢獻。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "25217082", "study_type": "Meta-analysis (n=9 RCTs)", "tier": "1"},
+        {"pmid": "22287428", "study_type": "Meta-analysis", "tier": "1"},
+        {"pmid": "30199594", "study_type": "Cochrane Systematic Review", "tier": "1"},
+        {"pmid": "18284860", "study_type": "RCT (無鼻息肉 CRS)", "tier": "1"},
+        {"pmid": "17088142", "study_type": "RCT (陰性結果)", "tier": "1"},
+        {"pmid": "31763315", "study_type": "RCT (三藥比較)", "tier": "1"},
+        {"pmid": "31358093", "study_type": "Clinical Study (鼻息肉)", "tier": "2"},
+        {"pmid": "18197021", "study_type": "Clinical Review", "tier": "2"}
+      ],
+      "key_finding": "⚠️ L1 但效益存疑：meta-analysis（PMID 25217082, 22287428）結論為局部 AmB 對 CRS 無顯著療效，尤其無鼻息肉型；可能在過敏性真菌性鼻竇炎（AFS）亞族群有潛在效益，需分層研究。"
+    },
+    {
+      "disease_name": "endocarditis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "AmB 對 Candida（含生物膜）及 Fusarium 等真菌具廣效殺真菌活性，可穿透心臟瓣膜植入物相關生物膜，為真菌性心內膜炎標準治療之一，已獲 ESCMID 2012 指引推薦（脂質體製劑優先）。無 RCT 主要因倫理限制（稀少致命病症），以系統性回顧與指引代替。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "33118745", "study_type": "Systematic Review (Candida 心內膜炎)", "tier": "1"},
+        {"pmid": "23137135", "study_type": "ESCMID Clinical Practice Guideline 2012", "tier": "1"},
+        {"pmid": "40490193", "study_type": "Contemporary Review 2026", "tier": "2"},
+        {"pmid": "24126720", "study_type": "Review (真菌性心內膜炎)", "tier": "2"},
+        {"pmid": "15545866", "study_type": "Case Report (Fusarium)", "tier": "3"},
+        {"pmid": "9374975", "study_type": "Experimental (動物模型)", "tier": "3"},
+        {"pmid": "14175539", "study_type": "Historical Case Series (1964)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "bacterial arthritis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ KG 適應症標注偏差警告：所有 20 篇文獻實際描述真菌性關節炎（Candida、Aspergillus、Blastomyces、Coccidioides、Histoplasma 等），而非細菌性關節炎。AmB 對細菌完全無殺菌機轉。若重新標注為「fungal arthritis / septic arthritis (fungal etiology)」，則 L3 等級有效，機轉為關節腔抗真菌穿透（特別是脂質體製劑）。建議修正適應症標注後重新評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "16297735", "study_type": "Review (真菌性關節炎/骨髓炎)", "tier": "2"},
+        {"pmid": "32213145", "study_type": "Review (骨關節真菌感染/免疫缺陷)", "tier": "2"},
+        {"pmid": "31345844", "study_type": "Case Study (棘白菌素抗藥性 Candida)", "tier": "3"},
+        {"pmid": "8263628", "study_type": "Case Report (Candida 關節炎)", "tier": "3"},
+        {"pmid": "1059760", "study_type": "Case Report (Candida 關節炎)", "tier": "3"},
+        {"pmid": "24502270", "study_type": "Preclinical (緩釋製劑)", "tier": "3"},
+        {"pmid": "15216961", "study_type": "Case Report (Aspergillus 關節炎)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "chronic ethmoidal sinusitis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "篩竇侵襲性真菌性鼻竇炎（mucormycosis、Aspergillus、Bipolaris、Curvularia、Penicillium 等）的多個案例系列顯示 AmB 聯合外科清創的治療效益，機轉為廣效抗真菌活性加局部清創輔助。篩竇解剖結構複雜（眼眶/顱底毗鄰），侵襲性感染死亡率高，AmB 為首選。與慢性鼻竇炎（非真菌性）應嚴格區分。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "17701590", "study_type": "Case Series (5 血液病患者)", "tier": "3"},
+        {"pmid": "8093116", "study_type": "Case Report (脂質體 AmB)", "tier": "3"},
+        {"pmid": "36274521", "study_type": "Case Report (Curvularia, 2023)", "tier": "3"},
+        {"pmid": "35186287", "study_type": "Case Report (COVID-19 相關)", "tier": "3"},
+        {"pmid": "9854089", "study_type": "Case Report (Metarrhizium)", "tier": "3"},
+        {"pmid": "3523112", "study_type": "Case Series (Bipolaris/Exserohilum)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "bacterial pneumonia",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 嚴重適應症不符：AmB 為抗真菌藥物，對細菌無任何直接作用機轉。三項臨床試驗（NCT05468372：肺部 mucormycosis；NCT04157465：肝衰竭真菌感染；NCT06267326：COVID-19 相關 mucormycosis）及所有文獻均針對真菌性肺炎（cryptococcosis、aspergillosis、blastomycosis、histoplasmosis），而非細菌性肺炎。高 TxGNN 分數推測源於肺部感染相關 KG 節點結構鄰近性造成的錯誤映射。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05468372",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 RCT 評估 AmB vs posaconazole 治療肺部 mucormycosis，50 人，招募中。研究適應症為真菌性肺部感染，非細菌性肺炎；為最具直接 AmB 肺部用藥參考意義的試驗，但適應症不符合標注。"
+        },
+        {
+          "nct_id": "NCT04157465",
+          "relevance_grade": "C",
+          "reasoning": "NA phase，評估肝衰竭患者中早期 vs 搶先抗真菌治療，216 人，已完成。研究族群（急性慢性肝衰竭）及適應症均不符合細菌性肺炎。"
+        },
+        {
+          "nct_id": "NCT06267326",
+          "relevance_grade": "C",
+          "reasoning": "COVID-19 相關鼻眼腦 mucormycosis 案例系列，35 人，已完成。地域性（埃及）且適應症不符合細菌性肺炎。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38154471", "study_type": "Review (慢性肺部 Aspergillosis)", "tier": "2"},
+        {"pmid": "30329097", "study_type": "Review (肺部 Cryptococcosis)", "tier": "2"},
+        {"pmid": "18365999", "study_type": "Review (肺部 Blastomycosis)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ KG 標注疑義：12 篇文獻全部描述鼻竇真菌感染（mucormycosis、aspergillosis）而非鼻竇腫瘤（neoplasm）。AmB 無已知抗腫瘤機轉。唯一半相關文獻（PMID 10340559）描述肺癌合併眼球突出鑑別診斷，並非抗腫瘤治療依據。高 TxGNN 分數推測源於 KG 中鼻竇相關病理節點的結構鄰近性，非實際藥物-腫瘤生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "31181136", "study_type": "Systematic Review (小兒 Mucormycosis)", "tier": "2"},
+        {"pmid": "30338581", "study_type": "Retrospective Study (癌童 Mucormycosis)", "tier": "2"},
+        {"pmid": "27832748", "study_type": "Epidemiologic Study (小兒 Mucormycosis)", "tier": "2"},
+        {"pmid": "23058177", "study_type": "Surgical Case Series", "tier": "3"},
+        {"pmid": "7689184", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "pneumocystosis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉性禁忌：Pneumocystis jirovecii 雖分類為真菌，但其細胞壁不含麥角固醇（AmB 的唯一作用靶點），故 AmB 對 PCP 在藥理上無效。標準治療為 TMP-SMX。所有文獻中 AmB 提及均針對免疫缺陷患者的共感染（Cryptococcus、Candida），而非 PCP 本身。ATS 指引（PMID 21193785）亦未推薦 AmB 用於 PCP。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "21193785", "study_type": "ATS Official Statement/Guideline", "tier": "1"},
+        {"pmid": "41567111", "study_type": "Review (ICU 抗真菌策略, 2026)", "tier": "2"},
+        {"pmid": "28774701", "study_type": "Review (HIV 真菌感染)", "tier": "2"},
+        {"pmid": "30508854", "study_type": "Review (機會性感染)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "meningococcal infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "根本機轉不符：腦膜炎雙球菌（Neisseria meningitidis）為革蘭氏陰性細菌，AmB 對其完全無殺菌活性（AmB 靶向麥角固醇，細菌無此成分）。5 篇文獻中：2 篇為 1960-70 年代廣義腦膜炎治療歷史文獻；1 篇描述 AmB 鞘內注射頭痛副作用；1 篇為內臟利什曼病 AmB 治療；1 篇為肺部病灶合併腦膜炎案例。KG 分數源於「腦膜炎」語義節點聚集造成的語義漂移。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "4944736", "study_type": "Historical Review 1969 (廣義腦膜炎)", "tier": "3"},
+        {"pmid": "6036959", "study_type": "Case Report (AmB 鞘內注射副作用)", "tier": "3"},
+        {"pmid": "5455302", "study_type": "Case Report 1970", "tier": "3"},
+        {"pmid": "11105143", "study_type": "RCT (內臟利什曼病，非腦膜炎)", "tier": "1"}
+      ]
+    },
+    {
+      "disease_name": "endocardial fibroelastosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉關聯：心內膜彈力纖維增生症（EFE）為罕見小兒心臟疾病，病因涉及病毒感染（腮腺炎、流感病毒）、遺傳異常（Barth syndrome、Danon disease）或自體免疫，與真菌感染無直接病因關聯。無任何文獻或臨床試驗支持 AmB 用於 EFE。TxGNN 分數（0.936）為純粹演算法預測，推測源於知識圖譜中心臟結構節點的間接連結，無任何臨床基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "點狀上皮角膜結膜炎（PEK）通常由腺病毒感染、乾眼症、藥物毒性或眼瞼異常引起，真菌感染非主要病因。唯一文獻（PMID 1096003, 1975 年）為 50 年前歷史性描述外眼炎症中的酵母菌存在，不構成有效治療依據。值得注意的是局部 AmB 滴眼液確實用於真菌性角膜炎（fungal keratitis），但此為不同疾病實體，需區分。本適應症不宜推進。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "1096003", "study_type": "Historical Case Observation 1975", "tier": "3"}
+      ]
+    }
+  ],
+  "summary": {
+    "L1": ["chronic rhinosinusitis"],
+    "L2": [],
+    "L3": ["endocarditis", "bacterial arthritis*", "chronic ethmoidal sinusitis"],
+    "L4": ["bacterial pneumonia*", "paranasal sinus neoplasm*", "pneumocystosis", "punctate epithelial keratoconjunctivitis"],
+    "L5": ["meningococcal infection", "endocardial fibroelastosis"],
+    "proceed_with_guardrails": ["endocarditis"],
+    "research_question": ["chronic rhinosinusitis", "bacterial arthritis (re-label as fungal arthritis)", "chronic ethmoidal sinusitis"],
+    "hold": ["bacterial pneumonia", "paranasal sinus neoplasm", "pneumocystosis", "meningococcal infection", "endocardial fibroelastosis", "punctate epithelial keratoconjunctivitis"],
+    "kg_artifact_flag": ["bacterial arthritis", "bacterial pneumonia", "paranasal sinus neoplasm", "meningococcal infection"],
+    "annotation": "標記 * 者表示 KG 適應症標注可能存在 bacterial/fungal 分類漂移，建議重新映射適應症後再評估。"
+  }
+}
+```
+
+---
+
+## 關鍵發現摘要
+
+### 🟢 優先推進適應症
+
+| 適應症 | 等級 | 建議 | 核心依據 |
+|--------|------|------|----------|
+| **Fungal Endocarditis** | L3 | Proceed with Guardrails | ESCMID 指引 + 系統性回顧；倫理上無法 RCT |
+| **Chronic Rhinosinusitis** | L1 | Research Question | Phase 3 RCT 完成（300人）但 meta-analysis 效益存疑，建議針對 AFS 亞族群分層研究 |
+| **Chronic Ethmoidal Sinusitis** | L3 | Research Question | 侵襲性真菌性篩竇炎案例系列支持 |
+
+### 🔴 KG 映射偏差警告（4個適應症）
+
+以下適應症的文獻證據實際描述的是**真菌感染**而非標注的**細菌感染/腫瘤**，建議修正知識圖譜節點標注：
+
+- **bacterial arthritis** → 應為 **fungal arthritis**（L3 有效）
+- **bacterial pneumonia** → 應為 **fungal pneumonia / pulmonary mucormycosis**
+- **paranasal sinus neoplasm** → 實為鼻竇真菌感染（mucormycosis）
+- **meningococcal infection** → 語義漂移自 cryptococcal meningitis
+
+### ⚫ 機轉性排除（不建議推進）
+
+- **Pneumocystosis**：P. jirovecii 不含麥角固醇，AmB 藥理上無效
+- **Endocardial fibroelastosis**：無任何機轉關聯，純 KG 結構預測
+- **Punctate epithelial keratoconjunctivitis**：僅 1 篇 50 年前歷史文獻

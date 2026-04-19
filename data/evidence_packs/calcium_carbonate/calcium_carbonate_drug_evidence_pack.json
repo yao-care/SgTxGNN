@@ -1,0 +1,2627 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06724-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Calcium carbonate",
+    "drugbank_id": "DB06724",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "calcium-alkali syndrome",
+      "txgnn": {
+        "score": 0.9316005110740662,
+        "rank": 30335
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01622673",
+            "title": "A Study to Evaluate the Effect of Metal Cation-Containing Antacids on Raltegravir Pharmacokinetics in HIV-Infected Subjects on a Stable Raltegravir-Containing Regimen",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2012-06",
+            "completion_date": "2012-10",
+            "brief_summary": "This study will evaluate: (1) the effect of co-administration of single doses of calcium carbonate antacid and magnesium/aluminum hydroxide antacid on the steady-state plasma pharmacokinetic profile of raltegravir in human immunodeficiency virus (HIV)-infected participants; and (2) the effect of staggered dosing of a single dose of a magnesium/aluminum hydroxide antacid 2 hours before and 2 hours after administration of raltegravir on the steady-state plasma pharmacokinetic profile of raltegravi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 研究評估金屬陽離子制酸劑對 Raltegravir 藥動學的影響，並非針對 CAS 治療，與本適應症完全無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33732556",
+            "title": "Calcium-Alkali Syndrome: Historical Review, Pathophysiology and Post-Modern Update.",
+            "authors": [
+              "Zayed Randa F",
+              "Millhouse Paul W",
+              "Kamyab Farnaz",
+              "Ortiz Juan Fernando",
+              "Atoot Adam"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Milk-alkali syndrome or calcium-alkali syndrome (CAS) is the triad of hypercalcemia, metabolic alkalosis and renal impairment. It is often related to ingestion of high amounts of calcium carbonate, which was used historically for the treatment of peptic ulcer disease. The incidence of the syndrome decreased dramatically after the introduction of newer peptic ulcer medications such as proton pump inhibitors and histamine blocking agents. However, a resurgence was seen in the late 1980s with the w",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26260640",
+            "title": "Identification, Treatment, and Prevention of Calcium-Alkali Syndrome in Elderly Patients.",
+            "authors": [
+              "Malcolm O'Neal T"
+            ],
+            "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+            "year": "2015",
+            "abstract": "To guide pharmacists in identifying geriatric patients at risk, and providing education on the prevention and monitoring of calcium-alkali syndrome.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23543983",
+            "title": "The calcium-alkali syndrome.",
+            "authors": [
+              "Arroyo Mariangeli",
+              "Fenves Andrew Z",
+              "Emmett Michael"
+            ],
+            "journal": "Proceedings (Baylor University. Medical Center)",
+            "year": "2013",
+            "abstract": "The milk-alkali syndrome was a common cause of hypercalcemia, metabolic alkalosis, and renal failure in the early 20th century. It was caused by the ingestion of large quantities of milk and absorbable alkali to treat peptic ulcer disease. The syndrome virtually vanished after introduction of histamine-2 blockers and proton pump inhibitors. More recently, a similar condition called the calcium-alkali syndrome has emerged as a common cause of hypercalcemia and alkalosis. It is usually caused by t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38784190",
+            "title": "Calcium-alkali syndrome as a rare cause of severe hypercalcemia requiring dialysis in early twin gestation.",
+            "authors": [
+              "Beamish P",
+              "Mansour C",
+              "Druce I",
+              "O'Meara P"
+            ],
+            "journal": "Obstetric medicine",
+            "year": "2024",
+            "abstract": "Hypercalcemia is rare in women of child-bearing age, and most cases are due to primary hyperparathyroidism. A 28-year-old woman, 14 weeks pregnant with dichorionic diamniotic twins, presented to hospital with vomiting, muscle cramps, and weakness. She had been taking calcium carbonate for gastric reflux and nausea from 5 weeks of gestation. Investigations revealed severe hypercalcemia, metabolic alkalosis, and renal injury. She was transferred to intensive care, receiving fluid resuscitation and",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41444901",
+            "title": "Too much of a good thing: OTC calcium carbonate overdose causing milk-alkali syndrome in a psychiatric patient.",
+            "authors": [
+              "She Alexandra",
+              "Bhutia Sangay",
+              "Jenney Francis E"
+            ],
+            "journal": "Annals of general psychiatry",
+            "year": "2025",
+            "abstract": "In the United States, milk-alkali syndrome or calcium-alkali syndrome is the third most common cause of hypercalcemia, after primary hyperparathyroidism and malignancy. Clinically, patients present with a triad of hypercalcemia, acute kidney injury, and metabolic alkalosis. Classically, it has been associated with excessive intake of calcium and absorbable alkali, and recently it has become more common in postmenopausal females who ingest calcium supplements for osteoporosis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33178509",
+            "title": "Calcium Alkali Thiazide Syndrome: What We Need to Know.",
+            "authors": [
+              "Rehan Mehboob A",
+              "Rashid Asma",
+              "Krell Kenneth",
+              "Gabutti Cristina",
+              "Singh Reema"
+            ],
+            "journal": "Cureus",
+            "year": "2020",
+            "abstract": "Depending on each institution's laboratory test, mean serum calcium levels range between 8.8 and 10.8 mg/dL and hypercalcemia is defined as two standard deviations above the mean. According to recent epidemiological studies, 90% of cases of hypercalcemia are due to hyperparathyroidism or malignancy. Milk Alkali syndrome (MAS) also known as Calcium Alkali syndrome (CAS) is the third biggest cause of hypercalcemia, but its incidence seems to be higher than previously thought. Here we present a cas",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33842126",
+            "title": "Calcium Alkali Syndrome Treated With Hemodialysis.",
+            "authors": [
+              "Parker Barbara M"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Malignancy, primary hyperparathyroidism, and vitamin D intoxication are the most common causes of hypercalcemia. Symptoms of hypercalcemia are nonspecific and require a plasma calcium level to diagnose. Undiagnosed hypercalcemia can cause renal failure long-term. Here, we describe a unique case of hypercalcemia resulting in acute kidney injury (AKI) secondary to overconsumption of calcium carbonate (Tums).",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36712775",
+            "title": "Calcium Carbonate (Tums)-Associated Hypercalcemic Crisis.",
+            "authors": [
+              "Jain Hanish",
+              "Murali Sindhubarathi",
+              "Singh Garima",
+              "Amzuta Ioana"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "Hypercalcemic crisis due to severe decompensated hypercalcemia represents a life-threatening medical emergency leading to renal failure and altered mental status. Hypercalcemic crisis most commonly results from hypercalcemia of malignancy, undiagnosed primary hyperparathyroidism, granulomatous diseases, and medication-induced hypercalcemia. Commonly prescribed medications like thiazide diuretics, lithium therapy, and teriparatide are among the medications known to cause hypercalcemia. Here, we d",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38404648",
+            "title": "Severe Hypercalcemia Caused by Calcium-Alkali Syndrome after 15 Years of Postoperative Hypoparathyroidism in a Patient with Undiagnosed Hyperaldosteronism.",
+            "authors": [
+              "Boufleuer Natália Diel",
+              "Rados Dimitris V",
+              "Zambonato Tatiana",
+              "Maraschin Clara K",
+              "Schaan Beatriz D"
+            ],
+            "journal": "Case reports in endocrinology",
+            "year": "2024",
+            "abstract": "The triad of hypercalcemia, metabolic alkalosis, and acute kidney injury associated with ingesting high doses of calcium and absorbable bases characterizes the calcium-alkali syndrome. Clinical Case. We report the case of a patient with postthyroidectomy hypoparathyroidism 15 years ago due to differentiated thyroid cancer who presented with severe hypercalcemia. He had adequate control of calcemia for many years on treatment with calcitriol and calcium carbonate and hypertension treated with aml",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32675162",
+            "title": "Lessons of the month: Over-the-counter antacids causing hypercalcaemia: The emergence of calcium-alkali syndrome.",
+            "authors": [
+              "Maarouf Amro",
+              "Jones Sharon"
+            ],
+            "journal": "Clinical medicine (London, England)",
+            "year": "2020",
+            "abstract": "We present the case of a woman who was found to have severe hypercalcaemia, staghorn calculus formation and renal impairment from the long-standing ingestion of calcium carbonate antacids from a supermarket outlet. The dosage was reported to be approximately 1,800 mg of elemental calcium each day which would constitute only a marginal increase on the recommended intake for daily elemental calcium. Furthermore, she was concomitantly taking a prescribed anti-hypertensive medication that may have e",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21954111",
+            "title": "Calcium-alkali syndrome in post-surgical hypoparathyroidism.",
+            "authors": [
+              "Fernández-García M",
+              "Vázquez L",
+              "Hernández J L"
+            ],
+            "journal": "QJM : monthly journal of the Association of Physicians",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21592535",
+            "title": "[Calcium-alkali syndrome: update of an old clinical problem].",
+            "authors": [
+              "Fernández García Magdalena",
+              "Riancho Moral José A",
+              "Hernández Hernández José Luis"
+            ],
+            "journal": "Medicina clinica",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25874082",
+            "title": "Hypercalcemic crisis induced by calcium carbonate.",
+            "authors": [
+              "Singh Ashutosh",
+              "Ashraf Ambika"
+            ],
+            "journal": "Clinical kidney journal",
+            "year": "2012",
+            "abstract": "We report a rare case of drug-induced hypercalcemic crisis in an elderly male resulting from calcium-containing supplements facilitated by thiazide diuretic and angiotensin-converting enzyme inhibitor. A 61-year-old male presented with hypercalcemic crisis along with renal insufficiency and metabolic alkalosis, mimicking the 'calcium-alkali syndrome'. The patient responded to aggressive intravenous hydration along with emergent hemodialysis and salmon calcitonin. He did not have hyperparathyroid",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23074554",
+            "title": "No more milk in milk-alkali syndrome: a case report.",
+            "authors": [
+              "Almusawi Ali",
+              "Alhawaj Shurooq",
+              "Al-Mousawi Mohammed",
+              "Dashti Tareq"
+            ],
+            "journal": "Oman medical journal",
+            "year": "2012",
+            "abstract": "This is a case of Milk-AlKali syndrome in a patient who presented with the classical triad of hypercalcemia, metabolic alkalosis and renal impairment. The source of calcium was over-the-counter calcium-containing antacid (Tums®). Milk-alkali syndrome was first recognized secondary to treatment of peptic ulcer disease with milk and absorbable alkali. Its incidence fell after the introduction of H2-blocker and proton pump inhibitor. However, it is one of the leading causes of hypercalcemia nowaday",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41641300",
+            "title": "The Hidden Threat of Antacid Overuse: A Case of Severe, Slow-Burning Hypercalcemia (Serum Calcium of 22.8 mg/dl).",
+            "authors": [
+              "Shanthosh Kumar Sandhya",
+              "Yasnain Sani",
+              "Tanveer Saira",
+              "Manivannan Niveditha"
+            ],
+            "journal": "AACE endocrinology and diabetes",
+            "year": "2026",
+            "abstract": "Severe hypercalcemia presents with significant symptoms and life-threatening systemic effects. This case report highlights a rare presentation of severe hypercalcemia due to milk-alkali syndrome (MAS) with surprisingly mild symptoms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22073517",
+            "title": "Multiple myeloma with hypercalcemia and chloride resistant metabolic alkalosis.",
+            "authors": [
+              "Alshayeb Hala",
+              "Patel Vikul",
+              "Naseer Adnan",
+              "Mangold Therese A",
+              "Wall Barry M"
+            ],
+            "journal": "Tennessee medicine : journal of the Tennessee Medical Association",
+            "year": "2011",
+            "abstract": "This report describes a novel presentation of chloride resistant metabolic alkalosis in a patient with hypercalcemia related to Multiple Myeloma (MM). A 51-year-old male with newly diagnosed MM presented with widespread skeletal involvement, calcium (Ca(+2)) of 18 mg/dL, phosphorous (PO4) of 6 mg/dL, serum bicarbonate (HCO3) of 37 mEq/L, and serum creatinine (Cr) of 2.6 mg/dL Other causes of metabolic alkalosis such as vomiting, diuretics, alkali ingestion, mineralocorticoid excess and hypokalem",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過量攝入 CaCO₃（常見於骨質疏鬆補鈣或制酸劑誤用）→ 高鈣血症 → 腎鈣鹽沉積 → GFR 下降 → 碳酸鹽積累 → 代謝性鹼中毒惡化回路。此為 CAS 發病機制，CaCO₃ 是病因而非解藥。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "primary bone dysplasia with defective bone mineralization",
+      "txgnn": {
+        "score": 0.930780589580536,
+        "rank": 30502
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉合理：CaCO₃ 提供鈣離子 → 補充礦化所需底質 → 骨基質鈣化。骨礦化缺陷（如低磷酸酶症、X-linked 低磷血症）在嚴重缺鈣時可考慮鈣補充為輔助。然而此為 TxGNN 預測推論，缺乏任何直接臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "gout",
+      "txgnn": {
+        "score": 0.8184880614280701,
+        "rank": 40948
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8194428",
+            "title": "Crystals and arthritis.",
+            "authors": [
+              "McCarty D J"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1994",
+            "abstract": "Monosodium urate, calcium pyrophosphate dihydrate, and basic calcium phosphate (carbonate-substituted hydroxyapatite and octacalcium phosphate) crystal aggregates are associated with gout, pseudogout, and cartilage degeneration (osteoarthritis, Milwaukee Shoulder/Knee Syndrome), respectively. Hyperuricemia is a frequent but nonspecific and inconstant feature of gout just as an elevated synovial fluid inorganic pyrophosphate level is an inconstant feature of pseudogout. Monosodium urate, calcium ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36199773",
+            "title": "Surgical Treatment of Hand and Foot Gout Stone and Influence Factors on Prognosis.",
+            "authors": [
+              "Qiu Xudong",
+              "Zhao Bo",
+              "Du Xingxu",
+              "Jin Shuo",
+              "Zhao Weiyan"
+            ],
+            "journal": "Computational and mathematical methods in medicine",
+            "year": "2022",
+            "abstract": "To explore the technique of surgical treatment of hand and foot gout stone by using 3D CT reconstruction images and influence factors on prognosis.",
+            "classification": {
+              "study_type": "Retrospective",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5595740",
+            "title": "[\"Calcium gout\"].",
+            "authors": [
+              "Börner H",
+              "Ewald H O"
+            ],
+            "journal": "Deutsche Zeitschrift fur Verdauungs- und Stoffwechselkrankheiten",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33360232",
+            "title": "Management of calcium pyrophosphate crystal deposition disease: A systematic review.",
+            "authors": [
+              "Parperis Konstantinos",
+              "Papachristodoulou Eleni",
+              "Kakoullis Loukas",
+              "Rosenthal Ann K"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2021",
+            "abstract": "Calcium pyrophosphate crystal deposition disease (CPPD) is a common cause of acute and chronic arthritis, especially in the elderly population. There is a paucity of data regarding the management of CPPD disease, which is currently based on expert opinion and evidence derived from the treatment of gout. We conducted a systematic literature review in order to identify the available treatment options for CPPD, and describe their efficacy and safety.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31669757",
+            "title": "The evolutionary hypothesis of benign paroxysmal positional vertigo.",
+            "authors": [
+              "Han Dong-Gyun",
+              "Kim Dong-Jun"
+            ],
+            "journal": "Medical hypotheses",
+            "year": "2020",
+            "abstract": "Human otoliths, primarily formed from salts of calcium and carbonate, are different from bones of the skeleton, which are composed of calcium phosphate. The echinoderms, which share the earliest common ancestor with us, began to protect the body by making an endoskeleton out of calcium and carbon dioxide dissolved in the sea. In subsequent vertebrates, aerobic respiration supported strong muscle activity, but an occasional shortage of oxygen led to low pH due to the accumulation of lactate produ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12649987",
+            "title": "[Pathophysiology, diagnosis and conservative therapy of non-calcium kidney calculi].",
+            "authors": [
+              "Hochreiter W",
+              "Knoll Th",
+              "Hess B"
+            ],
+            "journal": "Therapeutische Umschau. Revue therapeutique",
+            "year": "2003",
+            "abstract": "While calcium oxalate and calcium phosphate make up at least 80% of all kidney stones, infection-induced and uric acid stones occur in 10% and 8%, respectively. Although any type of stone may become infected, the term \"infection stones\" means that stone formation exclusively depends on urease-producing bacteria. The splitting of urea leads to a rise in urinary pH which may induce crystallization of struvite (magnesium-ammonium-phosphate), the major constituent of infection stones, or carbonate a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27456700",
+            "title": "Evaluation of potential drug- drug interactions among Palestinian hemodialysis patients.",
+            "authors": [
+              "Al-Ramahi Rowa'",
+              "Raddad Afnan R",
+              "Rashed Alaa O",
+              "Bsharat Amneh",
+              "Abu-Ghazaleh Dania"
+            ],
+            "journal": "BMC nephrology",
+            "year": "2016",
+            "abstract": "The aims of this study are to find the prevalence of potential drug-drug interactions (DDIs) in patients with Hemodialysis and identify factors associated with these interactions if present.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30748125",
+            "title": "Effects of Food and Antacids on Pharmacokinetics and Pharmacodynamics of Lesinurad, a Selective Urate Reabsorption Inhibitor.",
+            "authors": [
+              "Shen Zancong",
+              "Lee Caroline A",
+              "Valdez Shakti",
+              "Yang Xiaojuan",
+              "Wilson David M"
+            ],
+            "journal": "Clinical pharmacology in drug development",
+            "year": "2019",
+            "abstract": "Two clinical studies were performed in healthy volunteers to investigate food and antacid effects on lesinurad, a novel selective uric acid reabsorption inhibitor approved for treatment of hyperuricemia associated with gout in combination with xanthine oxidase inhibitors. Study 1 evaluated a high-fat, high-calorie meal or high doses of antacids (3000 mg calcium carbonate or 1600 mg magnesium hydroxide/1600 mg aluminum hydroxide) on the pharmacokinetics (PK) and pharmacodynamics (PD) of 400 mg or",
+            "classification": {
+              "study_type": "Pharmacokinetic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26347256",
+            "title": "Paleopathology and Nutritional Analysis of a South German Monastery Population.",
+            "authors": [
+              "Nerlich Andreas G",
+              "Riepertinger Alfred",
+              "Gillich Ralph",
+              "Panzer Stephanie"
+            ],
+            "journal": "BioMed research international",
+            "year": "2015",
+            "abstract": "The monastery of Attel, Upper Bavaria, which was founded in AD 1030, harbours a series of crypt burials from the time period between AD 1700 and 1750. Due to a restoration of the church, 16 crypts had to be removed and were subjected to an extensive anthropological-paleopathological and isotope analysis. The 16 crypts contained 19 burials in open wooden coffins. All bodies were covered by an extensive layer of calcium carbonate. Despite this \"treatment,\" bone and teeth were excellently preserved",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22531460",
+            "title": "Mineralization of articular cartilage in the Sprague-Dawley rat: characterization and mechanical analysis.",
+            "authors": [
+              "Roemhildt M L",
+              "Beynnon B D",
+              "Gardner-Morse M"
+            ],
+            "journal": "Osteoarthritis and cartilage",
+            "year": "2012",
+            "abstract": "The formation of mineralized deposits in human articular cartilage is a common occurrence [–4]; however, the relationship between mineral deposition and material properties of the articular cartilage is not well understood nor the relationship between mineral deposition and the development of degenerative joint disease. Several different crystalline structures have been identified in articular cartilage and synovial fluid including monosodium urate, calcium pyrophosphate dihydrate (CPPD), and ba",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19491072",
+            "title": "Osteomalacia with bone marrow fibrosis due to severe vitamin D deficiency after a gastrointestinal bypass operation for severe obesity.",
+            "authors": [
+              "Al-Shoha Ahmad",
+              "Qiu Shijing",
+              "Palnitkar Saroj",
+              "Rao D Sudhaker"
+            ],
+            "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+            "year": "2009",
+            "abstract": "To present 5 cases of bone biopsy-proven osteomalacia with marrow fibrosis (in 3 cases) after gastric bypass operation, review the relevant literature, and offer preventive strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻所指多為「calcium gout」(PMID:5595740)，即焦磷酸鈣沉積症(CPPD/pseudogout)，與尿酸性痛風病理機制不同。另有部分文獻探討抗酸劑對 Lesinurad（降尿酸藥）PK 的影響，方向為藥物交互作用而非治療痛風。CaCO₃ 直接抗痛風機制缺乏合理依據（碳酸鈣不影響尿酸生成或排泄的主要通路）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hypophosphatemia (disease)",
+      "txgnn": {
+        "score": 0.7301920652389526,
+        "rank": 44388
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01493050",
+            "title": "Multi-Center Study of the Effect of Sevelamer Carbonate (Renvela®) on Metabolic/Inflammatory/ROS in Diabetics With Nephropathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 117,
+            "start_date": "2012-02",
+            "completion_date": "2013-12",
+            "brief_summary": "The purpose of this study is to see if taking a medication can lower the amount of oxidants from food that go into our body. Previous research shows that if the investigators lower the oxidants from food in people with diabetes, this simple change lowers different risks for heart disease and the worsening of kidney disease. The investigators focus on a specific type of oxidant, advanced glycation endproducts (AGEs). A previous, smaller study, conducted by our group showed that a drug, already ap",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Sevelamer Carbonate（碳酸司維拉姆），非 Calcium Carbonate；Phase 2，研究 CKD 代謝/炎症，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT03346369",
+            "title": "Lanthanum Carbonate (Fosrenol®) to Reduce Oxalate Excretion in Patients With Secondary Hyperoxaluria and Nephrolithiasis: a Short-term, Prospective, Open-label, Efficacy and Safety Clinical Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 35,
+            "start_date": "2017-08-18",
+            "completion_date": "2022-12-31",
+            "brief_summary": "This study investigates the efficacy and the safety of Lanthanum Carbonate for the reduction of urinary oxalate excretion in patients with secondary hyperoxaluria and nephrolithiasis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Lanthanum Carbonate（碳酸鑭），非 Calcium Carbonate；Phase 3，狀態 UNKNOWN，研究對象為草酸尿症，非低磷血症治療。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23992043",
+            "title": "Effects and safety of lanthanum carbonate in end stage renal disease patients with hyperphosphatemia: a meta-analysis--system review of lanthanum carbonate.",
+            "authors": [
+              "Guo Hua",
+              "Zhang Xiaojuan",
+              "Tang Shaowen",
+              "Zhang Shali"
+            ],
+            "journal": "Renal failure",
+            "year": "2013",
+            "abstract": "To assess the effect and safety of lanthanum carbonate (LC) for hypophosphatemia in patients with end-stage renal disease (ESRD).",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32454257",
+            "title": "Biological stenciling of mineralization in the skeleton: Local enzymatic removal of inhibitors in the extracellular matrix.",
+            "authors": [
+              "Reznikov N",
+              "Hoac B",
+              "Buss D J",
+              "Addison W N",
+              "Barros N M T"
+            ],
+            "journal": "Bone",
+            "year": "2020",
+            "abstract": "Biomineralization is remarkably diverse and provides myriad functions across many organismal systems. Biomineralization processes typically produce hardened, hierarchically organized structures usually having nanostructured mineral assemblies that are formed through inorganic-organic (usually protein) interactions. Calcium‑carbonate biomineral predominates in structures of small invertebrate organisms abundant in marine environments, particularly in shells (remarkably it is also found in the inn",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17899431",
+            "title": "Bone health and vascular calcification relationships in chronic kidney disease.",
+            "authors": [
+              "Spasovski Goce B"
+            ],
+            "journal": "International urology and nephrology",
+            "year": "2007",
+            "abstract": "Abnormal bone in chronic kidney disease (CKD) may adversely affect vascular calcification via disordered calcium and phosphate metabolism. In this context, bone health should be viewed as a prerequisite for the successful prevention/treatment of vascular calcification (VC) along with controlled parathyroid hormone (PTH) secretion, the use of calcium-based phosphate binders and vitamin D therapy. In CKD patients, VC occurs more frequently and progresses more rapidly than in the general population",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39839473",
+            "title": "Case report: Prolonged and severe hungry bone syndrome after parathyroidectomy in X-linked hypophosphatemia.",
+            "authors": [
+              "Puliani Giulia",
+              "Hasenmajer Valeria",
+              "Spaziani Matteo",
+              "Frusone Federico",
+              "Tarantino Chiara"
+            ],
+            "journal": "Frontiers in endocrinology",
+            "year": "2024",
+            "abstract": "Tertiary hyperparathyroidism is characterized by hypercalcemia resulting from autonomous parathyroid hormone production and usually occurs after a prolonged period of secondary hyperparathyroidism. This condition can be a complication of X-linked hypophosphatemia (XLH), a rare genetic disease characterized by renal phosphate loss and consequent hypophosphatemia. Parathyroidectomy is considered the first-line therapy but surgical intervention can be complicated by hungry bone syndrome. A male Cau",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28880715",
+            "title": "Defective Mineralization in X-Linked Hypophosphatemia Dental Pulp Cell Cultures.",
+            "authors": [
+              "Coyac B R",
+              "Hoac B",
+              "Chafey P",
+              "Falgayrac G",
+              "Slimani L"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2018",
+            "abstract": "X-linked hypophosphatemia (XLH) is a skeletal disease caused by inactivating mutations in the PHEX gene. Mutated or absent PHEX protein/enzyme leads to a decreased serum phosphate level, which cause mineralization defects in the skeleton and teeth (osteomalacia/odontomalacia). It is not yet altogether clear whether these manifestations are caused solely by insufficient circulating phosphate availability for mineralization or also by a direct, local intrinsic effect caused by impaired PHEX activi",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37387221",
+            "title": "Feline precision medicine using whole-exome sequencing identifies a novel frameshift mutation for vitamin D-dependent rickets type 2.",
+            "authors": [
+              "Habacher Gabriele",
+              "Malik Richard",
+              "Lait Philippa Jp",
+              "Coghill Lyndon M",
+              "Middleton Rondo P"
+            ],
+            "journal": "Journal of feline medicine and surgery",
+            "year": "2023",
+            "abstract": "A 14-week-old female domestic longhair kitten presented with shifting lameness and disproportionately smaller size compared with a co-housed littermate.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31249232",
+            "title": "Management of phosphate abnormalities in hemodialysis patients: Findings from Malaysia.",
+            "authors": [
+              "Mohamed Koya Saiful Nizam Mv"
+            ],
+            "journal": "Saudi journal of kidney diseases and transplantation : an official publication of the Saudi Center for Organ Transplantation, Saudi Arabia",
+            "year": "2019",
+            "abstract": "Studies have shown that the mean or median phosphate levels were related to certain factors although applying this finding into the clinical setting is challenging. In this study, we attempted to determine treatment characteristics for patients with end-stage renal disease (ESRD) on maintenance hemodialysis (MHD) having hyperphosphatemia or hypophosphatemia in comparison with those with normal phosphate level. This was a cross-sectional survey conducted at HD units of Central Pahang Cluster Hosp",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36859300",
+            "title": "Denosumab-induced hypocalcemia post bariatric surgery-a severe and protracted course: a case report.",
+            "authors": [
+              "Awang Mohd Hazriq",
+              "Hatta Sharifah Faradila Wan Muhamad",
+              "Mohamad Aimi Fadilah",
+              "Ghani Rohana Abdul"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2023",
+            "abstract": "Denosumab is known to cause abnormalities in calcium homeostasis. Most of such cases have been described in patients with underlying chronic kidney disease or severe vitamin D deficiency. Previous bariatric surgery could also contribute to hypocalcemia and deterioration in bone health.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24597299",
+            "title": "The effect of MgSO4 addition and the increasing doses of calcium and phosphorus during ending drying period on the occurrence of hypocalcaemia and hypophosphataemia in dairy cows.",
+            "authors": [
+              "Bodarski R",
+              "Kinal S",
+              "Preś J",
+              "Slupczyńska M",
+              "Twardoń J"
+            ],
+            "journal": "Polish journal of veterinary sciences",
+            "year": "2013",
+            "abstract": "The aim of the presented study was the estimation of optimal Ca and P levels applied before calving together with anionic salt addition, as an element of hypocalcaemia and hypophosphataemia prevention. The experiment was carried out during the dry period on 48 cows with similar milk yield in the previous lactation. Cows were divided into four groups. In group I (control) the amount of minerals was in accordance to NRC standards. In experimental groups (groups II-IV), two weeks before calving, co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29118988",
+            "title": "Atypical manifestation of parathyroid carcinoma with late-onset distant metastases.",
+            "authors": [
+              "Tsoli Marina",
+              "Angelousi Anna",
+              "Rontogianni Dimitra",
+              "Stratakis Constantine",
+              "Kaltsas Gregory"
+            ],
+            "journal": "Endocrinology, diabetes & metabolism case reports",
+            "year": "2017",
+            "abstract": "Parathyroid carcinoma is an extremely rare endocrine malignancy that accounts for less than 1% of cases of primary hyperparathyroidism. We report a 44-year-old woman who presented with fatigue and diffuse bone pain. Laboratory findings revealed highly elevated serum calcium and parathyroid hormone (PTH) levels and a 4.5 × 3 × 2.5 cm cystic lesion in the lower pole of the right thyroid lobe that was shown histologically to be a parathyroid carcinoma. Ten years later, the patient developed brain a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29731011",
+            "title": "Bone and mineral metabolism at 55 haemodialysis centres in Lima.",
+            "authors": [
+              "Méndez-Chacón Pedro",
+              "Riccobelli Nicolás",
+              "Dionisi María P",
+              "Sánchez-Álvarez Emilio",
+              "Bardales-Viguria Fernando"
+            ],
+            "journal": "Nefrologia",
+            "year": "2018",
+            "abstract": "Mineral and bone metabolism disorders are common complications in haemodialysis patients that present significant geographical variability.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35803612",
+            "title": "Hungry bone syndrome like presentation following single-dose denosumab for hypercalcaemia secondary to sarcoidosis with IgA nephropathy.",
+            "authors": [
+              "Nachankar Amit",
+              "Katyal Amit",
+              "Bansal Naresh",
+              "Bishnoi Alka"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2022",
+            "abstract": "A woman in her mid-50s with IgA nephropathy, sarcoidosis and steroid-induced diabetes mellitus presented with generalised paraesthesia and spontaneous tetany. She had received denosumab 60 mg subcutaneously 8 weeks previously for parathyroid hormone independent hypercalcaemia.At admission, she had severe hypocalcaemia (5 mg/dL), hypophosphataemia (1.9 mg/dL), hypomagnesaemia (1.4 mg/dL) and elevated serum creatinine (1.48 mg/dL) with prolonged QTc (corrected QT interval) on electrocardiograph. S",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26822333",
+            "title": "[Changes in mineral and bone disorder management in a French cohort of hemodialysis patients between 2008 and 2012: The National Bone and Mineral Metabolism observatory (Photo-Graphe 2 and 3)].",
+            "authors": [
+              "Pelletier Solenne",
+              "Roth Hubert",
+              "Bouchet Jean-Louis",
+              "Drueke Tilman B",
+              "Hannedouche Thierry"
+            ],
+            "journal": "Nephrologie & therapeutique",
+            "year": "2016",
+            "abstract": "Chronic kidney disease progressively induces a disorder of mineral and bone metabolism (CKD-MBD) which also leads to cardiovascular abnormalities. Previous studies showed that only few hemodialysis patients had serum calcium, phosphate and parathyroid hormone levels within the K/DOQI (Kidney-Disease Outcomes Quality Initiative) targets of 2003. Our aim was to identify the impact of different therapeutic strategies and that of the KDIGO (Kidney-Disease: Improving Global Outcomes) targets of 2009 ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "577561",
+            "title": "The mechanism of hypophosphatemia in acute heat stroke.",
+            "authors": [
+              "Knochel J P",
+              "Caskey J H"
+            ],
+            "journal": "JAMA",
+            "year": "1977",
+            "abstract": "Severe heat stroke may be associated with hypophosphatemia and hypocalcemia. Hypophosphatemia is generally observed within hours after onset, but hypocalcemia usually occurs on the second or third day, and after hypophosphatemia has undergone spontaneous correction. A young man displayed respiratory alkalosis during the course of severe heat stroke. The hypophosphatemia abated spontaneously as metabolic acidosis and acute renal failure supervened. Hypocalcemia became prominent and was more sever",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16669977",
+            "title": "Long-term comparison of sevelamer hydrochloride to calcium-containing phosphate binders.",
+            "authors": [
+              "Brewster Ursula C",
+              "Ciampi Marc A",
+              "Abu-Alfa Ali K",
+              "Reilly Robert F"
+            ],
+            "journal": "Nephrology (Carlton, Vic.)",
+            "year": "2006",
+            "abstract": "In patients with end-stage renal disease (ESRD), hyperphosphataemia and an elevated calcium-phosphorus (Ca-P) product contribute to morbidity and mortality. Suggested target goals for serum phosphorus concentration and calcium-phosphorus product have recently been lowered. As a result, long-term comparative studies of the efficacy of phosphate binders are critical. This study compares the long-term efficacy of sevelamer hydrochloride to calcium-containing binders (CCB).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9509684",
+            "title": "Primary hyperparathyroidism with cardiac abnormalities: a case report.",
+            "authors": [
+              "Yang C Y",
+              "Cheng C C",
+              "Chou C W",
+              "Cheng H M"
+            ],
+            "journal": "Zhonghua yi xue za zhi = Chinese medical journal; Free China ed",
+            "year": "1997",
+            "abstract": "Primary hyperparathyroidism, characterized by hypersecretion of parathyroid hormone (PTH) leading to hypercalcemia and relative hypophosphatemia, is quite common in the elderly. Most patients with primary hyperparathyroidism have only mild hypercalcemia and are symptomless. But others experience various other organ diseases. Primary hyperparathyroidism is also associated with cardiovascular abnormalities, including QT interval shortening, heart block, cardiac arrhythmias, hypertension, myocardia",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8473230",
+            "title": "Primary parathyroid gland hyperplasia in dogs: six cases (1982-1991).",
+            "authors": [
+              "DeVries S E",
+              "Feldman E C",
+              "Nelson R W",
+              "Kennedy P C"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1993",
+            "abstract": "Persistent hypercalcemia attributable to parathyroid gland hyperplasia was identified in 6 dogs with primary hyperparathyroidism. Clinical signs included polydipsia (n = 4), polyuria (n = 4), and signs caused by cystic calculi (n = 3). Abnormal clinical pathologic findings included hypercalcemia (mean, 13.6 mg/dl; range, 12.6 to 14.7 mg/dl; n = 6), hypophosphatemia (mean, 2.2 mg/dl; range, 1.4 to 2.9 mg/dl; n = 6), high serum alkaline phosphatase activity (mean, 222 IU/L; range, 161 to 286 IU/L;",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24462496",
+            "title": "Reasons for phosphate binder discontinuation vary by binder type.",
+            "authors": [
+              "Wang Steven",
+              "Anum Emmanuel A",
+              "Ramakrishnan Karthik",
+              "Alfieri Thomas",
+              "Braunhofer Peter"
+            ],
+            "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
+            "year": "2014",
+            "abstract": "Nonadherence to phosphate binder regimen is common among end-stage renal disease patients and contributes to elevated phosphorus levels. Pill burden, side effects, complex regimens, and cost all contribute to nonadherence. We retrospectively analyzed reasons for discontinuation in hemodialysis patients receiving treatment at a large U.S. dialysis organization to better understand the drivers of nonadherence for particular phosphate binders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27353739",
+            "title": "A Case of Vitamin D-Dependent Rickets Type 1A with a Novel Mutation in the Uzbek Population.",
+            "authors": [
+              "Özcabı Bahar",
+              "Tahmiscioğlu Bucak Feride",
+              "Jaferova Sevinç",
+              "Oruç Çiğdem",
+              "Adrovic Amra"
+            ],
+            "journal": "Journal of clinical research in pediatric endocrinology",
+            "year": "2016",
+            "abstract": "Vitamin D-dependent rickets type 1A (VDDR-1A) (Online Mendelian Inheritance in Man #264700) is a rare, autosomal recessively inherited disorder due to inactivating mutations in CYP27B1. It is characterized by early onset of rickets with hypocalcemia. We aimed to describe the clinical and laboratory findings in a VDDR-1A case and to report a novel homozygote truncating mutation NM_000785.3 c.403C>T (p.Q135*) in CYP27B1 which to our knowledge is the first described mutation in the Uzbek population",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41431066",
+            "title": "Adefovir dipivoxil-induced Fanconi syndrome associated with hypophosphatemic osteomalacia misdiagnosed as cervical spondylotic myelopathy: A case report and literature review.",
+            "authors": [
+              "Zhu Ke-Jun",
+              "Xiang Long",
+              "Chen Zhu-Liu",
+              "Ji Jian-Song"
+            ],
+            "journal": "Medicine",
+            "year": "2025",
+            "abstract": "Adefovir dipivoxil (ADV)-induced Fanconi syndrome associated with hypophosphatemic osteomalacia is an extremely rare disease. Owing to its rarity, it is easily misdiagnosed as cervical spondylotic myelopathy. Here, we present the case of a patient with Fanconi's syndrome associated with hypophosphatemic osteomalacia that was misdiagnosed as having cervical spondylotic myelopathy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CaCO₃ 作為磷酸鹽結合劑用於 CKD 高磷血症管理（降低磷吸收），過度使用反而可能導致低磷血症。此處適應症「低磷血症」與 CaCO₃ 的關係為：(1) 若用於 CKD 磷酸鹽管理有間接關聯；(2) 在已有低磷血症患者中使用磷酸鹽結合劑可能加重病情。方向性需謹慎判斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "potassium deficiency disease",
+      "txgnn": {
+        "score": 0.7191919088363647,
+        "rank": 44714
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07451561",
+            "title": "Role of Combination Therapy of Glucose Insulin Potassium Infusion (GIK), Intravenous Hydrocortisone and Oral Sevelamer in Treatment of Acute Aluminum Phosphide Poisoned Cases Admitted to Intensive Care Unit (ICU) at Sohag University Hospitals.",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 74,
+            "start_date": "2026-03",
+            "completion_date": "2027-03",
+            "brief_summary": "Metal phosphides are commonly utilized for safeguarding stored grains due to their desirable characteristics. They have high potency and the ability to combat different pests and produce non-toxic residues in crops .\n\nIn countries like Iran, India, and Egypt, metal phosphides are extensively employed in agriculture. Some examples of metal phosphides are aluminum phosphide (ALP), zinc phosphide, magnesium phosphide, and calcium phosphide .\n\nALP poisoning is a prevalent method for suicide in most ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "GIK（葡萄糖-胰島素-鉀）輸注研究，尚未招募，CaCO₃ 非研究主體，完全不相關。"
+            }
+          },
+          {
+            "nct_id": "NCT02473367",
+            "title": "A Study to Evaluate the Influence of Metal Cation-Containing Antacids on MK-0518 Pharmacokinetics in HIV-Infected Subjects on a Stable Raltegravir-Containing Regimen",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2015-06-23",
+            "completion_date": "2015-10-09",
+            "brief_summary": "In order to define the safe windows for co-dosing of metal-cation antacids with once daily administered raltegravir, this study will evaluate the effect of both calcium carbonate and magnesium/aluminum hydroxide antacids on the pharmacokinetics of raltegravir, due to dosage of 1200 mg raltegravir in HIV-infected participants already taking 400 mg raltegravir twice daily as part of their HIV treatment regimen.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "金屬陽離子制酸劑對 MK-0518（Raltegravir）PK 影響，Phase 1 藥物交互作用研究，非治療低鉀血症。"
+            }
+          },
+          {
+            "nct_id": "NCT01622673",
+            "title": "A Study to Evaluate the Effect of Metal Cation-Containing Antacids on Raltegravir Pharmacokinetics in HIV-Infected Subjects on a Stable Raltegravir-Containing Regimen",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2012-06",
+            "completion_date": "2012-10",
+            "brief_summary": "This study will evaluate: (1) the effect of co-administration of single doses of calcium carbonate antacid and magnesium/aluminum hydroxide antacid on the steady-state plasma pharmacokinetic profile of raltegravir in human immunodeficiency virus (HIV)-infected participants; and (2) the effect of staggered dosing of a single dose of a magnesium/aluminum hydroxide antacid 2 hours before and 2 hours after administration of raltegravir on the steady-state plasma pharmacokinetic profile of raltegravi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同上，Raltegravir 藥動學研究，與低鉀血症治療無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38206738",
+            "title": "Genetic diagnosis and clinical analysis of 17α-hydroxylase/17, 20-lyase deficiency combined with type 2 diabetes mellitus: A case report.",
+            "authors": [
+              "Zhang Yumin",
+              "Yuan Yuexing"
+            ],
+            "journal": "Medicine",
+            "year": "2023",
+            "abstract": "17α-Hydroxylase/17, 20-lyase deficiency (17OHD) is a recessively inherited autosomal disease caused by CYP17A1 gene mutations. It is characterized by failure to synthesize cortisol, adrenal androgens and gonadal steroids. However, it is rare in clinic combining with type 2 diabetes mellitus (T2DM).",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25676933",
+            "title": "Chronic treatment with anti-bipolar drugs suppresses glutamate release from astroglial cultures.",
+            "authors": [
+              "Liu Zhuo",
+              "Song Dan",
+              "Yan Enzhi",
+              "Verkhratsky Alexei",
+              "Peng Liang"
+            ],
+            "journal": "Amino acids",
+            "year": "2015",
+            "abstract": "Astroglial cells are fundamental elements of most neurological diseases, including bipolar disorders in which astrocytes show morphological and functional deficiency. Here we report the suppression of astroglial glutamate release by chronic treatment with three anti-bipolar drugs, lithium salt (Li(+)), carbamazepine (CBZ) and valproic acid (VPA). Release of glutamate was triggered by transient exposure of astrocytes to ATP (which activated purinoceptors) and 45 mM K(+) (which depolarised cell me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39455634",
+            "title": "Organic fertilizer integrated with marine waste derived CaCO3 nanocarrier system: A focus on enhanced yield and quality in tomato cultivation.",
+            "authors": [
+              "Nallasamy Prakashkumar",
+              "Natarajan Suganthy"
+            ],
+            "journal": "Scientific reports",
+            "year": "2024",
+            "abstract": "Tomatoes are rich in lycopene, β-carotene, ascorbic acid and other mineral sources including phosphorus, potassium, zinc, magnesium and iron. Major constraints in tomato cultivation were high cost, poor cultivation due to adverse weather conditions, pest attacks, microbial infections and nutritional deficiency complications. Conventional fertilizers, pesticides, fungicides and growth regulators are effective at higher concentration, which induces specific toxic effects on soil fertility, plant y",
+            "classification": {
+              "study_type": "Agricultural Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22424637",
+            "title": "Oral bone loss induced by mineral deficiency in a rat model: effect of a synthetic bone mineral (SBM) preparation.",
+            "authors": [
+              "Mijares Dindo",
+              "Kulkarni Anupama",
+              "Lewis Kanthi",
+              "Yao Fang",
+              "Xi Qing"
+            ],
+            "journal": "Archives of oral biology",
+            "year": "2012",
+            "abstract": "Osteoporosis affects the craniofacial and oral structures and has been associated with periodontal bone loss, tooth loss and reduced jaw bone mass.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CaCO₃ 與鉀代謝無直接藥理關聯。知識圖譜可能透過「電解質代謝」節點產生間接連結，但缺乏具體機制。理論上，嚴重代謝性鹼中毒（CAS 併發症）可伴隨低鉀血症，但此為副作用關聯而非治療路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "digitalis poisoning",
+      "txgnn": {
+        "score": 0.6660470366477966,
+        "rank": 46245
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論連結：鈣離子可拮抗洋地黃對心肌 Na⁺/K⁺-ATPase 的抑制效應。然而，靜脈鈣劑在洋地黃中毒為禁忌（因高鈣可誘發「石頭心」cardiac tetany），口服 CaCO₃ 吸收速度慢，臨床處置意義極低。現代治療以 Digoxin-specific antibody（Digibind/DigiFab）為標準。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "gastroduodenitis",
+      "txgnn": {
+        "score": 0.657782256603241,
+        "rank": 46467
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10232696",
+            "title": "Effect of histamine H2-receptor antagonist on the phosphorus-binding abilities of calcium carbonate and calcium lactate in hemodialysis patients.",
+            "authors": [
+              "Takahashi N",
+              "Shoji T",
+              "Matsubara K",
+              "Hitomi H",
+              "Hashimoto M"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "1999",
+            "abstract": "The effect of histamine H2-receptor antagonist (famotidine) on the phosphorus-binding abilities of calcium carbonate and calcium lactate were examined in 13 chronic hemodialysis patients. In seven patients receiving calcium carbonate, famotidine (20 mg/d) was given because of gastroduodenal disorders, and calcium carbonate was replaced with calcium lactate as a phosphorus binder after 4 wk of treatment with famotidine. With the 4-wk administration of famotidine accompanied by calcium carbonate, ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8011006",
+            "title": "Antacid activity of calcium carbonate and hydrotalcite tablets. Comparison between in vitro evaluation using the \"artificial stomach-duodenum\" model and in vivo pH-metry in healthy volunteers.",
+            "authors": [
+              "Vatier J",
+              "Ramdani A",
+              "Vitré M T",
+              "Mignon M"
+            ],
+            "journal": "Arzneimittel-Forschung",
+            "year": "1994",
+            "abstract": "Antacid activity of calcium carbonate (CAM, Rennie) and of hydrotalcite (HYD) containing tablets has been assessed in vitro using computer-controlled \"artificial stomach-duodenum\" model, including or not a piece of hog gastric mucosa in the gastric reservoir, and simulating the constant flux system or the normal gastroduodenal flux regulation. The data obtained under the latter condition were compared to those obtained in vivo by pH-metry in 12 healthy volunteers, in response to one administrati",
+            "classification": {
+              "study_type": "Comparative Study (in vitro + in vivo)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38192",
+            "title": "Antacids and peptic ulcer--a reappraisal.",
+            "authors": [
+              "Morris T",
+              "Rhodes J"
+            ],
+            "journal": "Gut",
+            "year": "1979",
+            "abstract": "Antacids can reduce gastroduodenal acidity for long periods if taken in substantial quantities after food. Their healing effect on gastric ulcer is minimal, if present at all, and easily overwhelmed by the benefit obtained from admission to hospital. Intensive antacid therapy appears effective in healing duodenal ulcer and preventing haemorrhage from stress ulcer, and is comparable in these respects with cimetidine but with a higher incidence of side-effects. Clinical impression strongly suggest",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28134986",
+            "title": "Lanthanum deposition from oral lanthanum carbonate in the upper gastrointestinal tract.",
+            "authors": [
+              "Hoda Raza S",
+              "Sanyal Soma",
+              "Abraham Jerrold L",
+              "Everett Jamie M",
+              "Hundemer Gregory L"
+            ],
+            "journal": "Histopathology",
+            "year": "2017",
+            "abstract": "Lanthanum carbonate is used as an alternative to calcium-based phosphate binders to manage hyperphosphataemia in patients with renal failure. The deposition of lanthanum within gastroduodenal mucosa of patients treated with the medication has been described, but given the relative novelty of this entity, the histiocytic deposits in the gastroduodenal mucosa can be confused with a variety of other processes, including infections and other drug-induced forms of injury.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8260735",
+            "title": "New aspects of clinical pharmacology of antacids.",
+            "authors": [
+              "Konturek S J"
+            ],
+            "journal": "Journal of physiology and pharmacology : an official journal of the Polish Physiological Society",
+            "year": "1993",
+            "abstract": "Most antacids contain magnesium and/or aluminium hydroxide but some include also bicarbonate and calcium carbonate. The net effect of antacid action is the reduction in gastric acidity and in peptic activity but recent studies indicate that aluminium-containing antacids exhibit the cytoprotective activity or enhancement of natural mucosal defense mechanisms. This protective action has been attributed, in part, to the release of endogenous prostaglandins but other mediators such as hexa-aquo-alum",
+            "classification": {
+              "study_type": "Pharmacology Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1818437",
+            "title": "Effect of calcium on rat gastric carcinogenesis induced by N-methyl-N'-nitro-N-nitrosoguanidine.",
+            "authors": [
+              "Komatsu S",
+              "Masuda T",
+              "Hisamichi S"
+            ],
+            "journal": "The Tohoku journal of experimental medicine",
+            "year": "1991",
+            "abstract": "The effect of calcium carbonate (CaCO3) on the initiation of gastroduodenal carcinogenesis induced by N-methyl-N'-nitro-N-nitrosoguanidine (MNNG) was examined under the conditions with and without sodium chloride. Male Wistar rats were given drinking water containing MNNG (100 mg/liter) and one of the following diets during the first 20 weeks ad libitum. Group 1 was given basal diet; group 2, diet with 10% NaCl; group 3, diet with 10% NaCl and 2.5% CaCO3; group 4, diet with 10% NaCl and 7.5% CaC",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2685532",
+            "title": "[Stomach tolerance of acetylsalicylic acid by addition of calcium carbonate. A study of a 2-treatment/3-period cross-over design].",
+            "authors": [
+              "Göke B",
+              "Schmitz-Moormann P",
+              "Boehme K",
+              "Lange K",
+              "Arnold R"
+            ],
+            "journal": "Medizinische Klinik (Munich, Germany : 1983)",
+            "year": "1989",
+            "abstract": "18 male volunteers (age 24 +/- 4 years; Broca index 0.94 +/- 0.08; mean +/- SD) underwent six upper endoscopies (three control and three test investigations) in a single blind two treatments-crossover designed study which evaluated the effect of buffering on aspirin-induced (one single oral dose of 0.5 g aspirin to fasted subjects) gastroduodenal mucosal injury. All subjects had a normal endoscopy prior to applications of 0.5 g plain aspirin (group A; swallowed) or 0.5 g aspirin + 0.3 g calcium ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2598753",
+            "title": "Effect of antacid treatment on endogenous prostaglandin synthesis in human antral and duodenal mucosa.",
+            "authors": [
+              "Preclik G",
+              "Stange E F",
+              "Gerber K",
+              "Fetzer G",
+              "Horn H"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "1989",
+            "abstract": "Using 14C-labeled arachidonic acid as precursor for in vitro prostaglandin synthesis, the effect of an antacid containing Al (OH)3, Mg(OH)2 and CaCO3 on endogenous prostaglandin synthesis was investigated in antral and duodenal mucosa of healthy volunteers. After three weeks of treatment with a high-dose antacid, there was no detectable change in the total capacity of the mucosa for prostaglandin synthesis, but the prostaglandin profile was markedly altered. The relative amounts of PGE2 and PGF2",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8763049",
+            "title": "In vitro assessment of antacid efficacy using a computer-controlled 'artificial stomach-duodenum' model reproducing gastroduodenal flux regulation.",
+            "authors": [
+              "Vatier J",
+              "Cai S",
+              "Célice-Pingaud C",
+              "Castela-Papin N",
+              "Mignon M"
+            ],
+            "journal": "Therapie",
+            "year": "1996",
+            "abstract": "We have developed an artificial stomach-duodenum model made up of three compartments representing the stomach, (including a fragment of hog gastric mucosa), the proximal duodenum, and the distal duodenum. Gastroduodenal flow rates are controlled by a microcomputer capable of (1) adjusting gastric emptying and alkaline secretion in the proximal duodenum according to intragastric pH; (2) adjusting pancreatic alkaline secretion according to proximal duodenum pH; and (3) simulating acid response to ",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5819087",
+            "title": "[Medical treatment of uncomplicated gastroduodenal ulcer].",
+            "authors": [
+              "Bircher J",
+              "Haemmerli U P"
+            ],
+            "journal": "Munchener medizinische Wochenschrift (1950)",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "817194",
+            "title": "[Clinical treatment of inflammatory and benign ulcerous diseases of the stomach and duodenum with a new combination preparation (Aci-Tensilan) (author's transl)].",
+            "authors": [
+              "van de Loo W"
+            ],
+            "journal": "MMW, Munchener medizinische Wochenschrift",
+            "year": "1976",
+            "abstract": "A gastroduodenal combination preparation was introduced at a deliberately high dosage into a clinical treatment schema. A marked improvement of the subjective symptoms already appeared after a short treatment in hospital, pain in particular being rapidly affected. Younger patients tolerated the preparation excellently, older ones had a marked sedation. Because of the danger of concealment, stenoses in the region of the gastrointestinal tract, ileus and preileus are particular contraindications. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6187",
+            "title": "[Clinical studies of a new type of antacid: effects on ph of the gastric secretion and on symptoms of dyspepsia in patients with gastro-duodenal disorders].",
+            "authors": [
+              "Coltorti M",
+              "Blanco C D",
+              "Mercato B D"
+            ],
+            "journal": "La Clinica terapeutica",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CaCO₃ 為強效制酸劑，中和胃酸（CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂），提高胃內 pH，緩解胃炎/十二指腸炎症狀。制酸容量（acid neutralizing capacity）高於 Mg(OH)₂ 和 Al(OH)₃。缺點：「acid rebound」現象（鈣離子刺激胃泌素分泌），長期單獨使用有限制。此為 CaCO₃ 已知且廣泛使用的藥理機制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hyperlipidemia",
+      "txgnn": {
+        "score": 0.6455632448196411,
+        "rank": 46815
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00917878",
+            "title": "The Effects of Milk and Milk Constituents on Postprandial Inflammation in Overweight Subjects",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2009-03",
+            "completion_date": "2009-07",
+            "brief_summary": "The purpose of this study is to determine whether the addition of milk or the milk constituents calcium and protein to a high-fat breakfast affects the postprandial lipid and inflammatory response.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究牛奶及乳製品成分對餐後炎症的影響，Phase NA，食品研究，非 CaCO₃ 藥物試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT06247137",
+            "title": "Evaluation of the Effect of a Food Supplementation With a Combined Food Supplement on Lipid Pattern, Indexes of Non-alcoholic Fatty Liver Disease and Systemic Inflammation in Healthy Subjects With Suboptimal LDL-C Levels: a Two-arm Double-blind, Placebo- Controlled, Randomized, Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2022-04-01",
+            "completion_date": "2022-12-30",
+            "brief_summary": "Several controlled interventional studies have shown that there is a close correlation between cholesterol reduction and cardiovascular risk; in fact, reductions in serum levels of total cholesterol and low-density lipoprotein cholesterol (LDL-C), obtained through lifestyle modification or specific drugs, result in reductions in the incidence of major coronary events. The effectiveness of these interventions has been demonstrated both in subjects in primary prevention and in subjects in secondar",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "複合食品補充劑（含鈣）對血脂的影響，Phase NA，n=90，雖含鈣成分但為複合配方，無法單獨歸因於 CaCO₃。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "356720",
+            "title": "Effect of calcium p-chlorphenoxyisobutyrate and calcium carbonate on plasma lipids and lipoproteins of patients with hyperlipoproteinaemia.",
+            "authors": [
+              "Koskinen P",
+              "Inkovaara J",
+              "Ala-Kaila K",
+              "Salo M",
+              "Nikkari T"
+            ],
+            "journal": "Annals of clinical research",
+            "year": "1977",
+            "abstract": "Since dietary calcium had been reported to reduce plasma lipids, the effects of calcium carbonate (CaCO3, 2 g/day) and the calcium salt of p-chlorphenozyisobutyrate (Ca-CPIB, 2 g/day), both singly and in combination, were studied in outpatients with primary hyperlipidaemia. Three groups of five patients were followed in a double-blind cross-over study, in which placebo and the drugs were given alternately during four-week periods. The main results were: 1) CaCO3 alone did not produce any signifi",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10939556",
+            "title": "Cost-effectiveness of sevelamer versus calcium carbonate plus atorvastatin to reduce LDL in patients with chronic renal insufficiency with dyslipidemia and hyperphosphatemia.",
+            "authors": [
+              "Brophy D F",
+              "Wallace J F",
+              "Kennedy D T",
+              "Gehr T W",
+              "Holdford D A"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2000",
+            "abstract": "We conducted a cost-effectiveness analysis to compare costs and clinical outcomes of sevelamer versus calcium carbonate plus atorvastatin for treatment of dyslipidemia in patients with chronic renal insufficiency. The model was from the third-party payer perspective. Efficacy and adverse event rates for each regimen were obtained from published clinical trials. Drug costs were based on average wholesale prices; monitoring costs were based on Medicare reimbursement rates. Our model suggests that ",
+            "classification": {
+              "study_type": "Cost-effectiveness Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40221242",
+            "title": "Nutrition and dietary interventions for treatment and management of familial hypercholesterolaemia in children and adolescents: A systematic review.",
+            "authors": [
+              "Chisholm Kerryn W",
+              "Jebeile Hiba",
+              "Henderson Maddison J",
+              "Lorien Sasha",
+              "Srinivasan Shubha"
+            ],
+            "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+            "year": "2025",
+            "abstract": "Familial hypercholesterolaemia (FH) is a common inherited metabolic disease caused by mutations of genes involved in low-density cholesterol (LDL-C) catabolism. The accumulation of LDL-C increases the risk of early atherosclerosis and premature coronary artery disease. The aim of this systematic review was to investigate the impact of dietary interventions to lower total cholesterol (TC) and LDL-C in FH children not on medication.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32434384",
+            "title": "Over-the-Counter Drug Causing Acute Pancreatitis.",
+            "authors": [
+              "Parvataneni Swetha",
+              "Essrani Rajesh",
+              "Mehershahi Shehriyar",
+              "Essrani Rajesh",
+              "Lohana Ajeet Kumar"
+            ],
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2020",
+            "abstract": "Acute pancreatitis is caused by alcohol, gall stone disease, drugs, trauma, infections, and metabolic causes such as hypercalcemia and hyperlipidemia. Hypercalcemia-induced acute pancreatitis has been well documented but only rarely occurs due to over-the-counter calcium carbonate. In this article, we present a case of over-the-counter calcium carbonate-induced acute pancreatitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26598845",
+            "title": "Niacin and Chronic Kidney Disease.",
+            "authors": [
+              "Taketani Yutaka",
+              "Masuda Masashi",
+              "Yamanaka-Okumura Hisami",
+              "Tatsumi Sawako",
+              "Segawa Hiroko"
+            ],
+            "journal": "Journal of nutritional science and vitaminology",
+            "year": "2015",
+            "abstract": "Chronic kidney disease (CKD) is an increasing problem worldwide. The number of end-stage renal disease patients requiring treatment by dialysis is estimated to be increasing by 10,000 patients per year in Japan. Furthermore, an estimated 13 million people are living with CKD in Japan. Various complications are associated with CKD, including cardiovascular disease (CVD). More than one-third of CKD patients die from CVD. Thus, prevention of CVD is a primary concern for the treatment of CKD patient",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29056106",
+            "title": "The influence of dietary and supplemental calcium on postprandial effects of a high-fat meal on lipaemia, glycaemia, C-reactive protein and adiponectin in obese women.",
+            "authors": [
+              "Ferreira Thaís da S",
+              "Antunes Vanessa P",
+              "Leal Priscila M",
+              "Sanjuliani Antonio F",
+              "Klein Márcia R S T"
+            ],
+            "journal": "The British journal of nutrition",
+            "year": "2017",
+            "abstract": "Non-fasting hypertriacylglycerolaemia is a risk factor for CVD and the amount of fat in a meal seems to be the main factor influencing postprandial lipaemia. Although several studies suggest that Ca can increase faecal fat excretion, it is not known whether Ca can decrease postprandial TAG. This study aimed to evaluate the influence of dietary Ca (DC) and supplemental Ca (SC) on lipaemia, glucose metabolism, C-reactive protein (CRP) and adiponectin during postprandial period in obese women chall",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "333869",
+            "title": "Effect of clofibrate and calcium in type II A hyperlipoproteinaemia.",
+            "authors": [
+              "Lehtonen A",
+              "Viikari J"
+            ],
+            "journal": "Acta medica Scandinavica",
+            "year": "1977",
+            "abstract": "In type II A hyperlipoproteinaemia, treatment with cholestyramine (12 g), calcium clofibrate (2 g) and a combination of calcium clofibrate and calcium carbonate (2 + 2 g) reduced the cholesterol concentration. The combination of calcium and clofibrate was at least as effective as cholestyramine. Calcium clofibrate decreased very low density and low density lipoprotein cholesterol, triglycerides and phospholipids, whereas no changes were found in high density lipoproteins. Cholestyramine decrease",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "223601",
+            "title": "Long-term effect of the combination of calcium clofibrate and calcium carbonate on serum total cholesterol, triglyceride and high density lipoprotein--cholesterol concentrations in hyperlipoproteinaemia. A comparative study with clofibrate.",
+            "authors": [
+              "Lehtonen A",
+              "Viikari J"
+            ],
+            "journal": "Atherosclerosis",
+            "year": "1979",
+            "abstract": "Thirty hyperlipidaemic patients (19 with type IIA, 4 with IIB and 7 with type IV hyperlipoproteinaemia) were subjected to therapy with calcium clofibrate and calcium carbonate (4C, 2 + 2 g/day for 6 months) and the effect was compared with clofibrate (1C, 2 g/day) which was given for 6 months as well, in a single-blind placebo-controlled study. 4C and 1C decreased total serum cholesterol levels especially in subgroups IIA and IIB. 4C was somewhat more effective than 1C in decreasing (VLDL + LDL)",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8461548",
+            "title": "Calcium supplementation in osteoporosis.",
+            "authors": [
+              "Fujita T",
+              "Fujii Y",
+              "Kitagawa R",
+              "Fukase M"
+            ],
+            "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+            "year": "1993",
+            "abstract": "Although calcium is the most abundant inorganic constituent of the bone, indispensable for the maintenance of its physical strength, the role of calcium nutrition in the development of osteoporosis and the preventive and therapeutic significance of calcium supplementation in osteoporosis have been matters of intense controversy. The wide difference in the baseline nutritional intake of calcium among different groups and the variation in age of the patients studied may have been contributory fact",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1456855",
+            "title": "Cholesterol-lowering effects of calcium carbonate in patients with mild to moderate hypercholesterolemia.",
+            "authors": [
+              "Bell L",
+              "Halstenson C E",
+              "Halstenson C J",
+              "Macres M",
+              "Keane W F"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1992",
+            "abstract": "In recent years, several authors have noted that oral calcium treatment was associated with a reduction in serum cholesterol level.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15868765",
+            "title": "OTC product: metamucil plus calcium for regularity and calcium supplementation.",
+            "authors": [
+              "Sulli Maria Marzella"
+            ],
+            "journal": "Journal of the American Pharmacists Association : JAPhA",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1405361",
+            "title": "Clinical strategies for arresting progression of renal disease.",
+            "authors": [
+              "ter Wee P M",
+              "Donker A J"
+            ],
+            "journal": "Kidney international. Supplement",
+            "year": "1992",
+            "abstract": "The incidence of end-stage renal disease is increasing and this results in an enhanced requirement of renal replacement therapy facilities. This brings about a significant burden on health care budgets and makes strategies that slow down or even prevent deterioration of the renal function mandatory. Although large scale randomized, controlled and prospective clinical trials on the effect of blood pressure control on the course of renal function are lacking, there is circumstantial evidence from ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14871413",
+            "title": "Arterial stiffness in predialysis patients with uremia.",
+            "authors": [
+              "Shinohara Kayo",
+              "Shoji Tetsuo",
+              "Tsujimoto Yoshihiro",
+              "Kimoto Eiji",
+              "Tahara Hideki"
+            ],
+            "journal": "Kidney international",
+            "year": "2004",
+            "abstract": "Hemodialysis patients have advanced arterial wall stiffening as shown by increased aortic pulse wave velocity (PWV), an independent predictor of cardiovascular mortality. We compared aortic PWV of uremic patients before starting hemodialysis treatment with that of patients on maintenance hemodialysis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28496308",
+            "title": "Atorvastatin, a double weapon in osteoporosis treatment: an experimental and clinical study.",
+            "authors": [
+              "El-Nabarawi Naglaa",
+              "El-Wakd Mohamed",
+              "Salem Mostafa"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2017",
+            "abstract": "The aim of this study was to evaluate the effect of atorvastatin on the bone formation and resorption markers in ovariectomized rats (experimental study), and to study its effect on the bone mineral density (BMD) in postmenopausal osteoporotic women (clinical study).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7449793",
+            "title": "The effect of oral calcium carbonate administration on serum lipoproteins of children with familial hypercholesterolaemia (type II-A).",
+            "authors": [
+              "Groot P H",
+              "Grose W F",
+              "Dijkhuis-Stoffelsma R",
+              "Fernandes J",
+              "Ambagtsheer J J"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "1980",
+            "abstract": "The effect of oral calcium carbonate on serum lipoprotein concentrations was tested in 50 children with familial hypercholesterolemia (type II-A) consuming a low cholesterol high polyunsaturated fat diet, using a cross-over design versus a placebo. Cholesterol was measured in serum and in the individual lipoprotein density classes. Serum apolipoprotein B (the protein moiety of low density lipoprotein) and apolipoprotein A-I (the main protein of high density lipoprotein) were measured by specific",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10603143",
+            "title": "Effect of metabolic acidosis on hyperlipidemia in uremia.",
+            "authors": [
+              "Mak R H"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "1999",
+            "abstract": "Nine patients (aged 18+/-1 years) on maintenance hemodialysis with metabolic acidosis and hyperlipidemia were studied before and after 2 weeks of oral sodium bicarbonate (NaHCO(3)) treatment to correct the acidosis. To control for the effect of additional sodium, they were also studied after 2 weeks of an equivalent amount of oral sodium chloride (NaCl). Oral NaHCO(3 )treatment led to significant increases in venous pH, serum bicarbonate, and serum 1, 25-dihydroxyvitamin D(3) concentrations, but",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1895677",
+            "title": "Pathogenesis of nephrolithiasis post-partial ileal bypass surgery: case-control study. The POSCH Group.",
+            "authors": [
+              "Obialo C I",
+              "Clayman R V",
+              "Matts J P",
+              "Fitch L L",
+              "Buchwald H"
+            ],
+            "journal": "Kidney international",
+            "year": "1991",
+            "abstract": "Between 1975 and 1983, 838 patients were randomized into the Program on the Surgical Control of Hyperlipidemias (POSCH) trial: 417 to standard medical care and 421 to partial ileal bypass (PIB) surgery. During the course of the trial, an increased incidence of kidney stone formation was found in the surgery group (4%/year) as compared to the control group (0.4%/year). A matched triplet case-control study was conducted to assess the possible causes for the increased incidence of kidney stones. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4537742",
+            "title": "The hypolipidemic effect of calcium-containing compounds and vitamin D 2 in the rat.",
+            "authors": [
+              "Fleischman A I",
+              "Bierenbaum M L",
+              "Lenz P H"
+            ],
+            "journal": "Lipids",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4074452",
+            "title": "Casein-induced hypercholesterolaemia in rabbits is calcium-dependent.",
+            "authors": [
+              "Van der Meer R",
+              "De Vries H",
+              "West C E",
+              "De Waard H"
+            ],
+            "journal": "Atherosclerosis",
+            "year": "1985",
+            "abstract": "Young male rabbits were fed semi-purified diets containing either casein or soy protein, both at a normal (0.84%, w/w) and a high (1.44%, w/w) level of dietary calcium. At the normal calcium level, casein, as compared with soy protein, increased the concentration in serum of total and free cholesterol and the ratio of free cholesterol to phospholipid. Also, casein increased the intestinal phosphate absorption and decreased the faecal fat excretion. The hypercholesterolaemic response of the rabbi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5742304",
+            "title": "[The effect of malic acid and alkaline and alkaline-earth metal carbonates on the development of alimentary hypercholesterolemia and lipoidosis of the aorta in rabbits].",
+            "authors": [
+              "Kaĭdin D A"
+            ],
+            "journal": "Biulleten' eksperimental'noi biologii i meditsiny",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鈣離子在腸道與膽汁酸及脂肪酸結合形成不溶性鈣皂，減少脂質吸收；另有研究顯示鈣可抑制脂肪細胞脂解酶，促進膽固醇異化。文獻（PMID:1456855）顯示 CaCO₃ 在輕中度高膽固醇血症患者可降低 LDL 約 4%，效果有限但具統計學意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "peptic ulcer disease",
+      "txgnn": {
+        "score": 0.5976612567901611,
+        "rank": 48301
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03299725",
+            "title": "A Prospective Open-label Study on Efficacy and Tolerability of Colloidal Bismuth Sub-citrate as Adjunctive Therapy to a Combination of Esomeprazole, Amoxicillin and Metronidazole for 10 Days for Helicobacter Pylori Elimination in Children",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 120,
+            "start_date": "2017-11-24",
+            "completion_date": "2019-11",
+            "brief_summary": "Helicobacter pylori infection causes chronic gastritis, peptic ulcer disease and is involved in the development of gastric cancer.\n\nCurrent accepted strategies to eliminate the infection in children are a 10 days sequential treatment (proton pump inhibitor + amoxicillin 5 days followed by proton pump inhibitor + metronidazole + clarithromycin 5 days) or a triple therapy 14 days (proton pump inhibitor + amoxicillin + clarithromycin or metronidazole).\n\nHowever, there is a concern due to the growin",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 研究膠體次檸檬酸鉍（Bismuth）作為 H. pylori 根除輔助治療，非 CaCO₃ 研究；狀態 UNKNOWN；與本適應症間接相關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19252114",
+            "title": "Milk-alkali syndrome.",
+            "authors": [
+              "Medarov Boris I"
+            ],
+            "journal": "Mayo Clinic proceedings",
+            "year": "2009",
+            "abstract": "Milk-alkali syndrome (MAS) consists of hypercalcemia, various degrees of renal failure, and metabolic alkalosis due to ingestion of large amounts of calcium and absorbable alkali. This syndrome was first identified after medical treatment of peptic ulcer disease with milk and alkali was widely adopted at the beginning of the 20th century. With the introduction of histamine2 blockers and proton pump inhibitors, the occurrence of MAS became rare; however, a resurgence of MAS has been witnessed bec",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10783482",
+            "title": "How calcium from calcium carbonate and milk benefit peptic ulcer patients.",
+            "authors": [
+              "Wang X"
+            ],
+            "journal": "Medical hypotheses",
+            "year": "2000",
+            "abstract": "Calcium from calcium containing antacids and milk enhance the integrity of gastrointestinal mucosa and mucus, as it is the natural linker agent of these structures, which strengthens their defense function.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5090792",
+            "title": "Calcium carbonate, hypercalcaemia, and peptic ulcer.",
+            "authors": [
+              "Piper D W"
+            ],
+            "journal": "British medical journal",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38192",
+            "title": "Antacids and peptic ulcer--a reappraisal.",
+            "authors": [
+              "Morris T",
+              "Rhodes J"
+            ],
+            "journal": "Gut",
+            "year": "1979",
+            "abstract": "Antacids can reduce gastroduodenal acidity for long periods if taken in substantial quantities after food. Their healing effect on gastric ulcer is minimal, if present at all, and easily overwhelmed by the benefit obtained from admission to hospital. Intensive antacid therapy appears effective in healing duodenal ulcer and preventing haemorrhage from stress ulcer, and is comparable in these respects with cimetidine but with a higher incidence of side-effects. Clinical impression strongly suggest",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23543983",
+            "title": "The calcium-alkali syndrome.",
+            "authors": [
+              "Arroyo Mariangeli",
+              "Fenves Andrew Z",
+              "Emmett Michael"
+            ],
+            "journal": "Proceedings (Baylor University. Medical Center)",
+            "year": "2013",
+            "abstract": "The milk-alkali syndrome was a common cause of hypercalcemia, metabolic alkalosis, and renal failure in the early 20th century. It was caused by the ingestion of large quantities of milk and absorbable alkali to treat peptic ulcer disease. The syndrome virtually vanished after introduction of histamine-2 blockers and proton pump inhibitors. More recently, a similar condition called the calcium-alkali syndrome has emerged as a common cause of hypercalcemia and alkalosis. It is usually caused by t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6755653",
+            "title": "Antacids and hormones.",
+            "authors": [
+              "Holtermüller K H",
+              "Dehdaschti M"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1982",
+            "abstract": "Antacids are neutralizing compounds which have been shown to hasten ulcer healing and to prevent bleeding from stress ulcerations. Owing to gastric alkalinization, gastrin will be released following antacid ingestion, a condition similar to that following the ingestion of a meal. Gastrin release and, more important, acid rebound also occur when the gastric mucosa comes into contact with calcium chloride. These findings indicate that acid rebound is independent of antral neutralization. Acid rebo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37146",
+            "title": "[Therapy with antacids].",
+            "authors": [
+              "Holtermüller K H"
+            ],
+            "journal": "Fortschritte der Medizin",
+            "year": "1979",
+            "abstract": "The usefulness of antacids in peptic ulcer disease is based on their ability to neutralize secreted gastric acid and to inhibit pepsin activity. The neutralizing capacity (expressed as mval of neutralized hydrochloric acid at a given pH) of different antacids depends upon their chemical composition. To achieve adequate neutralization of stimulated gastric acid secretion antacids have to be taken one and three hours after a meal in a dosage neutralizing 40-80 mval of acid. So far antacids have no",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4813464",
+            "title": "Antacids.",
+            "authors": [
+              "Hendrix T R"
+            ],
+            "journal": "American family physician",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4312520",
+            "title": "Antacids.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1500660",
+            "title": "Calcium and acid rebound: a reappraisal.",
+            "authors": [
+              "Hade J E",
+              "Spiro H M"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "1992",
+            "abstract": "We review acid rebound, the seemingly paradoxical increase in acid secretion resulting from administration of an antacid. Primarily a laboratory observation, the demonstration of the phenomenon was a major contributing factor to the swift, and possibly unjustified, fall from grace of calcium carbonate in the therapy of peptic ulcer disease despite years of apparently successful use. Calcium, as carbonate or other salts, causes an increase in gastric acid secretion owing, at least in part, to dir",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6293043",
+            "title": "Antacid therapy--changes in mineral metabolism.",
+            "authors": [
+              "Herzog P",
+              "Holtermüller K H"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1982",
+            "abstract": "Antacid ingestion may lead to side-effects related to their chemical composition. Aluminum hydroxide may cause the phosphate depletion syndrome even during short-term administration of high doses in patients at high risk, such as alcoholics. Long-term intake may lead to bone demineralization and to osteomalacia. Fluoride complexing in the gut and prevention of fluoride absorption may be an additional factor. The clinical relevance of aluminum absorption in patients with normal renal function is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33732556",
+            "title": "Calcium-Alkali Syndrome: Historical Review, Pathophysiology and Post-Modern Update.",
+            "authors": [
+              "Zayed Randa F",
+              "Millhouse Paul W",
+              "Kamyab Farnaz",
+              "Ortiz Juan Fernando",
+              "Atoot Adam"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Milk-alkali syndrome or calcium-alkali syndrome (CAS) is the triad of hypercalcemia, metabolic alkalosis and renal impairment. It is often related to ingestion of high amounts of calcium carbonate, which was used historically for the treatment of peptic ulcer disease. The incidence of the syndrome decreased dramatically after the introduction of newer peptic ulcer medications such as proton pump inhibitors and histamine blocking agents. However, a resurgence was seen in the late 1980s with the w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32434384",
+            "title": "Over-the-Counter Drug Causing Acute Pancreatitis.",
+            "authors": [
+              "Parvataneni Swetha",
+              "Essrani Rajesh",
+              "Mehershahi Shehriyar",
+              "Essrani Rajesh",
+              "Lohana Ajeet Kumar"
+            ],
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2020",
+            "abstract": "Acute pancreatitis is caused by alcohol, gall stone disease, drugs, trauma, infections, and metabolic causes such as hypercalcemia and hyperlipidemia. Hypercalcemia-induced acute pancreatitis has been well documented but only rarely occurs due to over-the-counter calcium carbonate. In this article, we present a case of over-the-counter calcium carbonate-induced acute pancreatitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2644821",
+            "title": "A critical look at the clinical use of antacids in acid-peptic disease and gastric acid rebound.",
+            "authors": [
+              "Texter E C"
+            ],
+            "journal": "The American journal of gastroenterology",
+            "year": "1989",
+            "abstract": "Ancient man found that he could relieve dyspepsia by ingesting minerals that had antacid properties. Calcium carbonate was one of the first of these, as it occurred in relatively pure form in coral and limestone. Antacids were the keystone of medical management until the modern era of ulcer treatment. There has been a renewal of interest in antacids in recent years. Calcium as a component of the diet has come under scrutiny. Antacids have been found to be as effective in promoting healing of ulc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1119360",
+            "title": "Antacids.",
+            "authors": [
+              "Texter E C",
+              "Smart D F",
+              "Butler R C"
+            ],
+            "journal": "American family physician",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20617595",
+            "title": "Acid rebound.",
+            "authors": [
+              "Fordtran J S"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13480416",
+            "title": "The milk-alkali syndrome; hypercalcemia, alkalosis and azotemia following calcium carbonate and milk therapy of peptic ulcer.",
+            "authors": [
+              "WENGER J",
+              "KIRSNER J B",
+              "PALMER W L"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1957",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5540192",
+            "title": "Antacids.",
+            "authors": [
+              "Stokes J F"
+            ],
+            "journal": "The Practitioner",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CaCO₃ 中和胃酸，提高潰瘍部位 pH，創造有利於黏膜修復的微環境。歷史上為消化性潰瘍的一線制酸治療，現代已被 H2 阻斷劑和 PPI 取代，但仍用於症狀緩解。需注意：(1) acid rebound 現象；(2) 長期使用可能導致 Milk-alkali syndrome；(3) 未針對 H. pylori 根除。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "duodenogastric reflux",
+      "txgnn": {
+        "score": 0.5937641263008118,
+        "rank": 48437
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8763049",
+            "title": "In vitro assessment of antacid efficacy using a computer-controlled 'artificial stomach-duodenum' model reproducing gastroduodenal flux regulation.",
+            "authors": [
+              "Vatier J",
+              "Cai S",
+              "Célice-Pingaud C",
+              "Castela-Papin N",
+              "Mignon M"
+            ],
+            "journal": "Therapie",
+            "year": "1996",
+            "abstract": "We have developed an artificial stomach-duodenum model made up of three compartments representing the stomach, (including a fragment of hog gastric mucosa), the proximal duodenum, and the distal duodenum. Gastroduodenal flow rates are controlled by a microcomputer capable of (1) adjusting gastric emptying and alkaline secretion in the proximal duodenum according to intragastric pH; (2) adjusting pancreatic alkaline secretion according to proximal duodenum pH; and (3) simulating acid response to ",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CaCO₃ 制酸特性可理論上緩解酸性胃十二指腸逆流，但膽汁性逆流（鹼性）不受制酸劑影響。十二指腸胃逆流通常與幽門括約肌功能不全相關，CaCO₃ 無直接促動力或括約肌調節機制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "calcium-alkali syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "calcium-alkali syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "calcium-alkali syndrome"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "primary bone dysplasia with defective bone mineralization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "primary bone dysplasia with defective bone mineralization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "primary bone dysplasia with defective bone mineralization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "hypophosphatemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "hypophosphatemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "hypophosphatemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "digitalis poisoning"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "digitalis poisoning"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "digitalis poisoning"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium carbonate",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

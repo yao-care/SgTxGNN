@@ -1,0 +1,223 @@
+## 藥物背景分析
+
+**Ganirelix (DB06785)** 是一種合成十肽 GnRH（促性腺激素釋放激素）**拮抗劑**，核心機轉為競爭性阻斷 GnRH 受體 → 抑制 LH/FSH 分泌 → 降低性腺固醇合成。雖資料標記 `[Data Gap]`，但其藥理機轉有據可查，已在多國核准用於 ART（輔助生殖技術）控制性卵巢刺激，台灣未上市。
+
+---
+
+## 證據評估結果
+
+```json
+{
+  "drug": "Ganirelix",
+  "drugbank_id": "DB06785",
+  "moa_clarification": "GnRH receptor antagonist — 抑制 LH/FSH 分泌，進而降低性腺固醇（雄激素/雌激素）",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "部分多毛症由高雄激素驅動（如 PCOS 相關），GnRH 拮抗劑可抑制 LH → 降低卵巢/睪丸雄激素。但 hypertrichosis 多為遺傳性，與雄激素無關，機轉關聯弱。TxGNN 模型可能因「毛囊」表型相似性而產生假高分。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無任何臨床證據", "TxGNN 高分可能為表型噪音"]
+    },
+    {
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ambras 型為極罕見遺傳性全身性多毛症（TRPS1/8q22 基因相關），屬發育缺陷而非激素驅動，GnRH 拮抗劑機轉無法對應此疾病路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["孤兒疾病", "遺傳機轉與藥物 MOA 不符", "無任何臨床證據"]
+    },
+    {
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有 20 篇文獻均為牙周炎通論（糖尿病/牙周炎雙向關係、EFP 指引、菌斑微生物等），無任何文章涉及 Ganirelix 或 GnRH 拮抗劑於牙周疾病的應用。機轉關聯不明，文獻為疾病背景文獻而非藥物-疾病配對文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22057194",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 牙周炎與糖尿病關係，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "35688447",
+          "study_type": "Clinical Practice Guideline (S3)",
+          "tier": "3",
+          "relevance": "C — EFP 第四期牙周炎治療指引，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "9495612",
+          "study_type": "Observational",
+          "tier": "3",
+          "relevance": "C — 齦下菌斑微生物複合體，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "37435999",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 再生性牙周手術併發症，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "35420698",
+          "study_type": "Systematic Review/RCT",
+          "tier": "2",
+          "relevance": "C — 牙周治療對血糖控制影響，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "36883660",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 牙齦纖維母細胞在牙周炎病理中的角色，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "37452425",
+          "study_type": "Experimental",
+          "tier": "3",
+          "relevance": "C — 褪黑激素外泌體免疫調節，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "29193334",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 牙周/植體周圍組織比較，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "38907216",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 生物材料巨噬細胞免疫治療，與 Ganirelix 無關"
+        },
+        {
+          "pmid": "38362600",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 牙周治療對口腔/腸道菌群影響，與 Ganirelix 無關"
+        }
+      ],
+      "flags": ["20 篇文獻全部為疾病背景文獻，零篇涉及 Ganirelix", "文獻計數具誤導性"]
+    },
+    {
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dandy-Walker 為先天性後顱窩/小腦蚓部發育異常，屬胚胎神經發育結構缺陷。GnRH 拮抗劑無已知神經發育修復機轉，且為後天藥物無法逆轉先天結構異常。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["先天結構缺陷，藥物治療無理論基礎", "無任何臨床證據"]
+    },
+    {
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛幹結構異常（如 trichorrhexis nodosa, pili torti 等）由角蛋白結構基因突變或代謝酵素缺乏所致，屬遺傳性結構缺陷，與 GnRH/性腺軸無機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["遺傳性結構異常，MOA 不匹配", "無任何臨床證據"]
+    },
+    {
+      "disease_name": "familial male-limited precocious puberty",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向機轉警示：此病（又稱 Testotoxicosis）由 LHCGR 基因活化突變引起，LH 受體在無 LH 刺激下自主活化 → 性腺固醇過量分泌，屬 GnRH **非依賴性**性早熟。Ganirelix 抑制 GnRH → LH 路徑，但此疾病的激素生產完全繞過此路徑，GnRH 拮抗劑理論上無效。標準治療為 Ketoconazole 或芳香酶抑制劑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["MOA 與疾病機轉根本不符", "GnRH 非依賴性疾病對 GnRH 拮抗劑無反應", "高 TxGNN 分數為假陽性"]
+    },
+    {
+      "disease_name": "persistent fetal circulation syndrome",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒持續性肺動脈高壓（PPHN）病理機轉為肺血管阻力不降低、卵圓孔/動脈導管持續開放，標準治療為 NO 吸入、Sildenafil、ECMO。GnRH 拮抗劑無已知血管舒張或肺動脈壓降低效果，機轉連結不明。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["機轉完全不符", "新生兒用藥安全性未知", "無任何臨床證據"]
+    },
+    {
+      "disease_name": "aromatase excess syndrome",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "芳香酶過量症候群（CYP19A1 增益功能突變）導致雄激素過度芳香化 → 高雌激素/低雄激素。GnRH 拮抗劑可抑制 LH/FSH → 減少性腺底物供應，理論上可間接減少芳香化底物。然而此病核心為酵素過度活性，標準治療為芳香酶抑制劑（Anastrozole/Letrozole），GnRH 拮抗劑屬次要路徑干預，機轉合理性低至中等。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["間接機轉，屬次要路徑", "標準治療已明確（芳香酶抑制劑）", "無任何臨床證據，需先建立研究假說"]
+    },
+    {
+      "disease_name": "centra precocious puberty 1",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "中樞性性早熟（CPP）由 GnRH 脈衝提前啟動所致，屬 **GnRH 依賴性**疾病，與 Ganirelix MOA 高度吻合。GnRH 拮抗劑理論上可直接阻斷 GnRH 受體 → 抑制 LH/FSH → 延遲性發育。⚠️ 然而：(1) 臨床上標準治療為 GnRH **促效劑**（Leuprolide, Triptorelin）長效脫敏，而非拮抗劑；(2) 已有新一代 GnRH 拮抗劑（Relugolix）正在探索 CPP 用途；(3) 現有資料庫無 Ganirelix 特定 CPP 試驗或文獻。機轉連結強，但有競爭性優越替代品。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["機轉最強 — GnRH 依賴性疾病", "標準治療為 GnRH 促效劑而非拮抗劑", "需與現有治療作頭對頭比較研究設計"]
+    },
+    {
+      "disease_name": "familial isolated trichomegaly",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "孤立性長睫症（如 FZD4 或其他基因相關）屬罕見遺傳性毛囊異常。部分 trichomegaly 與 EGFR 抑制劑副作用或高 IGF-1 狀態相關，但遺傳性家族型與激素軸關聯薄弱。GnRH 拮抗劑機轉對此病無明確支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["孤兒疾病", "遺傳性病因，藥物無法修正", "無任何臨床證據"]
+    }
+  ]
+}
+```
+
+---
+
+## 彙總矩陣
+
+| 適應症 | TxGNN 分 | 證據等級 | 決策階段 | 建議 | 核心問題 |
+|--------|----------|----------|----------|------|----------|
+| hypertrichosis | 0.9998 | **L5** | S0 | ❌ Hold | 多為遺傳性，非激素驅動 |
+| Ambras 型先天性多毛 | 0.9998 | **L5** | S0 | ❌ Hold | 遺傳發育缺陷，MOA 不符 |
+| 牙周惡性畸形症候群 | 0.9997 | **L5** | S0 | ❌ Hold | 20 篇文獻與藥物無關 |
+| Dandy-Walker 症候群 | 0.9997 | **L5** | S0 | ❌ Hold | 先天結構缺陷，不可逆 |
+| 遺傳性毛幹異常 | 0.9997 | **L5** | S0 | ❌ Hold | 角蛋白結構基因缺陷 |
+| 家族性男性性早熟 | 0.9985 | **L5** | S0 | ❌ Hold | ⚠️ GnRH 非依賴性，反向機轉 |
+| 持續性胎兒循環 | 0.9980 | **L5** | S0 | ❌ Hold | 肺血管病變，MOA 完全不符 |
+| 芳香酶過量症 | 0.9980 | **L5** | S0 | 🔬 Research Question | 間接機轉，已有更佳替代品 |
+| 中樞性性早熟 1 | 0.9975 | **L5** | **S1** | 🔬 Research Question | MOA 最吻合，但治療競爭激烈 |
+| 遺傳性孤立長睫症 | 0.9975 | **L5** | S0 | ❌ Hold | 遺傳性，無激素連結 |
+
+---
+
+## 關鍵洞察
+
+### ⚠️ 高 TxGNN 分數 ≠ 高可行性
+本批 10 個適應症均為 **L5 純預測**，整體呈現以下模式：
+
+1. **表型噪音問題**：多個毛髮相關疾病（hypertrichosis、Ambras、毛幹異常、trichomegaly）TxGNN 評分極高，可能因知識圖譜中「毛囊節點」聚集而產生假信號，與 Ganirelix 真實 MOA 無連結。
+
+2. **反向機轉陷阱**：`familial male-limited precocious puberty` 分數高達 0.9985，但此病為 **GnRH 非依賴性**，GnRH 拮抗劑對其無效，屬模型最嚴重假陽性之一。
+
+3. **唯一可探索方向**：`central precocious puberty 1` 具備最強機轉連結（GnRH 依賴性疾病），但需先回答「相比現行 GnRH 促效劑標準治療，Ganirelix 的差異化優勢為何？」方可進入 S2。
+
+4. **文獻品質警告**：`periodontal malformation` 的 20 篇文獻計數產生誤導，均為疾病背景文獻，系統應標記「藥物相關文獻數 = 0」以避免混淆。
+
+> **本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證方可應用。**

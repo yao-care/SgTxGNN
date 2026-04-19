@@ -1,0 +1,365 @@
+## Acitretin (DB00459) 藥物再利用證據分析
+
+以下為完整評估結果：
+
+```json
+{
+  "drug": "Acitretin",
+  "drugbank_id": "DB00459",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Acitretin 為第二代合成類視色素（retinoid），主要機轉為結合 RARα/β/γ 調控角質細胞增殖與分化。全球已核准適應症為乾癬及多種角化症，但本市場標記為「未上市」。需注意：本藥具有極強致畸胎性（Pregnancy Category X），分析中有多個適應症涉及安全性禁忌。",
+  "indications": [
+    {
+      "disease_name": "acne (disease)",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Acitretin 透過 RAR 活化抑制皮脂腺活性並調節濾泡角化，理論上可減少粉刺形成。然而，在痤瘡治療中，同類藥物 Isotretinoin（13-cis retinoic acid）因對皮脂腺具更強選擇性，為已核准標準療法；Acitretin 對皮脂腺的直接效果顯著弱於 Isotretinoin，故機轉存在但非最優路徑。現有文獻多指向 acne inversa（hidradenitis suppurativa，HS）而非典型 acne vulgaris，兩者需明確區分。",
+      "critical_flags": [
+        "NCT04663906 研究對象為 Isotretinoin（非 Acitretin），適應症映射錯誤",
+        "多篇文獻涉及 acne inversa/HS，而非 acne vulgaris",
+        "尚無針對 Acitretin 治療 acne vulgaris 的 RCT 或前瞻性研究"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04663906",
+          "title": "Does Oral Isotretinoin Increase the Risk of Developing Infection With and Complications From Covid-19",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 300,
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Isotretinoin，非 Acitretin；Phase N/A、狀態 UNKNOWN；對評估 Acitretin 用於痤瘡完全無直接參考價值，屬於錯誤的適應症映射結果。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12080949",
+          "title": "Nodulocystic acne and hidradenitis suppurativa treated with acitretin: a case report.",
+          "year": "2002",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "High",
+          "note": "唯一直接報告 Acitretin 用於結節囊腫型痤瘡合併 HS 的案例；屬最低等級臨床證據，但最直接相關。"
+        },
+        {
+          "pmid": "25640693",
+          "title": "European S1 guideline for the treatment of hidradenitis suppurativa/acne inversa.",
+          "year": "2015",
+          "study_type": "Clinical Guideline",
+          "tier": "2",
+          "relevance": "Medium",
+          "note": "歐洲 HS 指引提及 Acitretin 作為二線選項，但 HS（acne inversa）與 acne vulgaris 為不同疾病，適應症須區分。"
+        },
+        {
+          "pmid": "29234829",
+          "title": "[Drug therapy of acne inversa].",
+          "year": "2018",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance": "Medium",
+          "note": "討論 acne inversa 藥物治療，提及 Acitretin，但仍非 acne vulgaris 適應症。"
+        },
+        {
+          "pmid": "8573927",
+          "title": "Retinoids and sebaceous gland activity.",
+          "year": "1995",
+          "study_type": "Mechanistic Review",
+          "tier": "3",
+          "relevance": "Low",
+          "note": "說明類視色素對皮脂腺的調節機轉，支持生物合理性，但為間接機轉文獻。"
+        },
+        {
+          "pmid": "9074840",
+          "title": "Current use and future potential role of retinoids in dermatology.",
+          "year": "1997",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "Low",
+          "note": "一般性皮膚科類視色素綜述，非 Acitretin 痤瘡專論。"
+        },
+        {
+          "pmid": "1617858",
+          "title": "Pharmacokinetics and therapeutic efficacy of retinoids in skin diseases.",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "Low",
+          "note": "藥動學綜述，年代久遠，間接支持機轉。"
+        },
+        {
+          "pmid": "41692081",
+          "title": "Vitamins and the skin: Vitamin A and retinoids in dermatology.",
+          "year": "2026",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "Low",
+          "note": "最新 Vitamin A 綜述，背景資訊，非直接痤瘡 RCT 證據。"
+        },
+        {
+          "pmid": "28476075",
+          "title": "Drugs for discoid lupus erythematosus.",
+          "year": "2017",
+          "study_type": "Cochrane Review",
+          "tier": "1",
+          "relevance": "Low",
+          "note": "Cochrane 高品質綜述，但適應症為盤狀紅斑性狼瘡，非痤瘡，本項為映射雜訊。"
+        },
+        {
+          "pmid": "40888828",
+          "title": "Ethnic Differences of Palmoplantar Pustulosis: A Systematic Review.",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "relevance": "Low",
+          "note": "掌蹠膿皰病系統性回顧，Acitretin 為可能相關藥物，但與痤瘡無直接關聯。"
+        },
+        {
+          "pmid": "2523875",
+          "title": "[Retinoids: the new status. Maintenance therapy, disorders of resorption...]",
+          "year": "1989",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "Low",
+          "note": "年代久遠的類視色素綜述，僅供背景參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "pediatric systemic lupus erythematosus",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Retinoids 具有免疫調節作用，可調控 Th17/Treg 平衡，理論上對自體免疫疾病有潛在相關性。然而，Acitretin 對 SLE 的致病機轉（免疫複合體沉積、補體活化、Type I IFN pathway）無明確干預靶點。兒科族群安全性資料極為有限，且 pSLE 治療已有標準方案（Hydroxychloroquine, Steroids, MMF 等）。",
+      "critical_flags": [
+        "無任何臨床試驗或文獻支持",
+        "兒科族群 Acitretin 使用安全性資料不足",
+        "SLE 致病機轉與 Acitretin 作用靶點無直接連結",
+        "僅為 TxGNN 模型預測，生物合理性薄弱"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fetal erythroblastosis",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胎兒紅母細胞症（Rh 或 ABO 血型不相容引起的溶血性疾病）與 Acitretin 作用機轉完全無交集。Acitretin 為 Pregnancy Category X 藥物，具明確致畸胎性（中軸骨骼、顱面、心臟缺陷），在妊娠相關情境中使用屬絕對禁忌。此適應症存在根本性安全禁忌，不得進一步評估。",
+      "critical_flags": [
+        "⚠️ 安全禁忌：Acitretin 為 Pregnancy Category X，絕對禁用於孕婦",
+        "無生物合理性：胎兒紅母細胞症病理機轉（Rh 同種免疫）與 RAR 通路無關",
+        "無任何臨床或前臨床支持證據",
+        "此預測極可能為 TxGNN 知識圖譜連結雜訊"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome",
+      "txgnn_score": 0.9910,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此罕見癌症易感症候群（可能涉及 TELANGIECTASIA 相關基因）與 Acitretin 之間無已知分子靶點連結。Retinoids 雖有化學預防潛力（透過 RAR 調控細胞分化與凋亡），但針對此特定遺傳症候群無任何前臨床或臨床研究。",
+      "critical_flags": [
+        "極罕見疾病，臨床研究基礎缺乏",
+        "無任何支持證據（試驗 0 篇、文獻 0 篇）",
+        "僅 TxGNN 預測，證據等級最低"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "complement component 4a deficiency",
+      "txgnn_score": 0.9887,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "補體 C4a 缺乏為免疫缺陷相關疾病，主要影響補體系統第二路徑。Acitretin 作用靶點為 RAR 核受體，不直接調控補體蛋白合成或功能。兩者無已知交集。",
+      "critical_flags": [
+        "無生物合理性",
+        "無任何臨床或文獻支持",
+        "補體缺乏症治療路徑（替代療法、感染預防）與 Retinoid 無關"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "subacute bacterial endocarditis",
+      "txgnn_score": 0.9846,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "細菌性心內膜炎為感染性疾病，標準治療為抗生素（及外科手術）。Acitretin 無抗菌活性，且不影響心臟瓣膜生物膜形成或細菌毒力因子的相關通路。此預測明顯缺乏生物合理性，判斷為知識圖譜關聯雜訊。",
+      "critical_flags": [
+        "⚠️ 完全缺乏生物合理性：細菌感染性疾病對 Retinoid 無治療邏輯",
+        "無任何支持證據",
+        "此預測強烈懷疑為 TxGNN 模型假陽性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "familial acanthosis nigricans",
+      "txgnn_score": 0.9843,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "家族性黑棘皮症多由 FGFR2/FGFR3 活化突變或胰島素抵抗導致角質細胞過度增殖。Acitretin 透過 RAR 抑制角質細胞增殖並促進正常分化，機轉上具有相當合理性。類視色素類藥物（包括局部 retinoids）已在其他角化疾病有效，但針對家族性黑棘皮症尚無臨床資料。",
+      "critical_flags": [
+        "有限度生物合理性，但無任何臨床試驗或文獻支持",
+        "需先進行前臨床概念驗證研究",
+        "評為 S0 但比其他純預測項目具較高探索價值"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "prolapse of lacrimal gland",
+      "txgnn_score": 0.9842,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淚腺脫垂為結構性/解剖性眼眶疾患，主要病因為眼眶筋膜支持組織鬆弛。此為機械性問題，標準治療為外科修復。Acitretin 的 RAR 作用機轉對結締組織支撐功能無直接效用，缺乏生物合理性。",
+      "critical_flags": [
+        "純機械性結構問題，藥物治療邏輯不成立",
+        "無任何支持證據",
+        "此預測為明顯模型假陽性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "urticaria, familial localized heat",
+      "txgnn_score": 0.9836,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性局限性熱誘導蕁麻疹為罕見遺傳性肥大細胞活化疾病，主要機轉為溫度刺激觸發組織胺釋放。Acitretin 的 RAR 信號通路與肥大細胞脫顆粒機轉無直接關聯。雖 Retinoids 可調節皮膚免疫反應，但對此特定遺傳性蕁麻疹亞型無已知療效證據。",
+      "critical_flags": [
+        "無任何臨床或文獻支持",
+        "肥大細胞活化機轉與 RAR 通路無直接交集"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Sjogren syndrome",
+      "txgnn_score": 0.9834,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 【重大命名混淆警告】現有 5 篇文獻實際描述的是「Sjögren-Larsson Syndrome（SLS，舍格倫-拉爾森症候群）」——一種 ALDH3A2 基因突變引起的脂肪醛去氫酶缺乏遺傳性魚鱗病，與「Sjögren's Syndrome（乾燥症）」為完全不同的疾病。Acitretin 對 SLS 的療效機轉：活化 RAR 改善角化異常、減輕魚鱗病皮膚症狀，具有合理性且有病例系列支持（L3 等級）。對 Sjögren's Syndrome（自體免疫外分泌腺疾病）：無直接機轉連結，無支持證據。",
+      "critical_flags": [
+        "⚠️ 疾病命名混淆：Sjögren's Syndrome ≠ Sjögren-Larsson Syndrome",
+        "所有文獻均指向 SLS（遺傳性角化症），非自體免疫乾燥症",
+        "若目標適應症為 Sjögren's Syndrome（SS）：證據等級應降為 L5",
+        "若目標適應症為 Sjögren-Larsson Syndrome（SLS）：證據等級可升為 L3",
+        "建議重新確認適應症映射正確性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29704247",
+          "title": "Clinical and molecular characterization and response to acitretin in three families with Sjögren-Larsson",
+          "year": "2018",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "N/A (SLS not SS)",
+          "note": "3 個 SLS 家族的 Acitretin 療效描述，含分子特徵分析；對乾燥症不適用。"
+        },
+        {
+          "pmid": "19197545",
+          "title": "Sjögren-Larsson syndrome: clinical symptoms and dermatological treatment in 34 Swedish patients",
+          "year": "2009",
+          "study_type": "Clinical Cohort",
+          "tier": "2",
+          "relevance": "N/A (SLS not SS)",
+          "note": "34 例 SLS 患者最大規模病例系列，支持 Acitretin 用於 SLS 皮膚症狀，但為 SLS 非 SS。"
+        },
+        {
+          "pmid": "10449931",
+          "title": "Sjögren-Larsson syndrome: early diagnosis, dietary management and biochemical studies",
+          "year": "1999",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "N/A (SLS not SS)",
+          "note": "SLS 早期診斷與管理，涉及 Acitretin 使用，仍非 SS 證據。"
+        },
+        {
+          "pmid": "12064854",
+          "title": "Cutaneous T cell lymphoma in a patient with primary biliary cirrhosis and secondary Sjögren's syndrome",
+          "year": "2002",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "Low",
+          "note": "主要為 CTCL 用 Acitretin 治療，SS 為合併症而非治療目標；間接相關性低。"
+        },
+        {
+          "pmid": "8763418",
+          "title": "An appraisal of acitretin therapy in children with inherited disorders of keratinization.",
+          "year": "1996",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance": "N/A (SLS not SS)",
+          "note": "兒童遺傳性角化症（含 SLS）Acitretin 療效評估，非 SS 適應症。"
+        }
+      ]
+    }
+  ],
+  "overall_summary": {
+    "actionable_indications": [
+      {
+        "disease_name": "acne (disease)",
+        "priority": "Low-Medium",
+        "next_step": "需先區分 acne vulgaris vs. acne inversa（HS）；若為 HS，可評估 Phase 2 研究可行性；若為一般痤瘡，Isotretinoin 為標準療法，Acitretin 無競爭優勢"
+      }
+    ],
+    "hold_indications": [
+      "pediatric systemic lupus erythematosus（無機轉、無證據）",
+      "fetal erythroblastosis（安全禁忌、完全無合理性）",
+      "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome（極罕見、無證據）",
+      "complement component 4a deficiency（無合理性）",
+      "subacute bacterial endocarditis（明顯假陽性）",
+      "prolapse of lacrimal gland（結構性疾病、非藥物適應症）",
+      "urticaria, familial localized heat（無合理性）",
+      "Sjogren syndrome（命名混淆，需重新確認疾病定義）"
+    ],
+    "watch_with_clarification": [
+      {
+        "disease_name": "familial acanthosis nigricans",
+        "reason": "具有限度生物合理性，建議前臨床研究探索"
+      },
+      {
+        "disease_name": "Sjögren-Larsson Syndrome（若重新映射）",
+        "reason": "現有文獻若重新映射為 SLS，可達 L3 等級，具實際臨床意義"
+      }
+    ],
+    "model_reliability_note": "本批次 10 項適應症中，9 項評為 L5/S0，顯示 TxGNN 對 Acitretin 的預測含有大量假陽性（包括細菌性心內膜炎、淚腺脫垂等生物不合理預測）。建議重新審視知識圖譜中 Acitretin 的節點連結品質。"
+  }
+}
+```
+
+---
+
+## 📊 評估總覽表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|-----------|---------|---------|------|---------|
+| acne (disease) | 0.9994 | **L4** | S1 | Research Question | 臨床試驗為 Isotretinoin，非 Acitretin；文獻多涉及 HS |
+| pediatric SLE | 0.9935 | L5 | S0 | Hold | 無證據、無合理機轉 |
+| fetal erythroblastosis | 0.9928 | L5 | S0 | **Hold** ⚠️ | Pregnancy Category X 絕對禁忌 |
+| familial telangiectasia cancer | 0.9910 | L5 | S0 | Hold | 極罕見、無任何證據 |
+| C4a deficiency | 0.9887 | L5 | S0 | Hold | 補體通路與 RAR 無交集 |
+| subacute bacterial endocarditis | 0.9846 | L5 | S0 | Hold | 明顯假陽性，無生物合理性 |
+| familial acanthosis nigricans | 0.9843 | L5 | S0 | Research Question* | 有限度機轉合理性 |
+| prolapse of lacrimal gland | 0.9842 | L5 | S0 | Hold | 結構性疾病，非藥物適應症 |
+| urticaria familial heat | 0.9836 | L5 | S0 | Hold | 無合理機轉 |
+| **Sjogren syndrome** | 0.9834 | **L4** | S1 | Hold ⚠️ | **命名混淆：文獻為 SLS 非 SS** |
+
+> **關鍵發現**：本批次預測中最重要的品質問題有二：
+> 1. **「Sjogren syndrome」的文獻實際描述 Sjögren-Larsson Syndrome（SLS）**，兩者為完全不同疾病，須修正疾病映射。
+> 2. **痤瘡臨床試驗映射至 Isotretinoin 研究**，需過濾研究藥物不符合的試驗，避免高估證據品質。

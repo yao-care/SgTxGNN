@@ -1,0 +1,2233 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01597-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cilastatin",
+    "drugbank_id": "DB01597",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "staphylococcus aureus infection",
+      "txgnn": {
+        "score": 0.9993921518325806,
+        "rank": 1315
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00707239",
+            "title": "A Phase 2, Multicenter, Randomized, Double-Blind, Comparative Study Of The Safety And Efficacy of 2 Doses Of Tigecycline Versus Imipenem/Cilastatin For The Treatment Of Subjects With Hospital-Acquired Pneumonia",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 108,
+            "start_date": "2008-12",
+            "completion_date": "2011-06",
+            "brief_summary": "This study will compare the safety and efficacy of a tigecycline regimen versus an imipenem/cilastatin regimen for the treatment of subjects who are hospitalized with hospital-acquired pneumonia (HAP). At least 70% of enrolled subjects will have ventilator-associated pneumonia (VAP). Two dose levels of tigecycline will be assessed and compared to imipenem/cilastatin in parallel. Subjects will receive intravenous therapy from a minimum of 7 \\& up to 14 consecutive days, the exact duration will be",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，已終止，n=108。比較兩種抗菌方案的安全性與療效，Imipenem/Cilastatin 可能為對照臂之一，但試驗提前終止限制了結論強度，且非 S. aureus 專一設計。"
+            }
+          },
+          {
+            "nct_id": "NCT01356472",
+            "title": "Linezolid Alone or Combined With Carbapenem Against Methicillin-resistant Staphylococcus Aureus (MRSA) in Vitro and in Ventilator-associated Pneumonia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2011-06",
+            "completion_date": "",
+            "brief_summary": "As previous studies showed that the synergy between linezolid and carbapenem in vitro and in vivo (animal studies), our study is aim to investigate the activity of linezolid, alone and in combination with carbapenem against methicillin-resistant Staphylococcus aureus (MRSA) in ventilator-associated pneumonia (VAP) patients.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，狀態不明，n=60。研究 Linezolid 單用或合併 Carbapenem 治療 MRSA，Carbapenem 含 Imipenem/Cilastatin，但狀態未知（UNKNOWN）且規模小，對 Cilastatin 獨立貢獻無法評估。"
+            }
+          },
+          {
+            "nct_id": "NCT03583333",
+            "title": "A Multi-national Phase 3, Randomized, Double-Blind, Active Comparator-Controlled Clinical Trial to Study the Safety, Tolerability, and Efficacy of Imipenem/Cilastatin/Relebactam (MK-7655A) Versus Piperacillin/Tazobactam in Subjects With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 274,
+            "start_date": "2018-09-18",
+            "completion_date": "2022-07-12",
+            "brief_summary": "This study will evaluate the efficacy and safety of a FDC of imipenem/cilastatin (IMI) and relebactam (REL) \\[IMI/REL, MK-7655A\\] compared to piperacillin/tazobactam (PIP/TAZ) in the treatment of adults diagnosed with Hospital-Acquired Bacterial Pneumonia (HABP) or Ventilator-Associated Bacterial Pneumonia (VABP). The primary hypothesis is that IMI/REL is non-inferior to PIP/TAZ as measured by the incidence rate of all-cause mortality through Day 28 post-randomization.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3，已完成，n=274。較大規模試驗，但試驗主題與 Imipenem/Cilastatin 的關聯性需進一步確認，可能為比較其他抗菌藥物的優越性研究，與 S. aureus 專一適應症關聯性有限。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3460521",
+            "title": "Imipenem-cilastatin in the treatment of methicillin-sensitive and methicillin-resistant Staphylococcus aureus infections.",
+            "authors": [
+              "Fan W",
+              "del Busto R",
+              "Love M",
+              "Markowitz N",
+              "Cendrowski C"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1986",
+            "abstract": "Imipenem-cilastatin was evaluated for efficacy and toxicity as an antistaphylococcal agent in 23 patients; 11 of these patients were infected with methicillin-resistant Staphylococcus aureus (MRSA), and 12 were infected with methicillin-susceptible S. aureus (MSSA). There were 15 soft tissue, 5 endovascular, and 3 skeletal infections and a total of nine patients with bacteremia. As determined by in vitro susceptibility testing, the MICs for 90% of the MRSA and MSSA isolates tested were 6.25 and ",
+            "classification": {
+              "study_type": "Comparative Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18649613",
+            "title": "Diabetic foot infection.",
+            "authors": [
+              "Bader Mazen S"
+            ],
+            "journal": "American family physician",
+            "year": "2008",
+            "abstract": "Foot infections are common in patients with diabetes and are associated with high morbidity and risk of lower extremity amputation. Diabetic foot infections are classified as mild, moderate, or severe. Gram-positive bacteria, such as Staphylococcus aureus and beta-hemolytic streptococci, are the most common pathogens in previously untreated mild and moderate infection. Severe, chronic, or previously treated infections are often polymicrobial. The diagnosis of diabetic foot infection is based on ",
+            "classification": {
+              "study_type": "Clinical Review (Diabetic Foot)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33020155",
+            "title": "Case Commentary: Imipenem/Cilastatin and Fosfomycin for Refractory Methicillin-Resistant Staphylococcus aureus Infection: a Novel Combination Therapy.",
+            "authors": [
+              "Sakoulas George"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2020",
+            "abstract": "Given that it is unlikely that randomized clinical trials will yield answers for treating the most challenging bacteremic infections caused by methicillin-resistant Staphylococcus aureus, clinicians, microbiologists, and pharmacists will have to cooperate to discover novel ways to select successful individualized antimicrobial therapy for these patients. An example of such a strategy was demonstrated in the identification and utilization of imipenem/cilastatin plus fosfomycin to treat a particul",
+            "classification": {
+              "study_type": "Case Commentary (MRSA 難治病例)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35294769",
+            "title": "Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.",
+            "authors": [
+              "Zhanel George G",
+              "Pozdirca Marianna",
+              "Golden Alyssa R",
+              "Lawrence Courtney K",
+              "Zelenitsky Sheryl"
+            ],
+            "journal": "Drugs",
+            "year": "2022",
+            "abstract": "Sulopenem (formerly known as CP-70,429, and CP-65,207 when a component of a racemic mixture with its R isomer) is an intravenous and oral penem that possesses in vitro activity against fluoroquinolone-resistant, extended spectrum β-lactamases (ESBL)-producing, multidrug-resistant (MDR) Enterobacterales. Sulopenem is being developed to treat patients with uncomplicated and complicated urinary tract infections (UTIs) as well as intra-abdominal infections. This review will focus mainly on its use i",
+            "classification": {
+              "study_type": "Narrative Review (Sulopenem)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22196394",
+            "title": "New insights into meticillin-resistant Staphylococcus aureus (MRSA) pathogenesis, treatment and resistance.",
+            "authors": [
+              "Gould Ian M",
+              "David Michael Z",
+              "Esposito Silvano",
+              "Garau Javier",
+              "Lina Gerard"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2012",
+            "abstract": "Meticillin-resistant Staphylococcus aureus (MRSA) remains one of the principal multiply resistant bacterial pathogens causing serious healthcare-associated and community-onset infections. This paper reviews recent studies that have elucidated the virulence strategies employed by MRSA, key clinical trials of agents used to treat serious MRSA infections, and accumulating data regarding the implications of antibacterial resistance in MRSA for clinical success during therapy. Recent pre-clinical dat",
+            "classification": {
+              "study_type": "Narrative Review (MRSA)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12878512",
+            "title": "In vivo antibacterial activity of S-3578, a new broad-spectrum cephalosporin: methicillin-resistant Staphylococcus aureus and Pseudomonas aeruginosa experimental infection models.",
+            "authors": [
+              "Tsuji Masakatsu",
+              "Takema Morio",
+              "Miwa Hideaki",
+              "Shimada Jingoro",
+              "Kuwahara Shogo"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2003",
+            "abstract": "The in vivo antibacterial activity of S-3578, a new parental cephalosporin, was compared with those of cefepime, ceftriaxone, ceftazidime, imipenem-cilastatin, and vancomycin. The efficacy of S-3578 against systemic infections caused by methicillin-resistant Staphylococcus aureus (MRSA) SR3637 (50% effective dose [ED(50)], 7.21 mg/kg of body weight) was almost the same as that of vancomycin. In contrast, cefepime and imipenem-cilastatin were less active against this pathogen (ED(50)s, >100 and >",
+            "classification": {
+              "study_type": "In Vivo Preclinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3378959",
+            "title": "Comparative efficacies of imipenem-cilastatin and vancomycin in experimental aortic valve endocarditis due to methicillin resistant Staphylococcus aureus.",
+            "authors": [
+              "Chandrasekar P H",
+              "Levine D P",
+              "Price S",
+              "Rybak M J"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1988",
+            "abstract": "Activities of imipenem and vancomycin against methicillin resistant Staphylococcus aureus (MRSA) were compared in vitro and in a rabbit model of aortic valve endocarditis. Against 25 MRSA clinical isolates, imipenem was bacteriostatic (MIC90/MBC90, mg/l 8/32) in vitro while vancomycin was bactericidal (MIC90/MBC90, mg/l 2/4). Rabbit endocarditis was produced with a MRSA isolate against which both drugs were bactericidal. Imipenem-cilastatin had better efficacy than vancomycin by the following cr",
+            "classification": {
+              "study_type": "Animal Model (Endocarditis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36804370",
+            "title": "Off-label use versus formal recommendations of conventional and novel antibiotics for the treatment of infections caused by multidrug-resistant bacteria.",
+            "authors": [
+              "Jean Shio-Shin",
+              "Liu I-Min",
+              "Hsieh Po-Chuen",
+              "Kuo Dai-Huang",
+              "Liu Yi-Lien"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2023",
+            "abstract": "The infections caused by multidrug- and extensively drug-resistant (MDR, XDR) bacteria, including Gram-positive cocci (GPC, including methicillin-resistant Staphylococcus aureus, MDR-Streptococcus pneumoniae and vancomycin-resistant enterococci) and Gram-negative bacilli (GNB, including carbapenem-resistant [CR] Enterobacterales, CR-Pseudomonas aeruginosa and XDR/CR-Acinetobacter baumannii complex) can be quite challenging for physicians with respect to treatment decisions. Apart from complicate",
+            "classification": {
+              "study_type": "Narrative Review (Off-label antibiotics)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1771308",
+            "title": "Antibiotic therapy of pleural empyema.",
+            "authors": [
+              "Hughes C E",
+              "Van Scoy R E"
+            ],
+            "journal": "Seminars in respiratory infections",
+            "year": "1991",
+            "abstract": "Most empyemas occur as a complication of pneumonia or lung abscess, but 15% to 30% occur after thoracic surgery and 10% occur in association with an intraabdominal infection. The bacteriology of empyemas that occur in association with lung infections is often polymicrobial and mixed, containing multiple species of both aerobic and anaerobic bacteria, the latter found in up to 75% of cases. In contrast, empyema following thoracic surgery is more likely to be monomicrobial and caused by common nos",
+            "classification": {
+              "study_type": "Narrative Review (Pleural Empyema)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8072190",
+            "title": "[Clinical effect of the combined therapy of arbekacin and imipenem/cilastatin against methicillin-resistant Staphylococcus aureus].",
+            "authors": [
+              "Hashimoto A",
+              "Ohtsubo T",
+              "Tomono K",
+              "Kaku M",
+              "Koga H"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1994",
+            "abstract": "We evaluated the efficacy of combined therapy of arbekacin (ABK) and imipenem/cilastatin (IPM/CS) against infections by methicillin-resistant Staphylococcus aureus (MRSA). The MICs of ampicillin, cefmetazole, cefotiam, cefuzonam, flomoxef, fosfomycin, ofloxacin, minocycline, ABK and IPM/CS against clinically isolated strains of MRSA were examined. Almost all strains of MRSA were resistant to these antibiotics except ABK. Furthermore, combination of ABK and IPM/CS showed smaller MICs than that of",
+            "classification": {
+              "study_type": "Clinical Trial (Combination Therapy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10588305",
+            "title": "Combined effects of vancomycin and imipenem against methicillin-resistant Staphylococcus aureus (MRSA) in vitro and in vivo.",
+            "authors": [
+              "Totsuka K",
+              "Shiseki M",
+              "Kikuchi K",
+              "Matsui Y"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1999",
+            "abstract": "Infectious disease caused by methicillin-resistant Staphylococcus aureus (MRSA) often develops in compromised hosts in whom a single administration of vancomycin is usually not effective. We assessed the combined antimicrobial effects of vancomycin and imipenem against MRSA growth in vitro as well as in vivo using a neutropenic mouse thigh infection model. Synergic and additive effects of the two drugs were observed for 34 and two, respectively, of the 36 clinical isolates of MRSA, as determined",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3859208",
+            "title": "Pneumonia treated with imipenem/cilastatin.",
+            "authors": [
+              "Salata R A",
+              "Gebhart R L",
+              "Palmer D L",
+              "Wade B H",
+              "Scheld W M"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1985",
+            "abstract": "In an open, prospective, multicenter trial the efficacy and tolerance of imipenem/cilastatin for the treatment of bacterial pneumonia was investigated. Forty-three adults were studied: 29 with nosocomial and 14 with community-acquired infections. Significant underlying disease was present in 91 percent of patients. Nosocomial infection was frequently associated with endotracheal intubation (48 percent), prior antibiotic therapy (48 percent), and recent surgery (31 percent). Most frequent sputum ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15364304",
+            "title": "Newer carbapenems for urinary tract infections.",
+            "authors": [
+              "Matsumoto Tetsuro",
+              "Muratani Tetsuro"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2004",
+            "abstract": "Four carbapenems have been available clinically in Japan. These are imipenem/cilastatin (IMIP/CS) and panipenem/ betamipron (PANI/BP) of the older compounds and newer carbapenems such as biapem (BIAP) and meropenem (MERO). The latter compounds are relatively stable to dehydropeptidase-1 (DHP-1) and have been reported to have higher antimicrobial activities compared to the earlier carbapenems. The antimicrobial activity of these four carbapenems against fresh urinary isolates showed high activiti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19884364",
+            "title": "In vivo activity of ceftobiprole in murine skin infections due to Staphylococcus aureus and Pseudomonas aeruginosa.",
+            "authors": [
+              "Fernandez Jeffrey",
+              "Hilliard Jamese J",
+              "Abbanat Darren",
+              "Zhang Wenyan",
+              "Melton John L"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2010",
+            "abstract": "Ceftobiprole, a broad-spectrum cephalosporin with activity against methicillin-resistant Staphylococcus aureus (MRSA) (P. Hebeisen et al., Antimicrob. Agents Chemother. 45:825-836, 2001), was evaluated in a subcutaneous skin infection model with Staphylococcus aureus Smith OC 4172 (methicillin-susceptible S. aureus [MSSA]), S. aureus OC 8525 (MRSA), Pseudomonas aeruginosa OC 4351 (having an inducible AmpC beta-lactamase), and P. aeruginosa OC 4354 (overproducing AmpC beta-lactamase). In the MSSA",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16982286",
+            "title": "Tigecycline: a glycylcycline antimicrobial agent.",
+            "authors": [
+              "Doan Thien-Ly",
+              "Fung Horatio B",
+              "Mehta Dhara",
+              "Riska Paul F"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2006",
+            "abstract": "Tigecycline, the first glycylcycline to be approved by the US Food and Drug Administration, is a structural analogue of minocycline that was designed to avoid tetracycline resistance mediated by ribosomal protection and drug efflux. It is indicated for the treatment of complicated skin and skin-structure infections and complicated intra-abdominal infections and is available for intravenous administration only.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21895553",
+            "title": "Current review of antimicrobial treatment of nosocomial pneumonia caused by multidrug-resistant pathogens.",
+            "authors": [
+              "Jean Shio-Shin",
+              "Hsueh Po-Ren"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2011",
+            "abstract": "Nosocomial pneumonia (including ventilator-associated pneumonia; VAP), a consistently difficult-to-treat entity, is frequently caused by multidrug-resistant (MDR) or pandrug-resistant (PDR) bacteria. Given the high mortality rates caused by drug-resistant bacteria and the difficulty of developing new potent antibiotics to target the problematic pathogens, combination regimens are under ardent evaluation as new strategies to overcome increasing drug resistance. Adjustment of the administration me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12657103",
+            "title": "Combined effect of clarithromycin and imipenem/cilastatin against urinary biofilm infection after pyeloplasty.",
+            "authors": [
+              "Furuhata Masayuki",
+              "Iwamura Masatsugu",
+              "Baba Shiro",
+              "Inoue Matsuhisa"
+            ],
+            "journal": "International journal of urology : official journal of the Japanese Urological Association",
+            "year": "2003",
+            "abstract": "The present report concerns a 38-year-old man, who had been treated with pyeloplasty and lithotomy for the improvement of urinary excretion and resolution of a kidney stone. The patient developed a biofilm infection involving Pseudomonas aeruginosa and Staphylococcus epidermidis, and had been suffering from recurrent acute pyelonephritis for one year. Combination therapy with clarithromycin (CAM) and imipenem/cilastatin (IMP/CS) consisted of administration of CAM at a dose of 400 mg/day for 1 we",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9158321",
+            "title": "Imipenem-cilastatin-induced leukocytoclastic vasculitis.",
+            "authors": [
+              "Reiner M R",
+              "Brunetti V A"
+            ],
+            "journal": "Journal of the American Podiatric Medical Association",
+            "year": "1997",
+            "abstract": "A maculopapular rash has been associated with the administration of imipenem-cilastatin, an antibiotic that was used for treatment of a postoperative infection. This is a first-time association of imipenem with a leukocytoclastic vasculitic reaction. Leukocytoclastic vasculitis has been previously documented with ciprofloxacin, zidovudine, piperazine, and lithium.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8514648",
+            "title": "Synergic activity of imipenem/cilastatin combined with cefotiam against methicillin-resistant Staphylococcus aureus.",
+            "authors": [
+              "Oka S",
+              "Goto M",
+              "Kaji Y",
+              "Kimura S",
+              "Matsuda K"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1993",
+            "abstract": "The synergic activity of imipenem/cilastatin combined with cefotiam was studied in a mouse bacteraemia model. Combinations of imipenem plus cefotiam in ratios from 1:5 to 1:160 were more effective than either imipenem alone or cefotiam alone (P < 0.05). Synergy was observed against both beta-lactamase producing and beta-lactamase non-producing MRSA. Staggered combinations of imipenem with cefotiam (each drug was administered at a different time) were studied in an in-vitro pharmacokinetic system",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3890533",
+            "title": "Pathogenesis and treatment of endocarditis.",
+            "authors": [
+              "Donabedian H",
+              "Freimer E H"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1985",
+            "abstract": "The rabbit model has been invaluable for in vivo studies in the pathogenesis and treatment of bacterial endocarditis. Both of the features of the mature bacterial vegetations in this rabbit model, i.e., absence of phagocytosis and decreased metabolic activity, provide evidence to support the concept that a rapidly bactericidal antimicrobial agent provides the optimal approach to the successful treatment of endocarditis. Imipenem, a carbapenem with a very broad spectrum of in vitro activity, has ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cilastatin 透過抑制 DHP-I，使 Imipenem 在泌尿道外（血液、組織）維持有效濃度，從而增強 Imipenem 對革蘭氏陽性菌（含 MSSA）的 β-lactam 殺菌效果。惟 MRSA 對 carbapenem 天然耐藥（PBP2a 介導），複合製劑對 MRSA 效果有限。需釐清是否針對 MSSA 或特定組織感染的再利用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn": {
+        "score": 0.9989559650421144,
+        "rank": 2068
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉關聯。慢性鼻竇炎病理機轉涉及黏膜免疫失調、多形性菌叢失衡（含厭氧菌），雖 Imipenem 對厭氧菌有活性，但 Cilastatin 本身無抗菌或抗炎特性，且 TxGNN 高分可能源於廣義鼻竇炎知識圖譜節點共現，並非藥理機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn": {
+        "score": 0.9989181756973268,
+        "rank": 2128
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無臨床或機轉證據。篩竇炎為局部解剖結構感染，通常由 Streptococcus pneumoniae、H. influenzae、厭氧菌引起。Cilastatin 單獨無效；碳青黴烯類在慢性鼻竇炎通常並非一線選擇，且無針對性臨床資料。TxGNN 分數（0.9989）可能為知識圖譜拓撲偽關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "sinusitis",
+      "txgnn": {
+        "score": 0.9988314509391784,
+        "rank": 2281
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3210301",
+            "title": "[Pharmacokinetic and clinical studies on imipenem/cilastatin sodium in neonates and premature infants].",
+            "authors": [
+              "Toyonaga Y",
+              "Sugita M",
+              "Hori M",
+              "Joh K"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1988",
+            "abstract": "Imipenem/cilastatin sodium (IPM/CS) was administered in a dose of 10 mg/10 mg/kg or 20 mg/20 mg/kg by a 1-hour intravenous drip infusion to 19 mature and premature neonates with ages from 1 to 12 days with various bacterial infections, and plasma concentrations and urinary recovery rates in these subjects were measured. Because of the small number of patients recruited, neonates were not divided into mature and premature groups, but into 3 groups based on their day-ages: 0-3 days, 4-7 days and 8",
+            "classification": {
+              "study_type": "Pediatric PK/Clinical Study (Neonates)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14664657",
+            "title": "Levofloxacin: a review of its use in the treatment of bacterial infections in the United States.",
+            "authors": [
+              "Croom Katherine F",
+              "Goa Karen L"
+            ],
+            "journal": "Drugs",
+            "year": "2003",
+            "abstract": "Levofloxacin (Levaquin) is a fluoroquinolone antibacterial agent with a broad spectrum of activity against Gram-positive and Gram-negative bacteria and atypical respiratory pathogens. It is active against both penicillin-susceptible and penicillin-resistant Streptococcus pneumoniae. The prevalence of S. pneumoniae resistance to levofloxacin is <1% overall in the US.A number of randomised comparative trials in the US have demonstrated the efficacy of levofloxacin in the treatment of infections of",
+            "classification": {
+              "study_type": "Narrative Review (Levofloxacin)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12269858",
+            "title": "Levofloxacin: an updated review of its use in the treatment of bacterial infections.",
+            "authors": [
+              "Hurst Miriam",
+              "Lamb Harriet M",
+              "Scott Lesley J",
+              "Figgitt David P"
+            ],
+            "journal": "Drugs",
+            "year": "2002",
+            "abstract": "Levofloxacin is the L-form of the fluoroquinolone antibacterial agent, ofloxacin. In in vitro studies, levofloxacin demonstrated a broad range of activity against Gram-positive and -negative organisms and anaerobes. The drug is more active against Gram-positive organisms than ciprofloxacin, but less active than newer fluoroquinolones such as gatifloxacin. Its activity against Streptococcus pneumoniae is unaffected by the presence of penicillin resistance. In several randomised controlled trails,",
+            "classification": {
+              "study_type": "Narrative Review (Levofloxacin)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37361939",
+            "title": "Nasopharyngeal Mycobacterium abscessus Infection: A Case Report and Literature Review.",
+            "authors": [
+              "Kaji Masanori",
+              "Namkoong Ho",
+              "Nagao Genta",
+              "Azekawa Shuhei",
+              "Nakagawara Kensuke"
+            ],
+            "journal": "Infection and drug resistance",
+            "year": "2023",
+            "abstract": "Mycobacterium abscessus (M. abscessus) is a rapidly growing bacterium (RGM) that causes refractory pulmonary and extrapulmonary infections. However, studies investigating pharyngeal and laryngeal M. abscessus infections are limited.",
+            "classification": {
+              "study_type": "Case Report (NTM)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17668809",
+            "title": "[Sepsis in the sphenoiditis patient].",
+            "authors": [
+              "Preś Krzysztof",
+              "Bochnia Marek",
+              "Rostkowska-Nadolska Beata",
+              "Jaworska Marzena",
+              "Kubacka Marzena"
+            ],
+            "journal": "Otolaryngologia polska = The Polish otolaryngology",
+            "year": "2007",
+            "abstract": "We present a case of sepsis caused by isolated sphenoiditis.",
+            "classification": {
+              "study_type": "Case Report (Sinusitis + Sepsis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11905002",
+            "title": "[Clinical and bacteriological features of six cases with intracranial abscess in childhood].",
+            "authors": [
+              "Hoshino Tadashi",
+              "Nakamura Akira"
+            ],
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "2002",
+            "abstract": "From October 1988 to March 2001, 5 patients with 6 episodes of intracranial abscesses were admitted to Chiba-Children's Hospital. Average age when they were admitted was 10 years and 1 month. Initial clinical symptoms were fever in 5 cases, and headache in 1 case. It took 21 days from the appearance of the initial symptoms to diagnose the intracranial abscess. Four out of 5 patients had underlying diseases that were prone to cause intracranial abscess. Two patients of these were cyanotic congeni",
+            "classification": {
+              "study_type": "Case Series (Intracranial Abscess)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "6 篇文獻中，直接涉及 Imipenem/Cilastatin 用於鼻竇炎的僅有 PMID 3210301（1988 年新生兒 PK 研究，非成人鼻竇炎）及 PMID 17668809（鼻竇炎併發敗血症個案）。其餘為 Levofloxacin 評論或顱內膿瘍病例，均屬間接或情境性引用。證據質量低，不支持再利用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn": {
+        "score": 0.9985846281051636,
+        "rank": 2636
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 生物學合理性極低。副鼻竇腫瘤為惡性腫瘤，治療涉及手術、放療、化療；DHP-I 抑制劑對腫瘤無已知機轉。TxGNN 高分（0.9986）極可能來自知識圖譜拓撲偽關聯（鼻竇炎→鼻竇腫瘤→抗菌藥）。零臨床試驗、零文獻支持，不具科學追蹤價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pneumonia",
+      "txgnn": {
+        "score": 0.9981390237808228,
+        "rank": 3224
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00236834",
+            "title": "A Multicenter, Randomized, Open Label Study to Compare the Safety and Efficacy of Levofloxacin With That of Imipenem/Cilastatin in the Treatment of Nosocomial Pneumonia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 438,
+            "start_date": "1997-12",
+            "completion_date": "2001-06",
+            "brief_summary": "The purpose of this study is to compare the safety and effectiveness of levofloxacin with imipenem/cilastatin in the treatment of hospital-acquired pneumonia",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，已完成，n=438。直接比較 Levofloxacin 與 Imipenem/Cilastatin 治療肺炎，高相關性 RCT，提供 Imipenem/Cilastatin 在社區獲得性肺炎的直接療效數據。"
+            }
+          },
+          {
+            "nct_id": "NCT00707239",
+            "title": "A Phase 2, Multicenter, Randomized, Double-Blind, Comparative Study Of The Safety And Efficacy of 2 Doses Of Tigecycline Versus Imipenem/Cilastatin For The Treatment Of Subjects With Hospital-Acquired Pneumonia",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 108,
+            "start_date": "2008-12",
+            "completion_date": "2011-06",
+            "brief_summary": "This study will compare the safety and efficacy of a tigecycline regimen versus an imipenem/cilastatin regimen for the treatment of subjects who are hospitalized with hospital-acquired pneumonia (HAP). At least 70% of enrolled subjects will have ventilator-associated pneumonia (VAP). Two dose levels of tigecycline will be assessed and compared to imipenem/cilastatin in parallel. Subjects will receive intravenous therapy from a minimum of 7 \\& up to 14 consecutive days, the exact duration will be",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，已終止，與 S. aureus 指標重疊，肺炎相關性需視試驗詳細方案而定。"
+            }
+          },
+          {
+            "nct_id": "NCT00589693",
+            "title": "A Prospective, Randomized, Double-Blind, Double-Dummy, Multicenter Study to Assess the Safety and Efficacy of Doripenem Compared With Imipenem-Cilastatin in the Treatment of Subjects With Ventilator-Associated Pneumonia",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 274,
+            "start_date": "2008-04",
+            "completion_date": "2011-06",
+            "brief_summary": "The purpose of this study is to show that doripenem is as effective as imipenem-cilastatin in the treatment of patients with ventilator-associated pneumonia.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，已終止，n=274。雖提前終止降低結論效力，但研究設計本身（雙盲、活性對照）仍提供部分安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT02493764",
+            "title": "A Phase III, Randomized, Double-Blind, Active Comparator-Controlled Clinical Trial to Study the Safety, Tolerability, and Efficacy of Imipenem/Cilastatin/Relebactam (MK-7655A) Versus Piperacillin/Tazobactam in Subjects With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 537,
+            "start_date": "2015-11-24",
+            "completion_date": "2019-04-03",
+            "brief_summary": "This study aims to compare treatment with a fixed-dose combination (FDC) of imipenem/relebactam/cilastatin (IMI/REL) with a FDC of piperacillin/tazobactam (PIP/TAZ) in participants with hospital-acquired or ventilator-associated bacterial pneumonia (HABP or VAPB, respectively). The primary hypothesis is that IMI/REL is non-inferior to PIP/TAZ in the incidence rate of all-cause mortality.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，已完成，n=537。大型雙盲活性對照試驗，直接評估肺炎治療，具高統計效力。"
+            }
+          },
+          {
+            "nct_id": "NCT03969901",
+            "title": "A Phase 2/3 Open-label, Randomized, Active-controlled Clinical Study to Evaluate the Safety, Tolerability, Efficacy and Pharmacokinetics of MK-7655A in Pediatric Participants From Birth to Less Than 18 Years of Age With Confirmed or Suspected Gram-negative Bacterial Infection",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 115,
+            "start_date": "2019-10-08",
+            "completion_date": "2024-05-07",
+            "brief_summary": "The primary purpose of this study is to evaluate the safety and tolerability of imipenem/cilastatin/relebactam (IMI/REL) in participants from birth to less than 18 years of age with confirmed or suspected gram-negative bacterial infection. Participants are expected to require hospitalization through completion of intravenous (IV) study intervention, and have at least one of the following primary infection types: hospital-acquired bacterial pneumonia (HABP) or ventilator-associated bacterial pneu",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3，已完成，n=115。混合期設計，對肺炎的安全性與療效提供全面評估。"
+            }
+          },
+          {
+            "nct_id": "NCT00080496",
+            "title": "A Phase 3, Multicenter, Randomized, Double-Blind, Comparative Study Of The Efficacy And Safety Of Tigecycline Vs Imipenem/Cilastatin For The Treatment Of Subjects With Nosocomial Pneumonia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 430,
+            "start_date": "2003-07",
+            "completion_date": "2006-12",
+            "brief_summary": "To compare the efficacy and safety of the tigecycline regimen with that of the imipenem/cilastatin regimen in subjects with nosocomial pneumonia.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，已完成，n=430。Tigecycline vs. Imipenem/Cilastatin 的 HAP 對照試驗，直接支持複合製劑在 HAP 的使用。"
+            }
+          },
+          {
+            "nct_id": "NCT05561764",
+            "title": "A Multicenter, Open-label Study to Determine the Pharmacokinetics, Safety, and Outcomes of Imipenem/Cilastatin/Relebactam During Treatment of Acute Pulmonary Exacerbations in Adolescent and Adult Patients With Cystic Fibrosis",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2023-01-03",
+            "completion_date": "2024-12-11",
+            "brief_summary": "There is established evidence that patients with Cystic Fibrosis (CF) may have altered antibiotic pharmacokinetics compared with non-CF patients. Imipenem/cilastatin/relebactam is a novel broad spectrum intravenous beta-lactam/beta-lactamase inhibitor combination antibiotic with potent activity against multidrug resistant Gram-negative bacteria, including imipenem non-susceptible Pseudomonas aeruginosa. Relebactam has also been shown to restore imipenem activity in Burkholderia cepacia complex, ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，已終止，n=4。Imipenem/Cilastatin PK 研究，提前終止且樣本數極小，臨床意義有限，但提供特殊族群的藥動學參考。"
+            }
+          },
+          {
+            "nct_id": "NCT00515034",
+            "title": "A Randomized, Open-Label, Multicenter Study to Assess the Safety and Tolerability of Doripenem Compared With Imipenem in the Treatment of Subjects With Complicated Intra-Abdominal Infections or Ventilator Associated Pneumonia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 146,
+            "start_date": "2007-10",
+            "completion_date": "2008-11",
+            "brief_summary": "The purpose of this study is to assess the safety and tolerability of doripenem compared to imipenem in Ventilator-assisted pneumonia and complicated Intra-abdominal Infection. The study population will include hospitalized patients (or patients resident in a chronic health care facility) who have a diagnosis of either Ventilator associated pneumonia or complicated Intra-abdominal Infection.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，已完成，n=146。Doripenem vs. Imipenem/Cilastatin for HAP，提供同類比較基準，間接支持複合製劑在 HAP 的地位。"
+            }
+          },
+          {
+            "nct_id": "NCT03894046",
+            "title": "A Randomized, Active-controlled Study to Evaluate the Efficacy and Safety of Intravenous Sulbactam-ETX2514 in the Treatment of Patients With Infections Caused by Acinetobacter Baumannii-calcoaceticus Complex",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 207,
+            "start_date": "2019-09-05",
+            "completion_date": "2021-07-26",
+            "brief_summary": "This is a 2-part study, with Part A being the randomized, controlled portion of the study in patients with ABC hospital-acquired bacterial pneumonia (HABP), ventilator-associated bacterial pneumonia (VABP), or bacteremia. Part B is the single-group portion of the study and includes ABC infections that are resistant to or have failed colistin or polymyxin B treatment, as detailed in the inclusion criteria.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，已完成，n=207。Sulbactam-Etopoxide vs. Imipenem/Cilastatin，重要對照研究，評估耐藥菌肺炎場景。"
+            }
+          },
+          {
+            "nct_id": "NCT05204563",
+            "title": "A Multicenter, Randomized, Double-Blind, Comparative, Phase 3 Study to Evaluate the Efficacy and Safety of Intravenous Imipenem/Cilastatin/XNW4107 in Comparison With Imipenem/Cilastatin/Relebactam in Adults With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia (EudraCT no. 2022-000081-18) (EUCTR no. 2022-501952-27-00) (IND no. 146614)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 450,
+            "start_date": "2022-07-31",
+            "completion_date": "2024-09-29",
+            "brief_summary": "This study aims to compare treatment with Imipenem/Cilastatin-XNW4107 (IMI-XNW4107) with imipenem/cilastatin/relebactam (IMI/REL) in participants with hospital-acquired or ventilator-associated bacterial pneumonia (HABP or VAPB, respectively). The primary hypothesis is that IMI-XNW4107 is non-inferior to IMI/REL in all-cause mortality.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，已完成，n=450。近期完成的 RCT，提供當代證據，強化肺炎適應症的科學基礎。"
+            }
+          },
+          {
+            "nct_id": "NCT01356472",
+            "title": "Linezolid Alone or Combined With Carbapenem Against Methicillin-resistant Staphylococcus Aureus (MRSA) in Vitro and in Ventilator-associated Pneumonia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2011-06",
+            "completion_date": "",
+            "brief_summary": "As previous studies showed that the synergy between linezolid and carbapenem in vitro and in vivo (animal studies), our study is aim to investigate the activity of linezolid, alone and in combination with carbapenem against methicillin-resistant Staphylococcus aureus (MRSA) in ventilator-associated pneumonia (VAP) patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00445094",
+            "title": "A De-Escalating Strategy for Antibiotic Treatment of Pneumonia in The Medical Intensive Care Unit",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2006-11",
+            "completion_date": "2007-01",
+            "brief_summary": "The primary objective of this study is a comparison between MK0787B and standard therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01379157",
+            "title": "The Pharmacodynamics of Imipenem in Critically Ill Patients With Ventilator-associated Pneumonia Following Administration by 4 h or 0.5 h Infusion",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 8,
+            "start_date": "2011-11",
+            "completion_date": "2014-07",
+            "brief_summary": "Imipenem is a carbapenem antibacterial agent with a broad spectrum of activity against Gram-negative and Gram-positive bacteria. This agent is often used as the last line of therapy for highly resistant Gram negative bacilli nosocomial infections. In common with other beta-lactamase inhibitor, the main pharmacokinetic/pharmacodynamic (PK/PD) index that correlates with the therapeutic efficacy is the time that concentrations in the tissue and serum are above the MIC and administration by continuo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03177720",
+            "title": "Determination of Single-dose Intrapulmonary Pharmacokinetics of Ciprofloxacin and Imipenem in Healthy Subjects and Intubated Patients Suffering From Pneumonia Using Bronchoalveolar Lavage",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2016-05-29",
+            "completion_date": "2021-07-31",
+            "brief_summary": "The investigators will determine the difference of pharmacokinetics of ciprofloxacin and imipenem between healthy volunteers and intensive care patients suffering from pneumonia in plasma and at the target site - lung - using bronchoalveolar lavage. As additional aspect the feasibility of combining microdosing of C14 ciprofloxacin with microdialysis, saliva sampling and bronchoalveolar lavage is studied by comparing pharmacokinetics of microdose and macrodose.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02452047",
+            "title": "A Phase III, Randomized, Double-Blind, Active Comparator-Controlled Clinical Trial to Estimate the Efficacy and Safety of Imipenem/Cilastatin/Relebactam (MK-7655A) Versus Colistimethate Sodium + Imipenem/Cilastatin in Subjects With Imipenem-Resistant Bacterial Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2015-08-21",
+            "completion_date": "2017-09-18",
+            "brief_summary": "The study will evaluate the efficacy and safety of imipenem+cilastatin/relebactam (MK-7655A) versus colistimethate sodium+imipenem+cilastatin in the treatment of imipenem-resistant bacterial infections. Infections evaluated in the study will be hospital-acquired bacterial pneumonia (HABP), ventilator-associated bacterial pneumonia (VABP), complicated intra-abdominal infection (cIAI), and complicated urinary tract infection (cUTI).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05568654",
+            "title": "Reducing Antimicrobial Overuse Through Targeted Therapy for Patients With Community-Acquired Pneumonia",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 12500,
+            "start_date": "2022-11-01",
+            "completion_date": "2026-06-30",
+            "brief_summary": "The purpose of this study is to reduce the exposure of broad-spectrum antimicrobials by optimizing the rapid detection of CAP pathogens and improving rates of de-escalation following negative cultures. To accomplish this, we will perform a 3-year, pragmatic, multicenter 2 X 2 factorial cluster randomized controlled trial with four arms: a) rapid diagnostic testing b) pharmacist-led de-escalation c) rapid diagnostic testing + pharmacist-led de-escalation and d) usual care",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03583333",
+            "title": "A Multi-national Phase 3, Randomized, Double-Blind, Active Comparator-Controlled Clinical Trial to Study the Safety, Tolerability, and Efficacy of Imipenem/Cilastatin/Relebactam (MK-7655A) Versus Piperacillin/Tazobactam in Subjects With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 274,
+            "start_date": "2018-09-18",
+            "completion_date": "2022-07-12",
+            "brief_summary": "This study will evaluate the efficacy and safety of a FDC of imipenem/cilastatin (IMI) and relebactam (REL) \\[IMI/REL, MK-7655A\\] compared to piperacillin/tazobactam (PIP/TAZ) in the treatment of adults diagnosed with Hospital-Acquired Bacterial Pneumonia (HABP) or Ventilator-Associated Bacterial Pneumonia (VABP). The primary hypothesis is that IMI/REL is non-inferior to PIP/TAZ as measured by the incidence rate of all-cause mortality through Day 28 post-randomization.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01820026",
+            "title": "Bacterial Infections Associated With Healthcare (Healthcare-Associated) in Hospitalized Cirrhotic Patients: Randomized Study of Use of Traditional Empirical Antibiotic Therapy and Second-line Targeted at Multi-resistant Bacteria",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 96,
+            "start_date": "2012-12",
+            "completion_date": "2015-06",
+            "brief_summary": "Bacterial infections are a frequent complication in liver cirrhosis with a bad prognosis. However, the clinical outcome of cirrhotic patients with serious infections is significantly improved over the last 30 years due to early diagnosis and to the use of a more appropriate antibiotic therapy.\n\nAs in the general population, empirical treatment should be initiated soon after diagnosis, after making the necessary sampling and should be based on the use of an antibiotic with low toxicity and broad ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32785589",
+            "title": "A Randomized, Double-blind, Multicenter Trial Comparing Efficacy and Safety of Imipenem/Cilastatin/Relebactam Versus Piperacillin/Tazobactam in Adults With Hospital-acquired or Ventilator-associated Bacterial Pneumonia (RESTORE-IMI 2 Study).",
+            "authors": [
+              "Titov Ivan",
+              "Wunderink Richard G",
+              "Roquilly Antoine",
+              "Rodríguez Gonzalez Daniel",
+              "David-Wang Aileen"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2021",
+            "abstract": "Imipenem combined with the β-lactamase inhibitor relebactam has broad antibacterial activity, including against carbapenem-resistant gram-negative pathogens. We evaluated efficacy and safety of imipenem/cilastatin/relebactam in treating hospital-acquired/ventilator-associated bacterial pneumonia (HABP/VABP).",
+            "classification": {
+              "study_type": "RCT (Imipenem/Cilastatin/Relebactam vs. Colistin for HAP/VAP)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37182534",
+            "title": "Efficacy and safety of sulbactam-durlobactam versus colistin for the treatment of patients with serious infections caused by Acinetobacter baumannii-calcoaceticus complex: a multicentre, randomised, active-controlled, phase 3, non-inferiority clinical trial (ATTACK).",
+            "authors": [
+              "Kaye Keith S",
+              "Shorr Andrew F",
+              "Wunderink Richard G",
+              "Du Bin",
+              "Poirier Gabrielle E"
+            ],
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2023",
+            "abstract": "An urgent need exists for antibiotics to treat infections caused by carbapenem-resistant Acinetobacter baumannii-calcoaceticus complex (ABC). Sulbactam-durlobactam is a β-lactam-β-lactamase inhibitor combination with activity against Acinetobacter, including multidrug-resistant strains. In a phase 3, pathogen-specific, randomised controlled trial, we compared the efficacy and safety of sulbactam-durlobactam versus colistin, both in combination with imipenem-cilastatin as background therapy, in p",
+            "classification": {
+              "study_type": "RCT (Sulbactam-durlobactam, 比較對照)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17488146",
+            "title": "Comparative review of the carbapenems.",
+            "authors": [
+              "Zhanel George G",
+              "Wiebe Ryan",
+              "Dilay Leanne",
+              "Thomson Kristjan",
+              "Rubinstein Ethan"
+            ],
+            "journal": "Drugs",
+            "year": "2007",
+            "abstract": "The carbapenems are beta-lactam antimicrobial agents with an exceptionally broad spectrum of activity. Older carbapenems, such as imipenem, were often susceptible to degradation by the enzyme dehydropeptidase-1 (DHP-1) located in renal tubules and required co-administration with a DHP-1 inhibitor such as cilastatin. Later additions to the class such as meropenem, ertapenem and doripenem demonstrated increased stability to DHP-1 and are administered without a DHP-1 inhibitor. Like all beta-lactam",
+            "classification": {
+              "study_type": "Comparative Review (Carbapenems)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39674398",
+            "title": "A phase III, randomized, controlled noninferiority trial to study the efficacy and safety of imipenem/cilastatin/relebactam (IMI/REL) vs piperacillin/tazobactam (PIP/TAZ) in patients with hospital-acquired bacterial pneumonia (HABP) or ventilator-associated bacterial pneumonia (VABP).",
+            "authors": [
+              "Li Junjie",
+              "Wei Feng",
+              "Xiang Peng",
+              "Tang Zhengang",
+              "Ding Lianshu"
+            ],
+            "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+            "year": "2025",
+            "abstract": "Imipenem/cilastatin/relebactam (IMI/REL) is a β-lactam/β-lactamase inhibitor combination effective against gram-negative pathogens. Efficacy and safety of IMI/REL were studied in critically ill adults with hospital-acquired bacterial pneumonia (HABP) or ventilator-associated bacterial pneumonia (VABP).",
+            "classification": {
+              "study_type": "Phase III RCT (Imipenem/Cilastatin, 2025)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33630278",
+            "title": "Imipenem/Cilastatin/Relebactam: A Review in Gram-Negative Bacterial Infections.",
+            "authors": [
+              "Heo Young-A"
+            ],
+            "journal": "Drugs",
+            "year": "2021",
+            "abstract": "Imipenem/cilastatin/relebactam (Recarbrio™) is an intravenously administered combination of the carbapenem imipenem, the renal dehydropeptidase-I inhibitor cilastatin, and the novel β-lactamase inhibitor relebactam. Relebactam is a potent inhibitor of class A and class C β-lactamases, conferring imipenem activity against many imipenem-nonsusceptible strains. Imipenem/cilastatin/relebactam is approved in the USA and EU for the treatment of hospital-acquired bacterial pneumonia (HABP) and ventilat",
+            "classification": {
+              "study_type": "Narrative Review (Imipenem/Cilastatin/Relebactam)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38971203",
+            "title": "A Systematic Review of the Pharmacokinetics and Pharmacodynamics of Novel Beta-Lactams and Beta-Lactam with Beta-Lactamase Inhibitor Combinations for the Treatment of Pneumonia Caused by Carbapenem-Resistant Gram-Negative Bacteria.",
+            "authors": [
+              "Rando Emanuele",
+              "Novy Emmanuel",
+              "Sangiorgi Flavio",
+              "De Pascale Gennaro",
+              "Fantoni Massimo"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2024",
+            "abstract": "Novel beta-lactams show activity against many multidrug-resistant Gram-negative bacteria that cause severe lung infections. Understanding pharmacokinetic/pharmacodynamic characteristics of these agents may help optimise outcomes in the treatment of pneumonia.",
+            "classification": {
+              "study_type": "Systematic Review (β-lactam PK/PD)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36830145",
+            "title": "Carbapenem-Resistant Klebsiella pneumoniae: Virulence Factors, Molecular Epidemiology and Latest Updates in Treatment Options.",
+            "authors": [
+              "Karampatakis Theodoros",
+              "Tsergouli Katerina",
+              "Behzadi Payam"
+            ],
+            "journal": "Antibiotics (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "Klebsiella pneumoniae is a Gram-negative opportunistic pathogen responsible for a variety of community and hospital infections. Infections caused by carbapenem-resistant K. pneumoniae (CRKP) constitute a major threat for public health and are strongly associated with high rates of mortality, especially in immunocompromised and critically ill patients. Adhesive fimbriae, capsule, lipopolysaccharide (LPS), and siderophores or iron carriers constitute the main virulence factors which contribute to ",
+            "classification": {
+              "study_type": "Epidemiological Review (CR-Kp)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31608743",
+            "title": "Treatment of urinary tract infections in the era of antimicrobial resistance and new antimicrobial agents.",
+            "authors": [
+              "Bader Mazen S",
+              "Loeb Mark",
+              "Leto Daniela",
+              "Brooks Annie A"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "2020",
+            "abstract": "Urinary tract infections (UTIs) caused by antibiotic-resistant Gram-negative bacteria are a growing concern due to limited treatment options. Knowledge of the common uropathogens in addition to local susceptibility patterns is essential in determining appropriate empiric antibiotic therapy of UTIs. The recommended first-line empiric antibiotic therapy for acute uncomplicated bacterial cystitis in otherwise healthy adult nonpregnant females is a 5-day course of nitrofurantoin, a 3-g single dose o",
+            "classification": {
+              "study_type": "Narrative Review (AMR/UTI)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37052117",
+            "title": "Sulbactam-durlobactam: A novel β-lactam-β-lactamase inhibitor combination targeting carbapenem-resistant Acinetobacter baumannii infections.",
+            "authors": [
+              "El-Ghali Amer",
+              "Kunz Coyne Ashlan J",
+              "Caniff Kaylee",
+              "Bleick Callan",
+              "Rybak Michael J"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2023",
+            "abstract": "Carbapenem-resistant Acinetobacter baumannii (CRAB) is a difficult-to-treat nosocomial pathogen responsible for significant morbidity and mortality. Sulbactam-durlobactam (SUL-DUR), formerly ETX2514SUL, is a novel β-lactam-β-lactamase inhibitor designed specifically for the treatment of CRAB infections. The United States Food and Drug Administration (FDA) fast-track approval of SUL-DUR for the treatment of CRAB infections is currently pending after completion of the phase III ATTACK trial, which",
+            "classification": {
+              "study_type": "Narrative Review (Sulbactam-durlobactam)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36688591",
+            "title": "Cost-effectiveness of imipenem/cilastatin/relebactam for hospital-acquired and ventilator-associated bacterial pneumonia.",
+            "authors": [
+              "Naik Jaesh",
+              "Dillon Ryan",
+              "Massello Matthew",
+              "Ralph Lewis",
+              "Yang Zhuo"
+            ],
+            "journal": "Journal of comparative effectiveness research",
+            "year": "2023",
+            "abstract": "Aim: This study evaluates the cost-effectiveness of imipenem/cilastatin/relebactam (IMI/REL) for treating hospital-acquired bacterial pneumonia and ventilator-associated bacterial pneumonia (HABP/VABP) in an 'early adjustment prescribing scenario'. Methods: An economic model was constructed to compare two strategies: continuation of empiric piperacillin/tazobactam (PIP/TAZ) versus early adjustment to IMI/REL. A decision tree was used to depict the hospitalization period, and a Markov model used ",
+            "classification": {
+              "study_type": "Cost-Effectiveness Analysis (HAP/VAP)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30712199",
+            "title": "Cefiderocol: A Siderophore Cephalosporin with Activity Against Carbapenem-Resistant and Multidrug-Resistant Gram-Negative Bacilli.",
+            "authors": [
+              "Zhanel George G",
+              "Golden Alyssa R",
+              "Zelenitsky Sheryl",
+              "Wiebe Karyn",
+              "Lawrence Courtney K"
+            ],
+            "journal": "Drugs",
+            "year": "2019",
+            "abstract": "Cefiderocol is an injectable siderophore cephalosporin discovered and being developed by Shionogi & Co., Ltd., Japan. As with other β-lactam antibiotics, the principal antibacterial/bactericidal activity of cefiderocol occurs by inhibition of Gram-negative bacterial cell wall synthesis by binding to penicillin binding proteins; however, it is unique in that it enters the bacterial periplasmic space as a result of its siderophore-like property and has enhanced stability to β-lactamases. The chemi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10353303",
+            "title": "Piperacillin/tazobactam: an updated review of its use in the treatment of bacterial infections.",
+            "authors": [
+              "Perry C M",
+              "Markham A"
+            ],
+            "journal": "Drugs",
+            "year": "1999",
+            "abstract": "Piperacillin/tazobactam is a beta-lactam/beta-lactamase inhibitor combination with a broad spectrum of antibacterial activity encompassing most Gram-positive and Gram-negative aerobic bacteria and anaerobic bacteria, including many pathogens producing beta-lactamases. Evidence from clinical trials in adults has shown that piperacillin/tazobactam, administered in an 8:1 ratio, is an effective treatment for patients with lower respiratory tract, intra-abdominal, urinary tract, gynaecological and s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18416587",
+            "title": "Meropenem: a review of its use in the treatment of serious bacterial infections.",
+            "authors": [
+              "Baldwin Claudine M",
+              "Lyseng-Williamson Katherine A",
+              "Keam Susan J"
+            ],
+            "journal": "Drugs",
+            "year": "2008",
+            "abstract": "Meropenem (Merrem, Meronem) is a broad-spectrum antibacterial agent of the carbapenem family, indicated as empirical therapy prior to the identification of causative organisms, or for disease caused by single or multiple susceptible bacteria in both adults and children with a broad range of serious infections. Meropenem is approved for use in complicated intra-abdominal infection (cIAI), complicated skin and skin structure infection (cSSSI) and bacterial meningitis (in paediatric patients aged >",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35488826",
+            "title": "New evidence in severe pneumonia: imipenem/ cilastatin/relebactam.",
+            "authors": [
+              "Girón R M",
+              "Ibáñez A",
+              "Gómez-Punter R M",
+              "Alarcón T"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2022",
+            "abstract": "Imipenem combined with beta-lactamase inhibitor relebactam (IMI/REL) has an extensive bactericidal activity against Gram-negative pathogens producing class A or class C beta-lactamases, not active against class B and class D. The phase 3 clinical trial (RESTORE-IMI-2), double-blind, randomized, evaluated IMI/REL vs. piperacillin-tazobactam (PIP/TAZ) for treatment of hospital-acquired pneumonia (HAP) and ventilator-associated pneumonia (VAP), demonstrated non-inferiority at all-cause mortality at",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12678575",
+            "title": "Panipenem/betamipron.",
+            "authors": [
+              "Goa Karen L",
+              "Noble Stuart"
+            ],
+            "journal": "Drugs",
+            "year": "2003",
+            "abstract": "Panipenem is a parenteral carbapenem antibacterial agent with a broad spectrum of in vitro activity covering a wide range of Gram-negative and Gram-positive aerobic and anaerobic bacteria, including Streptococcus pneumoniae and species producing beta-lactamases. Panipenem is coadministered with betamipron to inhibit panipenem uptake into the renal tubule and prevent nephrotoxicity. In large, randomised clinical trials, panipenem/betamipron demonstrated good clinical and bacteriological efficacy ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10771955",
+            "title": "Neonatal Klebsiella pneumonia sepsis and imipenem/cilastatin.",
+            "authors": [
+              "Oral R",
+              "Akisü M",
+              "Kültürsay N",
+              "Vardar F",
+              "Tansuğ N"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "1998",
+            "abstract": "Efficacy and safety of imipenem/cilastatin in neonatal Klebsiella pneumonia sepsis was investigated in 45 infants compared to 39 control infants on conventional antibiotic regimen. Sensitivity to imipenem was 94% followed by cephoxitin (88%), quinolons (80%), and amikacin (52%) according to susceptibility results in the study group. Treatment duration of surviving infants was 16.5 +/- 4.6 and 20.3 +/- 6.4 days in the study and control groups respectively (p < 0.05). Five infants (11%) vs 27 (69%",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26944380",
+            "title": "Imipenem/cilastatin-induced acute eosinophilic pneumonia.",
+            "authors": [
+              "Foong Kap Sum",
+              "Lee Ashley",
+              "Pekez Marijeta",
+              "Bin Wei"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2016",
+            "abstract": "Drugs, toxins, and infections are known to cause acute eosinophilic pneumonia. Daptomycin and minocycline are the commonly reported antibiotics associated with acute eosinophilic pneumonia. In this study, we present a case of imipenem/cilastatin-induced acute eosinophilic pneumonia. The patient presented with fever, acute hypoxic respiratory distress, and diffuse ground-glass opacities on the chest CT a day after the initiation of imipenem/cilastatin. Patient also developed peripheral eosinophil",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35062817",
+            "title": "Biapenem.",
+            "authors": [
+              "Vora Agam",
+              "Tiwaskar Mangesh"
+            ],
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2022",
+            "abstract": "Biapenem is a novel parenteral broad spectrum carbapenem primarily used for the treatment of complicated infections like sepsis, lower respiratory infections, urinary tract infections, intra-abdominal and genitourinary infections etc. in Japan, Thailand and China since two decades, has been recently approved in India. Biapenem shows good bactericidal activity against Gram-positive bacteria including streptococcus pneumoniae, pyogenes and methicillin-susceptible staphylococcus aureus (MSSA). It a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32009210",
+            "title": "Clinical Pharmacokinetics and Pharmacodynamics of Imipenem-Cilastatin/Relebactam Combination Therapy.",
+            "authors": [
+              "McCarthy Matthew W"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2020",
+            "abstract": "On 16 July, 2019, the US Food and Drug Administration approved imipenem-cilastatin/relebactam (Recarbrio™) for the treatment of adults with complicated urinary tract infections and complicated intra-abdominal infections. This decision was based on substantial clinical and pre-clinical data, including rigorous pharmacokinetic and pharmacodynamic work, and is an important step forward in the management of these debilitating conditions. This article provides an overview of the body of research asso",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30509675",
+            "title": "Cefiderocol versus imipenem-cilastatin for the treatment of complicated urinary tract infections caused by Gram-negative uropathogens: a phase 2, randomised, double-blind, non-inferiority trial.",
+            "authors": [
+              "Portsmouth Simon",
+              "van Veenhuyzen David",
+              "Echols Roger",
+              "Machida Mitsuaki",
+              "Ferreira Juan Camilo Arjona"
+            ],
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2018",
+            "abstract": "Carbapenem-resistant Gram-negative bacteria represent the highest priority for addressing global antibiotic resistance. Cefiderocol (S-649266), a new siderophore cephalosporin, has broad activity against Enterobacteriaceae and non-fermenting bacteria, such as Pseudomonas aeruginosa and Acinetobacter baumannii, including carbapenem-resistant strains. We assessed the efficacy and safety of cefiderocol versus imipenem-cilastatin for the treatment of complicated urinary tract infection in patients a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cilastatin 使 Imipenem 維持穩定血中濃度（T>MIC），對肺炎相關病原體（K. pneumoniae、P. aeruginosa、Acinetobacter spp.、厭氧菌等）具廣效殺菌活性。Imipenem/Cilastatin 已是醫院獲得性肺炎（HAP）及呼吸器相關肺炎（VAP）的標準療法之一，有多項 Phase 3 RCT 直接支持（含 Imipenem/Cilastatin/Relebactam 新組合）。再利用推展方向：耐藥菌株、特殊族群（免疫抑制、新生兒）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "paratyphoid fever",
+      "txgnn": {
+        "score": 0.9965093731880188,
+        "rank": 5102
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無臨床或文獻支持。副傷寒由 Salmonella Paratyphi 引起，目前標準治療為 Fluoroquinolone 或 Cephalosporin。雖 Imipenem 體外對 Salmonella 有活性，但無副傷寒相關試驗或案例文獻。零數據支持，且 Carbapenem 非傷寒標準療法。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.996485948562622,
+        "rank": 5125
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8543488",
+            "title": "Treatment of acute bacterial exacerbations of chronic obstructive pulmonary disease in hospitalised patients--a comparison of meropenem and imipenem/cilastatin. COPD Study Group.",
+            "authors": [
+              "Hamacher J",
+              "Vogel F",
+              "Lichey J",
+              "Kohl F V",
+              "Diwok K"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1995",
+            "abstract": "Meropenem and imipenem/cilastatin were compared in an open, randomised prospective multicentre study in the treatment of acute exacerbations of severe chronic obstructive pulmonary disease in hospitalised patients. One-hundred-and-seventy-three patients were enrolled; 164 were evaluable for clinical efficacy and 98 for bacteriological efficacy, with 144 pathogens isolated. The predominant pathogens were Haemophilus influenzae (n = 30), Streptococcus pneumoniae (18), Staphylococcus aureus (12), P",
+            "classification": {
+              "study_type": "Clinical Study (AECB/Hospitalized)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14664657",
+            "title": "Levofloxacin: a review of its use in the treatment of bacterial infections in the United States.",
+            "authors": [
+              "Croom Katherine F",
+              "Goa Karen L"
+            ],
+            "journal": "Drugs",
+            "year": "2003",
+            "abstract": "Levofloxacin (Levaquin) is a fluoroquinolone antibacterial agent with a broad spectrum of activity against Gram-positive and Gram-negative bacteria and atypical respiratory pathogens. It is active against both penicillin-susceptible and penicillin-resistant Streptococcus pneumoniae. The prevalence of S. pneumoniae resistance to levofloxacin is <1% overall in the US.A number of randomised comparative trials in the US have demonstrated the efficacy of levofloxacin in the treatment of infections of",
+            "classification": {
+              "study_type": "Narrative Review (Levofloxacin)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464784",
+            "title": "[Pharmacokinetic and clinical studies of imipenem/cilastatin sodium in the pediatric field].",
+            "authors": [
+              "Motohiro T",
+              "Koga T",
+              "Shimada Y",
+              "Tomita S",
+              "Fujimoto T"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Pharmacokinetic and clinical studies of imipenem/cilastatin sodium (MK-0787/MK-0791), a newly developed combined antibiotic in a 1:1 ratio, were performed in the field of pediatrics. The MK-0787/MK-0791 was administered to 15 children. Ten and 20 mg/kg doses of MK-0787 were administered by a intravenous drip infusion for 30 minutes to 3 children each. In the remaining 9 cases, MK-0787 doses of 10, 20 and 30 mg/kg were administered to 3 children each by a 1 hour intravenous drip infusion. Levels ",
+            "classification": {
+              "study_type": "Pediatric PK/Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12269858",
+            "title": "Levofloxacin: an updated review of its use in the treatment of bacterial infections.",
+            "authors": [
+              "Hurst Miriam",
+              "Lamb Harriet M",
+              "Scott Lesley J",
+              "Figgitt David P"
+            ],
+            "journal": "Drugs",
+            "year": "2002",
+            "abstract": "Levofloxacin is the L-form of the fluoroquinolone antibacterial agent, ofloxacin. In in vitro studies, levofloxacin demonstrated a broad range of activity against Gram-positive and -negative organisms and anaerobes. The drug is more active against Gram-positive organisms than ciprofloxacin, but less active than newer fluoroquinolones such as gatifloxacin. Its activity against Streptococcus pneumoniae is unaffected by the presence of penicillin resistance. In several randomised controlled trails,",
+            "classification": {
+              "study_type": "Narrative Review (Levofloxacin)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8072190",
+            "title": "[Clinical effect of the combined therapy of arbekacin and imipenem/cilastatin against methicillin-resistant Staphylococcus aureus].",
+            "authors": [
+              "Hashimoto A",
+              "Ohtsubo T",
+              "Tomono K",
+              "Kaku M",
+              "Koga H"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1994",
+            "abstract": "We evaluated the efficacy of combined therapy of arbekacin (ABK) and imipenem/cilastatin (IPM/CS) against infections by methicillin-resistant Staphylococcus aureus (MRSA). The MICs of ampicillin, cefmetazole, cefotiam, cefuzonam, flomoxef, fosfomycin, ofloxacin, minocycline, ABK and IPM/CS against clinically isolated strains of MRSA were examined. Almost all strains of MRSA were resistant to these antibiotics except ABK. Furthermore, combination of ABK and IPM/CS showed smaller MICs than that of",
+            "classification": {
+              "study_type": "Clinical Trial (IMP/CIL + Arbekacin vs. MRSA)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3469186",
+            "title": "Efficacy of imipenem/cilastatin in patients with severe bacterial infections.",
+            "authors": [
+              "Reutter F W"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1986",
+            "abstract": "In this study imipenem/cilastatin was used successfully to treat 21 patients with a variety of severe infections caused by Gram-positive and Gram-negative aerobic bacteria. Overall clinical cure was achieved in 18 of 21 patients. Fourteen of 16 infecting organisms were eradicated by imipenem. In spite of in-vitro susceptibility to imipenem before therapy two species of Pseudomonas (Pseudomonas aeruginosa and Ps. fluorescens) could not be eliminated in two patients. Resistance developed in the st",
+            "classification": {
+              "study_type": "Clinical Study (Severe Bacterial Infections)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7990255",
+            "title": "[Imipenem/cilastatin sodium alone or combined with amikacin sulfate in respiratory infections].",
+            "authors": [
+              "Takamoto M",
+              "Ishibashi T",
+              "Toyoshima H",
+              "Tanaka H",
+              "Tamaru N"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1994",
+            "abstract": "In the present study, we used the envelope method to divide patients with respiratory infections into two groups: a monotherapy group given imipenem/cilastatin sodium (IPM/CS) and a combination therapy group given imipenem/cilastatin sodium plus amikacin sulfate (AMK). We then compared the clinical efficacy and safety between groups. 1. Safety was evaluated in 83 patients in the IPM/CS group and 88 in the IPM/CS + AMK group while clinical efficacy was evaluated in 77 and 80 patients in the respe",
+            "classification": {
+              "study_type": "Clinical Study (Respiratory Infections, IMP/CIL ± Amikacin)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12030399",
+            "title": "Pseudomembranous tracheobronchitis caused by methicillin-resistant Staphylococcus aureus.",
+            "authors": [
+              "Yamazaki Yoshitaka",
+              "Hirai Kazuya",
+              "Honda Takayuki"
+            ],
+            "journal": "Scandinavian journal of infectious diseases",
+            "year": "2002",
+            "abstract": "We report a case of severe tracheobronchitis caused by methicillin-resistant Staphylococcus aureus in a man exhibiting symptoms of upper airway obstruction after infection with influenza. Bronchoscopy revealed diffuse pseudomembrane formation throughout the trachea and bilateral bronchi, which were nearly obstructed. In this case, it was helpful to perform bronchoscopy, protected brushing and tracheotomy immediately in order to avoid choking.",
+            "classification": {
+              "study_type": "Case Report (MRSA Pseudomembranous Tracheobronchitis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1652653",
+            "title": "[Therapeutic efficacy of imipenem/cilastatin sodium on respiratory tract infections in lung cancer patients].",
+            "authors": [
+              "Yamamoto M",
+              "Ina Y",
+              "Takada K",
+              "Noda M",
+              "Morishita M"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1991",
+            "abstract": "Imipenem/cilastatin sodium (IPM/CS) was used to treat respiratory tract infections (RTI) in 54 patients with lung cancer. Out of the 54 patients studied, 53 were evaluable for the utility of IPM/CS; 42 had pneumonia, 9 had obstructive pneumonia, 1 had a lung abscess and 1 had acute bronchitis. The efficacy rate was 71.7%. Seventeen causative organisms were isolated from 14 patients. They included Staphylococcus aureus 5 strains, Staphylococcus epidermidis 4 strains, Staphylococcus sp. 2 strains,",
+            "classification": {
+              "study_type": "Clinical Study (Lung Cancer Patients)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2348550",
+            "title": "[Evaluation of imipenem/cilastatin sodium in the treatment of respiratory tract infections].",
+            "authors": [
+              "Shimokata K",
+              "Kawazu H",
+              "Nishiwaki K",
+              "Yamamoto M",
+              "Sakai S"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1990",
+            "abstract": "Imipenem/cilastatin sodium (IPM/CS) was administered to 55 patients with respiratory tract infections (RTI). A clinical evaluation of IPM/CS was carried out in 51 patients, 28 with pneumonia, 4 with pulmonary abscess, 1 with pyothorax, 6 with bronchitis, 9 with bronchiectasis, 1 with diffuse panbronchiolitis and 2 with RTI with chronic obstructive pulmonary disease, and the clinical efficacy rate was 78.4%. Causative organisms were isolated in 23 strains out of 20 patients, such as Staphylococcu",
+            "classification": {
+              "study_type": "Clinical Study (Respiratory Tract Infections)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2112208",
+            "title": "[Clinical efficacy of imipenem/cilastatin sodium in patients with respiratory tract infections caused by Pseudomonas aeruginosa].",
+            "authors": [
+              "Mikasa K",
+              "Sawaki M",
+              "Konishi M",
+              "Narita N"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1990",
+            "abstract": "The clinical utility of imipenem/cilastatin sodium (IPM/CS, Tienam) was studied in 9 patients with respiratory tract infections from whom Pseudomonas aeruginosa was isolated using transtracheal aspiration. The patients treated were 6 males and 3 females, with ages between 42 and 78 years. The infections diagnosed were chronic bronchitis in 5 patients, diffuse panbronchiolitis in 2 and bronchopneumonia in 2. P. aeruginosa alone was isolated from 6 patients and concomitantly with other organisms f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9656677",
+            "title": "[Legionella pneumonia caused by aspiration of hot spring water after sarin exposure].",
+            "authors": [
+              "Kamimura M",
+              "Katoh O",
+              "Kawata H",
+              "Kudo K",
+              "Yagishita Y"
+            ],
+            "journal": "Nihon Kokyuki Gakkai zasshi = the journal of the Japanese Respiratory Society",
+            "year": "1998",
+            "abstract": "A 72-year-old man was exposed to the sarin gas attack in a Tokyo subway on March 20 th, 1995. After exposure, he noticed eye discomfort, chest tightness, headache and weakness of the lower limbs and oropharyngeal muscles. Despite these symptoms, he visited a hot spring on the same day with his family. On March 25 th, his muscle weakness progressed, and a low grade fever appeared. His muscle weakness disappeared 8 days after exposure to sarin, but respiratory failure rapidly developed, necessitat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18589186",
+            "title": "Acute disseminated encephalomyelitis in a renal transplant recipient: a case report.",
+            "authors": [
+              "Aboagye-Kumi M",
+              "Yango A",
+              "Fischer S",
+              "Donahue J",
+              "Morrissey P"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "2008",
+            "abstract": "Acute disseminated encephalomyelitis (ADEM) is an acute demyelinating disorder of the central nervous system, mostly seen in children after viral or bacterial infection and vaccinations. Cases of ADEM, albeit rare, have been reported in renal transplant recipients. The pathophysiology of posttransplant ADEM remains unclear but has been hypothesized to be due to aberrant T-cell reactivity to myelin basic protein triggered by a bacterial or viral infection. We report an unusual case of a 34-year-o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imipenem/Cilastatin 對下呼吸道感染病原體（含 P. aeruginosa、K. pneumoniae、厭氧菌）有廣效活性。1986-1994 年多項日文臨床研究直接評估了 Imipenem/Cilastatin 在肺癌患者、兒科及成人嚴重呼吸道感染的療效。急性細菌性支氣管炎（AECB）場景中，Carbapenem 為多重耐藥菌的後線選擇，惟需考量抗菌素管理原則，避免過度使用導致耐藥性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "diffuse scleroderma",
+      "txgnn": {
+        "score": 0.9954841136932372,
+        "rank": 6078
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 生物學合理性極低。瀰漫性硬皮症為自體免疫性結締組織病，病理機轉涉及 TGF-β 過度活化、纖維母細胞異常增殖及免疫失調，與 DHP-I 抑制毫無關聯。TxGNN 分數（0.9955）極可能為知識圖譜拓撲雜訊。零臨床試驗、零文獻，應列為假陽性預測，不需進一步追蹤。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "salmonellosis",
+      "txgnn": {
+        "score": 0.9942504167556764,
+        "rank": 7154
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2945941",
+            "title": "[Fundamental and clinical evaluation of imipenem/cilastatin sodium in the field of pediatrics].",
+            "authors": [
+              "Haruta T",
+              "Okura K E",
+              "Kuroki S",
+              "Yamamoto H",
+              "Yamaoka K"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "A combination drug of imipenem (MK-0787), a new carbapenem antibiotic, and cilastatin sodium (MK-0791) at a ratio of 1:1 was used to treat infections in 8 children, and the concentrations of MK-0787 were determined in plasma, urine and pus of 1 patient and in cerebrospinal fluid of another patient. Eight patients, aged 2 months to 12 years (males: 3, females: 5), were treated with MK-0787/MK-0791. They consisted of 3 with urinary tract infections (causative organisms: E. coli, K. oxytoca plus E.",
+            "classification": {
+              "study_type": "Pediatric Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3469191",
+            "title": "Evaluation of imipenem/cilastatin against nosocomial infections and multiresistant pathogens.",
+            "authors": [
+              "Giamarellou H",
+              "Sfikakis P",
+              "Voutsinas D",
+              "Galanakis N",
+              "Daikos G K"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1986",
+            "abstract": "Thirty-five patients suffering from soft tissue infections (12), upper UTIs (6), bronchopneumonia (6), septicaemia (2), chronic osteomyelitis (2), intra-abdominal abscess (2), liver abscess (1), lung abscess (1), acute cholangitis (1), thoracic empyema (1) and chronic prostatitis (1) were given imipenem/cilastatin for 6-21 days. In 22 patients several aggravating factors coexisted, while infection in 16 patients was polymicrobial. The following pathogens were implicated: Pseudomonas aeruginosa (",
+            "classification": {
+              "study_type": "Clinical Study (Nosocomial & MDR Infections)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15707075",
+            "title": "Rhabdomyolysis and Salmonella typhi infection: case report and review of the literature.",
+            "authors": [
+              "Dakdouki Ghenwa K",
+              "Bizri Abdul Rahman N"
+            ],
+            "journal": "Le Journal medical libanais. The Lebanese medical journal",
+            "year": "2003",
+            "abstract": "Typhoid fever is endemic in Lebanon. Usual presentation includes fever, headache, abdominal pain and constipation or diarrhea. Extra-intestinal manifestations are not uncommon and involve variety of organ systems. Rhabdomyolysis is rare and has been reported in various Salmonella infections. We present a case of rhabdomyolysis and renal failure that was successfully treated with imipenem/cilastatin and hemodialysis.",
+            "classification": {
+              "study_type": "Case Report + Review (Rhabdomyolysis + Salmonella)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464783",
+            "title": "[Laboratory and clinical studies of imipenem/cilastatin sodium in the pediatric field].",
+            "authors": [
+              "Nishimura T",
+              "Tabuki K",
+              "Takashima T",
+              "Takagi M"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Laboratory and clinical studies on imipenem/cilastatin sodium were carried out and the obtained results were summarized below. The antibacterial activity of imipenem against clinical isolates of S. aureus, E. coli, K. pneumoniae, Salmonella sp., S. marcescens and P. aeruginosa was measured by the plate dilution method with an inoculum size of 10(6) cells/ml. The growth of S. aureus was inhibited at an imipenem concentration of 0.025 microgram/ml or lower. The susceptibility distribution of E. co",
+            "classification": {
+              "study_type": "Pediatric Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464779",
+            "title": "[Fundamental and clinical studies on imipenem/cilastatin sodium in pediatrics].",
+            "authors": [
+              "Shiro H",
+              "Kusumoto Y",
+              "Oikawa T",
+              "Osano M"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Fundamental and clinical studies were carried out on imipenem/cilastatin sodium (MK-0787/MK-0791) in pediatric patients. The following results were obtained. A total of 238 clinical isolates stocked by our department was employed to determine the minimum inhibitory concentrations (MICs) of MK-0787 against various species of bacteria. The MK-0787 showed strong antibacterial activities against E. coli, Salmonella, Klebsiella, Proteus, Serratia, E. faecalis and S. epidermidis. Somewhat weaker activ",
+            "classification": {
+              "study_type": "Pediatric Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464777",
+            "title": "[Fundamental and clinical studies with imipenem/cilastatin sodium, a new carbapenem antibiotic, in the field of pediatrics].",
+            "authors": [
+              "Nakazawa S",
+              "Sato H",
+              "Narita A",
+              "Matsumoto K",
+              "Suzuki H"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Fundamental and clinical evaluations of imipenem/cilastatin sodium (MK-0787/MK-0791) were carried out in pediatric patients. The following results were obtained: After intravenous drip infusion of single doses of 10 mg/10 mg/kg to 20 mg/20 mg/kg of MK-0787/MK-0791 in children, peak plasma levels of MK-0787 ranged from 32.0 to 82.0 micrograms/ml at the end of the infusion. The half-life was 49.9 to 64.0 minutes. The cumulative urinary recovery at 6 to 7 hours after the 1 hour drip infusion ranged",
+            "classification": {
+              "study_type": "Pediatric Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464780",
+            "title": "[Clinical study on imipenem/cilastatin sodium in the field of pediatrics].",
+            "authors": [
+              "Minamitani M",
+              "Hachimori K",
+              "Kaneda K"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Imipenem/cilastatin sodium (MK-0787/MK-0791) was administered to pediatric patients with infections, and the following results were obtained. Pharmacokinetic study Two children, 11 years of age (38 kg body weight) and 3 years of age (15.5 kg body weight), were administered by 30 minutes intravenous drip infusion a single dose of 500 mg/500 mg (13.2 mg/13.2 mg per kg) and 250 mg/250 mg (16.1 mg/16.1 mg per kg) of MK-0787/MK-0791, respectively. Serum concentrations of MK-0787 reached their peaks a",
+            "classification": {
+              "study_type": "Pediatric Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3331043",
+            "title": "Imipenem/cilastatin for pediatric infections in hospitalized patients.",
+            "authors": [
+              "Nalin D R",
+              "Hart C B",
+              "Shih W J",
+              "Aziz M A"
+            ],
+            "journal": "Scandinavian journal of infectious diseases. Supplementum",
+            "year": "1987",
+            "abstract": "One hundred and four children who were hospitalized for documented or suspected non-CNS bacterial infections (56 males/48 females, 22 days to 15 years old) were treated with intravenous imipenem/cilastatin for 9.4 days (range 3 to 28 days). Children up to three years of age received 100 mg/kg/day and older children 60 mg/kg/day, administered in four divided doses. Bacterial pathogens were isolated before therapy in 85%. Diagnoses in the 74 evaluable patients included bronchopneumonia with or wit",
+            "classification": {
+              "study_type": "Pediatric Clinical Study (Hospitalized)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9363665",
+            "title": "Imipenem for treatment of relapsing Salmonella meningitis in a newborn infant.",
+            "authors": [
+              "Koç E",
+              "Turkyilmaz C",
+              "Atalay Y",
+              "Sen E"
+            ],
+            "journal": "Acta paediatrica Japonica : Overseas edition",
+            "year": "1997",
+            "abstract": "Salmonella meningitis is a rare clinical entity that occurs mainly during early infancy. Treatment of Salmonella infections may be complicated by the bacteria's growing resistance to clinically important antimicrobial agents, especially third-generation cephalosporins. A report is presented of a newborn infant with Salmonella meningitis who relapsed after 4 weeks of cefotaxime treatment and was cured completely with imipenem cilastatin therapy.",
+            "classification": {
+              "study_type": "Case Report (Neonatal Salmonella Meningitis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imipenem 對 Salmonella spp. 具體外殺菌活性。1986-1987 年多項日本兒科臨床研究（PMID 2945941, 3464783, 3464779 等）直接評估了 Imipenem/Cilastatin 在兒童沙門氏菌症的療效；PMID 9363665 報告了新生兒沙門氏菌腦膜炎復發病例以 Imipenem 成功治療的個案。主要應用場景：複雜性或多重耐藥沙門氏菌感染、腦膜炎/菌血症併發症。惟現行指引優先推薦 Fluoroquinolone 或第三代 Cephalosporin，Carbapenem 為後線備選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "paratyphoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "paratyphoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "paratyphoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "diffuse scleroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "diffuse scleroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "diffuse scleroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "salmonellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "salmonellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cilastatin",
+        "disease": "salmonellosis"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    }
+  ]
+}

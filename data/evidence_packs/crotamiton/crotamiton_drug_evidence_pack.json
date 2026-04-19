@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00265-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Crotamiton",
+    "drugbank_id": "DB00265",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "trombiculiasis",
+      "txgnn": {
+        "score": 0.9624195098876952,
+        "rank": 23627
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Trombiculiasis（恙蟎病）由恙蟎幼蟲（Trombiculidae）寄生皮膚所致。Crotamiton 已知機轉為殺蟎劑（acaricide），其核心適應症為疥瘡（Sarcoptes scabiei 蟎蟲感染），與恙蟎同屬蛛形綱蜱蟎目。機轉連結強度：高（同類寄生蟲，相似殺蟲機轉）。惟恙蟎幼蟲附著後短期脫落，治療目標以止癢為主，臨床情境有別於疥瘡。此適應症在資料庫中仍無臨床試驗或文獻支持，升級至 Research Question 係基於藥理相關性，而非現有臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "lymph node palisaded myofibroblastoma",
+      "txgnn": {
+        "score": 0.9569666385650636,
+        "rank": 24981
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "淋巴結柵欄狀肌纖維母細胞瘤（lymph node palisaded myofibroblastoma）為罕見良性間葉性腫瘤，以手術切除為主要治療。Crotamiton 無已知抗腫瘤或抗間葉細胞增生機轉，無生物合理性支持。高 TxGNN 分數可能反映圖神經網路之拓撲鄰近性，而非真實藥理連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "abdominal ectopic pregnancy",
+      "txgnn": {
+        "score": 0.9565799236297609,
+        "rank": 25076
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹腔異位妊娠為外科急症，治療以手術或 Methotrexate（MTX）介入為主。Crotamiton 無抗增殖、抗滋養層細胞或荷爾蒙調節機轉，無任何藥理基礎支持此再利用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "celiac trunk compression syndrome",
+      "txgnn": {
+        "score": 0.9565799236297609,
+        "rank": 25077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹腔幹壓迫症候群（Median arcuate ligament syndrome）為血管解剖異常，需血管重建手術治療。Crotamiton 無血管舒張、抗纖維化或解剖重塑機轉，此預測生物合理性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "abdominal cystic lymphangioma",
+      "txgnn": {
+        "score": 0.9565799236297609,
+        "rank": 25078
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹腔囊狀淋巴管瘤為良性先天性淋巴管發育異常，以手術切除為主。Crotamiton 無抗淋巴管增生或囊腫退縮相關機轉，藥理基礎不存在。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "disease of uterine broad ligament",
+      "txgnn": {
+        "score": 0.9563667178153992,
+        "rank": 25127
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮闊韌帶疾病為廣泛疾病分類（含子宮內膜異位、纖維瘤等），缺乏特定藥理靶點。Crotamiton 無已知婦科或骨盆腔相關機轉，此預測屬 KG 拓撲噪音。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "disease of retroperitoneum",
+      "txgnn": {
+        "score": 0.9561884999275208,
+        "rank": 25171
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹膜後疾病為廣泛解剖分類，涵蓋多種異質性疾病。無特定藥理靶點與 Crotamiton 連結。此廣義分類出現於高分預測清單，可能反映 KG 中地理/解剖節點聚集效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "sacrum chordoma",
+      "txgnn": {
+        "score": 0.9560338258743286,
+        "rank": 25208
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "薦骨脊索瘤（sacrum chordoma）為低度惡性骨腫瘤，源自脊索殘餘組織，以手術及放射治療為主，靶向治療以 PDGFR/EGFR 抑制劑為主要研究方向。Crotamiton 無已知抗腫瘤機轉，無生物合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "urethral disease",
+      "txgnn": {
+        "score": 0.9553889036178588,
+        "rank": 25369
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "尿道疾病為廣泛分類（含尿道炎、狹窄、憩室等）。Crotamiton 外用劑型不適用於尿道疾病，且無系統性抗感染機轉紀錄。此廣義分類預測可信度低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hordeolum",
+      "txgnn": {
+        "score": 0.9552478194236756,
+        "rank": 25401
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "麥粒腫（hordeolum/stye）為睫毛毛囊或眼瞼腺體急性細菌感染（主要為金黃色葡萄球菌）。Crotamiton 無明確抗菌機轉，眼用製劑安全性亦未建立。雖外用劑型有接觸皮膚之使用先例，但眼周應用無數據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "trombiculiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "trombiculiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "trombiculiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of uterine broad ligament"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of uterine broad ligament"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of uterine broad ligament"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of retroperitoneum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of retroperitoneum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "disease of retroperitoneum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "sacrum chordoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "sacrum chordoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "sacrum chordoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "urethral disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "urethral disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "urethral disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "hordeolum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "hordeolum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Crotamiton",
+        "disease": "hordeolum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

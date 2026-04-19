@@ -1,0 +1,416 @@
+完成背景研究，現在進行完整的證據評估分析。
+
+---
+
+## Ampicillin (DB00415) 藥物再利用證據分析報告
+
+> ⚠️ **免責聲明**：以下分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過臨床驗證方可應用。
+
+---
+
+```json
+{
+  "drug": "Ampicillin",
+  "drugbank_id": "DB00415",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Ampicillin 為 aminopenicillin（β-lactam 類），機轉為抑制轉肽酶（PBP）破壞肽聚糖合成，故僅對有細胞壁之細菌有效。市場狀態：未上市（新加坡 SgTxGNN 語境）。",
+  "indications": [
+    {
+      "disease_name": "laryngitis",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "細菌性喉炎（包括急性會厭炎、聲門下膿腫、鼻硬結病）主要病原體為 Haemophilus influenzae、Streptococcus pyogenes、Klebsiella rhinoscleromatis（鼻硬結病）及 Actinomyces spp.，皆具細胞壁，ampicillin 覆蓋率佳。然而多數喉炎為病毒性，抗生素無效，且 H. influenzae b 型疫苗已大幅降低細菌性會厭炎發生率。現行急性會厭炎多以 ceftriaxone 或 amoxicillin/clavulanate 為首選。",
+      "evidence_summary": "文獻以 1970s-2000s 回顧性案例系列為主，涵蓋 ampicillin 用於急性會厭炎（PMID 3977063、5314768）、鼻硬結病（PMID 8651625）及聲門下膿腫（PMID 12402494）。2025 年指引品質評估（PMID 39879424）確認 β-lactam 仍為細菌性咽喉炎指引骨幹。唯一臨床試驗為 amoxicillin/clavulanate PMS，非直接 RCT 證據。",
+      "limitations": [
+        "缺乏直接針對 laryngitis 的 ampicillin RCT",
+        "臨床試驗（NCT01406275）為 Amoxicillin/Clavulanate，非 Ampicillin",
+        "多數喉炎為病毒性，抗生素適用性有限",
+        "β-lactamase 陽性 H. influenzae 對 plain ampicillin 有耐藥性"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01406275",
+          "title": "Special Drug Use Investigation for CLAVAMOX® (Amoxicillin/Clavulanate) Pediatrics Dry Syrup",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Amoxicillin/Clavulanate（CLAVAMOX®），非 Ampicillin；Phase N/A（上市後監測）；363 例兒科患者，雖包含喉炎適應症，但無法提取 Ampicillin 特異性效果數據。間接參考價值低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "39879424", "study_type": "Guidelines Assessment", "tier": "2", "note": "2025 年 AGREE 工具評估喉炎/咽炎臨床指引品質，確認 β-lactam 地位"},
+        {"pmid": "3977063", "study_type": "Retrospective Cohort", "tier": "2", "note": "1985 年兒童急性會厭炎系列，ampicillin ± chloramphenicol 為治療選項，20% H.influenzae 對 ampicillin 耐藥"},
+        {"pmid": "25944348", "study_type": "Retrospective Cohort", "tier": "2", "note": "喉切除術後並發症與周手術期抗生素選擇相關性分析"},
+        {"pmid": "1712371", "study_type": "Clinical Trial", "tier": "2", "note": "Whipple 病短期抗生素治療（ampicillin + chloramphenicol），非 laryngitis 直接證據"},
+        {"pmid": "12402494", "study_type": "Case Series", "tier": "3", "note": "聲門旁喉膿腫案例系列，ampicillin 為歷史治療用藥"},
+        {"pmid": "30579693", "study_type": "Case Report", "tier": "3", "note": "移植後喉部放線菌病，amoxicillin 治療，間接相關"},
+        {"pmid": "8651625", "study_type": "Case Series", "tier": "3", "note": "鼻硬結病喉氣管表現，ampicillin 為治療選項之一"},
+        {"pmid": "35923122", "study_type": "Review + Case Report", "tier": "3", "note": "自發性喉膿腫歷史回顧，抗生素治療概述"},
+        {"pmid": "5314768", "study_type": "Case Series", "tier": "3", "note": "1971 年成人會厭炎，ampicillin 為主要治療藥物"},
+        {"pmid": "35943934", "study_type": "Animal Study", "tier": "3", "note": "犬頸深部感染外科治療，不適用人體"}
+      ]
+    },
+    {
+      "disease_name": "gonococcal urethritis",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Hold",
+      "mechanistic_link": "Neisseria gonorrhoeae 具有肽聚糖細胞壁，PBP（penicillin-binding proteins）為有效靶點，Ampicillin 歷史上為第一線口服治療（3.5 g + probenecid，單次口服）。然而自 1970 年代起，質體介導的 β-lactamase（PPNG：penicillinase-producing N. gonorrhoeae）廣泛流行（部分地區達 30% 以上），WHO/CDC 自 1980 年代末已不再建議 penicillin 類用於淋病。現行標準為 ceftriaxone 500 mg IM 單次。",
+      "evidence_summary": "存在多項 1970-1987 年直接針對 ampicillin 的臨床試驗（Level 相當於 Phase 2-3 RCT），治癒率 93-97%（PPNG 出現前）。PMID 4272504、4215559、393363、2958947 為隨機對照試驗或比較性研究，但所有研究均完成於 PPNG 廣泛流行前。PMID 2958947（1987，Ethiopia）明確顯示 PPNG 感染者 ampicillin 失敗率 19% vs spectinomycin 0%。此適應症為「歷史性 L2 證據，臨床已淘汰」。",
+      "limitations": [
+        "所有陽性試驗完成於 1974-1987 年，PPNG 廣泛流行前",
+        "現行 N. gonorrhoeae 對 ampicillin/penicillin 耐藥率極高",
+        "WHO/CDC 指引明確不建議 penicillin 類用於淋病治療",
+        "無現代（2000 年後）臨床試驗",
+        "公共衛生角度使用 ampicillin 可能加速耐藥性擴散"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "4272504", "study_type": "RCT", "tier": "1", "note": "1974 年 RCT：ampicillin vs procaine penicillin G vs spectinomycin，治癒率 93-97%（PPNG 前時代）"},
+        {"pmid": "4215559", "study_type": "RCT", "tier": "1", "note": "1974 年 RCT：amoxicillin vs ampicillin 單次口服治療男性淋菌性尿道炎，直接比較"},
+        {"pmid": "393363", "study_type": "RCT", "tier": "1", "note": "1979 年 RCT：minocycline vs ampicillin，ampicillin 仍有效但已出現耐藥跡象"},
+        {"pmid": "2958947", "study_type": "RCT", "tier": "1", "note": "1987 年 Ethiopia RCT：PPNG 感染者 ampicillin 失敗率 19%，確認耐藥問題嚴重"},
+        {"pmid": "678956", "study_type": "RCT", "tier": "1", "note": "1978 年 RCT：talampicillin+probenecid vs ampicillin+probenecid 直接比較"},
+        {"pmid": "6459764", "study_type": "RCT", "tier": "1", "note": "1981 年 RCT：piperacillin vs penicillin G，ampicillin 相關 β-lactam 的比較基準"},
+        {"pmid": "4099156", "study_type": "Prospective Cohort", "tier": "2", "note": "1970 年前瞻性研究：口服 ampicillin 治療男性淋菌性尿道炎，早期直接證據"},
+        {"pmid": "6231755", "study_type": "Review", "tier": "3", "note": "1984 年綜述：PPNG 出現迫使 ampicillin 退出一線治療"},
+        {"pmid": "4212038", "study_type": "Case Series", "tier": "3", "note": "咽喉淋菌感染，ampicillin 治療，歷史案例"},
+        {"pmid": "1091381", "study_type": "Review", "tier": "3", "note": "1975 年新生兒淋菌感染綜述，歷史脈絡"}
+      ]
+    },
+    {
+      "disease_name": "Ureaplasma urethritis",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ureaplasma urealyticum 屬黴漿菌綱（Mollicutes），完全缺乏肽聚糖細胞壁，僅有細胞膜包覆。Ampicillin 的作用機轉為抑制 PBP 介導的肽聚糖合成，故對無細胞壁的 Ureaplasma 完全無效（非耐藥性問題，而是根本性機轉不相容）。Ureaplasma 感染需以 doxycycline 或 azithromycin 治療。TxGNN 高分（0.9936）可能反映圖嵌入中 Ureaplasma urethritis 與淋菌性尿道炎節點相鄰的人工信號。",
+      "evidence_summary": "無任何支持 ampicillin 治療 Ureaplasma 的直接臨床證據。PMID 2183719（1990 年 RCT）明確記載 amoxicillin+probenecid 對共存 Ureaplasma 無效。PMID 7256497（1981 年 RCT）顯示 amoxicillin 無法清除尿道 Chlamydia/Ureaplasma。現有 8 篇文獻均為混合感染背景，無一支持此適應症。",
+      "limitations": [
+        "根本性機轉不相容：Ureaplasma 無細胞壁，ampicillin 無法作用",
+        "無任何直接臨床試驗",
+        "現有文獻均確認 β-lactam 對 Ureaplasma 無效",
+        "TxGNN 預測為圖嵌入人工信號，非藥理學依據"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "2183719", "study_type": "RCT", "tier": "1", "note": "1990 年 RCT：明確記載 amoxicillin+probenecid 對 Ureaplasma 共存感染無效，反面證據"},
+        {"pmid": "7256497", "study_type": "RCT", "tier": "1", "note": "1981 年 RCT：amoxicillin 無法清除非淋菌性尿道炎中的 Ureaplasma，反面證據"},
+        {"pmid": "10532980", "study_type": "RCT", "tier": "1", "note": "1999 年 RCT：ciprofloxacin vs ofloxacin 治療尿道炎，β-lactam 非選項，間接確認"},
+        {"pmid": "379366", "study_type": "Prospective Cohort", "tier": "2", "note": "1979 年急性副睪炎前瞻性研究：Ureaplasma 為主要病原，需 tetracycline"},
+        {"pmid": "6406199", "study_type": "Cohort", "tier": "2", "note": "1983 年混合 Chlamydia/Mycoplasma 感染研究，β-lactam 不覆蓋此類病原"},
+        {"pmid": "21947096", "study_type": "Review", "tier": "3", "note": "2011 年綜述：尿道炎最佳經驗治療，azithromycin/doxycycline 為首選，β-lactam 不在列"},
+        {"pmid": "35483632", "study_type": "Case Series", "tier": "3", "note": "Haemophilus pittmaniae 生殖道感染，與 Ureaplasma 無直接關聯"},
+        {"pmid": "3817953", "study_type": "In vitro", "tier": "3", "note": "Ureaplasma 培養基研究，無藥效相關"}
+      ]
+    },
+    {
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CRS 主要病原體包括 Streptococcus pneumoniae、Haemophilus influenzae、Moraxella catarrhalis 及 Staphylococcus aureus。Ampicillin 對敏感 S. pneumoniae 和 H. influenzae 有效，但 β-lactamase 陽性的 H. influenzae（~50%）和 M. catarrhalis（~100%）對 plain ampicillin 耐藥。現行指引推薦 amoxicillin-clavulanate 作為首選 β-lactam（inhibitor 恢復覆蓋率）。Plain ampicillin 在 CRS 的臨床應用受限，但作為 amoxicillin 母體藥物，機轉仍相關。",
+      "evidence_summary": "9 項臨床試驗均非直接測試 ampicillin，主要針對 amoxicillin/clavulanate（NCT02712502、NCT01919411）或抗生素一般使用（NCT00377403、NCT01825408）。2 項文獻（PMID 20015730、PMID 29959565）提供兒童 CRS 細菌學及抗生物膜數據，均以 amoxicillin-clavulanate 為研究藥物。PMID 12877453（2003）顯示 amoxicillin/clavulanate 改善合並 CRS 的氣喘兒童的臨床及免疫病理參數。",
+      "limitations": [
+        "所有臨床試驗均非直接測試 ampicillin",
+        "現行實證支持 amoxicillin-clavulanate 而非 plain ampicillin",
+        "β-lactamase 陽性菌覆蓋率不足",
+        "慢性鼻竇炎的發病機制包含免疫/過敏成分，並非純感染性"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02712502",
+          "title": "Open-label Comparative Safety and Efficacy Study of Levofloxacin and Amoxicillin Clavulanic Acid",
+          "relevance_grade": "B",
+          "reasoning": "Phase N/A，100 例，比較 levofloxacin vs amoxicillin/clavulanate；研究 amoxicillin 的 inhibitor 組合，不直接測試 ampicillin，但提供 β-lactam 在 CRS 的療效基準線。"
+        },
+        {
+          "nct_id": "NCT00377403",
+          "title": "Randomized Clinical Trial to Evaluate Guidelines for Acute Rhinosinusitis (Phase IV Study)",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，172 例，評估 IDSA 急性鼻竇炎指引（amoxicillin-based regimen）vs 等待觀察；間接支持 β-lactam 在 rhinosinusitis 的地位。"
+        },
+        {
+          "nct_id": "NCT01919411",
+          "title": "Prophylactic Antibiotics After Functional Endoscopic Sinus Surgery: a Randomized, Double-blind Placebo",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，134 例，FESS 後預防性抗生素 RCT；不特定測試 ampicillin，但評估 β-lactam 類在 CRS 手術後的角色。"
+        },
+        {
+          "nct_id": "NCT01825408",
+          "title": "A Randomized Cohort Trial Evaluating Duration of Antibiotic Therapy as Part of Maximal Medical Therapy",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，40 例，評估 CRS 最大化藥物治療中抗生素療程長短（3 vs 6 週）；提供 β-lactam 療程設計參考。"
+        },
+        {
+          "nct_id": "NCT00335309",
+          "title": "Effectiveness of Maxillary Sinus Saline Irrigation in Conjunction With Systemic Antibiotic Therapy",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，50 例，抗生素 + 鼻竇灌洗 vs 單獨抗生素治療 CRS；間接相關，無 ampicillin 特異性數據。"
+        },
+        {
+          "nct_id": "NCT02927834",
+          "title": "The Role of Oral Steroids in the Management of Chronic Rhinosinusitis Without Nasal Polyps",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，24 例，評估口服類固醇而非抗生素在 CRS（無鼻息肉）的角色；不相關。"
+        },
+        {
+          "nct_id": "NCT03369717",
+          "title": "Use of Perioperative Antibiotics in Endoscopic Sinus Surgery",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，24 例，提前終止（TERMINATED）；圍手術期抗生素使用，未完成，不可使用。"
+        },
+        {
+          "nct_id": "NCT00002149",
+          "title": "Acupuncture and Herbal Treatment of Chronic HIV Sinusitis",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，40 例，HIV 患者鼻竇炎之針灸和草藥治療；與 ampicillin 無關。"
+        },
+        {
+          "nct_id": "NCT03809312",
+          "title": "The Use of Prophylactic Antibiotics in Endoscopy Sinus Surgery for Chronic Rhinosinusitis",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，狀態 UNKNOWN，134 例；數據可用性不確定，無 ampicillin 特異性。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "31838920", "study_type": "RCT 10-year follow-up", "tier": "1", "note": "CRS 治療的 10 年長期 RCT 追蹤，確立綜合治療策略"},
+        {"pmid": "12877453", "study_type": "RCT", "tier": "1", "note": "amoxicillin/clavulanate 改善合並 CRS 的氣喘兒童臨床及免疫病理參數"},
+        {"pmid": "20015730", "study_type": "Prospective Cohort", "tier": "2", "note": "兒童 CRS 6 年細菌學資料，記錄抗藥性趨勢"},
+        {"pmid": "29959565", "study_type": "Cohort + In vitro", "tier": "2", "note": "amoxicillin-clavulanate 在 CRS 患者的抗生物膜效果"},
+        {"pmid": "19307886", "study_type": "Cohort", "tier": "2", "note": "兒童 CRS 與氣喘嚴重度相關性"},
+        {"pmid": "12787306", "study_type": "Cohort", "tier": "2", "note": "藥物治療逆轉 CRS 細胞激素模式"},
+        {"pmid": "11685965", "study_type": "Pharmacokinetic", "tier": "2", "note": "amoxicillin/clavulanate 在 CRS 組織/血清分布，PK 參考"},
+        {"pmid": "10209612", "study_type": "Observational", "tier": "2", "note": "CRS 慢性化膿性分泌物細菌學，病原分布參考"},
+        {"pmid": "17162128", "study_type": "Case Report", "tier": "3", "note": "amoxicillin/clavulanate 藥物性肝炎，安全性警示"},
+        {"pmid": "35725311", "study_type": "Basic Science", "tier": "3", "note": "CRS 伴鼻息肉中 ACE2 表現，與 ampicillin 無直接關聯"}
+      ]
+    },
+    {
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn_score": 0.9933,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "篩竇炎的細菌學與 CRS 相似，以 S. pneumoniae、H. influenzae 為主。PMID 9438060（1997）直接研究 ampicillin 治療後慢性鼻竇炎細菌相變化，記錄篩選出 β-lactam 耐藥菌株的現象，提供 ampicillin 在此適應症中歷史性直接證據，但同時揭示其臨床侷限性。",
+      "evidence_summary": "1 篇文獻（PMID 9438060）為直接相關研究：記載 ampicillin 療程後慢性鼻竇炎細菌相的變化，顯示 ampicillin 具有初步臨床活性，但治療後耐藥菌株（S. aureus、P. aeruginosa）增加。PMID 7805431（1994，RCT）比較 ciprofloxacin 與 amoxicillin/clavulanate 治療慢性鼻竇炎，確立比較基準。無直接針對 ampicillin 的 RCT。",
+      "limitations": [
+        "無直接 RCT 證據",
+        "直接相關文獻（PMID 9438060）顯示 ampicillin 療程後產生耐藥菌",
+        "現行指引偏向 amoxicillin-clavulanate",
+        "慢性篩竇炎常需手術介入"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "7805431", "study_type": "RCT", "tier": "1", "note": "ciprofloxacin vs amoxycillin/clavulanate 治療慢性鼻竇炎的 double-blind RCT，提供β-lactam療效比較基準"},
+        {"pmid": "9438060", "study_type": "Prospective Cohort", "tier": "2", "note": "直接研究 ampicillin 治療後慢性鼻竇炎細菌相，唯一直接 ampicillin 相關文獻"},
+        {"pmid": "11391261", "study_type": "Prospective Cohort", "tier": "2", "note": "amoxicillin-clavulanate 療程後細菌學變化，比較參考"},
+        {"pmid": "29959565", "study_type": "Cohort + In vitro", "tier": "2", "note": "amoxicillin-clavulanate 抗生物膜效果，間接相關"},
+        {"pmid": "8551146", "study_type": "Review", "tier": "3", "note": "兒童慢性鼻竇炎抗菌治療回顧"},
+        {"pmid": "8378279", "study_type": "Case Series", "tier": "3", "note": "HIV 患者感染性鼻竇炎案例系列，20 例"},
+        {"pmid": "17371375", "study_type": "Case Report", "tier": "3", "note": "Teaching case，鼻竇頭痛"},
+        {"pmid": "18095501", "study_type": "Case Report", "tier": "3", "note": "Crouzon syndrome 術後反覆細菌性腦膜炎，併發症個案"}
+      ]
+    },
+    {
+      "disease_name": "gingivitis",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "牙周病致病菌包含 Porphyromonas gingivalis、Fusobacterium nucleatum、Prevotella intermedia 等革蘭氏陰性厭氧菌及 Actinomyces spp.。Ampicillin 對 Actinomyces 有效，但多種牙周菌產 β-lactamase（PMID 41050454 2025 年記錄糖尿病患者牙齦炎 β-lactamase 陽性菌盛行率），且 P. gingivalis 對 ampicillin 耐藥。現行牙周感染推薦 amoxicillin + metronidazole 聯用或 amoxicillin/clavulanate，plain ampicillin 效果有限。",
+      "evidence_summary": "NCT06131021（Phase 3，正在招募）為最相關試驗：評估牙周輔助性抗生素（可能包含 amoxicillin-type）在牙科診所的使用指徵，提供潛在支持框架。PMID 38699828（2024，RCT）評估系統性抗生素用於 peri-implantitis 手術治療。PMID 41050454（2025）提供最新 β-lactamase 陽性菌在牙齦炎盛行率數據。",
+      "limitations": [
+        "NCT06131021 尚在招募中，無結果",
+        "牙周致病菌 β-lactamase 陽性率高，plain ampicillin 覆蓋不足",
+        "現行指引推薦聯合療法（amoxicillin + metronidazole）",
+        "部分文獻（PMID 16688581）為體外 TiO2 材料研究，無直接臨床意義"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06131021",
+          "title": "Shaping the Indications for Periodontal Adjunctive Antibiotics in Dental Practice: A PBRN Clinical Trial",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，招募中，150 例；評估牙周輔助性抗生素在真實世界牙科診所的適應症，可能涵蓋 amoxicillin-type 藥物，間接支持 β-lactam 在牙周病的角色，但未完成。"
+        },
+        {
+          "nct_id": "NCT00066066",
+          "title": "Effect of Three Periodontal Therapies in Current Smokers and Non-Smokers",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，146 例，評估不同牙周治療方式在吸菸者vs非吸菸者的效果；研究重點為物理治療介入而非抗生素，與 ampicillin 無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38699828", "study_type": "RCT", "tier": "1", "note": "2024 年 peri-implantitis 手術治療中系統性抗生素的 RCT，含安慰劑對照"},
+        {"pmid": "41050454", "study_type": "Observational", "tier": "2", "note": "2025 年：糖尿病與非糖尿病牙齦炎患者 β-lactamase 陽性菌盛行率，關鍵耐藥性數據"},
+        {"pmid": "24294820", "study_type": "Observational", "tier": "2", "note": "慢性牙齦炎患者革蘭氏陰性兼性厭氧菌特性及抗菌藥物敏感性"},
+        {"pmid": "37463947", "study_type": "Observational", "tier": "2", "note": "牙周健康/疾病患者齦下葡萄球菌抗藥性與毒力因子"},
+        {"pmid": "17678431", "study_type": "Guidelines/Review", "tier": "3", "note": "牙周炎診斷與抗感染治療指引"},
+        {"pmid": "36268928", "study_type": "Review", "tier": "3", "note": "懷孕期牙科治療抗生素使用敘事性回顧，ampicillin 安全性資訊"},
+        {"pmid": "16379555", "study_type": "In vitro", "tier": "3", "note": "Berberine + ampicillin 協同抗 MRSA 活性體外研究"},
+        {"pmid": "16688581", "study_type": "In vitro", "tier": "3", "note": "TiO2 材料的 ampicillin 釋放動力學，與臨床牙齦炎治療無直接關聯"},
+        {"pmid": "40015993", "study_type": "In vitro", "tier": "3", "note": "Kouboku 對 P. gingivalis 甲硫醇產生和生物膜形成的抑制效果，無 ampicillin"},
+        {"pmid": "21142726", "study_type": "Case Report", "tier": "3", "note": "Er:YAG 雷射與傳統牙周治療個案報告"}
+      ]
+    },
+    {
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "副鼻竇腫瘤為腫瘤性疾病，Ampicillin 為抗菌藥物，無任何抗腫瘤或抗增殖機轉。TxGNN 高分（0.9920）極可能為知識圖譜嵌入人工信號：副鼻竇腫瘤節點在圖中與感染性副鼻竇疾病節點鄰近，導致抗生素類藥物被錯誤預測為有效。唯一潛在情境為腫瘤合並繼發性感染時的治療，但此非「藥物再利用」範疇，而是標準感染管控。",
+      "evidence_summary": "3 篇文獻均非直接相關：PMID 23008010 為侵入性鼻竇放線菌病（非腫瘤），PMID 3710846 研究 mezlocillin（非 ampicillin）在慢性多發性鼻竇炎組織中的穿透，PMID 4212216 為額竇化膿囊腫導致眶頂症候群個案。無臨床試驗。無 ampicillin 的直接或間接抗腫瘤證據。",
+      "limitations": [
+        "完全缺乏抗腫瘤機轉",
+        "文獻均為偶發性感染或相關藥物（非 ampicillin）研究",
+        "TxGNN 預測為圖嵌入人工信號",
+        "此適應症不適合作為藥物再利用研究標的"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "3710846", "study_type": "Pharmacokinetic", "tier": "2", "note": "Mezlocillin（非 ampicillin）在副鼻竇黏膜穿透研究，僅提供 β-lactam 組織分布間接參考"},
+        {"pmid": "23008010", "study_type": "Case Report + Review", "tier": "3", "note": "侵入性鼻竇放線菌病個案，非腫瘤，ampicillin 為 Actinomyces 感染治療選項"},
+        {"pmid": "4212216", "study_type": "Case Report", "tier": "3", "note": "額竇化膿囊腫導致眶頂症候群，抗生素使用於感染管控，非抗腫瘤"}
+      ]
+    },
+    {
+      "disease_name": "bacterial arthritis",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "細菌性關節炎（化膿性關節炎）的主要病原體包含 Streptococcus spp.、Staphylococcus aureus、Enterococcus（老年人）、Kingella kingae（兒童）、Eikenella corrodens（咬傷）及 Neisseria gonorrhoeae（性活躍成人）。Ampicillin 對 Streptococcus、Enterococcus faecalis、Kingella、Eikenella、敏感淋球菌及 Salmonella（鐮刀型血球貧血症患者）具有抗菌活性，且具良好的關節滑囊液穿透性（PMID 2029838 動物 PK 數據：滑囊液峰值 3.5 μg/mL）。Guardrails：不覆蓋 MRSA、β-lactamase 陽性菌株；需培養結果指導。",
+      "evidence_summary": "NCT04563325（Phase 4，丹麥，180 例）為最相關 RCT：評估兒童骨關節感染全口服抗生素方案 vs 靜脈→口服序貫治療，支持 aminopenicillin 類藥物口服策略的可行性。PMID 37741341（2023 年法國 GPIP 指引）確立 ampicillin 對 Kingella kingae 及鏈球菌骨關節感染的地位。PMID 2029838 提供滑囊液 PK 數據。PMID 23214260 動物研究顯示 ampicillin 在 S. aureus 關節炎模型中降低炎症指標。",
+      "limitations": [
+        "NCT04563325 為兒童骨關節感染通用試驗，非 ampicillin 特異性",
+        "NCT03031210 為社區獲得性肺炎試驗，誤入此適應症，無關",
+        "MRSA 為當前重要威脅，empiric ampicillin 覆蓋不足",
+        "成人 MSSA 化膿性關節炎 empiric 首選為 cefazolin/oxacillin，非 ampicillin"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04563325",
+          "title": "Oral-only Antibiotics for Bone and Joint Infections in Children - A Nationwide Randomized Controlled Trial",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，丹麥全國 RCT，180 例，完成。評估兒童骨關節感染全口服方案非劣性，支持 aminopenicillin 類口服序貫策略，間接支持 ampicillin 在 susceptible organisms 引起的兒童化膿性關節炎的臨床角色。"
+        },
+        {
+          "nct_id": "NCT03031210",
+          "title": "Treatment of Non-severe Community Acquired Pneumonia With Twice Daily Compared to Thrice Daily Regimen",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3，1370 例，社區獲得性肺炎試驗，與細菌性關節炎完全無關。此試驗可能因 H. influenzae/S. pneumoniae 覆蓋的圖嵌入關聯而被誤分配至此適應症。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "37741341", "study_type": "Guidelines", "tier": "2", "note": "2023 年法國兒科感染科學小組骨關節感染抗生素治療建議，確立 ampicillin 對 Kingella/鏈球菌的地位"},
+        {"pmid": "12787521", "study_type": "Review", "tier": "3", "note": "淋菌性關節炎綜述，ampicillin 為歷史治療選項（PPNG 前時代）"},
+        {"pmid": "27976670", "study_type": "Review", "tier": "3", "note": "萊姆病（Lyme borreliosis）綜述，amoxicillin 為 Lyme 關節炎一線治療，間接支持 β-lactam 在感染性關節炎的角色"},
+        {"pmid": "9012760", "study_type": "Review", "tier": "3", "note": "萊姆關節炎診斷與治療，amoxicillin 為選項"},
+        {"pmid": "2029838", "study_type": "Animal PK", "tier": "3", "note": "小牛化膿性關節炎模型 ampicillin 關節滑囊液 PK：峰值 3.5 μg/mL，支持組織穿透性"},
+        {"pmid": "23214260", "study_type": "Animal Study", "tier": "3", "note": "ampicillin ± riboflavin 在 S. aureus 誘發關節炎模型中降低 TNF-α、IL-6"},
+        {"pmid": "804363", "study_type": "Review", "tier": "3", "note": "1975 年播散性淋菌感染（包含淋菌性關節炎）綜述"},
+        {"pmid": "8179747", "study_type": "Case Report", "tier": "3", "note": "Eikenella corrodens 骨髓炎/關節炎：推薦 ampicillin 治療"},
+        {"pmid": "7899877", "study_type": "Case Series", "tier": "3", "note": "鐮刀型血球貧血症 Salmonella 骨髓炎/關節炎系列，ampicillin 為歷史治療選項"},
+        {"pmid": "16435567", "study_type": "Animal Study", "tier": "3", "note": "佐劑性關節炎對 ampicillin 血清/組織結合力的影響（大鼠），非直接療效研究"}
+      ]
+    },
+    {
+      "disease_name": "conjunctivitis",
+      "txgnn_score": 0.9904,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "細菌性結膜炎常見病原體為 Haemophilus influenzae（兒童）、Streptococcus pneumoniae、Staphylococcus aureus 及 Neisseria gonorrhoeae（新生兒 ophthalmia neonatorum）。Ampicillin 對 H. influenzae（β-lactamase 陰性株）和 S. pneumoniae 具有抗菌活性。PMID 5107631（1971）記錄淋菌性結膜炎使用 ampicillin 治療的歷史。然而現行結膜炎通常使用局部抗菌眼藥水（tobramycin、moxifloxacin）而非全身性 ampicillin；淋菌性結膜炎（ophthalmia neonatorum）現行標準為 ceftriaxone IM。",
+      "evidence_summary": "無直接測試 ampicillin 治療結膜炎的 RCT。NCT03187834（Phase 4，Burkina Faso）為抗生素耐藥與兒童微生物相研究，間接提供 β-lactam 耐藥資訊。PMID 31788487（2019）提供兒童急性細菌性結膜炎細菌學及抗生素敏感性數據，顯示 ampicillin 對分離菌株仍有部分敏感性。",
+      "limitations": [
+        "無直接 ampicillin RCT",
+        "現行結膜炎首選局部治療（topical antibiotics），全身性 ampicillin 非標準",
+        "H. influenzae β-lactamase 陽性率高影響覆蓋率",
+        "淋菌性結膜炎現行標準為 ceftriaxone"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03187834",
+          "title": "Antibiotic Resistance and Microbiome in Children Aged 6-59 Months in Nouna, Burkina Faso",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，252 例，評估 azithromycin 對兒童抗生素耐藥性和微生物相的影響；研究藥物為 azithromycin，非 ampicillin，間接提供 β-lactam 耐藥背景資料，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "31788487", "study_type": "Observational", "tier": "2", "note": "2019 年兒童急性細菌性結膜炎細菌學及抗生素敏感性，ampicillin 敏感率數據"},
+        {"pmid": "33457332", "study_type": "Observational", "tier": "2", "note": "伊朗 Kashan 結膜炎患者細菌病因學及抗生素敏感性"},
+        {"pmid": "5107631", "study_type": "Case Series", "tier": "3", "note": "1971 年淋菌性結膜炎，ampicillin 為治療選項，歷史文獻"},
+        {"pmid": "25012226", "study_type": "Review", "tier": "3", "note": "NTHi（非分型 H. influenzae）综述，包含結膜炎致病機制"},
+        {"pmid": "27800254", "study_type": "Review", "tier": "3", "note": "淚小管炎（Canaliculitis）意識提升綜述，Actinomyces 為常見致病菌"},
+        {"pmid": "2181514", "study_type": "Review", "tier": "3", "note": "Chlamydia 感染綜述，結膜炎病因之一，非 ampicillin 適應"},
+        {"pmid": "31524361", "study_type": "Review", "tier": "3", "note": "急性中耳炎快速實證回顧，間接相關（H. influenzae 共同病原體）"},
+        {"pmid": "4209511", "study_type": "Review", "tier": "3", "note": "1973 年淋病綜述，历史脈絡"},
+        {"pmid": "6445255", "study_type": "Review", "tier": "3", "note": "淋菌性疾病綜述，1980 年"},
+        {"pmid": "4135695", "study_type": "Case Report", "tier": "3", "note": "眼科牛痘（Ocular vaccinia），非細菌感染，無關"}
+      ]
+    },
+    {
+      "disease_name": "pericoronitis",
+      "txgnn_score": 0.9904,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "冠周炎（pericoronitis）為第三大臼齒周圍的急性/慢性感染，致病菌為口腔混合菌群，以 Streptococcus viridans、Fusobacterium nucleatum、Prevotella spp.、Actinomyces spp.（第三大臼齒區常見）為主。Ampicillin 對 Streptococcus 和 Actinomyces 有效，但 β-lactamase 陽性菌株（如 Prevotella、Fusobacterium）可能逸脫；PMID 12789143（2003）記錄第三大臼齒冠周炎 β-lactamase 陽性菌盛行率。現行牙源性感染推薦 amoxicillin 或 amoxicillin/clavulanate，plain ampicillin 口服生物利用率（約 40%）低於 amoxicillin（約 90%），臨床應用較少。",
+      "evidence_summary": "無直接針對 ampicillin 治療冠周炎的臨床試驗。文獻以細菌學觀察性研究和感染管理綜述為主。PMID 40381916（2025）提供日本牙源性感染抗菌藥物敏感性最新數據。PMID 16388299（2006）分析牙源性感染細菌抗生素敏感性，提供 ampicillin 覆蓋率估算依據。",
+      "limitations": [
+        "無直接 RCT",
+        "口服 ampicillin 生物利用率低（40%）vs amoxicillin（90%）",
+        "β-lactamase 陽性厭氧菌需 inhibitor 組合",
+        "現行指引偏向 amoxicillin 或 amoxicillin/clavulanate"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "39068391", "study_type": "RCT", "tier": "1", "note": "2024 年 RCT：評估複合漱口水對冠周炎疼痛緩解的效果，非抗生素但確立臨床評估方法"},
+        {"pmid": "26067725", "study_type": "Retrospective Cohort", "tier": "2", "note": "牙源性感染 1 年回顧研究，抗生素使用模式分析"},
+        {"pmid": "40381916", "study_type": "Observational", "tier": "2", "note": "2025 年日本牙源性感染細菌抗菌藥物敏感性監測數據"},
+        {"pmid": "12789143", "study_type": "Observational", "tier": "2", "note": "第三大臼齒冠周炎 β-lactamase 陽性菌盛行率，關鍵耐藥性資訊"},
+        {"pmid": "25881243", "study_type": "Retrospective Cohort", "tier": "2", "note": "烏干達 Mulago 醫院化膿性牙源性感染特性"},
+        {"pmid": "16388299", "study_type": "Observational", "tier": "2", "note": "牙源性感染細菌抗生素敏感性分析，ampicillin 覆蓋率數據"},
+        {"pmid": "8015796", "study_type": "Prospective Cohort", "tier": "2", "note": "阻生智齒拔除後影響因素的縱向前瞻性研究"},
+        {"pmid": "36268928", "study_type": "Review", "tier": "3", "note": "懷孕期牙科抗生素使用敘事性回顧"},
+        {"pmid": "12572406", "study_type": "Review", "tier": "3", "note": "複雜多間隙牙源性感染管理"},
+        {"pmid": "8126911", "study_type": "Case Report", "tier": "3", "note": "下頜慢性骨髓炎個案"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵瓶頸 |
+|--------|-----------|---------|---------|------|---------|
+| **laryngitis** | 0.9997 | L3 | S1 | Research Question | 缺乏直接 RCT；多數喉炎為病毒性 |
+| **gonococcal urethritis** | 0.9936 | L2 | S2 | **Hold** | PPNG 廣泛耐藥；歷史 RCT 已過時 |
+| **Ureaplasma urethritis** | 0.9936 | **L5** | **S0** | **Hold** | 機轉根本不相容（無細胞壁） |
+| **chronic rhinosinusitis** | 0.9934 | L3 | S1 | Research Question | β-lactamase 陽性菌覆蓋不足 |
+| **chronic ethmoidal sinusitis** | 0.9933 | L3 | S1 | Research Question | 直接文獻顯示療後耐藥菌篩選 |
+| **gingivitis** | 0.9928 | L3 | S1 | Research Question | 牙周菌 β-lactamase 盛行；聯合療法優先 |
+| **paranasal sinus neoplasm** | 0.9920 | **L5** | **S0** | **Hold** | 無抗腫瘤機轉；TxGNN 圖嵌入人工信號 |
+| **bacterial arthritis** | 0.9911 | L3 | S2 | **Proceed with Guardrails** | 需培養指導；不覆蓋 MRSA |
+| **conjunctivitis** | 0.9904 | L3 | S1 | Research Question | 局部治療為首選；耐藥率上升 |
+| **pericoronitis** | 0.9904 | L3 | S1 | Research Question | 低口服生物利用率；β-lactamase 陽性厭氧菌 |
+
+---
+
+## 🔑 重要發現
+
+1. **優先排除（Hold）**：
+   - **Ureaplasma urethritis**（L5/S0）：Ampicillin 對無細胞壁的 Ureaplasma 完全無效，此為根本性機轉不相容，TxGNN 高分（0.9936）屬圖嵌入人工信號
+   - **Gonococcal urethritis**（L2/S2）：雖有歷史 RCT 支持（1970s-1980s），但 PPNG 廣泛耐藥使此適應症臨床淘汰，不應推動再利用
+   - **Paranasal sinus neoplasm**（L5/S0）：抗菌藥物不適用於腫瘤性疾病，TxGNN 分類錯誤
+
+2. **最具潛力（Proceed with Guardrails）**：
+   - **Bacterial arthritis**（L3/S2）：特定病原體（Streptococcus、Enterococcus、Kingella kingae、Eikenella、敏感淋球菌）引起的化膿性關節炎有合理機轉依據、PK 數據支持及指引記載，但需依培養敏感性結果決策
+
+3. **TxGNN 分數 vs 實際證據落差**：本批次預測分數集中在 0.990-0.9997 範圍，但實際臨床證據普遍為 L3，顯示 TxGNN 圖嵌入對於 Ampicillin 這類廣譜抗生素的預測存在系統性高估偏差，建議後續分析時加入藥物耐藥性資料庫作為 penalty 因子

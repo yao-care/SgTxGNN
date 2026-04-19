@@ -1,0 +1,292 @@
+```json
+{
+  "drug": "Clomipramine",
+  "drugbank_id": "DB01242",
+  "analysis_note": "Clomipramine 為三環抗抑鬱藥（TCA），具最強效 SERT（血清素轉運體）抑制及中等 NET（正腎上腺素轉運體）抑制；活性代謝物 desmethylclomipramine 具更強 NET 抑制。original_indications 欄位空白疑為資料缺漏，國際上已核准用於 OCD 及重鬱症。market_status '未上市' 可能為當地資料庫缺漏，分析以全球臨床證據為準。",
+  "indications": [
+    {
+      "disease_name": "anxiety disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clomipramine 透過強效 SERT 抑制提升突觸間隙血清素濃度，降低杏仁核過度活化；NET 抑制改善前額葉對恐懼迴路的調控。OCD 屬 DSM-5 焦慮相關疾患，clomipramine 為 FDA 核准 OCD 第一線藥物，機轉與廣泛焦慮疾患高度吻合。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00004310",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，直接比較靜脈注射與口服 clomipramine 於 OCD 患者，76 人完成，為最直接相關試驗。Status UNKNOWN 可能為早期試驗未完整登錄。"
+        },
+        {
+          "nct_id": "NCT00466609",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，OCD 無反應者增強策略研究（54 人），Clomipramine 作為基礎治療藥物之一，直接評估療效。"
+        },
+        {
+          "nct_id": "NCT00254735",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，Quetiapine 加成於 OCD 嚴重患者，Clomipramine 為標準對照組基礎用藥（44 人），間接支持其在 OCD 的核心地位。"
+        },
+        {
+          "nct_id": "NCT03299166",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3，Troriluzole 加成於 SRI（包含 clomipramine）治療的 OCD 患者（426 人），大樣本支持 OCD 藥物治療框架。"
+        },
+        {
+          "nct_id": "NCT06942494",
+          "relevance_grade": "B",
+          "reasoning": "青少年 OCD 家庭認知行為治療（RECRUITING），藥物治療背景可能包含 clomipramine，與焦慮疾患綜合治療相關。"
+        },
+        {
+          "nct_id": "NCT01148316",
+          "relevance_grade": "C",
+          "reasoning": "兒青精神疾患適應性治療策略，範圍過廣，無法確認 clomipramine 於焦慮疾患的特定貢獻。"
+        },
+        {
+          "nct_id": "NCT02374567",
+          "relevance_grade": "C",
+          "reasoning": "老年精神科藥物警戒研究（TERMINATED），非焦慮疾患特定設計。"
+        },
+        {
+          "nct_id": "NCT05737511",
+          "relevance_grade": "C",
+          "reasoning": "Hydroxyzine 與常規治療比較恐慌症，非 clomipramine 相關試驗。"
+        },
+        {
+          "nct_id": "NCT06659094",
+          "relevance_grade": "C",
+          "reasoning": "網路認知行為治療階段性照護研究，非藥理學介入，無 clomipramine 直接資料。"
+        },
+        {
+          "nct_id": "NCT01944657",
+          "relevance_grade": "C",
+          "reasoning": "TMS 與藥物治療重鬱症比較（WITHDRAWN，0 人），已撤回且針對憂鬱症，不相關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38014714", "study_type": "Network Meta-analysis", "tier": "1"},
+        {"pmid": "9786103", "study_type": "RCT（雙盲）", "tier": "1"},
+        {"pmid": "3887445", "study_type": "RCT（Clomipramine vs Imipramine in OCD）", "tier": "1"},
+        {"pmid": "1933762", "study_type": "Clinical Trial（IV Clomipramine in OCD）", "tier": "1"},
+        {"pmid": "34582562", "study_type": "Cochrane Systematic Review", "tier": "1"},
+        {"pmid": "1474179", "study_type": "RCT（組合藥物治療 OCD）", "tier": "1"},
+        {"pmid": "11450830", "study_type": "Review", "tier": "3"},
+        {"pmid": "3887336", "study_type": "Review/Case Series", "tier": "3"},
+        {"pmid": "24214100", "study_type": "Cochrane Systematic Review", "tier": "1"},
+        {"pmid": "9631696", "study_type": "Animal/Veterinary Study", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性嬰兒陣發性斜頸（BPTI）目前認為與 CACNA1A 鈣離子通道基因變異及偏頭痛機轉相關，與 clomipramine 的血清素/正腎上腺素再吸收抑制機轉無明確連結。TxGNN 高分可能來自知識圖譜中「神經系統疾病」的泛化連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "schizoid personality disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "分裂性人格疾患以社交退縮為核心，目前無明確神經藥理機轉支持 clomipramine 為有效治療。唯一文獻（PMID 9316681）描述 clomipramine 誘發 Tourette 症狀的副作用，為不良反應報告非治療效益，機轉連結極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "9316681", "study_type": "Case Report（副作用報告，非療效）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "paranoid personality disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "妄想性人格疾患與多巴胺過度活化較相關，clomipramine 缺乏明確多巴胺拮抗作用。現有文獻（PMID 2265532）僅描述 OCD 患者中人格疾患共病率，非治療妄想性人格疾患的臨床試驗；PMID 11407273 為 CJD 個案報告，無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "2265532", "study_type": "Cross-sectional Study（OCD 共病，非治療研究）", "tier": "3"},
+        {"pmid": "11407273", "study_type": "Case Report（CJD，不相關）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "histrionic personality disorder (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "表演性人格疾患無已知特定神經傳導物質異常，clomipramine 的血清素/正腎上腺素機轉與此適應症無明確連結，且完全無臨床數據支持。TxGNN 評分可能源於其他人格疾患的泛化預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "schizotypal personality disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "類分裂型人格疾患與血清素 2A 受體異常及多巴胺過度活化有關；clomipramine 的 5-HT2 受體阻斷可能提供部分益處，但僅為間接機轉。文獻均為 OCD 共病研究（探討人格診斷如何影響 clomipramine 對 OCD 的治療反應），並非針對類分裂型人格疾患本身的治療研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "11893994", "study_type": "Clinical Review（OCD 洞察力與人格共病）", "tier": "3"},
+        {"pmid": "2265532", "study_type": "Cross-sectional Study（OCD 共病率）", "tier": "3"},
+        {"pmid": "1444723", "study_type": "Cohort Study（Axis II 對 OCD 治療結果影響，間接）", "tier": "2"},
+        {"pmid": "7635854", "study_type": "Cohort Study（OCD 治療反應預測因子）", "tier": "2"},
+        {"pmid": "10897982", "study_type": "Review（OCD 藥物治療）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "agoraphobia",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "廣場恐懼症常與恐慌症共病，涉及藍斑核正腎上腺素過度活化及血清素迴路失調。Clomipramine 的雙重 SERT/NET 抑制機轉可抑制恐慌發作頻率、降低預期焦慮。1980-90 年代多項 RCT 直接驗證療效，2023-2025 年系統性回顧亦持續納入。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "38014714", "study_type": "Network Meta-analysis（恐慌症藥物治療）", "tier": "1"},
+        {"pmid": "40946318", "study_type": "Integrative Systematic Review（2025）", "tier": "1"},
+        {"pmid": "10665629", "study_type": "RCT（Paroxetine vs Clomipramine vs CBT）", "tier": "1"},
+        {"pmid": "6373161", "study_type": "RCT（Clomipramine vs Diazepam 廣場恐懼症）", "tier": "1"},
+        {"pmid": "22290995", "study_type": "Comparative RCT（Clomipramine 作參考藥物）", "tier": "1"},
+        {"pmid": "2651491", "study_type": "Clinical Trial（低劑量 Clomipramine 治恐慌/廣場恐懼）", "tier": "1"},
+        {"pmid": "10221358", "study_type": "Cohort Study（血清濃度與恐慌症改善）", "tier": "2"},
+        {"pmid": "22204483", "study_type": "Review（OCD 與恐慌症/廣場恐懼症治療策略）", "tier": "3"},
+        {"pmid": "2178909", "study_type": "Pharmacological Review", "tier": "3"},
+        {"pmid": "8575719", "study_type": "Review（恐慌症有效治療）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "major depressive disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "MDD 的單胺假說：SERT + NET 雙重抑制提升突觸血清素與正腎上腺素，改善情緒、認知與快感缺失（anhedonia）。Clomipramine 是 Cipriani 2018 Lancet 地標性 21 種抗憂鬱藥網絡統合分析的核心藥物之一，療效數據最充足。REM 睡眠抑制亦被視為 TCA 類藥物抗憂鬱作用的額外機轉。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05952713",
+          "relevance_grade": "A",
+          "reasoning": "73,336 名 MDD 患者的 15 種抗憂鬱藥比較研究（COMPLETED），是目前最大規模真實世界抗憂鬱藥療效比較，clomipramine 很可能納入比較。"
+        },
+        {
+          "nct_id": "NCT03548675",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，藥物基因組學引導 TCA 個人化劑量研究（125 人），改善 clomipramine 在 MDD 中的安全性與療效優化，具臨床應用意義。"
+        },
+        {
+          "nct_id": "NCT00704860",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，治療抵抗性憂鬱症與海馬萎縮研究（27 人），Clomipramine 作為抗憂鬱藥選項，探討生物標記。"
+        },
+        {
+          "nct_id": "NCT05931965",
+          "relevance_grade": "B",
+          "reasoning": "抗憂鬱藥合併葉酸/B12/鎂的比較研究（88 人），若 clomipramine 納入比較組則相關，資料需確認。"
+        },
+        {
+          "nct_id": "NCT01305707",
+          "relevance_grade": "C",
+          "reasoning": "ECT 加藥物治療 vs 單純藥物（TERMINATED），聚焦 ECT 療效，clomipramine 角色不明確。"
+        },
+        {
+          "nct_id": "NCT04989413",
+          "relevance_grade": "C",
+          "reasoning": "CBD + CBG 用於 MDD（Phase 2/3，TERMINATED），與 clomipramine 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT00944996",
+          "relevance_grade": "C",
+          "reasoning": "PACAP-BDNF 訊號研究（生物標記探索），非治療療效試驗。"
+        },
+        {
+          "nct_id": "NCT06659094",
+          "relevance_grade": "C",
+          "reasoning": "認知行為治療介入研究，非藥理學試驗。"
+        },
+        {
+          "nct_id": "NCT06942494",
+          "relevance_grade": "C",
+          "reasoning": "青少年 OCD 家庭 CBT 研究，非 MDD 藥理學試驗。"
+        },
+        {
+          "nct_id": "NCT01944657",
+          "relevance_grade": "C",
+          "reasoning": "TMS 探索性試驗（WITHDRAWN，0 人），已撤回，無有效數據。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "29477251", "study_type": "Network Meta-analysis（Cipriani 2018，21種抗憂鬱藥，地標研究）", "tier": "1"},
+        {"pmid": "41290573", "study_type": "Network Meta-analysis（2025，胃腸道副作用比較）", "tier": "1"},
+        {"pmid": "38379028", "study_type": "Large Cohort（2024，17種抗憂鬱藥比較反應）", "tier": "2"},
+        {"pmid": "34034811", "study_type": "Meta-analysis（抗憂鬱藥 vs 安慰劑）", "tier": "1"},
+        {"pmid": "30611836", "study_type": "Systematic Review（快感缺失藥物介入）", "tier": "1"},
+        {"pmid": "32982805", "study_type": "Meta-review（兒青抗憂鬱藥）", "tier": "1"},
+        {"pmid": "27289172", "study_type": "Network Meta-analysis（兒青抗憂鬱藥比較）", "tier": "1"},
+        {"pmid": "25911132", "study_type": "Systematic Review（抗憂鬱藥劑量等效）", "tier": "1"},
+        {"pmid": "37155164", "study_type": "Prospective Cohort（基因型導向 TCA 劑量效益）", "tier": "2"},
+        {"pmid": "28850959", "study_type": "Systematic Review（抗憂鬱藥癲癇風險）", "tier": "1"}
+      ]
+    },
+    {
+      "disease_name": "endogenous depression",
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "內源性憂鬱症（melancholic depression）以顯著快感缺失、植物神經症狀為特徵，對去甲腎上腺素再吸收抑制劑反應良好。Clomipramine 的 NET 抑制（透過 desmethylclomipramine）及 REM 睡眠抑制效果對此亞型有特定優勢。1980-90 年代多項直接 RCT（vs moclobemide、fluvoxamine）提供 L2 級直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "2669440", "study_type": "RCT（Moclobemide vs Clomipramine 內源性憂鬱）", "tier": "1"},
+        {"pmid": "6388247", "study_type": "RCT（Moclobemide vs Clomipramine 憂鬱症）", "tier": "1"},
+        {"pmid": "6215443", "study_type": "RCT（Fluvoxamine vs Clomipramine 內源性憂鬱）", "tier": "1"},
+        {"pmid": "11986508", "study_type": "RCT（心理動力治療 + Clomipramine 重鬱症）", "tier": "1"},
+        {"pmid": "27289172", "study_type": "Network Meta-analysis（含兒青憂鬱症）", "tier": "1"},
+        {"pmid": "2694201", "study_type": "Clinical Study（Clomipramine 與 EEG 睡眠改變）", "tier": "2"},
+        {"pmid": "22516018", "study_type": "Animal Study（Clomipramine 憂鬱模型睡眠恆定）", "tier": "3"},
+        {"pmid": "10446735", "study_type": "Review（Mirtazapine 臨床綜述，含比較資料）", "tier": "3"},
+        {"pmid": "14532855", "study_type": "Animal Study（Clomipramine 憂鬱模型排尿影響）", "tier": "3"},
+        {"pmid": "3887336", "study_type": "Review（OCD 與憂鬱症藥物治療歷史）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ADHD 涉及前額葉 DA/NE 訊號不足；Clomipramine 透過 NET 抑制提升前額葉去甲腎上腺素濃度，改善注意力與衝動控制。Cochrane 系統性回顧（PMID 25238582）確認三環抗憂鬱藥（含 clomipramine）對 ADHD 有效，但安全性顧慮（心臟毒性、癲癇閾值降低）限制了其一線地位。2024 年最新統合分析亦持續確認此族群的療效。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "25238582", "study_type": "Cochrane Systematic Review（TCA 用於兒青 ADHD）", "tier": "1"},
+        {"pmid": "39372877", "study_type": "Updated Systematic Review + Meta-analysis（2024，抗憂鬱藥治療 ADHD）", "tier": "1"},
+        {"pmid": "32982805", "study_type": "Meta-review（兒青抗憂鬱藥安全性）", "tier": "1"},
+        {"pmid": "6875128", "study_type": "RCT（TCA vs Methylphenidate 治療 ADD 兒童）", "tier": "1"},
+        {"pmid": "8861545", "study_type": "Review（兒青精神科藥物治療指引）", "tier": "3"},
+        {"pmid": "10418807", "study_type": "Cohort Study（ADHD 攻擊行為藥物治療）", "tier": "2"},
+        {"pmid": "17207050", "study_type": "Systematic Review（自閉症 ADHD 樣症狀藥物治療）", "tier": "1"},
+        {"pmid": "1549543", "study_type": "Review（Tourette 症及相關疾患藥物治療）", "tier": "3"},
+        {"pmid": "12185806", "study_type": "Review（抽動症症候群）", "tier": "3"},
+        {"pmid": "22583957", "study_type": "Case Report（成人 ADHD 高劑量藥物治療）", "tier": "3"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| anxiety disorder | 0.9993 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| major depressive disorder | 0.9977 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| endogenous depression | 0.9971 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| agoraphobia | 0.9987 | **L2** | **S2** | 🔬 Research Question |
+| attention deficit-hyperactivity disorder | 0.9958 | **L2** | **S2** | 🔬 Research Question |
+| schizotypal personality disorder | 0.9990 | **L4** | **S0** | ⛔ Hold |
+| paranoid personality disorder | 0.9990 | **L5** | **S0** | ⛔ Hold |
+| schizoid personality disorder | 0.9990 | **L5** | **S0** | ⛔ Hold |
+| histrionic personality disorder | 0.9990 | **L5** | **S0** | ⛔ Hold |
+| benign paroxysmal torticollis of infancy | 0.9990 | **L5** | **S0** | ⛔ Hold |
+
+---
+
+## ⚠️ 關鍵風險提示
+
+1. **TxGNN 高分 ≠ 臨床證據**：人格疾患群（schizoid/paranoid/histrionic）TxGNN 分數均達 0.999，但均無直接臨床證據，說明 KG 泛化連結需嚴格臨床過濾
+2. **安全性 Guardrails**：Clomipramine 具心臟毒性（QTc 延長）、癲癇閾值降低、抗膽鹼副作用，所有 S3 適應症均需心電圖監測及血中濃度追蹤
+3. **資料缺漏警示**：`original_indications: []` 及 `original_moa: "[Data Gap]"` 屬資料庫缺漏，Clomipramine 全球已有明確核准適應症，建議補全 DrugBank 資料

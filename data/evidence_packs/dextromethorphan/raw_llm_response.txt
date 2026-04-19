@@ -1,0 +1,241 @@
+```json
+{
+  "drug": "Dextromethorphan",
+  "drugbank_id": "DB00514",
+  "analysis_date": "2026-04-04",
+  "background_note": "DXM 為 NMDA 受體拮抗劑、Sigma-1 受體激動劑及弱效血清素回收抑制劑，臨床上廣泛用於止咳；本市場狀態標註「未上市」，應注意在地法規適用性。",
+  "indications": [
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.99985,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "DXM 作為中樞性止咳藥，透過抑制延腦咳嗽中樞（NMDAr 拮抗）及 Sigma-1 受體調控，可減少鼻腔分泌物刺激引發的咳嗽反射；加上局部黏膜抗炎機轉假說，提供合理的鼻腔疾病介入依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06958692",
+          "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Phase 3 Trial of Dextromethorphan and B...",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 388,
+          "relevance_grade": "A",
+          "reasoning": "直接以 DXM 為主要介入藥物之 Phase 3 RCT，設計完整（多中心、隨機、雙盲、安慰劑對照），招募規模 388 人具足夠統計效力。雖試驗尚在招募中，結果尚未公布，但設計品質構成 L1 最強直接臨床證據。需待結果揭盲後確認療效與安全性，建議密切追蹤。"
+        }
+      ],
+      "literature_analysis": [],
+      "guardrails": [
+        "等待 NCT06958692 主要終點結果後再推進決策",
+        "確認組合用藥（標題中截斷的 'B...' 組合物）的具體成分",
+        "評估在地法規（未上市狀態）的臨時使用途徑"
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.99982,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "急性咽喉炎的主要症狀為咽痛與乾咳，DXM 的中樞止咳機轉（NMDAr 拮抗抑制延腦咳嗽中樞）可緩解咳嗽症狀；然而對病原感染本身（細菌/病毒）無直接作用，屬症狀緩解而非病因治療。資料集內無該適應症的直接臨床試驗或文獻，惟 DXM 止咳藥理機轉提供間接支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gaps": [
+        "缺乏針對急性咽喉炎的直接 RCT 或觀察性研究",
+        "需區分病毒性vs細菌性咽喉炎的不同情境",
+        "症狀緩解效果與安慰劑的對照數據付之闕如"
+      ]
+    },
+    {
+      "disease_name": "faucial diphtheria",
+      "txgnn_score": 0.99355,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "白喉為 Corynebacterium diphtheriae 產毒素的急性細菌感染，主要病理為外毒素導致的組織損傷與假膜形成。DXM 無抗菌活性，亦無針對白喉毒素的中和機轉；TxGNN 高分推測可能基於圖譜中呼吸道疾病節點的拓撲鄰近性，而非真實生物機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "disqualifying_factors": [
+        "無任何已知 DXM 抗白喉機轉",
+        "白喉為法定傳染病，標準治療（抗毒素 + 抗生素）已明確",
+        "TxGNN 高分推測可能為圖譜拓撲偽陽性"
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.99318,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自主神經性頭痛（TACs，包含叢集性頭痛）涉及三叉神經-副交感神經迴路的異常激活。DXM 的 NMDAr 拮抗與 Sigma-1 受體調控理論上可介入神經性疼痛，但針對 TAC 的特異性假說薄弱；現有資料集內無臨床試驗或文獻支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gaps": [
+        "缺乏 TAC 特異性機轉假說的實驗室或動物數據",
+        "現有 NMDAr 拮抗藥物（如 Ketamine）在叢集性頭痛的微弱現有證據尚未延伸至 DXM",
+        "安全性：DXM 濫用潛力與 TAC 患者族群的風險評估未知"
+      ]
+    },
+    {
+      "disease_name": "cervical disc degenerative disorder",
+      "txgnn_score": 0.99304,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頸椎退化性椎間盤疾病以機械壓迫與局部發炎為主要病理。DXM 的 NMDAr 拮抗可理論上調控脊髓層面的疼痛信號（中樞敏化），但無直接頸椎退化的抗炎或結構修復機轉；資料集內完全無臨床支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gaps": [
+        "缺乏 DXM 對脊髓/椎間盤退化的體外或動物實驗數據",
+        "與現有鎮痛藥（NSAIDs、Gabapentinoids）相比的優勢不明",
+        "劑量-效應關係在慢性疼痛情境未建立"
+      ]
+    },
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.99247,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "過敏性蕁麻疹由 IgE 介導的肥大細胞脫顆粒釋放組織胺所致。DXM 無抗組織胺活性，亦無 IgE 訊號抑制或肥大細胞穩定機轉；Sigma-1 受體的免疫調節潛力屬推測性研究領域，無蕁麻疹相關臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "disqualifying_factors": [
+        "無已知抗過敏或抗組織胺機轉",
+        "蕁麻疹標準治療（第二代抗組織胺）安全性與療效已充分建立",
+        "TxGNN 高分推測可能為圖譜噪音"
+      ]
+    },
+    {
+      "disease_name": "tracheal disease",
+      "txgnn_score": 0.98591,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "DXM 的中樞止咳機轉與局部氣管黏膜效應（纖毛擺動頻率調控）提供氣管疾病症狀管理的生物合理性。PMID 2255670 直接測試 DXM 對纖毛擺動頻率的影響，揭示可能的黏液清除機轉；然而兩篇文獻均為 1976-1990 年代的基礎/早期臨床研究，方法學品質受時代限制。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "952583",
+          "title": "Antitussive properties of butorphanol",
+          "year": "1976",
+          "study_type": "Comparative pharmacology study",
+          "tier": 3,
+          "relevance_note": "主要評估 Butorphanol 止咳效果，DXM 作為比較藥物出現；間接支持 DXM 的氣管/止咳相關性，但非直接主題研究。文獻年代久遠，方法學標準低於現代要求。"
+        },
+        {
+          "pmid": "2255670",
+          "title": "The effects of vadocaine, dextromethorphan, diphenhydramine and hydroxyzine on the ciliary beat frequency",
+          "year": "1990",
+          "study_type": "In vitro / Ex vivo mechanistic study",
+          "tier": 3,
+          "relevance_note": "直接測試 DXM 對氣道纖毛擺動頻率的影響，屬 DXM 氣管效應的直接機轉證據；然為 1990 年體外研究，臨床轉譯價值有限，需現代研究驗證。"
+        }
+      ],
+      "next_steps": [
+        "確認是否有更近期（2000年後）DXM 氣管效應文獻",
+        "評估 DXM 在氣管切開或氣管疾病患者的安全性數據",
+        "考慮設計 Phase 1/2 探索性試驗探討 DXM 對氣道黏液纖毛系統的影響"
+      ]
+    },
+    {
+      "disease_name": "massive neonatal aspiration syndrome",
+      "txgnn_score": 0.97843,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒大量吸入症候群（胎糞/羊水吸入）需即時氣道清除與支持性療法，DXM 在此情境無已知有益機轉。更重要的是，新生兒對 DXM 代謝（CYP2D6 酶系未成熟）的安全性高度不確定，存在嚴重毒性風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "disqualifying_factors": [
+        "新生兒 CYP2D6 未成熟導致 DXM 蓄積風險極高",
+        "急性搶救情境與 DXM 緩慢起效特性不匹配",
+        "無任何新生兒吸入症候群的 DXM 使用紀錄",
+        "安全性風險遠高於假設性獲益"
+      ]
+    },
+    {
+      "disease_name": "respiratory syncytial virus bronchiolitis",
+      "txgnn_score": 0.97647,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RSV 毛細支氣管炎以嬰幼兒為主要族群，病理為病毒引發的細支氣管炎症。理論上 DXM 的 Sigma-1 受體調控可能影響病毒複製週期（Sigma-1r 參與多種病毒的胞內運輸），但此假說極具推測性，無任何 RSV 特異性數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "disqualifying_factors": [
+        "嬰幼兒族群使用 DXM 的安全性疑慮（尤其 <2歲）",
+        "RSV 已有 Nirsevimab 預防性抗體及 Ribavirin 治療選項",
+        "Sigma-1r 抗 RSV 假說缺乏任何實驗室證據"
+      ]
+    },
+    {
+      "disease_name": "hantavirus infectious disease",
+      "txgnn_score": 0.97635,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "漢他病毒感染導致出血熱或肺症候群，無已知特效治療。DXM 與漢他病毒之間無已知直接交互機轉；Sigma-1 受體與病毒複製的關聯研究雖存在於其他病毒（如 COVID-19），但無漢他病毒特異性數據。TxGNN 高分推測最可能反映圖譜中感染症疾病節點的非特異性連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "disqualifying_factors": [
+        "完全缺乏漢他病毒相關機轉假說或實驗數據",
+        "漢他病毒治療需嚴格的感染控制環境，DXM 介入的臨床情境難以建立",
+        "TxGNN 高分最可能為圖譜拓撲偽陽性"
+      ]
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 1,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 7
+    },
+    "decision_distribution": {
+      "S3_proceed": 1,
+      "S2_feasibility": 0,
+      "S1_safety_review": 2,
+      "S0_insufficient": 7
+    },
+    "priority_actions": [
+      {
+        "priority": 1,
+        "indication": "nasal cavity disease",
+        "action": "追蹤 NCT06958692 結果，確認組合用藥成分，評估在地法規途徑"
+      },
+      {
+        "priority": 2,
+        "indication": "tracheal disease",
+        "action": "補充文獻回顧（2000年後），評估進行 Phase 1 安全性試驗可行性"
+      },
+      {
+        "priority": 3,
+        "indication": "acute laryngopharyngitis",
+        "action": "設計探索性研究問題，評估是否有資源進行 PO 研究"
+      }
+    ],
+    "overall_note": "DXM 在本資料集中最強證據集中於呼吸道症狀相關適應症，符合其已知藥理機轉。7 個 L5 適應症中，faucial diphtheria、allergic urticaria 及 hantavirus infectious disease 的 TxGNN 高分推測機轉合理性最弱，建議視為圖譜噪音優先排除。neonatal aspiration syndrome 因安全性禁忌應予停止。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| nasal cavity disease | 0.9998 | **L1** | S3 | ✅ Proceed w/ Guardrails |
+| acute laryngopharyngitis | 0.9998 | L4 | S1 | 🔬 Research Question |
+| tracheal disease | 0.9859 | L4 | S1 | 🔬 Research Question |
+| trigeminal autonomic cephalalgia | 0.9932 | L5 | S0 | 🛑 Hold |
+| cervical disc degenerative disorder | 0.9930 | L5 | S0 | 🛑 Hold |
+| allergic urticaria | 0.9925 | L5 | S0 | 🛑 Hold |
+| faucial diphtheria | 0.9936 | L5 | S0 | 🛑 Hold |
+| massive neonatal aspiration syndrome | 0.9784 | L5 | S0 | 🛑 Hold* |
+| respiratory syncytial virus bronchiolitis | 0.9765 | L5 | S0 | 🛑 Hold |
+| hantavirus infectious disease | 0.9764 | L5 | S0 | 🛑 Hold |
+
+> ⚠️ **neonatal aspiration syndrome** 加註安全性禁忌（CYP2D6 未成熟），建議從候選名單中永久排除，而非僅暫緩。

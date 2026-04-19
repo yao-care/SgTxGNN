@@ -1,0 +1,169 @@
+## 藥物再利用證據分析：Dapagliflozin (DB06292)
+
+> **背景說明**：Dapagliflozin 為 SGLT2 抑制劑，實際上已於全球多國核准用於 T2DM、心臟衰竭（HFrEF/HFpEF）及慢性腎臟病（CKD）。本資料集標註「未上市」及 MOA 資料缺漏，推測為新加坡區域資料覆蓋問題，分析時將補入已知藥理機轉。
+
+---
+
+```json
+{
+  "drug": "Dapagliflozin",
+  "drugbank_id": "DB06292",
+  "known_moa": "SGLT2（鈉-葡萄糖共轉運蛋白2）抑制劑：抑制腎近曲小管葡萄糖再吸收，促進糖尿、體重下降、AMPK活化、抗炎、心腎保護",
+  "data_quality_note": "original_indications/moa 為資料缺漏，非藥物本身未核准",
+  "indications": [
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局灶性強直肢體症候群屬硬人症候群（SPS）光譜，病理涉及抗-GAD65抗體介導之GABAergic神經抑制缺失。Dapagliflozin之SGLT2抑制、AMPK活化及抗炎特性與此機轉無直接連結。KG預測可能源於疾病本體論中SPS與自體免疫/代謝節點之間接連結，生物學合理性極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["純計算預測", "神經自體免疫疾病機轉無對應", "TxGNN分數高（0.982）疑因疾病節點拓撲結構，非生物相關性"]
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "典型硬人症候群為抗-GAD65/抗-Amphiphysin抗體介導之自體免疫神經疾病，核心缺陷為脊髓GABA抑制缺失。SGLT2抑制與GABAergic pathway無已知交集。與focal型分數完全相同（0.982），顯示KG拓撲層面之預測而非特異性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["與focal型分數完全相同，提示批次預測artifact", "缺乏任何神經免疫機轉支持"]
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia為INPPL1（SHIP2）基因突變所致罕見骨骼發育異常，屬磷酸肌醇信號通路缺陷。SHIP2（PI(3,4,5)P3磷酸酶）與SGLT2抑制之代謝效應間有理論上的PI3K/Akt間接交集，但無任何臨床或基礎實驗數據支持於此先天性結構缺陷中的應用，且骨骼發育異常於成人期藥物干預效益存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["罕見先天性骨骼病", "結構性缺陷藥物療效機制不明"]
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "硫胺素反應性功能障礙症候群（含Wernicke腦病等硫胺素代謝相關疾病）之核心為TPP（焦磷酸硫胺素）依賴酵素缺乏，與糖解/TCA循環障礙。SGLT2抑制劑藉AMPK活化影響粒線體代謝，理論上可能影響TCA中間物，但無任何支持此適應症的實驗或臨床數據，且硫胺素補充為標準治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["標準治療（硫胺素補充）已確立", "代謝機轉連結極為間接"]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物誘發局部脂肪萎縮（如胰島素注射部位脂肪增生/萎縮）。Dapagliflozin之生物學合理性相對較高：SGLT2抑制誘發滲透性利尿→減少脂肪質量，AMPK活化→抑制脂質合成（FASN下調），可能調節局部脂肪代謝。然而，此類脂肪萎縮為物理性/免疫性局部反應，全身性SGLT2抑制療效機制尚無驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["局部物理性病灶，全身藥物療效存疑", "本群組4個脂肪萎縮疾病預測分數相近，疑為cluster效應"]
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "離心性脂肪萎縮（Lipodystrophia Centrifugalis Abdominalis Infantilis）為罕見兒科自體免疫/炎症性脂肪萎縮。SGLT2抑制劑之抗炎特性（NF-κB抑制、NLRP3炎症小體抑制）提供微弱機轉假說，但無任何臨床數據，且主要影響兒科族群（Dapagliflozin無兒科數據在此疾病）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["兒科罕見病", "SGLT2抑制劑無兒科此適應症安全性數據"]
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘發局部脂肪萎縮為物理性機制（長期壓迫→脂肪細胞凋亡/壞死）。Dapagliflozin之全身代謝作用對物理性組織損傷無直接治療機轉，KG預測幾乎完全基於脂肪組織疾病節點相似性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["物理性損傷機制，全身藥物無法逆轉", "最弱生物學合理性之脂肪萎縮亞型"]
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪萎縮病因不明，可能涉及局部炎症、免疫複合物沉積或機械因素。SGLT2抑制劑之代謝/抗炎作用提供最低限度的機轉假說，但「特發性」定義本身即代表缺乏已知治療靶點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["病因不明限制靶向治療可行性", "脂肪萎縮cluster中最弱適應症"]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻PMID 33559163研究Dapagliflozin透過AMPK/mTOR通路保護胰臟損傷並促進腎臟自噬，具胰臟保護機轉。然而：(1)胰臟發育不全（Pancreatic Agenesis）為先天性缺如（PDX1/PTF1A等基因突變），屬結構性先天缺陷，藥物無法替代缺失組織；(2)文獻研究對象為胰臟損傷模型（非發育不全）；(3)機轉關聯為間接類比，非直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33559163",
+          "title": "Dapagliflozin ameliorates pancreatic injury and activates kidney autophagy by modulating the AMPK/mTOR pathway",
+          "year": "2021",
+          "study_type": "動物實驗（基礎研究）",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究對象為胰臟損傷（injury）模型，非先天性胰臟發育不全（agenesis）。AMPK/mTOR通路保護機制與先天結構缺陷無直接相關性。可作為胰臟保護間接支持，但不能視為pancreatic agenesis的治療證據。相關性評級C：主題相關（胰臟+dapagliflozin）但疾病模型不符。"
+        }
+      ],
+      "risk_flags": [
+        "先天性結構缺陷，藥物治療無法解決根本問題",
+        "文獻研究模型（損傷）與目標適應症（發育不全）根本性不同",
+        "KG分數可能反映胰臟代謝節點相似性，非適應症特異性"
+      ]
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎為T細胞/抗體介導之卵巢炎症，與多發性內分泌腺病（APS）相關。Dapagliflozin之抗炎特性（IL-6、TNF-α抑制）提供最低限度機轉假說，但KG分數最低（0.904）且無任何臨床或動物數據支持。SGLT2抑制與卵巢自體免疫無已知直接連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["無機轉直接支持", "本組最低TxGNN分數仍屬純計算預測"]
+    }
+  ],
+  "overall_summary": {
+    "total_indications": 10,
+    "by_evidence_level": {
+      "L1": 0, "L2": 0, "L3": 0, "L4": 1, "L5": 9
+    },
+    "by_decision_stage": {
+      "S0": 9, "S1": 1, "S2": 0, "S3": 0
+    },
+    "by_recommendation": {
+      "Hold": 10, "Research Question": 0, "Proceed with Guardrails": 0
+    },
+    "key_observations": [
+      "全部10個適應症均缺乏臨床試驗數據（clinical_trials_count=0）",
+      "9個適應症完全無文獻支持（L5），僅pancreatic agenesis有1篇間接基礎研究",
+      "脂肪萎縮疾病群（4個，分數0.967-0.970）具最佳相對機轉合理性，但仍屬L5，因均為局部物理/結構性病變",
+      "硬人症候群群（2個）獲得最高TxGNN分數（0.982），但機轉關聯最弱，疑為KG圖結構拓撲artifact",
+      "Pancreatic agenesis雖升至L4/S1，但文獻研究模型與目標適應症根本性不符，不建議推進",
+      "建議後續探索方向：Dapagliflozin在脂肪代謝障礙相關疾病（代謝性脂肪萎縮、脂肪肝）的應用，該方向有更強機轉支持及現有文獻基礎"
+    ]
+  }
+}
+```
+
+---
+
+### 分析摘要表
+
+| 疾病 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 主要原因 |
+|------|-----------|----------|----------|------|----------|
+| focal stiff limb syndrome | 0.982 | **L5** | S0 | Hold | 純預測，GABAergic機轉無連結 |
+| classic stiff person syndrome | 0.982 | **L5** | S0 | Hold | 同上，疑batch artifact |
+| opsismodysplasia | 0.981 | **L5** | S0 | Hold | 先天骨骼缺陷，SHIP2間接連結 |
+| thiamine-responsive dysfunction syndrome | 0.980 | **L5** | S0 | Hold | 標準治療已確立 |
+| drug-induced localized lipodystrophy | 0.970 | **L5** | S0 | Hold | 局部物理性，全身藥物機轉未驗證 |
+| centrifugal lipodystrophy | 0.969 | **L5** | S0 | Hold | 兒科罕見病，安全性缺乏 |
+| pressure-induced localized lipoatrophy | 0.968 | **L5** | S0 | Hold | 物理性損傷機制 |
+| idiopathic localized lipodystrophy | 0.967 | **L5** | S0 | Hold | 病因不明，靶點缺乏 |
+| **pancreatic agenesis** | **0.966** | **L4** | **S1** | **Hold** | 1篇基礎研究，但疾病模型不符 |
+| autoimmune oophoritis | 0.904 | **L5** | S0 | Hold | 最低分數，無機轉支持 |
+
+> ⚠️ **YMYL免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴格臨床驗證後方可應用。

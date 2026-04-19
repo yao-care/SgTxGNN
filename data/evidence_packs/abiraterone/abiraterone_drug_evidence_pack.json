@@ -1,0 +1,1178 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB05812-multi",
+    "version": "v4",
+    "created_at": "2026-04-03",
+    "data_cutoff": "2026-04-03",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Abiraterone",
+    "drugbank_id": "DB05812",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.988114058971405,
+        "rank": 11972
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偏頭痛受性荷爾蒙影響（月經性偏頭痛），雌雄激素波動影響三叉神經血管系統興奮性。CYP17A1 抑制降低雄激素及其前驅物，理論上可改變荷爾蒙平衡，但此為高度推測性連結，缺乏直接藥理學機轉依據及任何臨床前/臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.987524390220642,
+        "rank": 12419
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "Linkage Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "journal": "Epilepsia",
+            "year": "2011",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the chara",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上述偏頭痛機轉。易感性基因（CACNA1A, SCN1A, KCNK18）主要調控離子通道，與 CYP17A1 信號通路無已知直接交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9861371517181396,
+        "rank": 13478
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹先兆偏頭痛（舊稱基底型偏頭痛）病理涉及 CACNA1A/ATP1A2 通道病變及後循環皮質擴散抑制。CYP17A1 抑制與腦幹神經血管機能調控無已建立連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.9858249425888062,
+        "rank": 13686
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "麻風病由 Mycobacterium leprae 感染引起，主要透過免疫逃脫（抑制 TLR 信號）侵犯周邊神經及皮膚巨噬細胞。雄激素具有免疫抑制特性，CYP17A1 抑制降低雄激素理論上可增強 Th1 免疫應答，但此推論鏈過於薄弱，無任何臨床前資料支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.9836294054985046,
+        "rank": 15028
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01961843",
+            "title": "Investigator-Initiated, Pilot Translational Study of Circulating Tumor Cells to Identify Predictive Factors of Response to Abiraterone Acetate in Men With Castration-Resistant Prostate Cancer",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2014-01-14",
+            "completion_date": "2024-05-31",
+            "brief_summary": "This research study is a Pilot clinical trial. Pilot clinical trials often examine new tests (such as laboratory or radiology tests) in patients who receive either standard cancer treatments or new treatments that have been well-tested in many patients on other trials.\n\nIt is often difficult to determine how prostate cancer is going to behave when a new treatment is started. Physicians have no way to predict how a patient's tumor will respond to treatment. Although scientists have learned about ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "循環腫瘤細胞預測性生物標記研究（前列腺癌），Phase N/A，n=40，已完成。與肺動脈高壓完全無關，為偽陽性命中。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34953525",
+            "title": "Abiraterone acetate and prednisolone with or without enzalutamide for high-risk non-metastatic prostate cancer: a meta-analysis of primary results from two randomised controlled phase 3 trials of the STAMPEDE platform protocol.",
+            "authors": [
+              "Attard Gerhardt",
+              "Murphy Laura",
+              "Clarke Noel W",
+              "Cross William",
+              "Jones Robert J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2022",
+            "abstract": "Men with high-risk non-metastatic prostate cancer are treated with androgen-deprivation therapy (ADT) for 3 years, often combined with radiotherapy. We analysed new data from two randomised controlled phase 3 trials done in a multiarm, multistage platform protocol to assess the efficacy of adding abiraterone and prednisolone alone or with enzalutamide to ADT in this patient population.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34600602",
+            "title": "Apalutamide plus abiraterone acetate and prednisone versus placebo plus abiraterone and prednisone in metastatic, castration-resistant prostate cancer (ACIS): a randomised, placebo-controlled, double-blind, multinational, phase 3 study.",
+            "authors": [
+              "Saad Fred",
+              "Efstathiou Eleni",
+              "Attard Gerhardt",
+              "Flaig Thomas W",
+              "Franke Fabio"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2021",
+            "abstract": "The majority of patients with metastatic castration-resistant prostate cancer (mCRPC) will have disease progression of a uniformly fatal disease. mCRPC is driven by both activated androgen receptors and elevated intratumoural androgens; however, the current standard of care is therapy that targets a single androgen signalling mechanism. We aimed to investigate the combination treatment using apalutamide plus abiraterone acetate, each of which suppresses the androgen signalling axis in a differen",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35690072",
+            "title": "Cabozantinib in combination with atezolizumab in patients with metastatic castration-resistant prostate cancer: results from an expansion cohort of a multicentre, open-label, phase 1b trial (COSMIC-021).",
+            "authors": [
+              "Agarwal Neeraj",
+              "McGregor Bradley",
+              "Maughan Benjamin L",
+              "Dorff Tanya B",
+              "Kelly William"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2022",
+            "abstract": "Patients with metastatic castration-resistant prostate cancer have few treatment options after novel hormonal therapy (eg, abiraterone or enzalutamide). We aimed to evaluate cabozantinib, a tyrosine kinase inhibitor with immunomodulatory properties, in combination with the PD-L1 inhibitor atezolizumab in metastatic castration-resistant prostate cancer.",
+            "classification": {
+              "study_type": "Phase 2 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29248236",
+            "title": "Bipolar androgen therapy in men with metastatic castration-resistant prostate cancer after progression on enzalutamide: an open-label, phase 2, multicohort study.",
+            "authors": [
+              "Teply Benjamin A",
+              "Wang Hao",
+              "Luber Brandon",
+              "Sullivan Rana",
+              "Rifkind Irina"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2018",
+            "abstract": "Prostate cancer that progresses after enzalutamide treatment is poorly responsive to further antiandrogen therapy, and paradoxically, rapid cycling between high and low serum testosterone concentrations (bipolar androgen therapy [BAT]) in this setting might induce tumour responses. We aimed to evaluate BAT in patients with metastatic castration-resistant prostate cancer that progressed after enzalutamide.",
+            "classification": {
+              "study_type": "Phase 2 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33869068",
+            "title": "Angiotensin System Inhibitors May Improve Outcomes of Patients With Castration-Resistant Prostate Cancer During Abiraterone Acetate Treatment-A Cardio-Oncology Study.",
+            "authors": [
+              "Wilk Michał",
+              "Waśko-Grabowska Anna",
+              "Skoneczna Iwona",
+              "Szmit Sebastian"
+            ],
+            "journal": "Frontiers in oncology",
+            "year": "2021",
+            "abstract": "Abiraterone acetate (ABI) therapy improves overall survival in metastatic prostate cancer (PC) patients; however, this effect may be diminished by concurrent comorbidities. We aimed to evaluate the influence of pre-existing chronic diseases and concomitant medications on the course of ABI treatment among post-chemotherapy patients with metastatic castration-resistant prostate cancer patients (mCRPC).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PAH 具有顯著性別差異（女性發病率高 2-4 倍但男性預後較差），提示性荷爾蒙在肺血管重塑中的複雜角色。CYP17A1 下游代謝物 DHEA 曾被 Phase 2 試驗研究用於 PAH（NCT01266863，非本資料集），雄激素受體信號可能調控肺動脈平滑肌細胞增殖。然而，本資料集中所提供之 1 項臨床試驗及 5 篇文獻均為前列腺癌研究（偽陽性），PAH 特定證據需獨立檢索驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9823322892189026,
+        "rank": 15852
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 由 AVPR2 基因功能獲得性突變引起（Arg137Cys/Leu），導致構成性精胺酸加壓素受體 V2 活化，引起不適當的水分再吸收。CYP17A1 與 AVP 受體信號通路之間無已知分子交集，機轉連結不明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.981274425983429,
+        "rank": 16414
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向機轉警示：雄激素（DHEA、睾酮）具有抑制 Th1/Th17 炎症的免疫調節作用，RA 患者雄激素水平通常偏低。Abiraterone 進一步降低雄激素水平，理論上可能加重而非改善 RA 的炎症狀態——此為負向機轉信號，建議安全性評估列為優先考量。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9811221361160278,
+        "rank": 16491
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱後側彎性心臟病主要由胸廓畸形所致的機械性限制性通氣功能障礙及繼發性肺高壓引起，屬結構性/機械性病理。Abiraterone 雄激素抑制對此機械性疾病機轉無已知直接干預能力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.9765750765800476,
+        "rank": 18617
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "蟲蝕狀皮膚萎縮為稀有毛囊性角化症（follicular keratosis），部分與 FGFR2 突變相關。雄激素調控皮脂腺分泌，CYP17A1 抑制可間接影響皮膚代謝，但此連結高度推測，且 Abiraterone 副作用（皮質醇前驅物累積）可能另有皮膚毒性風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn": {
+        "score": 0.9753491282463074,
+        "rank": 19175
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眉毛萎縮性紅斑（ulerythema ophryogenesis）為罕見毛囊性角化紅斑症，常見於 Noonan 綜合症及心臉皮膚綜合症（RAS/MAPK 信號通路突變），部分散發性病例機轉不明。RAS-MAPK 通路與 CYP17A1 雄激素合成軸無已知直接連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Abiraterone",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

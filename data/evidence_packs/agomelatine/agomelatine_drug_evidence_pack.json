@@ -1,0 +1,1478 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06594-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Agomelatine",
+    "drugbank_id": "DB06594",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn": {
+        "score": 0.9995765089988708,
+        "rank": 1027
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "良性嬰兒陣發性斜頸為罕見兒童神經症候群，與偏頭痛譜系相關（CACNA1A 等離子通道基因變異）。Agomelatine 對此無已知機轉連結。高 TxGNN 分數（0.9996）可能源於知識圖譜中『神經系統疾病—抗憂鬱藥』的非特異性連結，屬預測偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "agoraphobia",
+      "txgnn": {
+        "score": 0.9995076656341552,
+        "rank": 1134
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21183900",
+            "title": "[Clinical predictors of the therapeutic response to valdoxan in moderate and severe depression].",
+            "authors": [
+              "Bobrov A S",
+              "Petrun'ko O V",
+              "Khamarkhanova A A",
+              "Shvetsova A V"
+            ],
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2010",
+            "abstract": "Authors have analyzed the efficacy of valdoxan in treatment of moderate and severe depression from the position of clinical predictive factors for the most full drug response leading to the remission. A number of patients was 50, duration of therapy was 6 weeks. Due to the recurrent course and a severe depressive episode, the dosage was 50 mg per day from the second week of treatment in most patients (97,5%). Ten patients (20%) were withdrawn from the study. Among patients completed the study, 3",
+            "classification": {
+              "study_type": "Clinical Study / Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Agomelatine 5-HT2C 拮抗作用具抗焦慮潛力（5-HT2C 參與杏仁核恐懼迴路），褪黑激素受體調節 HPA 軸亦可降低焦慮。廣場恐懼症病理涉及杏仁核過度敏感，機轉上有生物學合理性，但缺乏直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "neurotic disorder",
+      "txgnn": {
+        "score": 0.9989748001098632,
+        "rank": 2029
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39072578",
+            "title": "[Antidepressants in psychiatric practice].",
+            "authors": [
+              "Abritalin E Yu",
+              "Khabarov I Yu"
+            ],
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2024",
+            "abstract": "The choice of antidepressants for depression or neurotic disorder is analyzed in the article. Drugs of the group of selective serotonin reuptake inhibitors are used for various mental disorders more often than other antidepressants according to clinical recommendations. Drugs of other groups (selective serotonin and norepinephrine reuptake inhibitors, tricyclic antidepressants, tetracyclic antidepressants, monoamine oxidase inhibitors) are used when the effectiveness of selective serotonin reupt",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「神經症」為廣義分類（包含焦慮症、轉化症、強迫症等），Agomelatine 5-HT2C 拮抗對部分焦慮亞型有理論支持，但「neurotic disorder」作為整體診斷類別過於廣泛，缺乏足夠特異性進行建議。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "melancholia",
+      "txgnn": {
+        "score": 0.9988321661949158,
+        "rank": 2278
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29477251",
+            "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Furukawa Toshi A",
+              "Salanti Georgia",
+              "Chaimani Anna",
+              "Atkinson Lauren Z"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are available; however, because of inadequate resources, antidepressants are used more frequently than psychological interventions. Prescription of these agents should be informed by the best available evidence. Therefore, we aimed to update and expand our previous work to compare and rank antidepressants for the acute treatment",
+            "classification": {
+              "study_type": "Network Meta-Analysis (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36253442",
+            "title": "Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis.",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Sakuma Kenji",
+              "Okuya Makoto",
+              "Hatano Masakazu"
+            ],
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "abstract": "A systematic review and random-effects model network meta-analysis were conducted to compare the efficacy, acceptability, tolerability, and safety of antidepressants to treat adults with major depressive disorder (MDD) in the maintenance phase. This study searched the PubMed, Cochrane Library, and Embase databases and included only double-blind, randomized, placebo-controlled trials with an enrichment design: patients were stabilized on the antidepressant of interest during the open-label study ",
+            "classification": {
+              "study_type": "Systematic Review / Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37424409",
+            "title": "Anhedonia and Depressive Disorders.",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+            "year": "2023",
+            "abstract": "Anhedonia is a core symptom of depression and of several psychiatric disorders. Anhedonia has however expanded from its original definition to encompass a spectrum of reward processing deficits that received much interest in the last decades. It is a relevant risk factor for possible suicidal behaviors, and that it may operate as an independent risk factor for suicidality apart from the episode severity. Anhedonia has also been linked to inflammation with a possible reciprocal deleterious effect",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40129874",
+            "title": "Anhedonia: Current and future treatments.",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "journal": "PCN reports : psychiatry and clinical neurosciences",
+            "year": "2025",
+            "abstract": "Anhedonia is a transdiagnostic domain that leads to poor disorder outcome and low remission rates. This narrative review describes a broad range of interventions targeting anhedonia, including pharmacological, neuromodulatory, behavioral, and lifestyle-based approaches. Drugs such as vortioxetine, agomelatine, bupropion, ketamine, and brexpiprazole show promising anti-anhedonic effects, while traditional antidepressants, such as serotonin-norepinephrine reuptake inhibitors (SNRIs) and, even more",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33549697",
+            "title": "Gastrointestinal side effects associated with antidepressant treatments in patients with major depressive disorder: A systematic review and meta-analysis.",
+            "authors": [
+              "Oliva Vincenzo",
+              "Lippi Matteo",
+              "Paci Riccardo",
+              "Del Fabro Lorenzo",
+              "Delvecchio Giuseppe"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2021",
+            "abstract": "Gastrointestinal side effects (SEs) are frequently observed in patients with major depressive disorder (MDD) while taking antidepressants and may lead to treatment discontinuation. The aim of this meta-analysis is to provide quantitative measures on short-term rates of gastrointestinal SEs in MDD patients treated with second-generation antidepressants. An electronic search of the literature was conducted by using MEDLINE, ISI Web of Science - Web of Science Core Collection, and Cochrane Library ",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27508501",
+            "title": "The Safety, Tolerability and Risks Associated with the Use of Newer Generation Antidepressant Drugs: A Critical Review of the Literature.",
+            "authors": [
+              "Carvalho André F",
+              "Sharma Manu S",
+              "Brunoni André R",
+              "Vieta Eduard",
+              "Fava Giovanni A"
+            ],
+            "journal": "Psychotherapy and psychosomatics",
+            "year": "2016",
+            "abstract": "Newer generation antidepressant drugs (ADs) are widely used as the first line of treatment for major depressive disorders and are considered to be safer than tricyclic agents. In this critical review, we evaluated the literature on adverse events, tolerability and safety of selective serotonin reuptake inhibitors, serotonin noradrenaline reuptake inhibitors, bupropion, mirtazapine, trazodone, agomelatine, vilazodone, levomilnacipran and vortioxetine. Several side effects are transient and may di",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25911132",
+            "title": "Dose equivalents of antidepressants: Evidence-based recommendations from randomized controlled trials.",
+            "authors": [
+              "Hayasaka Yu",
+              "Purgato Marianna",
+              "Magni Laura R",
+              "Ogawa Yusuke",
+              "Takeshima Nozomi"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "2015",
+            "abstract": "Dose equivalence of antidepressants is critically important for clinical practice and for research. There are several methods to define and calculate dose equivalence but for antidepressants, only daily defined dose and consensus methods have been applied to date. The purpose of the present study is to examine dose equivalence of antidepressants by a less arbitrary and more systematic method.",
+            "classification": {
+              "study_type": "Meta-Analysis (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39684343",
+            "title": "Efficacy and Safety of Agomelatine in Depressed Patients with Diabetes: A Systematic Review and Meta-Analysis.",
+            "authors": [
+              "Gędek Adam",
+              "Modrzejewski Szymon",
+              "Materna Michał",
+              "Szular Zofia",
+              "Wichniak Adam"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "abstract": "Major depressive disorder (MDD) and diabetes mellitus (DM) remain among the most prevalent diseases and the most significant challenges faced by medicine in the 21st century. The frequent co-occurrence and bidirectional relationship between the two conditions necessitates the identification of treatment strategies that benefit both. The purpose of this study was to systematically review and meta-analyze data on the efficacy and safety of agomelatine (AGO) in the treatment of patients with depres",
+            "classification": {
+              "study_type": "Systematic Review / Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41135546",
+            "title": "The effects of antidepressants on cardiometabolic and other physiological parameters: a systematic review and network meta-analysis.",
+            "authors": [
+              "Pillinger Toby",
+              "Arumuham Atheeshaan",
+              "McCutcheon Robert A",
+              "D'Ambrosio Enrico",
+              "Basdanis Georgios"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2025",
+            "abstract": "Antidepressants induce physiological alterations; however, the degree to which these occur in treatment with various antidepressants is unclear. We aimed to compare and rank antidepressants based on physiological side-effects by synthesising data from randomised controlled trials (RCTs).",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34419186",
+            "title": "Circadian rhythm sleep-wake disturbances and depression in young people: implications for prevention and early intervention.",
+            "authors": [
+              "Crouse Jacob J",
+              "Carpenter Joanne S",
+              "Song Yun Ju C",
+              "Hockey Samuel J",
+              "Naismith Sharon L"
+            ],
+            "journal": "The lancet. Psychiatry",
+            "year": "2021",
+            "abstract": "A rate-limiting step in the prevention and early intervention of depressive disorders in young people is our insufficient understanding of causal mechanisms. One plausible pathophysiological pathway is disturbance in the 24 h sleep-wake cycle and the underlying circadian system. Abnormalities in circadian rhythms are well documented in adults with various depressive disorders and have been linked to core clinical features, including unstable mood, daytime fatigue, non-restorative sleep, reduced ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22876742",
+            "title": "Role of melatonin in mood disorders and the antidepressant effects of agomelatine.",
+            "authors": [
+              "Srinivasan Venkataramanujam",
+              "De Berardis Domenico",
+              "Shillcutt Samuel D",
+              "Brzezinski Amnon"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2012",
+            "abstract": "Disturbances of circadian rhythms and sleep play an important role in various types of mood disorders like major depressive disorder (MDD), bipolar depressive disorder (BPD) and seasonal affective disorder (SAD). Malfunctioning of the SCN-pineal-melatonin link has been suggested as the main cause for these disorders. As a rhythm-regulating factor and as a hormone involved in the regulation of sleep, melatonin is essential for the control of mood and behavior.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24033095",
+            "title": "Agomelatine in depression.",
+            "authors": [
+              "Smeraldi Enrico",
+              "Delmonte Dario"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2013",
+            "abstract": "Agomelatine is a relatively new antidepressant with a mechanism of action that is different from other antidepressants: it is a melatonergic agonist and a 5-HT2C antagonist. It is an effective treatment for depression, with relatively mild side effects. It may be a valuable pharmacological alternative in the clinical approach on depression.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40282849",
+            "title": "Pharmacological Monotherapy for Depressive Disorders: Current and Future-A Narrative Review.",
+            "authors": [
+              "Gao Keming",
+              "Oruc Evrim Bayrak",
+              "Koparal Buket"
+            ],
+            "journal": "Medicina (Kaunas, Lithuania)",
+            "year": "2025",
+            "abstract": "Objective: To narratively review currently available antidepressants and future potential antidepressants as monotherapy for the treatment of depressive disorders. Methods: Selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), dopamine reuptake inhibitor (bupropion), tricyclic antidepressants (TCAs), and monoamine oxidase inhibitors (MAOIs) were reviewed according to the results from Sequenced Treatment Alternatives to Relieve Depression (STAR*D) ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24833894",
+            "title": "Efficacy and tolerability of agomelatine in the treatment of depression.",
+            "authors": [
+              "Plesničar Blanka Kores"
+            ],
+            "journal": "Patient preference and adherence",
+            "year": "2014",
+            "abstract": "Depression is a severe and usually recurrent mental disorder which often leads to a significant impairment of everyday functioning, a reduced quality of life, and also great suffering of the patients. The treatment of a depressive disorder is not only limited to acute treatment; it also requires prolonged management. Patient compliance is of utmost importance. Unpleasant adverse effects and their impact on everyday living often lead to a premature discontinuation of antidepressant treatment and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32568567",
+            "title": "The preclinical discovery and development of agomelatine for the treatment of depression.",
+            "authors": [
+              "Konstantakopoulos George",
+              "Dimitrakopoulos Stefanos",
+              "Michalopoulou Panayiota G"
+            ],
+            "journal": "Expert opinion on drug discovery",
+            "year": "2020",
+            "abstract": "Under the treatment of commonly used antidepressants, many patients with major depressive disorder (MDD) do not achieve remission. All previous first-line treatments for depression have focused on the enhancement of monoaminergic activity. Agomelatine was the first antidepressant with a mechanism of action extending beyond monoaminergic neurotransmission.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37960759",
+            "title": "Efficacy and safety of agomelatine in the treatment of patients with depressive disorder: A meta-analysis.",
+            "authors": [
+              "Guo Yue-Han",
+              "Zhou Le",
+              "Cui Zi-Ang",
+              "Wang Jian",
+              "Zhang Lei"
+            ],
+            "journal": "Medicine",
+            "year": "2023",
+            "abstract": "To systematically assess the efficacy and safety of agomelatine in the treatment of patients with depressive disorder.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23484857",
+            "title": "Agomelatine, melatonin and depressive disorder.",
+            "authors": [
+              "Norman Trevor R"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2013",
+            "abstract": "Alteration of nocturnal melatonin production, along with circadian rhythm disturbance, has been demonstrated in several psychiatric disorders. It has been postulated that such disturbances might be causal reflecting a more fundamental abnormality of the function of the suprachiasmatic nucleus (SCN). The SCN contains the body's master 'clock' while the pineal-SCN nexus is intricate to the nighttime production of melatonin. The more compelling case for causality is made for major depressive disord",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36097970",
+            "title": "Agomelatine decreases cocaine-induced locomotor sensitisation and dopamine release in rats.",
+            "authors": [
+              "Barbosa-Méndez Susana",
+              "Perez-Sánchez Gilberto",
+              "Salazar-Juárez Alberto"
+            ],
+            "journal": "The world journal of biological psychiatry : the official journal of the World Federation of Societies of Biological Psychiatry",
+            "year": "2023",
+            "abstract": "Agomelatine is a melatoninergic antidepressant approved to treat the major depressive disorder. Agomelatine exerts its behavioural, pharmacological, and physiological effects through the activation of MT1 and MT2 melatonin receptors and the blockade of 5-HT2B and 5-HT2C serotonin receptors. Some studies have reported that the activation of the MT1 and MT2 melatonin receptors decreased cocaine-induced locomotor activity and cocaine self-administration. These findings from another study showed tha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18042007",
+            "title": "A review of the efficacy and tolerability of agomelatine in the treatment of major depression.",
+            "authors": [
+              "Ghosh Anita",
+              "Hellewell Jonathan S E"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2007",
+            "abstract": "Agomelatine is a novel agent that is under late-stage development as a potential antidepressant. Compared with available antidepressant agents, the drug may have a distinct mechanism of action, with significant interactions with melatonin receptors, in addition to serotonergic brain systems. Agomelatine has been shown to be active in preclinical models indicative of antidepressant activity and the results of a large-scale clinical trial programme, conducted in major depressive disorder, indicate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31206585",
+            "title": "Melatonin and agomelatine for preventing seasonal affective disorder.",
+            "authors": [
+              "Nussbaumer-Streit Barbara",
+              "Greenblatt Amy",
+              "Kaminski-Hartenthaler Angela",
+              "Van Noord Megan G",
+              "Forneris Catherine A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2019",
+            "abstract": "Seasonal affective disorder (SAD) is a seasonal pattern of recurrent major depressive episodes that most commonly starts in autumn or winter and remits in spring. The prevalence of SAD depends on latitude and ranges from 1.5% to 9%. The predictable seasonal aspect of SAD provides a promising opportunity for prevention in people who have a history of SAD. This is one of four reviews on the efficacy and safety of interventions to prevent SAD; we focus on agomelatine and melatonin as preventive int",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Agomelatine 為 MT1/MT2 促效劑（調節晝夜節律、睡眠結構）合併 5-HT2C 拮抗劑（去抑制前額葉多巴胺/去甲腎上腺素釋放）。Melancholia 屬重度憂鬱症亞型，以快感缺失、早醒、晝夜節律紊亂為核心，與 agomelatine 雙機轉高度吻合。歐盟已核准用於 MDD（含 melancholic features）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "neurotic depression",
+      "txgnn": {
+        "score": 0.9988168478012084,
+        "rank": 2301
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29477251",
+            "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Furukawa Toshi A",
+              "Salanti Georgia",
+              "Chaimani Anna",
+              "Atkinson Lauren Z"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are available; however, because of inadequate resources, antidepressants are used more frequently than psychological interventions. Prescription of these agents should be informed by the best available evidence. Therefore, we aimed to update and expand our previous work to compare and rank antidepressants for the acute treatment",
+            "classification": {
+              "study_type": "Network Meta-Analysis (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37424409",
+            "title": "Anhedonia and Depressive Disorders.",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+            "year": "2023",
+            "abstract": "Anhedonia is a core symptom of depression and of several psychiatric disorders. Anhedonia has however expanded from its original definition to encompass a spectrum of reward processing deficits that received much interest in the last decades. It is a relevant risk factor for possible suicidal behaviors, and that it may operate as an independent risk factor for suicidality apart from the episode severity. Anhedonia has also been linked to inflammation with a possible reciprocal deleterious effect",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34419186",
+            "title": "Circadian rhythm sleep-wake disturbances and depression in young people: implications for prevention and early intervention.",
+            "authors": [
+              "Crouse Jacob J",
+              "Carpenter Joanne S",
+              "Song Yun Ju C",
+              "Hockey Samuel J",
+              "Naismith Sharon L"
+            ],
+            "journal": "The lancet. Psychiatry",
+            "year": "2021",
+            "abstract": "A rate-limiting step in the prevention and early intervention of depressive disorders in young people is our insufficient understanding of causal mechanisms. One plausible pathophysiological pathway is disturbance in the 24 h sleep-wake cycle and the underlying circadian system. Abnormalities in circadian rhythms are well documented in adults with various depressive disorders and have been linked to core clinical features, including unstable mood, daytime fatigue, non-restorative sleep, reduced ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24033095",
+            "title": "Agomelatine in depression.",
+            "authors": [
+              "Smeraldi Enrico",
+              "Delmonte Dario"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2013",
+            "abstract": "Agomelatine is a relatively new antidepressant with a mechanism of action that is different from other antidepressants: it is a melatonergic agonist and a 5-HT2C antagonist. It is an effective treatment for depression, with relatively mild side effects. It may be a valuable pharmacological alternative in the clinical approach on depression.",
+            "classification": {
+              "study_type": "Review / Clinical Overview",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36253442",
+            "title": "Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis.",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Sakuma Kenji",
+              "Okuya Makoto",
+              "Hatano Masakazu"
+            ],
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "abstract": "A systematic review and random-effects model network meta-analysis were conducted to compare the efficacy, acceptability, tolerability, and safety of antidepressants to treat adults with major depressive disorder (MDD) in the maintenance phase. This study searched the PubMed, Cochrane Library, and Embase databases and included only double-blind, randomized, placebo-controlled trials with an enrichment design: patients were stabilized on the antidepressant of interest during the open-label study ",
+            "classification": {
+              "study_type": "Systematic Review / Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40129874",
+            "title": "Anhedonia: Current and future treatments.",
+            "authors": [
+              "Serretti Alessandro"
+            ],
+            "journal": "PCN reports : psychiatry and clinical neurosciences",
+            "year": "2025",
+            "abstract": "Anhedonia is a transdiagnostic domain that leads to poor disorder outcome and low remission rates. This narrative review describes a broad range of interventions targeting anhedonia, including pharmacological, neuromodulatory, behavioral, and lifestyle-based approaches. Drugs such as vortioxetine, agomelatine, bupropion, ketamine, and brexpiprazole show promising anti-anhedonic effects, while traditional antidepressants, such as serotonin-norepinephrine reuptake inhibitors (SNRIs) and, even more",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33549697",
+            "title": "Gastrointestinal side effects associated with antidepressant treatments in patients with major depressive disorder: A systematic review and meta-analysis.",
+            "authors": [
+              "Oliva Vincenzo",
+              "Lippi Matteo",
+              "Paci Riccardo",
+              "Del Fabro Lorenzo",
+              "Delvecchio Giuseppe"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2021",
+            "abstract": "Gastrointestinal side effects (SEs) are frequently observed in patients with major depressive disorder (MDD) while taking antidepressants and may lead to treatment discontinuation. The aim of this meta-analysis is to provide quantitative measures on short-term rates of gastrointestinal SEs in MDD patients treated with second-generation antidepressants. An electronic search of the literature was conducted by using MEDLINE, ISI Web of Science - Web of Science Core Collection, and Cochrane Library ",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25911132",
+            "title": "Dose equivalents of antidepressants: Evidence-based recommendations from randomized controlled trials.",
+            "authors": [
+              "Hayasaka Yu",
+              "Purgato Marianna",
+              "Magni Laura R",
+              "Ogawa Yusuke",
+              "Takeshima Nozomi"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "2015",
+            "abstract": "Dose equivalence of antidepressants is critically important for clinical practice and for research. There are several methods to define and calculate dose equivalence but for antidepressants, only daily defined dose and consensus methods have been applied to date. The purpose of the present study is to examine dose equivalence of antidepressants by a less arbitrary and more systematic method.",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39500601",
+            "title": "The efficacy of valproate in acute mania, bipolar depression and maintenance therapy for bipolar disorder: an overview of systematic reviews with meta-analyses.",
+            "authors": [
+              "Mari Jair",
+              "Dieckmann Luiz Henrique Junqueira",
+              "Prates-Baldez Daniel",
+              "Haddad Michel",
+              "Rodrigues da Silva Naielly"
+            ],
+            "journal": "BMJ open",
+            "year": "2024",
+            "abstract": "This study aims to conduct an overview on the comparative efficacy of valproate in acute mania, bipolar depression and maintenance treatment of bipolar disorder (BD).",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27508501",
+            "title": "The Safety, Tolerability and Risks Associated with the Use of Newer Generation Antidepressant Drugs: A Critical Review of the Literature.",
+            "authors": [
+              "Carvalho André F",
+              "Sharma Manu S",
+              "Brunoni André R",
+              "Vieta Eduard",
+              "Fava Giovanni A"
+            ],
+            "journal": "Psychotherapy and psychosomatics",
+            "year": "2016",
+            "abstract": "Newer generation antidepressant drugs (ADs) are widely used as the first line of treatment for major depressive disorders and are considered to be safer than tricyclic agents. In this critical review, we evaluated the literature on adverse events, tolerability and safety of selective serotonin reuptake inhibitors, serotonin noradrenaline reuptake inhibitors, bupropion, mirtazapine, trazodone, agomelatine, vilazodone, levomilnacipran and vortioxetine. Several side effects are transient and may di",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32568567",
+            "title": "The preclinical discovery and development of agomelatine for the treatment of depression.",
+            "authors": [
+              "Konstantakopoulos George",
+              "Dimitrakopoulos Stefanos",
+              "Michalopoulou Panayiota G"
+            ],
+            "journal": "Expert opinion on drug discovery",
+            "year": "2020",
+            "abstract": "Under the treatment of commonly used antidepressants, many patients with major depressive disorder (MDD) do not achieve remission. All previous first-line treatments for depression have focused on the enhancement of monoaminergic activity. Agomelatine was the first antidepressant with a mechanism of action extending beyond monoaminergic neurotransmission.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24833894",
+            "title": "Efficacy and tolerability of agomelatine in the treatment of depression.",
+            "authors": [
+              "Plesničar Blanka Kores"
+            ],
+            "journal": "Patient preference and adherence",
+            "year": "2014",
+            "abstract": "Depression is a severe and usually recurrent mental disorder which often leads to a significant impairment of everyday functioning, a reduced quality of life, and also great suffering of the patients. The treatment of a depressive disorder is not only limited to acute treatment; it also requires prolonged management. Patient compliance is of utmost importance. Unpleasant adverse effects and their impact on everyday living often lead to a premature discontinuation of antidepressant treatment and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40403856",
+            "title": "Insulin resistance: The role in comorbid type 2 diabetes mellitus and depression.",
+            "authors": [
+              "Yao Jia",
+              "Zhu Chang-Qing",
+              "Sun Yan",
+              "Huang Yi-Wen",
+              "Li Qing-Hua"
+            ],
+            "journal": "Neuroscience and biobehavioral reviews",
+            "year": "2025",
+            "abstract": "Insulin resistance (IR) plays a significant role in the pathophysiology of comorbid type 2 diabetes mellitus (T2DM) and depression (CDD) through multifaceted mechanisms, including dysregulation of insulin signaling (both central and peripheral), neuroendocrine disturbances (hypothalamic-pituitary-adrenal axis dysfunction and monoaminergic neurotransmission impairment), chronic inflammation, oxidative stress, disruption of the microbiota-gut-brain axis, reduced brain-derived neurotrophic factor l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41135546",
+            "title": "The effects of antidepressants on cardiometabolic and other physiological parameters: a systematic review and network meta-analysis.",
+            "authors": [
+              "Pillinger Toby",
+              "Arumuham Atheeshaan",
+              "McCutcheon Robert A",
+              "D'Ambrosio Enrico",
+              "Basdanis Georgios"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2025",
+            "abstract": "Antidepressants induce physiological alterations; however, the degree to which these occur in treatment with various antidepressants is unclear. We aimed to compare and rank antidepressants based on physiological side-effects by synthesising data from randomised controlled trials (RCTs).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39684343",
+            "title": "Efficacy and Safety of Agomelatine in Depressed Patients with Diabetes: A Systematic Review and Meta-Analysis.",
+            "authors": [
+              "Gędek Adam",
+              "Modrzejewski Szymon",
+              "Materna Michał",
+              "Szular Zofia",
+              "Wichniak Adam"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "abstract": "Major depressive disorder (MDD) and diabetes mellitus (DM) remain among the most prevalent diseases and the most significant challenges faced by medicine in the 21st century. The frequent co-occurrence and bidirectional relationship between the two conditions necessitates the identification of treatment strategies that benefit both. The purpose of this study was to systematically review and meta-analyze data on the efficacy and safety of agomelatine (AGO) in the treatment of patients with depres",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40282849",
+            "title": "Pharmacological Monotherapy for Depressive Disorders: Current and Future-A Narrative Review.",
+            "authors": [
+              "Gao Keming",
+              "Oruc Evrim Bayrak",
+              "Koparal Buket"
+            ],
+            "journal": "Medicina (Kaunas, Lithuania)",
+            "year": "2025",
+            "abstract": "Objective: To narratively review currently available antidepressants and future potential antidepressants as monotherapy for the treatment of depressive disorders. Methods: Selective serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), dopamine reuptake inhibitor (bupropion), tricyclic antidepressants (TCAs), and monoamine oxidase inhibitors (MAOIs) were reviewed according to the results from Sequenced Treatment Alternatives to Relieve Depression (STAR*D) ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40349006",
+            "title": "Comparative efficacy of antidepressant medication for adolescent depression: a network meta-analysis and systematic review.",
+            "authors": [
+              "Wu Tianwei",
+              "Song Fan",
+              "Cao Weili",
+              "Liu Chengjiang",
+              "Jia Shuangzhen"
+            ],
+            "journal": "BMC psychiatry",
+            "year": "2025",
+            "abstract": "To evaluate the success rate of different antidepressants in addressing depression among teenagers, while also offering substantiation for the efficacy and tolerability of these treatments in this demographic.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18042007",
+            "title": "A review of the efficacy and tolerability of agomelatine in the treatment of major depression.",
+            "authors": [
+              "Ghosh Anita",
+              "Hellewell Jonathan S E"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2007",
+            "abstract": "Agomelatine is a novel agent that is under late-stage development as a potential antidepressant. Compared with available antidepressant agents, the drug may have a distinct mechanism of action, with significant interactions with melatonin receptors, in addition to serotonergic brain systems. Agomelatine has been shown to be active in preclinical models indicative of antidepressant activity and the results of a large-scale clinical trial programme, conducted in major depressive disorder, indicate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20485718",
+            "title": "Circadian rhythms and depression.",
+            "authors": [
+              "Boyce Philip",
+              "Barriball Erin"
+            ],
+            "journal": "Australian family physician",
+            "year": "2010",
+            "abstract": "Depression is a common disorder in primary care. Disruptions to the circadian rhythms associated with depression have received little attention yet offer new and exciting approaches to treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39697002",
+            "title": "Agomelatine bears promising potential in treating bipolar depression- a systematic review.",
+            "authors": [
+              "Li Junyao",
+              "Luo Huirong",
+              "Luo Qinghua"
+            ],
+            "journal": "International journal of psychiatry in clinical practice",
+            "year": "2024",
+            "abstract": "The controversy of antidepressant use in bipolar depression remains controversial. Agomelatine (AGO) is an effective antidepressant in major depressive disorder (MDD), but its application in bipolar depression was little discussed. We aimed to provide a comprehensive systematic review of clinical evidence from studies examining the efficacy and safety of AGO for bipolar depression.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Neurotic depression（ICD-9: 300.4）臨床上高度重疊於 dysthymia 及輕至中度 MDD。Agomelatine 5-HT2C 拮抗作用可改善焦慮症狀，褪黑激素路徑調節睡眠品質，對此類患者之慢性低落與焦慮共病有理論支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Ohdo syndrome and variants",
+      "txgnn": {
+        "score": 0.998704195022583,
+        "rank": 2462
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ohdo 症候群為罕見遺傳性神經發育疾病（KAT6A、MED13L 等基因突變），以智能障礙、眼瞼下垂、心臟缺陷為主要表現。無任何已知機轉將 agomelatine 連結至此基因型疾病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "dysthymic disorder",
+      "txgnn": {
+        "score": 0.998606264591217,
+        "rank": 2592
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21527126",
+            "title": "Efficacy of antidepressants for dysthymia: a meta-analysis of placebo-controlled randomized trials.",
+            "authors": [
+              "Levkovitz Yeciel",
+              "Tedeschini Enrico",
+              "Papakostas George I"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2011",
+            "abstract": "The authors sought to determine the efficacy of antidepressants in dysthymic disorder and to compare antidepressant and placebo response rates between major depressive disorder (MDD) and dysthymic disorder.",
+            "classification": {
+              "study_type": "Meta-Analysis (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "持續性憂鬱症（dysthymia）以慢性低落情緒、睡眠障礙為特徵。Agomelatine 褪黑激素路徑改善睡眠結構、5-HT2C 拮抗可提升動機與精力，機轉上有理論支持。但現有文獻（PMID 21527126）為一般抗憂鬱藥統合分析，非 agomelatine 專屬研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "ligneous conjunctivitis",
+      "txgnn": {
+        "score": 0.9982597231864928,
+        "rank": 3079
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "木質性結膜炎為 plasminogen 基因缺陷導致的罕見纖維素性黏膜疾病，病理為纖維素清除障礙。與 agomelatine 的褪黑激素/血清素機轉完全無生物學交集。屬 TxGNN 遠距離知識圖譜路徑推論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+      "txgnn": {
+        "score": 0.9982335567474364,
+        "rank": 3110
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "為 Ohdo 症候群的特定基因亞型，屬罕見遺傳性神經發育疾病。與 agomelatine 機轉無連結，同 Ohdo syndrome 分析。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Keppen-Lubinsky syndrome",
+      "txgnn": {
+        "score": 0.9981284737586976,
+        "rank": 3239
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見遺傳性疾病（KCNK4 鉀離子通道突變），以嚴重智能障礙、早老外貌、脂肪代謝異常為特徵。與 agomelatine 機轉完全無關。全球報告病例極少（< 20 例），藥物再利用在此缺乏實際意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "neurotic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "neurotic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "neurotic disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "ligneous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "ligneous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "ligneous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Agomelatine",
+        "disease": "Keppen-Lubinsky syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

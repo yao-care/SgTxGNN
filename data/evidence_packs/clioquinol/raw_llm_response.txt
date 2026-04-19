@@ -1,0 +1,264 @@
+## Clioquinol (DB04815) 藥物再利用證據分析
+
+**藥物背景摘要：**
+Clioquinol（碘氯羥喹，又名 Vioform）是鹵化羥基喹啉類化合物，歷史上曾用於局部抗真菌/抗菌，但因口服導致 SMON（亞急性脊髓視神經病）而在多國撤市。局部製劑安全性較佳。
+
+---
+
+```json
+{
+  "drug": "Clioquinol",
+  "drugbank_id": "DB04815",
+  "analysis_date": "2026-04-04",
+  "safety_flag": "⚠️ 歷史 SMON 安全事件（口服），局部用藥需審慎評估",
+  "indications": [
+    {
+      "disease_name": "cutaneous candidiasis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Clioquinol 透過金屬螯合（Zn²⁺、Cu²⁺、Fe³⁺）干擾真菌金屬依賴性酶系統，破壞細胞膜完整性，對 Candida albicans 具直接抑菌活性。歷史局部製劑（Locacorten-Vioform）已用於皮膚念珠菌感染，機轉與臨床使用具高度一致性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "155507",
+          "study_type": "臨床比較研究（複方局部製劑 halcinonide-neomycin-amphotericin）",
+          "year": "1979",
+          "tier": "2",
+          "relevance_note": "評估含抗真菌成分複方局部類固醇製劑，間接支持 clioquinol 局部抗黴療效"
+        },
+        {
+          "pmid": "6459255",
+          "study_type": "臨床比較研究",
+          "year": "1981",
+          "tier": "2",
+          "relevance_note": "兩種局部皮質類固醇抗菌藥比較，涉及 clioquinol 複方製劑臨床療效"
+        },
+        {
+          "pmid": "128475",
+          "study_type": "臨床評估研究（Locacorten-Vioform）",
+          "year": "1975",
+          "tier": "2",
+          "relevance_note": "直接評估 Locacorten-Vioform（含 clioquinol）對皮膚繼發感染含念珠菌之療效"
+        },
+        {
+          "pmid": "136333",
+          "study_type": "臨床評估",
+          "year": "1976",
+          "tier": "2",
+          "relevance_note": "新型 halcinonide-抗真菌複方臨床評估，與 clioquinol 作用類別相關"
+        },
+        {
+          "pmid": "4220930",
+          "study_type": "病理/病因學研究",
+          "year": "1965",
+          "tier": "3",
+          "relevance_note": "探討酵母菌在腸病性肢端皮炎中角色，間接說明 clioquinol 早期治療邏輯背景"
+        },
+        {
+          "pmid": "2978600",
+          "study_type": "職業預防研究",
+          "year": "1988",
+          "tier": "3",
+          "relevance_note": "職業性 Candida albicans 感染預防，提及局部抗菌策略，相關性較低"
+        }
+      ],
+      "evidence_summary": "具備 4 篇 Tier 2 臨床比較/評估研究（1975-1981），直接涉及含 clioquinol 局部製劑用於皮膚真菌感染。雖無現代 RCT，但歷史臨床使用數據充分，機轉清晰，支持 L3 評級。主要障礙為研究年代久遠及 SMON 安全顧慮。"
+    },
+    {
+      "disease_name": "superficial mycosis",
+      "txgnn_score": 0.9918,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "與 cutaneous candidiasis 機轉相同：金屬螯合抑制真菌。淺表性黴菌病（tinea 系列）之皮癬菌對 clioquinol 的敏感性有生物學合理性，但體外與體內效果仍需驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33772895",
+          "study_type": "體外/組合毒性研究",
+          "year": "2021",
+          "tier": "2",
+          "relevance_note": "評估 clioquinol 與 ciclopirox、terbinafine 組合對替代宿主模型的活性與毒性——最新且直接涉及 clioquinol 抗真菌組合策略，但可能為體外/動物模型研究"
+        },
+        {
+          "pmid": "13521766",
+          "study_type": "臨床研究（歷史）",
+          "year": "1958",
+          "tier": "3",
+          "relevance_note": "iodochlorohydroxyquin（即 clioquinol）+ hydrocortisone 用於淺表真菌感染，歷史臨床用途記錄，證據等級低"
+        }
+      ],
+      "evidence_summary": "僅 2 篇文獻：1 篇現代體外/動物模型組合研究（2021），1 篇 1958 年歷史臨床報告。機轉合理但臨床證據薄弱，評為 L4。2021 年研究提示組合抗真菌策略有潛力，可作為後續研究問題。"
+    },
+    {
+      "disease_name": "Majocchi granuloma",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Majocchi 肉芽腫為皮癬菌深部感染，理論上 clioquinol 抗真菌金屬螯合機轉可能有效，但深部感染需組織穿透力，局部外用藥效果存疑。機轉關聯性弱（間接推測）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。僅 TxGNN 模型預測分數。評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "ectothrix infectious disease",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛外型皮癬菌感染（如 tinea capitis）侵犯毛幹外部，局部用藥需穿透毛囊，clioquinol 局部製劑穿透能力有限，機轉關聯性弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗或文獻。僅模型預測，評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "endothrix infectious disease",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛內型感染（如 Trichophyton tonsurans）侵犯毛幹內部，局部外用藥幾乎無法到達感染部位，機轉關聯性極弱，需全身性抗真菌治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗或文獻。機轉關聯性特別低（深部毛幹感染），評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "dermatophytosis of scalp or beard",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上局部抗真菌可應用於頭皮/鬍鬚皮癬菌感染，但需穿透毛囊，現有標準治療為全身性抗真菌藥（如 terbinafine 口服）。機轉關聯性弱。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34934294",
+          "study_type": "外科手術/整形（鬍鬚重建）",
+          "year": "2021",
+          "tier": "3",
+          "relevance_note": "❌ 不相關：鬍鬚重建手術，非皮癬菌感染治療"
+        },
+        {
+          "pmid": "34984089",
+          "study_type": "外科手術",
+          "year": "2021",
+          "tier": "3",
+          "relevance_note": "❌ 不相關：鬍鬚與八字鬍重建手術"
+        },
+        {
+          "pmid": "38936998",
+          "study_type": "植髮外科回顧",
+          "year": "2024",
+          "tier": "3",
+          "relevance_note": "❌ 不相關：鬍鬚移植手術"
+        },
+        {
+          "pmid": "37510908",
+          "study_type": "綜述",
+          "year": "2023",
+          "tier": "3",
+          "relevance_note": "❌ 不相關：鬍鬚禿髮病因與治療綜述，非抗真菌"
+        },
+        {
+          "pmid": "32473165",
+          "study_type": "基礎研究（斑馬魚）",
+          "year": "2020",
+          "tier": "3",
+          "relevance_note": "❌ 完全不相關：斑馬魚 Rohon-Beard 神經細胞研究"
+        }
+      ],
+      "evidence_summary": "⚠️ 文獻假陽性警告：20 篇引用文獻中，檢查之樣本均與 clioquinol 或皮癬菌治療無關（鬍鬚重建手術、斑馬魚神經、植髮外科等）。此為文獻檢索時 'beard' 關鍵字匹配造成的系統性偏差。實際有效證據 = 0，評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "tinea profunda",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "深部甲癬/深部皮癬菌感染需強效全身性抗真菌藥。局部 clioquinol 穿透能力不足，機轉關聯性極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗或文獻。深部感染局部用藥機轉不合理，評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "pityriasis versicolor",
+      "txgnn_score": 0.9897,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "糠秕馬拉色菌（Malassezia）感染理論上對金屬螯合抗真菌有反應，但現有標準局部治療（ketoconazole、selenium sulfide）效果確立，clioquinol 無差異化優勢。機轉關聯性低至中等。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗或文獻。評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "granuloma annulare",
+      "txgnn_score": 0.9527,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "環狀肉芽腫為免疫介導的肉芽腫性皮膚病，非感染性，與 clioquinol 抗真菌機轉無直接關聯。TxGNN 預測可能基於知識圖譜中的皮膚疾病網絡關聯，而非直接機轉。機轉關聯性不明確。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗或文獻，且疾病機轉與藥物作用機轉不匹配（非感染性免疫病 vs. 抗真菌藥）。評為 L5，建議 Hold。此預測需優先排除。"
+    },
+    {
+      "disease_name": "tinea manuum",
+      "txgnn_score": 0.9412,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "手部皮癬菌感染（手癬）與 clioquinol 抗真菌機轉理論相關，但現有局部抗真菌標準治療（terbinafine、clotrimazole 等）已確立。機轉關聯性中等，但缺乏差異化優勢。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗或文獻，TxGNN 分數為本分析最低（0.94）。評為 L5，建議 Hold。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 總體評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| Cutaneous candidiasis | 0.998 | **L3** | **S1** | Research Question |
+| Superficial mycosis | 0.992 | **L4** | **S1** | Research Question |
+| Majocchi granuloma | 0.993 | L5 | S0 | Hold |
+| Ectothrix infectious disease | 0.993 | L5 | S0 | Hold |
+| Endothrix infectious disease | 0.992 | L5 | S0 | Hold |
+| Dermatophytosis of scalp/beard | 0.992 | L5 ⚠️ | S0 | Hold |
+| Tinea profunda | 0.991 | L5 | S0 | Hold |
+| Pityriasis versicolor | 0.990 | L5 | S0 | Hold |
+| Granuloma annulare | 0.953 | L5 ❌ | S0 | Hold |
+| Tinea manuum | 0.941 | L5 | S0 | Hold |
+
+---
+
+## 🔑 關鍵發現與注意事項
+
+### 1. 文獻假陽性警告（Dermatophytosis of scalp or beard）
+> 20 篇文獻均與 clioquinol 或皮癬菌治療無關，系統性誤匹配來自 "beard" 關鍵字，建議修正文獻擷取邏輯。
+
+### 2. 最優先候選：Cutaneous Candidiasis（L3/S1）
+- 4 篇直接臨床研究（1975-1981），Locacorten-Vioform 歷史使用記錄
+- 機轉清晰（金屬螯合 → Candida 抑菌）
+- **障礙**：研究年代久遠（40-50 年），無現代 RCT，SMON 安全顧慮需重新局部安全性評估
+
+### 3. 安全性優先考量
+- **口服**：禁止（SMON 歷史事件）
+- **局部**：需限制面積（<10% 體表面積），避免用於黏膜、眼周
+- 市場狀態「未上市」意味任何開發需從頭建立監管路徑
+
+### 4. 建議後續行動（Research Question 適應症）
+```
+優先順序：cutaneous candidiasis > superficial mycosis
+行動：
+1. 現代局部安全性再評估（系統吸收量）
+2. 對比現有標準治療（clotrimazole/miconazole）的差異化優勢評估
+3. 考慮與現代抗真菌藥（ciclopirox/terbinafine）組合策略（PMID 33772895 提示）
+```

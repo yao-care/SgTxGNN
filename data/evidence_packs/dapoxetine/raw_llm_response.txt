@@ -1,0 +1,199 @@
+## Dapoxetine (DB04884) 藥物再利用證據分析
+
+**藥物背景摘要**：Dapoxetine 為短效 SSRI（t½ ≈ 1.5h），原始開發為抗憂鬱劑，因超短半衰期被放棄，後轉向早洩（PE）適應症並在部分市場獲批。其藥動學特性（快速吸收/快速清除）是所有再利用假說的根本性限制。
+
+---
+
+```json
+{
+  "drug_summary": {
+    "drug": "Dapoxetine",
+    "drugbank_id": "DB04884",
+    "moa_inferred": "Short-acting SSRI — 抑制突觸前 5-HT 再攝取，t½ ≈ 1.5h（超短半衰期）",
+    "key_pk_limitation": "超短半衰期使其僅適用於按需急性給藥，慢性病預防/維持治療藥動學上不可行",
+    "development_history_note": "原開發為抗憂鬱 SSRI，因 t½ 過短被 FDA 拒絕憂鬱症適應症，轉向 PE"
+  },
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "5-HT 系統調節與三叉神經血管路徑（trigeminovascular pathway）有理論連結；SSRIs 作為類藥物曾有偏頭痛預防之小型研究。然而 dapoxetine t½ ≈ 1.5h 無法維持預防所需之持續 5-HT 調控，急性期應用亦無直接研究支持。PK 為根本性障礙。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33998993",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance": "B — 討論 SSRI 類藥物非核准適應症（含偏頭痛），為類藥物層級間接證據，無 dapoxetine 特異性資料"
+        },
+        {
+          "pmid": "23504864",
+          "study_type": "Observational / Compliance Study",
+          "tier": "3",
+          "relevance": "C — 早洩患者治療依從性研究，與偏頭痛無直接相關；文獻檢索誤配（false positive retrieval）"
+        }
+      ]
+    },
+    {
+      "disease_name": "dysthymic disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dapoxetine 原始設計即為 SSRI 抗憂鬱劑，與 dysthymia 機轉高度吻合。但臨床開發時因 t½ 過短（無法達持續 5-HT 再攝取抑制）已被明確放棄抗憂鬱方向 — 此為已知開發失敗記錄，非未探索風險。無任何 dysthymia 相關臨床試驗或文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹先兆偏頭痛（原稱 basilar-type migraine）涉及腦幹 5-HT 受體及血管機制，理論上 SSRI 可能相關。然而無任何直接或間接臨床資料，且 dapoxetine 短半衰期為根本 PK 障礙。此為純 KG 預測結果，臨床可行性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為遺傳易感性表型（susceptibility locus），非治療性適應症。20 篇文獻主體探討癲癇-偏頭痛共享遺傳機制（MTHFR、離子通道、神經炎症），與 dapoxetine 藥理介入無直接連結。文獻為疾病生物學背景，非再利用支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "B — 癲癇與偏頭痛共享分子機制綜述，提供疾病生物學背景，未涉及 SSRI/dapoxetine 治療"
+        },
+        {
+          "pmid": "17460155",
+          "study_type": "Genetic Linkage Study",
+          "tier": "2",
+          "relevance": "C — 家族性枕顳葉癲癇與視覺先兆偏頭痛之染色體 9q 連鎖研究，純遺傳機制研究，非治療性證據"
+        },
+        {
+          "pmid": "34575901",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 抗癲癇發生分子靶點，與 dapoxetine 無連結"
+        },
+        {
+          "pmid": "34209535",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "C — 神經炎症與癲癇關係，背景科學參考，非再利用證據"
+        },
+        {
+          "pmid": "30267335",
+          "study_type": "Meta-analysis",
+          "tier": "2",
+          "relevance": "C — MTHFR C677T 多態性與癲癇易感性，遺傳流行病學，無治療相關性"
+        }
+      ]
+    },
+    {
+      "disease_name": "neurotic disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "焦慮譜系障礙（neurotic disorder）對 SSRI 治療有充分文獻支持。Dapoxetine 之 5-HT 機轉理論上相關，但：(1) 焦慮症需持續 SSRI 暴露（通常 ≥2 週起效），(2) 急性/間歇性 5-HT 調節對慢性焦慮之療效未知。無任何直接臨床試驗或 dapoxetine 特異性文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "萎縮性毛囊角化症（follicular atrophoderma of cheeks）為罕見遺傳性角化性皮膚病，病理機制以角化異常及毛囊結構缺陷為主（可能與 CARMIL2/RAS 途徑相關），與 SSRI/5-HT 系統缺乏已知藥理連結。高 TxGNN 分數極可能為知識圖譜鄰居效應假陽性（KG neighborhood false positive）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉部萎縮性毛孔角化症（keratosis pilaris atrophicans faciei）為毛囊角化性炎症性皮膚病，毛囊炎症/角化機制與 SSRI 藥理作用缺乏已知連結。與 atrophoderma vermiculata 同屬 keratosis pilaris atrophicans 疾病群，兩者相鄰節點可能共同造成 KG 預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neurotic depression",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "輕至中度憂鬱症（neurotic depression）為 SSRI 核心適應症，機轉直接相關。然而 dapoxetine 因 PK 缺陷（t½ ≈ 1.5h vs. 治療性 SSRI t½ 15-35h）已有明確開發失敗記錄。PMID 34034811 為廣泛抗憂鬱劑系統回顧，不包含 dapoxetine；為間接類藥物證據。PK 障礙使再利用缺乏可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34034811",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "relevance": "B — 抗憂鬱劑（含 SSRI）對比安慰劑之 Cochrane 級系統回顧，提供 SSRI 類憂鬱症療效基礎，但明確不包含 dapoxetine；為間接類藥物（class-level）證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "melancholia",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "憂鬱症（melancholic subtype）通常需要強效持續抗憂鬱治療，5-HT 機轉相關。Dapoxetine 面臨與 neurotic depression 相同之 PK 障礙，且憂鬱症需持續數週之突觸 5-HT 濃度維持（dapoxetine 無法達成）。PMID 34034811 同上，間接類藥物背景證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34034811",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "relevance": "B — 同 neurotic depression 項目，廣泛抗憂鬱劑系統回顧，非 dapoxetine 特異性；間接背景證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性孤立性 ACTH 缺乏症由 POMC 或 PCSK1 基因突變所致，為垂體 corticotroph 發育/功能先天性缺陷。雖 5-HT 對 HPA 軸有調節作用（影響 CRH/ACTH 釋放），但此屬先天性基因缺陷而非功能性調節失常，SSRI 無法替代缺失之 ACTH 分泌。無任何臨床或基礎研究支持。極可能為 KG 長距離推論假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+### 證據等級分佈
+
+| 等級 | 適應症數量 | 適應症 |
+|------|-----------|--------|
+| **L4**（間接類藥物證據） | 5 | migraine disorder、dysthymic disorder、neurotic disorder、neurotic depression、melancholia |
+| **L5**（僅預測，無臨床證據） | 5 | migraine w/ brainstem aura、migraine susceptibility、atrophoderma vermiculata、ulerythema ophryogenesis、congenital ACTH deficiency |
+
+### 核心問題：藥動學根本障礙
+
+```
+Dapoxetine t½ ≈ 1.5h  vs.  治療性 SSRI t½ = 15–35h
+         ↓
+• 慢性病（憂鬱/焦慮/偏頭痛預防）：無法維持有效血藥濃度 → 無效
+• 急性病（偏頭痛急性期）：作用時窗極短，缺乏支持性臨床試驗
+```
+
+### 假陽性警示
+
+> `atrophoderma vermiculata` 與 `ulerythema ophryogenesis`（兩項皮膚病）及 `congenital ACTH deficiency` 之高 TxGNN 分數（>0.96）高度疑似**知識圖譜鄰居效應假陽性**，建議於後續版本中加入 PK/MoA 相容性濾篩層。
+
+### 決策建議
+
+所有 10 項適應症均建議 **Hold（暫緩）**，主要理由：
+1. **無直接臨床試驗**（clinical_trials_count = 0 for all）
+2. **藥動學根本性障礙**（超短半衰期排除慢性適應症）
+3. **歷史開發失敗記錄**（抗憂鬱方向已明確被放棄）
+4. **文獻多為類藥物間接證據或疾病機制研究**，非 dapoxetine 特異性

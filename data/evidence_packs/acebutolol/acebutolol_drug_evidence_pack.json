@@ -1,0 +1,1188 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01193-multi",
+    "version": "v4",
+    "created_at": "2026-04-03",
+    "data_cutoff": "2026-04-03",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Acebutolol",
+    "drugbank_id": "DB01193",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9910196661949158,
+        "rank": 9788
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "768911",
+            "title": "[Acebutolol in the treatment of arterial hypertension. Clinical study].",
+            "authors": [
+              "Lucsko M",
+              "Chaignon M",
+              "Guédon J"
+            ],
+            "journal": "La Nouvelle presse medicale",
+            "year": "1975",
+            "abstract": "Fifty hypertensive patients were given a beta-blocker, acebutolol, alone or in association with other hypotensive drugs, in an open therapeutic trial lasting for a year. The results of treatment were considered to be good or moderate in 74 p.cent of the patients. Treatment failures were recorded in 26 p.cent. The mean dosage of acebutolol was 10 mg/kg (maximum 22 mg/kg) and the drug was very well tolerated. Hypertension with an increased cardiac index and reno-vascular hypertension with increase",
+            "classification": {
+              "study_type": "Non-randomized Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Acebutolol 透過 β1 阻斷降低腎素分泌及心輸出量，具降壓機轉。惡性腎血管性高血壓（RAS 相關）中，beta-blocker 可能掩蓋代償機制並加重腎功能惡化（雙側 RAS 禁忌），安全性需優先評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9910196661949158,
+        "rank": 9789
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性高血壓性腎病（加速性高血壓伴腎損害）需快速降壓，通常以靜脈注射藥物為主。口服 beta-blocker 非此急症情境的標準處置，且腎功能惡化時 β1 阻斷的反射性腎素代償抑制可能有害。無任何直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9899938702583312,
+        "rank": 10535
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "Laboratory/Molecular Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15192444",
+            "title": "Chronic hypoxia: common traits between chronic obstructive pulmonary disease and altitude.",
+            "authors": [
+              "Raguso Comasia A",
+              "Guinot Sofia L",
+              "Janssens Jean-Paul",
+              "Kayser Bengt",
+              "Pichard Claude"
+            ],
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "year": "2004",
+            "abstract": "Loss of body mass and exercise intolerance are common findings in chronic obstructive pulmonary disease and are often difficult to reverse despite optimal nutritional intake. Similar findings have been reported in healthy individuals during high-altitude exposure. The role of hypoxia in modulating metabolism has been largely investigated in vitro and in animal studies. More fragmentary is the knowledge regarding hypoxia effects on in-vivo human metabolism. This paper reviews recent literature re",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全性警示：Beta-blocker 在合併肺疾病的肺動脈高壓中有潛在危害——可能誘發支氣管痙攣、降低右心室代償能力及減少心輸出量。20 篇文獻經審閱均為缺氧生理機制或基礎研究，與 acebutolol 治療此病無直接關聯，屬文獻匹配假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9899938702583312,
+        "rank": 10536
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多因子機轉肺高壓定義模糊，Beta-blocker 在肺動脈高壓整體缺乏支持性證據，且存在降低右心功能的安全疑慮。無臨床或文獻證據。TxGNN 高分（0.990）可能源於與前一適應症節點共享高分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9874868392944336,
+        "rank": 12453
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock syndrome 為極罕見遺傳疾病（EOGT 基因突變，表現短指症與周邊神經病變），與 beta-blocker 藥理機轉無任何生理關聯。TxGNN 高分（0.987）可能為知識圖譜中鄰近心血管疾病節點的過度推論（graph proximity artifact）。無任何臨床或文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.8861197829246521,
+        "rank": 36168
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11869646",
+            "title": "Cardioselective beta-blockers for reversible airway disease.",
+            "authors": [
+              "Salpeter S",
+              "Ormiston T",
+              "Salpeter E"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2002",
+            "abstract": "Beta-blocker therapy has mortality benefit in patients with hypertension, heart failure and coronary artery disease, as well as during the perioperative period. These drugs have traditionally been considered contraindicated in patients with reversible airway disease.",
+            "classification": {
+              "study_type": "Systematic Review (Cochrane)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11406056",
+            "title": "Cardioselective beta-blocker use in patients with reversible airway disease.",
+            "authors": [
+              "Salpeter S",
+              "Ormiston T",
+              "Salpeter E"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2001",
+            "abstract": "Beta-blocker therapy has mortality benefit in patients with hypertension, heart failure and coronary artery disease, as well as during the perioperative period. These drugs have traditionally been considered contraindicated in patients with reversible airway disease.",
+            "classification": {
+              "study_type": "Cohort/Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "365429",
+            "title": "Acebutolol in supraventricular arrhythmias.",
+            "authors": [
+              "Aronow W S",
+              "Van Camp S",
+              "Turbow M",
+              "Whittaker K",
+              "Lurie M"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1979",
+            "abstract": "The effect of intravenous acebutolol on supraventricular arrhythmias was evaluated in 20 patients, 5 with chronic obstructive pulmonary disease. A rapid ventricular rate in atrial fibrillation was slowed greater than 15% in all of 10 patients by acebutolol and in none of 5 patients by saline. A rapid ventricular rate in atrial flutter was slowed greater than 15% in all of 6 patients by acebutolol and in none of 3 patients by saline. Frequent premature atrial beats were abolished or reduced by gr",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺原性心臟病（cor pulmonale）中 beta-blocker 角色高度爭議——理論上可降低心率改善右心功能，但可能誘發支氣管痙攣並惡化低氧狀況。3 篇文獻為心臟選擇性 beta-blocker 在氣道疾病安全性評估，屬間接安全性資料，非治療 cor pulmonale 的療效證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.8501471877098083,
+        "rank": 39170
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Beta-blocker（局部製劑）為青光眼標準降眼壓用藥，透過抑制睫狀體房水分泌降低眼內壓。然而：(1) 遺傳性青光眼（如 MYOC/CYP1B1 基因缺陷）的病理機轉不同，降眼壓治療可能不足；(2) 全身性 acebutolol 的眼部效果、適當劑量及安全性與局部製劑差異顯著；(3) 無任何臨床研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.7571783661842346,
+        "rank": 43589
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "局部 beta-blocker（timolol、betaxolol 等）已為開角型青光眼一線用藥，機轉為抑制睫狀體 β2 受體降低房水生成。Acebutolol 以 β1 選擇性為主，理論上眼壓降低效果弱於非選擇性 beta-blocker。全身性給藥的眼部藥效動力學未知，但機轉假說合理，可設計為研究問題（眼壓測量次要終點）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "closed-angle glaucoma",
+      "txgnn": {
+        "score": 0.6534468531608582,
+        "rank": 46585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "閉角型青光眼根本原因為房角解剖結構異常（虹膜前移），標準治療為雷射周邊虹膜切開術。全身性 beta-blocker 無法解決結構問題，且急性閉角型青光眼為急症，口服 acebutolol 不適用。無任何臨床或文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "atrial flutter (disease)",
+      "txgnn": {
+        "score": 0.5913786888122559,
+        "rank": 48541
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3535474",
+            "title": "Prevention of atrial fibrillation or flutter by acebutolol after coronary bypass grafting.",
+            "authors": [
+              "Daudon P",
+              "Corcos T",
+              "Gandjbakhch I",
+              "Levasseur J P",
+              "Cabrol A"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1986",
+            "abstract": "Supraventricular tachyarrhythmias are common after coronary artery bypass graft surgery (CABG) and may have deleterious hemodynamic consequences. To determine if acebutolol, a cardioselective beta-blocking drug, prevents such tachyarrhythmias after CABG, 100 consecutive patients, aged 30 to 77 years (mean +/- standard deviation 53 +/- 9), were entered into a randomized, controlled study. Exclusion criteria were: contraindications to beta-blocking drugs, left ventricular aneurysm, major renal fai",
+            "classification": {
+              "study_type": "Randomized Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "365429",
+            "title": "Acebutolol in supraventricular arrhythmias.",
+            "authors": [
+              "Aronow W S",
+              "Van Camp S",
+              "Turbow M",
+              "Whittaker K",
+              "Lurie M"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1979",
+            "abstract": "The effect of intravenous acebutolol on supraventricular arrhythmias was evaluated in 20 patients, 5 with chronic obstructive pulmonary disease. A rapid ventricular rate in atrial fibrillation was slowed greater than 15% in all of 10 patients by acebutolol and in none of 5 patients by saline. A rapid ventricular rate in atrial flutter was slowed greater than 15% in all of 6 patients by acebutolol and in none of 3 patients by saline. Frequent premature atrial beats were abolished or reduced by gr",
+            "classification": {
+              "study_type": "Prospective Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3894250",
+            "title": "Prevention by acebutolol of rhythm disorders following coronary bypass surgery.",
+            "authors": [
+              "Materne P",
+              "Larbuisson R",
+              "Collignon P",
+              "Limet R",
+              "Kulbertus H"
+            ],
+            "journal": "International journal of cardiology",
+            "year": "1985",
+            "abstract": "Seventy-one patients submitted routinely to coronary artery bypass surgery were randomized into 2 groups. Group A (32 patients) received 24 hr after initiation of surgery an intravenous perfusion of 100 mg of acebutolol given over 24 hr (22 cases) or 600 mg administered orally (10 cases). On subsequent days, they received 1200 mg of acebutolol/day orally. Group B (39 patients) was used as control. The groups were comparable in terms of age, sex, severity of coronary disease, preoperative therapy",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Acebutolol 透過 β1 阻斷降低 AV 結傳導速度（Class II 抗心律不整效果），有效控制心房撲動的心室率，並可預防術後心律不整。3 篇文獻均直接涉及 acebutolol 用於心房撲動/纖維顫動，具備合理機轉與歷史臨床證據。注意：在部分國家 acebutolol 已核准用於室上性心律不整，此分析在本地未上市背景下具再利用價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "closed-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "closed-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "closed-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "atrial flutter (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "atrial flutter (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Acebutolol",
+        "disease": "atrial flutter (disease)"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    }
+  ]
+}

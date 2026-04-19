@@ -1,0 +1,280 @@
+## Clavulanic acid (DB00766) 藥物再利用證據分析
+
+**藥物背景說明**：Clavulanic acid 為 β-lactamase 不可逆抑制劑，臨床上幾乎專以複方形式（Augmentin = amoxicillin + clavulanate）使用，單獨上市狀態為「未上市」。以下分析以「clavulanic acid 作為活性成分」的角色評估各適應症。
+
+---
+
+```json
+{
+  "drug": "Clavulanic acid",
+  "drugbank_id": "DB00766",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Clavulanic acid 為 β-lactamase 抑制劑，臨床以 Augmentin 複方形式使用。TxGNN 高分（>0.997）應結合機轉相容性與臨床文獻品質審慎解讀，避免高分假陽性。",
+  "indications": [
+    {
+      "disease_name": "gonococcal urethritis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Neisseria gonorrhoeae 可產生 penicillinase（PPNG 株），導致 amoxicillin 失效。Clavulanic acid 不可逆抑制 β-lactamase，與 amoxicillin 合用（Augmentin）可恢復對 PPNG 的殺菌活性，機轉邏輯明確。然而 1980 年代後淋病治療指引已轉向 ceftriaxone（因更廣泛耐藥性），歷史證據的現代臨床適用性需重新評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6757686",
+          "study_type": "Small Clinical Trial",
+          "tier": "2",
+          "note": "直接研究 amoxycillin + clavulanic acid 單劑口服治療男性淋病尿道炎，高度直接相關（1982）"
+        },
+        {
+          "pmid": "6365235",
+          "study_type": "Comparative Clinical Trial",
+          "tier": "2",
+          "note": "比較 amoxycillin + clavulanate 與注射劑治療淋病尿道炎療效，直接相關（1984）"
+        },
+        {
+          "pmid": "3004176",
+          "study_type": "Small Clinical Trial",
+          "tier": "2",
+          "note": "Augmentin 單劑治療淋病尿道炎（Ibadan 研究），直接相關（1985）"
+        },
+        {
+          "pmid": "4007860",
+          "study_type": "Dose-comparison Study",
+          "tier": "2",
+          "note": "比較 125mg vs 250mg clavulanic acid 配合 amoxycillin 3g 療效，直接相關（1985）"
+        },
+        {
+          "pmid": "3533755",
+          "study_type": "Comparative Clinical Study",
+          "tier": "2",
+          "note": "多種口服方案比較治療泌尿生殖及直腸淋病，中度相關（1986）"
+        },
+        {
+          "pmid": "3721514",
+          "study_type": "Comparative Clinical Trial",
+          "tier": "2",
+          "note": "三組方案（含 Augmentin）比較治療急性淋球菌感染，直接相關（1986）"
+        },
+        {
+          "pmid": "3147528",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "抗生素抵抗性淋球菌感染治療，包含 Augmentin 分析（1988）"
+        },
+        {
+          "pmid": "6240784",
+          "study_type": "Review/Commentary",
+          "tier": "3",
+          "note": "淋病治療總覽，提供歷史背景，間接相關（1984）"
+        },
+        {
+          "pmid": "19544099",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "男性尿道炎診斷回顧，間接提及治療選項（2009）"
+        },
+        {
+          "pmid": "21947096",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "尿道炎經驗性治療回顧，間接相關（2011）"
+        }
+      ]
+    },
+    {
+      "disease_name": "uterine inflammatory disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "子宮炎性疾病（子宮內膜炎、骨盆腔炎）常為多菌感染，包含可產生 β-lactamase 的細菌（MRSA 除外之金黃色葡萄球菌、部分腸桿菌科）。Amoxicillin-clavulanate 在 CNGOF 產後子宮內膜炎指引（PMID 30890463）中被列為治療選項，具備指引層級支持。然而大多數文獻為動物研究或間接人類資料，人類 RCT 證據不足，需要現代臨床試驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30890463",
+          "study_type": "Clinical Guideline (CNGOF/SPILF)",
+          "tier": "2",
+          "note": "法國 CNGOF 產後子宮內膜炎指引，提及 amoxicillin-clavulanate 治療方案，最重要的直接人類臨床證據（2019）"
+        },
+        {
+          "pmid": "7811001",
+          "study_type": "Animal Study (Murine)",
+          "tier": "3",
+          "note": "鼠類 Chlamydia trachomatis 生殖道感染模型，評估療效，間接相關（1994）"
+        },
+        {
+          "pmid": "36268928",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "懷孕期牙科治療抗生素使用回顧，amoxicillin-clavulanate 安全性資料，間接相關（2022）"
+        },
+        {
+          "pmid": "25638979",
+          "study_type": "Veterinary Clinical Study",
+          "tier": "3",
+          "note": "牛子宮內膜炎病因與抗藥性研究，動物數據，相關性低（2014）"
+        },
+        {
+          "pmid": "23517211",
+          "study_type": "Retrospective Study (Veterinary)",
+          "tier": "3",
+          "note": "馬子宮細菌分離與抗生素抵抗研究，動物數據，相關性低（2013）"
+        },
+        {
+          "pmid": "30381253",
+          "study_type": "Microbiological Study",
+          "tier": "3",
+          "note": "Listeria 抗藥性研究，背景參考（2019）"
+        },
+        {
+          "pmid": "7857230",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "IUD 相關放線菌感染個案，與子宮炎性疾病間接相關（1995）"
+        }
+      ]
+    },
+    {
+      "disease_name": "Ureaplasma urethritis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ureaplasma urealyticum 缺乏細胞壁，對所有 β-lactam 類抗生素具有固有抵抗性（intrinsic resistance）。Clavulanic acid 作為 β-lactamase 抑制劑，其作用機轉無法針對無細胞壁病原體發揮效用。機轉相容性根本上不成立，建議終止此適應症評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34366085",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Pasteurella bettyae 引起尿道炎案例，未涉及 clavulanic acid 與 Ureaplasma，相關性極低（2021）"
+        },
+        {
+          "pmid": "9669200",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "note": "慢性前列腺炎中厭氧菌角色研究，非 Ureaplasma 直接證據（1998）"
+        },
+        {
+          "pmid": "19544099",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "男性尿道炎診斷回顧，未針對 clavulanic acid 用於 Ureaplasma（2009）"
+        },
+        {
+          "pmid": "21947096",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "尿道炎經驗性治療回顧，無 clavulanic acid 用於 Ureaplasma 的直接證據（2011）"
+        }
+      ]
+    },
+    {
+      "disease_name": "xanthogranulomatous pyelonephritis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "黃色肉芽腫性腎盂腎炎（XGP）主要由 Proteus mirabilis 或 E. coli 引起（部分可產生 β-lactamase），理論上存在一定機轉相關性。然而 XGP 治療核心為手術切除（腎切除術），抗生素僅為輔助且通常需廣效覆蓋。現有文獻僅為影像診斷病例報告，無 clavulanic acid 的直接治療證據，暫不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17424672",
+          "study_type": "CME Case Discussion",
+          "tier": "3",
+          "note": "超音波影像 CME 病例討論，未直接涉及 clavulanic acid 治療，相關性極低（2007）"
+        },
+        {
+          "pmid": "9922842",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒童假腫瘤性 XGP 個案，未提及 clavulanic acid，相關性極低（1998）"
+        }
+      ]
+    },
+    {
+      "disease_name": "urogenital tuberculosis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "結核分枝桿菌（M. tuberculosis）雖具有 β-lactamase（BlaC），且體外研究顯示 amoxicillin-clavulanate 可部分抑制 BlaC，有輔助治療耐藥性肺結核的探索性證據。然而：(1) 針對泌尿生殖系統結核無直接臨床數據；(2) 標準抗結核化療（HRZE）仍為不可替代的一線治療；(3) 唯一文獻（PMID 26847806）僅為診斷性個案報告，未涉及 clavulanic acid 治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26847806",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "結核性附睪炎偽裝急性陰囊個案，診斷描述為主，未提及 clavulanic acid 治療，相關性極低（2016）"
+        }
+      ]
+    },
+    {
+      "disease_name": "abdominal ectopic pregnancy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹部異位妊娠為外科急症，標準治療為手術切除或 methotrexate（葉酸拮抗劑）。Clavulanic acid 為 β-lactamase 抑制劑，對滋養層細胞增殖無任何已知作用機轉，機轉邏輯根本上不成立。TxGNN 高分（0.9980）可能源於知識圖譜中「婦科疾病–感染–抗生素」節點的非特異性路徑連結，屬典型假陽性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04751500",
+          "relevance_grade": "C",
+          "reasoning": "HYMMN 試驗（HYsteroscopic Miscarriage MaNagement）研究子宮鏡處理流產，非腹部異位妊娠，且未以 clavulanic acid 作為研究藥物。Phase NA、已完成、n=149，與本適應症無直接關聯，評為 C 級（極低相關性）"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "celiac trunk compression syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹腔幹壓迫症候群（Dunbar syndrome / Median arcuate ligament syndrome）為解剖結構性血管壓迫，主要治療為手術解壓。Clavulanic acid 對血管壓迫無任何已知作用機轉，零臨床或文獻支持。TxGNN 評分屬圖譜非特異性預測，不具備生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "abdominal cystic lymphangioma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹部囊性淋巴管瘤為先天性淋巴管畸形，主要治療為手術切除或硬化療法。Clavulanic acid 對淋巴管瘤的增殖或退縮無已知作用機轉，零臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lymph node palisaded myofibroblastoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淋巴結柵欄狀肌纖維母細胞瘤（palisaded myofibroblastoma）為罕見良性腫瘤，主要治療為手術切除。Clavulanic acid 對間葉性腫瘤無已知作用機轉，無任何臨床或文獻支持，評估應終止。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "disease of uterine broad ligament",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮闊韌帶疾病涵蓋多種異質性病理（囊腫、肌瘤、感染性等）。若為感染性病因（如闊韌帶膿瘍），amoxicillin-clavulanate 有理論上的機轉邏輯，但現有輸入資料中無任何臨床試驗或文獻支持，且病因異質性高，評估暫不推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 摘要表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|----------|----------|------|----------|
+| **Gonococcal urethritis** | **L3** | **S1** | **Research Question** | 7篇1980年代直接臨床研究（Augmentin vs PPNG），機轉明確，但需現代化臨床重評 |
+| **Uterine inflammatory disease** | **L3** | **S1** | **Research Question** | CNGOF 指引背書，但多數文獻為動物研究，缺乏現代 RCT |
+| Ureaplasma urethritis | L4 | S0 | Hold | ⚠️ 機轉根本不相容（Ureaplasma 無細胞壁，β-lactam 無效） |
+| Xanthogranulomatous pyelonephritis | L4 | S0 | Hold | 僅病例報告，治療核心為手術非抗生素 |
+| Urogenital tuberculosis | L4 | S0 | Hold | 僅診斷性個案，標準抗結核方案不可替代 |
+| Abdominal ectopic pregnancy | L5 | S0 | Hold | ⚠️ 機轉不成立，NCT04751500 與藥物無關 |
+| Celiac trunk compression syndrome | L5 | S0 | Hold | 零證據，機轉不成立 |
+| Abdominal cystic lymphangioma | L5 | S0 | Hold | 零證據，機轉不成立 |
+| Lymph node palisaded myofibroblastoma | L5 | S0 | Hold | 零證據，機轉不成立 |
+| Disease of uterine broad ligament | L5 | S0 | Hold | 零證據，病因異質性高 |
+
+> ⚠️ **重要提醒**：本分析結果僅供研究參考，不構成醫療建議。老藥新用候選需經過嚴格臨床驗證才能應用於臨床。TxGNN 高預測分數（>0.997）需結合生物學合理性與臨床文獻品質謹慎解讀，以避免高分假陽性誤導後續研究資源配置。

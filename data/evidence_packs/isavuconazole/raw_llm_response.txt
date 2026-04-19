@@ -1,0 +1,234 @@
+## Isavuconazole (DB11633) 藥物再利用證據分析
+
+### 🔍 藥物背景說明（數據差異警示）
+
+> **重要前提**：Isavuconazole（品牌名 Cresemba）實際上是 **已核准的三唑類抗真菌藥**（美國 FDA 2015 年核准），用於侵襲性麴菌病與毛黴菌病。本資料集顯示「未上市」、原始適應症空白、MOA 為 `[Data Gap]`，可能反映新加坡市場本地登記缺口，而非藥物本身未上市。此數據缺口將直接影響 TxGNN 預測品質。
+>
+> **已知 MOA**：抑制真菌細胞色素 P450 酵素 CYP51（14α-去甲基酶），阻斷麥角固醇合成；同時為人類 CYP3A4 的強效抑制劑。
+
+---
+
+```json
+{
+  "drug": "Isavuconazole",
+  "drugbank_id": "DB11633",
+  "analysis_date": "2026-04-04",
+  "data_quality_flag": "HIGH_RISK - 原始適應症與 MOA 均為 Data Gap，TxGNN 預測可信度受限",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。Isavuconazole 的核心機轉為抑制真菌 CYP51，與偏頭痛的三叉神經血管系統、CGRP 釋放、皮質擴散性抑制（CSD）無生物學交集。TxGNN 高分（0.990）可能來自知識圖譜中的拓撲雜訊（topology artifact），因原始適應症數據缺失導致模型偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零直接臨床證據", "無生物合理性支持", "TxGNN 數據缺口偏差風險"]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。基底型偏頭痛與腦幹功能異常及 CACNA1A、ATP1A2 基因變異相關，涉及電壓門控鈣離子通道與 Na/K-ATPase 功能。Isavuconazole 的抗真菌機轉與此神經生理機制無任何已知交集。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見亞型（孤兒疾病風險）", "零證據基礎"]
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "20 篇文獻均為癲癇-偏頭痛共享遺傳機制的背景研究（MTHFR 多型性、共同基因座、神經發炎），無一文獻涉及 Isavuconazole 與偏頭痛的藥物證據。文獻係以疾病關鍵字檢索所得的背景資料，非藥物再利用直接證據，不應提升證據等級。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "癲癇與偏頭痛共享分子機制與治療策略—僅提供疾病共病背景，不涉及 Isavuconazole"
+        },
+        {
+          "pmid": "17460155",
+          "study_type": "Genetic Linkage Study",
+          "tier": "3",
+          "relevance_note": "枕顳葉癲癇合併視覺先兆偏頭痛連鎖至 9q—遺傳背景研究，無藥物相關性"
+        },
+        {
+          "pmid": "34575901",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "抗癲癇發生分子靶點綜述—背景機轉資料，不涉及 Isavuconazole"
+        },
+        {
+          "pmid": "34209535",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "神經發炎與癲癇—疾病生物學背景，無藥物關聯"
+        },
+        {
+          "pmid": "30267335",
+          "study_type": "Meta-analysis",
+          "tier": "3",
+          "relevance_note": "MTHFR C677T 多型性與癲癇易感性—遺傳流行病學，不涉及 Isavuconazole"
+        },
+        {
+          "pmid": "22938964",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "動物模型綜述—方法學背景"
+        },
+        {
+          "pmid": "22266888",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "癲癇遺傳學—背景資料"
+        },
+        {
+          "pmid": "21269290",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "癲癇細胞遺傳學—背景資料"
+        },
+        {
+          "pmid": "19935934",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "心因性非癲癇發作—背景鑑別診斷資料"
+        },
+        {
+          "pmid": "16201993",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "受體重排研究—基礎科學背景"
+        }
+      ],
+      "risk_flags": ["20 篇文獻零藥物相關性", "文獻來源為疾病關鍵字污染"]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "間接生物學關聯：（1）特定真菌感染（組織胞漿菌病、隱球菌病、麴菌病）可引發慢性肺部血管炎症，進而導致繼發性肺高壓；（2）Isavuconazole 對 CYP3A4 的強效抑制可能影響肺高壓一線藥物（如 Riociguat、Macitentan）的血漿濃度，但此為 DDI 安全考量而非治療機轉；（3）NCT04680884 研究免疫低下者急性呼吸衰竭的經驗性抗真菌/類固醇治療，肺高壓非主要終點。整體機轉關聯為間接且推測性質。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04680884",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 RCT，研究免疫低下患者急性呼吸衰竭的經驗性類固醇和/或抗真菌治療（n=420，狀態 UNKNOWN）。關鍵缺陷：(1) 研究主要適應症為急性呼吸衰竭，非肺高壓；(2) 抗真菌藥物為廣義介入（不特指 Isavuconazole）；(3) 試驗狀態 UNKNOWN 代表結果未知或試驗可能中止；(4) 肺高壓可能為共病或併發症，非預設終點。相關性低，僅提供背景參考。"
+        }
+      ],
+      "literature_analysis": [],
+      "risk_flags": ["試驗狀態 UNKNOWN（結果不確定）", "抗真菌藥物非特指 Isavuconazole", "肺高壓非主要研究終點"]
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。脊柱後側凸性心臟病為機械性胸廓限制所致的限制性肺功能障礙合併右心衰竭，屬結構性/機械性病理，與真菌 CYP51 抑制的抗真菌機轉無任何生物學交集。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["完全無證據基礎", "機轉生物學上不合理"]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有唯一文獻（PMID 37597857）描述 Isavuconazole 成功治療一名因 RA 接受免疫抑制治療後發生播散性組織胞漿菌病的患者——此為 Isavuconazole 已核准抗真菌適應症在 RA 免疫低下患者中的應用，並非 Isavuconazole 治療 RA 本身的證據。目前無已知機轉支持其直接抗風濕或免疫調節作用。TxGNN 預測可能來自「RA 免疫抑制→真菌感染風險→抗真菌藥物」的知識圖譜路徑，屬間接關聯誤判。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37597857",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Isavuconazole 治療 RA 免疫低下患者的播散性組織胞漿菌病（2023）—記錄的是抗真菌治療（已核准適應症），非 RA 治療。相關性：不適用（誤分類）"
+        }
+      ],
+      "risk_flags": ["文獻為已核准適應症使用，非再利用證據", "無生物合理性支持直接抗風濕效果"]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。蟲蛀樣皮膚萎縮（atrophoderma vermiculata）為遺傳性毛囊角化異常（與 MBTPS2 基因突變相關），屬罕見角化症，與真菌感染病理無直接關聯。目前無文獻或試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見病（孤兒疾病）", "完全無證據基礎"]
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。NSIAD 由 AVPR2（V2 血管加壓素受體）功能增益性突變引起，導致 ADH 受體持續活化、腎小管異常水重吸收，與 Isavuconazole 的真菌 CYP51 抑制機轉完全無交集。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見病（X 連鎖遺傳）", "完全無證據基礎"]
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接治療機轉關聯。Prinzmetal 心絞痛（變異型心絞痛）為冠狀動脈痙攣所致，標準治療為鈣離子拮抗劑（Nifedipine、Diltiazem）和硝酸鹽。注意：Isavuconazole 為強效 CYP3A4 抑制劑，可能增加鈣離子拮抗劑血漿濃度，此為 DDI 安全風險而非治療機轉，應視為禁忌考量而非再利用依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["CYP3A4 抑制可能造成鈣離子拮抗劑 DDI 安全風險", "無治療性機轉"]
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。眉部萎縮性紅斑苔蘚（Ulerythema ophryogenes）為罕見炎症性毛囊角化症，常為 Noonan 症候群或 Cardiofaciocutaneous 症候群的表現之一（RAS/MAPK 通路異常），與真菌感染的病理機轉無關聯。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見病", "完全無證據基礎"]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 證據分析摘要
+
+| 疾病名稱 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|---------|-----------|---------|---------|------|
+| migraine disorder | 0.990 | **L5** | S0 | ❌ Hold |
+| migraine with brainstem aura | 0.988 | **L5** | S0 | ❌ Hold |
+| migraine w/wo aura, susceptibility | 0.983 | **L5** | S0 | ❌ Hold |
+| **pulmonary hypertension** | 0.981 | **L4** | S1 | ⚠️ Research Question |
+| kyphoscoliotic heart disease | 0.980 | **L5** | S0 | ❌ Hold |
+| **rheumatoid arthritis** | 0.976 | **L4** | S0 | ❌ Hold |
+| atrophoderma vermiculata | 0.974 | **L5** | S0 | ❌ Hold |
+| nephrogenic syndrome (NSIAD) | 0.973 | **L5** | S0 | ❌ Hold |
+| Prinzmetal angina | 0.971 | **L5** | S0 | ❌ Hold ⚠️ DDI |
+| ulerythema ophryogenesis | 0.970 | **L5** | S0 | ❌ Hold |
+
+---
+
+## ⚠️ 關鍵分析結論
+
+### 整體評估
+本批次預測 **整體證據質量極低**，10 個適應症中：
+- **9 個 L5**（純預測，零臨床證據）
+- **1 個 L4**（肺高壓，間接試驗）
+- **0 個 L3 以上**
+
+### 主要問題診斷
+
+1. **數據缺口放大效應**：原始適應症與 MOA 為 Data Gap，TxGNN 缺乏已知用途作為錨點，導致知識圖譜拓撲預測出現系統性偏差，預測分數（0.97-0.99）虛高。
+
+2. **文獻污染問題**：「migraine with or without aura」的 20 篇文獻均為癲癇遺傳學背景文獻，與 Isavuconazole 無直接關聯，顯示數據收集管線有疾病關鍵字污染問題（false positive literature）。
+
+3. **RA 文獻誤判**：唯一相關文獻（PMID 37597857）記錄的是 Isavuconazole 的已核准適應症使用（抗真菌），而非 RA 的再利用應用，不應計入支持證據。
+
+4. **DDI 安全警示**：Isavuconazole 為強效 **CYP3A4 抑制劑**，在 Prinzmetal 心絞痛（鈣離子拮抗劑治療）等適應症中，應優先考慮藥物交互作用風險，而非視為再利用機會。
+
+### 唯一可考慮深入探索的方向
+**肺高壓（L4/S1）**：在免疫低下患者中，真菌感染與繼發性肺部血管病理的關聯具有生物學合理性，NCT04680884 提供了間接的臨床背景。建議優先確認：（1）試驗最終結果（UNKNOWN 狀態需追蹤）；（2）繼發性肺高壓合併侵襲性真菌感染的個案報告是否存在。

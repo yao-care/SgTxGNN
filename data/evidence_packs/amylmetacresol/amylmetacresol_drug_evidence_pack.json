@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB13908-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amylmetacresol",
+    "drugbank_id": "DB13908",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.9998656511306764,
+        "rank": 459
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "馬尾症候群為神經根壓迫性急症，主要治療為外科減壓。Amylmetacresol 之防腐/殺菌機轉與此適應症無合理病理生理連結。TxGNN 高分可能來源於 KG 中 '感染性脊椎炎→神經壓迫' 的間接路徑節點，屬拓撲假訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.9996019005775452,
+        "rank": 996
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經性膀胱為自律神經損傷後遺症（脊髓損傷、多發性硬化等），治療主軸為抗膽鹼或 α 腎上腺素調節。Amylmetacresol 無已知神經調控機制。術語標記為 'obsolete' 亦顯示本體論過時問題。KG 連結推測路徑：泌尿道感染→膀胱功能→神經性膀胱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "irritable bowel syndrome",
+      "txgnn": {
+        "score": 0.9988710284233092,
+        "rank": 2232
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IBS 涉及腸道菌叢失衡、腸-腦軸異常與內臟敏感化。Amylmetacresol 作為殺菌劑理論上可影響腸道微生物相，但：(1) 無口服腸道劑型；(2) 無人體腸道菌叢影響數據；(3) IBS 病因非單純感染性。此連結為最遙遠推測，缺乏任何前驅研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "ciliary body disease",
+      "txgnn": {
+        "score": 0.9970263838768004,
+        "rank": 4572
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "睫狀體疾病涵蓋炎症、腫瘤、結構異常等多種病態。Amylmetacresol 無眼科局部用藥紀錄，無法穿透眼球屏障。KG 中可能透過 '酚類化合物→抗炎→眼部炎症' 的廣義連結生成此預測，屬通用分類節點造成的群集效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "panuveitis (disease)",
+      "txgnn": {
+        "score": 0.9967560172080994,
+        "rank": 4837
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "全葡萄膜炎（前中後葡萄膜全層炎症）病因包含感染性（TB、梅毒、病毒）與非感染性（自體免疫）。感染性病因理論上與防腐殺菌機轉有微弱關聯，但 Amylmetacresol 無眼科投藥途徑，且全身性殺菌強度遠不足治療眼內感染。此預測為眼科疾病群集之一部分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "iris disease",
+      "txgnn": {
+        "score": 0.9963376522064208,
+        "rank": 5274
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "虹膜疾病為廣義分類，包含虹膜炎、色素分散症候群、虹膜萎縮等。與 Amylmetacresol 殺菌機轉無直接病理生理連結。此預測為眼科 KG 群集效應之一，虹膜炎（感染性）為最勉強的理論連結，但無任何前驅數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "infectious anterior uveitis",
+      "txgnn": {
+        "score": 0.995723843574524,
+        "rank": 5852
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染性前葡萄膜炎（虹膜炎）由細菌、病毒或真菌引起。此為 10 個適應症中機轉連結相對最合理者：殺菌機轉→感染性病因→眼前節感染。然而仍存在根本障礙：(1) 無眼科局部劑型；(2) 無任何體外眼部病原體抑制數據；(3) 需眼科標準治療（外用皮質類固醇+抗生素）。機轉合理性為 10 項中最高，但仍屬純粹推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "uveitis",
+      "txgnn": {
+        "score": 0.9953213334083556,
+        "rank": 6221
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "葡萄膜炎廣義分類，含感染性與非感染性亞型。感染性亞型與防腐殺菌機轉有間接連結，但非感染性（佔多數）無任何理論基礎。此預測為眼科 KG 群集核心節點，其子疾病（前葡萄膜炎、全葡萄膜炎等）均出現高分，強烈提示 KG 拓撲人工訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "ciliary body cancer",
+      "txgnn": {
+        "score": 0.9946451187133788,
+        "rank": 6788
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "睫狀體惡性腫瘤（多為黑色素瘤）。酚類衍生物在體外細胞模型中有某些抗增生活性（破壞細胞膜完整性），但：(1) 此機制對正常組織亦有毒性，缺乏腫瘤選擇性；(2) 無任何睫狀體癌之體外/體內研究；(3) 罕見惡性腫瘤（全球每年約 1,500 例），缺乏研究動機。癌症適應症無任何前驅數據時評為 L5。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "benign neoplasm of ciliary body",
+      "txgnn": {
+        "score": 0.9945462942123412,
+        "rank": 6875
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "睫狀體良性腫瘤（多為睫狀體上皮瘤）屬極罕見疾病，標準治療為手術切除或觀察等待。Amylmetacresol 對良性腫瘤無已知機轉，且手術為明確治療選項。此預測為 KG 中 '睫狀體' 節點連結良性與惡性腫瘤的拓撲人工訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "panuveitis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "panuveitis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "panuveitis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "iris disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "iris disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "iris disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "infectious anterior uveitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "infectious anterior uveitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "infectious anterior uveitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "uveitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "uveitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "uveitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "ciliary body cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "benign neoplasm of ciliary body"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "benign neoplasm of ciliary body"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amylmetacresol",
+        "disease": "benign neoplasm of ciliary body"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

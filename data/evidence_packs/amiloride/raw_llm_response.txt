@@ -1,0 +1,359 @@
+根據提供的資料，我將對 Amiloride (DB00594) 的各適應症進行系統性證據等級評估。
+
+---
+
+```json
+{
+  "drug": "Amiloride",
+  "drugbank_id": "DB00594",
+  "analysis_date": "2026-04-05",
+  "analyst_notes": "Amiloride 為上皮鈉離子通道（ENaC）阻斷劑，兼具 Na+/H+ 交換器抑制作用，屬保鉀利尿劑。本批次市場狀態標記為『未上市』（新加坡市場），但其藥理機轉明確，全球臨床使用經驗豐富，此背景對下列證據解讀至關重要。",
+  "indications": [
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Amiloride 透過阻斷腎小管遠端 ENaC 減少鈉再吸收，理論上可降低血壓並減輕腎臟灌注壓。惡性高血壓性腎病變若伴有繼發性醛固酮增多症，ENaC 阻斷具機轉合理性；然而惡性高血壓之急性腎損傷情境下，Amiloride 蓄積風險（腎清除率下降）反而構成安全顧慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "惡性高血壓急性期腎功能急遽惡化，藥物蓄積風險高",
+        "高鉀血症風險，在腎損傷背景下更為顯著"
+      ]
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎血管性高血壓常伴隨繼發性高醛固酮血症，導致 ENaC 過度活化及鉀離子流失。Amiloride 作為醛固酮拮抗劑替代選項（特別在 Spironolactone 不耐受時），具明確機轉支撐。PMID 12929904 探討礦物皮質素高血壓的診斷與治療策略，間接佐證 ENaC 阻斷在此類高血壓的角色。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "12929904",
+          "title": "Investigating mineralocorticoid hypertension.",
+          "year": "2003",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_note": "探討礦物皮質素高血壓之診斷流程，涵蓋 Amiloride 作為試驗性治療工具；與惡性腎血管性高血壓為間接關聯，不具特異性臨床試驗資料"
+        }
+      ],
+      "evidence_gap": "缺乏針對惡性腎血管性高血壓族群的直接 Amiloride 介入試驗"
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多因素肺動脈高壓之病理機制複雜，涉及血管重塑、內皮功能障礙等多重路徑。Amiloride 之 ENaC 阻斷對肺血管阻力的影響尚無直接文獻支持；部分研究顯示 ENaC 在肺泡液體清除中扮演角色，但對肺動脈壓力之影響屬高度推測性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "無任何臨床試驗或文獻直接支持此適應症"
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "缺氧性肺動脈高壓之核心機轉為低氧性肺血管收縮（HPV）及血管重塑，ENaC 阻斷對此機轉影響微弱。雖 ENaC 存在於肺泡上皮，參與肺泡液體清除，但現有 20 篇文獻均為缺氧生物學通論性研究（神經退化、癌症、免疫等），與 Amiloride 用於此適應症無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "缺氧與腦老化機轉綜述，與 Amiloride 用於肺高壓無直接關聯"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine.",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "缺氧作為治療手段之概念性論文，未涉及 Amiloride"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "缺氧免疫調控，與本藥無關"
+        },
+        {
+          "pmid": "34535359",
+          "title": "Therapeutic Modification of Hypoxia.",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "缺氧治療修飾策略綜述，不涉及 Amiloride"
+        },
+        {
+          "pmid": "11172576",
+          "title": "Mechanisms of hypoxemia.",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧血症病理生理機制，背景知識性文獻"
+        }
+      ],
+      "literature_quality_note": "20 篇文獻均屬缺氧生物學通論，無一直接討論 Amiloride 在缺氧性肺高壓之應用，文獻相關性評估為低度（Tier 3）"
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群為極罕見先天性發育異常（顱面異常合併智能障礙），與 Amiloride 之 ENaC/Na+H+ 交換器阻斷機轉無已知生物學連結。TxGNN 高分可能源於知識圖譜中疾病節點的結構性相似性，而非真實生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "零臨床資料；疾病機轉與藥物作用點之關聯性極低"
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "慢性肺心病（Cor Pulmonale）常伴隨右心衰竭及繼發性容量超載，Amiloride 透過 ENaC 阻斷減少腎鈉再吸收，降低前負荷。在心臟衰竭背景下，神經荷爾蒙活化（RAAS、SNS）導致 ENaC 上調，使保鉀利尿劑具有機轉合理性。PMID 2888942 為小型雙盲 RCT 直接支持 Frusemide+Amiloride 組合於輕度心衰竭之療效。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2888942",
+          "title": "Double-blind comparison of captopril alone against frusemide plus amiloride in mild heart failure.",
+          "year": "1987",
+          "study_type": "RCT (Small)",
+          "tier": 1,
+          "relevance_note": "雙盲隨機對照試驗，直接比較 Captopril vs Frusemide+Amiloride 於輕度心衰竭，具最高直接相關性；但研究年代久遠，樣本數小，且為輕度心衰竭非特定慢性肺心病族群"
+        },
+        {
+          "pmid": "1888694",
+          "title": "Amiloride improves hemodynamics in patients with chronic congestive heart failure treated with chronic diuretic therapy.",
+          "year": "1991",
+          "study_type": "Clinical Study",
+          "tier": 1,
+          "relevance_note": "直接評估 Amiloride 於慢性充血性心衰竭之血液動力學效益，顯示心輸出量改善；與慢性肺心病存在病理生理學重疊"
+        },
+        {
+          "pmid": "2831702",
+          "title": "Dose-ranging study of isosorbide-5-mononitrate in chronic congestive heart failure treated with diuretics.",
+          "year": "1988",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_note": "硝酸鹽合併利尿劑（含 Amiloride）治療心衰竭之劑量研究，間接支持 Amiloride 在心衰竭液體管理之角色"
+        },
+        {
+          "pmid": "16815890",
+          "title": "Alveolar fluid reabsorption is increased in rats with compensated heart failure.",
+          "year": "2006",
+          "study_type": "Animal Study",
+          "tier": 2,
+          "relevance_note": "大鼠代償性心衰竭模型顯示 ENaC 依賴性肺泡液體再吸收增加，提供肺-心交互作用之機轉佐證"
+        },
+        {
+          "pmid": "8615380",
+          "title": "Case report: severe hyperkalemia in a geriatric patient receiving standard doses of trimethoprim-sulfamethoxazole.",
+          "year": "1996",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "老年患者嚴重高鉀血症案例，警示 ENaC 阻斷劑（包括 Amiloride）合併 TMP-SMX 之交互作用風險，為安全性參考文獻"
+        }
+      ],
+      "guardrails": [
+        "嚴密監測血鉀（目標 < 5.0 mEq/L）",
+        "腎功能監測（eGFR < 30 應減量或停用）",
+        "避免與 ACEI/ARB/TMP-SMX 同時使用",
+        "老年患者慎用（藥物蓄積風險）"
+      ]
+    },
+    {
+      "disease_name": "acute pulmonary heart disease",
+      "txgnn_score": 0.9840,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "急性肺心病（如急性肺栓塞所致右心衰竭）之治療核心為改善右心後負荷，而非容量管理。Amiloride 之利尿作用在急性期可能有限度輔助作用，但機轉支撐薄弱。PMID 16815890 為動物實驗，研究 ENaC 在代償性心衰竭之角色，間接相關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16815890",
+          "title": "Alveolar fluid reabsorption is increased in rats with compensated heart failure.",
+          "year": "2006",
+          "study_type": "Animal Study",
+          "tier": 2,
+          "relevance_note": "大鼠模型數據，不可直接外推至急性肺心病人體情境；提供 ENaC 機轉背景"
+        }
+      ],
+      "evidence_gap": "無人體急性肺心病之直接臨床資料"
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.9206,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性遺傳性青光眼（如 MYOC、OPTN 等基因突變所致）主要機轉為小樑網細胞外基質堆積及房水流出阻力增加。雖理論上 ENaC 存在於睫狀體上皮，可能影響房水分泌，但缺乏任何臨床前或臨床證據。TxGNN 預測分數可能反映青光眼疾病節點與高血壓節點之共病關係。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "無任何臨床或實驗室支持資料"
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.8741,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "開角型青光眼之 Amiloride 機轉假說涉及 ENaC 在睫狀體上皮房水分泌之調控，但此路徑尚屬探索性。相較於已確立的 β-blockers、前列腺素類似物、碳酸酐酶抑制劑等標準治療，Amiloride 之眼壓降低證據極為有限。需注意全身性用藥可能造成低血壓，影響視神經灌流。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "無眼科適應症之臨床試驗或直接文獻；需前驅臨床前研究確認房水分泌機轉"
+    },
+    {
+      "disease_name": "chronic renal failure syndrome",
+      "txgnn_score": 0.8553,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "慢性腎衰竭常伴隨 ENaC 上調（繼發性醛固酮增多症、腎素-血管緊張素系統活化），導致鈉滯留與高血壓。Amiloride 透過遠端腎小管 ENaC 阻斷可輔助血壓及鈉平衡控制。然而，腎功能不全導致 Amiloride 藥物蓄積（主要由腎臟排除），使高鉀血症風險顯著增加，此為主要安全限制。NCT02832973（Phase 4）探討序列性腎元阻斷（含 ENaC 阻斷步驟）用於頑固性高血壓合併腎病，提供有限但直接的臨床支撐。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02832973",
+          "title": "Resistant Hypertension On Treatment - Sequential Nephron Blockade Compared to Dual Blockade of the RAAS",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 72,
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 完成試驗，序列性腎元阻斷策略通常包含 Amiloride 作為 ENaC 阻斷劑步驟，直接評估於腎病合併頑固性高血壓族群；樣本數（n=72）中等，結果已完成但需查閱全文確認 Amiloride 為主要介入藥物"
+        },
+        {
+          "nct_id": "NCT02824718",
+          "title": "Randomized Crossover Trial to Compare rhPTH(1-34) to Alfacalcidol Association",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 16,
+          "relevance_grade": "C",
+          "reasoning": "研究重點為慢性腎病之維生素D與副甲狀腺素管理，Amiloride 若有出現亦為背景用藥，非主要研究藥物；樣本數極小（n=16），與本適應症評估直接相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3987787",
+          "title": "Limitation on the use of amiloride in early renal failure.",
+          "year": "1985",
+          "study_type": "Clinical Study",
+          "tier": 1,
+          "relevance_note": "直接評估早期腎衰竭使用 Amiloride 之限制，為關鍵安全性文獻，指出藥物蓄積與高鉀風險"
+        },
+        {
+          "pmid": "7356897",
+          "title": "Amiloride handling in renal failure.",
+          "year": "1980",
+          "study_type": "Pharmacokinetic Study",
+          "tier": 1,
+          "relevance_note": "腎衰竭患者 Amiloride 藥物動力學研究，顯示清除率顯著降低及蓄積效應，為劑量調整之重要依據"
+        },
+        {
+          "pmid": "3428342",
+          "title": "Pharmacokinetics of amiloride in renal and hepatic disease.",
+          "year": "1987",
+          "study_type": "Pharmacokinetic Study",
+          "tier": 1,
+          "relevance_note": "腎臟與肝臟疾病中 Amiloride 藥動學，提供腎衰竭劑量調整之量化依據"
+        },
+        {
+          "pmid": "10207256",
+          "title": "Diuretics in renal failure.",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": 1,
+          "relevance_note": "腎衰竭利尿劑使用綜合評估，討論 Amiloride 在此情境之適用性與禁忌"
+        },
+        {
+          "pmid": "25016400",
+          "title": "Comparison of agents that affect aldosterone action.",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_note": "醛固酮拮抗劑與 ENaC 阻斷劑比較，涵蓋 Amiloride 在腎臟適應症之定位"
+        },
+        {
+          "pmid": "21159737",
+          "title": "Increased renal ENaC subunits and sodium retention in rats with chronic heart failure.",
+          "year": "2011",
+          "study_type": "Animal Study",
+          "tier": 2,
+          "relevance_note": "大鼠慢性心衰竭模型中 ENaC 上調佐證，提供腎衰竭合併鈉滯留之機轉連結"
+        },
+        {
+          "pmid": "20004292",
+          "title": "Chronic renal complications induced by lithium.",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_note": "鋰鹽誘發慢性腎病，Amiloride 為鋰鹽性腎源性尿崩症之首選治療，間接支持 ENaC 阻斷在特定腎病情境之有效性"
+        }
+      ],
+      "guardrails": [
+        "eGFR < 30 mL/min/1.73m²：禁忌或極謹慎使用，需密集監測",
+        "eGFR 30-60：減量 50%，每週監測血鉀及腎功能",
+        "絕對禁忌：血鉀 > 5.5 mEq/L",
+        "避免合併 ACEI、ARB、保鉀利尿劑、直接腎素抑制劑",
+        "TMP-SMX 合併使用需特別警示（協同高鉀風險）",
+        "建議在腎臟科監督下使用"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "high_priority_indications": [
+      {
+        "disease": "chronic pulmonary heart disease",
+        "rationale": "有直接小型 RCT 支持（PMID 2888942, 1888694），機轉明確，可在嚴密監控下推進臨床可行性評估"
+      },
+      {
+        "disease": "chronic renal failure syndrome",
+        "rationale": "有 Phase 4 完成試驗（NCT02832973）及多篇藥動學安全文獻，但高鉀血症與藥物蓄積構成顯著安全限制，需謹慎推進"
+      }
+    ],
+    "research_question_indications": [
+      "malignant renovascular hypertension（L4，具礦物皮質素機轉連結）",
+      "acute pulmonary heart disease（L4，需人體臨床前驅研究）"
+    ],
+    "hold_indications": [
+      "malignant hypertensive renal disease（L5，安全顧慮大於潛在效益）",
+      "pulmonary hypertension with unclear multifactorial mechanism（L5，無任何臨床資料）",
+      "pulmonary hypertension owing to lung disease and/or hypoxia（L5，文獻不相關）",
+      "Braddock syndrome（L5，無生物學連結）",
+      "primary hereditary glaucoma（L5，無任何資料）",
+      "open-angle glaucoma（L5，需先建立前驅臨床前證據）"
+    ],
+    "key_safety_concern": "Amiloride 主要經腎臟排除（約 50% 以原形由尿液排出），腎功能損害時蓄積效應顯著增加高鉀血症風險，此安全特性在所有腎臟疾病適應症評估中均需列為首要考量"
+  }
+}
+```
+
+---
+
+## 評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| malignant hypertensive renal disease | **L5** | S0 | ⛔ Hold |
+| malignant renovascular hypertension | **L4** | S1 | 🔬 Research Question |
+| pulmonary hypertension (multifactorial) | **L5** | S0 | ⛔ Hold |
+| pulmonary hypertension (hypoxia) | **L5** | S0 | ⛔ Hold |
+| Braddock syndrome | **L5** | S0 | ⛔ Hold |
+| **chronic pulmonary heart disease** | **L3** | S2 | ✅ Proceed with Guardrails |
+| acute pulmonary heart disease | **L4** | S1 | 🔬 Research Question |
+| primary hereditary glaucoma | **L5** | S0 | ⛔ Hold |
+| open-angle glaucoma | **L5** | S0 | ⛔ Hold |
+| **chronic renal failure syndrome** | **L3** | S2 | ✅ Proceed with Guardrails* |
+
+> ⚠️ *慢性腎衰竭之「Proceed with Guardrails」需特別強調：現有藥動學文獻（PMID 3987787, 7356897）明確記錄藥物蓄積風險，eGFR < 30 應視為禁忌，臨床推進需在腎臟科嚴格監督下進行。

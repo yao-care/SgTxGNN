@@ -1,0 +1,298 @@
+```json
+{
+  "drug": "Abiraterone",
+  "drugbank_id": "DB05812",
+  "analysis_date": "2026-04-03",
+  "data_quality_notes": [
+    "⚠️ 原始適應症欄位為空：Abiraterone acetate (Zytiga) 實際已核准用於去勢抵抗性前列腺癌 (mCRPC)，資料集存在嚴重缺口",
+    "⚠️ MoA 標記 [Data Gap]：實際為 CYP17A1 抑制劑（17α-hydroxylase/C17,20-lyase），阻斷腎上腺、睾丸及前列腺腫瘤的雄激素生合成",
+    "⚠️ 市場狀態標記「未上市」疑為當地資料缺口，需向 HSA/Singapore 確認",
+    "⚠️ DDI=0 不符現實（Abiraterone 與 CYP2D6/CYP3A4 底物有已知交互作用）"
+  ],
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9881,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偏頭痛受性荷爾蒙影響（月經性偏頭痛），雌雄激素波動影響三叉神經血管系統興奮性。CYP17A1 抑制降低雄激素及其前驅物，理論上可改變荷爾蒙平衡，但此為高度推測性連結，缺乏直接藥理學機轉依據及任何臨床前/臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["僅 TxGNN AI 預測，無臨床試驗、無文獻佐證"]
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9875,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同上述偏頭痛機轉。易感性基因（CACNA1A, SCN1A, KCNK18）主要調控離子通道，與 CYP17A1 信號通路無已知直接交集。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "探討癲癇與偏頭痛共同遺傳分子機轉（SCN1A, CACNA1A），未提及 Abiraterone"
+        },
+        {
+          "pmid": "17460155",
+          "study_type": "Linkage Analysis",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "家族性枕顳葉癲癇合併視覺先兆偏頭痛的染色體 9q 連鎖，無 Abiraterone 相關"
+        },
+        {
+          "pmid": "34209535",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "神經炎症與癲癇，與偏頭痛/Abiraterone 無直接關聯"
+        },
+        {
+          "pmid": "34575901",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "抗癲癇藥物分子靶點研究，非偏頭痛亦非 Abiraterone"
+        },
+        {
+          "pmid": "30267335",
+          "study_type": "Meta-Analysis",
+          "tier": "2",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "MTHFR C677T 多型性與癲癇易感性，非偏頭痛或 Abiraterone"
+        },
+        {
+          "pmid": "22266888",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "癲癇遺傳學，非偏頭痛或 Abiraterone"
+        },
+        {
+          "pmid": "22938964",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "癲癇動物模型，非偏頭痛或 Abiraterone"
+        },
+        {
+          "pmid": "21269290",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "癲癇細胞遺傳學，非偏頭痛或 Abiraterone"
+        },
+        {
+          "pmid": "19935934",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "心因性非癲癇性發作，非偏頭痛或 Abiraterone"
+        },
+        {
+          "pmid": "16201993",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "受體重排機制，與 Abiraterone MoA 無關"
+        }
+      ],
+      "flags": [
+        "🚨 20篇文獻全部為偽陽性命中：均為癲癇遺傳學/癲癇-偏頭痛遺傳重疊研究，無一涉及 Abiraterone",
+        "文獻計數（20）嚴重誤導，實際有效證據 = 0"
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9861,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹先兆偏頭痛（舊稱基底型偏頭痛）病理涉及 CACNA1A/ATP1A2 通道病變及後循環皮質擴散抑制。CYP17A1 抑制與腦幹神經血管機能調控無已建立連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["僅 TxGNN AI 預測，無任何臨床或文獻佐證"]
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9858,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麻風病由 Mycobacterium leprae 感染引起，主要透過免疫逃脫（抑制 TLR 信號）侵犯周邊神經及皮膚巨噬細胞。雄激素具有免疫抑制特性，CYP17A1 抑制降低雄激素理論上可增強 Th1 免疫應答，但此推論鏈過於薄弱，無任何臨床前資料支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["僅 TxGNN AI 預測，機轉連結高度推測性，無任何佐證"]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9836,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PAH 具有顯著性別差異（女性發病率高 2-4 倍但男性預後較差），提示性荷爾蒙在肺血管重塑中的複雜角色。CYP17A1 下游代謝物 DHEA 曾被 Phase 2 試驗研究用於 PAH（NCT01266863，非本資料集），雄激素受體信號可能調控肺動脈平滑肌細胞增殖。然而，本資料集中所提供之 1 項臨床試驗及 5 篇文獻均為前列腺癌研究（偽陽性），PAH 特定證據需獨立檢索驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01961843",
+          "relevance_grade": "C",
+          "reasoning": "循環腫瘤細胞預測性生物標記研究（前列腺癌），Phase N/A，n=40，已完成。與肺動脈高壓完全無關，為偽陽性命中。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34953525",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "Abiraterone + prednisolone ± enzalutamide 用於高風險非轉移性前列腺癌（STAMPEDE），非肺高壓"
+        },
+        {
+          "pmid": "34600602",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "Apalutamide + abiraterone 用於轉移性前列腺癌，非肺高壓"
+        },
+        {
+          "pmid": "35690072",
+          "study_type": "Phase 2 RCT",
+          "tier": "2",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "Cabozantinib + atezolizumab 用於 mCRPC，非肺高壓"
+        },
+        {
+          "pmid": "29248236",
+          "study_type": "Phase 2 RCT",
+          "tier": "2",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "雙極雄激素療法（BAT）用於 enzalutamide 進展後的 mCRPC，非肺高壓"
+        },
+        {
+          "pmid": "33869068",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance_to_indication": "❌ 偽陽性",
+          "note": "血管緊張素系統抑制劑於 mCRPC 預後改善分析，非肺高壓"
+        }
+      ],
+      "flags": [
+        "🚨 所有臨床試驗及文獻均為前列腺癌研究，疑為偽陽性命中",
+        "💡 PAH 機轉假說具備一定生物合理性（DHEA-PAH axis），建議獨立系統搜索 PubMed/ClinicalTrials.gov",
+        "⚠️ 安全性考量：Abiraterone 需合併皮質類固醇，可能影響 PAH 的病程評估"
+      ]
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn_score": 0.9823,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2 基因功能獲得性突變引起（Arg137Cys/Leu），導致構成性精胺酸加壓素受體 V2 活化，引起不適當的水分再吸收。CYP17A1 與 AVP 受體信號通路之間無已知分子交集，機轉連結不明確。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["僅 TxGNN AI 預測，疾病病理與 Abiraterone MoA 無明顯生物連結"]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9813,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向機轉警示：雄激素（DHEA、睾酮）具有抑制 Th1/Th17 炎症的免疫調節作用，RA 患者雄激素水平通常偏低。Abiraterone 進一步降低雄激素水平，理論上可能加重而非改善 RA 的炎症狀態——此為負向機轉信號，建議安全性評估列為優先考量。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "🔴 機轉分析提示潛在反向效應：降低雄激素可能惡化 RA 免疫失調",
+        "僅 TxGNN AI 預測，無任何臨床或文獻佐證"
+      ]
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9811,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後側彎性心臟病主要由胸廓畸形所致的機械性限制性通氣功能障礙及繼發性肺高壓引起，屬結構性/機械性病理。Abiraterone 雄激素抑制對此機械性疾病機轉無已知直接干預能力。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["僅 TxGNN AI 預測，機轉連結不合理（結構性疾病 vs. 荷爾蒙干預）"]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.9766,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蟲蝕狀皮膚萎縮為稀有毛囊性角化症（follicular keratosis），部分與 FGFR2 突變相關。雄激素調控皮脂腺分泌，CYP17A1 抑制可間接影響皮膚代謝，但此連結高度推測，且 Abiraterone 副作用（皮質醇前驅物累積）可能另有皮膚毒性風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["稀有皮膚病，僅 TxGNN AI 預測，無任何臨床或文獻佐證"]
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn_score": 0.9753,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉毛萎縮性紅斑（ulerythema ophryogenesis）為罕見毛囊性角化紅斑症，常見於 Noonan 綜合症及心臉皮膚綜合症（RAS/MAPK 信號通路突變），部分散發性病例機轉不明。RAS-MAPK 通路與 CYP17A1 雄激素合成軸無已知直接連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "極稀有疾病（全球報告案例極少），僅 TxGNN AI 預測",
+        "機轉無合理連結，建議排除優先順序"
+      ]
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_stage_distribution": {
+      "S3_Proceed": 0,
+      "S2_Clinical_Feasibility": 0,
+      "S1_Safety": 0,
+      "S0_Insufficient": 10
+    },
+    "recommendation_distribution": {
+      "Proceed_with_Guardrails": 0,
+      "Research_Question": 1,
+      "Hold": 9
+    },
+    "critical_findings": [
+      "🚨 資料品質警示：原始適應症/MoA/市場狀態/DDI 欄位均存在資料缺口，需先修正基礎資料",
+      "🚨 偽陽性文獻警示：migraine with aura（20篇全為癲癇研究）及 pulmonary hypertension（5篇全為前列腺癌研究）的文獻計數嚴重誤導",
+      "💡 唯一具生物合理性候選：pulmonary hypertension（DHEA-PAH 軸，性荷爾蒙-肺血管生物學），建議進行獨立系統性文獻回顧",
+      "🔴 安全性反向信號：rheumatoid arthritis——降低雄激素可能加重免疫失調，此適應症應主動排除",
+      "📊 TxGNN 高分（>0.97）反映知識圖譜結構相似性，非臨床有效性，不應作為臨床決策依據"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 核心問題：資料品質嚴重影響評估可靠性
+
+| 欄位 | 資料狀態 | 影響 |
+|------|----------|------|
+| 原始適應症 | 空白（實際為 mCRPC） | 無法建立比較基準 |
+| 作用機轉 | [Data Gap]（實際為 CYP17A1 抑制） | 機轉推斷須依賴外部知識 |
+| 市場狀態 | 未上市（疑為誤） | 安全性資料無法評估 |
+| 文獻命中 | 大量偽陽性 | 25/25 篇文獻均非直接相關 |
+
+### 優先後續行動
+
+1. **pulmonary hypertension**（唯一 Research Question）：搜索 DHEA 與 PAH 的臨床前/Phase 1-2 資料，確認獨立文獻是否支撐進入 S1
+2. **資料修正**：補全 Abiraterone 核准適應症（mCRPC）及 MoA 欄位，確保後續評估基礎準確
+3. **排除評估**：rheumatoid arthritis 因反向機轉信號，建議主動降低優先級

@@ -1,0 +1,280 @@
+## Indomethacin (DB00328) 藥物再利用證據分析
+
+> ⚠️ **資料品質警示**：輸入資料存在重大缺口——`market_status: 未上市`、`ddi_count: 0`、`original_indications: []` 均與已知事實不符。Indomethacin 是全球廣泛使用的 NSAID（COX-1/COX-2 抑制劑），具有大量臨床使用歷史。以下分析以藥理學實際知識補充資料缺口。
+
+---
+
+```json
+{
+  "drug": "Indomethacin",
+  "drugbank_id": "DB00328",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "market_status '未上市' 疑為新加坡在地資料缺口，非全球現況",
+    "ddi_count=0 與已知 DDI 不符（實際 >50 種交互作用）",
+    "original_indications=[] 資料缺失，實際適應症包含 RA/AS/痛風/OA",
+    "actual_moa: COX-1/COX-2 非選擇性抑制劑，減少前列腺素合成"
+  ],
+  "indications": [
+    {
+      "disease_name": "juvenile idiopathic arthritis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Indomethacin 透過抑制 COX-1/COX-2 降低 PGE2 合成，直接抑制滑膜炎症反應與關節腫脹。JIA 的病理核心為促炎性前列腺素驅動的滑膜增生，與 NSAID 機轉高度吻合。歷史上 Indomethacin 為 JIA/JRA 標準療法之一，尤其在生物製劑問世前廣泛使用。",
+      "clinical_notes": "PMID 362571（1978）為雙盲 RCT，直接比較 ketoprofen 與 indomethacin 於 JCA 療效；雖年代久遠，仍屬直接 RCT 級別證據。需注意 Indomethacin 於兒科族群之副作用（GI/腎毒性）監控需求。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "362571",
+          "study_type": "Double-blind RCT",
+          "year": "1978",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "直接比較 Indomethacin vs Ketoprofen 於幼年型慢性關節炎（JCA）的雙盲對照試驗，為本分析中唯一直接 RCT 證據，奠定 L2 評級基礎"
+        },
+        {
+          "pmid": "28418334",
+          "study_type": "Review",
+          "year": "2017",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "2017 年 JIA 現代綜述，可確認當前診療指引中 NSAID 角色；若文中引用 Indomethacin 則強化適用性"
+        },
+        {
+          "pmid": "1379157",
+          "study_type": "Review",
+          "year": "1992",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "JRA 藥物管理綜述，1992 年時 Indomethacin 仍為一線選項，提供歷史使用脈絡"
+        },
+        {
+          "pmid": "22573189",
+          "study_type": "Review/Cohort",
+          "year": "2012",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "聚焦全身型 JIA 病程演變，NSAID 作為對照基礎療法，間接支持 Indomethacin 的歷史角色"
+        },
+        {
+          "pmid": "23312448",
+          "study_type": "Research Article",
+          "year": "2013",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "間充質基質細胞研究，與 Indomethacin 直接關聯性低，但提供 JIA 免疫病理背景"
+        },
+        {
+          "pmid": "28086918",
+          "study_type": "Cohort",
+          "year": "2017",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "單關節型 JIA 非典型表現研究，間接說明疾病異質性，影響 NSAID 適用族群定義"
+        },
+        {
+          "pmid": "7417361",
+          "study_type": "Comparative Cohort",
+          "year": "1980",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "美蘇 JRA 患者比較研究，可能含治療差異分析"
+        },
+        {
+          "pmid": "4610493",
+          "study_type": "Review",
+          "year": "1974",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "1974 年 JRA 綜述，歷史參考價值，方法學不符現代標準"
+        },
+        {
+          "pmid": "4177403",
+          "study_type": "Review",
+          "year": "1968",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "強直性脊椎炎文章（1968），與 JIA 適應症關聯性低，提供類風濕疾病背景"
+        },
+        {
+          "pmid": "22472933",
+          "study_type": "Case Report",
+          "year": "2011",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "JIA 合併乳糜瀉個案報告，疾病共病資訊，與 Indomethacin 無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "RF+ 多關節型 JIA 為 JIA 最具侵蝕性亞型，病理上與成人 RA 相似，均為 FcγR 介導的免疫複合體沉積引發滑膜炎。Indomethacin 的 COX 抑制機轉可緩解急性炎症，但對 RF+ 亞型的長期骨蝕進展療效尚無直接研究。此適應症的證據完全依賴一般 JIA 文獻的外推。",
+      "clinical_notes": "RF+ 亞型需更積極使用 DMARDs/生物製劑，NSAID 僅為橋接/症狀控制角色。需安全性評估（GI 保護、腎功能監測）再決定可行性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rheumatoid nodulosis",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "類風濕結節由慢性肉芽腫反應（活化的巨噬細胞、纖維母細胞）組成，PGE2 參與肉芽腫維持。Indomethacin 抑制 COX → 降低 PGE2 → 理論上可抑制肉芽腫形成。然而有悖論性證據：部分 MTX 治療患者出現結節加速形成（accelerated nodulosis），NSAID 的實際影響方向尚不明確。",
+      "clinical_notes": "Rheumatoid nodulosis 為獨特亞型（結節多但關節炎輕微），臨床意義有爭議。現有文獻均為 >35 年前資料。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3278840",
+          "study_type": "Review",
+          "year": "1988",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "脊椎關節炎治療實踐綜述，可能涵蓋 Indomethacin 於類風濕結節的使用描述，提供最強間接支持"
+        },
+        {
+          "pmid": "4384434",
+          "study_type": "Case Report/Series",
+          "year": "1968",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "RA 合併類風濕結節與過敏性肉芽腫個案，歷史病例描述，方法學極為薄弱"
+        },
+        {
+          "pmid": "6020827",
+          "study_type": "Case Report",
+          "year": "1967",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "RA 肺部結節個案報告（1967），年代久遠，對現代臨床決策參考價值極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌硬化症（myosclerosis）為罕見纖維化肌肉疾病，病理為漸進性肌肉纖維替換。Indomethacin 的抗炎機轉理論上可減緩炎症驅動的纖維化初期，但無任何臨床數據支持。TxGNN 分數高（0.9986）可能反映知識圖譜中 COX 抑制劑與肌肉炎症節點的網路接近性，非真實臨床效果預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "WHIM syndrome",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "WHIM 症候群由 CXCR4 功能增益突變導致，特徵為骨髓中性球滯留（myelokathexis）。Indomethacin 可影響中性球趨化性（減少 LTB4 介導的移行），理論上可能改善外周中性球計數，但此機轉與 CXCR4/CXCL12 軸無直接關聯。目前有 Plerixafor（CXCR4 拮抗劑）的直接靶向治療，NSAID 再利用科學依據極弱。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brachyolmia 為脊椎骨發育異常（TRPV4/PAPSS2/SLC26A2 等基因突變），屬結構性骨骼發育不全。前列腺素在骨骼發育中有調控作用，COX 抑制劑在動物模型中可影響骨形成，但對基因驅動的骨骼形態異常無矯正機轉。高 TxGNN 分數可能源於疾病節點在 KG 中與炎症/骨代謝路徑的拓撲接近性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群結合骨骼與牙釉質發育缺陷（FAM20A 基因相關），屬發育性疾病而非炎症疾病。Indomethacin 無針對牙釉質形成或 FAM20A 路徑的已知機轉。純 KG 拓撲預測，無生物學合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brachydactyly-syndactyly 為先天性肢體發育異常（GJA1/HOXD13 等基因相關），屬胚胎發育缺陷。COX 抑制劑對已形成的先天性結構異常無治療潛力。極高 TxGNN 分數（0.9997）可能因為此類罕見疾病在 KG 中樣本數少，模型偏差所致，不代表真實臨床可行性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此極罕見症候群結合眼部發育缺陷（coloboma/microphthalmia）與短肢骨發育異常，為先天性結構發育異常。Indomethacin 無已知作用機轉可矯正此類發育缺陷。高 TxGNN 分數同樣反映罕見疾病 KG 節點的模型不確定性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症由 GDF5（BMP 家族）基因突變導致中段肢體短小。理論上 COX 抑制劑可調節 BMP 下游訊號（PGE2 與 BMP 有交互作用），但此機轉高度間接且缺乏任何臨床前驗證數據。屬純假說層次。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "by_evidence_level": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 2,
+      "L5": 7
+    },
+    "by_decision_stage": {
+      "S0_Hold": 7,
+      "S1_Safety_Assessment": 2,
+      "S2_Clinical_Feasibility": 1,
+      "S3_Recommendable": 0
+    },
+    "key_finding": "Indomethacin 在所有預測適應症中，僅 JIA（juvenile idiopathic arthritis）達到 L2/S2 等級，具備 1978 年雙盲 RCT 直接支持。70% 的適應症為罕見發育性疾病，缺乏任何臨床支持，高 TxGNN 分數反映 KG 拓撲接近性而非臨床可行性。",
+    "priority_next_steps": [
+      "JIA: 確認現代指引中 Indomethacin 的當前角色（已可能被 Naproxen/生物製劑取代），評估在低所得市場的成本效益定位",
+      "RF+ polyarticular JIA & rheumatoid nodulosis: 進行系統性文獻回顧後再決定是否升級至 S2",
+      "罕見骨骼發育疾病群（7個）: 暫停追蹤，除非有機轉研究新發現"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **juvenile idiopathic arthritis** | 0.9984 | **L2** ✅ | **S2** | **Proceed with Guardrails** |
+| rheumatoid factor-positive polyarticular JIA | 0.9984 | L4 | S1 | Research Question |
+| rheumatoid nodulosis | 0.9983 | L4 | S1 | Research Question |
+| myosclerosis | 0.9986 | L5 | S0 | Hold |
+| WHIM syndrome | 0.9988 | L5 | S0 | Hold |
+| brachyolmia | 0.9987 | L5 | S0 | Hold |
+| brachyolmia-amelogenesis imperfecta | 0.9987 | L5 | S0 | Hold |
+| brachydactyly-syndactyly syndrome | 0.9997 | L5 | S0 | Hold |
+| colobomatous microphthalmia-rhizomelic dysplasia | 0.9997 | L5 | S0 | Hold |
+| acromesomelic dysplasia, Hunter-Thompson type | 0.9989 | L5 | S0 | Hold |
+
+## 🔍 關鍵分析洞察
+
+### 1. TxGNN 分數與臨床證據的落差
+本案例清楚展示 **KG 預測分數無法代替臨床證據**——7 個罕見骨骼發育疾病的分數（0.9986-0.9997）甚至高於有 RCT 支持的 JIA（0.9984）。高分反映的是知識圖譜中疾病節點與 Indomethacin 靶點的**拓撲距離**，而非生物學可行性。
+
+### 2. 資料缺口的實際影響
+`market_status: 未上市` 等資料缺口會導致系統低估 Indomethacin 的再利用潛力。實際上此藥在多國有完整安全性數據，應在後續分析中補充真實 DDI（主要：抗凝血劑、鋰鹽、利尿劑）與禁忌症資料。
+
+### 3. JIA 的歷史定位與現代考量
+雖達 L2/S2，但需考量：現代 JIA 指引已優先 Naproxen（更佳兒科安全性）、MTX、及 IL-6/TNF 生物製劑。Indomethacin 的再利用價值可能在**醫療資源受限市場**或**特定亞型（全身型 JIA 發燒控制）**更為突出。

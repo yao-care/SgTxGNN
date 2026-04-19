@@ -1,0 +1,1434 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01241-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gemfibrozil",
+    "drugbank_id": "DB01241",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9990254640579224,
+        "rank": 1942
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18039017",
+            "title": "Palmar erythema.",
+            "authors": [
+              "Serrao Rocco",
+              "Zirwas Matthew",
+              "English Joseph C"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2007",
+            "abstract": "Palmar erythema (PE), an often overlooked physical finding, is due to several physiologic or systemic pathologic states. PE can exist as a primary physiologic finding or as a secondary marker of systemic pathology. Primary or physiologic PE can be due to heredity, occurs in at least 30% of pregnant women as a result of associated alterations in the function of the skin and its microvasculature, or may be a diagnosis of exclusion (i.e. idiopathic PE). Secondary PE from systemic pathology encompas",
+            "classification": {
+              "study_type": "Review/Case",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30074417",
+            "title": "Combined gemfibrozil (peroxisome proliferator-activated receptor alpha agonist) with reduced steroid dose gives a similar management picture as the full steroid dose in a rat adjuvant-induced arthritis model.",
+            "authors": [
+              "Ashour Hend",
+              "Rashed Laila Ahmed",
+              "El-Sebaie Mohamed Mahmoud",
+              "Sabry Marwa Mohammed",
+              "Abdelmohsen Manal Ali"
+            ],
+            "journal": "Modern rheumatology",
+            "year": "2019",
+            "abstract": "Objectives: The study aimed to evaluate the efficacy of combined gemfibrozil with prednisolone in the management of adjuvant-induced arthritis (AIA) rat model. Methods: Seventy two adult male Wistar albino rats were divided equally into 1-control group, three diseased groups: 2- Adjuvant induced arthritis (AIA), 3- high fat diet (HF), and 4- combined AIA-HF, and treated groups: 5- gemfibrozil 30 mg/kg treated AIA group (AIA-G) and the combined AIA-HF treated groups: 6- prednisolone equivalent to",
+            "classification": {
+              "study_type": "Clinical Study（待確認類型）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41207105",
+            "title": "Bezafibrate, a Pan PPAR agonist, attenuates experimental rheumatoid arthritis via PPAR dependent modulation of inflammatory pathways with emphasis on PPAR γ activity.",
+            "authors": [
+              "Singh Alpana",
+              "Chaudhary Rishabh",
+              "Agarwal Vipul",
+              "Kumar Anand",
+              "Chaudhary Divya"
+            ],
+            "journal": "International immunopharmacology",
+            "year": "2026",
+            "abstract": "Peroxisome proliferator-activated receptor gamma (PPAR-γ) plays a key role in immunoregulatory functions, making it a promising target for distinct inflammatory diseases, including rheumatoid arthritis. In the present study, we aimed to identify and evaluate a clinically viable PPAR-γ agonist with anti-arthritic potential using a structure-based drug repurposing approach. Initially, molecular docking was performed using a panel of fibrate-class compounds (including pemafibrate, bezafibrate, feno",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20083653",
+            "title": "Myelin basic protein priming reduces the expression of Foxp3 in T cells via nitric oxide.",
+            "authors": [
+              "Brahmachari Saurav",
+              "Pahan Kalipada"
+            ],
+            "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+            "year": "2010",
+            "abstract": "Regulatory T cells (Tregs) play a vital role in autoimmune disorders. Among several markers, forkhead box p3 (Foxp3) is the most specific with regard to Treg activity. Therefore, understanding mechanisms that regulate Foxp3 expression is a critical step for unraveling the complicacy of autoimmune pathophysiology. The present study was undertaken to investigate the crosstalk between NO and Tregs. Interestingly, after myelin basic protein (MBP) priming, the expression of Foxp3 decreased in MBP-pri",
+            "classification": {
+              "study_type": "Mechanistic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PPARα 激活可抑制 NF-κB 信號，降低 TNF-α、IL-6、IL-1β 等促炎細胞激素。Gemfibrozil 作為 PPARα agonist，可能透過此免疫調節機轉減輕類風濕性關節炎的關節炎症。此外，PPARα 活化與 Foxp3+ Treg 細胞功能有關，可能調節自體免疫反應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn": {
+        "score": 0.998349666595459,
+        "rank": 2960
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MEN（多發性內分泌腫瘤）為 MEN1/RET 基因突變相關的腫瘤症候群，與 PPARα 訊號通路無已知直接機轉關聯。高 TxGNN 分數可能反映知識圖譜中「藥物→代謝→腫瘤」的間接拓撲連結，而非真實機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "HIV infectious disease",
+      "txgnn": {
+        "score": 0.9980009198188782,
+        "rank": 3406
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01148004",
+            "title": "The Influence of Ritonavir, Alone and in Combination With Lopinavir, on Fenofibric Acid Pharmacokinetics in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2010-05-13",
+            "completion_date": "2013-07-29",
+            "brief_summary": "Background:\n\n\\- Patients infected with the human immunodeficiency virus (HIV) are often treated with protease inhibitors that help fight HIV infection. However, these medications often increase blood cholesterol levels, particularly triglycerides and low-density lipoproteins, and can lead to heart disease and other problems. Patients may take drugs known as fibrates (such as gemfibrozil (Lopid )) to lower triglyceride levels, but even with maximum approved doses patients often cannot reach goal ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究對象為 Fenofibrate（同類藥物），非 Gemfibrozil；間接提供 fibrate 類於 HIV 患者的 DDI 參考"
+            }
+          },
+          {
+            "nct_id": "NCT00039663",
+            "title": "Endothelial Dysfunction as a Risk Factor in HIV Study",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 75,
+            "start_date": "2002-05",
+            "completion_date": "2005-10",
+            "brief_summary": "Highly active antiretroviral therapy (HAART) has proven effective in altering the natural history of HIV infection in many patients. However, this therapy may not be sustainable because of the toxicities of the medications. Evidence suggests that HIV-infected patients on HAART may be at risk for premature coronary artery disease. The exact cause is unknown. It is possible that the medications directly affect the endothelium (the lining of the arteries that supply blood to the heart) and lead to ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性研究，評估 HIV 患者心血管風險因子，未直接評估 Gemfibrozil 療效"
+            }
+          },
+          {
+            "nct_id": "NCT00474201",
+            "title": "The Influence of Lopinavir/Ritonavir on Gemfibrozil Pharmacokinetics in Healthy Volunteers",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2007-05",
+            "completion_date": "2008-07",
+            "brief_summary": "This study will determine whether the protease inhibitor lopinavir/ ritonavir (Kaletra (Trademark)), which is used to treat HIV disease, lowers blood levels of the lipid-regulating drug gemfibrozil (Lopid (Trademark)) in HIV-negative healthy volunteers. Many patients with HIV infection who take protease inhibitors have abnormally high lipids (cholesterol and triglycerides). Gemfibrozil, commonly used to treat high triglycerides, often is not effective in HIV-infected patients taking protease inh",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "DDI 研究，提供 Gemfibrozil 在 HIV 患者用藥安全性與 PK 數據，但非療效試驗"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23892238",
+            "title": "Comparative effectiveness of fish oil versus fenofibrate, gemfibrozil, and atorvastatin on lowering triglyceride levels among HIV-infected patients in routine clinical care.",
+            "authors": [
+              "Muñoz Monica A",
+              "Liu Wei",
+              "Delaney Joseph A C",
+              "Brown Elizabeth",
+              "Mugavero Michael J"
+            ],
+            "journal": "Journal of acquired immune deficiency syndromes (1999)",
+            "year": "2013",
+            "abstract": "The goal of this study was to compare the effectiveness of fish oil, fenofibrate, gemfibrozil, and atorvastatin on reducing triglyceride (TG) levels among a large cohort of HIV-infected patients in clinical care.",
+            "classification": {
+              "study_type": "Comparative Effectiveness Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14727985",
+            "title": "Management of protease inhibitor-associated hyperlipidemia.",
+            "authors": [
+              "Penzak Scott R",
+              "Chuck Susan K"
+            ],
+            "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+            "year": "2002",
+            "abstract": "Dyslipidemia, characterized by elevated serum levels of triglycerides and reduced levels of total cholesterol, low-density lipoprotein-cholesterol (LDL-C) and high-density lipoprotein-cholesterol, has been recognized in patients with human immunodeficiency virus (HIV) infection. It is thought that elevated levels of circulating cytokines, such as tumor necrosis factor-alpha and interferon-alpha, may alter lipid metabolism in patients with HIV infection. Protease inhibitors, such as saquinavir, i",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10826894",
+            "title": "Hyperlipidemia associated with HIV protease inhibitor use: pathophysiology, prevalence, risk factors and treatment.",
+            "authors": [
+              "Penzak S R",
+              "Chuck S K"
+            ],
+            "journal": "Scandinavian journal of infectious diseases",
+            "year": "2000",
+            "abstract": "Despite potent antiretroviral activity, the HIV-1 protease inhibitors have recently been associated with abnormal serum lipoprotein concentrations. The purpose of this review is to describe serum lipid abnormalities related to protease inhibitor use. A MEDLINE search up to June 1, 1999, and abstracts from recent scientific meetings were primary data sources. Lipid disturbances in HIV-infected patients receiving protease inhibitors generally consist of elevated triglycerides and total cholesterol",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15535403",
+            "title": "Management of dyslipidaemia in HIV-infected patients receiving antiretroviral therapy.",
+            "authors": [
+              "Martínez Esteban",
+              "Tuset Montserrat",
+              "Milinkovic Ana",
+              "Miró José M",
+              "Gatell José M"
+            ],
+            "journal": "Antiviral therapy",
+            "year": "2004",
+            "abstract": "Dyslipidaemia associated with the treatment of HIV infection, particularly with the use of protease inhibitors (PIs), can raise cholesterol and triglyceride (TG) levels to the thresholds indicated for intervention. Recent evidence from epidemiological studies has shown that there are correlations between antiretroviral drug use and increased risks for, and incidences of, cardiovascular disease, including myocardial infarction and coronary heart disease. The primary goals of dyslipidaemia therapy",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30526249",
+            "title": "Trends in Utilization of Statin Therapy and Contraindicated Statin Use in HIV--Infected Adults Treated With Antiretroviral Therapy From 2007 Through 2015.",
+            "authors": [
+              "Rosenson Robert S",
+              "Colantonio Lisandro D",
+              "Burkholder Greer A",
+              "Chen Ligong",
+              "Muntner Paul"
+            ],
+            "journal": "Journal of the American Heart Association",
+            "year": "2018",
+            "abstract": "Background HIV is associated with an increased risk for atherosclerotic cardiovascular disease, which may result in many people living with HIV taking a statin. Some statins are contraindicated with certain antiretroviral therapies ( ART ) and other medications commonly used by HIV -infected patients. Methods and Results We analyzed trends in the use of statins, including contraindicated statins, between 2007 and 2015 among HIV -infected patients aged ≥19 years taking ART who had employer-sponso",
+            "classification": {
+              "study_type": "Pharmacoepidemiology",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12660532",
+            "title": "Statins and fibrates for the treatment of hyperlipidaemia in HIV-infected patients receiving HAART.",
+            "authors": [
+              "Calza Leonardo",
+              "Manfredi Roberto",
+              "Chiodo Francesco"
+            ],
+            "journal": "AIDS (London, England)",
+            "year": "2003",
+            "abstract": "The aim of our work is to evaluate the role of statins and fibrates in the management of hyperlipidaemia in HIV-infected patients receiving highly active antiretroviral therapy.",
+            "classification": {
+              "study_type": "Review/Guideline",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10758016",
+            "title": "How to manage metabolic complications of HIV therapy: what to do while we wait for answers.",
+            "authors": [
+              "Currier J S"
+            ],
+            "journal": "The AIDS reader",
+            "year": "2000",
+            "abstract": "Although effective treatment of antiretroviral-associated metabolic abnormalities ultimately depends on understanding the mechanisms involved, clinicians facing these problems are beginning to feel compelled to do something now to manage treatment-related metabolic complications. Diet and exercise should not be overlooked, because both can be effective in managing these complications without causing further side effects. Fibric acid derivatives such as gemfibrozil and statins can lower HIV-assoc",
+            "classification": {
+              "study_type": "Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12409741",
+            "title": "A randomized, double-blind study of gemfibrozil for the treatment of protease inhibitor-associated hypertriglyceridaemia.",
+            "authors": [
+              "Miller John",
+              "Brown Dannae",
+              "Amin Janaki",
+              "Kent-Hughes Julia",
+              "Law Matthew"
+            ],
+            "journal": "AIDS (London, England)",
+            "year": "2002",
+            "abstract": "Hypertriglyceridaemia is common in patients with HIV, especially those taking protease inhibitors or with lipodystrophy, frequently observed at levels associated with accelerated cardiac disease. This study aimed to explore the efficacy and safety of gemfibrozil for hypertriglyceridemia in patients with HIV infection.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14640387",
+            "title": "Effects of metformin or gemfibrozil on the lipodystrophy of HIV-infected patients receiving protease inhibitors.",
+            "authors": [
+              "Martínez Esteban",
+              "Domingo Pere",
+              "Ribera Esteban",
+              "Milinkovic Ana",
+              "Arroyo Juan A"
+            ],
+            "journal": "Antiviral therapy",
+            "year": "2003",
+            "abstract": "Hypertriglyceridaemia and insulin resistance are common in HIV-infected patients treated with protease inhibitors, particularly in those with lipodystrophy. Whether a therapeutic approach addressed to those metabolic abnormalities may have any impact on body fat is not clear.",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19258558",
+            "title": "Response to newly prescribed lipid-lowering therapy in patients with and without HIV infection.",
+            "authors": [
+              "Silverberg Michael J",
+              "Leyden Wendy",
+              "Hurley Leo",
+              "Go Alan S",
+              "Quesenberry Charles P"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "2009",
+            "abstract": "Antiretroviral agents, particularly protease inhibitors (PIs), may adversely affect lipid levels in patients with HIV infection. However, it is not known whether HIV-associated dyslipidemia is more difficult to treat.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19884356",
+            "title": "HIV-associated dyslipidaemia among HIV antibody-positive patients in Ireland: prevalence and management strategies.",
+            "authors": [
+              "Nolan D P",
+              "O'Connor M B",
+              "O'Connor C",
+              "Moriarty M",
+              "O'Leary A"
+            ],
+            "journal": "International journal of STD & AIDS",
+            "year": "2010",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11876511",
+            "title": "Use of fibrates in the management of hyperlipidemia in HIV-infected patients receiving HAART.",
+            "authors": [
+              "Calza L",
+              "Manfredi R",
+              "Chiodo F"
+            ],
+            "journal": "Infection",
+            "year": "2002",
+            "abstract": "Despite potent antiretroviral activity, protease inhibitor-based pharmacological treatment of HIV disease has recently been associated with lipid and glucose metabolism abnormalities (more frequently hypertriglyceridemia and hypercholesterolemia). The aim of our open-label, randomized, prospective study was to evaluate the role of fibrates in the management of HIV-associated hyperlipidemia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25417503",
+            "title": "Clinically significant drug interactions among HIV-infected patients receiving antiretroviral therapy.",
+            "authors": [
+              "So-Ngern Apichot",
+              "Montakantikul Preecha",
+              "Manosuthi Weerawat"
+            ],
+            "journal": "The Southeast Asian journal of tropical medicine and public health",
+            "year": "2014",
+            "abstract": "We conducted a cross sectional study of the outpatient medical records of 1000 HIV-infected patients receiving antiretroviral therapy (ART) in 2011 to determine the incidence of clinically significant drug interactions (CSDI). The severities of the CSDI were graded following the Micromedex\" 2.0 database and the Department of Health and Human Services (DHHS) 2012 HIV treatment guidelines. Three hundred thirty-five patients (34%) had 554 episodes of CSDI. Of which 337 episodes (61%), 163 episodes ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11365725",
+            "title": "A further point about statins...",
+            "authors": [
+              "Gilden D"
+            ],
+            "journal": "GMHC treatment issues : the Gay Men's Health Crisis newsletter of experimental AIDS therapies",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18588813",
+            "title": "[Rosuvastatin for the treatment of dyslipidemia in HIV-infected patients receiving highly active antiretroviral therapy. Preliminary experience].",
+            "authors": [
+              "Bottaro Edgardo Gabriel",
+              "Caravello Oscar",
+              "Scapellato Pablo Gustavo",
+              "Stambulian Marcela",
+              "Vidal Gabriela Inés"
+            ],
+            "journal": "Enfermedades infecciosas y microbiologia clinica",
+            "year": "2008",
+            "abstract": "Highly active antiviral therapy (HAART) results in a sharp decrease in HIV-related morbidity and mortality, but also induces adverse effects such as dyslipidemia, which is difficult treat because of drug interactions. Guidelines recommend lipid-lowering therapy with pravastatin or atorvastatin to reduce LDL cholesterol in these patients, and gemfibrozil or fenofibrate for treating hypertriglyceridemia. The use of statins in the management of dyslipidemia is complicated by drug interactions with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11371708",
+            "title": "Rhabdomyolysis after cerivastatin-gemfibrozil therapy in an HIV-infected patient with protease inhibitor-related hyperlipidemia.",
+            "authors": [
+              "Mastroianni C M",
+              "d'Ettorre G",
+              "Forcina G",
+              "Lichtner M",
+              "Corpolongo A"
+            ],
+            "journal": "AIDS (London, England)",
+            "year": "2001",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19372973",
+            "title": "Effectiveness of lipid-lowering therapy in HIV patients.",
+            "authors": [
+              "Martínez Esteban",
+              "Leyes Pere",
+              "Ros Emilio"
+            ],
+            "journal": "Current opinion in HIV and AIDS",
+            "year": "2008",
+            "abstract": "The aim of this article is to analyse the effectiveness of lipid-lowering therapy in HIV-infected patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11366473",
+            "title": "Updates from the 38th Interscience Conference on Antimicrobial Agents and Chemotherapy.",
+            "authors": [
+              "Whitson S"
+            ],
+            "journal": "Positively aware : the monthly journal of the Test Positive Aware Network",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19258553",
+            "title": "Summaries for patients. Response to cholesterol-lowering drugs in patients with and without HIV infection.",
+            "authors": [],
+            "journal": "Annals of internal medicine",
+            "year": "2009",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10357393",
+            "title": "Gemfibrozil effectively lowers protease inhibitor-associated hypertriglyceridemia in HIV-1-positive patients.",
+            "authors": [
+              "Hewitt R G",
+              "Shelton M J",
+              "Esch L D"
+            ],
+            "journal": "AIDS (London, England)",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Gemfibrozil（PPARα agonist）可改善 HIV 蛋白酶抑制劑（PI）誘發的高三酸甘油酯血症及脂肪分布異常（lipodystrophy）。HIV 患者長期接受 HAART 治療後，VLDL 合成增加，PPARα 激活可上調脂蛋白脂解酶（LPL）活性，改善 PI 相關血脂異常。此為針對 HIV 代謝併發症之再利用，非抗病毒作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hypoalphalipoproteinemia",
+      "txgnn": {
+        "score": 0.9977437257766724,
+        "rank": 3725
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2810673",
+            "title": "Comparison of lovastatin and gemfibrozil in normolipidemic patients with hypoalphalipoproteinemia.",
+            "authors": [
+              "Vega G L",
+              "Grundy S M"
+            ],
+            "journal": "JAMA",
+            "year": "1989",
+            "abstract": "This study compared lovastatin and gemfibrozil therapy for effects on lipid and lipoprotein levels in 22 normolipidemic patients with reduced high-density lipoprotein cholesterol levels. Most patients had coronary heart disease. A randomized, crossover design consisted of two drug phases (lovastatin and gemfibrozil) alternating with placebo. Lovastatin reduced total and low-density lipoprotein cholesterol and apolipoprotein B levels by 28%, 34%, and 24%, respectively. These were unaffected by ge",
+            "classification": {
+              "study_type": "Clinical Trial (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8736620",
+            "title": "Gemfibrozil. A reappraisal of its pharmacological properties and place in the management of dyslipidaemia.",
+            "authors": [
+              "Spencer C M",
+              "Barradell L B"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "Gemfibrozil improves lipid and apolipoprotein profiles, particularly very low density lipoprotein (VLDL) triglyceride and high density lipoprotein (HDL) cholesterol levels, in patients with dyslipidaemia when administered at a total daily dose of 900 or 1200 mg. As demonstrated by the Helsinki Heart Study, these effects result in a reduction in some risk factors for coronary heart disease (CHD) and also a 34% reduction in the incidence of this disease after 5 years compared with placebo. Limited",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10716466",
+            "title": "Gemfibrozil, nicotinic acid and combination therapy in patients with isolated hypoalphalipoproteinemia: a randomized, open-label, crossover study.",
+            "authors": [
+              "Zema M J"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2000",
+            "abstract": "To assess the effects of nicotinic acid (NA), gemfibrozil and combination therapy on the lipid profile of patients with clinical atherosclerotic disease and isolated hypoalphalipoproteinemia.",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8318063",
+            "title": "Effect of gemfibrozil and lovastatin on postprandial lipoprotein clearance in the hypoalphalipoproteinemia and hypertriglyceridemia syndrome.",
+            "authors": [
+              "Simo I E",
+              "Yakichuk J A",
+              "Ooi T C"
+            ],
+            "journal": "Atherosclerosis",
+            "year": "1993",
+            "abstract": "Eleven men with hypoalphalipoproteinemia (HPAL; fasting plasma high density lipoprotein (HDL) cholesterol level of < 0.9 mmol/l), mild hypertriglyceridemia (HTG; triglycerides (TG) level of 1.75-7.5 mmol/l) and a normal calculated LDL cholesterol level (< 3.7 mmol/l) participated in a randomized, double-blind, double-placebo, crossover trial to compare the effect of two drugs, lovastatin (40 mg once daily) and gemfibrozil (600 mg twice daily), on clearance of postprandial lipoproteins. A 2-week ",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8267492",
+            "title": "Lipoprotein responses to treatment with lovastatin, gemfibrozil, and nicotinic acid in normolipidemic patients with hypoalphalipoproteinemia.",
+            "authors": [
+              "Vega G L",
+              "Grundy S M"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1994",
+            "abstract": "The lipoprotein responses to conventional lipid-modifying drugs have not been adequately evaluated in normolipidemic patients with hypoalphalipoproteinemia (low levels of high-density lipoproteins). The purpose of this study was to compare responses to lovastatin, gemfibrozil, and nicotinic acid in such patients.",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3541525",
+            "title": "Familial hypoalphalipoproteinemia.",
+            "authors": [
+              "Glueck C J",
+              "Melser M A",
+              "Borecki I B",
+              "Third J L",
+              "Rao D C"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10929256",
+            "title": "[Low HDL-cholesterol].",
+            "authors": [
+              "Schmitz G",
+              "Lackner K J"
+            ],
+            "journal": "Der Internist",
+            "year": "2000",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7945562",
+            "title": "Homozygous Tangier disease and cardiovascular disease.",
+            "authors": [
+              "Serfaty-Lacrosniere C",
+              "Civeira F",
+              "Lanzberg A",
+              "Isaia P",
+              "Berg J"
+            ],
+            "journal": "Atherosclerosis",
+            "year": "1994",
+            "abstract": "Decreased levels of plasma high density lipoprotein (HDL) cholesterol have been associated with premature cardiovascular disease (CVD). Tangier disease is an autosomal co-dominant disorder in which homozygotes have a marked deficiency of HDL cholesterol and apolipoprotein (apo) A-I levels (both < 10 mg/dl), decreased low density lipoprotein (LDL) cholesterol levels (about 40% of normal), and mild hypertriglyceridemia. Homozygotes develop cholesterol ester deposition in tonsils (orange tonsils), ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3887163",
+            "title": "Pathogenesis and management of lipoprotein disorders.",
+            "authors": [
+              "Schaefer E J",
+              "Levy R I"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7942933",
+            "title": "Evaluation of effects of unmodified niacin on fasting and postprandial plasma lipids in normolipidemic men with hypoalphalipoproteinemia.",
+            "authors": [
+              "King J M",
+              "Crouse J R",
+              "Terry J G",
+              "Morgan T M",
+              "Spray B J"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1994",
+            "abstract": "The aim of this study was to define the effects of unmodified niacin on basal lipids and lipoproteins and on the plasma triglyceride response to a fatty meal--postprandial or alimentary lipemia--in individuals with low levels of high-density lipoprotein cholesterol (HDL-C) and normal fasting cholesterol and triglyceride concentrations (normolipidemic hypoalphalipoproteinemia, isolated low HDL-C).",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8283932",
+            "title": "Familial lipoprotein disorders and premature coronary artery disease.",
+            "authors": [
+              "Schaefer E J"
+            ],
+            "journal": "The Medical clinics of North America",
+            "year": "1994",
+            "abstract": "Although there is consensus that lipid variables, especially lipoprotein(a), are heritable and that elevated LDL cholesterol levels should be treated, there are no clear definitions of the common familial lipid disorders associated with premature CHD (lipoprotein(a) excess, FCH, familial dyslipidemia, familial hypoalphalipoproteinemia, familial hypercholesterolemia), nor do we have clear guidelines for the treatment of most of these disorders. Implementation of therapy for elevated LDL cholester",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6368042",
+            "title": "Recommendations for treatment of hyperlipidemia in adults. A joint statement of the Nutrition Committee and the Council on Arteriosclerosis.",
+            "authors": [],
+            "journal": "Circulation",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9064528",
+            "title": "[A patient with an unexplained low level of high density lipoprotein cholesterol].",
+            "authors": [
+              "Castro Cabezas M",
+              "van Loon D",
+              "de Hiep H J",
+              "Meuwissen O J"
+            ],
+            "journal": "Nederlands tijdschrift voor geneeskunde",
+            "year": "1997",
+            "abstract": "A non smoking male patient 42 years old complained of pain in the calves after exercise and had a low 'high density'-lipoprotein (HDL) cholesterol serum concentration. Angiography of the leg vessels revealed no abnormalities. Treatment with simvastatin and gemfibrozil did not affect HDL cholesterol concentrations. Blood tests of relatives made familial hypo-alpha-lipoproteinaemia unlikely. It appeared that the patient had used anabolic steroids; these increase hepatic lipase activity leading to ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hypoalphalipoproteinemia（低 HDL 血症）為 Gemfibrozil 的核心藥理靶點。PPARα 激活上調 ApoA-I/ApoA-II 表達，促進 HDL 合成；同時激活 LPL 加速 VLDL 分解，間接升高 HDL。多項臨床研究直接驗證此機轉，為 fibrate 類最強的 HDL 提升適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9977375268936156,
+        "rank": 3736
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "短指-並指症候群為先天性骨骼發育異常，與 PPARα 藥理作用無已知關聯。TxGNN 分數高可能為知識圖譜拓撲假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9976577758789062,
+        "rank": 3833
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見先天性症候群（眼缺損性小眼症合併根莖型發育不良），與 Gemfibrozil 的已知藥理完全無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "methemoglobinemia, alpha type",
+      "txgnn": {
+        "score": 0.9975829124450684,
+        "rank": 3930
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alpha 型高鐵血紅素血症為 HbM 血紅蛋白變異所致，與 PPARα 機轉無關。Gemfibrozil 無已知影響血紅蛋白氧化狀態的作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn": {
+        "score": 0.9970556497573853,
+        "rank": 4535
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性複合型高脂血症（FCH）特徵為 TG 升高、LDL 升高、HDL 降低。Gemfibrozil 透過 PPARα 激活可改善此三重血脂異常。注意：Helsinki Heart Study 已顯示 Gemfibrozil 在 FCH 患者中可降低心血管事件，但此本體論術語標記為「obsolete」，數據庫可能使用了廢棄的疾病術語，導致文獻映射缺失。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "sclerosing cholangitis",
+      "txgnn": {
+        "score": 0.9970376491546632,
+        "rank": 4556
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36906733",
+            "title": "Evaluation of the Potential for Cytochrome P450 and Transporter-Mediated Drug-Drug Interactions for Cilofexor, a Selective Nonsteroidal Farnesoid X Receptor (FXR) Agonist.",
+            "authors": [
+              "Younis Islam",
+              "Weber Elijah",
+              "Nelson Cara",
+              "Kirby Brian J",
+              "Shen Gong"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2023",
+            "abstract": "Cilofexor is a selective farnesoid X receptor (FXR) agonist in development for the treatment of nonalcoholic steatohepatitis and primary sclerosing cholangitis. Our objective was to evaluate potential drug-drug interactions of cilofexor as a victim and as a perpetrator.",
+            "classification": {
+              "study_type": "DDI Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33751787",
+            "title": "Safety of fibrates in cholestatic liver diseases.",
+            "authors": [
+              "Carrion Andres F",
+              "Lindor Keith D",
+              "Levy Cynthia"
+            ],
+            "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+            "year": "2021",
+            "abstract": "Off-label use of fibrates in patients with cholestatic liver diseases results in improved biochemical parameters and pruritus; however, their safety in this population has been a concern. This study summarizes safety data for fibrates when used for treatment of cholestatic liver diseases.",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硬化性膽管炎（PSC/SSC）涉及膽道纖維化及膽汁淤積。PPARα 激活在膽道系統有抗炎及調節膽汁酸代謝作用，Fenofibrate（同類藥物）已有用於 PSC 的研究。然而，Gemfibrozil 在膽汁淤積疾病中的安全性是主要顧慮，因肝毒性風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "methemoglobin reductase deficiency",
+      "txgnn": {
+        "score": 0.9970070719718932,
+        "rank": 4595
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高鐵血紅蛋白還原酶缺乏症（NADH-cytochrome b5 reductase 缺乏）為遺傳性酵素缺乏，標準治療為亞甲藍（methylene blue）。與 Gemfibrozil 藥理無交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "methemoglobin reductase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "methemoglobin reductase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gemfibrozil",
+        "disease": "methemoglobin reductase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

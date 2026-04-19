@@ -1,0 +1,332 @@
+```json
+{
+  "drug": "Galantamine",
+  "drugbank_id": "DB00674",
+  "analysis_date": "2026-04-04",
+  "background": {
+    "drug_class": "乙醯膽鹼酯酶抑制劑（AChEI）+ 尼古丁受體正向調節劑",
+    "known_approval": "Alzheimer's disease（全球已核准，但本地市場狀態：未上市）",
+    "moa_note": "資料欄位標記 [Data Gap]，但 DrugBank DB00674 機轉明確：可逆性 AChEI + allosteric nicotinic ACh receptor (nAChR) modulator"
+  },
+  "indications": [
+    {
+      "disease_name": "psychogenic movement disorders",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "心因性運動障礙主要由心理/功能性機轉驅動，非膽鹼能系統直接缺損所致。AChEI 無合理機轉介入路徑，高分來自 KG 圖結構鄰近性，非生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["無臨床支持依據", "適應症定義與 AChEI 藥理不匹配"]
+    },
+    {
+      "disease_name": "chronic tic disorder",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "抽動症與多巴胺-膽鹼能迴路失衡有部分關聯，膽鹼能強化理論上可調節基底核輸出，但現有文獻極度匱乏，唯一文獻來自 1980 年代（PMID 7375270），為兒童抽動症病理/治療通論，無 Galantamine 特異性內容。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7375270",
+          "title": "[Etiology, pathogenesis and treatment of tics in children]",
+          "year": "1980",
+          "study_type": "Narrative Review / Case Series (推測)",
+          "tier": "3",
+          "relevance_note": "年代久遠，無 Galantamine 直接相關性，屬背景參考文獻"
+        }
+      ],
+      "risk_flags": ["唯一文獻為 1980 年舊文獻", "無 Galantamine 特異性資料"]
+    },
+    {
+      "disease_name": "primary orthostatic tremor",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性直立性震顫為罕見運動障礙，病因不明（可能涉及腦幹 16 Hz 節律異常），現有治療為 Clonazepam/Gabapentin。AChEI 介入無已發表文獻或試驗支持，KG 預測高分源於疾病分類鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見疾病（孤兒病）", "完全缺乏臨床證據"]
+    },
+    {
+      "disease_name": "extrapyramidal and movement disease",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "錐體外徑症狀（EPS）與多巴胺-乙醯膽鹼平衡密切相關。Galantamine 透過 AChEI 作用增強膽鹼能傳遞，理論上可調節基底核多巴胺-ACh 拮抗迴路。已有動物模型支持其抗精神病藥物輔助效應（PMID 20701827, 17374745），Phase 2 臨床試驗提供間接人體安全性資料。然而，2025 年系統性回顧（PMID 40224553）指出 AChEI 在 Alzheimer's 患者中可誘發運動障礙，構成雙向風險訊號。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01012167",
+          "title": "Oxytocin or Galantamine vs. Placebo for Negative Symptoms and Cognitive Impairments",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 86,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 完成試驗，提供 Galantamine 在精神科族群的人體安全性與耐受性資料。主要終點為精神分裂症陰性症狀與認知功能，非直接針對 EPS。相關性間接，但提供剂量與安全數據基礎。"
+        },
+        {
+          "nct_id": "NCT00176423",
+          "title": "Adjunctive Galantamine for Cognitive Impairments in Schizophrenia",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 117,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 大樣本試驗（n=117），評估 Galantamine 輔助抗精神病藥物治療認知缺損。精神分裂症患者常伴隨 EPS，此試驗可提取 EPS 相關安全性資料，但非主要終點。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40224553",
+          "title": "Movement disorders associated with acetylcholinesterase inhibitors in Alzheimer's dementia: A systematic review",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "relevance_note": "⚠️ 安全性警示：此文獻記錄 AChEI 可誘發運動障礙，為「雙面刃」證據，顯示 Galantamine 本身可能為 EPS 風險因子"
+        },
+        {
+          "pmid": "20701827",
+          "title": "Effects of adjunct galantamine to risperidone or haloperidol in animal models of antipsychotic activity",
+          "year": "2011",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": "3",
+          "relevance_note": "動物模型顯示 Galantamine 可輔助抗精神病藥物效果，機轉支持來自基底核調節"
+        },
+        {
+          "pmid": "17374745",
+          "title": "Galantamine inhibits d-amphetamine-induced psychotic-like behavior",
+          "year": "2007",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": "3",
+          "relevance_note": "動物模型提供 AChEI 在多巴胺過度活化情況下的拮抗機轉支持"
+        },
+        {
+          "pmid": "14676467",
+          "title": "Pharmacologic treatment expectations in the management of dementia with Lewy bodies",
+          "year": "2004",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance_note": "DLB 治療回顧提及 Galantamine，DLB 高度涉及 EPS（帕金森氏症狀），提供臨床關聯性基礎"
+        }
+      ],
+      "risk_flags": [
+        "2025 年系統性回顧顯示 AChEI 可誘發運動障礙（安全性雙向風險）",
+        "現有試驗主要針對認知/陰性症狀，EPS 非主要終點",
+        "需評估是否加重 vs 改善 EPS 的淨效益"
+      ]
+    },
+    {
+      "disease_name": "benign shuddering attacks",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性顫抖發作為嬰幼兒良性功能性症狀，通常自然緩解，無需藥物介入。缺乏任何 Galantamine 相關臨床或基礎研究，KG 高分源於與抽動/運動障礙分類的圖鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["兒科族群安全性尚未建立", "通常自然緩解，干預必要性低"]
+    },
+    {
+      "disease_name": "tremor-nystagmus-duodenal ulcer syndrome",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為極罕見的多系統遺傳症候群（Richards-Rundle syndrome 等），無 AChEI 介入的生物學合理性或任何臨床資料。症候群包含消化系統（十二指腸潰瘍），需特別評估 AChEI 的消化系統副作用風險（AChEI 可增加胃酸分泌）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "⚠️ AChEI 可增加胃酸分泌，可能加重消化性潰瘍",
+        "極罕見症候群，無流行病學基礎"
+      ]
+    },
+    {
+      "disease_name": "lingual-facial-buccal dyskinesia",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "口-顏面-頰部遲發性運動障礙（Tardive Dyskinesia, TD）與長期抗精神病藥物導致的紋狀體多巴胺受體超敏感相關，多巴胺-乙醯膽鹼失衡是核心病理。膽鹼能藥物（包括 AChEI）理論上可透過恢復 ACh/DA 平衡改善 TD。Cochrane 系統性回顧（PMID 29553158, 12137608）評估了「膽鹼能藥物」類別對 TD 的效果，但 Galantamine 特異性試驗資料仍缺乏。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29553158",
+          "title": "Cholinergic medication for antipsychotic-induced tardive dyskinesia",
+          "year": "2018",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "relevance_note": "最相關的高品質證據，評估膽鹼能藥物整體對 TD 的效果。Galantamine 屬此藥物類別，但本 Cochrane 結論可能納入 Lecithin、donepezil 等，需查閱是否有 Galantamine 特定資料"
+        },
+        {
+          "pmid": "12137608",
+          "title": "Cholinergic medication for neuroleptic-induced tardive dyskinesia",
+          "year": "2002",
+          "study_type": "Cochrane Systematic Review (older version)",
+          "tier": "1",
+          "relevance_note": "2018 年 Cochrane 回顧的前版本，提供歷史證據脈絡。類別證據，非 Galantamine 特異性。"
+        },
+        {
+          "pmid": "24969380",
+          "title": "Galantamine versus risperidone for agitation in people with dementia: a randomized, twelve-week, single-blind",
+          "year": "2014",
+          "study_type": "Randomized Controlled Trial (單盲 RCT)",
+          "tier": "2",
+          "relevance_note": "Galantamine 特異性 RCT，但主要終點為「失智症激躁行為」，非 TD。可提取 Galantamine 在神經精神症狀的耐受性資料，相關性間接。"
+        },
+        {
+          "pmid": "24127392",
+          "title": "Cholinesterase inhibitors and Pisa syndrome: a pharmacovigilance study",
+          "year": "2014",
+          "study_type": "Pharmacovigilance Study",
+          "tier": "2",
+          "relevance_note": "⚠️ 安全性警示：藥物警戒研究顯示 AChEI 與 Pisa syndrome（側彎性運動障礙）相關，為安全疑慮，需在 S1 階段詳細評估"
+        },
+        {
+          "pmid": "12611743",
+          "title": "Use of cholinesterase inhibitors in clinical practice: evidence-based recommendations",
+          "year": "2003",
+          "study_type": "Evidence-Based Clinical Guideline",
+          "tier": "2",
+          "relevance_note": "AChEI 臨床應用實證建議，提供安全性與使用框架，非 TD 特異性"
+        },
+        {
+          "pmid": "25575935",
+          "title": "An unsubstantiated conclusion",
+          "year": "2015",
+          "study_type": "Letter / Commentary (推測)",
+          "tier": "3",
+          "relevance_note": "標題顯示為評論性文章，相關性需進一步確認"
+        },
+        {
+          "pmid": "24402079",
+          "title": "Galantamine reverses scopolamine-induced behavioral alterations in Dugesia tigrina",
+          "year": "2014",
+          "study_type": "Animal Study (planaria model)",
+          "tier": "3",
+          "relevance_note": "渦蟲動物模型，Galantamine 逆轉東莨菪鹼誘導行為異常。機轉支持價值有限（非哺乳動物模型）"
+        },
+        {
+          "pmid": "14564129",
+          "title": "Cholinesterase inhibitor therapies and neuropsychiatric manifestations of Alzheimer's disease",
+          "year": "2004",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance_note": "AChEI 治療 Alzheimer's 神經精神症狀的回顧，提供 Galantamine 對運動/行為症狀的間接資訊"
+        },
+        {
+          "pmid": "22070157",
+          "title": "Medicinal plants and dementia therapy: herbal hopes for brain aging?",
+          "year": "2011",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance_note": "草藥與失智症治療回顧（Galantamine 原自石蒜科植物），背景性資訊"
+        },
+        {
+          "pmid": "21148081",
+          "title": "Pharmacokinetic and pharmacodynamic properties of cholinesterase inhibitors donepezil, tacrine, and galantamine",
+          "year": "2011",
+          "study_type": "PK/PD Review",
+          "tier": "2",
+          "relevance_note": "Galantamine 藥動學/藥效學特性資料，提供劑量設計基礎"
+        }
+      ],
+      "risk_flags": [
+        "⚠️ Pisa syndrome 藥物警戒訊號（PMID 24127392）：AChEI 本身可能誘發側傾性運動障礙",
+        "兩項 Cochrane 回顧為「膽鹼能類別」證據，非 Galantamine 特異性",
+        "TD 現有核准藥物（Valbenazine, Deutetrabenazine）已上市，需評估差異化定位"
+      ]
+    },
+    {
+      "disease_name": "benign paroxysmal tonic upgaze of childhood with ataxia",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性陣發性眼球上轉伴共濟失調（BPTU）為罕見兒科自限性疾病，成因可能涉及基底核-腦幹連結發育異常。無任何 AChEI 介入理由或相關文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["兒科族群（嬰幼兒）", "自限性疾病，藥物介入必要性低"]
+    },
+    {
+      "disease_name": "acute intermittent porphyria",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性間歇性紫質症為血基質合成酵素缺損（PBGD）的代謝性遺傳疾病，與 AChEI 藥理機轉無交集。AchEI 誘發的膽鹼能毒性（噁心、嘔吐、腹絞痛）可能誤診為 AIP 急性發作或加重病情。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "⚠️ 高安全風險：AChEI 副作用模擬 AIP 急性發作症狀（腹痛、自律神經不穩）",
+        "⚠️ 許多藥物在 AIP 患者為禁忌（porphyrogenic potential 未知），需先查詢 NAPOS/AIP 藥物安全資料庫",
+        "缺乏任何生物學合理性"
+      ]
+    },
+    {
+      "disease_name": "porphyria",
+      "txgnn_score": 0.9844,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "紫質症（廣義）包含多種血基質代謝疾病，與 AChEI 藥理完全不相關。此為 KG 中與 AIP 的疾病分類鄰近性所導致的預測延伸，分數已較低（0.984）反映圖距離增加。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "⚠️ 同 AIP 安全疑慮：部分紫質症患者對多種藥物高度敏感",
+        "TxGNN 分數最低（0.984）且有更高分適應症支撐，不具優先探索價值"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "L1_count": 0,
+    "L2_count": 0,
+    "L3_count": 1,
+    "L4_count": 1,
+    "L5_count": 8,
+    "proceed_recommendations": [],
+    "research_question_candidates": [
+      {
+        "disease_name": "extrapyramidal and movement disease",
+        "priority": "中",
+        "next_step": "系統性回顧現有 Phase 2/4 試驗的 EPS 次要終點資料；評估 2025 年 PMID 40224553 的安全性影響"
+      },
+      {
+        "disease_name": "lingual-facial-buccal dyskinesia (Tardive Dyskinesia)",
+        "priority": "中-低",
+        "next_step": "確認 Cochrane 回顧（PMID 29553158）是否納入 Galantamine 特異性資料；評估 Pisa syndrome 風險；比較 Valbenazine/Deutetrabenazine 現有療法定位"
+      }
+    ],
+    "key_safety_concerns": [
+      "AChEI（包括 Galantamine）可誘發運動障礙（PMID 40224553）——對運動障礙適應症構成雙向風險",
+      "Pisa syndrome 藥物警戒訊號（PMID 24127392）",
+      "AIP/紫質症患者：AChEI 安全性未知，副作用可誘發或混淆 AIP 急性發作",
+      "Tremor-nystagmus-duodenal ulcer syndrome：AChEI 增加胃酸分泌，可能加重消化性潰瘍"
+    ],
+    "data_gap_note": "原始資料中 original_moa 標記為 [Data Gap]，但 Galantamine（DB00674）藥理機轉有充分文獻支持。建議更新資料庫中的機轉標記以提高後續分析精確度。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 整體結論：10 個適應症中，8 個為 L5（Hold），僅 2 個值得進一步評估
+
+| 適應症 | 等級 | 決策 | 關鍵理由 |
+|--------|------|------|----------|
+| psychogenic movement disorders | L5 | S0 Hold | 純預測，無生物學合理性 |
+| chronic tic disorder | L5 | S0 Hold | 唯一文獻來自 1980 年，非 Galantamine 特異性 |
+| primary orthostatic tremor | L5 | S0 Hold | 無任何臨床/基礎證據 |
+| **extrapyramidal and movement disease** | **L3** | **S1 Research** | Phase 2/4 試驗（精神科鄰近適應症）+ 動物模型，但 2025 年 SR 顯示安全性雙向風險 |
+| benign shuddering attacks | L5 | S0 Hold | 兒科自限性疾病，無介入必要性 |
+| tremor-nystagmus-duodenal ulcer | L5 | S0 Hold | ⚠️ AChEI 可能加重潰瘍 |
+| **lingual-facial-buccal dyskinesia (TD)** | **L4** | **S1 Research** | Cochrane 回顧存在膽鹼能類別證據，但 Galantamine 特異性缺乏；Pisa syndrome 安全警示 |
+| benign paroxysmal tonic upgaze | L5 | S0 Hold | 兒科罕見自限性疾病 |
+| acute intermittent porphyria | L5 | S0 Hold | ⚠️⚠️ 高安全風險：AChEI 副作用模擬 AIP 發作 |
+| porphyria | L5 | S0 Hold | ⚠️ 同上，且分數最低 |
+
+> **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證方可應用。

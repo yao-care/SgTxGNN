@@ -1,0 +1,281 @@
+```json
+{
+  "drug": "Candesartan cilexetil",
+  "drugbank_id": "DB00796",
+  "analysis_date": "2026-04-05",
+  "data_quality_flags": [
+    "original_moa 標記為 [Data Gap]，但 Candesartan 為已知 AT1 受體拮抗劑（ARB），建議修正資料庫",
+    "market_status 標記未上市，與全球 ARB 廣泛上市現況不符，可能為當地（SG）特定資料缺失",
+    "original_indications 為空，高血壓/心衰竭應列入"
+  ],
+  "indications": [
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Candesartan 阻斷 AT1 受體，可降低全身血壓，理論上可緩解惡性腎血管高血壓。但雙側腎動脈狹窄時 ARB 為禁忌，存在急性腎衰竭風險，機轉為雙面刃。資料集中完全無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "TxGNN 預測分數極高（0.9968），但缺乏任何臨床佐證。且 ARB 於此適應症存在重要安全疑慮（雙側狹窄禁忌），不宜直接進行。"
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ARB 可降低腎小球入球壓力、減少蛋白尿，對高血壓腎病具已知腎保護機轉（RAAS 抑制）。但資料集中無任何試驗或文獻，且 Candesartan 在急性重症腎功能惡化時的安全邊際需謹慎評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "機轉合理性高，但證據完全依賴 TxGNN 預測。此疾病理論上應有外部文獻（ARB 用於 CKD），資料缺失可能反映收集器問題而非真實無證據。"
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ARB 理論上可藉由 RAAS 抑制影響肺血管重塑，但低氧引起的肺動脈高壓（WHO Group 3）主要機轉為缺氧性肺血管收縮，ARB 的有效性未建立。現有文獻全部屬於低氧通用生物學研究，與 Candesartan 無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "33862277", "study_type": "Review（低氧與神經退化）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "39841808", "study_type": "Review（低氧作為藥物）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "28972206", "study_type": "Review（低氧與免疫）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "37328448", "study_type": "Basic Science（NAT10/HIF-1α）", "tier": 3, "relevance": "癌症代謝研究，與藥物-疾病無關"},
+        {"pmid": "34618295", "study_type": "Review（低氧認知損害）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "21328446", "study_type": "Review（低氧生物控制）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "8817697", "study_type": "Review（低氧與腦發育）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "31706510", "study_type": "Review（去泛素酶與癌症）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "34535359", "study_type": "Review（低氧治療修飾）", "tier": 3, "relevance": "與藥物-疾病無關"},
+        {"pmid": "40963621", "study_type": "Review（HIF-α 與 T 細胞）", "tier": 3, "relevance": "與藥物-疾病無關"}
+      ],
+      "notes": "⚠️ 資料品質警示：20 篇文獻全為低氧通用生物學研究，與 Candesartan 或肺動脈高壓治療無直接關聯，屬收集器關鍵字誤匹配。有效文獻數應視為 0。"
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多因素肺動脈高壓（WHO Group 5）機轉複雜，包含血液疾病、代謝疾病等。ARB 在此類型無已建立的療效，且原發性 PAH（WHO Group 1）的 RAAS 抑制研究結果亦不一致。資料集中完全無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "高預測分數可能反映 TxGNN 圖形結構中高血壓/心血管節點的傳播，而非疾病特異性機轉。"
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock syndrome 為極罕見症候群（描述不明確，可能為 MED13L 相關或其他遺傳疾病），與 ARB 藥理機轉的關聯性不明。資料集完全無任何臨床或文獻依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "⚠️ 此預測可信度存疑：疾病定義模糊，TxGNN 圖中可能存在本體論錯誤連接。建議先驗證疾病分類。"
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.9724,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性肺心病（Cor Pulmonale）的 RAAS 抑制理論上可減少右心室後負荷，但 ARB 在此適應症無確立的標準療法地位。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06697353",
+          "relevance_grade": "C",
+          "reasoning": "⚠️ 重大資料錯誤：ROVER Japan 研究的介入藥物為 Vericiguat（可溶性鳥苷酸環化酶刺激劑），非 Candesartan。此試驗不能作為 Candesartan 用於慢性肺心病的任何證據。屬收集器錯誤匹配。"
+        }
+      ],
+      "literature_analysis": [],
+      "notes": "⚠️ 唯一相關試驗為不同藥物（Vericiguat），有效證據數為 0。此條目應回退至純預測（L5）。"
+    },
+    {
+      "disease_name": "obsolete susceptibility to ischemic stroke",
+      "txgnn_score": 0.8759,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為已廢棄的疾病本體論術語（obsolete），不應作為有效臨床目標。若對應到「缺血性腦中風易感性」，Candesartan 的 RAAS 抑制確有腦保護機轉，但本條目因術語問題不宜獨立評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "⚠️ 術語標記為 'obsolete'，建議與 'cerebrovascular disorder' 或 'ischemic stroke' 合併分析，避免重複計算或錯誤分類。"
+    },
+    {
+      "disease_name": "brain stem infarction",
+      "txgnn_score": 0.8669,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹梗塞為缺血性腦中風的特定解剖部位，ARB 的全身降壓與可能的腦血管保護作用理論上適用，但無針對腦幹梗塞的獨立試驗。資料集中完全無直接臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "若要進一步評估，應結合 cerebrovascular disorder 的證據體，此疾病屬後者的子集，不宜孤立評估。"
+    },
+    {
+      "disease_name": "cerebrovascular disorder",
+      "txgnn_score": 0.8486,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Candesartan 阻斷 AT1 受體，機轉上可：(1) 降低血壓減少腦血管事件風險；(2) 直接腦保護效應（減少氧化壓力、神經炎症）；(3) 改善腦血流自動調節；(4) 急性腦中風期間保護缺血半暗帶。已有 Phase 3 RCT（CASE-J）及 ACCESS 試驗的直接臨床證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00108706",
+          "title": "ACCOST",
+          "relevance_grade": "A",
+          "reasoning": "直接相關：Candesartan 在急性腦中風的 Phase 4 試驗，設計明確針對本適應症，雖樣本數小（N=50）且狀態 UNKNOWN，但提供概念驗證。"
+        },
+        {
+          "nct_id": "NCT00125463",
+          "title": "CASE-J",
+          "relevance_grade": "A",
+          "reasoning": "核心試驗：Phase 3 RCT，N=3200，直接評估 Candesartan 在高血壓患者心腦血管事件（含腦中風）的影響。為 L1 等級主要依據。"
+        },
+        {
+          "nct_id": "NCT01984164",
+          "title": "CALIBREX",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，Completed，N=176，直接比較 Candesartan vs Lisinopril 對腦功能與內皮功能影響，提供機轉支持。"
+        },
+        {
+          "nct_id": "NCT05169021",
+          "title": "Folic Acid + Antihypertensive for CV Prevention",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，N=15000，直接以腦血管事件為主要終點，包含 Candesartan 作為抗高血壓藥物之一。"
+        },
+        {
+          "nct_id": "NCT02166697",
+          "title": "Candesartan Drug-use Survey",
+          "relevance_grade": "B",
+          "reasoning": "大型觀察性研究（N=14151），提供真實世界安全性資料，但非隨機對照，屬佐證層級。"
+        },
+        {
+          "nct_id": "NCT01198496",
+          "title": "Intensive BP Control Study",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，包含 Candesartan 的積極降壓策略，以腦血管事件為終點，但非單藥試驗。"
+        },
+        {
+          "nct_id": "NCT00468923",
+          "title": "HOPE-3",
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 4（N=12705），評估 Candesartan/HCTZ 在中度風險族群的心腦血管保護，具重要外部效度。"
+        },
+        {
+          "nct_id": "NCT02646982",
+          "title": "Candesartan Effects on Alzheimer's Disease",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，Completed，評估 Candesartan 對神經血管生物標記的影響，間接支持腦血管保護機轉。"
+        },
+        {
+          "nct_id": "NCT00741585",
+          "title": "Circadian BP Pattern Study",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，非 Candesartan 介入試驗，主要評估 BP 節律之預後價值，相關性較低。"
+        },
+        {
+          "nct_id": "NCT06515678",
+          "title": "Antihypertensive Therapy and Ovarian Cancer",
+          "relevance_grade": "C",
+          "reasoning": "研究目標為卵巢癌復發，腦血管疾病非研究終點，與本適應症相關性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "9833167", "study_type": "Clinical Trial Design Paper（ACCESS Trial）", "tier": 1},
+        {"pmid": "16981578", "study_type": "RCT Result（CASE-J）", "tier": 1},
+        {"pmid": "21932954", "study_type": "Clinical Study（Candesartan in acute/recurrent stroke）", "tier": 1},
+        {"pmid": "15013936", "study_type": "RCT Summary（SCOPE + ACCESS）", "tier": 1},
+        {"pmid": "12544861", "study_type": "Systematic Review（BP in stroke）", "tier": 1},
+        {"pmid": "11193378", "study_type": "Pharmacology Review（Candesartan）", "tier": 2},
+        {"pmid": "9655651", "study_type": "Review（AT1 antagonism cardiovascular protection）", "tier": 2},
+        {"pmid": "15257859", "study_type": "Review（ARBs neuroprotection）", "tier": 2},
+        {"pmid": "9310205", "study_type": "Animal Study（stroke/kidney protection）", "tier": 3},
+        {"pmid": "40485205", "study_type": "Analytical Chemistry Method（UPLC）", "tier": 3, "relevance": "與疾病治療無關"}
+      ],
+      "evidence_summary": {
+        "tier1_literature": 5,
+        "tier2_literature": 3,
+        "tier3_literature": 2,
+        "grade_A_trials": 4,
+        "grade_B_trials": 4,
+        "grade_C_trials": 2,
+        "key_evidence": "CASE-J（Phase 3 RCT, N=3200）和 ACCESS 試驗為核心 L1 依據；CALIBREX 和 HOPE-3 提供機轉與外部效度支持"
+      }
+    },
+    {
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn_score": 0.8329,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "出血性腦中風急性期的血壓管理是核心治療，Candesartan 的降壓作用理論上可穩定血腫周圍血壓，但同時需謹慎：過度降壓可能損害腦灌流壓，AT1 阻斷對腦血管張力的影響為雙向。CASE-J 的次族群分析提供間接佐證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02166697",
+          "relevance_grade": "C",
+          "reasoning": "為大型觀察性藥物使用調查（N=14151），非針對腦出血設計之 RCT，僅提供安全性觀察性資料，不足以支持本適應症的有效性。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "14717341", "study_type": "RCT（CASE-J trial）", "tier": 1, "relevance": "整體心腦血管結果，非 ICH 特異性"},
+        {"pmid": "19579664", "study_type": "Review（急性腦中風高血壓治療）", "tier": 2, "relevance": "涵蓋 ICH 血壓管理原則"},
+        {"pmid": "22957022", "study_type": "Lab Study（AT1 阻斷對軟腦膜動脈直徑影響）", "tier": 3, "relevance": "動物實驗，提供機轉支持但非臨床證據"},
+        {"pmid": "17077518", "study_type": "Lab Study（Benidipine 對腦血流影響）", "tier": 3, "relevance": "不同藥物（Benidipine），間接參考"}
+      ],
+      "evidence_summary": {
+        "tier1_literature": 1,
+        "tier2_literature": 1,
+        "tier3_literature": 2,
+        "grade_A_trials": 0,
+        "grade_B_trials": 0,
+        "grade_C_trials": 1,
+        "key_evidence": "CASE-J 提供間接 L3 證據，但無針對 ICH 的直接 RCT；安全性疑慮（急性期降壓幅度和時機）需研究設計解決"
+      }
+    }
+  ],
+  "summary_table": [
+    {"disease_name": "malignant renovascular hypertension", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "ARB 在雙側腎動脈狹窄禁忌，安全疑慮"},
+    {"disease_name": "malignant hypertensive renal disease", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "機轉合理但完全無臨床資料，可能為收集器缺失"},
+    {"disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "20 篇文獻全為低氧生物學，與藥物無關（收集器誤匹配）"},
+    {"disease_name": "pulmonary hypertension with unclear multifactorial mechanism", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "完全無臨床依據"},
+    {"disease_name": "Braddock syndrome", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "罕見且定義不明的症候群，機轉關聯不清"},
+    {"disease_name": "chronic pulmonary heart disease", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "唯一試驗為 Vericiguat（錯誤藥物），收集器錯誤"},
+    {"disease_name": "obsolete susceptibility to ischemic stroke", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "已廢棄術語，不應作為獨立評估目標"},
+    {"disease_name": "brain stem infarction", "evidence_level": "L5", "decision_stage": "S0", "recommendation": "Hold", "key_concern": "完全無直接臨床依據，屬 cerebrovascular disorder 子集"},
+    {"disease_name": "cerebrovascular disorder", "evidence_level": "L1", "decision_stage": "S3", "recommendation": "Proceed with Guardrails", "key_concern": "最強證據：Phase 3 RCT（CASE-J）+ ACCESS 試驗，需監控急性期降壓安全性"},
+    {"disease_name": "intracerebral hemorrhage", "evidence_level": "L3", "decision_stage": "S2", "recommendation": "Research Question", "key_concern": "急性期降壓時機與幅度需前瞻性設計驗證"}
+  ],
+  "data_quality_recommendations": [
+    "修正 original_moa：應填入 'Angiotensin II AT1 Receptor Antagonist'",
+    "補充 original_indications：至少應包含 hypertension、heart failure",
+    "修正 market_status：確認當地（SG）上市狀況，全球多數地區已上市",
+    "NCT06697353（Vericiguat）不應出現在 Candesartan 的 chronic pulmonary heart disease 條目下，需修復收集器邏輯",
+    "pulmonary hypertension/hypoxia 的 20 篇文獻需重新過濾，確保為藥物-疾病相關文獻",
+    "obsolete 術語應從候選適應症清單移除或合併至有效術語"
+  ]
+}
+```
+
+---
+
+## 重點摘要
+
+### 🟢 最強證據 — 腦血管疾病（L1 / S3）
+**Candesartan 在腦血管保護領域具有最完整的再利用依據：**
+- **CASE-J**（NCT00125463）：Phase 3 RCT，N=3,200，為核心 L1 依據
+- **ACCESS/ACCOST 試驗**：直接針對急性腦中風設計
+- **CALIBREX**（Phase 2）及 **HOPE-3**（Phase 4, N=12,705）提供機轉與外部效度支持
+- 5 篇 Tier-1 文獻直接支持
+
+### 🟡 研究問題 — 腦出血（L3 / S2）
+- 降壓機轉合理，但急性腦出血期的最佳降壓幅度與時機需前瞻性設計驗證
+- 現有 CASE-J 次族群分析僅為間接依據
+
+### 🔴 暫緩（Hold）— 其餘 8 項
+主要原因分三類：
+1. **資料收集問題**（肺高壓/低氧條目的不相關文獻、慢性肺心病的錯誤試驗）
+2. **術語問題**（obsolete 術語、Braddock syndrome 定義不明）
+3. **純預測無臨床依據**（腎血管高血壓、肺動脈高壓系列）

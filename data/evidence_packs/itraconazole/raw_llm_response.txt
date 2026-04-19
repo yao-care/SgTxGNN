@@ -1,0 +1,232 @@
+```json
+{
+  "drug": "Itraconazole",
+  "drugbank_id": "DB01167",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "market_status='未上市' 與 Itraconazole 全球廣泛核准現狀不符，可能為新加坡本地登記資料缺失",
+    "ddi_count=0 明顯異常 — Itraconazole 為強效 CYP3A4 抑制劑，已知 DDI 超過 200 項，建議補充 DDI 資料庫",
+    "original_indications=[] 疑似資料缺口，全球核准適應症包含 Aspergillosis、Blastomycosis、Histoplasmosis、Onychomycosis 等"
+  ],
+  "indications": [
+    {
+      "disease_name": "pneumocystosis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Itraconazole 藉由抑制真菌 CYP51（Erg11）干擾麥角固醇生合成，但 Pneumocystis jirovecii 固醇代謝路徑特殊（麥角固醇含量極低、具獨特 Pneumocystis sterol pathway），對三唑類藥物幾乎無感受性，此為根本機轉不符。PMID 11737382 之 RCT 設計目的為預防免疫缺陷患者之廣泛性真菌感染，非針對 PCP 之特異性治療。現有 20 篇文獻多為免疫抑制背景下多重真菌感染的間接描述（骨髓/肺臟移植、AIDS 機會性感染），無直接治療 PCP 的臨床試驗證據。PCP 標準治療為 TMP-SMX，高分 TxGNN 評分（0.993）可能來自知識圖譜中「免疫缺陷-真菌感染」高度連結節點的非特異性推論。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "11737382", "study_type": "RCT (Prevention, not PCP-specific)", "tier": "2"},
+        {"pmid": "21418688", "study_type": "Review (OI Prophylaxis Guidelines)", "tier": "1"},
+        {"pmid": "8397916", "study_type": "Review/Cohort (BMT infections)", "tier": "2"},
+        {"pmid": "8016481", "study_type": "Cohort Review (Lung Transplant)", "tier": "3"},
+        {"pmid": "36891307", "study_type": "Case Report (Coinfection)", "tier": "3"},
+        {"pmid": "2121456", "study_type": "Review (Systemic Protozoan)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "Cryptococcal meningitis",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cryptococcus neoformans/gattii 對三唑類藥物敏感，Itraconazole 透過抑制 CYP51/ERG11 有效阻斷麥角固醇生合成，體外 MIC 低（通常 ≤ 0.25 mg/L）。有 2 項已完成 Phase 2 RCT 直接評估 Itraconazole 治療及維持療法（NCT00012467、NCT00000975），多篇 1980-1990 年代臨床研究確認療效。主要限制：Itraconazole 腦脊液穿透率（CSF/plasma ≈ 0.01）遠低於 Fluconazole（CSF/plasma ≈ 0.8），WHO 2022 指南將其列為次選（限 Fluconazole 不可及時）。建議使用護欄：需監控血清藥物濃度、注意 CYP3A4 DDI、確認 CSF culture 轉陰。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00012467",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，隨機雙盲安慰劑對照劑量探索設計，直接評估 Itraconazole 抗隱球菌活性與安全性，60 例已完成，為目前最高等級直接證據"
+        },
+        {
+          "nct_id": "NCT00000975",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 pilot，明確標題「Feasibility of Itraconazole for Primary Treatment and Suppression of Relapse」，直接回答 Itraconazole 作為一線及維持治療可行性，30 例完成"
+        },
+        {
+          "nct_id": "NCT00000639",
+          "relevance_grade": "B",
+          "reasoning": "比較 AmB+Flucytosine vs AmB 誘導療法，400 例大型試驗提供基準治療比較架構，Itraconazole 非直接研究藥物，但為後續維持治療橋接研究提供誘導療法參考標準"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "2552949", "study_type": "Clinical Trial/Prospective Cohort (Itraconazole direct)", "tier": "2"},
+        {"pmid": "8114801", "study_type": "Clinical Review/Comparative Analysis", "tier": "2"},
+        {"pmid": "3010846", "study_type": "Comparative Study (Itraconazole vs Fluconazole)", "tier": "2"},
+        {"pmid": "38935902", "study_type": "Systematic Review (WHO FPPЛ)", "tier": "1"},
+        {"pmid": "29785613", "study_type": "Review (Neuroinfections)", "tier": "2"},
+        {"pmid": "32527201", "study_type": "Retrospective Cohort", "tier": "2"},
+        {"pmid": "38141953", "study_type": "Susceptibility/Outcome Analysis", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "trichosporonosis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Trichosporon asahii 等對三唑類具部分敏感性，Itraconazole 體外 MIC₅₀ 通常 0.03–1 mg/L，但播散性感染臨床療效有限，因固有耐藥株比例高且免疫缺陷宿主清除力不足。PMID 33164224 體外研究顯示 ALA-PDT 聯合 Itraconazole 具協同效應。文獻包含體外敏感性數據、動物模型及個案報告，無對照試驗。PMID 34567886 系統性回顧確認 Itraconazole 為 Trichosporon 感染可選治療之一，但建議先行 MIC 檢測。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "33164224", "study_type": "In vitro + ALA-PDT Combination Study", "tier": "3"},
+        {"pmid": "9444410", "study_type": "Animal Model/In vitro Combination", "tier": "3"},
+        {"pmid": "34567886", "study_type": "Comprehensive Systematic Review", "tier": "1"},
+        {"pmid": "27286691", "study_type": "Retrospective Cohort (Infants, Safety)", "tier": "2"},
+        {"pmid": "40353656", "study_type": "In vitro Susceptibility (2025)", "tier": "3"},
+        {"pmid": "21979867", "study_type": "Genotyping/Susceptibility", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "hyalohyphomycosis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Hyalohyphomycosis 為多病原菌疾病譜（Paecilomyces lilacinus、Fusarium spp.、Acremonium 等），Itraconazole 療效因病原菌種差異極大。對 Paecilomyces lilacinus 有明確個案報告療效（PMID 10614958、11981740），但 Fusarium 屬天然耐藥（MIC > 16 mg/L）。PMID 38935914 系統性回顧（WHO FPPЛ）確認 Fusarium 對 Itraconazole 耐藥，不建議用於 Fusariosis。建議依病原菌別個別進行體外敏感性測試後方可決策。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "10614958", "study_type": "Case Report (Paecilomyces, successful)", "tier": "3"},
+        {"pmid": "15357743", "study_type": "Case Series/Review (Paecilomyces)", "tier": "3"},
+        {"pmid": "11981740", "study_type": "Case Report (Paecilomyces, rapid response)", "tier": "3"},
+        {"pmid": "38935914", "study_type": "Systematic Review WHO (Fusarium)", "tier": "1"},
+        {"pmid": "28705676", "study_type": "Review (Current Fusariosis Treatment)", "tier": "2"},
+        {"pmid": "26702918", "study_type": "In vitro Combination (Natamycin+Itraconazole)", "tier": "3"},
+        {"pmid": "38550822", "study_type": "Case Report (Immunocompetent, Fusariosis response)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "penicilliosis",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Talaromyces marneffei（原 Penicillium marneffei）對 Itraconazole 具高度敏感性（MIC₉₀ ≤ 0.125 mg/L）。Itraconazole 為 WHO 2022 指南推薦之 T. marneffei 感染鞏固期（consolidation）及次級預防（secondary prophylaxis）標準用藥，靜脈 AmB 誘導 2 週後，口服 Itraconazole 10 週為東南亞標準療程。NCT06525389（Phase 3 LAmB-FAST，428 例）將 Itraconazole consolidation 作為對照標準臂，確立現行地位。主要護欄：需監控血清谷濃度（目標 > 0.5 mg/L）、與 HIV 用藥（EFV、NVP）之 CYP3A4 交互作用（NCT04031053 PK 研究直接處理此問題）、以及吸收不穩定問題（膠囊劑型需與食物/酸性飲料同服）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06525389",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 LAmB-FAST（428 例），Itraconazole consolidation 為標準對照臂，直接確立其在 Talaromycosis 治療流程中的核心地位，雖尚未招募（2024），設計最高證據等級"
+        },
+        {
+          "nct_id": "NCT06926569",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，LAmB 單次高劑量聯合 B/F/TAF 替代方案研究，Itraconazole 為比較標準，116 例，間接強化 Itraconazole 作為現行標準治療之參照地位"
+        },
+        {
+          "nct_id": "NCT04031053",
+          "relevance_grade": "C",
+          "reasoning": "PK/DDI 研究（20 例，狀態 UNKNOWN），評估 Efavirenz 對 Itraconazole 膠囊 PK 影響，直接回答 HIV/AIDS 併用最常見 DDI 問題，提供安全性實施參數，非療效研究"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38935909", "study_type": "Systematic Review (WHO FPPЛ, Talaromyces)", "tier": "1"},
+        {"pmid": "9831676", "study_type": "Cohort/Epidemiology (Management Guidelines)", "tier": "2"},
+        {"pmid": "10561715", "study_type": "Review/Cohort (AIDS-defining illness)", "tier": "2"},
+        {"pmid": "8816141", "study_type": "Case Series Review (155 cases)", "tier": "2"},
+        {"pmid": "25391487", "study_type": "Prospective Cohort (Haiphong, Mortality)", "tier": "2"},
+        {"pmid": "16242368", "study_type": "Comparative Cohort (vs Histoplasmosis)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "geotrichosis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Geotrichum/Saprochaete 屬（G. capitatum, G. klebahnii）對三唑類具部分敏感性，PMID 19621612 體外研究確認 Itraconazole 有活性。PMID 21088357 報告 LAmB 聯合 Itraconazole 成功治療 G. capitatum 感染。PMID 28150341 FungiScope 23 例回顧性研究為目前最大病例系列，但最佳治療方案仍無共識。疾病罕見性（全球案例 < 200 例）導致 RCT 設計不可行，適合作為罕見真菌感染研究問題，治療前務必進行 MIC 測試。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "28150341", "study_type": "Retrospective Case Series (FungiScope, 23 cases)", "tier": "2"},
+        {"pmid": "21088357", "study_type": "Case Report (LAmB + Itraconazole, successful)", "tier": "3"},
+        {"pmid": "19621612", "study_type": "In vitro Susceptibility", "tier": "3"},
+        {"pmid": "9670762", "study_type": "Case Report + Literature Review", "tier": "3"},
+        {"pmid": "9775185", "study_type": "Case Report + Literature Review", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "maple bark strippers' lung",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Maple bark strippers' lung 為接觸楓樹皮下真菌 Cryptostroma corticale 孢子引起的過敏性肺炎（Hypersensitivity Pneumonitis，HP），屬 III/IV 型超敏反應，並非活性真菌感染。病理機轉為免疫複合物沉積及 CD4+ T 細胞介導肉芽腫反應，抗真菌藥物對此免疫病理機制無治療作用。標準治療為迴避過敏原和必要時使用類固醇。文獻數為零，TxGNN 高分（0.888）為演算法在「真菌相關肺部疾病」知識圖譜節點的非特異性泛化推論，無任何臨床應用依據，建議從候選清單中移除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "leprosy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Leprosy（痲瘋病）由 Mycobacterium leprae（革蘭氏陽性、抗酸性分枝桿菌）引起，Itraconazole 為純抗真菌藥物，對細菌無任何抗菌活性，機轉根本不符。現有 20 篇文獻均與 Leprosy 治療無直接關聯：主要為皮膚癬菌症、Lobomycosis、皮膚真菌合併感染描述（PMID 18390158 為麻瘋+副球孢子菌症合併感染個案），以及 NTD 藥物管線綜述（PMID 37907954）。TxGNN 高分（0.875）可能源自知識圖譜中「慢性皮膚肉芽腫疾病」節點的跨疾病錯誤連結（麻瘋皮膚肉芽腫 vs 真菌性肉芽腫）。建議從候選清單中移除並標記為演算法偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "18390158", "study_type": "Case Report (Leprosy + Paracoccidioidomycosis coinfection)", "tier": "3"},
+        {"pmid": "37907954", "study_type": "Review (NTD Drug Pipeline, indirect)", "tier": "2"},
+        {"pmid": "38574764", "study_type": "Review (Dermatophytosis, not Leprosy)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "congenital candidiasis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Itraconazole 對 Candida albicans 具明確抗真菌活性（CYP51 抑制），機轉可行。然而新生兒 PK 特殊：口服吸收不穩定（依賴酸性胃環境），血清白蛋白低導致游離藥物濃度不可預測，且無新生兒 PK/PD 劑量確認研究。PMID 34898894 明確指出妊娠/新生兒期使用 Itraconazole 安全性疑慮（潛在致畸性、QT 延長、心臟毒性）。僅有 PMID 1326096（1992 年）1 例新生兒 Candida 敗血症個案報告，距今 34 年，缺乏當代安全性評估。現行新生兒念珠菌感染指南首選 Fluconazole（有充足 PK 資料）或 AmB，在更強安全性數據出現前建議 Hold。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "1326096", "study_type": "Case Report (Neonatal, 1992)", "tier": "3"},
+        {"pmid": "34898894", "study_type": "Review (Antifungals in Pregnancy/Neonates, Safety)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "candida glabrata",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Candida glabrata（現稱 Nakaseomyces glabrata）具天然降低三唑類敏感性之特性，主因 CYP51 基因多態性、CDR1/CDR2 外排泵過表達及生物膜形成。PMID 12234857 前瞻性多中心監測研究（2002）確認 C. glabrata 對 Itraconazole 耐藥率高，臨床失敗案例有記錄。PMID 33875436 體外研究顯示 Pyrogallol+Fluconazole 有協同效應，但無 Itraconazole 組合優勢數據。ESCMID/IDSA 指南均不推薦 Itraconazole 作為 C. glabrata 感染一線或次選治療（Echinocandins 為首選，Amphotericin B 為次選）。現有文獻主要為流行病學耐藥監測，非治療療效研究，臨床使用將面臨既有耐藥性障礙。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "12234857", "study_type": "Prospective Multicenter Surveillance", "tier": "2"},
+        {"pmid": "37623592", "study_type": "Observational Susceptibility Study", "tier": "3"},
+        {"pmid": "38308518", "study_type": "Epidemiology/Molecular Resistance", "tier": "3"},
+        {"pmid": "15258831", "study_type": "In vitro Susceptibility (Voriconazole vs others)", "tier": "3"},
+        {"pmid": "35369470", "study_type": "MLST + Susceptibility", "tier": "3"}
+      ]
+    }
+  ],
+  "summary_matrix": {
+    "L1": [],
+    "L2": ["Cryptococcal meningitis", "penicilliosis"],
+    "L3": ["trichosporonosis", "hyalohyphomycosis", "geotrichosis", "candida glabrata"],
+    "L4": ["pneumocystosis", "congenital candidiasis"],
+    "L5": ["maple bark strippers' lung", "leprosy"]
+  },
+  "priority_recommendations": [
+    {
+      "rank": 1,
+      "disease": "penicilliosis",
+      "rationale": "最強臨床證據（L2），WHO 指南已推薦，Phase 3 試驗設計確立標準地位，東南亞流行區域高度相關，建議優先進行新加坡本地流行病學評估及藥品可及性規劃"
+    },
+    {
+      "rank": 2,
+      "disease": "Cryptococcal meningitis",
+      "rationale": "L2 證據、2 項 Phase 2 RCT 完成，建議作為 Fluconazole 不可及時之替代選項，需制定 TDM 監測及 DDI 管理護欄"
+    },
+    {
+      "rank": 3,
+      "disease": "trichosporonosis / hyalohyphomycosis / geotrichosis",
+      "rationale": "三者均為 L3 稀有真菌感染，合併為罕見真菌感染研究問題，建議建立前瞻性病例登記（registry）並強制 MIC 測試指導個體化治療"
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 建議移除候選清單（演算法偽陽性）
+
+| 疾病 | 原因 |
+|------|------|
+| **leprosy** | 病原為細菌（M. leprae），抗真菌藥物機轉根本不符，KG 節點錯誤連結 |
+| **maple bark strippers' lung** | 超敏反應性肺炎，非感染性，抗真菌無治療依據，文獻數為零 |
+
+### 🟡 資料品質警示
+
+- **ddi_count=0** 嚴重異常 — Itraconazole 為強效 CYP3A4/P-gp 抑制劑，與 HIV 藥物（尤其 NNRTI/PI）、Calcineurin inhibitors、Statins、抗癲癇藥等有重大交互作用，此欄位缺失將嚴重低估臨床安全性風險
+- **market_status=未上市** 需確認是否為新加坡 HSA 登記資料缺失，而非全球未核准狀態

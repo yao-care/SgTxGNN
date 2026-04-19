@@ -1,0 +1,1938 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00568-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cinnarizine",
+    "drugbank_id": "DB00568",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9768595099449158,
+        "rank": 18483
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31413170",
+            "title": "Practice guideline update summary: Pharmacologic treatment for pediatric migraine prevention: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Headache Society.",
+            "authors": [
+              "Oskoui Maryam",
+              "Pringsheim Tamara",
+              "Billinghurst Lori",
+              "Potrebic Sonja",
+              "Gersz Elaine M"
+            ],
+            "journal": "Neurology",
+            "year": "2019",
+            "abstract": "To provide updated evidence-based recommendations for migraine prevention using pharmacologic treatment with or without cognitive behavioral therapy in the pediatric population.",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36148684",
+            "title": "Application of cinnarizine in migraine prevention: A systematic review and meta-analysis.",
+            "authors": [
+              "Shafie'ei Mohammad",
+              "Kouhanjani Mohsen Farjoud",
+              "Akbari Zahra",
+              "Sarvipour Nastaran",
+              "Shekouh Dorsa"
+            ],
+            "journal": "Pain practice : the official journal of World Institute of Pain",
+            "year": "2022",
+            "abstract": "To investigate and analyze the available data on the prophylactic effectiveness of cinnarizine in migraine disorder.",
+            "classification": {
+              "study_type": "Systematic Review + Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25217187",
+            "title": "Breastfeeding and migraine drugs.",
+            "authors": [
+              "Davanzo Riccardo",
+              "Bua Jenny",
+              "Paloni Giulia",
+              "Facchina Giulia"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2014",
+            "abstract": "Breastfeeding women may suffer from migraine. While we have many drugs for its treatment and prophylaxis, the majority are poorly studied in breastfeeding women. We conducted a review of the most common anti-migraine drugs (AMDs) and we determined their lactation risk.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38641932",
+            "title": "A comparative study on prophylactic efficacy of cinnarizine and amitriptyline in childhood migraine: a randomized double-blind clinical trial.",
+            "authors": [
+              "Olfat Mehrnaz",
+              "Hosseinpour Sareh",
+              "Masoumi Safdar",
+              "Gogia Rastogi Reena",
+              "Vance Hastriter Eric"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2024",
+            "abstract": "Pediatric migraine prophylaxis is indicated when headaches are frequent and/or disabling. We aimed to conduct a study to compare the efficacy of cinnarizine and amitriptyline in pediatric migraine prophylaxis.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39388181",
+            "title": "Preventive Medications in Pediatric Migraine: A Network Meta-Analysis.",
+            "authors": [
+              "Kohandel Gargari Omid",
+              "Aghajanian Sepehr",
+              "Togha Mansoureh",
+              "Mohammadifard Fateme",
+              "Abyaneh Romina"
+            ],
+            "journal": "JAMA network open",
+            "year": "2024",
+            "abstract": "Pediatric migraine substantially impacts quality of life and academic performance among children and adolescents. Understanding the efficacy and safety of pharmacological interventions for migraine prophylaxis in this population is crucial for developing effective treatment strategies.",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25709150",
+            "title": "Association of cinnarizine and betahistine in prophylactic therapy for Ménière's disease with and without migraine.",
+            "authors": [
+              "Teggi R",
+              "Gatti O",
+              "Sykopetrites V",
+              "Quaglieri S",
+              "Benazzo M"
+            ],
+            "journal": "Acta otorhinolaryngologica Italica : organo ufficiale della Societa italiana di otorinolaringologia e chirurgia cervico-facciale",
+            "year": "2014",
+            "abstract": "Prophylactic therapy of Ménière's disease (MD) includes betahistine and calcium-blockers (the latter also useful for migraine prevention). The aim of our work was to assess the efficacy of combined therapy with cinnarizine and betahistine in MD subjects both with and without migraine and poorly responsive to betahistine alone. Fifty-two MD subjects were included who were poorly responsive to betahistine during 6 months of follow-up; 29 were migraineurs. Combined therapy was administered with bet",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31707814",
+            "title": "Cinnarizine and sodium valproate as the preventive agents of pediatric migraine: A randomized double-blind placebo-controlled trial.",
+            "authors": [
+              "Amanat Man",
+              "Togha Mansoureh",
+              "Agah Elmira",
+              "Ramezani Mahtab",
+              "Tavasoli Ali Reza"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2020",
+            "abstract": "Few migraine preventive agents have been assessed in a pediatric population. We evaluated the safety and efficacy of cinnarizine and sodium valproate for migraine prophylaxis in children and adolescents.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24433203",
+            "title": "Histamine in migraine and brain.",
+            "authors": [
+              "Alstadhaug Karl B"
+            ],
+            "journal": "Headache",
+            "year": "2014",
+            "abstract": "Histamine has been studied in both health and disease since the initial description a century ago. With its vasodilative effect, it was suggested early on to be involved in the pathophysiology of migraine. Over the past 25 years, much has been learned about histamine as a neurotransmitter in the central nervous system. The role of this neurotransmitter system in migraine has not been previously reviewed.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37114310",
+            "title": "Comparison of the Effect of Propranolol Combination with Cinnarizine and Propranolol in the Prevention of Acute Migraine Attacks.",
+            "authors": [
+              "Adeeb Sheet Dereen",
+              "Bibani Rashid Hamid",
+              "Kheder Azad Hasan"
+            ],
+            "journal": "Cellular and molecular biology (Noisy-le-Grand, France)",
+            "year": "2022",
+            "abstract": "Acute migraine attacks disrupt performance and reduce the quality of life. Therefore, efforts to prevent these attacks continue using different medications. This study aimed to compare the effect of cinnarizine combination with propranolol and propranolol with placebo in preventing acute migraine attacks. This study was a semi-experimental study performed on 120 adult patients with migraine referred to Department of Neurology in Rezgary Teaching Hospital in Erbil.. Participants were randomly all",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25023977",
+            "title": "Efficacy and safety of cinnarizine in the prophylaxis of migraine in children: a double-blind placebo-controlled randomized trial.",
+            "authors": [
+              "Ashrafi Mahmoud Reza",
+              "Salehi Soodeh",
+              "Malamiri Reza Azizi",
+              "Heidari Morteza",
+              "Hosseini Seyed Ahmad"
+            ],
+            "journal": "Pediatric neurology",
+            "year": "2014",
+            "abstract": "In spite of the high occurrence of migraine headaches in school-age children, there are currently no approved and widely accepted pharmacologic agents for migraine prophylaxis in children. Our previous open-label study in children revealed the efficacy of cinnarizine, a calcium channel blocker, in migraine prophylaxis. A placebo-controlled trial was conducted to demonstrate the efficacy and safety of cinnarizine in the prophylaxis of migraine in children.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32597267",
+            "title": "Cinnarizine as an alternative recommendation for migraine prophylaxis: a narrative review.",
+            "authors": [
+              "Togha Mansoureh",
+              "Martami Fahime",
+              "Abdollahi Mohammad",
+              "Mozafari Mohammad",
+              "Cheraghali Hamed"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2020",
+            "abstract": "Despite the available prophylactic and acute drugs for migraine management, this disabling disorder remains undertreated especially among pediatrics. In this review, the authors aim at assessing the preventive role cinnarizine plays in treating migraine based on previously published studies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22427290",
+            "title": "Efficacy and safety of cinnarizine in the prophylaxis of migraine headaches in children: an open, randomized comparative trial with propranolol.",
+            "authors": [
+              "Togha Mansoureh",
+              "Malamiri Reza Azizi",
+              "Rashidi-Ranjbar Neda",
+              "Asa Solmaz",
+              "Mahvelati Farhad"
+            ],
+            "journal": "Acta neurologica Belgica",
+            "year": "2012",
+            "abstract": "Migraine headaches are common in children. Early diagnosis and appropriate interventions are mandatory to prevent decades of suffering and diminished quality of life. There is need for data regarding the efficacy and safety of prophylactic agents in children with migraine; therefore, we designed a randomized clinical trial to compare the efficacy and safety of cinnarizine with that of a well-known prophylactic agent (propranolol) in the prophylaxis of pediatric migraine headache. A total of 120 ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18286231",
+            "title": "Cinnarizine in refractory migraine prophylaxis: efficacy and tolerability. A comparison with sodium valproate.",
+            "authors": [
+              "Togha Mansoureh",
+              "Rahmat Jirde Masoud",
+              "Nilavari Kiafar",
+              "Ashrafian Hosein",
+              "Razeghi Soodeh"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2008",
+            "abstract": "This was a double-blind clinical trial designed to assess the efficacy and safety of the cinnarizine (CIN) in patients with migraine who were refractory to propranolol and tricyclic antidepressants in comparison with sodium valproate (SV) to investigate whether CIN could be at least as effective as SV. A total of 125 patients were treated in a treatment period of 12 weeks. All patients had at least one intake of trial medication and 2-week post baseline efficacy observation which all were includ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25266610",
+            "title": "Cinnarizine: a promising agent for migraine prevention you may never get the chance to use.",
+            "authors": [
+              "DiSabella Marc T"
+            ],
+            "journal": "Pediatric neurology",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31955597",
+            "title": "Nomenclature for flunarizine, cinnarizine, and lomerizine.",
+            "authors": [
+              "Chu Min Kyung",
+              "Wang Shuu-Jiun"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26037548",
+            "title": "Fixed combination of cinnarizine and dimenhydrinate in the prophylactic therapy of vestibular migraine: an observational study.",
+            "authors": [
+              "Teggi R",
+              "Colombo B",
+              "Gatti O",
+              "Comi G",
+              "Bussi M"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2015",
+            "abstract": "Vestibular migraine (VM) is one of the most frequent causes of episodic vertigo, with a lifetime prevalence of 0.98%. Prophylactic therapy includes calcium channel blockers, beta-blockers, antiepileptic drugs and antidepressants. We studied the association of cinnarizine 20 mg and dimenhydrinate 40 mg (Arlevertan) in a group of 22 patients affected by definite VM. Proposed therapy included one tablet twice a day for 1 month, which was repeated three times with 1 month of interval between drug in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12789824",
+            "title": "[Comparative efficacy of betaserc and cinnarizine of vertigo in patients with migraine].",
+            "authors": [
+              "Amelin A V",
+              "Skoromets A A",
+              "Gonchar M A",
+              "Tumelevich B Ch",
+              "Nikitin K A"
+            ],
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2003",
+            "abstract": "Headache and vertigo often emerge simultaneously. Fifty six (40%) out of 140 patients complaining of vertigo were studied. Emerging in the aura and/or in headache phases, vertigo was more frequently registered in patients suffered from migraine with aura (57%). Vertigo associated with migraine was diagnosed in 25% of the cases. The patients were randomized into 2 equal identical groups, one of which was treated by betaserc (16 mg, 3 times daily before meal) and the other one was given cinnarizin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14703897",
+            "title": "Cinnarizine in migraine prophylaxis: efficacy, tolerability and predictive factors for therapeutic responsiveness. An open-label pilot trial.",
+            "authors": [
+              "Rossi Paolo",
+              "Fiermonte Giancarlo",
+              "Pierelli Francesco"
+            ],
+            "journal": "Functional neurology",
+            "year": "2003",
+            "abstract": "The efficacy and tolerability of cinnarizine (75 mg, at bedtime) in migraine prophylaxis and the presence of possible predictive factors for therapeutic responsiveness were evaluated in an open-label pilot trial. Eighty consecutive outpatients suffering from migraine with or without aura participated in the study. After 12 weeks of therapy, 55 patients experienced a greater than 66% reduction in headache frequency and were considered responders. A significant reduction in the number of migraine ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2425960",
+            "title": "Calcium channel antagonists and the treatment of migraine.",
+            "authors": [
+              "Greenberg D A"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "1986",
+            "abstract": "Despite ongoing dispute over the pathophysiologic basis of migraine, the vasospastic theory of pathogenesis has brought to the forefront a promising class of new antimigraine agents, the Ca2+ channel antagonists. Voltage-dependent Ca2+ channels, integral membrane proteins that permit extracellular Ca2+ to enter cells down their electrical and concentration gradients, have a universal role in stimulus-response coupling in excitable cells. Thus, they participate in translating electrical excitatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36200521",
+            "title": "A systematic review and meta-analysis of prophylactic medication of vestibular migraine.",
+            "authors": [
+              "Yiannakis C",
+              "Hamilton L",
+              "Slim M",
+              "Kontorinis G"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "2023",
+            "abstract": "Vestibular migraine is in the process of recognition as an individual clinical entity. At present, no guidelines exist for its management. This study aimed to conduct a systematic review and meta-analysis to determine the effectiveness of available prophylactic medication.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cinnarizine 阻斷腦血管平滑肌 L/T 型鈣離子通道，抑制皮質擴散性抑制（CSD）；H1 拮抗作用降低組織胺介導的血管擴張；多篇 RCT 及 2022 系統性回顧確認預防效果，尤其在兒童族群有雙盲安慰劑對照試驗支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.972676694393158,
+        "rank": 20250
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25023977",
+            "title": "Efficacy and safety of cinnarizine in the prophylaxis of migraine in children: a double-blind placebo-controlled randomized trial.",
+            "authors": [
+              "Ashrafi Mahmoud Reza",
+              "Salehi Soodeh",
+              "Malamiri Reza Azizi",
+              "Heidari Morteza",
+              "Hosseini Seyed Ahmad"
+            ],
+            "journal": "Pediatric neurology",
+            "year": "2014",
+            "abstract": "In spite of the high occurrence of migraine headaches in school-age children, there are currently no approved and widely accepted pharmacologic agents for migraine prophylaxis in children. Our previous open-label study in children revealed the efficacy of cinnarizine, a calcium channel blocker, in migraine prophylaxis. A placebo-controlled trial was conducted to demonstrate the efficacy and safety of cinnarizine in the prophylaxis of migraine in children.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12789824",
+            "title": "[Comparative efficacy of betaserc and cinnarizine of vertigo in patients with migraine].",
+            "authors": [
+              "Amelin A V",
+              "Skoromets A A",
+              "Gonchar M A",
+              "Tumelevich B Ch",
+              "Nikitin K A"
+            ],
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2003",
+            "abstract": "Headache and vertigo often emerge simultaneously. Fifty six (40%) out of 140 patients complaining of vertigo were studied. Emerging in the aura and/or in headache phases, vertigo was more frequently registered in patients suffered from migraine with aura (57%). Vertigo associated with migraine was diagnosed in 25% of the cases. The patients were randomized into 2 equal identical groups, one of which was treated by betaserc (16 mg, 3 times daily before meal) and the other one was given cinnarizin",
+            "classification": {
+              "study_type": "Comparative Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14703897",
+            "title": "Cinnarizine in migraine prophylaxis: efficacy, tolerability and predictive factors for therapeutic responsiveness. An open-label pilot trial.",
+            "authors": [
+              "Rossi Paolo",
+              "Fiermonte Giancarlo",
+              "Pierelli Francesco"
+            ],
+            "journal": "Functional neurology",
+            "year": "2003",
+            "abstract": "The efficacy and tolerability of cinnarizine (75 mg, at bedtime) in migraine prophylaxis and the presence of possible predictive factors for therapeutic responsiveness were evaluated in an open-label pilot trial. Eighty consecutive outpatients suffering from migraine with or without aura participated in the study. After 12 weeks of therapy, 55 patients experienced a greater than 66% reduction in headache frequency and were considered responders. A significant reduction in the number of migraine ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24834377",
+            "title": "Cinnarizine for the prophylaxis of migraine associated vertigo: a retrospective study.",
+            "authors": [
+              "Taghdiri Foad",
+              "Togha Mansoureh",
+              "Razeghi Jahromi Soodeh",
+              "Refaeian Farshid"
+            ],
+            "journal": "SpringerPlus",
+            "year": "2014",
+            "abstract": "To assess the efficacy and safety of cinnarizine for the prophylaxis of migraine associated vertigo in the vestibular migraine and migraine with brainstem aura.",
+            "classification": {
+              "study_type": "Retrospective Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "基底型偏頭痛（Brainstem aura）涉及後循環血管痙攣與腦幹神經元過度活化，Cinnarizine 的鈣通道阻斷可改善後循環血流，同時 H1 拮抗抑制組織胺介導的腦幹觸發機制。現有回顧性研究支持其對偏頭痛相關暈眩的效果，但缺乏針對此亞型的專屬 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9687052965164183,
+        "rank": 21728
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無明確機轉連結。NSIAD 涉及 AVPR2 基因活化突變導致腎臟持續水重吸收，Cinnarizine 的鈣通道阻斷和 H1 拮抗與此病生理無已知交集。TxGNN 預測分數高（0.969）可能來自知識圖譜中間接節點連接，缺乏生物學合理性支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.959895670413971,
+        "rank": 24306
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31413170",
+            "title": "Practice guideline update summary: Pharmacologic treatment for pediatric migraine prevention: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Headache Society.",
+            "authors": [
+              "Oskoui Maryam",
+              "Pringsheim Tamara",
+              "Billinghurst Lori",
+              "Potrebic Sonja",
+              "Gersz Elaine M"
+            ],
+            "journal": "Neurology",
+            "year": "2019",
+            "abstract": "To provide updated evidence-based recommendations for migraine prevention using pharmacologic treatment with or without cognitive behavioral therapy in the pediatric population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39388181",
+            "title": "Preventive Medications in Pediatric Migraine: A Network Meta-Analysis.",
+            "authors": [
+              "Kohandel Gargari Omid",
+              "Aghajanian Sepehr",
+              "Togha Mansoureh",
+              "Mohammadifard Fateme",
+              "Abyaneh Romina"
+            ],
+            "journal": "JAMA network open",
+            "year": "2024",
+            "abstract": "Pediatric migraine substantially impacts quality of life and academic performance among children and adolescents. Understanding the efficacy and safety of pharmacological interventions for migraine prophylaxis in this population is crucial for developing effective treatment strategies.",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25709150",
+            "title": "Association of cinnarizine and betahistine in prophylactic therapy for Ménière's disease with and without migraine.",
+            "authors": [
+              "Teggi R",
+              "Gatti O",
+              "Sykopetrites V",
+              "Quaglieri S",
+              "Benazzo M"
+            ],
+            "journal": "Acta otorhinolaryngologica Italica : organo ufficiale della Societa italiana di otorinolaringologia e chirurgia cervico-facciale",
+            "year": "2014",
+            "abstract": "Prophylactic therapy of Ménière's disease (MD) includes betahistine and calcium-blockers (the latter also useful for migraine prevention). The aim of our work was to assess the efficacy of combined therapy with cinnarizine and betahistine in MD subjects both with and without migraine and poorly responsive to betahistine alone. Fifty-two MD subjects were included who were poorly responsive to betahistine during 6 months of follow-up; 29 were migraineurs. Combined therapy was administered with bet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36148684",
+            "title": "Application of cinnarizine in migraine prevention: A systematic review and meta-analysis.",
+            "authors": [
+              "Shafie'ei Mohammad",
+              "Kouhanjani Mohsen Farjoud",
+              "Akbari Zahra",
+              "Sarvipour Nastaran",
+              "Shekouh Dorsa"
+            ],
+            "journal": "Pain practice : the official journal of World Institute of Pain",
+            "year": "2022",
+            "abstract": "To investigate and analyze the available data on the prophylactic effectiveness of cinnarizine in migraine disorder.",
+            "classification": {
+              "study_type": "Systematic Review + Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38641932",
+            "title": "A comparative study on prophylactic efficacy of cinnarizine and amitriptyline in childhood migraine: a randomized double-blind clinical trial.",
+            "authors": [
+              "Olfat Mehrnaz",
+              "Hosseinpour Sareh",
+              "Masoumi Safdar",
+              "Gogia Rastogi Reena",
+              "Vance Hastriter Eric"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2024",
+            "abstract": "Pediatric migraine prophylaxis is indicated when headaches are frequent and/or disabling. We aimed to conduct a study to compare the efficacy of cinnarizine and amitriptyline in pediatric migraine prophylaxis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31955597",
+            "title": "Nomenclature for flunarizine, cinnarizine, and lomerizine.",
+            "authors": [
+              "Chu Min Kyung",
+              "Wang Shuu-Jiun"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review/Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1840336",
+            "title": "Magnesium and its combination with cinnarizine in the long-term treatment of headache.",
+            "authors": [
+              "Opavský J"
+            ],
+            "journal": "Acta Universitatis Palackianae Olomucensis Facultatis Medicae",
+            "year": "1991",
+            "abstract": "Some of the so-called calcium antagonists are effectively applied in the prophylactic treatment of migraine. Magnesium compounds reveal some calcium- antagonistic features, which was the reason of magnesium compounds (magnesium sulphate i.m. or magnesium lactate p.o.) evaluation at chronic migraine-patients. The compounds were administered or alone or in combination with cinnarizine (in case of magnesium sulphate). Beneficial effects were registered both after application of magnesium sulphate a",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25217187",
+            "title": "Breastfeeding and migraine drugs.",
+            "authors": [
+              "Davanzo Riccardo",
+              "Bua Jenny",
+              "Paloni Giulia",
+              "Facchina Giulia"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2014",
+            "abstract": "Breastfeeding women may suffer from migraine. While we have many drugs for its treatment and prophylaxis, the majority are poorly studied in breastfeeding women. We conducted a review of the most common anti-migraine drugs (AMDs) and we determined their lactation risk.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24433203",
+            "title": "Histamine in migraine and brain.",
+            "authors": [
+              "Alstadhaug Karl B"
+            ],
+            "journal": "Headache",
+            "year": "2014",
+            "abstract": "Histamine has been studied in both health and disease since the initial description a century ago. With its vasodilative effect, it was suggested early on to be involved in the pathophysiology of migraine. Over the past 25 years, much has been learned about histamine as a neurotransmitter in the central nervous system. The role of this neurotransmitter system in migraine has not been previously reviewed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31707814",
+            "title": "Cinnarizine and sodium valproate as the preventive agents of pediatric migraine: A randomized double-blind placebo-controlled trial.",
+            "authors": [
+              "Amanat Man",
+              "Togha Mansoureh",
+              "Agah Elmira",
+              "Ramezani Mahtab",
+              "Tavasoli Ali Reza"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2020",
+            "abstract": "Few migraine preventive agents have been assessed in a pediatric population. We evaluated the safety and efficacy of cinnarizine and sodium valproate for migraine prophylaxis in children and adolescents.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31529477",
+            "title": "Practice guideline update summary: Pharmacologic treatment for pediatric migraine prevention: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Headache Society.",
+            "authors": [
+              "Oskoui Maryam",
+              "Pringsheim Tamara",
+              "Billinghurst Lori",
+              "Potrebic Sonja",
+              "Gersz Elaine M"
+            ],
+            "journal": "Headache",
+            "year": "2019",
+            "abstract": "To provide updated evidence-based recommendations for migraine prevention using pharmacologic treatment with or without cognitive behavioral therapy in the pediatric population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37114310",
+            "title": "Comparison of the Effect of Propranolol Combination with Cinnarizine and Propranolol in the Prevention of Acute Migraine Attacks.",
+            "authors": [
+              "Adeeb Sheet Dereen",
+              "Bibani Rashid Hamid",
+              "Kheder Azad Hasan"
+            ],
+            "journal": "Cellular and molecular biology (Noisy-le-Grand, France)",
+            "year": "2022",
+            "abstract": "Acute migraine attacks disrupt performance and reduce the quality of life. Therefore, efforts to prevent these attacks continue using different medications. This study aimed to compare the effect of cinnarizine combination with propranolol and propranolol with placebo in preventing acute migraine attacks. This study was a semi-experimental study performed on 120 adult patients with migraine referred to Department of Neurology in Rezgary Teaching Hospital in Erbil.. Participants were randomly all",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25023977",
+            "title": "Efficacy and safety of cinnarizine in the prophylaxis of migraine in children: a double-blind placebo-controlled randomized trial.",
+            "authors": [
+              "Ashrafi Mahmoud Reza",
+              "Salehi Soodeh",
+              "Malamiri Reza Azizi",
+              "Heidari Morteza",
+              "Hosseini Seyed Ahmad"
+            ],
+            "journal": "Pediatric neurology",
+            "year": "2014",
+            "abstract": "In spite of the high occurrence of migraine headaches in school-age children, there are currently no approved and widely accepted pharmacologic agents for migraine prophylaxis in children. Our previous open-label study in children revealed the efficacy of cinnarizine, a calcium channel blocker, in migraine prophylaxis. A placebo-controlled trial was conducted to demonstrate the efficacy and safety of cinnarizine in the prophylaxis of migraine in children.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6141924",
+            "title": "[Chronic analgesic-induced headache].",
+            "authors": [
+              "Dichgans J",
+              "Diener H C",
+              "Gerber W D",
+              "Verspohl E J",
+              "Kukiolka H"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1984",
+            "abstract": "Fifty-two patients, most of whom had had daily headaches for years, were examined and treated. Among them there were 40 who originally had migraine, the others had vasomotor or post-contusional headaches. Average duration of the migraine was 21 years, of chronic headache 7.6 years. All patients had been taking analgesics of a mixed type regularly and for a long time, on average 35.6 tablets or suppositories weekly. All patients had taken more than three different drugs. After an observation peri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22427290",
+            "title": "Efficacy and safety of cinnarizine in the prophylaxis of migraine headaches in children: an open, randomized comparative trial with propranolol.",
+            "authors": [
+              "Togha Mansoureh",
+              "Malamiri Reza Azizi",
+              "Rashidi-Ranjbar Neda",
+              "Asa Solmaz",
+              "Mahvelati Farhad"
+            ],
+            "journal": "Acta neurologica Belgica",
+            "year": "2012",
+            "abstract": "Migraine headaches are common in children. Early diagnosis and appropriate interventions are mandatory to prevent decades of suffering and diminished quality of life. There is need for data regarding the efficacy and safety of prophylactic agents in children with migraine; therefore, we designed a randomized clinical trial to compare the efficacy and safety of cinnarizine with that of a well-known prophylactic agent (propranolol) in the prophylaxis of pediatric migraine headache. A total of 120 ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36200521",
+            "title": "A systematic review and meta-analysis of prophylactic medication of vestibular migraine.",
+            "authors": [
+              "Yiannakis C",
+              "Hamilton L",
+              "Slim M",
+              "Kontorinis G"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "2023",
+            "abstract": "Vestibular migraine is in the process of recognition as an individual clinical entity. At present, no guidelines exist for its management. This study aimed to conduct a systematic review and meta-analysis to determine the effectiveness of available prophylactic medication.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26037548",
+            "title": "Fixed combination of cinnarizine and dimenhydrinate in the prophylactic therapy of vestibular migraine: an observational study.",
+            "authors": [
+              "Teggi R",
+              "Colombo B",
+              "Gatti O",
+              "Comi G",
+              "Bussi M"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2015",
+            "abstract": "Vestibular migraine (VM) is one of the most frequent causes of episodic vertigo, with a lifetime prevalence of 0.98%. Prophylactic therapy includes calcium channel blockers, beta-blockers, antiepileptic drugs and antidepressants. We studied the association of cinnarizine 20 mg and dimenhydrinate 40 mg (Arlevertan) in a group of 22 patients affected by definite VM. Proposed therapy included one tablet twice a day for 1 month, which was repeated three times with 1 month of interval between drug in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32276549",
+            "title": "Sodium valproate in paediatric migraine.",
+            "authors": [
+              "Gaki Eleni",
+              "Siapkara Angeliki",
+              "Morgan Sarah",
+              "Branch Sarah"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32597267",
+            "title": "Cinnarizine as an alternative recommendation for migraine prophylaxis: a narrative review.",
+            "authors": [
+              "Togha Mansoureh",
+              "Martami Fahime",
+              "Abdollahi Mohammad",
+              "Mozafari Mohammad",
+              "Cheraghali Hamed"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2020",
+            "abstract": "Despite the available prophylactic and acute drugs for migraine management, this disabling disorder remains undertreated especially among pediatrics. In this review, the authors aim at assessing the preventive role cinnarizine plays in treating migraine based on previously published studies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2425960",
+            "title": "Calcium channel antagonists and the treatment of migraine.",
+            "authors": [
+              "Greenberg D A"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "1986",
+            "abstract": "Despite ongoing dispute over the pathophysiologic basis of migraine, the vasospastic theory of pathogenesis has brought to the forefront a promising class of new antimigraine agents, the Ca2+ channel antagonists. Voltage-dependent Ca2+ channels, integral membrane proteins that permit extracellular Ca2+ to enter cells down their electrical and concentration gradients, have a universal role in stimulus-response coupling in excitable cells. Thus, they participate in translating electrical excitatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭痛障礙（廣義）涵蓋偏頭痛、緊張型頭痛等，Cinnarizine 對偏頭痛的鈣通道阻斷和血管調節機轉可延伸至其他血管性頭痛類型。現有文獻多聚焦於偏頭痛亞型，對非偏頭痛型頭痛缺乏直接 RCT 證據，建議在偏頭痛證據基礎上謹慎擴展。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.954831063747406,
+        "rank": 25504
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉自律神經頭痛（叢集性頭痛等）主要病生理為三叉神經-副交感神經反射弧異常活化，Cinnarizine 的鈣通道阻斷對此路徑無明確靶點。目前無任何臨床試驗或文獻支持此適應症，TxGNN 預測可能基於廣義頭痛節點相似性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.9407329559326172,
+        "rank": 28680
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39388181",
+            "title": "Preventive Medications in Pediatric Migraine: A Network Meta-Analysis.",
+            "authors": [
+              "Kohandel Gargari Omid",
+              "Aghajanian Sepehr",
+              "Togha Mansoureh",
+              "Mohammadifard Fateme",
+              "Abyaneh Romina"
+            ],
+            "journal": "JAMA network open",
+            "year": "2024",
+            "abstract": "Pediatric migraine substantially impacts quality of life and academic performance among children and adolescents. Understanding the efficacy and safety of pharmacological interventions for migraine prophylaxis in this population is crucial for developing effective treatment strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "Review/Animal Models",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25709150",
+            "title": "Association of cinnarizine and betahistine in prophylactic therapy for Ménière's disease with and without migraine.",
+            "authors": [
+              "Teggi R",
+              "Gatti O",
+              "Sykopetrites V",
+              "Quaglieri S",
+              "Benazzo M"
+            ],
+            "journal": "Acta otorhinolaryngologica Italica : organo ufficiale della Societa italiana di otorinolaringologia e chirurgia cervico-facciale",
+            "year": "2014",
+            "abstract": "Prophylactic therapy of Ménière's disease (MD) includes betahistine and calcium-blockers (the latter also useful for migraine prevention). The aim of our work was to assess the efficacy of combined therapy with cinnarizine and betahistine in MD subjects both with and without migraine and poorly responsive to betahistine alone. Fifty-two MD subjects were included who were poorly responsive to betahistine during 6 months of follow-up; 29 were migraineurs. Combined therapy was administered with bet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24433203",
+            "title": "Histamine in migraine and brain.",
+            "authors": [
+              "Alstadhaug Karl B"
+            ],
+            "journal": "Headache",
+            "year": "2014",
+            "abstract": "Histamine has been studied in both health and disease since the initial description a century ago. With its vasodilative effect, it was suggested early on to be involved in the pathophysiology of migraine. Over the past 25 years, much has been learned about histamine as a neurotransmitter in the central nervous system. The role of this neurotransmitter system in migraine has not been previously reviewed.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36148684",
+            "title": "Application of cinnarizine in migraine prevention: A systematic review and meta-analysis.",
+            "authors": [
+              "Shafie'ei Mohammad",
+              "Kouhanjani Mohsen Farjoud",
+              "Akbari Zahra",
+              "Sarvipour Nastaran",
+              "Shekouh Dorsa"
+            ],
+            "journal": "Pain practice : the official journal of World Institute of Pain",
+            "year": "2022",
+            "abstract": "To investigate and analyze the available data on the prophylactic effectiveness of cinnarizine in migraine disorder.",
+            "classification": {
+              "study_type": "Systematic Review + Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38641932",
+            "title": "A comparative study on prophylactic efficacy of cinnarizine and amitriptyline in childhood migraine: a randomized double-blind clinical trial.",
+            "authors": [
+              "Olfat Mehrnaz",
+              "Hosseinpour Sareh",
+              "Masoumi Safdar",
+              "Gogia Rastogi Reena",
+              "Vance Hastriter Eric"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2024",
+            "abstract": "Pediatric migraine prophylaxis is indicated when headaches are frequent and/or disabling. We aimed to conduct a study to compare the efficacy of cinnarizine and amitriptyline in pediatric migraine prophylaxis.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37114310",
+            "title": "Comparison of the Effect of Propranolol Combination with Cinnarizine and Propranolol in the Prevention of Acute Migraine Attacks.",
+            "authors": [
+              "Adeeb Sheet Dereen",
+              "Bibani Rashid Hamid",
+              "Kheder Azad Hasan"
+            ],
+            "journal": "Cellular and molecular biology (Noisy-le-Grand, France)",
+            "year": "2022",
+            "abstract": "Acute migraine attacks disrupt performance and reduce the quality of life. Therefore, efforts to prevent these attacks continue using different medications. This study aimed to compare the effect of cinnarizine combination with propranolol and propranolol with placebo in preventing acute migraine attacks. This study was a semi-experimental study performed on 120 adult patients with migraine referred to Department of Neurology in Rezgary Teaching Hospital in Erbil.. Participants were randomly all",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2425960",
+            "title": "Calcium channel antagonists and the treatment of migraine.",
+            "authors": [
+              "Greenberg D A"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "1986",
+            "abstract": "Despite ongoing dispute over the pathophysiologic basis of migraine, the vasospastic theory of pathogenesis has brought to the forefront a promising class of new antimigraine agents, the Ca2+ channel antagonists. Voltage-dependent Ca2+ channels, integral membrane proteins that permit extracellular Ca2+ to enter cells down their electrical and concentration gradients, have a universal role in stimulus-response coupling in excitable cells. Thus, they participate in translating electrical excitatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偏頭痛遺傳易感性與離子通道基因（CACNA1A、SCN1A）多態性相關，Cinnarizine 作為鈣通道調節劑在理論上可影響具鈣通道基因變異的易感族群，但現有文獻多為通用偏頭痛預防研究，缺乏基因型分層的臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "common cold",
+      "txgnn": {
+        "score": 0.933866798877716,
+        "rank": 29952
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12609783",
+            "title": "Cinnarizine is a useful and well-tolerated drug in the treatment of acquired cold urticaria (ACU).",
+            "authors": [
+              "Tosoni Cinzia",
+              "Lodi-Rizzini Fabio",
+              "Bettoni Lorenzo",
+              "Toniati Paola",
+              "Zane Cristina"
+            ],
+            "journal": "European journal of dermatology : EJD",
+            "year": "2003",
+            "abstract": "Old generation H1-type antihistamines are the standard therapeutic option for acquired cold urticaria (ACU), but adverse effects are common. New antihistamines are well tolerated but efficacy is often poor. The present study aims to evaluate efficacy and safety of cinnarizine in the treatment of ACU patients intolerant to old antihistamines and resistant to new drugs. We studied 14 patients (4 males and 10 females). Mean duration of the disease was 48.9 (range 7-102) months. Cold cube test was p",
+            "classification": {
+              "study_type": "Clinical Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 文獻誤對應警示：PMID 12609783 研究的是「acquired cold urticaria（獲得性冷接觸性蕁麻疹）」而非「common cold（普通感冒）」，兩者為完全不同疾病。冷蕁麻疹是溫度觸發的過敏反應，Cinnarizine 的 H1 拮抗可緩解症狀；普通感冒為病毒性感染，Cinnarizine 無抗病毒機轉。TxGNN 可能出現疾病名稱混淆，此適應症應視為 L5。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.9329374432563782,
+        "rank": 30117
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "蟲蝕狀皮膚萎縮（Atrophoderma vermiculata）為罕見毛孔角化症，病因涉及毛囊漏斗部異常角化，與 Cinnarizine 的鈣通道阻斷或 H1 拮抗機轉無已知關聯。無任何文獻或試驗支持，TxGNN 預測可能來自皮膚科疾病節點的圖譜近鄰效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.9215853214263916,
+        "rank": 32034
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "132989",
+            "title": "Effects of phenobarbitone, cinnarizine, and zoxazolamine on the development of right ventricular hypertrophy and hypertensive pulmonary vascular disease in rats treated with monocrotaline.",
+            "authors": [
+              "Kay J M",
+              "Smith P",
+              "Heath D",
+              "Will J A"
+            ],
+            "journal": "Cardiovascular research",
+            "year": "1976",
+            "abstract": "The results of this experiment suggest that the addition of zoxazolamine to the diet may prolong the survival and reduce the incidence of right ventricular hypertrophy and hypertensive pulmonary vascular disease in male rats given a single subcutaneous injection of monocrotaline. Phenobarbitone and cinnarizine were ineffective.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7027416",
+            "title": "[Amaurosis fugax].",
+            "authors": [
+              "Cazzato G",
+              "Torre P"
+            ],
+            "journal": "Rivista di neurologia",
+            "year": "1981",
+            "abstract": "A follow up study has been performed in thirteen patients suffering from (amaurosis fugax) (A.F.). From the case material analysis and from the review of the current literature it has been possible to infer that the current pathogenetic hypotheses (cerebral and/or retinal microembolism) of the amaurosis fugax and of the transient ischemic cerebral attacks without ocular symptoms are similar, at least in the most of the cases. In all the cases of amaurosis fugax examined, the clinical symptomatol",
+            "classification": {
+              "study_type": "Case Report/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3392921",
+            "title": "[Effectiveness of calcium antagonists in the treatment of patients with chronic nonspecific lung diseases].",
+            "authors": [
+              "Vereshchagina G N",
+              "Vasilenko G P",
+              "Kuleshova T V"
+            ],
+            "journal": "Klinicheskaia meditsina",
+            "year": "1988",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺動脈高壓的病生理涉及肺血管平滑肌增生與收縮，Cinnarizine 的鈣通道阻斷在理論上可降低肺血管阻力（與 nifedipine 類似機轉），但現有文獻均為 1976-1988 年的早期研究，方法學不足。現代 PAH 治療已有更專一的靶向藥物（ERA、PDE5i、sGC agonist），Cinnarizine 的競爭力有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn": {
+        "score": 0.9211216568946838,
+        "rank": 32118
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眉部毛周角化（Ulerythema ophryogenesis）為罕見遺傳性毛囊角化症，病因涉及毛囊角化異常，與 Cinnarizine 藥理機轉（鈣通道阻斷、H1 拮抗）無已知關聯。無任何支持文獻或試驗，TxGNN 預測可能來自與 atrophoderma vermiculata 相似的皮膚疾病圖譜近鄰效應，預測可靠性低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "common cold"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "common cold"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "common cold"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cinnarizine",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

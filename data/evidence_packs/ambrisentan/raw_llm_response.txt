@@ -1,0 +1,417 @@
+```json
+{
+  "drug": "Ambrisentan (DB06403)",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Ambrisentan 為選擇性內皮素 A 型受體拮抗劑 (ETA antagonist)，全球已核准用於 PAH (WHO Group 1)，本地標記為「未上市」。原始適應症欄位為空為本地資料缺口，不代表無全球核准基礎。",
+  "indications": [
+    {
+      "disease_name": "pulmonary arteriovenous malformation (disease)",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接機轉：HHT（遺傳性出血性毛細血管擴張症）可同時引發肺動靜脈畸形（PAVM）與 PAH。Endoglin/ALK1（TGF-β 路徑突變）與 ET-1 訊號交互作用，但 ETA 拮抗劑直接治療 PAVM 結構異常無明確機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33969094",
+          "study_type": "Case Report / Case Series",
+          "tier": "3",
+          "assessment": "描述 HHT 患者合併 PAH 的個案，主軸為 PAH 治療而非 PAVM；與本適應症之關聯為間接性，不構成 PAVM 特異性證據。"
+        }
+      ],
+      "evidence_summary": "僅 1 篇間接相關個案報告，無 PAVM 特定臨床試驗。TxGNN 高分反映 PAH 網路鄰近性，非直接治療證據。"
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with congenital heart disease",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "先天性心臟病（CHD）造成左至右分流 → 肺血管床剪切應力增加 → 內皮細胞受損 → ET-1 過度表現 → ETA 受體活化 → 肺血管收縮與重塑。Ambrisentan 阻斷 ETA 受體，直接逆轉此病理機轉，與 idiopathic PAH 機轉高度重疊（WHO Group 1 同類）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01808313",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3b, COMPLETED, n=134 中國 PAH 患者（涵蓋 CHD-PAH 亞組）開放標籤研究，評估 Ambrisentan 療效與安全性，為本適應症最強直接臨床證據。"
+        },
+        {
+          "nct_id": "NCT01342952",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 長期延伸研究，COMPLETED，n=38 兒科 PAH 患者，支持年齡族群擴展的安全性與療效數據。"
+        },
+        {
+          "nct_id": "NCT01884675",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3, TERMINATED，n=33（招募不足）。早期終止削弱證據強度，但其設計（雙盲、RCT）仍具參考價值；需調查終止原因是否為安全性疑慮。"
+        },
+        {
+          "nct_id": "NCT01894022",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 開放標籤延伸，TERMINATED，n=19。小樣本且提前終止，長期安全性資料不完整。"
+        },
+        {
+          "nct_id": "NCT01332331",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，TERMINATED，n=41。高劑量 vs. 低劑量比較研究，因終止僅提供部分量效關係資料。"
+        },
+        {
+          "nct_id": "NCT04095286",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 生體可用率研究，COMPLETED，n=29。藥動學數據，無療效評估，僅支持配方優化。"
+        },
+        {
+          "nct_id": "NCT02688387",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 固定劑量複方（Ambrisentan+Tadalafil）生體可用率研究，n=112。不直接評估 CHD-PAH 療效。"
+        },
+        {
+          "nct_id": "NCT01383083",
+          "relevance_grade": "C",
+          "reasoning": "研究主體為 Iloprost（非 Ambrisentan），狀態 UNKNOWN，與本藥無直接關聯。"
+        },
+        {
+          "nct_id": "NCT00593905",
+          "relevance_grade": "C",
+          "reasoning": "WITHDRAWN，零招募。藥物基因組學研究設計，無法提供任何療效或安全性資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "21371683",
+          "study_type": "Prospective Cohort / Case Series",
+          "tier": "2",
+          "assessment": "直接評估 Ambrisentan 用於 CHD-PAH（2011），為最具針對性的文獻，顯示改善 6MWD 與血流動力學。"
+        },
+        {
+          "pmid": "34921523",
+          "study_type": "Safety Study / Cohort",
+          "tier": "2",
+          "assessment": "評估 Ambrisentan+Tadalafil 組合療法安全性與耐受性（2022），支持聯合用藥策略。"
+        },
+        {
+          "pmid": "31096477",
+          "study_type": "Review / Position Paper",
+          "tier": "2",
+          "assessment": "討論 Eisenmenger 症候群（CHD-PAH 最嚴重型）使用 PAH 特異性藥物之立場（2019）。"
+        },
+        {
+          "pmid": "35412560",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "PAH 診斷治療綜述（2022），涵蓋 CHD-PAH 亞組管理建議。"
+        },
+        {
+          "pmid": "24787237",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "assessment": "轉介中心 Ambrisentan 真實世界臨床使用分析（2014），包含 CHD-PAH 亞組。"
+        },
+        {
+          "pmid": "22104452",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "assessment": "Texas 成人先天性心臟病中心 PAH 患者分析（2011）。"
+        },
+        {
+          "pmid": "21852894",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "非 CHD 相關兒科 PAH 綜述（2009），提供背景數據但對 CHD-PAH 直接關聯較弱。"
+        },
+        {
+          "pmid": "18333354",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "CHD 相關 PAH 管理指引（2007），歷史背景參考，早於 Ambrisentan 核准。"
+        },
+        {
+          "pmid": "22621693",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "結締組織病合併 PAH 治療（2012），對 CTD-PAH 更直接，CHD-PAH 間接參考。"
+        },
+        {
+          "pmid": "26223872",
+          "study_type": "Review",
+          "tier": "3",
+          "assessment": "肺高壓管理現況回顧（2015），廣泛性綜述，非 Ambrisentan 或 CHD-PAH 特異。"
+        }
+      ],
+      "evidence_summary": "有 1 個 Phase 3 COMPLETED 試驗（n=134）及 1 個 Phase 2 COMPLETED 兒科延伸研究；另有 2 個 Phase 3 和 1 個 Phase 2 提前終止。17 篇文獻含 1 篇 Ambrisentan CHD-PAH 直接研究。整體評為 L2（有多個 Phase 2 及部分 Phase 3 證據，但非全部完成之 Phase 3 RCT）。Ambrisentan 全球已核准 PAH（WHO Group 1），CHD-PAH 為 Group 1 亞型，本地「未上市」為市場狀態而非無效性證明。"
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with connective tissue disease",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "結締組織病（特別是系統性硬化症 SSc）造成血管內皮自體免疫損傷 → ET-1 大量釋放（SSc 患者血清 ET-1 顯著升高）→ ETA 受體持續活化 → 肺血管重塑。ETA 選擇性拮抗劑機轉與 CTD-PAH 病理生理直接對應，ET-1 亦參與纖維化路徑（SSc 主要病理）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01042158",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，COMPLETED，n=25，直接評估 Ambrisentan+Tadalafil 用於 SSc 相關 PAH，提供真實世界四期數據。"
+        },
+        {
+          "nct_id": "NCT02290613",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，COMPLETED，n=38，評估早期介入邊緣性 SSc-PAH，探索 Ambrisentan 在疾病早期階段的效果，具創新性。"
+        },
+        {
+          "nct_id": "NCT02885012",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，TERMINATED，n=3（招募嚴重不足），幾乎無有效數據。需了解終止原因（招募困難 vs. 安全性問題）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38378970",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "assessment": "2024 年最新系統性回顧，全面評估 CTD-PAH 藥物治療，最高等級文獻證據。"
+        },
+        {
+          "pmid": "23906950",
+          "study_type": "Meta-analysis",
+          "tier": "1",
+          "assessment": "CTD-PAH 臨床試驗薈萃分析（2013），量化 ERA 類藥物（含 Ambrisentan）在 CTD-PAH 中療效。"
+        },
+        {
+          "pmid": "37765060",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "CTD-PAH 治療最新進展（2023），涵蓋 Ambrisentan 應用現況。"
+        },
+        {
+          "pmid": "28425346",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "assessment": "Ambrisentan 系統性藥物回顧（2017），專章討論 CTD-PAH 臨床數據。"
+        },
+        {
+          "pmid": "27492539",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "assessment": "CTD-PAH 患者 Ambrisentan 反應分析（2016），真實世界療效數據，直接相關。"
+        },
+        {
+          "pmid": "32161055",
+          "study_type": "Prospective Study",
+          "tier": "2",
+          "assessment": "CTD-PAH 初始聯合療法（Ambrisentan+Tadalafil）前瞻性研究（2020），支持 AMBITION 策略延伸。"
+        },
+        {
+          "pmid": "28039187",
+          "study_type": "Prospective Study",
+          "tier": "2",
+          "assessment": "CTD-PAH 聯合用藥初始治療研究（2017），較早期數據，與 NCT01042158 相互印證。"
+        },
+        {
+          "pmid": "22621693",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "CTD 合併 PAH 治療回顧（2012），含 Ambrisentan 應用討論。"
+        },
+        {
+          "pmid": "20160534",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "CTD 中 PAH 發生率與機轉回顧（2010），背景資料完整。"
+        },
+        {
+          "pmid": "35412560",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "PAH 診斷治療綜述（2022），提供 CTD-PAH 治療架構。"
+        }
+      ],
+      "evidence_summary": "2 個 Phase 2/4 COMPLETED 試驗（n=25、n=38），1 篇系統性回顧，1 篇薈萃分析，多篇直接針對 Ambrisentan 在 CTD-PAH 的研究。L2 評級（有 Phase 2 RCT 及系統性回顧支持，Phase 3 RCT 仍不足）。臨床上已被多國指引採納作為 CTD-PAH 治療選項之一。"
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with chronic hemolytic anemia",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "溶血性貧血（鐮狀細胞、地中海貧血等）釋放游離血紅蛋白 → 消耗一氧化氮（NO）→ 肺血管收縮。ET-1 在此機轉中為次要路徑（主要為 NO-cGMP 路徑受損）。ETA 拮抗劑理論上可補充性干預，但缺乏任何臨床驗證，且鐮狀細胞病 PAH 有特殊血流動力學特徵（毛細血管後成分），ERA 類藥物安全性未確立。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。TxGNN 高分來自 PAH 亞型網路拓撲相似性，非臨床證據。需先建立基礎安全性評估再考慮研究設計。"
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with HIV infection",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HIV 感染 → 直接損傷肺血管內皮（gp120、Tat 蛋白毒性）→ ET-1 過度表現 + NO 生成減少 → 肺血管收縮與重塑。HIV-PAH 與 idiopathic PAH 組織病理高度相似（叢狀病灶），ETA 拮抗劑機轉完全適用。需注意抗 HIV 藥物（尤其蛋白酶抑制劑）與 Ambrisentan 的藥物交互作用（CYP3A4/P-gp）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00709956",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED，n=64，多中心雙盲隨機安慰劑對照交叉設計（最高等級設計），直接評估 Ambrisentan 用於 HIV-PAH。此為本資料集中最強單一試驗證據，升至 L1 等級之關鍵依據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24787237",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "assessment": "真實世界 Ambrisentan 使用分析（2014），含 HIV-PAH 亞組數據，與 RCT 結果相互驗證。"
+        },
+        {
+          "pmid": "26897508",
+          "study_type": "Case Series",
+          "tier": "2",
+          "assessment": "HIV-PAH 4 例系列報告（2016），描述 PAH 特異性治療反應，樣本小但有直接臨床描述。"
+        },
+        {
+          "pmid": "25560124",
+          "study_type": "Case Report",
+          "tier": "3",
+          "assessment": "產後診斷 HIV-PAH 個案報告（2015），記錄治療歷程，屬個案層級。"
+        },
+        {
+          "pmid": "31090367",
+          "study_type": "Registry Study",
+          "tier": "2",
+          "assessment": "俄羅斯國家 PAH 登記 6 年分析（2019），提供真實世界 HIV-PAH 流行病學與治療數據。"
+        }
+      ],
+      "evidence_summary": "有 1 個 Phase 3 多中心雙盲安慰劑對照 RCT（n=64, COMPLETED），達 L1 標準。4 篇支持性文獻。評為 L1，S3。主要 Guardrails：HIV 藥物 DDI 監測（特別是 PI 類），CD4 計數與病毒量管理，長期免疫功能評估。"
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with schistosomiasis",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血吸蟲卵沉積肺血管 → 肉芽腫性炎症 → 血管重塑。ET-1 在此炎症驅動的血管病理中可能參與，但驅蟲治療為首要介入。ERA 類藥物於此亞型的機轉及安全性（寄生蟲病合併肝硬化後門脈高壓常見）完全未研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。此亞型在新加坡/台灣罕見，地域相關性低。需先確立寄生蟲感染控制後再評估 ERA 適用性。"
+    },
+    {
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理機轉連結。文獻中的 20 篇完全為牙周病一般文獻（微生物複合體、糖尿病-牙周雙向關係、手術治療等），與 Ambrisentan 或內皮素路徑無任何關聯。此高 TxGNN 分數可能為知識圖譜中牙齦相關血管炎症節點的誤導性鄰近效應。ET-1 雖在牙齦纖維母細胞中有少量表現，但無臨床意義支持 ERA 用於牙周疾病。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35688447",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "assessment": "EFP 牙周炎治療指引（2022）。與 Ambrisentan 零關聯，純為牙科治療標準。"
+        },
+        {
+          "pmid": "22057194",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "牙周炎與糖尿病雙向關係（2012）。無內皮素或 ERA 相關內容。"
+        },
+        {
+          "pmid": "38907216",
+          "study_type": "Review",
+          "tier": "2",
+          "assessment": "生物材料介導巨噬細胞免疫療法用於牙周炎（2024）。與 Ambrisentan 無關。"
+        }
+      ],
+      "evidence_summary": "20 篇文獻均為一般牙周病文獻，無 Ambrisentan 相關內容，無臨床試驗，無機轉合理性。判定為 TxGNN 模型假陽性，不應作為再利用方向。"
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頭皮單純少毛症為遺傳性毛囊異常（通常涉及 LPAR6、LIPH 基因突變影響脂質信號路徑）。ETA 受體在毛囊週期中的角色極為有限（ETB 受體在黑色素細胞/毛囊幹細胞中更具相關性）。Ambrisentan 選擇性阻斷 ETA，無合理機轉支持其影響頭髮生長。注意：ERA 類藥物副作用可能包含周圍水腫，但無毛髮相關效應記錄。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻。無機轉合理性。判定為 TxGNN 假陽性。"
+    },
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn_score": 0.9914,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多毛症（Hypertrichosis）為毛髮過度生長，病因複雜（先天性、藥物誘發、腫瘤相關等）。雖然某些血管藥物（如 Minoxidil）有促毛髮生長副作用，但其機轉為 KATP 通道，與 ETA 拮抗完全不同。Ambrisentan 無已知促毛髮生長或抑制毛髮生長的臨床或前臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻。無機轉合理性。判定為 TxGNN 假陽性。"
+    },
+    {
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn_score": 0.9912,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dandy-Walker 畸形為胚胎發育期後顱窩（小腦蚓部）發育異常，與遺傳因素（ZIC1, ZIC4, FOXC1 等）及早期神經管發育相關。ET-1 在胚胎血管發育中有一定角色，但 ETA 拮抗劑用於已發生的結構性腦畸形無任何合理治療機轉，亦無 ERA 穿越血腦屏障治療腦結構病變的依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻。無機轉合理性。判定為 TxGNN 假陽性。"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "disease": "PAH associated with HIV infection",
+        "evidence_level": "L1",
+        "action": "Proceed with Guardrails — Phase 3 RCT 已完成，但需嚴格 DDI 監測"
+      },
+      {
+        "disease": "PAH associated with congenital heart disease",
+        "evidence_level": "L2",
+        "action": "Proceed with Guardrails — Phase 3 已有完成試驗，符合 WHO Group 1 PAH 延伸適應症"
+      },
+      {
+        "disease": "PAH associated with connective tissue disease",
+        "evidence_level": "L2",
+        "action": "Proceed with Guardrails — 系統性回顧與 Phase 2/4 支持，SSc-PAH 尤其有基礎"
+      }
+    ],
+    "low_priority_indications": [
+      "PAH-hemolytic anemia (L5): 需先進行機轉研究",
+      "PAH-schistosomiasis (L5): 地域罕見，無任何依據",
+      "Pulmonary AVM (L4): 僅間接個案，需機轉探索",
+      "Periodontal syndrome (L5): 假陽性，不建議投入資源",
+      "Hair conditions (L5×2): 假陽性",
+      "Dandy-Walker (L5): 假陽性"
+    ],
+    "data_quality_flags": [
+      "original_moa 標示為 [Data Gap]，但 Ambrisentan 機轉（ETA 選擇性拮抗劑）已明確，建議更新資料庫",
+      "original_indications 為空，但 Ambrisentan 全球已核准用於 PAH（FDA Letairis, EMA Volibris），需區分本地未上市與全球未核准",
+      "ddi_count: 0 可能為資料缺口，Ambrisentan 與 CYP3A4/CYP2C9 底物、P-gp 抑制劑有已知交互作用"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 關鍵發現
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| PAH-HIV | **L1** | S3 | ✅ Proceed with Guardrails |
+| PAH-CHD | **L2** | S3 | ✅ Proceed with Guardrails |
+| PAH-CTD | **L2** | S3 | ✅ Proceed with Guardrails |
+| Pulmonary AVM | L4 | S0 | ⛔ Hold |
+| PAH-Hemolytic | L5 | S0 | ⛔ Hold |
+| PAH-Schistosomiasis | L5 | S0 | ⛔ Hold |
+| Periodontal syndrome | L5 | S0 | ⛔ Hold（假陽性）|
+| Hypotrichosis | L5 | S0 | ⛔ Hold（假陽性）|
+| Hypertrichosis | L5 | S0 | ⛔ Hold（假陽性）|
+| Dandy-Walker | L5 | S0 | ⛔ Hold（假陽性）|
+
+### 核心注意事項
+
+1. **資料缺口警示**：`original_moa = [Data Gap]` 及空白 `original_indications` 反映本地資料庫問題，Ambrisentan 實為已核准 PAH 藥物（ETA 拮抗劑），建議補全
+2. **3 個 PAH 亞型**均基於相同 ETA 拮抗機轉，差異在於原發病因，臨床轉化路徑清晰
+3. **6 個非血管適應症**（牙周、毛髮、Dandy-Walker）為 TxGNN 圖網路假陽性，不應投入研究資源

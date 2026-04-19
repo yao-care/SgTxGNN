@@ -1,0 +1,2257 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00572-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Atropine",
+    "drugbank_id": "DB00572",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9956331849098206,
+        "rank": 5944
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17186568",
+            "title": "The pharmacological properties of anisodamine.",
+            "authors": [
+              "Poupko Jay M",
+              "Baskin Steven I",
+              "Moore Eric"
+            ],
+            "journal": "Journal of applied toxicology : JAT",
+            "year": "2007",
+            "abstract": "Anisodamine is a naturally occurring atropine derivative that has been isolated, synthesized and characterized by scientists in the People's Republic of China. Like atropine and scopolamine, anisodamine is a non-specific cholinergic antagonist exhibiting the usual spectrum of pharmacological effects of this drug class. It appears to be less potent and less toxic than atropine and displays less CNS toxicity than scopolamine. Anisodamine has been shown to interact with and disrupt liposome structu",
+            "classification": {
+              "study_type": "Review/Pharmacology (anisodamine analog)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36485173",
+            "title": "Meningeal mast cell-mediated mechanisms of cholinergic system modulation in neurogenic inflammation underlying the pathophysiology of migraine.",
+            "authors": [
+              "Kilinc Erkan",
+              "Torun Ibrahim Ethem",
+              "Baranoglu Kilinc Yasemin"
+            ],
+            "journal": "The European journal of neuroscience",
+            "year": "2024",
+            "abstract": "Growing evidence indicates that the parasympathetic system is implicated in migraine headache. However, the cholinergic mechanisms in the pathophysiology of migraine remain unclear. We investigated the effects and mechanisms of cholinergic modulation and a mast cell stabilizer cromolyn in the nitroglycerin-induced in vivo migraine model and in vitro hemiskull preparations in rats. Effects of cholinergic agents (acetylcholinesterase inhibitor neostigmine, or acetylcholine, and muscarinic antagoni",
+            "classification": {
+              "study_type": "Animal/Mechanistic",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1786517",
+            "title": "The antimigraine drugs ergotamine and dihydroergotamine are potent 5-HT1C receptor agonists in piglet choroid plexus.",
+            "authors": [
+              "Brown A M",
+              "Patch T L",
+              "Kaumann A J"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "1991",
+            "abstract": "1. Fozard & Gray (1989) proposed that migraine is mediated by stimulation of 5-HT1C receptors. We have examined the interaction of two effective anti-migraine agents, ergotamine and dihydroergotamine (DHE), with these receptors. Binding (inhibition of labelling by [3H]-mesulergine) and agonist activity (phosphoinositide hydrolysis) were measured in piglet choroid plexus, a tissue rich in 5-HT1C receptors. 2. The pKD for [3H]-mesulergine binding was 8.4. Ergotamine and DHE both inhibited [3H]-mes",
+            "classification": {
+              "study_type": "Animal (serotonin receptor, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27179636",
+            "title": "Stunned myocardium after an anesthetic procedure in a pediatric patient - case report.",
+            "authors": [
+              "Faleiro Oliveira Joana",
+              "Rebelo Pacheco Susana",
+              "Moniz Marta",
+              "Nunes Pedro",
+              "Abadesso Clara"
+            ],
+            "journal": "Revista portuguesa de cardiologia : orgao oficial da Sociedade Portuguesa de Cardiologia = Portuguese journal of cardiology : an official journal of the Portuguese Society of Cardiology",
+            "year": "2016",
+            "abstract": "Takotsubo syndrome (TTS) is an acquired transient type of systolic dysfunction which mimics myocardial infarction clinically and electrocardiographically. TTS is also known as stress cardiomyopathy, broken heart syndrome, apical ballooning, reversible acute heart failure, neurogenic stunned myocardium or acute catecholamine cardiomyopathy. This case report describes an uncommon presentation of myocardial stunning after an anesthetic procedure. A 14-year-old girl with a history of pineal cyst and",
+            "classification": {
+              "study_type": "Case Report (anesthetic complication, incidental)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40590589",
+            "title": "Botulinum Treatment Induced Dropped Head Syndrome in a Patient With Chronic Migraines and Multiple Sclerosis.",
+            "authors": [
+              "Narula Sameer",
+              "Snodgrass Clarke"
+            ],
+            "journal": "Pain medicine case reports",
+            "year": "2024",
+            "abstract": "Chronic migraine treatment typically is treated medically by use of medications, such as nonsteroidal anti-inflammatory drugs and triptans; however, for a subset of patients, botulinum toxin (or Botox) has effectively been shown to be an alternative medication.",
+            "classification": {
+              "study_type": "Case Report (botulinum/migraine, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10193781",
+            "title": "The inhibition of nicotine-evoked relaxation of the guinea-pig isolated basilar artery by some analgesic drugs and progesterone.",
+            "authors": [
+              "Rhodes K F",
+              "Buckingham J C",
+              "Kennard C"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "1999",
+            "abstract": "1. The purpose of this study was to investigate the mechanism of nicotine-evoked relaxation of the guinea-pig isolated basilar artery and to study the effects of drugs associated with the aetiology or treatment of migraine on the nicotine response. 2. The guinea-pig isolated basilar artery, pre-contracted with prostaglandin F2alpha (PGF2alpha), in the presence of atropine (3 microM) and guanethidine (3 microM), relaxed on addition of nicotine (0.1 mM) in approximately 50% of preparations. The re",
+            "classification": {
+              "study_type": "Animal (basilar artery)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9344563",
+            "title": "Plasma protein extravasation induced in the rat dura mater by stimulation of the parasympathetic sphenopalatine ganglion.",
+            "authors": [
+              "Delépine L",
+              "Aubineau P"
+            ],
+            "journal": "Experimental neurology",
+            "year": "1997",
+            "abstract": "It has been proposed that migraine could result from a neurogenic inflammation of the dura mater. According to this theory, inflammation could be initiated by an axon reflex of nociceptive nerve fibers, but the trigger of this axon reflex remains poorly understood. Previous works have shown that parasympathetic agonists can activate mast cells and/or sensory C-fibers, inducing pain and inflammation. The aim of the present work was to determine whether the activation of intracranial parasympathet",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18091300",
+            "title": "Elevated intraocular pressure and myopic shift linked to topiramate use.",
+            "authors": [
+              "Guier Christian P"
+            ],
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "2007",
+            "abstract": "The purpose of this report is to describe acute myopia as an ocular adverse reaction to topiramate (Topamax, Ortho-McNeil, Raritan, NJ) and discuss the importance of recognizing this syndrome.",
+            "classification": {
+              "study_type": "Case Series (topiramate/IOP, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8930196",
+            "title": "The central cholinergic system has a role in the antinociception induced in rodents and guinea pigs by the antimigraine drug sumatriptan.",
+            "authors": [
+              "Ghelardini C",
+              "Galeotti N",
+              "Figini M",
+              "Imperato A",
+              "Nicolodi M"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "1996",
+            "abstract": "The antinociceptive effect of the antimigraine drug sumatriptan was assessed in mice and rats (hot-plate, abdominal constriction and paw-pressure tests) and in guinea pigs (paw-pressure test). The ACh extracellular concentration also was detected in the hippocampus of freely moving rats by microdialysis experiments. Antinociception was induced by sumatriptan administered both parenterally (5-10 mg.kg-1 i.v.; 10-30 mg.kg-1 i.p.) and i.c.v. (50-100 micrograms per mouse). Sumatriptan antinociceptio",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15882801",
+            "title": "The role of CGRP and nicotinic receptors in centrally evoked facial blood flow changes.",
+            "authors": [
+              "Just Stefan",
+              "Arndt Kirsten",
+              "Doods Henri"
+            ],
+            "journal": "Neuroscience letters",
+            "year": "2005",
+            "abstract": "The release of CGRP in humans is associated with the occurrence of migraine headaches. The vasoactive neuropeptide is released by afferent neurones originating in the peripherally located trigeminal ganglion supplying the dura mater. The role of CGRP in migraine is further supported by recently released data showing that the CGRP-antagonist BIBN4096BS is clinically effective for the treatment of migraine headaches. Yet, the trigger for CGRP release during migraine attacks is not identified. It i",
+            "classification": {
+              "study_type": "Animal (CGRP/nicotinic)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2943405",
+            "title": "Chronic paroxysmal hemicrania. X. On the autonomic involvement.",
+            "authors": [
+              "Sjaastad O",
+              "Aasly J",
+              "Fredriksen T",
+              "Wysocka Bakowska M M"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1986",
+            "abstract": "In four patients with chronic paroxysmal hemicrania, two of whom could precipitate attacks mechanically, various autonomic function tests were carried out in connection with attacks. Not all features could be studied in all patients. Forehead sweating and temperature were measured. Sweating, tearing, and nasal secretion were studied after systemic atropine administration, which reduced attack-related sweating, tearing, and nasal secretion markedly. Intra-ocular pressure was measured before and a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18604026",
+            "title": "Topiramate induced bilateral angle-closure glaucoma.",
+            "authors": [
+              "Singh S K",
+              "Thapa S S",
+              "Badhu B P"
+            ],
+            "journal": "Kathmandu University medical journal (KUMJ)",
+            "year": "2007",
+            "abstract": "Topiramate is a sulfamate-substituted monosaccharide and is used as an antiepileptic medication. It can also be used as a prophylactic agent for headache from migraine. The main purpose of this article is to create awareness among medical colleagues regarding severe ophthalmic side effect of topiramate. This is the first reported case of topiramate induced bilateral angle-closure glaucoma in Nepal. This case was managed successfully by discontinuing topiramate and by starting anti-glaucoma medic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21252",
+            "title": "Possible mechanism of action of beta-phenethylamine in migraine.",
+            "authors": [
+              "Gonsalves A",
+              "Johnson E S"
+            ],
+            "journal": "The Journal of pharmacy and pharmacology",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膽鹼能系統在偏頭痛病理生理中扮演調節角色：副交感神經激活（蝶顎神經節通路）促進硬腦膜血管舒張及漿蛋白滲出（PMID 9344563），中樞膽鹼能系統亦參與痛覺抑制（PMID 8930196）。Atropine 作為 M 型膽鹼受體拮抗劑，理論上可阻斷副交感神經介導的三叉神經血管激活，但所有支持性證據均來自動物實驗或機制研究，尚無人體臨床試驗直接測試此假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9942322373390198,
+        "rank": 7179
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31945385",
+            "title": "Cholinergic modulation inhibits cortical spreading depression in mouse neocortex through activation of muscarinic receptors and decreased excitatory/inhibitory drive.",
+            "authors": [
+              "Zerimech Sarah",
+              "Chever Oana",
+              "Scalmani Paolo",
+              "Pizzamiglio Lara",
+              "Duprat Fabrice"
+            ],
+            "journal": "Neuropharmacology",
+            "year": "2020",
+            "abstract": "Cortical spreading depression (CSD) is a wave of transient network hyperexcitability leading to long lasting depolarization and block of firing, which initiates focally and slowly propagates in the cerebral cortex. It causes migraine aura and it has been implicated in the generation of migraine headache. Cortical excitability can be modulated by cholinergic actions, leading in neocortical slices to the generation of rhythmic synchronous activities (UP/DOWN states). We investigated the effect of ",
+            "classification": {
+              "study_type": "Animal (mouse neocortex, mechanistic direction unfavorable)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一相關文獻（PMID 31945385）顯示，膽鹼能調控活化（激動，非拮抗）可抑制小鼠新皮質的皮質擴散抑制（CSD）——即先兆的核心機制。此方向對 atropine（膽鹼受體拮抗劑）不利：atropine 阻斷膽鹼能訊號，理論上可能促進 CSD 而非抑制。腦幹先兆亞型本身即具較高安全性風險（循環障礙），此雙重考量支持暫緩。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.9815130233764648,
+        "rank": 16271
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "Review (animal models, epilepsy)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "Review (genetics of epilepsy)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "Review (antiepileptogenesis targets)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "Meta-analysis (MTHFR/epilepsy)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "Review (receptor rearrangement)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "Review (neuroinflammation in epilepsy)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review (epilepsy-migraine shared mechanisms)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "Review (psychogenic seizures)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "Genetic Study (occipitotemporal epilepsy-migraine linkage)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "Review (TBI epileptogenesis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12183340",
+            "title": "Disease modification in partial epilepsy.",
+            "authors": [
+              "Walker M C",
+              "White H S",
+              "Sander J W A S"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2002",
+            "abstract": "With the growth in antiepileptic drug treatment, the question arises as to what extent we are merely treating the symptom (i.e. the seizures) rather than the underlying disease process (i.e. epileptogenesis). Epileptogenicity can be considered as the process whereby structural and functional changes occur following an insult that in some cases result in epilepsy. Epileptogenicity also describes some of the changes and processes that contribute to the progression observed in some epilepsies. Thes",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "現有 20 篇文獻幾乎全部聚焦於「癲癇與偏頭痛共享遺傳機制」（PMID 33856647, 17460155），以及癲癇發生機制（PMID 34575901, 34209535, 30267335）。此為知識圖譜中偏頭痛易感性節點與癲癇節點高度連結的副產物，並非 atropine 作用於偏頭痛易感性的直接藥理機轉。無任何文獻直接連結 atropine 與偏頭痛遺傳易感性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.9814635515213012,
+        "rank": 16300
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛囊蟲蝕狀萎縮是一種遺傳性毛囊角化症，發病機制涉及毛囊周圍炎症與纖維化，與膽鹼能訊號通路無已知關聯。零文獻、零臨床試驗，TxGNN 高分預測（0.9815）可能源於皮膚疾病分類節點的非特異性圖譜連結（參見 ulerythema ophryogenesis 為同譜系疾病，同樣無證據）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.9802615642547609,
+        "rank": 16901
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33961969",
+            "title": "The Risks and Benefits of Myopia Control.",
+            "authors": [
+              "Bullimore Mark A",
+              "Ritchey Eric R",
+              "Shah Sunil",
+              "Leveziel Nicolas",
+              "Bourne Rupert R A"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2021",
+            "abstract": "The prevalence of myopia is increasing around the world, stimulating interest in methods to slow its progression. The primary justification for slowing myopia progression is to reduce the risk of vision loss through sight-threatening ocular pathologic features in later life. The article analyzes whether the potential benefits of slowing myopia progression by 1 diopter (D) justify the potential risks associated with treatments.",
+            "classification": {
+              "study_type": "Review (myopia control risks/benefits)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40932733",
+            "title": "Ocular Risks of Topical Atropine Prescriptions Among Taiwanese Children.",
+            "authors": [
+              "Liu Yao-Lin",
+              "Tsai Jin-Yu",
+              "Chiu Kai-Yen",
+              "Tsai I-Ju",
+              "Morgan Ian G"
+            ],
+            "journal": "JAMA ophthalmology",
+            "year": "2025",
+            "abstract": "Myopia is a global health concern, with high myopia elevating the risk of ocular complications. While atropine can affect myopia progression, its long-term safety profile remains uncertain.",
+            "classification": {
+              "study_type": "Cohort (Taiwanese children, ocular risks)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12641848",
+            "title": "Progressive changes in ophthalmic blood velocities in Beagles with primary open angle glaucoma.",
+            "authors": [
+              "Gelatt K N",
+              "Miyabayashi T",
+              "Gelatt-Nicholson K J",
+              "MacKay E O"
+            ],
+            "journal": "Veterinary ophthalmology",
+            "year": "2003",
+            "abstract": "To measure changes in the ocular and orbital blood flow velocities by color Doppler imaging (CDI) in beagles with primary open angle glaucoma as the disease progressed from early to advanced stages.",
+            "classification": {
+              "study_type": "Animal Study (beagle POAG)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39500586",
+            "title": "Anterior segment ischaemia following insertion of a PreserFlo Micro-Shunt with mitomycin-C for uncontrolled open angle glaucoma.",
+            "authors": [
+              "Ali Ali Ibrahim Ali Hassan",
+              "Malick Huzaifa"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2024",
+            "abstract": "To our knowledge, this is the first report of anterior segment ischaemia after PreserFlo Micro-Shunt insertion surgery. Our patient developed anterior chamber (AC) activity and keratic precipitates 1 week after surgery. Five weeks after surgery, examination revealed a shallow AC, a distorted pupil with posterior synechiae and surface iris neovascularisation. Ocular ischaemic syndrome was excluded after performing fundus fluorescein angiography and carotid Doppler ultrasound. The patient responde",
+            "classification": {
+              "study_type": "Case Report (anterior segment ischemia)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4992184",
+            "title": "Anticholinergic medication in open-angle glaucoma. Long-term tests.",
+            "authors": [
+              "Lazenby G W",
+              "Reed J W",
+              "Grant W M"
+            ],
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (1970, anticholinergic in OAG, historical)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39027062",
+            "title": "Impact of atropine use for myopia control on intraocular pressure in children: A comprehensive review including postpupil dilation intraocular pressure changes.",
+            "authors": [
+              "Chen Pao-Ju",
+              "Hsia Yun",
+              "Tsai Tzu-Hsun",
+              "Su Chien-Chia",
+              "Huang Jehn-Yu"
+            ],
+            "journal": "Taiwan journal of ophthalmology",
+            "year": "2024",
+            "abstract": "Topical atropine has been widely used for controlling myopia progression in children, yet its long-term efficacy and safety, including potential intraocular pressure (IOP) elevation, are still being studied. The mydriasis and cyclopegia induced by atropine may reduce traction on the trabecular meshwork, together with pigment released into anterior chamber due to the friction between the iris and lens during pupil dilation, may obstruct and reduce the trabecular outflow. This review first explore",
+            "classification": {
+              "study_type": "Systematic Review (IOP safety, atropine)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37223149",
+            "title": "Malignant Glaucoma After Immediate Primary Phacoemulsification for Acute Primary Angle Closure: A Case Report.",
+            "authors": [
+              "Suzuki Takafumi"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Malignant glaucoma is characterized by ciliary block or aqueous misdirection, shallowing of the anterior chamber with elevated intraocular pressure (IOP), resistance to treatment, and rapid progression to blindness. However, the exact pathogenic mechanism is yet to be established. Here, we report a case of malignant glaucoma caused by immediate primary phacoemulsification for acute primary angle closure (APAC). A 90-year-old woman, who had experienced right eye pain and blurred vision one day pr",
+            "classification": {
+              "study_type": "Case Report (malignant glaucoma)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35135528",
+            "title": "Malignant glaucoma following gonioscopy-assisted transluminal trabeculotomy: a case report.",
+            "authors": [
+              "Bolletta Elena",
+              "Iannetta Danilo",
+              "Moramarco Antonio",
+              "Fontana Luigi"
+            ],
+            "journal": "BMC ophthalmology",
+            "year": "2022",
+            "abstract": "To report a case of malignant glaucoma that developed after gonioscopy-assisted transluminal trabeculotomy (GATT).",
+            "classification": {
+              "study_type": "Case Report (malignant glaucoma)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33736487",
+            "title": "A case of malignant glaucoma following insertion of Preserflo™ MicroShunt.",
+            "authors": [
+              "Gizzi Corrado",
+              "Costa Giacomo",
+              "Servadei Roberto",
+              "Abed Edoardo",
+              "Ning Brigid"
+            ],
+            "journal": "European journal of ophthalmology",
+            "year": "2022",
+            "abstract": "To describe a case of malignant glaucoma following insertion of a Preserflo™ MicroShunt in a patient with primary open angle glaucoma (POAG).",
+            "classification": {
+              "study_type": "Case Report (malignant glaucoma)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5640848",
+            "title": "Cycloplegic-induced intraocular pressure elevations a study of normal and open-angle glaucomatous eyes.",
+            "authors": [
+              "Harris L S"
+            ],
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (1968, cycloplegic IOP elevation)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36872716",
+            "title": "Knowledge, attitude, and practice of childhood myopia among Indian optometrists: A questionnaire-based study.",
+            "authors": [
+              "Chaurasiya Ritesh Kumar",
+              "Sutar Samir",
+              "Gupta Akansha",
+              "Pandey Ramji",
+              "Agarwal Pradeep"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2023",
+            "abstract": "To investigate the knowledge of myopia and its natural history including complications and clinical approaches for management adopted by optometrists across India.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9278823",
+            "title": "Glaucoma after cataract extraction and posterior chamber lens implantation in children.",
+            "authors": [
+              "Brady K M",
+              "Atkinson C S",
+              "Kilty L A",
+              "Hiles D A"
+            ],
+            "journal": "Journal of cataract and refractive surgery",
+            "year": "1997",
+            "abstract": "To evaluate the incidence of postoperative glaucoma in children who have cataract extraction and posterior chamber intraocular lens (IOL) implantation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37323588",
+            "title": "Acute serous and hemorrhagic choroidal effusion associated with topical dorzolamide therapy.",
+            "authors": [
+              "Shaheen Abdulla",
+              "Schultis Sara",
+              "Magraner Maria",
+              "Correa Zelia M",
+              "Yannuzzi Nicolas A"
+            ],
+            "journal": "American journal of ophthalmology case reports",
+            "year": "2023",
+            "abstract": "To report a case of acute onset unilateral hemorrhagic and serous choroidal effusion associated with dorzolamide administration and antiplatelet use that recurred in a patient who experienced a dorzolamide-induced choroidal effusion ten years prior to presentation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10958603",
+            "title": "Effects of atropine on anterior chamber depth and anterior chamber inflammation after primary trabeculectomy.",
+            "authors": [
+              "Orengo-Nania S",
+              "El-Harazi S M",
+              "Oram O",
+              "Feldman R M",
+              "Chuang A Z"
+            ],
+            "journal": "Journal of glaucoma",
+            "year": "2000",
+            "abstract": "To investigate the effects of postoperative atropine on central and peripheral anterior chamber depth and anterior chamber inflammation in patients undergoing primary trabeculectomy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36348628",
+            "title": "Ab-externo intraluminal stent for prolonged hypotony and choroidal detachment after Preserflo implantation.",
+            "authors": [
+              "Lupardi Enrico",
+              "Laffi Gian Luca",
+              "Ciardella Antonio",
+              "Barboni Piero",
+              "Fontana Luigi"
+            ],
+            "journal": "European journal of ophthalmology",
+            "year": "2023",
+            "abstract": "To describe a case of prolonged hypotony and choroidal detachment following insertion of a Preserflo™ MicroShunt in a patient with primary open-angle glaucoma (POAG).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5674801",
+            "title": "Short-term tests of anticholinergic medication in open-angle glaucoma.",
+            "authors": [
+              "Lazenby G W",
+              "Reed J W",
+              "Grant W M"
+            ],
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31257703",
+            "title": "Knowledge, perspectives and clinical practices of Australian optometrists in relation to childhood myopia.",
+            "authors": [
+              "Douglass Amanda",
+              "Keller Peter R",
+              "He Mingguang",
+              "Downie Laura E"
+            ],
+            "journal": "Clinical & experimental optometry",
+            "year": "2020",
+            "abstract": "The aim was to investigate the understanding of Australian optometrists in relation to myopia, its natural history and associations with vision-threatening ocular disease, self-reported clinical diagnosis and management approaches for childhood myopia, engagement with adult caregivers, and utilisation of information to guide practice.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32287149",
+            "title": "Severe Inflammation and Hyphema After Micropulse Diode Transscleral Cyclophotocoagulation.",
+            "authors": [
+              "Dhanireddy Swetha",
+              "Yin Han Y",
+              "Dosakayala Neelima",
+              "Kurochkin Philip",
+              "Gupta Neha"
+            ],
+            "journal": "Journal of glaucoma",
+            "year": "2020",
+            "abstract": "To describe vision-threatening complications after micropulse diode transscleral cyclophotocoagulation (MP-TSCPC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1444083",
+            "title": "Atropine after trabeculectomy.",
+            "authors": [
+              "Keenan J",
+              "Hakin J"
+            ],
+            "journal": "Annals of ophthalmology",
+            "year": "1992",
+            "abstract": "Thirty-eight patients requiring trabeculectomy for control of open-angle glaucoma were randomized into two groups. One group received topical atropine immediately after trabeculectomy; the second group began treatment on the first postoperative day. The two groups were compared over the first three postoperative days. The theoretic benefit of atropine instillation immediately after trabeculectomy is discussed. Our results showed no significant difference between the two groups except there was a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26607964",
+            "title": "The effects of topical parasympatholytic drugs on pupil diameter and intraocular pressure in healthy dogs treated with 0.005% latanoprost.",
+            "authors": [
+              "Kahane Nili",
+              "Raskansky Hilli",
+              "Bdolah-Abram Tali",
+              "Ofri Ron"
+            ],
+            "journal": "Veterinary ophthalmology",
+            "year": "2016",
+            "abstract": "Prostaglandin analogs induce miosis and lower intraocular pressure (IOP). As pupils of latanoprost-treated eyes may have to be dilated for ophthalmoscopy or intraocular surgery, we studied whether 0.5% tropicamide or 1% atropine alter the effects of 0.005% latanoprost on pupil diameter (PD) and IOP in healthy dogs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【安全性警示優先】：Atropine 具明確眼壓升高風險（散瞳/睫狀肌麻痺）；1968 年研究記錄其在開角型青光眼患者中引起眼壓升高（PMID 5640848）。近期系統性回顧（PMID 39027062）及台灣兒童世代研究（PMID 40932733）均確認 atropine 近視控制劑量可升高眼壓。雖有 1970 年代早期研究探索抗膽鹼藥在開角型青光眼的應用（PMID 4992184），但現代證據指向潛在傷害方向，安全性風險明確高於推測效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.9778388738632202,
+        "rank": 18055
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性遺傳性青光眼由基因突變（MYOC、CYP1B1 等）驅動房水動力學異常，與 atropine 抗膽鹼機制無已知直接交叉點。零文獻支持，且與 open-angle glaucoma 分析相同的眼壓升高安全性顧慮適用，雙重否定（無機轉+有害副作用）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn": {
+        "score": 0.977591037750244,
+        "rank": 18171
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眉毛蟲蝕狀紅斑與 atrophoderma vermiculata 同屬毛囊角化症譜系（KRAS 通路相關），均為遺傳性皮膚角化異常，無已知與膽鹼能系統的生物學交叉。零文獻、零試驗，TxGNN 預測極可能源於這兩種疾病在 HPO/OMIM 知識圖譜中的緊密疾病分類鄰接性，屬圖譜雜訊而非真實訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9724116325378418,
+        "rank": 20361
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05843812",
+            "title": "\"Evaluation of the Clinical Response to Magnesium Sulfate as an Adjuvant in Anesthesia in Bariatric Surgery\"",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 104,
+            "start_date": "2023-04-21",
+            "completion_date": "2024-06-30",
+            "brief_summary": "Weight loss surgery, also known as bariatric surgery, has been around since the 1950s and since its inception has been shown to successfully achieve significant and sustainable weight loss in a large number of patients who undergo this intervention, as well , if a beneficial impact is observed in the management of metabolic disorders, such as type 2 diabetes mellitus and hyperlipidemia.\n\nAfter bariatric surgery, patients are at risk of narcotic-related side effects.(2) Because of this, pain mana",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "硫酸鎂作為肥胖手術麻醉輔助劑研究；頭痛為術後次要評估指標，atropine 非研究重點"
+            }
+          },
+          {
+            "nct_id": "NCT06404983",
+            "title": "A Comparative Evaluation of Opioid Free Anaesthesia Technique Versus the Conventional Technique in Oncological Breast Surgery",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2022-12-28",
+            "completion_date": "2027-09-12",
+            "brief_summary": "Background:\n\nVarious analgesic modalities are adopted for perioperative analgesia in breast cancer surgeries. Opioid-free and opioid-sparing techniques are gaining popularity due to the lack of opioid-dependent undesirable effects, including respiratory depression, urinary retention, nausea and vomiting, constipation, itching, opioid-induced hyperalgesia, tolerance, addiction, and immune system disorders.\n\nThe goal of this prospective randomized clinical trial is to investigate the impact of opi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "無阿片麻醉方案比較；整體麻醉框架研究，atropine 非主要介入藥物"
+            }
+          },
+          {
+            "nct_id": "NCT05462938",
+            "title": "Comparative Study of Propofol Versus Dexmedetomidine for Conscious Sedation During Transcatheter Aortic Valve Implantation",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2021-11-11",
+            "completion_date": "2025-11-15",
+            "brief_summary": "Aortic valve stenosis is the heart valve disease with the highest prevalence among the elderly, and may lead to heart failure. Until recently, the only definitive treatment was surgical replacement (SAVR). However, the increased risk associated with the surgical procedure excluded patients with multiple co-morbidities. As the population is aging and more and more patients may present with aortic stenosis, the need of a less invasive approach has emerged. Transcatheter Aortic Valve Replacement (T",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "TAVR 術中丙泊酚 vs dexmedetomidine 鎮靜比較；與頭痛適應症無關"
+            }
+          },
+          {
+            "nct_id": "NCT06436768",
+            "title": "Effectiveness of Sugammadex Versus Neostigmine on the Reversal of Rocuronium-induced Neuromuscular Blockade in Patients With Myasthenia Gravis After Thoracoscopic Thymectomy: A Multicenter Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 62,
+            "start_date": "2024-06-01",
+            "completion_date": "2025-03-05",
+            "brief_summary": "The purpose of this study was to demonstrate in patients with myasthenia gravis (MG) undergoing thoracoscopic thymectomy faster recovery from a moderate neuromuscular block induced by rocuronium after reversal at reappearance of T2 by 2.0 mg/kg sugammadex compared to 50 ug/kg neostigmine.\n\nMethods: A total of 64 patients with MG undergoing thoracoscopic thymectomy will be randomly divided into two groups: Sugammadex group (S group) and Neostigmine group (N group). The same anesthesia methods wil",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究 sugammadex vs neostigmine 逆轉神經肌肉阻斷；atropine 僅為 neostigmine 組的標準伴隨給藥，非治療性頭痛介入，無關聯性"
+            }
+          },
+          {
+            "nct_id": "NCT06729047",
+            "title": "Prophylactic Intravenous Injection of Neostigmine Plus Atropine Versus Ketorolac on Post-dural Puncture Headache in Patients Undergoing Infraumbilical Surgeries: A Randomized Clinical Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 330,
+            "start_date": "2024-12-15",
+            "completion_date": "2025-11-05",
+            "brief_summary": "Post-dural puncture headache (PDPH) or spinal (or post-spinal) headache is one of the most common side effects of spinal anesthesia, with an incidence of 6-36%. The incidence of this complication was reported to be 76-85% after accidental dural puncture in epidural anesthesia. It usually starts within several hours after spinal anesthesia, but sometimes it can be delayed for up to 2 weeks, which usually resolves within a few days",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 1/2（330人，大樣本）；靜脈注射 neostigmine+atropine 對比 ketorolac 治療 PDPH；尚未開始招募，結果待定，但設計高度相關"
+            }
+          },
+          {
+            "nct_id": "NCT04910477",
+            "title": "Comparative Effects of Nebulized Dexmedetomidine Versus Neostigmine / Atropine in Treating Postdural Puncture Headache After Cesarean Section: A Double Blind Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2021-06-01",
+            "completion_date": "2021-09-03",
+            "brief_summary": "In our study, we will compare a new route of nebulization for effectiveness between dexmedetomidine, neostigmine/atropine and saline placebo for females complained of postdural puncture headache (PDPH) after cesarean section.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 已完成 RCT（90人）；直接比較 nebulized neostigmine/atropine 對比 dexmedetomidine 治療 PDPH；為迄今最高證據等級的直接相關試驗"
+            }
+          },
+          {
+            "nct_id": "NCT06824025",
+            "title": "Comparison of Nebulized Neostigmine/Atropine Versus Lignocaine in Treating Acute Post-dural Puncture Headache Following Subarachnoid Block in Parturient Undergoing Elective Cesarean Section. A Randomized, Clinical Trial.",
+            "phase": "EARLY_PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 111,
+            "start_date": "2025-02-20",
+            "completion_date": "2027-01-05",
+            "brief_summary": "Post-dural puncture headache (PDPH) is a common and debilitating complication of spinal anesthesia in pregnant patients undergoing cesarean sections, with an incidence ranging from 0.5% to 2% (1). The International Headache Society (IHS) defines PDPH as a headache occurring within 4 days of a lumbar puncture, caused by cerebrospinal fluid (CSF) leakage through the dural puncture (2). Although the exact cause of PDPH is not fully understood, it is thought to occur due to cerebrospinal fluid loss ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Early Phase 1（111人）；nebulized neostigmine/atropine 治療急性 PDPH；探索性設計，方法新穎（霧化給藥），但尚未開始，證據力有限"
+            }
+          },
+          {
+            "nct_id": "NCT03319511",
+            "title": "Comparison Between Thoracic Para-vertebral Block and Segmental Thoracic Spinal Anesthesia in Breast Cancer Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2014-11-24",
+            "completion_date": "2016-11-12",
+            "brief_summary": "General anesthesia is the conventional technique used for breast surgery. breast surgery is associated with a high incidence of postoperative pain, it is estimated that over 50 % of women suffer chronic pain following breast cancer surgery. Regional anesthesia is a good alternative to general anesthesia for breast cancer surgery, providing superior analgesia and fewer side effects related to a standard opiate-based analgesia. there is no evident optimal regional techniques for operative procedur",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "胸椎旁阻滯 vs 節段性脊椎麻醉比較；乳房手術麻醉方式研究，非頭痛治療"
+            }
+          },
+          {
+            "nct_id": "NCT05227716",
+            "title": "Evaluation of the Clinical Response to Magnesium Sulfate as an Adjunct in the Anesthesia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 104,
+            "start_date": "2022-10-01",
+            "completion_date": "2024-07-31",
+            "brief_summary": "Magnesium sulfate (MgSO4) has multiple desirable effects in an anesthetic procedure, including modulation of the hemodynamic response to surgical stress, perioperative anesthetic and analgesic effect, potentiation of neuromuscular blockade, and central nervous system depression. MgSO4 is an antagonist of the N-methyl-d-aspartic acid (NMDA) receptor, therefore it produces an analgesic effect related to the prevention of central sensitization caused by peripheral tissue damage.\n\nObjective. To eval",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "硫酸鎂麻醉輔助劑（NCT05843812 的相關試驗）；與 atropine 頭痛治療無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT06920576",
+            "title": "Effect of Perioperative Intravenous Infusion of Esketamine or Magnesium Sulphate on Emotional State and Postoperative Pain in Patients Undergoing Nasal Endoscopic Surgery: a Randomised, Controlled Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 144,
+            "start_date": "2025-03-01",
+            "completion_date": "2025-07-20",
+            "brief_summary": "Functional endoscopic sinus surgery (FESS) is one of the effective modalities for the treatment of Functional endoscopic sinus surgery (FESS) is one of the effective ways to treat chronic sinusitis, which has the advantages of deep approach, light trauma and less pain. However, the operation area involves the nose, eyes and skull.\n\nHowever, because the operation area involves the nose, eyes and skull, the surrounding tissue structure is complex and rich in blood vessels and nerves, and the use o",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "食管手術圍術期 esketamine/硫酸鎂對情緒及認知影響；研究情境與 atropine 治療頭痛無關"
+            }
+          },
+          {
+            "nct_id": "NCT02576626",
+            "title": "The Effectiveness of Single Dose Ultibro Breezhaler (Indacaterol/Glycopyrronium) by Sd-DPI Versus Ipratropium/Salbutamol by Nebulizer in Improving FEV1 and Dyspnea During Stable State of COPD",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2015-12",
+            "completion_date": "2017-09-29",
+            "brief_summary": "Rationale:\n\nInhaled bronchodilators, beta-2-agonist or anticholinergic or combinations, can be delivered by several types of devices: dry powder (DPI), pressurized metered dose inhalers (pMDI), and wet nebulizers. Wet nebulization is available for short-acting bronchodilators only, is cumbersome, and, importantly, has never been scientifically been proven to be more efficacious than delivery by the other two methods. Yet many patients are happy with wet nebulization and in many clinics this admi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04245774",
+            "title": "Comparing the Effects of Levobupivacaine and Bupivacaine in Anorectal Surgery Under Saddle Spinal Anesthesia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2007-11-21",
+            "completion_date": "2008-12-17",
+            "brief_summary": "İn this study; it was aimed to investigate the effects of equipotent doses of hyperbaric bupivacaine and hyperbaric levobupivacaine in outpatient anorectal surgery under saddle block. Sixty patients between the age of 18- 50 and in the risk group of ASA I-II included in the study. 7,5 mg of 0,5% hyperbaric bupivacaine or 7,5 mg of 0,5% hyperbaric levobupivacaine injected into the intrathecal space in sitting position through L4-L5 or L5-S1 intervertebral space in 30 seconds. All patients kept in",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02872597",
+            "title": "A Phase I, Single Center, Placebo-Controlled, Blinded Pilot Study of Ipratropium Bromide in Children Admitted to the Intensive Care Unit With Status Asthmaticus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2016-09-05",
+            "completion_date": "2018-08-16",
+            "brief_summary": "This study is a Phase I study to investigate the addition of inhaled Ipratropium bromide to standard therapy in the treatment of severe asthma attacks in children admitted to the Pediatric Intensive Care Unit. Half of the subjects will receive inhaled Ipratropium, and half will receive an inhaled placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03593044",
+            "title": "Side Effects of Atropine (SEA) Study",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 31,
+            "start_date": "2018-07-23",
+            "completion_date": "2019-01-17",
+            "brief_summary": "This study will perform several objective and subjective measurements of the eye and vision before and after a week of using 0.01% concentration atropine drops. These measurements will help to obtain a comprehensive understanding of the side effects of this concentration of atropine and determine if the drops would be tolerated as a possible preventative treatment for nearsightedness.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03587441",
+            "title": "The Efficacy of Neostigmine as an Adjuvant to Bupivacaine for Intrathecal Block in Reducing the Incidence and Severity of Post-Dural Puncture Headache for Parturients Scheduled for Elective Caesarean Section",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 240,
+            "start_date": "2018-08-04",
+            "completion_date": "2019-02-10",
+            "brief_summary": "Neuraxial blocks continue to be the cornerstone of anesthesia and postoperative analgesia for normal vaginal delivery and elective caesarean section due to its approved safety and efficiency for decades. Post-dural puncture headache (PDPH) is still one of the most common complications of neuraxial anesthetic techniques. The headache could be severe and limit the activities of the new mother to care for her baby, prolong hospital stay.\n\nPDPH is defined as a headache that develops within five days",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03997006",
+            "title": "Is Aminophylline More Effective Than Neostigmine/Atropine Mixture in the Treatment of Post-dural Puncture Headache: A Randomized Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2019-01-01",
+            "completion_date": "2020-01-01",
+            "brief_summary": "Objectives: To compare the safety and efficacy of IV aminophylline versus IV neostigmine/atropine mixture in the treatment of post-dural puncture headache (PDPH).\n\nBackground: PDPH is the most frequent complication of procedures associated with dural puncture for spinal anesthesia or following accidental dural puncture during epidural anesthesia. Since invasive treatments have known complications, pharmacologic management may be preferable.\n\nPatients and Methods: This was a prospective, randomiz",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30169405",
+            "title": "Addition of Neostigmine and Atropine to Conventional Management of Postdural Puncture Headache: A Randomized Controlled Trial.",
+            "authors": [
+              "Abdelaal Ahmed Mahmoud Ahmed",
+              "Mansour Amr Zaki",
+              "Yassin Hany Mahmoud",
+              "Hussein Hazem Abdelwahab",
+              "Kamal Ahmed Moustafa"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2018",
+            "abstract": "Postdural puncture headache (PDPH) lacks a standard evidence-based treatment. A patient treated with neostigmine for severe PDPH prompted this study.",
+            "classification": {
+              "study_type": "RCT (neostigmine+atropine vs conventional for PDPH)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37802666",
+            "title": "Reversible cerebral vasoconstriction syndrome after neostigmine and atropine administration for postdural puncture headache.",
+            "authors": [
+              "Ayoub Nouhad",
+              "Rocher Laurence",
+              "Talamon Céline",
+              "Mercier Frédéric J",
+              "Soued Mickaël"
+            ],
+            "journal": "British journal of anaesthesia",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (RCVS adverse event after neostigmine/atropine)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31094822",
+            "title": "In Response.",
+            "authors": [
+              "Abdelaal Ahmed Mahmoud Ahmed"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Letter/Commentary (response)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31094824",
+            "title": "In Response.",
+            "authors": [
+              "Abdelaal Ahmed Mahmoud Ahmed"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Letter/Commentary (response)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7246278",
+            "title": "Intravenous naphazoline intoxication.",
+            "authors": [
+              "van Montfrans G A",
+              "van Steenwijk R P",
+              "Vyth A",
+              "Borst C"
+            ],
+            "journal": "Acta medica Scandinavica",
+            "year": "1981",
+            "abstract": "Nine pale perspiring drug addicts with drowsiness, nausea, headache, normal blood pressure and marked sinus bradycardia with premature ventricular beats were seen at the Casualty Department soon after alleged i.v. cocaine administration. Eight were treated with atropine, as the bradycardia suggested intoxication with a parasympathomimetic compound. Seven were discharged in good condition after a few hours' observation. One patient developed a blood pressure of 150/120 mmHg after atropine. Subseq",
+            "classification": {
+              "study_type": "Case Report (naphazoline intoxication, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36651373",
+            "title": "Nebulized dexmedetomidine versus neostigmine/atropine for treating post-dural puncture headache after cesarean section: a double-blind randomized controlled trial.",
+            "authors": [
+              "Soliman Omar M",
+              "Aboulfotouh Ahmed I",
+              "Abdelhafez Ahmed M",
+              "Abedalmohsen Abualauon"
+            ],
+            "journal": "Minerva anestesiologica",
+            "year": "2023",
+            "abstract": "Post-dural puncture headache (PDPH) is one of the most common complications of neuraxial anesthesia after an accidental dural puncture. This study aimed to test non-interventional alternatives to treat PDPH. Our goals were to compare the effectiveness of nebulized dexmedetomidine (DEX) versus neostigmine/atropine in the conservative management of PDPH.",
+            "classification": {
+              "study_type": "RCT (nebulized dex vs neostigmine/atropine for PDPH)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35541133",
+            "title": "Mad honey: uses, intoxicating/poisoning effects, diagnosis, and treatment.",
+            "authors": [
+              "Ullah Sana",
+              "Khan Shahid Ullah",
+              "Saleh Tawfik A",
+              "Fahad Shah"
+            ],
+            "journal": "RSC advances",
+            "year": "2018",
+            "abstract": "Honey has been used as a folk medicine since 2100 BC; however, mad honey is different from normal natural or commercially available honey as it is contaminated with grayanotoxins, which leads to intoxication/poisoning upon consumption. Grayanotoxin is generally found in Rhododendron genus (family: Ericaceae) and is extracted by bees from nectar and pollens of flowers. Mad honey has been commonly used as an aphrodisiac (sexual stimulant), in alternative therapy for gastrointestinal disorders (pep",
+            "classification": {
+              "study_type": "Review (mad honey toxicology, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24807372",
+            "title": "[The nerve agent sarin: history, clinical manifestations, and treatment].",
+            "authors": [
+              "Yanagisawa Nobuo"
+            ],
+            "journal": "Brain and nerve = Shinkei kenkyu no shinpo",
+            "year": "2014",
+            "abstract": "Organic phosphate pesticides were used worldwide after World War II and experiences on poisoning and treatment have been accumulated. An organic phosphate \"nerve agent\" Sarin was used in two terrorist attacks in Japan in the 1990s. Sarin effects on humans were well documented in these two incidents. Sarin gas inhalation caused instantaneous death by respiratory arrest in several victims in Matsumoto. Severely injured victims presenting with coma and generalized convulsion were resuscitated and r",
+            "classification": {
+              "study_type": "Review (sarin/organophosphate, atropine as antidote, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7039329",
+            "title": "Mydriatic and cycloplegic drugs: a review of ocular and systemic complications.",
+            "authors": [
+              "Rengstorff R H",
+              "Doughty C B"
+            ],
+            "journal": "American journal of optometry and physiological optics",
+            "year": "1982",
+            "abstract": "Complications from mydriatic and cycloplegic drugs are rare compared with their extensive use. Adverse effects are often related to dosage or other factors. The ocular complications include increased intraocular pressure, pigmentation of the conjunctiva and cornea, pigment in the anterior chamber, lacrimal duct blockage, macular edema, corneal endothelium damage, hyperemia, allergy, discomfort, and blurred vision. The systemic complications are those common to sympathomimetic and parasympatholyt",
+            "classification": {
+              "study_type": "Review (mydriatic/cycloplegic complications, safety reference)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31094821",
+            "title": "Questions Regarding the Use of Neostigmine-Atropine to Treat Postdural Puncture Headache.",
+            "authors": [
+              "Nair Abhijit Sukumaran"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Letter/Commentary (critical appraisal of PDPH treatment)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36485173",
+            "title": "Meningeal mast cell-mediated mechanisms of cholinergic system modulation in neurogenic inflammation underlying the pathophysiology of migraine.",
+            "authors": [
+              "Kilinc Erkan",
+              "Torun Ibrahim Ethem",
+              "Baranoglu Kilinc Yasemin"
+            ],
+            "journal": "The European journal of neuroscience",
+            "year": "2024",
+            "abstract": "Growing evidence indicates that the parasympathetic system is implicated in migraine headache. However, the cholinergic mechanisms in the pathophysiology of migraine remain unclear. We investigated the effects and mechanisms of cholinergic modulation and a mast cell stabilizer cromolyn in the nitroglycerin-induced in vivo migraine model and in vitro hemiskull preparations in rats. Effects of cholinergic agents (acetylcholinesterase inhibitor neostigmine, or acetylcholine, and muscarinic antagoni",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34905525",
+            "title": "Case Series: Periodic Accommodative Fluctuations after Concussion.",
+            "authors": [
+              "Houston Kevin E",
+              "McDaniel Catherine E",
+              "Greenspan Lynn",
+              "Tirandazi Pooyan"
+            ],
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "2021",
+            "abstract": "This is the first report recording an accommodative disorder after concussion characterized by periodic moderately sized myopic refractive error fluctuations without measurable other features of spasm of the near reflex.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4905301",
+            "title": "[Side effects of drugs].",
+            "authors": [
+              "Jacob J"
+            ],
+            "journal": "Il Farmaco; edizione pratica",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10363730",
+            "title": "An extended-release formulation of oxybutynin chloride for the treatment of overactive urinary bladder.",
+            "authors": [
+              "Goldenberg M M"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "1999",
+            "abstract": "Detrusor instability, or urinary incontinence, is common in elderly patients, particularly elderly women. The clinical symptoms of overactive, or unstable, urinary bladder include urge urinary incontinence, urgency, and frequency. Mixed urinary incontinence, which comprises urge urinary incontinence and stress incontinence, is manifested by increased intraabdominal pressure on coughing or sneezing. The detrusor muscle of the bladder is under the control of the parasympathetic, or muscarinic, ner",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17311576",
+            "title": "A case of accidental mydriasis.",
+            "authors": [
+              "Lewis Gareth"
+            ],
+            "journal": "Clinical & experimental optometry",
+            "year": "2007",
+            "abstract": "A 42-year-old man presented with a three-day history of progressive bilateral blurred vision, photophobia and headaches. There was no history of trauma. He was emmetropic with visual acuity of 6/60 (pinhole 6/24) in both eyes, no ptosis and full range of eye movements. His pupils were in fixed mydriasis. The pupils were unreactive to light or accommodation. His optic discs and fundi were normal. Pilocarpine failed to constrict his pupils. Initially, he strongly denied using any topical ocular me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4040840",
+            "title": "Combined electroconvulsive and drug therapy.",
+            "authors": [
+              "Barkai A I"
+            ],
+            "journal": "Comprehensive therapy",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5089911",
+            "title": "Diazepam-modified electroconvulsive therapy.",
+            "authors": [
+              "Martin D J",
+              "Kaelbling R"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9137218",
+            "title": "Evolution of dobutamine echocardiography protocols and indications: safety and side effects in 3,011 studies over 5 years.",
+            "authors": [
+              "Secknus M A",
+              "Marwick T H"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1997",
+            "abstract": "This study sought to document the safety of dobutamine stress echocardiography as it has evolved at a single center and to define predictors of adverse events.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4435966",
+            "title": "Asthmador: a legal hallucinogen.",
+            "authors": [
+              "Jacobs K W"
+            ],
+            "journal": "The International journal of the addictions",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此適應症特指「硬膜穿刺後頭痛（PDPH）」，與一般偏頭痛不同。機轉假說：Neostigmine（乙醯膽鹼酯酶抑制劑）透過增強蜘蛛膜下腔膽鹼能張力，可能調節脊髓液壓力動力學或血管反應性；Atropine 作為必要的聯合用藥，防止 neostigmine 的毒蕈鹼副作用（心動過緩、分泌過多）。【重要限制】：現有臨床試驗均測試「neostigmine+atropine 組合」，atropine 在此為輔助安全劑而非主要治療藥物，其獨立治療貢獻尚未被析出驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.9645991921424866,
+        "rank": 22962
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15009014",
+            "title": "Noxious chemical stimulation of rat facial mucosa increases intracranial blood flow through a trigemino-parasympathetic reflex--an experimental model for vascular dysfunctions in cluster headache.",
+            "authors": [
+              "Gottselig R",
+              "Messlinger K"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2004",
+            "abstract": "Cluster headache is characterized by typical autonomic dysfunctions including facial and intracranial vascular disturbances. Both the trigeminal and the cranial parasympathetic systems may be involved in mediating these dysfunctions. An experimental model was developed in the rat to measure changes in lacrimation and intracranial blood flow following noxious chemical stimulation of facial mucosa. Blood flow was monitored in arteries of the exposed cranial dura mater and the parietal cortex using",
+            "classification": {
+              "study_type": "Animal Study (trigemino-parasympathetic reflex)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2452018",
+            "title": "Substance P in the human iris: possible involvement in echothiophate-induced miosis in cluster headache.",
+            "authors": [
+              "Fanciullacci M",
+              "Pietrini U",
+              "Geppetti P",
+              "Nicolodi M",
+              "Curradi C"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1988",
+            "abstract": "Substance P-like immunoreactivity (SP-LI) was measured by radioimmunoassay in iris, choroid, and retina obtained from men after death. Although present in different amounts, SP-LI, eluting as authentic SP or SP sulfoxide in the high-performance liquid chromatography system, was found in the three ocular structures. The retina contained higher concentrations of SP-LI than the iris and choroid. The possible functional involvement of iris SP was studied in 22 episodic cluster headache (CH) patients",
+            "classification": {
+              "study_type": "Clinical Study (substance P/cholinergic in cluster headache)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6397917",
+            "title": "[Atropine preparations in the treatment of Horton's headache].",
+            "authors": [
+              "Split W",
+              "Szmidt M"
+            ],
+            "journal": "Wiadomosci lekarskie (Warsaw, Poland : 1960)",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Report/Case Series (1984, French, atropine in cluster headache)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉神經自主神經頭痛（TAC，含叢集性頭痛）的自主神經症狀（流淚、鼻塞、結膜充血）由副交感神經（蝶顎神經節）過度激活所驅動，理論上為抗膽鹼藥物作用的靶點。1984 年法文文獻（PMID 6397917）報告了阿托品製劑用於 Horton 頭痛（叢集性頭痛舊稱）的臨床觀察；PMID 2452018 在叢集性頭痛患者眼組織中發現 substance P 與膽鹼酯酶抑制相關的縮瞳現象，間接支持膽鹼能通路參與；PMID 15009014 的動物研究顯示三叉神經-副交感神經反射調節顱內血流。證據歷史久遠且等級低，但機轉邏輯具有一定生物學合理性，值得現代方法學重新評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9633741974830629,
+        "rank": 23340
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎源性不適當抗利尿症候群（NSIAD）由 AVPR2（V2 血管加壓素受體）功能獲得性突變引起，導致 cAMP 持續升高及集合管對水的持續通透，與膽鹼能訊號通路（M 受體/毒蕈鹼路徑）無任何已知分子交叉點。零文獻、零試驗，TxGNN 預測評分（0.9634）可能源於知識圖譜中「水電解質失衡」與「自主神經功能」相鄰節點的非特異性連結，屬演算法雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atropine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

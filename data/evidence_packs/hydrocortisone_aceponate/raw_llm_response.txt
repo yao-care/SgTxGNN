@@ -1,0 +1,215 @@
+## 藥物再利用證據分析：Hydrocortisone aceponate (DB14538)
+
+### 藥物背景摘要
+
+> **Hydrocortisone aceponate** 為氫化可體松的雙酯前驅藥（diester prodrug），屬中高效價外用皮質類固醇，在歐洲部分市場（如德國 Efficort®）已核准用於皮膚炎症，但台灣市場未上市。其核心機轉為葡萄糖皮質素受體（GR）促效，具抗炎、抗增生、免疫調節特性，**皮膚組織選擇性高**。由於給藥途徑為「皮膚外用」，多數全身性適應症的評估需特別考量此限制。
+
+---
+
+```json
+{
+  "drug": "Hydrocortisone aceponate",
+  "drugbank_id": "DB14538",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "此藥為外用皮膚製劑（topical corticosteroid），分析時須優先考量給藥途徑適配性。TxGNN 高分預測多反映皮質類固醇類別效應，而非特定製劑證據。",
+  "summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L3": 2,
+      "L4": 3,
+      "L5": 5
+    },
+    "recommendation_distribution": {
+      "Hold": 8,
+      "Research Question": 2,
+      "Proceed with Guardrails": 0
+    },
+    "highest_priority_indications": [
+      "primary cutaneous T-cell lymphoma",
+      "seborrheic dermatitis"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.9758,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "皮質類固醇作為藥物類別（口服/注射 prednisolone、triamcinolone 關節內注射）已有 RCT 支持用於急性痛風發作，類別效應明確（L1 級）。然而 Hydrocortisone aceponate 為**皮膚外用製劑**，無法系統性到達關節腔，給藥途徑根本不符。高 TxGNN 分數反映的是皮質類固醇類別節點在知識圖譜中與痛風的關聯，而非此特定製劑的可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不相容（皮膚外用 vs. 需全身或關節內給藥）",
+      "critical_gap": "無任何外用皮質類固醇用於痛風的臨床試驗或文獻"
+    },
+    {
+      "disease_name": "allergic asthma",
+      "txgnn_score": 0.9718,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "吸入型皮質類固醇（ICS，如 budesonide、fluticasone）為過敏性氣喘第一線治療，機轉為直接作用於支氣管上皮 GR 受體。Hydrocortisone aceponate 為**外用皮膚製劑**，給藥途徑與肺部靶組織完全不符，且無吸入製劑。唯一關聯文獻（PMID 11817968）為皮膚科外用皮質類固醇綜述，與過敏性氣喘**毫無關聯**，不應計入證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11817968",
+          "title": "New and established topical corticosteroids in dermatology: clinical pharmacology and therapeutic use",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "本文為皮膚科外用皮質類固醇藥理學綜述，僅確認 HCA 為皮膚科製劑，與過敏性氣喘適應症無關聯。作為氣喘的支持文獻，相關性為零。"
+        }
+      ],
+      "route_compatibility": "不相容（皮膚外用 vs. 需吸入途徑）",
+      "critical_gap": "無吸入製劑，無任何氣喘相關臨床或前臨床研究"
+    },
+    {
+      "disease_name": "exostosis",
+      "txgnn_score": 0.9706,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外骨疣（骨性增生）為良性骨腫瘤，與皮質類固醇抗炎機轉無直接治療關聯。值得注意的是，**長期皮質類固醇使用反而可能誘發骨質疏鬆**，治療方向邏輯上相悖。TxGNN 高分可能反映知識圖譜中骨骼疾病節點與皮質類固醇的非特異性連結，屬偽陽性預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不適用（外骨疣通常需手術治療）",
+      "critical_gap": "無機轉假說、無任何臨床前或臨床研究"
+    },
+    {
+      "disease_name": "intrinsic asthma",
+      "txgnn_score": 0.9691,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內因性（非過敏性）氣喘同樣以吸入型皮質類固醇為核心治療。與過敏性氣喘分析相同，Hydrocortisone aceponate 外用製劑無法到達氣道靶組織，給藥途徑根本不符，且無任何支持文獻或臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不相容",
+      "critical_gap": "與 allergic asthma 分析結論相同，無任何支持證據"
+    },
+    {
+      "disease_name": "iris disease",
+      "txgnn_score": 0.9662,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼科皮質類固醇（如 prednisolone acetate 眼藥水、dexamethasone）用於虹膜炎/葡萄膜炎具有成熟臨床證據（L2-L3 級類別效應）。皮質類固醇抑制眼內炎症的機轉合理。然而 Hydrocortisone aceponate **為皮膚外用製劑，不具眼科配方**，且皮膚科外用藥直接接觸眼部具有安全疑慮（角膜損傷風險）。需眼科專用配方研發才可評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不相容（皮膚外用製劑不適合眼部應用）",
+      "critical_gap": "無眼科配方，無眼內安全性資料"
+    },
+    {
+      "disease_name": "Crohn's colitis",
+      "txgnn_score": 0.9624,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "皮質類固醇類別（口服 prednisolone、budesonide 腸釋劑、hydrocortisone 灌腸劑）在克隆氏腸炎有 RCT 支持，類別效應為 L1 級。Hydrocortisone 灌腸劑已用於潰瘍性結腸炎，提供間接關聯。然而 Hydrocortisone aceponate 為皮膚外用製劑，尚無腸道適用配方，口服生體利用率低，腸道靶向性未被確立，無直接臨床前或臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不相容（需口服或直腸給藥）",
+      "critical_gap": "無腸道配方，無任何 IBD 相關臨床或前臨床研究"
+    },
+    {
+      "disease_name": "primary cutaneous T-cell lymphoma",
+      "txgnn_score": 0.9612,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "原發性皮膚 T 細胞淋巴瘤（CTCL），尤其是早期蕈狀肉芽腫（Mycosis Fungoides, MF Stage IA-IIA），皮膚導向治療（skin-directed therapy）為第一線選擇。**外用強效皮質類固醇已被 NCCN 指引列為早期 MF 的治療選項之一**，機轉包含：(1) 誘導腫瘤性 T 細胞凋亡、(2) 抑制 Th2/Th17 促腫瘤微環境、(3) 減少皮膚炎症浸潤。Hydrocortisone aceponate 作為中高效價外用皮質類固醇，**給藥途徑（皮膚外用）與適應症完全匹配**，為本分析中機轉最合理的候選適應症。目前類別藥物（clobetasol propionate、betamethasone）的回顧性研究支持外用皮質類固醇在早期 MF 中可達完全緩解率（CR）約 63-65%（T1 期），但針對 HCA 特定的 RCT 尚無。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "完全相容（皮膚外用製劑用於皮膚腫瘤）",
+      "priority_rationale": "給藥途徑匹配 + 類別藥物有回顧性研究支持 + NCCN 指引認可外用皮質類固醇於此適應症",
+      "next_steps": "建議：(1) 系統性文獻回顧確認 HCA 相較其他外用皮質類固醇的效價優勢；(2) 確認 HCA 在 MF 皮膚病灶的滲透動力學；(3) 設計 Phase 2 單臂試驗（早期 MF）"
+    },
+    {
+      "disease_name": "seborrheic dermatitis",
+      "txgnn_score": 0.9569,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "脂漏性皮膚炎的治療指引（AAD、EDF）中，**外用皮質類固醇為短期控制炎症的標準選項**，推薦用於急性期皮膚發炎（特別是頭皮、顏面、軀幹）。機轉：抑制皮脂腺周圍炎症浸潤及 IL-1β、TNF-α 等促炎細胞因子。Hydrocortisone aceponate 給藥途徑（皮膚外用）與適應症完全匹配，同類藥物（hydrocortisone 17-butyrate、mometasone）有臨床使用記錄。HCA 因其皮膚選擇性高（前驅藥機轉降低全身副作用），理論上適合顏面等薄皮膚部位的脂漏性皮膚炎，但需確認 HCA 特定效價是否適合面部長期使用（萎縮風險）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11817968",
+          "title": "New and established topical corticosteroids in dermatology: clinical pharmacology and therapeutic use",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "本文為外用皮質類固醇皮膚科應用綜述，可能涵蓋 HCA 在各類皮膚炎症（含脂漏性皮膚炎）的藥理基礎說明。相較於氣喘適應症，此文獻與脂漏性皮膚炎的關聯性較高（同屬皮膚科炎症適應症），但尚非特定 HCA + 脂漏性皮膚炎的直接研究。"
+        }
+      ],
+      "route_compatibility": "完全相容",
+      "priority_rationale": "給藥途徑匹配 + 類別藥物在皮膚炎症的廣泛臨床使用 + 已有相關文獻",
+      "next_steps": "建議：(1) 確認 PMID 11817968 是否直接提及 HCA 用於脂漏性皮膚炎；(2) 搜尋 HCA 在特應性皮膚炎（atopic dermatitis）的已有研究，作為脂漏性皮膚炎的橋接證據；(3) 考慮開展比較效果研究（HCA vs. hydrocortisone butyrate）"
+    },
+    {
+      "disease_name": "benign neoplasm of iris",
+      "txgnn_score": 0.9553,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "虹膜良性腫瘤（如虹膜痣、囊腫）與皮質類固醇抗炎機轉無明確治療關聯；良性腫瘤通常採觀察等待或手術切除。外用皮膚製劑無法有效到達眼內靶組織，且皮質類固醇反而是**已知的眼壓升高（開角型青光眼）和白內障風險藥物**，用於眼部腫瘤的安全性疑慮大。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不相容",
+      "critical_gap": "無機轉假說，且皮質類固醇本身具有眼科副作用風險"
+    },
+    {
+      "disease_name": "iris cancer",
+      "txgnn_score": 0.9543,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "虹膜癌（葡萄膜黑色素瘤等）無皮質類固醇治療的既有證據；**皮質類固醇的免疫抑制作用在腫瘤學中可能有害**（抑制抗腫瘤免疫反應）。外用皮膚製劑無法穿透至眼內腫瘤靶組織。TxGNN 預測可能反映知識圖譜中「iris disease」節點簇的非特異性擴散，屬低可信度預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "route_compatibility": "不相容",
+      "critical_gap": "無機轉假說，免疫抑制效應在腫瘤學中具潛在危害性"
+    }
+  ]
+}
+```
+
+---
+
+## 決策摘要矩陣
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵限制 |
+|--------|----------|---------|---------|------|---------|
+| **primary cutaneous T-cell lymphoma** | 0.9612 | **L3** | **S1** | **Research Question** | 類別藥物有回顧性支持，HCA特定RCT缺乏 |
+| **seborrheic dermatitis** | 0.9569 | **L3** | **S1** | **Research Question** | 途徑匹配，類別證據充分，HCA直接數據待補 |
+| gout | 0.9758 | L4 | S0 | Hold | 外用途徑不適合關節治療 |
+| iris disease | 0.9662 | L4 | S0 | Hold | 外用皮膚製劑不適眼部 |
+| Crohn's colitis | 0.9624 | L4 | S0 | Hold | 外用途徑無法到達腸道 |
+| allergic asthma | 0.9718 | L5 | S0 | Hold | 文獻不相關；需吸入途徑 |
+| intrinsic asthma | 0.9691 | L5 | S0 | Hold | 需吸入途徑 |
+| exostosis | 0.9706 | L5 | S0 | Hold | 機轉不合理，方向相悖 |
+| benign neoplasm of iris | 0.9553 | L5 | S0 | Hold | 眼科安全疑慮 |
+| iris cancer | 0.9543 | L5 | S0 | Hold | 免疫抑制可能有害 |
+
+---
+
+## 核心發現與方法論說明
+
+### ⚠️ 重要觀察：TxGNN分數 ≠ 製劑可行性
+
+本分析中，**TxGNN 評分與實際可行性幾乎無相關**（高分預測大量 S0/Hold）。主要原因：
+
+1. **類別效應放大**：知識圖譜將「corticosteroid」類別節點與多種炎症疾病高度連結，但無法區分製劑（外用 vs. 吸入 vs. 口服）
+2. **給藥途徑盲點**：痛風（0.9758）、氣喘（0.9718）得分高於 CTCL（0.9612），但後者才是唯一途徑匹配的適應症
+3. **原始適應症數據缺失**：`original_indications: []` 導致模型缺乏錨點，預測偏向廣泛皮質類固醇效應
+
+### ✅ 優先推進方向
+
+**CTCL（L3/S1）** 與 **脂漏性皮膚炎（L3/S1）** 為唯一值得進一步評估的候選，兩者皆滿足：
+- 給藥途徑與疾病部位完全匹配（皮膚外用 → 皮膚疾病）
+- 類別藥物有既有臨床使用記錄
+- HCA 的高皮膚選擇性（前驅藥機轉）提供潛在差異化優勢
+
+> **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證後方可應用。

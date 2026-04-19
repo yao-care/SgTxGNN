@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00514-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dextromethorphan",
+    "drugbank_id": "DB00514",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.99984872341156,
+        "rank": 513
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06958692",
+            "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Phase 3 Trial of Dextromethorphan and Bupropion Sustained-Release Tablets in Adult Patients With Major Depressive Disorder",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 388,
+            "start_date": "2025-04-11",
+            "completion_date": "2026-12-30",
+            "brief_summary": "A multicenter, randomized, double-blind, placebo-controlled, phase 3 trial, aim to evaluate the efficacy and safety of dextromethorphan and bupropion sustained-release tablets in Chinese adult patients with major depressive disorder.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接以 DXM 為主要介入藥物之 Phase 3 RCT，設計完整（多中心、隨機、雙盲、安慰劑對照），招募規模 388 人具足夠統計效力。雖試驗尚在招募中，結果尚未公布，但設計品質構成 L1 最強直接臨床證據。需待結果揭盲後確認療效與安全性，建議密切追蹤。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DXM 作為中樞性止咳藥，透過抑制延腦咳嗽中樞（NMDAr 拮抗）及 Sigma-1 受體調控，可減少鼻腔分泌物刺激引發的咳嗽反射；加上局部黏膜抗炎機轉假說，提供合理的鼻腔疾病介入依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9998249411582948,
+        "rank": 575
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性咽喉炎的主要症狀為咽痛與乾咳，DXM 的中樞止咳機轉（NMDAr 拮抗抑制延腦咳嗽中樞）可緩解咳嗽症狀；然而對病原感染本身（細菌/病毒）無直接作用，屬症狀緩解而非病因治療。資料集內無該適應症的直接臨床試驗或文獻，惟 DXM 止咳藥理機轉提供間接支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "faucial diphtheria",
+      "txgnn": {
+        "score": 0.9935517311096193,
+        "rank": 7779
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "白喉為 Corynebacterium diphtheriae 產毒素的急性細菌感染，主要病理為外毒素導致的組織損傷與假膜形成。DXM 無抗菌活性，亦無針對白喉毒素的中和機轉；TxGNN 高分推測可能基於圖譜中呼吸道疾病節點的拓撲鄰近性，而非真實生物機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.9931825995445251,
+        "rank": 8091
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉自主神經性頭痛（TACs，包含叢集性頭痛）涉及三叉神經-副交感神經迴路的異常激活。DXM 的 NMDAr 拮抗與 Sigma-1 受體調控理論上可介入神經性疼痛，但針對 TAC 的特異性假說薄弱；現有資料集內無臨床試驗或文獻支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "cervical disc degenerative disorder",
+      "txgnn": {
+        "score": 0.9930416345596312,
+        "rank": 8198
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頸椎退化性椎間盤疾病以機械壓迫與局部發炎為主要病理。DXM 的 NMDAr 拮抗可理論上調控脊髓層面的疼痛信號（中樞敏化），但無直接頸椎退化的抗炎或結構修復機轉；資料集內完全無臨床支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.992468535900116,
+        "rank": 8655
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過敏性蕁麻疹由 IgE 介導的肥大細胞脫顆粒釋放組織胺所致。DXM 無抗組織胺活性，亦無 IgE 訊號抑制或肥大細胞穩定機轉；Sigma-1 受體的免疫調節潛力屬推測性研究領域，無蕁麻疹相關臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "tracheal disease",
+      "txgnn": {
+        "score": 0.9859110116958618,
+        "rank": 13628
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "952583",
+            "title": "Antitussive properties of butorphanol.",
+            "authors": [
+              "Cavanagh R L",
+              "Gylys J A",
+              "Bierwagen M E"
+            ],
+            "journal": "Archives internationales de pharmacodynamie et de therapie",
+            "year": "1976",
+            "abstract": "Butorphanol (levo-N-cyclobutylmethyl-3, 14-dihydroxy morphinan), a potent analgetic agent of the narcotic antagonist type with a low abuse potential in laboratory animals, was evaluated for antitussive activity in unanesthetized guinea-pigs and dogs. Subcutaneously, it was over 100 times more active than codeine, dextromethorphan and dl-pentazocine and about 20 times more active than morphine in the guinea-pig, while in the dog it was 100, 10 and 4 times more active than codeine, dl-pentazocine ",
+            "classification": {
+              "study_type": "Comparative pharmacology study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2255670",
+            "title": "The effects of vadocaine, dextromethorphan, diphenhydramine and hydroxyzine on the ciliary beat frequency in rats in vitro.",
+            "authors": [
+              "Karttunen P",
+              "Silvasti M",
+              "Virta P",
+              "Saano V",
+              "Nuutinen J"
+            ],
+            "journal": "Pharmacology & toxicology",
+            "year": "1990",
+            "abstract": "Mucociliary function is a major cleansing mechanism of the respiratory tract. Many drugs used in the treatment of respiratory diseases impair the ciliary beat frequency (CBF) of mucous membrane. Our aim was to study by means of a photoelectric technique, the effects of two antitussives--dextromethorphan and vadocaine--and two antihistamines--hydroxyzine and diphenhydramine--on the rat tracheal CBF in vitro. The CBF was measured from tracheal explants immersed in drug solutions. Dextromethorphan ",
+            "classification": {
+              "study_type": "In vitro / Ex vivo mechanistic study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DXM 的中樞止咳機轉與局部氣管黏膜效應（纖毛擺動頻率調控）提供氣管疾病症狀管理的生物合理性。PMID 2255670 直接測試 DXM 對纖毛擺動頻率的影響，揭示可能的黏液清除機轉；然而兩篇文獻均為 1976-1990 年代的基礎/早期臨床研究，方法學品質受時代限制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "massive neonatal aspiration syndrome",
+      "txgnn": {
+        "score": 0.9784340262413024,
+        "rank": 17773
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "新生兒大量吸入症候群（胎糞/羊水吸入）需即時氣道清除與支持性療法，DXM 在此情境無已知有益機轉。更重要的是，新生兒對 DXM 代謝（CYP2D6 酶系未成熟）的安全性高度不確定，存在嚴重毒性風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "respiratory syncytial virus bronchiolitis",
+      "txgnn": {
+        "score": 0.976466715335846,
+        "rank": 18667
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RSV 毛細支氣管炎以嬰幼兒為主要族群，病理為病毒引發的細支氣管炎症。理論上 DXM 的 Sigma-1 受體調控可能影響病毒複製週期（Sigma-1r 參與多種病毒的胞內運輸），但此假說極具推測性，無任何 RSV 特異性數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hantavirus infectious disease",
+      "txgnn": {
+        "score": 0.9763523936271667,
+        "rank": 18720
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "漢他病毒感染導致出血熱或肺症候群，無已知特效治療。DXM 與漢他病毒之間無已知直接交互機轉；Sigma-1 受體與病毒複製的關聯研究雖存在於其他病毒（如 COVID-19），但無漢他病毒特異性數據。TxGNN 高分推測最可能反映圖譜中感染症疾病節點的非特異性連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "faucial diphtheria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "faucial diphtheria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "faucial diphtheria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "massive neonatal aspiration syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "massive neonatal aspiration syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "massive neonatal aspiration syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "respiratory syncytial virus bronchiolitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "respiratory syncytial virus bronchiolitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "respiratory syncytial virus bronchiolitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "hantavirus infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "hantavirus infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dextromethorphan",
+        "disease": "hantavirus infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

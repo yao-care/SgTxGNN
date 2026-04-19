@@ -1,0 +1,641 @@
+```json
+{
+  "drug": "Afatinib",
+  "drugbank_id": "DB08916",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Afatinib 為不可逆 pan-ErbB TKI（共價結合 EGFR/HER1、HER2、HER4），全球已核准用於 EGFR 突變型 NSCLC 及肺鱗癌（本地資料顯示「未上市」，推測為新加坡市場尚未核准或資料缺漏）。原始 MOA 標記為 [Data Gap] 係資料庫缺漏，實際機轉明確。",
+  "indications": [
+    {
+      "disease_name": "HER2 positive breast carcinoma",
+      "txgnn_score": 0.9865,
+      "evidence_level": "L1",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Afatinib 不可逆共價結合 HER2（ErbB2）激酶域，下調 HER2/HER3 異質二聚體訊號（PI3K-AKT、MAPK-ERK），直接針對 HER2 擴增/過表現的腫瘤。機轉高度相關，且因血腦屏障穿透性（親脂性高）對腦轉移亞群具潛在優勢。",
+      "critical_flag": "LUX-Breast 1 Phase 3 RCT（NCT01125566, n=508）已完成，主要終點（PFS）未達統計顯著優效於 Trastuzumab+Vinorelbine，故本適應症雖有 L1 證據但為 **負向結果**。後續研究聚焦於腦轉移次族群及聯合療法。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01125566",
+          "title": "LUX-Breast 1; Phase III Afatinib+Vinorelbine vs Trastuzumab+Vinorelbine",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 508,
+          "relevance_grade": "A",
+          "reasoning": "唯一完成的 Phase 3 RCT，直接比較 afatinib 與 trastuzumab 標準療法於 HER2+ MBC。PFS 主要終點未達優效（HR ~1.1），為本適應症關鍵負向證據，但提供完整安全性與次族群資料。"
+        },
+        {
+          "nct_id": "NCT04158947",
+          "title": "HER2+ Breast Cancer With Active Refractory Brain Metastases: Afatinib vs Lapatinib",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 130,
+          "relevance_grade": "A",
+          "reasoning": "直接針對 HER2+ 乳癌腦轉移次族群，afatinib 血腦屏障穿透性為差異化機轉，為 LUX-Breast 1 失敗後最具臨床意義的延伸研究方向。"
+        },
+        {
+          "nct_id": "NCT01441596",
+          "title": "LUX-Breast 3; Phase II Afatinib Alone or +Vinorelbine vs Capecitabine+Lapatinib",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 121,
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，評估 afatinib 於 HER2+ 先前 trastuzumab/lapatinib 失敗後療效，提供多線治療後證據。"
+        },
+        {
+          "nct_id": "NCT01594177",
+          "title": "Dual Blockage Afatinib+Trastuzumab as Neoadjuvant in Locally Advanced HER2+ BC",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 65,
+          "relevance_grade": "A",
+          "reasoning": "評估 afatinib+trastuzumab 雙重 HER2 阻斷於新輔助治療，pCR 率為主要終點，探索協同機轉。"
+        },
+        {
+          "nct_id": "NCT00826267",
+          "title": "Phase II Neoadjuvant BIBW 2992 vs Herceptin vs Lapatinib in HER2+ BC",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 29,
+          "relevance_grade": "A",
+          "reasoning": "三臂隨機 Phase 2，直接頭對頭比較 afatinib vs trastuzumab vs lapatinib 新輔助療效。"
+        },
+        {
+          "nct_id": "NCT00431067",
+          "title": "Phase II BIBW 2992 in HER2-positive MBC After Failure of Trastuzumab",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 41,
+          "relevance_grade": "A",
+          "reasoning": "早期關鍵 Phase 2，建立 afatinib 在 trastuzumab 耐藥 HER2+ MBC 的 ORR 基礎數據。"
+        },
+        {
+          "nct_id": "NCT01320280",
+          "title": "Phase II Evaluating BIBW 2992 in HER2+ BC",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 29,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 但提前終止，樣本量有限，結果解釋受限，降為 B 級。"
+        },
+        {
+          "nct_id": "NCT02438722",
+          "title": "Phase II/III Afatinib+Cetuximab vs Afatinib Alone in Treatment-Naive HER2+ Patients",
+          "phase": "PHASE2, PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 174,
+          "relevance_grade": "B",
+          "reasoning": "評估 EGFR+HER2 雙重阻斷策略，但 cetuximab 組合設計在乳癌中機轉依據較弱，需確認主要適應症（可能為膀胱癌或其他 HER2+ 實體腫瘤）。"
+        },
+        {
+          "nct_id": "NCT00950742",
+          "title": "Phase I BIBW 2992 +Herceptin in HER2-overexpressing Patients",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 18,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 安全性研究，確立 afatinib+trastuzumab 聯合療法劑量，為後續 Phase 2 奠基。"
+        },
+        {
+          "nct_id": "NCT01531764",
+          "title": "Phase II BIBW 2992 in HER2+ BC (Multicentre)",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 2,
+          "relevance_grade": "C",
+          "reasoning": "僅入組 2 人即終止，幾乎無可用數據，證據價值極低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35138529",
+          "title": "Afatinib alone and in combination with vinorelbine or paclitaxel in HER2-positive breast cancer",
+          "year": "2022",
+          "study_type": "Clinical Trial Summary/Review",
+          "tier": 1,
+          "notes": "直接報告 afatinib 在 HER2+ 乳癌的臨床結果，高度相關"
+        },
+        {
+          "pmid": "26822398",
+          "title": "Afatinib plus vinorelbine versus trastuzumab plus vinorelbine in HER2-overexpressing MBC",
+          "year": "2016",
+          "study_type": "RCT (Phase 3 結果報告)",
+          "tier": 1,
+          "notes": "LUX-Breast 1 主要結果發表，L1 證據核心文獻"
+        },
+        {
+          "pmid": "35653982",
+          "title": "Efficacy of TKIs for HER2-positive breast cancer patients with brain metastases",
+          "year": "2022",
+          "study_type": "Systematic Review/Meta-analysis",
+          "tier": 1,
+          "notes": "系統性回顧，包含 afatinib 腦轉移次族群分析"
+        },
+        {
+          "pmid": "29772459",
+          "title": "Tyrosine kinase inhibitors for brain metastases in HER2-positive breast cancer",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 2,
+          "notes": "評述 afatinib 於 HER2+ 腦轉移的臨床前景"
+        },
+        {
+          "pmid": "24080156",
+          "title": "A systematic review of dual targeting in HER2-positive breast cancer",
+          "year": "2014",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "notes": "雙重 HER2 阻斷策略系統性回顧，含 afatinib"
+        },
+        {
+          "pmid": "29604436",
+          "title": "Investigational chemotherapy and novel pharmacokinetic mechanisms for breast cancer",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 2,
+          "notes": "廣泛性綜述，afatinib 為其中之一"
+        },
+        {
+          "pmid": "33122343",
+          "title": "Effects of HER Family-targeting TKIs on ADCC",
+          "year": "2021",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": 2,
+          "notes": "探討 afatinib 對免疫效應機制（ADCC）的影響"
+        },
+        {
+          "pmid": "22305205",
+          "title": "New therapies in HER2-positive breast cancer: a major step towards cure?",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 2,
+          "notes": "早期 afatinib 在 HER2+ 乳癌的位置評述，歷史性文獻"
+        },
+        {
+          "pmid": "38367127",
+          "title": "Comparison of T-DM1, T-DXd, and disitamab vedotin in multi-resistant HER2+ BC",
+          "year": "2024",
+          "study_type": "Comparative Study",
+          "tier": 2,
+          "notes": "競爭療法比較，afatinib 角色已被 ADC 藥物替代的間接佐證"
+        },
+        {
+          "pmid": "33894300",
+          "title": "HER2-targeted therapies in gastric cancer",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "notes": "胃癌 HER2 相關，對乳癌適應症相關性低，間接機轉參考"
+        },
+        {
+          "pmid": "35149428",
+          "title": "Consensus for HER2 alterations testing in NSCLC",
+          "year": "2022",
+          "study_type": "Consensus/Guideline",
+          "tier": 3,
+          "notes": "NSCLC HER2 共識，適應症不同但機轉參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "MEN（MEN1/MEN2）涉及 MEN1 抑癌基因失活或 RET 原癌基因突變，與 EGFR/HER2 訊號無直接因果關係。Afatinib 對 RET 無顯著抑制活性（IC50 >> 治療濃度）。TxGNN 高分推測來自腫瘤類型相似性（神經內分泌腫瘤）或知識圖譜結構特徵，機轉依據薄弱。",
+      "critical_flag": "5 個臨床試驗均非針對 MEN 設計，為籃子試驗或 KRAS 突變泛癌研究。無 MEN 專屬文獻。高 TxGNN 分數可能為假陽性預測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02451553",
+          "title": "Phase I/IB Afatinib in Advanced Solid Tumors (ERBB-driven)",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 41,
+          "relevance_grade": "C",
+          "reasoning": "泛實體腫瘤 Phase 1，可能含少數 MEN 相關腫瘤患者，但非設計目標，無 MEN 次族群分析。"
+        },
+        {
+          "nct_id": "NCT02450656",
+          "title": "Afatinib+Selumetinib in KRAS Mutant Advanced Solid Tumors",
+          "phase": "PHASE1, PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 320,
+          "relevance_grade": "C",
+          "reasoning": "KRAS 突變為主要入組條件，MEN 腫瘤通常非 KRAS 驅動，相關性極低。"
+        },
+        {
+          "nct_id": "NCT02465060",
+          "title": "NCI-MATCH: Molecular Analysis for Therapy Choice",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 6452,
+          "relevance_grade": "C",
+          "reasoning": "超大型籃子試驗，基因體分型驅動，afatinib 可能為其中一臂，但 MEN 特定資料難以萃取。"
+        },
+        {
+          "nct_id": "NCT03785249",
+          "title": "MRTX849 (Adagrasib) in KRAS G12C Solid Tumors",
+          "phase": "PHASE1, PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 731,
+          "relevance_grade": "C",
+          "reasoning": "主藥物為 MRTX849（非 afatinib），與 MEN 及本藥關聯性雙重薄弱。資料可能為錯誤映射。"
+        },
+        {
+          "nct_id": "NCT03878524",
+          "title": "SMMART PRIME Trial",
+          "phase": "PHASE1",
+          "status": "TERMINATED",
+          "enrollment": 2,
+          "relevance_grade": "C",
+          "reasoning": "僅入組 2 人即終止，無可用證據。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "progesterone-receptor negative breast cancer",
+      "txgnn_score": 0.9793,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PR 陰性乳癌在生物學上高度異質，但與 HER2 過表現有強烈共現性（HER2+ 腫瘤約 50-60% 為 HR 陰性）。Afatinib 透過 HER2 抑制於 PR-/HER2+ 亞群具清楚機轉。對於三陰性乳癌（TNBC），EGFR 過表現（約 50-70%）提供替代機轉，但 EGFRhigh TNBC 的 afatinib 療效尚未確立。",
+      "critical_flag": "PR 陰性定義跨越多個分子亞型（HER2+/HR-、TNBC），此適應症的臨床試驗多為 HER2+ 重疊族群，需謹慎區分。NCT00708214（Phase 2, n=28）為直接針對 hormone refractory 乳癌研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01125566",
+          "title": "LUX-Breast 1 Phase III",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 508,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 於 HER2+ MBC，PR 陰性為其中重要次族群，但非主要分層因素，次族群數據需單獨解析。"
+        },
+        {
+          "nct_id": "NCT00708214",
+          "title": "Phase II BIBW 2992 in Hormone Refractory Metastatic Breast Cancer",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "A",
+          "reasoning": "直接針對 hormone refractory（ER-/PR- 或内分泌治療失敗）乳癌，最直接相關的 Phase 2 試驗。"
+        },
+        {
+          "nct_id": "NCT02511847",
+          "title": "Phase II Afatinib+Paclitaxel for Neoadjuvant Treatment of TNBC",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 40,
+          "relevance_grade": "A",
+          "reasoning": "三陰性乳癌（ER-/PR-/HER2-）新輔助治療，直接對應 PR 陰性次族群，EGFR 機轉探索。"
+        },
+        {
+          "nct_id": "NCT02115048",
+          "title": "Phase II Letrozole+Afatinib vs Letrozole Alone in ER+ MBC",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 44,
+          "relevance_grade": "B",
+          "reasoning": "ER+ 試驗但評估 afatinib 克服内分泌治療抗性，PR 陰性患者可能為次族群，提前終止限制解釋。"
+        },
+        {
+          "nct_id": "NCT01271725",
+          "title": "LUX-Breast 2; Phase II Afatinib in Metastatic HER2+ BC (Prior Trastuzumab)",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 74,
+          "relevance_grade": "B",
+          "reasoning": "HER2+ 患者含大量 PR- 亞群，提供間接 PR- 數據。"
+        },
+        {
+          "nct_id": "NCT01325428",
+          "title": "Phase II Afatinib ± Vinorelbine for HER2-overexpressing Breast Cancer",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 26,
+          "relevance_grade": "B",
+          "reasoning": "HER2 過表現（含 PR-）乳癌，樣本量小但結果可補充 Phase 3 資料。"
+        },
+        {
+          "nct_id": "NCT01649271",
+          "title": "Phase I Afatinib+Trastuzumab in HER2-overexpressing Tumors",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 13,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 安全性研究，含部分 PR- 乳癌患者。"
+        },
+        {
+          "nct_id": "NCT04158947",
+          "title": "HER2+ BC Brain Metastases Phase II",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 130,
+          "relevance_grade": "B",
+          "reasoning": "HER2+ 腦轉移，PR 狀態為次要分層，間接相關。"
+        },
+        {
+          "nct_id": "NCT00950742",
+          "title": "Phase I BIBW 2992+Herceptin in HER2-overexpressing Patients",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 18,
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 劑量探索，PR 狀態資料有限。"
+        },
+        {
+          "nct_id": "NCT02438722",
+          "title": "Phase II/III Afatinib+Cetuximab vs Afatinib Alone",
+          "phase": "PHASE2, PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 174,
+          "relevance_grade": "C",
+          "reasoning": "非乳癌特定設計，適應症不明確，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22763464",
+          "title": "Phase II trial of afatinib in extensively pretreated HER2-positive patients",
+          "year": "2012",
+          "study_type": "Phase 2 Clinical Trial",
+          "tier": 1,
+          "notes": "含大量 PR 陰性患者，afatinib 單藥在多線治療後乳癌的療效報告"
+        }
+      ]
+    },
+    {
+      "disease_name": "normal breast-like subtype of breast carcinoma",
+      "txgnn_score": 0.9789,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Normal breast-like 亞型（分子分型）通常 ER+/PR+/HER2-，EGFR 及 HER2 表現量低，afatinib 的主要靶點（HER2/EGFR）在此亞型缺乏生物學驅動依據。TxGNN 分數可能反映乳癌大類別的知識圖譜相近性，非亞型特異性預測。",
+      "critical_flag": "無任何臨床試驗或文獻支持。此亞型患者通常採用內分泌治療，EGFR/HER2 抑制劑無明確作用機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "progesterone-receptor positive breast cancer",
+      "txgnn_score": 0.9789,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PR 陽性乳癌多為 Luminal A/B 型，以内分泌治療為主。Afatinib 對此亞型的機轉依據較弱，除非合併 HER2 過表現（HER2+/HR+ 亞型）。ER/PR 信號與 HER 家族間存在交叉耐藥性（cross-resistance），afatinib 或可克服内分泌治療抗性，但相關試驗（NCT02115048）已提前終止。",
+      "critical_flag": "3 篇文獻均非針對 PR+ 特定設計，主要來自 HER2+ 試驗含少量 PR+ 亞群報告。無直接 PR+ 臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35138529",
+          "title": "Afatinib alone/combination in HER2-positive breast cancer (includes PR+ subgroup)",
+          "year": "2022",
+          "study_type": "Clinical Study Report",
+          "tier": 2,
+          "notes": "含 PR+ 次族群資料，但非主要分析對象"
+        },
+        {
+          "pmid": "22763464",
+          "title": "Phase II afatinib in HER2-positive pretreated patients (includes PR+ patients)",
+          "year": "2012",
+          "study_type": "Phase 2 Clinical Trial",
+          "tier": 2,
+          "notes": "部分 PR+ 患者包含於試驗，但未作為分層因素"
+        },
+        {
+          "pmid": "26822398",
+          "title": "LUX-Breast 1 results: Afatinib vs Trastuzumab in HER2+ MBC",
+          "year": "2016",
+          "study_type": "RCT (Phase 3)",
+          "tier": 2,
+          "notes": "Phase 3 含 PR+ 次族群，間接支持 HER2+/PR+ 亞群分析"
+        }
+      ]
+    },
+    {
+      "disease_name": "breast tumor luminal A or B",
+      "txgnn_score": 0.9787,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Luminal A/B 亞型（ER+/PR+/HER2-）依賴雌激素受體訊號，EGFR/HER2 表現量通常正常。Afatinib 對此亞型缺乏明確機轉支持。",
+      "critical_flag": "⚠️ 資料品質警示：19 篇文獻全部與 afatinib 或乳癌 Luminal 亞型無關，均為 B 細胞生物學（B cell development, B cell lymphoma）及 B 型肝炎疫苗相關文獻，推測為搜尋系統以『B』字元（Luminal B）錯誤匹配至『B cell』文獻。此文獻集合應視為資料錯誤，不具任何證據價值。無臨床試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32323265",
+          "title": "B Cell Development and Maturation",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": 3,
+          "notes": "❌ 完全不相關 — B 細胞發育綜述，與乳癌或 afatinib 無關，資料噪音"
+        },
+        {
+          "pmid": "34590138",
+          "title": "Hepatitis B Vaccines",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "notes": "❌ 完全不相關 — B 型肝炎疫苗，資料錯誤映射"
+        }
+      ]
+    },
+    {
+      "disease_name": "thrombocytopenia",
+      "txgnn_score": 0.9758,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 適應症框架錯誤：Afatinib 不抑制血小板生成或存活相關激酶（TPO-R/MPL、c-Kit、JAK2），而是在腫瘤治療過程中造成血小板減少（grade 1-3 AE，發生率約 5-15%）。血小板減少在此為 afatinib 的藥物不良反應（ADR），而非治療目標。臨床試驗及文獻均在監測/管理此副作用，而非以 afatinib 治療血小板減少症。",
+      "critical_flag": "🚨 適應症誤判警示：此預測為知識圖譜將「藥物-不良反應」關係錯誤轉換為「藥物-適應症」關係。Afatinib 禁忌用於血小板減少患者（出血風險增加），此適應症建議應予否決（Hard Stop）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01206816",
+          "title": "Phase I BI 6727 (Volasertib) + BIBW 2992 in Solid Tumors",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 57,
+          "relevance_grade": "C",
+          "reasoning": "監測 afatinib+volasertib 聯合療法的血液毒性（含血小板減少），為 ADR 監測研究，非以 afatinib 治療血小板減少。"
+        },
+        {
+          "nct_id": "NCT00977431",
+          "title": "Phase I BIBW 2992 + Radiotherapy",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 36,
+          "relevance_grade": "C",
+          "reasoning": "放射治療聯合試驗，血小板監測為安全性指標，非治療目標。"
+        },
+        {
+          "nct_id": "NCT02191891",
+          "title": "Phase Ib Afatinib + Paclitaxel",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 32,
+          "relevance_grade": "C",
+          "reasoning": "聯合化療安全性研究，血小板計數為常規監測項目。"
+        },
+        {
+          "nct_id": "NCT01732640",
+          "title": "Phase I/II Afatinib/Carboplatin/Paclitaxel in HNSCC",
+          "phase": "PHASE1, PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 9,
+          "relevance_grade": "C",
+          "reasoning": "鉑類化療含血小板抑制風險，終止試驗，血小板數據為安全性報告。"
+        },
+        {
+          "nct_id": "NCT02424617",
+          "title": "Phase 1/2 BGB324 + Erlotinib in NSCLC",
+          "phase": "PHASE1, PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "主藥物為 erlotinib（非 afatinib），afatinib 關聯性存疑，可能為錯誤映射。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40135231",
+          "title": "Adverse event profiles of EGFR-TKI: network meta-analysis and FAERS analysis",
+          "year": "2025",
+          "study_type": "Network Meta-analysis / Pharmacovigilance",
+          "tier": 3,
+          "notes": "確認 afatinib 血小板減少為已知 ADE，支持「ADR 而非適應症」的判斷"
+        },
+        {
+          "pmid": "30877063",
+          "title": "Properties of FDA-approved small molecule protein kinase inhibitors",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 3,
+          "notes": "綜述 TKI 藥理，確認 afatinib 靶點不含血小板相關激酶"
+        },
+        {
+          "pmid": "30061238",
+          "title": "Phase I Afatinib with Carboplatin and Pemetrexed",
+          "year": "2018",
+          "study_type": "Phase 1 Clinical Trial",
+          "tier": 3,
+          "notes": "血小板減少為報告的治療相關 AE，非治療目標"
+        }
+      ]
+    },
+    {
+      "disease_name": "marcothrombocytopenia with mitral valve insufficiency",
+      "txgnn_score": 0.9742,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "罕見疾病（大血小板型血小板減少合併二尖瓣閉鎖不全），為遺傳性血小板生成障礙，與 EGFR/HER2 訊號無任何關聯。此預測為知識圖譜「血小板減少」分類下的過度泛化，無任何生物學合理性。",
+      "critical_flag": "無臨床試驗、無文獻，罕見基因疾病，機轉完全不符。Hard Reject。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hereditary thrombocytopenia with normal platelets",
+      "txgnn_score": 0.9739,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性血小板減少（血小板計數正常但功能異常變異型），病因多為 MYH9、DIAPH1 等細胞骨架基因突變，與 EGFR/HER2 激酶訊號無關。同「marcothrombocytopenia」判斷邏輯，為知識圖譜分類錯誤所致的假陽性預測。",
+      "critical_flag": "無臨床試驗、無文獻，遺傳性罕見疾病，機轉完全不符。Hard Reject。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dense granule disease",
+      "txgnn_score": 0.9728,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dense granule disease（δ 顆粒缺乏症，Hermansky-Pudlak 症候群相關）為血小板胞器生成障礙，涉及 LYST、HPS1-11 等溶酶體相關胞器基因，與 ErbB 家族激酶訊號毫無關聯。為血小板功能障礙分類下的連鎖假陽性預測。",
+      "critical_flag": "無臨床試驗、無文獻，與 afatinib 機轉完全不符。Hard Reject。屬於知識圖譜「血小板減少 ADE → 血小板疾病適應症」的系統性錯誤傳播。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "HER2 positive breast carcinoma",
+        "evidence_level": "L1",
+        "stage": "S2",
+        "action": "Research Question — 已有 Phase 3 負向主要終點結果，但腦轉移次族群及新聯合策略（afatinib+trastuzumab）仍值得探索"
+      },
+      {
+        "rank": 2,
+        "disease": "progesterone-receptor negative breast cancer",
+        "evidence_level": "L2",
+        "stage": "S2",
+        "action": "Research Question — 聚焦 TNBC（EGFR 高表現）及 HER2+/HR- 亞型，需釐清 PR 陰性亞型的生物標記篩選策略"
+      },
+      {
+        "rank": 3,
+        "disease": "progesterone-receptor positive breast cancer",
+        "evidence_level": "L4",
+        "stage": "S0",
+        "action": "Hold — 僅有 HER2+ 試驗的間接次族群數據，需先確立 HER2+/HR+ 亞群的機轉假說再規劃試驗"
+      },
+      {
+        "rank": 4,
+        "disease": "multiple endocrine neoplasia",
+        "evidence_level": "L4",
+        "stage": "S0",
+        "action": "Hold — 僅籃子試驗間接證據，無 MEN 特異機轉，建議先進行生物標記（EGFR/HER2 表現）探索"
+      }
+    ],
+    "hard_reject": [
+      "thrombocytopenia（血小板減少為 ADE，非適應症）",
+      "marcothrombocytopenia with mitral valve insufficiency（遺傳性罕見病，機轉不符）",
+      "hereditary thrombocytopenia with normal platelets（遺傳性罕見病，機轉不符）",
+      "dense granule disease（血小板胞器障礙，機轉不符）",
+      "normal breast-like subtype（HER2/EGFR 表現低，機轉不符）"
+    ],
+    "data_quality_alerts": [
+      {
+        "indication": "breast tumor luminal A or B",
+        "alert_type": "Literature Contamination",
+        "severity": "HIGH",
+        "description": "19 篇文獻全為 B 細胞及 B 型肝炎文獻，推測搜尋系統將 'Luminal B' 的 'B' 字元匹配至 'B cell' 相關文獻。需修正文獻搜尋邏輯。"
+      },
+      {
+        "indication": "thrombocytopenia variants (3 indications)",
+        "alert_type": "ADR-to-Indication Misclassification",
+        "severity": "HIGH",
+        "description": "知識圖譜將 afatinib 的已知不良反應（血小板減少）誤轉為再利用適應症。建議在 TxGNN pipeline 中增加 ADE 濾除層。"
+      },
+      {
+        "indication": "multiple endocrine neoplasia — NCT03785249",
+        "alert_type": "Drug Mismatch",
+        "severity": "MEDIUM",
+        "description": "NCT03785249 主藥物為 MRTX849（adagrasib），非 afatinib，可能為映射錯誤。"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策摘要
+
+| 疾病 | 分數 | 證據等級 | 決策 | 建議 |
+|------|------|---------|------|------|
+| HER2+ 乳癌 | 0.987 | **L1** | S2 | Research Question ⚠️ Phase 3 主要終點失敗 |
+| PR- 乳癌 | 0.979 | **L2** | S2 | Research Question（TNBC 亞群） |
+| PR+ 乳癌 | 0.979 | L4 | S0 | Hold |
+| MEN | 0.985 | L4 | S0 | Hold（機轉弱） |
+| Normal breast-like | 0.979 | L5 | S0 | Hold |
+| Luminal A/B | 0.979 | L5 | S0 | Hold ⚠️ 文獻污染 |
+| 血小板減少（三項） | 0.976~0.973 | L5 | S0 | **Hard Reject**（ADE 誤判） |
+| Dense granule disease | 0.973 | L5 | S0 | **Hard Reject**（機轉完全無關） |
+
+### 關鍵洞察
+
+1. **Afatinib 在 HER2+ 乳癌的核心困境**：LUX-Breast 1 Phase 3 已證明對比 trastuzumab 無優效性，但腦轉移次族群（血腦屏障穿透力）及新輔助治療組合仍有研究空間。
+
+2. **系統性資料品質問題**：本批次預測出現兩類系統性錯誤——**ADE→適應症誤判**（血小板減少症群）及**文獻噪音污染**（Luminal B），建議在 TxGNN pipeline 加入 ADE 過濾器及更嚴格的文獻相關性評分。
+
+3. **TxGNN 高分不等於高證據**：MEN（分數 0.985）實際為 L4，反映知識圖譜拓撲特徵（腫瘤類別相近性）與生物機轉之間的落差。

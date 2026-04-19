@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB13884-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Albutrepenonacog alfa",
+    "drugbank_id": "DB13884",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.99943345785141,
+        "rank": 1257
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偽性 vWD 為 GPIbα 對 vWF 親和力異常增高，導致血小板自發聚集與 vWF 多聚體消耗。機轉屬於血小板/vWF 軸，與 Factor IX 替代療法無直接交集。Factor IX 補充無法矯正 GPIbα 功能異常。機轉關聯性：極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9994159936904908,
+        "rank": 1278
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血小板釋放障礙（如 δ-storage pool disease、α-storage pool disease）為血小板顆粒內容物分泌缺陷，屬血小板細胞內訊號傳遞問題。Factor IX 作為血漿凝血因子，無法補足顆粒缺乏或分泌缺陷。機轉關聯性：無。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9991938471794128,
+        "rank": 1646
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glanzmann 血小板無力症為 GPIIb/IIIa（αIIbβ3）缺乏或功能喪失，血小板聚集完全受損。現行替代療法為 rFVIIa（Eptacog alfa）或血小板輸注，係繞過血小板聚集缺陷而促進凝血酶生成。Factor IX 補充可強化 Xase 複合體活性，在理論上能增加 FXa → 凝血酶生成，屬間接且微弱的機轉橋接。然而，Albutrepenonacog alfa（長效 FIX）在 Glanzmann 中無任何臨床資料。機轉關聯性：間接/極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Scott syndrome",
+      "txgnn": {
+        "score": 0.9962862730026244,
+        "rank": 5335
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Scott 症候群為 TMEM16F/ANO6 突變導致活化血小板磷脂醯絲胺酸（PS）外翻缺陷，無法提供 Xase（FIXa-FVIIIa）及 Prothrombinase 複合體所需的磷脂表面，致凝血酶生成嚴重受損。在此背景下，補充 Factor IX 底物（Albutrepenonacog alfa）不能克服磷脂表面缺乏的速率限制步驟，FIXa 無組裝平台可用。機轉關聯性：理論上 FIX 是直接相關路徑中的分子，但缺陷在上游（磷脂平台），補充底物無益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "bleeding diathesis due to a collagen receptor defect",
+      "txgnn": {
+        "score": 0.9928452372550964,
+        "rank": 8346
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膠原蛋白受體缺陷（如 GPVI 缺乏、GPIa/IIa 缺乏）影響血小板黏附與活化的初步步驟，屬原發性止血（primary hemostasis）障礙。Factor IX 為次級止血（secondary hemostasis）中的凝血因子，無法修復血小板膠原蛋白受體功能。兩者路徑不重疊。機轉關聯性：無。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+      "txgnn": {
+        "score": 0.9925610423088074,
+        "rank": 8588
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性血小板減少症（如 MYH9 相關疾病、Bernard-Soulier 症候群等）的出血來自血小板數量不足或功能缺陷。治療策略為血小板輸注、TPO 受體促效劑或 rFVIIa 旁路治療；Factor IX 替代無法補足血小板量或功能。機轉關聯性：無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acquired coagulation factor deficiency",
+      "txgnn": {
+        "score": 0.985849142074585,
+        "rank": 13673
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "後天凝血因子缺乏症可涵蓋多種凝血因子，包含 Factor IX（如澱粉樣變性病、抑制性抗體）。若缺乏的因子恰為 Factor IX，則 Albutrepenonacog alfa 具有直接機轉支持（等同 B 型血友病機轉）。然而，「後天 Factor IX 缺乏」極罕見（多見於澱粉樣變性），且現有數據 0 筆，臨床可行性需進一步評估。此適應症在所有候選中機轉關聯性最強，但仍無臨床資料。機轉關聯性：中等（條件性）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "thrombotic thrombocytopenic purpura",
+      "txgnn": {
+        "score": 0.9820647835731506,
+        "rank": 15979
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TTP 為 ADAMTS13 嚴重缺乏導致超大 vWF 多聚體堆積，造成微血管血栓性血小板減少。治療為血漿置換、Caplacizumab（抗 vWF A1 域）、免疫抑制。Factor IX 補充完全不在 TTP 病理路徑上，且理論上可能加重血栓形成。機轉關聯性：無；潛在有害。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+      "txgnn": {
+        "score": 0.9753714203834534,
+        "rank": 19168
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FNAIT 為母體產生抗胎兒血小板抗原（HPA-1a 最常見）的同種抗體，導致胎兒/新生兒血小板遭免疫破壞。治療為靜脈免疫球蛋白（IVIG）、相容血小板輸注、宮內輸注。Factor IX 替代療法與此免疫性血小板減少機轉毫無交集。機轉關聯性：無。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "inherited thrombophilia",
+      "txgnn": {
+        "score": 0.974054753780365,
+        "rank": 19711
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02546622",
+            "title": "A Longitudinal, Observational Study of Previously Treated Hemophilia Patients Switching Factor Replacement Products",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 310,
+            "start_date": "2015-09",
+            "completion_date": "2020-06-30",
+            "brief_summary": "This is a longitudinal, observational study of patients with Hemophilia A or B who are planning to switch to a newly approved coagulation factor replacement product, or who have recently switched factor products. The study will follow each patient for up to 1 year. Patients will be recruited at Hemophilia Treatment Centers (HTC) which are ATHN-affiliates. The primary outcome being studied is the development of inhibitor (i.e., antibodies to factor) at 1 year or 50 exposure days, whichever comes ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此為觀察性研究，對象為「已接受治療的血友病患者轉換凝血因子替代品」，研究族群為 Factor IX/VIII 缺乏的血友病，與先天性血栓傾向（thrombophilia）病患群完全不同。被歸類至此適應症可能為資料連結錯誤或 TxGNN 圖譜誤分類。相關性：極低（C 級）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性血栓傾向（Factor V Leiden、凝血酶原 G20210A、蛋白 C/S 缺乏等）的核心問題是凝血過度活化，治療為抗凝血劑（DOAC、warfarin、LMWH）。補充 Factor IX 會增加凝血酶生成潛力，理論上將直接加重血栓風險。此適應症方向與藥物機轉完全相反。機轉關聯性：逆向——潛在禁忌。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "acquired coagulation factor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "inherited thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "inherited thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Albutrepenonacog alfa",
+        "disease": "inherited thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

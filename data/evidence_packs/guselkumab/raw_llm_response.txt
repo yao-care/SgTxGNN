@@ -1,0 +1,522 @@
+## 藥物再利用證據分析：Guselkumab (DB11834)
+
+> **背景說明**：Guselkumab（品牌名 Tremfya）為 **抗 IL-23p19 單株抗體**，雖本地資料標示「未上市」，但全球已獲 FDA 核准用於斑塊型銀屑病（2017）及銀屑病關節炎（2020）。original_indications 空值為本地資料映射缺口。
+
+---
+
+```json
+{
+  "drug": "Guselkumab",
+  "drugbank_id": "DB11834",
+  "moa_note": "抗 IL-23p19 單株抗體，阻斷 IL-23/Th17 軸，抑制 IL-17A/F、IL-22 等下游促炎介質",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "psoriasis",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "summary": "多項完成的 Phase 3 RCT（VOYAGE 1/2）確立療效，AAD-NPF 指引列為生物製劑選項；全球 FDA 已核准，本地「未上市」為資料映射缺口而非臨床證據缺失。",
+      "mechanistic_link": "IL-23/Th17 軸為銀屑病核心病理機轉：IL-23 驅動 Th17 細胞分化，促進 IL-17A/F 釋放，導致角質細胞過度增殖與中性球浸潤。IL-23p19 特異性阻斷可精準切斷此軸，不干擾 IL-12 介導的免疫保護。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02325219",
+          "title": "VOYAGE 系列 Phase 3 RCT（推測為 VOYAGE 1 或 2）",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 192,
+          "relevance_grade": "A",
+          "reasoning": "已完成的 Phase 3 雙盲 RCT，直接支持 psoriasis 療效；與 adalimumab 頭對頭比較，PASI 90 達成率顯著優於對照組，為核准依據之一"
+        },
+        {
+          "nct_id": "NCT04882098",
+          "title": "Phase 3b 雙盲安慰劑對照（大型延伸）",
+          "phase": "PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 1054,
+          "relevance_grade": "A",
+          "reasoning": "進行中大型 Phase 3b，樣本數 >1000，將進一步擴充長期安全性與療效資料"
+        },
+        {
+          "nct_id": "NCT02319759",
+          "title": "Phase 2a 雙盲 RCT",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 149,
+          "relevance_grade": "A",
+          "reasoning": "已完成 Phase 2a，確立劑量反應關係，為 Phase 3 設計基礎"
+        },
+        {
+          "nct_id": "NCT02951533",
+          "title": "Phase 3 頭對頭主動比較（vs. adalimumab）",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 119,
+          "relevance_grade": "A",
+          "reasoning": "已完成的 Phase 3 主動對照研究，直接比較療效，支持在 TNF-α 抑制劑替換場景下的使用"
+        },
+        {
+          "nct_id": "NCT04533737",
+          "title": "Phase 4 vs. Brodalumab 比較",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 113,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 比較研究因提前終止（113人），資料解讀受限，但仍提供部分安全性資訊"
+        },
+        {
+          "nct_id": "NCT02343744",
+          "title": "Phase 3 開放標籤研究",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 21,
+          "relevance_grade": "B",
+          "reasoning": "樣本數極小（n=21）且開放標籤，偏倚風險較高，僅作輔助參考"
+        },
+        {
+          "nct_id": "NCT07220824",
+          "title": "PsA 超音波評估（GUselkumab for PsA: GUITAR）",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 200,
+          "relevance_grade": "B",
+          "reasoning": "針對銀屑病關節炎，非直接 psoriasis 研究；超音波影像終點有助了解皮膚-關節軸，間接相關"
+        },
+        {
+          "nct_id": "NCT06055699",
+          "title": "腸道菌群與臨床復發（CREMI 隊列）",
+          "phase": "N/A",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "探索性觀察研究，聚焦腸道菌群生物標記，非直接療效評估；對藥物再利用決策貢獻有限"
+        },
+        {
+          "nct_id": "NCT05049798",
+          "title": "Tremfya vs. IL-17 抑制劑真實世界研究（PsA）",
+          "phase": "N/A",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 1314,
+          "relevance_grade": "B",
+          "reasoning": "大型真實世界觀察研究（n=1314），主要針對 PsA，提供真實世界安全性資料，但非 RCT"
+        },
+        {
+          "nct_id": "NCT00925574",
+          "title": "Phase 1 劑量遞增安全性研究",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 71,
+          "relevance_grade": "B",
+          "reasoning": "最早期安全性與耐受性研究，建立 PK/PD 基礎；對當前療效判斷為輔助性資料"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28057360",
+          "title": "Guselkumab vs. adalimumab Phase 3 RCT (VOYAGE 2)",
+          "year": "2017",
+          "study_type": "Phase 3 RCT",
+          "tier": 1,
+          "note": "核心核准試驗之一，N Engl J Med/JAMA 等級，直接奠定 FDA 核准基礎"
+        },
+        {
+          "pmid": "28057361",
+          "title": "Guselkumab vs. adalimumab Phase 3 RCT (VOYAGE 1)",
+          "year": "2017",
+          "study_type": "Phase 3 RCT",
+          "tier": 1,
+          "note": "VOYAGE 1 主試驗，與 PMID 28057360 並列核准主要依據"
+        },
+        {
+          "pmid": "28635018",
+          "title": "Ustekinumab 反應不足後 guselkumab 療效",
+          "year": "2018",
+          "study_type": "Phase 3 RCT",
+          "tier": 1,
+          "note": "解決後線治療場景，臨床實踐重要參考"
+        },
+        {
+          "pmid": "34105767",
+          "title": "5 年長期療效維持",
+          "year": "2021",
+          "study_type": "Long-term RCT Extension",
+          "tier": 1,
+          "note": "5 年資料確立長期安全性與療效維持，對慢性皮膚病極重要"
+        },
+        {
+          "pmid": "32022825",
+          "title": "生物製劑與口服療法比較 Meta-analysis",
+          "year": "2020",
+          "study_type": "Meta-analysis",
+          "tier": 1,
+          "note": "網絡 Meta 分析，定位 guselkumab 在生物製劑中的相對排序"
+        },
+        {
+          "pmid": "31583255",
+          "title": "IL-17/IL-12/23/IL-23 抑制劑短期療效 Meta-analysis",
+          "year": "2019",
+          "study_type": "Meta-analysis",
+          "tier": 1,
+          "note": "跨藥物類別比較，確認 IL-23 抑制劑在 PASI 90/100 的競爭力"
+        },
+        {
+          "pmid": "30772098",
+          "title": "AAD-NPF 生物製劑治療指引",
+          "year": "2019",
+          "study_type": "Clinical Practice Guideline",
+          "tier": 1,
+          "note": "美國皮膚科醫學會官方指引，明確推薦 guselkumab 用於中至重度銀屑病"
+        },
+        {
+          "pmid": "35791876",
+          "title": "Guselkumab/Ixekizumab/Secukinumab 藥物存活率比較",
+          "year": "2022",
+          "study_type": "Real-world Cohort",
+          "tier": 2,
+          "note": "真實世界藥物存活率比較，反映臨床實踐中療效與耐受性"
+        },
+        {
+          "pmid": "28887948",
+          "title": "銀屑病病理機轉與靶向免疫治療",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "機轉回顧，解釋 IL-23 靶向治療的科學基礎"
+        },
+        {
+          "pmid": "32427307",
+          "title": "銀屑病病理、臨床與治療綜述",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "JAMA 綜述，提供廣泛疾病背景，非 guselkumab 專論"
+        }
+      ]
+    },
+    {
+      "disease_name": "ulcerative colitis (disease)",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "summary": "QUASAR 系列（Phase 2b + Phase 3）已完成，Phase 3 結果於 2025 年發表，AGA 2024 指引已納入，屬主動開發中的擴展適應症，具備充分 Phase 3 臨床證據。",
+      "mechanistic_link": "IL-23 在腸道黏膜免疫中驅動 Th17/Th1 過度活化，促進 TNF-α、IL-17、IL-22 釋放，破壞腸上皮屏障。anti-IL-23p19 阻斷可選擇性抑制腸道病理性炎症（保留 IL-12 介導的抗感染免疫），與 UC 腸道 IL-23 高表達病理高度契合。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05242484",
+          "title": "QUASAR Phase 2b 雙盲 RCT（活動性 UC）",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 577,
+          "relevance_grade": "A",
+          "reasoning": "QUASAR 主體試驗 Phase 2b，N=577，已發表結果（PMID 37659673），確立劑量與誘導緩解療效，為 Phase 3 直接依據"
+        },
+        {
+          "nct_id": "NCT06663332",
+          "title": "Phase 3 開放標籤長期安全性研究（兒科）",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 196,
+          "relevance_grade": "A",
+          "reasoning": "兒科 Phase 3 LTE，擴充安全性資料庫至特殊族群，反映開發成熟度"
+        },
+        {
+          "nct_id": "NCT06408935",
+          "title": "Phase 3b 腸道穿透性癒合研究",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 112,
+          "relevance_grade": "A",
+          "reasoning": "評估 transmural healing（跨壁癒合），代表 UC 治療目標深化，為高品質 Phase 3b 研究"
+        },
+        {
+          "nct_id": "NCT07302360",
+          "title": "Bio-naïve UC 患者真實世界觀察",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 200,
+          "relevance_grade": "B",
+          "reasoning": "真實世界療效研究，針對 bio-naïve 族群，補充 RCT 族群外的臨床實踐資訊"
+        },
+        {
+          "nct_id": "NCT06916390",
+          "title": "Phase 4 迴廊炎（Pouchitis）研究",
+          "phase": "PHASE4",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 20,
+          "relevance_grade": "B",
+          "reasoning": "UC 術後合併症（迴廊炎）探索性研究，N=20 極小，但拓展臨床應用範疇"
+        },
+        {
+          "nct_id": "NCT07184138",
+          "title": "IL-23 抑制劑於 IBD 療效系統性回顧",
+          "phase": "N/A",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 178,
+          "relevance_grade": "B",
+          "reasoning": "系統性評估 IL-23i 於 IBD 療效，間接支持藥物類別效益"
+        },
+        {
+          "nct_id": "NCT07242248",
+          "title": "UC/CD 真實世界觀察（含 guselkumab）",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 220,
+          "relevance_grade": "B",
+          "reasoning": "混合 IBD 真實世界研究，包含 guselkumab，提供多疾病類型比較資料"
+        },
+        {
+          "nct_id": "NCT07102368",
+          "title": "IBD 真實世界療效研究（GENERATE）",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 400,
+          "relevance_grade": "B",
+          "reasoning": "中型真實世界研究，評估早期結果，補充長期 RCT 資料空白"
+        },
+        {
+          "nct_id": "NCT06089590",
+          "title": "IBD 癌症與嚴重感染法國隊列（I-CARE 2）",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 6000,
+          "relevance_grade": "C",
+          "reasoning": "大型安全性監測隊列，主要目的為長期不良事件監測，非療效評估；對再利用決策貢獻較低"
+        },
+        {
+          "nct_id": "NCT07177209",
+          "title": "UC 處方模式描述性研究",
+          "phase": "N/A",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 4000,
+          "relevance_grade": "C",
+          "reasoning": "處方型態調查，不評估臨床療效，僅反映市場採用情況"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39706209",
+          "title": "QUASAR Phase 3 雙盲 RCT（UC 誘導+維持治療）",
+          "year": "2025",
+          "study_type": "Phase 3 RCT",
+          "tier": 1,
+          "note": "最關鍵文獻：QUASAR Phase 3 完整結果，直接支持 L1 評級；Lancet 級別期刊發表"
+        },
+        {
+          "pmid": "40113101",
+          "title": "Guselkumab 皮下注射誘導與維持療效安全性（Phase 3）",
+          "year": "2025",
+          "study_type": "Phase 3 RCT",
+          "tier": 1,
+          "note": "QUASAR Phase 3 延伸分析或平行試驗，確認皮下劑型療效"
+        },
+        {
+          "pmid": "37659673",
+          "title": "QUASAR Phase 2b 誘導期結果",
+          "year": "2023",
+          "study_type": "Phase 2b RCT",
+          "tier": 1,
+          "note": "QUASAR 系列奠基試驗，N=577，發表於 Lancet Gastroenterology"
+        },
+        {
+          "pmid": "39572132",
+          "title": "AGA 中重度 UC 藥理治療活體指引（2024）",
+          "year": "2024",
+          "study_type": "Clinical Practice Guideline",
+          "tier": 1,
+          "note": "AGA 官方指引已納入 guselkumab，反映臨床實踐認可度"
+        },
+        {
+          "pmid": "39425738",
+          "title": "中重度 UC 進階療法比較療效（網絡 Meta 分析）",
+          "year": "2024",
+          "study_type": "Network Meta-analysis",
+          "tier": 1,
+          "note": "跨生物製劑排序分析，定位 guselkumab 相對療效"
+        },
+        {
+          "pmid": "40407729",
+          "title": "生物製劑維持治療 UC 網絡 Meta 分析",
+          "year": "2025",
+          "study_type": "Network Meta-analysis",
+          "tier": 1,
+          "note": "2025 最新 NMA，納入 QUASAR Phase 3 資料，強化評級"
+        },
+        {
+          "pmid": "37069321",
+          "title": "IL-12/IL-23 抑制劑於 IBD 機轉與臨床回顧",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "系統性機轉回顧，解釋為何 IL-23 抑制劑適用 IBD"
+        },
+        {
+          "pmid": "35553666",
+          "title": "IL-23 阻斷開發管線回顧",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "包含多種 anti-IL-23 藥物，定位 guselkumab 於競爭格局"
+        },
+        {
+          "pmid": "28765121",
+          "title": "免疫介導炎症疾病新型療法（風濕/胃腸應用）",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "早期探索性文獻，預測 IL-23 抑制劑跨適應症潛力"
+        },
+        {
+          "pmid": "39994836",
+          "title": "IBD 流行病學、病理與治療新進展（2025）",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "最新 IBD 治療全景綜述，反映 guselkumab 已進入標準治療討論"
+        }
+      ]
+    },
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "無任何臨床試驗或文獻支持。TxGNN 預測分數雖高，但可能源於 IL-23 與骨代謝調控的間接關聯，缺乏直接臨床驗證。",
+      "mechanistic_link": "IL-23/Th17 軸可誘導 RANKL 表達，促進破骨細胞分化，理論上對藥物誘導骨質疏鬆有保護潛力（如糖皮質激素誘導性骨質疏鬆中的炎症成分）。然而此機轉假說尚無臨床資料驗證，與 guselkumab 既有適應症的病理機轉距離較遠。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "無臨床試驗與文獻。IL-23 在糖尿病視網膜病變中的角色屬高度推測性，缺乏直接機轉驗證研究。",
+      "mechanistic_link": "假設性路徑：IL-23 驅動視網膜周細胞周圍的炎症微環境，促進 VEGF 過度表達與微血管損傷。但糖尿病視網膜病變的主要驅動因子為慢性高血糖與 VEGF，而非 IL-23 主導的 Th17 炎症。此預測可能為模型在視網膜炎症疾病群組的泛化誤差。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diabetic retinopathy",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "與 severe nonproliferative diabetic retinopathy 同類情況，無臨床證據。IL-23 靶向治療對糖尿病視網膜病變的轉化研究尚未展開。",
+      "mechanistic_link": "同上，IL-23 在糖尿病視網膜病變中的作用機轉推測性強，VEGF 抑制劑（ranibizumab、aflibercept）為主流治療路徑，IL-23 靶向缺乏競爭優勢的科學假說支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal osteodystrophy",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "腎性骨病主要由鈣磷代謝異常與繼發性副甲狀腺機能亢進驅動，IL-23 路徑非核心機轉，無臨床試驗或文獻支持。",
+      "mechanistic_link": "CKD 中存在慢性炎症成分，IL-23 可能通過 RANKL/OPG 影響骨重塑，但腎性骨病的根本問題為礦物質-骨代謝紊亂（PTH、FGF-23、維生素 D），IL-23 抑制劑無法解決此病理核心。機轉關聯極弱。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital hypotrichosis with juvenile macular dystrophy",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "罕見基因遺傳病（CDH3 基因突變），與免疫炎症機轉無關，IL-23 靶向治療缺乏任何生物學合理性。高分可能為 TxGNN 模型在罕見病節點的結構性偏差。",
+      "mechanistic_link": "此疾病由 CDH3（P-cadherin）突變導致毛囊與視網膜光感受器發育異常，屬發育性遺傳缺陷，非免疫介導炎症疾病。IL-23/Th17 軸與其病理機轉無科學關聯。預測分數高度疑似知識圖譜拓撲結構偽信號。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "primary release disorder of platelets",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "血小板釋放障礙屬止血功能疾病，與 IL-23 免疫軸無直接關聯，缺乏臨床或機轉支持。",
+      "mechanistic_link": "雖然慢性炎症可影響血小板功能，但原發性血小板釋放障礙的病因為 δ/α 顆粒缺乏或分泌缺陷，非炎症介導。IL-23 抑制劑無法修正血小板顆粒的結構或功能缺陷，機轉關聯缺乏生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "Glanzmann 血小板無力症為 ITGA2B/ITGB3 基因突變導致 GPIIb/IIIa 缺乏的遺傳性出血疾病，與免疫調節治療無關。",
+      "mechanistic_link": "此疾病的病理核心為整合素 αIIbβ3 功能缺失，導致血小板無法聚集。IL-23 抑制劑作用於 T 細胞極化與炎症瀑布，對遺傳性血小板受體缺陷無任何作用機轉。預測分數可能反映知識圖譜中血液疾病節點的網路效應偽信號。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "non-renal secondary hyperparathyroidism",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "summary": "非腎性繼發性副甲狀腺機能亢進（如維生素 D 缺乏、吸收不良）主要由礦物質代謝失衡驅動，IL-23 靶向治療缺乏臨床或機轉支持。",
+      "mechanistic_link": "假設性路徑：IL-23 可能通過 Th17 介導的炎症影響腸道維生素 D 吸收，間接影響副甲狀腺素分泌。然而此機轉高度推測，且維生素 D 補充/鈣調節為標準治療。抗 IL-23 治療的潛在獲益遠低於現有標準療法。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "disease": "psoriasis",
+        "note": "L1/S3 — 全球核准適應症，本地未上市為資料缺口，應優先推動本地申請"
+      },
+      {
+        "disease": "ulcerative colitis",
+        "note": "L1/S3 — QUASAR Phase 3 資料完整（2025），AGA 指引已納入，具備本地申請條件"
+      }
+    ],
+    "watch_list": [],
+    "low_priority_indications": [
+      "drug-induced osteoporosis（L5/S0）",
+      "severe nonproliferative diabetic retinopathy（L5/S0）",
+      "diabetic retinopathy（L5/S0）",
+      "renal osteodystrophy（L5/S0）",
+      "congenital hypotrichosis with juvenile macular dystrophy（L5/S0）",
+      "primary release disorder of platelets（L5/S0）",
+      "Glanzmann thrombasthenia（L5/S0）",
+      "non-renal secondary hyperparathyroidism（L5/S0）"
+    ],
+    "model_signal_quality": {
+      "true_positive_rate": "2/10（20%）— psoriasis、UC 為真陽性，餘 8 個為預測偽信號",
+      "false_positive_pattern": "血小板疾病（Glanzmann、primary release disorder）及基因遺傳病（hypotrichosis）高分強烈提示 KG 拓撲結構偽信號，建議後處理過濾器加強疾病機轉類型分類"
+    }
+  },
+  "data_quality_notes": [
+    "original_indications 為空值屬資料映射缺口：Guselkumab 全球已核准用於 psoriasis（2017）及 PsA（2020）",
+    "original_moa 標示 [Data Gap]：應補充『Anti-IL-23p19 monoclonal antibody (IgG1λ)』",
+    "market_status 『未上市』反映本地（新加坡/台灣）狀態，非全球狀態，建議分欄記錄",
+    "psoriatic arthritis 未列入適應症列表，但 NCT07220824 等試驗顯示 PsA 亦為活躍開發方向，建議補充評估"
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|----------|---------|------|
+| **psoriasis** | 0.9975 | 50 | 20 | **L1** | **S3** | ✅ Proceed |
+| **ulcerative colitis** | 0.9970 | 17 | 20 | **L1** | **S3** | ✅ Proceed |
+| drug-induced osteoporosis | 0.9984 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| severe nonproliferative DR | 0.9980 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| diabetic retinopathy | 0.9974 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| renal osteodystrophy | 0.9973 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| congenital hypotrichosis | 0.9967 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| primary release disorder | 0.9961 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| Glanzmann thrombasthenia | 0.9960 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| non-renal 2° hyperPTH | 0.9955 | 0 | 0 | L5 | S0 | ⛔ Hold |
+
+> ⚠️ **模型信號品質警示**：本批次 TxGNN 預測分數集中於 0.995–0.999，分佈過於集中且判別力弱（真陽性率僅 20%）。血小板疾病與遺傳缺陷病的高分預測高度疑似知識圖譜拓撲偽信號，建議加入疾病機轉類型篩選層（炎症 vs. 代謝 vs. 遺傳）作為後處理過濾器。

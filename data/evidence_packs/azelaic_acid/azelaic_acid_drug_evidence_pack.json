@@ -1,0 +1,1101 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00548-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Azelaic acid",
+    "drugbank_id": "DB00548",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "demodicidosis of sebaceous gland",
+      "txgnn": {
+        "score": 0.9804651737213136,
+        "rank": 16802
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間接機轉：Azelaic acid 為酒渣鼻核准藥物，而 Demodex 螨蟲定植與酒渣鼻發病高度相關（但 azelaic acid 對 Demodex 本身無直接抗寄生蟲活性，主要透過抗炎及抗菌機制間接改善症狀）。TxGNN 預測可能捕捉到此間接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cutaneous candidiasis",
+      "txgnn": {
+        "score": 0.9562942981719972,
+        "rank": 25149
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Azelaic acid 的抗真菌活性主要針對 Malassezia（親脂性酵母菌），對 Candida 的體外抑制資料極為有限。機轉關聯薄弱，缺乏臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "lichen planus, familial",
+      "txgnn": {
+        "score": 0.9544867277145386,
+        "rank": 25597
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "扁平苔蘚為免疫介導疾病（T 細胞媒介），azelaic acid 的抗炎機轉（抑制 ROS、中性球活化）具微弱機轉假說，但家族性扁平苔蘚涉及基因易感性，缺乏任何直接臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "zinc, elevated plasma",
+      "txgnn": {
+        "score": 0.9468120336532592,
+        "rank": 27415
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血漿鋅升高為實驗室異常值，而非疾病實體；azelaic acid 與鋅代謝之間無已知機轉關聯。TxGNN 高分可能源自知識圖譜中皮膚科適應症的間接網絡連結，臨床生物學意義極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "isolated congenital adermatoglyphia",
+      "txgnn": {
+        "score": 0.940330445766449,
+        "rank": 28760
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性指紋缺失症為罕見遺傳性皮膚病（SMARCAD1 基因突變），以皮膚附屬器發育異常為主，與 azelaic acid 的作用機轉（抗菌、抗角化、抗炎）無任何交集。預測可能為知識圖譜雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "keratinization disease",
+      "txgnn": {
+        "score": 0.9380229711532592,
+        "rank": 29154
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26355614",
+            "title": "Azelaic Acid: Evidence-based Update on Mechanism of Action and Clinical Application.",
+            "authors": [
+              "Schulte Brian C",
+              "Wu Wesley",
+              "Rosen Ted"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2015",
+            "abstract": "Azelaic acid is a complex molecule with many diverse activities. The latter include anti-infective and anti-inflammatory action. The agent also inhibits follicular keratinization and epidermal melanogenesis. Due to the wide variety of biological activities, azelaic acid has been utilized as a management tool in a broad spectrum of disease states and cutaneous disorders. This paper reviews the clinical utility of azelaic acid, noting the quality of the evidence supporting each potential use.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28358185",
+            "title": "Lasers in the treatment of acne.",
+            "authors": [
+              "Perper Marina",
+              "Tsatalis John",
+              "Eber Ariel E",
+              "Cervantes Jessica",
+              "Nouri Keyvan"
+            ],
+            "journal": "Giornale italiano di dermatologia e venereologia : organo ufficiale, Societa italiana di dermatologia e sifilografia",
+            "year": "2017",
+            "abstract": "Acne is a chronic disease of the pilosebaceous units, presenting as inflammatory or noninflammatory lesions, affecting primarily the face but also the back and chest. The mainstay of treatment remains topical retinoids, benzoyl peroxide, azelaic acid, antibiotics, and isotretinoin, many of which result in poor compliance, lack of durable remission, and incur adverse effects. The use of lasers to treat acne is continuously increasing because of their minimal complications, limited number of offic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2473140",
+            "title": "Effects of azelaic acid on proliferation and ultrastructure of mouse keratinocytes in vitro.",
+            "authors": [
+              "Detmar M",
+              "Mayer-da-Silva A",
+              "Stadler R",
+              "Orfanos C E"
+            ],
+            "journal": "The Journal of investigative dermatology",
+            "year": "1989",
+            "abstract": "The effects of azelaic acid (C9-dicarboxylic acid, AZA) on the proliferation and ultrastructure of neonatal NMRI mouse keratinocyte cultures were studied to clarify the mechanisms of AZA action on normal and diseased epidermis. The dose- and time-dependency of the drug effects on DNA synthesis was examined by 3H-thymidine incorporation into DNA and by autoradiography. Electron microscopy was used to detect the target cell organelles of the drug. Azelaic acid decreased DNA synthesis in a dose- an",
+            "classification": {
+              "study_type": "In vitro / Basic science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17147560",
+            "title": "Alpha-hydroxyacids and carboxylic acids.",
+            "authors": [
+              "Yu Ruey J",
+              "Van Scott Eugene J"
+            ],
+            "journal": "Journal of cosmetic dermatology",
+            "year": "2004",
+            "abstract": "The carboxylic acids include alpha-hydroxyacids (AHAs), polyhydroxy acids (PHAs), aldobionic acids (ABAs), retinoic acid, vitamin C and azelaic acid. They all have therapeutic actions. AHAs, PHAs and ABAs are organic hydroxyacids, a group of natural and physiological substances which can modulate skin keratinization and increase biosynthesis of dermal components. Because of these effects, AHAs, PHAs and ABAs are therapeutically effective or beneficial for topical treatment of dry skin, rough ski",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38543203",
+            "title": "Liposomes and Other Nanocarriers for the Treatment of Acne Vulgaris: Improved Therapeutic Efficacy and Skin Tolerability.",
+            "authors": [
+              "Dragicevic Nina",
+              "Maibach Howard I"
+            ],
+            "journal": "Pharmaceutics",
+            "year": "2024",
+            "abstract": "Acne vulgaris is a common dermatologic disorder that affects approximately 85% of teenagers, which significantly impacts the quality of life in adolescents. It is a chronic disease of the sebaceous follicles that is multifactorial in etiology. Topical treatment is the first choice for mild and moderate acne, while systemic therapy is reserved for severe and certain moderate cases. Topical treatments include retinoids (e.g., tretinoin and adapalene), antibiotics (e.g., clindamycine), and other ag",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9262484",
+            "title": "Advances and perspectives in acne therapy.",
+            "authors": [
+              "Jansen T",
+              "Plewig G"
+            ],
+            "journal": "European journal of medical research",
+            "year": "1997",
+            "abstract": "Acne is one of the most common diseases in dermatology. It is of considerable esthetic significance, which explains the mental stress in affected patients. Although acne almost always heals spontaneously in early adulthood, treatment measures can shorten the course, reduce the severity of the disease, and avoid complications such as scarring. Treatment has changed substantially in recent years. In accordance with pathogenic principles, effective treatment is possible. In most patients, a combina",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8935627",
+            "title": "An ultrastructural study of the retention hyperkeratosis of experimentally induced comedones in rabbits: the effects of three comedolytics.",
+            "authors": [
+              "Oh C W",
+              "Myung K B"
+            ],
+            "journal": "The Journal of dermatology",
+            "year": "1996",
+            "abstract": "The precise pathologic processes of comedo formation in acne are not well understood. Retention hyperkeratosis may play an important role. To evaluate the effects of three topical comedolytics, 20% azelaic acid, 0.1% tretinoin and 5% benzoyl peroxide, on the retention hyperkeratosis of experimentally induced comedones (EIC), an ultrastructural study was done. After formation of EIC with 50% oleic acid in paraffin oil on the external ears of rabbits, each comedolytic was applied for 4 weeks. Biop",
+            "classification": {
+              "study_type": "Animal study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Azelaic acid 直接抑制角質形成細胞（keratinocyte）異常增殖，並調節角化過程（PMID 2473140 體外實驗確認），對應過度角化疾病的核心機制。然而目前缺乏針對特定角化疾病的直接臨床試驗，現有文獻多為痤瘡/酒渣鼻的附帶機轉描述。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "seborrheic dermatitis",
+      "txgnn": {
+        "score": 0.9353420734405518,
+        "rank": 29700
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00408330",
+            "title": "A Double-Blind, Randomized, Vehicle-Controlled, Six-Week Exploratory Multicenter Pilot Study of the Efficacy and Safety of Azelaic Acid (AzA) 15% Gel in the Topical Treatment of Mild to Moderate Seborrheic Dermatitis of the Face",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2006-12",
+            "completion_date": "2007-03",
+            "brief_summary": "This study is to determine whether a medication on the market for other indications is effective and safe in treating seborrheic dermatitis of the face.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接針對 azelaic acid 用於脂漏性皮膚炎的 Phase 2 RCT，雙盲、隨機、賦形劑對照設計，已完成但為 pilot（n=48），樣本量偏小；結果尚未在資料集中呈現，需查閱實際發表論文確認療效方向"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35751534",
+            "title": "Malassezia virulence factors and their role in dermatological disorders.",
+            "authors": [
+              "Kurniadi Ivan",
+              "Hendra Wijaya Wong",
+              "Timotius Kris Herawan"
+            ],
+            "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+            "year": "2022",
+            "abstract": "Malassezia is a commensal fungus that constitutes normal skin microbiota. However, in certain conditions and individuals, it may transform into a pathogenic yeast with multiple associated dermatological disorders and various clinical manifestations. This phenomenon is influenced by a unique host-agent interaction that triggers the production of several virulence factors, such as indoles, reactive oxygen species, azelaic acid, hyphae formation, and biofilm formation. This review article discusses",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21396555",
+            "title": "Perioral dermatitis.",
+            "authors": [
+              "Lipozencic Jasna",
+              "Ljubojevic Suzana"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2011",
+            "abstract": "Perioral dermatitis is a relatively common inflammatory disorder of facial skin, often appearing in patients with rosacea, but with less inflammation. A typical perioral dermatitis presentation occurs with the eruption of papules and pustules confined to the nasolabial folds and the skin of the chin. Clinically, small pink papules and pustules may recur over weeks to months, sometimes with fine scales. The differential diagnosis includes seborrheic dermatitis, systemic lupus erythematosus, acne ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19213227",
+            "title": "Facial seborrheic dermatitis: a report on current status and therapeutic horizons.",
+            "authors": [
+              "Bikowski Joseph"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2009",
+            "abstract": "Seborrheic dermatitis, characterized by erythema and/or flaking or scaling in areas of high sebaceous activity, affects up to 5% of the US population and often appears in conjunction with other common skin disorders, such as rosacea and acne. Despite ongoing research, its etiology is puzzling. Increased sebaceous and hormonal (androgenic) activity is thought to play a part. Recent evidence suggests an important role for individual susceptibility to irritant metabolites of the skin commensal Mala",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12180896",
+            "title": "The management of rosacea.",
+            "authors": [
+              "Rebora Alfredo"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2002",
+            "abstract": "Rosacea is a multiphasic disease which is associated with flushing, erythrosis, papulopustular rosacea and phymas; each phase is likely to have its own treatment. Flushing is better prevented rather than treated, and its etiology investigated. Beta-blockers, atenolol in particular, are worthy of prophylactic trials examining their efficacy in treating the flushing associated with rosacea. Currently, clonidine is the only drug available for the treatment of flushing. Treatment for erythrosis incl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39825187",
+            "title": "Periorificial dermatitis in infants and preschoolers - a narrative review.",
+            "authors": [
+              "Chiriac Anca",
+              "Chiriac Anca E",
+              "Madke Bhushan",
+              "Fida Monika",
+              "Shinde Amit Bharat"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "2025",
+            "abstract": "Periorifical dermatitis (POD) is a papular, chronic inflammatory skin disease commonly seen in women in their 2nd to 4th decade of life. The major differential diagnosis is persistent acne. In children, POD is less common than in adults. In infants and preschoolers POD is rare. We performed a narrative review for POD in children ≤6 years of age. Diagnosis is clinical. The disease presents with monomorphic erythematous papules that usually leave a 1-2 mm Grenz zone around the red lips unaffected.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9891903",
+            "title": "Topical therapy in acne.",
+            "authors": [
+              "Gollnick H",
+              "Schramm M"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "1998",
+            "abstract": "The majority of acne patients will receive a topical treatment either as monotherapy or in combination with a systemic drug therapy depending on the severity of the disease. The currently available topical agents affect at least one of the four main pathogenetic factors responsible for the development of acne, i.e. hyperkeratosis, microbial colonization, immune response and inflammation. Retinoids, azelaic acid, benzoyl peroxide and topical antibiotics represent the spectrum of the established a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2475995",
+            "title": "Effects of azelaic acid on sebaceous gland, sebum excretion rate and keratinization pattern in human skin. An in vivo and in vitro study.",
+            "authors": [
+              "Mayer-da-Silva A",
+              "Gollnick H",
+              "Detmar M",
+              "Gassmüller J",
+              "Parry A"
+            ],
+            "journal": "Acta dermato-venereologica. Supplementum",
+            "year": "1989",
+            "abstract": "The effects of azelaic acid (AZA) on the epidermis of 47 individuals (12 with normal skin, 15 with seborrheic skin and 20 suffering from acne) and on in vitro cultured keratinocytes are reported. Topical application of a 20% AZA cream significantly improved the lesions of acne patients, but failed to induce clinically detectable changes in normal or seborrheic epidermis. Complementary investigations clearly showed that AZA treatment failed to induce specific changes in sebum composition, excreti",
+            "classification": {
+              "study_type": "Clinical observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20493336",
+            "title": "Alternative therapies for common dermatologic disorders, part 1.",
+            "authors": [
+              "Morelli Vincent",
+              "Calmet Erick",
+              "Jhingade Varalakshmi"
+            ],
+            "journal": "Primary care",
+            "year": "2010",
+            "abstract": "The exact pathophysiology and curative treatment of many common dermatologic conditions remain unclear. Often conventional treatments are only partially effective, leading patients to look for alternative treatments. Rosacea may be helped by azelaic acid. Seborrheic dermatitis may be helped by tea tree oil. Chronic urticaria may be helped by a focused dietary history and elimination of food additives and salicylates. Although various alternative treatments have been touted as useful in herpes si",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21278898",
+            "title": "Rational management of papulopustular rosacea with concomitant facial seborrheic dermatitis: a case report.",
+            "authors": [
+              "McFalda Wendy L",
+              "Roebuck Heather L"
+            ],
+            "journal": "The Journal of clinical and aesthetic dermatology",
+            "year": "2011",
+            "abstract": "To report a case of papulopustular rosacea with concomitant seborrheic dermatitis and discuss how signs and symptoms were ameliorated using a rational therapeutic approach.",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16566284",
+            "title": "Case studies.",
+            "authors": [
+              "Bikowski Joseph B"
+            ],
+            "journal": "Cutis",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20729951",
+            "title": "The use of sodium sulfacetamide 10%-sulfur 5% emollient foam in the treatment of acne vulgaris.",
+            "authors": [
+              "Del Rosso James Q"
+            ],
+            "journal": "The Journal of clinical and aesthetic dermatology",
+            "year": "2009",
+            "abstract": "Acne vulgaris is the most common disorder encountered in ambulatory clinical practice comprising 11.3 percent of office visits to dermatologists in 2005.(1) By comparison, eczematous dermatoses, psoriasis, and skin cancer accounted for 6.2, 3.5, and 10 percent of office visits, respectively.(1) A variety of topical therapeutic options are available for treatment of acne vulgaris, including benzoyl peroxide, antibiotics, retinoids, azelaic acid, and sodium sulfacetamide-sulfur.(2,3) Sodium sulfac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Azelaic acid 具抗 Malassezia 活性（抑制真菌必需脂肪酸合成），並透過抑制角質化過度增生與 ROS 生成，對應脂漏性皮膚炎的核心病理（Malassezia 定植 + 皮脂腺失調 + 表皮屏障損傷）。PMID 2475995 直接記錄其對皮脂腺與角化模式的影響。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "nail infection",
+      "txgnn": {
+        "score": 0.9352875351905824,
+        "rank": 29710
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19744410",
+            "title": "Minor derm ailments: how good is the evidence for common treatments?",
+            "authors": [
+              "Eekhof J A H",
+              "Neven A Knuistingh",
+              "Gransjean S P",
+              "Assendelft W J J"
+            ],
+            "journal": "The Journal of family practice",
+            "year": "2009",
+            "abstract": "Oral flucloxacillin is less effective than local antibiotics for impetigo in limited disease. Topical metronidazole and azelaic acid are effective for rosacea. Betadine is effective for minor infections following partial thickness burns. Terbinafine is effective against fungal infections of the nail. Miconazole is effective against oral thrush.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "甲感染（甲癬）通常由皮癬菌引起，azelaic acid 的藥物滲透性與對甲板的抗真菌活性均缺乏支持性資料；現有文獻僅為一般性皮膚小病症證據概述，未特指 azelaic acid 對甲感染的效用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "tinea corporis",
+      "txgnn": {
+        "score": 0.9306785464286804,
+        "rank": 30522
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35751534",
+            "title": "Malassezia virulence factors and their role in dermatological disorders.",
+            "authors": [
+              "Kurniadi Ivan",
+              "Hendra Wijaya Wong",
+              "Timotius Kris Herawan"
+            ],
+            "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+            "year": "2022",
+            "abstract": "Malassezia is a commensal fungus that constitutes normal skin microbiota. However, in certain conditions and individuals, it may transform into a pathogenic yeast with multiple associated dermatological disorders and various clinical manifestations. This phenomenon is influenced by a unique host-agent interaction that triggers the production of several virulence factors, such as indoles, reactive oxygen species, azelaic acid, hyphae formation, and biofilm formation. This review article discusses",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20347661",
+            "title": "Pathogenesis of dermatophytosis and tinea versicolor.",
+            "authors": [
+              "Mendez-Tovar Luis J"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2010",
+            "abstract": "Dermatophytoses are infections caused by keratinophilic fungi known as dermatophytes. Several steps are required for infection to take place: contact, adherence, and invasion of keratin layers. The severity of the infection depends on the type of agent, environmental factors, and the host immunologic status. Tinea versicolor is caused by the Malassezia spp yeasts, which are microorganisms that belong to normal biota in seborrheic areas, but some contributing factors, such as the application of o",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8954271",
+            "title": "Skin disorders in black children.",
+            "authors": [
+              "Laude T A"
+            ],
+            "journal": "Current opinion in pediatrics",
+            "year": "1996",
+            "abstract": "Recently, progress and developments have been made in six skin conditions relevant to black children. Infantile acropustulosis may either be idiopathic or may be a sequela of scabies in young infants. The approach to small- or medium-sized congenital melanocytic nevi in black children must be different because the risk for malignant transformation into melanoma is exceedingly small. Keloids and hypertrophic scars in children are effectively treated with silicone gel sheeting. Tinea capitis cause",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "體癬由皮癬菌（dermatophytes）引起，azelaic acid 對皮癬菌的直接抗真菌活性缺乏充分體外資料；現有文獻（PMID 20347661）僅討論皮癬菌病理機轉，並未涉及 azelaic acid 治療。機轉關聯極為間接。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Beare-Stevenson cutis gyrata syndrome",
+      "txgnn": {
+        "score": 0.9258776307106018,
+        "rank": 31344
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Beare-Stevenson 症候群為 FGFR2 基因突變引起的罕見先天性顱縫早閉症候群，其皮膚病理（cutis gyrata, acanthosis nigricans）源於異常受體酪胺酸激酶訊號。Azelaic acid 無 FGFR2 抑制活性，機轉關聯評估為不相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "lichen planus, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "lichen planus, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "lichen planus, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "zinc, elevated plasma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "zinc, elevated plasma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "zinc, elevated plasma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "keratinization disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "keratinization disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "keratinization disease"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "nail infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "nail infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "nail infection"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "tinea corporis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "tinea corporis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "tinea corporis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelaic acid",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

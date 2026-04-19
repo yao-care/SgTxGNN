@@ -1,0 +1,2062 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01013-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clobetasol propionate",
+    "drugbank_id": "DB01013",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "vulvar inverted follicular keratosis",
+      "txgnn": {
+        "score": 0.9945671558380128,
+        "rank": 6857
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外翻性毛囊角化症（IFK）為良性角化腫瘤（seborrheic keratosis 變異型）；Clobetasol 抗增殖及抗炎效應理論上可抑制異常角化，但 IFK 通常以手術切除為標準處置，類固醇外用的臨床意義存疑。外陰部位使用強效類固醇風險更高（皮膚萎縮）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn": {
+        "score": 0.9930086135864258,
+        "rank": 8228
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04719962",
+            "title": "Diagnosis of Disseminated Lyme Borreliosis by Targeted Proteomics",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 10,
+            "start_date": "2021-07-07",
+            "completion_date": "2022-07-07",
+            "brief_summary": "Lyme borreliosis is a bacterial multisystemic infection transmitted by an Ixodes tick. It affects the skin, the joint and the brain. At the early phase, the diagnosis is clinical, relying on the presence of an erythema migrans at the site of the tick bite. The diagnosis of disseminated infections, more difficult to assess, mainly relies on indirect diagnosis test, i.e. serology.\n\nThis study will evaluate a new direct diagnosis method based on proteomics, which aims to demonstrate proteins of liv",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "萊姆病散播性感染的蛋白質組學診斷研究，Phase NA，UNKNOWN，n=10；與 clobetasol 治療 ACA 完全無關，收錄可能為疾病背景匹配錯誤"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25878446",
+            "title": "Acute diffuse and total alopecia of the female scalp associated with borrelia-infection.",
+            "authors": [
+              "Bhardwaj Ekta K",
+              "Trüeb Ralph Michel"
+            ],
+            "journal": "International journal of trichology",
+            "year": "2015",
+            "abstract": "A case of acute diffuse and total alopecia of the female scalp associated with Borrelia-infection (acrodermatitis chronica atrophicans) is presented. Today, acute diffuse and total alopecia of the female scalp is recognized as a distinct variant of alopecia areata (AA) predominantly observed in women. Cases of AA have formerly been reported in association with infections. AA is understood to represent an organ-specific autoimmune disease of the hair follicle. It is conceivable that the antigenic",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACA 為萊姆病晚期皮膚表現（Borrelia burgdorferi 感染），以真皮萎縮與慢性炎症為特徵；Clobetasol 抗炎可能緩解局部炎症反應，但無法清除根本病原，且長期類固醇可能掩蓋感染進展或抑制免疫清除。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "exanthem (disease)",
+      "txgnn": {
+        "score": 0.9925746917724608,
+        "rank": 8577
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03026478",
+            "title": "A Comparative Study on Clinical Efficacy of Clobetasol and Betamethasone in Orabase in Combination With Clotrimazole, in Oral Lichen Planus",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2016-05-06",
+            "completion_date": "2018-06",
+            "brief_summary": "Oral Lichen Planus (OLP) is an autoimmune, chronic inflammatory mucocutaneous disease characterized by pain and burning sensation. The major types of OLP are the following: reticular, atrophic, erosive-ulcerative, bullous and pigmentous form.Its etiology remains unclear. The presence of auto-cytotoxic T cell clones in the lesions suggests the role of autoimmunity. Numerous treatment options of OLP include topical and systemic agents depending on severity of lesions . Topical corticosteroids abid",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，UNKNOWN，n=30，Clobetasol vs Betamethasone 比較，可能為 OLP，狀態不明降低可信度"
+            }
+          },
+          {
+            "nct_id": "NCT03386643",
+            "title": "Effect of the Probiotic Bifidobacterium Animalis Subsp. Lactis HN019 on Clinical, Histopathological and Immunophenotypic Features of Oral Lichen Planus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2017-11-06",
+            "completion_date": "2019-12-06",
+            "brief_summary": "Lichen planus is a chronic inflammatory mucocutaneous disease, which often results in oral manifestations, receiving the name of oral lichen planus (OLP). Its frequency varies from 0,1 to 4% of the general population, with a higher incidence in women, around the 4th and 5th decades of life. Although the pathogenesis of OLP is related to a immune-cellular response, mainly mediated by T lymphocytes, its cause remains unknown. Considering its chronic nature, control of OLP aims to reduce symptoms a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，COMPLETED，n=22，益生菌介入，非 clobetasol 相關試驗，僅疾病背景相關"
+            }
+          },
+          {
+            "nct_id": "NCT00393263",
+            "title": "A Double-Blind, Parallel-group Trial of Topical Pimecrolimus Cream 1% (Elidel®) Versus Clobetasol 0.05% Cream for the Treatment of Vulvar Lichen Sclerosus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2006-10",
+            "completion_date": "2009-10",
+            "brief_summary": "Lichen sclerosus (LS) is a skin condition of the external genitals (vulva) of women. LS causes vulvar itching, pain, and burning. In addition, LS causes scarring of the vulva which may cause significant sexual dysfunction or pain. Lastly, 4-6% of women with LS will develop vulvar cancer.\n\nThe current \"gold standard\" treatment for lichen sclerosus is ultra-potent topical corticosteroids. When properly administered, topical ultra-potent corticosteroids help to resolve the symptoms of itching and b",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 RCT，COMPLETED，n=38，Pimecrolimus vs Clobetasol 頭對頭比較，皮膚炎症情境，方法學完整"
+            }
+          },
+          {
+            "nct_id": "NCT07100613",
+            "title": "Efficacy of a Microparticulate Muco-adhesive Patch Containing Drug-nutraceutical Association in paTIents Affected by Oral Mucosa Alterations (EMPATIA)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 45,
+            "start_date": "2024-09-04",
+            "completion_date": "2027-10-01",
+            "brief_summary": "The goal of this clinical trial is to learn if a mucoadhesive patch containing clobetasol alone or in combination with resveratrol can reduce symptoms and improve quality of life in adults with Oral Lichen Planus (OLP). The main questions it aims to answer are:\n\nDoes the patch reduce oral pain and burning sensations? Does it improve the appearance of oral lesions and patients' daily well-being?\n\nResearchers will compare:\n\nA patch containing clobetasol A patch containing clobetasol and resveratro",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，RECRUITING，n=45，黏附性貼片劑型研究，非 clobetasol 主角，間接參考"
+            }
+          },
+          {
+            "nct_id": "NCT05818618",
+            "title": "Impact of Topical Clobetasol on Gingival Crevicular Fluid miRNAs in Subjects Affected by Oral Lichen Planus: a Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2020-03-12",
+            "completion_date": "2023-08-10",
+            "brief_summary": "According to recent research, microRNAs (miRNAs) may function as early disease indicators and contribute to the severity of a number of precancerous and malignant oral disorders. The aim of the present study, through a double-blind randomized controlled trial design, is to analyze in the gingival crevicular fluid (GCF) as a non-invasive approach the impact of topical clobetasol on miRNAs expression in subjects affected by oral lichen planus (OLP).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase NA，COMPLETED，n=64，Clobetasol 對 OLP 的分子機轉（gingival miRNA），機制探索"
+            }
+          },
+          {
+            "nct_id": "NCT01987076",
+            "title": "DRESS - Setting of Corticosteroid Treatment.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 112,
+            "start_date": "2013-10",
+            "completion_date": "2016-10",
+            "brief_summary": "Drug reaction with eosinophilia and systemic symptoms (DRESS) is a rare and severe multiorgan adverse drug reaction occurring within 2 to 6-8 weeks after a new drug intake. DRESS syndrome is defined by the combination of clinical manifestations, cutaneous, visceral and biological disturbances. Its prognosis is directly linked to severity of visceral involvement, with a mortality evaluated above 10%.\n\nConsidering curative treatment, there is no consensus. Until now, no controlled trial has been p",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase NA，UNKNOWN，n=112，DRESS 皮質類固醇治療，廣義藥疹/exanthem 相關，但非 clobetasol 特異"
+            }
+          },
+          {
+            "nct_id": "NCT07278999",
+            "title": "Effectiveness of Photobiomodulation, Er:YAG Laser, and Clobetasol in the Treatment of the Erosive Form of Oral Lichen Planus - a Randomized Clinical Trial.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2025-12-01",
+            "completion_date": "2026-06",
+            "brief_summary": "This study aims to compare three treatment approaches for the erosive form of oral lichen planus, a chronic inflammatory condition that often causes pain, impaired oral function, and frequent relapses. Sixty adults with a confirmed diagnosis will be randomly assigned to photobiomodulation, Er:YAG laser therapy, or topical clobetasol, which serves as the current standard of care. The project investigates how effectively each method promotes healing of erosive lesions, reduces pain, improves oral ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase NA，RECRUITING，n=60，Clobetasol + 光生物調節治療 OLP 糜爛型，結合療法，可行性數據"
+            }
+          },
+          {
+            "nct_id": "NCT03320460",
+            "title": "Efficacy of Photobiomodulation for Oral Lichen Planus Treatment",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 44,
+            "start_date": "2018-11-01",
+            "completion_date": "2020-12",
+            "brief_summary": "The aim of this study was to compare the efficacy of PBM (660nm) and corticosteroid therapy with clobetasol propionate 0.05% in the treatment of OLP. This is a protocol for a randomized, controlled, double blind clinical trial. Fourty-four patients will be randomized in two experimental groups. Control group will be treated with clobetasol propionate 0.05% for 30 consecutive days and with placebo PBM twice a week. The experimental group will be treated with placebo gel for 30 consecutive days to",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，UNKNOWN，n=44，光生物調節 for OLP，無直接 clobetasol 評估，相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT01323673",
+            "title": "Ethanol-Free Clobetasol Propionate Foam 0.05% (Olux-E Foam) vs Vehicle Foam in the Treatment of Chronic Hand Dermatitis.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 125,
+            "start_date": "2010-11-15",
+            "completion_date": "2011-03-29",
+            "brief_summary": "The purpose of this study is to determine how clobetasol proprionate foam works against a placebo foam in the treatment of hand dermatitis.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，COMPLETED，n=125，Clobetasol 泡沫無酒精配方用於慢性皮膚炎症，直接相關"
+            }
+          },
+          {
+            "nct_id": "NCT04364555",
+            "title": "Efficacy of Topical Treatment With Clobetasol in Symptomatic Oral Lichen Planus. A Multicenter Placebo-controlled Randomized Clinical Trial.",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 90,
+            "start_date": "2020-05-18",
+            "completion_date": "2025-12",
+            "brief_summary": "The investigators want to study the effect of clobetasol in symptomatic oral lichen planus. The investigators will include 90 patients and randomly allocate them in three groups. The first group will receive active treatment both in the morning an evening. Group two receives placebo in the morning and active treatment in the evening. Group three will get placebo both in the morning and in the evening. All Groups will follow the same protocol with rinsing twice daily with test substance in conjun",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3 多中心 RCT，n=90，ACTIVE_NOT_RECRUITING，Clobetasol 直接用於 OLP（symptomatic oral lichen planus = lichenoid exanthem），最高相關性"
+            }
+          },
+          {
+            "nct_id": "NCT06752343",
+            "title": "A Comparison of Photodynamic Therapy and Topical Clobetasol in Treatment of Oral Lichen Planus: a Split-Mouth Randomised Controlled Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "2023-06-01",
+            "completion_date": "2024-10-01",
+            "brief_summary": "Lichen planus is a chronic inflammatory dermatosis. It most often affects the skin and mucous membranes. Sometimes lesions may appear in the area of nails (estimated at 10% of patients) or genital organs and anus.\n\nThe most dangerous form of lichen planus is lichen that develops on the oral mucosa. It is believed to be the cause of the development of oral cancer.\n\nThe vast majority of people suffering from lichen planus - 90%, experience spontaneous resolution of symptoms within a maximum of two",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06119672",
+            "title": "Evaluation of the Efficacy of Supplementary Probiotic Capsules With Topical Clobetasol Propionate 0.05% in the Treatment of Oral Lichen Planus",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 36,
+            "start_date": "2023-05-01",
+            "completion_date": "2023-12-30",
+            "brief_summary": "Oral lichen planus patients who will meet inclusion criteria will be divided into 2 groups\n\n-The intervention group (Group P): This group will be randomly allocated to take one capsule twice daily during meal time at morning and evening of probiotics complex obtained from Biovea for 4 -week study period. Moreover, patients in this group will be instructed to apply clobetasole propionate in orabase gel 2 times daily for 4 weeks. Patients will receive their supply of the gel and probiotics every 2",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00102557",
+            "title": "Hydroxychloroquine Versus Clobetasol 0.05% Rinse for the Treatment of Oral Lichen Planus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 74,
+            "start_date": "2005-01",
+            "completion_date": "2005-10",
+            "brief_summary": "This study will compare two treatments for oral lichen planus - hydroxychloroquine (Plaquenil) tablets and clobetasol oral rinse. Oral lichen planus is a chronic disorder in which patients have painful mouth ulcers that interfere with meals and daily functioning. It is most commonly treated with topical or systemic corticosteroids, but these drugs have a number of side effects, most commonly yeast infection, and chronic systemic use of them can lead to diabetes, osteoporosis, weight gain, and ot",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06120140",
+            "title": "A Phase 2, Open-Label, Randomized Trial Evaluating the Impact of Enhanced Versus Standard Dermatologic Management on Selected Dermatologic Adverse Events Among Patients With Locally Advanced or Metastatic EGFR-Mutated NSCLC Treated First-Line With Amivantamab + Lazertinib",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 300,
+            "start_date": "2024-02-16",
+            "completion_date": "2032-01-31",
+            "brief_summary": "The purpose of this study is to evaluate whether enhanced dermatologic management can reduce incidence of grade greater than or equal to (\\>=) 2 dermatologic adverse events of interest (DAEIs) when compared with standard-of-care skin management and with modified enhanced dermatologic management in participants with locally advanced or metastatic stage IIIB/C-IV epidermal growth factor receptor (EGFR)-mutated non-small cell lung cancer (NSCLC) treated first-line with amivantamab and lazertinib. T",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02573883",
+            "title": "A Randomized Trial of Clobetasol Propionate Versus Fractionated CO2 Laser for the Treatment of Lichen Sclerosus (CuRLS)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 52,
+            "start_date": "2015-10",
+            "completion_date": "2019-09",
+            "brief_summary": "This study is being done to compare the effects, good and bad, of fractionated CO2 laser treatment and clobetasol propionate .05% ointment on vulvar lichen sclerosus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05010421",
+            "title": "CO2 Non-ablative Laser Versus Topical Clobetasol for Lichen Sclerosus: a Prospective, Open-label, Randomized Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 246,
+            "start_date": "2021-11-02",
+            "completion_date": "2025-10-17",
+            "brief_summary": "Lichen sclerosus (LS) is a common autoimmune disease of the genital skin. It affects 1/900 women with an age peak in the sixth decade of life and is manifested by chronic inflammation of the genital, perineal, and perianal areas associated with itching, burning, pain, and soreness. In addition, LS is associated with an increased risk of vulvar cancer.\n\nTreatment options for LS include topical steroids such as clobetasol, immunomodulators such as tacrolimus, and non-ablative laser treatment. Alth",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06135402",
+            "title": "Monocentric, Prospective, Randomised, Single Blinded, Active-controlled Trial to Prove That the Treatment With Monalisa Glide is Equal to Topic Clobetasol Propionate Maintenance Therapy in Vulvar Lichen Sclerosus",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 120,
+            "start_date": "2023-11-10",
+            "completion_date": "2027-11-01",
+            "brief_summary": "With this trial the investigators look for the effect of Laser maintenance therapy in patients with vulvar lichen sclerosus compared to the maintenance standard treatment clobetasol propionate.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02319616",
+            "title": "A Randomized Placebo Controlled Split-body Double-blind Phase II Clinical Trial to Investigate the Safety and Efficacy of Clobetasol 0.05% Ointment for the Treatment of Toxic Epidermal Necrolysis (TEN)",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2016-11",
+            "completion_date": "2019-02-06",
+            "brief_summary": "The primary objectives of this study are to investigate the efficacy and safety of topical steroid ointment (clobetasol 0.05%) for the treatment of the cutaneous manifestations of toxic epidermal necrolysis (TEN).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04673916",
+            "title": "Analysis of the Efficacy of Two Treatment Protocols for Patients With Symptomatic Oral Lichen Planus",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 61,
+            "start_date": "2019-06-01",
+            "completion_date": "2020-06-25",
+            "brief_summary": "The primary objective of this study was to compare the therapeutic efficacy of clobetasol propionate 0.05% oral gel versus an anti-inflammatory mouthwash in an oral solution for the management of patients suffering from symptomatic OLP. The secondary objective was to analyze which one of the two treatments induced a greater risk of developing side effects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02744378",
+            "title": "Comparison of Tacrolimus 0.1% and Clobetasol 0.05% in the Management of Symptomatic Oral Lichen Planus- A Double-blinded Randomized Clinical Trial in Sri Lanka",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 68,
+            "start_date": "2014-06",
+            "completion_date": "2015-12",
+            "brief_summary": "This clinical study is carried out to assess the efficacy of Tacrolimus and Clobetasol in symptomatic Oral Lichen Planus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03592342",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel Group Clinical Study to Assess the Safety and Efficacy of Three Doses of Clobetasol Propionate When Administered Intra-orally Twice Daily in Patients With Oral Lichen Planus (OLP) Using Rivelin®-CLO Patches",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2018-06-28",
+            "completion_date": "2019-12-20",
+            "brief_summary": "Participants with symptomatic Oral Lichen Planus lesions will be treated with Rivelin® patches containing either 0, 1, 5, or 20 μg clobetasol per patch. Each participant will apply up to 6 patches twice daily for 4 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29974124",
+            "title": "Tamsulosin-induced photosensitivity rash.",
+            "authors": [
+              "Tan Chin Kwok",
+              "Yap Keng Bee"
+            ],
+            "journal": "Singapore medical journal",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36342724",
+            "title": "The \"Flolan Rash\": An Impressively Asymptomatic and Non-Inflammatory Eruption Following Long-Term Epoprostenol Therapy.",
+            "authors": [
+              "Hutchison Dana",
+              "Juhasz Margit",
+              "Smith Janellen",
+              "Lee Bonnie"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2022",
+            "abstract": "Epoprostenol (Flolan) is a last-resort intravenous medication for the treatment of severe pulmonary arterial hypertension (PAH). Cutaneous adverse events of Flolan are well-known by pulmonologists, though lacking in dermatologic literature. We report a near erythrodermic appearing, yet asymptomatic eruption lasting 10 years in a woman with end-stage PAH treated with long-term intravenous epoprostenol. Non-pruritic, blanching, erythematous papules coalescing to plaques surrounded by a hypopigment",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34289766",
+            "title": "Characteristics of hospitalizations and emergency department visits due to generalized pustular psoriasis in the United States.",
+            "authors": [
+              "Hanna Maya L",
+              "Singer David",
+              "Bender Shaun D",
+              "Valdecantos Wendell C",
+              "Wu Jashin J"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "2021",
+            "abstract": "Generalized pustular psoriasis (GPP) is a rare and severe, inflammatory skin disease. GPP is characterized by recurrent flares that consist of disseminated erythematous skin rash with sterile neutrophil-filled pustules that can result in an emergency department (ED) visit or hospital stay due to systemic complications. This study characterizes hospitalizations, ED visits, and inpatient treatment due to GPP in the United States (US).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29736978",
+            "title": "Erythematous papular rash after gardening.",
+            "authors": [
+              "Corral-Magaña O",
+              "Del-Pozo-Hernando L J",
+              "Quintero A M",
+              "Saus C"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30604475",
+            "title": "Multiple eruptive cutaneous horns on the scalp.",
+            "authors": [
+              "Maarouf M",
+              "Hendricks A",
+              "Culpepper K S",
+              "Shi V Y"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18544295",
+            "title": "Gianotti-Crosti syndrome in two adult patients.",
+            "authors": [
+              "Ting Patricia T",
+              "Barankin Benjamin",
+              "Dytoc Marlene T"
+            ],
+            "journal": "Journal of cutaneous medicine and surgery",
+            "year": "2008",
+            "abstract": "Gianotti-Crosti syndrome was first described in Italy by Gianotti in 1955. It is considered a benign, self-limited exanthem that occurs in younger children. Adult cases are rare.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Exanthem（皮膚疹）多由免疫炎症驅動（T細胞介導、細胞激素風暴）；Clobetasol 廣效抑制炎症瀑布，可緩解多種炎症性皮膚疹，尤以苔癬樣（lichenoid）型最有文獻支持（OLP 為 exanthem 子集）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acne keloid",
+      "txgnn": {
+        "score": 0.9921383261680604,
+        "rank": 8923
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16047868",
+            "title": "An open label study of clobetasol propionate 0.05% and betamethasone valerate 0.12% foams in the treatment of mild to moderate acne keloidalis.",
+            "authors": [
+              "Callender Valerie D",
+              "Young Cherie M",
+              "Haverstock Christina L",
+              "Carroll Christie L",
+              "Feldman Steven R"
+            ],
+            "journal": "Cutis",
+            "year": "2005",
+            "abstract": "Acne keloidalis (AK) is a disease affecting primarily African American men. Topical steroids are a widely accepted treatment of AK; however, no studies have been published investigating their effectiveness. The purpose of this open-label study was to assess the efficacy and tolerability of clobetasol propionate 0.05% and betamethasone valerate 0.12% foams in the treatment of AK in 20 African American patients. These patients were treated for 8 to 12 weeks using a pulsed-dose regimen. We found to",
+            "classification": {
+              "study_type": "Open-label Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clobetasol 抑制纖維母細胞增殖及膠原合成（TGF-β 路徑下調），可減少瘢痕疙瘩形成；同時抑制毛囊周炎症，對 acne keloidalis nuchae（後頸部疙瘩性痤瘡）具雙重作用機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn": {
+        "score": 0.99160236120224,
+        "rank": 9323
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮肌炎（DM）皮膚表現以 T 細胞及干擾素信號過活化為核心；類固醇（全身性）為 DM 標準治療；但 clobetasol 為外用製劑，對系統性肌炎病理無效，僅理論上可緩解皮膚 Gottron 丘疹等局部炎症。新生兒型更罕見，安全性數據幾近空白。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn": {
+        "score": 0.9906965494155884,
+        "rank": 10028
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CTD-ILD 以肺部纖維化與炎症為核心；全身性糖皮質激素（口服/靜脈潑尼松龍等）為標準治療；Clobetasol 為外用製劑，生物利用率不足以達到肺部治療濃度，機轉連結極弱。TxGNN 預測可能源於皮質類固醇藥物類別的類別效應錯誤推斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn": {
+        "score": 0.9905305504798888,
+        "rank": 10168
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無肌病皮肌炎（ADM）以皮膚炎症（Gottron 丘疹、V-neck sign）為主，無肌肉受損；Clobetasol 理論上可控制局部皮膚炎症；但 ADM 患者 ILD 合併率高，需警惕類固醇相關感染風險；且系統性免疫調節（羥氯喹、甲氨蝶呤）更為標準。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn": {
+        "score": 0.9887732863426208,
+        "rank": 11453
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性種痘水疱病為 EBV 驅動的 T/NK 細胞光敏反應；類固醇理論上可抑制局部炎症，但無法針對 EBV 病毒驅動機轉；且長期外用強效類固醇可能進一步損傷已脆弱的皮膚屏障。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "2-hydroxyethyl methacrylate sensitization",
+      "txgnn": {
+        "score": 0.9877970814704896,
+        "rank": 12214
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HEMA 敏感化為接觸性致敏（IVb 型過敏反應）；Clobetasol 可非特異性抑制已誘發的過敏性接觸性皮炎炎症反應，機轉合理，但無法逆轉致敏狀態，且非真正意義上的「再利用」（類固醇治療接觸性皮炎為已知用途）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "psoriasis",
+      "txgnn": {
+        "score": 0.963029146194458,
+        "rank": 23464
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01235442",
+            "title": "A Randomized Study to Evaluate the Efficacy and Safety of Adding Topical Therapy to Etanercept in Subjects With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 592,
+            "start_date": "2010-09",
+            "completion_date": "2011-12",
+            "brief_summary": "The primary hypothesis of this trial is that the addition of short courses of clobetasol propionate foam to etanercept monotherapy in subjects with moderate to severe plaque psoriasis will yield greater efficacy compared with etanercept monotherapy, as measured by PASI 75 at Week 12.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，COMPLETED，n=592，Etanercept + 外用 clobetasol vs 單藥，直接評估 clobetasol 於牛皮癬療效，最高等級直接證據"
+            }
+          },
+          {
+            "nct_id": "NCT00436540",
+            "title": "A Comparison Between Clobetasol Propionate (Clobex®) Spray and Clobetasol Propionate (Olux®) Foam With Regard to Efficacy, Safety, Preference and Duration of Response in Stable Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2006-03",
+            "completion_date": "2007-01",
+            "brief_summary": "The primary objective of this study is to evaluate the efficacy and safety of clobetasol propionate 0.05% (Clobex®) spray compared to clobetasol propionate 0.05% (Olux®) foam.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，COMPLETED，n=78，Clobetasol 噴劑 vs 泡沫劑比較，劑型最佳化證據"
+            }
+          },
+          {
+            "nct_id": "NCT00437255",
+            "title": "An Evaluation of the Efficacy, Safety, Preference and Duration of Response of Clobex® (Clobetasol Propionate) Spray and Taclonex® (Calcipotriene 0.05%/Betamethasone Dipropionate 0.064%) Ointment in Subjects With Stable Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 122,
+            "start_date": "2006-08",
+            "completion_date": "2007-06",
+            "brief_summary": "Evaluate the efficacy of Clobex® Spray as compared to Taclonex® Ointment in terms of Overall Disease Severity and Investigator Global Assessment.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，COMPLETED，n=122，Clobetasol 噴劑療效與安全性，直接相關"
+            }
+          },
+          {
+            "nct_id": "NCT01043224",
+            "title": "A Psoriasis Plaque Study Comparing Clobetasol Propionate Plus Calcipotriol Ointment With Clobetasol Propionate Ointment Alone, Calcipotriol Ointment Alone and a Vehicle Control for the Treatment of Psoriasis Vulgaris",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2010-01",
+            "completion_date": "2010-03",
+            "brief_summary": "The purpose of this trial is to compare the anti-psoriatic effect of a topical combination product containing clobetasol propionate and calcipotriol in an ointment formulation to the single components in the same vehicle using a psoriasis plaque test design.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 1，COMPLETED，n=24，Clobetasol + calcipotriol 聯合療法，機轉探索性研究"
+            }
+          },
+          {
+            "nct_id": "NCT00988637",
+            "title": "An Open-label, Multi-center, Randomized, Evaluator-Blinded Study to Evaluate the Safety and Efficacy of Two Treatment Regimens Involving Vectical™ (Calcitriol) Ointment 3 µg/g and Clobex® (Clobetasol Propionate) Spray, 0.05% in the Treatment of Moderate Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 138,
+            "start_date": "2009-10",
+            "completion_date": "2010-03",
+            "brief_summary": "This clinical trial will evaluate the efficacy and safety of Clobex® (clobetasol propionate) Spray 0.05% and Vectical™ (calcitriol) Ointment 3 µg/g over a four week period of use in one of two different regimens:\n\n1. Vectical™ Ointment treatment, twice daily on weekdays (Mon - Fri) and Clobex® Spray treatment twice daily on weekends (Sat - Sun) for 28 days\n2. Clobex® Spray once each morning and Vectical™ Ointment once each evening for 28 days",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，COMPLETED，n=138，多中心安全性與療效評估，直接支持"
+            }
+          },
+          {
+            "nct_id": "NCT03453190",
+            "title": "Apremilast in Combination With Clobetasol Spray for the Treatment of Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2018-02-25",
+            "completion_date": "2020-06-30",
+            "brief_summary": "Researchers want to find out if giving the drug Apremilast in combination with Clobetasol spray can help people clear their moderate to severe plaque psoriasis quicker than if Apremilast is used by itself.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，UNKNOWN 狀態，n=20，Apremilast + Clobetasol 聯合，樣本小且狀態不明"
+            }
+          },
+          {
+            "nct_id": "NCT04220554",
+            "title": "Long-term Improvement of Psoriasis Patients' Adherence to Topical Drugs: Testing a Patient-supporting Intervention Delivered by Healthcare Professionals",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 103,
+            "start_date": "2020-06-19",
+            "completion_date": "2022-06-01",
+            "brief_summary": "Psoriasis affects 2-4% of the Western adult population and is a socio-economic burden for patients and society. Topical drugs are recommended as first-line treatment for mild-to-moderate psoriasis, but low adherence is a barrier for treatment success. There is a need for improved patient support for psoriasis patients, which is suggested to improve long-term use of topical drugs.\n\nThe project aims to test whether a patient-supporting intervention delivered by healthcare professionals can improve",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase NA，COMPLETED，n=103，依從性研究，間接支持長期使用可行性"
+            }
+          },
+          {
+            "nct_id": "NCT00438399",
+            "title": "Subject Preference Comparison Between Clobetasol Propionate Shampoo, 0.05% and Three Other Topical Corticosteroids in the Treatment of Moderate to Severe Scalp Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 219,
+            "start_date": "2007-02",
+            "completion_date": "2008-02",
+            "brief_summary": "The scalp is one of the most common affected sites in psoriatic patients as 79% of them have scalp involvement.It has also a psychological aspect with 31% of patients with scalp psoriasis indicating distress.\n\nTopical agents remain the mainstay of treatment for scalp psoriasis. However, they are not always ideal because they might be inconvenient and messy to use, stain or damage hair.\n\nThe test shampoo, Clobetasol propionate Shampoo 0.05% (marketed in the USA under the tradename of Clobex®) was",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，COMPLETED，n=219，Clobetasol shampoo 0.05% 偏好比較，直接評估不同劑型於牛皮癬"
+            }
+          },
+          {
+            "nct_id": "NCT05706870",
+            "title": "A Multicenter Randomized Double-blind Placebo-controlled Parallel Group Phase II Study Evaluating the Clinical Efficacy and Safety of GN-037 Cream Used in the Treatment of Mild to Moderate Plaque Psoriasis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 190,
+            "start_date": "2022-12-07",
+            "completion_date": "2024-03-03",
+            "brief_summary": "This Phase II study was designed as a multicenter, randomized, double-blind, placebo-controlled and 3-parallel arm, to assess clinical efficacy, safety, and tolerability of GN-037 versus clobetasol 17-propionate and placebo in patients diagnosed with mild to moderate plaque psoriasis at least 6 months ago",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2，COMPLETED，n=190，多中心 RDB，牛皮癬治療評估，高品質 Phase 2 證據"
+            }
+          },
+          {
+            "nct_id": "NCT01205880",
+            "title": "Spray® and Vectical Ointment® in the Treatment of Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2009-12",
+            "completion_date": "2010-01",
+            "brief_summary": "This investigator-blinded study is designed to assess whether the order of application affects the efficacy of the combination treatment Clobex® Spray (clobetasol propionate) and Vecitcal® (calcitriol) Ointment in plaque psoriasis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，COMPLETED，n=12，樣本偏小，Clobetasol spray + Vectical 聯合，參考價值有限"
+            }
+          },
+          {
+            "nct_id": "NCT01703325",
+            "title": "Comparison of Efficacy and Safety of Psoriatic Nails Treatment Between by Intralesional 0.1%Triamcinolone Injection and Topical 0.05%Clobetasol Propionate Ointment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2010-11",
+            "completion_date": "2012-06",
+            "brief_summary": "Psoriatic nails can significantly affect a quality of life of patients. Psoriasis affects both nail matrix and nail bed. Pitting, leukonychia and red spots in lunula indicate a defect in the nail matrix. Psoriasis can change the nail bed as the results in onycholysis, discoloration, splinter hemorrhage and subungual hyperkeratosis. The main treatment of psoriatic nails is using topical high- potent steroids however topical steroids are limited their ability to penetrate deep nail matrix or nail ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01313221",
+            "title": "A Randomized, Blinded Assessor Study to Evaluate the Efficacy and Safety of Etanercept 50 mg Once Weekly Plus As Needed Topical Agent Versus Etanercept 50 mg Twice Weekly in Subjects With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 310,
+            "start_date": "2011-04",
+            "completion_date": "2013-05",
+            "brief_summary": "To estimate the difference in effectiveness between treatment with etanercept 50 mg twice weekly (BIW) and treatment with etanercept 50 mg once weekly (QW) plus an as needed (PRN) topical agent for 12 weeks in adults with moderate to severe plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02940002",
+            "title": "A 28-day, Double-blind, Randomized, Reference-controlled Psoriasis Plaque Test to Evaluate the Efficacy and Safety of Two Different BAY1003803 Formulation Types in 2 Concentrations Each in Treatment of Symptomatic Volunteers With Plaque-type Psoriasis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 23,
+            "start_date": "2016-10-12",
+            "completion_date": "2017-03-17",
+            "brief_summary": "To explore the efficacy and safety of four BAY1003803 formulations by means of a within subject comparison in an open Psoriasis Plaque Test",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01745133",
+            "title": "Olux E Foam and Sorilux Foam Combination Therapy for the Maintenance of Treatment Response in Patients With Moderate Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 63,
+            "start_date": "2013-01",
+            "completion_date": "2014-08",
+            "brief_summary": "The purpose of the study is to investigate if combined use of OLUX-E™ Foam and SORILUX Foam may help \"maintain\" the therapeutic benefit that is achieved with OLUX-E™ Foam in the treatment of moderate plaque psoriasis.\n\nOLUX-E™ is a medication that contains a corticosteroid delivered in a foam formulation. SORILUX Foam is a foam formulation of calcipotriene. Both medications have been approved by the FDA for treating plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00842153",
+            "title": "A Study to Evaluate the Efficacy and Tolerability of Clobetasol Propionate vs. Vehicle in the Treatment of Mild to Moderate Plaque-Type Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 58,
+            "start_date": "2007-11",
+            "completion_date": "2008-01",
+            "brief_summary": "The purpose of the study is to compare the efficacy and safety of Clobetasol propionate to that of its Vehicle in the treatment of mild to moderate plaque-type psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02973776",
+            "title": "Vasoconstriction Trial Comparing LEO 90100 With Dermovate Cream, Diprosone Ointment, Elocon Cream, Locoid Ointment and LEO 90100 Vehicle",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 36,
+            "start_date": "2016-12",
+            "completion_date": "2017-02",
+            "brief_summary": "Vasoconstriction study with LEO 90100",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00400725",
+            "title": "Comparison of the Maintenance Effect of Clobex® Shampoo 0.05% Used Twice Weekly vs. Vehicle on Scalp Psoriasis in Subjects Who Successfully Responded to a 4-week Daily Course of Clobex® Shampoo 0.05%",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 288,
+            "start_date": "2006-09-29",
+            "completion_date": "2007-08-20",
+            "brief_summary": "The objective of the study was to assess the maintenance effect on scalp psoriasis of Clobex® Shampoo 0.05% when used twice weekly.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00881868",
+            "title": "A Multi-Center, Randomized, Double-Blind Study to Evaluate the Safety and Efficacy of Clobetasol Propionate Spray Versus Vehicle for the Management of Moderate to Severe Plaque Psoriasis of the Scalp",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 81,
+            "start_date": "2009-04",
+            "completion_date": "2009-12",
+            "brief_summary": "The primary objective of this study is to evaluate the safety and efficacy of clobetasol propionate spray versus vehicle spray for the management of moderate to severe plaque psoriasis of the scalp.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00470392",
+            "title": "Mechanistically-based Optimization of UV Radiation Therapy in Psoriasis",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 9,
+            "start_date": "2007-05",
+            "completion_date": "2012-07",
+            "brief_summary": "The purpose of this study is 1) to determine whether Imiquimod or Steroid pretreatment modifies UVB laser light response resulting in increased cell death compared to UVB laser light alone; 2) to determine if pretreatment of psoriatic lesions with Imiquimod or Steroid prior to UVB laser light exposure selectively effects various T cell functions; 3) to determine clinical results from the Imiquimod/Steroid/UVB laser light and correlate those changes with immuno-histochemical changes in the skin; ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02131324",
+            "title": "A Randomized, Open Label, Study to Assess the Potential for Adrenal Suppression and Systemic Drug Absorption With DFD-06 Cream Versus Clobetasol Propionate Cream, 0.05% in Subjects With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2014-05-08",
+            "completion_date": "2016-08-11",
+            "brief_summary": "The purpose of this study is to evaluate the potential of DFD06 cream to suppress the HPA (hypothalamic-pituitary-adrenal) axis as compared to clobetasol propionate cream, 0.05% cream when applied twice daily for 15 days.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01012713",
+            "title": "Pilot Open-Label Clinical Trial to Test Efficacy and Safety of Combination of Clobex® Spray With Excimer Laser Therapy [Photomedex XTRAC ® Velocity] in the Treatment of Generalized Plaque Psoriasis Followed by Maintenance With Topical Vectical® Ointment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2010-06",
+            "completion_date": "2014-12",
+            "brief_summary": "This is a 12-week, open-label, pilot trial evaluating the efficacy and safety of the combination of Clobex® spray with excimer laser therapy as the initial treatment of generalized plaque psoriasis, followed by maintenance therapy with topical Vectical. The study will be conducted in three distinct periods, namely Period A, Period B, and Period C, each of 4 weeks duration. During Period A (weeks 1 through 4), patients will use Clobex® spray twice daily along with excimer laser treatments twice w",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06042647",
+            "title": "A Demonstration of the Anti-Inflammatory Effects of 0.045% Tazarotene/0.01% Halobetasol Lotion as Compared to 0.05% Clobetasol Propionate Cream in the Treatment of Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2023-07-13",
+            "completion_date": "2023-11-13",
+            "brief_summary": "The objective of this research is to demonstrate superior anti-inflammatory effects, as demonstrated by a reduction in TNF-a and IL-17A, with tazarotene/halobetasol lotion in patients with mild to moderate plaque type psoriasis as compared to clobetasol propionate 0.05% cream.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02936492",
+            "title": "Escalating Dose Study for Safety, Tolerability and Pharmacokinetics After Single and Multiple Dermal Administration of Two BAY1003803 Formulation Types With Two Concentrations Each in Healthy Male Volunteers, Applying a Double-blind, Vehicle-controlled Design and Including a Positive Control Group",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 32,
+            "start_date": "2016-10-24",
+            "completion_date": "2017-10-16",
+            "brief_summary": "Systemic safety following single and multiple dermal administration of BAY1003803",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00769184",
+            "title": "A Steroid-Sparing Effect of Supplemental LCD Treatment in Patients With Moderate-to-Severe Localized Psoriasis Lesions: a Pilot Study.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2008-10",
+            "completion_date": "2009-04",
+            "brief_summary": "This is a 12 week bilateral study, consisting of 6 weeks of treatment and 6 weeks of follow-up. The purpose of the study is to compare the safety and effectiveness of combining and then following a high potency topical corticosteroid treatment with LCD treatment for moderate-to-severe localized plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00437216",
+            "title": "Phase 4 Open-Label Multicenter Community-based 4-Wk Trial to Assess Efficacy, Tolerance to Tx & Patient Satisfaction w/ CLOBEX® Spray When Used as Mono- or Add-on Therapy to Existing Systemic/Topical Agents for Tx of Plaque Psoriasis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2488,
+            "start_date": "2006-02",
+            "completion_date": "2006-07",
+            "brief_summary": "Evaluation of the effectiveness of Clobex® Spray, 0.05% when used as monotherapy or add-on therapy to existing systemic or topical anti-psoriatic agents.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05428202",
+            "title": "Phase I Study to Assess Safety, Tolerability and Clinical Benefits of Topically Applied GN-037 Cream in Healthy Volunteers and Patients Diagnosed With Psoriasis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2022-03-28",
+            "completion_date": "2022-09-30",
+            "brief_summary": "In this Phase I study, three different doses (low, medium and high dose, on the basis of surface area applied) of GN-037 cream (12 volunteers in total) and placebo (6 volunteers in total) will be administered to healthy volunteers. In the active dose arm, 4 healthy volunteers will receive GN-037 cream and 2 healthy volunteers will receive placebo. Randomization in each dose arm will be 2:1.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00852761",
+            "title": "A Study to Evaluate Safety and Efficacy of Clobetasol Propionate for Treatment of Plaque-Type Psoriasis in Adult Subjects.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2009-03",
+            "completion_date": "2009-08",
+            "brief_summary": "The purpose of the study is to determine the efficacy and safety of two different forms of a topical steroid (clobetasol propionate) in patients with plaque-type psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00715975",
+            "title": "Clinical Trial of Effectiveness and Safety of Topical Halobetasol Propionate in the Treatment of Patients With Psoriasis Plate, and as Comparator the Product Psorex (Clobetasol Propionate).",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2008-07",
+            "completion_date": "2010-08",
+            "brief_summary": "The Psoriasis and a chronic dermatosis characterized by abnormal proliferation of cells epithelial, vessel dilation and inflammation locally, which presents erythematous-scaly lesions in various areas of the body, preferably in the scalp, region and religious joints as elbows and knees. It occurs equally in both sexes and can appear at any age, and the mean age for the onset of the disease and around 27.3 years.\n\nThe halobetasol propionate and an ultra-potent corticoid. Its chemical structure an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06742333",
+            "title": "Early Intervention in Plaque Psoriasis: is Bimekizumab Able to Delay Chronic Inflammation? Prospective Multicenter Interventional Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 40,
+            "start_date": "2025-07-22",
+            "completion_date": "2029-01-01",
+            "brief_summary": "Psoriasis is a chronic inflammatory condition driven by a complex interplay between heritable and microenvironmental factors. Genome-wide heritability for psoriasis (PsO) is estimated at up to 50%. Although bearing genetic susceptibility at birth, most patients will remain disease free for years until an exposomal trigger activates the immunological pathway that leads to the first disease flare. In rare patients, the first flare is an isolated event, but in most patients it will evolve into a ch",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03584360",
+            "title": "Study Role of the Local Treatments on the Microbiome Modulation in the Psoriatic Skin. Study Monocentric, Interventional, Randomized and Single-blind",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2018-09-24",
+            "completion_date": "2019-03-07",
+            "brief_summary": "Changes in microbiome have been reported recently in psoriasis lesions compared to healthy surround skin. Preliminary data showed that systemic treatments of psoriasis induce modification of the skin microbiome that becomes similar to healthy individuals after successful treatment. The causative role of microbiome in psoriasis remains in debate. The modification of skin microbiome is suspected to be able to activate the innate immune response, namely natural killers (NKs) and immune lymphoid cel",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06555497",
+            "title": "A Pilot Study of Topical 1% Methotrexate Gel Versus Clobetasol Propionate in Patients With Mild-moderate Plaque-type Psoriasis",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 2,
+            "start_date": "2022-01-01",
+            "completion_date": "2023-12-31",
+            "brief_summary": "A pilot study on the formulation of topical methotrexate was conducted. Patients after baseline evaluation were randomly placed into either topical 1% methotrexate gel or clobetasol propionate 0.05% ointment which was applied for 6 weeks. PASI score was assessed at two-week intervals for a total of eight weeks. Blood chemistry parameters, whole abdomen ultrasound, and adverse drug reactions while on treatment and after eight weeks were monitored as secondary outcome measures.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00733954",
+            "title": "A Comparison Between Clobetasol Propionate (Clobex®) Spray and Clobetasol Propionate Ointment With Regard to Efficacy, Safety, Subject Satisfaction and Duration of Response in Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 250,
+            "start_date": "2007-08",
+            "completion_date": "2008-04",
+            "brief_summary": "This study is a comparison between Clobetasol Propionate Spray and Clobetasol Propionate Ointment with Regard to Efficacy, Safety, Subject Satisfaction and Duration of Response in Moderate to Severe Stable Plaque Psoriasis. Subjects will be enrolled and randomized into one of two groups: clobetasol propionate Spray for 4 weeks of treatment or clobetasol propionate ointment for 2 weeks of treatment with a 2 week follow-up visit for each group.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00658788",
+            "title": "A Multi-Center, Open-Label Study to Evaluate the Safety and Efficacy of a Consecutive Treatment Regimen of Clobetasol Propionate 0.05% Spray, Followed by Calcitriol Ointment 3µg/g, in the Management of Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 305,
+            "start_date": "2008-03",
+            "completion_date": "2009-01",
+            "brief_summary": "The primary objectives of this study are to evaluate the safety \\& efficacy of consecutive treatments of Clobex® Spray and Silkis® Ointment in the management of plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02635204",
+            "title": "A Randomized, Double-Blind, Vehicle-Controlled, Multicenter, Parallel Group Study of the Efficacy and Safety of DFD-06 Cream in the Treatment of Moderate to Severe Plaque Psoriasis for 14 Days",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 267,
+            "start_date": "2015-12",
+            "completion_date": "2016-07",
+            "brief_summary": "This study will compare the efficacy and safety of DFD-06 Cream to Vehicle Cream for topical treatment of moderate to severe plaque psoriasis after 3, 7, and 14 days of treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02445807",
+            "title": "A Randomized, Double-Blind, Vehicle-Controlled, Multicenter, Parallel Group Study of the Efficacy and Safety of DFD-06 Cream in the Treatment of Moderate to Severe Plaque Psoriasis for 14 Days",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 265,
+            "start_date": "2015-12",
+            "completion_date": "2016-07",
+            "brief_summary": "This study will compare the efficacy and safety of DFD-06 Cream to Vehicle Cream for topical treatment of moderate to severe plaque psoriasis after 3, 7, and 14 days of treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02733874",
+            "title": "A Trial That Compound Clobetasol Propionate Ointment Treats Patients With Mild to Moderate Psoriasis Vulgaris.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 240,
+            "start_date": "2015-04",
+            "completion_date": "",
+            "brief_summary": "A multi-center, randomized, single blind, positive controlled trials that assess the effectiveness, safety and cost-effectiveness analysis in patients with mild to moderate psoriasis vulgaris and compare Compound Clobetasol Propionate Ointment to Calcipotriol Betamethasone Ointment.\n\nObjectives of Study：\n\n1. Compare Compound Clobetasol Propionate Ointment to Calcipotriol Betamethasone Ointment in the treatment of mild to moderate psoriasis vulgaris in effectiveness and safety;\n2. Compare the cos",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03399526",
+            "title": "A 28-day, Double-blind, Randomized, Reference-controlled Open Psoriasis Plaque Test for Within Subject Comparison of Efficacy and Safety of Mapracorat 0.1% Ointment and 4 Reference Products in Symptomatic Volunteers With Stable Plaque-type Psoriasis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2013-02-11",
+            "completion_date": "2013-05-31",
+            "brief_summary": "Evaluation of efficacy and safety of Mapracorat 0.1% ointment and 4 comparator ointments in male and female subjects 18 to 65 years with stable plaque-type psoriasis treated once daily 6 days a week for a maximum of 4 weeks.\n\nPrimary objective was to compare the efficacy of all test compounds by measurement of psoriatic infiltrate thickness (PIT) with 20 MHz B mode ultrasound.\n\nSecondary objectives were to assess safety of all test compounds by measurement of the atrophogenic potential on non-le",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03179605",
+            "title": "An Open Label, Multicenter Study to Assess the Potential for Adrenal Suppression and Systemic Drug Absorption Following Multiple Dosing With DFD-06 in Pediatric Subjects With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 22,
+            "start_date": "2017-05-02",
+            "completion_date": "2020-06-03",
+            "brief_summary": "The purpose of this study is to evaluate the potential of DFD-06 to suppress the hypothalamic-pituitary-adrenal (HPA) axis when applied twice daily for 15 days.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01893567",
+            "title": "Subject Reported Target-lesion Numeric Rating Scale Evaluation by Subjects With Plaque Psoriasis Treated With Clobex® (Clobetasol Propionate) Spray 0.05%",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2013-07",
+            "completion_date": "2013-10",
+            "brief_summary": "The aim of this study is to investigate the utility of a technological based rating scale for assessing improvement in plaque psoriasis with Clobex spray treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32308782",
+            "title": "Topical Corticosteroid Therapy for Psoriasis-A Review of Clobetasol Propionate 0.025% Cream and the Clinical Relevance of Penetration Modification.",
+            "authors": [
+              "Del Rosso James Q"
+            ],
+            "journal": "The Journal of clinical and aesthetic dermatology",
+            "year": "2020",
+            "abstract": "Topical corticosteroids (TCs) have played a central role, over the past several decades, as a treatment for many dermatologic disorders. A number of factors, including potency, anticipated efficacy, vehicle formulation, and patient preference, directly influence the success or failure of any TC. In this article, the author reviews and discusses the current literature on various aspects of TCs for the treatment of plaque psoriasis, including an overview of product selection tendencies of patients",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36745373",
+            "title": "An Investigator-Initiated Trial of a Polymeric Emulsion of Halobetasol Propionate and Tazarotene in the Treatment of Palmoplantar Psoriasis.",
+            "authors": [
+              "Yousif Jenna",
+              "Babalola Folawiyo",
+              "Campbell Caroline",
+              "Gottlieb Alice",
+              "Vargas Jessica"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2023",
+            "abstract": "Copy: Palmoplantar psoriasis is a chronic, difficult-to-treat localized variant of psoriasis that affects the palms and soles, significantly affecting patient's quality of life.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39273201",
+            "title": "Evaluation of Clobetasol and Tacrolimus Treatments in an Imiquimod-Induced Psoriasis Rat Model.",
+            "authors": [
+              "Guillaume Philippe",
+              "Rupp Tristan",
+              "Froget Guillaume",
+              "Goineau Sonia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "abstract": "Psoriasis is a chronic inflammatory skin disorder characterized by keratinocyte hyperproliferation, inflammation, and aberrant differentiation. Imiquimod-induced psoriasis in rodent models has been widely used to study the pathogenesis of the disease and evaluate potential therapeutic interventions. In this study, we investigated the efficacy of two commonly used treatments, Clobetasol and Tacrolimus, in ameliorating psoriatic symptoms in an Imiquimod-induced psoriasis Wistar rat model. Interest",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39695818",
+            "title": "Complicated iatrogenic Cushing's syndrome induced by topical clobetasol propionate in a child with psoriasis: a case report and review of the literature.",
+            "authors": [
+              "Abtahi-Naeini Bahareh",
+              "Nasri Peiman",
+              "Afshar Kimia",
+              "Nouri Nikta"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2024",
+            "abstract": "Long-term use of oral or parenteral corticosteroids is the most common cause of hypothalamic-pituitary-adrenal axis suppression and iatrogenic Cushing's syndrome. Still, iatrogenic Cushing's syndrome occurs rarely following the administration of topical corticosteroids.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16774104",
+            "title": "Clobetasol propionate for psoriasis: are ointments really more potent?",
+            "authors": [
+              "Warino Lindsey",
+              "Balkrishnan Rajesh",
+              "Feldman Steven R"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2006",
+            "abstract": "Clobetasol propionate is the most common topical therapy used for psoriasis in the US. Conventional dermatologic wisdom is that ointment preparations provide the highest potency (due to their occlusive nature and moisturizing ability) and are best suited for psoriasis. However, patients often find application of ointment to be messy, raising concerns about both short-term and long-term adherence to treatment. This article reviews the current literature and assesses the relative potency of clobet",
+            "classification": {
+              "study_type": "Clinical Comparative Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16086659",
+            "title": "Clobetasol propionate foam in the treatment of psoriasis.",
+            "authors": [
+              "Reid David C",
+              "Kimball Alexa B"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2005",
+            "abstract": "Psoriasis is a common, chronic, distressing skin disorder that frequently affects the scalp, skin, nails and joints. Despite treatment, many patients suffer from unremitting disease and decreased quality of life. Scalp-type psoriasis is particularly difficult to treat. Although topical corticosteroids are the mainstay of therapy for moderate-to-severe disease, patients frequently object to the messiness and unfavourable cosmetic appearance of topical treatments. In this context, foam vehicles, w",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35533304",
+            "title": "Halobetasol Propionate 0.01% Lotion for Plaque Psoriasis and Corticosteroid-Responsive Dermatoses.",
+            "authors": [
+              "Abduelmula Abrahim",
+              "Rankin Brian D",
+              "Vender Ronald",
+              "Yeung Jensen",
+              "Devani Alim R"
+            ],
+            "journal": "Skin therapy letter",
+            "year": "2022",
+            "abstract": "A novel topical corticosteroid, halobetasol propionate (HP) 0.01% lotion (Bryhali™), has recently been introduced for the treatment of plaque psoriasis and corticosteroid-responsive dermatoses in adults. Once daily application of HP 0.01% lotion is indicated for use up to 8 weeks. Treatment success for plaque psoriasis in the pivotal phase 3 clinical trials (defined as an Investigator Global Assessment [IGA] of clear/almost clear [IGA 0/1] with ≥2-grade improvement from baseline) occurred in ove",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18806904",
+            "title": "Clobetasol propionate--where, when, why?",
+            "authors": [
+              "Pels Ragna",
+              "Sterry Wolfram",
+              "Lademann Jürgen"
+            ],
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2008",
+            "abstract": "Clobetasol propionate is the most potent of all topical steroids. It is successfully applied in the treatment of various skin diseases such as atopic dermatitis, psoriasis and vulvar lichen sclerosus. The therapy is, however, mainly symptomatic. A preventive effect is only reported in the treatment of the latter. Clobetasol propionate exerts antiinflammatory, immunosuppressive and antimitotic effects influencing the growth, differentiation and function of various cells and inhibiting cytokine pr",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11705308",
+            "title": "Clobetasol propionate foam, 0.05%.",
+            "authors": [
+              "Melian E B",
+              "Spencer C M",
+              "Jarvis B"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2001",
+            "abstract": "Clobetasol propionate foam (clobetasol foam), a new formulation of the superpotent corticosteroid, has anti-inflammatory, antipruritic and vasoconstrictive properties. It was reported that the absorption rate of clobetasol was greater from the foam than from the solution in cadaver skin. In patients with moderate to severe scalp psoriasis, topical application of clobetasol 0.05% foam twice daily for 2 weeks induced significant improvement of all signs and symptoms of the disease compared with pl",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32598275",
+            "title": "Development and Characterization of a Clobetasol Propionate Nanostructured Lipid Carrier-Based Gel for the Treatment of Plaque Psoriasis.",
+            "authors": [
+              "Dadwal Ankita",
+              "Mishra Neeraj",
+              "Narang Raj K"
+            ],
+            "journal": "Current molecular pharmacology",
+            "year": "2021",
+            "abstract": "Psoriasis is an autoimmune disease of the skin with lapsing episodes of hyperkeratosis, irritation, and inflammation. Numerous traditional and novel drug delivery systems have been used for better penetration through psoriatic barrier cells and also for retention in the skin. As there is no effective remedy for better penetration, and retention is there because of the absence of an ideal carrier for effective and safe delivery of antipsoriatic drugs.",
+            "classification": {
+              "study_type": "Formulation Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34871475",
+            "title": "Fixed Combination Halobetasol Propionate and Tazarotene Lotion for Plaque Psoriasis.",
+            "authors": [
+              "Guenther Lyn",
+              "Metelitsa Andrei",
+              "Prajapati Vimal H"
+            ],
+            "journal": "Skin therapy letter",
+            "year": "2021",
+            "abstract": "A novel fixed combination lotion containing the super-potent corticosteroid halobetasol propionate 0.01% and retinoid tazarotene 0.045% (Duobrii™) has recently been introduced and indicated for the treatment of moderate to severe plaque psoriasis in adults. Studies have shown that there is synergy between the ingredients and that the product can be safely used intermittently for up to 1 year. Treatment success (i.e., Investigator Global Assessment [IGA] of clear/almost clear [IGA 0/1] and at lea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18627337",
+            "title": "Clobetasol propionate emollient formulation foam in the treatment of corticosteroid-responsive dermatoses.",
+            "authors": [
+              "Frangos Jason E",
+              "Kimball Alexa B"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2008",
+            "abstract": "Topical corticosteroids are the most common treatment modality for patients with psoriasis and atopic dermatitis; however, the efficacy of topical corticosteroids is often hampered by barriers to patient adherence, such as lack of efficacy, side effects and inconvenience. Recently published studies have investigated the safety and efficacy of a novel emollient foam (EF) formulation of clobetasol propionate (CP), a class I topical corticosteroid in psoriasis and atopic dermatitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32126800",
+            "title": "Treating Psoriasis With Halobetasol Propionate and Tazarotene Combination: A Review of Phase II and III Clinical Trials.",
+            "authors": [
+              "Ramachandran Vignesh",
+              "Bertus Brooke",
+              "Bashyam Arjun M",
+              "Feldman Steven R"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2020",
+            "abstract": "Objective: To review phase II and III clinical trial data to evaluate the efficacy and safety of the halobetasol propionate/tazarotene (HP/TAZ) combination lotion (Duobrii), a medication approved by the Food and Drug Administration in April 2019 for adults with plaque psoriasis. Data Sources: A systematic search (January 2005 to July 2019) of MEDLINE (PubMed) and EMBASE databases was performed using the terms halobetasol, tazarotene, halobetasol/tazarotene, Duobrii, and IDP-118. Study Selection ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12704534",
+            "title": "The efficacy and tolerability of clobetasol propionate foam 0.05% in the treatment of mild to moderate plaque-type psoriasis of nonscalp regions.",
+            "authors": [
+              "Gottlieb Alice B",
+              "Ford Rosanne Odom",
+              "Spellman Mary C"
+            ],
+            "journal": "Journal of cutaneous medicine and surgery",
+            "year": "2003",
+            "abstract": "Clobetasol propionate foam 0.05% (Connetics Corporation, Palo Alto, CA) is approved by the United States Food and Drug Administration for the treatment of corticosteroid-responsive scalp dermatoses, but there is only limited data available for its efficacy and tolerability in treating dermatoses which affect nonscalp sites.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32293928",
+            "title": "Development and characterisation of clobetasol propionate loaded Squarticles as a lipid nanocarrier for treatment of plaque psoriasis.",
+            "authors": [
+              "Dadwal Ankita",
+              "Mishra Neeraj",
+              "Rawal Ravindra K",
+              "Narang Raj Kumar"
+            ],
+            "journal": "Journal of microencapsulation",
+            "year": "2020",
+            "abstract": "Aim: The aim of this project is to improve the therapeutic effectiveness, permeation and retention of clobetasol propionate in sebaceous glands by reporting the use of Squarticles as lipidic nanosystem.Methods: Homogenisation method is used for the formulation of Squarticles (nanoemulgel) which was characterised on the basis of size, polydispersity index (PDI), viscosity, spreadability, DSC, % in vitro release, in vitro skin permeation deposition studies, and in vivo studies, scanning electron m",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19824740",
+            "title": "Topical clobetasol propionate in the treatment of psoriasis: a review of newer formulations.",
+            "authors": [
+              "Feldman Steven R",
+              "Yentzer Brad A"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2009",
+            "abstract": "Ultrapotent topical corticosteroids are the mainstay of psoriasis treatment, used either alone or in combination with a topical vitamin D analog. Traditionally used in an ointment vehicle for psoriasis, clobetasol propionate 0.05% is also available in spray, foam, lotion, and shampoo formulations, which may provide for improved convenience and acceptance in many patients with similar efficacy, safety, and tolerability as the traditional ointment and cream formulations. To compare newer formulati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3528243",
+            "title": "Topical clobetasol-17-propionate: review of its clinical efficacy and safety.",
+            "authors": [
+              "Olsen E A",
+              "Cornell R C"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1986",
+            "abstract": "Clobetasol-17-propionate, the most potent of currently available topical steroids as predicted by the vasoconstrictor assay, has just been approved in the United States. In psoriasis, it has proved significantly more effective than class II steroids and as or more effective than the only marketed class I steroid. In the more steroid-responsive eczemas, the superior efficacy of clobetasol is also apparent, but less striking. Clobetasol prolongs remission rates, making intermittent treatment sched",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20715392",
+            "title": "Scalp psoriasis.",
+            "authors": [
+              "Kircik Leon H",
+              "Kumar Sandeep"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2010",
+            "abstract": "Psoriasis is a chronic, debilitating disease that commonly involves the scalp. Despite a wide range of therapy options, scalp psoriasis remains difficult to treat, highlighting a long-standing unmet need for the safe and effective treatment of scalp psoriasis. Many topical therapies for scalp psoriasis are also difficult or unpleasant to apply, resulting in decreased adherence and efficacy. In brief, the high level of patient dissatisfaction with currently available treatments for psoriasis supp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40773618",
+            "title": "Resolving Hyperkeratotic Psoriasis: Mechanisms of Action and Additive Effects of Fixed-Combination Halobetasol Propionate and Tazarotene.",
+            "authors": [
+              "Tanghetti Emil A",
+              "Lebwohl Mark G",
+              "Gold Linda Stein",
+              "Green Lawrence",
+              "Draelos Zoe D"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2025",
+            "abstract": "Hyperkeratotic plaque psoriasis represents a distinct morphological variant that is difficult to treat with topical therapies because thick lesions may impede the penetration of active ingredients. The immunoregulatory mechanisms of topical corticosteroids (TCSs) and tazarotene (TAZ) may contribute to combating hyperkeratosis and long-term remittance of psoriasis. A fixed-combination lotion containing the potent-to-superpotent TCS halobetasol propionate (HP, 0.01%) and TAZ (0.045%), indicated fo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24672120",
+            "title": "Relative efficacy and interchangeability ofvarious clobetasol propionate vehicles in the management of steroid-responsive dermatoses.",
+            "authors": [
+              "Feldman Steven R"
+            ],
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "2005",
+            "abstract": "Topical corticosteroids have long been the cornerstone in thetreatment of steroid-responsive dermatoses. Despite the effectiveness of these formulations, there is a misperception that drugs delivered via ointments are more potent than those delivered via other vehicles. Potency, however, is a complex function of the physical and chemical properties of both the active ingredient and its vehicle. Studies have determined that newer vehicles (eg, lotions), particularly those in the super-high-potenc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clobetasol 透過抑制 Th1/Th17 軸（IL-17A、IL-22、TNF-α）及角化細胞過增殖，直接對抗牛皮癬核心病理；外用超強效類固醇為牛皮癬第一線局部療法，機轉高度吻合。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "exanthem (disease)"
+      },
+      "result_status": "success",
+      "result_count": 21,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "exanthem (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "exanthem (disease)"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "psoriasis"
+      },
+      "result_status": "success",
+      "result_count": 39,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "psoriasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol propionate",
+        "disease": "psoriasis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

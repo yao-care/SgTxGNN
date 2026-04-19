@@ -1,0 +1,1489 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00381-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amlodipine",
+    "drugbank_id": "DB00381",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "brain stem infarction",
+      "txgnn": {
+        "score": 0.999445378780365,
+        "rank": 1237
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amlodipine 的降血壓機轉理論上可減少腦幹穿通動脈缺血風險，但腦幹梗塞多由椎基底動脈粥樣硬化或心臟栓塞引起，CCB 的保護效果尚未於此特定解剖部位被臨床驗證。目前僅有 TxGNN 模型預測分數（0.9994），無任何臨床或前臨床支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9990806579589844,
+        "rank": 1844
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全警示：WHO Group 3 肺動脈高壓（肺病/缺氧型）中 CCB 類藥物屬相對禁忌。Amlodipine 引起之體循環血管舒張可加重通氣-灌流不匹配，惡化低血氧症。現有 20 篇文獻均為缺氧生理/病理通用機轉研究（腦老化、免疫調控、糖解代謝等），無任何文獻測試 Amlodipine 於此適應症，屬文獻匹配假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9990806579589844,
+        "rank": 1845
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全警示：WHO Group 5（多因素/不明機制）肺動脈高壓缺乏 CCB 用藥實證指引，且 Amlodipine 可能因體循環擴張引發安全問題。無臨床試驗或文獻支持。與 Group 3 PH 同樣建議不予追蹤此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9989637136459352,
+        "rank": 2052
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16467664",
+            "title": "Management of severe hypertension in a child with tuberous sclerosis-related major vascular abnormalities.",
+            "authors": [
+              "Wong Hubert",
+              "Hadi Mohammed",
+              "Khoury Tony",
+              "Geary Denis",
+              "Rubin Barry"
+            ],
+            "journal": "Journal of hypertension",
+            "year": "2006",
+            "abstract": "We report the case of a 4-year-old girl with tuberous sclerosis who presented with severe renovascular hypertension secondary to compression of the renal arteries by a large infradiaphragmatic abdominal aortic aneurysm.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15113447",
+            "title": "Hyponatremic hypertensive syndrome (HHS) in an 18-month old-child presenting as malignant hypertension: a case report.",
+            "authors": [
+              "Dixit Mehul P",
+              "Hughes John D",
+              "Theodorou Andreas",
+              "Dixit Naznin M"
+            ],
+            "journal": "BMC nephrology",
+            "year": "2004",
+            "abstract": "The combination of hyponatremia and renovascular hypertension is called hyponatremic hypertensive syndrome (HHS). Malignant hypertension as a presentation has been reported in adults with HHS but is rare in children.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amlodipine 透過阻斷 L 型鈣離子通道使血管平滑肌舒張，可有效控制全身性高血壓。惡性腎血管性高血壓病理機轉為腎動脈狹窄 → RAAS 過度活化 → 急速惡性高血壓。雖 RAAS 阻斷劑（ACEi/ARB）為首選，但 CCB 可作為輔助降壓劑，尤其在雙側腎動脈狹窄時 CCB 更具安全優勢。2 篇兒科個案報告間接支持 Amlodipine 用於此類高血壓急症，但缺乏成人系統性研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9989637136459352,
+        "rank": 2053
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性高血壓腎臟病理（纖維素樣壞死、蔥皮樣動脈炎）理論上可藉 Amlodipine 降壓而部分緩解，但 RAAS 阻斷劑具更直接的腎臟保護機轉（減少出球小動脈阻力、降低腎小球內壓）。無任何臨床試驗或文獻直接測試此適應症。與 malignant renovascular hypertension 相比，此適應症的間接個案支持亦付之闕如。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "cerebral artery occlusion",
+      "txgnn": {
+        "score": 0.9988553524017334,
+        "rank": 2254
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02850081",
+            "title": "Statin Neuroprotection and Carotid Endarterectomy: Safety, Feasibility and Outcomes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 31,
+            "start_date": "2017-06-01",
+            "completion_date": "2022-02-23",
+            "brief_summary": "The investigators hypothesize that pre-operative statin use is neuroprotective at maximal doses. The goals are to determine the safety, feasibility, and efficacy of maximizing statin doses for two weeks (12-18 days) prior to CEA using change in performance on a battery neuropsychometric tests as outcome measure. Study will recruit patients based on their preexisting statin regimen.\n\nThe investigators hypothesize that in asymptomatic CEA patients: 1) Pre-operative statin use is neuroprotective ag",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Statin 神經保護 + 頸動脈內膜切除術 Phase 3 已完成試驗（n=31），主角為 statin，非 Amlodipine；規模過小，不適用"
+            }
+          },
+          {
+            "nct_id": "NCT03015311",
+            "title": "Strategy of Systolic Blood Pressure Intervention in the Elderly Hypertensive Patients: A Prospective Randomized Open-Label Blinded-Endpoint Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 8000,
+            "start_date": "2017-01-15",
+            "completion_date": "2021-12-31",
+            "brief_summary": "The Strategy of Blood Pressure Intervention in the Elderly Hypertensive Patients (STEP) is a 2-arm, multi-center, prospective, randomized, open-labeled, blinded-endpoint trial. The purpose of this trial is to test whether a treatment program aimed at reducing systolic blood pressure (SBP) to a lower goal (\\<130 mmHg, intensive treatment) than currently recommended (\\<150 mmHg, standard treatment) will reduce CVD risk among persons between 60-80 years of old. Furthermore, this trial will also exa",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "老年高血壓患者收縮壓介入策略（n=8000），血壓控制試驗可能含 Amlodipine 使用，但狀態不明（UNKNOWN）；為間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT03785067",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) Cognitive Sub-Study",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2020-02-27",
+            "completion_date": "2021-02-03",
+            "brief_summary": "A Sub-Study of an investigator initiated and conducted, multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial (TRIDENT) to determine the effect of more intensive long-term blood pressure control, provided by a fixed low-dose combination blood pressure lowering pill (\"Triple Pill\") strategy on top of standard of care, for slowing memory decline as measured by Cambridge Neuropsychological Test Automated Battery (CANTAB), in patients with a hist",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "TRIDENT 認知子研究 Phase 3（TERMINATED, n=1），已終止且樣本量僅 1，無參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT03783754",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) MRI Sub-study",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2018-08-09",
+            "completion_date": "2021-03-21",
+            "brief_summary": "TRIDENT Main Study:\n\nTRIDENT is a multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial of a fixed low-dose combination BP-lowering pill (\"Triple Pill\") strategy on top of standard of care, in patients with a history of acute intracerebral haemorrhage (ICH) and systolic blood pressure (SBP) levels defined as 'high normal to borderline high', and on either minimal or no BP-lowering treatment according to current guidelines.\n\nMRI Sub-Study Cent",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "TRIDENT MRI 子研究（TERMINATED, n=4），已終止且樣本量極小，無參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT00805311",
+            "title": "Carotid Endarterectomy Versus Optimal Medical Treatment of Asymptomatic High Grade Carotid Artery Stenosis",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 400,
+            "start_date": "2009-04",
+            "completion_date": "2014-05",
+            "brief_summary": "The aim of this study is to determine whether optimal medical treatment can postpone carotid endarterectomy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "頸動脈內膜切除術 vs 最佳藥物治療（PHASE4, TERMINATED, n=400），手術比較試驗，藥物控制臂未特定為 Amlodipine"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21538457",
+            "title": "Amlodipine and atorvastatin exert protective and additive effects via antiapoptotic and antiautophagic mechanisms after transient middle cerebral artery occlusion in Zucker metabolic syndrome rats.",
+            "authors": [
+              "Zhang Xuemei",
+              "Deguchi Shoko",
+              "Deguchi Kentaro",
+              "Ohta Yasuyuki",
+              "Yamashita Toru"
+            ],
+            "journal": "Journal of neuroscience research",
+            "year": "2011",
+            "abstract": "We examined the neuroprotective effects amlodipine and/or atorvastatin in metabolic syndrome (MetS) Zucker fatty rats against transient (90 min) middle cerebral artery occlusion (MCAO). The rats were pretreated with vehicle, amlodipine, atorvastatin, or amlodipine plus atorvastatin for 28 days, and 24 hr after transient MCAO the infarct size was assessed via hematoxylin and eosin staining, and terminal deoxynucleotidyl transferase-mediated dUTP-biotin in situ nick end labeling (TUNEL) and microt",
+            "classification": {
+              "study_type": "Animal Study (In Vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20971084",
+            "title": "Synergistic benefit of combined amlodipine plus atorvastatin on neuronal damage after stroke in Zucker metabolic rat.",
+            "authors": [
+              "Kawai Hiromi",
+              "Deguchi Shoko",
+              "Deguchi Kentaro",
+              "Yamashita Toru",
+              "Ohta Yasuyuki"
+            ],
+            "journal": "Brain research",
+            "year": "2011",
+            "abstract": "Stroke is a major neurologic disorder and a leading cause of death in the world. We compared neuroprotective effects of single or combination therapy of amlodipine (AM) and atorvastatin (AT) in such a metabolic syndrome model Zucker rat after 90 min of transient middle cerebral artery occlusion (tMCAO). The animals were pretreated with vehicle, AM, AT, or the combination of AM plus AT for 28 days, and at 24h of tMCAO, infarct volume and immunohistochemical analyses were performed. The combinatio",
+            "classification": {
+              "study_type": "Animal Study (In Vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17904110",
+            "title": "Prevention of neuronal damage by calcium channel blockers with antioxidative effects after transient focal ischemia in rats.",
+            "authors": [
+              "Lukic-Panin Violeta",
+              "Kamiya Tatsushi",
+              "Zhang Hanzhe",
+              "Hayashi Takeshi",
+              "Tsuchiya Atsushi"
+            ],
+            "journal": "Brain research",
+            "year": "2007",
+            "abstract": "Cerebral ischemia is a major leading cause of death and at the first place cause of disability all over the world. There are a lot of drugs that are in experimental stage for treatment of stroke. Among them are calcium channel blockers (CCBs) that have, in animal models, different effectiveness in healing of ischemic damage in brain. Mechanism of CCBs' action in cerebral ischemia is still unclear, but antioxidative property is supposed to be implicated. In the present study, we investigated anti",
+            "classification": {
+              "study_type": "Animal Study (In Vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17070425",
+            "title": "Amlodipine treatment reduces stroke size in apolipoprotein E-deficient mice.",
+            "authors": [
+              "Mogi Masaki",
+              "Iwai Masaru",
+              "Chen Rui",
+              "Iwanami Jun",
+              "Ide Ayumi"
+            ],
+            "journal": "American journal of hypertension",
+            "year": "2006",
+            "abstract": "This study investigated the effects of amlodipine, an L-type calcium channel blocker, on stroke size after focal brain ischemia in apolipoprotein E-deficient (ApoE KO) mice.",
+            "classification": {
+              "study_type": "Animal Study (In Vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21276424",
+            "title": "Protection against ischemic stroke damage by synergistic treatment with amlodipine plus atorvastatin in Zucker metabolic rat.",
+            "authors": [
+              "Kawai Hiromi",
+              "Deguchi Shoko",
+              "Deguchi Kentaro",
+              "Yamashita Toru",
+              "Ohta Yasuyuki"
+            ],
+            "journal": "Brain research",
+            "year": "2011",
+            "abstract": "Ischemic stroke is a major neurologic disorder and a leading cause of disability and death in the world. We compared neuroprotective effects of single or combination therapy of amlodipine (AM) and atorvastatin (AT) in such a metabolic syndrome model Zucker rat. The animals were pretreated with vehicle, AM, AT, or the combination of AM plus AT for 28days, and physical and serum parameters were analyzed, then 90min of transient middle cerebral artery occlusion (tMCAO), was performed followed by im",
+            "classification": {
+              "study_type": "Animal Study (In Vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amlodipine 具多重神經保護機轉：① 阻斷鈣離子超載 → 減少缺血性神經元凋亡；② 脂溶性結構賦予抗氧化能力 → 減少活性氧物種（ROS）損傷；③ 與 atorvastatin 合用呈現協同神經保護效果（多篇動物研究一致確認）。5 篇前臨床文獻（嚙齒類腦中風模型）直接驗證 Amlodipine 對腦缺血的保護效果，但目前無針對腦動脈阻塞的獨立人體臨床試驗。現有 5 個試驗均為血壓控制或頸動脈手術相關研究，非直接測試 Amlodipine 的神經保護效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9987865090370178,
+        "rank": 2354
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock syndrome 為極罕見遺傳症候群（SETBP1 基因突變），主要臨床表現為智能障礙與語言遲緩，與鈣離子通道調控無已知病理關聯。TxGNN 預測分數高（0.9988）可能源於知識圖譜中神經系統疾病節點的泛化連結，屬模型假陽性。無任何臨床或前臨床證據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "MRI defined brain infarct",
+      "txgnn": {
+        "score": 0.9985852241516112,
+        "rank": 2633
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03015311",
+            "title": "Strategy of Systolic Blood Pressure Intervention in the Elderly Hypertensive Patients: A Prospective Randomized Open-Label Blinded-Endpoint Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 8000,
+            "start_date": "2017-01-15",
+            "completion_date": "2021-12-31",
+            "brief_summary": "The Strategy of Blood Pressure Intervention in the Elderly Hypertensive Patients (STEP) is a 2-arm, multi-center, prospective, randomized, open-labeled, blinded-endpoint trial. The purpose of this trial is to test whether a treatment program aimed at reducing systolic blood pressure (SBP) to a lower goal (\\<130 mmHg, intensive treatment) than currently recommended (\\<150 mmHg, standard treatment) will reduce CVD risk among persons between 60-80 years of old. Furthermore, this trial will also exa",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "老年高血壓患者收縮壓介入策略（n=8000, NA phase, UNKNOWN status），可能以 MRI 腦梗塞為次要終點，但試驗狀態不明，且非 Amlodipine 直接研究"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MRI 定義腦梗塞（包含無症狀腦梗塞/白質病變）與長期高血壓密切相關，Amlodipine 的降壓機轉理論上可減少腦小血管病變累積。NCT03015311 為老年高血壓患者 BP 介入研究，樣本量龐大（n=8000），但試驗狀態不明（UNKNOWN）且非 Amlodipine 特定研究；無直接文獻支持，證據薄弱，建議暫不優先追蹤。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "ABri amyloidosis",
+      "txgnn": {
+        "score": 0.998448371887207,
+        "rank": 2828
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ABri 澱粉樣變性病為極罕見遺傳性腦病（ITM2B 基因突變），以血管壁 BRI2 蛋白切割片段沉積為特徵，與鈣離子通道無已知病理關聯。目前無合理治療機轉假說，亦無任何臨床或前臨床證據。高 TxGNN 分數（0.998）可能為知識圖譜腦血管病變節點的泛化連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn": {
+        "score": 0.9978805780410768,
+        "rank": 3571
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00134160",
+            "title": "The Study Comparing the Incidence of Cardiovascular Events Between High-dose ARB Monotherapy and Combination Therapy With ARB and Calcium Channel Blocker in Japanese Elderly Hypertensive Patients at High Cardiovascular Risk",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 1000,
+            "start_date": "2005-08",
+            "completion_date": "2010-05",
+            "brief_summary": "The purpose of this study is to investigate whether high-dose angiotensin II receptor blocker (ARB) monotherapy or combination therapy with ARB and calcium channel blockers is more effective in reducing the incidence of cardiovascular events in Japanese elderly high-risk hypertensive patients not adequately controlled by standard dose ARB alone.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "CASE-J 子研究：高劑量 ARB 單療法 vs 聯合療法（含 Amlodipine 對照組），Phase 4 已完成（n=1000），心腦血管事件為主要終點，直接涉及 Amlodipine 對照臂"
+            }
+          },
+          {
+            "nct_id": "NCT02699645",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT), Substudies: MRI, Cognitive",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1671,
+            "start_date": "2017-09-28",
+            "completion_date": "2025-08-27",
+            "brief_summary": "An investigator initiated and conducted, multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial to determine the effect of more intensive blood pressure control provided by a fixed low-dose combination blood pressure lowering pill (\"Triple Pill\") strategy on top of standard of care, on time to first occurrence of recurrent stroke in patients with a history of stroke due to intracerebral haemorrhage.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "TRIDENT Phase 3 已完成主試驗（n=1671），三聯降壓療法預防復發腦出血，為此適應症最直接的 Phase 3 RCT 證據；設計文件（PMID 34994269）確認試驗框架"
+            }
+          },
+          {
+            "nct_id": "NCT03785067",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) Cognitive Sub-Study",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2020-02-27",
+            "completion_date": "2021-02-03",
+            "brief_summary": "A Sub-Study of an investigator initiated and conducted, multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial (TRIDENT) to determine the effect of more intensive long-term blood pressure control, provided by a fixed low-dose combination blood pressure lowering pill (\"Triple Pill\") strategy on top of standard of care, for slowing memory decline as measured by Cambridge Neuropsychological Test Automated Battery (CANTAB), in patients with a hist",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "TRIDENT 認知子研究（PHASE3, TERMINATED, n=1），已因樣本量不足終止，提供背景情境但無實質數據"
+            }
+          },
+          {
+            "nct_id": "NCT03783754",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease EveNts Trial (TRIDENT) MRI Sub-study",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2018-08-09",
+            "completion_date": "2021-03-21",
+            "brief_summary": "TRIDENT Main Study:\n\nTRIDENT is a multicentre, international, double-blinded, placebo-controlled, parallel-group, randomised controlled trial of a fixed low-dose combination BP-lowering pill (\"Triple Pill\") strategy on top of standard of care, in patients with a history of acute intracerebral haemorrhage (ICH) and systolic blood pressure (SBP) levels defined as 'high normal to borderline high', and on either minimal or no BP-lowering treatment according to current guidelines.\n\nMRI Sub-Study Cent",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "TRIDENT MRI 子研究（TERMINATED, n=4），已終止，與主試驗配套設計，提供影像生物標記背景"
+            }
+          },
+          {
+            "nct_id": "NCT03264352",
+            "title": "Intervention for High-normal Blood Pressure in Adults With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 11414,
+            "start_date": "2018-02-01",
+            "completion_date": "2025-09",
+            "brief_summary": "Lowering of blood pressure (BP) in high-risk hypertensive individuals reduces major adverse cardiovascular and cerebrovascular events. Diabetic patients with hypertension benefit from BP lowering treatment. The present trial, IPAD in brief, is a randomized, open-label, parallel-designed, multicenter study involving nearly 12,000 patients to be recruited and to be followed up for a median of four years. IPAD tests the hypothesis that antihypertensive medications in adults with type 2 diabetes, wh",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "第 2 型糖尿病高正常血壓介入（PHASE4, RECRUITING, n=11414），一般心血管預防研究，非 ICH 特異性"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19299323",
+            "title": "Probable amlodipine-induced angioedema.",
+            "authors": [
+              "Southward Jessica",
+              "Irvine Elizabeth",
+              "Rabinovich Marina"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2009",
+            "abstract": "To report a case of angioedema likely associated with amlodipine administration in a patient with a right thalamic hemorrhagic stroke.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34994269",
+            "title": "Triple Therapy Prevention of Recurrent Intracerebral Disease Events Trial: Rationale, design and progress.",
+            "authors": [
+              "Anderson Craig S",
+              "Rodgers Anthony",
+              "de Silva H Asita",
+              "Martins Sheila Ouriques",
+              "Klijn Catharina Jm"
+            ],
+            "journal": "International journal of stroke : official journal of the International Stroke Society",
+            "year": "2022",
+            "abstract": "Patients who suffer intracerebral hemorrhage (ICH) are at very high risk of recurrent ICH and other serious cardiovascular events. A single-pill combination (SPC) of blood pressure (BP) lowering drugs offers a potentially powerful but simple strategy to optimize secondary prevention.",
+            "classification": {
+              "study_type": "RCT Protocol / Design Paper",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37489780",
+            "title": "Tizanidine Induced Hypotension: Report of a Case and Review of the Literature.",
+            "authors": [
+              "Mahajan Roopali",
+              "Kalita Jayantee"
+            ],
+            "journal": "Current drug safety",
+            "year": "2024",
+            "abstract": "Spasticity is a common sequelae of stroke, and often these patients receive anti-spastic drugs such as baclofen or tizanidine. Stroke patients have multiple co-morbidities such as hypertension, diabetes, and seizure. Tizanidine is an α2 and imidazole receptor agonist at a spinal and supraspinal level resulting in reduced central sympathetic outflow and causing hypotension rarely, especially in those receiving beta-blockers or angiotensin-converting enzyme inhibitors.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23053838",
+            "title": "Is β-blocker (atenolol) a preferred antihypertensive in acute intracerebral hemorrhage?",
+            "authors": [
+              "Kalita Jayantee",
+              "Misra Usha Kant",
+              "Kumar Bishwanath"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2013",
+            "abstract": "The mortality in intracerebral hemorrhage (ICH) is mainly due to raised intracranial pressure, and its complications mediated by sympathetic overactivity. There is paucity of studies evaluating the role of β-blockers in the outcome of ICH. This study reports the role of atenolol in reducing mortality, pneumonia, systemic inflammatory response syndrome (SIRS), and 3 months outcome in the patients with hypertensive ICH. 138 consecutive patients with hypertensive ICH were included and their stroke ",
+            "classification": {
+              "study_type": "Comparative Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3154329",
+            "title": "Calcium channel antagonists. Part III: Use and comparative efficacy in hypertension and supraventricular arrhythmias. Minor indications.",
+            "authors": [
+              "Opie L H"
+            ],
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "1988",
+            "abstract": "The major antihypertensive mechanism of calcium antagonists is by decreasing the systemic vascular resistance, modified by the counter-regulatory responses of the baroreflexes and the renin-angiotensin-aldosterone system. In severe hypertension, the concept that calcium overload of the vascular myocyte could precipitate or aggravate peripheral vasoconstriction provides a logical basis for the use of these agents as first choice therapy; nifedipine, especially, has been well tested. As monotherap",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14717341",
+            "title": "Candesartan Antihypertensive Survival Evaluation in Japan (CASE-J) trial of cardiovascular events in high-risk hypertensive patients: rationale, design, and methods.",
+            "authors": [
+              "Fukui Tsuguya",
+              "Rahman Mahbubur",
+              "Hayashi Koichi",
+              "Takeda Kazuo",
+              "Higaki Jitsuo"
+            ],
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2003",
+            "abstract": "Hypertension continues to be a major public health issue in the world. To combat this problem, many anti-hypertensive drugs have been developed and proven effective at controlling blood pressure in the last half century. In recent decades, antihypertensive drugs have been shown to have cardiovascular benefits beyond the reduction of blood pressure, and the focus has shifted to clarification of these effects. Angiotensin II receptor antagonists and calcium channel blockers are the most widely use",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26698202",
+            "title": "Posterior reversible encephalopathy syndrome (PRES) after bariatric surgery--a potential consequence associated with rapid withdrawal of antihypertensive medications.",
+            "authors": [
+              "Stanford Fatima Cody",
+              "Pratt Janey S",
+              "Meireles Ozanan R",
+              "Bredella Miriam A"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2015",
+            "abstract": "A 61-year-old woman with a medical history of intracerebral haemorrhage, hypertension, hyperlipidaemia and carotid stenosis presented to the emergency department with altered mental status 3 weeks after undergoing a vertical sleeve gastrectomy for severe obesity. She presented with a hypertensive emergency and a National Institutes of Health Stroke Scale of 4. CT of the head was unrevealing. MRI showed an abnormal signal within the bilateral posterior border-zone areas, with several foci in the ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17077518",
+            "title": "Effects of benidipine, a long-lasting dihydropyridine-Ca2+ channel blocker, on cerebral blood flow autoregulation in spontaneously hypertensive rats.",
+            "authors": [
+              "Ikeda Jun-ichi",
+              "Yao Kozo",
+              "Matsubara Masahiro"
+            ],
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2006",
+            "abstract": "Chronic hypertension shifts cerebral blood flow (CBF) autoregulation towards higher blood pressure. We examined whether or not benidipine, a long-lasting dihydropyridine calcium channel blocker (CCB), improves the CBF autoregulation in spontaneously hypertensive rats (SHRs). CBF was analyzed by laser-Doppler flowmetry during stepwise hypotension by controlled bleeding. The lower limit of CBF autoregulation was calculated as the mean arterial blood pressure at which CBF decreased by 10% of the ba",
+            "classification": {
+              "study_type": "Clinical/Pharmacological Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amlodipine 在腦出血（ICH）中的核心角色為次級預防中的血壓管理。病理機轉：① 強化血壓控制（SBP < 130 mmHg）顯著降低復發 ICH 風險；② TRIDENT 三聯降壓療法（Triple Therapy）直接以含 Amlodipine 之 CCB 方案預防復發 ICH；③ CASE-J 試驗直接比較 Amlodipine vs Candesartan 對日本高血壓患者心腦血管事件影響。⚠️ 重要限制：① Amlodipine 不建議用於急性期 ICH 降壓（急性期偏好靜脈注射降壓劑）；② PMID 19299323 記錄 Amlodipine 誘發血管性水腫不良反應，需列入安全監控。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "cerebral artery occlusion"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "cerebral artery occlusion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "cerebral artery occlusion"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "MRI defined brain infarct"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "MRI defined brain infarct"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "MRI defined brain infarct"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "ABri amyloidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "ABri amyloidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "ABri amyloidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amlodipine",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    }
+  ]
+}

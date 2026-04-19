@@ -1,0 +1,905 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01249-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Iodixanol",
+    "drugbank_id": "DB01249",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn": {
+        "score": 0.9915993213653564,
+        "rank": 9324
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純 TxGNN 預測，無任何文獻或試驗支持。疾病易感性基因位點（如 GDF5、ALDH1A2）與 Iodixanol 之間無已知藥理交互作用。高分可能源於 KG 中 OA 疾病群集效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "osteoarthritis",
+      "txgnn": {
+        "score": 0.9906967878341676,
+        "rank": 10027
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40155520",
+            "title": "Dual-Contrast Agent with Nanoparticle and Molecular Components in Photon-Counting Computed Tomography: Assessing Articular Cartilage Health.",
+            "authors": [
+              "Paakkari Petri",
+              "Inkinen Satu I",
+              "Jäntti Jiri",
+              "Tuppurainen Juuso",
+              "Fugazzola Maria C"
+            ],
+            "journal": "Annals of biomedical engineering",
+            "year": "2025",
+            "abstract": "Photon-counting detectors (PCDs) are cutting-edge technology that enable spectral computed tomography (CT) imaging with a single scan. Spectral imaging is particularly effective in contrast-enhanced CT (CECT) imaging, especially when multiple contrast agents are utilized, as materials are distinguishable based on their unique X-ray absorption. One application of CECT is joint imaging, where it assesses the structure and composition of articular cartilage soft tissue. This evaluates articular car",
+            "classification": {
+              "study_type": "Imaging/Diagnostic Method",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39012563",
+            "title": "Revealing Detailed Cartilage Function Through Nanoparticle Diffusion Imaging: A Computed Tomography & Finite Element Study.",
+            "authors": [
+              "Tuppurainen Juuso",
+              "Paakkari Petri",
+              "Jäntti Jiri",
+              "Nissinen Mikko T",
+              "Fugazzola Maria C"
+            ],
+            "journal": "Annals of biomedical engineering",
+            "year": "2024",
+            "abstract": "The ability of articular cartilage to withstand significant mechanical stresses during activities, such as walking or running, relies on its distinctive structure. Integrating detailed tissue properties into subject-specific biomechanical models is challenging due to the complexity of analyzing these characteristics. This limitation compromises the accuracy of models in replicating cartilage function and impacts predictive capabilities. To address this, methods revealing cartilage function at th",
+            "classification": {
+              "study_type": "Diagnostic Imaging Research",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28063646",
+            "title": "Solute transport at the interface of cartilage and subchondral bone plate: Effect of micro-architecture.",
+            "authors": [
+              "Pouran Behdad",
+              "Arbabi Vahid",
+              "Bleys Ronald Law",
+              "René van Weeren P",
+              "Zadpoor Amir A"
+            ],
+            "journal": "Journal of biomechanics",
+            "year": "2017",
+            "abstract": "Cross-talk of subchondral bone and articular cartilage could be an important aspect in the etiology of osteoarthritis. Previous research has provided some evidence of transport of small molecules (~370Da) through the calcified cartilage and subchondral bone plate in murine osteoarthritis models. The current study, for the first time, uses a neutral diffusing computed tomography (CT) contrast agent (iodixanol, ~1550Da) to study the permeability of the osteochondral interface in equine and human s",
+            "classification": {
+              "study_type": "Biomechanics/Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30145230",
+            "title": "Aging does not change the compressive stiffness of mandibular condylar cartilage in horses.",
+            "authors": [
+              "Mirahmadi F",
+              "Koolstra J H",
+              "Fazaeli S",
+              "Lobbezoo F",
+              "van Lenthe G H"
+            ],
+            "journal": "Osteoarthritis and cartilage",
+            "year": "2018",
+            "abstract": "Aging can cause an increase in the stiffness of hyaline cartilage as a consequence of increased protein crosslinks. By induction of crosslinking, a reduction in the diffusion of solutions into the hyaline cartilage has been observed. However, there is a lack of knowledge about the effects of aging on the biophysical and biochemical properties of the temporomandibular joint (TMJ) cartilage. Hence, the aim of this study was to examine the biophysical properties (thickness, stiffness, and diffusion",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30374787",
+            "title": "Iodine contrast agents do not influence Platelet-Rich Plasma function at an early time point in vitro.",
+            "authors": [
+              "Dallaudiere B",
+              "Crombé A",
+              "Gadeau A P",
+              "Pesquer L",
+              "Peuchant A"
+            ],
+            "journal": "Journal of experimental orthopaedics",
+            "year": "2018",
+            "abstract": "Iodine contrast agents (ICAs) are routinely used by radiologists to help guide intra-articular infiltrations. The aim of this study was to assess the in vitro effects of ICA on platelet function of human autologous Platelet-Rich Plasma (PRP).",
+            "classification": {
+              "study_type": "In vitro study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27793406",
+            "title": "Neutral solute transport across osteochondral interface: A finite element approach.",
+            "authors": [
+              "Arbabi Vahid",
+              "Pouran Behdad",
+              "Weinans Harrie",
+              "Zadpoor Amir A"
+            ],
+            "journal": "Journal of biomechanics",
+            "year": "2016",
+            "abstract": "Investigation of the solute transfer across articular cartilage and subchondral bone plate could nurture the understanding of the mechanisms of osteoarthritis (OA) progression. In the current study, we approached the transport of neutral solutes in human (slight OA) and equine (healthy) samples using both computed tomography and biphasic-solute finite element modeling. We developed a multi-zone biphasic-solute finite element model (FEM) accounting for the inhomogeneity of articular cartilage (su",
+            "classification": {
+              "study_type": "Computational/Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28518064",
+            "title": "An Experimental and Finite Element Protocol to Investigate the Transport of Neutral and Charged Solutes across Articular Cartilage.",
+            "authors": [
+              "Arbabi Vahid",
+              "Pouran Behdad",
+              "Zadpoor Amir A",
+              "Weinans Harrie"
+            ],
+            "journal": "Journal of visualized experiments : JoVE",
+            "year": "2017",
+            "abstract": "Osteoarthritis (OA) is a debilitating disease that is associated with degeneration of articular cartilage and subchondral bone. Degeneration of articular cartilage impairs its load-bearing function substantially as it experiences tremendous chemical degradation, i.e. proteoglycan loss and collagen fibril disruption. One promising way to investigate chemical damage mechanisms during OA is to expose the cartilage specimens to an external solute and monitor the diffusion of the molecules. The degre",
+            "classification": {
+              "study_type": "Biomechanics/Computational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Iodixanol 廣泛用於關節造影術（arthrography）及軟骨 CT 評估，知識圖譜因此建立強烈關聯。文獻顯示其作為研究工具評估軟骨溶質傳輸與結構，但均屬診斷/生物力學應用，無治療性機轉假說。PMID 30374787 顯示碘顯影劑不干擾關節內 PRP 功能，此為安全性相容資料，非療效證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9900272488594056,
+        "rank": 10515
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36628042",
+            "title": "Successful Desensitization to the Radiocontrast Material Iohexol (Omnipaque™).",
+            "authors": [
+              "Saad Abeer",
+              "Mahdi Asmaa S",
+              "Nasr Iman"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "Adverse reactions to radiocontrast media (RCM) are rare and occur predominantly in association with intravenous administration but may also occur with intra-arterial and nonvascular injections (e.g., retrograde pyelography, intra-articular injections) of RCM. This article reports the case of a 52-year-old lady who was known to have amyloidosis secondary to rheumatoid arthritis and was on regular renal replacement therapy. She was under follow-up for regular angioplasties to manage the central ve",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RA 為自體免疫疾病，標準治療為 DMARDs/生物製劑，Iodixanol 無已知免疫調節機轉。唯一文獻為 Iohexol（非 Iodixanol）脫敏成功案例，屬對顯影劑過敏的管理，與 RA 治療毫無關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hemoglobinopathy",
+      "txgnn": {
+        "score": 0.9857248067855836,
+        "rank": 13757
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28801805",
+            "title": "Pulmonary CTA in sickle cell patients: quantitative assessment of enhancement quality.",
+            "authors": [
+              "Jensen Jeff",
+              "Lin Tony",
+              "Fishman Elliot K",
+              "Johnson Pamela T"
+            ],
+            "journal": "Emergency radiology",
+            "year": "2017",
+            "abstract": "The purpose of this study was to validate the observation that pulmonary artery (PA) enhancement is often decreased in sickle cell disease (SCD) patients imaged with MDCT for suspected pulmonary embolism and determine whether contrast infusion parameters are accountable for lower enhancement levels.",
+            "classification": {
+              "study_type": "Retrospective Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11754395",
+            "title": "Comparison of the effects of radiographic contrast media on dehydration and filterability of red blood cells from donors homozygous for hemoglobin A or hemoglobin S.",
+            "authors": [
+              "Losco P",
+              "Nash G",
+              "Stone P",
+              "Ventre J"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2001",
+            "abstract": "Iodinated radiographic contrast media have traditionally been contraindicated in patients with sickle cell disease because their high osmolality may induce osmotic shrinkage of red blood cells, impair blood flow through the microcirculation, and precipitate or exacerbate a sickle cell crisis. This study investigated that concept by comparing the hematological and rheological effects in vitro of four X-ray contrast media of differing osmolalities: Visipaque (290 mOsm/kg), Hexabrix (600 mOsm/kg), ",
+            "classification": {
+              "study_type": "In vitro/Ex vivo Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Iodixanol 之等滲透壓特性（290 mOsm/kg）使其在血紅蛋白病變（尤其鐮刀型紅血球貧血症）患者接受顯影劑檢查時具安全優勢——避免高滲透壓造成紅血球脫水與鐮刀化。此為診斷安全性優化，而非治療性干預。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9848376512527466,
+        "rank": 14298
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊椎短縮發育不良，為遺傳性骨骼發育異常（多涉及 TRPV4、SLC26A2 基因），Iodixanol 無已知相關機轉。TxGNN 高分可能反映 KG 中骨骼發育異常疾病群集效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9837766289711,
+        "rank": 14941
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GDF5 基因突變導致之中肢型短肢發育不良，為極罕見遺傳性骨骼疾病。Iodixanol 與 GDF5/BMP 信號通路無已知交互作用。零文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9836454391479492,
+        "rank": 15013
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見多器官發育異常症候群，涉及眼部與骨骼發育缺陷，致病機轉與 Iodixanol 完全無關。TxGNN 預測無生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.983580768108368,
+        "rank": 15052
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "合併脊椎短縮與琺瑯質發育不全之罕見遺傳症候群，與 Iodixanol 之碘化顯影劑特性毫無已知藥理關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "myosclerosis",
+      "txgnn": {
+        "score": 0.9829478859901428,
+        "rank": 15495
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "進行性肌肉纖維化疾病，為罕見骨骼肌疾病，與 Iodixanol 無已知機轉關聯。KG 預測可能源於「肌肉骨骼」疾病群集的非特異性關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.9827066659927368,
+        "rank": 15633
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "COMP 基因突變導致之骨骼發育不良，影響軟骨細胞外基質。雖然 Iodixanol 廣泛用於骨骼影像診斷，但無任何治療性干預機轉假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodixanol",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

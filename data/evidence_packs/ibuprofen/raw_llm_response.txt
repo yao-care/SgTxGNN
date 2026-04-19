@@ -1,0 +1,178 @@
+## 藥物再利用證據分析：Ibuprofen (DB01050)
+
+**分析摘要**：所有 10 個適應症均無臨床試驗或文獻支持，僅有 TxGNN 計算預測分數。儘管 Ibuprofen 為已知 NSAIDs（COX-1/COX-2 抑制劑），但在這 10 個罕見疾病適應症上，預測高分源自知識圖譜結構相似性，而非真實臨床證據。
+
+---
+
+```json
+{
+  "drug": "Ibuprofen",
+  "drugbank_id": "DB01050",
+  "analysis_date": "2026-04-04",
+  "drug_context_note": "Ibuprofen 為廣泛使用之非選擇性 COX-1/COX-2 抑制劑 NSAID，具抗炎、鎮痛、退熱作用。雖全球廣泛上市，但本專案標記為「未上市」（可能為特定地區登記狀態），MOA 標記為 [Data Gap] 屬資料缺漏。",
+  "indications": [
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此病為 GDF5/CDMP1 基因突變所致罕見骨骼發育異常（肢端中間節短小）。Ibuprofen 作為 COX 抑制劑，理論上可緩解骨骼發育異常伴隨的關節炎症疼痛，但無法修正遺傳缺陷。TxGNN 高分可能源自知識圖譜中骨骼疾病節點的結構相似性，而非直接藥理機轉。缺乏任何臨床或實驗室證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "罕見骨骼發育異常，兒童族群為主；NSAID 在兒童長期使用需特別謹慎"
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見症候群，同時具有短脊柱（brachyolmia）及琺瑯質發育不全（amelogenesis imperfecta）。目前致病基因機轉尚不完全清楚（可能涉及 FAM20A）。Ibuprofen 的 COX 抑制機轉對骨/牙齒發育缺陷無已知修正能力。TxGNN 預測可能為假陽性——源自圖譜中稀有骨病節點聚類效應。無任何支持性證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "疾病機轉不明，缺乏研究基礎，不建議作為優先研究問題"
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肌硬化症為罕見纖維化肌肉疾病，以進行性肌肉纖維化取代正常肌纖維為特徵。Ibuprofen 的抗炎機轉（COX 抑制 → PGE2 降低）理論上可能抑制纖維化過程中的炎症反應，且有研究指出 NSAIDs 對其他纖維化疾病有限度的抑制效果。此為所有 10 個適應症中機轉關聯性相對最高者，但仍缺乏直接實驗或臨床證據，屬可探索的研究問題。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "纖維化疾病中長期 NSAID 使用可能有腎毒性風險；需前期體外/動物試驗確認"
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短脊柱症為遺傳性骨骼發育異常（TRPV4、PAPSS2 等基因突變），以脊椎扁平及短軀幹為特徵。Ibuprofen 無法修正軟骨/骨骼遺傳發育缺陷，症狀性鎮痛應用雖有理論可能，但此屬支持性對症治療，非再利用意義。TxGNN 高分反映骨骼疾病知識圖譜聚類，不代表直接治療關係。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "非真正再利用機會，僅為對症使用範疇"
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短趾/並趾症候群為先天性肢端畸形，涉及 HOXD 等發育調控基因。屬形態學發育缺陷，Ibuprofen 之 COX 抑制機轉對已形成的解剖畸形無治療價值。知識圖譜中的骨骼畸形節點相似性可能導致此預測。無證據支持，不具再利用可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "先天結構畸形，藥物治療無合理作用機轉"
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偽軟骨發育不全症為 COMP 基因突變導致軟骨寡聚基質蛋白異常折疊，引發內質網壓力及軟骨細胞凋亡。雖有研究探討抗氧化劑或蛋白質折疊輔助劑（如 resveratrol）的治療可能，Ibuprofen 之 COX 抑制機轉缺乏直接干預 COMP 錯誤折疊的理論基礎。TxGNN 高分屬骨骼疾病聚類假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "內質網壓力通路為主要靶點，COX 抑制劑與此通路無直接關聯"
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見症候群，同時具眼部（脈絡膜缺損/小眼）及骨骼（根端骨骼發育異常）異常，遺傳機轉複雜（可能涉及 ALDH1A3）。Ibuprofen 無已知干預視網膜/眼部發育或骨骼形態發生的機轉。此為最缺乏機轉合理性的預測之一。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "涉及眼部發育缺陷，系統性 NSAID 使用對眼壓等有潛在風險"
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "頭皮單純性少毛症（CDSN 基因突變）為遺傳性脫髮。值得注意的是，前列腺素（尤其是 PGD2 和 PGE2）在毛囊週期調節中具重要角色——PGD2 抑制毛髮生長，PGE2 有促進效果。Ibuprofen 作為 COX 抑制劑影響 PGD2/PGE2 平衡，理論上可能影響毛囊生理，但實際作用方向和強度不確定。此為本列表中機轉關聯性第二高者，可列為低優先探索性研究問題。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "前列腺素對毛囊的影響複雜，COX 抑制可能同時抑制保護性 PGE2"
+    },
+    {
+      "disease_name": "WHIM syndrome",
+      "txgnn_score": 0.9843,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "WHIM 症候群（疣、低丙種球蛋白血症、感染、骨髓粒細胞滯留）為 CXCR4 功能增益突變所致。主要治療靶點為 CXCR4 拮抗（如 plerixafor）。Ibuprofen 雖有輕度免疫調節作用，但 COX 抑制機轉與 CXCR4 通路無直接關聯。在免疫功能已低下的 WHIM 患者中，抑制炎症反應可能有安全顧慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "免疫功能不全患者使用 NSAID 需謹慎；抑制炎症可能加重感染易感性"
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9831,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛症合併粟粒疹（HR 基因突變），影響毛囊發育及皮脂腺功能。雖與 hypotrichosis simplex 同屬脫髮類疾病且有前列腺素路徑的理論關聯，但 HR 基因突變的主要機轉為轉錄調控（作用於 Wnt 通路），COX 抑制劑對此通路無直接影響。相較 hypotrichosis simplex，此適應症機轉關聯性更弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flag": "基因轉錄層面缺陷，小分子 COX 抑制劑無法干預"
+    }
+  ],
+  "overall_summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_stage_distribution": {
+      "S0": 10,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0
+    },
+    "recommendation_distribution": {
+      "Hold": 8,
+      "Research Question": 2,
+      "Proceed with Guardrails": 0
+    },
+    "key_findings": [
+      "所有 10 個適應症均屬 L5 等級——僅有 TxGNN 計算預測，無任何臨床試驗或文獻支持",
+      "高 TxGNN 分數（0.983-0.997）可能反映知識圖譜中骨骼/罕見疾病節點的結構聚類效應，而非真實藥理關聯",
+      "10 個適應症中 8 個為罕見遺傳骨骼發育異常，Ibuprofen 的 COX 抑制機轉與其遺傳致病機轉缺乏合理連結",
+      "myosclerosis（纖維化抗炎）和 hypotrichosis simplex（前列腺素-毛囊軸）具有相對最高機轉合理性，可列為低優先度研究問題",
+      "市場狀態標記「未上市」及 MOA [Data Gap] 屬資料品質問題，應優先修正資料正確性"
+    ],
+    "data_quality_issues": [
+      "Ibuprofen 為全球廣泛上市藥物，「未上市」標記可能為特定地區登記缺漏，建議核查",
+      "original_moa [Data Gap] 屬資料缺漏，Ibuprofen 的 COX-1/COX-2 抑制機轉有充分文獻記載",
+      "original_indications 為空陣列，Ibuprofen 實際已核准適應症（疼痛、發熱、炎症）應予補全",
+      "ddi_count = 0 明顯不符——Ibuprofen 已知藥物交互作用超過 200 種，資料管線可能有缺失"
+    ],
+    "priority_actions": [
+      "【緊急】修正資料品質問題：上市狀態、MOA、核准適應症、DDI 資料",
+      "【低優先度研究問題】myosclerosis：設計前期體外試驗（COX 抑制對肌纖維母細胞的效果）",
+      "【低優先度研究問題】hypotrichosis simplex：文獻回顧前列腺素路徑在 CDSN 突變毛囊中的角色",
+      "其餘 8 個適應症建議維持 Hold 狀態，待 TxGNN 模型進一步驗證後重新評估"
+    ]
+  }
+}
+```
+
+---
+
+### 📊 分析說明
+
+| 面向 | 觀察 |
+|------|------|
+| **預測分數偏高的原因** | TxGNN 知識圖譜中，Ibuprofen 連結許多骨骼/炎症相關節點，罕見骨骼疾病節點在圖譜中高度聚集，導致結構相似性驅動的高分預測 |
+| **最大風險** | L5 高分可能誤導資源分配——這 10 個適應症的預測分數比許多有實際臨床試驗的再利用候選更高 |
+| **最值得後續的候選** | ①Myosclerosis（抗纖維化機轉）②Hypotrichosis simplex（PGD2/PGE2 毛囊調節）|
+| **資料修正優先** | 修正上市狀態、補全 MOA 及核准適應症，可能影響 TxGNN 後續預測結果 |
+
+> ⚠️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。老藥新用候選需經過完整臨床驗證才能應用。

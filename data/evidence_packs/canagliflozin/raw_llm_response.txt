@@ -1,0 +1,197 @@
+## ⚠️ 資料品質警示
+
+在分析前需標記一個重要的資料異常：**Canagliflozin（DB08907，Invokana）實際上是已核准上市的 SGLT2 抑制劑**，廣泛用於 2 型糖尿病、心血管保護及糖尿病腎病。資料中顯示「未上市」、`original_indications: []` 及 `original_moa: "[Data Gap]"` 屬於**資料管線缺漏**，不反映真實藥物狀態，建議優先修正資料源映射問題。
+
+---
+
+## 藥物再利用證據分析報告
+
+**藥物：Canagliflozin（DB08907）**  
+**作用機轉（實際）：** SGLT2 抑制劑 → 抑制腎臟近曲小管葡萄糖再吸收 → 降血糖、降尿酸、減重、降血壓、心腎保護
+
+---
+
+```json
+{
+  "drug": "Canagliflozin",
+  "drugbank_id": "DB08907",
+  "data_quality_flag": {
+    "issue": "market_status顯示未上市為資料缺漏，Canagliflozin實為已核准SGLT2抑制劑",
+    "actual_approved_indications": [
+      "Type 2 Diabetes Mellitus",
+      "Cardiovascular Risk Reduction (CANVAS trial)",
+      "Diabetic Kidney Disease (CREDENCE trial)"
+    ],
+    "actual_moa": "SGLT2 inhibitor - renal glucose/sodium cotransporter blockade"
+  },
+  "indications": [
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9792,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局灶性僵硬肢體症候群為 Stiff Person Syndrome（SPS）的亞型，屬自體免疫性神經疾病，以 GAD65/amphiphysin 抗體介導的 GABAergic 神經元功能異常為主。SGLT2 抑制劑雖具有抗氧化壓力、NF-κB 路徑調節等間接抗炎效果，但無任何文獻提示對 GABAergic 系統或 SPS 特異性抗體有直接影響。高 TxGNN 分數可能反映知識圖譜中「代謝-免疫」共病節點的拓撲相似性，而非真實機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "TxGNN 高分（~0.979）但零臨床支撐，需警惕模型對罕見自體免疫病的過度預測傾向"
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9792,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "經典 SPS 以 anti-GAD65 抗體（>80% 患者）、脊髓 GABA 傳遞障礙及共病 T1DM（約 30-40%）為特徵。雖 SGLT2i 用於 T1DM 已有研究（如 DEPICT 試驗），但針對 SPS 神經免疫成分（GABA 路徑、GAD65 抗體滴度）無任何已知藥理機轉。與 focal SPS 評分完全相同提示模型未區分亞型。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "Classic SPS 與 T1DM 的共病關係是 TxGNN 分數偏高的可能知識圖譜解釋，但這不等同於治療證據"
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9781,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 為 INPPL1 基因突變導致的極罕見骨骼發育不良（全球報告 <50 例），機轉為 SHIP2（肌醇磷酸酶）功能缺失 → PI3K/Akt 過度活化 → 軟骨形成異常。SGLT2i 與 PI3K/mTOR 路徑有間接交互，但影響方向與骨骼發育的相關性極為薄弱。無任何臨床或前臨床證據支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "超罕見遺傳性骨骼病，SGLT2i 機轉連結高度投機，建議不列入再利用優先清單"
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9770,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群（SLC19A2 基因突變，亦稱 Rogers syndrome）特徵為硫胺素（VB1）反應性巨細胞貧血、糖尿病及感音神經性耳聾三聯症。其核心為細胞硫胺素轉運缺陷導致的粒線體能量代謝障礙。SGLT2i 雖影響細胞能量感測（AMPK 活化），但無任何機轉邏輯表明其能補救 SLC19A2 功能缺失或硫胺素轉運。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "罕見遺傳代謝病，治療根本是補充高劑量硫胺素，SGLT2i 無法取代基因/輔酶治療"
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9659,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物誘發局部脂肪萎縮（常見於胰島素注射部位）涉及局部機械/免疫損傷 → 脂肪細胞凋亡或纖維化。SGLT2i 對全身性脂肪代謝有影響（減少內臟脂肪、輕度改善脂肪分布），但此類局部性病灶的病生理機轉（注射部位炎症反應、皮下組織重塑）並非 SGLT2 軸線可調控。值得注意：SGLT2i 可能自身引起非典型泌尿道相關的皮膚問題（Fournier's gangrene），方向相反。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "SGLT2i 全身脂肪效應≠局部脂肪萎縮治療，勿混淆機轉；安全性亦需評估皮膚副作用"
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9643,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "離心性脂肪萎縮（Centrifugal Lipodystrophy，亦稱 Lipodystrophia centrifugalis abdominalis infantilis，LCAI）好發於亞洲兒童，以腹部皮下脂肪進行性向心性萎縮為特徵，病因未明（可能涉及輕度炎症/自體免疫）。SGLT2i 在兒科使用數據極為有限（FDA 核准限 ≥18 歲用於 T2DM），且無任何機轉路徑支持此用途。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "兒科罕見皮膚病，SGLT2i 兒科安全性資料不足，更無效益機轉，建議直接排除"
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9633,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力性局部脂肪萎縮（如胰島素泵管處、義肢摩擦部位）為機械性壓迫導致的局部脂肪細胞損傷/缺血壞死。SGLT2i 無任何已知的局部組織保護、血管生成促進或機械性損傷修復機轉。三個局部脂肪萎縮亞型（drug-induced/centrifugal/pressure-induced）TxGNN 評分高度相似（0.963-0.966），提示模型在此疾病群集的預測可能源自共同表型節點，而非特定機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "三個脂肪萎縮亞型分數幾乎相同，高度懷疑為模型知識圖譜中的疾病群集效應（cluster artifact）"
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9616,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原因不明之局部脂肪萎縮為排除診斷，病因異質性極高。雖「不明原因」理論上允許更寬泛的治療假說，但 SGLT2i 的主要藥理靶點（腎 SGLT2 轉運蛋白、能量平衡、鈉鹽排泄）與局部皮下組織病理無明確連結。若未來發現炎症或代謝相關亞型，可重新評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "異質性疾病群，TxGNN 預測可能反映「代謝藥物 × 代謝相關皮膚病」的廣義節點連結"
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9604,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胰腺發育不全（主要由 PTF1A、PDX1、GATA6 突變）為先天性結構缺失，導致外分泌和內分泌胰腺功能完全缺如，引發新生兒糖尿病和吸收不良。SGLT2i 作用於功能正常的腎臟 SGLT2 受體，在胰腺先天缺失的情境下，雖可能提供腎性降糖效果作為胰島素輔助療法（類似 T1DM 管理），但此為症狀性替代方案而非再利用新發現，且兒科超說明書使用存在重大安全疑慮（DKA 風險）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "邏輯上有間接症狀管理價值（腎性降糖補充胰島素），但屬對症而非再利用；兒科 DKA 風險是主要障礙"
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.8237,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎（常與 Addison's disease、APS-1/APS-2 相關）機轉為 anti-steroidogenic cell 抗體（anti-P450scc、anti-17α-hydroxylase）攻擊卵泡膜/顆粒層細胞，導致卵巢衰竭。SGLT2i 具有有限的免疫調節效應（減少巨噬細胞浸潤、IL-1β/IL-6 下調，見於心腎模型），但對器官特異性自體抗體的抑制或 Treg/Th17 平衡的影響尚無任何卵巢相關研究。評分（0.824）明顯低於其他適應症，反映 TxGNN 模型自身的信心差異。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "expert_note": "10個適應症中唯一低於0.9的評分，且同屬完全無臨床支撐；APS相關共病（T1DM）可能是知識圖譜連結的來源"
+    }
+  ],
+  "summary": {
+    "overall_assessment": "全部 10 個適應症均為 L5/S0/Hold",
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "pattern_analysis": {
+      "disease_clusters": [
+        {
+          "cluster": "神經免疫（SPS亞型）",
+          "indications": ["focal stiff limb syndrome", "classic stiff person syndrome"],
+          "shared_note": "評分完全相同（0.9792），模型未分化亞型；T1DM共病可能是知識圖譜橋接節點"
+        },
+        {
+          "cluster": "局部脂肪萎縮",
+          "indications": ["drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"],
+          "shared_note": "4個亞型分數高度相似（0.961-0.966），典型疾病群集效應（cluster artifact）警示"
+        },
+        {
+          "cluster": "罕見代謝/遺傳病",
+          "indications": ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "pancreatic agenesis"],
+          "shared_note": "三者均為超罕見遺傳病，預測機轉連結極薄弱"
+        },
+        {
+          "cluster": "自體免疫",
+          "indications": ["autoimmune oophoritis"],
+          "shared_note": "最低分（0.824），APS/T1DM共病是可能的知識圖譜橋接"
+        }
+      ],
+      "model_artifact_warning": "所有高分預測（>0.96）均為罕見病且無任何臨床支撐，提示本批次 TxGNN 預測可能存在『罕見病高分偏差』現象，建議回顧模型訓練集中罕見疾病節點的特徵分布",
+      "data_pipeline_issue": "Canagliflozin 為已核准藥物但 original_indications 為空，original_moa 缺失，可能導致 TxGNN 基於不完整藥物特徵產生偏差預測，建議優先修復資料管線後重新預測"
+    },
+    "next_steps": [
+      "【緊急】修復 Canagliflozin 資料管線：補全 original_indications（T2DM、CVD、CKD）、original_moa（SGLT2 inhibitor）",
+      "【優先】重新執行 TxGNN 預測以獲得基於完整藥物特徵的結果",
+      "【評估】若重新預測後仍出現相同罕見病群，考慮調整稀有疾病節點的圖譜權重",
+      "【研究問題】Stiff Person Syndrome 中 SGLT2i 的免疫調節潛力值得小型文獻綜述，因 T1DM-SPS 共病率高（約30-40%），可能有真實機轉假說值得探索（但目前仍為 L5）"
+    ]
+  }
+}
+```
+
+---
+
+## 關鍵洞察摘要
+
+| 適應症群 | 評分範圍 | 警示標記 | 核心問題 |
+|---------|---------|---------|---------|
+| SPS 亞型 | 0.9792 × 2 | ⚠️ 評分完全相同 | 模型未區分亞型 + T1DM 橋接偽信號 |
+| 局部脂肪萎縮群 | 0.961–0.966 | ⚠️ 群集效應 | 4 個亞型高度相似，疑為 artifact |
+| 罕見遺傳代謝病 | 0.960–0.978 | 🔴 機轉薄弱 | 超罕見病，預測可信度低 |
+| 自體免疫卵巢炎 | 0.824 | ℹ️ 最低信心 | APS 共病橋接，無直接機轉 |
+
+**結論：** 本批次預測結果整體建議 **全部 Hold（S0）**，主要原因不僅是零臨床證據，更重要的是資料管線缺漏（已核准藥物被標記未上市）可能系統性影響預測品質。**修復資料來源是比探索這些適應症更優先的行動項目。**
+
+> ⚕️ 本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證後方可應用。

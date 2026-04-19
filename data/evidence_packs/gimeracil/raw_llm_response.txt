@@ -1,0 +1,317 @@
+## 藥物再利用證據分析：Gimeracil (DB09257)
+
+**⚠️ 重要背景說明：** Gimeracil 本身並無抗腫瘤活性，其臨床角色為 **DPD（二氫嘧啶脫氫酶）抑制劑**，是 S-1（Tegafur/Gimeracil/Oteracil，又稱 TS-1）複方的組成成分之一。下列臨床試驗均針對 S-1 複方，而非 Gimeracil 單一成分。
+
+---
+
+```json
+{
+  "drug_context": {
+    "note": "Gimeracil 為 S-1 複方 (tegafur:gimeracil:oteracil = 1:0.4:1) 之 DPD 抑制成分，本身無單獨上市，臨床證據均來自 S-1 複方研究。評估應視為『以 Gimeracil 為核心機轉之 S-1 複方』於各適應症之間接證據。"
+  },
+  "indications": [
+    {
+      "disease_name": "colonic neoplasm（大腸腫瘤）",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Gimeracil 抑制 DPD，阻斷 5-FU 降解代謝路徑，使 Tegafur 轉化之 5-FU 血中濃度維持穩定；大腸癌細胞高度依賴胸腺嘧啶合成酶（TS）通路，5-FU 為標準一線化療基礎。PMID 20811661 進一步確認 Irinotecan 可透過下調 DPD 表現克服 5-FU 抗藥，支持 DPD 抑制為結直腸癌關鍵機轉。",
+      "guardrails": [
+        "臨床試驗均為 S-1 複方研究，非 Gimeracil 單藥",
+        "NCT02216149 因冠狀動脈血流異常而終止，需監測心血管毒性",
+        "PMID 28414195 報告 TS-1 誘發紅皮病伴黏膜受損，需皮膚毒性監測",
+        "PMID 32936722 報告 S-1 誘發高三酸甘油酯血症，需代謝監測"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00660894",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 1535,
+          "relevance_grade": "A",
+          "reasoning": "直接相關：Stage III 大腸癌輔助化療，TS-1 vs UFT+LV 頭對頭 RCT，n=1535，完成狀態。為 Gimeracil 在大腸癌最強核心證據，提供長期存活數據。"
+        },
+        {
+          "nct_id": "NCT01918852",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 161,
+          "relevance_grade": "A",
+          "reasoning": "直接相關：轉移性大腸直腸癌一線治療，S-1 vs Capecitabine 頭對頭 Phase 3 RCT（SALTO 試驗），完成狀態，提供比較療效數據。"
+        },
+        {
+          "nct_id": "NCT03448549",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 1191,
+          "relevance_grade": "B",
+          "reasoning": "高度相關：SOX（S-1+Oxaliplatin）方案 Phase 3，n=1191 規模大，但狀態 UNKNOWN 無法確認結果。若完成可升為 A 級。"
+        },
+        {
+          "nct_id": "NCT00524706",
+          "phase": "PHASE1/2",
+          "status": "UNKNOWN",
+          "enrollment": 42,
+          "relevance_grade": "B",
+          "reasoning": "中度相關：SOL（S-1+Leucovorin+Oxaliplatin）Phase I/II，提供劑量安全性與初步療效，但狀態 UNKNOWN 且樣本小。"
+        },
+        {
+          "nct_id": "NCT00974389",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 40,
+          "relevance_grade": "B",
+          "reasoning": "中度相關：S-1 + Bevacizumab 於不可切除/復發大腸直腸癌，探索 S-1 與標靶藥物聯用，狀態不明。"
+        },
+        {
+          "nct_id": "NCT02618356",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 82,
+          "relevance_grade": "B",
+          "reasoning": "中度相關：Raltitrexed + S-1 於轉移性大腸直腸癌，探索不同 antifolate 組合，機轉互補性佳，但狀態不明。"
+        },
+        {
+          "nct_id": "NCT02216149",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 20,
+          "relevance_grade": "C",
+          "reasoning": "安全性警示：因冠狀動脈血流影響而提前終止，為重要安全訊號。與療效無直接關係，但提示心血管監測必要性。"
+        },
+        {
+          "nct_id": "NCT06255379",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 52,
+          "relevance_grade": "C",
+          "reasoning": "前瞻性訊號：Fuquinitinib（靶向 VEGFR）+ S-1 的新組合，尚未招募，代表 S-1 持續作為骨架藥物的研發方向，目前無結果。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "20811661",
+          "title": "Irinotecan overcomes resistance to 5-FU via DPD down-regulation",
+          "year": "2010",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": "1",
+          "note": "直接支持 DPD 抑制為大腸癌 5-FU 療效關鍵機轉，強化 Gimeracil 之機轉合理性。"
+        },
+        {
+          "pmid": "21875473",
+          "title": "Oxaliplatin + S-1 for colorectal cancer efficacy/side effects",
+          "year": "2011",
+          "study_type": "Clinical Series",
+          "tier": "2",
+          "note": "XELOX vs SOX 的臨床比較，提供實際療效與毒性數據。"
+        },
+        {
+          "pmid": "20841935",
+          "title": "PK study of S-1 for peritoneal metastasis from colon cancer",
+          "year": "2010",
+          "study_type": "PK Study",
+          "tier": "2",
+          "note": "腹膜轉移的 S-1 藥物動力學，涉及特殊給藥途徑，支持 S-1 在進階大腸癌的應用。"
+        },
+        {
+          "pmid": "28414195",
+          "title": "TS-1-induced erythroderma with mucosal involvement",
+          "year": "2017",
+          "study_type": "Case Report (ADR)",
+          "tier": "3",
+          "note": "安全性文獻：嚴重皮膚毒性警示，需納入風險評估。"
+        },
+        {
+          "pmid": "32936722",
+          "title": "Hypertriglyceridemia induced by S-1",
+          "year": "2021",
+          "study_type": "Case Report (ADR)",
+          "tier": "3",
+          "note": "安全性文獻：代謝毒性（高三酸甘油酯），需代謝監測。"
+        },
+        {
+          "pmid": "41253353",
+          "title": "Oxaliplatin-induced acute peripheral neuropathy",
+          "year": "2025",
+          "study_type": "Case Report (ADR)",
+          "tier": "3",
+          "note": "聯合化療神經毒性案例，屬 Oxaliplatin 主要副作用，非 Gimeracil 直接相關。"
+        },
+        {
+          "pmid": "35444144",
+          "title": "Peritoneal recurrences after colorectal cancer resection",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "個案手術報告，S-1 作為術後輔助治療背景提及，臨床場景參考。"
+        },
+        {
+          "pmid": "26045119",
+          "title": "Long-term survival in metastasized leiomyosarcoma",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "軟組織肉瘤個案，與大腸腫瘤間接相關，不計入核心證據。"
+        },
+        {
+          "pmid": "30692384",
+          "title": "Celiac plexus neurolysis for pain in colon cancer",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "疼痛管理個案，非療效直接證據。"
+        },
+        {
+          "pmid": "34650027",
+          "title": "En bloc resection of pancreatic tail cancer with colonic perforation",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "胰臟癌手術個案，大腸腫瘤為次要描述，相關性低。"
+        }
+      ]
+    },
+    {
+      "disease_name": "cecum villous adenoma（盲腸絨毛腺瘤）",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "絨毛腺瘤為良性腸道腺瘤，雖具惡性轉化潛力，但標準處置為內視鏡切除而非系統性化療。TxGNN 評分高可能源於知識圖譜中大腸相關疾病節點的結構性關聯，而非真實藥理機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant gastric granular cell tumor（惡性胃顆粒細胞腫瘤）",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胃顆粒細胞腫瘤（GCT）為神經鞘來源（S-100 陽性）的罕見腫瘤，惡性者極罕見（<2%）。S-1/5-FU 基礎化療對此組織學類型無已知療效，TxGNN 評分反映胃部位置的圖譜鄰近性，非機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lipoma of colon（大腸脂肪瘤）",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "大腸脂肪瘤為完全良性腫瘤，不具惡性轉化潛力，臨床無需治療或僅需內視鏡切除。使用細胞毒性藥物（含 S-1）於此適應症不具醫學合理性。TxGNN 高分反映圖譜結構偽相關。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cecum neuroendocrine tumor G1（盲腸神經內分泌腫瘤 G1）",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "G1 神經內分泌腫瘤（Ki-67 <2%）為低增殖性腫瘤，對傳統細胞毒性化療反應極差。標準治療為 SSA（體制素類似物）或監測。Gimeracil/S-1 的 5-FU 機轉不適用於低增殖性 NET。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rectosigmoid junction neoplasm（直腸乙狀結腸交界腫瘤）",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "解剖位置屬大腸直腸癌範疇，若為腺癌則機轉支持與 colonic neoplasm 相同（L1 證據）。然而本項目獨立列出且無任何試驗或文獻支持，可能為 KG 圖譜中的子節點分裂。建議合併至 colonic neoplasm 適應症下評估，不單獨立為新適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cardia cancer（賁門癌）",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "賁門癌（胃食道交界腺癌）屬胃癌範疇。S-1 已在日本獲批用於胃癌一線治療（SPIRITS 試驗），HER2 陽性胃癌可與 Trastuzumab 聯用。PMID 27210096 報告一例 HER2 陽性胃癌肺轉移患者以含 S-1 方案達完全緩解，支持間接機轉關聯。但賁門癌特異性（Siewert II/III）證據仍缺乏。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27210096",
+          "title": "Complete response in HER2-positive gastric cancer with lung metastases using S-1 combination",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "HER2 陽性胃癌（含賁門）的 S-1 聯合治療個案，達完全緩解。機轉間接支持賁門癌，但單一個案證據層級低。S-1 於廣義胃癌已有 L1 證據（SPIRITS Phase 3 RCT），可作為外推基礎。"
+        }
+      ]
+    },
+    {
+      "disease_name": "colonic lymphangioma（大腸淋巴管瘤）",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "大腸淋巴管瘤為良性脈管畸形，無惡性潛力，標準處置為內視鏡切除。5-FU/S-1 類藥物對淋巴管來源腫瘤無已知療效。高 TxGNN 分數為圖譜位置偽相關。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colon leiomyoma（大腸平滑肌瘤）",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "大腸平滑肌瘤為良性平滑肌腫瘤，無惡性轉化潛力。PMID 40322391 描述的是「乙狀結腸癌轉移的卵巢腫瘤扭轉」個案，與平滑肌瘤無直接關聯，係文獻標引偽相關。細胞毒性化療於此良性適應症不具合理性。",
+      "trials_analysis": [
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40322391",
+          "title": "Torsion of Metastatic Ovarian Tumor from Sigmoid Colon Cancer",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 文獻標引錯誤：本文為乙狀結腸癌轉移卵巢腫瘤的外科個案，與 colon leiomyoma 無相關性，判定為 KG 標引偽相關，不計入支持證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastric lymphoma（胃淋巴瘤）",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胃淋巴瘤（主要為 MALT 淋巴瘤或 DLBCL）的治療基礎為 R-CHOP 或 H. pylori 根除，非 5-FU 類化療。Gimeracil/S-1 對淋巴瘤細胞無已知靶向機轉，缺乏任何臨床試驗或文獻支持，高 TxGNN 分數為胃部位置之圖譜鄰近性偽相關。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 核心問題 |
+|--------|-----------|---------|---------|------|---------|
+| **Colonic Neoplasm** | 0.9988 | **L1** | **S3** | **Proceed w/ Guardrails** | 2 個 Phase 3 RCT 完成（S-1 複方） |
+| Cardia Cancer | 0.9981 | L4 | S1 | Research Question | 1 個案報告 + S-1 胃癌適應症間接外推 |
+| Rectosigmoid Junction Neoplasm | 0.9982 | L5 | S0 | Hold | 建議合併至大腸腫瘤評估 |
+| Cecum Villous Adenoma | 0.9982 | L5 | S0 | Hold | 良性病灶，化療不適當 |
+| Malignant Gastric Granular Cell Tumor | 0.9982 | L5 | S0 | Hold | 罕見組織學，無 5-FU 靶點 |
+| Lipoma of Colon | 0.9982 | L5 | S0 | Hold | 良性病灶，化療不適當 |
+| Cecum NET G1 | 0.9982 | L5 | S0 | Hold | 低增殖性，化療無效 |
+| Colonic Lymphangioma | 0.9981 | L5 | S0 | Hold | 良性脈管畸形 |
+| Colon Leiomyoma | 0.9981 | L5 | S0 | Hold | 良性 + 文獻標引錯誤 |
+| Gastric Lymphoma | 0.9981 | L5 | S0 | Hold | 治療機轉不符 |
+
+---
+
+## 關鍵觀察
+
+1. **TxGNN 高分群聚現象**：10 個適應症分數集中於 0.998-0.999，反映知識圖譜中「胃腸道部位」節點的結構性高相似度，**非真實臨床可行性的區分指標**，需搭配臨床證據過濾。
+
+2. **Gimeracil 特殊性**：作為 S-1 複方成分而非獨立藥物，其「再利用」本質上是評估 S-1 複方於新適應症的潛力。後續研究設計需特別釐清是否需要 Gimeracil 單藥或仍以 S-1 複方形式。
+
+3. **良性腫瘤偽相關**：Cecum villous adenoma、Lipoma of colon、Colonic lymphangioma、Colon leiomyoma 均為良性病變，**細胞毒性化療禁忌**，TxGNN 高分完全由圖譜結構偽相關驅動，應予優先過濾排除。
+
+4. **文獻品質警示**：Colon leiomyoma 的唯一文獻（PMID 40322391）為標引錯誤，實為結腸癌轉移個案，顯示自動化文獻收集的信噪比問題。
+
+> **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴格臨床驗證方可應用於患者照護。

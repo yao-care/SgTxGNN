@@ -1,0 +1,167 @@
+## 藥物再利用證據分析 - Alglucosidase alfa (DB01272)
+
+> ⚠️ **資料前置說明**：Alglucosidase alfa（商品名 Myozyme/Lumizyme）實際上已獲 FDA 核准用於 **龐貝氏症（Pompe disease / GSD type II）**，系統標記「未上市」及 `original_indications: []` 可能反映新加坡本地市場資料缺口，需補全。
+
+---
+
+```json
+{
+  "drug": "Alglucosidase alfa",
+  "drugbank_id": "DB01272",
+  "known_approval_note": "FDA-approved for Pompe disease (GSD II) — data gap in source DB",
+  "known_moa": "Recombinant human lysosomal acid α-glucosidase (rhGAA); enzyme replacement therapy via M6P receptor-mediated lysosomal uptake, degrades accumulated intralysosomal glycogen",
+  "analysis_date": "2026-04-05",
+  "indications": [
+    {
+      "disease_name": "adult polyglucosan body disease",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "APBD 由 GBE1（glycogen branching enzyme）突變導致異常多葡聚糖體（polyglucosan bodies）在神經系統及肌肉中堆積。雖然致病酶與 GAA 不同，但均屬溶酶體糖原代謝異常範疇；有假說認為 alglucosidase alfa 可藉由增強溶酶體糖原清除，間接減輕多葡聚糖體負擔。機轉相似性為 GSD II 的延伸，具最高合理性，但尚無臨床資料佐證。值得立項為研究問題。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "TxGNN 預測分數最高（0.9947），機轉關聯性為本列表中最強者，但目前零臨床/文獻支持。",
+      "next_step": "建議系統性文獻回顧是否有 case report；可嘗試 PubMed 查詢 'alglucosidase alfa polyglucosan body disease'"
+    },
+    {
+      "disease_name": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GSD type IV（Andersen 病）由 GBE1 基因突變引起 branching enzyme 缺乏，與 alglucosidase alfa 所替代的 GAA（acid alpha-glucosidase）為不同酶。兩者均在糖原代謝路徑，但介入點不同：GAA 降解溶酶體內糖原，而 GSD IV 之異常為 polyglucosan 無法正常形成支鏈，並非 GAA 缺乏。機轉關聯為間接且薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "TxGNN 預測分數高，但機轉基礎薄弱，零臨床/文獻支持。GSD IV 目前缺乏有效酶替代療法，研究空間存在，但此藥物並非合理首選。",
+      "next_step": "Hold；若欲推進需先確認 GAA 是否在 GSD IV 患者組織中有替代活性之前導研究"
+    },
+    {
+      "disease_name": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與上一項相同（GBE1 deficiency，GSD IV 週產期致死型）。此亞型病程極重、預後極差，即便有藥物干預機會，機轉合理性仍同等薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "與 GSD IV congenital form 同分，疾病更嚴重，但機轉依據無額外強化。",
+      "next_step": "Hold"
+    },
+    {
+      "disease_name": "congenital entropion",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性眼瞼內翻為眼瞼結構性異常（眼輪匝肌過度活躍或鞏膜發育問題），屬形態學/神經肌肉缺陷，與溶酶體酶缺乏毫無關聯。此預測極可能為 TxGNN 模型假陽性，或由訓練資料中眼肌相關特徵與糖原肌病眼部症狀混淆所致。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "高 TxGNN 分數，但無任何生物學合理性。判定為模型假陽性，應排除。",
+      "next_step": "Hold；建議標記為模型誤判，不進入後續評估流程"
+    },
+    {
+      "disease_name": "congenital ectropion",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性眼瞼外翻為結構性眼瞼異常，與溶酶體 GAA 替代療法無機轉關聯。與 congenital entropion 同屬眼科形態缺陷，判斷同為假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無生物合理性，TxGNN 假陽性。",
+      "next_step": "Hold"
+    },
+    {
+      "disease_name": "congenital Horner syndrome (disease)",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性 Horner 症候群為交感神經通路受損（頸部/胸部交感神經，常見於分娩外傷或頸動脈剝離），導致患側眼瞼下垂、瞳孔縮小及無汗症。與溶酶體儲積症無關，機轉完全不符。模型可能因眼瞼下垂症狀（ptosis）與 Pompe 病眼部表現特徵相近而誤預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無生物合理性，疑因 ptosis 症狀特徵重疊產生假陽性。",
+      "next_step": "Hold"
+    },
+    {
+      "disease_name": "ptosis-vocal cord paralysis syndrome",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼瞼下垂合併聲帶麻痺症候群屬神經肌肉發育異常，雖 Pompe 病患者也可出現眼瞼下垂及呼吸肌無力，但此症候群的病因為神經發育缺陷（非溶酶體酶缺乏），GAA 替代無治療邏輯。此為症狀特徵共享（ptosis）造成的模型雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "症狀表面相似（ptosis）造成模型誤判，無機轉基礎。",
+      "next_step": "Hold"
+    },
+    {
+      "disease_name": "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見先天性症候群，涉及手指攣縮（camptodactyly）、近視及眼直肌纖維化，致病機轉不明，多歸因於結締組織或肌肉發育異常。與 GAA 溶酶體途徑無交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無機轉關聯，判定假陽性。",
+      "next_step": "Hold"
+    },
+    {
+      "disease_name": "epiblepharon",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Epiblepharon 為眼瞼皮膚多餘皺褶壓迫睫毛的結構性問題，常見於東亞兒童，為解剖學變異，與酶缺乏疾病無關。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純結構性眼科異常，無生物合理性，假陽性。",
+      "next_step": "Hold"
+    },
+    {
+      "disease_name": "ptosis-strabismus-ectopic pupils syndrome",
+      "txgnn_score": 0.9910,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此先天性眼科異常症候群涉及眼球運動神經核發育缺陷，與 GAA 缺乏無生物合理性。同屬 ptosis 症狀特徵重疊造成的模型雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無機轉基礎，假陽性。",
+      "next_step": "Hold"
+    }
+  ]
+}
+```
+
+---
+
+## 總體評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 機轉合理性 |
+|--------|----------|----------|------|------------|
+| Adult polyglucosan body disease | **L5** | **S1** | ✅ Research Question | 中（同屬糖原代謝異常） |
+| GSD-GBE deficiency, congenital neuromuscular | **L5** | **S0** | ⏸ Hold | 弱（不同酶，間接關聯） |
+| GSD-GBE deficiency, fatal perinatal | **L5** | **S0** | ⏸ Hold | 弱（同上） |
+| Congenital entropion | **L5** | **S0** | ❌ Hold | 無（假陽性） |
+| Congenital ectropion | **L5** | **S0** | ❌ Hold | 無（假陽性） |
+| Congenital Horner syndrome | **L5** | **S0** | ❌ Hold | 無（ptosis 症狀混淆） |
+| Ptosis-vocal cord paralysis syndrome | **L5** | **S0** | ❌ Hold | 無（症狀特徵重疊） |
+| Camptodactyly-myopia-rectus fibrosis | **L5** | **S0** | ❌ Hold | 無（假陽性） |
+| Epiblepharon | **L5** | **S0** | ❌ Hold | 無（假陽性） |
+| Ptosis-strabismus-ectopic pupils | **L5** | **S0** | ❌ Hold | 無（症狀特徵重疊） |
+
+---
+
+## 關鍵發現
+
+### 🔬 唯一值得進一步評估者
+**Adult polyglucosan body disease (APBD)** 具有最高 TxGNN 分數（0.9947）且有合理的生物學基礎——兩者均為溶酶體糖原代謝異常。建議執行文獻搜尋（PubMed / ClinicalTrials.gov）以確認是否有未被系統收錄的前導研究。
+
+### ⚠️ 模型假陽性警示
+本批次中有 **7/10 項適應症**為眼科結構性先天異常（entropion, ectropion, Horner, ptosis syndromes, epiblepharon），高度懷疑 TxGNN 模型因 **Pompe 病眼部症狀（ocular muscle weakness, ptosis）特徵** 與這些疾病的表型描述重疊，產生系統性假陽性。建議此類眼科異常適應症群在後續評估中設立自動過濾規則。
+
+### 📋 資料品質問題
+`original_indications: []` 及 `original_moa: [Data Gap]` 為明確資料缺口——Alglucosidase alfa 的核准適應症（Pompe disease）及機轉（rhGAA ERT）已知，應補全以改善模型特異性。

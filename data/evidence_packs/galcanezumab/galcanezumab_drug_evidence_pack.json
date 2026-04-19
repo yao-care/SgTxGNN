@@ -1,0 +1,1075 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB14042-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Galcanezumab",
+    "drugbank_id": "DB14042",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn": {
+        "score": 0.9950345754623412,
+        "rank": 6461
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Heparin Cofactor 2（HC-II）為絲胺酸蛋白酶抑制劑，抑制凝血酶活性；Galcanezumab 作用於 CGRP 神經肽路徑，兩者無已知生物學交集。TxGNN 超高分（0.9950）疑為知識圖譜中共享節點（血管調節相關）導致的假性高分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "antithrombin deficiency type 2",
+      "txgnn": {
+        "score": 0.99412339925766,
+        "rank": 7279
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抗凝血酶（Antithrombin）缺乏導致血栓形成傾向，屬凝血瀑布調控障礙；Galcanezumab 為 CGRP 拮抗劑，主要影響神經血管調控，對凝血因子活性無直接調節機制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "txgnn": {
+        "score": 0.994109869003296,
+        "rank": 7289
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Factor V 過量導致自發性血栓屬凝血因子功能增益性缺陷；CGRP 拮抗作用無法影響 Factor V 活性或凝血酶生成，機轉不相符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "thrombophilia",
+      "txgnn": {
+        "score": 0.9899296164512634,
+        "rank": 10575
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CGRP 具輕度血管擴張效應，理論上可能間接影響血流剪切力，但此效應極弱且方向不確定；Galcanezumab 阻斷 CGRP 後對血栓形成風險的影響方向甚至可能為負面。無任何臨床或前臨床證據支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9833019375801086,
+        "rank": 15266
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32504377",
+            "title": "Galcanezumab: A Review in the Prevention of Migraine and Treatment of Episodic Cluster Headache.",
+            "authors": [
+              "Scott Lesley J"
+            ],
+            "journal": "Drugs",
+            "year": "2020",
+            "abstract": "Galcanezumab (Emgality®) is a humanized monoclonal antibody targeting the calcitonin gene-related peptide (CGRP), thereby inhibiting its physiological activity, with CGRP playing a key role in the pathophysiology of migraine and headache disorders. In pivotal phase 3 trials, recommended dosages of subcutaneous galcanezumab once monthly were significantly more effective than placebo as preventive therapy in adults with episodic (EVOLVE-1 and -2; over 6 months) or chronic (REGAIN; over 3 months) m",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29813147",
+            "title": "Evaluation of Galcanezumab for the Prevention of Episodic Migraine: The EVOLVE-1 Randomized Clinical Trial.",
+            "authors": [
+              "Stauffer Virginia L",
+              "Dodick David W",
+              "Zhang Qi",
+              "Carter Jeffrey N",
+              "Ailani Jessica"
+            ],
+            "journal": "JAMA neurology",
+            "year": "2018",
+            "abstract": "Migraine is a disabling neurological disease characterized by severe headache attacks. Treatment options reduce migraine frequency for many patients, but adverse effects lead to discontinuation in many patients.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36266558",
+            "title": "Galcanezumab Effects on Migraine Severity and Symptoms in Japanese Patients with Episodic Migraine: Secondary Analysis of a Phase 2 Randomized Trial.",
+            "authors": [
+              "Igarashi Hisaka",
+              "Shibata Mamoru",
+              "Ozeki Akichika",
+              "Matsumura Taka"
+            ],
+            "journal": "Neurology and therapy",
+            "year": "2023",
+            "abstract": "Galcanezumab, a humanized monoclonal antibody against calcitonin gene-related peptide, is a preventive migraine treatment. In global, randomized, placebo-controlled trials, galcanezumab reduced migraine headache severity and the frequency of migraine headaches associated with nausea and/or vomiting, photophobia and phonophobia, prodromal symptoms, or aura. We report secondary analyses from a Japanese phase 2 trial that assessed the effect of galcanezumab on migraine headache severity, frequency ",
+            "classification": {
+              "study_type": "RCT Subgroup (Japan)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33549036",
+            "title": "Effect of galcanezumab on severity and symptoms of migraine in phase 3 trials in patients with episodic or chronic migraine.",
+            "authors": [
+              "Ament Michael",
+              "Day Kathleen",
+              "Stauffer Virginia L",
+              "Skljarevski Vladimir",
+              "Rettiganti Mallikarjuna"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2021",
+            "abstract": "Galcanezumab, a humanized monoclonal antibody that binds calcitonin gene-related peptide, has demonstrated a significant reduction in monthly migraine headache days compared with placebo. Here, we analyze data from 3 randomized clinical trials (2 episodic trials [EVOLVE-1, EVOLVE-2] and 1 chronic trial [REGAIN]), to examine if galcanezumab also alleviates the severity and symptoms of migraine.",
+            "classification": {
+              "study_type": "Phase 3 Pooled Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36927366",
+            "title": "Galcanezumab effects on incidence of headache after occurrence of triggers, premonitory symptoms, and aura in responders, non-responders, super-responders, and super non-responders.",
+            "authors": [
+              "Ashina Sait",
+              "Melo-Carrillo Agustin",
+              "Toluwanimi Ajayi",
+              "Bolo Nicolas",
+              "Szabo Edina"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2023",
+            "abstract": "The goal of this observational, open-label, cohort study was to determine whether prophylactic migraine treatment with galcanezumab, a peripherally acting drug, alters the incidence of premonitory symptoms, and/or occurrence of headache after exposure to triggers or aura episodes in treatment-responders (≥ 50% reduction in monthly migraine days [MMD]), super-responders (≥ 70%), non-responders (< 50%) and super non-responders (< 30%).",
+            "classification": {
+              "study_type": "Secondary RCT Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39695402",
+            "title": "Interictal burden in migraine patients at the outset of CGRP monoclonal antibody prevention.",
+            "authors": [
+              "Lampl Christian",
+              "Seng Elizabeth",
+              "Vincent Maurice",
+              "Lenderking William R",
+              "Hoyt Margaret"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2024",
+            "abstract": "The total burden of migraine includes not only the episodes with headache pain but extends throughout the interictal periods. Interictal symptoms and associated psychological responses may profoundly impact well-being and drive treatment-seeking behavior.",
+            "classification": {
+              "study_type": "Observational Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41539111",
+            "title": "A 12-month observational study on the safety, efficacy on migraine-associated symptoms and satisfaction of CGRP monoclonal antibodies in Japanese patients with migraine.",
+            "authors": [
+              "Imai Shungo",
+              "Ihara Keiko",
+              "Takahashi Nobuyuki",
+              "Ohtani Seiya",
+              "Watanabe Narumi"
+            ],
+            "journal": "Journal of the neurological sciences",
+            "year": "2026",
+            "abstract": "Calcitonin gene-related peptide monoclonal antibodies (CGRP mAbs) are effective in clinical trials and real-world settings. However, data other than headache frequency remains limited in East Asia. Thus, we investigated long-term efficacy, tolerability, and patient-reported satisfaction of CGRP mAbs in clinical practice.",
+            "classification": {
+              "study_type": "Prospective Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30725283",
+            "title": "Role of CGRP in Migraine.",
+            "authors": [
+              "Edvinsson Lars"
+            ],
+            "journal": "Handbook of experimental pharmacology",
+            "year": "2019",
+            "abstract": "Migraine is a common neurological disorder that afflicts up to 15% of the adult population in most countries, with predominance in females. It is characterized by episodic, often disabling headache, photophobia and phonophobia, autonomic symptoms (nausea and vomiting), and in a subgroup an aura in the beginning of the attack. Although still debated, many researchers consider migraine to be a disorder in which CNS dysfunction plays a pivotal role while various parts of the trigeminal system are n",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40341526",
+            "title": "Genetic migraine disorders and the response to calcitonin gene-related peptide antagonist treatment.",
+            "authors": [
+              "Kuczynski Andrea M",
+              "Kingston William S"
+            ],
+            "journal": "Headache",
+            "year": "2025",
+            "abstract": "Calcitonin gene-related peptide (CGRP) is a potent cerebral vasodilator and part of the trigeminal migraine cascade. Newer migraine therapies target CGRP signaling for both acute and preventative management of headache. In this series, we present two cases of genetic conditions, of which migraine is a key feature, responsive to CGRP antagonist therapy. A 31-year-old female with mitochondrial encephalopathy with lactic acidosis and stroke-like episodes and a phenotype of chronic migraine with vis",
+            "classification": {
+              "study_type": "Genetic/Subtype Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38071464",
+            "title": "Characteristics associated with response to subcutaneously administered anti-CGRP monoclonal antibody medications in a real-world community cohort of persons living with migraine: A retrospective clinical and genetic study.",
+            "authors": [
+              "Chase Bruce A",
+              "Semenov Irene",
+              "Rubin Susan",
+              "Meyers Steven",
+              "Mark Angela"
+            ],
+            "journal": "Headache",
+            "year": "2024",
+            "abstract": "To evaluate response to anti-calcitonin gene-related peptide (CGRP) migraine preventives in a real-world community cohort of persons living with migraine and to identify clinical and genetic characteristics associated with efficacious response.",
+            "classification": {
+              "study_type": "Real-World Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33550872",
+            "title": "Rimegepant: acute treatment for migraine headaches.",
+            "authors": [
+              "Peters Golden L",
+              "Hennessey Erin K"
+            ],
+            "journal": "Pain management",
+            "year": "2021",
+            "abstract": "Migraine headache treatment is quickly evolving. There have been three new acute migraine treatment options (i.e., lasmiditan, rimegepant, ubrogepant) and four new preventive migraine treatment options (i.e., erenumab, fremanezumab, galcanezumab, eptinezumab) released in the past 3 years. The new migraine treatments are focusing on pathways within the newly, better understood neurovascular hypothesis that further describes the pathophysiology of migraine headaches in more detail than before. The",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35268319",
+            "title": "Could the New Anti-CGRP Monoclonal Antibodies Be Effective in Migraine Aura? Case Reports and Literature Review.",
+            "authors": [
+              "Albanese Maria",
+              "Mercuri Nicola Biagio"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2022",
+            "abstract": "Recently, monoclonal antibodies (mAbs) directed against calcitonin gene-related peptide (CGRP) (Eptinezumab, Fremanezumab, and Galcanezumab) or its receptor (Erenumab) have been approved for clinical use as prophylactic drugs for high-frequency episodic and chronic migraine. While their therapeutic effects on headache pain is well documented, there is scarce information on the usefulness of these medications in preventing migraine aura, which is believed to be associated with cortical spreading ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41618146",
+            "title": "Effectiveness and safety of anti-CGRP monoclonal antibodies in hemiplegic migraine: an individual patient quantitative analysis.",
+            "authors": [
+              "Romozzi Marina",
+              "Palermo Matteo",
+              "Danno Daisuke",
+              "Katsuki Masahito",
+              "Tosto Federico"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2026",
+            "abstract": "Hemiplegic migraine (HM) is a rare and disabling subtype of migraine with aura characterized by reversible motor weakness. Preventive treatment remains challenging, as patients with HM are systematically excluded from RCTs. Monoclonal antibodies targeting the calcitonin gene-related peptide pathway (anti-CGRP mAbs) have shown effectiveness in migraine with typical aura, but evidence in HM is limited.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32699706",
+            "title": "Calcitonin Gene-Related Peptide Antagonists as a Savior in Episodic and Chronic Migraine: A Review.",
+            "authors": [
+              "Pervez Hira",
+              "Khemani Lavina",
+              "Khan Mahrukh A",
+              "Seedat Ahmed M",
+              "Roshan Fnu"
+            ],
+            "journal": "Cureus",
+            "year": "2020",
+            "abstract": "Headaches due to migraine are the second leading cause of disability in the world. Migraine can be classified as episodic migraine (EM) and chronic migraine (CM). The course of the disease starts from an aura followed by 4-72 hours of bouts of throbbing, mostly unilateral headache associated with nausea, photo/phonophobia with/without neurological deficit. The pathophysiology of migraine remains debatable and many drugs are used to help control migraine attacks with little or no benefit. However",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41760025",
+            "title": "Normal delivery following use of galcanezumab until the first and second trimesters of pregnancy: A report of 2 cases.",
+            "authors": [
+              "Akiyama Hisanao",
+              "Yamano Yoshihisa"
+            ],
+            "journal": "Medicine",
+            "year": "2026",
+            "abstract": "Clinical trials have demonstrated the efficacy, rapid action, and safety of calcitonin gene related peptide-related antibody drugs for migraine prevention, and subcutaneous galcanezumab was launched in Japan in April 2021. However, the safety of this drug in pregnant migraine patients has not been demonstrated in humans, with evidence of safety available only from animal studies. We report 2 cases in which subcutaneous galcanezumab was administered continuously until the first and second trimest",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39345003",
+            "title": "Efficacy of galcanezumab in proline-rich transmembrane protein 2 (PRRT2)-associated familial hemiplegic migraine: A case series.",
+            "authors": [
+              "Sottani Costanza",
+              "Di Lazzaro Giulia",
+              "Calabresi Paolo",
+              "Pomponi Maria Grazia",
+              "Tiziano Francesco Danilo"
+            ],
+            "journal": "Headache",
+            "year": "2025",
+            "abstract": "Familial hemiplegic migraine (FHM) is a rare subtype of migraine with aura. Variants in calcium voltage-gated channel subunit alpha1 A (CACNA1A), ATPase Na+/K+ transporting subunit alpha 2 (ATP1A2), and sodium voltage-gated channel alpha subunit 1 (SCN1A) genes have a well-established association with the development of FHM. Recent studies suggest that other genes may also have a significant role in the pathogenesis of FHM, including proline-rich transmembrane protein 2 (PRRT2). To our knowledge",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35775208",
+            "title": "Effectiveness of anti-CGRP monoclonal antibodies on central symptoms of migraine.",
+            "authors": [
+              "Iannone Luigi Francesco",
+              "De Cesaris Francesco",
+              "Ferrari Anita",
+              "Benemei Silvia",
+              "Fattori Davide"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2022",
+            "abstract": "Clinical trials and observational studies with anti-calcitonin gene-related peptide antibodies poorly investigated their impact on migraine prodromal and accompanying symptoms. This information might help deciphering the biologics' pharmacodynamic and provide hints on migraine pathogenesis. Herein, we report the effects of erenumab, fremanezumab and galcanezumab on attack prodromal and accompanying symptoms and on neurological and psychiatric traits. .",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39365416",
+            "title": "Cerebral Artery Vasoconstriction After Galcanezumab Loading Dose for Migraine Prevention: A Case Report.",
+            "authors": [
+              "Asawavichienjinda Thanin",
+              "Jittapiromsak Nutchawan",
+              "Blumenfeld Andrew"
+            ],
+            "journal": "Pain and therapy",
+            "year": "2024",
+            "abstract": "Anti-calcitonin gene-related peptide (CGRP) monoclonal antibodies that target CGRP ligands or receptors, may cause a very rare side effect of reversible cerebral vasoconstriction syndrome (RCVS). This study is a case report of a patient who developed cerebral artery vasoconstriction documented on serial brain magnetic resonance angiography (MRA) scans without the typical manifestations of RCVS following galcanezumab loading dose. Case report: A 40-year-old female patient with high-frequency epis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37366160",
+            "title": "Treatment of hemiplegic migraine with anti-calcitonin gene-related peptide monoclonal antibodies: A case series in a tertiary-care headache center.",
+            "authors": [
+              "Danno Daisuke",
+              "Ishizaki Kumiko",
+              "Kikui Shoji",
+              "Takeshima Takao"
+            ],
+            "journal": "Headache",
+            "year": "2023",
+            "abstract": "Hemiplegic migraine (HM) is a subtype of migraine with aura that includes motor weakness; such headaches can be excruciating. The presence of not only headache but also aura symptoms of HM increase the burden on patients, and the treatment of HM is sometimes challenging. Monoclonal antibodies (mAbs) targeting the calcitonin gene-related peptide (CGRP) pathway are novel migraine preventive treatments that have shown promising efficacy in patients with migraine; however, there have been no reports",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37555331",
+            "title": "Impact of anti-CGRP monoclonal antibodies on migraine attack accompanying symptoms: A real-world evidence study.",
+            "authors": [
+              "Alpuente Alicia",
+              "Torre-Sune Anna",
+              "Caronna Edoardo",
+              "Gine-Cipres Eulalia",
+              "Torres-Ferrús Marta"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2023",
+            "abstract": "Clinical trials on anti-calcitonin gene-related peptide monoclonal antibodies poorly investigated their impact on migraine accompanying symptoms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Galcanezumab 阻斷 CGRP 與其受體結合，而 CGRP 在所有偏頭痛亞型（含腦幹先兆型）的發作期均顯著升高，機轉一致性強。腦幹先兆型偏頭痛雖曾被 Triptan 類藥物列為相對禁忌（因血管收縮顧慮），但 anti-CGRP mAb 不具血管收縮效應，理論安全性優於 Triptan。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.9150490760803224,
+        "rank": 33093
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Atrophoderma vermiculata 為毛囊性萎縮性皮膚病，病理機制涉及毛囊角化異常；CGRP 在皮膚感覺神經末梢有分布並參與皮膚神經源性炎症，但 Galcanezumab 系統性阻斷 CGRP 是否對此罕見皮膚病有療效，完全無臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn": {
+        "score": 0.9030247926712036,
+        "rank": 34503
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ulerythema ophryogenesis（眉部毛周角化萎縮）為毛囊萎縮性罕見皮膚病，病因不明，可能涉及 Ras-MAPK 信號通路；與 CGRP/抗 CGRP 機轉無明確關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hemorrhagic disease of newborn",
+      "txgnn": {
+        "score": 0.8127580881118774,
+        "rank": 41244
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "新生兒出血病（維生素 K 缺乏性出血）為維生素 K 依賴性凝血因子缺乏所致；Galcanezumab 為 CGRP 單株抗體，對維生素 K 路徑無任何作用，且新生兒族群使用大分子生物製劑存在極高安全顧慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "prekallikrein deficiency",
+      "txgnn": {
+        "score": 0.722491443157196,
+        "rank": 44615
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Prekallikrein（激肽釋放酶原）為接觸活化凝血路徑成員，與緩激肽（Bradykinin）生成相關；CGRP 與 Bradykinin 在神經源性炎症中共享部分下游效應，存在極遠端生物學聯結，但 Galcanezumab 阻斷 CGRP 對 prekallikrein 缺乏症無任何已知補償機制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "thrombotic disorder due to a platelet anomaly",
+      "txgnn": {
+        "score": 0.7072899341583252,
+        "rank": 45128
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血小板異常相關血栓症涉及血小板聚集與活化缺陷；CGRP 對血小板有輕度抑制聚集效應，理論上阻斷 CGRP 可能不利於此類疾病，機轉方向存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "hemorrhagic disease of newborn"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "prekallikrein deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "prekallikrein deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "prekallikrein deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "thrombotic disorder due to a platelet anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "thrombotic disorder due to a platelet anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Galcanezumab",
+        "disease": "thrombotic disorder due to a platelet anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

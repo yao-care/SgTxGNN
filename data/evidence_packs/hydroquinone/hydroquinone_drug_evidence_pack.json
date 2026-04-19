@@ -1,0 +1,1019 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09526-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydroquinone",
+    "drugbank_id": "DB09526",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "seborrheic keratosis",
+      "txgnn": {
+        "score": 0.9972776770591736,
+        "rank": 4269
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33046430",
+            "title": "Combination treatment algorithm for pigmentary disorders of the face: A prospective observational study in Asian patients.",
+            "authors": [
+              "Takekawa Chikara",
+              "Fukumoto Takeshi",
+              "Haraoka Goichi",
+              "Terashi Hiroto"
+            ],
+            "journal": "Journal of plastic, reconstructive & aesthetic surgery : JPRAS",
+            "year": "2021",
+            "abstract": "Most patients with facial pigmentary disorders have multiple disorders. However, there is no definitive treatment algorithm improving various pigmentary disorders simultaneously.",
+            "classification": {
+              "study_type": "Prospective Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17373158",
+            "title": "Dermatosis papulosis nigra: treatment options.",
+            "authors": [
+              "Lupo Mary P"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2007",
+            "abstract": "Dermatosis papulosis nigra (DPN) is a very prevalent skin condition among certain ethnic groups, especially African-Americans and Afro-Caribbeans. The histology is not significantly different from that of seborrheic keratosis. DPN does not pose any health dangers, but patients often seek removal due to aesthetic concerns since it occurs commonly on the face. When performing any elective procedure, it is important that great care is taken to prevent complications so as to not merely exchange one ",
+            "classification": {
+              "study_type": "Review / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SK 為角質細胞增生性良性腫瘤，主要病因為 FGFR3/PIK3CA 突變驅動的角質細胞過度增殖，並非黑色素合成異常。HQ 酪氨酸酶抑制機轉無法解決增生本質，但可能改善 SK 表面色素沉著的外觀（美觀輔助用途）。機轉相關性弱，臨床意義有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "vulvar inverted follicular keratosis",
+      "txgnn": {
+        "score": 0.9963892698287964,
+        "rank": 5231
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見外陰部良性毛囊上皮腫瘤，病因為局部角質細胞鱗狀旋渦狀增生（可能與慢性刺激或 HPV 相關），與黑色素生成路徑完全無關。HQ 無任何合理作用機轉。TxGNN 高分預測可能源於知識圖譜中皮膚角化病變節點的圖譜距離，而非直接生物學關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "exanthem (disease)",
+      "txgnn": {
+        "score": 0.9942485094070436,
+        "rank": 7158
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02977507",
+            "title": "Randomized, Double-blinded, Split-face Study Comparing the Cosmetic Efficacy and Tolerability of Two Topical Products in Subjects With Moderate Facial Melasma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2016-12-13",
+            "completion_date": "2017-10-09",
+            "brief_summary": "The objective of this study is to evaluate the efficacy and tolerability of Lytera 2.0 versus 4% hydroquinone in the improvement of the appearance of moderate facial melasma.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，Split-face 美容比較研究（n=18）；無明確疾病診斷標準，美容級設計，循證醫學價值低"
+            }
+          },
+          {
+            "nct_id": "NCT05493280",
+            "title": "Quantifying Hyperpigmentation Response to Fractionated 1927nm in Fitzpatrick Skin Phototype V and VI: A Pilot Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2022-11-14",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The primary objective of this study is to assess the efficacy of 1927nm non-ablative fractionated laser therapy to treat hyperpigmentation in patients ages 18-75 with Fitzpatrick Skin Phototypes V and VI and explore an effective, adjunctive pre- and post-procedural regimen to prevent iatrogenic dyspigmentation or scarring in this population.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA（n=15），量化 1927nm 雷射後 Fitzpatrick V-VI 型膚色色素反應；為雷射醫美研究，非色素性疾病治療研究"
+            }
+          },
+          {
+            "nct_id": "NCT00616239",
+            "title": "The Efficacy of Salicylic Acid Peels Combined With 4% Hydroquinone Cream Versus 4% Hydroquinone Cream Alone in the Treatment of Hispanic Women With Moderate to Severe Melasma",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2008-01",
+            "completion_date": "2018-03",
+            "brief_summary": "This study will enroll 20 adult Hispanic women. Participants will apply 4% hydroquinone cream twice daily to affected areas on the face for 14 weeks and half the face will be peeled with 20-30% salicylic acid every two weeks for a total of 4 peels. The first two peels will be 20% salicylic acid and the second two peels will be with 30% salicylic acid. The purpose of the study will be to evaluate the safety and efficacy of salicylic acid combined with 4% hydroquinone versus 4% hydroquinone alone.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 RCT（n=20），水楊酸換膚合併 4% HQ vs 單用 HQ 治療色素沉著（推測為黃褐斑）；提供直接 HQ 療效對照數據，但樣本量小"
+            }
+          },
+          {
+            "nct_id": "NCT05969587",
+            "title": "Compare the Efficacy and Safety Profile of Cysteamine and Hydroquinone in Melasma as Topical Application",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2019-11-28",
+            "completion_date": "2020-11-11",
+            "brief_summary": "Melasma is an acquired pigmentary disorder of symmetrical hyperpigmentation appearing as variable darkness macules and patches over the forehead, cheeks, and chin, even sun-exposed areas of the body. Melasma is predominantly affects women but men can also be affected. Melasma is commonly seen in Asia, where patients with Fitzpatrick skin types III and IV, and areas of high ultraviolet radiation. It is challenging and difficult to treat melasma for its refractory and recurrent nature. There is a ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "最高設計等級：Phase 3 RCT，直接比較 Cysteamine vs 4% HQ 治療黃褐斑（melasma）。若 exanthem 包含色素性皮疹則為 A 級相關；疾病標靶為 melasma，非傳統 exanthem，故降為 B"
+            }
+          },
+          {
+            "nct_id": "NCT00669071",
+            "title": "Split-Face, Randomized, Open-Label Study of Sequential Treatment With Tri-Luma® Cream With Intense Pulsed Light (IPL) vs. a Mild Inactive Control Cream With Intense Pulsed Light (IPL) in Subjects With Melasma",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 56,
+            "start_date": "2008-01",
+            "completion_date": "2008-10",
+            "brief_summary": "This study is to evaluate the efficacy and safety of Tri-Luma® Cream (fluocinolone acetonide 0.01%, hydroquinone 4%, tretinoin 0.05%) when used sequentially with a series of intense pulsed light (IPL) treatments in Subjects diagnosed with moderate to severe melasma during a 10 week treatment period.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4（n=56），Tri-Luma + IPL 序貫治療黃褐斑；因提前終止，數據完整性受損，可信度大幅下降，不應作為主要支持證據"
+            }
+          },
+          {
+            "nct_id": "NCT02138539",
+            "title": "A Clinical Usage Study to Evaluate the Safety and Efficacy of an Herbal-Based De-Pigmenting System",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2013-10",
+            "completion_date": "2014-10",
+            "brief_summary": "The purpose of this study is to evaluate the effectiveness and tolerability of an herbal de-pigmenting regimen applied to one side of the face compared with hydroquinone applied to the other side of the face in treating mottled hyperpigmentation and melasma.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4（n=28），草本去色素系統安全性/療效評估，HQ 作為主動對照組；提供間接 HQ 基準線數據，非主要研究對象"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36791447",
+            "title": "Common Skin Conditions During Pregnancy.",
+            "authors": [
+              "Erlandson Michael",
+              "Wertz Maggie C",
+              "Rosenfeld Emily"
+            ],
+            "journal": "American family physician",
+            "year": "2023",
+            "abstract": "Skin conditions during pregnancy fall into three categories: benign hormone-related changes, preexisting skin conditions, and pregnancy-specific disorders. Benign hormonal skin changes (e.g., hyperpigmentation, striae gravidarum, hair and nail changes, vascular changes) are common during pregnancy and often improve or resolve postpartum. Topical therapies, including tretinoin, hydroquinone, and corticosteroids, can be helpful in the postpartum treatment of melasma. The severity of preexisting sk",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 疾病本體論映射疑義（Critical Flag）：傳統定義的「Exanthem」為病毒性/藥物性全身性皮疹，與 HQ 機轉不符（L5）。然而所列 6 項試驗均針對黑斑/黃褐斑（melasma）或雷射後色素沉著，提示資料庫中 exanthem 可能涵蓋色素性皮膚疹此一廣義分類。若為後者，HQ 酪氨酸酶抑制機轉具直接相關性（L2~L3）。建議優先確認疾病編碼來源（ICD/SNOMED 映射）後重新評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "lichen disease",
+      "txgnn": {
+        "score": 0.9906880855560304,
+        "rank": 10036
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35151757",
+            "title": "Disorders of hyperpigmentation. Part I. Pathogenesis and clinical features of common pigmentary disorders.",
+            "authors": [
+              "Wang Rebecca F",
+              "Ko Dayoung",
+              "Friedman Ben J",
+              "Lim Henry W",
+              "Mohammad Tasneem F"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2023",
+            "abstract": "Disorders of hyperpigmentation are common and, depending on the extent and location of involvement, can affect the quality of life and pose a significant psychologic burden for patients. Given the similarities in presentation of the various causes of hyperpigmentation, it is often difficult to elucidate the etiology of these conditions, which is important to guide management. Furthermore, certain disorders, such as lichen planus pigmentosus and ashy dermatosis, have similar clinical and/or histo",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41531723",
+            "title": "An Unusual Presentation of Lichen Planus Pigmentosus Inversus Responsive to Topical Tacrolimus: A Case Report.",
+            "authors": [
+              "González-Molina Valeria J",
+              "Yadlapati Sujitha",
+              "Hohnadel Michael R",
+              "Lin Rick"
+            ],
+            "journal": "HCA healthcare journal of medicine",
+            "year": "2025",
+            "abstract": "Lichen planus pigmentosus inversus (LPPI) is a rare variant of lichen planus pigmentosus (LPP), characterized by sharply defined violaceous-brown to gray macules, papules, patches, or plaques primarily affecting the intertriginous and flexural areas. Unlike LPP, which predominantly affects Fitzpatrick skin types III to IV in sun-exposed areas, LPPI spares these regions and has been predominantly reported in White and Asian patients.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "扁平苔癬（Lichen Planus）為 CD8+ T 細胞介導的自體免疫性皮膚黏膜病變，常伴隨炎症後色素沉著（PIH）。HQ 可透過酪氨酸酶抑制減少 PIH 的新增色素，但對苔癬本體（免疫病理）無治療效果，屬症狀輔助而非疾病修飾。適用範疇侷限於色素管理，非根本治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "seborrheic dermatitis",
+      "txgnn": {
+        "score": 0.9859573841094972,
+        "rank": 13597
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脂漏性皮膚炎以 Malassezia 酵母菌過度增生、皮脂腺功能異常及先天免疫失調為主要病因，與黑色素生成路徑無直接關聯。HQ 缺乏抗真菌、抗炎或皮脂腺調控機轉，無法解決 SD 的核心病理。TxGNN 高分預測可能源於 SD 有時伴隨色素不均的圖譜節點相近性，而非直接生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "vulvar squamous neoplasm",
+      "txgnn": {
+        "score": 0.9857990741729736,
+        "rank": 13699
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外陰鱗狀腫瘤（VIN/VSCC）以 HPV 整合、p53 突變及鱗狀上皮細胞惡性轉化為主要分子病理。HQ 非抗腫瘤藥物，缺乏抗增殖或免疫調節機轉。⚠️ 安全疑慮：動物研究顯示高劑量 HQ 有腎毒性，部分研究提示潛在腫瘤促進疑慮（儘管臨床外用劑量風險低）。無任何支持性臨床依據，腫瘤適應症須格外謹慎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "annular atrophic lichen planus",
+      "txgnn": {
+        "score": 0.985471785068512,
+        "rank": 13913
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "環狀萎縮性扁平苔癬為 T 細胞介導之自體免疫病變，以表皮萎縮及基底膜帶破壞為特徵。HQ 缺乏免疫調節或抗纖維化機轉，無法影響疾病核心病理。此亞型極為罕見，無任何 HQ 相關研究依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hypertrophic lichen planus",
+      "txgnn": {
+        "score": 0.985471785068512,
+        "rank": 13914
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肥厚性扁平苔癬以慢性苔蘚化增生（角質細胞過度增殖）及持續性炎症浸潤為特徵。雖可能伴隨局部色素沉著，但主要病程非黑色素合成異常。HQ 缺乏抗炎或抗纖維化機轉，無法解決角質增生與炎症的核心病理，色素改善效益亦有限（已沉積的噬黑素細胞色素難以清除）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "lichen planus pigmentosus",
+      "txgnn": {
+        "score": 0.985471785068512,
+        "rank": 13915
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35151757",
+            "title": "Disorders of hyperpigmentation. Part I. Pathogenesis and clinical features of common pigmentary disorders.",
+            "authors": [
+              "Wang Rebecca F",
+              "Ko Dayoung",
+              "Friedman Ben J",
+              "Lim Henry W",
+              "Mohammad Tasneem F"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2023",
+            "abstract": "Disorders of hyperpigmentation are common and, depending on the extent and location of involvement, can affect the quality of life and pose a significant psychologic burden for patients. Given the similarities in presentation of the various causes of hyperpigmentation, it is often difficult to elucidate the etiology of these conditions, which is important to guide management. Furthermore, certain disorders, such as lichen planus pigmentosus and ashy dermatosis, have similar clinical and/or histo",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34567907",
+            "title": "Unilateral Distribution of Lichen Planus Pigmentosus-Inversus Unresponsive to Clobetasol and Hydroquinone.",
+            "authors": [
+              "Ramos Vanessa L",
+              "Mason Lauren R",
+              "Whitlock Scott M",
+              "Pariser Robert J"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Lichen planus pigmentosus-inversus (LPP-inversus) is a rare, pigmented variant of lichen planus of unknown etiology. This skin condition typically affects the intertriginous and flexural regions of the body bilaterally. We report an unusual case presentation with unilateral distribution of LPP-inversus in a woman originally from Nepal. The lesions developed rapidly over a three-month period and were recalcitrant to therapy with topical clobetasol and hydroquinone.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36741605",
+            "title": "Unilateral Linear Lichen Planus Pigmentosus Responding to Isotretinoin: A Case Report.",
+            "authors": [
+              "Alghamdi Fadi",
+              "Alghamdi Yara",
+              "Aleissa Abdulellah I",
+              "AlQurashi Wasan",
+              "Alharbi Abdullah"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Lichen planus pigmentosus (LPP) is a rare variant of lichen planus. Due to the scarce number of patients diagnosed with LPP, there are no treatment guidelines. Multiple topical and oral agents are utilized in LPP with varying degrees of response. Isotretinoin has only been investigated in a case report and a single prospective pilot study for managing LPP. Herein, we report the efficacy, safety, and moderate improvement of LPP patients on isotretinoin 20 mg (0.25 mg/kg), topical adapalene gel, 4",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38954615",
+            "title": "Hyperpigmented Macules and Patches on the Face: Exogenous Ochronosis or Lichen Planus Pigmentosus?",
+            "authors": [
+              "Narayanan Deepika",
+              "Tyring Stephen K"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2024",
+            "abstract": "We present a case of a patient with a 10-year history of blue-black macules and patches on the face and an associated history of skin-lightening cream usage. The skin lightening cream contained hydroquinone, which is often associated with exogenous ochronosis (EO). Interestingly, the biopsy did not show characteristic findings of ochronosis, confusing the final diagnosis, however discontinuing the skin-lightening creams halted the progression of the patient's skin lesions supporting a diagnosis ",
+            "classification": {
+              "study_type": "Case Report / Differential Diagnosis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21860153",
+            "title": "Facial melanoses: Indian perspective.",
+            "authors": [
+              "Khanna Neena",
+              "Rasool Seemab"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2011",
+            "abstract": "Facial melanoses (FM) are a common presentation in Indian patients, causing cosmetic disfigurement with considerable psychological impact. Some of the well defined causes of FM include melasma, Riehl's melanosis, Lichen planus pigmentosus, erythema dyschromicum perstans (EDP), erythrosis, and poikiloderma of Civatte. But there is considerable overlap in features amongst the clinical entities. Etiology in most of the causes is unknown, but some factors such as UV radiation in melasma, exposure to",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41531723",
+            "title": "An Unusual Presentation of Lichen Planus Pigmentosus Inversus Responsive to Topical Tacrolimus: A Case Report.",
+            "authors": [
+              "González-Molina Valeria J",
+              "Yadlapati Sujitha",
+              "Hohnadel Michael R",
+              "Lin Rick"
+            ],
+            "journal": "HCA healthcare journal of medicine",
+            "year": "2025",
+            "abstract": "Lichen planus pigmentosus inversus (LPPI) is a rare variant of lichen planus pigmentosus (LPP), characterized by sharply defined violaceous-brown to gray macules, papules, patches, or plaques primarily affecting the intertriginous and flexural areas. Unlike LPP, which predominantly affects Fitzpatrick skin types III to IV in sun-exposed areas, LPPI spares these regions and has been predominantly reported in White and Asian patients.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32566956",
+            "title": "The diagnostic conundrum of Riehl melanosis and other facial pigmentary disorders: a case report with overlapping clinical, dermoscopic, and histopathological features.",
+            "authors": [
+              "Sitohang Irma Bernadette S",
+              "Prayogo Rizky Lendl",
+              "Rihatmadja Rahadi",
+              "Sirait Sondang P"
+            ],
+            "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+            "year": "2020",
+            "abstract": "Riehl melanosis (RM) is a form of pigmented contact dermatitis that often poses a diagnostic challenge due to overlaps in its clinical, dermoscopic, and histopathological features with other pigmentary disorders. This report highlights significant findings and the proper approach for diagnosis. We present the case of a 47-year-old female with progressive facial hyperpigmentation (irregular, blotchy, grayish patches on the forehead, cheeks, and around the mouth) that acknowledged applying a light",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "LPP 以基底層黑色素細胞破壞後的噬黑素細胞（melanophage）色素沉積為特徵，理論上 HQ 酪氨酸酶抑制可減少新增黑色素合成。然而：(1) 已沉積的噬黑素細胞色素對 HQ 的反應極差；(2) 文獻顯示療效不一甚至無效（PMID 34567907）；(3) ⚠️ 長期使用 HQ 本身可引起外源性褐黃病（exogenous ochronosis），其色素沉積形態與 LPP 高度相似，形成診斷/治療的惡性循環（PMID 38954615）。風險效益比需謹慎評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn": {
+        "score": 0.984772562980652,
+        "rank": 14335
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性萎縮性肢端皮炎為 Borrelia burgdorferi 晚期萊姆病皮膚表現，病理為螺旋體持續感染引起的真皮纖維化及萎縮，與黑色素生成路徑完全無關。HQ 無抗螺旋體或抗纖維化活性。TxGNN 預測可能源於皮膚科疾病圖譜節點的拓撲距離，無任何生物學意義，不具再利用研究價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "exanthem (disease)"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "exanthem (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "exanthem (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "lichen disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "lichen disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "lichen disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "vulvar squamous neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "vulvar squamous neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "vulvar squamous neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "annular atrophic lichen planus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "annular atrophic lichen planus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "annular atrophic lichen planus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "hypertrophic lichen planus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "hypertrophic lichen planus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "hypertrophic lichen planus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "lichen planus pigmentosus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "lichen planus pigmentosus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "lichen planus pigmentosus"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroquinone",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

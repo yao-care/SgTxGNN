@@ -1,0 +1,912 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00261-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Anagrelide",
+    "drugbank_id": "DB00261",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "reactive thrombocytosis",
+      "txgnn": {
+        "score": 0.9983077049255372,
+        "rank": 3025
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10494240",
+            "title": "Essential thrombocythaemia.",
+            "authors": [
+              "Bentley M A",
+              "Taylor K M",
+              "Wright S J"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1999",
+            "abstract": "Essential thrombocythaemia (ET) is a clonal stem cell disorder that frequently presents as an incidental finding of elevated platelet counts. Diagnosis depends on exclusion of other myeloproliferative disorders and reactive thrombocytosis. Patients with platelet counts above 1000 x 10(9)/L should receive platelet-lowering therapy, even if asymptomatic. Definitive recommendations cannot yet be made for asymptomatic patients with lower platelet counts. ET can be treated with alkylating agents, rad",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15270658",
+            "title": "Anagrelide: an update on its mechanisms of action and therapeutic potential.",
+            "authors": [
+              "Dingli David",
+              "Tefferi Ayalew"
+            ],
+            "journal": "Expert review of anticancer therapy",
+            "year": "2004",
+            "abstract": "Thrombocytosis is an increasingly recognized clinical problem due to the widespread availability of automated cell counters. While reactive thrombocytosis does not require any therapeutic intervention, clonal thrombocytosis may require therapy to prevent thrombohemorrhagic complications. The clinician has a number of therapeutic options available when confronted with a patient having clonal thrombocytosis. One of these agents is anagrelide (Agrylin, Bristol-Myers Squibb). In this drug profile, a",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16019501",
+            "title": "A critical review of anagrelide therapy in essential thrombocythemia and related disorders.",
+            "authors": [
+              "Dingli David",
+              "Tefferi Ayalew"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2005",
+            "abstract": "Thrombocytosis is a common clinical problem and it represents either a primary myeloid disorder (a clonal process) or a reactive phenomenon. While reactive thrombocytosis is often inconsequential, clonal thrombocytosis may require cytoreductive therapy to prevent thrombohemorrhagic complications. In this regard, a controlled clinical trial has previously demonstrated the efficacy of hydroxyurea in reducing the risk of thrombosis in high-risk patients with essential thrombocythemia (ET). Despite ",
+            "classification": {
+              "study_type": "Critical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1994734",
+            "title": "The clinical spectrum of thrombocytosis and thrombocythemia.",
+            "authors": [
+              "Frenkel E P"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1991",
+            "abstract": "Platelet production is the result of a highly ordered maturation of a developmental hierarchy of megakaryocytic progenitor cells regulated by a variety of cytokines. GM-CSF, II-3 and II-6 have a stimulatory effect and several cytokines (TGF-beta, platelet released glycoprotein, platelet factor 4 and interferons) have inhibitory effects down regulating platelet production perhaps as part of an autocrine control loop. Excess platelet production can be clinically characterized as pseudothrombocytos",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38455691",
+            "title": "A Case of acute Myocardial Infarction in a Patient with Essential Thrombocythaemia Treated with Anagrelide.",
+            "authors": [
+              "Yetiskul Ekrem",
+              "Nisar Aqsa",
+              "Khan Salman",
+              "Qaqish Faris",
+              "Khan Danyal"
+            ],
+            "journal": "European journal of case reports in internal medicine",
+            "year": "2024",
+            "abstract": "Anagrelide is a medication primarily used to manage thrombocytosis, an abnormal increase in platelet levels in the blood. It is often prescribed for patients with myeloproliferative disorders, such as essential thrombocythaemia (ET). Given the heightened susceptibility to thromboembolism associated with this condition, the primary emphasis in treatment revolves around reducing the risk of thrombotic events through the administration of cytotoxic agents. While anagrelide is generally effective in",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28380402",
+            "title": "The role of thrombocytapheresis in the contemporary management of hyperthrombocytosis in myeloproliferative neoplasms: A case-based review.",
+            "authors": [
+              "Boddu Prajwal",
+              "Falchi Lorenzo",
+              "Hosing Chitra",
+              "Newberry Kate",
+              "Bose Prithviraj"
+            ],
+            "journal": "Leukemia research",
+            "year": "2017",
+            "abstract": "Extreme thrombocytosis induces an acquired thrombotic-hemorrhagic diathesis, and left uncontrolled is a harbinger of potentially fatal vascular complications. Currently, cytoreduction with medical therapy remains the mainstay of hyperthrombocytosis management. However, it offers a less-than-ideal option in situations where a rapid reduction in platelets is urgently needed, as in the presence of vital end-organ ischemia or to ameliorate of life-threatening hemorrhage. The role of thrombocytaphere",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27276864",
+            "title": "A case of essential thrombocythemia and ankylosing spondylitis treated with a combination of anagrelide, disease-modifying antirheumatic drugs, and etanercept.",
+            "authors": [
+              "Zeremski Vanja",
+              "Savić Aleksandar",
+              "Ilić Tatjana",
+              "Milosević Ivana",
+              "Maksimović Marina"
+            ],
+            "journal": "Srpski arhiv za celokupno lekarstvo",
+            "year": "2016",
+            "abstract": "A high platelet count, or thrombocytosis, is either a reactive process or a result of a myeloproliferative disorder. Ankylosing spondylitis is a chronic inflammatory rheumatic disease affecting the spine and sometimes peripheral joints in which reactive mild to moderate thrombocytosis is a common finding. There have been no previously reported cases of essential thrombocythemia associated with ankylosing spondylitis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7783354",
+            "title": "[Diagnosis and treatment of essential thrombocythemia].",
+            "authors": [
+              "Kuramoto A"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "1995",
+            "abstract": "Essential thrombocythemia (ET) is one of the chronic myeloproliferative disorders (MPD), clonal disorders of hematopoietic stem cell. The differential diagnosis from the other MPD and reactive thrombocytosis was described. The treatment of this disease was then stated with emphasis on the importance of control of platelet count. For the control, drugs to suppress the megakaryocytic proliferation are used, including busulfan, hydroxyurea, interferon-alpha and Anagrelide. The therapy for asymptoma",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17171694",
+            "title": "Essential versus reactive thrombocythemia in children: retrospective analyses of 12 cases.",
+            "authors": [
+              "El-Moneim Abeer Abd",
+              "Kratz Christian P",
+              "Böll Silke",
+              "Rister Manfred",
+              "Pahl Heike L"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2007",
+            "abstract": "Essential thrombocythemia (ET) rarely occurs in the pediatric population and little is known about the clinical course and the molecular characteristics.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29851840",
+            "title": "Successful replantation of 2 digits in a patient with thrombocytosis after splenectomy: A case report.",
+            "authors": [
+              "Hwang Jae Ha",
+              "Kim Dong Wan",
+              "Kim Kwang Seog",
+              "Lee Sam Yong"
+            ],
+            "journal": "Medicine",
+            "year": "2018",
+            "abstract": "Thrombosis is the most common complication of thrombocytosis, which can be particularly damaging to reattached digits. We present a guideline about digital replantation when thrombocytosis is expected.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Anagrelide 透過抑制 PDE3 → 升高 cAMP → 阻斷巨核細胞後期分化，可降低血小板生成數量。反應性血小板增多症（reactive thrombocytosis）亦表現高血小板計數，理論上可藉此途徑降板。然而關鍵差異在於：(1) 反應性血小板增多症為繼發性（感染、發炎、缺鐵、術後），根治原發病即可改善；(2) 其血小板功能通常正常，血栓風險遠低於 ET；(3) Anagrelide 具明顯心臟毒性（心律不整、液體滯留），風險效益比在自限性疾病中難以辯護。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "inverse Klippel-Trenaunay syndrome",
+      "txgnn": {
+        "score": 0.9958819150924684,
+        "rank": 5725
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Inverse KTS 為先天性血管畸形（靜脈/淋巴/毛細血管），主要由 PIK3CA 體細胞突變驅動，與血小板生成或 PDE3 訊號無明確生物學關聯。TxGNN 評分 0.996 可能來自知識圖譜中血管異常與血小板互動的間接節點，但目前無任何機轉假說支持此再利用路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn": {
+        "score": 0.9891380667686462,
+        "rank": 11165
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DFSP 由 COL1A1-PDGFB 融合基因驅動，目前標準靶向治療為 Imatinib（PDGFR 抑制劑）。Anagrelide 的 PDE3 抑制機轉與 PDGFR 訊號無直接關聯，再利用路徑缺乏合理假說，且 DFSP 有已驗證的靶向治療，優先性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.988623857498169,
+        "rank": 11577
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29037480",
+            "title": "Linking energy sensing to suppression of JAK-STAT signalling: A potential route for repurposing AMPK activators?",
+            "authors": [
+              "Speirs Claire",
+              "Williams Jamie J L",
+              "Riches Kirsten",
+              "Salt Ian P",
+              "Palmer Timothy M"
+            ],
+            "journal": "Pharmacological research",
+            "year": "2018",
+            "abstract": "Exaggerated Janus kinase-signal transducer and activator of transcription (JAK-STAT) signalling is key to the pathogenesis of pro-inflammatory disorders, such as rheumatoid arthritis and cardiovascular diseases. Mutational activation of JAKs is also responsible for several haematological malignancies, including myeloproliferative neoplasms and acute lymphoblastic leukaemia. Accumulating evidence links adenosine 5'-monophosphate (AMP)-activated protein kinase (AMPK), an energy sensor and regulato",
+            "classification": {
+              "study_type": "Mechanistic Review / Hypothesis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "僅有一篇 2018 年機轉假說文獻（PMID 29037480）：AMPK 活化 → 抑制 JAK-STAT 訊號 → 潛在抗發炎效果。Anagrelide 透過 PDE3 抑制升高 cAMP，cAMP 可能間接活化 AMPK（cAMP → PKA → AMPK 磷酸化）。此推論鏈長達三步，屬高度間接；且 JAK 抑制劑（如 Baricitinib、Tofacitinib）已是 RA 標準治療，Anagrelide 的 JAK-STAT 抑制效力未有直接證據。TxGNN 評分 0.989 可能反映 PDE3 與免疫調節的知識圖譜關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
+      "txgnn": {
+        "score": 0.9849933385849,
+        "rank": 14195
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RF+ 多關節型 JIA 為自體免疫性關節炎，與 RA 機轉相近（B 細胞、RF 陽性）。若 Anagrelide 在 RA 的機轉假說（AMPK/JAK-STAT）成立，理論上可延伸至此適應症，但目前無任何文獻支持，且兒童族群安全性資料完全缺乏。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "juvenile idiopathic arthritis",
+      "txgnn": {
+        "score": 0.984836995601654,
+        "rank": 14299
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "JIA 為異質性疾病（多種亞型），機轉涵蓋先天及後天免疫失調。Anagrelide 無直接抗關節炎機轉證據，心臟毒性在兒童族群（JIA 主要影響族群）具特殊安全顧慮，Hold 為必要決策。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "osteoarthritis",
+      "txgnn": {
+        "score": 0.9845204949378968,
+        "rank": 14505
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨關節炎為退化性疾病，主要病理為軟骨降解和骨重塑，與血小板生成或 PDE3 訊號無明確關聯（儘管血小板衍生生長因子 PDGF 參與軟骨修復，但此機轉不支持 PDE3 抑制治療 OA）。TxGNN 評分 0.985 可能源於知識圖譜中關節炎類疾病的相似節點特徵，非真實生物學關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.984511137008667,
+        "rank": 14510
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假軟骨發育不全症由 COMP 基因突變引起，為先天性骨骼發育異常，與 PDE3/血小板生物學完全無關。高 TxGNN 評分推測為知識圖譜骨骼相關節點的假陽性關聯，無任何再利用合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "rheumatoid nodulosis",
+      "txgnn": {
+        "score": 0.9813709855079652,
+        "rank": 16364
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類風濕結節病為 RA 亞型，特徵為皮下類風濕結節，與 RA 共享部分免疫機轉。同 RA 分析，機轉假說極度間接，且此罕見亞型研究人群過小，不建議以此為再利用優先目標。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "juvenile chronic polyarthritis",
+      "txgnn": {
+        "score": 0.9811923503875732,
+        "rank": 16452
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "幼年慢性多關節炎（JIA 舊分類名稱）與其他關節炎適應症性質相近，無特定 Anagrelide 再利用機轉，兒童心臟安全性顧慮與 JIA 相同。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "reactive thrombocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "reactive thrombocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "reactive thrombocytosis"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "inverse Klippel-Trenaunay syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "inverse Klippel-Trenaunay syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "inverse Klippel-Trenaunay syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "juvenile chronic polyarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "juvenile chronic polyarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Anagrelide",
+        "disease": "juvenile chronic polyarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

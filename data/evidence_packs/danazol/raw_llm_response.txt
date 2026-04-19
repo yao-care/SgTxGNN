@@ -1,0 +1,375 @@
+```json
+{
+  "drug": "Danazol",
+  "drugbank_id": "DB01406",
+  "analysis_date": "2026-04-04",
+  "drug_background": {
+    "global_moa": "合成雄激素衍生物（17α-炔基睪酮），透過抑制下視丘-垂體軸（HPO axis）的 FSH/LH 脈衝分泌、直接與雄激素/孕激素受體結合、抑制多種類固醇合成酶，造成低雌激素環境；全球已核准適應症包括子宮內膜異位症、纖維囊性乳腺病及遺傳性血管性水腫（HAE）",
+    "safety_note": "肝毒性（peliosis hepatis）、雄性化副作用、致畸胎性（X類禁忌）、哺乳期禁忌為主要安全顧慮；DDI_count=0 可能反映本地資料缺漏，需參照國際 DDI 資料庫（如與 Cyclosporin/Warfarin 有重要交互作用）"
+  },
+  "indications": [
+    {
+      "disease_name": "amenorrhea (disease)",
+      "txgnn_score": 0.9999951,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Danazol 透過抑制 FSH/LH 脈衝分泌造成無排卵，並直接使子宮內膜萎縮，為誘導藥物性閉經的一線用藥之一。臨床上用於子宮內膜異位症治療性閉經誘導、跨性別月經抑制及異常子宮出血管理，機轉與適應症直接吻合。多個 RCT（Nafarelin vs Danazol）以閉經誘導為主要終點，2024年多中心回顧性研究進一步確認其月經抑制效果。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2140996",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "高度相關：Nafarelin vs Danazol 頭對頭 RCT，閉經誘導為主要終點，直接支持"
+        },
+        {
+          "pmid": "36434439",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "relevance": "同類藥物（Gestrinone）系統性回顧，提供機轉比較基準"
+        },
+        {
+          "pmid": "39051650",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "2024多中心回顧，Danazol 用於跨性別月經抑制，提供現代族群安全性與有效性數據"
+        },
+        {
+          "pmid": "21701432",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "relevance": "異常子宮出血藥物治療系統性回顧，Danazol 為選項之一"
+        },
+        {
+          "pmid": "1533675",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "閉經誘導方法綜述，含 Danazol 機轉說明"
+        },
+        {
+          "pmid": "6819580",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance": "早期 Danazol 子宮內膜異位症治療，閉經誘導記錄"
+        },
+        {
+          "pmid": "2404115",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "Danazol 多元生物效應綜述，機轉基礎說明"
+        }
+      ],
+      "evidence_summary": "多個 RCT 支持 Danazol 誘導閉經的有效性；評為 L2 而非 L1 係因大多數 Phase 3 試驗以子宮內膜異位症為主要適應症，閉經為次要/機轉終點",
+      "guardrails": ["每3個月監測肝功能", "排除妊娠後方可使用", "注意雄性化副作用（痤瘡、多毛症）", "使用最低有效劑量（100-400mg/day）"]
+    },
+    {
+      "disease_name": "benign mammary dysplasia",
+      "txgnn_score": 0.9999899,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Danazol 抑制 FSH/LH 降低循環雌激素，並直接與乳腺組織的孕激素受體及雄激素受體結合，抑制雌激素驅動的乳腺腺泡及纖維組織增生，有效緩解乳房疼痛與結節；此為 Danazol 在美國、歐洲已有 Phase 3 RCT 支持並核准的適應症，機轉路徑完整。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6993181",
+          "study_type": "RCT/Clinical Trial",
+          "tier": "1",
+          "relevance": "核心直接證據：Danazol 治療乳腺發育異常，1980年早期 RCT"
+        },
+        {
+          "pmid": "7386553",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "relevance": "核心直接證據：Danazol 用於良性乳腺疾病臨床試驗（1980）"
+        },
+        {
+          "pmid": "16444894",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "乳房疼痛管理綜述，Danazol 被評為具有最強 RCT 支持的藥物之一"
+        },
+        {
+          "pmid": "7043344",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "乳腺發育異常醫學管理，Danazol 為一線選項"
+        },
+        {
+          "pmid": "2676763",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "Danazol 機轉與乳腺疾病治療個人臨床經驗報告"
+        },
+        {
+          "pmid": "11991427",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "女性良性乳房疼痛實務治療指引"
+        },
+        {
+          "pmid": "2696224",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "乳腺囊腫綜述，包含 Danazol 治療策略"
+        }
+      ],
+      "evidence_summary": "Danazol 在全球多個市場（FDA、EMA）已核准用於纖維囊性乳腺病，具備多個 Phase 3 RCT 及長期追蹤資料；在本地市場雖為「未上市」，但引用全球既有核准資料，屬 L1 直接證據",
+      "guardrails": ["使用前排除惡性腫瘤", "建議低劑量起始（100mg BID）", "療程通常3-6個月", "監測肝功能及脂質代謝"]
+    },
+    {
+      "disease_name": "breast adenosis",
+      "txgnn_score": 0.9999599,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "乳腺腺病（Breast adenosis）為良性腺泡增生，受雌激素持續刺激為主要驅動因素；Danazol 透過降低雌激素微環境可抑制腺泡過度增生，並緩解相關乳房疼痛及硬結。1989年有小型直接研究（低劑量 Danazol 治療乳腺腺病），並有多個纖維囊性乳腺病（含腺病成分患者）的臨床試驗間接支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2622587",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance": "⭐ 最關鍵文獻：低劑量 Danazol 直接用於乳腺腺病治療（1989），唯一針對性研究"
+        },
+        {
+          "pmid": "6594009",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "relevance": "Danazol 治療症狀性纖維囊性乳腺病長期追蹤（含腺病患者），2年以上隨訪"
+        },
+        {
+          "pmid": "2696222",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "乳房疼痛與結節性管理，Danazol 作為腺病治療選項"
+        },
+        {
+          "pmid": "7041729",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "Danazol 藥物完整評論（1982），含乳腺腺病機轉討論"
+        },
+        {
+          "pmid": "7816405",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "纖維囊性變化病理與治療綜述，涵蓋腺病亞型"
+        }
+      ],
+      "evidence_summary": "有1篇直接小型臨床研究（L3基礎）加多篇間接支持文獻；缺乏 RCT，建議設計正式 Phase 2 試驗以確認效益，進行中可收集前瞻性資料"
+    },
+    {
+      "disease_name": "apocrine adenosis of breast",
+      "txgnn_score": 0.9999870,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "頂泌腺腺病（Apocrine adenosis）為良性乳腺增生性病變，病理上與纖維囊性乳腺病存在組織學重疊；Danazol 的抗雌激素機轉理論上可能抑制增生，但現有3篇文獻均為一般性纖維囊性乳腺病或乳腺囊腫綜述，無任何直接針對頂泌腺腺病的臨床研究或病例報告。屬機轉推論性適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2696224",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "乳腺囊腫綜述，間接涵蓋腺病類型，非針對頂泌腺腺病"
+        },
+        {
+          "pmid": "1853641",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "乳腺囊腫病理回顧，間接相關"
+        },
+        {
+          "pmid": "7105513",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "纖維囊性乳腺病一般性討論，非針對性證據"
+        }
+      ],
+      "evidence_summary": "僅有間接來自相似病理類型的文獻，無法建立直接因果鏈；建議在 benign mammary dysplasia（L1）的臨床試驗中納入頂泌腺腺病亞組分析作為探索性終點"
+    },
+    {
+      "disease_name": "breast abscess",
+      "txgnn_score": 0.9999664,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "乳暈周圍膿瘍（Periareolar abscess / Zuska disease）與乳管鱗狀化生、阻塞及反覆感染有關，部分病例具有雌激素依賴性乳管增生背景；Danazol 的抗雌激素效應可能改善乳管上皮異常增生，從而減少膿瘍復發。1986年有兩篇個案系列/通訊報告直接記錄療效，但樣本數極小且缺乏對照。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3951530",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "⭐ 直接證據：Danazol 治療乳暈周圍膿瘍，首篇個案系列報告（1986）"
+        },
+        {
+          "pmid": "3748100",
+          "study_type": "Case Series/Letter",
+          "tier": "3",
+          "relevance": "後續通訊，補充支持 Danazol 用於乳暈周圍膿瘍（1986）"
+        },
+        {
+          "pmid": "11594256",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "良性乳腺疾病綜述，間接提及 Danazol 在乳房炎症相關情況的角色"
+        }
+      ],
+      "evidence_summary": "僅有1986年兩篇個案報告/通訊，近40年無後續研究；機轉合理但證據極弱。建議設計小型前瞻性觀察研究（n=20-30）評估 Danazol 對復發性乳暈周圍膿瘍的預防效果"
+    },
+    {
+      "disease_name": "lactation disease",
+      "txgnn_score": 0.9999645,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【安全性警示】Danazol 在哺乳期具有明確禁忌：可能透過乳汁移轉給嬰兒產生雄性化影響，並抑制泌乳素分泌加重泌乳不足。現有文獻主要為 HAE 孕期/哺乳安全性回顧（明確標示禁忌），而非治療性應用。機轉分析顯示 Danazol 不適合作為泌乳疾病治療藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36744397",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "⚠️ HAE 孕期/哺乳期安全性回顧，明確標示 Danazol 哺乳期禁忌"
+        },
+        {
+          "pmid": "34976488",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "⚠️ HAE 婦產科觀點，再次確認哺乳期禁忌"
+        },
+        {
+          "pmid": "76843",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "泌乳溢-子宮內膜異位症症候群個案，間接相關，非治療性證據"
+        },
+        {
+          "pmid": "3545282",
+          "study_type": "RCT",
+          "tier": "2",
+          "relevance": "Danazol 治療經前緊張症 RCT，月經調節相關，非泌乳疾病"
+        }
+      ],
+      "evidence_summary": "持有決策：缺乏治療泌乳疾病的直接正向證據，且多篇文獻明確記錄哺乳期安全禁忌；在安全性資料未有突破前不建議進一步研究此適應症組合"
+    },
+    {
+      "disease_name": "vulvovaginitis",
+      "txgnn_score": 0.9995678,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【機轉反向警示】唯一相關文獻（PMID 8551972）為體外研究，探討孕激素抑制中性球抗念珠菌活性；Danazol 具弱孕激素活性，理論上可能進一步抑制局部免疫防禦而加重念珠菌性外陰陰道炎，而非治療。機轉方向相反，無任何臨床支持，TxGNN 高分可能反映圖譜拓撲偽陽性（生殖系統疾病節點共現性）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8551972",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "relevance": "⚠️ 體外研究：孕激素抑制中性球抗念珠菌活性；Danazol 弱孕激素效應可能加重感染，非治療支持"
+        }
+      ],
+      "evidence_summary": "無臨床證據，唯一文獻指向潛在有害機轉；不建議作為研究方向"
+    },
+    {
+      "disease_name": "vulvitis",
+      "txgnn_score": 0.9995195,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰炎病因多元（感染性、過敏性、刺激性、萎縮性），Danazol 的雄激素/抗雌激素機轉與主要病理機轉無直接連結；唯一文獻與 vulvovaginitis 相同（PMID 8551972），屬體外研究且方向不利。此預測極可能為 TxGNN 圖譜中外陰炎與外陰陰道炎節點高度共現所致的偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8551972",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "relevance": "同 vulvovaginitis，不支持 Danazol 治療外陰炎；圖譜偽陽性可能性高"
+        }
+      ],
+      "evidence_summary": "無臨床證據，機轉連結薄弱；不建議作為研究方向"
+    },
+    {
+      "disease_name": "blunt duct adenosis of breast",
+      "txgnn_score": 0.9999870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鈍管腺病（Blunt duct adenosis）為乳腺末梢導管的良性擴張性病變，無獨立的雌激素驅動增生機轉研究支持；無任何文獻直接研究 Danazol 對此病的療效。TxGNN 高分（0.9999870）反映其與廣泛乳腺疾病知識圖譜類別的拓撲鄰近性，而非實質臨床證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "完全無文獻支持；若有乳腺疾病相關研究興趣，建議優先在 benign mammary dysplasia（L1）或 breast adenosis（L3）適應症下進行"
+    },
+    {
+      "disease_name": "fat necrosis of breast",
+      "txgnn_score": 0.9999664,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳腺脂肪壞死（Fat necrosis）為外傷、手術或放療後的非增生性反應性病變，主要由物理損傷及脂肪細胞壞死引發炎症反應，與雌激素調節無直接關聯；Danazol 的激素調節機轉對本病理過程無合理干預點。無任何文獻或試驗支持，為典型的 TxGNN 圖譜同類別節點偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "完全無文獻支持，且機轉上不合理；不建議進一步評估"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "disease_name": "benign mammary dysplasia",
+        "evidence_level": "L1",
+        "priority_rationale": "全球已核准適應症，具備完整 Phase 3 RCT 資料，本地上市申請最具可行性"
+      },
+      {
+        "disease_name": "amenorrhea (disease)",
+        "evidence_level": "L2",
+        "priority_rationale": "多個 RCT 支持，2024年現代族群數據強化，月經管理有明確臨床需求"
+      }
+    ],
+    "moderate_priority_indications": [
+      {
+        "disease_name": "breast adenosis",
+        "evidence_level": "L3",
+        "priority_rationale": "有直接小型研究支持，機轉合理，建議設計 Phase 2 RCT"
+      },
+      {
+        "disease_name": "breast abscess",
+        "evidence_level": "L4",
+        "priority_rationale": "針對復發性乳暈周圍膿瘍有個案報告，機轉合理，需前瞻性小型研究驗證"
+      }
+    ],
+    "low_priority_indications": [
+      "apocrine adenosis of breast (L4) - 建議作為 benign mammary dysplasia 研究的亞組分析"
+    ],
+    "not_recommended": [
+      "lactation disease - 安全禁忌",
+      "vulvovaginitis - 機轉反向",
+      "vulvitis - 無機轉連結",
+      "blunt duct adenosis of breast - 無證據",
+      "fat necrosis of breast - 機轉不合理"
+    ],
+    "data_quality_alert": "原始資料顯示 original_indications=[] 且 original_moa=[Data Gap]，建議補充 Danazol 國際核准適應症資料以完善知識圖譜；ddi_count=0 疑為資料缺漏，需核對國際 DDI 資料庫（Danazol 與 Warfarin、Cyclosporin、Statins 有重要交互作用）"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+| 疾病名稱 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|---------|---------|---------|------|---------|
+| benign mammary dysplasia | **L1** | S3 | ✅ Proceed | 全球 FDA 核准，多個 Phase 3 RCT |
+| amenorrhea (disease) | **L2** | S3 | ✅ Proceed | 多個 RCT（Nafarelin vs Danazol），2024年回顧性研究 |
+| breast adenosis | **L3** | S2 | 🔬 Research Question | 1篇直接小型研究 + 多篇間接支持 |
+| breast abscess | **L4** | S1 | 🔬 Research Question | 2篇1986年個案報告（機轉合理） |
+| apocrine adenosis of breast | **L4** | S1 | 🔬 Research Question | 僅間接文獻（建議作亞組分析） |
+| lactation disease | **L4** | S0 | ⛔ Hold | 哺乳期明確禁忌 |
+| vulvovaginitis | **L5** | S0 | ⛔ Hold | 機轉反向，可能加重念珠菌感染 |
+| vulvitis | **L5** | S0 | ⛔ Hold | 無機轉連結，圖譜偽陽性 |
+| blunt duct adenosis of breast | **L5** | S0 | ⛔ Hold | 零文獻支持 |
+| fat necrosis of breast | **L5** | S0 | ⛔ Hold | 機轉不合理，非增生性病變 |
+
+> ⚠️ **重要提醒**：本分析僅供研究參考，不構成醫療建議。TxGNN 高分（>0.999）並不等同臨床有效性；需結合文獻深度分析及專家判斷，所有再利用候選均需經過正式臨床驗證。

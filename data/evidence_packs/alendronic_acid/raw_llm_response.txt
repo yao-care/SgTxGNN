@@ -1,0 +1,233 @@
+## Alendronic Acid (DB00630) 藥物再利用證據分析
+
+```json
+{
+  "drug": "Alendronic acid",
+  "drugbank_id": "DB00630",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Alendronate 為雙磷酸鹽類骨吸收抑制劑，原適應症（骨質疏鬆症）在本資料中顯示為空，market_status=未上市，疑為當地核准資料缺漏，不影響全球臨床證據評估。",
+  "indications": [
+    {
+      "disease_name": "HIV infectious disease",
+      "txgnn_score": 0.9678,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HIV感染與抗病毒藥物（尤其 Tenofovir、蛋白酶抑制劑）誘發繼發性骨質疏鬆，機轉涉及 RANKL/OPG 軸失衡、維生素 D 代謝異常及慢性炎症（IL-6、TNF-α 上升）促進破骨細胞活化。Alendronate 透過抑制甲羥戊酸途徑（Mevalonate pathway）中的法尼基焦磷酸合成酶（FPPS），阻斷破骨細胞活化，直接對應此繼發性骨流失機轉。注意：本適應症定性為『HIV相關骨流失管理』，非治療HIV感染本身。",
+      "guardrails": [
+        "需確認 HIV 患者無食道運動障礙（Tenofovir 腎毒性患者慎用，注意腎功能 eGFR >35 才可使用）",
+        "與 Tenofovir 聯用時需監測腎功能與磷酸鹽代謝",
+        "兒童/青少年族群（NCT00921557）需注意成長板影響"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00120757",
+          "title": "Efficacy of Alendronate Versus Placebo in HIV-1 Associated Osteoporosis (Multicenter)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 140,
+          "relevance_grade": "A",
+          "reasoning": "多中心、隨機、安慰劑對照 Phase 3 RCT，140人，直接評估 Alendronate 在 HIV-1 骨質疏鬆症的療效。此為最高等級直接證據，奠定 L1 評級基礎。"
+        },
+        {
+          "nct_id": "NCT00061256",
+          "title": "Phase II, Randomized, Double-Blind, Placebo-Controlled, Once-Weekly Alendronate in HIV-Infected",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 80,
+          "relevance_grade": "A",
+          "reasoning": "雙盲安慰劑對照 Phase 2 RCT（n=80），評估每周一次劑型，提供劑量方案支持性證據，設計嚴謹。"
+        },
+        {
+          "nct_id": "NCT00921557",
+          "title": "Impact of Oral Alendronate on Bone Mineral Density in HIV-infected Children and Adolescents",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 52,
+          "relevance_grade": "A",
+          "reasoning": "針對兒童/青少年 HIV 族群的 Phase 2 RCT（n=52），拓展適用族群證據，對兒科應用具重要參考價值。"
+        },
+        {
+          "nct_id": "NCT02322099",
+          "title": "Multi-centre, Prospective, Randomised Trial of Short Course Alendronate or Placebo",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 53,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 上市後研究但提前終止（n=53），終止原因未知（可能為招募困難或安全訊號）。提供部分真實世界數據但完整性受限，列為輔助證據。需查明終止原因。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25300622",
+          "title": "Is there enough evidence to use bisphosphonates in HIV-infected patients? A systematic review and meta-analysis",
+          "year": "2014",
+          "study_type": "Systematic Review + Meta-analysis",
+          "tier": "1",
+          "note": "系統性回顧與統合分析，直接回答 HIV 族群使用雙磷酸鹽類的證據充分性，為最高等級統合性文獻證據。"
+        },
+        {
+          "pmid": "26890207",
+          "title": "Pharmacologic approaches to prevention and management of low bone mineral density in HIV-infected",
+          "year": "2016",
+          "study_type": "Pharmacologic Review / Practice Guideline",
+          "tier": "2",
+          "note": "藥理學評論兼具臨床指引性質（2016年），涵蓋預防與管理策略，提供臨床應用框架。"
+        }
+      ],
+      "evidence_summary": "1個 Phase 3 完成 RCT + 2個 Phase 2 完成 RCT + 1個 Phase 4 早終 + Tier-1 Meta-analysis → L1 最高等級。適應症定性為HIV繼發性骨質疏鬆，建議附加腎功能與食道功能評估的守護欄。"
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn_score": 0.9523,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "推測機轉極為薄弱：有觀點認為雙磷酸鹽可能影響大腦中法尼基化蛋白（Farnesylated proteins）或甲羥戊酸途徑相關的神經細胞信號，但無任何針對此特定基因性神經發育症候群的機轉研究。TxGNN 高分可能源於與其他骨代謝/溶酶體疾病的圖譜鄰近性，缺乏直接生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻，僅 TxGNN 預測（0.9523）。罕見基因性神經發育疾病，Alendronate 用於此症無任何臨床前或臨床支持。評為 L5/S0，建議不予推進。"
+    },
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn_score": 0.9482,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "貓免疫缺陷病毒（FIV）雖與 HIV 類似會導致免疫抑制，但本適應症為獸醫學範疇，Alendronate 用於貓科 AIDS 相關骨病變無任何臨床研究。TxGNN 分數高度可能反映與 HIV infectious disease 的圖譜關聯（相同分數 0.9482），屬於知識圖譜群聚效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。獸醫適應症，與 simian immunodeficiency 同分（0.9482）強烈暗示圖譜群聚假陽性。評為 L5/S0。"
+    },
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn_score": 0.9482,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "SIV 感染靈長類動物模型理論上可作為 HIV 藥物研究的橋梁，但 Alendronate 在 SIV 模型中的應用無任何已發表研究。與 Feline AIDS 同分（0.9482）再次提示圖譜的免疫缺陷疾病群聚效應，非獨立預測訊號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。動物模型適應症，與 Feline AIDS 完全同分，判斷為圖譜群聚效應。評為 L5/S0。"
+    },
+    {
+      "disease_name": "deficiency anemia",
+      "txgnn_score": 0.9425,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "間接機轉路徑：地中海貧血（Thalassemia，屬 deficiency anemia 廣義分類）患者因長期貧血→骨髓代償性擴張→骨皮質變薄，加上輸血含鐵過載抑制成骨、去鐵胺（Deferoxamine）副作用等，導致繼發性骨質疏鬆。Alendronate 可能透過抑制骨吸收改善此繼發性骨病變，但機轉路徑為『貧血→骨病變』的兩步間接關聯，非直接治療貧血。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19337161",
+          "title": "Pathogenesis and management of osteoporosis in thalassemia",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "2008年回顧性文獻，討論地中海貧血相關骨質疏鬆的病理機轉與管理，雙磷酸鹽為提及選項之一。為間接性 Tier-3 文獻，僅支持『貧血繼發骨流失』情境而非貧血本身。"
+        }
+      ],
+      "evidence_summary": "0 臨床試驗，1 間接回顧文獻（地中海貧血骨質疏鬆管理）。適應症與機轉均為間接關聯，評為 L4/S1。建議方向：確立具體子分類（如 Thalassemia-associated osteoporosis）後重新評估，目前以『Research Question』狀態進行機轉驗證研究。"
+    },
+    {
+      "disease_name": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+      "txgnn_score": 0.9061,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見先天性巨母細胞性貧血，與骨代謝的生物學連結極為薄弱。分數降至 0.906 可能反映其與 deficiency anemia 群組的圖譜鄰近性，而非獨立機轉預測。無已知生化路徑支持 Alendronate 對此疾病的影響。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。罕見先天性血液疾病，無任何臨床或臨床前證據。評為 L5/S0。"
+    },
+    {
+      "disease_name": "Plummer-Vinson syndrome",
+      "txgnn_score": 0.9037,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Plummer-Vinson 症候群（缺鐵性貧血+食道蹼+吞嚥困難）。注意：Alendronate 本身即有食道刺激的已知不良反應（需直立30分鐘），在具食道蹼/吞嚥障礙的患者中使用可能為禁忌而非適應症。此預測分數源於貧血群聚，但臨床上存在潛在安全衝突。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。不僅無支持性證據，Alendronate 的食道安全性要求與 Plummer-Vinson 食道病變構成潛在禁忌衝突。評為 L5/S0，主動排除。"
+    },
+    {
+      "disease_name": "osteomesopyknosis",
+      "txgnn_score": 0.8817,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Osteomesopyknosis 為體染色體顯性硬化性骨發育不良（骨密度過高，非過低）。Alendronate 機轉為抑制骨吸收，在骨吸收原本即已抑制/骨密度過高的疾病中，理論上為機轉反向，可能有害而非有益。TxGNN 高分可能反映骨疾病圖譜鄰近性，但機轉方向相悖。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。機轉方向與疾病特徵相悖（硬化性骨病 vs 骨吸收抑制劑），評為 L5/S0，主動不建議。"
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn_score": 0.8632,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雙磷酸鹽類在甲羥戊酸途徑的作用位點（FPPS 抑制）理論上可降低膽固醇合成的上游前驅物，但 Alendronate 的全身生物利用度極低（<1%），無法達到有效的全身性血脂調控濃度。此外，本適應症標記為「obsolete」（過時）ontology 術語，臨床相關性存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。適應症本身為過時術語，機轉雖有遠端理論基礎但藥代動力學不支持。評為 L5/S0。"
+    },
+    {
+      "disease_name": "biotin metabolic disease",
+      "txgnn_score": 0.8615,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Biotin 代謝疾病（生物素酶缺乏/全羧化酶合成酶缺乏）與 Alendronate 之間無已知生化交集。TxGNN 預測可能源於代謝疾病繼發骨骼表現的圖譜關聯（生物素缺乏可影響骨代謝），但此連結極為間接，無任何文獻支持直接應用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗，0 文獻。機轉連結推測性極強，評為 L5/S0。"
+    }
+  ],
+  "overall_summary": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 1,
+    "L5_count": 8,
+    "S3_proceed": ["HIV infectious disease"],
+    "S1_research": ["deficiency anemia"],
+    "S0_hold": [
+      "neurodevelopmental disorder with ataxic gait...",
+      "feline acquired immunodeficiency syndrome",
+      "simian immunodeficiency virus infection",
+      "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+      "Plummer-Vinson syndrome",
+      "osteomesopyknosis",
+      "obsolete familial combined hyperlipidemia",
+      "biotin metabolic disease"
+    ],
+    "active_safety_concerns": [
+      "Plummer-Vinson syndrome：食道蹼禁忌衝突",
+      "osteomesopyknosis：機轉方向相悖（硬化性骨病）",
+      "NCT02322099 早終原因需查明"
+    ],
+    "data_quality_flags": [
+      "Feline AIDS 與 Simian IV 完全同分（0.9482）→ 圖譜群聚假陽性訊號",
+      "original_indications 為空且 market_status=未上市 → 疑為地區資料缺漏，Alendronate 全球核准骨質疏鬆適應症資料未呈現",
+      "original_moa 標記 [Data Gap] → 建議補充 FPPS 抑制機轉資料"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN分數 | 試驗數 | 文獻數 | 證據等級 | 決策 |
+|--------|-----------|--------|--------|----------|------|
+| **HIV infectious disease** | 0.968 | **4** (1×Ph3✓, 2×Ph2✓, 1×Ph4⚠) | 2 | **L1** | ✅ **S3 推進** |
+| deficiency anemia | 0.942 | 0 | 1（間接） | L4 | 🔬 **S1 研究問題** |
+| Plummer-Vinson syndrome | 0.904 | 0 | 0 | L5 | 🚫 **S0 + 潛在禁忌** |
+| osteomesopyknosis | 0.882 | 0 | 0 | L5 | 🚫 **S0 + 機轉相悖** |
+| 其他6項 | 0.906–0.952 | 0 | 0 | L5 | ⏸ **S0 暫緩** |
+
+> **關鍵洞察**：本批次預測中 HIV 適應症具備極強臨床實證基礎（已有 Phase 3 RCT），其餘均為 TxGNN 圖譜外推，其中 Plummer-Vinson 與 osteomesopyknosis 存在主動安全疑慮，建議明確排除。

@@ -1,0 +1,1706 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01147-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cloxacillin",
+    "drugbank_id": "DB01147",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn": {
+        "score": 0.9830933809280396,
+        "rank": 15405
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性鼻竇炎病因複雜，涉及多種病原（含厭氧菌、H. influenzae、Streptococcus）及宿主炎症反應，Cloxacillin 的 MSSA 特異性覆蓋不符合慢性鼻竇炎典型病原學；TxGNN 高分可能反映上呼吸道解剖鄰近效應，非特異性機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn": {
+        "score": 0.9828006029129028,
+        "rank": 15572
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性篩竇炎與慢性鼻竇炎病因相似，主要為 Streptococcus pneumoniae、H. influenzae 及厭氧菌。Cloxacillin 的窄頻抗葡萄球菌特性與此病原學不匹配；僅有模型預測，無任何臨床支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn": {
+        "score": 0.9816965460777284,
+        "rank": 16188
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "副鼻竇腫瘤為惡性腫瘤，抗生素無直接抗腫瘤機轉。TxGNN 評分可能反映知識圖譜中「鼻竇」節點共享連結，而非真正治療機轉。可能的間接角色僅限術後感染預防，但不構成再利用適應症。警示：此預測可信度極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "epiglottitis",
+      "txgnn": {
+        "score": 0.9812000393867492,
+        "rank": 16448
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3209935",
+            "title": "Acute epiglottitis in adults (the Singapore experience).",
+            "authors": [
+              "Stanley R E",
+              "Liang T S"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "1988",
+            "abstract": "Acute epiglottitis in adults is a potentially fatal but self-limiting disease of increasing incidence world-wide. Forty-two patients, seen consecutively over a four year period at the ENT Department, Singapore General Hospital were reviewed retrospectively. A strong male predominance with a peak age incidence in the sixth decade was noted. A severe sore throat and dysphagia with disproportionate signs of oropharyngeal inflammation was the main presenting picture. Only three patients had stridor ",
+            "classification": {
+              "study_type": "Retrospective Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4999568",
+            "title": "Epiglottitis in adults.",
+            "authors": [
+              "May J R",
+              "Ingold A"
+            ],
+            "journal": "British medical journal",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "990756",
+            "title": "Acute epiglottiditis requiring tracheostomy in an adult.",
+            "authors": [
+              "Linaker B D"
+            ],
+            "journal": "British medical journal",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性會厭炎病原以 H. influenzae type b（Hib 疫苗普及後已減少）及 MSSA/Streptococcus 為主。Cloxacillin 對 MSSA 有效但對 H. influenzae 覆蓋不足，在懷疑 MSSA 會厭炎（如成人、免疫低下者）時可能有輔助角色；臨床通常需廣效 beta-lactam 聯合治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "bacterial arthritis",
+      "txgnn": {
+        "score": 0.97683984041214,
+        "rank": 18493
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04563325",
+            "title": "Oral-only Antibiotics for Bone and Joint Infections in Children - A Nationwide Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "2020-09-15",
+            "completion_date": "2024-08-05",
+            "brief_summary": "A nationwide, multicenter, randomized, non-inferiority trial of children with bone and joint infections. The primary objective is to determine if oral-only antibiotics (experimental arm) is non-inferior to initial intravenous antibiotics followed by oral therapy (control arm). Children will be randomized 1:1. The total treatment duration is identical in both groups. The study is open label with blinding of the primary endpoint assessor.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 RCT，針對兒童骨關節感染（含化膿性關節炎）比較口服抗生素方案，Cloxacillin 口服類似物（flucloxacillin/dicloxacillin）為此類試驗標準治療臂之常見成員；間接支持 cloxacillin 用於骨關節感染的有效性框架"
+            }
+          },
+          {
+            "nct_id": "NCT04141787",
+            "title": "Ceftriaxone as Home Intravenous Therapy for Deep-Seated Staphylococcal Infections, a Randomized Non-Inferiority Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 310,
+            "start_date": "2019-07-11",
+            "completion_date": "2024-03-30",
+            "brief_summary": "Patients who are admitted to hospital with serious infections, such as those in bone, joints or spine, require a long course of intravenous (IV) antibiotics. After an initial treatment course in hospital or through a dedicated outpatient antibiotic program many patients can complete their treatment course at home. Such infections are often caused by bacteria called Staphylococci, and currently there are three antibiotic options used routinely. A fourth antibiotic, ceftriaxone, is a promising alt",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要測試 ceftriaxone 作為 MSSA 深部感染替代方案，對照組很可能包含 cloxacillin 標準治療；與本藥為對照藥物關係，非直接測試 cloxacillin；enrollment 310 但狀態 UNKNOWN，可用性存疑"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30772469",
+            "title": "Antibiotic penetration into bone and joints: An updated review.",
+            "authors": [
+              "Thabit Abrar K",
+              "Fatani Dania F",
+              "Bamakhrama Maryam S",
+              "Barnawi Ola A",
+              "Basudan Lana O"
+            ],
+            "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+            "year": "2019",
+            "abstract": "Treatment of bone and joint infections can be challenging as antibiotics should penetrate through the rigid bone structure and into the synovial space. Several pharmacokinetic studies measured the extent of penetration of different antibiotics into bone and joint tissues. This review discusses the results of these studies and compares them with minimum inhibitory concentrations (MIC) of common pathogens implicated in bone and joint infections in order to determine which antibiotics may have a gr",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26695535",
+            "title": "Cloxacillin control of experimental arthritis induced by SEC(+) Staphylococcus aureus is associated with downmodulation of local and systemic cytokines.",
+            "authors": [
+              "Colavite Priscila Maria",
+              "Ishikawa Larissa Lumi Watanabe",
+              "Zorzella-Pezavento Sofia Fernanda Gonçalves",
+              "Oliveira Larissa Ragozo Cardoso de",
+              "França Thaís Graziela Donegá"
+            ],
+            "journal": "Cellular microbiology",
+            "year": "2016",
+            "abstract": "Staphylococcus aureus is the most common agent of septic arthritis (SA) that is a severe, rapidly progressive and erosive disease. In this work we investigated the clinical, histopathological and immunological characteristics of the SA triggered by an enterotoxin C producer S. aureus strain. The effect of a β-lactamic antibiotic over disease evolution and cytokine production was also evaluated. After confirmation that ATCC 19095 SEC(+) strain preserved its ability to produce enterotoxin C, this ",
+            "classification": {
+              "study_type": "Animal study (in vivo)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27455444",
+            "title": "Epidemiology and Management of Acute, Uncomplicated Septic Arthritis and Osteomyelitis: Spanish Multicenter Study.",
+            "authors": [
+              "Calvo Cristina",
+              "Núñez Esmeralda",
+              "Camacho Marisol",
+              "Clemente Daniel",
+              "Fernández-Cooke Elisa"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2016",
+            "abstract": "Acute osteoarticular infection (OAI) is a potentially severe disease. The aim of this study was to evaluate the etiology, clinical characteristics and therapeutic approach of OAI in children in Spain.",
+            "classification": {
+              "study_type": "Multicenter Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14632104",
+            "title": "Acute bacterial skin infections in pediatric medicine: current issues in presentation and treatment.",
+            "authors": [
+              "Hedrick James"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2003",
+            "abstract": "Bacterial skin and skin structure infections commonly encountered in children include impetigo, folliculitis, furunculosis, carbuncles, wound infections, abscesses, cellulitis, erysipelas, scarlet fever, acute paronychia, and staphylococcal scalded skin syndrome. If diagnosed early and treated appropriately, these infections are almost always curable, but some have the potential to cause serious complications such as septicemia, nephritis, carditis and arthritis if diagnosis is delayed and/or tr",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24252791",
+            "title": "Bullous herpes zoster.",
+            "authors": [
+              "Wong Ke Juin",
+              "Osowicki Joshua",
+              "Seaby Eleanor",
+              "Curtis Nigel",
+              "Gwee Amanda"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11503138",
+            "title": "Acute bacterial arthritis caused by group C streptococci.",
+            "authors": [
+              "González Terán B",
+              "Roiz M P",
+              "Ruiz Jimeno T",
+              "Rosas J",
+              "Calvo-Alén J"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2001",
+            "abstract": "To summarize the characteristics of and clinical experience with joint infection by group C streptococcus.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25104892",
+            "title": "Clinical and microbiological characteristics of patients with septic arthritis: A hospital-based study.",
+            "authors": [
+              "Muñoz-Egea María-Carmen",
+              "Blanco Antonio",
+              "Fernández-Roblas Ricardo",
+              "Gadea Ignacio",
+              "García-Cañete Joaquín"
+            ],
+            "journal": "Journal of orthopaedics",
+            "year": "2014",
+            "abstract": "To determine the clinical and epidemiological characteristics, etiology, underlying conditions, and outcomes of patients with primary septic arthritis and no prosthetic joints at a university hospital.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22153758",
+            "title": "Sternoclavicular septic arthritis and empyema.",
+            "authors": [
+              "Moreno Martínez María José",
+              "Moreno Ramos Manuel José",
+              "Linares Ferrando Luis F",
+              "Marras Fernandez-Cid Carlos",
+              "Castaño Sanchez Manuel"
+            ],
+            "journal": "Reumatologia clinica",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39204252",
+            "title": "Utilization of In Vivo Imaging System to Study Staphylococcal Sepsis and Septic Arthritis Progression in Mouse Model.",
+            "authors": [
+              "Deshmukh Meghshree",
+              "Hu Zhicheng",
+              "Mohammad Majd",
+              "Jin Tao"
+            ],
+            "journal": "Pathogens (Basel, Switzerland)",
+            "year": "2024",
+            "abstract": "Staphylococcus aureus [S. aureus] is a leading cause of sepsis and septic arthritis, conditions that pose significant medical challenges due to their high mortality and morbidity. No studies have used an in vivo imaging system [IVIS] to monitor S. aureus sepsis and septic arthritis. Here, we employed a bioluminescent reporter strain of S. aureus, Newman AH5016, administered intravenously to induce sepsis and intra-articularly to induce local septic arthritis in mice. Disease progression was moni",
+            "classification": {
+              "study_type": "Preclinical (in vivo imaging)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8245570",
+            "title": "Septic arthritis of the temporomandibular joint: review of the literature and report of two cases in children.",
+            "authors": [
+              "Leighty S M",
+              "Spach D H",
+              "Myall R W",
+              "Burns J L"
+            ],
+            "journal": "International journal of oral and maxillofacial surgery",
+            "year": "1993",
+            "abstract": "Septic arthritis of the temporomandibular joint (TMJ) has a high morbidity, is infrequently reported, and has been described almost exclusively in adults. We present two cases of septic arthritis of the TMJ that occurred in children after minor blunt trauma. Literature related to septic arthritis of the TMJ was reviewed, and a composite list of cases was constructed. The most common causes were various infections of the head and neck, rheumatic joint disease, and iatrogenesis. Pathogens may gain",
+            "classification": {
+              "study_type": "Case Report/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10350394",
+            "title": "Concentration and bactericidal activity of fusidic acid and cloxacillin in serum and synovial fluid.",
+            "authors": [
+              "Somekh E",
+              "Golan T",
+              "Tanay A",
+              "Poch F",
+              "Dan M"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1999",
+            "abstract": "Fusidic acid and cloxacillin were studied in patients who underwent joint aspiration for noninfectious disorders. Nine patients were given oral 500 mg fusidic acid tid for 72 h, the last dose being given 4, 8 or 12 h before the joint aspiration. Cloxacillin was administered in a single 2 g iv dose to 9 patients, 0.5, 4 or 8 h before the aspiration. Bactericidal activity was determined against five isolates each of methicillin-susceptible and methicillin-resistant Staphylococcus aureus. Satisfact",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21742828",
+            "title": "Adjuvant anti-tumor necrosis factor therapy for staphylococcal arthritis and sepsis: a cautionary note.",
+            "authors": [
+              "Chow Anthony W"
+            ],
+            "journal": "The Journal of infectious diseases",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21742832",
+            "title": "The combination of a tumor necrosis factor inhibitor and antibiotic alleviates staphylococcal arthritis and sepsis in mice.",
+            "authors": [
+              "Fei Ying",
+              "Wang Wanzhong",
+              "Kwiecinski Jakub",
+              "Josefsson Elisabet",
+              "Pullerits Rille"
+            ],
+            "journal": "The Journal of infectious diseases",
+            "year": "2011",
+            "abstract": "Despite advances in medical practices, in recent decades permanent reductions in joint function have not been achieved, and the high mortality rate of patients with staphylococcal septic arthritis has not substantially improved.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24640302",
+            "title": "[Septic arthritis of undetermined origin in children: a proposal for the assessment and its therapy].",
+            "authors": [
+              "Biondolillo G",
+              "Caprasse P",
+              "Battisti O"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "2014",
+            "abstract": "Septic arthritis is not a frequent, but quite classical pathology in children. It can be followed by a severe outcome in case of delayed and/or inadequate treatment. The drainage of the infected joint associated with a prompt and adapted antibiotherapy are together the cornerstones of this treatment. The isolation and identification of the causative microorganism is also of the highest importance. Up to now, unfortunately, a large proportion of septic arthritis are treated by antibiotics althoug",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17576849",
+            "title": "In vivo efficacy of moxifloxacin compared with cloxacillin and vancomycin in a Staphylococcus aureus rabbit arthritis experimental model.",
+            "authors": [
+              "Grossi Olivier",
+              "Caillon Jocelyne",
+              "Arvieux Cedric",
+              "Jacqueline Cedric",
+              "Bugnon Denis"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2007",
+            "abstract": "We investigated the efficacies of moxifloxacin, cloxacillin, and vancomycin in a rabbit model of Staphylococcus aureus arthritis. No significant difference between therapeutic regimens was observed after a 7-day treatment. Oral moxifloxacin could be a suitable alternative to standard parenteral therapy for S. aureus arthritis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12010570",
+            "title": "Combined antibiotic and free radical trap treatment is effective at combating Staphylococcus-aureus-induced septic arthritis.",
+            "authors": [
+              "Sakiniene Egidija",
+              "Collins L Vincent"
+            ],
+            "journal": "Arthritis research",
+            "year": "2002",
+            "abstract": "Although early antibiotic treatment of patients with septic arthritis eradicates bacteria, joint destruction commonly results from the unregulated host inflammatory responses to infection. The spin trap compound phenyl-N-tert-butyl nitrone (PBN) has been shown to have both anti-inflammatory and antioxidant effects. The aim of this study was to assess the effect of combined systemic administration of PBN and cloxacillin on the development of Staphylococcus aureus arthritis.Three days after Naval ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11418326",
+            "title": "Impact of transcription factors AP-1 and NF-kappaB on the outcome of experimental Staphylococcus aureus arthritis and sepsis.",
+            "authors": [
+              "Gjertsson I",
+              "Hultgren O H",
+              "Collins L V",
+              "Pettersson S",
+              "Tarkowski A"
+            ],
+            "journal": "Microbes and infection",
+            "year": "2001",
+            "abstract": "Staphylococcus aureus infection is, despite adequate antibiotic treatment, a disease characterized by high mortality. The bacterium triggers an exaggerated immune response in the host, which on the one hand acts as an efficient defense, but on the other hand gives rise to tissue damage. In this study we have modulated the hosts response to S. aureus by inhibition of nuclear factor kappaB (NF-kappaB) and activator protein-1 (AP-1)-triggered release of pro-inflammatory cytokines and tissue-destruc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29440371",
+            "title": "Antibiotics with Interleukin-15 Inhibition Reduce Joint Inflammation and Bone Erosions but Not Cartilage Destruction in Staphylococcus aureus-Induced Arthritis.",
+            "authors": [
+              "Bergmann Berglind",
+              "Jirholt Pernilla",
+              "Henning Petra",
+              "Lindholm Catharina",
+              "Ohlsson Claes"
+            ],
+            "journal": "Infection and immunity",
+            "year": "2018",
+            "abstract": "Staphylococcus aureus-induced arthritis causes rapid joint destruction, often leading to disabling joint damage despite antibiotics. We have previously shown that interleukin-15 (IL-15) inhibition without antibiotics is beneficial in S. aureus-induced arthritis. We therefore hypothesized that the inhibition of IL-15, in combination with antibiotics, might represent a useful therapy that would reduce inflammation and joint destruction but preserve the host's ability to clear the infection. Female",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24967110",
+            "title": "Microorganisms and their sensitivity pattern in septic arthritis of north Indian children: a prospective study from tertiary care level hospital.",
+            "authors": [
+              "Yadav Sanjay",
+              "Dhillon Mandeep Singh",
+              "Aggrawal Sameer",
+              "Tripathy Sujit Kumar"
+            ],
+            "journal": "ISRN orthopedics",
+            "year": "2013",
+            "abstract": "Background. Septic arthritis is a true orthopaedic emergency. Important factors determining outcome are rapid diagnosis and timely intervention. Changing trends in microbiological spectrum and emerging drug resistance poses big challenge. Present study evaluates bacterial strains and their sensitivity pattern in septic arthritis of North Indian children. Methods. Fifty children with septic arthritis of any joint were evaluated. Joint was aspirated and 2 cc of aspirated fluid was sent for gram st",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2295180",
+            "title": "Septic arthritis in the elderly.",
+            "authors": [
+              "Vincent G M",
+              "Amirault J D"
+            ],
+            "journal": "Clinical orthopaedics and related research",
+            "year": "1990",
+            "abstract": "Twenty-one patients older than 60 years of age with septic arthritis were reviewed over a ten-year period. The knee was the joint most commonly involved. Concurrent medical illnesses were noted in the majority of patients, with diabetes mellitus present in 24%. Seventy-one percent of patients had roentgenographic evidence of preexisting joint disease in the affected joint. Most patients were afebrile and had normal white blood cell counts at the time of admission. The erythrocyte sedimentation r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MSSA 是化膿性關節炎的主要病原菌，Cloxacillin 為抑制細菌細胞壁合成的 beta-lactam，對 MSSA PBP2a 結合親和力高，是 MSSA 骨關節感染臨床指引一線藥物。PMID 26695535 已於動物模型直接驗證 cloxacillin 控制 SEC+ MSSA 誘發關節炎的效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pneumonia",
+      "txgnn": {
+        "score": 0.9722386002540588,
+        "rank": 20427
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02701608",
+            "title": "Oral Switch During Treatment of Left-sided Endocarditis Due to Multi-susceptible Staphylococcus (Relais Oral Dans le Traitement Des Endocardites à Staphylocoques Multi-sensibles)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 162,
+            "start_date": "2016-02-29",
+            "completion_date": "2024-12-04",
+            "brief_summary": "Infective endocarditis (IE) is a serious infection with a significant burden for patients and hospitals (in France, median length of hospital stay = 43 days), partly due to the long duration of intravenous (IV) antibacterial treatment recommended by international guidelines, between 4 and 6 weeks in most situations.\n\nA recent survey of practices regarding the management of IE in France showed that a switch from IV to oral antibiotics is feasible, when patients with left-sided Staphylococcus IE a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 RCT 針對葡萄球菌心內膜炎口服序貫治療，非肺炎適應症；雖同為 MSSA 感染治療框架，但器官差異顯著；間接提供 cloxacillin 在 MSSA 全身感染中的療效背景"
+            }
+          },
+          {
+            "nct_id": "NCT02032654",
+            "title": "Duration of Antibiotic Therapy for Cellulitis (DANCE): a Randomized Controlled Trial Comparing 6 to 12 Days of Antibiotic Therapy for Patients Hospitalized With Cellulitis",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 151,
+            "start_date": "2014-08-26",
+            "completion_date": "2017-09-25",
+            "brief_summary": "Cellulitis is among the most common infections leading to hospitalization, yet the optimal duration of therapy remains ill defined. Pragmatically, Dutch guidelines advise 10-14 days of antibiotics, which is the current standard of care. Recently it has been shown that antibiotic treatment for pneumonia and urinary tract infections can safely and significantly be shortened. Importantly, in an outpatient setting, treatment of uncomplicated cellulitis with 5 days of antibiotics was as effective as ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對蜂窩組織炎療程長度，與肺炎無直接關聯；試驗已終止，資料可用性受限；相關性最低"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4399404",
+            "title": "Pneumonia.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21857264",
+            "title": "Systematic review on the etiology and antibiotic treatment of pneumonia in human immunodeficiency virus-infected children.",
+            "authors": [
+              "Punpanich Warunee",
+              "Groome Michelle",
+              "Muhe Lulu",
+              "Qazi Shamim A",
+              "Madhi Shabir A"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2011",
+            "abstract": "Community-acquired pneumonia (CAP) is a leading cause of morbidity and mortality in human immunodeficiency virus (HIV)-infected children.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "368330",
+            "title": "Chemotherapy of pneumonias.",
+            "authors": [
+              "White R J"
+            ],
+            "journal": "Journal of the Royal College of Physicians of London",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12292168",
+            "title": "Managing pneumonia.",
+            "authors": [
+              "Muhe L"
+            ],
+            "journal": "Child health dialogue",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14325906",
+            "title": "DICLOXACILLIN. IN VITRO AND PHARMACOLOGIC COMPARISONS WITH OXACILLIN AND CLOXACILLIN.",
+            "authors": [
+              "GRAVENKEMPER C F",
+              "BENNETT J V",
+              "BRODIE J L",
+              "KIRBY W M"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "Pharmacological Comparison Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4366123",
+            "title": "Acute respiratory failure in bronchiolitis and pneumonia in infancy. Modes of presentation and treatment.",
+            "authors": [
+              "Simpson H",
+              "Matthew D J",
+              "Habel A H",
+              "George E L"
+            ],
+            "journal": "British medical journal",
+            "year": "1974",
+            "abstract": "The modes of presentation and the management of acute respiratory failure in 11 infants with severe lower respiratory tract infections (due to respiratory syncytial virus in eight) are described. Progressive respiratory difficulties leading to exhaustion, peripheral circulatory collapse, recurrent apnoeic attacks, or generalized convulsions were the main clinical presentations resulting in severe ventilatory failure. In nine infants preventilation carbon dioxide tensions exceeded 65 mm Hg. It se",
+            "classification": {
+              "study_type": "Clinical Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24479091",
+            "title": "Etiology and Anti-microbial Sensitivity of Organisms Causing Community Acquired Pneumonia: A Single Hospital Study.",
+            "authors": [
+              "Menon Resmi U",
+              "George Abraham P",
+              "Menon Unnikrishnan K"
+            ],
+            "journal": "Journal of family medicine and primary care",
+            "year": "2013",
+            "abstract": "The objective of this study was to identify the common etiological pathogens causing community acquired pneumonia (CAP) in our hospital and sensitivity patterns to the common antibiotics used.",
+            "classification": {
+              "study_type": "Single-center Retrospective",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4456595",
+            "title": "[Peribullous pneumonia].",
+            "authors": [
+              "Heinzer F",
+              "Favez G"
+            ],
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20597925",
+            "title": "A sensitive and specific phenotypic assay for detection of metallo-β-lactamases and KPC in Klebsiella pneumoniae with the use of meropenem disks supplemented with aminophenylboronic acid, dipicolinic acid and cloxacillin.",
+            "authors": [
+              "Giske C G",
+              "Gezelius L",
+              "Samuelsen Ø",
+              "Warner M",
+              "Sundsfjord A"
+            ],
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2011",
+            "abstract": "Enterobacteriaceae producing carbapenemases, such as KPC or metallo-β-lactamases (MBLs), have emerged on several continents. Phenotypic tests are urgently needed for their rapid and accurate detection. A novel carbapenemase detection test, comprising a meropenem disk, and meropenem disks supplemented with 730 μg of EDTA, 1000 μg of dipicolinic acid (DPA), 600 μg of aminophenylboronic acid (APBA), or 750 μg of cloxacillin, was evaluated against Klebsiella pneumoniae isolates with KPC (n = 34), VI",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7502393",
+            "title": "Pneumomediastinum and subcutaneous emphysema complicating staphylococcal pneumonia.",
+            "authors": [
+              "Finnie I A",
+              "Jack C I",
+              "McKay J S"
+            ],
+            "journal": "The Ulster medical journal",
+            "year": "1995",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10524959",
+            "title": "Bacteremic pneumonia due to Staphylococcus aureus: A comparison of disease caused by methicillin-resistant and methicillin-susceptible organisms.",
+            "authors": [
+              "González C",
+              "Rubio M",
+              "Romero-Vivas J",
+              "González M",
+              "Picazo J J"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1999",
+            "abstract": "We performed a prospective study of all patients with bacteremic pneumonia due to Staphylococcus aureus over a period of 6 years during an outbreak of methicillin-resistant S. aureus (MRSA). Patients with bacteremic pneumonia due to MRSA (32 cases) or methicillin-susceptible S. aureus (MSSA; 54 cases) were compared. The patients with MRSA pneumonia were older and were more likely than those with MSSA pneumonia to have predisposing factors for acquisition of the infection. There were no differenc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3489749",
+            "title": "Nursing home-acquired pneumonia. A case-control study.",
+            "authors": [
+              "Marrie T J",
+              "Durant H",
+              "Kwan C"
+            ],
+            "journal": "Journal of the American Geriatrics Society",
+            "year": "1986",
+            "abstract": "To determine if there are any unique features of nursing home-acquired pneumonia we carried out a case-control study wherein each patient admitted with nursing home-acquired pneumonia was age- and sex-matched with a patient with community-acquired pneumonia. There were 36 men and 38 women in the nursing home group. The mean age of both groups was 74 years. The mortality rate for nursing home-acquired pneumonia it was 40.5%, whereas for community-acquired pneumonia it was 28% (P = NS). Patients w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3969",
+            "title": "Bactericidal activity and pharmacology of flucloxacillin.",
+            "authors": [
+              "Bergeron M G",
+              "Brusch J L",
+              "Barza M",
+              "Weinstein L"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1976",
+            "abstract": "Flucloxacillin, a recent addition to the group of isoxazolyl penicillins, was studied in vitro and in normal volunteers. The bactericidal activity of the drug against most strains of gram-positive bacteria including penicillin-resistant Staphylococcus aureus was similar to that of oxacillin and approximately fourfold greater than that of cloxacillin. Each of the three penicillins was administered orally to a group of ten volunteers for eight days in a dose of 500 mg four times a day. The mean co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33419747",
+            "title": "Flucloxacillin and paracetamol induced pyroglutamic acidosis.",
+            "authors": [
+              "Zand Irani Anis",
+              "Borchert Grace",
+              "Craven Brendan",
+              "Gibbons Holly"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2021",
+            "abstract": "A 75-year-old woman was admitted to a regional hospital with an acute kidney injury (AKI) and nausea on a background of recent treatment for Staphylococcus aureus bacteraemia secondary to pneumonia. The treatment thereof resulted in a high anion gap metabolic acidosis (HAGMA). The pneumonia was initially treated with intravenous piperacillin and tazobactam and the patient transferred to a tertiary hospital. There, the diagnosis of S. aureus bacteraemia secondary to a pulmonary source was confirm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9154675",
+            "title": "Hospitalized patients with community-acquired pneumonia in Hong Kong: a randomized study comparing imipenem/cilastatin and ceftazidime.",
+            "authors": [
+              "Ho A",
+              "Leung R",
+              "Lai C K",
+              "Chan T H",
+              "Chan C H"
+            ],
+            "journal": "Respiration; international review of thoracic diseases",
+            "year": "1997",
+            "abstract": "The aetiology and outcome of hospitalized patients with moderate to severe community-acquired pneumonia (CAP) were evaluated in 60 adult patients (38 male 22 female, mean age 68.4 years). They were randomized for treatment with either ceftazidime or imipenem/cilastatin intravenously for 7 days. Bacteriological diagnoses were made in 25 cases (41.6%): Streptococcus pneumoniae (5), Haemophilus influenzae (5), Pseudomonas spp. in particular Pseudomonas aeruginosa (8), Staphylococcus aureus (4), Chl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4328651",
+            "title": "Type 7 adenovirus pneumonia.",
+            "authors": [
+              "Similä S",
+              "Ylikorkala O",
+              "Wasz-Höckert O"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30224941",
+            "title": "Catheter-Associated Urinary Tract Infection and Obstinate Biofilm Producers.",
+            "authors": [
+              "Maharjan Govinda",
+              "Khadka Priyatam",
+              "Siddhi Shilpakar Gomik",
+              "Chapagain Ganesh",
+              "Dhungana Guna Raj"
+            ],
+            "journal": "The Canadian journal of infectious diseases & medical microbiology = Journal canadien des maladies infectieuses et de la microbiologie medicale",
+            "year": "2018",
+            "abstract": "Biofilms, or colonies of uropathogen growing on the surface of indwelling medical devices, can inflict obstinate or recurring infection, thought-provoking antimicrobial therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29171743",
+            "title": "[Bartholinitis due to Streptococcus pneumoniae].",
+            "authors": [
+              "Sante Fernández L",
+              "Sánchez-Molowny S",
+              "Cuervo Abarquero M M",
+              "Lecuona Fernández M"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35842996",
+            "title": "Detection of OXA-181-producing Pseudomonas aeruginosa in Germany.",
+            "authors": [
+              "Schauer Jennifer",
+              "Gatermann Sören G",
+              "Eisfeld Jessica",
+              "Hans Jörg",
+              "Pfennigwerth Niels"
+            ],
+            "journal": "International journal of medical microbiology : IJMM",
+            "year": "2022",
+            "abstract": "To report the detection of the class D carbapenemase OXA-181 in an MDR clinical Pseudomonas aeruginosa isolate in Germany.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40423746",
+            "title": "Nano-engineered Antibiotic Formulation That Targets Chronic MRSA Infection.",
+            "authors": [
+              "Praseetha P K",
+              "Vijayakumar S",
+              "Gangadhar Lekshmi",
+              "Gopukumar S T",
+              "Vijayakumar S"
+            ],
+            "journal": "Applied biochemistry and biotechnology",
+            "year": "2025",
+            "abstract": "The health of millions of people is seriously threatened by infectious diseases that spread rapidly within communities and can lead to outbreaks if not effectively controlled by medical personnel. This study examines the complex mechanisms of antibiotic resistance, specifically focusing on the emergence of methicillin-resistant Staphylococcus aureus (MRSA) and Extended-Spectrum Beta-Lactamase (ESBL)-producing bacteria in Indian healthcare settings. MRSA isolates exhibited complete resistance to ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Staphylococcal pneumonia（MSSA）為重症肺炎重要病因，多見於流感後繼發感染、血行播散（菌血症性肺炎）及醫療相關肺炎。Cloxacillin 為 MSSA 肺炎指引推薦用藥，但所列臨床試驗均非針對肺炎，文獻亦多為一般性肺炎治療討論，缺乏 cloxacillin 在肺炎的獨立 RCT 證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "laryngitis",
+      "txgnn": {
+        "score": 0.9631829857826232,
+        "rank": 23414
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3209935",
+            "title": "Acute epiglottitis in adults (the Singapore experience).",
+            "authors": [
+              "Stanley R E",
+              "Liang T S"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "1988",
+            "abstract": "Acute epiglottitis in adults is a potentially fatal but self-limiting disease of increasing incidence world-wide. Forty-two patients, seen consecutively over a four year period at the ENT Department, Singapore General Hospital were reviewed retrospectively. A strong male predominance with a peak age incidence in the sixth decade was noted. A severe sore throat and dysphagia with disproportionate signs of oropharyngeal inflammation was the main presenting picture. Only three patients had stridor ",
+            "classification": {
+              "study_type": "Retrospective Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4999568",
+            "title": "Epiglottitis in adults.",
+            "authors": [
+              "May J R",
+              "Ingold A"
+            ],
+            "journal": "British medical journal",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35228218",
+            "title": "Glottic Staphylococcus aureus in a patient with systemic lupus erythematosus: videolaryngostroboscopic characteristics.",
+            "authors": [
+              "Mohd Ramli Siti Sarah",
+              "Mat Baki Marina"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2022",
+            "abstract": "Systemic lupus erythematous (SLE) is an autoimmune disease commonly treated with steroid which leads to immunosuppression and increased susceptibility to infection. Chronic laryngitis with whitish lesion on the true vocal fold in SLE may be caused by opportunistic organisms, such as tuberculous, fungal and Staphylococcus aureus infections. Videolaryngostroboscopy may be helpful in leading to the diagnosis and optimum treatment of glottic S. aureus A woman in her 40s with SLE presented with progr",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3249372",
+            "title": "[Pharmacokinetic and clinical studies of sultamicillin granule in the pediatric field].",
+            "authors": [
+              "Motohiro T",
+              "Sakata Y",
+              "Aramaki M",
+              "Oda K",
+              "Kawakami A"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1988",
+            "abstract": "Sultamicillin (SBTPC) is a combined drug of ampicillin (ABPC) and sulbactam (SBT) which is an inhibitor of beta-lactamase, in a clinical form of tosylate with equivalent molecules in ester linkages. A tablet form of this combined drug has been released since July, 1987 in Japan and now a granular form for pediatric patients has been developed. Hence, the granular form of SBTPC was administered to 6 boys (age: 8 years 5 months-11 years 5 months) to determine plasma and urinary concentrations of t",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4853707",
+            "title": "Posterior pharyngeal tension pneumatocele.",
+            "authors": [
+              "Paterson H H",
+              "Scriver F G"
+            ],
+            "journal": "Canadian Medical Association journal",
+            "year": "1974",
+            "abstract": "This unusual clinical entity is presented as a rare variant of the more common posterior pharyngeal abscess. The more important considerations discussed are: (a) the necessity for routine chest radiography in a case of \"croup\", including a view of the laryngeal area to rule out a foreign body; (b) the importance of routine and regular follow-up after removal of a laryngeal or esophageal foreign body, including close consultation with the radiology department; and (c) the inherent life-threatenin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11276341",
+            "title": "Supraglottitis complicated by mediastinitis.",
+            "authors": [
+              "Coales U F",
+              "Solomons N"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "2001",
+            "abstract": "A rare case of supraglottitis complicated by mediastinitis is presented. Despite aggressive treatment with broadspectrum intravenous antibiotics, the patient persisted to have generalized supraglottitis. Subsequent computed tomography (CT) scanning revealed that she had developed a frank fluid collection starting at the suprasternal notch, extending retrosternally into the superior mediastinum. She recovered with conservative management and did not require aggressive mediastinal drainage as advo",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4589335",
+            "title": "Prophylactic antibiotics in oral, pharyngeal and laryngeal surgery for cancer: (a double-blind study).",
+            "authors": [
+              "Dor P",
+              "Klastersky J"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT (prophylaxis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7307447",
+            "title": "[Clinical studies of the therapeutic effectiveness of the combination of tranexamic acid and antibiotics in otorhinolaryngology].",
+            "authors": [
+              "Redaelli G A",
+              "D'Ascanio G F",
+              "Ferrarini A",
+              "Poma A"
+            ],
+            "journal": "La Clinica terapeutica",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "990756",
+            "title": "Acute epiglottiditis requiring tracheostomy in an adult.",
+            "authors": [
+              "Linaker B D"
+            ],
+            "journal": "British medical journal",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2515881",
+            "title": "Disseminated cat-scratch disease in a patient with AIDS.",
+            "authors": [
+              "van der Wouw P A",
+              "Hadderingh R J",
+              "Reiss P",
+              "Hulsebosch H J",
+              "Walford N"
+            ],
+            "journal": "AIDS (London, England)",
+            "year": "1989",
+            "abstract": "A patient with AIDS developed subcutaneous nodules and associated osteolytic lesions with negative stains and cultures for bacteria, fungi and parasites. Flucloxacillin was not effective but treatment with vancomycin was associated with improvement. Six months later the patient became severely ill, with fever, malaise and multiple skin and laryngeal papules. Cat-scratch disease was diagnosed from the typical epithelioid angiomatosis seen in skin biopsies with bacterium-like structures in the War",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "大多數喉炎為病毒性，細菌性喉炎佔少數，偶見 MSSA 相關喉炎（如 PMID 35228218 所示 SLE 患者 Staph aureus 聲門炎）。文獻主要為相鄰解剖部位（會厭炎、聲門上炎）間接證據，無針對喉炎的 cloxacillin 研究；適應症邊界不清晰，建議暫緩。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "celiac trunk compression syndrome",
+      "txgnn": {
+        "score": 0.959333062171936,
+        "rank": 24460
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹腔幹壓迫症候群（Dunbar syndrome）為血管解剖異常，抗生素無已知治療機轉。與感染無直接關聯，TxGNN 預測可能為偽陽性，應視為圖譜拓撲雜訊。無任何臨床或臨床前證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "abdominal cystic lymphangioma",
+      "txgnn": {
+        "score": 0.959333062171936,
+        "rank": 24461
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹部囊性淋巴管瘤為良性先天性淋巴管畸形，治療以手術切除為主。抗生素無治療機轉，除非繼發感染。TxGNN 預測可能反映共享知識圖譜節點而非真正藥物-疾病機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "abdominal ectopic pregnancy",
+      "txgnn": {
+        "score": 0.959333062171936,
+        "rank": 24462
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹腔異位妊娠為外科急症，處理以手術或藥物（methotrexate）終止妊娠為主。Cloxacillin 對妊娠本身無治療機轉；唯一可能角色為術後感染預防，但不構成再利用適應症。此預測極可能為偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "laryngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "laryngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "laryngitis"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cloxacillin",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

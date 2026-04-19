@@ -1,0 +1,377 @@
+```json
+{
+  "drug": "Imiquimod",
+  "drugbank_id": "DB00724",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "pre-malignant neoplasm",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Imiquimod 為 TLR7/TLR8 促效劑，激活先天免疫（IFN-α、TNF-α、IL-12 分泌）與適應性免疫（DC 成熟、Th1/CTL 反應），直接清除異型增生/前惡性細胞；另可透過下調 Bcl-2 誘導凋亡。此機轉對皮膚及黏膜前惡性病變（如光化性角化症、CIN、VIN）具直接適用性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03233412",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，COMPLETED，n=90，直接評估局部 imiquimod 於上皮內病變（intraepithelial lesions）之療效，設計嚴謹、樣本量足，為最核心證據。"
+        },
+        {
+          "nct_id": "NCT02242929",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，n=145，比較手術切除 vs imiquimod 輔助治療於結節性基底細胞癌，樣本量充足但狀態 UNKNOWN，結果可取性待確認。"
+        },
+        {
+          "nct_id": "NCT00175643",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，COMPLETED，但 n=20 過小；直接評估 imiquimod 5% 於前惡性皮膚病變，設計相關但統計效力不足。"
+        },
+        {
+          "nct_id": "NCT02329171",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 RCT 評估 imiquimod 於高級別子宮頸 CIN，但 TERMINATED 且僅招募 9 人，未完成之研究不具結論性。"
+        },
+        {
+          "nct_id": "NCT04219358",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，TERMINATED，評估不同濃度 imiquimod 局部應用，研究終止削弱證據價值。"
+        },
+        {
+          "nct_id": "NCT02234921",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，n=3，imiquimod 作為 DRibble 疫苗佐劑用於攝護腺癌，imiquimod 非主要干預，間接相關。"
+        },
+        {
+          "nct_id": "NCT00142454",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，n=9，imiquimod 作為 NY-ESO-1 疫苗佐劑，黑色素瘤適應症且樣本極小，間接相關。"
+        },
+        {
+          "nct_id": "NCT04072900",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，UNKNOWN 狀態，imiquimod 為個人化腫瘤疫苗聯合抗 PD-1 之佐劑，評估重點非 imiquimod 單藥效果。"
+        },
+        {
+          "nct_id": "NCT03057340",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，UNKNOWN，肺癌 DRibble 抗原靶向治療，imiquimod 角色為免疫佐劑，與前惡性病變直接適應症相關性低。"
+        },
+        {
+          "nct_id": "NCT07077616",
+          "relevance_grade": "C",
+          "reasoning": "Early Phase 1，RECRUITING，AI 量子力學個人化療法，研究設計新穎但尚未有結果，方法論評估不確定。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23235673",
+          "study_type": "Cochrane Systematic Review",
+          "tier": 1,
+          "note": "肛管上皮內瘤變介入措施，Cochrane 等級，直接支持 imiquimod 療效"
+        },
+        {
+          "pmid": "21491403",
+          "study_type": "Cochrane Systematic Review",
+          "tier": 1,
+          "note": "高級別外陰上皮內瘤變醫療介入，Cochrane 等級，直接支持 imiquimod 5% 之療效"
+        },
+        {
+          "pmid": "26516853",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "非黑色素瘤皮膚癌光動力治療合併 imiquimod 之綜合評述"
+        },
+        {
+          "pmid": "15584683",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "非黑色素瘤皮膚癌及前驅病變局部治療策略系統性回顧"
+        },
+        {
+          "pmid": "20505896",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "光化性角化症（前惡性）目前治療管理回顧，包含 imiquimod 療效分析"
+        },
+        {
+          "pmid": "29500135",
+          "study_type": "Preclinical PK/PD",
+          "tier": 3,
+          "note": "膀胱內 TMX-101/TMX-202 (imiquimod 衍生物) PK/PD 研究，動物試驗"
+        },
+        {
+          "pmid": "30284955",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "腎移植患者高級別外陰 VIN 以 imiquimod 5% 成功治療，免疫抑制情境下之特殊案例"
+        },
+        {
+          "pmid": "18931984",
+          "study_type": "Case Report / Imaging",
+          "tier": 3,
+          "note": "光化性角化症 OCT 影像研究，間接支持治療監測"
+        },
+        {
+          "pmid": "15601490",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "陰莖 Bowenoid 丘疹病以 imiquimod 5% 成功治療個案"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign neoplasm of buccal mucosa",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "TLR7 促效活化口腔黏膜局部免疫微環境，理論上可抑制異型增生上皮增殖；然而口腔黏膜之吸收性、唾液稀釋效應及黏膜刺激性使局部給藥挑戰高於皮膚。需考量 off-label 安全性（PMID 38867102）及潛在惡性轉化風險（PMID 12719972 有負面案例）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37817570",
+          "study_type": "Scoping Review",
+          "tier": 2,
+          "note": "2024 年 imiquimod 治療口腔黏膜疾病之範疇性回顧，梳理現有證據缺口，奠定研究問題基礎"
+        },
+        {
+          "pmid": "38867102",
+          "study_type": "Safety Review",
+          "tier": 2,
+          "note": "2024 年系統性安全評估 imiquimod 口腔 off-label 使用，辨識不良事件類型及頻率"
+        },
+        {
+          "pmid": "20683029",
+          "study_type": "Experimental (Animal)",
+          "tier": 3,
+          "note": "口腔黏膜異型增生動物模型，imiquimod 顯示抑制效果，但為前臨床證據"
+        },
+        {
+          "pmid": "22941426",
+          "study_type": "Experimental (Animal)",
+          "tier": 3,
+          "note": "倉鼠化學誘導口腔癌模型中 imiquimod 合併低能量雷射之前臨床研究"
+        },
+        {
+          "pmid": "36919255",
+          "study_type": "In Vitro / Experimental",
+          "tier": 3,
+          "note": "緊密連結蛋白 ZO-1 在上皮增殖與 imiquimod 治療下之分布變化，機轉研究"
+        },
+        {
+          "pmid": "17138226",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "口腔黏膜上皮內黑色素瘤以 imiquimod 成功治療個案，概念驗證性"
+        },
+        {
+          "pmid": "16504866",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "HIV 陽性患者口腔 Bowenoid 丘疹病個案報告，免疫抑制背景"
+        },
+        {
+          "pmid": "12719972",
+          "study_type": "Case Report (Adverse)",
+          "tier": 3,
+          "note": "⚠️ 負面案例：口腔乳頭瘤病治療期間發生惡性轉化，提示潛在安全疑慮，需謹慎解讀"
+        }
+      ]
+    },
+    {
+      "disease_name": "cervical neuroblastoma",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉：TLR7 促效可激活 NK 細胞及 CTL 對神經母細胞瘤細胞之毒殺作用，NF-κB 路徑調控可能影響腫瘤存活；然而神經母細胞瘤為神經嵴來源腫瘤，其腫瘤微環境與皮膚/上皮腫瘤迥異，TLR7 表達量及反應性尚無臨床數據。TxGNN 高分可能源於知識圖譜中「腫瘤免疫療法」節點之拓撲鄰近性，並非直接生物機轉依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "odontogenic cyst",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "間接機轉：文獻主要集中於 Gorlin-Goltz 症候群（痣樣基底細胞癌症候群，PTCH1/SUFU 突變），該症候群同時呈現多發性牙源性角化囊腫與多發性 BCC；imiquimod 於此情境下係用於治療 BCC 成分，並非直接針對牙源性囊腫。無 imiquimod 對囊腫上皮直接作用之臨床或前臨床機轉數據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30995852",
+          "study_type": "Review (Gorlin Syndrome)",
+          "tier": 2,
+          "note": "Gorlin-Goltz 症候群（含牙源性角化囊腫）綜合回顧，imiquimod 用於 BCC 成分，非直接針對囊腫"
+        },
+        {
+          "pmid": "12227875",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "Gorlin 症候群患者之淺表及結節性 BCC 以 imiquimod 局部治療，n 小但直接相關情境"
+        },
+        {
+          "pmid": "21315966",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "痣樣基底細胞癌症候群患者 BCC 以 imiquimod 完全緩解之個案"
+        },
+        {
+          "pmid": "19207641",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "痣樣 BCC 症候群患者之 BCC 治療策略回顧，包含微創方法及 imiquimod"
+        },
+        {
+          "pmid": "18306849",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "Gorlin 症候群微創治療更新回顧，imiquimod 列為 BCC 治療選項"
+        },
+        {
+          "pmid": "23725561",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "基底細胞痣症候群（BCNS）全面回顧，PTCH 突變機轉及治療選項"
+        },
+        {
+          "pmid": "26550910",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "基底細胞癌光動力治療回顧，imiquimod 作為比較療法"
+        },
+        {
+          "pmid": "22177102",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "Hedgehog 信號路徑抑制劑及新興治療回顧，包含免疫調節療法"
+        },
+        {
+          "pmid": "24575881",
+          "study_type": "Case Report (Adverse)",
+          "tier": 3,
+          "note": "⚠️ 安全警示：BCNS 患者使用 imiquimod 後出現扁平苔癬性毛囊炎，提示自體免疫不良反應風險"
+        },
+        {
+          "pmid": "29603722",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "SUFU 突變 Gorlin-Goltz 症候群以抗 PD-1 有效治療，暗示免疫療法潛力但非 imiquimod 直接證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign neoplasm of tongue",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "目前僅有一篇 2024 年脂質體包覆 imiquimod 之奈米遞藥前臨床研究（PMID 39094208）用於頭頸癌靶向遞藥，研究重點為遞藥系統，非舌部良性腫瘤直接療效。TxGNN 預測分數高可能反映圖譜中口腔/頭頸解剖節點之近鄰性，無法作為臨床推進依據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39094208",
+          "study_type": "Preclinical (Drug Delivery)",
+          "tier": 3,
+          "note": "適體功能化脂質體遞藥系統用於頭頸癌，imiquimod 作為治療載荷，前臨床概念驗證"
+        }
+      ]
+    },
+    {
+      "disease_name": "nasopharyngeal teratoma",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻咽畸胎瘤為極罕見胚胎性腫瘤（生殖細胞來源），主要治療為外科切除；TLR7 促效之免疫調節作用對此類腫瘤無理論機轉依據。TxGNN 高分為圖譜拓撲預測，無任何臨床或前臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cystic neoplasm",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「囊性腫瘤」為異質性廣泛分類（涵蓋胰腺、卵巢、肺等多部位），無針對此廣義疾病類別之 imiquimod 臨床或前臨床研究。需先明確囊性腫瘤之具體亞型方能進行機轉評估。TxGNN 預測缺乏足夠分辨率以指導臨床決策。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "inner ear neoplasm",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內耳腫瘤（如聽神經鞘瘤、內淋巴囊腫瘤）因解剖障壁及血-迷路屏障，局部外用 imiquimod 無法到達作用部位；全身給藥之 TLR7 促效作用於此類腫瘤微環境之機轉依據完全缺乏。屬純預測，無任何支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neoplasm of major salivary gland",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唾液腺腫瘤（腮腺、頜下腺、舌下腺）多為多型性腺瘤或黏液表皮樣癌等，無 imiquimod TLR7 促效對唾液腺腫瘤之作用機轉研究。達唾液腺之藥物遞送需全身途徑，現有局部給藥設計不適用。TxGNN 評分源自圖譜鄰近性推斷，無臨床意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "schwannoma of jugular foramen",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頸靜脈孔神經鞘瘤（第 IX-XII 腦神經）為深部顱底腫瘤，Schwann 細胞來源；外用 imiquimod 完全無法到達，全身途徑亦無 TLR7 對神經鞘瘤之療效機轉研究。此預測可能因知識圖譜中「TLR7-免疫活化-腫瘤抑制」通路之廣泛連結所致，但缺乏任何臨床轉化依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_count": 0,
+    "L2_count": 1,
+    "L3_count": 0,
+    "L4_count": 2,
+    "L5_count": 7,
+    "actionable_indications": [
+      {
+        "disease_name": "pre-malignant neoplasm",
+        "priority": "HIGH",
+        "key_evidence": "Phase 2 RCT (n=90) + 2 Cochrane reviews + Phase 3 trials",
+        "guardrails": "限定於皮膚/黏膜可直接局部給藥之前惡性病變；需監測局部刺激、免疫調節不良反應；避免免疫抑制患者（器官移植）之廣泛使用"
+      },
+      {
+        "disease_name": "benign neoplasm of buccal mucosa",
+        "priority": "LOW-MEDIUM",
+        "key_evidence": "Scoping review + 安全性回顧 + 動物模型，但有惡性轉化負面案例",
+        "guardrails": "需前瞻性安全性研究確認口腔黏膜耐受性；PMID 12719972 惡性轉化案例需審慎評估；off-label 使用需知情同意及病理確認"
+      },
+      {
+        "disease_name": "odontogenic cyst",
+        "priority": "LOW",
+        "key_evidence": "間接：Gorlin 症候群 BCC 治療情境中之 imiquimod 使用，非直接針對囊腫",
+        "guardrails": "僅適用於 Gorlin 症候群合併 BCC 之症狀管理；囊腫本身不建議 imiquimod 作為主要治療"
+      }
+    ],
+    "overall_assessment": "Imiquimod 作為 TLR7/8 促效劑在皮膚及黏膜前惡性病變（pre-malignant neoplasm）具 L2 等級循證基礎，可在適當監測下推進臨床應用。口腔黏膜及 Gorlin 症候群情境具研究價值但需進一步臨床研究。其餘 7 個適應症（神經母細胞瘤、鼻咽畸胎瘤、囊性腫瘤、內耳/唾液腺腫瘤、頸靜脈孔神經鞘瘤）均為純 TxGNN 圖譜預測，缺乏機轉及臨床依據，建議暫緩（Hold），不建議基於現有證據推進研究。"
+  }
+}
+```
+
+---
+
+## 評估摘要表
+
+| 疾病 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|------|---------|---------|------|---------|
+| **pre-malignant neoplasm** | **L2** | **S3** | ✅ Proceed w/ Guardrails | Phase 2 RCT (n=90) + 2×Cochrane Reviews |
+| **benign neoplasm of buccal mucosa** | L4 | S1 | 🔬 Research Question | Scoping review + 動物模型（有負面案例⚠️） |
+| **odontogenic cyst** | L4 | S1 | 🔬 Research Question | 間接：Gorlin 症候群 BCC 情境 |
+| **benign neoplasm of tongue** | L5 | S0 | 🛑 Hold | 僅1篇前臨床遞藥研究 |
+| **cervical neuroblastoma** | L5 | S0 | 🛑 Hold | 純預測，零臨床證據 |
+| **nasopharyngeal teratoma** | L5 | S0 | 🛑 Hold | 純預測，零臨床證據 |
+| **cystic neoplasm** | L5 | S0 | 🛑 Hold | 純預測，分類過廣 |
+| **inner ear neoplasm** | L5 | S0 | 🛑 Hold | 解剖障壁，無法給藥 |
+| **neoplasm of major salivary gland** | L5 | S0 | 🛑 Hold | 純預測，零臨床證據 |
+| **schwannoma of jugular foramen** | L5 | S0 | 🛑 Hold | 深部顱底，無法到達 |

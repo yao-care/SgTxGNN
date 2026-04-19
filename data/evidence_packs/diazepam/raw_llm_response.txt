@@ -1,0 +1,529 @@
+## Diazepam (DB00829) 藥物再利用證據分析
+
+以下為針對 10 個 TxGNN 預測適應症的系統性評估：
+
+---
+
+### 評估摘要
+
+| 疾病 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|------|------------|---------|---------|------|
+| insomnia | 0.99999 | L2 | S2 | Proceed with Guardrails |
+| sleep disorder (DIMS) | 0.99973 | L3 | S1 | Research Question |
+| hallucinogen abuse | 0.99954 | L4 | S1 | Research Question |
+| antidepressant type abuse | 0.99954 | L4 | S0 | Hold |
+| cauda equina syndrome | 0.99987 | L5 | S0 | Hold |
+| ADHD inattentive type | 0.99968 | L5 | S0 | Hold |
+| barbiturate abuse | 0.99954 | L5 | S0 | Hold |
+| specific developmental disorder | 0.99947 | L5 | S0 | Hold |
+| ADHD | 0.99932 | L5 | S0 | Hold |
+| obsolete neurogenic bladder | 0.99913 | L5 | S0 | Hold |
+
+---
+
+```json
+{
+  "drug": "Diazepam",
+  "drugbank_id": "DB00829",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Diazepam 為苯二氮平類 GABA-A 受體正向異位調節劑，原始適應症欄位為空（市場狀態：未上市），本次以再利用框架進行評估。多數高分預測適應症（ADHD、發育障礙）與其 GABAergic 抑制機轉相悖，需審慎解讀 TxGNN 分數。",
+  "indications": [
+    {
+      "disease_name": "insomnia (disease)",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Diazepam 作為 GABA-A 受體 PAM，增強氯離子通道開放頻率，降低神經興奮性，產生鎮靜催眠效果。此為苯二氮平類治療失眠的直接藥理機轉（BZ1/BZ2 受體均參與），具高度機轉合理性。注意事項：長期使用導致耐受性、依賴性及反彈性失眠，現代指引多建議短期使用或以 Z-drug 替代。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04050176",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 遮蔽式漸減試驗（260人，ACTIVE），研究苯二氮平受體促效劑（含Diazepam）從失眠治療中安全停藥策略。間接確認Diazepam用於失眠的臨床普遍性，但非測試其療效"
+        },
+        {
+          "nct_id": "NCT02831894",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 試驗（74人，COMPLETED），研究漸減節奏對催眠藥停藥的影響，反映苯二氮平失眠治療現狀，與Diazepam適應症相關但為停藥設計"
+        },
+        {
+          "nct_id": "NCT04751851",
+          "relevance_grade": "B",
+          "reasoning": "苯二氮平依賴性失眠患者最適停藥決定因素RCT（128人，COMPLETED），直接涉及苯二氮平依賴性失眠族群，間接支持Diazepam在此適應症的歷史使用"
+        },
+        {
+          "nct_id": "NCT04364321",
+          "relevance_grade": "A",
+          "reasoning": "直接比較單劑Clonazepam與間歇性Diazepam預防復發之試驗（74人），雖主要適應症為熱性痙攣，但為少數直接涉及Diazepam的對照試驗"
+        },
+        {
+          "nct_id": "NCT03687086",
+          "relevance_grade": "C",
+          "reasoning": "老年人停用安眠藥新機制研究（188人，COMPLETED），聚焦行為介入，Diazepam非主角"
+        },
+        {
+          "nct_id": "NCT03461042",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 多中心雙盲研究（17人，COMPLETED），標題截斷，無法確認與Diazepam的直接關聯"
+        },
+        {
+          "nct_id": "NCT05935553",
+          "relevance_grade": "B",
+          "reasoning": "Baclofen改善苯二氮平依賴患者漸減（Phase 2/3，93人，RECRUITING），提供苯二氮平依賴失眠背景，間接相關"
+        },
+        {
+          "nct_id": "NCT01146600",
+          "relevance_grade": "C",
+          "reasoning": "Clarithromycin治療過度嗜睡症（Phase 2，26人），為不同藥物、不同睡眠障礙，相關性低"
+        },
+        {
+          "nct_id": "NCT00678691",
+          "relevance_grade": "C",
+          "reasoning": "Armodafinil治療纖維肌痛相關疲勞（Phase 4，55人），與Diazepam及失眠無直接關聯"
+        },
+        {
+          "nct_id": "NCT07417813",
+          "relevance_grade": "C",
+          "reasoning": "Lemborexa觀察性研究（121人，RECRUITING），為新型食慾素受體拮抗劑，與Diazepam無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6113175",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "100例門診失眠患者Lormetazepam vs Diazepam直接比較，為最具直接相關性的對照試驗（1981年）"
+        },
+        {
+          "pmid": "39581171",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2024年GABAAR小分子調節劑於神經疾病的臨床應用全面回顧，涵蓋失眠適應症"
+        },
+        {
+          "pmid": "6114852",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Triazolam失眠治療藥理與療效回顧，提供苯二氮平類比較背景"
+        },
+        {
+          "pmid": "35228700",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "長期Diazepam治療增強小膠質細胞突觸吞噬並損害認知，為安全性警示性基礎研究"
+        },
+        {
+          "pmid": "41525914",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "中藥配方改善失眠焦慮共病動物模型（PACAP訊號），以Diazepam作對照藥"
+        },
+        {
+          "pmid": "29479317",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "酸棗仁方劑治療失眠臨床證據回顧，以Diazepam作為陽性對照背景"
+        },
+        {
+          "pmid": "32240473",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "遠志於老齡失眠大鼠的鎮靜催眠效果，Diazepam用作陽性對照"
+        },
+        {
+          "pmid": "40347763",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "益陰安神顆粒動物失眠模型，Diazepam為參照藥"
+        },
+        {
+          "pmid": "37377000",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "羊奶與牛奶對失眠大鼠腸道菌群和神經傳遞物質的影響，基礎研究"
+        },
+        {
+          "pmid": "31770357",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "大麻與大麻素相關睡眠回顧，提及苯二氮平作為比較背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "cauda equina syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Diazepam 作為中樞性肌肉鬆弛劑，理論上可緩解馬尾症候群伴隨的括約肌痙攣或疼痛性肌肉攣縮，但此為極度間接的推測性機轉。唯一文獻（PMID 19462797）討論區域麻醉危機管理中馬尾症候群作為併發症，並非Diazepam治療此症的證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19462797",
+          "study_type": "Review/Guidelines",
+          "tier": "3",
+          "note": "2009年區域麻醉危機管理回顧，馬尾症候群為麻醉併發症脈絡，非Diazepam治療適應症"
+        }
+      ]
+    },
+    {
+      "disease_name": "sleep disorder, initiating and maintaining sleep",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "與失眠適應症機轉高度重疊：Diazepam 透過GABA-A受體增強氯離子導電性，縮短睡眠潛伏期並改善睡眠維持。文獻顯示苯二氮平類確實影響睡眠架構（增加N2，減少N3及REM）。需釐清此診斷分類（DIMS）與主診斷失眠的臨床差異，避免重複計算。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39374004",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "2024年遮蔽式漸減配合行為介入停用BZRAs的RCT，間接反映苯二氮平在DIMS中的使用現況"
+        },
+        {
+          "pmid": "40570297",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2025年慢性苯二氮平使用對睡眠架構的影響系統性回顧，直接相關重要文獻"
+        },
+        {
+          "pmid": "7525193",
+          "study_type": "Guidelines/Review",
+          "tier": "2",
+          "note": "1994年苯二氮平合理使用指引，涵蓋睡眠障礙適應症建議"
+        },
+        {
+          "pmid": "23330992",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "抗焦慮藥藥代動力學回顧，涵蓋苯二氮平在睡眠障礙的應用"
+        },
+        {
+          "pmid": "27464322",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "苯二氮平治療精神科門診患者中睡眠相關飲食障礙盛行率研究"
+        },
+        {
+          "pmid": "6114793",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1981年苯二氮平戒斷症候群回顧，確認其用於睡眠障礙的歷史背景"
+        },
+        {
+          "pmid": "33023862",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "睡眠與性功能障礙交互關係回顧，提及苯二氮平相關睡眠影響"
+        },
+        {
+          "pmid": "39496046",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Zolpidem相關欣快感與依賴案例報告，作為苯二氮平相關藥物的比較背景"
+        },
+        {
+          "pmid": "41525914",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "中藥配方失眠動物模型，Diazepam作陽性對照"
+        },
+        {
+          "pmid": "40347763",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "中藥顆粒失眠動物模型，Diazepam作陽性對照"
+        }
+      ]
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉相悖：ADHD不注意型主要涉及前額葉皮質多巴胺/去甲腎上腺素信號不足，Diazepam增強GABA抑制性傳導可能加重認知遲緩與注意力損害。TxGNN高分可能源於ADHD共病焦慮的間接連結，不代表治療效益。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "barbiturate abuse",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉：苯二氮平與巴比妥類均作用於GABA-A受體複合體，在巴比妥戒斷症候群管理中有交叉替代可能性（類似酒精戒斷的Diazepam使用）。然而，無任何臨床試驗或文獻支持，且交叉依賴性風險高。TxGNN預測可能源於藥物類別相似性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hallucinogen abuse",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "具合理機轉：Diazepam增強GABAergic抑制性傳導，可對抗幻覺劑（如LSD、PCP）引發的過度神經興奮、急性激躁及交感神經亢進。苯二氮平類在急診管理急性幻覺劑中毒已有臨床實踐基礎（專家共識層級）。PMID 1065215（1976）直接論述幻覺劑濫用管理，PMID 10036607顯示Diazepam和PCP在小鼠辨別刺激效應上的藥理關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1065215",
+          "study_type": "Clinical Review/Expert Opinion",
+          "tier": "3",
+          "note": "1976年幻覺劑濫用管理臨床回顧，最直接相關文獻，可能包含苯二氮平使用建議"
+        },
+        {
+          "pmid": "10036607",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "Diazepam在小鼠中表現類PCP辨別刺激效應，提供幻覺劑-苯二氮平藥理連結"
+        },
+        {
+          "pmid": "24815969",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "成癮與藥物依賴患者圍術期鎮痛與挑戰回顧，涵蓋苯二氮平在藥物濫用管理中的角色"
+        },
+        {
+          "pmid": "15485715",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "高濃度Diazepam在駕駛損害案例中的發現，為法醫觀察性研究"
+        },
+        {
+          "pmid": "6391104",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "1983年成癮生物評估策略，提供苯二氮平濫用背景"
+        },
+        {
+          "pmid": "35514245",
+          "study_type": "Analytical Chemistry",
+          "tier": "3",
+          "note": "口腔液中濫用藥物穩定性分析，法醫分析研究，間接相關"
+        },
+        {
+          "pmid": "24908641",
+          "study_type": "Environmental Monitoring",
+          "tier": "3",
+          "note": "河水中濫用藥物與苯二氮平共存檢測，環境監測研究，相關性低"
+        },
+        {
+          "pmid": "24083902",
+          "study_type": "Environmental Monitoring",
+          "tier": "3",
+          "note": "同上研究團隊的河水污染研究，相關性低"
+        },
+        {
+          "pmid": "30039274",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "3-MeO-PCP（解離性幻覺劑）相關謀殺案例報告，法醫案例"
+        },
+        {
+          "pmid": "35767245",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "口腔液篩檢工具評估研究，法醫應用，相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "antidepressant type abuse",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻主要反映Diazepam本身的依賴性管理，而非用於治療抗憂鬱藥濫用。PMID 1100534（1975）提及鎮靜劑用於混合藥物濫用管理，但屬舊文獻、低證據等級。核心問題：Diazepam本身具高濫用潛力，以其治療其他藥物濫用在臨床上缺乏合理性，且有交叉依賴風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7841868",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1994年苯二氮平依賴治療回顧，為苯二氮平本身的依賴管理，非治療其他藥物濫用"
+        },
+        {
+          "pmid": "16856084",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "門診苯二氮平單獨依賴管理的藥理介入系統性回顧，同上性質"
+        },
+        {
+          "pmid": "1100534",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "1975年鎮靜劑用於混合藥物濫用治療，最直接相關但極舊且為低層級證據"
+        },
+        {
+          "pmid": "33488834",
+          "study_type": "Analytical",
+          "tier": "3",
+          "note": "乾血基質中精神活性物質測定比較，法醫分析研究"
+        },
+        {
+          "pmid": "4797063",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "1973年精神藥物巴比妥型依賴性篩檢動物模型，歷史性基礎研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "specific developmental disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GABA系統在早期神經發育中扮演去極化-超極化轉換的關鍵角色（GABA developmental switch），但Diazepam在成熟神經系統中的抑制效應可能干擾此發育過程。相關臨床試驗（NCT06629324）為骨髓移植研究，與Diazepam完全無關。PMID 28177174（Rett症候群）提及Diazepam用於術後鎮痛比較，非治療發育障礙本身。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06629324",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2自體骨髓單核細胞移植治療發育障礙（58人，RECRUITING），研究細胞治療策略，與Diazepam完全無關，相關性為0"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28177174",
+          "study_type": "Case-Control",
+          "tier": "2",
+          "note": "Rett症候群女孩術後鎮痛劑量比較研究，Diazepam出現於麻醉管理背景，非治療神經發育適應症"
+        },
+        {
+          "pmid": "29385549",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "多巴胺系統調控與精神分裂症治療回顧，GABA相關機轉，間接相關"
+        },
+        {
+          "pmid": "24793772",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "GABAergic刺激調節胞內蛋白質精氨酸甲基化，基礎分子機轉研究"
+        },
+        {
+          "pmid": "25088363",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "小鼠島葉皮質感覺整合反映GABA迴路成熟，神經發育基礎研究"
+        },
+        {
+          "pmid": "22641177",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "斑馬魚糖皮質素受體突變情感障礙模型，遠端相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉相悖：ADHD核心病理為前額葉皮質多巴胺/去甲腎上腺素信號缺失，Diazepam的GABA增強作用可能加重認知功能障礙、降低注意力。PMID 2417773（1986）雖提及兒童精神藥理，但屬歷史性回顧。唯一臨床試驗（NCT02822937）研究Methylphenidate認知測量敏感性，與Diazepam無關。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02822937",
+          "relevance_grade": "C",
+          "reasoning": "研究EVO Monitor對Methylphenidate認知功能測量敏感性（18人，COMPLETED），完全針對Methylphenidate，與Diazepam無任何關聯"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2417773",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1986年兒童青少年精神與神經發育障礙藥理治療回顧，歷史性背景文獻"
+        },
+        {
+          "pmid": "6136530",
+          "study_type": "PK Study",
+          "tier": "2",
+          "note": "兒童苯二氮平與精神刺激劑藥代動力學研究，提供藥動學背景但非療效證據"
+        },
+        {
+          "pmid": "23144164",
+          "study_type": "Epidemiology",
+          "tier": "2",
+          "note": "2000-2011年澳洲精神藥物使用趨勢，流行病學背景"
+        },
+        {
+          "pmid": "10485958",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "ADHD動物模型酒精反應性研究，Diazepam為藥理工具藥"
+        },
+        {
+          "pmid": "30529642",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "長期Diazepam曝露後焦慮相關行為中兒茶酚胺/GABA介入研究，安全性疑慮"
+        },
+        {
+          "pmid": "15639778",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "細胞凋亡神經退化與ADHD脆弱性研究，基礎神經發育研究"
+        },
+        {
+          "pmid": "34954745",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "停用Diazepam後79天尿液仍檢出Oxazepam案例，藥代動力學觀察"
+        },
+        {
+          "pmid": "24734165",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "酒精與麻醉藥物的發育神經毒性因咖啡因共曝露而加重，安全性相關"
+        },
+        {
+          "pmid": "2990294",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1985年記憶功能障礙模型回顧，苯二氮平作為記憶損害工具藥的背景"
+        },
+        {
+          "pmid": "41348645",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "右美沙芬大量過量後血清素症候群案例，Diazepam用於症狀處理，間接相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉存在但薄弱：Diazepam作為中樞性肌肉鬆弛劑，可能緩解神經性膀胱的逼尿肌-括約肌協同失調（DSD）。然而：(1)此診斷分類標記為「obsolete」，臨床應用性存疑；(2)無任何臨床試驗或文獻支持；(3)現代神經性膀胱管理以肉毒桿菌素、抗膽鹼藥物或骶神經調控為主。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_count": 0,
+    "L2_count": 1,
+    "L3_count": 1,
+    "L4_count": 2,
+    "L5_count": 6,
+    "S3_count": 0,
+    "S2_count": 1,
+    "S1_count": 2,
+    "S0_count": 7,
+    "key_findings": [
+      "失眠為最強支持適應症（L2/S2），具直接RCT文獻及Phase 3背景試驗，建議附帶條件推進（短期使用、避免長期依賴）",
+      "睡眠起始與維持障礙（DIMS）與失眠高度重疊（L3/S1），建議合併評估避免重複開發",
+      "幻覺劑濫用具合理機轉連結但僅有低層級歷史文獻（L4/S1），具研究潛力但需現代RCT驗證",
+      "ADHD（兩個亞型）的高TxGNN評分與藥理機轉相悖，機器學習預測可能存在偏差，不建議推進",
+      "6個適應症（L5/S0）無任何臨床或文獻支持，TxGNN分數可能源於GABA受體泛化預測"
+    ]
+  }
+}
+```
+
+---
+
+### 關鍵決策依據說明
+
+**⚠️ 特別注意（Diazepam 再利用脈絡）：**
+
+1. **失眠 (L2/S2)** — 歷史上已有直接比較RCT（PMID 6113175），但現代指引已將苯二氮平列為**非首選**，主要因依賴性風險。現代Phase 3試驗聚焦**如何停用**Diazepam而非使用它，反映臨床實踐轉向。**Proceed with Guardrails 意指：嚴格限制使用期間（≤4週）、明確停藥計畫、排除依賴高風險族群。**
+
+2. **TxGNN 分數 vs 臨床現實落差** — ADHD兩適應症的TxGNN評分（0.999+）與藥理機轉完全相悖，顯示知識圖譜模型在機轉方向性上存在侷限性，高分不等同於治療合理性。
+
+3. **資料品質警示** — 幻覺劑濫用的20篇文獻中，多數為法醫毒理學論文（檢測Diazepam存在），而非治療性研究，需區分「Diazepam 出現於濫用情境」與「Diazepam 用於治療濫用」。

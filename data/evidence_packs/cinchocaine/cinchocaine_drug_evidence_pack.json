@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00527-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cinchocaine",
+    "drugbank_id": "DB00527",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.997661590576172,
+        "rank": 3827
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "醯胺類局部麻醉藥（尤其是靜脈注射利多卡因）具抗炎特性，可抑制氣道感覺神經（Nav1.7/Nav1.8）及白細胞Nav通道活化。然而此機轉對支氣管炎的轉化證據極稀少，且Cinchocaine之系統性給藥毒性風險遠高於利多卡因，機轉外推存在重大不確定性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn": {
+        "score": 0.9976196885108948,
+        "rank": 3889
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "本病為萊姆病晚期皮膚表現（Borrelia burgdorferi感染），病理機轉為螺旋體持續感染及慢性炎症反應，與Nav通道阻斷並無直接關聯。TxGNN高分可能源於知識圖譜中皮膚炎症節點的共享路徑，但生物學合理性薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn": {
+        "score": 0.997187077999115,
+        "rank": 4382
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮肌炎（Dermatomyositis）為干擾素信號通路驅動的自身免疫性疾病。醯胺類局部麻醉藥理論上可透過Nav通道阻斷抑制免疫細胞（如中性球、T細胞）活化，但新生兒族群藥理學差異大、Cinchocaine毒性風險在此族群尤為突出。目前無任何臨床轉化路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn": {
+        "score": 0.9971643090248108,
+        "rank": 4411
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為結締組織病相關兒童繼發性間質性肺病，病理涉及TGF-β/纖維化及自身免疫炎症。Nav通道阻斷對肺纖維化路徑無已知直接機轉。預測分數高可能反映模型在自身免疫-結締組織病叢集中的共同圖譜特徵，而非藥物特異性效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "acne keloid",
+      "txgnn": {
+        "score": 0.9967280626296996,
+        "rank": 4865
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "痤瘡樣瘢痕疙瘩（Folliculitis keloidalis nuchae）涉及慢性毛囊炎症及纖維化增生。局部麻醉藥局部注射（如利多卡因）偶用於瘢痕疙瘩的輔助治療，理論上可透過Nav阻斷減少感覺神經P物質釋放及神經源性炎症。Cinchocaine局部應用於此適應症的轉化合理性略高於系統性給藥，但仍無任何臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn": {
+        "score": 0.9966482520103456,
+        "rank": 4963
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性水痘樣痘疹為罕見光敏性皮膚病，與EBV感染及NK/T細胞功能異常相關。Nav通道阻斷對光敏感或EBV介導的免疫病理無已知機轉關聯。TxGNN預測可能源於罕見皮膚病節點的圖譜鄰近性，生物學合理性低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn": {
+        "score": 0.9964710474014282,
+        "rank": 5140
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無肌病性皮肌炎（ADM）以皮膚表現為主，但合併間質性肺病風險高，干擾素信號通路為核心病理。與neonatal dermatomyositis機轉分析相同，局部麻醉藥Nav阻斷理論上可調節免疫細胞功能，但轉化路徑不明，且Cinchocaine的毒性特性限制了其系統性使用的可行性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "neonatal myasthenia gravis",
+      "txgnn": {
+        "score": 0.9766436219215392,
+        "rank": 18581
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️【潛在禁忌】新生兒重症肌無力為母體AChR抗體經胎盤轉移所致，神經肌肉接合部（NMJ）傳遞已受損。Cinchocaine作為Nav阻斷劑，可能進一步抑制NMJ的動作電位傳導，加重神經肌肉阻斷，造成肌力惡化及呼吸衰竭風險。此預測方向在機轉上具潛在有害性，而非治療性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "autoimmune disease of peripheral nervous system",
+      "txgnn": {
+        "score": 0.976639986038208,
+        "rank": 18584
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "周邊神經系統自身免疫疾病（如GBS、CIDP）涉及髓鞘損傷及神經炎症。Nav通道阻斷對減少神經元異常放電理論上具合理性（類似利多卡因輸注用於神經性疼痛），但Cinchocaine對自身免疫神經病的治療效應完全未知，且此類患者本已神經傳導受損，額外Nav阻斷的安全性存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myasthenia gravis with thymus hyperplasia",
+      "txgnn": {
+        "score": 0.9755404591560364,
+        "rank": 19090
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️【潛在禁忌】胸腺增生相關重症肌無力為自身免疫性NMJ疾病，治療方向為免疫抑制及胸腺切除術。Cinchocaine之Nav阻斷可能加重NMJ傳遞障礙（與neonatal MG相同機轉顧慮），與治療目標方向相反。此預測在機轉上不具合理性，且存在安全風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cinchocaine",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

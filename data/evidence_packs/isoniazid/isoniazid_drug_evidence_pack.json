@@ -1,0 +1,1913 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00951-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Isoniazid",
+    "drugbank_id": "DB00951",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "conjunctivitis",
+      "txgnn": {
+        "score": 0.993635892868042,
+        "rank": 7698
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04094012",
+            "title": "Comparing Incidence Rate of Systemic Drug Reactions Under 3HP and 1HP Regimen for Latent Tuberculosis Infection Treatment: a Pragmatic Multicenter Randomized Control Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 490,
+            "start_date": "2019-09-24",
+            "completion_date": "2023-12-15",
+            "brief_summary": "Successful implement of preventive therapy for subjects with latent tuberculosis infection (LTBI) is the critical step for elimination of tuberculosis (TB). The major obstacle of traditional preventive therapy is the unacceptable long treatment duration, taking isoniazid 5mg/kg daily for a total of 9 months (9H), thus seriously compromising its acceptability. With the introduction of 12-doses weekly high-dose (15 mg/kg) rifapentine plus isoniazid (3HP regimen), the completion rate of 3HP has be ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 已完成、n=490，研究主題為潛伏性結核感染系統性藥物反應比較，與結膜炎治療無關，相關性極低。TxGNN 評分 0.994 明顯高估。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "5005929",
+            "title": "Rifampicin.",
+            "authors": [
+              "Polascik M",
+              "Golden B"
+            ],
+            "journal": "Annals of ophthalmology",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1363080",
+            "title": "Ocular side effects of selected systemic drugs.",
+            "authors": [
+              "Jaanus S D"
+            ],
+            "journal": "Optometry clinics : the official publication of the Prentice Society",
+            "year": "1992",
+            "abstract": "Numerous systemic drugs produce adverse effects that involve the eye. Pigmentary inclusions of the lids or conjunctivae or both may be caused by a variety of drugs, including amiodarone, chlorpromazine, and gold salts, while conjunctivitis and blepharoconjunctivitis have been associated with isotretinoin, sulfonamides, salicylates, and antineoplastic agents. Dry eye complaints may be caused by antihistamines, beta-receptor blocking agents prescribed for cardiovascular problems, antianxiety agent",
+            "classification": {
+              "study_type": "Review (ocular side effects)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14089390",
+            "title": "PRIMARY TUBERCULOSIS OF THE CONJUNCTIVA.",
+            "authors": [
+              "CHANDLER A C",
+              "LOCATCHER-KHORAZO D"
+            ],
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32674602",
+            "title": "An Unexpected Cause of Conjunctivitis in an Adolescent.",
+            "authors": [
+              "Dean Preston",
+              "Berger Tyler",
+              "Matt Michael",
+              "Schlaudecker Elizabeth",
+              "Riney Lauren"
+            ],
+            "journal": "Clinical pediatrics",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12226788",
+            "title": "[Chronic reactive arthritis associated with Calmette-Guérin bacillus].",
+            "authors": [
+              "Neumayr C",
+              "Kirchgatterer A",
+              "Knoflach P"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2002",
+            "abstract": "After successful transurethral resection of a superficial bladder cancer a 59-year old patient was treated with intravesical instillation of bacillus Calmette-Guérin (BCG) six times to prevent tumor recurrence. Four weeks later the patient was admitted to our department presenting with symmetrical polyarthritis accompanied by pain and stiffness and conjunctivitis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10084173",
+            "title": "Polyarthritis following intravesical BCG immunotherapy. Report of a case and review of 26 cases in the literature.",
+            "authors": [
+              "Clavel G",
+              "Grados F",
+              "Cayrolle G",
+              "Bellony R",
+              "Leduc I"
+            ],
+            "journal": "Revue du rhumatisme (English ed.)",
+            "year": "1999",
+            "abstract": "To delineate the characteristics of aseptic arthritis induced by intravesical BCG immunotherapy.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26692731",
+            "title": "Tuberculous Conjunctivitis in an Anophthalmic Socket.",
+            "authors": [
+              "Al Habash Ahmed",
+              "Malik Faisal",
+              "Al Abdulsalam Omar",
+              "Al Abdulsalam Abdulrahim"
+            ],
+            "journal": "Middle East African journal of ophthalmology",
+            "year": "2015",
+            "abstract": "Tuberculous (TB) conjunctivitis was not an uncommon condition before the early 20(th) century but is currently a rare occurrence, especially in the developed countries. We report a 27-year-old Saudi female who underwent enucleation of the right eye at the age of 20 following a penetrating eye injury. She had a history of miliary TB that was treated at the age of 22. She was presented with chronic purulent discharge from her right an anophthalmic socket for 2 months. Cultures for bacteria and fun",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14195962",
+            "title": "TOXIC EPIDERMAL NECROLYSIS.",
+            "authors": [
+              "HELFMAN R J"
+            ],
+            "journal": "Southern medical journal",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (TEN)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10084171",
+            "title": "Refractory arthropathy after intravesical bacillus Calmette-Guérin therapy. Usefulness of isoniazide.",
+            "authors": [
+              "Milas L",
+              "Maillefert J F",
+              "Michel F",
+              "Piroth C",
+              "Wautot A"
+            ],
+            "journal": "Revue du rhumatisme (English ed.)",
+            "year": "1999",
+            "abstract": "Arthritis associated with bacillus Calmette-Guérin immunotherapy usually responds dramatically to nonsteroidal antiinflammatory drug therapy. Isoniazid is generally reserved for other complications such as granulomatous hepatitis.",
+            "classification": {
+              "study_type": "Case Series (BCG-induced arthropathy, INH use)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33607832",
+            "title": "A rare case of primary sinonasal tuberculosis presented with phlyctenular keratoconjunctivitis in a pediatric patient: A case report and literature review.",
+            "authors": [
+              "Wiriyachai Thakoon",
+              "Boonsathorn Sophida",
+              "Apiwattanakul Nopporn",
+              "Assawawiroonhakarn Surapat"
+            ],
+            "journal": "Medicine",
+            "year": "2021",
+            "abstract": "Tuberculosis is a common cause of phlyctenular keratoconjunctivitis, especially for patients who live in a high endemic area of tuberculosis. We report a rare case of pediatric phlyctenular keratoconjunctivitis associated with primary sinonasal tuberculosis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7505555",
+            "title": "Munchausen syndrome by proxy: an experience from Nigeria.",
+            "authors": [
+              "Ifere O A",
+              "Yakubu A M",
+              "Aikhionbare H A",
+              "Quaitey G E",
+              "Taqi A M"
+            ],
+            "journal": "Annals of tropical paediatrics",
+            "year": "1993",
+            "abstract": "We report here on a child who over a period of 8 years was admitted several times to hospitals in different states of Nigeria based on fictitious illnesses described by his mother. The child had various unnecessary, expensive and invasive investigations followed by treatment with harmful drugs. The evolution of this case of Munchausen syndrome by proxy is described in order to alert paediatricians in developing countries to a problem which is described frequently in more affluent societies. We b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8136810",
+            "title": "[Polyarthritis in 4 patients treated with intravesical BCG-therapy for carcinoma of the bladder].",
+            "authors": [
+              "Belmatoug N",
+              "Levy-Djebbour S",
+              "Appelboom T",
+              "De Gennes C",
+              "Peltier A P"
+            ],
+            "journal": "Revue du rhumatisme (Ed. francaise : 1993)",
+            "year": "1993",
+            "abstract": "Intravesical administration of Calmette-Guérin bacillus (BCG) is effective in the treatment of superficial bladder carcinoma. Transient arthritis or migratory arthralgia has been reported in 0.5% of cases. The authors report on four men (mean age 65 years), who developed an oligoarthritis in three cases after the 2nd, 5th, and 6th weekly instillation of Pasteur BCG, respectively, and symmetrical polyarthritis in one after 48 BCG instillations over a three-year period. Joints involved were the kn",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4969212",
+            "title": "[Chemoprophylaxis and prevention chemotherapy in infection and disease].",
+            "authors": [
+              "Spiess H"
+            ],
+            "journal": "Der Internist",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17133069",
+            "title": "Mycobacterium tuberculosis presenting as chronic red eye.",
+            "authors": [
+              "Jennings Angela",
+              "Bilous Michael",
+              "Asimakis Peter",
+              "Maloof Anthony J"
+            ],
+            "journal": "Cornea",
+            "year": "2006",
+            "abstract": "To report a case of tuberculosis of the conjunctiva.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4233886",
+            "title": "[Tuberculosis of the bulbar conjunctiva].",
+            "authors": [
+              "Cernea P",
+              "Marculesco A",
+              "Brodicico G",
+              "Constantin F"
+            ],
+            "journal": "Archives d'ophtalmologie et revue generale d'ophtalmologie",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10641112",
+            "title": "[Phlyctenular keratoconjunctivitis and lymph node tuberculosis].",
+            "authors": [
+              "Valentina C",
+              "Mirela C"
+            ],
+            "journal": "Oftalmologia (Bucharest, Romania : 1990)",
+            "year": "1999",
+            "abstract": "It is presented 28 cases of tuberculous keratoconjunctivitis from which 13 cases appears between 4-13 years at children with primary tuberculosis. All patients have a positive tuberculin skin test, a family or personal history of tuberculosis. Many of them have perihilar or cervical adenopathy and radiological evidence of a healed pulmonary tuberculous lesion. We report a case of tuberculous adenopathy with histopathological examine and tuberculous adenopathy with histopathological examine and t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25433746",
+            "title": "Re-emphasizing Thygeson's warning: conjunctival phlyctenulosis as presenting sign of impending clinical tuberculosis.",
+            "authors": [
+              "Sharma Kanika",
+              "Kalakoti Piyush",
+              "Juneja Rakesh",
+              "Sahu Suman",
+              "Singh Vartika"
+            ],
+            "journal": "Canadian journal of ophthalmology. Journal canadien d'ophtalmologie",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14253168",
+            "title": "PHLYCTENULAR KERATOCONJUNCTIVITIS AMONG ESKIMOS IN SOUTHWESTERN ALASKA. II. ISONIAZID PROPHYLAXIS.",
+            "authors": [
+              "PHILIP R N",
+              "COMSTOCK G W"
+            ],
+            "journal": "The American review of respiratory disease",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14182360",
+            "title": "[CLINICAL MANIFESTATIONS AND TREATMENT OF EARLY STAGES OF PRIMARY TUBERCULOSIS IN CHILDREN].",
+            "authors": [
+              "MAZINA E G"
+            ],
+            "journal": "Voprosy okhrany materinstva i detstva",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5103251",
+            "title": "[Use of isoniazid in the local treatment of ocular tuberculosis].",
+            "authors": [
+              "Bobulescu M",
+              "Pralea E"
+            ],
+            "journal": "Annales d'oculistique",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "INH 透過抑制 InhA/KasA 酵素阻斷 mycolic acid 合成，殺滅 Mycobacterium tuberculosis。結核性結膜炎為 M. tuberculosis 直接感染眼部結膜，INH 作為標準抗結核方案核心藥物具間接療效。然此僅涵蓋結核病因亞型，對非結核性（病毒/細菌）結膜炎無已知療效。NCT04094012 雖為 Phase 3，但研究目標為 LTBI 療程比較（3HP vs 1HP），與結膜炎適應症無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9870550632476808,
+        "rank": 12811
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31852268",
+            "title": "Infection risk in patients undergoing treatment for inflammatory arthritis: non-biologics versus biologics.",
+            "authors": [
+              "Chiu Ying-Ming",
+              "Chen Der-Yuan"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2020",
+            "abstract": "Introduction: Despite the therapeutic effectiveness of biologics targeting immune cells or cytokines in patients with inflammatory arthritis, which reflects their pathogenic roles, an increased infection risk is observed in those undergoing biological treatment. However, there are limited data regarding the comparison of infection risks in inflammatory arthritis patients treated with non-biologics (csDMARDs), biologics (bDMARDs), including tumor necrosis factor (TNF) inhibitors and non-TNF inhib",
+            "classification": {
+              "study_type": "Systematic Review (infection risk)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29526956",
+            "title": "Rhabdomyolysis Induced by Isoniazid in a Patient with Rheumatoid Arthritis and End-stage Renal Disease: A Case Report and Review of the Literature.",
+            "authors": [
+              "Komai Toshihiko",
+              "Sumitomo Shuji",
+              "Teruya Shuzo",
+              "Fujio Keishi"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2018",
+            "abstract": "A 76-year-old man complicated with end-stage renal disease had latent tuberculosis infection (LTBI), and isoniazid (INH) 300 mg daily was started to prevent reactivation of LTBI before using biologic agents for rheumatoid arthritis. On the 8th day after administration of INH, he presented with a fever, petechiae, and myalgia. Serological studies revealed elevated myogenic enzymes and creatinine level. Based on the exclusion of other etiologies, rapid improvement with cessation of INH, and the re",
+            "classification": {
+              "study_type": "Case Report (rhabdomyolysis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26318385",
+            "title": "Tuberculosis and other opportunistic infections in tofacitinib-treated patients with rheumatoid arthritis.",
+            "authors": [
+              "Winthrop K L",
+              "Park S-H",
+              "Gul A",
+              "Cardiel M H",
+              "Gomez-Reino J J"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2016",
+            "abstract": "To evaluate the risk of opportunistic infections (OIs) in patients with rheumatoid arthritis (RA) treated with tofacitinib.",
+            "classification": {
+              "study_type": "Cohort Study (LTBI in tofacitinib-RA)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27064275",
+            "title": "Different Risk of Tuberculosis and Efficacy of Isoniazid Prophylaxis in Rheumatoid Arthritis Patients with Biologic Therapy: A Nationwide Retrospective Cohort Study in Taiwan.",
+            "authors": [
+              "Liao Tsai-Ling",
+              "Lin Ching-Heng",
+              "Chen Yi-Ming",
+              "Chang Chia-Li",
+              "Chen Hsin-Hua"
+            ],
+            "journal": "PloS one",
+            "year": "2016",
+            "abstract": "Increasing evidence indicates an increased risk of tuberculosis (TB) for rheumatoid arthritis (RA) patients receiving biologic therapy, and the effectiveness of isoniazid prophylaxis (INHP) in TB prevention. We aimed to examine 1) the incidence rate (IR) and risk factors for TB among RA patients receiving different therapies; 2) INHP effectiveness for TB prevention; 3) mortality rates after TB diagnosis in patients receiving different therapies. This retrospective study was conducted using a nat",
+            "classification": {
+              "study_type": "Cohort Study (prophylaxis in RA)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3351840",
+            "title": "Effects of rifampicin with and without isoniazid in rheumatoid arthritis.",
+            "authors": [
+              "McConkey B",
+              "Situnayake R D"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1988",
+            "abstract": "A patient with rheumatoid arthritis (RA) experienced great improvement in her RA when given antituberculous treatment for pulmonary tuberculosis (TB). Two of the drugs used in TB, rifampicin and isoniazid, include immunomodulatory effects among their properties. To investigate whether these drugs have any effect in RA, we studied 20 patients who were given either rifampicin 600 mg daily (10 patients) or rifampicin 600 mg with isoniazid 300 mg daily (10 patients). Eighteen patients completed at l",
+            "classification": {
+              "study_type": "Clinical Trial (1988)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28734675",
+            "title": "Safety and effectiveness of tocilizumab in treating patients with rheumatoid arthritis - A three-year study in Taiwan.",
+            "authors": [
+              "Lin Ching-Tsai",
+              "Huang Wen-Nan",
+              "Hsieh Chia-Wei",
+              "Chen Yi-Ming",
+              "Chen Der-Yuan"
+            ],
+            "journal": "Journal of microbiology, immunology, and infection = Wei mian yu gan ran za zhi",
+            "year": "2019",
+            "abstract": "To evaluate the long-term safety and effectiveness of tocilizumab (TCZ) for the treatment of rheumatoid arthritis (RA) in a real-world clinical setting in Taiwan.",
+            "classification": {
+              "study_type": "Cohort Study (tocilizumab safety)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31678927",
+            "title": "Mania induced by isoniazid preventive therapy during steroid treatment for rheumatoid arthritis and organising pneumonia.",
+            "authors": [
+              "Nagano Hiroyuki",
+              "Miura Tomoaki",
+              "Ueda Takeshi"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2019",
+            "abstract": "Isoniazid preventative therapy is widely used for latent tuberculosis infection. Isoniazid is highly effective but has many adverse effects, including neuropsychiatric. We describe the case of an 80-year-old woman with mania. She had received isoniazid preventative therapy during steroid treatment for rheumatoid arthritis and organising pneumonia for the previous 5 months. Her mania resolved after discontinuation of isoniazid. Adverse effects of isoniazid should be considered even if a long time",
+            "classification": {
+              "study_type": "Case Report (mania induced by INH)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13427153",
+            "title": "The effect of isoniazid and of iproniazid in patients with rheumatoid arthritis.",
+            "authors": [
+              "SCHERBEL A L"
+            ],
+            "journal": "Cleveland Clinic quarterly",
+            "year": "1957",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (pre-RCT era, 1957)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28288508",
+            "title": "Isoniazid treatment for latent tuberculosis infection is tolerable for rheumatoid arthritis patients receiving tumor necrosis factor inhibitor therapy.",
+            "authors": [
+              "Sung Yoon-Kyoung",
+              "Cho Soo-Kyung",
+              "Kim Dam",
+              "Won Soyoung",
+              "Choi Chan-Bum"
+            ],
+            "journal": "The Korean journal of internal medicine",
+            "year": "2018",
+            "abstract": "To evaluate the impact of isoniazid (INH) treatment for latent tuberculosis infection (LTBI) on the development of liver function test (LFT) abnormality and the persistence of tumor necrosis factor (TNF) inhibitors in rheumatoid arthritis (RA) patients.",
+            "classification": {
+              "study_type": "Cohort Study (INH tolerability in RA)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1163547",
+            "title": "Rheumatoid arthritis, vasculitis and paroxysmal hypertension.",
+            "authors": [],
+            "journal": "The American journal of medicine",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2689006",
+            "title": "Genetic epidemiology of Greenland.",
+            "authors": [
+              "Harvald B"
+            ],
+            "journal": "Clinical genetics",
+            "year": "1989",
+            "abstract": "The Inuit (Eskimo) gene pool is in many respects similar to that of East Asian populations. Some polymorphisms imply frequent occurrence of disorders comparatively rare in Western Europe (e.g. lactose and sucrose malabsorptions). Low frequencies of alleles for slow isoniazid acetylation and sparteine/debrisoquine oxidation indicate slow elimination of a multitude of drugs. Autoimmune disorders (e.g. rheumatoid arthritis, insulin-dependent diabetes mellitus, Graves' disease and psoriasis) are rar",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25381975",
+            "title": "Use of anti-tumor necrosis factor alpha therapy in patients with concurrent rheumatoid arthritis and hepatitis B or hepatitis C: a retrospective analysis of 32 patients.",
+            "authors": [
+              "Ballanti Eleonora",
+              "Conigliaro Paola",
+              "Chimenti Maria Sole",
+              "Kroegler Barbara",
+              "Di Muzio Gioia"
+            ],
+            "journal": "Drug development research",
+            "year": "2014",
+            "abstract": "The safety of tumor necrosis factor-alpha (TNF-α) inhibitors in the setting of hepatitis B virus (HBV) and hepatitis C virus (HCV) infections is controversial. The use of anti-TNF-α in rheumatoid arthritis (RA) is associated with an increased risk of hepatitis re-activation. This paper reports experience of using etanercept and adalimumab in 32 patients with RA and previous HBV or HCV infection. No cases of HBV or HCV reactivation were seen. In just over a fifth of patients, increased transamina",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17711866",
+            "title": "Methotrexate combined with isoniazid treatment for latent tuberculosis is well tolerated in patients with rheumatoid arthritis: experience from an urban arthritis clinic.",
+            "authors": [
+              "Mor A",
+              "Bingham C O",
+              "Kishimoto M",
+              "Izmirly P M",
+              "Greenberg J D"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2008",
+            "abstract": "Reactivation of Mycobacterium tuberculosis (TB) is a significant problem with all available tumour necrosis factor (TNF) antagonists when used to treat rheumatoid arthritis (RA), psoriatic arthritis, psoriasis and other inflammatory diseases. Concerns have been raised regarding the appropriate management of patients with latent TB (LTB) exposure (or active TB infection) before initiating TNF antagonists as the safety data of combined treatment with two potentially hepatotoxic medications, methot",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14644871",
+            "title": "High incidence of hepatotoxicity of isoniazid treatment for tuberculosis chemoprophylaxis in patients with rheumatoid arthritis treated with methotrexate or sulfasalazine and anti-tumour necrosis factor inhibitors.",
+            "authors": [
+              "Vanhoof J",
+              "Landewe S",
+              "Van Wijngaerden E",
+              "Geusens P"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19292064",
+            "title": "[Isoniazid prophylaxis for pulmonary tuberculosis in Chinese patients with rheumatoid arthritis receiving long-term methotrexate therapy].",
+            "authors": [
+              "Xie Qi-Bing",
+              "Wen Fu-Qiang",
+              "Yin Geng"
+            ],
+            "journal": "Sichuan da xue xue bao. Yi xue ban = Journal of Sichuan University. Medical science edition",
+            "year": "2009",
+            "abstract": "To investigate the efficacy and safety of Isoniazid prophylaxis (INHP) for tuberculosis in Chinese patients with rheumatoid arthritis (RA) who receive long-term Methotrexate (MTX) therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28730751",
+            "title": "Tuberculosis and biologics in rheumatology: A special situation.",
+            "authors": [
+              "Handa Rohini",
+              "Upadhyaya Sundeep",
+              "Kapoor Sanjiv",
+              "Jois Ramesh",
+              "Pandey Bimlesh D"
+            ],
+            "journal": "International journal of rheumatic diseases",
+            "year": "2017",
+            "abstract": "India has a huge patient burden of rheumatic diseases (RDs) including rheumatoid arthritis. The use of biologics has transformed the treatment paradigm for RD; however, biologic treatment-related infections (especially tuberculosis [TB]) are an area of potential concern for TB-endemic nations like India. Anti-tumor necrosis factor (TNF) therapy impairs the physiological TNF-mediated signaling and may cause reactivation and dissemination of latent TB infection (LTBI). Careful screening is, thus, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21528382",
+            "title": "Comparison of QuantiFERON-TB Gold and the tuberculin skin test for detecting previous tuberculosis infection evaluated by chest CT findings in Japanese rheumatoid arthritis patients.",
+            "authors": [
+              "Maeda Tomoyo",
+              "Banno Shogo",
+              "Maeda Shinji",
+              "Naniwa Taio",
+              "Hayami Yoshihito"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2011",
+            "abstract": "The aim of the study was to compare the usefulness of the QuantiFERON-TB Gold (QFT-2G) with that of the tuberculin skin test (TST) for detecting previous infection of tuberculosis (TB) in Japanese rheumatoid arthritis (RA) patients. Before receiving biologic therapy, 97 RA patients were divided into two groups based on their chest computed tomography (CT) findings: the TB past infection group (n = 48), with old inflammatory changes due to prior pulmonary TB; and the non-TB infection group (n = 4",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18512714",
+            "title": "Effectiveness of the combination of a whole-blood interferon-gamma assay and the tuberculin skin test in detecting latent tuberculosis infection in rheumatoid arthritis patients receiving adalimumab therapy.",
+            "authors": [
+              "Chen Der-Yuan",
+              "Shen Gwan-Han",
+              "Hsieh Tsu-Yi",
+              "Hsieh Chia-Wei",
+              "Lan Joung-Liang"
+            ],
+            "journal": "Arthritis and rheumatism",
+            "year": "2008",
+            "abstract": "To investigate QuantiFERON-tuberculosis Gold (QFT-G) assay and tuberculin skin test (TST) for latent tuberculosis (TB) infection (LTBI) in patients with rheumatoid arthritis (RA) treated with adalimumab.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20436072",
+            "title": "Methotrexate drug interactions in the treatment of rheumatoid arthritis: a systematic review.",
+            "authors": [
+              "Bourré-Tessier Josiane",
+              "Haraoui Boulos"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2010",
+            "abstract": "Patients with rheumatoid arthritis (RA) often have comorbidities that require multiple medications. Several of these medications may alter the efficacy or increase the toxicity of methotrexate (MTX). The purpose of our study was to determine which drugs used in combination with MTX (excluding disease modifying antirheumatic drugs, folic and folinic acid, corticosteroids, and biologic agents) enhance side effects or toxicity of MTX or lower its efficacy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24057090",
+            "title": "Comparison of tuberculosis incidence in ankylosing spondylitis and rheumatoid arthritis during tumor necrosis factor inhibitor treatment in an intermediate burden area.",
+            "authors": [
+              "Kim Hye Won",
+              "Park Jin Kyun",
+              "Yang Ji-Ae",
+              "Yoon Young Im",
+              "Lee Eun Young"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2014",
+            "abstract": "Clinical characteristics of antitumor necrosis factor (TNF) agents-related tuberculosis (TB) in ankylosing spondylitis (AS) are not well described. The aim was to compare the incidences and the characteristics of TB in AS and rheumatoid arthritis (RA) during TNF inhibitor treatment. AS (n = 1,322) and RA (n = 3,154) patients who received medical care between January 2001 and August 2011 were enrolled. The incidence of TB in patients treated, or not, with TNF inhibitors and the clinical features ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "兩篇早期臨床研究（PMID 13427153, 1957；PMID 3351840, 1988）直接測試 INH 對 RA 患者的療效，顯示潛在抗發炎或免疫調節活性。現代文獻主要圍繞 INH 在 RA 生物製劑患者中的 LTBI 預防性使用（非直接治療 RA）。機轉假說尚不明確：INH 可能透過 MAO 抑制（類似 iproniazid）或細胞免疫調節影響 RA 病程。缺乏現代 RCT，原始試驗不符合當代方法學標準。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "shigellosis",
+      "txgnn": {
+        "score": 0.9849167466163636,
+        "rank": 14247
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Shigella 為革蘭氏陰性腸桿菌科細菌，INH 的作用靶點（mycolic acid 合成路徑）為分枝桿菌專一性，對革蘭氏陰性菌無已知抑菌活性。零臨床試驗、零文獻支持。此預測可能為 KG 模型透過腸道感染路徑的間接推斷假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9787451028823853,
+        "rank": 17610
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "罕見遺傳性先天發育異常症候群（眼球發育缺損合併肢根型骨骼發育不良），INH 為抗細菌藥物，無任何已知針對此類基因發育缺陷的療效機轉。零臨床或文獻依據，為純計算預測。建議列為模型假陽性案例。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.9784799218177797,
+        "rank": 17751
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07440160",
+            "title": "Digitally Facilitated, Integrated Community and Facility-Based Interventions to Improve Tuberculosis Case Detection and Treatment Adherence in South Ethiopia: A Type II Hybrid Effectiveness-Implementation Study: The HEART-TB Trial Protocol",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 278,
+            "start_date": "2025-07-01",
+            "completion_date": "2026-12-30",
+            "brief_summary": "Effective tuberculosis treatment outcome relies on adherence. However, many TB patients struggle to adequately adhere to their prescribed regimen due to various social, economic, personal, and healthcare system barriers. However, previous interventions did not adequately consider combined strategies in a way that addressed social, personal, economic, and health system barriers to case detection, treatment adherence, and outcomes. As a result, the investigator developed novel holistic interventio",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "NA 期整合性介入試驗，同時涵蓋 TB 與麻瘋病社區管理，n=278，進行中。研究重點為數位化服務整合模式，非 INH 對麻瘋病直接療效評估，但具疾病領域相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00850915",
+            "title": "Feasibility and Effectiveness of Community Based Isoniazid Preventive Therapy in Kenya",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 1259,
+            "start_date": "2009-04",
+            "completion_date": "2012-11",
+            "brief_summary": "Isoniazid preventive therapy (IPT) is a well studied clinical intervention for primary and secondary prevention of active tuberculosis (TB) after infection with Mycobacterium tuberculosis. It is widely used in industrialized countries in TB outbreak management, focusing on high risk groups such as close contacts in the family, in congregate settings, and in the workplace amongst others. Individuals infected with Human Immunodeficiency Virus (HIV) have a markedly higher risk of acquiring a TB-inf",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 完成，研究肯亞 HIV 族群 INH 預防性治療（LTBI），n=1259，非麻瘋病適應症。"
+            }
+          },
+          {
+            "nct_id": "NCT07303699",
+            "title": "Population Pharmacokinetics and Pharmacodynamics of Standard First Line Anti-TB Versus Atorvastatin-Containing Regimens in the Treatment of Pulmonary Tuberculosis: A Sub-study of the ATORTUB Phase 2C Randomized Controlled Trial (ATORTUB popPK-PD Study)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 80,
+            "start_date": "2026-01-03",
+            "completion_date": "2028-03-30",
+            "brief_summary": "The purpose of this study is to assess pharmacokinetic parameters of atorvastatin at different doses when combined with the standard first line tuberculosis (TB) treatment regimen in adults with drug sensitive pulmonary TB. The pharmacokinetics parameters will be correlated with Pharmcodynamic measures and a PK/PD model that will identify an optimal dosing regimen of atorvastatin that is appropriate for the treatment of pulmonary tuberculosis will be developed.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 招募中，研究抗結核藥物合併 Atorvastatin 的 PK/PD，n=80，非麻瘋病。"
+            }
+          },
+          {
+            "nct_id": "NCT00816426",
+            "title": "Pharmacokinetics of Standard First and Second Line Anti-TB Drugs in the Lung and Lesions of Subjects Elected for Resection Surgery",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2008-12-29",
+            "completion_date": "2017-12-29",
+            "brief_summary": "This study, conducted jointly by researchers at the National Masan TB Hospital, Asan and Samsung Medical Centers in Seoul, Republic of Korea, and the Yonsei University and the NIH in the United States, will examine why some patients with tuberculosis (TB) develop disease that is harder to treat than most cases. TB is an infection of the lung that usually can be successfully treated with anti-TB drugs. However, some people get a more serious kind of disease (called multi-drug resistant TB or exte",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 完成，研究抗 TB 藥物肺部及病灶藥代動力學，n=19，非麻瘋病。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2344344",
+            "title": "Acetylation polymorphism and leprosy.",
+            "authors": [
+              "Eze L C",
+              "Okpogba A N",
+              "Ogan A U"
+            ],
+            "journal": "Biochemical genetics",
+            "year": "1990",
+            "abstract": "The sulfones are the drug of choice in the treatment of leprosy, with dapsone as the clear favorite. The major route for dapsone metabolism leading to its inactivation and excretion is via acetylation by hepatic N-acetyl transferase (NAT), as is the case with isoniazid (INH) and sulfamethazine (SMZ). The enzyme is known to exhibit genetic polymorphism. The object of the present study is mainly to determine the incidence of acetylator phenotype in a population of leprosy patients with a view to e",
+            "classification": {
+              "study_type": "Pharmacogenomics Study (acetylation in leprosy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33758553",
+            "title": "Determinants of Drug-Induced Hepatotoxicity Among Patients with Human Immunodeficiency Virus Taking a High Dose of Rifapentine Plus Isoniazid Drugs at the All Africa Leprosy Tuberculosis Rehabilitation and Training Center in Addis Ababa, Ethiopia.",
+            "authors": [
+              "Lisanwork Arage Leuel",
+              "Deybasso Haji Aman",
+              "Yilma Gebremichael Delelegn",
+              "Gintamo Nuramo Binyam",
+              "Negash Mekuria Zelalem"
+            ],
+            "journal": "HIV/AIDS (Auckland, N.Z.)",
+            "year": "2021",
+            "abstract": "The drugs for the treatment of latent Tuberculosis are potentially hepatotoxic and can lead to drug-induced hepatotoxicity. The current study aimed at identifying the determinants of anti-tuberculosis drug-induced hepatotoxicity among patients living with Human Immunodeficiency Virus taking Isoniazid and rifapentine at All Africa Leprosy Tuberculosis Rehabilitation and Training Center in Addis Ababa, Ethiopia.",
+            "classification": {
+              "study_type": "Cohort Study (hepatotoxicity in HIV+leprosy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12991685",
+            "title": "Isoniazid in leprosy.",
+            "authors": [
+              "LOWE J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1952",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early Clinical Study (1952, direct INH in leprosy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30046638",
+            "title": "Tuberculosis and Leprosy Coinfection: A Perspective on Diagnosis and Treatment.",
+            "authors": [
+              "Mangum Lisa",
+              "Kilpatrick Dustin",
+              "Stryjewska Barbara",
+              "Sampath Rahul"
+            ],
+            "journal": "Open forum infectious diseases",
+            "year": "2018",
+            "abstract": "Both leprosy and tuberculosis (TB) are known to have similar geographic endemicity. In the setting of coinfection, interferon-gamma release assays (IGRAs) to detect latent TB can be falsely positive. We report a case of leprosy with a positive IGRA and asymptomatic active pulmonary TB. Minocycline and dapsone therapy was initiated during the workup for TB and changed to rifampin (Rif), isoniazid, pyrazinamide, and ethambutol, with the addition of dapsone once coinfection was confirmed. Our revie",
+            "classification": {
+              "study_type": "Review (TB-leprosy coinfection)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29847567",
+            "title": "Prevalence and patterns of rifampicin and isoniazid resistance conferring mutations in Mycobacterium tuberculosis isolates from Uganda.",
+            "authors": [
+              "Kigozi Edgar",
+              "Kasule George W",
+              "Musisi Kenneth",
+              "Lukoye Deus",
+              "Kyobe Samuel"
+            ],
+            "journal": "PloS one",
+            "year": "2018",
+            "abstract": "Accurate diagnosis of tuberculosis, especially by using rapid molecular assays, can reduce transmission of drug resistant tuberculosis in communities. However, the frequency of resistance conferring mutations varies with geographic location of Mycobacterium tuberculosis, and this affects the efficiency of rapid molecular assays in detecting resistance. This has created need for characterizing drug resistant isolates from different settings to investigate frequencies of resistance conferring muta",
+            "classification": {
+              "study_type": "Resistance Study (M. leprae)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39446249",
+            "title": "Prevalence of rifampicin and isoniazid mono-resistance among cases of pulmonary tuberculosis from Western Uttar Pradesh, North India.",
+            "authors": [
+              "Kumar Roopendra",
+              "Sohal Jagdeep Singh",
+              "Singh Ajay Vir",
+              "Chauhan Devendra Singh"
+            ],
+            "journal": "Molecular biology reports",
+            "year": "2024",
+            "abstract": "Mono-resistance to rifampicin/isoniazid increases poor treatment outcomes and the risk of multi-drug resistance (MDR) in tuberculosis (TB) patients. Limited information exists about mono-resistance status of TB patients in Uttar Pradesh, North India. This study aimed to estimate the burden of rifampicin and isoniazid mono-resistance in Western Uttar Pradesh.",
+            "classification": {
+              "study_type": "Epidemiological Study (2024)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33127165",
+            "title": "[Association of borderline tuberculoid leprosy and tuberculosis: A case report and review of the literature].",
+            "authors": [
+              "Rousset L",
+              "Sokal A",
+              "Vignon-Pennamen M-D",
+              "Pagis V",
+              "Rybojad M"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2020",
+            "abstract": "In metropolitan France, nearly 20 new cases of leprosy are diagnosed each year. The incidence of tuberculosis in France is 8/100,000 inhabitants and there are very few accounts of association of these two mycobacteria. Herein we report a case of co-infection with borderline tuberculoid (BT) leprosy and disseminated tuberculosis diagnosed in metropolitan France.",
+            "classification": {
+              "study_type": "Case Report + Literature Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33958898",
+            "title": "Determinants of Drug-Induced Hepatotoxicity Among Patients with Human Immunodeficiency Virus Taking a High Dose of Rifapentine Plus Isoniazid Drugs at the All Africa Leprosy Tuberculosis Rehabilitation and Training Center in Addis Ababa, Ethiopia [Retraction].",
+            "authors": [],
+            "journal": "HIV/AIDS (Auckland, N.Z.)",
+            "year": "2021",
+            "abstract": "[This retracts the article DOI: 10.2147/HIV.S300135.].",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8179715",
+            "title": "Isoniazid and hepatotoxicity.",
+            "authors": [
+              "Verduin P R"
+            ],
+            "journal": "International journal of leprosy and other mycobacterial diseases : official organ of the International Leprosy Association",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review (hepatotoxicity)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13281923",
+            "title": "Isoniazid in leprosy.",
+            "authors": [
+              "SCRAGG R F"
+            ],
+            "journal": "Transactions of the Royal Society of Tropical Medicine and Hygiene",
+            "year": "1955",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early Clinical Study (1955, direct INH in leprosy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10382882",
+            "title": "Antimycobacterial activities of riminophenazines.",
+            "authors": [
+              "Reddy V M",
+              "O'Sullivan J F",
+              "Gangadharam P R"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1999",
+            "abstract": "Riminophenazines were specifically developed as drugs active against Mycobacterium tuberculosis but extensive research over several decades has shown that these compounds are also active against many other mycobacterial infections, particularly those caused by Mycobacterium leprae and the Mycobacterium avium complex (MAC). Clofazimine, the lead compound in this series, is included in the regimens that are approved by the WHO for the treatment of leprosy and has contributed significantly to the c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33915379",
+            "title": "Inhalable particles containing isoniazid and rifabutin as adjunct therapy for safe, efficacious and relapse-free cure of experimental animal tuberculosis in one month.",
+            "authors": [
+              "Singh Amit K",
+              "Verma Rahul K",
+              "Mukker Jatinder Kaur",
+              "Yadav Awadh B",
+              "Muttil Pavan"
+            ],
+            "journal": "Tuberculosis (Edinburgh, Scotland)",
+            "year": "2021",
+            "abstract": "We investigated the preclinical efficacy and safety/tolerability of biodegradable polymeric particles containing isoniazid (INH) and rifabutin (RFB) dry powder for inhalation (DPI) as an adjunct to oral first-line therapy. Mice and guinea pigs infected with Mycobacterium tuberculosis H37Rv (Mtb) were treated with ∼80 and ∼300 μg of the DPI, respectively, for 3-4 weeks starting 3, 10, and 30 days post-infection. Adjunct combination therapy eliminated culturable Mtb from the lungs and spleens of a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13175567",
+            "title": "Isoniazid alone and in combination with other drugs in the treatment of leprosy.",
+            "authors": [
+              "DAVIDSON W S"
+            ],
+            "journal": "Leprosy review",
+            "year": "1954",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9141669",
+            "title": "On the catalase-peroxidase gene, katG, of Mycobacterium leprae and the implications for treatment of leprosy with isoniazid.",
+            "authors": [
+              "Eiglmeier K",
+              "Fsihi H",
+              "Heym B",
+              "Cole S T"
+            ],
+            "journal": "FEMS microbiology letters",
+            "year": "1997",
+            "abstract": "The toxicity of the potent tuberculocidal agent, isoniazid, is mediated by the heme-containing enzyme, catalase-peroxidase, encoded by the katG gene. Although isoniazid has been used for the treatment of leprosy, it is shown here that the katG gene of Mycobacterium leprae is a pseudogene, which has probably been inactivated by multiple mutations. Inactive genes were detected by the polymerase chain reaction in several isolates of M. leprae, of different geographical origins, and attempts to comp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23208884",
+            "title": "Leprosy and tuberculosis co-infection: clinical and immunological report of two cases and review of the literature.",
+            "authors": [
+              "Trindade Maria Ângela B",
+              "Miyamoto Denise",
+              "Benard Gil",
+              "Sakai-Valente Neusa Y",
+              "Vasconcelos Dewton de M"
+            ],
+            "journal": "The American journal of tropical medicine and hygiene",
+            "year": "2013",
+            "abstract": "A review of the records of patients seen between 2004 and 2011 at the Dermatology Clinic of the São Paulo University Medical School showed that only two leprosy patients had been co-infected with tuberculosis (TB). One patient showed a type 1 leprosy reaction during the first 3 months of treatment of pleural TB and in the other patient, pulmonary TB was diagnosed during the first 3 months of treatment of a type 1 leprosy reaction. Both patients showed normal cellular immune response tests, inclu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13024048",
+            "title": "Intracorneal murine leprosy and its response to isoniazid.",
+            "authors": [
+              "GOULDING R",
+              "ROBSON J M",
+              "REES R J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1953",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27097724",
+            "title": "Mycobacterium tuberculosis Uganda II is more susceptible to rifampicin and isoniazid compared to Beijing and Delhi/CAS families.",
+            "authors": [
+              "Kasule George W",
+              "Kateete David P",
+              "Joloba Moses L"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2016",
+            "abstract": "Mycobacterium tuberculosis Uganda family is the predominant cause of tuberculosis in Uganda. Reasons for this are not clear but are likely to be due to the rampant person-to-person transmission or delayed susceptibility of the organism to drugs during treatment, which may lead to continuous shedding of infectious bacilli, among others. The objective of this study was to determine in vitro, the susceptibility patterns of M. tuberculosis Uganda family compared with Beijing and Delhi/CAS, other M. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13268856",
+            "title": "The intermittent use of streptomycin and isoniazid singly and together in murine leprosy.",
+            "authors": [
+              "HOBBY G L",
+              "DONIKIAN M A"
+            ],
+            "journal": "American review of tuberculosis",
+            "year": "1955",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13294919",
+            "title": "[The place of isoniazid and the thiosemicarbazones in the treatment of leprosy].",
+            "authors": [
+              "MAGALHAES M J C"
+            ],
+            "journal": "Jornal do medico",
+            "year": "1955",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4929555",
+            "title": "[Therapy of leprosy].",
+            "authors": [
+              "Ilardi I",
+              "Mazzacurati G"
+            ],
+            "journal": "La Clinica terapeutica",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Mycobacterium leprae 與 M. tuberculosis 同屬分枝桿菌屬，共享 mycolic acid 合成途徑，INH 理論上可抑制 M. leprae。1950 年代兩篇直接臨床研究（PMID 12991685, 1952；PMID 13281923, 1955）已探討 INH 用於麻瘋病。然現代 WHO MDT（dapsone + rifampicin ± clofazimine）已確立，INH 未被納入標準方案。當代臨床試驗均以 TB 為主要適應症，無現代麻瘋病 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9782128930091858,
+        "rank": 17892
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "罕見遺傳性四肢發育異常症候群，INH 無任何已知針對肢端骨骼形成基因缺陷的療效機轉。零臨床或文獻依據，為純計算預測，建議列為模型假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "vestibular neuronitis",
+      "txgnn": {
+        "score": 0.9779732823371888,
+        "rank": 17994
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前庭神經元炎通常為病毒感染後免疫介導的急性周圍性眩暈疾患，INH 為抗分枝桿菌藥物，無抗病毒或抗前庭神經炎機轉。零臨床試驗、零文獻支持，為純計算推斷，生物學合理性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "motor nerve neuritis",
+      "txgnn": {
+        "score": 0.9775984287261964,
+        "rank": 18166
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6329054",
+            "title": "The neurotoxicity of antibacterial agents.",
+            "authors": [
+              "Snavely S R",
+              "Hodges G R"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1984",
+            "abstract": "Commonly used antibacterial agents may be associated with various neurotoxic reactions. Central nervous system toxicities include seizure disorders, encephalopathy, bulging fontanelles, and neuropsychiatric symptoms. These abnormalities have been associated with the use of the penicillins, cephalosporins, sulfonamides, tetracyclines, chloramphenicol, colistin, aminoglycosides, metronidazole, isoniazid, rifampin, ethionamide, cycloserine, and dapsone. Cranial nerve toxicities, such as myopia, opt",
+            "classification": {
+              "study_type": "Review (INH neurotoxicity mechanism)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1339149",
+            "title": "Isoniazid induced neuropathy in slow versus rapid acetylators: an electrophysiological study.",
+            "authors": [
+              "Goel U C",
+              "Bajaj S",
+              "Gupta O P",
+              "Dwivedi N C",
+              "Dubey A L"
+            ],
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "1992",
+            "abstract": "Clinical, biochemical and nerve conduction studies were performed in 100 cases of tuberculosis taking isonicotinic acid hydrozide (isoniazid) for more than 12 weeks. Electro-physiological studies were carried out in a similar number of normal age and sex matched controls. In 16 percent of cases an abnormality was documented in the motor nerve conduction velocity, amplitude and terminal latency of the common peroneal, ulnar and median nerves; of these, only two patients had objective evidence of ",
+            "classification": {
+              "study_type": "Electrophysiological Study (INH-induced neuropathy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 負向證據警示（Adverse Effect Direction）：現有全部文獻均記錄 INH 本身為運動神經炎的已知病因，而非治療藥物。機轉為 INH 競爭性抑制吡哆醛激酶，導致維生素 B6 耗竭，進而引起周圍神經病變（以慢代謝者/slow acetylators 為高風險族群）。此適應症方向與藥物毒性特性完全相反，再利用方向不成立，不應進入後續評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "infectious otitis media",
+      "txgnn": {
+        "score": 0.9772934317588806,
+        "rank": 18291
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "5302244",
+            "title": "[Current aspects of congenital tuberculosis. Review of the literature apropos of a case beginning as otitis].",
+            "authors": [
+              "Vaillaud J C",
+              "Sarrouy C"
+            ],
+            "journal": "Le Poumon et le coeur",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (1968, congenital TB)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 5302244, 1968）描述先天性結核病以中耳炎為初始表現的個案，屬於 TB 全身感染的局部耳部表現，非一般感染性中耳炎（主要病原：肺炎鏈球菌、流感嗜血桿菌、卡他莫拉菌）。INH 對上述常見病原菌無療效，機轉關聯極為薄弱且僅限結核病因亞型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "brachial plexus neuritis",
+      "txgnn": {
+        "score": 0.9771550297737122,
+        "rank": 18364
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "5107465",
+            "title": "[Management and prognosis of INH-induced neuritis?].",
+            "authors": [
+              "Schalterand G"
+            ],
+            "journal": "Munchener medizinische Wochenschrift (1950)",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series/Review (INH-induced neuritis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1554089",
+            "title": "[Cold tuberculous retropharyngeal abscess].",
+            "authors": [
+              "Valles H",
+              "Garcia Guzman A",
+              "Blanc J M",
+              "Fumanal L",
+              "de Francisco J E"
+            ],
+            "journal": "Anales otorrinolaringologicos ibero-americanos",
+            "year": "1992",
+            "abstract": "The AA. present a report about a patient having a cold tuberculous abscess which symptomatologic manifested through dysphagia and cervico-brachialgia. Comments on the most remarkable aspects of these conditions.",
+            "classification": {
+              "study_type": "Case Report (TB abscess)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 負向證據警示（Adverse Effect Direction）：文獻（PMID 5107465, 1971）明確記錄 INH 誘發臂叢神經炎的管理與預後，INH 為此病因而非治療藥物。PMID 1554089 為結核性咽後膿腫個案，與臂叢神經炎治療無關。與運動神經炎相同，INH 的維生素 B6 拮抗毒性使此再利用方向不成立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "shigellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "shigellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "shigellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "vestibular neuronitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "vestibular neuronitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "vestibular neuronitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "motor nerve neuritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "motor nerve neuritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "motor nerve neuritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "infectious otitis media"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "infectious otitis media"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "infectious otitis media"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "brachial plexus neuritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "brachial plexus neuritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoniazid",
+        "disease": "brachial plexus neuritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    }
+  ]
+}

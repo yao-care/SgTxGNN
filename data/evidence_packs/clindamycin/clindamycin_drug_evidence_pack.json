@@ -1,0 +1,866 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01190-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clindamycin",
+    "drugbank_id": "DB01190",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9997082352638244,
+        "rank": 780
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "點狀上皮角結膜炎病因多元（乾眼症、病毒、毒性、藥物副作用），非細菌感染為主。Clindamycin 抗菌機轉與此疾病主要病理機制關聯薄弱。TxGNN 最高分（0.9997）疑為知識圖譜中角膜疾病節點密集擴散所致，非機轉特異性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "exposure keratitis",
+      "txgnn": {
+        "score": 0.9979846477508544,
+        "rank": 3431
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22880135",
+            "title": "Staphylococcus aureus ocular infection: methicillin-resistance, clinical features, and antibiotic susceptibilities.",
+            "authors": [
+              "Chuang Chih-Chun",
+              "Hsiao Ching-Hsi",
+              "Tan Hsin-Yuan",
+              "Ma David Hui-Kang",
+              "Lin Ken-Kuo"
+            ],
+            "journal": "PloS one",
+            "year": "2012",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) infection is an important public health issue. The study aimed to determine the prevalence of ocular infections caused by MRSA and to identify the clinical characteristics and antibiotic susceptibility of ocular MRSA infections by comparing those of ocular methicillin-sensitive S. aureus (MSSA) infections.",
+            "classification": {
+              "study_type": "Retrospective Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24244625",
+            "title": "Staphylococcus aureus keratitis: a review of hospital cases.",
+            "authors": [
+              "Ong Sherine Jue",
+              "Huang Yhu-Chering",
+              "Tan Hsin-Yuan",
+              "Ma David H K",
+              "Lin Hsin-Chiung"
+            ],
+            "journal": "PloS one",
+            "year": "2013",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) infection is an important public health issue. The study aimed to characterize the patient demographics, clinical features, antibiotic susceptibility, and clinical outcomes of keratitis caused by S. aureus, and to make a comparison between MRSA and methicillin-sensitive S. aureus (MSSA) isolates.",
+            "classification": {
+              "study_type": "Retrospective Cohort Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11581057",
+            "title": "Bacillus cereus keratitis associated with contact lens wear.",
+            "authors": [
+              "Pinna A",
+              "Sechi L A",
+              "Zanetti S",
+              "Usai D",
+              "Delogu G"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "abstract": "We report the first case of contact lens-related Bacillus cereus keratitis and ulcer associated with B. cereus contamination of the contact lens case. This is also the first study to investigate and establish the genetic identity of an organism isolated from the cornea and contact lens case in a patient with contact lens-associated keratitis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33847093",
+            "title": "Feline ocular toxoplasmosis: seroprevalence, diagnosis and treatment outcome of 60 clinical cases.",
+            "authors": [
+              "Ali K M",
+              "Abu-Seida A M",
+              "Abuowarda M"
+            ],
+            "journal": "Polish journal of veterinary sciences",
+            "year": "2021",
+            "abstract": "Toxoplasmosis is one of the most important protozoa zoonotic diseases worldwide. The present study describes the clinical, seroprevalence findings with ocular toxoplasmosis and the outcome of medicinal treatment of these cats. This study was carried out on 105 cats with various ocular signs, no historical evidence of ocular trauma or drug/vaccine exposure for at least 3 months prior to admission, and without clinical or laboratory evidence of other systemic diseases. Complete case history, physi",
+            "classification": {
+              "study_type": "Veterinary Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "暴露性角膜炎主要為眼瞼閉合不全導致角膜乾燥損傷，繼發細菌感染（尤其金黃色葡萄球菌、需氧革蘭氏陽性菌）為重要併發症。Clindamycin 對 S. aureus（含部分 MRSA）及 Bacillus cereus 具活性，可能作為繼發感染的治療選項，但非暴露性角膜炎本身的治療藥物。PMID 33847093 涉及貓弓形蟲眼病，Clindamycin 為弓形蟲一線治療，但適應症類別不符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "non-human animal disease",
+      "txgnn": {
+        "score": 0.9969406127929688,
+        "rank": 4659
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36684930",
+            "title": "Molecular epidemiology of Clostridioides difficile in companion animals: Genetic overlap with human strains and public health concerns.",
+            "authors": [
+              "Alves Frederico",
+              "Castro Rita",
+              "Pinto Miguel",
+              "Nunes Alexandra",
+              "Pomba Constança"
+            ],
+            "journal": "Frontiers in public health",
+            "year": "2022",
+            "abstract": "The changing epidemiology of Clostridioides difficile reflects a well-established and intricate community transmission network. With rising numbers of reported community-acquired infections, recent studies tried to identify the role played by non-human reservoirs in the pathogen's transmission chain. This study aimed at describing the C. difficile strains circulating in canine and feline populations, and to evaluate their genetic overlap with human strains to assess the possibility of interspeci",
+            "classification": {
+              "study_type": "Molecular Epidemiology Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40172204",
+            "title": "Clostridioides difficile in feral horse populations in Australia.",
+            "authors": [
+              "Hain-Saunders Natasza M R",
+              "Knight Daniel R",
+              "Harvey Andrea",
+              "Bruce Mieghan",
+              "Hampson Brian A"
+            ],
+            "journal": "Applied and environmental microbiology",
+            "year": "2025",
+            "abstract": "Clostridioides difficile is a known cause of diarrhea and colitis in human and non-human animals. While C. difficile is regularly isolated from domesticated horses, little is known about its prevalence in wild or feral populations. In Australia, the horse population encompasses a mix of both domesticated and feral animals, with the feral population of 400,000 estimated to be the largest in the world. This study investigated the presence and characteristics of C. difficile in Australian feral hor",
+            "classification": {
+              "study_type": "Epidemiological Survey",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此適應症類別過於寬泛且非人類疾病目標。兩篇文獻均關於 Clostridioides difficile 在動物（伴侶動物、野馬）的分子流行病學。值得注意的是，Clindamycin 是 C. difficile 感染（CDI）的已知誘發風險因子，而非治療藥物——此關聯為負向警示，非治療潛力信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "neurotrophic keratopathy",
+      "txgnn": {
+        "score": 0.994885504245758,
+        "rank": 6573
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經營養性角膜病變為三叉神經損傷導致角膜知覺喪失，主要病理為神經源性營養缺乏，非感染。Clindamycin 抗菌機轉與此疾病核心病理無關聯。繼發感染預防角色理論上存在，但無任何臨床或臨床前證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "epidemic keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9948851466178894,
+        "rank": 6574
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21908289",
+            "title": "Minimum inhibitory concentrations of selected antimicrobial agents for Moraxella bovoculi associated with infectious bovine keratoconjunctivitis.",
+            "authors": [
+              "Angelos John A",
+              "Ball Louise M",
+              "Byrne Barbara A"
+            ],
+            "journal": "Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc",
+            "year": "2011",
+            "abstract": "Infectious bovine keratoconjunctivitis (IBK) has been associated with ocular infections by Moraxella bovis, the established etiologic agent of IBK, and more recently, Moraxella bovoculi, a recently described species of Moraxella. To assist in designing rational treatment regimens for M. bovoculi infections associated with IBK, the in vitro susceptibilities of 57 M. bovoculi field isolates cultured from eyes of cattle with IBK in California from 2002 through 2007 were determined. The minimum inhi",
+            "classification": {
+              "study_type": "Veterinary MIC Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25261461",
+            "title": "Moraxella spp. isolated from field outbreaks of infectious bovine keratoconjunctivitis: a retrospective study of case submissions from 2010 to 2013.",
+            "authors": [
+              "Loy John Dustin",
+              "Brodersen Bruce W"
+            ],
+            "journal": "Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc",
+            "year": "2014",
+            "abstract": "Infectious bovine keratoconjunctivitis (IBK), also known as pinkeye, is the most costly eye disease of cattle. The principal etiologic agent of IBK is the Gram-negative bacterium Moraxella bovis. However, there have been reports of IBK outbreaks associated with Moraxella bovoculi. A retrospective study of IBK diagnostic cases submitted from July 1, 2010 through October 31, 2013 was conducted. Included in the study were 1,042 Moraxella isolates from 1,538 swabs of lacrimal secretions collected fr",
+            "classification": {
+              "study_type": "Retrospective Veterinary Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "流行性角結膜炎主要病原為腺病毒（Adenovirus types 8, 19, 37），為病毒性疾病。Clindamycin 為抗細菌/抗原蟲藥物，對病毒無效。兩篇文獻均為牛 Moraxella 角結膜炎（動物疾病），與人類流行性角結膜炎病因學完全不同。此為嚴重的疾病分類錯誤警示。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "txgnn": {
+        "score": 0.9903401732444764,
+        "rank": 10297
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "停經後萎縮性陰道炎的核心病因為雌激素缺乏導致的組織萎縮，非感染性。Clindamycin 陰道乳膏（2%）是細菌性陰道病（BV）的標準治療，兩者雖均為陰道疾病但病理機制根本不同。無證據支持 Clindamycin 對萎縮性陰道炎的治療價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "superior limbic keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9897196292877196,
+        "rank": 10739
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "上方角緣角結膜炎（SLK）為慢性炎症性疾病，與甲狀腺疾病、乾眼症相關，非感染性病因。Clindamycin 抗菌機轉與 SLK 的炎症病理無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "visual snow syndrome",
+      "txgnn": {
+        "score": 0.9827830791473388,
+        "rank": 15580
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "視覺雪花症候群為神經性視覺障礙，與皮質過度興奮及視覺皮層功能異常相關，無感染病因。Clindamycin 抗菌/抗原蟲機轉與此神經症候群完全缺乏合理機轉連結，為最無生物學合理性的預測之一。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "keratomalacia",
+      "txgnn": {
+        "score": 0.9827830791473388,
+        "rank": 15581
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "角膜軟化症（Keratomalacia）為嚴重維生素 A 缺乏所致的角膜液化壞死，病因為營養缺乏，非感染。Clindamycin 抗菌機轉與維生素 A 缺乏病理無關。繼發感染情境下或有抗菌輔助角色，但無任何文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ophthalmia nodosa",
+      "txgnn": {
+        "score": 0.9827830791473388,
+        "rank": 15579
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼炎結節（Ophthalmia nodosa）為毛毛蟲毛刺（setae）或類似物質引發的異物肉芽腫反應，病因為物理性/免疫炎症反應。Clindamycin 抗菌機轉與此肉芽腫病理機制完全不符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "exposure keratitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "exposure keratitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "exposure keratitis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "non-human animal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "non-human animal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "non-human animal disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "neurotrophic keratopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "neurotrophic keratopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "neurotrophic keratopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "epidemic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "epidemic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "epidemic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "superior limbic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "superior limbic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "superior limbic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "visual snow syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "visual snow syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "visual snow syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "keratomalacia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "keratomalacia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "keratomalacia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "ophthalmia nodosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "ophthalmia nodosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clindamycin",
+        "disease": "ophthalmia nodosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

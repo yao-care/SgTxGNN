@@ -1,0 +1,248 @@
+## 藥物再利用證據分析：Isotretinoin (DB00982)
+
+> **背景說明**：Isotretinoin（13-順式維甲酸）為維甲酸衍生物，主要作用機制為結合核內維甲酸受體（RAR-α/β/γ），調節細胞分化、增殖與凋亡相關基因表達，並具抗炎、抗血管新生特性。注意：本地標記「未上市」，但 Isotretinoin 於全球多數市場已核准用於嚴重痤瘡，原始適應症欄位疑有資料缺口。
+
+---
+
+```json
+{
+  "drug": "Isotretinoin",
+  "drugbank_id": "DB00982",
+  "data_quality_flags": [
+    "original_indications 欄位異常為空（Isotretinoin 全球已核准用於重度痤瘡，疑本地資料缺口）",
+    "original_moa 標記 [Data Gap]（實際 MOA：RAR 結合，調控細胞分化/凋亡）",
+    "市場狀態標記「未上市」，需確認是否為新加坡特定市場狀況"
+  ],
+  "indications": [
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9901,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "維甲酸訊號通路（RAR-β）在腎臟血管重塑中具潛在調控作用；動物模型顯示全反式維甲酸（ATRA）具腎臟保護效果，可抑制 TGF-β 驅動的纖維化。然而，惡性腎血管性高血壓與 RAR 路徑之直接關聯尚未在人體研究中確立。高 TxGNN 分數可能反映圖譜中高血壓/血管疾病的結構相似性，而非機制特異性。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無任何臨床試驗或相關文獻支持。高 TxGNN 分數（0.990）源於知識圖譜拓撲相似性，非機制直接證據。惡性高血壓為急症，安全性考量（Isotretinoin 已知致畸性、肝毒性）使此適應症在無任何臨床數據下風險極高。"
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9901,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 malignant renovascular hypertension 機制假設相同（RAR-β 腎臟保護、抗纖維化）。兩疾病 TxGNN 分數完全相同（0.9901），提示知識圖譜中兩者節點高度重疊或為同一概念的不同編碼，需確認是否為重複適應症。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "與 malignant renovascular hypertension 評估相同。無臨床證據，且分數完全一致疑為知識圖譜中疾病本體重複問題，建議合併評估。"
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9889,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "維甲酸受體（RAR-β）調控肺血管平滑肌細胞增殖，理論上可抑制肺血管重塑。部分動物實驗顯示 ATRA 可改善肺動脈高壓模型的血管阻力。然而，多因素機制不明的肺高壓本身診斷標準模糊，且 Isotretinoin 可能影響肺血管擴張劑代謝（CYP450 交互作用）。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無臨床試驗或直接文獻。「機制不明確的多因素肺高壓」本身是排除診斷，治療靶點不明確，進行再利用研究的科學基礎薄弱。"
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9889,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低氧誘導的 HIF-1α 路徑與維甲酸訊號存在交叉調控：RAR 活化可調節 HIF-1α 下游基因。然而，Isotretinoin 在低氧性肺高壓中的作用方向（保護vs惡化）尚不明確，且低氧環境下肺血管收縮為代償機制，干預需審慎。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧對腦部影響的綜述，與 Isotretinoin 或肺高壓無直接關聯"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine.",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧作為治療手段的綜述，未提及維甲酸/Isotretinoin"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧免疫調節背景文獻，非 Isotretinoin 特異性"
+        },
+        {
+          "pmid": "37328448",
+          "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback",
+          "year": "2023",
+          "study_type": "Basic Science",
+          "tier": 3,
+          "relevance_note": "胃癌 HIF-1α 機制研究，與本適應症及 Isotretinoin 無關"
+        },
+        {
+          "pmid": "34618295",
+          "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧認知障礙，非肺高壓或維甲酸相關"
+        },
+        {
+          "pmid": "21328446",
+          "title": "Hypoxia-mediated biological control.",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧生物調控通論，未涉及 Isotretinoin"
+        },
+        {
+          "pmid": "8817697",
+          "title": "Hypoxia and brain development.",
+          "year": "1996",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧腦發育（1996年），完全不相關"
+        },
+        {
+          "pmid": "31706510",
+          "title": "DUBs, Hypoxia, and Cancer.",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "去泛素化酶在腫瘤低氧中的作用，無關聯"
+        },
+        {
+          "pmid": "34535359",
+          "title": "Therapeutic Modification of Hypoxia.",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧治療調控綜述，未提及維甲酸"
+        },
+        {
+          "pmid": "11172576",
+          "title": "Mechanisms of hypoxemia.",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "低氧血症機制（2000年），無 Isotretinoin 關聯"
+        }
+      ],
+      "rationale": "⚠️ 文獻品質警告：所有 20 篇文獻均為低氧主題的一般性綜述或基礎研究，無一篇直接研究 Isotretinoin 或維甲酸用於低氧性肺高壓。文獻匹配疑為關鍵字 'hypoxia' 的誤配（false positive），實際證據等級維持 L5。"
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9866,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群為極罕見遺傳性疾病（面部異常、心臟缺陷、骨骼畸形，可能涉及 EFTUD2 突變）。維甲酸訊號在胚胎發育中至關重要，可能與部分表型相關，但 Isotretinoin 的強致畸性與此症候群的先天特性使治療應用邏輯存在根本矛盾。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無任何臨床或基礎研究支持。罕病且 Isotretinoin 致畸性已知（FDA X 類禁忌），在先天性疾病中應用存在倫理與安全性根本障礙。"
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.8870,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肺心病（Cor Pulmonale）常繼發於肺氣腫。維甲酸（Retinoic Acid）被假設可透過以下機制修復肺氣腫：(1) 激活 RAR-β 促進肺泡間質細胞再生；(2) 調節彈性蛋白酶/抗蛋白酶平衡；(3) 誘導肺泡上皮細胞分化。Isotretinoin（13-cis-RA）在體內可轉化為全反式維甲酸（ATRA），具相似機制。FORTE 試驗（NCT00000621）直接基於此假設設計。",
+      "clinical_trials_analysis": [
+        {
+          "nct_id": "NCT00000621",
+          "title": "Feasibility of Retinoic Acid Treatment in Emphysema (FORTE)",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "相關性評級 B：本試驗直接測試維甲酸治療肺氣腫（肺心病主要病因），與本適應症高度相關。然而，試驗使用的可能為 ATRA（全反式維甲酸）而非 Isotretinoin（13-cis-RA）特定製劑，屬同類藥物間接證據。Phase 2 完成但未見後續 Phase 3，提示療效結果可能未達預期（需查閱完整試驗結果）。"
+        }
+      ],
+      "literature_analysis": [],
+      "rationale": "存在一項已完成的 Phase 2 臨床試驗（FORTE），為維甲酸類藥物用於肺氣腫/肺心病的直接臨床嘗試，達 L3 證據等級。然而：(1) 試驗已完成但未有後續 Phase 3，需確認 FORTE 結果是否為陰性；(2) 藥物特異性不確定（ATRA vs 13-cis-RA）；(3) Isotretinoin 的全身毒性（肝毒性、高脂血症、精神副作用）在慢性肺病族群中需特別評估。建議：查閱 FORTE 完整結果後決定是否進入 S2。"
+    },
+    {
+      "disease_name": "cholangiocarcinoma, susceptibility to",
+      "txgnn_score": 0.6191,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "維甲酸受體（RAR-β）在多種消化道腫瘤中表達下調，理論上 Isotretinoin 可透過重啟 RAR 訊號誘導膽管癌細胞分化或凋亡。然而，膽管癌的異質性高，RAR 沉默機制（甲基化vs突變）不同，且 Isotretinoin 的體外/動物研究數據未在提供資料中出現。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "TxGNN 分數相對偏低（0.619），無臨床試驗或文獻支持。「susceptibility to」的疾病分類意指易感性/風險因子研究，而非治療適應症，定義本身不適合作為再利用靶標。"
+    },
+    {
+      "disease_name": "obsolete functional visual loss",
+      "txgnn_score": 0.5919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "維甲酸（視黃醛前驅物）在視覺循環中扮演關鍵角色（視紫質合成）。然而，「功能性視力喪失」（非器質性，多為轉換性障礙或詐病）與維甲酸缺乏完全不同，且 Isotretinoin 已知有視覺副作用（夜盲、視乳頭水腫）。此外，疾病名稱標記為「obsolete」（已廢棄分類），再利用研究價值存疑。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "疾病分類本身已廢棄，加之 Isotretinoin 已知的視覺副作用，此適應症為反向指標。無任何支持性臨床證據。"
+    },
+    {
+      "disease_name": "mitral valve prolapse, myxomatous",
+      "txgnn_score": 0.5911,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "黏液瘤性二尖瓣脫垂涉及瓣膜細胞外基質異常（TGF-β 訊號過度活化、蛋白聚糖堆積）。維甲酸可調節結締組織代謝，理論上可影響瓣膜重塑，但機制方向不明確（可能促進或抑制黏液瘤變性）。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無臨床試驗或文獻。TxGNN 分數低（0.591），接近閾值，機制推測極為薄弱，且二尖瓣脫垂的藥物治療選項有限、研究基礎薄弱。"
+    },
+    {
+      "disease_name": "ocular tuberculosis",
+      "txgnn_score": 0.5868,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "維生素 A（維甲酸）在眼部黏膜免疫中具重要作用，維生素 A 缺乏與結核病易感性相關。理論上 Isotretinoin 可調節眼部免疫微環境，但 Isotretinoin 強力抑制皮脂腺（眼瞼腺體）功能，可能導致乾眼症，惡化眼部感染環境。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無支持性臨床證據。重要安全性考量：Isotretinoin 的眼部副作用（乾眼症、角膜炎、視乳頭水腫）可能使眼結核治療更複雜。TxGNN 分數最低（0.587），再利用可行性最弱。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 總結評估矩陣
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵發現 |
+|--------|-----------|----------|----------|------|----------|
+| malignant renovascular hypertension | 0.990 | **L5** | S0 | ⛔ Hold | 純模型預測，無臨床數據 |
+| malignant hypertensive renal disease | 0.990 | **L5** | S0 | ⛔ Hold | 疑與上條重複編碼 |
+| PH with unclear multifactorial mechanism | 0.989 | **L5** | S0 | ⛔ Hold | 診斷標準模糊，靶點不明 |
+| PH owing to lung disease/hypoxia | 0.989 | **L5** | S0 | ⛔ Hold | ⚠️ 文獻為假陽性匹配 |
+| Braddock syndrome | 0.987 | **L5** | S0 | ⛔ Hold | 致畸性禁忌與先天病矛盾 |
+| **chronic pulmonary heart disease** | 0.887 | **L3** | **S1** | 🔶 Research Question | FORTE Phase 2 試驗，需查結果 |
+| cholangiocarcinoma susceptibility | 0.619 | **L5** | S0 | ⛔ Hold | 疾病定義為易感性，非治療靶 |
+| obsolete functional visual loss | 0.592 | **L5** | S0 | ⛔ Hold | 廢棄診斷+已知視覺副作用 |
+| mitral valve prolapse, myxomatous | 0.591 | **L5** | S0 | ⛔ Hold | 機制方向不明確 |
+| ocular tuberculosis | 0.587 | **L5** | S0 | ⛔ Hold | 已知眼部副作用為反向指標 |
+
+---
+
+## 🔍 關鍵洞察
+
+1. **TxGNN 分數不等於臨床可行性**：malignant renovascular hypertension 分數高達 0.990，但為 L5 純預測；chronic pulmonary heart disease 分數僅 0.887，卻有 Phase 2 試驗支持達 L3。
+
+2. **唯一值得進一步研究的適應症**：**慢性肺心病**（透過 FORTE 試驗聯繫到維甲酸/肺氣腫機制）。**優先行動**：查閱 NCT00000621 完整結果，若 FORTE 顯示療效訊號，可考慮設計 Isotretinoin 特異性的 Phase 1/2 試驗。
+
+3. **文獻品質問題**：低氧性肺高壓的 20 篇文獻全部為假陽性匹配（hypoxia 關鍵字誤配），建議改善文獻收集的相關性過濾邏輯。
+
+4. **安全性優先考量（橫跨所有適應症）**：Isotretinoin 的已知風險（FDA 妊娠 X 類、肝毒性、高脂血症、精神副作用、乾眼症）在評估任何新適應症時必須作為核心安全閘門，不可僅依賴 TxGNN 分數決策。

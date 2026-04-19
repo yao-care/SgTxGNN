@@ -1,0 +1,2663 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB05382-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Iodine",
+    "drugbank_id": "DB05382",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Sjogren syndrome",
+      "txgnn": {
+        "score": 0.940865695476532,
+        "rank": 28655
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35817018",
+            "title": "Management of Chronic Sialadenitis due to Sjogren's Syndrome and Radioactive Iodine Therapy Using Sialendoscopy.",
+            "authors": [
+              "Douglas Jennifer E",
+              "Wen Christopher Z",
+              "Thomas W Walsh",
+              "Elrakhawy Mohamed",
+              "Rassekh Christopher H"
+            ],
+            "journal": "ORL; journal for oto-rhino-laryngology and its related specialties",
+            "year": "2023",
+            "abstract": "Sialendoscopy is a minimally invasive technique for the management of salivary gland disease. This work characterizes its utility for treating chronic sialadenitis due to Sjogren's syndrome and radioactive iodine (RAI) therapy.",
+            "classification": {
+              "study_type": "Case Series/Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37536329",
+            "title": "[Not Available].",
+            "authors": [],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28059621",
+            "title": "Imaging of sialadenitis.",
+            "authors": [
+              "Abdel Razek Ahmed Abdel Khalek",
+              "Mukherji Suresh"
+            ],
+            "journal": "The neuroradiology journal",
+            "year": "2017",
+            "abstract": "Sialadenitis is an inflammation or infection of the salivary glands that may affect the parotid, submandibular and small salivary glands. Imaging findings vary among unilateral or bilateral salivary gland enlargement, atrophy, abscess, ductal dilation, cysts, stones and calcification. Imaging can detect abscess in acute bacterial suppurative sialadenitis, ductal changes with cysts in chronic adult and juvenile recurrent parotitis. Imaging is sensitive for detection of salivary stones and strictu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4965427",
+            "title": "Sjögren's syndrome and thyroid disease.",
+            "authors": [
+              "Williamson J",
+              "Cant J S",
+              "Mason D K",
+              "Greig W R",
+              "Boyle J A"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37536328",
+            "title": "[Not Available].",
+            "authors": [],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41516079",
+            "title": "Predicted T-Cell and B-Cell Epitopes of NIS: Where Do Sjögren's Syndrome and Hashimoto's Thyroiditis Converge?",
+            "authors": [
+              "Talotta Rossella",
+              "Cammaroto Gabriele",
+              "Ruggeri Rosaria Maddalena",
+              "Postorino Elisa",
+              "Cannavò Salvatore"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "abstract": "The sodium iodide symporter (NIS) is a key protein in thyroid function responsible for iodine uptake, and it may be involved in the pathogenesis of autoimmune thyroiditis. However, it is also expressed in the salivary glands, the primary target of autoreactive cells in Sjögren's syndrome (SS). Given the common link between the two diseases, we computationally investigated whether the epitopes of NIS can trigger an immune response leading to SS in Hashimoto's thyroiditis (HT) patients genetically",
+            "classification": {
+              "study_type": "Computational/Immunological Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24899999",
+            "title": "Evaluation of Salivary Gland Dysfunction Using Salivary Gland Scintigraphy in Sjögren's Syndrome Patients and in Thyroid Cancer Patients after Radioactive Iodine Therapy.",
+            "authors": [
+              "Kang Ji Yeon",
+              "Jang Su Jin",
+              "Lee Won Woo",
+              "Jang Sung June",
+              "Lee Yun Jong"
+            ],
+            "journal": "Nuclear medicine and molecular imaging",
+            "year": "2011",
+            "abstract": "Salivary gland scintigraphy (SGS) provides an objective means of diagnosing salivary gland dysfunction in Sjögren's syndrome (SS) patients and in thyroid cancer patients after radioactive iodine (RAI) therapy. In the present study, SGS was performed in SS patients and in thyroid cancer patients post-RAI, and scintigraphic parameters were compared.",
+            "classification": {
+              "study_type": "Diagnostic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12035942",
+            "title": "Thyroid hormone autoantibodies in primary Sjögren syndrome and rheumatoid arthritis are more prevalent than in autoimmune thyroid disease, becoming progressively more frequent in these diseases.",
+            "authors": [
+              "Ruggeri R M",
+              "Galletti M",
+              "Mandolfino M G",
+              "Aragona P",
+              "Bartolone S"
+            ],
+            "journal": "Journal of endocrinological investigation",
+            "year": "2002",
+            "abstract": "To verify the greater prevalence of circulating thyroid hormone autoantibodies (THAb) in primary Sjogren syndrome (SS) vs Hashimoto's thyroiditis (HT) and Graves' disease (GD), we measured THAb in the serum of patients with these 3 diseases who were sampled from 1998-1999 (no.=20, 88, 25) and 1990-1992 (no.=13, 75, 31). Patients with rheumatoid arthritis (RA) (no.=23 and 16) and other collagenoses (no.=20 and 16) were also studied. A third series of patients with these 5 diseases was studied fro",
+            "classification": {
+              "study_type": "Cross-sectional Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7485204",
+            "title": "Autoimmune thyroid disease in primary Sjögren's syndrome.",
+            "authors": [
+              "Pérez B",
+              "Kraus A",
+              "López G",
+              "Cifuentes M",
+              "Alarcón-Segovia D"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1995",
+            "abstract": "To evaluate the prevalence of autoimmune thyroid disease and thyroid dysfunction in patients with primary Sjögren's syndrome.",
+            "classification": {
+              "study_type": "Cross-sectional Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8070162",
+            "title": "Distribution of vasoactive intestinal peptide (VIP) and its binding sites in labial salivary glands in Sjögren's syndrome and in normal controls.",
+            "authors": [
+              "Törnwall J",
+              "Uusitalo H",
+              "Hukkanen M",
+              "Sorsa T",
+              "Konttinen Y T"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "1994",
+            "abstract": "Tissue distribution of vasoactive intestinal peptide (VIP)-containing nerves and their target cells were studied in labial salivary glands in patients with Sjögren's syndrome and in healthy controls.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22901967",
+            "title": "Prevalence of Sjögren's syndrome with dementia in a memory clinic.",
+            "authors": [
+              "Yoshikawa Kenji",
+              "Hatate Jun",
+              "Toratani Naomi",
+              "Sugiura Shiro",
+              "Shimizu Yoshiomi"
+            ],
+            "journal": "Journal of the neurological sciences",
+            "year": "2012",
+            "abstract": "Sjögren's syndrome (SS) is an autoimmune disorder involving the exocrine glands, which affects 1.9-3.0% of the elderly population. Approximately 20% of all patients with SS have CNS involvement, including dementia, as a result of angiitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4951717",
+            "title": "Salivary flow rates and iodide trapping capacity in patients with Sjögren's syndrome.",
+            "authors": [
+              "Mason D K",
+              "Harden R M",
+              "Boyle J A",
+              "Jasani M K",
+              "Williamson J"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34076380",
+            "title": "Standardization of terminology, imaging features, and interpretation of CBCT sialography of major salivary glands: a clinical review.",
+            "authors": [
+              "Abdalla-Aslan Ragda",
+              "Keshet Naama",
+              "Zadik Yehuda",
+              "Aframian Doron J",
+              "Nadler Chen"
+            ],
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "abstract": "Sialography combined with cone beam computerized tomography (sialo-CBCT) is an imaging technique that demonstrates the ductal system of the major salivary glands and allows evaluation of gland function. This review describes the sialo-CBCT technique, terminology, common pitfalls and limitations, as well as radiographic features and suggested pathogenicity of various salivary gland disorders, based on 1,758 sialo-CBCT examinations conducted over the last decade in one institution, and the current",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14300178",
+            "title": "SJOEGREN'S SYNDROME AND ADULT CELIAC DISEASE.",
+            "authors": [
+              "PITTMAN F E",
+              "HOLUB D A"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14296612",
+            "title": "THYRO-CYTOTOXIC FACTOR.",
+            "authors": [
+              "HALBERG P"
+            ],
+            "journal": "Acta medica Scandinavica",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11337569",
+            "title": "Salivary and lacrimal gland dysfunction (sicca syndrome) after radioiodine therapy.",
+            "authors": [
+              "Solans R",
+              "Bosch J A",
+              "Galofré P",
+              "Porta F",
+              "Roselló J"
+            ],
+            "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+            "year": "2001",
+            "abstract": "Salivary gland dysfunction has been described in patients undergoing radioiodine therapy but associated lacrimal gland dysfunction (sicca syndrome) has never been reported. We conducted a prospective cohort study with follow-up for up to 3 y in a tertiary care university center to determine the prevalence of sicca syndrome in patients after high-dose radioiodine treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11925529",
+            "title": "Bilateral parotid swelling: a review.",
+            "authors": [
+              "Mandel Louis",
+              "Surattanont Farisa"
+            ],
+            "journal": "Oral surgery, oral medicine, oral pathology, oral radiology, and endodontics",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35680655",
+            "title": "Epidemiologic, radiologic, and sialendoscopic aspects in chronic obstructive sialadenitis.",
+            "authors": [
+              "Sánchez Barrueco Álvaro",
+              "Santillán Coello Jessica Mireya",
+              "González Galán Fernando",
+              "Alcalá Rueda Ignacio",
+              "Aly Sherouk Osama"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2022",
+            "abstract": "Chronic obstructive sialadenitis (COS) is a recurring inflammation of the salivary gland. To date, there are no known predisposing factors for COS. Given the advances seen in radiology and sialendoscopy, we must update our knowledge of COS, analyzing factors that can favor its development.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3261973",
+            "title": "Clinical course of silent thyroiditis in a patient with Sjögren's syndrome. Concomitant changes of antithyroid antibodies and antinuclear antibody.",
+            "authors": [
+              "Mitani Y",
+              "Shigemasa C",
+              "Taniguchi S",
+              "Tanaka T",
+              "Yoshida A"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1988",
+            "abstract": "A 68-year-old woman with Sjögren's syndrome simultaneously experienced thyrotoxicosis with a marked depression of thyroid radioactive iodine uptake and systemic lupus erythematosus-like symptoms, which both resolved spontaneously. Titers of antinuclear antibody and anti-DNA antibody were most elevated when the thyrotoxicosis and systemic lupus erythematosus-like symptoms coexisted and thereafter gradually declined in response to the decrease of titers of antithyroglobulin hemagglutination antibo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30344785",
+            "title": "Quantitative Single-Photon Emission Computed Tomography/Computed Tomography for Evaluation of Salivary Gland Dysfunction in Sjögren's Syndrome Patients.",
+            "authors": [
+              "Kim Jihyun",
+              "Lee Hyunjong",
+              "Lee Hwanhee",
+              "Bang Ji-In",
+              "Kang Yeon-Koo"
+            ],
+            "journal": "Nuclear medicine and molecular imaging",
+            "year": "2018",
+            "abstract": "The purpose of the study was to investigate the usefulness of quantitative salivary single-photon emission computed tomography/computed tomography (SPECT/CT) using Tc-99m pertechnetate in Sjögren's syndrome (SS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 高分可能源於 NIS（Sodium-Iodide Symporter）的共享分子機轉：NIS 同時表現於唾液腺和甲狀腺，Sjögren 症候群與橋本甲狀腺炎共享自體免疫機轉（PMID 41516079）。然而，現有文獻幾乎全為：(1) 放射性碘（I-131）治療甲狀腺後引發乾燥症狀（碘為致病因子，非治療劑）；(2) 放射性碘唾液腺閃爍攝影用於 SS 診斷（診斷工具）；(3) SS 與自體免疫甲狀腺疾病的共病率研究。無任何文獻將碘作為 SS 的治療介入，機轉連結假說性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "prolapse of lacrimal gland",
+      "txgnn": {
+        "score": 0.9363906383514404,
+        "rank": 29475
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "零臨床試驗、零文獻，純為 TxGNN 計算預測。淚腺脫垂（prolapse）為解剖結構性問題（眶隔鬆弛），標準治療為外科復位術，藥物介入極難設計。碘作為治療劑無任何已知機轉路徑可連結此適應症。高 TxGNN 分數可能反映碘-淚腺解剖學的知識圖譜連結（因 RAI 攝取淚腺組織），而非治療性關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acne (disease)",
+      "txgnn": {
+        "score": 0.9310592412948608,
+        "rank": 30445
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04214483",
+            "title": "A Non-Interventional Pilot Study to Explore the Role of Gut Flora in Acne",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-03-02",
+            "completion_date": "2030-07",
+            "brief_summary": "This study seeks to correlate microbiome sequencing data with information provided by patients and their medical records.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "探索腸道菌叢與痤瘡的相關性研究，與碘無直接關聯，且已撤回。不貢獻碘再利用證據。"
+            }
+          },
+          {
+            "nct_id": "NCT02126709",
+            "title": "Phase 2 Study of the Efficacy and Safety of 3% Povidone-Iodine in Acne Therapy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2014-06",
+            "completion_date": "2014-12",
+            "brief_summary": "Importance This will be a proof of concept study - whereby we hypothesize that Repigel may represent a paradigm shift in global acne treatment.\n\nHistorically, there has been a dearth of clinical evidence in this use of povidone-iodine for inflammatory acne. This is likely due to staining related to iodine use, which is not acceptable to consumers.\n\nThe trial drug, Povidone Iodine, however, becomes colourless and odourless in a matter of seconds after application on the skin.\n\nThis represents an ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "唯一直接測試 PVP-I 於痤瘡的 Phase 2 試驗，n=30，UNKNOWN 狀態意謂結果未明。若已完成仍為最關鍵直接證據；需追查 ClinicalTrials.gov 更新。"
+            }
+          },
+          {
+            "nct_id": "NCT03238469",
+            "title": "Long-term Efficacy and Safety of Microwave Ablation in the Treatment of Mild Axillary Hidradenitis Suppurativa",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 9,
+            "start_date": "2017-09-01",
+            "completion_date": "2018-04-01",
+            "brief_summary": "With microwave ablation (MWA), using the heat generated from electromagnetic waves in the microwave energy spectrum, hair follicles and apocrine glands in the (hypo)dermis are ablated through thermolysis. MWA was recently approved for the treatment of axillary hyperhidrosis (miraDry) and removal of axillary hair (miraSmooth). By permanent removal of hairs and sweat glands, the investigators hypothesize a beneficial and long-term sustainable preventive effect of MWA in HS patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "微波消融治療腋下化膿性汗腺炎，為不同疾病（HS ≠ acne vulgaris），且為物理療法非藥物治療。完全不相關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37033604",
+            "title": "Efficacy and safety of Melaleuca alternifolia (tea tree) oil for human health-A systematic review of randomized controlled trials.",
+            "authors": [
+              "Kairey Lana",
+              "Agnew Tamara",
+              "Bowles Esther Joy",
+              "Barkla Bronwyn J",
+              "Wardle Jon"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2023",
+            "abstract": "Introduction: Leaves of the Australian tea tree plant Melaleuca alternifolia were used traditionally by First Nations Australians for treating wounds, burns, and insect bites. Tea tree oil, the essential oil steam-distilled from M. alternifolia, is well-known for its medicinal properties, the evidence for most applications however is limited. This review aimed to critically appraise evidence from clinical trials examining the therapeutic efficacy and safety of tea tree oil on outcomes. Methods: ",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28989281",
+            "title": "Efficacy and tolerability of liposomal polyvinylpyrrolidone-iodine hydrogel for the localized treatment of chronic infective, inflammatory, dermatoses: an uncontrolled pilot study.",
+            "authors": [
+              "Augustin Matthias",
+              "Goepel Lisa",
+              "Jacobi Arnd",
+              "Bosse Bjoern",
+              "Mueller Stefan"
+            ],
+            "journal": "Clinical, cosmetic and investigational dermatology",
+            "year": "2017",
+            "abstract": "Infection is common in many chronic, inflammatory skin conditions but is often difficult to treat, in part due to growing bacterial resistance to antibiotics. Liposomal polyvinyl-pyrrolidone (PVP)-iodine hydrogel has a unique mode of action, combining the antiseptic and anti-inflammatory actions of PVP-iodine with the drug delivery and moisturizing properties of liposomes. We investigated the utility of liposomal PVP-iodine to treat infective dermatoses. In this prospective, single-arm (uncontro",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35195583",
+            "title": "Pulmonary Vasculitis on Dual-Phase 18F-FDG PET/CT in SAPHO Syndrome.",
+            "authors": [
+              "Norikane Takashi",
+              "Yamamoto Yuka",
+              "Arai-Okuda Hanae",
+              "Dobashi Hiroaki",
+              "Nishiyama Yoshihiro"
+            ],
+            "journal": "Clinical nuclear medicine",
+            "year": "2022",
+            "abstract": "Pulmonary vasculitis is an uncommon type of vasculitis that may cause pulmonary artery stenosis with ensuing ischemic damage to lung tissue. 99mTc-macroaggregated albumin scintigraphy and iodine lung perfusion mapping are useful imaging modalities for assessment of lung perfusion but are not useful for assessing disease activity. On the other hand, 18F-FDG PET/CT is widely used for assessment of vasculitis activity but cannot provide perfusion information. We reported the clinical utility of dua",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2285575",
+            "title": "The influence of various factors on the human resident skin flora.",
+            "authors": [
+              "Hartmann A A"
+            ],
+            "journal": "Seminars in dermatology",
+            "year": "1990",
+            "abstract": "Various factors, e.g. prolonged occlusion, skin disinfectants, systemic antimicrobials, can have an impact on the ecosystem of the normal human skin flora for a short time. These impacts are of clinical importance in the treatment of some skin diseases, where members of the normal human skin flora are involved in the pathogenesis of the disease, e.g. Propionibacterium acnes in acne vulgaris, Corynebacterium species in erythrasma, trichomycosis palmellina and pitted keratolysis, Pityrosporum orbi",
+            "classification": {
+              "study_type": "Experimental Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3160569",
+            "title": "[Iodine and skin diseases].",
+            "authors": [
+              "Plewig G",
+              "Strzeminski Y A"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4278430",
+            "title": "Nonbacterial pus-forming diseases of the skin.",
+            "authors": [
+              "Jackson R"
+            ],
+            "journal": "Canadian Medical Association journal",
+            "year": "1974",
+            "abstract": "The formation of pus as a result of an inflammatory response to a bacterial infection is well known. Not so well appreciated, however, is the fact that many other nonbacterial agents such as certain fungi, viruses and parasites may provoke pus formation in the skin. Also heat, topical applications, systemically administered drugs and some injected materials can do likewise. Numerous skin diseases of unknown etiology such as pustular acne vulgaris, pustular psoriasis and pustular dermatitis herpe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24107595",
+            "title": "Efficacy of fractional microneedle radiofrequency device in the treatment of primary axillary hyperhidrosis: a pilot study.",
+            "authors": [
+              "Kim Miri",
+              "Shin Jae Yong",
+              "Lee Jungsoo",
+              "Kim Ji Young",
+              "Oh Sang Ho"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2013",
+            "abstract": "Fractional microneedle radiofrequency (FMR) devices deliver energy to the deep dermis through insulated microneedles without destroying the epidermis. These FMR devices have been shown to be effective for the treatment of wrinkles, acne scars and large pores. In this study it was postulated that FMR energy could specifically affect the sweat glands, preserving the skin surface even if sweat glands were seated in the deep dermis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29447075",
+            "title": "Propionibacterium acnes Has Low Susceptibility to Chlorhexidine Digluconate.",
+            "authors": [
+              "Nakase Keisuke",
+              "Fukushima Hanae",
+              "Yukawa Tomoko",
+              "Nakaminami Hidemasa",
+              "Fujii Takeshi"
+            ],
+            "journal": "Surgical infections",
+            "year": "2018",
+            "abstract": "The skin bacterium Propionibacterium acnes has been reported to be responsible for surgical site infections (SSIs). Skin disinfection before surgery therefore is of the utmost importance in the prevention of SSIs caused by skin bacteria.",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12255641",
+            "title": "Side-effects and possible complications of oral contraceptive drugs.",
+            "authors": [
+              "Rossi G V"
+            ],
+            "journal": "The American journal of pharmacy",
+            "year": "1966",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13490058",
+            "title": "[Occupational acne (so-called chloracne) due to chlorinated aromatic cyclic ethers].",
+            "authors": [
+              "KIMMIG J",
+              "SCHULZ K H"
+            ],
+            "journal": "Dermatologica",
+            "year": "1957",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "153470",
+            "title": "[Advances in topical therapy of skin diseases (author's transl)].",
+            "authors": [
+              "Happle R"
+            ],
+            "journal": "MMW, Munchener medizinische Wochenschrift",
+            "year": "1979",
+            "abstract": "The anti-inflammatory effect of the new topical corticosteroid fluocortin butyl ester is approximately equal to that of hydrocortisone acetate but it has the advantage that systemic side-effects are lacking. Vitamin A acid and benzoyl peroxide have brought significant advances in the topical treatment of acne. For the treatment of chloasma and other hyperpigmentations the combination of vitamin A acid and hydroquinone with a corticoid is considerably more effective than any of the single compone",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "碘的抗菌活性可針對痤瘡主要病原菌 Cutibacterium acnes（前 Propionibacterium acnes）。PVP-I 局部製劑（脂質體包裹可降低刺激性）已被探索作為抗生素耐藥性替代方案。文獻顯示碘對皮膚菌叢的廣效作用（PMID 2285575），以及碘與皮膚疾病的歷史關聯（PMID 3160569）。需注意：高濃度碘本身可能誘發碘痤瘡（iododerma），呈劑量依賴性雙向效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "seborrheic keratosis",
+      "txgnn": {
+        "score": 0.9141294956207277,
+        "rank": 33215
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07441538",
+            "title": "A Randomized Controlled Trial Comparing Early to Standard Wound Dressing Removal After Facial Skin Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 144,
+            "start_date": "2025-06-15",
+            "completion_date": "2026-01-15",
+            "brief_summary": "What is this study about? You are being invited to participate in a clinical research study because you are scheduled to undergo a facial skin surgery for your health condition. Your surgeon will perform your operation independently, and your standard surgical procedure and follow-up visits will not be changed in any way by this study.\n\nThe purpose of this research is to understand which postoperative care method is more beneficial for facial wound healing and for reducing scar formation. We aim",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "臉部手術後傷口換藥時機的 RCT，可能涉及含碘敷料（如 PVP-I 紗布），但研究目標為換藥時機非脂漏性角化症治療。不直接支持本適應症。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30109892",
+            "title": "A prospective diagnostic study on povidone-iodine retention in lesions suspected to be squamous cell carcinoma or keratoacanthoma.",
+            "authors": [
+              "Rizk Mariam",
+              "Alian Mehrnoosh",
+              "Tschandl Philipp",
+              "Gorgi Madieh",
+              "Hishon Matthew"
+            ],
+            "journal": "The Australasian journal of dermatology",
+            "year": "2019",
+            "abstract": "While dermatoscopy improves diagnostic accuracy for raised nonpigmented lesions, those with white surface keratin can be problematical. We investigated whether retention of povidone-iodine by surface keratin provides a clue to benignity.",
+            "classification": {
+              "study_type": "Diagnostic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33492860",
+            "title": "False-Positive Uptake of 131I From Basal Cell Papilloma in a Patient With Metastatic Papillary Thyroid Cancer.",
+            "authors": [
+              "Luo Lingling",
+              "Wang Jiaqiong",
+              "Xia Junyong",
+              "Zhang Ran",
+              "Yao Xiaobo"
+            ],
+            "journal": "Clinical nuclear medicine",
+            "year": "2021",
+            "abstract": "A 64-year-old woman with metastatic papillary thyroid cancer underwent a total thyroidectomy followed by 2 courses of 131I therapy. The posttherapeutic whole-body scan after the second dose of 131I therapy showed multifocal bone metastasis. In addition, there is focal abnormal intense radiotracer uptake at the right inguinal region. SPECT/CT revealed that this abnormal focal radioactivity was from a superficial skin lesion. Further physical examination revealed a raised, approximately 1-cm, irre",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "現有證據主要為診斷性應用：PVP-I 染色試驗（Schiller test 類似原理）用於區分脂漏性角化與鱗狀細胞癌（PMID 30109892）。放射性碘假陽性攝取於基底細胞乳頭狀瘤（PMID 33492860）反映的是診斷干擾，非治療適應症。無任何治療性介入證據。NCT07441538（傷口換藥試驗）雖已完成，但與脂漏性角化症治療無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "fetal erythroblastosis",
+      "txgnn": {
+        "score": 0.9103279113769532,
+        "rank": 33665
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "804089",
+            "title": "Rhesus prophylaxis.",
+            "authors": [
+              "Hughes-Jones N C"
+            ],
+            "journal": "Monographs in allergy",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6247979",
+            "title": "Fetal thyroid hyperplasia, rhesus isoimmunisation, and amniography.",
+            "authors": [
+              "Becroft D M",
+              "Smeeton W M",
+              "Stewart J H"
+            ],
+            "journal": "Archives of disease in childhood",
+            "year": "1980",
+            "abstract": "Thyroid hyperplasia was identified at necropsy in 16 of 70 cases of haemolytic disease of the newborn due to rhesus isoimmunisation dying in the years 1959--76. No hyperplasia was found in the thyroids from 140 nonrhesus-affected infants matched for date of birth, bodyweight and length, and gestation, or in cases of haemolytic disease born before 1966. All 16 infants with thyroid hyperplasia had received intrauterine transfusions and the iodine-containing contrast media used for preliminary amni",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6067085",
+            "title": "The estimation of the concentration and equilibrium constant of anti-D.",
+            "authors": [
+              "Hughes-Jones N C"
+            ],
+            "journal": "Immunology",
+            "year": "1967",
+            "abstract": "A method is described for estimating the concentration and equilibrium constant of the blood group antibody, anti-D. The principle of the method is based on the fact that the reaction between anti-D and red cells is reversible and obeys the law of mass action. D-positive red cells at five different concentrations were added to aliquots of antisera containing anti-D and the reaction allowed to come into equilibrium. The amount of anti-D bound to the red cells in each case was estimated using 125I",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4691251",
+            "title": "Plasma insulin and K values during intravenous glucose tolerance test in newborn infants with erythroblastosis foetalis.",
+            "authors": [
+              "Molsted-Pedersen L",
+              "Trautner H",
+              "Jorgensen K R"
+            ],
+            "journal": "Acta paediatrica Scandinavica",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4540300",
+            "title": "Direct antiglobulin reaction in ABO-haemolytic disease of the newborn.",
+            "authors": [
+              "Romano E L",
+              "Hughes-Jones N C",
+              "Mollison P L"
+            ],
+            "journal": "British medical journal",
+            "year": "1973",
+            "abstract": "The minimum number of IgG anti-A (or anti-B) molecules detectable on A or B red cells by the antiglobulin reaction was found to be the same-that is, about 150 molecules per red cell-with newborn as with adult cells. Furthermore, the ratio of anti-IgG bound to IgG anti-A (or anti-B) molecules was the same whether the anti-A (or anti-B) molecules were present on newborn or on adult cells and was similar to that found for anti-IgG bound to IgG anti-Rh.In 15 infants (11 group A, 4 group B) with haem",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5000958",
+            "title": "Anti-D concentration in mother and child in haemolytic disease of the newborn.",
+            "authors": [
+              "Hughes-Jones N C",
+              "Ivona M",
+              "Ellis J",
+              "Walker W"
+            ],
+            "journal": "Vox sanguinis",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5950905",
+            "title": "[The receptor function of erythrocytes].",
+            "authors": [
+              "Gramlich F"
+            ],
+            "journal": "Bibliotheca haematologica",
+            "year": "1966",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5693779",
+            "title": "The anti-D content of IgG preparations for use in the prevention of Rh haemolytic disease.",
+            "authors": [
+              "Hughes-Jones N C",
+              "Stevenson M"
+            ],
+            "journal": "Vox sanguinis",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14267054",
+            "title": "PROPERTIES OF ISOLATED BLOOD GROUP ANTIBODIES.",
+            "authors": [
+              "ROSENFIELD R E",
+              "KOCHWA S"
+            ],
+            "journal": "Bibliotheca haematologica",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4960802",
+            "title": "[Intrauterine blood transfusion and postnatal hydrops therapy in Rh system hemolytic disease of the newborn].",
+            "authors": [
+              "Protzen H",
+              "Kleiminger D",
+              "Gidion R",
+              "Fischer K"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4992311",
+            "title": "Standarization of anti-D for use in the prevention of Rh sensitization.",
+            "authors": [
+              "Hughes-Jones N C"
+            ],
+            "journal": "Progress in immunobiological standardization",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5588924",
+            "title": "[Recognition and therapy of dangerous intrauterine conditions].",
+            "authors": [
+              "Krause W"
+            ],
+            "journal": "Medizinische Klinik",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4190253",
+            "title": "The importance of antibody concentration, binding constant, and heterogeneity in the suppression of immunity to the Rh factor.",
+            "authors": [
+              "Polack W",
+              "Kochesky R J"
+            ],
+            "journal": "International archives of allergy and applied immunology",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4173359",
+            "title": "Immunologic suppression of primary Rh antibody formation.",
+            "authors": [
+              "Rosenfield R E"
+            ],
+            "journal": "Transfusion",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4624335",
+            "title": "Prevention of maternal Rh immunization after accidental transfusion of D(Rh 0 )-positive blood.",
+            "authors": [
+              "Bowman H S",
+              "Mohn J F",
+              "Lambert R M"
+            ],
+            "journal": "Vox sanguinis",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5564420",
+            "title": "Human chorionic somatomammotrophin (HCS): a new index of placental function.",
+            "authors": [
+              "Teoh E S",
+              "Spellacy W N",
+              "Buhi W C"
+            ],
+            "journal": "The Journal of obstetrics and gynaecology of the British Commonwealth",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4407909",
+            "title": "[The pattern of HPL in the maternal serum and in the amniotic fluid in RH-incompatibility (author's transl)].",
+            "authors": [
+              "Berle P",
+              "Schultze-Mosgau H"
+            ],
+            "journal": "Archiv fur Gynakologie",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4172214",
+            "title": "[Immune antibodies of pregnant women against fetal extracts].",
+            "authors": [
+              "Jarosch K"
+            ],
+            "journal": "Wiener medizinische Wochenschrift (1946)",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4632375",
+            "title": "Low protein Rh immune globulin (Rh IgG). Purity, stability, activity and prophylactic value.",
+            "authors": [
+              "Bowman J M",
+              "Chown B",
+              "Pollock J"
+            ],
+            "journal": "Vox sanguinis",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14185766",
+            "title": "[RIFAMYCIN SV IN THE DIAGNOSIS OF NEONATAL OBSTRUCTIVE JAUNDICE].",
+            "authors": [
+              "REZZA E",
+              "TURLA B"
+            ],
+            "journal": "Chemotherapia",
+            "year": "1963",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻與碘再利用完全無關聯。所有 20 篇文獻均圍繞 Rh 血型不相容（抗 D 免疫球蛋白、宮內輸血）的免疫血液學機轉。TxGNN 評分可能反映知識圖譜中的錯誤連結（可能透過甲狀腺功能——胎兒水腫——Rh 溶血路徑的遠端關聯）。碘與胎兒紅血球母細胞增多症之間不存在已知的合理機轉連結。此建議應標記為知識圖譜假陽性候選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "recurrent corneal erosion",
+      "txgnn": {
+        "score": 0.9066017270088196,
+        "rank": 34126
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "14129247",
+            "title": "RECURRENT EROSION OF THE CORNEA.",
+            "authors": [
+              "LOWE R F"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Unknown (Pre-modern era)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "僅有一篇 1964 年舊文獻（PMID 14129247），無法評估碘在復發性角膜糜爛的機轉或療效。復發性角膜糜爛的病理生理為上皮基底膜複合體異常（型膠原/整合素功能障礙），碘的抗菌活性與此機轉無直接關聯，除非繼發性感染是誘發因素。證據極度不足，需先完成文獻重新搜尋確認此文獻確實與碘治療相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "keratitis",
+      "txgnn": {
+        "score": 0.8969982266426086,
+        "rank": 35097
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03484507",
+            "title": "Parasitic Ulcer Treatment Trial Pilot",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 49,
+            "start_date": "2018-01-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "This is a study of optimal treatments for acanthamoeba keratitis. In the first part of the study, participants will be randomized to chlorhexidine monotherapy or chlorhexidine plus povidone iodine. After four weeks of therapy, participants will be re-randomized to early corticosteroids, later corticosteroids, or placebo.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 寄生蟲性角膜潰瘍試驗，狀態不明。若為棘阿米巴角膜炎，與碘機轉相關（文獻 30586959 支持），但 UNKNOWN 狀態降低可信度。"
+            }
+          },
+          {
+            "nct_id": "NCT04169919",
+            "title": "Povidone Iodine 5% Eye Wash in Treatment of Epidemic Keratoconjunctivitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 350,
+            "start_date": "2014-11",
+            "completion_date": "2018-10",
+            "brief_summary": "Background: Epidemic Keratoconjunctivitis (EKC) is a form of adenoviral conjunctivitis. It is highly infectious disease mainly affect the outer eye surface and has a frequency to happen in epidemics especially in closed communities such as hospitals, schools and factories.\n\npurpose: The purpose of this study to compare between the modified and the ordinary method of treatment for EKC.\n\nPatients and methods: Three hundred fifty patients of EKC were enrolled in the study. The diagnosis was made by",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接測試 PVP-I 5% 於流行性角膜結膜炎（EKC），已完成且樣本數大（n=350），為本適應症最強直接證據。病毒性角膜炎具體亞型。"
+            }
+          },
+          {
+            "nct_id": "NCT00516399",
+            "title": "A Clinical Trial of the Treatment of Fungal Corneal Ulcers With Povidone-Iodine",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 78,
+            "start_date": "2008-03",
+            "completion_date": "2010-12",
+            "brief_summary": "The purpose of this study is to determine the effectiveness of 1.25% povidone-iodine ophthalmic solution for the treatment of small to medium sized fungal corneal ulcers compared with an antifungal antibiotic.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 真菌性角膜潰瘍試驗，雖終止仍有 78 人資料。終止原因未明，需查詢以判斷是否為安全性問題（降評）或操作問題（維持評級）。目前評為 A 但附警示。"
+            }
+          },
+          {
+            "nct_id": "NCT00386958",
+            "title": "A Clinical Trial of Povidone-Iodine for the Treatment of Bacterial Corneal Ulcers",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 172,
+            "start_date": "2002-11",
+            "completion_date": "2006-01",
+            "brief_summary": "Bacterial corneal ulcers are a leading cause of pediatric blindness in underdeveloped countries due to a lack of antibiotic availability and affordability, among other reasons. Povidone-iodine, an inexpensive and readily available broad-spectrum antimicrobial agent, may be an effective and affordable treatment for corneal ulcers, allowing preservation of sight for those afflicted with this disease.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 完成，n=172，直接評估 PVP-I 於細菌性角膜潰瘍療效與安全性。與資源匱乏地區低成本替代抗生素需求高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT06463678",
+            "title": "A Phase II, Multi-center, Randomized, Masked, Parallel-Control Study to Evaluate the Clinical Efficacy and Safety of IVIEW-1201 (1.0% PVP-Iodine) Gel Forming Ophthalmic Solution in the Treatment of Fungal Keratitis",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 60,
+            "start_date": "2026-08-01",
+            "completion_date": "2027-12-31",
+            "brief_summary": "A Phase II, Multi-center, Randomized, Masked, Parallel-Control Study to Evaluate the Clinical Efficacy and Safety of IVIEW-1201 (1.0% PVP-Iodine) Gel Forming Ophthalmic Solution in the Treatment of Fungal Keratitis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "未來 Phase 2 試驗，尚未招募。確認領域仍有活躍研究興趣，但不貢獻現有證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28984794",
+            "title": "The use of povidone-iodine in ophthalmology.",
+            "authors": [
+              "Grzybowski Andrzej",
+              "Kanclerz Piotr",
+              "Myers William G"
+            ],
+            "journal": "Current opinion in ophthalmology",
+            "year": "2018",
+            "abstract": "Povidone-iodine (PVI) is a disinfectant and antiseptic agent used for preoperative preparation of the skin and mucous membranes, as well as for the treatment of contaminated wounds. Currently regimens for prophylaxis against postsurgical endophthalmitis are being modified, including a total withdrawal of antibiotics in intravitreal injections. The aim of this study was to evaluate the use of PVI in ophthalmology.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40277198",
+            "title": "Update in management of microbial keratitis associated with contact lenses.",
+            "authors": [
+              "Xu Christine",
+              "Xing Bohan",
+              "Li Jennifer Y"
+            ],
+            "journal": "Current opinion in ophthalmology",
+            "year": "2025",
+            "abstract": "The rising prevalence of contact lens wear is associated with increased contact lens-related complications, with one of the most serious being contact lens (CL)-associated microbial keratitis (MK). We describe updated prevention and management strategies of this sight-threatening condition.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27138637",
+            "title": "Infections after keratoprosthesis.",
+            "authors": [
+              "Davies Emma",
+              "Chodosh James"
+            ],
+            "journal": "Current opinion in ophthalmology",
+            "year": "2016",
+            "abstract": "The purpose is to provide an overview of the recent advancements in the diagnosis and treatment of microbial keratitis and endophthalmitis after keratoprosthesis implantation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28582375",
+            "title": "Pythium Insidiosum Keratitis: Histopathology and Rapid Novel Diagnostic Staining Technique.",
+            "authors": [
+              "Mittal Ruchi",
+              "Jena Shipra K",
+              "Desai Alisha",
+              "Agarwal Sunil"
+            ],
+            "journal": "Cornea",
+            "year": "2017",
+            "abstract": "To elucidate the histopathology of Pythium insidiosum keratitis and to describe a novel, simple, and rapid staining technique for identification of oomycete Pythium insidiosum and to differentiate it from fungi.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12605049",
+            "title": "Role of 0.02% polyhexamethylene biguanide and 1% povidone iodine in experimental Aspergillus keratitis.",
+            "authors": [
+              "Panda Anita",
+              "Ahuja Rakesh",
+              "Biswas Nihar Ranjan",
+              "Satpathy Gita",
+              "Khokhar Sudershan"
+            ],
+            "journal": "Cornea",
+            "year": "2003",
+            "abstract": "To determine the efficacy of 0.02% polyhexamethylene biguanide and 1% povidone iodine in experimental keratitis.",
+            "classification": {
+              "study_type": "Experimental/Animal Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38019963",
+            "title": "Case Series: Mixed Infectious Keratitis by Pythium insidiosum and Fungal Species.",
+            "authors": [
+              "Singh Nimish Kumar",
+              "Barik Manas Ranjan",
+              "Das Sujata",
+              "Sahu Srikant Kumar",
+              "Priyadarshini Smruti Rekha"
+            ],
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "2023",
+            "abstract": "This case series is the first to illustrate mixed infection from Pythium sp. and fungal species in corneal ulcer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34466468",
+            "title": "Effectiveness of Povidone-Iodine 1% Eye Drop on Streptococcus pneumoniae and Escherichia coli Induced-Keratitis in Mice.",
+            "authors": [
+              "Hadipour Jahromy Mahsa",
+              "Najafi Abdolhamid",
+              "Majdi Nassab Farzaneh",
+              "Moiniyan Mahya"
+            ],
+            "journal": "Galen medical journal",
+            "year": "2019",
+            "abstract": "Bacterial keratitis is an ophthalmic infection that may result in irreversible corneal damage. This study aimed to examine the effectiveness of povidone-iodine eye drop 1% in eye infection caused by inoculation of Streptococcus pneumoniae and Escherichia coli of mice.",
+            "classification": {
+              "study_type": "Experimental Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35160298",
+            "title": "The Role of Topical Povidone-Iodine in the Management of Infectious Keratitis: A Pilot Study.",
+            "authors": [
+              "Pedrotti Emilio",
+              "Bonacci Erika",
+              "Kilian Raphael",
+              "Pagnacco Camilla",
+              "Fasolo Adriano"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2022",
+            "abstract": "The aim of this prospective explorative study was to evaluate the safety and the effectiveness of topical polyvinylpyrrolidone-iodine (PVP-I) administered during the time-to-results period for pathogen identification and susceptibility testing in patients with infectious keratitis (IK). A corneal swab (CS) for antimicrobial evaluation was performed at enrollment (T0) and topical 0.66%-PVP-I was administered until the laboratory results were available (T1). Ulcer and infiltrate areas and infiltra",
+            "classification": {
+              "study_type": "Pilot Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37944600",
+            "title": "In praise of povidone-iodine application in ophthalmology.",
+            "authors": [
+              "Soleimani Mohammad",
+              "Haydar Ali A",
+              "Cheraqpour Kasra",
+              "Zeidabadinejad Haniyeh",
+              "Esfandiari Amirreza"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "2024",
+            "abstract": "Polyvinyl pyrrolidone or povidone-iodine (PVP-I) is a water-soluble complex formed by the combination of iodine and a water-soluble polymer, polyvinyl pyrrolidone. This complex exerts bactericidal, fungicidal, and virucidal action by gradually releasing free iodine at the site of application to react with pathogens. In ophthalmology, PVP-I is used as a disinfectant and antiseptic agent for preoperative preparation of the skin and mucous membranes and for treating contaminated wounds. PVP-I has b",
+            "classification": {
+              "study_type": "Review/Commentary",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30586959",
+            "title": "Effect of povidone iodine, chlorhexidine digluconate and toyocamycin on amphizoic amoebic strains, infectious agents of Acanthamoeba keratitis - a growing threat to human health worldwide.",
+            "authors": [
+              "Padzik Marcin",
+              "Baltaza Wanda",
+              "Conn David Bruce",
+              "Szaflik Jacek P",
+              "Chomicz Lidia"
+            ],
+            "journal": "Annals of agricultural and environmental medicine : AAEM",
+            "year": "2018",
+            "abstract": "Free-living amoebae, ubiquitous in outer environments, in predisposing circumstances may exist as parasites, infectious agents of Acanthamoeba keratitis. In recent decades, the vision-threatening corneal infection is a growing human health threat worldwide, including Poland. The applied therapy is often ineffective due to diagnostic mistakes, various pathogenicity of Acanthamoeba strains and high resistance of cysts to drugs; many agents with possible anti-amoebic activity are still being tested",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41552904",
+            "title": "Polyhexanide, Povidone-Iodine, and Hypochlorous Acid Show High In Vitro Antimicrobial Efficacy Against Pathogens Commonly Associated With Equine Infectious Keratitis.",
+            "authors": [
+              "Stolle Leonie Maria",
+              "Oltmanns Hilke",
+              "Meißner Jessica",
+              "Heun Frederik",
+              "Schieder Ann-Kathrin"
+            ],
+            "journal": "Veterinary ophthalmology",
+            "year": "2026",
+            "abstract": "To determine the in vitro antimicrobial activity of specific antiseptics against common equine ocular surface pathogens.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28635735",
+            "title": "[Treatment of Acanthamoeba keratitis].",
+            "authors": [
+              "Marchenko N R",
+              "Kasparova Evg A"
+            ],
+            "journal": "Vestnik oftalmologii",
+            "year": "2016",
+            "abstract": "In recent years, Acanthamoeba keratitis (AK) has became a clinically significant problem because of the broad use of contact lenses that are the major risk factor of the disease. The treatment presents considerable difficulties due to similarity of clinical manifestations of AK to other keratites (bacterial, herpetic, and fungal). This often leads to late diagnosis and formation of drug-resistant cysts. There is currently no specific drug universally suitable for monotherapy of AK. Instead, 2 ag",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17075498",
+            "title": "[Fungal keratitis in an intertropical area: diagnosis and treatment problems. Advantage of local use of polyvidone iodine].",
+            "authors": [
+              "Ndoye Roth P A",
+              "Ba E A",
+              "Wane A M",
+              "De Meideros M",
+              "Dieng M"
+            ],
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2006",
+            "abstract": "Fungal infection is rarely investigated in keratitis. The authors report five cases of fungal keratitis observed at the le Dantec University Teaching Hospital of Dakar, Senegal, involving two males and three females. Diagnosis was made by examination of smears and cultures of corneal scrapings revealing Candida albicans isolated in four patients and Acremonium strictium in another after 2 or 12 weeks of treatment with antibiotics, antivirals, or steroids. Povidone iodine 2.3% concentrated eye dr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15934343",
+            "title": "[Antiherpetic therapy].",
+            "authors": [
+              "Dediulescu Lucreţia",
+              "Dediulescu Daniela Florentina"
+            ],
+            "journal": "Oftalmologia (Bucharest, Romania : 1990)",
+            "year": "2005",
+            "abstract": "The development of the antiherpetic therapeutical system was remarkable in the last decade. Nucleoside analogs (5-iodine-2-deoxiuridine, citodine-arabinotide, adenine-arabinotide), as well as specific inhibitors of viruses (Zovirax or Acyclovir) are active medicines for both local and wide-spread forms of the herpes virus infection.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34011738",
+            "title": "Pythium keratitis: Clinical profile, laboratory diagnosis, treatment, and histopathology features post-treatment at a tertiary eye care center in Eastern India.",
+            "authors": [
+              "Vishwakarma Pratima",
+              "Mohanty Amrita",
+              "Kaur Amanjot",
+              "Das Sujata",
+              "Priyadarshini Smruti Rekha"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2021",
+            "abstract": "The aim of this work was to study demography, clinical profile, laboratory diagnosis, and management of Pythium keratitis at a tertiary eye care center in Eastern India.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33654316",
+            "title": "Efficacy and tolerability of polyvinylpyrrolidone-iodine 0.6% treatment in adenoviral keratoconjunctivitis: a Prospective Randomized Controlled Study.",
+            "authors": [
+              "Ricciardelli Gabriella",
+              "Giannaccare Giuseppe",
+              "Di Zazzo Antonio",
+              "Coassin Marco",
+              "Scorcia Vincenzo"
+            ],
+            "journal": "Eye (London, England)",
+            "year": "2022",
+            "abstract": "To analyze the effect of the employment of polyvinylpyrrolidone-iodine (PVP-I) 0.6% eye drop on the clinical course of patients affected by Adenoviral Keratoconjunctivitis (AKC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30800010",
+            "title": "Povidone-iodine concentration and in vitro killing time of bacterial corneal ulcer isolates.",
+            "authors": [
+              "Koerner Jagger C",
+              "George Mary J",
+              "Kissam Elizabeth A",
+              "Rosco Michael G"
+            ],
+            "journal": "Digital journal of ophthalmology : DJO",
+            "year": "2018",
+            "abstract": "The concentration and dosing of povidone-iodine (PI) solution used in surgical site prophylaxis are variable. Prior in vitro work has demonstrated that dilute PI solutions (<1%) had greater bactericidal activity than stock solutions (10%). Studies using pathologic clinical isolates from the eye have yielded mixed results. The purpose of the current study was to evaluate the efficacy of different concentrations of PI on pathologic ocular surface isolates.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18170745",
+            "title": "MYCOTIC KERATITIS.",
+            "authors": [
+              "Grover A D",
+              "Agarwal K C"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "1961",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32959365",
+            "title": "Interventions for preventing ophthalmia neonatorum.",
+            "authors": [
+              "Kapoor Vimal Scott",
+              "Evans Jennifer R",
+              "Vedula S Swaroop"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2020",
+            "abstract": "Ophthalmia neonatorum is an infection of the eyes in newborns that can lead to blindness, particularly if the infection is caused by Neisseria gonorrhoeae. Antiseptic or antibiotic medication is dispensed into the eyes of newborns, or dispensed systemically, soon after delivery to prevent neonatal conjunctivitis and potential vision impairment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34102154",
+            "title": "Long-term Outcomes of Boston Type I Keratoprosthesis, and Efficacy of Amphotericin B and Povidone-Iodine in Infection Prophylaxis.",
+            "authors": [
+              "Prabhasawat Pinnita",
+              "Chotikavanich Suksri",
+              "Ngowyutagon Panotsom",
+              "Pinitpuwadol Warinyupa"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "2021",
+            "abstract": "To evaluate the long-term outcomes, anatomic retention, and complications of Boston type I keratoprosthesis (KPro).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Povidone-Iodine（PVP-I）為碘的廣效抗菌/抗病毒/抗真菌製劑，對角膜感染病原體（細菌、真菌、棘阿米巴、病毒）具殺滅活性。NIS 非相關機轉；局部眼科應用之全身碘暴露極低。Phase 2 完成試驗（NCT00386958，細菌性角膜潰瘍；NCT04169919，EKC）及一項 Phase 3 試驗（NCT00516399，真菌性，雖終止但有 78 人資料）已建立初步臨床可行性。特別適合資源匱乏環境（成本效益顯著）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "vulvar inverted follicular keratosis",
+      "txgnn": {
+        "score": 0.8963063359260559,
+        "rank": 35172
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "零臨床試驗、零文獻，純為 TxGNN 計算預測。外陰部倒置性毛囊角化症為極罕見的良性皮膚腫瘤，目前治療以手術切除為主。雖然碘（PVP-I）對皮膚角化性病變有一定作用（與 seborrheic keratosis 類似的知識圖譜鄰近性），但無任何臨床前或臨床證據。此病例過度罕見，不具優先研究價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "peptic esophagitis",
+      "txgnn": {
+        "score": 0.8938535451889038,
+        "rank": 35409
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01783158",
+            "title": "Chromoendoscopy to Detect Early Synchronous Second Primary Esophageal Carcinoma in Patients With Squamous Cell Carcinomas of the Head and Neck?",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 132,
+            "start_date": "2004-01",
+            "completion_date": "2012-12",
+            "brief_summary": "Patients with HNSCC represent a high-risk group for the development of SESCC. Thus, esophagogastrofibroscopy should be performed to detect possible synchronous esophageal carcinomas in these patients.\n\nAlthough only two patients with synchronous primary carcinomas were found among the patients with newly diagnosed HNSCC in this study, esophagoscopy and better some of advanced endoscopic methods should be recommended after detection of HNSCC to exclude secondary esophageal carcinoma or dysplasia.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Lugol's 色素內視鏡用於食道癌同時性病灶偵測的診斷性 RCT，已完成（n=132）。碘為診斷染劑，研究目標為腫瘤學監測非 GERD/食道炎治療。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9488976",
+            "title": "[Endoscopic classification of reflux esophagitis and its new developments].",
+            "authors": [
+              "Makuuchi H",
+              "Shimada H",
+              "Chino O",
+              "Nishi T",
+              "Tanaka H"
+            ],
+            "journal": "Nihon Geka Gakkai zasshi",
+            "year": "1997",
+            "abstract": "Endoscopic diagnosis and classification of reflux esophagitis were described, which is gradually increasing in number in Japan. It is important to diagnosefor a type, grade, and degree, hearing stage and others (stenosis, Barrett's esophagus etc), when we perform endoscopic examination for reflux esophagitis patients. Iodine staining should be applied as far as possible. Los Angeles system for classification of reflux esophagitis was proposed at the 10th World Congress of Gastroenterology in Oct",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32598765",
+            "title": "[Gastroesophageal reflux disease and esophagitis associated with the use of drugs: the modern state of the problem].",
+            "authors": [
+              "Osadchuk A M",
+              "Davydkin I L",
+              "Gricenko T A",
+              "Osadchuk M A"
+            ],
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "abstract": "From the standpoint of evidence - based medicine, the ability of various drugs to induce the development of gastroesophageal reflux disease and esophagitis is considered. Thus, all known drugs can be divided into 3 groups: drugs that have the ability to reduce pressure in the lower esophageal sphincter, for example, β-adrenoreceptor agonists, α-adrenoreceptor antagonists, anticholinergics, calcium channel blockers, nitrates, benzodiazepines (diazepam), estrogen, progesterone, aminophylline (theo",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10606297",
+            "title": "Prospective multivariate analysis of factors predictive of complete regression of Barrett's esophagus.",
+            "authors": [
+              "Weston A P",
+              "Badr A S",
+              "Hassanein R S"
+            ],
+            "journal": "The American journal of gastroenterology",
+            "year": "1999",
+            "abstract": "Demographic, endoscopic, and histological features of Barrett's esophagus at initial diagnosis were examined for their ability to predict complete endoscopic and histological regression of Barrett's during long-term follow-up.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16246682",
+            "title": "Lugol chromoendoscopy as a diagnostic tool in so-called endoscopy-negative GERD.",
+            "authors": [
+              "Yoshikawa Ichiro",
+              "Yamasaki Masahiro",
+              "Yamasaki Takuji",
+              "Kume Keiichiro",
+              "Otsuki Makoto"
+            ],
+            "journal": "Gastrointestinal endoscopy",
+            "year": "2005",
+            "abstract": "Esophageal mucosal breaks are found in less than half of patients with typical reflux symptom. Thus, endoscopy appears to be an insensitive test for GERD. Lugol chromoendoscopy has been used to detect early esophageal cancer, which is difficult to recognize by routine observation without dye staining. The aim of this study was to determine the efficacy of Lugol chromoendoscopy in the diagnosis of so-called endoscopy-negative GERD (ENRD).",
+            "classification": {
+              "study_type": "Diagnostic Cohort Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23573075",
+            "title": "Chromoendoscopy to detect early synchronous second primary esophageal carcinoma in patients with squamous cell carcinomas of the head and neck?",
+            "authors": [
+              "Komínek Pavel",
+              "Vítek Petr",
+              "Urban Ondřej",
+              "Zeleník Karol",
+              "Halamka Magdaléna"
+            ],
+            "journal": "Gastroenterology research and practice",
+            "year": "2013",
+            "abstract": "Objective. To evaluate the use of flexible esophagoscopy and chromoendoscopy with Lugol's solution in the detection of early esophageal carcinomas (second primary carcinomas) in patients with squamous cell carcinoma of the head and neck (HNSCC). Methods. All patients with newly diagnosed HNSCC underwent office-based Lugol's chromoendoscopy. After flexible esophagoscopy with white light, 3.0% Lugol's iodine solution was sprayed over the entire esophageal mucosa. Areas with less-intense staining (",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10453571",
+            "title": "[The usefulness of dye endoscopy in diagnosis esophageal diseases].",
+            "authors": [
+              "Wang H",
+              "Liu B",
+              "Xie X"
+            ],
+            "journal": "Zhongguo yi xue ke xue yuan xue bao. Acta Academiae Medicinae Sinicae",
+            "year": "1997",
+            "abstract": "To investigate the usefulness of Dye endoscopy in the diagnosis of the esophageal disorders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "碘在食道炎的連結限於診斷用途：Lugol's 碘液色素內視鏡（Lugol chromoendoscopy）利用正常鱗狀上皮對碘的染色反應（糖原-碘反應）偵測 Barrett's 食道、早期食道癌及 GERD 相關病變。這是診斷影像強化技術，非治療性介入。NCT01783158 為早期同時性食道癌偵測的色素內視鏡 RCT（診斷試驗）。碘在胃食道逆流疾病的病理生理（酸-蛋白酶損傷）中無已知治療角色。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "lacrimal gland neoplasm",
+      "txgnn": {
+        "score": 0.8935328722000122,
+        "rank": 35445
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06853925",
+            "title": "A Pilot Randomized Controlled Trial of the Use of a Website About Radioactive Iodine Symptom Management in Patients With Thyroid Cancer",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 88,
+            "start_date": "2025-10-02",
+            "completion_date": "2027-02",
+            "brief_summary": "The goal of this clinical trial is to learn if adult patients diagnosed with differentiated thyroid cancer can easily use and benefit from an online tool aimed to provide patients with educational resources and symptom management strategies to improve their quality of life after radioactive iodine (RAI) treatment. The main questions it aims to answer are:\n\n1. Can patients easily use and benefit from the RAI Support intervention?\n2. Does RAI Support improve health-related quality of life (overall",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "數位健康介入研究，協助患者管理 RAI 副作用症狀。與碘治療淚腺腫瘤無關。"
+            }
+          },
+          {
+            "nct_id": "NCT05999630",
+            "title": "The Use of Artificial Tears to Prevent Nasolacrimal Duct Obstruction in Patients Who Are Treated With Radioactive Iodine for Thyroid Cancer",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2023-08-21",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The association of radioiodine therapy for the treatment of thyroid cancer with nasolacrimal duct obstruction has been well documented in the medical literature. Prior case reports have documented radioactive iodine detection in the tears of patients following radioiodine therapy. It is possible that radioactive uptake by the cells in the lacrimal sac and nasolacrimal duct lead to inflammation, fibrosis, and obstruction of the tear duct over time. A recent study has shown that the administration",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此 Phase 3 試驗研究人工淚液「預防」放射性碘治療後的鼻淚管阻塞。碘在此為被預防的傷害源，非治療藥物。因果方向完全相反。"
+            }
+          },
+          {
+            "nct_id": "NCT06980103",
+            "title": "Use of a Decision Aid to Resolve Uncertainty About Radioactive Iodine Treatment in Patients With Intermediate Risk Thyroid Cancer: The Radiance Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 408,
+            "start_date": "2025-08-06",
+            "completion_date": "2029-07-31",
+            "brief_summary": "The goal of this study is to learn if a decision aid (DA) website helps people with thyroid cancer make informed decisions about radioactive iodine (RAI) treatment. The main questions it aims to answer are: - Does the decision aid help participants understand the risks and benefits of RAI treatment? - Does it help participants make choices that reflect what matters most to them? - How does the decision aid compare to usual care in supporting patients through this decision? Participants who have ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "共享決策工具研究，針對甲狀腺癌 RAI 治療決策，完全不涉及淚腺腫瘤治療。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32812307",
+            "title": "Salivary and lacrimal dysfunction after radioactive iodine for differentiated thyroid cancer: American Head and Neck Society Endocrine Surgery Section and Salivary Gland Section joint multidisciplinary clinical consensus statement of otolaryngology, ophthalmology, nuclear medicine and endocrinology.",
+            "authors": [
+              "Singer Michael C",
+              "Marchal Francis",
+              "Angelos Peter",
+              "Bernet Vic",
+              "Boucai Laura"
+            ],
+            "journal": "Head & neck",
+            "year": "2020",
+            "abstract": "Postoperative radioactive iodine (RAI) administration is widely utilized in patients with differentiated thyroid cancer. While beneficial in select patients, it is critical to recognize the potential negative sequelae of this treatment. The prevention, diagnosis, and management of the salivary and lacrimal complications of RAI exposure are addressed in this consensus statement.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23136908",
+            "title": "Salivary and lacrimal gland dysfunction after remnant ablation with radioactive iodine in patients with differentiated thyroid carcinoma prepared with recombinant human thyrotropin.",
+            "authors": [
+              "Rosario Pedro Weslley",
+              "Calsolari Maria Regina"
+            ],
+            "journal": "Thyroid : official journal of the American Thyroid Association",
+            "year": "2013",
+            "abstract": "One of the adverse effects of radioactive iodine (¹³¹I) treatment in patients with thyroid cancer is damage to the salivary and lacrimal glands. In almost all studies evaluating salivary and lacrimal gland dysfunction, the patients received ¹³¹I after levothyroxine (L-T4) withdrawal. Since the biokinetics of ¹³¹I after recombinant human thyrotropin (rhTSH) is not the same as in hypothyroidism, studies need to evaluate ¹³¹I-induced salivary and lacrimal toxicity after preparation with rhTSH. This",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11337569",
+            "title": "Salivary and lacrimal gland dysfunction (sicca syndrome) after radioiodine therapy.",
+            "authors": [
+              "Solans R",
+              "Bosch J A",
+              "Galofré P",
+              "Porta F",
+              "Roselló J"
+            ],
+            "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+            "year": "2001",
+            "abstract": "Salivary gland dysfunction has been described in patients undergoing radioiodine therapy but associated lacrimal gland dysfunction (sicca syndrome) has never been reported. We conducted a prospective cohort study with follow-up for up to 3 y in a tertiary care university center to determine the prevalence of sicca syndrome in patients after high-dose radioiodine treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33323865",
+            "title": "The spectrum of 124I uptake in the lacrimal gland and nasolacrimal sac/duct on PET/CT imaging.",
+            "authors": [
+              "Wu Di",
+              "Plyku Donika",
+              "Kulkarni Kanchan",
+              "Garcia Carlos",
+              "Burman Kenneth D"
+            ],
+            "journal": "Nuclear medicine communications",
+            "year": "2021",
+            "abstract": "124I PET/CT in 31 DTC patients was performed at 2, 24, 48, 72, and 96 h after oral administration of 31.5 or 62.9 MBq (0.85 or 1.7 mCi) of 124I after either recombinant human thyroid-stimulating hormone injections or thyroid hormone withdrawal. All but two patients had a history of prior 131I therapy. Patterns of 124I uptake in the lacrimal glands and nasolacrimal sac/ducts (NLD) were assessed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25900274",
+            "title": "(131)I treatment for thyroid cancer and the risk of developing salivary and lacrimal gland dysfunction and a second primary malignancy: a nationwide population-based cohort study.",
+            "authors": [
+              "Ko Kuan-Yin",
+              "Kao Chia-Hung",
+              "Lin Cheng-Li",
+              "Huang Wen-Sheng",
+              "Yen Ruoh-Fang"
+            ],
+            "journal": "European journal of nuclear medicine and molecular imaging",
+            "year": "2015",
+            "abstract": "The aim of this study was to determine the prevalence of salivary and lacrimal gland dysfunction and a second primary malignancy in patients from Taiwan with thyroid cancer after radioiodine therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38909080",
+            "title": "Update on lacrimal apparatus dysfunction associated with differentiated thyroid cancer after I-131 therapy.",
+            "authors": [
+              "Liang Chunlan",
+              "Wu Changlin",
+              "Liu Lian",
+              "Zhong Jingxiang"
+            ],
+            "journal": "International ophthalmology",
+            "year": "2024",
+            "abstract": "The most prevalent lacrimal apparatus dysfunctions associated with differentiated thyroid cancer(DTC) after I-131 therapy are dry eye and nasolacrimal duct obstruction(NLDO), leading to ocular discomfort and lower quality of life for patients. It is crucial to diagnose and manage lacrimal apparatus dysfunction associated with I-131 therapy for DTC. Therefore, this review aims to comprehensively summarize and analyze the advances in mechanisms and therapeutic options underlying lacrimal apparatus",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38451916",
+            "title": "Does Radioactive Iodine Treatment Damage the Lacrimal System?",
+            "authors": [
+              "Gürez Ceren",
+              "Ergül Nurhan"
+            ],
+            "journal": "Clinical nuclear medicine",
+            "year": "2024",
+            "abstract": "In this prospective study, we aimed to make a quantitative assessment of the lacrimal glands before and after radioactive iodine (RAI) treatment in patients with hyperthyroidism and thyroid cancer.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8469542",
+            "title": "Salivary and lacrimal gland involvement in a patient who had undergone a thyroidectomy and was treated with radioiodine for thyroid cancer.",
+            "authors": [
+              "Markitziu A",
+              "Lustmann J",
+              "Uzieli B",
+              "Krausz Y",
+              "Chisin R"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1993",
+            "abstract": "A patient with bilateral, insidiously developing enlargement of the parotid glands that started 1 year after a total thyroidectomy and ablative radioiodine therapy (200 mCi I131) for papillary carcinoma is presented. The patient displayed prolonged periods of hypothyroidism accompanied by hypercholesterolinemia, notwithstanding hormone replacement therapy. Three years after surgery, parotid and lacrimal gland functions were reduced and fatty degeneration of the parotid parenchyma was demonstrate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37203037",
+            "title": "Dependence of radioactive iodine-131 capture by the lacrimal ducts on the tear production level.",
+            "authors": [
+              "Yartsev Vasily D",
+              "Sheremeta Marina S",
+              "Trukhin Alexey A",
+              "Atkova Eugenia L",
+              "Degtyarev Mikhail V"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2023",
+            "abstract": "Secondary acquired lacrimal duct obstruction (SALDO) is one of the complications of radioiodine therapy. SALDO is formed a few months after therapy if there is a sufficient uptake of radioactive iodine by the nasolacrimal duct. To date, risk factors leading to SALDO are unclear. The objective was to determine the correlation between the tear production level and radioactive iodine-131 uptake in the lacrimal ducts.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37300484",
+            "title": "Dysfunction of the Salivary and Lacrimal Glands After Radioiodine Therapy for Thyroid Cancer: Results of the START Study After 6-Months of Follow-Up.",
+            "authors": [
+              "Baudin Clémence",
+              "Bressand Alice",
+              "Buffet Camille",
+              "Menegaux Fabrice",
+              "Soret Marine"
+            ],
+            "journal": "Thyroid : official journal of the American Thyroid Association",
+            "year": "2023",
+            "abstract": "Background: Understanding of changes in salivary and lacrimal gland functions after radioactive iodine therapy (131I-therapy) remains limited, and, to date, no studies have evaluated dose-response relationships between absorbed dose from 131I-therapy and dysfunctions of these glands. This study investigates salivary/lacrimal dysfunctions in differentiated thyroid cancer (DTC) patients six months after 131I-therapy, identifies 131I-therapy-related risk factors for salivary/lacrimal dysfunctions, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26421813",
+            "title": "Intermediate and long-term adverse effects of radioiodine therapy for differentiated thyroid carcinoma--a systematic review.",
+            "authors": [
+              "Clement S C",
+              "Peeters R P",
+              "Ronckers C M",
+              "Links T P",
+              "van den Heuvel-Eibrink M M"
+            ],
+            "journal": "Cancer treatment reviews",
+            "year": "2015",
+            "abstract": "Treatment of differentiated thyroid carcinoma (DTC) often involves administration of radioactive iodine (I-131) for remnant ablation or adjuvant therapy. As DTC has favorable outcome and the incidence is increasing, concerns have been raised about the possible adverse effects of I-131 therapy. We systematically reviewed the literature to examine the risk of intermediate and long-term adverse effects of I-131 therapy in DTC patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36220641",
+            "title": "Dacryoendoscopic Findings of Patients with Lacrimal Drainage Obstruction Associated with Cancer Treatment.",
+            "authors": [
+              "Kim Yuri",
+              "Lew Helen"
+            ],
+            "journal": "Korean journal of ophthalmology : KJO",
+            "year": "2022",
+            "abstract": "To compare the diagnosis and treatment outcome of lacrimal drainage obstruction of patients who underwent systemic chemotherapy (CTx) or radioactive iodine treatment (RAI) by using dacryoendoscopy and at the same time performing dacryoendoscopy-guided silicone tube insertion (STI) to treat epiphora.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32678349",
+            "title": "Iodine-125 interstitial brachytherapy for malignant lacrimal sac tumours: an innovative technique.",
+            "authors": [
+              "Wang Ping",
+              "Ma Nan",
+              "Zhang Shaobo",
+              "Ning Xiaona",
+              "Guo Chenjun"
+            ],
+            "journal": "Eye (London, England)",
+            "year": "2021",
+            "abstract": "Primary malignant tumours of the lacrimal sac are rare, surgery and radiotherapy may induce substantial side effects for patients. Here, this article reports an innovative technique of interstitial brachytherapy developed for the treatment of malignant lacrimal sac tumours.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20634173",
+            "title": "Early and late toxicity of radioiodine therapy: detection and management.",
+            "authors": [
+              "Hyer Steve L",
+              "Newbold Kate",
+              "Harmer Clive L"
+            ],
+            "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+            "year": "2010",
+            "abstract": "To review the early and late toxicity associated with radioiodine (131I) therapy, highlighting the need for early detection and, where possible, preventive measures.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28388347",
+            "title": "Endoscopic dacryocystorhinostomy following radioactive iodine thyroid ablation.",
+            "authors": [
+              "Van Tassel Sarah H",
+              "Segal Kira L",
+              "Hsu Nicole M",
+              "Kacker Ashutosh",
+              "Lelli Gary J"
+            ],
+            "journal": "Orbit (Amsterdam, Netherlands)",
+            "year": "2017",
+            "abstract": "This article evaluates the efficacy of endoscopic dacryocystorhinostomy (eDCR) for nasolacrimal duct obstruction (NLDO) in patients exposed to radioactive iodine (RAI) for treatment of thyroid carcinoma. Retrospective chart review of 7 eDCR procedures was performed on 6 patients, aged 18 or older, with prior RAI treatment, who underwent eDCR between January 1, 2008 and December 31, 2013 for treatment of epiphora due to NLDO. Average time to tube removal was 159 days, and average follow-up was 34",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35970353",
+            "title": "Factors Associated With Radioactive Iodine Therapy-Acquired Nasolacrimal Duct Obstruction.",
+            "authors": [
+              "Lee Irene T",
+              "Chen Wencong",
+              "Chen Qingxia",
+              "Cole Heather A",
+              "Bischoff Lindsay A"
+            ],
+            "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+            "year": "2022",
+            "abstract": "To identify factors associated with radioactive iodine (RAI)-acquired nasolacrimal duct obstruction (NLDO).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37199817",
+            "title": "Topographic and anatomical features of the nasolacrimal duct obstruction due to radioiodine treatment.",
+            "authors": [
+              "Yartsev Vasily D",
+              "Atkova Eugenia L",
+              "Ekaterinchev Maxim A"
+            ],
+            "journal": "International ophthalmology",
+            "year": "2023",
+            "abstract": "To investigate the topographic and anatomical features of secondary acquired nasolacrimal duct obstruction (SALDO) due to radioiodine therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9708527",
+            "title": "Radioiodine secretion in tears.",
+            "authors": [
+              "Bakheet S M",
+              "Hammami M M",
+              "Hemidan A",
+              "Powe J E",
+              "Bajaafar F"
+            ],
+            "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+            "year": "1998",
+            "abstract": "Lacrimal secretion of radioiodine has been suspected from previous scintigraphic observations. We semiquantitated radioiodine secretion in the tears of a thyroid-ablated patient with an artificial eye while the patient was on thyroxine treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22760799",
+            "title": "[Lacrimal drainage system obstruction associated to radioactive iodine therapy for thyroid carcinoma].",
+            "authors": [
+              "Fonseca Fabricio Lopes da",
+              "Lunardelli Patrícia",
+              "Matayoshi Suzana"
+            ],
+            "journal": "Arquivos brasileiros de oftalmologia",
+            "year": "2012",
+            "abstract": "To report the finding of nasolacrimal drainage system obstruction associated with radio iodine therapy and to review clinical data and the surgical treatment outcome of this rare complication.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15083081",
+            "title": "Nasolacrimal obstruction secondary to I(131) therapy.",
+            "authors": [
+              "Burns J A",
+              "Morgenstern K E",
+              "Cahill K V",
+              "Foster J A",
+              "Jhiang S M"
+            ],
+            "journal": "Ophthalmic plastic and reconstructive surgery",
+            "year": "2004",
+            "abstract": "To report the finding of nasolacrimal drainage system obstruction associated with I(131) therapy for thyroid carcinoma from an updated and expanded cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為典型方向性錯誤的知識圖譜假陽性：所有文獻和臨床試驗均顯示 I-131 放射性碘治療（用於甲狀腺癌）「導致」淚腺功能損傷，而非碘「治療」淚腺腫瘤。碘是致病因子（NIS 表達於淚腺上皮，I-131 造成輻射損傷）。NCT05999630 研究的是如何「預防」I-131 引起的鼻淚管阻塞。此適應症應從再利用候選名單中排除並標記為 KG 假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "Sjogren syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "Sjogren syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "Sjogren syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "prolapse of lacrimal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "fetal erythroblastosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "recurrent corneal erosion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "recurrent corneal erosion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "recurrent corneal erosion"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "keratitis"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "keratitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "keratitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "vulvar inverted follicular keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "peptic esophagitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "peptic esophagitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "peptic esophagitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "lacrimal gland neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "lacrimal gland neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Iodine",
+        "disease": "lacrimal gland neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+## Iloprost (DB01088) 藥物再利用證據分析
+
+以下是對全部 10 個適應症的系統性評估：
+
+---
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上 Prostacyclin 受體（IP receptor）可能透過促進毛囊微血管增生間接影響毛髮生長，但此連結純屬推測，無生物學實驗或病理機轉依據。TxGNN 高分可能源於圖譜拓撲相似性而非真實機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性毛囊發育缺陷由遺傳因素主導（LPAR6、LIPH 等基因突變），Prostacyclin 路徑與其發病機轉缺乏生物學交集，無任何臨床或轉譯研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with congenital heart disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Iloprost 為合成 Prostacyclin（PGI2）類似物，透過激活 IP receptor 和 PPAR-γ 產生肺血管舒張、抑制血管平滑肌細胞增殖及抗血小板聚集效果。先天性心臟病所致的肺血管高壓（CHD-PAH）與其他 Group 1 PAH 共享內皮功能障礙和 Prostacyclin 合成不足的核心病理機轉，機轉支持強，屬 PAH 標準治療向特定亞型的延伸應用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01383083",
+          "relevance_grade": "B",
+          "reasoning": "適應症特異性高，專門研究成人 CHD-PAH 患者接受 Iloprost 治療效果，n=42 具一定規模。但 Phase 標示為 N/A（可能為觀察性或同情用藥研究），狀態為 UNKNOWN（結果未見公開），方法學等級無法確認為 RCT，降低證據權重。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "19436672", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "28608969", "study_type": "Prospective Clinical Study", "tier": "2"},
+        {"pmid": "29426959", "study_type": "Acute Hemodynamic Study", "tier": "2"},
+        {"pmid": "27053694", "study_type": "Hemodynamic Clinical Study", "tier": "2"},
+        {"pmid": "16919006", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "21852894", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "31090367", "study_type": "National Registry Cohort", "tier": "2"},
+        {"pmid": "22621693", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "24753712", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "20023177", "study_type": "Basic Science / Translational", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "pulmonary arteriovenous malformation (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PAVM 多為 HHT（遺傳性出血性毛細血管擴張症，Rendu-Osler-Weber disease）的合併症，少數可繼發 PAH。現有文獻（PMID 15929019）探討 HHT 相關肺高壓，Iloprost 僅作為 PAH 管理工具間接提及，非針對 PAVM 本身治療。機轉連結屬間接推斷，需先確認目標疾病定義。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "15929019", "study_type": "Case Series / Narrative Review", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with schistosomiasis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "血吸蟲病相關 PAH（Schistosomiasis-PAH）的病理機轉涉及門靜脈高壓引發的肺血管重塑及蟲卵肉芽腫，與 Prostacyclin 路徑缺乏直接連結。現有文獻（PMID 24729548）為廣義兒童 PAH 吸入式 Iloprost 使用報告，非針對此亞型，屬間接應用外推。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "24729548", "study_type": "Clinical Review / Pediatric Case Series", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with connective tissue disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "結締組織疾病（尤其系統性硬化症 SSc）引發的內皮細胞受損導致內源性 Prostacyclin 合成顯著不足，這是 CTD-PAH 發病的核心機轉之一。Iloprost 補充外源性 PGI2 具有明確的生物學理據，長期靜脈或吸入式 Iloprost 在 SSc-PAH 患者已有縱貫性觀察數據支持，多項真實世界研究顯示其在處方組合中的地位。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "37765060", "study_type": "Systematic Review / Recent Advances", "tier": "1"},
+        {"pmid": "21283970", "study_type": "Systematic Overview", "tier": "1"},
+        {"pmid": "27651181", "study_type": "Longitudinal Cohort (Domiciliary IV Iloprost)", "tier": "2"},
+        {"pmid": "37728697", "study_type": "Real-World Cohort", "tier": "2"},
+        {"pmid": "29718009", "study_type": "Clinical Hemodynamic Study", "tier": "2"},
+        {"pmid": "22621693", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "19487219", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "11936539", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "17130975", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "40459886", "study_type": "Observational Multicentre (Selexipag, 間接參考)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with HIV infection",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HIV 感染透過 gp120 蛋白及 Nef 因子損傷肺血管內皮細胞、促進平滑肌細胞增殖並抑制 Prostacyclin 合成，Iloprost 的血管舒張與抗增殖機轉具有明確病理生理支持。此外，HIV-PAH 患者常接受多種 PAH 靶向治療的組合方案，Prostanoid 類藥物為常見選項之一。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00709956",
+          "relevance_grade": "A",
+          "reasoning": "設計品質高：多中心、雙盲、隨機、安慰劑對照、交叉試驗（Phase 3），已完成，n=64，針對 HIV-PAH 特異性族群。惟試驗標題遭截斷，無法直接確認主要干預藥物是否為 Iloprost 本身（存在為 Bosentan 等其他 PAH 藥物之可能），建議查閱 ClinicalTrials.gov 完整記錄核實；若確認為 Iloprost，可升級至 L1/S3。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "14720012", "study_type": "Systematic Review (Prostanoids in PAH)", "tier": "1"},
+        {"pmid": "17195895", "study_type": "Narrative Review", "tier": "2"},
+        {"pmid": "31090367", "study_type": "National Registry Cohort", "tier": "2"},
+        {"pmid": "18260882", "study_type": "Narrative Review", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "pulmonary arterial hypertension associated with chronic hemolytic anemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性溶血性貧血相關 PAH 的核心機轉為游離血紅素消耗 NO（一氧化氮），導致 NO 依賴性血管舒張功能喪失，與 Prostacyclin 路徑為平行但非主導機轉。雖然 Iloprost 可提供替代性血管舒張，但此亞型缺乏任何臨床試驗或觀察性研究佐證，風險/效益比不明確。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diffuse alopecia areata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫型圓形禿以 CD8+ T 細胞媒介的毛囊自體免疫攻擊為主要機轉，與 Prostacyclin 路徑的交集僅存在於理論層面（IP receptor 在免疫細胞上有微量表現）。無任何基礎或臨床研究支持 Iloprost 用於此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "落髮病因高度異質（雄性禿、圓形禿、瘢痕性禿髮等），Prostacyclin 路徑在毛髮週期調控中的角色尚未確立。TxGNN 預測得分雖高，但缺乏任何機轉研究、動物模型或臨床試驗支持，屬純演算法預測結果。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| PAH-HIV | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 3 RCT (完成，待核實主要用藥) |
+| PAH-CHD | **L3** | **S2** | ✅ Proceed with Guardrails | 1 觀察性試驗 + 10 篇文獻（含急性血流動力研究） |
+| PAH-CTD | **L3** | **S2** | ✅ Proceed with Guardrails | 2 系統性回顧 + 多項真實世界長期追蹤 |
+| PAH-PAVM | **L4** | **S1** | 🔬 Research Question | 1 篇間接案例系列 |
+| PAH-Schistosomiasis | **L4** | **S1** | 🔬 Research Question | 1 篇廣義 PAH 兒童用藥報告 |
+| Hypotrichosis simplex | **L5** | **S0** | ⛔ Hold | 零臨床證據 |
+| Congenital hypotrichosis milia | **L5** | **S0** | ⛔ Hold | 零臨床證據 |
+| PAH-Hemolytic anemia | **L5** | **S0** | ⛔ Hold | 零臨床證據 |
+| Diffuse alopecia areata | **L5** | **S0** | ⛔ Hold | 零臨床證據 |
+| Alopecia | **L5** | **S0** | ⛔ Hold | 零臨床證據 |
+
+---
+
+## ⚠️ 關鍵注意事項
+
+1. **NCT00709956 需優先核實**：若確認為 Iloprost Phase 3 RCT，HIV-PAH 可升級至 **L1/S3**，為最高優先推進適應症。
+
+2. **PAH 亞型群組效應**：Iloprost 在一般 PAH（Group 1）已有成熟使用基礎，CHD-PAH 和 CTD-PAH 屬既有適應症的延伸亞型分類，臨床可行性較高，Proceed with Guardrails 意指需監控亞型特異的安全性（如 CHD 患者血流動力交互作用）。
+
+3. **落髮/毛髮相關適應症**：三個相關適應症（hypotrichosis simplex、congenital hypotrichosis milia、alopecia 類）的高 TxGNN 分數可能反映圖譜中血管相關節點的拓撲鄰近性，而非真實治療機轉，建議不進入臨床評估。
+
+4. **市場狀態提醒**：資料標注「未上市」（新加坡脈絡），惟 Iloprost（Ventavis® 吸入劑）已在多國核准用於 PAH，進行再利用評估前需確認當地監管地位。

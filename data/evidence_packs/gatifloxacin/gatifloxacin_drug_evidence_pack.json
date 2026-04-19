@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01044-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gatifloxacin",
+    "drugbank_id": "DB01044",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn": {
+        "score": 0.9759371280670166,
+        "rank": 18899
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高黏滯度症候群（多克隆型）源於免疫球蛋白過量，屬漿細胞/B細胞疾病。氟喹諾酮抑制細菌DNA旋轉酶，與此症候群無已知機轉連結。高TxGNN分數可能反映KG中血液病節點群聚效應（偽陽性）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hyperamylasemia",
+      "txgnn": {
+        "score": 0.9759371280670166,
+        "rank": 18900
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高澱粉酶血症主因為胰腺炎或腮腺炎。雖有個別氟喹諾酮引發胰腺炎副作用報告（逆向關聯），但Gatifloxacin作為治療藥物無機轉依據。注意：Gatifloxacin本身即有血糖及代謝副作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital analbuminemia",
+      "txgnn": {
+        "score": 0.973127007484436,
+        "rank": 20074
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無白蛋白血症為罕見常染色體隱性遺傳病（ALB基因突變），無任何已知小分子療法可矯正該基因缺陷。抗生素在此無機轉連結。純KG結構預測，生物合理性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "blood group incompatibility",
+      "txgnn": {
+        "score": 0.9645578265190125,
+        "rank": 22974
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血型不相容反應為抗原抗體免疫反應（IgM/IgG介導補體活化）。氟喹諾酮類對此免疫病理無任何已知調節作用。此預測缺乏生物合理性，建議忽略。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "premalignant hematological system disease",
+      "txgnn": {
+        "score": 0.9586172103881836,
+        "rank": 24605
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "廣義血液前惡性病（MDS、MGUS等）。部分氟喹諾酮（如環丙沙星）有拓撲異構酶II抑制相關的體外抗增生效應，但Gatifloxacin無相關臨床前或臨床數據。撤市狀態及dysglycemia風險進一步削弱研發可行性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "monoclonal gammopathy",
+      "txgnn": {
+        "score": 0.9561034440994264,
+        "rank": 25194
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "單株球蛋白病（MGUS）為漿細胞克隆增生，抗菌機轉（DNA旋轉酶抑制）與漿細胞生物學無直接連結。KG預測可能因MGUS與感染易感性的流行病學共病關係而產生假性連結。無臨床依據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn": {
+        "score": 0.9523305296897888,
+        "rank": 26168
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此類疾病（如副蛋白血症周圍神經病）治療重點為控制原發血液病。需特別注意：氟喹諾酮類本身有周圍神經毒性風險（FDA黑框警告），Gatifloxacin用於此適應症存在加重神經損傷的安全顧慮，反向風險明顯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "congenital hematological disorder",
+      "txgnn": {
+        "score": 0.9364373683929444,
+        "rank": 29467
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性血液病（鐮刀型貧血、地中海貧血等）為基因缺陷所致，抗生素無法矯正根本病因。氟喹諾酮在此族群中用途僅限於預防感染（次要支持性治療），非老藥新用概念。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "septicemic plague",
+      "txgnn": {
+        "score": 0.9326518177986144,
+        "rank": 30178
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15555886",
+            "title": "Efficacy of the latest fluoroquinolones against experimental Yersinia pestis.",
+            "authors": [
+              "Steward J",
+              "Lever M S",
+              "Russell P",
+              "Beedham R J",
+              "Stagg A J"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2004",
+            "abstract": "The efficacies of prophylactic and therapeutic gatifloxacin and moxifloxacin were assessed in a BALB/c mouse model of systemic and pneumonic plague and compared with ciprofloxacin. Mice were given 100 mg/kg of the antibiotic by oral administration twice daily for 7 days starting 1h prior to infection or following infection. All antibiotics offered full protection for up to 6h following systemic challenge, and for up to 30 h following an aerosol challenge. The efficacy of each of the antibiotics ",
+            "classification": {
+              "study_type": "Animal Study (In Vivo Experimental)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "敗血性鼠疫由鼠疫耶爾森菌（Yersinia pestis）引起，為革蘭氏陰性菌。氟喹諾酮類以DNA旋轉酶抑制作用對Y. pestis具強效殺菌活性，CDC已將環丙沙星、左氧氟沙星列為鼠疫替代治療選項。Gatifloxacin作為第四代氟喹諾酮，對革蘭氏陰性菌覆蓋更廣，具合理類效應（class effect）支持。但需考量：(1) Gatifloxacin已撤市，不如其他在市氟喹諾酮實際可及；(2) 同類藥物已有更充分人體安全資料；(3) dysglycemia風險在危重鼠疫患者中需特別監控。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hematopoietic and lymphoid system neoplasm",
+      "txgnn": {
+        "score": 0.8627223968505859,
+        "rank": 38232
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "造血及淋巴系統腫瘤為廣泛分類（含白血病、淋巴瘤等）。氟喹諾酮拓撲異構酶II抑制作用理論上有抗增生潛力，但目前僅有少量非Gatifloxacin的同類藥物體外細胞株資料，無Gatifloxacin特異性臨床前/臨床數據，且TxGNN分數為本分析中最低（0.8627），撤市風險不支持研發投入。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematopoietic and lymphoid system neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematopoietic and lymphoid system neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gatifloxacin",
+        "disease": "hematopoietic and lymphoid system neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06767-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ammonium chloride",
+    "drugbank_id": "DB06767",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9994120597839355,
+        "rank": 1285
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "氯化銨作為祛痰劑可刺激呼吸道黏膜分泌，理論上有助於咽喉急性炎症的分泌物排出；酸化環境亦可能影響細菌定植。然而機轉推斷薄弱，屬高度間接推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9993863105773926,
+        "rank": 1321
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "祛痰劑機轉可增加鼻腔黏膜分泌，理論上可改善鼻腔充血；酸化作用對鼻腔環境的影響尚未有系統研究。屬間接推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "faucial diphtheria",
+      "txgnn": {
+        "score": 0.9892921447753906,
+        "rank": 11052
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "白喉（Corynebacterium diphtheriae 感染）為細菌感染症，氯化銨無直接抗菌作用。酸化環境理論上可抑制部分細菌，但對白喉桿菌的特異性極低。現代治療以抗毒素與抗生素為主，本藥無明顯再利用機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "cervical disc degenerative disorder",
+      "txgnn": {
+        "score": 0.988698422908783,
+        "rank": 11507
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "氯化銨與頸椎退化性疾病之間無已知生物學機轉關聯。酸化劑對軟骨代謝或椎間盤退化的影響未有理論基礎支持。此預測結果高度可能為 KG 結構性雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.9850340485572816,
+        "rank": 14173
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1837196",
+            "title": "Occupational skin diseases from epoxy compounds. Epoxy resin compounds, epoxy acrylates and 2,3-epoxypropyl trimethyl ammonium chloride.",
+            "authors": [
+              "Jolanki R"
+            ],
+            "journal": "Acta dermato-venereologica. Supplementum",
+            "year": "1991",
+            "abstract": "Of a total of 3731 patients investigated between 1974 and 1990, 1844 (49.4%) had an occupational skin disease. Of them 142 (7.7%) had an occupational skin disease caused by epoxy compounds--135 patients (95%) had allergic contact dermatitis, five had irritant contact dermatitis, and two had contact urticaria. Apart from dermatoses, two patients had IgE-mediated asthma from exposure to DGEBA epoxy resins. Thus epoxy compounds are one of the main causes of occupational allergic contact dermatoses ",
+            "classification": {
+              "study_type": "Case series / Occupational dermatology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20865268",
+            "title": "Tea tree oil attenuates experimental contact dermatitis.",
+            "authors": [
+              "Wallengren Joanna"
+            ],
+            "journal": "Archives of dermatological research",
+            "year": "2011",
+            "abstract": "Herbs and minerals have been used in clinical dermatology for hundreds of years and herbal ingredients are becoming increasingly popular with the public in treatment of various dermatological conditions characterised by inflammation and pruritus. The aim of this study was to compare the efficacy of traditional topical therapeutic agents with a moderate potency topical glucocorticoid on experimental contact dermatitis and contact urticaria. The effects of ichthammol 10% pet, zinc oxide 20% pet, c",
+            "classification": {
+              "study_type": "Animal experiment",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20187494",
+            "title": "[Results of patch test in hairdressers examined in the institute of occupational medicine in Łódź].",
+            "authors": [
+              "Kieć-Swierczyńska Marta",
+              "Krecisz Beata",
+              "Chomiczewska Dorota"
+            ],
+            "journal": "Medycyna pracy",
+            "year": "2009",
+            "abstract": "Occupational contact dermatitis is a significant health problem in hairdressers. The number of occupational skin diseases in this group constantly increases. The most frequent factors contributing to the skin damage include water, shampoos, detergents, conditioners, hair dyes, bleaches, permanent wave solutions, and components of gloves.",
+            "classification": {
+              "study_type": "Cross-sectional / Patch test study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "氯化銨的酸化作用理論上可影響組織胺釋放路徑或肥大細胞活化，但此機轉極為間接且尚未有直接實驗佐證。無已知再利用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.9817134737968444,
+        "rank": 16184
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉神經自主神經性頭痛（包含叢集性頭痛）的病理機轉涉及三叉-副交感神經反射及下視丘節律，氯化銨的酸化作用與此機轉無明顯交集。雖有偏頭痛相關歷史文獻（見 headache disorder），但三叉神經自主神經性頭痛病理機轉顯著不同，不宜外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9799396991729736,
+        "rank": 17051
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01281501",
+            "title": "A Randomized, Controlled Trial of Adding Intravenous Pantoprazole to Conventional Treatment for the Immediate Relief of Dyspeptic Pain",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 87,
+            "start_date": "2011-01",
+            "completion_date": "2011-10",
+            "brief_summary": "The purpose of this study is to evaluate the immediate synergistic effect on the relief of severe acid-related dyspeptic pain by adding intravenous pantoprazole to the combination of oral antacid and antispasmodic agent (the conventional treatment).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Pantoprazole（質子幫浦抑制劑），非氯化銨。與頭痛治療相關但屬不同藥物，不構成氯化銨再利用的臨床試驗證據。"
+            }
+          },
+          {
+            "nct_id": "NCT05289323",
+            "title": "Evaluation of Intrathecal Neostigmine as an Adjuvant to Bupivacaine in Ameliorating Post-Dural Puncture Headache in Elective Caesarian Section: A Prospective Randomized Controlled Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 722,
+            "start_date": "2022-04-25",
+            "completion_date": "2023-07-25",
+            "brief_summary": "Intravenous neostigmine was recently reported as an effective treatment for PDPH for parturients after intrathecal (IT) block which is postulated to be through its central effects on CSF secretion and cerebral vascular tone modulation. Intrathecal neostigmine has been investigated widely and found to be an effective adjuvant to bupivacaine for postoperative analgesia.\n\nThe objective of the current study is to investigate the possible prophylactic role of intrathecal neostigmine as an adjuvant to",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Neostigmine（膽鹼酯酶抑制劑），針對硬膜穿刺後頭痛，與氯化銨完全無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "13254186",
+            "title": "[Ammonium chloride therapy of chronic migraine].",
+            "authors": [
+              "FAZEKAS I G"
+            ],
+            "journal": "Orvosi hetilap",
+            "year": "1955",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical case series / Historical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13345397",
+            "title": "[Effects of ammonium chloride therapy on the neuro-endocrine system in chronic headaches].",
+            "authors": [
+              "FAZEKAS I"
+            ],
+            "journal": "Ideggyogyaszati szemle",
+            "year": "1956",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical observational / Historical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13317850",
+            "title": "[Effect of ammonium chloride therapy on the neuroendocrine system, with special reference to chronic headaches].",
+            "authors": [
+              "FAZEKAS I G"
+            ],
+            "journal": "Endokrinologie",
+            "year": "1956",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical observational / Historical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6294857",
+            "title": "[Achlorhydric migraine: pathogenesis and management].",
+            "authors": [
+              "Wolinetz E"
+            ],
+            "journal": "La semaine des hopitaux : organe fonde par l'Association d'enseignement medical des hopitaux de Paris",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review / Pathogenesis hypothesis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13466764",
+            "title": "[Anachlorhydric migraine; treatment with ammonium chloride; pathogenic considerations].",
+            "authors": [
+              "WOLINETZ E",
+              "GODARD J P"
+            ],
+            "journal": "Revue neurologique",
+            "year": "1957",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical case series / Historical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "1950年代存在「無胃酸性偏頭痛（achlorhydric migraine）」假說：部分慢性偏頭痛患者合併胃酸缺乏，導致氨代謝紊亂與血液 pH 偏移，誘發頭痛。氯化銨作為酸化劑被用於糾正此酸鹼失衡。現代觀點：此假說缺乏嚴謹對照研究，且偏頭痛病理已更新（皮質擴散抑制、CGRP 路徑），機轉相關性存疑，但歷史文獻為直接臨床使用紀錄，具參考價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "tracheal disease",
+      "txgnn": {
+        "score": 0.979558527469635,
+        "rank": 17220
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05299008",
+            "title": "The Effect of Bethanechol on Work of Breathing and Expiratory Tracheal Collapse in Infants With Tracheobronchomalacia Measured by Electrical Activity of the Diaphragm and Bronchoscopy",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2022-08-11",
+            "completion_date": "2024-06-30",
+            "brief_summary": "The primary aim of this study is to determine if work of breathing estimated using swing Edi will be improved following initiation of bethanechol in infants with tracheobronchomalacia. The investigators hypothesize that work of breathing will be improved in infants with tracheobronchomalacia estimated by a 20% mean decrease in swing Edi following initiation of bethanechol.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Bethanechol（膽鹼能藥物），針對嬰兒氣管軟化，非氯化銨。主題與氣管疾病相關但不構成氯化銨證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34798932",
+            "title": "Pro-inflammatory response and genotoxicity caused by clay and graphene nanomaterials in A549 and THP-1 cells.",
+            "authors": [
+              "Di Ianni Emilio",
+              "Møller Peter",
+              "Vogel Ulla Birgitte",
+              "Jacobsen Nicklas Raun"
+            ],
+            "journal": "Mutation research. Genetic toxicology and environmental mutagenesis",
+            "year": "2021",
+            "abstract": "Nanoclays and graphene oxide nanomaterials represent a class of materials sharing similar shapes constituted of high aspect ratio platelets. The increased production of these materials for various industrial applications increases the risk of occupational exposure, consequently with elevated risk of adverse reactions and development of pulmonary diseases, including lung cancer. In this study, pro-inflammatory responses and genotoxicity were assessed in alveolar epithelial cells (A549) and activa",
+            "classification": {
+              "study_type": "In vitro toxicology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22432631",
+            "title": "Microbiological and mucociliary properties of the ethanol extract of Hymenocardia acida on selected respiratory clinical isolates.",
+            "authors": [
+              "Obidike I C",
+              "Aboh M I",
+              "Salawu O A"
+            ],
+            "journal": "Journal of dietary supplements",
+            "year": "2011",
+            "abstract": "The antimicrobial property of the ethanol leaf extract of Hymenocardia acida (H. acida) on some opportunistic respiratory pathogens was evaluated in this study. We also assessed the activity of the extract on tracheal mucociliary activity using murine tracheal mucus exudation and mucociliary motility in pigeons as experimental models. Phytochemical screening of the extract was done; and acute toxicity of the extract in mice was carried out using Lorke's method for estimation of its median lethal",
+            "classification": {
+              "study_type": "In vitro / Microbiological",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "氯化銨作為祛痰劑可增加氣道黏液分泌量並降低黏稠度，理論上有益於氣管疾病（如氣管軟化、慢性氣管炎）的分泌物排出。機轉合理但屬間接推測，且無現代劑量/安全性數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "papillary conjunctivitis",
+      "txgnn": {
+        "score": 0.9173435568809508,
+        "rank": 32771
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳頭狀結膜炎多為過敏或機械刺激引起，氯化銨對眼部炎症無已知直接作用機轉。酸化特性用於眼部給藥存在明顯安全性疑慮（眼球耐酸性差）。機轉關聯性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "gonococcal urethritis",
+      "txgnn": {
+        "score": 0.9163917303085328,
+        "rank": 32897
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "氯化銨酸化尿液（降低尿液 pH 至 5.0-6.0）理論上可抑制淋病奈瑟菌（在鹼性環境下生長較佳）的定植，並可能增強某些抗生素（如青黴素類）的尿路濃度效果。此機轉有一定生物學合理性，但在現代標準治療（頭孢曲松 + 阿奇黴素）面前，作為輔助治療的價值需謹慎評估，且缺乏任何臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "faucial diphtheria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "faucial diphtheria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "faucial diphtheria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "cervical disc degenerative disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ammonium chloride",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

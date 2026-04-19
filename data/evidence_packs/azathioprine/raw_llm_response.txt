@@ -1,0 +1,652 @@
+## Azathioprine (DB00993) 藥物再利用證據分析
+
+以下為針對 10 個預測適應症的完整評估結果：
+
+```json
+{
+  "drug": "Azathioprine",
+  "drugbank_id": "DB00993",
+  "analysis_date": "2026-04-05",
+  "data_quality_flags": [
+    "original_indications 為空，但 Azathioprine 全球實際已有 IBD/移植等核准適應症，疑為新加坡本地藥監資料缺口",
+    "original_moa 標示 [Data Gap]，實際機轉為嘌呤合成抑制劑 → 抑制 T/B 淋巴球增殖",
+    "market_status 未上市可能反映新加坡本地未登記，非全球狀態"
+  ],
+  "indications": [
+    {
+      "disease_name": "inflammatory bowel disease",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Azathioprine 代謝為 6-巰嘌呤（6-MP）→ 抑制嘌呤從頭合成 → 阻斷淋巴球 DNA 複製 → 抑制 T 細胞及 B 細胞增殖 → 抑制腸道黏膜慢性炎症。與 IBD 的 T 細胞驅動性慢性炎症機轉直接對應。",
+      "guardrails": [
+        "TPMT/NUDT15 基因型篩查（骨髓抑制風險評估）",
+        "定期血球計數監測",
+        "長期使用淋巴瘤風險告知",
+        "合併 anti-TNF 時需監控機會性感染"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00976690",
+          "title": "Azathioprine vs Mesalazine for Prevention of Post-operative Crohn's Disease",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 83,
+          "relevance_grade": "A",
+          "reasoning": "直接比較 AZA 與 mesalazine 用於術後 Crohn's 預防，Phase 3 已完成，高度直接相關"
+        },
+        {
+          "nct_id": "NCT01235689",
+          "title": "Two Treatment Algorithms in IBD",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 252,
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 3 試驗，AZA 為治療算法之一，結果可提供間接療效資訊"
+        },
+        {
+          "nct_id": "NCT02929706",
+          "title": "NUDT15 R139C Dose Optimization to Reduce Thiopurine-induced Leukopenia",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 400,
+          "relevance_grade": "B",
+          "reasoning": "藥物基因組學安全性研究，對 AZA 個人化用藥具有重要臨床意涵"
+        },
+        {
+          "nct_id": "NCT00796250",
+          "title": "Infliximab Bridging + Azathioprine in Corticodependent Crohn's",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "enrollment": 9,
+          "relevance_grade": "C",
+          "reasoning": "早期終止，入組人數極少（n=9），參考價值有限"
+        },
+        {
+          "nct_id": "NCT01957423",
+          "title": "Immune Response and Nutritional Status in Crohn's Under Anti-TNF",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 41,
+          "relevance_grade": "C",
+          "reasoning": "以 anti-TNF 為主，AZA 非主要研究標的，相關性低"
+        },
+        {
+          "nct_id": "NCT03582969",
+          "title": "FMT in Newly Diagnosed Pediatric IBD",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "FMT 介入研究，AZA 僅為對照/背景治療，非主要評估藥物"
+        },
+        {
+          "nct_id": "NCT04882683",
+          "title": "Cord Blood Mononuclear Cells in Hormone-resistant IBD",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "細胞療法研究，狀態不明，AZA 相關性極低"
+        },
+        {
+          "nct_id": "NCT04196920",
+          "title": "MTX + Anti-TNF Combination in IBD",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 200,
+          "relevance_grade": "C",
+          "reasoning": "MTX 組合療法，AZA 未為主要介入，狀態不明"
+        },
+        {
+          "nct_id": "NCT03189888",
+          "title": "GMA Apheresis in AZA-intolerant/Resistant Moderate Ulcerative Colitis",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "C",
+          "reasoning": "研究 AZA 失敗後的替代療法，間接反映 AZA 在臨床的標準地位，但非 AZA 療效試驗"
+        },
+        {
+          "nct_id": "NCT03889808",
+          "title": "C. difficile Seroprevalence in IBD Patients",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 500,
+          "relevance_grade": "C",
+          "reasoning": "感染性流行病學研究，與 AZA 療效無直接關聯"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29293971",
+          "title": "Thiopurines in Inflammatory Bowel Disease: New Findings and Perspectives",
+          "year": "2018",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "全面回顧硫嘌呤類在 IBD 的新發現，涵蓋療效、安全性與個人化用藥"
+        },
+        {
+          "pmid": "22072847",
+          "title": "Optimizing 6-MP and Azathioprine Therapy in IBD Management",
+          "year": "2011",
+          "study_type": "Clinical Practice Review",
+          "tier": "1",
+          "note": "臨床用藥優化指引，直接相關"
+        },
+        {
+          "pmid": "19072367",
+          "title": "Azathioprine in IBD: Improved Molecular Insights and Clinical Implications",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "分子機轉與臨床意涵深度分析"
+        },
+        {
+          "pmid": "34913108",
+          "title": "Immunomodulatory Agents for IBD Patients (Safety Review)",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "免疫調節劑安全性回顧，AZA 為主要討論藥物之一"
+        },
+        {
+          "pmid": "37586320",
+          "title": "Commensal Bacteria Promote AZA Therapy Failure in IBD",
+          "year": "2023",
+          "study_type": "Mechanistic/Translational Study",
+          "tier": "2",
+          "note": "腸道菌群影響 AZA 療效的最新機轉研究"
+        },
+        {
+          "pmid": "36462311",
+          "title": "DNA Methylation of TPMT Gene and AZA Pharmacokinetics in Pediatric VEO-IBD",
+          "year": "2023",
+          "study_type": "Pharmacogenomics Study",
+          "tier": "2",
+          "note": "兒科 IBD 的 AZA 藥物基因組學研究"
+        },
+        {
+          "pmid": "16048561",
+          "title": "AZA and 6-MP Pharmacogenetics and Metabolite Monitoring in IBD",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "藥物基因組學奠基性回顧文獻"
+        },
+        {
+          "pmid": "10499471",
+          "title": "Azathioprine: Update on Clinical Efficacy and Safety in IBD",
+          "year": "1999",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "系統性療效與安全性更新，歷史參考價值高"
+        },
+        {
+          "pmid": "40126153",
+          "title": "Temporal Trends in Characteristics and Management of IBD",
+          "year": "2025",
+          "study_type": "Epidemiological Study",
+          "tier": "3",
+          "note": "IBD 管理趨勢分析，AZA 使用趨勢間接可見"
+        },
+        {
+          "pmid": "27688654",
+          "title": "Inflammatory Bowel Disease in India: Past, Present and Future",
+          "year": "2016",
+          "study_type": "Epidemiological Review",
+          "tier": "3",
+          "note": "亞洲人口背景資料，地域相關性較高但非核心療效文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "ulcerative colitis (disease)",
+      "txgnn_score": 0.9933,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "AZA 抑制嘌呤合成 → 抑制結腸黏膜固有層 T 淋巴球過度活化 → 減少 IL-2、TNF-α 等促炎因子 → 維持 UC 緩解。機轉上完全對應 UC 的 T 細胞介導黏膜炎症。",
+      "guardrails": [
+        "TPMT/NUDT15 基因型篩查",
+        "誘導期宜合用 mesalazine 或 corticosteroid",
+        "起效慢（3-6 個月），急性發作期不宜單獨使用",
+        "長期監測血球及肝功能"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00537316",
+          "title": "Infliximab Monotherapy or Combination with AZA vs AZA Monotherapy in UC",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "enrollment": 242,
+          "relevance_grade": "A",
+          "reasoning": "直接頭對頭比較 AZA 單藥與 infliximab 組合療法，雖終止但已有 242 人入組，具一定參考價值"
+        },
+        {
+          "nct_id": "NCT02425865",
+          "title": "Golimumab Intensive Treatment in UC (In-TARGET)",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 202,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 完成研究，AZA 作為背景治療或對照，可反映臨床真實世界使用情況"
+        },
+        {
+          "nct_id": "NCT01393405",
+          "title": "MTX Induction in UC",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 179,
+          "relevance_grade": "B",
+          "reasoning": "比較 MTX 與傳統免疫抑制（含 AZA 背景），可間接佐證 AZA 標準地位"
+        },
+        {
+          "nct_id": "NCT04624230",
+          "title": "Tofacitinib in Pediatric Moderate-Severe UC",
+          "phase": "PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 118,
+          "relevance_grade": "B",
+          "reasoning": "AZA 作為比較基準出現，兒科族群數據具地域相關性"
+        },
+        {
+          "nct_id": "NCT04882683",
+          "title": "Cord Blood Mononuclear Cells in Hormone-resistant UC",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "細胞療法研究，AZA 相關性低"
+        },
+        {
+          "nct_id": "NCT03189888",
+          "title": "GMA Apheresis in AZA-intolerant UC",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "C",
+          "reasoning": "研究 AZA 無效後的替代策略，間接確認 AZA 為標準療法，但非 AZA 療效試驗"
+        },
+        {
+          "nct_id": "NCT06126835",
+          "title": "Ozanimod Pregnancy Safety in UC",
+          "phase": "N/A",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 2828,
+          "relevance_grade": "C",
+          "reasoning": "Ozanimod 安全性研究，AZA 相關性低"
+        },
+        {
+          "nct_id": "NCT01852097",
+          "title": "Pilot RCT - Feasibility and Effectiveness in UC",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 240,
+          "relevance_grade": "C",
+          "reasoning": "狀態不明，試驗細節不清，相關性無法確認"
+        },
+        {
+          "nct_id": "NCT03582969",
+          "title": "FMT in Newly Diagnosed Pediatric IBD/UC",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "FMT 介入研究"
+        },
+        {
+          "nct_id": "NCT04196920",
+          "title": "MTX + Anti-TNF Combination vs Standard Care in UC",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 200,
+          "relevance_grade": "C",
+          "reasoning": "MTX 組合療法，AZA 非主要介入"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40013523",
+          "title": "Azathioprine and 6-MP for Maintenance of Remission in UC (Cochrane)",
+          "year": "2025",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "note": "最新 Cochrane 回顧，最高等級證據，直接確認 AZA 在 UC 維持治療的療效"
+        },
+        {
+          "pmid": "27192092",
+          "title": "AZA and 6-MP for Maintenance of Remission in UC (Cochrane)",
+          "year": "2016",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "note": "Cochrane 回顧，系統性高品質證據"
+        },
+        {
+          "pmid": "22972046",
+          "title": "AZA and 6-MP for Maintenance of Remission in UC (Cochrane)",
+          "year": "2012",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "note": "Cochrane 回顧，系統性高品質證據（同系列更新版）"
+        },
+        {
+          "pmid": "19392869",
+          "title": "Meta-analysis: Efficacy of AZA and 6-MP in UC",
+          "year": "2009",
+          "study_type": "Meta-analysis",
+          "tier": "1",
+          "note": "薈萃分析，量化 AZA 在 UC 的療效估計"
+        },
+        {
+          "pmid": "39586616",
+          "title": "Top-down Infliximab + AZA vs AZA Alone in Acute Severe UC",
+          "year": "2025",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "最新 RCT，比較頂部下行策略與 AZA 單藥，直接臨床試驗證據"
+        },
+        {
+          "pmid": "29589185",
+          "title": "Contemporary Management of Ulcerative Colitis",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "當代 UC 管理指引，AZA 為核心治療選項"
+        },
+        {
+          "pmid": "23735746",
+          "title": "Golimumab Induces Clinical Response in Moderate-Severe UC",
+          "year": "2014",
+          "study_type": "RCT",
+          "tier": "2",
+          "note": "AZA 為背景治療，間接反映臨床標準"
+        },
+        {
+          "pmid": "18019875",
+          "title": "Ulcerative Colitis: Diagnosis and Treatment",
+          "year": "2007",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "診斷治療指引，AZA 為維持治療標準藥物"
+        },
+        {
+          "pmid": "11079045",
+          "title": "Medical Therapies for UC and Crohn's Disease",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期臨床指引"
+        },
+        {
+          "pmid": "234530",
+          "title": "Inflammatory Disease of the Colon: UC and Crohn's Colitis",
+          "year": "1975",
+          "study_type": "Early Clinical Report",
+          "tier": "3",
+          "note": "歷史性文獻，反映 AZA 使用的早期背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "OA 以軟骨退化及機械性損傷為主要病理機轉，非以淋巴球介導的自體免疫炎症為核心。AZA 的嘌呤合成抑制機轉對 OA 的滑膜炎症可能有輕微抑制作用，但無法逆轉軟骨降解。機轉關聯極弱，且相較於 RA 等炎症性關節炎，AZA 用於 OA 的理論依據不足。",
+      "flag": "臨床試驗列表中的 4 項試驗均非直接測試 AZA 用於 OA，文獻亦多為 AZA 在免疫相關性關節病變（RA、SLE、腸病性關節炎）的間接提及",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01112215",
+          "title": "Mycophenolate vs Azathioprine (likely lupus nephritis/autoimmune condition)",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 240,
+          "relevance_grade": "C",
+          "reasoning": "標題提及 AZA 與 mycophenolate 比較，但適應症依題目判斷應為自體免疫疾病（非 OA），且 OA 非免疫抑制劑標準適應症，相關性極低"
+        },
+        {
+          "nct_id": "NCT06085079",
+          "title": "Ixekizumab in OA",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 20,
+          "relevance_grade": "C",
+          "reasoning": "研究 IL-17A 抑制劑 Ixekizumab 用於 OA，與 AZA 無關"
+        },
+        {
+          "nct_id": "NCT03975790",
+          "title": "Xeljanz (Tofacitinib) + MTX Outcomes Analysis",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 479,
+          "relevance_grade": "C",
+          "reasoning": "JAK 抑制劑 + MTX 研究，與 AZA 無關"
+        },
+        {
+          "nct_id": "NCT00551707",
+          "title": "CRTH2 Antagonist vs Placebo in OA",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 51,
+          "relevance_grade": "C",
+          "reasoning": "CRTH2 拮抗劑試驗，與 AZA 完全無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8493195",
+          "title": "Drug Treatment of Arthritis: Conventional and Less Conventional Methods",
+          "year": "1993",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "早期關節炎治療回顧，可能提及 AZA 用於炎症性關節炎而非 OA"
+        },
+        {
+          "pmid": "24231065",
+          "title": "ILD Induced by DMARDs and Biologics in RA",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "AZA 副作用（肺毒性）回顧，非 OA 療效文獻"
+        },
+        {
+          "pmid": "35818275",
+          "title": "Immunomodulatory and Toxic Potential of Fenbufen",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Fenbufen 為主要研究藥物，AZA 僅為比較參考"
+        },
+        {
+          "pmid": "36136270",
+          "title": "Immunomodulatory Agents Co-administered with Pegloticase",
+          "year": "2022",
+          "study_type": "Case Series/Community Practice",
+          "tier": "3",
+          "note": "痛風治療背景，與 OA 無直接關聯"
+        },
+        {
+          "pmid": "37222079",
+          "title": "Metastatic Xanthogranulomatous Pyelonephritis Managed with Immunosuppression",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "個案報告，與 OA 完全無關"
+        },
+        {
+          "pmid": "39077221",
+          "title": "ANCA-Associated Vasculitis Presenting with Weakness",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "血管炎個案，與 OA 無關"
+        },
+        {
+          "pmid": "16468045",
+          "title": "RA in Hereditary Haemochromatosis",
+          "year": "2006",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "RA 病例，非 OA"
+        },
+        {
+          "pmid": "15793677",
+          "title": "Lupus in Germany",
+          "year": "2005",
+          "study_type": "Epidemiological Study",
+          "tier": "3",
+          "note": "SLE 流行病學，與 OA 無關"
+        },
+        {
+          "pmid": "22236863",
+          "title": "Etanercept in Enteropathic Arthritis",
+          "year": "2012",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "腸病性關節炎個案，AZA 僅背景提及"
+        },
+        {
+          "pmid": "18071931",
+          "title": "CUT-type Femoral Neck Endoprosthesis Implantation Technique",
+          "year": "2007",
+          "study_type": "Technical Report",
+          "tier": "3",
+          "note": "外科技術文獻，與 AZA 藥物治療完全無關，疑為文獻匹配錯誤"
+        }
+      ]
+    },
+    {
+      "disease_name": "WHIM syndrome",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "WHIM 症候群由 CXCR4 功能增益突變引起，導致骨髓中性球積留（myelokathexis）及泛免疫缺陷。AZA 進一步抑制淋巴球增殖與骨髓功能，可能加重已有的免疫抑制狀態。機轉不吻合：CXCR4 訊號抑制（如 Plerixafor）才是針對性治療，而非廣效免疫抑制。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9999,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群為先天性發育缺陷（眼部 coloboma + 肢體節段性發育不良），由基因突變導致胚胎發育異常，屬結構性疾病。AZA 的免疫抑制機轉對先天結構缺陷無任何治療理論基礎。TxGNN 高分可能源於知識圖譜中罕見病節點的數據稀疏性偏差。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9999,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短指-並指症候群為骨骼發育先天性疾病（通常涉及 BMP/HOXD 基因突變），屬固定結構異常。AZA 的免疫抑制作用對此類發育性疾病無機轉相關性。高 TxGNN 評分可能反映稀有病節點的圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "OA 易感性指遺傳性風險狀態而非活動性疾病，AZA 對基因決定的 OA 風險無預防機轉。此預測與 osteoarthritis（L4）不同，易感性修飾需要完全不同的介入策略（如生活型態改變、關節保護），免疫抑制劑不適用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "granulomatous disease, chronic, autosomal recessive, 5",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性肉芽腫病（CGD）為 NADPH 氧化酶基因缺陷所致的原發性免疫缺陷，導致無法殺滅過氧化酶陽性菌。AZA 的免疫抑制作用會進一步削弱已有缺陷的免疫反應，存在加重感染的安全疑慮。雖然 CGD 患者有時會發展炎症性腸道病變而嘗試免疫抑制治療，但對此特定亞型（autosomal recessive type 5）無任何臨床數據。",
+      "safety_concern": "HIGH - 免疫缺陷病人使用 AZA 可能加重機會性感染風險",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "granulomatous disease with defect in neutrophil chemotaxis",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中性球趨化缺陷引起的肉芽腫性疾病屬原發性免疫缺陷，AZA 的廣效免疫抑制可能加劇已有的中性球功能缺陷，增加嚴重感染風險。機轉上反向不吻合，且無任何臨床支持數據。",
+      "safety_concern": "HIGH - 免疫缺陷病人禁忌使用免疫抑制劑",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肢端中段肢發育不良（Hunter-Thompson 型）由 CDMP1/GDF5 突變引起，為骨骼發育先天性疾病。AZA 對此類固定性骨骼結構異常無任何機轉相關性或治療理論依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_count": 2,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 1,
+    "L5_count": 7,
+    "S3_proceed": ["inflammatory bowel disease", "ulcerative colitis (disease)"],
+    "S1_safety_eval": ["osteoarthritis"],
+    "S0_hold": [
+      "WHIM syndrome",
+      "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "brachydactyly-syndactyly syndrome",
+      "osteoarthritis susceptibility",
+      "granulomatous disease, chronic, autosomal recessive, 5",
+      "granulomatous disease with defect in neutrophil chemotaxis",
+      "acromesomelic dysplasia, Hunter-Thompson type"
+    ],
+    "high_safety_concern": [
+      "granulomatous disease, chronic, autosomal recessive, 5",
+      "granulomatous disease with defect in neutrophil chemotaxis"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 強證據適應症（L1 / S3）
+
+| 適應症 | 核心根據 |
+|--------|---------|
+| **炎症性腸病 (IBD)** | 50+ 臨床試驗含多個 Phase 3，Cochrane 系列回顧，藥物基因組學完整（TPMT/NUDT15） |
+| **潰瘍性結腸炎 (UC)** | 5 篇 Tier-1 文獻（含 2025 Cochrane + 2025 RCT），多項 Phase 3-4 試驗，為全球標準 SOC |
+
+> ⚠️ **注意**：`market_status: 未上市` 疑為新加坡本地藥監資料缺口，Azathioprine 在 IBD/UC 已是全球公認 SOC，建議確認 HSA 登記狀態
+
+---
+
+### 🟡 需要安全性初評（L4 / S1）
+
+| 適應症 | 核心問題 |
+|--------|---------|
+| **骨關節炎 (OA)** | 4 項臨床試驗**均未直接測試 AZA 用於 OA**；12 篇文獻均為間接提及；OA 病理以退化為主，免疫抑制機轉關聯極弱 |
+
+---
+
+### 🔴 建議暫緩（L5 / S0）7 項
+
+- **先天性/發育性疾病** × 4（coloboma、brachydactyly、acromesomelic、OA susceptibility）：結構異常，無免疫抑制治療理論
+- **原發性免疫缺陷** × 2（CGD type 5、中性球趨化缺陷）：⚠️ **安全疑慮高**，AZA 可能加劇感染風險
+- **WHIM 症候群**：機轉不吻合，CXCR4 靶向藥才是正確方向
+
+---
+
+### TxGNN 評分反常現象
+
+多個 L5 適應症出現接近 1.0 的極高預測分數（coloboma、brachydactyly），這反映了稀有病知識圖譜節點的**數據稀疏性偏差**（sparse node artifact），應透過臨床證據層的過濾加以校正，而非直接採信評分排名。

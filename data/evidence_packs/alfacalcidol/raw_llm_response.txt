@@ -1,0 +1,445 @@
+以下是 **Alfacalcidol (DB01436)** 的藥物再利用證據分析：
+
+---
+
+## 藥物背景摘要
+
+Alfacalcidol（1α-羥基維生素 D₃）為活性維生素 D 類似物，在肝臟經 25-羥化酶轉換為 calcitriol（1,25(OH)₂D₃）。其核心機制為：促進腸道鈣磷吸收、抑制 PTH 分泌、調節骨礦化。台灣市場狀態為未上市，但在多國（日本、歐洲）已有正式適應症。
+
+---
+
+```json
+{
+  "drug": "Alfacalcidol",
+  "drugbank_id": "DB01436",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "原始適應症欄位為空白（data gap），但根據藥理機制，alfacalcidol 已在多國核准用於副甲狀腺機能低下症、腎性骨病、佝僂病等。TxGNN 分數高可能反映知識圖譜中礦物代謝路徑的鄰近性，而非真正的再利用新穎性。",
+  "indications": [
+    {
+      "disease_name": "familial isolated hypoparathyroidism due to impaired PTH secretion",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PTH 正常情況下刺激腎臟 1α-羥化酶生成 calcitriol；PTH 分泌障礙時，alfacalcidol 可直接繞過此步驟，提供活性維生素 D，補充低鈣血症。機轉關聯極強（alfacalcidol 已是副甲狀腺機能低下症之標準療法之一），但資料集中針對此特定遺傳亞型（PTH 分泌障礙型）無直接文獻或試驗。評為 L4 係因本資料集無直接文獻，而非否定臨床相關性。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無針對此特定基因亞型的 RCT 或病例系列",
+        "需確認此亞型對 alfacalcidol 劑量反應是否與一般副甲狀腺機能低下症相同",
+        "應搜尋 OMIM/罕見疾病資料庫補充文獻"
+      ]
+    },
+    {
+      "disease_name": "Dahlberg-Borer-Newcomer syndrome",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Dahlberg-Borer-Newcomer 症候群為極罕見骨/礦物代謝異常症候群，文獻資料中出現磷酸鹽代謝（FGF23、低磷血症）及 Fanconi 症候群相關主題，顯示可能涉及近端腎小管功能障礙與礦物代謝異常。Alfacalcidol 可補充因近端腎小管功能障礙導致的活性維生素 D 生成不足，並協助鈣磷平衡。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29545131",
+          "title": "Utilization of alfacalcidol in chronic kidney disease",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "探討 alfacalcidol 於 CKD 的應用，機制相似但疾病不同，為間接參考"
+        },
+        {
+          "pmid": "31485552",
+          "title": "FGF23, Hypophosphatemia, and Emerging Treatments",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "FGF23/低磷血症路徑與部分磷酸鹽代謝疾病相關，但未直接涉及此症候群或 alfacalcidol"
+        },
+        {
+          "pmid": "16279662",
+          "title": "[Hypoparathyroidism]",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "副甲狀腺機能低下症綜述，提供維生素 D 類似物背景知識"
+        },
+        {
+          "pmid": "38802119",
+          "title": "Repurposing SGLT2 inhibitors in Fanconi-Bickel syndrome",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "Fanconi-Bickel 症候群中 SGLT2 抑制劑再利用，alfacalcidol 僅為輔助用藥，與目標疾病關聯性低"
+        },
+        {
+          "pmid": "39168248",
+          "title": "Antiviral activity of vitamin D derivatives",
+          "year": "2024",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "探討維生素 D 衍生物抗病毒活性，與礦物代謝疾病無直接關聯"
+        },
+        {
+          "pmid": "6262039",
+          "title": "Pharmacology and therapeutic use of vitamin D and its analogues",
+          "year": "1981",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "詳述 alfacalcidol 藥理學基礎，提供機轉支持但無疾病特異性"
+        },
+        {
+          "pmid": "30333271",
+          "title": "Effect of Alfacalcidol on Inflammatory markers and T Cell Subsets in Elderly with Frailty Syndrome",
+          "year": "2018",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "C",
+          "reasoning": "Alfacalcidol 於衰弱症候群的 RCT，顯示抗炎特性，與此罕見症候群無直接關聯"
+        },
+        {
+          "pmid": "36412607",
+          "title": "Severe Hypophosphatemia as Initial Presentation of Renal Fanconi Syndrome",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "Fanconi 症候群低磷血症個案，提供礦物代謝異常背景，非直接針對目標疾病"
+        },
+        {
+          "pmid": "39436634",
+          "title": "Exploring material basis of Changma Xifeng tablet in Tourette syndrome",
+          "year": "2024",
+          "study_type": "Network Pharmacology",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "中藥網路藥理學分析，與 alfacalcidol 或目標疾病無直接關聯"
+        },
+        {
+          "pmid": "34431511",
+          "title": "Vitamin D supplementation for chronic liver diseases in adults",
+          "year": "2021",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "relevance_grade": "C",
+          "reasoning": "慢性肝病維生素 D 補充系統性回顧，與礦物代謝罕見病無直接關聯"
+        }
+      ],
+      "evidence_gaps": [
+        "此症候群極罕見，幾乎無疾病特異性文獻",
+        "需確認此症候群的具體病理生理機制（是否涉及低磷血症或近端小管功能障礙）",
+        "PMID 20 篇與目標疾病相關性均為 C 級，屬間接證據"
+      ]
+    },
+    {
+      "disease_name": "craniofacial conodysplasia",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "顱面錐形發育不全（craniofacial conodysplasia）為骨骼發育異常，其分子機制（FGFR 或 SOX 基因相關）與維生素 D 訊號路徑關聯性極低。TxGNN 高分可能來自知識圖譜中骨骼發育節點的間接鄰近，而非真正的生物學關聯。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何文獻或試驗支持",
+        "機轉連結薄弱：骨骼形態發育障礙非 alfacalcidol 作用靶點",
+        "建議先確認此疾病是否有礦物代謝異常的次發性問題，再評估是否適合進行研究"
+      ]
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Campailla Martinelli type",
+      "txgnn_score": 0.9953,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Campailla-Martinelli 型肢端中段骨骼發育不全症為 NPR2（natriuretic peptide receptor B）基因突變所致的嚴重骨骼發育疾病。此疾病的核心缺陷為 C 型利鈉肽訊號傳導異常，與 alfacalcidol 的維生素 D 受體（VDR）路徑機轉高度不同，無合理再利用依據。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何支持性文獻或試驗",
+        "NPR2/CNP 路徑與 VDR 路徑無已知直接交叉作用",
+        "此適應症僅由模型預測，缺乏生物合理性支撐"
+      ]
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎小管酸中毒（特別是 Fanconi 症候群/近端 RTA）常伴隨磷酸鹽流失、低鈣血症及骨軟化症。在近端 RTA 中，腎小管 1α-羥化酶活性可能受損，導致 calcitriol 生成不足。Alfacalcidol 繞過腎臟羥化步驟，直接提供活性維生素 D，改善礦物代謝異常及骨軟化症。多篇個案報告（含直接使用 alfacalcidol 者）支持此機轉。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6893175",
+          "title": "Biologic and therapeutic effects of 1α-hydroxycholecalciferol in different types of Fanconi syndrome",
+          "year": "1980",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "直接研究 1α-hydroxycholecalciferol（即 alfacalcidol）於 Fanconi 症候群（近端 RTA 相關）的療效，為本資料集最高相關性文獻"
+        },
+        {
+          "pmid": "11518137",
+          "title": "Rapid improvement of osteomalacia by treatment in Sjögren syndrome with RTA",
+          "year": "2001",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "Sjögren 症候群合併遠端 RTA 導致骨軟化症，維生素 D 類似物治療後快速改善，直接支持適應症"
+        },
+        {
+          "pmid": "22740247",
+          "title": "Successful treatment of osteomalacia caused by RTA associated with Sjögren syndrome",
+          "year": "2013",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "Sjögren 合併 RTA 骨軟化症成功治療個案，明確使用活性維生素 D 類似物"
+        },
+        {
+          "pmid": "28509074",
+          "title": "Osteomalacia secondary to RTA due to Sjögren syndrome: case report and review",
+          "year": "2012",
+          "study_type": "Case Report + Review",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "個案報告附文獻回顧，直接描述 alfacalcidol 在 RTA 骨軟化症中的角色"
+        },
+        {
+          "pmid": "33398781",
+          "title": "Osteomalacia caused by atypical RTA with vitamin D deficiency: a case report",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "非典型 RTA 合併維生素 D 缺乏所致骨軟化症個案，活性維生素 D 類似物治療"
+        },
+        {
+          "pmid": "36412607",
+          "title": "Severe Hypophosphatemia as Initial Presentation of Renal Fanconi Syndrome and Distal RTA",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "Fanconi 症候群合併遠端 RTA 的嚴重低磷血症，說明礦物代謝異常的臨床模式"
+        },
+        {
+          "pmid": "9134837",
+          "title": "Long-term follow-up of bone mineral density in adult idiopathic Fanconi syndrome",
+          "year": "1997",
+          "study_type": "Case Study",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "成人特發性 Fanconi 症候群骨密度長期追蹤，提供治療後骨骼改善的間接證據"
+        },
+        {
+          "pmid": "6709109",
+          "title": "25-hydroxylation of 1α-hydroxy vitamin D in primary biliary cirrhosis complicated with RTA",
+          "year": "1984",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "描述原發性膽汁性肝硬化合併 RTA 中，1α-羥基維生素 D 的代謝路徑，提供藥理學基礎"
+        }
+      ],
+      "evidence_gaps": [
+        "現有證據均為個案報告（Tier 3），缺乏隨機對照試驗",
+        "多數個案為 RTA 的次發性原因（Sjögren、Fanconi），原發性 RTA 的專屬數據較少",
+        "需要前瞻性研究評估 alfacalcidol 對不同類型 RTA 的最佳劑量與長期骨骼保護效果"
+      ]
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn_score": 0.9900,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假性 von Willebrand 病為血小板 GPIbα 對 vWF 親和力增強所致的出血性疾病，核心缺陷在血小板受體/vWF 互動層面。雖有文獻提及 VDR 於巨核細胞上有表現，但此訊號路徑與 GPIbα 功能的直接關聯尚未建立。TxGNN 高分可能來自血小板相關疾病節點的知識圖譜鄰近性，而非合理的生物學機制。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何文獻或試驗支持此適應症",
+        "出血性疾病非 alfacalcidol 的既有治療領域",
+        "建議排除此預測，不作進一步研究"
+      ]
+    },
+    {
+      "disease_name": "primary release disorder of platelets",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血小板初級釋放障礙涉及 δ-granule 或 α-granule 分泌缺陷。雖有初步研究顯示 1,25(OH)₂D₃ 可影響血小板活化，但此作用微弱且無臨床轉化證據。無支持 alfacalcidol 用於此適應症的文獻或試驗。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何文獻或試驗支持",
+        "血小板 granule 分泌機制與 VDR 路徑關聯性甚低",
+        "高 TxGNN 分數可能為模型雜訊，建議不納入研究優先項目"
+      ]
+    },
+    {
+      "disease_name": "parathyroid hyperplasia (disease)",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Alfacalcidol 透過 VDR 介導的負回饋機制抑制 PTH 基因轉錄，同時降低甲狀旁腺細胞增殖。在繼發性副甲狀腺增生（CKD 相關）中，alfacalcidol 為已建立的標準療法之一。對於原發性副甲狀腺增生（如 MEN 相關），其在手術前或輔助治療的角色有臨床依據但較少被研究。多篇文獻直接涉及 VDR 活化劑在副甲狀腺增生/次發性副甲亢中的應用。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17883283",
+          "title": "Vitamin D receptor activator selectivity in the treatment of secondary hyperparathyroidism",
+          "year": "2007",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "直接討論 VDR 活化劑（包含 alfacalcidol）對繼發性副甲亢的選擇性治療，高度相關"
+        },
+        {
+          "pmid": "18826852",
+          "title": "Vitamin D receptor ligand therapy in chronic kidney disease",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "CKD 中 VDR 配體療法綜述，alfacalcidol 為主角之一，涵蓋副甲狀腺增生抑制機制"
+        },
+        {
+          "pmid": "16898852",
+          "title": "Minimizing bone abnormalities in children with renal failure",
+          "year": "2006",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "腎衰竭兒童骨骼異常管理，包含副甲狀腺增生的維生素 D 治療策略"
+        },
+        {
+          "pmid": "10633466",
+          "title": "What is the optimal regimen for vitamin D?",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "維生素 D 最佳用藥方案討論，提供 alfacalcidol 用於 PTH 抑制的劑量依據"
+        },
+        {
+          "pmid": "38433618",
+          "title": "Clinical characteristics and outcomes of patients operated for primary hyperparathyroidism",
+          "year": "2024",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "原發性副甲亢手術後臨床結果，alfacalcidol 可能作為術後補充使用，但非再利用研究"
+        },
+        {
+          "pmid": "29047366",
+          "title": "The use of cinacalcet hinders the diagnosis of parathyroid carcinoma in a chronic dialysis patient",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "Cinacalcet 相關個案，alfacalcidol 為對照藥物，為間接比較參考"
+        }
+      ],
+      "evidence_gaps": [
+        "現有文獻多針對 CKD 繼發性副甲狀腺增生，原發性副甲狀腺增生的 alfacalcidol 專屬研究少",
+        "缺乏 RCT 評估 alfacalcidol vs. cinacalcet 在副甲狀腺增生的療效",
+        "需區分原發性與繼發性副甲狀腺增生，分別評估再利用可行性"
+      ]
+    },
+    {
+      "disease_name": "familial isolated hypoparathyroidism due to agenesis of parathyroid gland",
+      "txgnn_score": 0.9851,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "副甲狀腺腺體發育不全導致完全性 PTH 缺乏，生理後果與 PTH 分泌障礙型相同：低鈣血症、高磷血症、低 calcitriol。Alfacalcidol 的作用機制完全適用：繞過 PTH 依賴性 1α-羥化步驟，直接提供活性維生素 D。此類患者通常需終身 alfacalcidol 或 calcitriol 治療。機轉關聯強，但本資料集缺乏此特定亞型的直接文獻。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "本資料集無此亞型的直接文獻，但臨床實踐中 alfacalcidol 已廣泛用於副甲狀腺機能低下症",
+        "需搜尋 OMIM、Orphanet 及罕見疾病臨床試驗資料庫",
+        "評估是否有基因特異性（如 GNA11、CASR、SOX3 突變）影響 alfacalcidol 劑量需求"
+      ]
+    },
+    {
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn_score": 0.9689,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glanzmann 血小板無力症為 GPIIb/IIIa（αIIbβ3）整合素缺乏所致的遺傳性出血疾病。其核心缺陷為血小板聚集功能完全缺失，治療目標為替代療法（血小板輸注、rFVIIa）或基因治療。Alfacalcidol 的 VDR 路徑與 GPIIb/IIIa 表現或功能無已知直接關聯。TxGNN 分數在本組中最低（0.969），進一步支持此為低優先項目。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何文獻或試驗支持",
+        "疾病機制（整合素缺陷）與 alfacalcidol 作用機制（礦物代謝/免疫調節）高度不匹配",
+        "建議排除此預測"
+      ]
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 3,
+      "L5": 5
+    },
+    "decision_distribution": {
+      "S0_Hold": 5,
+      "S1_Research_Question": 3,
+      "S2_Research_Question": 2,
+      "S3_Proceed": 0
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "renal tubular acidosis",
+        "rationale": "L3 證據（多篇個案報告直接使用 alfacalcidol），機轉合理，臨床需求明確"
+      },
+      {
+        "rank": 2,
+        "disease": "parathyroid hyperplasia (disease)",
+        "rationale": "L3 證據（CKD 繼發性副甲亢有多篇綜述支持），alfacalcidol 已有相關適應症，邊界擴展可行"
+      },
+      {
+        "rank": 3,
+        "disease": "familial isolated hypoparathyroidism due to impaired PTH secretion",
+        "rationale": "L4 但機轉極強，alfacalcidol 為副甲狀腺機能低下症的標準療法，罕見亞型研究有意義"
+      }
+    ],
+    "key_concerns": [
+      "10 個適應症中有 5 個（血液/骨骼形態發育疾病）缺乏生物合理性，高 TxGNN 分數可能反映知識圖譜中礦物代謝節點的非特異性鄰近",
+      "Alfacalcidol 在台灣為未上市藥品，臨床試驗啟動需先確認法規路徑",
+      "副甲狀腺/腎小管相關適應症（前 3 名）具有真正的再利用研究價值，其餘建議 Hold"
+    ]
+  }
+}
+```
+
+---
+
+## 決策摘要表
+
+| # | 疾病 | TxGNN | 證據等級 | 決策階段 | 建議 |
+|---|------|-------|---------|---------|------|
+| 5 | **Renal tubular acidosis** | 0.993 | **L3** | **S2** | Research Question ✅ |
+| 8 | **Parathyroid hyperplasia** | 0.987 | **L3** | **S2** | Research Question ✅ |
+| 1 | Familial hypoparathyroidism (PTH secretion) | 0.996 | L4 | S1 | Research Question 🔬 |
+| 9 | Familial hypoparathyroidism (agenesis) | 0.985 | L4 | S1 | Research Question 🔬 |
+| 2 | Dahlberg-Borer-Newcomer syndrome | 0.996 | L4 | S1 | Research Question 🔬 |
+| 3 | Craniofacial conodysplasia | 0.996 | L5 | S0 | Hold ⛔ |
+| 4 | Acromesomelic dysplasia | 0.995 | L5 | S0 | Hold ⛔ |
+| 6 | Pseudo-von Willebrand disease | 0.990 | L5 | S0 | Hold ⛔ |
+| 7 | Primary platelet release disorder | 0.989 | L5 | S0 | Hold ⛔ |
+| 10 | Glanzmann thrombasthenia | 0.969 | L5 | S0 | Hold ⛔ |
+
+> **⚠️ 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用於患者。

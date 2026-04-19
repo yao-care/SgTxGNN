@@ -1,0 +1,1834 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01306-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Insulin aspart",
+    "drugbank_id": "DB01306",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn": {
+        "score": 0.9995297193527222,
+        "rank": 1108
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01278160",
+            "title": "An Extension Trial of BIAsp-3756, Explorative Comparison of Biphasic Insulin Aspart 30 Twice Daily With Two Different Initial Dosage Split Regimens on the Effect of Glycaemic Control in Chinese Type 2 Diabetes Patients",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 179,
+            "start_date": "2011-01",
+            "completion_date": "2011-09",
+            "brief_summary": "This trial is conducted in Asia. The aim of the trial is to compare the effect on glycaemic control of biphasic insulin aspart 30 twice daily with two different dosage split regimens for Chinese subjects with type 2 diabetes who did not achieve the treatment target of a glycosylated haemoglobin A1c (HbA1c) below 7% in trial BIASP-3756 (NCT01123980).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 延伸試驗，評估 BIAsp 30（含 Insulin aspart 成分）每日兩次於 T1DM 的療效，n=179，已完成，上市後真實世界證據。"
+            }
+          },
+          {
+            "nct_id": "NCT05221359",
+            "title": "An Open Label, Monocentric, Pilot Study Evaluating Safety of ExOlin® in Patients With Poorly Controlled Type 1 Diabetes With High Glucose Fluctuations, Prone to Severe Hypoglycemia",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 8,
+            "start_date": "2022-05-05",
+            "completion_date": "2027-04",
+            "brief_summary": "First in Human, pilot investigation An Open Label, Monocentric, Pilot Study Evaluating Safety of ExOlin® in Patients with Poorly Controlled Type 1 Diabetes with High Glucose Fluctuations, Prone to Severe Hypoglycemia",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "單中心 pilot，評估 ExOlin® 裝置安全性，n=8 且仍招募中，樣本極小，尚無結果。"
+            }
+          },
+          {
+            "nct_id": "NCT00645827",
+            "title": "Use of an Insulin Infusion Conversion Equation (IICE) to Improve Inpatient Glycemic Control: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2008-01",
+            "completion_date": "2009-03",
+            "brief_summary": "Insulin infusions are commonly used in hospitalized diabetics to control blood sugar, and they are effective. However, insulin infusions require the use of limited resources. Insulin infusions are therefore changed to insulin shots as a patient recovers. Once an insulin infusion is stopped and shots are started, blood sugar control is harder to maintain. This is, in part, because physicians have different ideas on how to dose insulin shots in hospitalized patients. A math equation has been devel",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "住院血糖控制 RCT，使用 IICE 轉換方程，涉及 Insulin aspart 院內應用，n=78，應用情境不同但有參考性。"
+            }
+          },
+          {
+            "nct_id": "NCT01487382",
+            "title": "Special Survey for Paediatric Subjects",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 241,
+            "start_date": "2002-04",
+            "completion_date": "2009-10",
+            "brief_summary": "This study is conducted in Japan. The aim of this study is to collect safety and efficacy data when using NovoRapid® (insulin aspart) in children with type 1 and type 2 diabetes under normal clinical practice conditions.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "特殊調查（兒科），n=241，日本上市後兒科真實世界安全性數據，族群外推性有限制。"
+            }
+          },
+          {
+            "nct_id": "NCT00467649",
+            "title": "A Phase 4, Randomized, Open Label, Parallel Group, Multicenter Study to Characterize Regimens of Basal Insulin Intensified With Either Symlin® or Rapid Acting Insulin in Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 112,
+            "start_date": "2007-05",
+            "completion_date": "2008-04",
+            "brief_summary": "This will be a randomized, open label, parallel group, multicenter study. There will be two phases in the study. Phase 1 (Baseline to Week 24) will compare the efficacy and safety of regimens of basal insulin intensified with either Symlin or rapid acting insulin in patients with type 2 diabetes who have either been on a prior regimen of insulin for less than 6 months and were taking less than 50 U total of insulin per day OR are candidates for the initiation of insulin therapy. The purpose of P",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 隨機開放標籤平行組研究，特徵化基礎-追加方案中 Insulin aspart 的使用，n=112，已完成。"
+            }
+          },
+          {
+            "nct_id": "NCT00095446",
+            "title": "An Open-Label, Multi Center, Clinical Trial: External Continuous Subcutaneous Infusion of Insulin Using Insulin Aspart (NovoLog®) in Subjects With Type 1 and Insulin Requiring Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 513,
+            "start_date": "2004-07",
+            "completion_date": "2005-03",
+            "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to assess control of blood sugar, safety, and patient acceptance of insulin aspart compared to insulin lispro, both in insulin pumps, in standard clinical practice.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，外部 CSII 持續皮下輸注，n=513，評估 Insulin aspart 於幫浦治療中的安全性，大樣本已完成試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT00773279",
+            "title": "A Multi-centre, Randomised, Open-label, Cross-over Study to Explore Effectiveness, Safety, and Preference of a New Disposable Pen PDS290 Versus FlexPen® in Subjects With Type 1 or Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 242,
+            "start_date": "2008-09",
+            "completion_date": "2009-06",
+            "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this clinical trial is to assess and compare the effect on blood sugar control of insulin detemir and insulin aspart or insulin detemir alone administered by a insulin pen PDS290 (FlexTouch®) versus a Novo Nordisk marketed insulin pen (FlexPen®) in subjects with type 1 or type 2 diabetes mellitus. Furthermore, the subject's preference of the devices will be investigated by the use of questionnaires.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 隨機交叉設計，多中心，直接評估 Insulin aspart 在 T1DM 中的有效性、安全性與患者偏好，n=242，已完成，高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT00574405",
+            "title": "Preservation of Pancreatic Beta Cell Function Through Insulin Pump Therapy",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2005-04",
+            "completion_date": "2011-03",
+            "brief_summary": "Type I diabetes (T1DM) is the second most common chronic illness effecting children in the USA. Worldwide, Type I diabetes is increasing in incidence, and its underlying etiology remains elusive. Nevertheless, recent data supports the notion that early and intensive management of Type I diabetes can 1) decrease long-term complications of diabetes; and 2) may significantly improve beta cell function and insulin secretion over ensuing years. To this end, we propose using insulin pump therapy to pr",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "探索性研究，評估胰島素幫浦療法對胰島 β 細胞功能保存的影響，n=24，機轉層面具參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT01755416",
+            "title": "Phase 1 Study of Medtronic Closed Loop Device With ePID Algorithm and Enlite Sensors on Adjuvant Therapy With Insulin and Liraglutide to Minimize Post-prandial Hyperglycemia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2013-01",
+            "completion_date": "2015-01",
+            "brief_summary": "Hypothesis: In type 1 diabetes mellitus, in the setting of a closed loop glucose control system: adjunctive therapy with Liraglutide will afford better post-prandial glycemic excursions than insulin mono-therapy.\n\nSpecific Aim: To determine if post-prandial glucose excursions are lowered with the addition of Liraglutide compared to insulin mono-therapy.\n\nStudy Design: This is a randomized open labeled crossover design trial comparing adjuvant Liraglutide and insulin Vs. insulin mono-therapy usin",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，探索性閉迴路裝置研究，Insulin aspart 作為 ePID 演算法的輸入，n=18，已完成，技術可行性數據。"
+            }
+          },
+          {
+            "nct_id": "NCT02626936",
+            "title": "A Single-blind, Randomized, Two-way, Cross-over Study to Examine the Safety of Overestimation of a Meal Insulin Bolus in the Context of Dual-hormone Closed-loop Operation Combined With a Simplified Qualitative Meal-size Estimation in Adults With Type 1 Diabetes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2016-01",
+            "completion_date": "2016-06",
+            "brief_summary": "In previous studies, investigators have studied if a pre-meal insulin bolus based on estimated carbohydrate meal size would alleviate the burden of carbohydrate counting without a significant degradation in postprandial glucose control. With this strategy, the patient would only have to evaluate the size of the meal in terms of carbohydrate (snack, regular, large or very large) It is however important to establish safety of this simplified meal bolus approach. The safety of overestimating a meal",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 單盲交叉設計，評估餐前劑量高估的安全性，n=10，小樣本但已完成，安全性資料有參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT01240785",
+            "title": "Metformin Versus Insulin in Gestational Diabetes. A Randomized Controlled Single Center Trial.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 221,
+            "start_date": "2006-06",
+            "completion_date": "2012-12",
+            "brief_summary": "Gestational diabetes is traditionally treated with insulin. Metformin is a peroral drug used worldwide in the treatment of type 2 diabetes and also in a few studies on patients with gestational diabetes. The investigators aim is to compare insulin and metformin in the treatment of gestational diabetes. The investigators hypothesis is that there is no difference between insulin and metformin treated mothers in the main outcome criteria (birth weight, neonatal complications).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00071448",
+            "title": "Basal/Bolus Therapy With Insulin Aspart (NovoLog®) Versus Regular Human Insulin (Novolin® R) or Insulin Lispro (Humalog®) in Combination With NPH: An Open-Label, Randomized, Parallel Group, Multicenter Study in Children and Adolescents With Type 1 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 378,
+            "start_date": "2002-06",
+            "completion_date": "2004-06",
+            "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to to determine whether insulin aspart can be used effectively and safely in paediatric patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01526941",
+            "title": "A Double-blind, Randomised, Two-Period Crossover Trial Comparing the Single Dose and Steady State Pharmacodynamics of Biphasic Insulin Aspart 30 and Biphasic Insulin Aspart 70 in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2001-05",
+            "completion_date": "2001-07",
+            "brief_summary": "This trial is conducted in Europe. The aim of this trial is to compare the single dose and steady state pharmacodynamics of biphasic insulin aspart 30 and biphasic insulin aspart 70 in subjects with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01174303",
+            "title": "A Trial Investigating the Pharmacodynamic Properties of NN5401 in Young Adults and Geriatric Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2010-08",
+            "completion_date": "2010-11",
+            "brief_summary": "This trial is conducted in Europe. The aim of this trial is to investigate the exposure of NN5401 (insulin degludec/insulin aspart) in young adults and elderly subjects with type 1 diabetes mellitus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04124302",
+            "title": "The Impact of Two Different Insulin Dose Calculation on Postprandial Glycemia After Mixed Meal in Children With Type 1 Diabetes Mellitus- Randomized Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 76,
+            "start_date": "2019-10-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The aim of the study is to compare the impact of two different insulin dose calculation on postprandial glycemia after mixed meal in children with type 1 diabetes mellitus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07076199",
+            "title": "A 26-week Study Comparing the Efficacy and Safety of Once-weekly Insulin Icodec and Once-daily Insulin Glargine U100, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 877,
+            "start_date": "2025-08-11",
+            "completion_date": "2026-12-28",
+            "brief_summary": "This study compares insulin icodec, an insulin taken once a week to insulin glargine, an insulin taken once a day. The study medicine will be investigated in participants with type 1 diabetes. The study will look at how well insulin icodec taken weekly controls blood sugar compared to insulin glargine taken daily. The study will last for about 8.5 months.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02518022",
+            "title": "A Monocentric, Controlled, Randomized, Open-label Cross-over Study to Explore the Possible Insulin Treatment of Beverages Containing Alcohol and Carbohydrates in Adolescents and Young Adults With Type 1 Diabetes",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2015-09",
+            "completion_date": "2016-06",
+            "brief_summary": "The purpose of this study is to show that during and after drinking beer a treatment strategy by insulin bolus and reduction of basal rate reduces the rate of hyperglycaemia without an increase of hypoglycaemic events compared to a treatment strategy according to the standard recommendation without insulin Bolus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02131246",
+            "title": "A Randomised Trial Investigating the Pharmacokinetic and Pharmacodynamic Properties of Faster-acting Insulin Aspart in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2014-05",
+            "completion_date": "2014-07",
+            "brief_summary": "This trial is conducted in Europe. The aim of the trial is to investigate the pharmacokinetic (the exposure of the trial drug in the body) and pharmacodynamic (the effect of the investigated drug on the body) properties of faster-acting insulin aspart in subjects with Type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00474045",
+            "title": "A Randomised, Parallel-group, Open-labelled, Multinational Trial Comparing the Efficacy and Safety of Insulin Detemir (Levemir®) Versus Human Insulin (NPH Insulin), Used in Combination With Insulin Aspart as Bolus Insulin, in the Treatment of Pregnant Women With Type 1 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 470,
+            "start_date": "2007-05",
+            "completion_date": "2010-08",
+            "brief_summary": "This trial is conducted in Africa, Europe, North and South America and Oceania. The aim of this trial is to compare the effect and safety on blood glucose control in pregnant women with type 1 diabetes of a modern insulin analogue (insulin detemir) and human insulin (NPH insulin) given as long-acting insulin in combination with a short-acting insulin (insulin aspart).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00748137",
+            "title": "Bolus Insulin Card Calculator Randomised Controlled Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2008-03",
+            "completion_date": "2011-01",
+            "brief_summary": "In pediatric patients with type 1 diabetes using subcutaneous injections; a randomised controlled trial comparing the effects of fixed carbohydrate exchanges and insulin doses to the use of variable size meals and insulin doses determined with a bolus insulin calculation card.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00287651",
+            "title": "Effects of Pulsatile IV Insulin Delivery on Diabetic Retinopathy",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 150,
+            "start_date": "2005-11",
+            "completion_date": "2009-08",
+            "brief_summary": "Diabetic Retinopathy is the leading cause of blindness in the world. Previous studies have documented beneficial effects of physiologic administration of pulsatile insulin on a variety of diabetic complications such as nephropathy, hypertension, glycemic control, etc. Similar pathogenetic mechanisms have been postulated for diabetic retinal disease. This study examines the effect of pulsatile insulin on patients with varying stages of diabetic retinal disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02648217",
+            "title": "A Trial Comparing Efficacy and Safety of Insulin Degludec/Insulin Aspart Twice Daily and Biphasic Insulin Aspart Twice Daily in Subjects With Type 2 Diabetes Mellitus Before, During and After Ramadan",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 263,
+            "start_date": "2016-01-04",
+            "completion_date": "2016-09-05",
+            "brief_summary": "This trial is conducted in Africa and Asia. The aim of this trial is to compare efficacy and safety of insulin degludec/insulin aspart twice daily and biphasic insulin aspart twice daily in subjects with type 2 diabetes mellitus before, during and after Ramadan.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00626080",
+            "title": "Effects of INsulin dEtemiR and Neutral protaminE Hagedorn (NPH) Insulin on BRain glucOse Metabolism: a Study in Persons With Type 1 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2009-01",
+            "completion_date": "2011-12",
+            "brief_summary": "The aim of this study is to test the hypothesis that subcutaneous administration of insulin detemir, as compared to insulin NPH, leads to a more pronounced effect on cerebral glucose metabolism and/or cerebral blood flow in brain regions associated with appetite regulation, to account for the reported difference in weight.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03977727",
+            "title": "An Exploratory, Single-center, Randomized, Open Label, Active-control, Cross-over Trial Comparing the Efficacy and Safety of Continuous Subcutaneous Insulin Infusion of Faster-acting Insulin Aspart (Fiasp®) Compared to NovoLog® Used in the Medtronic 670G Closed Loop System in Adults With Type 1 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2019-06-11",
+            "completion_date": "2020-04-20",
+            "brief_summary": "This is an exploratory, single-center, randomized, open label, active-controlled, complete cross-over trial comparing safety and efficacy of Fiasp® versus NovoLog® when used in the Medtronic MiniMed 670G system in subjects with T1DM.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03993366",
+            "title": "A Preliminary Pilot Study to Assess Insulin-plus-Pramlintide Closed-loop Delivery System in Pump Treated Patients With Type 1 Diabetes Mellitus",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 8,
+            "start_date": "2019-03-01",
+            "completion_date": "2019-08-06",
+            "brief_summary": "The aim of this pilot study is to generate preliminary data of (i) Fiasp-plus-Pramlintide closed-loop system with a simple meal announcement, compared to (ii) Fiasp-alone closed-loop system with full carbohydrate counting, in preparation for an outpatient study over two weeks",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00850161",
+            "title": "Intranasal Insulin and Its Effect on Postprandial Glucose Metabolism in Comparison to Subcutaneous Insulin",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2009-07",
+            "completion_date": "2010-09",
+            "brief_summary": "The purpose of this study is to determine if glucose peaks higher and earlier after a meal when a patient is given intranasal insulin instead of conventional insulin treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01620424",
+            "title": "A Randomised, Double-blind, Single-centre, Two-Period Crossover Trial Investigating the Pharmacokinetics and Pharmacodynamics of NN-X14Mix30 and NN-X14Mix50 in Type 2 Diabetic Patients",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2001-02",
+            "completion_date": "2001-04",
+            "brief_summary": "This trial is conducted in Japan. The aim of this trial is to investigate the pharmacokinetics and pharmacodynamics of biphasic insulin aspart 30 (NN-X14Mix30) and biphasic insulin aspart 50 (NN-X14Mix5050) in subjects with type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02814123",
+            "title": "A Randomized, Three-way, Crossover Study to Assess the Efficacy of Fast-acting Insulin-plus-pramlintide Closed-loop Co-administration, Regular Insulin-plus-pramlintide Closed-loop Co-administration, and Fast-acting Insulin-alone Closed-loop Infusion in Regulating Glucose Levels Over a 24-hour Period in Adults With Type 1 Diabetes in Inpatient Settings.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2017-01-13",
+            "completion_date": "2018-07-08",
+            "brief_summary": "The closed-loop delivery system is composed of an insulin pump, a continuous glucose sensor and a dosing algorithm that calculates the insulin dose to infuse based on sensor readings. Pramlintide is a drug and an analog of amylin, a hormone that is co-secreted with insulin in healthy individuals, and is deficient in people with type 1 diabetes. Co-injection of pramlintide with insulin at meal times improves glucose control in type 1 diabetes. Literature data suggests that regular insulin may bet",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03212950",
+            "title": "Day and Night Closed-Loop Glycemic Control With Faster-Acting Insulin Aspart in Young Adults With Type 1 Diabetes Using DreaMed Glucositter - The Fast PHYSI-DREAM Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2017-07-10",
+            "completion_date": "2017-11-01",
+            "brief_summary": "A randomized, double-blinded (for insulin type), single centre, crossover design young adult study, on 20 subjects with type 1 diabetes (T1D), aged 18 to 25 (inclusive) years, measuring time in glucose values within 3.9 - 10 mmol/l (70-180 mg/dl) under supervision of DreaMed Glucositter using either faster-acting insulin Aspart (Fiasp®, European Medicines Agency number EMEA/H/C/004046) or normal acting insulin Aspart.\n\nStudy duration will be about 3 weeks per subject, 5 month overall.\n\nThe objec",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01269047",
+            "title": "Exenatide (Byetta) Vs Pramlintide (Symlin): Role in Post-prandial Hyperglycemia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 37,
+            "start_date": "2009-08",
+            "completion_date": "2016-12",
+            "brief_summary": "The main purpose of the study is to determine the effects of 16 weeks of adjunctive pramlintide or exenatide use on glycemic control in Type 1 Diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06809621",
+            "title": "A Study Investigating the Pharmacokinetic and Pharmacodynamic Properties and Safety and Tolerability of NNC0471-0119 H When Administered as Bolus in a Continuous Subcutaneous Insulin Infusion Regimen in Participants With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 43,
+            "start_date": "2025-01-29",
+            "completion_date": "2025-07-28",
+            "brief_summary": "The study is looking at the effect and safety of a new fast-acting insulin (NNC0471 0119) to people with type 1 diabetes when given by an insulin pump. The study tests how fast insulin NNC0471-0119 enters your bloodstream, how long it stays there and how much it lowers blood sugar. The new insulin NNC0471-0119 will be compared to insulin aspart. The participants will get each study medicine administered at separate clinic visits. The study will last for about 1-3 months.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07068295",
+            "title": "A Study Investigating the Pharmacokinetic and Pharmacodynamic Properties and Safety and Tolerability of NNC0471-0119 H When Administered as Bolus in a Continuous Subcutaneous Insulin Infusion Regimen in Participants With Type 2 Diabetes",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 65,
+            "start_date": "2025-07-11",
+            "completion_date": "2026-01-12",
+            "brief_summary": "This study looks at the effect and safety of a new fast-acting insulin (NNC0471-0119) in people with type 2 diabetes when given by an insulin pump. The study tests how fast insulin NNC0471-0119 enters bloodstream, how long it stays there and how much it lowers blood sugar. The new insulin NNC0471-0119 will be compared to insulin aspart. The study will last for about 13-67 days (or a half to 2 months).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03987191",
+            "title": "Successful Transition From Insulin Pump to Multiple Daily Injections Using Insulin Degludec in Adults With Type 1 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2020-01-10",
+            "completion_date": "2020-10-08",
+            "brief_summary": "This randomized controlled, two arms, investigator initiated, intervention study is aimed to examine an investigational approach in contrast to the clinical standard of 1:1 dose basal insulin conversion in an attempt to lower the incidence and/or duration of hyperglycemia after transition from insulin pump to multiple daily injections in adults with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05360537",
+            "title": "Effects of Degludec/Liraglutide on Time in Range, Markers of Inflammation and Endothelial Dysfunction Compared to Scheme Insulin Basal Bolus, in a Population of Diabetic Inpatients and Possible Correlation With Intra-hospital Mortality Rates",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2021-04-01",
+            "completion_date": "2022-04-20",
+            "brief_summary": "The study aims to evaluate the effects of Insulin Degludec/Liraglutide on glycemic variability assessed by continuous glycemic monitoring with the function time in range, serum markers of inflammation, markers of endothelial dysfunction and a possible correlation with intra and extra-hospital mortality rates in a group of hospitalized diabetic patients compared to a control group of in-patient diabetic in treatment on insulin Basal-bolus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01009580",
+            "title": "A 26-week, Randomised, Open-labelled, Two-arm, Parallel-group, Treat-to-target Trial Comparing Efficacy and Safety of Soluble Insulin Analogue Combination (SIAC) Twice Daily (BID) With Biphasic Insulin Aspart (BIAsp) 30 BID, With or Without Metformin, With or Without DPP-4 Inhibitor, With or Without Pioglitazone in Subjects With Type 2 Diabetes in Inadequate Glycaemic Control on Once or Twice Daily Premixed or Self-mixed Insulin Regimen With or Without OADs (BOOST™: Intensify Premix 1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 447,
+            "start_date": "2009-11-05",
+            "completion_date": "2010-08-23",
+            "brief_summary": "This trial is conducted in Asia, Europe and Oceania. The aim of this clinical trial is to compare NN5401 (insulin degludec/insulin aspart) with biphasic insulin aspart 30 in subjects with type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00095082",
+            "title": "Efficacy and Safety Comparison of Insulin Detemir Plus Insulin Aspart Versus Insulin Glargine Plus Insulin Aspart in Type 1 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 447,
+            "start_date": "2004-09",
+            "completion_date": "2005-12",
+            "brief_summary": "This trial is conducted in Europe and the United States of America (USA). The purpose of this study is to test whether insulin detemir is a safe and at least as effective alternative to insulin glargine for the control of blood glucose in basal/bolus therapy in patients with type I diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00121966",
+            "title": "South Danish Diabetes Study: A Prospective Randomised Multi-Centre Study for the Evaluation of the Optimal Pharmacological Antidiabetic Treatment of Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "2003-01",
+            "completion_date": "2007-07",
+            "brief_summary": "The primary objective of this study is:\n\n* To investigate whether insulin aspart with meals is better than a standard treatment with insulin NPH at bedtime, evaluated by HbA1c.\n\nThe secondary objectives of this study are:\n\n* To study if a combination treatment with metformin and/or rosiglitazone and insulin aspart with meals is better than a standard treatment with insulin NPH combined with one or more of the above oral antidiabetic drugs. According to the hypothesis, special focus will be given",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01467323",
+            "title": "An Open-labelled, Randomised, Parallel Group, Multicentre, Multinational Efficacy and Safety Comparison of Biphasic Insulin Aspart 30 and Biphasic Human Insulin 30/70 as Meal Related Insulin in a Twice Daily Regimen in Type 1 and Type 2 Diabetic Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 303,
+            "start_date": "1998-04",
+            "completion_date": "1998-09",
+            "brief_summary": "This trial is conducted in Europe. The aim of this trial is to evaluate the efficacy and safety of biphasic insulin aspart 30 in subjects with type 1 or type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00771693",
+            "title": "Effects of Insulin Treatment on Postprandial Platelet Activation in Patients With NIDDM: a Placebo-controlled Dose-response Study With Insulin Aspart (Novorapid®)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2007-05",
+            "completion_date": "2011-07",
+            "brief_summary": "The postprandial phase in diabetic patients is characterized by a rapid increase in blood glucose levels, increase in platelet aggregation, LDL oxidation and over production of thrombin.\n\nThe aim of the study is to determine whether meal induced platelet activation is related to post-prandial hyperglycemia, and can be attenuated by good postprandial glucose control with rapidly acting insulin in patients with T2DM.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02612844",
+            "title": "A Trial Investigating the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Subcutaneous NNC0143-0406 A 0.6 mmol/L in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2015-11",
+            "completion_date": "2016-06",
+            "brief_summary": "This trial is conducted in Europe. The aim of the trial is to investigate the Safety, Tolerability,Pharmacokinetics (the exposure of the trial drug in the body) and Pharmacodynamics (the effect of the investigated drug on the body) of subcutaneous NNC0143-0406 A 0.6 mmol/L in Subjects with Type 1 Diabetes",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03220919",
+            "title": "Efﬁcacy and Safety of Weight-Based Insulin Titration (WEB-IT) Regimen Compared With Glucose Level-based Regimen in Hospitalized Patients With Type 2 Diabetes: A Randomized Controlled Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 500,
+            "start_date": "2017-06-01",
+            "completion_date": "2019-02",
+            "brief_summary": "The investigators propose to use a weight-based regimen consisting of basal-bolus insulin and preprandial rapid-acting insulin and to test its efficacy and safety in controlling blood glucose in hospitalized patients with type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01464099",
+            "title": "A Single Center, Randomized, Double-blind, Balanced Two-period Cross-over Trial to Test for Bioequivalence Between a Marketed NovoLog® Formulation Containing 100 U/mL Versus a New NovoLog® Formulation Containing 200 U/mL in a Combined Regimen of a Continuous Subcutaneous Infusion and a Meal-time Bolus in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2008-06",
+            "completion_date": "2008-11",
+            "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to evaluate the clinical performance of two formulations of insulin aspart (NovoLog®) in subjects with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00228878",
+            "title": "Quality of Life With and Without Pulsatile IV Insulin Therapy in Diabetes.",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 152,
+            "start_date": "2003-03",
+            "completion_date": "2009-08",
+            "brief_summary": "The purpose of this study is to determine if restoring normal metabolic function in patients with either type I or type II diabetes can improve the impact of the consequences of diabetic complications on the overall quality of life of diabetic patients. Patients are treated once a week with pulsatile intravenous insulin therapy mimicking normal insulin secretion. A 44 item questionnaire is completed prior to the start of the treatment and quarterly thereafter with detailed analysis performed to ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02276859",
+            "title": "The Optimal Type of Bolus Following a High-protein Meal in Type 1 Diabetic Children Treated With Insulin Pumps",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2014-10",
+            "completion_date": "2015-09",
+            "brief_summary": "Patients receive a standardized high-protein test meal at breakfast time. Insulin is given as bolus (normal or dual-wave (normal plus square) and basal rate using an insulin pump. The 3h post-meal glucose excursions will be recorded by self-blood glucose measurements (SMBG) (every 1 hour) and continuous glucose monitoring system (CGMS). The intervention is taking part under in-patient clinical conditions.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03112538",
+            "title": "Improving Glycaemic Control in Malaysian Patients With Type 2 Diabetes Mellitus With Insulin Pump Therapy",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 118,
+            "start_date": "2016-01",
+            "completion_date": "2018-12",
+            "brief_summary": "The purpose of this study is to evaluate the comparative efficacy of insulin pump therapy versus multiple daily injections in insulin-taking type 2 diabetes mellitus who are sub-optimally controlled with premixed insulin regimen. This research is necessary because many patients with type 2 diabetes mellitus do not meet their glucose targets.\n\nIn advanced Type 2 diabetes mellitus, many patients develop worsening diabetes control and unable to reach the glucose targets despite intensive insulin re",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03987308",
+            "title": "Comparing the Efficacy and Safety Between Short-term Continuous Subcutaneous Beinaglutide Injection and Continuous Subcutaneous Insulin Infusion (CSII) for Treatment of Patients With Newly Diagnosed Type 2 Diabetes: a Multicenter, Randomized Open Trial Study With Parallel Controls",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 115,
+            "start_date": "2019-07-02",
+            "completion_date": "2025-12",
+            "brief_summary": "The efficacy, safety and post-treatment disease control will be compared between groups of continuous subcutaneous Beinaglutide infusion and continuous subcutaneous insulin infusion (CSII) in adult patients with newly diagnosed type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00539396",
+            "title": "A Phase 2 Randomized, Open Label, Multi-Center Study of the Use of Prandial Inhaled Technosphere Insulin in Combination With Basal Subcutaneous Lantus as Basal Insulin Versus Prandial Subcutaneous NovoRapid in Combination With Basal Subcutaneous Lantus Insulin in Subjects With Type 1 Diabetes Mellitus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 110,
+            "start_date": "2005-03",
+            "completion_date": "2005-12",
+            "brief_summary": "A 3 month, randomized, open label, multi-center study of Technosphere/Insulin compared to insulin aspart in subjects with type 1 diabetes mellitus receiving insulin glargine",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04660305",
+            "title": "Phase 1 Single Dose, Randomised, Double-blind, Two-way Crossover, Glucose Clamp Study Investigating the Pharmacodynamics, Pharmacokinetics and Safety of Arecor Rapid-acting Concentrated Insulin Aspart (AT278) in Comparison to Insulin Aspart NovoRapid® in Participants With Type 1 Diabetes Mellitus (T1DM).",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2020-12-02",
+            "completion_date": "2021-06-11",
+            "brief_summary": "A phase 1, randomised, single-centre, double-blind, single-dose, two period balanced cross over study in a glucose clamp setting. The study compares the pharmacodynamic, pharmacokinetic and safety characteristics of AT278 and NovoRapid® in male participants with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01039532",
+            "title": "Comparison of Thrice Daily Biphasic Human Insulin Versus Basal Detemir and Bolus Aspart in Patients With Poorly Controlled Type 2 Diabetes Mellitus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2008-07",
+            "completion_date": "2010-01",
+            "brief_summary": "It is a proven fact that Basal Bolus insulin regimen is the near- physiological regimen \\& Thrice daily Biphasic Insulin Aspart is a comparable alternative for glycemic control in type 2 diabetes mellitus patients. In this study the investigators evaluated whether Biphasic Human Insulin can be used in a thrice daily regimen in place of BIAsp.\n\nAs the regimen is less expensive and one prick less than the basal-bolus regimen, it can be a good alternative for a diabetics in India.\n\nThis is a 12 wee",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01271517",
+            "title": "Effects of New Longacting Insulin Analogs on Metabolic Control, Endogenous Insulin Production, GH/IGF-I Axis and Quality of Life - Comparison of NPH, Glargine Och Detemir Insulin From the Debut of Type 1 Diabetes Mellitus in Adolescents",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 120,
+            "start_date": "2005-09",
+            "completion_date": "",
+            "brief_summary": "Hypothesis: Basal insulin analogs with continuous 24-hour delivery of insulin improve glycemic control during the first year of treatment of children/adolescents with type 1 diabetes mellitus (T1DM)by preserving endogenous insulin production and a close to normal balance of the GH-IGF-axis.\n\nThis a randomized, open-label, parallel-group trial of 120 children, 7 - 17 years of age, newly diagnosed with T1DM. The investigators will investigate whether the use of long-acting basal insulin analogs La",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37863084",
+            "title": "Once-weekly insulin icodec versus once-daily insulin degludec as part of a basal-bolus regimen in individuals with type 1 diabetes (ONWARDS 6): a phase 3a, randomised, open-label, treat-to-target trial.",
+            "authors": [
+              "Russell-Jones David",
+              "Babazono Tetsuya",
+              "Cailleteau Roman",
+              "Engberg Susanne",
+              "Irace Concetta"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2023",
+            "abstract": "ONWARDS 6 compared the efficacy and safety of once-weekly subcutaneous insulin icodec (icodec) and once-daily insulin degludec (degludec) in adults with type 1 diabetes.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37290466",
+            "title": "Management of type 1 diabetes in pregnancy: update on lifestyle, pharmacological treatment, and novel technologies for achieving glycaemic targets.",
+            "authors": [
+              "Benhalima Katrien",
+              "Beunen Kaat",
+              "Siegelaar Sarah E",
+              "Painter Rebecca",
+              "Murphy Helen R"
+            ],
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2023",
+            "abstract": "Glucose concentrations within target, appropriate gestational weight gain, adequate lifestyle, and, if necessary, antihypertensive treatment and low-dose aspirin reduces the risk of pre-eclampsia, preterm delivery, and other adverse pregnancy and neonatal outcomes in pregnancies complicated by type 1 diabetes. Despite the increasing use of diabetes technology (ie, continuous glucose monitoring and insulin pumps), the target of more than 70% time in range in pregnancy (TIRp 3·5-7·8 mmol/L) is oft",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36623517",
+            "title": "Insulin degludec versus insulin detemir, both in combination with insulin aspart, in the treatment of pregnant women with type 1 diabetes (EXPECT): an open‑label, multinational, randomised, controlled, non-inferiority trial.",
+            "authors": [
+              "Mathiesen Elisabeth R",
+              "Alibegovic Amra Ciric",
+              "Corcoy Rosa",
+              "Dunne Fidelma",
+              "Feig Denice S"
+            ],
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2023",
+            "abstract": "Insulin degludec (degludec) is a second-generation basal insulin with an improved pharmacokinetic-pharmacodynamic profile compared with first-generation basal insulins, but there are few data regarding its use during pregnancy. In this non-inferiority trial, we aimed to compare the efficacy and safety of degludec with insulin detemir (detemir), both in combination with insulin aspart (aspart), in pregnant women with type 1 diabetes.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15871555",
+            "title": "Spotlight on insulin aspart in type 1 and 2 diabetes mellitus.",
+            "authors": [
+              "Chapman Therese M",
+              "Noble Stuart",
+              "Goa Karen L"
+            ],
+            "journal": "Treatments in endocrinology",
+            "year": "2003",
+            "abstract": "Insulin aspart (NovoLog, NovoRapid), a rapid-acting human insulin analog, provides more rapid absorption than regular human insulin after subcutaneous administration. In most randomized, nonblind clinical trials in patients with type 1 diabetes mellitus, insulin aspart administered immediately before meals resulted in significantly lower mean glycosylated hemoglobin (HbA1c) levels than regular human insulin (usually administered 30 minutes before a meal). Insulin aspart also significantly improv",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12215068",
+            "title": "Insulin aspart: a review of its use in the management of type 1 and 2 diabetes mellitus.",
+            "authors": [
+              "Chapman Therese M",
+              "Noble Stuart",
+              "Goa Karen L"
+            ],
+            "journal": "Drugs",
+            "year": "2002",
+            "abstract": "Insulin aspart, a rapid-acting human insulin analogue, provides more rapid absorption than regular human insulin after subcutaneous administration. In most randomised, nonblind clinical trials in patients with type 1 diabetes mellitus, insulin aspart administered immediately before meals resulted in significantly lower mean glycosylated haemoglobin A(1c ) (HbA(1c)) levels than regular human insulin (usually administered 30 minutes before a meal). Insulin aspart also significantly improved postpr",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21333580",
+            "title": "Efficacy and safety comparison of rapid-acting insulin aspart and regular human insulin in the treatment of type 1 and type 2 diabetes mellitus: a systematic review.",
+            "authors": [
+              "Rys P",
+              "Pankiewicz O",
+              "Łach K",
+              "Kwaskowski A",
+              "Skrzekowska-Baran I"
+            ],
+            "journal": "Diabetes & metabolism",
+            "year": "2011",
+            "abstract": "Insulin aspart (IAsp) is one of the three rapid-acting insulin analogues (RAAs) registered for the treatment of diabetes. However, there is an ongoing debate concerning the efficacy and safety of RAAs. For this reason, a systematic review-based study was performed to compare clinical outcomes of treatment with IAsp and regular human insulin (RHI) as well as biphasic insulin aspart and premixed human insulin in type 1 and type 2 diabetes (T1DM, T2DM) patients.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25143741",
+            "title": "Insulin degludec/insulin aspart combination for the treatment of type 1 and type 2 diabetes.",
+            "authors": [
+              "Dardano Angela",
+              "Bianchi Cristina",
+              "Del Prato Stefano",
+              "Miccoli Roberto"
+            ],
+            "journal": "Vascular health and risk management",
+            "year": "2014",
+            "abstract": "Glycemic control remains the major therapeutic objective to prevent or delay the onset and progression of complications related to diabetes mellitus. Insulin therapy represents a cornerstone in the treatment of diabetes and has been used widely for achieving glycemic goals. Nevertheless, a large portion of the population with diabetes does not meet the internationally agreed glycemic targets. Moreover, insulin treatment, especially if intensive, may be associated with emergency room visits and h",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30789066",
+            "title": "Premix insulins in type 1 diabetes: the coming of degludec/aspart.",
+            "authors": [
+              "Rendell Marc"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2019",
+            "abstract": "Although premixed fixed ratio NPH insulin products are commonly used in type 2 diabetes patients, the advent of Glargine insulin which cannot be formulated together with a rapid-acting insulin (basal-bolus) has largely eliminated premixed insulin from use in type 1 diabetes. Degludec insulin can be formulated together with Aspart insulin in a 70/30 fixed ratio product. We review the potential use of Degludec-Aspart in type 1 diabetes. Areas covered: A historical search of the development and use",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18710361",
+            "title": "Biphasic insulin aspart 30 for the treatment of type 1 diabetes mellitus.",
+            "authors": [
+              "Velásquez-Mieyer Pedro A",
+              "Neira Claudia P"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2008",
+            "abstract": "Type 1 diabetes mellitus is associated with acute and long-term complications, to which pre- and postprandial hyperglycemia are independent contributors. The objective of this review was to evaluate evidence-based information using biphasic insulin aspart 30 in the treatment of type 1 diabetes mellitus.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38379002",
+            "title": "Pharmacokinetic and pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes.",
+            "authors": [
+              "Hövelmann Ulrike",
+              "Engberg Susanne",
+              "Heise Tim",
+              "Kristensen Niels Rode",
+              "Nørgreen Lea"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2024",
+            "abstract": "To investigate the pharmacokinetic/pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes (T1D).",
+            "classification": {
+              "study_type": "PK/PD Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35933650",
+            "title": "A comparison of the rapid-acting insulin analogue glulisine with lispro and aspart for the pump treatment of patients with type 1 diabetes.",
+            "authors": [
+              "Bramlage Peter",
+              "Tittel Sascha R",
+              "Müther Silvia",
+              "Reinhart-Steininger Birgit",
+              "Haberland Holger"
+            ],
+            "journal": "Acta diabetologica",
+            "year": "2022",
+            "abstract": "(1) To describe the population of patients with type 1 diabetes (T1DM) using the rapid-acting insulin analogue glulisine versus lispro and aspart during continuous subcutaneous insulin infusion (CSII); (2) to describe insulin relative effectiveness based on hemoglobin A1c (HbA1c), fasting blood glucose (FBG) and dose; (3) to determine rates of hyperglycemia, hypoglycemia, and diabetic ketoacidosis (DKA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40129237",
+            "title": "Faster-acting insulin aspart versus insulin aspart for adults with type 1 diabetes treated with non-automated insulin pump and continuous glucose monitoring-A double-blind randomized controlled crossover trial.",
+            "authors": [
+              "Ranjan Ajenthen G",
+              "Schmidt Signe",
+              "Nørgaard Kirsten"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2025",
+            "abstract": "To evaluate the efficacy and safety of faster-acting insulin aspart (faster aspart) compared with insulin aspart in adults with type 1 diabetes (T1D) using a non-automated insulin pump and continuous glucose monitoring (CGM).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29978361",
+            "title": "Faster Insulin Aspart: A New Bolus Option for Diabetes Mellitus.",
+            "authors": [
+              "Davis Abigayle",
+              "Kuriakose Jolly",
+              "Clements Jennifer N"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2019",
+            "abstract": "Since the approval of bolus insulin, it has been used frequently in clinical practice for the management of type 1 and 2 diabetes mellitus for postprandial control. Another new product is faster insulin aspart (Fiasp, Novo Nordisk), a fast-acting insulin with 100 units/mL. Several studies have been conducted evaluating the pharmacokinetics and pharmacodynamics of faster insulin aspart, compared with insulin aspart. This new bolus insulin provides greater glucose-lowering effect at 20 min, follow",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40211481",
+            "title": "An open-label, multiple ascending dose trial of orally administered insulin Tregopil in patients with type 1 diabetes mellitus to evaluate its pharmacokinetics, pharmacodynamics, safety and tolerability.",
+            "authors": [
+              "Latres Esther",
+              "Plum-Moerschel Leona",
+              "Murugesan Sundara Moorthi Nainar",
+              "Lou Olivia",
+              "Panda Jayanti"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2025",
+            "abstract": "This trial evaluated the safety, tolerability, pharmacokinetics (PK) and pharmacodynamics (PD) of oral insulin Tregopil (Part 1; results discussed in this paper) and the post-prandial glucose control with different meal types in comparison with insulin aspart (Part 2) in patients with type 1 diabetes mellitus (T1DM).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39115159",
+            "title": "A comparison of the safety and effectiveness of insulin aspart with other bolus insulins in women with pre-existing Type 1 diabetes during pregnancy: A post hoc analysis of a prospective cohort study.",
+            "authors": [
+              "Mathiesen Elisabeth R",
+              "Alibegovic Amra Ciric",
+              "Anil Gayathri",
+              "Dunne Fidelma",
+              "Halasa Tariq"
+            ],
+            "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+            "year": "2024",
+            "abstract": "The safety and efficacy of insulin analogue insulin aspart (IAsp) have been demonstrated in a randomised clinical trial in pregnant women with Type 1 diabetes (T1D), and IAsp is widely used during pregnancy. The aim of this study was to assess glycaemic control and safety of IAsp versus other bolus insulins in Type 1 diabetic pregnancy in a real-world setting.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18454569",
+            "title": "Insulin analog preparations and their use in children and adolescents with type 1 diabetes mellitus.",
+            "authors": [
+              "Miles Harriet L",
+              "Acerini Carlo L"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2008",
+            "abstract": "Standard or 'traditional' human insulin preparations such as regular soluble insulin and neutral protamine Hagedorn (NPH) insulin have shortcomings in terms of their pharmacokinetic and pharmacodynamic properties that limit their clinical efficacy. Structurally modified insulin molecules or insulin 'analogs' have been developed with the aim of delivering insulin replacement therapy in a more physiological manner. In the last 10 years, five insulin analog preparations have become commercially ava",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31902063",
+            "title": "Insulin Therapy in Adults with Type 1 Diabetes Mellitus: a Narrative Review.",
+            "authors": [
+              "Janež Andrej",
+              "Guja Cristian",
+              "Mitrakou Asimina",
+              "Lalic Nebojsa",
+              "Tankova Tsvetalina"
+            ],
+            "journal": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
+            "year": "2020",
+            "abstract": "Here, we review insulin management options and strategies in nonpregnant adult patients with type 1 diabetes mellitus (T1DM). Most patients with T1DM should follow a regimen of multiple daily injections of basal/bolus insulin, but those not meeting individual glycemic targets or those with frequent or severe hypoglycemia or pronounced dawn phenomenon should consider continuous subcutaneous insulin infusion. The latter treatment modality could also be an alternative based on patient preferences a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37804858",
+            "title": "Faster-acting insulin aspart versus insulin aspart in the treatment of type 1 or type 2 diabetes during pregnancy and post-delivery (CopenFast): an open-label, single-centre, randomised controlled trial.",
+            "authors": [
+              "Nørgaard Sidse K",
+              "Søholm Julie C",
+              "Mathiesen Elisabeth R",
+              "Nørgaard Kirsten",
+              "Clausen Tine D"
+            ],
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2023",
+            "abstract": "Faster-acting insulin aspart (faster aspart) is considered safe for use during pregnancy and breastfeeding but has not been evaluated in this population. We aimed to evaluate the effect of faster aspart versus insulin aspart on fetal growth, in women with type 1 or type 2 diabetes during pregnancy and post-delivery.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25941657",
+            "title": "Initiating insulin therapy in children and adolescents with type 1 diabetes mellitus.",
+            "authors": [
+              "Wangnoo Subhash Kumar"
+            ],
+            "journal": "Indian journal of endocrinology and metabolism",
+            "year": "2015",
+            "abstract": "The primary clinical goals to be achieved with insulin initiation are elimination of ketosis and hyperglycemia with prevention of chronic complications. Insulin therapy is the mainstay in management of type 1 diabetes, which should be aimed at achieving good glycemic control, with achievement of hemoglobin A1c (HbA1c) <7.5%, pre-meal self-monitored blood glucose (SMBG) of 90-130 mg/dL, bed time SMBG of 100-140 mg/dL, mean blood glucose level of 120-160 mg/dL and no ketonuria. Two classes of insu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36633505",
+            "title": "A co-formulation of pramlintide and insulin A21G (ADO09) improves postprandial glucose and short-term control of mean glucose, time in range, and body weight versus insulin aspart in adults with type 1 diabetes.",
+            "authors": [
+              "Andersen Grit",
+              "Eloy Rosy",
+              "Famulla Susanne",
+              "Heise Tim",
+              "Meiffren Grégory"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2023",
+            "abstract": "Pramlintide improves postprandial glucose but requires additional injections. We investigated the pharmacokinetics/pharmacodynamics, efficacy and safety of ADO09, pramlintide/insulin A21G co-formulation, in type 1 diabetes (T1D).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Insulin aspart 為速效胰島素類似物，以 B28 Pro→Asp 胺基酸替換減少自聚合傾向，皮下注射後 10-20 分鐘起效，60 分鐘達峰，模擬生理性餐後胰島素分泌。T1DM 患者胰島 β 細胞完全破壞，胰島素補充為必要治療，Insulin aspart 可用於 CSII（胰島素幫浦）及 MDI（多次注射）方案，直接補充缺失的內源性胰島素功能。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.9992490410804749,
+        "rank": 1575
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 高分可能源自知識圖譜中「自體免疫疾病」節點的間接連結：T1DM（autoimmune）與 autoimmune oophoritis 均為自體免疫病，共享 HLA-DR 易感性，且可共同發生於 APS-1/APS-2（多腺體自體免疫症候群）。然而，Insulin aspart 的作用機轉（替代胰島素功能）與卵巢自體免疫發炎（靶向卵巢組織的自體抗體）無直接關聯，模型可能混淆了「共病關聯」與「治療關聯」。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.995872437953949,
+        "rank": 5729
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Opsismodysplasia 為 INPPL1 基因（編碼 SHIP2，磷酸肌醇 5-磷酸酶）突變所致的罕見骨骼發育不良。SHIP2 參與 PI3K/AKT 下游胰島素訊號傳遞，理論上 Insulin 可經 IGF-1R 影響骨骼生長板軟骨細胞，但此為極度推測性機轉。KG 模型可能透過「Insulin → IRS-1 → PI3K → SHIP2」路徑產生高分，屬方法論假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9957383871078492,
+        "rank": 5838
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Thiamine-responsive megaloblastic anemia（TRMA，SLC19A2 突變）三聯症包含糖尿病、巨幼紅血球貧血與感音性耳聾。TRMA 相關糖尿病機轉為 thiamine 轉運缺陷導致胰島 β 細胞氧化壓力，早期胰島素治療為 TRMA 糖尿病的臨床實踐。TxGNN 高分可能來自 TRMA 中的糖尿病表現型與 T1DM 節點重疊。Insulin aspart 在 TRMA 中的應用屬於症狀性胰島素替代，非疾病修飾治療，且 thiamine 補充為優先介入。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "permanent neonatal diabetes mellitus",
+      "txgnn": {
+        "score": 0.9954610466957092,
+        "rank": 6099
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28527303",
+            "title": "Insulin therapy in neonatal diabetes mellitus: a review of the literature.",
+            "authors": [
+              "Rabbone Ivana",
+              "Barbetti Fabrizio",
+              "Gentilella Raffaella",
+              "Mossetto Gilberto",
+              "Bonfanti Riccardo"
+            ],
+            "journal": "Diabetes research and clinical practice",
+            "year": "2017",
+            "abstract": "Neonatal diabetes mellitus (NDM) is a rare disorder, and guidance is limited regarding its optimal management. We reviewed insulin usage in NDM, with a focus on continuous subcutaneous insulin infusion (CSII).",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Permanent neonatal diabetes mellitus（PNDM）最常由 KCNJ11 或 ABCC8 突變導致 ATP 敏感性鉀通道功能增益，β 細胞無法回應葡萄糖刺激分泌胰島素。雖然 KCNJ11/ABCC8 PNDM 的一線治療已轉向高劑量磺醯脲素（glibenclamide），但 KATP 無反應者（如 INS 基因突變 PNDM）仍需胰島素替代。Insulin aspart 作為速效類似物理論上可模擬生理性餐後胰島素，但新生兒的劑量準確性、血糖波動管理和 CSII 裝置適用性是主要挑戰。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9951251149177552,
+        "rank": 6378
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Focal stiff limb syndrome 為 stiff person spectrum disorders 的局灶性表現，與 GAD65（glutamic acid decarboxylase）自體抗體高度相關。同一自體抗體（anti-GAD65）在 T1DM 患者中亦常見（>70%），這可能是 KG 建立兩病之間連結的原因。然而，Insulin aspart 針對胰島素受體訊號，無抑制 GAD65 自體抗體、調節 GABA 能系統或緩解痙攣的機轉，KG 連結屬共享自體抗原之間接關聯而非治療關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9951251149177552,
+        "rank": 6379
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Classic stiff person syndrome（SPS）核心機轉為 anti-GAD65 抗體介導的脊髓及腦幹 GABA 能抑制迴路損傷，導致持續性軀幹與近端肌肉僵硬。T1DM 與 SPS 共享 GAD65 自體免疫背景（HLA-DR3/DR4），約 5% T1DM 患者併發 SPS。TxGNN 評分來自 KG 中的共病節點路徑，但 Insulin aspart 無法修飾 GABA 能神經元功能或抑制 anti-GAD65 自體免疫，治療相關性不成立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.99441659450531,
+        "rank": 6998
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30572448",
+            "title": "Insulin autoimmune syndrome: Three case reports.",
+            "authors": [
+              "Chen Fangyuan",
+              "Yang Jianming",
+              "Liu Yanqun",
+              "Wang Wen",
+              "Zhu Li"
+            ],
+            "journal": "Medicine",
+            "year": "2018",
+            "abstract": "Insulin autoimmune syndrome (IAS) is a rare endocrine disease characterized by repeated fasting hypoglycemia or episodes of hypoglycemia late after meals, elevated serum insulin, and positivity for insulin autoantibody (IAA) or insulin receptor antibody (IRA). We summarize the clinical manifestations and treatment experiences of 3 patients with IAS.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12150359",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "authors": [
+              "Campbell R Keith",
+              "White John R"
+            ],
+            "journal": "Journal of the American Pharmaceutical Association (Washington, D.C. : 1996)",
+            "year": "2002",
+            "abstract": "To review the increasingly common use of insulin therapy in patients with type 2 diabetes and the practical aspects of initiating insulin therapy in these patients.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pancreatic agenesis（PTF1A、GATA6、PDX1 等基因突變）導致胰臟完全或部分缺失，患者既無內源性胰島素分泌，亦缺乏外分泌胰酶。胰島素替代為必要治療（類同 T1DM 全胰切除後管理）。Insulin aspart 理論上可作為速效胰島素替代，但文獻來源（PMID 30572448 為胰島素自體免疫症候群案例報告；PMID 12150359 為 T2DM 胰島素療法通論）與胰臟發育不全無直接關聯，證據品質有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9935370087623596,
+        "rank": 7793
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向因果警示：Insulin aspart（及其他胰島素製劑）重複注射於同一部位本身即為 drug-induced localized lipodystrophy 的已知病因（注射部位脂肪增生或脂肪萎縮）。TxGNN KG 路徑中「胰島素 → 注射部位副作用 → 脂肪代謝異常」的連結可能被模型錯誤詮釋為治療關係，而非致病關係。Insulin aspart 不治療此症，而可能加劇之。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.9931967258453368,
+        "rank": 8079
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Centrifugal lipodystrophy（AKA lipodystrophia centrifugalis abdominalis infantilis）為罕見兒科脂肪萎縮症，病因不明，可能與皮膚炎症或免疫異常有關。與 Insulin aspart 無已知機轉關聯。KG 評分可能源自「lipodystrophy 節點」與「insulin-associated lipodystrophy」的共享類別連結，屬非特異性圖譜雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "permanent neonatal diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "permanent neonatal diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "permanent neonatal diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin aspart",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

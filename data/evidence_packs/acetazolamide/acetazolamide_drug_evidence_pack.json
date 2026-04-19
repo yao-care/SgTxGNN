@@ -1,0 +1,1062 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00819-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Acetazolamide",
+    "drugbank_id": "DB00819",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "exercise-induced malignant hyperthermia",
+      "txgnn": {
+        "score": 0.9995079040527344,
+        "rank": 1132
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性高熱核心機轉為 RYR1/CACNA1S 突變導致 SR Ca²⁺ 異常大量釋放與高代謝狀態。CA 抑制對此路徑無已知干預效果，公認治療為 dantrolene。歷史上有小規模研究探索 acetazolamide 於週期性麻痺（非惡性高熱），不應混淆。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hypertrophic cardiomyopathy",
+      "txgnn": {
+        "score": 0.9993178844451904,
+        "rank": 1473
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38806171",
+            "title": "2024 update in heart failure.",
+            "authors": [
+              "Beghini Alberto",
+              "Sammartino Antonio Maria",
+              "Papp Zoltán",
+              "von Haehling Stephan",
+              "Biegus Jan"
+            ],
+            "journal": "ESC heart failure",
+            "year": "2025",
+            "abstract": "In the last years, major progress has occurred in heart failure (HF) management. The 2023 ESC focused update of the 2021 HF guidelines introduced new key recommendations based on the results of the last years of science. First, two drugs, sodium-glucose co-transporter-2 (SGLT2) inhibitors and finerenone, a novel nonsteroidal, selective mineralocorticoid receptor antagonist (MRA), are recommended for the prevention of HF in patients with diabetic chronic kidney disease (CKD). Second, SGLT2 inhibi",
+            "classification": {
+              "study_type": "Review/Update",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37169875",
+            "title": "New pharmacological agents and novel cardiovascular pharmacotherapy strategies in 2022.",
+            "authors": [
+              "Tamargo Juan",
+              "Agewall Stefan",
+              "Borghi Claudio",
+              "Ceconi Claudio",
+              "Cerbai Elisabetta"
+            ],
+            "journal": "European heart journal. Cardiovascular pharmacotherapy",
+            "year": "2023",
+            "abstract": "Cardiovascular diseases (CVD) remain the leading cause of death worldwide and pharmacotherapy of most of them is suboptimal. Thus, there is a clear unmet clinical need to develop new pharmacological strategies with greater efficacy and better safety profiles. In this review, we summarize the most relevant advances in cardiovascular pharmacology in 2022 including the approval of first-in-class drugs that open new avenues for the treatment of obstructive hypertrophic cardiomyopathy (mavacamten), t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30279861",
+            "title": "Treatment of hypochloremia with acetazolamide in an advanced heart failure patient and importance of monitoring urinary electrolytes.",
+            "authors": [
+              "Kataoka Hajime"
+            ],
+            "journal": "Journal of cardiology cases",
+            "year": "2018",
+            "abstract": "Chloride was recently recognized to play an important role in the pathophysiology of heart failure (HF). Chloride manipulation, including the use of acetazolamide, may be a requisite therapeutic target in HF treatment. An 87-year-old male patient with advanced HF and hypertrophic cardiomyopathy was admitted to the hospital due to hypochloremia (94 mEq/L) and hyponatremia (134 mEq/L) under diuretic treatment with azosemide, spironolactone, and tolvaptan. On admission, HF-related signs of overhydr",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CA2 在心肌細胞中調節 intracellular pH 與 Ca²⁺ 動態，理論上 CA 抑制可減少 Ca²⁺ 超載誘發的肌纖維過度收縮。然而 HCM 核心機轉為肌節蛋白突變（MYH7/MYBPC3），與 CA 活性無直接關係。現有文獻均為心衰竭通論，非 HCM 特定研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital myopathy with excess of thin filaments",
+      "txgnn": {
+        "score": 0.9990170001983644,
+        "rank": 1963
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Thin filament excess myopathy（NEB/ACTA1/TPM 突變）涉及肌節 thin filament 比例失衡，與 CA 抑制無直接機轉關聯。Acetazolamide 對某些先天性肌肉病（如 Andersen-Tawil 症候群）有效係透過穩定肌膜電位，機轉差異顯著。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hypertrophic cardiomyopathy due to intensive athletic training",
+      "txgnn": {
+        "score": 0.9988977909088136,
+        "rank": 2178
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "運動誘發之生理性心肌肥厚為機械應力（mTOR/MAPK）訊號適應，非病理性 CA 失調所致。Acetazolamide 對生理性肥厚無已知調節機轉，TxGNN 分數可能反映與一般 HCM 的節點鄰近性而非真實機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "distal myopathy, Tateyama type",
+      "txgnn": {
+        "score": 0.9988365769386292,
+        "rank": 2269
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Tateyama 型遠端肌肉病變為 GNE 基因突變（UDP-GlcNAc 2-epimerase/ManNAc kinase），導致唾液酸合成缺陷與肌膜糖蛋白異常。與 CA 抑制毫無已知機轉交集，屬 TxGNN 知識圖譜拓撲鄰近效應產生的雜訊預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "cirrhotic cardiomyopathy",
+      "txgnn": {
+        "score": 0.9988351464271544,
+        "rank": 2271
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝硬化性心肌病常合併代謝性鹼中毒與體液滯留，CA 抑制理論上可雙重獲益（利尿 + 糾正鹼中毒）。然而肝硬化患者腎前性氮血症風險高，且對利尿劑反應不可預測。目前無任何臨床試驗或文獻直接探討，僅屬機轉推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "cardiomyopathy",
+      "txgnn": {
+        "score": 0.9983161687850952,
+        "rank": 3011
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06166654",
+            "title": "Optimal Diuretic Therapies for Acute Heart Failure With Volume Overload - A Randomized Clinical Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 939,
+            "start_date": "2024-09-05",
+            "completion_date": "2027-09-30",
+            "brief_summary": "Aim to identify the best strategy for treating acute heart failure (AHF) with volume overload, particularly focusing on patients resistant to standard loop-diuretics. The trial is a double-blinded, randomized, controlled, multicenter study. Its primary objective is to compare the efficacy of loop-diuretics combined with either Metolazone or Acetazolamide, against loop-diuretics alone. The trial will also determine the optimal type of loop-diuretic to use.\n\nEligible participants include adults ov",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "急性心衰竭最優利尿方案比較（n=939），acetazolamide 作為比較臂之一，提供真實世界效能比較數據，相關性高但非 acetazolamide 專屬試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT05802849",
+            "title": "Acetazolamide Per os for Decompensation of Heart Failure",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 400,
+            "start_date": "2023-05-01",
+            "completion_date": "2025-12-01",
+            "brief_summary": "The main causes of chronic heart failure (CHF) are arterial hypertension and coronary artery disease, less often cardiomyopathy, pericarditis, metastatic myocardial lesions. It should be noted that up to 50% of patients have a preserved left ventricular ejection fraction (LVEF), while its prevalence is progressively increasing annually.\n\nAcute decompensation of CHF is understood as a rapid increase in the severity of clinical manifestations (shortness of breath, severe arterial hypoxemia, the oc",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接研究 acetazolamide 口服於心衰竭失代償（n=400，招募中）。Phase 4 定性意味 Phase 3（ADVOR）已完成並支持使用。為本組最具代表性試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT06092437",
+            "title": "TAILOR-AHF: Randomized Trial Investigating a Tailored Diuretic Algorithm in Acute Heart Failure Patients",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 466,
+            "start_date": "2023-02-27",
+            "completion_date": "2026-08-27",
+            "brief_summary": "Acutely decompensated heart failure (ADHF) is highly prevalent and has a high (financial) burden on the health care system. Treatment often consists of the administration of IV decongestive agents. Adequate dosing is difficult due to varying diuretic resistance and inadequate parameters to evaluate the response. Urine sodium is a promising biomarker to evaluate the diuretic response. It is hypothesized that a tailored, urine sodium guided diuretic algorithm will result in faster and more complet",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "個人化利尿算法研究（n=466），探討 acetazolamide 在精準醫療框架中的定位。Phase NA 限制其直接證據效力，但有助建立臨床決策流程。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38806171",
+            "title": "2024 update in heart failure.",
+            "authors": [
+              "Beghini Alberto",
+              "Sammartino Antonio Maria",
+              "Papp Zoltán",
+              "von Haehling Stephan",
+              "Biegus Jan"
+            ],
+            "journal": "ESC heart failure",
+            "year": "2025",
+            "abstract": "In the last years, major progress has occurred in heart failure (HF) management. The 2023 ESC focused update of the 2021 HF guidelines introduced new key recommendations based on the results of the last years of science. First, two drugs, sodium-glucose co-transporter-2 (SGLT2) inhibitors and finerenone, a novel nonsteroidal, selective mineralocorticoid receptor antagonist (MRA), are recommended for the prevention of HF in patients with diabetic chronic kidney disease (CKD). Second, SGLT2 inhibi",
+            "classification": {
+              "study_type": "Annual Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "742352",
+            "title": "Hypokalaemic periodic paralysis and cardiomyopathy.",
+            "authors": [
+              "Schipperheyn J J",
+              "Buruma O J",
+              "Voogd P J"
+            ],
+            "journal": "Acta neurologica Scandinavica",
+            "year": "1978",
+            "abstract": "The results are reported of cardiological examinations, including echocardiography, in nine members of a family suffering from hypokalaemic periodic paralysis, associated with permanent muscular weakness. The studies were performed in periods between attacks of paralysis. The slowly progressive permanent muscular weakness which is found in most of the patients with hypokalaemic periodic paralysis resembles a limb-girdle type dystrophy. Involvement of cardiac muscle is not uncommon in patients wi",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37169875",
+            "title": "New pharmacological agents and novel cardiovascular pharmacotherapy strategies in 2022.",
+            "authors": [
+              "Tamargo Juan",
+              "Agewall Stefan",
+              "Borghi Claudio",
+              "Ceconi Claudio",
+              "Cerbai Elisabetta"
+            ],
+            "journal": "European heart journal. Cardiovascular pharmacotherapy",
+            "year": "2023",
+            "abstract": "Cardiovascular diseases (CVD) remain the leading cause of death worldwide and pharmacotherapy of most of them is suboptimal. Thus, there is a clear unmet clinical need to develop new pharmacological strategies with greater efficacy and better safety profiles. In this review, we summarize the most relevant advances in cardiovascular pharmacology in 2022 including the approval of first-in-class drugs that open new avenues for the treatment of obstructive hypertrophic cardiomyopathy (mavacamten), t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30279861",
+            "title": "Treatment of hypochloremia with acetazolamide in an advanced heart failure patient and importance of monitoring urinary electrolytes.",
+            "authors": [
+              "Kataoka Hajime"
+            ],
+            "journal": "Journal of cardiology cases",
+            "year": "2018",
+            "abstract": "Chloride was recently recognized to play an important role in the pathophysiology of heart failure (HF). Chloride manipulation, including the use of acetazolamide, may be a requisite therapeutic target in HF treatment. An 87-year-old male patient with advanced HF and hypertrophic cardiomyopathy was admitted to the hospital due to hypochloremia (94 mEq/L) and hyponatremia (134 mEq/L) under diuretic treatment with azosemide, spironolactone, and tolvaptan. On admission, HF-related signs of overhydr",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22426904",
+            "title": "The effects of acetazolamide on ischemia reperfused isolated hearts of 2- and 8-week-old rabbits.",
+            "authors": [
+              "Reshadat Sohyla",
+              "Nikray Rojin",
+              "Alord Shirin",
+              "Shackebaei Dareuosh",
+              "Godini Aliashraf"
+            ],
+            "journal": "Saudi medical journal",
+            "year": "2012",
+            "abstract": "To investigate the effects of acetazolamide on the ischemia-reperfused isolated hearts of 2- and 8-week-old rabbits.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9627326",
+            "title": "SPECT findings in mitochondrial encephalomyopathy.",
+            "authors": [
+              "Watanabe Y",
+              "Hashikawa K",
+              "Moriwaki H",
+              "Oku N",
+              "Seike Y"
+            ],
+            "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+            "year": "1998",
+            "abstract": "We investigated the alterations in regional cerebral blood flow (rCBF) in mitochondrial encephalomyopathy (MEM), using [123I]N-isopropyl-p-iodoamphetamine (IMP) or 99mTc-hexamethyl propyleneamine oxime SPECT in 10 MEM patients.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35619116",
+            "title": "Congenital hydrocephalus in a trisomy 9p gained child: a case report.",
+            "authors": [
+              "Henningsen Mikkel Bak",
+              "Gulisano Helga Angela",
+              "Bjarkam Carsten Reidies"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2022",
+            "abstract": "Hydrocephalus caused by excessive liquor production due to choroid plexus hyperplasia is a rare condition that may necessitate unusual treatment paradigms. It can be seen in trisomy 9p where coexisting congenital heart disease additionally may complicate the therapeutic approach as illustrated in the current case report.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29123889",
+            "title": "A case of non-cardiogenic pulmonary edema provoked by intravenous acetazolamide.",
+            "authors": [
+              "Ono Yuichiro",
+              "Morifusa Makiko",
+              "Ikeda Satoru",
+              "Kunishige Chika",
+              "Tohma Yoshiki"
+            ],
+            "journal": "Acute medicine & surgery",
+            "year": "2017",
+            "abstract": "A 61-year-old man was diagnosed with severe chest trauma after a car accident and had had difficulty in weaning from a ventilator because of flail chest and dilated cardiomyopathy. On the 17th day in the intensive care unit, he received i.v. acetazolamide to increase urine output. One hour after the injection, he suddenly developed severe hypoxia. Chest radiography revealed a butterfly shadow. He received other diuretics and a vasodilator, which seemed slowly to resolve the respiratory failure. ",
+            "classification": {
+              "study_type": "Case Report / Safety Signal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23571262",
+            "title": "Cystoid macular edema in a patient with Danon disease.",
+            "authors": [
+              "Mack Heather G"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2014",
+            "abstract": "To report a patient with Danon retinopathy with cystoid macular edema treated with topical dorzolamide 2% eye drops and oral acetazolamide. A 37-year-old Caucasian man with Danon disease treated with topical and oral carbonic anhydrase inhibitors participated in the study. Examinations performed before and during treatment included visual acuity (VA), spectral-domain optical coherence tomography, and electroretinography. Following total 48 weeks of treatment, VA decreased from 20/30 OD, 20/200 O",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7324871",
+            "title": "Heart muscle disease in familial hypokalaemic periodic paralysis.",
+            "authors": [
+              "Buruma O J",
+              "Schipperheyn J J",
+              "Bots G T"
+            ],
+            "journal": "Acta neurologica Scandinavica",
+            "year": "1981",
+            "abstract": "The case history, skeletal muscle and heart muscle biopsy findings from an affected member of a family suffering from hypokalaemic periodic paralysis associated with permanent muscular weakness are reported. The patient, a female aged 35 years, while treated with 750 mg and later 1000 mg of acetazolamide daily, developed typical exercise angina pectoris. The ECG during exercise showed ST-segment depression. A coronary angiography was performed because coronary artery disease was suspected. To ex",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Acetazolamide 抑制腎近端小管 CA，減少 NaHCO₃ 再吸收，在 loop 利尿劑基礎上提供協同去充血（decongestion）效果，同時糾正代謝性鹼中毒。心肌 CA2 亦參與心肌重塑的 pH 調節與 Na⁺/H⁺ 交換機轉。ADVOR Phase 3 RCT（NEJM 2022）已驗證此機轉於急性失代償性心衰竭。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "intestinal obstruction",
+      "txgnn": {
+        "score": 0.998171091079712,
+        "rank": 3180
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02779803",
+            "title": "STAMCAR: A Prospective EC-IC Bypass Registry",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2016-09",
+            "completion_date": "2021-12",
+            "brief_summary": "A prospective registry evaluating the efficacy of EC-IC bypass in a subgroup of patients, specifically, patients with carotid occlusion and symptoms refractory to medical therapy and evidence for poor cerebrovascular reserve as evaluated by physiological testing (e.g. Diamox Challenge SPECT Scan). This subgroup includes:\n\n1. Hospitalized unstable patient with crescendo or postural TIA's\n2. Patients with multiple TIA's, limb-shaking TIA's, and/or cognitive decline despite medical therapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "EC-IC 旁路手術血管外科登錄研究（已撤回，n=0），與腸阻塞完全無關。疑為資料庫映射錯誤，不應計入證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31383334",
+            "title": "Hydrocephalus associated with multiple Tarlov cysts.",
+            "authors": [
+              "Hulens Mieke",
+              "Dankaerts Wim",
+              "Rasschaert Ricky",
+              "Bruyninckx Frans",
+              "Stalmans Ingeborg"
+            ],
+            "journal": "Medical hypotheses",
+            "year": "2019",
+            "abstract": "Tarlov cysts (TCs) consist of dilated nerve root sheaths filled with cerebrospinal fluid (CSF) and are most frequently found in the sacrum. It is estimated that 25% of detected TCs cause chronic pain and intestinal and urogenital symptoms due to compression of the sacral nerve root fibers inside the TC. Unfortunately, symptomatic TCs are frequently overlooked. It is assumed that TCs result from pathologically increased hydrostatic pressure (HP) in the dural sac that forces CSF into the nerve roo",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19653068",
+            "title": "Acetazolamide-induced adynamic ileus.",
+            "authors": [
+              "Gallerani Massimo",
+              "Coletti Maura",
+              "Ferri Mauro",
+              "Napolitano Nicoletta",
+              "Boari Benedetta"
+            ],
+            "journal": "Internal and emergency medicine",
+            "year": "2009",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Adverse Event",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13659695",
+            "title": "[Drug-induced paralytic ileus, with potentiation by rontyl, a chlorothiazide derivative].",
+            "authors": [
+              "HOBOLTH N"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "1959",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Adverse Event",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ CA 抑制可影響腸道平滑肌離子通道，導致腸蠕動下降（adynamic ileus）。PMID 19653068 和 PMID 13659695 均記錄 acetazolamide 誘發麻痺性腸阻塞的不良事件。此適應症的 TxGNN 預測為偽陽性，機轉方向與治療目的相悖，具主動安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "glycogen storage disease due to acid maltase deficiency, late-onset",
+      "txgnn": {
+        "score": 0.9980422258377076,
+        "rank": 3356
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "晚發型龐貝病（GAA 突變）為溶酶體糖原蓄積症，標準治療為酵素替代療法（alglucosidase alfa）。CA 抑制對溶酶體 pH 有理論影響，但無任何研究探討其於龐貝病的臨床效益，屬純計算預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myopathic intestinal pseudoobstruction",
+      "txgnn": {
+        "score": 0.9979345798492432,
+        "rank": 3502
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腸道平滑肌病變所致假性阻塞涉及肌層退化，CA 抑制對此無已知療效。類比 intestinal obstruction 的安全訊號（PMID 19653068），acetazolamide 本身可誘發腸動力障礙，理論上可能加重此疾病，具主動安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "exercise-induced malignant hyperthermia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "hypertrophic cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "hypertrophic cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "hypertrophic cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "congenital myopathy with excess of thin filaments"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "congenital myopathy with excess of thin filaments"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "congenital myopathy with excess of thin filaments"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "hypertrophic cardiomyopathy due to intensive athletic training"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "hypertrophic cardiomyopathy due to intensive athletic training"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "hypertrophic cardiomyopathy due to intensive athletic training"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "distal myopathy, Tateyama type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "distal myopathy, Tateyama type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "distal myopathy, Tateyama type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "cirrhotic cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "cirrhotic cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "cirrhotic cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "intestinal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "intestinal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "intestinal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "glycogen storage disease due to acid maltase deficiency, late-onset"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "glycogen storage disease due to acid maltase deficiency, late-onset"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "glycogen storage disease due to acid maltase deficiency, late-onset"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetazolamide",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

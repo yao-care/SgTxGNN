@@ -1,0 +1,488 @@
+## 藥物再利用證據分析：Choline Salicylate (DB14006)
+
+**前置分析說明**
+
+Choline salicylate 為非乙醯化水楊酸鹽（non-acetylated salicylate），機轉主要為 COX 抑制→前列腺素合成↓，具抗炎/止痛/退燒作用，同時膽鹼（choline）基團為乙醯膽鹼前驅物。市場狀態「未上市」，MOA 標注為 Data Gap，為分析帶來額外不確定性。
+
+---
+
+```json
+{
+  "drug": "Choline salicylate",
+  "drugbank_id": "DB14006",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "藥物 MOA 標注為 [Data Gap]，市場狀態未上市，DDI=0。根據藥化知識推定：水楊酸根→COX-1/2 抑制；膽鹼基團→乙醯膽鹼前驅物。所有臨床試驗需逐一核實相關性，多數為關鍵字誤比對。",
+  "indications": [
+    {
+      "disease_name": "Prinzmetal angina",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "水楊酸鹽抑制 COX-1 → 血栓素 A₂（TXA₂）合成減少 → 理論上可減少血小板誘導的冠狀動脈痙攣；然此機轉高度推測性，Prinzmetal angina 主因為冠狀動脈血管平滑肌痙攣，需 Ca²⁺ 通道拮抗劑干預，而非抗炎路徑。完全無臨床證據支持。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "零臨床試驗，零文獻",
+        "機轉連結極為間接",
+        "TxGNN 高分為圖譜拓撲預測，非臨床證據",
+        "Prinzmetal angina 標準治療為 CCB，機轉不符"
+      ]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Choline salicylate 作為非乙醯化水楊酸鹽，透過可逆性 COX-1/COX-2 抑制→PGE₂↓→炎症反應↓，達到 RA 症狀控制；與阿斯匹林相比，非乙醯化結構對血小板 COX-1 影響較小，理論上 GI 副作用更低，適合長期使用患者。1970-80 年代已有臨床應用記錄，屬歷史性實際使用而非純預測。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 4,
+        "direct_evidence": true,
+        "evidence_age_concern": "所有文獻發表於 1977-1986 年，距今 40-49 年，缺乏現代 RCT 驗證"
+      },
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "897386",
+          "year": 1977,
+          "title": "Usefulness of choline salicylate in the treatment of children with rheumatoid arthritis",
+          "study_type": "Clinical Series / Observational",
+          "tier": 3,
+          "relevance": "直接",
+          "reasoning": "直接針對兒童 RA 使用 choline salicylate 的臨床研究，為最具說服力的直接證據，但年代久遠（1977），研究設計標準與現代 RCT 差距大，樣本數未知。構成 L3 核心證據。"
+        },
+        {
+          "pmid": "7188920",
+          "year": 1980,
+          "title": "Choline salicylate as an antirheumatism agent",
+          "study_type": "Clinical Report / Review",
+          "tier": 3,
+          "relevance": "直接",
+          "reasoning": "直接探討 choline salicylate 作為抗風濕藥物的臨床報告，支持 L3 等級證據。1980 年文章，設計細節需查原文確認。"
+        },
+        {
+          "pmid": "377958",
+          "year": 1979,
+          "title": "Drug therapy reviews: antirheumatic agents",
+          "study_type": "Narrative Review",
+          "tier": 3,
+          "relevance": "間接",
+          "reasoning": "抗風濕藥物綜述，choline salicylate 為涵蓋藥物之一，非獨立研究，提供歷史用藥脈絡但證據力弱。"
+        },
+        {
+          "pmid": "3740556",
+          "year": 1986,
+          "title": "Sensitivity to non-acetylated salicylates in a patient with asthma, nasal polyps, and rheumatoid arthritis",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "間接（安全性）",
+          "reasoning": "個案報告，重點在非乙醯化水楊酸鹽過敏反應，非療效證據。對藥物安全性評估（S1 階段）有參考價值：顯示部分 aspirin 過敏患者可能對 choline salicylate 也有反應。"
+        }
+      ],
+      "key_concerns": [
+        "文獻全部來自 1977-1986 年，現代 EBM 標準下證據等級低",
+        "無任何 RCT，無 Phase 1/2 試驗",
+        "現代 RA 治療已有 DMARD、bDMARD、JAK 抑制劑，競爭激烈",
+        "需現代安全性資料（特別是 CV 風險、GI 風險）",
+        "個案報告顯示潛在過敏/耐受性問題"
+      ],
+      "next_steps": "應系統性回顧 1970-2000 年水楊酸鹽 RA 文獻，評估是否有被現代 NSAID 完全取代的歷史證據"
+    },
+    {
+      "disease_name": "hypertensive disorder",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接推測：水楊酸鹽具有抗炎作用，慢性低度炎症與高血壓病理相關；然膽鹼代謝物（TMAO）已被證實與心血管風險呈正相關，外源性膽鹼補充可能不利於高血壓管理。機轉存在潛在矛盾性。",
+      "evidence_summary": {
+        "clinical_trials_count": 18,
+        "literature_count": 0,
+        "direct_evidence": false,
+        "trials_relevance_note": "18 項試驗均非 choline salicylate 治療高血壓之研究，為搜尋誤比對"
+      },
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04553003",
+          "title": "Glucocorticosteroid Therapy on Drug-induced Liver Injury",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "肝損傷相關研究，與 choline salicylate 或高血壓治療無直接關聯。誤比對。"
+        },
+        {
+          "nct_id": "NCT06885827",
+          "title": "Interventional Vitamin Mix Glaucoma Study (IVMGS)",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "青光眼維生素補充研究，與目標藥物和適應症無關。誤比對。"
+        },
+        {
+          "nct_id": "NCT06347094",
+          "title": "Precision Nutrition to Improve Cardiometabolic Health (PRE-CARE-DIET)",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "飲食多酚研究，高血壓為代謝指標之一，非 choline salicylate 干預。誤比對。"
+        },
+        {
+          "nct_id": "NCT03130894",
+          "title": "Microbiota-dependent Metabolite TMAO and Type 2 Diabetes",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 2694,
+          "relevance_grade": "C",
+          "reasoning": "TMAO（三甲胺氧化物）與糖尿病相關研究。TMAO 為膽鹼腸道代謝物，但此研究為觀察性研究探討 TMAO 風險，並非 choline salicylate 治療高血壓。反而提示膽鹼補充可能升高 TMAO→增加 CV 風險。"
+        },
+        {
+          "nct_id": "NCT05333315",
+          "title": "Five Different Food Supplements With Restriction Diet on Metabolic Syndrome",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "代謝症候群補充劑研究，非 choline salicylate。誤比對。"
+        },
+        {
+          "nct_id": "NCT00696475",
+          "title": "Diazoxide Study (PHASE2)",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "二氮嗪（diazoxide）研究，另一種藥物。誤比對。"
+        },
+        {
+          "nct_id": "NCT03046693",
+          "title": "Citicoline Effect on Non-arteritic Anterior Ischemic Optic Neuropathy",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "Citicoline（胞磷膽鹼）為不同膽鹼化合物，作用於神經保護，非 choline salicylate；適應症為缺血性視神經病變，非高血壓。雙重誤比對。"
+        },
+        {
+          "nct_id": "NCT05067998",
+          "title": "Natural Medicine, Vitamin IV Therapy and Supplements",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "一般性維生素補充研究，非特定藥物試驗。誤比對。"
+        },
+        {
+          "nct_id": "NCT04422743",
+          "title": "Citicoline 500mg Plus Homotaurine 50mg on Pattern Electroretinography",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "Citicoline 複方眼科研究，非 choline salicylate，非高血壓。誤比對。"
+        },
+        {
+          "nct_id": "NCT05242224",
+          "title": "Evolutionary Nutrition Pilot: Enhancing Fetal Growth and Brain Development",
+          "phase": "NA",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "胎兒發育營養研究，非高血壓治療。誤比對。"
+        }
+      ],
+      "literature_analysis": [],
+      "key_concerns": [
+        "18 項試驗全部與 choline salicylate 治療高血壓無關，屬搜尋誤比對（膽鹼代謝/citicoline 混淆）",
+        "TMAO 研究（NCT03130894）提示膽鹼代謝物可能增加心血管風險，與再利用方向相悖",
+        "零相關文獻",
+        "機轉連結高度間接且存在潛在矛盾"
+      ]
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乙醯膽鹼系統與偏頭痛有神經調控關聯（副交感神經激活可觸發頭痛），但 choline salicylate 作為 ACh 前驅物補充對偏頭痛的影響方向不明；水楊酸鹽的 COX 抑制理論上可作為急性止痛，但不符合偏頭痛預防治療機轉。機轉支持弱且方向矛盾。",
+      "evidence_summary": {
+        "clinical_trials_count": 3,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00564408",
+          "title": "Effect of an Acetylcholine Analogue in Terms of Headache",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 12,
+          "relevance_grade": "C",
+          "reasoning": "研究乙醯膽鹼類似物對頭痛影響（n=12），雖涉及膽鹼能系統，但非 choline salicylate，且研究目的為機轉探索而非治療。樣本量極小。"
+        },
+        {
+          "nct_id": "NCT04220606",
+          "title": "Glutamate Concentrations in Brain Over Course of Migraine-like Attack",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 39,
+          "relevance_grade": "C",
+          "reasoning": "偏頭痛腦部麩胺酸觀察研究，純機轉探索，無藥物干預，與 choline salicylate 無關。誤比對。"
+        },
+        {
+          "nct_id": "NCT04256837",
+          "title": "Transcutaneous Electrical Auricular Stimulation of Vagus Nerve in Kidney Transplant Recipients",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 47,
+          "relevance_grade": "C",
+          "reasoning": "腎移植患者迷走神經刺激研究，主要對象為腎移植，非偏頭痛，無 choline salicylate 干預。誤比對。"
+        }
+      ],
+      "literature_analysis": [],
+      "key_concerns": [
+        "3 項試驗均非直接測試 choline salicylate 治療偏頭痛",
+        "零文獻證據",
+        "乙醯膽鹼補充對偏頭痛影響方向不確定（可能加重）",
+        "現代偏頭痛治療（Triptans、CGRP 拮抗劑）已有完善藥物"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "缺氧誘導肺動脈收縮（HPV）及血管重塑，理論上抗炎路徑可能部分干預 HIF-1α 相關炎症；然水楊酸鹽對肺血管阻力的影響缺乏直接證據，且 COX 抑制可能影響前列環素（PGI₂）合成→肺動脈收縮加重，機轉方向存在潛在不利效應。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 20,
+        "direct_evidence": false,
+        "literature_relevance_note": "20 篇文獻均為缺氧生物學基礎研究，非 choline salicylate 臨床研究"
+      },
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "year": 2021,
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "無關",
+          "reasoning": "缺氧與腦老化綜述，非肺高壓，非 choline salicylate。搜尋關鍵字誤比對（hypoxia）。"
+        },
+        {
+          "pmid": "39841808",
+          "year": 2025,
+          "title": "Hypoxia as a medicine",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "無關",
+          "reasoning": "缺氧作為治療手段綜述，非藥物治療研究。誤比對。"
+        },
+        {
+          "pmid": "28972206",
+          "year": 2017,
+          "title": "Regulation of immunity and inflammation by hypoxia in immunological niches",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "無關",
+          "reasoning": "缺氧免疫調控機轉，基礎研究，非 choline salicylate 臨床研究。誤比對。"
+        },
+        {
+          "pmid": "37328448",
+          "year": 2023,
+          "title": "N4-Acetylcytidine Drives Glycolysis Addiction via NAT10/SEPT9/HIF-1α",
+          "study_type": "Basic Research",
+          "tier": 3,
+          "relevance": "無關",
+          "reasoning": "胃癌 HIF-1α 訊號研究，與肺高壓或 choline salicylate 無關。誤比對。"
+        },
+        {
+          "pmid": "34618295",
+          "year": 2022,
+          "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "無關",
+          "reasoning": "缺氧認知障礙，非肺高壓或目標藥物研究。誤比對。"
+        }
+      ],
+      "key_concerns": [
+        "20 篇文獻全部為缺氧生物學基礎研究，非 choline salicylate 療效研究",
+        "COX 抑制可能減少 PGI₂（前列環素）合成→加重肺血管收縮，存在安全性疑慮",
+        "無任何臨床試驗",
+        "肺高壓屬嚴重危及生命疾病，風險效益評估門檻高"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與「肺高壓（缺氧型）」機轉推測相同；多因素機轉型肺高壓（Group 5）病理更複雜，抗炎路徑干預依據更薄弱。COX 抑制對前列環素的負面影響疑慮同樣存在。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "零臨床試驗，零文獻",
+        "純 AI 預測，最低證據等級",
+        "與缺氧型肺高壓同分（0.9977）但無獨立證據"
+      ]
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性高血壓腎病變涉及急性腎臟缺血及炎症，水楊酸鹽抗炎理論上具微弱連結；但 NSAIDs/水楊酸鹽已知可能加重腎功能損害（抑制腎臟前列腺素保護機轉），在已有腎病變患者中使用風險極高。機轉方向為負面疑慮大於潛在效益。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "零臨床試驗，零文獻",
+        "水楊酸鹽/NSAIDs 類藥物對腎功能有潛在不良影響，在腎病患者中禁忌疑慮大",
+        "惡性高血壓腎病需緊急降壓，非抗炎治療",
+        "安全性疑慮使此再利用方向不合理"
+      ]
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腎血管性高血壓以 RAAS 過度活化為主要機轉，水楊酸鹽對 RAAS 無直接影響；抗炎路徑的微弱連結不足以支持再利用；同前，水楊酸鹽對腎功能的安全性疑慮適用。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "零臨床試驗，零文獻",
+        "腎血管高血壓機轉（RAAS）與水楊酸鹽 MOA 不符",
+        "腎功能安全性疑慮",
+        "標準治療（ACEI/ARB + 血運重建）已明確"
+      ]
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "水楊酸鹽抑制 TXA₂ 合成→血小板聚集↓→理論上改善肢端微血管痙攣；然低劑量阿斯匹林（同類藥物）在 Raynaud 的臨床試驗結果不一致，且 choline salicylate 的 COX-1 抑制作用不如乙醯水楊酸穩定；無直接證據。",
+      "evidence_summary": {
+        "clinical_trials_count": 0,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "零臨床試驗，零文獻",
+        "阿斯匹林（同類）在 Raynaud 效果有限且存在爭議",
+        "Raynaud 有效療法（CCB、PDE-5 抑制劑）已存在",
+        "純預測，再利用價值低"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與缺氧型肺高壓機轉相同；一般性肺高壓涵蓋 WHO Group 1-5，機轉各異，水楊酸鹽抗炎效果對 PAH（Group 1）的效益尤其缺乏依據。前列環素路徑本為 PAH 治療靶點（Prostacyclin 類藥物），COX 抑制恐有干擾。",
+      "evidence_summary": {
+        "clinical_trials_count": 1,
+        "literature_count": 0,
+        "direct_evidence": false
+      },
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02145013",
+          "title": "Assessment and Impact of Portal Hypertension Before and During Liver Resection",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 200,
+          "relevance_grade": "C",
+          "reasoning": "研究為門脈高壓評估（portal hypertension），非肺動脈高壓（pulmonary hypertension），且為觀察/評估性研究，無 choline salicylate 干預。疾病分類與藥物均不符，屬嚴重誤比對。"
+        }
+      ],
+      "literature_analysis": [],
+      "key_concerns": [
+        "唯一試驗為門脈高壓（portal HTN）而非肺高壓（pulmonary HTN），類別錯誤",
+        "COX 抑制可能干擾前列環素合成，與現有 PAH 治療（Epoprostenol 等）機轉相悖",
+        "零直接文獻",
+        "純預測，安全性疑慮存在"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "highest_evidence_indication": "rheumatoid arthritis (L3)",
+    "indications_by_level": {
+      "L1": [],
+      "L2": [],
+      "L3": ["rheumatoid arthritis"],
+      "L4": [],
+      "L5": [
+        "Prinzmetal angina",
+        "hypertensive disorder",
+        "migraine disorder",
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
+        "malignant hypertensive renal disease",
+        "malignant renovascular hypertension",
+        "Raynaud disease",
+        "pulmonary hypertension"
+      ]
+    },
+    "critical_safety_flags": [
+      "腎功能疑慮：水楊酸鹽類藥物在腎病患者（惡性高血壓腎病、腎血管高壓）使用需特別審慎",
+      "前列環素路徑干擾：COX 抑制可能不利於肺高壓患者（干擾 PGI₂ 保護機轉）",
+      "TMAO 風險：膽鹼代謝物 TMAO 與心血管風險正相關，高劑量膽鹼補充在心血管疾病患者需評估",
+      "非乙醯化水楊酸鹽過敏交叉反應（PMID 3740556 個案）"
+    ],
+    "data_quality_issues": [
+      "MOA 標注為 [Data Gap]，基礎藥理資料不完整",
+      "市場狀態「未上市」，缺乏現實世界安全性資料",
+      "18 項高血壓相關試驗全部為搜尋誤比對（citicoline、TMAO 混淆），需改善搜尋策略",
+      "20 篇肺高壓相關文獻全部為缺氧生物學基礎研究，非臨床療效文獻",
+      "RA 文獻集中於 1977-1986 年，缺乏現代臨床驗證"
+    ],
+    "recommended_priority": "僅 rheumatoid arthritis 有歷史臨床使用依據，建議優先針對此適應症進行系統性文獻回顧及安全性初評（S1），其餘適應症建議暫不推進（S0/Hold）。"
+  }
+}
+```
+
+---
+
+## 分析摘要表
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|------|-----------|---------|---------|------|---------|
+| **類風濕性關節炎** | 0.9982 | **L3** | **S1** | **Research Question** | 歷史文獻（1977-86），需現代驗證 |
+| Prinzmetal 心絞痛 | 0.9984 | L5 | S0 | Hold | 零證據，機轉間接 |
+| 高血壓疾患 | 0.9981 | L5 | S0 | Hold | 18 試驗全為誤比對；TMAO 風險疑慮 |
+| 偏頭痛 | 0.9980 | L5 | S0 | Hold | 3 試驗均非直接相關 |
+| 肺高壓（缺氧型） | 0.9977 | L5 | S0 | Hold | 20 文獻為缺氧生物學，非臨床療效 |
+| 肺高壓（多因素型） | 0.9977 | L5 | S0 | Hold | 零證據 |
+| 惡性高血壓腎病 | 0.9977 | L5 | S0 | Hold | **水楊酸鹽腎毒性疑慮** |
+| 惡性腎血管高壓 | 0.9977 | L5 | S0 | Hold | **水楊酸鹽腎毒性疑慮** |
+| Raynaud 氏病 | 0.9976 | L5 | S0 | Hold | 零證據，同類藥效益有限 |
+| 肺動脈高壓 | 0.9975 | L5 | S0 | Hold | 唯一試驗為門脈高壓誤比對；**PGI₂ 干擾** |
+
+> ⚠️ **重要聲明**：本分析僅供研究參考，不構成醫療建議。藥物再利用候選需經完整臨床驗證方可應用。

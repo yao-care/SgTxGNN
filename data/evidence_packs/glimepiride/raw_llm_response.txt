@@ -1,0 +1,397 @@
+## Glimepiride (DB00222) 藥物再利用證據分析
+
+> ⚠️ **資料品質警示**：`original_indications: []` 及 `market_status: 未上市` 可能為資料缺口。Glimepiride 為第三代磺醯脲類（Sulfonylurea），廣泛核准用於 T2DM，此資料集可能未完整收錄原核准適應症。
+
+---
+
+```json
+{
+  "drug": "Glimepiride",
+  "drugbank_id": "DB00222",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "original_indications 欄位為空（應含 T2DM），疑資料缺口",
+    "market_status 標示未上市，疑為本地藥典未收錄而非全球未核准"
+  ],
+  "indications": [
+    {
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9886,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Glimepiride 透過結合 SUR1 受體關閉 K-ATP 通道促進胰島素分泌，機轉依賴功能性 β 細胞；T1DM 中 β 細胞因自體免疫破壞，主路徑失效。然而 BB 大鼠研究（PMID 7475982, 8539908）顯示 Glimepiride 具免疫調節效果，可延緩或預防自體免疫性糖尿病發病，另有部分 PPAR-γ 活性及胰島素受體磷酸化效果。機轉相關性為間接/弱。",
+      "mechanistic_plausibility": "低至中（免疫調節路徑有前驅動物證據，但 β 細胞依賴機轉在 T1DM 中無效）",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00783744",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 375,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成試驗，樣本數充足，但標題未明確指向 T1DM，可能為 T2DM 試驗中 Glimepiride 作為對照組；相關性需原始資料確認"
+        },
+        {
+          "nct_id": "NCT01495013",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 427,
+          "relevance_grade": "B",
+          "reasoning": "Atorvastatin+Glimepiride 固定劑量組合 Phase 3，樣本數大，但研究問題為心血管代謝，非直接 T1DM 再利用研究"
+        },
+        {
+          "nct_id": "NCT01769378",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 300,
+          "relevance_grade": "C",
+          "reasoning": "Dulaglutide vs 對照（疑含 Glimepiride），Phase 3 完成，但適應症及 Glimepiride 角色不明確，可能為 T2DM"
+        },
+        {
+          "nct_id": "NCT00770653",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 305,
+          "relevance_grade": "C",
+          "reasoning": "Pioglitazone/Metformin vs Metformin+Glimepiride，T2DM 試驗，與 T1DM 再利用關聯性低"
+        },
+        {
+          "nct_id": "NCT00099944",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 515,
+          "relevance_grade": "C",
+          "reasoning": "Vildagliptin+Glimepiride 在 T2DM 患者，明確標示 T2DM，對 T1DM 再利用貢獻有限"
+        },
+        {
+          "nct_id": "NCT01649466",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 162,
+          "relevance_grade": "C",
+          "reasoning": "Vildagliptin vs NPH Insulin add-on，Phase 4 上市後研究，T2DM 背景，間接相關"
+        },
+        {
+          "nct_id": "NCT00343980",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "enrollment": 363,
+          "relevance_grade": "C",
+          "reasoning": "吸入式胰島素+Glimepiride 研究，試驗終止降低證據效力，且可能為 T2DM"
+        },
+        {
+          "nct_id": "NCT02338921",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 78,
+          "relevance_grade": "C",
+          "reasoning": "標題明確提及 T2DM 患者比較 Sitagliptin/Dapagliflozin/Lobeglitazone，與 T1DM 再利用無直接關聯"
+        },
+        {
+          "nct_id": "NCT02301806",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 30,
+          "relevance_grade": "C",
+          "reasoning": "樣本數僅 30，狀態不明，證據效力弱"
+        },
+        {
+          "nct_id": "NCT01725672",
+          "phase": "PHASE1",
+          "status": "TERMINATED",
+          "enrollment": 20,
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 四向交叉試驗，試驗終止，樣本極小，貢獻有限"
+        }
+      ],
+      "trials_summary": "50 篇臨床試驗中，10 篇可見標題多為 T2DM 背景研究，Glimepiride 多作為標準對照組而非主要研究藥物；未發現專門以 T1DM 為主要適應症的 Glimepiride 試驗",
+      "literature_analysis": [
+        {
+          "pmid": "12663616",
+          "year": 2003,
+          "title": "Glimepiride treatment and IGF-I in adolescents with type 1 diabetes: a prospective, randomized, double-blind study",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance": "高",
+          "reasoning": "直接在 T1DM 青少年族群進行的前瞻性隨機雙盲試驗，為最直接的 T1DM 臨床證據；研究終點為 IGF-I（非主要血糖控制），提示輔助效果研究"
+        },
+        {
+          "pmid": "7475982",
+          "year": 1995,
+          "title": "Glimepiride-induced prevention of diabetes and autoimmune events in the BB rat: revised",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "中（機轉支持）",
+          "reasoning": "BB 大鼠自體免疫糖尿病預防動物模型，支持免疫調節機轉假說，但為動物證據"
+        },
+        {
+          "pmid": "8539908",
+          "year": 1995,
+          "title": "Prevention and cure of type 1 diabetes in the BB rat by islet allotransplantation and glimepiride treatment",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "中（機轉支持）",
+          "reasoning": "BB 大鼠胰島同種移植聯合 Glimepiride，顯示免疫保護效果，佐證動物機轉"
+        },
+        {
+          "pmid": "32268860",
+          "year": 2020,
+          "title": "Clinical Review: Safety and Efficacy Comparison between Sulfonylureas and DPP-4 Inhibitors",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "低至中",
+          "reasoning": "磺醯脲類整體安全性與療效回顧，提供背景資訊但非 T1DM 再利用直接證據"
+        },
+        {
+          "pmid": "32935446",
+          "year": 2021,
+          "title": "Continuous spectrum of glucose dysmetabolism due to KCNJ11 gene mutation",
+          "study_type": "Case Series / Review",
+          "tier": 3,
+          "relevance": "中",
+          "reasoning": "KCNJ11 突變（K-ATP 通道）病例系列，Glimepiride/磺醯脲類對 KCNJ11 相關單基因糖尿病有效，與 T1DM 再利用間接相關"
+        },
+        {
+          "pmid": "15955587",
+          "year": 2005,
+          "title": "Type 1 diabetes developed in a type 2 diabetic patient with severe insulin resistance",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低",
+          "reasoning": "案例報告，描述 T2DM 患者發展為 T1DM 的臨床情境，與再利用假說關聯性低"
+        },
+        {
+          "pmid": "35911365",
+          "year": 2022,
+          "title": "SGLT-2 Inhibitor-Associated Euglycemic Diabetic Ketoacidosis",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低",
+          "reasoning": "SGLT-2 抑制劑引起 DKA 的案例報告，與 Glimepiride/T1DM 再利用關聯性極低"
+        },
+        {
+          "pmid": "19729529",
+          "year": 2009,
+          "title": "Beta-cell-mediated signaling predominates over direct alpha-cell signaling in glucagon regulation",
+          "study_type": "Basic Science",
+          "tier": 3,
+          "relevance": "低（機轉背景）",
+          "reasoning": "β 細胞信號在血糖調節中的基礎研究，提供機轉背景但非直接臨床證據"
+        },
+        {
+          "pmid": "11460577",
+          "year": 2001,
+          "title": "Oral hypoglycemic agents: insulin secretagogues, alpha-glucosidase inhibitors and insulin sensitizers",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "低（背景）",
+          "reasoning": "口服降糖藥物回顧，提供藥物分類背景，非再利用直接證據"
+        },
+        {
+          "pmid": "15013454",
+          "year": 2004,
+          "title": "Timely initiation of basal insulin",
+          "study_type": "Review/Guideline",
+          "tier": 2,
+          "relevance": "低",
+          "reasoning": "基礎胰島素啟動時機討論，與 T1DM 再利用關聯性低"
+        }
+      ],
+      "key_evidence_gaps": [
+        "缺乏以 T1DM 為主要適應症的 Glimepiride Phase 2/3 試驗",
+        "現有 RCT（PMID 12663616）終點為 IGF-I 而非主要療效（HbA1c、低血糖發生率）",
+        "動物模型（BB 大鼠）結果尚未被人體 T1DM 預防試驗複製",
+        "T1DM 中 β 細胞功能喪失使主要機轉（胰島素分泌刺激）難以適用"
+      ]
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局部僵肢症候群（Focal Stiff Limb Syndrome）為僵人症候群（SPS）的局部變異型，以 GAD65 自體抗體為特徵。GAD65 同時也是 T1DM 的自體抗原，此共同抗原可能是 TxGNN 知識圖譜連結的依據。然而 Glimepiride 對 GAD65 自體免疫或 GABA 能神經元功能喪失無已知直接作用，機轉連結推測性強。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "TxGNN 預測分數高（0.9975）可能反映與 T1DM 的知識圖譜共病關聯，而非直接藥物-疾病關係"
+      ]
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "SPS 的核心病理為 GAD65 自體抗體導致脊髓 GABA 能抑制功能缺失，與 T1DM 共享自體免疫背景（二者常共病）。TxGNN 可能透過共病路徑推斷此連結。Glimepiride 的 SUR1 受體結合機轉與 GABA 系統無直接聯繫，欲探索此方向需先建立體外免疫調節機轉研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "SPS 一線治療（Diazepam、Baclofen、IVIG、Rituximab）機轉與 Glimepiride 無重疊"
+      ]
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 為極罕見骨骼發育不良（INPPL1/SHIP2 基因突變），SHIP2 為磷脂醯肌醇磷酸酶，參與 PI3K/Akt 信號路徑（與胰島素信號下游重疊）。Glimepiride 雖可激活胰島素受體底物，但無針對骨骼形成路徑（FGF 受體信號）的已知效果，機轉連結高度推測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "罕見骨骼疾病，目前無任何藥物再利用研究基礎"
+      ]
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "硫胺素反應性功能障礙症候群（Rogers 症候群，SLC19A2 突變）引起硫胺素轉運缺陷，導致三聯症：巨球貧血、感音性聽損、糖尿病。糖尿病成分為 β 細胞功能受損，Glimepiride 理論上可短期刺激殘餘 β 細胞。然而此症的根本治療為大劑量硫胺素補充，Glimepiride 無法解決根本代謝缺陷且最終仍需胰島素治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "本症為極罕見單基因病，主要治療為硫胺素補充而非磺醯脲類"
+      ]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物誘發局部脂肪萎縮常見於胰島素注射部位或其他注射藥物。Glimepiride 具部分 PPAR-γ 活性（遠弱於 Thiazolidinediones），理論上可影響脂肪細胞分化。然而 Glimepiride 本身為口服藥物，對局部注射相關脂肪萎縮的作用機轉不明確。TZDs 已有針對全身性脂肪再分配的證據，但局部脂肪萎縮的 Glimepiride 再利用無任何依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "Glimepiride 本身可能引起體重增加，用於治療脂肪萎縮邏輯矛盾"
+      ]
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "離心性脂肪萎縮（Centrifugal Lipodystrophy）為罕見的取得性脂肪萎縮，病因不明，可能涉及局部炎症或免疫機制。Glimepiride 與此疾病無已知機轉連結，PPAR-γ 路徑的推測性連結缺乏支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "極罕見疾病，無任何藥物再利用研究框架"
+      ]
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘發局部脂肪萎縮為機械性損傷所致，主要治療為消除壓力來源。Glimepiride 的藥理機轉與壓力誘發脂肪萎縮的病理（機械性缺血、局部炎症、脂肪細胞凋亡）無任何交集，再利用假說缺乏生物學基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "機械性病因與 Glimepiride 藥理機轉無生物學連結"
+      ]
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪萎縮病因不明，可能涉及局部免疫異常。Glimepiride 的 PPAR-γ 部分活性提供極弱的理論基礎，但與已有臨床證據的 Thiazolidinediones 相比，效力差距懸殊且無任何支持性研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_evidence_gaps": [
+        "無任何臨床試驗",
+        "無任何文獻",
+        "同類藥物 TZDs 有更強 PPAR-γ 活性，Glimepiride 缺乏比較優勢"
+      ]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胰腺發育不全（Pancreatic Agenesis，PDX1/PTF1A 等基因突變）導致胰腺先天性缺如。Glimepiride 作用機轉完全依賴功能性胰島 β 細胞的存在（透過 SUR1 受體），胰腺缺如患者完全缺乏作用靶點，本質上不具任何治療可能性。",
+      "mechanistic_contradiction": "存在根本性機轉矛盾：無胰腺 = 無 β 細胞 = 無 SUR1 受體靶點",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "12720536",
+          "year": 2003,
+          "title": "Pitfalls in endosonographic imaging of suspected insulinomas: pancreatic nodules of unknown dignity",
+          "study_type": "Case Series / Imaging Study",
+          "tier": 3,
+          "relevance": "極低",
+          "reasoning": "此文獻討論胰島素瘤的超音波內視鏡診斷陷阱，與胰腺發育不全的 Glimepiride 再利用完全無關；可能為資料庫誤配（疾病/藥物關鍵詞重疊導致的假陽性文獻）"
+        }
+      ],
+      "key_evidence_gaps": [
+        "唯一文獻（PMID 12720536）與本疾病再利用假說無關，為誤配文獻",
+        "存在根本性機轉矛盾，需先解決靶點缺如問題",
+        "無任何臨床試驗"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "high_priority_indication": "type 1 diabetes mellitus（唯一有臨床試驗和文獻支持的適應症）",
+    "l5_indications_count": 9,
+    "l3_indications_count": 1,
+    "key_observation": "TxGNN 對所有適應症給出極高預測分數（>0.99），但其中 9/10 個適應症完全無臨床或文獻支持，反映知識圖譜預測分數與真實臨床證據之間的顯著差距。高 TxGNN 分數可能源自知識圖譜中的共病連結（如 SPS 與 T1DM 共享 GAD65 抗原），而非直接的藥物-疾病治療關係。",
+    "lipodystrophy_cluster_note": "4 個脂肪萎縮類適應症（drug-induced, centrifugal, pressure-induced, idiopathic）可能反映 TxGNN 對 PPAR-γ 路徑的過度推斷，Glimepiride 的 PPAR-γ 活性遠弱於 TZDs。",
+    "recommended_next_steps": [
+      "T1DM 適應症：設計針對殘餘 β 細胞功能（C-peptide 陽性）T1DM 患者的 Phase 2 試驗，以 IGF-1、C-peptide 保留率為終點",
+      "T1DM 適應症：系統性回顧 Glimepiride 在 BB 大鼠模型中免疫調節效果的機轉確認實驗",
+      "其餘 9 個適應症：維持 Hold 狀態，僅在出現機轉研究突破時重新評估",
+      "資料品質：修正 original_indications 缺失問題，確保 T2DM 正確標記"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 快速摘要表
+
+| 適應症 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|---------|---------|------|
+| type 1 diabetes mellitus | 0.9886 | 50 | 17 | **L3** | **S1** | **Research Question** |
+| focal stiff limb syndrome | 0.9975 | 0 | 0 | L5 | S0 | Hold |
+| classic stiff person syndrome | 0.9975 | 0 | 0 | L5 | S0 | Hold |
+| opsismodysplasia | 0.9974 | 0 | 0 | L5 | S0 | Hold |
+| thiamine-responsive dysfunction syndrome | 0.9973 | 0 | 0 | L5 | S0 | Hold |
+| drug-induced localized lipodystrophy | 0.9962 | 0 | 0 | L5 | S0 | Hold |
+| centrifugal lipodystrophy | 0.9960 | 0 | 0 | L5 | S0 | Hold |
+| pressure-induced localized lipoatrophy | 0.9959 | 0 | 0 | L5 | S0 | Hold |
+| idiopathic localized lipodystrophy | 0.9956 | 0 | 0 | L5 | S0 | Hold |
+| pancreatic agenesis | 0.9955 | 0 | 1* | L5 | S0 | Hold |
+
+> *唯一文獻（PMID 12720536）為誤配文獻，實質證據等同 0
+
+---
+
+## 🔑 關鍵發現
+
+1. **TxGNN 高分 ≠ 高證據**：前 9 名預測分數（0.9956-0.9975）全部為 L5，而分數最低的 T1DM（0.9886）反而是唯一有實質證據的適應症，顯示需嚴格結合臨床證據過濾。
+
+2. **T1DM 定性為 L3**：有直接 RCT（PMID 12663616）及動物機轉證據，但 β 細胞依賴機轉在 T1DM 存在根本限制，建議聚焦**殘餘 β 細胞功能保留**（honeymoon phase）或**免疫調節**兩個次假說。
+
+3. **胰腺發育不全存在機轉矛盾**：無胰腺即無靶點，為本批次中唯一存在**根本性機轉禁忌**的適應症。

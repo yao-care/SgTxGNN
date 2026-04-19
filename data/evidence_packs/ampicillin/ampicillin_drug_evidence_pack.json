@@ -1,0 +1,3723 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00415-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ampicillin",
+    "drugbank_id": "DB00415",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "laryngitis",
+      "txgnn": {
+        "score": 0.9996697902679444,
+        "rank": 872
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01406275",
+            "title": "Special Drug Use Investigation for CLAVAMOX® (Amoxicillin/Clavulanate) Pediatrics Dry Syrup (Every Indication Excluded Otitis Media)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 363,
+            "start_date": "2008-01",
+            "completion_date": "2008-12",
+            "brief_summary": "This post-marketing surveillance study of CLAVAMOX® was designed to collect and assess the information on proper use, such as safety and efficacy, under actual use conditions, targeting pediatric Japanese patients with diseases (superficial skin infection, deep skin infection, lymphangitis, lymphadenitis, chronic pyoderma, pharyngitis, laryngitis, tonsillitis, acute bronchitis, cystitis, pyelonephritis) other than otitis media.\n\n(\"CLAVAMOX\" is a trademark of the GlaxoSmithKline group of companie",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Amoxicillin/Clavulanate（CLAVAMOX®），非 Ampicillin；Phase N/A（上市後監測）；363 例兒科患者，雖包含喉炎適應症，但無法提取 Ampicillin 特異性效果數據。間接參考價值低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39879424",
+            "title": "Quality assessment of clinical guidelines in the care of laryngitis and pharyngitis according to AGREE II.",
+            "authors": [
+              "Carvalho Lucas Mateus Rodrigues",
+              "Barbosa Ana Paula de Oliveira",
+              "Laismann Nara Amanda",
+              "Barros Débora Santos Lula",
+              "Lima Rodrigo Fonseca"
+            ],
+            "journal": "CoDAS",
+            "year": "2025",
+            "abstract": "The study aimed to identify and assess the methodological quality of essential clinical guidelines for the management of laryngitis and pharyngitis.",
+            "classification": {
+              "study_type": "Guidelines Assessment",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12402494",
+            "title": "[Paraglottic laryngeal abscesses].",
+            "authors": [
+              "Fernández Pérez A",
+              "Fernández-Nogueras Jiménez F",
+              "Moreno León J A"
+            ],
+            "journal": "Acta otorrinolaringologica espanola",
+            "year": "2002",
+            "abstract": "We present 2 cases of laryngeal abscesses in the paraglottic space. We revise the existing literature in relation with this nowadays rare entity that requires a quick diagnosis and treatment as it is a fast life threatening disease.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30579693",
+            "title": "Post-transplantation laryngeal actinomycosis.",
+            "authors": [
+              "Sei Hirofumi",
+              "Nouta Jumpei",
+              "Miyaji Shota",
+              "Hato Naohito"
+            ],
+            "journal": "Auris, nasus, larynx",
+            "year": "2019",
+            "abstract": "A case of laryngeal actinomycosis occurred after bone marrow transplantation was reported. The patient was a 14-year-old girl who had a history of bone marrow transplantation for the treatment of acute lymphocytic leukemia 4month before the onset of the disease. She was referred to our hospital complaining persistent sore throat since 2weeks ago. Fiberscopic observation proved the presence of white tumor-like mass on her right arytenoid of the larynx. As CT image demonstrated that the mass was l",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8651625",
+            "title": "Laryngotracheal manifestations of rhinoscleroma.",
+            "authors": [
+              "Amoils C P",
+              "Shindo M L"
+            ],
+            "journal": "The Annals of otology, rhinology, and laryngology",
+            "year": "1996",
+            "abstract": "Rhinoscleroma is a rare, chronic granulomatous disease of infective causation. It usually begins in the nose and may progress to involve the larynx and trachea and cause dysphonia, stridor, and airway obstruction. Early rhinoscleroma is usually successfully treated with oral tetracycline, yet laryngotracheal disease may require operative intervention. The disease is rare in the United States, but with an increase in immigration from endemic areas, otolaryngologists should be familiar with the ma",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3977063",
+            "title": "Acute epiglottitis in children.",
+            "authors": [
+              "Baines D B",
+              "Wark H",
+              "Overton J H"
+            ],
+            "journal": "Anaesthesia and intensive care",
+            "year": "1985",
+            "abstract": "The records of one hundred and sixty-one children with acute epiglottitis admitted to the Royal Alexandra Hospital for Children between January 1975 and June 1984 were reviewed. Forty-five complications occurred in thirty-four patients, including five deaths. The preferred method of airway management is direct laryngoscopy and nasotracheal intubation under general anaesthesia in the presence of skilled assistance. There should be no attempt to lie the child down prior to this, nor should awake l",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35923122",
+            "title": "Historical Review and Modern Case of Spontaneous Laryngeal Abscess.",
+            "authors": [
+              "Rohlfing Matthew L",
+              "Kan Krystal",
+              "Tierney William S",
+              "Plocienniczak Michal J",
+              "Edwards Heather A"
+            ],
+            "journal": "The Annals of otology, rhinology, and laryngology",
+            "year": "2023",
+            "abstract": "Laryngeal abscesses are rare in the modern antibiotic era. Historically, they were associated with systemic infections including typhoid fever, measles, gonorrhea, syphilis, and tuberculosis. More recent authors have described cases resulting from iatrogenic injury and immunosuppression. This report presents a novel case of laryngeal abscess in the setting of uncontrolled diabetes and a detailed review of modern, reported cases of spontaneous laryngeal abscess.",
+            "classification": {
+              "study_type": "Review + Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5314768",
+            "title": "Epiglottitis in adults.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1712371",
+            "title": "Short-term antibiotic treatment in Whipple's disease.",
+            "authors": [
+              "Bai J C",
+              "Crosetti E E",
+              "Mauriño E C",
+              "Martinez C A",
+              "Sambuelli A"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "1991",
+            "abstract": "We report the results of short-term antibiotic treatment in 19 patients with Whipple's disease (WD). The diagnosis was based on clinical features and on a characteristic small bowel biopsy. Patients received treatment for a mean of 7.9 weeks (range 4-20). Fourteen were treated with de-methyl-chlortetracycline (600 mg/day), and 1 also received chloramphenicol (1 g/day); 1 was treated with ampicillin (2 g/day), and 4 were treated with amoxicillin (1.5 g/day). In all patients, the clinical response",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25944348",
+            "title": "Laryngectomy Complications Are Associated with Perioperative Antibiotic Choice.",
+            "authors": [
+              "Langerman Alexander",
+              "Ham Sandra A",
+              "Pisano Jennifer",
+              "Pariser Joseph",
+              "Hohmann Samuel F"
+            ],
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2015",
+            "abstract": "To assess hospital- and physician-level variation in pattern of perioperative antibiotic use for laryngectomy and the relationship between pattern of antibiotic use and surgical site infection (SSI), wound dehiscence, and antibiotic-induced complications.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35943934",
+            "title": "Surgical treatment of deep neck infections in 19 dogs.",
+            "authors": [
+              "Rajeev Meenakshi",
+              "Wallace Mandy L",
+              "Schmiedt Chad W",
+              "Grimes Janet A"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "2022",
+            "abstract": "Describe clinical features, treatment, and outcomes in dogs with deep neck infections.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6465636",
+            "title": "Epiglottitis in adults.",
+            "authors": [
+              "Cohen E L"
+            ],
+            "journal": "Annals of emergency medicine",
+            "year": "1984",
+            "abstract": "Acute epiglottitis may be more common in adults than is generally believed, but the diagnosis is often missed. Three cases of adults with epiglottitis are reported. The presenting signs and symptoms included sore throat, dysphagia, symptoms disproportionate to pharyngeal findings, and tenderness over the neck anteriorly. All three patients had a benign course, but acute upper airway obstruction can occur. The diagnosis was established in each case by mirror or flexible fiberoptic laryngoscopy, l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34986973",
+            "title": "COVID-19 presenting as acute epiglottitis: A case report and literature review.",
+            "authors": [
+              "Iwamoto Shusuke",
+              "Sato Mitsuo P",
+              "Hoshi Yujiro",
+              "Otsuki Naoki",
+              "Doi Katsumi"
+            ],
+            "journal": "Auris, nasus, larynx",
+            "year": "2023",
+            "abstract": "Coronavirus disease 2019 (COVID-19) occasionally causes acute laryngitis, requiring emergency treatment. Understanding the characteristic laryngeal findings can help diagnose COVID-19 earlier, prevent worsening infection, and properly manage airway obstruction. Herein, we report the case of a 44-year-old male with acute epiglottitis likely caused by COVID-19. On presentation, chest computed tomography (CT) showed no signs of pneumonia. However, the larynx had extensive necrotic-like erosive lesi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38145982",
+            "title": "Microbiological analysis and antibiotic selection strategy in neck abscesses among patients with diabetes mellitus.",
+            "authors": [
+              "Kong Weili",
+              "Zhang Xiaoyun",
+              "Li Mei",
+              "Yang Hui"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2024",
+            "abstract": "This study aimed to analyze the clinical characteristics, pathogen distribution, drug sensitivity, and antibiotic treatment strategies of patients with neck abscesses with or without diabetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41536375",
+            "title": "When Should the Differential Diagnosis of Croup Be Reconsidered?",
+            "authors": [
+              "Taniguchi Shun",
+              "Kanno Koji",
+              "Ito Yusuke"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Croup is a common pediatric illness characterized by a barking cough and inspiratory stridor, most often caused by viral infection. However, differential diagnoses should be considered when patients present with atypical symptoms or fail to respond to standard treatment. We report the case of a previously healthy three-year-old boy who presented with a three-day history of fever and a one-day history of barking cough. He was diagnosed with croup and treated with nebulized epinephrine and oral de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36917389",
+            "title": "Risk assessment of the antibiotic amoxicillin on non-toxin-producing strains and toxin-producing strains of Microcystis.",
+            "authors": [
+              "Yisa Abraham Gana",
+              "Chia Mathias Ahii",
+              "Sha'aba Ramatu Idris",
+              "Gauje Balli",
+              "Gadzama Ibrahim Madu Katsallah"
+            ],
+            "journal": "Environmental science and pollution research international",
+            "year": "2023",
+            "abstract": "Amoxicillin (AMX) is a common antibiotic used to treat a variety of infectious illnesses in humans and animals, including otitis media, tonsillitis, tonsillopharyngitis, laryngitis, and pharyngitis. The drug ends up in the aquatic ecosystems through animal and human excretion and industrial effluents. The ecological consequences of broad-spectrum antibiotics on non-target species like cyanobacteria are causing considerable concern. The danger of amoxicillin to non-toxin-producing and toxin-produ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2603419",
+            "title": "Epiglottitis--an increasing problem for adults.",
+            "authors": [
+              "Sheikh K H",
+              "Mostow S R"
+            ],
+            "journal": "The Western journal of medicine",
+            "year": "1989",
+            "abstract": "In a 2-year period, 9 adults were admitted to hospital with acute epiglottitis confirmed by direct laryngoscopy or lateral neck radiograph, or both. The mean age was 53 +/- 14 years, with acute epiglottitis occurring in 89% during the months of September to March. Intubation was required in 4 patients. The duration of symptoms was 7.8 +/- 2.4 hours for intubated patients versus 18.8 +/- 8.9 hours for those not intubated. For 6 patients an incorrect diagnosis was made on their first presentation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7487676",
+            "title": "Effect of ibuprofen treatment during experimental acute otitis media.",
+            "authors": [
+              "Diven W F",
+              "Evans R W",
+              "Swarts J D",
+              "Burckart G J",
+              "Doyle W J"
+            ],
+            "journal": "Auris, nasus, larynx",
+            "year": "1995",
+            "abstract": "In this study, the efficacy of concurrent treatment of experimental acute otitis media with ibuprofen and ampicillin was evaluated in chinchillas with respect to clearance of the effusion, presence of mucosal inflammation, and modulation of biochemical markers. Forty chinchillas were infected with non-typable Haemophilus influenzae and randomly assigned to treatment with either IM ampicillin (control) or ampicillin plus ibuprofen beginning on day 2 post inoculation. On days 5 and 10, animals fro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5046782",
+            "title": "The management of acute croup.",
+            "authors": [
+              "Jones R S"
+            ],
+            "journal": "Archives of disease in childhood",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24930374",
+            "title": "Laryngeal actinomycosis in an immunocompromised patient.",
+            "authors": [
+              "Patel Sheylan",
+              "Jaworek Aaron J",
+              "Patel Vatsal",
+              "Duckworth Lizette Vila",
+              "Sawhney Raja"
+            ],
+            "journal": "Journal of voice : official journal of the Voice Foundation",
+            "year": "2014",
+            "abstract": "Actinomycosis of the larynx represents an unusual presentation for a common bacterium comprising the oral and oropharyngeal florae. There are few cases reported in the literature of laryngeal actinomycosis occurring primarily in the immunocompromised population. Here, we present a case in a 74-year-old man that occurred in the setting of neutropenia as a result of chemotherapy. Once the diagnosis was made with biopsy of the larynx, the infection was resolved after a prolonged course of penicilli",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3347186",
+            "title": "Adult epiglottitis.",
+            "authors": [
+              "Walker P J",
+              "Dwyer D E",
+              "Curotta J H"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1988",
+            "abstract": "Adult epiglottitis is a disease that is well known to otolaryngologists, but is less commonly encountered in general medical practice. It is being recognized with increasing frequency, and in many respects is different from paediatric epiglottitis. Three patients with adult epiglottitis are described, with an emphasis on the variation in clinical presentation and the difficulty in diagnosis. The appropriate examinations and the management of the disease are discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "細菌性喉炎（包括急性會厭炎、聲門下膿腫、鼻硬結病）主要病原體為 Haemophilus influenzae、Streptococcus pyogenes、Klebsiella rhinoscleromatis（鼻硬結病）及 Actinomyces spp.，皆具細胞壁，ampicillin 覆蓋率佳。然而多數喉炎為病毒性，抗生素無效，且 H. influenzae b 型疫苗已大幅降低細菌性會厭炎發生率。現行急性會厭炎多以 ceftriaxone 或 amoxicillin/clavulanate 為首選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "gonococcal urethritis",
+      "txgnn": {
+        "score": 0.9936344623565674,
+        "rank": 7701
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6231755",
+            "title": "Gonococcal urethritis.",
+            "authors": [
+              "Harrison W O"
+            ],
+            "journal": "The Urologic clinics of North America",
+            "year": "1984",
+            "abstract": "Gonorrhea continues to maintain its position as the most common reportable infectious disease in the United States. Penicillin is still the antibiotic of choice for the treatment of uncomplicated gonococcal urethritis in most of the United States, but the increasing incidence of penicillinase-producing Neisseria gonorrhoeae (PPNG) in many areas of the world necessitates a reconsideration of standard therapy. In addition to penicillin resistance, the gonococcus is also developing resistance to sp",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "393363",
+            "title": "Comparison of minocycline and ampicillin in gonococcal urethritis.",
+            "authors": [
+              "Waugh M A",
+              "Cooke E M",
+              "Nehaul B B",
+              "Brayson J"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1979",
+            "abstract": "A prospective, randomised, single-blind trial was carried out to compare the efficacy and tolerability of minocycline and ampicillin in the treatment of gonorrhoea in men. One hundred and twenty men were treated with minocycline 300 mg and 121 men with ampicillin 2 g and probenecid 1 g. Cure rates were similar in both groups of patients. There were few side effects. Of 135 strains of Neisseria gonorrhoeae tested to different concentrations of minocycline and penicillin, two were resistant to pen",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1091381",
+            "title": "Neonatal and childhood gonococcal infections.",
+            "authors": [
+              "Israel K S",
+              "Rissing K B",
+              "Brooks G F"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1975",
+            "abstract": "Maternal, fetal, and neonatal morbidity and mortality can be significantly decreased by selective screening of prenatal patients for gonorrhea, early treatment, and follow-up cultures after treatment for gonorrhea. Ophthalmia is the most significant neonatal gonococcal infection. Administration of silver nitrate at delivery is the best prophylaxis against gonococcal ophthalmia. Treatment of gonococcal ophthalmia, however, requires parenteral penicillin, conjunctival antimicrobial therapy, and ho",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "678956",
+            "title": "Talampicillin and probenecid compared with ampicillin and probenecid for the treatment of gonococcal urethritis in men.",
+            "authors": [
+              "Al-Egaily S",
+              "Dunlop E M",
+              "Rodin P",
+              "Seth A D"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1978",
+            "abstract": "Two hundred and ten men suffering from uncomplicated gonococcal urethritis were treated with one of two treatment schedules. Of 109 patients treated with 3 g ampicillin and 2 g probenecid (group A) there were two recurrences in the first week after treatment and none in the second week. Of 101 patients treated with 1.5 g talampicillin and 2 g probenecid (group B), there were three recurrences in the first week and none in the second week. Both antibiotics were well tolerated, but one patient vom",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4272504",
+            "title": "Single-dose treatment of gonococcal urethritis in males: evaluation of procaine penicillin, ampicillin and spectinomycin.",
+            "authors": [
+              "Mitchell R W",
+              "Robson H G"
+            ],
+            "journal": "Canadian Medical Association journal",
+            "year": "1974",
+            "abstract": "Males with acute gonococcal urethritis were treated at random with 2.4 million units aqueous procaine penicillin G intramuscularly plus 1.0 g. probenecid orally, 3.5 g. ampicillin orally plus 1.0 g. probenecid orally, or 2.0 g. spectinomycin intramuscularly. The overall follow-up was 97%. All treatments were of equal efficacy, eradication of gonococcal disease being observed in 93 to 97% of treated patients. Treatment failures occurred in each drug group and pre-treatment isolates recovered from",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4215559",
+            "title": "Comparison of amoxicillin and ampicillin in single-dose oral treatment of males with gonococcal urethritis.",
+            "authors": [
+              "Mitchell R W",
+              "Robson H G"
+            ],
+            "journal": "Canadian Medical Association journal",
+            "year": "1974",
+            "abstract": "Amoxicillin in single oral doses of 2.0 g, 2.0 g plus 1.0 g probenecid, or 3.0 g was compared with ampicillin 3.5 g plus 1.0 g probenecid in the treatment of 203 males with uncomplicated acute gonococcal urethritis. Cure rates above 95% were produced by all treatments except the 2.0-g amoxicillin dose, which cured 89% of patients. Of 198 pretreatment gonococcus isolates tested by an agar dilution technique for susceptibility to penicillin G, ampicillin and amoxicillin, over 50% showed relative r",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4099156",
+            "title": "Oral ampicillin in uncomplicated gonorrhoea. I. Treatment of gonococcal urethritis in men.",
+            "authors": [
+              "Eriksson G"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2958947",
+            "title": "Single-dose treatment of uncomplicated acute gonococcal urethritis in Ethiopian men: comparison of rosoxacin, spectinomycin, penicillin, and ampicillin.",
+            "authors": [
+              "Habte-Gabr E",
+              "Geyid A",
+              "Serdo D",
+              "Biddle J",
+              "Perine P L"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1987",
+            "abstract": "A total of 140 Ethiopian men with gonococcal urethritis were randomly assigned to treatment with aqueous procaine penicillin G (4.8 X 10(6) units intramuscularly [im] plus 1.0 g of oral probenicid); oral ampicillin (3.5 g plus 1.0 g of oral probenicid); spectinomycin (2.0 g im); or oral rosoxacin (Acrosoxacin; 300 mg). Failure rates were 24%, 19%, zero, and 3%, respectively. Forty-four (31.4%) patients were infected with penicillinase-producing Neisseria gonorrhoeae (PPNG) and were evenly distri",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4212038",
+            "title": "Gonococcal oro- and nasopharyngeal infection.",
+            "authors": [
+              "Stolz E",
+              "Schuller J"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6459764",
+            "title": "Comparative efficacy of piperacillin and penicillin G in treatment of gonococcal urethritis.",
+            "authors": [
+              "Landis S J",
+              "Ramphal R",
+              "Mansheim B J",
+              "Rand K H",
+              "Shands J W"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1981",
+            "abstract": "The comparative efficacy of 2 g of piperacillin and 4.8 X 10(6) U of penicillin G in the treatment of uncomplicated gonococcal urethritis was assessed in a randomized prospective study. Sixty-five evaluable patients received piperacillin, and 55 received penicillin G. All patients received either therapy were cured of gonorrhea. We conclude that piperacillin is as efficacious as aqueous procaine penicillin G in the therapy of uncomplicated gonococcal urethritis.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14139119",
+            "title": "GONOCOCCAL URETHRITIS TREATED WITH AMPICILLIN, A SYNTHETIC ORAL PENICILLIN.",
+            "authors": [
+              "MARMELL M",
+              "SILLS J R",
+              "BROWN C D",
+              "PRIGOT A"
+            ],
+            "journal": "New York state journal of medicine",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14142343",
+            "title": "[TREATMENT OF URETHRITIS WITH AMPICILLIN AND BY A SULFONAMIDE (MESULFIN)].",
+            "authors": [
+              "SYLVESTRE L",
+              "ETHIER J"
+            ],
+            "journal": "L'union medicale du Canada",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3094439",
+            "title": "Comparative trial of single-dose ciprofloxacin and ampicillin plus probenecid for treatment of gonococcal urethritis in men.",
+            "authors": [
+              "Roddy R E",
+              "Handsfield H H",
+              "Hook E W"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1986",
+            "abstract": "In a double-blind comparative trial, 100 men with uncomplicated gonorrhea caused by beta-lactamase-negative Neisseria gonorrhoeae were treated with a single 0.25-g dose of ciprofloxacin administered orally or with 3.5 g of ampicillin plus 1.0 g of probenecid administered orally. Urethral infection was eradicated in all 49 men treated with ciprofloxacin and in 47 (92%) of 51 men treated with ampicillin-probenecid (P = 0.12). The geometric mean MICs for pretreatment isolates were 0.008 microgram o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2978862",
+            "title": "Ofloxacin in the treatment of gonococcal and chlamydial urethritis.",
+            "authors": [
+              "Blomer R",
+              "Bruch K",
+              "Klose U"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "1988",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6789467",
+            "title": "Gonococcal urethritis with bilateral tysonitis and periurethral abscess.",
+            "authors": [
+              "Subramanian S"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1981",
+            "abstract": "A case of gonococcal urethritis with bilateral tysonitis and periurethral abscess is described. The diagnosis of gonococcal urethritis was made by microscopic detection of typical gram-negative intracellular diplococci in cells of the urethral discharge. The patient was treated with oral ampicillin and probenecid for ten days together with oral oxytetracycline for seven days; he responded favorably to antibiotics, and surgical intervention was unnecessary.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4901714",
+            "title": "[Comparative study of the therapeutic effect of a single dose of hetacillin and ampicillin in gonococcal urethritis].",
+            "authors": [
+              "Rodriguez Duarte C",
+              "Flores E J",
+              "Puchi Ferrer J A"
+            ],
+            "journal": "Revista venezolana de urologia",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7334952",
+            "title": "Single-dose oral ampicillin in the treatment of gonococcal urethritis in males.",
+            "authors": [
+              "Bakar R",
+              "Lim V K"
+            ],
+            "journal": "The Medical journal of Malaysia",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6692690",
+            "title": "Gonorrhea.",
+            "authors": [
+              "Harrison W O"
+            ],
+            "journal": "Cutis",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4124018",
+            "title": "Sensitivity of gonococcal strains to penicillin G, ampicillin and doxycycline in a Finnish metropolitan material in 1971.",
+            "authors": [
+              "Lassus A",
+              "Renkonen O V",
+              "Johansson E A",
+              "Förström L"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6453520",
+            "title": "Treating gonorrhea.",
+            "authors": [
+              "Fiumara N J"
+            ],
+            "journal": "American family physician",
+            "year": "1981",
+            "abstract": "The records of 1,381 patients with gonorrhea were examined by the Massachusetts Department of Public Health to determine the efficacy of their treatment schedules. Urethritis, cervicitis and pharyngitis were treated with 4.8 million u. of aqueous procaine penicillin G intramuscularly, without probenecid. Cure rates were 98 percent in urethritis, 97 percent in pharyngitis and 98 percent in cervicitis. Patients allergic to penicillin were treated with tetracycline orally or spectinomycin intramusc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Neisseria gonorrhoeae 具有肽聚糖細胞壁，PBP（penicillin-binding proteins）為有效靶點，Ampicillin 歷史上為第一線口服治療（3.5 g + probenecid，單次口服）。然而自 1970 年代起，質體介導的 β-lactamase（PPNG：penicillinase-producing N. gonorrhoeae）廣泛流行（部分地區達 30% 以上），WHO/CDC 自 1980 年代末已不再建議 penicillin 類用於淋病。現行標準為 ceftriaxone 500 mg IM 單次。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Ureaplasma urethritis",
+      "txgnn": {
+        "score": 0.9936344623565674,
+        "rank": 7702
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35483632",
+            "title": "Emergence of genital infections due to Haemophilus pittmaniae and Haemophilus sputorum.",
+            "authors": [
+              "Franco-Acosta A",
+              "Espadafor-López B",
+              "Rosales-Castillo A",
+              "Navarro-Marí J M",
+              "Gutiérrez-Fernández J"
+            ],
+            "journal": "Infectious diseases now",
+            "year": "2022",
+            "abstract": "We report for the first time the association of Haemophilus pittmaniae and Haemophilus sputorum with urethritis in men who have sex with men and who engage in unprotected intercourse.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "379366",
+            "title": "Etiology, manifestations and therapy of acute epididymitis: prospective study of 50 cases.",
+            "authors": [
+              "Berger R E",
+              "Alexander E R",
+              "Harnisch J P",
+              "Paulsen C A",
+              "Monda G D"
+            ],
+            "journal": "The Journal of urology",
+            "year": "1979",
+            "abstract": "There were 50 patients with acute epididymitis who were evaluated prospectively by history, examination and microbiologic studies, including cultures for aerobes, anaerobes, Neisseria gonorrhoeae, Chlamydia trachomatis and Ureaplasma urealyticum. Escherichia coli was the predominant pathogen isolated from the urine of men more than 35 years old, while Chlamydia trachomatis and Neisseria gonorrhoeae were the predominant pathogens isolated from the urethra of men less than 35 years old. The etiolo",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2183719",
+            "title": "Single-dose oral cefixime versus amoxicillin plus probenecid for the treatment of uncomplicated gonorrhea in men.",
+            "authors": [
+              "Megran D W",
+              "Lefebvre K",
+              "Willetts V",
+              "Bowie W R"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1990",
+            "abstract": "In this randomized study, a single 800-mg oral dose of cefixime cured 96 of 97 men with uncomplicated gonococcal urethritis, compared with 44 cures of 46 men who received standard therapy with amoxicillin (3 g) plus probenecid (1 g). Both regimens were ineffective against coexistent infection with Chlamydia trachomatis and Ureaplasma urealyticum. Cefixime was well tolerated, and all side effects were mild and self-limited.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21947096",
+            "title": "[Which is the best empirical treatment in patients with urethritis?].",
+            "authors": [
+              "Orellana M A",
+              "Gómez-Lus M L"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2011",
+            "abstract": "To know the best empirical treatment of urethritis in patients at the City Center of Madrid.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6406199",
+            "title": "[Gonorrheal urethritis--frequently a mixed Chlamydia and Mycoplasma infection. Results in 143 male patients with acute gonorrhea].",
+            "authors": [
+              "Jahn G",
+              "Jenisch A",
+              "Blenk H"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1983",
+            "abstract": "Chlamydia trachomatis, Ureaplasma urealyticum and Mycoplasma hominis are frequently demonstrated in cases of acute gonorrhoeic urethritis. Among 143 males (average age 22.5 years) Chlamydia was demonstrated in 29%, U. urealyticum in 34% and M. hominis in 13%. Penicillin treatment of gonorrhoea does not affect Chlamydia and Mycoplasma so that these organisms will persist in the lower urogenital tract. Generally postgonorrhoeic urethritis is associated with Chlamydia or Mycoplasma infection. Nearl",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7256497",
+            "title": "Eradication of Chlamydia trachomatis from the urethras of men with nongonococcal urethritis by treatment with amoxicillin.",
+            "authors": [
+              "Bowie W R",
+              "Alexander E R",
+              "Holmes K K"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1981",
+            "abstract": "Twenty men with nongonococcal urethritis were treated orally with amoxicillin (750 mg three times daily for 10 days). One man had herpes simplex virus infection of the urethra. Chlamydia trachomatis was isolated from the urethras of six (32) of the remaining men. Urethral specimens cultured for C. trachomatis became negative during amoxicillin therapy for all six men and remained negative for all five men who were followed for 24-48 days. Amoxicillin did not eradicate Ureaplasma urealyticum from",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10532980",
+            "title": "A double-blind, randomized, controlled multicentre study to compare the efficacy of ciprofloxacin with pivampicillin as oral therapy for epididymitis in men over 40 years of age.",
+            "authors": [
+              "Eickhoff J H",
+              "Frimodt-Møller N",
+              "Walter S",
+              "Frimodt-Møller C"
+            ],
+            "journal": "BJU international",
+            "year": "1999",
+            "abstract": "To compare the efficacy and safety of ciprofloxacin 500 mg orally twice daily with pivampicillin 700 mg orally twice daily for 10 days in men with acute epididymitis and over 40 years of age.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3817953",
+            "title": "Modified TALC colour change medium for the identification of Ureaplasma urealyticum.",
+            "authors": [
+              "Deodhar L P",
+              "Gogate A S"
+            ],
+            "journal": "Indian journal of pathology & microbiology",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ureaplasma urealyticum 屬黴漿菌綱（Mollicutes），完全缺乏肽聚糖細胞壁，僅有細胞膜包覆。Ampicillin 的作用機轉為抑制 PBP 介導的肽聚糖合成，故對無細胞壁的 Ureaplasma 完全無效（非耐藥性問題，而是根本性機轉不相容）。Ureaplasma 感染需以 doxycycline 或 azithromycin 治療。TxGNN 高分（0.9936）可能反映圖嵌入中 Ureaplasma urethritis 與淋菌性尿道炎節點相鄰的人工信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn": {
+        "score": 0.9933558702468872,
+        "rank": 7960
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02927834",
+            "title": "The Role of Oral Steroids in the Management of Chronic Rhinosinusitis Without Nasal Polyps",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2015-08",
+            "completion_date": "2019-01",
+            "brief_summary": "Chronic rhinosinusitis is a common disease that effects millions of people world wide. Despite its frequency it is unclear what treatment options are the best for these patients. Typically patients with chronic rhinosinusitis without nasal polyps (CRSsNP) are given a long term antibiotic (3 weeks), nasal steroid sprays, saline nasal irrigation and occasionally oral steroids. Oral steroids benefit patients with chronic rhinosinusitis with nasal polyps (CRSwNP) however their role in non polyp pati",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，24 例，評估口服類固醇而非抗生素在 CRS（無鼻息肉）的角色；不相關。"
+            }
+          },
+          {
+            "nct_id": "NCT03369717",
+            "title": "Use of Perioperative Antibiotics in Endoscopic Sinus Surgery",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 24,
+            "start_date": "2018-08-01",
+            "completion_date": "2020-05-07",
+            "brief_summary": "The objective of this study is to determine whether the use of postoperative antibiotics following endoscopic sinus surgery (ESS) decreases postoperative infection rates. This is a multi-institutional prospective study involving Albert Einstein College of Medicine/Montefiore Medical Center, Columbia University Medical Center, Weill Cornell Medical College, Mount Sinai Health System, and New York University Langone Medical Center. The study design will be a multi-institutional prospective randomi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，24 例，提前終止（TERMINATED）；圍手術期抗生素使用，未完成，不可使用。"
+            }
+          },
+          {
+            "nct_id": "NCT02712502",
+            "title": "Open-label Comparative Safety and Efficacy Study of Levofloxacin and Amoxicillin Clavulanic Acid in Patients With Acute ,Bacterial Rhinosinusitis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2014-09",
+            "completion_date": "2014-12",
+            "brief_summary": "Inflammatory paranasal diseases are among the most common diseases in ENT In Russia, puncture method has been conventional approach to treatment of maxillary sinusitis. However, this procedure is associated with a number of drawbacks A promising trend for the treatment of purulent sinusitis is a reasonable antibacterial therapy Fluoroquinolones, particularly levofloxacin, are highly active against pneumonocci and are more active vs. the drug products of the second generation against intracellula",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase N/A，100 例，比較 levofloxacin vs amoxicillin/clavulanate；研究 amoxicillin 的 inhibitor 組合，不直接測試 ampicillin，但提供 β-lactam 在 CRS 的療效基準線。"
+            }
+          },
+          {
+            "nct_id": "NCT00335309",
+            "title": "Effectiveness of Maxillary Sinus Saline Irrigation in Conjunction With Systemic Antibiotic Therapy Versus Systemic Antibiotic Therapy Alone in the Management of Chronic Rhinosinusitis, a Prospective Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2005-10",
+            "completion_date": "2013-08",
+            "brief_summary": "The purpose of this study is to evaluate the effectiveness of maxillary sinus saline irrigation in conjunction with systemic antibiotic therapy versus systemic antibiotic therapy alone in the management of chronic rhinosinusitis, a prospective randomized controlled trial.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase NA，50 例，抗生素 + 鼻竇灌洗 vs 單獨抗生素治療 CRS；間接相關，無 ampicillin 特異性數據。"
+            }
+          },
+          {
+            "nct_id": "NCT00002149",
+            "title": "Acupuncture and Herbal Treatment of Chronic HIV Sinusitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To compare Traditional Chinese Medicine versus standard antibiotic therapy consisting of pseudoephedrine ( Sudafed ) plus amoxicillin / clavulanate potassium combination ( Augmentin ) in reducing symptoms and recurrence of acute HIV-related sinusitis.\n\nChronic sinusitis in HIV-infected individuals is a recurrent and persistent infection with potentially serious complications: it can exacerbate pulmonary disease, cause recurrences of life-threatening sepsis, and progress to central nervous system",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，40 例，HIV 患者鼻竇炎之針灸和草藥治療；與 ampicillin 無關。"
+            }
+          },
+          {
+            "nct_id": "NCT03809312",
+            "title": "The Use of Prophylactic Antibiotics in Endoscopy Sinus Surgery for Chronic Rhinosinusitis With or Without Polyp: A Randomized, Double-blind Clinical Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 134,
+            "start_date": "2019-08-14",
+            "completion_date": "2021-02",
+            "brief_summary": "This is a randomized, double-blind clinical trial on the prophylactic use of antibiotics in postoperative endoscopic sinus vs placebo surgery. Patients with chronic rhinosinusitis with or without polyps who have consented to endoscopic sinus surgery according to Canadian practice guidelines may be included in the study after approval by the Research Ethics Board of the University Hospital Center. Quebec and signature of consent.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，狀態 UNKNOWN，134 例；數據可用性不確定，無 ampicillin 特異性。"
+            }
+          },
+          {
+            "nct_id": "NCT01919411",
+            "title": "Prophylactic Antibiotics After Functional Endoscopic Sinus Surgery: a Randomized, Double-blind Placebo Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 134,
+            "start_date": "2013-02",
+            "completion_date": "2018-09",
+            "brief_summary": "Surgeons commonly prescribe post operative prophylactic antibiotics after sinus surgery. There is minimal data to support this. The investigators' study will aim to demonstrate that patients' quality of life and rate of post operative infection is the same whether they receive or do not receive antibiotics post operatively. The investigators hypothesis is that the disease specific quality of life of patients taking post-operative antibiotics is not inferior to the quality of life of patients who",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，134 例，FESS 後預防性抗生素 RCT；不特定測試 ampicillin，但評估 β-lactam 類在 CRS 手術後的角色。"
+            }
+          },
+          {
+            "nct_id": "NCT00377403",
+            "title": "Randomized Clinical Trial to Evaluate Guidelines for Acute Rhinosinusitis (Phase IV Study)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 172,
+            "start_date": "2006-10",
+            "completion_date": "2010-08",
+            "brief_summary": "This study will compare the symptom relief provided by 5 cold medicines versus the symptom relief provided by the same 5 cold medicines plus the antibiotic, amoxicillin, in people who have sinus infections. Treatment with amoxicillin may be more effective than treatment with cold medicines alone. Two hundred adult volunteers, aged 18 to 70 years old, with sinus infections will participate in this study for 28 days. Volunteers will receive a 10-day course of either amoxicillin or placebo (substan",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，172 例，評估 IDSA 急性鼻竇炎指引（amoxicillin-based regimen）vs 等待觀察；間接支持 β-lactam 在 rhinosinusitis 的地位。"
+            }
+          },
+          {
+            "nct_id": "NCT01825408",
+            "title": "A Randomized Cohort Trial Evaluating Duration of Antibiotic Therapy as Part of Maximal Medical Therapy for Chronic Rhinosinusitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2013-02",
+            "completion_date": "2014-06",
+            "brief_summary": "The purpose of this study is to determine the best duration(3 versus 6 weeks) of antibiotics as part of maximal medical therapy for treating chronic sinusitis and thus preventing patients from having to have sinus surgery. The hypothesis is that in the context of maximal medical therapy 3 weeks of antibiotics is not worse than 6 weeks of antibiotics at successfully treating chronic sinusitis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，40 例，評估 CRS 最大化藥物治療中抗生素療程長短（3 vs 6 週）；提供 β-lactam 療程設計參考。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19307886",
+            "title": "Rhinosinusitis in children and asthma severity.",
+            "authors": [
+              "Pawankar Ruby",
+              "Zernotti Mario E"
+            ],
+            "journal": "Current opinion in allergy and clinical immunology",
+            "year": "2009",
+            "abstract": "Rhinosinusitis is a common condition in children. The association between rhinosinusitis and asthma is supported by strong epidemiological and pathogenic evidence. Moreover, a close relationship between sinusitis and asthma severity has also been reported. This study shows the new findings in this strong relationship.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20015730",
+            "title": "Bacteriology and antimicrobial susceptibility of pediatric chronic rhinosinusitis: a 6-year result of maxillary sinus punctures.",
+            "authors": [
+              "Hsin Chung-Han",
+              "Su Mao-Chang",
+              "Tsao Chien-Han",
+              "Chuang Chun-Yi",
+              "Liu Chia-Ming"
+            ],
+            "journal": "American journal of otolaryngology",
+            "year": "2010",
+            "abstract": "Few studies in the past decade have focused on antimicrobial resistance of bacteria in pediatric rhinosinusitis. This study aimed to characterize organisms cultured from pediatric chronic rhinosinusitis, as well as current resistance patterns of pathogens.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35725311",
+            "title": "[The expression profile and potential regulatory mechanism of ACE2 in chronic rhinosinusitis with nasal polyps].",
+            "authors": [
+              "Huang W Q",
+              "Huang Z Z",
+              "Lai X P",
+              "Li Y",
+              "Chen X H"
+            ],
+            "journal": "Zhonghua er bi yan hou tou jing wai ke za zhi = Chinese journal of otorhinolaryngology head and neck surgery",
+            "year": "2022",
+            "abstract": "Objective: To preliminarily analyze the expression of angiotensin-converting enzyme 2 (ACE2) and to investigate its potential regulatory mechanism in chronic rhinosinusitis with nasal polyps (CRSwNP). Methods: Patients underwent nasal endoscopic surgery in the Third Affiliated Hospital of Sun Yat-sen University from February 2020 to May 2021 were selected, including 17 males and 6 females, aging from 23 to 66 years old. Expression of ACE2 was evaluated via immunohistochemical staining in control",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29959565",
+            "title": "Antibiofilm effects of amoxicillin-clavulanic acid and levofloxacin in patients with chronic rhinosinusitis with nasal polyposis.",
+            "authors": [
+              "Božić Dragana D",
+              "Pavlović Bojan",
+              "Milovanović Jovica",
+              "Jotić Ana",
+              "Čolović Jelena"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2018",
+            "abstract": "Microbial biofilms have been implicated in the pathogenesis of chronic rhinosinusitis with nasal polyposis (CRSwNP). The aim of our study was to evaluate in vitro effects of amoxicillin-clavulanic acid and levofloxacin on biofilm formation by bacterial species isolated from sinus tissue in patients with CRSwNP.",
+            "classification": {
+              "study_type": "Cohort + In vitro",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12787306",
+            "title": "Medical treatment reverses cytokine pattern in allergic and nonallergic chronic rhinosinusitis in asthmatic children.",
+            "authors": [
+              "Tosca Maria Angela",
+              "Cosentino Cristina",
+              "Pallestrini Eugenio",
+              "Riccio Anna Maria",
+              "Milanese Manlio"
+            ],
+            "journal": "Pediatric allergy and immunology : official publication of the European Society of Pediatric Allergy and Immunology",
+            "year": "2003",
+            "abstract": "A Th2 cytokine pattern has recently been reported both in allergic and nonallergic chronic rhinosinusitis in asthmatic children. The aim of the study was to evaluate the cytokine pattern in chronic rhinosinusitis in allergic and nonallergic asthmatic children before and after medical treatment. Thirty asthmatic children were evaluated, 18 males and 12 females (mean age 9.1 years). Sixteen were allergic and 14 were nonallergic. All children were asthmatic and suffered from chronic rhinosinusitis,",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12877453",
+            "title": "Improvement of clinical and immunopathologic parameters in asthmatic children treated for concomitant chronic rhinosinusitis.",
+            "authors": [
+              "Tosca Maria Angela",
+              "Cosentino Cristina",
+              "Pallestrini Eugenio",
+              "Caligo Giacomo",
+              "Milanese Manlio"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2003",
+            "abstract": "Chronic rhinosinusitis is frequently associated with asthma. A Th2 cytokine pattern has been recently reported in chronic rhinosinusitis in asthmatic children.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11685965",
+            "title": "Amoxicillin/clavulanate in chronic rhinosinusitis: tissue and serum distribution.",
+            "authors": [
+              "Passàli D",
+              "Mazzei T",
+              "Novelli A",
+              "Fallani S",
+              "Dentico P"
+            ],
+            "journal": "Acta oto-rhino-laryngologica Belgica",
+            "year": "2001",
+            "abstract": "Amoxicillin/clavulanate in chronic rhinosinusitis: tissue and serum distribution.",
+            "classification": {
+              "study_type": "Pharmacokinetic",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17162128",
+            "title": "Amoxicillin-clavulanic acid-induced hepatitis.",
+            "authors": [
+              "Cundiff Jason",
+              "Joe Stephanie"
+            ],
+            "journal": "American journal of otolaryngology",
+            "year": "2007",
+            "abstract": "The aim of this study was to report a rare side effect of amoxicillin-clavulanic acid resulting in drug-induced hepatitis in the treatment of chronic rhinosinusitis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31838920",
+            "title": "A 10-Year Follow-Up of a Randomized Prospective Study of 2 Treatments for Chronic Rhinosinusitis Without Nasal Polyps and Investigation of the Impact of Gastroeosophageal Reflux Disease in the Resistance to Treatment.",
+            "authors": [
+              "Lechien Jerome R",
+              "Debie Gersende",
+              "Mahillon Virginie",
+              "Thill Marie-Paule",
+              "Rodriguez Alexandra"
+            ],
+            "journal": "Ear, nose, & throat journal",
+            "year": "2021",
+            "abstract": "To compare the 2 long-term medical strategies in chronic rhinosinusitis without nasal polyps (CRSnNP) and to identify the role of gastroesophageal reflux disease (GERD) and Helicobacter pylori as factors of treatment failure.",
+            "classification": {
+              "study_type": "RCT 10-year follow-up",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10209612",
+            "title": "Bacteriology of chronic purulent secretions in chronic rhinosinusitis.",
+            "authors": [
+              "Klossek J M",
+              "Dubreuil L",
+              "Richet H",
+              "Richet B",
+              "Beutter P"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "1998",
+            "abstract": "The aim of this work was to study the bacterial flora of purulent secretions during chronic rhinosinusitis. We studied a total of 533 patients divided into two groups. The control population consisted of 139 adults (> 16 years) of both sexes seen in the community or hospitalized for less than 72 hours for non-rhinological conditions. The rhinosinusitis group consisted of 394 patients referred to the ENT clinic with chronic rhinosinusitis. All the patients with rhinosinusitis had had a post-nasal",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17910412",
+            "title": "[Cost-effectiveness of the treatment of acute and chronic rhinosinusitis at the IMSS].",
+            "authors": [
+              "Muñoz-Carlin María de Lourdes",
+              "Nevárez-Sida Armando",
+              "García-Contreras Fernando",
+              "Mendieta-Sevilla Sergio Raymundo",
+              "Constantino-Casas Patricia"
+            ],
+            "journal": "Revista de investigacion clinica; organo del Hospital de Enfermedades de la Nutricion",
+            "year": "2007",
+            "abstract": "Rhinosinusitis is one of the more common diseases encountered in outpatient visits to health care. The objective of this study was to determine the most cost-effective antibiotic treatment for patients with acute (RSA) and chronic rhinosinusitis (RSC) that is available at the Mexican Institute of Social Security (IMSS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22010340",
+            "title": "[Microbial profile and antibiotic susceptibility of chronic rhinosinusitis].",
+            "authors": [
+              "Xiao Lizhi",
+              "Zheng Jing",
+              "Yang Lei",
+              "Chen Jinhai",
+              "Lu Yingshen"
+            ],
+            "journal": "Lin chuang er bi yan hou tou jing wai ke za zhi = Journal of clinical otorhinolaryngology head and neck surgery",
+            "year": "2011",
+            "abstract": "To investigate distribution and drug-susceptibility of bacteria in patients with chronic rhinosinusitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26261565",
+            "title": "Bacterial extract OM-85 BV protects mice against experimental chronic rhinosinusitis.",
+            "authors": [
+              "Tao Yanli",
+              "Yuan Tiejun",
+              "Li Xuechang",
+              "Yang Shuqin",
+              "Zhang Fanping"
+            ],
+            "journal": "International journal of clinical and experimental pathology",
+            "year": "2015",
+            "abstract": "To investigate the therapeutic effects of OM-85 BV as an adjunctive treatment on experimental chronic rhinosinusitis (CRS) in mice.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27610609",
+            "title": "Amoxicillin-clavulanate for patients with acute exacerbation of chronic rhinosinusitis: a prospective, double-blinded, placebo-controlled trial.",
+            "authors": [
+              "Sabino Henrique Augusto Cantareira",
+              "Valera Fabiana Cardoso Pereira",
+              "Aragon Davi Casale",
+              "Fantucci Marina Zilio",
+              "Titoneli Carolina Carneiro"
+            ],
+            "journal": "International forum of allergy & rhinology",
+            "year": "2017",
+            "abstract": "The management of acute exacerbation of chronic rhinosinusitis (AECRS) is still under debate, especially because there are no adequate studies to support a best-evidence treatment for this condition. Antibiotic use for AECRS has been recommended based on extrapolation of data from acute rhinosinusitis (ARS) or non-placebo-controlled studies. This study aimed to evaluate whether antibiotic therapy modifies the course of AECRS in a randomized, placebo-controlled study.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15365536",
+            "title": "Nasal colonization with Staphylococcus aureus is not associated with the severity of symptoms or the extent of the disease in chronic rhinosinusitis.",
+            "authors": [
+              "Damm Michael",
+              "Quante Gero",
+              "Jurk Thorsten",
+              "Sauer Jan Alex"
+            ],
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2004",
+            "abstract": "There is an increasing knowledge that the severity of perennial allergic rhinitis is associated with nasal carriage of Staphylococcus aureus (S. aureus). The aim of this study was to evaluate the rate of bacterial colonization with S. aureus in the nose of subjects with and without chronic rhinosinusitis (CRS) and to correlate these findings with the severity of symptoms and the extent of the disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28881366",
+            "title": "[Not Available].",
+            "authors": [],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1693411",
+            "title": "Otitis media with effusion and chronic upper respiratory tract infection in children: a randomized, placebo-controlled clinical study.",
+            "authors": [
+              "Otten F W",
+              "Grote J J"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "1990",
+            "abstract": "This study was performed to investigate the course of spontaneous recovery from otitis media with effusion in children with chronic rhinosinusitis treated in various ways. One hundred forty-one children between 3 and 10 years of age were selected for the presence of chronic rhinosinusitis and unilateral or bilateral otitis media with effusion. The children were assigned at random to one of four treatment groups, i.e., placebo, amoxicillin combined with xylometazoline hydrochloride nose drops, ma",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41700376",
+            "title": "Pullulan-based nanofiber membranes with antibacterial and anti-inflammatory properties for rhinosinusitis therapy.",
+            "authors": [
+              "Elnahas Hana",
+              "Materon Luis",
+              "Tiwari Rahul",
+              "Yallapu Murali M",
+              "Padilla Victoria"
+            ],
+            "journal": "Therapeutic delivery",
+            "year": "2026",
+            "abstract": "Rhinosinusitis is a common inflammatory condition of the nasal cavity that often requires antimicrobial and anti-inflammatory therapy. This study aimed to develop a noninvasive, multifunctional nanofiber platform for localized rhinosinusitis treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41054784",
+            "title": "Amoxicillin/clavulanate as a cornerstone of antibiotic stewardship: integrating WHO AWaRe principles, Italian recommendations, and evidence-based practice.",
+            "authors": [
+              "Mattina Roberto",
+              "Scaglione Francesco"
+            ],
+            "journal": "Minerva medica",
+            "year": "2025",
+            "abstract": "Antimicrobial resistance (AMR) remains a critical global health concern, largely driven by inappropriate antibiotic use. To address this challenge, the World Health Organization (WHO) developed the AWaRe (Access, Watch, Reserve) classification, prioritizing the use of Access antibiotics - narrow-spectrum agents with proven efficacy and low resistance potential. Amoxicillin/clavulanate, included in the Access group, is widely endorsed in international and national guidelines, as a first-line opti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19178799",
+            "title": "Postoperative antibiotic care after functional endoscopic sinus surgery.",
+            "authors": [
+              "Jiang Rong-San",
+              "Liang Kai-Li",
+              "Yang Kung-Yaun",
+              "Shiao Jiun-Yih",
+              "Su Mao-Chang"
+            ],
+            "journal": "American journal of rhinology",
+            "year": "2008",
+            "abstract": "Antibiotics are used routinely in the postoperative care of functional endoscopic sinus surgery (FESS), but their efficacy has not been well evaluated.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CRS 主要病原體包括 Streptococcus pneumoniae、Haemophilus influenzae、Moraxella catarrhalis 及 Staphylococcus aureus。Ampicillin 對敏感 S. pneumoniae 和 H. influenzae 有效，但 β-lactamase 陽性的 H. influenzae（~50%）和 M. catarrhalis（~100%）對 plain ampicillin 耐藥。現行指引推薦 amoxicillin-clavulanate 作為首選 β-lactam（inhibitor 恢復覆蓋率）。Plain ampicillin 在 CRS 的臨床應用受限，但作為 amoxicillin 母體藥物，機轉仍相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn": {
+        "score": 0.9933018684387208,
+        "rank": 8005
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7805431",
+            "title": "A double-blind comparison of ciprofloxacin and amoxycillin/clavulanic acid in the treatment of chronic sinusitis.",
+            "authors": [
+              "Legent F",
+              "Bordure P",
+              "Beauvillain C",
+              "Berche P"
+            ],
+            "journal": "Chemotherapy",
+            "year": "1994",
+            "abstract": "A total of 251 adults with chronic sinusitis were enrolled into this prospective multicentre, double-blind, double-placebo comparison of ciprofloxacin (500 mg twice daily) with amoxycillin/clavulanic acid (500 mg three times daily). The diagnosis of chronic sinusitis (persistence of clinical symptoms for at least 3 months) was confirmed by computerized tomography scan and/or sinusoscopy prior to therapy. Patients at inclusion had purulent or muco-purulent rhinorrhoea. Staphylococcus aureus (n = ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9438060",
+            "title": "Bacteriology of chronic sinusitis after ampicillin therapy.",
+            "authors": [
+              "Jiang R S",
+              "Hsu C Y"
+            ],
+            "journal": "American journal of rhinology",
+            "year": "1997",
+            "abstract": "The bacteriologies of the maxillary and ethmoid sinuses were studied in 74 chronic sinusitis patients who took ampicillin (500 mg every 6 hours) for 2 weeks preoperatively. The specimens from one ipsilateral maxillary and ethmoid sinuses were obtained when undergoing functional endoscopic sinus surgery. In 74 specimens of the maxillary sinus, 38 bacterial isolates were recovered. The culture rate was 46.0%. On the other hand, 34 bacterial isolates were taken from the ethmoid sinus specimens. The",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11391261",
+            "title": "Bacteriology of chronic sinusitis after amoxicillin-clavulanate potassium therapy.",
+            "authors": [
+              "Jiang R S",
+              "Jang J W",
+              "Hsu C Y"
+            ],
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2001",
+            "abstract": "The bacteriology of chronic sinusitis was studied after amoxicillin-clavulanate potassium therapy. Patients with chronic sinusitis were randomly divided into 2 groups. In the study group, 90 patients were given a 2-week course of amoxicillin-clavulanate potassium before functional endoscopic sinus surgery. In the control group, 113 patients did not take any antibiotics within 2 weeks before the surgery. Swab specimens were taken from the maxillary and ethmoid sinuses during surgery and sent for ",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17371375",
+            "title": "Teaching case: Sinus headache.",
+            "authors": [
+              "Cooper Wade",
+              "Saper Joel R"
+            ],
+            "journal": "Headache",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8551146",
+            "title": "Antimicrobial management of chronic sinusitis in children.",
+            "authors": [
+              "Brook I",
+              "Yocum P"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "1995",
+            "abstract": "This study retrospectively investigated the microbiology and management of 40 children who suffered from chronic sinusitis. The sinuses infected were the maxillary (15 cases), ethmoid (13), and frontal (seven). Pansinusitis was present in five patients. All aspirates were cultured for aerobic and anaerobic bacteria. A total of 121 isolates (97 anaerobic and 24 aerobic) were recovered. Anaerobes were recovered from all 37 culture-positive specimens, and in 14 cases (38 per cent) they were mixed w",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29959565",
+            "title": "Antibiofilm effects of amoxicillin-clavulanic acid and levofloxacin in patients with chronic rhinosinusitis with nasal polyposis.",
+            "authors": [
+              "Božić Dragana D",
+              "Pavlović Bojan",
+              "Milovanović Jovica",
+              "Jotić Ana",
+              "Čolović Jelena"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2018",
+            "abstract": "Microbial biofilms have been implicated in the pathogenesis of chronic rhinosinusitis with nasal polyposis (CRSwNP). The aim of our study was to evaluate in vitro effects of amoxicillin-clavulanic acid and levofloxacin on biofilm formation by bacterial species isolated from sinus tissue in patients with CRSwNP.",
+            "classification": {
+              "study_type": "Cohort + In vitro",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8378279",
+            "title": "[Infectious sinusitis in HIV infection. Clinical and therapeutic data on 20 patients].",
+            "authors": [
+              "Lacassin F",
+              "Longuet P",
+              "Perronne C",
+              "Leport C",
+              "Gehanno P"
+            ],
+            "journal": "Presse medicale (Paris, France : 1983)",
+            "year": "1993",
+            "abstract": "To assess the clinical presentation and outcome of infectious sinusitis in HIV-infected patients, we analyzed in a retrospective study, the records of HIV-infected patients hospitalized from June 1986 to November 1989. Twenty-eight episodes of infectious sinusitis, defined by radiological signs, were recorded in 20 HIV-infected patients. Clinical presentation suggestive of acute sinusitis was inconstant and in 6 episodes a persistent fever was the only symptom. Concomitant pneumonia was detected",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18095501",
+            "title": "[Recurrent bacterial meningitis in a case of Crouzon syndrome after craniofacial surgery].",
+            "authors": [
+              "Nakae Yoshiharu",
+              "Shimamura Megumi",
+              "Takahashi Tatsuya",
+              "Kuroiwa Yoshiyuki"
+            ],
+            "journal": "Rinsho shinkeigaku = Clinical neurology",
+            "year": "2007",
+            "abstract": "A 29-year-old woman, who was diagnosed as Crouzon syndrome for which two cranio-facial surgeries had been performed as a child and at the age of 19, developed high fever, headache, and confusion for two days. She was admitted to our hospital. She was diagnosed as bacterial meningitis by cerebrospinal fluid examinations, and her condition was immediately improved by antibiotics. At the age of 23, she also suffered from bacterial meningitis caused by otitis media and sinusitis, and recovered by an",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "篩竇炎的細菌學與 CRS 相似，以 S. pneumoniae、H. influenzae 為主。PMID 9438060（1997）直接研究 ampicillin 治療後慢性鼻竇炎細菌相變化，記錄篩選出 β-lactam 耐藥菌株的現象，提供 ampicillin 在此適應症中歷史性直接證據，但同時揭示其臨床侷限性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "gingivitis",
+      "txgnn": {
+        "score": 0.9928423166275024,
+        "rank": 8351
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00066066",
+            "title": "Effect of Three Periodontal Therapies in Current Smokers and Non-Smokers",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 146,
+            "start_date": "2003-07",
+            "completion_date": "2009-07",
+            "brief_summary": "The purpose of this study is to determine in current and non-smokers the clinical and microbiological effects of 3 therapies: scaling and root planing (SRP) alone; SRP in combination with the orally administered antibiotic metronidazole; and SRP with the orally administered antibiotics metronidazole and amoxicillin along with the locally delivered antibiotic doxycycline at periodontal pockets \\>= 4 mm.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，146 例，評估不同牙周治療方式在吸菸者vs非吸菸者的效果；研究重點為物理治療介入而非抗生素，與 ampicillin 無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT06131021",
+            "title": "Shaping the Indications for Periodontal Adjunctive Antibiotics in Dental Practice: A PBRN Clinical Trial",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 150,
+            "start_date": "2024-04-25",
+            "completion_date": "2026-05-26",
+            "brief_summary": "Periodontitis is a bacterial inflammatory disease and antibiotic use is being empirically used as part of its treatment. However, a clinical practice guideline on periodontal treatment adjuncts published in 2015 identified weak evidence on the use of systemic antibiotics and large heterogeneity across small scale studies, suggesting that larger pragmatic clinical trials would benefit clinical decision making. This will be a prospective, randomized, placebo-controlled trial, stratified by practic",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，招募中，150 例；評估牙周輔助性抗生素在真實世界牙科診所的適應症，可能涵蓋 amoxicillin-type 藥物，間接支持 β-lactam 在牙周病的角色，但未完成。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36268928",
+            "title": "Antibiotic use in endodontic treatment during pregnancy: A narrative review.",
+            "authors": [
+              "Aliabadi Tahere",
+              "Saberi Eshagh Ali",
+              "Motameni Tabatabaei Amin",
+              "Tahmasebi Ebadolah"
+            ],
+            "journal": "European journal of translational myology",
+            "year": "2022",
+            "abstract": "More than half of pregnant women are usually affected by odontogenic pain affects. Pain often accompanies periapical or pulp infections and increases the risks to pregnant patients and their fetuses. The American Dental Association, in partnership with the American College of Obstetricians and Gynecologists, has offered a strong declaration reaffirming the significance of suitable and timely oral health care as an indispensable constituent of a healthy pregnancy. However, there is lack of knowle",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38699828",
+            "title": "Systemic antibiotics in the surgical treatment of peri-implantitis: A randomized placebo-controlled trial.",
+            "authors": [
+              "Riben Grundström Caroline",
+              "Lund Bodil",
+              "Kämpe Johan",
+              "Belibasakis Georgios N",
+              "Hultin Margareta"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2024",
+            "abstract": "To study the clinical, radiographic and microbiological outcomes after surgical treatment of peri-implantitis, with or without adjunctive systemic antibiotics.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41050454",
+            "title": "Prevalence and characterization of β-lactamase-producing bacteria in gingivitis among diabetic and non-diabetic patients: a comparative microbiological study.",
+            "authors": [
+              "Alwashsiah Mohanned Mohamed",
+              "Abbas Asma Abdellatif"
+            ],
+            "journal": "Access microbiology",
+            "year": "2025",
+            "abstract": "Background. Gingivitis is a reversible gingival inflammation that may progress to periodontitis if untreated. Diabetes mellitus alters the oral microbiota and weakens host defenses, increasing susceptibility to infection. Objectives. To investigate the prevalence and characterization of β-lactamase-producing bacteria isolated from gingival swabs of diabetic and non-diabetic patients with clinically confirmed gingivitis. Methods. Thirty-seven patients were enrolled (17 diabetics and 20 non-diabet",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16688581",
+            "title": "Characterization, bioactivity and ampicillin release kinetics of TiO2 and TiO24SiO2 synthesized by sol-gel processing.",
+            "authors": [
+              "Catauro M",
+              "Raucci M G",
+              "Convertito C",
+              "Melisi D",
+              "Rimoli M G"
+            ],
+            "journal": "Journal of materials science. Materials in medicine",
+            "year": "2006",
+            "abstract": "Local drug delivery of antimicrobics by sustained release delivery system can be used to treat periodontal disease. Advantages of these systems may include maintaining high levels of antibiotic in the gingival crevicular fluid for a sustained period of time and ease of use with high patient acceptance. The materials used are TiO(2) and TiO(2)4SiO(2), mixed with sodium ampicillin, a broad-spectrum antibiotic, have been synthesized by sol-gel method. The amorphous nature of the gels was ascertaine",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24294820",
+            "title": "Presence and antimicrobial profile of gram-negative facultative anaerobe rods in patients with chronic periodontitis and gingivitis.",
+            "authors": [
+              "Gamboa Fredy",
+              "García Dabeiba-Adriana",
+              "Acosta Adriana",
+              "Mizrahi Deborah",
+              "Paz Andreína"
+            ],
+            "journal": "Acta odontologica latinoamericana : AOL",
+            "year": "2013",
+            "abstract": "Chronic periodontitis is a multifactorial infectious disease associated with Gram-negative anaerobes which are part of the subgingival microflora. In recent years, studies have been conducted to assess the presence of Gram-negative facultative anaerobes (Enterobacteriaceae) and their participation in the development and progression of chronic periodontitis. The aim of this study was to determine the presence of Enterobacteriaceae in patients with chronic periodontitis and gingivitis and to asses",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17678431",
+            "title": "Diagnosis and anti-infective therapy of periodontitis.",
+            "authors": [
+              "Horz Hans-Peter",
+              "Conrads Georg"
+            ],
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2007",
+            "abstract": "Periodontal diseases (gingivitis and periodontitis) are chronic bacterial infections with a remarkably high prevalence and morbidity. Periodontitis, in contrast to gingivitis, is not reversible, is associated with certain bacterial species and affects all of the soft tissue and bone that support teeth. Among the periodontal pathogens, species, such as Aggregatibacter (Actinobacillus) actinomycetemcomitans, Porphyromonas gingivalis, Prevotella intermedia, Tannerella forsythensis, and several form",
+            "classification": {
+              "study_type": "Guidelines/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16379555",
+            "title": "Antimicrobial activity of berberine alone and in combination with ampicillin or oxacillin against methicillin-resistant Staphylococcus aureus.",
+            "authors": [
+              "Yu Hyeon-Hee",
+              "Kim Kang-Ju",
+              "Cha Jeong-Dan",
+              "Kim Hae-Kyoung",
+              "Lee Young-Eun"
+            ],
+            "journal": "Journal of medicinal food",
+            "year": "2005",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) bacteria have been responsible for substantial morbidity and mortality in hospitals because they usually have multidrug resistance. Some natural products are candidates as new antibiotic substances. In the present study, we investigated the antimicrobial activity of berberine, the main antibacterial substance of Coptidis rhizoma (Coptis chinensis Franch) and Phellodendri cortex (Phellodendron amurense Ruprecht), against clinical isolates of MRSA",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40015993",
+            "title": "Suppressive Effects of Kouboku on Methyl Mercaptan Production and Biofilm Formation in Porphyromonas gingivalis.",
+            "authors": [
+              "Taniguchi Yuri",
+              "Ouhara Kazuhisa",
+              "Sato Yoko",
+              "Shoji Mikio",
+              "Hou Yitong"
+            ],
+            "journal": "Molecular oral microbiology",
+            "year": "2025",
+            "abstract": "Porphyromonas gingivalis, the bacterium responsible for periodontitis, produces several pathogenic factors, including methyl mercaptan, which contribute to the disease. Kouboku (Magnoliaceae), a Chinese herbal medicine, has been shown to suppress methyl mercaptan production from P. gingivalis. In this study, we investigated the inhibitory effect of Kouboku on methyl mercaptan production, biofilm formation, P. gingivalis-host cell interactions, and its potential synergistic antibacterial effect w",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21142726",
+            "title": "Evaluation of the effectiveness of Er:YAG laser and conventional periodontal treatment in a patient with acute streptococcal gingivitis: a 2-year follow-up.",
+            "authors": [
+              "Gursoy-Mert H",
+              "Altan-Koran M",
+              "Noyan U",
+              "Kadir T",
+              "Cologlu S"
+            ],
+            "journal": "Photomedicine and laser surgery",
+            "year": "2010",
+            "abstract": "The aim of this study was to evaluate the effectiveness of Er:YAG laser and conventional periodontal therapy in the treatment of acute streptococcal gingivitis both clinically and microbiologically.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37463947",
+            "title": "Antimicrobial resistance and virulence of subgingival staphylococci isolated from periodontal health and diseases.",
+            "authors": [
+              "Colombo Ana Paula Vieira",
+              "do Souto Renata Martins",
+              "Araújo Lélia Lima",
+              "Espíndola Laís Christina Pontes",
+              "Hartenbach Fátima Aparecida R R"
+            ],
+            "journal": "Scientific reports",
+            "year": "2023",
+            "abstract": "The dysbiotic biofilm of periodontitis may function as a reservoir for opportunistic human pathogens of clinical relevance. This study explored the virulence and antimicrobial susceptibility of staphylococci isolated from the subgingival biofilm of individuals with different periodontal conditions. Subgingival biofilm was obtained from 142 individuals with periodontal health, 101 with gingivitis and 302 with periodontitis, and cultivated on selective media. Isolated strains were identified by ma",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8076172",
+            "title": "Clinical observations on the use of oral amoxycillin/clavulanate in the treatment of gingivitis in dogs and cats and anal sacculitis in dogs.",
+            "authors": [
+              "Jones R L",
+              "Godinho K S",
+              "Palmer G H"
+            ],
+            "journal": "The British veterinary journal",
+            "year": "1994",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40843516",
+            "title": "Early healing after regenerative periodontal surgery with or without antibiotics.",
+            "authors": [
+              "Dolińska Ewa",
+              "Pietruska Małgorzata",
+              "Milewski Robert",
+              "Sculean Anton"
+            ],
+            "journal": "Dental and medical problems",
+            "year": "2025",
+            "abstract": "The effectiveness of guided tissue regeneration (GTR) has been thoroughly documented. Since most post-GTR complications are related to the exposure of the membrane and its subsequent bacterial contamination, clinicians treat the incorporation of systemic antibiotics as an integral component of the standard surgical procedure. However, this approach remains controversial.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27262200",
+            "title": "Development of novel electrospun dual-drug fiber mats loaded with a combination of ampicillin and metronidazole.",
+            "authors": [
+              "Schkarpetkin Dennis",
+              "Reise Markus",
+              "Wyrwa Ralf",
+              "Völpel Andrea",
+              "Berg Albrecht"
+            ],
+            "journal": "Dental materials : official publication of the Academy of Dental Materials",
+            "year": "2016",
+            "abstract": "Our study was performed with the aim of preparing electrospun polylactide fibers with a combination of ampicillin (AMP) and metronidazole (MNZ) and investigating their drug release behavior and the antibacterial effect on Aggregatibacter actinomycetemcomitans and other oral pathogens.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31938962",
+            "title": "Gingival recession after scaling and root planing with or without systemic metronidazole and amoxicillin: a re-review.",
+            "authors": [
+              "Kaufmann Manuela E",
+              "Wiedemeier Daniel B",
+              "Zellweger Urs",
+              "Solderer Alex",
+              "Attin Thomas"
+            ],
+            "journal": "Clinical oral investigations",
+            "year": "2020",
+            "abstract": "Gingival recessions inevitably occur during healing after scaling and root planing, but synoptic data on this topic is still lacking. This review compared the recession formation with and without the administration of systemic antibiotics.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9618830",
+            "title": "Comparison of in vitro activity of azithromycin and ampicillin against 31 isolates of Streptococcus milleri.",
+            "authors": [
+              "Kaneko A",
+              "Sasaki J"
+            ],
+            "journal": "The Tokai journal of experimental and clinical medicine",
+            "year": "1997",
+            "abstract": "Antibacterial action of azithromycin against 31 strains of dental infection-derived Streptococcus milleri and tissue transfer of the agent were compared with ampicillin, the drug of first choice for dental infections. Concentrations required to inhibit 50% of isolates(MIC50) and Concentrations required to kill 50% of isolates(MBC50) were 0.10 and 0.2 microgram/ml, respectively, for azithromycin. The antibacterial action of azithromycin was 4 times more potent in than ampicillin. The MBC90 for az",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32385884",
+            "title": "Primer on etiology and treatment of progressive/severe periodontitis: A systemic health perspective.",
+            "authors": [
+              "Slots Jørgen"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2020",
+            "abstract": "Periodontology is an infectious disease-based discipline. The etiopathology of progressive/severe periodontitis includes active herpesviruses, specific bacterial pathogens, and proinflammatory cytokines. Herpesviruses and periodontopathic bacteria may interact synergistically to produce periodontal breakdown, and periodontal herpesviruses may contribute to systemic diseases. The infectious agents of severe periodontitis reside in deep pockets, furcation lesions, and inflamed gingiva, sites inacc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35668853",
+            "title": "Lemierre Syndrome Due to Dialister pneumosintes: A Case Report.",
+            "authors": [
+              "Hirai Jun",
+              "Kuruma Tessei",
+              "Sakanashi Daisuke",
+              "Kuge Yuji",
+              "Kishino Takaaki"
+            ],
+            "journal": "Infection and drug resistance",
+            "year": "2022",
+            "abstract": "Although Dialister pneumosintes is a commensal microorganism of the oral cavity, it may sometimes cause severe systemic infections. We report a case of Lemierre syndrome (LS), which developed after D. pneumosintes infection, in a 73-year-old Japanese woman who was admitted to the hospital for throat pain, neck swelling, and fever for 3 days. She had a 3-month history of neglected dental caries, gingivitis, and periodontitis. Physical examination revealed right tonsillar erythema and swelling, an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25037463",
+            "title": "Centipeda periodontii in human periodontitis.",
+            "authors": [
+              "Rams Thomas E",
+              "Hawley Charles E",
+              "Whitaker Eugene J",
+              "Degener John E",
+              "van Winkelhoff Arie J"
+            ],
+            "journal": "Odontology",
+            "year": "2015",
+            "abstract": "This study assessed the subgingival occurrence of the flagellated, Gram-negative, anaerobic rod Centipeda periodontii in chronic periodontitis and periodontal health/gingivitis with species-specific nucleic acid probes, and evaluated the in vitro resistance of subgingival isolates to therapeutic levels of amoxicillin, metronidazole, and doxycycline. Subgingival plaque biofilm specimens from 307 adults with chronic periodontitis, and 48 adults with periodontal health/localized gingivitis, were ev",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35913496",
+            "title": "Concise evaluation and therapeutic guidelines for severe periodontitis: A public health perspective.",
+            "authors": [
+              "Slots Jørgen"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2022",
+            "abstract": "The main goal of periodontology is to prevent and arrest gingivitis and periodontitis to avoid tooth loss and focal infection of periodontal origin. Periodontal scaling or flap surgery of moderate-to-severe periodontitis have shortcomings, most likely because removal of herpesviruses and bacterial pathogens in deep periodontal lesions and the adjacent inflamed gingiva requires systemic antimicrobial treatment (or gingivectomy). Valacyclovir (1000 mg twice daily on day 1, and 500 mg twice daily o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12366863",
+            "title": "Selection of antimicrobial agents in periodontal therapy.",
+            "authors": [
+              "Slots Jørgen"
+            ],
+            "journal": "Journal of periodontal research",
+            "year": "2002",
+            "abstract": "The recognition over the past 3 decades of microbial specificity in periodontitis has afforded dental practitioners the ability to prevent and treat the disease with a variety of antimicrobial drugs. These include systemic antibiotics, topical antibiotics and topical antiseptics.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "牙周病致病菌包含 Porphyromonas gingivalis、Fusobacterium nucleatum、Prevotella intermedia 等革蘭氏陰性厭氧菌及 Actinomyces spp.。Ampicillin 對 Actinomyces 有效，但多種牙周菌產 β-lactamase（PMID 41050454 2025 年記錄糖尿病患者牙齦炎 β-lactamase 陽性菌盛行率），且 P. gingivalis 對 ampicillin 耐藥。現行牙周感染推薦 amoxicillin + metronidazole 聯用或 amoxicillin/clavulanate，plain ampicillin 效果有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn": {
+        "score": 0.9920063614845276,
+        "rank": 9033
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23008010",
+            "title": "Invasive sinonasal actinomycosis: case report and literature review.",
+            "authors": [
+              "Vorasubin Nopawan",
+              "Wu Arthur W",
+              "Day Christina",
+              "Suh Jeffrey D"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "2013",
+            "abstract": "Actinomycosis is a rare anaerobic bacterial infection typically caused by Actinomyces israelii. Although part of normal flora in the oral cavity, and respiratory and digestive tracts, A israelii can give rise to pathologic infections most commonly reported in the oral cavity from odontogenic causes. We present a rare case of invasive actinomycosis presenting with extensive midface destruction involving the maxilla and paranasal sinuses, with mucosal necrosis mimicking an aggressive neoplasm. The",
+            "classification": {
+              "study_type": "Case Report + Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3710846",
+            "title": "[Penetration behavior of mezlocillin in chronic polypous inflamed mucosa of the paranasal sinuses].",
+            "authors": [
+              "Thumfart W",
+              "Burkhardt F"
+            ],
+            "journal": "HNO",
+            "year": "1986",
+            "abstract": "Recent investigations have shown that conservative treatment of chronic sinusitis, especially with polypi in the nasal cavity and in the paranasal sinuses, is not as successful as in acute inflammation. Surgical intervention to remove the diseased mucosa is necessary. The newly developed more conservative endonasal techniques may nevertheless allow spread of the pathogenic bacteria during surgery. Mezlocillin has a broad spectrum against both aerobic and anaerobic micro-organisms: its penetratio",
+            "classification": {
+              "study_type": "Pharmacokinetic",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4212216",
+            "title": "Orbital apex syndrome complicating frontal pyocoele.",
+            "authors": [
+              "Kander P L",
+              "Leaver P K"
+            ],
+            "journal": "The Journal of laryngology and otology",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "副鼻竇腫瘤為腫瘤性疾病，Ampicillin 為抗菌藥物，無任何抗腫瘤或抗增殖機轉。TxGNN 高分（0.9920）極可能為知識圖譜嵌入人工信號：副鼻竇腫瘤節點在圖中與感染性副鼻竇疾病節點鄰近，導致抗生素類藥物被錯誤預測為有效。唯一潛在情境為腫瘤合並繼發性感染時的治療，但此非「藥物再利用」範疇，而是標準感染管控。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "bacterial arthritis",
+      "txgnn": {
+        "score": 0.9910730719566344,
+        "rank": 9754
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03031210",
+            "title": "Treatment of Non-severe Community Acquired Pneumonia With Twice Daily Compared to Thrice Daily Regimen- A Non-inferiority Pragmatic Randomized-controlled Trial.",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 1370,
+            "start_date": "2017-06-11",
+            "completion_date": "2027-06-01",
+            "brief_summary": "The aim of this study will be to evaluate whether a twice-daily antibiotic regimen is non-inferior to a thrice-daily regimen for the treatment of non-severe community acquired pneumonia in children presenting at a paediatric Emergency Department (ED).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3，1370 例，社區獲得性肺炎試驗，與細菌性關節炎完全無關。此試驗可能因 H. influenzae/S. pneumoniae 覆蓋的圖嵌入關聯而被誤分配至此適應症。"
+            }
+          },
+          {
+            "nct_id": "NCT04563325",
+            "title": "Oral-only Antibiotics for Bone and Joint Infections in Children - A Nationwide Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "2020-09-15",
+            "completion_date": "2024-08-05",
+            "brief_summary": "A nationwide, multicenter, randomized, non-inferiority trial of children with bone and joint infections. The primary objective is to determine if oral-only antibiotics (experimental arm) is non-inferior to initial intravenous antibiotics followed by oral therapy (control arm). Children will be randomized 1:1. The total treatment duration is identical in both groups. The study is open label with blinding of the primary endpoint assessor.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，丹麥全國 RCT，180 例，完成。評估兒童骨關節感染全口服方案非劣性，支持 aminopenicillin 類口服序貫策略，間接支持 ampicillin 在 susceptible organisms 引起的兒童化膿性關節炎的臨床角色。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27976670",
+            "title": "Lyme borreliosis.",
+            "authors": [
+              "Steere Allen C",
+              "Strle Franc",
+              "Wormser Gary P",
+              "Hu Linden T",
+              "Branda John A"
+            ],
+            "journal": "Nature reviews. Disease primers",
+            "year": "2016",
+            "abstract": "Lyme borreliosis is a tick-borne disease that predominantly occurs in temperate regions of the northern hemisphere and is primarily caused by the bacterium Borrelia burgdorferi in North America and Borrelia afzelii or Borrelia garinii in Europe and Asia. Infection usually begins with an expanding skin lesion, known as erythema migrans (referred to as stage 1), which, if untreated, can be followed by early disseminated infection, particularly neurological abnormalities (stage 2), and by late infe",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12787521",
+            "title": "Gonococcal arthritis.",
+            "authors": [
+              "Bardin Thomas"
+            ],
+            "journal": "Best practice & research. Clinical rheumatology",
+            "year": "2003",
+            "abstract": "Gonococcal arthritis results from blood dissemination of Neisseria gonorrhoeae from primary sexually acquired mucosal infection. The disease has become rare in Western countries since the introduction of effective control programmes, but it still needs to be recognized promptly to avoid systemic, potentially life-threatening involvement, destructive changes associated with chronic arthritis and spread of the infection. Sexually active women are predominantly affected. Clinical features include p",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8179747",
+            "title": "Needle licker's osteomyelitis.",
+            "authors": [
+              "Swisher L A",
+              "Roberts J R",
+              "Glynn M J"
+            ],
+            "journal": "The American journal of emergency medicine",
+            "year": "1994",
+            "abstract": "Eikenella corrodens, a fastidious, slow-growing, gram-negative, facultative anaerobic bacillus may be encountered in wounds exposed to human saliva, especially human bites and head and neck infections. An unusual case of a mixed flora E corrodens and Streptococcus septic arthritis with adjacent osteomyelitis secondary to saliva contamination from licking an intravenous (i.v.) needle is presented. A literature search showed 53 previous cases of E corrodens infections in i.v. drug users. However, ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9012760",
+            "title": "Diagnosis and treatment of Lyme arthritis.",
+            "authors": [
+              "Steere A C"
+            ],
+            "journal": "The Medical clinics of North America",
+            "year": "1997",
+            "abstract": "Lyme arthritis typically causes intermittent attacks of oligoarticular arthritis in a few large joints, especially the knee. A small percentage of patients may develop chronic arthritis, again affecting primarily the knee. The diagnosis is usually based on the presence of this characteristic clinical picture, exposure in an endemic area, and a positive IgG antibody response to B. burgdorferi determined by ELISA and Western blotting. In addition, spirochetal DNA can often be detected in joint flu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "804363",
+            "title": "Disseminated gonococcal infection.",
+            "authors": [
+              "Handsfield H H"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2029838",
+            "title": "Serum and synovial fluid concentrations of ampicillin trihydrate in calves with suppurative arthritis.",
+            "authors": [
+              "Brown M P",
+              "Mayo M B",
+              "Gronwall R R"
+            ],
+            "journal": "The Cornell veterinarian",
+            "year": "1991",
+            "abstract": "Eight calves with suppurative arthritis were each given a single intramuscular injection of ampicillin trihydrate at a dose of 10 mg/kg. Ampicillin concentrations were measured serially in serum and in suppurative and normal synovial fluid over a 24-hour period. The mean peak serum concentration was 2.5 +/- 0.54 micrograms/ml 2 hours after injection. The highest concentration in normal synovial fluid was 3.5 +/- 0.40 micrograms/ml at 4 hours and the highest concentration in suppurative synovial ",
+            "classification": {
+              "study_type": "Animal PK",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37741341",
+            "title": "Antibiotic therapy for osteoarticular infections in 2023: Proposals from the Pediatric Infectious Pathology Group (GPIP).",
+            "authors": [
+              "Lorrot Mathie",
+              "Gillet Yves",
+              "Basmaci Romain",
+              "Bréhin Camille",
+              "Dommergues Marie-Aliette"
+            ],
+            "journal": "Infectious diseases now",
+            "year": "2023",
+            "abstract": "Most osteoarticular infections (OAI) occur via the hematogenous route, affect children under 5 years of age old, and include osteomyelitis, septic arthritis, osteoarthritis and spondylodiscitis. Early diagnosis and prompt treatment are needed to avoid complications. Children with suspected OAI should be hospitalized at the start of therapy. Surgical drainage is indicated in patients with septic arthritis or periosteal abscess. Staphylococcus aureus is implicated in OAI in children at all ages; K",
+            "classification": {
+              "study_type": "Guidelines",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23214260",
+            "title": "Ampicillin alone and in combination with riboflavin modulates Staphylococcus aureus infection induced septic arthritis in mice.",
+            "authors": [
+              "Mal Pinky",
+              "Ghosh Deboshree",
+              "Bandyopadhyay Debasish",
+              "Dutta Kallol",
+              "Bishayi Biswadev"
+            ],
+            "journal": "Indian journal of experimental biology",
+            "year": "2012",
+            "abstract": "Effects of ampicillin (Amp) in combination with riboflavin on septic arthritis in mice infected with Staphylococcus aureus have been reported. Ampicillin was given at 100 mg/kg after 24 h of infection, followed by riboflavin (Ribo) at 20 mg/kg body wt, after 2 h of Amp treatment. Mice were sacrificed at 3, 9, 15 days post infection (dpi). Combined treatment of infected mice with ampicillin and riboflavin eradicated the bacteria from blood, spleen and synovial tissue and showed a significant gros",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7899877",
+            "title": "Salmonella osteomyelitis and arthritis in sickle cell disease.",
+            "authors": [
+              "Anand A J",
+              "Glatt A E"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "1994",
+            "abstract": "Salmonellosis is one of the most frequent serious infections in sickle cell patients and remains a significant cause of morbidity and mortality in this population. Capillary occlusion secondary to intravascular sickling may devitalize and infarct the gut, permitting Salmonella invasion. Reduced function of the liver and spleen, together with interference with reticuloendothelial system function due to erythrophagocytosis, suppresses clearing of these organisms from the blood stream. Abnormal ops",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16435567",
+            "title": "Adjuvant arthritis-induced changes on ampicillin binding in serum and tissues under the influence of non-steroidal anti-inflammatory drugs in rats.",
+            "authors": [
+              "Tigka E",
+              "Daskala I",
+              "Rallis G",
+              "Anagnostopoulou S",
+              "Tesseromatis C"
+            ],
+            "journal": "European journal of drug metabolism and pharmacokinetics",
+            "year": "2005",
+            "abstract": "Adjuvant arthritis, as a model for investigating rheumatoid arthritis (RA), is characterized by reduced plasma albumin levels and interferes with drug binding in the plasma and tissues (liver and bone). Ampicillin interacts with non-steroidal anti-inflammatory drugs (NSAIDs) due to the acidic pk(a). The aim of this study was to investigate in vitro the concentrations of ampicillin in the serum, femur, mandible and liver proteins following the co-administration of ketoprofen, flurbiprofen, ibupro",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6785887",
+            "title": "Disseminated gonococcal infection (DGI) and gonococcal arthritis (GCA): II. Clinical manifestations, diagnosis, complications, treatment, and prevention.",
+            "authors": [
+              "Masi A T",
+              "Eisenstein B I"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "1981",
+            "abstract": "This is the second part of an integrated review of disseminated gonococcal infection (DGI) and gonococcal arthritis (GCA). It covers clinical manifestations, spectrum of GCA, diagnosis and treatment. These disorders are important since DGI may be the most frequent form of acute arthritis in sexually active younger females, and other selected groups. Although the spectrum of disease is varied, it may be classified into stages and clinical subgroups. N. gonorrhoeae strains causing DGI in the U.S. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1745624",
+            "title": "Ampicillin-sulbactam and ticarcillin-clavulanic acid: a comparison of their in vitro activity and review of their clinical efficacy.",
+            "authors": [
+              "Itokazu G S",
+              "Danziger L H"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "1991",
+            "abstract": "Sulbactam (SB) and clavulanic acid (CA) are irreversible inhibitors of the beta-lactamases in the Richmond and Sykes classes II-VI. When combined with ampicillin and ticarcillin, SB and CA, respectively, extend the spectrum of activity of these penicillins to include some beta-lactamase-producing aerobes (Enterobacteriaceae, Hemophilus influenzae, staphylococci) and anaerobes (Bacteroides fragilis group) which would otherwise be resistant. Neither effectively inhibits the class I beta-lactamases",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38141719",
+            "title": "Infective endocarditis and septic arthritis caused by Corynebacteriumstriatum.",
+            "authors": [
+              "Umemoto Daichi",
+              "Hara Shigeo",
+              "Nishioka Hiroaki"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2024",
+            "abstract": "Corynebacterium striatum occasionally causes nosocomial infections, such as catheter-related bloodstream infection and pneumonia; however, C. striatum-related infective endocarditis or septic arthritis is uncommon. We present the case of an 85-year-old woman with infective endocarditis at the native valve and septic arthritis at the native shoulder joint caused by C. striatum. The patient was admitted for a 10-day history of fever and right shoulder pain. She had no history of artificial device ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19217336",
+            "title": "Salazopyrine-induced aseptic meningitis.",
+            "authors": [
+              "Houitte Ronan",
+              "Abgueguen Pierre",
+              "Masson Charles"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2009",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4996345",
+            "title": "Disseminated gonococcal infection.",
+            "authors": [
+              "Holmes K K",
+              "Counts G W",
+              "Beaty H N"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3026018",
+            "title": "Efficacy and safety of sequential treatment with parenteral sulbactam/ampicillin and oral sultamicillin for skeletal infections in children.",
+            "authors": [
+              "Aronoff S C",
+              "Scoles P V",
+              "Makley J T",
+              "Jacobs M R",
+              "Blumer J L"
+            ],
+            "journal": "Reviews of infectious diseases",
+            "year": "1986",
+            "abstract": "Nine children with osteomyelitis and/or septic arthritis were treated sequentially with parenteral sulbactam/ampicillin and oral sultamicillin. Causative pathogens were identified in six cases; all were susceptible to the combination of ampicillin and sulbactam. The mean duration of parenteral therapy was 7.1 days (6-11 days), and the average hospital stay was 10.3 days (6-18 days). Peak serum bactericidal titers of greater than or equal to 1:8 were achieved in all patients during parenteral the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6610642",
+            "title": "A comparative study of osteomyelitis and purulent arthritis with special reference to aetiology and recovery.",
+            "authors": [
+              "Peltola H",
+              "Vahvanen V"
+            ],
+            "journal": "Infection",
+            "year": "1984",
+            "abstract": "We analysed the records of 44 paediatric cases of acute haematogenous osteomyelitis (age 0-14 years) and 25 cases of purulent arthritis (age 0-13 years). The annual incidences were 4.5 and less than two per 100,000 children, respectively. Bacteriologic diagnosis was achieved in 82% of the acute haematogenous osteomyelitis cases and in 40% of the acute purulent arthritis cases. Staphylococcus aureus was responsible for 70% of the proven acute haematogenous osteomyelitis and acute purulent arthrit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "263883",
+            "title": "Treatment of osteomyelitis and septic arthritis with cefazolin.",
+            "authors": [
+              "Fass R J"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1978",
+            "abstract": "Sixteen cases of severe osteomyelitis and septic arthritis caused by staphylococci, streptococci, gonococci, and a variety of gram-negative bacilli were treated with 4 to 8 g of parenteral cefazolin per day; nine received subsequent therapy with oral cephalexin or ampicillin. Of 16 infections, 15 were apparently cured. Cefazolin concentrations in those patients were: serum (peak), 25 to 216 micrograms/ml; synovial fluid, 24 to 46 micrograms/ml; and bone, 3.2 to 10.6 micrograms/g. Bacterial patho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15961016",
+            "title": "Chest pain and arthritis.",
+            "authors": [
+              "Levine Michael",
+              "Wong Deborah",
+              "Brown David F M",
+              "Nadel Eric S"
+            ],
+            "journal": "The Journal of emergency medicine",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11247866",
+            "title": "Antibiotic prophylaxis for haematogenous bacterial arthritis in patients with joint disease: a cost effectiveness analysis.",
+            "authors": [
+              "Krijnen P",
+              "Kaandorp C J",
+              "Steyerberg E W",
+              "van Schaardenburg D",
+              "Moens H J"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2001",
+            "abstract": "To assess the cost effectiveness of antibiotic prophylaxis for haematogenous bacterial arthritis in patients with joint disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "細菌性關節炎（化膿性關節炎）的主要病原體包含 Streptococcus spp.、Staphylococcus aureus、Enterococcus（老年人）、Kingella kingae（兒童）、Eikenella corrodens（咬傷）及 Neisseria gonorrhoeae（性活躍成人）。Ampicillin 對 Streptococcus、Enterococcus faecalis、Kingella、Eikenella、敏感淋球菌及 Salmonella（鐮刀型血球貧血症患者）具有抗菌活性，且具良好的關節滑囊液穿透性（PMID 2029838 動物 PK 數據：滑囊液峰值 3.5 μg/mL）。Guardrails：不覆蓋 MRSA、β-lactamase 陽性菌株；需培養結果指導。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "conjunctivitis",
+      "txgnn": {
+        "score": 0.9904474020004272,
+        "rank": 10212
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03187834",
+            "title": "Antibiotic Resistance and Microbiome in Children Aged 6-59 Months in Nouna, Burkina Faso",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 252,
+            "start_date": "2017-07-04",
+            "completion_date": "2019-09-01",
+            "brief_summary": "The use of antibiotics has saved millions of human lives, however consumption of antibiotics can select for antibiotic resistant organisms and may lead to changes in commensal microbiome. This study is designed to estimate the effect of antibiotic consumption on microbiome in a rural region of rural Burkina Faso. Changes in the intestinal and nasopharyngeal microbiome and resistome following a short course of antibiotics will be measured.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，252 例，評估 azithromycin 對兒童抗生素耐藥性和微生物相的影響；研究藥物為 azithromycin，非 ampicillin，間接提供 β-lactam 耐藥背景資料，相關性低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31524361",
+            "title": "Otitis Media: Rapid Evidence Review.",
+            "authors": [
+              "Gaddey Heidi L",
+              "Wright Matthew Thomas",
+              "Nelson Tracy N"
+            ],
+            "journal": "American family physician",
+            "year": "2019",
+            "abstract": "Acute otitis media (AOM) is the most common diagnosis in childhood acute sick visits. By three years of age, 50% to 85% of children will have at least one episode of AOM. Symptoms may include ear pain (rubbing, tugging, or holding the ear may be a sign of pain), fever, irritability, otorrhea, anorexia, and sometimes vomiting or lethargy. AOM is diagnosed in symptomatic children with moderate to severe bulging of the tympanic membrane or new-onset otorrhea not caused by acute otitis externa, and ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27800254",
+            "title": "Canaliculitis Awareness.",
+            "authors": [
+              "Balıkoğlu Yılmaz Melike",
+              "Şen Emine",
+              "Evren Ebru",
+              "Elgin Ufuk",
+              "Yılmazbaş Pelin"
+            ],
+            "journal": "Turkish journal of ophthalmology",
+            "year": "2016",
+            "abstract": "To evaluate the demographic characteristics, treatment, and results of patients with canaliculitis.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31788487",
+            "title": "Bacteriology and Antimicrobial Susceptibility Patterns of Childhood Acute Bacterial Conjunctivitis in Western Greece.",
+            "authors": [
+              "Oikonomakou Maria-Zoi",
+              "Makri Olga E",
+              "Panoutsou Eleni",
+              "Kagkelaris Konstantinos",
+              "Plotas Panagiotis"
+            ],
+            "journal": "Medical hypothesis, discovery & innovation ophthalmology journal",
+            "year": "2019",
+            "abstract": "Acute bacterial conjunctivitis is a common, highly contagious infection in children and is usually treated empirically with broad spectrum topical antibiotics. In the current study we investigated bacteriology and antibiotic susceptibility patterns in childhood acute bacterial conjunctivitis in Western Greece. We conducted a retrospective analysis of presumed acute bacterial conjunctivitis cases in ''Karamandaneio'' Pediatric General Hospital of Patras, Western Greece, between February 1, 2013 a",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5107631",
+            "title": "Gonorrheal conjunctivitis.",
+            "authors": [
+              "Thatcher R W",
+              "Pettit T H"
+            ],
+            "journal": "JAMA",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4135695",
+            "title": "Ocular vaccinia.",
+            "authors": [
+              "Rennie A G",
+              "Cant J S",
+              "Foulds W S",
+              "Pennington T H",
+              "Timbury M C"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25012226",
+            "title": "Non-typeable Haemophilus influenzae, an under-recognised pathogen.",
+            "authors": [
+              "Van Eldere Johan",
+              "Slack Mary P E",
+              "Ladhani Shamez",
+              "Cripps Allan W"
+            ],
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2014",
+            "abstract": "Non-typeable Haemophilus influenzae (NTHi) is a major cause of mucosal infections such as otitis media, sinusitis, conjunctivitis, and exacerbations of chronic obstructive pulmonary disease. In some regions, a strong causal relation links this pathogen with infections of the lower respiratory tract. In the past 20 years, a steady but constant increase has occurred in invasive NTHi worldwide, with perinatal infants, young children, and elderly people most at risk. Individuals with underlying como",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2181514",
+            "title": "Chlamydial infections.",
+            "authors": [
+              "Graham J M",
+              "Blanco J D"
+            ],
+            "journal": "Primary care",
+            "year": "1990",
+            "abstract": "Chlamydia causes many human infections and should be treated aggressively. Tetracycline or doxycycline are the drugs of choice, but erythromycin can be used if a drug allergy is present or if tetracyclines are contraindicated. In the pregnant woman, aggressive treatment can improve neonatal outcome. In the United States, each year 155,000 infants are exposed to Chlamydia trachomatis during the birth process, and more than 100,000 will be infected. Of these, 75,000 will get conjunctivitis, and 30",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4209511",
+            "title": "Gonorrhea.",
+            "authors": [
+              "Barrett-Connor E"
+            ],
+            "journal": "Current problems in pediatrics",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6445255",
+            "title": "Gonococcal diseases.",
+            "authors": [
+              "Wiesner P J",
+              "Thompson S E"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33457332",
+            "title": "Bacterial Etiology and Antibiotic Susceptibility of Conjunctivitis Patients' Isolates in Kashan, Iran.",
+            "authors": [
+              "Shaeri Mahdi",
+              "Nazari-Alam Ali",
+              "Fathizadeh Hadis",
+              "Moniri Rezvan",
+              "Akbari Hosein"
+            ],
+            "journal": "Advanced biomedical research",
+            "year": "2020",
+            "abstract": "Conjunctivitis is a very common ocular disease, which can be caused by a wide variety of microorganisms. This study was aimed to assess the bacterial etiology and antibiotic susceptibility of conjunctivitis patients' isolates from Central Iran.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22644963",
+            "title": "Microbiological etiology and susceptibility of bacterial conjunctivitis isolates from clinical trials with ophthalmic, twice-daily besifloxacin.",
+            "authors": [
+              "Haas Wolfgang",
+              "Gearinger Lynne S",
+              "Hesje Christine K",
+              "Sanfilippo Christine M",
+              "Morris Timothy W"
+            ],
+            "journal": "Advances in therapy",
+            "year": "2012",
+            "abstract": "Bacterial conjunctivitis is a contagious infection of the surface of the eye usually treated empirically with topical antibiotics. Since the etiologic agent is rarely identified, it is important to monitor which bacteria cause conjunctivitis and determine their antibacterial resistance profiles.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33420151",
+            "title": "Predominant role of Haemophilus influenzae in the association of conjunctivitis, acute otitis media and acute bacterial paranasal sinusitis in children.",
+            "authors": [
+              "Hu Ya-Li",
+              "Lee Ping-Ing",
+              "Hsueh Po-Ren",
+              "Lu Chun-Yi",
+              "Chang Luan-Yin"
+            ],
+            "journal": "Scientific reports",
+            "year": "2021",
+            "abstract": "Haemophilus influenzae is a predominant pathogen for conjunctivitis, acute otitis media and acute bacterial paranasal sinusitis in children. We undertook this study to investigate the possible association among these diseases. Children younger than 18-year-old with a diagnosis of bacterial conjunctivitis plus acute otitis media and/or acute bacterial paranasal sinusitis during 2009-2018 were included. Sampling for bacterial cultures was obtained from the lower palpebral conjunctiva and/or ear di",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3497379",
+            "title": "Relation of the outcome of conjunctivitis and the conjunctivitis-otitis syndrome to identifiable risk factors and oral antimicrobial therapy.",
+            "authors": [
+              "Harrison C J",
+              "Hedrick J A",
+              "Block S L",
+              "Gilchrist M J"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "1987",
+            "abstract": "The epidemiology, microbiology and clinical outcome of the conjunctivitis-otitis syndrome (CJ-AOM) was investigated in a rural private practice concurrent to a double blind placebo-controlled study of orally administered amoxicillin for prevention of acute otitis media (AOM) secondary to conjunctivitis. Bacterial pathogens were isolated when greater than 15 polymorphonuclear leukocytes/high power field were observed on Gram-stained smear of conjunctival secretions. Nontypable Haemophilus influen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24953451",
+            "title": "Genetic characteristics of Haemophilus influenzae and Streptococcus pneumoniae isolated from children with conjunctivitis-otitis media syndrome.",
+            "authors": [
+              "Sugita Gen",
+              "Hotomi Muneki",
+              "Sugita Rinya",
+              "Kono Masamitsu",
+              "Togawa Akihisa"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2014",
+            "abstract": "Acute conjunctivitis is the most common ocular disorders among children and frequently concomitant with acute otitis media (AOM) as conjunctivitis-otitis syndrome. In this study, we evaluated prevalence of causative pathogens and PCR-based genotypes of Haemophilus influenzae and Streptococcus pneumoniae among children with conjunctivitis-otitis media syndrome. Nontypeable H. influenzae (NTHi) is identified most often at 61.8% in conjunctiva exudates followed by S. pneumoniae at 28.2% and Moraxel",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1091381",
+            "title": "Neonatal and childhood gonococcal infections.",
+            "authors": [
+              "Israel K S",
+              "Rissing K B",
+              "Brooks G F"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1975",
+            "abstract": "Maternal, fetal, and neonatal morbidity and mortality can be significantly decreased by selective screening of prenatal patients for gonorrhea, early treatment, and follow-up cultures after treatment for gonorrhea. Ophthalmia is the most significant neonatal gonococcal infection. Administration of silver nitrate at delivery is the best prophylaxis against gonococcal ophthalmia. Treatment of gonococcal ophthalmia, however, requires parenteral penicillin, conjunctival antimicrobial therapy, and ho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21484175",
+            "title": "Bacteriologic and plasmid analysis of etiologic agents of conjunctivitis in Lagos, Nigeria.",
+            "authors": [
+              "Iwalokun Bamidele Abiodun",
+              "Oluwadun Afolabi",
+              "Akinsinde Kehinde Adewale",
+              "Niemogha Mary Theressa",
+              "Nwaokorie Fransisca Obiageri"
+            ],
+            "journal": "Journal of ophthalmic inflammation and infection",
+            "year": "2011",
+            "abstract": "Conjunctivitis, an inflammation of the conjunctiva, is one of the most common eye problems affecting all age groups in Nigeria. A better understanding of its epidemiology and the antibiotic susceptibility of etiologic bacterial agents is crucial for the initiation of preventive and therapeutic measures. This study determined the distribution and patterns of bacterial infections in Nigerian patients with conjunctivitis. Antibiotic resistance patterns and the plasmid profiles of these pathogens we",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1890173",
+            "title": "Chronic conjunctivitis caused by oral anaerobes and effectively treated with systemic metronidazole plus amoxicillin.",
+            "authors": [
+              "van Winkelhoff A J",
+              "Abbas F",
+              "Pavicic M J",
+              "de Graaff J"
+            ],
+            "journal": "Journal of clinical microbiology",
+            "year": "1991",
+            "abstract": "In this study, we report on a case of refractory, unilateral anaerobic conjunctivitis. The predominant anaerobic flora consisted of Prevotella intermedia (formerly Bacteroides intermedius) and Peptostreptococcus micros. By using the technique of restriction endonuclease fingerprinting of genomic DNA, it was shown that the P. intermedia likely originated from the oral cavity. Topically applied antibiotics had failed to suppress the infection in the past. Successful treatment was achieved after sy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9646479",
+            "title": "Antimicrobial susceptibility of Moraxella bovis.",
+            "authors": [
+              "Shryock T R",
+              "White D W",
+              "Werner C S"
+            ],
+            "journal": "Veterinary microbiology",
+            "year": "1998",
+            "abstract": "The antimicrobial susceptibility of 55 isolates of Moraxella bovis to seven antibiotics was evaluated by broth microdilution procedures. The isolates had an MIC90 of < or = 1 mg/l to erythromycin, ceftiofur, and ampicillin; 4 mg/l to tilmicosin; 16 mg/l to tylosin and gentamicin; and had MIC90s of > or = 32 mg/l for oxytetracycline. The modal MIC values for these antibiotics were as follows: ampicillin, < 0.25 mg/l; ceftiofur, < or = 0.125 mg/l; tilmicosin, 2 mg/l; tylosin, 8 mg/l; erythromycin ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3742953",
+            "title": "Management of Stevens-Johnson syndrome.",
+            "authors": [
+              "Crosby S S",
+              "Murray K M",
+              "Marvin J A",
+              "Heimbach D M",
+              "Tartaglione T A"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1986",
+            "abstract": "A patient with Stevens-Johnson syndrome is described, and the literature concerning the etiology, pathophysiology, clinical manifestations, and management of Stevens-Johnson syndrome is reviewed. A 2 1/2-year-old girl was treated with phenobarbital and i.v. ampicillin, followed by oral amoxicillin, for an upper-airway infection, otitis media, and febrile seizures. The fever returned, and she was treated unsuccessfully with penicillin and cefaclor. She was admitted to the hospital and treated wit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6601683",
+            "title": "Biotype of Haemophilus influenzae: correlation with virulence and ampicillin resistance.",
+            "authors": [
+              "Long S S",
+              "Teter M J",
+              "Gilligan P H"
+            ],
+            "journal": "The Journal of infectious diseases",
+            "year": "1983",
+            "abstract": "Biotype and serotype were determined for 473 isolates of Haemophilus influenzae from 399 children. Patients with invasive disease usually had serotypable (86%) and biotype 1 (80%) isolates. Respiratory isolates from well children and children whose illness was not caused by H. influenzae were rarely serotypable (1%) or biotype 1 (8%). Respiratory isolates from children whose illness was possibly or probably related to H. influenzae and isolates from children with cystic fibrosis were more freque",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "細菌性結膜炎常見病原體為 Haemophilus influenzae（兒童）、Streptococcus pneumoniae、Staphylococcus aureus 及 Neisseria gonorrhoeae（新生兒 ophthalmia neonatorum）。Ampicillin 對 H. influenzae（β-lactamase 陰性株）和 S. pneumoniae 具有抗菌活性。PMID 5107631（1971）記錄淋菌性結膜炎使用 ampicillin 治療的歷史。然而現行結膜炎通常使用局部抗菌眼藥水（tobramycin、moxifloxacin）而非全身性 ampicillin；淋菌性結膜炎（ophthalmia neonatorum）現行標準為 ceftriaxone IM。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "pericoronitis",
+      "txgnn": {
+        "score": 0.9903872609138488,
+        "rank": 10255
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36268928",
+            "title": "Antibiotic use in endodontic treatment during pregnancy: A narrative review.",
+            "authors": [
+              "Aliabadi Tahere",
+              "Saberi Eshagh Ali",
+              "Motameni Tabatabaei Amin",
+              "Tahmasebi Ebadolah"
+            ],
+            "journal": "European journal of translational myology",
+            "year": "2022",
+            "abstract": "More than half of pregnant women are usually affected by odontogenic pain affects. Pain often accompanies periapical or pulp infections and increases the risks to pregnant patients and their fetuses. The American Dental Association, in partnership with the American College of Obstetricians and Gynecologists, has offered a strong declaration reaffirming the significance of suitable and timely oral health care as an indispensable constituent of a healthy pregnancy. However, there is lack of knowle",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26067725",
+            "title": "Odontogenic Infections: A 1-year Retrospective Study.",
+            "authors": [
+              "Mahmoodi Benjamin",
+              "Weusmann Jens",
+              "Azaripour Adriano",
+              "Braun Benedikt",
+              "Walter Christian"
+            ],
+            "journal": "The journal of contemporary dental practice",
+            "year": "2015",
+            "abstract": "The purpose of this study was to analyze the prevalence, demographic patterns and management of odontogenic infections in patients undergoing treatment in an outpatient dental emergency service of a university hospital.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40381916",
+            "title": "Antimicrobial susceptibility surveillance of bacterial isolates recovered in Japan from odontogenic infections in 2018.",
+            "authors": [
+              "Kaneko Akihiro",
+              "Iwabuchi Hiroshi",
+              "Sato Junko",
+              "Matsumoto Tetsuya",
+              "Kiyota Hiroshi"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2025",
+            "abstract": "This study reports the findings of the second antimicrobial susceptibility surveillance study of isolates recovered from odontogenic infections in Japan.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39068391",
+            "title": "Assessment of a combined mouthwash on pain relief in pericoronitis: a randomized clinical study.",
+            "authors": [
+              "Arekhi Neman",
+              "Mortazavi Nazanin",
+              "Bahramnejad Emad",
+              "Khouri Vahid",
+              "Tajaldini Mahboubeh"
+            ],
+            "journal": "BMC oral health",
+            "year": "2024",
+            "abstract": "Pericoronitis, an inflammation near wisdom teeth, often occurs when they are partially emerged, especially in the lower jaw. Commonly, the gingiva partially envelops the tooth. Treatments vary from gingival surgery to extraction. This study assessed the efficacy of a mouthwash with Chlorhexidine, Benzydamine, Nanosilver, Amoxicillin, and Metronidazole for pain reduction and enhancement of maximum mouth opening in acute pericoronitis cases.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12789143",
+            "title": "Microbiology of mandibular third molar pericoronitis: incidence of beta-lactamase-producing bacteria.",
+            "authors": [
+              "Sixou Jean-Louis",
+              "Magaud Christophe",
+              "Jolivet-Gougeon Anne",
+              "Cormier Michel",
+              "Bonnaure-Mallet Martine"
+            ],
+            "journal": "Oral surgery, oral medicine, oral pathology, oral radiology, and endodontics",
+            "year": "2003",
+            "abstract": "The purpose of this study was to evaluate the predominant flora associated with pericoronitis in third molars and to investigate the presence of beta-lactamase-producing strains.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25881243",
+            "title": "Characteristics of pyogenic odontogenic infection in patients attending Mulago Hospital, Uganda: a cross-sectional study.",
+            "authors": [
+              "Kityamuwesi Richard",
+              "Muwaz Louis",
+              "Kasangaki Arabat",
+              "Kajumbula Henry",
+              "Rwenyonyi Charles Mugisha"
+            ],
+            "journal": "BMC microbiology",
+            "year": "2015",
+            "abstract": "Predisposing factors of pyogenic odontogenic infection include dental caries, pericoronitis, periodontitis, trauma to the dentition and the supporting structures or complications of dental procedures. The infections are usually polymicrobial involving normal endogenous flora. We characterised pyogenic odontogenic infection in patients attending Mulago Hospital, Uganda.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8126911",
+            "title": "[Chronic osteomyelitis of mandibulae].",
+            "authors": [
+              "Sasaki J",
+              "Nameta K"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1994",
+            "abstract": "As the human lower jaw (mandibula) itself is a hard bone, and when bacterial inflammation occurs in it by pericoronal infection of the 3rd molar or apical infection of caries tooth, the inflammation remains in the bone marrow and often progresses to acute osteomyelitis. The prominent sign of acute osteomyelitis in the lower jaw is mental nerve palsy which is the so-called Vincent's Syndrome. The causative organisms are not different from those of the common odontogenic infections. Recently, we h",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12572406",
+            "title": "Management of complex multi-space odontogenic infections.",
+            "authors": [
+              "Bratton Terrance A",
+              "Jackson D Carl",
+              "Nkungula-Howlett Tania",
+              "Williams Charles W",
+              "Bennett C Ray"
+            ],
+            "journal": "The Journal of the Tennessee Dental Association",
+            "year": "2002",
+            "abstract": "The successful management of multi-space orofacial odontogenic infections involves identification of the source of the infection, the anatomical spaces encountered, the predominant microorganisms that are found during the various stages of odontogenic fascial space infection, the impact of the infectious process on defense systems, the ability to use and interpret laboratory data and imaging studies, and a thorough understanding of contemporary antibiotic and supportive care. The therapeutic goa",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16388299",
+            "title": "Antibiotic susceptibility of the bacteria causing odontogenic infections.",
+            "authors": [
+              "Brescó-Salinas Miguel",
+              "Costa-Riu Noelia",
+              "Berini-Aytés Leonardo",
+              "Gay-Escoda Cosme"
+            ],
+            "journal": "Medicina oral, patologia oral y cirugia bucal",
+            "year": "2006",
+            "abstract": "An evaluation is made of bacterial species and susceptibility to various antibiotics used in application to odontogenic infections of periapical location and in pericoronitis of the lower third molar, with the aim of optimizing the antibiotherapy of such infections and thus preventing unnecessary side effects and over-treatment.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8015796",
+            "title": "Extraction of impacted third molars. A longitudinal prospective study on factors that affect postoperative recovery.",
+            "authors": [
+              "Capuzzi P",
+              "Montebugnoli L",
+              "Vaccaro M A"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1994",
+            "abstract": "A longitudinal prospective trial was carried out on 146 patients to evaluate which factors can have an effect on postoperative recovery after extraction of impacted third molars or wisdom teeth. The following factors were considered: (1) age, (2) sex, (3) smoking habits, (4) use of the birth control pill, (5) previous history of pericoronitis, (6) degree of difficulty of the extraction, (7) expertise of the surgeon, (8) length of surgery, and (9) antibiotic prophylaxis. The following results wer",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22256411",
+            "title": "Study of antibiotic prescribing among dental practitioners in Shiraz, Islamic Republic of Iran.",
+            "authors": [
+              "Vessal G",
+              "Khabiri A",
+              "Mirkhani H",
+              "Cookson B D",
+              "Askarian M"
+            ],
+            "journal": "Eastern Mediterranean health journal = La revue de sante de la Mediterranee orientale = al-Majallah al-sihhiyah li-sharq al-mutawassit",
+            "year": "2011",
+            "abstract": "Inappropriate prescribing of antibiotics by health care professionals is a worldwide concern. This study evaluated the knowledge and practices of dental practitioners in the city of Shiraz, Islamic Republic of Iran regarding their therapeutic use of antibiotics for patients with dentoalveolar infections. Of 219 (48.6%) dentists responding to the questionnaire more than 40% would prescribe antibiotics for localized fluctuant swelling and for problems for which antibiotics are not required accordi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10870281",
+            "title": "A study of therapeutic antibiotic prescribing in National Health Service general dental practice in England.",
+            "authors": [
+              "Palmer N A",
+              "Pealing R",
+              "Ireland R S",
+              "Martin M V"
+            ],
+            "journal": "British dental journal",
+            "year": "2000",
+            "abstract": "To study the therapeutic prescribing of antibiotics by general dental practitioners.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11406759",
+            "title": "Incidence of deep fascial space infection after surgical removal of the mandibular third molars.",
+            "authors": [
+              "Yoshii T",
+              "Hamamoto Y",
+              "Muraoka S",
+              "Kohjitani A",
+              "Teranobu O"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2001",
+            "abstract": "Nine hundred and ninety-three patients who underwent surgical removal of the mandibular third molars with oral antibiotic prophylaxis were examined to determine the incidence of postoperative deep fascial space infection and its background factors. Postoperative deep fascial space infection was observed in 8 of the patients (0.8%; 4 males and 4 females), and submandibular spaces were involved in all infected patients. Only 1 of these 8 patients was an immune compromised host. Patients aged 30 ye",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4046173",
+            "title": "[Clinical evaluation of lenampicillin in oral and maxillofacial infections].",
+            "authors": [
+              "Sasaki J",
+              "Gotoh J",
+              "Morihana K",
+              "Sekiguchi T",
+              "Takai H"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1985",
+            "abstract": "Clinical efficacies of newly developed synthetic oral ampicillin prodrug lenampicillin (LAPC, KBT-1585) applied to 109 cases of oral infection were studied. There were 7 dropout cases. The results as determined on a point system are as follow: Remarkably effective, 26 cases; effective, 63 cases; and not effective, 13 cases, for an efficacy rate of 87.3%. When rated by the subjective judgement of the doctors in charge, these figures are as follow: remarkably effective, 21 cases, effective, 67 cas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6763727",
+            "title": "[Evaluation of the efficiency of metronidazole as chemotherapy for acute pericoronitis].",
+            "authors": [
+              "Meiss A",
+              "Caride E R"
+            ],
+            "journal": "Revista de la Asociacion Odontologica Argentina",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25668371",
+            "title": "An audit of antimicrobial prescribing in an acute dental care department.",
+            "authors": [
+              "Chopra Radhika",
+              "Merali Razia",
+              "Paolinelis George",
+              "Kwok Jerry"
+            ],
+            "journal": "Primary dental journal",
+            "year": "2014",
+            "abstract": "Antimicrobial resistance is a growing problem that is likely to have a major negative impact on healthcare in the future. Dentists have a key role in ensuring that antimicrobials are prescribed correctly to reduce the emergence of resistant strains.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3158609",
+            "title": "[Clinical experiments with Hiconcil in dentistry].",
+            "authors": [
+              "Koubi G F",
+              "Meyere P",
+              "Faucher A J",
+              "Amiach J J"
+            ],
+            "journal": "L' Information dentaire",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3474068",
+            "title": "Amoxycillin hypersensitivity reaction in a patient with infectious mononucleosis: a case report.",
+            "authors": [
+              "Patel A"
+            ],
+            "journal": "Connecticut dental student journal",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "269472",
+            "title": "[Clinical evaluation of clamoxyl (amoxicillin) in odontostomatologic infections].",
+            "authors": [
+              "Commissionat Y"
+            ],
+            "journal": "Revue d'odonto-stomatologie",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6582891",
+            "title": "Treatment of patients with glandular fever with ampicillin or amoxycillin.",
+            "authors": [
+              "Gibbs P"
+            ],
+            "journal": "British dental journal",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "冠周炎（pericoronitis）為第三大臼齒周圍的急性/慢性感染，致病菌為口腔混合菌群，以 Streptococcus viridans、Fusobacterium nucleatum、Prevotella spp.、Actinomyces spp.（第三大臼齒區常見）為主。Ampicillin 對 Streptococcus 和 Actinomyces 有效，但 β-lactamase 陽性菌株（如 Prevotella、Fusobacterium）可能逸脫；PMID 12789143（2003）記錄第三大臼齒冠周炎 β-lactamase 陽性菌盛行率。現行牙源性感染推薦 amoxicillin 或 amoxicillin/clavulanate，plain ampicillin 口服生物利用率（約 40%）低於 amoxicillin（約 90%），臨床應用較少。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "laryngitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "laryngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "laryngitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "gingivitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "gingivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "gingivitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "pericoronitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "pericoronitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ampicillin",
+        "disease": "pericoronitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

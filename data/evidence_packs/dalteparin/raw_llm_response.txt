@@ -1,0 +1,278 @@
+## Dalteparin (DB06779) 藥物再利用證據分析
+
+以下為基於 TxGNN 分數、臨床試驗相關性與文獻品質的系統性評估：
+
+```json
+{
+  "drug": "Dalteparin",
+  "drugbank_id": "DB06779",
+  "drug_class": "Low Molecular Weight Heparin (LMWH)",
+  "known_moa": "透過抗凝血酶III活化，抑制凝血因子Xa與IIa（凝血酶），發揮抗凝血作用",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "thrombophilia due to protein C deficiency, autosomal recessive",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "蛋白C缺乏症導致天然抗凝機制喪失（無法抑制凝血因子Va/VIIIa），形成高凝狀態。Dalteparin 作為 LMWH，可透過抗凝血酶III補充抗凝路徑，理論上可彌補蛋白C缺乏的缺陷。雖無針對 Dalteparin 的直接試驗，但抗凝血劑作為藥物類別（class effect）已是此症標準療法。機轉關聯性強，屬間接類效應證據。",
+      "risk_flag": "無（抗凝治療本即此症標準方向）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "0 試驗、0 文獻，但機轉強烈支持。升為 L4 而非 L5 係基於 LMWH 類效應在血栓性疾病的既有循證，建議設計針對此罕見症的 Dalteparin 觀察性研究。"
+    },
+    {
+      "disease_name": "primary release disorder of platelets",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性血小板釋放障礙（granule release defect）為出血性疾病，血小板 ADP/血清素釋放不足導致凝集功能缺損。Dalteparin 為抗凝劑，機轉上可能加重出血風險，缺乏治療此症的合理路徑。14 筆試驗均非針對此症使用 Dalteparin，屬資料庫廣義關聯誤配。",
+      "risk_flag": "⚠️ 安全性疑慮：抗凝劑用於出血性血小板疾病可能加重出血",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01178333",
+          "relevance_grade": "C",
+          "reasoning": "HIT（肝素誘發性血小板低下症）回顧性分析，研究肝素的不良反應而非治療血小板釋放障礙，方向相反"
+        },
+        {
+          "nct_id": "NCT00222352",
+          "relevance_grade": "C",
+          "reasoning": "急性冠心症急診處置研究，以抗凝/抗血小板為背景，非針對原發性血小板釋放障礙"
+        },
+        {
+          "nct_id": "NCT01863134",
+          "relevance_grade": "C",
+          "reasoning": "Eptifibatide（GPIIb/IIIa拮抗劑）用於NSTEMI，主角非 Dalteparin，適應症亦不符"
+        },
+        {
+          "nct_id": "NCT04808895",
+          "relevance_grade": "C",
+          "reasoning": "阿斯匹靈試驗，非 Dalteparin，亦非此適應症"
+        },
+        {
+          "nct_id": "NCT05293132",
+          "relevance_grade": "C",
+          "reasoning": "Montelukast vs CoQ10 用於敗血症，與血小板釋放障礙或 Dalteparin 均無關"
+        },
+        {
+          "nct_id": "NCT05964621",
+          "relevance_grade": "C",
+          "reasoning": "胰臟腫瘤切除後 VTE 觀察性研究，僅涉及血栓預防，非此適應症"
+        },
+        {
+          "nct_id": "NCT00457002",
+          "relevance_grade": "C",
+          "reasoning": "6758人大型 Phase 3 研究，規模可觀但適應症不明確，無直接與血小板釋放障礙的關聯"
+        },
+        {
+          "nct_id": "NCT05895136",
+          "relevance_grade": "C",
+          "reasoning": "Enoxaparin（同屬LMWH但非Dalteparin）用於肝硬化失代償期，適應症不符"
+        },
+        {
+          "nct_id": "NCT04778917",
+          "relevance_grade": "C",
+          "reasoning": "兒童肺炎合併D-dimer升高的微血栓研究，與原發性血小板釋放障礙不同病理機轉"
+        },
+        {
+          "nct_id": "NCT07183605",
+          "relevance_grade": "C",
+          "reasoning": "中央導管Anti-Xa藥物監測研究，屬藥物動力學研究，非治療性試驗"
+        }
+      ],
+      "literature_analysis": [],
+      "assessor_note": "14 筆試驗全數為 Grade C，無一直接研究 Dalteparin 治療此症。且機轉上此藥用於出血性血小板疾病具安全疑慮，建議不予推進。"
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假性 vWD（血小板型 vWD）因 GPIb 突變導致血小板對 vWF 親和力異常增加，造成血小板聚集與出血。本質為出血性疾病，抗凝治療缺乏理論依據且可能惡化出血傾向。TxGNN 高分可能源於血小板-凝血系統的廣義關聯，非特異性預測。",
+      "risk_flag": "⚠️ 安全性疑慮：假性 vWD 為出血症，抗凝劑具禁忌潛力",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "無試驗、無文獻，且機轉不支持。Hold。"
+    },
+    {
+      "disease_name": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Thrombomodulin（THBD）異常導致蛋白C活化不足，形成補體介導的微血管血栓性血小板減少（TMA）。Dalteparin 透過抗因子Xa可抑制微血管血栓形成，且 LMWH 有潛在抗補體特性（減少補體C3活化）。雖補體抑制劑（Eculizumab）為標準療法，但在資源受限情境下 LMWH 作為輔助治療具探索價值。現無直接臨床試驗。",
+      "risk_flag": "需監測血小板計數（TMA 患者已有血小板低下）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "生物機轉具合理性，特別是 thrombomodulin-蛋白C軸的關聯。建議作為 Research Question 收集個案報告，評估 LMWH 輔助 Eculizumab 的安全性。"
+    },
+    {
+      "disease_name": "neuropathy, painful",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "疼痛性神經病變（如糖尿病性神經病變）的機轉包含微血管缺血與神經內膜炎症。LMWH 的潛在機轉包含：(1)改善神經內膜微循環，(2)抑制 heparanase 減少基底膜降解，(3)抗炎作用（抑制 NF-κB、補體）。NCT00445328 直接比較 Dalteparin vs UFH，提供最直接的初步證據，但試驗提前終止需解析原因。",
+      "risk_flag": "NCT00445328 終止狀態需確認：安全問題？效益不足？資金？",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00445328",
+          "relevance_grade": "A",
+          "reasoning": "直接命名 Dalteparin vs 普通肝素的 Phase 4 隨機試驗，64人（已終止）。為本適應症最高相關性試驗，但終止原因未知，需深入查詢結果資料。"
+        },
+        {
+          "nct_id": "NCT00662831",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 雙盲安慰劑對照 RCT，276人（已完成）。設計嚴謹，規模足夠，但主角藥物需確認是否為 Dalteparin 或同類藥。"
+        },
+        {
+          "nct_id": "NCT00765063",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 開放標籤延伸試驗，62人（已完成）。可能為 NCT00662831 延伸，長期安全性數據有參考價值。"
+        }
+      ],
+      "literature_analysis": [],
+      "assessor_note": "三筆試驗均與 Dalteparin/疼痛神經病變有關，升至 L3。建議查閱 NCT00445328 終止原因及 NCT00662831 主要結果，決定是否推進至 S2。"
+    },
+    {
+      "disease_name": "thrombotic thrombocytopenic purpura",
+      "txgnn_score": 0.9809,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TTP 病理為 ADAMTS13 缺乏導致超大 vWF 多聚體積聚，引起血小板聚集形成微血管血栓。標準治療為血漿置換（PEX）± 類固醇 ± Caplacizumab。抗凝治療在 TTP 中有爭議：微血管血栓對抗凝反應差，且患者已有血小板低下，抗凝可能增加出血風險。現無支持 Dalteparin 用於 TTP 的臨床證據。",
+      "risk_flag": "⚠️ 重大安全疑慮：TTP 伴嚴重血小板低下，加用抗凝劑出血風險高",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "既無證據支持、機轉亦不優先，且有安全顧慮。Hold，除非有特定 thrombus burden 的亞群分析設計。"
+    },
+    {
+      "disease_name": "retinal telangiectasia",
+      "txgnn_score": 0.9554,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "視網膜毛細血管擴張症（如 Coats 病、遺傳性出血性毛細血管擴張 HHT）可並發視網膜動脈阻塞（BRAO/CRAO）。抗凝治療在血管阻塞次級預防有一定理論基礎，LMWH 亦有血管內皮保護特性。惟視網膜毛細血管擴張本身以滲漏為主要病理，抗凝需審慎評估出血風險。",
+      "risk_flag": "視網膜血管滲漏患者使用抗凝劑需評估玻璃體出血風險",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29068144",
+          "title": "Branch retinal artery occlusion as a clinical manifestation of hereditary haemorrhagic telangiectasia",
+          "year": "2018",
+          "study_type": "Case Report / Case Series",
+          "tier": "3",
+          "relevance_note": "描述 HHT 患者發生 BRAO，抗凝治療為臨床管理選項之一，間接支持血栓性視網膜事件的抗凝潛力，但非 Dalteparin 特異性研究"
+        }
+      ],
+      "assessor_note": "僅 1 篇 Tier 3 文獻，為個案層級間接證據。定為 L4/S0，需更多眼科抗凝治療的系統性文獻才能推進。"
+    },
+    {
+      "disease_name": "retinal microaneurysm",
+      "txgnn_score": 0.9519,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "視網膜微血管瘤為糖尿病視網膜病變的早期表現，病理為毛細血管壁弱化，非血栓性阻塞。抗凝治療缺乏針對微血管瘤形成/消退的機轉支持。TxGNN 高分可能反映視網膜血管病理的廣泛連結，而非特異性預測。",
+      "risk_flag": "微血管瘤破裂出血風險：抗凝可能加重視網膜出血",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "無直接證據，機轉不支持，且有潛在出血安全疑慮。Hold。"
+    },
+    {
+      "disease_name": "arteriosclerotic retinopathy",
+      "txgnn_score": 0.9519,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "動脈硬化性視網膜病變以動脈管壁增厚、A/V壓跡為主要特徵，屬慢性動脈粥樣硬化過程。LMWH 對動脈粥樣硬化進展的直接作用機轉不明確；已有 Statins、抗血小板藥（不同機轉）作為標準管理策略。無針對此症的 Dalteparin 證據。",
+      "risk_flag": "無",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "無證據，機轉連結薄弱。Hold。"
+    },
+    {
+      "disease_name": "vertebral artery occlusion",
+      "txgnn_score": 0.9496,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "椎動脈阻塞可由夾層（dissection）或血栓引起，抗凝治療（包含 LMWH）在急性椎動脈血栓性阻塞的急性期已有指引支持（尤其夾層病例）。間接文獻顯示 heparin 類化合物（pentosan polysulphate）對缺血神經元具保護作用，機轉涉及神經元修復與微循環改善。Dalteparin 作為 LMWH 的類效應值得探索。",
+      "risk_flag": "夾層型阻塞需影像確認，出血性梗塞為抗凝禁忌",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17011126",
+          "title": "Neuroprotective effect of pentosan polysulphate on ischemia-related neuronal death of the hippocampus",
+          "year": "2006",
+          "study_type": "Animal/Preclinical Study",
+          "tier": "3",
+          "relevance_note": "Pentosan polysulphate（類肝素化合物）在海馬體缺血模型顯示神經保護效果，為 LMWH 類神經保護的間接支持，但非 Dalteparin 特異性，亦非臨床試驗。"
+        }
+      ],
+      "assessor_note": "機轉合理（抗凝治療用於血栓性卒中有指引背景），L4 基於類效應間接支持。建議 S1 安全性初評，並查閱椎動脈卒中抗凝治療系統回顧。"
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 3,
+      "L5": 6
+    },
+    "stage_distribution": {
+      "S0": 8,
+      "S1": 2,
+      "S2": 0,
+      "S3": 0
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "neuropathy, painful",
+        "rationale": "L3 最高證據等級，有 Phase 4 直接 Dalteparin 試驗（NCT00445328），需釐清終止原因後決定是否推進"
+      },
+      {
+        "rank": 2,
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive",
+        "rationale": "機轉最強（抗凝治療為此症治療方向），L4 類效應支持，建議優先設計觀察性研究"
+      },
+      {
+        "rank": 3,
+        "disease": "vertebral artery occlusion",
+        "rationale": "有間接機轉文獻支持，臨床實踐中 LMWH 已用於急性缺血性卒中，可快速完成系統回顧確認"
+      }
+    ],
+    "safety_holds": [
+      "primary release disorder of platelets（出血風險）",
+      "pseudo-von Willebrand disease（出血風險）",
+      "thrombotic thrombocytopenic purpura（血小板低下+出血風險）",
+      "retinal microaneurysm（視網膜出血風險）"
+    ],
+    "overall_assessment": "Dalteparin 在所提供適應症中，直接臨床證據極為有限（最高僅 L3）。高 TxGNN 分數反映知識圖譜中抗凝血-血管病理的廣泛連結，但多數適應症缺乏特異性臨床驗證。建議優先深入評估 neuropathy、thrombophilia 兩個適應症，同時對出血相關疾病群（platelet release disorder、pseudo-vWD、TTP）維持 Hold。"
+  }
+}
+```
+
+---
+
+### 📊 決策矩陣摘要
+
+| 疾病 | TxGNN | 等級 | 階段 | 建議 | 關鍵理由 |
+|------|-------|------|------|------|----------|
+| thrombophilia (protein C def.) | 0.9988 | **L4** | S1 | Research Question | 機轉強，類效應支持 |
+| primary platelet release disorder | 0.9967 | L5 | S0 | **Hold** ⚠️ | 14試驗全Grade C，出血風險 |
+| pseudo-vWD | 0.9952 | L5 | S0 | **Hold** ⚠️ | 出血性疾病，禁忌 |
+| aHUS + thrombomodulin | 0.9934 | L5 | S0 | Research Question | 機轉有趣，罕見症 |
+| **neuropathy, painful** | 0.9919 | **L3** | **S1** | **Research Question** | 直接Dalteparin試驗 |
+| TTP | 0.9809 | L5 | S0 | **Hold** ⚠️ | 安全疑慮，非標準療法 |
+| retinal telangiectasia | 0.9554 | L4 | S0 | Research Question | 1篇個案文獻 |
+| retinal microaneurysm | 0.9519 | L5 | S0 | **Hold** ⚠️ | 出血風險 |
+| arteriosclerotic retinopathy | 0.9519 | L5 | S0 | Hold | 機轉薄弱 |
+| vertebral artery occlusion | 0.9496 | L4 | S1 | Research Question | 類效應+缺血機轉 |
+
+> ⚠️ **YMYL 聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴謹臨床驗證方可應用。

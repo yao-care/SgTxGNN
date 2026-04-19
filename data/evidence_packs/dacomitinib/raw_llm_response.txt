@@ -1,0 +1,164 @@
+## Dacomitinib (DB11963) 藥物再利用證據分析
+
+### 藥物背景說明
+
+> ⚠️ **資料缺口提示**：Dacomitinib（Vizimpro®）實際上已於 2018 年獲 FDA 批准用於 **EGFR 突變陽性非小細胞肺癌**（exon 19 del / L858R），機轉為**不可逆泛 ErbB（EGFR/HER1、HER2、HER4）激酶抑制劑**。本資料集標記「未上市 / original_moa: [Data Gap]」，可能反映特定地區尚未取得當地核准或資料擷取缺漏，分析時已將已知 MOA 納入機轉評估。
+
+---
+
+```json
+{
+  "drug": "Dacomitinib",
+  "drugbank_id": "DB11963",
+  "analysis_date": "2026-04-04",
+  "drug_known_moa": "不可逆泛 ErbB 抑制劑（EGFR/HER1、HER2、HER4），阻斷下游 RAS/MAPK 及 PI3K/AKT 信號增殖通路",
+  "indications": [
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9651,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "EGFR/ErbB 信號驅動肺動脈平滑肌細胞（PASMC）異常增殖與抗凋亡，為肺血管重塑的核心機轉之一。EGFR 配體（EGF、TGF-α）在 PAH 患者肺組織中過度表達。PMID 30753867 直接於動物模型驗證 Dacomitinib 可抑制低氧/野百合鹼誘導的肺血管重塑及右心室壓力升高，是目前十項候選中機轉關聯最強且有直接臨床前實驗支持者。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01121575",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 劑量遞增安全性與 PK 研究（已完成，n=70）。設計目的為評估一般安全性與藥動學，並非針對肺高壓設計，缺乏 PH 相關療效終點（如 6MWD、PVR、NT-proBNP）。然而，完成的 Phase 1 資料提供了後續 PH 專屬臨床試驗設計所需的人體安全劑量範圍與耐受性基線，評為 B 級（間接相關但具參考價值）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30753867",
+          "title": "Dacomitinib, a new pan-EGFR inhibitor, is effective in attenuating pulmonary vascular remodeling",
+          "year": "2019",
+          "study_type": "Preclinical (in vitro + rodent model)",
+          "tier": "2",
+          "note": "直接以 Dacomitinib 進行肺高壓動物實驗，提供機轉與概念驗證數據（PoC）。屬 Tier 2：臨床前直接證據，尚無人體療效資料，需 Phase 2 IIT 驗證。"
+        }
+      ]
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn_score": 0.9618,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "MEN1/MEN2 相關神經內分泌腫瘤（胰島素瘤、甲狀腺髓樣癌）部分亞型有 EGFR/HER2 過表達報告，理論上 pan-ErbB 抑制可抑制腫瘤增殖；但 MEN2 主要驅動突變為 RET（非 EGFR），EGFR 在 MEN 中的驅動角色尚未確立為主要致癌機轉。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03878524",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 分子導向籃型試驗（SMMART PRIME），涵蓋多種腫瘤類型，已終止（TERMINATED）。MEN 相關入組僅 2 人，樣本極小無統計意義，且試驗終止原因未公開。無法提供有效安全性或療效訊息；評為 C 級（試驗存在但不具決策參考價值）。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9779,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "EGFR 信號參與滑膜纖維母細胞（FLS）的異常增殖與 IL-6/TNF 介導的炎症反應，泛 ErbB 抑制理論上可抑制滑膜增生。然而 RA 已有高效的 JAK 抑制劑、TNF 拮抗劑及 B 細胞清除劑，EGFR 並非 RA 病理的主要驅動子。TxGNN 預測分數最高（0.978）但無任何臨床或臨床前直接支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "homozygous familial hypercholesterolemia",
+      "txgnn_score": 0.9692,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HoFH 由 LDLR 功能缺失突變驅動，核心病理為 LDL 受體介導的膽固醇清除障礙，與 EGFR/ErbB 信號通路無直接已知關聯。PI3K/AKT 通路或有間接脂質代謝影響，但此關聯極度薄弱且為推測性，無任何支持性數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9678,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ErbB/EGFR 信號在胚胎肢體發育（指趾分化）中具調控角色，部分短指並指症候群涉及 BMP/WNT 通路異常，與 ErbB 有交叉點。但此症候群為先天性遺傳結構異常，出生後的藥物干預對已形成的結構異常無修復潛力，臨床意義不明。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn_score": 0.9644,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2（精胺酸加壓素受體 2）功能增益突變引起。EGFR 在腎集合管可透過 EGFR-AQP2 通路與 AVPR2 存在交叉信號（transactivation），理論上抑制 EGFR 可減少 AQP2 膜表達而改善抗利尿效應過強；但此機轉高度推測，無任何直接臨床前或臨床研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9644,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此極罕見先天性症候群（眼發育缺損合併肢根型骨骼發育不良）與 EGFR 通路無已知直接分子關聯；屬胚胎發育期遺傳缺陷，藥物後天干預潛力未知。僅為演算法圖神經網路拓撲預測結果。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9618,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後側彎性心臟病主要為脊柱結構畸形造成的機械性胸廓限制、繼發性限制型肺疾病及右心功能不全，屬物理性病因。EGFR 信號在此機械性心肺疾病中無已知病理角色，藥物干預理論基礎薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amyotrophic lateral sclerosis",
+      "txgnn_score": 0.9512,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "EGFR 信號在星形膠質細胞活化與神經炎症中有潛在調控角色，理論上抑制膠質過度活化可能延緩運動神經元退化；但 Dacomitinib 的血腦屏障穿透率極低（CNS 曝露不足），且目前無任何 ALS 相關臨床前或臨床直接研究，機轉連結停留於假說層次。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9495,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麻瘋分枝桿菌感染涉及 TLR2 介導的免疫抑制與巨噬細胞功能障礙，部分研究指出 EGFR 可透過 TLR-EGFR 交叉信號調節先天免疫；但此機轉連結極為間接，抗感染並非 EGFR 抑制劑的合理應用情境，且臨床使用恐因免疫抑制效應加重感染風險，安全性考量為負面。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策優先序摘要
+
+| 排序 | 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|------|--------|----------|----------|------|----------|
+| ⭐ 1 | **Pulmonary Hypertension** | **L3** | **S1** | **Research Question** | Phase 1 完成 + 2019 動物 PoC 研究 |
+| 2 | Multiple Endocrine Neoplasia | L4 | S0 | Hold | Phase 1 終止（n=2，無效） |
+| 3-10 | 其餘 8 項適應症 | L5 | S0 | Hold | 純演算法預測，零臨床/臨床前直接證據 |
+
+---
+
+## 🔍 關鍵洞察
+
+### 肺動脈高壓（最優先候選）
+- **機轉高度合理**：EGFR 是 PASMC 增殖的已驗證驅動子
+- **直接 PoC**：2019 年論文（PMID 30753867）專門針對 Dacomitinib in PH 動物模型
+- **人體安全數據存在**：NCT01121575 完成 Phase 1（n=70）提供劑量參考
+- **建議下一步**：IIT Phase 2 試驗設計，療效終點建議包含右心導管 PVR、6MWD
+
+### 演算法預測 vs. 臨床可行性落差
+- RA（評分最高 0.978）反映知識圖譜的網路拓撲相似性，但已有更優效靶點藥物
+- Leprosy/Kyphoscoliotic Heart Disease 等預測結果缺乏生物學合理性，建議視為 KG 假陽性
+- **TxGNN 分數高 ≠ 臨床可行**，需結合機轉合理性與現有標準治療競爭格局評估

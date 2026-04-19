@@ -1,0 +1,273 @@
+以下是 **Insulin detemir (DB01307)** 的完整藥物再利用證據分析：
+
+---
+
+```json
+{
+  "drug": "Insulin detemir",
+  "drugbank_id": "DB01307",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "市場狀態『未上市』反映新加坡（SgTxGNN）本地未上市，並非全球未獲批准。Insulin detemir 已獲 FDA（2005）、EMA 批准用於 T1DM/T2DM。MoA [Data Gap] 為資料品質問題，實際機轉明確：長效基礎胰島素類似物，醯化修飾延長半衰期，結合胰島素受體促進葡萄糖攝取、抑制肝糖輸出、抑制脂解。",
+  "indications": [
+    {
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "guardrails_note": "本地（新加坡）未上市，需評估藥品進口或申請本地上市許可（HSA）路徑。此為全球已批准適應症，非傳統再利用情境，應優先走正規藥政途徑而非研究性使用。",
+      "mechanistic_link": "Insulin detemir 為 C14 脂肪酸醯化長效基礎胰島素類似物，皮下注射後與白蛋白結合延緩吸收（半衰期 ~5-7 小時）。T1DM 病因為自體免疫破壞 β 細胞，導致絕對胰島素缺乏。Insulin detemir 直接補充基礎胰島素需求：活化 IR→IRS→PI3K→Akt 通路促進 GLUT4 轉位、抑制肝葡萄糖輸出（HGO）、抑制脂解及酮體生成。此為因果直接機轉，非跨適應症推論。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00184665",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，501 例 T1DM 患者，直接比較 Insulin Detemir vs NPH Insulin，2 年長期療效與安全性評估，為核心臨床證據"
+        },
+        {
+          "nct_id": "NCT00474045",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，470 例，多國中心，直接評估 Insulin Detemir 療效與安全性，為主要支持性 Phase 3 證據"
+        },
+        {
+          "nct_id": "NCT00687284",
+          "relevance_grade": "A",
+          "reasoning": "大型觀察性研究（n=2,188），直接評估 Levemir（Insulin Detemir）真實世界血糖控制，提供大樣本真實世界證據"
+        },
+        {
+          "nct_id": "NCT01454284",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，完成，1,114 例，主要目的為比較 LY2605541 vs Glargine，Insulin Detemir 作為背景基礎胰島素，間接支持 Detemir 在 T1DM 標準治療中的定位"
+        },
+        {
+          "nct_id": "NCT00841087",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 探索性 RCT，65 例，已完成，提供機制性或藥代動力學支持證據"
+        },
+        {
+          "nct_id": "NCT02794155",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2b RCT，157 例，已完成，Insulin Detemir 作為主動對照劑，間接確認其作為標準比較基準的臨床接受度"
+        },
+        {
+          "nct_id": "NCT00322257",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，596 例，因其他原因終止（非安全性），Detemir 作為背景基礎胰島素，仍有部分參考價值但完整性受限"
+        },
+        {
+          "nct_id": "NCT06619301",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，目前招募中，比較 Glargine vs NPH，與 Insulin Detemir 無直接關聯，僅作為競品基礎胰島素格局參考"
+        },
+        {
+          "nct_id": "NCT00509925",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，已終止，僅 23 例，主要研究能量消耗（非主要療效終點），樣本小且終止，參考價值低"
+        },
+        {
+          "nct_id": "NCT01334606",
+          "relevance_grade": "C",
+          "reasoning": "設計用途為筆針（pen needle）裝置評估，藥物為載體，與 Insulin Detemir 本身療效無關，已終止且樣本極小（n=21）"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29477399",
+          "study_type": "Systematic Review + Network Meta-Analysis",
+          "tier": "1",
+          "note": "成人 T1DM 基礎胰島素方案系統性回顧及網絡 Meta 分析，直接評估 Detemir 相對效益，最高等級綜合證據"
+        },
+        {
+          "pmid": "36623517",
+          "study_type": "Comparative RCT / Systematic Review",
+          "tier": "1",
+          "note": "Insulin degludec vs Insulin detemir 頭對頭比較（T1DM 合併 Insulin aspart），2023 年最新直接比較證據"
+        },
+        {
+          "pmid": "36763996",
+          "study_type": "Systematic Review / Meta-Analysis",
+          "tier": "1",
+          "note": "Insulin degludec vs 其他長效基礎胰島素（含 detemir）療效與耐受性系統性回顧，2022 年，提供 detemir 相對定位"
+        },
+        {
+          "pmid": "37290466",
+          "study_type": "Clinical Practice Update / Guideline",
+          "tier": "2",
+          "note": "T1DM 妊娠期管理更新指引（2023），包含 insulin detemir 作為妊娠期可選基礎胰島素的臨床指引建議"
+        },
+        {
+          "pmid": "36896906",
+          "study_type": "Review of Clinical Trials + Real-World Evidence",
+          "tier": "2",
+          "note": "Insulin Glargine 在 T1DM 臨床試驗與真實世界證據回顧（2024），含 Detemir 對照比較脈絡"
+        },
+        {
+          "pmid": "18454569",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "兒童與青少年 T1DM 胰島素類似物使用回顧（2008），涵蓋 detemir 兒科應用，Tier 3 但具特定族群補充價值"
+        },
+        {
+          "pmid": "20539842",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "T1DM/T2DM 治療更新，聚焦 Insulin detemir（2010），早期綜合藥物回顧"
+        },
+        {
+          "pmid": "17326333",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Insulin detemir 在 T1DM/T2DM 治療回顧（2006），歷史性背景文獻"
+        },
+        {
+          "pmid": "15516157",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Insulin detemir 藥物全面回顧（2004），核准初期總結性文獻"
+        },
+        {
+          "pmid": "12808886",
+          "study_type": "Drug Profile",
+          "tier": "3",
+          "note": "Insulin detemir（Novo Nordisk）早期藥物資料（2003），臨床前及早期臨床階段記錄"
+        }
+      ]
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 推斷可能基於共同自體免疫背景：自體免疫性卵巢炎與 T1DM 同屬自體免疫多腺體症候群（APS Type I/II）的組成成分，可共病存在。然而此連結為間接的疾病共病關聯，並非 Insulin detemir 對卵巢自體免疫炎症的直接治療機轉。Insulin detemir 無免疫抑制作用，無法針對卵巢自體免疫病理（抗類固醇生成細胞抗體）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_note": "無任何臨床前或臨床證據，建議停止追蹤此適應症，不進入研究計畫"
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 由 INPPL1（SHIP2：SH2-containing 5-phosphatase 2）基因突變所致，SHIP2 是 PI3K/Akt 訊號的負調節器。Insulin 訊號透過 IR→IRS→PI3K→Akt 通路，而 SHIP2 缺乏導致此通路過度活化，影響骨骼發育。KG 推論路徑：insulin→insulin signaling→PI3K/Akt→SHIP2/INPPL1→opsismodysplasia。此為遠端分子連結，無臨床治療意義。胰島素給予不能修正 INPPL1 功能缺陷，且可能加重訊號失衡。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_note": "KG 分子路徑連結可能為假陽性；opsismodysplasia 為罕見骨骼發育不良，目前無有效疾病修飾療法"
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Thiamine-responsive megaloblastic anemia syndrome（TRMA）由 SLC19A2（ThTr1 硫胺轉運蛋白）突變所致，三聯症：巨母紅血球性貧血 + 感音神經性耳聾 + 糖尿病。其糖尿病成分為胰島素分泌障礙（非自體免疫性），部分患者可能需要胰島素治療。TxGNN 推斷路徑可能透過「糖尿病→胰島素治療」連結。然而 Insulin detemir 在此僅為對症支持療法（針對糖尿病成分），一線治療應為高劑量硫胺素（Thiamine）補充。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_note": "此適應症中胰島素使用屬支持性療法延伸，非再利用；無需開啟專案，應依 T1DM 管理指引處理糖尿病成分"
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "重要機轉關聯：Stiff Person Syndrome（SPS）患者中 ~60-80% 存在抗 GAD65（麩氨酸脫羧酶）自體抗體，GAD65 同為 T1DM 主要自體抗原。二者共享自體免疫病理機轉，約 5-10% SPS 患者合併 T1DM。KG 可能透過 anti-GAD65 → autoimmunity → T1DM/SPS 共病路徑連結。進一步假說：胰島素可能影響 GABAergic 神經元功能（GABA 由 GAD65 催化合成），若胰島素抵抗干擾能量代謝則可能影響抑制性神經系統。此假說尚未有臨床驗證，但機轉連結具一定科學合理性，值得文獻探勘。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議執行文獻深度搜尋：(1) SPS + insulin + GAD65 immunomodulation；(2) 合併 T1DM 的 SPS 患者是否有因胰島素控制改善 SPS 症狀的個案報告"
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Focal Stiff Limb Syndrome（FSLS）為 Stiff Person Spectrum Disorders 的局部型變異，同樣與抗 GAD65 抗體相關，但較 Classic SPS 更為局限且罕見（文獻報告極少）。與 Classic SPS 相同的自體免疫連結適用，但疾病異質性更高，証據基礎更薄弱。相較 Classic SPS，不建議優先作為研究問題。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9951,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Pancreatic agenesis（PDX1、PTF1A、GATA6 等基因突變）導致胰臟完全缺失或嚴重發育不全，患者無法產生內源性胰島素，出生即出現嚴重胰島素依賴性糖尿病。管理原則與 T1DM 高度類似（基礎-追加胰島素方案）。Insulin detemir 作為長效基礎胰島素，理論上可適用，但此為疾病邏輯延伸（類 T1DM 管理），並非傳統再利用。由於此病極為罕見（全球 <100 例報告），個案化治療方案文獻整理有意義。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "此為孤兒病適應症。建議評估：(1) 個案報告搜尋（pancreatic agenesis + insulin management）；(2) 是否適合走 Compassionate Use / Expanded Access 路徑"
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9943,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 潛在因果倒置警告：藥物誘導局部脂肪代謝障礙（DILL）是胰島素注射（包含 Insulin detemir）的已知副作用，長期在同一部位注射可導致脂肪增生（lipohypertrophy）或脂肪萎縮（lipoatrophy）。KG 連結方向為：insulin detemir → causes → DILL，而非 insulin detemir → treats → DILL。此推薦為明確假陽性，具潛在安全性風險信號，不建議進一步研究此治療方向。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_note": "🔴 安全性警示：持續於病灶部位注射胰島素將加重而非改善 DILL。應列入安全性排除清單。"
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Centrifugal lipodystrophy（向心性脂肪代謝障礙，好發於嬰幼兒腹部）為罕見皮膚科疾病，病因未明（可能與 C3 補體沉積、炎症相關）。Insulin 具促脂肪生成（lipogenic）效應，KG 可能透過脂肪組織代謝路徑連結。然而此推斷過於間接，無任何臨床前機轉研究支持 Insulin detemir 用於此疾病。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘導局部脂肪萎縮（如長期臥床壓迫部位）病因為機械性壓迫導致脂肪組織缺血及萎縮。假說：Insulin 的促脂肪生成（lipogenesis）及抗脂解（anti-lipolysis）效應理論上可能對抗局部脂肪萎縮，但此為極度間接的推斷。原發性治療應為移除壓迫源，無臨床依據支持全身性或局部胰島素給藥作為此病之治療。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": {
+    "L1_S3": ["type 1 diabetes mellitus"],
+    "L5_S0_hold": [
+      "autoimmune oophoritis",
+      "opsismodysplasia",
+      "thiamine-responsive dysfunction syndrome",
+      "focal stiff limb syndrome",
+      "drug-induced localized lipodystrophy ⚠️ Safety Flag",
+      "centrifugal lipodystrophy",
+      "pressure-induced localized lipoatrophy"
+    ],
+    "L5_S0_research_question": [
+      "classic stiff person syndrome",
+      "pancreatic agenesis"
+    ]
+  },
+  "overall_assessment": {
+    "primary_finding": "Insulin detemir 在 T1DM 擁有最強等級（L1）臨床證據，為全球已批准且廣泛使用的基礎胰島素。新加坡本地未上市應透過藥政監管途徑（HSA 申請）解決，而非重新研究。",
+    "repurposing_potential": "其餘 9 個 TxGNN 預測適應症均為 L5/S0。其中 Classic SPS 和 Pancreatic Agenesis 具有一定機轉合理性，可作為研究問題進行文獻搜索，但臨床開發可行性極低。Drug-induced lipodystrophy 存在因果倒置風險，應標記為安全性假陽性。",
+    "txgnn_score_caveat": "所有適應症的 TxGNN 分數均 >0.994，過高分數分佈提示可能存在預測校準問題（score inflation）。高分數本身不代表臨床可行性，需以實際證據等級為準。"
+  }
+}
+```
+
+---
+
+## 📊 決策摘要
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|---------|---------|------|
+| **T1DM** | 0.9977 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| Classic SPS | 0.9962 | L5 | S0 | 🔍 Research Question |
+| Pancreatic Agenesis | 0.9951 | L5 | S0 | 🔍 Research Question |
+| Autoimmune Oophoritis | 0.9967 | L5 | S0 | ⏸ Hold |
+| Opsismodysplasia | 0.9964 | L5 | S0 | ⏸ Hold |
+| Thiamine-responsive DS | 0.9963 | L5 | S0 | ⏸ Hold |
+| Focal Stiff Limb | 0.9962 | L5 | S0 | ⏸ Hold |
+| Centrifugal Lipodystrophy | 0.9941 | L5 | S0 | ⏸ Hold |
+| Pressure-induced Lipoatrophy | 0.9940 | L5 | S0 | ⏸ Hold |
+| **Drug-induced Lipodystrophy** | 0.9943 | L5 | S0 | 🔴 **Hold（因果倒置！）** |
+
+> ⚠️ **關鍵提醒**：Insulin detemir 本身是 Drug-induced Localized Lipodystrophy 的**致病原因**之一，此 TxGNN 預測為明確假陽性，需在系統中標記為安全性例外。

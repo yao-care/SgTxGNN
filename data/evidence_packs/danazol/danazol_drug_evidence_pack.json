@@ -1,0 +1,1997 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01406-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Danazol",
+    "drugbank_id": "DB01406",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9999951124191284,
+        "rank": 33
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1533675",
+            "title": "The induction of amenorrhoea.",
+            "authors": [
+              "Hipkin L J"
+            ],
+            "journal": "Journal of the Royal Army Medical Corps",
+            "year": "1992",
+            "abstract": "A survey has shown that many women favour eliminating menstruation and it has been suggested that therapeutic induction of amenorrhoea might be an advantage in female personnel mobilised for war. The traditional method has been to take the oral contraceptive pill continuously. This produces weight gain and other side-effects; spotting and breakthrough bleeding can be a problem initially. The method is however cheap. The Gonadotrophin Releasing Hormone (GnRH) analogue, goserelin, is extremely eff",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16280355",
+            "title": "Advances in the management of endometriosis: an update for clinicians.",
+            "authors": [
+              "Crosignani Piergiorgio",
+              "Olive David",
+              "Bergqvist Agneta",
+              "Luciano Anthony"
+            ],
+            "journal": "Human reproduction update",
+            "year": "2006",
+            "abstract": "Endometriosis is a chronic and recurrent disease characterized by the presence and proliferation of endometrial tissue outside the uterine cavity, which occurs in approximately 10% of women of reproductive age. In this estrogen-dependent disorder, lesions become inactive and gradually undergo regression during states of ovarian down-regulation, such as amenorrhoea or menopause. The impact of endometriosis includes impaired fertility potential, as well as symptoms of dysmenorrhoea, dyspareunia an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21701432",
+            "title": "Pharmacological therapy for abnormal uterine bleeding.",
+            "authors": [
+              "Pinkerton JoAnn V"
+            ],
+            "journal": "Menopause (New York, N.Y.)",
+            "year": "2011",
+            "abstract": "Pharmacological therapies for the treatment of abnormal uterine bleeding are effective and generally well tolerated. This review presents an evidence-based approach to medical therapy. Selection depends on the etiology and amount of bleeding, need for contraception or preservation of fertility, perimenopause status, and medication efficacy and adverse effects.Available nonhormonal agents include nonsteroidal anti-inflammatory agents, which reduce bleeding by 25% to 35% and improve dysmenorrhea t",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36434439",
+            "title": "Evaluation of safety and effectiveness of gestrinone in the treatment of endometriosis: a systematic review and meta-analysis.",
+            "authors": [
+              "de Souza Pinto Luiz Paulo",
+              "Ferrari Gustavo",
+              "Dos Santos Isis Kelly",
+              "de Mello Roesler Carlos Rodrigo",
+              "de Mello Gindri Izabelle"
+            ],
+            "journal": "Archives of gynecology and obstetrics",
+            "year": "2023",
+            "abstract": "Endometriosis is a common chronic gynecological disease defined as the presence of endometrial glands and stroma tissue outside the uterus. Gestrinone is an effective antiestrogen that induces endometrial atrophy and/or amenorrhea. The purpose of this systematic review is to provide an evaluation of safety and effectiveness of gestrinone for the treatment of endometriosis.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6819580",
+            "title": "Danazol in the treatment of endometriosis and infertility.",
+            "authors": [
+              "Dmowski W P"
+            ],
+            "journal": "Progress in clinical and biological research",
+            "year": "1982",
+            "abstract": "Endometriosis is an enigmatic condition of unknown cause and poorly understood histogenesis. It affects women in their reproductive years limiting their fertility and seriously impairing their health. It is not entirely clear what is the mechanism of infertility associated with endometriosis but it is well accepted that treatment of the latter improves significantly chances for conception. Danazol is a synthetic steroid, derivative of 17 alpha-ethinyl testosterone. It suppresses ovarian function",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2140996",
+            "title": "A comparison of nafarelin acetate and danazol in the treatment of endometriosis.",
+            "authors": [
+              "Kennedy S H",
+              "Williams I A",
+              "Brodribb J",
+              "Barlow D H",
+              "Shaw R W"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1990",
+            "abstract": "Nafarelin 400 micrograms daily and danazol 600 mg daily were compared in a double-blind randomized study. Eighty-two patients with endometriosis were treated for 6 months after an initial laparoscopy and 74 had a second laparoscopy. Twenty-two (30%) patients had complete disease regression, 42 (57%) patients had a partial regression, and in 10 (13%) patients disease was unchanged or worse. Both treatments led to significant regression of active disease but not of adhesions. At 3 months follow-up",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2404115",
+            "title": "Danazol. A synthetic steroid with diverse biologic effects.",
+            "authors": [
+              "Dmowski W P"
+            ],
+            "journal": "The Journal of reproductive medicine",
+            "year": "1990",
+            "abstract": "Danocrine (danazol) is a synthetic steroid with multiple and diverse biologic effects. It exerts these effects by binding to steroid transport proteins in the circulation and to specific receptors in target tissues. Centrally, danazol inhibits gonadotropins, suppressing gametogenesis and steroidogenesis. Gonadal and adrenal steroidogenesis are suppressed further through danazol's direct effect on specific enzyme systems. Danazol also displays immunoregulatory effects both in vivo and in vitro. I",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39051650",
+            "title": "Danazol's use for menstrual suppression in transgender individuals: A retrospective multi-site cohort study.",
+            "authors": [
+              "Scatoni Ava",
+              "Roberts Zaine",
+              "Boskey Elizabeth R",
+              "Staffa Steven",
+              "Roden Rosemary Claire"
+            ],
+            "journal": "Women's health (London, England)",
+            "year": "2024",
+            "abstract": "Danazol is a synthetic progestin with androgenic effects that is approved by the Food and Drug Administration for treatment of endometriosis, benign fibrocystic breast disease, and hereditary angioedema. In recent years, increasing numbers of transgender and nonbinary individuals seeking menstrual suppression have been offered danazol due to its potential to both induce amenorrhea and cause reversible androgenic side effects including pigmentation of vellus hairs and voice changes, which may be ",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1807260",
+            "title": "Danazol in treatment of lupus thrombocytopenia.",
+            "authors": [
+              "Wong K L"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1991",
+            "abstract": "Seven patients with systemic lupus erythematosus (SLE), persistent thrombocytopenia (TP), in whom it was considered undesirable to institute an increase in steroid or immunosuppressive agents, were treated with danazol. Five patients completed the minimum period of 8 weeks. Two patients showed early response to danazol but were switched over to cyclophosphamide or azathioprine after 4 weeks because of systemic disease. Of the remaining five patients, four had complete responses. In one patient w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2720755",
+            "title": "[Danol (danazol) in the treatment of fibrocystic breast disease with mastodynia].",
+            "authors": [
+              "Lorenz I"
+            ],
+            "journal": "Casopis lekaru ceskych",
+            "year": "1989",
+            "abstract": "The author investigated in a group of 12 premenopausal women with fibrocystic mastopathy with mastodynia, confirmed on mammography, the effectiveness of a synthetic ethisterone derivative--danazole. An objective effect (reduction of the number and/or diminution of nodularities in the mammary parenchyma) was achieved in 67%, disappearance of mastodynia in 100%. As to side-effects only amenorrhoea was observed in 92%, spotting in 8%, an increase of body weight (1-6 kg) in 83% of the treated women.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2523321",
+            "title": "Gestrinone versus danazol in the treatment of endometriosis.",
+            "authors": [
+              "Fedele L",
+              "Bianchi S",
+              "Viezzoli T",
+              "Arcaini L",
+              "Candiani G B"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1989",
+            "abstract": "Thirty-nine infertile patients with laparoscopic diagnosis of endometriosis were allocated randomly to treatment with gestrinone 2.5 mg twice weekly (20 patients) or danazol 600 mg/day (19 patients) for 6 months. If amenorrhea was not obtained after 1 month of treatment, the gestrinone dose was increased to 2.5 mg three times a week (7 patients) and the danazol dose to 800 mg/day (2 patients). One month after the end of the treatment, a repeat laparoscopy was performed only in the women who agre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5101532",
+            "title": "Clinical studies with an antigonadotropin-Danazol.",
+            "authors": [
+              "Greenblatt R B",
+              "Dmowski W P",
+              "Mahesh V B",
+              "Scholer H F"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "395523",
+            "title": "Danazol treatment of chronic cystic mastopathy: a clinical and hormonal evaluation.",
+            "authors": [
+              "Dhont M",
+              "Delbeke L",
+              "van Eyck J",
+              "Voorhoof L"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1979",
+            "abstract": "Danazol, a new synthetic steroid, was administered at a dose of 400 mg daily for two months to 16 premenopausal women with chronic cystic mastopathy. The clinical and hormonal effects (serum luteinizing hormone (LH), follicle-stimulating hormone (FSH), prolactin, progesterone, testosterone and urinary oestrogens, pregnanediol, pregnanetriol, androsterone and etiocholanolone) were evaluated after 4 and 8 weeks of treatment. Using the same dosage and duration of treatment, danazol (13 patients) wa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7402503",
+            "title": "Advances in infertility.",
+            "authors": [
+              "Katayama K P"
+            ],
+            "journal": "Obstetrics and gynecology annual",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3680485",
+            "title": "The effect of Danazol on the circulating levels of 34K insulin-like growth factor-binding protein (PP12) and endometrial secretory protein PP14.",
+            "authors": [
+              "Than G",
+              "Seppälä M",
+              "Julkunen M",
+              "Szabo D",
+              "Bodis J"
+            ],
+            "journal": "Human reproduction (Oxford, England)",
+            "year": "1987",
+            "abstract": "Twenty-four women, 11 with endometriosis and 13 with fibrocystic mastopathy, were treated with a medium dose (300-400 mg daily) of Danazol for 6 months. The circulating level of progesterone, the 34K insulin-like growth factor-binding protein (IGF-bp) and endometrial protein PP14 (placental protein 14) were measured by specific radioimmunoassays before and during treatment. The serum progesterone concentration decreased significantly during Danazol treatment, as did the serum levels of 34K IGF-b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7007846",
+            "title": "Danazol for fibrocystic disease of the breast.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6798763",
+            "title": "[Clinical experience with danazol treatment of endometriosis and mastopathy].",
+            "authors": [
+              "Pavelka R",
+              "Schneider W H"
+            ],
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "1981",
+            "abstract": "26 women presenting with internal and external endometriosis and 27 women with chronic cystic mastopathy and mastodyny received 400 mg danazol-a 17-ethinyltestosterone derivate-daily for 3 to 6 months. Before, during and after completion of treatment clinical and endocrinological investigation as well haematological examinations and determinations of blood and urinary chemistry were carried out. In cases of mastopathy plate thermography and mammography were performed; in endometriosis the diagno",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "945522",
+            "title": "The effect of danazol in the treatment of chronic cystic mastitis.",
+            "authors": [
+              "Lauersen N H",
+              "Wilson K H"
+            ],
+            "journal": "Obstetrics and gynecology",
+            "year": "1976",
+            "abstract": "Danazol in a dose of 400 mg daily was administrated to 40 patients with chronic cystic mastitis and resulted in a marded improvement in both objective and subjective symptoms in 87.5% of the patients studied. Three patients showed partial relief of symptoms and 1 patient showed no improvement after 1 month of treatment at which time she withdrew from the study. One patient had a worsening of her condition and was withdrawn from the study after 3.5 months of therapy. Nineteen of the 40 patients i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6210867",
+            "title": "Variable effects of danazol on endometriosis at 4 low-dose levels.",
+            "authors": [
+              "Dmowski W P",
+              "Kapetanakis E",
+              "Scommegna A"
+            ],
+            "journal": "Obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "Danazol was administered in a daily dose of 100, 200, 400, or 600 mg for 6 months in a double-blind fashion to 27 women with pelvic endometriosis. Symptoms and pelvic findings were observed and recorded monthly. Laparoscopy and laparoscopic biopsies were performed before and on the last day of treatment to evaluate the extent of endometriosis and the effect of the drug. The findings were documented with drawings and photography. The degree of clinical improvement varied with the daily dose used,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1812944",
+            "title": "Tropical spastic paraparesis/HTLV-1-associated myelopathy (TSP/HAM): treatment with an anabolic steroid danazol.",
+            "authors": [
+              "Harrington W J",
+              "Sheremata W A",
+              "Snodgrass S R",
+              "Emerson S",
+              "Phillips S"
+            ],
+            "journal": "AIDS research and human retroviruses",
+            "year": "1991",
+            "abstract": "Tropical spastic paraparesis or HTLV-I-associated myelopathy is a progressive spastic disorder associated with the human T-lymphotropic virus type I. Some cases have responded to prednisone. Danazol is an attenuated androgen with minimal virilizing effects. It is used in the treatment of endometriosis and various autoimmune hematologic diseases shown to be responsive to prednisone. Because danazol is anabolic, useful in prednisone-responsive diseases, and less toxic than prednisone, we gave dana",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Danazol 透過抑制 FSH/LH 脈衝分泌造成無排卵，並直接使子宮內膜萎縮，為誘導藥物性閉經的一線用藥之一。臨床上用於子宮內膜異位症治療性閉經誘導、跨性別月經抑制及異常子宮出血管理，機轉與適應症直接吻合。多個 RCT（Nafarelin vs Danazol）以閉經誘導為主要終點，2024年多中心回顧性研究進一步確認其月經抑制效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "benign mammary dysplasia",
+      "txgnn": {
+        "score": 0.9999898672103882,
+        "rank": 61
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6993181",
+            "title": "Danazol in the treatment of mammary dysplasia.",
+            "authors": [
+              "Greenblatt B",
+              "Ben-Nun I"
+            ],
+            "journal": "Drugs",
+            "year": "1980",
+            "abstract": "While employing danazol in the management of women with endometriosis, a voluntary comment patients frequently offerd was that breast pain, nodularity and premenstrual engorgement were alleviated. Because of this unexpected finding, our attention was directed to the treatment of women with mammary dysplasia, particularly fibrocystic disease of the breast. Since the incidence of mammary cancer increases rapidly with age, we obtained xerommamograms in all suspected cases to exclude such a possibil",
+            "classification": {
+              "study_type": "RCT/Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2696224",
+            "title": "Breast macrocysts.",
+            "authors": [
+              "Hughes L E",
+              "Bundred N J"
+            ],
+            "journal": "World journal of surgery",
+            "year": "1989",
+            "abstract": "Clinical macrocysts occur in about 7% of adult women. Modern terminology and understanding of benign breast disorders considers microcysts and macrocysts as specific clinical and pathological entities. The terminology and concepts of fibrocystic disease and its many alternative terms have been discarded. Cysts arise as an aberration of normal lobular involution (ANDI) associated with active secretion of apocrine epithelium under hormonal stimulation. They are readily managed in most cases by asp",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7043344",
+            "title": "Medical management of mammary dysplasia.",
+            "authors": [
+              "London R S",
+              "Sundaram G S",
+              "Goldstein P J"
+            ],
+            "journal": "Obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "As a primary care physician for women, the gynecologist frequently is faced with management of patients who have benign breast disease. Mammary dysplasia, or fibrocystic disease, clinically presents a difficult management problem, both in terms of relieving the patients' symptomatology and of detecting occult malignancy. Traditionally, diuretics, salt restriction, and hormone therapies have been recommended. Recently, data concerning nutritional impact on this disease process, including methylxa",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16444894",
+            "title": "Mastalgia: a review of management.",
+            "authors": [
+              "Olawaiye Alexander",
+              "Withiam-Leitch Matthew",
+              "Danakas George",
+              "Kahn Kenneth"
+            ],
+            "journal": "The Journal of reproductive medicine",
+            "year": "2005",
+            "abstract": "Mastalgia affects up to two-thirds of women at some time during their reproductive lives. It is usually benign, but thefear of underlying breast cancer is why many women present for evaluation. Mastalgia can be associated with premenstrual syndrome, fibrocystic breast disease, psychologic disturbance and, rarely, breast cancer. Occasionally, extramammary conditions, like Tietzie syndrome, present as mastalgia. A thorough clinical evaluation is required to assess the cause. The majority of women ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7105516",
+            "title": "Breast thermography.",
+            "authors": [
+              "Nyirjesy I"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39051650",
+            "title": "Danazol's use for menstrual suppression in transgender individuals: A retrospective multi-site cohort study.",
+            "authors": [
+              "Scatoni Ava",
+              "Roberts Zaine",
+              "Boskey Elizabeth R",
+              "Staffa Steven",
+              "Roden Rosemary Claire"
+            ],
+            "journal": "Women's health (London, England)",
+            "year": "2024",
+            "abstract": "Danazol is a synthetic progestin with androgenic effects that is approved by the Food and Drug Administration for treatment of endometriosis, benign fibrocystic breast disease, and hereditary angioedema. In recent years, increasing numbers of transgender and nonbinary individuals seeking menstrual suppression have been offered danazol due to its potential to both induce amenorrhea and cause reversible androgenic side effects including pigmentation of vellus hairs and voice changes, which may be ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11991427",
+            "title": "Benign breast pain in women: a practical approach to evaluation and treatment.",
+            "authors": [
+              "Norlock Frances E"
+            ],
+            "journal": "Journal of the American Medical Women's Association (1972)",
+            "year": "2002",
+            "abstract": "The literature on breast pain etiology, practical approaches to evaluating benign breast pain, and effective treatments was reviewed. Medline, the Cochrane Database of Systematic Reviews, and Cancerlit were searched for 1975 to 2001. Researchers have found no clear hormonal or specific pathological processes that explain cyclical breast pain. Some investigations did find associations between breast pain and premenstrual syndrome, fibrocystic breast disease, and caffeine intake. Initial treatment",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7105513",
+            "title": "Fibrocystic disease of the breast.",
+            "authors": [
+              "Greenblatt R B",
+              "Samaras C",
+              "Vasquez J M",
+              "Nezhat C"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2676763",
+            "title": "[Mechanism of action of danazol, personal clinical experiences and guidelines for the treatment of benign breast diseases].",
+            "authors": [
+              "Schindler A E",
+              "Schindler E M"
+            ],
+            "journal": "Der Gynakologe",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7386553",
+            "title": "Danazol for benign breast disease.",
+            "authors": [
+              "Nezhat C",
+              "Asch R H",
+              "Greenblatt R B"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1980",
+            "abstract": "Three groups of women with benign breast disease were treated with danazol for 3 to 6 months. Doses of 100 mg per day were given to 40 patients, 200 mg to 55, and 400 mg to 35. The age range of the patients was 20 to 48 years. The patients were rechecked at 6-month intervals over a period of 48 months. Most of them were seen four or more times after completion of therapy. Elimination of nodularity occurred in about two thirds; three experienced no improvement, and partial resolution was obtained",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27483712",
+            "title": "COMPARISONS BETWEEN THE NON-PROLIFERATIVE AND PROLIFERATIVE THERAPY IN FIBROCYSTIC MASTOSIS.",
+            "authors": [
+              "Carauleanu A",
+              "Socolov R",
+              "Rugina V",
+              "Gabia O",
+              "Carauleanu Daniela Mihaela"
+            ],
+            "journal": "Revista medico-chirurgicala a Societatii de Medici si Naturalisti din Iasi",
+            "year": "2016",
+            "abstract": "Fibrocystic mastosis (FCM) is the most frequent benign breast lesion. Most treatments for fibrocystic mastosis are: hormonl, with beneficial results and non-hormonal, with fluctuating results.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28649033",
+            "title": "Danazol alters mitochondria metabolism of fibrocystic breast Mcf10A cells.",
+            "authors": [
+              "Irgebay Zhazira",
+              "Yeszhan Banu",
+              "Sen Bhaswati",
+              "Tuleukhanov Sultan",
+              "Brooks Ari D"
+            ],
+            "journal": "Breast (Edinburgh, Scotland)",
+            "year": "2017",
+            "abstract": "Fibrocystic Breast Disease (FBD) or Fibrocystic change (FC) affects about 60% of women at some time during their life. Although usually benign, it is often associated with pain and tenderness (mastalgia). The synthetic steroid danazol has been shown to be effective in reducing the pain associated with FBD, but the cellular and molecular mechanisms for its action have not been elucidated. We investigated the hypothesis that danazol acts by affecting energy metabolism. Effects of danazol on Mcf10A",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12699101",
+            "title": "Behaviour of estrogen receptor, histological correlation, and clinical outcome in patients with benign breast disorders.",
+            "authors": [
+              "Khanna A K",
+              "Tapodar J K",
+              "Khanna H D",
+              "Khanna S",
+              "Khanna Anuradha"
+            ],
+            "journal": "The European journal of surgery = Acta chirurgica",
+            "year": "2002",
+            "abstract": "To estimate the value of estrogen receptor (ER) in benign breast diseases and to find out if the response of benign breast diseases to danazol depends on the ER status of the tissue.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3074777",
+            "title": "The treatment of symptomatic benign breast disease with danazol.",
+            "authors": [
+              "Ramsey-Stewart G"
+            ],
+            "journal": "The Australian & New Zealand journal of obstetrics & gynaecology",
+            "year": "1988",
+            "abstract": "A prospective randomized double blind trial, using danazol in a dose of 200 mg twice a day, was carried out on 80 women presenting with severe cyclical symptomatic benign mammary dysplasia. Standardized scores for 4 parameters of disease severity (breast pain, breast tenderness, breast nodularity and breast cysts) were defined and measured monthly on all patients admitted to the trial. Using nonparametric statistical analysis, significant improvement in breast pain, tenderness and nodularity, wa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7409245",
+            "title": "The treatment of benign breast disease with danazol.",
+            "authors": [
+              "Greenblatt R B",
+              "Nezhat C",
+              "Ben-Nun I"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1980",
+            "abstract": "Benign breast disease, aside from fibroadenomas and intraductal papillomas, frequently responds favorably to hormonal therapy. Although the use of estrogen, androgens, and progestogens often proves useful, danazol, in our hands, was found more consistently effective. Danazol, an impeded androgen derived from a progestogen, 17 alpha-ethinyltestosterone, was employed in doses of 100 to 400 mg/day for 3 to 6 months in the treatment of fibrocystic disease. This agent proved efficacious in eliminatin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2676762",
+            "title": "[Danazol therapy in benign breast diseases].",
+            "authors": [
+              "Goebel R",
+              "Junkermann H",
+              "von Fournier D"
+            ],
+            "journal": "Der Gynakologe",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7704754",
+            "title": "Benign breast disease.",
+            "authors": [
+              "Mauvais-Jarvis P",
+              "Kuttenn F"
+            ],
+            "journal": "Current therapy in endocrinology and metabolism",
+            "year": "1994",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2404118",
+            "title": "Hormonal management of fibrocystic disease of the breast.",
+            "authors": [
+              "Andrews W C"
+            ],
+            "journal": "The Journal of reproductive medicine",
+            "year": "1990",
+            "abstract": "Fibrocystic breast disease is a source of considerable discomfort in a sizeable percentage of women between 35 and 50 years of age. Earlier treatments designed to reduce the pain, tenderness and nodularity associated with this condition met with little success. It was not until 1971, when Danocrine (danazol) was introduced for the treatment of endometriosis, that the potential usefulness of this synthetic steroid in the management of benign breast disorders was recognized. Numerous studies have ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7483879",
+            "title": "[Danazol for treatment of fibrocystic mastopathy].",
+            "authors": [
+              "von Fallois J",
+              "Etterli-Billenkamp U",
+              "Schindler E M",
+              "Schindler A E"
+            ],
+            "journal": "Zentralblatt fur Gynakologie",
+            "year": "1995",
+            "abstract": "59 patients with extensive mastopathia, aged between 23 and 58 years, had been examined over a period of approximately 36 months. They were treated with danazol (Winobanin, Sanofi-Winthrop, Munich) at doses between 100 and 800 mg/day because of an extensive and partly persisting mastopathia. The documented period of treatment ranged between 40 and 774 days. According to the chosen medium daily dose the patients were divided into three groups (< 400 mg/d, 400-600 mg/d, > 600 mg/d). These groups w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1792797",
+            "title": "[Danazol in treatment of cystic mastopathy].",
+            "authors": [
+              "Radivojevic K"
+            ],
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "1991",
+            "abstract": "Numerous endocrine disorders may cause benign breast diseases, such as increased oestrogen and prolactin, decreased progesterone. The antigonadotropic effects of Danazol counteract these hormonal changes. It has been used for a few years in the treatment of benign breast diseases at a dosage of 200-800 mg daily. Treatment of benign breast cysts represents a special problem--after puncture fluid builds up again very often after a short while. In a randomized study we demonstrate the positive effe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Danazol 抑制 FSH/LH 降低循環雌激素，並直接與乳腺組織的孕激素受體及雄激素受體結合，抑制雌激素驅動的乳腺腺泡及纖維組織增生，有效緩解乳房疼痛與結節；此為 Danazol 在美國、歐洲已有 Phase 3 RCT 支持並核准的適應症，機轉路徑完整。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "apocrine adenosis of breast",
+      "txgnn": {
+        "score": 0.999987006187439,
+        "rank": 71
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2696224",
+            "title": "Breast macrocysts.",
+            "authors": [
+              "Hughes L E",
+              "Bundred N J"
+            ],
+            "journal": "World journal of surgery",
+            "year": "1989",
+            "abstract": "Clinical macrocysts occur in about 7% of adult women. Modern terminology and understanding of benign breast disorders considers microcysts and macrocysts as specific clinical and pathological entities. The terminology and concepts of fibrocystic disease and its many alternative terms have been discarded. Cysts arise as an aberration of normal lobular involution (ANDI) associated with active secretion of apocrine epithelium under hormonal stimulation. They are readily managed in most cases by asp",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1853641",
+            "title": "[Breast cysts].",
+            "authors": [
+              "Gorins A",
+              "Tournant B",
+              "Perret F",
+              "Degrelle H",
+              "Nahoul K"
+            ],
+            "journal": "Verhandelingen - Koninklijke Academie voor Geneeskunde van Belgie",
+            "year": "1991",
+            "abstract": "The mammary cyst is part of the fibro-cystic disease. Only cysts with a diameter of more than 3 mm would have a pathological significance. Its clinical symptomatology is well known. The clearing puncture is the essential diagnostic and therapeutic act. Mammography, sustained by cystography, furnishes highly worthy information. Thermography and ultra-sonography may also be useful. Its pathogeny is still being very much discussed. Hormonal factors are incriminated: hyperestrogenemia, luteal defici",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7105513",
+            "title": "Fibrocystic disease of the breast.",
+            "authors": [
+              "Greenblatt R B",
+              "Samaras C",
+              "Vasquez J M",
+              "Nezhat C"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頂泌腺腺病（Apocrine adenosis）為良性乳腺增生性病變，病理上與纖維囊性乳腺病存在組織學重疊；Danazol 的抗雌激素機轉理論上可能抑制增生，但現有3篇文獻均為一般性纖維囊性乳腺病或乳腺囊腫綜述，無任何直接針對頂泌腺腺病的臨床研究或病例報告。屬機轉推論性適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "blunt duct adenosis of breast",
+      "txgnn": {
+        "score": 0.999987006187439,
+        "rank": 72
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鈍管腺病（Blunt duct adenosis）為乳腺末梢導管的良性擴張性病變，無獨立的雌激素驅動增生機轉研究支持；無任何文獻直接研究 Danazol 對此病的療效。TxGNN 高分（0.9999870）反映其與廣泛乳腺疾病知識圖譜類別的拓撲鄰近性，而非實質臨床證據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "fat necrosis of breast",
+      "txgnn": {
+        "score": 0.9999663829803468,
+        "rank": 132
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳腺脂肪壞死（Fat necrosis）為外傷、手術或放療後的非增生性反應性病變，主要由物理損傷及脂肪細胞壞死引發炎症反應，與雌激素調節無直接關聯；Danazol 的激素調節機轉對本病理過程無合理干預點。無任何文獻或試驗支持，為典型的 TxGNN 圖譜同類別節點偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "breast abscess",
+      "txgnn": {
+        "score": 0.9999663829803468,
+        "rank": 133
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11594256",
+            "title": "Benign breast disease.",
+            "authors": [
+              "Hamed H",
+              "Fentiman I S"
+            ],
+            "journal": "International journal of clinical practice",
+            "year": "2001",
+            "abstract": "Benign breast disorders (BBD), classified by the ANDI system (aberrations of normal development and involution), constitute the major workload in breast clinics. Breast pain (mastalgia) is classified as cyclical, and non-cyclical extramammary causes such as ribircage pain have to be identified. Most patients need reassurance alone but those with moderate/severe pain present for > 6 months may need treatment: randomised trials have shown danazol, bromocriptine and tamoxifen to be effective. Fibro",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3951530",
+            "title": "Danazol therapy for periareolar abscess.",
+            "authors": [
+              "Grajower M M",
+              "Sas N"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3748100",
+            "title": "More on danazol therapy for periareolar abscess.",
+            "authors": [
+              "Love S M"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series/Letter",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳暈周圍膿瘍（Periareolar abscess / Zuska disease）與乳管鱗狀化生、阻塞及反覆感染有關，部分病例具有雌激素依賴性乳管增生背景；Danazol 的抗雌激素效應可能改善乳管上皮異常增生，從而減少膿瘍復發。1986年有兩篇個案系列/通訊報告直接記錄療效，但樣本數極小且缺乏對照。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "lactation disease",
+      "txgnn": {
+        "score": 0.999964475631714,
+        "rank": 146
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36744397",
+            "title": "Safety of medications for hereditary angioedema during pregnancy and lactation.",
+            "authors": [
+              "Yeich Andrew",
+              "Elhatw Ahmed",
+              "Ashoor Zaynab",
+              "Park Kristen",
+              "Craig Timothy"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2023",
+            "abstract": "Hereditary Angioedema (HAE) attacks show an increased frequency and severity for pregnant and lactating females secondary to the hormonal changes. The diagnosis and management of HAE in pregnant and lactating females pose a challenge for physicians due to the rarity of the disease and the paucity of the data for specific management.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7105516",
+            "title": "Breast thermography.",
+            "authors": [
+              "Nyirjesy I"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11594256",
+            "title": "Benign breast disease.",
+            "authors": [
+              "Hamed H",
+              "Fentiman I S"
+            ],
+            "journal": "International journal of clinical practice",
+            "year": "2001",
+            "abstract": "Benign breast disorders (BBD), classified by the ANDI system (aberrations of normal development and involution), constitute the major workload in breast clinics. Breast pain (mastalgia) is classified as cyclical, and non-cyclical extramammary causes such as ribircage pain have to be identified. Most patients need reassurance alone but those with moderate/severe pain present for > 6 months may need treatment: randomised trials have shown danazol, bromocriptine and tamoxifen to be effective. Fibro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "76843",
+            "title": "The galactorrhoea-endometriosis syndrome.",
+            "authors": [
+              "Hirschowitz J S",
+              "Soler N G",
+              "Wortsman J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1978",
+            "abstract": "A new syndrome consisting of galactorrhoea and endometriosis is described. Nine patients with endometriosis, eight of whom had galactorrhoea either at diagnosis or after treatment with danazol are reported. Prolactin concentrations were normal in seven patients. Galactorrhoea in a woman with regular menstrual periods should suggest a possible diagnosis of underlying endometriosis, especially if there is a history of dysmenorrhoea.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6405917",
+            "title": "Vitamin D metabolites and analogues, diphosphonates, danazol, and bromocriptine.",
+            "authors": [
+              "Paterson C R",
+              "Feely J"
+            ],
+            "journal": "British medical journal (Clinical research ed.)",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19281571",
+            "title": "Hereditary angioedema and pregnancy.",
+            "authors": [
+              "Chinniah Niranthari",
+              "Katelaris Constance H"
+            ],
+            "journal": "The Australian & New Zealand journal of obstetrics & gynaecology",
+            "year": "2009",
+            "abstract": "Hereditary angioedema (HAE) is an autosomal dominant disease caused by a quantitative or functional defect in C1-esterase inhibitor (C1-INH). Patients with this deficiency present with episodes of angioedema which can be life-threatening. Studies examining HAE and pregnancy are scarce with little known about the interrelationship between the two.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34976488",
+            "title": "Hereditary Angioedema: A Gynecology and Obstetrics Perspective.",
+            "authors": [
+              "Évora Francisco",
+              "Rodolfo Ana"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Hereditary angioedema is an autosomal dominant genetic disease that causes tissue edema mediated by bradykinin. The angioedema attacks have several triggers including stress, trauma, infection, and increased estrogens levels. This explains the greater incidence and clinical severity in women, which are usually asymptomatic until puberty, when the attacks begin to occur. It may involve multiple locations on the body, leading to complications, such as surgical intervention prompt by severe acute a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8179529",
+            "title": "Mastalgia: a 3 year Australian study.",
+            "authors": [
+              "Wetzig N R"
+            ],
+            "journal": "The Australian and New Zealand journal of surgery",
+            "year": "1994",
+            "abstract": "Mastalgia is a common but often poorly understood condition with little Australian data available on the subject. Details are presented of 170 patients who have attended a specific mastalgia clinic at the Princess Alexandra Hospital, Brisbane, Queensland, over a 3 year period. The aims and management protocol of the clinic are outlined. The mastalgia sufferer in this study had an average age of 42 years and 87% were multiparous. Cyclical pain occurred in 59% as determined by a daily pain record ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3545282",
+            "title": "A clinical trial using danazol for the treatment of premenstrual tension.",
+            "authors": [
+              "Watts J F",
+              "Butt W R",
+              "Logan Edwards R"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1987",
+            "abstract": "Forty women with premenstrual tension received either placebo, 100, 200 or 400 mg danazol daily for 3 months in a pilot study arranged as a double-blind trial. Thirteen patients withdrew by the third month usually because they complained of no improvement. They had significantly higher pretrial symptom scores than those who continued. In patients treated with danazol, symptom scores for breast pain during the second and third months and for irritability, anxiety and lethargy during the third mon",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【安全性警示】Danazol 在哺乳期具有明確禁忌：可能透過乳汁移轉給嬰兒產生雄性化影響，並抑制泌乳素分泌加重泌乳不足。現有文獻主要為 HAE 孕期/哺乳安全性回顧（明確標示禁忌），而非治療性應用。機轉分析顯示 Danazol 不適合作為泌乳疾病治療藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "breast adenosis",
+      "txgnn": {
+        "score": 0.9999599456787108,
+        "rank": 160
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7041729",
+            "title": "Danazol.",
+            "authors": [
+              "Madanes A E",
+              "Farber M"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1982",
+            "abstract": "Danazol, approved 5 years ago for the treatment of pelvic endometriosis, has recently been approved for treating cystic disease of the breast. As the mechanisms of action of this drug are made clear, the clinical syndromes that can be treated by this impeded androgen have increased dramatically. Results of controlled prospective clinical studies on the drug have increased our understanding of the pathophysiology of several poorly understood diseases. Danazol is well tolerated by most patients; t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7816405",
+            "title": "Fibrocystic changes.",
+            "authors": [
+              "Fiorica J V"
+            ],
+            "journal": "Obstetrics and gynecology clinics of North America",
+            "year": "1994",
+            "abstract": "Most women have fibrocystic changes in their breasts. Patients with proliferative changes with atypia are at an increased risk of breast cancer. The management of mastalgia is the challenge most frequently encountered in patients with fibrocystic changes. Clinically, the types and variants of fibrocystic changes are sometimes difficult to distinguish. When the diagnosis of fibrocystic changes is unclear, a histologic evaluation biopsy, open surgical biopsy, should be performed.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3314435",
+            "title": "Fibrocystic breast disease.",
+            "authors": [
+              "Scott E B"
+            ],
+            "journal": "American family physician",
+            "year": "1987",
+            "abstract": "Fibrocystic breast disease is characterized by breast pain, lumpiness or cysts. The few patients who have atypia on breast biopsy are at substantially increased risk for the development of breast cancer. Management of fibrocystic breast disease involves monitoring for breast cancer by repeated physical and mammographic examinations. Alleviation of symptoms may be attempted by reassurance, reduction of methylxanthine intake and treatment with danazol.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2696224",
+            "title": "Breast macrocysts.",
+            "authors": [
+              "Hughes L E",
+              "Bundred N J"
+            ],
+            "journal": "World journal of surgery",
+            "year": "1989",
+            "abstract": "Clinical macrocysts occur in about 7% of adult women. Modern terminology and understanding of benign breast disorders considers microcysts and macrocysts as specific clinical and pathological entities. The terminology and concepts of fibrocystic disease and its many alternative terms have been discarded. Cysts arise as an aberration of normal lobular involution (ANDI) associated with active secretion of apocrine epithelium under hormonal stimulation. They are readily managed in most cases by asp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18691993",
+            "title": "Rhabdomyolysis and pancreatitis associated with coadministration of danazol 600 mg/d and lovastatin 40 mg/d.",
+            "authors": [
+              "Hsieh Cheng-Yang",
+              "Chen Chih-Hung"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2008",
+            "abstract": "Danazol is a steroid analogue with anabolic and androgenic effects and is indicated for the treatment of endometriosis, fibrocystic diseases of the breast, and hereditary angioedema. Lovastatin has been prescribed to lower total cholesterol and low-density lipoprotein cholesterol, reducing cardiovascular-related morbidity and mortality in patients with hypercholesterolemia. As monotherapies, both danazol and lovastatin have been reported to induce myopathy and pancreatitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7105516",
+            "title": "Breast thermography.",
+            "authors": [
+              "Nyirjesy I"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2696222",
+            "title": "Management of breast pain and nodularity.",
+            "authors": [
+              "Maddox P R",
+              "Mansel R E"
+            ],
+            "journal": "World journal of surgery",
+            "year": "1989",
+            "abstract": "The management of mastalgia consists of classification into its various patterns: reassurance, drug therapy for severe cases, and, rarely, surgery. Differentiation into cyclical and noncyclical patterns on a simple pain chart is useful for objective assessment of pain severity and for selection of appropriate drug therapy and subsequent monitoring of response. About 85% of new patients will be satisfied with adequate reassurance, but some 15% will have persistent pain and warrant medical treatme",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6594009",
+            "title": "Danazol treatment of severely symptomatic fibrocystic breast disease and long-term follow-up--the Hjørring project.",
+            "authors": [
+              "Tobiassen T",
+              "Rasmussen T",
+              "Döberl A",
+              "Rannevik G"
+            ],
+            "journal": "Acta obstetricia et gynecologica Scandinavica. Supplement",
+            "year": "1984",
+            "abstract": "The purpose of the investigation was to study various aspects of danazol treatment in patients with fibrocystic breast disease and pronounced mastodynia. To qualify for inclusion, the patients in this study had to have a mammographically confirmed prominent glandular structure and/or severe cystic breast disease, associated with pronounced cyclical mastodynia lasting at least one week per menstrual cycle for more than 6 months. They also had to be premenopausal and not undergoing hormonal therap",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16444894",
+            "title": "Mastalgia: a review of management.",
+            "authors": [
+              "Olawaiye Alexander",
+              "Withiam-Leitch Matthew",
+              "Danakas George",
+              "Kahn Kenneth"
+            ],
+            "journal": "The Journal of reproductive medicine",
+            "year": "2005",
+            "abstract": "Mastalgia affects up to two-thirds of women at some time during their reproductive lives. It is usually benign, but thefear of underlying breast cancer is why many women present for evaluation. Mastalgia can be associated with premenstrual syndrome, fibrocystic breast disease, psychologic disturbance and, rarely, breast cancer. Occasionally, extramammary conditions, like Tietzie syndrome, present as mastalgia. A thorough clinical evaluation is required to assess the cause. The majority of women ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2622587",
+            "title": "[Use of low-dose danazol in adenosis of the breast].",
+            "authors": [
+              "Mossa B",
+              "Tocci B",
+              "Roscetti C",
+              "Aleandri V",
+              "Morini A"
+            ],
+            "journal": "Minerva ginecologica",
+            "year": "1989",
+            "abstract": "Mammary adenosis is a very common affliction which, it has been calculated, affects between 7 and 15% of women of child-bearing age. The Authors report the results obtained during treatment of this condition with danazol in those different dosages (50, 100 and 200 mg per day). Results were evaluated at 3 and 6 months during therapy, and then 4 months after suspension of the treatment. Effects were evaluated in terms of changes in the symptomatic pain and in the actual clinical record. Side effec",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28649033",
+            "title": "Danazol alters mitochondria metabolism of fibrocystic breast Mcf10A cells.",
+            "authors": [
+              "Irgebay Zhazira",
+              "Yeszhan Banu",
+              "Sen Bhaswati",
+              "Tuleukhanov Sultan",
+              "Brooks Ari D"
+            ],
+            "journal": "Breast (Edinburgh, Scotland)",
+            "year": "2017",
+            "abstract": "Fibrocystic Breast Disease (FBD) or Fibrocystic change (FC) affects about 60% of women at some time during their life. Although usually benign, it is often associated with pain and tenderness (mastalgia). The synthetic steroid danazol has been shown to be effective in reducing the pain associated with FBD, but the cellular and molecular mechanisms for its action have not been elucidated. We investigated the hypothesis that danazol acts by affecting energy metabolism. Effects of danazol on Mcf10A",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11991427",
+            "title": "Benign breast pain in women: a practical approach to evaluation and treatment.",
+            "authors": [
+              "Norlock Frances E"
+            ],
+            "journal": "Journal of the American Medical Women's Association (1972)",
+            "year": "2002",
+            "abstract": "The literature on breast pain etiology, practical approaches to evaluating benign breast pain, and effective treatments was reviewed. Medline, the Cochrane Database of Systematic Reviews, and Cancerlit were searched for 1975 to 2001. Researchers have found no clear hormonal or specific pathological processes that explain cyclical breast pain. Some investigations did find associations between breast pain and premenstrual syndrome, fibrocystic breast disease, and caffeine intake. Initial treatment",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2622581",
+            "title": "[Treatment with danazol of breast adenosis. A comparative note].",
+            "authors": [
+              "Mossa B",
+              "Pelle R",
+              "Tocci B",
+              "Florio V"
+            ],
+            "journal": "Minerva ginecologica",
+            "year": "1989",
+            "abstract": "The term \"mammary adenosis\" describes chronic congestion of the mammary gland, whose principle symptom is painfulness. The Authors report the results obtained during therapy, which utilised three different pharmacological treatments: danazol, progestogen vitamin compounds. Evaluations made were both subjective (pain) and objective (clinical details), classified in those levels: recovery, improvement, persistence of symptoms. Results were evaluated after 3 and months of treatment, and then at fou",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1853641",
+            "title": "[Breast cysts].",
+            "authors": [
+              "Gorins A",
+              "Tournant B",
+              "Perret F",
+              "Degrelle H",
+              "Nahoul K"
+            ],
+            "journal": "Verhandelingen - Koninklijke Academie voor Geneeskunde van Belgie",
+            "year": "1991",
+            "abstract": "The mammary cyst is part of the fibro-cystic disease. Only cysts with a diameter of more than 3 mm would have a pathological significance. Its clinical symptomatology is well known. The clearing puncture is the essential diagnostic and therapeutic act. Mammography, sustained by cystography, furnishes highly worthy information. Thermography and ultra-sonography may also be useful. Its pathogeny is still being very much discussed. Hormonal factors are incriminated: hyperestrogenemia, luteal defici",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7386553",
+            "title": "Danazol for benign breast disease.",
+            "authors": [
+              "Nezhat C",
+              "Asch R H",
+              "Greenblatt R B"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1980",
+            "abstract": "Three groups of women with benign breast disease were treated with danazol for 3 to 6 months. Doses of 100 mg per day were given to 40 patients, 200 mg to 55, and 400 mg to 35. The age range of the patients was 20 to 48 years. The patients were rechecked at 6-month intervals over a period of 48 months. Most of them were seen four or more times after completion of therapy. Elimination of nodularity occurred in about two thirds; three experienced no improvement, and partial resolution was obtained",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3511705",
+            "title": "Fibrocystic breast disease: pathophysiology, pathomorphology, clinical picture, and management.",
+            "authors": [
+              "Vorherr H"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1986",
+            "abstract": "The pathophysiology of fibrocystic breast disease is determined by estrogen predominance and progesterone deficiency that result in hyperproliferation of connective tissue (fibrosis), which is followed by facultative epithelial proliferation; the risk of breast cancer is increased twofold to fourfold in these patients. The clinical correlate of fibrocystic disease is reflected by breast and axillary pain or tenderness in response to development of fibrocystic plaques, nodularity, macrocysts, and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6405917",
+            "title": "Vitamin D metabolites and analogues, diphosphonates, danazol, and bromocriptine.",
+            "authors": [
+              "Paterson C R",
+              "Feely J"
+            ],
+            "journal": "British medical journal (Clinical research ed.)",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2264419",
+            "title": "[Endocrinology and therapy of breast diseases].",
+            "authors": [
+              "Breckwoldt M"
+            ],
+            "journal": "Zentralblatt fur Gynakologie",
+            "year": "1990",
+            "abstract": "In 193 patients with fibrocystic breast diseases in 46% basal prolactin levels were elevated and many women had an increased reaction to TRH test with increased TSH and PRL serum levels. The author recommend for treatment progestogens dopamine antagonists and danazol.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2676763",
+            "title": "[Mechanism of action of danazol, personal clinical experiences and guidelines for the treatment of benign breast diseases].",
+            "authors": [
+              "Schindler A E",
+              "Schindler E M"
+            ],
+            "journal": "Der Gynakologe",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳腺腺病（Breast adenosis）為良性腺泡增生，受雌激素持續刺激為主要驅動因素；Danazol 透過降低雌激素微環境可抑制腺泡過度增生，並緩解相關乳房疼痛及硬結。1989年有小型直接研究（低劑量 Danazol 治療乳腺腺病），並有多個纖維囊性乳腺病（含腺病成分患者）的臨床試驗間接支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "vulvovaginitis",
+      "txgnn": {
+        "score": 0.9995678067207336,
+        "rank": 1043
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8551972",
+            "title": "Suppression of anti-Candida activity of murine neutrophils by progesterone in vitro: a possible mechanism in pregnant women's vulnerability to vaginal candidiasis.",
+            "authors": [
+              "Nohmi T",
+              "Abe S",
+              "Dobashi K",
+              "Tansho S",
+              "Yamaguchi H"
+            ],
+            "journal": "Microbiology and immunology",
+            "year": "1995",
+            "abstract": "Sex steroid hormones were examined for their effect on mycelial growth of Candida albicans, and the inhibitory activity of casein-induced murine peritoneal neutrophils against mycelial growth of C. albicans was examined in vitro using a crystal violet staining method or a [3H]glucose incorporation method. Four steroid hormones, danazol, estradiol, estriol and testosterone had no effect on mycelial growth of C. albicans, but progesterone appeared to convert the growth form of C. albicans from hyp",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【機轉反向警示】唯一相關文獻（PMID 8551972）為體外研究，探討孕激素抑制中性球抗念珠菌活性；Danazol 具弱孕激素活性，理論上可能進一步抑制局部免疫防禦而加重念珠菌性外陰陰道炎，而非治療。機轉方向相反，無任何臨床支持，TxGNN 高分可能反映圖譜拓撲偽陽性（生殖系統疾病節點共現性）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "vulvitis",
+      "txgnn": {
+        "score": 0.9995194673538208,
+        "rank": 1124
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8551972",
+            "title": "Suppression of anti-Candida activity of murine neutrophils by progesterone in vitro: a possible mechanism in pregnant women's vulnerability to vaginal candidiasis.",
+            "authors": [
+              "Nohmi T",
+              "Abe S",
+              "Dobashi K",
+              "Tansho S",
+              "Yamaguchi H"
+            ],
+            "journal": "Microbiology and immunology",
+            "year": "1995",
+            "abstract": "Sex steroid hormones were examined for their effect on mycelial growth of Candida albicans, and the inhibitory activity of casein-induced murine peritoneal neutrophils against mycelial growth of C. albicans was examined in vitro using a crystal violet staining method or a [3H]glucose incorporation method. Four steroid hormones, danazol, estradiol, estriol and testosterone had no effect on mycelial growth of C. albicans, but progesterone appeared to convert the growth form of C. albicans from hyp",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外陰炎病因多元（感染性、過敏性、刺激性、萎縮性），Danazol 的雄激素/抗雌激素機轉與主要病理機轉無直接連結；唯一文獻與 vulvovaginitis 相同（PMID 8551972），屬體外研究且方向不利。此預測極可能為 TxGNN 圖譜中外陰炎與外陰陰道炎節點高度共現所致的偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "benign mammary dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "benign mammary dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "benign mammary dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "apocrine adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "apocrine adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "apocrine adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "fat necrosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "fat necrosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "fat necrosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "breast abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "breast abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "breast abscess"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "lactation disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "lactation disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "lactation disease"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "breast adenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "breast adenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "breast adenosis"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "vulvitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "vulvitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Danazol",
+        "disease": "vulvitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

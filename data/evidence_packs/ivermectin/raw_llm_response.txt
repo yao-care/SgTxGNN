@@ -1,0 +1,190 @@
+## 藥物再利用證據分析：Ivermectin (DB00602)
+
+在正式輸出 JSON 前，有幾個重要的**資料品質警示**需要先說明：
+
+> ⚠️ **資料完整性問題**
+> - `original_indications` 為空陣列 — 但 Ivermectin 具有明確核准適應症（盤尾絲蟲症、類圓線蟲病、疥瘡、淋巴絲蟲病）
+> - `original_moa` 為 `[Data Gap]` — 實際 MoA 已知（結合無脊椎動物 GluCl 氯離子通道）
+> - `ddi_count: 0` 可能有誤 — Ivermectin 為 P-gp 受質，與 warfarin 等有已知交互作用
+> - 兩筆 literature 引用（PMID 35835488：播散性類圓線蟲病；PMID 10098288：結痂疥瘡）均屬 Ivermectin **原始適應症**文獻，與對應的 repurposing 適應症**無直接關聯**
+
+---
+
+```json
+{
+  "drug": "Ivermectin",
+  "drugbank_id": "DB00602",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "original_indications 欄位為空，與已知藥物資料不符",
+    "original_moa 缺失，可能影響 KG 預測品質",
+    "ddi_count=0 疑似資料管線異常",
+    "所有高分預測集中於真菌/生殖道適應症，疑似知識圖譜鄰近節點偏差"
+  ],
+  "indications": [
+    {
+      "disease_name": "vulvovaginal candidiasis",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ivermectin 作用機轉為結合無脊椎動物 GluCl（麩胺酸閘控氯離子）通道，造成寄生蟲麻痺死亡。Candida 為真菌，不具 GluCl 通道，無已知抗念珠菌機轉。部分體外研究顯示 ivermectin 可抑制 Candida 生物膜形成（推測透過膜通透性改變），但尚無臨床資料支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "無任何臨床試驗或相關文獻，高 TxGNN 分數可能源於 KG 中婦科/感染節點的結構性偏差。"
+    },
+    {
+      "disease_name": "esophageal candidiasis",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同上，無抗真菌機轉。唯一引用文獻（PMID 35835488）討論的是播散性類圓線蟲病——此為 Ivermectin 原始適應症，與食道念珠菌症無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35835488",
+          "title": "Disseminated strongyloidiasis after prolonged treatment with corticosteroids.",
+          "year": "2022",
+          "study_type": "Case Report / Review",
+          "tier": 3,
+          "relevance_to_indication": "不相關",
+          "reasoning": "此文獻描述免疫抑制患者發生播散性類圓線蟲病，Ivermectin 作為治療藥物（原始適應症）。與食道念珠菌症無機轉或臨床連結，屬誤歸類引用。"
+        }
+      ],
+      "assessment_notes": "唯一文獻為原始適應症佐證，非 repurposing 證據。"
+    },
+    {
+      "disease_name": "anogenital human papillomavirus infection",
+      "txgnn_score": 0.9948,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ivermectin 具有廣效抗病毒潛力，體外研究顯示可抑制 importin α/β 核運輸通路，干擾多種病毒（含 SARS-CoV-2、HIV、Zika）複製。理論上對 HPV 核運輸亦可能有影響，但目前無 HPV 特異性臨床試驗或高品質臨床前數據。提供資料中無任何試驗或文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "此適應症在外部文獻中存在微量間接機轉假說，但提供資料完全空白，不足升至 L4。若有獨立 in vitro HPV 資料，可考慮標記為 Research Question。"
+    },
+    {
+      "disease_name": "vulvovaginitis",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰陰道炎為多病因症候群（細菌性、念珠菌性、滴蟲性等）。Ivermectin 對滴蟲（Trichomonas vaginalis，原蟲類）理論上可能有效，但屬假說層級。無任何臨床試驗或文獻佐證此泛稱診斷。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "診斷過於寬泛，無法評估特定機轉連結。"
+    },
+    {
+      "disease_name": "candida glabrata",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Candida glabrata（現更名 Nakaseomyces glabrata）對多種抗真菌藥具天然低感受性。Ivermectin 無已知抗真菌機轉，對耐藥性念珠菌亦無文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "高度耐藥菌種，缺乏任何臨床或臨床前根據。"
+    },
+    {
+      "disease_name": "neonatal candidiasis",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒念珠菌症需考量藥物安全性（BBB 通透性、肝毒性）。即便存在機轉假說，新生兒族群的安全資料不足是額外阻礙。完全無臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "高風險族群，安全性疑慮需優先評估，目前證據不支持進入任何臨床評估。"
+    },
+    {
+      "disease_name": "congenital candidiasis",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性念珠菌症為新生兒急症，需快速抗真菌治療。Ivermectin 無抗真菌機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10098288",
+          "title": "Crusted scabies in two immunocompromised children: successful treatment with oral ivermectin.",
+          "year": "1999",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "不相關",
+          "reasoning": "此文獻描述免疫缺陷兒童的結痂疥瘡（挪威疥）以口服 Ivermectin 成功治療，為原始適應症應用。與先天性念珠菌症無任何關聯，屬嚴重誤歸類。"
+        }
+      ],
+      "assessment_notes": "兩份文獻均為 Ivermectin 原始抗寄生蟲用途，與念珠菌症無關。資料管線可能存在共現（co-occurrence）誤判。"
+    },
+    {
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "txgnn_score": 0.9918,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "停經後萎縮性陰道炎為雌激素缺乏導致的黏膜萎縮，病因與感染或寄生蟲無關。Ivermectin 無激素或黏膜修復機轉，無任何合理的機轉連結。此適應症的高 TxGNN 分數高度疑似 KG 節點偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "此適應症與 Ivermectin 藥理學完全不相符，為明顯預測偽陽性。"
+    },
+    {
+      "disease_name": "candidiasis, invasive",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "侵襲性念珠菌症為危及生命的全身性感染，需即效抗真菌治療（echinocandin/azole 一線）。Ivermectin 無抗真菌機轉，不適合用於急症管理，且缺乏任何臨床根據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "高死亡率適應症，不應在無機轉根據與臨床證據下考慮。"
+    },
+    {
+      "disease_name": "vulvitis",
+      "txgnn_score": 0.9899,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰炎為多病因症候群，Ivermectin 無抗炎或抗真菌機轉。若病因為寄生蟲（如疥蟲侵犯外陰），則屬已知適應症，非 repurposing。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_notes": "無機轉連結，無臨床證據。"
+    }
+  ],
+  "overall_assessment": {
+    "summary": "本批次 10 個 TxGNN 預測適應症全部評定為 L5 / S0 / Hold。",
+    "key_findings": [
+      "所有建議適應症均無臨床試驗或直接支持文獻",
+      "兩筆引用文獻（PMID 35835488, PMID 10098288）均屬 Ivermectin 原始適應症，非 repurposing 證據",
+      "Ivermectin 的 GluCl 通道機轉對真菌/HPV/萎縮性陰道炎無已知關聯",
+      "高 TxGNN 分數（>0.99）集中於生殖道/念珠菌節點群，疑似知識圖譜結構性偏差（KG topology artifact）",
+      "資料管線存在明顯缺失（original_indications 空白、MoA 缺失、ddi_count=0），可能影響預測可信度"
+    ],
+    "pipeline_recommendation": "建議修正資料管線：補充 Ivermectin 已核准適應症（ICD-10: B73, B78, B86）及 MoA 資訊後重新執行預測，以降低誤導性高分預測的比率。",
+    "exception_note": "Anogenital HPV 適應症在外部文獻中存在微量機轉假說（importin α/β 通路），若補充外部 in vitro 資料後可重新評估是否升至 L4 Research Question。"
+  }
+}
+```
+
+---
+
+### 📊 整體摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| Vulvovaginal candidiasis | 0.9995 | **L5** | S0 | Hold |
+| Esophageal candidiasis | 0.9973 | **L5** | S0 | Hold ⚠️ 文獻誤歸類 |
+| Anogenital HPV infection | 0.9948 | **L5** | S0 | Hold* |
+| Vulvovaginitis | 0.9936 | **L5** | S0 | Hold |
+| Candida glabrata | 0.9925 | **L5** | S0 | Hold |
+| Neonatal candidiasis | 0.9925 | **L5** | S0 | Hold |
+| Congenital candidiasis | 0.9925 | **L5** | S0 | Hold ⚠️ 文獻誤歸類 |
+| Postmenopausal atrophic vaginitis | 0.9918 | **L5** | S0 | Hold |
+| Candidiasis, invasive | 0.9916 | **L5** | S0 | Hold |
+| Vulvitis | 0.9899 | **L5** | S0 | Hold |
+
+> \* HPV 適應症在補充外部 in vitro 資料後可考慮重新評估為 Research Question
+
+**核心問題診斷**：此批次預測最可能的原因是 Ivermectin 在知識圖譜中與「感染症」節點廣泛相連，而念珠菌症亦屬感染症節點群，導致圖結構鄰近性（graph proximity）被誤判為治療相關性。建議優先修補 `original_indications` 及 `original_moa` 資料缺失，再重新執行預測流程。

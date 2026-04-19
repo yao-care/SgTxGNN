@@ -1,0 +1,228 @@
+# Darbepoetin alfa (DB00012) — 藥物再利用證據分析報告
+
+---
+
+## 藥物背景說明
+
+> **注意**：資料欄位顯示 `original_moa: [Data Gap]`，但 Darbepoetin alfa 為已知紅血球生成素類似物（ESA），其機轉為結合 EPO 受體（EPOR）→ 刺激紅血球生成，並具有抗凋亡、免疫調節等多效性作用。以下分析依此已知機轉進行評估。
+
+---
+
+```json
+{
+  "drug": "Darbepoetin alfa",
+  "drugbank_id": "DB00012",
+  "analysis_date": "2026-04-04",
+  "overall_signal": "⚠️ 全體適應症均為純預測訊號，臨床轉譯證據極度匱乏",
+  "indications": [
+    {
+      "disease_name": "amenorrhea (disease)",
+      "txgnn_score": 0.9673,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "EPO 受體在生殖軸組織（子宮內膜、卵巢顆粒細胞）有少量表達，理論上可能影響下丘腦-垂體-性腺軸；但此連結極為間接，且無任何支持性臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "純模型預測"]
+    },
+    {
+      "disease_name": "renin-angiotensin-aldosterone system-blocker-induced angioedema",
+      "txgnn_score": 0.9646,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RAAS 阻斷劑誘發血管性水腫主要機轉為緩激肽累積（ACEi）或 AT1R 阻斷後緩激肽受體 B2 過度激活。Darbepoetin alfa 無已知的緩激肽路徑作用，機轉連結不成立。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "機轉連結不成立", "純模型預測"]
+    },
+    {
+      "disease_name": "anaphylaxis",
+      "txgnn_score": 0.9315,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 警示：此為方向性錯誤的證據。現有試驗均為貧血/輸血管理研究（非過敏治療），文獻為 darbepoetin 本身引發過敏後的『去敏感化』案例，即 darbepoetin 是過敏原而非治療劑。TxGNN 知識圖譜可能錯誤解讀藥物-過敏節點關係。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05340465",
+          "title": "Darbepoetin Plus Slow-release IV Iron to Decrease Transfusions",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "研究目的為減少輸血需求（貧血管理），與 anaphylaxis 治療完全無關。適應症匹配度為零。"
+        },
+        {
+          "nct_id": "NCT00838097",
+          "title": "Safety and Patterns of Use of Darbepoetin Alfa in EU Paediatric Population",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "兒科安全性觀察性登錄研究，非介入性治療試驗，且目標疾病為慢性腎病貧血，與 anaphylaxis 無關。"
+        },
+        {
+          "nct_id": "NCT05768997",
+          "title": "High Dose IV Iron in Combination with Erythrocyte Stimulating Agents",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 貧血/輸血試驗，狀態為 UNKNOWN（需核實是否仍活躍），目標疾病為貧血，非 anaphylaxis。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24129045",
+          "title": "Desensitization of darbepoetin-α: a case report.",
+          "year": "2013",
+          "study_type": "Case Report",
+          "tier": "3",
+          "critical_note": "❌ 方向性錯誤：此案例為患者對 darbepoetin alfa 產生過敏反應後進行『去敏感化治療』，darbepoetin 是致敏原，非治療劑。此文獻不支持再利用，反而提示過敏安全性風險。"
+        }
+      ],
+      "red_flags": [
+        "所有試驗均為貧血適應症，非 anaphylaxis",
+        "文獻為不良反應報告而非療效證據",
+        "知識圖譜可能出現節點方向性誤判"
+      ]
+    },
+    {
+      "disease_name": "psoriasis",
+      "txgnn_score": 0.9270,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "EPO 具有免疫調節特性（抑制 Th1/Th17、調節 TNF-α），理論上可能影響銀屑病的炎症路徑；然而此連結高度推測性，無直接研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40519492",
+          "title": "Deucravacitinib Treatment for Psoriasis Complicated by Myelodysplastic Syndrome Without Exacerbation",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": "3",
+          "critical_note": "❌ 藥物錯誤：此文獻研究的是 Deucravacitinib（TYK2 抑制劑），與 darbepoetin alfa 無關。患者為骨髓增生異常症候群（MDS）合併銀屑病，darbepoetin 可能用於 MDS 貧血，但本文關注的是銀屑病治療反應，非 darbepoetin 的療效。"
+        }
+      ],
+      "red_flags": [
+        "唯一文獻研究的是完全不同的藥物（Deucravacitinib）",
+        "零專屬臨床試驗",
+        "文獻關聯度為間接背景，非直接證據"
+      ]
+    },
+    {
+      "disease_name": "penile fibromatosis",
+      "txgnn_score": 0.9217,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "EPO 可能透過 EPOR 促進組織修復並調節 TGF-β 路徑（抗纖維化潛力），但陰莖纖維瘤病（Peyronie 前驅型）的纖維化機轉複雜，EPO 作用高度理論性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "純模型預測"]
+    },
+    {
+      "disease_name": "food-dependent exercise-induced anaphylaxis",
+      "txgnn_score": 0.9197,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此病症機轉為食物過敏原在運動誘發的生理條件下（腸道通透性增加、肥大細胞敏化）觸發過敏反應。與 darbepoetin 機轉無合理交集，且 darbepoetin 本身即有過敏風險（見 PMID 24129045）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "藥物本身有過敏風險，不宜用於過敏性疾病"]
+    },
+    {
+      "disease_name": "Peyronie disease",
+      "txgnn_score": 0.9194,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Peyronie 病以陰莖白膜纖維化斑塊為特徵，涉及 TGF-β1 過表達。EPO 的抗氧化、抗纖維化潛力理論上可能有所作用，但無任何泌尿科相關研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "純模型預測"]
+    },
+    {
+      "disease_name": "Ledderhose disease",
+      "txgnn_score": 0.9114,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ledderhose 病（足底纖維瘤病）與 Dupuytren 攣縮同屬纖維瘤病譜系，病理為筋膜肌纖維母細胞增殖。EPO 抗纖維化假說與此適應症的知識圖譜連結推測為同群纖維瘤病類別（與 penile fibromatosis、Peyronie 聚類），非特異性證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "知識圖譜纖維瘤類別聚類可能造成假陽性"]
+    },
+    {
+      "disease_name": "infantile digital fibromatosis",
+      "txgnn_score": 0.9107,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嬰兒指纖維瘤病（Reye 瘤）為罕見良性纖維性腫瘤，具自發緩解特性。EPO 相關機轉連結極弱，且此病通常採觀察等待策略，新療法需求低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": ["零臨床試驗", "零文獻", "罕見疾病自然病程多自發緩解，新藥需求評估需重新框架"]
+    },
+    {
+      "disease_name": "HER2 positive breast carcinoma",
+      "txgnn_score": 0.9090,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全性警示：EPOR 在部分乳癌細胞中有表達，ESA 可能透過 EPOR 促進腫瘤細胞增殖及血管新生。FDA 已對腫瘤患者使用 ESA 發出黑框警告（可能縮短生存期）。此適應症不僅缺乏療效證據，且存在主動安全性疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "零臨床試驗",
+        "零文獻",
+        "FDA 黑框警告：ESA 在腫瘤患者中可能促進腫瘤進展",
+        "EPOR 在 HER2+ 乳癌細胞的表達提示潛在腫瘤促進效應",
+        "建議排除，不進入後續評估"
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 跨適應症彙總評估
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|-----------|---------|---------|------|---------|
+| amenorrhea | 0.967 | **L5** | S0 | Hold | 零證據 |
+| RAAS-blocker angioedema | 0.965 | **L5** | S0 | Hold | 機轉不成立 |
+| anaphylaxis | 0.931 | **L4** | S0 | Hold | ⚠️ 方向性誤判 |
+| psoriasis | 0.927 | **L5** | S0 | Hold | ⚠️ 文獻藥物錯誤 |
+| penile fibromatosis | 0.922 | **L5** | S0 | Hold | 零證據 |
+| FDEIA | 0.920 | **L5** | S0 | Hold | 安全性矛盾 |
+| Peyronie disease | 0.919 | **L5** | S0 | Hold | 零證據 |
+| Ledderhose disease | 0.911 | **L5** | S0 | Hold | 聚類假陽性 |
+| infantile digital fibromatosis | 0.911 | **L5** | S0 | Hold | 零證據 |
+| HER2+ breast carcinoma | 0.909 | **L5** | S0 | **Hold / Exclude** | 🚫 FDA 黑框警告 |
+
+---
+
+## 分析師備註
+
+### 1. 模型訊號可信度評估
+本批次預測呈現**高分數、低證據**的典型特徵，TxGNN 分數集中於 0.909–0.967，但 10 個適應症中：
+- **8 個** 為完全零臨床試驗、零文獻（純 L5）
+- **1 個**（anaphylaxis）雖有試驗與文獻，但均為**方向性錯誤**（藥物不良反應而非療效）
+- **1 個**（psoriasis）文獻為**無關藥物**的研究
+
+### 2. 知識圖譜偏差識別
+- **纖維瘤病叢集**（penile fibromatosis、Peyronie、Ledderhose、infantile digital fibromatosis）：推測為 KG 中纖維化疾病節點密集連結所致假陽性聚類
+- **過敏叢集**（anaphylaxis、FDEIA）：推測 KG 將藥物-不良反應邊（darbepoetin → anaphylaxis）誤解為治療邊
+- **HER2+ 乳癌**：EPOR 表達作為共同節點被誤判為治療機會，實為安全性危險訊號
+
+### 3. 後續行動建議
+| 優先級 | 行動 |
+|--------|------|
+| 🔴 即時排除 | HER2+ breast carcinoma（FDA 黑框警告禁忌） |
+| 🟡 機轉探索 | 纖維瘤病叢集（需搜尋 EPO + fibrosis + TGF-β 基礎研究文獻） |
+| 🟠 數據質量 | 補充 darbepoetin 已核准適應症（慢性腎病貧血、化療誘發貧血）的數據，修正 `original_indications: []` 空值問題 |
+
+> ⚕️ **免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有再利用候選適應症需經嚴格臨床驗證方可應用。

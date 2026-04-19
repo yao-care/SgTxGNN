@@ -1,0 +1,1308 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00920-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ketotifen",
+    "drugbank_id": "DB00920",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.986033022403717,
+        "rank": 13545
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9951950",
+            "title": "Second-generation antihistamines: a comparative review.",
+            "authors": [
+              "Slater J W",
+              "Zechnich A D",
+              "Haxby D G"
+            ],
+            "journal": "Drugs",
+            "year": "1999",
+            "abstract": "Second-generation histamine H1 receptor antagonists (antihistamines) have been developed to reduce or eliminate the sedation and anticholinergic adverse effects that occur with older H1 receptor antagonists. This article evaluates second-generation antihistamines, including acrivastine, astemizole, azelastine, cetirizine, ebastine, fexofenadine, ketotifen, loratadine, mizolastine and terfenadine, for significant features that affect choice. In addition to their primary mechanism of antagonising ",
+            "classification": {
+              "study_type": "Comparative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9487221",
+            "title": "Ketotifen and chronic urticaria.",
+            "authors": [
+              "Taşkapan O",
+              "Harmanyeri Y"
+            ],
+            "journal": "Archives of dermatology",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Trial（直接試驗）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16278258",
+            "title": "Treatment for allergic rhinitis and chronic idiopathic urticaria: focus on oral antihistamines.",
+            "authors": [
+              "Morgan Matthew M",
+              "Khan David A",
+              "Nathan Robert A"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2005",
+            "abstract": "To review the efficacy and safety of first- and newer-generation antihistamines for the management of allergic rhinitis and chronic idiopathic urticaria (CIU), with a focus on management in the pharmacy.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2226222",
+            "title": "Ketotifen. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic use in asthma and allergic disorders.",
+            "authors": [
+              "Grant S M",
+              "Goa K L",
+              "Fitton A",
+              "Sorkin E M"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "Ketotifen is an orally active prophylactic agent for the management of bronchial asthma and allergic disorders. Accumulated evidence indicates that after 6 to 12 weeks of administration, ketotifen significantly reduces respiratory symptoms and the need for concomitant antiasthmatic drugs in about 70% and 50%, respectively, of patients with mild to moderate bronchial asthma. However, absolute improvement in lung function is generally slight. Ketotifen also has pronounced antihistaminic and antian",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7530629",
+            "title": "Urticaria. Recognition, causes and treatment.",
+            "authors": [
+              "Ormerod A D"
+            ],
+            "journal": "Drugs",
+            "year": "1994",
+            "abstract": "The urticarias are a complex group of disorders characterised by transient whealing or swelling of the skin. Understanding the many possible causes is the first step in assessing urticaria. Allergic and drug-induced urticaria respond to removal of the cause. The physical urticarias, particularly delayed pressure urticaria and also urticarial vasculitis, require separate consideration. For the majority of patients with chronic idiopathic urticaria, nonsedating antihistamines are the mainstay of t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7488341",
+            "title": "Cold urticaria in Thai children: comparison between cyproheptadine and ketotifen in the treatment.",
+            "authors": [
+              "Visitsunthorn N",
+              "Tuchinda M",
+              "Vichyanond P"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1995",
+            "abstract": "The study was performed in 6 Thai children with primary acquired cold urticaria. They all suffered from generalized urticaria and two of them also had angioedema. All of them had normal erythrocyte sedimentation rate, complement 3 and negative VDRL, TPHA, hepatitis B screen and cold agglutinin titer. Cryoglobulin was checked in 3 cases and showed negative results A double-blind cross-over study to compare the effectiveness of cyproheptadine and ketotifen demonstrated that the efficacy of cyprohe",
+            "classification": {
+              "study_type": "RCT（頭對頭比較）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19753736",
+            "title": "Levothyroxine versus ketotifen in the treatment of patients with chronic urticaria and thyroid autoimmunity.",
+            "authors": [
+              "Karaayvaz M",
+              "Calişkaner Z",
+              "Turan M",
+              "Akar A",
+              "Oztürk S"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2002",
+            "abstract": "Thyroid hormone replacement therapy has previously been discussed as a feasible therapeutic approach in patients with chronic urticaria and/or angio-oedema (CUA) and thyroid autoimmunity (TA).",
+            "classification": {
+              "study_type": "RCT（頭對頭比較）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2873823",
+            "title": "Urticaria in Thai children.",
+            "authors": [
+              "Tuchinda M",
+              "Srimaruta N",
+              "Habanananda S",
+              "Vareenil J",
+              "Assatherawatts A"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1986",
+            "abstract": "In this study, 142 patients under 12 years of age with the diagnosis of urticaria accompanied or not by angioedema were examined. In all 72.6% of the patients were under 6 years of age. Boys and girls were equally affected, 13.4% of the cases had chronic urticaria, 56.3% had a previous history of urticaria, 88.0% had generalized urticaria, and about half of the cases had associated angioedema. The causes of the urticaria were identified or suspected in 32.4% of the cases. Drugs, foods, insect bi",
+            "classification": {
+              "study_type": "Cohort（觀察性）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8808167",
+            "title": "Ebastine. a review of its pharmacological properties and clinical efficacy in the treatment of allergic disorders.",
+            "authors": [
+              "Wiseman L R",
+              "Faulds D"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "Ebastine is a long-acting nonsedating second generation histamine H1 receptor antagonist which binds preferentially to peripheral H1 receptors in vivo. It has shown antihistamine and antiallergic activity in healthy volunteers and patients with allergies, and protected against histamine-induced bronchoconstriction in patients with asthma. Significant symptom improvement is observed in patients with seasonal or perennial allergic rhinitis or chronic idiopathic urticaria following administration o",
+            "classification": {
+              "study_type": "Drug Review（間接對照）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15617665",
+            "title": "Cold urticaria and infectious mononucleosis in children.",
+            "authors": [
+              "Morais-Almeida M",
+              "Marinho S",
+              "Gaspar A",
+              "Arêde C",
+              "Loureiro V"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "2004",
+            "abstract": "Physical urticaria includes a heterogeneous group of disorders characterized by the development of urticarial lesions and/or angioedema after exposure to certain physical stimuli. The authors present the case of a child with severe acquired cold urticaria secondary to infectious mononucleosis. Avoidance of exposure to cold was recommended; prophylactic treatment with ketotifen and cetirizine was begun and a self-administered epinephrine kit was prescribed. The results of ice cube test and sympto",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7510611",
+            "title": "Cetirizine. A reappraisal of its pharmacological properties and therapeutic use in selected allergic disorders.",
+            "authors": [
+              "Spencer C M",
+              "Faulds D",
+              "Peters D H"
+            ],
+            "journal": "Drugs",
+            "year": "1993",
+            "abstract": "Cetirizine, the carboxylated metabolite of hydroxyzine, is a specific and long-acting histamine H1-receptor antagonist. It has marked antiallergic properties and inhibits eosinophil chemotaxis during the allergic response. Clinical trial results indicate that cetirizine is an effective and well tolerated treatment for seasonal/perennial allergic rhinitis and chronic idiopathic urticaria in adults, and for seasonal/perennial allergic rhinitis in children. Cetirizine 10 mg/day appears to be as eff",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4019961",
+            "title": "Immunologic and therapeutic aspects of ketotifen.",
+            "authors": [
+              "Craps L P"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1985",
+            "abstract": "Ketotifen, a benzocycloheptathiophene, possesses asthma-prophylactic and antiallergic activities in a number of in vitro and in vivo systems: prevention of cutaneous and lung anaphylaxis in the rat and guinea pig; inhibition of dermal and bronchial antigen challenges in man; inhibition of mediator release from rat mast cells, human basophils, human neutrophils, and human and guinea pig chopped lung; reduction of human neutrophil activation induced by PAF-acether; functional antagonism of mediato",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34387278",
+            "title": "Assessment of receptor affinities of ophthalmic and systemic agents in dry eye disease.",
+            "authors": [
+              "Janeczko Patrick",
+              "Norris Matthew R",
+              "Bielory Leonard"
+            ],
+            "journal": "Current opinion in allergy and clinical immunology",
+            "year": "2021",
+            "abstract": "To explore our current understanding of receptor profiles acted upon by medications used to treat dry eye disease (DED).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32086998",
+            "title": "In vitro safety of ketotifen as a topical nasal rinse.",
+            "authors": [
+              "Triantafillou Vasiliki",
+              "Maina Ivy W",
+              "Patel Neil N",
+              "Tong Charles C L",
+              "Papagiannopoulos Peter"
+            ],
+            "journal": "International forum of allergy & rhinology",
+            "year": "2020",
+            "abstract": "Ketotifen is a second-generation noncompetitive H1-antihistamine and mast-cell stabilizer. It is commonly used to treat or prevent allergic conjunctivitis, asthma, chronic urticaria, anaphylaxis, mast-cell, and other allergic-type disorders. However, it has never been studied in aspirin-exacerbated respiratory disease (AERD), an aggressive phenotype of chronic rhinosinusitis with nasal polyps, where the mast cell plays a prominent role its pathogenesis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36811846",
+            "title": "Bilastine 0.6% Preservative-free Eye Drops: A Once-daily Treatment for Allergic Conjunctivitis.",
+            "authors": [
+              "Gomes P J",
+              "Ciolino J B",
+              "Arranz P",
+              "Hernández G",
+              "Fernández N"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2024",
+            "abstract": "Bilastine is a second-generation antihistamine approved for the symptomatic treatment of allergic rhinoconjunctivitis and urticaria. The present trial evaluated the efficacy and safety of a new bilastine 0.6% preservative-free eye drop formulation for the symptomatic treatment of allergic conjunctivitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3604448",
+            "title": "[Clinical effectiveness and prospects for using zaditen (ketotifen) in the therapy of allergic dermatoses].",
+            "authors": [
+              "Sergeev Iu V",
+              "Potekaev N S"
+            ],
+            "journal": "Vestnik dermatologii i venerologii",
+            "year": "1987",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40055363",
+            "title": "The new bilastine eye drop formulation protects against conjunctival dehydration and promotes corneal wound healing in a comparative in vitro study.",
+            "authors": [
+              "Arana Eider",
+              "Gonzalo Ana",
+              "Andollo Noelia",
+              "Pérez-Garrastachu Miguel",
+              "Otero-Espinar Francisco"
+            ],
+            "journal": "Scientific reports",
+            "year": "2025",
+            "abstract": "Bilastine is a non-sedating, highly selective H1-antihistamine with proven efficacy and safety in treating allergic rhinoconjunctivitis and urticaria in adults and children. Allergic conjunctivitis, a common ocular condition, negatively impacts quality of life. Topical eye drops are the standard treatment, though ocular bioavailability is often low. Incorporating biopolymers such as hyaluronic acid (HA) into topical formulations enhances adhesive properties, prolongs retention on the ocular surf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3688573",
+            "title": "Ketotifen in prevention and therapy of food allergy.",
+            "authors": [
+              "Molkhou P",
+              "Dupont C"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1987",
+            "abstract": "Ketotifen, benzocycloheptathiophene, (Zaditen) an orally active, anti-allergic and anti-asthmatic drug in a dose of 1 mg twice daily was given from 2 to 20 months in 20 selected patients with food allergy (FA) or food intolerance (FI). Sixteen children and four adults of which ten had atopic dermatitis (AD), six urticaria or/and angiooedema (two of which with oropharynx pruritus, oedema of the lips and anaphylactic shock), two asthma, and two gastrointestinal disorders. Food allergy was proved b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22731986",
+            "title": "Failure of omalizumab and successful control with ketotifen in a patient with vibratory angio-oedema.",
+            "authors": [
+              "Pressler A",
+              "Grosber M",
+              "Halle M",
+              "Ring J",
+              "Brockow K"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2013",
+            "abstract": "Vibratory angio-oedema is a rare form of physical urticaria characterized by pruriginous weals and angio-oedema at the site of exposure to vibration. Severe treatment-resistant disease can occur, and is associated with significant disability. Therapy with omalizumab, a monoclonal IgG anti-IgE antibody, has been shown to be successful in several types of physical urticaria. We report a patient with vibratory angio-oedema for whom all standard treatments for urticaria, including omalizumab, failed",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24267353",
+            "title": "Ketotifen in the management of chronic urticaria: resurrection of an old drug.",
+            "authors": [
+              "Sokol Kristin C",
+              "Amar Neil K",
+              "Starkey Jonathan",
+              "Grant J Andrew"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高度相關。蕁麻疹核心機轉為 IgE/肥大細胞介導之組織胺釋放 → 皮膚微血管通透性增加 → 風疹塊。Ketotifen 雙重機轉（H1 拮抗 + 肥大細胞穩定）同時作用於上游（抑制釋放）與下游（阻斷受體），較純 H1 拮抗劑理論上更全面。機轉鏈：過敏原 → IgE/FcεRI → [Ketotifen 抑制] 肥大細胞脫顆粒 → [Ketotifen 阻斷] H1R 活化 → 抑制血管擴張 + 通透性增加 → 症狀緩解",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.970976948738098,
+        "rank": 20870
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉關聯性弱至中等。Ketotifen 眼藥水已用於過敏性結膜炎，理論上可緩解玫瑰斑相關結膜炎的炎症反應（發紅、異物感）。然而，玫瑰斑眼部表現（Ocular rosacea）的核心機轉涉及神經血管調控失調、Toll-like receptor 過度活化、Demodex 感染及 MMP 過度表達，與純過敏機轉有本質差異。H1 拮抗/肥大細胞穩定可能僅能處理次要炎症成分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "cold urticaria",
+      "txgnn": {
+        "score": 0.9269712567329408,
+        "rank": 31189
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7488341",
+            "title": "Cold urticaria in Thai children: comparison between cyproheptadine and ketotifen in the treatment.",
+            "authors": [
+              "Visitsunthorn N",
+              "Tuchinda M",
+              "Vichyanond P"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1995",
+            "abstract": "The study was performed in 6 Thai children with primary acquired cold urticaria. They all suffered from generalized urticaria and two of them also had angioedema. All of them had normal erythrocyte sedimentation rate, complement 3 and negative VDRL, TPHA, hepatitis B screen and cold agglutinin titer. Cryoglobulin was checked in 3 cases and showed negative results A double-blind cross-over study to compare the effectiveness of cyproheptadine and ketotifen demonstrated that the efficacy of cyprohe",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15617665",
+            "title": "Cold urticaria and infectious mononucleosis in children.",
+            "authors": [
+              "Morais-Almeida M",
+              "Marinho S",
+              "Gaspar A",
+              "Arêde C",
+              "Loureiro V"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "2004",
+            "abstract": "Physical urticaria includes a heterogeneous group of disorders characterized by the development of urticarial lesions and/or angioedema after exposure to certain physical stimuli. The authors present the case of a child with severe acquired cold urticaria secondary to infectious mononucleosis. Avoidance of exposure to cold was recommended; prophylactic treatment with ketotifen and cetirizine was begun and a self-administered epinephrine kit was prescribed. The results of ice cube test and sympto",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6209972",
+            "title": "Clinical and therapeutical aspects of cold urticaria (urticaria a frigore).",
+            "authors": [
+              "Seropian E",
+              "Iamandescu I B",
+              "Filip V"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "1984",
+            "abstract": "A new drug with inhibitory properties on the Mast Cell degranulation, Ketotifen, was administered in 87 patients suffering from idiopathic urticaria a frigore (iUF). The first group (A), with 52 patients effectuated prophylactic management for 4 months with Ketotifen (K) (2 mg/day) and Clemastine (C) (2 mg/day) according to the double blind crossover method. Both the drugs were administrated in stages of 2 months each. The second group (B), with 35 patients (having previously failed a prophylact",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15748583",
+            "title": "Primary (idiopathic) cold urticaria and cholinergic urticaria.",
+            "authors": [
+              "Kim Gene"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2004",
+            "abstract": "A 76-year-old man with a longstanding history of cold sensitivity developed wheals after the application of an ice cube. Cold urticaria is a type of physical urticaria that is characterized urticaria and angioedema after exposure to cold. It may be idiopathic or secondary to hematologic or infectious diseases. Treatment of primary cold urticaria includes antihistamines; however, ketotifen, doxantrazole, zafirlukast, cyclosporine, and cold-tolerance induction may be tried in refractory cases.",
+            "classification": {
+              "study_type": "Cohort/Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2873823",
+            "title": "Urticaria in Thai children.",
+            "authors": [
+              "Tuchinda M",
+              "Srimaruta N",
+              "Habanananda S",
+              "Vareenil J",
+              "Assatherawatts A"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1986",
+            "abstract": "In this study, 142 patients under 12 years of age with the diagnosis of urticaria accompanied or not by angioedema were examined. In all 72.6% of the patients were under 6 years of age. Boys and girls were equally affected, 13.4% of the cases had chronic urticaria, 56.3% had a previous history of urticaria, 88.0% had generalized urticaria, and about half of the cases had associated angioedema. The causes of the urticaria were identified or suspected in 32.4% of the cases. Drugs, foods, insect bi",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2479744",
+            "title": "Terbutaline and ketotifen in cold urticaria in a child.",
+            "authors": [
+              "Edge J A",
+              "Osborne J P"
+            ],
+            "journal": "Journal of the Royal Society of Medicine",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3907425",
+            "title": "Effect of ketotifen treatment on cold-induced urticaria.",
+            "authors": [
+              "St-Pierre J P",
+              "Kobric M",
+              "Rackham A"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1985",
+            "abstract": "Eleven patients with primary acquired cold-induced urticaria were treated with ketotifen (1 mg b.i.d.) or placebo in a double-blind, crossover design trial. After seven days of ketotifen treatment, reaction times to a cold stimulus were significantly delayed in ten of the 11 subjects. No effect was seen after placebo treatment. It is concluded that ketotifen may have a place in the treatment of primary acquired cold urticaria.",
+            "classification": {
+              "study_type": "Clinical Trial（直接介入）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1364168",
+            "title": "A comparison of new nonsedating and classical antihistamines in the treatment of primary acquired cold urticaria (ACU).",
+            "authors": [
+              "Villas Martínez F",
+              "Contreras F J",
+              "López Cazaña J M",
+              "López Serrano M C",
+              "Martínez Alzamora F"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "1992",
+            "abstract": "The efficacy of the new nonsedating antihistamines loratadine and cetirizine was compared in a randomized, single-blind, crossover, controlled study with that of the classical antihistamines cyproheptadine and ketotifen in seven patients with primary acquired cold urticaria (ACU). The patients received each of the four drugs for 14 consecutive days with a 7-day interval between drugs. We evaluated clinical symptomatology, adverse effects, minimum time of cold contact stimulation required to indu",
+            "classification": {
+              "study_type": "RCT（頭對頭比較）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6198811",
+            "title": "[Effect of ketotifen and oxatomide on histamine liberation due to exposure in cold urticaria].",
+            "authors": [
+              "Sauer R R",
+              "Steigleder G K"
+            ],
+            "journal": "Zeitschrift fur Hautkrankheiten",
+            "year": "1983",
+            "abstract": "Four patients suffering from cold urticaria were treated with ketotifen and oxatomide for one week each. Histamine liberation was measured after the exposure to cold before and after the treatment. A significant inhibition was demonstrated for either product, much more so, however, for oxatomide. This inhibition was associated with a pronounced improvement of complaints.",
+            "classification": {
+              "study_type": "Clinical Mechanistic Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6479412",
+            "title": "[Treatment of acquired cold urticaria with ketotifen].",
+            "authors": [
+              "Haustein U F",
+              "Kirchhof B"
+            ],
+            "journal": "Dermatologische Monatschrift",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2651507",
+            "title": "Refractory cholinergic urticaria successfully treated with ketotifen.",
+            "authors": [
+              "McClean S P",
+              "Arreaza E E",
+              "Lett-Brown M A",
+              "Grant J A"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1989",
+            "abstract": "Four patients with cholinergic urticaria associated with additional cardiorespiratory manifestations are described. Two patients reported cold, in addition to heat and exercise, as a factor inducing symptoms. Prospective exercise challenge documented a rise in in plasma histamine sixfold to 20-fold above baseline values that accompanied onset of symptoms. All four subjects had proved refractory to conventional antihistamine therapy. Institution of ketotifen at doses ranging from 3 to 8 mg per da",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2802271",
+            "title": "Cold urticaria in Saudi Arabia.",
+            "authors": [
+              "Moreno J N",
+              "Harfi H A"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1989",
+            "abstract": "During an 8-year period we have seen two cases of cold-induced urticaria at the King Faisal Specialist Hospital and Research Centre, a major tertiary centre in Saudi Arabia. This indicates a lower prevalence in Saudi Arabia compared with other countries. One of our patients did not respond to cyproheptadine but she had an excellent response to ketotifen.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2899435",
+            "title": "[Treatment of chronic urticaria with ketotifen].",
+            "authors": [
+              "Guillot B",
+              "Meynadier J"
+            ],
+            "journal": "Allergie et immunologie",
+            "year": "1986",
+            "abstract": "Ketotifen, an inhibitor of the mastocytes degranulation is used in the treatment of allergic asthma. The use of this drug in chronic urticaria is proposed because histamine play a major role in the production of the lesions. In this study, 36 patients with chronic urticaria of various aetiology are treated with ketotifen (2 mg/d). 12 patients were healed, 11 good results and 12 failure were obtained. The best results are obtained in cold urticaria and in food related urticaria. This result were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2420246",
+            "title": "Prevention of mast-cell degranulation by ketotifen in patients with physical urticarias.",
+            "authors": [
+              "Huston D P",
+              "Bressler R B",
+              "Kaliner M",
+              "Sowell L K",
+              "Baylor M W"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1986",
+            "abstract": "The capacity for ketotifen to prevent mast-cell degranulation in vivo was studied in patients with physical urticarias. Patients were exposed to the appropriate stimulus to elicit their physical urticaria before and during ketotifen therapy. Histamine concentrations in plasma samples, obtained before and serially after the physical provocation, were determined by radioenzymatic thin-layer chromatography. Ketotifen therapy was associated with marked reductions in plasma histamine levels after sti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "相關。冷性蕁麻疹機轉：冷刺激 → 皮膚 IgE/肥大細胞活化 → 組織胺 + 前列腺素 + 白三烯素釋放 → 蕁麻疹。Ketotifen 的肥大細胞穩定效果可直接抑制冷誘發的肥大細胞脫顆粒（PMID 6198811 直接驗證：Ketotifen 顯著降低冷暴露後組織胺血清濃度），H1 拮抗則阻斷下游受體。機轉匹配度優於純 H1 拮抗劑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "nasopharyngitis",
+      "txgnn": {
+        "score": 0.9267025589942932,
+        "rank": 31231
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉關聯性低。大多數鼻咽炎由病毒（鼻病毒、冠狀病毒等）引起。Ketotifen H1 拮抗理論上可減少鼻充血、流鼻水等組織胺相關症狀，但：（1）病毒性鼻咽炎的症狀主要由 kinins 和前列腺素介導而非組織胺；（2）Ketotifen 作為第一代抗組織胺，鎮靜性強，不適合症狀性治療；（3）無任何文獻或試驗支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn": {
+        "score": 0.8432667851448059,
+        "rank": 39653
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉有理論基礎但證據不足。異位性皮膚炎涉及 Th2 偏移、IL-4/IL-13 過度表達、IgE 升高、肥大細胞活化及皮膚屏障缺陷。Ketotifen 可調節肥大細胞活性（可能減少搔癢誘發介質）並拮抗 H1 受體（減緩搔癢感）。然而：（1）頑固型 AD 的核心機制更複雜，超越肥大細胞/組織胺層面；（2）現代生物製劑（Dupilumab）已主導難治型 AD；（3）提供的資料中完全無文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Angelucci syndrome",
+      "txgnn": {
+        "score": 0.8351864218711853,
+        "rank": 40105
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉部分相關。Angelucci 症候群特徵：過敏性結膜炎 + 心悸 + 易激動 + 貧血樣症狀。Ketotifen 眼藥水對過敏性結膜炎成分有直接機轉支持（H1 拮抗 + 肥大細胞穩定）。然而心血管/神經性症狀成分無機轉解釋，全身性應用可能因鎮靜作用干擾症狀評估。整體機轉鏈：Ketotifen → 緩解結膜炎成分 → 症狀部分改善（心血管成分未能解決）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acute hemorrhagic conjunctivitis",
+      "txgnn": {
+        "score": 0.8326975703239441,
+        "rank": 40235
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉關聯性極低。急性出血性結膜炎由腸病毒 70 型（EV70）或克沙奇病毒 A24（CA24v）引起，呈自限性（7-10 天）。Ketotifen 無抗病毒活性，其抗組織胺/肥大細胞穩定機轉不針對病毒複製或病毒誘發的免疫應答。理論上僅能緩解繼發性組織胺介導的不適感（瘙癢、分泌物），但在急性病毒性結膜炎中組織胺並非主要症狀介質。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pseudomembranous conjunctivitis",
+      "txgnn": {
+        "score": 0.8277735114097595,
+        "rank": 40492
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉不匹配。假膜性結膜炎由白喉桿菌、腺病毒 8/19/37 型、β-溶血性鏈球菌或 Stevens-Johnson 症候群引起。感染性病因需要抗生素/抗病毒藥；SJS 相關假膜性結膜炎需類固醇/免疫調節治療。Ketotifen 的 H1 拮抗機轉對假膜形成（主要由纖維蛋白滲出 + 壞死上皮組成）無直接效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "parasitic conjunctivitis",
+      "txgnn": {
+        "score": 0.8255582451820374,
+        "rank": 40600
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉極間接。寄生蟲性結膜炎（羅阿絲蟲、弓形蟲、蠕形螨、眼蛆等）的一線治療為抗寄生蟲藥（Ivermectin、Albendazole 等）。Ketotifen 理論上可緩解寄生蟲誘發的過度嗜酸性球浸潤和肥大細胞活化造成的繼發性過敏炎症反應（部分寄生蟲感染伴隨 IgE 升高和肥大細胞活化），但作為輔助治療使用的證據完全缺乏。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "chronic follicular conjunctivitis",
+      "txgnn": {
+        "score": 0.8255582451820374,
+        "rank": 40601
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉關聯性低。慢性濾泡性結膜炎主要病因為：砂眼衣原體慢性感染、腺病毒慢性感染、眼藥水（尤其含防腐劑者）毒性反應、Molluscum contagiosum 感染。感染性和毒性病因均不在 Ketotifen 的作用範疇內。若病因為藥物毒性，停藥比添加 Ketotifen 更為合理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "nasopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "nasopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "nasopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "pseudomembranous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "pseudomembranous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "pseudomembranous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ketotifen",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

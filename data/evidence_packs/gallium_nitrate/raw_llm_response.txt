@@ -1,0 +1,211 @@
+```json
+{
+  "drug": "Gallium nitrate",
+  "drugbank_id": "DB05260",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Gallium nitrate（Ganite）具 FDA 核准的高鈣血症適應症歷史，惟現況標記為「未上市」。原始 MoA 資料缺失，但已知其主要機轉為抑制鐵依賴性核糖核苷酸還原酶（RNR）、抑制蝕骨細胞活性及抑制蛋白酪氨酸磷酸酶。",
+  "indications": [
+    {
+      "disease_name": "sickle cell-hemoglobin c disease syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 圖神經網路預測：可能源於 Gallium 對鐵代謝干擾路徑（HbS 依賴鐵氧化）的間接推論，但無任何已發表臨床或前臨床支持。鐮刀型細胞變異體共享相同病生理，模型分數一致（0.9818），顯示此為批次預測而非個別驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻支持", "TxGNN 批次評分（與其他鐮刀型細胞變異完全相同）"]
+    },
+    {
+      "disease_name": "sickle cell-hemoglobin d disease syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同上，TxGNN 預測分數與 HbSC 完全一致（0.9818），屬同一批次推論。HbSD 發生率極低，臨床試驗設計困難。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻", "罕見疾病族群，試驗可行性低"]
+    },
+    {
+      "disease_name": "sickle cell-beta-thalassemia disease syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同上。β-地中海貧血/鐮刀型細胞複合體涉及 β-globin 鏈生成缺陷，Gallium 對此路徑無已知直接干預。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻", "機轉連結不明確"]
+    },
+    {
+      "disease_name": "sickle cell-hemoglobin E disease syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同上。HbSE 為東南亞常見複合型血紅素病，現有標準治療（羥基尿素）已相對成熟，Gallium 在此無差異化機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻", "存在成熟競爭療法"]
+    },
+    {
+      "disease_name": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HPFH-SCD 因持續高 HbF 而症狀較輕。Gallium 對 γ-globin 基因誘導無已知作用，此預測缺乏生物合理性基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻", "機轉生物合理性最低"]
+    },
+    {
+      "disease_name": "plasma cell myeloma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "【多重機轉支持】① 抑制 RNR（鐵依賴性）→ 阻斷漿細胞 DNA 合成；② 抑制蝕骨細胞骨吸收 → 緩解溶骨性病變；③ 干擾鐵代謝 → 抑制骨髓瘤微環境血管新生。多篇文獻顯示延長晚期 MM 患者存活，並有一項 pilot RCT 針對溶骨症預防。證據整體接近 L2，但因 pilot RCT 規模小且主要終點為替代指標（骨質溶解），維持 L3。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8246033",
+          "study_type": "Pilot RCT",
+          "tier": "1",
+          "year": "1993",
+          "note": "低劑量 Gallium nitrate 預防骨髓瘤溶骨症隨機試驗；最高等級臨床證據，但規模小且為溶骨替代終點"
+        },
+        {
+          "pmid": "12002765",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "year": "2002",
+          "note": "晚期 MM 患者接受 Gallium nitrate 治療後存活期延長，觀察性設計"
+        },
+        {
+          "pmid": "12776256",
+          "study_type": "Cohort",
+          "tier": "2",
+          "year": "2003",
+          "note": "進展期 MM 隊列研究，顯示存活期延長，無對照組"
+        },
+        {
+          "pmid": "12776253",
+          "study_type": "Review",
+          "tier": "2",
+          "year": "2003",
+          "note": "Gallium nitrate 在 MM 應用的文獻回顧，含歷史療效數據整合"
+        },
+        {
+          "pmid": "9362436",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "year": "1997",
+          "note": "骨轉移治療，含 MM 相關數據，機轉與療效兼論"
+        },
+        {
+          "pmid": "12776254",
+          "study_type": "Mechanistic Review",
+          "tier": "3",
+          "year": "2003",
+          "note": "骨吸收抑制機轉詳述，支持 MM 骨病變適應症之生物合理性"
+        },
+        {
+          "pmid": "3533251",
+          "study_type": "Early Clinical Observation",
+          "tier": "3",
+          "year": "1986",
+          "note": "早期臨床活性報告，歷史性參考價值"
+        },
+        {
+          "pmid": "24021907",
+          "study_type": "Clinical Review/Case",
+          "tier": "2",
+          "year": "2014",
+          "note": "惡性腫瘤高鈣血症治療（含 MM），提及 Gallium 在臨床決策中的地位"
+        },
+        {
+          "pmid": "15478593",
+          "study_type": "Nursing/Clinical Review",
+          "tier": "3",
+          "year": "2004",
+          "note": "治療概念與護理考量，間接臨床使用背景"
+        }
+      ],
+      "evidence_gap": "缺乏 Phase 2/3 RCT 以存活期或 PFS 為主要終點的正式試驗；需評估現代 MM 治療背景（CAR-T、蛋白酶體抑制劑）下的定位"
+    },
+    {
+      "disease_name": "indolent plasma cell myeloma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雖機轉上與 plasma cell myeloma 相同，但惰性骨髓瘤通常採觀察等待策略。無任何針對此亞型的臨床或文獻資料，不應由 MM 數據外推至惰性型。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻", "惰性 MM 標準治療為觀察，主動干預需更高門檻"]
+    },
+    {
+      "disease_name": "relapsing-remitting multiple sclerosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "背景知識：Gallium nitrate 在 EAE（實驗性自體免疫腦脊髓炎）動物模型中顯示免疫調節活性，可能透過干擾 T 細胞鐵代謝抑制自體免疫反應。惟提供資料中無任何 RRMS 臨床或文獻佐證，分數 0.976 可能反映模型對免疫路徑的泛化推論。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零臨床數據", "零文獻", "RRMS 存在多種成熟 DMT，差異化空間需論證"]
+    },
+    {
+      "disease_name": "colonic neoplasm",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一證據（PMID 8467506）為體外實驗：Gallium nitrate 抑制蛋白酪氨酸磷酸酶（PTP），此為腫瘤細胞訊號傳導中的重要調控靶點。此機轉具生物合理性，但體外→臨床的轉譯距離極大，無法支撐高於 L5 的評分。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8467506",
+          "study_type": "In vitro Mechanistic",
+          "tier": "3",
+          "year": "1993",
+          "note": "體外 PTP 抑制實驗，提供機轉假說但無臨床轉譯數據"
+        }
+      ],
+      "risk_flags": ["僅體外機轉研究", "無動物模型數據", "無臨床試驗記錄"]
+    },
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Gallium nitrate 已知抑制蝕骨細胞骨吸收（PMID 12776254 在 MM 骨病變文獻中記載），理論上可對抗藥物誘導性骨質疏鬆（如糖皮質激素、芳香酶抑制劑引起）。惟此適應症完全無直接臨床或文獻資料，機轉推論需從 MM 骨病變數據外推，級別仍為 L5。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["零直接臨床數據", "機轉從 MM 骨病變外推", "市場已有雙磷酸鹽等成熟競爭療法"]
+    }
+  ],
+  "cross_indication_summary": {
+    "highest_priority": "plasma_cell_myeloma",
+    "rationale": "唯一具有多篇文獻支持（含1項 pilot RCT）且機轉明確的適應症，建議優先進行系統性文獻回顧與 Phase 2 試驗設計評估",
+    "sickle_cell_cluster_note": "五個鐮刀型細胞變異體 TxGNN 分數完全相同（0.9818），高度可能為批次預測結果，不代表個別適應症的獨立驗證，整批列為 S0",
+    "data_quality_concern": "drug 標記為「未上市」且 original_moa 為 [Data Gap]，可能影響 TxGNN 知識圖譜的特徵嵌入品質，所有 L5 預測需以此為背景解讀"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 Hold（暫不推進）— 8 個適應症
+
+| 適應症 | 評級 | 關鍵理由 |
+|--------|------|----------|
+| 鐮刀型細胞系列（×5） | L5 / S0 | TxGNN 批次預測，分數完全相同，零支持文獻 |
+| 惰性漿細胞骨髓瘤 | L5 / S0 | 從主動型 MM 外推不適當，需獨立論證 |
+| RRMS | L5 / S0 | 僅動物模型背景知識，無人體數據 |
+| 結腸腫瘤 | L5 / S0 | 單篇 1993 年體外 PTP 抑制實驗 |
+| 藥物性骨質疏鬆 | L5 / S0 | 機轉外推，成熟競爭療法存在 |
+
+### 🟡 Research Question — 1 個適應症
+
+**漿細胞骨髓瘤（L3 / S2）**：
+- ✅ 1 項 pilot RCT（溶骨預防，1993）
+- ✅ 2 項隊列研究顯示存活期延長
+- ✅ 機轉三重支持（RNR 抑制 + 骨吸收抑制 + 鐵代謝干擾）
+- ⚠️ 需評估現代 MM 治療格局下的定位（CAR-T、IMiD、PI 時代）
+- 🔬 **建議下一步**：系統性回顧 + 現代治療組合的 Phase 1b/2 設計

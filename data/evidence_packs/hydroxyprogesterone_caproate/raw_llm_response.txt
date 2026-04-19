@@ -1,0 +1,216 @@
+## 藥物再利用證據分析：Hydroxyprogesterone Caproate (17-OHPC, DB06789)
+
+### 藥物背景摘要
+
+> **注意**：17-OHPC 為長效合成黃體素（progestogen），主要 MOA 為 PR/GR/AR 受體激動。雖原始資料標示 MoA 為 [Data Gap] 及原始適應症空白，但實際上歷史上曾用於子宮內膜癌及流產預防（FDA Makena 已於 2023 年撤市）。以下分析以現有證據資料為準。
+
+---
+
+```json
+{
+  "drug_summary": {
+    "drug": "Hydroxyprogesterone caproate",
+    "drugbank_id": "DB06789",
+    "moa_reconstructed": "合成黃體素，結合 PR（黃體素受體）、GR（糖皮質素受體）及 AR（雄性素受體），抑制雌激素驅動的子宮內膜增殖，誘導蛻膜化與細胞分化",
+    "data_quality_flags": [
+      "original_moa 標示 [Data Gap]，需注意模型可能基於弱表徵進行預測",
+      "市場狀態：未上市（FDA Makena 2023 年撤市，舊適應症為早產預防）",
+      "DDI_count=0 可能低估真實藥物交互作用"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "endometrial cancer（子宮內膜癌）",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "17-OHPC 透過結合 PR-A/PR-B 抑制雌激素驅動之子宮內膜增殖，誘導分化與凋亡，降低 IGF-1 訊號。黃體素療法為 PR 陽性子宮內膜癌之既定輔助治療策略。Cochrane 系統性回顧（2000）已納入此藥物相關試驗，但結論為現有輔助療法證據不足以達到 Phase 3 標準。",
+      "evidence_summary": "20 篇文獻（1971-2012），含 Cochrane 系統性回顧、多項 Phase 2 類臨床研究及回顧性研究；1 筆臨床試驗登錄（無關聯）",
+      "key_concerns": [
+        "多數文獻為 1971-1995 年舊研究，設計標準較低",
+        "部分文獻為俄文/東歐文獻，品質難以評估",
+        "Cochrane 2000 結論：輔助黃體素療法對子宮內膜癌生存效益未達統計顯著",
+        "現代一線偏好 MPA（medroxyprogesterone acetate）或 megestrol acetate"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01812161",
+          "title": "Effect of Low-frequency Electroacupuncture (EA) on Polycystic Ovary Syndrome",
+          "relevance_grade": "C",
+          "reasoning": "研究主題為電針治療多囊卵巢症候群（PCOS），Phase NA，與 17-OHPC 治療子宮內膜癌完全無直接關聯。可能因 PCOS→子宮內膜癌風險路徑被 KG 演算法誤納入，為假陽性匹配。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "10796737", "study_type": "Cochrane Systematic Review", "tier": "1", "note": "progestagens for endometrial cancer 系統性回顧"},
+        {"pmid": "21154390", "study_type": "Review", "tier": "1", "note": "晚期/復發子宮內膜癌荷爾蒙療法綜述"},
+        {"pmid": "22245711", "study_type": "Cohort Study", "tier": "2", "note": "黃體素治療子宮內膜增生及早期癌之生殖保留結果"},
+        {"pmid": "5549492", "study_type": "Phase 2 Clinical Study", "tier": "2", "note": "1971 年，17-OHPC 治療晚期子宮內膜癌直接研究"},
+        {"pmid": "4616884", "study_type": "Phase 2 Clinical Study", "tier": "2", "note": "1974 年，17-OHPC 治療晚期子宮內膜癌直接研究"},
+        {"pmid": "8500499", "study_type": "Controlled Clinical Study", "tier": "2", "note": "輔助 OPC 荷爾蒙療法之有利影響"},
+        {"pmid": "8565696", "study_type": "Comparative Study", "tier": "2", "note": "aminoglutethimide vs 17-OHPC 比較研究"},
+        {"pmid": "6983994", "study_type": "Retrospective Study", "tier": "2", "note": "Stage I 子宮內膜癌輔助 17-OHPC 治療"},
+        {"pmid": "2932883", "study_type": "Clinical Observational", "tier": "2", "note": "子宮內膜癌肌肉注射 17-OHPC 之臨床研究"},
+        {"pmid": "3885671", "study_type": "Observational Study", "tier": "3", "note": "輔助 17-OHPC 治療期間血脂變化"}
+      ]
+    },
+    {
+      "disease_name": "uterine corpus cancer（子宮體癌）",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "子宮體癌（以子宮內膜癌為主）對黃體素療法有已知反應。17-OHPC 除 PR 結合外，亦可能透過免疫調節機轉（T 淋巴球活性調節、皮膚免疫反應改變）發揮輔助抗腫瘤作用。注意：此疾病分類與 endometrial cancer 高度重疊（前者為上位概念）。",
+      "key_concerns": [
+        "與 endometrial cancer 適應症高度重疊，應合併評估避免重複計算",
+        "9 篇文獻均為 1980-2004 年舊研究，以東歐文獻為主",
+        "免疫調節數據（PMID 6966107）為實驗性質，尚無臨床轉化"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "15535270", "study_type": "Review", "tier": "1", "note": "子宮體癌荷爾蒙療法導論綜述"},
+        {"pmid": "6836982", "study_type": "Review", "tier": "1", "note": "子宮體癌荷爾蒙療法"},
+        {"pmid": "6836983", "study_type": "Review", "tier": "1", "note": "子宮內膜癌荷爾蒙療法角色"},
+        {"pmid": "6966107", "study_type": "Experimental Immunological Study", "tier": "2", "note": "17-OHPC 對免疫皮膚試驗及 T 淋巴球之影響"},
+        {"pmid": "2815695", "study_type": "Experimental Study", "tier": "2", "note": "17-OHPC 及合併 tamoxifen 對類固醇受體之效應"},
+        {"pmid": "2545046", "study_type": "Clinical Experimental", "tier": "2", "note": "黃體素療法對子宮內膜癌細胞質受體之影響"},
+        {"pmid": "3296435", "study_type": "Controlled Study", "tier": "2", "note": "輔助荷爾蒙療法對放射治療結果之影響"},
+        {"pmid": "7064419", "study_type": "Comparative Cohort", "tier": "2", "note": "黃體素療法結果比較"},
+        {"pmid": "7324399", "study_type": "Retrospective Study", "tier": "3", "note": "手術及合併治療對血凝系統之影響"}
+      ]
+    },
+    {
+      "disease_name": "endometriosis of uterus（子宮內膜異位症）",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "黃體素（progestin）透過拮抗雌激素效應、誘導異位子宮內膜組織蛻膜化（decidualization）及萎縮，抑制 MMP 活性及血管新生，為子宮內膜異位症已知的治療機轉類別。17-OHPC 作為長效黃體素，理論上具類似作用，但目前缺乏直接 RCT 或 Phase 2 試驗支持。",
+      "key_concerns": [
+        "2 篇文獻均為間接證據：PMID 37488914 為妊娠血腹案例報告（非子宮內膜異位症治療研究），PMID 3158227 為 1985 年性荷爾蒙治療後子宮結構觀察",
+        "現有文獻未直接評估 17-OHPC 治療子宮內膜異位症之療效",
+        "目前臨床上偏好 norethindrone、dienogest 或 GnRH 類似物治療子宮內膜異位症"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "37488914", "study_type": "Case Report", "tier": "3", "note": "妊娠 28 週自發性血腹案例，與子宮內膜異位症有關但非治療研究"},
+        {"pmid": "3158227", "study_type": "Observational/Experimental Study", "tier": "3", "note": "1985 年，性荷爾蒙治療後子宮病理結構特徵觀察，間接相關"}
+      ]
+    },
+    {
+      "disease_name": "breast fibrocystic disease（乳腺囊性纖維化病）",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "黃體素可拮抗雌激素對乳腺上皮細胞的促增殖效應，調節乳腺組織的週期性增殖，理論上有助於緩解乳腺囊性增生（mastopathy）及週期性乳房疼痛（mastodynia）。局部黃體素（progesterone gel）已有部分研究，但全身性 17-OHPC 用於此適應症之機轉尚未確立。",
+      "key_concerns": [
+        "僅單一 1990 年文獻（PMID 2275290），研究對象為 mastodynia 及 mastopathy，非直接評估 17-OHPC",
+        "乳腺囊性增生的荷爾蒙療法存在爭議，長期黃體素使用可能增加乳癌風險",
+        "建議優先考慮局部製劑而非全身性注射"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "2275290", "study_type": "Case Series / Narrative Review", "tier": "3", "note": "乳房疼痛及良性乳腺病變治療，間接提及荷爾蒙療法"}
+      ]
+    },
+    {
+      "disease_name": "endometriosis of rectovaginal septum and vagina（直腸陰道中隔及陰道子宮內膜異位症）",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉與子宮內膜異位症相同（黃體素抑制異位病灶），但直腸陰道中隔子宮內膜異位症（深層浸潤性）通常對藥物治療反應較差，手術切除為主要治療。無任何臨床或文獻支持 17-OHPC 用於此特定解剖位置，屬純計算預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "endometriosis in cutaneous scar（皮膚疤痕子宮內膜異位症）",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "皮膚疤痕子宮內膜異位症為罕見手術後醫源性併發症，病灶侷限於疤痕組織，標準治療為手術切除。理論上黃體素可能抑制週期性出血，但無臨床證據，且全身性黃體素療法在此適應症風險效益比不佳。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cervix endometriosis（子宮頸子宮內膜異位症）",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮頸子宮內膜異位症通常以局部破壞性治療（冷凍/雷射）為主，全身性黃體素療法缺乏針對此特定部位的臨床依據，屬 KG 模型從子宮內膜異位症節點群衍生的非特異性預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal hypoplasia, bilateral（雙側腎臟發育不全）",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雙側腎臟發育不全為先天性結構異常（PAX2、HNF1B 等基因相關），主要為胚胎發育期腎臟形成障礙。目前無已知黃體素與腎臟發育調節的直接機轉，亦無任何臨床或文獻支持。此高分預測極可能為 KG 中腎臟發育疾病節點群的非特異性關聯，可信度極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal hypoplasia (disease)（腎臟發育不全）",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 renal hypoplasia bilateral 相同評估。此為上位疾病概念，同樣無合理黃體素治療機轉。兩個腎臟發育不全預測項目可能為 KG 中同一疾病節點群的重複預測，應合併處理。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly（嬰兒腦/小腦萎縮合併進行性小頭症）",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為嚴重遺傳性神經發育疾病（CASK、WDR45 等基因突變相關），屬結構性腦異常。目前無任何黃體素治療神經發育障礙之合理機轉，與 17-OHPC 已知藥理特性完全無關。此預測可信度極低，強烈建議排除，可能為 KG 拓撲誤關聯（topology artifact）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 優先順序 |
+|--------|-----------|---------|---------|------|---------|
+| endometrial cancer | 0.9996 | **L3** | **S2** | ✅ Proceed with Guardrails | 🔴 高 |
+| uterine corpus cancer | 0.9996 | **L3** | **S2** | ✅ Proceed with Guardrails | 🔴 高（與上重疊） |
+| endometriosis of uterus | 0.9998 | **L4** | **S1** | 🔶 Research Question | 🟡 中 |
+| breast fibrocystic disease | 0.9996 | **L4** | **S1** | 🔶 Research Question | 🟡 低中 |
+| endometriosis (3 subtypes) | 0.9997 | **L5** | **S0** | ⛔ Hold | 🟢 低 |
+| renal hypoplasia (2 entries) | 0.9997 | **L5** | **S0** | ⛔ Hold | ⚫ 排除 |
+| cervix endometriosis | 0.9996 | **L5** | **S0** | ⛔ Hold | ⚫ 排除 |
+| infantile cerebral atrophy | 0.9994 | **L5** | **S0** | ⛔ Hold | ⚫ 排除（KG artifact） |
+
+---
+
+## 關鍵發現與建議
+
+### ⚠️ TxGNN 分數可靠性警告
+
+> 本次分析中 **TxGNN 分數 0.999x** 出現在幾乎所有適應症，但證據等級從 L3 到 L5 不等，顯示高預測分數不代表高臨床證據強度。特別是「腎臟發育不全」和「嬰兒小頭症」等神經/先天發育疾病，極可能為知識圖譜拓撲偽關聯。
+
+### 🎯 核心再利用機會
+
+**子宮內膜癌 / 子宮體癌（L3/S2）** 是本次分析中唯一有實質臨床歷史依據的適應症組合：
+- 直接命名文獻 > 10 篇
+- 含 Cochrane 系統性回顧
+- 機轉與藥物藥理高度一致
+- **但需注意**：現代臨床實踐已偏好 MPA 或 megestrol acetate，17-OHPC 需與現代標準治療進行頭對頭比較才能確立競爭優勢
+
+### 📋 下一步行動建議
+
+1. **S2 適應症**（子宮內膜癌）：進行系統性文獻回顧，評估與 MPA 的療效比較，設計現代化 Phase 2 試驗方案
+2. **S1 適應症**（子宮內膜異位症、乳腺纖維囊腫）：需先完成安全性 profile 更新，確認注射製劑的現代製藥可行性
+3. **S0 適應症**：全數列為低優先，腎臟發育不全及嬰兒腦萎縮應標記為 KG artifact 並從候選清單移除

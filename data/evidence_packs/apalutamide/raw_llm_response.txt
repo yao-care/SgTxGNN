@@ -1,0 +1,475 @@
+```json
+{
+  "drug": "Apalutamide",
+  "drugbank_id": "DB11901",
+  "analysis_date": "2026-04-05",
+  "data_quality_notes": [
+    "original_moa 欄位標記為 [Data Gap]，但 Apalutamide 為已知雄激素受體（AR）訊號抑制劑，直接結合 AR 配體結合域，阻斷核轉位與 DNA 結合",
+    "original_indications 為空，但 Apalutamide 已獲 FDA 批准用於 nmCRPC（2018）與 mCSPC（2019），市場狀態 '未上市' 可能指本地監管市場（新加坡）尚未獲批",
+    "ddi_count=0 可能為資料庫收錄不完整，臨床實際上 Apalutamide 為 CYP3A4 強誘導劑，具重要 DDI 風險"
+  ],
+  "indications": [
+    {
+      "disease_name": "male reproductive organ cancer",
+      "txgnn_score": 0.9741,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Apalutamide 直接作用於雄激素受體（AR）訊號軸，為前列腺癌標準治療靶點。AR 過度活化驅動前列腺癌細胞增殖與存活，AR 訊號抑制可延緩疾病進展。已有多個 Phase 3 RCT（SPARTAN、TITAN）直接證實療效於 nmCRPC 與 mCSPC。Guardrails：本地監管批准狀態需確認；CYP3A4 誘導 DDI 管理；皮疹、疲勞、甲狀腺功能不全等副作用監測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03767244",
+          "title": "Phase 3 RCT: Apalutamide in High-Risk Localized/Locally Advanced Prostate Cancer",
+          "phase": "PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 2517,
+          "relevance_grade": "A",
+          "reasoning": "直接 Phase 3 RCT，評估 Apalutamide 於高風險前列腺癌，樣本量大（n=2517），為最高等級直接證據"
+        },
+        {
+          "nct_id": "NCT03124433",
+          "title": "Neoadjuvant Apalutamide and Radical Prostatectomy in Intermediate to High Risk Prostate Cancer",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 直接評估 Apalutamide 新輔助治療，完成且有結果，適應症高度匹配"
+        },
+        {
+          "nct_id": "NCT01171898",
+          "title": "Phase 1/2 First-in-Human ARN-509 (Apalutamide) Safety and Proof-of-Concept",
+          "phase": "PHASE1, PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 127,
+          "relevance_grade": "A",
+          "reasoning": "Apalutamide 的原始 Phase 1/2 概念驗證研究，奠定後續 Phase 3 基礎"
+        },
+        {
+          "nct_id": "NCT03436654",
+          "title": "Multi-Arm Multi-Modality for Very High Risk Localized and Low Volume Metastatic Prostate Cancer",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 102,
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 多臂研究納入 Apalutamide，直接評估於高風險前列腺癌"
+        },
+        {
+          "nct_id": "NCT04179864",
+          "title": "CELLO-1: Tazemetostat + Enzalutamide or Apalutamide in mCRPC",
+          "phase": "PHASE1, PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 102,
+          "relevance_grade": "B",
+          "reasoning": "Apalutamide 聯合治療研究，雖終止但提供聯合療法安全性資料，男性生殖器官癌症適應症相關"
+        },
+        {
+          "nct_id": "NCT03840200",
+          "title": "Phase 1b: Ipatasertib + Apalutamide or Enzalutamide in Prostate Cancer",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 51,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 聯合治療安全性研究，提供 Apalutamide 於前列腺癌的組合療法資料"
+        },
+        {
+          "nct_id": "NCT05202301",
+          "title": "Medication Adherence Among Prostate Cancer Patients on Second-Generation AR Inhibitors",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 13779,
+          "relevance_grade": "B",
+          "reasoning": "大規模真實世界依從性研究（n=13779），涵蓋 Apalutamide，提供用藥行為與持續性資料"
+        },
+        {
+          "nct_id": "NCT03899077",
+          "title": "Phase 2: Salvage Radiotherapy ± 6 Months ADT ± Apalutamide in Prostate Cancer",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 202,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 含 Apalutamide 臂位，評估放療後輔助治療，狀態未知降低可信度"
+        },
+        {
+          "nct_id": "NCT06865547",
+          "title": "ProA Study: Proactive Management in mHSPC Treatment",
+          "phase": "N/A",
+          "status": "ENROLLING_BY_INVITATION",
+          "enrollment": 94,
+          "relevance_grade": "B",
+          "reasoning": "真實世界管理模式研究，含 Apalutamide，提供 mHSPC 治療模式資料"
+        },
+        {
+          "nct_id": "NCT02366494",
+          "title": "Exosomal MicroRNAs to Predict Response to ADT in Prostate Cancer",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 42,
+          "relevance_grade": "C",
+          "reasoning": "生物標記研究，非 Apalutamide 特異性，間接提供 ADT 反應預測資訊"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29420164",
+          "title": "Apalutamide Treatment and Metastasis-free Survival in Prostate Cancer (SPARTAN trial)",
+          "year": "2018",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "SPARTAN Phase 3 RCT，nmCRPC 主要註冊試驗，MFS 端點，直接證據"
+        },
+        {
+          "pmid": "31150574",
+          "title": "Apalutamide for Metastatic, Castration-Sensitive Prostate Cancer (TITAN trial)",
+          "year": "2019",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "TITAN Phase 3 RCT，mCSPC 主要註冊試驗，rPFS 與 OS 端點"
+        },
+        {
+          "pmid": "33914595",
+          "title": "Apalutamide in mCSPC: Final Survival Analysis (TITAN final)",
+          "year": "2021",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "TITAN 最終 OS 分析，確認 OS 獲益，L1 最強等級"
+        },
+        {
+          "pmid": "32907777",
+          "title": "Apalutamide and Overall Survival in Prostate Cancer (SPARTAN OS analysis)",
+          "year": "2021",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "SPARTAN OS 更新分析，nmCRPC 中 OS 獲益確認"
+        },
+        {
+          "pmid": "36167599",
+          "title": "ARNEO: Phase II of Neoadjuvant Degarelix ± Apalutamide Prior to Radical Prostatectomy",
+          "year": "2023",
+          "study_type": "Phase 2 RCT",
+          "tier": "2",
+          "annotation": "Phase 2 RCT，新輔助治療背景下 Apalutamide 療效評估"
+        },
+        {
+          "pmid": "35091711",
+          "title": "NEAR Trial: Phase II Neoadjuvant Apalutamide Monotherapy and Radical Prostatectomy",
+          "year": "2022",
+          "study_type": "Phase 2 Single-arm",
+          "tier": "2",
+          "annotation": "Phase 2 單臂試驗，新輔助 Apalutamide，前列腺癌直接適應症"
+        },
+        {
+          "pmid": "36000794",
+          "title": "Patient-Reported Outcomes of Phase II Neoadjuvant Apalutamide and Radical Prostatectomy",
+          "year": "2022",
+          "study_type": "Phase 2 PRO Analysis",
+          "tier": "2",
+          "annotation": "Phase 2 PRO 次要分析，生活品質資料"
+        },
+        {
+          "pmid": "39417629",
+          "title": "Comparison of Abiraterone, Enzalutamide, and Apalutamide for mHSPC",
+          "year": "2025",
+          "study_type": "Comparative Cohort",
+          "tier": "2",
+          "annotation": "真實世界比較研究，Apalutamide vs. 同類藥物於 mHSPC"
+        },
+        {
+          "pmid": "32930958",
+          "title": "Apalutamide: A Review in Metastatic Castration-Sensitive Prostate Cancer",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "系統性回顧，彙整 TITAN 試驗及 Apalutamide 臨床資料"
+        },
+        {
+          "pmid": "32673844",
+          "title": "Recent Developments in Non-Metastatic Castration Resistant Prostate Cancer Treatment",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "nmCRPC 治療進展回顧，含 Apalutamide SPARTAN 試驗"
+        },
+        {
+          "pmid": "32534790",
+          "title": "Advanced Prostate Cancer: Treatment Advances and Future Directions",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "晚期前列腺癌治療進展綜述"
+        },
+        {
+          "pmid": "31977390",
+          "title": "Treatment of Primary in Metastatic Prostate Cancer: What Is the Standard of Care?",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "轉移性前列腺癌標準治療討論"
+        },
+        {
+          "pmid": "36660947",
+          "title": "STEAP1 Regulation Modulating Response of LNCaP to Bicalutamide/Apalutamide",
+          "year": "2023",
+          "study_type": "In vitro",
+          "tier": "3",
+          "annotation": "細胞株研究，探討 AR 抑制劑耐藥機轉"
+        },
+        {
+          "pmid": "29734647",
+          "title": "Recent Advances in Prostate Cancer Treatment and Drug Discovery",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "前列腺癌治療進展回顧"
+        },
+        {
+          "pmid": "32355025",
+          "title": "Regenerative Potential of Prostate Luminal Cells by Single-Cell Analysis",
+          "year": "2020",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "annotation": "前列腺腺腔細胞生物學研究，基礎科學背景資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign neoplasm of prostate",
+      "txgnn_score": 0.9745,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "前列腺良性腫瘤（包含良性前列腺增生 BPH 相關新生物）受雄激素訊號調控，AR 在前列腺基質與上皮細胞均有表現。然而，Apalutamide 現有全部臨床試驗與文獻均針對惡性前列腺癌，尚無直接評估良性前列腺新生物的研究。機轉推演成立但缺乏直接臨床驗證；需注意 BPH 一線治療已有 5α-還原酶抑制劑（finasteride/dutasteride），定位需釐清。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05701007",
+          "title": "Real World Evidence on Metastatic Prostate Cancer Patient Characteristics and Treatment Patterns",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 1083,
+          "relevance_grade": "C",
+          "reasoning": "針對轉移性前列腺癌（惡性），非良性前列腺新生物。患者特徵研究，不直接評估 Apalutamide 於良性腫瘤療效"
+        },
+        {
+          "nct_id": "NCT02770391",
+          "title": "HSD3B1 Genotype and Steroid Metabolism in Normal and Prostate Cancer Tissue",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 54,
+          "relevance_grade": "C",
+          "reasoning": "雄激素代謝酵素基因型研究，與 AR 生物學相關但非 Apalutamide 直接療效研究，亦非良性腫瘤適應症"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33914595",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "針對惡性前列腺癌（mCSPC），對良性新生物為間接證據（L3 降級原因）"
+        },
+        {
+          "pmid": "29420164",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "SPARTAN，針對 nmCRPC，對良性適應症為機轉延伸推論"
+        },
+        {
+          "pmid": "31150574",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "TITAN，針對 mCSPC，非良性適應症直接證據"
+        },
+        {
+          "pmid": "33480983",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "前列腺癌荷爾蒙治療回顧，含 AR 訊號在良惡性前列腺疾病的角色討論"
+        },
+        {
+          "pmid": "32907777",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "annotation": "SPARTAN OS 分析，惡性適應症證據"
+        },
+        {
+          "pmid": "39453576",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "annotation": "2024 年前列腺癌病理生理與管理回顧，可能含良性疾病討論"
+        },
+        {
+          "pmid": "39417629",
+          "study_type": "Comparative Cohort",
+          "tier": "2",
+          "annotation": "mHSPC 比較研究，惡性適應症"
+        },
+        {
+          "pmid": "32355025",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "annotation": "前列腺腺腔細胞再生潛力研究，提供細胞層面 AR 生物學背景"
+        },
+        {
+          "pmid": "32534790",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "晚期前列腺癌治療，惡性適應症"
+        },
+        {
+          "pmid": "30426794",
+          "study_type": "Review",
+          "tier": "3",
+          "annotation": "Apalutamide 藥物回顧，前列腺癌（惡性）適應症"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign reproductive system neoplasm",
+      "txgnn_score": 0.9752,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性生殖系統腫瘤（如子宮肌瘤、卵巢良性腫瘤等）部分受性激素調控，但 AR 訊號在此類疾病的角色各異且多為非主要驅動因素。現有唯一試驗（NCT05701007）為惡性前列腺癌真實世界研究，與良性生殖系統腫瘤無直接關聯。TxGNN 高分可能源於知識圖譜中前列腺良惡性疾病的本體論鄰近性，而非真實機轉連結。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05701007",
+          "title": "Real World Evidence on Metastatic Prostate Cancer Patient Characteristics and Treatment Patterns",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 1083,
+          "relevance_grade": "C",
+          "reasoning": "針對惡性轉移性前列腺癌，患者特徵與治療模式觀察研究，與良性生殖系統腫瘤無直接關聯；相關性極低"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "prostate cancer/brain cancer susceptibility",
+      "txgnn_score": 0.9843,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「易感性」為遺傳風險因子概念，非治療適應症。Apalutamide 作為 AR 拮抗劑，理論上可影響 AR 訊號驅動的腫瘤發生風險，但「化學預防」用途缺乏任何臨床研究支持。腦癌部分可能源於前列腺癌腦轉移的知識圖譜關聯，AR 在原發性腦腫瘤中的角色尚未明確。TxGNN 高分反映知識圖譜本體論鄰近性，非臨床可行性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "prostate leiomyoma",
+      "txgnn_score": 0.9777,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺平滑肌瘤（Leiomyoma）為極罕見良性腫瘤，理論上前列腺平滑肌細胞受雄激素調控，AR 抑制可能影響其生長。但此疾病發生率極低（文獻報告不足百例），且無任何 Apalutamide 相關臨床或基礎研究支持。高 TxGNN 分數可能反映與前列腺癌知識圖譜節點的高度鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Brenner tumor",
+      "txgnn_score": 0.9758,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brenner 腫瘤為卵巢移行細胞腫瘤，免疫組化研究顯示部分 Brenner 腫瘤表現 AR，提供理論機轉連結。然而，Brenner 腫瘤極為罕見，臨床行為以良性為主，手術切除為標準治療，無系統性藥物治療需求的臨床實踐。無任何 Apalutamide 於此適應症的臨床或前臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fibroma of prostate",
+      "txgnn_score": 0.9750,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺纖維瘤為極罕見良性間質腫瘤，纖維組織形成受雄激素/雌激素平衡調控，AR 抑制理論上可影響基質細胞活化。然而，該疾病發生率極低，無藥物治療指引，且無任何 Apalutamide 相關研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "prostate phyllodes tumor",
+      "txgnn_score": 0.9746,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺葉狀腫瘤（Phyllodes tumor）為混合上皮-間質腫瘤，行為介於良惡性之間，手術為主要治療。AR 表現於間質成分，理論機轉存在，但臨床發生率極低（全球報告不足 200 例），缺乏任何藥物試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "benign prostate phyllodes tumor",
+      "txgnn_score": 0.9721,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與「prostate phyllodes tumor」重疊，良性型態手術預後良好，系統性藥物治療需求更低。無任何 Apalutamide 相關臨床前或臨床研究，仍屬純粹機轉推演。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "palmoplantar keratoderma-sclerodactyly syndrome",
+      "txgnn_score": 0.9705,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "掌蹠角化症-硬指症候群（Palmoplantar keratoderma-sclerodactyly syndrome）為罕見遺傳性皮膚結締組織疾病，病因主要為角蛋白或橋粒蛋白基因突變，與 AR 訊號軸無已知機轉關聯。TxGNN 高分極可能為模型偽陽性（false positive），反映知識圖譜中不相關節點間的間接連結，不具臨床意義。此適應症應列為最低優先級，不建議任何後續研究投入。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease_name": "male reproductive organ cancer",
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "action": "本地（新加坡）監管批准申請，安排 Phase 3 數據送審"
+      },
+      {
+        "rank": 2,
+        "disease_name": "benign neoplasm of prostate",
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "action": "設計 Proof-of-Concept 研究；評估 BPH 適應症相對於 5α-還原酶抑制劑的差異化定位"
+      },
+      {
+        "rank": 3,
+        "disease_name": "benign reproductive system neoplasm",
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "action": "需釐清疾病本體論範疇，目前不建議前進"
+      },
+      {
+        "rank": 4,
+        "disease_name": "其餘 7 個適應症",
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "action": "Hold — 純預測，缺乏機轉驗證或臨床可行性，不建議資源投入"
+      }
+    ],
+    "key_concerns": [
+      "市場狀態『未上市』（新加坡）：L1 證據最強適應症仍需本地監管申請",
+      "DDI 風險被低估：Apalutamide 為 CYP3A4/CYP2C19/P-gp 強誘導劑，ddi_count=0 為資料缺失",
+      "皮疹發生率高（~24%，SPARTAN），新加坡族群（亞裔）皮膚相關副作用監測需強化",
+      "多個 L5 良性前列腺適應症高分可能反映 TxGNN 模型的局部過擬合（知識圖譜前列腺節點密集），建議設定疾病範疇過濾器"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 核心發現
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| **male reproductive organ cancer** | **L1** ✅ | S3 | **Proceed with Guardrails** |
+| benign neoplasm of prostate | L3 | S1 | Research Question |
+| benign reproductive system neoplasm | L4 | S0 | Hold |
+| 其餘 7 項（leiomyoma、Brenner、fibroma 等） | L5 | S0 | Hold |
+
+### 關鍵判讀邏輯
+
+1. **male reproductive organ cancer（L1/S3）**：SPARTAN（nmCRPC）與 TITAN（mCSPC）兩個 Phase 3 RCT 提供最高等級直接證據，NCT03767244（n=2517）進一步擴展至高風險局部晚期癌症。*Guardrails* 主要指向 **本地監管批准** 與 **CYP3A4 DDI 管理**。
+
+2. **benign neoplasm of prostate（L3/S1）**：雖有大量文獻，但全部針對**惡性**前列腺疾病，對**良性**適應症僅屬間接機轉推論，故降為 L3；需要專門設計的安全性初評研究。
+
+3. **L5 適應症群**：TxGNN 高分（>0.97）但零臨床/文獻證據，反映知識圖譜中前列腺相關節點密集導致的**分佈偏誤**，不代表真實再利用潛力；`palmoplantar keratoderma-sclerodactyly syndrome` 尤其無生物學合理性，為明確偽陽性。

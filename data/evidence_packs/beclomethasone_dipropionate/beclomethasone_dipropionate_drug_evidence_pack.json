@@ -1,0 +1,1531 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00394-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Beclomethasone dipropionate",
+    "drugbank_id": "DB00394",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "atopic eczema",
+      "txgnn": {
+        "score": 0.994074285030365,
+        "rank": 7323
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30911861",
+            "title": "Optimization and Evaluation of Beclomethasone Dipropionate Micelles Incorporated into Biocompatible Hydrogel Using a Sub-Chronic Dermatitis Animal Model.",
+            "authors": [
+              "Assem Menna",
+              "Khowessah Omneya Mohammed",
+              "Ghorab Dalia"
+            ],
+            "journal": "AAPS PharmSciTech",
+            "year": "2019",
+            "abstract": "The current study is concerned with the development and characterization of mixed micelles intended for the dermal delivery of beclomethasone dipropionate, which is a topical corticosteroid used in the management of atopic dermatitis. Mixed micelles were prepared using thin-film hydration technique, employing different concentrations of pluronic L121 with either poloxamer P84 or pluronic F127 with different surfactant mixture-to-drug ratios. The prepared formulae were characterized concerning en",
+            "classification": {
+              "study_type": "Pharmaceutical Formulation",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6434024",
+            "title": "Combined oral and nasal beclomethasone diproprionate in children with atopic eczema: a randomised controlled trial.",
+            "authors": [
+              "Heddle R J",
+              "Soothill J F",
+              "Bulpitt C J",
+              "Atherton D J"
+            ],
+            "journal": "British medical journal (Clinical research ed.)",
+            "year": "1984",
+            "abstract": "In a double blind, placebo controlled, crossover trial in 26 children with severe atopic eczema those receiving four weeks' treatment with combined oral plus nasal beclomethasone diproprionate improved significantly more than those receiving placebo. No adverse effects were observed, but 24 hour urinary cortisol excretion was slightly reduced. This combination may provide effective treatment in refractory atopic eczema with relatively little of the danger associated with systemic administration ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19571596",
+            "title": "Intranasal corticosteroids and adrenal suppression.",
+            "authors": [
+              "Bruni Francesca Maria",
+              "De Luca Giuseppina",
+              "Venturoli Vico",
+              "Boner Attilio Loris"
+            ],
+            "journal": "Neuroimmunomodulation",
+            "year": "2009",
+            "abstract": "Allergic rhinitis is a common condition that frequently coexists with asthma and atopic dermatitis. It is commonly treated with intranasal corticosteroids which may increase the potential inception of side effects of the same type of drugs used for the treatment of other allergic diseases. A method to assess the systemic effect of corticosteroids is the evaluation of their effect on the hypothalamic-pituitary-adrenal (HPA) axis. However, it is not clear which test is best for detection of clinic",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7813169",
+            "title": "[Allergy in pregnancy].",
+            "authors": [
+              "Di Lorenzo G",
+              "Mansueto P",
+              "Melluso M",
+              "Purello D'Ambrosio F",
+              "Putignano E"
+            ],
+            "journal": "La Clinica terapeutica",
+            "year": "1994",
+            "abstract": "During pregnancy, the ideal would be to abstain from the use of any drug, at least during the first three months. In fact, none of the drugs currently used for the therapy of allergies has been classified by the FDA and European Commission on the basis of controlled human and animal studies as completely negative from the point of view of untoward effects in pregnancy. The following are considered comparatively safe: disodium cromoglycate, diphenhydramine, chlorpheniramine, hydroxyzine, mebhydro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14616123",
+            "title": "Corticosteroid allergy in asthma.",
+            "authors": [
+              "Kilpiö K",
+              "Hannuksela M"
+            ],
+            "journal": "Allergy",
+            "year": "2003",
+            "abstract": "Glucocorticosteroids form the basis of therapy for asthma and other allergic diseases. However, they frequently cause delayed contact allergy and occasionally immediate allergy. The purpose of this study was to investigate the occurrence of corticosteroid allergy among patients with asthma and with some complaints caused by inhaled corticosteroids.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14522624",
+            "title": "Short-term growth and bone turnover in children undergoing occlusive steroid ('Wet-Wrap') dressings for treatment of atopic eczema.",
+            "authors": [
+              "McGowan R",
+              "Tucker P",
+              "Joseph D",
+              "Wallace A M",
+              "Hughes I"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2003",
+            "abstract": "To assess the effects of steroid wet-wrap therapy on short-term growth and bone turnover, eight prepubertal (M:F,5:3) children with a median age of 5.1years (range 3.3-8.8) were studied over a 2-week period prior to therapy and at 2-week intervals during therapy. Short-term growth was assessed by measuring lower leg length velocity (LLLV) by knemometry and bone and collagen turnover was assessed by urinary deoxypyridinoline crosslink excretion corrected for creatinine excretion (DPD). Median dur",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1476023",
+            "title": "The treatment of difficult atopic dermatitis in childhood with oral beclomethasone dipropionate.",
+            "authors": [
+              "Aylett S E",
+              "Atherton D J",
+              "Preece M A"
+            ],
+            "journal": "Acta dermato-venereologica. Supplementum",
+            "year": "1992",
+            "abstract": "Beclomethasone dipropionate (BDP) is a synthetic glucocorticoid with great topical potency. It has previously been demonstrated to be an effective treatment for childhood atopic dermatitis (AD) when given orally. We have monitored linear growth and adrenal function in a group of children treated with oral BDP for severe AD. Stable control of disease was achieved in 10/14 patients (mean dose: 1000 micrograms/day, range 800-1800). At this maintenance dose, there was evidence of deceleration of lin",
+            "classification": {
+              "study_type": "Clinical Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6391291",
+            "title": "Diagnosis and management of skin disorders caused by food allergy.",
+            "authors": [
+              "Atherton D J"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1984",
+            "abstract": "A major aetiologic role for foods has been demonstrated in urticaria, atopic eczema and dermatitis herpetiformis. In some patients with urticaria, whealing occurs within minutes of the ingestion of a particular food. In most, but not necessarily all cases, this appears to be a consequence of IgE-mediated cutaneous mast cell degranulation, i.e. a classical type I hypersensitivity response. In other patients with recurrent urticaria, the whealing may be provoked by foods by a much slower and more ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11488426",
+            "title": "Drugs for the treatment of allergic diseases.",
+            "authors": [
+              "Inagaki N",
+              "Nagai H"
+            ],
+            "journal": "Japanese journal of pharmacology",
+            "year": "2001",
+            "abstract": "Many kinds of drugs are used for the treatment of allergic diseases. Glucocorticoids are the most efficacious drugs and widely used for the treatment of allergic diseases. Recently, effectiveness of inhaled glucocorticoids for the treatment of bronchial asthma has been established. Beclomethasone dipropionate and fluticasone propionate, which are degraded easily after absorption, are applied by inhalation. Histamine is one of the most important mediators in allergic reactions and antihistamines ",
+            "classification": {
+              "study_type": "Pharmacological Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37023229",
+            "title": "DrugRep-KG: Toward Learning a Unified Latent Space for Drug Repurposing Using Knowledge Graphs.",
+            "authors": [
+              "Ghorbanali Zahra",
+              "Zare-Mirakabad Fatemeh",
+              "Akbari Mohammad",
+              "Salehi Najmeh",
+              "Masoudi-Nejad Ali"
+            ],
+            "journal": "Journal of chemical information and modeling",
+            "year": "2023",
+            "abstract": "Drug repurposing or repositioning (DR) refers to finding new therapeutic applications for existing drugs. Current computational DR methods face data representation and negative data sampling challenges. Although retrospective studies attempt to operate various representations, it is a crucial step for an accurate prediction to aggregate these features and bring the associations between drugs and diseases into a unified latent space. In addition, the number of unknown associations between drugs a",
+            "classification": {
+              "study_type": "Computational / KG",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9463794",
+            "title": "Topical mometasone. A review of its pharmacological properties and therapeutic use in the treatment of dermatological disorders.",
+            "authors": [
+              "Prakash A",
+              "Benfield P"
+            ],
+            "journal": "Drugs",
+            "year": "1998",
+            "abstract": "Mometasone, a synthetic 16 alpha-methyl analogue of beclomethasone, is classified as a 'potent' glucocorticoid for dermatological use. It is available as 0.1% cream, ointment and lotion formulations for the treatment of patients with inflammatory glucocorticoid-responsive dermatoses. In patients with atopic dermatitis, the effect of mometasone 0.1% applied once daily over 2 to 3 weeks were similar to those of other glucocorticoids of similar potency, such as betamethasone dipropionate 0.05% twic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "374799",
+            "title": "[Systemic effects of topical application of beclomethasone dipropionate--comparative studies with betamethasone 17-valerate ointment and fluocinonide cream (author's transl)].",
+            "authors": [],
+            "journal": "Nihon Hifuka Gakkai zasshi. The Japanese journal of dermatology",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7240081",
+            "title": "Atopic dermatitis, asthma and eye changes in children.",
+            "authors": [
+              "Rao M",
+              "Victoria M S",
+              "Jabbar H",
+              "Steiner P"
+            ],
+            "journal": "The Journal of asthma : official journal of the Association for the Care of Asthma",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8765824",
+            "title": "Enhancement of in vitro spontaneous IgE production by topical steroids in patients with atopic dermatitis.",
+            "authors": [
+              "Hiratsuka S",
+              "Yoshida A",
+              "Ishioka C",
+              "Kimata H"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1996",
+            "abstract": "Atopic dermatitis (AD) is an inflammatory skin disease. Although topical steroids are widely used for AD, management of severe AD is not satisfactory because of relapse or occasional aggravation of symptoms. Moreover, glucocorticoids induce in vitro IgE production. On the other hand, topical sodium cromoglycate (SCG) solution is a safe and effective treatment for AD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1836160",
+            "title": "T cell receptor gamma delta bearing cells are decreased in the peripheral blood of patients with atopic diseases.",
+            "authors": [
+              "Schauer U",
+              "Dippel E",
+              "Gieler U",
+              "Bräuer J",
+              "Jung T"
+            ],
+            "journal": "Clinical and experimental immunology",
+            "year": "1991",
+            "abstract": "The biological role of T cell receptor (TCR) gamma delta bearing cells is currently not fully understood. Recently, a monoclonal antibody (TCR delta 1) reacting against the whole molecule became available which facilitates the direct analysis of TCR-gamma delta+ cells. We studied 11 children with atopic dermatitis, 20 children with atopic asthma, 18 adults with atopic dermatitis and 38 healthy age matched controls aged 4-51 years. Lymphocytes were isolated from heparinized peripheral blood and t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7389069",
+            "title": "Occupational asthma due to stainless steel welding fumes.",
+            "authors": [
+              "Keskinen H",
+              "Kalliomäki P L",
+              "Alanko K"
+            ],
+            "journal": "Clinical allergy",
+            "year": "1980",
+            "abstract": "Seven patients with respiratory symptoms after welding were examined. Five had occupational asthma caused by fumes from manual metal are stainless steel welding. The detailed clinical results of two patients with repeated challenge tests are reported. One patient was nonatopic and had earlier had contact dermatitis due to chromium. He experienced a non-immediate type of asthmatic reaction after welding stainless steel. The other patient was atopic and showed an immediate-type reaction. Both reac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19874229",
+            "title": "Dissociation of local anti-inflammatory effect and systemic effects of mometasone furoate in mice.",
+            "authors": [
+              "Ogawa Masami",
+              "Sakonjo Hiroshi",
+              "Kamei Chiaki"
+            ],
+            "journal": "Immunopharmacology and immunotoxicology",
+            "year": "2009",
+            "abstract": "Mometasone furoate (MF) is a topical glucocorticoid used for atopic dermatitis, allergic rhinitis, and bronchial asthma. To elucidate the usefulness of MF, the dissociation between local anti-inflammatory effects and systemic effects of MF was compared with that of beclomethasone 17,21-dipropionate (BDP). MF was more potent than BDP in croton oil-induced ear edema tests in mice. Oral systemic effects of MF were inversely lower than that of BDP on thymolysis, plasma corticosterone lowering, and s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2873766",
+            "title": "The role of pharmacologic agents in the prevention or treatment of allergic food disorders.",
+            "authors": [
+              "Collins-Williams C"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "BDP 為合成糖皮質激素，透過 GR（糖皮質激素受體）抑制 Th2 介導的皮膚炎症反應（IL-4、IL-13、IL-31↓），減少嗜酸性球浸潤、肥大細胞活化及 IgE 分泌。局部塗抹可直接抑制表皮及真皮層發炎瀑布反應，與異位性濕疹核心病生理機轉高度吻合。惟現存 RCT 以口服/鼻腔給藥為主，局部外用製劑現代大型 RCT 尚缺。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.9867960214614868,
+        "rank": 12976
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06571942",
+            "title": "Effect of the Inhaled Triple Therapies Over the Small Airway in Patients With Chronic Obstructive Pulmonary Disease or Chronic Bronchitis Without Obstruction Secondary to Biomass Exposure: Randomized Controlled Clinical Trial Phase IV",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 128,
+            "start_date": "2023-11-15",
+            "completion_date": "2025-01-15",
+            "brief_summary": "This phase IV randomized controlled clinical trial intend to compare the effect of three close standard inhaled triple therapies and one close standard inhaled double therapy on the small airway in patients with Chronic Obstructive Pulmonary Disease (COPD-B) and chronic bronchitis without obstruction (BCNO) exposed to wood smoke. The treatment phase duration is of 3 months. As primary outcome, the resistance change in post-bronchodilatator impulse oscilometry will me measure at 30 minutes, 2 hou",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 大型試驗，BDP 為三聯療法成員之一（ICS+LABA+LAMA），評估小氣道效果。慢性阻塞性肺病與慢性支氣管炎高度重疊，間接強支持"
+            }
+          },
+          {
+            "nct_id": "NCT00238082",
+            "title": "The Effect of HFA-beclomethasone Dipropionate on Static Lung Volumes in COPD",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 20,
+            "start_date": "1999-11",
+            "completion_date": "2005-02",
+            "brief_summary": "This is an investigator-sponsored research study to evaluate if treatment with HFA-134a beclomethasone (QVAR) has an effect on peripheral (or outer) airway inflammation and airway \"remodeling\" or scarring in subjects with COPD. Approximately 20 subjects with COPD will participate for approximately 7 weeks, with 10 receiving an active (BDP) inhaler with HFA-134a and 10 receiving a placebo.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接評估 BDP 對 COPD（慢性支氣管炎主體）肺容積影響，雖已終止，但設計高度相關。終止原因需確認（若為有效性問題則降級）"
+            }
+          },
+          {
+            "nct_id": "NCT05748977",
+            "title": "Inhaled Fenotereol,Ipratroium Plus Beclomethasone Versus Salmeterol,Tiotropium Plus Fluticasone in Frequent Excerbator COPD Patients",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2023-02-20",
+            "completion_date": "2024-03-20",
+            "brief_summary": "Chronic obstructive pulmonary disease is heterogeneous lung condition characterized by chronic respiratory symptoms (dyspnea, cough, sputum production, exacerbations) due to abnormalities of the airways (bronchitis, bronchiolitis) and/or alveoli (emphysema) that cause persistent, often progressive ,airflow obstruction.\n\nThere are network meta analysis to compare the efficacy and safety of short acting bronchodilators Vs long acting agents in treatment of COPD",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "BDP 含方案對比 Fluticasone 含方案，評估 COPD 療效，狀態不明為限制"
+            }
+          },
+          {
+            "nct_id": "NCT04294641",
+            "title": "A Study of Front Line Ibrutinib Without Corticosteroids for Newly Diagnosed Chronic Graft-versus-Host Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2021-05-10",
+            "completion_date": "2024-10-01",
+            "brief_summary": "Background:\n\n\\- Chronic Graft Versus Host Disease (cGVHD) can occur after a person has had a stem cell or bone marrow transplant. In cGVHD, the donor cells attack the recipient's body. Researchers want to see if a drug called ibrutinib can block one of the proteins that lead to the immune reaction that causes cGVHD.\n\nObjective:\n\n\\- To see if ibrutinib as a first-line treatment can help people with newly diagnosed cGVHD.\n\nEligibility:\n\n\\- People age 18 and older with newly diagnosed moderate or s",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "GvHD 研究，比較不使用皮質類固醇方案，與支氣管炎無直接關聯，相關性極低"
+            }
+          },
+          {
+            "nct_id": "NCT02526758",
+            "title": "Evaluation and Treatment of Small Airways in COPD",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 90,
+            "start_date": "2015-04",
+            "completion_date": "2016-05",
+            "brief_summary": "Chronic obstructive pulmonary disease (COPD) is a common disease , and characterized by progressive development of airflow limitation. Small airway disease (obstructive bronchitis) and lung parenchyma damage (emphysema) are the main mechanisms of chronic airflow limitation. Research shows that small airway resistance increased by 4-40 times in COPD patients, and become the main part of the airflow obstruction. Impulse oscillation system (IOS) is able to measure the total airway resistance, the c",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，COPD 小氣道評估，BDP 作為 ICS 核心介入，支氣管炎病生理重疊高"
+            }
+          },
+          {
+            "nct_id": "NCT06139029",
+            "title": "Comparison of 3% Normal Saline Nebulization Versus Steroid Nebulization in the Treatment of Bronchiolitis",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2022-11-15",
+            "completion_date": "2023-03-15",
+            "brief_summary": "To compare the efficacy of 3% normal saline nebulization and steroid nebulization in the treatment of bronchiolitis in infants.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "直接評估 BDP 霧化吸入用於細支氣管炎，完成狀態，與支氣管炎直接相關"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1489129",
+            "title": "Aerosolized beclomethasone in chronic bronchitis. Improved pulmonary function and diminished airway inflammation.",
+            "authors": [
+              "Thompson A B",
+              "Mueller M B",
+              "Heires A J",
+              "Bohling T L",
+              "Daughton D"
+            ],
+            "journal": "The American review of respiratory disease",
+            "year": "1992",
+            "abstract": "Chronic bronchitis is associated with airways obstruction and inflammation. In order to determine whether aerosolized beclomethasone can modulate airway inflammation and diminish airway obstruction, subjects with chronic bronchitis performed spirometry and underwent bronchoalveolar lavage (BAL) before and after receiving 6 wk of therapy (five puffs four times a day) with either aerosolized beclomethasone (n = 20) or placebo (n = 10) in a double-blinded, randomized fashion. All subjects received ",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9450166",
+            "title": "Effect of beclomethasone dipropionate inhalation on eosinophilic bronchitis in patients with silicosis.",
+            "authors": [
+              "Bando T",
+              "Fujimura M",
+              "Shinagawa S",
+              "Mizuhashi K",
+              "Noda Y"
+            ],
+            "journal": "Arzneimittel-Forschung",
+            "year": "1997",
+            "abstract": "The efficacy of beclomethasone dipropionate (CAS 5534-09-8, BDP, beclomethasone) inhalation therapy over the course of 12 months were evaluated in 42 patients with established chronic silicosis. Their pulmonary functions were monitored every 3 months and volume of sputum production was established daily. Subjects were divided randomly into two groups; 21 patients (BDP group) were treated with BDP (400 micrograms/day) by way of a metered-dose inhaler, while the 21 controls did not receive the BDP",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8403059",
+            "title": "[The investigation on 100 bronchial asthma and asthmatic bronchitis cases treated with high dose beclomethasone dipropionate aerosol].",
+            "authors": [
+              "Dong J C",
+              "Shen Z Y",
+              "Wang W J"
+            ],
+            "journal": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
+            "year": "1993",
+            "abstract": "100 cases, of which sixty four bronchial asthma patients and forty two asthmatic bronchitis patients sufficiently severe to be treated with inhaled corticosteroids, were investigated. All were treated with high dose beclomethasone dipropionate (BDP) inhaler aerosol (1500-2000 micrograms/day) for three months. The results showed the total effective rate was 98.4% in bronchial asthma patients and 62.5% in asthmatic bronchitis patients. The pulmonary functions and bronchial hyperresponsiveness of m",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4066080",
+            "title": "Salbutamol plus beclomethasone dipropionate versus theophylline for the prevention of methacholine-induced bronchospasm in patients with chronic bronchitis.",
+            "authors": [
+              "Arossa W",
+              "Spinaci S",
+              "Testi R"
+            ],
+            "journal": "International journal of clinical pharmacology, therapy, and toxicology",
+            "year": "1985",
+            "abstract": "Forty patients suffering from chronic bronchitis with basal forced expiratory volume in one second (FEV1) values at least 20% below ECSC (European Community Steel and Coal) predicted values were treated with a combination of salbutamol plus beclomethasone dipropionate or with theophylline for a period of 4 weeks. Methacholine bronchial inhalation challenges were performed before and after treatment. Both treatments produced significant increases in FEV1, forced vital capacity (FVC) and FEV1 100/",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7911355",
+            "title": "Effect of inhaled beclomethasone dipropionate in the treatment of recurrent wheezing in infancy and early childhood.",
+            "authors": [
+              "Huang J L",
+              "Hung I J",
+              "Hsieh K H"
+            ],
+            "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+            "year": "1993",
+            "abstract": "Forty-one children, aged six to 36 months (mean, 23.3 months), with a past history of acute bronchiolitis with or without recurrent wheezing episodes were treated with either a beclomethasone dipropionate metered dose inhaler 150 microgram twice daily, or a placebo for 12 weeks. Aerosols were inhaled through an AeroChamber (Trudell, Canada) using a mask. The patients were followed up biweekly. The two groups were well matched in anthropometric data and frequency of wheezing prior to the study be",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1105523",
+            "title": "A double-blind cross-over study of beclomethasone dipropionate in asthmatic patients with and without chronic bronchitis.",
+            "authors": [
+              "Mintz S",
+              "Broder I",
+              "Davies G",
+              "Leznoff A",
+              "Rostum H"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT (double-blind crossover)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1264824",
+            "title": "[Beclomethasone dipropionate -becotide) aerosol in the treatment of asthma and spastic bronchitis].",
+            "authors": [
+              "Droszcz W",
+              "Madalińska M"
+            ],
+            "journal": "Pneumonologia polska",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2844548",
+            "title": "Effects of inhaled beclomethasone dipropionate on beta 2-receptor function in the airways and adrenal responsiveness in bronchial asthma.",
+            "authors": [
+              "Molema J",
+              "Lammers J W",
+              "van Herwaarden C L",
+              "Folgering H T"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1988",
+            "abstract": "Sixteen patients suffering from bronchial asthma, with or without chronic bronchitis, sufficiently severe to be treated with inhaled corticosteroids, were studied in a single-blind trial (blind observer) of beclomethasone dipropionate (BDP) given in three randomized dosage regimens: 500, 1000 and 2000 micrograms per day, each for 4 weeks. The beta 2-adrenergic agonist response curve showed a dose-dependent increase in FEV1 which was not affected by different doses of BDP. A small but significant",
+            "classification": {
+              "study_type": "Pharmacodynamic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "817866",
+            "title": "Compared assay of beclomethasone dipropionate aerosol in corticodependent asthmatic and spastic bronchitic patients.",
+            "authors": [
+              "Vereerstraeten-Schmerber J",
+              "Lempereur L",
+              "De Koster J P"
+            ],
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "Comparative Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9809343",
+            "title": "[Corticosteroids].",
+            "authors": [
+              "Löfdahl C G"
+            ],
+            "journal": "Revue des maladies respiratoires",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25515181",
+            "title": "Diagnosis and pharmacotherapy of stable chronic obstructive pulmonary disease: the finnish guidelines.",
+            "authors": [
+              "Kankaanranta Hannu",
+              "Harju Terttu",
+              "Kilpeläinen Maritta",
+              "Mazur Witold",
+              "Lehto Juho T"
+            ],
+            "journal": "Basic & clinical pharmacology & toxicology",
+            "year": "2015",
+            "abstract": "The Finnish Medical Society Duodecim initiated and managed the update of the Finnish national guideline for chronic obstructive pulmonary disease (COPD). The Finnish COPD guideline was revised to acknowledge the progress in diagnosis and management of COPD. This Finnish COPD guideline in English language is a part of the original guideline and focuses on the diagnosis, assessment and pharmacotherapy of stable COPD. It is intended to be used mainly in primary health care but not forgetting respir",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21324520",
+            "title": "Use of beclomethasone dipropionate as rescue treatment for children with mild persistent asthma (TREXA): a randomised, double-blind, placebo-controlled trial.",
+            "authors": [
+              "Martinez Fernando D",
+              "Chinchilli Vernon M",
+              "Morgan Wayne J",
+              "Boehmer Susan J",
+              "Lemanske Robert F"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2011",
+            "abstract": "Daily inhaled corticosteroids are an effective treatment for mild persistent asthma, but some children have exacerbations even with good day-to-day control, and many discontinue treatment after becoming asymptomatic. We assessed the effectiveness of an inhaled corticosteroid (beclomethasone dipropionate) used as rescue treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1505703",
+            "title": "Treatment with inhaled steroids in asthma and chronic bronchitis: long-term compliance and inhaler technique.",
+            "authors": [
+              "Dompeling E",
+              "Van Grunsven P M",
+              "Van Schayck C P",
+              "Folgering H",
+              "Molema J"
+            ],
+            "journal": "Family practice",
+            "year": "1992",
+            "abstract": "We investigated compliance and inhaler technique in 50 patients with airway obstruction (26 asthma, 24 chronic bronchitis) being treated with inhaled steroid (beclomethasone dipropionate, BDP) via a dry powder inhaler (Rotahaler omega). Patients had already participated for one year in a 2-year trial of BDP in general practice. They were treated daily with two dry powder inhalations of 400 micrograms BDP in combination with a bronchodilator. Compliance with BDP was measured by counting capsules ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1806302",
+            "title": "[Treatment of 106 chronic obstructive pulmonary diseases with shou er kang pill and high dose beclomethasone dipropionate aerosol].",
+            "authors": [
+              "Dong J C",
+              "Shen Z Y"
+            ],
+            "journal": "Zhong xi yi jie he za zhi = Chinese journal of modern developments in traditional medicine",
+            "year": "1991",
+            "abstract": "106 chronic obstructive pulmonary disease (COPD) cases were divided into two groups, 53 cases treated with Shou Er Kang (SEK) pill (Kidney-reinforcing regimen) and high dose beclomethasone dipropionate inhaler, and 53 cases in the control group with high dose beclomethasone dipropionate aerosol alone. 64 patients were suffering from bronchial asthma and 42 patients from asthmatic bronchitis, sufficiently severe to be treated with inhaled corticosteroids. The results showed that the total effecti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8249391",
+            "title": "[Comparison of beta-2-agonist and beclomethasone effects on potassium levels, heart action and pulmonary ventilation parameters in patients with chronic asthmatic bronchitis].",
+            "authors": [
+              "Burak W",
+              "Grzeszczak W",
+              "Dabrowski G"
+            ],
+            "journal": "Wiadomosci lekarskie (Warsaw, Poland : 1960)",
+            "year": "1993",
+            "abstract": "The main goal of asthma treatment has usually been to maintain normal air potency with bronchodilators. A prompt improvement in physiologic measures of expiratory flow can be observed after administration beta-2-agonists or steroids. The present study aimed to assay the influence of fenoterol or beclomethasone therapy on the pulmonary ventilation (VC, FEV1, FEV1%), the heart action (heart rate, QT interval, 24 hours ECG) and the potassium balance in examined group. 20 patients with chronic asthm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3069051",
+            "title": "Nebulised beclomethasone dipropionate in recurrent obstructive episodes after acute bronchiolitis.",
+            "authors": [
+              "Carlsen K H",
+              "Leegaard J",
+              "Larsen S",
+              "Orstavik I"
+            ],
+            "journal": "Archives of disease in childhood",
+            "year": "1988",
+            "abstract": "Forty four children with recurrent obstructive episodes after acute bronchiolitis in infancy were treated with nebulised beclomethasone dipropionate or placebo for eight weeks in a randomised double-blind study. They were seen monthly for a year afterwards, and also if they had acute respiratory illnesses with or without bronchopulmonary obstruction. The two treatment groups were well matched. The children receiving active treatment had significantly fewer symptomatic respiratory illnesses and f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "887883",
+            "title": "[Beclomethasone dipropionate aerosol as treatment for asthmatiform bronchitis in a child with Kartagener's syndrome].",
+            "authors": [
+              "Brook U"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3726286",
+            "title": "Beclomethasone dipropionate does not affect mucociliary clearance in patients with chronic obstructive lung disease.",
+            "authors": [
+              "Fazio F",
+              "Lafortuna C L"
+            ],
+            "journal": "Respiration; international review of thoracic diseases",
+            "year": "1986",
+            "abstract": "Aerosolized steroids may be implicated in the increased incidence of chest infections. To evaluate such a possibility, we utilized a double-blind study to investigate the acute effect of inhaled beclomethasone dipropionate on mucociliary clearance in 10 patients with chronic obstructive lung disease (5 receiving the drug and 5 placebo). Mucociliary clearance was measured by inhalation of a 99mTc-labelled albumin aerosol. The resulting radioactivity was recorded externally by a large-field gamma ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14769264",
+            "title": "The dose-response relationship of inhaled corticosteroids in asthma.",
+            "authors": [
+              "Masoli Matthew",
+              "Holt Shaun",
+              "Weatherall Mark",
+              "Beasley Richard"
+            ],
+            "journal": "Current allergy and asthma reports",
+            "year": "2004",
+            "abstract": "Inhaled corticosteroids are the only class of asthma medication that can reduce symptoms, improve lung function, reduce the frequency of severe exacerbations, including hospital and ICU admissions, and decrease the risk of mortality. The therapeutic dose range for all clinical outcome measures in adults is 100 to 1000 mg/d of beclomethasone dipropionate or budesonide, or 50 to 500 mg/d of fluticasone propionate. Doses in excess of this range are not recommended for routine use because they are l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15044203",
+            "title": "Role of microvascular permeability on physiologic differences in asthma and eosinophilic bronchitis.",
+            "authors": [
+              "Kanazawa Hiroshi",
+              "Nomura Saeko",
+              "Yoshikawa Junichi"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "2004",
+            "abstract": "Asthma and eosinophilic bronchitis are characterized by a similar type of eosinophilic inflammation. However, eosinophilic bronchitis differs from asthma in that there is no variable airflow obstruction or airway hyperresponsiveness. We evaluated the roles of vascular endothelial growth factor (VEGF) and microvascular permeability in causing these differences between the two diseases. Inflammatory indexes in induced sputum, exhaled nitric oxide levels, and vascular permeability index were examin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "吸入型 BDP 直接作用於支氣管黏膜 GR，抑制 NF-κB 及 AP-1 轉錄因子，下調 IL-5、IL-8、TNF-α 等促炎細胞因子；同時減少嗜酸性球浸潤、杯狀細胞黏液過度分泌、氣道高反應性，是慢性支氣管炎／COPD 發炎環路的核心靶點。HFA-BDP 超細顆粒（MMAD ~1μm）可深達小氣道，對慢性支氣管炎的小氣道病變尤具優勢。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "2-hydroxyethyl methacrylate sensitization",
+      "txgnn": {
+        "score": 0.9704784750938416,
+        "rank": 21091
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HEMA 為牙科丙烯酸類接觸過敏原，BDP 理論上可抑制接觸性超敏反應的 T 細胞介導炎症（IV 型），但無任何特異性臨床或實驗室證據支持此適應症，且致敏機轉（半抗原形成）非類固醇可預防，治療窗口不明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "polyp of vocal cord",
+      "txgnn": {
+        "score": 0.9236853122711182,
+        "rank": 31681
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "聲帶息肉多為機械性損傷（聲帶濫用）導致的 Reinke 層水腫及纖維化，BDP 抗炎機轉對慢性結構性病變療效有限；類固醇注射（非 BDP）偶用於聲帶病變，但吸入型 BDP 局部聲帶濃度不足，缺乏任何臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "polyp of middle ear",
+      "txgnn": {
+        "score": 0.922913670539856,
+        "rank": 31817
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9604976",
+            "title": "Effect of fluticasone in severe polyposis.",
+            "authors": [
+              "Lund V J",
+              "Flood J",
+              "Sykes A P",
+              "Richards D H"
+            ],
+            "journal": "Archives of otolaryngology--head & neck surgery",
+            "year": "1998",
+            "abstract": "To investigate the effect of intranasal corticosteroids in the treatment of polyps in patients with severe polyposis listed for surgical treatment and to determine the treatment effect on the progression of the disease.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "中耳息肉常繼發於慢性中耳炎，類固醇理論上可減少黏膜水腫。然而，現有唯一文獻（PMID 9604976）討論的是 Fluticasone（非 BDP）於嚴重鼻息肉症（非中耳），路徑與靶器官均不符，不構成有效替代證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "fibroepithelial polyp",
+      "txgnn": {
+        "score": 0.9210360050201416,
+        "rank": 32131
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "纖維上皮性息肉（軟垂疣）為良性機械性皮膚增生，無顯著炎症病理機轉，類固醇無合理治療依據。無任何臨床或預臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "uterine polyp",
+      "txgnn": {
+        "score": 0.9202768802642822,
+        "rank": 32285
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮內膜息肉主要由雌激素驅動的局部內膜增生所致，糖皮質激素不作用於此荷爾蒙依賴性病理，機轉不相符。BDP 給藥途徑（吸入、鼻用、外用）均無法有效到達子宮內膜。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "polyp of frontal sinus",
+      "txgnn": {
+        "score": 0.9201118350028992,
+        "rank": 32312
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9653475",
+            "title": "Endoscopically guided frontal sinus beclomethasone instillation for refractory frontal sinus/recess mucosal edema and polyposis.",
+            "authors": [
+              "Citardi M J",
+              "Kuhn F A"
+            ],
+            "journal": "American journal of rhinology",
+            "year": "1998",
+            "abstract": "Despite its metabolic complications, systemic corticosteroid therapy remains a mainstay in the treatment of refractory polyposis after endoscopic frontal sinusotomy. Furthermore, topical nasal corticosteroids often fail, presumably due to the relatively small dosage actually absorbed by the polyps. In order to minimize steroid complications while increasing the locally absorbed dose, beclomethasone (approximately 1 cc, 84 mcg/100 microliters) was instilled under endoscopic guidance directly into",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "額竇息肉（鼻竇息肉）主要由 Th2 介導的嗜酸性黏膜慢性炎症驅動（IL-5、Eotaxin），BDP 鼻腔噴霧或灌注可直接抑制局部黏膜 GR，減少炎症細胞浸潤及息肉組織重塑。機轉與臨床吸入/鼻用皮質類固醇治療鼻竇炎高度相符，但額竇灌注為特殊技術操作，需內視鏡引導。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "seborrheic dermatitis",
+      "txgnn": {
+        "score": 0.9199568629264832,
+        "rank": 32339
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9463794",
+            "title": "Topical mometasone. A review of its pharmacological properties and therapeutic use in the treatment of dermatological disorders.",
+            "authors": [
+              "Prakash A",
+              "Benfield P"
+            ],
+            "journal": "Drugs",
+            "year": "1998",
+            "abstract": "Mometasone, a synthetic 16 alpha-methyl analogue of beclomethasone, is classified as a 'potent' glucocorticoid for dermatological use. It is available as 0.1% cream, ointment and lotion formulations for the treatment of patients with inflammatory glucocorticoid-responsive dermatoses. In patients with atopic dermatitis, the effect of mometasone 0.1% applied once daily over 2 to 3 weeks were similar to those of other glucocorticoids of similar potency, such as betamethasone dipropionate 0.05% twic",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4272489",
+            "title": "Effect of topically applied beclomethasone dipropionate on adrenal function.",
+            "authors": [
+              "Kaur S",
+              "Sharma P L",
+              "Anand S K"
+            ],
+            "journal": "International journal of clinical pharmacology, therapy and toxicology",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Pharmacodynamic / Safety Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脂漏性皮膚炎涉及 Malassezia 酵母菌觸發的皮膚免疫炎症反應（IL-17、IL-23 途徑），BDP 外用可抑制局部炎症紅腫及搔癢，但不能根除病原菌。類固醇通常為短期輔助療法，需與抗黴菌藥物併用。現有文獻僅有 1973 年 BDP 外用腎上腺功能安全性研究，無特異性療效 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "polyp of ureter",
+      "txgnn": {
+        "score": 0.919672191143036,
+        "rank": 32381
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "輸尿管息肉多為良性上皮增生，發病機轉不明，BDP 任何給藥途徑均無法有效到達輸尿管黏膜達治療濃度，無機轉合理性，亦無任何臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "atopic eczema"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "atopic eczema"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "atopic eczema"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "2-hydroxyethyl methacrylate sensitization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of middle ear"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of middle ear"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of middle ear"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "fibroepithelial polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "fibroepithelial polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "fibroepithelial polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "uterine polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "uterine polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "uterine polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of frontal sinus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of frontal sinus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of frontal sinus"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of ureter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of ureter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Beclomethasone dipropionate",
+        "disease": "polyp of ureter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

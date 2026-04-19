@@ -1,0 +1,1468 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00972-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Azelastine",
+    "drugbank_id": "DB00972",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.9860386848449708,
+        "rank": 13539
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Rosacea 相關結膜炎涉及神經源性發炎、血管異常及 Demodex 感染，H1 拮抗機轉對 rosacea 主要病理貢獻有限；Azelastine 可能緩解繼發性搔癢感，但無法針對根本病因。TxGNN 高分（0.986）可能反映結膜炎症狀的共通特徵，而非機轉特異性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.962316393852234,
+        "rank": 23657
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00712920",
+            "title": "Randomized, Double-Blind, Placebo-Controlled Trial of the Safety and Efficacy of MP03-36 and MP03-33 in Patients With Perennial Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 581,
+            "start_date": "2007-01",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to determine if two allergy medications are more effective than placebo.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "MP03-36/MP03-33（Astepro 鼻噴劑）試驗，適應症為過敏性鼻炎，非蕁麻疹。試驗證明 Azelastine 安全性，間接提供抗過敏活性佐證，但無蕁麻疹直接療效數據。"
+            }
+          },
+          {
+            "nct_id": "NCT00720278",
+            "title": "Randomized, Double-Blind, Placebo-Controlled Trial of the Safety and Efficacy of MP03-36 and MP03-33 Compared to Placebo in Patients With Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 526,
+            "start_date": "2007-08",
+            "completion_date": "2007-11",
+            "brief_summary": "The purpose of this study was to determine if two allergy medications are more effective than placebo.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同 NCT00712920，過敏性鼻炎試驗，與蕁麻疹適應症相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT01880840",
+            "title": "Randomized Trial of the Safety of Astepro 0.15% Nasal Spray and Astepro 0.1% Nasal Spray in Children Ages >6 Months to <6 Years With Allergic Rhinitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 191,
+            "start_date": "2013-06",
+            "completion_date": "2014-08",
+            "brief_summary": "The purpose of this study is to compare the safety of 2 different doses of the investigational use of an allergy medication (Astepro Nasal Spray) in the treatment of allergic rhinitis (AR). This is an open-label study; that is, parent and child will know which group each is in.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "兒童 Astepro 安全性試驗，可提供兒科安全性數據，但非蕁麻疹療效研究。"
+            }
+          },
+          {
+            "nct_id": "NCT01915823",
+            "title": "Randomized, Double-Blind Trial of the Safety and Efficacy of Dymista Nasal Spray Compared to Placebo Nasal Spray in the Treatment of Children Ages >4 Years to <12 Years With Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 348,
+            "start_date": "2013-07",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to determine if Dymista nasal spray is better and safer than placebo in treating children ages 4 to \\<12 years old who have seasonal allergic rhinitis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Dymista 鼻噴劑 vs 安慰劑，季節性過敏性鼻炎適應症，相關性 C 級。"
+            }
+          },
+          {
+            "nct_id": "NCT02230696",
+            "title": "Comparative Safety and Efficacy of Two Steroid Treatments in the Relief of the Symptoms of Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 951,
+            "start_date": "2014-08",
+            "completion_date": "2015-02",
+            "brief_summary": "To compare safety and efficacy of Perrigo's steroid drug product compared with an FDA approved steroid drug product in the treatment of subjects with seasonal allergic rhinitis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "固醇類鼻噴比較研究，非 Azelastine 主要療效評估，蕁麻疹相關性極低。"
+            }
+          },
+          {
+            "nct_id": "NCT01794741",
+            "title": "Randomized Trial of the Safety of Dymista Nasal Spray and Fluticasone Propionate Nasal Spray in Children Ages >4 Years to <12 Years With Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 405,
+            "start_date": "2013-02",
+            "completion_date": "",
+            "brief_summary": "This is a 3 month safety study of Dymista Nasal spray in children aged 4 to 11 years with allergic rhinitis",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "兒童 Dymista vs Fluticasone 安全性試驗，適應症不符。"
+            }
+          },
+          {
+            "nct_id": "NCT00883168",
+            "title": "Randomized, Double-Blind Trial of MP29-02 Nasal Spray Compared to Placebo, Azelastine Hydrochloride Nasal Spray and Fluticasone Propionate Nasal Spray in the Treatment of Patients With Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1791,
+            "start_date": "2009-04",
+            "completion_date": "2009-07",
+            "brief_summary": "The purpose of this study is to determine if the combination of two allergy medications (formulated azelastine/fluticasone product)is more effective than placebo or either component medication alone (azelastine or fluticasone).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "MP29-02（Dymista = Azelastine + Fluticasone 鼻噴）Phase 3，最大規模試驗，但適應症仍為季節性過敏性鼻炎，非蕁麻疹。"
+            }
+          },
+          {
+            "nct_id": "NCT00740792",
+            "title": "Randomized, Double-Blind Trial of MP29-02 Nasal Spray Compared to Placebo, Azelastine Hydrochloride Nasal Spray, and Fluticasone Propionate Nasal Spray in the Treatment of Patients With Seasonal Allergic Rhinitis.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 776,
+            "start_date": "2008-08",
+            "completion_date": "2008-11",
+            "brief_summary": "The purpose of this study is to determine if two allergy medications (formulated azelastine and fluticasone product) are more effective than placebo or either medication alone (azelastine or fluticasone)",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "MP29-02 Phase 3，鼻炎適應症，C 級相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00651118",
+            "title": "Randomized, Double-Blind Trial of MP29-02 Nasal Spray Compared to Placebo, Azelastine Hydrochloride Nasal Spray, and Fluticasone Propionate Nasal Spray in the Treatment of Patients With Seasonal Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 832,
+            "start_date": "2008-03",
+            "completion_date": "2008-07",
+            "brief_summary": "The purpose of this study is to determine if two allergy medications (azelastine and fluticasone) are more effective than placebo or either medication alone (azelastine or fluticasone)",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "MP29-02 Phase 3，鼻炎適應症，C 級相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00720382",
+            "title": "Active Controlled Trial of the Safety and Tolerability of MP 03-036 (Astepro 0.15%) in Patients With Perennial Allergic Rhinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 703,
+            "start_date": "2007-03",
+            "completion_date": "2008-07",
+            "brief_summary": "The purpose of this study is to determine if one allergy treatment (0.15% azelastine hydrochloride) is as safe as mometasone furoate (nasonex) alone.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Astepro 0.15% 安全耐受性試驗，鼻炎適應症，C 級相關性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9951950",
+            "title": "Second-generation antihistamines: a comparative review.",
+            "authors": [
+              "Slater J W",
+              "Zechnich A D",
+              "Haxby D G"
+            ],
+            "journal": "Drugs",
+            "year": "1999",
+            "abstract": "Second-generation histamine H1 receptor antagonists (antihistamines) have been developed to reduce or eliminate the sedation and anticholinergic adverse effects that occur with older H1 receptor antagonists. This article evaluates second-generation antihistamines, including acrivastine, astemizole, azelastine, cetirizine, ebastine, fexofenadine, ketotifen, loratadine, mizolastine and terfenadine, for significant features that affect choice. In addition to their primary mechanism of antagonising ",
+            "classification": {
+              "study_type": "Comparative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7530629",
+            "title": "Urticaria. Recognition, causes and treatment.",
+            "authors": [
+              "Ormerod A D"
+            ],
+            "journal": "Drugs",
+            "year": "1994",
+            "abstract": "The urticarias are a complex group of disorders characterised by transient whealing or swelling of the skin. Understanding the many possible causes is the first step in assessing urticaria. Allergic and drug-induced urticaria respond to removal of the cause. The physical urticarias, particularly delayed pressure urticaria and also urticarial vasculitis, require separate consideration. For the majority of patients with chronic idiopathic urticaria, nonsedating antihistamines are the mainstay of t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19348661",
+            "title": "Multiple H1-antihistamine-induced urticaria.",
+            "authors": [
+              "Inomata Naoko",
+              "Tatewaki Satoko",
+              "Ikezawa Zenro"
+            ],
+            "journal": "The Journal of dermatology",
+            "year": "2009",
+            "abstract": "H(1)-antihistamines are widely used in the treatment of various allergic diseases. Particularly, a cornerstone of the management of chronic idiopathic urticaria is treatment with H(1)-antihistamines. However, a few cases of H(1)-antihistamine-induced urticaria have been reported. A 34-year-old woman presented with a 4-month history of recurrent urticaria, which was prominently exacerbated by the administration of H(1)-antihistamines. The patient consented to a provocation test of fexofenadine am",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1683523",
+            "title": "Comparative efficacy of H1 antihistamines.",
+            "authors": [
+              "Aaronson D W"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1991",
+            "abstract": "Second-generation H1 receptor antagonists (cetirizine, terfenadine, astemizole, loratadine, azelastine, and acrivastine) offer several important advantages over the older first-generation antihistamines. They are substantially less sedating and have little or no anticholinergic activity. Many of them are effective for 12 to 24 hours, thereby increasing compliance. In addition to acting as competitive inhibitors of histamine, several seem to have other antiallergic mechanisms as well. They are al",
+            "classification": {
+              "study_type": "Comparative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1685361",
+            "title": "Pharmacokinetic optimisation of histamine H1-receptor antagonist therapy.",
+            "authors": [
+              "Simons F E",
+              "Simons K J"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1991",
+            "abstract": "Second-generation, relatively nonsedating histamine H1-receptor antagonists (H1-RA) are extensively used worldwide for the symptomatic treatment of allergic rhinoconjunctivitis and chronic urticaria. Information about the pharmacokinetics and pharmacodynamics of these medications, while still incomplete, is now sufficient to permit optimisation of therapy. Published pharmacokinetic and pharmacodynamic information on these H1-RA is summarised here, and areas where more data are required are delin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10804044",
+            "title": "Ebastine: an update of its use in allergic disorders.",
+            "authors": [
+              "Hurst M",
+              "Spencer C M"
+            ],
+            "journal": "Drugs",
+            "year": "2000",
+            "abstract": "Ebastine is a second-generation antihistamine which undergoes transformation to its active metabolite, carebastine. Its antihistaminic and antiallergic effects have been demonstrated in in vitro and in vivo studies, in addition to data obtained from clinical trials. Patients with allergic rhinitis or chronic idiopathic urticaria experienced significant improvement in their symptoms with ebastine 10 or 20 mg once daily. Some studies in patients with seasonal allergic rhinitis (SAR) have indicated",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34387278",
+            "title": "Assessment of receptor affinities of ophthalmic and systemic agents in dry eye disease.",
+            "authors": [
+              "Janeczko Patrick",
+              "Norris Matthew R",
+              "Bielory Leonard"
+            ],
+            "journal": "Current opinion in allergy and clinical immunology",
+            "year": "2021",
+            "abstract": "To explore our current understanding of receptor profiles acted upon by medications used to treat dry eye disease (DED).",
+            "classification": {
+              "study_type": "Pharmacology Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40055363",
+            "title": "The new bilastine eye drop formulation protects against conjunctival dehydration and promotes corneal wound healing in a comparative in vitro study.",
+            "authors": [
+              "Arana Eider",
+              "Gonzalo Ana",
+              "Andollo Noelia",
+              "Pérez-Garrastachu Miguel",
+              "Otero-Espinar Francisco"
+            ],
+            "journal": "Scientific reports",
+            "year": "2025",
+            "abstract": "Bilastine is a non-sedating, highly selective H1-antihistamine with proven efficacy and safety in treating allergic rhinoconjunctivitis and urticaria in adults and children. Allergic conjunctivitis, a common ocular condition, negatively impacts quality of life. Topical eye drops are the standard treatment, though ocular bioavailability is often low. Incorporating biopolymers such as hyaluronic acid (HA) into topical formulations enhances adhesive properties, prolongs retention on the ocular surf",
+            "classification": {
+              "study_type": "Experimental",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20476933",
+            "title": "Review of the pharmacology, clinical efficacy, and safety of azelastine hydrochloride.",
+            "authors": [
+              "La Force Craig"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2005",
+            "abstract": "Rhinitis is one of the most common diseases in the general population. Although it is not a life-threatening condition, rhinitis can cause significant discomfort and, therefore, negatively impact quality of life. Several treatment options are available; however, optimal relief of symptoms is difficult to achieve for most patients. Azelastine hydrochloride (Astelin) nasal spray is the only prescription intranasal antihistamine available in the USA, and is approved for treating symptoms of both se",
+            "classification": {
+              "study_type": "Comprehensive Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14499249",
+            "title": "Suplatast tosilate inhibits eosinophil production and recruitment into the skin in murine contact sensitivity.",
+            "authors": [
+              "Satoh Takahiro",
+              "Sasaki Go",
+              "Wu Ming Hua",
+              "Yokozeki Hiroo",
+              "Katayama Ichiro"
+            ],
+            "journal": "Clinical immunology (Orlando, Fla.)",
+            "year": "2003",
+            "abstract": "Antiallergic drugs and antihistamines have been widely used for controlling mucosal allergic diseases in which eosinophilia is prominent. Although H1-receptor antagonists are effective for treating histamine-induced wheal and itch in urticaria, the effects of antihistamines and antiallergic agents on other eosinophilic skin diseases remain to be determined. We investigated the effects of oral administration of antiallergic drugs and antihistamines, such as suplatast tosilate, emedastine difumara",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8573923",
+            "title": "Detection of action, inhibition and augmentation spectra in solar urticaria.",
+            "authors": [
+              "Miyauchi H",
+              "Horio T"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "1995",
+            "abstract": "The action spectrum of solar urticaria varies among cases. In addition, light spectra outside the activating wavelengths can influence the wheal formation in selected patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Azelastine 作為第二代 H1 拮抗劑，其口服製劑可阻斷皮膚肥大細胞及嗜鹼性球釋放的組織胺，抑制蕁麻疹的風團與潮紅反應。類藥物（cetirizine、loratadine）已有大量蕁麻疹 Phase 3 RCT，Azelastine 屬同類機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Angelucci syndrome",
+      "txgnn": {
+        "score": 0.9504206776618958,
+        "rank": 26593
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Angelucci 症候群為春季卡他性結膜炎（vernal keratoconjunctivitis）合併心悸、震顫等血管運動症狀，過敏組成部分與 H1 拮抗機轉相關，但血管運動症狀需要更廣泛的神經調節介入。疾病罕見度極高，難以設計試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acute hemorrhagic conjunctivitis",
+      "txgnn": {
+        "score": 0.9495360851287842,
+        "rank": 26820
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性出血性結膜炎主要由腸病毒 70 型或克沙奇病毒 A24 引起，為病毒性疾病；H1 拮抗機轉無抗病毒活性。Azelastine 可能緩解次發性搔癢但無法影響疾病進程。機轉不匹配，TxGNN 高分可能來自『結膜炎』的共同結構特徵而非藥物特異性機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pseudomembranous conjunctivitis",
+      "txgnn": {
+        "score": 0.9490145444869996,
+        "rank": 26931
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偽膜性結膜炎由嚴重過敏（如 AKC）、細菌（白喉桿菌）或嚴重病毒感染引起，Azelastine 對過敏來源的偽膜性結膜炎具理論機轉，但缺乏任何直接臨床證據支持此特定亞型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "serous conjunctivitis except viral",
+      "txgnn": {
+        "score": 0.945736050605774,
+        "rank": 27651
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "漿液性結膜炎若為過敏或化學刺激性來源，H1 拮抗機轉具理論意義，但 ICD 分類的『排除病毒性』定義涵蓋多元病因，無足夠特異性支持 Azelastine 的針對性使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "conjunctival folliculosis",
+      "txgnn": {
+        "score": 0.945736050605774,
+        "rank": 27652
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "結膜濾泡症主要與淋巴組織增生相關，常見於兒童腺病毒感染或慢性毒性刺激；H1 拮抗機轉在此無顯著理論支持。TxGNN 預測可能基於結膜解剖位置的共同圖網路特徵。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "chronic follicular conjunctivitis",
+      "txgnn": {
+        "score": 0.945736050605774,
+        "rank": 27653
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性濾泡性結膜炎病因包括砂眼披衣菌感染、毒性藥物反應或慢性病毒感染；抗組織胺機轉不涵蓋主要致病途徑。PMID 33180014 顯示 Azelastine 體外可抑制 Chlamydia trachomatis 發展，提供微弱間接機轉假說，但屬體外數據，不足以支持臨床決策。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "parasitic conjunctivitis",
+      "txgnn": {
+        "score": 0.945736050605774,
+        "rank": 27654
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "寄生蟲性結膜炎（如 Loiasis、Onchocerciasis）需要抗寄生蟲治療；Azelastine 無抗寄生蟲活性，但可緩解寄生蟲引發的嗜酸球性發炎反應（肥大細胞穩定效果）。機轉僅涵蓋症狀管理，非根本治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "conjunctivitis",
+      "txgnn": {
+        "score": 0.9114506244659424,
+        "rank": 33526
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04299399",
+            "title": "Corneal Biomechanical Changes and Related Risk Prediction in Allergic Conjunctivitis",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2019-11-10",
+            "completion_date": "2021-06-30",
+            "brief_summary": "By measuring and comparing the corneal biomechanical parameters of normal people, patients with allergic conjunctivitis, keratoconus, whether allergic conjunctivitis causes changes in corneal biomechanics can be explored, and sensitive mechanical indicators of allergic conjunctivitis can be identified. Furthermore, through rubbing frequency, ocular allergic symptom scores and physical sign scores observation, corneal morphological parameters, corneal epithelial thickness, tear inflammatory cytok",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02131051",
+            "title": "Non-interventional Study: Application of Ectoin® Rhinitis Nasal Spray and Eye Drops in Patients With Allergic Rhinitis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2010-06",
+            "completion_date": "2010-09",
+            "brief_summary": "This is a comparative, open label, parallel group, non interventional study to further demonstrate the effectiveness and tolerability of Ectoin Allergy Nasal Spray and Eye drops. In addition the effectiveness and safety shall be compared to Azelastine containing nasal Sprays and Eye drops. The patient applied Ectoin® Rhinitis Nasal Spray / Eye drops or takes Azelastine nasals spray and eye drops according to the instructions for use. The observation takes place over a period of 7 days. Response ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06212973",
+            "title": "A Phase 3, Multicenter, Randomized, Double-masked, Active Controlled Study to Evaluate the Efficacy and Safety of Epinastine Hydrochloride Eye Drops 0.05% in the Treatment of Chinese Seasonal Allergic Conjunctivitis Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 266,
+            "start_date": "2023-03-13",
+            "completion_date": "2023-11-02",
+            "brief_summary": "The goal of this multicenter, randomized, double-blind, active control, non-inferiority clinical trial is to evaluate the efficacy of epinastine hydrochloride eye drops for the treatment of seasonal allergic conjunctivitis using azelastine hydrochloride eye drops as a positive control in Chinese patients. The main question it aims to answer are:\n\n• Is the efficacy for of epinastine hydrochloride eye drops for the treatment of seasonal allergic conjunctivitis non-inferior to azelastine hydrochlor",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06800274",
+            "title": "A Randomized, Single-Blind Clinical Investigation to Compare the Efficacy and Safety of N-Acetyl-Aspartyl-Glutamate (NAAGA) Versus Azelastine Eye Drops in Patients With Allergic Conjunctivitis Associated With Tear Film Dysfunction",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 134,
+            "start_date": "2023-04-21",
+            "completion_date": "2024-03-28",
+            "brief_summary": "This randomized, single-blind study aims to compare the efficacy and safety of N-acetyl-aspartyl-glutamate (NAAGA) and azelastine hydrochloride eye drops in patients with allergic conjunctivitis associated with tear film dysfunction. A total of 134 atopic patients with mild-to-moderate tear film dysfunction were included. Participants were randomly assigned to receive either NAAGA (49 mg/mL, four times daily) or azelastine (0.05%, twice daily) for four weeks. The primary endpoint is the change i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05042830",
+            "title": "Contribution of Local Nasal IgE Production to the Boost of Systemic Allergen-specific IgE Production Upon Nasal Allergen Contact - an Explorative Pilot Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2021-11-11",
+            "completion_date": "2026-09",
+            "brief_summary": "IgE-associated allergies are consistently on the rise forming an enormous wellbeing concern and affecting about 25% of the population around the world, with main prevalence in developed nations. Birch pollen is one important allergen driving allergic conjunctivitis and rhinitis. The characteristics and location IgE producing cells in the nose and their contribution to the subsequent increase in allergen-specific IgE levels in the serum have so far poorly been investigated. Understanding these me",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40152721",
+            "title": "Treatment of allergic rhinitis and allergic conjunctivitis.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2025",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15631542",
+            "title": "Efficacy and tolerability of newer antihistamines in the treatment of allergic conjunctivitis.",
+            "authors": [
+              "Bielory Leonard",
+              "Lien Kenneth W",
+              "Bigelsen Steve"
+            ],
+            "journal": "Drugs",
+            "year": "2005",
+            "abstract": "Treatment for allergic conjunctivitis has markedly expanded in recent years, providing opportunities for more focused therapy, but often leaving both physicians and patients confused over the variety of options. As monotherapy, oral antihistamines are an excellent choice when attempting to control multiple early-phase, and some late-phase, allergic symptoms in the eyes, nose and pharynx. Unfortunately, despite their efficacy in relief of allergic symptoms, systemic antihistamines may result in u",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12658084",
+            "title": "Efficacy and safety of topical azelastine compared with topical mitomycin C in patients with allergic conjunctivitis.",
+            "authors": [
+              "Sodhi Punita Kumari",
+              "Pandey Ravindra M",
+              "Ratan Simmi K"
+            ],
+            "journal": "Cornea",
+            "year": "2003",
+            "abstract": "To compare the efficacy and safety of topical azelastine with topical mitomycin C (MMC) in patients with allergic conjunctivitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40455383",
+            "title": "Clinical and Biological Evaluation of NAAGA Versus Azelastine Eye Drops in Patients with Allergic Conjunctivitis and Tear Film Dysfunction: A Randomized Controlled Trial.",
+            "authors": [
+              "Troisi Mario",
+              "Troisi Salvatore",
+              "Strianese Diego",
+              "Rinaldi Michele",
+              "Turco Maria Vittoria"
+            ],
+            "journal": "Ophthalmology and therapy",
+            "year": "2025",
+            "abstract": "Allergic conjunctivitis is a common ocular condition characterized by discomfort, itching, and redness, which significantly impacts quality of life. Its frequent overlap with dry eye disease (DED) complicates diagnosis and management, as both conditions share inflammation and tear film dysfunction as underlying mechanisms. Effective treatments must address both the inflammatory and tear film aspects of these conditions. While traditional therapies include antihistamines and mast cell stabilizers",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12841925",
+            "title": "Topical azelastine in perennial allergic conjunctivitis.",
+            "authors": [
+              "Canonica G W",
+              "Ciprandi G",
+              "Petzold U",
+              "Kolb C",
+              "Ellers-Lenz B"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "2003",
+            "abstract": "Azelastine is a selective H(1)-receptor antagonist that inhibits histamine release and interferes with activation of several other mediators of allergic inflammation. Together with demonstrated efficacy in seasonal allergic conjunctivitis, azelastine indicated a therapeutic potential for perennial allergic conjunctivitis (PAC). The present study aimed to evaluate azelastine eye drops in patients with PAC compared to placebo.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19668586",
+            "title": "Management of allergic conjunctivitis: an evaluation of the perceived comfort and therapeutic efficacy of olopatadine 0.2% and azelastine 0.05% from two prospective studies.",
+            "authors": [
+              "Epstein Arthur B",
+              "Van Hoven Peter T",
+              "Kaufman Alan",
+              "Carr Warner W"
+            ],
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2009",
+            "abstract": "Results from 2 patient-reported outcome studies of allergic conjunctivitis sufferers who used olopatadine 0.2% and azelastine 0.05% are analyzed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33180014",
+            "title": "Maraviroc, celastrol and azelastine alter Chlamydia trachomatis development in HeLa cells.",
+            "authors": [
+              "Kuratli Jasmin",
+              "Leonard Cory Ann",
+              "Nufer Lisbeth",
+              "Marti Hanna",
+              "Schoborg Robert"
+            ],
+            "journal": "Journal of medical microbiology",
+            "year": "2020",
+            "abstract": "Introduction . Chlamydia trachomatis (Ct) is an obligate intracellular bacterium, causing a range of diseases in humans. Interactions between chlamydiae and antibiotics have been extensively studied in the past.Hypothesis/Gap statement: Chlamydial interactions with non-antibiotic drugs have received less attention and warrant further investigations. We hypothesized that selected cytokine inhibitors would alter Ct growth characteristics in HeLa cells.Aim. To investigate potential interactions bet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26028608",
+            "title": "Topical antihistamines and mast cell stabilisers for treating seasonal and perennial allergic conjunctivitis.",
+            "authors": [
+              "Castillo Mayret",
+              "Scott Neil W",
+              "Mustafa Mohammad Z",
+              "Mustafa Mohammed S",
+              "Azuara-Blanco Augusto"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "abstract": "Seasonal/perennial allergic conjunctivitis is the most common allergic conjunctivitis, usually with acute manifestations when a person is exposed to allergens and with typical signs and symptoms including itching, redness, and tearing. The clinical signs and symptoms of allergic conjunctivitis are mediated by the release of histamine by mast cells. Histamine antagonists (also called antihistamines) inhibit the action of histamine by blocking histamine H1 receptors, antagonising the vasoconstrict",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12841924",
+            "title": "Comparison of the efficacy and tolerability of topically administered azelastine, sodium cromoglycate and placebo in the treatment of seasonal allergic conjunctivitis and rhino-conjunctivitis.",
+            "authors": [
+              "James I G V",
+              "Campbell L M",
+              "Harrison J M",
+              "Fell P J",
+              "Ellers-Lenz B"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "2003",
+            "abstract": "Azelastine (AZE) in a novel, eye drop, formulation, was compared with topically applied sodium cromoglycate (SCG) and placebo (PLA) in the treatment of seasonal allergic conjunctivitis or rhino-conjunctivitis in a multicentre, parallel group study.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33848281",
+            "title": "Drugs for allergic rhinitis and allergic conjunctivitis.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8612470",
+            "title": "Levocabastine. An update of its pharmacology, clinical efficacy and tolerability in the topical treatment of allergic rhinitis and conjunctivitis.",
+            "authors": [
+              "Noble S",
+              "McTavish D"
+            ],
+            "journal": "Drugs",
+            "year": "1995",
+            "abstract": "Levocabastine is a potent and selective histamine H1-receptor antagonist which has been evaluated as a topical treatment (nasal spray and/or eyedrops) for allergic rhinitis and/or conjunctivitis. Data available at the time of the previous review in Drugs, together with more recent results, have clearly demonstrated that levocabastine nasal spray and eyedrops are clinically effective, have a rapid onset of action and are well tolerated in patients with nasal and/or ocular allergic conditions. Pre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15175148",
+            "title": "Ocular allergy treatment comparisons: azelastine and olopatadine.",
+            "authors": [
+              "Bielory Leonard",
+              "Buddiga Praveen",
+              "Bigelson Stephen"
+            ],
+            "journal": "Current allergy and asthma reports",
+            "year": "2004",
+            "abstract": "Azelastine hydrochloride 0.05% and olopatadine hydrochloride 0.1% are topical ocular allergy treatments that have demonstrated multiple pharmacologic actions, including antihistamine, mast cell stabilization, and inhibition of proinflammatory mediators. In this article, the mechanisms of action, efficacy, and tolerability of these two agents on ocular signs and symptoms are examined. By studying the various target sites of drug action, an enhanced clinical response algorithm of these topical ocu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9061218",
+            "title": "Azelastine eye drops reduce and prevent allergic conjunctival reaction and exert anti-allergic activity.",
+            "authors": [
+              "Ciprandi G",
+              "Buscaglia S",
+              "Catrullo A",
+              "Pesce G",
+              "Fiorino N"
+            ],
+            "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+            "year": "1997",
+            "abstract": "Azelastine is a selective H1-receptor antagonist, which has previously been demonstrated to be effective in the treatment of allergic rhinitis. We have recently demonstrated that nasal azelastine inhibits the clinical and inflammatory events following nasal allergen challenge. Particularly, we focused our attention on ICAM-1 expression on epithelial cells, since it is the natural ligand of LFA-1, an adhesion molecule expressed by leucocytes, including eosinophils.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11097587",
+            "title": "Evaluation of the onset and duration of effect of azelastine eye drops (0.05%) versus placebo in patients with allergic conjunctivitis using an allergen challenge model.",
+            "authors": [
+              "Friedlaender M H",
+              "Harris J",
+              "LaVallee N",
+              "Russell H",
+              "Shilstone J"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2000",
+            "abstract": "The trial evaluated the effectiveness of the investigational antihistaminic and antiallergic compound Azelastine Eye Drops (AZE) in the treatment of allergic conjunctivitis using an allergen challenge model.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34604246",
+            "title": "Combination of 0.05% Azelastine and 0.1% Tacrolimus Eye Drops in Children With Vernal Keratoconjunctivitis: A Prospective Study.",
+            "authors": [
+              "Chen Minjie",
+              "Wei Anji",
+              "Ke Bilian",
+              "Zou Jun",
+              "Gong Lan"
+            ],
+            "journal": "Frontiers in medicine",
+            "year": "2021",
+            "abstract": "Aims: To compare the efficacy of the combination of 0. 05% azelastine and 0.1% tacrolimus eye drops with 0.1% tacrolimus monotherapy in pediatric patients with vernal keratoconjunctivitis (VKC). Methods: Prospective study. Seventy-six patients with VKC were randomized 1:1 into monotherapy group with 0.1% tacrolimus or combination therapy group with 0.1% tacrolimus and 0.05% azelastine. The Ocular Surface Disease Index (OSDI) scores and the signs of conjunctival hyperemia, corneal involvement, an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12705171",
+            "title": "Azelastine eye drops in the treatment of perennial allergic conjunctivitis.",
+            "authors": [
+              "Nazarov Ozod",
+              "Petzold Ursula",
+              "Haase Hans",
+              "Nguyen Duc Tung",
+              "Ellers-Lenz Barbara"
+            ],
+            "journal": "Arzneimittel-Forschung",
+            "year": "2003",
+            "abstract": "Azelastine (CAS 58581-89-8) is a selective H1-receptor antagonist that inhibits histamine release and interferes with activation of other mediators of allergic inflammation. The present double-blind study aimed to evaluate azelastine eye drops (Allergodil) in patients with perennial allergic conjunctivitis compared to placebo. A total of 116 patients with an ocular symptoms score for itching and conjunctival redness > or = 3 (0-6 scale) were randomized to twice-daily 0.05% azelastine eye drops t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35807160",
+            "title": "Combination Therapy of 0.1% Fluorometholone and 0.05% Azelastine in Eyes with Severe Allergic Conjunctival Diseases: A Randomized Controlled Trial.",
+            "authors": [
+              "Chen Minjie",
+              "Ke Bilian",
+              "Zou Jun",
+              "Gong Lan",
+              "Wang Yan"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2022",
+            "abstract": "This study sought to evaluate the efficacy of the isolated use of fluorometholone compared with the combined use of azelastine and fluorometholone for the treatment of severe allergic conjunctival disease (ACD). One hundred and eleven patients with severe ACD were randomized into two groups: one treated with topical 0.1% fluorometholone combined with 0.05% azelastine and the other with 0.1% fluorometholone alone. The Ocular Surface Disease Index (OSDI) and the signs of keratopathy, palpebral con",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9788686",
+            "title": "Azelastine eye-drops in seasonal allergic conjunctivitis or rhinoconjunctivitis. A double-blind, randomized, placebo-controlled study.",
+            "authors": [
+              "Giede-Tuch C",
+              "Westhoff M",
+              "Zarth A"
+            ],
+            "journal": "Allergy",
+            "year": "1998",
+            "abstract": "This study was carried out to assess the efficacy of 0.025% and 0.05% azelastine eye-drops in patients with seasonal allergic conjunctivitis of > or = 1 year's duration. A total of 151 patients received 0.025% or 0.05% azelastine eye-drops or placebo b.i.d. for 14 days according to a double-blind, randomized, placebo-controlled, parallel-dosing design; 129 patients completed the study as planned. The three target symptoms, scored on 4-point scales, were itching, lacrimation, and redness of the e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7911010",
+            "title": "Comparative efficacy of azelastine nasal spray and terfenadine in seasonal and perennial rhinitis.",
+            "authors": [
+              "Gastpar H",
+              "Nolte D",
+              "Aurich R",
+              "Brendt P",
+              "Enzmann H"
+            ],
+            "journal": "Allergy",
+            "year": "1994",
+            "abstract": "The efficacy and tolerability of intranasal azelastine (0.14 mg/nostril twice daily) and oral terfenadine (60 mg twice daily) were compared under double-blind conditions in two 6-week, multicenter, parallel-group studies, including 167 patients suffering from seasonal and 52 patients suffering from perennial allergic rhinitis. In both studies, patients were symptomatic on entry and showed significant improvement on both treatments within the first 8 d of therapy, showing little further improveme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9787982",
+            "title": "Azelastine eye drops in the treatment of seasonal allergic conjunctivitis or rhinoconjunctivitis in young children.",
+            "authors": [
+              "Sabbah A",
+              "Marzetto M"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "1998",
+            "abstract": "In a randomised, multicentre study, the effect of azelastine eye drops (n = 51 patients) was compared in a double-blind manner with placebo eye drops (n = 30 patients) and in an open manner with levocabastine eye drops (n = 32 patients) during a 14-day treatment period involving 113 children (aged 4 to 12 years) suffering from seasonal allergic conjunctivitis/rhinoconjunctivitis. The primary variable was the response rate defined as the number of patients showing an improvement after three days ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "acute hemorrhagic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "pseudomembranous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "pseudomembranous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "pseudomembranous conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "conjunctival folliculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "conjunctival folliculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "conjunctival folliculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azelastine",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

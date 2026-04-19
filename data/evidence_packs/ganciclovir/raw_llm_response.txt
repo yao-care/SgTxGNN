@@ -1,0 +1,493 @@
+## Ganciclovir (DB01004) 藥物再利用證據分析
+
+以下為各適應症的系統性評估結果：
+
+```json
+{
+  "drug": "Ganciclovir",
+  "drugbank_id": "DB01004",
+  "analysis_date": "2026-04-04",
+  "note": "Original indications listed as empty; market status '未上市' (Singapore). Ganciclovir is a nucleoside analogue that inhibits viral DNA polymerase (UL54), primarily targeting CMV via phosphorylation by viral kinase UL97.",
+  "indications": [
+    {
+      "disease_name": "cytomegalovirus pneumonia",
+      "txgnn_score": 0.9756,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ganciclovir 為 CMV DNA 聚合酶 (UL54) 競爭性抑制劑，由病毒激酶 UL97 磷酸化活化。CMV 肺炎之致病機轉直接對應 Ganciclovir 作用靶點，為最強機轉關聯。",
+      "clinical_summary": "具備 Phase 4 RCT (NCT02152358, n=317) 及 Phase 2/3 試驗 (NCT03915366, n=563) 直接證據，並有逾 30 年臨床文獻積累，屬確立性臨床用藥。",
+      "guardrails": [
+        "骨髓抑制（嗜中性白血球低下）需定期監測 CBC",
+        "腎功能不全需調整劑量（依 CrCl）",
+        "致畸胎/致突變風險，育齡患者需避孕",
+        "注意 UL97 突變導致之抗藥性（建議基因型檢測）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02152358",
+          "title": "Efficacy of Preemptive Treatment by Ganciclovir or Aciclovir in ICU Patients",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 317,
+          "relevance_grade": "A",
+          "reasoning": "直接比較 Ganciclovir vs Aciclovir 預防性治療於 ICU 患者，Phase 4 大型 RCT，最高直接相關性。設計涵蓋 CMV 肺炎高風險族群。"
+        },
+        {
+          "nct_id": "NCT03915366",
+          "title": "Empirical Treatment Against CMV and Tuberculosis in HIV-infected Infants With Severe Pneumonia",
+          "phase": "PHASE2/3",
+          "status": "COMPLETED",
+          "enrollment": 563,
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3，n=563，直接評估 CMV 經驗性治療於重症肺炎嬰兒，樣本數大，直接相關。"
+        },
+        {
+          "nct_id": "NCT04690933",
+          "title": "Real-life Observatory of Efficacy and Resistance to Anti CMV Molecules in Stem Cell Recipients",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 400,
+          "relevance_grade": "B",
+          "reasoning": "觀察性研究，n=400，提供真實世界抗 CMV 療效與抗藥性資料，包含肺炎相關族群，但非 RCT。"
+        },
+        {
+          "nct_id": "NCT05708755",
+          "title": "CMV T Cell Immunity and Antiviral Prophylaxis Minimization in Lung Transplant Recipients",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 50,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，肺移植受者之 CMV 預防策略最佳化，與 CMV 肺炎預防直接相關，但以預防為主。"
+        },
+        {
+          "nct_id": "NCT01199562",
+          "title": "Modified Preemptive CMV Management Strategy After Allogeneic HCT",
+          "phase": "N/A",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 153,
+          "relevance_grade": "B",
+          "reasoning": "異體造血幹細胞移植後 CMV 搶先治療策略，觀察性但族群高度相關（CMV 肺炎高風險）。"
+        },
+        {
+          "nct_id": "NCT00078533",
+          "title": "Virus Specific CTLs for CMV After Allogeneic Stem Cell Transplantation",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 26,
+          "relevance_grade": "C",
+          "reasoning": "以細胞治療（CTL）為主，非 Ganciclovir 直接療效評估，但提供 CMV 治療背景資訊。"
+        },
+        {
+          "nct_id": "NCT02109887",
+          "title": "CMV-specific ELISPOT Assay for Predicting CMV Co-infection in Pneumocystis Patients",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 76,
+          "relevance_grade": "C",
+          "reasoning": "診斷性研究，評估 ELISPOT 預測 CMV 共感染，間接支持 CMV 肺炎診斷管理，無治療評估。"
+        },
+        {
+          "nct_id": "NCT00000726",
+          "title": "Foscarnet Treatment of CMV Retinitis in AIDS Patients",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 53,
+          "relevance_grade": "C",
+          "reasoning": "評估 Foscarnet（非 Ganciclovir），適應症為 CMV 視網膜炎（非肺炎），相關性低。提供 CMV 治療比較背景。"
+        },
+        {
+          "nct_id": "NCT00141037",
+          "title": "Tacrolimus/Steroids/Daclizumab Induction in Transplant with CMV Management",
+          "phase": "PHASE1/2",
+          "status": "COMPLETED",
+          "enrollment": 130,
+          "relevance_grade": "C",
+          "reasoning": "移植免疫抑制方案試驗，CMV 管理為次要終點，與 Ganciclovir 療效評估相關性間接。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39774866",
+          "title": "What intensivists need to know about CMV infection in immunocompromised ICU patients",
+          "year": "2025",
+          "study_type": "Review/Clinical Guidance",
+          "tier": "1",
+          "note": "最新（2025）ICU CMV 感染管理指引性回顧，確認 Ganciclovir/Valganciclovir 為一線治療。"
+        },
+        {
+          "pmid": "8274605",
+          "title": "Prevention and treatment of cytomegalovirus pneumonia in transplant recipients",
+          "year": "1993",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "移植後 CMV 肺炎治療系統性回顧，確立 Ganciclovir + IVIG 聯合治療標準。"
+        },
+        {
+          "pmid": "8913411",
+          "title": "Cytomegalovirus prophylaxis and treatment following bone marrow transplantation",
+          "year": "1996",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "骨髓移植後 CMV 預防與治療指引，Ganciclovir 為核心藥物。"
+        },
+        {
+          "pmid": "2161731",
+          "title": "Ganciclovir: review of antiviral activity, pharmacokinetic properties and therapeutic efficacy",
+          "year": "1990",
+          "study_type": "Drug Review",
+          "tier": "1",
+          "note": "Ganciclovir 藥理與療效完整回顧，奠定 CMV 肺炎適應症科學基礎。"
+        },
+        {
+          "pmid": "8668848",
+          "title": "Cytomegalovirus pneumonia: presentation, diagnosis, and treatment",
+          "year": "1995",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "CMV 肺炎臨床完整回顧，Ganciclovir 為治療核心。"
+        },
+        {
+          "pmid": "2161510",
+          "title": "Treatment of severe CMV infection with ganciclovir and high-dose IVIG",
+          "year": "1990",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Ganciclovir + IVIG 治療重度 CMV 感染臨床研究，支持聯合治療策略。"
+        },
+        {
+          "pmid": "1965751",
+          "title": "CMV pneumonia after bone marrow transplantation: clinical and diagnostic aspects",
+          "year": "1990",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "骨髓移植後 CMV 肺炎臨床世代研究。"
+        },
+        {
+          "pmid": "37225488",
+          "title": "Primary CMV Pneumonia Successfully Treated with Corticosteroid Therapy and Valganciclovir",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "近期案例報告，Valganciclovir（Ganciclovir 前驅藥）合併類固醇治療原發性 CMV 肺炎成功。"
+        },
+        {
+          "pmid": "28888855",
+          "title": "CMV associated severe pneumonia, multi-organ failure and Ganciclovir associated arrhythmia",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "重要安全性提示：記錄 Ganciclovir 相關心律不整副作用，Guardrails 參考。"
+        },
+        {
+          "pmid": "8786764",
+          "title": "Ganciclovir",
+          "year": "1996",
+          "study_type": "Drug Review",
+          "tier": "1",
+          "note": "經典藥物回顧文獻，確立多 CMV 適應症療效。"
+        }
+      ]
+    },
+    {
+      "disease_name": "epidemic keratoconjunctivitis",
+      "txgnn_score": 0.9728,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "流行性角結膜炎由腺病毒（非 CMV）引起。Ganciclovir 對腺病毒有體外抑制活性，但機轉不同於 CMV（腺病毒無 UL97 同源激酶）。藥物需藉由其他激酶磷酸化，活性較弱，機轉關聯為間接且證據不充分。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "24511226",
+          "title": "Antiadenoviral effects of ganciclovir in types inducing keratoconjunctivitis",
+          "year": "2014",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "體外研究確認 Ganciclovir 對引起角結膜炎之腺病毒型別具抑制活性（IC50 數據），但無臨床轉化證據。"
+        },
+        {
+          "pmid": "35238405",
+          "title": "Topical pharmacologic interventions versus placebo for epidemic keratoconjunctivitis",
+          "year": "2022",
+          "study_type": "Systematic Review/Meta-Analysis",
+          "tier": "1",
+          "note": "Cochrane 系統性回顧，評估局部藥物療效，但 Ganciclovir 非主要評估藥物，整體證據品質低。"
+        },
+        {
+          "pmid": "36346478",
+          "title": "In Vitro efficacy of cyclosporine A and various antiseptics and antiviral drugs on adenovirus genotypes",
+          "year": "2023",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "體外比較多種藥物對腺病毒療效，Ganciclovir 為受測藥物之一，臨床相關性待確認。"
+        },
+        {
+          "pmid": "29044005",
+          "title": "Analysis on the treatment and prevention of epidemic conjunctivitis in 108 cases",
+          "year": "2017",
+          "study_type": "Retrospective Case Series",
+          "tier": "3",
+          "note": "108 例流行性結膜炎治療分析，提供臨床背景但設計強度不足。"
+        },
+        {
+          "pmid": "31111724",
+          "title": "Correlation between corneal involvement and anterior chamber flare in epidemic keratoconjunctivitis",
+          "year": "2020",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "note": "疾病病程觀察性研究，無 Ganciclovir 治療評估，相關性極低。"
+        }
+      ]
+    },
+    {
+      "disease_name": "commissural lip fistula",
+      "txgnn_score": 0.9713,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口角瘻管為口腔先天性或後天性結構異常，與病毒感染機轉無明確關聯。TxGNN 預測可能基於圖譜鄰近性，無生物學合理性支撐。無任何臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic disseminated cytomegalovirus infection",
+      "txgnn_score": 0.9707,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "病原直接為 CMV，Ganciclovir 機轉高度契合（DNA 聚合酶抑制）。雖本適應症無獨立臨床試驗，但 CMV 肺炎、CMV 視網膜炎等 CMV 器官疾病之間接證據可支持療效推斷。主要挑戰在於「特發性」定義及免疫功能評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_note": "本適應症之機轉合理性高，但缺乏針對性臨床試驗資料。建議參照 CMV 肺炎（L1）證據體系，升級為 S2 條件：需補充「特發性播散性 CMV 感染」之診斷標準及患者選擇依據。"
+    },
+    {
+      "disease_name": "burning mouth syndrome",
+      "txgnn_score": 0.9706,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "灼口症為神經性/心理性疾病，與 CMV 感染無確立之病因學關聯。部分假說涉及 HSV/VZV，但 Ganciclovir 對此二病毒活性弱（主要針對 CMV/HHV-6）。無任何支持性證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "oral leukoedema",
+      "txgnn_score": 0.9706,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口腔白水腫為口腔黏膜良性變異，病因為正常解剖變異或輕微刺激，與 CMV 感染機轉完全無關聯。TxGNN 高分預測可能為圖譜假陽性。無任何臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "osteoradionecrosis of the mandible",
+      "txgnn_score": 0.9706,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "下頷骨放射線性骨壞死為放射線治療後之缺血性骨組織損傷，與 CMV 抗病毒藥物機轉無直接關聯。無任何臨床或文獻證據。TxGNN 預測可能因知識圖譜中骨骼/口腔疾病節點群聚效應產生。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9694,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "點狀上皮角結膜炎多為眼表乾燥或毒性刺激導致，病毒性者主要為腺病毒或 HSV，並非 CMV。唯一文獻（PMID 7825685）為 AIDS 患者角膜脂質沉積，與 Ganciclovir 治療無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7825685",
+          "title": "Corneal lipidosis in patients with the acquired immunodeficiency syndrome",
+          "year": "1995",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "AIDS 患者角膜脂質沉積報告，與 Ganciclovir 治療點狀角結膜炎無直接關聯，相關性評估為不支持。"
+        }
+      ]
+    },
+    {
+      "disease_name": "oral candidiasis",
+      "txgnn_score": 0.9685,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口腔念珠菌病為真菌感染（Candida spp.），Ganciclovir 為抗病毒藥物，對真菌無活性。文獻共現係因 AIDS/免疫抑制族群中 CMV 與念珠菌共感染情境，屬流行病學相關而非治療關聯。臨床試驗 (NCT00090766) 為評估 Valganciclovir 抗 CMV 用途，非針對念珠菌。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00090766",
+          "title": "Safety and PK of Valganciclovir Syrup in Pediatric Solid Organ Transplant Recipients",
+          "phase": "PHASE2/3",
+          "status": "COMPLETED",
+          "enrollment": 63,
+          "relevance_grade": "C",
+          "reasoning": "評估 Valganciclovir 於小兒移植受者之安全性/藥動學（針對 CMV 預防），口腔念珠菌病僅為背景共病，非主要適應症評估。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3049365",
+          "title": "Odynophagia/dysphagia in AIDS",
+          "year": "1988",
+          "study_type": "Case Series/Review",
+          "tier": "3",
+          "note": "AIDS 吞嚥困難鑑別診斷（念珠菌/CMV/HSV），Ganciclovir 用於 CMV 食道炎，非念珠菌治療。"
+        },
+        {
+          "pmid": "12138345",
+          "title": "Safety study of oral valganciclovir maintenance treatment of CMV retinitis",
+          "year": "2002",
+          "study_type": "Clinical Trial Follow-up",
+          "tier": "2",
+          "note": "Valganciclovir 治療 CMV 視網膜炎安全性研究，口腔念珠菌病為記錄之不良事件背景，非治療目標。"
+        }
+      ]
+    },
+    {
+      "disease_name": "pneumonia",
+      "txgnn_score": 0.9661,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ganciclovir 對「一般性肺炎」（細菌性、黴漿菌性等）無抗菌活性。本項之臨床試驗與文獻幾乎全為 CMV 相關性肺炎之證據，「pneumonia」作為上位類別包含 CMV 肺炎子集，故繼承部分 L1 證據，但作為廣義適應症僅屬 L2。建議限定於免疫低下族群之 CMV 相關性肺炎，與上方 cytomegalovirus pneumonia 適應症合併評估。",
+      "population_restriction": "僅適用於：(1) 免疫低下患者（器官移植、造血幹細胞移植、HIV/AIDS、長期免疫抑制劑使用）；(2) 具 CMV 血症或 CMV 肺炎確診/高度懷疑；不適用於一般社區性肺炎",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02152358",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，直接評估 ICU 肺炎患者之 Ganciclovir 預防性治療，最高相關性。"
+        },
+        {
+          "nct_id": "NCT03915366",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3，HIV 嬰兒重症肺炎 CMV 經驗性治療，直接相關。"
+        },
+        {
+          "nct_id": "NCT04690933",
+          "relevance_grade": "B",
+          "reasoning": "觀察性，幹細胞移植受者 CMV 治療真實世界數據，包含肺炎族群。"
+        },
+        {
+          "nct_id": "NCT05708755",
+          "relevance_grade": "B",
+          "reasoning": "肺移植 CMV 預防，與肺炎預防相關。"
+        },
+        {
+          "nct_id": "NCT01199562",
+          "relevance_grade": "B",
+          "reasoning": "造血幹細胞移植後 CMV 搶先治療，肺炎高風險族群管理。"
+        },
+        {
+          "nct_id": "NCT00078533",
+          "relevance_grade": "C",
+          "reasoning": "細胞治療研究，非 Ganciclovir 直接療效。"
+        },
+        {
+          "nct_id": "NCT02109887",
+          "relevance_grade": "C",
+          "reasoning": "診斷性研究（ELISPOT），無治療評估。"
+        },
+        {
+          "nct_id": "NCT00000726",
+          "relevance_grade": "C",
+          "reasoning": "Foscarnet 治療 CMV 視網膜炎，非肺炎、非 Ganciclovir。"
+        },
+        {
+          "nct_id": "NCT00141037",
+          "relevance_grade": "C",
+          "reasoning": "移植免疫抑制方案，CMV 為次要管理目標。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8786764",
+          "study_type": "Drug Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "32957408",
+          "title": "Tanreqing Injection combined with ganciclovir for respiratory syncytial virus pneumonia",
+          "year": "2020",
+          "study_type": "RCT (Chinese)",
+          "tier": "2",
+          "note": "評估 Ganciclovir 合併中藥治療 RSV 肺炎，提示非 CMV 肺炎之延伸潛力，但研究品質待審查。"
+        },
+        {
+          "pmid": "8668848",
+          "study_type": "Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "9371316",
+          "study_type": "Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "2847610",
+          "study_type": "Clinical Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "2847609",
+          "study_type": "Clinical Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "2177441",
+          "study_type": "Clinical Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "1338089",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "2161510",
+          "study_type": "Clinical Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "28888855",
+          "study_type": "Case Report",
+          "tier": "3"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|-------------|---------|---------|------|
+| cytomegalovirus pneumonia | 0.9756 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| epidemic keratoconjunctivitis | 0.9728 | L4 | S1 | 🔬 Research Question |
+| idiopathic disseminated CMV infection | 0.9707 | L4 | S1 | 🔬 Research Question |
+| pneumonia (general) | 0.9661 | L2 | S2 | ⚠️ Proceed with Guardrails (CMV限定) |
+| commissural lip fistula | 0.9713 | L5 | S0 | ❌ Hold |
+| burning mouth syndrome | 0.9706 | L5 | S0 | ❌ Hold |
+| oral leukoedema | 0.9706 | L5 | S0 | ❌ Hold |
+| osteoradionecrosis of mandible | 0.9706 | L5 | S0 | ❌ Hold |
+| punctate epithelial keratoconjunctivitis | 0.9694 | L5 | S0 | ❌ Hold |
+| oral candidiasis | 0.9685 | L5 | S0 | ❌ Hold |
+
+---
+
+## 🔍 關鍵分析洞察
+
+### 1. TxGNN 分數與證據等級之解離
+本資料集呈現典型「高預測分數 ≠ 高臨床證據」現象：9 項適應症中 7 項為 L5（僅預測），口腔類疾病群（commissural lip fistula / burning mouth syndrome / oral leukoedema / osteoradionecrosis）可能因 KG 中口腔疾病節點群聚效應產生系統性假陽性。
+
+### 2. 核心適應症確認
+**CMV 肺炎** 為 Ganciclovir 確立性臨床用途，具有最強機轉關聯（UL97 → UL54 磷酸化抑制路徑）及 Phase 4 RCT 支持，評定 L1/S3 屬最保守評估。新加坡「未上市」狀態顯示此為市場准入而非療效問題。
+
+### 3. 值得追蹤的研究方向
+**epidemic keratoconjunctivitis**（流行性角結膜炎）雖為 L4，但體外抗腺病毒活性（PMID 24511226, 2014）及 2022 Cochrane 回顧顯示目前無效局部療法，存在未滿足醫療需求，具 Investigator-Initiated Trial 設計潛力（眼部局部給藥可降低全身毒性顧慮）。

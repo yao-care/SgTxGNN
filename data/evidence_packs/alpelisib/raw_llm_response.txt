@@ -1,0 +1,330 @@
+```json
+{
+  "drug": "Alpelisib",
+  "drugbank_id": "DB12015",
+  "analysis_date": "2026-04-05",
+  "note": "Alpelisib (BYL719/Piqray) 為 PI3Kα 選擇性抑制劑，FDA 已核准用於 PIK3CA 突變 HR+/HER2- 乳癌及 PROS 症候群。市場狀態 '未上市' 可能反映特定市場（台灣/新加坡）現況。",
+  "indications": [
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9903,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PI3Kα/AKT/mTOR 訊號通路參與肺動脈平滑肌細胞增殖與血管重塑，理論上具機轉關聯；但現有文獻顯示 Alpelisib 對肺部主要為不良事件（ILD），並非治療效益。PI3Kβ/γ isoforms 在 PAH 中的作用可能更關鍵。",
+      "red_flags": [
+        "PMID 35730191 描述 Alpelisib 誘發間質性肺疾病（ILD），顯示肺部毒性風險",
+        "PMID 31039672 顯示 PI3Kα 抑制合併 Doxorubicin 導致雙心室萎縮，心肺安全疑慮明顯"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06705504",
+          "title": "Real-world Effectiveness and Safety in HR+/HER2- Advanced or Metastatic BC Patients Treated With Rib",
+          "relevance_grade": "C",
+          "reasoning": "此試驗為 HR+/HER2- 乳癌真實世界研究，與肺動脈高壓無關。試驗設計、族群及終點均不適用於此適應症評估。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35730191",
+          "title": "Alpelisib induced interstitial lung disease in a patient with advanced breast cancer",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "不良事件報告，顯示 Alpelisib 具肺毒性風險，與治療 PAH 方向相反"
+        },
+        {
+          "pmid": "31039672",
+          "title": "PI3Kα Pathway Inhibition With Doxorubicin Treatment Results in Distinct Biventricular Atrophy",
+          "year": "2019",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": "3",
+          "note": "心肺毒性機轉研究，顯示 PI3Kα 抑制可能加重心臟損傷，不支持 PAH 治療用途"
+        }
+      ],
+      "evidence_summary": "無任何支持性臨床試驗或文獻；現有數據反而指向肺部及心臟不良反應風險。TxGNN 高分純屬圖神經網路預測，缺乏臨床驗證基礎。"
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PI3K/mTOR 訊號路徑理論上涉及皮質擴延性去極化（CSD）調控與神經元興奮性，且癲癇與偏頭痛在遺傳機轉上有部分重疊；但 Alpelisib 用於偏頭痛無任何直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "討論癲癇與偏頭痛共享機轉的綜述，未提及 Alpelisib"
+        },
+        {
+          "pmid": "17460155",
+          "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q",
+          "year": "2007",
+          "study_type": "Genetic Study",
+          "tier": "3",
+          "note": "染色體連鎖研究，與 PI3K 抑制劑無直接關聯"
+        },
+        {
+          "pmid": "34575901",
+          "title": "Selected Molecular Targets for Antiepileptogenesis",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "抗癲癇分子靶點綜述，間接提及 PI3K/mTOR 通路，但非偏頭痛特異性"
+        }
+      ],
+      "evidence_summary": "20 篇文獻均為癲癇/偏頭痛遺傳學與機轉背景文獻，無一涉及 Alpelisib 在偏頭痛的臨床應用。高文獻數量實為 TxGNN 圖結構中偏頭痛-癲癇節點鄰近效應，非實質證據。"
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同 'migraine with or without aura'，PI3K/mTOR 在偏頭痛中的理論作用，惟缺乏任何直接臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻，純 TxGNN 預測。建議與 'migraine with or without aura' 合併評估，均為 S0 Hold。"
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9886,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後凸側彎性心臟病主要為機械性限制型心臟病（肺心病），PI3Kα 抑制在此病生理無合理機轉連結。推測 TxGNN 係透過心臟重塑通路節點產生高分，但無生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻；機轉合理性極低。此為圖神經網路假陽性預測的典型案例。"
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9875,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PI3K/AKT 通路參與免疫細胞活化（T細胞、B細胞、巨噬細胞）。但 Alpelisib 為 PI3Kα 選擇性抑制劑，而 RA 的 PI3K 靶點主要為 PI3Kδ（淋巴細胞）和 PI3Kγ（嗜中性球/單核球），isoform 選擇性不符。PI3Kδ 抑制劑（如 Idelalisib）在自身免疫疾病研究較具合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32066498",
+          "title": "The paradox of cancer genes in non-malignant conditions: implications for precision medicine",
+          "year": "2020",
+          "study_type": "Conceptual Review",
+          "tier": "3",
+          "note": "概念性文章，討論癌症基因在非惡性疾病中的作用，間接提及 PIK3CA 在 RA 等非腫瘤疾病的可能角色；僅為理論性依據"
+        }
+      ],
+      "evidence_summary": "僅一篇概念性綜述提供非常間接的 PIK3CA-RA 關聯。關鍵障礙：Alpelisib 的 PI3Kα 選擇性與 RA 免疫調控所需的 δ/γ isoforms 不匹配，換藥設計風險高。"
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9869,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PI3K 信號在麻風分枝桿菌感染的宿主免疫逃逸機制中有理論性角色（巨噬細胞吞噬體成熟調控），但 Alpelisib 為 PI3Kα 選擇性，對感染免疫的 PI3Kγ/δ 通路影響有限；無任何臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻，純 TxGNN 預測。機轉合理性低，不建議列入優先研究議程。"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9868,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛涉及腦幹 CSD 機轉，PI3K/mTOR 在腦幹神經元調控的理論角色極為間接；無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻，與 'migraine disorder' 同為 L5。偏頭痛三個亞型均建議 Hold。"
+    },
+    {
+      "disease_name": "thrombotic disease",
+      "txgnn_score": 0.9856,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PI3K 通路在血小板活化中具重要角色：PI3Kβ 調控 GPIb/GPVI 訊號，PI3Kγ 調控整合素活化。然而 Alpelisib 為 PI3Kα 選擇性，對血小板功能的直接作用有限。現有文獻主要描述 PI3K 抑制在血管畸形（PROS、HHT）的療效，與血栓性疾病病生理機轉不同。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38880808",
+          "title": "Targeted therapy for capillary-venous malformations",
+          "year": "2024",
+          "study_type": "Review/Case Series",
+          "tier": "2",
+          "note": "探討 PI3K 抑制劑治療毛細血管-靜脈畸形，涉及血管內皮 PI3Kα 活化（PIK3CA 突變），提供間接機轉依據；但血管畸形≠血栓性疾病"
+        },
+        {
+          "pmid": "31903879",
+          "title": "Isoform-Selective PI3K Inhibitors for Various Diseases",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "涵蓋各 PI3K isoform 抑制劑在血栓、腫瘤、免疫等疾病的應用，提及 PI3Kβ 在血栓中的角色，間接佐證 PI3Kα（Alpelisib）在血栓的侷限性"
+        },
+        {
+          "pmid": "35343049",
+          "title": "A precision medicine approach to hereditary hemorrhagic telangiectasia and complex vascular anomalies",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "精準醫學應用於 HHT 和血管畸形，涉及 PIK3CA 通路，機轉間接相關"
+        }
+      ],
+      "evidence_summary": "三篇文獻均聚焦血管畸形（PROS/HHT）而非血栓性疾病；PI3K 抑制劑的血栓相關研究以 PI3Kβ 抑制為主，Alpelisib 的 α 選擇性為關鍵機轉障礙。建議重新分類至「血管畸形」適應症評估。"
+    },
+    {
+      "disease_name": "amyotrophic lateral sclerosis",
+      "txgnn_score": 0.9840,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PI3K/AKT/mTOR 通路在神經元存活和自噬調控中具角色；mTOR 過度活化與 ALS 病生理有關聯的理論研究。但 Alpelisib 無 ALS 相關前臨床或臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻，純 TxGNN 預測。ALS 病生理極為複雜，PI3Kα 抑制的療效假說缺乏實驗基礎。"
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn_score": 0.9838,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PIK3CA 突變在多種內分泌腫瘤中均有報告（甲狀腺濾泡癌、副甲狀腺腺瘤、胰臟神經內分泌腫瘤）。PI3K/AKT/mTOR 通路在 MEN 相關腫瘤（尤其 MEN1 胰臟 NETs、MEN2 甲狀腺髓樣癌）中高度活化。Alpelisib 的 PIK3CA 靶向機轉在 PIK3CA 突變型內分泌腫瘤中具生物學合理性，且 SOLAR-1 Phase 3 確立 PI3Kα 抑制在 PIK3CA 突變實體腫瘤的治療概念。",
+      "caveats": [
+        "MEN1（menin 突變）和 MEN2（RET 突變）的主要驅動基因非 PIK3CA，PI3K 通路為次要/協同通路",
+        "NCT01708161（solid tumors Phase 1b/2）已終止，數據有限",
+        "多數試驗為乳癌設計，腫瘤微環境與激素受體背景差異大"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02437318",
+          "title": "A Phase III Randomized Double-blind, Placebo Controlled Study of Alpelisib in Combination With Fulvestrant (SOLAR-1)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 572,
+          "relevance_grade": "B",
+          "reasoning": "SOLAR-1 確立 Alpelisib 在 PIK3CA 突變實體腫瘤的 Phase 3 療效概念（ORR 26.6% vs 12.8%，PFS 延長），提供強大的間接支持；但適應症為 HR+/HER2- 乳癌，非 MEN，僅作為機轉驗證依據。"
+        },
+        {
+          "nct_id": "NCT01708161",
+          "title": "A Phase Ib/II Study of the Combination of BYL719 Plus AMG 479 in Adult Patients With Selected Solid Tumors",
+          "phase": "PHASE1, PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 47,
+          "relevance_grade": "B",
+          "reasoning": "涵蓋多種實體腫瘤（'selected solid tumors'）可能包含內分泌腫瘤；Phase 1b/2 設計提供安全性與初步療效數據；但試驗終止且樣本數僅 47，數據有限。"
+        },
+        {
+          "nct_id": "NCT05564377",
+          "title": "Molecular Analysis for Combination Therapy Choice (ComboMATCH)",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 2900,
+          "relevance_grade": "B",
+          "reasoning": "籃型試驗（basket trial）按分子標誌（含 PIK3CA 突變）分層，可能涵蓋 MEN 相關腫瘤；2900 患者規模提供跨腫瘤型別的 PI3Kα 抑制療效數據，具有潛在的間接相關性。"
+        },
+        {
+          "nct_id": "NCT04729387",
+          "title": "EPIK-O Phase III (HR+/HER2- breast cancer)",
+          "phase": "PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 358,
+          "relevance_grade": "C",
+          "reasoning": "乳癌特定試驗，適應症不同，對 MEN 無直接參考價值。"
+        },
+        {
+          "nct_id": "NCT05631795",
+          "title": "ALPINIST Phase IV India Safety Study",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "乳癌安全性研究，與 MEN 無關。"
+        },
+        {
+          "nct_id": "NCT04967248",
+          "title": "Alpelisib PASS Safety Study",
+          "phase": "N/A",
+          "status": "TERMINATED",
+          "enrollment": 4,
+          "relevance_grade": "C",
+          "reasoning": "安全性觀察研究且提前終止（僅 4 人），無療效數據，對 MEN 無參考價值。"
+        },
+        {
+          "nct_id": "NCT06705504",
+          "title": "Real-world BC study",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 435,
+          "relevance_grade": "C",
+          "reasoning": "乳癌真實世界研究，與 MEN 無關。"
+        },
+        {
+          "nct_id": "NCT02058381",
+          "title": "Phase Ib: Tamoxifen + Goserelin + Alpelisib",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "乳癌 Phase 1 試驗，與 MEN 無關。"
+        },
+        {
+          "nct_id": "NCT04300790",
+          "title": "Study to Evaluate Metformin in Prevention of Hyperglycemia with Alpelisib",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 69,
+          "relevance_grade": "C",
+          "reasoning": "代謝不良反應管理研究（高血糖預防），與 MEN 療效無關；但提供安全性管理參考。"
+        }
+      ],
+      "literature_analysis": [],
+      "evidence_summary": "主要依據來自 SOLAR-1 Phase 3 確立的 PIK3CA 突變實體腫瘤 Alpelisib 療效概念（間接 Grade B 證據）及 Phase 1b/2 固態腫瘤試驗（已終止）。MEN 相關內分泌腫瘤（胰臟 NETs、甲狀腺分化癌）中 PIK3CA 突變率約 10-20%，為潛在可篩選族群。建議進入 S1 安全性初評，並探索 PIK3CA 突變型 MEN 相關腫瘤的 Basket Trial 設計可行性。"
+    }
+  ],
+  "overall_assessment": {
+    "highest_priority": "multiple_endocrine_neoplasia",
+    "rationale": "唯一達到 L3/S1 的適應症，具有 PIK3CA 突變生物標誌篩選的精準醫療潛力，且有 SOLAR-1 Phase 3 間接支持機轉。",
+    "secondary_consideration": "thrombotic_disease（血管畸形子群）- 建議重新分類為 PIK3CA 相關血管異常（PROS）評估，文獻支持度高於血栓疾病本身。",
+    "pattern_alert": "偏頭痛三個亞型（migraine disorder / with aura / with brainstem aura）均為 L5，可能反映 TxGNN 圖結構中偏頭痛-神經系統-PIK3CA 的間接連結，建議在未來模型訓練中加入臨床背景過濾。",
+    "data_quality_note": "market_status '未上市' 與 Alpelisib（Piqray）2019 年 FDA 核准及 2022 年 PROS 核准不一致，建議核實資料來源市場範疇（可能為台灣 / 新加坡特定市場）。"
+  }
+}
+```
+
+---
+
+## 📊 證據等級摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| pulmonary hypertension | 0.990 | **L5** ⚠️ | S0 | Hold |
+| migraine with/without aura | 0.989 | **L5** | S0 | Hold |
+| migraine disorder | 0.989 | **L5** | S0 | Hold |
+| kyphoscoliotic heart disease | 0.989 | **L5** | S0 | Hold |
+| rheumatoid arthritis | 0.988 | **L4** | S0 | Hold |
+| leprosy | 0.987 | **L5** | S0 | Hold |
+| migraine with brainstem aura | 0.987 | **L5** | S0 | Hold |
+| thrombotic disease | 0.986 | **L4** | S0 | Hold |
+| amyotrophic lateral sclerosis | 0.984 | **L5** | S0 | Hold |
+| **multiple endocrine neoplasia** | 0.984 | **L3** ✅ | **S1** | **Research Question** |
+
+---
+
+## 🔑 關鍵發現
+
+1. **TxGNN 高分 ≠ 臨床證據**：分數最高的 PAH（0.990）實為最缺乏支持的適應症，且文獻顯示肺毒性風險
+
+2. **Isoform 選擇性障礙**：Alpelisib 的 **PI3Kα** 選擇性對 RA（需要 PI3Kδ/γ）和血栓疾病（需要 PI3Kβ）均非最佳靶點
+
+3. **MEN 為唯一值得深入評估的適應症**：透過 PIK3CA 突變生物標誌篩選可定義可治療族群，SOLAR-1 確立的機轉在 PIK3CA 突變型內分泌腫瘤中具可轉移性
+
+4. **文獻數量陷阱**：偏頭痛 susceptibility 條目顯示 20 篇文獻，但全為癲癇/偏頭痛遺傳背景文章，零篇涉及 Alpelisib，此為 TxGNN 圖鄰近節點效應的典型誤導指標

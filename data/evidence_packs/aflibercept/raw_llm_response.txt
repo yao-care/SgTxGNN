@@ -1,0 +1,193 @@
+## 藥物再利用證據分析：Aflibercept (DB08885)
+
+### 背景說明
+
+Aflibercept（商品名 Eylea / Zaltrap）為 VEGF trap 機轉，本身在全球已有多項核准適應症（濕性 AMD、DME、視網膜靜脈阻塞、轉移性大腸直腸癌），但本資料集顯示 `original_indications: []`、`market_status: 未上市`，推測為特定市場（如新加坡）資料庫登錄缺漏，非代表無核准適應症。
+
+---
+
+```json
+{
+  "drug": "Aflibercept",
+  "drugbank_id": "DB08885",
+  "moa_note": "資料集標記 [Data Gap]，但 Aflibercept 為已知 VEGF trap：競爭性結合 VEGF-A、VEGF-B 及 PlGF，阻斷 VEGFR1/2 訊號，抑制病理性新生血管。此 MoA 為後續機轉評估基礎。",
+  "indications": [
+    {
+      "disease_name": "esotropia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內斜視（esotropia）為眼外肌失衡導致，與 VEGF 訊號無直接關聯。唯一可能的間接路徑：早產兒視網膜病變（ROP）相關性斜視，抗 VEGF 治療 ROP 後可能間接影響斜視發生率，但此屬繼發現象，非直接治療機轉。機轉連結極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "TxGNN 高分（0.994）可能源於知識圖譜中 ROP→斜視 的疾病共病路徑，但不構成直接治療依據。"
+    },
+    {
+      "disease_name": "esophageal varices with bleeding",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道靜脈曲張出血由門脈高壓驅動。VEGF 確實參與門脈高壓的內臟血管新生與擴張，理論上 VEGF 抑制可減少內臟血流量。但抗 VEGF 系統性用於門脈高壓尚無人體臨床證據，且靜脈曲張為結構性改變，單純 VEGF 抑制難以逆轉。安全疑慮：系統性 VEGF 抑制可能影響胃腸黏膜修復。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "僅 TxGNN 預測，無臨床支持。"
+    },
+    {
+      "disease_name": "esophageal varices without bleeding",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同「esophageal varices with bleeding」機轉分析。無出血型態理論風險稍低，但核心病理機轉相同（門脈高壓 + 側支循環建立），Aflibercept 無預防性使用的臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "僅 TxGNN 預測，無臨床支持。兩個食道靜脈曲張變體得分完全相同（0.9756），顯示 KG 中兩者節點特徵相同，為資料結構影響。"
+    },
+    {
+      "disease_name": "varicose disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "靜脈曲張涉及靜脈壁結構弱化與瓣膜功能不全，VEGF 過度表現確與靜脈壁重塑有關。然而 Aflibercept 為靜脈注射或玻璃體內注射製劑，在靜脈曲張治療上無遞送機制可行性，且無體靜脈系統抗 VEGF 治療的人體研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "僅 TxGNN 預測。藥物遞送路徑亦為重大障礙。"
+    },
+    {
+      "disease_name": "urethral calculus",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尿道結石（urolithiasis）主要由礦物質過飽和沉積引起，與 VEGF 訊號幾乎無生物學關聯。TxGNN 高分（0.960）疑似為知識圖譜雜訊或遠程共病路徑（如糖尿病腎病→結石）導致，而非直接機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "最弱機轉連結之一。建議列為 KG 預測誤報（false positive）候選，供模型校正參考。"
+    },
+    {
+      "disease_name": "adenosine deaminase deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADA 缺乏症（重症聯合免疫缺乏症 SCID）為嘌呤代謝酵素缺陷，Aflibercept 的 VEGF trap 機轉與嘌呤代謝路徑無直接交叉。雖有研究顯示 VEGF 在免疫調節中有一定角色，但此連結過於間接，不足以支持再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "孤兒病、機轉連結極弱。標準治療為 PEG-ADA 酵素替代或基因療法。"
+    },
+    {
+      "disease_name": "hemorrhagic disease of newborn",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒出血病（維生素 K 缺乏性出血，VKDB）為凝血因子活化障礙，與 VEGF 路徑完全無關。Aflibercept 之 VEGF 抑制機轉對凝血級聯反應無直接影響。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02537054",
+          "title": "Intravitreal Aflibercept (Eylea) for Therapy of Choroidal Neovascularization (CNV) and Fibrovascular",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 15,
+          "relevance_grade": "C",
+          "reasoning": "【資料匹配錯誤】此試驗研究的是玻璃體內 Aflibercept 治療脈絡膜新生血管（CNV）及纖維血管增殖，與『新生兒出血病』在疾病機轉、患者族群、給藥途徑上均完全不相關。該試驗被歸於此適應症，疑為證據收集系統的關鍵詞或 NLP 匹配錯誤（可能因 'hemorrhagic' 關鍵詞誤觸發）。此試驗不提升本適應症之證據等級。"
+        }
+      ],
+      "literature_analysis": [],
+      "assessment_note": "⚠️ 資料品質警示：NCT02537054 與本適應症不相關，為誤匹配。建議修正資料收集管道的疾病-試驗匹配邏輯。"
+    },
+    {
+      "disease_name": "ectomesenchymoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外胚間充質瘤（ectomesenchymoma）為極罕見混合性惡性腫瘤，含橫紋肌肉瘤及神經母細胞瘤成分。腫瘤血管新生（VEGF依賴）為理論機轉，但此類型腫瘤無抗 VEGF 治療的任何臨床資料。作為極罕見腫瘤，KG 節點度數低，TxGNN 分數可靠性較低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "極罕見腫瘤（全球記錄案例 < 100），缺乏任何臨床依據。"
+    },
+    {
+      "disease_name": "malignant cutaneous granular cell skin tumor",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性皮膚顆粒細胞瘤（Granular Cell Tumor, malignant）為神經鞘來源的極罕見腫瘤。腫瘤新生血管理論可連結 VEGF，但此腫瘤類型缺乏任何抗 VEGF 治療的前臨床或臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "極罕見腫瘤，預測可信度需謹慎解讀。"
+    },
+    {
+      "disease_name": "middle ear neuroendocrine tumor",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中耳神經內分泌腫瘤（含副神經節瘤/球瘤）為血管豐富腫瘤，VEGF 在其血管生成中扮演角色，理論上抗 VEGF 具抑制效果。但目前僅有零星個案報告使用 Bevacizumab（另一抗 VEGF 藥物），Aflibercept 於此適應症無任何臨床資料。機轉連結在此組中相對最強。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessment_note": "雖機轉合理，但證據缺失。若有 Bevacizumab 的間接類比，可考慮未來升級為 L4 研究問題。"
+    }
+  ],
+  "overall_summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_distribution": {
+      "S0": 10,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0
+    },
+    "data_quality_flags": [
+      {
+        "flag_type": "trial_mismatch",
+        "description": "NCT02537054（CNV 試驗）被誤歸至『hemorrhagic disease of newborn』適應症，建議審查臨床試驗匹配管道",
+        "affected_indication": "hemorrhagic disease of newborn"
+      },
+      {
+        "flag_type": "moa_data_gap",
+        "description": "原始資料 MoA 標記為 [Data Gap]，但 Aflibercept 為已核准藥物，其 VEGF trap 機轉有充分文獻支持，建議補全 DrugBank/OpenTargets 資料",
+        "affected_indication": "all"
+      },
+      {
+        "flag_type": "market_status_inconsistency",
+        "description": "市場狀態標記為『未上市』，但 Aflibercept 在多國已核准（AMD、DME、CRC），可能為特定市場資料庫缺漏",
+        "affected_indication": "all"
+      }
+    ],
+    "priority_for_further_research": [
+      {
+        "indication": "middle ear neuroendocrine tumor",
+        "rationale": "血管豐富腫瘤，VEGF 機轉最具合理性；可參考 Bevacizumab 類比證據進行假說產生"
+      },
+      {
+        "indication": "esophageal varices with bleeding",
+        "rationale": "VEGF 在門脈高壓血管新生中有生物學角色，若有系統性給藥安全性資料可進入 S1 評估"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 機轉連結強度 | 備注 |
+|--------|---------|---------|------------|------|
+| Esotropia | L5 | S0 | ⭐ 極弱 | KG 路徑噪音 |
+| Esophageal varices (bleeding) | L5 | S0 | ⭐⭐ 弱 | VEGF-門脈高壓間接路徑 |
+| Esophageal varices (no bleeding) | L5 | S0 | ⭐⭐ 弱 | 同上 |
+| Varicose disease | L5 | S0 | ⭐⭐ 弱 | 遞送路徑亦為障礙 |
+| Urethral calculus | L5 | S0 | ✗ 無 | 疑似誤報 |
+| ADA deficiency | L5 | S0 | ✗ 極弱 | 機轉無合理性 |
+| Hemorrhagic disease of newborn | L5 | S0 | ✗ 無 | **試驗誤匹配** |
+| Ectomesenchymoma | L5 | S0 | ⭐ 極弱 | 罕見腫瘤，KG 稀疏 |
+| Malignant granular cell tumor | L5 | S0 | ⭐ 極弱 | 罕見腫瘤，缺乏數據 |
+| Middle ear NET | L5 | S0 | ⭐⭐⭐ 中等 | **最具潛力**，可參考 Bev 類比 |
+
+### 關鍵結論
+
+1. **全部 10 個適應症均為 L5/S0**：僅有 TxGNN 計算預測，無臨床直接證據支持
+2. **唯一的臨床試驗（NCT02537054）為誤匹配**：需修正資料管道
+3. **Middle ear NET** 為相對最優先的探索候選，機轉連結最合理
+4. **原始資料庫資料品質問題**需在大規模分析前修正（MoA 缺失、市場狀態錯誤）

@@ -1,0 +1,566 @@
+```json
+{
+  "drug": "Acetaminophen",
+  "drugbank_id": "DB00316",
+  "analysis_date": "2026-04-03",
+  "data_quality_flags": [
+    "original_indications 欄位為空 — 疑為本地資料庫登錄缺漏；Acetaminophen 為全球核准止痛/退熱藥",
+    "original_moa = '[Data Gap]' — 已知機轉為 COX-3/中樞 PGE2 抑制，資料庫未填寫",
+    "ddi_count = 0 — 明顯低估，已知與 warfarin、酒精、INH 等有交互作用",
+    "market_status = '未上市' — 疑為新加坡本地資料庫特定登錄問題，非全球狀態"
+  ],
+  "indications": [
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Acetaminophen 透過抑制中樞 COX-3（及脊髓 COX-2）減少前列腺素 E2 生成，降低三叉神經末梢敏感化，並間接調節腦幹下行血清素抑制系統（縫核）。腦幹先兆偏頭痛涉及導水管周圍灰質（PAG）及藍斑核功能異常，acetaminophen 可能透過上述中樞路徑提供部分緩解。然而針對「腦幹先兆」此 ICHD 亞型之特異性機轉研究缺如；既有文獻多為一般偏頭痛或妊娠偏頭痛，尚無專門針對此亞型的直接RCT。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "25600718",
+          "study_type": "Clinical Guideline / Evidence-Based Review (AHS)",
+          "tier": "1",
+          "note": "美國頭痛學會急性偏頭痛治療實證評估；acetaminophen 列為輕中度偏頭痛選項，但未區分腦幹先兆亞型"
+        },
+        {
+          "pmid": "39493026",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "妊娠偏頭痛急性與預防治療回顧；acetaminophen 為妊娠期首選止痛藥，直接相關性高"
+        },
+        {
+          "pmid": "11318886",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "比較 isometheptene/dichloralphenazone/acetaminophen 組合與其他藥物於偏頭痛治療；直接提及 acetaminophen，但非腦幹先兆亞型"
+        },
+        {
+          "pmid": "38307660",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "Status migrainosus 管理；acetaminophen 列為輔助止痛選項"
+        },
+        {
+          "pmid": "37123778",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "妊娠及哺乳期偏頭痛治療；acetaminophen 安全性評估"
+        },
+        {
+          "pmid": "30470274",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "妊娠及產後頭痛管理指引；間接相關"
+        },
+        {
+          "pmid": "36197571",
+          "study_type": "Literature Review",
+          "tier": "2",
+          "note": "Post-COVID 頭痛回顧；acetaminophen 列為一線選項，相關性較低"
+        },
+        {
+          "pmid": "10534294",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "月經性偏頭痛；acetaminophen 列為症狀治療選項"
+        },
+        {
+          "pmid": "10487510",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "妊娠期偏頭痛；acetaminophen 安全性論述"
+        },
+        {
+          "pmid": "8291477",
+          "study_type": "Narrative Review (older)",
+          "tier": "3",
+          "note": "1994 年妊娠偏頭痛回顧，年代較早，方法學評估有限"
+        }
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自律神經性頭痛（TAC，含叢集性頭痛、SUNCT/SUNA、陣發性偏頭痛）以三叉神經-副交感神經反射弧異常活化為核心機制。Acetaminophen 之中樞止痛效果對疼痛成分有潛在緩解作用，但對 TAC 的核心發作機制（下視丘節律異常、翼齶神經節活化、自律神經症狀）無直接作用。文獻中僅有 1980 年一則使用含 acetaminophen 複方（Sinutabs）於叢集性頭痛之弱證據；TAC 標準療法以吸入純氧、triptans 及 verapamil 為主，acetaminophen 非指引推薦選項。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06882278",
+          "relevance_grade": "C",
+          "reasoning": "研究脈衝射頻合併 PRP 作用於翼齶神經節；無 acetaminophen 介入，未招募。相關性限於研究族群（頭痛患者）"
+        },
+        {
+          "nct_id": "NCT04939922",
+          "relevance_grade": "C",
+          "reasoning": "中國頭痛與眩暈登錄研究（觀察性，N=10,000）；無 acetaminophen 特定分析，屬流行病學資料蒐集"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33974014",
+          "study_type": "Systematic Review / Narrative Review",
+          "tier": "1",
+          "note": "頭痛診斷與管理回顧（JAMA 2021）；涵蓋 TAC，acetaminophen 未被列為 TAC 之推薦治療"
+        },
+        {
+          "pmid": "7383062",
+          "study_type": "Case Report / Letter (1980)",
+          "tier": "3",
+          "note": "唯一直接提及 acetaminophen（Sinutabs 成分）用於叢集性頭痛之文獻；年代久遠、證據極弱"
+        },
+        {
+          "pmid": "29395690",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "急診室良性頭痛管理；一般止痛藥（含 acetaminophen）作為輔助，非 TAC 特異"
+        },
+        {
+          "pmid": "34549399",
+          "study_type": "Case Series / Observational",
+          "tier": "2",
+          "note": "SUNCT 疼痛緩解分析；無 acetaminophen 特定數據"
+        },
+        {
+          "pmid": "23307881",
+          "study_type": "Case Series",
+          "tier": "2",
+          "note": "兒童叢集性頭痛；提及一般止痛藥使用，無 acetaminophen 特定分析"
+        },
+        {
+          "pmid": "30019592",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "叢集狀 status migrainosus 個案；高流量氧氣治療，acetaminophen 未涉及"
+        },
+        {
+          "pmid": "23809307",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "原發性頭痛疾患回顧；間接相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Atrophoderma vermiculata（蠕蟲狀皮膚萎縮）為罕見毛囊角化性皮膚疾患，病理機制涉及毛囊皮脂腺角化異常與輕度炎症，與 acetaminophen 之止痛/退熱/COX 抑制機制無已知交集。TxGNN 高分預測可能源於廣泛皮膚炎症節點的間接鄰近效應，缺乏生物學合理性支撐。目前無任何臨床試驗或文獻記載。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tendinitis",
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "肌腱炎的疼痛機制涉及局部前列腺素（PGE2、PGI2）釋放導致痛覺感受器敏感化，以及中樞疼痛敏感化。Acetaminophen 透過抑制中樞 COX-3 及脊髓 COX-2 降低 PGE2 生成，發揮中樞性止痛效果；此機制雖不如 NSAIDs 具有周邊抗炎效果，但在急性肌腱痛及術後疼痛控制中具臨床意義。已完成的直接比較 RCT（paracetamol vs. tenoxicam）及多項治療指引均支持 acetaminophen 作為肌腱炎疼痛管理之基礎藥物選項。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05508451",
+          "relevance_grade": "A",
+          "reasoning": "直接比較 Tenoxicam vs. Paracetamol vs. 組合療法用於急性肌腱炎（Completed, N=80）；為本適應症最直接之 RCT 試驗，acetaminophen 為主要介入組之一"
+        },
+        {
+          "nct_id": "NCT05550857",
+          "relevance_grade": "B",
+          "reasoning": "比較肌筋膜放鬆技術於肌腱炎疼痛及活動度（Completed, N=72）；止痛藥作為背景用藥可能涉及 acetaminophen，但非主要介入"
+        },
+        {
+          "nct_id": "NCT06834425",
+          "relevance_grade": "C",
+          "reasoning": "NSAID 肌腱周圍注射研究（Active, N=40）；介入為 NSAID 注射，非 acetaminophen"
+        },
+        {
+          "nct_id": "NCT02466308",
+          "relevance_grade": "C",
+          "reasoning": "長時間治療性超音波肌腱癒合（Completed, N=28）；物理治療研究，與 acetaminophen 無直接關聯"
+        },
+        {
+          "nct_id": "NCT02024451",
+          "relevance_grade": "C",
+          "reasoning": "體外震波 vs. 針灸於肌筋膜疼痛（Completed, N=68）；非藥物介入研究"
+        },
+        {
+          "nct_id": "NCT01330641",
+          "relevance_grade": "C",
+          "reasoning": "肩峰下注射準確度研究（Completed, N=75）；操作技術研究，非藥效評估"
+        },
+        {
+          "nct_id": "NCT07079566",
+          "relevance_grade": "C",
+          "reasoning": "足底筋膜炎之 Primal Reflex Release 技術（Not Yet Recruiting, N=32）；物理治療，無 acetaminophen 介入"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30502019",
+          "study_type": "Prospective RCT",
+          "tier": "1",
+          "note": "雙盲 RCT 比較 ibuprofen 與 acetaminophen 於肩部肌腱相關術後疼痛；直接 acetaminophen 療效數據"
+        },
+        {
+          "pmid": "37832814",
+          "study_type": "Systematic Review of CPGs",
+          "tier": "1",
+          "note": "肩部疾患臨床實踐指引系統性回顧（2024）；acetaminophen 列為肌腱病變止痛藥物之一"
+        },
+        {
+          "pmid": "35881707",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "note": "旋轉肌袖疾患診斷管理及重返工作指引；藥物治療含 acetaminophen 建議"
+        },
+        {
+          "pmid": "32007452",
+          "study_type": "Systematic Review of CPGs",
+          "tier": "1",
+          "note": "旋轉肌袖疾患指引系統性回顧及語義分析（2020）"
+        },
+        {
+          "pmid": "31392721",
+          "study_type": "Systematic Review / Procedure-Specific Guideline (PROSPECT)",
+          "tier": "1",
+          "note": "旋轉肌袖修補術後疼痛管理指引；acetaminophen 納入多模式鎮痛方案"
+        },
+        {
+          "pmid": "27235619",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "肌肉骨骼疾患藥物治療回顧；acetaminophen 列為肌腱炎一線止痛藥"
+        },
+        {
+          "pmid": "33373466",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "無阿片類藥物旋轉肌袖修補術；acetaminophen 為核心鎮痛成分"
+        },
+        {
+          "pmid": "23482943",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "阿基里斯腱疾患回顧；提及 acetaminophen 用於急性期止痛"
+        },
+        {
+          "pmid": "21322517",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "沾黏性肩關節囊炎回顧；止痛藥物治療原則"
+        },
+        {
+          "pmid": "20205088",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "網球肘（外側肱骨上髁炎）治療；acetaminophen 列為止痛選項"
+        }
+      ]
+    },
+    {
+      "disease_name": "myositis fibrosa",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Myositis fibrosa 為極罕見肌肉纖維化炎症疾患，病理機制以 TGF-β 介導之纖維化為主，與 acetaminophen 之 COX 抑制機轉無已知直接交集。TxGNN 預測分數（0.944）與 idiopathic granulomatous myositis 完全相同，提示為知識圖譜中肌炎節點的廣泛連結效應，而非疾病特異性預測。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic granulomatous myositis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Idiopathic granulomatous myositis 為罕見肉芽腫性炎症性肌病，病理核心為 CD4+ T 細胞及巨噬細胞形成的肉芽腫；標準治療為皮質類固醇與免疫抑制劑。Acetaminophen 無抗肉芽腫或免疫調節活性，止痛效果僅能處理症狀層面。TxGNN 預測分數與 myositis fibrosa 完全相同（0.9436），高度疑似同一知識圖譜節點的批次預測，缺乏疾病特異性生物學意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ulerythema ophryogenesis（眉毛萎縮性毛周角化紅斑）為罕見遺傳性角化症，以毛囊角化栓塞及萎縮性瘢痕為特徵，目前病因尚未完全清楚，可能與 FGFR2 基因突變相關。Acetaminophen 之止痛/退熱/COX 抑制機制與此皮膚角化疾患無已知生物學交集，無任何臨床或前臨床數據支持此用途。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fibromyalgia",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "纖維肌痛症以中樞疼痛敏感化（central sensitization）為核心，涉及下行疼痛抑制系統（血清素能、去甲腎上腺素能通路）功能失調及脊髓 NMDA 受體過度活化。Acetaminophen 可能透過：(1) 活化下行血清素抑制路徑（5-HT3 受體介導）；(2) TRPV1 去敏感化；(3) 間接影響內源性大麻素系統。PMID 23511692 專門研究 acetaminophen 是否能活化 CFS/纖維肌痛症患者的內源性痛覺抑制，提供初步機轉支持。然而既有 RCT 證據（PMID 12753877）來自 tramadol+acetaminophen 組合療法，acetaminophen 單藥效果仍需驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04502251",
+          "relevance_grade": "C",
+          "reasoning": "低劑量 naltrexone + 經顱直流電刺激於纖維肌痛症（Phase 2/3, Completed, N=92）；無 acetaminophen 介入，但提供纖維肌痛症中樞敏感化治療的比較背景"
+        },
+        {
+          "nct_id": "NCT07157852",
+          "relevance_grade": "C",
+          "reasoning": "Pregabalin 單藥 vs. 其他神經調節藥物比較研究（Recruiting, N=674）；acetaminophen 可能作為救急止痛藥，非主要介入"
+        },
+        {
+          "nct_id": "NCT03058224",
+          "relevance_grade": "C",
+          "reasoning": "纖維肌痛症探索性 RCT（Completed, N=230）；主要介入不明，背景藥物可能含 acetaminophen"
+        },
+        {
+          "nct_id": "NCT04488926",
+          "relevance_grade": "C",
+          "reasoning": "Palmitoylethanolamide 於纖維肌痛症（Phase 4, Completed, N=21）；內源性大麻素系統路徑與 acetaminophen 機轉有重疊，但無直接 acetaminophen 數據"
+        },
+        {
+          "nct_id": "NCT07196657",
+          "relevance_grade": "C",
+          "reasoning": "Pregabalin 單藥 vs. 複方研究（Recruiting, N=1116）；大型真實世界試驗，間接提供纖維肌痛症藥物治療格局資訊"
+        },
+        {
+          "nct_id": "NCT04364867",
+          "relevance_grade": "C",
+          "reasoning": "肩關節置換術後疼痛控制（Phase 4, Completed, N=102）；acetaminophen 為多模式鎮痛成分之一，但與纖維肌痛症無直接關聯"
+        },
+        {
+          "nct_id": "NCT01028352",
+          "relevance_grade": "C",
+          "reasoning": "Duloxetine 用於芳香化酶抑制劑相關肌肉骨骼疼痛（N=35）；非纖維肌痛症主要試驗"
+        },
+        {
+          "nct_id": "NCT06570395",
+          "relevance_grade": "C",
+          "reasoning": "妊娠第三孕期骨病療法（Terminated, N=5）；與纖維肌痛症/acetaminophen 相關性極低"
+        },
+        {
+          "nct_id": "NCT00689052",
+          "relevance_grade": "C",
+          "reasoning": "Pramipexole 於纖維肌痛症（Phase 2, Terminated, N=61）；多巴胺路徑研究，非 acetaminophen"
+        },
+        {
+          "nct_id": "NCT06672419",
+          "relevance_grade": "C",
+          "reasoning": "AI 輔助遠距復健於纖維肌痛症（Not Yet Recruiting, N=50）；非藥物介入"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12753877",
+          "study_type": "RCT (Double-blind)",
+          "tier": "1",
+          "note": "【核心證據】Tramadol/acetaminophen 組合錠劑治療纖維肌痛症疼痛的雙盲 RCT；直接 acetaminophen 相關，但為組合療法，無法獨立評估 acetaminophen 效果"
+        },
+        {
+          "pmid": "38927473",
+          "study_type": "Systematic Review / Management Update",
+          "tier": "1",
+          "note": "2024 年纖維肌痛症管理更新；acetaminophen 列為症狀治療考量但非指引推薦一線藥物"
+        },
+        {
+          "pmid": "36210856",
+          "study_type": "Overview of Phase IV Clinical Trials",
+          "tier": "1",
+          "note": "纖維肌痛症成人藥物治療 Phase IV 試驗綜述；提供 acetaminophen 在真實世界使用的背景資訊"
+        },
+        {
+          "pmid": "23511692",
+          "study_type": "Mechanistic Clinical Study",
+          "tier": "2",
+          "note": "【機轉關鍵】專門研究 acetaminophen 是否活化 CFS/纖維肌痛症患者之內源性痛覺抑制；對理解作用機制具重要價值"
+        },
+        {
+          "pmid": "16082646",
+          "study_type": "Observational Follow-up Study",
+          "tier": "2",
+          "note": "Tramadol/acetaminophen 治療纖維肌痛症前後生活品質影響研究；PMID 12753877 的延伸數據"
+        },
+        {
+          "pmid": "36056847",
+          "study_type": "Observational Cohort",
+          "tier": "2",
+          "note": "脊椎關節炎中的纖維肌痛症盛行率及對疾病活性的影響；背景資訊"
+        },
+        {
+          "pmid": "30700198",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "慢性疼痛重新定義為疾病的論述；提供纖維肌痛症疼痛管理框架"
+        },
+        {
+          "pmid": "41785644",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "纖維肌痛症與更年期關係（2026）；新興研究方向，與 acetaminophen 直接相關性低"
+        },
+        {
+          "pmid": "32657625",
+          "study_type": "Observational Screening Study",
+          "tier": "3",
+          "note": "戰爭難民纖維肌痛症篩查與治療趨勢；治療選項提及 acetaminophen，但研究設計較弱"
+        },
+        {
+          "pmid": "18711953",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "骨骼肌鬆弛劑選擇指引；纖維肌痛症多藥治療背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "inclusion body myositis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Inclusion body myositis（IBM）為退行性炎症性肌病，以肌纖維內 TDP-43/p62 蛋白質聚集、自噬功能障礙及 CD8+ T 細胞介導的細胞毒性為特徵。Acetaminophen 無已知對蛋白質異常聚集、粒線體功能障礙或自噬路徑的直接作用。目前 IBM 無批准的疾病修飾療法；acetaminophen 可能提供症狀性止痛，但無改變疾病進程的生物學依據。無任何臨床試驗或文獻記載支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "sciatic neuropathy",
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "坐骨神經病變的疼痛機制涵蓋：周邊神經炎症（PGE2 介導的感受器敏感化）、脊髓中樞敏感化（NMDA 受體活化）及下行抑制系統失調。Acetaminophen 的多重中樞鎮痛機制特別適合此適應症：(1) 抑制脊髓背角 COX-2 → PGE2 合成減少；(2) TRPV1 受體去敏感化（與神經病理性疼痛高度相關）；(3) 活化下行血清素能抑制路徑；(4) 間接影響內源性大麻素系統。臨床前研究（PMID 29417759）證實 paracetamol 對神經病理性大鼠有焦慮緩解及活動相關止痛效果，進一步支持其神經病理性疼痛的作用機轉。多項 Phase 4 RCT 已直接測試靜脈注射 paracetamol 於坐骨神經痛，提供高度直接之臨床證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02504996",
+          "relevance_grade": "A",
+          "reasoning": "【核心試驗】靜脈注射 Paracetamol vs. IV Morphine vs. 安慰劑於急診坐骨神經痛患者（Phase 4, N=300）；直接、大規模、三臂 RCT，acetaminophen 為主要介入組之一"
+        },
+        {
+          "nct_id": "NCT02777320",
+          "relevance_grade": "A",
+          "reasoning": "靜脈注射 Ibuprofen vs. Paracetamol 於急診坐骨神經痛患者（Phase 4, N=120）；直接比較 acetaminophen 療效的 RCT"
+        },
+        {
+          "nct_id": "NCT00317447",
+          "relevance_grade": "C",
+          "reasoning": "口服類固醇治療急性坐骨神經痛（Phase 3, Completed, N=160）；提供坐骨神經痛藥物治療之比較背景，但無 acetaminophen 介入"
+        },
+        {
+          "nct_id": "NCT03372161",
+          "relevance_grade": "C",
+          "reasoning": "腰椎硬膜外皮質類固醇注射於根神經病變（Phase 3, Completed, N=401）；大型試驗，提供坐骨神經痛治療格局，無 acetaminophen"
+        },
+        {
+          "nct_id": "NCT03060434",
+          "relevance_grade": "C",
+          "reasoning": "Pentoxifylline 於腰椎根神經病變（Phase 4, Active, N=67）；新興介入研究，間接相關"
+        },
+        {
+          "nct_id": "NCT00018200",
+          "relevance_grade": "C",
+          "reasoning": "抗憂鬱藥於慢性背痛（Phase 2, Completed, N=130）；不同藥物類別，背景資訊"
+        },
+        {
+          "nct_id": "NCT03489681",
+          "relevance_grade": "C",
+          "reasoning": "針灸治療慢性坐骨神經痛的療效及神經影像機制（N=80）；非藥物介入"
+        },
+        {
+          "nct_id": "NCT06437795",
+          "relevance_grade": "C",
+          "reasoning": "乾針 vs. 拔罐於梨狀肌症候群疼痛（Active, N=80）；非藥物物理治療"
+        },
+        {
+          "nct_id": "NCT07397117",
+          "relevance_grade": "C",
+          "reasoning": "超音波引導經臀坐骨神經阻斷與標準治療比較（Not Yet Recruiting, N=100）；介入性疼痛治療研究"
+        },
+        {
+          "nct_id": "NCT03342950",
+          "relevance_grade": "C",
+          "reasoning": "局部 clonidine+pentoxifylline 於神經病理性疼痛（Phase 2, Terminated, N=4）；樣本極小且終止，參考價值有限"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26938140",
+          "study_type": "RCT (Randomized Placebo-Controlled)",
+          "tier": "1",
+          "note": "【核心證據】比較靜脈注射 morphine vs. paracetamol 於坐骨神經痛的 RCT；直接 acetaminophen 療效與安全性數據"
+        },
+        {
+          "pmid": "29025735",
+          "study_type": "Systematic Review (Cochrane-style)",
+          "tier": "1",
+          "note": "坐骨神經痛（根性腿痛）有效止痛藥物系統性回顧；acetaminophen 納入分析，提供整體證據強度評估"
+        },
+        {
+          "pmid": "33037020",
+          "study_type": "Systematic Review of RCTs",
+          "tier": "1",
+          "note": "急診室成人下背痛/坐骨神經痛介入措施系統性回顧；acetaminophen 治療方案納入分析"
+        },
+        {
+          "pmid": "32271952",
+          "study_type": "Systematic Review (Cochrane)",
+          "tier": "1",
+          "note": "腰骶神經根疼痛之硬膜外皮質類固醇注射系統性回顧；提供坐骨神經痛保守治療比較背景"
+        },
+        {
+          "pmid": "29417759",
+          "study_type": "Preclinical Study (Animal Model)",
+          "tier": "2",
+          "note": "【機轉支持】Paracetamol 對健康及神經病理性大鼠的焦慮及活動相關效果；直接支持 acetaminophen 在神經病理性疼痛中的中樞作用機制"
+        },
+        {
+          "pmid": "21050954",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "下背痛/坐骨神經痛診斷與管理方法；acetaminophen 列為一線鎮痛選項"
+        },
+        {
+          "pmid": "27738964",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "老年坐骨神經痛治療挑戰；acetaminophen 因安全性優勢被推薦"
+        },
+        {
+          "pmid": "18294119",
+          "study_type": "Case Series / Review",
+          "tier": "2",
+          "note": "Gabapentin 於坐骨神經痛治療；對照藥物包括 acetaminophen，間接相關"
+        },
+        {
+          "pmid": "37972929",
+          "study_type": "Prospective Cohort",
+          "tier": "2",
+          "note": "前足手術後坐骨神經阻斷止痛持續時間比較；背景止痛藥含 acetaminophen，間接相關"
+        },
+        {
+          "pmid": "39986922",
+          "study_type": "Case Report (Veterinary)",
+          "tier": "3",
+          "note": "犬全髖置換術後坐骨神經炎治療個案；研究物種不同，參考價值有限"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 摘要表
+
+| 適應症 | TxGNN 分 | 證據等級 | 決策階段 | 建議 |
+|---|---|---|---|---|
+| tendinitis | 0.946 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| sciatic neuropathy | 0.866 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| fibromyalgia | 0.908 | **L2** | S2 | 🔬 Research Question |
+| migraine with brainstem aura | 0.992 | L3 | S2 | 🔬 Research Question |
+| trigeminal autonomic cephalalgia | 0.986 | L4 | S1 | ⛔ Hold |
+| atrophoderma vermiculata | 0.947 | L5 | S0 | ⛔ Hold |
+| myositis fibrosa | 0.943 | L5 | S0 | ⛔ Hold |
+| idiopathic granulomatous myositis | 0.943 | L5 | S0 | ⛔ Hold |
+| ulerythema ophryogenesis | 0.924 | L5 | S0 | ⛔ Hold |
+| inclusion body myositis | 0.892 | L5 | S0 | ⛔ Hold |
+
+### 關鍵發現
+
+1. **TxGNN 分數 ≠ 臨床證據強度**：migraine with brainstem aura 分數最高（0.992），但因缺乏亞型特定試驗，僅達 L3；而 sciatic neuropathy 分數最低（0.866），卻有最直接的 Phase 4 RCT 支持。
+
+2. **資料庫品質警示**：`original_indications = []`、`ddi_count = 0` 及 `market_status = 未上市` 三項異常，建議核查本地資料庫登錄完整性，否則可能低估藥物-藥物交互作用風險（特別是 warfarin、isoniazid）。
+
+3. **5 個 L5 適應症**（atrophoderma vermiculata、myositis fibrosa、idiopathic granulomatous myositis、ulerythema ophryogenesis、inclusion body myositis）均為罕見疾患且零臨床數據，建議從待驗證佇列中移除，避免資源浪費。

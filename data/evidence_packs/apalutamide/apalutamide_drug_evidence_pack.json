@@ -1,0 +1,2161 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11901-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Apalutamide",
+    "drugbank_id": "DB11901",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "prostate cancer/brain cancer susceptibility",
+      "txgnn": {
+        "score": 0.9842999577522278,
+        "rank": 14624
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「易感性」為遺傳風險因子概念，非治療適應症。Apalutamide 作為 AR 拮抗劑，理論上可影響 AR 訊號驅動的腫瘤發生風險，但「化學預防」用途缺乏任何臨床研究支持。腦癌部分可能源於前列腺癌腦轉移的知識圖譜關聯，AR 在原發性腦腫瘤中的角色尚未明確。TxGNN 高分反映知識圖譜本體論鄰近性，非臨床可行性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "prostate leiomyoma",
+      "txgnn": {
+        "score": 0.977680504322052,
+        "rank": 18130
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺平滑肌瘤（Leiomyoma）為極罕見良性腫瘤，理論上前列腺平滑肌細胞受雄激素調控，AR 抑制可能影響其生長。但此疾病發生率極低（文獻報告不足百例），且無任何 Apalutamide 相關臨床或基礎研究支持。高 TxGNN 分數可能反映與前列腺癌知識圖譜節點的高度鄰近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Brenner tumor",
+      "txgnn": {
+        "score": 0.9758357405662536,
+        "rank": 18955
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Brenner 腫瘤為卵巢移行細胞腫瘤，免疫組化研究顯示部分 Brenner 腫瘤表現 AR，提供理論機轉連結。然而，Brenner 腫瘤極為罕見，臨床行為以良性為主，手術切除為標準治療，無系統性藥物治療需求的臨床實踐。無任何 Apalutamide 於此適應症的臨床或前臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "benign reproductive system neoplasm",
+      "txgnn": {
+        "score": 0.9751588702201844,
+        "rank": 19263
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05701007",
+            "title": "Real World Evidence Study on Metastatic Prostate Cancer Patient Characteristics, Treatment Patterns and Outcomes in the Pirkanmaa Hospital District in Finland",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1083,
+            "start_date": "2023-02-13",
+            "completion_date": "2024-04-10",
+            "brief_summary": "Comprehensive understanding of the epidemiology and disease burden of metastatic prostate cancer patients in Finland is lacking. This study will address the following questions:\n\n* What are the demographic and clinical characteristics of metastatic prostate cancer patients?\n* How are metastatic prostate cancer patients currently treated and how effective are these treatments?\n* How does the development of castration-resistance affect patient outcomes?\n* What is the economic burden of metastatic ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對惡性轉移性前列腺癌，患者特徵與治療模式觀察研究，與良性生殖系統腫瘤無直接關聯；相關性極低"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "良性生殖系統腫瘤（如子宮肌瘤、卵巢良性腫瘤等）部分受性激素調控，但 AR 訊號在此類疾病的角色各異且多為非主要驅動因素。現有唯一試驗（NCT05701007）為惡性前列腺癌真實世界研究，與良性生殖系統腫瘤無直接關聯。TxGNN 高分可能源於知識圖譜中前列腺良惡性疾病的本體論鄰近性，而非真實機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "fibroma of prostate",
+      "txgnn": {
+        "score": 0.9749828577041626,
+        "rank": 19336
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺纖維瘤為極罕見良性間質腫瘤，纖維組織形成受雄激素/雌激素平衡調控，AR 抑制理論上可影響基質細胞活化。然而，該疾病發生率極低，無藥物治療指引，且無任何 Apalutamide 相關研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "prostate phyllodes tumor",
+      "txgnn": {
+        "score": 0.9745760560035706,
+        "rank": 19493
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺葉狀腫瘤（Phyllodes tumor）為混合上皮-間質腫瘤，行為介於良惡性之間，手術為主要治療。AR 表現於間質成分，理論機轉存在，但臨床發生率極低（全球報告不足 200 例），缺乏任何藥物試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "benign neoplasm of prostate",
+      "txgnn": {
+        "score": 0.9745274186134338,
+        "rank": 19517
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05701007",
+            "title": "Real World Evidence Study on Metastatic Prostate Cancer Patient Characteristics, Treatment Patterns and Outcomes in the Pirkanmaa Hospital District in Finland",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1083,
+            "start_date": "2023-02-13",
+            "completion_date": "2024-04-10",
+            "brief_summary": "Comprehensive understanding of the epidemiology and disease burden of metastatic prostate cancer patients in Finland is lacking. This study will address the following questions:\n\n* What are the demographic and clinical characteristics of metastatic prostate cancer patients?\n* How are metastatic prostate cancer patients currently treated and how effective are these treatments?\n* How does the development of castration-resistance affect patient outcomes?\n* What is the economic burden of metastatic ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對轉移性前列腺癌（惡性），非良性前列腺新生物。患者特徵研究，不直接評估 Apalutamide 於良性腫瘤療效"
+            }
+          },
+          {
+            "nct_id": "NCT02770391",
+            "title": "The Association Between HSD3B1 Genotype and Steroid Metabolism in Normal and Prostate Cancer Tissue of Men With Intermediate and High-risk Prostate Cancer Undergoing Radical Prostatectomy After Treatment With Apalutamide and Leuprolide",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 54,
+            "start_date": "2016-10-17",
+            "completion_date": "2020-04-29",
+            "brief_summary": "This is a research study to test an investigational drug (Not FDA approved), Apalutamide given in combination with Leuprolide acetate (FDA approved) in men diagnosed with high-risk prostate cancer who have already selected to have surgery to remove their prostate gland as part of their treatment plan. The main purpose of this study is to determine how tumors make androgens (male hormones), which makes these tumors more aggressive and resistant to hormonal therapy and how a short period of treatm",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "雄激素代謝酵素基因型研究，與 AR 生物學相關但非 Apalutamide 直接療效研究，亦非良性腫瘤適應症"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33914595",
+            "title": "Apalutamide in Patients With Metastatic Castration-Sensitive Prostate Cancer: Final Survival Analysis of the Randomized, Double-Blind, Phase III TITAN Study.",
+            "authors": [
+              "Chi Kim N",
+              "Chowdhury Simon",
+              "Bjartell Anders",
+              "Chung Byung Ha",
+              "Pereira de Santana Gomes Andrea J"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2021",
+            "abstract": "The first interim analysis of the phase III, randomized, placebo-controlled TITAN study showed that apalutamide significantly improved overall survival (OS) and radiographic progression-free survival in patients with metastatic castration-sensitive prostate cancer (mCSPC) receiving ongoing androgen deprivation therapy (ADT). Herein, we report final efficacy and safety results after unblinding and placebo-to-apalutamide crossover.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29420164",
+            "title": "Apalutamide Treatment and Metastasis-free Survival in Prostate Cancer.",
+            "authors": [
+              "Smith Matthew R",
+              "Saad Fred",
+              "Chowdhury Simon",
+              "Oudard Stéphane",
+              "Hadaschik Boris A"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2018",
+            "abstract": "Apalutamide, a competitive inhibitor of the androgen receptor, is under development for the treatment of prostate cancer. We evaluated the efficacy of apalutamide in men with nonmetastatic castration-resistant prostate cancer who were at high risk for the development of metastasis.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33480983",
+            "title": "Hormonal Therapy for Prostate Cancer.",
+            "authors": [
+              "Desai Kunal",
+              "McManus Jeffrey M",
+              "Sharifi Nima"
+            ],
+            "journal": "Endocrine reviews",
+            "year": "2021",
+            "abstract": "Huggins and Hodges demonstrated the therapeutic effect of gonadal testosterone deprivation in the 1940s and therefore firmly established the concept that prostate cancer is a highly androgen-dependent disease. Since that time, hormonal therapy has undergone iterative advancement, from the types of gonadal testosterone deprivation to modalities that block the generation of adrenal and other extragonadal androgens, to those that directly bind and inhibit the androgen receptor (AR). The clinical st",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31150574",
+            "title": "Apalutamide for Metastatic, Castration-Sensitive Prostate Cancer.",
+            "authors": [
+              "Chi Kim N",
+              "Agarwal Neeraj",
+              "Bjartell Anders",
+              "Chung Byung Ha",
+              "Pereira de Santana Gomes Andrea J"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "abstract": "Apalutamide is an inhibitor of the ligand-binding domain of the androgen receptor. Whether the addition of apalutamide to androgen-deprivation therapy (ADT) would prolong radiographic progression-free survival and overall survival as compared with placebo plus ADT among patients with metastatic, castration-sensitive prostate cancer has not been determined.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32907777",
+            "title": "Apalutamide and Overall Survival in Prostate Cancer.",
+            "authors": [
+              "Smith Matthew R",
+              "Saad Fred",
+              "Chowdhury Simon",
+              "Oudard Stéphane",
+              "Hadaschik Boris A"
+            ],
+            "journal": "European urology",
+            "year": "2021",
+            "abstract": "The phase 3 SPARTAN study evaluated apalutamide versus placebo in patients with nonmetastatic castration-resistant prostate cancer (nmCRPC) and prostate-specific antigen doubling time of ≤10 mo. At primary analysis, apalutamide improved median metastasis-free survival (MFS) by 2 yr and overall survival (OS) data were immature.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39453576",
+            "title": "Prostate Cancer, Pathophysiology and Recent Developments in Management: A Narrative Review.",
+            "authors": [
+              "Almeeri Mohamed Nasr Eldeen",
+              "Awies Monther",
+              "Constantinou Constantina"
+            ],
+            "journal": "Current oncology reports",
+            "year": "2024",
+            "abstract": "Prostate cancer is the second most common cancer in men. The different stages of prostate cancer which include localised (low, intermediate, and high risk) disease, locally advanced, non-metastatic castration-resistant prostate cancer (M0 CRPCa), and metastatic disease. The main treatment of locally advanced disease is external beam radiotherapy with hormonal therapy which are associated with good prognosis.",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39417629",
+            "title": "Comparison of abiraterone, enzalutamide, and apalutamide for metastatic hormone-sensitive prostate cancer: A multicenter study.",
+            "authors": [
+              "Yanagisawa Takafumi",
+              "Fukuokaya Wataru",
+              "Hatakeyama Shingo",
+              "Narita Shintaro",
+              "Muramoto Katsuki"
+            ],
+            "journal": "The Prostate",
+            "year": "2025",
+            "abstract": "We aimed to assess the differential efficacy and safety of androgen receptor pathway inhibitors (ARPI), such as abiraterone, enzalutamide, and apalutamide, in patients with metastatic hormone-sensitive prostate cancer (mHSPC) in a real-world practice setting.",
+            "classification": {
+              "study_type": "Comparative Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32355025",
+            "title": "Regenerative potential of prostate luminal cells revealed by single-cell analysis.",
+            "authors": [
+              "Karthaus Wouter R",
+              "Hofree Matan",
+              "Choi Danielle",
+              "Linton Eliot L",
+              "Turkekul Mesruh"
+            ],
+            "journal": "Science (New York, N.Y.)",
+            "year": "2020",
+            "abstract": "Androgen deprivation is the cornerstone of prostate cancer treatment. It results in involution of the normal gland to ~90% of its original size because of the loss of luminal cells. The prostate regenerates when androgen is restored, a process postulated to involve stem cells. Using single-cell RNA sequencing, we identified a rare luminal population in the mouse prostate that expresses stemlike genes (Sca1 + and Psca +) and a large population of differentiated cells (Nkx3.1 +, Pbsn +). In organo",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32534790",
+            "title": "Advanced Prostate Cancer: Treatment Advances and Future Directions.",
+            "authors": [
+              "Swami Umang",
+              "McFarland Taylor R",
+              "Nussenzveig Roberto",
+              "Agarwal Neeraj"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2020",
+            "abstract": "Prostate cancer affects one in every nine men in the USA and is the second leading cause of cancer-related death. The treatment landscape of advanced prostate cancer is changing rapidly. Multiple agents including abiraterone, enzalutamide, apalutamide, darolutamide, docetaxel, cabazitaxel, radium-223, and sipuleucel-T have been approved for advanced prostate cancer. Appropriate drug selection remains crucial in this evolving landscape to derive maximum benefit for the patients. We summarize clin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30426794",
+            "title": "Apalutamide and its use in the treatment of prostate cancer.",
+            "authors": [
+              "Borno Hala T",
+              "Small Eric J"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2019",
+            "abstract": "High-risk nonmetastatic castration-resistant prostate cancer is a lethal disease that previously lacked clear treatment options. Progression to bone metastases is associated with significant morbidity and high cost. Apalutamide, an androgen receptor inhibitor, has substantial clinical response in nonmetastatic castration-resistant prostate cancer. Apalutamide + androgen deprivation therapy is well tolerated and improves metastasis-free survival, progression-free survival and time to symptomatic ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30589920",
+            "title": "Analysis of the Prevalence of Microsatellite Instability in Prostate Cancer and Response to Immune Checkpoint Blockade.",
+            "authors": [
+              "Abida Wassim",
+              "Cheng Michael L",
+              "Armenia Joshua",
+              "Middha Sumit",
+              "Autio Karen A"
+            ],
+            "journal": "JAMA oncology",
+            "year": "2019",
+            "abstract": "The anti-programmed cell death protein 1 (PD-1) antibody pembrolizumab is approved by the US Food and Drug Administration for the treatment of microsatellite instability-high (MSI-H) or mismatch repair-deficient (dMMR) solid tumors, but the prevalence of MSI-H/dMMR prostate cancer and the clinical utility of immune checkpoint blockade in this disease subset are unknown.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39426080",
+            "title": "Androgen receptor pathway inhibitors and drug-drug interactions in prostate cancer.",
+            "authors": [
+              "Bolek H",
+              "Yazgan S C",
+              "Yekedüz E",
+              "Kaymakcalan M D",
+              "McKay R R"
+            ],
+            "journal": "ESMO open",
+            "year": "2024",
+            "abstract": "Prostate cancer represents a major global health challenge, necessitating efficacious therapeutic strategies. Androgen receptor pathway inhibitors (ARPIs) have become central to prostate cancer treatment, demonstrating significant effectiveness in both metastatic and non-metastatic contexts. Abiraterone acetate, by inhibiting androgen synthesis, deprives cancer cells androgens necessary for growth, while second-generation androgen receptor (AR) antagonists disrupt AR signaling by blocking AR bin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36858151",
+            "title": "Deep, rapid, and durable prostate-specific antigen decline with apalutamide plus androgen deprivation therapy is associated with longer survival and improved clinical outcomes in TITAN patients with metastatic castration-sensitive prostate cancer.",
+            "authors": [
+              "Chowdhury S",
+              "Bjartell A",
+              "Agarwal N",
+              "Chung B H",
+              "Given R W"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2023",
+            "abstract": "The first interim analysis of the phase III, randomized, double-blind, placebo-controlled, multinational TITAN study demonstrated improved overall survival (OS) and radiographic progression-free survival (rPFS) with apalutamide added to ongoing androgen deprivation therapy (ADT) in patients with metastatic castration-sensitive prostate cancer. The final analysis confirmed improvement in OS and other long-term outcomes. We evaluated prostate-specific antigen (PSA) kinetics and the association bet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30101644",
+            "title": "Apalutamide for the treatment of prostate cancer.",
+            "authors": [
+              "Rathkopf Dana E",
+              "Scher Howard I"
+            ],
+            "journal": "Expert review of anticancer therapy",
+            "year": "2018",
+            "abstract": "Five new agents have been shown to prolong survival in patients with metastatic castration-resistant prostate cancer, including two targeting androgen receptor signaling (abiraterone acetate plus prednisone; enzalutamide). Recognition that these tumors remain driven by androgen receptor signaling has prompted clinical evaluation of these agents at earlier states in the prostate cancer disease continuum, along with the continued development of new agents targeting this pathway. Areas covered: Thi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32543237",
+            "title": "An evaluation of apalutamide for the treatment of prostate cancer.",
+            "authors": [
+              "Boukovala Myrto",
+              "Spetsieris Nicholas",
+              "Efstathiou Eleni"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2020",
+            "abstract": "Novel androgen signaling inhibitors are currently standard of care in the treatment of patients with prostate cancer. Second-generation androgen receptor antagonists have demonstrated efficacy in earlier disease settings, fulfilling an unmet need in the treatment of patients with advanced prostate cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38940282",
+            "title": "Targeted Investigational Treatment Analysis of Novel Anti-androgen (TITAN) study: ultralow prostate-specific antigen decline with apalutamide plus androgen-deprivation therapy.",
+            "authors": [
+              "Merseburger Axel S",
+              "Agarwal Neeraj",
+              "Bjartell Anders",
+              "Uemura Hirotsugu",
+              "Soto Alvaro Juarez"
+            ],
+            "journal": "BJU international",
+            "year": "2024",
+            "abstract": "To assess the association between achievement of prostate-specific antigen (PSA) levels ≤0.2 ng/mL (henceforth 'ultralow') and clinical outcomes in patients in the 'Targeted Investigational Treatment Analysis of Novel Anti-androgen' (TITAN) study (ClinicalTrials.gov Identifier NCT02489318) with metastatic castration-sensitive prostate cancer (mCSPC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266222",
+            "title": "ARN-509: a novel antiandrogen for prostate cancer treatment.",
+            "authors": [
+              "Clegg Nicola J",
+              "Wongvipat John",
+              "Joseph James D",
+              "Tran Chris",
+              "Ouk Samedy"
+            ],
+            "journal": "Cancer research",
+            "year": "2012",
+            "abstract": "Continued reliance on the androgen receptor (AR) is now understood as a core mechanism in castration-resistant prostate cancer (CRPC), the most advanced form of this disease. While established and novel AR pathway-targeting agents display clinical efficacy in metastatic CRPC, dose-limiting side effects remain problematic for all current agents. In this study, we report the discovery and development of ARN-509, a competitive AR inhibitor that is fully antagonistic to AR overexpression, a common a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36167599",
+            "title": "ARNEO: A Randomized Phase II Trial of Neoadjuvant Degarelix with or Without Apalutamide Prior to Radical Prostatectomy for High-risk Prostate Cancer.",
+            "authors": [
+              "Devos Gaëtan",
+              "Tosco Lorenzo",
+              "Baldewijns Marcella",
+              "Gevaert Thomas",
+              "Goffin Karolien"
+            ],
+            "journal": "European urology",
+            "year": "2023",
+            "abstract": "High-risk prostate cancer (PCa) patients have a high risk of biochemical recurrence and metastatic progression following radical prostatectomy (RP).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38261983",
+            "title": "PRESTO: A Phase III, Open-Label Study of Intensification of Androgen Blockade in Patients With High-Risk Biochemically Relapsed Castration-Sensitive Prostate Cancer (AFT-19).",
+            "authors": [
+              "Aggarwal Rahul",
+              "Heller Glenn",
+              "Hillman David W",
+              "Xiao Han",
+              "Picus Joel"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2024",
+            "abstract": "Patients with biochemically recurrent prostate cancer (BRPC) after radical prostatectomy and a short PSA doubling time are at risk for distant metastases. Apalutamide, an androgen receptor antagonist, and abiraterone acetate plus prednisone (AAP) prolong survival in the metastatic setting. We evaluated whether intensification of androgen-deprivation therapy (ADT) improves outcomes in BRPC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39190308",
+            "title": "Androgen Receptor Inhibitors in Patients With Nonmetastatic Castration-Resistant Prostate Cancer.",
+            "authors": [
+              "George Daniel J",
+              "Morgans Alicia K",
+              "Constantinovici Niculae",
+              "Khan Nasreen",
+              "Khan Javeed"
+            ],
+            "journal": "JAMA network open",
+            "year": "2024",
+            "abstract": "Novel androgen receptor inhibitors (ARIs; darolutamide, enzalutamide, and apalutamide) are standard-of-care treatments for nonmetastatic castration-resistant prostate cancer (nmCRPC). However, there are sparse data comparing their clinical use and tolerability.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺良性腫瘤（包含良性前列腺增生 BPH 相關新生物）受雄激素訊號調控，AR 在前列腺基質與上皮細胞均有表現。然而，Apalutamide 現有全部臨床試驗與文獻均針對惡性前列腺癌，尚無直接評估良性前列腺新生物的研究。機轉推演成立但缺乏直接臨床驗證；需注意 BPH 一線治療已有 5α-還原酶抑制劑（finasteride/dutasteride），定位需釐清。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "male reproductive organ cancer",
+      "txgnn": {
+        "score": 0.9741485118865968,
+        "rank": 19674
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04179864",
+            "title": "CELLO-1: A Phase 1b/2 Open-Label Study Evaluating Tazemetostat in Combination With Enzalutamide or Abiraterone/Prednisone in Chemotherapy Naive Subjects With Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 102,
+            "start_date": "2019-11-18",
+            "completion_date": "2024-11-04",
+            "brief_summary": "This is a global, multi-center, open-label, randomized phase 1b/2, active-controlled safety and efficacy study of oral administration of tazemetostat in combination with enzalutamide or abiraterone/prednisone (phase 1b) versus enzalutamide or abiraterone/prednisone alone in asymptomatic or mildly symptomatic subjects with progressive, metastatic castration-resistant prostate cancer (mCRPC) who have progressed on either abiraterone acetate, enzalutamide, or apalutamide or who are second generatio",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Apalutamide 聯合治療研究，雖終止但提供聯合療法安全性資料，男性生殖器官癌症適應症相關"
+            }
+          },
+          {
+            "nct_id": "NCT03124433",
+            "title": "Neoadjuvant Apalutamide (ARN509) and Radical Prostatectomy in the Treatment of Intermediate to High Risk Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2017-06-20",
+            "completion_date": "2019-08-22",
+            "brief_summary": "This is an investigator-initiated phase II single arm trial, combining neoadjuvant apalutamide (ARN509) with radical prostatectomy, in the treatment of D'Amico intermediate to high risk organ-confined prostate cancer. Apalutamide has shown efficacy in castrate resistant prostate cancer in phase II studies and are now in phase III trials combined with radiation in organ confined disease.\n\nThe primary study objectives include assessment of (i) oncological efficacy as determined by tumour downstagi",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 直接評估 Apalutamide 新輔助治療，完成且有結果，適應症高度匹配"
+            }
+          },
+          {
+            "nct_id": "NCT01171898",
+            "title": "An Open-Label, Phase 1/2, Safety, Pharmacokinetic and Proof-of-Concept Study of ARN-509 in Patients With Progressive Advanced Castration-Resistant Prostate Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 127,
+            "start_date": "2010-07-26",
+            "completion_date": "2025-07-22",
+            "brief_summary": "The purpose of this study is to assess the safety and activity of ARN-509 in men with advanced castration resistant prostate cancer. Patients will first be enrolled into Phase 1 of the study to identify a tolerable dose for the Phase 2 portion of the study. In the Phase 2, 3 different cohorts of patients will be enrolled to evaluate the safety and activity of ARN-509.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Apalutamide 的原始 Phase 1/2 概念驗證研究，奠定後續 Phase 3 基礎"
+            }
+          },
+          {
+            "nct_id": "NCT06865547",
+            "title": "ProA Study: ProActive Management Model in Metastatic Hormone Sensitive Prostate Cancer (mHSPC) Treated by Apalutamide",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 94,
+            "start_date": "2025-01-22",
+            "completion_date": "2026-08-30",
+            "brief_summary": "This is a Phase 4, multi-center, single arm, open-label clinical study to evaluate whether participants with mHSPC treated with apalutamide will benefit from the 4A ProActive Management Model.\n\nThe study will include a Screening Period of up to 14 days before assignment on Day 1 to establish study eligibility. Participants will get 4A ProActive Management according to the protocol .\n\nAs the background disease treatment, participants will received apalutamide according to local label (240 mg, 4 ×",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "真實世界管理模式研究，含 Apalutamide，提供 mHSPC 治療模式資料"
+            }
+          },
+          {
+            "nct_id": "NCT03899077",
+            "title": "A Phase II Study Comparing Salvage Radiotherapy in Combination With 6 Months of Androgen-deprivation Therapy Versus Anti-androgen Therapy With Apalutamide in Patients With Biochemical Progression After Radical Prostatectomy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 202,
+            "start_date": "2019-04-05",
+            "completion_date": "2025-12",
+            "brief_summary": "This is a phase II randomized, open-label study comparing salvage radiotherapy in combination with 6 months of androgen-deprivation therapy (ADT) with LHRH agonist or antagonist (arm A) versus anti-androgen therapy (AAT) with apalutamide 240mg daily (arm B) in hormone-naïve patients with biochemical progression after radical prostatectomy. All subjects will receive salvage radiotherapy as standard of care and will be randomly assigned in a 1:1 ratio to receive either 6 months of androgen-depriva",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 含 Apalutamide 臂位，評估放療後輔助治療，狀態未知降低可信度"
+            }
+          },
+          {
+            "nct_id": "NCT03436654",
+            "title": "Multi-arm Multi-modality Therapy for Very High Risk Localized and Low Volume Metastatic Prostatic Adenocarcinoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 102,
+            "start_date": "2018-06-21",
+            "completion_date": "2026-02-14",
+            "brief_summary": "The purpose of this study is to test if treatment with medications that reduce the male hormone level in the participant's body for a few months before surgery can shrink prostate cancer as much as possible, which might reduce the chances of the cancer coming back in the future. These treatments include a hormone injection given monthly or every three months and the study drugs, which include abiraterone acetate, prednisone, and apalutamide.\n\nThese medications are being used in combination with ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 多臂研究納入 Apalutamide，直接評估於高風險前列腺癌"
+            }
+          },
+          {
+            "nct_id": "NCT05202301",
+            "title": "Medication Adherence and Discontinuation Among Patients With Prostate Cancer Who Initiated Second Generation Androgen Receptor Inhibitors",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 13779,
+            "start_date": "2022-01-15",
+            "completion_date": "2025-07-15",
+            "brief_summary": "This is an observational study in which patient data from the past on men with prostate cancer are studied.\n\nCancer is a condition in which the body cannot control the growth of cells and tumors may form. If tumors form in the prostate, male sex hormones (androgens) can sometimes help the cancer spread and grow. Cancer that spreads to other parts of the body is called metastasis.\n\nAndrogens are mainly made in the testicles. There are treatments available for men with prostate cancer to lower the",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大規模真實世界依從性研究（n=13779），涵蓋 Apalutamide，提供用藥行為與持續性資料"
+            }
+          },
+          {
+            "nct_id": "NCT03767244",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Phase 3 Study of Apalutamide in Subjects With High-risk, Localized or Locally Advanced Prostate Cancer Who Are Candidates for Radical Prostatectomy",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 2517,
+            "start_date": "2019-06-11",
+            "completion_date": "2028-10-13",
+            "brief_summary": "The purpose of this study is to determine if treatment with apalutamide plus androgen deprivation therapy (ADT) before and after radical prostatectomy (RP) with pelvic lymph node dissection (pLND) in participants with high-risk localized or locally advanced prostate cancer results in an improvement in pathological complete response (pCR) rate and metastasis-free survival (MFS) as compared to placebo plus ADT.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接 Phase 3 RCT，評估 Apalutamide 於高風險前列腺癌，樣本量大（n=2517），為最高等級直接證據"
+            }
+          },
+          {
+            "nct_id": "NCT03840200",
+            "title": "A Phase Ib, Open-Label, Multicenter Study Evaluating the Safety and Efficacy of Ipatasertib in Combination With Rucaparib in Patients With Advanced Breast, Ovarian, or Prostate Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 51,
+            "start_date": "2019-06-12",
+            "completion_date": "2022-01-04",
+            "brief_summary": "This is a study in participants with advanced breast, ovarian, or prostate cancer to investigate the dose, safety, pharmacokinetics, and preliminary efficacy of ipatasertib in combination with rucaparib. The study consists of two parts: a Dose-Escalation Phase (Part 1) in participants with previously treated advanced breast cancer, ovarian cancer, or prostate cancer and a Dose-Expansion Phase (Part 2) in participants with advanced prostate cancer who have had at least one line of prior therapy w",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 聯合治療安全性研究，提供 Apalutamide 於前列腺癌的組合療法資料"
+            }
+          },
+          {
+            "nct_id": "NCT02366494",
+            "title": "Utility of Exosomal MicroRNAs to Predict Response to Androgen Deprivation Therapy in Prostate Cancer Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2015-04-29",
+            "completion_date": "2021-05-11",
+            "brief_summary": "Identify exosomal micro RNA that predict responses to ADT",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "生物標記研究，非 Apalutamide 特異性，間接提供 ADT 反應預測資訊"
+            }
+          },
+          {
+            "nct_id": "NCT04295447",
+            "title": "A Randomized, Open-label, Phase 2 Study of Adjuvant Apalutamide or Standard of Care in Subjects With High-risk, Localized or Locally Advanced Prostate Cancer After Radical Prostatectomy",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 190,
+            "start_date": "2020-12-10",
+            "completion_date": "2028-11-30",
+            "brief_summary": "The primary objective of this trial is to determine if adjuvant apalutamide in prostate cancer patients at high risk of developing subsequent metastatic disease results in prolonged biochemically recurrence-free survival after radical prostatectomy (RPE) in comparison to standard of care (SOC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07086651",
+            "title": "Real-world Clinical Outcomes With Androgen Receptor Pathway Inhibitors (ARPIs) in Metastatic Castration-sensitive Prostate Cancer (mCSPC) in the Flatiron Health Electronic Health Records (EHR) Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1300,
+            "start_date": "2025-07-21",
+            "completion_date": "2025-10-31",
+            "brief_summary": "The purpose of this study is to learn about how long apalutamide and enzalutamide are taken by men to treat mCSPC.\n\nProstate cancer is one of the most common cancers in men. The prostate is a gland in the male body that helps make semen. Metastatic cancer is a cancer that has spread to other parts of the body. Castration-sensitive prostate cancer means the cancer is being controlled by keeping the testosterone levels as low as would be expected if the testicles were removed by surgery.\n\nThis is ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04421222",
+            "title": "A Phase 1, Open-label Study to Evaluate the Safety, Pharmacokinetics, and Anti-Tumor Activity of Oral EPI-7386 in Patients with Castration-Resistant Prostate Cancer",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 71,
+            "start_date": "2020-06-23",
+            "completion_date": "2024-12-03",
+            "brief_summary": "This is a phase I, clinical research study of EPI-7386, an investigational drug being studied as a treatment for patients with prostate cancer. All patients in the study will receive EPI-7386.\n\nSince this is the first study of EPI-7386 in humans, there is no information about how it affects people or what dose should be used. Therefore, the main purpose of this study is to assess the safety (side effects) of EPI-7386 and to find a dose that can be given without unacceptable side effects.\n\nThere ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05751941",
+            "title": "A Phase II Randomized Study of Sipuleucel-T With or Without Continuing New Hormonal Agents (NHA) in Metastatic Prostate Cancer With PSA Progression While on NHA and LHRH Analog",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 26,
+            "start_date": "2023-02-14",
+            "completion_date": "2026-12",
+            "brief_summary": "This study is designed to test the hypothesis that using Sipuleucel-T (Provenge) in combination with new hormonal agents (NHA) (abiraterone, enzalutamide, apalutamide) for the treatment of participants with asymptomatic metastatic castration resistant prostate cancer (mCRPC) and no visceral metastases would enhance the activation of antigen presenting cells (APC) by sipuleucel-T.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05422911",
+            "title": "A Phase 2 Randomized Study of YONSA® (Abiraterone Acetate), Enzalutamide or Apalutamide as First Line Therapy in Veterans With Castrate-sensitive Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 200,
+            "start_date": "2022-06-30",
+            "completion_date": "2026-06-30",
+            "brief_summary": "The investigators have used national VHA data to demonstrate real-world efficacy of abiraterone and enzalutamide in Veterans with mCRPC. In the real-world that is the VHA, the investigators have successfully estimated g values that accurately predict OS and the use of this metric in other settings should now be explored. In the egalitarian system that is the VHA the treatment of prostate cancer is excellent, uniform across the US and indifferent to race. The choices made are clearly personalized",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07344363",
+            "title": "Prostate Cancer REsearch Using Cross-validation of Innovative Sampling, Integrating LC-MS/MS for Optimized Therapeutic Drug moNitoring",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-11-19",
+            "completion_date": "2027-11-19",
+            "brief_summary": "Applying Dried Blood Spots (DBS) techniques to pharmacokinetic analysis could significantly streamline the use of Therapeutic Drug Monitoring (TDM) in clinical practice. To establish DBS as a viable alternative sampling method, it is essential to demonstrate that results obtained from DBS analysis are reliable. This validation can be achieved through a cross-validation study. In this protocol, an original validated method, the plasma-based assay, serves as the \"reference\", while the alternative ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04557059",
+            "title": "A Randomized, Controlled, Multicenter, Open-label Study to Investigate the Efficacy and Safety of Adding Apalutamide to Radiotherapy and LHRH Agonist in High-Risk Patients With Hormone-Sensitive Prostate Cancer, Assessed by PSMA-PET With an Observational Cohort",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 694,
+            "start_date": "2020-11-12",
+            "completion_date": "2029-08-27",
+            "brief_summary": "The main purpose of this study is to determine if the addition of apalutamide to radiotherapy (RT) plus luteinizing hormone-releasing hormone agonist (LHRHa) delays metastatic progression as assessed by prostate specific membrane antigen-positron emission tomography (PSMA-PET) or death compared with RT plus LHRHa alone.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02867020",
+            "title": "Phase II Randomized Study of Abiraterone Acetate Plus ADT Versus APALUTAMIDE Versus Abiraterone and APALUTAMIDE in Patients With Advanced Prostate Cancer With Non-castrate Testosterone Levels",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 128,
+            "start_date": "2017-10-11",
+            "completion_date": "2021-06-30",
+            "brief_summary": "Evaluation of the activity, safety and patients reported outcome of ADT plus abiraterone, abiraterone plus APALUTAMIDE (a second-generation antiandrogen) or APALUTAMIDE alone in hormone naïve locally advanced or metastatic prostate cancer which ADT was indicated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05295927",
+            "title": "A Phase 1b Study of EPI-7386 in Combination With Abiraterone Acetate Plus Prednisone or Apalutamide in mCRPC (ARES: Androgen Receptor Eradication Study)",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2022-03-23",
+            "completion_date": "2022-09-30",
+            "brief_summary": "The purpose of this study is to determine safety, including dose limiting toxicities, and the recommended phase 2 dose (RP2D) of EPI-7386 in separate combinations with (a) abiraterone acetate plus prednisone or prednisolone (AAP) and (b) apalutamide (dose-finding) and to determine the antitumor activity of EPI-7386 in separate combinations with (a) AAP and (b) apalutamide (dose-expansion).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06652607",
+            "title": "Evaluation of Biochemical Response as Prognostic Factor in Metastatic Castration-Sensitive Prostate Cancer and Analysis of Baseline Characteristics Between Patients With or Without PSA Value of 0.2 ng/dl.",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 152,
+            "start_date": "2024-12-20",
+            "completion_date": "2028-04-30",
+            "brief_summary": "Prostate cancer remains the most common malignancy in men in Europe. Over the last two decades, the treatment landscape for both localized and metastatic prostate cancer has been revolutionized. For patients with metastatic castration-sensitive prostate cancer (mCSPC), the primary treatment objectives are to delay progression to metastatic castration-resistant prostate cancer (mCRPC) and to improve overall survival (OS). Although patients with PC may initially respond to androgen deprivation the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02789878",
+            "title": "Phase II Study of Neoadjuvant Androgen Deprivation Therapy Plus Abiraterone With or Without Apalutamide for Patients With High-Risk Localized Prostate Cancer Prior to Radical Prostatectomy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2019-01-24",
+            "completion_date": "2022-08-01",
+            "brief_summary": "This is a randomized study to evaluate the efficacy and safety neoadjuvant androgen deprivation therapy with goserelin and abiraterone with or without apalutamide prior to radical prostatectomy for patients diagnosed with localized high-risk prostate cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02489318",
+            "title": "A Phase 3 Randomized, Placebo-controlled, Double-blind Study of Apalutamide Plus Androgen Deprivation Therapy (ADT) Versus ADT in Subjects With Metastatic Hormone-sensitive Prostate Cancer (mHSPC)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 1052,
+            "start_date": "2015-11-27",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The purpose of this study is to determine if the addition of apalutamide to ADT provides superior efficacy in improving radiographic progression-free survival (rPFS) or overall survival (OS) for participants with mHSPC.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03725761",
+            "title": "A Multi-arm, Phase 2 Study to Evaluate the Safety and Efficacy of Sacituzumab Govitecan in Patients With Metastatic Castration-Resistant Prostate Cancer Who Have Progressed on Second Generation AR-Directed Therapy",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 31,
+            "start_date": "2018-10-24",
+            "completion_date": "2027-09",
+            "brief_summary": "This study will investigate the safety and efficacy of Sacituzumab Govitecan in patients with metastatic castration-resistant prostate cancer progressing on second generation androgen receptor (AR) directed therapy (e.g., enzalutamide, darolutamide, apalutamide and/or abiraterone).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05766371",
+            "title": "A Phase 2 Study of Pembrolizumab Plus 177Lu-PSMA-617 in Patients With Metastatic Castration Resistant Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 48,
+            "start_date": "2023-12-15",
+            "completion_date": "2031-05-31",
+            "brief_summary": "This is a single-center, open-label, study of Prostate-Specific Membrane Antigen (PSMA)-targeted radionuclide therapy with 177Lu-PSMA-617 in combination with pembrolizumab in participants with metastatic castrate-resistant prostate cancer (mCRPC) who have previously progressed on at least one prior androgen pathway inhibitor (e.g., abiraterone, enzalutamide, apalutamide).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04947254",
+            "title": "Phase II Trial of Primary Radiotherapy With Androgen Ablation With or Without Adjuvant Niraparib for Selected High-Risk Locoregional Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2021-08-05",
+            "completion_date": "2026-06-07",
+            "brief_summary": "This phase II trial studies the effect of androgen ablation therapy with or without niraparib after standard of care radiation therapy in treating patients with prostate cancer that has not spread to other parts of the body (localized) or that has spread to nearby tissue or lymph nodes (locally advanced). Androgen ablation therapy (also known as hormone therapy) lowers the levels of male hormones called androgens in the body. Androgens stimulate prostate cancer cells to grow. There are 2 types o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07181122",
+            "title": "Prospective Observational Evaluation of Quality of Life, Functional Status, and Cognitive Outcomes in Patients With Metastatic Hormone-Sensitive Prostate Cancer Undergoing Androgen Receptor Pathway Inhibitor Therapy",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 102,
+            "start_date": "2025-10-22",
+            "completion_date": "2026-09-15",
+            "brief_summary": "This prospective observational study will evaluate quality of life, functional status, and cognitive outcomes in men with metastatic hormone-sensitive prostate cancer (mHSPC) receiving androgen receptor pathway inhibitors (ARPIs) in addition to standard androgen deprivation therapy. ARPIs in this study include abiraterone acetate, apalutamide, enzalutamide, and darolutamide, depending on local availability. A total of 102 patients will be enrolled from two academic oncology centers in Türkiye.\n\n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05701007",
+            "title": "Real World Evidence Study on Metastatic Prostate Cancer Patient Characteristics, Treatment Patterns and Outcomes in the Pirkanmaa Hospital District in Finland",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1083,
+            "start_date": "2023-02-13",
+            "completion_date": "2024-04-10",
+            "brief_summary": "Comprehensive understanding of the epidemiology and disease burden of metastatic prostate cancer patients in Finland is lacking. This study will address the following questions:\n\n* What are the demographic and clinical characteristics of metastatic prostate cancer patients?\n* How are metastatic prostate cancer patients currently treated and how effective are these treatments?\n* How does the development of castration-resistance affect patient outcomes?\n* What is the economic burden of metastatic ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05241860",
+            "title": "A Phase 2 Trial of ADT Interruption in Patients Responding Exceptionally to AR-Pathway Inhibitor in Metastatic Hormone-Sensitive Prostate Cancer (MHSPC): A-DREAM",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 79,
+            "start_date": "2022-11-21",
+            "completion_date": "2033-09-01",
+            "brief_summary": "This phase II trial examines antiandrogen therapy interruptions in patients with hormone-sensitive prostate cancer that has spread to other places in the body (metastatic) responding exceptionally well to androgen receptor-pathway inhibitor therapy. The usual treatment for patients with metastatic prostate cancer is to receive hormonal medications including a medication to decrease testosterone levels in the body and a potent oral hormonal medication to block growth signals from male hormones (l",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06902441",
+            "title": "Impact of Androgen Receptor Signaling Inhibitors on Cardiovascular Events in Prostate Cancer: a Pharmacoepidemiology Study Using the French Health Care Claims Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 52000,
+            "start_date": "2025-01-07",
+            "completion_date": "2025-06-30",
+            "brief_summary": "In prostate cancer, whether advanced or localized, hormone therapy is a key treatment. These therapies work by lowering male hormone levels to slow the growth of cancer.\n\nMore recently, a new group of medications called Androgen Receptor Signaling Inhibitors (ARSIs) has been introduced. These drugs are used alongside standard hormone therapy and are now prescribed for both advanced and high-risk localized prostate cancer.\n\nThere are two main types of ARSIs: abiraterone acetate, which blocks the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06378866",
+            "title": "MC230502 Dynamic Investigator Initiated Enterprise (DIVINE) in Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 532,
+            "start_date": "2024-06-03",
+            "completion_date": "2029-05-31",
+            "brief_summary": "This phase II trial studies the effects of stereotactic body radiation therapy (SBRT) and the timing of treatment with androgen receptor pathway inhibitor (ARPI) plus androgen deprivation therapy (ADT) in treating patients with hormone sensitive prostate cancer that has spread from where it first started to other places in the body (metastatic), and that has come back after a period of improvement (recurrent). It also studies the effects of salvage radiation therapy (sXRT) on prostate cancer and",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06592924",
+            "title": "A Randomized Phase III Clinical Trial for the Addition of Docetaxel to Androgen Receptor Pathway Inhibitors in Patients With Metastatic Castration Sensitive Prostate Cancer and Suboptimal PSA Response",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 830,
+            "start_date": "2025-05-28",
+            "completion_date": "2031-04-15",
+            "brief_summary": "This study is being done to answer the following question: can the chance of prostate cancer growing or spreading be lowered by adding a drug to the usual combination of drugs?\n\nThis study would like to find out if this approach is better or worse than the usual approach for prostate cancer.\n\nThe usual approach for patients who are not in a study is hormone treatment with Androgen Deprivation Therapy (ADT) and Androgen-Receptor Pathway Inhibitor (ARPI).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06505278",
+            "title": "The Impact of Circadian Rhythm-Based Medication Timing Adjustment on the Efficacy and Safety of Novel Hormonal Therapy",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 70,
+            "start_date": "2024-08",
+            "completion_date": "2025-12",
+            "brief_summary": "The purpose of this study is to assess the impact of medication timing adjustment on the effect of novel hormonal therapy (NHT) agents in patients with metastatic hormone-sensitive prostate cancer (mHSPC). The half of the patients will receive NHT agents in the morning, and the other half will receive NHT agents in the evening.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03173859",
+            "title": "A Randomized Phase II Study to Investigate the Efficacy of Rotations Between Abiraterone Acetate and Apalutamide Versus Sequential Administration in Chemo-naïve Metastatic Castration Resistant Prostate Cancer Patients",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2018-01",
+            "completion_date": "2020-12-31",
+            "brief_summary": "A randomized phase II study comparing the sequential use of abiraterone followed after progression by apalutamide with alternating cycles of abiraterone and apalutamide",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03098836",
+            "title": "Prospective Study of Apalutamide and Abiraterone Acetate iN ChemoTHerapy-Naïve mEn With mCRPC Stratified by Race",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 93,
+            "start_date": "2017-07-10",
+            "completion_date": "2024-07-09",
+            "brief_summary": "The primary goal is to prospectively estimate the median PFS of African American and Caucasian men with mCRPC taking apalutamide, abiraterone acetate, and prednisone. Secondary objectives include: PSA kinetics: to determine the duration of PSA response, time to nadir, and percent of men who achieve a PSA \\< 0.1; Radiographic assessments: to estimate the rate of objective response and incidence of bone flares; Safety (NCI CTC v4.0) and tolerability, particularly incidence and grade of hypertensio",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06734130",
+            "title": "A Phase IIA Study of Adaptive Androgen Deprivation and Docetaxel in Metastatic Castration Sensitive Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 25,
+            "start_date": "2025-01-10",
+            "completion_date": "2028-11",
+            "brief_summary": "This is a prospective single center phase IIa open label nonrandomized study, which aims to test the hypothesis that the duration of castration sensitive phase of stage IV prostate cancer can be prolonged with adaptive androgen deprivation therapy (ADT) and Docetaxel.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03902951",
+            "title": "A Single-Arm, Open-Label, Phase II Study of Systemic and Tumor Directed Therapy for Recurrent Oligometastatic M1 Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 28,
+            "start_date": "2021-03-17",
+            "completion_date": "2028-01-01",
+            "brief_summary": "This phase II trial studies how well antiandrogen therapy (leuprolide, apalutamide, and abiraterone acetate) and stereotactic body radiation therapy (SBRT) works in treating patients with prostate cancer that has come back and has spread to other parts of the body. Drugs used in chemotherapy, such as leuprolide, apalutamide, and abiraterone acetate, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spre",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04423211",
+            "title": "Phase III Study of Local or Systemic Therapy INtensification DIrected by PET in Prostate CAncer Patients With Post-ProstaTEctomy Biochemical Recurrence (INDICATE)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 804,
+            "start_date": "2020-10-08",
+            "completion_date": "2032-12-31",
+            "brief_summary": "This phase III trial tests two questions by two separate comparisons of therapies. The first question is whether enhanced therapy (apalutamide in combination with abiraterone + prednisone) added to standard of care (prostate radiation therapy and short term androgen deprivation) is more effective compared to standard of care alone in patients with prostate cancer who experience biochemical recurrence (a rise in the blood level of prostate specific antigen \\[PSA\\] after surgical removal of the pr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03569280",
+            "title": "A First-in-Human Study to Determine the Safety, Pharmacokinetics and Efficacy of KPG-121 When Administered With Enzalutamide, Abiraterone, or Apalutamide in Subjects With Non-Metastatic or Metastatic Castration-Resistant Prostate Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2019-11-26",
+            "completion_date": "2023-06-15",
+            "brief_summary": "This is a Phase 1, open-label, multicenter study of KPG-121 administered orally once daily (QD) in 28-day treatment cycles to adult subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04267887",
+            "title": "Advanced ChemoHormonal Therapy for Treatment Naïve Metastatic Prostate Cancer: Apalutamide and Abiraterone Acetate With Prednisone and Androgen Deprivation Therapy After Treatment With Docetaxel and Androgen Deprivation Therapy",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 7,
+            "start_date": "2020-05-11",
+            "completion_date": "2030-01-01",
+            "brief_summary": "This phase II trial studies how well the combination of apalutamide, abiraterone acetate, and prednisone after chemotherapy work in treating patients that have received no prior treatment (treatment naive) for high risk prostate cancer that is sensitive to androgen deprivation therapy (castration sensitive) and has spread to other parts of the body (metastatic). This study also aims to understand the inheritance of prostate cancer. If a gene or genes that cause prostate cancer can be found, the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04104893",
+            "title": "A Phase 2 Study of a Checkpoint Inhibitor in Men With Progressive Metastatic Castrate Resistant Prostate Cancer Characterized by a Mismatch Repair Deficiency or Biallelic CDK12 Inactivation",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 40,
+            "start_date": "2020-02-20",
+            "completion_date": "2026-12-31",
+            "brief_summary": "The primary objective is to assess the activity and efficacy of pembrolizumab, a checkpoint inhibitor, in Veterans with metastatic castration-resistant prostate cancer (mCRPC) characterized by either mismatch repair deficiency (dMMR) or biallelic inactivation of CDK12 (CDK12-/-). The secondary objectives involve determining the frequency with which dMMR and CDK12-/- occur in this patient population, as well as the effects of pembrolizumab on various clinical endpoints (time to PSA progression, m",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04946370",
+            "title": "Phase I/II Trial of Pembrolizumab and Androgen-receptor Inhibitor With or Without 225Ac-J591 for Progressive Metastatic Castration Resistant Prostate Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 37,
+            "start_date": "2021-08-12",
+            "completion_date": "2029-12",
+            "brief_summary": "This is a phase I/II study investigating the combination of 225Ac-J591 (a drug that can deliver radiation to prostate cancer cells) with pembrolizumab (immunotherapy, a drug that increases the immune system's ability to destroy cancer cells). This study will assess whether 225Ac-J591 + pembrolizumab + androgen receptor inhibitor (ARI) is more effective against prostate cancer than pembrolizumab + ARI alone.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06473259",
+            "title": "Evaluation of Clinical Outcomes of Chemotherapy or Androgen-receptor Targeting Therapy (Alone or in Combination) or Radiotherapy on the Primary Tumor in Combination With Androgen Deprivation Therapy in Metastatic Hormone-sensitive Prostate Cancer: Multicenter Observational Study of Patients Undergoing Treatment in Clinical Practice in Italian Hospitals",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 3000,
+            "start_date": "2016-12-16",
+            "completion_date": "2028-12",
+            "brief_summary": "The aim of this observational study is to evaluate the clinical outcomes of treatment with docetaxel, ARTA (alone or in combination) or with radiotherapy on the primary tumor for mCSPC, in an unselected population, in clinical practice",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02903368",
+            "title": "Phase II Randomized Study Of Neoadjuvant And Adjuvant Abiraterone Acetate + Apalutamide For Intermediate-High Risk Prostate Cancer Undergoing Prostatectomy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 118,
+            "start_date": "2016-10-19",
+            "completion_date": "2024-07-10",
+            "brief_summary": "This multicenter randomized phase II trial investigates the impact of intense androgen deprivation on radical prostatectomy (RP) pathologic response and radiographic and tissue biomarkers in localized prostate cancer (NCT02903368).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07002320",
+            "title": "ASpiRE: A Proof-of-mechanism and Proof-of-concept Clinical Trial Evaluating the Safety, Tolerability, Biological and Anti-tumour Activity of Apalutamide With Dual CXCR1 and CXCR2 Blockade by SX-682 for Men Suffering From Metastatic Castration-resistant Prostate Cancer (mCRPC)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 78,
+            "start_date": "2025-04-28",
+            "completion_date": "2029-10",
+            "brief_summary": "ASpiRE will investigate the effect of the drug SX-682 in combination with Apalutamide in men suffering from metastatic castration-resistant prostate cancer (mCRPC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04034095",
+            "title": "The Registry to Observe Clinical Outcomes of Patients With High-risk Metastatic Hormone-naïve Prostate Cancer in Japan",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 979,
+            "start_date": "2019-07-08",
+            "completion_date": "2024-08-13",
+            "brief_summary": "The purpose of this registry study is to longitudinally observe clinical outcomes and patient-reported outcomes (PRO) for participants with high-risk metastatic hormone-naive prostate cancer (mHNPC) in the real-world setting in Japan.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04926181",
+            "title": "A Phase 2 Study of Apalutamide Plus Cetrelimab in Patients With Treatment-Emergent Small Cell Neuroendocrine Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2022-03-16",
+            "completion_date": "2024-03-31",
+            "brief_summary": "Despite the low androgen receptor (AR) transcriptional activity of treatment-emergent small cell neuroendocrine prostate cancer, there is persistent AR expression observed in the majority of treatment-emergent small-cell neuroendocrine prostate cancer (t-SCNC) biopsies. This indicates that epigenetic dysregulation leads to reprogramming away from an AR-driven transcriptional program. Therefore, continuation of AR blockade in the form of apalutamide may provide additive benefit compared to immune",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05534646",
+            "title": "Phase II Study of Apalutamide With Carotuximab in Metastatic, Castration-Resistant Prostate Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2023-12-27",
+            "completion_date": "2027-01",
+            "brief_summary": "This is an open-label, multi-site study of apalutamide with carotuximab in patients who have progressed on androgen receptor signaling inhibitor (ARSI) therapy. This study will begin with a safety assessment in the first 10 subjects (part 1: Safety Lead-in). If the combination is deemed safe, the trial will proceed to the Phase II stage. The purpose of this study is to compare progression free survival (PFS) between patients receiving apalutamide and apalutamide + carotuximab using Response Eval",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06838520",
+            "title": "A Prospective Study on the Impact of Androgen Deprivation Therapy (ADT) and Androgen Receptor Pathway Inhibitors (ARPI) on Bone Loss in Prostate Cancer Patients",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 200,
+            "start_date": "2025-04-01",
+            "completion_date": "2030-12-31",
+            "brief_summary": "This study aims to assess the impact of Androgen Deprivation Therapy (ADT) and Androgen Receptor Pathway Inhibitors (ARPI) on bone quality in patients with prostate cancer. Patients undergoing ADT for prostate cancer often experience adverse effects such as decreased bone density and increased fracture risk. While ARPIs are emerging as novel therapeutic agents, their effects on bone quality remain unclear. This study will compare patients receiving combined ADT and ARPI therapy with those receiv",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04585932",
+            "title": "Phase 2 Response Evaluation of Finite Systemic Therapy With Advanced Androgen Signaling Inhibition and Radiation Therapy for Oligorecurrent Prostate Cancer (RESTART)",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-11-24",
+            "completion_date": "2021-01-08",
+            "brief_summary": "This phase II trial studies how well androgen deprivation therapy and apalutamide with or without radiation therapy works for the treatment of prostate cancer that has a rise in the blood level of prostate-specific antigen (PSA) and has come back after treatment with surgery or radiation (biochemically recurrent). Androgens can cause the growth of prostate tumor cells. Apalutamide may help fight prostate cancer by blocking the use of androgens by the tumor cells. Androgen deprivation therapy dru",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06276465",
+            "title": "Combination of Darolutamide and Stereotactic Body Radiation Therapy in Patients With Castration Resistant Prostate Cancer and Oligometastases on Functional Imaging",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 336,
+            "start_date": "2024-10-07",
+            "completion_date": "2032-10-07",
+            "brief_summary": "In earlier stages of prostate cancer, male sexual hormones (androgens) stimulate the growth of cancer cells. Castration-resistant prostate cancer (CRPC) means that the prostate cancer continued to grow despite patients are taking hormone therapy to control the disease. One of the standard treatments for these patients is so-called 'new generation' hormonal therapy. These hormone therapies include apalutamide, enzalutamide, or darolutamide. They work by blocking androgen receptors that play an im",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32534790",
+            "title": "Advanced Prostate Cancer: Treatment Advances and Future Directions.",
+            "authors": [
+              "Swami Umang",
+              "McFarland Taylor R",
+              "Nussenzveig Roberto",
+              "Agarwal Neeraj"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2020",
+            "abstract": "Prostate cancer affects one in every nine men in the USA and is the second leading cause of cancer-related death. The treatment landscape of advanced prostate cancer is changing rapidly. Multiple agents including abiraterone, enzalutamide, apalutamide, darolutamide, docetaxel, cabazitaxel, radium-223, and sipuleucel-T have been approved for advanced prostate cancer. Appropriate drug selection remains crucial in this evolving landscape to derive maximum benefit for the patients. We summarize clin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32355025",
+            "title": "Regenerative potential of prostate luminal cells revealed by single-cell analysis.",
+            "authors": [
+              "Karthaus Wouter R",
+              "Hofree Matan",
+              "Choi Danielle",
+              "Linton Eliot L",
+              "Turkekul Mesruh"
+            ],
+            "journal": "Science (New York, N.Y.)",
+            "year": "2020",
+            "abstract": "Androgen deprivation is the cornerstone of prostate cancer treatment. It results in involution of the normal gland to ~90% of its original size because of the loss of luminal cells. The prostate regenerates when androgen is restored, a process postulated to involve stem cells. Using single-cell RNA sequencing, we identified a rare luminal population in the mouse prostate that expresses stemlike genes (Sca1 + and Psca +) and a large population of differentiated cells (Nkx3.1 +, Pbsn +). In organo",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36167599",
+            "title": "ARNEO: A Randomized Phase II Trial of Neoadjuvant Degarelix with or Without Apalutamide Prior to Radical Prostatectomy for High-risk Prostate Cancer.",
+            "authors": [
+              "Devos Gaëtan",
+              "Tosco Lorenzo",
+              "Baldewijns Marcella",
+              "Gevaert Thomas",
+              "Goffin Karolien"
+            ],
+            "journal": "European urology",
+            "year": "2023",
+            "abstract": "High-risk prostate cancer (PCa) patients have a high risk of biochemical recurrence and metastatic progression following radical prostatectomy (RP).",
+            "classification": {
+              "study_type": "Phase 2 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32930958",
+            "title": "Apalutamide: A Review in Metastatic Castration-Sensitive Prostate Cancer.",
+            "authors": [
+              "Hoy Sheridan M"
+            ],
+            "journal": "Drugs",
+            "year": "2020",
+            "abstract": "Apalutamide (Erleada®) is an oral selective androgen receptor (AR) inhibitor that binds directly to the ligand-binding domain of the AR. It is approved in the EU and the USA for the treatment of adult men with metastatic castration-sensitive prostate cancer (mCSPC). In a multinational, phase III study (TITAN) in this patient population, the addition of apalutamide (240 mg once daily) to androgen deprivation therapy (ADT) significantly improved median radiographic progression-free survival (rPFS)",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36660947",
+            "title": "STEAP1 regulation and its influence modulating the response of LNCaP prostate cancer cells to bicalutamide, enzalutamide and apalutamide.",
+            "authors": [
+              "Rocha Sandra M",
+              "Nascimento Daniel",
+              "Cardoso Ana Margarida",
+              "Passarinha Luís",
+              "Socorro Sílvia"
+            ],
+            "journal": "Molecular medicine reports",
+            "year": "2023",
+            "abstract": "Anti‑androgen drugs are the standard pharmacological therapies for treatment of non‑metastatic prostate cancer (PCa). However, the response of PCa cells may depend on the anti‑androgen used and often patients become resistant to treatment. Thus, studying how the anti‑androgen drugs affect oncogenes expression and action and the identification of the best strategy for combined therapies are essential to improve the efficacy of treatments. The Six Transmembrane Epithelial Antigen of the Prostate 1",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35091711",
+            "title": "NEAR trial: A single-arm phase II trial of neoadjuvant apalutamide monotherapy and radical prostatectomy in intermediate- and high-risk prostate cancer.",
+            "authors": [
+              "Lee Lui Shiong",
+              "Sim Adelene Y L",
+              "Ong Chee Wee",
+              "Yang Xinyan",
+              "Ng Cedric C Y"
+            ],
+            "journal": "Prostate cancer and prostatic diseases",
+            "year": "2022",
+            "abstract": "Treatment efficacy of androgen deprivation therapy with radical prostatectomy for intermediate- to high-risk prostate cancer is less well-studied. The NEAR trial is a single-arm, phase II investigation of neoadjuvant apalutamide monotherapy and radical prostatectomy (RP) in the treatment of D'Amico intermediate- and high-risk prostate cancer (NCT03124433).",
+            "classification": {
+              "study_type": "Phase 2 Single-arm",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29734647",
+            "title": "Recent Advances in Prostate Cancer Treatment and Drug Discovery.",
+            "authors": [
+              "Nevedomskaya Ekaterina",
+              "Baumgart Simon J",
+              "Haendler Bernard"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Novel drugs, drug sequences and combinations have improved the outcome of prostate cancer in recent years. The latest approvals include abiraterone acetate, enzalutamide and apalutamide which target androgen receptor (AR) signaling, radium-223 dichloride for reduction of bone metastases, sipuleucel-T immunotherapy and taxane-based chemotherapy. Adding abiraterone acetate to androgen deprivation therapy (ADT) in order to achieve complete androgen blockade has proven highly beneficial for treatmen",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36000794",
+            "title": "Patient-reported outcomes of a phase II neoadjuvant apalutamide (ARN-509) and radical prostatectomy in treatment of intermediate- to high-risk prostate cancer (NEAR) trial.",
+            "authors": [
+              "Yang Xinyan",
+              "Allen John Carson",
+              "Aslim Edwin Jonathan",
+              "Tay Kae Jack",
+              "Yuen Shyi Peng John"
+            ],
+            "journal": "International journal of urology : official journal of the Japanese Urological Association",
+            "year": "2022",
+            "abstract": "The NEAR trial is a single-arm phase II trial investigating the efficacy of neoadjuvant apalutamide and radical prostatectomy in the treatment of D'Amico intermediate- to high-risk prostate cancer. This publication focuses on health-related quality of life (HRQoL) during 12 weeks of neoadjuvant apalutamide treatment.",
+            "classification": {
+              "study_type": "Phase 2 PRO Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32673844",
+            "title": "Recent developments in the treatment of non-metastatic castration resistant prostate cancer.",
+            "authors": [
+              "Esther John",
+              "Dorff Tanya B",
+              "Maughan Benjamin L"
+            ],
+            "journal": "Cancer treatment and research communications",
+            "year": "2020",
+            "abstract": "Non-metastatic castration resistant prostate cancer (nmCRPC) is defined as a disease state withlack of radiographic evidence of metastatic disease, a confirmed rising PSA level on continuous ADT and maintaining a castrate level of testosterone following definitive therapy. Prior to the publication of PROSPER, SPARTAN and ARAMIS, no trials have demonstrated a clinical benefit for these patients. Recently enzalutamide, apalutamide, and darolutamide respectively, were tested in this disease setting",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31977390",
+            "title": "Treatment of Primary in Metastatic Prostate Cancer: What Is the Standard of Care?",
+            "authors": [
+              "Joseph Nuradh",
+              "Anjanappa Milan",
+              "Choudhury Ananya"
+            ],
+            "journal": "Cancer journal (Sudbury, Mass.)",
+            "year": "2020",
+            "abstract": "Until recently, men with metastatic prostate cancer were commenced on androgen deprivation therapy at diagnosis, followed by sequential lines of treatment with the development of castration resistance. However, the results of recent clinical trials, which revealed that the addition of radiotherapy to the prostate to a dose of 55 to 60 Gy in 20 fractions over 4 weeks in patients with low-volume metastatic hormone-sensitive prostate cancer, in addition to androgen deprivation therapy and another s",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36719646",
+            "title": "How PET-CT is Changing the Management of Non-metastatic Castration-resistant Prostate Cancer?: Comment la TEP-TDM Peut Modifier la Prise en Charge du Cancer de la Prostate Non Métastatique Résistant à la Castration ?",
+            "authors": [
+              "Baboudjian M",
+              "Gauthé M",
+              "Barret E",
+              "Brureau L",
+              "Rocchi P"
+            ],
+            "journal": "Progres en urologie : journal de l'Association francaise d'urologie et de la Societe francaise d'urologie",
+            "year": "2022",
+            "abstract": "The aim of this narrative review conducted by the Prostate Cancer Committee of the French Association of Urology (CC-AFU) was to provide an update on the current evidence for the impact of PET/CT in the management of men with non-metastatic castration-resistant prostate cancer (nmCRPC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32015092",
+            "title": "Oncogenic ERG Represses PI3K Signaling through Downregulation of IRS2.",
+            "authors": [
+              "Mao Ninghui",
+              "Gao Dong",
+              "Hu Wenhuo",
+              "Gadal Sunyana",
+              "Hieronymus Haley"
+            ],
+            "journal": "Cancer research",
+            "year": "2020",
+            "abstract": "Genomic rearrangements leading to the aberrant expression of ERG are the most common early events in prostate cancer and are significantly enriched for the concomitant loss of PTEN. Genetically engineered mouse models reveal that ERG overexpression alone is not sufficient to induce tumorigenesis, but combined loss of PTEN results in an aggressive invasive phenotype. Here, we show that oncogenic ERG repressed PI3K signaling through direct transcriptional suppression of IRS2, leading to reduced RT",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31855178",
+            "title": "TLE3 loss confers AR inhibitor resistance by facilitating GR-mediated human prostate cancer cell growth.",
+            "authors": [
+              "Palit Sander Al",
+              "Vis Daniel",
+              "Stelloo Suzan",
+              "Lieftink Cor",
+              "Prekovic Stefan"
+            ],
+            "journal": "eLife",
+            "year": "2019",
+            "abstract": "Androgen receptor (AR) inhibitors represent the mainstay of prostate cancer treatment. In a genome-wide CRISPR-Cas9 screen using LNCaP prostate cancer cells, loss of co-repressor TLE3 conferred resistance to AR antagonists apalutamide and enzalutamide. Genes differentially expressed upon TLE3 loss share AR as the top transcriptional regulator, and TLE3 loss rescued the expression of a subset of androgen-responsive genes upon enzalutamide treatment. GR expression was strongly upregulated upon AR ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34353917",
+            "title": "Rapid interrogation of cancer cell of origin through CRISPR editing.",
+            "authors": [
+              "Feng Weiran",
+              "Cao Zhen",
+              "Lim Pei Xin",
+              "Zhao Huiyong",
+              "Luo Hanzhi"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2021",
+            "abstract": "The increasing complexity of different cell types revealed by single-cell analysis of tissues presents challenges in efficiently elucidating their functions. Here we show, using prostate as a model tissue, that primary organoids and freshly isolated epithelial cells can be CRISPR edited ex vivo using Cas9-sgRNA (guide RNA) ribotnucleoprotein complex technology, then orthotopically transferred in vivo into immunocompetent or immunodeficient mice to generate cancer models with phenotypes resemblin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36420892",
+            "title": "Clinical utility of intraductal carcinoma of the prostate in treatment selection for metastatic hormone-sensitive prostate cancer.",
+            "authors": [
+              "Naito Yushi",
+              "Kato Masashi",
+              "Kawanishi Hideji",
+              "Yamamoto Akiyuki",
+              "Sakamoto Fumitoshi"
+            ],
+            "journal": "The Prostate",
+            "year": "2023",
+            "abstract": "In recent years, the usefulness of androgen receptor axis-targeted agents (ARATs) such as abiraterone, enzalutamide, and apalutamide for the upfront treatment of metastatic hormone-sensitive prostate cancer (mHSPC) has been demonstrated. However, it remains unclear which patients would truly benefit from these treatments. Furthermore, intraductal carcinoma of the prostate (IDC-P) is a known poor prognostic factor in patients with prostate cancer. We investigated the association between the prese",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31980408",
+            "title": "Relationship Between Metastasis-free Survival and Overall Survival in Patients With Nonmetastatic Castration-resistant Prostate Cancer.",
+            "authors": [
+              "Smith Matthew R",
+              "Mehra Maneesha",
+              "Nair Sandhya",
+              "Lawson Joe",
+              "Small Eric J"
+            ],
+            "journal": "Clinical genitourinary cancer",
+            "year": "2020",
+            "abstract": "Metastasis-free survival (MFS) has been shown to be predictive of overall survival (OS) in hormone-sensitive localized prostate cancer. We evaluated the relationship between MFS and OS in nonmetastatic castration-resistant prostate cancer (nmCRPC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32073798",
+            "title": "[Androgen receptor inhibitors in prostate cancer: new drugs, but for which patient?].",
+            "authors": [
+              "Vis André N",
+              "van Moorselaar R J A"
+            ],
+            "journal": "Nederlands tijdschrift voor geneeskunde",
+            "year": "2019",
+            "abstract": "The results of a recent randomised phase 3 clinical trial show that the androgen receptor antagonist darolutamide improves metastasis-free survival in men with non-metastatic, castration-resistant prostate cancer, compared with placebo. The trial included 1509 men with a prostate-specific antigen doubling time of 10 months or less. Non-metastatic disease was defined as the absence of metastases, using conventional imaging rather than the substantially more sensitive PSMA scans. The effect of dar",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38485300",
+            "title": "Effect of Prior Prostate Directed Local Therapy on Response to Apalutamide in Metastatic Hormone Sensitive Prostate Cancer: A Secondary Analysis of the TITAN Study.",
+            "authors": [
+              "Roy Soumyajit",
+              "Saad Fred",
+              "Malone Shawn",
+              "Agarwal Neeraj",
+              "Mohamad Osama"
+            ],
+            "journal": "European urology",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Apalutamide 直接作用於雄激素受體（AR）訊號軸，為前列腺癌標準治療靶點。AR 過度活化驅動前列腺癌細胞增殖與存活，AR 訊號抑制可延緩疾病進展。已有多個 Phase 3 RCT（SPARTAN、TITAN）直接證實療效於 nmCRPC 與 mCSPC。Guardrails：本地監管批准狀態需確認；CYP3A4 誘導 DDI 管理；皮疹、疲勞、甲狀腺功能不全等副作用監測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "benign prostate phyllodes tumor",
+      "txgnn": {
+        "score": 0.972087562084198,
+        "rank": 20470
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與「prostate phyllodes tumor」重疊，良性型態手術預後良好，系統性藥物治療需求更低。無任何 Apalutamide 相關臨床前或臨床研究，仍屬純粹機轉推演。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "palmoplantar keratoderma-sclerodactyly syndrome",
+      "txgnn": {
+        "score": 0.9705135822296144,
+        "rank": 21070
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "掌蹠角化症-硬指症候群（Palmoplantar keratoderma-sclerodactyly syndrome）為罕見遺傳性皮膚結締組織疾病，病因主要為角蛋白或橋粒蛋白基因突變，與 AR 訊號軸無已知機轉關聯。TxGNN 高分極可能為模型偽陽性（false positive），反映知識圖譜中不相關節點間的間接連結，不具臨床意義。此適應症應列為最低優先級，不建議任何後續研究投入。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate cancer/brain cancer susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate cancer/brain cancer susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate cancer/brain cancer susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate leiomyoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate leiomyoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate leiomyoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "Brenner tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "Brenner tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "Brenner tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign reproductive system neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "fibroma of prostate"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "fibroma of prostate"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "fibroma of prostate"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate phyllodes tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate phyllodes tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "prostate phyllodes tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign neoplasm of prostate"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign neoplasm of prostate"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign neoplasm of prostate"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "male reproductive organ cancer"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "male reproductive organ cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "male reproductive organ cancer"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "benign prostate phyllodes tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "palmoplantar keratoderma-sclerodactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "palmoplantar keratoderma-sclerodactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apalutamide",
+        "disease": "palmoplantar keratoderma-sclerodactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

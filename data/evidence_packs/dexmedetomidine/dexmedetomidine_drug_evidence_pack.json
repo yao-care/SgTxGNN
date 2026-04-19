@@ -1,0 +1,1994 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00633-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dexmedetomidine",
+    "drugbank_id": "DB00633",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9960008263587952,
+        "rank": 5600
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 由 AVPR2（V2 受體）功能增益突變導致，為腎臟集合管對 ADH 持續過度反應。Dexmedetomidine 的 Alpha-2 受體機轉可能間接影響下視丘 ADH 分泌，但 NSIAD 的核心缺陷在於受體本身而非 ADH 分泌調控，機轉關聯極弱。TxGNN 高分（0.996）可能反映知識圖譜中低鈉血症/體液調節路徑的間接連結，無任何臨床支持數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9949122071266174,
+        "rank": 6553
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06514040",
+            "title": "Nebulized Dexmedetomidine Versus Oral Sumatriptan for Treatment of Post-Dural Puncture Headache Following Caesarian Section (Randomized Comparative Study)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2023-11-27",
+            "completion_date": "2024-09-30",
+            "brief_summary": "comparison between oral sumatriptan and Nebulized Dexmedetomidine in Post Dural Puncture Headache in Cesarean Section",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "已完成，n=48，Phase NA。霧化 Dexmedetomidine vs 口服 Sumatriptan 治療 PDPH。以 Sumatriptan（偏頭痛標準治療）作為比較組具間接意義，但研究目標為 PDPH 而非原發性偏頭痛，直接外推性受限。評為 B 而非 C 係因機轉與藥物選擇具比較意義。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alpha-2 促效劑可抑制三叉神經末梢去甲腎上腺素釋放，理論上降低三叉神經血管系統激活及 CGRP 釋放（偏頭痛核心機轉）。然而現有唯一試驗（NCT06514040）聚焦於 PDPH（繼發性頭痛），該研究使用 Sumatriptan 作為比較藥物僅反映其頭痛鎮痛效應，不能推論對原發性偏頭痛的特異性療效。機轉類比不完整，需獨立試驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9935253858566284,
+        "rank": 7806
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alpha-2 受體在腦幹（尤其藍斑核、腦橋旁核）高度表達，理論上可調節腦幹痛覺傳導迴路，對基底動脈型偏頭痛具推測性機轉關聯。惟無任何臨床試驗或直接文獻支持，目前僅為 TxGNN 圖神經網路預測（分數 0.9935），不具臨床轉化依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9930445551872252,
+        "rank": 8196
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06587711",
+            "title": "Application of Cheek Acupuncture in Vaginal Tightening Surgery",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 60,
+            "start_date": "2024-09",
+            "completion_date": "2025-02",
+            "brief_summary": "A large number of studies have shown that acupuncture can reduce perioperative pain in patients. Cheek acupuncture therapy is a new acupuncture treatment, which belongs to the microneedle system, that is, acupuncture at specific acupoint on the face, which can relieve patients' pain. In this study, the efficacy and safety of cheek acupuncture in patients undergoing vaginal tightening surgery was verified by observing the consumption of opioid, intraoperative hemodynamics, dosage of oral remedial",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "頰針在陰道緊縮術中的應用，Dexmedetomidine 非主要干預措施，與頭痛再利用研究無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT06404983",
+            "title": "A Comparative Evaluation of Opioid Free Anaesthesia Technique Versus the Conventional Technique in Oncological Breast Surgery",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2022-12-28",
+            "completion_date": "2027-09-12",
+            "brief_summary": "Background:\n\nVarious analgesic modalities are adopted for perioperative analgesia in breast cancer surgeries. Opioid-free and opioid-sparing techniques are gaining popularity due to the lack of opioid-dependent undesirable effects, including respiratory depression, urinary retention, nausea and vomiting, constipation, itching, opioid-induced hyperalgesia, tolerance, addiction, and immune system disorders.\n\nThe goal of this prospective randomized clinical trial is to investigate the impact of opi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "無阿片麻醉技術比較研究，Dexmedetomidine 作為麻醉輔助藥物，頭痛非主要終點，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT05742438",
+            "title": "Effect of Dexmedetomidine Infusion, Lidocaine Infusion, and Intrathecal Morphine Injection on Biomarker for Perioperative Stress and Immune Response, and Cancer Progression and Metastasis in Colorectal Cancer Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 114,
+            "start_date": "2023-04-12",
+            "completion_date": "2023-08-05",
+            "brief_summary": "This is a prospective randomized controlled trial. Investigators aimed to compare the effect of three different anesthetic adjuvants (continuous infusion of lidocaine or dexmedetomidine, intrathecal morphine injection) on the biomarker for cancer recurrence and metastasis.\n\nPatients undergoing elective colorectal cancer surgery will be randomly allocated to three parallel arms and the biomarkers for cancer recurrence and metastasis, inflammation, and immune response will be compared. And we will",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "已完成，n=114。評估 Dexmedetomidine 輸注對術後生物標記影響，頭痛為次要觀察指標，提供機轉相關生物標記數據。"
+            }
+          },
+          {
+            "nct_id": "NCT03513757",
+            "title": "An Observer-blinded Randomized Study of Propofol Infusion vs Bolus Dexmedetomidine and Propofol Sedation for Pediatric Magnetic Resonance Imaging",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2018-03-04",
+            "completion_date": "2018-10-21",
+            "brief_summary": "The purpose of this study is to compare the results of combining two anesthetic medications (dexmedetomidine and propofol) in low doses with a standard dose of a single drug that is commonly used to provide sedation/anesthesia for MRI studies in young children (propofol).\n\nThe drugs used for the MRI scan in this study will be chosen randomly. Half the patients will receive small doses of propofol and dexmedetomidine. The other half will receive propofol administered constantly throughout the sca",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 鎮靜研究，Dexmedetomidine 與 Propofol 混合使用，頭痛非主要終點，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT04327726",
+            "title": "Effectiveness of Nebulized Dexmedetomidine for Treatment of Post-Dural Puncture Headache in Parturients Undergoing Elective Cesarean Section Under Spinal Anesthesia: Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 43,
+            "start_date": "2020-05-01",
+            "completion_date": "2021-02-28",
+            "brief_summary": "Postdural puncture headache (PDPH) is a common complication, following neuraxial techniques. The obstetric population is particularly prone to PDPH. Therefore, treatment of PDPH is a key issue in obstetric anesthesia.\n\nDexmedetomidine is a highly selective, centrally acting α2-adrenergic agonist with analgesic and anxiolytic effects. Moreover, it decreases cerebral blood flow (CBF) in humans and animals secondary to cerebrovascular vasoconstriction. It has been used via the intranasal and inhala",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "已完成，n=43。直接評估霧化 Dexmedetomidine 治療產婦 PDPH 有效性，結果已發表（PMID 33993346），為核心支持性 RCT。"
+            }
+          },
+          {
+            "nct_id": "NCT05462938",
+            "title": "Comparative Study of Propofol Versus Dexmedetomidine for Conscious Sedation During Transcatheter Aortic Valve Implantation",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2021-11-11",
+            "completion_date": "2025-11-15",
+            "brief_summary": "Aortic valve stenosis is the heart valve disease with the highest prevalence among the elderly, and may lead to heart failure. Until recently, the only definitive treatment was surgical replacement (SAVR). However, the increased risk associated with the surgical procedure excluded patients with multiple co-morbidities. As the population is aging and more and more patients may present with aortic stenosis, the need of a less invasive approach has emerged. Transcatheter Aortic Valve Replacement (T",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "TAVI 術中鎮靜比較研究（狀態 UNKNOWN），與頭痛治療再利用無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT04910477",
+            "title": "Comparative Effects of Nebulized Dexmedetomidine Versus Neostigmine / Atropine in Treating Postdural Puncture Headache After Cesarean Section: A Double Blind Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2021-06-01",
+            "completion_date": "2021-09-03",
+            "brief_summary": "In our study, we will compare a new route of nebulization for effectiveness between dexmedetomidine, neostigmine/atropine and saline placebo for females complained of postdural puncture headache (PDPH) after cesarean section.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，已完成，n=90。直接比較霧化 Dexmedetomidine vs Neostigmine/Atropine 治療剖腹產後 PDPH，為本適應症最高等級直接試驗證據，結果已發表（PMID 36651373）。"
+            }
+          },
+          {
+            "nct_id": "NCT06824025",
+            "title": "Comparison of Nebulized Neostigmine/Atropine Versus Lignocaine in Treating Acute Post-dural Puncture Headache Following Subarachnoid Block in Parturient Undergoing Elective Cesarean Section. A Randomized, Clinical Trial.",
+            "phase": "EARLY_PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 111,
+            "start_date": "2025-02-20",
+            "completion_date": "2027-01-05",
+            "brief_summary": "Post-dural puncture headache (PDPH) is a common and debilitating complication of spinal anesthesia in pregnant patients undergoing cesarean sections, with an incidence ranging from 0.5% to 2% (1). The International Headache Society (IHS) defines PDPH as a headache occurring within 4 days of a lumbar puncture, caused by cerebrospinal fluid (CSF) leakage through the dural puncture (2). Although the exact cause of PDPH is not fully understood, it is thought to occur due to cerebrospinal fluid loss ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "尚未招募，n=111，早期 Phase 1。比較 Neostigmine/Atropine vs Lignocaine 治療 PDPH，Dexmedetomidine 為歷史對照組參考，提供間接競爭性定位數據。"
+            }
+          },
+          {
+            "nct_id": "NCT03319511",
+            "title": "Comparison Between Thoracic Para-vertebral Block and Segmental Thoracic Spinal Anesthesia in Breast Cancer Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2014-11-24",
+            "completion_date": "2016-11-12",
+            "brief_summary": "General anesthesia is the conventional technique used for breast surgery. breast surgery is associated with a high incidence of postoperative pain, it is estimated that over 50 % of women suffer chronic pain following breast cancer surgery. Regional anesthesia is a good alternative to general anesthesia for breast cancer surgery, providing superior analgesia and fewer side effects related to a standard opiate-based analgesia. there is no evident optimal regional techniques for operative procedur",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "胸旁椎阻滯 vs 脊椎麻醉乳癌手術比較研究，Dexmedetomidine 為輔助用藥，頭痛非主要研究終點。"
+            }
+          },
+          {
+            "nct_id": "NCT06514040",
+            "title": "Nebulized Dexmedetomidine Versus Oral Sumatriptan for Treatment of Post-Dural Puncture Headache Following Caesarian Section (Randomized Comparative Study)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2023-11-27",
+            "completion_date": "2024-09-30",
+            "brief_summary": "comparison between oral sumatriptan and Nebulized Dexmedetomidine in Post Dural Puncture Headache in Cesarean Section",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "已完成，n=48。霧化 Dexmedetomidine vs 口服 Sumatriptan 治療 PDPH，以偏頭痛標準藥物作為比較組，兼具效應量與臨床定位意義。"
+            }
+          },
+          {
+            "nct_id": "NCT06470854",
+            "title": "Nebulized Dexmedetomidine for Post-dural Puncture Headache: A Comparative Case-Control Study Versus Bilateral Greater Occipital Nerve Block",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2023-11-01",
+            "completion_date": "2024-03-22",
+            "brief_summary": "Dural puncture during neuroaxial procedures is the most frequent major complication that causes the development of post-dural puncture headache (PDPH) in 16%-86% of cases. PDPH could be defined as severe positional headache that usually presents during the first 72-h following accidental dural puncture.\n\nDexmedetomidine (DXM) is a potent and highly selective α2-adrenergic agonist that was approved for ICU and procedural sedation in adults. Additionally, DXM has pleiotropic effects for its sympat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41120897",
+            "title": "Nebulized dexmedetomidine for post-dural puncture headache after cesarean delivery: a systematic review and meta-analysis.",
+            "authors": [
+              "Yang Yanyan",
+              "Tang Hong",
+              "Bai Fuhai"
+            ],
+            "journal": "BMC anesthesiology",
+            "year": "2025",
+            "abstract": "There are limited effective non-invasive treatment options for post-dural puncture headache (PDPH) following cesarean delivery. This meta-analysis aimed to investigate the efficacy and safety of nebulized dexmedetomidine in treating PDPH after cesarean delivery.",
+            "classification": {
+              "study_type": "Systematic Review & Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36651373",
+            "title": "Nebulized dexmedetomidine versus neostigmine/atropine for treating post-dural puncture headache after cesarean section: a double-blind randomized controlled trial.",
+            "authors": [
+              "Soliman Omar M",
+              "Aboulfotouh Ahmed I",
+              "Abdelhafez Ahmed M",
+              "Abedalmohsen Abualauon"
+            ],
+            "journal": "Minerva anestesiologica",
+            "year": "2023",
+            "abstract": "Post-dural puncture headache (PDPH) is one of the most common complications of neuraxial anesthesia after an accidental dural puncture. This study aimed to test non-interventional alternatives to treat PDPH. Our goals were to compare the effectiveness of nebulized dexmedetomidine (DEX) versus neostigmine/atropine in the conservative management of PDPH.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31345663",
+            "title": "Dexmedetomidine nebulization: an answer to post-dural puncture headache?",
+            "authors": [
+              "Kumar A",
+              "Kumar A",
+              "Sinha C",
+              "Anant M",
+              "Singh J K"
+            ],
+            "journal": "International journal of obstetric anesthesia",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Pilot Study / Editorial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23757186",
+            "title": "Overdose of drugs for attention-deficit hyperactivity disorder: clinical presentation, mechanisms of toxicity, and management.",
+            "authors": [
+              "Spiller Henry A",
+              "Hays Hannah L",
+              "Aleguas Alfred"
+            ],
+            "journal": "CNS drugs",
+            "year": "2013",
+            "abstract": "The prevalence of attention-deficit hyperactivity disorder (ADHD) in the USA is estimated at approximately 4-9% in children and 4% in adults. It is estimated that prescriptions for ADHD medications are written for more than 2.7 million children per year. In 2010, US poison centers reported 17,000 human exposures to ADHD medications, with 80% occurring in children <19 years old and 20% in adults. The drugs used for the treatment of ADHD are diverse but can be roughly separated into two groups: th",
+            "classification": {
+              "study_type": "Pharmacology Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33993346",
+            "title": "Effectiveness of nebulized dexmedetomidine for treatment of post-dural puncture headache in parturients undergoing elective cesarean section under spinal anesthesia: a randomized controlled study.",
+            "authors": [
+              "Mowafy Sherif M S",
+              "Ellatif Shereen E Abd"
+            ],
+            "journal": "Journal of anesthesia",
+            "year": "2021",
+            "abstract": "The need for effective treatment for post-dural puncture headache (PDPH) is a growing research entity. This study aimed to test the effectiveness of additional dexmedetomidine (DEX) to PDPH conservative management and evaluate its cerebral hemodynamic effects trans-cranial Doppler.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39799300",
+            "title": "Nebulized dexmedetomidine in the treatment of obstetric post-dural puncture headache: two case reports.",
+            "authors": [
+              "Thomas Jeffrey",
+              "Soloniuk Leonard J",
+              "Mehdizadeh Chris",
+              "Cheng Peter",
+              "Sinha Ashish"
+            ],
+            "journal": "BMC anesthesiology",
+            "year": "2025",
+            "abstract": "Post-dural puncture headache (PDPH) is a debilitating complication of neuraxial anesthesia, particularly prevalent in obstetric patients, usually characterized by a postural headache. PDPH is hypothesized to result from cerebrospinal fluid leakage through a dural puncture, triggering symptoms like neck stiffness and subjective hearing changes. While conservative measures are common for treatment, more refractory cases may require invasive interventions such as an epidural blood patch (EBP). Rece",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41700262",
+            "title": "A Case of Posterior Reversible Encephalopathy Syndrome Complicating a Thoracic Spinal Subdural Hematoma.",
+            "authors": [
+              "Gotou Tamotsu",
+              "Munemura Yuto",
+              "Hagihara Takahiro",
+              "Wada Yamato",
+              "Hashimoto Kyoji"
+            ],
+            "journal": "Cureus",
+            "year": "2026",
+            "abstract": "Posterior reversible encephalopathy syndrome (PRES) is a clinicoradiological syndrome characterized by acute neurological symptoms such as headache, seizures, altered consciousness, and visual disturbances, along with neuroimaging findings that typically demonstrate vasogenic edema predominantly involving the parieto-occipital regions. Common precipitants include hypertension, renal dysfunction, hypertensive disorders of pregnancy, immunosuppressive agents, and perioperative factors; however, PR",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "霧化 Dexmedetomidine 治療硬膜穿刺後頭痛（PDPH）已有明確假設機轉：(1) 刺激脈絡叢 Alpha-2 受體抑制 CSF 生成，緩解顱內壓降低；(2) 中樞鎮痛作用（藍斑核下行抑制途徑）；(3) 交感神經抑制降低腦膜血管擴張反應。注意：現有證據集中於 PDPH（繼發性頭痛），不可直接外推至原發性頭痛疾患，評分為 L2 而非 L1 係因適應症邊界限制。若單就 PDPH 亞型，有效性證據接近 L1。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.990857183933258,
+        "rank": 9911
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TAC 亞群（叢集性頭痛、SUNCT 等）機轉涉及三叉神經-自主神經反射弧過度激活，Alpha-2 受體激活理論上可抑制副交感神經末梢釋放及三叉神經痛敏感化。然而 Dexmedetomidine 對自主神經反射的效應尚未在 TAC 中研究，機轉為純推測，無任何臨床數據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.983991801738739,
+        "rank": 14828
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05481970",
+            "title": "Opioid Free Anesthesia for Upper Limb Surgery in Obese Patients.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 76,
+            "start_date": "2022-09-01",
+            "completion_date": "2023-11-05",
+            "brief_summary": "Using opioids in the clinical practice of anesthesia was astonishing. They are good analgesics and used widely to modulate perioperative pain, but analgesia with these drugs can be associated with many side effects that may lead to prolongation of hospital stay and recovery period like respiratory depression, delirium, impaired gastrointestinal function, urine retention, post-operative nausea and vomiting (PONV), and addiction. The most significant opioid side effect is respiratory depression. T",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "肥胖患者無阿片麻醉研究，與 PH 治療再利用無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT05172739",
+            "title": "Effect of a Perioperative Opioid Free Anaesthesia-Analgesia (OFA-A) Strategy on Surgical Stress Response and Immunomodulation in Elective VATS Lobectomy for NSCLC Lung Cancer: A Prospective Randomized Study",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 70,
+            "start_date": "2021-10-01",
+            "completion_date": "2026-11-01",
+            "brief_summary": "Lobectomy is a major, high-risk surgical procedure that in addition to one-lung ventilation (OLV) exerts a potent surgical stress response. An overwhelming immune cell recruitment may lead to excessive tissue damage, peripheral organ injury and immunoparesis. The effect of anesthesia on the immune system is modest, compared to the effects induced by major surgery. However, to an immunocompromised patient, due to cancer and/or other comorbidities, the immunosuppressive effects of anesthesia may i",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，招募中，圍手術期無阿片麻醉策略，Dexmedetomidine 為複合干預成分，PH 非研究族群，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT03521167",
+            "title": "Multimodal Analgesia Versus Traditional Opiate Based Analgesia and Cardiac Surgery Outcome",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 225,
+            "start_date": "2018-05-01",
+            "completion_date": "2019-12-30",
+            "brief_summary": "Pain after cardiac surgery can be moderate to severe with incisions to the sternum and lower extremities, and also the placement of chest tubes. Postoperative pain may contribute to delirium, stress, myocardial oxygen demand supply imbalance, etc. Traditionally postoperative pain management after cardiac surgery has been based on opiate analgesics. However, opiates have many deleterious side effects including nausea/vomiting, ileus, bladder dysfunction, and respiratory depression, which substant",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "多模式鎮痛 vs 傳統阿片麻醉心臟手術比較，Dexmedetomidine 為輔助藥物，PH 非主要研究終點。"
+            }
+          },
+          {
+            "nct_id": "NCT05631028",
+            "title": "Effect of Dexmedetomidine Pretreatment on The Effective Dose of Remimazolam Tosilate Inhibiting Cardiovascular Response to Intubation of Double-Lumen Endobronchial Tubes: A Clinical Research",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 115,
+            "start_date": "2022-12-01",
+            "completion_date": "2023-01-01",
+            "brief_summary": "General anesthesia with double-lumen endobronchial tubes intubation is the main anesthesia method in thoracic surgery.However, double-lumen endobronchial tubes intubation can produce greater stimulation and cause more cardiovascular reactions, and the ideal anesthetic drugs can effectively reduce adverse reactions.Remimazolam is a new type of benzodiazepine drug that can be safely used for the induction and maintenance of general anesthesia, and it is an ideal and short-acting anesthetic alterna",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03983915",
+            "title": "Comparison of Sedation and General Anesthesia With Laryngeal Mask in Therapeutic Bronchoscopy",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2019-06-17",
+            "completion_date": "2019-12-31",
+            "brief_summary": "Therapeutic bronchoscopy is a common procedure to treat respiratory diseases. The procedure includes stent implantation, bronchus dilation, electronic incision, laser therapy, and so on. Most of these procedures are painful and require general anesthesia. Conventionally, the general anesthesia for therapeutic bronchoscopy was performed using laryngeal mask. But in the previous experiences, the investigators found that sedation with dexmedetomidine and remifentanil was as effect as laryngeal mask",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02713191",
+            "title": "Efficacy and Safety of Dexmedetomidine vs. Midazolam Sedation in Patients Undergoing Convex-probe Endobronchial Ultrasound: a Randomized Double Blind Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 197,
+            "start_date": "2016-03",
+            "completion_date": "2017-02-01",
+            "brief_summary": "The randomized controlled trial will compare efficacy and safety of dexmedetomidine to midazolam for sedation during endobronchial ultrasound",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3，已完成，n=197。EBUS 鎮靜比較研究，納入患者群可能包含 PH，但 PH 治療非研究目的，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT02059343",
+            "title": "Pharmacokinetics of Dexmedetomidine in Children During Cardiopulmonary Bypass (CPB)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2014-03",
+            "completion_date": "2014-11",
+            "brief_summary": "Dexmedetomidine is increasingly used for sedation in children placed on cardiopulmonary bypass for heart surgery. It is also often used after surgery and may be particularly helpful for children with heart disease. In order for this medication to be helpful and to minimize risks associated with taking the medication, it is important to provide correct dosing for this medication. Based on evidence from studies of other medications used during heart surgery, it is likely that dosing of dexmedetomi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "已完成，n=18（兒科）。Dexmedetomidine 在先天性心臟病兒童體外循環時的藥物動力學研究，受試者可能包含 PH 患者，提供 PK/PD 間接數據，有助劑量設計。"
+            }
+          },
+          {
+            "nct_id": "NCT03406533",
+            "title": "The Effect and Safety of Different Sedation Strategies for Diagnostic Bronchoscopy",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 28,
+            "start_date": "2018-02-01",
+            "completion_date": "2018-03-31",
+            "brief_summary": "Diagnostic bronchoscopy is an invasive procedure performed to diagnose respiratory diseases. But pain has been complained by most of the patients receiving such procedures. Sedation or anesthesia was required by both of the patients and bronchoscopists. Unfortunately, no consensus has been made upon the sedation strategies. Multiple sedation approaches have been applied, such as midazolam and fentanyl, remifentanil and propofol, dexmedetomidine and propofol. The present study was designed to com",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03404180",
+            "title": "Peripheral Nerve Blocks for Upper Leg Amputations",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2018-02-09",
+            "completion_date": "2024-12-18",
+            "brief_summary": "Surgery performed with nerve blocks and sedation may be safer and provide better pain control compared to general anesthesia and opioid therapy in high-risk patient populations such as elderly and troubled with peripheral vascular disease, diabetes, hypertension, coronary artery disease, and chronic obstructive pulmonary disease (COPD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01381627",
+            "title": "Safety Evaluation of Dexmedetomidine Monitored Anesthesia Care for Endobronchial Ultrasound-guided Transbronchial Needle Aspiration",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2011-06",
+            "completion_date": "2013-06",
+            "brief_summary": "Lung cancer is the second most commonly diagnosed primary neoplasia in Canada accounting for 22 865 new cases in 2007. Recent randomized trials have shown a significantly better diagnostic yield and fewer unnecessary thoracotomies with endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) when compared to conventional TBNA for various clinical conditions including peripheral pulmonary lesions and sarcoidosis. EBUS-TBNA are now routinely performed in our institution for sta",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03983889",
+            "title": "The Effect and Safety of Different Sedation Strategies for Diagnostic Bronchoscopy",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 200,
+            "start_date": "2019-06-17",
+            "completion_date": "2019-12-31",
+            "brief_summary": "Diagnostic bronchoscopy is an invasive procedure performed to diagnose respiratory diseases. But pain has been complained by most of the patients receiving such procedures. Sedation or anesthesia was required by both of the patients and bronchoscopists. Unfortunately, no consensus has been made upon the sedation strategies. Multiple sedation approaches have been applied, such as midazolam and fentanyl, remifentanil and propofol, dexmedetomidine and propofol. The present study was designed to com",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04300985",
+            "title": "Magnesium Sulfate Versus Dexmedetomidine on Anesthesia Awakening. Randomized Clinical Trial.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2021-10-01",
+            "completion_date": "2022-12-20",
+            "brief_summary": "Magnesium sulfate (MS) and dexmedetomidine have already demonstrated the ability to reduce intra and postoperative consumption of anesthetics and analgesics, among others advantages, such as blood pressure control and intraoperative bleeding. The MS has also been shown to be useful in pre-eclampsia and eclampsia control, pulmonary hypertension, asthma, cardiac arrhythmias and pheochromocytoma). Despite these advantages in the use of these important adjuncts, there is a concern about the quality ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03406546",
+            "title": "Comparison of Sedation and General Anesthesia With Laryngeal Mask in Therapeutic Bronchoscopy",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 20,
+            "start_date": "2018-02-01",
+            "completion_date": "2018-07-31",
+            "brief_summary": "Therapeutic bronchoscopy is a common procedure to treat respiratory diseases. The procedure includes stent implantation, bronchus dilation, electronic incision, laser therapy, and so on. Most of these procedures are painful and require general anesthesia. Conventionally, the general anesthesia for therapeutic bronchoscopy was performed using laryngeal mask. But in the previous experiences, the investigators found that sedation with dexmedetomidine and remifentanil was as effect as laryngeal mask",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04278404",
+            "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 5000,
+            "start_date": "2020-03-05",
+            "completion_date": "2027-09",
+            "brief_summary": "The study investigators are interested in learning more about how drugs, that are given to children by their health care provider, act in the bodies of children and young adults in hopes to find the most safe and effective dose for children. The primary objective of this study is to evaluate the PK of understudied drugs currently being administered to children per SOC as prescribed by their treating provider.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01766089",
+            "title": "Comparison Between Dexmedetomidine and Remifentanil on the Maternal Responses to Tracheal Intubation in Severe Pre-eclamptic Patients During Caesarean Delivery",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2013-01",
+            "completion_date": "2017-01",
+            "brief_summary": "Preeclampsia is a pregnancy-specific, multisystem disorder that complicates approximately 5 % of pregnancies.\n\nTracheal intubation in the women with severe pre-eclampsia is usually associated with exaggerated transient increases in blood pressure, heart rate and maternal plasma catecholamine concentrations. These changes may lead to maternal cerebral oedema, haemorrhage, left ventricular failure, pulmonary oedema or mortality, and reduce uterine blood flow which may adversely affect the neonatal",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04718714",
+            "title": "Effects of Dexmedetomidine vs Propofol on Inflammatory Response and Intra-abdominal Pressure in Patients With Intra-abdominal Sepsis; a Randomized Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2021-01-23",
+            "completion_date": "2021-04-10",
+            "brief_summary": "Sepsis is defined as systemic response to infection ,and it is a main problem in ICU and despite advance in supportive care, the mortality rate in patients with severe sepsis continues to exceed 30% \\[Bone RC 1993\\].The effects of bacterial invasion of body tissues result from combined actions of enzymes and toxins produced by micro-organisms themselves and by a network of proinflammatory mediators and cytokines as tumour necrosis factor α and interleukin 6 which are overexpressed after various ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05168280",
+            "title": "Intraoperative Infusion of Dexmedetomidine for Prevention of Postoperative Delirium in Elderly Patients Undergoing Craniotomy: a Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 420,
+            "start_date": "2022-07-18",
+            "completion_date": "2025-12-30",
+            "brief_summary": "Postoperative delirium (POD) is a common surgical complication. The incidence is 10% to 22% in neurological procedures, and advanced age is a risk factor for neurological procedures. Many studies have shown that dexmedetomidine(DEX) may reduce the incidence of delirium in non-cardiac surgery patients and elderly patients. However, there are few studies focus on the effect of DEX on POD in elderly patients undergoing neurosurgery. The purpose of this study was to investigate the effect of DEX on ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01072643",
+            "title": "The Pharmacodynamics, Safety, and Pharmacokinetics of Sedation With Dexmedetomidine in Children Undergoing Hemodynamic Cardiac Catheterization With Special Reference to the Pulmonary Vascular Bed",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2010-03",
+            "completion_date": "2013-04",
+            "brief_summary": "Clinical dose escalation drug trial to evaluate the effect of 3 different doses of dexmedetomidine on the pulmonary vascular bed in pediatric subjects with elevated pulmonary vascular resistance (PVR). The study will be conducted in 2 parts, with part 1 incorporating stopping rules to optimize safety of the drug in this population. The second part of this study will evaluate if the lowest safest dose, as determined in part 1, is adequate to provide effective sedation during a cardiac catheteriza",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06382961",
+            "title": "Postoperative Infusion of Dexmedetomidine for Prevention of Postoperative Delirium in Elderly Patients Undergoing Lung Surgery: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 287,
+            "start_date": "2023-11-11",
+            "completion_date": "2024-04-28",
+            "brief_summary": "The goal of this clinical trial is to learn how postoperative infusion of dexmedetomidine would influence postoperative delirium in elderly patients undergoing lung surgery. The main questions it aims to answer are :\n\n1. Does postoperative dexmedetomidine reduce the incidence of delirium after lung surgery?\n2. Does postoperative dexmedetomidine introduce other medical problems? Researchers will compare dexmedetomidine and sufentanil to see if dexmedetomidine works to reduce delirium.\n\nParticipan",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32746469",
+            "title": "Prevention and Management of Delirium in the Intensive Care Unit.",
+            "authors": [
+              "Mart Matthew F",
+              "Williams Roberson Shawniqua",
+              "Salas Barbara",
+              "Pandharipande Pratik P",
+              "Ely E Wesley"
+            ],
+            "journal": "Seminars in respiratory and critical care medicine",
+            "year": "2021",
+            "abstract": "Delirium is a debilitating form of brain dysfunction frequently encountered in the intensive care unit (ICU). It is associated with increased morbidity and mortality, longer lengths of stay, higher hospital costs, and cognitive impairment that persists long after hospital discharge. Predisposing factors include smoking, hypertension, cardiac disease, sepsis, and premorbid dementia. Precipitating factors include respiratory failure and shock, metabolic disturbances, prolonged mechanical ventilati",
+            "classification": {
+              "study_type": "Guideline Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36849413",
+            "title": "The Anti-Inflammatory Effects and Clinical Potential of Dexmedetomidine in Pulmonary Arterial Hypertension.",
+            "authors": [
+              "Yamaguchi Yohei",
+              "Hosokawa Susumu",
+              "Haraguchi Go",
+              "Kajikawa Yusuke",
+              "Sakurai Makito"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2023",
+            "abstract": "A pathogenic aspect of pulmonary arterial hypertension (PAH) is the aberrant pulmonary arterial smooth muscle cell (PASMC) proliferation. PASMC proliferation is significantly affected by inflammation. A selective α-2 adrenergic receptor agonist called dexmedetomidine (DEX) modulates specific inflammatory reactions. We investigated the hypothesis that anti-inflammatory characteristics of DEX could lessen PAH that monocrotaline (MCT) causes in rats. In vivo, male Sprague-Dawley rats aged 6 weeks w",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25153071",
+            "title": "Dexmedetomidine in pulmonary hypertension.",
+            "authors": [
+              "Nair Abhijit S",
+              "Kandukuri Balasubramanyam",
+              "Gopal Thota Venkata Sanjeev"
+            ],
+            "journal": "Acta anaesthesiologica Taiwanica : official journal of the Taiwan Society of Anesthesiologists",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24945133",
+            "title": "A word of caution: dexmedetomidine and pulmonary hypertension.",
+            "authors": [
+              "Nathan Aruna T",
+              "Nicolson Susan C",
+              "McGowan Francis X"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "Safety Warning / Case Series",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38386179",
+            "title": "Combination of high-flow nasal oxygen and ketamine/dexmedetomidine sedation for diagnostic catheterization in a child with pulmonary arterial hypertension: a case report.",
+            "authors": [
+              "Tsuboi Kaoru",
+              "Asai Misuzu",
+              "Nakamura Toshiki",
+              "Ninagawa Jun",
+              "Ono Hiroshi"
+            ],
+            "journal": "JA clinical reports",
+            "year": "2024",
+            "abstract": "Pulmonary hypertension is associated with significant risk of perioperative life-threatening events. We present a case of a 12-year-old child with severe pulmonary arterial hypertension who successfully underwent diagnostic cardiac catheterization under ketamine and dexmedetomidine sedation with the support of high-flow nasal oxygen. Ketamine and dexmedetomidine are reported to have minimal effect on pulmonary vasculature in children with pulmonary hypertension and can be safely used in this pop",
+            "classification": {
+              "study_type": "Prospective Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33109805",
+            "title": "Effect of dexmedetomidine on pulmonary artery pressure in children with congenital heart disease and pulmonary hypertension.",
+            "authors": [
+              "Kanchi Muralidhar",
+              "Inderbitzin Devdas Thomas",
+              "Ramesh Kadam Naina",
+              "Suresh Pujar Venkateshauarya",
+              "Mayya Shreesha Shankar"
+            ],
+            "journal": "Annals of cardiac anaesthesia",
+            "year": "2020",
+            "abstract": "This study was undertaken to determine the effects of dexmedetomidine on pulmonary artery pressure (PAP) in children with congenital heart disease (CHD) and pulmonary hypertension (PH) undergoing cardiac catheterization with and without a planned intervention during monitored anesthetic care using midazolam and ketamine.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23960035",
+            "title": "The hemodynamic response to dexmedetomidine loading dose in children with and without pulmonary hypertension.",
+            "authors": [
+              "Friesen Robert H",
+              "Nichols Christopher S",
+              "Twite Mark D",
+              "Cardwell Kathryn A",
+              "Pan Zhaoxing"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2013",
+            "abstract": "Dexmedetomidine, an α-2 receptor agonist, is widely used in children with cardiac disease. Significant hemodynamic responses, including systemic and pulmonary vasoconstriction, have been reported after dexmedetomidine administration. Our primary goal of this prospective, observational study was to quantify the effects of dexmedetomidine initial loading doses on mean pulmonary artery pressure (PAP) in children with and without pulmonary hypertension.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19157850",
+            "title": "Cesarean section and primary pulmonary hypertension: the role of intravenous dexmedetomidine.",
+            "authors": [
+              "Toyama H",
+              "Wagatsuma T",
+              "Ejima Y",
+              "Matsubara M",
+              "Kurosawa S"
+            ],
+            "journal": "International journal of obstetric anesthesia",
+            "year": "2009",
+            "abstract": "Primary pulmonary hypertension is a fatal disease that frequently becomes evident in pregnancy. The management of pregnant women with primary pulmonary hypertension poses a number of difficult problems, especially where regional anesthesia is considered to be contraindicated. A 30-year-old woman who developed primary pulmonary hypertension at 23 weeks of pregnancy was transferred to our hospital. Systolic pulmonary artery pressure and plasma brain natriuretic peptide levels were markedly elevate",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27885969",
+            "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+            "authors": [
+              "Bateman R. M.",
+              "Sharpe M. D.",
+              "Jagger J. E.",
+              "Ellis C. G.",
+              "Solé-Violán J."
+            ],
+            "journal": "Critical care (London, England)",
+            "year": "2016",
+            "abstract": "P001 - Sepsis impairs the capillary response within hypoxic capillaries and decreases erythrocyte oxygen-dependent ATP efflux R. M. Bateman, M. D. Sharpe, J. E. Jagger, C. G. Ellis P002 - Lower serum immunoglobulin G2 level does not predispose to severe flu. J. Solé-Violán, M. López-Rodríguez, E. Herrera-Ramos, J. Ruíz-Hernández, L. Borderías, J. Horcajada, N. González-Quevedo, O. Rajas, M. Briones, F. Rodríguez de Castro, C. Rodríguez Gallego P003 - Brain protective effects of intravenous immun",
+            "classification": {
+              "study_type": "Conference Abstract",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39503124",
+            "title": "Perioperative Management of a Patient With Idiopathic Pulmonary Hypertension and a History of Syncope: A Case Report.",
+            "authors": [
+              "Sato Boku Aiji",
+              "So MinHye",
+              "Fujikake Kazuma",
+              "Tanaka Motoshi",
+              "Kamimura Yuji"
+            ],
+            "journal": "Anesthesia progress",
+            "year": "2024",
+            "abstract": "Pulmonary hypertension is characterized by higher-than-normal pulmonary arterial pressures. This case report describes the perioperative management of a male patient with idiopathic pulmonary hypertension and a history of vasovagal syncope during previous dental extractions with local anesthesia. He underwent successful extraction of a single tooth with intravenous moderate sedation using dexmedetomidine and midazolam as well as prilocaine with felypressin for local anesthesia. There are many co",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18544149",
+            "title": "Novel use of dexmedetomidine in a patient with pulmonary hypertension.",
+            "authors": [
+              "Nathan Aruna T",
+              "Marino Bradley S",
+              "Hanna Brian",
+              "Nicolson Susan C"
+            ],
+            "journal": "Paediatric anaesthesia",
+            "year": "2008",
+            "abstract": "The presence of pulmonary arterial hypertension (PAH) is a significant predictor of major perioperative cardiovascular complications in patients undergoing cardiac diagnostic or interventional procedure or non cardiac surgery under sedation and/or anesthesia. Factors that precipitate a pulmonary hypertensive crisis include hypoxia, hypercarbia, acidosis, hypothermia, pain and airway manipulations. Pain management is challenging in patients with significant PAH. We report the use of dexmedetomidi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15707344",
+            "title": "New anesthesia techniques.",
+            "authors": [
+              "Tung Avery"
+            ],
+            "journal": "Thoracic surgery clinics",
+            "year": "2005",
+            "abstract": "Advances in anesthesia involve refinements in understanding, technique, and technology. These refinements have led to better control of the anesthetic state, effective anesthesia for a wider variety of situations, and the ability to bring sicker patients to the operating room. Although the molecular mechanisms underlying the general anesthetic state are unknown, evidence suggests a specific, receptor-based effect. This concept has allowed anesthesiologists to treat anesthetic end points of immob",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28296782",
+            "title": "The safety and efficacy of dexmedetomidine-remifentanil in children undergoing flexible bronchoscopy: A retrospective dose-finding trial.",
+            "authors": [
+              "Li Xia",
+              "Wang Xue",
+              "Jin Shuguang",
+              "Zhang Dongsheng",
+              "Li Yanuo"
+            ],
+            "journal": "Medicine",
+            "year": "2017",
+            "abstract": "Flexible bronchoscopy is more and more used for diagnosis and management of various pulmonary diseases in pediatrics. As poor coordination of children, the procedure is usually performed under general anesthesia with spontaneous or controlled ventilation to increase children and bronchoscopists' safety and comfort. Previous studies have reported that dexmedetomidine (DEX) could be safely and effectively used for flexible bronchoscopy in both adulate and children. However, there is no trial to ev",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34165021",
+            "title": "Asystole in 2 Pediatric Patients During Dexmedetomidine Infusion.",
+            "authors": [
+              "Lichtsinn Katrin",
+              "Sehgal Ila",
+              "Wilson Alexandra"
+            ],
+            "journal": "Journal of pharmacy practice",
+            "year": "2023",
+            "abstract": "Bradycardia is a known side effect of dexmedetomidine. Reports of sinus pauses or asystole, however, are rare. We present 2 cases of pediatric patients who developed asystole on a dexmedetomidine infusion.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24945134",
+            "title": "In response.",
+            "authors": [
+              "Friesen Robert H",
+              "Twite Mark D"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16978159",
+            "title": "The effects of pre-operative dexmedetomidine infusion on hemodynamics in patients with pulmonary hypertension undergoing mitral valve replacement surgery.",
+            "authors": [
+              "But A K",
+              "Ozgul U",
+              "Erdil F",
+              "Gulhas N",
+              "Toprak H I"
+            ],
+            "journal": "Acta anaesthesiologica Scandinavica",
+            "year": "2006",
+            "abstract": "The aim of this study was to investigate the effects of pre-operative dexmedetomidine infusion on hemodynamics in patients with pulmonary hypertension undergoing mitral valve replacement surgery.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19833278",
+            "title": "Dexmedetomidine/ketamine for diagnostic cardiac catheterization in a child with idiopathic pulmonary hypertension.",
+            "authors": [
+              "Munro Hamish M",
+              "Felix Donald E",
+              "Nykanen David G"
+            ],
+            "journal": "Journal of clinical anesthesia",
+            "year": "2009",
+            "abstract": "The use of a combination of dexmedetomidine and ketamine to provide procedural sedation in a 12-year old boy with a diagnosis of idopathic pulmonary hypertension and a behavioral disorder, undergoing diagnostic cardiac catheterization, is presented. Following a loading dose of ketamine one mg/kg and dexmedetomidine one mcg/kg, an infusion of dexmedetomidine at one mcg/kg/hr was used with the patient breathing spontaneously. Stable hemodynamics were observed throughout the procedure and pulmonary",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26919414",
+            "title": "Treatment of cocaine cardiovascular toxicity: a systematic review.",
+            "authors": [
+              "Richards John R",
+              "Garber Dariush",
+              "Laurin Erik G",
+              "Albertson Timothy E",
+              "Derlet Robert W"
+            ],
+            "journal": "Clinical toxicology (Philadelphia, Pa.)",
+            "year": "2016",
+            "abstract": "Cocaine abuse is a major worldwide health problem. Patients with acute cocaine toxicity presenting to the emergency department may require urgent treatment for tachycardia, dysrhythmia, hypertension, and coronary vasospasm, leading to pathological sequelae such as acute coronary syndrome, stroke, and death.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27635388",
+            "title": "Emergency Corrective Surgery of Congenital Diaphragmatic Hernia With Pulmonary Hypertension: Prolonged Use of Dexmedetomidine as a Pharmacologic Adjunct.",
+            "authors": [
+              "Das Badri Prasad",
+              "Singh Anil Prasad",
+              "Singh Ram Badan"
+            ],
+            "journal": "Anesthesiology and pain medicine",
+            "year": "2016",
+            "abstract": "Underdevelopment of the lung parenchyma associated with abnormal growth of pulmonary vasculature in neonates with congenital diaphragmatic hernia results in pulmonary hypertension which mandates smooth elective mechanical ventilation in postoperative period, for proper alveolar recruitment and oxygenation, allowing lungs to mature enough for its functional anatomy and physiology. Dexmedetomidine is sympatholytic, reduces pulmonary vascular resistance and exerts sedative and analgesic property to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38789285",
+            "title": "Selected 2023 Highlights in Congenital Cardiac Anesthesia.",
+            "authors": [
+              "Moreno-Duarte Ingrid",
+              "Parikh Rishi Bharat",
+              "Paquin Joanna",
+              "Steppan Jochen",
+              "Spaeth James P"
+            ],
+            "journal": "Journal of cardiothoracic and vascular anesthesia",
+            "year": "2024",
+            "abstract": "This article reviews the highlights of pertinent literature of interest to the congenital cardiac anesthesiologist published in 2023. After a search of the US National Library of Medicine PubMed database, several topics emerged where significant contributions were made in 2023. The authors of this article considered the following topics noteworthy to be included in this review: (1) advancements in percutaneous mechanical support in children with congenital heart disease, (2) children with pulmon",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多重機轉具生物學合理性：(1) Alpha-2 受體激活介導肺血管舒張（部分兒科研究中觀察到肺動脈壓下降）；(2) 抗炎效應抑制肺血管重塑（NF-κB/IL-6 途徑，2023年回顧文獻支持）；(3) 全身交感神經抑制降低右心後負荷；(4) 減少氧化應激損傷血管內皮。重要安全警示：部分 PH 患者使用後出現急性右心衰竭加重（PMID 24945133），顯示效應具異質性，患者選擇至關重要。現有臨床試驗無一以「治療 PH」為主要終點，為主要研究缺口。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.983470380306244,
+        "rank": 15134
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭皮單純性少毛症為常染色體顯性/隱性遺傳性毛囊疾病，致病基因涉及 LAMA3、COL7A1 等結構蛋白基因。Alpha-2 腎上腺素受體在毛囊幹細胞生物學中的作用尚未確立，無任何文獻支持 Dexmedetomidine 對毛囊發育或再生的影響。TxGNN 預測缺乏生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.982730507850647,
+        "rank": 15618
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "Genetic Linkage Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "journal": "Epilepsia",
+            "year": "2011",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the chara",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alpha-2 腎上腺素受體基因多態性（ADRA2A/ADRA2C）理論上可影響偏頭痛易感性閾值。然而提供的 20 篇文獻均為癲癇遺傳學與癲癇-偏頭痛共病機轉研究（CACNA1A、MTHFR 等），無一涉及 Dexmedetomidine 治療，屬系統檢索遠端相關雜訊，不構成藥物再利用證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.982579231262207,
+        "rank": 15721
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "蟲蝕狀皮膚萎縮（follicular atrophoderma）為罕見遺傳性毛囊角化障礙，病理涉及毛囊漏斗部異常角化與真皮萎縮，可能與 PTCH1/PTCH2 基因相關。Alpha-2 腎上腺素受體與此疾病機轉無任何已知交集，TxGNN 預測為圖神經網路遠端結構相似性推論，無生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9824474453926086,
+        "rank": 15783
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛症合併粟粒疹（可能為 TRPV3/KRT 相關遺傳性皮膚病）的核心機轉涉及角蛋白突變或瞬時受體電位通道異常，與 Dexmedetomidine 的 Alpha-2 腎上腺素受體機轉無任何生物學交集。TxGNN 預測分數雖高（0.982），但其他皮膚疾病適應症（hypotrichosis simplex、atrophoderma vermiculata）同樣獲高分，提示預測群聚效應（prediction clustering）而非真實信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexmedetomidine",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

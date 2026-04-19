@@ -1,0 +1,363 @@
+```json
+{
+  "drug": "Acetic acid",
+  "drugbank_id": "DB03166",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "醋酸為廣泛存在之有機酸，已知具抗菌/抗真菌活性（透過低pH破壞細胞膜）。市場狀態：未上市（但作為一般化學品廣泛取得）。所有臨床試驗需逐一核查是否直接涉及醋酸，而非僅主題關聯。",
+  "indications": [
+    {
+      "disease_name": "post-bacterial disorder",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "醋酸具廣譜抗菌性（低pH破壞細菌細胞壁/膜），理論上可調控感染後微生物組，但「post-bacterial disorder」定義模糊，機轉鏈缺乏直接生物學基礎。僅有TxGNN圖神經網路預測，無支持性文獻。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04120259",
+          "relevance_grade": "C",
+          "reasoning": "蘋果醋（含醋酸）+二甲雙胍用於第2型糖尿病；研究藥物含醋酸成分，但適應症為代謝疾病而非post-bacterial disorder，與目標適應症無直接關聯。"
+        },
+        {
+          "nct_id": "NCT07386795",
+          "relevance_grade": "C",
+          "reasoning": "微生物群移植+益生元研究，未涉及醋酸，主題相近（腸道微生物）但藥物不符。"
+        },
+        {
+          "nct_id": "NCT04036318",
+          "relevance_grade": "C",
+          "reasoning": "性傳播感染推定定期治療評估，感染主題相關但未涉及醋酸，適應症不符。"
+        },
+        {
+          "nct_id": "NCT04824261",
+          "relevance_grade": "C",
+          "reasoning": "4%硼酸vs克霉唑治療耳黴菌症；硼酸非醋酸，雖同為酸性抗菌物質，但為不同化合物。"
+        },
+        {
+          "nct_id": "NCT04434365",
+          "relevance_grade": "C",
+          "reasoning": "小檗鹼代謝/發炎研究，與醋酸無關，適應症不符。"
+        },
+        {
+          "nct_id": "NCT07048028",
+          "relevance_grade": "C",
+          "reasoning": "殼聚糖灌洗液抗菌評估，非醋酸，相關性低。"
+        },
+        {
+          "nct_id": "NCT02872675",
+          "relevance_grade": "C",
+          "reasoning": "HOST-DM059益生元補充研究，非醋酸。"
+        },
+        {
+          "nct_id": "NCT04657757",
+          "relevance_grade": "C",
+          "reasoning": "植體修復細菌黏附研究，ex vivo設計，非醋酸介入。"
+        },
+        {
+          "nct_id": "NCT03212729",
+          "relevance_grade": "C",
+          "reasoning": "抗菌光動力療法評估，物理治療方法，非醋酸。"
+        },
+        {
+          "nct_id": "NCT05275647",
+          "relevance_grade": "C",
+          "reasoning": "低能量衝擊波+肉毒桿菌毒素A膀胱灌注研究，與醋酸及目標適應症均無直接關聯。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "postinfectious vasculitis",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後血管炎為免疫複合物介導之炎症反應。醋酸對血管炎免疫機制（補體活化、免疫複合物沉積）無已知作用，機轉鏈完全缺失。0臨床試驗、0文獻，僅有計算預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "post-infectious syndrome",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後症候群（包括Long COVID、感染後IBS等）病理複雜，涉及神經免疫、腸道菌群失調等多重機制。醋酸透過調節腸道pH/微生物組在理論上有邊際相關性，但16項臨床試驗均非針對醋酸於此適應症之研究，4篇文獻亦與醋酸無直接關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04312841",
+          "relevance_grade": "C",
+          "reasoning": "Letermovir用於血液惡性腫瘤CMV預防，抗病毒藥物研究，非醋酸，適應症不符。"
+        },
+        {
+          "nct_id": "NCT05275647",
+          "relevance_grade": "C",
+          "reasoning": "低能量衝擊波+肉毒桿菌毒素，非醋酸介入，主題不符。"
+        },
+        {
+          "nct_id": "NCT04060277",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2安慰劑對照試驗，保護功能評估，未見醋酸相關，需進一步核查全文。"
+        },
+        {
+          "nct_id": "NCT02873741",
+          "relevance_grade": "C",
+          "reasoning": "HIV陽性女性肛門癌風險評估（使用醋酸染色陰道鏡為診斷工具），醋酸作為診斷試劑而非治療介入，不構成再利用證據。"
+        },
+        {
+          "nct_id": "NCT05256862",
+          "relevance_grade": "C",
+          "reasoning": "HIV慢性病門診子宮頸癌篩查，與醋酸及post-infectious syndrome無直接治療關聯。"
+        },
+        {
+          "nct_id": "NCT03749291",
+          "relevance_grade": "C",
+          "reasoning": "動機性介入對腸道微生物組及代謝症候群影響，行為介入研究，非醋酸。"
+        },
+        {
+          "nct_id": "NCT07386795",
+          "relevance_grade": "C",
+          "reasoning": "微生物群移植+益生元，未涉及醋酸。"
+        },
+        {
+          "nct_id": "NCT06612554",
+          "relevance_grade": "C",
+          "reasoning": "HIV免疫學無應答者鋅補充研究，非醋酸。"
+        },
+        {
+          "nct_id": "NCT04036318",
+          "relevance_grade": "C",
+          "reasoning": "性傳播感染PPT評估，非醋酸，適應症不符。"
+        },
+        {
+          "nct_id": "NCT02338141",
+          "relevance_grade": "C",
+          "reasoning": "HIV陽性女性HPV基因型評估，醋酸染色（診斷工具）而非治療，已終止。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33492608",
+          "study_type": "Case series",
+          "tier": "3",
+          "relevance_note": "COVID-19感染後神經學併發症（眼肌陣攣-肌陣攣症候群）個案系列，未涉及醋酸治療，為背景文獻。"
+        },
+        {
+          "pmid": "20848144",
+          "study_type": "Systematic Review (animal models)",
+          "tier": "2",
+          "relevance_note": "感染後/感染後炎症性IBS動物模型系統性回顧，未涉及醋酸介入，為病理機制背景文獻。"
+        },
+        {
+          "pmid": "41327655",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_note": "瀉白增液湯（中藥複方）調節肺-腸軸RCT，非醋酸，文獻匹配原因不明確，相關性極低。"
+        },
+        {
+          "pmid": "32464585",
+          "study_type": "Case series",
+          "tier": "3",
+          "relevance_note": "SARS-CoV-2相關腦部受累個案系列，未涉及醋酸，為背景文獻。"
+        }
+      ]
+    },
+    {
+      "disease_name": "Chagas cardiomyopathy",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "查加斯心肌病由克氏錐蟲（Trypanosoma cruzi）慢性感染引起，主要病理為心肌纖維化與炎症。醋酸對錐蟲無已知藥理作用，亦無抗心肌纖維化機制。2篇文獻均為診斷/影像學研究（非治療），與醋酸無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31172602",
+          "study_type": "Observational/Imaging",
+          "tier": "3",
+          "relevance_note": "查加斯病晚期強化模式比較研究（心臟MRI），診斷影像研究，未涉及醋酸，不構成治療證據。"
+        },
+        {
+          "pmid": "1662334",
+          "study_type": "Laboratory/Molecular",
+          "tier": "3",
+          "relevance_note": "PCR擴增T. cruzi動質體DNA診斷方法學研究（1991年），與醋酸治療完全無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "infective urethral stricture",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染性尿道狹窄主要由淋病/披衣菌感染引起的纖維化。醋酸局部抗菌性在理論上可防止感染進展，但缺乏穿透纖維化組織的藥代動力學依據。1篇文獻為放射性核素膀胱造影診斷研究（1989年），非治療，與醋酸無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2699313",
+          "study_type": "Diagnostic/Observational",
+          "tier": "3",
+          "relevance_note": "直接放射性核素膀胱造影及尿流量測定評估膀胱輸尿管逆流患者研究（1989年），為診斷方法論文，未涉及醋酸治療。"
+        }
+      ]
+    },
+    {
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染相關HUS主要由STEC（Shiga毒素產生性大腸桿菌）引起，病理為微血管血栓性溶血。醋酸無Shiga毒素中和或血栓微血管病理修正機制。0臨床試驗、0文獻，高風險適應症（急性腎損傷/溶血），Hold評級明確。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物性骨質疏鬆（如類固醇誘發）涉及成骨/破骨細胞失衡及骨密度下降。醋酸（高濃度）理論上可能影響礦物質吸收，但缺乏骨代謝調節的直接機轉依據，且酸性環境可能反而促進骨吸收。0臨床試驗、0文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pityriasis simplex",
+      "txgnn_score": 0.9933,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "單純糠疹（pityriasis simplex）為良性皮膚色素脫失，可能與馬拉色菌相關，理論上醋酸抗真菌性有邊際機轉相關性。然而0臨床試驗、0文獻，且市場上有更有效的既定治療選項。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tinea corporis",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "體癬（tinea corporis）由皮癬菌（Trichophyton, Microsporum, Epidermophyton spp.）感染引起。醋酸透過以下機制具抗皮癬菌潛力：（1）低pH（<4.5）破壞真菌細胞膜完整性；（2）抑制真菌孢子萌發；（3）乙酸根離子直接毒性。歷史文獻（1946-1947）記載碘+稀醋酸治療頭癬有效，提供間接概念驗證。然而現有文獻主要針對tinea capitis/pedis而非tinea corporis，且多為組合療法，難以分離醋酸單獨效果。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20983383",
+          "study_type": "Case series/Historical",
+          "tier": "3",
+          "relevance_note": "1946年頭癬（tinea capitis）使用碘+稀醋酸治療個案系列；醋酸直接相關，但為組合療法且非tinea corporis，歷史文獻（效度有限）。"
+        },
+        {
+          "pmid": "20996178",
+          "study_type": "Case series/Historical",
+          "tier": "3",
+          "relevance_note": "1946年頭癬使用稀醋酸治療，與上一篇為姊妹文獻，同樣為組合療法歷史記載。"
+        },
+        {
+          "pmid": "20256868",
+          "study_type": "Retrospective case series",
+          "tier": "3",
+          "relevance_note": "1947年大型頭癬病例系列（碘+稀醋酸），樣本量較大，但仍為組合療法、歷史時代、非tinea corporis，無對照組。"
+        },
+        {
+          "pmid": "37012894",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_note": "Terminalia chebula+醋的RCT用於足癬（tinea pedis）；含醋（醋酸）的組合，但適應症為足癬非體癬，且為複方評估。"
+        },
+        {
+          "pmid": "28947288",
+          "study_type": "Review/Case report",
+          "tier": "3",
+          "relevance_note": "醋（vinegar）足浴治療足癬/甲癬回顧，醋酸直接相關，但為足癬/甲癬，非體癬。"
+        },
+        {
+          "pmid": "26857689",
+          "study_type": "In vitro study",
+          "tier": "3",
+          "relevance_note": "局部抗真菌產品體外甲癬模型評估，提供醋酸抗真菌活性之實驗室依據，但非臨床試驗。"
+        },
+        {
+          "pmid": "14510876",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "老年人皮膚感染診斷與治療綜述，可能涉及醋酸於表淺真菌感染之應用，但為通論性背景文獻。"
+        },
+        {
+          "pmid": "31049344",
+          "study_type": "Review/Case series",
+          "tier": "3",
+          "relevance_note": "化學剝離作為特殊族群甲癬口服抗真菌替代治療，與醋酸使用場景有關聯但非直接研究醋酸。"
+        },
+        {
+          "pmid": "37256034",
+          "study_type": "Retrospective/Safety",
+          "tier": "3",
+          "relevance_note": "韓國民俗療法（含ACV）導致燒傷之病因分析（2023年），為安全性警示文獻；提示高濃度醋酸局部使用之潛在傷害，S1安全評估需考量。"
+        },
+        {
+          "pmid": "33625606",
+          "study_type": "Laboratory/Microbiological",
+          "tier": "3",
+          "relevance_note": "馬來西亞發酵食品Lactobacillus分離研究，與醋酸在體癬之應用相關性極低。"
+        }
+      ]
+    },
+    {
+      "disease_name": "ulcerative blepharitis",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "潰瘍性眼瞼炎（金黃色葡萄球菌感染為主）。醋酸局部抗菌性在理論上有應用可能，但眼周組織對酸性刺激高度敏感，安全性風險顯著。0臨床試驗、0文獻，Safety concerns > theoretical benefit，維持Hold。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 1,
+      "L5": 9
+    },
+    "stage_distribution": {
+      "S3": 0,
+      "S2": 0,
+      "S1": 1,
+      "S0": 9
+    },
+    "priority_indication": "tinea corporis",
+    "key_finding": "醋酸（Acetic acid）10項再利用適應症中，9項僅有TxGNN預測支持（L5/S0），唯tinea corporis具有歷史文獻基礎（L4/S1）。臨床試驗資料整體相關性低（全部Grade C），多數試驗並非研究醋酸本身，而是主題關聯的其他介入。建議優先針對tinea corporis設計醋酸局部製劑之標準化臨床研究，明確濃度（建議2-5%）、劑型及對照組（現有抗真菌藥）。"
+  }
+}
+```
+
+---
+
+## 評估摘要
+
+### 🔴 關鍵發現
+
+**醋酸（DB03166）的整體再利用價值有限，但 tinea corporis 值得進一步研究。**
+
+| 適應症 | 等級 | 階段 | 建議 | 核心問題 |
+|--------|------|------|------|---------|
+| post-bacterial disorder | L5 | S0 | ❌ Hold | 18項試驗均非研究醋酸，0文獻 |
+| postinfectious vasculitis | L5 | S0 | ❌ Hold | 免疫機制無醋酸作用點 |
+| post-infectious syndrome | L5 | S0 | ❌ Hold | 16試驗+4文獻全部與醋酸無直接關聯 |
+| Chagas cardiomyopathy | L5 | S0 | ❌ Hold | 文獻為診斷/影像，非治療 |
+| infective urethral stricture | L5 | S0 | ❌ Hold | 唯一文獻為1989年診斷研究 |
+| infection-related HUS | L5 | S0 | ❌ Hold | 高危適應症，零證據 |
+| drug-induced osteoporosis | L5 | S0 | ❌ Hold | 酸性環境可能反促骨吸收 |
+| pityriasis simplex | L5 | S0 | ❌ Hold | 零臨床證據 |
+| **tinea corporis** | **L4** | **S1** | **🟡 Research Question** | **歷史文獻+抗真菌機制** |
+| ulcerative blepharitis | L5 | S0 | ❌ Hold | 眼周安全性風險 > 理論效益 |
+
+### ⚠️ 資料品質警示
+
+1. **試驗相關性問題**：絕大多數列出的臨床試驗與醋酸無直接關係，係由主題關鍵字匹配所致，應視為 **Grade C（低相關）**
+2. **tinea corporis 的限制**：現有文獻以1946-1947年歷史文獻為主，且均為碘+醋酸「組合療法」，無法單獨確認醋酸效果；37256034號文獻（2023年燒傷報告）提示高濃度ACV局部使用的安全風險
+3. **下一步建議**：若推進 tinea corporis 研究，需設計2-5% 醋酸 vs. 標準抗真菌藥（如Clotrimazole）的標準化RCT，且須先完成體外MIC測定

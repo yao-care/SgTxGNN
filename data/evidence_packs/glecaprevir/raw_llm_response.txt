@@ -1,0 +1,325 @@
+## Glecaprevir (DB13879) 藥物再利用證據分析
+
+> **⚠️ 分析前置說明**：Glecaprevir 本身為 **HCV NS3/4A serine protease 特異性抑制劑**（Mavyret 成分之一），`original_moa: "[Data Gap]"` 為資料庫缺漏。以下所列臨床試驗多為 **HCV 適應症試驗**，需嚴格區分其與「老藥新用候選適應症」的相關性。
+
+---
+
+```json
+{
+  "drug_context": {
+    "drug": "Glecaprevir",
+    "known_moa": "HCV NS3/4A serine protease 抑制劑（非 aspartyl/cysteine protease）",
+    "approved_indication_elsewhere": "C型肝炎病毒（HCV）感染（全基因型）",
+    "data_note": "original_moa '[Data Gap]' 為資料庫缺漏，非藥物本身資訊缺失"
+  },
+  "indications": [
+    {
+      "disease_name": "HIV infectious disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glecaprevir 靶向 HCV NS3/4A serine protease，HIV 使用 aspartyl protease（結構與機制根本不同），無已知交叉抑制活性。現有臨床試驗均為 HIV/HCV 共感染患者接受 G/P 治療 HCV（非抗 HIV 活性研究）。PMID 39697370、37671831 記錄的是 HIV 患者使用 G/P 的 HCV SVR 數據及與 ARV 藥物的相容性，非直接抗 HIV 療效。藥物再利用機轉依據薄弱。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02939989",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，HIV/HCV 共感染族群（n=33），主要終點為 HCV SVR12，非抗 HIV 療效；提供 G/P 在 HIV+ 患者的安全性資料"
+        },
+        {
+          "nct_id": "NCT03222583",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 大型 HCV 試驗（n=546），研究 G/P 對 HCV 的療效，與 HIV 適應症無直接關聯"
+        },
+        {
+          "nct_id": "NCT03823911",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，研究 HIV/HCV 共感染患者清除 HCV 後心血管風險變化，間接顯示 G/P 安全性但非抗 HIV 療效"
+        },
+        {
+          "nct_id": "NCT04189627",
+          "relevance_grade": "C",
+          "reasoning": "真實世界研究，研究 HCV 治療效果（n=99），與 HIV 再利用無關"
+        },
+        {
+          "nct_id": "NCT03868163",
+          "relevance_grade": "C",
+          "reasoning": "真實世界 HCV 治療研究（n=161），與 HIV 直接治療無關聯"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39697370",
+          "study_type": "Cohort/Real-world",
+          "tier": "2",
+          "note": "HIV/HCV 共感染患者中 G/P 的 HCV 療效數據，非抗 HIV"
+        },
+        {
+          "pmid": "37671831",
+          "study_type": "Cohort/Real-world",
+          "tier": "2",
+          "note": "臨床實踐中 HIV/HCV 共感染的 G/P 反應，評估 HCV SVR"
+        },
+        {
+          "pmid": "31284039",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "G/P 治療 HCV 基因型 1-6 的系統回顧，包含共感染資料"
+        },
+        {
+          "pmid": "29845496",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "G/P 擴大 HCV 治療覆蓋範圍，討論特殊族群"
+        },
+        {
+          "pmid": "32754824",
+          "study_type": "Cohort/Real-world",
+          "tier": "2",
+          "note": "8 週 G/P 治療初治患者的真實世界數據"
+        }
+      ],
+      "assessment_note": "所有證據來自『HCV 治療用於 HIV 共感染患者』，非 Glecaprevir 直接抗 HIV 的再利用依據。TxGNN 高分（0.999）推測來自知識圖譜中 HCV↔HIV 共感染節點的強關聯。建議不推進 HIV 適應症開發。"
+    },
+    {
+      "disease_name": "hepatitis B virus infection",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "HBV 使用 DNA 聚合酶/reverse transcriptase 複製，與 HCV RNA 複製機制完全不同，Glecaprevir 無抗 HBV 活性機轉。現有文獻主要討論：(1) HCV 治療過程中的 HBV 再活化監測（PMID 29485084）；(2) 移植患者 HCV 相關肝病個案（PMID 30604247）；(3) 小兒病毒性肝炎管理綜述（非 G/P 特定）。臨床試驗均為 HCV 試驗，非針對 HBV 療效設計。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02640157",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 HCV 比較試驗（n=506），可能排除活躍 HBV 感染患者，與 HBV 治療適應症無關"
+        },
+        {
+          "nct_id": "NCT03092375",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3b G/P HCV 實用性研究（n=177），研究設計針對 HCV 非 HBV"
+        },
+        {
+          "nct_id": "NCT02243293",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 HCV 大型試驗（n=694），非 HBV 研究"
+        },
+        {
+          "nct_id": "NCT02441283",
+          "relevance_grade": "C",
+          "reasoning": "AbbVie DAA 抗藥性與持久反應追蹤研究（HCV），非 HBV 適應症"
+        },
+        {
+          "nct_id": "NCT02296905",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 PK/安全性試驗，肝功能損傷受試者（HCV 背景），非 HBV 療效"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29485084",
+          "study_type": "Review/Commentary",
+          "tier": "3",
+          "note": "討論 HCV 治癒後 HBV 疫苗接種建議，非 G/P 抗 HBV 療效"
+        },
+        {
+          "pmid": "34344581",
+          "study_type": "Case report",
+          "tier": "3",
+          "note": "G/P 治療 HCV 後序貫肝保護療法個案，間接 HBV 相關"
+        },
+        {
+          "pmid": "35431505",
+          "study_type": "Cohort/Real-world",
+          "tier": "2",
+          "note": "HIV 感染者使用 DAA 的真實世界療效，涉及 HBV 共感染管理"
+        },
+        {
+          "pmid": "31981264",
+          "study_type": "Clinical study",
+          "tier": "2",
+          "note": "嚴重腎損傷患者使用 G/P 的安全性，HCV 適應症"
+        },
+        {
+          "pmid": "30982721",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "兒童及青少年 HCV 感染綜述，非直接 HBV 研究"
+        }
+      ],
+      "assessment_note": "TxGNN 高分（0.999）推測來自 HBV↔HCV 共感染的知識圖譜節點關聯。現有所有試驗與文獻均為 HCV 相關，無 Glecaprevir 抗 HBV 臨床或臨床前依據。HBV 已有成熟治療藥物（TDF/TAF/ETV），再利用價值有限。"
+    },
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FIV（貓免疫缺陷病毒）為 Retroviridae 慢病毒，複製機制與 HCV（Flaviviridae）根本不同；Glecaprevir 無抗反轉錄病毒活性依據。此預測極可能為知識圖譜中 HIV↔FIV 的節點關聯傳播至 HCV 治療藥物，屬於假陽性預測。無任何臨床試驗、文獻或臨床前數據支持。此外，FIV 感染為動物獸醫適應症，人類藥物再利用不適用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "SIV 為靈長類慢病毒（HIV 近親），屬 Retroviridae，與 HCV（Flaviviridae）機制根本不同。Glecaprevir 靶向 HCV serine protease，對反轉錄酶及 HIV/SIV aspartyl protease 無活性。TxGNN 評分（0.998）推測來自 HIV↔SIV 知識圖譜節點的遠端關聯，屬誤導性預測。無任何臨床或臨床前數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hepatitis E virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "HEV（Hepeviridae）ORF1 編碼一個 cysteine protease（papain-like），與 HCV NS3/4A serine protease 不同類型，但均為蛋白酶。重要參考：其他 HCV NS3 抑制劑（boceprevir、narlaprevir）已有 in vitro 抗 HEV 活性文獻報告。Glecaprevir 是否具類似活性，尚無任何臨床或臨床前數據（本資料集文獻數=0）。所列 6 個臨床試驗全為 HCV 試驗（與 HEV 無直接關係）。考量 HEV 慢性感染治療選擇極有限（ribavirin 為唯一主流選擇），且存在理論上的蛋白酶抑制轉化可能，值得進行 in vitro 研究驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02446717",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 HCV 試驗（n=141），與 HEV 治療無直接關聯"
+        },
+        {
+          "nct_id": "NCT02243293",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 HCV 大型試驗（n=694），非 HEV 研究"
+        },
+        {
+          "nct_id": "NCT03069365",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 G/P 用於 HCV 復發患者（n=101），與 HEV 無關"
+        },
+        {
+          "nct_id": "NCT03219216",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 G/P 治療特定 HCV 族群（n=100），非 HEV"
+        },
+        {
+          "nct_id": "NCT01995071",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 劑量範圍試驗（HCV，n=89），非 HEV 研究"
+        },
+        {
+          "nct_id": "NCT02243280",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 HCV 合併用藥試驗（n=174），與 HEV 無直接關係"
+        }
+      ],
+      "literature_analysis": [],
+      "next_steps": "建議優先進行 Glecaprevir 對 HEV 的 in vitro 蛋白酶抑制活性測定，可參考 boceprevir 抗 HEV 研究設計。若有陽性 in vitro 數據，再評估進入 S1。"
+    },
+    {
+      "disease_name": "hepatitis, viral, animal",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "動物病毒性肝炎涵蓋多種異質性病原體（woodchuck hepatitis virus、ground squirrel hepatitis virus 等）。所列 3 篇文獻主要為：HCV 動物模型研究（humanized chimeric mice，PMID 32868923，研究對象為不同藥物 fluoxazolevir）、HCV 抗病毒療法綜述（PMID 39583485）、HCV 移植患者個案報告（PMID 30604247）。無針對動物肝炎病毒使用 Glecaprevir 的直接數據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32868923",
+          "study_type": "Animal model (in vivo)",
+          "tier": "3",
+          "note": "研究 fluoxazolevir（非 Glecaprevir）在人源化嵌合鼠 HCV 模型，間接相關"
+        },
+        {
+          "pmid": "39583485",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "HCV 抗病毒療法療效評估綜述，非動物肝炎病毒"
+        },
+        {
+          "pmid": "30604247",
+          "study_type": "Case report",
+          "tier": "3",
+          "note": "腎移植受者 HCV 相關纖維化膽汁淤積性肝炎個案，非動物病毒"
+        }
+      ]
+    },
+    {
+      "disease_name": "hepatitis A virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HAV（Picornaviridae）使用 2C NTPase 及 3C cysteine protease（非 serine protease），複製機制與 HCV 根本不同，Glecaprevir 無合理作用靶點。所列 50 個臨床試驗經檢視全為 HCV 試驗（NCT02692703、NCT03212521 等標題均為 ABT-493/ABT-530 或 Glecaprevir/Pibrentasvir 的 HCV 試驗），文獻數為 0。HAV 感染通常為自限性急性疾病，無特異性抗病毒治療需求。試驗計數（50）為資料庫歸類錯誤，應屬 HCV 試驗。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02692703",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 G/P HCV 單臂試驗（n=100），歸類至 HAV 為資料庫錯誤"
+        },
+        {
+          "nct_id": "NCT03212521",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 G/P HCV 試驗（n=230），與 HAV 無關"
+        },
+        {
+          "nct_id": "NCT02640157",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 HCV 比較試驗（n=506），非 HAV 研究"
+        },
+        {
+          "nct_id": "NCT02939989",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 HCV/HIV 共感染試驗（n=33），非 HAV"
+        },
+        {
+          "nct_id": "NCT02636595",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 HCV 試驗（n=121），非 HAV"
+        }
+      ],
+      "literature_analysis": [],
+      "data_quality_flag": "⚠️ 50 個臨床試驗計數疑為資料庫歸類錯誤，實際上均為 HCV 試驗，不代表 HAV 臨床研究證據"
+    },
+    {
+      "disease_name": "Omsk hemorrhagic fever",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "OHFV（Omsk hemorrhagic fever virus）屬 Flaviviridae（tick-borne），與 HCV 同科，理論上 NS3 蛋白酶可能有結構相似性。然而 OHFV NS3 序列與 HCV NS3 差異顯著，且針對 tick-borne flaviviruses 的 protease inhibitor 轉化研究極為有限。無任何臨床試驗、文獻或 in vitro 數據支持。地理分布極為侷限（西伯利亞），全球公衛影響極低，商業研究動力不足。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Kyasanur forest disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "KFDV（Kyasanur Forest Disease Virus）同屬 Flaviviridae tick-borne group，與 OHFV 評估類似。雖與 HCV 同科，但 NS3 蛋白酶同源性低，無 in vitro 或 in vivo 數據支持 Glecaprevir 對 KFDV 的活性。疾病分布極為侷限（印度 Karnataka 邦），再利用研究優先順序低。無任何臨床試驗或文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見遺傳性神經發育障礙（疑為 TBCK 相關 infantile encephalopathy 或類似疾病），病因為基因突變導致的神經發育缺陷，與 Glecaprevir 的抗病毒蛋白酶抑制機制完全無關。TxGNN 高分（0.998）可能來自知識圖譜遠端節點連結（如：肝功能↔神經發育的代謝關聯節點），屬明顯假陽性。無任何臨床、臨床前或機制支持數據。不建議研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 總體評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|---------|---------|------|---------|
+| HIV infectious disease | L4 | S1 | **Hold** | 無抗 HIV 機轉；試驗均為 HCV/HIV 共感染的 HCV 治療 |
+| Hepatitis B virus infection | L4 | S1 | **Hold** | 無抗 HBV 機轉；文獻僅討論 HBV 再活化監測 |
+| Feline AIDS | L5 | S0 | **Hold** | 獸醫適應症 + 無機轉依據 |
+| Simian immunodeficiency | L5 | S0 | **Hold** | 假陽性預測，反轉錄病毒 vs 黃病毒 |
+| **Hepatitis E virus infection** | **L5** | **S0** | **Research Question ⭐** | 蛋白酶機轉存在理論可能；HEV 治療需求未滿足 |
+| Hepatitis, viral, animal | L4 | S0 | **Hold** | 文獻均為 HCV 動物模型，非直接相關 |
+| Hepatitis A virus infection | L5 | S0 | **Hold** | 50 個試驗均為 HCV 試驗（資料庫歸類錯誤） |
+| Omsk hemorrhagic fever | L5 | S0 | **Hold** | 純預測；同科但序列差異大 |
+| Kyasanur forest disease | L5 | S0 | **Hold** | 純預測；地理侷限 |
+| Neurodevelopmental disorder | L5 | S0 | **Hold** | 遺傳性疾病，無抗病毒機轉關聯 |
+
+### 🔬 唯一值得追蹤的研究問題：**HEV 感染**
+- **理由**：① HEV 慢性感染治療選擇極有限（ribavirin 療效不穩定） ② 同類藥物 boceprevir 已有 in vitro 抗 HEV 數據 ③ HEV ORF1 含蛋白酶域
+- **下一步**：委託 in vitro HEV replicon 系統測試 Glecaprevir 的蛋白酶抑制活性，再評估是否升級至 S1
+
+> ⚠️ **本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過臨床驗證才能應用。**

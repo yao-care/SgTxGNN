@@ -1,0 +1,321 @@
+## Ketotifen (DB00920) 藥物再利用證據分析
+
+**背景說明**：Ketotifen 為第一代 H1 抗組織胺劑兼肥大細胞穩定劑，在許多國家已核准用於過敏性結膜炎（眼藥水）及過敏性鼻炎/氣喘（口服），但在本專案市場（SgTxGNN）標記為「未上市」。原始 MOA 欄位顯示 [Data Gap]，需補充說明：核心機轉為 **H1 受體拮抗 + 肥大細胞膜穩定化（抑制 Ca²⁺ 依賴性脫顆粒）**。
+
+---
+
+```json
+{
+  "drug": "Ketotifen",
+  "drugbank_id": "DB00920",
+  "analysis_date": "2026-04-04",
+  "core_moa_reconstructed": "H1 受體拮抗 + 肥大細胞穩定（抑制 IgE 介導之脫顆粒）+ 輕度抗血清素活性",
+  "indications": [
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.986,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "confidence_note": "文獻含多篇頭對頭比較試驗，但多為 1990-2005 年小規模研究；現代第二代抗組織胺為標準治療，需定位 Ketotifen 的差異化優勢",
+      "mechanistic_link": "高度相關。蕁麻疹核心機轉為 IgE/肥大細胞介導之組織胺釋放 → 皮膚微血管通透性增加 → 風疹塊。Ketotifen 雙重機轉（H1 拮抗 + 肥大細胞穩定）同時作用於上游（抑制釋放）與下游（阻斷受體），較純 H1 拮抗劑理論上更全面。機轉鏈：過敏原 → IgE/FcεRI → [Ketotifen 抑制] 肥大細胞脫顆粒 → [Ketotifen 阻斷] H1R 活化 → 抑制血管擴張 + 通透性增加 → 症狀緩解",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9487221",
+          "title": "Ketotifen and chronic urticaria",
+          "year": "1998",
+          "study_type": "Clinical Trial（直接試驗）",
+          "tier": "1",
+          "relevance": "直接針對 Ketotifen + 慢性蕁麻疹，最高關聯性"
+        },
+        {
+          "pmid": "7488341",
+          "title": "Cold urticaria in Thai children: comparison between cyproheptadine and ketotifen",
+          "year": "1995",
+          "study_type": "RCT（頭對頭比較）",
+          "tier": "1",
+          "relevance": "RCT 設計，Ketotifen vs 賽庚定，亦涵蓋一般蕁麻疹族群"
+        },
+        {
+          "pmid": "19753736",
+          "title": "Levothyroxine versus ketotifen in the treatment of patients with chronic urticaria and thyroid autoimmunity",
+          "year": "2002",
+          "study_type": "RCT（頭對頭比較）",
+          "tier": "1",
+          "relevance": "直接比較 Ketotifen 於慢性蕁麻疹合併甲狀腺自體免疫，顯示 Ketotifen 有效性"
+        },
+        {
+          "pmid": "2873823",
+          "title": "Urticaria in Thai children",
+          "year": "1986",
+          "study_type": "Cohort（觀察性）",
+          "tier": "2",
+          "relevance": "包含 Ketotifen 治療兒童蕁麻疹結果"
+        },
+        {
+          "pmid": "15617665",
+          "title": "Cold urticaria and infectious mononucleosis in children",
+          "year": "2004",
+          "study_type": "Case Series",
+          "tier": "2",
+          "relevance": "涉及 Ketotifen 在特殊誘發蕁麻疹的臨床應用"
+        },
+        {
+          "pmid": "9951950",
+          "title": "Second-generation antihistamines: a comparative review",
+          "year": "1999",
+          "study_type": "Comparative Review",
+          "tier": "3",
+          "relevance": "Ketotifen 與新型抗組織胺比較，間接支持地位"
+        },
+        {
+          "pmid": "16278258",
+          "title": "Treatment for allergic rhinitis and chronic idiopathic urticaria: focus on oral antihistamines",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "提及 Ketotifen 在慢性特發性蕁麻疹的治療角色"
+        },
+        {
+          "pmid": "2226222",
+          "title": "Ketotifen. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic use in asthma",
+          "year": "1990",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "relevance": "藥物全面回顧，包含蕁麻疹適應症分析"
+        },
+        {
+          "pmid": "7530629",
+          "title": "Urticaria. Recognition, causes and treatment",
+          "year": "1994",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "蕁麻疹治療指南，Ketotifen 列為選項之一"
+        },
+        {
+          "pmid": "8808167",
+          "title": "Ebastine: a review of its pharmacological properties and clinical efficacy in the treatment of allergic disorders",
+          "year": "1996",
+          "study_type": "Drug Review（間接對照）",
+          "tier": "3",
+          "relevance": "間接；Ebastine 與 Ketotifen 同類比較背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "cold urticaria",
+      "txgnn_score": 0.927,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "confidence_note": "有多篇 1980-1990 年代直接小型試驗，但缺乏現代 RCT；現代標準治療為 Omalizumab（難治型）及二代抗組織胺，需重新評估 Ketotifen 定位",
+      "mechanistic_link": "相關。冷性蕁麻疹機轉：冷刺激 → 皮膚 IgE/肥大細胞活化 → 組織胺 + 前列腺素 + 白三烯素釋放 → 蕁麻疹。Ketotifen 的肥大細胞穩定效果可直接抑制冷誘發的肥大細胞脫顆粒（PMID 6198811 直接驗證：Ketotifen 顯著降低冷暴露後組織胺血清濃度），H1 拮抗則阻斷下游受體。機轉匹配度優於純 H1 拮抗劑。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3907425",
+          "title": "Effect of ketotifen treatment on cold-induced urticaria",
+          "year": "1985",
+          "study_type": "Clinical Trial（直接介入）",
+          "tier": "1",
+          "relevance": "最直接：測試 Ketotifen 對冷性蕁麻疹的療效"
+        },
+        {
+          "pmid": "6479412",
+          "title": "[Treatment of acquired cold urticaria with ketotifen]",
+          "year": "1984",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "relevance": "直接試驗，獲得性冷性蕁麻疹 Ketotifen 治療"
+        },
+        {
+          "pmid": "6198811",
+          "title": "[Effect of ketotifen and oxatomide on histamine liberation due to exposure in cold urticaria]",
+          "year": "1983",
+          "study_type": "Clinical Mechanistic Study",
+          "tier": "1",
+          "relevance": "提供機轉直接證據：Ketotifen 抑制冷暴露後組織胺釋放"
+        },
+        {
+          "pmid": "1364168",
+          "title": "A comparison of new nonsedating and classical antihistamines in the treatment of primary acquired cold urticaria",
+          "year": "1992",
+          "study_type": "RCT（頭對頭比較）",
+          "tier": "1",
+          "relevance": "Ketotifen 與新型抗組織胺在冷性蕁麻疹的直接 RCT 比較"
+        },
+        {
+          "pmid": "7488341",
+          "title": "Cold urticaria in Thai children: comparison between cyproheptadine and ketotifen",
+          "year": "1995",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "兒童冷性蕁麻疹 RCT，Ketotifen vs 賽庚定"
+        },
+        {
+          "pmid": "6209972",
+          "title": "Clinical and therapeutical aspects of cold urticaria (urticaria a frigore)",
+          "year": "1984",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance": "冷性蕁麻疹治療全貌，包含 Ketotifen 角色"
+        },
+        {
+          "pmid": "15748583",
+          "title": "Primary (idiopathic) cold urticaria and cholinergic urticaria",
+          "year": "2004",
+          "study_type": "Cohort/Review",
+          "tier": "2",
+          "relevance": "探討特發性冷性蕁麻疹的治療選項"
+        },
+        {
+          "pmid": "2873823",
+          "title": "Urticaria in Thai children",
+          "year": "1986",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance": "兒童蕁麻疹（含冷性）的治療觀察"
+        },
+        {
+          "pmid": "15617665",
+          "title": "Cold urticaria and infectious mononucleosis in children",
+          "year": "2004",
+          "study_type": "Case Series",
+          "tier": "2",
+          "relevance": "特殊觸發因素冷性蕁麻疹，Ketotifen 作為治療選項"
+        },
+        {
+          "pmid": "2479744",
+          "title": "Terbutaline and ketotifen in cold urticaria in a child",
+          "year": "1989",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "個案報告，難治型冷性蕁麻疹合併用藥"
+        }
+      ]
+    },
+    {
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn_score": 0.971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "TxGNN 高分（0.971）可能反映 KG 中玫瑰斑與結膜炎的節點關聯性，而非 Ketotifen 特異性機轉支持",
+      "mechanistic_link": "機轉關聯性弱至中等。Ketotifen 眼藥水已用於過敏性結膜炎，理論上可緩解玫瑰斑相關結膜炎的炎症反應（發紅、異物感）。然而，玫瑰斑眼部表現（Ocular rosacea）的核心機轉涉及神經血管調控失調、Toll-like receptor 過度活化、Demodex 感染及 MMP 過度表達，與純過敏機轉有本質差異。H1 拮抗/肥大細胞穩定可能僅能處理次要炎症成分。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nasopharyngitis",
+      "txgnn_score": 0.927,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "鼻咽炎（感冒）以病毒性為主，抗組織胺雖可緩解症狀但不改變病程；Ketotifen 鎮靜副作用在此適應症尤需考量",
+      "mechanistic_link": "機轉關聯性低。大多數鼻咽炎由病毒（鼻病毒、冠狀病毒等）引起。Ketotifen H1 拮抗理論上可減少鼻充血、流鼻水等組織胺相關症狀，但：（1）病毒性鼻咽炎的症狀主要由 kinins 和前列腺素介導而非組織胺；（2）Ketotifen 作為第一代抗組織胺，鎮靜性強，不適合症狀性治療；（3）無任何文獻或試驗支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn_score": 0.843,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "「頑固型」標記意味著已對一線治療無效，Ketotifen 作為非標準療法在此族群缺乏證據；雖有早期 AD 研究提及 Ketotifen，但無頑固型特定資料",
+      "mechanistic_link": "機轉有理論基礎但證據不足。異位性皮膚炎涉及 Th2 偏移、IL-4/IL-13 過度表達、IgE 升高、肥大細胞活化及皮膚屏障缺陷。Ketotifen 可調節肥大細胞活性（可能減少搔癢誘發介質）並拮抗 H1 受體（減緩搔癢感）。然而：（1）頑固型 AD 的核心機制更複雜，超越肥大細胞/組織胺層面；（2）現代生物製劑（Dupilumab）已主導難治型 AD；（3）提供的資料中完全無文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Angelucci syndrome",
+      "txgnn_score": 0.835,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "Angelucci 症候群為罕見疾病，病理機轉尚有爭議，缺乏任何現代 RCT；TxGNN 預測可能基於「過敏性結膜炎」節點關聯",
+      "mechanistic_link": "機轉部分相關。Angelucci 症候群特徵：過敏性結膜炎 + 心悸 + 易激動 + 貧血樣症狀。Ketotifen 眼藥水對過敏性結膜炎成分有直接機轉支持（H1 拮抗 + 肥大細胞穩定）。然而心血管/神經性症狀成分無機轉解釋，全身性應用可能因鎮靜作用干擾症狀評估。整體機轉鏈：Ketotifen → 緩解結膜炎成分 → 症狀部分改善（心血管成分未能解決）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute hemorrhagic conjunctivitis",
+      "txgnn_score": 0.833,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "TxGNN 評分偏高（0.833）可能反映「結膜炎」類別的共享節點效應，而非疾病特異性；病毒性病因使 Ketotifen 機轉不適用",
+      "mechanistic_link": "機轉關聯性極低。急性出血性結膜炎由腸病毒 70 型（EV70）或克沙奇病毒 A24（CA24v）引起，呈自限性（7-10 天）。Ketotifen 無抗病毒活性，其抗組織胺/肥大細胞穩定機轉不針對病毒複製或病毒誘發的免疫應答。理論上僅能緩解繼發性組織胺介導的不適感（瘙癢、分泌物），但在急性病毒性結膜炎中組織胺並非主要症狀介質。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pseudomembranous conjunctivitis",
+      "txgnn_score": 0.828,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "假膜性結膜炎通常需要抗菌/抗病毒治療，單純抗組織胺治療缺乏理論基礎",
+      "mechanistic_link": "機轉不匹配。假膜性結膜炎由白喉桿菌、腺病毒 8/19/37 型、β-溶血性鏈球菌或 Stevens-Johnson 症候群引起。感染性病因需要抗生素/抗病毒藥；SJS 相關假膜性結膜炎需類固醇/免疫調節治療。Ketotifen 的 H1 拮抗機轉對假膜形成（主要由纖維蛋白滲出 + 壞死上皮組成）無直接效果。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "parasitic conjunctivitis",
+      "txgnn_score": 0.826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "KG 節點分析可能捕捉到 Ketotifen 的廣泛過敏/炎症關聯性，但寄生蟲性病因需要特異性抗寄生蟲治療",
+      "mechanistic_link": "機轉極間接。寄生蟲性結膜炎（羅阿絲蟲、弓形蟲、蠕形螨、眼蛆等）的一線治療為抗寄生蟲藥（Ivermectin、Albendazole 等）。Ketotifen 理論上可緩解寄生蟲誘發的過度嗜酸性球浸潤和肥大細胞活化造成的繼發性過敏炎症反應（部分寄生蟲感染伴隨 IgE 升高和肥大細胞活化），但作為輔助治療使用的證據完全缺乏。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic follicular conjunctivitis",
+      "txgnn_score": 0.826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence_note": "與 parasitic conjunctivitis 共享最低預測分數（0.826），顯示 TxGNN 模型對此組適應症信心相對較低",
+      "mechanistic_link": "機轉關聯性低。慢性濾泡性結膜炎主要病因為：砂眼衣原體慢性感染、腺病毒慢性感染、眼藥水（尤其含防腐劑者）毒性反應、Molluscum contagiosum 感染。感染性和毒性病因均不在 Ketotifen 的作用範疇內。若病因為藥物毒性，停藥比添加 Ketotifen 更為合理。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 摘要評估表
+
+| 適應症 | TxGNN 分數 | 文獻數 | 試驗數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|----------|----------|------|
+| allergic urticaria | 0.986 | 20 | 0 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| cold urticaria | 0.927 | 14 | 0 | **L3** | **S2** | 🔬 Research Question |
+| rosacea conjunctivitis | 0.971 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| nasopharyngitis | 0.927 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| recalcitrant atopic dermatitis | 0.843 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| Angelucci syndrome | 0.835 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| acute hemorrhagic conjunctivitis | 0.833 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| pseudomembranous conjunctivitis | 0.828 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| parasitic conjunctivitis | 0.826 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| chronic follicular conjunctivitis | 0.826 | 0 | 0 | L5 | S0 | ⛔ Hold |
+
+---
+
+## 關鍵觀察與風險提示
+
+### ⚠️ TxGNN 高分 ≠ 高臨床證據
+`rosacea conjunctivitis`（0.971）與 `nasopharyngitis`（0.927）的 TxGNN 分數極高，但**文獻為零**。這反映 KG 的結構關聯性（Ketotifen 與「結膜炎」、「過敏」節點距離近），而非疾病特異性臨床效果。
+
+### ✅ allergic urticaria — 實際上接近「已知用途」
+本適應症有 3 篇 Tier-1 比較試驗，在多國（日本、歐洲）Ketotifen 已實際用於慢性蕁麻疹。**「Proceed with Guardrails」的護欄建議**：
+1. 注意與現代第二代抗組織胺（Cetirizine、Loratadine）的競爭定位
+2. 第一代抗組織胺的鎮靜性應納入安全性評估
+3. 老年患者需特別謹慎（抗膽鹼性副作用）
+
+### 🔬 cold urticaria — 有差異化潛力的 Research Question
+冷性蕁麻疹的現代治療仍以二代抗組織胺為主，難治型用 Omalizumab。Ketotifen 的**肥大細胞穩定附加機轉**（PMID 6198811 直接證明抑制冷誘發組織胺釋放）提供差異化空間，值得設計現代 RCT 驗證。

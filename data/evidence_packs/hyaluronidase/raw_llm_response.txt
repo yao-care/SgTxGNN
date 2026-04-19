@@ -1,0 +1,201 @@
+以下是 Hyaluronidase (DB14740) 的藥物再利用證據分析：
+
+```json
+{
+  "drug": "Hyaluronidase",
+  "drugbank_id": "DB14740",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Hyaluronidase 為透明質酸酶，可降解玻尿酸（HA）、促進組織滲透與藥物擴散。雖標記為「未上市」，但 Vitrase（卵源性透明質酸酶）曾獲 FDA 批准用於玻璃體出血，後因商業因素退市。DDI=0 反映資料庫登錄不完整，非無交互作用。",
+  "indications": [
+    {
+      "disease_name": "diabetic retinopathy",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "玻璃體內 HA 大量積累是增殖性糖尿病視網膜病變的病理特徵之一。Hyaluronidase 透過酶解 HA 促進藥理性玻璃體溶解（pharmacologic vitreolysis），可液化並分離後部玻璃體，有助於減少牽引性視網膜剝離及促進玻璃體出血吸收。2026 年新研究（PMID 41789111）進一步確認 HA 代謝失調驅動炎症與血管新生，強化機轉合理性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00198497",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（n=510），Vitrase 玻璃體內注射，直接針對糖尿病視網膜病變相關玻璃體出血，COMPLETED。為本適應症最強直接臨床證據，支撐 L1 評級。"
+        },
+        {
+          "nct_id": "NCT00198510",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（n=750），同為 Vitrase 玻璃體內注射試驗，規模更大，COMPLETED。與 NCT00198497 共同構成雙 Phase 3 直接證據。"
+        },
+        {
+          "nct_id": "NCT00198471",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 開放標籤研究（n=10），同為 Vitrase 玻璃體內注射。規模過小且無對照，但作為 Phase 3 的先導研究具參考價值。"
+        },
+        {
+          "nct_id": "NCT04311606",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 研究（n=11），主題為 Anti-VEGF 治療急性甲狀腺眼病（AcTED），與 Hyaluronidase 或糖尿病視網膜病變無直接關聯，相關性極低，不應納入證據計算。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "19199900", "study_type": "Review", "tier": "1", "note": "酶解玻璃體溶解全面綜述，涵蓋 Vitrase 臨床應用機轉"},
+        {"pmid": "20939804", "study_type": "Review", "tier": "1", "note": "糖尿病視網膜病變藥理性玻璃體溶解系統性回顧"},
+        {"pmid": "17713597", "study_type": "Review", "tier": "1", "note": "糖尿病視網膜病變藥物治療現況與展望，Hyaluronidase 列入討論"},
+        {"pmid": "19349793", "study_type": "Review", "tier": "1", "note": "藥理性玻璃體動力學機轉分析"},
+        {"pmid": "17245084", "study_type": "Review", "tier": "1", "note": "藥理性玻璃體溶解早期重要綜述"},
+        {"pmid": "19644368", "study_type": "Review", "tier": "1", "note": "糖尿病視網膜病變治療典範轉移，含 Hyaluronidase 章節"},
+        {"pmid": "41789111", "study_type": "Mechanistic/Translational", "tier": "2", "note": "2026年新研究，確認 HA 代謝異常驅動增殖性 DR 的炎症與血管新生，強化機轉"},
+        {"pmid": "30445048", "study_type": "Animal Study", "tier": "3", "note": "糖尿病小鼠模型中 Hyaluronidase 對視網膜內皮糖蛋白鹽基層的影響"},
+        {"pmid": "19050667", "study_type": "Animal Study", "tier": "3", "note": "Plasmin + Hyaluronidase 聯合藥理性玻璃體溶解在糖尿病鼠的效果"},
+        {"pmid": "19668479", "study_type": "Review", "tier": "1", "note": "糖尿病視網膜病變病理機轉綜述，提及 HA 角色"}
+      ]
+    },
+    {
+      "disease_name": "dermatitis",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Hyaluronidase 可降解皮膚炎症組織中積累的 HA，理論上可減少組織水腫、改善局部藥物滲透率並調節炎症微環境。然而，文獻中存在矛盾信號：多篇研究顯示「抑制」Hyaluronidase 活性可改善皮膚炎症（植物提取物通過拮抗 Hyaluronidase 發揮作用），表明 HA 降解可能具有雙向調節效應。Phase 2 RCT 已完成但需評估其主要結局。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00928447",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT（隨機、雙盲、安慰劑對照，n=22），皮內注射 Hyaluronidase，COMPLETED。雖樣本量小，但設計嚴謹，為本適應症最強直接證據，支撐 L2 評級。需查閱完整結果以評估療效方向。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "15426122", "study_type": "Early Clinical Observation", "tier": "2", "note": "1950 年早期臨床觀察：Hyaluronidase 與皮膚炎症的關聯，歷史性參考"},
+        {"pmid": "14332642", "study_type": "Case Series", "tier": "2", "note": "皰疹樣皮炎血清研究，涉及 Hyaluronidase 機轉，間接相關"},
+        {"pmid": "37145319", "study_type": "Review", "tier": "2", "note": "2024 年：Hyaluronidase 注射（皮膚填充劑）引起過敏性皮炎的不良事件報告，為安全信號警示"},
+        {"pmid": "26716906", "study_type": "Animal Study", "tier": "3", "note": "番茄皂苷抑制 Hyaluronidase 活性改善小鼠皮炎，提示抑制酶活性或有益——與直接給藥方向相反"},
+        {"pmid": "35455695", "study_type": "Mechanistic Study", "tier": "3", "note": "抑制 Hyaluronidase 活性抑制 CD4+ T 淋巴細胞活化，同樣為「抑制」方向"},
+        {"pmid": "36603785", "study_type": "Animal Study", "tier": "3", "note": "植物萃取物通過抗 Hyaluronidase 機轉改善過敏性炎症，矛盾信號"},
+        {"pmid": "40994925", "study_type": "Review", "tier": "1", "note": "2025 FDA 批准治療性抗體綜述，與 Hyaluronidase 皮炎適應症無直接關聯"},
+        {"pmid": "22652242", "study_type": "Basic Science", "tier": "3", "note": "苔蘚植物植化學與生物活性，含抗 Hyaluronidase 成分，間接基礎研究"},
+        {"pmid": "12987976", "study_type": "Case Series", "tier": "3", "note": "1952 年濕疹與 Hyaluronidase 的早期報告（德文），歷史性參考"},
+        {"pmid": "41260428", "study_type": "Basic Science", "tier": "3", "note": "2025 年植物多醣研究含抗 Hyaluronidase 活性，基礎科學，間接相關"}
+      ]
+    },
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "嚴重非增殖性糖尿病視網膜病變（NPDR）為增殖性 DR 的前期，玻璃體後界膜的 HA 積累在此階段已開始影響視網膜微環境。Hyaluronidase 的早期介入假說認為，在尚未形成新生血管時進行藥理性玻璃體溶解，可能預防疾病進展至增殖期。此適應症與 diabetic retinopathy 的機轉連續，但臨床干預時機不同。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00198471",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 開放標籤研究（n=10），針對 Vitrase 玻璃體內注射，與嚴重 NPDR 有重疊人群，但樣本量極小且缺乏對照組。同一試驗亦納入 diabetic retinopathy 分析，於此適應症評為 B 級（部分相關）。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diabetic cataract",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有文獻中 Hyaluronidase 與糖尿病性白內障的關聯主要來自兩個間接路徑：(1) 作為球旁麻醉（peribulbar block）的滲透促進劑用於白內障手術；(2) 早期研究顯示 Hyaluronidase 影響囊樣黃斑水腫（CME）發生率。目前尚無直接以 Hyaluronidase 「治療」糖尿病性白內障的生物合理性機轉或臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "12757408", "study_type": "Drug Profile", "tier": "2", "note": "2003 年 Vitrase（ISTA Pharmaceuticals）藥物介紹文章，涵蓋眼科用途，間接相關"},
+        {"pmid": "37661976", "study_type": "RCT/Procedural", "tier": "2", "note": "2023 年 Hyaluronidase 在球旁麻醉阻斷中的應用研究——屬麻醉輔助用途，非治療糖尿病性白內障"},
+        {"pmid": "367238", "study_type": "Clinical Observation", "tier": "3", "note": "1978 年：Hyaluronidase 對囊樣黃斑水腫（CME）發生率的影響，歷史性臨床觀察，間接相關"},
+        {"pmid": "19577582", "study_type": "Basic Science", "tier": "3", "note": "O-GlcNAc 修飾導致水晶體纖維細胞分化異常與白內障，與 Hyaluronidase 機轉無直接關聯"},
+        {"pmid": "19644368", "study_type": "Review", "tier": "1", "note": "糖尿病視網膜病變治療綜述，非糖尿病性白內障，錯誤歸類"}
+      ]
+    },
+    {
+      "disease_name": "esotropia",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向信號警示：唯一文獻（PMID 16934027）記載的是白內障手術後的「持續性複視與斜視」，可能與局部麻醉時使用 Hyaluronidase 有關，屬不良事件報告而非治療性應用。TxGNN 高預測分數（0.999）可能源於 Hyaluronidase 與眼科手術相關節點的圖譜關聯，而非治療效益。目前無合理機轉支持 Hyaluronidase 治療內斜視。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "16934027", "study_type": "Case Series/Observational", "tier": "3", "note": "2006 年：局部麻醉下白內障手術後持續性複視與斜視——Hyaluronidase 為潛在誘發因素，此為不良事件報告，非治療性證據，具反向信號意義"}
+      ]
+    },
+    {
+      "disease_name": "amenorrhea (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻（PMID 1218911，1975 年）研究人類子宮內膜組織與子宮液中的 Hyaluronidase 活性，屬基礎生化研究，描述 Hyaluronidase 為子宮內生理酶，並非治療性應用。HA 在子宮內膜週期中確實有重要角色，但無路徑顯示外源性 Hyaluronidase 可改善閉經。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "1218911", "study_type": "Basic Science/Biochemistry", "tier": "3", "note": "1975 年：子宮內膜組織與子宮液 Hyaluronidase 活性的生化研究，為背景生理學資料，無治療意涵"}
+      ]
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何臨床或文獻證據支持此適應症。腎小管酸中毒的病理機轉（H+/HCO3- 轉運缺陷）與 Hyaluronidase 的 HA 降解酶活性缺乏已知生物合理性連結。TxGNN 高分（0.9976）僅反映知識圖譜節點相似性，不代表治療關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性萎縮性肢端皮炎（Lyme 病晚期皮膚表現）理論上與 HA 代謝可能有關聯，但目前無任何試驗或文獻資料支持此假說。缺乏可追溯的研究起點。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻（PMID 4261256，1972 年）研究尿液酸性糖胺聚糖中半乳糖的測定，作為角蛋白硫酸鹽的指標，屬代謝測量研究，與 Hyaluronidase 治療新生兒皮肌炎無任何直接關聯。「neonatal dermatomyositis」本身為極罕見疾病，此連結很可能為知識圖譜假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "4261256", "study_type": "Basic Science/Biochemistry", "tier": "3", "note": "1972 年：尿液糖胺聚糖測定方法學研究，與 Hyaluronidase 治療皮肌炎無直接關聯，疑為假陽性"}
+      ]
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道先天性畸形為解剖結構異常，主要治療方式為手術矯正。無已知機轉可支持 Hyaluronidase 酶解療法對此先天性異常的治療效果。無任何文獻或試驗資料，應視為純粹的圖譜計算預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1": ["diabetic retinopathy"],
+    "L2": ["dermatitis"],
+    "L3": ["severe nonproliferative diabetic retinopathy"],
+    "L4": ["diabetic cataract", "esotropia", "amenorrhea (disease)"],
+    "L5": ["renal tubular acidosis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "non-syndromic esophageal malformation"],
+    "key_flags": [
+      "🔴 esotropia：唯一文獻為不良事件報告，具反向信號，建議從候選清單移除",
+      "🟡 dermatitis：文獻存在矛盾信號（部分研究顯示抑制 Hyaluronidase 有益），Phase 2 RCT 結果需查閱原始數據",
+      "🟢 diabetic retinopathy：雙 Phase 3 RCT 完成（n=510+750），為本藥再利用最強適應症，但需關注 Vitrase 退市背景",
+      "⚠️ market_status='未上市' 與 DDI=0 可能反映資料庫登錄不完整，Vitrase 歷史 FDA 批准應納入評估"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 證據摘要表
+
+| 適應症 | TxGNN分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|----------|----------|------|
+| diabetic retinopathy | 0.997 | 4（含2個P3） | 10 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| dermatitis | 0.997 | 1（P2 RCT） | 10 | **L2** | **S2** | 🔬 Research Question |
+| severe nonproliferative DR | 0.998 | 1（P2 open-label） | 0 | **L3** | **S1** | 🔬 Research Question |
+| diabetic cataract | 0.996 | 0 | 5 | **L4** | S0 | ⛔ Hold |
+| esotropia | 0.999 | 0 | 1 | **L4⚠️** | S0 | 🚫 Hold（反向信號） |
+| amenorrhea | 0.998 | 0 | 1 | **L4** | S0 | ⛔ Hold |
+| renal tubular acidosis | 0.998 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| acrodermatitis chronica atrophicans | 0.996 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| neonatal dermatomyositis | 0.995 | 0 | 1 | **L5** | S0 | ⛔ Hold |
+| non-syndromic esophageal malformation | 0.995 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+
+> **重要提醒**：本分析僅供研究參考，不構成醫療建議。老藥新用候選需經完整臨床驗證方可應用。

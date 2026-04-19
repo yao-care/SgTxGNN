@@ -1,0 +1,364 @@
+```json
+{
+  "drug": "Apremilast",
+  "drugbank_id": "DB05676",
+  "analysis_date": "2026-04-05",
+  "drug_moa_note": "已知機轉：PDE4（磷酸二酯酶4）抑制劑 → 升高細胞內 cAMP → 抑制 TNF-α、IL-17、IL-23 等促炎細胞因子分泌；資料集標記 MoA 為 [Data Gap]，依文獻補充",
+  "indications": [
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9809,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PDE4 抑制 → cAMP↑ → TNF-α、IL-6、IL-17 分泌受抑制；RA 的主要病理驅動因子與 PsA 高度重疊，Th1/Th17 軸失調是共同機轉。動物模型（PMID 30072998）已證實 Apremilast 可抑制 Th1/Th17 並增強 Treg，臨床前基礎充分。惟 Phase 2 試驗未能推進至 Phase 3，且 NCT01285310 提早終止，顯示療效優勢不足或被 bDMARDs 取代。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01250548",
+          "title": "The Controlled Trial of Apremilast for Rheumatoid Arthritis Treatment",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 34,
+          "relevance_grade": "A",
+          "reasoning": "直接以 RA 為目標疾病、隨機對照設計、已完成；樣本量小（n=34），屬 proof-of-concept 層級，為現有最強直接臨床證據之一"
+        },
+        {
+          "nct_id": "NCT01285310",
+          "title": "Phase 2 Multicenter RDB Parallel-group Study in RA",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 237,
+          "relevance_grade": "A",
+          "reasoning": "規模最大的 RA Phase 2 RCT（n=237），但提早終止；終止原因未公開，可能反映療效不足或安全性訊號，為本適應症最關鍵的負面訊號"
+        },
+        {
+          "nct_id": "NCT00521339",
+          "title": "Phase 2 Open-label Safety/PD/PK Study in RA",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 31,
+          "relevance_grade": "B",
+          "reasoning": "開放標籤設計，無對照組，主要評估安全性與藥代動力學；提供安全性數據但不能確認療效"
+        },
+        {
+          "nct_id": "NCT01204138",
+          "title": "Concomitant Use of Apremilast Despite TNF-Inhibitor and MTX",
+          "phase": "PHASE2",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "B",
+          "reasoning": "撤回前未招募任何受試者（n=0），無實際數據，但試驗設計本身（聯合治療概念）具參考價值"
+        },
+        {
+          "nct_id": "NCT01504113",
+          "title": "Impact of Targeted Therapy on Microorganism in Psoriasis Patients",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "研究對象為銀屑病患者，主要終點為菌叢變化，非 RA 療效評估，關聯性極低"
+        },
+        {
+          "nct_id": "NCT03036995",
+          "title": "Repigmentation Using Apremilast and Phototherapy in Vitiligo",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 80,
+          "relevance_grade": "C",
+          "reasoning": "白斑症試驗，與 RA 無直接關聯；僅能側面反映 Apremilast 在自體免疫/色素失調疾病中的廣泛免疫調節潛力"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25779750",
+          "title": "Apremilast in Patients With Active Rheumatoid Arthritis: Phase II RCT",
+          "year": "2015",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Phase 2 RCT 直接證據，Apremilast 對 RA 患者顯示部分療效但未達顯著統計差異"
+        },
+        {
+          "pmid": "30072998",
+          "title": "Apremilast Ameliorates Experimental Arthritis via Suppression of Th1/Th17",
+          "year": "2018",
+          "study_type": "Animal Study",
+          "tier": "2",
+          "note": "動物模型直接機轉證據，支持 PDE4 抑制在關節炎中的抗炎作用"
+        },
+        {
+          "pmid": "20525198",
+          "title": "Apremilast inhibits TNF-alpha from human peripheral blood mononuclear cells",
+          "year": "2010",
+          "study_type": "In vitro / Mechanistic",
+          "tier": "2",
+          "note": "體外實驗確認 PDE4 抑制機轉，TNF-α 抑制與 RA 病理高度相關"
+        },
+        {
+          "pmid": "26097790",
+          "title": "PK effect of Apremilast + MTX co-administration in RA patients",
+          "year": "2014",
+          "study_type": "PK Study",
+          "tier": "2",
+          "note": "臨床藥代動力學互動研究，支持 Apremilast 與 MTX 聯用的安全性"
+        },
+        {
+          "pmid": "33403021",
+          "title": "Shared development of targeted therapies among autoimmune diseases: systematic review",
+          "year": "2020",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "系統性回顧支持靶向治療在自體免疫疾病間的再利用可行性框架"
+        },
+        {
+          "pmid": "40283434",
+          "title": "Rituximab, Apremilast, Upadacitinib as Selected bsDMARDs/tsDMARDs",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "2025 年最新文獻，RA 治療選項綜述，Apremilast 仍被列為候選藥物但非一線"
+        },
+        {
+          "pmid": "38499181",
+          "title": "NPF Guidelines: Perioperative management for psoriasis patients",
+          "year": "2024",
+          "study_type": "Clinical Guideline",
+          "tier": "3",
+          "note": "銀屑病圍手術期指引，間接反映 Apremilast 的整體安全性管理考量"
+        },
+        {
+          "pmid": "30917076",
+          "title": "Adherence, Persistence, Expenditures for Anti-Inflammatory Drugs in RA",
+          "year": "2019",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "真實世界依從性研究，未直接評估 Apremilast 在 RA 的療效，關聯性有限"
+        },
+        {
+          "pmid": "24797159",
+          "title": "Apremilast: first global approval",
+          "year": "2014",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "首次上市批准綜述（PsA/銀屑病），提供藥物基本資料與核准適應症背景"
+        },
+        {
+          "pmid": "24043297",
+          "title": "Therapy of psoriatic arthritis",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "PsA 治療綜述，機轉與 RA 部分重疊，間接支持 PDE4 抑制在發炎性關節病的潛力"
+        }
+      ],
+      "evidence_summary": "存在 4 項直接 Phase 2 RCT（其中 2 項完成、1 項終止、1 項撤回），加上機轉研究與動物模型支持，構成 L2 證據基礎。然而關鍵的 237 人規模試驗提早終止，且未有 Phase 3 推進計劃，顯示在現有 bDMARDs 競爭環境下療效優勢不明確。",
+      "risk_flags": [
+        "NCT01285310 大型 Phase 2 試驗終止，需調查終止原因",
+        "RA 已有充足 bDMARDs 治療選項（TNFi、IL-6Ri、JAKi），Apremilast 療效差異化空間有限",
+        "現有 Phase 2 完成試驗樣本量偏小（n=31, n=34），統計檢力不足"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9809,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉極為薄弱：PDE4 抑制升高 cAMP，在血管平滑肌細胞可能有輕微舒張效果，但肺動脈高壓的標準治療靶點為 PDE5（西地那非）、前列環素受體、內皮素受體，與 PDE4 路徑關聯性低。4 篇文獻均未直接研究 Apremilast 用於 PH，而是以 PH 作為銀屑病/PsA 的共病背景出現。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36402940",
+          "title": "Economic Burden of Comorbidities in Psoriasis Patients (USA)",
+          "year": "2023",
+          "study_type": "Epidemiological/Economic Study",
+          "tier": "3",
+          "note": "以 PH 為銀屑病共病之一進行成本分析，不涉及 Apremilast 對 PH 的治療效果"
+        },
+        {
+          "pmid": "32911531",
+          "title": "Epidemiologic study of PsA patients: cohort study",
+          "year": "2021",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "PsA 流行病學，PH 為共病之一，無 Apremilast 治療 PH 數據"
+        },
+        {
+          "pmid": "36481392",
+          "title": "Cardiovascular Toxicity of Proteasome Inhibitors in Multiple Myeloma",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "研究對象為多發性骨髓瘤，與 Apremilast 或 PH 無直接關聯，最低相關性"
+        },
+        {
+          "pmid": "30709830",
+          "title": "Complete resolution of erythrodermic psoriasis with Apremilast monotherapy",
+          "year": "2019",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "紅皮病型銀屑病個案報告，顯示 Apremilast 療效，與 PH 無直接關聯"
+        }
+      ],
+      "evidence_summary": "4 篇文獻均為間接關聯（PH 作為共病背景），無任何臨床試驗。PDE4 vs PDE5 靶點差異使機轉關聯薄弱。屬 L4（間接證據）。",
+      "risk_flags": [
+        "無任何直接臨床試驗或案例報告支持 Apremilast 治療 PH",
+        "PH 為危及生命的嚴重疾病，缺乏足夠安全性與療效數據不應推進",
+        "PDE4 抑制的肺血管效應尚未充分研究"
+      ]
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9866,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假說層次：PDE4 廣泛表達於神經元與膠質細胞，cAMP 升高理論上可調節神經炎症（CGRP 釋放、硬腦膜炎症）；但 PDE4 在偏頭痛病理中的具體角色尚無實驗驗證。TxGNN 高分可能反映知識圖譜中炎症路徑的間接相關性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或相關文獻，純粹依賴 TxGNN 演算法預測（分數 0.987）。屬 L5（僅預測）。",
+      "risk_flags": [
+        "零臨床證據，不應推進",
+        "TxGNN 高分可能為圖譜結構偏差（炎症節點高度連接）所致"
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9849,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 migraine disorder 相同，神經炎症假說層次，無直接證據。基底型偏頭痛涉及後顱窩血管與神經通路，PDE4 抑制的適用性更難確立。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗及文獻，純預測。屬 L5。",
+      "risk_flags": [
+        "基底型偏頭痛為較罕見亞型，臨床研究基礎更薄弱"
+      ]
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9781,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "20 篇文獻均涉及癲癇-偏頭痛遺傳共病機轉（共享基因位點、神經通道病變），與 Apremilast 之 PDE4 抑制機轉毫無直接連結；文獻關聯為資料庫噪音而非真實支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "探討癲癇-偏頭痛遺傳重疊，與 Apremilast 完全無關"
+        },
+        {
+          "pmid": "34575901",
+          "title": "Selected Molecular Targets for Antiepileptogenesis",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "抗癲癇靶點綜述，與 PDE4 抑制劑無直接關聯"
+        }
+      ],
+      "evidence_summary": "20 篇文獻均為癲癇/偏頭痛遺傳學研究，與 Apremilast 無關聯。屬 L5。文獻計數為假陽性（資料庫關鍵字匹配噪音）。",
+      "risk_flags": [
+        "文獻數量（n=20）具有誤導性，實際上無一篇涉及 Apremilast",
+        "建議修正文獻篩選管線以排除此類假陽性"
+      ]
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9779,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱側凸性心臟病主要為機械性原因（胸廓畸形導致限制性心肺功能損傷），非炎症性疾病，與 PDE4 抑制的抗炎機轉缺乏病理生理學交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗及文獻，機轉關聯極弱，屬 L5。"
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9736,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性肢端發育異常（骨骼形態發生缺陷），遺傳性罕見疾病，與 PDE4 抑制的炎症調節機轉無相關性。TxGNN 高分可能反映皮膚/骨骼知識圖譜節點的結構偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗及文獻，屬 L5。疾病性質（遺傳發育異常）與藥物機轉不匹配。"
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9695,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見先天性發育綜合症（眼球/四肢骨骼同時異常），遺傳性病因，與抗炎機轉完全不相符。無合理再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗及文獻，屬 L5。罕見遺傳症候群，再利用可行性極低。"
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.9669,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蟲蝕狀萎縮性皮膚病（毛孔角化症變體），主要為角化異常而非炎症驅動。理論上 Apremilast 的抗炎/抗角化效果（已於毛髮紅糠疹有零星報告）具極弱關聯性，但無任何臨床資料支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗及文獻，屬 L5。雖為皮膚科適應症與 Apremilast 原核准領域有輕微重疊，仍需基礎研究才能確立再利用可行性。"
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn_score": 0.9617,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉部毛髮角化萎縮症（毛孔角化症亞型），機轉與 atrophoderma vermiculata 類似，角化/輕度炎症混合。與 Apremilast 的皮膚適應症領域有最弱程度的概念重疊，但零臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗及文獻，屬 L5。"
+    }
+  ],
+  "overall_assessment": {
+    "highest_priority_indication": "rheumatoid arthritis",
+    "rationale": "唯一有 Phase 2 RCT 直接證據（L2/S2）的適應症，機轉關聯明確，適合進一步評估 Phase 3 可行性或聯合治療策略",
+    "data_quality_warnings": [
+      "migraine with/without aura 的 20 篇文獻疑為假陽性（癲癇遺傳學文獻），建議修正收集器篩選邏輯",
+      "藥物 MoA 標記為 [Data Gap]，建議從 DrugBank/ChEMBL 補充 PDE4 抑制劑資訊",
+      "市場狀態「未上市」需確認是否指新加坡本地未上市，因 Apremilast（Otezla®）已於多國獲批"
+    ],
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 1,
+      "L5": 7
+    }
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟡 唯一可進一步研究的適應症：類風濕性關節炎（RA）
+
+| 面向 | 評估 |
+|------|------|
+| **證據等級** | L2 — 存在 4 項 Phase 2 RCT（2 完成、1 終止、1 撤回） |
+| **決策階段** | S2（臨床可行性已部分驗證） |
+| **建議** | Research Question |
+| **關鍵障礙** | NCT01285310（n=237）提早終止；現有 bDMARDs（TNFi/JAKi）競爭激烈，差異化定位不明確 |
+
+### 🔴 其餘 8 項適應症均為 Hold
+
+- **肺動脈高壓**：L4，文獻全為間接共病數據，PDE4 vs PDE5 靶點不符
+- **偏頭痛系列（3項）**：L5，零臨床資料；且 migraine with/without aura 的 20 篇文獻疑為假陽性
+- **罕見遺傳症候群（4項）**：L5，遺傳發育性疾病與抗炎機轉完全不匹配
+
+> ⚠️ **資料品質提醒**：建議優先修正文獻收集管線，排除關鍵字匹配噪音；並補充 Apremilast 的 MoA 欄位（PDE4 抑制劑）以提升知識圖譜預測精準度。

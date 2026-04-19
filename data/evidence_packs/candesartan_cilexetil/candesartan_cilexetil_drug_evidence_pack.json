@@ -1,0 +1,1677 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00796-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Candesartan cilexetil",
+    "drugbank_id": "DB00796",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9968384504318236,
+        "rank": 4758
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Candesartan 阻斷 AT1 受體，可降低全身血壓，理論上可緩解惡性腎血管高血壓。但雙側腎動脈狹窄時 ARB 為禁忌，存在急性腎衰竭風險，機轉為雙面刃。資料集中完全無臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9968384504318236,
+        "rank": 4759
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ARB 可降低腎小球入球壓力、減少蛋白尿，對高血壓腎病具已知腎保護機轉（RAAS 抑制）。但資料集中無任何試驗或文獻，且 Candesartan 在急性重症腎功能惡化時的安全邊際需謹慎評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9967132806777954,
+        "rank": 4889
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review（低氧與神經退化）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review（低氧作為藥物）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review（低氧與免疫）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "Basic Science（NAT10/HIF-1α）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "Review（低氧認知損害）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "Review（低氧生物控制）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "Review（低氧與腦發育）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "Review（去泛素酶與癌症）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review（低氧治療修飾）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "Review（HIF-α 與 T 細胞）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ARB 理論上可藉由 RAAS 抑制影響肺血管重塑，但低氧引起的肺動脈高壓（WHO Group 3）主要機轉為缺氧性肺血管收縮，ARB 的有效性未建立。現有文獻全部屬於低氧通用生物學研究，與 Candesartan 無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9967132806777954,
+        "rank": 4890
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多因素肺動脈高壓（WHO Group 5）機轉複雜，包含血液疾病、代謝疾病等。ARB 在此類型無已建立的療效，且原發性 PAH（WHO Group 1）的 RAAS 抑制研究結果亦不一致。資料集中完全無臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9955808520317078,
+        "rank": 5983
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock syndrome 為極罕見症候群（描述不明確，可能為 MED13L 相關或其他遺傳疾病），與 ARB 藥理機轉的關聯性不明。資料集完全無任何臨床或文獻依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9723783731460572,
+        "rank": 20372
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06697353",
+            "title": "ROVER Japan/ Real-world Outcomes of Patients Treated With Vericiguat in Japanese Routine Care: a Retrospective Cohort Study Using a Hospital Administrative Database",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 4936,
+            "start_date": "2024-11-01",
+            "completion_date": "2025-09-19",
+            "brief_summary": "This is an observational study in which data already collected from people with chronic heart failure is studied.\n\nChronic HFrEF is a long-term condition where the left side of the heart does not pump blood out to the body as well as it should. Blood and fluid may collect in the lungs, blood vessels, and tissues causing shortness of breath or tiredness. Over time, heart failure can lead to other serious medical conditions that may result in hospital stays or even death.\n\nThe study drug, vericigu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "⚠️ 重大資料錯誤：ROVER Japan 研究的介入藥物為 Vericiguat（可溶性鳥苷酸環化酶刺激劑），非 Candesartan。此試驗不能作為 Candesartan 用於慢性肺心病的任何證據。屬收集器錯誤匹配。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺心病（Cor Pulmonale）的 RAAS 抑制理論上可減少右心室後負荷，但 ARB 在此適應症無確立的標準療法地位。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "obsolete susceptibility to ischemic stroke",
+      "txgnn": {
+        "score": 0.8758959770202637,
+        "rank": 37119
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為已廢棄的疾病本體論術語（obsolete），不應作為有效臨床目標。若對應到「缺血性腦中風易感性」，Candesartan 的 RAAS 抑制確有腦保護機轉，但本條目因術語問題不宜獨立評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "brain stem infarction",
+      "txgnn": {
+        "score": 0.8669355511665344,
+        "rank": 37837
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹梗塞為缺血性腦中風的特定解剖部位，ARB 的全身降壓與可能的腦血管保護作用理論上適用，但無針對腦幹梗塞的獨立試驗。資料集中完全無直接臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "cerebrovascular disorder",
+      "txgnn": {
+        "score": 0.8486207723617554,
+        "rank": 39282
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00108706",
+            "title": "Acute Candesartan Cilexetil Outcomes Stroke Trial (ACCOST)",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2004-12",
+            "completion_date": "2007-09",
+            "brief_summary": "The aim of this study is to determine whether it is safe and effective to give the Angiotensin Receptor Blocker (ARB) Candesartan within the first 72 hours following acute stroke.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接相關：Candesartan 在急性腦中風的 Phase 4 試驗，設計明確針對本適應症，雖樣本數小（N=50）且狀態 UNKNOWN，但提供概念驗證。"
+            }
+          },
+          {
+            "nct_id": "NCT02166697",
+            "title": "Candesartan Cilexetil Tablets Specified Drug-use Survey \"Hypertension: Survey on Patients With Metabolic Syndrome\"",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 14151,
+            "start_date": "2006-06",
+            "completion_date": "2010-11",
+            "brief_summary": "The purpose of this survey is designed to investigate the treatment status of hypertensive patient with metabolic syndrome-related risk factors treated with candesartan cilexetil tablets (Blopress Tablets), as well as to assess relationships between risk factors (example, visceral fat accumulation) and the incidence of cerebrovascular/cardiovascular events in an exploratory manner.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型觀察性研究（N=14151），提供真實世界安全性資料，但非隨機對照，屬佐證層級。"
+            }
+          },
+          {
+            "nct_id": "NCT01198496",
+            "title": "Phase IV Study for Effect of Intensive Blood-Pressure Control Using Anti-hypertensive Agents in Essential Hypertension With History of Stroke",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 5000,
+            "start_date": "2010-10",
+            "completion_date": "2019-12",
+            "brief_summary": "1. Objectives and Hypothesis\n\n   1. Objectives:\n\n      This study evaluates whether strict BP management is useful for the prevention of recurrent stroke.\n\n      Hypertensive patients with history of stroke are treated with stepwise multi-drug therapy to achieve stricter BP target \\<120/80 mmHg in the strict BP control group and less stricter BP target \\<140/90 mmHg or \\<130/80 mmHg for patients with current DM/CKD/MI in the standard BP control group. The participants under the BP treatment achi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，包含 Candesartan 的積極降壓策略，以腦血管事件為終點，但非單藥試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT00125463",
+            "title": "Candesartan Antihypertensive Survival Evaluation in Japan (CASE-J) Trial of Cardiovascular Events in High-Risk Hypertensive Patients",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 3200,
+            "start_date": "2001-09",
+            "completion_date": "2005-12",
+            "brief_summary": "The purpose of this study is to compare an angiotensin II receptor antagonist (candesartan cilexetil- Blopress®) and a calcium channel blocker (amlodipine besilate- Norvasc®/Amlodin®) in terms of the incidence of cardiovascular events among high-risk hypertensive patients.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "核心試驗：Phase 3 RCT，N=3200，直接評估 Candesartan 在高血壓患者心腦血管事件（含腦中風）的影響。為 L1 等級主要依據。"
+            }
+          },
+          {
+            "nct_id": "NCT00741585",
+            "title": "Prognostic Value of the Circadian Pattern of Ambulatory Blood Pressure for Multiple Risk Assessment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 21983,
+            "start_date": "2008-09-01",
+            "completion_date": "2018-06-30",
+            "brief_summary": "The HYGIA study was designed to investigate prospectively\n\n1. the prognostic value of ambulatory blood pressure (BP) monitoring among subjects primarily evaluated at primary care settings\n2. the impact of changes in ambulatory BP during follow-up in cardiovascular, cerebrovascular, metabolic, and renal risk in hypertensive patients\n3. the influence of circadian time of treatment in cardiovascular, cerebrovascular, metabolic, and renal risk in hypertensive patients\n4. the prevalence of an altered",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性研究，非 Candesartan 介入試驗，主要評估 BP 節律之預後價值，相關性較低。"
+            }
+          },
+          {
+            "nct_id": "NCT01984164",
+            "title": "CAndesartan vs LIsinopril Effects on the BRain and Endothelial Function in eXecutive MCI (CALIBREX)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 176,
+            "start_date": "2014-08-20",
+            "completion_date": "2018-12-03",
+            "brief_summary": "The aim of this study is to conduct a 1-year double blind randomized control trial comparing candesartan to lisinopril in 140 individuals with hypertension and executive mild cognitive impairment in their effects on executive function, neuroimaging markers, and vascular indicators.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2，Completed，N=176，直接比較 Candesartan vs Lisinopril 對腦功能與內皮功能影響，提供機轉支持。"
+            }
+          },
+          {
+            "nct_id": "NCT00468923",
+            "title": "Heart Outcomes Prevention Evaluation-3",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 12705,
+            "start_date": "2007-05",
+            "completion_date": "2016-01",
+            "brief_summary": "Heart disease and stroke are major causes of death and disability worldwide and are largely preventable. Cholesterol and blood pressure are major cardiovascular risk factors. Previous studies have shown that certain drugs can effectively and safely lower cholesterol and blood pressure and prevent heart attacks and strokes. Such studies have been conducted primarily in people who had already sustained a heart attack or a stroke, or in people with high cholesterol and blood pressure levels. Howeve",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型 Phase 4（N=12705），評估 Candesartan/HCTZ 在中度風險族群的心腦血管保護，具重要外部效度。"
+            }
+          },
+          {
+            "nct_id": "NCT02646982",
+            "title": "Candesartan's Effects on Alzheimer's Disease And Related Biomarkers",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 77,
+            "start_date": "2016-06-30",
+            "completion_date": "2020-08-17",
+            "brief_summary": "This study is intended to investigate the safety of candesartan, a blood pressure medication, in non-hypertensive individuals who have mild cognitive impairment (MCI) due to Alzheimer's disease and its effect on disease biomarkers.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，Completed，評估 Candesartan 對神經血管生物標記的影響，間接支持腦血管保護機轉。"
+            }
+          },
+          {
+            "nct_id": "NCT06515678",
+            "title": "Impact of Antihypertensive Therapy on Recurrence Risk of Ovarian Cancer for Patients Treated With Bevacizumab Maintenance: A Target Trial Emulation",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 9464,
+            "start_date": "2024-05-20",
+            "completion_date": "2024-08-31",
+            "brief_summary": "Antiangiogenic therapies like bevacizumab, have notably improved cancer treatment, including for gynecological cancers, by inhibiting the vascular endothelial growth factor and thus limiting tumor growth. In treating advanced ovarian cancer, bevacizumab has been shown to extend progression-free survival by four months, though it also induces or worsens hypertension in 2 to 19% of patients by affecting vascular nitric oxide production or by capillary rarefaction. This hypertension may result in s",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究目標為卵巢癌復發，腦血管疾病非研究終點，與本適應症相關性極低。"
+            }
+          },
+          {
+            "nct_id": "NCT05169021",
+            "title": "Folic Acid and Intensive Antihypertensive Therapy for Cerebrovascular and Cardiovascular Events Prevention Among Patients With Hypertension and Cerebral Small Vascular Diseases (FAITH)----A Multicenter, Randomized, Controlled, Open-label, 2x2 Factorial, Blinded End-point Trial",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 15000,
+            "start_date": "2021-12-31",
+            "completion_date": "2028-12-31",
+            "brief_summary": "The primary objectives of this trial are:\n\n1. Efficacy evaluation of amlodipine folic acid tablets:\n\n   To assess the effects of amlodipine folic acid tablets 5.8 mg (5 mg amlodipine + 0.8 mg folic acid)versus amlodipine tablets 5 mg in preventing all-cause stroke in cerebral small vascular disease (CSVD) patients with hypertension and elevated homocysteine (Hcy) level.\n2. Intensive Antihypertensive Therapy:\n\nTo assess the effect of intensive antihypertensive therapy (SBP\\<130 mmHg) versus stand",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，N=15000，直接以腦血管事件為主要終點，包含 Candesartan 作為抗高血壓藥物之一。"
+            }
+          },
+          {
+            "nct_id": "NCT00120003",
+            "title": "Scandinavian Candesartan Acute Stroke Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 2500,
+            "start_date": "2005-06",
+            "completion_date": "2010-09",
+            "brief_summary": "The purpose of this trial is to assess whether the blood pressure lowering agent candesartan (an angiotensin receptor type 1 blocker) is effective when given to patients with acute stroke and elevated blood pressure.\n\nHypothesis:\n\nAT1 receptor blockade with candesartan in acute stroke will:\n\n1. reduce the risk of death or major disability at 6 months by a 6% absolute risk reduction, relative to placebo.\n2. reduce the risk of the combined event of \"vascular\" death, myocardial infarction, or strok",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02735707",
+            "title": "Randomized, Embedded, Multifactorial Adaptive Platform Trial for Community- Acquired Pneumonia",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 20000,
+            "start_date": "2016-04-11",
+            "completion_date": "2028-02",
+            "brief_summary": "REMAP-CAP is a randomised, embedded, multifactorial, adaptive platform trial for community-acquired pneumonia.\n\nThe purpose of this study is to evaluate the effect of a range of interventions to improve outcome of patients admitted to intensive care with community-acquired pneumonia.\n\nIn addition, REMAP-CAP provides and adaptive research platform for evaluation of multiple treatment modalities in the event of a respiratory pandemic such as COVID-19.\n\nREMAP-COVID is a sub-platform of REMAP-CAP th",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9833167",
+            "title": "Hypertension and stroke--rationale behind the ACCESS trial. Acute Candesartan Cilexetil Evaluation in Stroke Survivors.",
+            "authors": [
+              "Schrader J",
+              "Röthemeyer M",
+              "Lüders S",
+              "Kollmann K"
+            ],
+            "journal": "Basic research in cardiology",
+            "year": "1998",
+            "abstract": "Antihypertensive treatment achieves its greatest benefit in the primary prevention of stroke. Primary prevention studies show 38% fewer strokes when systolic/diastolic values are reduced by 10-12/5-6 mmHg. Secondary stroke prevention has been less investigated, but restrokes seems to be reduced with antihypertensive treatment. Secondary prevention achieves 25-30% less strokes, if diastolic BP can be reduced by 3-4 mmHg. Today's guidelines for antihypertensive therapy in acute ischemic stroke sug",
+            "classification": {
+              "study_type": "Clinical Trial Design Paper（ACCESS Trial）",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16981578",
+            "title": "[CASE-J].",
+            "authors": [
+              "Fukui Tsuguya"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT Result（CASE-J）",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11193378",
+            "title": "[Angiotensin II receptor antagonists: candesartan cilexetil].",
+            "authors": [
+              "Naka T",
+              "Kubo K",
+              "Nishikawa K",
+              "Inada Y",
+              "Furukawa Y"
+            ],
+            "journal": "Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan",
+            "year": "2000",
+            "abstract": "Blockade of the action of angiotensin II (AII) has long been a target for the development of novel antihypertensive agents. We recently discovered a novel class of potent nonpeptide AII receptor antagonists, benzimidazole-7-carboxylic acids including candesartan. Candesartan is a highly potent and insurmountable AII type-1 receptor (AT1)-selective antagonist. Structure-activity relationship (SAR) studies revealed that the adjacent arrangement of a lipophilic substituent, a tetrazolylbiphenylmeth",
+            "classification": {
+              "study_type": "Pharmacology Review（Candesartan）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21932954",
+            "title": "Candesartan cilexetil in the management of blood pressure for acute and recurrent stroke in Japan: the Challenge-Stroke study.",
+            "authors": [
+              "Tanahashi Norio",
+              "Nakagawara Jyoji",
+              "Okada Yasushi",
+              "Minematsu Kazuo"
+            ],
+            "journal": "Expert review of cardiovascular therapy",
+            "year": "2011",
+            "abstract": "The Challenge-Stroke study was conducted in Japanese patients initiated on candesartan cilexetil therapy within 3 months of suffering a stroke to investigate the clinical use of candesartan and its efficacy/safety in this therapeutic setting. A total of 869 patients formed the safety analysis set. In total, 79.6% of patients with brain hemorrhage (BH) and 60.2% with brain infarction (BI) began candesartan before post-stroke day 3 and 7, respectively. Baseline average blood pressure (BP) was 152.",
+            "classification": {
+              "study_type": "Clinical Study（Candesartan in acute/recurrent stroke）",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15013936",
+            "title": "Candesartan for the prevention and treatment of stroke - results of the SCOPE and ACCESS trials.",
+            "authors": [
+              "Doggrell Sheila A"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2004",
+            "abstract": "Stroke is a leading cause of death and disability. The SCOPE clinical trial assessed the effects of the angiotensin Type 1 (AT(1))-receptor antagonist, candesartan, on major cardiovascular events in elderly hypertensive patients. A first major cardiovascular event (cardiovascular death, non-fatal myocardial infarction or non-fatal stroke) occurred to a lesser extent in the candesartan group (242 of 2477) than the placebo group (268 of 2460) and this difference represented a reduction in stroke r",
+            "classification": {
+              "study_type": "RCT Summary（SCOPE + ACCESS）",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40485205",
+            "title": "Optimization of Environmentally Sustainable UPLC-PDA Method Using Box-Behnken for Simultaneous Quantifying Curcumin and Candesartan Cilexetil in On-Demand Formulation for Treatment of Brain Ischemic Injury.",
+            "authors": [
+              "Sherif Abdelrahman Y",
+              "Attwa Mohamed W",
+              "Elzayat Ehab M"
+            ],
+            "journal": "Biomedical chromatography : BMC",
+            "year": "2025",
+            "abstract": "Brain ischemic injury is characterized by reduced cerebral blood flow and neuronal cell damage. Curcumin and candesartan cilexetil were proposed to restore normal brain function. Therefore, a validated UPLC method is required to quantify drugs within the proposed formulation. The Box-Behnken design was used to optimize the ultra-performance liquid chromatography (UPLC) method. The impact of three critical parameters (aqueous phase percentage, flow rate, and column temperature) on the measured re",
+            "classification": {
+              "study_type": "Analytical Chemistry Method（UPLC）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9310205",
+            "title": "Protective effects of candesartan cilexetil (TCV-116) against stroke, kidney dysfunction and cardiac hypertrophy in stroke-prone spontaneously hypertensive rats.",
+            "authors": [
+              "Inada Y",
+              "Wada T",
+              "Ojima M",
+              "Sanada T",
+              "Shibouta Y"
+            ],
+            "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+            "year": "1997",
+            "abstract": "The effects of chronic treatment with an angiotensin II receptor antagonist, candesartan cilexetil (TCV-116, 0.1, 1, 10 mg/kg), and an angiotensin converting enzyme inhibitor, enalapril maleate (enalapril, 10 mg/kg), on the development of end-organ damage were examined in stroke-prone spontaneously hypertensive rats (SHRSP). The control SHRSP developed severe hypertension with stroke signs and increased urinary protein excretion. TCV-116 (0.1 mg/kg) reduced the stroke incidence and urinary prote",
+            "classification": {
+              "study_type": "Animal Study（stroke/kidney protection）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9655651",
+            "title": "Angiotensin AT1 receptor antagonism and protection against cardiovascular end-organ damage.",
+            "authors": [
+              "Nishikawa K"
+            ],
+            "journal": "Journal of human hypertension",
+            "year": "1998",
+            "abstract": "This review describes how angiotensin AT1 receptor antagonists (eg, candesartan cilexetil, losartan) effectively protect against end-organ damage including stroke, cardiac hypertrophy, renal dysfunction, glomerulosclerosis, and/or vascular hypertrophy in the models of stroke-prone spontaneously hypertensive rats (SHRSP), SHR, DOCA/salt hypertensive rats, Dahl hypertensive rats and/or 5/6 nephrectomised rats. Particularly in SHRSP and DOCA/salt hypertensive rats, candesartan cilexetil markedly re",
+            "classification": {
+              "study_type": "Review（AT1 antagonism cardiovascular protection）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15257859",
+            "title": "Are angiotensin receptor blockers neuroprotective?",
+            "authors": [
+              "Thöne-Reineke Christa",
+              "Zimmermann Mathias",
+              "Neumann Christian",
+              "Krikov Maxim",
+              "Li Jun"
+            ],
+            "journal": "Current hypertension reports",
+            "year": "2004",
+            "abstract": "Stroke is one of the leading causes of invalidism and death in the industrialized world. Among others, the renin- angiotensin system (RAS) has been implicated in the pathogenesis and outcome of ischemic events, including stroke. Angiotensin II (Ang II), the major effector peptide of the RAS, exerts most of its well-defined physiologic and pathophysiologic actions, including those on the central and peripheral nervous system, through its Ang II type 1 (AT1) receptor subtype. This receptor not onl",
+            "classification": {
+              "study_type": "Review（ARBs neuroprotection）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12544861",
+            "title": "The role of blood pressure lowering before and after stroke.",
+            "authors": [
+              "Donnan Geoffrey A",
+              "Davis Stephen M",
+              "Thrift Amanda"
+            ],
+            "journal": "Current opinion in neurology",
+            "year": "2003",
+            "abstract": "Elevated blood pressure is one of the most potent risk factors for first ever and recurrent stroke as well as influencing early outcome after acute stroke. There have been a number of significant randomized controlled trials which may influence management in each of these three categories.",
+            "classification": {
+              "study_type": "Systematic Review（BP in stroke）",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12140732",
+            "title": "Potential for antihypertensive treatment with an AT(1)-receptor blocker to reduce dementia in the elderly.",
+            "authors": [
+              "Trenkwalder P"
+            ],
+            "journal": "Journal of human hypertension",
+            "year": "2002",
+            "abstract": "Hypertension is an established risk factor for stroke and other cerebrovascular disorders. Both stroke and small lacunar infarcts or white matter lesions can cause cognitive impairment and dementia, and there is evidence that vascular risk factors play a major role in the development of both Alzheimer's disease and vascular dementia. Several large epidemiological studies have shown that raised blood pressure in midlife is a strong risk factor for dementia later in life; however, blood pressure o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10720593",
+            "title": "Cardiovascular effects of combination of perindopril, candesartan, and amlodipine in hypertensive rats.",
+            "authors": [
+              "Kim S",
+              "Zhan Y",
+              "Izumi Y",
+              "Iwao H"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2000",
+            "abstract": "The combination therapy with ACE inhibitors, angiotensin II type 1 (AT(1)) receptor antagonists, or calcium channel antagonists may exert more beneficial effects on cardiovascular diseases than monotherapy. Perindopril, candesartan cilexetil, or amlodipine alone or the combination of low doses of each agent was administered orally to stroke-prone spontaneously hypertensive rats (SHRSP) for 4 weeks to compare the hypotensive or cardiovascular effects. Although perindopril (2 mg/kg), candesartan c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19563275",
+            "title": "Candesartan: widening indications for this angiotensin II receptor blocker?",
+            "authors": [
+              "Mendis B",
+              "Page S R"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2009",
+            "abstract": "Candesartan cilexetil is one of a number of drugs of the angiotensin II receptor blocker (ARB) class. Their principal mode of action involves competitive blockade of the angiotensin II type 1 receptor, thereby modulating the activity of the rennin-angiotensin-aldosterone system. Angiotensin II receptor blocker therapy has been proven to be well tolerated and effective in the management of hypertension, chronic heart failure with left ventricular dysfunction and the prevention and progression of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12817109",
+            "title": "The ACCESS Study: evaluation of Acute Candesartan Cilexetil Therapy in Stroke Survivors.",
+            "authors": [
+              "Schrader Joachim",
+              "Lüders Stephan",
+              "Kulschewski Anke",
+              "Berger Jürgen",
+              "Zidek Walter"
+            ],
+            "journal": "Stroke",
+            "year": "2003",
+            "abstract": "The Acute Candesartan Cilexetil Therapy in Stroke Survivors (ACCESS) study was designed to assess the safety of modest blood pressure reduction by candesartan cilexetil in the early treatment of stroke. The study was also designed to provide an estimate of the number of cases required to perform a larger phase III efficacy study.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19579664",
+            "title": "[Hypertension and its therapy in the acute phase of stroke].",
+            "authors": [
+              "Káposzta Zoltán",
+              "Rácz Klára"
+            ],
+            "journal": "Ideggyogyaszati szemle",
+            "year": "2009",
+            "abstract": "The elevation of blood pressure above normal and premorbid values within the first 24 hours of symptom onset in patients with stroke is relatively common. This acute hypertensive response is usually managed by different group of physicians, including general practitioners, emergency physicians, neurologists, internists, intensivists. Management strategies of this phenomenon vary considerably. The first consideration in blood pressure management in this clinical setting is to determine whether th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14717341",
+            "title": "Candesartan Antihypertensive Survival Evaluation in Japan (CASE-J) trial of cardiovascular events in high-risk hypertensive patients: rationale, design, and methods.",
+            "authors": [
+              "Fukui Tsuguya",
+              "Rahman Mahbubur",
+              "Hayashi Koichi",
+              "Takeda Kazuo",
+              "Higaki Jitsuo"
+            ],
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2003",
+            "abstract": "Hypertension continues to be a major public health issue in the world. To combat this problem, many anti-hypertensive drugs have been developed and proven effective at controlling blood pressure in the last half century. In recent decades, antihypertensive drugs have been shown to have cardiovascular benefits beyond the reduction of blood pressure, and the focus has shifted to clarification of these effects. Angiotensin II receptor antagonists and calcium channel blockers are the most widely use",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10588091",
+            "title": "Do pharmacologic differences among antihypertensive agents point to clinical benefits?",
+            "authors": [
+              "Meredith P"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1999",
+            "abstract": "On the basis of results of long-term trials, to date, it is reasonable to conclude that blood pressure lowering, per se, rather than the identity of the antihypertensive regimen, is associated with reducing risk for stroke and coronary heart disease in patients with hypertension. Clinicians should identify drugs within each antihypertensive class that reduce blood pressure consistently over a 24-hour period and have a duration appropriate for once-daily administration. Candesartan cilexetil is a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28133009",
+            "title": "Effects of Candesartan Cilexetil Compared with Amlodipine on Serum Asymmetric Dimethylarginine Levels in the Chronic Stage of Cerebral Infarction: A Preliminary Study.",
+            "authors": [
+              "Sunami Eiko",
+              "Nomura Koichi",
+              "Nishiyama Yutaka",
+              "Katayama Yasuo"
+            ],
+            "journal": "Journal of Nippon Medical School = Nippon Ika Daigaku zasshi",
+            "year": "2016",
+            "abstract": "Asymmetric dimethylarginine (ADMA) is an endogenous nitric oxide synthase inhibitor and a marker of vascular endothelial damage. Angiotensin-converting enzyme inhibitor and angiotensin II receptor blocker (ARB) are reported to reduce the serum ADMA level. Our group administered either ARB or calcium antagonist to patients after cerebral infarction and discussed the ADMA changes observed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16888375",
+            "title": "High blood pressure in acute ischemic stroke and underlying disorders.",
+            "authors": [
+              "Toyoda Kazunori",
+              "Okada Yasushi",
+              "Jinnouchi Juro",
+              "Gotoh Seiji",
+              "Yokoyama Yoko"
+            ],
+            "journal": "Cerebrovascular diseases (Basel, Switzerland)",
+            "year": "2006",
+            "abstract": "The Acute Candesartan Cilexetil Therapy in Stroke Survivors (ACCESS) study indicated that early treatment with an angiotensin type 1 receptor blocker in acute stroke patients who had relatively high blood pressure improved cardiovascular morbidity and mortality in the chronic stage. To better interpret the findings of this study, we determined whether stroke patients with high acute blood pressure had specific underlying conditions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18551021",
+            "title": "Protective mechanisms of the angiotensin II type 1 receptor blocker candesartan against cerebral ischemia: in-vivo and in-vitro studies.",
+            "authors": [
+              "Liu Hao",
+              "Kitazato Keiko T",
+              "Uno Masaaki",
+              "Yagi Kenji",
+              "Kanematsu Yasuhisa"
+            ],
+            "journal": "Journal of hypertension",
+            "year": "2008",
+            "abstract": "Angiotensin II type 1 (AT1) receptor blockers decrease ischemia by mechanisms dependent on and independent of arterial blood pressure in hypertensive rats and AT1-R knockout mice, respectively. However, the detailed mechanisms underlying the effects of AT1 receptor blockers remain unclear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Candesartan 阻斷 AT1 受體，機轉上可：(1) 降低血壓減少腦血管事件風險；(2) 直接腦保護效應（減少氧化壓力、神經炎症）；(3) 改善腦血流自動調節；(4) 急性腦中風期間保護缺血半暗帶。已有 Phase 3 RCT（CASE-J）及 ACCESS 試驗的直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn": {
+        "score": 0.8329050540924072,
+        "rank": 40223
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02166697",
+            "title": "Candesartan Cilexetil Tablets Specified Drug-use Survey \"Hypertension: Survey on Patients With Metabolic Syndrome\"",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 14151,
+            "start_date": "2006-06",
+            "completion_date": "2010-11",
+            "brief_summary": "The purpose of this survey is designed to investigate the treatment status of hypertensive patient with metabolic syndrome-related risk factors treated with candesartan cilexetil tablets (Blopress Tablets), as well as to assess relationships between risk factors (example, visceral fat accumulation) and the incidence of cerebrovascular/cardiovascular events in an exploratory manner.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "為大型觀察性藥物使用調查（N=14151），非針對腦出血設計之 RCT，僅提供安全性觀察性資料，不足以支持本適應症的有效性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19579664",
+            "title": "[Hypertension and its therapy in the acute phase of stroke].",
+            "authors": [
+              "Káposzta Zoltán",
+              "Rácz Klára"
+            ],
+            "journal": "Ideggyogyaszati szemle",
+            "year": "2009",
+            "abstract": "The elevation of blood pressure above normal and premorbid values within the first 24 hours of symptom onset in patients with stroke is relatively common. This acute hypertensive response is usually managed by different group of physicians, including general practitioners, emergency physicians, neurologists, internists, intensivists. Management strategies of this phenomenon vary considerably. The first consideration in blood pressure management in this clinical setting is to determine whether th",
+            "classification": {
+              "study_type": "Review（急性腦中風高血壓治療）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14717341",
+            "title": "Candesartan Antihypertensive Survival Evaluation in Japan (CASE-J) trial of cardiovascular events in high-risk hypertensive patients: rationale, design, and methods.",
+            "authors": [
+              "Fukui Tsuguya",
+              "Rahman Mahbubur",
+              "Hayashi Koichi",
+              "Takeda Kazuo",
+              "Higaki Jitsuo"
+            ],
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2003",
+            "abstract": "Hypertension continues to be a major public health issue in the world. To combat this problem, many anti-hypertensive drugs have been developed and proven effective at controlling blood pressure in the last half century. In recent decades, antihypertensive drugs have been shown to have cardiovascular benefits beyond the reduction of blood pressure, and the focus has shifted to clarification of these effects. Angiotensin II receptor antagonists and calcium channel blockers are the most widely use",
+            "classification": {
+              "study_type": "RCT（CASE-J trial）",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22957022",
+            "title": "Differential effects of short-term treatment with two AT1 receptor blockers on diameter of pial arterioles in SHR.",
+            "authors": [
+              "Foulquier Sébastien",
+              "Dupuis François",
+              "Perrin-Sarrado Caroline",
+              "Gatè Katy Maguin",
+              "Leroy Pierre"
+            ],
+            "journal": "PloS one",
+            "year": "2012",
+            "abstract": "Chronic treatment with angiotensin receptor blockers is largely accepted for protecting cerebral circulation during hypertension, but beneficial effects of short-term treatments are questionable, as highlighted by the recent SCAST trial. We compared the impact of 10 days treatment with candesartan (as SCAST) versus telmisartan (previously described to reverse arteriolar remodeling, chronic treatment) on pial arterioles of spontaneously hypertensive rats (SHR). We explored whether PPAR-gamma agon",
+            "classification": {
+              "study_type": "Lab Study（AT1 阻斷對軟腦膜動脈直徑影響）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17077518",
+            "title": "Effects of benidipine, a long-lasting dihydropyridine-Ca2+ channel blocker, on cerebral blood flow autoregulation in spontaneously hypertensive rats.",
+            "authors": [
+              "Ikeda Jun-ichi",
+              "Yao Kozo",
+              "Matsubara Masahiro"
+            ],
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2006",
+            "abstract": "Chronic hypertension shifts cerebral blood flow (CBF) autoregulation towards higher blood pressure. We examined whether or not benidipine, a long-lasting dihydropyridine calcium channel blocker (CCB), improves the CBF autoregulation in spontaneously hypertensive rats (SHRs). CBF was analyzed by laser-Doppler flowmetry during stepwise hypotension by controlled bleeding. The lower limit of CBF autoregulation was calculated as the mean arterial blood pressure at which CBF decreased by 10% of the ba",
+            "classification": {
+              "study_type": "Lab Study（Benidipine 對腦血流影響）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "出血性腦中風急性期的血壓管理是核心治療，Candesartan 的降壓作用理論上可穩定血腫周圍血壓，但同時需謹慎：過度降壓可能損害腦灌流壓，AT1 阻斷對腦血管張力的影響為雙向。CASE-J 的次族群分析提供間接佐證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Candesartan cilexetil",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    }
+  ]
+}

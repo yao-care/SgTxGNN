@@ -1,0 +1,276 @@
+```json
+{
+  "drug_summary": {
+    "drug": "Ammonium chloride",
+    "drugbank_id": "DB06767",
+    "market_status": "未上市（資料庫登錄；實際上多國已批准作為祛痰劑及食品添加物）",
+    "known_moa": "酸化劑（降低體液/尿液 pH）、祛痰/溶痰劑（刺激呼吸道分泌）、利尿輔助劑",
+    "data_quality_note": "original_moa 標記為 [Data Gap]，建議補充已知機轉；部分 clinical_trials 與 literature 條目與氯化銨本身無直接關聯，需排除干擾"
+  },
+  "indications": [
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "氯化銨作為祛痰劑可刺激呼吸道黏膜分泌，理論上有助於咽喉急性炎症的分泌物排出；酸化環境亦可能影響細菌定植。然而機轉推斷薄弱，屬高度間接推測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "無任何臨床試驗或文獻支持。TxGNN 高分（0.9994）可能來自知識圖譜中呼吸道疾病節點的結構關聯，非臨床驗證訊號。"
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "祛痰劑機轉可增加鼻腔黏膜分泌，理論上可改善鼻腔充血；酸化作用對鼻腔環境的影響尚未有系統研究。屬間接推測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "無臨床支持證據。與 acute laryngopharyngitis 同屬上呼吸道節點聚合效應，TxGNN 分數相近，需注意 KG 同質性偏差。"
+    },
+    {
+      "disease_name": "faucial diphtheria",
+      "txgnn_score": 0.9893,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "白喉（Corynebacterium diphtheriae 感染）為細菌感染症，氯化銨無直接抗菌作用。酸化環境理論上可抑制部分細菌，但對白喉桿菌的特異性極低。現代治療以抗毒素與抗生素為主，本藥無明顯再利用機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "無臨床證據。疾病嚴重性高（假膜性感染），任何再利用研究應以現行標準治療為對照基準。"
+    },
+    {
+      "disease_name": "cervical disc degenerative disorder",
+      "txgnn_score": 0.9887,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "氯化銨與頸椎退化性疾病之間無已知生物學機轉關聯。酸化劑對軟骨代謝或椎間盤退化的影響未有理論基礎支持。此預測結果高度可能為 KG 結構性雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "TxGNN 高分（0.9887）與疾病相關性極低，屬典型「知識圖譜拓撲假陽性」。建議納入人工審核過濾清單。"
+    },
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.9850,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "氯化銨的酸化作用理論上可影響組織胺釋放路徑或肥大細胞活化，但此機轉極為間接且尚未有直接實驗佐證。無已知再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1837196",
+          "study_type": "Case series / Occupational dermatology",
+          "tier": "3",
+          "relevance": "❌ 不相關",
+          "reasoning": "文章主題為環氧樹脂化合物與職業性皮膚病，氯化銨未作為研究藥物，可能為 patch test 成分之一，非再利用證據。"
+        },
+        {
+          "pmid": "20865268",
+          "study_type": "Animal experiment",
+          "tier": "3",
+          "relevance": "❌ 不相關",
+          "reasoning": "研究茶樹油對接觸性皮膚炎的效果，與氯化銨無直接關聯。"
+        },
+        {
+          "pmid": "20187494",
+          "study_type": "Cross-sectional / Patch test study",
+          "tier": "3",
+          "relevance": "❌ 不相關",
+          "reasoning": "美髮師職業皮膚病的 patch test 報告，氯化銨可能為測試過敏原之一（非治療藥物），不構成再利用證據。"
+        }
+      ],
+      "note": "3 篇文獻均為職業性皮膚病/過敏原測試研究，氯化銨在其中扮演的是接觸過敏原角色（非治療藥物），與再利用目標方向相反，反而提示安全性疑慮。"
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9817,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉神經自主神經性頭痛（包含叢集性頭痛）的病理機轉涉及三叉-副交感神經反射及下視丘節律，氯化銨的酸化作用與此機轉無明顯交集。雖有偏頭痛相關歷史文獻（見 headache disorder），但三叉神經自主神經性頭痛病理機轉顯著不同，不宜外推。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "建議與 headache disorder 分開評估，不宜將偏頭痛歷史文獻援引至此適應症。"
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9799,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "1950年代存在「無胃酸性偏頭痛（achlorhydric migraine）」假說：部分慢性偏頭痛患者合併胃酸缺乏，導致氨代謝紊亂與血液 pH 偏移，誘發頭痛。氯化銨作為酸化劑被用於糾正此酸鹼失衡。現代觀點：此假說缺乏嚴謹對照研究，且偏頭痛病理已更新（皮質擴散抑制、CGRP 路徑），機轉相關性存疑，但歷史文獻為直接臨床使用紀錄，具參考價值。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01281501",
+          "title": "Adding IV Pantoprazole to Conventional Treatment for Headache",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Pantoprazole（質子幫浦抑制劑），非氯化銨。與頭痛治療相關但屬不同藥物，不構成氯化銨再利用的臨床試驗證據。"
+        },
+        {
+          "nct_id": "NCT05289323",
+          "title": "Intrathecal Neostigmine as Adjuvant to Bupivacaine for Post-Dural Puncture Headache",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Neostigmine（膽鹼酯酶抑制劑），針對硬膜穿刺後頭痛，與氯化銨完全無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "13254186",
+          "study_type": "Clinical case series / Historical",
+          "tier": "2",
+          "relevance": "✅ 直接相關",
+          "year": "1955",
+          "reasoning": "直接報告氯化銨療法用於慢性偏頭痛的臨床結果，為最早系統性記錄之一。屬歷史性病例系列，無對照組。"
+        },
+        {
+          "pmid": "13345397",
+          "study_type": "Clinical observational / Historical",
+          "tier": "2",
+          "relevance": "✅ 直接相關",
+          "year": "1956",
+          "reasoning": "探討氯化銨療法對慢性頭痛患者神經內分泌系統的影響，提供機轉層面的早期觀察數據。"
+        },
+        {
+          "pmid": "13317850",
+          "study_type": "Clinical observational / Historical",
+          "tier": "2",
+          "relevance": "✅ 直接相關",
+          "year": "1956",
+          "reasoning": "同系列研究，聚焦於氯化銨對神經內分泌系統（特別是慢性頭痛）的效應觀察。"
+        },
+        {
+          "pmid": "6294857",
+          "study_type": "Review / Pathogenesis hypothesis",
+          "tier": "2",
+          "relevance": "✅ 直接相關",
+          "year": "1982",
+          "reasoning": "提出並系統性整理「無胃酸性偏頭痛」的病理生理假說及氯化銨治療方向，為最完整的機轉假說文獻。"
+        },
+        {
+          "pmid": "13466764",
+          "study_type": "Clinical case series / Historical",
+          "tier": "2",
+          "relevance": "✅ 直接相關",
+          "year": "1957",
+          "reasoning": "報告無胃酸性偏頭痛以氯化銨治療的效果及病理生理推測，與其他同期文獻互相佐證。"
+        }
+      ],
+      "evidence_summary": "5 篇文獻（1955–1982 年）均直接記錄氯化銨用於頭痛/偏頭痛的臨床使用，但屬歷史性病例系列或觀察性研究，無 RCT 設計、無現代安慰劑對照。臨床試驗 2 筆均與氯化銨無關，不計入有效證據。整體評估為 L4（個案報告/歷史性回顧研究級別）。",
+      "next_steps": "若擬重啟研究，建議：(1) 系統性文獻回顧確認 1950s 研究方法學品質；(2) 評估無胃酸性偏頭痛亞群的現代盛行率；(3) 若亞群存在，設計 Phase 2 概念驗證試驗。"
+    },
+    {
+      "disease_name": "tracheal disease",
+      "txgnn_score": 0.9796,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "氯化銨作為祛痰劑可增加氣道黏液分泌量並降低黏稠度，理論上有益於氣管疾病（如氣管軟化、慢性氣管炎）的分泌物排出。機轉合理但屬間接推測，且無現代劑量/安全性數據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05299008",
+          "title": "Effect of Bethanechol on Work of Breathing and Expiratory Tracheal Collapse in Infants",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Bethanechol（膽鹼能藥物），針對嬰兒氣管軟化，非氯化銨。主題與氣管疾病相關但不構成氯化銨證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34798932",
+          "study_type": "In vitro toxicology",
+          "tier": "3",
+          "relevance": "❌ 不相關",
+          "reasoning": "研究黏土與石墨烯奈米材料對 A549 肺細胞的毒性，氯化銨可能作為實驗對照物使用，非治療研究。"
+        },
+        {
+          "pmid": "22432631",
+          "study_type": "In vitro / Microbiological",
+          "tier": "3",
+          "relevance": "⚠️ 間接相關",
+          "reasoning": "研究 Hymenocardia acida 乙醇萃取物的微生物與黏液纖毛特性，氯化銨為測試介質之一，可了解黏液纖毛功能評估方法，但非氯化銨再利用的直接證據。"
+        }
+      ],
+      "note": "雖有祛痰劑機轉連結，但現有文獻均非針對氯化銨的氣管疾病治療研究。建議若有興趣，應先進行機轉性體外實驗（黏液纖毛清除率測定）。"
+    },
+    {
+      "disease_name": "papillary conjunctivitis",
+      "txgnn_score": 0.9173,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳頭狀結膜炎多為過敏或機械刺激引起，氯化銨對眼部炎症無已知直接作用機轉。酸化特性用於眼部給藥存在明顯安全性疑慮（眼球耐酸性差）。機轉關聯性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "TxGNN 分數相對較低（0.917），與上呼吸道適應症相比已有顯著下降，符合預期（眼科與呼吸道 KG 距離較遠）。"
+    },
+    {
+      "disease_name": "gonococcal urethritis",
+      "txgnn_score": 0.9164,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "氯化銨酸化尿液（降低尿液 pH 至 5.0-6.0）理論上可抑制淋病奈瑟菌（在鹼性環境下生長較佳）的定植，並可能增強某些抗生素（如青黴素類）的尿路濃度效果。此機轉有一定生物學合理性，但在現代標準治療（頭孢曲松 + 阿奇黴素）面前，作為輔助治療的價值需謹慎評估，且缺乏任何臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "此適應症的機轉推測相對於其他 L5 適應症略強（尿路酸化有歷史先例用於泌尿道感染輔助治療），但當前淋病治療面臨抗藥性挑戰，酸化策略未被納入現代指引。若有研究興趣，可先評估歷史性尿路酸化文獻。"
+    }
+  ],
+  "overall_assessment": {
+    "highest_evidence_indication": "headache disorder (L4 / S1)",
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "headache disorder",
+        "evidence_level": "L4",
+        "rationale": "唯一具有直接臨床使用紀錄的適應症（5 篇歷史文獻），機轉假說明確（無胃酸性偏頭痛），具研究問題可成立性。"
+      },
+      {
+        "rank": 2,
+        "disease": "gonococcal urethritis",
+        "evidence_level": "L5",
+        "rationale": "機轉推測具一定生物學合理性（尿路酸化），但完全缺乏臨床數據，僅為第二優先預測候選。"
+      },
+      {
+        "rank": 3,
+        "disease": "acute laryngopharyngitis / tracheal disease",
+        "evidence_level": "L5",
+        "rationale": "祛痰機轉與上呼吸道/氣管疾病有連結，但需先確認現有祛痰應用的文獻基礎。"
+      }
+    ],
+    "key_safety_considerations": [
+      "過量氯化銨可導致高氯性代謝性酸中毒，需嚴格劑量控制",
+      "allergic urticaria 文獻顯示氯化銨可能本身為接觸過敏原（非治療藥物），此面向需納入安全性評估",
+      "腎功能不全患者禁用（氨積累風險）",
+      "頭痛再利用研究建議先以現代腸胃功能評估工具篩選「無胃酸性偏頭痛」亞群，避免不必要暴露"
+    ],
+    "data_quality_flags": [
+      "allergic urticaria 的 3 篇文獻均為不相關研究，建議從候選清單移除",
+      "headache disorder 的 2 筆臨床試驗均非氯化銨研究，NCT 連結系統需校正",
+      "tracheal disease 的文獻關聯性低，建議人工複核",
+      "original_moa [Data Gap] 需補充：氯化銨為已知酸化劑兼祛痰劑，此資訊應更新至 DrugBank 記錄"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 摘要表
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|------------|---------|---------|------|
+| headache disorder | 0.9799 | **L4** | **S1** | 🔬 Research Question |
+| gonococcal urethritis | 0.9164 | L5 | S0 | ⏸️ Hold |
+| acute laryngopharyngitis | 0.9994 | L5 | S0 | ⏸️ Hold |
+| tracheal disease | 0.9796 | L5 | S0 | ⏸️ Hold |
+| allergic urticaria | 0.9850 | L5 | S0 | ⏸️ Hold ⚠️ 過敏原疑慮 |
+| nasal cavity disease | 0.9994 | L5 | S0 | ⏸️ Hold |
+| faucial diphtheria | 0.9893 | L5 | S0 | ⏸️ Hold |
+| cervical disc degenerative disorder | 0.9887 | L5 | S0 | ⏸️ Hold |
+| trigeminal autonomic cephalalgia | 0.9817 | L5 | S0 | ⏸️ Hold |
+| papillary conjunctivitis | 0.9173 | L5 | S0 | ⏸️ Hold |
+
+> **核心發現**：氯化銨再利用證據高度集中於 **headache disorder（偏頭痛）**，有 5 篇 1950–1982 年的直接臨床文獻，基於「無胃酸性偏頭痛」假說，是唯一值得進一步研究的候選適應症（L4/S1）。其餘 9 個適應症均為純預測（L5/S0），且部分文獻資料存在不相關條目混入的品質問題，建議進行資料清洗。

@@ -1,0 +1,1944 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB03619-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Deoxycholic acid",
+    "drugbank_id": "DB03619",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn": {
+        "score": 0.9948869347572328,
+        "rank": 6572
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何已知機轉連結。DCA 主要作用於膽汁酸代謝（FXR/TGR5）與脂肪溶解，與此罕見遺傳性微血管/腎臟/視網膜症候群之致病機轉（COLA4A3/4 膠原蛋白突變）無交集。TxGNN 高分可能反映知識圖譜中節點距離近，但缺乏生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn": {
+        "score": 0.9948647618293762,
+        "rank": 6595
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "authors": [
+              "Pagon R A"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurre",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle inte",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough exa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "authors": [
+              "Savino P J"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "authors": [
+              "Roberts S M"
+            ],
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, approp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of pos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此病由 COL4A1/COL4A2 突變導致基底膜結構缺陷，引發腦小血管病變與眼部異常。DCA 之 FXR/TGR5 訊號路徑與結構性膠原蛋白缺陷修復無關聯。18 筆文獻均為眼科解剖異常（視盤異常、小眼症等）之描述性研究，與 DCA 治療無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "diabetic nephropathy",
+      "txgnn": {
+        "score": 0.9932136535644532,
+        "rank": 8063
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29089371",
+            "title": "FXR/TGR5 Dual Agonist Prevents Progression of Nephropathy in Diabetes and Obesity.",
+            "authors": [
+              "Wang Xiaoxin X",
+              "Wang Dong",
+              "Luo Yuhuan",
+              "Myakala Komuraiah",
+              "Dobrinskikh Evgenia"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2018",
+            "abstract": "Bile acids are ligands for the nuclear hormone receptor farnesoid X receptor (FXR) and the G protein-coupled receptor TGR5. We have shown that FXR and TGR5 have renoprotective roles in diabetes- and obesity-related kidney disease. Here, we determined whether these effects are mediated through differential or synergistic signaling pathways. We administered the FXR/TGR5 dual agonist INT-767 to DBA/2J mice with streptozotocin-induced diabetes, db/db mice with type 2 diabetes, and C57BL/6J mice with",
+            "classification": {
+              "study_type": "Animal_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27193377",
+            "title": "Ursodeoxycholic Acid Ameliorated Diabetic Nephropathy by Attenuating Hyperglycemia-Mediated Oxidative Stress.",
+            "authors": [
+              "Cao Aili",
+              "Wang Li",
+              "Chen Xia",
+              "Guo Hengjiang",
+              "Chu Shuang"
+            ],
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2016",
+            "abstract": "Oxidative stress has a great role in diabetes and diabetes induced organ damage. Endoplasmic reticulum (ER) stress is involved in the onset of diabetic nephropathy. We hypothesize that ER stress inhibition could protect against kidney injury through anti-oxidative effects. To test whether block ER stress could attenuate oxidative stress and improve diabetic nephropathy in vivo and in vitro, the effect of ursodeoxycholic acid (UDCA), an ER stress inhibitor, on spontaneous diabetic nephropathy db/",
+            "classification": {
+              "study_type": "Animal_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26999661",
+            "title": "Ursodeoxycholic acid and 4-phenylbutyrate prevent endoplasmic reticulum stress-induced podocyte apoptosis in diabetic nephropathy.",
+            "authors": [
+              "Cao Ai-Li",
+              "Wang Li",
+              "Chen Xia",
+              "Wang Yun-Man",
+              "Guo Heng-Jiang"
+            ],
+            "journal": "Laboratory investigation; a journal of technical methods and pathology",
+            "year": "2016",
+            "abstract": "Endoplasmic reticulum (ER) stress, resulting from the accumulation of misfolded and/or unfolded proteins in ER membranes, is involved in the pathogenesis of diabetic nephropathy (DN). The aim of this study was to investigate the role of ER stress inhibitors ursodeoxycholic acid (UDCA) and 4-phenylbutyrate (4-PBA) in the treatment of DN in db/db mice. Findings have revealed that diabetic db/db mice were more hyperglycemic than their non-diabetic controls, and exhibited a marked increase in body w",
+            "classification": {
+              "study_type": "In_Vitro_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33378964",
+            "title": "QiDiTangShen granules modulated the gut microbiome composition and improved bile acid proﬁles in a mouse model of diabetic nephropathy.",
+            "authors": [
+              "Wei Huili",
+              "Wang Lin",
+              "An Zhichao",
+              "Xie Huidi",
+              "Liu Weijing"
+            ],
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2021",
+            "abstract": "QiDiTangShen granules (QDTS), a traditional Chinese herbal medicine, have been used in clinical practice for treating diabetic kidney disease for several years. In our previous study, we have demonstrated that QDTS displayed good efﬁcacy on reducing proteinuria in mice with diabetic nephropathy (DN). However, the exact mechanism by which QDTS exerts its reno-protection remains largely unknown. To ascertain whether QDTS could target the gut microbiota-bile acid axis, the db/db mice were adopted a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29941869",
+            "title": "Magnesium lithospermate B improves the gut microbiome and bile acid metabolic profiles in a mouse model of diabetic nephropathy.",
+            "authors": [
+              "Zhao Jing",
+              "Zhang Qing-Li",
+              "Shen Jian-Hua",
+              "Wang Kai",
+              "Liu Jia"
+            ],
+            "journal": "Acta pharmacologica Sinica",
+            "year": "2019",
+            "abstract": "Magnesium lithospermate B (MLB) is a new drug marketed in China to treat angina, but its low oral bioavailability limits its clinical application to the intravenous route. Paradoxically, orally administered low-dose MLB was found to alleviate kidney injury in diabetic nephropathy (DN) rats, but its mechanism of action remains unknown. In recent years, the kidney-gut axis has been suspected to be involved in kidney damage pathogenesis, potentially representing a non-classical pathway for pharmaco",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38377553",
+            "title": "Intestinal Absorption of Nanoparticles to Reduce Oxidative Stress and Vasoconstriction for Treating Diabetic Nephropathy.",
+            "authors": [
+              "Liu Chenxin",
+              "Pang Mengxue",
+              "Wang Qingyu",
+              "Yan Mei",
+              "Zhou Yingying"
+            ],
+            "journal": "ACS biomaterials science & engineering",
+            "year": "2024",
+            "abstract": "The etiology of diabetic nephropathy (DN) is complex, and the incidence is increasing year by year. The patient's kidney showed oxidative stress damage, increasing active oxygen species (ROS) content, and vasoconstriction. Due to poor drug solubility and low renal accumulation, the current treatment regimens have not effectively alleviated glomerulopathy and other kidney damage caused by DN. Therefore, it is of great significance to explore new treatment strategies and drug delivery systems. Her",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30224065",
+            "title": "ERp44 depletion exacerbates ER stress and aggravates diabetic nephropathy in db/db mice.",
+            "authors": [
+              "Pang Xinxin",
+              "Zhang Yage",
+              "Shi Xiujie",
+              "Li Dongyang",
+              "Han Jiarui"
+            ],
+            "journal": "Biochemical and biophysical research communications",
+            "year": "2018",
+            "abstract": "Diabetic nephropathy (DN) is a major complication of diabetes, and the dysfunction of endoplasmic reticulum (ER) plays an important role in its pathogenesis. ERp44, an ER resident chaperone protein, has been implicated in the modulation of ER stress, however, its role and mechanism in DN are not determined. Here, we show that ERp44 expression is upregulated in the glomeruli of db/db mice, a rodent model of type 2 diabetes. When ERp44 is depleted by in vivo shRNA-mediated knockdown, the features ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39384774",
+            "title": "Metabolomic profiling reveals the step-wise alteration of bile acid metabolism in patients with diabetic kidney disease.",
+            "authors": [
+              "Zhang Qing",
+              "Lu Liqian",
+              "Wang Jiao",
+              "Lu Manman",
+              "Liu Dongwei"
+            ],
+            "journal": "Nutrition & diabetes",
+            "year": "2024",
+            "abstract": "Diabetic kidney disease (DKD) is the major complication of diabetes concomitant with gut dysbiosis and glycometabolic disorder, which are strongly associated with bile acid (BA) metabolism. Yet studies investigating the BA metabolism involving in DKD pathogenesis are limited. This study aimed to explore the metabolomic profiling of BAs in DKD and analyze its association with DKD progression.",
+            "classification": {
+              "study_type": "Clinical_Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22429686",
+            "title": "Ursodeoxycholic acid decreases sodium-glucose cotransporter (SGLT2) expression and oxidative stress in the kidney of diabetic rats.",
+            "authors": [
+              "Osorio Horacio",
+              "Coronel Israel",
+              "Arellano Abraham",
+              "Franco Martha",
+              "Escalante Bruno"
+            ],
+            "journal": "Diabetes research and clinical practice",
+            "year": "2012",
+            "abstract": "Oxidative stress has been associated with diabetic complications like nephropathies. Recent studies indicate that ursodeoxycholic acid (UDCA) may be beneficial preventing diabetes-induced oxidative stress and secondary complications. Thus, we study if the UDCA-treatment decreases the expression of sodium-glucose cotransporter (SGLT2) and the oxidative stress in the kidney of diabetic rats.",
+            "classification": {
+              "study_type": "Animal_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28696246",
+            "title": "Farnesoid X Receptor Agonism Protects against Diabetic Tubulopathy: Potential Add-On Therapy for Diabetic Nephropathy.",
+            "authors": [
+              "Marquardt Andi",
+              "Al-Dabet Moh'd Mohanad",
+              "Ghosh Sanchita",
+              "Kohli Shrey",
+              "Manoharan Jayakumar"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2017",
+            "abstract": "Established therapies for diabetic nephropathy (dNP) delay but do not prevent its progression. The shortage of established therapies may reflect the inability to target the tubular compartment. The chemical chaperone tauroursodeoxycholic acid (TUDCA) ameliorates maladaptive endoplasmic reticulum (ER) stress signaling and experimental dNP. Additionally, TUDCA activates the farnesoid X receptor (FXR), which is highly expressed in tubular cells. We hypothesized that TUDCA ameliorates maladaptive ER",
+            "classification": {
+              "study_type": "Animal_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36996678",
+            "title": "Relaxin elicits renoprotective actions accompanied by increasing bile acid levels in streptozotocin-induced diabetic mice.",
+            "authors": [
+              "Leo Chen Huei",
+              "Ou Jamie Li Min",
+              "Ong Eng Shi",
+              "Qin Cheng Xue",
+              "Ritchie Rebecca H"
+            ],
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2023",
+            "abstract": "The peptide hormone relaxin has potent anti-fibrotic and anti-inflammatory properties in various organs, including the kidneys. However, the protective effects of relaxin in the context of diabetic kidney complications remain controversial. Here, we aimed to evaluate the effects of relaxin treatment on key markers of kidney fibrosis, oxidative stress, and inflammation and their subsequent impact on bile acid metabolism in the streptozotocin-induced diabetes mouse model.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26655953",
+            "title": "Farnesoid X Receptor Protects against Kidney Injury in Uninephrectomized Obese Mice.",
+            "authors": [
+              "Gai Zhibo",
+              "Gui Ting",
+              "Hiller Christian",
+              "Kullak-Ublick Gerd A"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "2016",
+            "abstract": "Activation of the farnesoid X receptor (FXR) has indicated a therapeutic potential for this nuclear bile acid receptor in the prevention of diabetic nephropathy and obesity-induced renal damage. Here, we investigated the protective role of FXR against kidney damage induced by obesity in mice that had undergone uninephrectomy, a model resembling the clinical situation of kidney donation by obese individuals. Mice fed a high-fat diet developed the core features of metabolic syndrome, with subseque",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36690052",
+            "title": "Evaluating the potential of tauroursodeoxycholic acid as add-on therapy in amelioration of streptozotocin-induced diabetic kidney disease.",
+            "authors": [
+              "Sankrityayan Himanshu",
+              "Shelke Vishwadeep",
+              "Kale Ajinath",
+              "Gaikwad Anil Bhanudas"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "2023",
+            "abstract": "The bile acid tauroursodeoxycholic acid (TUDCA) is of natural origin and is used in traditional Chinese medicine for centuries. Earlier its use was limited to biliary disorders but owing to its pleiotropic effects dietary TUDCA supplementation is under clinical trials for diseases including type 1 and 2 diabetic complications. The current study aims to evaluate the potential and underlying molecular mechanism of the TUDCA as a monotherapy and as an add-on therapy to telmisartan, an angiotensin I",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37790634",
+            "title": "Loss of Farnesoid X receptor (FXR) accelerates dysregulated glucose and renal injury in db/db mice.",
+            "authors": [
+              "Qiu Yuxiang",
+              "Kang Ningsu",
+              "Wang Xi",
+              "Yao Yao",
+              "Cui Jun"
+            ],
+            "journal": "PeerJ",
+            "year": "2023",
+            "abstract": "End-stage renal disease is primarily caused by diabetic kidney disease (DKD). The Farnesoid X receptor (FXR), a member of the nuclear receptor superfamily, has anti-inflammatory, lipid-lowering and hypoglycemic properties. It also inhibits renal fibrosis. Although its physiological role is not fully understood, it also plays a role in the control of diabetic nephropathy (DN).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31940200",
+            "title": "Nidufexor (LMB763), a Novel FXR Modulator for the Treatment of Nonalcoholic Steatohepatitis.",
+            "authors": [
+              "Chianelli Donatella",
+              "Rucker Paul V",
+              "Roland Jason",
+              "Tully David C",
+              "Nelson John"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "2020",
+            "abstract": "Farnesoid X receptor (FXR) agonists are emerging as important potential therapeutics for the treatment of nonalcoholic steatohepatitis (NASH) patients, as they exert positive effects on multiple aspects of the disease. FXR agonists reduce lipid accumulation in the liver, hepatocellular inflammation, hepatic injury, and fibrosis. While there are currently no approved therapies for NASH, the bile acid-derived FXR agonist obeticholic acid (OCA; 6-ethyl chenodeoxycholic acid) has shown promise in cl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23593240",
+            "title": "Autophagy attenuates diabetic glomerular damage through protection of hyperglycemia-induced podocyte injury.",
+            "authors": [
+              "Fang Li",
+              "Zhou Yang",
+              "Cao Hongdi",
+              "Wen Ping",
+              "Jiang Lei"
+            ],
+            "journal": "PloS one",
+            "year": "2013",
+            "abstract": "Despite the recent attention focused on the important role of autophagy in maintaining podocyte homeostasis, little is known about the changes and mechanisms of autophagy in podocyte dysfunction under diabetic condition. In this study, we investigated the role of autophagy in podocyte biology and its involvement in the pathogenesis of diabetic nephropathy. Podocytes had a high basal level of autophagy. And basal autophagy inhibition either by 3-methyladenenine (3-MA) or by Beclin-1 siRNA was det",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27669287",
+            "title": "Tauroursodeoxycholic Acid Attenuates Renal Tubular Injury in a Mouse Model of Type 2 Diabetes.",
+            "authors": [
+              "Zhang Jing",
+              "Fan Ying",
+              "Zeng Chuchu",
+              "He Li",
+              "Wang Niansong"
+            ],
+            "journal": "Nutrients",
+            "year": "2016",
+            "abstract": "Renal tubular injury is a critical factor in the pathogenesis of diabetic nephropathy (DN). Endoplasmic reticulum (ER) stress is involved in diabetic nephropathy. Tauroursodeoxycholic acid (TUDCA) is an effective inhibitor of ER stress. Here, we investigated the role of TUDCA in the progression of tubular injury in DN. For eight weeks, being treated with TUDCA at 250 mg/kg intraperitoneal injection (i.p.) twice a day, diabetic db/db mice had significantly reduced blood glucose, albuminuria and a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18648192",
+            "title": "Effect of taurine-conjugated ursodeoxycholic acid on endoplasmic reticulum stress and apoptosis induced by advanced glycation end products in cultured mouse podocytes.",
+            "authors": [
+              "Chen Yu",
+              "Liu Cui Ping",
+              "Xu Kuan Feng",
+              "Mao Xiao Dong",
+              "Lu Yi Bing"
+            ],
+            "journal": "American journal of nephrology",
+            "year": "2008",
+            "abstract": "Activations of death receptors and mitochondrial damage are well-described common apoptotic pathways. Recently, a novel pathway via endoplasmic reticulum (ER) stress has been reported.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12595495",
+            "title": "CTGF mediates TGF-beta-induced fibronectin matrix deposition by upregulating active alpha5beta1 integrin in human mesangial cells.",
+            "authors": [
+              "Weston Benjamin S",
+              "Wahab Nadia Abdel",
+              "Mason Roger M"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2003",
+            "abstract": "Excessive deposition of fibronectin in the glomerular mesangium in diabetic nephropathy (DN) is partly due to the induction of transforming growth factor-beta (TGF-beta) by high glucose. TGF-beta induces its downstream mediator connective tissue growth factor (CTGF), which stimulates fibronectin matrix synthesis, a process that requires the presence of alpha5beta1 integrin. Although TGF-beta has been shown to upregulate alpha5beta1 integrin expression in human mesangial cells (HMC), little is kn",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23977286",
+            "title": "Involvement of endoplasmic reticulum stress in albuminuria induced inflammasome activation in renal proximal tubular cells.",
+            "authors": [
+              "Fang Li",
+              "Xie Da",
+              "Wu Xian",
+              "Cao Hongdi",
+              "Su Weifang"
+            ],
+            "journal": "PloS one",
+            "year": "2013",
+            "abstract": "Albuminuria contributes to the progression of tubulointerstitial fibrosis. Although it has been demonstrated that ongoing albuminuria leads to tubular injury manifested by the overexpression of numerous proinflammatory cytokines, the mechanism remains largely unknown. In this study, we found that the inflammasome activation which has been recognized as one of the cornerstones of intracellular surveillance system was associated with the severity of albuminuria in the renal biopsies specimens. In ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "**類別效應機轉（間接）**：膽汁酸透過 FXR 活化可抑制腎臟氧化壓力、ER stress（內質網壓力）、podocyte 凋亡；TGR5 活化可改善胰島素敏感性與腎臟保護。SGLT2 表達下調（PMID 22429686，UDCA 研究）提供代謝保護機制。DCA 同樣為 FXR/TGR5 配體，理論上可共享此路徑。核心問題：現有文獻幾乎全為 UDCA 而非 DCA，且 DCA 高濃度下具腎毒性風險，安全窗口未知。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Prinzmetal angina",
+      "txgnn": {
+        "score": 0.9734959602355956,
+        "rank": 19918
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Prinzmetal 變異型心絞痛由冠狀動脈痙攣驅動，主要機轉為血管平滑肌過度反應（α-腎上腺素受體、內皮功能障礙）。DCA 之 FXR/TGR5 路徑與冠脈痙攣發病機轉無已知交集。TGR5 在心臟中有表達，但其對冠脈張力的影響尚未研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hemoglobinopathy",
+      "txgnn": {
+        "score": 0.966412365436554,
+        "rank": 22427
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6142634",
+            "title": "Liver function and the diagnostic significance of conjugated cholic acid and chenodeoxycholic acid in serum of African patients with sickle cell disease.",
+            "authors": [
+              "Bolarin D M"
+            ],
+            "journal": "Acta tropica",
+            "year": "1983",
+            "abstract": "Concentrations of two primary bile acids (cholic acid and chenodeoxycholic acid) were determined by radioimmunoassay in the serum of 15 African homozygous sickle cell patients, ages ranging from 4 to 22 years. The mean serum levels of the two primary bile acids studied were significantly elevated when compared with the normal mean values. About 67% of the patients had pathological elevation of both primary bile acids, thereby indicating some hepatobiliary damage. Serum conjugated cholic acid cor",
+            "classification": {
+              "study_type": "Clinical_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38978231",
+            "title": "The enigma of sickle cell hepatopathy: Pathophysiology, clinical manifestations and therapy.",
+            "authors": [
+              "Rizvi Insia",
+              "Solipuram Divya",
+              "Kaur Navneet",
+              "Komel Aqsa",
+              "Batool Saba"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2026",
+            "abstract": "Sickle cell disease (SCD) is one of the most common genetic disorders in the world predominantly affecting economically disadvantaged populations. There is a notable discrepancy between the growing adult SCD population and available diagnostic and therapeutic interventions for SCD. Sickle cell hepatopathy (SCH) is an all-inclusive term to describe the acute and chronic liver manifestations of SCD. The pathophysiology of SCH follows no defined pattern or sequence that poses challenges to clinicia",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血色素病（鐮刀型貧血、地中海貧血等）由血紅蛋白基因突變引起。DCA 無已知對血紅蛋白合成、紅血球穩定性或 HbF 誘導的機轉。兩篇文獻為肝膽功能與鐮刀型貧血肝病的描述（PMID 6142634, 38978231），反映的是疾病繼發性肝膽影響，非 DCA 治療效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.960852324962616,
+        "rank": 24059
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05973370",
+            "title": "Evaluating the Effect of Ursodeoxycholic Acid in Patients With Rheumatoid Arthritis in Egypt",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2023-05-01",
+            "completion_date": "2024-05-30",
+            "brief_summary": "The purpose of this study is to investigate the potential therapeutic effects of the secondary bile acid ursodeoxycholic acid (UDCA) on synovial inflammation and disease activity when administered as add-on treatments to the current DMARDs treatment for rheumatoid arthritis patients with variant disease activity.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "UDCA（非DCA）Phase 2 完成試驗，直接在 RA 患者中驗證膽汁酸類抗炎效應。結果提供 DCA 同類藥物概念驗證，但需注意 UDCA 與 DCA 安全性差異顯著"
+            }
+          },
+          {
+            "nct_id": "NCT04834557",
+            "title": "Evaluating the Effect of Digoxin and Ursodeoxycholic Acid in Patients With Rheumatoid Arthritis in Egypt",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2021-11-01",
+            "completion_date": "2022-09-30",
+            "brief_summary": "The purpose of this study is to investigate the potential therapeutic effects of the cardiac glycoside digoxin and the secondary bile acid ursodeoxycholic acid (UDCA) on synovial inflammation and disease activity when administered as add-on treatments to the current DMARDs treatments for rheumatoid arthritis patients with variant disease activity.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "UDCA+Digoxin 組合在 RA 中的 Phase 2 試驗，規模較大（n=90），完成狀態支持膽汁酸類在 RA 的安全性與初步療效。DCA 類別效應推論有據但非直接"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36604114",
+            "title": "Gut commensal Parabacteroides distasonis alleviates inflammatory arthritis.",
+            "authors": [
+              "Sun Haijian",
+              "Guo Yunke",
+              "Wang Haidan",
+              "Yin Ailing",
+              "Hu Jing"
+            ],
+            "journal": "Gut",
+            "year": "2023",
+            "abstract": "Gut microbiota dysbiosis is closely linked to the pathogenesis of rheumatoid arthritis (RA). We aimed to identify potential probiotic gut microbes that can ameliorate the development of RA.",
+            "classification": {
+              "study_type": "Animal_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40660236",
+            "title": "Engineered Panax notoginseng polysaccharide micelles inhibit macrophage polarization and delay the progression of rheumatoid arthritis via JAK2-STAT3 signaling pathway.",
+            "authors": [
+              "Yu Yang",
+              "Kong Liang",
+              "Guo Rui-Bo",
+              "Zhang Ya-Ni",
+              "Li Shu-Tong"
+            ],
+            "journal": "Journal of nanobiotechnology",
+            "year": "2025",
+            "abstract": "The imbalance of macrophage polarization plays a pivotal role in the progression of rheumatoid arthritis (RA). Reprogramming macrophages from the pro-inflammatory M1 phenotype to the anti-inflammatory M2 phenotype is considered a promising therapeutic strategy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34386321",
+            "title": "The influence of the gut microbiota on the bioavailability of oral drugs.",
+            "authors": [
+              "Zhang Xintong",
+              "Han Ying",
+              "Huang Wei",
+              "Jin Mingji",
+              "Gao Zhonggao"
+            ],
+            "journal": "Acta pharmaceutica Sinica. B",
+            "year": "2021",
+            "abstract": "Due to its safety, convenience, low cost and good compliance, oral administration attracts lots of attention. However, the efficacy of many oral drugs is limited to their unsatisfactory bioavailability in the gastrointestinal tract. One of the critical and most overlooked factors is the symbiotic gut microbiota that can modulate the bioavailability of oral drugs by participating in the biotransformation of oral drugs, influencing the drug transport process and altering some gastrointestinal prop",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35750136",
+            "title": "TREM-2 plays a protective role in cholestasis by acting as a negative regulator of inflammation.",
+            "authors": [
+              "Labiano Ibone",
+              "Agirre-Lizaso Aloña",
+              "Olaizola Paula",
+              "Echebarria Anne",
+              "Huici-Izagirre Maider"
+            ],
+            "journal": "Journal of hepatology",
+            "year": "2022",
+            "abstract": "Inflammation, particularly that mediated by bacterial components translocating from the gut to the liver and binding to toll-like receptors (TLRs), is central to cholestatic liver injury. The triggering receptor expressed on myeloid cells-2 (TREM-2) inhibits TLR-mediated signaling and exerts a protective role in hepatocellular injury and carcinogenesis. This study aims to evaluate the role of TREM-2 in cholestasis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38313166",
+            "title": "Evaluating the effect of ursodeoxycholic acid (UDCA) in comparison with dexamethasone and diclofenac in a rat model of rheumatoid arthritis.",
+            "authors": [
+              "Abduljaleel Yamama Raad",
+              "Jwaid Ahmed Hamed",
+              "Hussein Aseel Kamil"
+            ],
+            "journal": "Journal of medicine and life",
+            "year": "2023",
+            "abstract": "Ursodeoxycholic acid (UDCA) is known for its major effects on the liver, but its impact on autoimmune diseases is not well understood. This study aimed to assess the effectiveness of UDCA in controlling rheumatoid arthritis (RA) in an in vivo setting. Experimental RA was induced in rats using Freund's complete adjuvant, and the effects of UDCA (50,100 mg/kg) were compared to those of dexamethasone and diclofenac by measuring changes in paw size, IL-17, pro-inflammatory cytokines, oxidative stres",
+            "classification": {
+              "study_type": "Clinical_RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "73677",
+            "title": "Chenodeoxycholic-acid treatments of rheumatoid arthritis.",
+            "authors": [
+              "Bruusgaard A",
+              "Andersen R B"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical_Case_Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28539269",
+            "title": "Ursodeoxycholic acid attenuates experimental autoimmune arthritis by targeting Th17 and inducing pAMPK and transcriptional corepressor SMILE.",
+            "authors": [
+              "Lee Eun-Jung",
+              "Kwon Jeong-Eun",
+              "Park Min-Jung",
+              "Jung Kyung-Ah",
+              "Kim Da-Som"
+            ],
+            "journal": "Immunology letters",
+            "year": "2017",
+            "abstract": "Ursodeoxycholic acid (UDCA) has been known that UDCA has prominent effects on liver, however, there is little known about its influence on autoimmune disease. Here, the benefit of UDCA on arthritis rheumatoid (RA) in vivo was tested.",
+            "classification": {
+              "study_type": "Animal_Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23041275",
+            "title": "Orally active desulfated low molecular weight heparin and deoxycholic acid conjugate, 6ODS-LHbD, suppresses neovascularization and bone destruction in arthritis.",
+            "authors": [
+              "Hwang Seung Rim",
+              "Seo Dong-Hyun",
+              "Al-Hilal Taslim A",
+              "Jeon Ok-Cheol",
+              "Kang Jin Hee"
+            ],
+            "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+            "year": "2012",
+            "abstract": "The regulation of angiogenesis is an interesting area to consider for novel therapeutic approaches to rheumatoid arthritis (RA). Chemically modified heparins have been developed as possible candidates for angiogenesis inhibitor; however, they have a major clinical drawback in exhibiting poor oral bioavailability. Here, orally absorbable O-desulfated low molecular weight heparin (ODS-LMWH) derivatives were newly synthesized by conjugating 2-O- or 6-O-desulfated LMWH with deoxycholic acid (DOCA) o",
+            "classification": {
+              "study_type": "Animal_Study_DCA_Direct",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1166284",
+            "title": "Effect of an intravenously administered bile acid (chenodeoxycholic acid) on rheumatoid arthritis.",
+            "authors": [
+              "Bruusgaard A",
+              "Andersen R B"
+            ],
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "1975",
+            "abstract": "On the basis of the earlier observations of an ameliorating effect of jaundice on rheumatoid arthritis, the purpose of the present study was to confirm the influence of bile acids on rheumatoid arthritis. Ten patients were treated with intravenous infusions of chenodeoxycholic acid in single doses of 1-2 g, given over 5-8 hours on 1-4 consecutive days. The concentration of serum bile acids during the infusions were determined. The effect of the treatment was evaluated by means of the subjective ",
+            "classification": {
+              "study_type": "Clinical_Pilot",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32299307",
+            "title": "Diagnosis and treatment of primary biliary cholangitis.",
+            "authors": [
+              "Laschtowitz Alena",
+              "de Veer Rozanne C",
+              "Van der Meer Adriaan J",
+              "Schramm Christoph"
+            ],
+            "journal": "United European gastroenterology journal",
+            "year": "2020",
+            "abstract": "Primary biliary cholangitis is a cholestatic, chronic autoimmune liver disease with a wide individual variation in disease progression. The diagnosis is predominantly based on chronic elevation of alkaline phosphatase and the presence of anti-mitochondrial antibodies or other specific antinuclear antibodies (i.e. anti-gp210 and anti-sp100). Even in early-stage disease, health-related quality of life can be severely impaired by symptoms such as pruritus, fatigue, and sicca syndrome and metabolic ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15529241",
+            "title": "[Autoimmune cholangitis with vasculitic ulcers, rheumatoid arthritis and IgA glomerulonephritis].",
+            "authors": [
+              "Schedel J",
+              "Mayer S",
+              "Woenckhaus M",
+              "Kiss E",
+              "Schölmerich J"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2004",
+            "abstract": "A 51-year-old woman was admitted because of relapsing episodes of fever and leg ulcers for 14 years. In addition, she had polyserositis, polyarthralgias and polyarthritides, renal failure with proteinuria and elevation of gamma-GT and alkaline phosphatase. The patient was in a reduced general condition and cachectic nutritional state. She had slight scleral icterus, the liver being palpable 5 cm under the costal margin, edema of the lower limbs and two ulcers at the right foot.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "949914",
+            "title": "Abnormal bile acid metabolism in rheumatoid arthritis. Preliminary communication.",
+            "authors": [
+              "Bruusgaard A",
+              "Andersen R B"
+            ],
+            "journal": "Danish medical bulletin",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21274875",
+            "title": "Combination of retinoic acid and ursodeoxycholic acid attenuates liver injury in bile duct-ligated rats and human hepatic cells.",
+            "authors": [
+              "He Hongwei",
+              "Mennone Albert",
+              "Boyer James L",
+              "Cai Shi-Ying"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2011",
+            "abstract": "Cholestasis leads to liver cell death, fibrosis, cirrhosis, and eventually liver failure. Despite limited benefits, ursodeoxycholic acid (UDCA) is the only Food and Drug Administration-approved treatment for cholestatic disorders. Retinoic acid (RA) is a ligand for nuclear receptors that modulate bile salt homeostasis. RA also possesses immunomodulatory effects and is used to treat acute promyelocytic leukemia and inflammatory disorders such as psoriasis, acne, and rheumatoid arthritis. To test ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1403582",
+            "title": "Phospholipase A2 in rat gingival tissue.",
+            "authors": [
+              "Shinohara H",
+              "Ishida H",
+              "Fernandez E J",
+              "Amabe Y",
+              "Nagata T"
+            ],
+            "journal": "Journal of periodontal research",
+            "year": "1992",
+            "abstract": "Phospholipase A2 (PLA2) is a proinflammatory enzyme in the synovial fluids of all--and sera of some--patients with rheumatoid arthritis. Due to the similarities in pathogenesis between rheumatoid arthritis and periodontitis, we sought to study the enzymatic properties of PLA2 in periodontal tissue. In this study, we demonstrated PLA2 activity in rat gingival tissue, about 80% of which was present in the cytosolic fraction. We characterized the cytosolic PLA2 enzyme with respect to substrate spec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23510744",
+            "title": "Taurochenodeoxycholic acid induces apoptosis of fibroblast-like synoviocytes.",
+            "authors": [
+              "Li Lei",
+              "Liu Chang",
+              "Liu Mingqiang",
+              "Shi Linkai",
+              "Liu Qian"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "2013",
+            "abstract": "Recent evidences have suggested that the paucity of the apoptosis of fibroblast-like synoviocytes (FLS) may contribute to the pathogenesis of rheumatoid arthritis. Apoptosis induction of rheumatoid arthritis FLS is therefore suggested as a potential therapeutic approach for rheumatoid arthritis. Taurochenodeoxycholic acid (TCDCA), one of the main bioactive substances of animals' bile acid, could favorably ameliorate the progression development and bone destruction of adjuvant arthritis in rat. I",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40725873",
+            "title": "Immunoglobulin G4-related autoimmune hepatitis with overlapping multiple autoimmune diseases: A case report.",
+            "authors": [
+              "Long Jun",
+              "Shi Yuchen",
+              "Yao Qiuyan",
+              "Zhou Xiaona",
+              "Luo Meihua"
+            ],
+            "journal": "Medicine",
+            "year": "2025",
+            "abstract": "The prevalence of autoimmune liver disease in Sjogren syndrome (SS) ranges from 1.7% to 47%. Hematologic involvement is commonly observed in SS patients, with 1.5% of patients presenting with monoclonal gammopathy of undetermined significance (MGUS). Chronic antigenic stimulation of B lymphocytes in autoimmune diseases may eventually lead to clonal proliferation or MGUS. Nevertheless, studies reporting the concurrent manifestation of IgG4-related autoimmune hepatitis (IgG4-AIH), Primary biliary ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37215104",
+            "title": "Plasma lipidomics of primary biliary cholangitis and its comparison with Sjögren's syndrome.",
+            "authors": [
+              "Li Haolong",
+              "Zhan Haoting",
+              "Cheng Linlin",
+              "Huang Yuan",
+              "Li Xiaomeng"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2023",
+            "abstract": "Abnormal lipid metabolism is common in patients with primary biliary cholangitis (PBC). PBC and Sjögren's syndrome (SS) frequently coexist in clinical practice; however, the lipid characteristics of both diseases are unknown. Therefore, we aimed to analyze the plasma lipid profiles of both diseases.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8291509",
+            "title": "Chenodeoxycholate: the bile acid. The drug. a review.",
+            "authors": [
+              "Broughton G"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1994",
+            "abstract": "Chenodeoxycholate (3 alpha, 7 alpha-dihydroxy-5 beta-cholanic acid) is a primary bile acid directly synthesized from cholesterol. It is an amphipathic molecule, possessing both a hydrophobic side and a polar hydrophilic side, giving it the ability to solubilize lipids in a water environment. Bile acids are necessary for the absorption of fats and fat soluble vitamins. Chenodeoxycholate inhibits the rate-limiting step of cholesterol synthesis, the formation of hydroxymethyl-glutaryl-coenzyme A. I",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31011359",
+            "title": "Investigation of Efficacy Enhancing and Toxicity Reducing Mechanism of Combination of Aconiti Lateralis Radix Praeparata and Paeoniae Radix Alba in Adjuvant-Induced Arthritis Rats by Metabolomics.",
+            "authors": [
+              "Xie Yun-Fei",
+              "Feng Wu-Wen",
+              "Liu Mei-Chen",
+              "Xie Jun",
+              "Yu Lei"
+            ],
+            "journal": "Evidence-based complementary and alternative medicine : eCAM",
+            "year": "2019",
+            "abstract": "Combination of Aconiti Lateralis Radix Praeparata (FZ) and Paeoniae Radix Alba (BS) shows a significant effect in rheumatoid arthritis (RA). This study aimed to investigate the efficacy enhancing and toxicity reducing mechanism of combination of them in adjuvant-induced arthritis (AIA) rats by metabolomics. Rats were randomly divided into seven groups, including A (healthy control), B (model control), C1 (therapy group), C2 (efficacy enhancing group), D1 (toxicity group), and D2 (toxicity reduci",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14508047",
+            "title": "Normalization of methotrexate-induced high levels of serum transaminases after ursodeoxycholic acid administration in a rheumatoid arthritis patient.",
+            "authors": [
+              "Palazzi C",
+              "D'Amico E",
+              "Pennese E",
+              "Petricca A"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "**最強適應症，具多層級間接臨床證據**。機轉路徑：(1) FXR/TGR5 活化 → 抑制 NF-κB → 下調 IL-6/TNF-α；(2) 膽汁酸影響 Th17/Treg 平衡（Th17 抑制為 RA 核心治療靶點）；(3) 腸道菌群調節 → 減少關節炎促發信號；(4) PMID 23041275 直接顯示 DCA 共軛物（6ODS-LHbD）在膠原誘導性關節炎模型中抑制發炎。**警示**：兩項 Phase 2 試驗均為 UDCA 非 DCA；DCA 具潛在促炎性（高濃度），需確認治療窗口。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "partial deletion of the short arm of chromosome 16",
+      "txgnn": {
+        "score": 0.9575254917144777,
+        "rank": 24843
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "染色體 16p 缺失症候群（如 16p11.2、16p13.3 等）為基因組結構異常，DCA 之膽汁酸訊號路徑無法糾正基因組劑量不平衡問題。無已知機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "conjunctivitis",
+      "txgnn": {
+        "score": 0.9564829468727112,
+        "rank": 25098
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21145082",
+            "title": "[Cetirizine hepatotoxicity].",
+            "authors": [
+              "Prieto de Paula José María",
+              "Franco Hidalgo Silvia",
+              "Nalotto Linda",
+              "Ginés Santiago Antonio"
+            ],
+            "journal": "Medicina clinica",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26481305",
+            "title": "The Multivalent Adhesion Molecule SSO1327 plays a key role in Shigella sonnei pathogenesis.",
+            "authors": [
+              "Mahmoud Rasha Y",
+              "Stones Daniel Henry",
+              "Li Wenqin",
+              "Emara Mohamed",
+              "El-Domany Ramadan A"
+            ],
+            "journal": "Molecular microbiology",
+            "year": "2016",
+            "abstract": "Shigella sonnei is a bacterial pathogen and causative agent of bacillary dysentery. It deploys a type III secretion system to inject effector proteins into host epithelial cells and macrophages, an essential step for tissue invasion and immune evasion. Although the arsenal of bacterial effectors and their cellular targets have been studied extensively, little is known about the prerequisites for deployment of type III secreted proteins during infection. Here, we describe a novel S. sonnei adhesi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15553047",
+            "title": "[Hypercholesterolemia as a part of chronic GVHD after allogeneic stem cell transplantation].",
+            "authors": [
+              "Koyama Motoko",
+              "Matsuoka Ken-ichi",
+              "Kunisaki Yuya",
+              "Takeuchi Masami",
+              "Matsue Kosei"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2004",
+            "abstract": "A 45-year-old female with acute myelogenous leukemia (AML-M6) received an allogeneic stem cell transplantation from an HLA-identical sibling donor in June 2002. Prophylaxis against graft-versus-host disease (GVHD) consisted of cyclosporine (CsA) and short-term methotrexate. Acute GVHD did not occur and CsA was discontinued on day 145 after transplantation. However, soon thereafter she suffered from conjunctivitis, stomatitis and liver dysfunction with hypercholesterolemia and was diagnosed as ha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11138348",
+            "title": "Acute febrile cholestasis as an inaugural manifestation of Kawasaki's disease.",
+            "authors": [
+              "Falcini F",
+              "Resti M",
+              "Azzari C",
+              "Simonini G",
+              "Veltroni M"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "2000",
+            "abstract": "We report a child who developed acute febrile cholestasis with jaundice and pruritus as the inaugural manifestation of Kawasaki's disease (KD). The severe obstructive icterus and hydrops of the gallbladder required cholecystectomy that was not followed by remission of the fever and cholestasis. KD was suspected after the exclusion of all infectious, metabolic and neoplastic conditions responsible for acute cholestasis. The administration of intravenous gammaglobulin (IVGG) promptly induced defer",
+            "classification": {
+              "study_type": "Case_Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11930680",
+            "title": "[Clinical characteristics of primary biliary cirrhosis with Sjögren's syndrome of 20 cases].",
+            "authors": [
+              "Lü W",
+              "Sun G"
+            ],
+            "journal": "Zhonghua nei ke za zhi",
+            "year": "2001",
+            "abstract": "Primary biliary cirrhosis (PBC) is a chronic non-suppurative destructive cholangitis of unknown etiology. It has been reported that patients with PBC suffer from xerostomia and keratoconjunctivitis at high prevalence and PBC has been shown to be associated with Sjögren's syndrome. This study investigated the relationship between PBC and Sjögren's syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4368318",
+            "title": "A comparative study of viruses associated with acute haemorrhagic conjunctivitis.",
+            "authors": [
+              "Higgins P G",
+              "Scott R J",
+              "Davies P M",
+              "Gamble D R"
+            ],
+            "journal": "Journal of clinical pathology",
+            "year": "1974",
+            "abstract": "Seven representative isolates from six outbreaks of acute haemorrhagic conjunctivitis were shown to have the characteristics of enteroviruses. Two viruses differed from the remaining five isolates in producing paralysis in suckling mice and being resistant to 2-hydroxybenzyl-benzimidazole. These two viruses were also closely related antigenically and distinct from the other five viruses which were serologically similar to each other. Neither group of viruses was inhibited by antisera to the know",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "結膜炎（感染性/過敏性/免疫性）的局部眼部炎症機轉與全身性膽汁酸訊號無直接關聯。6 篇文獻涵蓋肝毒性（PMID 21145082）、Shigella 病理（PMID 26481305）、GVHD（PMID 15553047）、川崎病（PMID 11138348）、原發性膽汁性肝硬化（PMID 11930680）、病毒性出血性結膜炎（PMID 4368318）—無一涉及 DCA 治療眼部炎症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn": {
+        "score": 0.9539883136749268,
+        "rank": 25716
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乙型地中海貧血由 HBB 基因突變造成 β-球蛋白合成缺陷。DCA 無已知影響 globin 基因表達或紅血球生成之機轉。零文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hemolytic anemia due to glucophosphate isomerase deficiency",
+      "txgnn": {
+        "score": 0.9522573947906494,
+        "rank": 26185
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GPI 缺乏症（GPI 酶突變 → 糖解路徑障礙 → 紅血球溶血）屬酶缺乏症，無已知膽汁酸訊號路徑的治療機轉。極罕見疾病（全球約 50 例），藥物再利用研究基礎薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "diabetic nephropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "diabetic nephropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "diabetic nephropathy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deoxycholic acid",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

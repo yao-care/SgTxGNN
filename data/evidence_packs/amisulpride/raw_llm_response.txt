@@ -1,0 +1,583 @@
+## Amisulpride (DB06288) 藥物再利用證據分析
+
+以下為完整評估結果：
+
+```json
+{
+  "drug": "Amisulpride",
+  "drugbank_id": "DB06288",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Amisulpride 為選擇性 D2/D3 受體拮抗劑（高劑量）/突觸前自受體部分激動劑（低劑量），在歐洲多國已核准用於思覺失調症與低落型心境障礙（dysthymia），本地市場狀態「未上市」意指尚未在新加坡/台灣取得本地上市許可，非全球無上市紀錄。",
+  "indications": [
+    {
+      "disease_name": "schizophrenia",
+      "txgnn_score": 0.960,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Amisulpride 高劑量（400–1200 mg/day）選擇性阻斷突觸後 D2/D3 受體，抑制中腦邊緣系統過度多巴胺活性，同時具 5-HT7 拮抗作用，改善陰性症狀（低劑量時優先阻斷突觸前自受體，增加前額葉多巴胺釋放）。機轉與主要適應症高度吻合，歐盟/澳洲等多國已核准此適應症。",
+      "guardrails": [
+        "在本地適用需進行藥品法規登記（NDA/MAA）",
+        "監測高泌乳激素血症（QTc 延長風險需基線 ECG）",
+        "腎功能不全時需調整劑量（amisulpride 主要由腎臟排除）",
+        "定期監測空腹血糖與體重（代謝副作用相對低於 olanzapine）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04528095",
+          "title": "Sequential Multiple-Assignment Randomized Trials to Compare Antipsychotic Treatments in Treatment-Resistant Schizophrenia",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 162,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT 直接比較 amisulpride 與其他抗精神病藥於難治性思覺失調症，樣本數合理，唯狀態 UNKNOWN 需追蹤結果發表。"
+        },
+        {
+          "nct_id": "NCT01105481",
+          "title": "Amisulpride Augmentation Therapy for Clozapine-resistant Schizophrenic Patients: A 14-week Randomized Controlled Trial",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 273,
+          "relevance_grade": "A",
+          "reasoning": "完成的 Phase 4 RCT，amisulpride 增效治療用於 clozapine 抗性患者，n=273 規模足夠，直接支持此適應症，有同行審閱發表（PMID 36253804）。"
+        },
+        {
+          "nct_id": "NCT03451734",
+          "title": "Optimizing and Individualizing the Pharmacological Treatment of First-episode Schizophrenic Patients",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 2000,
+          "relevance_grade": "B",
+          "reasoning": "大型觀察性研究（n=2000），納入 amisulpride 作為比較藥物，可提供真實世界安全性與療效數據，但非 RCT 設計。"
+        },
+        {
+          "nct_id": "NCT05633108",
+          "title": "Retrospective Observational Study Based on French National Health Insurance Database",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 579728,
+          "relevance_grade": "B",
+          "reasoning": "超大型真實世界回顧資料庫研究（n=579,728），可評估長期安全性與使用模式，非隨機分配但代表性強。"
+        },
+        {
+          "nct_id": "NCT04187560",
+          "title": "Single and Multiple Ascending Dose Study to Evaluate Safety/Pharmacokinetics of Amisulpride",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 64,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 PK/安全性研究，提供劑量依賴性數據，間接支持思覺失調症適應症的給藥選擇，非療效試驗。"
+        },
+        {
+          "nct_id": "NCT00419653",
+          "title": "Modulation of Regional Brain Activation in Schizophrenic Patients by Pharmacological Therapy With Amisulpride",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 19,
+          "relevance_grade": "C",
+          "reasoning": "雖直接研究 amisulpride 於思覺失調症之腦影像效果，但因提早終止且樣本數極小（n=19），結果解釋受限。"
+        },
+        {
+          "nct_id": "NCT01029769",
+          "title": "The Switch Study - Efficacy of Early Antipsychotic Switch Versus Maintenance in Patients With Schizophrenia",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 350,
+          "relevance_grade": "B",
+          "reasoning": "研究抗精神病藥的早期換藥策略，可能包含 amisulpride，但試驗名稱未直接提及，關聯性為中等。"
+        },
+        {
+          "nct_id": "NCT06581302",
+          "title": "Accelerated 100Hz Magnetic Seizure Therapy for Psychotic Disorders",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "研究物理治療（磁性痙攣療法）而非 amisulpride 藥物療效，與本藥物再利用評估關聯極低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23810019",
+          "title": "Comparative efficacy and tolerability of 15 antipsychotic drugs in schizophrenia: a multiple-treatment meta-analysis",
+          "year": "2013",
+          "study_type": "Network Meta-Analysis",
+          "tier": "1",
+          "note": "Leucht et al. Lancet 大型網絡 Meta 分析，amisulpride 在 15 種抗精神病藥中排名前三位，療效與耐受性俱佳。頂級證據。"
+        },
+        {
+          "pmid": "39002529",
+          "title": "Remission in schizophrenia spectrum disorders: A randomized trial of amisulpride, aripiprazole and olanzapine",
+          "year": "2024",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "2024 年最新 RCT，直接比較 amisulpride、aripiprazole、olanzapine 的緩解率，最新高質量證據。"
+        },
+        {
+          "pmid": "35276079",
+          "title": "Amisulpride and olanzapine combination treatment versus each monotherapy in acutely ill patients with schizophrenia",
+          "year": "2022",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "RCT 評估 amisulpride+olanzapine 聯合療法 vs. 單藥，急性期思覺失調症患者，直接高級別證據。"
+        },
+        {
+          "pmid": "36253804",
+          "title": "Amisulpride augmentation therapy improves cognitive performance and psychopathology in clozapine-resistant schizophrenia",
+          "year": "2022",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "與 NCT01105481 相關之發表，RCT n=273，難治性患者增效治療，認知功能與精神病理均改善。"
+        },
+        {
+          "pmid": "30185173",
+          "title": "Comparative efficacy and safety between amisulpride and olanzapine in schizophrenia treatment: a meta-analysis",
+          "year": "2018",
+          "study_type": "Meta-Analysis",
+          "tier": "1",
+          "note": "amisulpride vs. olanzapine 直接比較 meta 分析，amisulpride 代謝副作用較少但較易引發高泌乳激素血症。"
+        },
+        {
+          "pmid": "29368205",
+          "title": "Antipsychotic drugs for schizophrenia with predominant or prominent negative symptoms: systematic review",
+          "year": "2018",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "系統性回顧確認 amisulpride 對陰性症狀的優越療效，機轉（突觸前 D2/D3 拮抗）與臨床證據一致。"
+        },
+        {
+          "pmid": "36368055",
+          "title": "Update on novel antipsychotics and pharmacological strategies for treatment-resistant schizophrenia",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "敘述性回顧，確認 amisulpride 在難治性思覺失調症的地位，為輔助性參考。"
+        },
+        {
+          "pmid": "12685918",
+          "title": "Dopaminergic deficit and the role of amisulpride in the treatment of schizophrenia",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期機轉回顧，奠定 amisulpride 選擇性 D2/D3 作用的理論基礎，歷史性參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "retinal dystrophy with or without extraocular anomalies",
+      "txgnn_score": 0.948,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多巴胺受體存在於視網膜神經節細胞與雙極細胞，D2/D3 受體活性可影響視網膜光適應。然而，amisulpride 對視網膜退化性疾病的保護或治療機轉尚無任何臨床前或臨床研究支持。",
+      "hold_rationale": "TxGNN 高分（0.948）可能源於圖譜中神經/感覺相關節點的間接連結，而非直接生物學關聯。所提供的 15 篇文獻（眼眶感染、複視、先天性上瞼下垂等）均與 amisulpride 完全無關，屬一般眼科文獻，無任何 amisulpride × 視網膜退化症的搜尋信號。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9416661",
+          "title": "Orbital infections",
+          "year": "1997",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "與 amisulpride 無直接關聯，一般眼眶感染文獻，不構成再利用證據。"
+        },
+        {
+          "pmid": "38321238",
+          "title": "Pediatric orbital lesions: ocular pathologies",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "兒童眼眶病變綜述，與 amisulpride 無關。"
+        },
+        {
+          "pmid": "33447730",
+          "title": "Eye involvement in inherited metabolic disorders",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "代謝遺傳疾病的眼部表現，最接近視網膜病變主題，但與 amisulpride 完全無連結。"
+        }
+      ]
+    },
+    {
+      "disease_name": "myopia X-linked",
+      "txgnn_score": 0.944,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "X 連鎖近視（如 PRSS56 基因變異型）為先天性結構性疾病，多巴胺路徑調控在動物模型近視研究中有所提及（多巴胺抑制眼軸增長），但無任何 amisulpride 用於遺傳性近視的臨床或臨床前研究。",
+      "hold_rationale": "零臨床試驗、零文獻支持。TxGNN 預測可能源於「近視」與「眼部 D2/D3 受體」的知識圖譜路徑，屬純演算法預測，需基礎研究驗證方可考慮進入臨床評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hydranencephaly (disease)",
+      "txgnn_score": 0.944,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "水腦症（hydranencephaly）為先天性腦發育缺陷（大腦半球缺失），屬結構性不可逆病變，非神經傳導物質功能障礙。D2/D3 受體拮抗劑對此類疾病無合理治療機轉。",
+      "hold_rationale": "疾病性質（先天結構缺陷 vs. 神經化學失衡）與 amisulpride 藥理機轉根本不匹配。零臨床試驗、零文獻支持。此預測結果可能為 TxGNN 知識圖譜中神經疾病類別的非特異性信號，不具有再利用開發價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "psychotic disorder",
+      "txgnn_score": 0.943,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "精神疾病（psychotic disorder）為廣義診斷類別，涵蓋思覺失調症、情感性精神疾病伴精神病症狀、藥物誘發精神病等。Amisulpride 的 D2/D3 拮抗機轉適用於各類精神病症狀（幻覺、妄想），證據自思覺失調症研究直接外延至廣泛精神疾病類別具有合理性。",
+      "guardrails": [
+        "排除器質性精神疾病（腫瘤、感染）後方可考慮使用",
+        "老年患者需特別謹慎（QTc、跌倒風險）",
+        "定期監測 EPS、泌乳激素、代謝指標"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04528095",
+          "title": "SMART Trial - Antipsychotic Treatments in Treatment-Resistant Schizophrenia/Psychosis",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 162,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，直接針對精神病性疾患的抗精神病藥比較，高度相關。"
+        },
+        {
+          "nct_id": "NCT01105481",
+          "title": "Amisulpride Augmentation Therapy for Clozapine-resistant Schizophrenic Patients",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 273,
+          "relevance_grade": "A",
+          "reasoning": "完成的 Phase 4 RCT，直接評估 amisulpride 於精神病性疾患的療效，最高相關度。"
+        },
+        {
+          "nct_id": "NCT04341467",
+          "title": "Amisulpride Versus Olanzapine for Behavioral and Psychological Symptoms in Patients With Dementia",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 76,
+          "relevance_grade": "B",
+          "reasoning": "失智症的精神行為症狀（BPSD）含精神病症狀，直接比較 amisulpride 與 olanzapine，相關但人群特殊。"
+        },
+        {
+          "nct_id": "NCT01253421",
+          "title": "The Effects of Dopamine on Reward Processing",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 159,
+          "relevance_grade": "C",
+          "reasoning": "基礎機轉研究（多巴胺與獎賞處理），非直接精神疾病療效評估。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38853806",
+          "title": "Amisulpride as the antipsychotic of choice in severe psychotic disorder with comorbid impaired glucose metabolism",
+          "year": "2024",
+          "study_type": "Clinical Study/Review",
+          "tier": "1",
+          "note": "2024 年最新文獻，直接推薦 amisulpride 用於合併代謝問題的嚴重精神疾患，代謝安全性優於其他抗精神病藥。"
+        },
+        {
+          "pmid": "30115598",
+          "title": "Amisulpride and olanzapine followed by open-label treatment with clozapine in first-episode schizophrenia",
+          "year": "2018",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "首發精神病患者的前瞻性 RCT，評估早期治療策略，高度相關。"
+        },
+        {
+          "pmid": "21210319",
+          "title": "Treatment with amisulpride of addicted patients to psychoactive substances and psychotic symptoms",
+          "year": "2010",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "物質使用障礙合併精神病症狀，amisulpride 的特殊族群應用，提供廣泛精神疾病使用證據。"
+        },
+        {
+          "pmid": "18562411",
+          "title": "Amisulpride doses and plasma levels in different age groups of patients with schizophrenia or schizoaffective disorders",
+          "year": "2009",
+          "study_type": "Observational",
+          "tier": "2",
+          "note": "TDM（治療藥物監測）研究，涵蓋不同年齡族群，支持精神疾患的給藥安全性。"
+        },
+        {
+          "pmid": "33800403",
+          "title": "Atypical Antipsychotics and Metabolic Syndrome: From Molecular Mechanisms to Clinical Differences",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "比較各非典型抗精神病藥代謝影響，amisulpride 代謝風險相對低，支持廣泛精神疾患使用的安全性考量。"
+        }
+      ]
+    },
+    {
+      "disease_name": "syndromic myopia",
+      "txgnn_score": 0.943,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "症候群性近視（如 Stickler 症候群、Marfan 症候群相關）為基因驅動的結締組織/眼部發育異常，多巴胺路徑在近視進展中雖有基礎研究（D1 活化保護眼軸增長），但無 amisulpride 特異性證據，且 D2/D3 拮抗與近視控制機轉未建立。",
+      "hold_rationale": "零臨床試驗、零文獻支持。與 myopia X-linked 同屬純 TxGNN 演算法預測，近視的多巴胺機轉尚需基礎研究釐清後再進入再利用評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myopia 26, X-linked, female-limited",
+      "txgnn_score": 0.934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "為罕見 X 連鎖近視亞型，僅影響女性，基因機轉高度特異，與 amisulpride 的 D2/D3 受體作用無合理聯結。",
+      "hold_rationale": "零臨床試驗、零文獻支持，且疾病機轉（X 連鎖遺傳性）與藥物機轉（多巴胺受體調節）缺乏合理連結，排除進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dysthymic disorder",
+      "txgnn_score": 0.934,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "低劑量 amisulpride（50–300 mg/day）優先阻斷突觸前 D2/D3 自受體，減少突觸前自我抑制，淨效果為前額葉及邊緣系統多巴胺釋放增加，改善低落心境、疲倦、快感缺乏等症狀。此「低劑量=促多巴胺」機轉已在多項 RCT 中獲臨床驗證，法國、義大利等歐盟國家已核准 amisulpride 用於 dysthymia（50 mg/day）。",
+      "guardrails": [
+        "嚴格區分低劑量（抗抑鬱，50–300 mg/day）vs 高劑量（抗精神病，400–1200 mg/day）",
+        "監測高泌乳激素血症（尤其長期低劑量使用）",
+        "排除雙相情感障礙（可能誘發躁症發作）",
+        "與其他抗抑鬱藥合用時需評估 QTc 加成效應"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "12128243",
+          "title": "A comparison of paroxetine and amisulpride in the treatment of dysthymic disorder",
+          "year": "2002",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "早期直接比較 RCT，amisulpride 50 mg/day vs. paroxetine 於 dysthymia，確立低劑量療效，歐盟核准的關鍵試驗基礎之一。"
+        },
+        {
+          "pmid": "12429360",
+          "title": "A comparison of paroxetine versus paroxetine plus amisulpride in the treatment of dysthymic disorder",
+          "year": "2002",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "RCT 評估聯合療法 vs. 單藥，顯示 amisulpride 增效 paroxetine 效果，支持 augmentation 策略。"
+        },
+        {
+          "pmid": "9495601",
+          "title": "Amisulpride versus fluoxetine in patients with dysthymia or major depression in partial remission",
+          "year": "1998",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "amisulpride vs. fluoxetine 於 dysthymia/部分緩解型重鬱症，確認低劑量抗抑鬱效果，歷史性關鍵試驗。"
+        },
+        {
+          "pmid": "34727399",
+          "title": "Efficacy of amisulpride for depressive symptoms in individuals with mental disorders: A systematic review",
+          "year": "2021",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "2021 年系統性回顧，綜合 amisulpride 於多種精神障礙伴抑鬱症狀的療效，確認低劑量在 dysthymia 的一致性療效。"
+        },
+        {
+          "pmid": "24448972",
+          "title": "Efficacy and acceptability of acute treatments for persistent depressive disorder: a network meta-analysis",
+          "year": "2014",
+          "study_type": "Network Meta-Analysis",
+          "tier": "1",
+          "note": "網絡 meta 分析，amisulpride 在持續性抑鬱障礙急性期治療中排名前列，療效與耐受性均佳。"
+        },
+        {
+          "pmid": "21154393",
+          "title": "Second-generation antipsychotics for major depressive disorder and dysthymia",
+          "year": "2010",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "系統性回顧，amisulpride 在 dysthymia 的療效證據最為充分，與 sulpiride 同屬具最強 dysthymia 證據的抗精神病藥。"
+        },
+        {
+          "pmid": "31290333",
+          "title": "Current pharmacotherapeutic approaches for dysthymic disorder and persistent depressive disorder",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "現代治療指引回顧，確認 amisulpride 在 dysthymia 的治療地位。"
+        },
+        {
+          "pmid": "12685917",
+          "title": "Dopaminergic deficit and the role of amisulpride in the treatment of mood disorders",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "機轉回顧，解釋低劑量 amisulpride 突觸前自受體阻斷增強多巴胺活性的抗憂鬱機轉。"
+        },
+        {
+          "pmid": "38805342",
+          "title": "Challenges in the treatment of dysthymia: a narrative review",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2024 年最新 dysthymia 治療難點回顧，確認 amisulpride 仍為重要選擇但强調需長期耐受性監測。"
+        },
+        {
+          "pmid": "12094819",
+          "title": "Focus on amisulpride",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "綜合機轉與臨床應用回顧，含 dysthymia 適應症，歷史性參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
+      "txgnn_score": 0.932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為極罕見的先天性腦皮質發育異常（多小腦迴），為結構性畸形，amisulpride 的 D2/D3 受體調節機轉對已發生的腦皮質結構異常無法提供治療效益。最多可能考慮症狀管理（癲癇、痙攣相關症狀），但亦無任何證據支持。",
+      "hold_rationale": "零臨床試驗、零文獻支持。屬極罕見先天性結構性腦疾病，TxGNN 預測無實質臨床意義，應維持 Hold 狀態。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "anxiety disorder",
+      "txgnn_score": 0.930,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "多巴胺 D2/D3 受體在焦慮神經迴路（杏仁核、前額葉皮質、紋狀體）中具調節作用。低劑量 amisulpride 增強前額葉多巴胺活性可能改善焦慮相關的認知功能失調。此外，5-HT7 拮抗可能提供額外抗焦慮效果。然而，多數臨床證據為伴隨焦慮症狀的精神疾病研究，而非原發性焦慮障礙的直接研究。",
+      "research_question": "低劑量 amisulpride 是否對廣泛性焦慮障礙（GAD）具有獨立療效？需設計 Phase 2 RCT，排除精神疾病共病，評估 50–100 mg/day 劑量範圍的抗焦慮效果與安全性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02088060",
+          "title": "A Four-week, Multicentre, Double-blinded, Randomised, Active- and Placebo-Controlled, Parallel-group Study",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 150,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 雙盲 RCT，設計上最接近焦慮障礙直接研究，但提早終止（150人已招募但未完成），結果可靠性受限。需查閱提前終止原因（安全性疑慮或其他）。"
+        },
+        {
+          "nct_id": "NCT02374567",
+          "title": "Pharmacovigilance in Gerontopsychiatric Patients",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "enrollment": 407,
+          "relevance_grade": "C",
+          "reasoning": "老年精神科患者的藥物警戒研究，可能包含焦慮共病，但並非原發性焦慮障礙試驗，加之已終止，關聯性中等。"
+        },
+        {
+          "nct_id": "NCT04674670",
+          "title": "The Role of Dopamine in Fronto-striatal Activation in Emotional-motivational Pain Processing",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 48,
+          "relevance_grade": "C",
+          "reasoning": "多巴胺在情緒性疼痛處理中的作用，涉及焦慮相關神經機轉，但非直接焦慮障礙療效研究。"
+        },
+        {
+          "nct_id": "NCT01253421",
+          "title": "The Effects of Dopamine on Reward Processing",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 159,
+          "relevance_grade": "C",
+          "reasoning": "多巴胺獎賞處理機轉研究，提供間接神經生物學基礎，不構成焦慮障礙直接臨床證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17017818",
+          "title": "Efficacy of typical and atypical antipsychotics for primary and comorbid anxiety symptoms or disorders",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "直接回顧 amisulpride 等藥物對原發性及共病焦慮的療效，確認有限但存在的抗焦慮信號，為此指標最相關的文獻。"
+        },
+        {
+          "pmid": "39960806",
+          "title": "The Safety and Clinical Effects of Amisulpride in Children and Adolescents with Psychiatric Disorders",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2025 年最新回顧，涵蓋兒青少年精神障礙含焦慮成分的臨床使用，提供安全性數據。"
+        },
+        {
+          "pmid": "21701632",
+          "title": "Safety and tolerability of antipsychotics: focus on amisulpride",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "amisulpride 安全性焦點回顧，對 S1 安全性初評提供基礎資料。"
+        },
+        {
+          "pmid": "9495601",
+          "title": "Amisulpride versus fluoxetine in patients with dysthymia or major depression in partial remission",
+          "year": "1998",
+          "study_type": "RCT",
+          "tier": "2",
+          "note": "dysthymia/抑鬱研究中有焦慮共病評估，間接提供抗焦慮效果信號，但非原發性焦慮障礙主要結果。"
+        },
+        {
+          "pmid": "22296316",
+          "title": "The role of antipsychotics in the management of fibromyalgia",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "纖維肌痛症（含焦慮成分）的抗精神病藥管理，間接相關，不構成直接焦慮障礙證據。"
+        },
+        {
+          "pmid": "37046974",
+          "title": "Pharmacological Modulation of Temporal Discounting: A Systematic Review",
+          "year": "2023",
+          "study_type": "Systematic Review",
+          "tier": "3",
+          "note": "多巴胺藥物對時間折扣的調節，基礎神經科學相關，與焦慮治療的臨床連結薄弱。"
+        }
+      ]
+    }
+  ],
+  "summary_matrix": {
+    "L1_S3_proceed": ["schizophrenia", "psychotic disorder", "dysthymic disorder"],
+    "L3_S1_research": ["anxiety disorder"],
+    "L5_S0_hold": [
+      "retinal dystrophy with or without extraocular anomalies",
+      "myopia X-linked",
+      "hydranencephaly (disease)",
+      "syndromic myopia",
+      "myopia 26, X-linked, female-limited",
+      "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+    ]
+  },
+  "analyst_recommendations": {
+    "priority_1": "schizophrenia / psychotic disorder — 建議申請本地藥品上市許可（NDA），引用歐盟核准數據包；需進行本地族群 PK/PD 橋接研究。",
+    "priority_2": "dysthymic disorder — 低劑量（50 mg/day）適應症，需與高劑量抗精神病適應症分開申請；注意長期高泌乳激素血症之女性患者管理。",
+    "priority_3": "anxiety disorder — 設計 Phase 2 RCT（GAD，HAMD/HAMA 主要終點），優先考慮 50–100 mg/day 劑量，需釐清 NCT02088060 提前終止原因再決定是否複製該設計。",
+    "deprioritize": "六項眼科/腦發育相關適應症（L5）不具再利用開發價值，建議排除於近期研究議程，返還 TxGNN 模型改善待機制假說驗證後再評估。"
+  }
+}
+```
+
+---
+
+### 📊 決策摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|-----------|---------|---------|------|---------|
+| schizophrenia | 0.960 | **L1** | **S3** | ✅ Proceed with Guardrails | 歐盟已核准，多項 Phase 3/4 RCT + Lancet NMA |
+| psychotic disorder | 0.943 | **L1** | **S3** | ✅ Proceed with Guardrails | 與思覺失調症高度重疊，L1 證據外延合理 |
+| dysthymic disorder | 0.934 | **L1** | **S3** | ✅ Proceed with Guardrails | 多項直接 RCT，歐洲已核准低劑量 50mg 適應症 |
+| anxiety disorder | 0.930 | **L3** | **S1** | 🔬 Research Question | Phase 2 試驗提早終止，間接證據，需設計新試驗 |
+| retinal dystrophy | 0.948 | **L5** | **S0** | ⛔ Hold | 文獻與藥物完全無關，純 TxGNN 圖譜雜訊 |
+| myopia X-linked | 0.944 | **L5** | **S0** | ⛔ Hold | 零臨床證據，基因結構性疾病機轉不匹配 |
+| hydranencephaly | 0.944 | **L5** | **S0** | ⛔ Hold | 先天結構缺陷，D2/D3 拮抗無治療機轉 |
+| syndromic myopia | 0.943 | **L5** | **S0** | ⛔ Hold | 零臨床證據，遺傳性結構疾病 |
+| myopia 26 X-linked | 0.934 | **L5** | **S0** | ⛔ Hold | 罕見基因型，完全無任何臨床信號 |
+| polymicrogyria | 0.932 | **L5** | **S0** | ⛔ Hold | 先天皮質發育異常，結構不可逆 |
+
+> ⚠️ **重要說明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經正式臨床驗證，且 TxGNN 高分（尤其眼科/腦發育類別）提示模型可能存在知識圖譜中非特異性神經系統節點連結的假陽性問題，建議配合機轉生物標誌物驗證再行評估。

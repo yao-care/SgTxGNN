@@ -1,0 +1,1264 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06700-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Desvenlafaxine",
+    "drugbank_id": "DB06700",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "obsessive-compulsive disorder",
+      "txgnn": {
+        "score": 0.9990713596343994,
+        "rank": 1867
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01527786",
+            "title": "A Pilot Study of Functional Outcome in Postpartum Depression in Women Treated With Desvenlafaxine",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2010-11",
+            "completion_date": "2014-02",
+            "brief_summary": "Postpartum depressed women suffer from functional impairment in their mood, thoughts, cognition and physical well being leading to poor motivation, bonding difficulties, decreased productivity, conflict and neglect. Moderate/ severe depression responds best to a combination of antidepressants and counseling. This study will estimate the proportion of women who return to functionality after treatment with Desvenlafaxine and examine the differential impact of change in depression and anxiety sympt",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "【資料誤配】研究針對產後憂鬱症（Postpartum Depression），與 OCD 無關。雖使用 Desvenlafaxine 為治療藥物，但適應症完全不符，不應計入 OCD 證據。"
+            }
+          },
+          {
+            "nct_id": "NCT03299166",
+            "title": "A Randomized, Double-blind, Placebo-controlled Trial of Adjunctive Troriluzole in Obsessive Compulsive Disorder",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 426,
+            "start_date": "2017-12-19",
+            "completion_date": "2025-12-08",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of troriluzole as adjunctive therapy versus placebo in participants with obsessive compulsive disorder (OCD) who had an inadequate response to selective serotonin reuptake inhibitor (SSRI), clomipramine, venlafaxine, or desvenlafaxine treatment",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "【資料誤配】研究測試 Troriluzole（谷氨酸調節劑）用於 OCD 的輔助治療，Desvenlafaxine 非研究藥物，亦非主要背景治療的明確記載，不具直接相關性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36686097",
+            "title": "A Comprehensive Review on Postpartum Depression.",
+            "authors": [
+              "Suryawanshi Om",
+              "Pajai Sandhya"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "One of the most common psychological effects following childbirth is postpartum depression. Postpartum depression (PPD) has a significant negative impact on the child's emotional, mental as well as intellectual development if left untreated, which can later have long-term complications. Later in life, it also results in the mother developing obsessive-compulsive disorder and anxiety. Many psychological risk factors are linked with PPD. The pathophysiology of the development of PPD is explained b",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14624187",
+            "title": "A double blind comparison of venlafaxine and paroxetine in obsessive-compulsive disorder.",
+            "authors": [
+              "Denys Damiaan",
+              "van der Wee Nic",
+              "van Megen Harold J G M",
+              "Westenberg Herman G M"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2003",
+            "abstract": "While the usefulness of clomipramine and selective serotonin reuptake inhibitors (SSRIs) in obsessive-compulsive disorder (OCD) has been established, the efficacy of serotonin-norepinephrine reuptake inhibitors remains to be determined. This report describes the first randomized double-blind comparison study of an SNRI in patients with obsessive-compulsive disorder. The current study compares the efficacy and tolerability of venlafaxine with paroxetine. One hundred and fifty patients with primar",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24766145",
+            "title": "An updated review of antidepressants with marked serotonergic effects in obsessive-compulsive disorder.",
+            "authors": [
+              "Pizarro Mariana",
+              "Fontenelle Leonardo F",
+              "Paravidino Daniel C",
+              "Yücel Murat",
+              "Miguel Eurípedes C"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2014",
+            "abstract": "Since the recognition of the effectiveness of clomipramine in treating obsessive-compulsive disorder (OCD), a number of recent empirical studies have confirmed a key role of the serotonergic (5-HT) system in the pathophysiology of OCD. The current study presents a review of the existing double-blind studies testing 5-HT antidepressants in OCD.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40224942",
+            "title": "Risperidone Augmentation in Antidepressant-Resistant Somatic Symptom Disorder.",
+            "authors": [
+              "Hyun Seo Eun",
+              "Kim Seung-Gon",
+              "Yoon Hyung-Jun"
+            ],
+            "journal": "Psychiatry and clinical psychopharmacology",
+            "year": "2025",
+            "abstract": "Chronic somatic symptoms are hallmarks of somatic symptom disorder (SSD), characterized by notable disruptions in the day to day lives of affected patients. Risperidone is an effective augmenting agent for treatment-resistant major depressive and obsessive-compulsive disorders. Although various antidepressants have been used for the pharmacotherapy of SSDs, no guidelines have been formulated for treatment-resistant or severe SSDs. To date, the efficacy of risperidone augmentation for the treatme",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SNRI 的血清素再回收抑制活性與 OCD 之血清素功能障礙假說相關。母藥 Venlafaxine 有 RCT（PMID 14624187）顯示對 OCD 有效，提供間接機轉支持，但 Desvenlafaxine 本身尚無 OCD 直接臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "schizotypal personality disorder",
+      "txgnn": {
+        "score": 0.9984285235404968,
+        "rank": 2851
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知直接機轉連結。TxGNN 預測可能源於人格障礙共病模式，但 SNRI 用於分裂型人格障礙缺乏生物學基礎，目前治療以低劑量抗精神病藥為主。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "schizoid personality disorder",
+      "txgnn": {
+        "score": 0.9984285235404968,
+        "rank": 2852
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知直接機轉連結。分裂性人格障礙主要特徵為社交功能缺損與情感淡漠，缺乏 SNRI 介入的循證基礎，且現行臨床指引不推薦藥物作為第一線治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "paranoid personality disorder",
+      "txgnn": {
+        "score": 0.9984285235404968,
+        "rank": 2853
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知直接機轉連結。偏執性人格障礙以猜疑與不信任為核心特徵，抗憂鬱藥在此適應症的使用存在爭議，目前以心理治療為主，藥物主要針對伴隨症狀（如焦慮）而非核心症狀。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "histrionic personality disorder (disease)",
+      "txgnn": {
+        "score": 0.9984285235404968,
+        "rank": 2854
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知直接機轉連結。表演性人格障礙主要以心理治療（特別是精神動力學取向）為主，藥物治療指引缺乏充分循證依據，再利用假說僅源於 TxGNN 計算預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Ohdo syndrome and variants",
+      "txgnn": {
+        "score": 0.9974272847175598,
+        "rank": 4101
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉連結。Ohdo 症候群為罕見遺傳性疾病（主要為 SETD5 基因突變相關），以智能障礙、顱面異常及眼部異常為特徵，SNRI 再利用假說缺乏任何生物學基礎，不建議進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn": {
+        "score": 0.9973710775375366,
+        "rank": 4172
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉連結。嬰兒良性陣發性斜頸為自限性疾病，可能與偏頭痛遺傳易感性相關（CACNA1A 基因），屬嬰幼兒族群，SNRI 使用不僅缺乏依據且存在重大安全顧慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "dysthymic disorder",
+      "txgnn": {
+        "score": 0.9972750544548036,
+        "rank": 4275
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04437485",
+            "title": "eIMPACT-DM Pilot Trial: Depression Treatment to Reduce the Excess Diabetes Risk of People With Depression and Prediabetes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 46,
+            "start_date": "2020-10-14",
+            "completion_date": "2022-08-29",
+            "brief_summary": "This pilot randomized controlled trial seeks: (1) to determine the preliminary efficacy of our modernized collaborative care intervention for depression in improving the diabetes risk markers of hemoglobin A1c and insulin resistance and (2) to explore whether somatic depressive symptoms - i.e., hyperphagia (increased appetite/weight) and/or hypersomnia (increased sleep) - moderate the effect of the eIMPACT-DM intervention on diabetes risk markers.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "eIMPACT-DM Phase 2 研究探討憂鬱症治療降低糖尿病風險（n=46），納入持續性憂鬱症患者，Desvenlafaxine 非唯一研究藥物，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT01948895",
+            "title": "An 8-week Open-Label Flexible-Dose Study Of Desvenlafaxine as Monotherapy In The Treatment Of Dysthymia",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2012-08",
+            "completion_date": "2014-06",
+            "brief_summary": "This multi-centred study will be conducted at two centres. The design will be an open label, flexible-dose study. This investigation will evaluate the efficacy of Desvenlafaxine monotherapy for patients who meet diagnostic criteria for dysthymia.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "【最直接相關】Desvenlafaxine 單藥治療 Dysthymia 的 8 週開放標籤彈性劑量研究（n=30），已完成。雖非 RCT 設計（Phase NA），為迄今針對此確切適應症的直接介入試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT01537068",
+            "title": "Desvenlafaxine (Pristiq) vs. Placebo in the Treatment of Chronic Depression",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2012-02",
+            "completion_date": "2016-12",
+            "brief_summary": "The investigators are studying a new antidepressant medicine, desvenlafaxine, for the treatment of people with chronic depression. Desvenlafaxine (trade name Pristiq) has been approved by the FDA for the treatment of major depression.\n\nThe investigators are testing whether this medicine is also effective for adults with a type of chronic depression that is less severe than major depression. This condition is also known as dysthymic disorder or dysthymia. Chronic depression, lasting two or more y",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "【最強臨床證據】Phase 4 Desvenlafaxine（Pristiq）vs 安慰劑用於慢性憂鬱症 RCT（n=59），已完成。直接對比安慰劑設計，為本適應症提供最高質量的隨機對照試驗數據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21527126",
+            "title": "Efficacy of antidepressants for dysthymia: a meta-analysis of placebo-controlled randomized trials.",
+            "authors": [
+              "Levkovitz Yeciel",
+              "Tedeschini Enrico",
+              "Papakostas George I"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2011",
+            "abstract": "The authors sought to determine the efficacy of antidepressants in dysthymic disorder and to compare antidepressant and placebo response rates between major depressive disorder (MDD) and dysthymic disorder.",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28064115",
+            "title": "Do social functioning and symptoms improve with continuation antidepressant treatment of persistent depressive disorder? An observational study.",
+            "authors": [
+              "Hellerstein David J",
+              "Hunnicutt-Ferguson Kallio",
+              "Stewart Jonathan W",
+              "McGrath Patrick J",
+              "Keller Samantha"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "2017",
+            "abstract": "To determine efficacy of continued treatment with the serotonin norepinephrine reuptake inhibitor duloxetine on symptom reduction and functional improvement in outpatients with dysthymia.",
+            "classification": {
+              "study_type": "RCT Follow-up",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "持續性憂鬱症（慢性輕鬱症）與 MDD 共享部分神經生物學基礎，包含單胺類神經傳遞功能不足。Desvenlafaxine 作為 SNRI 具備直接機轉適用性，且已有 Phase 4 RCT（NCT01537068）直接測試 Desvenlafaxine vs 安慰劑於慢性憂鬱症，以及開放標籤 Dysthymia 專項研究（NCT01948895），屬目前分析中臨床證據最充分的新適應症之一。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "agoraphobia",
+      "txgnn": {
+        "score": 0.9970108270645142,
+        "rank": 4590
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雖 SNRI 在恐慌症及廣泛性焦慮症有一定療效，廣場恐懼症通常作為恐慌症的共病處理，但無直接 Desvenlafaxine 臨床證據。在無任何試驗或文獻支持下，目前僅為計算預測，需先建立研究問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "melancholia",
+      "txgnn": {
+        "score": 0.996393382549286,
+        "rank": 5227
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01916824",
+            "title": "Effects of Treatment on Decision-making in Major Depression",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2013-08",
+            "completion_date": "2015-12",
+            "brief_summary": "In this trial, fifty participants with current major depressive disorder who are not receiving an antidepressant medication and fifty healthy controls will complete questionnaires and computerized tasks to assess their decision-making styles. There will be three visits for depressed patients and two for healthy controls (the first and third visits). The first visit will involve interviews and questionnaires to assess the participant's level of depression, medical history and quality of life. Par",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 研究探討 MDD 患者治療對決策能力影響（n=53），Desvenlafaxine 為治療藥物，主要結果為神經認知功能而非憂鬱症狀評分，且未區分 Melancholia 亞型。間接支持 Desvenlafaxine 於 MDD 的耐受性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36253442",
+            "title": "Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis.",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Sakuma Kenji",
+              "Okuya Makoto",
+              "Hatano Masakazu"
+            ],
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "abstract": "A systematic review and random-effects model network meta-analysis were conducted to compare the efficacy, acceptability, tolerability, and safety of antidepressants to treat adults with major depressive disorder (MDD) in the maintenance phase. This study searched the PubMed, Cochrane Library, and Embase databases and included only double-blind, randomized, placebo-controlled trials with an enrichment design: patients were stabilized on the antidepressant of interest during the open-label study ",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32563306",
+            "title": "Comparative efficacy and acceptability of antidepressants, psychotherapies, and their combination for acute treatment of children and adolescents with depressive disorder: a systematic review and network meta-analysis.",
+            "authors": [
+              "Zhou Xinyu",
+              "Teng Teng",
+              "Zhang Yuqing",
+              "Del Giovane Cinzia",
+              "Furukawa Toshi A"
+            ],
+            "journal": "The lancet. Psychiatry",
+            "year": "2020",
+            "abstract": "Depressive disorders are common in children and adolescents. Antidepressants, psychotherapies, and their combination are often used in routine clinical practice; however, available evidence on the comparative efficacy and safety of these interventions is inconclusive. Therefore, we sought to compare and rank all available treatment interventions for the acute treatment of depressive disorders in children and adolescents.",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37032427",
+            "title": "Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6, CYP2C19, CYP2B6, SLC6A4, and HTR2A Genotypes and Serotonin Reuptake Inhibitor Antidepressants.",
+            "authors": [
+              "Bousman Chad A",
+              "Stevenson James M",
+              "Ramsey Laura B",
+              "Sangkuhl Katrin",
+              "Hicks J Kevin"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2023",
+            "abstract": "Serotonin reuptake inhibitor antidepressants, including selective serotonin reuptake inhibitors (SSRIs; i.e., citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, and sertraline), serotonin and norepinephrine reuptake inhibitors (i.e., desvenlafaxine, duloxetine, levomilnacipran, milnacipran, and venlafaxine), and serotonin modulators with SSRI-like properties (i.e., vilazodone and vortioxetine) are primary pharmacologic treatments for major depressive and anxiety disorders. Genetic va",
+            "classification": {
+              "study_type": "Clinical Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34029378",
+            "title": "New generation antidepressants for depression in children and adolescents: a network meta-analysis.",
+            "authors": [
+              "Hetrick Sarah E",
+              "McKenzie Joanne E",
+              "Bailey Alan P",
+              "Sharma Vartika",
+              "Moller Carl I"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2021",
+            "abstract": "Major depressive disorders have a significant impact on children and adolescents, including on educational and vocational outcomes, interpersonal relationships, and physical and mental health and well-being. There is an association between major depressive disorder and suicidal ideation, suicide attempts, and suicide. Antidepressant medication is used in moderate to severe depression; there is now a range of newer generations of these medications.",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33549697",
+            "title": "Gastrointestinal side effects associated with antidepressant treatments in patients with major depressive disorder: A systematic review and meta-analysis.",
+            "authors": [
+              "Oliva Vincenzo",
+              "Lippi Matteo",
+              "Paci Riccardo",
+              "Del Fabro Lorenzo",
+              "Delvecchio Giuseppe"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2021",
+            "abstract": "Gastrointestinal side effects (SEs) are frequently observed in patients with major depressive disorder (MDD) while taking antidepressants and may lead to treatment discontinuation. The aim of this meta-analysis is to provide quantitative measures on short-term rates of gastrointestinal SEs in MDD patients treated with second-generation antidepressants. An electronic search of the literature was conducted by using MEDLINE, ISI Web of Science - Web of Science Core Collection, and Cochrane Library ",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41135546",
+            "title": "The effects of antidepressants on cardiometabolic and other physiological parameters: a systematic review and network meta-analysis.",
+            "authors": [
+              "Pillinger Toby",
+              "Arumuham Atheeshaan",
+              "McCutcheon Robert A",
+              "D'Ambrosio Enrico",
+              "Basdanis Georgios"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2025",
+            "abstract": "Antidepressants induce physiological alterations; however, the degree to which these occur in treatment with various antidepressants is unclear. We aimed to compare and rank antidepressants based on physiological side-effects by synthesising data from randomised controlled trials (RCTs).",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37450377",
+            "title": "Efficacy and tolerability of desvenlafaxine in the real-world treatment of patients with major depression: a narrative review and an expert opinion paper.",
+            "authors": [
+              "Sampogna Gaia",
+              "Caraci Filippo",
+              "Carmassi Claudia",
+              "Dell'Osso Bernardo",
+              "Ferrari Silvia"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2023",
+            "abstract": "Major depressive disorder (MDD) is a common severe mental disorder, requiring a tailored and integrated treatment. Several approaches are available including different classes of antidepressants various psychotherapeutic approaches, and psychosocial interventions. The treatment plan for each patient with MDD should be differentiated on the basis of several clinical, personal, and contextual factors.",
+            "classification": {
+              "study_type": "Real-world Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28229443",
+            "title": "[Desvenlafaxine and neuropathic pain: additional clinical benefits of a second generation serotonin-noradrenaline reuptake inhibitor].",
+            "authors": [
+              "Alcantara-Montero A"
+            ],
+            "journal": "Revista de neurologia",
+            "year": "2017",
+            "abstract": "Desvenlafaxine is the third antidepressant within the group of serotonin-norepinephrine reuptake inhibitors. The latest clinical practice guidelines consulted agree that tricyclic antidepressants, dual (venlafaxine/duloxetine) and gabapentin/pregabalin antiepileptics, are the first-line drugs in the treatment of neuropathic pain, being tramadol, lidocaine 5% patches and capsaicin 8% patches of second-line drugs, while strong opioids constitute a third line treatment. The interaction between the ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26895080",
+            "title": "An integrated analysis of the efficacy and safety of desvenlafaxine in the treatment of major depressive disorder.",
+            "authors": [
+              "Carrasco José L",
+              "Kornstein Susan G",
+              "McIntyre Roger S",
+              "Fayyad Rana",
+              "Prieto Rita"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "2016",
+            "abstract": "The chronic course of major depressive disorder (MDD) often impedes the ability of patients to achieve full remission. Return of full functioning is a critical goal of antidepressant pharmacotherapy as the presence of residual depressive symptoms is associated with an increased risk of relapse. Treatment guidelines recommend selective serotonin reuptake inhibitors, serotonin-norepinephrine reuptake inhibitors, or atypical antidepressants as first-line treatment for moderate to severe MDD. Desven",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22859791",
+            "title": "Antidepressants for depression in stage 3-5 chronic kidney disease: a systematic review of pharmacokinetics, efficacy and safety with recommendations by European Renal Best Practice (ERBP).",
+            "authors": [
+              "Nagler Evi V",
+              "Webster Angela C",
+              "Vanholder Raymond",
+              "Zoccali Carmine"
+            ],
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "2012",
+            "abstract": "The prevalence of major depression in stage 5 chronic kidney disease (CKD) varies between 14 and 30%. Patients with CKD who are depressed have a worse quality of life, are hospitalized more often and die sooner than those who are not depressed. Antidepressant drugs are effective in the general population, but whether they improve outcomes in CKD is uncertain. Drug pharmacokinetics are altered in CKD, which may necessitate dose adjustment. We aimed to systematically review available evidence of t",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28146000",
+            "title": "Efficacy of Desvenlafaxine Compared With Placebo in Major Depressive Disorder Patients by Age Group and Severity of Depression at Baseline.",
+            "authors": [
+              "Mosca Daniel",
+              "Zhang Min",
+              "Prieto Rita",
+              "Boucher Matthieu"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2017",
+            "abstract": "This post hoc meta-analysis evaluated the efficacy and safety of desvenlafaxine 50 and 100 mg versus placebo across age groups and severity of depression at baseline in patients with major depressive disorder.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40172868",
+            "title": "Esketamine Combined With SSRI or SNRI for Treatment-Resistant Depression.",
+            "authors": [
+              "Del Casale Antonio",
+              "Spirito Sara",
+              "Arena Jan Francesco",
+              "Preissner Saskia",
+              "Borro Marina"
+            ],
+            "journal": "JAMA psychiatry",
+            "year": "2025",
+            "abstract": "Treatment-resistant depression (TRD) remains a critical challenge in psychiatry, with limited effective options. Esketamine, a rapid-acting antidepressant, is usually combined with a selective serotonin reuptake inhibitor (SSRI) or a serotonin-norepinephrine reuptake inhibitor (SNRI), but comparative evidence of these combinations' effectiveness in real-world settings is sparse.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20107296",
+            "title": "Desvenlafaxine succinate: a newer antidepressant for the treatment of depression and somatic symptoms.",
+            "authors": [
+              "Seo Ho-Jun",
+              "Sohi Manmohandeep Singh",
+              "Patkar Ashwin A",
+              "Masand Prakash S",
+              "Pae Chi-Un"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "2010",
+            "abstract": "Desvenlafaxine succinate (DVS) is one of several serotonin-norepinephrine reuptake inhibitors (SNRIs). Others are venlafaxine hydrochloride, milnacipran, and duloxetine. Desvenlafaxine has been approved by the US Food and Drug Administration (FDA) for the treatment of major depressive disorder (MDD) based on a number of randomized, placebo-controlled clinical trials. Clinical studies have investigated the efficacy of DVS in doses ranging from 50 to 400 mg/day for the treatment of MDD in adult ou",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36700320",
+            "title": "Efficacy and Safety of Escitalopram, Desvenlafaxine, and Vortioxetine in the Acute Treatment of Anxious Depression: A Randomized Rater-blinded 6-week Clinical Trial.",
+            "authors": [
+              "Shin Cheolmin",
+              "Jeon Sang Won",
+              "Lee Seung-Hoon",
+              "Pae Chi-Un",
+              "Hong Narei"
+            ],
+            "journal": "Clinical psychopharmacology and neuroscience : the official scientific journal of the Korean College of Neuropsychopharmacology",
+            "year": "2023",
+            "abstract": "Anxious depression is associated with greater chronicity, higher severity of symptoms, more severe functional impairment, and poor response to drug treatment. However, evidence for first-choice antidepressants in patients with anxious depression is limited. This study aimed to compare the efficacy and safety of escitalopram, desvenlafaxine, and vortioxetine in the acute treatment of anxious depression.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18698015",
+            "title": "Desvenlafaxine: another \"me too\" drug?",
+            "authors": [
+              "Sopko Michael A",
+              "Ehret Megan J",
+              "Grgas Marina"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2008",
+            "abstract": "To compare desvenlafaxine with its parent drug, venlafaxine, to determine the usefulness of this new medication.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19351235",
+            "title": "Desvenlafaxine: a new antidepressant or just another one?",
+            "authors": [
+              "Pae Chi-Un"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2009",
+            "abstract": "Desvenlafaxine (DVS) is a serotonin-norepinephrine reuptake inhibitor (SNRI) with a different pharmacokinetic and pharmacodynamic profile to venlafaxine. It was approved in February 2008 by the United States Food and Drug Administration for the treatment of major depressive disorder (MDD) based on a number of randomized, placebo-controlled clinical trials demonstrating efficacy and safety for patients with MDD. Current evidence indicates that DVS has proven efficacy, acceptable safety and tolera",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28817491",
+            "title": "Speed of Improvement in Symptoms of Depression With Desvenlafaxine 50 mg and 100 mg Compared With Placebo in Patients With Major Depressive Disorder.",
+            "authors": [
+              "Katzman Martin A",
+              "Nierenberg Andrew A",
+              "Wajsbrot Dalia B",
+              "Meier Ellen",
+              "Prieto Rita"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2017",
+            "abstract": "This post hoc analysis examined the time point at which clinically significant improvement in major depressive disorder (MDD) symptoms occurs with desvenlafaxine versus placebo.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35500900",
+            "title": "Acute Efficacy and Safety of Escitalopram Versus Desvenlafaxine and Vortioxetine in the Treatment of Depression With Cognitive Complaint: A Rater-Blinded Randomized Comparative Study.",
+            "authors": [
+              "Lee Seung-Hoon",
+              "Jeon Sang Won",
+              "Shin Cheolmin",
+              "Pae Chi-Un",
+              "Patkar Ashwin A"
+            ],
+            "journal": "Psychiatry investigation",
+            "year": "2022",
+            "abstract": "This study aimed to compare the efficacy and safety of escitalopram, vortioxetine, and desvenlafaxine for acute treatment of major depressive disorder (MDD) with cognitive complaint (CC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29185786",
+            "title": "Desvenlafaxine Versus Placebo in the Treatment of Children and Adolescents with Major Depressive Disorder.",
+            "authors": [
+              "Atkinson Sarah",
+              "Lubaczewski Shannon",
+              "Ramaker Sara",
+              "England Richard D",
+              "Wajsbrot Dalia B"
+            ],
+            "journal": "Journal of child and adolescent psychopharmacology",
+            "year": "2018",
+            "abstract": "To evaluate the short-term efficacy and safety of desvenlafaxine versus placebo in the treatment of children and adolescents with major depressive disorder (MDD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "憂鬱型憂鬱症（Melancholia）為 MDD 嚴重亞型，以顯著快感缺失、精神運動遲滯、晨間惡化為特徵，需較強 NE 再回收抑制，Desvenlafaxine 的雙重 SNRI 機轉理論上具備適應性。Desvenlafaxine 已在 MDD 累積充分證據（PMID 26895080 整合分析；PMID 37450377 真實世界研究），但無專針對 Melancholia 亞型的 Phase 3 RCT。注意：Melancholia 非獨立 ICD 診斷碼，為 MDD 嚴重度標記。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "schizotypal personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "schizotypal personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "schizotypal personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "paranoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "paranoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "paranoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desvenlafaxine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    }
+  ]
+}

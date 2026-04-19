@@ -1,0 +1,227 @@
+## 分析 Cyclizine (DB01176) 藥物再利用證據
+
+**藥理背景**：Cyclizine 為第一代 H1 受體拮抗劑（抗組織胺），具抗膽鹼性質，主要用於暈動症／噁心嘔吐。市場狀態標註「未上市」，原始 MoA 為 Data Gap，DDI 數為 0，需謹慎解讀數據完整性。
+
+---
+
+```json
+{
+  "drug": "Cyclizine",
+  "drugbank_id": "DB01176",
+  "analysis_date": "2026-04-04",
+  "data_quality_warning": "original_moa=[Data Gap]、ddi_count=0，提示 DrugBank 資料不完整，建議交叉驗證",
+  "indications": [
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cyclizine 為 H1 受體拮抗劑，H1 blockade 可抑制組織胺介導的皮膚血管擴張與搔癢反應，為抗組織胺藥物治療蕁麻疹的標準機轉。但 Cyclizine 屬第一代（鎮靜型），臨床上已被第二代取代，需考量 CNS 副作用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8573923",
+          "title": "Detection of action, inhibition and augmentation spectra in solar urticaria.",
+          "year": "1995",
+          "study_type": "光生物學機轉研究（Photobiological mechanistic study）",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "此研究以 Cyclizine 作為 H1 拮抗劑探討日光性蕁麻疹的 action/inhibition 光譜，為機轉驗證性使用而非治療性 RCT。間接支持 H1 pathway 在蕁麻疹中的角色，但不能作為 Cyclizine 治療效果的直接證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "抗膽鹼作用可減少鼻腔分泌，H1 阻斷可緩解組織胺介導的鼻黏膜充血。然而「nasal cavity disease」診斷分類過於廣泛（含腫瘤、息肉、感染等異質性疾病），機轉關聯僅適用於過敏性子集，整體適應症定義不精確。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎主要為病毒或細菌感染所致，Cyclizine 的 H1/抗膽鹼機轉無直接抗感染或抗炎效果。TxGNN 高分可能源於知識圖譜中的上呼吸道疾病節點連結，而非生物學合理性。缺乏任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cold urticaria",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "冷性蕁麻疹由低溫刺激觸發肥大細胞脫顆粒釋放組織胺，H1 拮抗劑為標準治療選項（指南推薦第二代 H1 拮抗劑）。Cyclizine 具有機轉合理性，但無任何特定文獻或試驗支持，且第一代抗組織胺的鎮靜副作用不具優勢。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "玫瑰痤瘡性結膜炎主要為慢性炎症（Th1/Th17 介導）及神經血管功能失調，H1 阻斷作用有限。抗膽鹼效果可能加重眼乾症狀（減少淚液分泌），存在潛在危害風險。不建議進一步研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cyclizine 曾作為麥角胺複方成分（ergotamine + cyclizine）用於偏頭痛急性期治療，抗組織胺作用可協同止嘔並可能輔助血管收縮效果。文獻主要圍繞麥角胺複方，cyclizine 的獨立貢獻尚未釐清。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "4148490",
+          "title": "Migraine treated with an antihistamine-analgesic combination.",
+          "year": "1973",
+          "study_type": "早期臨床試驗（Pre-modern RCT era clinical study）",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "最直接相關文獻，抗組織胺-止痛藥複方治療偏頭痛。年代久遠（1973），方法學不符現代標準，但提供概念驗證（proof-of-concept）。需確認是否為 cyclizine 具體研究。"
+        },
+        {
+          "pmid": "3926322",
+          "title": "Acute migraine attack therapy: comparison of naproxen sodium and an ergotamine tartrate compound.",
+          "year": "1985",
+          "study_type": "臨床比較研究（Comparative clinical study）",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "Ergotamine tartrate 複方可能含 cyclizine，但研究焦點為 naproxen vs ergotamine，cyclizine 的角色不明確。間接相關。"
+        },
+        {
+          "pmid": "20420788",
+          "title": "Prescribing for migraine with the focus on selective 5HT1-receptor agonists: a pharmacy database analysis.",
+          "year": "2010",
+          "study_type": "藥局資料庫分析（Pharmacy database analysis）",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "以 5HT1 致效劑為主題的處方資料庫研究，cyclizine 僅可能作為伴隨用藥出現。相關性低，不能作為療效證據。"
+        },
+        {
+          "pmid": "11472386",
+          "title": "Patterns of ergotamine and sumatriptan use in the Netherlands from 1991 to 1997.",
+          "year": "2001",
+          "study_type": "藥物使用型態研究（Drug utilization study）",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "描述荷蘭麥角胺/舒馬曲坦使用型態，不涉及 cyclizine 療效評估。屬背景資料，相關性低。"
+        },
+        {
+          "pmid": "10842162",
+          "title": "Chronic ergot toxicity: A rare cause of lower extremity ischemia.",
+          "year": "2000",
+          "study_type": "案例報告／安全性文獻（Case report / Safety literature）",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "討論麥角毒性，屬安全性資訊。若 cyclizine 曾與麥角胺合用，此文提供相關安全背景，但不支持療效。"
+        }
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自律神經頭痛（如叢發性頭痛）機轉為三叉神經-副交感神經反射弧異常激活，H1 拮抗對此機轉無直接干預。無文獻或試驗支持，不具優先研究價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rhinitis",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "過敏性鼻炎由 IgE 介導的組織胺釋放引起，H1 拮抗劑為一線用藥（指南已優先推薦第二代，如 loratadine、cetirizine）。Cyclizine 具機轉合理性但無特定證據，且第一代鎮靜副作用在臨床上不具競爭優勢。類藥效應（class effect）已有更佳藥物。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頑固性異位性皮膚炎現代治療以 dupilumab、JAK 抑制劑等生物製劑為主，機轉為 Th2/IL-4/IL-13 路徑。Cyclizine 的 H1 阻斷僅能緩解搔癢症狀，無法改變疾病修飾進程。不具研究優先性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn_score": 0.9883,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「IgE responsiveness, atopic」為免疫表型分類，非具體疾病適應症。Cyclizine 無法調節 IgE 生成或 Th2 免疫偏向，此預測可能為知識圖譜中過敏相關節點的間接推論，生物學合理性低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S3": 0,
+      "S2": 0,
+      "S1": 2,
+      "S0": 8
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "allergic urticaria",
+        "rationale": "H1 機轉最直接，有光生物學機轉研究支持，類藥效應已充分建立，需比較 Cyclizine vs 第二代抗組織胺的優劣"
+      },
+      {
+        "rank": 2,
+        "disease": "headache disorder",
+        "rationale": "歷史複方用藥紀錄（ergotamine + cyclizine），有5篇相關文獻背景，值得釐清 cyclizine 的獨立貢獻"
+      }
+    ],
+    "key_limitations": [
+      "原始 MoA 標註為 [Data Gap]，藥理資料不完整",
+      "DDI count = 0 異常，建議重新查詢藥物交互作用資料庫",
+      "市場狀態「未上市」限制真實世界資料可及性",
+      "所有預測為 TxGNN 高分但缺乏 Phase 1+ 臨床驗證",
+      "10 個適應症均無臨床試驗登錄",
+      "第一代抗組織胺鎮靜副作用在現代臨床環境中競爭力有限"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| allergic urticaria | **L4** | S1 | Research Question |
+| headache disorder | **L4** | S1 | Research Question |
+| cold urticaria | L5 | S0 | Hold（機轉合理但無證據）|
+| rhinitis | L5 | S0 | Hold（類藥效應但有更佳選擇）|
+| nasal cavity disease | L5 | S0 | Hold |
+| acute laryngopharyngitis | L5 | S0 | Hold |
+| rosacea conjunctivitis | L5 | S0 | Hold（潛在危害：抗膽鹼→眼乾）|
+| trigeminal autonomic cephalalgia | L5 | S0 | Hold |
+| recalcitrant atopic dermatitis | L5 | S0 | Hold |
+| IgE responsiveness, atopic | L5 | S0 | Hold |
+
+**核心觀察**：Cyclizine 的 H1/抗膽鹼機轉對過敏性疾病具類藥效應支持，但第二代抗組織胺已主導市場，Cyclizine 的再利用價值需在「特定次族群」或「複方協同效應」情境下才具差異化研究意義。

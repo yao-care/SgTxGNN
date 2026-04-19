@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01272-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alglucosidase alfa",
+    "drugbank_id": "DB01272",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "adult polyglucosan body disease",
+      "txgnn": {
+        "score": 0.9947262406349182,
+        "rank": 6709
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "APBD 由 GBE1（glycogen branching enzyme）突變導致異常多葡聚糖體（polyglucosan bodies）在神經系統及肌肉中堆積。雖然致病酶與 GAA 不同，但均屬溶酶體糖原代謝異常範疇；有假說認為 alglucosidase alfa 可藉由增強溶酶體糖原清除，間接減輕多葡聚糖體負擔。機轉相似性為 GSD II 的延伸，具最高合理性，但尚無臨床資料佐證。值得立項為研究問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form",
+      "txgnn": {
+        "score": 0.9932327270507812,
+        "rank": 8045
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GSD type IV（Andersen 病）由 GBE1 基因突變引起 branching enzyme 缺乏，與 alglucosidase alfa 所替代的 GAA（acid alpha-glucosidase）為不同酶。兩者均在糖原代謝路徑，但介入點不同：GAA 降解溶酶體內糖原，而 GSD IV 之異常為 polyglucosan 無法正常形成支鏈，並非 GAA 缺乏。機轉關聯為間接且薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form",
+      "txgnn": {
+        "score": 0.9932327270507812,
+        "rank": 8046
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與上一項相同（GBE1 deficiency，GSD IV 週產期致死型）。此亞型病程極重、預後極差，即便有藥物干預機會，機轉合理性仍同等薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "congenital entropion",
+      "txgnn": {
+        "score": 0.992150068283081,
+        "rank": 8910
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性眼瞼內翻為眼瞼結構性異常（眼輪匝肌過度活躍或鞏膜發育問題），屬形態學/神經肌肉缺陷，與溶酶體酶缺乏毫無關聯。此預測極可能為 TxGNN 模型假陽性，或由訓練資料中眼肌相關特徵與糖原肌病眼部症狀混淆所致。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "congenital ectropion",
+      "txgnn": {
+        "score": 0.9917038679122924,
+        "rank": 9249
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性眼瞼外翻為結構性眼瞼異常，與溶酶體 GAA 替代療法無機轉關聯。與 congenital entropion 同屬眼科形態缺陷，判斷同為假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "congenital Horner syndrome (disease)",
+      "txgnn": {
+        "score": 0.9916859269142152,
+        "rank": 9259
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性 Horner 症候群為交感神經通路受損（頸部/胸部交感神經，常見於分娩外傷或頸動脈剝離），導致患側眼瞼下垂、瞳孔縮小及無汗症。與溶酶體儲積症無關，機轉完全不符。模型可能因眼瞼下垂症狀（ptosis）與 Pompe 病眼部表現特徵相近而誤預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ptosis-vocal cord paralysis syndrome",
+      "txgnn": {
+        "score": 0.991502046585083,
+        "rank": 9402
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼瞼下垂合併聲帶麻痺症候群屬神經肌肉發育異常，雖 Pompe 病患者也可出現眼瞼下垂及呼吸肌無力，但此症候群的病因為神經發育缺陷（非溶酶體酶缺乏），GAA 替代無治療邏輯。此為症狀特徵共享（ptosis）造成的模型雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye",
+      "txgnn": {
+        "score": 0.9911351203918456,
+        "rank": 9701
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見先天性症候群，涉及手指攣縮（camptodactyly）、近視及眼直肌纖維化，致病機轉不明，多歸因於結締組織或肌肉發育異常。與 GAA 溶酶體途徑無交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "epiblepharon",
+      "txgnn": {
+        "score": 0.9911062121391296,
+        "rank": 9724
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Epiblepharon 為眼瞼皮膚多餘皺褶壓迫睫毛的結構性問題，常見於東亞兒童，為解剖學變異，與酶缺乏疾病無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ptosis-strabismus-ectopic pupils syndrome",
+      "txgnn": {
+        "score": 0.9909840822219848,
+        "rank": 9814
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此先天性眼科異常症候群涉及眼球運動神經核發育缺陷，與 GAA 缺乏無生物合理性。同屬 ptosis 症狀特徵重疊造成的模型雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "adult polyglucosan body disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "adult polyglucosan body disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "adult polyglucosan body disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital entropion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital entropion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital entropion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital ectropion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital ectropion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital ectropion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital Horner syndrome (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital Horner syndrome (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "congenital Horner syndrome (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "ptosis-vocal cord paralysis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "ptosis-vocal cord paralysis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "ptosis-vocal cord paralysis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "epiblepharon"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "epiblepharon"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "epiblepharon"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "ptosis-strabismus-ectopic pupils syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "ptosis-strabismus-ectopic pupils syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alglucosidase alfa",
+        "disease": "ptosis-strabismus-ectopic pupils syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

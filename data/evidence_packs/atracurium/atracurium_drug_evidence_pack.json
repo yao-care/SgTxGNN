@@ -1,0 +1,774 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB13295-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Atracurium",
+    "drugbank_id": "DB13295",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "myofascial pain syndrome",
+      "txgnn": {
+        "score": 0.9409640431404114,
+        "rank": 28635
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Atracurium 導致全身性骨骼肌鬆弛，理論上可暫時中斷肌筋膜痛-痙攣循環，但需全身麻醉支持（含機械通氣），臨床不可行性極高。肌筋膜痛標準治療為局部注射、物理治療，系統性 NMBA 無合理給藥途徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.938955307006836,
+        "rank": 28994
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 由 AVPR2 基因功能獲得性突變導致 ADH 非依賴性水重吸收異常，與 nAChR 拮抗機轉無任何已知交集。Atracurium 不影響腎小管 V2 受體信號或水通道蛋白調控。機轉連結缺失。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "methemoglobinemia",
+      "txgnn": {
+        "score": 0.9263308048248292,
+        "rank": 31279
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7653798",
+            "title": "[Increase of prilocaine-induced methemoglobinemia following anesthesia induction].",
+            "authors": [
+              "Rudlof B",
+              "Durstewitz-Knierim D",
+              "Ridderskamp I",
+              "Scharenberg C",
+              "Brandt L"
+            ],
+            "journal": "Der Anaesthesist",
+            "year": "1995",
+            "abstract": "Although the local anaesthetic prilocaine is less cardio- and neurotoxic than lidocaine, it bears the disadvantage of the formation of methaemoglobin by the metabolite o-toluidine. Prilocaine is often successfully used, especially for the blockade of the brachial plexus, but one problem of this technique is the failure rate of 3-10%, with the consequence that general anaesthesia after administration of prilocaine is frequently necessary. Methaemoglobin formation after prilocaine administration h",
+            "classification": {
+              "study_type": "Clinical Observation / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Atracurium 不影響血紅蛋白氧化還原狀態，無法轉化 MetHb 回 Hb。唯一文獻（PMID 7653798）揭示的是麻醉誘導後 prilocaine 誘發 MetHb 升高，Atracurium 為共同使用的麻醉藥物，並非治療劑——此文獻實為潛在安全疑慮訊號（共同暴露導致 MetHb 加重），而非支持再利用的正面證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "common cold",
+      "txgnn": {
+        "score": 0.9255980253219604,
+        "rank": 31387
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25902325",
+            "title": "The incidence of perioperative hypersensitivity reactions: a single-center, prospective, cohort study.",
+            "authors": [
+              "Berroa Felicia",
+              "Lafuente Alberto",
+              "Javaloyes Gracia",
+              "Cabrera-Freitag Paula",
+              "de la Borbolla Juan M"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2015",
+            "abstract": "The incidence of perioperative hypersensitivity reactions, which can be life-threatening, ranges from 1 in 20,000 to 1 in 1361. These reactions are usually classified as IgE or non-IgE mediated. The aim of this study was to determine the incidence of allergic reactions during general anesthesia in our hospital, to establish the incidence of the allergic reactions for each drug used, to assess the frequency of IgE-mediated reactions in even mild reactions, and to compare the degree of agreement b",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Common cold 為上呼吸道病毒感染，治療需抗病毒/症狀緩解機轉。Atracurium 作用於外周神經肌肉接頭，對病毒複製、免疫反應或症狀緩解無已知機轉。唯一文獻（PMID 25902325）為單中心圍術期過敏反應發生率研究，與感冒治療完全無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "conjunctivitis",
+      "txgnn": {
+        "score": 0.9007916450500488,
+        "rank": 34734
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "結膜炎為局部眼部炎症（感染性或過敏性），需局部抗炎/抗菌/抗病毒治療。Atracurium 為系統性 NMBA，不具眼部局部應用可行性，對結膜免疫反應無直接機轉。另 Atracurium 的結膜直接接觸安全性未知，且本身具組胺釋放特性可能加劇過敏性結膜炎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "idiopathic granulomatous myositis",
+      "txgnn": {
+        "score": 0.8870527148246765,
+        "rank": 36059
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性肉芽腫性肌炎為罕見自體免疫性肌肉疾病，主要病理為肌肉組織肉芽腫浸潤，治療核心為免疫調節（類固醇、DMARDs）。Atracurium 無免疫調節機轉，骨骼肌鬆弛作用亦無法解決肉芽腫性炎症。TxGNN 高分可能源於知識圖譜中「肌肉疾病」節點的非特異性連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "myositis fibrosa",
+      "txgnn": {
+        "score": 0.8870527148246765,
+        "rank": 36060
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌炎纖維化為肌肉纖維化性病變，Atracurium 與 idiopathic granulomatous myositis 具相同評分（0.8871），顯示模型對此兩種肌病採用相同特徵節點評估。纖維化過程涉及 TGF-β、膠原沉積等機轉，與 nAChR 拮抗無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "tendinitis",
+      "txgnn": {
+        "score": 0.8826548457145691,
+        "rank": 36474
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌腱炎為肌腱組織局部炎症，治療以局部抗炎（NSAIDs、類固醇注射）、物理治療為主。Atracurium 系統性 NMBA 特性使其無法局部作用於肌腱組織，骨骼肌鬆弛雖可間接減少肌腱張力負荷，但需全身麻醉支持，臨床風險效益比不支持應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "methemoglobinemia, alpha type",
+      "txgnn": {
+        "score": 0.8824365735054016,
+        "rank": 36498
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alpha 型 MetHb 血症為 NADH cytochrome b5 reductase 缺陷所致遺傳性疾病，治療為亞甲藍（methylene blue）或維生素 C 補充。Atracurium 對此酶缺陷及氧化還原系統無任何調節機轉。與 methemoglobinemia 主條目同為 L5，且無文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "fibromyalgia",
+      "txgnn": {
+        "score": 0.8800396919250488,
+        "rank": 36730
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9095707",
+            "title": "Evaluation of succinylcholine-induced fasciculations and myalgias with or without atracurium pretreatment.",
+            "authors": [
+              "Hochhalter C M"
+            ],
+            "journal": "AANA journal",
+            "year": "1996",
+            "abstract": "Pretreatment regimens that decrease the incidence of fasciculations and postoperative myalgias have been the focus of many research studies. The subject of pretreatment remains controversial. An experimental double blind study was conducted of 50 patients, men and women, aged 18 to 65 years who were having elective minor orthopedic surgery. Group A participants (n = 24) received normal saline, and group B participants (n = 26) received atracurium 0.05 mg/kg, followed by succinylcholine 1.5 mg/kg",
+            "classification": {
+              "study_type": "Clinical Trial (Perioperative)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "纖維肌痛症為中樞敏感化疼痛疾患（central sensitization），治療以 SNRIs、抗癲癇藥、CBT 為主。唯一文獻（PMID 9095707）評估 Atracurium 預處理（defasciculation）對 succinylcholine 誘發肌束顫動及術後肌痛（post-suxamethonium myalgia）的預防效果——此為麻醉管理研究，與纖維肌痛症病理機轉（廣泛性慢性疼痛/中樞敏感化）完全不同，不構成再利用支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "common cold"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "common cold"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "common cold"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Atracurium",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

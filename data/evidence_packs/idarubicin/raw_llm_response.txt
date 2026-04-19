@@ -1,0 +1,164 @@
+根據提供的資料，我將對 **Idarubicin（DB01177）** 的各適應症進行系統性證據等級評估。
+
+---
+
+## 藥物背景說明
+
+**Idarubicin** 是第三代蒽環類抗生素（Anthracycline），作用機轉為 DNA 嵌入（intercalation）及拓撲異構酶 II（Topoisomerase II）抑制，為 AML/ALL 的標準化療藥物之一。資料標注「未上市」及 MoA 為 `[Data Gap]`，可能為地區性市場資料缺失，非全球狀態。
+
+---
+
+```json
+{
+  "drug": "Idarubicin",
+  "drugbank_id": "DB01177",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "所有適應症均為 TxGNN 模型預測，無任何直接臨床試驗支持。市場狀態標注 [未上市] 可能為地區性資料缺失，Idarubicin 實際為多國核准之 AML 化療藥物。",
+  "indications": [
+    {
+      "disease_name": "bulbar polio",
+      "txgnn_score": 0.9705,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊髓灰質炎（球麻痺型）為脊髓灰質炎病毒感染，無神經腫瘤或增殖性病理機轉。Idarubicin 之 Topo II 抑制及 DNA 嵌入機轉對病毒性神經疾病無已知療效路徑。TxGNN 高分可能源自 KG 節點關聯噪聲（神經病理-細胞毒性藥物）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 疾病機轉與藥物類別根本不相符，建議排除此預測"
+    },
+    {
+      "disease_name": "5q35 microduplication syndrome",
+      "txgnn_score": 0.9487,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "5q35 微重複症候群為染色體結構異常（含 NSD1 基因區域），屬先天性基因組疾病。Idarubicin 具 DNA 破壞性，對基因組不穩定疾病使用可能加重損害，無治療合理性。無任何機轉假說支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 基因組結構異常症候群，細胞毒性藥物無適用機轉"
+    },
+    {
+      "disease_name": "neuralgic amyotrophy",
+      "txgnn_score": 0.9279,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經痛性肌萎縮（Parsonage-Turner syndrome）為免疫介導性臂叢神經炎，病理機轉涉及自體免疫及神經發炎，非增殖性疾病。Idarubicin 之細胞毒性機轉對此疾病無合理治療假說，且神經毒性風險高。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 免疫性神經炎，細胞毒性化療藥無治療依據"
+    },
+    {
+      "disease_name": "amyotrophic neuralgia",
+      "txgnn_score": 0.9215,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌萎縮性神經痛為神經痛性肌萎縮之同義或近義詞（ICD 分類相近），病理機轉同上，屬免疫介導性週邊神經病變。與 neuralgic amyotrophy 具高度重疊，評估結論相同：無機轉支持，細胞毒性化療不適用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 與 neuralgic amyotrophy 高度重疊，可能為 KG 中重複節點"
+    },
+    {
+      "disease_name": "familial thrombocytosis",
+      "txgnn_score": 0.7934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性血小板增多症多由 THPO/MPL 基因突變引起，治療以 Hydroxyurea、Anagrelide 為主。雖然 Idarubicin 具骨髓抑制效應可降低血小板，但毒性/效益比極差。此類非惡性增殖性疾病使用蒽環類藥物無循證支持，且有嚴重過度治療風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 非惡性疾病，蒽環類毒性（心毒性/骨髓抑制）風險遠大於潛在獲益"
+    },
+    {
+      "disease_name": "reactive thrombocytosis",
+      "txgnn_score": 0.7915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "反應性血小板增多症為繼發性病變（感染、手術、缺鐵等），治療根本在於原發病因，血小板通常自行恢復正常。使用 Idarubicin 完全不符合治療原則，無機轉依據，且有造成不必要骨髓抑制的嚴重風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 繼發性良性病變，細胞毒性化療為禁忌類操作"
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.7840,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "節細胞性神經母細胞瘤（Ganglioneuroblastoma）為介於神經母細胞瘤與節細胞神經瘤之間的分化型神經脊腫瘤。蒽環類藥物（Doxorubicin、Idarubicin）為神經母細胞瘤化療方案的組成部分（如 COG ANBL 方案），提供間接藥物類別支持。然而，Idarubicin 尚未有在節細胞性神經母細胞瘤之直接臨床試驗或案例報告，僅憑藥物類別外推，證據間接性高。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "可系統搜尋蒽環類藥物在 ganglioneuroblastoma 之用藥記錄；若有 Doxorubicin 成功案例，可探討 Idarubicin 替換之可行性假說"
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn_score": 0.7740,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腹膜後腫瘤為廣義分類，PMID 39588445 所涉及的 Granulocytic Sarcoma（顆粒球性肉瘤/綠色瘤/髓外 AML）可以腹膜後腫塊方式呈現。Idarubicin 為 AML 標準誘導化療之核心藥物（7+3 方案），對顆粒球性肉瘤具直接治療依據。此案例報告提供了間接橋接：腹膜後腫瘤（若為髓系起源）→ AML 類型化療 → Idarubicin 適用。但此適應症過於廣泛，非髓系腹膜後腫瘤無此推斷基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39588445",
+          "title": "Cervical Granulocytic Sarcoma Without Acute Leukemia: A Case Report and Review of 42 Additional Cases",
+          "year": "2024",
+          "study_type": "Case Report + Review",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "顆粒球性肉瘤可呈現為腹膜後/腫塊病變，Idarubicin 為 AML 誘導方案核心藥物，與髓系起源的腹膜後腫瘤有機轉橋接。然而本文主題為頸部顆粒球性肉瘤（非腹膜後），且為個案報告，證據等級有限。相關性為間接（B 級）而非直接（A 級）。"
+        }
+      ],
+      "next_step": "建議縮窄至「Myeloid Sarcoma / Extramedullary AML」適應症，其有更直接的 Idarubicin 用藥依據"
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.7560,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為極罕見先天性多系統異常症候群（VATER/VACTERL 變體或 CHARGE 類），病因為發育性基因組異常，非增殖性或腫瘤性疾病。Idarubicin 之細胞毒性機轉對此症候群無任何治療路徑，且細胞毒性藥物可能加重內分泌及免疫功能障礙。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 先天性多系統發育異常，細胞毒性藥物無適用機轉，且有潛在危害"
+    },
+    {
+      "disease_name": "obsolete Hodgkin's granuloma",
+      "txgnn_score": 0.7258,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "「過時 Hodgkin 肉芽腫」為 Hodgkin 淋巴瘤（結節硬化型/混合細胞型）之舊式 Rye 分類術語。蒽環類藥物（Doxorubicin/Adriamycin）為 Hodgkin 淋巴瘤 ABVD 標準方案的核心成份，提供強烈的藥物類別間接支持。Idarubicin 具相同 Topo II 抑制機轉，且脂溶性更高（更易穿透細胞膜），理論上對淋巴瘤有效。然而，Idarubicin 尚未被納入 Hodgkin 淋巴瘤標準化療方案，缺乏直接臨床試驗證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "可搜尋 Idarubicin 在 non-Hodgkin 或 Hodgkin 淋巴瘤之 Phase 1/2 替代方案研究；需注意此為「廢棄術語」，現行研究以 Classical Hodgkin Lymphoma 命名"
+    }
+  ],
+  "summary": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0,
+    "L4": 3,
+    "L5": 7,
+    "S0_hold": 7,
+    "S1_research": 3,
+    "S2_feasibility": 0,
+    "S3_proceed": 0
+  },
+  "overall_assessment": "全部 10 個適應症均缺乏直接臨床試驗支持（Clinical Trials Count = 0）。7 個適應症屬 L5 純預測，病理機轉與 Idarubicin 之蒽環類細胞毒性機轉不相符（特別是病毒性/免疫性/先天性疾病），建議 Hold。3 個具腫瘤相關性的適應症（ganglioneuroblastoma、retroperitoneal neoplasm/myeloid sarcoma、obsolete Hodgkin's granuloma）因藥物類別間接證據，評為 L4/S1，可作為文獻驗證性研究問題（Research Question），但不建議直接進入臨床可行性評估。"
+}
+```
+
+---
+
+## 關鍵決策說明
+
+| 分類 | 適應症 | 核心理由 |
+|------|--------|----------|
+| 🔴 **Hold (L5/S0)** | Bulbar polio、5q35 syndrome、Neuralgic amyotrophy 等 7 項 | 疾病為病毒性/免疫性/先天基因組異常，與蒽環類細胞毒性機轉根本不符 |
+| 🟡 **Research Question (L4/S1)** | Ganglioneuroblastoma、Retroperitoneal neoplasm（髓系）、Hodgkin 淋巴瘤 | 具蒽環類藥物類別間接支持，但缺乏 Idarubicin 特定直接證據 |
+| 🟢 **Proceed** | — | 無 |
+
+> **注意**：Idarubicin 本身的 AML/ALL 適應症（原始核准用途）並不在此列表中，顯示資料來源可能存在缺失，建議補充 original_indications 欄位後重新評估整體預測模型的基準線效度。

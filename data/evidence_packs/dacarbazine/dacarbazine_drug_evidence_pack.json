@@ -1,0 +1,3504 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00851-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dacarbazine",
+    "drugbank_id": "DB00851",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "upper aerodigestive tract neoplasm",
+      "txgnn": {
+        "score": 0.9926019310951232,
+        "rank": 8547
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00423150",
+            "title": "A Phase 2 Study of Temozolomide (SCH 52365) in Subjects With Advanced Aerodigestive Tract Cancers Selected for Methylation of O6-Methyl-Guanine-DNA Methyltransferase (MGMT) Promoter",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 86,
+            "start_date": "2007-01-26",
+            "completion_date": "2009-06-11",
+            "brief_summary": "This study is proposed to evaluate the efficacy and safety of temozolomide, an oral anti-cancer agent, in a participant population selected for a biomarker. Participants with colorectal cancer, non-small-cell lung cancer, head and neck cancer, or esophageal cancer will be included.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "測試 Temozolomide（非 Dacarbazine），Phase 2，TERMINATED（因療效不足），入組 86 人。試驗終止本身即為反向訊號，顯示 MTIC 類藥物在此適應症療效有限；對 DTIC 僅具機轉類比參考價值，且需再降一級。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34705104",
+            "title": "Estimating the global burden of Epstein-Barr virus-related cancers.",
+            "authors": [
+              "Wong Yide",
+              "Meehan Michael T",
+              "Burrows Scott R",
+              "Doolan Denise L",
+              "Miles John J"
+            ],
+            "journal": "Journal of cancer research and clinical oncology",
+            "year": "2022",
+            "abstract": "More than 90% of the adult population globally is chronically infected by the Epstein-Barr virus (EBV). It is well established that EBV is associated with a number of malignancies, and advances in knowledge of EBV-related malignancies are being made every year. Several studies have analysed the global epidemiology and geographic distribution of EBV-related cancers. However, most have only described a single cancer type or subtype in isolation or limited their study to the three or four most comm",
+            "classification": {
+              "study_type": "Epidemiological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20627492",
+            "title": "Medullary thyroid carcinoma.",
+            "authors": [
+              "Pacini F",
+              "Castagna M G",
+              "Cipri C",
+              "Schlumberger M"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2010",
+            "abstract": "Medullary thyroid carcinoma (MTC) accounts for 5-8% of all thyroid cancers. MTC is mainly sporadic in nature, but an hereditary pattern [multiple endocrine neoplasia type 2 (MEN 2)] is present in 20-30% of cases, transmitted as an autosomal-dominant trait due to germline mutations of the RET proto-oncogene. About 98% of patients with MEN 2 have germline mutations in exons 5, 8, 10, 11, 13, 14, 15 or 16 of the RET gene. The primary treatment of both hereditary and sporadic forms of MTC is total t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40090128",
+            "title": "Granulocyte-macrophage colony-stimulating factor for newly diagnosed glioblastoma.",
+            "authors": [
+              "Cao Caineng",
+              "Wang Le",
+              "Jiang Feng",
+              "Jin Qifeng",
+              "Jin Ting"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2025",
+            "abstract": "There is a clear need to improve the efficiency of therapeutic strategy for patients with newly diagnosed glioblastoma (GBM). The purpose of this study was to evaluate the feasibility of hypofractionated intensity-modulated radiation therapy (IMRT), temozolomide and granulocyte-macrophage colony-stimulating factor (GM-CSF) for patients with newly diagnosed GBM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11163509",
+            "title": "Radiotherapy of esthesioneuroblastoma.",
+            "authors": [
+              "Eich H T",
+              "Staar S",
+              "Micke O",
+              "Eich P D",
+              "Stützer H"
+            ],
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2001",
+            "abstract": "Only 3% of all malignant intranasal tumors are esthesioneuroblastomas (ENB). As the tumor is very rare, the number of ENB treated in individual departments is small. In order to evaluate the efficacy of radiotherapy (RT), patients' data of 2 centres were analysed with reference to new reports in literature.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40956552",
+            "title": "Targeting BACH1 by HPPE inhibits the Wnt/β-catenin pathway and malignant phenotype in glioblastoma cells.",
+            "authors": [
+              "Wang Yuzhu",
+              "Yang Changxiao",
+              "Guo Li",
+              "Nie Peiyu",
+              "Hu Xiaowei"
+            ],
+            "journal": "Apoptosis : an international journal on programmed cell death",
+            "year": "2025",
+            "abstract": "BTB domain and CNC homology 1 (BACH1) has been reported to be a vital regulator of tumor progression. However, methods for targeting BACH1 in cancers have not been fully researched. In this study, we identified BACH1 as a poor prognosis-related factor in patients with GBM. Furthermore, a small-molecule compound, HPPE, was found to interact with BACH1 and inhibit the progression of GBM in vitro and in vivo. Molecular dynamics analysis, molecular docking simulation, MST assay, and co-IP experiment",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23443801",
+            "title": "A phase II study of temozolomide in patients with advanced aerodigestive tract and colorectal cancers and methylation of the O6-methylguanine-DNA methyltransferase promoter.",
+            "authors": [
+              "Hochhauser Daniel",
+              "Glynne-Jones Rob",
+              "Potter Vanessa",
+              "Grávalos Cristina",
+              "Doyle Thomas J"
+            ],
+            "journal": "Molecular cancer therapeutics",
+            "year": "2013",
+            "abstract": "Responses of patients with gliomas to temozolomide are determined by O(6)-methylguanine-DNA methyltransferase (MGMT) and mismatch repair (MMR) pathways. This phase II study (NCT00423150) investigated whether MGMT promoter methylation predicts response in patients with advanced aerodigestive tract and colorectal cancers (CRC). Tumor and serum samples were screened for MGMT promoter methylation. In methylation-positive patients, 150 mg/m(2) temozolomide was administered daily on a seven-day-on, se",
+            "classification": {
+              "study_type": "Phase II Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37392899",
+            "title": "The impact of survivorship bias in glioblastoma research.",
+            "authors": [
+              "Pasqualetti Francesco",
+              "Barberis Alessandro",
+              "Zanotti Sofia",
+              "Montemurro Nicola",
+              "De Salvo Gian Luca"
+            ],
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2023",
+            "abstract": "Despite advances in the therapy of Central Nervous System (CNS) malignancies, treatment of glioblastoma (GB) poses significant challenges due to GB resistance and high recurrence rates following post-operative radio-chemotherapy. The majority of prognostic and predictive GB biomarkers are currently developed using tumour samples obtained through surgical interventions. However, the selection criteria adopted by different neurosurgeons to determine which cases are suitable for surgery make operat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20138008",
+            "title": "Human immunodeficiency and Hodgkin lymphoma.",
+            "authors": [
+              "Sissolak Gerhard",
+              "Sissolak Dagmar",
+              "Jacobs Peter"
+            ],
+            "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+            "year": "2010",
+            "abstract": "Presentation of Hodgkin lymphoma (HL) is distinctive in the infected individual being more advanced, accompanied by B symptoms and the presence of extranodal disease particularly lymphadenopathy of the head and neck. Bone marrow involvement may be found in over 50% of cases. Virtually all co express gamma-herpesvirus. Phenotypically there is prominence of the mixed-cellularity and lymphocyte depleted histopathologic subtypes that define an aggressive clinical course in comparison to other varian",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25772801",
+            "title": "The role of temozolomide in the treatment of aggressive pituitary tumors.",
+            "authors": [
+              "Liu James K",
+              "Patel Jimmy",
+              "Eloy Jean Anderson"
+            ],
+            "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+            "year": "2015",
+            "abstract": "Pituitary tumors are amongst the most common intracranial neoplasms and are generally benign. However, some pituitary tumors exhibit clinically aggressive behavior that is characterized by tumor recurrence and continued progression despite repeated treatments with conventional surgical, radiation and medical therapies. More recently, temozolomide, a second generation oral alkylating agent, has shown therapeutic promise for aggressive pituitary adenomas and carcinomas with favorable clinical and ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34068501",
+            "title": "Oncogenesis, Microenvironment Modulation and Clinical Potentiality of FAP in Glioblastoma: Lessons Learned from Other Solid Tumors.",
+            "authors": [
+              "Shi Yixin",
+              "Kong Ziren",
+              "Liu Penghao",
+              "Hou Guozhu",
+              "Wu Jiaming"
+            ],
+            "journal": "Cells",
+            "year": "2021",
+            "abstract": "Currently, glioblastoma (GBM) is the most common malignant tumor of the central nervous system in adults. Fibroblast activation protein (FAP) is a member of the dipeptidyl peptidase family, which has catalytic activity and is engaged in protein recruitment and scaffolds. Recent studies have found that FAP expression in different types of cells within the GBM microenvironment is typically upregulated compared with that in lower grade glioma and is most pronounced in the mesenchymal subtype of GBM",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34654328",
+            "title": "Head and Neck Malignant Paragangliomas: Experience from a Single Institution.",
+            "authors": [
+              "Ding Yiming",
+              "Li Lifeng",
+              "Han Demin",
+              "Wang Shaozhong",
+              "Chen Xiaohong"
+            ],
+            "journal": "Ear, nose, & throat journal",
+            "year": "2024",
+            "abstract": "Objectives: To summarize the clinicopathological and genetic features of malignant paragangliomas in head and neck cancer and to explore the appropriate treatment options for this rare lesion. Methods: Six patients harboring head and neck malignant paraganglioma from Beijing Tongren Hospital were retrospectively reviewed. The clinicopathological characteristics, gene mutations, and prognosis of these patients were analyzed. Results: Of these 6 patients, 3 were male and 3 were female; 4 patients ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40337874",
+            "title": "Evaluating treatment outcome of Glioblastoma with Stupp's regimen: an experienced in single Institute.",
+            "authors": [
+              "Nguyen Dang Van",
+              "Nguyen Nhung Thi Thu",
+              "Nguyen Phan Huy",
+              "Nguyen Hang Thi",
+              "Do Thanh Cam"
+            ],
+            "journal": "Chinese clinical oncology",
+            "year": "2025",
+            "abstract": "The current conventional treatment approach for newly diagnosed glioblastomas (GBMs) entails the complete removal of the tumor, followed by the implementation of Stupp's procedure. The main purpose of this study was to analyze the results of Stupp's treatment protocol in real-world practice and examine certain prognostic markers associated with survival, which could offer empirical evidence in the treatment of GBM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21670084",
+            "title": "Inhibition of SRC family kinases and receptor tyrosine kinases by dasatinib: possible combinations in solid tumors.",
+            "authors": [
+              "Montero Juan Carlos",
+              "Seoane Samuel",
+              "Ocaña Alberto",
+              "Pandiella Atanasio"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2011",
+            "abstract": "Dasatinib is a small molecule tyrosine kinase inhibitor that targets a wide variety of tyrosine kinases implicated in the pathophysiology of several neoplasias. Among the most sensitive dasatinib targets are ABL, the SRC family kinases (SRC, LCK, HCK, FYN, YES, FGR, BLK, LYN, and FRK), and the receptor tyrosine kinases c-KIT, platelet-derived growth factor receptor (PDGFR) α and β, discoidin domain receptor 1 (DDR1), c-FMS, and ephrin receptors. Dasatinib inhibits cell duplication, migration, an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39570323",
+            "title": "Antineoplastic effect of doxorubizen in vitro in continuous and primary human anaplastic thyroid cancer cells.",
+            "authors": [
+              "Elia Giusy",
+              "Ferrari Silvia Martina",
+              "Tkachenko Iryna",
+              "Walunj Dipak",
+              "Balestri Eugenia"
+            ],
+            "journal": "Endocrine",
+            "year": "2025",
+            "abstract": "New drugs are needed for the therapy of anaplastic thyroid cancer (ATC). This study aims to investigate doxorubizen (a dual-action structural hybrid (chimera) of doxorubicin (Dox) and DNA methylating drug temozolomide), in comparison with Dox, and alone or in combination with lenvatinib in ATC 8305C cells, and in primary human ATC cell cultures (pATC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34283319",
+            "title": "Risk factors for dysgeusia during chemotherapy for solid tumors: a retrospective cross-sectional study.",
+            "authors": [
+              "Malta Cássia Emanuella Nóbrega",
+              "de Lima Martins Joyce Ohana",
+              "Carlos Anna Clara Aragão Matos",
+              "Freitas Milena Oliveira",
+              "Magalhães Iana Aragão"
+            ],
+            "journal": "Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer",
+            "year": "2022",
+            "abstract": "This study retrospectively analyzed the risk factors for transchemotherapy dysgeusia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8346929",
+            "title": "[Chemotherapy for the treatment of angiosarcoma].",
+            "authors": [
+              "Masuzawa M"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "1993",
+            "abstract": "A common type of angiosarcoma in the dermatological field is Wilson-Jones type angiosarcoma arising on the head and neck of elderly. It is called malignant hemangioendothelioma (MHE) and its prognosis is extremely poor, even though treated with the present state of the art: surgical excision, radiation, chemotherapy, and immunotherapy. Recently, chemotherapy has been done with CYVADIC (CPM, VCR, ADM, DTIC), and in some cases intraarterial fusion of ADM and 5-FU has been tried in combination ther",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12113649",
+            "title": "Current concepts in the management of patients with melanoma.",
+            "authors": [
+              "Lang Pearon G"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2002",
+            "abstract": "Melanoma is a significant health problem. Despite public education and free cancer screenings, the incidence and mortality of melanoma continues to rise; however, many currently diagnosed melanomas are thin lesions, suggesting that education and awareness is having an impact. In addition, there are still subsets of patients who need increased surveillance in order to increase their survival. Although large congenital nevi may be precursors of melanoma, small and medium congenital nevi have an in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20564093",
+            "title": "Hodgkin lymphoma involving extranodal and nodal head and neck sites: characteristics and outcomes.",
+            "authors": [
+              "Iyengar Puneeth",
+              "Mazloom Ali",
+              "Shihadeh Ferial",
+              "Berjawi Ghina",
+              "Dabaja Bouthaina"
+            ],
+            "journal": "Cancer",
+            "year": "2010",
+            "abstract": "Most Hodgkin lymphoma (HL) patients present with disease in nodal regions. However, in a small subset, disease develops in unique anatomic sites such as the head and neck area. This study aims to identify the characteristics and outcomes of patients who develop HL involving extranodal and nodal head and neck sites.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7826911",
+            "title": "Chemotherapy with dacarbazine and 5-fluorouracil in advanced medullary thyroid cancer.",
+            "authors": [
+              "Orlandi F",
+              "Caraci P",
+              "Berruti A",
+              "Puligheddu B",
+              "Pivano G"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "1994",
+            "abstract": "Experience with chemotherapeutic agents in the management of advanced medullary thyroid carcinoma (MTC) is limited and controversial. However, since MTC is a neuroendocrine neoplasm, we considered the possibility that cytotoxic drugs previously used in the treatment of these tumours could also have activity in MTC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24178790",
+            "title": "Denosumab for management of parathyroid carcinoma-mediated hypercalcemia.",
+            "authors": [
+              "Vellanki Priyathama",
+              "Lange Karoline",
+              "Elaraj Dina",
+              "Kopp Peter A",
+              "El Muayed Malek"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2014",
+            "abstract": "Most of the morbidity and mortality from parathyroid cancer is due to PTH-mediated hypercalcemia. Classically, management mainly consists of surgical resection, chemotherapy, and alleviation of hypercalcemia using bisphosphonates and calcium receptor agonists. The use of denosumab in the treatment of parathyroid cancer-mediated hypercalcemia has not been reported.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MTIC 所致 DNA 烷化理論上對上呼吸消化道腫瘤具廣效細胞毒性。現有唯一試驗（NCT00423150）測試的是 TMZ 而非 Dacarbazine，且因療效不足提前終止，提示此類腫瘤對 MTIC 類藥物敏感性有限。Dacarbazine 本身在此適應症無任何直接臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "small cell lung carcinoma",
+      "txgnn": {
+        "score": 0.988149642944336,
+        "rank": 11935
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00080938",
+            "title": "A Phase II Study of Temozolomide and Radiation Therapy in Patients With Brain Metastasis From Non-small Cell Lung Cancer (NSCLC)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2005-12-20",
+            "completion_date": "2009-02",
+            "brief_summary": "RATIONALE: Radiation therapy uses high-energy x-rays to damage tumor cells. Drugs such as temozolomide may make the tumor cells more sensitive to radiation therapy. Combining temozolomide with radiation therapy may kill more tumor cells.\n\nPURPOSE: This phase II trial is studying how well giving temozolomide together with whole-brain radiation therapy works in treating patients with brain metastasis secondary to non-small cell lung cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00076856",
+            "title": "A Randomized, Open-Label Phase 2 Study of Temozolomide Added to Whole Brain Radiation Therapy Versus Whole Brain Radiation Therapy Alone for the Treatment of Brain Metastasis From Non-Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 95,
+            "start_date": "2004-03-31",
+            "completion_date": "2006-03-31",
+            "brief_summary": "The purpose of this study is to demonstrate improvement in overall survival for the combination of whole brain radiation therapy (WBRT) plus temozolomide (TMZ) versus WBRT alone. Secondary objective is to demonstrate an improvement in the time to radiological CNS progression with the addition of TMZ to WBRT.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 RCT，TMZ + 全腦放療 vs 單純放療（NSCLC/SCLC 腦轉移），完成 95 人。涵蓋 SCLC 亞群腦轉移資料，但為 TMZ 非 DTIC，且 DTIC 之 BBB 穿透差令此資料更難轉化。"
+            }
+          },
+          {
+            "nct_id": "NCT00034697",
+            "title": "A Phase II Study of Temozolomide (SCH 52365) in Subjects With Brain Metastasis From Non-Small-Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 24,
+            "start_date": "2001-06-28",
+            "completion_date": "2003-01-30",
+            "brief_summary": "Brain metastases from solid tumors are diagnosed in more than 300,000 patients annually. Nonsmall cell lung cancer accounts for the majority of CNS mets. Treatment with whole brain radiation and steroids will improve neurologic symptoms in about 50% of patients although survival is short. This study will test the safety and efficacy of temozolomide in combination with radiation therapy in the treatment of patients with brain mets form nonsmall cell lung cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00266812",
+            "title": "Randomized Phase II Study: Temozolomide (TMZ) Concomitant to Radiotherapy Followed by Sequential TMZ in Advanced Non-Small Cell Lung Cancer (NSCLC) Patients With Central Nervous System (CNS) Metastasis Versus Radiotherapy Alone",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 35,
+            "start_date": "2005-03-08",
+            "completion_date": "2008-01-16",
+            "brief_summary": "This is a phase II, randomized, multicenter, open-label study designed to assess the safety and tolerability of concomitant chemotherapy with low-dose temozolomide during whole brain radiation and later on at 14 days on/14 days off schedule in patients with cerebral metastases from non-small cell lung cancer (NSCLC). The response to temozolomide will be evaluated by clinical follow up and Magnetic Resonance Imaging (MRI) performed every 2 months. Progression-free survival at 6 months, duration o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00423150",
+            "title": "A Phase 2 Study of Temozolomide (SCH 52365) in Subjects With Advanced Aerodigestive Tract Cancers Selected for Methylation of O6-Methyl-Guanine-DNA Methyltransferase (MGMT) Promoter",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 86,
+            "start_date": "2007-01-26",
+            "completion_date": "2009-06-11",
+            "brief_summary": "This study is proposed to evaluate the efficacy and safety of temozolomide, an oral anti-cancer agent, in a participant population selected for a biomarker. Participants with colorectal cancer, non-small-cell lung cancer, head and neck cancer, or esophageal cancer will be included.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04541407",
+            "title": "A Phase 1 Study of Temozolomide in Combination With Targeted Therapy for NSCLC Patients With CNS Progression on Either Osimertinib or Lorlatinib",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 1,
+            "start_date": "2020-10-29",
+            "completion_date": "2022-06-07",
+            "brief_summary": "This trial is testing two novel combinations (temozolomide plus osimertinib OR temozolomide plus lorlatinib) which have not been evaluated in clinical trials. Thus, the exact benefits of these novel combinations are unclear. However, based on the mechanism of action of temozolomide and CNS(Central Nervous System) penetration/activity in other tumor types, it is hypothesized that adding temozolomide to osimertinib or temozolomide to lorlatinib may provide improvement in CNS disease control in pat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02446704",
+            "title": "Phase I/II Study of Olaparib and Temozolomide in Patients With Recurrent Small Cell Lung Cancer Following Failure of Prior Chemotherapy",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 66,
+            "start_date": "2015-10-13",
+            "completion_date": "2023-12",
+            "brief_summary": "This research study is evaluating the combination of olaparib and temozolomide as a possible treatment for Small Cell Lung Cancer.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase I/II，Olaparib + Temozolomide 用於復發 SCLC，入組 66 人，最直接相關試驗。TMZ 為 DTIC 機轉類似物，PARP 抑制劑聯合策略利用 SCLC DNA 修復缺陷，機轉可延伸至 DTIC。"
+            }
+          },
+          {
+            "nct_id": "NCT00831545",
+            "title": "Multicenter Phase 2 Evaluation of Temozolomide for Treatment of Brain Metastases of Either Malignant Melanoma, Breast and Non-small Cell Lung Cancer.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 162,
+            "start_date": "2000-12-01",
+            "completion_date": "2006-10-20",
+            "brief_summary": "The study implies a 2 step study design. Patients are enrolled into 3 separate groups for melanoma, breast, and non-small cell lung cancer. In the first step, 21 patients per disease group are enrolled. If \\>=2 objective responses (SD, PR, or CR) out of 21 evaluable patients are observed, enrollment continues for other 45 patients as a whole, where response will be positively evaluated if \\>=10 patients will respond. If \\<2 objective responses out of 21 evaluable patients per disease group are o",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，TMZ 用於黑色素瘤或乳癌腦轉移（非 SCLC），入組 162 人，展示 TMZ 廣效性，與 SCLC 相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT00006877",
+            "title": "A Phase II Study Of Temozolomide In The Treatment Of Patients With Metastatic Non-Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2000-07",
+            "completion_date": "2003-09",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of temozolomide in treating patients who have metastatic non-small cell lung cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03732482",
+            "title": "A Phase II/III Study of Non Small Cell Lung Cancer Patient With/Without Synchronous Oral Temozolomide Capsules Combine With Intensity Modulated Radiation Therapy With Simultaneous Integrated Boost With Hippocampus Protection",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 400,
+            "start_date": "2019-03-01",
+            "completion_date": "2022-05-30",
+            "brief_summary": "With the improvement of systemic therapeutic effect(especially in the population with driver gene mutation), the incidence of brain metastases had significantly increased. Conventional Whole Brain radiotherapy(WBRT) was less effective, the stereotactic radiosurgery(SRS) technique had improve the local efficacy for 1-3 lesions, but the probability of intracranial recurrence was increased, Intensity Modulated Radiation Therapy With Simultaneous Integrated Boost(SIB-IMRT) is a new radiotherapy tech",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase II/III NSCLC，同步 TMZ vs 無 TMZ，目標 400 人，狀態 UNKNOWN。為 NSCLC 非 SCLC，間接參考。"
+            }
+          },
+          {
+            "nct_id": "NCT03150810",
+            "title": "A Phase 1b Study to Assess the Safety, Tolerability and Clinical Activity of BGB-290 in Combination With Temozolomide (TMZ) in Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 139,
+            "start_date": "2017-06-28",
+            "completion_date": "2023-05-04",
+            "brief_summary": "The primary objective of this study was to determine the safety and tolerability of pamiparib, the maximum tolerated dose (MTD) or maximum administered dose (MAD) for pamiparib combined with TMZ, to select the recommended Phase 2 dose (RP2D) and schedule of pamiparib in combination with TMZ, and to determine the antitumor activity of pamiparib in combination with TMZ.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03554473",
+            "title": "Safety Run-In and Phase II Trial of M7824 and Topotecan or Temozolomide in Relapsed Small Cell Cancers",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 37,
+            "start_date": "2018-09-11",
+            "completion_date": "2025-03-13",
+            "brief_summary": "BACKGROUND:\n\n* Small cell lung cancer (SCLC) is an aggressive cancer with a poor prognosis. Although highly responsive to chemotherapy initially, SCLC relapses quickly and becomes refractory to treatment within a few months.\n* The inability to destroy residual SCLC cells despite initial chemosensitivity suggests the existence of a highly effective deoxyribonucleic acid (DNA) damage response network. SCLC is also characterized by high DNA replication stress (retinoblastoma (RB1) inactivation, MYC",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03728361",
+            "title": "A Phase II, Multi-Cohort Trial of Combination Nivolumab and Temozolomide in Recurrent/Refractory Small-Cell Lung Cancer and Advanced Neuroendocrine Tumors",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 55,
+            "start_date": "2018-12-31",
+            "completion_date": "2026-10-31",
+            "brief_summary": "This phase II trial studies how well nivolumab and temozolomide work in treating patients with small-cell lung cancer that has come back or does not respond to treatment, or neuroendocrine cancer that has spread to other places in the body. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Drugs used in chemotherapy, such as temozolomide, work in different ways to",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04400188",
+            "title": "A Phase Ⅰb/Ⅱ Study of Fluzoparib (SHR-3162) and Temozolomide With or Without SHR-1316 in Treating Patients With Replapsed Small Cell Lung Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2020-06-11",
+            "completion_date": "2022-01-15",
+            "brief_summary": "This research study is a multicentre phase Ⅰb/Ⅱ Study to evaluate the efficacy and safety of the combination of Fluzoparib (SHR-3162) and temozolomide with or without SHR-1316 in small cell lung cancer",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00740636",
+            "title": "Phase II Study of Temozolomide for Relapsed Sensitive or Refractory Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 92,
+            "start_date": "2008-08",
+            "completion_date": "2013-02",
+            "brief_summary": "The purpose of this study is to determine whether treatment with temozolomide will shrink small cell lung cancer tumors. Temozolomide is an oral chemotherapy drug that is currently used to treat brain cancer and melanoma.\n\nAs part of this study, we will be doing additional tests that may help us understand how temozolomide works. First, if there is a tumor sample from a biopsy done in the past, it will be analyzed for an abnormal gene that may be present in lung cancer. Before starting temozolom",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03405792",
+            "title": "Phase 2, Single Arm, Historically Controlled Study Testing The Safety and Efficacy of Adjuvant Temozolomide Plus TTFields (Optune®) Plus Pembrolizumab in Patients With Newly Diagnosed Glioblastoma (2-THE-TOP)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 40,
+            "start_date": "2018-02-23",
+            "completion_date": "2027-12",
+            "brief_summary": "Glioblastoma multiforme (GBM) is the most common and deadliest primary malignant neoplasm of the central nervous system in adults. Despite an aggressive multimodality treatment approach including surgery, radiation therapy and chemotherapy, overall survival remains poor. Pembrolizumab has recently been approved in the United States for the treatment of patients with advanced and metastatic non-small cell lung cancer, recurrent or metastatic head and neck squamous cell carcinoma, locally advanced",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03830918",
+            "title": "An Open-Label Phase 1b Dose-Finding Trial Evaluating the Safety of Niraparib and Temozolomide and Atezolizumab in Participants With Advanced Solid Tumors and Expansion to a Phase 2 Trial Comparing the Effects of Niraparib and Temozolomide Plus Atezolizumab vs. Atezolizumab as Maintenance Therapy in Participants With Extensive-Stage Small Cell Lung Cancer With a Complete or Partial Response to Platinum-Based First-Line Chemotherapy (TRIO-US L-06)",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 59,
+            "start_date": "2019-03-06",
+            "completion_date": "2027-01-03",
+            "brief_summary": "This phase Ib/II trial studies the best dose of temozolomide and how well it works with niraparib and atezolizumab in treating patients with solid tumors that have spread to other places in the body (advanced) and extensive-stage small cell lung cancer with a complete or partial response to platinum-based first-line chemotherapy. Drugs used in chemotherapy, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02127268",
+            "title": "Thymosin-α1 for Cancer-Related Fatigue in Cancer Patients Who Undergo Chemotherapy: A Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 200,
+            "start_date": "2014-04",
+            "completion_date": "2020-12",
+            "brief_summary": "Cancer-related fatigue (CRF) is a distressing, persistent, subjective sense of physical, emotional, and/or cognitive tiredness or exhaustion related to cancer or cancer treatment that is not proportion to recent activity and interferes with usual functioning. Compared with general fatigue, CRF have the characteristics of long duration and generally cannot alleviate by rest or sleep, serious impact on the patient's work, study, entertainment and family life, and thus greatly affect the recovery, ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04434482",
+            "title": "A Phase Ib/II, Open-Label, Multi-Center, Dose Escalation and Expansion Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Anti-tumor Activity of IMP4297 in Combination With Temozolomide in Patients With Advanced Solid Tumors and Small Cell Lung Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2020-08-07",
+            "completion_date": "2024-04-29",
+            "brief_summary": "This is an open-label, multi-center, dose-escalation and dose-expansion phase I study to evaluate the safety, tolerability, PK characteristics and anti-tumor activity of PARP inhibitor IMP4297 and temozolomide combination therapy in patients with advanced solid tumors and with ES-SCLC who develops disease progression after 1L platinum-based regimen.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00005037",
+            "title": "Temozolomide in the Treatment of Advanced Non-Small Cell Lung Carcinoma: Phase II Evaluation in Previously Treated and Chemo-Naive Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 51,
+            "start_date": "2000-01",
+            "completion_date": "2008-04",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of temozolomide in treating patients who have stage IIIB, stage IV, or recurrent non-small cell lung cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00238251",
+            "title": "Whole Brain Radiotherapy in Combination With Gefitinib (Iressa) or Temozolomide (Temodal) for Brain Metastases From Non-Small Lung Cancer (NSCLC) A Randomized Phase II Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2005-05",
+            "completion_date": "2010-11",
+            "brief_summary": "RATIONALE: Radiation therapy uses high-energy x-rays to kill tumor cells. Gefitinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving radiation therapy together with either gefitinib or temozolomide may kill more tumor cells.\n\nPURPOSE: This randomized phase II trial is studying ho",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02772107",
+            "title": "Temozolomide as Maintenance Therapy Following Induction Chemotherapy in Extensive Stage Small Cell Lung Cancer",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 132,
+            "start_date": "2015-12",
+            "completion_date": "2018-01",
+            "brief_summary": "Temozolomide may delay progression in sequence with chemotherapy. This open-label, randomized,multicenter phase II trial was designed to evaluate the role of Temozolomide following 4 or 6 cycles of platinum-based first-line chemotherapy in patients with newly diagnosed estensive-stage SCLC.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06681220",
+            "title": "Biomarker Directed Trial of Temozolomide and Stenoparib in Relapsed SCLC",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 166,
+            "start_date": "2026-02-23",
+            "completion_date": "2030-12-31",
+            "brief_summary": "Randomized phase 2, multicenter, biomarker directed clinical trial with a safety lead-in to assess the efficacy of Stenoparib plus Temozolomide (TMZ) in relapsed Small Cell Lung Cancer patients. Participants will receive either a combination of oral Stenoparib at the highest tolerated dose with oral Temozolomide 40mg daily or standard of care Lurbinectedin for 21-day cycles. The Dose limiting toxicity period will be 1 cycle of 21 days. This study will explore if the biomarkers the investigators ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02477813",
+            "title": "Phase II Trial of Temozolomide in Patients Affected by Relapsed Sensitive or Refractory Small Cell Lung Cancer With MGMT Methylation (TeRes). GOPAV03",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2015-01",
+            "completion_date": "2018-06",
+            "brief_summary": "It is a single-arm, open label clinical trial. Patients affected by relapsed or refractory small-cell lung cancer patients with MGMT promoter methylation are included in this study; they will be treated with oral Temozolomide 200 mg/m2 die for 5 consecutive days every 28 days. Treatment will be continued until tumor progression, intolerable toxicity or patient refusal.\n\nA Minimax Simon 2-stage design will be used. - First stage: 9 patients If 1 or less responses will be observed, the trial will ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00632203",
+            "title": "A Randomized Phase 2 Study of Maintenance Temozolomide Versus Observation in Stable or Responding Stage III/IV Non-Small Cell Lung Cancer Patients",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 53,
+            "start_date": "2008-03-04",
+            "completion_date": "2011-01-07",
+            "brief_summary": "The main objective of this study is to investigate whether administration of maintenance temozolomide following standard treatment could possibly prevent or delay the onset of brain metastases in patients with controlled non-small cell lung cancer (NSCLC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01900951",
+            "title": "Phase 2 Study of Temozolomide as Maintenance Therapy After Initial Induction Chemotherapy in Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2013-01",
+            "completion_date": "2016-06",
+            "brief_summary": "Temozolomide, a nonclassic oral alkylating agent, may delay progression in sequence with chemotherapy. This phase II trial was designed to evaluate the role of Temozolomide following 4 or 6 cycles of first-line treatment in patients with newly diagnosed SCLC.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03672773",
+            "title": "A Phase 2 Study of Continuous Talazoparib Plus Intermittent Low-Dose Temozolomide in Patients With Relapsed or Refractory Extensive-Stage Small Cell Lung Cancer (TRIO-US L-07)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 35,
+            "start_date": "2018-10-31",
+            "completion_date": "2027-10-01",
+            "brief_summary": "This phase II trial studies how effective talazoparib and temozolomide are for treating participants with extensive-stage small cell lung cancer that has come back after an initial chemotherapy treatment. Talazoparib, a PARP inhibitor, may stop the growth of tumor cells by preventing them from repairing their DNA. Chemotherapy, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spre",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00022711",
+            "title": "A Phase II Study of Temozolomide (SCH 52365) in the Treatment of Patients With Relapsed Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 7,
+            "start_date": "2002-01",
+            "completion_date": "2004-01",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of temozolomide in treating patients who have relapsed or progressive small cell lung cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00003062",
+            "title": "A Phase II Study of TEMOZOLOMIDE in Advanced Non-Small Cell Lung Cancer With and Without Brain Metastases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "1997-07",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effect of temozolomide in patients with progressive or recurrent stage IV non-small cell lung cancer, with or without brain metastases, who have not been treated for metastatic disease with chemotherapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06931626",
+            "title": "Study of NMS-03305293, a Non-Trapping PARP1-Specific PARP Inhibitor in Relapsed Small Cell Lung Cancer",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 10,
+            "start_date": "2025-08-15",
+            "completion_date": "2027-02-28",
+            "brief_summary": "This is an open-label study of NMS-03305293 with Temozolomide (TMZ) in patients with Small Cell Lung Cancer (SCLC). The aim of this study is to determine the safety and tolerability, as well as to evaluate the anti-tumor efficacy and pharmacokinetics of NMS-03305293 in combination with TMZ.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00580320",
+            "title": "Phase I Trial of Dacarbazine and Bortezomib in Melanoma and Soft Tissue Sarcoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2004-09",
+            "completion_date": "2013-11",
+            "brief_summary": "Bortezomib will enhance the activity of dacarbazine against melanoma and soft tissue sarcoma. Weekly administration of the combination will prove to be feasible and tolerable at an appropriate dose.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07141771",
+            "title": "An Umbrella Study of Recurrent, Extensive Stage Small Cell Lung Cancer Based on Molecular Typing",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-12-31",
+            "completion_date": "2030-12-31",
+            "brief_summary": "Small-cell lung cancer (SCLC) has a high degree of malignancy and extremely poor prognosis, slow progress in the treatment of ES-SCLC, and a more ideal posterior therapy needs to be explored. This is an I / II, phase umbrella study to explore afterline treatment options following progression of frontline platinum-containing therapy for small cell lung cancer.\n\nThis study includes 2 parts:\n\nPart 1 will enroll patients with end of first-line platinum-containing therapy and progression interval of ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02972320",
+            "title": "Lobaplatin Combined With Etoposide for First-line Treatment in Extensive Stage Sclc Then Benefit Patients Follow up Temozolomide Maintain Therapeutic",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2016-06",
+            "completion_date": "2018-12",
+            "brief_summary": "This study evaluates temozolomide maintain therapeutic efficacy and safety in extensive stage SCLC who has clinical benefit from etoposide combined Los platinum (EL) scheme in the first line treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00096265",
+            "title": "A Phase III Trial Comparing Whole Brain Radiation and Stereotactic Radiosurgery Alone Versus With Temozolomide or Erlotinib in Patients With Non-Small Cell Lung Cancer and 1-3 Brain Metastases",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 126,
+            "start_date": "2004-10-06",
+            "completion_date": "2012-04-01",
+            "brief_summary": "This randomized phase III trial is studying whole-brain radiation therapy and stereotactic radiosurgery with or without temozolomide or erlotinib to see how well they work compared to whole-brain radiation therapy and stereotactic radiosurgery in treating patients with brain metastases secondary to non-small cell lung cancer. Radiation therapy uses high-energy x-rays to kill tumor cells. Stereotactic radiosurgery may be able to deliver x-rays directly to the tumor and cause less damage to normal",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00685750",
+            "title": "Analysis of the Expression of a Specific Set of Genes and Tumor Antigens in Patients With Non-small Cell Lung Cancer or Melanoma",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 88,
+            "start_date": "2008-04-28",
+            "completion_date": "2013-12-17",
+            "brief_summary": "This study intends to analyze the expression of specific sets of markers in tumor samples and in serum from patients with Non-Small Cell lung Cancer (NSCLC) or Stage III or IV melanoma. The data obtained in this study will be used to guide future development of immunotherapies for melanoma or NSCLC patients. Moreover, the analyses will contribute to definition of markers potentially predictive of clinical response to specific anticancer therapies.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00385398",
+            "title": "Phase II Quality of Life Study of Stereotactic RadioSurgery, Temozolomide and Erlotinib Chemotherapy for the Treatment of 1-3 Brain Metastases in Non-small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2008-07",
+            "completion_date": "2008-12",
+            "brief_summary": "RATIONALE: Treatment with radiosurgery, temozolomide, and erlotinib may affect brain function (the ability to think, learn, remember, and judge) in patients with non-small cell lung cancer and brain metastases. A study that evaluates brain function may help doctors plan the best treatment.\n\nPURPOSE: This phase II trial is studying the effect of radiosurgery, temozolomide, and erlotinib on brain function in patients with non-small cell lung cancer and brain metastases.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00249964",
+            "title": "Phase I Dose Finding Clinical Trial of Combination Paclitaxel, Carboplatin and Temozolomide for Subjects With Solid Tumor Malignancies.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2003-11",
+            "completion_date": "2011-03",
+            "brief_summary": "The purpose of this study is to determine the maximum tolerable dose of temozolomide in combination with fixed dose of paclitaxel and carboplatin and to determine the overall tumor response rate with this combination and to determine the duration of response.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01638546",
+            "title": "A Multi-Center, Randomized, Double-Blind Phase II Study Comparing ABT-888, a PARP Inhibitor, Versus Placebo With Temozolomide in Patients With Relapsed Sensitive or Refractory Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 97,
+            "start_date": "2012-07-27",
+            "completion_date": "2026-03-25",
+            "brief_summary": "This randomized phase II trial studies how well temozolomide with or without veliparib works in treating patients with small cell lung cancer that has returned or does not respond to treatment. Temozolomide works by damaging molecules inside the cancer cells, such as deoxyribonucleic acid (DNA), that are needed for cancer survival and growth. Veliparib may stop the growth of tumor cells by blocking proteins that are needed for repairing the damaged DNA and it may also help temozolomide to kill m",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00268684",
+            "title": "A Phase III Trial Comparing Whole Brain Radiation (WBRT) and Stereotactic Radiosurgery (SRS) Alone Versus With Temozolomide or Erlotinib in Patients With Non-Small Cell Lung Cancer and 1-3 Brain Metastases",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 381,
+            "start_date": "2005-05",
+            "completion_date": "",
+            "brief_summary": "The objectives of the study is to determine if either temozolomide or erlotinib combined with WBRT and SRS improves survival as compared to WBRT and SRS alone.Ptients with histologically confirmed NSCLC with the presence of 1-3 intraparenchymal brain metastases will be randomized to 3 arms. All of the patients will receive WBRT and SRS. The patients of the arm 1 will receive radiation treatment only, the arm 2 patients will be treated with temozolomide and arm 3 patients will receive erlotinib",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02605811",
+            "title": "Radiation Versus Temozolomide in Preventing Brain Metastases in Limited Stage Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 426,
+            "start_date": "2015-09",
+            "completion_date": "2021-12",
+            "brief_summary": "To investigate the response of temozolomide versus prophylactic cranial radiotherapy in preventing brain metastases in completed or partial remission limited small cell lung cancer patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05728619",
+            "title": "A Phase 1b/2, Dose-finding and Expansion Study to Assess the Safety, Tolerability, Pharmacokinetics and Preliminary Efficacy of HTMC0435 With Temozolomide in Patients With Small Cell Lung Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 64,
+            "start_date": "2023-02-03",
+            "completion_date": "2024-10",
+            "brief_summary": "The Phase 1b part of this clinical trial is to investigate the safety and pharmacokinetic (PK) characteristics of HTMC0435 tablets combined with temozolomide in patients with various advanced solid tumors (recurrent small cell lung cancer is preferred). The Phase 2 part of the study is a multi-center, open-label, single-arm trial to investigate the preliminary efficacy of HTMC0435 and temozolomide in patients with recurrent small cell lung cancer (SCLC) at the recommended phase 2 dose.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04919382",
+            "title": "A Randomized, Multi-Cohort Phase II Trial of Temozolomide and Atezolizumab for Subsequent Line Treatment for Small Cell Lung Cancer",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 56,
+            "start_date": "2022-01-26",
+            "completion_date": "2026-12-31",
+            "brief_summary": "This phase II trial studies the effects of temozolomide and atezolizumab as second or third line treatment for patients with small cell lung cancer that has spread to other places in the body (metastatic) or has come back (recurrent). Chemotherapy drugs, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Immunotherapy with monoclonal antibodies, such as atezolizumab, may ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37216840",
+            "title": "Systemic treatment for neuroendocrine non-small cell lung carcinoma: A cases series and a systematic review of the literature.",
+            "authors": [
+              "Jelli Blandine",
+              "Brandão Mariana",
+              "Mekinda Zita",
+              "Durieux Valérie",
+              "Berghmans Thierry"
+            ],
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2023",
+            "abstract": "Neuroendocrine lung cancer constitutes a continuum from carcinoid tumours (CT) to large cell neuroendocrine (LCNEC) and small-cell carcinomas (SCLC). Except for SCLC, there is no consensual agreement on systemic therapy. The aim of this study is to review our clinical experience among patients with CT and LCNEC in the light of a systematic review of the literature.",
+            "classification": {
+              "study_type": "Case Series + Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31416802",
+            "title": "Combination Olaparib and Temozolomide in Relapsed Small-Cell Lung Cancer.",
+            "authors": [
+              "Farago Anna F",
+              "Yeap Beow Y",
+              "Stanzione Marcello",
+              "Hung Yin P",
+              "Heist Rebecca S"
+            ],
+            "journal": "Cancer discovery",
+            "year": "2019",
+            "abstract": "Small-cell lung cancer (SCLC) is an aggressive malignancy in which inhibitors of PARP have modest single-agent activity. We performed a phase I/II trial of combination olaparib tablets and temozolomide (OT) in patients with previously treated SCLC. We established a recommended phase II dose of olaparib 200 mg orally twice daily with temozolomide 75 mg/m2 daily, both on days 1 to 7 of a 21-day cycle, and expanded to a total of 50 patients. The confirmed overall response rate was 41.7% (20/48 eval",
+            "classification": {
+              "study_type": "Phase II RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26819277",
+            "title": "Current status of immunotherapy.",
+            "authors": [
+              "Suzuki Susumu",
+              "Ishida Takashi",
+              "Yoshikawa Kazuhiro",
+              "Ueda Ryuzo"
+            ],
+            "journal": "Japanese journal of clinical oncology",
+            "year": "2016",
+            "abstract": "The successful use of immune checkpoint inhibitors has been big breakthrough in the development of cancer immunotherapy. Anti-CTLA-4 monoclonal antibody, ipilimumab, is the first-approved immune checkpoint inhibitor and has shown durable objective responses for advanced melanoma beyond the effect of dacarbazine. Anti-PD-1 monoclonal antibodies, nivolumab and pembrolizumab, are other immune checkpoint inhibitors that have demonstrated more effective results than conventional drugs in clinical tri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38970838",
+            "title": "Challenges and future perspectives for the use of temozolomide in the treatment of SCLC.",
+            "authors": [
+              "Andrini Elisa",
+              "Ricco Gianluca",
+              "Zappi Arianna",
+              "Aloi Serena",
+              "Giordano Mirela"
+            ],
+            "journal": "Cancer treatment reviews",
+            "year": "2024",
+            "abstract": "Small-cell lung cancer (SCLC), accounting for 10-20 % of all lung tumors, represents the most aggressive high-grade neuroendocrine carcinoma. Most patients are diagnosed with extensive-stage SCLC (ES-SCLC), with brian metastases identified in ∼ 80 % of cases during the disease cours, and the prognosis is dismal, with a 5-year survival rate of less than 5 %. Current available treatments in the second-line setting are limited, and topotecan has long been the only FDA-approved drug in relapsed or r",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34704360",
+            "title": "Response and safety of whole-brain radiotherapy plus temozolomide for patients with brain metastases of non-small-cell lung cancer: A meta-analysis.",
+            "authors": [
+              "Han Jianguo",
+              "Qiu Ming",
+              "Su Li",
+              "Wu Chong",
+              "Cheng Si"
+            ],
+            "journal": "Thoracic cancer",
+            "year": "2021",
+            "abstract": "The aim of the present work was to investigate the response and safety of whole-brain radiotherapy (WBRT) plus temozolomide (TMZ) for patients with brain metastases of non-small-cell lung cancer (NSCLC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30100047",
+            "title": "[Medical treatment of small cell lung cancer: Can we leave the area of cisplatin-etoposide?].",
+            "authors": [
+              "Pujol Jean-Louis",
+              "Roch Benoît",
+              "Pujol Camille N",
+              "Goze Catherine"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2018",
+            "abstract": "Small cell lung cancer accounts for 14% of all lung cancers. It remains a major challenge for oncology as the progresses made in the past three decades are modest. After a rapid overview of current knowledge regarding somatic genomic alterations, this state-of-art addresses pathways to improve small-cell lung cancer outcome such as the targeting of DNA damage repair mechanisms firstly anti-PARPs, inhibitory molecules of EZH2, derepression of the NOTCH pathway, rovalbituzumab-tesirine, inhibition",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6268269",
+            "title": "Thoracic and elective brain irradiation with concomitant or delayed multiagent chemotherapy in the treatment of localized small cell carcinoma of the lung: a randomized prospective study by the Southeastern Cancer Study Group.",
+            "authors": [
+              "Perez C A",
+              "Krauss S",
+              "Bartolucci A A",
+              "Durant J R",
+              "Lowenbraun S"
+            ],
+            "journal": "Cancer",
+            "year": "1981",
+            "abstract": "A prospective randomized study was carried out to compare the effectiveness of concomitant or delayed multiagent chemotherapy combined with irradiation to the primary tumor and regional lymph nodes and to the brain in a group of 70 patients with histologically proven small cell undifferentiated carcinoma of the lung. Complete and partial response in both groups was comparable, and the overall survival was comparable. However, relapse-free survival was significantly higher in patients receiving c",
+            "classification": {
+              "study_type": "Historical RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28726172",
+            "title": "Combined treatment for non-small cell lung cancer and breast cancer patients with brain metastases with whole brain radiotherapy and temozolomide: a systematic review and meta-analysis.",
+            "authors": [
+              "Tian Jingru",
+              "Luo Yien",
+              "Xiang Juanjuan",
+              "Tang Jingqun"
+            ],
+            "journal": "Journal of neuro-oncology",
+            "year": "2017",
+            "abstract": "Brain metastasis is the leading cause of death among advanced non-small cell lung cancer (NSCLC) and breast cancer patients. The standard treatment for brain metastases is radiotherapy. The combination of radiotherapy and chemotherapy has been tested. However, the management of brain metastases has yet to be successful. Here, we aimed to determine the efficacy and safety of whole brain radiotherapy (WBRT) alone or in combination with temozolomide (TMZ) in NSCLC and breast cancer patients with br",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24355457",
+            "title": "Immune modulations during chemoimmunotherapy & novel vaccine strategies--in metastatic melanoma and non small-cell lung cancer.",
+            "authors": [
+              "Iversen Trine Zeeberg"
+            ],
+            "journal": "Danish medical journal",
+            "year": "2013",
+            "abstract": "This thesis describes the treatment of metastatic melanoma (MM) and non small-cell lung cancer (NSCLC) from an immunotherapeutic approach. The purpose of the first part of the thesis was to assess how treatment with Temozolomide (TMZ) chemotherapy affects the immune system in patients with metastatic MM. Our results showed that the number of T lymphocytes was significantly reduced after 3 treatment cycles. Furthermore, the induced lymphopenia was positive correlated to achievement of clinical be",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35559669",
+            "title": "Translesion DNA synthesis mediates acquired resistance to olaparib plus temozolomide in small cell lung cancer.",
+            "authors": [
+              "Stanzione Marcello",
+              "Zhong Jun",
+              "Wong Edmond",
+              "LaSalle Thomas J",
+              "Wise Jillian F"
+            ],
+            "journal": "Science advances",
+            "year": "2022",
+            "abstract": "In small cell lung cancer (SCLC), acquired resistance to DNA-damaging therapy is challenging to study because rebiopsy is rarely performed. We used patient-derived xenograft models, established before therapy and after progression, to dissect acquired resistance to olaparib plus temozolomide (OT), a promising experimental therapy for relapsed SCLC. These pairs of serial models reveal alterations in both cell cycle kinetics and DNA replication and demonstrate both inter- and intratumoral heteroge",
+            "classification": {
+              "study_type": "Translational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27440269",
+            "title": "PARP Inhibitor Activity Correlates with SLFN11 Expression and Demonstrates Synergy with Temozolomide in Small Cell Lung Cancer.",
+            "authors": [
+              "Lok Benjamin H",
+              "Gardner Eric E",
+              "Schneeberger Valentina E",
+              "Ni Andy",
+              "Desmeules Patrice"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2017",
+            "abstract": "PARP inhibitors (PARPi) are a novel class of small molecule therapeutics for small cell lung cancer (SCLC). Identification of predictors of response would advance our understanding, and guide clinical application, of this therapeutic strategy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25798726",
+            "title": "Nivolumab: targeting PD-1 to bolster antitumor immunity.",
+            "authors": [
+              "Brahmer Julie R",
+              "Hammers Hans",
+              "Lipson Evan J"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2015",
+            "abstract": "Nivolumab, a fully human IgG4 PD-1 immune checkpoint inhibitor antibody, blocks PD-1 and can restore anticancer immune responses by abrogating PD-1 pathway-mediated T-cell inhibition. Nivolumab is approved in Japan and the USA for the treatment of patients with advanced melanoma. A Phase I trial reported overall objective response rates of 17, 32 and 29% in patients with advanced non-small-cell lung cancer, melanoma and renal cell carcinoma, respectively, which included many heavily pretreated p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28068937",
+            "title": "The efficacy and roles of combining temozolomide with whole brain radiotherapy in protection neurocognitive function and improvement quality of life of non-small-cell lung cancer patients with brain metastases.",
+            "authors": [
+              "Deng Xia",
+              "Zheng Zhen",
+              "Lin Baochai",
+              "Su Huafang",
+              "Chen Hanbin"
+            ],
+            "journal": "BMC cancer",
+            "year": "2017",
+            "abstract": "Brain metastasis (BM) is a poor prognostic factor for non-small-cell lung cancer (NSCLC). The efficacy and roles of combining temozolomide (TMZ) with whole brain radiotherapy (WBRT) in protection neurocognitive function (NCF) and improvement quality of life (QOL) were investigated and compared with WBRT alone in the treatment of NSCLC patients with BM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40279759",
+            "title": "Outcome of temozolomide in relapsed small cell lung cancer: A retrospective single center analysis.",
+            "authors": [
+              "Dhaeyer Sofie",
+              "Missault Elise",
+              "Surmont Veerle",
+              "Vermaelen Karim",
+              "Stevens Dieter"
+            ],
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2025",
+            "abstract": "Extensive-stage small cell lung cancer (SCLC) has a dismal prognosis. Despite initial responsiveness to first-line platinum-etoposide chemotherapy, most patients relapse within six months. Managing disease progression, particularly in platinum-resistant or refractory cases, remains challenging. Topotecan is the only drug approved in the European Union for the second-line treatment of SCLC but is associated with modest clinical activity and high rates of hematological toxicities. Temozolomide, an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32000358",
+            "title": "Temozolomide plus whole brain radiotherapy for the treatment of non-small-cell lung cancer patients with brain metastases: A protocol of an updated systematic review and meta-analysis.",
+            "authors": [
+              "Duan Hua",
+              "Zheng Shu-Yue",
+              "Zhou Tian",
+              "Cui Hui-Juan",
+              "Hu Kai-Wen"
+            ],
+            "journal": "Medicine",
+            "year": "2020",
+            "abstract": "Whole brain radiotherapy (WBRT) has been the mainstay treatment of brain metastases (BM) in non-small cell lung cancer (NSCLC) patients for years. Temozolomide (TMZ) could penetrate the blood-brain barrier and some studies showed that TMZ plus MBRT may improve clinical effectiveness. This meta-analysis is aim to evaluate the clinical effectiveness and safety of TMZ plus MBRT in the NSCLC patients with BM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30326943",
+            "title": "Temozolomide-Perillyl alcohol conjugate impairs Mitophagy flux by inducing lysosomal dysfunction in non-small cell lung Cancer cells and sensitizes them to irradiation.",
+            "authors": [
+              "Chang Minghui",
+              "Song Xingguo",
+              "Geng Xinran",
+              "Wang Xingwu",
+              "Wang Weijun"
+            ],
+            "journal": "Journal of experimental & clinical cancer research : CR",
+            "year": "2018",
+            "abstract": "Temozolomide-perillyl alcohol conjugate (TMZ-POH), a novel Temozolomide (TMZ) analog developed based on the conjugation of TMZ and perillyl alcohol (POH), displayed strong anticancer potency in multiple cancer types. In this study, we aimed to clarify the relationship between TMZ-POH and autophagy, and explore the underlying mechanisms involved in.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29947170",
+            "title": "Effectiveness of temozolomide combined with whole brain radiotherapy for non-small cell lung cancer brain metastases.",
+            "authors": [
+              "Zhu Ying",
+              "Fu Lei",
+              "Jing Wang",
+              "Guo Dong",
+              "Kong Li"
+            ],
+            "journal": "Thoracic cancer",
+            "year": "2018",
+            "abstract": "We performed a retrospective analysis to compare the efficacy of whole brain radiotherapy (WBRT) combined with temozolomide (TMZ) versus WBRT alone as first-line treatment for brain metastases (BM).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33234490",
+            "title": "Deep and Durable Response to Nivolumab and Temozolomide in Small-Cell Lung Cancer Associated With an Early Decrease in Myeloid-Derived Suppressor Cells.",
+            "authors": [
+              "Owen Dwight H",
+              "Benner Brooke",
+              "Pilcher Carly",
+              "Good Logan",
+              "Savardekar Himanshu"
+            ],
+            "journal": "Clinical lung cancer",
+            "year": "2021",
+            "abstract": "Immune checkpoint inhibitors are now an approved treatment for patients with extensive-stage small cell lung cancer (SCLC), an aggressive and incurable malignancy. However, the median survival for patients remains around 1 year, and treatment in the second line and beyond is associated with a low likelihood of response. There currently are no data regarding the optimal treatment of patients who progress on upfront chemo-immunotherapy, and biomarkers are needed to aid patient selection. Obtaining",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26152836",
+            "title": "Frequency of O⁶-methylguanine-DNA methyltransferase promoter methylation in cytological samples from small cell lung cancer.",
+            "authors": [
+              "Miglio Umberto",
+              "Mezzapelle Rosanna",
+              "Paganotti Alessia",
+              "Veggiani Claudia",
+              "Mercalli Francesca"
+            ],
+            "journal": "Diagnostic cytopathology",
+            "year": "2015",
+            "abstract": "In a phase II study for patients with relapsed small cell lung cancer (SCLC), the administration of Temozolomide, an alkylating agent used in gliomas and anaplastic astrocytoma, showed a effective activity when O(6) -methylguanine-DNA methyltransferase (MGMT) gene promoter was methylated.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28739776",
+            "title": "Phase II Study of the Efficacy and Safety of High-dose Pemetrexed in Combination with Cisplatin Versus Temozolomide for the Treatment of Non-small Cell Lung Cancer with Brain Metastases.",
+            "authors": [
+              "He Qiaowei",
+              "Bi Xizhuang",
+              "Ren Chao",
+              "Wang Yong",
+              "Zou Peng"
+            ],
+            "journal": "Anticancer research",
+            "year": "2017",
+            "abstract": "The aim of this study was to explore the efficacy and safety of high-dose pemetrexed with cisplatin versus combination with temozolomide in patients with brain metastases (BM) of lung adenocarcinoma. After standard whole-brain radiotherapy (WBRT, 30 Gy/10 fractions), patients with BM of non-small cell lung cancer (NSCLC) were given high-dose pemetrexed (900 mg/m2) on day 1 of each cycle (3 weeks), and cisplatin was administered on days 1-3 in the cisplatin-treated group. The temozolomide-treated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SCLC 為高增殖率神經內分泌腫瘤，MGMT 啟動子甲基化發生率高達 60-70%，理論上對 MTIC 類 DNA 烷化劑敏感。Dacarbazine 在早期多藥化療方案中有歷史使用紀錄（1981 PMID:6268269）。TMZ 作為機轉類似物已有 Phase I/II 試驗，包含與 Olaparib（PARP 抑制劑）聯合方案，利用 SCLC 的 DNA 修復缺陷特性。然 SCLC 腦轉移率高（~40-60%），Dacarbazine 的 BBB 穿透限制在此成重要臨床問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "primary pulmonary lymphoma",
+      "txgnn": {
+        "score": 0.986388862133026,
+        "rank": 13299
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04541407",
+            "title": "A Phase 1 Study of Temozolomide in Combination With Targeted Therapy for NSCLC Patients With CNS Progression on Either Osimertinib or Lorlatinib",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 1,
+            "start_date": "2020-10-29",
+            "completion_date": "2022-06-07",
+            "brief_summary": "This trial is testing two novel combinations (temozolomide plus osimertinib OR temozolomide plus lorlatinib) which have not been evaluated in clinical trials. Thus, the exact benefits of these novel combinations are unclear. However, based on the mechanism of action of temozolomide and CNS(Central Nervous System) penetration/activity in other tumor types, it is hypothesized that adding temozolomide to osimertinib or temozolomide to lorlatinib may provide improvement in CNS disease control in pat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06104878",
+            "title": "Effectiveness of A+AVD vs ABVD Regimens in Advanced Classical Hodgkin's Lymphoma Patients: A Retrospective, Multicentre, Medical Chart Review Study",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2023-12-31",
+            "completion_date": "2024-10-31",
+            "brief_summary": "The main aim of this study conducted in Brazil is to understand if there is a difference in the length of time that Classical Hodgkin's Lymphoma (cHL) does not grow or spread further (also called progression free survival or PFS), and in the length of time that participants live with cHL if they are treated with Brentuximab Vedotin in combination with chemotherapy (A+AVD) or chemotherapy alone (ABVD).\n\nA+AVD includes Brentuximab Vedotin + Doxorubicin + Vinblastine + Dacarbazine; ABVD includes Do",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "A+AVD vs ABVD 比較設計（ABVD 含 Dacarbazine），但 WITHDRAWN，入組 0 人，無實際資料。"
+            }
+          },
+          {
+            "nct_id": "NCT03159897",
+            "title": "A Randomized, Open-label, Multicenter, Phase III, 2-arm Study Comparing Efficacy and Tolerability of the Intensified Variant 'Dose-dense/Dose-intense ABVD' (ABVD DD-DI) With an Interim PET Response-adapted ABVD Program as Upfront Therapy in Advanced-stage Classical Hodgkin Lymphoma (HL).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 500,
+            "start_date": "2017-08-01",
+            "completion_date": "2024-11-03",
+            "brief_summary": "The FIL-Rouge is a randomized, open-label, multicenter, phase III, 2-arm study. The primary objective is to compare efficacy and tolerability of the intensified variant 'dose-dense/dose-intense ABVD' (ABVD DD-DI) with an interim PET response-adapted ABVD program as upfront therapy in advanced-stage classical Hodgkin Lymphoma (HL).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，比較 HL 治療方案（含 ABVD/Dacarbazine），完成入組 500 人。Dacarbazine 作為 ABVD 骨幹之最高等級直接試驗證據。"
+            }
+          },
+          {
+            "nct_id": "NCT02247869",
+            "title": "Dose-dense ABVD as First Line Therapy in Early Stage Unfavorable Hodgkin's Lymphoma: a Phase II, Prospective, Multi-center Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2012-02",
+            "completion_date": "2017-04-29",
+            "brief_summary": "Prospective, multicenter, Phase II trial designed to assess whether intensification of ABVD (dd-ABVD) is feasible and can improve the outcome of patients with early stage Hodgkin Lymphoma.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2，早期不良預後 HL 密集 ABVD 一線治療，完成 100 人。ABVD 含 Dacarbazine，直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT05675410",
+            "title": "A Randomized Phase 3 Interim Response Adapted Trial Comparing Standard Therapy With Immuno-oncology Therapy for Children and Adults With Newly Diagnosed Stage I and II Classic Hodgkin Lymphoma",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 1875,
+            "start_date": "2023-05-11",
+            "completion_date": "2031-04-28",
+            "brief_summary": "This phase III trial compares the effect of adding immunotherapy (brentuximab vedotin and nivolumab) to standard treatment (chemotherapy with or without radiation) to the standard treatment alone in improving survival in patients with stage I and II classical Hodgkin lymphoma. Brentuximab vedotin is in a class of medications called antibody-drug conjugates. It is made of a monoclonal antibody called brentuximab that is linked to a cytotoxic agent called vedotin. Brentuximab attaches to CD30 posi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 HL 適應性試驗，招募中（目標 1875 人），含免疫腫瘤學方案比較，可能包含 ABVD 對照組。"
+            }
+          },
+          {
+            "nct_id": "NCT03405792",
+            "title": "Phase 2, Single Arm, Historically Controlled Study Testing The Safety and Efficacy of Adjuvant Temozolomide Plus TTFields (Optune®) Plus Pembrolizumab in Patients With Newly Diagnosed Glioblastoma (2-THE-TOP)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 40,
+            "start_date": "2018-02-23",
+            "completion_date": "2027-12",
+            "brief_summary": "Glioblastoma multiforme (GBM) is the most common and deadliest primary malignant neoplasm of the central nervous system in adults. Despite an aggressive multimodality treatment approach including surgery, radiation therapy and chemotherapy, overall survival remains poor. Pembrolizumab has recently been approved in the United States for the treatment of patients with advanced and metastatic non-small cell lung cancer, recurrent or metastatic head and neck squamous cell carcinoma, locally advanced",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03226249",
+            "title": "Phase II Study of PET-Directed Frontline Therapy With Pembrolizumab and AVD for Patients With Classical Hodgkin Lymphoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2017-11-09",
+            "completion_date": "2024-10",
+            "brief_summary": "The purpose of this research study is to evaluate a new drug pembrolizumab in combination with chemotherapy, for the treatment of newly diagnosed Hodgkin lymphoma. The chemotherapy regimen is called AVD and includes three drugs: adriamycin, vinblastin, dacarbazine. Pembrolizumab is currently FDA approved for the treatment of some patients with melanoma, lung cancer and head and neck cancer, but has not yet been approved for the treatment of Hodgkins Lymphoma. The AVD regimen of chemotherapy is c",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase II，PET 引導 Pembrolizumab + AVD（不含 Dacarbazine），cHL 一線，展示新型無 DTIC 方案趨勢。"
+            }
+          },
+          {
+            "nct_id": "NCT06831370",
+            "title": "A Multicenter, Single-arm, Open-label, Phase 4 Study to Evaluate the Safety and Efficacy of Brentuximab Vedotin Plus Doxorubicin, Vinblastine and Dacarbazine in Indian Patients With Untreated Stage 3/4 Classical Hodgkin Lymphoma",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 124,
+            "start_date": "2024-08-28",
+            "completion_date": "2028-03-31",
+            "brief_summary": "The main aim of this study is to check how safe brentuximab vedotin is in adults with untreated Hodgkin Lymphoma (HL) when given together with doxorubicin (Adriamycin), vinblastine and dacarbazine therapy ('AVD'). Another aim is to learn how well treatment of brentuximab vedotin plus AVD works.\n\nAll participants will receive brentuximab vedotin plus AVD for approximately 6 months. Participants will undergo tests like Echocardiography (ECHO) and pulmonary function testing (PFT) during the study. ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02181738",
+            "title": "Non-Comparative, Multi-Cohort, Single Arm, Open-Label, Phase 2 Study of Nivolumab (BMS-936558) in Classical Hodgkin Lymphoma (cHL) Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 294,
+            "start_date": "2014-08-12",
+            "completion_date": "2022-12-27",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Nivolumab in previously treated (cohorts, A, B \\& C) or newly diagnosed (cohort D) classical Hodgkin Lymphoma participants.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01652261",
+            "title": "Very Early FDG-PET/CT-response Adapted Therapy for Advanced Stage Hodgkin Lymphoma, a Randomized Phase III Non-inferiority Study of the EORTC Lymphoma Group",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-05",
+            "completion_date": "2014-10",
+            "brief_summary": "The main objective of the trial is to show that doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD)-based response-adapted therapy for advanced-stage Hodgkin lymphoma, with treatment intensification (bleomycin, etoposide, adriamycin, cyclophosphamide, vincristine, procarbazine, and prednisone (BEACOPPesc) in case of a positive fluorodeoxyglucose (FDG) positron emission tomography (PET) computed tomography (CT) after one cycle of ABVD, has non-inferior efficacy compared with the intensive",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02505269",
+            "title": "Brentuximab Vedotin Plus AD in Non-bulky Limited Stage Hodgkin Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2015-08-07",
+            "completion_date": "2019-06",
+            "brief_summary": "Limited stage Hodgkin lymphoma is a highly curable disease, but standard treatment with ABVD chemotherapy and radiation can lead to late risks of secondary cancers, lung injury, heart injury, and others. This trial eliminates radiation therapy and reduces intensity of chemotherapy by incorporating the highly active FDA-approved targeted therapy brentuximab vedotin, an antibody-drug conjugate specifically against the lymphoma cells, combined with the standard chemotherapy drugs Adriamycin and Dac",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05481437",
+            "title": "Specified Drug Use Surveillance for ADCETRIS Intravenous Infusion 50 mg -Untreated CD30 Positive Hodgkin Lymphoma (Pediatric)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 8,
+            "start_date": "2022-08-01",
+            "completion_date": "2027-07-31",
+            "brief_summary": "This study is a survey in Japan of Brentuximab Vedotin used to treat children or teenagers with Hodgkin lymphoma (HL). The study sponsor will not be involved in how the participants are treated but will provide instructions on how the clinics will record what happens during the study.\n\nThe main aim of the study is to check for side effects related from Brentuximab Vedotin especially myelosupression, peripheral neuropathy, and lung disorder.\n\nDuring the study, pediatric participants with HL will ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29224502",
+            "title": "Brentuximab Vedotin with Chemotherapy for Stage III or IV Hodgkin's Lymphoma.",
+            "authors": [
+              "Connors Joseph M",
+              "Jurczak Wojciech",
+              "Straus David J",
+              "Ansell Stephen M",
+              "Kim Won S"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2018",
+            "abstract": "Brentuximab vedotin is an anti-CD30 antibody-drug conjugate that has been approved for relapsed and refractory Hodgkin's lymphoma.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39188484",
+            "title": "Primary Hodgkin Lymphoma of the Breast: A Case Report and Literature Review Examining the Use of Different Chemotherapy Regimens.",
+            "authors": [
+              "Arrey Agbor Divine Besong",
+              "Zafar Wahib",
+              "Agyemang Emmanuel A",
+              "Nzeako Tochukwu",
+              "Ugwendum Derek"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Primary classic Hodgkin lymphoma (HL) of the breast is a rare type of breast disease. The diagnosis is mostly confirmed by an excisional biopsy. The first line of treatment commonly used for Hodgkin lymphoma is doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD). Our case report is about a 48-year-old lady who was diagnosed with bilateral breast Hodgkin lymphoma following an excisional biopsy and was treated with brentuximab vedotin plus doxorubicin, vinblastine, and dacarbazine (BV-AVD)",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17085663",
+            "title": "Long-term events in adult patients with clinical stage IA-IIA nonbulky Hodgkin's lymphoma treated with four cycles of doxorubicin, bleomycin, vinblastine, and dacarbazine and adjuvant radiotherapy: a single-institution 15-year follow-up.",
+            "authors": [
+              "Brusamolino Ercole",
+              "Baio Ambrogia",
+              "Orlandi Ester",
+              "Arcaini Luca",
+              "Passamonti Francesco"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2006",
+            "abstract": "To report on long-term events after short doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD) chemotherapy and adjuvant radiotherapy in favorable early-stage Hodgkin's lymphoma.",
+            "classification": {
+              "study_type": "Long-term Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9920825",
+            "title": "Problems in Hodgkin's disease management.",
+            "authors": [
+              "Aisenberg A C"
+            ],
+            "journal": "Blood",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "Expert Opinion/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36585562",
+            "title": "Predicted cardiac and second cancer risks for patients undergoing VMAT for mediastinal Hodgkin lymphoma.",
+            "authors": [
+              "Houlihan Orla A",
+              "Ntentas Georgios",
+              "Cutter David J",
+              "Daly Patricia",
+              "Gillham Charles"
+            ],
+            "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+            "year": "2023",
+            "abstract": "To predict treatment-related cardiovascular disease (CVD) and second cancer 30-year absolute mortality risks (AMR30) for patients with mediastinal Hodgkin lymphoma in a large multicentre radiation oncology network in Ireland.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26530956",
+            "title": "Lung cancer and other second neoplasms after treatment of Hodgkin lymphoma.",
+            "authors": [
+              "Almagro-Casado E",
+              "Sánchez A",
+              "Cantos B",
+              "Salas C",
+              "Pérez-Callejo D"
+            ],
+            "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+            "year": "2016",
+            "abstract": "To evaluate the risk factors associated with lung cancer (LC) and other second neoplasms (SN) in Hodgkin lymphoma (HL) survivors.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12052167",
+            "title": "Pharmacological strategies to increase the antitumor activity of methylating agents.",
+            "authors": [
+              "Tentori Lucio",
+              "Graziani Grazia"
+            ],
+            "journal": "Current medicinal chemistry",
+            "year": "2002",
+            "abstract": "Among methylating agents of clinical interest, temozolomide is a novel antitumor compound that has raised particular interest due to its acceptable safety profile and activity against tumors poorly responsive to conventional chemotherapy, such as malignant glioma and metastatic melanoma. Moreover, the drug has recently shown promising antitumor activity in a patient affected by primary brain lymphoma and is currently under phase II clinical trials for leptomeningeal metastases from leukemia and ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38962576",
+            "title": "Stage-adapted treatment of HIV-associated Hodgkin lymphoma: Long-term results of a prospective, multicenter study.",
+            "authors": [
+              "Hentrich Marcus",
+              "Müller Markus",
+              "Wyen Christoph",
+              "Pferschy Anna",
+              "Jurinovic Vindi"
+            ],
+            "journal": "HemaSphere",
+            "year": "2024",
+            "abstract": "Results of a prospective study of stage-adapted treatment of human immunodeficiency virus (HIV)-associated Hodgkin lymphoma (HIV-HL) showed a 2-year overall survival (OS) of 90.7% with no significant difference between early favorable (EF), early unfavorable (EU), and advanced HL. Patients with EF HIV-HL received two to four cycles of doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD) + 30 Gy involved field (IF) radiation, those with EU HIV-HL received four cycles of ABVD or BEACOPP (bl",
+            "classification": {
+              "study_type": "Prospective Multicenter Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33090916",
+            "title": "Hodgkin Lymphoma in Adolescent and Young Adults: Real-World Data from a Single Tertiary Cancer Center in India.",
+            "authors": [
+              "Nayak Lingaraj",
+              "Jain Hasmukh",
+              "Bonda Avinash",
+              "Epari Sridhar",
+              "Laskar Siddhartha"
+            ],
+            "journal": "Journal of adolescent and young adult oncology",
+            "year": "2021",
+            "abstract": "Purpose: There is lack of consensus on management of adolescent and young adult (AYA) Hodgkin lymphoma with respect to chemotherapy approach (adult or pediatric). Hence we sought to evaluate the efficacy and safety of Adriamycin, Bleomycin, Vinblastine and Dacarbazine (ABVD) chemotherapy in AYA Hodgkin lymphoma. Patients and Methods: It is a retrospective, observational, single-center study. From January 2013 to December 2016, all consecutive patients with AYA (15-25 years, all stages) were anal",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21481723",
+            "title": "Involved-node radiotherapy and modern radiation treatment techniques in patients with Hodgkin lymphoma.",
+            "authors": [
+              "Paumier Amaury",
+              "Ghalibafian Mithra",
+              "Beaudre Anne",
+              "Ferreira Ivaldo",
+              "Pichenot Charlotte"
+            ],
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2011",
+            "abstract": "To assess the clinical outcome of the involved-node radiotherapy (INRT) concept using modern radiation treatments (intensity-modulated radiotherapy [IMRT] or deep-inspiration breath-hold radiotherapy [DIBH) in patients with localized supradiaphragmatic Hodgkin lymphoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30617130",
+            "title": "Brentuximab Vedotin plus Chemotherapy in North American Subjects with Newly Diagnosed Stage III or IV Hodgkin Lymphoma.",
+            "authors": [
+              "Ramchandren Radhakrishnan",
+              "Advani Ranjana H",
+              "Ansell Stephen M",
+              "Bartlett Nancy L",
+              "Chen Robert"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2019",
+            "abstract": "To evaluate safety and efficacy outcomes for subjects on the ECHELON-1 study treated in North America (NA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16097597",
+            "title": "[Primary pulmonary Hodgkin's disease].",
+            "authors": [
+              "Hosoi Keita",
+              "Chikuie Naoki",
+              "Min Kyong-Yob",
+              "Satoh Tomoki",
+              "Tokumine Yukihiro"
+            ],
+            "journal": "Nihon Naika Gakkai zasshi. The Journal of the Japanese Society of Internal Medicine",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24955265",
+            "title": "Refractory Classical Hodgkin Lymphoma Presenting with Atypical Cutaneous Involvement and Diagnosis of ZZ Phenotype Alpha-1 Antitrypsin Deficiency.",
+            "authors": [
+              "Khawandanah Mohamad",
+              "Kraus Teresa",
+              "Cherry Mohamad"
+            ],
+            "journal": "Case reports in hematology",
+            "year": "2014",
+            "abstract": "Cutaneous Hodgkin lymphoma is a rare condition. Specific neoplastic involvement can be primary (confined to the skin) or secondary to systemic involvement (metastatic). Cutaneous involvement by HL usually occurs late in the course and is associated with poor prognosis; however in some cases it can exhibit indolent behavior. Skin involvement with nonspecific cutaneous findings may represent a paraneoplastic syndrome. We describe a case of 46-year-old white male patient presented with rash and lym",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19738111",
+            "title": "Randomized comparison of the stanford V regimen and ABVD in the treatment of advanced Hodgkin's Lymphoma: United Kingdom National Cancer Research Institute Lymphoma Group Study ISRCTN 64141244.",
+            "authors": [
+              "Hoskin Peter J",
+              "Lowry Lisa",
+              "Horwich Alan",
+              "Jack Andrew",
+              "Mead Ben"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2009",
+            "abstract": "This multicenter, prospective, randomized controlled trial compared the efficacy and toxicity of two chemotherapy regimens in advanced Hodgkin's lymphoma (HL): the weekly alternating Stanford V and the standard, twice-weekly regimen of doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27458003",
+            "title": "Brentuximab vedotin and AVD followed by involved-site radiotherapy in early stage, unfavorable risk Hodgkin lymphoma.",
+            "authors": [
+              "Kumar Anita",
+              "Casulo Carla",
+              "Yahalom Joachim",
+              "Schöder Heiko",
+              "Barr Paul M"
+            ],
+            "journal": "Blood",
+            "year": "2016",
+            "abstract": "This multicenter pilot study assessed the safety and efficacy of brentuximab vedotin (BV) and AVD (adriamycin, vinblastine, and dacarbazine) followed by 30 Gy involved site radiation therapy (ISRT). Patients with newly diagnosed, early stage classical Hodgkin lymphoma (HL) with unfavorable-risk features were treated with 4 cycles of BV and AVD. Patients who achieved a negative positron emission tomography (PET) scan (Deauville score of 1-3) received 30 Gy ISRT. Thirty patients received treatment",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9168301",
+            "title": "Results of three courses of adriamycin, bleomycin, vindesine, and dacarbazine with subtotal nodal irradiation in 189 patients with nodal Hodgkin's disease (stage I, II and IIIA).",
+            "authors": [
+              "André M",
+              "Brice P",
+              "Cazals D",
+              "Hennequin C",
+              "Fermé C"
+            ],
+            "journal": "Hematology and cell therapy",
+            "year": "1997",
+            "abstract": "To evaluate in a prospective trial three courses of an ABVD-like chemotherapy (CT) regimen given before radiation therapy (RT) (subtotal nodal irradiation (STNI) in favorable stage Hodgkin's disease (HD). The efficacy, risk factors and medium-term toxicities are reported.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38780840",
+            "title": "The efficiency and safety of temozolomide and PD-1/L1 inhibitors in pretreated NSCLC with brain metastasis: a retrospective cohort.",
+            "authors": [
+              "Li Xiaobing",
+              "Wu De",
+              "Tang Jing",
+              "Wu Yuebing"
+            ],
+            "journal": "Journal of cancer research and clinical oncology",
+            "year": "2024",
+            "abstract": "Previous research has shown that both temozolomide (TMZ) and PD-1/L1 inhibitors (PD-1/L1) alone exhibit certain potential in the treatment of non-small cell lung cancer (NSCLC) with brain metastases (BM), in this study, we will explore combining the two in order to seek new effective treatment options for NSCLC with BM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25840609",
+            "title": "Involved Node, Site, Field and Residual Volume Radiotherapy for Lymphoma: A Comparison of Organ at Risk Dosimetry and Second Malignancy Risks.",
+            "authors": [
+              "Murray L",
+              "Sethugavalar B",
+              "Robertshaw H",
+              "Bayman E",
+              "Thomas E"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2015",
+            "abstract": "Recent radiotherapy guidelines for lymphoma have included involved site radiotherapy (ISRT), involved node radiotherapy (INRT) and irradiation of residual volume after full-course chemotherapy. In the absence of late toxicity data, we aim to compare organ at risk (OAR) dose-metrics and calculated second malignancy risks.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27332902",
+            "title": "Adapted Treatment Guided by Interim PET-CT Scan in Advanced Hodgkin's Lymphoma.",
+            "authors": [
+              "Johnson Peter",
+              "Federico Massimo",
+              "Kirkwood Amy",
+              "Fosså Alexander",
+              "Berkahn Leanne"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2016",
+            "abstract": "We tested interim positron-emission tomography-computed tomography (PET-CT) as a measure of early response to chemotherapy in order to guide treatment for patients with advanced Hodgkin's lymphoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22818211",
+            "title": "Temozolomide and unusual indications: review of literature.",
+            "authors": [
+              "Tatar Zuzana",
+              "Thivat Emilie",
+              "Planchat Eloise",
+              "Gimbergues Pierre",
+              "Gadea Emilie"
+            ],
+            "journal": "Cancer treatment reviews",
+            "year": "2013",
+            "abstract": "Temozolomide (TMZ) was first known to be useful as a radiosensitiser in both primary brain tumours like glioblastoma multiforme and oligodendroglioma. Later, TMZ proved its efficacy in the treatment of melanoma. Multiple publications have demonstrated the benefit of TMZ in terms of efficacy and tolerance (used as mono-therapy or as adjuvant chemotherapy) compared to the \"gold standard\" treatment of this kind of tumours. Furthermore, several recent clinical trials have shown the particular import",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性肺淋巴瘤以霍奇金淋巴瘤（HL）為重要亞型，Dacarbazine 為 ABVD 標準方案的四種藥物之一（Adriamycin-Bleomycin-Vinblastine-Dacarbazine）。DTIC 的 DNA 烷化作用對 HL 的 Reed-Sternberg 細胞具直接細胞毒性。已有多項 Phase 3 RCT 確認 ABVD 在各期 HL 中的療效。然而，「原發性肺霍奇金淋巴瘤」（PPHL）為罕見解剖特定亞型（發生率 < 0.5% HL），尚無針對此特定亞型設計的隨機試驗，現有 Phase 3 證據均來自全身性 HL。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "well-differentiated fetal adenocarcinoma of the lung",
+      "txgnn": {
+        "score": 0.9855746030807496,
+        "rank": 13842
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高分化胎兒型肺腺癌（WDFA）為極罕見低惡性度肺部腫瘤，以胎兒型支氣管上皮分化為特徵，多數手術可治癒。DNA 烷化劑理論上對增殖期細胞具毒性，但此腫瘤的低增殖率及罕見性使化療應用尚無臨床依據。無任何試驗、文獻或病例報告支持 Dacarbazine 用於此適應症。高 TxGNN 分數可能源於知識圖譜對「肺部腫瘤」廣義節點的過度泛化。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pulmonary blastoma",
+      "txgnn": {
+        "score": 0.9844321012496948,
+        "rank": 14556
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺母細胞瘤為罕見雙相腫瘤（惡性間葉 + 上皮成分），目前無標準化療方案，偶有鉑類/依托泊苷個案報告。Dacarbazine 特定用於肺母細胞瘤缺乏任何文獻依據。TxGNN 高分數可能為圖神經網路從「肉瘤樣肺腫瘤」節點推斷（肉瘤治療有時含 DTIC）導致的假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "breast papillomatosis",
+      "txgnn": {
+        "score": 0.9837650656700134,
+        "rank": 14945
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳房乳頭狀瘤病為良性乳管上皮增生性病變，不具惡性潛力。系統性化療對良性病變不具臨床合理性（毒性遠超潛在收益），Dacarbazine 用於此適應症無任何生物學基礎、臨床試驗或文獻記載。此預測高度可疑為 TxGNN 模型將「乳房病變」與化療藥物節點錯誤連結的假陽性，應直接排除。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "head and neck cancer",
+      "txgnn": {
+        "score": 0.9836074709892272,
+        "rank": 15042
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00423150",
+            "title": "A Phase 2 Study of Temozolomide (SCH 52365) in Subjects With Advanced Aerodigestive Tract Cancers Selected for Methylation of O6-Methyl-Guanine-DNA Methyltransferase (MGMT) Promoter",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 86,
+            "start_date": "2007-01-26",
+            "completion_date": "2009-06-11",
+            "brief_summary": "This study is proposed to evaluate the efficacy and safety of temozolomide, an oral anti-cancer agent, in a participant population selected for a biomarker. Participants with colorectal cancer, non-small-cell lung cancer, head and neck cancer, or esophageal cancer will be included.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，TMZ 用於進展期上呼吸消化道癌症，TERMINATED。為 TMZ 非 DTIC，已終止，對頭頸部癌症療效訊號為負面。"
+            }
+          },
+          {
+            "nct_id": "NCT03463733",
+            "title": "International Multicenter Phase I Trial of Hydroxyurea in Combination With Dose-Intense Temozolomide in Recurrent Glioblastoma",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 54,
+            "start_date": "2018-03-02",
+            "completion_date": "2022-06-01",
+            "brief_summary": "Background\n\nCurrently, no standard treatment exists for patients with recurrent glioblastoma multiforme (rGBM) and used 2nd line treatments have low (up to max. 20%) response rates and very modest response duration (months). The median overall survival for GBM patients is 12-14 months from the time of diagnosis; therefore the development of new therapeutic options is imperative. HU has been used to treat hematological diseases and solid tumors (such as melanoma, ovarian, squamous cell carcinoma,",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase I，Hydroxyurea + 高劑量 TMZ（非 DTIC），54 人，狀態 UNKNOWN。TMZ 聯合方案，間接參考。"
+            }
+          },
+          {
+            "nct_id": "NCT07353073",
+            "title": "A Prospective, Single-Arm, Phase II Clinical Study of Neoadjuvant Therapy With Pucotenlimab, Lenvatinib, and Temozolomide for Resectable Head and Neck Mucosal Melanoma (PLT-NAT-HNMM-II)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 30,
+            "start_date": "2026-01-01",
+            "completion_date": "2028-12-31",
+            "brief_summary": "This study aims to conduct a prospective clinical trial investigating the use of pucotenlimab in combination with lenvatinib and temozolomide as neoadjuvant and postoperative adjuvant therapy for resectable oral and head and neck mucosal melanoma. The primary objectives are to evaluate the safety and efficacy of this combination regimen in the neoadjuvant treatment of head and neck mucosal melanoma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03150810",
+            "title": "A Phase 1b Study to Assess the Safety, Tolerability and Clinical Activity of BGB-290 in Combination With Temozolomide (TMZ) in Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 139,
+            "start_date": "2017-06-28",
+            "completion_date": "2023-05-04",
+            "brief_summary": "The primary objective of this study was to determine the safety and tolerability of pamiparib, the maximum tolerated dose (MTD) or maximum administered dose (MAD) for pamiparib combined with TMZ, to select the recommended Phase 2 dose (RP2D) and schedule of pamiparib in combination with TMZ, and to determine the antitumor activity of pamiparib in combination with TMZ.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1b，BGB-290（PARP 抑制劑）+ 化療，完成 139 人。探索 PARP 抑制 + 化療協同，機轉延伸參考。"
+            }
+          },
+          {
+            "nct_id": "NCT03405792",
+            "title": "Phase 2, Single Arm, Historically Controlled Study Testing The Safety and Efficacy of Adjuvant Temozolomide Plus TTFields (Optune®) Plus Pembrolizumab in Patients With Newly Diagnosed Glioblastoma (2-THE-TOP)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 40,
+            "start_date": "2018-02-23",
+            "completion_date": "2027-12",
+            "brief_summary": "Glioblastoma multiforme (GBM) is the most common and deadliest primary malignant neoplasm of the central nervous system in adults. Despite an aggressive multimodality treatment approach including surgery, radiation therapy and chemotherapy, overall survival remains poor. Pembrolizumab has recently been approved in the United States for the treatment of patients with advanced and metastatic non-small cell lung cancer, recurrent or metastatic head and neck squamous cell carcinoma, locally advanced",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03226249",
+            "title": "Phase II Study of PET-Directed Frontline Therapy With Pembrolizumab and AVD for Patients With Classical Hodgkin Lymphoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2017-11-09",
+            "completion_date": "2024-10",
+            "brief_summary": "The purpose of this research study is to evaluate a new drug pembrolizumab in combination with chemotherapy, for the treatment of newly diagnosed Hodgkin lymphoma. The chemotherapy regimen is called AVD and includes three drugs: adriamycin, vinblastin, dacarbazine. Pembrolizumab is currently FDA approved for the treatment of some patients with melanoma, lung cancer and head and neck cancer, but has not yet been approved for the treatment of Hodgkins Lymphoma. The AVD regimen of chemotherapy is c",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00580320",
+            "title": "Phase I Trial of Dacarbazine and Bortezomib in Melanoma and Soft Tissue Sarcoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2004-09",
+            "completion_date": "2013-11",
+            "brief_summary": "Bortezomib will enhance the activity of dacarbazine against melanoma and soft tissue sarcoma. Weekly administration of the combination will prove to be feasible and tolerable at an appropriate dose.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase I，Dacarbazine + Bortezomib 用於黑色素瘤和軟組織肉瘤，完成 17 人。直接使用 Dacarbazine 的 Phase I 試驗，最高直接相關性，安全性及初步療效資料可用。"
+            }
+          },
+          {
+            "nct_id": "NCT00354523",
+            "title": "A Phase I/II Study to Evaluate the Efficacy and Toxicity of Imatinib Mesylate in Combination With Dacarbazine and Capecitabine in Medullary Thyroid Carcinoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 21,
+            "start_date": "2004-12",
+            "completion_date": "2013-08",
+            "brief_summary": "Objectives:\n\nPrimary objectives:\n\nTo determine the maximum tolerated doses (MTD) for the combination of imatinib mesylate, capecitabine, and dacarbazine in patients with solid tumors.\n\nTo determine the overall tumor response rate to imatinib mesylate in combination with capecitabine and dacarbazine as first line and second line therapy in advanced metastatic medullary thyroid carcinoma.\n\nTo determine the tolerability (toxicity) of this regimen.\n\nSecondary objectives:\n\nTo determine the median ove",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase I/II，Imatinib + Dacarbazine（可能為軟組織腫瘤），TERMINATED，入組 21 人。直接 Dacarbazine 聯合試驗，終止原因需調查。"
+            }
+          },
+          {
+            "nct_id": "NCT04984733",
+            "title": "An Open Label Single Arm Phase II Trial in Patients With Advanced Unresectable Previously Treated Oesophagogastric Adenocarcinoma Which is MGMT Deficient",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 18,
+            "start_date": "2021-09-28",
+            "completion_date": "2026-07",
+            "brief_summary": "An open label single arm phase II trial in patients with advanced unresectable previously treated oesophagogastric adenocarcinoma which is MGMT deficient.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06761911",
+            "title": "A Real-world Study of Brentuximab Vedotin Monotherapy and Combination Regimens in the Treatment of Relapsed/Refractory Hodgkin Lymphoma",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2024-12-31",
+            "completion_date": "2026-01-31",
+            "brief_summary": "The goal of this clinical trial is to explore the real-world Chinese relapsed/refractory patients to evaluate the efficacy and safety of BV monotherapy or combination therapy in CHL patients. The main questions it aims to answer are:\n\nTo evaluate the efficacy and toxicity of BV-containing regimen in relapsed/refractory CHL patients in China, and to provide reference for the rational and safe use of BV in clinical practice.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00005952",
+            "title": "A Phase I/II Trial of Temodar in Pediatric Patients and Young Adults With High-Risk or Recurrent Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2000-08",
+            "completion_date": "2005-11",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining chemotherapy with peripheral stem cell transplantation may allow the doctor to give higher doses of chemotherapy drugs and kill more tumor cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of temozolomide when given with peripheral stem cell transplantation and to see how well they work in treating children with newly diagnosed malignan",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34705104",
+            "title": "Estimating the global burden of Epstein-Barr virus-related cancers.",
+            "authors": [
+              "Wong Yide",
+              "Meehan Michael T",
+              "Burrows Scott R",
+              "Doolan Denise L",
+              "Miles John J"
+            ],
+            "journal": "Journal of cancer research and clinical oncology",
+            "year": "2022",
+            "abstract": "More than 90% of the adult population globally is chronically infected by the Epstein-Barr virus (EBV). It is well established that EBV is associated with a number of malignancies, and advances in knowledge of EBV-related malignancies are being made every year. Several studies have analysed the global epidemiology and geographic distribution of EBV-related cancers. However, most have only described a single cancer type or subtype in isolation or limited their study to the three or four most comm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34654328",
+            "title": "Head and Neck Malignant Paragangliomas: Experience from a Single Institution.",
+            "authors": [
+              "Ding Yiming",
+              "Li Lifeng",
+              "Han Demin",
+              "Wang Shaozhong",
+              "Chen Xiaohong"
+            ],
+            "journal": "Ear, nose, & throat journal",
+            "year": "2024",
+            "abstract": "Objectives: To summarize the clinicopathological and genetic features of malignant paragangliomas in head and neck cancer and to explore the appropriate treatment options for this rare lesion. Methods: Six patients harboring head and neck malignant paraganglioma from Beijing Tongren Hospital were retrospectively reviewed. The clinicopathological characteristics, gene mutations, and prognosis of these patients were analyzed. Results: Of these 6 patients, 3 were male and 3 were female; 4 patients ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39115493",
+            "title": "A rare development of classical Hodgkin lymphoma in the head and neck region: Case report and review of the literature.",
+            "authors": [
+              "Pereira Mariana A S",
+              "Santos Giulia R",
+              "Legarrea Juan M A",
+              "Kayahara Giseli Mitsuy",
+              "Fonseca Felipe P"
+            ],
+            "journal": "Journal of the American Dental Association (1939)",
+            "year": "2024",
+            "abstract": "Classical Hodgkin lymphoma (CHL) is characterized by a proliferation of malignant cells of the lymphoreticular system and often involves lymph nodes, spleen, liver, and bone marrow; it is rare in the head and neck region.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31621203",
+            "title": "Carbon-ion radiotherapy combined with chemotherapy for head and neck mucosal melanoma: Prospective observational study.",
+            "authors": [
+              "Takayasu Yukihiro",
+              "Kubo Nobuteru",
+              "Shino Masato",
+              "Nikkuni Osamu",
+              "Ida Shota"
+            ],
+            "journal": "Cancer medicine",
+            "year": "2019",
+            "abstract": "This study aimed to evaluate the efficacy of carbon-ion radiotherapy in combination with chemotherapy using dacarbazine, nimustine, and vincristine (DAV therapy) in mucosal melanoma. Twenty-one patients with clinically localized mucosal melanoma of the head and neck were enrolled. The primary endpoint was 3-year overall survival (OS). Secondary endpoints included local control, progression-free survival (PFS), and adverse event occurrence. Carbon-ion radiotherapy with a dose of 57.6-64.0 Gy (rel",
+            "classification": {
+              "study_type": "Prospective Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20627492",
+            "title": "Medullary thyroid carcinoma.",
+            "authors": [
+              "Pacini F",
+              "Castagna M G",
+              "Cipri C",
+              "Schlumberger M"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2010",
+            "abstract": "Medullary thyroid carcinoma (MTC) accounts for 5-8% of all thyroid cancers. MTC is mainly sporadic in nature, but an hereditary pattern [multiple endocrine neoplasia type 2 (MEN 2)] is present in 20-30% of cases, transmitted as an autosomal-dominant trait due to germline mutations of the RET proto-oncogene. About 98% of patients with MEN 2 have germline mutations in exons 5, 8, 10, 11, 13, 14, 15 or 16 of the RET gene. The primary treatment of both hereditary and sporadic forms of MTC is total t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20564093",
+            "title": "Hodgkin lymphoma involving extranodal and nodal head and neck sites: characteristics and outcomes.",
+            "authors": [
+              "Iyengar Puneeth",
+              "Mazloom Ali",
+              "Shihadeh Ferial",
+              "Berjawi Ghina",
+              "Dabaja Bouthaina"
+            ],
+            "journal": "Cancer",
+            "year": "2010",
+            "abstract": "Most Hodgkin lymphoma (HL) patients present with disease in nodal regions. However, in a small subset, disease develops in unique anatomic sites such as the head and neck area. This study aims to identify the characteristics and outcomes of patients who develop HL involving extranodal and nodal head and neck sites.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18798304",
+            "title": "Biochemotherapy in patients with advanced head and neck mucosal melanoma.",
+            "authors": [
+              "Bartell Holly L",
+              "Bedikian Agop Y",
+              "Papadopoulos Nicholas E",
+              "Dett Tina K",
+              "Ballo Matthew T"
+            ],
+            "journal": "Head & neck",
+            "year": "2008",
+            "abstract": "No systemic therapy regimen has been recognized as effective for metastatic mucosal melanoma of the head and neck. We retrospectively analyzed the effectiveness of biochemotherapy in patients with advanced head and neck mucosal melanoma.",
+            "classification": {
+              "study_type": "Phase II Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7826911",
+            "title": "Chemotherapy with dacarbazine and 5-fluorouracil in advanced medullary thyroid cancer.",
+            "authors": [
+              "Orlandi F",
+              "Caraci P",
+              "Berruti A",
+              "Puligheddu B",
+              "Pivano G"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "1994",
+            "abstract": "Experience with chemotherapeutic agents in the management of advanced medullary thyroid carcinoma (MTC) is limited and controversial. However, since MTC is a neuroendocrine neoplasm, we considered the possibility that cytotoxic drugs previously used in the treatment of these tumours could also have activity in MTC.",
+            "classification": {
+              "study_type": "Prospective Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40090128",
+            "title": "Granulocyte-macrophage colony-stimulating factor for newly diagnosed glioblastoma.",
+            "authors": [
+              "Cao Caineng",
+              "Wang Le",
+              "Jiang Feng",
+              "Jin Qifeng",
+              "Jin Ting"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2025",
+            "abstract": "There is a clear need to improve the efficiency of therapeutic strategy for patients with newly diagnosed glioblastoma (GBM). The purpose of this study was to evaluate the feasibility of hypofractionated intensity-modulated radiation therapy (IMRT), temozolomide and granulocyte-macrophage colony-stimulating factor (GM-CSF) for patients with newly diagnosed GBM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11005097",
+            "title": "[Surgical and adjuvant drug therapy in head and neck cutaneous melanoma].",
+            "authors": [
+              "Hauschild A",
+              "Lischner S",
+              "Christophers E"
+            ],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "2000",
+            "abstract": "The rapid incidence rise of cutaneous melanoma resulted in an increasing interest in this particular tumor. During the last years public prevention campaigns enlarged the awareness of melanoma, subsequently as a direct effect the mean tumor thickness of melanoma, the most predictable prognostic factor, decreased. Moreover, the biology of melanoma initiation and metastasis has been studied extensively with special interest in molecular biology. Controlled clinical studies answered several critica",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7425236",
+            "title": "Biologic behavior of ocular malignant melanoma and comparison with melanoma of the head and neck.",
+            "authors": [
+              "Didolkar M S",
+              "Elias E G",
+              "Barber N A",
+              "Moore R H"
+            ],
+            "journal": "American journal of surgery",
+            "year": "1980",
+            "abstract": "Ocular melanoma is the most common malignant tumor of the eye and accounts for 70 to 80 percent of all extracutaneous melanomas. Its biologic behavior differs from that of its cutaneous counterpart. To elucidate this, 62 patients with histologically proven melanoma of eye (58 uveal tract and 4 conjuntiva) at Roswell Park Memorial Institute from 1945 to 1977 were studied. The prominent contradistinctions from other head and neck melanomas were (1) a very high percentage of patients had either loc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11163509",
+            "title": "Radiotherapy of esthesioneuroblastoma.",
+            "authors": [
+              "Eich H T",
+              "Staar S",
+              "Micke O",
+              "Eich P D",
+              "Stützer H"
+            ],
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2001",
+            "abstract": "Only 3% of all malignant intranasal tumors are esthesioneuroblastomas (ENB). As the tumor is very rare, the number of ENB treated in individual departments is small. In order to evaluate the efficacy of radiotherapy (RT), patients' data of 2 centres were analysed with reference to new reports in literature.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8683365",
+            "title": "[Case reports of mucosal melanoma of the head and neck].",
+            "authors": [
+              "Mochimatsu I",
+              "Tsukuda M",
+              "Kurihara M",
+              "Enomoto H",
+              "Kagesato Y"
+            ],
+            "journal": "Nihon Jibiinkoka Gakkai kaiho",
+            "year": "1996",
+            "abstract": "Twelve patients with mucosal melanoma in the head and neck were treated at Yokohama city University from 1975 to 1994. The sex distribution was 5 male and 7 female, and the age ranged from 40 to 79 years-old. The highest number of patients were in their sixties. In 10 cases tumors arose in the nasal cavity, in one case in the maxillary sinus and in other case in the oral cavity. The treatment modality for this tumor consisted of various combination therapies including surgery, radiotherapy, chem",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1827292",
+            "title": "Dacarbazine in advanced squamous cell carcinoma of the head and neck.",
+            "authors": [
+              "Buesa J M",
+              "Fernández R",
+              "Barón F J",
+              "Palacio I",
+              "Cueva J"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "1991",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "869773",
+            "title": "Soft-tissue sarcoma of the head and neck after puberty.",
+            "authors": [
+              "Goepfert H",
+              "Lindberg R D",
+              "Sinkovics J G",
+              "Ayala A G"
+            ],
+            "journal": "Archives of otolaryngology (Chicago, Ill. : 1960)",
+            "year": "1977",
+            "abstract": "The most frequent soft-tissue sarcomas in the head and neck are are embryonal rhabdomyosarcomas and neurofibrosarcomas. Histological grading and the staging of the lesions bear on the prognosis of the disease. The use of sequential surgical resection plus postoperative radiation therapy has considerably improved the local control of these sarcomas. The use of multiple-drug systemic chemotherapy as an adjuvant to radiation therapy is fraught with considerate complications in this seris of patient",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41481311",
+            "title": "Toripalimab vs Dacarbazine as First-Line Therapy for Advanced Melanoma of Acral Subtype: The Phase 3 MELATORCH Randomized Clinical Trial.",
+            "authors": [
+              "Sheng Xinan",
+              "Huang Gang",
+              "Fang Meiyu",
+              "Li Ke",
+              "Wu Di"
+            ],
+            "journal": "JAMA oncology",
+            "year": "2026",
+            "abstract": "Programmed cell death 1 (PD-1) inhibitors have been the standard first-line treatment for advanced melanoma; however, their clinical benefit in advanced melanoma predominantly of acral subtype remains unclear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37392899",
+            "title": "The impact of survivorship bias in glioblastoma research.",
+            "authors": [
+              "Pasqualetti Francesco",
+              "Barberis Alessandro",
+              "Zanotti Sofia",
+              "Montemurro Nicola",
+              "De Salvo Gian Luca"
+            ],
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2023",
+            "abstract": "Despite advances in the therapy of Central Nervous System (CNS) malignancies, treatment of glioblastoma (GB) poses significant challenges due to GB resistance and high recurrence rates following post-operative radio-chemotherapy. The majority of prognostic and predictive GB biomarkers are currently developed using tumour samples obtained through surgical interventions. However, the selection criteria adopted by different neurosurgeons to determine which cases are suitable for surgery make operat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20138008",
+            "title": "Human immunodeficiency and Hodgkin lymphoma.",
+            "authors": [
+              "Sissolak Gerhard",
+              "Sissolak Dagmar",
+              "Jacobs Peter"
+            ],
+            "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+            "year": "2010",
+            "abstract": "Presentation of Hodgkin lymphoma (HL) is distinctive in the infected individual being more advanced, accompanied by B symptoms and the presence of extranodal disease particularly lymphadenopathy of the head and neck. Bone marrow involvement may be found in over 50% of cases. Virtually all co express gamma-herpesvirus. Phenotypically there is prominence of the mixed-cellularity and lymphocyte depleted histopathologic subtypes that define an aggressive clinical course in comparison to other varian",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15634649",
+            "title": "A humanized monoclonal antibody to carcinoembryonic antigen, labetuzumab, inhibits tumor growth and sensitizes human medullary thyroid cancer xenografts to dacarbazine chemotherapy.",
+            "authors": [
+              "Stein Rhona",
+              "Goldenberg David M"
+            ],
+            "journal": "Molecular cancer therapeutics",
+            "year": "2004",
+            "abstract": "A variety of observations have shown that carcinoembryonic antigen (CEA) is associated with growth and metastasis of cancers, including correlation of CEA serum levels with poor clinical outcome, mediation of cell-cell adhesion by CEA, and involvement of CEA in the immune recognition of tumors and apoptotic pathways. The purpose of this study was to investigate the effect that an anti-CEA monoclonal antibody (MAb) may have on the growth of medullary thyroid cancer (MTC), a CEA-expressing tumor, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12113649",
+            "title": "Current concepts in the management of patients with melanoma.",
+            "authors": [
+              "Lang Pearon G"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2002",
+            "abstract": "Melanoma is a significant health problem. Despite public education and free cancer screenings, the incidence and mortality of melanoma continues to rise; however, many currently diagnosed melanomas are thin lesions, suggesting that education and awareness is having an impact. In addition, there are still subsets of patients who need increased surveillance in order to increase their survival. Although large congenital nevi may be precursors of melanoma, small and medium congenital nevi have an in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭頸部惡性腫瘤中，Dacarbazine 在以下特定亞型具直接臨床證據：(1) 頭頸部黏膜黑色素瘤：DTIC 為黑色素瘤核心化療藥物，已有生化化療（biochemotherapy）Phase II 試驗；(2) 甲狀腺髓質癌：有 DTIC + 5-FU 的前瞻性臨床試驗（PMID 7826911）；(3) 頭頸部軟組織肉瘤：有 DTIC + Bortezomib Phase I 試驗（NCT00580320）。Dacarbazine 的 DNA 烷化機轉對神經嵴來源腫瘤（黑色素瘤、副神經節瘤、髓質癌）具特別的生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "salivary gland type cancer of the breast",
+      "txgnn": {
+        "score": 0.9834054708480836,
+        "rank": 15179
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳房唾液腺型癌為超罕見腫瘤（< 0.01% 乳癌），包含腺樣囊性癌等亞型，無確立標準化療方案，更無 Dacarbazine 相關資料。此 TxGNN 預測可能源於模型將「乳房癌」節點與「唾液腺癌」節點分別連結至化療藥物後的誤推，臨床不具依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "adult astrocytic tumour",
+      "txgnn": {
+        "score": 0.9828370809555054,
+        "rank": 15555
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00052455",
+            "title": "A Prospective Randomised Trial Comparing Temozolomide With PCV In The Treatment Of Recurrent WHO Astrocytic Tumours Grades III And IV",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 500,
+            "start_date": "2002-10",
+            "completion_date": "2010-09",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells. It is not yet known which regimen of chemotherapy is more effective in treating recurrent malignant glioma.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of temozolomide alone to that of procarbazine, lomustine, and vincristine in treating patients who have recurrent malignant glioma.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 RCT，TMZ vs PCV 用於復發 WHO 星形細胞瘤，完成 500 人（最大規模直接相關試驗）。為 TMZ 非 DTIC，但展示 DNA 烷化在星形細胞瘤的 Phase 3 級療效；Dacarbazine 因 BBB 限制無法直接套用此結論。"
+            }
+          },
+          {
+            "nct_id": "NCT00960492",
+            "title": "A Phase 1 Dose Finding Study of the Safety and Pharmacokinetics of XL184 Administered Orally in Combination With Temozolomide and Radiation Therapy in the First Line Treatment of Subjects With Glioblastoma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2009-09",
+            "completion_date": "2013-10",
+            "brief_summary": "The purpose of this study is to determine the highest safe dose of XL184 administered orally in combination with temozolomide (TMZ, Temodar®) and radiation therapy (RT). XL184 is a new chemical entity that inhibits VEGFR2, MET, and RET, kinases implicated in tumor formation, growth and migration. Temozolomide (TMZ, Temodar®) is an orally administered alkylating agent. It is approved by the Food and Drug Administration (FDA) for the treatment of newly diagnosed glioblastoma (GB) patients when giv",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，XL184（Cabozantinib）+ 口服 TMZ 劑量探索，完成 26 人。探索 MET/VEGFR2 抑制 + TMZ 聯合，不涉及 Dacarbazine。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15758009",
+            "title": "Radiotherapy plus concomitant and adjuvant temozolomide for glioblastoma.",
+            "authors": [
+              "Stupp Roger",
+              "Mason Warren P",
+              "van den Bent Martin J",
+              "Weller Michael",
+              "Fisher Barbara"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2005",
+            "abstract": "Glioblastoma, the most common primary brain tumor in adults, is usually rapidly fatal. The current standard of care for newly diagnosed glioblastoma is surgical resection to the extent feasible, followed by adjuvant radiotherapy. In this trial we compared radiotherapy alone with radiotherapy plus temozolomide, given concomitantly with and after radiotherapy, in terms of efficacy and safety.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26670971",
+            "title": "Maintenance Therapy With Tumor-Treating Fields Plus Temozolomide vs Temozolomide Alone for Glioblastoma: A Randomized Clinical Trial.",
+            "authors": [
+              "Stupp Roger",
+              "Taillibert Sophie",
+              "Kanner Andrew A",
+              "Kesari Santosh",
+              "Steinberg David M"
+            ],
+            "journal": "JAMA",
+            "year": "2015",
+            "abstract": "Glioblastoma is the most devastating primary malignancy of the central nervous system in adults. Most patients die within 1 to 2 years of diagnosis. Tumor-treating fields (TTFields) are a locoregionally delivered antimitotic treatment that interferes with cell division and organelle assembly.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24552317",
+            "title": "A randomized trial of bevacizumab for newly diagnosed glioblastoma.",
+            "authors": [
+              "Gilbert Mark R",
+              "Dignam James J",
+              "Armstrong Terri S",
+              "Wefel Jeffrey S",
+              "Blumenthal Deborah T"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2014",
+            "abstract": "Concurrent treatment with temozolomide and radiotherapy followed by maintenance temozolomide is the standard of care for patients with newly diagnosed glioblastoma. Bevacizumab, a humanized monoclonal antibody against vascular endothelial growth factor A, is currently approved for recurrent glioblastoma. Whether the addition of bevacizumab would improve survival among patients with newly diagnosed glioblastoma is not known.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22578793",
+            "title": "Temozolomide chemotherapy alone versus radiotherapy alone for malignant astrocytoma in the elderly: the NOA-08 randomised, phase 3 trial.",
+            "authors": [
+              "Wick Wolfgang",
+              "Platten Michael",
+              "Meisner Christoph",
+              "Felsberg Jörg",
+              "Tabatabai Ghazaleh"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2012",
+            "abstract": "Radiotherapy is the standard care in elderly patients with malignant astrocytoma and the role of primary chemotherapy is poorly defined. We did a randomised trial to compare the efficacy and safety of dose-dense temozolomide alone versus radiotherapy alone in elderly patients with anaplastic astrocytoma or glioblastoma.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37992407",
+            "title": "Treatment of glioblastoma in Greenlandic patients.",
+            "authors": [
+              "Frandsen Simone",
+              "Pedersen Alice Juhl",
+              "Gredal Ole",
+              "Møller Søren",
+              "Geissler Uka Wilhjelm"
+            ],
+            "journal": "International journal of circumpolar health",
+            "year": "2023",
+            "abstract": "Glioblastoma (GBM), WHO grade IV, is the most common primary malignant brain tumour among adults with a devastating overall survival of 14-22 months. Standard treatment of GBM includes maximum safe resection, radiotherapy plus concomitant and adjuvant temozolomide (TMZ), given over a period of approximately 9 months. Treatment and follow-up for Greenlandic patients with GBM are managed at Rigshospitalet (RH), Copenhagen. Greenlandic GBM patients, therefore, travel back and forth to RH, often una",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29075865",
+            "title": "Treatment of Glioblastoma in Older Adults.",
+            "authors": [
+              "Braun Kelly",
+              "Ahluwalia Manmeet S"
+            ],
+            "journal": "Current oncology reports",
+            "year": "2017",
+            "abstract": "Glioblastoma is the most common primary malignant brain tumor diagnosed in the USA and is associated with a poor prognosis. The outcomes in elderly patients (more than 65 years of age) are worse when compared to those younger than age 65 at the time of diagnosis. Older patients are not always offered treatments that would otherwise be considered standard of care due to comorbidities and concerns about toxicity and tolerability. The initial European Organization for Research and Treatment of Canc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17478095",
+            "title": "Anaplastic astrocytoma in adults.",
+            "authors": [
+              "Stupp Roger",
+              "Reni Michele",
+              "Gatta Gemma",
+              "Mazza Elena",
+              "Vecht Charles"
+            ],
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2007",
+            "abstract": "Anaplastic astrocytoma is an uncommon disease in the adult population. Prognosis is influenced by age, symptom duration, mental status and Karnofsky performance status. A truly complete resection, which is a recognized independent prognostic factor, is not possible and recurrence in the surgical cavity is common. Based on randomized data available, chemotherapy has consistently failed to improve the outcome of patients with anaplastic astrocytoma, while a meta-analysis showed a small, but signif",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15758016",
+            "title": "Chemotherapy for brain tumors--a new beginning.",
+            "authors": [
+              "DeAngelis Lisa M"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "Commentary/Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17964028",
+            "title": "Diagnosis and treatment of high-grade astrocytoma.",
+            "authors": [
+              "Sathornsumetee Sith",
+              "Rich Jeremy N",
+              "Reardon David A"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2007",
+            "abstract": "High-grade astrocytomas include the most common adult central nervous system (CNS) tumor, glioblastoma multiforme, and anaplastic astrocytoma--a highly aggressive cancer with short median survival despite maximal multimodality therapy. Diagnosis is by clinical and radiographic findings confirmed by histopathology. Standard-of-care therapy includes surgical resection, radiotherapy, and temozolomide. Nearly all patients who have high-grade astrocytomas develop tumor recurrence or progression after",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29393175",
+            "title": "Fractionated Radiotherapy of Intracranial Gliomas.",
+            "authors": [
+              "Ghia Amol J"
+            ],
+            "journal": "Progress in neurological surgery",
+            "year": "2018",
+            "abstract": "Fractionated radiotherapy (FRT) plays a critical role in the management of gliomas. For glioblastoma, the irradiation dose of 60 Gy in 30 fractions with concomitant and adjuvant temozolomide is currently considered as a standard of treatment, and further dose escalation has failed to be of benefit in clinical trials. Hypofractionated radiation schedules may be applied in elderly patients or those with poor performance status. For anaplastic gliomas, the high-risk region is typically irradiated t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10914698",
+            "title": "Temozolomide and treatment of malignant glioma.",
+            "authors": [
+              "Friedman H S",
+              "Kerby T",
+              "Calvert H"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2000",
+            "abstract": "Malignant gliomas (glioblastoma multiforme and anaplastic astrocytoma) occur more frequently than other types of primary central nervous system tumors, having a combined incidence of 5-8/100,000 population. Even with aggressive treatment using surgery, radiation, and chemotherapy, median reported survival is less than 1 year. Temozolomide, a new drug, has shown promise in treating malignant gliomas and other difficult-to-treat tumors. Temozolomide, a p.o. imidazotetrazine second-generation alkyl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26725536",
+            "title": "How I treat glioblastoma in older patients.",
+            "authors": [
+              "Mohile Nimish A"
+            ],
+            "journal": "Journal of geriatric oncology",
+            "year": "2016",
+            "abstract": "Glioblastoma, a WHO grade IV astrocytoma, is the most common primary malignant brain tumor in adults. It is characterized by molecular heterogeneity and aggressive behavior. Glioblastoma is almost always incurable and most older patients survive less than 6 months. Supportive care with steroids and anti-epileptic drugs is critical to improving and maintain quality of life. Young age, good performance status and methylation of the methyl guanyl methyl transferase promoter are important positive p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40960773",
+            "title": "LTF regulates glioblastoma progression and temozolomide resistance via the NF-κB signaling pathway.",
+            "authors": [
+              "Gao Lili",
+              "Xiao Hongbo",
+              "Lu Hongyu",
+              "Ma Jun",
+              "Zhu Haifeng"
+            ],
+            "journal": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas",
+            "year": "2025",
+            "abstract": "Glioblastoma (GBM) is the most prevalent tumor in the central nervous system in adults. Lactotransferrin (LTF) is a molecule involved in the growth of various tumors. However, the underlying mechanism of LTF in GBM progression and chemotherapy resistance remains unclear. In this study, the clinical and diagnostic value of LTF were evaluated. In vitro and in vivo experiments were performed to explore the functional role of LTF in GBM. Immunoprecipitation and immunofluorescence assays were perform",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15277619",
+            "title": "Initial chemotherapy in gliomatosis cerebri.",
+            "authors": [
+              "Sanson M",
+              "Cartalat-Carel S",
+              "Taillibert S",
+              "Napolitano M",
+              "Djafari L"
+            ],
+            "journal": "Neurology",
+            "year": "2004",
+            "abstract": "Because of the diffuse nature of gliomatosis cerebri (GC), surgery is not suitable, and large field radiotherapy carries the risk of severe toxicity. In this setting, initial chemotherapy warrants further investigation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28192785",
+            "title": "Temozolomide with or without Radiotherapy in Patients with Newly Diagnosed Glioblastoma Multiforme: A Meta-Analysis.",
+            "authors": [
+              "Feng Enshan",
+              "Sui Changbai",
+              "Wang Tongxin",
+              "Sun Gaoling"
+            ],
+            "journal": "European neurology",
+            "year": "2017",
+            "abstract": "The current meta-analysis evaluated the survival outcomes of newly diagnosed glioblastoma patients treated with radiotherapy (RT) alone and with RT + temozolomide (TMZ).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12057096",
+            "title": "Adults with newly diagnosed high-grade gliomas.",
+            "authors": [
+              "Croteau D",
+              "Mikkelsen T"
+            ],
+            "journal": "Current treatment options in oncology",
+            "year": "2001",
+            "abstract": "Despite tremendous advances in brain tumor molecular biology and several emerging novel therapies, multimodality therapy that includes surgery, radiation therapy (RT), and chemotherapy is still the cornerstone of high-grade glioma treatment. The first step in high-grade glioma therapy is surgery and a maximal resection should be attempted to reduce the tumor burden before initiation of other adjuvant therapies. External beam radiation therapy (EBRT) generally follows surgery, using conventional ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15277608",
+            "title": "Gliomatosis cerebri: better definition, better treatment.",
+            "authors": [
+              "Chamberlain Marc C"
+            ],
+            "journal": "Neurology",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25920709",
+            "title": "Radiotherapy and temozolomide for anaplastic astrocytic gliomas.",
+            "authors": [
+              "Nayak Lakshmi",
+              "Panageas Katherine S",
+              "Reiner Anne S",
+              "Huse Jason T",
+              "Pentsova Elena"
+            ],
+            "journal": "Journal of neuro-oncology",
+            "year": "2015",
+            "abstract": "We previously reported results of a phase II non-comparative trial that randomized patients with glioblastoma following radiotherapy to one of two different temozolomide schedules, followed by 13-cis-retinoic acid (RA) maintenance. Here we report the results of an exploratory cohort of patients accrued with anaplastic astrocytic tumors. Patients with newly diagnosed anaplastic astrocytoma (AA) or anaplastic oligo-astrocytoma (AOA) were treated with concurrent radiotherapy (60 Gy over 6 weeks) an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29393181",
+            "title": "Chemotherapy of High-Grade Astrocytomas in Adults.",
+            "authors": [
+              "Puduvalli Vinay K",
+              "Hoang Nguyen"
+            ],
+            "journal": "Progress in neurological surgery",
+            "year": "2018",
+            "abstract": "Malignant gliomas have been historically considered unresponsive to chemotherapy due to their intrinsic resistance to conventional anticancer medications and the role of the blood-brain barrier in preventing access of the cytotoxic agents to the tumor. However, recent studies have demonstrated the efficacy of specific drugs in subsets of patients with high-grade astrocytomas that has revived the enthusiasm for the role of systemic chemotherapy against these neoplasms. Temozolomide, a monofunctio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23807265",
+            "title": "Epigenetic pathways and glioblastoma treatment.",
+            "authors": [
+              "Clarke Jennifer",
+              "Penas Clara",
+              "Pastori Chiara",
+              "Komotar Ricardo J",
+              "Bregy Amade"
+            ],
+            "journal": "Epigenetics",
+            "year": "2013",
+            "abstract": "Glioblastoma multiforme (GBM) is the most common malignant adult brain tumor. Standard GBM treatment includes maximal safe surgical resection with combination radiotherapy and adjuvant temozolomide (TMZ) chemotherapy. Alarmingly, patient survival at five-years is below 10%. This is in part due to the invasive behavior of the tumor and the resulting inability to resect greater than 98% of some tumors. In fact, recurrence after such treatment may be inevitable, even in cases where gross total rese",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "成人星形細胞瘤（含膠質母細胞瘤 GBM）的 DNA 烷化治療標準已由 Dacarbazine 演進至 Temozolomide。PMID 15758016（2005）直接描述此歷史轉換：TMZ 因優越的 BBB 穿透性（> 40% 腦/血漿比）取代了 DTIC（< 10%），成為 GBM 標準治療骨幹（Stupp 方案）。Dacarbazine 雖具相同活性代謝物 MTIC，但其 BBB 穿透性差是根本性藥動學障礙，無法達到腦腫瘤治療所需的組織濃度。除非開發腦靶向遞送技術（如 NP 包裹、局部給藥），否則此適應症的臨床可行性受到嚴重限制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "breast lipoma",
+      "txgnn": {
+        "score": 0.9825709462165833,
+        "rank": 15722
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳房脂肪瘤為良性間葉細胞腫瘤，不具惡性潛力，標準治療為觀察或外科切除。系統性化療用於良性脂肪瘤在任何情境下均缺乏臨床合理性，毒性效益比極差。此 TxGNN 預測應視為模型假陽性，直接排除，無需進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "small cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 42,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "small cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "small cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "primary pulmonary lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "primary pulmonary lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "primary pulmonary lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "well-differentiated fetal adenocarcinoma of the lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "well-differentiated fetal adenocarcinoma of the lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "well-differentiated fetal adenocarcinoma of the lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "pulmonary blastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "pulmonary blastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "pulmonary blastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "breast papillomatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "breast papillomatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "breast papillomatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "head and neck cancer"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "head and neck cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "head and neck cancer"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "salivary gland type cancer of the breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "salivary gland type cancer of the breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "salivary gland type cancer of the breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "adult astrocytic tumour"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "adult astrocytic tumour"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "adult astrocytic tumour"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "breast lipoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "breast lipoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacarbazine",
+        "disease": "breast lipoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

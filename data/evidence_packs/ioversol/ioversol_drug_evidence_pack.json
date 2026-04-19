@@ -1,0 +1,874 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09134-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ioversol",
+    "drugbank_id": "DB09134",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn": {
+        "score": 0.9967405200004578,
+        "rank": 4849
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨關節炎易感性（susceptibility）為遺傳傾向表型（如 GDF5、ALDH1A2 基因變異），而非可直接藥物介入的臨床狀態。Ioversol 作為碘化顯影劑無基因修飾或表觀遺傳調控機轉。TxGNN 高分可能來自與 osteoarthritis 節點的知識圖譜短距離鄰近，非真實機轉預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "osteoarthritis",
+      "txgnn": {
+        "score": 0.9963185787200928,
+        "rank": 5288
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04733092",
+            "title": "Prospective Study of the Safety and Efficacy of the Use of a Lipiodol Emulsion for the Embolization of Inflammatory Hypervascularizations Observed in Patients With Joint or Abarticular Knee Pain",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2021-03-03",
+            "completion_date": "2022-09-20",
+            "brief_summary": "Knee osteoarthritis is a common cause of disability in patients who are often young and active. Surgery being an option only for the most severe cases, there is little alternative in case of failure of recommended medication. Inflammatory hypervascularization of the joint is a known source of pain. Temporary embolization of intra-arterial inflammatory hypervascularization has been used since 2012 with good results on pain relief to treat patients with musculoskeletal disorders that are resistant",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "明確使用 Lipiodol 乳劑進行膝關節動脈栓塞，非 Ioversol。Phase 1，n=22，已完成。驗證 GAE 安全概念，但研究藥物與 Ioversol 化學性質不同（油性 vs 水性）。對 Ioversol 直接相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT06497140",
+            "title": "A Randomized Sham-controlled, Multicenter Trial on the Effect of Genicular Arteries Embolization in Symptomatic Knee Osteoarthritis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 130,
+            "start_date": "2024-09-30",
+            "completion_date": "2028-10-01",
+            "brief_summary": "Knee OsteoArthritis (KOA) is a common disease associated with pain and impaired function. Many patients are not relieved of their symptoms with enough efficacy by conservative treatments. Genicular Arteries Embolization (GAE) is a new minimally invasive endovascular treatment allowing symptoms relief. The investigator previously demonstrated the safety of GAE using an ethiodized oil-based emulsion for the treatment of painful knee osteoarthritis in a first-in-man single-arm clinical trial called",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "膝關節動脈栓塞 Phase 3 假手術對照 RCT，n=130，多中心，正在招募。GAE 領域目前最高等級設計，但試驗標題未特指 Ioversol，程序中實際使用之碘化顯影劑需查閱完整方案確認。"
+            }
+          },
+          {
+            "nct_id": "NCT06611007",
+            "title": "Evaluation of the Safety of LipiodolⓇ Embolization in Symptomatic Digital Osteoarthritis Refractory to Conventional Treatment: a Pilot Study of 15 Patients",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 15,
+            "start_date": "2025-01-30",
+            "completion_date": "2028-07-15",
+            "brief_summary": "The goal of this clinical trial is to evaluate the safety of arterial embolization using Lipiodol® in patients with symptomatic hand osteoarthritis refractory to conventional treatment. It will also learn about the efficacy of arterial embolization with Lipiodol® in reducing pain and improving hand function.\n\nThe main questions it aims to answer are:\n\n* What are the side effects and complications associated with the Lipiodol® arterial embolization procedure?\n* Does arterial embolization reduce p",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "手指骨關節炎難治型病例之 Lipiodol® 栓塞，Phase 1/2，n=15，正在招募。適應症延伸至數位關節，但仍為 Lipiodol 專屬研究，Ioversol 不適用。"
+            }
+          },
+          {
+            "nct_id": "NCT06859164",
+            "title": "Genicular Artery Embolization for Reducing Pain in Symptomatic Knee Osteoarthritis: A Pilot Randomized Sham-Controlled Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2025-05-01",
+            "completion_date": "2026-11-30",
+            "brief_summary": "Genicular Artery Embolization for Reducing Pain in Symptomatic Knee Osteoarthritis: A Pilot Randomized Sham-Controlled Study (SHAM-PAIN) is a NIH-NIAMS funded project designed to assess enrollment feasibility and detect any differences between GAE and a similar sham intervention in reducing KOA-related pain at 3 months as measured by the Knee injury and Osteoarthritis Outcome Score (KOOS) pain subscore. Additionally, this study aims to determine the magnitude of difference in pain response betwe",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "症狀性膝骨關節炎 GAE 先導 Phase 2 RCT，n=50，正在招募。GAE 程序驗證，未特定栓塞材料。Ioversol 於此類程序中為標準輔助顯影劑，但非療效貢獻來源。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38102013",
+            "title": "Genicular artery embolization for knee osteoarthritis: Results of the LipioJoint-1 trial.",
+            "authors": [
+              "Sapoval Marc",
+              "Querub Charles",
+              "Pereira Helena",
+              "Pellerin Olivier",
+              "Boeken Tom"
+            ],
+            "journal": "Diagnostic and interventional imaging",
+            "year": "2024",
+            "abstract": "The purpose of this study was to evaluate the safety and efficacy of transient genicular artery embolization (GAE) using an ethiodized oil-based emulsion for the treatment of knee osteoarthritis (KOA).",
+            "classification": {
+              "study_type": "Phase 1 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膝關節動脈栓塞術（GAE）為新興膝骨關節炎疼痛介入療法，透過栓塞滑膜異常新生血管降低炎症訊號。碘化顯影劑（含 Ioversol 類）於 GAE 操作中用於術中血管造影定位，屬程序性輔助角色。現有試驗主要研究 Lipiodol（碘化油乳劑）作為兼具栓塞材料與顯影功能的雙效藥物，而非 Ioversol 本身的治療效果。兩者雖同屬碘化顯影劑類別，但 Lipiodol 具有額外的油性栓塞特性，與 Ioversol 的水溶性非離子特性有本質差異。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.995595633983612,
+        "rank": 5971
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38102013",
+            "title": "Genicular artery embolization for knee osteoarthritis: Results of the LipioJoint-1 trial.",
+            "authors": [
+              "Sapoval Marc",
+              "Querub Charles",
+              "Pereira Helena",
+              "Pellerin Olivier",
+              "Boeken Tom"
+            ],
+            "journal": "Diagnostic and interventional imaging",
+            "year": "2024",
+            "abstract": "The purpose of this study was to evaluate the safety and efficacy of transient genicular artery embolization (GAE) using an ethiodized oil-based emulsion for the treatment of knee osteoarthritis (KOA).",
+            "classification": {
+              "study_type": "Phase 1 RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40137121",
+            "title": "A Multifaceted Computational Approach to Identify PAD4 Inhibitors for the Treatment of Rheumatoid Arthritis (RA).",
+            "authors": [
+              "Alturki Mansour S",
+              "Gomaa Mohamed S",
+              "Tawfeeq Nada",
+              "Al Khzem Abdulaziz H",
+              "Shaik Mohsina B"
+            ],
+            "journal": "Metabolites",
+            "year": "2025",
+            "abstract": "Neutrophil cells' lysis forms the extracellular traps (NETs) to counter the foreign body during insults to the body. Peptidyl arginine deiminase (PAD) participates in this process and is then released into the extracellular fluid with the lysed cell components. In some diseases, patients with abnormal function of PADs, especially PAD 4, tend to form autoantibodies against the abnormal citrullinated proteins that are the result of PAD activity on arginine side chains. Those antibodies, which are ",
+            "classification": {
+              "study_type": "Computational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類風濕性關節炎為自體免疫疾病，病理機轉涉及 T/B 細胞異常活化、TNF-α/IL-6 炎症軸及關節滑膜侵蝕。Ioversol 無免疫調節或抗炎治療機轉。現有關聯文獻 PMID 38102013 針對骨關節炎 GAE（非 RA），PMID 40137121 為 PAD4 抑制劑計算篩選研究且未涉及 Ioversol。預測可能源自 RA 與 OA 在知識圖譜關節炎分類節點的拓樸鄰近性傳播。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9936176538467408,
+        "rank": 7719
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Brachyolmia 為罕見遺傳性脊柱骨骺發育不全（TRPV4、SLC26A2 等基因突變），目前無有效藥物治療。Ioversol 無骨骼發育調控或基因修正機轉，無任何臨床或文獻支持。預測可能源自知識圖譜中骨骼肌肉疾病群集的間接連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hemoglobinopathy",
+      "txgnn": {
+        "score": 0.993280827999115,
+        "rank": 8016
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23321839",
+            "title": "Craniofacial bone infarcts in sickle cell disease: clinical and radiological manifestations.",
+            "authors": [
+              "Watanabe Memi",
+              "Saito Naoko",
+              "Nadgir Rohini N",
+              "Liao Joseph H",
+              "Flower Elisa N"
+            ],
+            "journal": "Journal of computer assisted tomography",
+            "year": "2013",
+            "abstract": "To investigate the clinicoradiological manifestations of craniofacial bone infarcts in patients with sickle cell disease (SCD).",
+            "classification": {
+              "study_type": "Case Series / Imaging Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22195536",
+            "title": "Safety of iodinated intravenous contrast medium administration in sickle cell disease.",
+            "authors": [
+              "Campbell Kimberly L",
+              "Hud Laryssa M",
+              "Adams Suzanne",
+              "Andrel Jocelyn",
+              "Ballas Samir K"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "2012",
+            "abstract": "Increased sickling of erythrocytes following intravenous iodinated contrast has been described in patients with sickle cell disease. In vitro, the effect is correlated with the tonicity, viscosity, acidity, and ionic nature of contrast media. Less erythrocyte sickling is observed in vitro with second-generation low- and iso-osmolar contrast agents. Clinical impact of these newer intravenous contrast agents has not been investigated.",
+            "classification": {
+              "study_type": "Retrospective Cohort / Safety Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "現有文獻評估鐮刀型細胞病患者接受碘化顯影劑的安全性（PMID 22195536），以及鐮刀型細胞病的影像學表現（PMID 23321839）。Ioversol 在此脈絡下為診斷工具，而非治療藥物，文獻目的為確認安全使用而非治療療效。無任何血紅素病變的治療機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.9931636452674866,
+        "rank": 8107
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見複合骨骼-牙釉質發育缺陷症候群，無 Ioversol 相關臨床或文獻證據。預測可能源自 brachyolmia 節點的鄰近性擴散，無獨立機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9931627511978148,
+        "rank": 8112
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CDMP1（GDF5）基因突變引起的肢端中段骨骼發育不全，屬常染色體隱性遺傳病。無 Ioversol 介入此發育途徑的機轉依據，亦無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "myosclerosis",
+      "txgnn": {
+        "score": 0.9928586483001708,
+        "rank": 8338
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌肉廣泛纖維化硬化症，病因複雜（遺傳性或後天性）。Ioversol 無抗纖維化或肌肉組織修復機轉，無任何臨床試驗或文獻支持。TxGNN 預測為純計算推斷，可信度低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9925631880760192,
+        "rank": 8586
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見先天性眼發育缺陷合併肢根型骨骼發育不全症候群（PEX7 基因相關），無 Ioversol 相關治療證據。純預測，臨床可行性極低，不建議投入資源驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "alopecia",
+      "txgnn": {
+        "score": 0.992530643939972,
+        "rank": 8612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脫髮（尤其雄性脫髮或斑禿）與 Ioversol 無已知機轉關聯。無臨床試驗或文獻支持。知識圖譜中可能存在皮膚血管化或自體免疫的遠距間接連結，但無足夠生物合理性支撐再利用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ioversol",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

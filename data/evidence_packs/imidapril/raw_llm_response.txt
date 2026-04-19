@@ -1,0 +1,333 @@
+## Imidapril (DB11783) 藥物再利用證據分析
+
+> **注意**：雖資料標註 MoA 為 [Data Gap]，但 Imidapril 為已知 ACE 抑制劑（與卡托普利、依那普利同類），機轉推論以此為準。市場狀態「未上市」指本地市場（新加坡），該藥物已在日本、香港、中國上市。
+
+---
+
+```json
+{
+  "drug": "Imidapril",
+  "drugbank_id": "DB11783",
+  "inferred_moa": "ACE inhibitor — 抑制血管緊張素轉化酶，降低 Angiotensin II，擴張血管、降低醛固酮、抗纖維化、抗氧化",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "TxGNN 高分預測，但零臨床試驗、零文獻支持。ACE 抑制劑在 PAH（Group 1）療效未獲確認，且可能有血壓驟降風險。",
+      "mechanistic_link": "ACE 抑制 → Angiotensin II 下降 → 肺血管輕度舒張；但肺動脈高壓的核心機轉（ET-1 軸、PGI2 軸）不在 ACE 路徑上，機轉關聯薄弱。",
+      "safety_flag": "PAH 患者使用 ACE 抑制劑可能引發症狀性低血壓，需審慎評估",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "雖有 20 篇文獻，但逐一檢視後均為缺氧生理/病理基礎研究（腦神經、癌症缺氧、免疫），與 Imidapril 或 ACE 抑制劑治療此適應症無直接關聯。實質上等同零相關文獻。",
+      "mechanistic_link": "缺氧誘導性肺高壓（Group 3）以低氧性肺血管收縮和肺血管重塑為主，ACE 抑制劑機轉對此路徑影響有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine.",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "討論缺氧作為治療工具，與 ACE 抑制劑無關聯"
+        },
+        {
+          "pmid": "34535359",
+          "title": "Therapeutic Modification of Hypoxia.",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "缺氧調控治療綜述，未涉及 ACE 抑制劑"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "免疫微環境缺氧調控，與本適應症間接程度極低"
+        },
+        {
+          "pmid": "11172576",
+          "title": "Mechanisms of hypoxemia.",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "缺氧血症機轉基礎文獻，無藥物治療討論"
+        }
+      ]
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "零臨床試驗、零文獻。更關鍵的是，ACE 抑制劑在雙側腎動脈狹窄（renovascular HTN 常見原因）患者中屬相對禁忌，可能引發急性腎衰竭。",
+      "mechanistic_link": "理論上 ACE 抑制可降低全身血壓，但腎動脈狹窄患者腎灌注依賴 Angiotensin II 維持出球小動脈張力，ACE 抑制反致 GFR 急降。",
+      "safety_flag": "⚠️ 雙側腎動脈狹窄禁忌 — 此適應症使用 ACE 抑制劑存在嚴重安全顧慮",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "rationale": "雖 Imidapril 本身在此適應症無直接資料，但同類 ACE 抑制劑（enalapril、captopril）在高血壓腎病的腎保護有大量 RCT 基礎（如 REIN Trial）。Imidapril 在日本已核准用於糖尿病腎病，具間接類效應支持。",
+      "mechanistic_link": "ACE 抑制 → Angiotensin II 降低 → 出球小動脈舒張 → 腎絲球內壓下降 → 減少蛋白尿 → 延緩腎臟纖維化。Imidapril 在日本適應症已包含糖尿病腎病，機轉高度吻合。",
+      "class_effect_note": "Imidapril 日本核准適應症包含糖尿病腎病，提供部分橋接依據",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "Braddock syndrome 為罕見發育障礙（MAGEL2 基因相關），臨床試驗與文獻均為零。ACE 抑制劑與此遺傳性症候群的機轉關聯極度薄弱。TxGNN 預測可能為知識圖譜鄰近效應所致。",
+      "mechanistic_link": "未知。MAGEL2 基因影響晝夜節律、自律神經系統及 Prader-Willi 相關路徑，與 ACE 抑制的直接關聯無文獻依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.9833,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "零臨床試驗、零文獻。慢性肺心病（Cor pulmonale）以右心室衰竭為主，ACE 抑制劑在右心衰竭的角色仍有爭議，且缺乏 Imidapril 的直接資料。",
+      "mechanistic_link": "ACE 抑制可能通過降低後負荷、抗心肌纖維化略微改善右心功能，但肺心病根本原因在肺，ACE 路徑不能解決根源病理。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cerebrovascular disorder",
+      "txgnn_score": 0.9579,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "rationale": "此為本分析中證據最強適應症。有 6 篇以上直接以 Imidapril 命名的動物實驗（腦動脈瘤抑制、中風後腦水腫、中風預防），另有 ACE 抑制劑類效應的 meta-analysis。所有直接研究均為動物模型（SHR 大鼠），缺乏人體 RCT，故歸 L3。具備推進人體 pilot study 的科學依據。",
+      "mechanistic_link": "ACE 抑制 → Angiotensin II 下降 → 抗氧化應激（↓ ROS）、抗神經炎症（↓ NF-κB）、改善腦血流自調節、抑制基質金屬蛋白酶（MMP）→ 血管壁保護、減少腦水腫與梗塞面積。PMID 21937941 顯示此效果部分獨立於 ACE，涉及 ACE2/mas 軸。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21937941",
+          "title": "Imidapril inhibits cerebral aneurysm formation in an ACE-independent mechanism",
+          "year": "2012",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "直接以 Imidapril 為研究藥物，研究腦動脈瘤抑制，且發現 ACE 獨立機轉（ACE2/mas），提供新穎機轉視角"
+        },
+        {
+          "pmid": "10456289",
+          "title": "Post-stroke treatment with imidapril reduces learning deficits with less brain oedema",
+          "year": "1999",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "Imidapril 中風後治療直接研究，SHR 模型，顯示學習障礙改善與腦水腫減少"
+        },
+        {
+          "pmid": "8421827",
+          "title": "Prophylactic effect of imidapril on stroke in stroke-prone SHR",
+          "year": "1993",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "Imidapril 中風預防直接研究，中風易發性高血壓大鼠模型，有預防效果"
+        },
+        {
+          "pmid": "7963504",
+          "title": "Therapeutic effects of imidapril on cerebral lesions by MRI in malignant HTN",
+          "year": "1994",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "利用 MRI 評估 Imidapril 對腦部病變的治療效果，影像學證據具體"
+        },
+        {
+          "pmid": "10823269",
+          "title": "Protective effects of imidapril on laser-induced thrombosis in cerebral vessels",
+          "year": "2000",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "Imidapril 對腦血管血栓的直接保護效果，機轉涉及抗血小板/血管保護"
+        },
+        {
+          "pmid": "8437371",
+          "title": "Influence of imidapril on biochemical parameters in salt-loaded SHR",
+          "year": "1993",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "Imidapril 的生化指標研究，間接支持腦血管保護機轉"
+        },
+        {
+          "pmid": "22983755",
+          "title": "Post-stroke pneumonia prevention by ACE inhibitors: meta-analysis",
+          "year": "2012",
+          "study_type": "Meta-Analysis",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "ACE 抑制劑（類效應）預防中風後肺炎的 meta-analysis，為人體資料，Imidapril 可能包含其中"
+        },
+        {
+          "pmid": "7869607",
+          "title": "Histopathological investigation on salt-loaded SHR with brain lesions",
+          "year": "1994",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "腦部病理組織學研究，與 Imidapril 相關但為支持性資料"
+        },
+        {
+          "pmid": "9449390",
+          "title": "Cardiac MAP kinase activities in stroke-prone hypertensive rats",
+          "year": "1998",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "聚焦心臟 MAP kinase，間接相關，與腦血管的直接關聯較弱"
+        },
+        {
+          "pmid": "21981801",
+          "title": "Effect of perindopril (ACE inhibitor) on cognitive performance",
+          "year": "2011",
+          "study_type": "Clinical Trial",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "同類 ACE 抑制劑 perindopril 的人體認知功能研究，類效應橋接，但非 Imidapril"
+        }
+      ]
+    },
+    {
+      "disease_name": "spinal cord ischemia",
+      "txgnn_score": 0.8070,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "零臨床試驗、零文獻。雖然 ACE 抑制劑可能通過保護血管改善脊髓灌注，但無任何直接或間接證據支持此適應症。",
+      "mechanistic_link": "理論機轉：ACE 抑制 → 脊髓血管舒張 → 改善缺血後再灌注損傷；但屬純推測，無文獻依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn_score": 0.7749,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "rationale": "2 篇相關文獻均聚焦腦動脈瘤抑制與高血壓腦病變，屬間接預防性證據而非 ICH 急性治療。ACE 抑制劑在 ICH 急性期的角色有爭議（降壓過快可能加重缺血），但長期血壓控制可預防再出血。需區分預防與治療兩種情境。",
+      "mechanistic_link": "預防角色：長期 ACE 抑制 → 降血壓 → 減少腦小動脈破裂風險；PMID 21937941 顯示 Imidapril 可抑制腦動脈瘤形成（ACE 獨立機轉）→ 降低出血性轉化風險。急性治療角色：不建議。",
+      "safety_flag": "急性 ICH 期間避免激進降壓，此為預防性/長期管理情境的研究問題",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21937941",
+          "title": "Imidapril inhibits cerebral aneurysm formation in an ACE-independent mechanism",
+          "year": "2012",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "腦動脈瘤抑制與 ICH 風險降低有間接關聯，但屬預防而非治療，且為動物資料"
+        },
+        {
+          "pmid": "7869607",
+          "title": "Histopathological investigation on salt-loaded SHR with brain lesions",
+          "year": "1994",
+          "study_type": "Animal Study (Preclinical)",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "高血壓腦病變組織學研究，與 ICH 的直接關聯為間接推論"
+        }
+      ]
+    },
+    {
+      "disease_name": "brain stem infarction",
+      "txgnn_score": 0.7638,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "零臨床試驗、零文獻。TxGNN 評分低於 0.77，為本分析最低分。雖然腦幹梗塞與整體腦血管保護有概念關聯，但缺乏任何支持性資料。",
+      "mechanistic_link": "理論上：ACE 抑制 → 椎基底動脈系統血壓降低 → 減少腦幹缺血風險；但屬純推測，且腦幹梗塞機轉多樣（栓塞、小血管病），ACE 路徑影響有限。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "by_evidence_level": {
+      "L3": ["cerebrovascular disorder"],
+      "L4": ["malignant hypertensive renal disease", "intracerebral hemorrhage"],
+      "L5": [
+        "pulmonary hypertension with unclear multifactorial mechanism",
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "malignant renovascular hypertension",
+        "Braddock syndrome",
+        "chronic pulmonary heart disease",
+        "spinal cord ischemia",
+        "brain stem infarction"
+      ]
+    },
+    "priority_candidates": [
+      {
+        "rank": 1,
+        "disease": "cerebrovascular disorder",
+        "reason": "唯一有 Imidapril 直接動物實驗資料（6 篇），機轉明確，建議規劃 Phase 1/2 人體研究"
+      },
+      {
+        "rank": 2,
+        "disease": "malignant hypertensive renal disease",
+        "reason": "ACE 抑制劑類效應強，Imidapril 日本核准適應症包含糖尿病腎病，橋接依據充分"
+      },
+      {
+        "rank": 3,
+        "disease": "intracerebral hemorrhage",
+        "reason": "僅限預防性使用情境，需設計長期出血再預防的前瞻性研究"
+      }
+    ],
+    "safety_concerns": [
+      "malignant renovascular hypertension：雙側腎動脈狹窄禁忌，不建議進入研究",
+      "intracerebral hemorrhage 急性期：避免激進降壓，研究設計需排除急性期"
+    ],
+    "data_quality_note": "文獻中 'pulmonary hypertension owing to lung disease/hypoxia' 的 20 篇文獻經逐一審查後均為非相關之缺氧基礎研究，不應計入有效文獻支持。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣概覽
+
+| 適應症 | TxGNN 分 | 實際文獻 | 證據等級 | 決策 |
+|--------|---------|---------|---------|------|
+| **cerebrovascular disorder** | 0.958 | 6 篇直接(動物) | **L3** | **S2 Research Question** |
+| **malignant hypertensive renal disease** | 0.998 | 0（類效應） | **L4** | **S1 Research Question** |
+| **intracerebral hemorrhage** | 0.775 | 2 篇間接 | **L4** | **S1 Research Question** |
+| malignant renovascular hypertension | 0.998 | 0 | L5 ⚠️ | S0 Hold（安全顧慮） |
+| pulmonary hypertension（兩項） | 0.998 | 0（文獻不相關） | L5 | S0 Hold |
+| chronic pulmonary heart disease | 0.983 | 0 | L5 | S0 Hold |
+| Braddock syndrome | 0.997 | 0 | L5 | S0 Hold |
+| spinal cord ischemia | 0.807 | 0 | L5 | S0 Hold |
+| brain stem infarction | 0.764 | 0 | L5 | S0 Hold |
+
+> **關鍵發現**：高 TxGNN 分數（>0.99）≠ 高臨床證據。腦血管疾病雖分數較低（0.958），反而是唯一具備直接藥物實驗支持的適應症，說明預測分數需結合文獻審查才有決策意義。

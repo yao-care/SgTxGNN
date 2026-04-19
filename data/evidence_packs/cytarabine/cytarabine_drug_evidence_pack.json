@@ -1,0 +1,2666 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00987-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cytarabine",
+    "drugbank_id": "DB00987",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "small cell lung carcinoma",
+      "txgnn": {
+        "score": 0.9978335499763488,
+        "rank": 3628
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03101579",
+            "title": "Intrathecal Pemetrexed for Recurrent Leptomeningeal Metastasis From Non-small Cell Lung Cancer: A Prospective Pilot Clinical Trial",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 13,
+            "start_date": "2017-03-01",
+            "completion_date": "2019-01-05",
+            "brief_summary": "It has been proved that intrathecal chemotherapy is the main treatment strategy for leptomeningeal metastases. At present, the commonly used drugs for intrathecal chemotherapy include methotrexate, cytarabine, and liposomal cytarabine. In recent decades, no new effective drugs have been discovered for intrathecal chemotherapy. The recurrence of leptomeningeal metastases is inevitable even after aggressive treatment. There is no effective treatment for recurrent leptomeningeal metastases after co",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Pemetrexed（鞘注），適應症為 NSCLC 腦膜轉移，非 Cytarabine、非 SCLC，僅提供腦膜轉移治療背景參考。Phase 1，N=13，已完成。"
+            }
+          },
+          {
+            "nct_id": "NCT03507244",
+            "title": "Intrathecal-pemetrexed Combined With Concurrent Involved-field Radiotherapy for Leptomeningeal Metastasis From Solid Tumor: a Phase I/II Clinical Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2018-04-12",
+            "completion_date": "2019-07-30",
+            "brief_summary": "Intrathecal chemotherapy is one of the most important treatment modalities for leptomeningeal metastasis of solid tumors. In the previous retrospective study, it has been proved that concurrent radiotherapy and intrathecal methotrexate for leptomeningeal metastasis from solid tumors with adverse prognostic factors showed great effectiveness and safety. The preliminary results of investigators' current prospective clinical study (Involved-field Radiotherapy Combined With Concurrent Intrathecal-me",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同為 Pemetrexed 鞘注+放療組合治療 NSCLC LM，Phase 1/2，N=34，已完成。與 Cytarabine 無直接關聯，可作為腦膜轉移治療設計對照。"
+            }
+          },
+          {
+            "nct_id": "NCT00863512",
+            "title": "A Randomized Phase III Trial of Adjuvant Chemotherapy in Patients With Early Stage Non-Small Cell Lung Cancer Associated With Banking of Frozen Tumor Specimens and Collection of Gene Expression Profile Data",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 34,
+            "start_date": "2009-03",
+            "completion_date": "2012-11",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as vinorelbine, cisplatin, docetaxel, gemcitabine, and pemetrexed disodium, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Sometimes after surgery, the tumor may not need more treatment until it progresses. In this case, observation may be sufficient. It is not yet known whether chemotherapy is more effective than observation in treating patients who have undergone surgery for st",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NSCLC 術後輔助化療 Phase 3，已提前終止（N=34，目標 344），適應症為 NSCLC 而非 SCLC，且未明確含 Cytarabine，參考價值低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32183950",
+            "title": "ADORA1 Inhibition Promotes Tumor Immune Evasion by Regulating the ATF3-PD-L1 Axis.",
+            "authors": [
+              "Liu Hong",
+              "Kuang Xinwei",
+              "Zhang Yongchang",
+              "Ye Youqiong",
+              "Li Jialu"
+            ],
+            "journal": "Cancer cell",
+            "year": "2020",
+            "abstract": "Here, we show that tumor ADORA1 deletion suppresses cell growth in human melanoma cell lines in vitro and tumor development in vivo in immune-deficient xenografts. However, this deletion induces the upregulation of PD-L1 levels, which inactivates cocultured T cells in vitro, compromises anti-tumor immunity in vivo, and reduces anti-tumor efficacy in an immune-competent mouse model. Functionally, PD-1 mAb treatment enhances the efficacy of ADORA1-deficient or ADORA1 antagonist-treated melanoma an",
+            "classification": {
+              "study_type": "Basic Research",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38377785",
+            "title": "Efficacy and safety of intrathecal pemetrexed for TKI-failed leptomeningeal metastases from EGFR+ NSCLC: an expanded, single-arm, phase II clinical trial.",
+            "authors": [
+              "Fan C",
+              "Jiang Z",
+              "Teng C",
+              "Song X",
+              "Li L"
+            ],
+            "journal": "ESMO open",
+            "year": "2024",
+            "abstract": "This study aimed to evaluate the efficacy and safety of intrathecal pemetrexed (IP) for treating patients with leptomeningeal metastases (LM) from non-small-cell lung cancer (NSCLC) who progressed from epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitor (TKI) treatment in an expanded, prospective, single-arm, phase II clinical study (ChiCTR1800016615).",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "348088",
+            "title": "ARA-C analogs.",
+            "authors": [
+              "Alberto P"
+            ],
+            "journal": "Antibiotics and chemotherapy",
+            "year": "1978",
+            "abstract": "Ara-C, a phase-specific antitumor agent, is rapidly deactivated by the enzyme cytidine deaminase. A prolongation of the biological activity of ara-C can be achieved either by the concomitant use of a cytidine deaminase inhibitor or by the development of ara-C derivatives with increased resistance to deamination and a longer half-life in serum. Among such derivatives are cyclocytidine (cyclo-C), anhydro-ara-5-fluorocytidine (AAFC) and the N4-acyl-derivatives. AAFC has been recently shown to be ac",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "232239",
+            "title": "Combination radiotherapy and chemotherapy for small cell carcinoma of the lung.",
+            "authors": [
+              "Goldberg R S",
+              "Joss R A",
+              "Bedwinek J",
+              "Yates J W",
+              "Krakoff I H"
+            ],
+            "journal": "Medical and pediatric oncology",
+            "year": "1979",
+            "abstract": "Twenty previously untreated patients with small cell carcinoma of the lung were treated with cyclophosphamide, 400 mg/m2 and Adriamycin, 40 mg/m2 IV on day 1, followed by cytosine arabinoside, 20 mg/m2, every 12 hours subcutaneously on days 5--9; this regimen was repeated every 28 days. On days 14--28 of the first cycle, each patient received 3,000 rads to the primary tumor and whole brain. Following eleven courses, Adriamycin was discontinued and patients received cyclophosphamide, 800 mg/m2 IV",
+            "classification": {
+              "study_type": "Clinical Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9561978",
+            "title": "Carcinoma meningitis secondary to non-small cell lung cancer: combined modality therapy.",
+            "authors": [
+              "Chamberlain M C",
+              "Kormanik P"
+            ],
+            "journal": "Archives of neurology",
+            "year": "1998",
+            "abstract": "Leptomeningeal metastases (LM) are increasingly diagnosed as anticancer therapies become more effective and result in prolonged patient survival.",
+            "classification": {
+              "study_type": "Retrospective",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2157307",
+            "title": "Phase II trial of cytarabine, cisplatin and vindesine for advanced non-small cell lung cancer.",
+            "authors": [
+              "Bianco A",
+              "Perez J E",
+              "Machiavelli M",
+              "Leone B A",
+              "Romero A"
+            ],
+            "journal": "Tumori",
+            "year": "1990",
+            "abstract": "Thirty-two patients with advanced non-small cell lung cancer (NSCLC) were entered in this study to evaluate the efficacy and toxicity of a chemotherapy schedule including cisplatin (C) 40 mg/m2 intravenously (i.v.) on days 1-3; vindesine (V) 3 mg/m2 i.v. on day 1, and cytarabine (ara-C) 15 mg/m2 subcutaneously every 12 hours on days 1-3 (total dose: 90 mg/m2). Cisplatin was administered simultaneously with one dose of ara-C. Cycles were repeated every 28 days. Five patients out of 28 (18%) fully",
+            "classification": {
+              "study_type": "Phase II Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6264785",
+            "title": "Meningeal carcinomatosis in small cell carcinoma of the lung.",
+            "authors": [
+              "Aroney R S",
+              "Dalley D N",
+              "Chan W K",
+              "Bell D R",
+              "Levi J A"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1981",
+            "abstract": "Cerebral and meningeal metastases are increasingly important complications in small cell anaplastic carcinoma of the lung. In a study at this institution, 60 evaluable patients received intensive chemotherapy without prophylactic cranial irradiation or other prophylactic measures. The complete plus partial remission rate was 78 percent with a median survival of 49+ weeks (range eight to 106+ weeks) for those with a complete response and 18+ weeks (range six to 67 weeks) for those with a partial ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2156598",
+            "title": "A phase II trial of high-dose cytarabine and cisplatin in previously untreated non-small cell carcinoma of the lung. A Piedmont Oncology Association Study.",
+            "authors": [
+              "White D R",
+              "Powell B L",
+              "Craig J B",
+              "Stuart R K",
+              "Schnell F M"
+            ],
+            "journal": "Cancer",
+            "year": "1990",
+            "abstract": "Thirty-seven chemotherapy-naive patients with advanced non-small cell lung cancer (NSCLC) were treated with cytarabine (3 g/m2 intravenously [IV] during 3 hours) after IV bolus cisplatin (100 mg/m2 repeated every 3 weeks). Aside from nausea and vomiting, the principal toxicity was hematologic, with Grade IV myelosuppression in 32% and Grade III in 14%. Four patients died while on study. One complete and four partial responses were observed for an overall response rate of 14%. Responses were limi",
+            "classification": {
+              "study_type": "Phase II Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28223673",
+            "title": "[A Case of Meningeal Carcinomatosis and Small Cell Lung Carcinoma Effectively Treated Using a Multidisciplinary Approach].",
+            "authors": [
+              "Hikima Kota",
+              "Nagayama Mikie",
+              "Sato Takashi",
+              "Inoue Takashi",
+              "Nagai Mutsumi"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2017",
+            "abstract": "A 65-year-old man visited our hospital with dyspnea and cough. He was diagnosed with small cell lung carcinoma (cT4N2M1b, Stage IV). The disease partially responded to systemic chemotherapy. However, it was progressive and metastasized to the brain 3 months after 6 courses of chemotherapy. Therefore, whole brain irradiation was performed. Subsequently, weakness of the lower extremities and vesicorectal disturbances appeared. Meningeal carcinomatosis was diagnosed by enhanced magnetic resonance i",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2820740",
+            "title": "Cisplatin and cytarabine combination chemotherapy of advanced non-small cell lung cancer: a pilot study.",
+            "authors": [
+              "ten Velde G P",
+              "Greve L H",
+              "Blijham G H"
+            ],
+            "journal": "European journal of cancer & clinical oncology",
+            "year": "1987",
+            "abstract": "",
+            "classification": {
+              "study_type": "Pilot Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1360876",
+            "title": "Doxorubicin sensitivity pattern in a panel of small-cell lung-cancer cell lines: correlation to etoposide and vincristine sensitivity and inverse correlation to carmustine sensitivity.",
+            "authors": [
+              "Jensen P B",
+              "Roed H",
+              "Sehested M",
+              "Demant E J",
+              "Vindeløv L"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "1992",
+            "abstract": "The aim of our investigations is to evaluate whether the sensitivity patterns of small-cell lung-cancer (SCLC) cell lines in vitro can be used in evaluating new drugs and in selecting drugs for the optimization of combination therapy. In our attempts to obtain a panel of cell lines demonstrating differential patterns in sensitivity, we have developed three SCLC lines exhibiting different types of multidrug resistance (MDR). In the present investigations we compared the sensitivity patterns shown",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14653877",
+            "title": "Hypersensitivity pneumonitis in advanced non-small-cell lung cancer patients receiving gemcitabine and paclitaxel: report of two cases and a review of the literature.",
+            "authors": [
+              "Kudrik Fred J",
+              "Rivera M Patricia",
+              "Molina Paul L",
+              "Maygarden Susan",
+              "Socinski Mark A"
+            ],
+            "journal": "Clinical lung cancer",
+            "year": "2002",
+            "abstract": "Gemcitabine (2'-2'-difluorodeoxycytidine) is a recently developed pyrimidine antagonist that is structurally related to cytarabine (ara-C). When phosphorylated intracellularly, gemcitabine inhibits ribonucleotide reductase and arrests cell cycling in the S phase. Paclitaxel is a potent promoter and stabilizer of microtubule spindle formation and an inhibitor of cell cycling. In this report, we discuss 2 patients with advanced-stage non-small-cell lung cancer (NSCLC) treated with a combination of",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6095640",
+            "title": "Intensive cytosine arabinoside therapy in small cell carcinoma of the lung.",
+            "authors": [
+              "O'Donnell J F",
+              "Maurer L H",
+              "Forcier R J",
+              "LeMarbre P A",
+              "Quinn B M"
+            ],
+            "journal": "American journal of clinical oncology",
+            "year": "1984",
+            "abstract": "Cytosine arabinoside (Ara-C) 100 mg/m2/d was given by continuous infusion to patients with small cell carcinoma of the lung in two simultaneous studies. In a first study, 10 patients who had failed prior therapy were treated with Ara-C alone. No responses were seen in these heavily pretreated patients and toxicity was severe. In a second study, Ara-C was added to the known active combination of cyclophosphamide, adriamycin, and vincristine (CAV) in 25 patients with extensive-stage small cell car",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "75105",
+            "title": "Phase II study of anhydro-ara-5-fluorocytidine in adenocarcinoma of gastrointestinal tract, epidermoid carcinoma of lung, head and neck, breast carcinoma and small cell anaplastic carcinoma of lung. A study report of the E.O.R.T.C. early clinical trial cooperative group.",
+            "authors": [
+              "Alberto P",
+              "Rozencweig M",
+              "Gangji D",
+              "Brugarolas A",
+              "Cavalli F"
+            ],
+            "journal": "European journal of cancer",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2841844",
+            "title": "Etoposide (VP-16) and cytosine arabinoside in the treatment of relapsed small-cell lung cancer.",
+            "authors": [
+              "Margolin K",
+              "Akman S",
+              "Carr B",
+              "Leong L",
+              "Doroshow J"
+            ],
+            "journal": "American journal of clinical oncology",
+            "year": "1988",
+            "abstract": "Seventeen patients with small-cell lung cancer refractory to combination chemotherapy were entered in a study of VP-16 and infusional Ara-C. All patients were evaluable for response and 14 were evaluable for toxicity (three deaths that occurred after the first cycle of therapy were due to progressive tumor, and toxicity could not be evaluated in these three patients). Ara-C was given as a continuous intravenous infusion of 45 mg/m2/day for 72 h; VP-16 was given as three daily intravenous bolus d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9363869",
+            "title": "Randomized trial of chemotherapy and radiation therapy with or without warfarin for limited-stage small-cell lung cancer: a Cancer and Leukemia Group B study.",
+            "authors": [
+              "Maurer L H",
+              "Herndon J E",
+              "Hollis D R",
+              "Aisner J",
+              "Carey R W"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "1997",
+            "abstract": "Studies by the Veterans Administration Cooperative Studies Program and Cancer and Leukemia Group B (CALGB) suggested that the addition of warfarin to chemotherapy might enhance response and/or survival in small-cell lung cancer (SCLC). This randomized study evaluated the effect of warfarin with chemotherapy and radiation therapy in limited-stage SCLC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2992752",
+            "title": "Evaluation of drug efficacy in vitro using human small cell carcinoma of the lung spheroids.",
+            "authors": [
+              "Douple E B",
+              "Cate C C",
+              "Curphey T J",
+              "Pettengill O S",
+              "Sorenson G D"
+            ],
+            "journal": "Cancer",
+            "year": "1985",
+            "abstract": "Five human small cell carcinoma of the lung (SCCL) cell lines selected from 25 established cultures were grown as three-dimensional spheroid tumor models in either spinner culture or in static, agar-coated multiwells. Volume doubling times for the cell lines were approximately 4.5 days. Decreases in spheroid volumes after exposure to a variety of chemotherapeutic agents were used as indicators of drug activity. To further quantify cell killing in SCCL spheroids by chemotherapeutic agents 24 hour",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14584964",
+            "title": "Decitabine: 2'-deoxy-5-azacytidine, Aza dC, DAC, dezocitidine, NSC 127716.",
+            "authors": [],
+            "journal": "Drugs in R&D",
+            "year": "2003",
+            "abstract": "Decitabine [NSC 127716, DAC, dezocitidine, Aza dC, 2'-deoxy-5-azacytidine, Dacogen( trade mark )] is a deoxycytidine and cytarabine derivative with potent antileukaemic activity, originated by Pharmachemie. This antimetabolite is able to induce in vitro gene activation and cellular differentiation by a mechanism involving DNA hypomethylation. Decitabine has been studied in several phase II trials for solid tumours as well as in different types of leukaemia. The drug has been shown to have very l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2245491",
+            "title": "Cisplatin preceded by concurrent cytarabine and hydroxyurea: a pilot study based on an in vitro model.",
+            "authors": [
+              "Albain K S",
+              "Swinnen L J",
+              "Erickson L C",
+              "Stiff P J",
+              "Fisher R I"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "1990",
+            "abstract": "As previously reported, cytotoxic synergy is produced when clinically achievable concentrations of cytarabine (Ara-C) and hydroxyurea (HU) are used as potential inhibitors of in vitro DNA repair in cisplatin (cis-Pt)-treated human colon carcinoma cells. This pilot study was subsequently designed to duplicate the in vitro dose and schedule and to determine the toxicity of this three-drug combination in two cohorts of patients. 21 patients had received prior chemotherapy and 19 were not previously",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18600541",
+            "title": "Immunocytochemical detection of hENT1 and hCNT1 in normal tissues, lung cancer cell lines, and NSCLC patient samples.",
+            "authors": [
+              "Hubeek I",
+              "Giovannetti E",
+              "Broekhuizen A J F",
+              "Pastor-Anglada M",
+              "Kaspers G J L"
+            ],
+            "journal": "Nucleosides, nucleotides & nucleic acids",
+            "year": "2008",
+            "abstract": "Nucleoside transporters are essential for the cellular entry, efficacy, and cytotoxicity of several clinically important deoxynucleoside analogs (e.g., cytarabine and gemcitabine). We used immunohistochemistry to determine protein expression levels of the nucleoside transporters hENT1 and hCNT1 in NSCLC cell lines, NSCLC patient samples, and a variety of normal tissues. All 4 NSCLC cell lines expressed high to very high levels of both hENT1 and hCNT1. In NSCLC and normal tissues expression of hE",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SCLC 為高度增殖的神經內分泌腫瘤，S 期比例高，理論上對 Ara-C 敏感。1970-1990 年代文獻顯示 Ara-C+CDDP 組合對 SCLC/NSCLC 均有探索性應用。現行 SCLC 標準治療已被鉑類/依託泊苷取代，再利用價值在難治/腦膜轉移場景較高。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "primary pulmonary lymphoma",
+      "txgnn": {
+        "score": 0.997774302959442,
+        "rank": 3690
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00013533",
+            "title": "Pilot Study of Non-Myeloablative, HLA-Matched Allogeneic Stem Cell Transplantation for Pediatric Hematopoietic Malignancies",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2001-03-14",
+            "completion_date": "2015-05-07",
+            "brief_summary": "Background:\n\n* Allogeneic blood and marrow stem cell transplantation (BMT) plays an important role in the curative treatment of a number of pediatric malignancies. Unfortunately, the success of conventional allogeneic BMT is limited in part by the multiple toxicities associated with myeloablative preparative regimens.\n* Non-myeloablative pre-transplant regimens are associated with less toxic side effects than standard BMT. Recently, a novel immunosuppressive, non-myeloablative pre-transplant che",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HLA 配對異體移植小兒血液腫瘤，Early Phase 1，N=30，非肺淋巴瘤專屬，間接背景。"
+            }
+          },
+          {
+            "nct_id": "NCT02280525",
+            "title": "A Study of Umbilical Cord Blood-Derived Natural Killer Cells in Conjunction With Lymphodepleting Chemotherapy and Lenalidomide as Immunotherapy in Patients With Hematologic Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 8,
+            "start_date": "2015-03-05",
+            "completion_date": "2019-07-09",
+            "brief_summary": "The goal of this clinical research study is to find the highest tolerable dose of immune cells called natural killer (NK) cells that can be given with chemotherapy to patients with CLL. Researchers want to learn if adding NK cells will be effective in treating the disease. The safety of this will also be studied.\n\nNK cells may kill cancer cells that remain in your body after your last chemotherapy treatment. The NK cells will be separated from umbilical cord blood. The device used in the laborat",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "臍帶血 NK 細胞輸注 Phase 1，N=8，淋巴清除含 Cytarabine，免疫療法背景研究，直接性低。"
+            }
+          },
+          {
+            "nct_id": "NCT02443077",
+            "title": "A Randomized Double-Blind Phase III Study of Ibrutinib During and Following Autologous Stem Cell Transplantation Versus Placebo in Patients With Relapsed or Refractory Diffuse Large B-Cell Lymphoma of the Activated B-Cell Subtype",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 94,
+            "start_date": "2016-10-12",
+            "completion_date": "2026-12-23",
+            "brief_summary": "This randomized phase III trial studies ibrutinib to see how well it works compared to placebo when given before and after stem cell transplant in treating patients with diffuse large B-cell lymphoma that has returned after a period of improvement (relapsed) or does not respond to treatment (refractory). Before transplant, stem cells are taken from patients and stored. Patients then receive high doses of chemotherapy to kill cancer cells and make room for healthy cells. After treatment, the stem",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Ibrutinib+ASCT Phase 3（N=94，ACTIVE），ASCT 調理含 BEAM/Cytarabine，淋巴瘤治療平台研究，提供現代治療組合參考。"
+            }
+          },
+          {
+            "nct_id": "NCT01476839",
+            "title": "Phase I Study of Yttrium-90 Labeled Anti-CD25 (a-Tac) Monoclonal Antibody Plus BEAM for Autologous Hematopoietic Cell Transplantation (AHCT) in Patients With Primary Refractory or Relapsed Hodgkin Lymphoma, the \"a-Tac BEAM Regimen\"",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2012-11-09",
+            "completion_date": "2024-05-31",
+            "brief_summary": "This phase I clinical trial studies the side effects and best dose of radiolabeled monoclonal antibody therapy when given together with combination chemotherapy before stem cell transplant and to see how well it works in treating patients with primary refractory (did not respond to treatment) or relapsed (returned after treatment) Hodgkin lymphoma. Radiolabeled monoclonal antibodies can find cancer cells and carry cancer-killing substances to them without harming normal cells. Drugs used in chem",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Y-90 抗CD25+BEAM ASCT Phase 1 用於血液腫瘤（N=25），BEAM 含 Cytarabine，相關性中等。"
+            }
+          },
+          {
+            "nct_id": "NCT02356159",
+            "title": "A Phase I/II Open Label, Dose Escalation Study of Palifermin (Kepivance) in Persons Undergoing Unrelated Donor Allogeneic Hematopoietic Cell Transplantation",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2015-09-24",
+            "completion_date": "2025-03-25",
+            "brief_summary": "Background:\n\n\\- In allogeneic stem cell transplantation (SCT), stem cells are taken from a donor and given to a recipient. Sometimes the recipient's immune system destroys the donors' cells. Or donor immune cells attack the recipient's tissues, called graft-versus-host disease (GVHD). This is less likely when the recipient and donor have similar human leukocyte antigens (HLA). Researchers want to see if the drug palifermin improves the results of allogeneic SCT from HLA-matched unrelated donors.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Palifermin 用於非相關 HSCT 黏膜炎預防，Cytarabine 僅為調理方案背景藥，直接關聯性低。"
+            }
+          },
+          {
+            "nct_id": "NCT00345865",
+            "title": "Autologous Peripheral Blood Stem Cell Transplant for Patients With Lymphoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 473,
+            "start_date": "2005-08-24",
+            "completion_date": "2019-06-28",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as ifosfamide, etoposide, and carboplatin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as rituximab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Giving colony-stimulating factors, such as G-CSF, helps ste",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "ASCT 用於淋巴瘤 Phase 2，N=473，BEAM 調理方案含 Cytarabine。廣泛淋巴瘤適應症研究，間接支持 Cytarabine 在淋巴瘤中的安全性與療效。"
+            }
+          },
+          {
+            "nct_id": "NCT00452374",
+            "title": "A Phase I-II Study of Oxaliplatin, Fludarabine, Cytarabine and Rituximab in Patients With Richter's Transformation, Prolymphocytic Leukemia or Refractory/Relapsed B-Cell Chronic Lymphocytic Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2004-11",
+            "completion_date": "2011-01",
+            "brief_summary": "Primary Objectives:\n\n1. Determine the maximum tolerated dose (MTD) and dose-limiting toxicity (DLT) of oxaliplatin in combination with fludarabine, Ara-C and rituximab in patients with Richter's transformation, prolymphocytic leukemia (PLL), or refractory/relapsed B-cell chronic lymphocytic leukemia (CLL).\n2. Assess the complete response (CR) and partial response (PR) rate to combination therapy of oxaliplatin, fludarabine, Ara-C and rituximab in patients with Richter's transformation, PLL or re",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "OFAR 方案（Oxaliplatin+Fludarabine+Cytarabine+Rituximab）用於 Richter's Syndrome（CLL 轉化淋巴瘤），Phase 1/2，N=48，已完成。Cytarabine 為核心藥物，直接相關性最高，但適應症為 Richter's 轉化而非原發性肺淋巴瘤。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26256690",
+            "title": "Synchronous mantle cell lymph node lymphoma and pulmonary adenocarcinoma: a case report with literature review.",
+            "authors": [
+              "Braham Emna",
+              "Zarrouk Mourad",
+              "Mlika Mouna",
+              "Kilani Tarek",
+              "El Mezni Faouzi"
+            ],
+            "journal": "The clinical respiratory journal",
+            "year": "2017",
+            "abstract": "Coexistence of mantle cell lymphoma and lung adenocarcinoma is extremely rare. The aim of this study is to present the first case of incidental discovery of primary lung adenocarcinoma associated to lymph node mantle cell lymphoma.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15957966",
+            "title": "Management of leptomeningeal malignancy.",
+            "authors": [
+              "Pentheroudakis George",
+              "Pavlidis Nicholas"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2005",
+            "abstract": "Leptomeningeal carcinomatosis is defined as malignant infiltration of the pia matter and arachnoid membrane. Leukaemias and lymphomas, lung, breast cancer and melanoma are the primary tumours commonly associated with leptomeningeal carcinomatosis. Diagnosis is based on compatible symptoms and signs, cytological evidence of malignancy in the cerebrospinal fluid, and neuroimaging studies. Treatment is largely palliative (median survival 2-4 months). Patients with lympomatous or leukaemic meningiti",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12860951",
+            "title": "Chemotherapy alone as initial treatment for primary CNS lymphoma in patients older than 60 years: a multicenter phase II study (26952) of the European Organization for Research and Treatment of Cancer Brain Tumor Group.",
+            "authors": [
+              "Hoang-Xuan K",
+              "Taillandier L",
+              "Chinot O",
+              "Soubeyran P",
+              "Bogdhan U"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2003",
+            "abstract": "To assess the efficacy and toxicity of chemotherapy alone in patients older than 60 years with primary CNS lymphoma.",
+            "classification": {
+              "study_type": "Phase II Trial",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12241119",
+            "title": "Combination chemotherapy with high-dose methotrexate and cytarabine with or without brain irradiation for primary central nervous system lymphomas.",
+            "authors": [
+              "Calderoni Antonello",
+              "Aebi Stefan"
+            ],
+            "journal": "Journal of neuro-oncology",
+            "year": "2002",
+            "abstract": "Due to the limited clinical experience there is no standard treatment of primary CNS-lymphomas (PCNSL). Based on the actual data it seems that high-dose methotrexate (HTMRX) and high-dose cytarabine (ARA-C) qualify as treatments of choice for this disease. The role of radiation therapy is still unclear, due to the high long-term toxicity, especially in elderly patients. We treated 14 HIV negative patients with 4-5 cycles of methotrexate (MTX) at 3500 mg/m2 and MTX 15 mg intrathecal weekly or MTX",
+            "classification": {
+              "study_type": "RCT/Phase II",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11244328",
+            "title": "Combined treatment with high-dose methotrexate, vincristine and procarbazine, without intrathecal chemotherapy, followed by consolidation radiotherapy for primary central nervous system lymphoma in immunocompetent patients.",
+            "authors": [
+              "Ferreri A J",
+              "Reni M",
+              "Dell'Oro S",
+              "Ciceri F",
+              "Bernardi M"
+            ],
+            "journal": "Oncology",
+            "year": "2001",
+            "abstract": "To assess the feasibility and the activity, as well as the efficacy to treat meninges, of chemotherapy (CHT) containing high-dose methotrexate (HD-MTX) followed by radiation therapy (RT), without intrathecal CHT, in patients with primary central nervous system lymphoma.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38555923",
+            "title": "Anti-CD30 CAR T cells as consolidation after autologous haematopoietic stem-cell transplantation in patients with high-risk CD30+ lymphoma: a phase 1 study.",
+            "authors": [
+              "Grover Natalie S",
+              "Hucks George",
+              "Riches Marcie L",
+              "Ivanova Anastasia",
+              "Moore Dominic T"
+            ],
+            "journal": "The Lancet. Haematology",
+            "year": "2024",
+            "abstract": "Chimeric antigen receptor (CAR) T cells targeting CD30 are safe and have promising activity when preceded by lymphodepleting chemotherapy. We aimed to determine the safety of anti-CD30 CAR T cells as consolidation after autologous haematopoietic stem-cell transplantation (HSCT) in patients with CD30+ lymphoma at high risk of relapse.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41117344",
+            "title": "Randomized Phase II Study of Brentuximab-Vedotin With High-Dose Chemotherapy in CD30 Positive Lymphoma.",
+            "authors": [
+              "Rausch Christian",
+              "Bacher Ulrike",
+              "Rabaglio Manuela",
+              "Vorburger Corinne",
+              "Klingenberg Anke"
+            ],
+            "journal": "Hematological oncology",
+            "year": "2025",
+            "abstract": "Patients with Hodgkin lymphoma (HL) or peripheral T-cell lymphoma (PTCL) who relapse after high-dose chemotherapy (HDCT) have a dismal prognosis. Brentuximab-vedotin (BV) is a CD30-targeting antibody-drug-conjugate (ADC) used in first-line-, salvage-, and maintenance-therapy of HL, as well as first-line- and salvage-therapy of PTCL. In phase I of this trial, we could show that BV can safely be added to BeEAM-HDCT (bendamustine, etoposide, cytarabine and melphalan). Here, we report the randomized",
+            "classification": {
+              "study_type": "Phase II RCT",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29217775",
+            "title": "Chemotherapy-induced differential cell cycle arrest in B-cell lymphomas affects their sensitivity to Wee1 inhibition.",
+            "authors": [
+              "Wang Xiaoguang",
+              "Chen Zhangguo",
+              "Mishra Ameet K",
+              "Silva Alexa",
+              "Ren Wenhua"
+            ],
+            "journal": "Haematologica",
+            "year": "2018",
+            "abstract": "Chemotherapeutic agents, e.g., cytarabine and doxorubicin, cause DNA damage. However, it remains unknown whether such agents differentially regulate cell cycle arrest in distinct types of B-cell lymphomas, and whether this phenotype can be exploited for developing new therapies. We treated various types of B cells, including primary and B lymphoma cells, with cytarabine or doxorubicin, and determined DNA damage responses, cell cycle regulation and sensitivity to a Wee1 inhibitor. We found that c",
+            "classification": {
+              "study_type": "Translational Research",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37886671",
+            "title": "Central Nervous System (CNS) T-Cell Lymphoma as the Presenting Manifestation of Late-Onset Combined Immunodeficiency.",
+            "authors": [
+              "Jeffrey Anthony",
+              "Coyle Luke A",
+              "Samaranayake Dishan",
+              "Boyle Therese",
+              "Drummond James"
+            ],
+            "journal": "Case reports in hematology",
+            "year": "2023",
+            "abstract": "Late-onset combined immunodeficiency (LOCID), considered now a subset of common variable immunodeficiency (CVID) disorders, is characterized by a predominantly T-cell immune defect. LOCID has a distinct phenotype from CVID with a greater risk of lymphoproliferative complications. As compared to the CVID cohort, LOCID patients also have increased rates of splenomegaly and granulomatous disease. We report a case of central nervous system (CNS) T-cell lymphoma in a 67-year-old male as the presentin",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7804123",
+            "title": "Intensive therapy and autotransplantation in Hodgkin's disease.",
+            "authors": [
+              "Reece D E",
+              "Phillips G L"
+            ],
+            "journal": "Stem cells (Dayton, Ohio)",
+            "year": "1994",
+            "abstract": "Intensive therapy and autologous marrow or peripheral blood stem cell transplantation is often utilized in Hodgkin's disease patients whose disease has progressed after primary conventional chemotherapy. A number of studies have described long-term disease-free survival in up to 50% of transplanted patients. High-dose chemotherapy conditioning regimens such as \"CBV\" or \"BEAM\" have been used more often than regimens containing total body irradiation. Usually unpurged autologous bone marrow has be",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11380234",
+            "title": "CHOD/BVAM regimen plus radiotherapy in patients with primary CNS non-Hodgkin's lymphoma.",
+            "authors": [
+              "Bessell E M",
+              "Graus F",
+              "López-Guillermo A",
+              "Villá S",
+              "Verger E"
+            ],
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2001",
+            "abstract": "To assess the efficacy and toxicity, including long-term neurotoxicity, of combined therapy with the CHOD/BVAM regimen given before cranial radiotherapy in the treatment of primary CNS lymphoma (PCNSL).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38024477",
+            "title": "BendaEAM versus BEAM as conditioning regimen for ASCT in patients with relapsed lymphoma (BEB): a multicentre, randomised, phase 2 trial.",
+            "authors": [
+              "Keil Felix",
+              "Müller Antonia M S",
+              "Berghold Andrea",
+              "Riedl Regina",
+              "Buxhofer-Ausch Veronika"
+            ],
+            "journal": "EClinicalMedicine",
+            "year": "2023",
+            "abstract": "Replacement of carmustine (BCNU) in the BEAM regimen (BCNU, etoposide, cytarabine, melphalan) with bendamustine (BendaEAM) before autologous stem cell transplantation (ASCT) is feasible in lymphoma. However, randomised trials are lacking. Here, we present the first trial addressing this topic.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27165090",
+            "title": "Modified BEAM with triple autologous stem cell transplantation for patients with relapsed aggressive non-Hodgkin lymphoma.",
+            "authors": [
+              "Hohloch Karin",
+              "Zeynalova Samira",
+              "Chapuy Björn",
+              "Pfreundschuh Michael",
+              "Loeffler Markus"
+            ],
+            "journal": "Annals of hematology",
+            "year": "2016",
+            "abstract": "Treatment of relapse and primary progression in aggressive lymphoma remains unsatisfactory; outcome is still poor. Better treatment strategies are much needed for this patient population. The R1 study is a prospective multi-center phase I/II study evaluating a dose finding approach with a triple transplant regimen in four BEAM dose levels in patients with relapsed aggressive non-Hodgkin lymphoma. The aim of the study was to determine feasibility, toxicity, and remission rate. In a total of 39 pa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39935703",
+            "title": "Low Rate of Central Nervous System Relapse of Diffuse Large B-Cell Lymphoma Despite Limited Use of Intrathecal Prophylaxis.",
+            "authors": [
+              "Aleem Aamer",
+              "Algahtani Farjah",
+              "Alzahrani Musa",
+              "Jamal Ahmed",
+              "AlSaleh Khalid"
+            ],
+            "journal": "Journal of hematology",
+            "year": "2025",
+            "abstract": "The incidence of central nervous system (CNS) relapse in diffuse large B-cell lymphoma (DLBCL) varies, and the optimum strategy of CNS prophylaxis remains to be defined. We aimed to evaluate the incidence of CNS relapse in DLBCL patients and the role of CNS prophylaxis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2233520",
+            "title": "Phase II study of MOPLACE chemotherapy for patients with previously treated Hodgkin's disease: a CALGB study.",
+            "authors": [
+              "Schulman P",
+              "McCarroll K",
+              "Cooper M R",
+              "Norton L",
+              "Barcos M"
+            ],
+            "journal": "Medical and pediatric oncology",
+            "year": "1990",
+            "abstract": "To further evaluate possible non-cross-resistant regimens in Hodgkin's disease, a phase II trial utilizing antimetabolites and etoposide was initiated by the Cancer and Leukemia Group B (CALGB). Etoposide was included because of its known efficacy in relapsed Hodgkin's disease and to evaluate for synergy with an alkylating agent and vincristine. Cytosine arabinoside and methotrexate were included to evaluate their effectiveness in rapidly growing resistant disease. Forty-two patients with previo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1635613",
+            "title": "[Diagnosis and therapy of meningosis neoplastica].",
+            "authors": [
+              "Schabet M",
+              "Bamberg M",
+              "Dichgans J"
+            ],
+            "journal": "Der Nervenarzt",
+            "year": "1992",
+            "abstract": "Metastatic leptomeningeal disease occurs in 5-30% of patients with breast or lung cancer, malignant melanoma, non-Hodgkin's lymphoma, leukemia and primary malignant brain tumors. Intrathecal chemotherapy with methotrexate, cytarabine, or thiotepa combined with irradiation of the site of major involvement increases overall median survival from 1-2 months to 2-7 months. Clinical outcome is limited by progression of systemic or CNS disease and by the neurotoxic side effects of therapy, i.e. leukoen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22114578",
+            "title": "Mediastinal choriocarcinoma masquerading as relapsed hodgkin lymphoma.",
+            "authors": [
+              "Lam Selay",
+              "Rizkalla Kamilia",
+              "Hsia Cyrus C"
+            ],
+            "journal": "Case reports in oncology",
+            "year": "2011",
+            "abstract": "Primary mediastinal choriocarcinoma is a rare extragonadal germ cell malignancy. We describe the first case of a patient who developed mediastinal choriocarcinoma after treatment for Hodgkin lymphoma (HL). A 25-year-old man with classic HL, nodular sclerosis subtype, underwent treatment with splenectomy followed by radiation therapy. Unfortunately, his disease relapsed with a paraspinal mass, and he was subsequently treated with MOPP (mechlorethamine, Oncovin, procarbazine, and prednisone) alter",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32922862",
+            "title": "Interstitial pneumonitis during rituximab-containing chemotherapy for primary central nervous system lymphomas: a case report and review of literature.",
+            "authors": [
+              "Wu Yuchen",
+              "Sun Xuefei",
+              "Liu Jing",
+              "Qian Jun",
+              "Bai Xueyan"
+            ],
+            "journal": "Chinese neurosurgical journal",
+            "year": "2018",
+            "abstract": "Primary central nervous system lymphoma(PCNSL) is a rare kind of non-Hodgkin lymphoma. Rituximab combined with high-dose methotrexate, cytarabine and dexamethasone (R-MAD regimen) were reported effective for PCNSL patients. Rituximab can cause several side effects, including fever, chills and rigors.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10340048",
+            "title": "Second lung adenocarcinoma after combination chemotherapy in two patients with primary non-Hodgkin's lymphoma.",
+            "authors": [
+              "Yamada T",
+              "Shinohara K",
+              "Takeda K",
+              "Kameda N",
+              "Katsuki K"
+            ],
+            "journal": "Japanese journal of clinical oncology",
+            "year": "1999",
+            "abstract": "We report a rare complication of a secondary malignant solid tumor in two patients with non-Hodgkin's malignant lymphoma who developed lung adenocarcinoma after treatments with combination chemotherapies. The first was a case of primary malignant lymphoma of the cervical spinal cord which had been previously treated with radiation to the spinal lesion and combination chemotherapies and entered complete remission. The patient was further treated for relapse with autologous bone marrow transplanta",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6381657",
+            "title": "High-dose polychemotherapy with autologous bone marrow transplantation in children with relapsed lymphomas.",
+            "authors": [
+              "Hartmann O",
+              "Pein F",
+              "Beaujean F",
+              "Kalifa C",
+              "Patte C"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "1984",
+            "abstract": "Sixteen children with non-Hodgkin's lymphoma (NHL) who had relapsed were treated with high-dose chemotherapy with BCNU, cyclophosphamide, cytarabine, 6-thioguanine (high-dose chemotherapy [HDC]) and autologous bone marrow transplantation (ABMT). Eleven complete responses were obtained and five patients remain in prolonged complete unmaintained remission 77+ to 152+ weeks after treatment. The best results were obtained in patients with CNS involvement and when this regimen was used after complete",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cytarabine 為淋巴瘤標準化療核心藥物（BEAM 高劑量調理方案、R-ESHAP 等），對 B 細胞淋巴瘤 DNA 合成有直接抑制效果。原發性肺淋巴瘤（以 MALT 淋巴瘤或 DLBCL 為主）在進展期或 CNS 受累情況下，含 Ara-C 方案（HD-MTX+AraC）具強烈理論依據及間接臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "well-differentiated fetal adenocarcinoma of the lung",
+      "txgnn": {
+        "score": 0.9976487755775452,
+        "rank": 3846
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高分化胎兒型肺腺癌（WDFA）為極罕見 WNT 路徑活化肺腫瘤，無 Cytarabine 相關臨床或基礎研究。TxGNN 預測可能基於肺癌通用知識圖譜節點關聯，缺乏疾病特異性生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary blastoma",
+      "txgnn": {
+        "score": 0.9976092576980592,
+        "rank": 3897
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺母細胞瘤（Pulmonary blastoma）為罕見雙相性腫瘤，偶見文獻以鉑類/依託泊苷為基礎治療，無 Cytarabine 直接臨床或體外研究。KG 預測可能因肺癌/胚胎性腫瘤節點關聯產生，無可操作性依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "upper aerodigestive tract neoplasm",
+      "txgnn": {
+        "score": 0.9949076771736144,
+        "rank": 6559
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32183950",
+            "title": "ADORA1 Inhibition Promotes Tumor Immune Evasion by Regulating the ATF3-PD-L1 Axis.",
+            "authors": [
+              "Liu Hong",
+              "Kuang Xinwei",
+              "Zhang Yongchang",
+              "Ye Youqiong",
+              "Li Jialu"
+            ],
+            "journal": "Cancer cell",
+            "year": "2020",
+            "abstract": "Here, we show that tumor ADORA1 deletion suppresses cell growth in human melanoma cell lines in vitro and tumor development in vivo in immune-deficient xenografts. However, this deletion induces the upregulation of PD-L1 levels, which inactivates cocultured T cells in vitro, compromises anti-tumor immunity in vivo, and reduces anti-tumor efficacy in an immune-competent mouse model. Functionally, PD-1 mAb treatment enhances the efficacy of ADORA1-deficient or ADORA1 antagonist-treated melanoma an",
+            "classification": {
+              "study_type": "Basic Research",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16041392",
+            "title": "Genetic factors influencing pyrimidine-antagonist chemotherapy.",
+            "authors": [
+              "Maring J G",
+              "Groen H J M",
+              "Wachters F M",
+              "Uges D R A",
+              "de Vries E G E"
+            ],
+            "journal": "The pharmacogenomics journal",
+            "year": "2005",
+            "abstract": "Pyrimidine antagonists, for example, 5-fluorouracil (5-FU), cytarabine (ara-C) and gemcitabine (dFdC), are widely used in chemotherapy regimes for colorectal, breast, head and neck, non-small-cell lung cancer, pancreatic cancer and leukaemias. Extensive metabolism is a prerequisite for conversion of these pyrimidine prodrugs into active compounds. Interindividual variation in the activity of metabolising enzymes can affect the extent of prodrug activation and, as a result, act on the efficacy of",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36656600",
+            "title": "Malignant Neoplasms of the Gastrointestinal Tract After Blood or Marrow Transplant.",
+            "authors": [
+              "McDonald Andrew",
+              "Dai Chen",
+              "Meng Qingrui",
+              "Hageman Lindsey",
+              "Richman Joshua"
+            ],
+            "journal": "JAMA oncology",
+            "year": "2023",
+            "abstract": "Survivors of blood or marrow transplant (BMT) are at increased risk of subsequent malignant neoplasms (SMNs). Cancers of the gastrointestinal (GI) system are of special interest because their clinical behavior is often aggressive, necessitating early detection by increasing awareness of high-risk populations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2589230",
+            "title": "Combination chemotherapy with cytosine arabinoside (Ara-C) and cis-diamminedichloroplatinum (CDDP) for squamous cancers of the upper aerodigestive tract.",
+            "authors": [
+              "Margolin K",
+              "Doroshow J",
+              "Leong L",
+              "Akman S",
+              "Carr B I"
+            ],
+            "journal": "American journal of clinical oncology",
+            "year": "1989",
+            "abstract": "Based on the demonstration of in vitro and in vivo synergy between cytosine arabinoside (Ara-C) and cis-diamminedichloroplatinum (CDDP), we designed a Phase II trial of Ara-C plus CDDP for patients with advanced squamous cancers of the head and neck and esophagus. Sixteen patients were treated on a unique schedule of continuous-infusion Ara-C, 30 mg/m2/day over 72 h, plus CDDP, 30 mg/m2/day at hours 12, 36, and 60 of the Ara-C infusion. The objective response rate was 38% (95% confidence limits ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15548350",
+            "title": "Chemotherapy-induced and/or radiation therapy-induced oral mucositis--complicating the treatment of cancer.",
+            "authors": [
+              "Naidu Maddireddy Umameshwar Rao",
+              "Ramana Gogula Venkat",
+              "Rani Pingali Usha",
+              "Mohan Iyyapu Krishna",
+              "Suman Avula"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2004",
+            "abstract": "The term mucositis is coined to describe the adverse effects of radiation and chemotherapy treatments. Mucositis is one of the most common adverse reactions encountered in radiation therapy for head and neck cancers, as well as in chemotherapy, in particular with drugs affecting DNA synthesis (S-phase-specific agents such as fluorouracil, methotrexate, and cytarabine). Mucositis may limit the patient's ability to tolerate chemotherapy or radiation therapy, and nutritional status is compromised. ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31689961",
+            "title": "The Association and Significance of p53 in Gynecologic Cancers: The Potential of Targeted Therapy.",
+            "authors": [
+              "Nakamura Mitsuhiro",
+              "Obata Takeshi",
+              "Daikoku Takiko",
+              "Fujiwara Hiroshi"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "abstract": "Dysfunction of p53 is observed in the many malignant tumors. In cervical cancer, p53 is inactivated by degradation through the complex with human papilloma virus (HPV) oncoprotein E6 and E6-associated protein (E6AP), an E3 ubiquitin protein ligase. In endometrial cancer, overexpression of p53 in immunohistochemistry is a significant prognostic factor. A discrepancy between p53 overexpression and TP53 mutations is observed in endometrioid endometrial cancer, indicating that the accumulation of p5",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4515579",
+            "title": "[Otitis and leukemia].",
+            "authors": [
+              "Lallemant Y",
+              "Gehanno P",
+              "Flieder J"
+            ],
+            "journal": "Annales d'oto-laryngologie et de chirurgie cervico faciale : bulletin de la Societe d'oto-laryngologie des hopitaux de Paris",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1332622",
+            "title": "[New antitumor antimetabolites--gemcitabine and DMDC].",
+            "authors": [
+              "Matsui K",
+              "Fukuoka M"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "1992",
+            "abstract": "Gemcitabine (dFdC) and DMDC are new antimetabolites with good antitumor activities against various tumors which include human leukemic cell lines and a number of rodent and human solid tumors and human tumor. They are structurally related to cytarabine (Ara-C) which is known as one of the most effective drugs against adult acute leukemia, but many solid tumors are insensitive not been found to the drug. Gemcitabine acts as an inhibitor of ribonucleoside diphosphate reductase and inhibits DNA syn",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9588546",
+            "title": "Chemotherapy for advanced esthesioneuroblastoma: the Mayo Clinic experience.",
+            "authors": [
+              "McElroy E A",
+              "Buckner J C",
+              "Lewis J E"
+            ],
+            "journal": "Neurosurgery",
+            "year": "1998",
+            "abstract": "Esthesioneuroblastoma (olfactory neuroblastoma) is a rare neuroendocrine tumor that arises in the upper nasal cavity from the olfactory epithelium. Little information is available regarding the treatment of these tumors with chemotherapy in the advanced setting. A retrospective review of patients with recurrent esthesioneuroblastoma treated with chemotherapy between 1970 and 1995 at the Mayo Clinic was undertaken to gain more information regarding the efficacy of chemotherapy treatment for these",
+            "classification": {
+              "study_type": "Retrospective Case Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7803905",
+            "title": "Therapy of Burkitt and other B-cell acute lymphoblastic leukaemia and lymphoma: experience with the LMB protocols of the SFOP (French Paediatric Oncology Society) in children and adults.",
+            "authors": [
+              "Patte C",
+              "Michon J",
+              "Frappaz D",
+              "Leverger G",
+              "Rubie H"
+            ],
+            "journal": "Bailliere's clinical haematology",
+            "year": "1994",
+            "abstract": "Burkitt's lymphoma and L3-ALL are different forms of the same disease: B-cell disease. Therapeutic improvement has been considerable over the past 10 years. In France, four consecutive multicentre LMB studies of the SFOP greatly contributed to this improvement. An overall cure rate of 90% can now be achieved in children with a short intensive risk adapted polychemotherapy regimen based on high-dose fractionated CPM, HD MTX (3 g/m2), Ara-C in continuous infusion. For patients with ALL or with CNS",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33120806",
+            "title": "Clinical characteristics and management of primary granulocytic sarcoma of the oral cavity: A case report and literature review.",
+            "authors": [
+              "Hu Yun-Gang",
+              "Deng Xiao-Hua",
+              "Lei Wei",
+              "Li Xiao-Lin"
+            ],
+            "journal": "Medicine",
+            "year": "2020",
+            "abstract": "Granulocytic sarcoma (GS) is a commonly occurring tumor comprising immature myeloid cells, which are usually related to acute or chronic myelocytic leukemia. The tumor rarely precedes leukemia without bone marrow involvement and is called primary GS. Although primary GS can occur in any body part, the involvement of the oral cavity is uncommon.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4623637",
+            "title": "The polypeptides of adenovirus-infected cells.",
+            "authors": [
+              "Russell W C",
+              "Skehel J J"
+            ],
+            "journal": "The Journal of general virology",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33619101",
+            "title": "Depletion of H3K36me2 recapitulates epigenomic and phenotypic changes induced by the H3.3K36M oncohistone mutation.",
+            "authors": [
+              "Rajagopalan Kartik N",
+              "Chen Xiao",
+              "Weinberg Daniel N",
+              "Chen Haifen",
+              "Majewski Jacek"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2021",
+            "abstract": "Hotspot histone H3 mutations have emerged as drivers of oncogenesis in cancers of multiple lineages. Specifically, H3 lysine 36 to methionine (H3K36M) mutations are recurrently identified in chondroblastomas, undifferentiated sarcomas, and head and neck cancers. While the mutation reduces global levels of both H3K36 dimethylation (H3K36me2) and trimethylation (H3K36me3) by dominantly inhibiting their respective specific methyltransferases, the relative contribution of these methylation states to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22036054",
+            "title": "Therapy-related acute leukemia with mixed phenotype and t(9;22)(q32;q11.2): a case report and review of the literature.",
+            "authors": [
+              "Cho Jin-Hee",
+              "Hur Mina",
+              "Moon Hee-Won",
+              "Yun Yeo-Min",
+              "Ko Young Sin"
+            ],
+            "journal": "Human pathology",
+            "year": "2012",
+            "abstract": "Therapy-related acute leukemia showing mixed phenotype is extremely rare. We report a 49-year-old woman who presented with palpable masses in her neck and back. She had received systemic chemotherapy (adriamycin and cisplatin) and radiotherapy for endometrial adenocarcinoma 7 years before. Her peripheral blood and bone marrow showed increased blasts, which coexpressed myeloid (CD13, CD33, and myeloperoxidase) and B-lymphoid antigens (CD19 and CD79a). Cytogenetic analysis showed a karyotype of 46",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12808655",
+            "title": "Radiation therapy for esthesioneuroblastoma: rationale for elective neck irradiation.",
+            "authors": [
+              "Monroe Alan T",
+              "Hinerman Russell W",
+              "Amdur Robert J",
+              "Morris Christopher G",
+              "Mendenhall William M"
+            ],
+            "journal": "Head & neck",
+            "year": "2003",
+            "abstract": "Esthesioneuroblastoma is an uncommon malignancy of neural crest origin arising in the upper nasal cavity. We describe the University of Florida experience using radiation therapy (RT) in the treatment of this neoplasm, particularly the use of elective nodal irradiation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12110494",
+            "title": "Use of high-dose cytarabine to enhance cisplatin cytotoxicity-effects on the response and overall survival rates of advanced head and neck cancer patients.",
+            "authors": [
+              "Jelić S",
+              "Stamatović Lj",
+              "Vucićević S",
+              "Petrović Z",
+              "Kreacić M"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2002",
+            "abstract": "It has been reported that cytarabine, acting by at least two different mechanisms, enhances the cytotoxic effect of cisplatin in in vitro systems. The aim of this open, prospective, randomised study was to estimate the eventual benefits from the inclusion of high-dose cytarabine in the cisplatin-5-fluorouracil (5-FU) regimen as first-line treatment of patients with advanced head and neck cancer. The study recruited successive patients with unresectable grade I/II head and neck cancer who were no",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1279038",
+            "title": "Relapse in Burkitt's lymphoma.",
+            "authors": [
+              "Nkrumah F K",
+              "Perkins I V"
+            ],
+            "journal": "International journal of cancer",
+            "year": "1976",
+            "abstract": "Of 109 patients with histologically confirmed Burkitt's lymphoma who completed a course of chemotherapy, 86 (79%) achieved complete remission. Forty-five (52%) of patients with initial complete remission relapsed with tumour over an observation period ranging from 2 years to over 5 years. Relapse was more common in patients who initially presented with abdominal or central nervous system (CNS) involvement than in patients who presented with localized facial tumours (p less than 0.01). Anatomical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25933603",
+            "title": "Plasmablastic lymphoma of the oral cavity with breast recurrence: a case report.",
+            "authors": [
+              "Samoon Zarka",
+              "Idrees Romana",
+              "Masood Nehal",
+              "Ansari Tayyaba Zehra"
+            ],
+            "journal": "BMC research notes",
+            "year": "2015",
+            "abstract": "Plasmablastic lymphoma is an aggressive variant of diffuse large B cell lymphoma, mostly found in the oral cavity and associated with human immunodeficiency virus. There are no clear guidelines for its treatment. Therapies more intensive than cyclophosphamide, doxorubicin, vincristine, and prednisone are not associated with a prolonged survival. Lymphomas of the breast are rare, in one series representing 0.14% of all female breast malignancies, with diffuse large B cell lymphoma comprising up t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25111100",
+            "title": "Isolated myeloid sarcoma of the buccal region.",
+            "authors": [
+              "Wang Chien-Chung",
+              "Chang Kuo-Ping",
+              "Chang Ming-Shan",
+              "Chen Ray-Yi"
+            ],
+            "journal": "British journal of hospital medicine (London, England : 2005)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26642705",
+            "title": "Adenovirus-Mediated E2F-1 Gene Transfer Augments Gemcitabine-Induced Apoptosis in Human Colon Cancer Cells.",
+            "authors": [
+              "Lin Ziying",
+              "Ren Nina",
+              "Jiang Yun",
+              "Xu Wenya",
+              "Shi Yapeng"
+            ],
+            "journal": "Clinical laboratory",
+            "year": "2015",
+            "abstract": "E2F-1 is a transcription factor that stimulates cellular proliferation and cell cycle progression. E2F-1 alone is sufficient to stimulate cells to initiate DNA synthesis, and this unscheduled entry into S phase is a potent trigger of apoptosis. Gemcitabine, a novel pyrimidine analogue with structural and metabolic similarities to cytarabine, also can efficiently induce apoptosis, especially for cancer cells that are already in S phase. Gemcitabine has established antitumor activity against solid",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cytarabine 作為 DNA 合成抑制劑，對上呼吸消化道腫瘤（包含頭頸癌、嗅神經母細胞瘤等）的應用基於其廣效細胞毒性。1989 年 Ara-C+CDDP 組合用於頭頸癌有小樣本探索；嗅神經母細胞瘤化療亦見 Ara-C 組合方案，但整體證據陳舊且樣本量極小。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn": {
+        "score": 0.9935518503189088,
+        "rank": 7778
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經節母細胞瘤（Ganglioneuroblastoma）為兒科神經嵴來源腫瘤，標準治療以鉑類、依託泊苷、環磷醯胺為基礎。Cytarabine 在神經母細胞瘤有體外分化誘導研究（參見 neuroblastoma 適應症），但 ganglioneuroblastoma 無任何直接臨床或體外研究可查。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn": {
+        "score": 0.9931787252426147,
+        "rank": 8093
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見遺傳發育症候群（類 VATER 相關綜合症），以先天性骨骼畸形和免疫/內分泌缺陷為特徵，非增殖性腫瘤疾病。Cytarabine 的細胞毒殺機轉在此完全無治療依據，KG 預測為偽陽性（可能源於 T 細胞功能障礙節點與血液腫瘤治療關聯）。建議排除此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn": {
+        "score": 0.992304503917694,
+        "rank": 8799
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01468311",
+            "title": "Phase I/II Trial of Yttrium-90-labeled Daclizumab (Anti-CD25) Radioimmunotherapy With High-dose BEAM Chemotherapy and Autologous Hematopoietic Stem Cell Rescue in Recurrent and Refractory Hodgkin's Lymphoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2011-10-11",
+            "completion_date": "2020-10-22",
+            "brief_summary": "Background:\n\n* Hodgkins lymphoma (HL) is a highly treatable cancer. However, if HL does not respond to chemotherapy or returns after chemotherapy, further treatments often are not successful.\n* Some HL cells have a molecule called cluster of differentiation 25 (CD25) on the surface. Daclizumab is a drug that can detect CD25 on cells. In a treatment study for HL that did not respond to chemotherapy, daclizumab plus a radioactive atom called Yttrium 90 helped kill these HL cells. Researchers want ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Y-90 抗CD25+BEAM ASCT Phase 1/2，已提前終止（N=6），適應症為血液惡性腫瘤（含 BEAM/Cytarabine），非腹膜後腫瘤特異性，且因早期終止缺乏結論性數據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34733617",
+            "title": "Gastric myeloid sarcoma: A case report.",
+            "authors": [
+              "Rioja Patricia",
+              "Macetas Jackeline",
+              "Luna-Abanto Jorge",
+              "Tirado-Hurtado Indira",
+              "Enriquez Daniel J"
+            ],
+            "journal": "World journal of clinical oncology",
+            "year": "2021",
+            "abstract": "Myeloid sarcoma (MS) is a rare hematologic malignancy defined as an extramedullary tumor of immature granulocytic cells. It can occur as primary or de novo and be associated with myelodysplasia or myeloproliferative neoplasms. The most frequent locations are the skin, lymph nodes and bones. The case of a patient with a diagnosis of primary granulocytic de novo gastric MS is reported.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12656749",
+            "title": "Acute myeloid leukemia mimicking primary testicular neoplasm. Presentation of a case with review of literature.",
+            "authors": [
+              "McIlwain Laura",
+              "Sokol Lubomir",
+              "Moscinski Lynn C",
+              "Saba Hussain I"
+            ],
+            "journal": "European journal of haematology",
+            "year": "2003",
+            "abstract": "We describe a new unique case of acute myeloid leukemia (AML) in a 21-yr-old male presenting with abdominal pain, bilateral testicular masses and gynecomastia. Further work-up with computed tomography of the chest, abdomen and pelvis revealed massive retroperitoneal, peripancreatic and mediastinal lymphadenopathy, suggesting primary testicular neoplasm. The patient was subjected to right orchiectomy that showed infiltration of testicular tissue with malignant cells, originally misinterpreted as ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16632190",
+            "title": "Retroperitoneal fibrosis after chemotherapy.",
+            "authors": [
+              "Fassina Ambrogio",
+              "Boscolo Berto Rafael",
+              "El Mazloum Rafi",
+              "Gottardo Fedra",
+              "Artibani Walter"
+            ],
+            "journal": "European urology",
+            "year": "2007",
+            "abstract": "We report the case of a patient with a non-Hodgkin lymphoma, who after a standard chemotherapy protocol, developed retroperitoneal fibrosis (RPF) in the absence of radiotherapy or other known causes. The final diagnosis was reached with the microscopic examination of tissue obtained by fine-needle aspiration and true-cut biopsy of the retroperitoneal mass. RPF can be related to chemotherapy alone.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2049752",
+            "title": "Improved treatment results in boys with overt testicular relapse during or shortly after initial therapy for acute lymphoblastic leukemia. A Pediatric Oncology group study.",
+            "authors": [
+              "Buchanan G R",
+              "Boyett J M",
+              "Pollock B H",
+              "Smith S D",
+              "Yanofsky R A"
+            ],
+            "journal": "Cancer",
+            "year": "1991",
+            "abstract": "Boys with acute lymphoblastic leukemia (ALL) who have overt testicular relapse (OTR) during initial continuation chemotherapy or within 6 months thereafter have poor outcomes, with long-term survival similar to patients with marrow relapse during treatment. In April 1983, the Pediatric Oncology Group (POG) adopted for these patients an intensive treatment protocol (POG 8303) consisting of a four-drug systemic reinduction (prednisone, vincristine, daunorubicin, and asparaginase), a brief intensiv",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39588445",
+            "title": "Cervical Granulocytic Sarcoma Without Acute Leukemia: A Case Report and Review of 42 Additional Cases.",
+            "authors": [
+              "Zhu Wenting",
+              "Tao Chengbei",
+              "Ruan Zhengying",
+              "Xu Linglong"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Granulocytic sarcoma (GS), also known as extramedullary myeloid tumor, is a rare malignant neoplasm composed of immature myeloid cells. Although it is most commonly associated with acute myeloid leukemia (AML), a subset of GS cases can occur prior to the development of AML. GS can present in a variety of extramedullary locations, including bone, skin, lymph nodes, and the female reproductive system. We report the case of a 45-year-old Asian female patient who presented to our hospital in July 20",
+            "classification": {
+              "study_type": "Case Report + Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28579851",
+            "title": "Transformation of Follicular Lymphoma to a High-Grade B-Cell Lymphoma With MYC and BCL2 Translocations and Overlapping Features of Burkitt Lymphoma and Acute Lymphoblastic Leukemia: A Case Report and Literature Review.",
+            "authors": [
+              "Bischin Alina M",
+              "Dorer Russell",
+              "Aboulafia David M"
+            ],
+            "journal": "Clinical medicine insights. Blood disorders",
+            "year": "2017",
+            "abstract": "Most commonly, histologic transformation (HT) from follicular lymphoma (FL) manifests as a diffuse large B-cell lymphoma, not otherwise specified (DLBCL, NOS). Less frequently, HT may result in a high-grade B-cell lymphoma (HGBL) with MYC and B-cell lymphoma protein 2 (BCL2) and/or BCL6 gene rearrangements, also known as \"double-hit\" or \"triple-hit\" lymphomas. In the 2016 revision of the World Health Organization (WHO) classification of lymphoid neoplasms, the category B-cell lymphoma, unclassif",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41366933",
+            "title": "Extensive myeloid sarcoma presenting with esophageal compression and dysphagia as the initial manifestation.",
+            "authors": [
+              "Li Haoyu",
+              "Dai Liting",
+              "Wang Xiao",
+              "Yu Yanbo"
+            ],
+            "journal": "Medicine",
+            "year": "2025",
+            "abstract": "Myeloid sarcoma (MS) is an extramedullary tumor of immature myeloid cells that can precede or accompany acute myeloid leukemia (AML). Mediastinal/retroperitoneal involvement causing esophageal compression is rare and prone to misdiagnosis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6188011",
+            "title": "Further advances in the management of malignant teratomas of the testis and other sites.",
+            "authors": [
+              "Newlands E S",
+              "Begent R H",
+              "Rustin G J",
+              "Parker D",
+              "Bagshawe K D"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1983",
+            "abstract": "Between 1979 and 1982, 69 men with metastatic malignant teratoma completed sequential combination chemotherapy (POMB/ACE). Although two-thirds of these patients initially had advanced and bulky disease, life-table analysis projects a survival of 83%. Multivariate analysis indicates that the strongest predictor of survivals is not the clinical and radiological extent of disease but the initial serum concentration of human chorionic gonadotropin (HCG) and alpha-fetoprotein (AFP). In patients prese",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18725922",
+            "title": "The impact of histopathologic diagnosis on the proper management of testis neoplasms.",
+            "authors": [
+              "Ponti Giovanni",
+              "Ponzoni Maurilio",
+              "Ferreri Andrés Jm",
+              "Foppoli Marco",
+              "Mazzucchelli Luca"
+            ],
+            "journal": "Nature clinical practice. Oncology",
+            "year": "2008",
+            "abstract": "A 45-year-old man underwent a right orchiectomy for a rapidly growing testicular mass. After histologic and imaging examinations the patient was diagnosed with stage I (T1N0M0) seminoma. Approximately 2 months after surgery the patient began to complain of abdominal pain and a CT scan revealed a bulky retroperitoneal mass. The patient did not receive the planned prophylactic radiotherapy and was treated with combined cisplatin, etoposide and bleomycin chemotherapy; after the completion of this t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3875394",
+            "title": "Retroperitoneal mass presentations of B-immunoblastic sarcoma.",
+            "authors": [
+              "Waldron J A",
+              "Magnifico M",
+              "Duray P H",
+              "Cadman E C"
+            ],
+            "journal": "Cancer",
+            "year": "1985",
+            "abstract": "A clinicopathologic analysis of nine patients with B-immunoblastic sarcoma (B-IBS) presenting as a bulky lymph node-based retroperitoneal mass is reported. The histologic and immunologic findings, similar to those reported in B-IBS presenting in various other nodal and extranodal sites, support the recognition of this aggressive large cell non-Hodgkin's lymphoma (NHL) as a distinct pathologic entity. The patients, with a mean age of 60.5 years, presented for evaluation of abdominal pain and a pa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1373636",
+            "title": "POMB/ACE chemotherapy in non-seminomatous germ cell tumours: outcome and importance of dose intensity.",
+            "authors": [
+              "Husband D J",
+              "Green J A"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "1992",
+            "abstract": "This study reports the outcome of POMB/ACE (cisplatin, vincristine, methotrexate, bleomycin, actinomycin D, cyclophosphamide, etoposide) chemotherapy in 53 male patients with metastatic non-seminomatous germ cell tumour (NSGCT) treated between 1983 and 1989 in one centre. The overall complete response (CR) rate was 62% [95% confidence interval (CI) 49-75%), and for patients with large or very large volume disease (L/VL, MRC criteria), the CR rate was 56% (95% CI 41-71%). The overall 5 year survi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17617785",
+            "title": "Thalidomide for the treatment of histiocytic sarcoma after hematopoietic stem cell transplant.",
+            "authors": [
+              "Abidi Muneer H",
+              "Tove Isaacson",
+              "Ibrahim Rami B",
+              "Maria Dan",
+              "Peres Edward"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2007",
+            "abstract": "Histiocytic sarcoma (HS) is a rare neoplasm of uncertain etiology. Most recently, the diagnostic criteria for this entity have been revised with inclusion of diagnostic modalities such as immunohistochemical and cytogentic techniques. HS tends to have an aggressive clinical course and presents with systemic symptoms of fever, weight loss, adenopathy, hepatosplenomegly, rash, and pancytopenia. Thalidomide is a promising agent that may exert a therapeutic benefit in HS. We report a case of a 48-ye",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "65223",
+            "title": "Phase 1-11 study of DTIC and cyclocytidine in disseminated malignant melanoma.",
+            "authors": [
+              "Samson M K",
+              "Baker L H",
+              "Izbicki R M",
+              "Ratanatharathorn V"
+            ],
+            "journal": "Cancer treatment reports",
+            "year": "1976",
+            "abstract": "Seventeen patients with disseminated malignant melanoma were treated with DTIC (150 mg/m2, Days 1-5) and cyclocytidine (increasing doses sc, Days 1-10) in a phase I-II study. There was one early death. The remaining 16 patients were evaluable for response and toxicity. Two patients (13%) had CR lasting 8+ and 2+ months, while one patient (6%) had a PR lasting 1 month. Nausea and vomiting was seen in seven patients (44%), jaw pain in four (25%), and orthostatic hypotension in two (13%). Hematolog",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9174826",
+            "title": "Salvage intraperitoneal therapy of advanced epithelial ovarian cancer: impact of retroperitoneal nodal disease.",
+            "authors": [
+              "Barakat R R",
+              "Fennelly D",
+              "Pizzuto F",
+              "Venkatraman E S",
+              "Brown C"
+            ],
+            "journal": "European journal of gynaecological oncology",
+            "year": "1997",
+            "abstract": "The objective of this study was to evaluate the impact of retroperitoneal lymph node disease on the efficacy of salvage intraperitoneal (IP) chemotherapy for advanced epithelial ovarian cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹膜後腫瘤為異質性病理集合（軟組織肉瘤、腎上腺腫瘤、生殖細胞腫瘤、淋巴瘤/骨髓肉瘤等）。文獻顯示 Cytarabine 在腹膜後淋巴瘤轉化（PMID 28579851）及骨髓肉瘤（PMID 34733617、41366933）中有個案使用記錄，但缺乏針對「腹膜後腫瘤」整體的系統性證據，高度異質性使通用建議不可行。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "neuroblastoma",
+      "txgnn": {
+        "score": 0.9918825030326844,
+        "rank": 9118
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04029688",
+            "title": "A Phase I/II, Multicenter, Open-Label, Multi-Arm Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Preliminary Activity of Idasanutlin in Combination With Either Chemotherapy or Venetoclax in the Treatment of Pediatric and Young Adult Patients With Relapsed/Refractory Acute Leukemias or Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 38,
+            "start_date": "2020-01-27",
+            "completion_date": "2024-05-06",
+            "brief_summary": "This is a Phase I/II, multicenter, open-label, multi-arm study designed to evaluate the safety, tolerability, pharmacokinetics, and preliminary efficacy of idasanutlin, administered as a single agent or in combination with chemotherapy or venetoclax, in pediatric and young adult participants with acute leukemias or solid tumors.\n\nThis study is divided into three parts: Part 1 will begin with dose escalation of idasanutlin as a single agent in pediatric participants with relapsed or refractory so",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "多臂 Phase 1/2，因安全性問題提前終止（N=38），非 Cytarabine 特異性，間接兒科腫瘤安全性參考。"
+            }
+          },
+          {
+            "nct_id": "NCT01546038",
+            "title": "A PHASE 1B/2 STUDY TO EVALUATE THE SAFETY AND EFFICACY OF PF-04449913, AN ORAL HEDGEHOG INHIBITOR, IN COMBINATION WITH INTENSIVE CHEMOTHERAPY, LOW DOSE ARA-C OR DECITABINE IN PATIENTS WITH ACUTE MYELOID LEUKEMIA OR HIGH-RISK MYELODYSPLASTIC SYNDROME",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 255,
+            "start_date": "2012-06-27",
+            "completion_date": "2019-03-04",
+            "brief_summary": "This is a study to evaluate PF-04449913 (an inhibitor of the Hedgehog pathway) in Acute Myeloid Leukemia and high-risk Myelodysplastic Syndrome in combination with standard agents used to treat these diseases.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Hedgehog 抑制劑 Phase 2（N=255），NB 為其中一適應症，與 Cytarabine 機轉無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT03236857",
+            "title": "A Phase 1 Study of the Safety and Pharmacokinetics of Venetoclax in Pediatric and Young Adult Patients With Relapsed or Refractory Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 143,
+            "start_date": "2017-11-08",
+            "completion_date": "2023-04-19",
+            "brief_summary": "An open-label, global, multi-center study to evaluate the safety and pharmacokinetics of venetoclax monotherapy, to determine the dose limiting toxicity (DLT) and the recommended Phase 2 dose (RPTD), and to assess the preliminary efficacy of venetoclax in pediatric and young adult participants with relapsed or refractory malignancies.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Venetoclax 兒科腫瘤 Phase 1（N=143，含 NB），已完成。雖非 Cytarabine 試驗，但 Cytarabine 常與 Venetoclax 組合用於難治血液腫瘤，提供 NB 新藥組合框架參考。"
+            }
+          },
+          {
+            "nct_id": "NCT06942039",
+            "title": "A Pilot Study of Intrathecal Topotecan and Maintenance Chemotherapy in the Post-consolidation Setting for the Treatment of High-risk Embryonal Central Nervous System Tumours in Children Less Than 6 Years of Age",
+            "phase": "EARLY_PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 15,
+            "start_date": "2025-09-23",
+            "completion_date": "2032-12-31",
+            "brief_summary": "Pilot study to determine feasibility of adding intrathecal chemotherapy and maintenance therapy after high dose chemotherapy for treatment of newly diagnosed HR-EBTs in patients less than 6 years of age.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "鞘內 Topotecan+維持化療用於 NB 後鞏固治療，Early Phase 1，招募中（N=15）。Cytarabine 為常見維持化療組成，設計模式高度相關，提供現代 NB 鞘注治療框架。"
+            }
+          },
+          {
+            "nct_id": "NCT02130869",
+            "title": "A Pilot Study of Immunotherapy Including Haploidentical NK Cell Infusion Following CD133+ Positively-Selected Autologous Hematopoietic Stem Cells in Children With High Risk Solid Tumors or Lymphomas",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 8,
+            "start_date": "2014-10-10",
+            "completion_date": "2017-12-20",
+            "brief_summary": "This is a pilot clinical trial investigating the addition of haploidentical natural killer cell infusion to autologous stem cell transplantation. This intervention will be evaluated in children with high-risk solid tumors for whom autologous transplantation is indicated. Natural killer cells from a haploidentical family member will be given after high dose chemotherapy and positively selected autologous stem cells. In patients with neuroblastoma, the anti-GD2 antibody hu14.18K322A will also be g",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NK 細胞輸注 Phase 1（N=8），淋巴清除可能含 Cytarabine，但非研究主體，間接背景。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36688816",
+            "title": "Green Light-Triggerable Chemo-Photothermal Activity of Cytarabine-Loaded Polymer Carbon Dots: Mechanism and Preliminary In Vitro Evaluation.",
+            "authors": [
+              "Consoli Grazia M L",
+              "Giuffrida Maria Laura",
+              "Zimbone Stefania",
+              "Ferreri Loredana",
+              "Maugeri Ludovica"
+            ],
+            "journal": "ACS applied materials & interfaces",
+            "year": "2023",
+            "abstract": "Carbon-based nanostructures are attracting a lot of attention because of their very low toxicity, excellent visible light-triggered optical and photothermal properties, and intriguing applications. Currently, the development of multifunctional carbon-based nanostructures for a synergistic chemo-photothermal approach is a challenging topic for the advancement of cancer treatment. Here, we report an unprecedented example of photoresponsive carbon-based polymer dots (CPDs-PNM) obtained by a one-pot",
+            "classification": {
+              "study_type": "In Vitro/Nanotechnology Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15867251",
+            "title": "Sensitivity to gemcitabine and its metabolizing enzymes in neuroblastoma.",
+            "authors": [
+              "Ogawa Masahiro",
+              "Hori Hiroki",
+              "Ohta Takuya",
+              "Onozato Kaori",
+              "Miyahara Masazumi"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2005",
+            "abstract": "We examined the activity of gemcitabine against neuroblastoma in vitro and in vivo. In addition, we investigated the cellular mechanisms of high sensitivity to the agent in neuroblastoma cells.",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31681584",
+            "title": "Two Receptors, Two Isoforms, Two Cancers: Comprehensive Analysis of KIT and TrkA Expression in Neuroblastoma and Acute Myeloid Leukemia.",
+            "authors": [
+              "Lebedev Timofey D",
+              "Vagapova Elmira R",
+              "Popenko Vladimir I",
+              "Leonova Olga G",
+              "Spirin Pavel V"
+            ],
+            "journal": "Frontiers in oncology",
+            "year": "2019",
+            "abstract": "Pediatric cancers represent a wide variety of different tumors, though they have unique features that distinguish them from adult cancers. Receptor tyrosine kinases KIT and TrkA functions in AML and NB, respectively, are well-characterized. Though expression of these receptors is found in both tumors, little is known about KIT function in NB and TrkA in AML. By combining gene enrichment analysis with multidimensional scaling we showed that pediatric AMLs with t(8;21) or inv16 and high KIT expres",
+            "classification": {
+              "study_type": "Translational Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7529082",
+            "title": "Sensitivity to bleomycin and arabinoside cytosine in lymphocytes of patients affected by neuroblastoma and in those of their parents.",
+            "authors": [
+              "Vernole P",
+              "Tedeschi B",
+              "Caporossi D",
+              "Nicoletti B"
+            ],
+            "journal": "Cancer biotherapy",
+            "year": "1993",
+            "abstract": "Chromosomal instability has been described in patients affected by various tumors. We previously reported a high sensitivity to fragile sites induction by aphidicolin in lymphocytes from patients affected by neuroblastoma and in those from their parents. In the search for the most suitable clastogenic agent to enhance the possible differences between healthy controls and patients affected by tumors, we have now tested two other drugs: bleomycin, a radiomimetic agent already used in vitro on chro",
+            "classification": {
+              "study_type": "Ex Vivo Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2917605",
+            "title": "Morphologic and phenotypic changes of human neuroblastoma cells in culture induced by cytosine arabinoside.",
+            "authors": [
+              "Ponzoni M",
+              "Lanciotti M",
+              "Melodia A",
+              "Casalaro A",
+              "Cornaglia-Ferraris P"
+            ],
+            "journal": "Experimental cell research",
+            "year": "1989",
+            "abstract": "The effects of cytosine-arabinoside (ARA-C) on the growth and phenotypic expression of a new human neuroblastoma (NB) cell line (GI-ME-N) have been extensively tested. Low doses of ARA-C allowing more than 90% cell viability induce morphological differentiation and growth inhibition. Differentiated cells were larger and flattened with elongated dendritic processes; such cells appeared within 48 h after a dose of ARA-C as low as 0.1 micrograms/ml (about 1000-fold lower than the conventional clini",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8070034",
+            "title": "Epipodophyllotoxins in the treatment of childhood cancer.",
+            "authors": [
+              "Rivera G K",
+              "Pui C H",
+              "Santana V M",
+              "Pratt C B",
+              "Crist W M"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "1994",
+            "abstract": "We reported marked biologic activity with the epipodophyllotoxins in phase I/II studies of childhood cancer conducted in the 1970s. We have since extensively used the combination of teniposide and ara-C in the treatment of acute lymphoblastic leukemia (ALL). Initially we treated patients with refractory disease and found that the combination lacked clinical cross-resistance with standard antileukemic drugs. This formed a rationale to move teniposide and/or etoposide to front-line therapy of chil",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1751963",
+            "title": "Gamma-interferon, retinoic acid, and cytosine arabinoside induce neuroblastoma differentiation by different mechanisms.",
+            "authors": [
+              "Ponzoni M",
+              "Lanciotti M",
+              "Montaldo P G",
+              "Cornaglia-Ferraris P"
+            ],
+            "journal": "Cellular and molecular neurobiology",
+            "year": "1991",
+            "abstract": "1. The effects of gamma-interferon (gamma-IFN), retinoic acid (RA), and cytosine arabinoside (ARA-C) on the growth, morphology, and phenotype of the human neuroblastoma (NB) cell lines, LAN-1 and GI-ME-N, have been extensively tested. 2. RA, gamma-IFN, and ARA-C induced a dose-dependent morphological differentiation and growth inhibition, without affecting cell viability. Cells exposed to 10(-6) M RA or 1000 U/ml gamma-IFN significantly decreased their growth rate within the first 24 and 48 hr o",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9394364",
+            "title": "Clinical status and optimal use of topotecan.",
+            "authors": [
+              "Takimoto C H",
+              "Arbuck S G"
+            ],
+            "journal": "Oncology (Williston Park, N.Y.)",
+            "year": "1997",
+            "abstract": "Topotecan (Hycamtin) is a promising new topoisomerase I-targeting anticancer agent that first entered clinical trials in 1989 under National Cancer Institute sponsorship in collaboration with SmithKline Beecham. In 1996, it was approved for use by the United States Food and Drug Administration (FDA) for previously treated patients with advanced ovarian cancer. For these patients, topotecan provides another therapeutic option upon disease progression after initial platinum-based chemotherapy. Top",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12471622",
+            "title": "Cyclopentenyl cytosine primes SK-N-BE(2)c neuroblastoma cells for cytarabine toxicity.",
+            "authors": [
+              "Bierau Jörgen",
+              "Van Gennip Albert H",
+              "Leen René",
+              "Helleman Jozien",
+              "Caron Huib N"
+            ],
+            "journal": "International journal of cancer",
+            "year": "2003",
+            "abstract": "CPEC is a potent inhibitor of CTP synthetase and causes depletion of CTP and dCTP pools. AraC is an analog of dCyd and a chemotherapeutic agent. Here, we demonstrate that, upon incubation with CPEC, both the anabolism and cytostatic effect of AraC in SK-N-BE(2)c neuroblastoma cells were increased. Cotreatment of CPEC (50-250 nM) and AraC (37.5-500 nM) decreased the 4-day ED(50) value for AraC 2- to 8-fold in the SK-N-BE(2)c cell line, while pretreatment with CPEC followed by incubation with AraC",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1358448",
+            "title": "A combined evaluation of biochemical and morphological changes during human neuroblastoma cell differentiation.",
+            "authors": [
+              "Lanciotti M",
+              "Montaldo P G",
+              "Folghera S",
+              "Lucarelli E",
+              "Cornaglia-Ferraris P"
+            ],
+            "journal": "Cellular and molecular neurobiology",
+            "year": "1992",
+            "abstract": "1. The effects of retinoic acid, gamma-interferon, cytosine arabinoside, nerve growth factor, tumor necrosis factor, and 12-O-tetradecanoylphorbol 13-acetate on the human neuroblastoma cell line, LAN-5, were studied. Intracellular levels of acetylcholinesterase, neuron-specific enolase, catecholamines and related neurotransmitters, vasointestinal peptide, and substance P were evaluated after induction. 2. Cell morphology was strongly affected by retinoic acid, gamma-interferon, cytosine arabinos",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34710216",
+            "title": "CPX-351 induces remission in newly diagnosed pediatric secondary myeloid malignancies.",
+            "authors": [
+              "Hu Yixin",
+              "Caldwell Kenneth J",
+              "Onciu Mihaela",
+              "Federico Sara M",
+              "Salek Marta"
+            ],
+            "journal": "Blood advances",
+            "year": "2022",
+            "abstract": "Secondary myelodysplastic syndromes and acute myeloid leukemia (sMDS/AML) are rare in children and adolescents and have a dismal prognosis. The mainstay therapy is hematopoietic cell transplantation (HCT), but there has been no innovation in cytoreductive regimens. CP X-351, a fixed 5:1 molar ratio of liposomal cytarabine to daunorubicin, has shown favorable safety and efficacy in elderly individuals with secondary AML and children with relapsed de novo AML. We report the outcomes of 7 young pat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10402221",
+            "title": "Distinct mechanisms underlay DNA disintegration during apoptosis induced by genotoxic and nongenotoxic agents in neuroblastoma cells.",
+            "authors": [
+              "Solovyan V",
+              "Bezvenyuk Z",
+              "Huotari V",
+              "Tapiola T",
+              "Salminen A"
+            ],
+            "journal": "Neurochemistry international",
+            "year": "1999",
+            "abstract": "Exposure of mouse NB-2a neuroblastoma cells to genotoxic (etoposide or cytosine arabinoside) or nongenotoxic challenges (serum deprivation or okadaic acid) resulted in progressive cell death with biochemical and morphological characteristics typical of apoptosis. Apoptotic cell death induced by nongenotoxic agents was associated with the disintegration of nuclear DNA into high molecular weight (HMW) and oligonucleosomal-DNA fragments, while the formation of HMW-DNA fragments, but not oligonucleo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9588546",
+            "title": "Chemotherapy for advanced esthesioneuroblastoma: the Mayo Clinic experience.",
+            "authors": [
+              "McElroy E A",
+              "Buckner J C",
+              "Lewis J E"
+            ],
+            "journal": "Neurosurgery",
+            "year": "1998",
+            "abstract": "Esthesioneuroblastoma (olfactory neuroblastoma) is a rare neuroendocrine tumor that arises in the upper nasal cavity from the olfactory epithelium. Little information is available regarding the treatment of these tumors with chemotherapy in the advanced setting. A retrospective review of patients with recurrent esthesioneuroblastoma treated with chemotherapy between 1970 and 1995 at the Mayo Clinic was undertaken to gain more information regarding the efficacy of chemotherapy treatment for these",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3316512",
+            "title": "Coordinated use of sequentially escalated cyclophosphamide and cell-cycle-specific chemotherapy (N4SE protocol) for advanced neuroblastoma: experience with 100 patients.",
+            "authors": [
+              "Kushner B H",
+              "Helson L"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "1987",
+            "abstract": "A rationally devised induction regimen of vincristine, Adriamycin (Adria Laboratories, Columbus, OH), and sequentially-escalated cyclophosphamide (CPM), followed by S-phase-specific agents (5-fluorouracil [5-FU]/cytosine arabinoside [ara-C]/hydroxyurea), was used in 100 patients with neuroblastoma. Of 17 patients under 1 year of age at diagnosis, complete (CR)/good partial (GPR) responses with long-term disease-free survival were achieved in 11 (85%) of 13 new patients and in two of four previou",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17691910",
+            "title": "Cyclopentenyl cytosine (CPEC): an overview of its in vitro and in vivo activity.",
+            "authors": [
+              "Schimmel K J M",
+              "Gelderblom H",
+              "Guchelaar H J"
+            ],
+            "journal": "Current cancer drug targets",
+            "year": "2007",
+            "abstract": "The experimental cytotoxic drug cyclopentenyl cytosine (CPEC) is an analogue of cytidine. Besides its antiviral effect, its potential use in the treatment of cancer has become an important area of research. CPEC is activated by intracellular phosphorylation ultimately forming its metabolite CPEC-TP. CPEC-TP is a non competitive inhibitor of cytidine-5'-triphosphate synthetase (CTP-synthetase), an important enzyme in the formation of CTP. Studies have shown that cancer cells have a high CTP synth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7576981",
+            "title": "Antiproliferative potential of cytostatic drugs on neuroblastoma cells in vitro.",
+            "authors": [
+              "Fulda S",
+              "Honer M",
+              "Menke-Moellers I",
+              "Berthold F"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "1995",
+            "abstract": "The role of single drugs in the treatment of neuroblastoma is poorly defined. We, therefore, tested neuroblastoma cell survival after a 72 h exposure to one of 19 cytostatic drugs by monolayer proliferation assay. 6 cell lines (IMR-5, Kelly, SK-N-SH, GI-CA-N, CHP-100, CHP-134) were selected on the basis of MYCN amplification and PGY1 overexpression. ED50 drug concentrations were related to plasma levels achievable in patients during chemotherapy. More effective substances were mitoxantrone, doxo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3731152",
+            "title": "Differential drug sensitivity of human neuroblastoma cells.",
+            "authors": [
+              "Spengler B A",
+              "Ross R A",
+              "Biedler J L"
+            ],
+            "journal": "Cancer treatment reports",
+            "year": "1986",
+            "abstract": "A 6-day in vitro growth-inhibition assay was used to determine relative sensitivity of six human neuroblastoma cell lines to three classes of cancer chemotherapeutic agents: antimetabolites (methotrexate, methasquin, and cytarabine); antimitotics (vincristine, vinblastine, vindesine, colchicine, and demecolcine); and antibiotics (dactinomycin and doxorubicin). Human fibroblast lines served as a reference standard. Whereas response to antimetabolites by four of five neuroblastoma lines tested was",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2476228",
+            "title": "Effect of cytidine analogs on cell growth and differentiation on a human neuroblastoma line.",
+            "authors": [
+              "Bartolucci S",
+              "Estenoz M",
+              "de Franciscis V",
+              "Carpinelli P",
+              "Colucci G L"
+            ],
+            "journal": "Cell biophysics",
+            "year": "1989",
+            "abstract": "The cytidine analog 5-AZA-2'-deoxycytidine (5-AZA-CdR) has been demonstrated to induce cellular differentiation; on the other hand, induction of differentiation has been suggested as a possible form of therapy for leukemic cells. We have evaluated the possibility that the neuroblastoma malignant tumor growth could be controlled by treatment that promotes the differentiation of immature tumor cells. We have previously reported on differentiation of murine neuroblastoma cells (41A3) treated with 5",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29571866",
+            "title": "DAPK1-ERK signal mediates oxygen glucose deprivation reperfusion induced apoptosis in mouse N2a cells.",
+            "authors": [
+              "Xiong Wei",
+              "Wu Yan",
+              "Xian Wenjing",
+              "Song Limin",
+              "Hu Lisha"
+            ],
+            "journal": "Journal of the neurological sciences",
+            "year": "2018",
+            "abstract": "Death-associated protein kinase 1 (DAPK1) is a kinase found to promote neuronal apoptosis induced by ischemia. Extracellular signal-regulated kinase (ERK) was identified as a key molecule in DAPK1 signaling. However, the mechanisms of neuronal ischemia reperfusion injury remain unknown. Here, we investigate the influence of DAPK1-ERK signal on neuronal apoptosis following ischemia reperfusion.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26032748",
+            "title": "Autologous Hematopoietic Stem Cell Transplantation-10 Years of Data From a Developing Country.",
+            "authors": [
+              "Ali Natasha",
+              "Adil Salman Naseem",
+              "Shaikh Mohammad Usman"
+            ],
+            "journal": "Stem cells translational medicine",
+            "year": "2015",
+            "abstract": "Intensive chemotherapy followed by autologous stem cell transplantation is the treatment of choice for patients with hematological malignancies. The objective of the present study was to evaluate the outcomes of patients with mainly lymphoma and multiple myeloma after autologous stem cell transplant. The pretransplant workup consisted of the complete blood count, an evaluation of the liver, kidney, lung, and infectious profile, chest radiographs, and a dental review. For lymphoma, all patients w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cytarabine 對神經母細胞瘤具雙重潛在機轉：(1) 直接細胞毒性（DNA 合成抑制）；(2) 分化誘導活性—體外研究顯示 Ara-C 聯合干擾素/維A酸可誘導 NB 細胞形態分化（PMID 2917605, 1751963）。Cyclopentenyl cytosine 前處理可增敏 Cytarabine 毒性（PMID 12471622）。然而現行 NB 標準方案以 COJEC/鉑類/拓撲替康為主，Cytarabine 缺乏大型 Phase II/III 直接試驗支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+      "txgnn": {
+        "score": 0.9895979166030884,
+        "rank": 10828
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IgHV 體細胞超突變陽性（mutated-IGHV）的 CLL/SLL 為預後良好亞型，對 FCR（氟達拉濱+環磷醯胺+利妥昔單抗）化療免疫方案反應佳，Cytarabine 雖在 Richter 轉化（OFAR 方案）有使用，但針對此特定 IGHV 突變亞型無任何臨床試驗或文獻記錄。現代治療已轉向 BTK 抑制劑（伊布替尼/澤布替尼）和 BCL-2 抑制劑（維奈克拉），Cytarabine 再利用空間極為有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "small cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "small cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "small cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "primary pulmonary lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "primary pulmonary lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "primary pulmonary lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "well-differentiated fetal adenocarcinoma of the lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "well-differentiated fetal adenocarcinoma of the lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "well-differentiated fetal adenocarcinoma of the lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "pulmonary blastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "pulmonary blastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "pulmonary blastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "upper aerodigestive tract neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cytarabine",
+        "disease": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

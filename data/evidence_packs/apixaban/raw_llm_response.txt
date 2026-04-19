@@ -1,0 +1,386 @@
+## Apixaban (DB06605) 藥物再利用證據分析
+
+以下為針對各適應症的系統性評估：
+
+```json
+{
+  "drug": "Apixaban",
+  "drugbank_id": "DB06605",
+  "known_moa": "Factor Xa (FXa) 抑制劑，阻斷凝血酶原複合物，防止血栓形成",
+  "analysis_date": "2026-04-05",
+  "note": "市場狀態「未上市」可能為當地（新加坡）資料集所示；Apixaban（Eliquis）已於多國核准用於 AF 中風預防、DVT/PE 治療與預防",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9902,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Apixaban 作為 FXa 抑制劑，理論上可減少 PFO 相關矛盾性栓塞觸發皮質擴散抑制（CSD），進而預防偏頭痛發作。然而，案例報告顯示 Warfarin 效果優於 Apixaban，可能因 VKA 額外的抗炎機制（維生素 K 依賴性 protein S/C 路徑）或對特定亞型血栓更廣泛的抑制效果。目前無直接 RCT 針對偏頭痛治療。",
+      "safety_signal": "警示：PMID 37582651 報告服用 Apixaban 後偏頭痛惡化；PMID 28960288 顯示 Warfarin 有效但 Apixaban 無效，提示藥物特異性效果差異",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00562289",
+          "title": "Closure of PFO or Anticoagulants Versus Antiplatelet Therapy to Prevent Stroke Recurrence",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 664,
+          "relevance_grade": "C",
+          "reasoning": "主要終點為中風預防，非偏頭痛治療；PFO 封堵術 vs. 抗凝劑 vs. 抗血小板比較。偏頭痛為次要觀察項目，且試驗藥物並非特定為 Apixaban，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37582651",
+          "title": "A Case Report of Migraine With Aura Worsened After Starting Apixaban and Literature Review",
+          "year": "2023",
+          "study_type": "Case Report + Literature Review",
+          "tier": 3,
+          "key_finding": "負面訊號：Apixaban 起始後偏頭痛惡化，具警示意義"
+        },
+        {
+          "pmid": "28960288",
+          "title": "A Case of Migraine With Aura Resolving on Warfarin But Not on Apixaban",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "負面訊號：Warfarin 有效但 Apixaban 無效，提示藥物類別特異性"
+        },
+        {
+          "pmid": "33402037",
+          "title": "A trial of antithrombotic therapy in patients with refractory migraine and antiphospholipid antibodies",
+          "year": "2021",
+          "study_type": "Small Trial / Pilot",
+          "tier": 2,
+          "key_finding": "抗磷脂抗體陽性的難治性偏頭痛患者使用抗血栓治療有潛在效果，但 Apixaban 非主要研究藥物"
+        },
+        {
+          "pmid": "29611190",
+          "title": "A Case of Vestibular Migraine Resolving on Warfarin and Topiramate",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "Warfarin + Topiramate 組合有效，Apixaban 未被測試"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 透過偏頭痛與癲癇共享的遺傳通路（MTHFR、離子通道、神經炎症）進行預測，但此為間接基因關聯，與 Apixaban FXa 抑制機轉無直接連結。20 篇文獻中絕大多數討論癲癇遺傳學，非 Apixaban 臨床應用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37582651",
+          "title": "A Case Report of Migraine With Aura Worsened After Starting Apixaban",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "唯一直接涉及 Apixaban 的文獻，且為負面結果"
+        },
+        {
+          "pmid": "33856647",
+          "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "key_finding": "背景知識文獻，未涉及 Apixaban"
+        }
+      ]
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Apixaban 無已知抗分枝桿菌活性。唯一文獻（PMID 38149553）為麻瘋病合併肺栓塞案例，Apixaban 用於 PE 治療而非麻瘋病本身。TxGNN 預測可能基於知識圖譜中的共病關係，無實際再利用意義。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38149553",
+          "title": "Co-infection of Mycobacterium tuberculosis and Mycobacterium leprae Complicated by Pulmonary Embolism",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "Apixaban 用於 PE 治療，與麻瘋病治療無關，屬偶發共病使用"
+        }
+      ]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9889,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "FXa 可透過 PAR-1/PAR-2 受體激活滑膜纖維母細胞和巨噬細胞中的 JAK2/STAT3 和 MAPK 信號通路，促進 IL-6、TNF-α 等炎症因子分泌。PMID 32141012 前臨床研究證實 Apixaban 在 RA 動物模型中具抗關節炎效果，為目前最重要的機轉依據。需進行 Phase 1/2 臨床試驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32141012",
+          "title": "Apixaban exhibits anti-arthritic effects by inhibiting activated factor X-mediated JAK2/STAT3 and MAP kinase pathways",
+          "year": "2020",
+          "study_type": "Preclinical / Mechanistic Study",
+          "tier": 2,
+          "key_finding": "關鍵機轉研究：FXa 抑制→JAK2/STAT3/MAPK 下調→抗炎效果，動物模型有效，奠定再利用科學基礎"
+        },
+        {
+          "pmid": "37753049",
+          "title": "A Rare Case of Acquired Factor VIII Deficiency in an Elderly Male With RA",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "RA 患者中 Apixaban 使用之凝血相互影響，非治療 RA 證據"
+        },
+        {
+          "pmid": "33141212",
+          "title": "Diagnosis and Treatment of Lower Extremity Venous Thromboembolism: A Review",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": 3,
+          "key_finding": "一般 VTE 治療背景，與 RA 無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9883,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹先兆型偏頭痛（舊稱基底型偏頭痛）可能與後顱窩血管事件有關。抗凝劑理論上可預防椎基底動脈系統栓塞事件，但現有案例報告顯示 Apixaban 在此亞型效果不明確甚至有害。三篇文獻均為案例報告且包含負面訊號，安全性存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37582651",
+          "title": "A Case Report of Migraine With Aura Worsened After Starting Apixaban",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "負面訊號：先兆型偏頭痛在 Apixaban 下惡化"
+        },
+        {
+          "pmid": "28960288",
+          "title": "A Case of Migraine With Aura Resolving on Warfarin But Not on Apixaban",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "負面訊號：Apixaban 無效，Warfarin 有效"
+        },
+        {
+          "pmid": "29611190",
+          "title": "A Case of Vestibular Migraine Resolving on Warfarin and Topiramate",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "前庭性偏頭痛案例，Warfarin + Topiramate 有效，未直接測試 Apixaban"
+        }
+      ]
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "txgnn_score": 0.9839,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Prinzmetal（變異型）心絞痛由冠狀動脈痙攣引起，主要病生理為血管平滑肌過度收縮，而非血栓形成。Apixaban 的 FXa 抑制機轉與血管痙攣無直接藥理連結，無臨床或前臨床支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9818,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見遺傳性肢端發育異常（先天性骨骼畸形），發病機制為發育基因突變（如 HOXD、GJA1），與凝血級聯無任何機轉關聯。TxGNN 預測可能為知識圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9813,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肺動脈高壓（尤其硬皮症相關和 CTEPH）涉及肺小血管原位血栓形成、內皮細胞功能障礙及血管重塑。FXa 除凝血功能外，尚可透過 PAR-1/PAR-2 直接影響肺血管平滑肌增殖和內皮功能。硬皮症相關 PAH 患者有抗磷脂抗體傾向，支持抗凝治療。注意：RCT PMID 27932335 未達顯著效益；現行 ESC/ERS 指引已不建議 PAH 常規抗凝。",
+      "subtype_note": "需區分亞型：CTEPH（第 4 組）抗凝為標準治療；PAH（第 1 組）抗凝證據有限且爭議；硬皮症相關 PAH 存在特殊考量",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03610217",
+          "title": "Pragmatic Clinical Trials in Scleroderma",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 400,
+          "relevance_grade": "B",
+          "reasoning": "硬皮症（最常見 PAH 繼發原因）的實用臨床試驗，Apixaban 為研究藥物之一，間接涉及 PH 適應症"
+        },
+        {
+          "nct_id": "NCT02942407",
+          "title": "RENAL-AF: Apixaban vs Warfarin in Hemodialysis Patients with AF",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 154,
+          "relevance_grade": "C",
+          "reasoning": "透析患者 AF 研究，與 PH 無直接關聯，但提供腎功能不全患者 Apixaban 安全性數據"
+        },
+        {
+          "nct_id": "NCT06370273",
+          "title": "TiLLI: Thromboprophylaxis in Lower Limb Immobilisation",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 10044,
+          "relevance_grade": "C",
+          "reasoning": "VTE 預防研究，與 PH 無直接關聯"
+        },
+        {
+          "nct_id": "NCT03804125",
+          "title": "Phase IV Non-Interventional Study on ADRs",
+          "phase": "N/A",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "已撤回，無貢獻"
+        },
+        {
+          "nct_id": "NCT05838664",
+          "title": "SIFNOS Study: AF patients exposed/unexposed to NOACs",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 2140403,
+          "relevance_grade": "C",
+          "reasoning": "大型觀察性 AF 研究，與 PH 無直接關聯"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27932335",
+          "title": "Multicentre randomised placebo-controlled trial of oral anticoagulation with apixaban in systemic sclerosis",
+          "year": "2016",
+          "study_type": "RCT (Phase 2)",
+          "tier": 1,
+          "key_finding": "關鍵：硬皮症患者 Apixaban vs 安慰劑 RCT，硬皮症為最常見 PAH 繼發原因。結果：未達主要終點，但提供直接臨床安全性數據"
+        },
+        {
+          "pmid": "36335915",
+          "title": "A Randomized Controlled Trial Comparing Apixaban With Phenprocoumon in Patients with Pulmonary Diseases",
+          "year": "2023",
+          "study_type": "RCT",
+          "tier": 1,
+          "key_finding": "關鍵：肺部疾病患者中 Apixaban vs VKA 直接比較，涵蓋部分 PH 患者。療效與安全性數據直接相關"
+        },
+        {
+          "pmid": "36035947",
+          "title": "Effects of oral anticoagulant therapy in patients with pulmonary diseases",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 2,
+          "key_finding": "系統性評估 OAC 在肺部疾病中的效益風險，提供脈絡背景"
+        },
+        {
+          "pmid": "38910594",
+          "title": "Is anticoagulative therapy in systemic sclerosis to be reconsidered?",
+          "year": "2024",
+          "study_type": "Review / Commentary",
+          "tier": 2,
+          "key_finding": "重新評估硬皮症抗凝治療，反映現今爭議性"
+        },
+        {
+          "pmid": "40023651",
+          "title": "Extended treatment of VTE with reduced-dose versus full-dose direct oral anticoagulants",
+          "year": "2025",
+          "study_type": "RCT / Meta-analysis",
+          "tier": 1,
+          "key_finding": "VTE 延長治療劑量比較，間接提供 PH 繼發於 VTE 患者的管理依據"
+        },
+        {
+          "pmid": "40959672",
+          "title": "Resolution of Ascending Aorta and Pulmonary Vein Thrombi With Apixaban Therapy",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "key_finding": "肺靜脈血栓 Apixaban 溶解案例，提供概念驗證"
+        }
+      ]
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9800,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見遺傳性發育症候群，涉及眼球發育不全與肢端骨骼異常，由 STRA6 等基因突變導致。與 FXa 抑制機轉無任何生物學交集，無臨床或前臨床數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9787,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後側彎相關心臟病（限制性心肺疾病繼發的心臟併發症），雖然嚴重患者可能繼發肺心病和 VTE 風險升高，但無針對此特定疾病實體的 Apixaban 再利用研究。若有 VTE 適應症則屬標準使用，非再利用範疇。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "by_evidence_level": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 4,
+      "L5": 5
+    },
+    "by_decision_stage": {
+      "S0": 6,
+      "S1": 3,
+      "S2": 1,
+      "S3": 0
+    },
+    "by_recommendation": {
+      "Hold": 8,
+      "Research_Question": 2,
+      "Proceed_with_Guardrails": 0
+    },
+    "priority_candidates": [
+      {
+        "rank": 1,
+        "disease": "pulmonary hypertension",
+        "rationale": "L3 證據，有 RCT（硬皮症相關 PH），機轉合理（FXa-PAR/血管重塑），但需區分亞型且現行指引存爭議",
+        "next_step": "系統性文獻回顧聚焦硬皮症相關 PAH 亞型；考慮 Phase 2 生物標記導向試驗"
+      },
+      {
+        "rank": 2,
+        "disease": "rheumatoid arthritis",
+        "rationale": "L4 但具明確前臨床機轉（FXa→JAK2/STAT3/MAPK），炎症通路與 RA 高度相關",
+        "next_step": "需 Phase 1 安全性/劑量探索試驗；可考慮 RA 合併 VTE 患者的觀察性研究"
+      }
+    ],
+    "key_concern": "偏頭痛系列（migraine disorder / migraine with aura / migraine with brainstem aura）存在 Apixaban 可能惡化症狀的案例報告訊號，建議在獲得更多數據前暫緩推進"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 優先候選適應症
+
+| 排序 | 疾病 | 證據等級 | 決策 | 關鍵依據 |
+|------|------|---------|------|---------|
+| 🥇 | **肺動脈高壓** | L3 | S2 Research Question | PMID 27932335（硬皮症 RCT）+ PMID 36335915（肺病 RCT） |
+| 🥈 | **類風濕性關節炎** | L4 | S1 Research Question | PMID 32141012（FXa→JAK2/STAT3/MAPK 前臨床） |
+
+### ⚠️ 重要安全訊號
+
+**偏頭痛系列**：三個偏頭痛相關適應症（migraine disorder / with aura / brainstem aura）均有案例報告顯示 Apixaban **可能加重症狀**，且 Warfarin 效果優於 Apixaban，顯示藥物特異性效果差異，建議在機轉釐清前維持 **Hold**。
+
+### 評估侷限
+
+> **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經正式臨床驗證方可應用於臨床實務。

@@ -1,0 +1,755 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00602-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ivermectin",
+    "drugbank_id": "DB00602",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "vulvovaginal candidiasis",
+      "txgnn": {
+        "score": 0.9994907379150392,
+        "rank": 1166
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ivermectin 作用機轉為結合無脊椎動物 GluCl（麩胺酸閘控氯離子）通道，造成寄生蟲麻痺死亡。Candida 為真菌，不具 GluCl 通道，無已知抗念珠菌機轉。部分體外研究顯示 ivermectin 可抑制 Candida 生物膜形成（推測透過膜通透性改變），但尚無臨床資料支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "esophageal candidiasis",
+      "txgnn": {
+        "score": 0.997319519519806,
+        "rank": 4225
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35835488",
+            "title": "Disseminated strongyloidiasis after prolonged treatment with corticosteroids.",
+            "authors": [
+              "Mahoney Caitlin",
+              "Brown Carina Murphy",
+              "McIntyre Brittany",
+              "Neal Sara"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2022",
+            "abstract": "Strongyloides stercoralis is a helminth found in the soil and transmitted to humans through larval penetration of the skin. It is endemic across most of the tropical regions of the world. Infection with S. stercoralis commonly causes minimal or mild symptoms. This case report describes an interesting final diagnosis for a woman presenting with persistent nausea, vomiting and epigastric pain. Her evaluation included imaging and oesophagogastroduodenoscopy with biopsy. Her biopsy results revealed ",
+            "classification": {
+              "study_type": "Case Report / Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上，無抗真菌機轉。唯一引用文獻（PMID 35835488）討論的是播散性類圓線蟲病——此為 Ivermectin 原始適應症，與食道念珠菌症無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "anogenital human papillomavirus infection",
+      "txgnn": {
+        "score": 0.9947538375854492,
+        "rank": 6685
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ivermectin 具有廣效抗病毒潛力，體外研究顯示可抑制 importin α/β 核運輸通路，干擾多種病毒（含 SARS-CoV-2、HIV、Zika）複製。理論上對 HPV 核運輸亦可能有影響，但目前無 HPV 特異性臨床試驗或高品質臨床前數據。提供資料中無任何試驗或文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "vulvovaginitis",
+      "txgnn": {
+        "score": 0.9936321377754213,
+        "rank": 7704
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外陰陰道炎為多病因症候群（細菌性、念珠菌性、滴蟲性等）。Ivermectin 對滴蟲（Trichomonas vaginalis，原蟲類）理論上可能有效，但屬假說層級。無任何臨床試驗或文獻佐證此泛稱診斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "candida glabrata",
+      "txgnn": {
+        "score": 0.9925429821014404,
+        "rank": 8602
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Candida glabrata（現更名 Nakaseomyces glabrata）對多種抗真菌藥具天然低感受性。Ivermectin 無已知抗真菌機轉，對耐藥性念珠菌亦無文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "neonatal candidiasis",
+      "txgnn": {
+        "score": 0.9925429821014404,
+        "rank": 8603
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "新生兒念珠菌症需考量藥物安全性（BBB 通透性、肝毒性）。即便存在機轉假說，新生兒族群的安全資料不足是額外阻礙。完全無臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "congenital candidiasis",
+      "txgnn": {
+        "score": 0.9925429821014404,
+        "rank": 8604
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10098288",
+            "title": "Crusted scabies in two immunocompromised children: successful treatment with oral ivermectin.",
+            "authors": [
+              "Patel A",
+              "Hogan P",
+              "Walder B"
+            ],
+            "journal": "The Australasian journal of dermatology",
+            "year": "1999",
+            "abstract": "Two immunodeficient children, aged 4 and 12 years, with crusted scabies were successfully treated with a single oral dose of ivermectin (200 micrograms/kg). One child had been diagnosed in infancy with an undefined congenital T cell immunodeficiency and the other with chronic mucocutaneous candidiasis. Both had failed to respond to conventional topical therapy. In view of the excellent therapeutic response and absence of side-effects, ivermectin should be considered in the treatment of recalcitr",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性念珠菌症為新生兒急症，需快速抗真菌治療。Ivermectin 無抗真菌機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "txgnn": {
+        "score": 0.9917615652084352,
+        "rank": 9211
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "停經後萎縮性陰道炎為雌激素缺乏導致的黏膜萎縮，病因與感染或寄生蟲無關。Ivermectin 無激素或黏膜修復機轉，無任何合理的機轉連結。此適應症的高 TxGNN 分數高度疑似 KG 節點偏差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "candidiasis, invasive",
+      "txgnn": {
+        "score": 0.9916353225708008,
+        "rank": 9288
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "侵襲性念珠菌症為危及生命的全身性感染，需即效抗真菌治療（echinocandin/azole 一線）。Ivermectin 無抗真菌機轉，不適合用於急症管理，且缺乏任何臨床根據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "vulvitis",
+      "txgnn": {
+        "score": 0.989843726158142,
+        "rank": 10644
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外陰炎為多病因症候群，Ivermectin 無抗炎或抗真菌機轉。若病因為寄生蟲（如疥蟲侵犯外陰），則屬已知適應症，非 repurposing。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "esophageal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "esophageal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "esophageal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "anogenital human papillomavirus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "candida glabrata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "candida glabrata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "candida glabrata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "neonatal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "neonatal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "neonatal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "congenital candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "congenital candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "congenital candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "candidiasis, invasive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "candidiasis, invasive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "candidiasis, invasive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivermectin",
+        "disease": "vulvitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

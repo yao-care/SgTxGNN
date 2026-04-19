@@ -1,0 +1,339 @@
+# Cinacalcet 藥物再利用證據分析
+
+## 藥物背景
+
+Cinacalcet 為 **CaSR（鈣感應受體）正向變構調節劑（calcimimetic）**，透過提升 CaSR 對細胞外 Ca²⁺ 的敏感性，抑制 PTH 分泌。已核准適應症：透析患者繼發性副甲狀腺機能亢進症、副甲狀腺癌相關高鈣血症。
+
+---
+
+```json
+{
+  "drug": "Cinacalcet",
+  "drugbank_id": "DB01012",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "CaSR 正向變構調節劑。市場狀態標示未上市（新加坡語系），但國際上已有成熟核准適應症。原始 MoA 欄位為 [Data Gap]，實際機轉明確：活化 CaSR → 抑制 PTH 分泌。",
+  "indications": [
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2（精胺酸血管加壓素受體 2）功能增益突變引起，導致腎小管過度水再吸收。CaSR 訊號途徑（Gq/Gi）與 AVPR2（Gs-cAMP）雖有交叉訊號可能性，但無直接治療機轉研究支持。TxGNN 高分可能反映知識圖譜中電解質調節的間接關聯，不具臨床轉化依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "common cold",
+      "txgnn_score": 0.9539,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理機轉假說。普通感冒主要由呼吸道病毒（鼻病毒、冠狀病毒）引起，CaSR 活化與抗病毒、抗炎機制間缺乏明確生物學連結。TxGNN 高分可能為圖神經網路知識圖譜路徑噪音。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "female breast carcinoma",
+      "txgnn_score": 0.9423,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CaSR 高度表達於乳腺上皮細胞，在乳癌中呈差異表達（部分亞型下調）。CaSR 活化可抑制乳癌細胞分泌 PTHrP（副甲狀腺素相關蛋白），理論上可減少骨轉移促進效應。PMID 38780484 提示 CaSR 作為乳癌潛在生物標記，具機轉相關性。然而現有文獻均非直接測試 cinacalcet 於乳癌治療，屬間接機轉推論。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38780484",
+          "title": "Calcium-sensing Receptor, a Potential Biomarker Revealed by Large-scale Public Databases and Experimental Validation",
+          "year": "2024",
+          "study_type": "Database analysis + experimental",
+          "tier": "2",
+          "relevance_note": "直接研究 CaSR 於乳癌中的生物標記角色，提供機轉連結，但未測試 cinacalcet"
+        },
+        {
+          "pmid": "27873072",
+          "title": "Cinacalcet hydrochloride relieves hypercalcemia in Japanese patients with parathyroid cancer",
+          "year": "2017",
+          "study_type": "Case series",
+          "tier": "3",
+          "relevance_note": "研究對象為副甲狀腺癌，非乳癌；與本適應症無直接關聯"
+        },
+        {
+          "pmid": "18541104",
+          "title": "Calciphylaxis of the breast: a rare disease in the differential diagnosis of breast cancer",
+          "year": "2008",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_note": "乳房鈣化症鑑別診斷，非乳癌治療研究"
+        },
+        {
+          "pmid": "19627726",
+          "title": "[Primary hyperparathyroidism. An alternative to the surgery]",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "原發性副甲狀腺機能亢進症管理，與乳癌無關"
+        },
+        {
+          "pmid": "32312250",
+          "title": "Case report of a cystic parathyroidal adenoma with rapid growth induced by cinacalcet",
+          "year": "2020",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_note": "副甲狀腺腺瘤個案，非乳癌相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn_score": 0.9373,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "MEN1（多發性內分泌腫瘤第一型）以原發性副甲狀腺機能亢進症（PHPT）為最常見表現（約 95% 患者）。Cinacalcet 透過活化副甲狀腺 CaSR，降低 PTH 閾值分泌點，有效控制高鈣血症。雖無法縮小腫瘤，但可作為手術前橋接治療或手術不適合者的長期管理選項。多項獨立佇列研究證實 MEN1 相關 PHPT 患者的臨床效益，法國多中心研究亦支持兒科族群 off-label 使用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00325104",
+          "title": "Cinacalcet Actions in Familial Primary Hyperparathyroidism",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 25,
+          "relevance_grade": "A",
+          "reasoning": "家族性原發性副甲狀腺機能亢進症為 MEN1 核心表現，Phase 3 完成試驗直接支持 cinacalcet 於此臨床情境的效益，雖樣本數小（n=25），但為目前最高等級直接證據"
+        },
+        {
+          "nct_id": "NCT03123406",
+          "title": "Multi-center Study Evaluating Efficacy and Safety of Cinacalcet HCL in Calcium, Phosphorus Management",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 750,
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 4 試驗（n=750）聚焦於透析患者繼發性副甲狀腺機能亢進症，非 MEN 族群，但提供 cinacalcet 在副甲狀腺機能亢進症廣義情境下的安全性與療效支持"
+        },
+        {
+          "nct_id": "NCT04637360",
+          "title": "Bone Turnover Markers and Bone Density Changes in Hyperparathyroid Dialysis Patients",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，透析族群骨轉換標記，與 MEN 適應症相關性低，僅提供骨骼影響的背景資訊"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24285106",
+          "title": "Impact of cinacalcet hydrochloride in clinical management of primary hyperparathyroidism in multiple endocrine neoplasia",
+          "year": "2013",
+          "study_type": "Cohort",
+          "tier": "1",
+          "relevance_note": "直接研究 cinacalcet 於 MEN 相關 PHPT 的臨床療效，核心文獻"
+        },
+        {
+          "pmid": "26224587",
+          "title": "Cinacalcet therapy in patients affected by primary hyperparathyroidism associated to Multiple Endocrine Neoplasia",
+          "year": "2016",
+          "study_type": "Cohort",
+          "tier": "1",
+          "relevance_note": "MEN 相關 PHPT 的 cinacalcet 治療佇列研究，直接療效數據"
+        },
+        {
+          "pmid": "22577108",
+          "title": "MEN1-related hyperparathyroidism: response to cinacalcet and its relationship with the calcium-sensing receptor",
+          "year": "2012",
+          "study_type": "Cohort",
+          "tier": "1",
+          "relevance_note": "MEN1 相關 PHPT 對 cinacalcet 的反應與 CaSR 關聯分析，含機轉數據"
+        },
+        {
+          "pmid": "36090548",
+          "title": "Off-label use of cinacalcet in pediatric primary hyperparathyroidism: A French multicenter experience",
+          "year": "2022",
+          "study_type": "Multicenter cohort",
+          "tier": "1",
+          "relevance_note": "法國多中心兒科族群 off-label 使用資料，部分患者為 MEN，支持特殊族群安全性"
+        },
+        {
+          "pmid": "35407574",
+          "title": "Management and Long-Term Follow-Up of Hyperparathyroidism in Multiple Endocrine Neoplasia Type 1",
+          "year": "2022",
+          "study_type": "Systematic review / Guidelines",
+          "tier": "1",
+          "relevance_note": "MEN1 副甲狀腺機能亢進症長期管理系統性回顧，涵蓋 cinacalcet 角色定位"
+        },
+        {
+          "pmid": "22104762",
+          "title": "Update on the use of cinacalcet in the management of primary hyperparathyroidism",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "原發性副甲狀腺機能亢進症中 cinacalcet 使用的全面回顧，背景支持"
+        },
+        {
+          "pmid": "37893182",
+          "title": "Pediatric Neuroendocrine Neoplasia of the Parathyroid Glands: Primary Hyperparathyroidism",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "兒科副甲狀腺神經內分泌腫瘤（MEN 相關），提供特殊族群背景"
+        },
+        {
+          "pmid": "24868516",
+          "title": "Parathyroid carcinoma in pregnancy",
+          "year": "2014",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_note": "副甲狀腺癌個案，與 MEN 關聯性有限"
+        },
+        {
+          "pmid": "33244495",
+          "title": "Unexpected hyperparathyroidism in a patient with acrodysostosis",
+          "year": "2020",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_note": "罕見 GNAS 突變相關副甲狀腺機能亢進症，與 MEN 僅有病理機轉類比"
+        },
+        {
+          "pmid": "37657020",
+          "title": "The evolution of primary hyperparathyroidism publications and global productivity",
+          "year": "2023",
+          "study_type": "Bibliometric analysis",
+          "tier": "3",
+          "relevance_note": "出版趨勢分析，不含臨床療效數據"
+        }
+      ]
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9308,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論假說：CaSR 表達於三叉神經節，其活化可能影響 CGRP（降鈣素基因相關肽）釋放，而 CGRP 為偏頭痛關鍵調節因子。然而此推論缺乏實驗驗證，現有零臨床或臨床前證據，不足以支持進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9216,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自主神經頭痛（TAC，含叢集性頭痛）涉及三叉神經-副交感神經反射弧活化。CaSR-CGRP 假說與 headache disorder 相同，但特異性更低。無任何臨床或臨床前支持資料。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn_score": 0.9166,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多毛症主要由雄激素過多或毛囊對雄激素的感受性異常引起。CaSR 在毛囊生長調節中的角色無文獻支持。TxGNN 預測可能為圖模型的偽關聯，無生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "subarachnoid hemorrhage (disease)",
+      "txgnn_score": 0.9139,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蜘蛛網膜下腔出血後腦血管痙攣涉及細胞外鈣離子與血管平滑肌收縮。CaSR 表達於腦血管平滑肌，理論上其活化可能影響血管張力，但此推論極度間接，且無任何臨床前或臨床研究佐證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9121,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CaSR 表達於肺血管平滑肌細胞，其活化已被證明可調節血管張力（PMID 25498383）。在 CKD 合併繼發性副甲狀腺機能亢進症患者中，高 PTH 可促進血管鈣化，間接加重肺血管阻力。Cinacalcet 降低 PTH 和 FGF23 可能具間接保護效果。然而現有文獻均屬機轉背景研究，無直接測試 cinacalcet 於肺動脈高壓的臨床數據，且特發性 PAH 患者的適用性尚未確立。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "25498383",
+          "title": "Calcium-sensing receptor activation in chronic kidney disease: effects beyond parathyroid hormone control",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "CaSR 在 CKD 血管效應的機轉回顧，提供最直接的機轉支持，但未直接測試肺動脈高壓"
+        },
+        {
+          "pmid": "27230839",
+          "title": "Pharmacological characteristics of drugs targeted on calcium-sensing receptor - properties of cinacalcet",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "CaSR 藥理學回顧，提供 cinacalcet 對血管 CaSR 作用的背景資料"
+        },
+        {
+          "pmid": "39677159",
+          "title": "Calcific Uremic Arteriolopathy (CUA) Among Malaysian Dialysis Patients",
+          "year": "2024",
+          "study_type": "Cohort",
+          "tier": "3",
+          "relevance_note": "透析患者血管鈣化描述性研究，未直接關聯肺動脈高壓"
+        },
+        {
+          "pmid": "37404402",
+          "title": "Challenges in the Management of Primary Hyperparathyroidism and Congestive Heart Failure",
+          "year": "2023",
+          "study_type": "Case report / Review",
+          "tier": "3",
+          "relevance_note": "原發性副甲狀腺機能亢進症合併心衰竭管理，與肺動脈高壓僅間接相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn_score": 0.9080,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "疾病術語標記為 'obsolete'（已廢棄）。家族性混合高脂血症由 APOE/APOC3/LPL 等脂質代謝基因異常引起，CaSR 與脂質代謝的直接關聯缺乏文獻支持。零臨床及臨床前證據，且疾病分類本身已不適用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| multiple endocrine neoplasia | **L2** | **S2** | ✅ Proceed with Guardrails |
+| female breast carcinoma | L4 | S1 | 🔬 Research Question |
+| pulmonary hypertension | L4 | S0 | ⛔ Hold |
+| nephrogenic syndrome of inappropriate antidiuresis | L5 | S0 | ⛔ Hold |
+| common cold | L5 | S0 | ⛔ Hold |
+| headache disorder | L5 | S0 | ⛔ Hold |
+| trigeminal autonomic cephalalgia | L5 | S0 | ⛔ Hold |
+| hypertrichosis | L5 | S0 | ⛔ Hold |
+| subarachnoid hemorrhage | L5 | S0 | ⛔ Hold |
+| obsolete familial combined hyperlipidemia | L5 | S0 | ⛔ Hold |
+
+---
+
+## 關鍵發現
+
+### 🟢 優先適應症：Multiple Endocrine Neoplasia (MEN)
+
+**為何值得推進：**
+- **Phase 3 試驗已完成**（NCT00325104，家族性原發性副甲狀腺機能亢進症，MEN 核心表現）
+- **3 項獨立佇列研究**直接在 MEN1 患者中測試 cinacalcet
+- 機轉明確：CaSR → PTH 抑制 → 高鈣血症控制
+- 法國多中心研究支持兒科族群 off-label 安全性
+
+**Guardrails 條件：**
+- 非腫瘤縮小療法，僅控制生化指標
+- 需監測低鈣血症風險
+- 手術仍為 MEN1-PHPT 根治首選，cinacalcet 定位為橋接或不可手術者
+
+### 🟡 觀察適應症：Female Breast Carcinoma
+
+**潛力來源：** CaSR-PTHrP 骨轉移抑制假說，有 2024 年大型資料庫研究支持 CaSR 為生物標記。建議進行臨床前（細胞株/動物模型）驗證後再評估臨床可行性。

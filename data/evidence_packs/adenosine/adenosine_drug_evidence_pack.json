@@ -1,0 +1,2844 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00640-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Adenosine",
+    "drugbank_id": "DB00640",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "obsolete bundle branch block",
+      "txgnn": {
+        "score": 0.9993757605552672,
+        "rank": 1338
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為已廢棄（obsolete）的疾病分類術語，現代診斷學已將束枝傳導阻滯細分為 LBBB/RBBB/分枝阻滯等類型。Adenosine 透過 A1 受體延長 AV 結不應期，對束枝層級的傳導阻滯無直接治療機轉。高 TxGNN 分數（0.9994）可能源自知識圖譜中心律不整節點的泛化相似性，而非真實生物學關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+      "txgnn": {
+        "score": 0.9941934943199158,
+        "rank": 7213
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07263139",
+            "title": "A Phase 2a Trial to Investigate Safety, Tolerability and Exploratory Clinical Efficacy of AGP100 in Patients With Catecholaminergic Polymorphic Ventricular Tachycardia (PACE-CPVT)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 10,
+            "start_date": "2026-01-02",
+            "completion_date": "2027-06-30",
+            "brief_summary": "This trial is conducted in patients with an inherited heart rhythm disorder called catecholaminergic polymorphic ventricular tachycardia (CPVT). This condition causes the heart to beat dangerously fast during situations of physical or emotional stress. CPVT is a serious condition that can limit the length and quality of patients' lives. Current treatment does not always prevent the abnormal heart rhythms that can occur as part of CPVT during strenuous exercise or stress, so new and improved medi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "AGP100 為選擇性腺苷 A1 受體激動劑（非腺苷原藥），專為 CPVT 設計的 Phase 2a（n=10，RECRUITING）。代理驗證（surrogate validation）A1 路徑在 CPVT 的治療可行性，具高度路徑相關性但非腺苷直接證據。試驗規模極小，結果尚未公布。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40165484",
+            "title": "The diagnostic role of pharmacological provocation testing in cardiac electrophysiology: a clinical consensus statement of the European Heart Rhythm Association and the European Association of Percutaneous Cardiovascular Interventions (EAPCI) of the ESC, the ESC Working Group on Cardiovascular Pharmacotherapy, the Association of European Paediatric and Congenital Cardiology (AEPC), the Paediatric & Congenital Electrophysiology Society (PACES), the Heart Rhythm Society (HRS), the Asia Pacific Heart Rhythm Society (APHRS), and the Latin American Heart Rhythm Society (LAHRS).",
+            "authors": [
+              "Behr Elijah R",
+              "Winkel Bo Gregers",
+              "Ensam Bode",
+              "Alfie Alberto",
+              "Arbelo Elena"
+            ],
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2025",
+            "abstract": "The pharmacological provocation test is a pivotal tool in cardiac electrophysiology for the diagnosis of potential causes of sudden cardiac death, sudden cardiac arrest (SCA), arrhythmias, symptoms, or ECG abnormalities. The 2022 European Society of Cardiology Guidelines for the Treatment of Ventricular Arrhythmias and Prevention of Sudden Cardiac Death offered guidance on provocation testing but did not describe the indications and requirements in depth. This clinical consensus statement, led b",
+            "classification": {
+              "study_type": "Review（藥理激發試驗在電生理的角色）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35577932",
+            "title": "TECRL deficiency results in aberrant mitochondrial function in cardiomyocytes.",
+            "authors": [
+              "Hou Cuilan",
+              "Jiang Xunwei",
+              "Zhang Han",
+              "Zheng Junmin",
+              "Qiu Qingzhu"
+            ],
+            "journal": "Communications biology",
+            "year": "2022",
+            "abstract": "Sudden cardiac death (SCD) caused by ventricular arrhythmias is the leading cause of mortality of cardiovascular disease. Mutation in TECRL, an endoplasmic reticulum protein, was first reported in catecholaminergic polymorphic ventricular tachycardia during which a patient succumbed to SCD. Using loss- and gain-of-function approaches, we investigated the role of TECRL in murine and human cardiomyocytes. Tecrl (knockout, KO) mouse shows significantly aggravated cardiac dysfunction, evidenced by t",
+            "classification": {
+              "study_type": "Basic Science（TECRL 缺陷粒線體功能）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18368865",
+            "title": "Ventricular tachycardia in structurally normal hearts: recognition and management.",
+            "authors": [
+              "Nathani P",
+              "Shetty Sheetal",
+              "Lokhandwala Y"
+            ],
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2007",
+            "abstract": "Idiopathic ventricular tachycardia is a defined set of tachycardias when structural or pathological cause has been ruled out for the same. This paper tries to define and classify these arrhythmias to organize a logical therapeutic approach to deal with them. 60-80% of the idiopathic tachycardias originate from the right ventricular outflow tract (RVOT) and in 10% from the left ventricular outflow tract (LVOT). Outflow tract tachycardias have either LBBB or RBBB morphology with early R wave trans",
+            "classification": {
+              "study_type": "Review（結構正常心臟室速的治療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21699856",
+            "title": "Postpacing abnormal repolarization in catecholaminergic polymorphic ventricular tachycardia associated with a mutation in the cardiac ryanodine receptor gene.",
+            "authors": [
+              "Nof Eyal",
+              "Belhassen Bernard",
+              "Arad Michael",
+              "Bhuiyan Zahurul A",
+              "Antzelevitch Charles"
+            ],
+            "journal": "Heart rhythm",
+            "year": "2011",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is an arrhythmogenic disease for which electrophysiological studies (EPS) have shown to be of limited value.",
+            "classification": {
+              "study_type": "Observational（CPVT 起搏後異常再極化）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38776406",
+            "title": "Gene therapy with phosphodiesterases 2A and 4B ameliorates heart failure and arrhythmias by improving subcellular cAMP compartmentation.",
+            "authors": [
+              "Pavlaki Nikoleta",
+              "Froese Alexander",
+              "Li Wener",
+              "De Jong Kirstie A",
+              "Geertz Birgit"
+            ],
+            "journal": "Cardiovascular research",
+            "year": "2024",
+            "abstract": "Gene therapy with cardiac phosphodiesterases (PDEs), such as phosphodiesterase 4B (PDE4B), has recently been described to effectively prevent heart failure (HF) in mice. However, exact molecular mechanisms of its beneficial effects, apart from general lowering of cardiomyocyte cyclic adenosine monophosphate (cAMP) levels, have not been elucidated. Here, we studied whether gene therapy with two types of PDEs, namely PDE2A and PDE4B, can prevent pressure-overload-induced HF in mice by acting on an",
+            "classification": {
+              "study_type": "Animal Study（PDE2A/4B 基因治療心律不整）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39148245",
+            "title": "What an anesthesiologist should know about pediatric arrhythmias.",
+            "authors": [
+              "Kuntz Michael T",
+              "Eagle Susan S",
+              "Dalal Aarti",
+              "Samouil Marc M",
+              "Staudt Genevieve E"
+            ],
+            "journal": "Paediatric anaesthesia",
+            "year": "2024",
+            "abstract": "Identifying and treating pediatric arrhythmias is essential for pediatric anesthesiologists. Pediatric patients can present with narrow or wide complex tachycardias, though the former is more common. Patients with inherited channelopathies or cardiomyopathies are at increased risk. Since most pediatric patients present for anesthesia without a baseline electrocardiogram, the first identification of an arrhythmia may occur under general anesthesia. Supraventricular tachycardia, the most common pe",
+            "classification": {
+              "study_type": "Review（麻醉師應知的兒科心律不整）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18313614",
+            "title": "Adenosine triphosphate terminates bidirectional ventricular tachycardia in a patient with catecholaminergic polymorphic ventricular tachycardia.",
+            "authors": [
+              "Sumitomo Naokata",
+              "Sakurada Harumizu",
+              "Mugishima Hideo",
+              "Hiraoka Masayasu"
+            ],
+            "journal": "Heart rhythm",
+            "year": "2008",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report（ATP 終止 CPVT 室速）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41691612",
+            "title": "Human-derived cardiac-neural microtissues reveal catecholaminergic polymorphic ventricular tachycardia is also a disease of the sympathetic neuron.",
+            "authors": [
+              "Li Ni",
+              "Zhang Chenchen",
+              "Xu Mengying",
+              "Choi YoonYoung",
+              "Sidarta-Oliveira Davi"
+            ],
+            "journal": "The Journal of physiology",
+            "year": "2026",
+            "abstract": "Sudden cardiac death in young individuals with structurally normal hearts represents a critical unresolved clinical challenge and typically occurs in patients with inherited arrhythmia syndromes due to cardiac channelopathies. Catecholaminergic polymorphic ventricular tachycardia (CPVT) can cause fatal arrhythmias triggered by adrenergic stimulation. Therapeutic interventions primarily target cardiac myocytes (CMs) despite robust clinical evidence demonstrating the life-saving efficacy of cardia",
+            "classification": {
+              "study_type": "In vitro（心臟神經微組織 CPVT 模型，2026）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30209242",
+            "title": "Sarcoplasmic reticulum calcium leak contributes to arrhythmia but not to heart failure progression.",
+            "authors": [
+              "Mohamed Belal A",
+              "Hartmann Nico",
+              "Tirilomis Petros",
+              "Sekeres Karolina",
+              "Li Wener"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2018",
+            "abstract": "Increased sarcoplasmic reticulum (SR) Ca2+ leak via the cardiac ryanodine receptor (RyR2) has been suggested to play a mechanistic role in the development of heart failure (HF) and cardiac arrhythmia. Mice treated with a selective RyR2 stabilizer, rycal S36, showed normalization of SR Ca2+ leak and improved survival in pressure overload (PO) and myocardial infarction (MI) models. The development of HF, measured by echocardiography and molecular markers, showed no difference in rycal S36- versus ",
+            "classification": {
+              "study_type": "Animal Study（SR 鈣洩漏與心律不整）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23747301",
+            "title": "ATP interacts with the CPVT mutation-associated central domain of the cardiac ryanodine receptor.",
+            "authors": [
+              "Blayney Lynda",
+              "Beck Konrad",
+              "MacDonald Ewan",
+              "D'Cruz Leon",
+              "Nomikos Michail"
+            ],
+            "journal": "Biochimica et biophysica acta",
+            "year": "2013",
+            "abstract": "This study was designed to determine whether the cardiac ryanodine receptor (RyR2) central domain, a region associated with catecholamine polymorphic ventricular tachycardia (CPVT) mutations, interacts with the RyR2 regulators, ATP and the FK506-binding protein 12.6 (FKBP12.6).",
+            "classification": {
+              "study_type": "In vitro mechanistic（ATP-RyR2 CPVT 突變交互作用）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33407975",
+            "title": "COVID-19 FAQs in paediatric and congenital cardiology: AEPC position paper.",
+            "authors": [
+              "Sendzikaite Skaiste",
+              "Heying Ruth",
+              "Milanesi Ornella",
+              "Hanseus Katarina",
+              "Michel-Behnke Ina"
+            ],
+            "journal": "Cardiology in the young",
+            "year": "2021",
+            "abstract": "The COVID-19 pandemic has had a huge influence in almost all areas of life, affecting societies, economics, and health care systems worldwide. The paediatric cardiology community is no exception. As the challenging battle with COVID-19 continues, professionals from the Association for the European Paediatric and Congenital Cardiology receive many questions regarding COVID-19 in a Paediatric and Congenital Cardiology setting. The aim of this paper is to present the AEPC position on frequently ask",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15324613",
+            "title": "Current Management of Syncope: Treatment Alternatives.",
+            "authors": [
+              "Morillo Carlos A.",
+              "Baranchuk Adrián"
+            ],
+            "journal": "Current treatment options in cardiovascular medicine",
+            "year": "2004",
+            "abstract": "Syncope, defined as a transient loss of consciousness and postural tone with spontaneous recovery and no neurologic sequelae, is among one of the most common causes of consultation with a physician. The diagnostic workup is complex but can be simplified if focused on the underlying condition. Prognosis is highly dependent on the presence or absence of structural heart disease, primarily the presence of cardiomyopathy regardless of etiology, particularly if the left ventricular (LV) function is l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23858002",
+            "title": "Mechanism of calsequestrin regulation of single cardiac ryanodine receptor in normal and pathological conditions.",
+            "authors": [
+              "Chen Haiyan",
+              "Valle Giorgia",
+              "Furlan Sandra",
+              "Nani Alma",
+              "Gyorke Sandor"
+            ],
+            "journal": "The Journal of general physiology",
+            "year": "2013",
+            "abstract": "Release of Ca(2+) from the sarcoplasmic reticulum (SR) drives contractile function of cardiac myocytes. Luminal Ca(2+) regulation of SR Ca(2+) release is fundamental not only in physiology but also in physiopathology because abnormal luminal Ca(2+) regulation is known to lead to arrhythmias, catecholaminergic polymorphic ventricular tachycardia (CPVT), and/or sudden cardiac arrest, as inferred from animal model studies. Luminal Ca(2+) regulates ryanodine receptor (RyR)2-mediated SR Ca(2+) releas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CPVT 的核心病理為 RyR2（ryanodine receptor 2）基因突變或 CASQ2 缺陷導致 SR 鈣異常釋放，在兒茶酚胺刺激下誘發延後去極化（DAD）及觸發活性（triggered activity）。Adenosine 透過 Gi 蛋白偶聯 A1 受體抑制腺苷酸環化酶（adenylyl cyclase），降低細胞內 cAMP 濃度，從而拮抗 PKA 對 RyR2、LTCC 及受磷蛋白（phospholamban）的磷酸化，理論上可抑制 CPVT 的觸發機制。PMID 18313614 個案報告顯示 ATP（體內迅速水解為腺苷）成功終止一例 CPVT 雙向性室速；PMID 23747301 顯示 ATP 與 RyR2 central domain 的 CPVT 突變位點直接交互作用。NCT07263139（AGP100，選擇性 A1 激動劑）的 Phase 2a 試驗為同路徑最直接的臨床驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "periodic paralysis with transient compartment-like syndrome",
+      "txgnn": {
+        "score": 0.9897716641426086,
+        "rank": 10691
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為超罕見 channelopathy（骨骼肌 SCN4A 或 CACNA1S 相關），主要機轉為肌膜電壓異常與鈉通道/鈣通道功能喪失。Adenosine 的心血管及眼科受體機轉與骨骼肌離子通道病理無已知關聯。TxGNN 高分（0.9898）為純粹圖譜推斷，無任何臨床或基礎科學支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "incessant infant ventricular tachycardia",
+      "txgnn": {
+        "score": 0.9869938492774964,
+        "rank": 12841
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8946465",
+            "title": "Verapamil sensitive incessant ventricular tachycardia in the newborn.",
+            "authors": [
+              "Dhala A",
+              "Lewis D A",
+              "Garland J",
+              "Pelech A N"
+            ],
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "1996",
+            "abstract": "Incessant VTs in infancy are often poorly tolerated. Response to conventional antiarrhythmic therapy is disappointing. The present case involves a 3-week-old infant with an incessant VT of a left bundle branch block, and normal axis morphology. This tachycardia was inducible with both atrial and ventricular pacing, but not by premature stimulation. Tachycardia persisted despite treatment with adenosine, esmolol, procainamide, and flecainide. Intravenous verapamil suppressed tachycardia and preve",
+            "classification": {
+              "study_type": "Case Report（新生兒 verapamil 敏感性 VT）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9893292",
+            "title": "Effectiveness and safety of intravenous amiodarone in drug-resistant tachyarrhythmias of children.",
+            "authors": [
+              "Celiker A",
+              "Ceviz N",
+              "Ozme S"
+            ],
+            "journal": "Acta paediatrica Japonica : Overseas edition",
+            "year": "1998",
+            "abstract": "Experience with pediatric use of intravenous amiodarone is limited. In this study, our experiences with intravenous amiodarone in children with acute life-threatening or chronic tachyarrhythmias are reviewed.",
+            "classification": {
+              "study_type": "Retrospective Case Series（IV amiodarone 兒科心律不整）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10457304",
+            "title": "Radiofrequency catheter ablation in a haemodynamically compromised premature neonate with hydrops fetalis.",
+            "authors": [
+              "Osborn D A",
+              "Lau K C",
+              "Uther J B",
+              "Coughtrey H",
+              "Rochefort M J"
+            ],
+            "journal": "Journal of paediatrics and child health",
+            "year": "1999",
+            "abstract": "A preterm infant was born at 35 weeks gestation after failed antenatal antiarrhythmic therapy. The infant had an incessant supraventricular tachycardia, impaired ventricular function and hypotension and failed to respond to adenosine, cardioversion and intravenous amiodarone. After resuscitation from cardiovascular collapse, a successful radiofrequency catheter ablation (RFA) of a left free wall atrioventricular pathway was performed at 24 h of age without extracorporeal support. The infant is n",
+            "classification": {
+              "study_type": "Case Report（早產兒 RF 消融）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Adenosine 在嬰兒臨床實務中已廣泛用於室上心搏過速（SVT）的急性轉復，機轉為 A1 受體介導的 AV 結傳導阻斷。然而「不歇性嬰兒室速（incessant infant VT）」為心室起源，對 AV 結阻斷無反應；部分觸發性（triggered activity，cAMP 依賴型）嬰兒 VT 在理論上可能對腺苷有部分反應，但缺乏直接臨床證據。所提供的三篇文獻研究的是 verapamil、amiodarone 和射頻消融，不涉及腺苷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "arrhythmogenic right ventricular cardiomyopathy",
+      "txgnn": {
+        "score": 0.9834566712379456,
+        "rank": 15142
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22113617",
+            "title": "Microvascular dysfunction in nonfailing arrhythmogenic right ventricular cardiomyopathy.",
+            "authors": [
+              "Paul Matthias",
+              "Rahbar Kambiz",
+              "Gerss Joachim",
+              "Kies Peter",
+              "Schober Otmar"
+            ],
+            "journal": "European journal of nuclear medicine and molecular imaging",
+            "year": "2012",
+            "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a nonischaemic cardiomyopathy and leading cause of sudden death in the young. It has been shown that microvascular dysfunction reflected by an impaired myocardial blood flow (MBF) response to stress is present in patients with other forms of nonischaemic cardiomyopathy, e.g. dilated cardiomyopathy, and that the reduced MBF may be related to a poor prognosis. Therefore, we quantified MBF, coronary flow reserve and coronary vascular resista",
+            "classification": {
+              "study_type": "Observational（ARVC 微血管功能障礙）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24025189",
+            "title": "Autonomic dysfunction in patients with arrhythmogenic right ventricular cardiomyopathy: biochemical evidence of altered signaling pathways.",
+            "authors": [
+              "Paul Matthias",
+              "Meyborg Matthias",
+              "Boknik Peter",
+              "Gergs Ulrich",
+              "Gerss Joachim"
+            ],
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "2014",
+            "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is an important cause of sudden cardiac death especially in times of increased sympathetic tone, for example, during sports, which have been confirmed by nuclear imaging studies. However, the underlying biochemical pathways remain to be delineated. Therefore, we investigated the expression levels of proteins of the signaling cascade in patients with ARVC.",
+            "classification": {
+              "study_type": "Observational（ARVC 自主神經功能障礙）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24931634",
+            "title": "Adenosine-insensitive right ventricular tachycardia: novel variant of idiopathic outflow tract tachycardia.",
+            "authors": [
+              "Cheung Jim W",
+              "Ip James E",
+              "Yarlagadda Ravi K",
+              "Liu Christopher F",
+              "Thomas George"
+            ],
+            "journal": "Heart rhythm",
+            "year": "2014",
+            "abstract": "A hallmark of idiopathic right ventricular outflow tract (RVOT) tachycardia is its sensitivity to adenosine (ADO), which is consistent with a triggered mechanism. We have identified a novel group of patients with ADO-insensitive, non-reentrant RVOT tachycardia.",
+            "classification": {
+              "study_type": "Observational/Case Series（腺苷不敏感 RV 室速）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37213071",
+            "title": "Right ventricular function is a predictor for sustained ventricular tachycardia requiring anti-tachycardic pacing in arrhythmogenic ventricular cardiomyopathy: insight into transvenous vs. subcutaneous implantable cardioverter defibrillator insertion.",
+            "authors": [
+              "Honarbakhsh Shohreh",
+              "Protonotarios Alexander",
+              "Monkhouse Christopher",
+              "Hunter Ross J",
+              "Elliott Perry M"
+            ],
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2023",
+            "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) patients develop ventricular arrhythmias (VAs) responsive to anti-tachycardia pacing (ATP). However, VA episodes have not been characterized in accordance with the device therapy, and with the emergence of the subcutaneous implantable cardioverter defibrillator (S-ICD), the appropriate device prescription in ARVC remains unclear. Study aim was to characterize VA events in ARVC patients during follow-up in accordance with device therapy and e",
+            "classification": {
+              "study_type": "Cohort（RV 功能預測持續性 VT）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29566126",
+            "title": "Electrical dysfunctions in human-induced pluripotent stem cell-derived cardiomyocytes from a patient with an arrhythmogenic right ventricular cardiomyopathy.",
+            "authors": [
+              "El-Battrawy Ibrahim",
+              "Zhao Zhihan",
+              "Lan Huan",
+              "Cyganek Lukas",
+              "Tombers Christoph"
+            ],
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2018",
+            "abstract": "Our aim is to investigate the arrhythmogenic mechanism in arrhythmogenic right ventricular cardiomyopathy (ARVC)-patients by using human-induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs).",
+            "classification": {
+              "study_type": "Basic Science/iPSC（ARVC iPSC 心肌細胞電功能）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35128211",
+            "title": "Translation of New and Emerging Therapies for Genetic Cardiomyopathies.",
+            "authors": [
+              "Helms Adam S",
+              "Thompson Andrea D",
+              "Day Sharlene M"
+            ],
+            "journal": "JACC. Basic to translational science",
+            "year": "2022",
+            "abstract": "The primary etiology of a diverse range of cardiomyopathies is now understood to be genetic, creating a new paradigm for targeting treatments on the basis of the underlying molecular cause. This review provides a genetic and etiologic context for the traditional clinical classifications of cardiomyopathy, including molecular subtypes that may exhibit differential responses to existing or emerging treatments. The authors describe several emerging cardiomyopathy treatments, including gene therapy,",
+            "classification": {
+              "study_type": "Review（遺傳性心肌病新型療法）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25464498",
+            "title": "A sudden cardiac death induced by sildenafil and sexual activity in an HIV patient with drug interaction, cardiac early repolarization, and arrhythmogenic right ventricular cardiomyopathy.",
+            "authors": [
+              "Kobayashi Masamune",
+              "Takata Yoshifumi",
+              "Goseki Yoshinari",
+              "Mizukami Hajime",
+              "Hara Shu-ichi"
+            ],
+            "journal": "International journal of cardiology",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report（HIV 患者 SCD 藥物交互作用）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15475817",
+            "title": "Diagnosis and treatment of idiopathic ventricular tachycardia.",
+            "authors": [
+              "Chiu Christine",
+              "Sequeira Ilán Buffo"
+            ],
+            "journal": "AACN clinical issues",
+            "year": "2004",
+            "abstract": "Idiopathic ventricular tachycardia in patients with an anatomically normal heart is a distinct entity whose management and prognosis differs from ventricular tachycardia associated with structural heart disease. The tachycardia's QRS morphology on surface electrocardiogram (ECG) predicts the site of origin and is commonly classified as right ventricular tachycardia or left ventricular tachycardia. The tachycardia is further characterized by clinical features such as repetitive monomorphic ventri",
+            "classification": {
+              "study_type": "Review（特發性 VT 診斷與治療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20938414",
+            "title": "Pharmacological testing in the diagnosis of arrhythmias.",
+            "authors": [
+              "Brembilla-Perrot B"
+            ],
+            "journal": "Minerva cardioangiologica",
+            "year": "2010",
+            "abstract": "Pharmacological testing has several indications in the diagnosis of arrhythmia. It is used for the diagnosis of bradycardia-related syncope either during non invasive tests as adenosine triphosphate (ATP) for the diagnosis of vasovagal syncope, but also for the diagnosis of sick sinus syndrome or isoproterenol infusion during the head up tilt test to induce a vasovagal syncope or during electrophysiological study to look for infrahisian AV block or organic sick sinus syndrome after injection of ",
+            "classification": {
+              "study_type": "Review（藥理試驗在心律不整診斷）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8869252",
+            "title": "[Idiopathic monomorphic ventricular tachycardia].",
+            "authors": [
+              "Fauchier J P",
+              "Fauchier L",
+              "Babuty D",
+              "Casset-Senon D",
+              "Benne J L"
+            ],
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1996",
+            "abstract": "Idiopathic monomorphic ventricular tachycardia (IVT) represents 10% of all cases of VT and is usually observed in young subjects. The origin of the VT may be right ventricular, especially in the infundibulum, giving rise to runs of VT with inter-critical ventricular extrasystoles of the same morphology, or to paroxysmal sustained exercise-induced VT; they usually show left bundle branch block with right axis deviation: the triggering mechanism is probably a parasystole incompletely protected fro",
+            "classification": {
+              "study_type": "Review（特發性單形性 VT）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21416823",
+            "title": "[Idiopathic ventricular tachycardia: clinical characteristics and management].",
+            "authors": [
+              "Durin Ornella",
+              "Pedrinazzi Claudio",
+              "Agricola Pietro",
+              "Romagnoli Giulio",
+              "Donato Giorgio"
+            ],
+            "journal": "Giornale italiano di cardiologia (2006)",
+            "year": "2010",
+            "abstract": "Outflow tract ventricular tachycardia (VT) is the most common form of idiopathic VT in clinical practice. The correct differential diagnosis with VTs caused by structural heart diseases (particularly arrhythmogenic right ventricular cardiomyopathy) is extremely challenging for the cardiologist. When correctly diagnosed, outflow tract VTs have a favorable prognosis in the majority of patients. At present, technical advancements and improved clinical experience in transcatheter ablation procedures",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30568602",
+            "title": "Blockade of the Adenosine 2A Receptor Mitigates the Cardiomyopathy Induced by Loss of Plakophilin-2 Expression.",
+            "authors": [
+              "Cerrone Marina",
+              "van Opbergen Chantal J M",
+              "Malkani Kabir",
+              "Irrera Natasha",
+              "Zhang Mingliang"
+            ],
+            "journal": "Frontiers in physiology",
+            "year": "2018",
+            "abstract": "Background: Mutations in plakophilin-2 (PKP2) are the most common cause of familial Arrhythmogenic Right Ventricular Cardiomyopathy, a disease characterized by ventricular arrhythmias, sudden death, and progressive fibrofatty cardiomyopathy. The relation between loss of PKP2 expression and structural cardiomyopathy remains under study, though paracrine activation of pro-fibrotic intracellular signaling cascades is a likely event. Previous studies have indicated that ATP release into the intracel",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18605997",
+            "title": "Standardized cardiovascular magnetic resonance imaging (CMR) protocols, society for cardiovascular magnetic resonance: board of trustees task force on standardized protocols.",
+            "authors": [
+              "Kramer Christopher M",
+              "Barkhausen Jorg",
+              "Flamm Scott D",
+              "Kim Raymond J",
+              "Nagel Eike"
+            ],
+            "journal": "Journal of cardiovascular magnetic resonance : official journal of the Society for Cardiovascular Magnetic Resonance",
+            "year": "2008",
+            "abstract": "1. General techniques 1.1. Stress and safety equipment 1.2. Left ventricular (LV) structure and function module 1.3. Right ventricular (RV) structure and function module 1.4. Gadolinium dosing module. 1.5. First pass perfusion 1.6. Late gadolinium enhancement (LGE) 2. Disease specific protocols 2.1. Ischemic heart disease 2.1.1. Acute myocardial infarction (MI) 2.1.2. Chronic ischemic heart disease and viability 2.1.3. Dobutamine stress 2.1.4. Adenosine stress perfusion 2.2. Angiography: 2.2.1. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9930905",
+            "title": "Catecholamine facilitated reentrant ventricular tachycardia: uncoupling of adenosine's antiadrenergic effects.",
+            "authors": [
+              "Lerman B B",
+              "Stein K M",
+              "Markowitz S M",
+              "Mittal S",
+              "Slotwiner D"
+            ],
+            "journal": "Journal of cardiovascular electrophysiology",
+            "year": "1999",
+            "abstract": "Adenosine has no direct electrophysiologic function in ventricular tissue, but in the presence of cyclic adenosine monophosphate (cAMP), stimulation exerts a potent antiadrenergic effect. This effect has been exploited in the recognition and treatment of ventricular tachycardia (VT) due to cAMP-mediated triggered activity and automaticity, which are respectively terminated and suppressed by adenosine. However, the effects of adenosine on catecholamine-facilitated reentrant VT are unknown. A pivo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28103994",
+            "title": "[Analysis of microRNA expression profile in serum of patients with electrical burn or thermal burn].",
+            "authors": [
+              "Ruan Q F",
+              "Jiang M J",
+              "Ye Z Q",
+              "Zhao C L",
+              "Xie W G"
+            ],
+            "journal": "Zhonghua shao shang za zhi = Zhonghua shaoshang zazhi = Chinese journal of burns",
+            "year": "2017",
+            "abstract": "Objective: To explore the differential expression of microRNAs in the serum among patients with electrical burn or thermal burn and healthy persons and to explore the significance. Methods: In this study we included three patients with electrical burn and three patients with thermal burn, conforming to the inclusion criteria and hospitalized in our burn ward from June to August 2015, and three healthy adult volunteers. Their serum samples were separated from whole blood and divided into electric",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16307406",
+            "title": "[Curative treatment in a patient with exercise induced syncope].",
+            "authors": [
+              "Schley P",
+              "Gülker H",
+              "Horlitz M"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2005",
+            "abstract": "A 38 year old man suffered from exercise-induced reproducible dizziness and syncopes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ARVC 相關 VT 通常源自纖維脂肪替代的心室心肌折返環路，對腺苷無反應（reentrant VT）。關鍵文獻 PMID 24931634 明確定義「腺苷不敏感的右心室室速（adenosine-insensitive RV tachycardia）」為一獨立類型，並以此與 RVOT VT（cAMP 依賴型，腺苷敏感）做鑑別診斷——此證據反向說明腺苷對 ARVC VT 的治療效果有限。腺苷在 ARVC 主要作為電生理診斷工具，而非治療藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.9645789265632628,
+        "rank": 22968
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性遺傳性青光眼（如 MYOC、CYP1B1、LTBP2 突變相關）為基因異常導致小樑網發育缺陷或形態異常。腺苷透過 A1 受體調節房水外流通道的機轉在理論上仍適用，但特定遺傳形式的結構性缺陷（developmental angle anomaly）可能對功能性藥物調節反應不佳。零臨床試驗、零相關文獻，不支持進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn": {
+        "score": 0.9573134183883668,
+        "rank": 24897
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腺苷系統與睡眠穩態（睡眠壓力）密切相關——咖啡因作為廣泛使用的腺苷受體拮抗劑，被認為能改善部分注意力相關症狀。理論上，腺苷信號降低（拮抗）而非增強（激動）更符合 ADHD 的認知提升方向，Adenosine（激動劑）在此適應症的機轉方向可能相反。零臨床試驗、零文獻，為純粹預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.951159417629242,
+        "rank": 26423
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01123785",
+            "title": "A Phase I/II Multi-Center, Randomized, Double-Masked, Placebo-Controlled, Dose-Escalation Study to Evaluate the Tolerability, Safety, Pharmacokinetics, and Pharmacodynamics (Efficacy) of Chronic Twice-Daily Topical Monocular Application of INO-8875 Ophthalmic Formulation in Adults With Ocular Hypertension or Primary Open-Angle Glaucoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 144,
+            "start_date": "2010-05",
+            "completion_date": "2012-01",
+            "brief_summary": "The purpose of this study is to evaluate how tolerable, safe, and effective it is to give INO-8875 eye drops to adults with glaucoma or ocular hypertension.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Trabodenoson Phase 1/2，COMPLETED，n=144。腺苷 A1 受體選擇性激動劑首次人體試驗，證明路徑安全性與初步降眼壓療效。為腺苷路徑在 POAG 的基礎臨床驗證。"
+            }
+          },
+          {
+            "nct_id": "NCT05405868",
+            "title": "A Phase III, Double-masked, Randomised, Placebo-controlled Trial Investigating the Safety and Efficacy of Nicotinamide (NAM) to Slow Visual Field Loss in Adults With Open-angle Glaucoma",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 496,
+            "start_date": "2024-01-18",
+            "completion_date": "2027-06-30",
+            "brief_summary": "Glaucoma is the leading cause of sight impairment and blindness worldwide. It is a long-term eye disease which can cause permanent loss of sight and sometimes blindness and affects 1 in 50 people over 50 years of age. Open-angle glaucoma (OAG) is the most common type of glaucoma. This tends to develop slowly over many years, caused by the drainage pathway in the eye gradually becoming blocked over time due to a build-up of fluid. This build-up causes pressure in the eye to increase (intra-ocular",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，RECRUITING，n=496。若為第二代腺苷受體調節劑或改良配方，代表路徑的持續開發信心。為目前活躍的最高等級試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT02829996",
+            "title": "Phase II, Randomized, Double-masked, Active-controlled Study of Fixed-Dose Combinations of Trabodenoson and Latanoprost in Subjects With Ocular Hypertension or Primary Open-Angle Glaucoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 201,
+            "start_date": "2016-08-19",
+            "completion_date": "2017-05-31",
+            "brief_summary": "Phase II, randomized, double-masked study to evaluate the efficacy and tolerability of topical ocular delivery of fixed-dosed combinations of trabodenoson and latanoprost in subjects with Ocular Hypertension or Primary Open-Angle Glaucoma.\n\nAll subjects who meet the study's enrollment criteria following Screening will undergo washout of all prohibited medications (if washout is needed), including their routine glaucoma medications. During the Placebo Run-In Period, placebo is applied twice daily",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Trabodenoson 固定劑量複方 Phase 2，COMPLETED，n=201。評估與 latanoprost 聯合療法，支持腺苷路徑作為現有治療的加成方案，具組合療法的概念驗證價值。"
+            }
+          },
+          {
+            "nct_id": "NCT01917383",
+            "title": "A Phase II Multi-center, Randomized Study to Evaluate the Monocular Addition of Trabodenoson (INO-8875) Ophthalmic Formulation to Latanoprost Ophthalmic Solution Therapy in Adults With Ocular Hypertension or Primary Open-Angle Glaucoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 101,
+            "start_date": "2013-08",
+            "completion_date": "2014-09",
+            "brief_summary": "The purpose of this study is to evaluate the intraocular pressure (IOP) lowering efficacy and the safety and tolerability profile of trabodenoson ophthalmic formulation compared to timolol maleate ophthalmic solution 0.5% in adults with ocular hypertension (OHT) or primary open-angle glaucoma (POAG) who are already receiving treatment with latanoprost ophthalmic solution 0.005% once every evening (QPM).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Trabodenoson 單療 Phase 2，COMPLETED，n=101。單藥療效評估，為 Phase 3 設計提供樣本量計算依據，路徑驗證完整。"
+            }
+          },
+          {
+            "nct_id": "NCT02565173",
+            "title": "Phase III Multi-center, Randomized, Double-masked, Active- and Placebo-controlled Study of Trabodenoson in Adults With Ocular Hypertension or Primary Open-angle Glaucoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 303,
+            "start_date": "2015-09",
+            "completion_date": "2016-11",
+            "brief_summary": "Phase III trial involving topical application, in both eyes, of trabodenoson ophthalmic formulation 3.0% or 6.0% once per day or 4.5% twice per day, placebo twice per day, or timolol 0.5% twice per day for 12 weeks in adult subjects with Ocular Hypertension or Primary Open-Angle Glaucoma.\n\nAll subjects who meet the study's enrollment criteria following Screening will undergo washout of all prohibited medications, including their routine glaucoma medications. During the Placebo Run-In Period, pla",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Trabodenoson Phase 3，COMPLETED，n=303。最高等級已完成的腺苷路徑 RCT，提供完整的路徑療效與安全性數據。即使主要終點未達標（Trabodenoson Phase 3 最終結果），也為配方優化提供重要學習。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28076854",
+            "title": "Open-Angle Glaucoma: Drug Development Pipeline during the Last 20 Years (1995-2015).",
+            "authors": [
+              "Vicente André",
+              "Prud'homme Sylvie",
+              "Ferreira Joana",
+              "Abegão Pinto Luís",
+              "Stalmans Ingeborg"
+            ],
+            "journal": "Ophthalmic research",
+            "year": "2017",
+            "abstract": "To analyse drug development for open-angle glaucoma during the last 20 years.",
+            "classification": {
+              "study_type": "Review（POAG 藥物開發管線 20 年）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33987224",
+            "title": "Adenosine A3 receptor activated in H2O2 oxidative stress of primary open-angle glaucoma.",
+            "authors": [
+              "Zhou Ziyu",
+              "Gao Zhaolin",
+              "Yan Weitao",
+              "Zhang Yun",
+              "Huang Jufang"
+            ],
+            "journal": "Annals of translational medicine",
+            "year": "2021",
+            "abstract": "Primary open-angle glaucoma (POAG), as one of the leading reasons for blindness, is mainly due to trabecular meshwork (TM) dysfunction. Bioinformatics analysis was used to find related genes involved in TM oxidative stress, which is a major cause of TM fibrosis.",
+            "classification": {
+              "study_type": "Translational（A3 受體在 POAG 氧化壓力）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40128732",
+            "title": "Exploring diagnostic m6A regulators in primary open-angle glaucoma: insight from gene signature and possible mechanisms by which key genes function.",
+            "authors": [
+              "Zhang Xinyue",
+              "Chen Jiawei",
+              "Zhou Xiaoyu",
+              "Zhou Dengming",
+              "Liao Li"
+            ],
+            "journal": "BMC medical genomics",
+            "year": "2025",
+            "abstract": "The purpose of this study was to interrogate the potential role of N6-methyladenosine (m6A) regulators in the process of trabecular meshwork (TM) tissue damage in patients with primary open-angle glaucoma (POAG).",
+            "classification": {
+              "study_type": "Bioinformatics（m6A 調控因子在 POAG）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28356898",
+            "title": "Novel Pharmacologic Candidates for Treatment of Primary Open-Angle Glaucoma.",
+            "authors": [
+              "Lu Louise J",
+              "Tsai James C",
+              "Liu Ji"
+            ],
+            "journal": "The Yale journal of biology and medicine",
+            "year": "2017",
+            "abstract": "Primary open-angle glaucoma (OAG) affects approximately 45 million people worldwide and more than 2.5 million people aged 40 years or older in the United States. Pharmacologic treatment for glaucoma is directed towards lowering intraocular pressure (IOP) to slow disease progression and delay visual field loss. Current medical treatment options for the lowering of IOP include the following classes of topical medications: beta-adrenergic antagonists, alpha-adrenergic agonists, cholinergic agonists",
+            "classification": {
+              "study_type": "Review（POAG 新型藥理候選物，含腺苷類）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40525318",
+            "title": "Mitochondrial genes in lipid metabolism pathway and susceptibility to primary open and angle closure glaucoma.",
+            "authors": [
+              "Kandeeban Suganya",
+              "Asokan Rashima",
+              "Balekudaru Shantha",
+              "Lingam Vijaya",
+              "George Ronnie"
+            ],
+            "journal": "European journal of ophthalmology",
+            "year": "2025",
+            "abstract": "BackgroundMitochondrial genes regulate lipid metabolism and both are associated with the pathology of glaucoma. Here, we studied the genetic association of mitochondrial genes involved in lipid metabolic pathways with glaucoma and its ocular quantitative traits (QTs).MethodsPolymerase chain reaction based direct sequencing followed by MITOMAP analysis was performed for NADH (MT-ND1, MT-ND2, MT-ND5 and MT-ND6); Adenosine triphosphate (ATP) synthase (MT-ATPase6) and Cytochrome B subunit (MT-CYB) g",
+            "classification": {
+              "study_type": "Genetic Epidemiology（粒線體基因與青光眼易感性）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37525172",
+            "title": "ATP-P2X7R-mediated microglia senescence aggravates retinal ganglion cell injury in chronic ocular hypertension.",
+            "authors": [
+              "Wei Miao",
+              "Zhang Guowei",
+              "Huang Zeyu",
+              "Ding Xuemeng",
+              "Sun Qing"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2023",
+            "abstract": "Dysfunction of microglia during aging affects normal neuronal function and results in the occurrence of neurodegenerative diseases. Retinal microglial senescence attributes to retinal ganglion cell (RGC) death in glaucoma. This study aims to examine the role of ATP-P2X7R in the mediation of microglia senescence and glaucoma progression.",
+            "classification": {
+              "study_type": "Animal Study（ATP-P2X7R 微膠細胞老化傷害 RGC）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26496696",
+            "title": "Measurement of Systemic Mitochondrial Function in Advanced Primary Open-Angle Glaucoma and Leber Hereditary Optic Neuropathy.",
+            "authors": [
+              "Van Bergen Nicole J",
+              "Crowston Jonathan G",
+              "Craig Jamie E",
+              "Burdon Kathryn P",
+              "Kearns Lisa S"
+            ],
+            "journal": "PloS one",
+            "year": "2015",
+            "abstract": "Primary Open Angle Glaucoma (POAG) is a common neurodegenerative disease characterized by the selective and gradual loss of retinal ganglion cells (RGCs). Aging and increased intraocular pressure (IOP) are glaucoma risk factors; nevertheless patients deteriorate at all levels of IOP, implying other causative factors. Recent evidence presents mitochondrial oxidative phosphorylation (OXPHOS) complex-I impairments in POAG. Leber Hereditary Optic Neuropathy (LHON) patients suffer specific and rapid ",
+            "classification": {
+              "study_type": "Observational（晚期 POAG 粒線體功能）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33963197",
+            "title": "Elevated dimethylarginine, ATP, cytokines, metabolic remodeling involving tryptophan metabolism and potential microglial inflammation characterize primary open angle glaucoma.",
+            "authors": [
+              "Pulukool Sujith Kumar",
+              "Bhagavatham Sai Krishna Srimadh",
+              "Kannan Vishnu",
+              "Sukumar Piruthivi",
+              "Dandamudi Rajesh Babu"
+            ],
+            "journal": "Scientific reports",
+            "year": "2021",
+            "abstract": "Glaucoma of which primary open angle glaucoma (POAG) constitutes 75%, is the second leading cause of blindness. Elevated intra ocular pressure and Nitric oxide synthase (NOS) dysfunction are hallmarks of POAG. We analyzed clinical data, cytokine profile, ATP level, metabolomics and GEO datasets to identify features unique to POAG. N9 microglial cells are used to gain mechanistic insights. Our POAG cohort showed elevated ATP in aqueous humor and cytokines in plasma. Metabolomic analysis showed ch",
+            "classification": {
+              "study_type": "Metabolomics/Observational（POAG 代謝重塑）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11453537",
+            "title": "Normal tension glaucoma and primary open angle glaucoma associated with increased platelet aggregation.",
+            "authors": [
+              "Matsumoto M",
+              "Matsuhashi H",
+              "Nakazawa M"
+            ],
+            "journal": "The Tohoku journal of experimental medicine",
+            "year": "2001",
+            "abstract": "On purpose of the present study was to evaluate platelet aggregation and fibrinolytic systems in patients with normal tension glaucoma (NTG) or primary open angle glaucoma (POAG). For platelet aggregation, we photoelectrophotometrically investigated adenosine diphosphate (ADP) or collagen-induced platelet aggregation in consecutively selected patients with glaucoma (22 patients with NTG and 13 patients with POAG) and 42 glaucoma free control subjects with normal ocular findings. The aggregation ",
+            "classification": {
+              "study_type": "Observational（正常眼壓青光眼血小板凝集）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35147832",
+            "title": "The profile of gut microbiota and central carbon-related metabolites in primary angle-closure glaucoma patients.",
+            "authors": [
+              "Gong Haijun",
+              "Zeng Rui",
+              "Li Qiguan",
+              "Liu Yao",
+              "Zuo Chengguo"
+            ],
+            "journal": "International ophthalmology",
+            "year": "2022",
+            "abstract": "To explore the profile of gut microbiota and central carbon-related metabolites in patients with primary angle-closure glaucoma (PACG).",
+            "classification": {
+              "study_type": "Microbiome/Metabolomics（腸道菌相與青光眼）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22427588",
+            "title": "Impaired complex-I-linked respiration and ATP synthesis in primary open-angle glaucoma patient lymphoblasts.",
+            "authors": [
+              "Lee Shanjean",
+              "Sheck Leo",
+              "Crowston Jonathan G",
+              "Van Bergen Nicole J",
+              "O'Neill Evelyn C"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2012",
+            "abstract": "Following the recent demonstration of increased mitochondrial DNA mutations in lymphocytes of POAG patients, the authors sought to characterize mitochondrial function in a separate cohort of POAG.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9112168",
+            "title": "Genetic markers in primary open-angle glaucoma.",
+            "authors": [
+              "Abecia E",
+              "Martínez-Jarreta B",
+              "Casalod Y",
+              "Bell B",
+              "Pinilla I"
+            ],
+            "journal": "International ophthalmology",
+            "year": "1996",
+            "abstract": "To investigate possible associations between genetic markers and Primary Open-Angle Glaucoma (POAG).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27002298",
+            "title": "A Dose-Escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Efficacy of 2 and 4 Weeks of Twice-Daily Ocular Trabodenoson in Adults with Ocular Hypertension or Primary Open-Angle Glaucoma.",
+            "authors": [
+              "Myers Jonathan S",
+              "Sall Kenneth N",
+              "DuBiner Harvey",
+              "Slomowitz Natanya",
+              "McVicar William"
+            ],
+            "journal": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+            "year": "2016",
+            "abstract": "To evaluate the safety and ocular hypotensive efficacy of 4 trabodenoson doses administered twice daily over 14 or 28 days in subjects with ocular hypertension or primary open-angle glaucoma (POAG).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28480761",
+            "title": "Topical treatment of glaucoma: established and emerging pharmacology.",
+            "authors": [
+              "Dikopf Mark S",
+              "Vajaranant Thasarat S",
+              "Edward Deepak P"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2017",
+            "abstract": "Glaucoma is a collection of optic neuropathies consisting of retinal ganglion cell death and corresponding visual field loss. Glaucoma is the leading cause of irreversible vision loss worldwide and is forecasted to precipitously increase in prevalence in the coming decades. Current treatment options aim to lower intraocular pressure (IOP) via topical or oral therapy, laser treatment to the trabecular meshwork or ciliary body, and incisional surgery. Despite increasing use of trabecular laser the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17108164",
+            "title": "Expression of mutated mouse myocilin induces open-angle glaucoma in transgenic mice.",
+            "authors": [
+              "Senatorov Vladimir",
+              "Malyukova Irina",
+              "Fariss Robert",
+              "Wawrousek Eric F",
+              "Swaminathan Srividya"
+            ],
+            "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": "2006",
+            "abstract": "We developed a genetic mouse model of open-angle glaucoma by expression of mutated mouse myocilin (Myoc) in transgenic (Tg) mice. The Tyr423His point mutation, corresponding to the severe glaucoma-causing Tyr437His mutation in the human MYOC gene, was introduced into bacterial artificial chromosome DNA encoding the full-length mouse Myoc gene and long flanking regions. Both wild-type (Wt) and Tg animals expressed Myoc in tissues of the irido-corneal angle and the sclera. Expression of mutated My",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29965902",
+            "title": "Medical Management of Glaucoma in Exfoliation Syndrome.",
+            "authors": [
+              "Michalik Aleksandra Z",
+              "Kaufman Paul L"
+            ],
+            "journal": "Journal of glaucoma",
+            "year": "2018",
+            "abstract": "The treatment of glaucoma in exfoliation syndrome is similar to primary open-angle glaucoma. Frequently, exfoliation glaucoma (XFG) patients require early polytherapy with topical medications. Little emphasis has been placed on tailoring treatment specifically to XFG. New outflow enhancing agents with novel mechanisms of action, such as Rho Kinase inhibition, NO signaling (both recently FDA-approved drugs) and adenosine α1-receptor stimulation, act directly on the trabecular meshwork. These agen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33724294",
+            "title": "Mitophagy: An Emerging Target in Ocular Pathology.",
+            "authors": [
+              "Skeie Jessica M",
+              "Nishimura Darryl Y",
+              "Wang Cheryl L",
+              "Schmidt Gregory A",
+              "Aldrich Benjamin T"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2021",
+            "abstract": "Mitochondrial function is essential for the viability of aerobic eukaryotic cells, as mitochondria provide energy through the generation of adenosine triphosphate (ATP), regulate cellular metabolism, provide redox balancing, participate in immune signaling, and can initiate apoptosis. Mitochondria are dynamic organelles that participate in a cyclical and ongoing process of regeneration and autophagy (clearance), termed mitophagy specifically for mitochondrial (macro)autophagy. An imbalance in mi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15914619",
+            "title": "Selective upregulation of the A3 adenosine receptor in eyes with pseudoexfoliation syndrome and glaucoma.",
+            "authors": [
+              "Schlötzer-Schrehardt Ursula",
+              "Zenkel Matthias",
+              "Decking Ulrich",
+              "Haubs Daniela",
+              "Kruse Friedrich E"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2005",
+            "abstract": "Adenosine is increasingly released in metabolic stress conditions, like hypoxia or ischemia, and regulates many physiologic processes, such as aqueous humor secretion and intraocular pressure, via activation of four adenosine receptors. In the current study, the role of the adenosine system in the pathophysiology of pseudoexfoliation (PEX) syndrome, which is typically associated with anterior chamber hypoxia and elevated intraocular pressure, was examined.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27916026",
+            "title": "Role of cyclic AMP in the eye with glaucoma.",
+            "authors": [
+              "Shim Myoung Sup",
+              "Kim Keun-Young",
+              "Ju Won-Kyu"
+            ],
+            "journal": "BMB reports",
+            "year": "2017",
+            "abstract": "Glaucoma is characterized by a slow and progressive degeneration of the optic nerve, including retinal ganglion cell (RGC) axons in the optic nerve head (ONH), leading to visual impairment. Despite its high prevalence, the biological basis of glaucoma pathogenesis still is not yet fully understood, and the factors contributing to its progression are currently not well characterized. Intraocular pressure (IOP) is the only modifiable risk factor, and reduction of IOP is the standard treatment for ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33405971",
+            "title": "Trabodenoson on trabecular meshwork rejuvenation: a comprehensive review of clinical data.",
+            "authors": [
+              "Qiu Tina Guanting"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2021",
+            "abstract": "Trabodenoson is an adenosine mimetic acting selectively at the A1 receptor (A1R) subtype, involved in multiple signaling pathways including matrix metalloproteinase (MMP-2) associated with glaucoma pathological processes. It has been developed as a Phase 3 candidate for the treatment of patients with primary open-angle glaucoma (POAG) or ocular hypertension (OH).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Adenosine 透過激活小樑網（trabecular meshwork）細胞的 A1 受體，啟動 Gi 信號路徑，調節 F-actin 重組與細胞外基質降解（MMP 活化），從而增加傳統房水外流途徑（conventional outflow）的通透性並降低眼內壓（IOP）。A3 受體在 POAG 氧化壓力條件下上調（PMID 33987224），可能兼具神經保護作用。Trabodenoson（INO-8875，選擇性腺苷 A1 受體激動劑）已完成 Phase 1/2（NCT01123785，n=144）、多個 Phase 2（NCT02829996, NCT01917383）及兩個 Phase 3 試驗（NCT02565173 n=303 已完成；NCT05405868 n=496 招募中），直接驗證腺苷 A1 路徑在 POAG 的臨床可行性。腺苷原藥因血漿半衰期極短（<10 秒）需配方改良（眼用滴劑或緩釋）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "specific developmental disorder",
+      "txgnn": {
+        "score": 0.945403814315796,
+        "rank": 27721
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03331380",
+            "title": "Technical Development of Cardiovascular Magnetic Resonance Imaging (CMR) Using a Low Specific Absorption Rate (SAR) Scanner System",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 2950,
+            "start_date": "2018-01-05",
+            "completion_date": "2026-05-31",
+            "brief_summary": "Background:\n\nResearchers are testing version of a system known as a magnetic resonance imagining (MRI) scanner that uses strong magnetic fields, radio waves and the like to create images of the organs in the body. It uses lower energy levels than other MRI scanners. This may help scan people with metal devices in their body, or in invasive heart procedures using metal tools.\n\nObjective:\n\nTo test a new MRI scanner and software changes to create better pictures.\n\nEligibility:\n\nPeople with disease ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "CMR 心臟磁振造影技術開發研究（n=2950），腺苷若使用則為心臟負荷測試工具，與特定發育障礙治療完全無關。假陽性匹配。"
+            }
+          },
+          {
+            "nct_id": "NCT00027274",
+            "title": "Etiologic Investigation of Cancer Susceptibility in Inherited Bone Marrow Failure Syndromes: A Natural History Study",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 4000,
+            "start_date": "2001-11-28",
+            "completion_date": "",
+            "brief_summary": "Background:\n\nA prospective cohort of Inherited Bone Marrow Failure Syndrome (IBMFS) will provide new information regarding cancer rates and types in these disorders.\n\nPathogenic variant(s) in IBMFS genes are relevant to carcinogenesis in sporadic cancers.\n\nPatients with IBMFS who develop cancer differ in their genetic and/or environmental features from patients with IBMFS who do not develop cancer.\n\nThese cancer-prone families are well suited for cancer screening and prevention trials targeting ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "遺傳性骨髓衰竭症候群癌症易感性自然史研究（n=4000），無腺苷治療成分。假陽性匹配。"
+            }
+          },
+          {
+            "nct_id": "NCT01186913",
+            "title": "A Prospective Natural History Study of Diagnosis, Treatment and Outcomes of Children With SCID Disorders (RDCRN PIDTC-6901)",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 690,
+            "start_date": "2010-09-02",
+            "completion_date": "2028-09",
+            "brief_summary": "This study is a prospective evaluation of children with Severe Combined Immune Deficiency (SCID) who are treated under a variety of protocols used by participating institutions. In order to determine the patient, recipient and transplant-related variables that are most important in determining outcome, study investigators will uniformly collect pre-, post- and peri-transplant (or other treatment) information on all children enrolled into this study.\n\nChildren will be divided into three strata:\n\n",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "SCID（嚴重複合性免疫缺乏）自然史研究（n=690），SCID-ADA（腺苷脫氨酶缺乏症）可能觸發關鍵字匹配，但與腺苷藥物治療無關。假陽性匹配。"
+            }
+          },
+          {
+            "nct_id": "NCT04162977",
+            "title": "Well-Venture Pilot Project: Adapting Personality-Targeted Interventions for Reducing Substance Misuse and Related Outcomes in Youth in Youth Protection Services",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 62,
+            "start_date": "2019-10-02",
+            "completion_date": "2020-08-01",
+            "brief_summary": "Substance use problems are major concern in adolescents involved in Youth Protection Services. However, there is an enormous gap between the needs and availability of interventions for youth with substance use problems in the system. The present study will examine the feasibility and proof-of-concept of implementing an evidence-based, personality-targeted drug and alcohol prevention programme for high-risk adolescents (i.e., Preventure programme) receiving services from Youth Protection Services",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "青少年物質濫用預防行為介入研究（n=62），無腺苷成分。假陽性匹配。"
+            }
+          },
+          {
+            "nct_id": "NCT03259815",
+            "title": "How Often Can Optimal Post Percutaneous Coronary Intervention (PCI) Fractional Flow Reserve (FFR) Results be Achieved? - a Randomised Controlled Trial of FFR Targeted PCI (the Target FFR Study)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 260,
+            "start_date": "2018-03-08",
+            "completion_date": "2020-12-04",
+            "brief_summary": "There has recently been renewed interest in the measurement of post percutaneous coronary intervention (PCI) Fractional Flow Reserve (FFR). Previous studies have suggested that post-PCI FFR values ≥0.90 are associated with better clinical outcomes for patients but the available data suggest that despite angiographically satisfactory results, this is actually achieved in less than 40% of cases.\n\nThe main mechanisms for sub-optimal post-PCI FFR measurements have been proposed to be suboptimal sten",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PCI 術後 FFR 最佳化研究（n=260），腺苷僅作為冠狀動脈血流儲備測量的診斷工具，與發育障礙治療無關。假陽性匹配。"
+            }
+          },
+          {
+            "nct_id": "NCT00803205",
+            "title": "A Phase 3 Efficacy and Safety Study of PTC124 as an Oral Treatment for Nonsense-Mutation-Mediated Cystic Fibrosis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 238,
+            "start_date": "2009-09-08",
+            "completion_date": "2011-11-12",
+            "brief_summary": "Cystic fibrosis (CF) is a genetic disorder caused by a mutation in the gene that makes the cystic fibrosis transmembrane conductance regulator (CFTR) protein. A specific type of mutation called a nonsense (premature stop codon) mutation is the cause of CF in approximately 10% of patients with the disease. Ataluren is an orally delivered investigational drug that has the potential to overcome the effects of the nonsense mutation. This study is a Phase 3 trial that will evaluate the clinical benef",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05896982",
+            "title": "Optimizing Patient Experience During Myocardial Perfusion Imaging",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 149,
+            "start_date": "2022-11-02",
+            "completion_date": "2024-06-01",
+            "brief_summary": "The present study focusses on the effects of the diagnostic testing environment on psychological wellbeing, cardiac symptoms and patient satisfaction during cardiac stress testing (CST) in patients who are referred to the Institute Verbeeten for SPECT myocardial perfusion imaging (MPI).\n\nThe diagnostic procedure consists of two days of MPI using SPECT: day 1 of MPI involves obtaining a resting image and day 2 (typically 3 or 4 days later) a stress MPI following exercise or pharmacological challe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06474169",
+            "title": "Assessment of T-cell Response and In-vitro Proof-of-concept of T-cell Engineering in Chronic End-stage Kidney Disease Patients.",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2024-11-27",
+            "completion_date": "2026-12",
+            "brief_summary": "This is a comparative, prospective, non-interventional study to evaluate immune response in patients with chronic kidney disease. The primary objective is to define immunodeficiency (phenotype and function of T cells) in patients with end-stage kidney disease. The second objective is to provide an in-vitro proof-of-concept of T-cell engineering in the context of end-stage kidney disease.\n\nThe study population was patients with chronic kidney disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00849108",
+            "title": "A Phase 2, Open-Label, Randomized Multicenter Study for the Development of One-Day Rest/Stress Cardiac Positron Emission Tomography (PET) Perfusion Imaging Protocols of BMS747158",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 176,
+            "start_date": "2009-01",
+            "completion_date": "2010-06",
+            "brief_summary": "The main purpose of this study is to get more information on using BMS747158 (the study drug),a drug with small amounts of radioactivity to allow for heart imaging, during a PET scan which can then be compared to other images such as SPECT. The safety and quality of images will be studied.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02681237",
+            "title": "A Proof of Concept, Multi-centre, Clinical Trial of the Combination Cediranib-Olaparib at the Time of Disease Progression on PARP Inhibitor in Ovarian Cancer",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2016-04-29",
+            "completion_date": "2022-03-25",
+            "brief_summary": "This is a proof of concept study (a study to initially assess the benefit a new drug indication) of the combination of two investigational drugs cediranib and olaparib in patients with ovarian cancer whose cancer worsened despite previously receiving a poly (ADP-ribose) polymerase (PARP) inhibitor (such as olaparib).\n\nThe purpose of this study is to find out whether taking cediranib and olaparib at the same time will be able to stop tumors from growing further or shrink it.\n\nCediranib works by b",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01307475",
+            "title": "Freeman-Sheldon Syndrome Quality of Life Study (FSS-QLS): Cross-sectional Study of Concomitant Disorder-Specific Contributors to Quality of Life and Clinical Outcome",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2011-02",
+            "completion_date": "2017-04-01",
+            "brief_summary": "Freeman-Sheldon syndrome (FSS) is a rare human neuromusculoskeletal disorder present before birth, involving primarily limb and craniofacial deformities.\n\nThe hypotheses in the present study of FSS and related conditions are: (1) FSS and related conditions are associated with higher rates of posttraumatic stress symptoms (PTSS), depression, and reduced quality of life than is observed in the general population; (2) persons close to an individual with FSS or related condition suffer similarly; an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06736717",
+            "title": "A Phase 1b/2 Trial of Onvansertib in Combination With NALIRIFOX for First Line Treatment of Advanced Pancreatic Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 21,
+            "start_date": "2025-02",
+            "completion_date": "2027-01",
+            "brief_summary": "Pancreatic cancer is a deadly disease and will be the second leading cause of cancer related death behind lung cancer by 2030. Over 62,000 people are diagnosed each year in the United States with about 90% succumbing to the disease within 5 years. In the metastatic setting, NALIRIFOX, FOLFIRINOX and nab-paclitaxel-gemcitabine are standard treatment options in patients with good performance status (Eastern Cooperative Oncology Group \\[ECOG\\] 0/1). All three combinations have shown a survival adva",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04591431",
+            "title": "The Rome Trial From Histology to Target: the Road to Personalize Target Therapy and Immunotherapy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 400,
+            "start_date": "2020-10-07",
+            "completion_date": "2025-06",
+            "brief_summary": "This is a randomized, prospective, multicenter, Proof of Concept, Phase II clinical trial Study. The main objective of the study is to evaluate the efficacy (meant as overall response rate ORR) of TT (targeted Therapy) vs SoC (standard of Care) in patients with progressive disease (recurrent and/or metastatic) of breast cancer, metastatic gastro-intestinal tumors, non small cell lung cancer (NSCLC) or others. Patients should have completed at least 1 line of treatment and no more than 2 as defin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02652897",
+            "title": "Prospective Study on Hemostasis Alterations in Patients Undergoing Neuro Surgical Glioma Resection Acronym: (ABCD Study: Acute Brain Coagulopathy Development Study)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 120,
+            "start_date": "2016-05",
+            "completion_date": "2019-03",
+            "brief_summary": "Prospective, observational study aimed to investigate the specific hemostatic alterations in patients undergoing glial tumor resection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02114918",
+            "title": "Attention Training for Childhood Obsessive Compulsive Disorder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 47,
+            "start_date": "2013-04",
+            "completion_date": "2016-05",
+            "brief_summary": "Voluntary and involuntary attention processes are thought to play an important role in the development and maintenance of anxiety disorders including OCD. Individuals with OCD pay greater attention to threat information related to their illness and have difficulty shifting their attention from such triggers. Studies suggest that a change in attention bias may lead to a change in anxiety vulnerability. However, few studies have directly examined the causal role of attention bias in the maintenanc",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05415215",
+            "title": "A Phase IIIB, Multinational, Multicenter, Randomized, Open-Label Study to Evaluate Patient Preference for Home Administration of Fixed-Dose Combination of Pertuzumab and Trastuzumab for Subcutaneous Administration in Participants With Early or Locally Advanced/Inflammatory HER2-Positive Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 346,
+            "start_date": "2022-07-05",
+            "completion_date": "2025-11-07",
+            "brief_summary": "This is a Phase IIIb, multinational, multicenter, randomized, open-label study to evaluate patient preference of the fixed-dose combination of pertuzumab and trastuzumab for subcutaneous use (PH FDC SC) administration in the home setting compared with the hospital setting during the cross-over period of adjuvant treatment in participants with early or locally advanced/inflammatory human epidermal growth factor receptor 2-positive (HER2+) breast cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03817255",
+            "title": "Identification of Excessive Substance Use to Encourage Behaviour Change Among Young People in Primary Care: Pilot Study in Preparation for a Randomized Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "2018-09-01",
+            "completion_date": "2018-12-04",
+            "brief_summary": "Background: Excessive alcohol and other substance use in adolescence is prevalent and has developmental consequences that extend into adulthood. In parallel with other public health and clinical measures, early identification in primary care represents an important step to address this problem. Screening and brief intervention by primary care physicians is recommended but often fails to be implemented due to time constraints and other barriers. Working hypothesis: Recent evidence suggests that s",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02902601",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Investigate the Safety, Tolerability, and Pharmacodynamics of JNJ-54175446 in Subjects With Major Depressive Disorder",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2016-10-17",
+            "completion_date": "2017-06-07",
+            "brief_summary": "The primary purpose of this study is to investigate the safety and tolerability of JNJ 54175446 in participants with Major Depressive Disorder (MDD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04240990",
+            "title": "Development of a Diagnostic Prediction Score for Tuberculosis in Hospitalized Children With Severe Acute Malnutrition",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 603,
+            "start_date": "2019-11-04",
+            "completion_date": "2022-06-20",
+            "brief_summary": "TB-Speed SAM is a multicentric, prospective diagnostic cohort study conducted in two countries with high and very high TB incidence (Uganda and Zambia). It aims at assessing several diagnostic tests that could result in the development of a score and algorithm for TB treatment decision in hospitalised children with severe acute malnutrition (SAM).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02048215",
+            "title": "Evaluation of Diet and Treatment With a Combination of Ephedrine and Caffeine on Thermogenesis, Cardiac Function and on Uncoupling Proteins Expression in Adipose and Muscle Tissue of Morbid Obese Patients Undergoing Bariatric Surgery.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 13,
+            "start_date": "2000-02",
+            "completion_date": "2007-11",
+            "brief_summary": "Brief Summary This trial was part of a sub-project targeted to diet, thermogenesis and obesity of a larger multicentre study named \"Interaction between nutritional, social-behavioral and metabolic factors for prevention of cardiovascular disease: development of nutritional strategies on general population\".\n\nEphedrine and caffeine (EC) combination has been widely used in human obesity treatment. It is known that this drug increases the metabolic rate in both animals and humans. Ephedrine is an a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01655615",
+            "title": "Co-venture: A Cluster Randomized Trial Investigating the Effects of Selective Intervention on Adolescent Cognitive Development and Addiction",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 31,
+            "start_date": "2011-09",
+            "completion_date": "2018-12",
+            "brief_summary": "The Preventure Program is the first and only school-based alcohol and drug prevention program that has been shown to prevent onset and growth in alcohol and substance misuse in British and Canadian youth. Unlike universal programs that tend to promote generic coping skills and balance normative attitudes around substance use, this selected personality-targeted approach is based on a psychosocial model and validated by Dr Patricia Conrod and targets four personality-specific motivational pathways",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00278915",
+            "title": "An Open-label, Non-Comparative Trial to Evaluate the Safety, Efficacy and Pharmacokinetics of Faslodex (Fulvestrant) in Girls With Progressive Precocious Puberty Associated With McCune-Albright Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2006-01-31",
+            "completion_date": "2023-07-20",
+            "brief_summary": "The purpose of this study is to evaluate the safety, effectiveness and pharmacokinetics of a study drug called Faslodex (fulvestrant) in the treatment of progressive precocious puberty (PPP) (early puberty) in girls with McCune-Albright syndrome (MAS)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02592434",
+            "title": "EFFICACY, SAFETY AND TOLERABILITY OF TOFACITINIB FOR TREATMENT OF POLYARTICULAR COURSE JUVENILE IDIOPATHIC ARTHRITIS (JIA) IN CHILDREN AND ADOLESCENT SUBJECTS",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 225,
+            "start_date": "2016-06-10",
+            "completion_date": "2019-05-16",
+            "brief_summary": "Evaluate efficacy, safety and tolerability of tofacitinib in pediatric JIA patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06893471",
+            "title": "From Annual Measurements to Daily Improvements: Evaluation of a Method for Improving Systematic Work Environment Management",
+            "phase": "NA",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 45,
+            "start_date": "2024-08-15",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The goal of this project is to evaluate a practical method for improving systematic work environment management (SAM) by focusing on health-promoting factors rather than identifying risk-factors, and deficiencies. It will also explore how Goal Attainment Scaling (GAS) can support goal-setting and evaluation within SAM. The main questions it aims to answer are:\n\n* Which health-promoting factors are prioritized, and what organizational-level initiatives are developed?\n* How does using GAS influenc",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00934856",
+            "title": "An Open-Label, Multi-Center Phase I/II Study of the Safety and Tolerability of the Combination of Trastuzumab-MCC-DM1 (T-DM1) With Docetaxel, and Potentially Pertuzumab, for Treatment for Patients With Advanced Breast Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 98,
+            "start_date": "2009-07",
+            "completion_date": "2013-10",
+            "brief_summary": "This is an open-label, multi-center, non-randomized study of the safety and tolerability of the combination of T-DM1 plus docetaxel for the treatment of participants with metastatic breast cancer (MBC) and of T-DM1 plus docetaxel with or without pertuzumab, for the treatment of participants with locally advanced breast cancer (LABC). The study comprises an initial dose finding (feasibility) part to determine the maximum tolerated dose (MTD) of T-DM1 and docetaxel, followed by an extension part a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03203616",
+            "title": "Multicenter, Non-randomised, Open-label, Single Agent Phase II Study to Determine the Clinical Benefit of Trastuzumab Emtansine (T-DM1) in HER2-positive Metastatic Breast Cancer Patients With Brain Metastasis",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2018-02-23",
+            "completion_date": "2018-08-27",
+            "brief_summary": "Women with breast cancer often develop metastases in the brain. Currently, treatment of these metastases is difficult and relies on radiotherapy or surgery which often fail. Therefore, development of new methods of treatment for breast cancer with brain metastasis is very important. T-DM1 is a drug that is already in everyday use for a specific type of breast cancer called HER2-positive breast cancer. The objective of this study is to investigate whether T-DM1 is also effective in brain metastas",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03500328",
+            "title": "A Pragmatic Trial to Evaluate the Intermediate-term Effects of Early, Aggressive Versus Escalation Therapy in People With Multiple Sclerosis",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 900,
+            "start_date": "2018-05-02",
+            "completion_date": "2026-08-01",
+            "brief_summary": "FDA-approved multiple sclerosis (MS) disease-modifying therapies (DMTs) target the relapsing phase of MS but have minimal impact once the progressive phase has begun. It is unclear if, in the relapsing phase, there is an advantage of early aggressive therapy with respect to preventing long-term disability. The infectious risks and other complications associated with higher-efficacy treatments highlight the need to quantify their effectiveness in preventing disability.\n\nThe TRaditional versus Ear",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04676204",
+            "title": "STATURE: A Prospective Observational Study of the relationShip beTween Oral DMT bURden and adhErence in People With MS",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 323,
+            "start_date": "2020-09-25",
+            "completion_date": "2026-07-11",
+            "brief_summary": "STATURE is a prospective observational six-arm translation multi-site study that will run for approx. 4.5 years. The primary aim is to measure treatment burden and its relationship to medication adherence across six self-administered oral disease-modifying therapies (cladribine, dimethyl fumarate, fingolimod, teriflunomide, ozanimod, and diroximel fumarate) in multiple sclerosis (MS). The information gained will assist prescribing decision-making; accounting for medication burden at a patient le",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00706602",
+            "title": "International Collaborative Effort on Chronic Obstructive Lung Disease: Exacerbation Risk Index Cohorts",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 450,
+            "start_date": "2008-05",
+            "completion_date": "2014-08",
+            "brief_summary": "Background: COPD is a systemic illness; morbidity and mortality due to this disease are on the increase, and it has great impact on patients' lives. Most COPD patients are managed by general practitioners (GP). GPs base their initial assessment of patients' disease severity mainly on lung function and then inform patients about adequate treatment. However, lung function correlates poorly with COPD-specific health-related quality of life and exacerbation frequency. Preventive cardiology embraced ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01923051",
+            "title": "Czech Multicentre Research Database of Chronic Obstructive Pulmonary Disease (COPD): Registry of the Czech Pneumological Society (CPPS) at the Czech Medical Association (CzMA)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 813,
+            "start_date": "2013-08",
+            "completion_date": "2021-12",
+            "brief_summary": "The chronic obstructive pulmonary disease (COPD) is the occurrence of chronic bronchitis or emphysema, a pair of commonly co-existing diseases of the lungs in which the airways narrow over time. This limits airflow to and from the lungs, causing shortness of breath (dyspnoea). In clinical practice, COPD is defined by its characteristic airflow limitation on lung function tests. In contrast to asthma, this limitation is poorly reversible and usually gets increasingly worse over time.\n\nThe COPD re",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06282133",
+            "title": "Behavioural Experiments for Intolerance of Uncertainty: A Novel Treatment for Generalized Anxiety Disorder in Adolescents - A Pilot Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 8,
+            "start_date": "2024-02-01",
+            "completion_date": "2025-01-01",
+            "brief_summary": "Generalized Anxiety Disorder (GAD) is a chronic condition characterized by excessive and uncontrollable worry and anxiety. In adolescents, this condition can seriously impact their development, academic performance, and social relationships. In Canada, 3 to 4% of the population (between 0.9% and 2.7% among adolescents) suffers from GAD at any given time in their lives. These young individuals experience a reduced quality of life and are at risk for numerous medical conditions, as well as additio",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04074668",
+            "title": "CROCODILE Study: Control of Renal Oxygen Consumption, Mitochondrial Dysfunction, and Insulin Resistance",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 58,
+            "start_date": "2020-01-01",
+            "completion_date": "2022-11-15",
+            "brief_summary": "Type 1 diabetes (T1D) is a complex metabolic disorder with many pathophysiological disturbances including insulin resistance (IR) and mitochondrial dysfunction which are causally related to the development of diabetic kidney disease (DKD) and which contribute to reduced life expectancy. Renal hypoxia, stemming from a potential metabolic mismatch between increased renal energy expenditure and impaired substrate utilization, is increasingly proposed as a unifying early pathway in the development o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06351501",
+            "title": "Evaluation of the Effectiveness of Hormonal Treatment in Adolescents Suffering from Gender Dysphoria",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2024-06-25",
+            "completion_date": "2031-06-24",
+            "brief_summary": "Gender dysphoria (GD) is a significant suffering lasting more than 6 months in a subject, with regard to the discrepancy felt between his or her gender identity and his or her birth sex. From the onset of puberty, most of these self-identified transgender adolescents will persist in their transgender identity and will undergo hormonal and surgical reassignment when the time comes. International best practice guidelines recommend early treatment from the start of pubertal development to block pub",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03478670",
+            "title": "Adenosine Deaminase Severe Combined Immunodeficiency (ADA-SCID) Registry for Patients Treated With Strimvelis (Previously GSK2696273) Gene Therapy: Long-Term Prospective, Non-Interventional Follow-up of Safety and Effectiveness",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 50,
+            "start_date": "2017-03-28",
+            "completion_date": "2037-05-31",
+            "brief_summary": "Adenosine deaminase (ADA) enzyme deficiency results in severe combined immunodeficiency (SCID), a fatal autosomal recessive inherited immune disorder. Strimvelis (or GSK2696273) is a gene therapy intended for patients with ADA-SCID and for whom no suitable human leukocyte antigen (HLA) matched related stem cell donor is available. This therapy aims to restore ADA function in hematopoietic cell lineages, and in doing so prevents the pathology caused by purine metabolites (i.e., impaired immune fu",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01410487",
+            "title": "Effects of Weight Loss on Cardio-respiratory Function and Patient-centered Outcomes in an Underserved, Minority Population With Clinically Severe Obesity",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2011-09",
+            "completion_date": "2013-12",
+            "brief_summary": "Obesity is a medical problem of epidemic proportions and is associated with high mortality. Obesity has significant effects on the cardiovascular system, producing structural cardiovascular changes including myocardial hypertrophy, fatty infiltration, and fibrosis; diastolic and systolic dysfunction; changes in pulmonary artery compliance; and increased aortic stiffness - all of which can lead to heart failure. Indeed, evidence suggests that obesity increases the risk for heart disease independe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05887271",
+            "title": "A Multi-Ethnic, Multi-centre raNdomised, Controlled Trial of a Low-energy Diet for Improving Functional Status in Heart Failure With PRESERVED Ejection Fraction (AMEND-preserved)",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 63,
+            "start_date": "2023-12-05",
+            "completion_date": "2026-05-31",
+            "brief_summary": "Heart failure with preserved ejection fraction (HFpEF) is a common and serious complication of obesity and type 2 diabetes (T2D). HFpEF occurs when the heart muscle unable to relax efficiently to pump the blood around the body. This leads to fluid build-up, breathlessness and inability to tolerate physical exertion. People who develop HFpEF do less well because treatment options are limited. Pilot data in patients with obesity and diabetes and a small number of patients with HFpEF have shown imp",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02711410",
+            "title": "The Influence of CYP2C19 Polymorphism on Antiplatelet Effects and Clinical Outcomes in Non-acute Stroke Patients Treated With Clopidogrel: The Contribution of Genetic Analysis to the Efficacy of Clopidogrel (Cognac) Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 518,
+            "start_date": "2009-10",
+            "completion_date": "2015-10",
+            "brief_summary": "Background:\n\nClopidogrel, an antiplatelet prodrug, is widely used for prevention of the recurrent cardiovascular events. CYP2C19 is one of the crucial enzymes for the activation of clopidogrel. Recent studies, mostly done in cardiovascular patients, showed association of the CYP2C19 genotypes with recurrent cardiovascular events. However, prospective data on the impact of the genetic variants in stroke patients are limited.\n\nMethods:\n\nFive hundred and eighteen Japanese non-acute stroke patients ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05916339",
+            "title": "Comparative Effectiveness of Pharmacologic Management of ADHD in Children and Youth With Autism Spectrum Disorder",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 500,
+            "start_date": "2023-10-01",
+            "completion_date": "2027-12-30",
+            "brief_summary": "This study is a pragmatic clinical trial examining the comparative effectiveness of two stimulant medications (methylphenidate and amphetamine) in the treatment of ADHD in children and adolescents with autism. Using a sequential, multiple assignment randomization trial (SMART) design the study will not only assess these two medications but also the role of an increasingly popular class of ADHD medication, the alpha-2 agonists. Findings from this study will help improve clinicians' approach to me",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04577443",
+            "title": "To Investigate the Headache Induction and the Cerebral Hemodynamic Changes After Infusion of Adenosine in Healthy Volunteers and Migraine Patient",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2020-11-01",
+            "completion_date": "2021-10-30",
+            "brief_summary": "Adenosine is a nucleoside that plays a role in both vascular and nociceptive systems, and it has been proposed that adenosine may cause headache in particularly sensitive subjects.\n\nThus, considerable evidence implied that adenosine plays a role in migraine pathophysiology, it is still unknown if intravenous adenosine infusion provokes migraine attacks in healthy subject or in migraine patients. Furthermore, adenosine's effects on the cerebral hemodynamic remains unknown.\n\nThis study aims to cla",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00232518",
+            "title": "Randomised Controlled Clinical Trial of the Effect of Therapeutic Hookworm Infection in Allergic Rhinoconjunctivitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2005-09",
+            "completion_date": "2006-11",
+            "brief_summary": "There has been considerable debate over the last 30 years about the interaction between asthma and parasitic infection. It has been suggested that at least part of the reason for the increasing prevalence of asthma in the developed world is a decrease in parasite infections resulting from improved living conditions with economic development. Our previous studies in Ethiopia suggest that hookworm infection may be particularly important in this process.\n\nTo establish definitively whether parasites",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06544018",
+            "title": "Identification of Circadian Rhythm Deregulation in Patients With Cryopyrin-associated Periodic Syndrome (CAPS)",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2026-02-25",
+            "completion_date": "2029-02-25",
+            "brief_summary": "Circadian rhythms are characterized by the physiology's adaptation to the alternation of day and night, enabling to adapt to the environment. These rhythms are generated by a molecular clock within each cell. At the molecular level, the circadian clock is based on a complex system of cell-autonomous transcription loops. These exert positive and negative feedback on themselves, generating cyclic transcriptional activity.\n\n* In the main loop, the BMAL1 transcription factor links with CLOCK or NPAS",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41193806",
+            "title": "Adenosine signalling drives antidepressant actions of ketamine and ECT.",
+            "authors": [
+              "Yue Chenyu",
+              "Wang Na",
+              "Zhai Haojiang",
+              "Yuan Zhengwei",
+              "Cui Yuting"
+            ],
+            "journal": "Nature",
+            "year": "2026",
+            "abstract": "Ketamine and electroconvulsive therapy (ECT) achieve rapid remission in treatment-resistant depression. However, their mechanisms of action-the understanding of which is essential for refining therapeutic precision-remain unclear1-3. Here, using mouse models, we identify adenosine signalling as a central pathway that underlies the antidepressant effects of these interventions. Results from genetically encoded adenosine sensor experiments and real-time optical recordings reveal that both therapie",
+            "classification": {
+              "study_type": "Basic Science/Neuroscience（腺苷信號與抗憂鬱機制，2026）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31388190",
+            "title": "The CHD4-related syndrome: a comprehensive investigation of the clinical spectrum, genotype-phenotype correlations, and molecular basis.",
+            "authors": [
+              "Weiss Karin",
+              "Lazar Hayley P",
+              "Kurolap Alina",
+              "Martinez Ariel F",
+              "Paperna Tamar"
+            ],
+            "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
+            "year": "2020",
+            "abstract": "Sifrim-Hitz-Weiss syndrome (SIHIWES) is a recently described multisystemic neurodevelopmental disorder caused by de novo variants inCHD4. In this study, we investigated the clinical spectrum of the disorder, genotype-phenotype correlations, and the effect of different missense variants on CHD4 function.",
+            "classification": {
+              "study_type": "Genetic Case Series（CHD4 相關症候群）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27640307",
+            "title": "Recurrent De Novo and Biallelic Variation of ATAD3A, Encoding a Mitochondrial Membrane Protein, Results in Distinct Neurological Syndromes.",
+            "authors": [
+              "Harel Tamar",
+              "Yoon Wan Hee",
+              "Garone Caterina",
+              "Gu Shen",
+              "Coban-Akdemir Zeynep"
+            ],
+            "journal": "American journal of human genetics",
+            "year": "2016",
+            "abstract": "ATPase family AAA-domain containing protein 3A (ATAD3A) is a nuclear-encoded mitochondrial membrane protein implicated in mitochondrial dynamics, nucleoid organization, protein translation, cell growth, and cholesterol metabolism. We identified a recurrent de novo ATAD3A c.1582C>T (p.Arg528Trp) variant by whole-exome sequencing (WES) in five unrelated individuals with a core phenotype of global developmental delay, hypotonia, optic atrophy, axonal neuropathy, and hypertrophic cardiomyopathy. We ",
+            "classification": {
+              "study_type": "Genetic（ATAD3A 粒線體膜蛋白突變）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33909990",
+            "title": "Truncating SRCAP variants outside the Floating-Harbor syndrome locus cause a distinct neurodevelopmental disorder with a specific DNA methylation signature.",
+            "authors": [
+              "Rots Dmitrijs",
+              "Chater-Diehl Eric",
+              "Dingemans Alexander J M",
+              "Goodman Sarah J",
+              "Siu Michelle T"
+            ],
+            "journal": "American journal of human genetics",
+            "year": "2021",
+            "abstract": "Truncating variants in exons 33 and 34 of the SNF2-related CREBBP activator protein (SRCAP) gene cause the neurodevelopmental disorder (NDD) Floating-Harbor syndrome (FLHS), characterized by short stature, speech delay, and facial dysmorphism. Here, we present a cohort of 33 individuals with clinical features distinct from FLHS and truncating (mostly de novo) SRCAP variants either proximal (n = 28) or distal (n = 5) to the FLHS locus. Detailed clinical characterization of the proximal SRCAP indi",
+            "classification": {
+              "study_type": "Genetic Cohort（SRCAP 截斷性突變神經發育障礙）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35675510",
+            "title": "Phenotypic and genetic spectrum of ATP6V1A encephalopathy: a disorder of lysosomal homeostasis.",
+            "authors": [
+              "Guerrini Renzo",
+              "Mei Davide",
+              "Kerti-Szigeti Katalin",
+              "Pepe Sara",
+              "Koenig Mary Kay"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2022",
+            "abstract": "Vacuolar-type H+-ATPase (V-ATPase) is a multimeric complex present in a variety of cellular membranes that acts as an ATP-dependent proton pump and plays a key role in pH homeostasis and intracellular signalling pathways. In humans, 22 autosomal genes encode for a redundant set of subunits allowing the composition of diverse V-ATPase complexes with specific properties and expression. Sixteen subunits have been linked to human disease. Here we describe 26 patients harbouring 20 distinct pathogeni",
+            "classification": {
+              "study_type": "Case Series（ATP6V1A 腦病表型）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40232556",
+            "title": "Targeted metabolomics in children with autism spectrum disorder with and without developmental regression.",
+            "authors": [
+              "Priyanka Chakkera",
+              "Christopher Rita",
+              "Nagappa Madhu",
+              "Kommu John Vijay Sagar",
+              "Krishnadevaraje Meghana Byalalu"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2025",
+            "abstract": "Early diagnosis and intervention in children with autism spectrum disorder (ASD) is crucial. At present, diagnosis of ASD is primarily based on subjective tools. Identifying metabolic biomarkers will aid in early diagnosis of ASD complementing the assessment tools. The study aimed to conduct targeted metabolomic analysis and determine the plasma metabolites that can discriminate children with ASD from typically developing children (TD), and to determine the utility of machine learning in classif",
+            "classification": {
+              "study_type": "Metabolomics/Observational（ASD 兒童代謝體學）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32719099",
+            "title": "Biallelic variants in ADARB1, encoding a dsRNA-specific adenosine deaminase, cause a severe developmental and epileptic encephalopathy.",
+            "authors": [
+              "Maroofian Reza",
+              "Sedmík Jiří",
+              "Mazaheri Neda",
+              "Scala Marcello",
+              "Zaki Maha S"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "2021",
+            "abstract": "Adenosine-to-inosine RNA editing is a co-transcriptional/post-transcriptional modification of double-stranded RNA, catalysed by one of two active adenosine deaminases acting on RNA (ADARs), ADAR1 and ADAR2. ADARB1 encodes the enzyme ADAR2 that is highly expressed in the brain and essential to modulate the function of glutamate and serotonin receptors. Impaired ADAR2 editing causes early onset progressive epilepsy and premature death in mice. In humans, ADAR2 dysfunction has been very recently li",
+            "classification": {
+              "study_type": "Genetic（ADARB1 雙等位突變嚴重發育障礙）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38481146",
+            "title": "Protein Kinase A in neurological disorders.",
+            "authors": [
+              "Glebov-McCloud Alexander G P",
+              "Saide Walter S",
+              "Gaine Marie E",
+              "Strack Stefan"
+            ],
+            "journal": "Journal of neurodevelopmental disorders",
+            "year": "2024",
+            "abstract": "Cyclic adenosine 3', 5' monophosphate (cAMP)-dependent Protein Kinase A (PKA) is a multi-functional serine/threonine kinase that regulates a wide variety of physiological processes including gene transcription, metabolism, and synaptic plasticity. Genomic sequencing studies have identified both germline and somatic variants of the catalytic and regulatory subunits of PKA in patients with metabolic and neurodevelopmental disorders. In this review we discuss the classical cAMP/PKA signaling pathwa",
+            "classification": {
+              "study_type": "Review（PKA 在神經疾病中的角色）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40764304",
+            "title": "DDX41 resolves G-quadruplexes to maintain erythroid genome integrity and prevent cGAS-mediated cell death.",
+            "authors": [
+              "Bi Honghao",
+              "Ren Kehan",
+              "Wang Pan",
+              "Li Ermin",
+              "Han Xu"
+            ],
+            "journal": "Nature communications",
+            "year": "2025",
+            "abstract": "Deleterious germline DDX41 variants constitute the most common inherited predisposition disorder linked to myeloid neoplasms (MNs), yet their role in MNs remains unclear. Here we show that DDX41 is essential for erythropoiesis but dispensable for other hematopoietic lineages. Ddx41 knockout in early erythropoiesis is embryonically lethal, while knockout in late-stage terminal erythropoiesis allows mice to survive with normal blood counts. DDX41 deficiency induces a significant upregulation of G-",
+            "classification": {
+              "study_type": "Basic Science（DDX41 G-quadruplex 解析）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39432785",
+            "title": "Substrate specificity controlled by the exit site of human P4-ATPases, revealed by de novo point mutations in neurological disorders.",
+            "authors": [
+              "Calianese David C",
+              "Noji Tomoyasu",
+              "Sullivan Jennifer A",
+              "Schoch Kelly",
+              "Shashi Vandana"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2024",
+            "abstract": "The maintenance of lipid asymmetry on the plasma membrane is regulated by flippases, such as ATP8A2, ATP11A, and ATP11C, which translocate phosphatidylserine and phosphatidylethanolamine from the outer leaflet to the inner leaflet. We previously identified a patient-derived point mutation (Q84E) in ATP11A at the phospholipid entry site, which acquired the ability to flip phosphatidylcholine (PtdCho). This mutation led to elevated levels of sphingomyelin (SM) in the outer leaflet of the plasma me",
+            "classification": {
+              "study_type": "Basic Science（P4-ATPases 底物特異性）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26542286",
+            "title": "Creatine biosynthesis and transport in health and disease.",
+            "authors": [
+              "Joncquel-Chevalier Curt Marie",
+              "Voicu Pia-Manuela",
+              "Fontaine Monique",
+              "Dessein Anne-Frédérique",
+              "Porchet Nicole"
+            ],
+            "journal": "Biochimie",
+            "year": "2015",
+            "abstract": "Creatine is physiologically provided equally by diet and by endogenous synthesis from arginine and glycine with successive involvements of arginine glycine amidinotransferase [AGAT] and guanidinoacetate methyl transferase [GAMT]. A specific plasma membrane transporter, creatine transporter [CRTR] (SLC6A8), further enables cells to incorporate creatine and through uptake of its precursor, guanidinoacetate, also directly contributes to creatine biosynthesis. Breakthrough in the role of creatine ha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41053929",
+            "title": "Allopurinol Treatment Improves Cognitive Skills, Adaptive Behavior, and Biochemical Markers in Young Patients With Adenylosuccinate Lyase Deficiency.",
+            "authors": [
+              "Rousselot-Pailley Bérangère",
+              "Semeraro Michaela",
+              "Marquant Fabienne",
+              "Robel Laurence",
+              "Gitiaux Cyril"
+            ],
+            "journal": "Journal of inherited metabolic disease",
+            "year": "2025",
+            "abstract": "Adenylosuccinate lyase deficiency (ADSLD) is a rare neurological disorder characterized by psychomotor retardation, autistic behaviors, and seizures, with no specific treatment available. ADSL catalyzes the transformation of succinylaminoimidazole carboxamide ribotide (SAICAr) to AICAR, and succinyl-AMP (S-AMP) to AMP. The pathogenesis of the disease is primarily attributed to the toxicity of elevated SAICAr concentrations. Allopurinol, used primarily for hyperuricemia, inhibits purine synthesis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20818727",
+            "title": "The use of neuroimaging in the diagnosis of mitochondrial disease.",
+            "authors": [
+              "Friedman Seth D",
+              "Shaw Dennis W W",
+              "Ishak Gisele",
+              "Gropman Andrea L",
+              "Saneto Russell P"
+            ],
+            "journal": "Developmental disabilities research reviews",
+            "year": "2010",
+            "abstract": "Mutations in nuclear and mitochondrial DNA impacting mitochondrial function result in disease manifestations ranging from early death to abnormalities in all major organ systems and to symptoms that can be largely confined to muscle fatigue. The definitive diagnosis of a mitochondrial disorder can be difficult to establish. When the constellation of symptoms is suggestive of mitochondrial disease, neuroimaging features may be diagnostic and suggestive, can help direct further workup, and can hel",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27934915",
+            "title": "The defining DNA methylation signature of Floating-Harbor Syndrome.",
+            "authors": [
+              "Hood Rebecca L",
+              "Schenkel Laila C",
+              "Nikkel Sarah M",
+              "Ainsworth Peter J",
+              "Pare Guillaume"
+            ],
+            "journal": "Scientific reports",
+            "year": "2016",
+            "abstract": "Floating-Harbor syndrome (FHS) is an autosomal dominant genetic condition characterized by short stature, delayed osseous maturation, expressive language impairment, and unique facial dysmorphology. We previously identified mutations in the chromatin remodeling protein SRCAP (SNF2-related CBP Activator Protein) as the cause of FHS. SRCAP has multiple roles in chromatin and transcriptional regulation; however, specific epigenetic consequences of SRCAP mutations remain to be described. Using high ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16819395",
+            "title": "Bile salt excretory pump: biology and pathobiology.",
+            "authors": [
+              "Suchy Frederick J",
+              "Ananthanarayanan M"
+            ],
+            "journal": "Journal of pediatric gastroenterology and nutrition",
+            "year": "2006",
+            "abstract": "Bile acids are the major determinant and driving force for the generation of bile flow. Bile acid transport across the canalicular membrane is primarily an ATP-dependent process. The predominant transporter is the bile salt excretory pump (BSEP, ABCB11), a member of the adenosine triphosphate-binding cassette (ABC) family of transporters. Regulatory mechanisms that can coordinate the genes encoding bile acid transport proteins are critically important to avoid hepatocyte damage from intracellar ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26993811",
+            "title": "MRI and (1)H-MRS in adenosine kinase deficiency.",
+            "authors": [
+              "Staufner C",
+              "Blom H J",
+              "Dionisi-Vici C",
+              "Freisinger P",
+              "Makhseed N"
+            ],
+            "journal": "Neuroradiology",
+            "year": "2016",
+            "abstract": "Adenosine kinase deficiency (ADK deficiency) is a recently described disorder of methionine and adenosine metabolism resulting in a neurological phenotype with developmental delay, muscular hypotonia, and epilepsy as well as variable systemic manifestations. The underlying neuropathology is poorly understood. We have investigated MRI and (1)H-MRS changes in ADK deficiency in order to better understand the in vivo neuropathologic changes of ADK deficiency.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30145320",
+            "title": "Developmental role of adenosine kinase for the expression of sex-dependent neuropsychiatric behavior.",
+            "authors": [
+              "Osborne D M",
+              "Sandau U S",
+              "Jones A T",
+              "Vander Velden J W",
+              "Weingarten A M"
+            ],
+            "journal": "Neuropharmacology",
+            "year": "2018",
+            "abstract": "Deficits in social memory, cognition, and aberrant responses to stimulants are common among persons affected by schizophrenia and other conditions with a presumed developmental etiology. We previously found that expression changes in the adenosine metabolizing enzyme adenosine kinase (ADK) in the adult brain are associated with deficits in various cognitive domains. To distinguish between developmental and adult functions of ADK, we used two transgenic mouse lines with widespread disruption of A",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39003412",
+            "title": "A bipolar disorder-associated missense variant alters adenylyl cyclase 2 activity and promotes mania-like behavior.",
+            "authors": [
+              "Sen Paromita",
+              "Ortiz Oskar",
+              "Brivio Elena",
+              "Menegaz Danusa",
+              "Sotillos Elliott Laura"
+            ],
+            "journal": "Molecular psychiatry",
+            "year": "2025",
+            "abstract": "The single nucleotide polymorphism rs13166360, causing a substitution of valine (Val) 147 to leucine (Leu) in the adenylyl cyclase 2 (ADCY2), has previously been associated with bipolar disorder (BD). Here we show that the disease-associated ADCY2 missense mutation diminishes the enzyme´s capacity to generate the second messenger 3',5'-cylic adenosine monophosphate (cAMP) by altering its subcellular localization. We established mice specifically carrying the Val to Leu substitution using CRISPR/",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23558251",
+            "title": "Advancing the management of childhood epilepsies.",
+            "authors": [
+              "Cross J Helen",
+              "Kluger Gerhard",
+              "Lagae Lieven"
+            ],
+            "journal": "European journal of paediatric neurology : EJPN : official journal of the European Paediatric Neurology Society",
+            "year": "2013",
+            "abstract": "Childhood epilepsies comprise a heterogeneous group of disorders and syndromes that vary in terms of severity, prognosis and treatment requirements. Effective management requires early, accurate recognition and diagnosis, and a holistic approach that addresses each individual's medical and psychosocial needs within the context of their overall health status and quality of life. With increasing understanding of underlying aetiologies, new approaches to management and treatment are emerging. For e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雖然腺苷信號在神經可塑性與睡眠-記憶整合中有已知作用（PMID 41193806 顯示腺苷信號驅動 ketamine 和 ECT 的抗憂鬱效果，涉及突觸強度重置機制），但此機轉與特定發育障礙（如自閉症、學習障礙）的治療關聯為高度推測性。41 個相關臨床試驗經逐一檢視，均為假陽性匹配（CMR 影像、SCID 自然史、癌症易感性等研究，部分含腺苷作為診斷性藥物而非治療標的）。文獻中無任何直接研究腺苷治療特定發育障礙的文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "angle-closure glaucoma",
+      "txgnn": {
+        "score": 0.9218626618385316,
+        "rank": 31982
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35147832",
+            "title": "The profile of gut microbiota and central carbon-related metabolites in primary angle-closure glaucoma patients.",
+            "authors": [
+              "Gong Haijun",
+              "Zeng Rui",
+              "Li Qiguan",
+              "Liu Yao",
+              "Zuo Chengguo"
+            ],
+            "journal": "International ophthalmology",
+            "year": "2022",
+            "abstract": "To explore the profile of gut microbiota and central carbon-related metabolites in patients with primary angle-closure glaucoma (PACG).",
+            "classification": {
+              "study_type": "Microbiome/Metabolomics（腸道菌相與碳代謝）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40525318",
+            "title": "Mitochondrial genes in lipid metabolism pathway and susceptibility to primary open and angle closure glaucoma.",
+            "authors": [
+              "Kandeeban Suganya",
+              "Asokan Rashima",
+              "Balekudaru Shantha",
+              "Lingam Vijaya",
+              "George Ronnie"
+            ],
+            "journal": "European journal of ophthalmology",
+            "year": "2025",
+            "abstract": "BackgroundMitochondrial genes regulate lipid metabolism and both are associated with the pathology of glaucoma. Here, we studied the genetic association of mitochondrial genes involved in lipid metabolic pathways with glaucoma and its ocular quantitative traits (QTs).MethodsPolymerase chain reaction based direct sequencing followed by MITOMAP analysis was performed for NADH (MT-ND1, MT-ND2, MT-ND5 and MT-ND6); Adenosine triphosphate (ATP) synthase (MT-ATPase6) and Cytochrome B subunit (MT-CYB) g",
+            "classification": {
+              "study_type": "Genetic Epidemiology（粒線體基因與開閉角青光眼易感性）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21745471",
+            "title": "Sustained elevation of extracellular ATP in aqueous humor from humans with primary chronic angle-closure glaucoma.",
+            "authors": [
+              "Li Ang",
+              "Zhang Xiulan",
+              "Zheng Danying",
+              "Ge Jian",
+              "Laties Alan M"
+            ],
+            "journal": "Experimental eye research",
+            "year": "2011",
+            "abstract": "While the death of retinal ganglion cells in glaucoma is frequently associated with an elevation of intraocular pressure (IOP), the mechanisms connecting the two processes remain unclear. Extracellular ATP is released throughout the body in response to mechanical deformations. We have previously shown that patients with an acute rise in IOP have an elevated concentration of ATP in the anterior chamber. In the present study we ask whether ATP levels remain increased in patients with chronic eleva",
+            "classification": {
+              "study_type": "Observational/Translational（PACG 房水 ATP 持續升高）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15914619",
+            "title": "Selective upregulation of the A3 adenosine receptor in eyes with pseudoexfoliation syndrome and glaucoma.",
+            "authors": [
+              "Schlötzer-Schrehardt Ursula",
+              "Zenkel Matthias",
+              "Decking Ulrich",
+              "Haubs Daniela",
+              "Kruse Friedrich E"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2005",
+            "abstract": "Adenosine is increasingly released in metabolic stress conditions, like hypoxia or ischemia, and regulates many physiologic processes, such as aqueous humor secretion and intraocular pressure, via activation of four adenosine receptors. In the current study, the role of the adenosine system in the pathophysiology of pseudoexfoliation (PEX) syndrome, which is typically associated with anterior chamber hypoxia and elevated intraocular pressure, was examined.",
+            "classification": {
+              "study_type": "Translational（假性剝脫症候群 A3 受體上調）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16186358",
+            "title": "Differential gene expression in pseudoexfoliation syndrome.",
+            "authors": [
+              "Zenkel Matthias",
+              "Pöschl Ernst",
+              "von der Mark Klaus",
+              "Hofmann-Rummelt Carmen",
+              "Naumann Gottfried O H"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2005",
+            "abstract": "To identify and characterize genes differentially expressed in anterior segment tissues of eyes with pseudoexfoliation (PEX) syndrome and glaucoma.",
+            "classification": {
+              "study_type": "Gene Expression Study（假性剝脫症候群基因差異表現）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17822699",
+            "title": "Acute increase of intraocular pressure releases ATP into the anterior chamber.",
+            "authors": [
+              "Zhang Xiulan",
+              "Li Ang",
+              "Ge Jian",
+              "Reigada David",
+              "Laties Alan M"
+            ],
+            "journal": "Experimental eye research",
+            "year": "2007",
+            "abstract": "Throughout the body, mechanical perturbations are transduced into neurochemical signals by the release of ATP from non-neuronal cells. As an increased intraocular pressure (IOP) can initiate mechanical changes, we hypothesized that extracellular levels of ATP might be increased in the anterior chamber of human patients with primary acute angle closure glaucoma (PAACG). ATP levels in aqueous humor samples were determined using the luciferin-luciferase assay. Samples were obtained from 18 controls",
+            "classification": {
+              "study_type": "Basic Science/Translational（眼壓升高釋放 ATP 至前房）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31198598",
+            "title": "Massive Hyphaema Following Laser Iridotomy in a Patient on Dual Antiplatelet Therapy (Aspirin plus Ticagrelor): Case report and literature review.",
+            "authors": [
+              "Galvis Virgilio",
+              "Tello Alejandro",
+              "Carreño Néstor I",
+              "Sánchez Walter A",
+              "Frederick Gabriel A"
+            ],
+            "journal": "Sultan Qaboos University medical journal",
+            "year": "2019",
+            "abstract": "Massive hyphaema presentation after a laser iridotomy is very rare. We report a 63-year-old man with ischaemic heart disease on dual antiplatelet therapy (aspirin plus ticagrelor) who was diagnosed as a primary angle-closure suspect and was to undergo a neodymium-doped yttrium aluminium garnet laser iridotomy at Centro Oftalmológico Virgilio Galvis, Floridablanca, Colombia in 2016. While performing the iridotomy in the left eye, active bleeding occurred that finally filled approximately 75% of t",
+            "classification": {
+              "study_type": "Case Report（雷射虹膜切除術後大量前房積血）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31578090",
+            "title": "Ocular complications of Garcinia cambogia extract diet pills: Case report.",
+            "authors": [
+              "Cho Hyun-Kyung",
+              "Han Yong Seop",
+              "Park Jong Moon"
+            ],
+            "journal": "European journal of ophthalmology",
+            "year": "2020",
+            "abstract": "Garcinia cambogia contains hydroxycitric acid. Hydroxycitric acid is a potent competitive inhibitor of adenosine triphosphate citrate lyase which is a key enzyme in the synthesis of fatty acids. Hydroxycitric acid also regulates the level of serotonin. In these regards, hydroxycitric acid has been reported to exhibit weight loss activity. Adverse reactions of G. cambogia from numerous clinical studies demonstrated relatively mild reactions. However, there are some complications of G. cambogia re",
+            "classification": {
+              "study_type": "Case Report（Garcinia cambogia 眼部併發症）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "在急性眼壓升高（如急性閉角性青光眼發作）時，前房房水中 ATP 濃度顯著增加（PMID 17822699），此 ATP 在細胞外水解為腺苷後可作用於腺苷受體。慢性原發性閉角型青光眼（PACG）患者的房水中亦記錄到持續性 ATP 升高（PMID 21745471）。A3 受體在假性剝脫症候群合併青光眼中選擇性上調（PMID 15914619），提示腺苷信號異常在閉角型青光眼病理中的參與。然而，閉角型青光眼的主要機轉（瞳孔阻斷、前房角關閉）與開角型不同，急性發作期需雷射/手術介入，腺苷的 IOP 調控作用主要針對小樑網流出途徑，在已關閉的前房角中效果存疑。無直接臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "periodic paralysis with transient compartment-like syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "arrhythmogenic right ventricular cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 41,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "angle-closure glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "angle-closure glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adenosine",
+        "disease": "angle-closure glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    }
+  ]
+}

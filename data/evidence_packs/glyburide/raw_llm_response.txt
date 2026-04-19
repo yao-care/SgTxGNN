@@ -1,0 +1,195 @@
+## Glyburide (DB01016) 藥物再利用證據分析
+
+> ⚠️ **資料背景說明**：Glyburide（格列本脲）實際為全球廣泛上市的磺醯脲類降血糖藥，`original_moa: [Data Gap]` 及 `market_status: 未上市` 反映本地資料集（SgTxGNN）的缺漏，並非藥物本身的未知狀態。其已確立的 MoA 為**阻斷胰島β細胞 KATP 通道（SUR1/Kir6.2）促進胰島素分泌**，此機轉為以下所有評估的基準。
+
+---
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "opsismodysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 由 INPPL1（SHIP2 磷酸酶）基因突變引起，影響磷酸肌醇 3-磷酸信號傳導，導致軟骨發育異常。Glyburide 的 KATP 通道阻斷機轉與 INPPL1 磷酸酶途徑無直接藥理交集。高預測分數（0.972）可能來源於 KG 中「代謝信號—骨骼發育」的遠端節點嵌入，屬典型高分假陽性。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Focal stiff limb syndrome 為 stiff person syndrome（SPS）的局限型，病理核心為抗 GAD65 自體抗體破壞 GABA 能抑制性神經元。GAD65 同時存在於胰島β細胞，SPS 患者有較高 T1D 共病率，此為 Glyburide 與 SPS 在 KG 中形成關聯的可能路徑，但不代表治療效益。KATP 通道在中樞 GABA 神經元的功能調節尚無充分研究，無臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Classic SPS 與 focal stiff limb syndrome 共享相同評估。額外指出：約 30-40% SPS 患者同時患有 T1D，KG 中「Glyburide → 糖尿病 → GAD65 → SPS」的知識路徑可解釋高預測分數（0.969）。然而此為共病關聯非治療機轉，且磺醯脲類用於自體免疫神經疾病無任何支持性臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Thiamine-responsive megaloblastic anemia（TRMA；SLC19A2 突變）三聯症包含糖尿病，病因為硫胺素缺乏導致β細胞氧化損傷及凋亡。Glyburide 刺激殘餘β細胞分泌胰島素具理論可行性，但：(1) TRMA 的首要治療為硫胺素補充，早期介入可逆轉β細胞損傷；(2) 晚期患者β細胞已耗盡，KATP 靶點消失；(3) 無任何 TRMA 使用磺醯脲類的臨床報告。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物誘發局部脂肪萎縮最常見病因為胰島素注射部位反應（脂肪增生或萎縮）。間接假設：以口服 Glyburide 取代部分胰島素注射可減少注射部位脂肪異常。此假設缺乏任何研究支持，且 Glyburide 需功能性β細胞才有效，胰島素依賴型患者不適用。KG 預測可能來源於「降血糖藥物—胰島素—脂肪代謝」的知識鏈。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Centrifugal lipodystrophy（又稱 lipodystrophia centrifugalis abdominalis infantilis）為好發於幼兒腹部的罕見皮膚病，病因不明，可能涉及局部免疫異常。Glyburide 與此疾病無已知藥理關聯。預測分數（0.949）可能反映 KG 中「脂肪組織代謝節點」的泛化連結，屬假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力性局部脂肪萎縮由持續機械壓力引起脂肪細胞物理性損傷，為純機械性病因。Glyburide 的 KATP 通道藥理機轉對機械性組織損傷無任何作用途徑。此預測可能為 KG 中脂肪組織相關節點的結構性假陽性，預測可信度最低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪萎縮病因未明，可能涉及局部免疫介導的脂肪細胞凋亡。Glyburide 的抗炎特性（通過抑制巨噬細胞 SUR1 通道調節 NLRP3 炎症小體活化）具極弱理論基礎，但無任何針對此疾病的基礎或臨床研究。特發性質使藥物靶向研發優先級極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "此適應症需關鍵性分型辨別：(A) KATP 通道突變相關新生兒糖尿病（ABCC8/KCNJ11 突變，常伴胰腺發育不全）：磺醯脲類（含 glyburide/glibenclamide）為已建立的標準治療，機轉明確（突變型 KATP 通道對磺醯脲類仍保有結合能力），此為 L1-L2 等級證據，但疾病名稱應為「KATP channel neonatal diabetes」而非「pancreatic agenesis」。(B) 真性胰腺發育不全（如 PTF1A/PDX1 增強子突變）：β細胞完全缺失，KATP 通道靶點不存在，Glyburide 無效。現有 20 篇文獻以 STZ 誘發糖尿病動物模型及β細胞功能研究為主，無直接支持 glyburide 治療胰腺發育不全的證據。PMID 28943513 記錄 PTF1A 突變導致的孤立性胰腺發育不全（B 型），印證靶點缺失問題。整體評為 L4（間接/混淆機轉），建議進行分型研究以釐清是否存在 KATP 突變亞群。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28943513",
+          "study_type": "Case Report",
+          "tier": "2",
+          "note": "PTF1A 增強子突變導致孤立性胰腺發育不全（真性 β 細胞缺失型），直接挑戰 Glyburide 在此疾病的可行性"
+        },
+        {
+          "pmid": "41693148",
+          "study_type": "Functional Study (ex vivo)",
+          "tier": "2",
+          "note": "BWS 患者胰島功能評估，涉及先天性胰島素分泌異常機轉，間接相關"
+        },
+        {
+          "pmid": "27656398",
+          "study_type": "Basic Science (In vitro/In vivo)",
+          "tier": "3",
+          "note": "粒線體丙酮酸載體在葡萄糖刺激胰島素分泌中的作用，屬 β 細胞生理學基礎研究"
+        },
+        {
+          "pmid": "9033963",
+          "study_type": "In Vitro",
+          "tier": "3",
+          "note": "持續葡萄糖刺激對 β 細胞的長期影響，屬 β 細胞耗竭基礎研究"
+        },
+        {
+          "pmid": "21573217",
+          "study_type": "In Vitro",
+          "tier": "3",
+          "note": "ENPP1 對胰島素分泌的影響，涉及 β 細胞訊號調節"
+        },
+        {
+          "pmid": "22252046",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "Embelin 在 STZ 糖尿病模型的 β 細胞保護，非 glyburide 研究"
+        },
+        {
+          "pmid": "28549291",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "Menthol 改善葡萄糖代謝，非 glyburide 研究"
+        },
+        {
+          "pmid": "36873120",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "苦蜂蜜抗糖尿病活性，STZ-NIC 模型，非 glyburide 研究"
+        },
+        {
+          "pmid": "26132582",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "甲狀腺功能低下大鼠胰島素分泌障礙，屬間接代謝機轉研究"
+        },
+        {
+          "pmid": "29844959",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "角豆莢提取物降血糖研究，STZ-NIC 模型，非 glyburide 研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎以抗卵巢自體抗體破壞卵泡顆粒細胞為特徵。理論假設：Glyburide 通過抑制免疫細胞（巨噬細胞/T細胞）的 KATP 通道發揮抗炎效果，或通過 SUR1 通道調節 NLRP3 炎症小體。然而此機轉極弱且無任何針對卵巢自體免疫的研究，預測分數最低（0.822），建議不納入後續研究優先級。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 評估摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|----------|----------|------|
+| opsismodysplasia | 0.972 | **L5** | S0 | ❌ Hold |
+| focal stiff limb syndrome | 0.969 | **L5** | S0 | ❌ Hold |
+| classic stiff person syndrome | 0.969 | **L5** | S0 | ❌ Hold |
+| thiamine-responsive dysfunction syndrome | 0.968 | **L5** | S0 | ❌ Hold |
+| drug-induced localized lipodystrophy | 0.952 | **L5** | S0 | ❌ Hold |
+| centrifugal lipodystrophy | 0.949 | **L5** | S0 | ❌ Hold |
+| pressure-induced localized lipoatrophy | 0.948 | **L5** | S0 | ❌ Hold |
+| idiopathic localized lipodystrophy | 0.945 | **L5** | S0 | ❌ Hold |
+| **pancreatic agenesis** | **0.943** | **L4** | **S1** | ⚠️ Research Question |
+| autoimmune oophoritis | 0.822 | **L5** | S0 | ❌ Hold |
+
+---
+
+## 🔍 關鍵發現
+
+### 1. 高分 ≠ 高證據：KG 嵌入假陽性問題
+前 8 個適應症 TxGNN 分數高達 0.945–0.972，但全部為 **L5 / Hold**。這揭示一個系統性問題：Glyburide 在 KG 中的「糖尿病代謝中心」節點位置，使其透過遠端路徑（如脂肪代謝、自體免疫節點）與多種疾病形成高分連結，但缺乏直接藥理基礎。
+
+### 2. 唯一值得關注：胰腺發育不全的分型問題
+**Pancreatic agenesis（L4/S1）** 是本次分析中唯一具有研究討論價值的適應症，但需嚴格分型：
+- ✅ **KATP 通道突變亞型**（ABCC8/KCNJ11）→ Glyburide 效益已建立，應重新分類為「neonatal diabetes mellitus」
+- ❌ **真性胰腺發育不全**（PTF1A/PDX1）→ β 細胞缺失，Glyburide 靶點不存在
+
+### 3. 資料集系統性缺漏警示
+`original_moa: [Data Gap]`、`ddi_count: 0`、`original_indications: []` 三項缺漏對一個已有 60+ 年臨床使用歷史的藥物而言，提示 SgTxGNN 的藥物基礎資料品質需優先改善，否則 KG 預測的背景知識將失真。

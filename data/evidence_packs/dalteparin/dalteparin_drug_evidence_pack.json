@@ -1,0 +1,997 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06779-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dalteparin",
+    "drugbank_id": "DB06779",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "thrombophilia due to protein C deficiency, autosomal recessive",
+      "txgnn": {
+        "score": 0.9987576007843018,
+        "rank": 2393
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "蛋白C缺乏症導致天然抗凝機制喪失（無法抑制凝血因子Va/VIIIa），形成高凝狀態。Dalteparin 作為 LMWH，可透過抗凝血酶III補充抗凝路徑，理論上可彌補蛋白C缺乏的缺陷。雖無針對 Dalteparin 的直接試驗，但抗凝血劑作為藥物類別（class effect）已是此症標準療法。機轉關聯性強，屬間接類效應證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.99673330783844,
+        "rank": 4854
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01178333",
+            "title": "Heparin-Induced Thrombocytopenia - Retrospective Analysis of Data on Incidence and Outcomes Study (HIT-RADIO Study)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 668,
+            "start_date": "2010-06",
+            "completion_date": "2010-12",
+            "brief_summary": "HIT-RADIO is a study of patients who had a positive heparin PF-4 antibody test between 1/21/2008 and 9/25/2008 at selected hospitals. The study will collect and analyse information that is already in the patients' medical records. Information about laboratory values (such as platelet counts), treatments (such as medications), and outcomes (such as blood clots, amputation, and death) will be included.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HIT（肝素誘發性血小板低下症）回顧性分析，研究肝素的不良反應而非治療血小板釋放障礙，方向相反"
+            }
+          },
+          {
+            "nct_id": "NCT00222352",
+            "title": "Diagnosis and Treatment of Acute Coronary Syndromes in the Emergency Department: The Impact of Rapid Bedside cTnI Testing on Outcomes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2000,
+            "start_date": "2004-12",
+            "completion_date": "2007-03",
+            "brief_summary": "In a randomized, controlled clinical trial, point-of care testing at the bedside using the cardiac biomarker troponin I in ED patients with possible ACS will be compared to traditional testing of this assay for myocardial necrosis obtained in the central laboratory. Our hypothesis: point-of-care testing for troponin I will decrease the time for disposition of patients with possible ACS in the emergency setting and decrease the time required for administering appropriate therapies for these patie",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "急性冠心症急診處置研究，以抗凝/抗血小板為背景，非針對原發性血小板釋放障礙"
+            }
+          },
+          {
+            "nct_id": "NCT01863134",
+            "title": "Clinical Effects of Eptifibatide Administration in High Risk Patients Presenting With Non-ST Segment Elevation Acute Coronary Syndrome (NSTE-ACS) Requiring Urgent Coronary Artery Bypass Graft Surgery in Short- and Long-Term Follow-up",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2005-01",
+            "completion_date": "2010-12",
+            "brief_summary": "1. INTRODUCTION\n\n   Through last couple of years the number of patients treated for acute coronary event without persistent ST segment elevation in ECG has been growing.\n\n   This is probably an effect of improving diagnostics of myocardial infraction without persistent ST segment elevation in ECG, due to routine Troponin serum level evaluation and better primary prevention.\n\n   This fact makes the search for the optimal treatment for patients with acute coronary event without persistent ST segme",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Eptifibatide（GPIIb/IIIa拮抗劑）用於NSTEMI，主角非 Dalteparin，適應症亦不符"
+            }
+          },
+          {
+            "nct_id": "NCT04808895",
+            "title": "Multicenter Randomized, Double-blind, Placebo-controlled, Clinical Trial of Acetylsalicylic Acid in the Prevention of Severe SARS-CoV2 Pneumonia in Hospitalised Patients (Asperum)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 204,
+            "start_date": "2021-04-01",
+            "completion_date": "2021-08-31",
+            "brief_summary": "Inflammatory diseases favour the onset of venous thromboembolic events in hospitalized patients. Thromboprophylaxis with a fixed dose of heparin/low molecular weight heparin (LMWH) is recommended if concomitant inflammatory disease. In severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) pneumonia an inflammation-dependent thrombotic process occurs and platelet activation may promote thrombosis and amplify inflammation, as indicated by previous experimental evidence, and the similarities ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "阿斯匹靈試驗，非 Dalteparin，亦非此適應症"
+            }
+          },
+          {
+            "nct_id": "NCT05293132",
+            "title": "The Effect of Montelukast Versus Co Enzyme Q10 on the Clinical Outcome of Patients With Sepsis",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2022-02-01",
+            "completion_date": "2023-06-01",
+            "brief_summary": "Sepsis is a leading cause of morbidity and mortality in intensive care units. Sepsis is a life-threatening organ dysfunction linked to a dysregulated host response to infection. It leads to overwhelming of systemic inflammation causing release of proinflammatory cytokines, which trigger overproduction of reactive oxygen species. Several animal studies with sepsis proved the effectiveness of montelukast and coenzyme Q10 as anti-inflammatory and antioxidants in preventing end organ damage, deterio",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Montelukast vs CoQ10 用於敗血症，與血小板釋放障礙或 Dalteparin 均無關"
+            }
+          },
+          {
+            "nct_id": "NCT05964621",
+            "title": "Venous Thromboembolism in Patients Undergoing Primary Pancreatic Tumour Resection; a Prospective Observational Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 64,
+            "start_date": "2023-09-01",
+            "completion_date": "2024-10-01",
+            "brief_summary": "This study will evaluate the development of venous thromboembolism (VTE) and possible determinants in patients with primary pancreatic cancer undergoing pancreatic cancer resection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "胰臟腫瘤切除後 VTE 觀察性研究，僅涉及血栓預防，非此適應症"
+            }
+          },
+          {
+            "nct_id": "NCT00457002",
+            "title": "A Phase 3 Randomized, Double-Blind, Parallel-group, Multi-center Study of the Safety and Efficacy of Apixaban for Prophylaxis of Venous Thromboembolism in Acutely Ill Medical Subjects During and Following Hospitalization.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 6758,
+            "start_date": "2007-06",
+            "completion_date": "2011-05",
+            "brief_summary": "The purpose of this study is to learn if apixaban can prevent blood clots in the leg (deep vein thrombosis \\[DVT\\]) and lung (pulmonary embolism \\[PE\\]) that sometimes occur within patients hospitalized for acute medical illness, and to learn how apixaban compares to enoxaparin (Lovenox®) for preventing these clots. The safety of apixaban will also be studied.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "6758人大型 Phase 3 研究，規模可觀但適應症不明確，無直接與血小板釋放障礙的關聯"
+            }
+          },
+          {
+            "nct_id": "NCT05895136",
+            "title": "A Novel COMBinATorial Therapy With Albumin and Enoxaparin in Patients With Decompensated Cirrhosis at High-risk of Poor Outcome (COMBAT Trial).",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 90,
+            "start_date": "2024-07-01",
+            "completion_date": "2025-09",
+            "brief_summary": "The goal of this clinical trial is to determine primarily whether a combinatorial therapy based on the administration of human albumin and enoxaparin is safe and effective in patients with decompensated cirrhosis discharged from the hospital. The main questions it aims to answer are:\n\n* Is this combinatorial therapy safe and tolerable?\n* Is this combinatorial therapy effective?\n* does this combinatorial therapy cost more or less than standard medical therapy? Participants will attend to study vi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Enoxaparin（同屬LMWH但非Dalteparin）用於肝硬化失代償期，適應症不符"
+            }
+          },
+          {
+            "nct_id": "NCT04778917",
+            "title": "Observation and Treatment of Pulmonary Microthrombosis in Childhood Pneumonia With Elevated D-dimer",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 124,
+            "start_date": "2014-12",
+            "completion_date": "2018-02",
+            "brief_summary": "Objective\n\n1\\. Master the clinical feathers, imaging features and laboratory diagnosis characteristics and economic costs of children pneumonia with higher D-dimer:\n\n1. Compare the characteristics of different groups of children in the course of the disease，clinicalsymptoms and signs;\n2. All the children in the study need to do enhanced CT, to observe if there were intrapulmonary vascular thrombosis and necrosis pneumonia signs;\n3. compared changes of coagulation index beside D-dimer.\n\n2\\. Compa",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "兒童肺炎合併D-dimer升高的微血栓研究，與原發性血小板釋放障礙不同病理機轉"
+            }
+          },
+          {
+            "nct_id": "NCT07183605",
+            "title": "Central Catheter Anti-Xa Sampling Study for Accurate aNalysis and Reliable Dosage Assessment",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2025-09-22",
+            "completion_date": "2026-10",
+            "brief_summary": "The goal is to investigate whether blood samples drawn from a central venous catheter can provide reliable measurements of unfractionated heparin (UFH) anti-Xa activity, compared to the standard method of peripheral vein puncture, in intensive care unit (ICU) patients receiving continuous intravenous UFH.\n\nTo evaluate the reliability of central venous blood sampling, the study will compare anti-Xa activity levels obtained simultaneously from two different types of blood draws: one from a periphe",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "中央導管Anti-Xa藥物監測研究，屬藥物動力學研究，非治療性試驗"
+            }
+          },
+          {
+            "nct_id": "NCT04441996",
+            "title": "Therapeutic Plasma Exchange for COVID-19-associated Hyperviscosity",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2020-07-17",
+            "completion_date": "2021-03-18",
+            "brief_summary": "Many patients with Coronavirus Disease 2019 (COVID-19) have atypical blood clots. These blood clots can occur in either veins or arteries and be large, like in stroke or heart attack, or very tiny, called microthrombi. Some patients with COVID-19 even have blood clots despite being on anti-clotting medications. Blood with increased viscosity does not flow through the body normally, in the same way that syrup, a highly viscous liquid, and water, a minimally viscous liquid, flow differently. The r",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04528888",
+            "title": "Steroids and Unfractionated Heparin in Critically Ill Patients With Pneumonia From COVID-19 Infection. A Multicenter, Interventional, Randomized, Three Arms Study Design",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 210,
+            "start_date": "2020-11-25",
+            "completion_date": "2021-07-30",
+            "brief_summary": "SARS-CoV-2 infection seems to induce in most critical cases an excessive and aberrant hyper-inflammatory host immune response that is associated with a so-called \"cytokine storm\", moreover pro-thrombotic derangements of haemostatic system is another common finding in most severe forms of COVID19 infections, which may be explained by the activation of coagulative cascade primed by inflammatory stimuli, in line with what is observed in many other forms of sepsis. Targeting inflammatory responses e",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01729559",
+            "title": "Venous Thromboembolic Prophylaxis After Major Trauma: A Randomized Controlled Trial of Three Times a Day Unfractionated Heparin Versus Twice a Day Enoxaparin",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 495,
+            "start_date": "2012-11",
+            "completion_date": "2014-10",
+            "brief_summary": "The rate of venous thromboembolic events in trauma patients at high risk for deep vein thrombosis and pulmonary embolism receiving low dose unfractionated heparin every 8 hours will be equivalent or less than a similar group of patients given a standard every 12 hour dose of low molecular weight heparin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01241903",
+            "title": "Early Use of Rosuvastatin (Crestor) in Acute Coronary Syndromes: Targeting Platelet-Leukocyte Interactions",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 54,
+            "start_date": "2011-06",
+            "completion_date": "2014-02",
+            "brief_summary": "The central hypothesis for this work is that platelet - leukocyte interactions play a critical role in the pathogenesis of acute ischemic events. The primary objective of the study is to determine if early, high-dose administration of the HMG-CoA reductase inhibitor rosuvastatin in the setting of acute coronary syndrome and percutaneous coronary intervention exerts beneficial vascular effects by reducing platelet - leukocyte interactions.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性血小板釋放障礙（granule release defect）為出血性疾病，血小板 ADP/血清素釋放不足導致凝集功能缺損。Dalteparin 為抗凝劑，機轉上可能加重出血風險，缺乏治療此症的合理路徑。14 筆試驗均非針對此症使用 Dalteparin，屬資料庫廣義關聯誤配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.9952477812767028,
+        "rank": 6277
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假性 vWD（血小板型 vWD）因 GPIb 突變導致血小板對 vWF 親和力異常增加，造成血小板聚集與出血。本質為出血性疾病，抗凝治療缺乏理論依據且可能惡化出血傾向。TxGNN 高分可能源於血小板-凝血系統的廣義關聯，非特異性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+      "txgnn": {
+        "score": 0.9934090375900269,
+        "rank": 7907
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Thrombomodulin（THBD）異常導致蛋白C活化不足，形成補體介導的微血管血栓性血小板減少（TMA）。Dalteparin 透過抗因子Xa可抑制微血管血栓形成，且 LMWH 有潛在抗補體特性（減少補體C3活化）。雖補體抑制劑（Eculizumab）為標準療法，但在資源受限情境下 LMWH 作為輔助治療具探索價值。現無直接臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "neuropathy, painful",
+      "txgnn": {
+        "score": 0.9918814301490784,
+        "rank": 9120
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00765063",
+            "title": "A 6 Month, Prospective, Open-Label Multiple Center Extension Trial To Evaluate The Long Term Safety And Sustained Efficacy Of Fragmin In The Treatment Of Chronic Foot Ulcers In Diabetic Patients With Peripheral Arterial Occlusive Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 62,
+            "start_date": "2008-10",
+            "completion_date": "2010-10",
+            "brief_summary": "The primary objective of this 6 month open-label extension trial is to evaluate long-term safety and tolerability of dalteparin in treatment of chronic neuroischaemic foot ulcers in diabetic patients with peripheral arterial occlusive disease (PAOD) and peripheral neuropathy.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2/3 開放標籤延伸試驗，62人（已完成）。可能為 NCT00662831 延伸，長期安全性數據有參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT00445328",
+            "title": "Prospective Randomized Phase IV Open Label Comparative Study Of Dalteparin vs Unfractionated Heparin For The Prevention Of Venous Thromboembolism (VTE) In Hospitalized Acutely Ill Medical Patients.",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 84,
+            "start_date": "2007-06",
+            "completion_date": "2008-07",
+            "brief_summary": "The purpose of this study is to compare the efficacy and safety of dalteparin vs unfractionated heparin for the prevention of VTE (Venous Thromboembolism) in hospitalized acutely ill medical patients.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接命名 Dalteparin vs 普通肝素的 Phase 4 隨機試驗，64人（已終止）。為本適應症最高相關性試驗，但終止原因未知，需深入查詢結果資料。"
+            }
+          },
+          {
+            "nct_id": "NCT00662831",
+            "title": "A 6 Month, Prospective, Randomized, Double Blind, Placebo-Controlled, Parallel Group, Multiple Center Trial To Evaluate The Efficacy And Safety Of Fragmin In The Treatment Of Chronic Neuroischaemic Foot Ulcers In Diabetic Patients",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 276,
+            "start_date": "2008-04",
+            "completion_date": "2010-10",
+            "brief_summary": "The purpose of the study isto see the effect of Fragmin on the healing of diabetic foot ulcers by determining the number of subjects with ≥50% reduction in ulcer surface area including intact skin healing.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2/3 雙盲安慰劑對照 RCT，276人（已完成）。設計嚴謹，規模足夠，但主角藥物需確認是否為 Dalteparin 或同類藥。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "疼痛性神經病變（如糖尿病性神經病變）的機轉包含微血管缺血與神經內膜炎症。LMWH 的潛在機轉包含：(1)改善神經內膜微循環，(2)抑制 heparanase 減少基底膜降解，(3)抗炎作用（抑制 NF-κB、補體）。NCT00445328 直接比較 Dalteparin vs UFH，提供最直接的初步證據，但試驗提前終止需解析原因。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "thrombotic thrombocytopenic purpura",
+      "txgnn": {
+        "score": 0.980941891670227,
+        "rank": 16590
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TTP 病理為 ADAMTS13 缺乏導致超大 vWF 多聚體積聚，引起血小板聚集形成微血管血栓。標準治療為血漿置換（PEX）± 類固醇 ± Caplacizumab。抗凝治療在 TTP 中有爭議：微血管血栓對抗凝反應差，且患者已有血小板低下，抗凝可能增加出血風險。現無支持 Dalteparin 用於 TTP 的臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "retinal telangiectasia",
+      "txgnn": {
+        "score": 0.9553924202919006,
+        "rank": 25366
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29068144",
+            "title": "Branch retinal artery occlusion as a clinical manifestation of hereditary haemorrhagic telangiectasia (Osler-Weber-Rendu syndrome) in pregnancy.",
+            "authors": [
+              "Askim Andreas J",
+              "Thrane Alexander S",
+              "Giaever Petter",
+              "Andersen Rune",
+              "Krohn Jørgen"
+            ],
+            "journal": "Acta ophthalmologica",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "視網膜毛細血管擴張症（如 Coats 病、遺傳性出血性毛細血管擴張 HHT）可並發視網膜動脈阻塞（BRAO/CRAO）。抗凝治療在血管阻塞次級預防有一定理論基礎，LMWH 亦有血管內皮保護特性。惟視網膜毛細血管擴張本身以滲漏為主要病理，抗凝需審慎評估出血風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "retinal microaneurysm",
+      "txgnn": {
+        "score": 0.951944887638092,
+        "rank": 26261
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "視網膜微血管瘤為糖尿病視網膜病變的早期表現，病理為毛細血管壁弱化，非血栓性阻塞。抗凝治療缺乏針對微血管瘤形成/消退的機轉支持。TxGNN 高分可能反映視網膜血管病理的廣泛連結，而非特異性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "arteriosclerotic retinopathy",
+      "txgnn": {
+        "score": 0.951944887638092,
+        "rank": 26260
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "動脈硬化性視網膜病變以動脈管壁增厚、A/V壓跡為主要特徵，屬慢性動脈粥樣硬化過程。LMWH 對動脈粥樣硬化進展的直接作用機轉不明確；已有 Statins、抗血小板藥（不同機轉）作為標準管理策略。無針對此症的 Dalteparin 證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "vertebral artery occlusion",
+      "txgnn": {
+        "score": 0.9496487975120544,
+        "rank": 26789
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17011126",
+            "title": "Neuroprotective effect of pentosan polysulphate on ischemia-related neuronal death of the hippocampus.",
+            "authors": [
+              "Sakurai-Yamashita Yasuko",
+              "Kinugawa Hidekazu",
+              "Niwa Masami"
+            ],
+            "journal": "Neuroscience letters",
+            "year": "2006",
+            "abstract": "Pentosan polysulphate (PPS) negatively charged sulphated glycosaminoglycan was studied in ischemia-related hippocampal neuronal death and compared with a low molecular weight of heparin, named dalteparin in rats. Transient global ischemia was produced by four vessel-occlusion, the occlusion of the bilateral common carotid arteries following the electrocautherization of the vertebral arteries. 3mg/kg of PPS or 300IU/kg of dalteparin was administered i.v. immediately after 7min-occlusion/reperfusi",
+            "classification": {
+              "study_type": "Animal/Preclinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "椎動脈阻塞可由夾層（dissection）或血栓引起，抗凝治療（包含 LMWH）在急性椎動脈血栓性阻塞的急性期已有指引支持（尤其夾層病例）。間接文獻顯示 heparin 類化合物（pentosan polysulphate）對缺血神經元具保護作用，機轉涉及神經元修復與微循環改善。Dalteparin 作為 LMWH 的類效應值得探索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombophilia due to protein C deficiency, autosomal recessive"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "neuropathy, painful"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "neuropathy, painful"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "neuropathy, painful"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "thrombotic thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal telangiectasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal telangiectasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal telangiectasia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal microaneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal microaneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "retinal microaneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "arteriosclerotic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "arteriosclerotic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "arteriosclerotic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "vertebral artery occlusion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "vertebral artery occlusion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dalteparin",
+        "disease": "vertebral artery occlusion"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

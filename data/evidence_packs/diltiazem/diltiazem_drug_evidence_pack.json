@@ -1,0 +1,1493 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00343-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Diltiazem",
+    "drugbank_id": "DB00343",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "obsolete susceptibility to ischemic stroke",
+      "txgnn": {
+        "score": 0.9908260703086852,
+        "rank": 9942
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Diltiazem 作為 CCB 理論上可透過降壓與抗血管痙攣機制降低缺血性腦卒中風險，但「obsolete」字首表示此為 MONDO/HPO 廢棄術語，不具臨床操作意義；且僅為計算預測，無任何實驗或臨床支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "brain stem infarction",
+      "txgnn": {
+        "score": 0.982283890247345,
+        "rank": 15871
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉：CCB 可舒張基底動脈及椎動脈平滑肌，減少血管痙攣，理論上可改善腦幹灌流不足。然而無任何臨床試驗或文獻直接支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "obsolete bundle branch block",
+      "txgnn": {
+        "score": 0.97880882024765,
+        "rank": 17585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Diltiazem 減慢房室傳導（延長 PR 間期），理論上與束支傳導相關；但此為廢棄術語，且 Diltiazem 在高度 AV 傳導阻滯中為禁忌症，在完全性束支傳導阻滯中有加重傳導障礙風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "cerebrovascular disorder",
+      "txgnn": {
+        "score": 0.9763225317001344,
+        "rank": 18738
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06175663",
+            "title": "Midlife Hypertension and Structural and Functional Brain MRI: Catching the First Signs of Cerebral Small Vessel Disease",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 130,
+            "start_date": "2021-07-06",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Cerebral small vessel disease (SVD) describes a set of pathologies affecting the smallest blood vessels in the brain. SVD contributes to up to a fifth of ischemic and hemorrhagic strokes en is the main vascular cause of dementia. On MRI, SVD is marked by different types of lesions, including white matter abnormalities, and small infarcts and hemorrhages. Recent studies indicate that SVD develops slowly over the years, starting presumably decades before the typical MRI lesions become apparent. Hi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性 MRI 研究，評估中年高血壓患者腦結構變化；Diltiazem 非主要干預藥物，可能作為降壓用藥之一出現；與腦血管疾病相關但非直接療效試驗"
+            }
+          },
+          {
+            "nct_id": "NCT01176565",
+            "title": "Antihypertensive Treatment of Acute Cerebral Hemorrhage (ATACH)-II: A Phase III Randomized Multicenter Clinical Trial of Blood Pressure Reduction for Hypertension in Acute Intracerebral Hemorrhage",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 1000,
+            "start_date": "2011-05-15",
+            "completion_date": "2016-03-08",
+            "brief_summary": "The specific aims of this study are to:\n\n1. Definitively determine the therapeutic benefit of the intensive treatment relative to the standard treatment in the proportion of patients with death and disability (mRS 4-6) at 3 months among subjects with ICH who are treated within 4.5 hours of symptom onset.\n2. Evaluate the therapeutic benefit of the intensive treatment relative to the standard treatment in the subjects' quality of life as measured by EuroQol at 3 months.\n3. Evaluate the therapeutic",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 RCT 研究急性腦出血降壓治療，主要測試尼卡地平（nicardipine）而非 diltiazem；試驗已終止；僅間接支持 CCB 類在腦血管事件中的降壓角色"
+            }
+          },
+          {
+            "nct_id": "NCT02922452",
+            "title": "An Open-Label, Single-Sequence Study to Evaluate the Effect of Diltiazem on the Single-Dose Pharmacokinetics of BMS-986141 in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2016-09",
+            "completion_date": "2016-11",
+            "brief_summary": "This study is to evaluate the effect of dilitazem on the single-dose PK of BMS-986141 with parameters like Cmax, AUC(INF), and AUC(0-T).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "藥物動力學 DDI 研究，評估 Diltiazem 對另一藥物（可能為 DOAC）的藥代動力學影響；非治療性試驗，但提供 Diltiazem 在腦血管患者（AF）用藥安全性數據"
+            }
+          },
+          {
+            "nct_id": "NCT06783868",
+            "title": "Randomized Control Study to Assess the Neurological Outcomes After Atrial Fibrillation Ablation for Rhythm Control vs Routine Medication Therapy in Patients With Recent Stroke: SAVE STROKE Phase II Study",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-10",
+            "completion_date": "2027-06",
+            "brief_summary": "A prospective, non-blinded, multi-center study to assess the impact of early Catheter Ablation (CA) in patients with a new diagnosis of Atrial Fibrillation(AF) at the time of stroke. 100 patients will be enrolled.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "探索 AF 消融術後神經學結果；Diltiazem 可能作為術前心率控制藥物使用；尚未開始招募，目前無數據貢獻"
+            }
+          },
+          {
+            "nct_id": "NCT03529149",
+            "title": "TCD Monitoring Technology Guides the Precise Control of Blood Pressure After EVT",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 90,
+            "start_date": "2018-04-08",
+            "completion_date": "2019-06-01",
+            "brief_summary": "Investigators hypothesized that the precise regulation of blood pressure based on the changes of cerebral blood flow parameters under TCD monitoring can better improve the state of cerebral blood flow, reduce the risk of early neurological deterioration and improve the prognosis of the patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "血管內取栓術後血壓精確控制研究，使用 TCD 監測；Diltiazem 可能為候選降壓藥之一；與腦血管疾病管理相關，但非直接測試 diltiazem 療效"
+            }
+          },
+          {
+            "nct_id": "NCT05838664",
+            "title": "SIFNOS STUDY: RETROSPECTIVE STUDY IN PATIENTS WITH ATRIAL FIBRILLATION (AF) EXPOSED AND UNEXPOSED TO AN ORAL ANTICOAGULANT THERAPY BETWEEN 2016-2020 IN FRANCE",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2140403,
+            "start_date": "2023-07-07",
+            "completion_date": "2024-09-30",
+            "brief_summary": "The purpose of this study is to look at how many patients with AF had strokes, major bleeding and death in both people who had and had not taken any oral anticoagulant. Atrial fibrillation (AF) is an irregular and often very rapid heart rhythm (arrhythmia) that can lead to blood clots in the heart.\n\nThis increases the risk of stroke. Anticoagulants are medicines, also called blood thinners, which help prevent blood clots from forming or getting bigger.\n\nThis study includes patient's data from th",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型回顧性研究（n≈214萬），比較 AF 患者暴露與未暴露於特定藥物（依題名推測可能為 diltiazem 或 CCB 類）的臨床結果；若主要暴露為 Diltiazem，這是目前最具規模的間接真實世界證據，但需原始論文確認藥物暴露定義"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11975840",
+            "title": "Atrial fibrillation.",
+            "authors": [
+              "Aronow Wilbert S"
+            ],
+            "journal": "Heart disease (Hagerstown, Md.)",
+            "year": "2002",
+            "abstract": "The prevalence and incidence of atrial fibrillation increase with age. Atrial fibrillation is associated with a higher incidence of coronary events, stroke, and mortality than sinus rhythm. A fast ventricular rate associated with atrial fibrillation may cause tachycardia-related cardiomyopathy. Management of atrial fibrillation includes treatment of underlying causes and precipitating factors. Immediate direct-current cardioversion should be performed in persons with atrial fibrillation associat",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17309423",
+            "title": "Atrial fibrillation.",
+            "authors": [
+              "Medi Caroline",
+              "Hankey Graeme J",
+              "Freedman Saul B"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "2007",
+            "abstract": "The incidence and prevalence of atrial fibrillation are increasing because of both population ageing and an age-adjusted increase in incidence of atrial fibrillation. Deciding between a rate control or rhythm control approach depends on patient age and comorbidities, symptoms and haemodynamic consequences of the arrhythmia, but either approach is acceptable. Digoxin is no longer a first-line drug for rate control: beta-blockers and verapamil and diltiazem control heart rate better during exercis",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36149579",
+            "title": "Association between concurrent use of diltiazem and DOACs and risk of bleeding in atrial fibrillation patients.",
+            "authors": [
+              "Shurrab Mohammed",
+              "Jackevicius Cynthia A",
+              "Austin Peter C",
+              "Tu Karen",
+              "Qiu Feng"
+            ],
+            "journal": "Journal of interventional cardiac electrophysiology : an international journal of arrhythmias and pacing",
+            "year": "2023",
+            "abstract": "Diltiazem is a commonly used medication in patients with atrial fibrillation (AF) with potential for a drug-drug interaction (DDI) with direct oral anticoagulants (DOACs). We aimed to assess the risk of major bleeding after co-prescription of diltiazem and DOACs among adults with AF.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35861836",
+            "title": "Concomitant Use of Diltiazem With Direct Oral Anticoagulants and Bleeding Risk in Atrial Fibrillation.",
+            "authors": [
+              "Xu Yunwen",
+              "Chang Alex R",
+              "Inker Lesley A",
+              "McAdams-DeMarco Mara",
+              "Grams Morgan E"
+            ],
+            "journal": "Journal of the American Heart Association",
+            "year": "2022",
+            "abstract": "Background Diltiazem, a moderate cytochrome P450 3A4 isozyme/P-glycoprotein inhibitor, may potentiate the bleeding risk of direct oral anticoagulants (DOACs) through pharmacokinetic interactions. We evaluated the association between concomitant use of diltiazem with DOACs and bleeding among patients with atrial fibrillation, across varying degrees of kidney function. Methods and Results We identified 4544 patients with atrial fibrillation who were initiated on rivaroxaban (n=1583), apixaban (n=2",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19299323",
+            "title": "Probable amlodipine-induced angioedema.",
+            "authors": [
+              "Southward Jessica",
+              "Irvine Elizabeth",
+              "Rabinovich Marina"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2009",
+            "abstract": "To report a case of angioedema likely associated with amlodipine administration in a patient with a right thalamic hemorrhagic stroke.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37791408",
+            "title": "Impact of P-glycoprotein and CYP3A4-interacting drugs on clinical outcomes in patients with atrial fibrillation using non-vitamin K antagonist oral anticoagulants: a nationwide cohort study.",
+            "authors": [
+              "Grymonprez Maxim",
+              "Carnoy Laura",
+              "Capiau Andreas",
+              "Boussery Koen",
+              "Mehuys Els"
+            ],
+            "journal": "European heart journal. Cardiovascular pharmacotherapy",
+            "year": "2023",
+            "abstract": "The clinical relevance of common pharmacokinetic interactions with non-vitamin K antagonist oral anticoagulants (NOACs) often remains unclear. Therefore, the impact of P-glycoprotein (P-gp) and CYP3A4 inhibitors and inducers on clinical outcomes in NOAC-treated patients with atrial fibrillation (AF) was investigated.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2416213",
+            "title": "Experimental chronic cerebrovascular spasm in the monkey: an assessment of the functional changes in the cerebral arteries and their protection by diltiazem.",
+            "authors": [
+              "Bevan J A",
+              "Bevan R D",
+              "Frazee J G"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1985",
+            "abstract": "The structure and function of cerebral arteries obtained from a monkey model of chronic cerebral vascular spasm 5 days after hemorrhage have been examined. Narrowing of the larger cerebral arteries demonstrated by angiography at all sites of measurement seems to be due primarily to an increased wall rigidity associated with cellular damage, the resultant inflammatory response and large, long-lasting spontaneous increases in muscle tone. Changes in agonist sensitivity were extremely variable. The",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39158905",
+            "title": "Bleeding in Patients With Atrial Fibrillation.",
+            "authors": [
+              "Samuelson Bannow Bethany T",
+              "Colwill Alyssa",
+              "Edelman Alison"
+            ],
+            "journal": "JAMA",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12198335",
+            "title": "Chronopharmacology of cardiovascular therapy.",
+            "authors": [
+              "White William B",
+              "LaRocca Gina M"
+            ],
+            "journal": "Blood pressure monitoring",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2975926",
+            "title": "[Calcium inhibitors and anesthesia].",
+            "authors": [
+              "Adnet P",
+              "Krivosic-Horber R"
+            ],
+            "journal": "Annales francaises d'anesthesie et de reanimation",
+            "year": "1988",
+            "abstract": "Calcium blockers (CB) are routinely used. This could lead to possible interference with anaesthetic drugs. CB prevent calcium from entering the cell by inhibiting the slow voltage-dependent calcium channels. They act mostly on heart and smooth muscle. Of all the possible indications, the three that are confirmed are coronary heart disease, arterial hypertension and supraventricular rhythm disturbances. Most of the work published and the cases reported concerns interactions between CB and halogen",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40326046",
+            "title": "Evaluating the Concomitant Use of Diltiazem or Verapamil With Direct Oral Anticoagulants: A Meta-analysis.",
+            "authors": [
+              "Kido Kazuhiko",
+              "Shimizu Mikiko",
+              "Shiga Tsuyoshi",
+              "Hashiguchi Masayuki"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2026",
+            "abstract": "Diltiazem and verapamil are combined p-glycoprotein and moderate CYP3A4 inhibitors which significantly increase the concentrations of direct oral anticoagulants (DOACs) and may increase the risks of bleeding. Multiple real-world studies compared the concomitant therapy of diltiazem/verapamil and DOACs versus the DOAC monotherapy groups, but their main findings were contradictory.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39158900",
+            "title": "Bleeding in Patients With Atrial Fibrillation-Reply.",
+            "authors": [
+              "Ray Wayne A",
+              "Stein C Michael",
+              "Murray Katherine T"
+            ],
+            "journal": "JAMA",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17304269",
+            "title": "[Interaction risk with statin switch].",
+            "authors": [
+              "Molden Espen",
+              "Westergren Tone"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2007",
+            "abstract": "The article is based upon two adverse drug reaction reports after switch from atorvastatin to simvastatin. Simvastatin interactions with warfarin and the cytochrome P450-3A4 inhibitor diltiazem were suspected as possible causes of the events (fatal intracranial haemorrhage with INR > 8 and myopathy). Relevant literature was examined to evaluate potential differences in atorvastatin and simvastatin interaction profiles.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4056906",
+            "title": "Effects of verapamil and diltiazem on acute stroke in cats.",
+            "authors": [
+              "Roy M W",
+              "Dempsey R J",
+              "Meyer K L",
+              "Donaldson D L",
+              "Tibbs P A"
+            ],
+            "journal": "Journal of neurosurgery",
+            "year": "1985",
+            "abstract": "To test the effect of verapamil and diltiazem in acute stroke, three groups of mongrel cats of either sex underwent occlusion of the middle cerebral artery (MCA) via a transorbital approach under ketamine anesthesia. The first group served as controls, the second received an intravenous infusion of verapamil (0.1 microgram/kg/min), and the third received an intravenous infusion of diltiazem (0.1 to 1.0 microgram/kg/min). All drug infusions began 2 hours before MCA occlusion and continued for the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9594859",
+            "title": "Intravenous diltiazem and acute renal failure after cardiac operations.",
+            "authors": [
+              "Young E W",
+              "Diab A",
+              "Kirsh M M"
+            ],
+            "journal": "The Annals of thoracic surgery",
+            "year": "1998",
+            "abstract": "Perioperative administration of intravenous diltiazem to patients undergoing cardiac procedures has been shown to decrease the incidence of ischemia and arrhythmias. However, after adopting this practice in our cardiac surgery program, we perceived an increased incidence of postoperative renal dysfunction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8204245",
+            "title": "Effect of nicardipine and diltiazem on internal carotid artery blood flow velocity and local cerebral blood flow during cerebral aneurysm surgery for subarachnoid hemorrhage.",
+            "authors": [
+              "Abe K",
+              "Iwanaga H",
+              "Inada E"
+            ],
+            "journal": "Journal of clinical anesthesia",
+            "year": "1994",
+            "abstract": "To determine the hemodynamic effects of a bolus injection of nicardipine 1 mg or diltiazem 5 mg on local cerebral blood flow (LCBF) and internal carotid blood flow velocity (ICBFV) with isoflurane anesthesia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10972367",
+            "title": "Randomised trial of effects of calcium antagonists compared with diuretics and beta-blockers on cardiovascular morbidity and mortality in hypertension: the Nordic Diltiazem (NORDIL) study.",
+            "authors": [
+              "Hansson L",
+              "Hedner T",
+              "Lund-Johansen P",
+              "Kjeldsen S E",
+              "Lindholm L H"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2000",
+            "abstract": "Calcium antagonists are a first-line treatment for hypertension. The effectiveness of diltiazem, a non-dihydropyridine calcium antagonist, in reducing cardiovascular morbidity or mortality is unclear. We compared the effects of diltiazem with that of diuretics, beta-blockers, or both on cardiovascular morbidity and mortality in hypertensive patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8213473",
+            "title": "Use of calcium channel antagonists for cardiovascular disease.",
+            "authors": [
+              "Yedinak K C"
+            ],
+            "journal": "American pharmacy",
+            "year": "1993",
+            "abstract": "Until recently, only three calcium channel antagonists--verapamil, diltiazem and nifedipine--were available for managing cardiovascular disorders such as hypertension and ischemic heart disease. In the past few years, however, several dihydropyridine calcium channel antagonists, including nicardipine, isradipine, felodipine, nimodipine, and amlodipine, have been marketed. Others are currently awaiting FDA approval. In addition, bepridil, which belongs to a new class of calcium channel antagonist",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9131913",
+            "title": "[Nicardipine-induced gingival hyperplasia].",
+            "authors": [
+              "Pascual-Castroviejo I",
+              "Pascual Pascual S I"
+            ],
+            "journal": "Neurologia (Barcelona, Spain)",
+            "year": "1997",
+            "abstract": "Drug-induced gingival hyperplasia is usually associated with the administration of hydantoin in individuals with epilepsy. The same side effect has also been reported, however, after administration of cyclosporin and some calcium channel blockers such as nifedipine, verapamil, diltiazem and nitrendipine in adults generally or in the elderly, as well as after experimental exodipin administration to rats. We report an 8.5-years-old boy who had been receiving nicardipine treatment for cerebral vasc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41152878",
+            "title": "Concomitant use of direct oral anticoagulants and interacting antiarrhythmic drugs and the risk of stroke and bleeding among patients with non-valvular atrial fibrillation: a multinational cohort study.",
+            "authors": [
+              "Meinert Fabian Maximilian",
+              "Dimakos Jenny",
+              "Cui Ying",
+              "Filion Kristian B",
+              "Renoux Christel"
+            ],
+            "journal": "BMC medicine",
+            "year": "2025",
+            "abstract": "Several antiarrhythmic drugs can interact with direct oral anticoagulants (DOACs) through pharmacokinetic mechanisms increasing DOAC levels. Our multinational cohort study assessed the effectiveness and safety of concomitant use of DOACs and interacting antiarrhythmic drugs among patients with non-valvular atrial fibrillation (NVAF).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多重間接機轉：(1) Diltiazem 用於心房顫動心率控制 → 減少心源性栓塞性腦血管事件；(2) 抑制腦血管平滑肌 L 型鈣通道 → 緩解腦血管痙攣（有 1985 年靈長類動物模型支持）；(3) CYP3A4 抑制劑特性影響 DOAC（如 rivaroxaban/apixaban）血中濃度，可能增加出血或抗凝不足風險。主要證據聚焦於 AF 相關腦血管保護，並非直接治療腦血管疾病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9718808531761168,
+        "rank": 20557
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15192444",
+            "title": "Chronic hypoxia: common traits between chronic obstructive pulmonary disease and altitude.",
+            "authors": [
+              "Raguso Comasia A",
+              "Guinot Sofia L",
+              "Janssens Jean-Paul",
+              "Kayser Bengt",
+              "Pichard Claude"
+            ],
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "year": "2004",
+            "abstract": "Loss of body mass and exercise intolerance are common findings in chronic obstructive pulmonary disease and are often difficult to reverse despite optimal nutritional intake. Similar findings have been reported in healthy individuals during high-altitude exposure. The role of hypoxia in modulating metabolism has been largely investigated in vitro and in animal studies. More fragmentary is the knowledge regarding hypoxia effects on in-vivo human metabolism. This paper reviews recent literature re",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CCB（包括 Diltiazem）在 WHO Group 1 PAH 急性血管反應陽性患者有循證支持；但 WHO Group 3 PH（肺病/缺氧所致）中，CCB 透過抑制缺氧性肺血管收縮（HPV）反射，可能惡化通氣/血流比，加重低氧血症——此為安全性反禁忌證，非治療機會。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9718808531761168,
+        "rank": 20558
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與上一適應症共享 TxGNN 分數，機轉推論雷同（CCB→肺血管舒張），但此分型（WHO Group 5）病因複雜多樣（血液/代謝/系統性疾病），目前無任何 Diltiazem 直接證據；且 CCB 的整體療效在 Group 5 缺乏指引支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.971568763256073,
+        "rank": 20681
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Diltiazem 作為 CCB 可降低全身血壓並減少腎小球囊內壓，理論上具腎臟保護潛力；且研究顯示 CCB 在蛋白尿控制方面有輔助效果。但提供資料中無任何臨床試驗或文獻直接測試 Diltiazem 用於惡性高血壓腎病，評估僅基於藥理外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.971568763256073,
+        "rank": 20682
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎血管性高血壓（腎動脈狹窄所致）的一線治療為 ACEI/ARB + 血運重建；CCB 雖可輔助降壓，但在單側腎動脈狹窄使用 ACEI 時合用 CCB 的腎功能影響尚不明確。惡性型（急性靶器官損傷）優先靜脈降壓。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "ABri amyloidosis",
+      "txgnn": {
+        "score": 0.9697848558425904,
+        "rank": 21364
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ABri 澱粉樣變性為罕見遺傳性腦澱粉樣血管病（BRI2 基因突變），TxGNN 高分可能反映知識圖譜中「腦血管病變」節點的鄰近性。部分研究顯示鈣訊號在澱粉樣蛋白聚集中有角色，但無任何直接機轉或臨床證據連結 Diltiazem 與 ABri 澱粉樣變性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9669708013534546,
+        "rank": 22237
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock 症候群（OMIM: 619980）為極罕見多發性先天異常/智力障礙症候群（WAC 基因相關），與 Diltiazem 的鈣通道阻斷機轉無已知生物學關聯；TxGNN 高分可能為知識圖譜拓撲偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "obsolete susceptibility to ischemic stroke"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "ABri amyloidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "ABri amyloidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "ABri amyloidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diltiazem",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

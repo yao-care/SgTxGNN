@@ -1,0 +1,355 @@
+## Basiliximab (DB00074) 藥物再利用證據分析
+
+**背景說明**：Basiliximab 為抗 CD25 (IL-2Rα) 嵌合型單株抗體，透過阻斷 IL-2 受體抑制 T 細胞活化與增殖，原核准用途為腎臟移植急性排斥預防。"未上市"狀態可能反映特定國家市場現況。
+
+---
+
+```json
+{
+  "drug": "Basiliximab",
+  "drugbank_id": "DB00074",
+  "known_moa": "Anti-CD25 (IL-2Rα) chimeric monoclonal antibody; competitively inhibits IL-2 binding on activated T-lymphocytes, suppressing T-cell proliferation and immune activation",
+  "analysis_date": "2026-04-10",
+  "indications": [
+    {
+      "disease_name": "plasma cell myeloma",
+      "txgnn_score": 0.956,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "多發性骨髓瘤（MM）患者常需接受自體或異體造血幹細胞移植（HSCT）。Basiliximab 作為 IL-2R 拮抗劑，可清除移植後活化 T 細胞（包括調節性 T 細胞），降低 GVHD 風險並可能增強移植物抗骨髓瘤效應（GVM effect）。機轉關聯屬間接性——針對移植相關免疫併發症而非直接抗骨髓瘤活性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01526096",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 30,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 完成試驗，直接在自體 SCT 背景下用於骨髓瘤患者進行 T 細胞清除，有安全性數據支持，但缺乏療效終點與對照組"
+        },
+        {
+          "nct_id": "NCT00975975",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 17,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 完成試驗，測試非骨髓清除異體移植後 Basiliximab 預防 GVHD，樣本小（n=17），骨髓瘤患者比例不明，關聯屬間接性"
+        },
+        {
+          "nct_id": "NCT00594308",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 10,
+          "relevance_grade": "C",
+          "reasoning": "試驗提前終止、無明確分期、樣本極小（n=10），證據價值低，僅提供安全信號參考"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12476283",
+          "year": "2002",
+          "study_type": "Case Series / Prospective",
+          "tier": "2",
+          "note": "探討 Basiliximab 治療類固醇難治性急性 GVHD，與骨髓瘤之關聯為間接（移植後併發症管理）"
+        },
+        {
+          "pmid": "31940591",
+          "year": "2020",
+          "study_type": "Prospective Cohort",
+          "tier": "2",
+          "note": "直接聚焦 MM 自體 SCT 中調節性 T 細胞清除，最具相關性文獻，支持機轉假說"
+        },
+        {
+          "pmid": "28320553",
+          "year": "2017",
+          "study_type": "Case Reports",
+          "tier": "3",
+          "note": "MM 所致腎衰竭的腎移植案例報告，關聯性極弱，僅側面反映 MM 的系統性影響"
+        }
+      ],
+      "evidence_summary": "最高等級證據為 Phase 2 完成試驗（n=17），但研究設計聚焦 GVHD 預防而非抗骨髓瘤療效。缺乏 Phase 3 RCT 或直接抗腫瘤機轉數據。",
+      "key_concerns": [
+        "現有試驗均以 GVHD 管理為主要終點，非直接抗骨髓瘤療效",
+        "樣本量偏小（最大 n=30）",
+        "免疫抑制可能抑制移植物抗骨髓瘤效應（GVM）",
+        "需釐清在 MM 治療路徑中的具體定位"
+      ]
+    },
+    {
+      "disease_name": "bronchitis",
+      "txgnn_score": 0.955,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ 疾病名稱需重新解讀：文獻與試驗一致指向「閉塞性細支氣管炎症候群（BOS / Bronchiolitis Obliterans Syndrome）」，為肺移植後慢性排斥的主要表現形式，而非一般感染性支氣管炎。Basiliximab 作為肺移植誘導性免疫抑制劑，抑制 T 細胞活化以預防急性排斥，理論上可降低後續慢性排斥（BOS）發生率。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01862965",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 38,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 完成試驗，直接測試 Basiliximab + Prednisone 治療中重度慢性 GVHD（包含肺部表現），n=38，提供中等質量療效與安全性數據"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26833657",
+          "year": "2016",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "直接比較 Alemtuzumab vs Basiliximab 誘導對患者存活及 BOS 時間的影響，高度相關"
+        },
+        {
+          "pmid": "16143251",
+          "year": "2005",
+          "study_type": "Retrospective Comparative Study",
+          "tier": "2",
+          "note": "肺移植後 Basiliximab vs ATG 誘導比較，早期奠定 Basiliximab 肺移植應用基礎"
+        },
+        {
+          "pmid": "21764603",
+          "year": "2011",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "探討 Basiliximab 給藥時機與急性排斥的關係，提供使用優化數據"
+        },
+        {
+          "pmid": "23701023",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "肺移植誘導治療系統性綜述，將 Basiliximab 定位於標準選項之一"
+        },
+        {
+          "pmid": "37474631",
+          "year": "2023",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "Ruxolitinib vs Basiliximab 用於類固醇難治性急性 GVHD，最新比較數據"
+        },
+        {
+          "pmid": "20558084",
+          "year": "2010",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "肺移植後 HLA 抗體與抗體導向治療，間接相關"
+        },
+        {
+          "pmid": "26496787",
+          "year": "2016",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "HLA 不匹配對肺移植後 BOS 的影響，間接評估免疫調控效果"
+        }
+      ],
+      "evidence_summary": "文獻量豐富（7篇），但均為回顧性研究；Phase 2 試驗聚焦慢性 GVHD 而非傳統意義的支氣管炎。關鍵疾病命名需修正為 BOS / 肺移植排斥以確保臨床解讀正確。",
+      "key_concerns": [
+        "⚠️ 疾病分類錯誤風險：'bronchitis' 映射到 BOS 需要驗證",
+        "現有證據屬肺移植情境而非一般支氣管炎",
+        "Phase 2 試驗樣本量仍偏小（n=38）",
+        "需區分急性排斥預防與慢性 BOS 預防的不同終點"
+      ]
+    },
+    {
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn_score": 0.953,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惰性漿細胞骨髓瘤（Smoldering Multiple Myeloma）為低進展性疾病，目前標準治療以觀察等待為主。Basiliximab 的 IL-2R 阻斷機轉在此情境下無直接理論支持，TxGNN 預測可能源於與 plasma cell myeloma 的知識圖譜近鄰效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。純粹基於 TxGNN 圖神經網路預測，可能為鄰近疾病節點的擴散效應（plasma cell myeloma 的子分類）。",
+      "key_concerns": [
+        "零臨床證據",
+        "惰性骨髓瘤不適用積極免疫抑制治療",
+        "可能為疾病本體論（ontology）上的過度泛化預測"
+      ]
+    },
+    {
+      "disease_name": "hemoglobinopathy",
+      "txgnn_score": 0.943,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "地中海貧血等血紅素病變患者常需異體 HSCT 作為根治性治療。Basiliximab 作為抗 IL-2R 抗體，透過抑制活化 T 細胞增殖以預防移植後急性 GVHD——這是 HSCT 後最主要的致病原因之一。IL-2 訊號通路在供者 T 細胞攻擊宿主組織的 GVHD 病理機轉中扮演核心角色。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02342145",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 205,
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 大型完成試驗（n=205），直接測試 Basiliximab 預防異體移植後急性 GVHD 的療效，樣本量充足，為本分析中最強臨床證據"
+        },
+        {
+          "nct_id": "NCT03171831",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 試驗直接針對地中海貧血重症患者（Thalassemia Major）行半相合 HSCT，疾病特異性高，但試驗狀態不明（UNKNOWN）需追蹤確認"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33608657",
+          "year": "2021",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "HSCT 後肝靜脈閉塞症（VOD/SOS）分析，為移植後併發症管理背景文獻，間接支持 Basiliximab 在 HSCT 情境的應用"
+        }
+      ],
+      "evidence_summary": "具備最強臨床證據（Phase 4，n=205 完成試驗 + 地中海貧血特異性 Phase 4 試驗），文獻直接支持 HSCT 後 GVHD 預防的機轉，符合 L2 等級，可進入臨床可行性評估階段。",
+      "key_concerns": [
+        "NCT03171831 狀態不明，需向主研究者確認",
+        "現有最強證據（NCT02342145）可能未區分不同血紅素病變亞型",
+        "需確認地中海貧血患者的特定劑量方案",
+        "長期 GVHD 預防效果與存活率數據需進一步追蹤"
+      ]
+    },
+    {
+      "disease_name": "gastric carcinoma",
+      "txgnn_score": 0.939,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 機轉矛盾風險：胃癌的免疫治療方向為增強抗腫瘤免疫（如 PD-1/PD-L1 抑制劑），而 Basiliximab 的 IL-2R 阻斷可能抑制效應 T 細胞活性，理論上與抗腫瘤免疫方向相悖。TxGNN 預測可能源於知識圖譜中 IL-2 通路節點的廣泛連結而非真實臨床關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床證據，機轉假說存在理論矛盾（免疫抑制 vs 抗腫瘤免疫需求），不建議進一步研究資源投入。",
+      "key_concerns": [
+        "零臨床證據",
+        "免疫抑制機轉與腫瘤免疫學需求相悖",
+        "可能為知識圖譜非特異性預測"
+      ]
+    },
+    {
+      "disease_name": "diffuse gastric adenocarcinoma",
+      "txgnn_score": 0.938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與胃癌（gastric carcinoma）分析相同——彌漫型胃腺癌（印戒細胞癌為主）為侵襲性腫瘤，免疫抑制治療在此情境缺乏合理機轉支持。預測可能為 gastric carcinoma 子分類的知識圖譜鄰近效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床證據，疾病特性與藥物機轉不匹配。",
+      "key_concerns": [
+        "零臨床證據",
+        "機轉矛盾",
+        "彌漫型胃癌預後極差，需優先考量直接抗腫瘤療法"
+      ]
+    },
+    {
+      "disease_name": "partial deletion of the short arm of chromosome 16",
+      "txgnn_score": 0.935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "16p 短臂缺失為染色體結構異常，可能導致多種發育障礙。與 IL-2R 訊號通路無已知直接關聯，TxGNN 預測可能源於部分 16p 缺失病例伴隨免疫缺陷的罕見報告，或純粹為圖譜統計相關性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床證據，機轉連結極度薄弱，為 TxGNN 罕見疾病節點預測的典型案例。",
+      "key_concerns": [
+        "零臨床證據",
+        "染色體結構疾病通常非免疫抑制劑的治療目標",
+        "預測極可能為知識圖譜統計假陽性"
+      ]
+    },
+    {
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn_score": 0.933,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Beta-地中海貧血為血紅素病變（hemoglobinopathy）的主要亞型，HSCT 為重症患者的潛在根治選項，Basiliximab 的 GVHD 預防機轉理論上適用（與 hemoglobinopathy 分析相同）。然而此子分類本身無獨立臨床試驗數據，需依賴 hemoglobinopathy 的傘狀證據外推。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "本適應症無直接臨床試驗數據，但具備間接機轉關聯（beta-thalassemia 為 NCT03171831 的主要研究對象之一），屬 L4 邊界，建議納入 hemoglobinopathy 傘狀分析框架。",
+      "key_concerns": [
+        "缺乏直接試驗數據",
+        "需確認現有 hemoglobinopathy 試驗的亞組分析是否包含此亞型",
+        "不同嚴重度（輕型 vs 重型）的 HSCT 適應症不同"
+      ]
+    },
+    {
+      "disease_name": "hemolytic anemia due to glucophosphate isomerase deficiency",
+      "txgnn_score": 0.929,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "葡萄糖磷酸異構酶（GPI）缺乏症為極罕見的先天性溶血性貧血（先天性紅血球酵素缺乏症之一），主要為代謝性疾病而非免疫介導。少數重症患者可能考慮 HSCT，但 Basiliximab 在此情境的應用缺乏任何文獻支持。TxGNN 預測可能源於溶血性貧血與血紅素病變的本體論鄰近關係。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床證據，此罕見酵素缺乏症的病患群體極小，且免疫抑制機轉無直接適用性。不建議列為優先研究方向。",
+      "key_concerns": [
+        "極罕見疾病，臨床研究可行性低",
+        "零臨床證據",
+        "機轉關聯薄弱"
+      ]
+    },
+    {
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn_score": 0.929,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Jeune 症候群（窒息性胸廓發育不全，ATD）為纖毛病（ciliopathy）相關骨骼發育異常，合併內臟轉位（situs inversus）屬罕見亞型。此遺傳性結構性疾病與 IL-2R 訊號通路無已知關聯，Basiliximab 的免疫抑制機轉在此疾病框架下缺乏合理的作用靶點。預測極可能為知識圖譜的統計假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床證據，疾病機轉與藥物作用完全不匹配，建議忽略此預測。",
+      "key_concerns": [
+        "零臨床證據",
+        "先天性結構/遺傳疾病非免疫調節藥物的合適目標",
+        "高度懷疑為知識圖譜假陽性預測"
+      ]
+    }
+  ],
+  "overall_analysis": {
+    "highest_priority_indications": [
+      {
+        "rank": 1,
+        "disease": "hemoglobinopathy",
+        "reason": "L2 證據（Phase 4, n=205 完成），機轉清晰，進入 S2 臨床可行性階段"
+      },
+      {
+        "rank": 2,
+        "disease": "plasma cell myeloma",
+        "reason": "L3 證據（Phase 1+2），機轉合理（移植後 GVHD 管理），S1 安全性初評"
+      },
+      {
+        "rank": 3,
+        "disease": "bronchitis (BOS)",
+        "reason": "L3 證據但文獻量豐富（7篇），需修正疾病分類名稱，S1 安全性初評"
+      }
+    ],
+    "data_quality_flags": [
+      "⚠️ MOA 標記為 [Data Gap]，但 Basiliximab 機轉已知（Anti-CD25），建議更新資料庫",
+      "⚠️ 'bronchitis' 疾病映射可能不精確，應確認是否為 BOS/Bronchiolitis Obliterans",
+      "⚠️ NCT03171831 狀態為 UNKNOWN，需外部核實",
+      "⚠️ 胃癌相關預測（gastric carcinoma, diffuse gastric adenocarcinoma）存在機轉矛盾，建議審查 TxGNN 圖譜邏輯"
+    ],
+    "singapore_market_note": "Basiliximab 在新加坡標記為未上市，若推動臨床應用需考量進口/特殊許可程序（HSA Special Access Route）"
+  }
+}
+```
+
+---
+
+## 📊 證據等級摘要表
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|---------|---------|------|
+| hemoglobinopathy | 0.943 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| plasma cell myeloma | 0.956 | L3 | S1 | 🔬 Research Question |
+| bronchitis (BOS) | 0.955 | L3 | S1 | 🔬 Research Question |
+| beta-thalassemia | 0.933 | L4 | S0 | 🔬 Research Question（傘狀外推） |
+| indolent plasma cell myeloma | 0.953 | L5 | S0 | ⛔ Hold |
+| gastric carcinoma | 0.939 | L5 | S0 | ⛔ Hold（機轉矛盾） |
+| diffuse gastric adenocarcinoma | 0.938 | L5 | S0 | ⛔ Hold（機轉矛盾） |
+| chr16p deletion | 0.935 | L5 | S0 | ⛔ Hold |
+| GPI deficiency hemolytic anemia | 0.929 | L5 | S0 | ⛔ Hold |
+| Jeune syndrome situs inversus | 0.929 | L5 | S0 | ⛔ Hold |
+
+> **⚕️ 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過完整臨床驗證程序才能應用於患者。

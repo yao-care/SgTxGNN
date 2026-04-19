@@ -1,0 +1,873 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06415-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Calfactant",
+    "drugbank_id": "DB06415",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "adult acute respiratory distress syndrome",
+      "txgnn": {
+        "score": 0.9577705264091492,
+        "rank": 24786
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00682500",
+            "title": "Calfactant Therapy for Direct Acute Respiratory Distress Syndrome & Direct Acute Lung Injury in Adults and Children",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 332,
+            "start_date": "2008-05",
+            "completion_date": "2011-02",
+            "brief_summary": "This study will determine if administration of an suspension of calfactant, a lung surfactant, intratracheally in patients with Direct Acute Respiratory Distress Syndrome within 48 hours of requiring mechanical ventilation can decrease the mortality in patients with lethal disease and shorten the course of respiratory failure in patients with sub-lethal disease.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接針對成人 Direct ARDS / Direct ALI 的 Phase 3 RCT，計畫樣本數達 332，但提前終止（TERMINATED）。PMID 25855884（2015）為本試驗結果報告，顯示 Calfactant 未能改善成人 ARDS 主要終點，是支持 Hold 建議的最強直接證據。終止原因（futility/DSMB 決策）強化不進一步開發的判斷。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25855884",
+            "title": "The Adult Calfactant in Acute Respiratory Distress Syndrome Trial.",
+            "authors": [
+              "Willson Douglas F",
+              "Truwit Jonathon D",
+              "Conaway Mark R",
+              "Traul Christine S",
+              "Egan Edmund E"
+            ],
+            "journal": "Chest",
+            "year": "2015",
+            "abstract": "Surfactant has been shown to be dysfunctional in ARDS, and exogenous surfactant has proven effective in many forms of neonatal and pediatric acute lung injury (ALI). In view of the positive results of our studies in children along with evidence that surfactant-associated protein B containing pharmaceutical surfactants might be more effective, we designed a multiinstitutional, randomized, controlled, and masked trial of calfactant, a calf lung surfactant, in adults and children with ALI/ARDS due ",
+            "classification": {
+              "study_type": "RCT Primary Report",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21048239",
+            "title": "Acute respiratory distress syndrome.",
+            "authors": [
+              "Prabhakaran Priya"
+            ],
+            "journal": "Indian pediatrics",
+            "year": "2010",
+            "abstract": "Acute respiratory distress syndrome (ARDS) is a common diagnosis among children admitted to pediatric intensive care units. This heterogeneous disorder has numerous pulmonary and non-pulmonary causes and is associated with a significant risk of mortality. Many supportive therapies exist for ARDS. SEARCH: Literature search was performed by using the key words ARDS and related topics on the Pubmed search engine maintained by the National Heart, Lung, Blood Institute. Pediatric randomized controlle",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23925143",
+            "title": "The relationship of fluid administration to outcome in the pediatric calfactant in acute respiratory distress syndrome trial.",
+            "authors": [
+              "Willson Douglas F",
+              "Thomas Neal J",
+              "Tamburro Robert",
+              "Truemper Edward",
+              "Truwit Jonathon"
+            ],
+            "journal": "Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies",
+            "year": "2013",
+            "abstract": "Adult studies have demonstrated the relationship between fluid overload and poor outcomes in acute lung injury/acute respiratory distress syndrome. The approach of pediatric intensivists to fluid management in acute lung injury/acute respiratory distress syndrome and its effect on outcomes is less clear. In a post hoc analysis of our Calfactant in Acute Respiratory Distress Syndrome trial, we examined the relationship of fluid balance to in-hospital outcomes in subjects with acute lung injury/ac",
+            "classification": {
+              "study_type": "Retrospective Cohort Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15671432",
+            "title": "Effect of exogenous surfactant (calfactant) in pediatric acute lung injury: a randomized controlled trial.",
+            "authors": [
+              "Willson Douglas F",
+              "Thomas Neal J",
+              "Markovitz Barry P",
+              "Bauman Loren A",
+              "DiCarlo Joseph V"
+            ],
+            "journal": "JAMA",
+            "year": "2005",
+            "abstract": "Despite evidence that patients with acute lung injury (ALI) have pulmonary surfactant dysfunction, trials of several surfactant preparations to treat adults with ALI have not been successful. Preliminary studies in children with ALI have shown that instillation of a natural lung surfactant (calfactant) containing high levels of surfactant-specific protein B may be beneficial.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17198050",
+            "title": "Insights in pediatric ventilation: timing of intubation, ventilatory strategies, and weaning.",
+            "authors": [
+              "Turner David A",
+              "Arnold John H"
+            ],
+            "journal": "Current opinion in critical care",
+            "year": "2007",
+            "abstract": "Mechanical ventilation is a common intervention provided by pediatric intensivists. This fact notwithstanding, the management of mechanical ventilation in pediatrics is largely guided by a few pediatric trials along with careful interpretation and application of adult data.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33493441",
+            "title": "Surfactant for the Treatment of ARDS in a Patient With COVID-19.",
+            "authors": [
+              "Heching Moshe",
+              "Lev Shaul",
+              "Shitenberg Dorit",
+              "Dicker Dror",
+              "Kramer Mordechai R"
+            ],
+            "journal": "Chest",
+            "year": "2021",
+            "abstract": "Patients with COVID-19 report severe respiratory symptoms consistent with ARDS. The clinical presentation of ARDS in COVID-19 is often atypical, as patients with COVID-19 exhibit a disproportionate hypoxemia compared with relatively preserved lung mechanics. This pattern is more similar to neonatal respiratory distress syndrome secondary to surfactant deficiency, which has been shown to benefit from exogenous surfactant. We present our experience with exogenous surfactant treatment in a patient ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20335386",
+            "title": "Surfactant composition and biophysical properties are important in clinical studies.",
+            "authors": [
+              "Willson Douglas F",
+              "Thomas Neal J"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "2010",
+            "abstract": "",
+            "classification": {
+              "study_type": "Basic Science / Methodology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S2",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ARDS 病理核心之一為肺泡表面活性物質功能障礙（血漿蛋白滲漏抑制內源性 Surfactant）；Calfactant 補充磷脂與 SP-B/SP-C 理論上可降低肺泡表面張力、改善氣體交換，機轉延伸自新生兒 RDS 成功經驗。然而成人 ARDS 炎症程度與蛋白滲漏量遠高於新生兒，外源性補充往往被快速滅活，Phase 3 RCT（NCT00682500）結果支持此局限性。兒科 ARDS 有 RCT 正效益，惟成人無法直接外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "neurolymphomatosis",
+      "txgnn": {
+        "score": 0.8077956438064575,
+        "rank": 41458
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經淋巴瘤病為淋巴瘤細胞沿周邊神經或顱神經浸潤所致；其病理涉及腫瘤細胞侵犯神經外膜/束膜，與肺泡界面物理化學調節（Calfactant 核心機轉）完全無關。TxGNN 預測分數 0.808 可能來自知識圖譜中「肺部病理—免疫—神經」間接路徑，缺乏生物學合理性。無任何臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary edema",
+      "txgnn": {
+        "score": 0.7617449164390564,
+        "rank": 43384
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00599651",
+            "title": "Randomized Controlled Trial of Surfactant Administration by Laryngeal Mask Airway (LMA)",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 380,
+            "start_date": "2005-06",
+            "completion_date": "2009-12",
+            "brief_summary": "In this protocol we will conduct a randomized controlled trial where babies with respiratory distress syndrome (RDS) who have not yet reached criteria for intubation, will be randomized to receive surfactant by LMA or to continue receiving standard therapy of nasal CPAP and supplemental oxygen. All babies will be given surfactant by endotracheal tube if they reach \"failure\" criteria, which is the standard criterion for surfactant administration (i.e., FiO2= 65% while receiving nasal CPAP).\n\nThe ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗主題為「LMA 途徑給予表面活性劑」之方法學可行性（Phase NA），並非直接以肺水腫為主要適應症的療效試驗。樣本數 380 但已終止，終止原因不明。與肺水腫的相關性為間接推論，不能作為 Calfactant 治療肺水腫的療效依據，僅提供給藥路徑參考。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺水腫（尤其通透性增加型）中血漿蛋白大量滲入肺泡腔，可競爭性抑制內源性表面活性劑；外源性補充 Calfactant 理論上可部分恢復肺泡穩定性，機轉延伸自 ARDS 研究。靜水壓型肺水腫（心因性）機轉不同，Calfactant 相關性更低。NCT00599651 聚焦於 LMA 給藥途徑可行性（Phase NA），為方法學試驗而非療效試驗，且已終止；直接療效證據缺如，需界定明確肺水腫亞型後設計研究問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "plasmacytoma",
+      "txgnn": {
+        "score": 0.7371609210968018,
+        "rank": 44192
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "漿細胞瘤為單克隆漿細胞局部增生的血液腫瘤，病理核心為免疫球蛋白重/輕鏈異常生成及腫瘤微環境交互作用，與肺泡表面活性劑的磷脂-蛋白組成物質完全無機轉交集。TxGNN 預測 0.737 高度疑似圖譜噪音路徑（如骨髓瘤—炎症—肺部共病節點），無臨床意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "adult-onset myasthenia gravis",
+      "txgnn": {
+        "score": 0.7354968786239624,
+        "rank": 44221
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "成人型重症肌無力為 AChR（或 MuSK/LRP4）自體抗體介導的神經肌肉接合處傳遞障礙；治療策略為免疫抑制與乙醯膽鹼酯酶抑制，與磷脂/SP-B/SP-C 表面活性劑無任何已知交集。部分 MG 患者出現呼吸衰竭為繼發性表現，可能是 TxGNN 圖譜連結來源，但非機轉性關聯。TxGNN 預測 0.735。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "autoimmune disease of peripheral nervous system",
+      "txgnn": {
+        "score": 0.7117272615432739,
+        "rank": 44977
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "周邊神經系統自體免疫疾病（GBS、CIDP 等）以自體抗體或 T 細胞介導的髓鞘/軸突損傷為核心。雖 SP-A、SP-D 具肺部免疫調節功能，但 Calfactant 主要含 SP-B、SP-C（界面活性蛋白，非免疫調節蛋白），對 PNS 自體免疫無合理干預機轉。TxGNN 預測 0.712，缺乏臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "atypical hemolytic-uremic syndrome with B factor anomaly",
+      "txgnn": {
+        "score": 0.7075761556625366,
+        "rank": 45121
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非典型 HUS（B 因子異常）為補體旁路途徑失調（CFB 功能性突變）所致的血栓性微血管病，靶向治療為補體抑制劑（eculizumab）。與 Calfactant 的磷脂/肺泡蛋白組成完全無機轉交集。TxGNN 預測 0.708 極可能為高度假陽性，建議不予追蹤。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "neonatal myasthenia gravis",
+      "txgnn": {
+        "score": 0.7070656418800354,
+        "rank": 45136
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "新生兒 MG 為母體 AChR 抗體經胎盤轉移所致的一過性 NMJ 傳遞障礙，自然緩解（數週後母源抗體消耗）。注意：Calfactant 雖應用於新生兒（RDS），但適應症機轉（表面張力調節）與新生兒 MG 病理（神經肌肉免疫）完全不同。TxGNN 預測 0.707 可能因「新生兒」共享節點產生，屬圖譜假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "disease of receptor activity",
+      "txgnn": {
+        "score": 0.7046259045600891,
+        "rank": 45222
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「受體活性疾病」為過於廣泛的 OMIM 概念分類（涵蓋數百種疾病），無特定可操作的臨床定義。TxGNN 預測 0.705 可能反映 Calfactant 透過脂質受體（如 SP 受體、TLR 相關）發揮作用的圖譜節點連結，但此廣義分類無臨床再利用意義，建議不予評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myasthenia gravis with thymus hyperplasia",
+      "txgnn": {
+        "score": 0.6926144957542419,
+        "rank": 45562
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胸腺增生型 MG 的特殊病理包含胸腺異位生殖中心、AChR 特異性 T 細胞異常活化，標準治療為胸腺切除術加免疫抑制。與 Calfactant 表面活性劑機轉無任何已知生物學交集。TxGNN 預測 0.693 為所有預測中最低分，假陽性可能性最高。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult acute respiratory distress syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult acute respiratory distress syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult acute respiratory distress syndrome"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neurolymphomatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neurolymphomatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neurolymphomatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "pulmonary edema"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "pulmonary edema"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "pulmonary edema"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "plasmacytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "plasmacytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "plasmacytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult-onset myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult-onset myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "adult-onset myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "autoimmune disease of peripheral nervous system"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "atypical hemolytic-uremic syndrome with B factor anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "neonatal myasthenia gravis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "disease of receptor activity"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "disease of receptor activity"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "disease of receptor activity"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calfactant",
+        "disease": "myasthenia gravis with thymus hyperplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

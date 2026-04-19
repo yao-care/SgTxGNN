@@ -1,0 +1,272 @@
+以下是針對 **Deferasirox (DB01609)** 的完整證據評估分析：
+
+---
+
+> ⚠️ **重要前提說明**：Deferasirox 全球已獲 FDA/EMA 核准用於輸血性慢性鐵過載（β-地中海貧血等），但本資料集顯示 `original_indications: []` 及 `market_status: 未上市`，提示本地資料收集存在缺口，分析時須同步考量全球證據脈絡。
+
+---
+
+```json
+{
+  "drug": "Deferasirox",
+  "drugbank_id": "DB01609",
+  "known_moa": "三齒配位鐵螯合劑（tridentate ligand），選擇性結合 Fe³⁺，促進腎/糞便排鐵；抑制 NF-κB、鐵調素-鐵蛋白軸",
+  "data_quality_alert": "original_indications 欄位為空、market_status 為未上市，疑為本地資料缺口；deferasirox 全球已核准鐵過載適應症，評分時已納入全球證據補正",
+  "indications": [
+    {
+      "disease_name": "HIV infectious disease",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鐵離子參與 HIV-1 Tat 蛋白的 LTR 轉活化（transactivation）；內溶酶體鐵螯合可促進 Tat 寡聚化（oligomerization），抑制 LTR 驅動的病毒基因轉錄。Deferasirox 降低胞內 Fe³⁺ 濃度，可能具有輔助抗病毒效果。機轉具生物學合理性，但僅限體外（in vitro）證據，缺乏臨床資料。",
+      "key_gaps": [
+        "無任何人類臨床試驗",
+        "現有研究為細胞株模型，未確認體內（in vivo）效應",
+        "PMID 16529348 屬藥物新聞彙整，非 HIV 特定研究"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34550543",
+          "year": 2021,
+          "study_type": "Mechanistic / In vitro",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "直接探討內溶酶體鐵對 HIV-1 Tat 轉活化的影響，與deferasirox鐵螯合機轉具明確對應，為本適應症最具直接性的機轉依據；但為細胞實驗，不具臨床效力證據"
+        },
+        {
+          "pmid": "16529348",
+          "year": 2006,
+          "study_type": "Drug Review / Commentary",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "屬上市新藥彙整介紹（含ramelteon, tipranavir, nepafenac, deferasirox），未涉及HIV適應症；僅提供藥物背景，無再利用價值"
+        }
+      ]
+    },
+    {
+      "disease_name": "chronic hepatitis C virus infection",
+      "txgnn_score": 0.9939,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肝臟鐵過載可促進 HCV 複製、加速纖維化並減低干擾素治療反應。β-地中海貧血合併 HCV 感染的患者族群中，deferasirox 作為鐵螯合背景療法被同步使用，部分文獻顯示降低肝臟鐵積累可改善直接抗病毒藥（DAA）治療環境。然屬間接臨床證據，deferasirox 非作為抗 HCV 藥物使用。",
+      "key_gaps": [
+        "無 HCV 特定臨床試驗",
+        "現有文獻均以地中海貧血-HCV 共病族群為背景，deferasirox 作為輔助鐵管理，非主要治療藥物",
+        "缺乏鐵螯合改善 HCV 病毒學終點的直接 RCT 證據"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28378040",
+          "year": 2017,
+          "study_type": "Cohort / Observational",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "報告β-地中海貧血合併慢性HCV患者接受DAA（sofosbuvir/ribavirin）治療；deferasirox為背景鐵螯合療法。間接顯示鐵管理在HCV治療環境中的角色，有臨床背景支撐但deferasirox非介入主體"
+        },
+        {
+          "pmid": "18647144",
+          "year": 2008,
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "系統性回顧鐵過載與HCV的交互作用，從地中海貧血視角探討鐵螯合的可能臨床意義；提供機轉背景及合理性基礎，但無deferasirox特定臨床數據"
+        },
+        {
+          "pmid": "22515110",
+          "year": 2012,
+          "study_type": "Laboratory / Cross-sectional",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "以鐵蛋白/血鐵黃素方法學為主題，探討鐵儲量測量；與deferasirox再利用無直接關聯，僅作為鐵代謝研究背景參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn_score": 0.9923,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "推測性：鐵代謝失調與部分遺傳性神經髓鞘化疾病有關聯，但此罕見神經發育障礙（可能為NUBPL或LYRM4相關）與deferasirox鐵螯合無任何已發表關聯。知識圖譜預測可能基於鐵-神經毒性一般路徑，但缺乏特異性證據。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "罕見遺傳病，致病機轉可能非鐵積累所致"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "推測性：鐵過載可誘發氧化壓力，間接影響脂蛋白代謝（LDL氧化修飾路徑），但deferasirox與高脂血症無已知直接關聯。此疾病本體論標籤為「obsolete（已廢棄）」，病種定義可信度低，進一步評估優先序應降低。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "疾病本體已標記為 obsolete，分類效度存疑"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "推測性：DFSP 以 COL1A1-PDGFB 基因融合為特徵，對 imatinib 具標靶治療反應。腫瘤鐵代謝（鐵死亡/ferroptosis 路徑）理論上可能與鐵螯合相關，但deferasirox無任何DFSP臨床或前臨床證據。TxGNN預測可能源於知識圖譜中鐵-腫瘤增殖一般連結，特異性不足。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "DFSP 驅動機轉（PDGFR路徑）與鐵代謝無已知直接關聯"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "SIV 與 HIV 同屬靈長類慢病毒，鐵-Tat 機轉原則上可類推（參見 HIV 適應症分析）。然此預測可能源於知識圖譜中 SIV-HIV 節點近距離，而非獨立臨床證據。物種差異限制直接轉譯價值，且無任何動物實驗證據。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "非人靈長類模型，轉譯路徑未建立"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FIV（貓免疫缺乏病毒）與 HIV 同屬逆轉錄病毒科，知識圖譜可能以病毒家族相似性進行節點連結。deferasirox 為人用藥物，貓用藥物動力學、毒性資料完全缺乏，無再利用評估基礎。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "跨物種應用無依據",
+        "動物傳染病非藥物再利用研究優先對象"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "【⚠️ 資料缺口警示】此適應症顯示零臨床試驗、零文獻，為嚴重資料收集缺口。Deferasirox 全球已獲 FDA（2005）、EMA（2006）核准用於輸血依賴性 β-地中海貧血之慢性鐵過載治療。Phase 3 關鍵試驗 ESCALATOR（n=586）及多項 CICL670A 系列試驗提供 L1 級證據。機轉：反覆輸血 → 繼發性鐵過載（hemosiderosis）→ 心肝損傷；deferasirox 口服鐵螯合可降低血清鐵蛋白及肝臟鐵濃度（LIC）。",
+      "data_quality_note": "本地資料庫未收錄此已知核准適應症，建議優先補齊資料收集管道（ClinicalTrials.gov、PubMed MEDLINE 完整索引），以確保預測系統基線校準正確。",
+      "key_gaps": [
+        "本地資料未捕獲全球核准現況（資料管道問題，非證據缺失）",
+        "本地（新加坡）核准狀態需另行確認"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "ESCALATOR/CICL670A2208",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，直接支持deferasirox於β-地中海貧血鐵過載的核准適應症；非本資料集提供，為外部補正資訊"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pyropoikilocytosis, hereditary",
+      "txgnn_score": 0.9855,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性熱變形紅血球增多症（HPP）為 α-血影蛋白突變導致的重度溶血性貧血，慢性溶血可引發繼發性鐵過載。原則上鐵螯合治療有機轉合理性（類同其他溶血性貧血），但此極罕見疾病缺乏任何deferasirox相關研究，無法支持進一步評估。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "極罕見疾病（發生率 < 1/100,000），臨床研究可行性極低"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pyruvate kinase deficiency of red cells",
+      "txgnn_score": 0.9850,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "丙酮酸激酶缺乏症（PKD）導致慢性溶血性貧血，輸血依賴患者及非輸血依賴患者均可發生無效造血性鐵過載（ineffective erythropoiesis-driven iron loading）。機轉上deferasirox鐵螯合具合理性，部分指引已提及PKD中的鐵管理議題（如 Mitapivat 試驗背景療法）。然本資料集無任何deferasirox-PKD臨床試驗或文獻，現階段僅為推測。",
+      "key_gaps": [
+        "零臨床試驗",
+        "零文獻",
+        "PKD 中鐵螯合療法為新興議題，尚無deferasirox特定RCT"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 2,
+    "L5_count": 7,
+    "S3_proceed": ["beta-thalassemia with other manifestations"],
+    "S1_research": ["HIV infectious disease", "chronic hepatitis C virus infection"],
+    "S0_hold": [
+      "neurodevelopmental disorder with ataxic gait",
+      "obsolete familial combined hyperlipidemia",
+      "dermatofibrosarcoma protuberans",
+      "simian immunodeficiency virus infection",
+      "feline acquired immunodeficiency syndrome",
+      "pyropoikilocytosis hereditary",
+      "pyruvate kinase deficiency of red cells"
+    ]
+  },
+  "system_recommendations": [
+    {
+      "priority": "CRITICAL",
+      "action": "修正資料缺口：beta-thalassemia 為 deferasirox 核准適應症，原始資料庫顯示零證據，需排查臨床試驗及文獻收集管道是否存在過濾邏輯錯誤"
+    },
+    {
+      "priority": "HIGH",
+      "action": "HIV infectious disease（S1）：可設計鐵螯合+ART 聯合療法的初步安全性研究問題；機轉假說（內溶酶體鐵-Tat 軸）值得 in vivo 驗證"
+    },
+    {
+      "priority": "MEDIUM",
+      "action": "chronic HCV（S1）：可在鐵過載合併HCV族群中設計deferasirox輔助療法的回顧性世代研究，探索鐵螯合對SVR率的影響"
+    },
+    {
+      "priority": "LOW",
+      "action": "PKD 及 HPP：待 mitapivat 等新療法臨床試驗結果揭露後，重新評估鐵螯合需求，再決定是否升級研究優先序"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 疾病 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|----------|----------|------|
+| **β-地中海貧血（其他表現型）** | 0.9859 | **L1** ⚠️資料缺口 | **S3** | ✅ Proceed |
+| HIV infectious disease | 0.9940 | L4 | S1 | 🔬 Research Question |
+| 慢性 C 型肝炎 | 0.9939 | L4 | S1 | 🔬 Research Question |
+| 遺傳性神經發育障礙 | 0.9923 | L5 | S0 | ⛔ Hold |
+| Obsolete 家族性高脂血症 | 0.9920 | L5 | S0 | ⛔ Hold |
+| 隆突性皮膚纖維肉瘤 | 0.9911 | L5 | S0 | ⛔ Hold |
+| SIV 感染 | 0.9896 | L5 | S0 | ⛔ Hold |
+| 貓 AIDS | 0.9896 | L5 | S0 | ⛔ Hold |
+| 遺傳性熱變形紅血球增多症 | 0.9855 | L5 | S0 | ⛔ Hold |
+| 丙酮酸激酶缺乏症 | 0.9850 | L5 | S0 | ⛔ Hold |
+
+> **核心發現**：高 TxGNN 分數（>0.99）不等同於高臨床證據等級——本案例中排名第 8 的 β-地中海貧血實為 L1 核准適應症，反映知識圖譜預測分數與真實證據強度之間的非線性關係，資料完整性驗證為優先工作。

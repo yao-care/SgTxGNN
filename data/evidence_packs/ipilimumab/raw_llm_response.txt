@@ -1,0 +1,503 @@
+# Ipilimumab (DB06186) 藥物再利用證據分析
+
+## 背景說明
+
+**重要前提**：Ipilimumab（Yervoy®）全球已知 MOA 為 **anti-CTLA-4 單株抗體**（增強 T 細胞活化、抗腫瘤免疫），FDA 已核准用於切除性/轉移性黑色素瘤（2011）。資料欄位 `[Data Gap]` 及 `未上市` 反映**當地市場**未收錄，並非全球科學空白。此背景對所有適應症機轉評估至關重要。
+
+---
+
+```json
+{
+  "drug": "Ipilimumab",
+  "drugbank_id": "DB06186",
+  "known_global_moa": "Anti-CTLA-4 monoclonal antibody — blocks CTLA-4 on T cells, enhancing T-cell activation and antitumor immunity",
+  "analysis_date": "2026-04-04",
+  "data_note": "market_status=未上市 reflects local registry gap; Ipilimumab is FDA/EMA-approved globally for melanoma",
+  "indications": [
+    {
+      "disease_name": "choroideremia",
+      "txgnn_score": 0.9906,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無可信機轉連結。Choroideremia 為 X-linked 隱性遺傳性視網膜退化症（CHM 基因突變導致 REP-1 蛋白缺失），病因為光感受器細胞凋亡，非免疫介導腫瘤。Anti-CTLA-4 檢查點抑制劑缺乏作用靶點。高 TxGNN score（0.9906）極可能為模型假陽性（非腫瘤適應症誤判）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 模型假陽性風險極高，建議排除此適應症"
+    },
+    {
+      "disease_name": "non-cutaneous melanoma",
+      "txgnn_score": 0.9902,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Anti-CTLA-4 阻斷 CTLA-4/B7 交互作用，解除 T 細胞抑制，適用所有具免疫原性之黑色素瘤亞型（含葡萄膜、黏膜、結膜黑色素瘤）。非皮膚黑色素瘤腫瘤突變負擔（TMB）較低，理論上免疫反應稍弱，但臨床數據仍支持使用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02278887",
+          "title": "Phase III — Non-myeloablative TIL Adoptive Transfer (includes ipilimumab in combination arm)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 168,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 完成試驗，ipilimumab 作為 TIL 聯合療法組成，melanoma 廣泛人群含非皮膚亞型，最高等級直接試驗證據"
+        },
+        {
+          "nct_id": "NCT00972933",
+          "title": "Neoadjuvant Anti-CTLA4 Blockade (Ipilimumab) — AJCC Stage IIIB-C Melanoma",
+          "phase": "EARLY_PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 59,
+          "relevance_grade": "B",
+          "reasoning": "直接評估 ipilimumab 新輔助療效，Stage IIIB-C 黑色素瘤含多種組織學亞型，早期完成試驗"
+        },
+        {
+          "nct_id": "NCT03235245",
+          "title": "Targeted Therapy → Immunotherapy Sequential Strategy (Nivolumab + Ipilimumab arm)",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 271,
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 2 試驗（n=271），ipilimumab+nivolumab 聯合方案，仍在進行中"
+        },
+        {
+          "nct_id": "NCT02115139",
+          "title": "Phase 2 — Radiation Therapy + Ipilimumab in Melanoma",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 58,
+          "relevance_grade": "B",
+          "reasoning": "完成的 Phase 2 放療+免疫聯合試驗，涵蓋轉移性黑色素瘤（含非皮膚亞型）"
+        },
+        {
+          "nct_id": "NCT02107755",
+          "title": "Phase 2 — SABR + Ipilimumab in Oligometastatic Melanoma",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 8,
+          "relevance_grade": "C",
+          "reasoning": "樣本數小（n=8），立體定位放射+ipilimumab，結果解釋力受限"
+        },
+        {
+          "nct_id": "NCT05200143",
+          "title": "Phase II — Triplet: Ipilimumab + Nivolumab + additional agent",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 4,
+          "relevance_grade": "C",
+          "reasoning": "提前終止（n=4），證據貢獻極低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24999899",
+          "title": "Ipilimumab in pretreated patients with unresectable or metastatic cutaneous, uveal and mucosal melanoma",
+          "year": "2014",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "note": "**直接相關** — 明確涵蓋葡萄膜及黏膜黑色素瘤，提供 ipilimumab 對非皮膚亞型的療效與安全性數據"
+        },
+        {
+          "pmid": "37887546",
+          "title": "Effectiveness of ICI with Anti-PD-1 Monotherapy or Combination with Ipilimumab in Advanced Melanoma",
+          "year": "2023",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "note": "比較抗 PD-1 單藥 vs. ipilimumab 聯合，現實世界療效數據"
+        },
+        {
+          "pmid": "29466692",
+          "title": "Anti-PD-1 monoclonal antibodies in treating advanced melanoma — clinical review",
+          "year": "2018",
+          "study_type": "Clinical Review",
+          "tier": 2,
+          "note": "涵蓋免疫檢查點抑制劑在進展期黑色素瘤的比較綜述"
+        },
+        {
+          "pmid": "28183255",
+          "title": "Melanoma Adjuvant Treatment: Current Insight and Clinical Features",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "輔助治療綜述，含 ipilimumab 佐劑角色討論"
+        },
+        {
+          "pmid": "40236344",
+          "title": "Case Report of Metastatic Melanoma in the Transverse Colon",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "非皮膚轉移個案，代表性有限"
+        }
+      ]
+    },
+    {
+      "disease_name": "epithelioid cell melanoma",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Epithelioid cell melanoma 為黑色素瘤組織學亞型（細胞呈大型上皮樣形態），通常具有高免疫原性。Anti-CTLA-4 機轉與所有黑色素瘤亞型一致，組織學特徵不影響 CTLA-4 pathway 的存在，但特定亞型療效資料尚屬稀少。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02834013",
+          "title": "DART: Dual Anti-CTLA-4 and Anti-PD-1 Blockade in Rare Tumors",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 818,
+          "relevance_grade": "B",
+          "reasoning": "大型罕見腫瘤 Phase 2 籃式試驗（n=818），ipilimumab+nivolumab 雙重檢查點阻斷，涵蓋罕見黑色素瘤亞型，仍在執行中，是目前最直接可用的試驗框架"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40697187",
+          "title": "Synchronous Presentation of Nodular Melanoma and Epithelioid Cell Melanoma: Case Report",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "描述性病例，聚焦診斷，治療資訊有限"
+        },
+        {
+          "pmid": "30454709",
+          "title": "Immunotherapy with ipilimumab plus nivolumab in a stage IV melanoma patient during pregnancy",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "特殊臨床情境下的 ipilimumab 使用紀錄，安全性視角"
+        },
+        {
+          "pmid": "25610749",
+          "title": "Late development of splenic sarcoidosis-like lesions in ipilimumab-treated melanoma",
+          "year": "2014",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "irAE 相關案例，提供免疫相關副作用資訊"
+        },
+        {
+          "pmid": "26877232",
+          "title": "Extensive tumoral melanosis associated with ipilimumab-treated melanoma",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "Ipilimumab 治療後腫瘤反應相關形態學變化"
+        }
+      ]
+    },
+    {
+      "disease_name": "eyelid melanoma",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "眼瞼黑色素瘤屬眼附屬器（adnexal）黑色素瘤，具有與皮膚黑色素瘤相似的免疫微環境。Anti-CTLA-4 可活化腫瘤浸潤淋巴球（TIL），但眼部腫瘤的免疫豁免特性（immune privilege）可能影響療效，需個別評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36801380",
+          "title": "Ipilimumab and Nivolumab for Treatment of Eyelid Spindle Cell Melanoma",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "**最直接相關** — 明確描述 ipilimumab+nivolumab 用於眼瞼黑色素瘤的具體案例及療效"
+        },
+        {
+          "pmid": "39240220",
+          "title": "Primary Treatment of Eyelid Conjunctival Melanoma with Immunotherapy: A Case Report",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "眼瞼結膜黑色素瘤免疫治療一線使用案例，直接相關"
+        },
+        {
+          "pmid": "30909967",
+          "title": "Checkpoint inhibition immunotherapy for advanced local and systemic conjunctival melanoma",
+          "year": "2019",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "結膜黑色素瘤（鄰近亞型）案例系列，比單一報告提供更多資訊"
+        },
+        {
+          "pmid": "39987464",
+          "title": "Rare Lacrimal Gland Melanoma: A Case Report and Treatment Insights",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "眼附屬器相關罕見黑色素瘤，機轉類推"
+        }
+      ]
+    },
+    {
+      "disease_name": "scrotum melanoma",
+      "txgnn_score": 0.9884,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "陰囊黑色素瘤屬非陽光暴露部位（non-sun-exposed）黑色素瘤，TMB 可能較低，但仍保留 PD-L1/CTLA-4 免疫調節路徑。Anti-CTLA-4 理論機轉適用，但缺乏特異性臨床數據。DART 試驗涵蓋罕見黑色素瘤亞型為目前唯一試驗框架。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02834013",
+          "title": "DART: Dual Anti-CTLA-4 and Anti-PD-1 Blockade in Rare Tumors",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 818,
+          "relevance_grade": "B",
+          "reasoning": "罕見腫瘤籃式試驗，含罕見黑色素瘤亞型（含非曝光部位），ipilimumab+nivolumab 方案，間接相關"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amelanotic skin melanoma",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "無黑色素性黑色素瘤（amelanotic melanoma）缺乏黑色素生成但保留黑色素瘤特有免疫原性抗原（MAGE、NY-ESO-1 等），Anti-CTLA-4 機轉理論上適用。診斷困難導致晚期發現比例較高，可能影響治療時機，但無針對此亞型的專屬試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20593249",
+          "title": "Continuous systemic corticosteroids do not affect ongoing regression of metastatic melanoma for ≥2 years following ipilimumab",
+          "year": "2011",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "早期 ipilimumab 案例記錄，涉及無黑色素性轉移黑色素瘤持續緩解，具歷史意義"
+        },
+        {
+          "pmid": "40853557",
+          "title": "Cutaneous Melanoma: A Review",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "皮膚黑色素瘤全面綜述，包含亞型分類及治療概述"
+        },
+        {
+          "pmid": "41310270",
+          "title": "Amelanotic melanoma of the CNS with systemic spread — imaging pitfalls",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "CNS 轉移個案，診斷視角為主"
+        }
+      ]
+    },
+    {
+      "disease_name": "superficial spreading melanoma",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "表淺擴散型黑色素瘤（SSM）為最常見的皮膚黑色素瘤亞型（約 70%），具有較高 TMB 及 UV 突變特徵，對免疫治療反應較佳。Anti-CTLA-4 的主要批准適應症（切除性/轉移性黑色素瘤）在臨床試驗中包含大量 SSM 患者，文獻雖未單獨分析 SSM，但廣泛黑色素瘤 Phase 3 數據間接涵蓋此亞型。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40853557",
+          "title": "Cutaneous Melanoma: A Review",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "涵蓋 SSM 流行病學及免疫治療章節"
+        },
+        {
+          "pmid": "39001417",
+          "title": "Primary Tumor Characteristics as Biomarkers of Immunotherapy Response in Advanced Melanoma",
+          "year": "2024",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "note": "原發腫瘤特徵（含組織學亞型）作為免疫治療預測因子的回顧性研究，SSM 相關性分析"
+        },
+        {
+          "pmid": "34638410",
+          "title": "Severe Late-Onset Grade III-IV Adverse Events under Immunotherapy: A Retrospective Study",
+          "year": "2021",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "note": "免疫治療遲發性重度毒性分析，安全性監測重要資料"
+        },
+        {
+          "pmid": "36541394",
+          "title": "Analysis of top-cited articles on melanoma",
+          "year": "2022",
+          "study_type": "Bibliometric Analysis",
+          "tier": 3,
+          "note": "文獻計量分析，提供領域研究趨勢"
+        }
+      ]
+    },
+    {
+      "disease_name": "lentigo maligna melanoma",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Lentigo maligna melanoma（LMM）好發於慢性陽光受損皮膚（頭頸部），具有高 UV 突變負擔，理論上對免疫治療反應較佳。Anti-CTLA-4 機轉適用，但 LMM 通常在局部切除即可治癒，進展至需全身治療的病例較少，故專屬臨床數據匱乏。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "24338272",
+          "title": "Long-lasting complete response of metastatic melanoma to ipilimumab with analysis of the resident immune cells",
+          "year": "2014",
+          "study_type": "Case Report with Immunological Analysis",
+          "tier": 3,
+          "note": "**最相關** — 轉移性黑色素瘤（含 LMM 可能）ipilimumab 長期完全緩解案例，含免疫細胞分析，提供機轉佐證"
+        },
+        {
+          "pmid": "28500627",
+          "title": "Widespread biphasic amyloidosis related to ipilimumab treatment for metastatic melanoma",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "Ipilimumab 相關罕見 irAE（澱粉樣變），安全性資訊"
+        },
+        {
+          "pmid": "40853557",
+          "title": "Cutaneous Melanoma: A Review",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "包含 LMM 分類及治療原則，間接支持"
+        }
+      ]
+    },
+    {
+      "disease_name": "CDK4 linked melanoma",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CDK4 linked melanoma（CDK4 突變家族性黑色素瘤）為遺傳性黑色素瘤亞型。CDK4 R24C/H 突變使 CDK4 不受 p16/CDKN2A 抑制，加速細胞週期進展。雖然此亞型仍保留免疫原性，Anti-CTLA-4 在理論上可提供免疫調節，但目前無針對此遺傳亞型的 ipilimumab 專屬臨床數據（零試驗、零文獻），無法評估基因亞型是否影響免疫治療療效差異。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 建議優先收集 CDK4 突變黑色素瘤免疫治療反應之基礎研究數據後再評估"
+    },
+    {
+      "disease_name": "acral lentiginous melanoma (disease)",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "肢端雀斑樣黑色素瘤（ALM）好發於手掌/腳掌/指甲下，非陽光誘發（非 UV 驅動突變），TMB 通常較低，PD-L1 表達偏低，免疫治療反應率普遍低於皮膚黑色素瘤。然而 CTLA-4 pathway 在 ALM 中仍具活性，ipilimumab（尤其與 nivolumab 聯合）在 ALM 仍有部分緩解數據，多個 Phase 2 試驗正在評估其效益。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04511013",
+          "title": "Phase 2 RCT — Encorafenib+Binimetinib+Nivolumab vs Ipilimumab+Nivolumab in BRAF-mutant Melanoma",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 112,
+          "relevance_grade": "A",
+          "reasoning": "**最直接相關** — 隨機 Phase 2 試驗，ipilimumab+nivolumab 作為對照臂，涵蓋 BRAF 突變型 ALM（ALM 中有相當比例 BRAF 突變），正在招募"
+        },
+        {
+          "nct_id": "NCT02519322",
+          "title": "Neoadjuvant and Adjuvant Checkpoint Blockade in Clinical Stage III or Oligometastatic Melanoma",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 53,
+          "relevance_grade": "B",
+          "reasoning": "完成的 Phase 2，包含 ALM 患者族群，新輔助+輔助雙重策略，提供療效與安全性參考"
+        },
+        {
+          "nct_id": "NCT04462406",
+          "title": "Phase II — Biomarker Driven Early Discontinuation of Anti-PD-1 Therapy in Advanced Melanoma",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 150,
+          "relevance_grade": "B",
+          "reasoning": "生物標誌物驅動的治療優化試驗，對 ALM（低 TMB 亞群）的 biomarker 策略有高度參考價值"
+        },
+        {
+          "nct_id": "NCT07155317",
+          "title": "TIME Trial — Phase II RCT of Time-of-Day Specified Immunotherapy for Advanced Melanoma",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 99,
+          "relevance_grade": "C",
+          "reasoning": "評估免疫治療時間依賴性效果，ALM 相關性間接，方法學創新但結果待定"
+        },
+        {
+          "nct_id": "NCT02978443",
+          "title": "Phase 2 — Study in Melanoma Patients",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 14,
+          "relevance_grade": "C",
+          "reasoning": "提前終止（n=14），證據貢獻極有限"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29079332",
+          "title": "Retrospective study of advanced melanoma patients treated with ipilimumab after nivolumab",
+          "year": "2018",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "note": "**重要** — 探討 anti-PD-1 後序貫 ipilimumab 的療效，含 ALM 亞群分析，為序貫策略提供依據"
+        },
+        {
+          "pmid": "26511495",
+          "title": "Development of brain metastases in patients with metastatic melanoma while receiving ipilimumab",
+          "year": "2016",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "note": "Ipilimumab 治療期間腦轉移發展風險，對 ALM（高腦轉移傾向）之安全性監測具參考價值"
+        },
+        {
+          "pmid": "32314157",
+          "title": "Adjuvant Therapy for Melanoma with Positive Sentinel Lymph Node Biopsy",
+          "year": "2020",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "note": "前哨淋巴結陽性黑色素瘤（含 ALM 亞型）輔助治療效果分析"
+        },
+        {
+          "pmid": "33715172",
+          "title": "Five-year survival with nivolumab in Japanese patients with advanced melanoma",
+          "year": "2021",
+          "study_type": "Retrospective Analysis",
+          "tier": 2,
+          "note": "**亞洲族群特別重要** — ALM 在東亞（含日本、台灣）比例遠高於歐美，五年生存率數據於本地決策高度相關"
+        }
+      ],
+      "guardrails": [
+        "ALM 的 TMB 通常低於皮膚黑色素瘤，建議治療前進行 TMB/PD-L1/MSI 檢測",
+        "優先考慮 ipilimumab+nivolumab 聯合方案（較單藥反應率更高）",
+        "亞洲人群 irAE 風險需特別監測（尤其 Grade 3-4 腸炎、肝炎）",
+        "治療前確認 BRAF 突變狀態，可能影響聯合方案選擇",
+        "建議在有 ALM 治療經驗的專科中心執行"
+      ]
+    }
+  ],
+  "summary_matrix": {
+    "L1": [],
+    "L2": ["non-cutaneous melanoma", "acral lentiginous melanoma"],
+    "L3": ["epithelioid cell melanoma", "superficial spreading melanoma", "scrotum melanoma"],
+    "L4": ["eyelid melanoma", "amelanotic skin melanoma", "lentigo maligna melanoma"],
+    "L5": ["choroideremia", "CDK4 linked melanoma"]
+  },
+  "key_findings": [
+    "Ipilimumab 的 anti-CTLA-4 機轉對所有黑色素瘤亞型具有廣泛適用性，證據等級差異主要反映亞型專屬臨床數據之多寡",
+    "Non-cutaneous melanoma 與 acral lentiginous melanoma 具有最強的臨床試驗支持（L2），建議可在適當監測下推進",
+    "Choroideremia 為明確假陽性——視網膜退化症與 anti-CTLA-4 機轉無關，應從候選清單排除",
+    "CDK4 linked melanoma 雖屬黑色素瘤，但目前完全缺乏亞型專屬數據（L5），需先建立研究問題",
+    "DART 試驗（NCT02834013）為多個罕見亞型（epithelioid、scrotum）的共同試驗框架，值得持續追蹤結果",
+    "亞洲族群中 ALM 比例顯著高於歐美（可達 40-50%），本地 evidence 生成（如台灣、新加坡患者數據）具重要公衛意義"
+  ]
+}
+```
+
+---
+
+## 決策優先序建議
+
+| 優先序 | 適應症 | 證據等級 | 建議行動 |
+|--------|--------|----------|----------|
+| ★★★ | Non-cutaneous melanoma | L2 | 進入 S2 臨床可行性評估，關注 NCT02278887 結果 |
+| ★★★ | Acral lentiginous melanoma | L2 | 進入 S2，建議聯合方案，本地族群研究優先 |
+| ★★ | Epithelioid cell melanoma | L3 | 追蹤 DART 試驗，設計 registry study |
+| ★★ | Superficial spreading melanoma | L3 | 既有廣泛黑色素瘤數據可外推，S2 評估 |
+| ★ | Eyelid / Amelanotic / Lentigo maligna | L4 | 案例累積階段，S1 安全性評估 |
+| ✗ | Choroideremia | L5 | **立即排除**，假陽性 |
+| ✗ | CDK4 linked melanoma | L5 | 暫緩，等待基礎研究 |
+
+> **免責聲明**：以上分析僅供研究參考，不構成臨床醫療建議。所有老藥新用候選適應症需經過正式臨床試驗驗證後方可應用。

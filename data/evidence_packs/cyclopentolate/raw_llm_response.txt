@@ -1,0 +1,411 @@
+## Cyclopentolate (DB00979) 藥物再利用證據分析
+
+**藥物背景補充**（資料庫填補）：
+- **實際 MOA**：抗膽鹼藥物（M1/M2/M3 蕈毒鹼受體競爭性拮抗劑），作用於虹膜括約肌與睫狀肌，產生散瞳（mydriasis）與調節麻痺（cycloplegia）效果
+- **全球市場狀態**：已上市（品名 Cyclogyl® 等），為眼科常用藥，本地「未上市」可能指特定國家尚未核准
+
+---
+
+```json
+{
+  "drug": "Cyclopentolate",
+  "drugbank_id": "DB00979",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "MOA補充：M1/M2/M3蕈毒鹼受體拮抗劑；眼用劑型為主，全球已上市。零試驗/文獻之前5項適應症(L5)均為TxGNN基於抗膽鹼類別效應的跨系統預測。",
+  "indications": [
+    {
+      "disease_name": "cauda equina syndrome",
+      "txgnn_score": 0.9954,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "馬尾症候群為脊髓神經根機械性壓迫所致（截癱、膀胱直腸功能障礙），病理機轉與蕈毒鹼受體調控無直接關聯。TxGNN高分可能源於KG中神經→自主神經→膽鹼訊號路徑的間接連結，但缺乏生物合理性。Cyclopentolate全身性抗膽鹼效應（如緩解膀胱痙攣）可能是間接推算來源，但其眼用劑型的全身暴露量不足以產生系統性治療效果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["無臨床依據", "病理機轉不符", "建議不予推進"]
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "強類別效應（Class Effect）：抗毒蕈鹼藥物（oxybutynin、tolterodine、solifenacin）為神經性膀胱/過動性膀胱的第一線標準治療，主要透過阻斷逼尿肌M3受體減少不自主收縮。Cyclopentolate同屬M3拮抗劑，理論上具相同機轉，但：(1)現有劑型為眼用液，全身性給藥安全資料近乎空白；(2)尚無任何cyclopentolate用於泌尿適應症的臨床文獻；(3)「obsolete」標籤顯示此MONDO術語已被棄用，現代對應疾病為neurogenic lower urinary tract dysfunction。可作為機轉假設題，但需全新藥物開發路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["疾病術語已廢棄", "劑型需重新配方", "系統性暴露安全性未知"]
+    },
+    {
+      "disease_name": "irritable bowel syndrome",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "類別效應：抗膽鹼藥物（hyoscine butylbromide、dicyclomine）可抑制腸道平滑肌M3受體，緩解IBS腹部痙攣，已有核准適應症。Cyclopentolate具相同受體活性，但：(1)IBS需口服長效型製劑，現有眼用劑型不適用；(2)cyclopentolate的中樞神經穿透性較強（可跨越血腦屏障），可能帶來額外CNS副作用風險；(3)零直接臨床文獻。機轉假設存在，但藥物特性（眼用、CNS滲透）不利此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["CNS穿透風險", "劑型不適合", "需口服重新配方"]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9769,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎主要為病毒或鏈球菌感染所致，病理機轉為感染性炎症。抗膽鹼藥物雖可減少腺體分泌（可能緩解分泌物症狀），但無抗病毒或抗菌作用，且分泌物抑制可能加重黏膜乾燥感。TxGNN高分可能為知識圖譜中「上呼吸道」路徑的誤連結。生物合理性不足，建議不予推進。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["生物合理性不足", "可能加重症狀（黏膜乾燥）", "不建議推進"]
+    },
+    {
+      "disease_name": "pharyngitis",
+      "txgnn_score": 0.9759,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同急性喉咽炎評估。咽炎為感染性炎症，抗膽鹼藥物缺乏病因治療機轉。TxGNN分數與laryngopharyngitis相近，可能共享相同KG路徑錯誤。抗膽鹼類藥物減少分泌物的微弱症狀緩解效果不足以支持老藥新用研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["生物合理性不足", "不建議推進"]
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9756,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "具備合理類別效應：抗膽鹼藥物ipratropium（Atrovent®鼻噴劑）已核准用於過敏性/非過敏性鼻炎，透過阻斷鼻黏膜腺體M3受體減少鼻漏。Cyclopentolate具相同受體親和力，理論上可應用於鼻腔疾病，但：(1)Cyclopentolate的脂溶性和蛋白結合特性與ipratropium不同；(2)需鼻用劑型開發；(3)現有臨床文獻為零。此方向可作為進一步配方研究假設，但優先度低於已有ipratropium可用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["已有同類替代藥物（ipratropium）", "劑型需重新開發", "直接競爭優勢不明"]
+    },
+    {
+      "disease_name": "uveitis",
+      "txgnn_score": 0.9573,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclopentolate為前葡萄膜炎臨床實務中已廣泛使用的睫狀體麻痺劑，機轉明確且有效：(1)阻斷睫狀肌M3受體 → 解除調節痙攣 → 緩解光敏感性疼痛；(2)阻斷虹膜括約肌 → 維持散瞳 → 預防虹膜後沾黏（posterior synechiae）形成；(3)可能具輕度抗炎輔助效果（減少前房閃輝）。PMID 33200390直接量化cyclopentolate對葡萄膜炎患者房水蛋白滲漏的影響，PMID 36411874提供系統性效益風險評估。此適應症在眼科實務中雖屬off-label，但已被多國眼科指引納入標準輔助治療建議。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36411874",
+          "title": "Ocular Cyclopentolate: A Mini Review Concerning Its Benefits and Risks",
+          "year": "2022",
+          "study_type": "Mini-Review",
+          "tier": "2",
+          "relevance": "直接評估cyclopentolate眼科效益與風險，含葡萄膜炎應用討論"
+        },
+        {
+          "pmid": "33200390",
+          "title": "Effects of tropicamide and cyclopentolate on laser flare meter measurements in uveitis",
+          "year": "2021",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance": "直接研究cyclopentolate於葡萄膜炎患者的前房閃輝效應，為最高相關性文獻"
+        },
+        {
+          "pmid": "34928913",
+          "title": "Comorbidity of Cyclopentolate Abuse and Behcet's Disease: A Case Report",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "Behcet's病（伴隨panuveitis）個案，cyclopentolate濫用背景提供安全性資訊"
+        },
+        {
+          "pmid": "11131753",
+          "title": "Uveitis and glaucoma",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "葡萄膜炎合併青光眼管理，含睫狀體麻痺劑使用策略"
+        },
+        {
+          "pmid": "22040340",
+          "title": "Efficacy of tropicamide, homatropine, cyclopentolate, atropine and hyoscine as mydriatics",
+          "year": "2011",
+          "study_type": "Animal Study (Comparative)",
+          "tier": "3",
+          "relevance": "比較性散瞳效果研究，間接支持cyclopentolate效力排序"
+        },
+        {
+          "pmid": "36107850",
+          "title": "Oleander-Associated Keratitis and Uveitis",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "夾竹桃毒素引起角膜炎+葡萄膜炎，提及cyclopentolate治療應用"
+        },
+        {
+          "pmid": "26350991",
+          "title": "Lamotrigine-induced tubulointerstitial nephritis and uveitis-atypical Cogan syndrome",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "藥物誘發性葡萄膜炎案例，間接"
+        },
+        {
+          "pmid": "10176110",
+          "title": "Ocular toxicology",
+          "year": "1997",
+          "study_type": "Review/Toxicology",
+          "tier": "3",
+          "relevance": "眼科毒理學回顧，背景安全性資訊"
+        }
+      ]
+    },
+    {
+      "disease_name": "iris disease",
+      "txgnn_score": 0.9436,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclopentolate與虹膜疾病的機轉關聯最為直接：蕈毒鹼受體廣泛分布於虹膜括約肌（M3）和瞳孔開大肌，cyclopentolate透過競爭性拮抗產生散瞳效果。臨床應用包括：(1)診斷性散瞳（眼底檢查）；(2)前節炎症的虹膜保護（防止後沾黏）；(3)術前/術後虹膜管理。多篇文獻直接評估cyclopentolate散瞳效果（PMID 17321460：1% cyclopentolate劑量充足性研究）及其對眼壓/血流影響（PMID 15506601）。Phase 4試驗（NCT02177539）雖狀態不明，但代表已有正式臨床研究開展。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02177539",
+          "title": "A New More Efficient Cycloplegia Scheme",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "Phase 4試驗直接研究cycloplegia（睫狀體麻痺）給藥方案，cyclopentolate為首選cycloplegic劑，與虹膜/睫狀體疾病診斷管理高度相關。狀態UNKNOWN（非TERMINATED）代表可能已完成但結果未公開，需進一步查詢。"
+        },
+        {
+          "nct_id": "NCT02909140",
+          "title": "Optimal Method for Mydriasis in Cataract Surgery",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 3,
+          "relevance_grade": "B",
+          "reasoning": "白內障術前散瞳方案研究，直接涉及cyclopentolate的散瞳應用。因TERMINATED且僅招募3人，證據力極低；但確認了散瞳適應症的臨床可行性驗證意圖。"
+        },
+        {
+          "nct_id": "NCT01265719",
+          "title": "Long-term Safety Of Lat... (疑似latanoprost研究)",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 175,
+          "relevance_grade": "C",
+          "reasoning": "標題截斷，根據「Lat」推測為latanoprost（前列腺素類眼藥），若非直接研究cyclopentolate則相關性低。已完成且175人規模，若為cyclopentolate相關研究則證據力提升至B，需核實完整試驗資訊。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17321460",
+          "title": "Dilation efficacy: is 1% cyclopentolate enough?",
+          "year": "2007",
+          "study_type": "Prospective Comparative",
+          "tier": "2",
+          "relevance": "直接評估cyclopentolate劑量效果，最高相關性文獻之一"
+        },
+        {
+          "pmid": "15506601",
+          "title": "Effects of cyclopentolate on intraocular pressure and retrobulbar hemodynamics",
+          "year": "2004",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance": "直接研究cyclopentolate對眼壓及眼球血流的影響，安全性關鍵數據"
+        },
+        {
+          "pmid": "37681397",
+          "title": "Posterior synechia formation after phacovitrectomy - role of short-acting mydriatics",
+          "year": "2024",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "術後後沾黏形成研究，評估短效散瞳劑（含cyclopentolate）保護效果，最新文獻"
+        },
+        {
+          "pmid": "29606019",
+          "title": "Efficacy and safety of intracameral epinephrine and topical cyclopentolate",
+          "year": "2018",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "含cyclopentolate的RCT，評估術中瞳孔維持，為本適應症最高等級證據"
+        },
+        {
+          "pmid": "8784633",
+          "title": "Effect of postoperative mydriatics on the iris",
+          "year": "1996",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance": "術後散瞳劑對虹膜影響，直接相關"
+        },
+        {
+          "pmid": "24646901",
+          "title": "Effect of pharmacologic pupillary dilatation on anterior segment parameters",
+          "year": "2014",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance": "散瞳對前眼節參數的影響，安全性評估"
+        },
+        {
+          "pmid": "17010855",
+          "title": "Cataract surgery management in patients taking tamsulosin staged approach",
+          "year": "2006",
+          "study_type": "Review/Case Series",
+          "tier": "3",
+          "relevance": "術前散瞳管理，間接相關"
+        },
+        {
+          "pmid": "35850544",
+          "title": "Bilateral acute Iris transillumination after COVID-19 pneumonia",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "COVID-19後急性虹膜透照性缺損，提及散瞳劑使用"
+        }
+      ]
+    },
+    {
+      "disease_name": "panuveitis (disease)",
+      "txgnn_score": 0.9338,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "全葡萄膜炎（累及前節+玻璃體+後節）的睫狀體麻痺輔助治療機轉與前葡萄膜炎相同，但疾病嚴重程度更高、病因更複雜（Behcet's、結節病、感染性等）。Cyclopentolate的角色限於：(1)前節症狀緩解（疼痛、前房炎症）；(2)預防前節沾黏。然而，全葡萄膜炎的主要治療為全身性免疫抑制劑，cyclopentolate僅為輔助。現有文獻中，PMID 34928913為cyclopentolate直接相關的個案報告，其餘文獻為panuveitis的各類原因報告，cyclopentolate非主要研究對象。需注意：兩篇zoledronate相關試驗（PMID 25187119、23290982）研究的是藥物誘發葡萄膜炎，非cyclopentolate治療應用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34928913",
+          "title": "Comorbidity of Cyclopentolate Abuse and Behcet's Disease: A Case Report",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "唯一直接涉及cyclopentolate的個案，Behcet's病相關panuveitis背景，但為濫用場景"
+        },
+        {
+          "pmid": "25187119",
+          "title": "Incidence of ocular side effects with intravenous zoledronate: secondary analysis",
+          "year": "2015",
+          "study_type": "RCT Secondary Analysis",
+          "tier": "2",
+          "relevance": "研究對象為zoledronate誘發葡萄膜炎，非cyclopentolate治療，間接背景資訊"
+        },
+        {
+          "pmid": "23290982",
+          "title": "The incidence of acute anterior uveitis after intravenous zoledronate",
+          "year": "2013",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "同上，葡萄膜炎流行病學背景，非直接治療證據"
+        },
+        {
+          "pmid": "31392068",
+          "title": "IgG4-Related Ophthalmic Disease Presenting as Meningitis and Panuveitis",
+          "year": "2019",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "IgG4相關panuveitis，間接背景"
+        },
+        {
+          "pmid": "32448152",
+          "title": "A case of severe flare reaction in HLA B27 associated acute anterior uveitis",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "前葡萄膜炎嚴重惡化，涉及睫狀體麻痺劑使用決策"
+        },
+        {
+          "pmid": "17822999",
+          "title": "Uveitis during outbreak of Chikungunya fever",
+          "year": "2007",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "感染性葡萄膜炎群集案例，流行病學背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "ciliary body disease",
+      "txgnn_score": 0.9330,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclopentolate對睫狀體的機轉關聯最為直接且明確：藥物透過競爭性阻斷睫狀肌M3蕈毒鹼受體，產生調節麻痺（cycloplegia）效果，使睫狀肌完全放鬆。應用場景包括：(1)屈光檢查（特別是兒童，需排除假性近視）；(2)睫狀體炎/睫狀肌痙攣緩解；(3)睫狀體功能評估（NCT00716339研究假性調節）。PMID 15226730為眼科醫師使用cyclopentolate大規模調查，確認其在臨床實務中的廣泛應用。此適應症為cyclopentolate最核心的藥理用途。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00716339",
+          "title": "Pseudophakic Accommodation",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "B",
+          "reasoning": "已完成的觀察性研究（40人），評估人工晶體植入後的假性調節功能，cyclopentolate作為調節麻痺驗證工具，直接涉及睫狀體功能評估。NA期限制其證據等級。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "15226730",
+          "title": "Cycloplegic and mydriatic agents for routine ophthalmologic examination: survey of pediatric ophthalmologists",
+          "year": "2004",
+          "study_type": "Survey/Cross-sectional",
+          "tier": "2",
+          "relevance": "眼科醫師使用cyclopentolate實務調查，反映臨床標準應用，直接相關"
+        },
+        {
+          "pmid": "2034449",
+          "title": "Possible allergic reactions to cyclopentolate hydrochloride: case reports with literature review",
+          "year": "1991",
+          "study_type": "Case Series with Review",
+          "tier": "3",
+          "relevance": "過敏反應個案系列附文獻回顧，安全性資訊"
+        },
+        {
+          "pmid": "17295141",
+          "title": "Ciliochoroidal effusion syndrome associated with posterior scleritis",
+          "year": "2007",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "脈絡膜睫狀體積液症候群，cyclopentolate於睫狀體疾病的診療角色"
+        },
+        {
+          "pmid": "32448152",
+          "title": "A case of severe flare reaction in HLA B27 associated acute anterior uveitis",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "涉及睫狀體管理決策的複雜葡萄膜炎案例"
+        },
+        {
+          "pmid": "9885391",
+          "title": "Transient acute myopia induced by antilymphocyte globulins",
+          "year": "1999",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "睫狀體水腫導致急性近視，涉及睫狀體麻痺劑評估"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合摘要與決策建議
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|-------------|----------|----------|------|
+| cauda equina syndrome | 0.9954 | **L5** | S0 | ❌ Hold |
+| neurogenic bladder | 0.9940 | **L5** | S0 | 🔍 Research Question |
+| irritable bowel syndrome | 0.9927 | **L5** | S0 | 🔍 Research Question |
+| acute laryngopharyngitis | 0.9769 | **L5** | S0 | ❌ Hold |
+| pharyngitis | 0.9759 | **L5** | S0 | ❌ Hold |
+| nasal cavity disease | 0.9756 | **L5** | S0 | 🔍 Research Question |
+| **uveitis** | 0.9573 | **L3** | S2 | ✅ Proceed with Guardrails |
+| **iris disease** | 0.9436 | **L3** | S2 | ✅ Proceed with Guardrails |
+| panuveitis | 0.9338 | **L4** | S1 | 🔍 Research Question |
+| **ciliary body disease** | 0.9330 | **L3** | S2 | ✅ Proceed with Guardrails |
+
+### 關鍵洞察
+
+1. **TxGNN高分≠臨床價值**：前6項適應症TxGNN分數均>0.97，卻無任何臨床文獻，顯示模型基於抗膽鹼類別效應進行跨系統外推，屬**系統性假陽性風險**
+
+2. **眼科適應症為核心優勢**：後4項眼科適應症雖TxGNN分數相對較低（0.93-0.96），卻有實際臨床文獻與試驗支持，反映**模型評分與臨床相關性之間的逆向關係**
+
+3. **劑型限制是主要障礙**：Cyclopentolate眼用劑型限制了跨系統適應症（膀胱、腸道、鼻腔）的開發，任何非眼科再利用均需重新配方，屬高門檻開發路徑
+
+4. **PMID 29606019（RCT）**為iris disease最強證據，建議優先納入系統性回顧
+
+> ⚠️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證方可應用。

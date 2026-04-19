@@ -1,0 +1,1190 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB04815-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clioquinol",
+    "drugbank_id": "DB04815",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "cutaneous candidiasis",
+      "txgnn": {
+        "score": 0.998410940170288,
+        "rank": 2877
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "155507",
+            "title": "Evaluation of a topical steroid antibiotic combination (halcinonide-neomycin-amphotericin) in the treatment of cutaneous candidiasis and inflammatory dermatoses.",
+            "authors": [
+              "Theodoridis A",
+              "Vagena A",
+              "Sivenas C",
+              "Capetanakis J"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "1979",
+            "abstract": "Halcinonide-neomycin-amphotericin (HNA) cream was evaluated in the treatment of cutaneous candidiasis and inflammatory dermatoses. The anti-candidal properties of HNA were assessed in a parallel comparison with iodochlorhydroxyquin-hydrocortisone (I-HC) as the control drug. The overall therapeutic response with HNA was excellent in 38 (95%) of 40 patients as compared to 17 (43%) of 40 treated with I-HC. In 50 patients treated for psoriasis, eczematous dermatitis, or neurodermatitis, HNA was eval",
+            "classification": {
+              "study_type": "臨床比較研究（複方局部製劑 halcinonide-neomycin-amphotericin）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6459255",
+            "title": "Comparative merits of two topical corticosteroid antimicrobial drugs.",
+            "authors": [
+              "Barba-Rubio J",
+              "Calle-Vélez G",
+              "Dominguez-Soto L",
+              "Londoño F"
+            ],
+            "journal": "The Journal of international medical research",
+            "year": "1981",
+            "abstract": "The anti-inflammatory and antimicrobial activities of two topical creams, one containing halcinonide, neomycin and nystatin (HNN), and the other betamethasone valerate, gentamicin, iodochlorhydroxyquin and tolnaftate (BGI), were compared in a randomized, parallel study of 154 patients (eighty-seven secondarily infected eczematous dermatoses; sixty-seven cutaneous candidiasis). Repeated clinical assessments showed that the two creams produced equivalent therapeutic responses both in patients with",
+            "classification": {
+              "study_type": "臨床比較研究",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "128475",
+            "title": "Antimicrobial effectiveness of Locacorten-Vioform cream in Secondary infections of common dermatoses.",
+            "authors": [
+              "Konopka E A",
+              "Kimble E F",
+              "Zogans H C",
+              "Heyman H"
+            ],
+            "journal": "Dermatologica",
+            "year": "1975",
+            "abstract": "In a double-blind study involving 430 patients, Locacorten (0.02%)-Vioform (3%) cream was found to be highly effective in the treatment of dermatological conditions complicated by secondary bacterial involvement. Themicrobiological conversion and clinical improvement in patients treated with Locacorten-Vioform combinations were markedly greater than those achieved in the groups medicated with (1) Vioform 3%, (2) Locacorten 0.02%, and (3) placebo cream. Staphylococcus aureus was the most prevalen",
+            "classification": {
+              "study_type": "臨床評估研究（Locacorten-Vioform）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "136333",
+            "title": "Clinical evaluation of a new halcinonide-antifungal combination.",
+            "authors": [
+              "Barba-Rubio J"
+            ],
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "臨床評估",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4220930",
+            "title": "[On the role of yeasts in the etiology of Danbolt-Closs acrodermatitis enteropathica].",
+            "authors": [
+              "Thaler E"
+            ],
+            "journal": "Zeitschrift fur Haut- und Geschlechtskrankheiten",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "病理/病因學研究",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2978600",
+            "title": "[New possibilities of prevention of occupational Candida albicans infection].",
+            "authors": [
+              "Maleszka R",
+              "Maleszka A"
+            ],
+            "journal": "Przeglad dermatologiczny",
+            "year": "1988",
+            "abstract": "The effects were studied in vitro of a score of various additives to toilet soaps on strains of Candida albicans isolated from patients. Their effect on the basic properties of toilet soaps was studied, determining foam production and the index of foam stability, and their resistance to high temperature was determined since in the process of production high temperature might reduce their effects on C. albicans. The strongest fungicidal effect was exerted in strongly alkaline soap solutions by Cl",
+            "classification": {
+              "study_type": "職業預防研究",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clioquinol 透過金屬螯合（Zn²⁺、Cu²⁺、Fe³⁺）干擾真菌金屬依賴性酶系統，破壞細胞膜完整性，對 Candida albicans 具直接抑菌活性。歷史局部製劑（Locacorten-Vioform）已用於皮膚念珠菌感染，機轉與臨床使用具高度一致性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Majocchi granuloma",
+      "txgnn": {
+        "score": 0.9926016926765442,
+        "rank": 8548
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Majocchi 肉芽腫為皮癬菌深部感染，理論上 clioquinol 抗真菌金屬螯合機轉可能有效，但深部感染需組織穿透力，局部外用藥效果存疑。機轉關聯性弱（間接推測）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "ectothrix infectious disease",
+      "txgnn": {
+        "score": 0.9926016926765442,
+        "rank": 8549
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛外型皮癬菌感染（如 tinea capitis）侵犯毛幹外部，局部用藥需穿透毛囊，clioquinol 局部製劑穿透能力有限，機轉關聯性弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "endothrix infectious disease",
+      "txgnn": {
+        "score": 0.9919497966766356,
+        "rank": 9077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛內型感染（如 Trichophyton tonsurans）侵犯毛幹內部，局部外用藥幾乎無法到達感染部位，機轉關聯性極弱，需全身性抗真菌治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "superficial mycosis",
+      "txgnn": {
+        "score": 0.9917791485786438,
+        "rank": 9197
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33772895",
+            "title": "Evaluation of activity and toxicity of combining clioquinol with ciclopirox and terbinafine in alternative models of dermatophytosis.",
+            "authors": [
+              "da Costa Bárbara",
+              "Pippi Bruna",
+              "Berlitz Simone Jacobus",
+              "Carvalho Anderson Ramos",
+              "Teixeira Mario Lettieri"
+            ],
+            "journal": "Mycoses",
+            "year": "2021",
+            "abstract": "Dermatophytosis is a superficial fungal infection that affects humans and is very common in small animals. The treatment using the most commonly used antifungals is failing, and new therapeutic alternatives are required to combat the resistance of these fungal infections. Previous studies by the group have shown that clioquinol is an important therapeutic alternative in the treatment of dermatophytosis. The object was to conduct studies of antidermatophytic activity and the irritant potential fr",
+            "classification": {
+              "study_type": "體外/組合毒性研究",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13521766",
+            "title": "Iodochlorohydroxquinoline (vioform) hydrocortisone cream and lotion in superficial fungus infections.",
+            "authors": [
+              "JAMES A P"
+            ],
+            "journal": "Antibiotic medicine & clinical therapy (New York, NY)",
+            "year": "1958",
+            "abstract": "",
+            "classification": {
+              "study_type": "臨床研究（歷史）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與 cutaneous candidiasis 機轉相同：金屬螯合抑制真菌。淺表性黴菌病（tinea 系列）之皮癬菌對 clioquinol 的敏感性有生物學合理性，但體外與體內效果仍需驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "dermatophytosis of scalp or beard",
+      "txgnn": {
+        "score": 0.9917352199554444,
+        "rank": 9223
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34934294",
+            "title": "Beard Reconstruction.",
+            "authors": [
+              "Yaseen Ummer",
+              "Ahmed Shabir",
+              "Ahmed Muzaffar"
+            ],
+            "journal": "International journal of trichology",
+            "year": "2021",
+            "abstract": "Loss of beard can occur due to many reasons. As beard has huge cosmetic importance, loss of beard can be psychologically traumatic. Beard can be absent from puberty, called as congenital absence of beard. Beard loss can be secondary to dermatological conditions such as nodulocystic acne. In our setting, the most common cause of loss of beard is burn injury. There are many treatment options such as surgical excision of scar, flaps Z/W plasty, and hair transplantation to reconstruct the beard. We ",
+            "classification": {
+              "study_type": "外科手術/整形（鬍鬚重建）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34984089",
+            "title": "Beard and Moustache Reconstruction.",
+            "authors": [
+              "Dua Kapil",
+              "Verma Vandana",
+              "Dua Aman"
+            ],
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "abstract": "Beard and moustache reconstruction has gained more popularity and acceptance over the last decade. The procedure is done for the correction of facial areas with hair density deficit and also for the cosmetic enhancement of pre-existing facial hair. The surgical technique includes the harvesting of grafts from the scalp by the follicular unit excision (FUE) or follicular unit transplantation (FUT) technique and then placing them in either premade slits or by stick and place method. The advancemen",
+            "classification": {
+              "study_type": "外科手術",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38936998",
+            "title": "Facial Hair in Hair Restoration Surgery: Beard Transplantation and Beard-To-Scalp Hair Restoration.",
+            "authors": [
+              "Epstein Jeffrey S"
+            ],
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2024",
+            "abstract": "Restoration of the beard region has become an important component of hair restoration surgery due to increased awareness of its natural-appearing results. In the author's experience performing more than 700 primary beard hair transplants and tens of reparative procedures, key aesthetic steps include proper graft dissection so that one- and two-hair grafts contain a minimal cuff of surrounding skin, acute angulation and appropriate direction of recipient sites using the smallest possible recipien",
+            "classification": {
+              "study_type": "植髮外科回顧",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38106958",
+            "title": "Stress, a Brief Update.",
+            "authors": [
+              "Valencia-Florez Kenji Baruch",
+              "Sánchez-Castillo Hugo",
+              "Vázquez Priscila",
+              "Zarate Pavel",
+              "Paz Diana Berenice"
+            ],
+            "journal": "International journal of psychological research",
+            "year": "2023",
+            "abstract": "Stress is fundamental for health and adaptation; it is an evolutionarily conserved response that involves several systems in the organism. The study of the stress response could be traced back to the end of the nineteenth century with George Beard's or Claude Bernard's work and, from that moment on, several studies that have allowed the elucidation of its neurobiology and the consequences of suﬀering from it were consolidated. In this theoretical review, we discuss the most relevant researches t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37510908",
+            "title": "Beard Alopecia: An Updated and Comprehensive Review of Etiologies, Presentation and Treatment.",
+            "authors": [
+              "Kaiser Michael",
+              "Abdin Rama",
+              "Yaghi Marita",
+              "Gaumond Simonetta I",
+              "Jimenez Joaquin J"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "abstract": "Facial hair is an important social and psychologic aspect of clinical appearance for men. The purpose of this review is to provide a comprehensive overview of the causes of alopecia of the beard including the prevalence, pathophysiology, clinical presentation, and treatment. In this review, we highlight more common causes of beard alopecia including alopecia areata and pseudofolliculitis barbae, infectious causes such as tinea barbae and herpes simplex folliculitis, and rare causes including der",
+            "classification": {
+              "study_type": "綜述",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32473165",
+            "title": "Long-lived zebrafish Rohon-Beard cells.",
+            "authors": [
+              "Williams Kristina",
+              "Ribera Angeles B"
+            ],
+            "journal": "Developmental biology",
+            "year": "2020",
+            "abstract": "During normal development of the nervous system, extensive neuronal proliferation as well as death occurs. The extent of development death varies considerably between neuronal populations from little to almost 100%. Early born somatosensory neurons, known as Rohon-Beard cells, have served as an example of neurons that disappear during early developmental stages, presumably as their function is taken over by later developing dorsal root ganglion neurons. However, recent studies have raised questi",
+            "classification": {
+              "study_type": "基礎研究（斑馬魚）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17232589",
+            "title": "The Germ-Cells.",
+            "authors": [
+              "Beard J"
+            ],
+            "journal": "Journal of anatomy and physiology",
+            "year": "1903",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39492201",
+            "title": "Hair Restoration in the Ethnic Patient.",
+            "authors": [
+              "Epstein Jeffrey S",
+              "Epstein Gorana Kuka",
+              "Abdul Al-Awady Abdurrahman"
+            ],
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2022",
+            "abstract": "Hair restoration surgery is a popular procedure among patients of all ethnic groups. Whether performing hair procedures to treat male and female pattern hair loss, or to restore eyebrows and beards, or to shorten overly high hairlines, the surgeon must consider differences in esthetic ideals, hair characteristics, and healing properties to achieve optimal results.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40642854",
+            "title": "Beard Length and the Efficacy of an Aviator Oxygen Mask.",
+            "authors": [
+              "French John",
+              "Wagner Scott D"
+            ],
+            "journal": "Aerospace medicine and human performance",
+            "year": "2025",
+            "abstract": "Facial hair is prohibited for most airline pilots because of the widespread belief that the seal on oxygen masks might be rendered ineffective, preventing aircrew from performing their duties during emergencies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32716531",
+            "title": "Clinical Issues-August 2020.",
+            "authors": [
+              "Anderson Mary Alice"
+            ],
+            "journal": "AORN journal",
+            "year": "2020",
+            "abstract": "Pneumatic tourniquet education and documentation Key words: pneumatic tourniquet, documentation, competency verification, tourniquet cuff. Creating a safe environment for surgical patients with latex allergies or sensitivities Key words: natural rubber latex, latex allergy, latex sensitivity, latex reaction, anaphylaxis. Covering patients' beards Key words: facial hair, surgical site infection (SSI), beard, sterile field. Informed consent requirements Key words: informed consent, witness, legal ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32541711",
+            "title": "Beards and masks.",
+            "authors": [
+              "Matharu K"
+            ],
+            "journal": "British dental journal",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37251589",
+            "title": "The role of recognition error in the stability of green-beard genes.",
+            "authors": [
+              "Choi Jibeom",
+              "Lee Seoeun",
+              "Kim Hyun",
+              "Park Junpyo"
+            ],
+            "journal": "Evolution letters",
+            "year": "2023",
+            "abstract": "The empirical examples of the green-beard genes, once a conundrum of evolutionary biology, are accumulating, while theoretical analyses of this topic are occasional compared to those concerning (narrow-sense) kin selection. In particular, the recognition error of the green-beard effect that the cooperator fails to accurately recognize the other cooperators or defectors is readily found in numerous green-beard genes. To our knowledge, however, no model up to date has taken that effect into accoun",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26942473",
+            "title": "To Beard or Not to Beard? Bacterial Shedding Among Surgeons.",
+            "authors": [
+              "Parry Joshua Alan",
+              "Karau Melissa J",
+              "Aho Johnathon M",
+              "Taunton Michael",
+              "Patel Robin"
+            ],
+            "journal": "Orthopedics",
+            "year": "2016",
+            "abstract": "Beards in the operating room are controversial because of their potential to retain and transmit pathogenic organisms. Many bearded orthopedic surgeons choose to wear nonsterile hoods in addition to surgical masks to decrease contamination of the operative field. The goal of this study was to determine whether nonsterile surgical hoods reduce the risk of bacterial shedding posed by beards. Bearded (n=10) and clean-shaven (n=10) subjects completed 3 sets of standardized facial motions, each lasti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25426178",
+            "title": "Dengue fever: a Wikipedia clinical review.",
+            "authors": [
+              "Heilman James M",
+              "De Wolff Jacob",
+              "Beards Graham M",
+              "Basden Brian J"
+            ],
+            "journal": "Open medicine : a peer-reviewed, independent, open-access journal",
+            "year": "2014",
+            "abstract": "Dengue fever, also known as breakbone fever, is a mosquito-borne infectious tropical disease caused by the dengue virus. Symptoms include fever, headache, muscle and joint pains, and a characteristic skin rash that is similar to measles. In a small proportion of cases, the disease develops into life-threatening dengue hemorrhagic fever, which results in bleeding, thrombocytopenia, and leakage of blood plasma, or into dengue shock syndrome, in which dangerously low blood pressure occurs. Treatmen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34146585",
+            "title": "Quantitative analysis of mitochondrial ATP synthesis.",
+            "authors": [
+              "Randall E Benjamin",
+              "Hock Marcus",
+              "Lopez Rachel",
+              "Marzban Bahador",
+              "Marshall Collin"
+            ],
+            "journal": "Mathematical biosciences",
+            "year": "2021",
+            "abstract": "We present a computational framework for analyzing and simulating mitochondrial ATP synthesis using basic thermodynamic and kinetic principles. The framework invokes detailed descriptions of the thermodynamic driving forces associated with the processes of the electron transport chain, mitochondrial ATP synthetase, and phosphate and adenine nucleotide transporters. Assembling models of these discrete processes into an integrated model of mitochondrial ATP synthesis, we illustrate how to analyze ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34984086",
+            "title": "Using Nonscalp Hair in Scalp Hair Restoration-Theory and Execution.",
+            "authors": [
+              "True Robert H"
+            ],
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "abstract": "Harvesting of beard and body hair follicles for transplantation can be an effective form of treatment for appropriate patients. These patients may have had prior scalp transplantation and require repair but do not have sufficient scalp donor follicles remaining. Other patients will have these hairs mixed with scalp hairs to produce a greater density of hair on the bald scalp. Follicular unit excision (FUE) is preferred for body and beard follicle harvesting. Not all body hair is suitable for tra",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38530738",
+            "title": "Multi-Label Conditional Generation From Pre-Trained Models.",
+            "authors": [
+              "Proszewska Magdalena",
+              "Wolczyk Maciej",
+              "Zieba Maciej",
+              "Wielopolski Patryk",
+              "Maziarka Lukasz"
+            ],
+            "journal": "IEEE transactions on pattern analysis and machine intelligence",
+            "year": "2024",
+            "abstract": "Although modern generative models achieve excellent quality in a variety of tasks, they often lack the essential ability to generate examples with requested properties, such as the age of the person in the photo or the weight of the generated molecule. To overcome these limitations we propose PluGeN (Plugin Generative Network), a simple yet effective generative technique that can be used as a plugin for pre-trained generative models. The idea behind our approach is to transform the entangled lat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36487685",
+            "title": "Beards.",
+            "authors": [],
+            "journal": "Hall's journal of health",
+            "year": "1874",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37615445",
+            "title": "Contextualizing Congenital Syphilis Rates.",
+            "authors": [
+              "Beard Kenya"
+            ],
+            "journal": "The American journal of nursing",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31057266",
+            "title": "Assessment of Safe Donor Zone of Scalp and Beard for Follicular Unit Extraction in Indian Men: A Study of 580 Cases.",
+            "authors": [
+              "Chouhan Kavish",
+              "Kota Rahulkrishna S",
+              "Kumar Amrendra",
+              "Gupta Jyoti"
+            ],
+            "journal": "Journal of cutaneous and aesthetic surgery",
+            "year": "2019",
+            "abstract": "Hair restoration surgery for androgenetic alopecia (AGA) essentially involves various forms of hair transplantation. There is paucity of studies assessing donor area in Indian men and also no simplified guidelines are available for the safe donor area for follicular unit extraction (FUE). Our study is an attempt to study the donor area in Indian men.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上局部抗真菌可應用於頭皮/鬍鬚皮癬菌感染，但需穿透毛囊，現有標準治療為全身性抗真菌藥（如 terbinafine 口服）。機轉關聯性弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "tinea profunda",
+      "txgnn": {
+        "score": 0.9912720322608948,
+        "rank": 9599
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "深部甲癬/深部皮癬菌感染需強效全身性抗真菌藥。局部 clioquinol 穿透能力不足，機轉關聯性極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pityriasis versicolor",
+      "txgnn": {
+        "score": 0.9896899461746216,
+        "rank": 10767
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "糠秕馬拉色菌（Malassezia）感染理論上對金屬螯合抗真菌有反應，但現有標準局部治療（ketoconazole、selenium sulfide）效果確立，clioquinol 無差異化優勢。機轉關聯性低至中等。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "granuloma annulare",
+      "txgnn": {
+        "score": 0.9526564478874208,
+        "rank": 26082
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "環狀肉芽腫為免疫介導的肉芽腫性皮膚病，非感染性，與 clioquinol 抗真菌機轉無直接關聯。TxGNN 預測可能基於知識圖譜中的皮膚疾病網絡關聯，而非直接機轉。機轉關聯性不明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "tinea manuum",
+      "txgnn": {
+        "score": 0.9412063360214232,
+        "rank": 28585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "手部皮癬菌感染（手癬）與 clioquinol 抗真菌機轉理論相關，但現有局部抗真菌標準治療（terbinafine、clotrimazole 等）已確立。機轉關聯性中等，但缺乏差異化優勢。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "Majocchi granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "Majocchi granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "Majocchi granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "ectothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "ectothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "ectothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "endothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "endothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "endothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "superficial mycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "superficial mycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "superficial mycosis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "tinea profunda"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "tinea profunda"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "tinea profunda"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "pityriasis versicolor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "pityriasis versicolor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "pityriasis versicolor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "granuloma annulare"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "granuloma annulare"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "granuloma annulare"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "tinea manuum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "tinea manuum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clioquinol",
+        "disease": "tinea manuum"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

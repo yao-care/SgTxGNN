@@ -1,0 +1,251 @@
+## 藥物再利用證據分析：Adenosine (DB00640)
+
+> ⚠️ **資料前置說明**：Adenosine 在全球多數市場（美、歐、日）已核准用於陣發性室上心搏過速（PSVT）的急性轉復，且具有明確的 A1/A2A/A2B/A3 受體機轉。本資料庫中「未上市」與空白 original_indications 可能為在地資料缺口（SgTxGNN 資料品質問題），不代表 Adenosine 無已確立適應症。以下分析以全球已知機轉為基礎，結合所提供的試驗與文獻數據進行再利用評估。
+
+---
+
+```json
+{
+  "drug": "Adenosine",
+  "drugbank_id": "DB00640",
+  "analysis_date": "2026-04-04",
+  "data_quality_flag": "original_indications 欄位為空、MoA 標記 [Data Gap]，疑為在地資料庫缺口，全球已核准 PSVT 適應症未被擷取，可能影響 TxGNN 基準分數解釋",
+  "indications": [
+    {
+      "disease_name": "obsolete bundle branch block",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為已廢棄（obsolete）的疾病分類術語，現代診斷學已將束枝傳導阻滯細分為 LBBB/RBBB/分枝阻滯等類型。Adenosine 透過 A1 受體延長 AV 結不應期，對束枝層級的傳導阻滯無直接治療機轉。高 TxGNN 分數（0.9994）可能源自知識圖譜中心律不整節點的泛化相似性，而非真實生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "疾病術語已廢棄，臨床實體模糊；零臨床試驗、零文獻"
+    },
+    {
+      "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CPVT 的核心病理為 RyR2（ryanodine receptor 2）基因突變或 CASQ2 缺陷導致 SR 鈣異常釋放，在兒茶酚胺刺激下誘發延後去極化（DAD）及觸發活性（triggered activity）。Adenosine 透過 Gi 蛋白偶聯 A1 受體抑制腺苷酸環化酶（adenylyl cyclase），降低細胞內 cAMP 濃度，從而拮抗 PKA 對 RyR2、LTCC 及受磷蛋白（phospholamban）的磷酸化，理論上可抑制 CPVT 的觸發機制。PMID 18313614 個案報告顯示 ATP（體內迅速水解為腺苷）成功終止一例 CPVT 雙向性室速；PMID 23747301 顯示 ATP 與 RyR2 central domain 的 CPVT 突變位點直接交互作用。NCT07263139（AGP100，選擇性 A1 激動劑）的 Phase 2a 試驗為同路徑最直接的臨床驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07263139",
+          "relevance_grade": "B",
+          "reasoning": "AGP100 為選擇性腺苷 A1 受體激動劑（非腺苷原藥），專為 CPVT 設計的 Phase 2a（n=10，RECRUITING）。代理驗證（surrogate validation）A1 路徑在 CPVT 的治療可行性，具高度路徑相關性但非腺苷直接證據。試驗規模極小，結果尚未公布。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "18313614", "study_type": "Case Report（ATP 終止 CPVT 室速）", "tier": "3"},
+        {"pmid": "23747301", "study_type": "In vitro mechanistic（ATP-RyR2 CPVT 突變交互作用）", "tier": "3"},
+        {"pmid": "40165484", "study_type": "Review（藥理激發試驗在電生理的角色）", "tier": "3"},
+        {"pmid": "41691612", "study_type": "In vitro（心臟神經微組織 CPVT 模型，2026）", "tier": "3"},
+        {"pmid": "38776406", "study_type": "Animal Study（PDE2A/4B 基因治療心律不整）", "tier": "3"},
+        {"pmid": "30209242", "study_type": "Animal Study（SR 鈣洩漏與心律不整）", "tier": "3"},
+        {"pmid": "21699856", "study_type": "Observational（CPVT 起搏後異常再極化）", "tier": "3"},
+        {"pmid": "35577932", "study_type": "Basic Science（TECRL 缺陷粒線體功能）", "tier": "3"},
+        {"pmid": "39148245", "study_type": "Review（麻醉師應知的兒科心律不整）", "tier": "3"},
+        {"pmid": "18368865", "study_type": "Review（結構正常心臟室速的治療）", "tier": "3"}
+      ],
+      "key_concern": "腺苷半衰期極短（<10 秒），靜脈注射後作用短暫，不適合長期 CPVT 預防；需探討口服 A1 激動劑或緩釋配方。安全性考量：腺苷對於已有室速的患者可能誘發短暫心臟停頓。"
+    },
+    {
+      "disease_name": "periodic paralysis with transient compartment-like syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為超罕見 channelopathy（骨骼肌 SCN4A 或 CACNA1S 相關），主要機轉為肌膜電壓異常與鈉通道/鈣通道功能喪失。Adenosine 的心血管及眼科受體機轉與骨骼肌離子通道病理無已知關聯。TxGNN 高分（0.9898）為純粹圖譜推斷，無任何臨床或基礎科學支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "疾病極罕見，文獻基礎極少；完全無腺苷關聯證據"
+    },
+    {
+      "disease_name": "incessant infant ventricular tachycardia",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Adenosine 在嬰兒臨床實務中已廣泛用於室上心搏過速（SVT）的急性轉復，機轉為 A1 受體介導的 AV 結傳導阻斷。然而「不歇性嬰兒室速（incessant infant VT）」為心室起源，對 AV 結阻斷無反應；部分觸發性（triggered activity，cAMP 依賴型）嬰兒 VT 在理論上可能對腺苷有部分反應，但缺乏直接臨床證據。所提供的三篇文獻研究的是 verapamil、amiodarone 和射頻消融，不涉及腺苷。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "8946465", "study_type": "Case Report（新生兒 verapamil 敏感性 VT）", "tier": "3"},
+        {"pmid": "9893292", "study_type": "Retrospective Case Series（IV amiodarone 兒科心律不整）", "tier": "3"},
+        {"pmid": "10457304", "study_type": "Case Report（早產兒 RF 消融）", "tier": "3"}
+      ],
+      "key_concern": "所有文獻均無腺苷直接研究；嬰兒心室來源心律不整與 SVT 治療邏輯不同"
+    },
+    {
+      "disease_name": "arrhythmogenic right ventricular cardiomyopathy",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ARVC 相關 VT 通常源自纖維脂肪替代的心室心肌折返環路，對腺苷無反應（reentrant VT）。關鍵文獻 PMID 24931634 明確定義「腺苷不敏感的右心室室速（adenosine-insensitive RV tachycardia）」為一獨立類型，並以此與 RVOT VT（cAMP 依賴型，腺苷敏感）做鑑別診斷——此證據反向說明腺苷對 ARVC VT 的治療效果有限。腺苷在 ARVC 主要作為電生理診斷工具，而非治療藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "24931634", "study_type": "Observational/Case Series（腺苷不敏感 RV 室速）", "tier": "3"},
+        {"pmid": "20938414", "study_type": "Review（藥理試驗在心律不整診斷）", "tier": "3"},
+        {"pmid": "15475817", "study_type": "Review（特發性 VT 診斷與治療）", "tier": "3"},
+        {"pmid": "37213071", "study_type": "Cohort（RV 功能預測持續性 VT）", "tier": "2"},
+        {"pmid": "22113617", "study_type": "Observational（ARVC 微血管功能障礙）", "tier": "3"},
+        {"pmid": "24025189", "study_type": "Observational（ARVC 自主神經功能障礙）", "tier": "3"},
+        {"pmid": "29566126", "study_type": "Basic Science/iPSC（ARVC iPSC 心肌細胞電功能）", "tier": "3"},
+        {"pmid": "35128211", "study_type": "Review（遺傳性心肌病新型療法）", "tier": "3"},
+        {"pmid": "25464498", "study_type": "Case Report（HIV 患者 SCD 藥物交互作用）", "tier": "3"},
+        {"pmid": "8869252", "study_type": "Review（特發性單形性 VT）", "tier": "3"}
+      ],
+      "key_concern": "現有文獻反向提示腺苷在 ARVC VT 無治療效果；腺苷敏感性本身是排除 ARVC 的鑑別依據"
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性遺傳性青光眼（如 MYOC、CYP1B1、LTBP2 突變相關）為基因異常導致小樑網發育缺陷或形態異常。腺苷透過 A1 受體調節房水外流通道的機轉在理論上仍適用，但特定遺傳形式的結構性缺陷（developmental angle anomaly）可能對功能性藥物調節反應不佳。零臨床試驗、零相關文獻，不支持進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "遺傳性結構缺陷可能限制功能性藥物介入的效果"
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腺苷系統與睡眠穩態（睡眠壓力）密切相關——咖啡因作為廣泛使用的腺苷受體拮抗劑，被認為能改善部分注意力相關症狀。理論上，腺苷信號降低（拮抗）而非增強（激動）更符合 ADHD 的認知提升方向，Adenosine（激動劑）在此適應症的機轉方向可能相反。零臨床試驗、零文獻，為純粹預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "機轉方向可能與預期相反（腺苷激動 vs. 咖啡因拮抗的認知效果方向不同）"
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Adenosine 透過激活小樑網（trabecular meshwork）細胞的 A1 受體，啟動 Gi 信號路徑，調節 F-actin 重組與細胞外基質降解（MMP 活化），從而增加傳統房水外流途徑（conventional outflow）的通透性並降低眼內壓（IOP）。A3 受體在 POAG 氧化壓力條件下上調（PMID 33987224），可能兼具神經保護作用。Trabodenoson（INO-8875，選擇性腺苷 A1 受體激動劑）已完成 Phase 1/2（NCT01123785，n=144）、多個 Phase 2（NCT02829996, NCT01917383）及兩個 Phase 3 試驗（NCT02565173 n=303 已完成；NCT05405868 n=496 招募中），直接驗證腺苷 A1 路徑在 POAG 的臨床可行性。腺苷原藥因血漿半衰期極短（<10 秒）需配方改良（眼用滴劑或緩釋）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01123785",
+          "relevance_grade": "B",
+          "reasoning": "Trabodenoson Phase 1/2，COMPLETED，n=144。腺苷 A1 受體選擇性激動劑首次人體試驗，證明路徑安全性與初步降眼壓療效。為腺苷路徑在 POAG 的基礎臨床驗證。"
+        },
+        {
+          "nct_id": "NCT02565173",
+          "relevance_grade": "B",
+          "reasoning": "Trabodenoson Phase 3，COMPLETED，n=303。最高等級已完成的腺苷路徑 RCT，提供完整的路徑療效與安全性數據。即使主要終點未達標（Trabodenoson Phase 3 最終結果），也為配方優化提供重要學習。"
+        },
+        {
+          "nct_id": "NCT02829996",
+          "relevance_grade": "B",
+          "reasoning": "Trabodenoson 固定劑量複方 Phase 2，COMPLETED，n=201。評估與 latanoprost 聯合療法，支持腺苷路徑作為現有治療的加成方案，具組合療法的概念驗證價值。"
+        },
+        {
+          "nct_id": "NCT01917383",
+          "relevance_grade": "B",
+          "reasoning": "Trabodenoson 單療 Phase 2，COMPLETED，n=101。單藥療效評估，為 Phase 3 設計提供樣本量計算依據，路徑驗證完整。"
+        },
+        {
+          "nct_id": "NCT05405868",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，RECRUITING，n=496。若為第二代腺苷受體調節劑或改良配方，代表路徑的持續開發信心。為目前活躍的最高等級試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "28076854", "study_type": "Review（POAG 藥物開發管線 20 年）", "tier": "3"},
+        {"pmid": "33987224", "study_type": "Translational（A3 受體在 POAG 氧化壓力）", "tier": "3"},
+        {"pmid": "28356898", "study_type": "Review（POAG 新型藥理候選物，含腺苷類）", "tier": "3"},
+        {"pmid": "37525172", "study_type": "Animal Study（ATP-P2X7R 微膠細胞老化傷害 RGC）", "tier": "3"},
+        {"pmid": "40525318", "study_type": "Genetic Epidemiology（粒線體基因與青光眼易感性）", "tier": "2"},
+        {"pmid": "26496696", "study_type": "Observational（晚期 POAG 粒線體功能）", "tier": "2"},
+        {"pmid": "33963197", "study_type": "Metabolomics/Observational（POAG 代謝重塑）", "tier": "2"},
+        {"pmid": "11453537", "study_type": "Observational（正常眼壓青光眼血小板凝集）", "tier": "2"},
+        {"pmid": "40128732", "study_type": "Bioinformatics（m6A 調控因子在 POAG）", "tier": "3"},
+        {"pmid": "35147832", "study_type": "Microbiome/Metabolomics（腸道菌相與青光眼）", "tier": "3"}
+      ],
+      "key_concern": "1. Trabodenoson Phase 3（NCT02565173）未達主要療效終點（需確認），提示選擇性 A1 激動劑單獨使用效果可能不足；2. 腺苷原藥的眼用配方挑戰（半衰期、穿透性）；3. 需評估 A1 vs A3 vs A2B 受體的最佳靶點選擇",
+      "development_note": "建議優先以 Trabodenoson Phase 3 結果分析作為再利用策略調整依據。腺苷本身的眼用緩釋配方或腺苷前藥可能為更可行的開發方向。"
+    },
+    {
+      "disease_name": "specific developmental disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雖然腺苷信號在神經可塑性與睡眠-記憶整合中有已知作用（PMID 41193806 顯示腺苷信號驅動 ketamine 和 ECT 的抗憂鬱效果，涉及突觸強度重置機制），但此機轉與特定發育障礙（如自閉症、學習障礙）的治療關聯為高度推測性。41 個相關臨床試驗經逐一檢視，均為假陽性匹配（CMR 影像、SCID 自然史、癌症易感性等研究，部分含腺苷作為診斷性藥物而非治療標的）。文獻中無任何直接研究腺苷治療特定發育障礙的文獻。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03331380",
+          "relevance_grade": "C",
+          "reasoning": "CMR 心臟磁振造影技術開發研究（n=2950），腺苷若使用則為心臟負荷測試工具，與特定發育障礙治療完全無關。假陽性匹配。"
+        },
+        {
+          "nct_id": "NCT00027274",
+          "relevance_grade": "C",
+          "reasoning": "遺傳性骨髓衰竭症候群癌症易感性自然史研究（n=4000），無腺苷治療成分。假陽性匹配。"
+        },
+        {
+          "nct_id": "NCT01186913",
+          "relevance_grade": "C",
+          "reasoning": "SCID（嚴重複合性免疫缺乏）自然史研究（n=690），SCID-ADA（腺苷脫氨酶缺乏症）可能觸發關鍵字匹配，但與腺苷藥物治療無關。假陽性匹配。"
+        },
+        {
+          "nct_id": "NCT04162977",
+          "relevance_grade": "C",
+          "reasoning": "青少年物質濫用預防行為介入研究（n=62），無腺苷成分。假陽性匹配。"
+        },
+        {
+          "nct_id": "NCT03259815",
+          "relevance_grade": "C",
+          "reasoning": "PCI 術後 FFR 最佳化研究（n=260），腺苷僅作為冠狀動脈血流儲備測量的診斷工具，與發育障礙治療無關。假陽性匹配。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "41193806", "study_type": "Basic Science/Neuroscience（腺苷信號與抗憂鬱機制，2026）", "tier": "3"},
+        {"pmid": "31388190", "study_type": "Genetic Case Series（CHD4 相關症候群）", "tier": "3"},
+        {"pmid": "27640307", "study_type": "Genetic（ATAD3A 粒線體膜蛋白突變）", "tier": "3"},
+        {"pmid": "33909990", "study_type": "Genetic Cohort（SRCAP 截斷性突變神經發育障礙）", "tier": "3"},
+        {"pmid": "35675510", "study_type": "Case Series（ATP6V1A 腦病表型）", "tier": "3"},
+        {"pmid": "40232556", "study_type": "Metabolomics/Observational（ASD 兒童代謝體學）", "tier": "3"},
+        {"pmid": "32719099", "study_type": "Genetic（ADARB1 雙等位突變嚴重發育障礙）", "tier": "3"},
+        {"pmid": "38481146", "study_type": "Review（PKA 在神經疾病中的角色）", "tier": "3"},
+        {"pmid": "40764304", "study_type": "Basic Science（DDX41 G-quadruplex 解析）", "tier": "3"},
+        {"pmid": "39432785", "study_type": "Basic Science（P4-ATPases 底物特異性）", "tier": "3"}
+      ],
+      "key_concern": "41 個試驗幾乎全部為假陽性；此適應症的高試驗計數具嚴重誤導性，需資料清洗"
+    },
+    {
+      "disease_name": "angle-closure glaucoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "在急性眼壓升高（如急性閉角性青光眼發作）時，前房房水中 ATP 濃度顯著增加（PMID 17822699），此 ATP 在細胞外水解為腺苷後可作用於腺苷受體。慢性原發性閉角型青光眼（PACG）患者的房水中亦記錄到持續性 ATP 升高（PMID 21745471）。A3 受體在假性剝脫症候群合併青光眼中選擇性上調（PMID 15914619），提示腺苷信號異常在閉角型青光眼病理中的參與。然而，閉角型青光眼的主要機轉（瞳孔阻斷、前房角關閉）與開角型不同，急性發作期需雷射/手術介入，腺苷的 IOP 調控作用主要針對小樑網流出途徑，在已關閉的前房角中效果存疑。無直接臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "21745471", "study_type": "Observational/Translational（PACG 房水 ATP 持續升高）", "tier": "2"},
+        {"pmid": "15914619", "study_type": "Translational（假性剝脫症候群 A3 受體上調）", "tier": "3"},
+        {"pmid": "17822699", "study_type": "Basic Science/Translational（眼壓升高釋放 ATP 至前房）", "tier": "3"},
+        {"pmid": "16186358", "study_type": "Gene Expression Study（假性剝脫症候群基因差異表現）", "tier": "3"},
+        {"pmid": "40525318", "study_type": "Genetic Epidemiology（粒線體基因與開閉角青光眼易感性）", "tier": "2"},
+        {"pmid": "35147832", "study_type": "Microbiome/Metabolomics（腸道菌相與碳代謝）", "tier": "3"},
+        {"pmid": "31198598", "study_type": "Case Report（雷射虹膜切除術後大量前房積血）", "tier": "3"},
+        {"pmid": "31578090", "study_type": "Case Report（Garcinia cambogia 眼部併發症）", "tier": "3"}
+      ],
+      "key_concern": "1. 閉角型青光眼的治療邏輯（解除瞳孔阻斷）與腺苷的房水外流機轉不符；2. 急性發作期腺苷的散瞳效果可能加劇瞳孔阻斷（需安全性審慎評估）；3. 需區分急性閉角型 vs 慢性閉角型的不同治療需求"
+    }
+  ]
+}
+```
+
+---
+
+## 優先級摘要矩陣
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵瓶頸 |
+|--------|-----------|---------|---------|------|---------|
+| **open-angle glaucoma** | 0.9512 | **L2** | **S2** | ✅ Proceed with Guardrails | Trabodenoson Phase 3 結果待確認；配方挑戰 |
+| **catecholaminergic polymorphic ventricular tachycardia** | 0.9942 | **L3** | **S1** | 🔬 Research Question | AGP100 Phase 2a 進行中；腺苷半衰期限制 |
+| **angle-closure glaucoma** | 0.9219 | **L4** | **S1** | 🔬 Research Question | 機轉方向不確定；可能加劇急性發作 |
+| arrhythmogenic right ventricular cardiomyopathy | 0.9835 | L4 | S0 | ❌ Hold | 文獻反向提示 adenosine-insensitive VT |
+| incessant infant ventricular tachycardia | 0.9870 | L4 | S0 | ❌ Hold | 無直接腺苷文獻；心室起源機轉不符 |
+| obsolete bundle branch block | 0.9994 | L5 | S0 | ❌ Hold | 廢棄術語；零證據 |
+| periodic paralysis w/ compartment syndrome | 0.9898 | L5 | S0 | ❌ Hold | 零證據；機轉無關聯 |
+| primary hereditary glaucoma | 0.9646 | L5 | S0 | ❌ Hold | 零證據；結構性缺陷限制 |
+| ADHD, inattentive type | 0.9573 | L5 | S0 | ❌ Hold | 機轉方向可能相反 |
+| specific developmental disorder | 0.9454 | L5 | S0 | ❌ Hold | 41 個試驗幾乎全為假陽性 |
+
+> **⚠️ 免責聲明**：本分析僅供研究參考，不構成臨床治療建議。所有再利用候選適應症需經過完整臨床驗證流程方可應用。

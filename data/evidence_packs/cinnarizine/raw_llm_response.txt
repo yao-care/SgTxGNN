@@ -1,0 +1,380 @@
+```json
+{
+  "drug": "Cinnarizine",
+  "drugbank_id": "DB00568",
+  "analysis_date": "2026-04-04",
+  "drug_profile": {
+    "known_moa": "鈣離子通道阻斷劑（L型/T型）+ H1抗組織胺 + 弱多巴胺D2拮抗",
+    "market_status": "未上市（台灣），多國已核准（偏頭痛預防、暈眩）",
+    "safety_note": "已知不良反應：錐體外症狀（長期高劑量）、嗜睡、體重增加"
+  },
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.977,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cinnarizine 阻斷腦血管平滑肌 L/T 型鈣離子通道，抑制皮質擴散性抑制（CSD）；H1 拮抗作用降低組織胺介導的血管擴張；多篇 RCT 及 2022 系統性回顧確認預防效果，尤其在兒童族群有雙盲安慰劑對照試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36148684",
+          "title": "Application of cinnarizine in migraine prevention: A systematic review and meta-analysis (2022)",
+          "study_type": "Systematic Review + Meta-analysis",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "直接針對 Cinnarizine 預防偏頭痛的系統性回顧與統合分析，為最高等級文獻支持"
+        },
+        {
+          "pmid": "39388181",
+          "title": "Preventive Medications in Pediatric Migraine: A Network Meta-Analysis (2024)",
+          "study_type": "Network Meta-analysis",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "兒科偏頭痛預防藥物網絡統合分析，Cinnarizine 納入比較，高品質間接比較"
+        },
+        {
+          "pmid": "31413170",
+          "title": "Practice guideline update summary: Pharmacologic treatment for pediatric migraine prevention (2019)",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "AAN/AHS 實務指引，Cinnarizine 納入兒科偏頭痛預防建議"
+        },
+        {
+          "pmid": "31707814",
+          "title": "Cinnarizine and sodium valproate as preventive agents of pediatric migraine: A randomized double-blind (2020)",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "雙盲隨機對照試驗，直接比較 Cinnarizine 與 Valproate 預防兒童偏頭痛"
+        },
+        {
+          "pmid": "25023977",
+          "title": "Efficacy and safety of cinnarizine in the prophylaxis of migraine in children: a double-blind placebo-controlled trial (2014)",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "雙盲安慰劑對照試驗，直接效力證據，Phase 3 等級"
+        },
+        {
+          "pmid": "38641932",
+          "title": "Comparative study on prophylactic efficacy of cinnarizine and amitriptyline in childhood migraine (2024)",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "最新（2024）RCT，直接與 amitriptyline 頭對頭比較，兒童偏頭痛預防"
+        },
+        {
+          "pmid": "37114310",
+          "title": "Comparison of propranolol combination with cinnarizine vs propranolol in migraine prevention (2022)",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "聯合用藥 RCT，Cinnarizine 作為組合治療成分，支持機轉協同效果"
+        },
+        {
+          "pmid": "25709150",
+          "title": "Association of cinnarizine and betahistine in Ménière's disease with and without migraine (2014)",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "評估偏頭痛合併梅尼爾氏病，間接支持 Cinnarizine 對偏頭痛相關症狀的效果"
+        },
+        {
+          "pmid": "24433203",
+          "title": "Histamine in migraine and brain (2014)",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "提供 H1 拮抗與偏頭痛病生理的機轉連結，支持 Cinnarizine 的作用假說"
+        },
+        {
+          "pmid": "25217187",
+          "title": "Breastfeeding and migraine drugs (2014)",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "藥物安全性參考（哺乳期），與再利用效力評估直接相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.973,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "基底型偏頭痛（Brainstem aura）涉及後循環血管痙攣與腦幹神經元過度活化，Cinnarizine 的鈣通道阻斷可改善後循環血流，同時 H1 拮抗抑制組織胺介導的腦幹觸發機制。現有回顧性研究支持其對偏頭痛相關暈眩的效果，但缺乏針對此亞型的專屬 RCT。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "25023977",
+          "title": "Efficacy and safety of cinnarizine in prophylaxis of migraine in children: double-blind placebo-controlled (2014)",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "RCT 含 brainstem aura 次族群，但非主要終點，間接支持"
+        },
+        {
+          "pmid": "24834377",
+          "title": "Cinnarizine for prophylaxis of migraine-associated vertigo: a retrospective study (2014)",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "回顧性研究專注於偏頭痛相關暈眩（與 brainstem aura 高度重疊），為最直接相關文獻"
+        },
+        {
+          "pmid": "14703897",
+          "title": "Cinnarizine in migraine prophylaxis: efficacy, tolerability and predictive factors (2003)",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "偏頭痛預防的臨床觀察研究，含預測反應因子分析"
+        },
+        {
+          "pmid": "12789824",
+          "title": "Comparative efficacy of betaserc and cinnarizine for vertigo in migraine patients (2003)",
+          "study_type": "Comparative Clinical Study",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "頭對頭比較研究，針對偏頭痛暈眩，與 brainstem aura 機轉相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn_score": 0.969,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉連結。NSIAD 涉及 AVPR2 基因活化突變導致腎臟持續水重吸收，Cinnarizine 的鈣通道阻斷和 H1 拮抗與此病生理無已知交集。TxGNN 預測分數高（0.969）可能來自知識圖譜中間接節點連接，缺乏生物學合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.960,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "頭痛障礙（廣義）涵蓋偏頭痛、緊張型頭痛等，Cinnarizine 對偏頭痛的鈣通道阻斷和血管調節機轉可延伸至其他血管性頭痛類型。現有文獻多聚焦於偏頭痛亞型，對非偏頭痛型頭痛缺乏直接 RCT 證據，建議在偏頭痛證據基礎上謹慎擴展。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36148684",
+          "title": "Application of cinnarizine in migraine prevention: Systematic review and meta-analysis (2022)",
+          "study_type": "Systematic Review + Meta-analysis",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "偏頭痛導向，但為頭痛障礙最高質量支持文獻"
+        },
+        {
+          "pmid": "39388181",
+          "title": "Preventive Medications in Pediatric Migraine: Network Meta-Analysis (2024)",
+          "study_type": "Network Meta-analysis",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "偏頭痛亞型，間接支持廣義頭痛"
+        },
+        {
+          "pmid": "1840336",
+          "title": "Magnesium and its combination with cinnarizine in long-term treatment of headache (1991)",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "針對廣義頭痛的聯合治療研究，但年代較久（1991），方法學需審慎"
+        },
+        {
+          "pmid": "31955597",
+          "title": "Nomenclature for flunarizine, cinnarizine, and lomerizine (2020)",
+          "study_type": "Review/Commentary",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "分類命名文獻，提供藥物家族背景，非效力證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自律神經頭痛（叢集性頭痛等）主要病生理為三叉神經-副交感神經反射弧異常活化，Cinnarizine 的鈣通道阻斷對此路徑無明確靶點。目前無任何臨床試驗或文獻支持此適應症，TxGNN 預測可能基於廣義頭痛節點相似性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.941,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "偏頭痛遺傳易感性與離子通道基因（CACNA1A、SCN1A）多態性相關，Cinnarizine 作為鈣通道調節劑在理論上可影響具鈣通道基因變異的易感族群，但現有文獻多為通用偏頭痛預防研究，缺乏基因型分層的臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36148684",
+          "title": "Application of cinnarizine in migraine prevention: Meta-analysis (2022)",
+          "study_type": "Systematic Review + Meta-analysis",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "提供偏頭痛預防效力基礎，未分層遺傳易感性"
+        },
+        {
+          "pmid": "38641932",
+          "title": "Comparative study: cinnarizine vs amitriptyline in childhood migraine (2024)",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "偏頭痛 RCT，未針對遺傳易感性亞型"
+        },
+        {
+          "pmid": "22938964",
+          "title": "Animal models (2012)",
+          "study_type": "Review/Animal Models",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "動物模型綜述，提供易感性機轉背景，非直接臨床證據"
+        },
+        {
+          "pmid": "24433203",
+          "title": "Histamine in migraine and brain (2014)",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "組織胺機轉回顧，間接支持 H1 拮抗在易感族群的作用"
+        }
+      ]
+    },
+    {
+      "disease_name": "common cold",
+      "txgnn_score": 0.934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 文獻誤對應警示：PMID 12609783 研究的是「acquired cold urticaria（獲得性冷接觸性蕁麻疹）」而非「common cold（普通感冒）」，兩者為完全不同疾病。冷蕁麻疹是溫度觸發的過敏反應，Cinnarizine 的 H1 拮抗可緩解症狀；普通感冒為病毒性感染，Cinnarizine 無抗病毒機轉。TxGNN 可能出現疾病名稱混淆，此適應症應視為 L5。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "12609783",
+          "title": "Cinnarizine is a useful and well-tolerated drug in the treatment of acquired cold urticaria (2003)",
+          "study_type": "Clinical Case Series",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "⚠️ 研究對象為冷接觸性蕁麻疹（cold urticaria），非普通感冒。H1 拮抗機轉合理，但疾病分類有誤，需重新評估靶疾病"
+        }
+      ]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.933,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蟲蝕狀皮膚萎縮（Atrophoderma vermiculata）為罕見毛孔角化症，病因涉及毛囊漏斗部異常角化，與 Cinnarizine 的鈣通道阻斷或 H1 拮抗機轉無已知關聯。無任何文獻或試驗支持，TxGNN 預測可能來自皮膚科疾病節點的圖譜近鄰效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.922,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺動脈高壓的病生理涉及肺血管平滑肌增生與收縮，Cinnarizine 的鈣通道阻斷在理論上可降低肺血管阻力（與 nifedipine 類似機轉），但現有文獻均為 1976-1988 年的早期研究，方法學不足。現代 PAH 治療已有更專一的靶向藥物（ERA、PDE5i、sGC agonist），Cinnarizine 的競爭力有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "132989",
+          "title": "Effects of phenobarbitone, cinnarizine, and zoxazolamine on right ventricular hypertrophy (1976)",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "動物模型（1976年），評估右心室肥大抑制效果，方法學與現代標準差距大"
+        },
+        {
+          "pmid": "3392921",
+          "title": "Effectiveness of calcium antagonists in chronic nonspecific lung disease (1988)",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "針對 COPD 相關肺高壓的早期鈣拮抗劑研究，樣本數小，年代久遠"
+        },
+        {
+          "pmid": "7027416",
+          "title": "Amaurosis fugax (1981)",
+          "study_type": "Case Report/Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究對象為短暫性視覺喪失，與肺高壓適應症關聯性甚低，可能為誤對應"
+        }
+      ]
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn_score": 0.921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉部毛周角化（Ulerythema ophryogenesis）為罕見遺傳性毛囊角化症，病因涉及毛囊角化異常，與 Cinnarizine 藥理機轉（鈣通道阻斷、H1 拮抗）無已知關聯。無任何支持文獻或試驗，TxGNN 預測可能來自與 atrophoderma vermiculata 相似的皮膚疾病圖譜近鄰效應，預測可靠性低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "high_priority": [
+      {
+        "disease": "migraine disorder",
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "action": "Cinnarizine 偏頭痛預防具多個 RCT + 系統性回顧支持，建議進入正式臨床評估流程（需關注兒科適應症為主的現有證據是否可延伸至成人）"
+      }
+    ],
+    "medium_priority": [
+      {
+        "disease": "migraine with brainstem aura",
+        "evidence_level": "L3",
+        "action": "建議設計針對性回顧性研究或前瞻性觀察研究"
+      },
+      {
+        "disease": "headache disorder",
+        "evidence_level": "L2",
+        "action": "可在偏頭痛適應症基礎上評估廣義頭痛亞群，需明確患者分層"
+      }
+    ],
+    "flags": [
+      "⚠️ common cold 文獻實為 cold urticaria，建議重新映射至正確疾病節點",
+      "⚠️ nephrogenic syndrome / trigeminal autonomic cephalalgia / atrophoderma / ulerythema 均無證據支持，TxGNN 高分可能反映知識圖譜中的圖結構相似性而非生物學相關性",
+      "⚠️ pulmonary hypertension 文獻均超過 35 年，需評估現代 PAH 治療背景下的臨床意義"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 優先推進：Migraine Disorder（L2 → S3）
+
+Cinnarizine 在**偏頭痛預防**具有最強的證據基礎：
+- **2022 系統性回顧 + 統合分析**直接評估 Cinnarizine
+- **多個 RCT**（2014, 2020, 2022, 2024）含雙盲安慰劑對照設計
+- **AAN/AHS 2019 指引**納入兒科建議
+- 機轉清晰：鈣通道阻斷 ＋ H1 拮抗 ＋ 腦血管調節
+
+主要限制為現有 RCT 多聚焦**兒科族群**，成人證據相對薄弱。
+
+### 🟡 觀察研究：Migraine with Brainstem Aura / Headache Disorder（L3/L2 → S1-S2）
+
+機轉延伸合理，但缺乏針對性 RCT，建議透過回顧性研究補強。
+
+### 🔴 暫不推進（L4-L5 → S0）
+
+其餘 7 個適應症均缺乏臨床證據，且部分存在：
+- **疾病映射錯誤**（common cold ← cold urticaria 文獻）
+- **圖譜近鄰效應假陽性**（罕見皮膚病無任何生物學連結）
+- **過時動物數據**（pulmonary hypertension，1976 年）

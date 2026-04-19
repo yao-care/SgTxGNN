@@ -1,0 +1,402 @@
+```json
+{
+  "drug": "Insulin glulisine",
+  "drugbank_id": "DB01309",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Insulin glulisine 為全球已核准之速效胰島素類似物（Apidra®, Sanofi），在新加坡市場標記為「未上市」。Type 1 DM 為其原始適應症，其餘為 TxGNN 新預測候選。",
+  "indications": [
+    {
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Insulin glulisine 為速效胰島素類似物，透過 Lys3→Glu 及 Asn29→Lys 胺基酸置換，加速皮下吸收，精確模擬生理餐時胰島素分泌（prandial insulin）。T1DM 之胰島 β 細胞被自體免疫破壞，導致絕對胰島素缺乏，外源性胰島素補充為核心治療機制，生物合理性極高。此為原始核准適應症，非再利用候選。",
+      "guardrails": [
+        "新加坡未上市，需透過 HSA 特別進口申請（SAF/compassionate use）",
+        "注射部位輪換，防止脂肪萎縮或增生（drug-induced localized lipodystrophy 風險）",
+        "低血糖監測計畫（特別是兒童及使用胰島素泵患者）",
+        "冷鏈儲存及效期管理"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03328845",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 300,
+          "relevance_grade": "A",
+          "reasoning": "直接比較 glulisine 與其他速效胰島素類似物在 T1DM 氧化壓力之影響，樣本數300，完成，高相關性"
+        },
+        {
+          "nct_id": "NCT00964574",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 68,
+          "relevance_grade": "A",
+          "reasoning": "多中心 Phase IV 直接評估 insulin glulisine 之療效與安全性，完成試驗，直接相關"
+        },
+        {
+          "nct_id": "NCT04196231",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 258,
+          "relevance_grade": "B",
+          "reasoning": "評估胰島素與 GLP-1 RA 或 SGLT-2 抑制劑組合之持久性，包含 basal-bolus 方案，間接相關"
+        },
+        {
+          "nct_id": "NCT04124302",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 76,
+          "relevance_grade": "B",
+          "reasoning": "兒童混合餐後血糖之胰島素劑量計算研究，涉及速效胰島素使用，間接相關"
+        },
+        {
+          "nct_id": "NCT02685449",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 70,
+          "relevance_grade": "B",
+          "reasoning": "T1DM 兒童使用 CSII 時純蛋白質餐後胰島素需求，與 glulisine pump 使用相關"
+        },
+        {
+          "nct_id": "NCT02518945",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 26,
+          "relevance_grade": "B",
+          "reasoning": "T1DM 中 dapagliflozin 作為胰島素輔助治療之 Phase 3 研究，樣本數偏小，間接相關"
+        },
+        {
+          "nct_id": "NCT02004366",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 295,
+          "relevance_grade": "C",
+          "reasoning": "主要研究 linagliptin 住院療效，胰島素為背景治療，對 glulisine 特異性低"
+        },
+        {
+          "nct_id": "NCT04965051",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "Phase N/A，狀態不明，資料不完整，可參考性低"
+        },
+        {
+          "nct_id": "NCT01081938",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 15,
+          "relevance_grade": "C",
+          "reasoning": "提前終止且樣本數僅15，無法提供有效性結論"
+        },
+        {
+          "nct_id": "NCT02846857",
+          "phase": "PHASE2",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "撤回前未招募任何受試者，無實質資料"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "16308840",
+          "title": "Efficacy and safety of insulin glulisine in patients with type 1 diabetes",
+          "year": "2005",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "Glulisine 核心療效/安全性 Phase 3 RCT，奠定核准基礎"
+        },
+        {
+          "pmid": "35933650",
+          "title": "Comparison of rapid-acting insulin analogues including glulisine for pump treatment",
+          "year": "2022",
+          "study_type": "Comparative RCT",
+          "tier": 1,
+          "note": "最新 (2022) 頭對頭比較 glulisine/lispro/aspart 用於 CSII，高時效性"
+        },
+        {
+          "pmid": "28544684",
+          "title": "Insulin glulisine for continuous subcutaneous insulin infusion in pediatric type 1 diabetes",
+          "year": "2017",
+          "study_type": "Clinical study",
+          "tier": 1,
+          "note": "專注兒科 CSII 使用，填補兒科族群資料"
+        },
+        {
+          "pmid": "18076215",
+          "title": "Clinical pharmacokinetics and pharmacodynamics of insulin glulisine",
+          "year": "2008",
+          "study_type": "PK/PD study",
+          "tier": 2,
+          "note": "提供 PK/PD 機轉理解基礎"
+        },
+        {
+          "pmid": "17703632",
+          "title": "Combining insulins for optimal blood glucose control: focus on insulin glulisine",
+          "year": "2007",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "基礎 + 速效組合策略綜述"
+        },
+        {
+          "pmid": "19496630",
+          "title": "Insulin glulisine: a review of its use in the management of diabetes mellitus",
+          "year": "2009",
+          "study_type": "Systematic Review",
+          "tier": 2,
+          "note": "全面治療管理綜述"
+        },
+        {
+          "pmid": "19216625",
+          "title": "Insulin glulisine: aspects of basal/bolus therapy",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "Basal/bolus 治療策略深度分析"
+        },
+        {
+          "pmid": "23243636",
+          "title": "Insulin analogues for type 1 diabetes in children and adolescents",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "兒科族群速效類似物比較，含 glulisine"
+        },
+        {
+          "pmid": "16193096",
+          "title": "Insulin glulisine (drug profile)",
+          "year": "2005",
+          "study_type": "Drug Review",
+          "tier": 2,
+          "note": "藥物完整特性描述"
+        },
+        {
+          "pmid": "35650058",
+          "title": "Switching insulin degludec to insulin glulisine improved nocturnal hypoglycemia and ventricular arrhythmia",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "個案報告，顯示藥物轉換特殊獲益，但代表性有限"
+        }
+      ]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "胰臟發育不全（PTFL1/PDX1/PTF1A 等基因突變）導致胰臟完全缺失，胰島 β 細胞不存在，造成絕對胰島素缺乏症（類似極重度 T1DM）。理論上速效胰島素類似物用於餐時血糖控制之機制完全適用，但目前無針對此特定族群之臨床試驗或個案系列報告。疾病極罕見（全球數百例），標準胰島素替代治療文獻多以短效或常規胰島素記錄。",
+      "research_question": "在胰臟發育不全患者中，insulin glulisine 之 PK/PD 特性與 T1DM 患者是否相似？外分泌功能缺失是否影響藥物吸收或血糖反應模式？",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "硫胺素反應性功能障礙症候群（Rogers syndrome，SLC19A2 突變）表現為三聯症：糖尿病、巨球細胞貧血、聽力喪失。其糖尿病組分源自硫胺素轉運缺陷導致 β 細胞氧化損傷，部分患者可能發展至胰島素依賴狀態。TxGNN 分數偏高可能反映知識圖譜中「糖尿病 → 胰島素」的節點關聯，而非疾病特異性機轉。目前無任何臨床試驗或文獻直接支持 glulisine 用於此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "典型僵人症候群（anti-GAD65 自身抗體介導）與 T1DM 共享自體免疫病理機制（anti-GAD65 抗體在兩者均可出現），約 20-30% 僵人症候群患者合併 T1DM。TxGNN 可能透過「共同抗原 GAD65 → 自體免疫 → 胰島素相關性」形成知識圖譜連結，但 glulisine 對僵人症候群本身（GABA 神經傳遞障礙）無直接治療機制。無臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局灶性僵肢症候群為僵人症候群之局部變型，共享 anti-GAD65 抗體機制（部分病例），與 T1DM 之共病關聯性同上。Glulisine 對此症候群之 α-運動神經元持續過度興奮並無直接抑制效果。無臨床試驗或文獻支持，TxGNN 評分很可能為間接知識圖譜誤導。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎為自體免疫多腺體症候群（APS type 1/2）之組成部分。APS type 2 常合併 T1DM（抗胰島素受體或抗 GAD 抗體），TxGNN 可能透過「APS → T1DM → 胰島素」路徑建立連結。Glulisine 對卵巢自體免疫發炎過程無已知治療機轉。無任何臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 警示：胰島素注射本身為藥物誘發局部脂肪萎縮/脂肪增生之已知原因（注射部位反覆刺激）。TxGNN 高分很可能反映知識圖譜中「胰島素 ↔ 局部脂肪萎縮」的因果關係，而非治療關係。Glulisine 不是此症之治療藥物，反而是潛在病因之一。此候選應排除，評為 L5。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "向心性脂肪萎縮症（Lipodystrophia centrifugalis abdominalis infantilis）為罕見兒科皮膚疾病，病因不明，可能涉及局部炎症或生長因子異常。目前無已知胰島素治療機轉，且 glulisine 用於此疾病之文獻與試驗均為零。TxGNN 分數可能為知識圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨骼發育不全症（INPPL1/SHIP2 基因突變）影響磷肌醇信號通路（PIP3 調節），SHIP2 亦參與胰島素信號傳遞（PI3K/Akt 路徑的負調控子）。理論上 SHIP2 缺失可能改變胰島素信號敏感性，但此為高度間接、預測性機制連結。骨骼表型（短肢侏儒）與胰島素治療之關聯性缺乏生物合理性支持。無任何臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9910,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力性局部脂肪萎縮為機械性壓力（義肢、注射、壓迫）導致局部脂肪組織消失。同「drug-induced localized lipodystrophy」，胰島素注射為此類脂肪萎縮之誘因之一，而非治療手段。TxGNN 高分疑為注射相關共現性之誤導，缺乏治療機轉支持與任何臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": [
+    {
+      "rank": 1,
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "priority": "高（原始適應症，需處理新加坡上市申請）"
+    },
+    {
+      "rank": 2,
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "priority": "低（罕見病，機制合理但證據不足）"
+    },
+    {
+      "rank": 3,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低（無臨床證據，間接機制）"
+    },
+    {
+      "rank": 4,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低"
+    },
+    {
+      "rank": 5,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低"
+    },
+    {
+      "rank": 6,
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低"
+    },
+    {
+      "rank": 7,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低"
+    },
+    {
+      "rank": 8,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低（⚠️ 胰島素為此症病因之一，非治療用途）"
+    },
+    {
+      "rank": 9,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低"
+    },
+    {
+      "rank": 10,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9910,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "priority": "最低（⚠️ 同上，注射相關因果誤導）"
+    }
+  ],
+  "analyst_flags": [
+    "🔴 FLAG-1: drug-induced localized lipodystrophy 及 pressure-induced localized lipoatrophy 之 TxGNN 高分極可能為因果關係倒置（胰島素 → 脂肪萎縮，非治療關係），建議在知識圖譜中標記此類偽陽性模式",
+    "🟡 FLAG-2: stiff person syndrome 系列（classic + focal）之高評分反映 anti-GAD65 共病連結，屬知識圖譜可預期但臨床無意義之關聯，建議加入 KG 過濾規則",
+    "🟡 FLAG-3: 本藥為已上市藥物（FDA 2004年核准），market_status 標記為「未上市」應理解為新加坡市場未取得 HSA 核准，而非全球未核准，需區分標記語義",
+    "🟢 FLAG-4: pancreatic agenesis 雖評為 L4，但其治療邏輯（完全胰島素缺乏需外源胰島素替代）與 T1DM 完全相同，若有個案機會可考慮 N-of-1 研究設計",
+    "ℹ️ DATA-GAP: original_moa 標記為 [Data Gap]，應補充：胰島素受體激動劑，促進葡萄糖攝取（GLUT4），抑制肝糖輸出，合成代謝效應"
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+### 核心發現
+
+| 指標 | 數值 |
+|------|------|
+| 分析適應症總數 | 10 |
+| L1 (Phase 3/4 RCT) | 1 (T1DM — 原始適應症) |
+| L4 (間接/個案層級) | 1 (Pancreatic agenesis) |
+| L5 (純預測) | 8 |
+| 可進入 S3 決策 | 1 |
+| 值得探索研究問題 | 1 |
+| 建議 Hold | 8 |
+
+### 關鍵解讀
+
+1. **Type 1 DM (L1/S3)** — 這是 glulisine 的原始核准適應症，有 Phase 3/4 RCT 組成的完整證據體系（10 篇文獻中含 3 篇 Tier-1、6 篇 Tier-2），主要行動是協助 HSA 上市申請，而非再利用研究。
+
+2. **兩個脂肪萎縮適應症 (⚠️ 警示)** — TxGNN 模型發生「因果關係倒置」的假陽性：胰島素注射是這兩個疾病的**病因**之一，不是治療藥物，應在模型中設立反向關係過濾器。
+
+3. **神經免疫/多腺體自體免疫群** — Stiff person syndrome、autoimmune oophoritis 的高分反映 GAD65 抗體的跨疾病共現，屬於可預期的知識圖譜雜訊，無臨床轉化意義。

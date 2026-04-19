@@ -1,0 +1,601 @@
+```json
+{
+  "drug": "Clofarabine",
+  "drugbank_id": "DB00631",
+  "analysis_date": "2026-04-04",
+  "background_note": "Clofarabine 為第二代嘌呤核苷類似物（adenosine deaminase-resistant），在美國 FDA 及歐盟 EMA 已核准用於兒童復發/難治性 ALL；本地市場狀態標記為未上市，以下依全球臨床證據進行評估。",
+  "indications": [
+    {
+      "disease_name": "myeloid leukemia",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clofarabine 磷酸化為三磷酸型態後，競爭性抑制 DNA 聚合酶 α（阻斷 DNA 複製）及核糖核苷酸還原酶（耗竭 dATP 池），同時直接損傷粒線體膜電位觸發 Caspase 依賴性凋亡；骨髓性白血病細胞高度表達去氧胞苷激酶（dCK），使其對此類核苷類似物敏感性顯著高於正常造血細胞。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00454480",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3 大型 RCT（n=2000），專針對老年 AML 及高風險 MDS 患者，已完成；為本適應症最高層級直接證據，奠定 L1 評定基礎。"
+        },
+        {
+          "nct_id": "NCT00098033",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成試驗（n=64），直接評估 Clofarabine 在急性白血病（含 AML）中的藥效動力學與臨床反應，為核心證據。"
+        },
+        {
+          "nct_id": "NCT01794702",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2 完成（n=65），評估 Decitabine → Clofarabine + Idarubicin + Cytarabine（CIA）於 AML，提供組合療法安全性與療效數據。"
+        },
+        {
+          "nct_id": "NCT05917405",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 招募中（n=302），測試含 Clofarabine 之減強度預處理方案；移植前橋接情境，非直接 AML 誘導緩解療效指標。"
+        },
+        {
+          "nct_id": "NCT00708721",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2，口服 Clofarabine 用於 MDS（屬骨髓性疾病譜系），已提前終止（n=11），數據有限但支持可行性探索。"
+        },
+        {
+          "nct_id": "NCT04644016",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 臍帶血移植研究，Clofarabine 作為預處理藥物之一，非直接 AML 療效評估，相關性間接。"
+        },
+        {
+          "nct_id": "NCT04990323",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 臍帶血擴增移植研究，樣本數極少（n=12），Clofarabine 僅為預處理方案成分，非主要療效驅動。"
+        },
+        {
+          "nct_id": "NCT00125840",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 藥動學研究，對象為晚期實體瘤，與骨髓性白血病無直接相關性；僅提供安全性參考。"
+        },
+        {
+          "nct_id": "NCT02053545",
+          "relevance_grade": "C",
+          "reasoning": "已撤回（n=0），無任何可用數據，不計入證據評估。"
+        },
+        {
+          "nct_id": "NCT01065545",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 維持治療研究，已撤回（n=0），無數據，不計入。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31281098",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "Clofarabine + cytarabine 用於 AML 的系統性評述，2019 年。"
+        },
+        {
+          "pmid": "32187883",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "Clofarabine + cytarabine + mitoxantrone 於 r/r AML，報告高反應率。"
+        },
+        {
+          "pmid": "36336258",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "Clofarabine + Busulfan 骨髓清除性預處理於異體 HCT，2023 年數據。"
+        },
+        {
+          "pmid": "27621503",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Clofarabine + cytarabine 方案用於 AML，含療效與毒性分析。"
+        },
+        {
+          "pmid": "22957815",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Clofarabine 在 AML 中的角色回顧，2013 年。"
+        },
+        {
+          "pmid": "25457773",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "成人 AML Clofarabine 治療角色的 2015 年綜述。"
+        },
+        {
+          "pmid": "21182488",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "AML 新興藥物藥理與治療活性，含 Clofarabine 詳細機轉。"
+        },
+        {
+          "pmid": "23526416",
+          "study_type": "Clinical Practice Update",
+          "tier": "2",
+          "note": "AML 2013 年風險分層與管理更新，Clofarabine 作為救援選項。"
+        },
+        {
+          "pmid": "15230627",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "note": "Clofarabine 首篇重要藥物評述，2004 年，奠定基礎機轉認識。"
+        },
+        {
+          "pmid": "12563614",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "進展期 CML 綜述，間接涵蓋骨髓性白血病背景。"
+        }
+      ]
+    },
+    {
+      "disease_name": "precursor lymphoblastic lymphoma/leukemia",
+      "txgnn_score": 0.9957,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "前驅淋巴母細胞性腫瘤（T-ALL/B-ALL/lymphoblastic lymphoma）細胞高度表達 dCK，使 Clofarabine 得以有效磷酸化至活性三磷酸型態；抑制 DNA 聚合酶及核糖核苷酸還原酶造成不可逆 DNA 鏈斷裂及 S 期阻滯，同時觸發粒線體凋亡路徑。臨床上此適應症與 ALL 高度重疊，Clofarabine 已獲美國 FDA 核准用於兒童復發/難治性 ALL。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00042341",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 關鍵試驗（n=60），專針對兒童復發/難治性 ALL，已完成；此試驗為美國 FDA 核准之核心支持證據，相關性最高。"
+        },
+        {
+          "nct_id": "NCT00930098",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=74），歐洲兒科 r/r ALL 確認性研究，為 EMA 核准之依據之一，直接支持本適應症。"
+        },
+        {
+          "nct_id": "NCT00098033",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=64），涵蓋急性白血病（含淋巴母細胞性白血病），藥效動力學與療效並評，高相關性。"
+        },
+        {
+          "nct_id": "NCT00973752",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=30），老年 ALL 患者；補充兒科外成人族群的療效與安全性數據。"
+        },
+        {
+          "nct_id": "NCT01794702",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 完成（n=65），DAC + CIA 方案，雖主要針對 AML，亦收納急性淋巴性白血病；組合數據有參考價值。"
+        },
+        {
+          "nct_id": "NCT01169012",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 口服/靜脈 Clofarabine 藥動學研究（n=13），適應症含高風險 MDS 及急性白血病，提供口服劑型安全性數據。"
+        },
+        {
+          "nct_id": "NCT02349178",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 橋接研究（n=6，終止），評估 Clofarabine + Cyclophosphamide + Etoposide 於兒童，終止原因影響數據完整性。"
+        },
+        {
+          "nct_id": "NCT01158885",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2（n=2，終止），MRD 陽性白血病，入組極少，統計效能不足，可參考性有限。"
+        },
+        {
+          "nct_id": "NCT00691652",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2（n=2，終止），B 細胞 NHL + Rituximab，入組過少，且適應症為 NHL 而非淋巴母細胞性腫瘤。"
+        },
+        {
+          "nct_id": "NCT00125840",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，晚期實體瘤，與本適應症無直接相關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37819554",
+          "study_type": "Patient-Level Meta-Analysis",
+          "tier": "1",
+          "note": "患者層級 meta-analysis，2023 年，為 ALL 中最高等級統合分析證據。"
+        },
+        {
+          "pmid": "38680089",
+          "study_type": "Multi-Cohort Analysis",
+          "tier": "1",
+          "note": "2024 年成人 ALL 深度多中心分析，評估獲益與風險，tier-1 等級。"
+        },
+        {
+          "pmid": "22431002",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "成人 r/r ALL 及淋巴瘤的 Clofarabine 方案回顧性研究。"
+        },
+        {
+          "pmid": "38643356",
+          "study_type": "Real-World Study",
+          "tier": "2",
+          "note": "2024 年日本 r/r ALL 真實世界安全性與療效研究，提供亞洲族群數據。"
+        },
+        {
+          "pmid": "22354543",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "兒科急性白血病 Clofarabine 現況與問題的 2012 年評述。"
+        },
+        {
+          "pmid": "17288522",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "ALL 中 Clofarabine 治療的早期重要文獻，2007 年。"
+        },
+        {
+          "pmid": "18086342",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "ALL 三種新藥（含 Clofarabine）比較評述，2007 年。"
+        },
+        {
+          "pmid": "16988579",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Clofarabine 與 nelarabine 嘌呤核苷類似物機轉比較。"
+        },
+        {
+          "pmid": "21591997",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Clofarabine 用於 MDS 之評述，間接補充淋巴母細胞性適應症背景。"
+        },
+        {
+          "pmid": "15962525",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "note": "Clofarabine 2005 年藥物評述，涵蓋 ALL 早期核准背景。"
+        }
+      ]
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.9953,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ganglioneuroblastoma 為神經嵴來源之混合性腫瘤（含成熟神經節細胞及幼稚神經母細胞成分），理論上 DNA 損傷藥物可能對幼稚成分有效，但其 dCK 表達低且缺乏核苷類似物的臨床試驗支持。TxGNN 預測可能源自神經母細胞瘤的知識圖譜相似性，而非直接機轉連結，完全無臨床或文獻依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neuroblastoma",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經母細胞瘤細胞雖具快速增殖特性，但 dCK 活性相對白血病細胞低，降低 Clofarabine 磷酸化效率。2025 年蛋白質組學研究（PMID 40011918）提示染色質重塑為潛在治療靶點，但未直接涉及 Clofarabine。現有 1 個 Phase 2 試驗（NCT00617929）因終止且屬 HSCT 條件性治療，非直接抗腫瘤療效評估，無法作為有效臨床證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00617929",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2（n=12，終止），研究目的為 HSCT 植入失敗後的再條件化治療，神經母細胞瘤為入組疾病之一但非主要研究對象；Clofarabine 在此為預處理藥物而非抗腫瘤主體，不構成神經母細胞瘤直接療效證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40011918",
+          "study_type": "Basic Science (Proteomics)",
+          "tier": "3",
+          "note": "2025 年蛋白質組學研究，揭示神經母細胞瘤染色質重塑靶點，未涉及 Clofarabine，僅提供間接基礎科學背景。"
+        },
+        {
+          "pmid": "21190039",
+          "study_type": "Educational Review",
+          "tier": "3",
+          "note": "兒科腫瘤新療法發展教育性論文，2011 年，泛論核苷類似物研發方向，非 Clofarabine 特異性神經母細胞瘤證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群（疑似 SAMD9/SAMD9L 相關疾病或 VATER/VACTERL 譜系）為先天性遺傳發育異常，非增殖性惡性腫瘤；Clofarabine 的 DNA 毒性機轉對此類疾病無合理治療靶點。TxGNN 預測可能因共病性 T 細胞免疫缺陷與白血病傾向（如 SAMD9L 突變相關骨髓衰竭）產生間接圖譜連結，但無任何臨床或實驗室證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹膜後腫瘤為異質性疾病群（含脂肪肉瘤、平滑肌肉瘤、神經鞘瘤等間質來源腫瘤），其增殖動力學與造血系統惡性腫瘤顯著不同；核苷類似物對低增殖、低 dCK 表達的間質腫瘤療效預期極低。TxGNN 預測評分高但缺乏任何臨床前或臨床支持，暫不具備可進行之機轉假說。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive",
+      "txgnn_score": 0.9943,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "BCR-ABL1 陽性急變期 CML 在生物行為上類似 AML（骨髓急變）或 ALL（淋巴急變），dCK 活性上調使其對 Clofarabine 有潛在反應性。Clofarabine 可作為 TKI 合併治療的橋接方案，達到緩解後接受異體幹細胞移植；PMID 20938169 特別記錄此橋接策略的臨床可行性。然而缺乏大型 Phase 3 RCT，且 BCR-ABL1 特異性 TKI 耐藥機制可能影響療效。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00098033",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=64），涵蓋急性白血病（含 CML 急變期），直接提供藥效學與療效數據；為本適應症最高相關性試驗。"
+        },
+        {
+          "nct_id": "NCT00334074",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=30），評估 Clofarabine + Cytarabine 於復發 AML 及高風險 MDS；CML 急變期骨髓型與 AML 生物行為近似，相關性高。"
+        },
+        {
+          "nct_id": "NCT00293410",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 完成（n=70），Clofarabine 序貫 Cyclophosphamide 分次劑量遞增試驗，提供強化方案之安全性資料。"
+        },
+        {
+          "nct_id": "NCT00423514",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 完成（n=38），Clofarabine + Melphalan + Thiotepa 骨髓清除性預處理，適用於高危血液惡性腫瘤含 CML 急變期；橋接移植情境相關。"
+        },
+        {
+          "nct_id": "NCT00852709",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 終止（n=35），Clofarabine 後序 Cyclophosphamide 遞增試驗，終止且多為 AML 患者，CML 急變期數據不充分。"
+        },
+        {
+          "nct_id": "NCT01500161",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2（n=1，終止），臍帶血移植研究，入組極少，統計無效。"
+        },
+        {
+          "nct_id": "NCT03096782",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成（n=6），臍帶血岩藻糖化移植研究，樣本極小，Clofarabine 為預處理成分，非療效主體。"
+        },
+        {
+          "nct_id": "NCT02727803",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 招募中（n=100），個人化 NK 細胞治療配合臍帶血移植，Clofarabine 為預處理藥物，非直接評估 CML 急變期療效。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "20938169",
+          "study_type": "Case Series / Retrospective",
+          "tier": "2",
+          "note": "2010 年報告 Clofarabine 方案作為骨髓急變期 CML 異體移植橋接治療，為本適應症最直接文獻，亦為關鍵支持依據。"
+        },
+        {
+          "pmid": "18537755",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "嘌呤核苷類似物（含 Clofarabine）用於血液惡性腫瘤的藥理與機轉綜述，2008 年。"
+        },
+        {
+          "pmid": "15230627",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "note": "Clofarabine 首篇重要藥物評述，涵蓋 CML 及各型急性白血病的早期臨床發現。"
+        },
+        {
+          "pmid": "12563614",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "進展期 CML 處置綜述，2003 年，為 CML 急變期治療的背景文獻。"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute lymphoblastic leukemia",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "ALL（尤其兒童 B-ALL/T-ALL）細胞具高 dCK 表達，使 Clofarabine 磷酸化效率遠高於正常淋巴細胞；三磷酸型態嵌入 DNA 鏈後抑制 DNA 聚合酶，阻斷 DNA 修復並觸發凋亡。此為 Clofarabine 美國 FDA（2004）及歐盟 EMA 核准的核心適應症（兒童復發/難治性 ALL），具最高等級臨床證據，患者層級 meta-analysis（PMID 37819554）及 2024 年多中心成人研究（PMID 38680089）進一步鞏固證據基礎。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00042341",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 關鍵樞紐試驗（n=60），兒童 r/r ALL，已完成；直接支持 FDA 核准，為最高相關性試驗，奠定 L1 評定。"
+        },
+        {
+          "nct_id": "NCT00930098",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 歐洲確認性試驗（n=74），兒科 r/r ALL，支持 EMA 核准，與樞紐試驗互相驗證，Grade A。"
+        },
+        {
+          "nct_id": "NCT00973752",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=30），老年成人 ALL，補充兒科外族群的療效與安全性數據，直接相關。"
+        },
+        {
+          "nct_id": "NCT00098033",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成（n=64），涵蓋急性白血病（含 ALL），提供藥效動力學整合數據，高相關性。"
+        },
+        {
+          "nct_id": "NCT01794702",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 完成（n=65），組合化療方案含 ALL 患者，但以 AML 為主，ALL 亞組數據有限。"
+        },
+        {
+          "nct_id": "NCT00125827",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 口服劑型藥動學研究（n=24），對象含 ALL/AML，提供口服 Clofarabine 在血液惡性腫瘤中的生物可用性數據。"
+        },
+        {
+          "nct_id": "NCT02349178",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 橋接研究（n=6，終止），評估 CCE 方案於兒童 ALL，終止原因需審查，數據有限但設計直接相關。"
+        },
+        {
+          "nct_id": "NCT01158885",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2（n=2，終止），入組極少，統計無效，僅供安全性參考。"
+        },
+        {
+          "nct_id": "NCT00691652",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2（n=2，終止），B 細胞 NHL + Rituximab，適應症偏移且入組不足，無效證據。"
+        },
+        {
+          "nct_id": "NCT00125840",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，實體瘤藥動學，與 ALL 無直接相關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37819554",
+          "study_type": "Patient-Level Meta-Analysis",
+          "tier": "1",
+          "note": "2023 年患者層級 meta-analysis，為 ALL 中 Clofarabine 最高等級統合分析，量化整體反應率與生存獲益。"
+        },
+        {
+          "pmid": "38680089",
+          "study_type": "Multi-Cohort Analysis",
+          "tier": "1",
+          "note": "2024 年成人 ALL 多中心深度分析，全面評估 Clofarabine 獲益與不良反應，tier-1 等級。"
+        },
+        {
+          "pmid": "29899571",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "2019 年 Clofarabine + 高劑量 cytarabine + TBI 預處理於 ALL 之安全性與療效研究。"
+        },
+        {
+          "pmid": "38643356",
+          "study_type": "Real-World Study",
+          "tier": "2",
+          "note": "2024 年日本 r/r ALL 真實世界研究，提供亞洲族群的重要地區性數據。"
+        },
+        {
+          "pmid": "22354543",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "兒科急性白血病 Clofarabine 現況，2012 年綜述，含療效問題討論。"
+        },
+        {
+          "pmid": "17288522",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "ALL 中 Clofarabine 治療的 2007 年評述，核准後早期實踐總結。"
+        },
+        {
+          "pmid": "37341664",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "tisagenlecleucel 於 r/r ALL 成本效益系統性評述，Clofarabine 作為比較基準，反映其作為標準對照的地位。"
+        },
+        {
+          "pmid": "18086342",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "ALL 三種新藥比較（含 Clofarabine），2007 年，機轉與臨床定位評述。"
+        },
+        {
+          "pmid": "15230627",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "note": "Clofarabine 2004 年首篇藥物評述，歷史性基礎文件。"
+        },
+        {
+          "pmid": "15962525",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "note": "2005 年 FDA 核准後的藥物評述，確認 ALL 適應症臨床地位。"
+        }
+      ]
+    },
+    {
+      "disease_name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IgHV 體細胞超突變型（mutated）CLL/SLL 為惰性亞型，增殖指數低（Ki-67 < 5%），dCK 活性不足以使 Clofarabine 有效磷酸化；此亞型預後良好，且現有標準治療（BTK 抑制劑、BCL-2 抑制劑）療效確立。TxGNN 預測可能因 CLL 與淋巴母細胞性白血病的淋巴系譜系連結產生高分，但缺乏任何臨床或基礎科學支持 Clofarabine 在此特定亞型中的使用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前生發中心型 CLL/SLL（IgHV 未突變型，UM-CLL）雖增殖活性相對較高且預後較差，理論上核苷類似物（如 Cladribine/Fludarabine）在 CLL 中有歷史使用記錄，但 Clofarabine 特異性用於 CLL 的臨床數據完全缺失。現有 CLL 治療已轉向 BTK 抑制劑（Ibrutinib）及 BCL-2 抑制劑（Venetoclax）靶向治療，Clofarabine 的相對競爭優勢及毒性特性在此情境下尚無研究基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "high_priority": [
+      {
+        "disease_name": "acute lymphoblastic leukemia",
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "key_rationale": "FDA/EMA 核准適應症，多個完成 Phase 2 樞紐試驗，2023-2024 年高品質 meta-analysis 支持"
+      },
+      {
+        "disease_name": "precursor lymphoblastic lymphoma/leukemia",
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "key_rationale": "與 ALL 高度重疊，多個完成 Phase 2 試驗，患者層級 meta-analysis 確認療效"
+      },
+      {
+        "disease_name": "myeloid leukemia",
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "key_rationale": "Phase 2/3 RCT（n=2000）完成，多個 Phase 2 支持性試驗，豐富文獻基礎"
+      }
+    ],
+    "moderate_priority": [
+      {
+        "disease_name": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive",
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "key_rationale": "多個 Phase 1/2 試驗及橋接移植文獻，生物行為類似 AML，需進一步研究"
+      }
+    ],
+    "low_priority": [
+      {
+        "disease_name": "neuroblastoma",
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "key_rationale": "僅間接證據，無直接療效試驗，需基礎研究確認機轉可行性後再行臨床規劃"
+      }
+    ],
+    "insufficient_evidence": [
+      "ganglioneuroblastoma (disease)",
+      "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "retroperitoneal neoplasm",
+      "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+      "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"
+    ]
+  }
+}
+```
+
+---
+
+## 評估摘要說明
+
+### 核心發現
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| **acute lymphoblastic leukemia** | **L1** | S3 | ✅ Proceed with Guardrails |
+| **precursor lymphoblastic lymphoma/leukemia** | **L1** | S3 | ✅ Proceed with Guardrails |
+| **myeloid leukemia** | **L1** | S3 | ✅ Proceed with Guardrails |
+| blast phase CML, BCR-ABL1+ | L2 | S2 | 🔬 Research Question |
+| neuroblastoma | L4 | S1 | ⛔ Hold |
+| 其餘 5 項 | L5 | S0 | ⛔ Hold |
+
+### 關鍵觀察
+
+1. **ALL/AML 三項 L1 證據**：Clofarabine 雖在本地市場「未上市」，但在 FDA/EMA 核准框架下具有極強的臨床再利用基礎，建議優先評估引進或納入同情性用藥計劃。
+
+2. **CML 急變期 L2**：PMID 20938169 記錄的橋接移植策略具獨特臨床價值，值得前瞻性 Phase 2 設計評估；需考量與 TKI 的交互作用及毒性疊加風險。
+
+3. **TxGNN 高分 ≠ 臨床證據**：ganglioneuroblastoma、腹膜後腫瘤及 CLL 亞型的 TxGNN 預測分數 > 0.992，但臨床證據完全缺失（L5），體現知識圖譜機器學習預測與臨床驗證之間的落差，需謹慎解讀。
+
+4. **注意事項**：Clofarabine 具有顯著肝腎毒性、嚴重骨髓抑制及 Capillary Leak Syndrome 風險，所有 L1/L2 適應症均需嚴格監測，建議在具血液腫瘤專科及加護能力的醫療中心使用。

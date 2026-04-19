@@ -1,0 +1,267 @@
+```json
+{
+  "drug": "Gemcitabine",
+  "drugbank_id": "DB00441",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Gemcitabine 為全球已核准之核苷類似物化療藥（胰臟癌、NSCLC、卵巢癌、乳癌），本地狀態「未上市」及 MoA「Data Gap」為本地資料庫缺失，非全球狀態。以下分析以全球已知機轉為基礎。",
+  "indications": [
+    {
+      "disease_name": "female breast carcinoma",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Gemcitabine 為核苷類似物，競爭性抑制 DNA 聚合酶並不可逆抑制核糖核苷酸還原酶（RRM1），誘導 S 期阻滯與細胞凋亡。乳癌細胞高表達 RRM1，且 Gemcitabine 與 Taxane 類（Paclitaxel）具自我增強（self-potentiation）協同效應。FDA 已核准 Gemcitabine+Paclitaxel 用於 Anthracycline 後進展之轉移性乳癌。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00039546",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（tAnGo 試驗）：Gemcitabine 加入含 Paclitaxel-Epirubicin 輔助化療方案，直接針對乳癌，提供核心 L1 證據。狀態 UNKNOWN 但試驗規模大。"
+        },
+        {
+          "nct_id": "NCT04579224",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（現正招募，n=184）：Eribulin+Gemcitabine 對比 SOC 用於乳癌，高度直接相關，為近期 L1 補充證據。"
+        },
+        {
+          "nct_id": "NCT00027989",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2：Liposomal Doxorubicin+Gemcitabine 治療乳癌，相關且有效性資料，狀態 UNKNOWN 為限制。"
+        },
+        {
+          "nct_id": "NCT00110084",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2（n=50，已完成）：nab-Paclitaxel 週療用於乳癌，組合背景含 Gemcitabine，療效資料可參考。"
+        },
+        {
+          "nct_id": "NCT00014456",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1（n=35，已完成）：Docetaxel+Gemcitabine+G-CSF 乳癌劑量遞增，提供安全性剖面。"
+        },
+        {
+          "nct_id": "NCT00995488",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2：nab-Paclitaxel+Carboplatin+Gemcitabine 第一線乳癌，但提前 TERMINATED（n=16），資料可信度受限。"
+        },
+        {
+          "nct_id": "NCT00620295",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1：Bortezomib+Gemcitabine 用於老年固態腫瘤（非乳癌專屬），間接相關。"
+        },
+        {
+          "nct_id": "NCT07097142",
+          "relevance_grade": "C",
+          "reasoning": "⚠️ 資料分類疑誤：ARCHER 試驗為 Phase 3 肌肉浸潤性膀胱癌放化療研究，與乳癌無直接關聯。"
+        },
+        {
+          "nct_id": "NCT04216290",
+          "relevance_grade": "C",
+          "reasoning": "⚠️ 資料分類疑誤：膀胱保留放化療+Durvalumab（膀胱癌），非乳癌，應排除。"
+        },
+        {
+          "nct_id": "NCT02851381",
+          "relevance_grade": "C",
+          "reasoning": "胰臟癌個案研究（FG-3019），狀態 WITHDRAWN，n=0，與乳癌完全無關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "12138397", "study_type": "Review", "tier": "2"},
+        {"pmid": "14754468", "study_type": "Retrospective Cohort", "tier": "2"},
+        {"pmid": "14719116", "study_type": "Review（機轉分析）", "tier": "2"},
+        {"pmid": "14768404", "study_type": "Review/Meta-analysis", "tier": "2"},
+        {"pmid": "15685821", "study_type": "Cohort", "tier": "2"},
+        {"pmid": "38262235", "study_type": "Phase 1 RCT", "tier": "2"},
+        {"pmid": "40779028", "study_type": "Phase 1/2", "tier": "2"},
+        {"pmid": "34580061", "study_type": "Preclinical/Mechanistic", "tier": "3"},
+        {"pmid": "12057039", "study_type": "Preclinical", "tier": "3"},
+        {"pmid": "24295415", "study_type": "Review（Liposomal chemo）", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "rectum mucinous adenocarcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "直腸黏液腺癌常伴 MSI-H 及 KRAS 突變，後者可降低核苷類似物療效。Gemcitabine 在結直腸癌中非標準用藥（5-FU/Capecitabine 為骨幹），目前僅有間接類推依據。唯一相關試驗（mFOLFIRINOX）不含 Gemcitabine 成分，列入疑為索引錯誤。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01643499",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 藥物基因組劑量研究（mFOLFIRINOX）：FOLFIRINOX 方案（5-FU、Irinotecan、Oxaliplatin）不含 Gemcitabine；試驗涵蓋廣泛 GI 癌症，非直腸黏液亞型專屬，相關性極低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colon mucinous adenocarcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "結腸黏液腺癌（KRAS 突變率高、常見腹膜轉移）之標準化療為 FOLFOX/FOLFIRI，Gemcitabine 不在指引中。HIPEC 療程可使用 Gemcitabine 作為腹腔灌洗藥物，對此亞型腹膜轉移有潛在適用性，但尚缺乏 RCT 支持。現有文獻均為胰臟癌相關個案，非直接證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03210298",
+          "relevance_grade": "B",
+          "reasoning": "多中心國際 HIPEC 觀察性登記（n=1000）：Gemcitabine 為可能的腹腔化療藥物，涵蓋結腸來源腹膜轉移，但非 RCT、狀態 UNKNOWN，且黏液亞型資料需個別析出。"
+        },
+        {
+          "nct_id": "NCT01643499",
+          "relevance_grade": "C",
+          "reasoning": "mFOLFIRINOX 不含 Gemcitabine，GI 癌症廣泛入組，與結腸黏液腺癌相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "26805374", "study_type": "Case Report（胰臟 IPMN 侵犯結腸）", "tier": "3"},
+        {"pmid": "16957443", "study_type": "Case Report（Sister Mary Joseph's nodule）", "tier": "3"},
+        {"pmid": "28133201", "study_type": "Case Report（胰臟癌長期存活）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "villoglandular endometrial endometrioid adenocarcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "絨毛腺管狀子宮內膜樣腺癌為低侵略性稀有亞型（FIGO Grade 1 變異），預後良好，化療指徵少。TxGNN 預測分數雖高（0.9976），但無任何臨床試驗或文獻資料。機轉假說僅能基於 Gemcitabine 對子宮內膜腺癌的廣泛核苷類似物活性類推，缺乏亞型特異性驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "endometrial mixed adenocarcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "混合型子宮內膜腺癌（含漿液性或透明細胞成分）對鉑類化療有一定敏感性。Gemcitabine 藉由抑制 RNR 可使腫瘤細胞對 DNA 損傷敏化，與 Carboplatin 之 DNA 鏈間交聯具協同效應。MSKCC 回顧性研究（PMID 22635030）及 Müllerian 惡性腫瘤 Phase 2 試驗（PMID 14599858）提供直接但非亞型專屬之 L3 證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22635030",
+          "study_type": "Retrospective Cohort（MSKCC，晚期子宮內膜癌）",
+          "tier": "2"
+        },
+        {
+          "pmid": "14599858",
+          "study_type": "Phase 2 RCT（三序列雙藥 Müllerian 惡性腫瘤）",
+          "tier": "2"
+        }
+      ]
+    },
+    {
+      "disease_name": "endometrial mucinous adenocarcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "子宮內膜黏液腺癌與卵巢黏液腺癌共享 KRAS 突變及 MUC5AC 高表達，與胰膽道癌具分子相似性。Gemcitabine+Carboplatin 組合在婦科惡性腫瘤（含卵巢癌、子宮內膜癌）有 Phase 1 直接安全性資料及多項回顧性研究支持。文獻中多數來自復發卵巢癌，但婦科惡性腫瘤證據可類推至此亞型（S2：臨床可行性已部分建立）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01652794",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1（n=12，已完成）：Carboplatin+Gemcitabine+SBRS 用於婦科惡性腫瘤，直接涵蓋目標族群，提供安全性與劑量資料，但樣本數小且非亞型專屬。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "19473054", "study_type": "Retrospective Cohort（復發卵巢癌）", "tier": "2"},
+        {"pmid": "21436695", "study_type": "Phase 2（PLD+Gemcitabine 固定劑量率）", "tier": "2"},
+        {"pmid": "25374244", "study_type": "Retrospective Cohort（鉑類抗性）", "tier": "2"},
+        {"pmid": "23698798", "study_type": "Retrospective Feasibility（骨盆清除術後）", "tier": "2"},
+        {"pmid": "23296063", "study_type": "Retrospective Cohort（存活改善趨勢）", "tier": "2"},
+        {"pmid": "23886213", "study_type": "Phase 2（GEMOX 第二線卵巢癌）", "tier": "2"},
+        {"pmid": "23725151", "study_type": "Retrospective Cohort（復發卵巢癌，臺灣）", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "cervical mucinous adenocarcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮頸黏液腺癌（尤其胃型，gastric-type）預後極差，對傳統含鉑化療反應有限，且 HER2 擴增率較高。Gemcitabine 曾用於子宮頸癌組合化療研究，但黏液亞型專屬證據幾乎缺失。現有 4 篇文獻均為胰膽道黏液癌個案報告，文獻索引疑似錯誤，不能作為子宮頸黏液腺癌之直接證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04683939",
+          "relevance_grade": "B",
+          "reasoning": "Phase I/IIa First-in-human（含婦科癌症擴展組），但已提前 TERMINATED（n=13），資料極為有限，安全性資料參考價值低。"
+        },
+        {
+          "nct_id": "NCT01652794",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 Carboplatin+Gemcitabine+SBRS 婦科惡性腫瘤，間接相關（非子宮頸黏液亞型專屬）。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "35699889", "study_type": "Case Report（肝內膽管癌基因組分析）", "tier": "3"},
+        {"pmid": "36938358", "study_type": "Case Report（胰臟未分化癌）", "tier": "3"},
+        {"pmid": "26581412", "study_type": "Case Report（胰臟黏液囊性腫瘤）", "tier": "3"},
+        {"pmid": "30692448", "study_type": "Case Report（頸部淋巴結轉移再手術）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "gallbladder mucinous adenocarcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ 重要背景：Gemcitabine+Cisplatin 為膽道癌（含膽囊癌）之全球標準一線化療（ABC-02 Phase 3 RCT，n=410，Valle et al.），但此關鍵試驗未納入本資料集，且未區分黏液亞型。黏液腺癌因緻密黏液基質可能形成藥物滲透屏障，需亞型專屬研究確認療效。現有資料集中 3 篇文獻均為個案報告等級（其中 2 篇為胰臟相關），證據等級低，但母病種（膽囊腺癌）有 L1 基礎，故建議列為研究問題而非完全排除。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03210298",
+          "relevance_grade": "B",
+          "reasoning": "多中心 HIPEC 觀察性登記（n=1000）：涵蓋膽囊來源腹膜轉移，Gemcitabine 為可能藥物之一，但非 RCT、狀態 UNKNOWN。"
+        },
+        {
+          "nct_id": "NCT01643499",
+          "relevance_grade": "C",
+          "reasoning": "mFOLFIRINOX 不含 Gemcitabine，與膽囊黏液腺癌相關性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "25731241", "study_type": "Case Report（進展期膽囊癌縱隔淋巴結轉移）", "tier": "3"},
+        {"pmid": "40671744", "study_type": "Case Report（胰臟癌 RFA+Gemcitabine）", "tier": "3"},
+        {"pmid": "20527247", "study_type": "Case Report（膽囊癌卵巢轉移）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "rete ovarii adenocarcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢網腺癌（Rete ovarii adenocarcinoma）為極罕見婦科惡性腫瘤（全球個案報告不足百例），無標準化療方案。TxGNN 基於知識圖譜結構相似性預測高分，但無任何 Gemcitabine 相關臨床或文獻資料，停留於純計算預測階段。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "mucin-rich endometrial endometrioid adenocarcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "富含黏液之子宮內膜樣腺癌為高分化稀有形態學亞型，預後通常良好，化療適應症罕見。無任何 Gemcitabine 相關臨床試驗或文獻。若需化療，可借鑑 endometrial mucinous adenocarcinoma 之 L3 間接證據，但現階段本亞型獨立判斷僅為 L5。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 證據等級摘要表
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|------------|---------|---------|------|---------|
+| **female breast carcinoma** | 0.9998 | **L1** | **S3** | ✅ Proceed with Guardrails | 2 個 Phase 3 RCT（tAnGo、NCT04579224）+ FDA 核准基礎 |
+| **endometrial mucinous adenocarcinoma** | 0.9975 | **L3** | **S2** | 🔬 Research Question | Phase 1 婦科惡性腫瘤 + 7 篇回顧性研究 |
+| **endometrial mixed adenocarcinoma** | 0.9976 | **L3** | **S1** | 🔬 Research Question | MSKCC 回顧性研究 + Phase 2 Müllerian 惡性腫瘤試驗 |
+| **gallbladder mucinous adenocarcinoma** | 0.9975 | **L4** | **S1** | 🔬 Research Question | 個案報告；惟母病種有 Phase 3 標準治療（ABC-02，未納入資料集）|
+| **colon mucinous adenocarcinoma** | 0.9976 | **L4** | **S1** | ⛔ Hold | HIPEC 登記（間接）+ 胰臟癌個案文獻 |
+| **cervical mucinous adenocarcinoma** | 0.9975 | **L4** | **S1** | ⛔ Hold | 2 個 Phase 1 試驗（間接）+ 文獻疑似索引錯誤 |
+| **rectum mucinous adenocarcinoma** | 0.9977 | **L4** | **S1** | ⛔ Hold | 唯一試驗不含 Gemcitabine（mFOLFIRINOX）|
+| **villoglandular endometrial endometrioid adenocarcinoma** | 0.9976 | **L5** | **S0** | ⛔ Hold | 無任何臨床或文獻資料 |
+| **rete ovarii adenocarcinoma** | 0.9973 | **L5** | **S0** | ⛔ Hold | 無任何臨床或文獻資料 |
+| **mucin-rich endometrial endometrioid adenocarcinoma** | 0.9973 | **L5** | **S0** | ⛔ Hold | 無任何臨床或文獻資料 |
+
+---
+
+## ⚠️ 資料品質警示
+
+| 問題類型 | 具體案例 | 建議處理 |
+|---------|---------|---------|
+| **試驗分類疑誤** | NCT07097142（ARCHER 膀胱癌）、NCT04216290（膀胱保留放化療）列入乳癌適應症 | 移出乳癌分類，重新對應至膀胱癌適應症 |
+| **文獻索引疑誤** | 子宮頸黏液腺癌下 4 篇文獻均為胰膽道癌案例 | 需重新驗證文獻映射邏輯 |
+| **試驗藥物不符** | NCT01643499（mFOLFIRINOX）列入多個適應症但不含 Gemcitabine | 建議從 Gemcitabine 相關試驗清單移除 |
+| **資料集未收錄關鍵試驗** | ABC-02 Phase 3 RCT（膽道癌 Gemcitabine+Cisplatin）未出現在膽囊癌適應症 | 補充已知核准證據之結構化引用 |

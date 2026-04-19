@@ -1,0 +1,182 @@
+## 藥物背景分析
+
+**Agalsidase beta（DB00103）** 是治療 Fabry 病（法布瑞氏症）的溶酶體酶替代療法（ERT），為重組人類 α-半乳糖苷酶 A，透過水解積聚的 GL-3（globotriaosylceramide）發揮作用。本資料顯示市場狀態為「未上市」，原始適應症資料缺失（Data Gap），但全球已核准用於 Fabry 病。
+
+---
+
+### 關鍵觀察
+
+| 項目 | 狀態 |
+|------|------|
+| 所有候選適應症臨床試驗數 | **0** |
+| 所有候選適應症文獻數 | **0** |
+| 證據來源 | 純 TxGNN 計算預測 |
+| TxGNN 分數分佈 | 0.9828–0.9837（高度集中） |
+| 疾病分類模式 | 頭頸部良性/惡性腫瘤 + 顱底腫瘤（高度聚類） |
+
+⚠️ **圖譜聚類警示**：10 個候選疾病分數極度接近（差異 < 0.001），且均集中於頭頸部/顱底腫瘤，提示可能為知識圖譜拓撲相似性造成的系統性假陽性，而非生物機轉相關性。
+
+---
+
+```json
+{
+  "drug": "Agalsidase beta",
+  "drugbank_id": "DB00103",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "所有候選適應症均無臨床試驗或文獻支持，僅具 TxGNN 計算預測分數。TxGNN 高分聚類於頭頸部腫瘤，疑為知識圖譜拓撲效應（graph topology artifact），建議整體評為 L5/S0。",
+  "indications": [
+    {
+      "disease_name": "cervical neuroblastoma",
+      "txgnn_score": 0.9837,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Agalsidase beta 為溶酶體 α-半乳糖苷酶 A 替代療法，主要作用為降解 GL-3 糖鞘脂。神經母細胞瘤為神經嵴來源腫瘤，雖有理論認為糖鞘脂代謝異常可影響腫瘤微環境及細胞凋亡路徑，但 α-半乳糖苷酶 A 與頸部神經母細胞瘤之間缺乏直接機轉研究支持。連結極為薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "schwannoma of jugular foramen",
+      "txgnn_score": 0.9835,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頸靜脈孔神經鞘瘤為許旺細胞良性腫瘤。溶酶體儲積症（如 Fabry 病）患者確有神經系統受累，但 ERT 對神經鞘瘤的影響無任何文獻或機轉假說支持。TxGNN 預測可能基於知識圖譜中『神經系統疾病』的共同節點連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "epiglottis neoplasm",
+      "txgnn_score": 0.9832,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "會厭新生物包含良性及惡性腫瘤。Agalsidase beta 的 GL-3 清除機轉與頭頸部黏膜腫瘤無已知機轉關聯。此預測分數與其他頭頸部腫瘤高度相似，支持圖譜拓撲效應而非真實生物關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "benign neoplasm of tongue",
+      "txgnn_score": 0.9831,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "舌部良性腫瘤（如乳突瘤、纖維瘤）與 Fabry 病路徑無機轉交集。雖然 GL-3 累積可影響多種組織，但無文獻提示 ERT 對頭頸部黏膜腫瘤有治療效果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "benign neoplasm of floor of mouth",
+      "txgnn_score": 0.9831,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口底良性腫瘤與 α-半乳糖苷酶 A 缺乏症之間無生物機轉關聯文獻。此預測分數（0.9831）與舌部良性腫瘤（0.9831）幾乎相同，進一步提示為圖譜結構性重複而非獨立生物訊號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "benign neoplasm of buccal mucosa",
+      "txgnn_score": 0.9831,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頰黏膜良性腫瘤與口腔其他部位良性腫瘤在知識圖譜中具高度結構相似性，預測分數（0.9831）與口底、舌部完全相近，為圖譜拓撲效應的典型模式。無機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "benign neoplasm of hypopharynx",
+      "txgnn_score": 0.9830,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "下咽良性腫瘤與酶替代療法無已知機轉關聯。此預測延續頭頸部黏膜腫瘤聚類模式，缺乏獨立生物機轉依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "nasal cavity inverting papilloma",
+      "txgnn_score": 0.9829,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻腔倒置性乳突瘤為 HPV 相關上皮性良性腫瘤，具局部侵襲性及復發傾向。其病因為病毒驅動的上皮增生，與溶酶體 GL-3 清除機轉完全不同路徑，無機轉假說支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "vestibulocochlear nerve neoplasm",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前庭耳蝸神經腫瘤（如聽神經瘤/前庭神經鞘瘤）為許旺細胞來源腫瘤。Fabry 病患者確有聽力受損，但此為 GL-3 內皮累積造成的血管性損傷，而非腫瘤性病變，ERT 對此類腫瘤無機轉支持。分數與頸靜脈孔神經鞘瘤相近，符合圖譜聚類模式。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    },
+    {
+      "disease_name": "jugular foramen meningioma",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頸靜脈孔腦膜瘤為顱底腦膜來源良性腫瘤。溶酶體酶替代療法對腦膜來源腫瘤無已知機轉相關性。此預測延續顱底腫瘤聚類，結合缺乏任何臨床或文獻支持，判斷為圖譜拓撲假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "KG_TOPOLOGY_ARTIFACT_SUSPECTED"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+### 證據等級矩陣
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| cervical neuroblastoma | 0.9837 | **L5** | S0 | Hold |
+| schwannoma of jugular foramen | 0.9835 | **L5** | S0 | Hold |
+| epiglottis neoplasm | 0.9832 | **L5** | S0 | Hold |
+| benign neoplasm of tongue | 0.9831 | **L5** | S0 | Hold |
+| benign neoplasm of floor of mouth | 0.9831 | **L5** | S0 | Hold |
+| benign neoplasm of buccal mucosa | 0.9831 | **L5** | S0 | Hold |
+| benign neoplasm of hypopharynx | 0.9830 | **L5** | S0 | Hold |
+| nasal cavity inverting papilloma | 0.9829 | **L5** | S0 | Hold |
+| vestibulocochlear nerve neoplasm | 0.9828 | **L5** | S0 | Hold |
+| jugular foramen meningioma | 0.9828 | **L5** | S0 | Hold |
+
+---
+
+## 方法論警示（重要）
+
+### 🚨 圖譜拓撲假陽性（KG Topology Artifact）
+
+本批次預測存在三個系統性警示：
+
+1. **分數異常集中**：10 個適應症分數範圍僅 0.0009（0.9828–0.9837），在統計上極不自然，正常生物訊號應有更大分散度
+
+2. **疾病分類單一聚類**：幾乎全部為**頭頸部/顱底腫瘤**，缺乏跨系統多樣性，提示 KG 中此類疾病節點具有相似的圖譜結構，而非真實的藥物-疾病生物關聯
+
+3. **機轉不連貫**：Agalsidase beta 的核心機轉（溶酶體 GL-3 清除）與所有 10 個腫瘤性適應症均無已建立的機轉橋樑
+
+### 建議後續動作
+
+> **⛔ 不建議推進任何候選**：在補充機轉研究或文獻支持前，所有候選均應維持 `Hold` 狀態。
+
+若要進行後續評估，建議：
+1. 檢視 KG 中 Agalsidase beta → 頭頸腫瘤的圖譜路徑，確認是否為多跳間接連結
+2. 優先尋找糖鞘脂代謝與所列腫瘤關聯的機轉文獻（如 GL-3 在腫瘤微環境中的角色）
+3. 考慮 Fabry 病患者的腫瘤發生率流行病學資料作為間接佐證

@@ -1,0 +1,1646 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB14740-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hyaluronidase",
+    "drugbank_id": "DB14740",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "esotropia",
+      "txgnn": {
+        "score": 0.9989042282104492,
+        "rank": 2163
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16934027",
+            "title": "Persistent diplopia and strabismus after cataract surgery under local anesthesia.",
+            "authors": [
+              "Costa Patricia Grativol",
+              "Debert Iara",
+              "Passos Lucia Battistella",
+              "Polati Mariza"
+            ],
+            "journal": "Binocular vision & strabismus quarterly",
+            "year": "2006",
+            "abstract": "Diplopia is an infrequent complication described for retrobulbar local anesthesia. The objective of this study is to report the clinical characteristics and treatments for this surgical complication.",
+            "classification": {
+              "study_type": "Case Series/Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向信號警示：唯一文獻（PMID 16934027）記載的是白內障手術後的「持續性複視與斜視」，可能與局部麻醉時使用 Hyaluronidase 有關，屬不良事件報告而非治療性應用。TxGNN 高預測分數（0.999）可能源於 Hyaluronidase 與眼科手術相關節點的圖譜關聯，而非治療效益。目前無合理機轉支持 Hyaluronidase 治療內斜視。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9982786178588868,
+        "rank": 3058
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1218911",
+            "title": "Hyaluronidase activity of human endometrial tissues & uterine fluids.",
+            "authors": [
+              "Ganguly S",
+              "Sarkar D",
+              "Sengupta D",
+              "Banerjee S K",
+              "Ghosh J J"
+            ],
+            "journal": "Indian journal of experimental biology",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "Basic Science/Biochemistry",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 1218911，1975 年）研究人類子宮內膜組織與子宮液中的 Hyaluronidase 活性，屬基礎生化研究，描述 Hyaluronidase 為子宮內生理酶，並非治療性應用。HA 在子宮內膜週期中確實有重要角色，但無路徑顯示外源性 Hyaluronidase 可改善閉經。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn": {
+        "score": 0.997933268547058,
+        "rank": 3506
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00198471",
+            "title": "An Open-label Assessment of Intravitreous Injections of Vitrase (Hyaluronidase for Injection) for Inducing Posterior Vitreous Detachment in Subjects With Moderate to Severe Non-proliferative Diabetic Retinopathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2005-07",
+            "completion_date": "2006-11",
+            "brief_summary": "The purpose of this study is to assess the efficacy of intravitreous injections of Vitrase to induce posterior vitreous detachment(PVD) in subjects with moderate to severe non-proliferative diabetic retinopathy.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 開放標籤研究（n=10），針對 Vitrase 玻璃體內注射，與嚴重 NPDR 有重疊人群，但樣本量極小且缺乏對照組。同一試驗亦納入 diabetic retinopathy 分析，於此適應症評為 B 級（部分相關）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嚴重非增殖性糖尿病視網膜病變（NPDR）為增殖性 DR 的前期，玻璃體後界膜的 HA 積累在此階段已開始影響視網膜微環境。Hyaluronidase 的早期介入假說認為，在尚未形成新生血管時進行藥理性玻璃體溶解，可能預防疾病進展至增殖期。此適應症與 diabetic retinopathy 的機轉連續，但臨床干預時機不同。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "renal tubular acidosis",
+      "txgnn": {
+        "score": 0.9975705742836,
+        "rank": 3946
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何臨床或文獻證據支持此適應症。腎小管酸中毒的病理機轉（H+/HCO3- 轉運缺陷）與 Hyaluronidase 的 HA 降解酶活性缺乏已知生物合理性連結。TxGNN 高分（0.9976）僅反映知識圖譜節點相似性，不代表治療關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "dermatitis",
+      "txgnn": {
+        "score": 0.9972894191741944,
+        "rank": 4256
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00928447",
+            "title": "A Prospective, Randomized, Double-Blind, Placebo-Controlled, Single-Center Study of the Intradermal Injection of rHuPH20 or Placebo in Subjects With Nickel Allergic Contact Dermatitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2009-06-23",
+            "completion_date": "2009-09-13",
+            "brief_summary": "The purpose of this study is to compare the effect and safety of rHuPH20 or placebo for the prevention and treatment of skin allergic reaction to nickel. The study drug and placebo will be administered by intradermal injection.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 RCT（隨機、雙盲、安慰劑對照，n=22），皮內注射 Hyaluronidase，COMPLETED。雖樣本量小，但設計嚴謹，為本適應症最強直接證據，支撐 L2 評級。需查閱完整結果以評估療效方向。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37145319",
+            "title": "Allergic Complications of Hyaluronidase Injection: Risk Factors, Treatment Strategies, and Recommendations for Management.",
+            "authors": [
+              "Guliyeva Gunel",
+              "Huayllani Maria T",
+              "Kraft Casey",
+              "Lehrman Craig",
+              "Kraft Monica T"
+            ],
+            "journal": "Aesthetic plastic surgery",
+            "year": "2024",
+            "abstract": "Hyaluronidase is used as a reversal agent for hyaluronic acid fillers and to increase the diffusion of other medications after infiltration. Cases of hyaluronidase allergy have been described in the literature since 1984. However, it is still frequently misdiagnosed. This review aims to summarize the current literature to describe the clinical picture of hyaluronidase allergy and identify any risk factors associated with its development, as well as provide recommendations for management in plast",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26716906",
+            "title": "Anti-hyaluronidase Activity in Vitro and Amelioration of Mouse Experimental Dermatitis by Tomato Saponin, Esculeoside A.",
+            "authors": [
+              "Zhou Jian-Rong",
+              "Kanda Yurina",
+              "Tanaka Anna",
+              "Manabe Hideyuki",
+              "Nohara Toshihiro"
+            ],
+            "journal": "Journal of agricultural and food chemistry",
+            "year": "2016",
+            "abstract": "The increasing incidence of atopic dermatitis during recent decades has prompted the development of safe and effective agents for prevention of atopic diseases. Esculeoside A, a glycoside of spirosolane type, is identified as a major component in ripe tomato fruits. The present study investigated the effects of esculeoside A and its aglycon esculeogenin A on hyaluronidase activity in vitro and antiallergy in experimental dermatitis mice. Esculeogenin A/esculeoside A (esculeogenin A equivalent) w",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35455695",
+            "title": "Decrease of Hyaluronidase Activity and Suppression of Mouse CD4+ T Lymphocyte Activation by Tomato Juice Saponin Esculeoside B, and Its Sapogenol Esculeogenin B.",
+            "authors": [
+              "Zhou Jian-Rong",
+              "Kitahara Nozomi",
+              "Nakamura Honami",
+              "Ono Takuya",
+              "Karashima Ryohei"
+            ],
+            "journal": "Journal of personalized medicine",
+            "year": "2022",
+            "abstract": "(1) Background: A naturally occurring glycoside, esculeoside B (EsB), has been identified as a major component in juice or canned tomato. We reported how EsB ameliorated mice experimental atopic dermatitis by a decrease in serum IgE levels. However, the underlying immunologic molecular mechanisms are unknown. (2) Methods: The present study tested the effects of EsB on hyaluronidase activity and CD4+ T lymphocyte activation using concanavalin A (ConA)-blast mouse splenocyte primary culture. (3) R",
+            "classification": {
+              "study_type": "Mechanistic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36603785",
+            "title": "Prinsepia utilis Royle leaf extract: Ameliorative effects on allergic inflammation and skin lesions in allergic contact dermatitis and polyphenolic profiling through UPLC-MS/MS coupled to chemometric analysis.",
+            "authors": [
+              "Shen Wei",
+              "Li Si-Yuan",
+              "Pan Yu-Qing",
+              "Liu Hao",
+              "Dong Xiao-Wei"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2023",
+            "abstract": "Allergic contact dermatitis (ACD) is a common allergic inflammatory disease that is concomitant with skin swelling, redness, dry itching, and relapses. Prinsepia utilis Royle, a Chinese and Indian folk medicine, is rich in polyphenols with potential anti-inflammatory and skin-protective activities. However, the underlying mechanism of P. utilis leaf (PUL) in the treatment of ACD and its functional basis remains unclear.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40994925",
+            "title": "Structure and function of therapeutic antibodies approved by the US FDA in 2024.",
+            "authors": [
+              "Strohl William R"
+            ],
+            "journal": "Antibody therapeutics",
+            "year": "2025",
+            "abstract": "In 2024, the Food and Drug Administration approved 47 new molecular entities (NMEs), including 15 therapeutic antibody-based molecules, marking the 30th anniversary of the first approved recombinant antibody. Ten of these were recombinant immunoglobulin G antibodies, while the rest comprised three bispecific antibodies, one immunocytokine, and one Fc-fusion protein. Seven antibodies targeted previously approved targets like programmed cell death receptor-1, programmed cell death receptor ligand-",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22652242",
+            "title": "Phytochemical and biological studies of bryophytes.",
+            "authors": [
+              "Asakawa Yoshinori",
+              "Ludwiczuk Agnieszka",
+              "Nagashima Fumihiro"
+            ],
+            "journal": "Phytochemistry",
+            "year": "2013",
+            "abstract": "The bryophytes contain the Marchantiophyta (liverworts), Bryophyta (mosses) and Anthocerotophyta (hornworts). Of these, the Marchantiophyta have a cellular oil body which produce a number of mono-, sesqui- and di-terpenoids, aromatic compounds like bibenzyl, bis-bibenzyls and acetogenins. Most sesqui- and di-terpenoids obtained from liverworts are enantiomers of those found in higher plants. Many of these compounds display a characteristic odor, and can have interesting biological activities. Th",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15426122",
+            "title": "Hyaluronidase and inflammation of the skin.",
+            "authors": [
+              "MAYER R L"
+            ],
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1950",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early Clinical Observation",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14332642",
+            "title": "INVESTIGATIONS INTO THE ETIOLOGY OF DERMATITIS HERPETIFORMIS. II. THE EFFECTS OF SERUM FROM DERMATITIS HERPETIFORMIS CASES AND OF CERTAIN DRUGS ON THE VISCOSITY REDUCTION PROPERTY OF HYALURONIDASE.",
+            "authors": [
+              "ALEXANDER J O"
+            ],
+            "journal": "The Journal of investigative dermatology",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12987976",
+            "title": "[Eczema and hyaluronidase].",
+            "authors": [
+              "CHARPY J",
+              "ODDOZE L",
+              "STAHL A",
+              "CASTELAIN P Y",
+              "MANCY R"
+            ],
+            "journal": "Bulletin de la Societe francaise de dermatologie et de syphiligraphie",
+            "year": "1952",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41260428",
+            "title": "Structure characterization and bioactivities of Ampelopsis grossedentata polysaccharides and their anti-inflammatory effect on TNF-α/IFN-γ-induced atopic dermatitis-like HaCaT keratinocytes.",
+            "authors": [
+              "Wang Wenjie",
+              "Yue Weiqin",
+              "Shao Lijun",
+              "Liu Tingting",
+              "Xiao Jian"
+            ],
+            "journal": "International journal of biological macromolecules",
+            "year": "2025",
+            "abstract": "To explore the anti-inflammatory effect and mechanism of the polysaccharides derived from Ampelopsis grossedentata (AGPs) on atopic dermatitis (AD), three polysaccharide fractions AGP40, AGP60 and AGP80 were obtained using ethanol concentration gradient precipitation. All these polysaccharide fractions contain eight monosaccharides with varying mole ratios and are mainly composed of galactose (59.8 % to 71.4 %), mannose (11.1 % to 22.5 %), and glucuronic acid (9.4 % to 13.9 %). AGP40 and AGP60 e",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25174551",
+            "title": "Radiation-induced morphea - a literature review.",
+            "authors": [
+              "Spalek M",
+              "Jonska-Gmyrek J",
+              "Gałecki J"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2015",
+            "abstract": "Radiation-induced morphea (RIM) is a rare and under-recognized skin complication of radiotherapy. It is commonly wrongly diagnosed as other dermatological conditions or malignancy because of similar clinical characteristics. This literature review analyses 66 cases that have been reported in the literature since 1989. The clinical appearance often includes pain and disfiguration of affected area, which may influence the patient's quality of life. There is no clear connection between the radiothe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24658508",
+            "title": "Hyaluronan metabolism in human keratinocytes and atopic dermatitis skin is driven by a balance of hyaluronan synthases 1 and 3.",
+            "authors": [
+              "Malaisse Jérémy",
+              "Bourguignon Virginie",
+              "De Vuyst Evelyne",
+              "Lambert de Rouvroit Catherine",
+              "Nikkels Arjen F"
+            ],
+            "journal": "The Journal of investigative dermatology",
+            "year": "2014",
+            "abstract": "Hyaluronan (HA) is a glycosaminoglycan synthesized directly into the extracellular matrix by three hyaluronan synthases (HAS1, HAS2, and HAS3). HA is abundantly synthesized by keratinocytes but its epidermal functions remain unclear. We used culture models to grow human keratinocytes as autocrine monolayers or as reconstructed human epidermis (RHE) to assess HA synthesis and HAS expression levels during the course of keratinocyte differentiation. In both the models, epidermal differentiation dow",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14389390",
+            "title": "Correlation between hyaluronidase and hyaluronic acid in pemphigus and Duhring's disease.",
+            "authors": [
+              "SZODORAY L"
+            ],
+            "journal": "Borgyogyaszati es venerologiaia szemle",
+            "year": "1955",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30582479",
+            "title": "Isolation and Characterization of Nuciferoic Acid, a Novel Keto Fatty Acid with Hyaluronidase Inhibitory Activity from Cocos nucifera Linn. Endocarp.",
+            "authors": [
+              "Singla Rajeev K",
+              "Ali Mohammed",
+              "Kamal Mohammad A",
+              "Dubey Ashok K"
+            ],
+            "journal": "Current topics in medicinal chemistry",
+            "year": "2018",
+            "abstract": "Inflammation and oxidative stress are very closely related to pathophysiological processes and linked to multiple chronic diseases. Traditionally, the coconut fruits were used in Guatemala for treatment of dermatitis and inflammation. Isolation of the anti-inflammatory agent from the hard shell of the coconut fruit was targeted in the current study.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31426284",
+            "title": "Exopolysaccharide Produced by Lactobacillus paracasei IJH-SONE68 Prevents and Improves the Picryl Chloride-Induced Contact Dermatitis.",
+            "authors": [
+              "Noda Masafumi",
+              "Sultana Nasrin",
+              "Hayashi Ikue",
+              "Fukamachi Mitsuhiro",
+              "Sugiyama Masanori"
+            ],
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2019",
+            "abstract": "Allergic disease is one of the most important and common health problems worldwide. We have previously demonstrated that a fig leaf-derived lactic acid bacterium Lactobacillus (Lb.) paracasei IJH-SONE68 produces a novel exopolysaccharide (EPS). Furthermore, we have shown that the EPS inhibits the catalytic activity of hyaluronidase (EC 3.2.1.36) promoting inflammatory reactions. To evaluate the anti-allergy and anti-inflammatory effects of the EPS, in the present study, we employed the picryl-ch",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10746230",
+            "title": "Proteinase, phospholipase, hyaluronidase and chondroitin-sulphatase production by Malassezia pachydermatis.",
+            "authors": [
+              "Coutinho S D",
+              "Paula C R"
+            ],
+            "journal": "Medical mycology",
+            "year": "2000",
+            "abstract": "The production of four functional enzyme categories was investigated in 30 strains of Malassezia pachydermatis isolated from dogs with otitis or dermatitis. The most appropriate reading intervals for these assays were determined with the aid of statistical comparisons. All strains produced proteinase and chondroitin-sulphatase; hyaluronidase and phospholipase were produced by all skin isolates (15/15) and 14 out of 15 ear canal isolates. Strains from ear canals did not differ significantly as a ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31451454",
+            "title": "Cetuximab associated dermal filler reaction.",
+            "authors": [
+              "Pathmanathan Shivanshan",
+              "Dzienis Marcin"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2019",
+            "abstract": "A 52-year-old male patient with hyaluronic acid-based dermal fillers injected in his cheeks was diagnosed with glossotonsillary malignancy, and managed with concurrent cetuximab (epidermal growth factor receptor inhibitor) and radiation therapy. He developed significant inflammation around the dermal filler sites after first cycle of cetuximab which improved with dissolution of the dermal fillers with hyaluronidase. This suggests that cetuximab can lead to inflammation around the dermal filler s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15467260",
+            "title": "[Anti-allergic action effect of Pseudolarix amabilis Rehd. extract and its efficacy on atopic dermatitis].",
+            "authors": [
+              "Hirasawa Yasushi",
+              "Ori Kazutomo",
+              "Yamada Takao",
+              "Ohtsu Shoko",
+              "Matsui Yukari"
+            ],
+            "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+            "year": "2004",
+            "abstract": "Pseudolarix amabilis Rehd. extract was examined in vitro for antibacterial effects, anti-inflammatory effects, and inhibitory effects on histamine release. Pseudolarix amabilis Rehd. extract was also examined for efficacy on dermatitis in atopic dermatitis model mice (NC mice) and effects on keratinous moisture level and transepidermal water loss in miniature pigs. Pseudolarix amabilis Rehd. extract had antibacterial effects on Staphylococcus aureus, Candida albicans, and Streptococcus pyogenes;",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41685331",
+            "title": "The stem of Schisandra chinensis and Schisandrin B alleviated DNCB-induced atopic dermatitis in mice by inhibiting the NF-κB pathway.",
+            "authors": [
+              "Ye Cai",
+              "Liu Yijie",
+              "Li Yue",
+              "Li Zan",
+              "Sui Liyuan"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2026",
+            "abstract": "Atopic dermatitis (AD) is a chronic, pruritic, inflammatory skin disorder. While the stem of Schisandra chinensis has been extensively studied for its pharmacological properties, including anti-inflammatory, antioxidant, and hepatoprotective effects, its therapeutic potential in AD remains to be elucidated. This study therefore aimed to investigate the effects of Schisandra chinensis stem extract (SCSE) against AD and to explore its underlying mechanism of action.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36986507",
+            "title": "Anti-Atopic Dermatitis Effects of Abietic Acid Isolated from Rosin under Condition Optimized by Response Surface Methodology in DNCB-Spread BALB/c Mice.",
+            "authors": [
+              "Park Jumin",
+              "Kim Ji Eun",
+              "Jin You Jeong",
+              "Roh Yu Jeong",
+              "Song Hee Jin"
+            ],
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "Abietic acid (AA) is known to have beneficial effects on inflammation, photoaging, osteoporosis, cancer, and obesity; however, its efficacy on atopic dermatitis (AD) has not been reported. We investigated the anti-AD effects of AA, which was newly isolated from rosin, in an AD model. To achieve this, AA was isolated from rosin under conditions optimized by response surface methodology (RSM), and its effects on cell death, iNOS-induced COX-2 mediated pathway, inflammatory cytokine transcription, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hyaluronidase 可降解皮膚炎症組織中積累的 HA，理論上可減少組織水腫、改善局部藥物滲透率並調節炎症微環境。然而，文獻中存在矛盾信號：多篇研究顯示「抑制」Hyaluronidase 活性可改善皮膚炎症（植物提取物通過拮抗 Hyaluronidase 發揮作用），表明 HA 降解可能具有雙向調節效應。Phase 2 RCT 已完成但需評估其主要結局。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9970989227294922,
+        "rank": 4484
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00198497",
+            "title": "Phase III Safety and Efficacy Study of Vitrase (Ovine Hyaluronidase) for Ophthalmic Intravitreal Injection for Clearance of Severe Vitreous Hemorrhage",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 510,
+            "start_date": "1999-06",
+            "completion_date": "2003-06",
+            "brief_summary": "The purpose of this study is to determine if intravitreal injection of Vitrase (ovine hyaluronidase) clears vitreous hemorrhage",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT（n=510），Vitrase 玻璃體內注射，直接針對糖尿病視網膜病變相關玻璃體出血，COMPLETED。為本適應症最強直接臨床證據，支撐 L1 評級。"
+            }
+          },
+          {
+            "nct_id": "NCT00198471",
+            "title": "An Open-label Assessment of Intravitreous Injections of Vitrase (Hyaluronidase for Injection) for Inducing Posterior Vitreous Detachment in Subjects With Moderate to Severe Non-proliferative Diabetic Retinopathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2005-07",
+            "completion_date": "2006-11",
+            "brief_summary": "The purpose of this study is to assess the efficacy of intravitreous injections of Vitrase to induce posterior vitreous detachment(PVD) in subjects with moderate to severe non-proliferative diabetic retinopathy.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 開放標籤研究（n=10），同為 Vitrase 玻璃體內注射。規模過小且無對照，但作為 Phase 3 的先導研究具參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT00198510",
+            "title": "Phase III Safety and Efficacy Study of Vitrase (Ovine Hyaluronidase) for Ophthalmic Intravitreal Injection for Clearance of Severe Vitreous Hemorrhage",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 750,
+            "start_date": "1998-11",
+            "completion_date": "2003-03",
+            "brief_summary": "The purpose of this study is to determine if intravitreal injection of Vitrase (ovine hyaluronidase) clears vitreous hemorrhage",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT（n=750），同為 Vitrase 玻璃體內注射試驗，規模更大，COMPLETED。與 NCT00198497 共同構成雙 Phase 3 直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT04311606",
+            "title": "Anti-VEGF Therapy for Acute Thyroid Eye Disease (AcTED Study)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 11,
+            "start_date": "2020-11-02",
+            "completion_date": "2024-12-17",
+            "brief_summary": "The primary objective of this clinical trial is to assess the safety and tolerability of sub-tenon aflibercept in combination with either saline or hyaluronidase (HA) in patients with acute Thyroid Eye Disease (TED) as assessed by the incidence and severity of adverse events from baseline to day 45.\n\nParticipants will undergo clinical examinations and receive three injections of aflibercept with saline, aflibercept with hyaluronidase, or hyaluronidase.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 研究（n=11），主題為 Anti-VEGF 治療急性甲狀腺眼病（AcTED），與 Hyaluronidase 或糖尿病視網膜病變無直接關聯，相關性極低，不應納入證據計算。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17713597",
+            "title": "Pharmacotherapies for diabetic retinopathy: present and future.",
+            "authors": [
+              "Schwartz Stephen G",
+              "Flynn Harry W"
+            ],
+            "journal": "Experimental diabetes research",
+            "year": "2007",
+            "abstract": "Diabetic retinopathy remains a major cause of worldwide preventable blindness. Measures to avoid blindness include medical management (control of blood sugar, blood pressure, and serum lipids) and ocular management (laser photocoagulation and pars plana vitrectomy). Adjunctive pharmacologic therapies (intravitreal triamcinolone acetonide and anti-vascular endothelial growth factor agents) have shown early promise in the treatment of both diabetic macular edema and proliferative diabetic retinopa",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19199900",
+            "title": "Enzymatic vitreolysis.",
+            "authors": [
+              "Lopez-Lopez Fernando",
+              "Rodriguez-Blanco Maria",
+              "Gómez-Ulla Francisco",
+              "Marticorena Joaquin"
+            ],
+            "journal": "Current diabetes reviews",
+            "year": "2009",
+            "abstract": "In the absence of posterior vitreous detachment, vitreous cortex is adhered to the internal limiting lamina of the inner retina. This junction between the vitreous and the retina is thought to participate in the pathophysiology of diverse retinal diseases, including proliferative diabetic retinopathy and diabetic macular edema. Vitrectomy has been associated with decrease of macular edema and improvement of visual acuity in eyes of diabetic patients. Thus, many pharmacologic agents have been stu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19668479",
+            "title": "Diabetic retinopathy.",
+            "authors": [
+              "Shaya Fadia T",
+              "Aljawadi Mohammad"
+            ],
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2007",
+            "abstract": "The prognosis of some of the most prevalent conditions seems to be intricately related to myriad risk factors, largely modifiable, but often leading to irreversible complications when left unmanaged. This study exemplifies the multidisciplinary approach necessary, to successfully control diabetic retinopathy, one of the leading complications of diabetes, and to discuss promising therapies. Based on a Medline Ovid database search, we present a clinical and economic review of the evidence on the e",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20939804",
+            "title": "Pharmacologic vitreolysis in diabetic retinopathy.",
+            "authors": [
+              "El-Asrar Ahmed M Abu",
+              "Al-Mezain Hani S"
+            ],
+            "journal": "Current pharmaceutical biotechnology",
+            "year": "2011",
+            "abstract": "Diabetic retinopathy remains a major cause of worldwide preventable blindness. The vitreo-retinal interface plays a critical role in the pathogenesis of diabetic retinopathy. The term pharmacologic vitreolysis refers to the use of enzymes to liquefy the vitreous gel, and to induce posterior vitreous detachment (PVD). Intravitreal ovine hyaluronidase injection was effective in clearing vitreous hemorrhage. Several human case series demonstrated that intravitreal injection of autologous plasmin en",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19050667",
+            "title": "Pharmacologic vitreolysis with plasmin and hyaluronidase in diabetic rats.",
+            "authors": [
+              "Zhi-Liang Wang",
+              "Wo-Dong Shi",
+              "Min Luo",
+              "Xiao-Ping Bi",
+              "Jin Ji"
+            ],
+            "journal": "Retina (Philadelphia, Pa.)",
+            "year": "2009",
+            "abstract": "To evaluate the feasibility of inducing posterior vitreous detachment (PVD) with pharmacologic vitreolysis in diabetic rats.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19644368",
+            "title": "Changing paradigms in the treatment of diabetic retinopathy.",
+            "authors": [
+              "El-Asrar Ahmed M Abu",
+              "Al-Mezaine Hani S",
+              "Ola Mohammad Shamsul"
+            ],
+            "journal": "Current opinion in ophthalmology",
+            "year": "2009",
+            "abstract": "To review current treatment approaches in diabetic retinopathy.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19349793",
+            "title": "Pharmacologic vitreodynamics.",
+            "authors": [
+              "Ranchod Tushar M",
+              "Goldenberg David T",
+              "Trese Michael T"
+            ],
+            "journal": "International ophthalmology clinics",
+            "year": "2009",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41789111",
+            "title": "Dysregulated hyaluronan metabolism drives inflammation and angiogenesis in proliferative diabetic retinopathy.",
+            "authors": [
+              "Abu El-Asrar Ahmed M",
+              "Nawaz Mohd I",
+              "Ahmad Ajmal",
+              "Siddiquei Mairaj",
+              "Allegaert Eef"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2026",
+            "abstract": "To investigate the expression levels of enzymes and receptors of the hyaluronan (HA) pathway, including HA synthase (HAS)-2, hyaluronidase (Hyal)-1, Hyal-2, CD44 and receptor for HA-mediated motility (RHAMM) in the ocular microenvironment of patients with proliferative diabetic retinopathy (PDR) and the role of HA pathway in inflammation and angiogenesis that drive PDR initiation and progression.",
+            "classification": {
+              "study_type": "Mechanistic/Translational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17245084",
+            "title": "Pharmacologic vitreolysis.",
+            "authors": [
+              "Gandorfer Arnd"
+            ],
+            "journal": "Developments in ophthalmology",
+            "year": "2007",
+            "abstract": "At present, surgical separation of the vitreous from the retina (posterior vitreous detachment, PVD) is achieved by mechanical means only. However, with this technique, complete removal of the cortical vitreous from the internal limiting membrane of the retina is not feasible. As incomplete PVD and an attached vitreous cortex are associated with the progression of common retinal diseases including diabetic retinopathy and maculopathy, central retinal vein occlusion and proliferative vitreoretino",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30445048",
+            "title": "Effect of diabetes and hyaluronidase on the retinal endothelial glycocalyx in mice.",
+            "authors": [
+              "Leskova Wendy",
+              "Pickett Haley",
+              "Eshaq Randa S",
+              "Shrestha Bandana",
+              "Pattillo Christopher B"
+            ],
+            "journal": "Experimental eye research",
+            "year": "2019",
+            "abstract": "We sought to investigate the effects of diabetes and hyaluronidase on the thickness of the endothelial glycocalyx layer in the mouse retina. In our study, the retinal circulation of diabetic Ins2(Akita) mice and their nondiabetic littermates were observed via intravital microscopy. The endothelial glycocalyx thickness was determined from the infusion of two fluorescently labeled plasma markers, one of which was a high molecular weight rhodamine dextran (MW = 155,000) excluded from the glycocalyx",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34293791",
+            "title": "Retrobulbar Hyaluronidase Injection: Does It Reach the Eye?",
+            "authors": [
+              "Rudraprasad Dhanwini",
+              "Gagan Satyashree",
+              "Joseph Joveeta",
+              "Vasanthapuram Varshitha Hemanth",
+              "Naik Milind N"
+            ],
+            "journal": "Ophthalmic plastic and reconstructive surgery",
+            "year": "2022",
+            "abstract": "To determine if retrobulbar injection of hyaluronidase reaches the vitreous cavity, and to determine its concentration in the vitreous.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12757408",
+            "title": "Hyaluronidase (Vitrase)--ISTA: hyaluronidase--ISTA pharmaceuticals.",
+            "authors": [],
+            "journal": "Drugs in R&D",
+            "year": "2003",
+            "abstract": "ISTA Pharmaceuticals (formerly Advanced Corneal Systems) has developed an ophthalmic injectable formulation of highly purified hyaluronidase [ovine hyaluronidase, Vitrase] for the initial treatment of vitreous haemorrhage and diabetic retinopathy. Hyaluronidase is a naturally occurring enzyme that digests certain forms of carbohydrate molecules called proteoglycans. The current medical treatment for vitreous haemorrhage is vitrectomy, an invasive surgical procedure that may result in future cata",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14153140",
+            "title": "[DIABETIC RETINOPATHY. RETROBULBAR TREATMENT AND SURGICAL TREATMENT].",
+            "authors": [
+              "LIJOPAVIA J J"
+            ],
+            "journal": "La Semana medica",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23847321",
+            "title": "Enzyme-induced vitreolysis can alleviate the progression of diabetic retinopathy through the HIF-1α pathway.",
+            "authors": [
+              "Li Chuanyin",
+              "Chen Ping",
+              "Zhang Jingfa",
+              "Zhang Limei",
+              "Huang Xiaolin"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2013",
+            "abstract": "We studied the mechanism by which complete posterior vitreous detachment by enzyme-induced vitreolysis alleviates the progression of diabetic retinopathy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "59330",
+            "title": "[Immediate and remote results of treatment of diabetic retinopathy].",
+            "authors": [
+              "Kashintseva L T"
+            ],
+            "journal": "Oftalmologicheskii zhurnal",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19576064",
+            "title": "[Pharmacologic vitreolysis in diabetic rats].",
+            "authors": [
+              "Luo Min",
+              "Wang Zhi-liang",
+              "Shi Wo-dong",
+              "Fan Xian-qun",
+              "Xu Guo-tong"
+            ],
+            "journal": "[Zhonghua yan ke za zhi] Chinese journal of ophthalmology",
+            "year": "2009",
+            "abstract": "To evaluate the efficacy and safety of plasmin or hyaluronidase in the inducing of posterior vitreous detachment in diabetic rats.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11799901",
+            "title": "[Using enzymes in the posterior eye segment. Current status and future possibilities].",
+            "authors": [
+              "Hesse L"
+            ],
+            "journal": "Der Ophthalmologe : Zeitschrift der Deutschen Ophthalmologischen Gesellschaft",
+            "year": "2001",
+            "abstract": "The first investigations to treat diseases of the posterior segment enzymatically started 40 years ago. To treat acute subretinal hemorrhage a pneumatic displacement through intravitreally injected gas after enzymatically induced subretinal fibrinolysis (TPA) is recommended. Recent morphometric analysis clearly demonstrated a subretinal fibrinolytic effect after intravitreal injection of TPA. Obviously TPA crosses the retina through microlesions that develop through elevation of the retina durin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10445774",
+            "title": "Retrobulbar/peribulbar block with 0.2% ropivacaine or 1% lidocaine for transscleral cyclophotocoagulation or retinal panphotocoagulation.",
+            "authors": [
+              "Kallio H",
+              "Puska P",
+              "Summanen P",
+              "Paloheimo M",
+              "Maunuksela E L"
+            ],
+            "journal": "Regional anesthesia and pain medicine",
+            "year": "1999",
+            "abstract": "Brief analgesia is needed to complete krypton laser cyclophotocoagulation for glaucoma patients and is advantageous in argon laser panphotocoagulation for diabetic retinopathy. We studied whether 0.2% ropivacaine, known for analgesia with minimal motor block or 1% lidocaine, with rapid onset and short duration of action, both supplemented with hyaluronidase, are suitable local anesthetics for retrobulbar/peribulbar block for these procedures.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27086168",
+            "title": "A sustained release formulation of novel quininib-hyaluronan microneedles inhibits angiogenesis and retinal vascular permeability in vivo.",
+            "authors": [
+              "Galvin Orla",
+              "Srivastava Akshay",
+              "Carroll Oliver",
+              "Kulkarni Rajiv",
+              "Dykes Steve"
+            ],
+            "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+            "year": "2016",
+            "abstract": "Pathologic neovascularisation and ocular permeability are hallmarks of proliferative diabetic retinopathy and age-related macular degeneration. Current pharmacologic interventions targeting VEGF are effective in only 30-60% of patients and require multiple intraocular injections associated with iatrogenic infection. Thus, our goal is to develop novel small molecule drugs that are VEGF-independent are amenable to sustained ocular-release, and which reduce retinal angiogenesis and retinal vascular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19187667",
+            "title": "[Study on the setup of a new technique of tissue and cell culture for vitreous fluid of vitrectomy].",
+            "authors": [
+              "Li Gen-lin",
+              "Liu Yue-yue",
+              "Zhang Xiang",
+              "Zhang Cheng-yue",
+              "Wang Liang-hai"
+            ],
+            "journal": "[Zhonghua yan ke za zhi] Chinese journal of ophthalmology",
+            "year": "2008",
+            "abstract": "To setup a new technique of tissue and cell culture for vitreous aspirates.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "玻璃體內 HA 大量積累是增殖性糖尿病視網膜病變的病理特徵之一。Hyaluronidase 透過酶解 HA 促進藥理性玻璃體溶解（pharmacologic vitreolysis），可液化並分離後部玻璃體，有助於減少牽引性視網膜剝離及促進玻璃體出血吸收。2026 年新研究（PMID 41789111）進一步確認 HA 代謝失調驅動炎症與血管新生，強化機轉合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn": {
+        "score": 0.9957945346832277,
+        "rank": 5784
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性萎縮性肢端皮炎（Lyme 病晚期皮膚表現）理論上與 HA 代謝可能有關聯，但目前無任何試驗或文獻資料支持此假說。缺乏可追溯的研究起點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "diabetic cataract",
+      "txgnn": {
+        "score": 0.99550062417984,
+        "rank": 6062
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37661976",
+            "title": "Evaluation of efficacy of peribulbar block with the combination of 2% lidocaine and 0.5% bupivacaine in comparison with 2% lidocaine and 0.75% ropivacaine in cataract surgery.",
+            "authors": [
+              "Samal Satyaranjan",
+              "Jena Shibanee",
+              "Mishra Jagarnnath",
+              "Nanda Prajna",
+              "Biswal Debadas"
+            ],
+            "journal": "National journal of maxillofacial surgery",
+            "year": "2023",
+            "abstract": "Cataract surgery is performed under peribulbar or retrobulbar block. Majority of the patients posted for cataract have some form of medical diseases like diabetes, hypertension, angina, ischaemic heart disease etc. Lidocaine and bupivacaine are the most commonly used local anesthetic for the block procedure. Here we compare the efficacy of peribulbar block in cataract surgery using the combination of 1:1 mixture of 2% lidocaine with 0.5% bupivacaine and 1:1 mixture of 2% lidocaine with 0.75% rop",
+            "classification": {
+              "study_type": "RCT/Procedural",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19644368",
+            "title": "Changing paradigms in the treatment of diabetic retinopathy.",
+            "authors": [
+              "El-Asrar Ahmed M Abu",
+              "Al-Mezaine Hani S",
+              "Ola Mohammad Shamsul"
+            ],
+            "journal": "Current opinion in ophthalmology",
+            "year": "2009",
+            "abstract": "To review current treatment approaches in diabetic retinopathy.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12757408",
+            "title": "Hyaluronidase (Vitrase)--ISTA: hyaluronidase--ISTA pharmaceuticals.",
+            "authors": [],
+            "journal": "Drugs in R&D",
+            "year": "2003",
+            "abstract": "ISTA Pharmaceuticals (formerly Advanced Corneal Systems) has developed an ophthalmic injectable formulation of highly purified hyaluronidase [ovine hyaluronidase, Vitrase] for the initial treatment of vitreous haemorrhage and diabetic retinopathy. Hyaluronidase is a naturally occurring enzyme that digests certain forms of carbohydrate molecules called proteoglycans. The current medical treatment for vitreous haemorrhage is vitrectomy, an invasive surgical procedure that may result in future cata",
+            "classification": {
+              "study_type": "Drug Profile",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19577582",
+            "title": "Increased O-GlcNAc causes disrupted lens fiber cell differentiation and cataracts.",
+            "authors": [
+              "Wang Kai",
+              "Ho Shiuh-Rong",
+              "Mao Weiming",
+              "Huang Ping",
+              "Zhang Fengxue"
+            ],
+            "journal": "Biochemical and biophysical research communications",
+            "year": "2009",
+            "abstract": "Diminished proteolytic functionality in the lens may cause cataracts. We have reported that O-GlcNAc is an endogenous inhibitor of the proteasome. We hypothesize that in the lens there is a cause-and-effect relationship between proteasome inhibition by O-GlcNAc, and cataract formation. To demonstrate this, we established novel transgenic mouse models to over-express a dominant-negative form of O-GlcNAcase, GK-NCOAT, in the lens. Expression of GK-NCOAT suppresses removal of O-GlcNAc from proteins",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "367238",
+            "title": "Effect of hyaluronidase on the incidence of cystoid macular edema.",
+            "authors": [
+              "Roper D L",
+              "Nisbet R M"
+            ],
+            "journal": "Annals of ophthalmology",
+            "year": "1978",
+            "abstract": "A prospective double-blind study of the effect of hyaluronidase on aphakic cystoid macular edema (CME) was performed. A 25% incidence of CME was encountered in patients receiving hyaluronidase admixed with the local anesthetic while no cases were diagnosed in the group not receiving hyaluronidase. The role of hyaluronidase in the pathogenesis of aphakic cystoid macular edema is discussed.",
+            "classification": {
+              "study_type": "Clinical Observation",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "現有文獻中 Hyaluronidase 與糖尿病性白內障的關聯主要來自兩個間接路徑：(1) 作為球旁麻醉（peribulbar block）的滲透促進劑用於白內障手術；(2) 早期研究顯示 Hyaluronidase 影響囊樣黃斑水腫（CME）發生率。目前尚無直接以 Hyaluronidase 「治療」糖尿病性白內障的生物合理性機轉或臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn": {
+        "score": 0.9950750470161438,
+        "rank": 6427
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4261256",
+            "title": "The determination of galactose in urinary acidic glycosaminoglycans as a measure of keratan sulfate-like substances in urine.",
+            "authors": [
+              "Robertson W V",
+              "Harvey J"
+            ],
+            "journal": "Biochemical medicine",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "Basic Science/Biochemistry",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 4261256，1972 年）研究尿液酸性糖胺聚糖中半乳糖的測定，作為角蛋白硫酸鹽的指標，屬代謝測量研究，與 Hyaluronidase 治療新生兒皮肌炎無任何直接關聯。「neonatal dermatomyositis」本身為極罕見疾病，此連結很可能為知識圖譜假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn": {
+        "score": 0.9950716495513916,
+        "rank": 6431
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "食道先天性畸形為解剖結構異常，主要治療方式為手術矯正。無已知機轉可支持 Hyaluronidase 酶解療法對此先天性異常的治療效果。無任何文獻或試驗資料，應視為純粹的圖譜計算預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "diabetic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "diabetic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "diabetic cataract"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hyaluronidase",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

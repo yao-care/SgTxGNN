@@ -1,0 +1,258 @@
+## 藥物再利用證據分析：Insulin glargine (DB00047)
+
+**前置說明**：資料顯示 `market_status: 未上市` 及 `original_indications: []`，疑為資料缺漏——Insulin glargine（Lantus/Toujeo）實為全球核准上市的長效胰島素類似物，原適應症為第1/2型糖尿病。以下分析以此背景為基礎進行再利用評估。
+
+---
+
+```json
+{
+  "drug": "Insulin glargine",
+  "drugbank_id": "DB00047",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "market_status 顯示未上市疑為資料錯誤：Insulin glargine 為全球已核准長效胰島素",
+    "original_indications 為空疑為資料缺漏：原適應症應包含 T1DM、T2DM",
+    "original_moa 標示 [Data Gap]：實際機轉為 IGF-1R/INSR 激動，促進葡萄糖攝取與抑制肝醣分解"
+  ],
+  "indications": [
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎為 T 細胞介導的自體免疫疾病，破壞卵巢顆粒細胞。Insulin glargine 作用於 INSR/IGF-1R，具有弱 IGF-1 活性，推測 TxGNN 可能透過 INSR 在卵巢類固醇生成的共享節點連結，但無任何臨床或基礎研究支持胰島素對卵巢自體免疫有直接治療作用。",
+      "safety_flags": ["IGF-1R 過度活化理論上可能刺激卵巢細胞增生，需謹慎"],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "TxGNN 高分源自知識圖譜中 INSR 節點在卵巢內分泌路徑的間接連結，不代表臨床可行性"
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Thiamine-responsive megaloblastic anemia syndrome (TRMA/Rogers syndrome) 為 SLC19A2 基因突變，臨床三聯症包含：巨紅血球貧血、感音性耳聾、糖尿病。其糖尿病成分源於胰島 β 細胞對硫胺素缺乏的敏感性，理論上 Insulin glargine 可管理 TRMA 的糖尿病表現。然而正確治療為高劑量硫胺素補充，可部分逆轉糖尿病；胰島素為輔助治療而非疾病修飾治療。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "間接關聯：疾病本身包含糖尿病成分，但 Insulin 非針對 TRMA 的特異性治療"
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Focal stiff limb syndrome 為 Stiff Person Spectrum Disorder (SPSD) 的局部型，主要由 anti-GAD65 抗體介導。關鍵連結：GAD65 抗體同時見於第1型糖尿病（T1DM），約 60-80% SPSD 患者伴有 T1DM，因此 Insulin glargine 用於管理共病 T1DM，而非治療 SPSD 本身的肌肉強直症狀。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "知識圖譜可能透過 GAD65 節點連結 SPSD 與胰島素，屬共病管理而非再利用"
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Classic SPS 與 T1DM 共享 anti-GAD65 自體免疫機轉，兩者常共病（盛行率高達 30-60%）。此外，近期研究（Alexopoulos et al.）顯示胰島素訊號路徑在 GABAergic 神經元中具有神經保護作用，INSR 在脊髓中樞抑制性中間神經元有表現。推測研究問題：胰島素是否透過神經性 INSR 調節脊髓 GABA 釋放而緩解強直症狀？但目前無臨床研究驗證此假說。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "較 focal 型有更成熟的機轉假說（GABAergic 路徑），值得列為研究問題但需基礎研究先行驗證"
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 為 INPPL1（SHIP2 基因）突變導致的罕見骨骼發育不良症。SHIP2 為磷脂醯肌醇 3-磷酸酶，負調控 PI3K/AKT 路徑，為胰島素訊號傳遞的關鍵抑制因子。TxGNN 可能偵測到此路徑連結：SHIP2 功能喪失 → PI3K/AKT 過度活化 → 骨骼發育異常；而 Insulin 亦透過 PI3K/AKT 訊號作用。然而骨骼發育不良為結構性問題，胰島素無法修正 SHIP2 突變或改善骨骼形態。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "PI3K/AKT 路徑連結為 TxGNN 評分來源，但病理機轉為結構性骨骼缺陷，非代謝性問題"
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9943,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胰臟發育不全（Pancreatic agenesis）導致內分泌胰臟完全缺失，患者出生即為永久性胰島素依賴型糖尿病（neonatal diabetes mellitus, NDM）。此為最直接的機轉連結：無胰島素分泌能力 → 外源性胰島素為唯一治療選項。Insulin glargine 作為長效基礎胰島素，符合此類患者的生理需求（持續低劑量基礎胰島素補充）。文獻中繼發性糖尿病的胰島素使用案例支持此概念，但缺乏針對胰臟發育不全的特異性 RCT。",
+      "safety_flags": [
+        "NDM 患者多為新生兒，Insulin glargine 在嬰幼兒的 PK/PD 與成人差異大",
+        "需注意低血糖風險，需密切監控",
+        "部分 NDM 為暫時性（TNDM），需區分永久性（PNDM）"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11727406",
+          "title": "Insulin therapy in type 2 diabetes",
+          "year": "2001",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "一般性 T2DM 胰島素治療綜述，未涉及胰臟發育不全；原則性支持但間接性極高"
+        },
+        {
+          "pmid": "12150359",
+          "title": "Insulin therapy in type 2 diabetes",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "與 PMID 11727406 性質相近，對 pancreatic agenesis 適應症無直接支持"
+        },
+        {
+          "pmid": "19322513",
+          "title": "Secondary diabetes associated with principal endocrinopathies",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "討論內分泌疾病繼發性糖尿病的治療模式，概念上涵蓋胰臟功能缺失導致之糖尿病，與胰臟發育不全機轉相近，但未直接討論先天性胰臟缺失"
+        },
+        {
+          "pmid": "25818213",
+          "title": "Longitudinal evaluation of serum pancreatic enzymes and ultrasonographic findings in diabetic cats with insulin glargine",
+          "year": "2015",
+          "study_type": "Prospective Observational (Animal)",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "動物研究（貓），評估 insulin glargine 用於胰臟疾病相關糖尿病，與胰臟發育不全有間接相關性，但物種差異限制了可轉換性"
+        },
+        {
+          "pmid": "32871938",
+          "title": "MODY type 5 treated with GLP-1 receptor agonist",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "MODY5（HNF1B 突變）為不同病因，但同屬先天性胰島素分泌障礙，個案報告價值有限且藥物不同"
+        },
+        {
+          "pmid": "18518815",
+          "title": "Chronic pancreatitis with secondary diabetes mellitus treated with insulin in an adult California sea lion",
+          "year": "2008",
+          "study_type": "Case Report (Animal)",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "動物個案（加州海獅），胰臟炎繼發糖尿病使用胰島素，非胰臟發育不全，物種差異大，僅有原則性參考價值"
+        }
+      ],
+      "guardrails": [
+        "需限定於確診為永久性 NDM（PNDM）的胰臟發育不全患者",
+        "優先使用有兒科劑量資料的胰島素方案",
+        "需 CGM（連續血糖監測）搭配使用",
+        "應結合兒科內分泌專科監督"
+      ]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向安全警示：Insulin glargine 注射本身為局部脂肪萎縮（lipoatrophy）及脂肪增生（lipohypertrophy）的已知致因，屬藥物誘發局部脂質營養不良的典型範例。TxGNN 的高分可能反映知識圖譜中胰島素與脂肪代謝節點的密切連結，但此連結在臨床上表現為不良反應而非治療效果。使用 Insulin glargine 治療此症不僅無機轉支持，且可能加重症狀。",
+      "safety_flags": [
+        "🔴 高風險：Insulin glargine 為此疾病的已知致因之一",
+        "反直覺的 TxGNN 預測，需以因果關係方向性加以過濾"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "TxGNN 評分高但為偽陽性：知識圖譜連結方向為因果致病而非治療"
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9939,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Centrifugal lipodystrophy（Lipodystrophia centrifugalis abdominalis infantilis, LCAI）為兒童罕見自限性皮下脂肪萎縮，病因不明（可能涉及局部炎症）。Insulin glargine 的脂肪代謝調節路徑（促進脂肪合成、抑制脂解）理論上可能與局部脂肪萎縮有關，但無任何臨床依據支持，且胰島素注射局部也會造成類似病灶。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘發局部脂肪萎縮為物理性機械壓迫導致局部脂肪組織缺失，與胰島素的代謝作用路徑無直接關聯。知識圖譜連結可能透過脂肪組織代謝節點建立，但病理機轉為機械性，非代謝性，胰島素無法修正。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂質營養不良病因不明，但胰島素訊號異常（尤其是 INSR 後訊號路徑缺陷）在全身性脂質營養不良中已有記載。然而此為全身性而非局部型；局部型的機轉更傾向炎症或自體免疫局部因素，Insulin glargine 在此無合理治療假說。",
+      "safety_flags": [],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L5_prediction_only": 7,
+      "L4_indirect_case": 2,
+      "L3_retrospective": 1
+    },
+    "decision_distribution": {
+      "S0_insufficient": 8,
+      "S1_safety_review": 1,
+      "S2_clinical_feasibility": 1
+    },
+    "recommendation_distribution": {
+      "Hold": 8,
+      "Research_Question": 1,
+      "Proceed_with_Guardrails": 1
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "pancreatic agenesis",
+        "reason": "唯一具有直接機轉支持（胰臟功能完全缺失需外源性胰島素替代）且有間接文獻佐證的適應症，建議在嚴格監控下進行系統性病例系列研究"
+      },
+      {
+        "rank": 2,
+        "disease": "classic stiff person syndrome",
+        "reason": "GAD65 共享自體免疫機轉及 GABAergic 神經元 INSR 表現為值得探索的研究假說，建議先行動物模型驗證"
+      }
+    ],
+    "key_concerns": [
+      "drug-induced localized lipodystrophy 的高 TxGNN 分數為反向因果警示，Insulin glargine 為此症的致因而非治療",
+      "多個脂質營養不良相關預測可能源自同一知識圖譜節點的擴散效應，建議過濾",
+      "Insulin glargine 在新生兒/嬰幼兒族群（如 pancreatic agenesis 患者）的安全性資料仍有限"
+    ]
+  }
+}
+```
+
+---
+
+### 📊 分析摘要表
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|------|-----------|---------|---------|------|---------|
+| autoimmune oophoritis | 0.9988 | L5 | S0 | Hold | 無機轉支持 |
+| thiamine-responsive dysfunction syndrome | 0.9961 | L4 | S0 | Hold | 為共病管理非疾病修飾 |
+| focal stiff limb syndrome | 0.9960 | L4 | S0 | Hold | 共病 T1DM 管理 |
+| classic stiff person syndrome | 0.9960 | L4 | S1 | Research Question | GABAergic 假說值得探索 |
+| opsismodysplasia | 0.9959 | L5 | S0 | Hold | 結構性骨骼缺陷非代謝問題 |
+| **pancreatic agenesis** | 0.9943 | **L3** | **S2** | **Proceed w/ Guardrails** | **直接機轉，需兒科安全性資料** |
+| drug-induced localized lipodystrophy | 0.9942 | L5 | S0 | **⚠️ Hold (致因警示)** | Insulin 為此症致因 |
+| centrifugal lipodystrophy | 0.9939 | L5 | S0 | Hold | 無支持機轉 |
+| pressure-induced localized lipoatrophy | 0.9938 | L5 | S0 | Hold | 機械性病因 |
+| idiopathic localized lipodystrophy | 0.9934 | L5 | S0 | Hold | 無直接機轉 |
+
+> ⚠️ **YMYL 免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證才能應用於患者。

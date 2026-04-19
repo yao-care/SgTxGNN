@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB08964-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gemeprost",
+    "drugbank_id": "DB08964",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "atypical coarctation of aorta",
+      "txgnn": {
+        "score": 0.9952740669250488,
+        "rank": 6254
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉支持。Gemeprost 之 EP3 促效作用可引發血管收縮，理論上可能加重主動脈縮窄之血流動力學負荷。類別相關文獻（PMID 10904996, 18185889）顯示嚴重心血管不良事件，提示心血管適應症風險高。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9935698509216307,
+        "rank": 7759
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1525104",
+            "title": "Medical abortion in women of less than or equal to 56 days amenorrhoea: a comparison between gemeprost (a PGE1 analogue) alone and mifepristone and gemeprost.",
+            "authors": [
+              "Norman J E",
+              "Thong K J",
+              "Rodger M W",
+              "Baird D T"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1992",
+            "abstract": "To determine the efficacy of a new dose regimen of vaginal gemeprost (1 mg every 6 h up to three doses) in induction of abortion in women less than or equal to 56 days gestation, and to compare this regimen with mifepristone (200-600 mg) followed 48 h later by a single dose of gemeprost (1 mg).",
+            "classification": {
+              "study_type": "RCT（流產適應症）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2582769",
+            "title": "Blood loss following induction of early abortion using mifepristone (RU 486) and a prostaglandin analogue (gemeprost).",
+            "authors": [
+              "Rodger M W",
+              "Baird D T"
+            ],
+            "journal": "Contraception",
+            "year": "1989",
+            "abstract": "The pattern and amount of blood loss following induction of therapeutic abortion using mifepristone (RU 486) and a prostaglandin E analogue (gemeprost) was studied in 222 women of less than 63 days amenorrhoea. A single oral dose of mifepristone (400, 500 or 600 mg) was followed 48 hours later by a half or 1 mg gemeprost vaginal pessary. Complete abortion occurred in 218 (98%) women without necessity for surgical evacuation of the uterus. Bleeding commonly occurred following administration of mi",
+            "classification": {
+              "study_type": "臨床研究（流產適應症）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1751434",
+            "title": "Pre-operative cervical preparation before first trimester vacuum aspiration: a randomized controlled comparison between gemeprost and mifepristone (RU 486).",
+            "authors": [
+              "Henshaw R C",
+              "Templeton A A"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1991",
+            "abstract": "To compare the effectiveness of 200 mg mifepristone with 1 mg gemeprost vaginal pessary in achieving cervical dilatation and softening ('priming') before late first trimester pregnancy vacuum aspiration.",
+            "classification": {
+              "study_type": "RCT（子宮頸預備）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3069265",
+            "title": "Anti-progesterones for the interruption of pregnancy.",
+            "authors": [
+              "Bygdeman M",
+              "Van Look P F"
+            ],
+            "journal": "Bailliere's clinical obstetrics and gynaecology",
+            "year": "1988",
+            "abstract": "Therapeutic abortion can be performed effectively and safely by vacuum aspiration of the uterus up to 12 weeks of amenorrhoea. Although the operative procedure could be regarded as simple, complications do occur and attempts have been made to develop non-surgical means of terminating pregnancy in the first 3-4 weeks following the first missed menstrual period. A variety of PG analogues have been developed which induce abortion in over 90% of women when given by vaginal pessary or intramuscular i",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8546658",
+            "title": "Blood loss in termination of early pregnancy with mifepristone and gemeprost.",
+            "authors": [
+              "Prasad R N",
+              "Choolani M",
+              "Roy A",
+              "Ratnam S S"
+            ],
+            "journal": "The Australian & New Zealand journal of obstetrics & gynaecology",
+            "year": "1995",
+            "abstract": "The combination of an antiprogestogen with prostaglandin has been shown to be an effective alternative to surgical procedures for pregnancy termination in the first 49 days of amenorrhoea and has been available in France since late 1988. Mifepristone when used alone caused poor efficacy with unacceptable vaginal bleeding. The addition of a prostaglandin analogue (sulprostone, gemeprost) produced acceptable efficacy with less bleeding. The present study provides a quantitative assessment of blood",
+            "classification": {
+              "study_type": "臨床研究",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2891991",
+            "title": "Induction of therapeutic abortion in early pregnancy with mifepristone in combination with prostaglandin pessary.",
+            "authors": [
+              "Rodger M W",
+              "Baird D T"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1987",
+            "abstract": "Therapeutic abortion was induced in 100 women in early pregnancy (less than 56 days' amenorrhoea) with a combination of the antigestagen mifepristone (RU 486) and a synthetic prostaglandin analogue, gemeprost. Mifepristone in oral doses of 400-600 mg was followed 48 h later by a gemeprost vaginal pessary (0.5-1.0 mg). Bleeding was induced in all women 22-70 h after the mifepristone dose and although bleeding continued for 4-43 days (median 12) the total measured blood-loss was only a median of 7",
+            "classification": {
+              "study_type": "臨床研究（流產）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7507707",
+            "title": "Changes in the concentration of alpha-fetoprotein and placental hormones following two methods of medical abortion in early pregnancy.",
+            "authors": [
+              "Thong K J",
+              "Norman J E",
+              "Baird D T"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1993",
+            "abstract": "Measurement of alpha-fetoprotein (AFP) was used to investigate the occurrence of feto-maternal haemorrhage in women undergoing medical abortion.",
+            "classification": {
+              "study_type": "生化研究",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3193407",
+            "title": "Prostaglandins and antigestagens for the interruption of early pregnancy.",
+            "authors": [
+              "Baird D T",
+              "Rodger M",
+              "Cameron I T",
+              "Roberts I"
+            ],
+            "journal": "Journal of reproduction and fertility. Supplement",
+            "year": "1988",
+            "abstract": "During pregnancy the uterus is maintained in a quiescent state by the secretion of progesterone. Antigestagens antagonize the biological action of progesterone by binding to the nuclear receptor in the target organs. Administration of the antigestagen mifepristone to women induces bleeding during the luteal phase and in early pregnancy by releasing endogenous prostaglandins from the endometrium or decidua. In addition, the sensitivity of the myometrium to exogenous prostaglandins is markedly inc",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "重要資料解讀警示：8 篇文獻中『amenorrhea』均為妊娠週數計量單位（停經天數 ≤56 天），非治療閉經疾病之文獻。文獻情境為 Gemeprost 配合 mifepristone 執行醫療性流產，與閉經（疾病）治療無直接關聯。Gemeprost 之子宮收縮機轉理論上可誘發月經，但無任何以閉經為治療目標之臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn": {
+        "score": 0.9927027225494384,
+        "rank": 8467
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉關聯。食道先天畸形為結構性缺損，非 PGE1 路徑疾病。無文獻、無試驗、無間接支持。TxGNN 預測可能反映知識圖譜中結構性先天缺陷節點的非特異性連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "aortic malformation",
+      "txgnn": {
+        "score": 0.9922174215316772,
+        "rank": 8857
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉。主動脈畸形為先天結構性缺損。Gemeprost 之血管收縮特性（EP3 促效）在理論上對大血管畸形患者有害而非有益。無任何臨床或基礎研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.9915295839309692,
+        "rank": 9384
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間接反向證據：雖同類 PGE1 製劑（epoprostenol、treprostinil、iloprost）用於肺動脈高壓，但 PMID 7834185 明確顯示 EP3 受體促效劑（Gemeprost 主要作用受體）對人類離體肺動脈具**強力收縮作用**，與治療肺高壓之機轉相反。此為同類異向（class divergence）現象。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9887536764144896,
+        "rank": 11465
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無機轉關聯。脊柱側彎性心臟病為繼發於胸廓畸形的限制性心肺疾病，非前列腺素路徑疾病。TxGNN 預測可能源於結構性心臟病節點的非特異性圖譜連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "esophageal disease",
+      "txgnn": {
+        "score": 0.9885590076446532,
+        "rank": 11642
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無明確機轉。PGE2 在胃腸黏膜保護有已知作用，但 Gemeprost 之 EP 受體選擇性（主要 EP1/EP3）與胃腸黏膜保護的 EP4/EP2 受體不同。無任何食道疾病的直接或間接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "peripheral arterial disease",
+      "txgnn": {
+        "score": 0.9877811670303344,
+        "rank": 12229
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類別間接機轉：PGE1 製劑（alprostadil）已用於周邊動脈疾病，提供血管舒張與抗血小板效應（主要經 EP2/EP4）。然而 Gemeprost 之 EP3 優先性在血管床產生收縮而非舒張效應。同類 PGE1 藥物的正向證據**不可直接外推**至 Gemeprost。此外，vascular disease 文獻中多例嚴重心血管事件（心肌梗塞、冠脈痙攣）構成安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "HER2 positive breast carcinoma",
+      "txgnn": {
+        "score": 0.9847310781478882,
+        "rank": 14362
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知直接機轉。部分前列腺素（如 PGE2）在腫瘤免疫逃脫中有調節作用，但此為促癌機轉而非抗癌機轉。Gemeprost 之 EP1/EP3 促效對 HER2+ 乳癌無已發表之臨床前或臨床研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "vascular disease",
+      "txgnn": {
+        "score": 0.9812232255935668,
+        "rank": 16437
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3510916",
+            "title": "Pregnancy termination: techniques, risks, and complications and their management.",
+            "authors": [
+              "Castadot R G"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review（流產適應症）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1432596",
+            "title": "[Prostaglandins: synthetic and pharmacological studies and development].",
+            "authors": [
+              "Tsuboshima M",
+              "Matsumoto K",
+              "Arai Y",
+              "Wakatsuka H",
+              "Kawasaki A"
+            ],
+            "journal": "Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan",
+            "year": "1992",
+            "abstract": "The therapeutic use of prostaglandins (PGs) which contain various biological activities and are unstable was successfully achieved. PGs were produced in a large scale according to the Corey method and could be stabilized by the formation of a clathrate compound with cyclodextrin, which enabled the production of marketable form of highly pure PGs. Diligence in the development of native PGs and their structural analogs for human therapy resulted in the following six drugs now being on the market i",
+            "classification": {
+              "study_type": "Review（藥化）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7962459",
+            "title": "RU486: the French experience.",
+            "authors": [
+              "Ulmann A",
+              "Silvestre L"
+            ],
+            "journal": "Human reproduction (Oxford, England)",
+            "year": "1994",
+            "abstract": "RU486 (mifepristone) followed by a prostaglandin (PG) analogue has been marketed in France since April 1990 as a medical alternative to surgery for early pregnancy termination. By law, the drug is used only in the centres approved for voluntary pregnancy termination, and its distribution is strictly controlled. Before being marketed, it was distributed to more than 20,000 women, as part of a training programme for the prescribers. Analysis confirmed an efficacy rate of 95.3%. Failures included i",
+            "classification": {
+              "study_type": "Review（流產適應症）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18185889",
+            "title": "How safe is gemeprost? A case report of a middle-aged female developing acute myocardial infarction after insertion of gemeprost vaginal pessary and a review of its usage.",
+            "authors": [
+              "Lee Eng Kiang"
+            ],
+            "journal": "Annals of the Academy of Medicine, Singapore",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7834185",
+            "title": "Potent contractile actions of prostanoid EP3-receptor agonists on human isolated pulmonary artery.",
+            "authors": [
+              "Qian Y M",
+              "Jones R L",
+              "Chan K M",
+              "Stock A I",
+              "Ho J K"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "1994",
+            "abstract": "1. In 13 of 15 experiments, prostaglandin E2 (PGE2) and sulprostone (a prostanoid EP1/EP3-receptor agonist) contracted isolated rings of human pulmonary artery at low concentrations (> or = 5 and > or = 0.5 nM respectively). Tissue was obtained from patients undergoing surgery mainly for carcinoma of the lung. Characterization of the receptors involved was complicated by loss of sensitivity to the contractile PGE action over the experimental period. In contrast, contractile responses to KCl, phe",
+            "classification": {
+              "study_type": "基礎藥理（離體）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20224253",
+            "title": "Acute coronary artery vasospasm associated with misoprostol for termination of pregnancy.",
+            "authors": [
+              "Illa Miriam",
+              "Bennasar Mar",
+              "Eixarch Elisenda",
+              "Berge Raquel",
+              "Font Carme"
+            ],
+            "journal": "Fetal diagnosis and therapy",
+            "year": "2010",
+            "abstract": "Prostaglandin E(1) analogues, gemeprost and misoprostol, are the most widely used drugs for medical termination of pregnancy within the first two trimesters of pregnancy. Gemeprost has been reported to be associated with acute cardiovascular accidents in a few cases, but no adverse cardiovascular events have been reported with misoprostol. For this reason, misoprostol has been considered a potentially safer drug and is widely recommended as a first-choice drug in combination with mifepristone. W",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1738308",
+            "title": "The RU 486 story: the French experience.",
+            "authors": [
+              "Sharts-Engel N C"
+            ],
+            "journal": "MCN. The American journal of maternal child nursing",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review（流產適應症）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1322621",
+            "title": "Medical termination of early pregnancy with mifepristone (RU 486) followed by a prostaglandin analogue. Study in 16,369 women.",
+            "authors": [
+              "Ulmann A",
+              "Silvestre L",
+              "Chemama L",
+              "Rezvani Y",
+              "Renault M"
+            ],
+            "journal": "Acta obstetricia et gynecologica Scandinavica",
+            "year": "1992",
+            "abstract": "We report the results of a large-scale trial with mifepristone (RU 486) followed by the administration of a prostaglandin (PG) analogue for the medical termination of early pregnancy. Altogether, 16,173 patients from 300 centers were evaluated. 48 women (0.3%) were lost to follow-up prior to, and 416 (2.6%) after the PG administration, and therefore the efficacy was evaluated in 15,709 women. Overall, the success rate was 95.3%, with no statistical difference regarding the nature and dose of PG ",
+            "classification": {
+              "study_type": "臨床研究（流產）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10904996",
+            "title": "[Severe cardiovascular complications relating to Gemeprost therapy].",
+            "authors": [
+              "Lauer M",
+              "Berentelg J"
+            ],
+            "journal": "Zentralblatt fur Gynakologie",
+            "year": "2000",
+            "abstract": "The use of gemeprost vaginal pessaries is generally thought to be a method with little complications used for cervical softening within the first two trimesters of pregnancy. Though in our hospital two cases presented with severe cardiovascular reactions, to be attributed to the effect of prostaglandins. The first patient experienced a severe cardiogenic shock due to vasospasm several hours after primary administration of gemeprost vaginal pessaries and a cerebral stroke some hours later. The se",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10826591",
+            "title": "Life threatening myocardial ischaemia associated with the use of prostaglandin E1 to induce abortion.",
+            "authors": [
+              "Schulte-Sasse U"
+            ],
+            "journal": "BJOG : an international journal of obstetrics and gynaecology",
+            "year": "2000",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20666957",
+            "title": "Uterine artery pseudoaneurysm manifesting as postpartum hemorrhage after uneventful second-trimester pregnancy termination.",
+            "authors": [
+              "Matsubara Shigeki",
+              "Takahashi Yoshifumi",
+              "Usui Rie",
+              "Nakata Manabu",
+              "Kuwata Tomoyuki"
+            ],
+            "journal": "The journal of obstetrics and gynaecology research",
+            "year": "2010",
+            "abstract": "Uterine artery pseudoaneurysm is a rare complication mainly of abdominal or interventional delivery that can cause profuse postpartum hemorrhage if unrecognized or inadequately treated. There has been no report of this disorder accompanying uneventful second-trimester pregnancy termination. A primiparous Japanese woman underwent pregnancy termination at 24 weeks' gestation due to fetal death. Gradual dilatation of the cervix followed by administration of vaginal gemeprost led to an uneventful de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11187221",
+            "title": "[Vasospastic angina pectoris following abortion induced by prostaglandin analogue].",
+            "authors": [
+              "Lindhardt T B",
+              "Walker L R",
+              "Colov N S",
+              "Hansen P S"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "2000",
+            "abstract": "A case of vasospastic angina pectoris with loss of consciousness, bradycardia and seizures induced by medical abortion following administration of mifepristone and gemeprost is reported. The patient had a history of smoking and migraine, and former treatment with ergot alkaloids or serotonin agonists had also resulted in chest pain and lipothymia. The case underlines the importance of obtaining a detailed history of vasospastic disorders in women referred for medical abortion.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻主體為**不良事件報告**，非治療性使用證據。PMID 10904996 和 18185889 記錄 Gemeprost 導致嚴重心血管並發症（心肌梗塞、冠脈痙攣）；PMID 7834185 提供基礎科學機轉解釋（EP3 → 肺/冠狀動脈收縮）；PMID 20224253 顯示同類前列腺素（misoprostol）亦有冠脈痙攣風險。整體文獻構成**反向安全訊號**而非再利用支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "atypical coarctation of aorta"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "atypical coarctation of aorta"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "atypical coarctation of aorta"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "aortic malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "aortic malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "aortic malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "esophageal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "esophageal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "esophageal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "peripheral arterial disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "peripheral arterial disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "peripheral arterial disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "HER2 positive breast carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gemeprost",
+        "disease": "vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    }
+  ]
+}

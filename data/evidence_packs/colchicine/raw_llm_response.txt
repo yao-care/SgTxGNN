@@ -1,0 +1,275 @@
+## Colchicine 藥物再利用證據分析
+
+分析 10 個 TxGNN 預測適應症中，逐一評估證據等級。
+
+```json
+{
+  "drug": "Colchicine",
+  "drugbank_id": "DB01394",
+  "analysis_date": "2026-04-04",
+  "note": "market_status=未上市 (本地市場)；global 證據仍適用評估框架",
+  "indications": [
+    {
+      "disease_name": "familial Mediterranean fever, autosomal dominant",
+      "txgnn_score": 0.9938,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Colchicine 抑制微管聚合 → 阻斷嗜中性球趨化 → 抑制 NLRP3 inflammasome 激活 → 降低 IL-1β/IL-18 驅動的週期性發炎。FMF 病理核心 (MEFV 突變 → pyrin 失調) 正是此路徑的靶標，為國際第一線標準治療。",
+      "guardrails": [
+        "本地「未上市」狀態需確認是否有進口特殊用藥申請管道",
+        "腎功能不全者需調整劑量 (CrCl <30 mL/min 停用或減半)",
+        "與 CYP3A4/P-gp 抑制劑 (如 clarithromycin, cyclosporine) 併用有嚴重毒性風險",
+        "ddi_count=0 可能為資料缺口，需人工複核 DDI 資料庫"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06838143",
+          "title": "Canakinumab (Ilaris) vs colchicine-refractory FMF",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 canakinumab（IL-1β 單抗），非 colchicine；但確認 FMF 仍有未被 colchicine 滿足的需求族群（難治性），對再利用策略定位具參考意義"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39786587",
+          "year": "2025",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "最新 FMF 治療概論，明確將 colchicine 列為一線"
+        },
+        {
+          "pmid": "39404483",
+          "year": "2024",
+          "study_type": "Consensus Meeting Report",
+          "tier": "2",
+          "note": "2nd FMF Meeting — 涵蓋診斷/治療共識，colchicine 為核心議題"
+        },
+        {
+          "pmid": "37298536",
+          "year": "2023",
+          "study_type": "Review/Update",
+          "tier": "2",
+          "note": "Orphanet-level 更新，確認 colchicine 對 AD-FMF 同樣適用"
+        },
+        {
+          "pmid": "30686512",
+          "year": "2019",
+          "study_type": "Review (NEJM)",
+          "tier": "1",
+          "note": "高影響力 NEJM 綜述，系統性整理多項 RCT 結果"
+        },
+        {
+          "pmid": "31705200",
+          "year": "2020",
+          "study_type": "Observational Cohort",
+          "tier": "2",
+          "note": "FMF 與動脈粥樣硬化關聯；colchicine 長期使用對心血管的保護效應"
+        },
+        {
+          "pmid": "25649364",
+          "year": "2014",
+          "study_type": "Review (Lancet)",
+          "tier": "1",
+          "note": "Lancet 綜述，提供 colchicine RCT 後的治療演進"
+        },
+        {
+          "pmid": "16283319",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期大型 RCT 時代之後的里程碑綜述"
+        }
+      ],
+      "evidence_summary": "全球有多項 Phase 3 RCT（Zemer et al., Goldfinger et al. 等）確立 colchicine 對 FMF 的療效，發作頻率降低 >50%。本地市場未上市為行政障礙，非臨床證據不足。"
+    },
+    {
+      "disease_name": "Plasmodium falciparum malaria",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Colchicine 與 β-tubulin 結合抑制微管聚合；P. falciparum 具 tubulin/微管系統用於配子母細胞形成與細胞分裂。細胞骨架結合化合物在體外顯示抗瘧活性，提供間接機轉支持，但選擇性與治療指數仍未知。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2670249",
+          "year": "1989",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "細胞骨架結合化合物（含 colchicine 類似物）對 P. falciparum 體外活性；非 colchicine 本體直接數據"
+        },
+        {
+          "pmid": "2655935",
+          "year": "1989",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "同主題重複發表或同組研究，體外抗瘧效果確認"
+        },
+        {
+          "pmid": "2221861",
+          "year": "1990",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "Tubulozole（tubulin 抑制劑）之體外抗瘧機制研究；類比 colchicine 機轉"
+        },
+        {
+          "pmid": "23505424",
+          "year": "2013",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "薑黃素對 P. falciparum 微管之效果；與 colchicine 機轉相近但藥物不同"
+        },
+        {
+          "pmid": "6362934",
+          "year": "1984",
+          "study_type": "Serological Study",
+          "tier": "3",
+          "note": "急性瘧疾患者血清中發現細胞骨架中間絲抗體，提供免疫機轉背景"
+        },
+        {
+          "pmid": "7511206",
+          "year": "1994",
+          "study_type": "In Vitro/Molecular",
+          "tier": "3",
+          "note": "pfmdr1 與藥物耐藥性關係；與 colchicine 再利用關聯性低"
+        }
+      ],
+      "evidence_summary": "所有文獻均為 1984-2013 年間的體外研究，且多為類似物而非 colchicine 本體的直接測試。文獻品質低（Tier 3），無動物實驗或臨床數據。高 TxGNN 分數（0.996）反映機轉相似性，但不等同臨床有效性。需先進行 IC50 測定及毒性窗評估。"
+    },
+    {
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "DFSP 由 COL1A1-PDGFB 融合基因驅動 PDGFR 持續活化；colchicine 的抗微管機制可能抑制腫瘤細胞分裂，但無選擇性靶向 DFSP 的直接依據。TxGNN 預測可能源自炎症/增生通路的圖譜相似性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗、無文獻支持。TxGNN 高分（0.9937）可能反映知識圖譜中 colchicine-炎症-增生的通路關聯，非特異性 DFSP 證據。現有治療（imatinib）靶向明確，需更多機轉研究再考慮。"
+    },
+    {
+      "disease_name": "primary immunodeficiency due to a genetic defect in innate immunity",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Colchicine 調節先天免疫（嗜中性球、炎症小體），理論上可能緩解部分先天免疫失調；但原發性免疫缺乏的遺傳缺陷種類繁多（>430 種），colchicine 的抗炎機制對以免疫缺乏（而非過度活化）為特徵的病況可能無益甚至有害。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床或文獻支持。疾病類別過於廣泛且異質性高，建議細分具體遺傳缺陷後再評估。"
+    },
+    {
+      "disease_name": "sitosterolemia",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Sitosterolemia 由 ABCG5/ABCG8 突變導致植物固醇累積；colchicine 對脂質轉運無直接作用。TxGNN 預測可能源自 colchicine 對心血管炎症的已知保護效果（間接關聯），而非對此罕見病的特異性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗、無文獻支持。病理機轉（固醇轉運缺陷）與 colchicine 作用機轉（微管/炎症）缺乏直接連結。"
+    },
+    {
+      "disease_name": "Smouldering systemic mastocytosis",
+      "txgnn_score": 0.9824,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Colchicine 可能抑制肥大細胞脫顆粒（體外數據），但 smouldering SM 的 KIT D816V 驅動的肥大細胞增生需靶向 KIT 抑制劑（midostaurin, avapritinib）。colchicine 缺乏對此亞型的特異性機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床試驗、無文獻支持。"
+    },
+    {
+      "disease_name": "systemic mastocytosis",
+      "txgnn_score": 0.9820,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 Smouldering SM 相同；唯一相關文獻（PMID 37349205）研究 FMF 患者組織胺升高，並非 colchicine 對系統性肥大細胞增生症的直接療效研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37349205",
+          "year": "2023",
+          "study_type": "Cross-sectional Study",
+          "tier": "3",
+          "note": "FMF 患者組織胺水平研究；與系統性肥大細胞增生症的關聯為推測性，非直接證據"
+        }
+      ],
+      "evidence_summary": "唯一文獻為間接背景資料（FMF 中的組織胺），不支持 colchicine 用於系統性肥大細胞增生症。"
+    },
+    {
+      "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+      "txgnn_score": 0.9808,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此罕見亞型（SM-AHN 中的嗜酸性球變異）由 KIT 突變與 FIP1L1-PDGFRA 融合驅動；colchicine 無靶向 PDGFRA 或 KIT 的依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何證據支持。高 TxGNN 分數反映肥大細胞/炎症通路的圖譜相似性，非臨床有效性。"
+    },
+    {
+      "disease_name": "hemoglobin H disease",
+      "txgnn_score": 0.9806,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Hemoglobin H disease（α-地中海貧血，3個 α-globin 基因缺失）以慢性溶血性貧血為主；colchicine 抗炎機制對溶血或α-球蛋白缺乏無直接修正能力。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03747107",
+          "title": "Pharmacist and Data Driven Quality Improvement in Primary Care",
+          "relevance_grade": "C",
+          "reasoning": "N/A phase、19人、已完成的初級醫療品質改善研究；與 colchicine 或 Hgb H disease 無直接關聯，可能為 registry 誤配。完全不相關。"
+        }
+      ],
+      "literature_analysis": [],
+      "evidence_summary": "臨床試驗（NCT03747107）與本適應症完全無關，為資料庫匹配誤差。無任何支持性證據。"
+    },
+    {
+      "disease_name": "blepharo-cheilo-odontic syndrome",
+      "txgnn_score": 0.9671,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "BCO syndrome 為罕見先天發育異常（CDH1/CDH3 突變）；colchicine 無作用於鈣黏附素通路的機轉依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何證據。為 TxGNN 評分最低項（0.9671），仍屬高分預測範疇但缺乏任何臨床支持。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 證據等級摘要表
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|------------|---------|---------|------|
+| **FMF (AD)** | 0.9938 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| **P. falciparum malaria** | 0.9960 | L4 | S1 | 🔬 Research Question |
+| Dermatofibrosarcoma protuberans | 0.9937 | L5 | S0 | ⛔ Hold |
+| Primary immunodeficiency (innate) | 0.9867 | L5 | S0 | ⛔ Hold |
+| Sitosterolemia | 0.9859 | L5 | S0 | ⛔ Hold |
+| Smouldering systemic mastocytosis | 0.9824 | L5 | S0 | ⛔ Hold |
+| Systemic mastocytosis | 0.9820 | L5 | S0 | ⛔ Hold |
+| Lymphoadenopathic mastocytosis | 0.9808 | L5 | S0 | ⛔ Hold |
+| Hemoglobin H disease | 0.9806 | L5 | S0 | ⛔ Hold |
+| Blepharo-cheilo-odontic syndrome | 0.9671 | L5 | S0 | ⛔ Hold |
+
+---
+
+## 🔑 關鍵分析洞察
+
+### ⚠️ TxGNN Score ≠ 臨床證據的警示
+本次分析揭示一個重要現象：**P. falciparum malaria 的 TxGNN 分數（0.9960）全場最高，但臨床證據最弱**。這反映知識圖譜的微管機轉相似性計算，而非臨床可行性。
+
+### ✅ FMF 的特殊性
+Colchicine 是 FMF 的**全球第一線標準治療**（多項 Phase 3 RCT），僅因本地「未上市」狀態而未被 original_indications 收錄。`ddi_count=0` 為明顯**資料缺口**（colchicine 有多個重要 DDI，尤其與 CYP3A4/P-gp 抑制劑），需人工補充。
+
+### 🔬 瘧疾的研究機會
+6 篇文獻均來自 1984-1994 年，反映當時對微管靶向抗瘧的早期探索，但後續無人跟進。考量現有抗瘧藥物的抗藥性問題，此研究問題值得以現代體外模型重新驗證。

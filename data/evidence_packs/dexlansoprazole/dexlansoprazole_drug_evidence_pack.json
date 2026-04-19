@@ -1,0 +1,2933 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB05351-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dexlansoprazole",
+    "drugbank_id": "DB05351",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "active peptic ulcer disease",
+      "txgnn": {
+        "score": 0.9999921321868896,
+        "rank": 42
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04840550",
+            "title": "A Phase 3, Randomized, Double-blind, Active-controlled, Multicenter Study to Evaluate the Safety and Efficacy of Tegoprazan 25 mg for the Prevention of Peptic Ulcer Disease in Patients on Continuous Long-term Treatment With NSAIDs",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 390,
+            "start_date": "2021-05-07",
+            "completion_date": "2024-07",
+            "brief_summary": "This study is designed to confirm the non-inferiority of Tegoprazan 25 mg, compared to Lansoprazole 15 mg, to prevent gastroduodenal ulcers and verify the safety of tegoprazan following oral administration of tegoprazan 25 mg QD or lansoprazole 15 mg QD in patients on long-term treatment with NSAIDs.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，狀態 UNKNOWN，390 人，Active-controlled 設計相符，但狀態不明（可能為行政原因）降低可利用性，仍具參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT04784910",
+            "title": "A Multi-center, Randomized, Double-blind, Parallel-group, Active-controlled, Phase III Clinical Trial to Evaluate the Efficacy and Safety of DWP14012 in Prevention of NSAIDs Induced Peptic Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 423,
+            "start_date": "2021-05-21",
+            "completion_date": "2023-12-11",
+            "brief_summary": "The study aims to demonstrate the preventive effect of DWP14012 20 mg for peptic ulcer is non-inferior to that of Lansoprazole 15 mg in terms of prevention of peptic ulcer and confirm the safety of DWP14012 20 mg.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，已完成，423 人，Active-controlled 平行組設計。標題顯示為亞洲多中心直接比較試驗，針對上消化道潰瘍，高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT06778824",
+            "title": "Esophageal Visceral Hypersensitivity and Hypervigilance in Disorders of Gut-brain Interaction: the Roles of Neuromodulators",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 610,
+            "start_date": "2024-04-02",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Gastroesophageal reflux disease (GERD) poses a challenging medical condition to manage, with up to 40% of patients showing refractory to standard medical intervention, which usually begins with a proton pump inhibitor (PPI). Among these cases, esophageal disorders of gut-brain interaction (DGBI), such as reflux hypersensitivity and functional heartburn, or GERD patients with concurrent occurrences of these conditions, constitute more than 90% of the patients who did not respond to twice-daily PP",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA Phase，招募中，610 人，主要研究腸腦互動疾病（DGBI）的食道感覺過敏，潰瘍為次要關聯，相關性間接。"
+            }
+          },
+          {
+            "nct_id": "NCT04400136",
+            "title": "Impact of Treatment With Protonic Pump Inhibitors After Laparoscopic Sleeve Gastrectomy on Gastro-esophageal Reflux Disease Symptoms: Pilot Study",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 45,
+            "start_date": "2020-07-01",
+            "completion_date": "2022-09-01",
+            "brief_summary": "The trial would to try to establish:\n\n* The best post-operative PPI prescription protocol after Sleeve Gastrectomy\n* The impact of PPI therapy on postoperative peptic diseases (erosive gastropathies, ulcers, duodenitis, esophagitis and/or Barrett)\n* The impact of PPI therapy on post-operative GERD symptoms (assessed with the use of two standard tests: MRGE-HRQL and GERDQ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Early Phase 1，狀態不明，45 人，聚焦減重手術後 PPI 使用對 GERD 影響，為特殊人群研究，適應症特異性低。"
+            }
+          },
+          {
+            "nct_id": "NCT06964334",
+            "title": "The Effect of Vitamin D Supplement as Adjuvant Therapy in Eradication of Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 70,
+            "start_date": "2025-06-01",
+            "completion_date": "2026-08-01",
+            "brief_summary": "Helicobacter pylori (H. pylori) is one of the most common chronic infections worldwide. The mode of transmission of H. pylori is through the fecal-oral or oral-oral routes.\n\nChronic gastritis has been linked to helicobacter pylori (H. pylori) infection. Peptic ulcer disease, gastric adenocarcinoma, and gastric lymphoma are all linked to this condition .\n\nIn Egypt, a high prevalence of H. pylori infections has been reported, ranging from 70% in the general population , 73% among school children ,",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3，尚未招募，70 人，維生素 D 輔助 H. pylori 根除試驗，PPI 為輔助成分而非主要干預，主終點為根除率非潰瘍癒合。"
+            }
+          },
+          {
+            "nct_id": "NCT05448001",
+            "title": "A Multi-center, Randomized, Double-Blind, Active-Controlled, Parallel Group, Phase III Clinical Trial to Evaluate the Efficacy and Safety of JP-1366 in Patients With Gastric Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 329,
+            "start_date": "2022-09-19",
+            "completion_date": "2024-07-19",
+            "brief_summary": "A Multi-center, Randomized, Double-Blind, Active-Controlled, Parallel Group, Phase III Clinical Trial to Evaluate the Efficacy and Safety of JP-1366 in Patients with Gastric Ulcer",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，已完成，329 人，Active-Controlled 平行組設計，多中心雙盲，直接評估 PPI 於消化性潰瘍療效，高品質試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT04531475",
+            "title": "A Multicenter, Randomized, Double-blind, Double-simulation, Active Comparator-controlled, Parallel-group Phase II Clinical Study to Evaluate the Efficacy and Safety of X842 Capsules at Different Dosages in Patients With Reflux Esophagitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2020-01-21",
+            "completion_date": "2021-01-12",
+            "brief_summary": "The purpose of the study is to investigate the efficacy and dose-effect relationship of X842 capsules at different dosages in the treatment of reflux esophagitis for 4 weeks in comparison with lansoprazole enteric-coated capsules.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 RCT，已完成，90 人，Active Comparator-controlled 平行組設計。樣本較小，提供 Phase 2 支持性機轉/劑量證據。"
+            }
+          },
+          {
+            "nct_id": "NCT03675672",
+            "title": "Prevention of Recurrent Ulcer Bleeding in Patients With Idiopathic Gastroduodenal Ulcer: a Double-blind Randomised Trial on Misoprostol Combined With Lansoprazole Versus Lansoprazole Alone (NRT_MISO Study)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 154,
+            "start_date": "2018-06-21",
+            "completion_date": "2027-03-31",
+            "brief_summary": "Patients with a history of idiopathic gastroduodenal ulcer bleeding face an increased risk of recurrent ulcer gastrointestinal bleeding. Our ongoing clinical trial demonstrates a possible reduced risk of recurrent idiopathic gastroduodenal ulcer bleeding with proton pump inhibitor (PPI), yet there is a significant risk of recurrent ulcer bleeding as PPI may increase the risk of small bowel bleeding. Our preliminary data provide strong plausibility that a combination therapy of misoprostol (MISO)",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，招募中，154 人，研究特發性胃十二指腸潰瘍出血復發預防，聚焦潰瘍併發症預防，具臨床相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT07079540",
+            "title": "A Multicenter, Randomized, Double-Blind, Double-Dummy, Active-Controlled Parallel Group Phase III Clinical Study to Evaluate the Efficacy and Safety of X842 Capsules in Patients With Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 380,
+            "start_date": "2021-06-24",
+            "completion_date": "2022-12-01",
+            "brief_summary": "To evaluate the efficacy and safety of X842 Capsules 50 mg compared to Lansoprazole Enteric Capsules for the treatment of reflux esophagitis, and to characterize the population pharmacokinetics of X842 capsules in this patient population.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，已完成，380 人，Double-Blind Double-Dummy Active-Controlled 設計，方法學嚴謹，為直接高品質證據。"
+            }
+          },
+          {
+            "nct_id": "NCT05813561",
+            "title": "A Multicenter, Randomized, Double-Blind, Active-Parallel-Controlled, Phase 3 Clinical Study to Investigate the Efficacy and Safety of DWP14012 in the Treatment of Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 332,
+            "start_date": "2021-12-30",
+            "completion_date": "2023-02-17",
+            "brief_summary": "To evaluate the efficacy, safety, and cost-effectiveness of DWP14012 40 mg compared to esomeprazole magnesium enteric-coated tablets for the treatment of reflux esophagitis.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，已完成，332 人，Active-parallel-controlled，直接調查 PPI 在消化性潰瘍的安全有效性。"
+            }
+          },
+          {
+            "nct_id": "NCT06284876",
+            "title": "A Multicenter, Double-blind, Randomized, Parallel, Active-controlled, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Ilaprazole 10 mg in Prevention NSAIDs Associated Peptic Ulcer",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 416,
+            "start_date": "2024-07-23",
+            "completion_date": "2027-02-28",
+            "brief_summary": "To demonstrate the non-inferiority of Ilaprazole 10 mg to the active control in prevention of NSAIDs-associated peptic ulcer, as assessed by the proportion of subjects with peptic ulcer by Week 24",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00942175",
+            "title": "A Phase 1, Randomized, Open-Label, 2-Period, Crossover Design Study to Assess the Effects of Multiple Oral Doses of Dexlansoprazole, Lansoprazole, Omeprazole or Esomeprazole on the Steady-State Pharmacokinetics and Pharmacodynamics of Clopidogrel in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2009-12",
+            "completion_date": "2010-07",
+            "brief_summary": "The purpose of this study is to assess the potential effect and safety of multiple oral doses of dexlansoprazole, lansoprazole, omeprazole or esomeprazole, once daily (QD), on the steady-state pharmacokinetics and pharmacodynamics of clopidogrel, and to assess the safety of multiple doses of clopidogrel in healthy participants.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00251719",
+            "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of TAK-390MR (60 mg Once-daily [QD] and 90 mg QD) and an Active Comparator, Lansoprazole (30 mg QD) on Healing of Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 2054,
+            "start_date": "2005-12",
+            "completion_date": "2007-01",
+            "brief_summary": "This is a study to assess the efficacy and safety of 8 weeks of treatment with Dexlansoprazole modified release (MR)(60 mg daily and 90 mg daily) compared to Lansoprazole (30 mg daily) in healing subjects with endoscopically proven erosive esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00251693",
+            "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of TAK-390MR (60 mg Once- Daily [QD] and 90 mg QD) and an Active Comparator, Lansoprazole (30 mg QD) on Healing of Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 2038,
+            "start_date": "2005-12",
+            "completion_date": "2007-01",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of 8 weeks of once-daily (QD) treatment with dexlansoprazole modified release (MR) 60 mg or 90 mg or lansoprazole 30 mg in healing subjects with endoscopically proven erosive esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02761512",
+            "title": "A Double Blind, Randomized, Active-controlled, Phase 3 Study to Evaluate the Safety and Efficacy of CJ-12420 in Patients With Gastric Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 306,
+            "start_date": "2016-05",
+            "completion_date": "2018-12-28",
+            "brief_summary": "To demonstrate non-inferiority of CJ-12420 to lansoprazole 30 mg capsule in terms of therapeutic efficacy, and to confirm safety of CJ-12420, after once daily oral administration of CJ-12420 50 mg, 100 mg or Lansoprazole 30 mg capsule in gastric ulcer patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05010954",
+            "title": "A Multi-center, Randomized, Double-blind, Active-controlled Phase III Clinical Study to Evaluate the Efficacy and Safety of LXI-15028 Compared to Lansoprazole in the Treatment of Duodenal Ulcer in Chinese Patients for up to 6 Weeks",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "2021-10-18",
+            "completion_date": "2022-09-28",
+            "brief_summary": "This is a multi-center, randomized, double-blind, double-dummy, parallel-group, active-controlled Phase III clinical study to evaluate the efficacy and safety of LXI-15028 50mg comparing with Lansoprazole 30 mg after the treatment of duodenal ulcer in Chinese patients for up to 6 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01123031",
+            "title": "Oral vs Intravenous Proton Pump Inhibitor（PPI） in Patients With Peptic Ulcer Bleeding After Successful Endoscopic Therapy- a Prospective Randomized Comparative Trial",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2010-04",
+            "completion_date": "2012-03",
+            "brief_summary": "A bleeding peptic ulcer remains a serious medical problem with significant morbidity and mortality. Endoscopic therapy significantly reduces further bleeding, surgery, and mortality in patients with bleeding peptic ulcers and is now recommended as the first hemostatic modality for these patients.\n\nIn the past few years, adjuvant use of a high-dose proton pump inhibitor (PPI) after endoscopic therapy has been endorsed in some studies. Laine and Javid et al found that oral PPI and IV PPI had a sim",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01506986",
+            "title": "Helicobacter Eradication to Prevent Ulcer Bleeding in Aspirin Users: a Large Simple Randomised Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30024,
+            "start_date": "2012-03",
+            "completion_date": "2022-03-16",
+            "brief_summary": "HEAT (Helicobacter Eradication Aspirin Trial) is a large simple double-blind placebo controlled outcomes study of Helicobacter pylori (H. pylori) eradication to prevent ulcer bleeding in aspirin users. It will be run by the University of Nottingham, with recruiting centres across the UK. This trial is funded by the National Institute of Health Research Health Technology Assessment (NIHR HTA) Programme.\n\nAspirin use is widespread and increasing in elderly patients. The main hazard is gastrointest",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38345252",
+            "title": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.",
+            "authors": [
+              "Zhuang Qianjun",
+              "Chen Songfeng",
+              "Zhou Xuyu",
+              "Jia Xingyu",
+              "Zhang Mengyu"
+            ],
+            "journal": "The American journal of gastroenterology",
+            "year": "2024",
+            "abstract": "Los Angeles grade C/D esophagitis is a severe manifestation of gastroesophageal reflux disease that require active treatment and close follow-up. Potassium competitive acid blockers (P-CAB) are promising alternatives to proton pump inhibitors (PPI). We aimed to compare the efficacy and safety of P-CAB and PPI in healing grade C/D esophagitis to aid clinical decision-making.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18821474",
+            "title": "Dexlansoprazole, a modified release formulation of an enantiomer of lansoprazole, for the treatment of reflux esophagitis.",
+            "authors": [
+              "Fock Kwong Ming",
+              "Ang Tiing Leong"
+            ],
+            "journal": "Current opinion in investigational drugs (London, England : 2000)",
+            "year": "2008",
+            "abstract": "Takeda Pharmaceutical Co Ltd is developing dexlansoprazole, an oral controlled-release formulation of an enantiomer of lansoprazole, for the treatment of reflux esophagitis. By January 2008, an NDA for gastric acid-related diseases had been filed with the FDA, and the drug was undergoing phase II trials in Japan for gastroesophageal reflux disease.",
+            "classification": {
+              "study_type": "Drug Review (Dexlansoprazole DDR 直接藥物評論)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36150104",
+            "title": "Suppression of vacuolar-type ATPase and induction of endoplasmic reticulum stress by proton pump inhibitors.",
+            "authors": [
+              "Lee Wei-Ping"
+            ],
+            "journal": "Journal of the Chinese Medical Association : JCMA",
+            "year": "2022",
+            "abstract": "Proton pump inhibitors (PPIs), such as esomeprazole, pantoprazole, dexlansoprazole, and rabeprazole, are one of the most commonly prescribed medications. Several studies have linked the long-term use of PPIs to a potentially increased risk of gastric cancer. Therefore, this study aimed to determine the underlying mechanism of PPI-mediated gastric cancer.",
+            "classification": {
+              "study_type": "In vitro / Mechanistic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dexlansoprazole 不可逆阻斷 H⁺/K⁺-ATPase，抑制胃酸分泌，消除消化性潰瘍形成的核心病因（酸-胃蛋白酶侵蝕）。DDR 製劑提供兩個釋放峰值，延長有效抑酸時間，理論上優化潰瘍癒合條件。PPI 類藥物為消化性潰瘍一線治療，機轉直接相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "gastrojejunal ulcer",
+      "txgnn": {
+        "score": 0.9999877214431764,
+        "rank": 66
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04423588",
+            "title": "Prospective, Monocentric Study of Dexlansoprazole Absorption Preoperative and 6 and 12 Months After Proximal Roux-en-Y Gastric Bypass Surgery and of the Incidence of Marginal Ulcers 6 and 12 Months After Surgery",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2022-01-01",
+            "completion_date": "2022-09-30",
+            "brief_summary": "In Switzerland, the most commonly performed bariatric procedure is the proximal Roux-en-y gastric Bypass surgery. Since marginal ulceration is a known complication after this Operation, a Proton pump Inhibitor (PPI) prophylaxis is prescribed postoperatively. Bariatric surgery may have an impact on the absorption and consequently on the efficacy of drugs. There are only very little data on the pharmacokinetics of PPIs following PRYGB.\n\nThe aim of this study is to analyze the serum concentration o",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，已撤回（0 人），研究減重手術前後 dexlansoprazole 吸收變化，雖已撤回，但設計直接針對此臨床問題，說明有研究者認識到此需求，文獻佐證需求真實存在。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35787720",
+            "title": "An update on drug-drug interactions associated with proton pump inhibitors.",
+            "authors": [
+              "Ben Ghezala Inès",
+              "Luu Maxime",
+              "Bardou Marc"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2022",
+            "abstract": "Proton pump inhibitors (PPIs) block the gastric H/K-ATPase, therefore inhibiting acid gastric secretion, leading to an increased pH (>4). They account for an extremely high number of prescriptions worldwide. Numerous drug-drug interactions have been described with PPIs, but all the described interactions do not have clinical significance.",
+            "classification": {
+              "study_type": "Review（PPI Drug-Drug Interactions）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38345252",
+            "title": "Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis.",
+            "authors": [
+              "Zhuang Qianjun",
+              "Chen Songfeng",
+              "Zhou Xuyu",
+              "Jia Xingyu",
+              "Zhang Mengyu"
+            ],
+            "journal": "The American journal of gastroenterology",
+            "year": "2024",
+            "abstract": "Los Angeles grade C/D esophagitis is a severe manifestation of gastroesophageal reflux disease that require active treatment and close follow-up. Potassium competitive acid blockers (P-CAB) are promising alternatives to proton pump inhibitors (PPI). We aimed to compare the efficacy and safety of P-CAB and PPI in healing grade C/D esophagitis to aid clinical decision-making.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19708852",
+            "title": "Dexlansoprazole MR.",
+            "authors": [
+              "Aslam Naeem",
+              "Wright Richard"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2009",
+            "abstract": "Proton pump inhibitors (PPIs) have been used for more than two decades to control symptoms of gastroesophageal illnesses. Studies have shown that most PPIs do not provide 24-h symptom control, and that can be the reason for treatment failure. Recently, dexlansoprazole dual delayed release (DDR) (Takeda Pharmaceuticals North America, Inc., USA) under the trade name of Kapidex (Takeda Pharmaceutical Company Limited, Japan) came onto the market to provide longer duration of action and more effectiv",
+            "classification": {
+              "study_type": "Drug Profile Review（Dexlansoprazole MR）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29072432",
+            "title": "Effectiveness of 7-Day and 14-Day Moxifloxacin-Dexlansoprazole Based Triple Therapy and Probiotic Supplement for Helicobacter Pylori Eradication in Thai Patients with Non-Ulcer Dyspepsia: A Double-Blind Randomized Placebo-Controlled Study.",
+            "authors": [
+              "Chotivitayatarakorn Peranart",
+              "Mahachai Varocha",
+              "Vilaichone Ratha-Korn"
+            ],
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2017",
+            "abstract": "Background: Helicobacter pylori (H. pylori) is important cause of peptic ulcer and gastric cancer. Moxifloxacin is effective antibiotic for treatment for H. pylori. However, there were limited studies as first line therapy. Probiotics had been shown to decrease therapy-related side-effect and increase eradication rate. Aim of this study was to evaluate the efficacy of moxifloxacin-dexlansoprazole based triple therapy with probiotic for H. pylori treatment in Thailand. Methods: Patients with H. p",
+            "classification": {
+              "study_type": "RCT（Moxifloxacin-Dexlansoprazole 三聯療法）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30390234",
+            "title": "Dual Delayed-Release Dexlansoprazole for Healing and Maintenance of Healed Erosive Esophagitis: A Safety Study in Adolescents.",
+            "authors": [
+              "Gremse David",
+              "Gold Benjamin D",
+              "Pilmer Betsy",
+              "Hunt Barbara",
+              "Korczowski Bartosz"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "2019",
+            "abstract": "In gastroesophageal reflux disease (GERD), the frequency of heartburn symptoms and erosive esophagitis (EE) increases with age in children and adolescents. Proton pump inhibitor, dexlansoprazole, is approved for healing EE of all grades, maintenance of healed EE, relief of heartburn, and treatment of symptomatic non-erosive GERD in patients ≥ 12 years.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis（Dexlansoprazole 於糜爛性食道炎）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35348552",
+            "title": "Drugs for GERD and peptic ulcer disease.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2022",
+            "abstract": "",
+            "classification": {
+              "study_type": "Prescribing Reference（GERD/消化性潰瘍用藥）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29307999",
+            "title": "First-week clinical responses to dexlansoprazole 60 mg and esomeprazole 40 mg for the treatment of grades A and B gastroesophageal reflux disease.",
+            "authors": [
+              "Liang Chih-Ming",
+              "Kuo Ming-Te",
+              "Hsu Pin-I",
+              "Kuo Chao-Hung",
+              "Tai Wei-Chen"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2017",
+            "abstract": "To compare the one-week clinical effects of single doses of dexlansoprazole and esomeprazole on grades A and B erosive esophagitis.",
+            "classification": {
+              "study_type": "RCT（Dexlansoprazole 60mg vs Esomeprazole 40mg 治療胃潰瘍）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35348553",
+            "title": "Comparison tables: H2-receptor antagonists and PPIs.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2022",
+            "abstract": "",
+            "classification": {
+              "study_type": "Comparison Table（H2RA vs PPI）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19305367",
+            "title": "Dexlansoprazole (Kapidex) for GERD and erosive esophagitis.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2009",
+            "abstract": "",
+            "classification": {
+              "study_type": "Drug Review（Dexlansoprazole/Kapidex）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19713987",
+            "title": "Insights into the future of gastric acid suppression.",
+            "authors": [
+              "DeVault Kenneth R",
+              "Talley Nicholas J"
+            ],
+            "journal": "Nature reviews. Gastroenterology & hepatology",
+            "year": "2009",
+            "abstract": "The development of effective acid-suppression therapy (particularly PPIs) has revolutionized the treatment of acid-related diseases. Despite the overall effectiveness of these agents, they have some shortcomings, including a delayed onset of action, incomplete acid suppression in the majority of patients, and the need for ingestion before a meal to achieve maximal efficacy. Attempts to overcome these issues have included the development of isomeric PPIs (such as esomeprazole), alterations in dru",
+            "classification": {
+              "study_type": "Expert Review（胃酸抑制未來展望）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31523277",
+            "title": "Efficacy of dexlansoprazole-based triple therapy for Helicobacter pylori infections.",
+            "authors": [
+              "Kuo Chia-Jung",
+              "Chen Chun-Wei",
+              "Le Puo-Hsien",
+              "Hsu Jun-Te",
+              "Lin Cheng-Yu"
+            ],
+            "journal": "Therapeutic advances in gastroenterology",
+            "year": "2019",
+            "abstract": "Dexlansoprazole has been shown to be efficacious for the treatment of gastroesophageal reflux disease. However, there is a paucity of data about its efficacy for Helicobacter pylori eradication. The aim of this study was to evaluate the efficacy of dexlansoprazole for H. pylori eradication as triple therapy in real-world practice.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18821474",
+            "title": "Dexlansoprazole, a modified release formulation of an enantiomer of lansoprazole, for the treatment of reflux esophagitis.",
+            "authors": [
+              "Fock Kwong Ming",
+              "Ang Tiing Leong"
+            ],
+            "journal": "Current opinion in investigational drugs (London, England : 2000)",
+            "year": "2008",
+            "abstract": "Takeda Pharmaceutical Co Ltd is developing dexlansoprazole, an oral controlled-release formulation of an enantiomer of lansoprazole, for the treatment of reflux esophagitis. By January 2008, an NDA for gastric acid-related diseases had been filed with the FDA, and the drug was undergoing phase II trials in Japan for gastroesophageal reflux disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36150104",
+            "title": "Suppression of vacuolar-type ATPase and induction of endoplasmic reticulum stress by proton pump inhibitors.",
+            "authors": [
+              "Lee Wei-Ping"
+            ],
+            "journal": "Journal of the Chinese Medical Association : JCMA",
+            "year": "2022",
+            "abstract": "Proton pump inhibitors (PPIs), such as esomeprazole, pantoprazole, dexlansoprazole, and rabeprazole, are one of the most commonly prescribed medications. Several studies have linked the long-term use of PPIs to a potentially increased risk of gastric cancer. Therefore, this study aimed to determine the underlying mechanism of PPI-mediated gastric cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27000074",
+            "title": "Stereoselective Pharmacodynamics and Pharmacokinetics of Proton Pump Inhibitors.",
+            "authors": [
+              "Yang Zhi-Cheng",
+              "Yu Feng",
+              "Wang Yong-Qing",
+              "Wei Ji-Fu"
+            ],
+            "journal": "Current drug metabolism",
+            "year": "2016",
+            "abstract": "Proton pump inhibitors (PPIs) are a group of gastric acid suppressing drugs, that are strong and long-lasting inhibitors of the proton pump (referred to as acid pump antagonists). They work by irreversibly blocking the H+/K+ ATPase. PPIs are used to treat peptic ulcer disease, gastroesophageal reflux disease, nonsteroidal anti-inflammatory drug-induced gastrointestinal lesions, and Zollinger-Ellison syndrome. The structure of PPIs are similar, they all have a similar core with a sulphur atom chi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28953640",
+            "title": "Comparative effectiveness and acceptability of the FDA-licensed proton pump inhibitors for erosive esophagitis: A PRISMA-compliant network meta-analysis.",
+            "authors": [
+              "Li Mei-Juan",
+              "Li Qing",
+              "Sun Min",
+              "Liu Li-Qin"
+            ],
+            "journal": "Medicine",
+            "year": "2017",
+            "abstract": "This study compared the effectiveness and acceptability of all Food and Drug Administration (FDA)-recommended dose proton pump inhibitors (PPIs) in erosive esophagitis (EE): Dexlansoprazole 60 mg, Esomeprazole 40 mg, Esomeprazole 20 mg, Pantoprazole 40 mg, Lansoprazole 30 mg, Rabeprazole 20 mg, Omeprazole 20 mg.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20195905",
+            "title": "Validation of the PAGI-SYM and PAGI-QOL among healing and maintenance of erosive esophagitis clinical trial participants.",
+            "authors": [
+              "Wyrwich Kathleen W",
+              "Mody Reema",
+              "Larsen Lois M",
+              "Lee Misun",
+              "Harnam Neesha"
+            ],
+            "journal": "Quality of life research : an international journal of quality of life aspects of treatment, care and rehabilitation",
+            "year": "2010",
+            "abstract": "Valid instruments are needed to assess important patient-reported outcomes (PROs) in erosive esophagitis (EE).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27581096",
+            "title": "The efficacy and safety of proton-pump inhibitors in treating patients with non-erosive reflux disease: a network meta-analysis.",
+            "authors": [
+              "Chen Lingxiao",
+              "Chen Yujie",
+              "Li Bo"
+            ],
+            "journal": "Scientific reports",
+            "year": "2016",
+            "abstract": "Proton-pump inhibitors (PPIs) have been proved as safe and effective ways to treat patients with non-erosive reflux disease (NERD). However, less is known about the comparisons among different PPIs and their best dosage. We aimed to synthesize the available evidence through network meta-analysis to investigate the efficacy and safety of different PPIs in treating patients with NERD. Fifteen studies with 6309 patients were included in the meta-analyses. For the rate of symptomatic relief, compare",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25377305",
+            "title": "Occupational allergic contact dermatitis caused by omeprazole in a horse breeder.",
+            "authors": [
+              "Al-Falah Khuzama",
+              "Schachter Jordana",
+              "Sasseville Denis"
+            ],
+            "journal": "Contact dermatitis",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃空腸吻合術後邊緣潰瘍（marginal ulcer）的形成與殘餘胃酸持續刺激吻合口黏膜有關。Dexlansoprazole 抑制胃酸理論上可降低吻合口暴露，促進癒合。但 DDR 設計依賴十二指腸 pH 觸發第二釋放峰；胃繞道術後改變解剖結構可能影響吸收動力學（NCT04423588 正是研究此問題，但已撤回）。臨床上需謹慎評估術後 PK 改變。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "peptic ulcer perforation",
+      "txgnn": {
+        "score": 0.9999877214431764,
+        "rank": 68
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00854776",
+            "title": "The Occurrence of Peptic Ulcer Disease and Its Complications in Ischemic Heart Patients Taking Aspirin and Clopidogrel With or Without Co-prescription of Proton Pump Inhibitor",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2009-01",
+            "completion_date": "2010-12",
+            "brief_summary": "Studies showed that combined use of clopidogrel and aspirin had a 25 % reduction of risk on myocardial infarction and stroke in patients who undergone percutaneous coronary intervention (PCI) when compared with use of aspirin alone. However, major GI bleeding rose in combined group than aspirin group. Use of proton pump inhibitor (PPI) which diminishes gastric acid secretion effectively reduces aspirin or clopidogrel associated ulcer or/and ulcer bleeding in general population and high risk pati",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA Phase，狀態不明，300 人，為觀察性研究（阿斯匹靈使用者消化性潰瘍及其併發症發生率），並非治療性干預試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT00175032",
+            "title": "A Randomized, Double-Blind, Phase 3 Study to Compare the Efficacy and Safety of Lansoprazole 30 mg QD and Naproxen 500 mg BID Versus Celecoxib 200 mg QD in Risk Reduction of Non Steroidal Anti-Inflammatory-Associated Ulcers in Osteoarthritis Subjects Taking Low Dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1045,
+            "start_date": "2003-07",
+            "completion_date": "2004-07",
+            "brief_summary": "The purpose of this study is to compare the gastroduodenal ulceration rate, gastrointestinal complication rate and non-steroidal anti-inflammatory drug-associated dyspepsia between lansoprazole, naproxen and celecoxib, taken once daily (QD) or twice daily (BID), in participants with osteoarthritis taking low dose aspirin.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，已完成，1045 人，研究 Lansoprazole 30mg（dexlansoprazole 母體化合物）對潰瘍及其併發症的安全有效性，提供間接類外推證據，但非 dexlansoprazole 直接研究。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "消化性潰瘍穿孔為外科急症，主要治療為手術（修補或切除）。PPI 在此情境下僅作為術後輔助酸抑制，非主要干預。Dexlansoprazole 無任何直接針對穿孔病人的臨床證據；現有試驗均涉及 lansoprazole（母體化合物）或觀察性研究。間接類外推有限，且穿孔急性期通常選擇靜脈 PPI 而非口服劑型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gastric ulcer (disease)",
+      "txgnn": {
+        "score": 0.999902367591858,
+        "rank": 334
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01008696",
+            "title": "Effect of Rabeprazole and Lansoprazole on Reflux Esophagitis in Relation to CYP2C19 Genotype Status: A Prospective, Randomized, Multicenter Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 217,
+            "start_date": "2007-05",
+            "completion_date": "2008-08",
+            "brief_summary": "The purpose of this study is to compare the treatment effects of rabeprazole and lansoprazole depending on the genotyping (process of determining the genetic constitution) of CYP2C19 in treating reflux esophagitis (caused by gastroesophageal reflux; deterioration of the protective lining on the inner wall of the lower esophagus); and to evaluate the cure rate of reflux esophagitis on endoscopy (a thin flexible tube with a microscopic camera at the end which is passed down your throat into the es",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，已完成，217 人，研究 Rabeprazole 和 Lansoprazole 依 CYP2C19 基因型的療效差異。Dexlansoprazole 為 lansoprazole 對映體，CYP2C19 代謝特性相關。"
+            }
+          },
+          {
+            "nct_id": "NCT04840550",
+            "title": "A Phase 3, Randomized, Double-blind, Active-controlled, Multicenter Study to Evaluate the Safety and Efficacy of Tegoprazan 25 mg for the Prevention of Peptic Ulcer Disease in Patients on Continuous Long-term Treatment With NSAIDs",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 390,
+            "start_date": "2021-05-07",
+            "completion_date": "2024-07",
+            "brief_summary": "This study is designed to confirm the non-inferiority of Tegoprazan 25 mg, compared to Lansoprazole 15 mg, to prevent gastroduodenal ulcers and verify the safety of tegoprazan following oral administration of tegoprazan 25 mg QD or lansoprazole 15 mg QD in patients on long-term treatment with NSAIDs.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，狀態不明，390 人，Active-controlled 設計，相關但狀態不確定。"
+            }
+          },
+          {
+            "nct_id": "NCT00321737",
+            "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of TAK-390MR (30 mg QD and 60 mg QD) Compared to Placebo in Maintenance of Healing in Subjects With Healed Erosive Esophagitis.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 445,
+            "start_date": "2006-05",
+            "completion_date": "2007-05",
+            "brief_summary": "The purpose of this study is to assess the ability of once-daily (QD) treatment with dexlansoprazole modified release (MR) 30 mg and 60 mg or placebo in maintaining healing of erosive esophagitis (EE).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "【關鍵試驗】Phase 3，已完成，445 人，TAK-390MR（即 dexlansoprazole 研發代號）vs Lansoprazole，直接評估 dexlansoprazole 在胃潰瘍及十二指腸潰瘍的安全有效性。此為 dexlansoprazole 最直接的胃潰瘍 Phase 3 RCT 證據。"
+            }
+          },
+          {
+            "nct_id": "NCT04784910",
+            "title": "A Multi-center, Randomized, Double-blind, Parallel-group, Active-controlled, Phase III Clinical Trial to Evaluate the Efficacy and Safety of DWP14012 in Prevention of NSAIDs Induced Peptic Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 423,
+            "start_date": "2021-05-21",
+            "completion_date": "2023-12-11",
+            "brief_summary": "The study aims to demonstrate the preventive effect of DWP14012 20 mg for peptic ulcer is non-inferior to that of Lansoprazole 15 mg in terms of prevention of peptic ulcer and confirm the safety of DWP14012 20 mg.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，已完成，423 人，Active-controlled 多中心研究，胃潰瘍適應症高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT04448028",
+            "title": "Stop of Proton-pump Inhibitor Treatment in Patients With Liver Cirrhosis - a Double-blind, Placebo-controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 476,
+            "start_date": "2021-04-22",
+            "completion_date": "2028-02",
+            "brief_summary": "Proton-pump inhibitors (PPI) are commonly prescribed in an uncritical manner to patients with liver cirrhosis without a clear evidence-based indication. Observational studies suggests that PPI use in cirrhotic patients may be a risk factor for the development of infections, especially spontaneous bacterial peritonitis (SBP). A possible explanation are PPI-associated microbiotic shifts leading to small intestinal bacterial overgrowth with subsequently increased bacterial translocation. Furthermor",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，招募中，476 人，研究肝硬化患者停用 PPI，為特殊族群安全性研究，與胃潰瘍療效關聯性間接。"
+            }
+          },
+          {
+            "nct_id": "NCT02151786",
+            "title": "Takepron Intravenous 30 mg Specified Drug-use Survey [Hemostatic Effect/Rebleeding Rate]",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1120,
+            "start_date": "2007-01",
+            "completion_date": "2010-03",
+            "brief_summary": "The purpose of this survey is to evaluate the safety (i.e., frequency of adverse events) and efficacy (i.e., hemostatic effect, rate of rebleeding after confirmation of hemostasis) of administration of lansoprazole intravenous 30 milligram (mg) (Takepron Intravenous 30 mg) to a large number of patients in daily medical practice.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "N/A Phase，已完成，1120 人，Takepron（Lansoprazole）靜脈注射觀察性調查，提供 lansoprazole 的止血效果數據作為間接參考。"
+            }
+          },
+          {
+            "nct_id": "NCT02633930",
+            "title": "Helicobacter Pylori Eradication With Berberine Hydrochloride, Lansoprazole, Amoxicillin and Bismuth Versus Clarithromycin Bismuth, Lansoprazole and Amoxicillin: A Randomized, Open-label, Non-inferiority, Phase Ⅳ Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 566,
+            "start_date": "2015-12",
+            "completion_date": "2016-08",
+            "brief_summary": "This study aims at evaluating efficacy and safety of berberine-containing quadruple therapy(berberine, lansoprazole, bismuth and amoxicillin) versus clarithromycin-containing quadruple therapy (clarithromycin,lansoprazole, bismuth and amoxicillin) in H. pylori eradication. It is hypothesized that berberine-containing quadruple therapy is non-inferior to clarithromycin-containing quadruple therapy. Patients with confirmed H. pylori positive status will be randomized to one of the treatments descr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，已完成，566 人，Berberine + Lansoprazole + Amoxicillin + Bismuth 四聯療法，PPI 為輔助成分，非主要干預。"
+            }
+          },
+          {
+            "nct_id": "NCT04423588",
+            "title": "Prospective, Monocentric Study of Dexlansoprazole Absorption Preoperative and 6 and 12 Months After Proximal Roux-en-Y Gastric Bypass Surgery and of the Incidence of Marginal Ulcers 6 and 12 Months After Surgery",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2022-01-01",
+            "completion_date": "2022-09-30",
+            "brief_summary": "In Switzerland, the most commonly performed bariatric procedure is the proximal Roux-en-y gastric Bypass surgery. Since marginal ulceration is a known complication after this Operation, a Proton pump Inhibitor (PPI) prophylaxis is prescribed postoperatively. Bariatric surgery may have an impact on the absorption and consequently on the efficacy of drugs. There are only very little data on the pharmacokinetics of PPIs following PRYGB.\n\nThe aim of this study is to analyze the serum concentration o",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，已撤回，直接研究 dexlansoprazole，雖撤回但說明臨床有研究需求。"
+            }
+          },
+          {
+            "nct_id": "NCT01452750",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, AG-1749-controlled, Parallel-group, Comparison Study to Evaluate the Efficacy and Safety of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Non-steroidal Anti-inflammatory Drug (NSAID).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 642,
+            "start_date": "2011-10",
+            "completion_date": "2013-06",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of TAK-438, once daily (QD), compared to AG-1749 (Lansoprazole) in patients with a history of gastric or duodenal ulcer who require long-term therapy of non-steroidal anti-Inflammatory drug (NSAID).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，已完成，642 人，AG-1749（Rabeprazole）controlled，雖測試對象為 Lansoprazole 類，但提供 PPI 類別在胃潰瘍的高質量 Phase 3 證據。"
+            }
+          },
+          {
+            "nct_id": "NCT06778824",
+            "title": "Esophageal Visceral Hypersensitivity and Hypervigilance in Disorders of Gut-brain Interaction: the Roles of Neuromodulators",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 610,
+            "start_date": "2024-04-02",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Gastroesophageal reflux disease (GERD) poses a challenging medical condition to manage, with up to 40% of patients showing refractory to standard medical intervention, which usually begins with a proton pump inhibitor (PPI). Among these cases, esophageal disorders of gut-brain interaction (DGBI), such as reflux hypersensitivity and functional heartburn, or GERD patients with concurrent occurrences of these conditions, constitute more than 90% of the patients who did not respond to twice-daily PP",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA Phase，招募中，610 人，主要研究腸腦互動疾病，與胃潰瘍療效關聯性較間接。"
+            }
+          },
+          {
+            "nct_id": "NCT01180179",
+            "title": "Prevention of Recurrent Idiopathic Gastroduodenal Ulcer Bleeding: a Double-blind Randomized Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 228,
+            "start_date": "2010-06",
+            "completion_date": "2019-05",
+            "brief_summary": "The aim of this study is to compare the efficacy of a proton pump inhibitor (lansoprazole) and a histamine-2 receptor antagonist (famotidine) in preventing recurrent ulcer bleeding in patients with a history of H. pylori-negative idiopathic peptic ulcers.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00787254",
+            "title": "A Study to Investigate the Preventive Effect of AG-1749 Against the Recurrence of Gastric and Duodenal Ulcers During Long-term Treatment With Nonsteroid Anti-inflammatory Drug",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 366,
+            "start_date": "2007-04",
+            "completion_date": "2009-05",
+            "brief_summary": "The purpose of this study is to determine whether AG-1749 (lansoprazole), once daily (QD), is effective in preventing the recurrence of gastric and duodenal ulcers in patients receiving long term treatment with nonsteroid anti-inflammatory drug, compared to gefarnate, twice daily (BID).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04400136",
+            "title": "Impact of Treatment With Protonic Pump Inhibitors After Laparoscopic Sleeve Gastrectomy on Gastro-esophageal Reflux Disease Symptoms: Pilot Study",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 45,
+            "start_date": "2020-07-01",
+            "completion_date": "2022-09-01",
+            "brief_summary": "The trial would to try to establish:\n\n* The best post-operative PPI prescription protocol after Sleeve Gastrectomy\n* The impact of PPI therapy on postoperative peptic diseases (erosive gastropathies, ulcers, duodenitis, esophagitis and/or Barrett)\n* The impact of PPI therapy on post-operative GERD symptoms (assessed with the use of two standard tests: MRGE-HRQL and GERDQ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01452711",
+            "title": "A Phase 3, Randomized, Double Blind, Double-Dummy, Multicenter, Parallel Group Comparison Study to on Efficacy and Safety of Oral Once-Daily Administration of TAK-438 20 mg Comparing With AG-1749 in Patients With Gastric Ulcer.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 482,
+            "start_date": "2011-11",
+            "completion_date": "2012-12",
+            "brief_summary": "The purpose of this study is to investigate the efficacy of TAK-438, once daily (QD), compared to lansoprazole in patients with gastric ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02099682",
+            "title": "Takepron Capsules 15/ Orally Dispersing (OD) Tablets 15 Special Drug Use Surveillance Long-term Use Survey on the Prevention of Recurrence of Gastric/Duodenal Ulcer in Patients Receiving Low-dose Aspirin",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3366,
+            "start_date": "2010-08",
+            "completion_date": "2014-01",
+            "brief_summary": "The purpose of this study is to investigate the safety and efficacy of long-term administration of lansoprazole (Takepron) for up to 12 months in the routine clinical setting in patients receiving low-dose aspirin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03124420",
+            "title": "Intraluminal Therapy for Helicobacter Pylori Infection",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2017-04-28",
+            "completion_date": "2018-04-30",
+            "brief_summary": "Helicobacter pylori (H. pylori) is the most common chronic bacterial infection in humans.\n\nThe prevalence of H. pylori is about 30\\~50% in the Western adult population. It is estimated that about 50% of people are infected with this bacterium in Taiwan. Many studies have shown that H. pylori is an important causal factor of chronic gastritis, peptic ulcer disease, gastric cancer and gastric lymphoma. The World Health Organization classified H. pylori as a Group 1 carcinogen in 1994. Endoscopic e",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00239551",
+            "title": "Effect of Prevacid on Prostaglandin Levels in the Gastric Mucosa of Patients With Stress Ulcer",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2005-10",
+            "completion_date": "2007-12",
+            "brief_summary": "The purpose of this study is to measure the prostaglandin levels in patients with stress ulcer and the effect of Prevacid on prostaglandin levels in patients with stress ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03050359",
+            "title": "A Randomized Double-Blind, Double-Dummy, Phase 3 Study to Evaluate the Efficacy and Safety of Oral TAK-438 20 mg Compared to Lansoprazole 30 mg Once- or Twice-Daily in the Treatment of Endoscopically Confirmed Duodenal Ulcer Subjects With or Without Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 533,
+            "start_date": "2017-04-05",
+            "completion_date": "2019-07-19",
+            "brief_summary": "The purpose of this study is to demonstrate the non-inferior efficacy of TAK-438 versus lansoprazole in the treatment of participants with duodenal ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06964334",
+            "title": "The Effect of Vitamin D Supplement as Adjuvant Therapy in Eradication of Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 70,
+            "start_date": "2025-06-01",
+            "completion_date": "2026-08-01",
+            "brief_summary": "Helicobacter pylori (H. pylori) is one of the most common chronic infections worldwide. The mode of transmission of H. pylori is through the fecal-oral or oral-oral routes.\n\nChronic gastritis has been linked to helicobacter pylori (H. pylori) infection. Peptic ulcer disease, gastric adenocarcinoma, and gastric lymphoma are all linked to this condition .\n\nIn Egypt, a high prevalence of H. pylori infections has been reported, ranging from 70% in the general population , 73% among school children ,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02175901",
+            "title": "Prospective, Randomized Controlled Trial Comparing Amoxicillin and Metronidazole Based Bismuth-containing Quadruple Therapy With Amoxicillin and Clarithromycin Based Quadruple Therapy for First-line Helicobacter Pylori Eradication",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 215,
+            "start_date": "2014-07",
+            "completion_date": "2015-01",
+            "brief_summary": "No trial has examined the the efficacy of amoxicillin and metronidazole based quadruple therapy for Helicobacter pylori treatment. The study aims to compare the effectiveness and safety of 14-day amoxicillin-/metronidazole-based quadruple regiment and classical quadruple regiment for Helicobacter pylori eradication.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05417997",
+            "title": "Evaluation of Effects, Safety, Viral Load and Antibody Level of Functional Food Dietary Supplement Containing Grape Products in Controlled, Randomized Study Using SARSCoV-2 RT-PCR Positive Covid-19 Patients.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 71,
+            "start_date": "2021-05-29",
+            "completion_date": "2021-12-02",
+            "brief_summary": "The primary objective of this study is to determine the safety and efficacy profile of the food supplement (KUNAMIN®) containing grape juice, seed, stem, and bark given to patients treated with the established treatment regimen against novel coronavirus infectious disease (COVID-19) via comparing Kunamin® group versus control group in a clinical trial.\n\nIn this study, both the therapeutic effect and the safety of the Kunamin® product has been evaluated. The study has been conducted on COVID-19 i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05448001",
+            "title": "A Multi-center, Randomized, Double-Blind, Active-Controlled, Parallel Group, Phase III Clinical Trial to Evaluate the Efficacy and Safety of JP-1366 in Patients With Gastric Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 329,
+            "start_date": "2022-09-19",
+            "completion_date": "2024-07-19",
+            "brief_summary": "A Multi-center, Randomized, Double-Blind, Active-Controlled, Parallel Group, Phase III Clinical Trial to Evaluate the Efficacy and Safety of JP-1366 in Patients with Gastric Ulcer",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04531475",
+            "title": "A Multicenter, Randomized, Double-blind, Double-simulation, Active Comparator-controlled, Parallel-group Phase II Clinical Study to Evaluate the Efficacy and Safety of X842 Capsules at Different Dosages in Patients With Reflux Esophagitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2020-01-21",
+            "completion_date": "2021-01-12",
+            "brief_summary": "The purpose of the study is to investigate the efficacy and dose-effect relationship of X842 capsules at different dosages in the treatment of reflux esophagitis for 4 weeks in comparison with lansoprazole enteric-coated capsules.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06894992",
+            "title": "A Comparison of The Effectiveness of Tegoprazan and Lansoprazole in Achieving Cure Rates in Patients With Bleeding Peptic Ulcers: A Double-Blind Randomized Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 162,
+            "start_date": "2025-05-01",
+            "completion_date": "2025-12-31",
+            "brief_summary": "The goal of this clinical trial is to compare the effects of tegoprazan vs lansoprazole in healing bleeding peptic ulcers. It will also teach about the safety of both modalities. The main questions it aims to answer are:\n\nHow does the effectiveness of Tegoprazan compare with Lansoprazole in two weeks of healing rate bleeding peptic ulcer patients in the Indonesian population?\n\nResearchers will compare the drug tegoprazan to lansoprazole with a double-blind randomized control to see their effect ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00255164",
+            "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Dexlansoprazole MR (60 mg QD and 90 mg QD) Compared to Placebo in Maintenance of Healing in Subjects With Healed Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 451,
+            "start_date": "2006-01",
+            "completion_date": "2006-11",
+            "brief_summary": "The purpose of this study is to assess the ability of once-daily (QD) treatment with Dexlansoprazole modified-release (MR) 60 mg and 90 mg and placebo in maintaining healing of erosive esophagitis (EE).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00762359",
+            "title": "A Study to Investigate the Preventive Effect of AG-1749 Against the Recurrence of Gastric And Duodenal Ulcers During Long-Term Treatment With Low Dose Aspirin.",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 461,
+            "start_date": "2007-05",
+            "completion_date": "2008-11",
+            "brief_summary": "The purpose of this study is to determine whether lansoprazole, once daily (QD), compared to gefarnate, twice daily (BID), is effective in preventing the recurrence of gastric and duodenal ulcers in patients receiving long term treatment with low dosage aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01452763",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, AG-1749-controlled, Parallel-group, Comparison Study to Evaluate the Efficacy and Safety of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Low-dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 621,
+            "start_date": "2011-10",
+            "completion_date": "2013-04",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of TAK-438, once daily (QD) compared to AG-1749 (Lansoprazole) in patients with a history of gastric or duodenal ulcer who require long-term therapy of low-dose aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03675672",
+            "title": "Prevention of Recurrent Ulcer Bleeding in Patients With Idiopathic Gastroduodenal Ulcer: a Double-blind Randomised Trial on Misoprostol Combined With Lansoprazole Versus Lansoprazole Alone (NRT_MISO Study)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 154,
+            "start_date": "2018-06-21",
+            "completion_date": "2027-03-31",
+            "brief_summary": "Patients with a history of idiopathic gastroduodenal ulcer bleeding face an increased risk of recurrent ulcer gastrointestinal bleeding. Our ongoing clinical trial demonstrates a possible reduced risk of recurrent idiopathic gastroduodenal ulcer bleeding with proton pump inhibitor (PPI), yet there is a significant risk of recurrent ulcer bleeding as PPI may increase the risk of small bowel bleeding. Our preliminary data provide strong plausibility that a combination therapy of misoprostol (MISO)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02170207",
+            "title": "Lansoprazole Intravenous 30 mg Specified Drug-use Survey [Acute Stress Ulcer and Acute Gastric Mucosal Lesions]",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 63,
+            "start_date": "2007-01",
+            "completion_date": "2010-03",
+            "brief_summary": "The purpose of this survey is to evaluate the safety (that is, frequency of adverse events) and efficacy (that is, hemostatic effect, rate of rebleeding after confirmation of hemostasis) of administration of lansoprazole intravenous 30 milligram (mg) (Takepron Intravenous 30 mg ) to a large number of participants with acute stress ulcer or acute gastric mucosal lesion in daily medical practice.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00237679",
+            "title": "Quantifying Effects of Treatment of Pediatric Dysphonia",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 31,
+            "start_date": "2004-01",
+            "completion_date": "2008-12",
+            "brief_summary": "The diagnosis and management of childhood dysphonia is a significant clinical problem; however, there have been few studies aimed at defining standard assessment methods for pediatric dysphonia. Accordingly, pediatric dysphonia is difficult to diagnose and it is difficult to quantify change following treatment. The long-term goal of this research program is to develop valid, responsive, reliable, and age-appropriate methods for assessing vocal pathology in children. In the present small grant, o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01456260",
+            "title": "A Phase 3, Multicenter, Single-blind, AG-1749-controlled, Parallel-group, Long-term Extension Study to Evaluate the Safety and Efficacy of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Non-steroidal Anti-inflammatory Drug (NSAID)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 406,
+            "start_date": "2011-09",
+            "completion_date": "2013-12",
+            "brief_summary": "The purpose of this study is to evaluate the safety of TAK-438, once daily (QD), during long-term concomitant non-steroidal anti-inflammatory drug (NSAID) therapy in patients with a history of gastric or duodenal ulcer who require long-term therapy of NSAID.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02249546",
+            "title": "Comparison of the Efficacy of Triple Therapy With or Without Acetylcysteine in the First Line of Helicobacter Pylori Infection- A Multicenter Randomized Comparative Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 654,
+            "start_date": "2014-09",
+            "completion_date": "2016-10",
+            "brief_summary": "Helicobacter pylori infection has been shown to be associated with the development of gastric cancer and peptic ulcer diseases. Eradication of H. pylori infection could reduce the occurence or recurrence of these diseases. The triple treatment including a proton pump inhibitor, clarithromycin, and amoxicillin or metronidazole to treat H pylori infection, proposed at the first Maastricht conference has become universal since all the consensus conferences and guidelines around the world recommende",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00573924",
+            "title": "Prospective Randomized Comparison of the Effect of Frequent Oral Dosing Versus Constant IV Infusion of Proton Pump Inhibitor on Intragastric pH in Patients With Bleeding Ulcers",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 66,
+            "start_date": "2006-02",
+            "completion_date": "2007-12",
+            "brief_summary": "Patients with bleeding ulcers identified by endoscopy will be randomly assigned to receive an acid-blocking drug (called a proton pump inhibitor \\[PPI\\]) either by mouth every 3 hours for 24 hours or intravenously (IV) by constant infusion for 24 hours. A pH probe in the stomach will be used to determine intragastric pH (a measure of the acid production in the stomach) at baseline and during the 24 hours of therapy. The purpose of the study is to determine if the continuous intravenous administr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00854776",
+            "title": "The Occurrence of Peptic Ulcer Disease and Its Complications in Ischemic Heart Patients Taking Aspirin and Clopidogrel With or Without Co-prescription of Proton Pump Inhibitor",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2009-01",
+            "completion_date": "2010-12",
+            "brief_summary": "Studies showed that combined use of clopidogrel and aspirin had a 25 % reduction of risk on myocardial infarction and stroke in patients who undergone percutaneous coronary intervention (PCI) when compared with use of aspirin alone. However, major GI bleeding rose in combined group than aspirin group. Use of proton pump inhibitor (PPI) which diminishes gastric acid secretion effectively reduces aspirin or clopidogrel associated ulcer or/and ulcer bleeding in general population and high risk pati",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06156085",
+            "title": "Fourteen-Day Vonoprazan-Based Dual Therapy With Amoxicillin as First-Line Helicobacter Pylori Treatment in Comparison With Extended Sequential Therapy: A Randomized Controlled Trial in Taiwan",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 337,
+            "start_date": "2023-11-14",
+            "completion_date": "2024-12-03",
+            "brief_summary": "Background：Helicobacter pylori infection is a well-established risk factor for peptic ulcer disease and gastric cancer. It's now a consensus of experts that H.pylori infection should be treated once it is recognized. Extended proton pump inhibitor (PPI)-based sequential therapy as one of the most commonly used first-line regimens provides a satisfactory eradication rate of 90.7% (95% CI, 87.4% - 94.0%). Nevertheless, its complexity of the \"sequential\" usage is sometimes confusing to the patients",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01456247",
+            "title": "A Phase 3, Multicenter, Single-blind, AG-1749-controlled, Parallel-group, Long-term Extension Study to Evaluate the Safety and Efficacy of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Low-dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 439,
+            "start_date": "2012-03",
+            "completion_date": "2013-10",
+            "brief_summary": "The purpose of this study is to evaluate the safety of TAK-438, once daily (QD), during long-term concomitant low-dose aspirin therapy in patients with a history of gastric or duodenal ulcer who require long-term therapy of low-dose aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07079540",
+            "title": "A Multicenter, Randomized, Double-Blind, Double-Dummy, Active-Controlled Parallel Group Phase III Clinical Study to Evaluate the Efficacy and Safety of X842 Capsules in Patients With Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 380,
+            "start_date": "2021-06-24",
+            "completion_date": "2022-12-01",
+            "brief_summary": "To evaluate the efficacy and safety of X842 Capsules 50 mg compared to Lansoprazole Enteric Capsules for the treatment of reflux esophagitis, and to characterize the population pharmacokinetics of X842 capsules in this patient population.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04170218",
+            "title": "Quality of Care for Knee and Hip Osteoarthritis in Elderly Patients: a Multicentric Observational Study in France Using Quality Indicators Assessed by Questionnaire",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 405,
+            "start_date": "2019-12-01",
+            "completion_date": "2022-12-01",
+            "brief_summary": "Introduction: Hip and knee osteoarthritis (OA) was ranked in 2010 as the eleventh highest contributor to global disability. In France in 2014, non-spinal OA was the leading self-reported cause of morbidity among adults over sixty-five years of age, with a prevalence of 49.5 per cent. OA is known to be the first cause of disability in activities of daily life and a risk factor of frailty among people over seventy-five years of age. Despite its major impact on the elderly population's quality of l",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05813561",
+            "title": "A Multicenter, Randomized, Double-Blind, Active-Parallel-Controlled, Phase 3 Clinical Study to Investigate the Efficacy and Safety of DWP14012 in the Treatment of Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 332,
+            "start_date": "2021-12-30",
+            "completion_date": "2023-02-17",
+            "brief_summary": "To evaluate the efficacy, safety, and cost-effectiveness of DWP14012 40 mg compared to esomeprazole magnesium enteric-coated tablets for the treatment of reflux esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07344506",
+            "title": "Evaluating the Effectiveness of Anti- Ulcerants (Dexlansoprazole, Lansoprazole, and Vonoprazan) With Levofloxacin-based Triple Therapy for Helicobacter Pylori Eradication - A Three-arm Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 942,
+            "start_date": "2025-05-01",
+            "completion_date": "2026-08-01",
+            "brief_summary": "This study, titled CURE-H. Pylori, is a three-arm, parallel-group, open-label, randomized controlled trial designed to evaluate the effectiveness of Dexlansoprazole, Lansoprazole, and Vonoprazan in combination with Levofloxacin and Amoxicillin for Helicobacter pylori eradication. H. pylori infection is a significant health issue worldwide, with an estimated prevalence of 44% globally and around 60% in Pakistan, leading to gastritis, peptic ulcer disease, and increased risks of gastric cancer and",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00204373",
+            "title": "Long-Term Study of the Efficacy and Safety of Lansoprazole in the Treatment of Zollinger-Ellison and Other Acid Hypersecretors",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2003-03",
+            "completion_date": "2010-12",
+            "brief_summary": "The purpose of this study is to study the safety and efficacy of high dose Prevacid in the long-term treatment of patients who secrete abnormally large amounts of gastric acid.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01452724",
+            "title": "A Phase 3, Randomized, Double Blind, Double-Dummy, Multicenter, Parallel Group Comparison Study to on Efficacy and Safety of Oral Once-Daily Administration of TAK-438 20 mg Comparing With AG-1749 in Patients With Duodenal Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 372,
+            "start_date": "2011-10",
+            "completion_date": "2013-02",
+            "brief_summary": "The purpose of this study is to determine the efficacy of TAK-438, once daily (QD), compared to lansoprazole in patients with duodenal ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01667718",
+            "title": "Levofloxacin-containing Therapy for Helicobacter Pylori Treatment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 161,
+            "start_date": "2012-05",
+            "completion_date": "2012-10",
+            "brief_summary": "To examine and compare the efficacy of 2 week Levofloxacin-containing therapies with and without Bismuth for H.pylori treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05761015",
+            "title": "A Rehabilitation Walking Program With the Help of a Transient Intake of Nonsteroidal Anti-inflammatory Drug for Patients With Painful Hip/Knee Osteoarthritis - A Pilot Cohort Study With Objectives of Short Walks in the Real Life.",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 55,
+            "start_date": "2023-12-14",
+            "completion_date": "2028-04",
+            "brief_summary": "There is a lack of effective analgesic treatments to help walking patients with painful hip/knee osteoarthritis. Our team therefore imagined a new strategy lying on a multimodal rehabilitation walking program with the help of a transient intake of nonsteroidal anti-inflammatory drug (NSAID). NSAIDs are indeed known to act specifically on pain at movement, but their continuous intake would induce unacceptable side effects. To optimize the benefit/risk balance, the molecule to be chosen must fit t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01182597",
+            "title": "Oral Versus Intravenous Proton Pump Inhibitor Treatment in High-risk Bleeding Peptic Ulcers After Endoscopic Hemostasis: a Prospective Randomized Comparative Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 190,
+            "start_date": "2010-08",
+            "completion_date": "",
+            "brief_summary": "Endoscopic hemostasis has been documented by a number of clinical studies to be effective in decreasing rebleeding, need for emergency surgery, and hospitalization days. Studies showed adjuvant treatment with proton pump inhibitor (PPI) after initial endoscopic hemostasis reduced recurrent ulcer bleeding. However, the optimal dose and route of adjuvant PPI therapy remains controversial. A recent study demonstrated frequent oral PPI offered similar acid control as currently recommended intravenou",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02099708",
+            "title": "Takepron Capsules 15/ Orally Dispersing（OD） Tablets 15 Special Drug Use Surveillance Long-term Use Survey on the Prevention of Recurrence of Gastric/Duodenal Ulcer in Patients Receiving Non-steroidal Anti-inflammatory Drugs",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3502,
+            "start_date": "2010-10",
+            "completion_date": "2014-03",
+            "brief_summary": "The purpose of this study is to investigate the safety and efficacy of long-term administration of lansoprazole (Takepron) therapy for up to 12 months in the routine clinical setting in patients receiving oral non-steroidal anti-inflammatory drugs (NSAIDs)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03524833",
+            "title": "Visiting Staff, Division of Gastroenterology and Department of Internal Medicine, Mackay Memorial Hospital, Taipei, Taiwan",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2018-05-07",
+            "completion_date": "2019-02-08",
+            "brief_summary": "Helicobacter pylori (H. pylori) is the most common chronic bacterial infection in humans. The prevalence of H. pylori is about 30\\~50% in the Western adult population. It is estimated that about 50% of people are infected with this bacterium in Taiwan. Many studies have shown that H. pylori is an important causal factor of chronic gastritis, peptic ulcer disease, gastric cancer and gastric lymphoma. The World Health Organization classified H. pylori as a Group 1 carcinogen in 1994. Endoscopic ex",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00220909",
+            "title": "A Prospective, Randomized, Double-Blind Protocol to Compare the Efficacy of Lansoprazole to Ranitidine in Healing Pre-Existing and/or Preventing the Development of Gastroduodenal Stress Ulceration and Postoperative Bleeding in Patients Undergoing Elective Coronary Artery Bypass Graft or Cardiac Valve Replacement Surgery",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 40,
+            "start_date": "2005-09",
+            "completion_date": "2006-01",
+            "brief_summary": "The primary objective of this study is to determine whether lansoprazole, administered intravenously, can protect patients undergoing cardiac surgery from the development of and/or progression of previously undetected acid/peptic disorders (erosive esophagitis, gastric ulcer, duodenal ulcer, diffuse gastritis, duodenitis) as measured by the Lanza score and LA classification for esophageal injury.\n\nThe secondary objectives of this study are:\n\n1. To determine if intravenous lansoprazole protects a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06284876",
+            "title": "A Multicenter, Double-blind, Randomized, Parallel, Active-controlled, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Ilaprazole 10 mg in Prevention NSAIDs Associated Peptic Ulcer",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 416,
+            "start_date": "2024-07-23",
+            "completion_date": "2027-02-28",
+            "brief_summary": "To demonstrate the non-inferiority of Ilaprazole 10 mg to the active control in prevention of NSAIDs-associated peptic ulcer, as assessed by the proportion of subjects with peptic ulcer by Week 24",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06526455",
+            "title": "Efficacy and Safety of Vonorasan Versus Esomeprazole in the Treatment of Ulcers After Endoscopic Submucosal Dissection (ESD): a Multicentre, Parallel-design, Double-blind, Randomised Controlled Study",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 196,
+            "start_date": "2024-08-01",
+            "completion_date": "2029-06-30",
+            "brief_summary": "The purpose of this clinical trial is to find out the effectiveness of voronasan in combination with aluminum phosphate gel in the treatment of post-operative ESD ulcers. It will also find out about the safety of vunorasan in combination with aluminum phosphate gel. The main questions it aims to answer are:\n\n1. Do vonorasan in combination with aluminum phosphate gel clinically effective in the treatment of post-operative ESD ulcers?\n2. What medical problems do participants have when taking drug ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20393635",
+            "title": "Dexlansoprazole for the treatment of esophagitis and GERD.",
+            "authors": [
+              "Davies Shelley L"
+            ],
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2010",
+            "abstract": "Occasional acid reflux occurs frequently in the general population but gastroesophageal reflux disease (GERD), a chronic disease that affects millions of adults and children, is diagnosed if persistent reflux occurs more than twice a week. The development of proton pump inhibitors (PPIs) dramatically improved the treatment of GERD; however, the treatment of patients with refractory GERD remains a challenge. Dexlansoprazole (TAK-390MR, Kapidex), a pure enantiomer of lansoprazole, is a PPI that, w",
+            "classification": {
+              "study_type": "Drug Review（Dexlansoprazole 治療食道炎與 GERD 的直接綜述）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36150104",
+            "title": "Suppression of vacuolar-type ATPase and induction of endoplasmic reticulum stress by proton pump inhibitors.",
+            "authors": [
+              "Lee Wei-Ping"
+            ],
+            "journal": "Journal of the Chinese Medical Association : JCMA",
+            "year": "2022",
+            "abstract": "Proton pump inhibitors (PPIs), such as esomeprazole, pantoprazole, dexlansoprazole, and rabeprazole, are one of the most commonly prescribed medications. Several studies have linked the long-term use of PPIs to a potentially increased risk of gastric cancer. Therefore, this study aimed to determine the underlying mechanism of PPI-mediated gastric cancer.",
+            "classification": {
+              "study_type": "In vitro / Mechanistic Study（V-ATPase 抑制與 ER stress）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27000074",
+            "title": "Stereoselective Pharmacodynamics and Pharmacokinetics of Proton Pump Inhibitors.",
+            "authors": [
+              "Yang Zhi-Cheng",
+              "Yu Feng",
+              "Wang Yong-Qing",
+              "Wei Ji-Fu"
+            ],
+            "journal": "Current drug metabolism",
+            "year": "2016",
+            "abstract": "Proton pump inhibitors (PPIs) are a group of gastric acid suppressing drugs, that are strong and long-lasting inhibitors of the proton pump (referred to as acid pump antagonists). They work by irreversibly blocking the H+/K+ ATPase. PPIs are used to treat peptic ulcer disease, gastroesophageal reflux disease, nonsteroidal anti-inflammatory drug-induced gastrointestinal lesions, and Zollinger-Ellison syndrome. The structure of PPIs are similar, they all have a similar core with a sulphur atom chi",
+            "classification": {
+              "study_type": "Review（PPI 立體選擇性 PK/PD，涵蓋 dexlansoprazole 作為 R 對映體）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25377305",
+            "title": "Occupational allergic contact dermatitis caused by omeprazole in a horse breeder.",
+            "authors": [
+              "Al-Falah Khuzama",
+              "Schachter Jordana",
+              "Sasseville Denis"
+            ],
+            "journal": "Contact dermatitis",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report（Omeprazole 接觸性皮炎，安全性參考）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃潰瘍的形成核心為胃酸侵蝕黏膜保護層失衡。Dexlansoprazole 不可逆阻斷 H⁺/K⁺-ATPase，直接解除攻擊因子（胃酸），促進黏膜癒合。NCT00321737（TAK-390MR = dexlansoprazole 研發代號）為針對胃潰瘍的直接 Phase 3 試驗，確立直接機轉與臨床證據的連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gastroduodenitis",
+      "txgnn": {
+        "score": 0.9997919201850892,
+        "rank": 635
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃十二指腸炎為胃及十二指腸黏膜發炎，病因包含 H. pylori 感染、NSAIDs、胃酸過多等。理論上 PPI 可透過減少胃酸降低黏膜刺激，但目前無任何針對 dexlansoprazole 或 PPI 治療胃十二指腸炎的臨床試驗或文獻，所有關聯性均為機轉推測。TxGNN 預測分數高（0.9998）可能反映疾病概念與潰瘍/GERD 的知識圖譜節點高度相鄰，而非真實臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "duodenal obstruction",
+      "txgnn": {
+        "score": 0.9985091090202332,
+        "rank": 2736
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04188119",
+            "title": "A Proof of Concept Window Trial of the IMmunological Effects of AveLumab and Aspirin in Triple-Negative Breast Cancer",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2023-12-01",
+            "completion_date": "2025-05-31",
+            "brief_summary": "This research is being done because the investigators are looking for new and better ways to treat a type of breast cancer called triple negative breast cancer. This type of breast cancer can be more difficult to treat than other types of breast cancer as it does not respond to drugs such as hormonal therapies. One type of treatment that looks promising is immunotherapy using new drugs called immune checkpoint inhibitors. Immune checkpoints help to regulate the immune system and can stop the imm",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，已撤回（0 人），研究 Avelumab + Aspirin 在三陰性乳癌（TNBC）的免疫效應，與十二指腸阻塞完全無關，可能為 KG 誤映射。"
+            }
+          },
+          {
+            "nct_id": "NCT03794596",
+            "title": "A Proof of Concept, Window Trial of the IMmunological Effects of AveLumab and Aspirin in Triple-Negative Breast Cancer",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2019-09",
+            "completion_date": "2021-02-28",
+            "brief_summary": "This research is being done because the investigators are looking for new and better ways to treat a type of breast cancer called triple negative breast cancer. This type of breast cancer can be more difficult to treat than other types of breast cancer as it does not respond to drugs such as hormonal therapies. One type of treatment that looks promising is immunotherapy using new drugs called immune checkpoint inhibitors.\n\nImmune checkpoints help to regulate the immune system and can stop the im",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，已撤回（0 人），同 NCT04188119 之早期版本，TNBC 免疫治療試驗，與十二指腸阻塞無關。"
+            }
+          },
+          {
+            "nct_id": "NCT00854776",
+            "title": "The Occurrence of Peptic Ulcer Disease and Its Complications in Ischemic Heart Patients Taking Aspirin and Clopidogrel With or Without Co-prescription of Proton Pump Inhibitor",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2009-01",
+            "completion_date": "2010-12",
+            "brief_summary": "Studies showed that combined use of clopidogrel and aspirin had a 25 % reduction of risk on myocardial infarction and stroke in patients who undergone percutaneous coronary intervention (PCI) when compared with use of aspirin alone. However, major GI bleeding rose in combined group than aspirin group. Use of proton pump inhibitor (PPI) which diminishes gastric acid secretion effectively reduces aspirin or clopidogrel associated ulcer or/and ulcer bleeding in general population and high risk pati",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA Phase，觀察性研究，研究阿斯匹靈使用者消化性潰瘍及其併發症，非介入性研究，與 dexlansoprazole 治療十二指腸阻塞無關。"
+            }
+          },
+          {
+            "nct_id": "NCT00175032",
+            "title": "A Randomized, Double-Blind, Phase 3 Study to Compare the Efficacy and Safety of Lansoprazole 30 mg QD and Naproxen 500 mg BID Versus Celecoxib 200 mg QD in Risk Reduction of Non Steroidal Anti-Inflammatory-Associated Ulcers in Osteoarthritis Subjects Taking Low Dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1045,
+            "start_date": "2003-07",
+            "completion_date": "2004-07",
+            "brief_summary": "The purpose of this study is to compare the gastroduodenal ulceration rate, gastrointestinal complication rate and non-steroidal anti-inflammatory drug-associated dyspepsia between lansoprazole, naproxen and celecoxib, taken once daily (QD) or twice daily (BID), in participants with osteoarthritis taking low dose aspirin.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3，已完成，1045 人，Lansoprazole（母體化合物）治療潰瘍及其併發症。與十二指腸阻塞治療無直接關聯，僅能提供 PPI 在上消化道的一般安全性參考。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸阻塞主要為機械性（胃癌、胰頭腫瘤、先天性閉鎖或術後吻合口狹窄），治療以手術或內視鏡介入為主。PPI 對機械性阻塞無直接治療機轉。現有 4 筆試驗中，NCT04188119 和 NCT03794596 為乳癌免疫治療（Avelumab+Aspirin）試驗（已撤回），與十二指腸阻塞無關；NCT00175032 涉及 Lansoprazole 治療潰瘍及其併發症，非阻塞本身。TxGNN 預測分數（0.9985）可能為知識圖譜中疾病節點拓撲相鄰產生的誤報，建議不採信。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "duodenogastric reflux",
+      "txgnn": {
+        "score": 0.9980732202529908,
+        "rank": 3301
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸胃反流（膽汁反流）的主要成分為膽鹽和胰液（非胃酸），PPI 對膽汁反流無直接治療機轉。抑制胃酸可能減少混合性（酸+膽汁）反流的酸性損傷，但對純膽汁性反流效果有限。目前無任何臨床試驗或文獻支持 dexlansoprazole 治療此適應症，TxGNN 高分（0.9981）為知識圖譜拓撲推論，非臨床意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "duodenal ulcer (disease)",
+      "txgnn": {
+        "score": 0.9979106783866882,
+        "rank": 3536
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01008696",
+            "title": "Effect of Rabeprazole and Lansoprazole on Reflux Esophagitis in Relation to CYP2C19 Genotype Status: A Prospective, Randomized, Multicenter Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 217,
+            "start_date": "2007-05",
+            "completion_date": "2008-08",
+            "brief_summary": "The purpose of this study is to compare the treatment effects of rabeprazole and lansoprazole depending on the genotyping (process of determining the genetic constitution) of CYP2C19 in treating reflux esophagitis (caused by gastroesophageal reflux; deterioration of the protective lining on the inner wall of the lower esophagus); and to evaluate the cure rate of reflux esophagitis on endoscopy (a thin flexible tube with a microscopic camera at the end which is passed down your throat into the es",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，已完成，217 人，Rabeprazole 和 Lansoprazole 依 CYP2C19 基因型療效，CYP2C19 多型性對 dexlansoprazole（作為 lansoprazole 對映體）具藥理意義。"
+            }
+          },
+          {
+            "nct_id": "NCT04840550",
+            "title": "A Phase 3, Randomized, Double-blind, Active-controlled, Multicenter Study to Evaluate the Safety and Efficacy of Tegoprazan 25 mg for the Prevention of Peptic Ulcer Disease in Patients on Continuous Long-term Treatment With NSAIDs",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 390,
+            "start_date": "2021-05-07",
+            "completion_date": "2024-07",
+            "brief_summary": "This study is designed to confirm the non-inferiority of Tegoprazan 25 mg, compared to Lansoprazole 15 mg, to prevent gastroduodenal ulcers and verify the safety of tegoprazan following oral administration of tegoprazan 25 mg QD or lansoprazole 15 mg QD in patients on long-term treatment with NSAIDs.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，狀態不明，390 人，Active-controlled 設計，相關但狀態不確定。"
+            }
+          },
+          {
+            "nct_id": "NCT00321737",
+            "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of TAK-390MR (30 mg QD and 60 mg QD) Compared to Placebo in Maintenance of Healing in Subjects With Healed Erosive Esophagitis.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 445,
+            "start_date": "2006-05",
+            "completion_date": "2007-05",
+            "brief_summary": "The purpose of this study is to assess the ability of once-daily (QD) treatment with dexlansoprazole modified release (MR) 30 mg and 60 mg or placebo in maintaining healing of erosive esophagitis (EE).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "【關鍵試驗】Phase 3，已完成，445 人，TAK-390MR（dexlansoprazole）vs Lansoprazole 直接比較，明確包含十二指腸潰瘍評估，為最高級別直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT04784910",
+            "title": "A Multi-center, Randomized, Double-blind, Parallel-group, Active-controlled, Phase III Clinical Trial to Evaluate the Efficacy and Safety of DWP14012 in Prevention of NSAIDs Induced Peptic Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 423,
+            "start_date": "2021-05-21",
+            "completion_date": "2023-12-11",
+            "brief_summary": "The study aims to demonstrate the preventive effect of DWP14012 20 mg for peptic ulcer is non-inferior to that of Lansoprazole 15 mg in terms of prevention of peptic ulcer and confirm the safety of DWP14012 20 mg.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，已完成，423 人，Active-controlled，涵蓋胃十二指腸潰瘍適應症，高品質直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT02151786",
+            "title": "Takepron Intravenous 30 mg Specified Drug-use Survey [Hemostatic Effect/Rebleeding Rate]",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1120,
+            "start_date": "2007-01",
+            "completion_date": "2010-03",
+            "brief_summary": "The purpose of this survey is to evaluate the safety (i.e., frequency of adverse events) and efficacy (i.e., hemostatic effect, rate of rebleeding after confirmation of hemostasis) of administration of lansoprazole intravenous 30 milligram (mg) (Takepron Intravenous 30 mg) to a large number of patients in daily medical practice.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "N/A Phase，已完成，1120 人，Takepron（Lansoprazole）IV 觀察性調查，靜脈製劑與口服 dexlansoprazole 製劑不同，間接參考。"
+            }
+          },
+          {
+            "nct_id": "NCT02633930",
+            "title": "Helicobacter Pylori Eradication With Berberine Hydrochloride, Lansoprazole, Amoxicillin and Bismuth Versus Clarithromycin Bismuth, Lansoprazole and Amoxicillin: A Randomized, Open-label, Non-inferiority, Phase Ⅳ Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 566,
+            "start_date": "2015-12",
+            "completion_date": "2016-08",
+            "brief_summary": "This study aims at evaluating efficacy and safety of berberine-containing quadruple therapy(berberine, lansoprazole, bismuth and amoxicillin) versus clarithromycin-containing quadruple therapy (clarithromycin,lansoprazole, bismuth and amoxicillin) in H. pylori eradication. It is hypothesized that berberine-containing quadruple therapy is non-inferior to clarithromycin-containing quadruple therapy. Patients with confirmed H. pylori positive status will be randomized to one of the treatments descr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，已完成，566 人，H. pylori 根除四聯療法，PPI 為輔助成分，非主要干預。"
+            }
+          },
+          {
+            "nct_id": "NCT01452750",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, AG-1749-controlled, Parallel-group, Comparison Study to Evaluate the Efficacy and Safety of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Non-steroidal Anti-inflammatory Drug (NSAID).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 642,
+            "start_date": "2011-10",
+            "completion_date": "2013-06",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of TAK-438, once daily (QD), compared to AG-1749 (Lansoprazole) in patients with a history of gastric or duodenal ulcer who require long-term therapy of non-steroidal anti-Inflammatory drug (NSAID).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，已完成，642 人，AG-1749（Rabeprazole）controlled，lansoprazole 類 vs rabeprazole，提供高品質間接 PPI 類別證據。"
+            }
+          },
+          {
+            "nct_id": "NCT06778824",
+            "title": "Esophageal Visceral Hypersensitivity and Hypervigilance in Disorders of Gut-brain Interaction: the Roles of Neuromodulators",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 610,
+            "start_date": "2024-04-02",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Gastroesophageal reflux disease (GERD) poses a challenging medical condition to manage, with up to 40% of patients showing refractory to standard medical intervention, which usually begins with a proton pump inhibitor (PPI). Among these cases, esophageal disorders of gut-brain interaction (DGBI), such as reflux hypersensitivity and functional heartburn, or GERD patients with concurrent occurrences of these conditions, constitute more than 90% of the patients who did not respond to twice-daily PP",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA Phase，招募中，610 人，腸腦互動疾病研究，十二指腸潰瘍關聯性間接。"
+            }
+          },
+          {
+            "nct_id": "NCT01180179",
+            "title": "Prevention of Recurrent Idiopathic Gastroduodenal Ulcer Bleeding: a Double-blind Randomized Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 228,
+            "start_date": "2010-06",
+            "completion_date": "2019-05",
+            "brief_summary": "The aim of this study is to compare the efficacy of a proton pump inhibitor (lansoprazole) and a histamine-2 receptor antagonist (famotidine) in preventing recurrent ulcer bleeding in patients with a history of H. pylori-negative idiopathic peptic ulcers.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，已完成，228 人，PPI 類預防特發性胃十二指腸潰瘍出血復發，高臨床相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00787254",
+            "title": "A Study to Investigate the Preventive Effect of AG-1749 Against the Recurrence of Gastric and Duodenal Ulcers During Long-term Treatment With Nonsteroid Anti-inflammatory Drug",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 366,
+            "start_date": "2007-04",
+            "completion_date": "2009-05",
+            "brief_summary": "The purpose of this study is to determine whether AG-1749 (lansoprazole), once daily (QD), is effective in preventing the recurrence of gastric and duodenal ulcers in patients receiving long term treatment with nonsteroid anti-inflammatory drug, compared to gefarnate, twice daily (BID).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，已完成，366 人，研究 lansoprazole（母體化合物）預防胃十二指腸潰瘍復發，與十二指腸潰瘍長期管理直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT04400136",
+            "title": "Impact of Treatment With Protonic Pump Inhibitors After Laparoscopic Sleeve Gastrectomy on Gastro-esophageal Reflux Disease Symptoms: Pilot Study",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 45,
+            "start_date": "2020-07-01",
+            "completion_date": "2022-09-01",
+            "brief_summary": "The trial would to try to establish:\n\n* The best post-operative PPI prescription protocol after Sleeve Gastrectomy\n* The impact of PPI therapy on postoperative peptic diseases (erosive gastropathies, ulcers, duodenitis, esophagitis and/or Barrett)\n* The impact of PPI therapy on post-operative GERD symptoms (assessed with the use of two standard tests: MRGE-HRQL and GERDQ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01452711",
+            "title": "A Phase 3, Randomized, Double Blind, Double-Dummy, Multicenter, Parallel Group Comparison Study to on Efficacy and Safety of Oral Once-Daily Administration of TAK-438 20 mg Comparing With AG-1749 in Patients With Gastric Ulcer.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 482,
+            "start_date": "2011-11",
+            "completion_date": "2012-12",
+            "brief_summary": "The purpose of this study is to investigate the efficacy of TAK-438, once daily (QD), compared to lansoprazole in patients with gastric ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02099682",
+            "title": "Takepron Capsules 15/ Orally Dispersing (OD) Tablets 15 Special Drug Use Surveillance Long-term Use Survey on the Prevention of Recurrence of Gastric/Duodenal Ulcer in Patients Receiving Low-dose Aspirin",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3366,
+            "start_date": "2010-08",
+            "completion_date": "2014-01",
+            "brief_summary": "The purpose of this study is to investigate the safety and efficacy of long-term administration of lansoprazole (Takepron) for up to 12 months in the routine clinical setting in patients receiving low-dose aspirin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00239551",
+            "title": "Effect of Prevacid on Prostaglandin Levels in the Gastric Mucosa of Patients With Stress Ulcer",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2005-10",
+            "completion_date": "2007-12",
+            "brief_summary": "The purpose of this study is to measure the prostaglandin levels in patients with stress ulcer and the effect of Prevacid on prostaglandin levels in patients with stress ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03050359",
+            "title": "A Randomized Double-Blind, Double-Dummy, Phase 3 Study to Evaluate the Efficacy and Safety of Oral TAK-438 20 mg Compared to Lansoprazole 30 mg Once- or Twice-Daily in the Treatment of Endoscopically Confirmed Duodenal Ulcer Subjects With or Without Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 533,
+            "start_date": "2017-04-05",
+            "completion_date": "2019-07-19",
+            "brief_summary": "The purpose of this study is to demonstrate the non-inferior efficacy of TAK-438 versus lansoprazole in the treatment of participants with duodenal ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06964334",
+            "title": "The Effect of Vitamin D Supplement as Adjuvant Therapy in Eradication of Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 70,
+            "start_date": "2025-06-01",
+            "completion_date": "2026-08-01",
+            "brief_summary": "Helicobacter pylori (H. pylori) is one of the most common chronic infections worldwide. The mode of transmission of H. pylori is through the fecal-oral or oral-oral routes.\n\nChronic gastritis has been linked to helicobacter pylori (H. pylori) infection. Peptic ulcer disease, gastric adenocarcinoma, and gastric lymphoma are all linked to this condition .\n\nIn Egypt, a high prevalence of H. pylori infections has been reported, ranging from 70% in the general population , 73% among school children ,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02175901",
+            "title": "Prospective, Randomized Controlled Trial Comparing Amoxicillin and Metronidazole Based Bismuth-containing Quadruple Therapy With Amoxicillin and Clarithromycin Based Quadruple Therapy for First-line Helicobacter Pylori Eradication",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 215,
+            "start_date": "2014-07",
+            "completion_date": "2015-01",
+            "brief_summary": "No trial has examined the the efficacy of amoxicillin and metronidazole based quadruple therapy for Helicobacter pylori treatment. The study aims to compare the effectiveness and safety of 14-day amoxicillin-/metronidazole-based quadruple regiment and classical quadruple regiment for Helicobacter pylori eradication.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05448001",
+            "title": "A Multi-center, Randomized, Double-Blind, Active-Controlled, Parallel Group, Phase III Clinical Trial to Evaluate the Efficacy and Safety of JP-1366 in Patients With Gastric Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 329,
+            "start_date": "2022-09-19",
+            "completion_date": "2024-07-19",
+            "brief_summary": "A Multi-center, Randomized, Double-Blind, Active-Controlled, Parallel Group, Phase III Clinical Trial to Evaluate the Efficacy and Safety of JP-1366 in Patients with Gastric Ulcer",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04531475",
+            "title": "A Multicenter, Randomized, Double-blind, Double-simulation, Active Comparator-controlled, Parallel-group Phase II Clinical Study to Evaluate the Efficacy and Safety of X842 Capsules at Different Dosages in Patients With Reflux Esophagitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2020-01-21",
+            "completion_date": "2021-01-12",
+            "brief_summary": "The purpose of the study is to investigate the efficacy and dose-effect relationship of X842 capsules at different dosages in the treatment of reflux esophagitis for 4 weeks in comparison with lansoprazole enteric-coated capsules.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06894992",
+            "title": "A Comparison of The Effectiveness of Tegoprazan and Lansoprazole in Achieving Cure Rates in Patients With Bleeding Peptic Ulcers: A Double-Blind Randomized Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 162,
+            "start_date": "2025-05-01",
+            "completion_date": "2025-12-31",
+            "brief_summary": "The goal of this clinical trial is to compare the effects of tegoprazan vs lansoprazole in healing bleeding peptic ulcers. It will also teach about the safety of both modalities. The main questions it aims to answer are:\n\nHow does the effectiveness of Tegoprazan compare with Lansoprazole in two weeks of healing rate bleeding peptic ulcer patients in the Indonesian population?\n\nResearchers will compare the drug tegoprazan to lansoprazole with a double-blind randomized control to see their effect ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00255164",
+            "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Dexlansoprazole MR (60 mg QD and 90 mg QD) Compared to Placebo in Maintenance of Healing in Subjects With Healed Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 451,
+            "start_date": "2006-01",
+            "completion_date": "2006-11",
+            "brief_summary": "The purpose of this study is to assess the ability of once-daily (QD) treatment with Dexlansoprazole modified-release (MR) 60 mg and 90 mg and placebo in maintaining healing of erosive esophagitis (EE).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00762359",
+            "title": "A Study to Investigate the Preventive Effect of AG-1749 Against the Recurrence of Gastric And Duodenal Ulcers During Long-Term Treatment With Low Dose Aspirin.",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 461,
+            "start_date": "2007-05",
+            "completion_date": "2008-11",
+            "brief_summary": "The purpose of this study is to determine whether lansoprazole, once daily (QD), compared to gefarnate, twice daily (BID), is effective in preventing the recurrence of gastric and duodenal ulcers in patients receiving long term treatment with low dosage aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01452763",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, AG-1749-controlled, Parallel-group, Comparison Study to Evaluate the Efficacy and Safety of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Low-dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 621,
+            "start_date": "2011-10",
+            "completion_date": "2013-04",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of TAK-438, once daily (QD) compared to AG-1749 (Lansoprazole) in patients with a history of gastric or duodenal ulcer who require long-term therapy of low-dose aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03675672",
+            "title": "Prevention of Recurrent Ulcer Bleeding in Patients With Idiopathic Gastroduodenal Ulcer: a Double-blind Randomised Trial on Misoprostol Combined With Lansoprazole Versus Lansoprazole Alone (NRT_MISO Study)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 154,
+            "start_date": "2018-06-21",
+            "completion_date": "2027-03-31",
+            "brief_summary": "Patients with a history of idiopathic gastroduodenal ulcer bleeding face an increased risk of recurrent ulcer gastrointestinal bleeding. Our ongoing clinical trial demonstrates a possible reduced risk of recurrent idiopathic gastroduodenal ulcer bleeding with proton pump inhibitor (PPI), yet there is a significant risk of recurrent ulcer bleeding as PPI may increase the risk of small bowel bleeding. Our preliminary data provide strong plausibility that a combination therapy of misoprostol (MISO)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00237679",
+            "title": "Quantifying Effects of Treatment of Pediatric Dysphonia",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 31,
+            "start_date": "2004-01",
+            "completion_date": "2008-12",
+            "brief_summary": "The diagnosis and management of childhood dysphonia is a significant clinical problem; however, there have been few studies aimed at defining standard assessment methods for pediatric dysphonia. Accordingly, pediatric dysphonia is difficult to diagnose and it is difficult to quantify change following treatment. The long-term goal of this research program is to develop valid, responsive, reliable, and age-appropriate methods for assessing vocal pathology in children. In the present small grant, o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01456260",
+            "title": "A Phase 3, Multicenter, Single-blind, AG-1749-controlled, Parallel-group, Long-term Extension Study to Evaluate the Safety and Efficacy of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Non-steroidal Anti-inflammatory Drug (NSAID)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 406,
+            "start_date": "2011-09",
+            "completion_date": "2013-12",
+            "brief_summary": "The purpose of this study is to evaluate the safety of TAK-438, once daily (QD), during long-term concomitant non-steroidal anti-inflammatory drug (NSAID) therapy in patients with a history of gastric or duodenal ulcer who require long-term therapy of NSAID.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00854776",
+            "title": "The Occurrence of Peptic Ulcer Disease and Its Complications in Ischemic Heart Patients Taking Aspirin and Clopidogrel With or Without Co-prescription of Proton Pump Inhibitor",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2009-01",
+            "completion_date": "2010-12",
+            "brief_summary": "Studies showed that combined use of clopidogrel and aspirin had a 25 % reduction of risk on myocardial infarction and stroke in patients who undergone percutaneous coronary intervention (PCI) when compared with use of aspirin alone. However, major GI bleeding rose in combined group than aspirin group. Use of proton pump inhibitor (PPI) which diminishes gastric acid secretion effectively reduces aspirin or clopidogrel associated ulcer or/and ulcer bleeding in general population and high risk pati",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01456247",
+            "title": "A Phase 3, Multicenter, Single-blind, AG-1749-controlled, Parallel-group, Long-term Extension Study to Evaluate the Safety and Efficacy of TAK-438 (10 mg or 20 mg, Orally, Once Daily) for the Prevention of Recurrent Gastric or Duodenal Ulcers During Long-term Therapy of Low-dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 439,
+            "start_date": "2012-03",
+            "completion_date": "2013-10",
+            "brief_summary": "The purpose of this study is to evaluate the safety of TAK-438, once daily (QD), during long-term concomitant low-dose aspirin therapy in patients with a history of gastric or duodenal ulcer who require long-term therapy of low-dose aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07079540",
+            "title": "A Multicenter, Randomized, Double-Blind, Double-Dummy, Active-Controlled Parallel Group Phase III Clinical Study to Evaluate the Efficacy and Safety of X842 Capsules in Patients With Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 380,
+            "start_date": "2021-06-24",
+            "completion_date": "2022-12-01",
+            "brief_summary": "To evaluate the efficacy and safety of X842 Capsules 50 mg compared to Lansoprazole Enteric Capsules for the treatment of reflux esophagitis, and to characterize the population pharmacokinetics of X842 capsules in this patient population.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05813561",
+            "title": "A Multicenter, Randomized, Double-Blind, Active-Parallel-Controlled, Phase 3 Clinical Study to Investigate the Efficacy and Safety of DWP14012 in the Treatment of Reflux Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 332,
+            "start_date": "2021-12-30",
+            "completion_date": "2023-02-17",
+            "brief_summary": "To evaluate the efficacy, safety, and cost-effectiveness of DWP14012 40 mg compared to esomeprazole magnesium enteric-coated tablets for the treatment of reflux esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07344506",
+            "title": "Evaluating the Effectiveness of Anti- Ulcerants (Dexlansoprazole, Lansoprazole, and Vonoprazan) With Levofloxacin-based Triple Therapy for Helicobacter Pylori Eradication - A Three-arm Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 942,
+            "start_date": "2025-05-01",
+            "completion_date": "2026-08-01",
+            "brief_summary": "This study, titled CURE-H. Pylori, is a three-arm, parallel-group, open-label, randomized controlled trial designed to evaluate the effectiveness of Dexlansoprazole, Lansoprazole, and Vonoprazan in combination with Levofloxacin and Amoxicillin for Helicobacter pylori eradication. H. pylori infection is a significant health issue worldwide, with an estimated prevalence of 44% globally and around 60% in Pakistan, leading to gastritis, peptic ulcer disease, and increased risks of gastric cancer and",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00204373",
+            "title": "Long-Term Study of the Efficacy and Safety of Lansoprazole in the Treatment of Zollinger-Ellison and Other Acid Hypersecretors",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2003-03",
+            "completion_date": "2010-12",
+            "brief_summary": "The purpose of this study is to study the safety and efficacy of high dose Prevacid in the long-term treatment of patients who secrete abnormally large amounts of gastric acid.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01452724",
+            "title": "A Phase 3, Randomized, Double Blind, Double-Dummy, Multicenter, Parallel Group Comparison Study to on Efficacy and Safety of Oral Once-Daily Administration of TAK-438 20 mg Comparing With AG-1749 in Patients With Duodenal Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 372,
+            "start_date": "2011-10",
+            "completion_date": "2013-02",
+            "brief_summary": "The purpose of this study is to determine the efficacy of TAK-438, once daily (QD), compared to lansoprazole in patients with duodenal ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01667718",
+            "title": "Levofloxacin-containing Therapy for Helicobacter Pylori Treatment",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 161,
+            "start_date": "2012-05",
+            "completion_date": "2012-10",
+            "brief_summary": "To examine and compare the efficacy of 2 week Levofloxacin-containing therapies with and without Bismuth for H.pylori treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05761015",
+            "title": "A Rehabilitation Walking Program With the Help of a Transient Intake of Nonsteroidal Anti-inflammatory Drug for Patients With Painful Hip/Knee Osteoarthritis - A Pilot Cohort Study With Objectives of Short Walks in the Real Life.",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 55,
+            "start_date": "2023-12-14",
+            "completion_date": "2028-04",
+            "brief_summary": "There is a lack of effective analgesic treatments to help walking patients with painful hip/knee osteoarthritis. Our team therefore imagined a new strategy lying on a multimodal rehabilitation walking program with the help of a transient intake of nonsteroidal anti-inflammatory drug (NSAID). NSAIDs are indeed known to act specifically on pain at movement, but their continuous intake would induce unacceptable side effects. To optimize the benefit/risk balance, the molecule to be chosen must fit t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01182597",
+            "title": "Oral Versus Intravenous Proton Pump Inhibitor Treatment in High-risk Bleeding Peptic Ulcers After Endoscopic Hemostasis: a Prospective Randomized Comparative Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 190,
+            "start_date": "2010-08",
+            "completion_date": "",
+            "brief_summary": "Endoscopic hemostasis has been documented by a number of clinical studies to be effective in decreasing rebleeding, need for emergency surgery, and hospitalization days. Studies showed adjuvant treatment with proton pump inhibitor (PPI) after initial endoscopic hemostasis reduced recurrent ulcer bleeding. However, the optimal dose and route of adjuvant PPI therapy remains controversial. A recent study demonstrated frequent oral PPI offered similar acid control as currently recommended intravenou",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02099708",
+            "title": "Takepron Capsules 15/ Orally Dispersing（OD） Tablets 15 Special Drug Use Surveillance Long-term Use Survey on the Prevention of Recurrence of Gastric/Duodenal Ulcer in Patients Receiving Non-steroidal Anti-inflammatory Drugs",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3502,
+            "start_date": "2010-10",
+            "completion_date": "2014-03",
+            "brief_summary": "The purpose of this study is to investigate the safety and efficacy of long-term administration of lansoprazole (Takepron) therapy for up to 12 months in the routine clinical setting in patients receiving oral non-steroidal anti-inflammatory drugs (NSAIDs)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00220909",
+            "title": "A Prospective, Randomized, Double-Blind Protocol to Compare the Efficacy of Lansoprazole to Ranitidine in Healing Pre-Existing and/or Preventing the Development of Gastroduodenal Stress Ulceration and Postoperative Bleeding in Patients Undergoing Elective Coronary Artery Bypass Graft or Cardiac Valve Replacement Surgery",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 40,
+            "start_date": "2005-09",
+            "completion_date": "2006-01",
+            "brief_summary": "The primary objective of this study is to determine whether lansoprazole, administered intravenously, can protect patients undergoing cardiac surgery from the development of and/or progression of previously undetected acid/peptic disorders (erosive esophagitis, gastric ulcer, duodenal ulcer, diffuse gastritis, duodenitis) as measured by the Lanza score and LA classification for esophageal injury.\n\nThe secondary objectives of this study are:\n\n1. To determine if intravenous lansoprazole protects a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06284876",
+            "title": "A Multicenter, Double-blind, Randomized, Parallel, Active-controlled, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Ilaprazole 10 mg in Prevention NSAIDs Associated Peptic Ulcer",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 416,
+            "start_date": "2024-07-23",
+            "completion_date": "2027-02-28",
+            "brief_summary": "To demonstrate the non-inferiority of Ilaprazole 10 mg to the active control in prevention of NSAIDs-associated peptic ulcer, as assessed by the proportion of subjects with peptic ulcer by Week 24",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06526455",
+            "title": "Efficacy and Safety of Vonorasan Versus Esomeprazole in the Treatment of Ulcers After Endoscopic Submucosal Dissection (ESD): a Multicentre, Parallel-design, Double-blind, Randomised Controlled Study",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 196,
+            "start_date": "2024-08-01",
+            "completion_date": "2029-06-30",
+            "brief_summary": "The purpose of this clinical trial is to find out the effectiveness of voronasan in combination with aluminum phosphate gel in the treatment of post-operative ESD ulcers. It will also find out about the safety of vunorasan in combination with aluminum phosphate gel. The main questions it aims to answer are:\n\n1. Do vonorasan in combination with aluminum phosphate gel clinically effective in the treatment of post-operative ESD ulcers?\n2. What medical problems do participants have when taking drug ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05820048",
+            "title": "The Efficacy and Safety of Proton Pump Inhibitor ( in Patients With Moderate Bleeding Risk and Coronary Artery Disease Undergoing Percutaneous Coronary: A Randomised, Open ,Compared With Control",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2023-05-01",
+            "completion_date": "2025-07-31",
+            "brief_summary": "Among patients who performed percutaneous coronary intervention (PCI) in patients with coronary artery disease (CAD), enrollment is performed in patients with moderate risk in gastrointestinal risk assessment indicators. After obtaining the consent form, patients are randomly assigned to the gastric acid secretion inhibitor group and the non-dose group.\n\nResearchers and subjects proceed with the treatment group assignment, treatment-group assignment uses a random number table and the assigned dr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00175032",
+            "title": "A Randomized, Double-Blind, Phase 3 Study to Compare the Efficacy and Safety of Lansoprazole 30 mg QD and Naproxen 500 mg BID Versus Celecoxib 200 mg QD in Risk Reduction of Non Steroidal Anti-Inflammatory-Associated Ulcers in Osteoarthritis Subjects Taking Low Dose Aspirin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1045,
+            "start_date": "2003-07",
+            "completion_date": "2004-07",
+            "brief_summary": "The purpose of this study is to compare the gastroduodenal ulceration rate, gastrointestinal complication rate and non-steroidal anti-inflammatory drug-associated dyspepsia between lansoprazole, naproxen and celecoxib, taken once daily (QD) or twice daily (BID), in participants with osteoarthritis taking low dose aspirin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00942175",
+            "title": "A Phase 1, Randomized, Open-Label, 2-Period, Crossover Design Study to Assess the Effects of Multiple Oral Doses of Dexlansoprazole, Lansoprazole, Omeprazole or Esomeprazole on the Steady-State Pharmacokinetics and Pharmacodynamics of Clopidogrel in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2009-12",
+            "completion_date": "2010-07",
+            "brief_summary": "The purpose of this study is to assess the potential effect and safety of multiple oral doses of dexlansoprazole, lansoprazole, omeprazole or esomeprazole, once daily (QD), on the steady-state pharmacokinetics and pharmacodynamics of clopidogrel, and to assess the safety of multiple doses of clopidogrel in healthy participants.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00251719",
+            "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of TAK-390MR (60 mg Once-daily [QD] and 90 mg QD) and an Active Comparator, Lansoprazole (30 mg QD) on Healing of Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 2054,
+            "start_date": "2005-12",
+            "completion_date": "2007-01",
+            "brief_summary": "This is a study to assess the efficacy and safety of 8 weeks of treatment with Dexlansoprazole modified release (MR)(60 mg daily and 90 mg daily) compared to Lansoprazole (30 mg daily) in healing subjects with endoscopically proven erosive esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03050307",
+            "title": "A Randomized Double-Blind, Double-Dummy, Phase 3 Study to Evaluate the Efficacy and Safety of Oral TAK-438 20mg Compared to Lansoprazole 30mg Once- or Twice-Daily in the Treatment of Endoscopically Confirmed Gastric Ulcer Subjects With or Without Helicobacter Pylori Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 234,
+            "start_date": "2017-04-17",
+            "completion_date": "2020-05-26",
+            "brief_summary": "The purpose of this study is to demonstrate the non-inferior efficacy of TAK-438 versus lansoprazole in the treatment of participants with gastric ulcer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00251693",
+            "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of TAK-390MR (60 mg Once- Daily [QD] and 90 mg QD) and an Active Comparator, Lansoprazole (30 mg QD) on Healing of Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 2038,
+            "start_date": "2005-12",
+            "completion_date": "2007-01",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of 8 weeks of once-daily (QD) treatment with dexlansoprazole modified release (MR) 60 mg or 90 mg or lansoprazole 30 mg in healing subjects with endoscopically proven erosive esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02761512",
+            "title": "A Double Blind, Randomized, Active-controlled, Phase 3 Study to Evaluate the Safety and Efficacy of CJ-12420 in Patients With Gastric Ulcer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 306,
+            "start_date": "2016-05",
+            "completion_date": "2018-12-28",
+            "brief_summary": "To demonstrate non-inferiority of CJ-12420 to lansoprazole 30 mg capsule in terms of therapeutic efficacy, and to confirm safety of CJ-12420, after once daily oral administration of CJ-12420 50 mg, 100 mg or Lansoprazole 30 mg capsule in gastric ulcer patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05010954",
+            "title": "A Multi-center, Randomized, Double-blind, Active-controlled Phase III Clinical Study to Evaluate the Efficacy and Safety of LXI-15028 Compared to Lansoprazole in the Treatment of Duodenal Ulcer in Chinese Patients for up to 6 Weeks",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "2021-10-18",
+            "completion_date": "2022-09-28",
+            "brief_summary": "This is a multi-center, randomized, double-blind, double-dummy, parallel-group, active-controlled Phase III clinical study to evaluate the efficacy and safety of LXI-15028 50mg comparing with Lansoprazole 30 mg after the treatment of duodenal ulcer in Chinese patients for up to 6 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00149084",
+            "title": "Pharmacogenomics-Based Tailor-Made Strategy for Eradication of Helicobacter Pylori",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 296,
+            "start_date": "2003-04",
+            "completion_date": "",
+            "brief_summary": "The eradication rate of the standard H. pylori eradication therapy (such as the triple therapy with a proton pump inhibitor \\[PPI\\], amoxicillin and clarithromycin) depends on bacterial susceptibility to clarithromycin and genotypes of CYP2C19 in patients. The investigators intend to investigate whether the tailored therapy based on the two above-mentioned factors increases the cure rate of the initial eradication therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00255151",
+            "title": "A Phase 3 Study to Evaluate the Safety and Efficacy of Dexlansoprazole MR (60 mg QD and 90 mg QD) Compared to Placebo in Maintenance of Healing in Subjects With Healed Erosive Esophagitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 451,
+            "start_date": "2006-01",
+            "completion_date": "2006-11",
+            "brief_summary": "The purpose of this study is to assess the ability of once-daily (QD) treatment with Dexlansoprazole modified-release (MR) 60 mg and 90 mg and placebo in maintaining healing of erosive esophagitis (EE).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32885499",
+            "title": "Comparative analysis of the effect of PO administered acid suppressants on gastric pH in healthy cats.",
+            "authors": [
+              "Ryan Phillip",
+              "Odunayo Adesola",
+              "Price Josh",
+              "Hecht Silke",
+              "Hillsman Shanna"
+            ],
+            "journal": "Journal of veterinary internal medicine",
+            "year": "2020",
+            "abstract": "Proton pump inhibitors (PPIs) are among the most commonly prescribed medications for esophagitis and upper gastrointestinal erosion and ulceration in cats. Newer PPIs such as lansoprazole and esomeprazole are believed to be effective in cats, but the effect of many of these PPIs on gastric pH in cats has not been explored.",
+            "classification": {
+              "study_type": "Comparative PK/PD Study（健康貓模型口服胃酸抑制劑比較，提供 dexlansoprazole 胃 pH 效果參考）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35282344",
+            "title": "Updated Insights on Cardiac and Vascular Risks of Proton Pump Inhibitors: A Real-World Pharmacovigilance Study.",
+            "authors": [
+              "Zhai Yinghong",
+              "Ye Xiaofei",
+              "Hu Fangyuan",
+              "Xu Jinfang",
+              "Guo Xiaojing"
+            ],
+            "journal": "Frontiers in cardiovascular medicine",
+            "year": "2022",
+            "abstract": "Proton pump inhibitors (PPIs) are among the most widely prescribed medications in clinical practice. However, there are also concerns about the potential risks of long-term PPI use. The present study aimed to examine the safety of PPIs and summarize their potential cardiac and vascular risks in a real-world setting.",
+            "classification": {
+              "study_type": "Pharmacovigilance Review（PPI 心血管風險真實世界安全性資料）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸潰瘍的核心病因為胃酸過度分泌（尤其空腹酸分泌）侵蝕十二指腸球部黏膜，常見 H. pylori 共病因素。Dexlansoprazole 抑制 H⁺/K⁺-ATPase 直接減少胃酸，NCT00321737（TAK-390MR Phase 3）明確涵蓋十二指腸潰瘍評估，為直接 Phase 3 RCT 證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "achlorhydria",
+      "txgnn": {
+        "score": 0.9947117567062378,
+        "rank": 6724
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【警示：潛在反指標】無鹽酸症（achlorhydria）定義為胃酸完全缺失或嚴重不足。Dexlansoprazole 作為 PPI，其機轉為進一步抑制胃酸分泌，使用於已存在無鹽酸症的患者將加重病情，而非治療。此外，長期 PPI 使用本身即為醫源性無鹽酸症的已知風險因子。TxGNN 高預測分數（0.9947）可能源於知識圖譜中「PPI 使用 → 無鹽酸症」的已知因果關係被誤解讀為治療關聯，屬系統性誤推，建議明確標記為禁忌而非再利用候選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "leather-bottle stomach",
+      "txgnn": {
+        "score": 0.9935919642448424,
+        "rank": 7743
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮革胃（linitis plastica）為彌漫浸潤型胃腺癌，腫瘤細胞廣泛浸潤胃壁全層導致胃壁硬化失去伸縮性。此為惡性腫瘤，標準治療為手術切除、化療或標靶治療。Dexlansoprazole 無任何已知抗腫瘤機轉，亦無任何臨床試驗或文獻支持其用於胃癌治療。TxGNN 預測分數（0.9936）可能源於知識圖譜中胃部疾病節點的拓撲鄰近性，為假陽性預測，臨床上不具再利用意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "active peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "active peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "active peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastrojejunal ulcer"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastrojejunal ulcer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastrojejunal ulcer"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "peptic ulcer perforation"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "peptic ulcer perforation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "peptic ulcer perforation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastric ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastric ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastric ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "achlorhydria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "achlorhydria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "achlorhydria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "leather-bottle stomach"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "leather-bottle stomach"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexlansoprazole",
+        "disease": "leather-bottle stomach"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

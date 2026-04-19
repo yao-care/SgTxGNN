@@ -1,0 +1,279 @@
+## 藥物再利用證據分析：Clindamycin (DB01190)
+
+### 前置評估備注
+
+> **資料品質警示**：original_moa 標記為 `[Data Gap]`，但 Clindamycin 為林可醯胺類抗生素（Lincosamide），其 MoA 為抑制細菌 50S 核糖體次單元蛋白質合成，亦具抗原蟲活性（如弓形蟲）。市場狀態「未上市」及 DDI 計數為 0 應為新加坡本地藥物登記資料缺口，非全球藥物實際狀態。
+
+---
+
+```json
+{
+  "drug": "Clindamycin",
+  "drugbank_id": "DB01190",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "original_moa 為 [Data Gap]，實際 MoA：抑制 50S 核糖體次單元（林可醯胺類抗生素）",
+    "市場狀態『未上市』及 DDI=0 可能為新加坡本地登記資料缺口",
+    "TxGNN 高分預測集中於眼科角膜疾病，推測為 KG 鄰近節點擴散效應"
+  ],
+  "indications": [
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "點狀上皮角結膜炎病因多元（乾眼症、病毒、毒性、藥物副作用），非細菌感染為主。Clindamycin 抗菌機轉與此疾病主要病理機制關聯薄弱。TxGNN 最高分（0.9997）疑為知識圖譜中角膜疾病節點密集擴散所致，非機轉特異性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻支持。純 AI 預測，無任何臨床依據。",
+      "risk_flags": ["眼科局部 Clindamycin 製劑非標準治療", "高 TxGNN 分數可能為過擬合偽訊號"]
+    },
+    {
+      "disease_name": "exposure keratitis",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "暴露性角膜炎主要為眼瞼閉合不全導致角膜乾燥損傷，繼發細菌感染（尤其金黃色葡萄球菌、需氧革蘭氏陽性菌）為重要併發症。Clindamycin 對 S. aureus（含部分 MRSA）及 Bacillus cereus 具活性，可能作為繼發感染的治療選項，但非暴露性角膜炎本身的治療藥物。PMID 33847093 涉及貓弓形蟲眼病，Clindamycin 為弓形蟲一線治療，但適應症類別不符。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22880135",
+          "title": "Staphylococcus aureus ocular infection: methicillin-resistance, clinical features, and antibiotic susceptibility",
+          "year": "2012",
+          "study_type": "Retrospective Case Series",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "報告 S. aureus 眼部感染（含角膜炎）對抗生素敏感性，Clindamycin 作為備選藥物提及。間接支持繼發性細菌感染情境，非暴露性角膜炎本身。"
+        },
+        {
+          "pmid": "24244625",
+          "title": "Staphylococcus aureus keratitis: a review of hospital cases",
+          "year": "2013",
+          "study_type": "Retrospective Cohort Review",
+          "tier": "3",
+          "relevance": "B",
+          "reasoning": "醫院 S. aureus 角膜炎案例分析，討論抗生素選擇。與暴露性角膜炎繼發感染有間接關聯，非直接適應症研究。"
+        },
+        {
+          "pmid": "11581057",
+          "title": "Bacillus cereus keratitis associated with contact lens wear",
+          "year": "2001",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "Bacillus cereus 角膜炎案例，Clindamycin 為 B. cereus 有效藥物之一。關聯性極間接，病因（隱形眼鏡相關）與暴露性角膜炎不同。"
+        },
+        {
+          "pmid": "33847093",
+          "title": "Feline ocular toxoplasmosis: seroprevalence, diagnosis and treatment outcome of 60 clinical cases",
+          "year": "2021",
+          "study_type": "Veterinary Clinical Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "動物（貓）眼部弓形蟲病研究，Clindamycin 為治療用藥。疾病分類與暴露性角膜炎不同，物種差異大，僅提供機轉類比。"
+        }
+      ],
+      "evidence_summary": "4 篇文獻均為間接或動物研究。最佳詮釋為：在繼發細菌感染（S. aureus）的暴露性角膜炎中，Clindamycin 或有輔助抗菌價值，但此為感染管理而非原發疾病治療。"
+    },
+    {
+      "disease_name": "non-human animal disease",
+      "txgnn_score": 0.9969,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此適應症類別過於寬泛且非人類疾病目標。兩篇文獻均關於 Clostridioides difficile 在動物（伴侶動物、野馬）的分子流行病學。值得注意的是，Clindamycin 是 C. difficile 感染（CDI）的已知誘發風險因子，而非治療藥物——此關聯為負向警示，非治療潛力信號。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36684930",
+          "title": "Molecular epidemiology of Clostridioides difficile in companion animals: Genetic overlap with human strains",
+          "year": "2022",
+          "study_type": "Molecular Epidemiology Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "研究伴侶動物 C. difficile 的基因流行病學，提及抗生素暴露（含 Clindamycin）為 CDI 風險因子。此為使用禁忌提示，非再利用依據。"
+        },
+        {
+          "pmid": "40172204",
+          "title": "Clostridioides difficile in feral horse populations in Australia",
+          "year": "2025",
+          "study_type": "Epidemiological Survey",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "野馬 C. difficile 流行病學調查。Clindamycin 為 CDI 高風險誘發抗生素之一，本研究強化此負向關聯。"
+        }
+      ],
+      "evidence_summary": "文獻顯示 Clindamycin 與 C. difficile 感染的正向風險關聯（即為誘發因子），對此類別疾病為反向警示而非治療信號。"
+    },
+    {
+      "disease_name": "neurotrophic keratopathy",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經營養性角膜病變為三叉神經損傷導致角膜知覺喪失，主要病理為神經源性營養缺乏，非感染。Clindamycin 抗菌機轉與此疾病核心病理無關聯。繼發感染預防角色理論上存在，但無任何臨床或臨床前證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零證據。純 AI 預測分數，可能為 KG 中角膜疾病群組的位置效應。"
+    },
+    {
+      "disease_name": "epidemic keratoconjunctivitis",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "流行性角結膜炎主要病原為腺病毒（Adenovirus types 8, 19, 37），為病毒性疾病。Clindamycin 為抗細菌/抗原蟲藥物，對病毒無效。兩篇文獻均為牛 Moraxella 角結膜炎（動物疾病），與人類流行性角結膜炎病因學完全不同。此為嚴重的疾病分類錯誤警示。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21908289",
+          "title": "Minimum inhibitory concentrations of selected antimicrobial agents for Moraxella bovoculi associated with bovine keratoconjunctivitis",
+          "year": "2011",
+          "study_type": "Veterinary MIC Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "牛 Moraxella bovoculi 的 MIC 測試，動物疾病研究。與人類流行性角結膜炎（腺病毒）的病因學和宿主均不相關。"
+        },
+        {
+          "pmid": "25261461",
+          "title": "Moraxella spp. isolated from field outbreaks of infectious bovine keratoconjunctivitis: a retrospective study",
+          "year": "2014",
+          "study_type": "Retrospective Veterinary Study",
+          "tier": "3",
+          "relevance": "C",
+          "reasoning": "牛傳染性角結膜炎爆發調查，動物研究。疾病命名相似但病因與人類適應症完全不同，存在疾病分類混淆風險。"
+        }
+      ],
+      "evidence_summary": "文獻為動物細菌性疾病研究，與人類病毒性流行性角結膜炎無關。Clindamycin 對腺病毒無效，此預測具有臨床誤導風險。",
+      "risk_flags": ["疾病病因學根本不符（病毒 vs 細菌）", "動物研究不可外推至人類病毒性疾病"]
+    },
+    {
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "txgnn_score": 0.9903,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "停經後萎縮性陰道炎的核心病因為雌激素缺乏導致的組織萎縮，非感染性。Clindamycin 陰道乳膏（2%）是細菌性陰道病（BV）的標準治療，兩者雖均為陰道疾病但病理機制根本不同。無證據支持 Clindamycin 對萎縮性陰道炎的治療價值。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。病理機制不符，將 BV 治療外推至萎縮性陰道炎缺乏依據。"
+    },
+    {
+      "disease_name": "superior limbic keratoconjunctivitis",
+      "txgnn_score": 0.9897,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "上方角緣角結膜炎（SLK）為慢性炎症性疾病，與甲狀腺疾病、乾眼症相關，非感染性病因。Clindamycin 抗菌機轉與 SLK 的炎症病理無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零證據。TxGNN 角膜疾病群組預測效應。"
+    },
+    {
+      "disease_name": "visual snow syndrome",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "視覺雪花症候群為神經性視覺障礙，與皮質過度興奮及視覺皮層功能異常相關，無感染病因。Clindamycin 抗菌/抗原蟲機轉與此神經症候群完全缺乏合理機轉連結，為最無生物學合理性的預測之一。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零證據且機轉關聯極弱。此預測高度可能為 KG 圖譜位置效應偽訊號。",
+      "risk_flags": ["神經症狀病因與抗生素機轉無關聯", "可能為 KG 遠距節點噪音"]
+    },
+    {
+      "disease_name": "keratomalacia",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "角膜軟化症（Keratomalacia）為嚴重維生素 A 缺乏所致的角膜液化壞死，病因為營養缺乏，非感染。Clindamycin 抗菌機轉與維生素 A 缺乏病理無關。繼發感染情境下或有抗菌輔助角色，但無任何文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零證據。病因為代謝/營養性，與抗生素治療無關聯。"
+    },
+    {
+      "disease_name": "ophthalmia nodosa",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼炎結節（Ophthalmia nodosa）為毛毛蟲毛刺（setae）或類似物質引發的異物肉芽腫反應，病因為物理性/免疫炎症反應。Clindamycin 抗菌機轉與此肉芽腫病理機制完全不符。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零證據。病因為物理性異物反應，抗生素治療無合理依據。"
+    }
+  ],
+  "overall_assessment": {
+    "highest_evidence_indication": "exposure keratitis (L4)",
+    "indications_by_level": {
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": ["exposure keratitis"],
+      "L5": [
+        "punctate epithelial keratoconjunctivitis",
+        "non-human animal disease",
+        "neurotrophic keratopathy",
+        "epidemic keratoconjunctivitis",
+        "postmenopausal atrophic vaginitis",
+        "superior limbic keratoconjunctivitis",
+        "visual snow syndrome",
+        "keratomalacia",
+        "ophthalmia nodosa"
+      ]
+    },
+    "indications_by_stage": {
+      "S3": [],
+      "S2": [],
+      "S1": ["exposure keratitis"],
+      "S0": [
+        "punctate epithelial keratoconjunctivitis",
+        "non-human animal disease",
+        "neurotrophic keratopathy",
+        "epidemic keratoconjunctivitis",
+        "postmenopausal atrophic vaginitis",
+        "superior limbic keratoconjunctivitis",
+        "visual snow syndrome",
+        "keratomalacia",
+        "ophthalmia nodosa"
+      ]
+    },
+    "critical_warnings": [
+      "epidemic keratoconjunctivitis 為腺病毒疾病，Clindamycin 對病毒無效，預測具誤導風險",
+      "non-human animal disease 文獻顯示 Clindamycin 為 C. difficile 誘發風險因子（負向信號）",
+      "9/10 適應症為 L5 純 AI 預測，缺乏任何臨床依據",
+      "TxGNN 高分群集於眼科角膜疾病，疑為 KG 節點密集區域的位置效應偽訊號"
+    ],
+    "known_approved_uses_not_in_list": [
+      "細菌性陰道病（Bacterial Vaginosis）- 已有多項 RCT 支持，L1 等級",
+      "皮膚及軟組織感染（S. aureus, Streptococcus）",
+      "青春痘（Acne vulgaris）- 外用製劑",
+      "骨盆腔炎（PID）- 聯合治療",
+      "弓形蟲病（Toxoplasmosis）- 含眼部弓形蟲"
+    ],
+    "recommendation_summary": "所有 10 個 TxGNN 預測適應症均建議 Hold。最高等級為 exposure keratitis（L4/S1），僅因繼發性細菌感染管理具有微弱間接依據。建議優先探索 Clindamycin 已知的 BV、骨盆腔炎、眼部弓形蟲等已有強力臨床證據的適應症，而非追蹤此批角膜疾病預測。"
+  }
+}
+```
+
+---
+
+## 決策摘要表
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|------|-----------|---------|---------|------|---------|
+| punctate epithelial keratoconjunctivitis | 0.9997 | **L5** | S0 | Hold | 零文獻，非細菌性病因 |
+| exposure keratitis | 0.9980 | **L4** | S1 | Hold | 4篇間接/動物文獻，繼發感染情境 |
+| non-human animal disease | 0.9969 | **L5** | S0 | Hold | ⚠️ C. difficile 誘發風險（負向信號） |
+| neurotrophic keratopathy | 0.9949 | **L5** | S0 | Hold | 神經源性病因，零文獻 |
+| epidemic keratoconjunctivitis | 0.9949 | **L5** | S0 | Hold | ⚠️ 腺病毒疾病，抗生素無效 |
+| postmenopausal atrophic vaginitis | 0.9903 | **L5** | S0 | Hold | 雌激素缺乏病因，非感染 |
+| superior limbic keratoconjunctivitis | 0.9897 | **L5** | S0 | Hold | 慢性炎症，非感染性 |
+| visual snow syndrome | 0.9828 | **L5** | S0 | Hold | 神經性視覺障礙，機轉完全不符 |
+| keratomalacia | 0.9828 | **L5** | S0 | Hold | 維生素 A 缺乏，非感染 |
+| ophthalmia nodosa | 0.9828 | **L5** | S0 | Hold | 異物肉芽腫，非感染性 |
+
+> ⚠️ **重要提示**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過臨床驗證才能應用。

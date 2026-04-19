@@ -1,0 +1,467 @@
+```json
+{
+  "drug": "Aripiprazole",
+  "drugbank_id": "DB01238",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Aripiprazole 為多巴胺 D2/D3 部分致效劑、5-HT1A 部分致效劑、5-HT2A 拮抗劑之非典型抗精神病藥。本地標記為『未上市』，但全球已有 FDA/EMA 核准適應症（精神分裂症、雙極障礙、MDD 輔助治療），分析以全球臨床證據為準。",
+  "indications": [
+    {
+      "disease_name": "major affective disorder",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Aripiprazole 之 D2 部分致效作用可穩定中腦邊緣系統多巴胺過度活化；5-HT1A 部分致效及 5-HT2A 拮抗可增強前額葉皮質血清素傳遞，此雙重機轉與情感障礙（MDD 輔助治療、雙極障礙維持期）之病理直接相關。全球已有 FDA 核准 MDD 輔助治療及雙極障礙 I 型之適應症，本地『未上市』狀態為法規層面議題，非證據缺口。",
+      "guardrails": [
+        "建議申請本地 HSA 藥品查驗登記或引進許可",
+        "長期代謝副作用（體重增加、血糖異常）需監測",
+        "兒童/青少年族群用藥需特別知情同意"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00095758",
+          "title": "Adjunctive Aripiprazole in Major Depressive Disorder",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 1200,
+          "relevance_grade": "A",
+          "reasoning": "直接測試 aripiprazole 輔助治療 MDD，大型 Phase 3 RCT，已完成，為本適應症核心證據。"
+        },
+        {
+          "nct_id": "NCT00110461",
+          "title": "Aripiprazole in Child and Adolescents (Phase III)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 296,
+          "relevance_grade": "A",
+          "reasoning": "兒童/青少年族群 Phase 3，可能涵蓋雙極障礙，直接支持情感障礙適應症。"
+        },
+        {
+          "nct_id": "NCT00102518",
+          "title": "Safety and Tolerability of Flexible-Dose Oral Aripiprazole",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 325,
+          "relevance_grade": "B",
+          "reasoning": "安全性/耐受性 Phase 3，無療效主要終點，但補充長期安全資料。"
+        },
+        {
+          "nct_id": "NCT03423680",
+          "title": "Multicenter RCT Therapeutic Confirmatory Study",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 390,
+          "relevance_grade": "B",
+          "reasoning": "正在招募中的 Phase 3 確認性研究，待結果公開後可升為 A 級。"
+        },
+        {
+          "nct_id": "NCT00704860",
+          "title": "Treatment-Resistant Depression, Hippocampus Atrophy",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 27,
+          "relevance_grade": "A",
+          "reasoning": "針對難治性憂鬱症的 Phase 4，直接測試 aripiprazole 於 TRD，樣本較小但適應症精準。"
+        },
+        {
+          "nct_id": "NCT00667745",
+          "title": "Lithium Use for Bipolar Disorder (LiTMUS)",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 283,
+          "relevance_grade": "B",
+          "reasoning": "雙極障礙療效比較研究，aripiprazole 為比較臂之一，間接支持療效。"
+        },
+        {
+          "nct_id": "NCT01488266",
+          "title": "Aripiprazole Augmentation vs Switching Antidepressants",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 90,
+          "relevance_grade": "B",
+          "reasoning": "比較 aripiprazole 增強策略，狀態未知，需確認結果是否已發表。"
+        },
+        {
+          "nct_id": "NCT05974241",
+          "title": "Irritability in Children With ADHD and Emotion Dysregulation",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 36,
+          "relevance_grade": "C",
+          "reasoning": "主要針對 ADHD 情緒調節，與情感障礙核心適應症間接相關，非直接支持證據。"
+        },
+        {
+          "nct_id": "NCT02722967",
+          "title": "Exploratory Trial - Ingestible Sensor Technology",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 49,
+          "relevance_grade": "C",
+          "reasoning": "測試可吞嚥感測器於 aripiprazole 服藥順從性，非療效研究，與適應症無直接關聯。"
+        },
+        {
+          "nct_id": "NCT06467474",
+          "title": "Psychoeducation for Major Depressive Disorder",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 338,
+          "relevance_grade": "C",
+          "reasoning": "心理衛教介入研究，非藥物試驗，aripiprazole 非主要研究藥物。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38669232",
+          "title": "Efficacy and safety of aripiprazole or bupropion augmentation and switching in TRD",
+          "year": "2024",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "頭對頭 RCT，直接比較 aripiprazole 增強策略於 TRD。"
+        },
+        {
+          "pmid": "34986373",
+          "title": "Augmentation strategies for treatment resistant major depression: systematic review and network meta-analysis",
+          "year": "2022",
+          "study_type": "Systematic Review / Network Meta-analysis",
+          "tier": "1",
+          "note": "高品質網絡 meta-analysis，aripiprazole 為納入比較之藥物之一。"
+        },
+        {
+          "pmid": "38219278",
+          "title": "Comparison of brexpiprazole, aripiprazole, and placebo for Japanese MDD",
+          "year": "2024",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "亞裔族群 (日本) 系統回顧，對本地適用性有額外參考價值。"
+        },
+        {
+          "pmid": "37149344",
+          "title": "Pharmacotherapy for Treatment-Resistant Depression: Antidepressants and Atypical Antipsychotics",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "涵蓋 aripiprazole 在 TRD 中角色的敘述性回顧。"
+        },
+        {
+          "pmid": "36961650",
+          "title": "Randomized, Open-Label, Multiple-Dose, Parallel-Arm, Pivotal Study",
+          "year": "2023",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "樞紐性 RCT，需確認主要適應症是否為情感障礙。"
+        },
+        {
+          "pmid": "37815563",
+          "title": "Diagnosis and Treatment of Bipolar Disorder: A Review",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "涵蓋 aripiprazole 於雙極障礙治療指引中角色。"
+        },
+        {
+          "pmid": "35975555",
+          "title": "CANMAT Task Force Report: Serotonergic Psychedelics",
+          "year": "2023",
+          "study_type": "Clinical Practice Guideline / Task Force Report",
+          "tier": "1",
+          "note": "情感障礙治療背景文件，aripiprazole 屬標準療法比較基準。"
+        },
+        {
+          "pmid": "39843750",
+          "title": "Genomics yields biological and phenotypic insights into bipolar disorder",
+          "year": "2025",
+          "study_type": "Genomics Study",
+          "tier": "3",
+          "note": "GWAS 基因體研究，提供病理機轉理解，非 aripiprazole 直接療效證據。"
+        },
+        {
+          "pmid": "34002096",
+          "title": "Genome-wide association study of 40,000+ bipolar disorder cases",
+          "year": "2021",
+          "study_type": "GWAS",
+          "tier": "3",
+          "note": "大型 GWAS，提供疾病生物標記理解，間接支持機轉合理性。"
+        },
+        {
+          "pmid": "31043756",
+          "title": "GWAS identifies 30 loci associated with bipolar disorder",
+          "year": "2019",
+          "study_type": "GWAS",
+          "tier": "3",
+          "note": "遺傳風險位點研究，與 aripiprazole 療效無直接連結。"
+        }
+      ]
+    },
+    {
+      "disease_name": "trichotillomania",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "拔毛症屬身體聚焦重複行為（BFRB）範疇，涉及紋狀體-眶額皮質迴路之多巴胺功能異常，與強迫症衝動控制機轉部分重疊。Aripiprazole 之 D2 部分致效特性可調節紋狀體過度活化，5-HT 機轉亦可能減少重複行為衝動。現有 Phase 2 設計（NCT05545891）支持此假說的臨床可驗證性。",
+      "guardrails": [
+        "需完成 NCT05545891 Phase 2 RCT 後再進行 Phase 3 規劃",
+        "注意文獻中存在 aripiprazole 本身引發拔毛症（不良反應）的案例報告，需在試驗設計中納入監測",
+        "樣本量目前偏小，建議多中心設計"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05545891",
+          "title": "Double-Blind, Placebo Controlled Study of Aripiprazole in Body Focused Repetitive Behaviors",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 100,
+          "relevance_grade": "A",
+          "reasoning": "直接測試 aripiprazole 於 BFRB（含拔毛症），雙盲安慰劑對照設計，為目前最高等級設計，尚未開始招募，為未來主要證據來源。"
+        },
+        {
+          "nct_id": "NCT00947154",
+          "title": "Open Label Trial of Aripiprazole in Trichotillomania",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 12,
+          "relevance_grade": "A",
+          "reasoning": "直接針對拔毛症的 aripiprazole 開放性試驗，已完成，提供初步療效訊號，但樣本量過小（n=12）限制結論強度。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38376368",
+          "title": "From tugs to treatments: systematic review on pharmacological interventions for trichotillomania",
+          "year": "2024",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "拔毛症藥物治療系統回顧，評估 aripiprazole 在現有藥物選項中的定位。"
+        },
+        {
+          "pmid": "21694623",
+          "title": "Open-label trial of aripiprazole in the treatment of trichotillomania",
+          "year": "2011",
+          "study_type": "Open-label Trial",
+          "tier": "2",
+          "note": "前瞻性開放性試驗，提供療效初步數據，無對照組。"
+        },
+        {
+          "pmid": "38227009",
+          "title": "Aripiprazole and its adverse effects in the form of impulsive-compulsive behaviors: systematic review",
+          "year": "2024",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "⚠️ 重要安全訊號：此系統回顧揭示 aripiprazole 可能引發衝動-強迫行為（包括拔毛症），提示雙向效應，需在試驗設計中謹慎評估。"
+        },
+        {
+          "pmid": "26222972",
+          "title": "Treatment of Huntington Disease and Comorbid Trichotillomania With Aripiprazole",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "合併 Huntington 病之拔毛症案例，情境特殊，外推性有限。"
+        },
+        {
+          "pmid": "20175807",
+          "title": "Improvement of restless legs syndrome and trichotillomania with aripiprazole",
+          "year": "2009",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "單一案例，合併不寧腿症候群改善，機轉交疊複雜。"
+        },
+        {
+          "pmid": "17941109",
+          "title": "Reversal of trichotillomania with aripiprazole",
+          "year": "2008",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "早期案例報告，提供初始臨床訊號。"
+        },
+        {
+          "pmid": "26089954",
+          "title": "Treatment of puberty trichotillomania with low-dose aripiprazole",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "青春期族群低劑量案例，提示劑量探索方向。"
+        },
+        {
+          "pmid": "29257789",
+          "title": "Trichotillomania Associated With Aripiprazole: A Case Report",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 不良反應報告：aripiprazole 引發拔毛症，提醒安全訊號的雙向性。"
+        },
+        {
+          "pmid": "30559522",
+          "title": "ISMP Adverse Drug Reactions Newsletter",
+          "year": "2018",
+          "study_type": "Pharmacovigilance Report",
+          "tier": "3",
+          "note": "藥物安全警訊通報，間接安全性資料。"
+        },
+        {
+          "pmid": "36717540",
+          "title": "Sapap3-/- mouse reconsidered as comorbid model of pathological repetitive behaviors",
+          "year": "2023",
+          "study_type": "Animal Model Study",
+          "tier": "3",
+          "note": "動物模型研究，提供 BFRB 生物機轉背景，非臨床直接證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "retinal dystrophy with or without extraocular anomalies",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Aripiprazole 之多巴胺/血清素機轉與視網膜營養不良（通常為遺傳性光感受器退化）之病理基礎（如 RPGR、CNGB3 等離子通道/纖毛基因突變）無已知直接連結。TxGNN 預測分數高可能反映知識圖譜中共病或間接關聯節點，非藥物直接療效訊號。",
+      "literature_quality_note": "⚠️ 所有 15 篇文獻均為一般眼科教科書/回顧文章（眼眶感染、複視、先天性上瞼下垂、晶體畸形等），無任何文獻提及 aripiprazole 與視網膜營養不良之關聯，判斷為資料收集假陽性（資料無關聯性）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9416661",
+          "title": "Orbital infections",
+          "year": "1997",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "❌ 與 aripiprazole 或視網膜營養不良無關聯，為資料雜訊。"
+        },
+        {
+          "pmid": "20127583",
+          "title": "Pearls: diplopia",
+          "year": "2010",
+          "study_type": "Clinical Pearl",
+          "tier": "3",
+          "note": "❌ 複視臨床要點，無 aripiprazole 相關性。"
+        },
+        {
+          "pmid": "38249493",
+          "title": "Congenital anomalies of lens shape",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "❌ 先天性水晶體畸形，與本藥物適應症無關。"
+        },
+        {
+          "pmid": "38321238",
+          "title": "Pediatric orbital lesions: ocular pathologies",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "❌ 小兒眼眶病變，無藥物相關性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "gaze palsy, familial horizontal, with progressive scoliosis",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此罕見遺傳病由 ROBO3 基因突變引起，導致腦幹皮質脊髓束及眼動神經迴路異常交叉。Aripiprazole 之 D2/5-HT 機轉與 ROBO3 軸突導向分子路徑無已知連結，TxGNN 預測可能反映圖譜中神經系統症狀之共同特徵節點，而非真實藥物-疾病機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "asperger syndrome, susceptibility to",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "注意：此適應症為遺傳『易感性』（susceptibility to），非 Asperger 症候群本身。Aripiprazole 有 FDA 核准之自閉症譜系障礙（ASD）易激惹症狀適應症，多巴胺系統與社交行為相關，但針對『遺傳易感性』之預防或修飾治療無臨床依據。需區分 ASD 症狀管理（有證據）與遺傳風險修飾（無證據）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Phelan-McDermid syndrome",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Phelan-McDermid 症候群由 22q13.3 微缺失（含 SHANK3 基因）導致，主要病理為谷氨酸突觸功能障礙（谷氨酸系統，而非多巴胺/血清素）。目前研究重點在 mGluR/AMPA 受體調節及 IGF-1 治療，aripiprazole 之 D2/5-HT 機轉僅能管理繼發性精神症狀，對核心病理無直接療效依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amelocerebrohypohidrotic syndrome",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此極罕見遺傳症候群涉及牙釉質、腦部及外分泌腺發育異常（致病基因待確認），為多系統發育性疾病，非神經傳導物質異常所致。Aripiprazole 無已知機轉可影響此病理過程，TxGNN 預測可能為圖譜泛化偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "distal 17p13.3 microdeletion syndrome",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "17p13.3 微缺失症候群（含 PAFAH1B1/LIS1 等基因）主要導致神經元移行障礙、無腦回、癲癇及智能障礙，為腦部結構發育異常，非神經傳導物質失調。Aripiprazole 對此遺傳結構性疾病無直接治療機轉，縱使可管理行為症狀，亦屬對症而非針對病因。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Malan overgrowth syndrome",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Malan 症候群由 NFIX 基因雜合突變引起，表現為過度生長、大頭畸形及智能障礙，病理機轉涉及核基質因子 X（NFIX）轉錄調控，與多巴胺/血清素系統無直接連結。無臨床或前臨床證據支持 aripiprazole 之療效。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hydranencephaly (disease)",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無腦水症為大腦半球嚴重缺損的結構性腦部畸形，通常由宮內血管意外（頸動脈閉塞）或感染（弓形蟲、CMV）導致。此為器質性腦部結構缺失，非神經傳導功能障礙，藥物干預無法逆轉結構缺損。Aripiprazole 頂多可管理存活患者的繼發性行為症狀，非疾病修飾療法。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "L1_S3_proceed": ["major affective disorder"],
+    "L3_S2_research": ["trichotillomania"],
+    "L5_S0_hold": [
+      "gaze palsy, familial horizontal, with progressive scoliosis",
+      "asperger syndrome, susceptibility to",
+      "Phelan-McDermid syndrome",
+      "amelocerebrohypohidrotic syndrome",
+      "distal 17p13.3 microdeletion syndrome",
+      "Malan overgrowth syndrome",
+      "retinal dystrophy with or without extraocular anomalies",
+      "hydranencephaly (disease)"
+    ]
+  },
+  "key_findings": [
+    {
+      "finding": "Major affective disorder 已具備 L1 級證據，TxGNN 高分（0.996）與全球臨床實證高度吻合，驗證模型預測效度。本地『未上市』狀態為法規缺口而非科學缺口，建議優先推動 HSA 查驗登記。"
+    },
+    {
+      "finding": "Trichotillomania 為有潛力的 L3→L2 晉升候選：Phase 2 RCT（NCT05545891）設計已完成，待開始招募後為最重要追蹤指標。唯需注意 aripiprazole 本身可能引發拔毛症之雙向效應（文獻 PMID 38227009, 29257789），試驗監測計畫需納入此安全終點。"
+    },
+    {
+      "finding": "Retinal dystrophy 之 15 篇文獻全部為眼科一般背景文獻，與 aripiprazole 無關，判定為資料管道假陽性，建議改善證據收集器的相關性過濾演算法。"
+    },
+    {
+      "finding": "7 個 L5/S0 適應症多為單基因遺傳症候群或結構性腦部異常，TxGNN 預測高分可能反映知識圖譜中『神經系統疾病』類別節點的過度概化，建議在圖譜中增加疾病病理機轉層次以提升預測特異性。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|------|-----------|---------|---------|------|---------|
+| **major affective disorder** | 0.9962 | **L1** | **S3** | ✅ **Proceed** | 多個 Phase 3 RCT 已完成，FDA 核准適應症，法規缺口非科學缺口 |
+| **trichotillomania** | 0.9926 | **L3** | **S2** | 🔬 **Research Question** | Phase 2 設計完整待執行，案例報告/開放試驗有初步訊號，需注意雙向效應 |
+| **retinal dystrophy** | 0.9925 | **L5** | **S0** | ⛔ **Hold** | 15 篇文獻全部無關，資料管道假陽性 |
+| 其他 7 項罕見症 | 0.993–0.996 | **L5** | **S0** | ⛔ **Hold** | 零臨床/文獻證據，遺傳/結構性病理與藥物機轉不符 |
+
+> **⚕️ 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用於患者。

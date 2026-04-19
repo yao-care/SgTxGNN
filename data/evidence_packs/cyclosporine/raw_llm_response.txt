@@ -1,0 +1,328 @@
+```json
+{
+  "drug": "Cyclosporine",
+  "drugbank_id": "DB00091",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "granulomatous disease, chronic, autosomal recessive",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cyclosporine 作為鈣調磷酸酶抑制劑，抑制 T 細胞活化與 IL-2 分泌，在同種異體幹細胞移植（SCT）中作為標準 GVHD 預防用藥。慢性肉芽腫病（CGD）目前根治性治療為同種異體 SCT，CsA 在此扮演 GVHD 預防角色，而非直接針對 CGD 病理機轉；再利用潛力為間接且場景限定。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01917708",
+          "relevance_grade": "B",
+          "reasoning": "本試驗主藥為 Abatacept（CTLA4-Ig），用於同種異體造血幹細胞移植後免疫抑制，Cyclosporine 僅為背景 GVHD 預防方案的一部分，非獨立干預組；Phase 1，n=10，完成但樣本極小，不能單獨支持 CsA 對 CGD 的直接再利用。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22078471",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "comment": "報告 SCT 治療 CGD 的存活資料，CsA 為 GVHD 預防標準方案之一；屬回顧性、n 規模未明，屬間接支持證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "brain aneurysm",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "1990 年代假說認為 CsA 透過抑制 T 細胞介導的神經炎症，可能預防蜘蛛網膜下腔出血（SAH）後腦血管痙攣；然而 2017 年新證據（PMID 28437485）顯示 T 細胞功能對顱內動脈瘤形成與進展為非必要，直接質疑 CsA 的作用假說，且該領域無 RCT 支持，證據互相矛盾。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1763680",
+          "study_type": "Preliminary Clinical Report",
+          "tier": "3",
+          "comment": "1991 年初步報告，CsA 可能預防 SAH 後神經學惡化，樣本小、無對照組，年代久遠，方法學薄弱。"
+        },
+        {
+          "pmid": "9007860",
+          "study_type": "Clinical Study (non-RCT)",
+          "tier": "3",
+          "comment": "1997 年探討 CsA 預防 SAH 血管痙攣的安全性與療效，仍屬早期探索性研究，無隨機對照設計，結論效力有限。"
+        },
+        {
+          "pmid": "28437485",
+          "study_type": "Experimental/Basic Science",
+          "tier": "2",
+          "comment": "2017 年重要反向證據：T 細胞功能對顱內動脈瘤形成無必要作用，直接削弱 CsA 免疫抑制機轉用於腦動脈瘤的理論基礎。"
+        },
+        {
+          "pmid": "26975840",
+          "study_type": "Translational Study",
+          "tier": "3",
+          "comment": "聚焦金屬蛋白酶與流量分流器治療，CsA 為抗炎比較背景，相關性低。"
+        },
+        {
+          "pmid": "8372707",
+          "study_type": "Statistical Analysis",
+          "tier": "3",
+          "comment": "SAH 多參數分析方法學論文，與 CsA 再利用關聯極低。"
+        },
+        {
+          "pmid": "7731253",
+          "study_type": "Case Series",
+          "tier": "3",
+          "comment": "肝臟移植接受者腦內出血個案，為 CsA 神經毒性副作用報告，非治療性再利用證據。"
+        },
+        {
+          "pmid": "12086172",
+          "study_type": "Case Report",
+          "tier": "3",
+          "comment": "兒童貝賽特氏病伴嚴重動脈受損使用 CsA，屬個案報告，疾病背景為自身免疫性血管炎，非典型腦動脈瘤。"
+        }
+      ]
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本病為罕見先天性發育異常（眼缺損性小眼畸形合併肢根性發育不良），屬結構性/遺傳性疾病，CsA 免疫抑制機轉對其病理無已知相關性。TxGNN 高分（0.9939）可能反映知識圖譜中非特異性鄰接性，而非生物學合理性。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital ichthyosiform erythroderma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性魚鱗病樣紅皮病為角化基因突變所致的角化障礙，主要機轉為表皮屏障缺失而非免疫失調。雖然 CsA 在其他炎症性皮膚病（如嚴重濕疹）有使用先例，但現有資料集中無直接臨床試驗或文獻支持此適應症，仍需個案報告或概念驗證研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fetal erythroblastosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胎兒紅細胞增多症（Rh/ABO 不合溶血）主要機轉為母體同種抗體介導的紅血球破壞，理論上 CsA 免疫抑制可能抑制抗體產生，但懷孕期間 CsA 使用有明確安全疑慮（腎毒性、高血壓等），且所提供唯一文獻（PMID 17906594）僅為膽紅素轉運體外研究，與 CsA 治療無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17906594",
+          "study_type": "In Vitro Basic Science",
+          "tier": "3",
+          "comment": "牛腦血管內皮細胞非結合膽紅素外流研究，與 CsA 在胎兒紅細胞增多症中的治療應用無直接相關性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本病為先天性肢體發育異常（短指並指），屬遺傳性骨骼形態異常，CsA 免疫抑制機轉對其無生物學合理性。高 TxGNN 分數（0.9931）可能為知識圖譜拓撲假陽性，無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "prolapse of lacrimal gland",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淚腺脫垂主要為解剖結構鬆弛/手術問題，非炎症性免疫疾病。CsA 在乾眼症/免疫性淚腺炎有已知適應症（可能透過知識圖譜鄰接傳播至此節點），但對結構性淚腺脫垂無機轉合理性，且資料集中無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "excretory apparatus of the lacrimal system anomaly",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淚液排泄系統異常涵蓋先天性/解剖性病變，CsA 對結構性異常無直接治療機轉。資料集中無臨床試驗或文獻支持，與「nasolacrimal duct disease」預測可能共享知識圖譜相鄰性，但後者有更具體的炎症性亞型（如後天性淚點狹窄）支持 CsA 使用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "bronchitis",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此「bronchitis」在臨床試驗脈絡中幾乎全指肺移植後閉塞性細支氣管炎綜合徵（BOS/BO）——一種 T 細胞介導的慢性排斥反應。CsA 作為鈣調磷酸酶抑制劑，抑制 IL-2 驅動的 T 細胞增殖，為 BOS 標準預防與治療基礎；吸入型脂質體 CsA（L-CsA）可直接作用於氣道黏膜，規避系統性毒性，機轉合理性強且有多項 Phase 3 RCT 完成。",
+      "guardrails": [
+        "僅適用於肺移植後 BOS，不適用一般急性/慢性支氣管炎",
+        "吸入劑型（脂質體 L-CsA）與口服劑型效益/毒性比不同，需區分",
+        "需監控腎功能、高血壓、感染（系統性 CsA）",
+        "NCT04039347 Phase 3 仍在進行中，最終數據待確認"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00755781",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED，n=284，多中心隨機對照研究，直接評估 Cyclosporine 吸入液（CIS）在肺移植受者 BOS 中的療效與安全性，為最高直接證據等級。"
+        },
+        {
+          "nct_id": "NCT04039347",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 延伸試驗，ACTIVE_NOT_RECRUITING，n=262，脂質體 CsA（L-CsA）吸入劑，直接針對 BOS/BO 療效與安全性，高度相關。"
+        },
+        {
+          "nct_id": "NCT01334892",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3，TERMINATED（n=130），多中心雙盲安慰劑對照研究 L-CsA，雖終止但提供安全性與初步療效資料，等級 A。"
+        },
+        {
+          "nct_id": "NCT01106833",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3，COMPLETED，n=151，比較 Sirolimus+Prednisone 與 Sirolimus/鈣調磷酸酶抑制劑方案，CsA 為比較組之一；間接支持 CsA 在移植後 BOS 預防的位置。"
+        },
+        {
+          "nct_id": "NCT01650545",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2，COMPLETED，n=21，先導性研究霧化脂質體 CsA 治療 BOS，提供早期安全性與劑量資料。"
+        },
+        {
+          "nct_id": "NCT00633373",
+          "relevance_grade": "A",
+          "reasoning": "開放性使用協議（NO_LONGER_AVAILABLE），CsA 吸入液用於肺移植受者；雖不提供對照證據，但反映真實臨床需求。"
+        },
+        {
+          "nct_id": "NCT07124078",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，RECRUITING，主藥為 Axatilimab（CSF-1R 抑制劑）對比 BAT 治療兒童難治性慢性 GVHD；CsA 可能在 BAT 背景方案中，與氣道 BOS 適應症相關性較低。"
+        },
+        {
+          "nct_id": "NCT00378677",
+          "relevance_grade": "A",
+          "reasoning": "EARLY_PHASE1，n=7，先導研究 CsA 乾粉吸入劑在肺移植 BOS 患者中，樣本極小但直接相關。"
+        },
+        {
+          "nct_id": "NCT01526850",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3，n=100，評估 L-CsA 療效與安全性，UNKNOWN 狀態，但直接針對 BOS。"
+        },
+        {
+          "nct_id": "NCT00092937",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，n=2，二次移植條件方案研究，CsA 為標準背景免疫抑制，非 BOS 直接治療研究。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39261378",
+          "study_type": "Systematic Review & Meta-analysis",
+          "tier": "1",
+          "comment": "2024 年系統回顧比較肺移植後 Tacrolimus vs. CsA，為最高文獻證據等級；提供 CsA 在肺移植後 BOS 風險的定量評估。"
+        },
+        {
+          "pmid": "22554673",
+          "study_type": "Comparative Cohort Study",
+          "tier": "2",
+          "comment": "2012 年，Tacrolimus 與 CsA 對 BOS 風險的差異效果；支持 CsA 在 BOS 病理中的免疫機轉相關性。"
+        },
+        {
+          "pmid": "23331973",
+          "study_type": "Experimental/Translational",
+          "tier": "2",
+          "comment": "2013 年，CsA 誘導移植後閉塞性氣道疾病中 Th17/Th2 機轉，提供重要機轉警示（CsA 本身可能驅動部分 BO 病理），需謹慎解讀。"
+        },
+        {
+          "pmid": "36800551",
+          "study_type": "Review",
+          "tier": "2",
+          "comment": "2023 年，慢性 GVHD 治療新方法，CsA 在 BO-GVHD 脈絡中的使用回顧。"
+        },
+        {
+          "pmid": "38563735",
+          "study_type": "Case Report/Series",
+          "tier": "3",
+          "comment": "2024 年，CsA 相關性機化性肺炎（CsA-Associated OP），屬不良反應報告，安全性監測重要性。"
+        },
+        {
+          "pmid": "23821513",
+          "study_type": "Review",
+          "tier": "2",
+          "comment": "2013 年，移植後免疫抑制標準方案回顧，CsA 定位於肺移植標準治療之一。"
+        },
+        {
+          "pmid": "9426106",
+          "study_type": "Review",
+          "tier": "2",
+          "comment": "1997 年，肺移植新免疫抑制方案，歷史性定位 CsA 在肺移植中的角色。"
+        },
+        {
+          "pmid": "2189665",
+          "study_type": "Review",
+          "tier": "2",
+          "comment": "1990 年，閉塞性細支氣管炎早期文獻，建立 CsA 在 BO 中的使用基礎背景。"
+        }
+      ]
+    },
+    {
+      "disease_name": "nasolacrimal duct disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "後天性淚點狹窄（acquired punctal stenosis）與鼻淚管疾病部分亞型具有局部免疫炎症機轉（如苔癬樣黏膜炎、慢性眼表炎症）。局部 0.05% CsA 滴眼液透過抑制 T 細胞介導的結膜/淚道黏膜炎症，可能改善後天性淚點/鼻淚管狹窄；機轉與 CsA 乾眼症適應症相似，生物學合理性中等。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07171710",
+          "relevance_grade": "A",
+          "reasoning": "Phase NA（比較效果研究），ENROLLING_BY_INVITATION，n=30，直接比較 0.05% CsA 滴眼液合併可吸收淚點塞 vs. 單獨 CsA 治療後天性淚點狹窄；為目前最直接相關試驗，但非隨機對照設計，樣本小。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37463348",
+          "study_type": "Prospective Observational Study",
+          "tier": "2",
+          "comment": "2024 年，局部 CsA 0.05% 滴眼液治療有症狀後天性淚點狹窄的前瞻性研究，直接支持此適應症；方法學為 Tier 2，需 RCT 確認。"
+        },
+        {
+          "pmid": "19659981",
+          "study_type": "Case Report",
+          "tier": "3",
+          "comment": "2009 年，糜爛性黏膜苔癬合併繼發性流淚（epiphora）對系統性 CsA 有效；屬個案報告，僅提供概念驗證級別支持，疾病機轉（苔癬樣炎症）可解釋 CsA 效益。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 2,
+    "L4_count": 1,
+    "L5_count": 6,
+    "S3_proceed": ["bronchitis (BOS post-lung transplant)"],
+    "S2_clinical_feasibility": ["nasolacrimal duct disease"],
+    "S1_safety_review": ["granulomatous disease chronic autosomal recessive", "brain aneurysm"],
+    "S0_hold": [
+      "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "congenital ichthyosiform erythroderma",
+      "fetal erythroblastosis",
+      "brachydactyly-syndactyly syndrome",
+      "prolapse of lacrimal gland",
+      "excretory apparatus of the lacrimal system anomaly"
+    ],
+    "key_insight": "Cyclosporine 對 bronchitis（實為 BOS）具 L1 最高等級證據，多項 Phase 3 RCT 完成或進行中，為此藥物最強再利用信號；nasolacrimal duct disease 呈現 L3 新興證據值得追蹤；其餘 6 項 L5 適應症均為先天性結構或遺傳疾病，TxGNN 高分可能反映知識圖譜拓撲假陽性，不建議進一步臨床開發。"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 高優先度適應症
+
+| 適應症 | 等級 | 階段 | 建議 |
+|--------|------|------|------|
+| **Bronchitis (BOS)** | **L1** | **S3** | ✅ **Proceed with Guardrails** |
+| Nasolacrimal duct disease | L3 | S2 | 🔬 Research Question |
+| CGD (SCT 情境) | L3 | S1 | 🔬 Research Question |
+| Brain aneurysm | L4 | S1 | ⏸ Hold（矛盾證據）|
+| 其餘 6 項 | L5 | S0 | ❌ Hold |
+
+### 關鍵發現
+
+1. **Bronchitis/BOS 是核心信號**：3 項 Phase 3 試驗（含 2 項完成）專門測試吸入型脂質體 CsA（L-CsA）治療肺移植後閉塞性細支氣管炎，機轉清晰，臨床可行性最高。
+
+2. **Brain aneurysm 需謹慎**：1991/1997 年的初步支持性報告被 2017 年機轉研究（T 細胞非必要）否定，目前證據互相矛盾，建議 Hold 等待更新數據。
+
+3. **6 項 L5 適應症為知識圖譜假陽性**：先天性結構/遺傳疾病（骨骼、眼部發育異常）與 CsA 免疫抑制機轉無生物學合理性，TxGNN 高分數不代表臨床可行性。

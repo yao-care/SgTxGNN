@@ -1,0 +1,294 @@
+## Hydroxyzine (DB00557) 藥物再利用證據分析
+
+> ⚠️ **資料異常注意**：Hydroxyzine 為全球廣泛使用之第一代 H1 抗組織胺，但本批資料標注「未上市」且 `original_indications: []`、`original_moa: [Data Gap]`，顯示為特定地區（如新加坡 SgTxGNN）的在地藥政資料落差，**不代表藥物本身無已知適應症**。以下分析以再利用框架進行。
+
+---
+
+```json
+{
+  "drug": "Hydroxyzine",
+  "drugbank_id": "DB00557",
+  "analysis_date": "2026-04-04",
+  "data_note": "市場狀態標注為未上市疑為地區藥政資料缺漏，Hydroxyzine 為全球已上市第一代 H1 拮抗劑（焦慮、過敏、搔癢），分析以再利用框架處理",
+  "indications": [
+    {
+      "disease_name": "allergic urticaria",
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Hydroxyzine 為競爭性 H1 受體拮抗劑，直接阻斷組織胺介導之血管擴張、血管通透性增加及搔癢傳導。活性代謝物 Cetirizine 具更強 H1 選擇性，已有 Phase 3 RCT（NCT02023164）支持靜脈製劑用於過敏性蕁麻疹，提供直接代謝物層級證據。文獻顯示 H1 拮抗為第一線療法，機轉-疾病關聯度極高（★★★★★）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02023164",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成試驗（先導型，n=36），比較 IV Cetirizine（Hydroxyzine 活性代謝物）與標準抗組織胺。為活性代謝物直接臨床證據，但非 Hydroxyzine 本身；規模偏小屬可行性研究，不宜直接視為 L1。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31582993",
+          "study_type": "Position Statement (CSACI 2019)",
+          "tier": "1",
+          "note": "明確建議新一代 H1 抗組織胺優先於第一代，間接確立 H1 拮抗為蕁麻疹標準療法"
+        },
+        {
+          "pmid": "28913986",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "慢性自發性蕁麻疹病理與治療綜述，確立 H1 阻斷機轉地位"
+        },
+        {
+          "pmid": "7645679",
+          "study_type": "Clinical Studies Compilation",
+          "tier": "2",
+          "note": "Cetirizine（Hydroxyzine 代謝物）在過敏性鼻炎與慢性蕁麻疹之臨床研究，直接代謝物證據"
+        },
+        {
+          "pmid": "1981354",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Cetirizine 藥理與臨床評估，1990 年代奠基文獻，覆蓋蕁麻疹適應症"
+        },
+        {
+          "pmid": "18336052",
+          "study_type": "PK/PD Review",
+          "tier": "2",
+          "note": "Desloratadine/Fexofenadine/Levocetirizine 之 PK/PD 比較，為 H1 類藥物整體藥理背景"
+        },
+        {
+          "pmid": "22686617",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Bilastine 綜述，討論 H1 拮抗劑類效應於過敏性鼻炎和蕁麻疹"
+        },
+        {
+          "pmid": "16278258",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "口服抗組織胺治療蕁麻疹焦點文獻，包含第一/二代比較"
+        },
+        {
+          "pmid": "19808127",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Levocetirizine 成人及兒童使用綜述，為同類藥物療效佐證"
+        },
+        {
+          "pmid": "18201439",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Levocetirizine 治療選項評估，蕁麻疹療效有記載"
+        },
+        {
+          "pmid": "11034010",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Cetirizine 誘發膽汁淤積個案，為安全性警示（非療效），需留意肝膽功能監測"
+        }
+      ]
+    },
+    {
+      "disease_name": "rosacea conjunctivitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "玫瑰斑性結膜炎主要涉及 Demodex mite 感染、先天免疫異常（TLR2 過度活化）、神經血管失調及 MMP 介導之組織損傷，並非以組織胺通路為核心。Hydroxyzine 之 H1 拮抗及抗膽鹼效應對上述機轉缺乏直接干預點。TxGNN 高分（0.997）可能源於知識圖譜中「結膜」節點與過敏炎症的廣泛連結，屬圖譜系統性預測誤差風險，機轉關聯度低（★☆☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cold urticaria",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "冷接觸性蕁麻疹的核心機轉為低溫刺激誘發皮膚肥大細胞脫顆粒，大量釋放組織胺，觸發風團、血管性水腫。Hydroxyzine 之 H1 拮抗可直接阻斷此效應。關鍵文獻 PMID 6480953（1984）為直接比較研究，將 Hydroxyzine 與 cinnarizine、cyproheptadine、doxepin 比較於特發性冷蕁麻疹，提供 Hydroxyzine 在此適應症的唯一直接臨床記錄，機轉關聯度高（★★★★☆）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01940393",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 完成試驗（n=150），比較 5 種抗組織胺藥物在蕁麻疹之抑制效果（包含冷蕁麻疹），規模充足，但試驗設計為蕁麻疹整體類別，未明確列出 Hydroxyzine 為受試藥物之一，需查閱完整方案確認。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6480953",
+          "study_type": "Controlled Comparative Study",
+          "tier": "2",
+          "note": "★ 關鍵文獻：直接比較 Hydroxyzine 與其他藥物治療特發性冷蕁麻疹，唯一含 Hydroxyzine 之直接臨床證據（1984 年，方法學需現代標準再評估）"
+        },
+        {
+          "pmid": "32975301",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "慢性誘導性蕁麻疹分類與特徵綜述（2020），確立冷蕁麻疹的 H1 拮抗治療原則"
+        },
+        {
+          "pmid": "2959719",
+          "study_type": "Experimental (Pharmacodynamic)",
+          "tier": "2",
+          "note": "Cetirizine（Hydroxyzine 代謝物）對組織胺誘導風團之抑制實驗，機轉支撐"
+        },
+        {
+          "pmid": "2566292",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "慢性蕁麻疹自然史與治療反應追蹤，H1 拮抗治療反應記載"
+        },
+        {
+          "pmid": "14512923",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "冷蕁麻疹以 Cetirizine 合併 Zafirlukast 治療，Hydroxyzine 代謝物參考"
+        },
+        {
+          "pmid": "2873823",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "泰國兒童蕁麻疹研究，含冷蕁麻疹亞群，地區性流行病學資料"
+        },
+        {
+          "pmid": "12396959",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "12 例冷蕁麻疹病例回顧，治療反應多樣，H1 拮抗效果不一"
+        },
+        {
+          "pmid": "20609144",
+          "study_type": "Case Report + Literature Review",
+          "tier": "3",
+          "note": "兒科局部冷蕁麻疹個案，H1 拮抗為建議一線療法"
+        },
+        {
+          "pmid": "7719887",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "家族性冷蕁麻疹父女案例，提示遺傳背景可能影響 H1 拮抗反應"
+        },
+        {
+          "pmid": "15617665",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "兒童冷蕁麻疹與傳染性單核球增多症相關案例，感染誘發特殊亞型"
+        }
+      ]
+    },
+    {
+      "disease_name": "recalcitrant atopic dermatitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "難治性異位性皮膚炎涉及多軸免疫失調（Th2/Th22 主導、IL-4/IL-13/IL-31 過度表現）、皮膚屏障蛋白（Filaggrin）缺損及微生物群失衡。Hydroxyzine 的 H1 拮抗可暫時緩解組織胺介導的搔癢（非主要致癢機轉，IL-31 等細胞激素更關鍵），但無法修正根本免疫異常。對「難治性」定義患者尤其療效存疑。無任何臨床試驗或文獻支持，機轉關聯度低（★★☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "IgE responsiveness, atopic",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "過敏性 IgE 反應機轉位於 B 細胞 IgE 類別轉換（受 IL-4/IL-13/CD40L 調控）及 FcεRI 受體致敏化。Hydroxyzine 作用於組織胺效應端（H1 受體），位於 IgE 致敏路徑的下游，無法調節 IgE 的產生、致敏化或過敏反應閾值。此為功能性生物標記預測而非獨立臨床疾病，再利用框架適用性有限，機轉關聯度極低（★☆☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鼻腔疾病（特指過敏性鼻炎相關病變）涉及組織胺介導之鼻黏膜充血、腺體分泌增加及搔癢。Hydroxyzine 的 H1 拮抗及抗膽鹼效應（可減少黏液分泌）理論上可緩解相關症狀。然而現有文獻以 Levocetirizine、Cetirizine 等二代抗組織胺為主，缺乏 Hydroxyzine 之直接研究；且「nasal cavity disease」作為廣義診斷碼，機轉對應不精確，關聯度中等（★★★☆☆）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00517946",
+          "relevance_grade": "C",
+          "reasoning": "Phase N/A 探索性研究（n=21），以 MRI 評估抗過敏藥物對鼻腔結構的影響，規模極小，未明確指定 Hydroxyzine，研究設計屬影像學評估而非療效終點。僅提供機制探索性參考，不具臨床決策依據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22185740",
+          "study_type": "RCT (Levocetirizine for PAR)",
+          "tier": "2",
+          "note": "Levocetirizine（Cetirizine 對映體，為 Hydroxyzine 代謝物）於常年性過敏性鼻炎之 RCT，顯示鼻一氧化氮及嗜酸性粒細胞減少，間接機轉支持"
+        },
+        {
+          "pmid": "35818943",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "現代 H1 抗組織胺用於過敏性鼻炎合併急性呼吸道感染的俄文文獻，為 H1 類藥物鼻腔適應症的廣泛佐證"
+        },
+        {
+          "pmid": "36116201",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "探討 Shufeng Jiedu 膠囊透過 AMPK/mTOR 路徑改善嗅覺功能，與 Hydroxyzine 無直接關聯，相關性極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎主要由病毒（鼻病毒、腺病毒等）或細菌感染引起，核心病理為感染性炎症。Hydroxyzine 無抗病毒或抗菌活性，H1 拮抗可能緩解部分過敏相關咽喉搔癢，但對感染性病因缺乏機轉干預。TxGNN 預測可能基於「上呼吸道-過敏-H1 連結」之知識圖譜關聯，屬預測性系統誤差。無任何臨床證據，機轉關聯度低（★★☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "parasitic conjunctivitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "寄生蟲性結膜炎由特定病原（Acanthamoeba、眼吸蟲、蠅蛆等）直接感染引起，需抗寄生蟲治療。Hydroxyzine 完全不具抗寄生蟲活性，H1 拮抗僅可緩解繼發性組織胺介導之過敏反應（搔癢、充血），無法處理原發感染。TxGNN 評分（0.9862）與 chronic follicular conjunctivitis 及 serous conjunctivitis 完全相同，強烈提示為知識圖譜「結膜疾病」節點的系統性群聚預測，機轉關聯度極低（★☆☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic follicular conjunctivitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性濾泡性結膜炎以結膜淋巴濾泡增生為特徵，多由 Chlamydia trachomatis、腺病毒慢性感染或毒性刺激（眼藥水防腐劑）引起，需病因導向治療。H1 拮抗對濾泡形成（T 細胞/B 細胞聚集）無直接效益。TxGNN 評分與其他結膜疾病完全相同（0.9862），確認為圖譜系統性輸出，無獨立機轉支持（★☆☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "serous conjunctivitis except viral",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非病毒性漿液性結膜炎若為過敏性成因，H1 拮抗理論上具部分症狀緩解效果；但 TxGNN 評分與 parasitic conjunctivitis（病因完全不同）完全相同（0.9862），暴露此三項結膜疾病預測為知識圖譜節點群聚效應，缺乏疾病特異性。現有結膜過敏治療以局部用藥為主，全身 Hydroxyzine 的合理性需另立研究問題，目前無臨床證據（★★☆☆☆）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵根據 |
+|--------|---------|---------|------|---------|
+| **allergic urticaria** | **L2** | **S3** | ✅ Proceed with Guardrails | Phase 3 代謝物試驗 + 20 篇文獻 + H1 機轉直接 |
+| **cold urticaria** | **L3** | **S2** | ⚠️ Proceed with Guardrails | PMID 6480953 直接比較 + Phase 4 類別試驗 |
+| nasal cavity disease | L4 | S1 | 🔬 Research Question | 僅代謝物間接文獻，缺直接研究 |
+| rosacea conjunctivitis | L5 | S0 | 🚫 Hold | 機轉不符，無證據 |
+| recalcitrant atopic dermatitis | L5 | S0 | 🚫 Hold | 無證據，機轉弱 |
+| IgE responsiveness, atopic | L5 | S0 | 🚫 Hold | 作用位點不符 |
+| acute laryngopharyngitis | L5 | S0 | 🚫 Hold | 感染性病因，機轉不符 |
+| parasitic conjunctivitis | L5 | S0 | 🚫 Hold | 圖譜群聚誤差 |
+| chronic follicular conjunctivitis | L5 | S0 | 🚫 Hold | 圖譜群聚誤差 |
+| serous conjunctivitis (non-viral) | L5 | S0 | 🚫 Hold | 圖譜群聚誤差 |
+
+---
+
+## 🔍 關鍵觀察
+
+1. **TxGNN 圖譜群聚警示**：`parasitic conjunctivitis`、`chronic follicular conjunctivitis`、`serous conjunctivitis except viral` 三者 TxGNN 分數完全相同（0.9861749410629272），為知識圖譜「結膜節點」系統性輸出，**不應個別解讀為獨立預測**。
+
+2. **代謝物橋接策略**：Cetirizine 為 Hydroxyzine 的主要活性代謝物，現有文獻 60-70% 以 Cetirizine 資料為主，可合理借助此代謝物橋接至 L2 層級，但需在研究計畫中明確說明此推論路徑。
+
+3. **PMID 6480953 的歷史價值**：1984 年冷蕁麻疹直接比較研究是目前唯一含 Hydroxyzine 本身的直接臨床記錄，方法學需依現代標準（CONSORT）重新評估，但仍為不可忽視的基礎證據。
+
+4. **安全性護欄建議（Guardrails）**：鑒於 Hydroxyzine 為第一代抗組織胺，具顯著鎮靜、抗膽鹼副作用及 QTc 延長風險，即使在有證據的適應症中，也需監測老年族群用藥安全（參考 Beers Criteria）。

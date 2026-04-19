@@ -1,0 +1,219 @@
+# Atracurium Besylate (DB00732) 藥物再利用證據分析
+
+## 藥物背景說明
+
+**Atracurium besylate** 是非去極化神經肌肉阻斷劑（NMBA），透過競爭性拮抗神經肌肉接頭的菸鹼型乙醯膽鹼受體（nAChR），造成可逆性骨骼肌麻痺。其臨床使用**僅限於受控環境**（手術室 / ICU），需配備機械通氣支持。代謝產物 laudanosine 可穿越血腦屏障，具癲癇誘發潛力。
+
+---
+
+## 證據分析結果
+
+```json
+{
+  "drug": "Atracurium besylate",
+  "drugbank_id": "DB00732",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "所有 TxGNN 高分預測均缺乏直接治療機轉支撐。文獻中 Atracurium 均以麻醉輔助劑身份出現，非治療性再利用。全部適應症建議 Hold。",
+  "indications": [
+    {
+      "disease_name": "preeclampsia",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Atracurium 作為麻醉誘導/維持藥物，用於子癇前症患者接受剖腹產時的肌肉鬆弛。文獻所記錄的是「在子癇前症患者中的安全使用」，而非「治療子癇前症」。與 MgSO4（標準療法）併用時有交互作用（延長 NMB 效果），需格外注意。無直接治療子癇前症的生物學機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3778800",
+          "title": "Use of atracurium in pre-eclamptic patients (1986)",
+          "study_type": "Case Series / Clinical Observation",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "直接描述子癇前症患者使用 Atracurium 的安全性觀察，但目的為麻醉管理，非治療子癇前症本身。具最高關聯性但僅為間接證據。"
+        },
+        {
+          "pmid": "9646009",
+          "title": "Clinical pharmacokinetics of neuromuscular relaxants in pregnancy (1998)",
+          "study_type": "PK/PD Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "妊娠期藥動學研究，確認 Atracurium 在妊娠中的 PK 特性，為安全性數據，非療效數據。"
+        },
+        {
+          "pmid": "41103680",
+          "title": "Comparison of IL-6, Leptin, Adiponectin after Cesarean Section (2025)",
+          "study_type": "RCT (anesthesia comparison)",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "比較不同麻醉方式的發炎指標，Atracurium 為麻醉組成，非研究主題。與子癇前症治療無直接關聯。"
+        },
+        {
+          "pmid": "18383970",
+          "title": "Remifentanil bolus for cesarean section in high-risk patients (2008)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "高風險剖腹產案例報告，主角為 Remifentanil，Atracurium 為背景麻醉藥物。"
+        }
+      ]
+    },
+    {
+      "disease_name": "cauda equina syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "馬尾症候群為神經壓迫性疾病，需手術解壓。Atracurium 為手術麻醉輔助劑，與「治療」馬尾症候群無生物學機轉連結。TxGNN 預測可能因「神經肌肉疾病」節點間接關聯。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blepharospasm",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼瞼痙攣標準療法為局部注射肉毒桿菌毒素（BTX-A），作用於同樣的 nAChR 位點但為局部效果。Atracurium 為全身性 NMB，無法安全用於眼瞼局部肌肉鬆弛（須通氣支持）。唯一文獻為白內障手術技術報告，與眼瞼痙攣治療無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29411487",
+          "title": "Phacoemulsification cataract surgery technique and outcomes (2018)",
+          "study_type": "Retrospective Case Series",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "白內障手術技術報告，Atracurium 為麻醉組成，眼瞼痙攣僅為術中觀察項目之一。與眼瞼痙攣治療性再利用無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偏頭痛為中樞神經系統疾病，涉及三叉神經血管系統與皮質擴散性抑制（CSD）。Atracurium 作用於周邊神經肌肉接頭，不穿越血腦屏障（但代謝物 laudanosine 可），無已知偏頭痛治療機轉。零臨床試驗、零文獻。TxGNN 預測無依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經性膀胱涉及自律神經與膀胱逼尿肌（平滑肌）功能障礙。Atracurium 選擇性作用於骨骼肌 nAChR，對膀胱平滑肌無直接作用。診斷名稱標記為「obsolete」，代表疾病分類已廢棄。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thrombotic disease",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血栓性疾病標準療法為抗凝劑/抗血小板藥物。Atracurium 無已知抗凝或抗血小板機轉。臨床試驗 NCT01097148 為病態肥胖患者圍術期藥物研究，Atracurium 作為麻醉組成非研究藥物。文獻中提到的治療為 Reviparin（低分子量肝素），Atracurium 僅為麻醉背景藥物。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01097148",
+          "title": "Peri-and Postoperative Drug Therapy Schedules for Morbidly Obese Patients",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 20,
+          "relevance_grade": "C",
+          "reasoning": "研究主題為病態肥胖圍術期藥物管理（重點為 Reviparin 抗凝治療）。Atracurium 為麻醉輔助藥物，非研究干預項目。樣本數極小（n=20）。與血栓性疾病的治療性再利用無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32082009",
+          "title": "Effect of Prophylactic Reviparin on Postoperative Platelets (2019)",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究 Reviparin 對血小板的影響，Atracurium 為麻醉背景用藥。"
+        },
+        {
+          "pmid": "22343114",
+          "title": "Thrombotic stroke in anesthetized monkey: MRI characterization (2012)",
+          "study_type": "Animal Study (Pilot)",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "靈長類動物血栓性腦中風模型，Atracurium 用於動物麻醉固定，非治療干預。"
+        },
+        {
+          "pmid": "12565113",
+          "title": "Anesthesia care for pediatric liver transplantation (2002)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "肝移植麻醉管理，涉及術中抗凝監測，Atracurium 為麻醉組成。"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛（basilar migraine）為中樞神經系統疾病，涉及腦幹相關神經通路。Atracurium 代謝物 laudanosine 雖可穿越血腦屏障，但具癲癇誘發潛力，反可能加重神經症狀。無任何臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "severe pre-eclampsia",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 preeclampsia 相同，文獻證據（PMID 3778800）提及重度子癇前症患者使用 Atracurium 的注意事項。但屬於麻醉管理範疇，非治療再利用。重度子癇前症合併 MgSO4 治療時，Atracurium 劑量需調整（MgSO4 增強 NMB 效果）。降評至 L4（依賴 preeclampsia 類別的間接文獻）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "mild pre-eclampsia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "輕度子癇前症通常不需緊急手術，麻醉使用需求低。無直接文獻記錄輕度子癇前症中 Atracurium 的特定使用。與治療性再利用無機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "irritable bowel syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腸躁症涉及腸道神經系統（ENS）與腸-腦軸失調。Atracurium 雖可能影響腸道平滑肌（M2/M3 受體的間接效果），但主要作用靶點為骨骼肌 nAChR，無已知 IBS 治療機轉。零臨床試驗、零文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 核心問題 |
+|--------|---------|---------|------|---------|
+| preeclampsia | L4 | S0 | Hold | 麻醉使用≠治療性再利用 |
+| cauda equina syndrome | L5 | S0 | Hold | 零證據，機轉不存在 |
+| blepharospasm | L5 | S0 | Hold | 全身 NMB 不適用局部肌痙攣 |
+| migraine disorder | L5 | S0 | Hold | 周邊 NMB 無中樞偏頭痛機轉 |
+| neurogenic bladder | L5 | S0 | Hold | 骨骼肌 NMB 不作用平滑肌 |
+| thrombotic disease | L4 | S0 | Hold | 文獻均為麻醉背景用藥 |
+| migraine with brainstem aura | L5 | S0 | Hold | Laudanosine 代謝物具神經毒性 |
+| severe pre-eclampsia | L4 | S0 | Hold | 同 preeclampsia，更高風險 |
+| mild pre-eclampsia | L5 | S0 | Hold | 更低手術需求，無文獻 |
+| irritable bowel syndrome | L5 | S0 | Hold | 零證據，機轉不存在 |
+
+---
+
+## ⚠️ 關鍵安全警示
+
+> **Atracurium besylate 的再利用可行性在本次分析中全部為 Hold**，原因如下：
+>
+> 1. **根本安全限制**：Atracurium 造成完全骨骼肌麻痺（含呼吸肌），**必須在機械通氣支持下使用**，不具備門診或自主使用可能性
+> 2. **TxGNN 高分假陽性問題**：所有適應症 TxGNN score > 0.998，但均缺乏直接治療機轉，提示模型可能透過「麻醉/手術情境」節點過度預測
+> 3. **文獻語境誤判風險**：現有文獻記錄的是 Atracurium 在相關疾病患者手術中的「安全性評估」，而非治療性再利用
+> 4. **代謝物風險**：Laudanosine 代謝物有癲癇誘發潛力，不適合長期或非監控環境使用
+
+---
+
+*本分析結果僅供研究參考，不構成醫療建議。所有再利用候選需經臨床驗證方可應用。*

@@ -1,0 +1,770 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09093-multi",
+    "version": "v4",
+    "created_at": "2026-04-03",
+    "data_cutoff": "2026-04-03",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Chlortetracycline",
+    "drugbank_id": "DB09093",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "postinfectious vasculitis",
+      "txgnn": {
+        "score": 0.9982339143753052,
+        "rank": 3109
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "四環素類藥物具備下調 NF-κB 與 MMP 之抗發炎特性，理論上可減緩感染後血管炎的持續性免疫損傷；然 Chlortetracycline 對此適應症之直接臨床資料完全缺失，機轉連結屬類推性質",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "post-bacterial disorder",
+      "txgnn": {
+        "score": 0.9981884360313416,
+        "rank": 3157
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02099240",
+            "title": "Prospective Randomized Study to Compare Clinical Outcomes in Patients With Osteomyelitis Treated With Intravenous Antibiotics Versus Intravenous Antibiotics With an Early Switch to Oral Antibiotics",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 11,
+            "start_date": "2014-03-06",
+            "completion_date": "2018-11-07",
+            "brief_summary": "Based on the current literature, investigators hypothesize that patients with osteomyelitis who are treated with the standard approach of intravenous antibiotics for the full duration of therapy will have the same clinical outcomes as patients treated with the experimental approach of intravenous antibiotics with early switch to oral antibiotics.\n\nThe primary objective of this study is to compare patients with osteomyelitis treated with the standard approach of intravenous antibiotics for the fu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗已提前終止（TERMINATED），僅完成 11 例登錄（大幅低於統計效力需求），且為 Early Phase 1（安全性探索性質）；適應症為骨髓炎而非 post-bacterial disorder 本身，屬間接相關；終止原因未公開，可能暗示安全或可行性疑慮"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Chlortetracycline 廣譜抗菌機轉對細菌感染後遺症（如慢性骨髓炎）具理論可行性；四環素類亦可透過免疫調節減緩持續性發炎，但此類別疾病定義模糊，臨床路徑不明確",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "post-infectious syndrome",
+      "txgnn": {
+        "score": 0.998144030570984,
+        "rank": 3219
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染後症候群之病生理涉及自體免疫失調、持續性神經發炎等多重機轉；四環素類抗發炎特性雖具理論基礎，然「感染後症候群」定義廣泛且異質性高，目前無任何直接臨床數據支持 Chlortetracycline 之應用",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "infective urethral stricture",
+      "txgnn": {
+        "score": 0.9981435537338256,
+        "rank": 3221
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "泌尿道感染（尤其淋病/沙眼披衣菌）相關尿道狹窄理論上可受四環素類抑菌治療；然 Chlortetracycline 口服生物可用度低、已有 Doxycycline 等後代藥物取代，加之感染後纖維化為機械性問題，抗生素介入時機已過，缺乏臨床意義",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "otitis externa",
+      "txgnn": {
+        "score": 0.9978638291358948,
+        "rank": 3585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15426496",
+            "title": "Use of aureomycin in external otitis; comparison with other drugs now in use.",
+            "authors": [
+              "WRIGHT W K"
+            ],
+            "journal": "Archives of otolaryngology",
+            "year": "1950",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Clinical Comparison",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Chlortetracycline（Aureomycin）為第一代四環素，歷史上廣泛用於局部感染；外耳炎由 Pseudomonas aeruginosa 及 Staphylococcus aureus 為主，四環素局部殺菌活性具直接生物合理性。本適應症為「歷史批准用途重新評估」而非新適應症探索，惟現代耐藥性格局已大幅改變",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Chagas cardiomyopathy",
+      "txgnn": {
+        "score": 0.9978011250495912,
+        "rank": 3662
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "恰加斯心肌病由 Trypanosoma cruzi 寄生蟲引起；四環素類對原蟲的直接活性極為有限（主要機轉針對細菌核糖體）；現行標準治療為 Benznidazole/Nifurtimox。Chlortetracycline 對此適應症之機轉連結薄弱，TxGNN 預測可能基於「感染相關心肌病」的廣義節點關聯，非藥物特異性",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "txgnn": {
+        "score": 0.9977710247039796,
+        "rank": 3692
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染相關溶血性尿毒症候群（主要由 STEC O157:H7 志賀毒素誘發）在現行臨床指引中，抗生素使用為相對禁忌——可能促使細菌裂解並大量釋放志賀毒素，加重 HUS 病程。Chlortetracycline 之使用在此適應症不僅缺乏證據，且存在潛在加害風險",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "parasitic eyelid infestation",
+      "txgnn": {
+        "score": 0.990395486354828,
+        "rank": 10247
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21955627",
+            "title": "Treatment of ocular itching associated with ocular demodicosis by 5% tea tree oil ointment.",
+            "authors": [
+              "Gao Ying-Ying",
+              "Xu Duan-lian",
+              "Huang li-Juan",
+              "Wang Rong",
+              "Tseng Scheffer C G"
+            ],
+            "journal": "Cornea",
+            "year": "2012",
+            "abstract": "To determine whether ocular itching associated with ocular demodicosis can be treated by lid massage with 5% tea tree oil ointment (TTOO).",
+            "classification": {
+              "study_type": "Clinical Trial (Tea Tree Oil)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼瞼寄生蟲感染（主要為 Demodex mite）理論上可受廣譜抗生素輔助治療（減少共生細菌並間接改善症狀）；Chlortetracycline 眼用製劑歷史上用於眼部感染，局部抗菌活性具理論可行性，但直接抗蟎效果未經驗證",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "ulcerative blepharitis",
+      "txgnn": {
+        "score": 0.9899543523788452,
+        "rank": 10560
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "潰瘍性瞼緣炎由葡萄球菌感染主導，四環素類局部抗菌及抗發炎雙重機轉具高度生物合理性；Chlortetracycline 眼用軟膏歷史上為第一線局部眼科抗生素，雖在提供資料中無任何文獻/試驗記錄，但外部文獻脈絡支持此連結值得系統性回顧",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "blepharoconjunctivitis",
+      "txgnn": {
+        "score": 0.9891477823257446,
+        "rank": 11152
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "瞼結膜炎為四環素類眼科製劑之歷史核心適應症；Chlortetracycline 眼膏（Aureomycin Eye Ointment）曾廣泛用於細菌性結膜炎及砂眼（Trachoma，由 Chlamydia trachomatis 引起），後者對四環素類高度敏感。現有資料集未反映此歷史用途，建議進行系統性文獻評估",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "otitis externa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "otitis externa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "otitis externa"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "parasitic eyelid infestation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "parasitic eyelid infestation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "parasitic eyelid infestation"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Chlortetracycline",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

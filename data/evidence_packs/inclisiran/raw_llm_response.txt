@@ -1,0 +1,295 @@
+## 分析前檢查
+
+先確認是否有適用技能。
+
+本任務是藥物再利用證據評估（非程式開發、非功能實作），屬於領域知識分析工作，無適用技能，直接進行分析。
+
+---
+
+## ⚠️ 資料品質警告（分析前必讀）
+
+在輸出證據等級前，需先標記一個**關鍵資料缺口**：
+
+| 欄位 | 原始資料 | 實際已知資訊 |
+|------|---------|-------------|
+| `original_moa` | `[Data Gap]` | siRNA 靶向肝細胞 PCSK9 mRNA → 降低 PCSK9 蛋白 → 增加 LDLR 循環利用 → 降低 LDL-C |
+| `original_indications` | `[]` | 原發性高膽固醇血症、混合型血脂異常（Leqvio®，已核准：歐盟 2020、美國 2021） |
+| `market_status` | `未上市` | 全球多市場已核准，新加坡市場狀態待確認 |
+
+> **影響**：TxGNN 在 `original_indications` 為空的情況下執行預測，等同於缺乏「已知適應症」的 anchor，可能導致知識圖譜偏向非特異性高分預測（分數普遍 >0.997 即為此訊號）。
+
+---
+
+## 證據評估結果
+
+```json
+{
+  "drug": "Inclisiran",
+  "drugbank_id": "DB14901",
+  "analysis_timestamp": "2026-04-04",
+  "data_quality_flag": {
+    "severity": "HIGH",
+    "warning": "original_moa 及 original_indications 均為空值/資料缺口，Inclisiran 實為已核准 PCSK9 siRNA（Leqvio®）。建議補全基礎資料後重跑預測。",
+    "known_moa": "肝細胞 PCSK9 siRNA → 抑制 PCSK9 合成 → LDLR 回收增加 → LDL-C 降低（每 6 個月皮下注射）",
+    "known_approved_indications": [
+      "原發性高膽固醇血症（異質性家族性及非家族性）",
+      "混合型血脂異常"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "potassium deficiency disease",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PCSK9/LDLR 路徑與鉀離子穩態無直接生化關聯。推測為知識圖譜中「心血管風險 → 電解質失衡」的間接路徑誤導，屬知識圖譜假陽性訊號。siRNA 機轉侷限於肝細胞 PCSK9 mRNA，無法干預腎臟或腸道鉀轉運蛋白。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "最高 TxGNN 分數但最低臨床相關性，典型 KG 假陽性案例"
+    },
+    {
+      "disease_name": "esophageal disease",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道疾病（包含動力障礙、炎症、結構異常）與 PCSK9 抑制無已知機轉關聯。Inclisiran 作用位點為肝細胞，對食道組織無直接藥理效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "無機轉合理性，無需進一步評估"
+    },
+    {
+      "disease_name": "atypical coarctation of aorta",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "主動脈縮窄為先天性解剖結構缺陷，病因為胚胎發育異常（神經嵴細胞遷移缺陷）而非脂質代謝紊亂。PCSK9 抑制無法矯正既有解剖畸形。此預測可能源於 KG 中「心血管疾病」節點的過廣關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "結構性先天缺陷，藥物再利用概念不適用"
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PCSK9 在神經元中有低量表達，理論上可能影響神經元 LDLR 及脂質代謝。部分 GWAS 研究發現 PCSK9 基因多型性與偏頭痛易感性有統計關聯，但機轉路徑未被確立。目前無 Inclisiran 用於偏頭痛的臨床前或臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "有微弱遺傳學線索，但尚不足以升至 L4"
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性食道畸形（如食道閉鎖）為胚胎發育缺陷，與 PCSK9/LDL 代謝路徑無生物學關聯。屬於 KG 中「食道疾病」群聚效應的衍生預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "先天結構性缺陷，藥物干預窗口不存在"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹先兆偏頭痛（原稱基底動脈偏頭痛）主要涉及 CSD（皮質擴散抑制）及腦幹血管調控。目前無 PCSK9 抑制與腦幹神經血管調控的直接研究。與 'migraine disorder' 同屬偏頭痛群聚預測，無獨立新增證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "偏頭痛亞型分類節點，與父節點 'migraine disorder' 同等級"
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "文獻揭示癲癇與偏頭痛具有共同遺傳及分子機轉（PMID 33856647 為最相關文獻）。PCSK9 在中樞神經系統的表達提供間接生物學合理性。然而，現有文獻均為癲癇-偏頭痛遺傳重疊研究，無一篇直接探討 Inclisiran 或 PCSK9 抑制用於偏頭痛治療。文獻相關性為間接，屬 L4 層次。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_inclisiran": "間接 - 提供偏頭痛-癲癇共同靶點框架，未涉及 PCSK9/Inclisiran",
+          "note": "本批次中相關性最高的文獻，但仍屬背景知識而非直接證據"
+        },
+        {
+          "pmid": "17460155",
+          "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+          "year": "2007",
+          "study_type": "Genetic Linkage Study",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 染色體 9q 定位研究，與 PCSK9 (染色體 1p32.3) 無關"
+        },
+        {
+          "pmid": "34575901",
+          "title": "Selected Molecular Targets for Antiepileptogenesis.",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 抗癲癇靶點綜述，未提及 PCSK9"
+        },
+        {
+          "pmid": "22266888",
+          "title": "Genetics of epilepsy.",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 癲癇遺傳學綜述"
+        },
+        {
+          "pmid": "34209535",
+          "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 神經炎症與癲癇，未涉及 PCSK9"
+        },
+        {
+          "pmid": "30267335",
+          "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+          "year": "2018",
+          "study_type": "Meta-analysis / Genetic Association",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - MTHFR 多型性研究"
+        },
+        {
+          "pmid": "22938964",
+          "title": "Animal models.",
+          "year": "2012",
+          "study_type": "Animal/Preclinical",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 標題過於籠統，無法確認與 PCSK9 的關聯"
+        },
+        {
+          "pmid": "16201993",
+          "title": "Rearranging receptors.",
+          "year": "2005",
+          "study_type": "Basic Science / Review",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 受體重排基礎研究，發表年份較早"
+        },
+        {
+          "pmid": "19935934",
+          "title": "[Psychogenic non-epileptic seizures].",
+          "year": "2009",
+          "study_type": "Review (Non-English)",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 心因性非癲癇發作，與偏頭痛或 PCSK9 均無直接關聯"
+        },
+        {
+          "pmid": "21269290",
+          "title": "Epilepsy and the new cytogenetics.",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_inclisiran": "無關 - 癲癇細胞遺傳學綜述"
+        }
+      ],
+      "literature_quality_assessment": {
+        "total_retrieved": 20,
+        "shown": 10,
+        "directly_relevant_to_inclisiran": 0,
+        "indirectly_relevant": 1,
+        "irrelevant": 9,
+        "conclusion": "文獻批次為癲癇相關文獻因疾病節點重疊而被納入，非 Inclisiran 偏頭痛證據。文獻量 (n=20) 不代表臨床支持強度。"
+      }
+    },
+    {
+      "disease_name": "aortic malformation",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "LDL-C 降低可能減少主動脈壁脂質沉積與慢性炎症，理論上對主動脈病變進展（如主動脈瘤、主動脈擴張）有預防價值。他汀類藥物在主動脈瘤管理中已有研究先例。然而，PCSK9 siRNA 對主動脈壁重塑的直接效應尚未確立。兩項 Phase 3 試驗的實際設計需要確認——高機率為針對合併高膽固醇血症的主動脈病變患者進行脂質管理，而非以主動脈畸形為主要治療靶點。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06597019",
+          "title": "Two Part (Double-blind Inclisiran Versus Placebo [Year 1] Followed by Open-label Inclisiran [Year 2]",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 51,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 隨機對照試驗，設計嚴謹（雙盲安慰劑對照 + 開放標籤延伸）。入組人數 51 人屬小型 Phase 3，可能為特定族群（如兒科、罕見病或特定主動脈病變患者）。關鍵問題：主要終點是 LDL-C 降低還是主動脈結構改變？需查閱完整試驗設計方可確認對『主動脈畸形』的直接相關性。相關性暫評 B 級（條件性相關）。"
+        },
+        {
+          "nct_id": "NCT06597006",
+          "title": "Two Part (Double-blind Inclisiran Versus Placebo [Year 1] Followed by Open-label Inclisiran [Year 2]",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 9,
+          "relevance_grade": "C",
+          "reasoning": "入組僅 9 人極不尋常，即使針對罕見先天性主動脈病變亦屬過小。可能為試點研究、同情性使用擴展、或特定地區子研究。標題與 NCT06597019 幾乎相同，需確認兩者是否為同一研究的不同地點或不同族群分層。相關性評 C 級（需驗證）。"
+        }
+      ],
+      "literature_analysis": [],
+      "guardrails": [
+        "驗證 NCT06597019/NCT06597006 之主要療效終點是否為主動脈相關（非僅 LDL-C 降低）",
+        "確認入組標準：患者是因主動脈畸形合併高膽固醇接受 Inclisiran，還是以主動脈畸形本身為治療靶點",
+        "入組 9 人的試驗需特別謹慎，統計效力極低",
+        "主動脈結構性病變的藥物干預需與心臟外科及血管外科多學科評估"
+      ]
+    },
+    {
+      "disease_name": "esophageal ulcer",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道潰瘍主要病因為 GERD、藥物、感染（念珠菌、HSV、CMV）或 Crohn's 病。PCSK9 抑制對食道黏膜保護或酸分泌無已知效應。屬 'esophageal disease' 節點的衍生子分類預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雷諾氏病為週邊血管痙攣性疾病，與 α 腎上腺素受體過度活化及血管內皮功能障礙有關。LDL-C 降低理論上可改善內皮功能（透過 eNOS 活化），間接減輕血管痙攣，但此路徑對 Raynaud 的臨床意義極微，且無任何 PCSK9 抑制劑用於 Raynaud 的臨床報告。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "priority_flag": "若欲探索 Raynaud，既有的 atorvastatin 小型試驗（非 Inclisiran 本身）提供更直接的類比數據"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| potassium deficiency disease | 0.9993 | **L5** | S0 | ❌ Hold |
+| esophageal disease | 0.9987 | **L5** | S0 | ❌ Hold |
+| atypical coarctation of aorta | 0.9986 | **L5** | S0 | ❌ Hold |
+| migraine disorder | 0.9983 | **L5** | S0 | ❌ Hold |
+| non-syndromic esophageal malformation | 0.9983 | **L5** | S0 | ❌ Hold |
+| migraine with brainstem aura | 0.9978 | **L5** | S0 | ❌ Hold |
+| **migraine w/ or w/o aura** | 0.9978 | **L4** | S1 | 🔬 Research Question |
+| **aortic malformation** | 0.9976 | **L3** | S2 | ⚠️ Proceed with Guardrails |
+| esophageal ulcer | 0.9973 | **L5** | S0 | ❌ Hold |
+| Raynaud disease | 0.9972 | **L5** | S0 | ❌ Hold |
+
+---
+
+## 🔑 關鍵發現與行動建議
+
+### 立即行動（高優先）
+1. **補全 Inclisiran 基礎資料**：`original_moa` 和 `original_indications` 為空值是本批次分析最大的系統性問題，建議從 DrugBank API 或 FDA 標籤重新填充後重跑預測
+2. **驗證兩項 Phase 3 試驗**：直接查閱 NCT06597019 及 NCT06597006 的 ClinicalTrials.gov 完整頁面，確認主要終點是否涉及主動脈結構改變
+
+### 值得追蹤（中優先）
+3. **PCSK9-偏頭痛軸**：雖目前為 L4/L5，但此為新興研究領域（2021-2023 年有新發表），建議設置 PubMed 監測關鍵字：`"PCSK9 inhibitor" AND "migraine"`
+
+### 系統性觀察
+4. **高分聚集警告**：10 個適應症 TxGNN 分數均 >0.997，此高度集中的高分分佈在 `original_indications = []` 條件下是已知 KG 假陽性模式，建議將本批次整體可信度降級評估

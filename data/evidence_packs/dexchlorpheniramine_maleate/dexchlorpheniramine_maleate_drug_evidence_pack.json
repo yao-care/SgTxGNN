@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09555-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dexchlorpheniramine maleate",
+    "drugbank_id": "DB09555",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "acute intermittent porphyria",
+      "txgnn": {
+        "score": 0.9912034273147584,
+        "rank": 9645
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "缺乏合理治療機轉。AIP 為 HMBS 基因突變導致的血紅素合成障礙，核心病理為 ALA/PBG 累積及神經毒性。H1 受體拮抗對血紅素合成路徑無直接調節作用。高 TxGNN 分數（0.9912）推測源自知識圖譜中共病網絡或症狀節點的間接連結，不代表治療機轉關聯。額外安全警示：部分第一代抗組織胺在紫質症患者的安全性分級未定，British/South African Porphyria 指引將特定藥物列為「需謹慎」，存在誘發急性發作的潛在疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9836360812187196,
+        "rank": 15022
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 為 AVPR2（V2 血管加壓素受體）功能獲得性突變引起，病理核心為腎集尿管對 ADH 過度反應導致低鈉血症。H1 受體拮抗對 V2 受體信號路徑或水通道蛋白調節無已知交互作用，缺乏合理機轉假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "porphyria",
+      "txgnn": {
+        "score": 0.9769175052642822,
+        "rank": 18459
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "紫質症（廣義）涵蓋多種血紅素合成酵素缺陷，與 H1 受體拮抗無直接治療機轉關聯。安全性疑慮同 AIP 條目。TxGNN 高分（0.9769）可能反映與 AIP 條目共享圖譜節點的評分重疊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "schizophrenia",
+      "txgnn": {
+        "score": 0.9717053771018982,
+        "rank": 20618
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19220286",
+            "title": "Histamine H1 receptor blockade predominantly impairs sensory processes in human sensorimotor performance.",
+            "authors": [
+              "van Ruitenbeek P",
+              "Vermeeren A",
+              "Smulders F T Y",
+              "Sambeth A",
+              "Riedel W J"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "2009",
+            "abstract": "Centrally active antihistamines impair cognitive performance, particularly sensorimotor performance. The aim of the present study was to further elucidate the scarcely studied subprocesses involved in sensorimotor performance, which may be affected by H1 receptor blockade. Better knowledge about the cognitive deficits associated with histamine dysfunction can contribute to better treatment of clinical disorders in which histamine hypofunction may be a contributing factor, such as in schizophreni",
+            "classification": {
+              "study_type": "Controlled Human Pharmacodynamic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間接機轉假說：多種非典型抗精神病藥（氯氮平、奧氮平）具高親和力 H1 拮抗活性，提示組織胺系統參與精神症狀調節。然而，唯一相關文獻（PMID 19220286）顯示 H1 阻斷主要「損害」感覺運動處理過程，而非改善精神分裂症症狀；第一代抗組織胺穿越血腦屏障所產生的鎮靜及抗膽鹼效應可能惡化認知功能。機轉關聯為間接且潛在有害，需優先完成安全性評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
+      "txgnn": {
+        "score": 0.9712907671928406,
+        "rank": 20774
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性多小腦迴症伴小腦發育不全及多關節攣縮為神經發育結構異常，由基因（如 TUBB2B、ACTB 等）突變造成，非組織胺路徑可干預。H1 拮抗對已形成的神經結構缺陷無治療機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.9695936441421508,
+        "rank": 21429
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39265704",
+            "title": "Comparative inhibition by oral bilastine, parenteral dexchlorpheniramine, and a new bilastine parenteral (i.v. and i.m.) formulation of histamine-induced wheal and flare response: A randomised phase I trial.",
+            "authors": [
+              "Coimbra Jimena",
+              "Puntes Montserrat",
+              "Molina Pol",
+              "Gich Ignasi",
+              "Antonijoan Rosa"
+            ],
+            "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+            "year": "2024",
+            "abstract": "Bilastine is a well-known non-sedating second-generation antihistamine authorised worldwide for the symptomatic treatment of allergic rhinoconjunctivitis (seasonal and perennial) and urticaria with proven efficacy and good safety and tolerability profile. When the oral route is not suitable or a rapid onset of action is preferred, parenteral formulations represent an effective treatment option. However, the parenteral formulations currently available are sedating antihistamines. The objective of",
+            "classification": {
+              "study_type": "Comparative Clinical Study (RCT-level design)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28601540",
+            "title": "Atrial Fibrillation in Anaphylaxis.",
+            "authors": [
+              "Rojas-Perez-Ezquerra Patricia",
+              "Noguerado-Mellado Blanca",
+              "Morales-Cabeza Cristina",
+              "Zambrano Ibarra Gabriela",
+              "Datino Romaniega Tomas"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "2017",
+            "abstract": "The relationship between anaphylaxis and cardiovascular events has been reported in the past. While skin and respiratory symptoms are usually the most common and the first to appear, cardiovascular complications play a key role and represent the leading cause of death in anaphylaxis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29723372",
+            "title": "Suppression of wheal and flare in histamine test by the main H1 antihistamines commercialized in Brazil.",
+            "authors": [
+              "Maciel-Guerra Helena",
+              "Penha Mariana Álvares",
+              "Jorge Marília Formentini Scotton",
+              "Libório Ricardo da Silva",
+              "Carrijo Ana Cláudia Nazareno Dos Anjos"
+            ],
+            "journal": "Anais brasileiros de dermatologia",
+            "year": "2018",
+            "abstract": "Several dermatoses are mediated by histamine, such as urticaria, angioedema, and papular urticaria. There are no Brazilian studies comparing the potency of antihistamines.",
+            "classification": {
+              "study_type": "Comparative Clinical Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26179134",
+            "title": "Palpebral angioedema and allergic contact dermatitis caused by a cerumenolytic.",
+            "authors": [
+              "Caralli María E",
+              "Seoane Rodríguez Marta",
+              "Rojas Pérez-Ezquerra Patricia",
+              "Pelta Fernández Roberto",
+              "De Barrio Fernández Manuel"
+            ],
+            "journal": "Contact dermatitis",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39803",
+            "title": "[Clinical and immunological studies on acquired heat contact urticaria (author's transl)].",
+            "authors": [
+              "Wüthrich B"
+            ],
+            "journal": "Dermatologica",
+            "year": "1979",
+            "abstract": "A case of localized urticaria in an otherwise healthy young woman, produced only by direct contact of the skin with heat, is described. The minimal temperature of urtication was 44 degrees C (immersion of the forearm in hot water for 5 min). Redness and painful oedema immediately developed without reflex flare. Total serum IgG, IgA, IgM, IgE, complement factors C3 and C4, and alpha1-antitrypsin were in the normal range, whereas the C1-inhibitor level was slightly decreased. There was no evidence",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2523357",
+            "title": "Inhibition of human eosinophil chemotaxis and of the IgE-dependent stimulation of human blood platelets by cetirizine.",
+            "authors": [
+              "De Vos C",
+              "Joseph M",
+              "Leprevost C",
+              "Vorng H",
+              "Tomassini M"
+            ],
+            "journal": "International archives of allergy and applied immunology",
+            "year": "1989",
+            "abstract": "Cetirizine is a new anti-allergic compound with a potent, long-acting, and specific antihistaminic property. Strongly active in the therapy of urticaria and seasonal or perennial rhinitis, it has been shown to inhibit the in vivo eosinophil attraction at skin sites challenged with allergen in atopic patients. In the present work, we confirmed that, at a therapeutical concentration, this molecule had a potent inhibitory action in vitro on eosinophil chemotaxis induced either by N-formyl-Met-Leu-P",
+            "classification": {
+              "study_type": "In vitro / Mechanistic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "最強機轉關聯：Dexchlorpheniramine 直接拮抗皮膚肥大細胞脫顆粒後釋出的組織胺與 H1 受體結合，阻斷血管擴張、通透性增加及搔癢訊號傳導，為過敏性蕁麻疹的核心病理機轉。附加效益包含抑制嗜酸性球趨化（PMID 2523357）及 IgE 依賴性血小板活化。TxGNN 分數 0.9696 反映藥物-疾病圖譜的強關聯。注意事項：現行指引多優先推薦第二代（非鎮靜型）抗組織胺為第一線；第一代藥物因 CNS 鎮靜及抗膽鹼效應，限用於急性期或注射劑型情境。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "syndromic myopia",
+      "txgnn": {
+        "score": 0.9682888984680176,
+        "rank": 21846
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "症候群性近視多由系統性遺傳症候群（如 Stickler, Marfan, 先天性靜態夜盲等）伴發，為結構性/基因性眼科異常，與 H1 受體拮抗無治療機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "atypical glycine encephalopathy",
+      "txgnn": {
+        "score": 0.967495858669281,
+        "rank": 22073
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非典型甘胺酸腦病為 GLDC/AMT/GCSH 基因突變導致的甘胺酸代謝障礙，神經毒性源自腦脊液中甘胺酸累積並過度活化 NMDA 受體。H1 受體拮抗對甘胺酸裂解系統或 NMDA 訊號路徑無直接調節效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "myopia 26, X-linked, female-limited",
+      "txgnn": {
+        "score": 0.9670896530151368,
+        "rank": 22199
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "X 連鎖女性限制性近視（OMIM #300777）為罕見單基因遺傳性屈光異常，為結構性眼科疾病，與 H1 受體拮抗無治療機轉關聯。TxGNN 高分可能源自近視相關節點群聚效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myopia X-linked",
+      "txgnn": {
+        "score": 0.966139554977417,
+        "rank": 22503
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "X 連鎖遺傳性近視（OMIM #310460, Bornholm Eye Disease）為 RPGR 基因相關的遺傳性眼病，兼有視網膜色素上皮病變，為結構性基因疾病，與 H1 受體拮抗無治療機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "acute intermittent porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "acute intermittent porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "acute intermittent porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "schizophrenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "schizophrenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "schizophrenia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "syndromic myopia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "syndromic myopia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "syndromic myopia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "atypical glycine encephalopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "atypical glycine encephalopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "atypical glycine encephalopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "myopia 26, X-linked, female-limited"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "myopia 26, X-linked, female-limited"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "myopia 26, X-linked, female-limited"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "myopia X-linked"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "myopia X-linked"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dexchlorpheniramine maleate",
+        "disease": "myopia X-linked"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

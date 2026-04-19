@@ -1,0 +1,442 @@
+# Imipenem (DB01598) 藥物再利用證據分析
+
+以下為完整的結構化證據等級評估：
+
+```json
+{
+  "drug": "Imipenem",
+  "drugbank_id": "DB01598",
+  "analysis_date": "2026-04-04",
+  "drug_class": "碳青黴烯類 β-lactam 抗生素",
+  "known_moa": "結合青黴素結合蛋白（PBPs）→ 抑制細菌細胞壁合成 → 廣效殺菌",
+  "market_note": "本地市場未上市（未上市），但全球已廣泛使用，安全性資料充足",
+  "indications": [
+    {
+      "disease_name": "diffuse scleroderma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫性硬皮症為自體免疫纖維化疾病，Imipenem 為抗菌藥物，兩者無直接機轉關聯。雖有假說認為腸道微生物失調可能參與硬皮症病理，但目前無任何臨床或前臨床資料支持碳青黴烯類對此疾病有治療效益。TxGNN 高分（0.9999）可能為圖譜中的偽關聯（spurious association）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機轉連結不合理", "純預測性證據", "自體免疫疾病使用廣效抗生素具潛在腸道菌叢破壞風險"]
+    },
+    {
+      "disease_name": "paratyphoid fever",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Imipenem 對 Salmonella paratyphi（A、B、C 型）具有體外殺菌活性，透過廣泛結合 PBP1a、PBP1b、PBP2 達成細胞壁合成阻斷。對多重抗藥性（MDR）或喹諾酮抗藥性菌株具救援治療潛力，尤其在 A 型副傷寒流行地區（南亞、東南亞）。然而，碳青黴烯類非副傷寒現行治療指引一線藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9459410",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "喹諾酮抗藥性 Salmonella paratyphi B 腦膜炎新生兒個案（1997），Imipenem 作為成功替代治療，為最直接的個案臨床證據"
+        },
+        {
+          "pmid": "22204180",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "notes": "傷寒沙門氏菌對新型抗菌藥物（含 imipenem）的體外敏感性測試（2011），確認體外活性但無臨床療效數據"
+        },
+        {
+          "pmid": "33042671",
+          "study_type": "Retrospective Observational",
+          "tier": "3",
+          "notes": "Salmonella Typhi 及 Paratyphi 抗生素敏感性模式分析（2020），提供 imipenem 敏感率背景數據"
+        },
+        {
+          "pmid": "35891850",
+          "study_type": "Epidemiological Surveillance",
+          "tier": "3",
+          "notes": "XDR 傷寒沙門氏菌流行病學調查（2022），涉及 carbapenem 作為保留用藥的脈絡，間接佐證"
+        }
+      ],
+      "evidence_gap": "缺乏隨機對照試驗或前瞻性臨床研究；副傷寒臨床試驗文獻嚴重不足",
+      "risk_flags": ["仍需體內模型驗證", "副作用監測（腎毒性）需重點評估"]
+    },
+    {
+      "disease_name": "salmonellosis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Imipenem 對廣泛沙門氏菌血清型（含非傷寒型 NTS）具高效殺菌活性，MIC 值普遍低（≤1 μg/mL）。對喹諾酮、第三代頭孢菌素抗藥性菌株具重要救援角色。1986 年已有小兒科臨床評估資料，1998 年有 LPS 釋放機轉研究。侵入性 NTS 菌血症（尤其免疫低下者）為最明確的臨床使用場景。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2945941",
+          "study_type": "Clinical Evaluation (Pediatric)",
+          "tier": "2",
+          "notes": "日本 1986 年小兒科 imipenem/cilastatin 基礎與臨床系統性評估，包含沙門氏菌感染案例，為最早直接臨床依據"
+        },
+        {
+          "pmid": "3469191",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "notes": "Imipenem/cilastatin 對院內感染及多重抗藥菌的臨床評估（1986），涵蓋腸道革蘭陰性菌感染"
+        },
+        {
+          "pmid": "12917244",
+          "study_type": "In vitro Comparative Study",
+          "tier": "3",
+          "notes": "Imipenem vs faropenem 對環丙沙星抗藥菌（含 Salmonella）的體外活性比較（2003）"
+        },
+        {
+          "pmid": "9559775",
+          "study_type": "Mechanistic Study",
+          "tier": "3",
+          "notes": "Imipenem 殺菌後 Salmonella typhi 釋放 LPS 的動態機轉研究（1998），對臨床反應（如 Jarisch-Herxheimer）有意義"
+        },
+        {
+          "pmid": "14659660",
+          "study_type": "In vitro Combination Study",
+          "tier": "3",
+          "notes": "Imipenem 聯合頭孢他啶、培氟沙星對腸道菌的體外活性研究（2003）"
+        },
+        {
+          "pmid": "38984026",
+          "study_type": "Retrospective Epidemiological",
+          "tier": "3",
+          "notes": "中國兒童食源性沙門氏菌病藥物抗藥性分析（2024），確認 imipenem 對多重抗藥菌株仍維持高敏感率"
+        },
+        {
+          "pmid": "41277208",
+          "study_type": "Cross-sectional",
+          "tier": "3",
+          "notes": "非傷寒型沙門氏菌病流行率及 AMR 模式（2025），imipenem 敏感性現況數據"
+        }
+      ],
+      "guardrails": [
+        "僅限 MDR/XDR 菌株且其他治療選項失效時使用",
+        "需微生物學確認及敏感性測試支持",
+        "注意碳青黴烯類保留策略（antimicrobial stewardship）",
+        "治療期間監測腎功能（Imipenem 具腎毒性）"
+      ]
+    },
+    {
+      "disease_name": "sinusitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鼻竇炎常見病原菌（Streptococcus pneumoniae、Haemophilus influenzae、Moraxella catarrhalis 及少數 Pseudomonas、厭氧菌）均在 imipenem 廣效覆蓋範圍內。複雜性鼻竇炎（眶周蜂窩織炎、顱內擴展）或免疫缺陷患者的 MDR 病原感染為最可能的臨床應用場景。Imipenem 在鼻竇組織的藥動學分佈（PK/PD）資料有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3210301",
+          "study_type": "Pharmacokinetic/Clinical Study",
+          "tier": "2",
+          "notes": "Imipenem/cilastatin 在新生兒及早產兒的藥動學與臨床研究（1988），包含上呼吸道及耳鼻喉感染案例，提供基礎 PK/PD 參數"
+        },
+        {
+          "pmid": "34607790",
+          "study_type": "Retrospective Clinical Study",
+          "tier": "2",
+          "notes": "急慢性鼻竇炎特徵、病因及抗生素療效差異比較（2023），Imipenem 出現於複雜病例的治療選項"
+        },
+        {
+          "pmid": "38617893",
+          "study_type": "Clinical Observational",
+          "tier": "2",
+          "notes": "惡性腫瘤及免疫缺陷兒童副鼻竇感染微生物學研究（2024），免疫缺陷群體中 MDR 菌的 carbapenem 需求"
+        },
+        {
+          "pmid": "12953957",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "Flavimonas oryzihabitans 引起的鼻竇炎合併菌血症個案（2003），Imipenem 治療成功"
+        },
+        {
+          "pmid": "26471040",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "Nocardia nova 蝶竇炎及顱底膿腫個案（2016），Imipenem 為治療方案之一"
+        },
+        {
+          "pmid": "16200963",
+          "study_type": "Bacteriological Study",
+          "tier": "3",
+          "notes": "慢性鼻竇炎細菌學研究（2005），確認致病菌對 imipenem 敏感性模式"
+        }
+      ],
+      "evidence_gap": "缺乏針對鼻竇炎的前瞻性 RCT；現有證據集中於個案報告及細菌學研究",
+      "risk_flags": ["carbapenem 用於鼻竇炎需嚴格限於複雜性/MDR 病例", "過度使用風險（antimicrobial overuse）"]
+    },
+    {
+      "disease_name": "chronic rhinosinusitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "慢性鼻竇炎（CRS）常為多菌或生物膜相關感染，典型致病菌包含 Staphylococcus aureus（含 MRSA）、Pseudomonas aeruginosa、厭氧菌及真菌。Imipenem 對 MSSA 及 Pseudomonas 有效，但對 MRSA 活性受限。體外研究顯示 imipenem 聯合銀奈米粒子可增強抗生物膜效果，但臨床轉化可行性不明。難治性 CRS（尤其伴發免疫缺陷）為潛在使用場景。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37042371",
+          "study_type": "Cross-sectional Bacteriological",
+          "tier": "3",
+          "notes": "CRS 門診病例細菌菌叢及抗生素敏感性分析（2022），imipenem 在難治菌株中保持高敏感率"
+        },
+        {
+          "pmid": "27192905",
+          "study_type": "Retrospective Study",
+          "tier": "3",
+          "notes": "CRS（含息肉）細菌分布及藥敏測試（2016），比較不同 CRS 亞型的致病菌敏感性差異"
+        },
+        {
+          "pmid": "34844745",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "notes": "銀奈米粒子與抗生素（含 imipenem）聯合抗 MRSA 生物膜效果（2022），提供生物膜相關 CRS 的機轉假設"
+        },
+        {
+          "pmid": "40697614",
+          "study_type": "Retrospective Observational",
+          "tier": "3",
+          "notes": "糖尿病患者 CRS 鼻分泌物培養結果分析（2025），高風險族群中 MDR 菌的盛行率及 carbapenem 需求"
+        }
+      ],
+      "evidence_gap": "無針對 CRS 的 imipenem 臨床試驗；生物膜研究目前停留於體外階段",
+      "risk_flags": ["長期 carbapenem 治療的抗藥性誘導風險", "需明確 MRSA 陰性才建議使用"]
+    },
+    {
+      "disease_name": "typhoid fever",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Imipenem 對 Salmonella typhi 具有高效殺菌活性，對 ESBL 及 AmpC 陽性菌株有效。在廣泛抗藥性傷寒（XDR typhoid，定義：對氨苄西林、氯黴素、TMP-SMX、氟喹諾酮及第三代頭孢菌素均抗藥）中，碳青黴烯類為極少數保留有效選項之一。2025 年已有回顧性臨床研究（Hayatabad Medical Complex）記錄碳青黴烯類在 XDR 傷寒實際臨床結果；2022 年有單藥與聯合治療比較研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39991360",
+          "study_type": "Retrospective Clinical Study",
+          "tier": "2",
+          "notes": "2025 年巴基斯坦 Hayatabad Medical Complex 碳青黴烯類治療 XDR 傷寒回顧性研究，最直接的臨床療效數據，確認 imipenem/meropenem 作為最終防線的實際使用情況"
+        },
+        {
+          "pmid": "36277244",
+          "study_type": "Retrospective Clinical Comparison",
+          "tier": "2",
+          "notes": "XDR Salmonella typhi 單藥 vs 聯合藥物治療比較（2022），比較包含碳青黴烯類的組合方案療效，提供臨床決策依據"
+        },
+        {
+          "pmid": "40212028",
+          "study_type": "Population-based Epidemiological Study",
+          "tier": "2",
+          "notes": "巴基斯坦腸熱趨勢及 XDR 傷寒流行病學（2025），確立 carbapenem 臨床需求的公衛背景"
+        },
+        {
+          "pmid": "37528007",
+          "study_type": "Clinical Cohort",
+          "tier": "2",
+          "notes": "侵入性非傷寒型沙門氏菌感染兒童臨床特徵及抗藥性模式（2023），交叉適用於 S. typhi 處理原則"
+        },
+        {
+          "pmid": "37654037",
+          "study_type": "Retrospective Observational",
+          "tier": "3",
+          "notes": "S. Typhi 及 Paratyphi 抗藥性模式（2023），確認 XDR 菌株對 imipenem 仍保持敏感"
+        },
+        {
+          "pmid": "35797697",
+          "study_type": "Molecular Epidemiology",
+          "tier": "3",
+          "notes": "ESBL 編碼基因在 S. Typhi 的分布（2022），解釋 β-lactam 抗藥機轉，鑑別 imipenem 優勢"
+        }
+      ],
+      "guardrails": [
+        "僅限 XDR 或 PDR 傷寒（其他一線、二線藥物失效）",
+        "需以藥敏結果確認 carbapenem 敏感性",
+        "建議傳染病專科醫師會診",
+        "注意 carbapenem 保留策略（全球 AMR 防控考量）",
+        "治療期間監測腎功能及神經毒性（癲癇風險）"
+      ]
+    },
+    {
+      "disease_name": "chronic ethmoidal sinusitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性篩竇炎為鼻竇炎解剖學亞型，Imipenem 理論上可覆蓋相關病原菌。然而，本資料集中僅有 1 篇間接文獻（慢性鼻竇炎細菌學通論研究，非針對篩竇炎），且無任何臨床試驗，實質上等同於純預測。在 TxGNN 知識圖譜中，此病症可能因與「sinusitis」及「chronic rhinosinusitis」的解剖/本體論關係而獲得高分，而非獨立生物學證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16200963",
+          "study_type": "Bacteriological Study",
+          "tier": "3",
+          "notes": "慢性鼻竇炎（含篩竇）細菌學通論研究（2005），非針對慢性篩竇炎的專門研究，證據特異性極低"
+        }
+      ],
+      "risk_flags": ["證據高度依賴鄰近疾病的外推", "不足以啟動獨立研究計畫"]
+    },
+    {
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "副鼻竇腫瘤為惡性腫瘤，Imipenem 為抗菌藥物，無任何已知抗腫瘤機轉。雖然某些抗生素（如蒽環黴素類）具抗腫瘤活性，但碳青黴烯類目前無此類研究報告。TxGNN 高分（0.9998）最可能源於知識圖譜中「副鼻竇」解剖位置的連結（副鼻竇感染 → 副鼻竇腫瘤的鄰近性），而非真實生物學機轉。此為典型知識圖譜預測的假陽性案例。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "機轉完全不合理（抗菌藥物 vs 腫瘤）",
+        "知識圖譜解剖位置偽關聯風險",
+        "任何後續開發投資均無科學依據"
+      ]
+    },
+    {
+      "disease_name": "staphylococcus aureus infection",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Imipenem 對 MSSA（甲氧西林敏感金黃色葡萄球菌）具高效殺菌活性（結合 PBP1、PBP2、PBP3）。對 MRSA 的直接活性受限（mecA 編碼之 PBP2a 對 β-lactam 親和力低），但 Fosfomycin + Imipenem 聯合方案已有機轉佐證：Fosfomycin 干擾細胞壁前體（UDP-MurNAc）合成，可暫時降低 PBP2a 表達，增強 Imipenem 的殺菌效果（協同作用，synergistic bactericidal activity），多個體外及 Phase 4 臨床研究支持此組合。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00871104",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 已完成試驗（N=50），直接測試 Fosfomycin + Imipenem 聯合治療甲氧西林抗藥性金黃色葡萄球菌（MRSA）感染。為整個資料集中最直接、最高質量的臨床試驗證據，完整性高。"
+        },
+        {
+          "nct_id": "NCT01356472",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 試驗（N=60），直接比較 Linezolid 單藥 vs 聯合碳青黴烯類（含 Imipenem）治療 MRSA 感染的療效。高度直接相關，但狀態為 UNKNOWN，結果完整性存疑，需謹慎解讀。"
+        },
+        {
+          "nct_id": "NCT00707239",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 雙盲隨機對照試驗（N=108），比較 2 種劑量方案治療 S. aureus 感染。設計嚴謹但已終止（TERMINATED），缺乏完整療效數據，降低其證據價值。"
+        },
+        {
+          "nct_id": "NCT04292054",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 燒傷切除移植手術抗菌預防試驗（N=506，RECRUITING），Imipenem 為研究藥物選項之一，S. aureus 為主要預防目標菌。間接支持安全性及預防性使用，非治療適應症直接證據。"
+        },
+        {
+          "nct_id": "NCT06743529",
+          "relevance_grade": "B",
+          "reasoning": "呼吸器相關肺炎（VAP）即時 vs 確認抗菌治療比較試驗（N=686，RECRUITING），S. aureus 為重要病原菌，Imipenem 為可能治療藥物。支持 S. aureus 感染中 imipenem 使用情境，但非主要研究問題。"
+        },
+        {
+          "nct_id": "NCT06634940",
+          "relevance_grade": "C",
+          "reasoning": "肝硬化相關感染 AMR 國際監測研究（N=1000，RECRUITING），非介入性治療試驗，僅提供 S. aureus AMR 流行病學背景，間接支持 imipenem 臨床需求。"
+        },
+        {
+          "nct_id": "NCT06044272",
+          "relevance_grade": "C",
+          "reasoning": "哥倫比亞醫療機構 AMR 回顧性研究（N=10000，COMPLETED），為監測研究，確認 S. aureus AMR 現況，提供背景脈絡但非療效證據。"
+        },
+        {
+          "nct_id": "NCT03218397",
+          "relevance_grade": "C",
+          "reasoning": "革蘭陰性菌血症快速 ID 及藥敏測試試驗（N=500，COMPLETED），主要針對革蘭陰性菌，與 S. aureus（革蘭陽性）的治療相關性低，降至 C 級。"
+        },
+        {
+          "nct_id": "NCT06174649",
+          "relevance_grade": "C",
+          "reasoning": "革蘭陰性菌血症快速藥敏測試試驗（N=900，COMPLETED），同為診斷最佳化研究且針對革蘭陰性菌，與 S. aureus 感染治療的直接相關性低。"
+        },
+        {
+          "nct_id": "NCT02449031",
+          "relevance_grade": "C",
+          "reasoning": "囊性纖維化患者慢性 Pseudomonas 感染觀察性研究（N=409，COMPLETED），主要研究綠膿桿菌，S. aureus 為次要考量，與本適應症直接相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3460521",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "notes": "Imipenem-cilastatin 治療 MSSA 及 MRSA 感染的早期臨床研究（1986），確認 imipenem 對 S. aureus 感染的臨床療效，歷史性直接臨床證據"
+        },
+        {
+          "pmid": "33020155",
+          "study_type": "Case Commentary",
+          "tier": "3",
+          "notes": "Imipenem/Cilastatin + Fosfomycin 治療難治性 MRSA 感染個案評述（2020），詳細分析聯合治療機轉與臨床結果"
+        },
+        {
+          "pmid": "6421794",
+          "study_type": "Animal Model",
+          "tier": "3",
+          "notes": "Imipenem 治療實驗性 S. aureus 心內膜炎動物模型（1983），最早的機轉驗證研究，奠定 imipenem 對 S. aureus 的抗菌效果基礎"
+        },
+        {
+          "pmid": "14618340",
+          "study_type": "Animal Model",
+          "tier": "3",
+          "notes": "Imipenem 靜注治療實驗性 S. aureus 眼內炎動物模型（2003），確認眼內組織的 imipenem 抗菌效果"
+        },
+        {
+          "pmid": "22196394",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "MRSA 病理機轉、治療選項及抗藥性機制綜述（2012），提供 carbapenem 在 MRSA 治療中定位的系統性脈絡"
+        },
+        {
+          "pmid": "39548455",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "notes": "Imipenem 與 Fucoidan 及 Gentamicin 聯合的抗菌及抗生物膜協同效果（體外，2024），支持聯合用藥策略"
+        },
+        {
+          "pmid": "36500645",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "notes": "Syzygium aromaticum 精油與 imipenem 對 S. aureus 的協同效果（體外，2022），探索天然物聯合強化 imipenem 活性"
+        }
+      ],
+      "guardrails": [
+        "MSSA 感染：可作為 β-lactam 替代選項，但需考量窄效抗生素優先原則",
+        "MRSA 感染：僅限 Fosfomycin+Imipenem 聯合方案，需有藥敏確認",
+        "Phase 4 試驗樣本量小（N=50-60），需更大規模研究支持前推薦",
+        "Antimicrobial stewardship：碳青黴烯類保留策略下，需感染科專科監督",
+        "監測項目：腎功能（每 48-72 小時）、癲癇閾值（尤其腎功能不全患者）"
+      ]
+    },
+    {
+      "disease_name": "eosinophilia-myalgia syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嗜酸性粒細胞增多-肌痛症候群（EMS）主要由受污染的 L-色胺酸補充品引起，病理機轉涉及毒性代謝物誘發嗜酸性粒細胞浸潤及 TGF-β 介導纖維化。Imipenem 為抗菌藥物，無已知嗜酸性粒細胞調節或抗纖維化機轉。值得注意的是，β-lactam 抗生素（包含 imipenem）本身偶可誘發藥物性嗜酸性粒細胞增多症（drug-induced eosinophilia），此與治療 EMS 目標相悖，使用可能加重病情。此為知識圖譜預測的典型偽關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "機轉完全不合理，甚至潛在加重疾病風險",
+        "β-lactam 本身可誘發藥物性嗜酸性粒細胞增多",
+        "EMS 極罕見，研究人群招募困難",
+        "任何後續開發投資均無科學依據"
+      ]
+    }
+  ],
+  "summary": {
+    "L2_indications": ["staphylococcus aureus infection"],
+    "L3_indications": ["salmonellosis", "typhoid fever"],
+    "L4_indications": ["paratyphoid fever", "sinusitis", "chronic rhinosinusitis"],
+    "L5_indications": ["diffuse scleroderma", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"],
+    "proceed_with_guardrails": ["staphylococcus aureus infection", "salmonellosis", "typhoid fever"],
+    "research_question": ["paratyphoid fever", "sinusitis", "chronic rhinosinusitis"],
+    "hold": ["diffuse scleroderma", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"],
+    "key_insight": "Imipenem 為廣效碳青黴烯抗生素，其再利用價值集中於 MDR/XDR 細菌感染場景，而非非感染性疾病。最具開發價值的適應症為 MRSA 感染（Fosfomycin 聯合方案，有 Phase 4 完成證據）及 XDR 傷寒/沙門氏菌病（最後防線治療）。副鼻竇腫瘤、硬皮症及嗜酸性粒細胞增多-肌痛症候群均缺乏合理機轉，建議放棄。"
+  }
+}
+```
+
+---
+
+## 📊 快速決策矩陣
+
+| 疾病 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|------|---------|---------|------|---------|
+| **S. aureus 感染** | **L2** | S2 | ✅ Proceed with Guardrails | Phase 4 完成試驗（NCT00871104，N=50）；Fosfomycin+Imipenem 聯合 MRSA 方案 |
+| **沙門氏菌病** | **L3** | S2 | ✅ Proceed with Guardrails | 1986 臨床評估數據 + 20 篇文獻；MDR 救援用藥已有臨床脈絡 |
+| **傷寒** | **L3** | S2 | ✅ Proceed with Guardrails | 2025 回顧性研究（XDR 傷寒最後防線）；碳青黴烯類實際使用數據 |
+| 副傷寒 | L4 | S1 | 🔍 Research Question | 4 篇間接文獻；1 個案報告有效使用 |
+| 鼻竇炎 | L4 | S1 | 🔍 Research Question | 個案報告 + PK 研究；複雜性/MDR 病例有應用空間 |
+| 慢性鼻竇炎 | L4 | S1 | 🔍 Research Question | 抗藥性資料 + 體外研究；缺乏臨床試驗 |
+| 慢性篩竇炎 | L5 | S0 | ⛔ Hold | 僅 1 篇間接文獻；等同純預測 |
+| 副鼻竇腫瘤 | L5 | S0 | ⛔ Hold | 無任何證據；機轉不合理（抗菌藥 vs 腫瘤）|
+| 瀰漫性硬皮症 | L5 | S0 | ⛔ Hold | 無任何證據；自體免疫疾病機轉不合理 |
+| EMS | L5 | S0 | ⛔ Hold | 無任何證據；β-lactam 可能**加重**嗜酸性粒細胞增多 |
+
+> ⚠️ **重要聲明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選適應症需經正式臨床驗證方可應用。Imipenem 為需嚴格抗菌藥物管理（Antimicrobial Stewardship）監督的保留用藥。

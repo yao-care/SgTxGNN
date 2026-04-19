@@ -1,0 +1,328 @@
+```json
+{
+  "drug": "Azithromycin",
+  "drugbank_id": "DB00207",
+  "analysis_date": "2026-04-10",
+  "data_quality_flags": [
+    "original_indications 為空陣列 — 與已知藥物用途不符，疑為資料缺口",
+    "original_moa 標記為 [Data Gap] — 實際 MoA 為抑制細菌 50S 核糖體蛋白合成 + 免疫調節",
+    "market_status '未上市' 與全球（含新加坡）實際上市狀態不符，建議核查當地藥監資料"
+  ],
+  "indications": [
+    {
+      "disease_name": "hyperamylasemia",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無正向機轉支持。Azithromycin 已知副作用包括胰臟炎，可引起血清澱粉酶升高，屬致病因子而非治療藥物。TxGNN 高分可能源於知識圖譜中藥物–疾病共現噪訊，為假陽性預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純模型預測，無任何臨床或基礎研究支持；藥理面有反向安全顧慮。"
+    },
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Polyclonal hyperviscosity 主要由免疫球蛋白大量增生所致（如 IgM 型），其病因為漿細胞異常增殖或慢性炎症。Azithromycin 之抗生素與免疫調節機轉對血液黏稠度無直接調控路徑可循。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純模型預測，缺乏文獻與試驗支持。高 TxGNN 分可能來自血液病相關節點的圖譜連結擴散效應。"
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症為 ALB 基因突變導致的超稀有遺傳病，無法由抗生素或免疫調節藥物修正。Azithromycin 對白蛋白合成無已知影響路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純模型預測，疾病本質（基因缺陷）與藥物機轉完全不匹配。"
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Punctate epithelial keratoconjunctivitis（點狀上皮角膜結膜炎）可由微孢子蟲（Microsporidia）感染引起，尤其在免疫抑制患者中。Azithromycin 對 Encephalitozoon 屬具有體外抗微孢子蟲活性，已見於臨床個案報告。此外，azithromycin 的抗炎與黏膜免疫調節機轉亦可能緩解眼表炎症反應。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32826651",
+          "title": "Dual Molecular Diagnosis of Microsporidia (Encephalitozoon hellem) Keratoconjunctivitis in an Immunocompromised Patient",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "直接相關——報告免疫抑制患者感染 Encephalitozoon hellem 造成角膜結膜炎，Azithromycin 為微孢子蟲感染之常用選項。惟個案等級證據薄弱，需更多系列報告或前瞻性研究驗證療效。"
+        }
+      ],
+      "evidence_summary": "僅有 1 篇個案報告支持間接關聯（微孢子蟲感染情境）。Azithromycin 對微孢子蟲的抗菌機轉提供合理生物學連結，但尚無 RCT 或系列試驗。建議聚焦「免疫抑制患者微孢子蟲性角膜結膜炎」為具體研究問題。"
+    },
+    {
+      "disease_name": "blood group incompatibility",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血型不相容（ABO/Rh 溶血反應）屬免疫介導之同種異體反應，核心機轉為抗原–抗體補體活化，Azithromycin 對此無已知干預路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純模型預測，病理機轉與藥物作用不匹配。"
+    },
+    {
+      "disease_name": "premalignant hematological system disease",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "預惡性血液疾病（如 MDS、MGUS）之病程主要由克隆演化驅動。雖然巨環類抗生素具免疫調節功能，但對克隆造血無直接抑制證據。此預測可能源於 Azithromycin 在 MGUS/MM 相關文獻中的共現，而非直接治療關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純模型預測，缺乏任何臨床或基礎研究支持。"
+    },
+    {
+      "disease_name": "monoclonal gammopathy",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "關鍵機轉連結來自 PMID 23546223：巨環類抗生素（包括 Azithromycin）可阻斷自噬通量（autophagy flux）並誘導內質網壓力（ER stress），使骨髓瘤細胞對蛋白酶體抑制劑（Bortezomib）的敏感性增加。此協同效應提示 Azithromycin 可作為多發性骨髓瘤聯合治療之增敏劑，而非單藥治療。其餘 6 篇文獻主要涉及 MGUS/MM 患者的感染併發症（Bartonella、Legionella），Azithromycin 用於抗感染，不構成對 MGUS 本身的治療證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23546223",
+          "title": "Macrolide antibiotics block autophagy flux and sensitize to bortezomib via endoplasmic reticulum stress",
+          "year": "2013",
+          "study_type": "Preclinical (in vitro / cell line)",
+          "tier": 3,
+          "relevance": "核心機轉證據——直接展示巨環類（含 Azithromycin）在骨髓瘤細胞株中的自噬阻斷與增敏效果，為後續臨床轉化提供分子基礎。"
+        },
+        {
+          "pmid": "33389938",
+          "title": "Bartonella henselae Neuroretinitis: A Rare Coinfection in POEMS Syndrome",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "間接相關——Azithromycin 用於 POEMS 患者的 Bartonella 感染，非針對單克隆球蛋白病本身。"
+        },
+        {
+          "pmid": "17609324",
+          "title": "Community-acquired lung abscess caused by Legionella micdadei in a myeloma patient receiving thalidomide",
+          "year": "2007",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "間接相關——用於骨髓瘤患者的感染併發症，非主要適應症治療。"
+        },
+        {
+          "pmid": "18355359",
+          "title": "Subcorneal pustular dermatosis: 50 years on",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低度相關——僅描述 SPD 與 IgA 單克隆球蛋白病的共病現象，未涉及 Azithromycin。"
+        },
+        {
+          "pmid": "32708858",
+          "title": "A Patient with Cryoglobulinemic MPGN Who Survived COVID-19 Disease",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低度相關——COVID-19 情境下的冷球蛋白血症患者管理，Azithromycin 角色不明確。"
+        },
+        {
+          "pmid": "22825522",
+          "title": "Treatment of osteonecrosis of the jaw (ONJ) by medical ozone gas insufflation",
+          "year": "2012",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低度相關——ONJ 為 MGUS/MM 治療副作用，Azithromycin 非主要干預。"
+        },
+        {
+          "pmid": "15526516",
+          "title": "Multiple myeloma in remission complicated by bone marrow granulomas",
+          "year": "2003",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "無直接相關——骨髓瘤緩解期骨髓肉芽腫，未明確涉及 Azithromycin。"
+        }
+      ],
+      "evidence_summary": "7 篇文獻中僅 1 篇（PMID 23546223）具直接機轉意義，屬體外預臨床證據（L4）。其餘文獻均為感染併發症情境下的 Azithromycin 使用，不構成對 MGUS 本身的療效支持。建議研究問題定位為「Azithromycin 作為 Bortezomib 增敏劑用於多發性骨髓瘤」，需進行體外驗證後設計 Phase 1 聯合治療試驗。"
+    },
+    {
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此類疾病（如 POEMS 症候群相關神經病變、副蛋白血症神經病變）的病理機轉為副蛋白直接損傷神經髓鞘，Azithromycin 對副蛋白生成或周邊神經修復無已知干預路徑。需注意 Azithromycin 本身具心臟毒性（QTc 延長），在神經病變患者群中安全性需額外評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純模型預測，缺乏文獻與試驗支持，且存在已知心臟安全顧慮。"
+    },
+    {
+      "disease_name": "septicemic plague",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "敗血性鼠疫由 Yersinia pestis 引起。PMID 8540736 展示 Azithromycin 對 Y. pestis 的體外抗菌活性（MIC 資料）。巨環類抗生素的細胞內濃縮特性（組織藥物濃度可達血清 10–100 倍）理論上有利於殺滅已被吞噬的 Y. pestis。然而，鼠疫現行標準治療為 Streptomycin、Gentamicin 或 Doxycycline，Azithromycin 定位為替代選項（如對標準藥物不耐受或短缺情境）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8540736",
+          "title": "In vitro antimicrobial susceptibilities of strains of Yersinia pestis",
+          "year": "1995",
+          "study_type": "In vitro susceptibility study",
+          "tier": 3,
+          "relevance": "核心間接證據——直接測試 Y. pestis 對 Azithromycin 的 MIC，提供抗菌活性的體外基礎，惟缺乏動物模型或臨床資料。"
+        },
+        {
+          "pmid": "12698575",
+          "title": "Efficacy of some new antibiotics in treating experimental brucellosis",
+          "year": "2002",
+          "study_type": "Animal model study",
+          "tier": 3,
+          "relevance": "低度間接相關——Brucella 屬革蘭氏陰性細胞內菌，與 Y. pestis 生物學特性相似，Azithromycin 在動物模型中顯示效果，間接支持其對 Y. pestis 感染的潛力。"
+        },
+        {
+          "pmid": "19392866",
+          "title": "Systematic review: the epidemiology and clinical features of travellers' diarrhoea",
+          "year": "2009",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "relevance": "低度相關——涉及 Azithromycin 用於旅行者腹瀉（含 Campylobacter），與敗血性鼠疫無直接關聯。"
+        },
+        {
+          "pmid": "31778198",
+          "title": "Biomedical Response to Neisseria gonorrhoeae and Other STIs in the US Military",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "無直接相關——涉及 STI 情境中的 Azithromycin 使用。"
+        },
+        {
+          "pmid": "10628822",
+          "title": "Tropical and exotic infections proceedings",
+          "year": "2000",
+          "study_type": "Conference Proceedings",
+          "tier": 3,
+          "relevance": "低度相關——熱帶感染症概論，間接提及 Azithromycin 在多種感染中的角色。"
+        }
+      ],
+      "evidence_summary": "有 1 篇體外抗菌活性研究（PMID 8540736）提供直接間接證據（L4）。在生物恐怖主義或鼠疫爆發情境下，Azithromycin 可作為備選藥物研究標的，但須先完成動物感染模型驗證，再評估人體 PK/PD。不建議單獨進入臨床試驗，適合作為組合療法的輔助藥物研究。"
+    },
+    {
+      "disease_name": "congenital hematological disorder",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "主要聚焦於鐮刀型紅血球病（Sickle Cell Disease, SCD）：Azithromycin 的免疫調節與抗炎機轉可能降低急性胸症（Acute Chest Syndrome, ACS）的發生率，此為 SCD 最嚴重的肺部併發症。此外，巨環類抗生素可改善氣道炎症（如囊狀纖維化中的證據），類似機轉可能適用於 SCD 患者的肺功能改善（FEV1）。兩項已規劃的 Phase 1/2 試驗（NCT02630394、NCT02960503）均因故撤回（enrolled = 0），顯示學術界有研究意圖但尚無執行資料。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02630394",
+          "title": "A Pilot Study of Azithromycin Prophylaxis for Acute Chest Syndrome in Sickle Cell Disease",
+          "phase": "PHASE1",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "A",
+          "reasoning": "直接相關——藥物（Azithromycin）、疾病（SCD = 先天性血液疾病）、適應症（ACS 預防）完全對應。但因撤回前 enrollment = 0，未產生任何臨床資料，僅代表研究假說存在，不升等至 L3。"
+        },
+        {
+          "nct_id": "NCT02960503",
+          "title": "Macrolide Therapy to Improve Forced Expiratory Volume in 1 Second in Adults With Sickle Cell Disease",
+          "phase": "PHASE1/PHASE2",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "A",
+          "reasoning": "直接相關——巨環類（Azithromycin 為主要選項）用於改善 SCD 成人 FEV1，設計合理。撤回且 0 enrollment，同上未產生臨床資料。"
+        },
+        {
+          "nct_id": "NCT04278404",
+          "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 5000,
+          "relevance_grade": "C",
+          "reasoning": "低度相關——多藥物 PK/PD 安全性研究，Azithromycin 可能為研究藥物之一，但非針對先天性血液疾病的療效研究。可提供 PK 資料作為劑量設計參考。"
+        },
+        {
+          "nct_id": "NCT04294641",
+          "title": "A Study of Front Line Ibrutinib Without Corticosteroids for Newly Diagnosed Chronic Graft-versus-Host Disease",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 10,
+          "relevance_grade": "C",
+          "reasoning": "低度相關——主要研究藥物為 Ibrutinib，非 Azithromycin；GvHD 非先天性血液疾病。可能因 GvHD 防治背景中提及 Azithromycin，但本試驗不構成本適應症的直接證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26408070",
+          "title": "Antibiotics for preventing lower respiratory tract infections in high-risk children aged 12 years and under",
+          "year": "2015",
+          "study_type": "Cochrane Systematic Review",
+          "tier": 1,
+          "relevance": "間接相關——Cochrane 系統回顧評估抗生素（含巨環類）預防高危險兒童下呼吸道感染，SCD 兒童可能包含於高危群定義中。對 Azithromycin 預防 ACS 的研究假說提供間接支持，惟非 SCD 專屬分析。"
+        },
+        {
+          "pmid": "34471086",
+          "title": "Megadose Methylprednisolone for Immune Thrombocytopenia in an Infant Positive for SARS-CoV-2",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低度相關——COVID-19 情境下免疫性血小板低下症的類固醇治療，與 Azithromycin 再利用無直接關聯。"
+        }
+      ],
+      "evidence_summary": "本適應症具最高研究成熟度（相對於其他預測）：存在 2 項針對 SCD 的直接 Phase 1/2 試驗設計（NCT02630394、NCT02960503），均因未公開原因撤回且 0 enrollment。機轉合理（抗炎 + 肺部保護），並有 Cochrane 間接支持。建議：(1) 調查先前試驗撤回原因（安全顧慮 vs. 資金/運營問題）；(2) 若撤回非因安全考量，可重新設計 Phase 2 隨機試驗，聚焦 SCD 合併反覆 ACS 的高危成人族群。"
+    }
+  ],
+  "overall_assessment": {
+    "highest_priority_indications": [
+      {
+        "rank": 1,
+        "disease_name": "congenital hematological disorder (鐮刀型紅血球病)",
+        "rationale": "唯一有直接臨床試驗設計記錄的適應症，機轉合理，研究問題清晰，建議優先調查試驗撤回原因後重啟設計。"
+      },
+      {
+        "rank": 2,
+        "disease_name": "monoclonal gammopathy",
+        "rationale": "有體外機轉證據（PMID 23546223），聯合療法（Azithromycin + Bortezomib）概念新穎，具轉化研究潛力。"
+      },
+      {
+        "rank": 3,
+        "disease_name": "septicemic plague",
+        "rationale": "有體外抗菌活性數據，在生物防禦應用情境下具備研究價值，但臨床急迫性低。"
+      }
+    ],
+    "hold_indications": [
+      "hyperamylasemia（有安全反向顧慮）",
+      "polyclonal hyperviscosity syndrome",
+      "congenital analbuminemia",
+      "blood group incompatibility",
+      "premalignant hematological system disease",
+      "hematological disease associated with an acquired peripheral neuropathy"
+    ],
+    "data_gap_note": "Azithromycin 為廣泛使用之巨環類抗生素，此分析顯示 TxGNN 知識圖譜預測分數對該藥物存在系統性高估現象（10 個適應症分數均 > 0.994），可能反映圖譜中藥物節點連結密度偏高，建議校正預測分數閾值或加入藥物節點度數正規化。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| congenital hematological disorder | **L4** | S1 | Research Question | 2 項 Phase 1/2 撤回試驗（NCT02630394, NCT02960503）針對 SCD |
+| monoclonal gammopathy | **L4** | S1 | Research Question | 體外自噬阻斷機轉（PMID 23546223） |
+| septicemic plague | **L4** | S1 | Research Question | Y. pestis 體外 MIC 資料（PMID 8540736） |
+| punctate epithelial keratoconjunctivitis | **L4** | S1 | Research Question | 微孢子蟲個案報告（PMID 32826651） |
+| hyperamylasemia | **L5** | S0 | ⛔ Hold | 純預測；藥物本身可致高澱粉酶（反向安全顧慮） |
+| 其餘 6 項適應症 | **L5** | S0 | ⛔ Hold | 純模型預測，無任何臨床或基礎研究支持 |
+
+> **重要提示**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經正式臨床驗證方可應用。

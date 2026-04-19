@@ -1,0 +1,2112 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11750-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clobetasol",
+    "drugbank_id": "DB11750",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "primary cutaneous T-cell lymphoma",
+      "txgnn": {
+        "score": 0.9950522780418396,
+        "rank": 6442
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30677799",
+            "title": "Lymphomatoid papulosis.",
+            "authors": [
+              "Wiznia Lauren E",
+              "Cohen Jeffrey M",
+              "Beasley Jenna M",
+              "Meehan Shane A",
+              "Latkowski Jo-Ann M"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2018",
+            "abstract": "Lymphomatoid papulosis is often regarded as a low-grade variant of cutaneous T cell lymphoma (CTCL). Given the excellent long-term prognosis, recent consensus guidelines indicate that patients can be monitored off therapy. We report a case of a 67-year-old man who presented with lymphomatoid papulosis, with necrotic papules that have been intermittently present for over forty years.",
+            "classification": {
+              "study_type": "Review/Case series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23773745",
+            "title": "[Papular mycosis fungoides].",
+            "authors": [
+              "Brajon D",
+              "Bonnet N",
+              "Dales J-P",
+              "Berbis P"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2013",
+            "abstract": "Mycosis fungoides (MF) is the most common type of cutaneous T-cell lymphoma. A new form of incipient MF has recently been described: papular MF. Herein, we report a case and propose a literature review.",
+            "classification": {
+              "study_type": "Case report/series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22225743",
+            "title": "[Syringotropic cutaneous T-cell lymphoma mimicking dermatomycosis].",
+            "authors": [
+              "Fenot M",
+              "Maillard H",
+              "Sierra-Fortuny S",
+              "De Ybarlucea L-R",
+              "Célérier P"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "abstract": "Cutaneous syringotropic T-cell lymphoma is a rare form of lymphoma. We report a case involving a misleading cutaneous presentation on the sole of the foot.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28031140",
+            "title": "Cutaneous Presentation of Angioimmunoblastic T-Cell Lymphoma: A Harbinger of Poor Prognosis?",
+            "authors": [
+              "Wang Luokai",
+              "Lee Haur Yueh",
+              "Koh Hong Yi",
+              "Busmanis Inny",
+              "Lee Yuh Shan"
+            ],
+            "journal": "Skinmed",
+            "year": "2016",
+            "abstract": "A 62-year-old woman presented with a 2-year history of extensive, pruritic dermatosis over her face, trunk, and limbs. She was initially treated for psoriasis with methotrexate 5 mg twice weekly and topical clobetasol cream; however, her condition worsened, and she was admitted for generalized exfoliative dermatitis. Examination showed generalized erythema and scaling affecting her face (Figure 1A), chest (Figure 1B), back, and limbs. There were also cervical, axillary, and inguinal lymphadenopa",
+            "classification": {
+              "study_type": "Case report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32603400",
+            "title": "Topical clobetasol propionate treatment and cutaneous adverse effects in patients with early-stage mycosis fungoides: an observational study.",
+            "authors": [
+              "Geller Shamir",
+              "Myskowski Patricia L"
+            ],
+            "journal": "Cutis",
+            "year": "2020",
+            "abstract": "Topical superpotent class I corticosteroids (CSs) are highly effective in the treatment of early-stage mycosis fungoides (MF) and are readily available, easily applied, and have minor side effects compared to other topical therapeutic options. Because MF is a chronic disease, prolonged treatment is needed, raising the concern of CS-induced cutaneous adverse effects (AEs). In this observational study, we aimed to evaluate the risk for skin AEs of clobetasol propionate cream 0.05% in patients with",
+            "classification": {
+              "study_type": "Retrospective observational study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17083888",
+            "title": "CD30+, large T-cell lymphoma: diagnostic distinction and management.",
+            "authors": [
+              "Parlette Eric C",
+              "Tabor Camille A"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2006",
+            "abstract": "Cutaneous T-cell lymphoma (CTCL) has a variable presentation and comprises a broad diagnostic group. Histologic and immunophenotypic confirmation is needed to establish a precise diagnosis. Once the categorization is determined, prognosis and therapeutic algorithms unfold. Primary cutaneous, CD-30+, anaplastic, large T-cell lymphoma represents an indolent form of CTCL that often spontaneously involutes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25780963",
+            "title": "Marginal vitiligo: an unusual depigmenting disorder.",
+            "authors": [
+              "Trikha Ritika",
+              "McCowan Nancye",
+              "Brodell Robert"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2014",
+            "abstract": "Marginal vitiligo, or inflammatory vitiligo with raised borders is a unique subset of vitiligo vulgaris presenting with scattered depigmented, pruritic patches surrounded by a raised, erythematous border. Alternative diagnoses include discoid lupus erythematosus and cutaneous T-cell lymphoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26303240",
+            "title": "Woringer-Kolopp disease mimicking psoriasis.",
+            "authors": [
+              "Wang Sheila C",
+              "Mistry Nisha"
+            ],
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21349387",
+            "title": "[Interstitial mycosis fungoid: a rare variant of mycosis fungoids. Two cases].",
+            "authors": [
+              "Paoletti Marie-Thérèse",
+              "Comoz François",
+              "Dompmartin-Blanchere Anne",
+              "Bagot Martine",
+              "Ortonne Nicolas"
+            ],
+            "journal": "Annales de pathologie",
+            "year": "2011",
+            "abstract": "Mycosis fungoids can present with various clinical and histological features, with only a few of them being recognized as distinct entities in the current WHO and EORTC classifications. Histologically, mycosis fungoids (MF) usually show a superficial perivascular or band-like lymphocytic infiltrate with epidermotropism. We here report two cases of a rare histological variant of MF, called interstitial in the literature. Our first patient, a 71-year-old male, had a previously diagnosed MF, which ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17506958",
+            "title": "[Oral involvement in lymphomatoid papulosis].",
+            "authors": [
+              "Serra-Guillén C",
+              "Requena C",
+              "Alfaro A",
+              "Hueso L",
+              "Sanmartín O"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2007",
+            "abstract": "Lymphomatoid papulosis is a cutaneous lymphoma with an indolent clinical behaviour characterized by chronic development of recurrent, self-limited lesions appearing as necrotic papules and with a pathology compatible with T cell lymphoma. Mucosal involvement by lymphomatoid papulosis is very rare but has been reported in the literature. It usually appears as ulcers in patients previously diagnosed of lymphomatoid papulosis. From a histological perspective it is characterized by an infiltrate of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39741016",
+            "title": "Comparison of the efficacy of treatment with clobetasol propionate or bexarotene in early-stage mycosis fungoides.",
+            "authors": [
+              "Çerman Aslı Aksu",
+              "Cetinkaya Pinar Ozdemir",
+              "Kurt Birgül Özkesici",
+              "Kırker Artun",
+              "Altunay İlknur"
+            ],
+            "journal": "Anais brasileiros de dermatologia",
+            "year": "2025",
+            "abstract": "There are few studies in the literature comparing the effectiveness of topical treatments in early-stage mycosis fungoides (MF).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28804923",
+            "title": "Hypopigmented Mycosis Fungoides with Large Cell Transformation in a Child.",
+            "authors": [
+              "Pradhan Dinesh",
+              "Jedrych Jaroslaw J",
+              "Ho Jonhan",
+              "Akilov Oleg E"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2017",
+            "abstract": "Hypopigmented mycosis fungoides (HMF) is the most common variant of mycosis fungoides (MF) in children. Large-cell transformation in HMF has never been reported. Herein we report a case of HMF in an 8-year-old boy who presented with a 6-year history of hypopigmented patches on the bilateral arms, lower back, buttocks, posterior thighs, and lower legs. Biopsy revealed an abnormal CD8+ epidermotropic T-cell infiltrate consistent with the diagnosis of MF. The T-cell clonality study was positive. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36846176",
+            "title": "Mycosis fungoides with Psoriasiform plaques: A case report and review of the literature.",
+            "authors": [
+              "Beyzaee Amir Mohammad",
+              "Jahantigh Neda",
+              "Goldust Mohammad",
+              "Rahmatpour Rokni Ghasem",
+              "Babaei Mahsa"
+            ],
+            "journal": "Clinical case reports",
+            "year": "2023",
+            "abstract": "Mycosis fungoides (MF) is the most common variant of primary skin T-cell lymphoma. It typically manifests as an indolent progressing cutaneous eruption with erythematous scaly patches or plaques. Due to the nonspecific pathological findings, it can be easily misdiagnosed as psoriasis. A 34-year-old woman with a history of psoriasiform plaques for 12 years was referred to our dermatology clinic. In the beginning, the diagnosis of psoriasis was made and topical steroids were prescribed: it did not",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25027222",
+            "title": "[A girl with hypopigmented skin lesions].",
+            "authors": [
+              "Martens Bibi",
+              "Abdul Hamid Myrurgia",
+              "Martens Herm"
+            ],
+            "journal": "Nederlands tijdschrift voor geneeskunde",
+            "year": "2014",
+            "abstract": "A 9-year-old girl visited the department of Dermatology with an asymptomatic hypopigmented skin eruption on her upper legs, groins and trunk since 7 years. Histopathological analysis established the diagnosis of hypopigmented mycosis fungoides, a rare subtype of cutaneous T-cell lymphoma which is most commonly seen at younger age. The lesions are successfully treated with clobetasol 0.05% ointment 4 days a week.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33026773",
+            "title": "Persistent Agminated CD30+ Lymphoproliferative Disorder.",
+            "authors": [
+              "Beer Jacob",
+              "Bittar Peter G",
+              "Bittar Julie M",
+              "Elenitsas Rosalie",
+              "Haun Paul"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2020",
+            "abstract": "Lymphomatoid papulosis (LyP) is a chronic skin condition, characterized by recurrent eruptions of papules and nodules with or without central necrosis that spontaneously resolve. This condition was originally described by Macaulay in 1968 as a self-healing rhythmical paradoxical eruption that was clinically benign yet histologically malignant.1 Clinically, it is defined by papules that wax and wane, are generally less than 1cm in diameter, and heal spontaneously after 6–8 weeks with subsequent s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39803735",
+            "title": "Ultra-high-frequency Ultrasound in the Objective Assessment of Chlormethine Gel Efficacy: A Case Report.",
+            "authors": [
+              "Janowska Agata",
+              "Fidanzi Cristian",
+              "Romanelli Marco",
+              "Michelucci Alessandra",
+              "Bevilacqua Matteo"
+            ],
+            "journal": "Acta dermatovenerologica Croatica : ADC",
+            "year": "2024",
+            "abstract": "Mycosis fungoides (MF) represent the most frequent form of cutaneous T-cell lymphoma (CTCL). Chlormethine gel has been approved as first-line therapy in MF. The classification of early forms of MF is clinically and histologically complex even for experienced clinicians. Ultra-high-frequency ultrasound (UHFUS) is a new non-invasive method that is capable of supporting clinical evaluation, thus providing both a diagnostic guide for distinguishing different stages of the disease and a therapeutic m",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14686970",
+            "title": "Treatment of patch-stage mycosis fungoides with topical corticosteroids.",
+            "authors": [
+              "Zackheim Herschel S"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2003",
+            "abstract": "Experience at the University of California, San Francisco (UCSF), in the management of patch-stage mycosis fungoides (MF) with topical, predominantly high-potency, corticosteroids is reviewed. The technique of applications is discussed in detail. Approximately 200 patients have been treated. The results are very favorable. The response rate is over 90%. Side-effects are minor. Topical clobetasol is the first-line treatment for early stage MF at UCSF.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15630784",
+            "title": "Lymphomatoid papulosis in an HIV-positive man.",
+            "authors": [
+              "Weinstein Andrew",
+              "Mirzabeigi Marjan",
+              "Withee Michelle",
+              "Vincek Vladimir"
+            ],
+            "journal": "AIDS patient care and STDs",
+            "year": "2004",
+            "abstract": "Lymphomatoid papulosis (LyP) is a rare cutaneous lymphoproliferative condition characterized by a chronic, recurrent eruption of papules and nodules that undergo spontaneous regression. The disorder is usually clinically benign; with a minority of cases progressing to malignant lymphoma. LyP is divided into two subtypes based on histologic appearance. Type A resembles Hodgkin's disease with up to 20% of large CD30+ lymphocytes. Type B resembles mycosis fungoides showing an infiltrate of CD4+ lym",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31785005",
+            "title": "Pagetoid reticulosis in a 13-year old female. A unique immunohistochemical profile.",
+            "authors": [
+              "Torre-Castro Juan",
+              "Carrasco Santos Loreto",
+              "Rodríguez-Pinilla Socorro M",
+              "Requena Luis"
+            ],
+            "journal": "Journal of cutaneous pathology",
+            "year": "2020",
+            "abstract": "Pagetoid reticulosis (PR) is a rare lymphoproliferative disorder with indolent behavior considered a variant of mycosis fungoides. It is characterized by marked epidermotropism of the neoplastic lymphocytes. Since its original description, five cases have been reported in children. We report a new case of PR with an immunohistochemical profile not previously described in children.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32568843",
+            "title": "Lymphomatoid Papulosis With a Unique T Follicular Helper-Like Phenotype.",
+            "authors": [
+              "Tran Jessica",
+              "Duvic Madeleine",
+              "Torres-Cabala Carlos A"
+            ],
+            "journal": "The American Journal of dermatopathology",
+            "year": "2020",
+            "abstract": "Lymphomatoid papulosis (LyP) is a benign skin condition that typically presents with grouped or scattered lesions on the body that self-resolve within weeks or months of onset. LyP belongs to the group of CD30-positive lymphoproliferative disorders. Several histological variants of LyP exist, and the histological features of LyP can overlap with other lymphoproliferative disorders; therefore, both histological and clinical correlations are needed for a proper diagnosis of LyP. We report an unusu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clobetasol 作為強效局部 GR 促效劑，可抑制皮膚局部 T 細胞浸潤與細胞激素釋放（IL-2、IFN-γ），對早期 mycosis fungoides（MF）patch/plaque 期有直接療效。此為皮膚科實務中已採用的治療方式，但僅限局部病灶，進展期或全身性 CTCL 無效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "lymphosarcoma",
+      "txgnn": {
+        "score": 0.98883855342865,
+        "rank": 11396
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01313221",
+            "title": "A Randomized, Blinded Assessor Study to Evaluate the Efficacy and Safety of Etanercept 50 mg Once Weekly Plus As Needed Topical Agent Versus Etanercept 50 mg Twice Weekly in Subjects With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 310,
+            "start_date": "2011-04",
+            "completion_date": "2013-05",
+            "brief_summary": "To estimate the difference in effectiveness between treatment with etanercept 50 mg twice weekly (BIW) and treatment with etanercept 50 mg once weekly (QW) plus an as needed (PRN) topical agent for 12 weeks in adults with moderate to severe plaque psoriasis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 etanercept（TNF-α 抑制劑），非 clobetasol；試驗適應症與 lymphosarcoma 關聯不明確，可能為自體免疫或皮膚疾病試驗被誤歸類，對本適應症評估貢獻極低"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30677799",
+            "title": "Lymphomatoid papulosis.",
+            "authors": [
+              "Wiznia Lauren E",
+              "Cohen Jeffrey M",
+              "Beasley Jenna M",
+              "Meehan Shane A",
+              "Latkowski Jo-Ann M"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2018",
+            "abstract": "Lymphomatoid papulosis is often regarded as a low-grade variant of cutaneous T cell lymphoma (CTCL). Given the excellent long-term prognosis, recent consensus guidelines indicate that patients can be monitored off therapy. We report a case of a 67-year-old man who presented with lymphomatoid papulosis, with necrotic papules that have been intermittently present for over forty years.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23773745",
+            "title": "[Papular mycosis fungoides].",
+            "authors": [
+              "Brajon D",
+              "Bonnet N",
+              "Dales J-P",
+              "Berbis P"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2013",
+            "abstract": "Mycosis fungoides (MF) is the most common type of cutaneous T-cell lymphoma. A new form of incipient MF has recently been described: papular MF. Herein, we report a case and propose a literature review.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32603400",
+            "title": "Topical clobetasol propionate treatment and cutaneous adverse effects in patients with early-stage mycosis fungoides: an observational study.",
+            "authors": [
+              "Geller Shamir",
+              "Myskowski Patricia L"
+            ],
+            "journal": "Cutis",
+            "year": "2020",
+            "abstract": "Topical superpotent class I corticosteroids (CSs) are highly effective in the treatment of early-stage mycosis fungoides (MF) and are readily available, easily applied, and have minor side effects compared to other topical therapeutic options. Because MF is a chronic disease, prolonged treatment is needed, raising the concern of CS-induced cutaneous adverse effects (AEs). In this observational study, we aimed to evaluate the risk for skin AEs of clobetasol propionate cream 0.05% in patients with",
+            "classification": {
+              "study_type": "Retrospective study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26303240",
+            "title": "Woringer-Kolopp disease mimicking psoriasis.",
+            "authors": [
+              "Wang Sheila C",
+              "Mistry Nisha"
+            ],
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25780963",
+            "title": "Marginal vitiligo: an unusual depigmenting disorder.",
+            "authors": [
+              "Trikha Ritika",
+              "McCowan Nancye",
+              "Brodell Robert"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2014",
+            "abstract": "Marginal vitiligo, or inflammatory vitiligo with raised borders is a unique subset of vitiligo vulgaris presenting with scattered depigmented, pruritic patches surrounded by a raised, erythematous border. Alternative diagnoses include discoid lupus erythematosus and cutaneous T-cell lymphoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39741016",
+            "title": "Comparison of the efficacy of treatment with clobetasol propionate or bexarotene in early-stage mycosis fungoides.",
+            "authors": [
+              "Çerman Aslı Aksu",
+              "Cetinkaya Pinar Ozdemir",
+              "Kurt Birgül Özkesici",
+              "Kırker Artun",
+              "Altunay İlknur"
+            ],
+            "journal": "Anais brasileiros de dermatologia",
+            "year": "2025",
+            "abstract": "There are few studies in the literature comparing the effectiveness of topical treatments in early-stage mycosis fungoides (MF).",
+            "classification": {
+              "study_type": "Comparative study (likely retrospective)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25027222",
+            "title": "[A girl with hypopigmented skin lesions].",
+            "authors": [
+              "Martens Bibi",
+              "Abdul Hamid Myrurgia",
+              "Martens Herm"
+            ],
+            "journal": "Nederlands tijdschrift voor geneeskunde",
+            "year": "2014",
+            "abstract": "A 9-year-old girl visited the department of Dermatology with an asymptomatic hypopigmented skin eruption on her upper legs, groins and trunk since 7 years. Histopathological analysis established the diagnosis of hypopigmented mycosis fungoides, a rare subtype of cutaneous T-cell lymphoma which is most commonly seen at younger age. The lesions are successfully treated with clobetasol 0.05% ointment 4 days a week.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33026773",
+            "title": "Persistent Agminated CD30+ Lymphoproliferative Disorder.",
+            "authors": [
+              "Beer Jacob",
+              "Bittar Peter G",
+              "Bittar Julie M",
+              "Elenitsas Rosalie",
+              "Haun Paul"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2020",
+            "abstract": "Lymphomatoid papulosis (LyP) is a chronic skin condition, characterized by recurrent eruptions of papules and nodules with or without central necrosis that spontaneously resolve. This condition was originally described by Macaulay in 1968 as a self-healing rhythmical paradoxical eruption that was clinically benign yet histologically malignant.1 Clinically, it is defined by papules that wax and wane, are generally less than 1cm in diameter, and heal spontaneously after 6–8 weeks with subsequent s",
+            "classification": {
+              "study_type": "Case report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16704661",
+            "title": "Topical mechlorethamine and clobetasol in multifocal primary cutaneous marginal zone-B cell lymphoma.",
+            "authors": [
+              "Bachmeyer C",
+              "Orlandini V",
+              "Aractingi S"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case report/series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17506958",
+            "title": "[Oral involvement in lymphomatoid papulosis].",
+            "authors": [
+              "Serra-Guillén C",
+              "Requena C",
+              "Alfaro A",
+              "Hueso L",
+              "Sanmartín O"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2007",
+            "abstract": "Lymphomatoid papulosis is a cutaneous lymphoma with an indolent clinical behaviour characterized by chronic development of recurrent, self-limited lesions appearing as necrotic papules and with a pathology compatible with T cell lymphoma. Mucosal involvement by lymphomatoid papulosis is very rare but has been reported in the literature. It usually appears as ulcers in patients previously diagnosed of lymphomatoid papulosis. From a histological perspective it is characterized by an infiltrate of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14686970",
+            "title": "Treatment of patch-stage mycosis fungoides with topical corticosteroids.",
+            "authors": [
+              "Zackheim Herschel S"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2003",
+            "abstract": "Experience at the University of California, San Francisco (UCSF), in the management of patch-stage mycosis fungoides (MF) with topical, predominantly high-potency, corticosteroids is reviewed. The technique of applications is discussed in detail. Approximately 200 patients have been treated. The results are very favorable. The response rate is over 90%. Side-effects are minor. Topical clobetasol is the first-line treatment for early stage MF at UCSF.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31785005",
+            "title": "Pagetoid reticulosis in a 13-year old female. A unique immunohistochemical profile.",
+            "authors": [
+              "Torre-Castro Juan",
+              "Carrasco Santos Loreto",
+              "Rodríguez-Pinilla Socorro M",
+              "Requena Luis"
+            ],
+            "journal": "Journal of cutaneous pathology",
+            "year": "2020",
+            "abstract": "Pagetoid reticulosis (PR) is a rare lymphoproliferative disorder with indolent behavior considered a variant of mycosis fungoides. It is characterized by marked epidermotropism of the neoplastic lymphocytes. Since its original description, five cases have been reported in children. We report a new case of PR with an immunohistochemical profile not previously described in children.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22225743",
+            "title": "[Syringotropic cutaneous T-cell lymphoma mimicking dermatomycosis].",
+            "authors": [
+              "Fenot M",
+              "Maillard H",
+              "Sierra-Fortuny S",
+              "De Ybarlucea L-R",
+              "Célérier P"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "abstract": "Cutaneous syringotropic T-cell lymphoma is a rare form of lymphoma. We report a case involving a misleading cutaneous presentation on the sole of the foot.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9722724",
+            "title": "Topical corticosteroids for mycosis fungoides. Experience in 79 patients.",
+            "authors": [
+              "Zackheim H S",
+              "Kashani-Sabet M",
+              "Amin S"
+            ],
+            "journal": "Archives of dermatology",
+            "year": "1998",
+            "abstract": "To determine the effectiveness of topical corticosteroids in the management of mycosis fungoides.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12581145",
+            "title": "Treatment of mycosis fungoides/Sezary syndrome: the University of California, San Francisco (UCSF) approach.",
+            "authors": [
+              "Zackheim Herschel S"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21349387",
+            "title": "[Interstitial mycosis fungoid: a rare variant of mycosis fungoids. Two cases].",
+            "authors": [
+              "Paoletti Marie-Thérèse",
+              "Comoz François",
+              "Dompmartin-Blanchere Anne",
+              "Bagot Martine",
+              "Ortonne Nicolas"
+            ],
+            "journal": "Annales de pathologie",
+            "year": "2011",
+            "abstract": "Mycosis fungoids can present with various clinical and histological features, with only a few of them being recognized as distinct entities in the current WHO and EORTC classifications. Histologically, mycosis fungoids (MF) usually show a superficial perivascular or band-like lymphocytic infiltrate with epidermotropism. We here report two cases of a rare histological variant of MF, called interstitial in the literature. Our first patient, a 71-year-old male, had a previously diagnosed MF, which ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39803735",
+            "title": "Ultra-high-frequency Ultrasound in the Objective Assessment of Chlormethine Gel Efficacy: A Case Report.",
+            "authors": [
+              "Janowska Agata",
+              "Fidanzi Cristian",
+              "Romanelli Marco",
+              "Michelucci Alessandra",
+              "Bevilacqua Matteo"
+            ],
+            "journal": "Acta dermatovenerologica Croatica : ADC",
+            "year": "2024",
+            "abstract": "Mycosis fungoides (MF) represent the most frequent form of cutaneous T-cell lymphoma (CTCL). Chlormethine gel has been approved as first-line therapy in MF. The classification of early forms of MF is clinically and histologically complex even for experienced clinicians. Ultra-high-frequency ultrasound (UHFUS) is a new non-invasive method that is capable of supporting clinical evaluation, thus providing both a diagnostic guide for distinguishing different stages of the disease and a therapeutic m",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31498889",
+            "title": "Ichthyosiform pattern: an exceptional presentation of mycosis fungoides.",
+            "authors": [
+              "Perandones González Héctor",
+              "Sánchez Sambucety Pedro",
+              "Rodríguez Prieto Manuel Á"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28804923",
+            "title": "Hypopigmented Mycosis Fungoides with Large Cell Transformation in a Child.",
+            "authors": [
+              "Pradhan Dinesh",
+              "Jedrych Jaroslaw J",
+              "Ho Jonhan",
+              "Akilov Oleg E"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2017",
+            "abstract": "Hypopigmented mycosis fungoides (HMF) is the most common variant of mycosis fungoides (MF) in children. Large-cell transformation in HMF has never been reported. Herein we report a case of HMF in an 8-year-old boy who presented with a 6-year history of hypopigmented patches on the bilateral arms, lower back, buttocks, posterior thighs, and lower legs. Biopsy revealed an abnormal CD8+ epidermotropic T-cell infiltrate consistent with the diagnosis of MF. The T-cell clonality study was positive. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25186152",
+            "title": "Molluscum contagiosum surrounded by a white halo and Sezary syndrome.",
+            "authors": [
+              "Le Treut C",
+              "Granel-Brocard F",
+              "Bursztejn A-C",
+              "Barbaud A",
+              "Plénat F"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2015",
+            "abstract": "Molluscum contagiosum (MC) is caused by a DNA virus of the poxvirus group. It is common in children, and is also found in sexually active adults and HIV-seropositive patients. Cellular immunity is essential to controlling MC virus infection. We report the first observation of a patient with stage IV Sezary syndrome, who presented multiple molluscum contagiosum, spread and surrounded by a pale halo.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Lymphosarcoma（舊稱，現歸類為 NHL 之一）若有皮膚浸潤表現，局部 clobetasol 之 GR 活化可抑制腫瘤微環境中的免疫細胞活化。然而 lymphosarcoma 為系統性疾病，局部皮質類固醇僅能控制皮膚症狀而無法治療根本疾病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "cystic teratoma",
+      "txgnn": {
+        "score": 0.9888228178024292,
+        "rank": 11416
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "缺乏合理機轉連結。囊性畸胎瘤（皮樣囊腫）為胚胎發育性良性腫瘤，含三胚層組織，其病理為組織異位而非炎症性，局部皮質類固醇無已知治療機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Crohn's colitis",
+      "txgnn": {
+        "score": 0.9887980818748474,
+        "rank": 11432
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18186842",
+            "title": "Cutaneous penile and perianal Crohn's disease treated with a combination of medical and surgical interventions.",
+            "authors": [
+              "Rajpara Sanjay M",
+              "Siddha Sanjay K",
+              "Ormerod Anthony D",
+              "Kerr Keith M",
+              "Kolhe Prahalad S"
+            ],
+            "journal": "The Australasian journal of dermatology",
+            "year": "2008",
+            "abstract": "A 73-year-old man presented with fistulizing cutaneous Crohn's disease of the penis and perianal area without involvement of the gastrointestinal tract. The disease failed to respond to topical clobetasol propionate and oral cyclosporin and methotrexate. A combination treatment of minocycline, thalidomide and prednisolone brought the disease under control and induced remission. Surgery with excision and skin grafting were required to produce cure.",
+            "classification": {
+              "study_type": "Case report/series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39105861",
+            "title": "Co-occurrence of oral pemphigus vulgaris and herpes simplex virus infection in a young patient with Crohn's disease: report of a rare case of oral lesions during anti-TFN alpha and immunomodulator therapy.",
+            "authors": [
+              "Lopes Danielle Nobre",
+              "de Oliveira Noêmia Pereira",
+              "de Campos Augusto Karla Cristina",
+              "Milagres Adrianna",
+              "Miguez Ana Luiza"
+            ],
+            "journal": "International journal of colorectal disease",
+            "year": "2024",
+            "abstract": "Pemphigus vulgaris (PV) is a potentially life-threatening mucocutaneous autoimmune disease that affects desmoglein-1 and desmoglein-3, leading to intraepithelial vesiculobullous lesions. In the oral mucosa, PV lesions can mimic other diseases such as mucous membrane pemphigoid, other forms of pemphigus, recurrent aphthous stomatitis, erythema multiforme, Stevens-Johnson syndrome, and virus-induced ulcers like herpes simplex virus (HSV), making diagnosis challenging. The co-occurrence of PV with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31233709",
+            "title": "A catastrophic vulvar ulcer.",
+            "authors": [
+              "Prasad Smriti",
+              "Mauskar Melissa M"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33902425",
+            "title": "Topical Clobetasol: An Overlooked Cause of Cushing Syndrome.",
+            "authors": [
+              "Ghirardo Sergio",
+              "De Nardi Laura",
+              "Tommasini Alberto",
+              "Barbi Egidio",
+              "Tornese Gianluca"
+            ],
+            "journal": "Endocrine, metabolic & immune disorders drug targets",
+            "year": "2021",
+            "abstract": "We describe the case of an 11-year-old boy affected by chronic granulomatous disease complicated by a Crohn's like colitis needing prolonged treatment with oral corticosteroids.",
+            "classification": {
+              "study_type": "Case report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26790515",
+            "title": "Paradoxical Induction of Psoriasis and Lichen Planus by Tumor Necrosis Factor-α Inhibitors.",
+            "authors": [
+              "Au Sonoa",
+              "Hernandez Claudia"
+            ],
+            "journal": "Skinmed",
+            "year": "2015",
+            "abstract": "Case 1. A 33-year-old white woman presented to our clinic with a new-onset psoriasiform pustular eruption involving her palms and soles 4 months after the initiation of adalimumab for Crohn's disease. Her medical history was significant for childhood atopic dermatitis and hidradenitis suppurativa, but she had no personal or family history of psoriasis. Topical corticosteroids including hydrocortisone 2.5%, triamcinolone 0.1%, fluocinonide 0.05%, and clobetasol 0.05% were used without improvement",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19279428",
+            "title": "Early diagnosis and early corticosteroid administration improves healing of peristomal pyoderma gangrenosum in inflammatory bowel disease.",
+            "authors": [
+              "Funayama Yuji",
+              "Kumagai Eiko",
+              "Takahashi Ken-Ichi",
+              "Fukushima Kohei",
+              "Sasaki Iwao"
+            ],
+            "journal": "Diseases of the colon and rectum",
+            "year": "2009",
+            "abstract": "To evaluate the efficacy of early diagnosis and early administration of corticosteroid for peristomal pyoderma gangrenosum, a prospective study was carried out.",
+            "classification": {
+              "study_type": "Case series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34736616",
+            "title": "Vulvar Lymphangioma Circumscriptum Secondary to Crohn Disease.",
+            "authors": [
+              "Petit Kristin N",
+              "Petit Danielle M",
+              "Bridges Alina G"
+            ],
+            "journal": "Mayo Clinic proceedings",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12066767",
+            "title": "Cheilitis granulomatosa: overview of 13 patients with long-term follow-up--results of management.",
+            "authors": [
+              "van der Waal Rutger I F",
+              "Schulten Engelbert A J M",
+              "van der Meij Erik H",
+              "van de Scheur Martijn R",
+              "Starink Theo M"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2002",
+            "abstract": "Cheilitis granulomatosa, often regarded as a subtype of orofacial granulomatosis, is characterized by recurrent or persistent swelling of one or both lips. Classically, a non-necrotizing granulomatous inflammation is seen at histologic examination. Although a relationship has been proposed between Melkersson-Rosenthal syndrome (and the monosymptomatic form, cheilitis granulomatosa) and Crohn's disease on the basis of the orofacial swelling and similar histology, several studies of Melkersson-Ros",
+            "classification": {
+              "study_type": "Case series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27738572",
+            "title": "Infliximab-Associated Psoriasiform Dermatitis: Case Report and Review of a Seemingly Paradoxical Inflammatory Response.",
+            "authors": [
+              "Loh Tiffany Y",
+              "Cohen Philip R"
+            ],
+            "journal": "Cureus",
+            "year": "2016",
+            "abstract": "Tumor necrosis factor-α (TNF-α) inhibitors, such as infliximab, adalimumab, and certolizumab pegol are effective agents in the treatment of inflammatory bowel disease. Some individuals undergoing anti-TNF-α therapy for Crohn's disease or ulcerative colitis develop psoriasiform lesions. This is a paradoxical finding, as classical psoriasis is known to respond to these agents.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21424891",
+            "title": "[Erythema elevatum et diutinum].",
+            "authors": [
+              "Mühlenstädt E",
+              "Mokosch A",
+              "Homey B",
+              "Reifenberger J"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2011",
+            "abstract": "Erythema elevatum et diutinum (EED) is a rare, chronic, cutaneous, leukocytoclastic vasculitis. It is characterized by symmetric, plaques, papules and nodules occurring preferentially on the extensor aspects of the arms. An association with chronic infections, neoplasms, especially myeloproliferative diseases and paraproteinemia, as well as autoimmune disorders (rheumatoid arthritis, Crohn disease) has been described. An 83-year-old woman with EED presented with symmetric, skin colored, firm nod",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28976720",
+            "title": "Infliximab-induced acne and acute localized exanthematous pustulosis: Case report.",
+            "authors": [
+              "Senilă Simona",
+              "Seicean Andrada",
+              "Fechete Oana",
+              "Grad Alecsandra",
+              "Ungureanu Loredana"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22727660",
+            "title": "Alopecia Areata: a possible extraintestinal manifestation of Crohn's disease.",
+            "authors": [
+              "Ganzetti Giulia",
+              "Campanati Anna",
+              "Offidani Annamaria"
+            ],
+            "journal": "Journal of Crohn's & colitis",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9066219",
+            "title": "Chronic stomatitis: an early sign of Crohn's disease.",
+            "authors": [
+              "Dunlap C L",
+              "Friesen C A",
+              "Shultz R"
+            ],
+            "journal": "Journal of the American Dental Association (1939)",
+            "year": "1997",
+            "abstract": "The authors describe an 11-year-old boy who had persistent oral lesions that clinically mimicked first-episode herpetic stomatitis. A biopsy revealed noncaseating sterile granulomas. Investigation of the small and large bowels revealed that the child had Crohn's disease. The oral lesions responded favorably to topical steroid therapy. The authors also discuss the range of oral lesions in inflammatory bowel disease and the differential diagnoses.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "局部皮質類固醇可抑制 NF-κB 路徑，減少 TNF-α、IL-6 等促炎細胞激素，對 Crohn's 病的炎症機轉具理論相關性。然而 Clobetasol 為局部外用製劑，系統吸收有限，文獻證據集中於皮膚/黏膜 Crohn's 表現（如肛周、口腔）而非腸道炎症本體。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "spinal cord dermoid cyst",
+      "txgnn": {
+        "score": 0.9886842370033264,
+        "rank": 11517
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊髓皮樣囊腫為先天性發育異常，治療為外科切除。局部外用皮質類固醇在此情境下無任何進入病灶的生理途徑，亦無理論上的治療機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "disease of orbital part of eye adnexa",
+      "txgnn": {
+        "score": 0.988584041595459,
+        "rank": 11617
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼附器疾病（淚腺、眼瞼）雖部分為炎症性（如眼眶假性腫瘤），系統性皮質類固醇為主要治療。外用 clobetasol 對眼附器內部病變無滲透路徑；眼瞼皮膚使用強效局部皮質類固醇有青光眼和白內障風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "disease of orbital region",
+      "txgnn": {
+        "score": 0.9877063632011414,
+        "rank": 12269
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04246801",
+            "title": "A Phase 3, Multicenter, Randomized, Double-Masked Clinical Trial to Assess the Efficacy and Safety of Clobetasol Propionate Ophthalmic Nanoemulsion 0.05% Compared to Placebo in the Treatment of Inflammation and Pain Associated With Cataract Surgery",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 250,
+            "start_date": "2020-06-10",
+            "completion_date": "2021-05-19",
+            "brief_summary": "Cataract surgery is one of the most common surgical procedures performed worldwide. In fact, in 2017, 3.8 million cataracts procedures were performed in the US.\n\nDespite of surgical advances, pain and inflammation after ophthalmic surgery continues to be a burden on both patients and physicians. The treatment of postoperative pain is essential for hospitalized patients, but it is even more important for patients who are treated on an outpatient basis.\n\nThis study will compare the efficacy and sa",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "標題截斷，研究藥物不明，無法確認與 clobetasol 的關聯；完整標題顯示可能為另一藥物（如 teprotumumab）用於甲狀腺眼病的試驗，被誤歸類至此適應症"
+            }
+          },
+          {
+            "nct_id": "NCT00102557",
+            "title": "Hydroxychloroquine Versus Clobetasol 0.05% Rinse for the Treatment of Oral Lichen Planus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 74,
+            "start_date": "2005-01",
+            "completion_date": "2005-10",
+            "brief_summary": "This study will compare two treatments for oral lichen planus - hydroxychloroquine (Plaquenil) tablets and clobetasol oral rinse. Oral lichen planus is a chronic disorder in which patients have painful mouth ulcers that interfere with meals and daily functioning. It is most commonly treated with topical or systemic corticosteroids, but these drugs have a number of side effects, most commonly yeast infection, and chronic systemic use of them can lead to diabetes, osteoporosis, weight gain, and ot",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "明確為口腔扁平苔癬試驗，與眼眶疾病完全無關；雖涉及 clobetasol，但適應症歸類錯誤，不支持此適應症評估"
+            }
+          },
+          {
+            "nct_id": "NCT04249076",
+            "title": "A Phase 3, Multicenter, Randomized, Double-Masked Clinical Trial to Assess the Efficacy and Safety of Clobetasol Propionate Ophthalmic Nanoemulsion 0.05% Compared to Placebo in the Treatment of Inflammation and Pain Associated With Cataract Surgery",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 215,
+            "start_date": "2020-06-04",
+            "completion_date": "2021-04-14",
+            "brief_summary": "Cataract surgery is one of the most common surgical procedures performed worldwide. In fact, in 2017, 3.8 million cataracts procedures were performed in the US.\n\nDespite of surgical advances, pain and inflammation after ophthalmic surgery continues to be a burden on both patients and physicians. The treatment of postoperative pain is essential for hospitalized patients, but it is even more important for patients who are treated on an outpatient basis.\n\nThis study will compare the efficacy and sa",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同 NCT04246801，標題截斷，研究藥物與眼眶病適應症關聯不明，可能為誤歸類"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼眶炎症性疾病（如甲狀腺眼病、特發性眼眶炎症）理論上受益於皮質類固醇的抗炎效果，但需要系統性給藥。所列臨床試驗均非評估 clobetasol 用於眼眶病變，試驗相關性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "dermoid cyst of ovary",
+      "txgnn": {
+        "score": 0.9874086380004884,
+        "rank": 12531
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "卵巢皮樣囊腫（成熟型囊性畸胎瘤）為良性生殖細胞腫瘤，標準治療為腹腔鏡手術切除。皮質類固醇對此良性腫瘤無任何治療機轉，外用 clobetasol 亦無法到達卵巢病灶。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "candidiasis",
+      "txgnn": {
+        "score": 0.9860048890113832,
+        "rank": 13564
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03320460",
+            "title": "Efficacy of Photobiomodulation for Oral Lichen Planus Treatment",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 44,
+            "start_date": "2018-11-01",
+            "completion_date": "2020-12",
+            "brief_summary": "The aim of this study was to compare the efficacy of PBM (660nm) and corticosteroid therapy with clobetasol propionate 0.05% in the treatment of OLP. This is a protocol for a randomized, controlled, double blind clinical trial. Fourty-four patients will be randomized in two experimental groups. Control group will be treated with clobetasol propionate 0.05% for 30 consecutive days and with placebo PBM twice a week. The experimental group will be treated with placebo gel for 30 consecutive days to",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究光生物調控（非 clobetasol）用於口腔扁平苔癬，與念珠菌治療無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT06119672",
+            "title": "Evaluation of the Efficacy of Supplementary Probiotic Capsules With Topical Clobetasol Propionate 0.05% in the Treatment of Oral Lichen Planus",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 36,
+            "start_date": "2023-05-01",
+            "completion_date": "2023-12-30",
+            "brief_summary": "Oral lichen planus patients who will meet inclusion criteria will be divided into 2 groups\n\n-The intervention group (Group P): This group will be randomly allocated to take one capsule twice daily during meal time at morning and evening of probiotics complex obtained from Biovea for 4 -week study period. Moreover, patients in this group will be instructed to apply clobetasole propionate in orabase gel 2 times daily for 4 weeks. Patients will receive their supply of the gel and probiotics every 2",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "研究益生菌搭配 clobetasol，目的可能是預防 clobetasol 治療（OLP）中繼發性念珠菌感染，clobetasol 為背景治療而非針對念珠菌的藥物"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34907617",
+            "title": "Efficacy and safety of a novel mucoadhesive clobetasol patch for treatment of erosive oral lichen planus: A phase 2 randomized clinical trial.",
+            "authors": [
+              "Brennan Michael T",
+              "Madsen Lars Siim",
+              "Saunders Deborah P",
+              "Napenas Joel J",
+              "McCreary Christine"
+            ],
+            "journal": "Journal of oral pathology & medicine : official publication of the International Association of Oral Pathologists and the American Academy of Oral Pathology",
+            "year": "2022",
+            "abstract": "Oral lichen planus (OLP) is a chronic inflammatory disorder of the oral mucosa. Currently there is no approved treatment for OLP. We report on the efficacy and safety of a novel mucoadhesive clobetasol patch (Rivelin® -CLO) for the treatment of OLP.",
+            "classification": {
+              "study_type": "Clinical trial",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16332242",
+            "title": "Peno-gingival lichen planus.",
+            "authors": [
+              "Petruzzi Massimo",
+              "De Benedittis Michele",
+              "Pastore Luca",
+              "Grassi Felice Roberto",
+              "Serpico Rosario"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "2005",
+            "abstract": "Lichen planus with simultaneous oral and genital involvement in males is a quite rare condition and often difficult to diagnose. The prevalence, treatment options, and management for this condition are far from being established, and research in this area primarily relies on anecdotes. We present the clinical features of eight cases of peno-gingival lichen planus and propose a management algorithm for this condition based on the best available published evidence.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10218041",
+            "title": "Topical corticosteroids in association with miconazole and chlorhexidine in the long-term management of atrophic-erosive oral lichen planus: a placebo-controlled and comparative study between clobetasol and fluocinonide.",
+            "authors": [
+              "Carbone M",
+              "Conrotto D",
+              "Carrozzo M",
+              "Broccoletti R",
+              "Gandolfo S"
+            ],
+            "journal": "Oral diseases",
+            "year": "1999",
+            "abstract": "To evaluate the efficacy of a combination of topical corticosteroids with topical antimycotic drugs in the therapy of atrophic-erosive forms of oral lichen planus (OLP).",
+            "classification": {
+              "study_type": "Clinical study (OLP management)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36373243",
+            "title": "Pediatric lichen planus: A single-center retrospective review of 26 patients with follow up.",
+            "authors": [
+              "Mohandesi Nessa Aghazadeh",
+              "Berry Nicholas A",
+              "Tollefson Megha M",
+              "Lehman Julia S",
+              "Davis Dawn Marie R"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2023",
+            "abstract": "Pediatric lichen planus (LP) is rare with variable prevalence and atypical presentations compared to adults. Data on LP are lacking for the pediatric population in the United States. We present demographics, presentations, and treatments for a pediatric LP cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10071317",
+            "title": "Penile lichen sclerosus et atrophicus treated with clobetasol dipropionate 0.05% cream: a retrospective clinical and histopathological study.",
+            "authors": [
+              "Dahlman-Ghozlan K",
+              "Hedblad M A",
+              "von Krogh G"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1999",
+            "abstract": "Treatment with clobetasol propionate 0.05% cream is effective against lichen sclerosus et atrophicus (LSA) of the vulva.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8065723",
+            "title": "Double-blind clinical trial of 0.05% clobetasol propionate (corrected from proprionate) ointment in orabase and 0.05% fluocinonide ointment in orabase in the treatment of patients with oral vesiculoerosive diseases.",
+            "authors": [
+              "Lozada-Nur F",
+              "Miranda C",
+              "Maliksi R"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1994",
+            "abstract": "Because of their chronic nature treatment of oral vesiculoerosive diseases remains a challenge to the oral medicine specialist. Even though oral vesiculoerosive diseases respond well to systemic steroids, adverse side effects sometimes limit their use. Potent topical steroids are becoming increasingly useful to treat these chronic conditions with good control. The purpose of this double-blind clinical trial was to compare clobetasol propionate and fluocinonide ointment in orabase as treatments f",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29225365",
+            "title": "A Review of the Effectiveness and Side-Effects of Fluocinolone Acetonide 0.1% in the Treatment of Oral Mucosal Diseases.",
+            "authors": [
+              "Thongprasom Kobkan"
+            ],
+            "journal": "Acta stomatologica Croatica",
+            "year": "2017",
+            "abstract": "Topical steroids have been widely used in the treatment of symptomatic oral lesions to reduce pain and inflammation. Potent topical steroids such as clobetasol propionate, fluocinolone acetonide (FA), and fluocinonide have been widely used in the treatment of severe oral mucosal lesions. Many reports have demonstrated that these steroids were effective in treating oral lesions with only minor side-effects. This review describes the effectiveness and side-effects of using FA 0.1% in the treatment",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40604637",
+            "title": "The efficacy and safety of pharmacological treatment of desquamative gingivitis: a systematic review.",
+            "authors": [
+              "Bandara Dhanushka Leuke",
+              "Padmakumari Kodikara Mudiyanselage Chathurika",
+              "Jayasinghe Yovanthi Anurangi",
+              "Peiris Prasangi Madubhashini",
+              "Bandaranayake Chamilka Asanthi"
+            ],
+            "journal": "BMC oral health",
+            "year": "2025",
+            "abstract": "This systematic review synthesizes existing empirical evidence on the efficacy and safety of pharmacological treatment options for desquamative gingivitis (DG), in order to establish evidence-based clinical recommendations on DG clinical management.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26665263",
+            "title": "Manifestation of psoriasis in the oral cavity.",
+            "authors": [
+              "Fatahzadeh Mahnaz"
+            ],
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2016",
+            "abstract": "Despite the common prevalence of cutaneous psoriasis, the existence of manifestations in the oral cavity is subject to controversy. In this article, dermatologic psoriasis is reviewed, and a patient with generalized, symptomatic oral mucosal erythema resembling atrophic candidiasis synchronous with flare of chronic skin psoriasis is described. Diagnostic work up and therapeutic response supported that these mucosal findings were the oral counterpart of cutaneous disease. Dental providers should ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22336835",
+            "title": "Interventions for erosive lichen planus affecting mucosal sites.",
+            "authors": [
+              "Cheng Suzanne",
+              "Kirtschig Gudula",
+              "Cooper Susan",
+              "Thornhill Martin",
+              "Leonardi-Bee Jo"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2012",
+            "abstract": "Erosive lichen planus (ELP) affecting mucosal surfaces is a chronic autoimmune disease of unknown aetiology. It is often more painful and debilitating than the non-erosive types of lichen planus. Treatment is difficult and aimed at palliation rather than cure. Several topical and systemic agents have been used with varying results.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23210698",
+            "title": "Iatrogenic Cushing's syndrome and topical steroid therapy: case series and review of the literature.",
+            "authors": [
+              "Decani Sem",
+              "Federighi Veronica",
+              "Baruzzi Elisa",
+              "Sardella Andrea",
+              "Lodi Giovanni"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2014",
+            "abstract": "Topical corticosteroids are considered first-line therapy in patients with chronic inflammatory oral mucosal diseases; among them, clobetasol propionate is one of the most widely used in oral medicine. Under physiological conditions, the transmucosal application is characterized by a significantly greater absorption than the skin application. Contrary to many publications about the side effects of topical corticosteroids in dermatology, few studies have investigated the systemic effects due to l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39144849",
+            "title": "A Case of Oral Lichen Planus Preceding the Diagnosis of Good Syndrome.",
+            "authors": [
+              "Fastner Suzanne L",
+              "Clarke Jennie T"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Good syndrome (GS) is a rare condition characterized by thymoma and immune deficiency with a poorly understood mechanism in which patients have reduced immunoglobulin levels and circulating B-cells along with impaired T-cell function. GS is often accompanied by autoimmune and inflammatory conditions, and in this report, we present a case of refractory oral lichen planus (OLP) preceding the diagnosis of GS. In this case, a patient with a history of OLP was diagnosed with GS and common variable im",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25320748",
+            "title": "Kinetics of oral colonization by Candida spp. during topical corticotherapy for oral lichen planus.",
+            "authors": [
+              "Pereira Thais dos Santos Fontes",
+              "Silva Alves Jeane de Fátima Correia",
+              "Gomes Carolina Cavaliéri",
+              "Rocha do Nascimento Adriana",
+              "Stoianoff Maria Aparecida de Resende"
+            ],
+            "journal": "Journal of oral pathology & medicine : official publication of the International Association of Oral Pathologists and the American Academy of Oral Pathology",
+            "year": "2014",
+            "abstract": "Oral candidiasis is an important side effect of topical corticotherapy. The purpose of this study was to assess oral mucosa colonization by five Candida species during topical corticotherapy and to investigate Candida spp. pathogenicity and in vitro susceptibility to fluconazole and amphotericin B.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17535232",
+            "title": "Miconazole as adjuvant therapy for oral lichen planus: a double-blind randomized controlled trial.",
+            "authors": [
+              "Lodi G",
+              "Tarozzi M",
+              "Sardella A",
+              "Demarosi F",
+              "Canegallo L"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2007",
+            "abstract": "Topical steroids are the first choice for the treatment of oral lichen planus (OLP). Antifungal drugs are often employed together with them, to prevent secondary oral candidosis, although it has been suggested anecdotally that they can also be beneficial for OLP itself.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9297078",
+            "title": "[Topical treatment of atrophic-erosive oral lichen planus with clobetasol in bioadhesive gel as well as chlorhexidine and miconazole in oral gel].",
+            "authors": [
+              "Carbone M",
+              "Carrozzo M",
+              "Conrotto D",
+              "Garzino Demo P",
+              "Broccoletti R"
+            ],
+            "journal": "Minerva stomatologica",
+            "year": "1997",
+            "abstract": "The study was performed to evaluate the efficacy of the combination of a topical corticosteroid with topical antimicrobic drugs in the therapy of the atrophic-erosive forms of oral lichen planus. Clobetasol propionate, a very potent corticosteroid in the Miller and Munro classification, was used in a 4% hydroxy ethylcellulose bioadhesive gel and applied twice daily for the first four months and once daily for the last two months. Because of the high frequency of candidal infections during cortic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26362131",
+            "title": "[Oral hairy leukoplakia induced by topical steroids].",
+            "authors": [
+              "Vigarios E",
+              "Fricain J-C",
+              "Projetti F",
+              "Boulanger M",
+              "Sibaud V"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2015",
+            "abstract": "Oral hairy leukoplakia (OHL) is an EBV-associated condition of the oral mucosa, which is often painless. It is found predominantly in HIV-positive patients and is considered a clinical indicator of immunosuppression. OHL has rarely been described in HIV-negative patients, being found most often in association with iatrogenic immunosuppression. OHL induced by topical steroids remains extremely rare.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8233425",
+            "title": "Clinical, historic, and therapeutic features of cicatricial pemphigoid. A literature review and open therapeutic trial with corticosteroids.",
+            "authors": [
+              "Vincent S D",
+              "Lilly G E",
+              "Baker K A"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1993",
+            "abstract": "Cicatricial pemphigoid is at present an incurable, autoimmune disease that involves mucosa and skin. We have documented the clinical, microscopic, and therapeutic features of 23 patients with cicatricial pemphigoid and added these to reports of past literature. The mean age at the time of diagnosis was 63 years, and women were involved twice as often as men. Eighty-three percent of patients had oral mucosal involvement, 70% had conjunctival involvement, and 22% had skin involved. Direct immunolo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2011350",
+            "title": "Open preliminary clinical trial of clobetasol propionate ointment in adhesive paste for treatment of chronic oral vesiculoerosive diseases.",
+            "authors": [
+              "Lozada-Nur F",
+              "Huang M Z",
+              "Zhou G A"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1991",
+            "abstract": "Clobetasol propionate (Temovate), a novel high-potency topical corticosteroid, was used in open trial from 1987 to 1988 on 24 patients with persistent oral vesiculoerosive disease of at least 1 month's duration. Fourteen women and 10 men, ranging in age from 27 to 76 years (mean 48 years), participated. Nine patients had erosive lichen planus, one had benign mucous membrane pemphigoid, three had pemphigus vulgaris, seven had persistent major recurrent aphthous stomatitis, and four had chronic or",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39105861",
+            "title": "Co-occurrence of oral pemphigus vulgaris and herpes simplex virus infection in a young patient with Crohn's disease: report of a rare case of oral lesions during anti-TFN alpha and immunomodulator therapy.",
+            "authors": [
+              "Lopes Danielle Nobre",
+              "de Oliveira Noêmia Pereira",
+              "de Campos Augusto Karla Cristina",
+              "Milagres Adrianna",
+              "Miguez Ana Luiza"
+            ],
+            "journal": "International journal of colorectal disease",
+            "year": "2024",
+            "abstract": "Pemphigus vulgaris (PV) is a potentially life-threatening mucocutaneous autoimmune disease that affects desmoglein-1 and desmoglein-3, leading to intraepithelial vesiculobullous lesions. In the oral mucosa, PV lesions can mimic other diseases such as mucous membrane pemphigoid, other forms of pemphigus, recurrent aphthous stomatitis, erythema multiforme, Stevens-Johnson syndrome, and virus-induced ulcers like herpes simplex virus (HSV), making diagnosis challenging. The co-occurrence of PV with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9432562",
+            "title": "[Therapeutic management of mucous membrane pemphigoid. Report of 11 cases].",
+            "authors": [
+              "Carrozzo M",
+              "Carbone M",
+              "Broccoletti R",
+              "Garzino-Demo P",
+              "Gandolfo S"
+            ],
+            "journal": "Minerva stomatologica",
+            "year": "1997",
+            "abstract": "In the present study the efficacy of systemic and topical steroid treatment in the management of 11 patients with mucous membrane pemphigoid (MMP) confirmed histologically and immunologically has been evaluated. Eight patients were treated with a topically applied clobetasol in a bioadhesive gel (2-3 times/daily) and with chlorexidine mouth-washes (3 times/daily) and myconazole gel (1 time/daily) as antimycotics. The remaining 3 were treated with systemic prednisone (25 to 100 mg/daily) followed",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【重要警示】Clobetasol 的免疫抑制效果理論上會惡化念珠菌感染，而非治療。文獻中 clobetasol 與念珠菌的關聯主要來自：(1) 口腔扁平苔癬（OLP）患者使用 clobetasol 後出現繼發性念珠菌感染的管理，需合併抗真菌藥物（miconazole、nystatin）；(2) 益生菌輔助 clobetasol 以預防繼發性感染。這是 clobetasol 作為念珠菌感染的誘因而非治療藥物的關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "polyp of vocal cord",
+      "txgnn": {
+        "score": 0.985886573791504,
+        "rank": 13648
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "聲帶息肉主要由機械性損傷（聲帶過度使用）引起，形成 Reinke's 間隙水腫性組織增生。標準治療為顯微喉鏡手術切除合併聲音訓練。皮質類固醇對急性喉炎有使用，但對已形成的聲帶息肉無消退證據；外用 clobetasol 亦無法到達聲帶病灶。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "lymphosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "lymphosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "lymphosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "cystic teratoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "cystic teratoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "cystic teratoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "Crohn's colitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "Crohn's colitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "Crohn's colitis"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "spinal cord dermoid cyst"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "spinal cord dermoid cyst"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "spinal cord dermoid cyst"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "disease of orbital part of eye adnexa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "disease of orbital part of eye adnexa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "disease of orbital part of eye adnexa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "dermoid cyst of ovary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "dermoid cyst of ovary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "dermoid cyst of ovary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clobetasol",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

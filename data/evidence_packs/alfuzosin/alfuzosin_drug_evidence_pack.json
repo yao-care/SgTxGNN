@@ -1,0 +1,1068 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00346-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alfuzosin",
+    "drugbank_id": "DB00346",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "txgnn": {
+        "score": 0.9999942779541016,
+        "rank": 34
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "α1 受體存在於毛囊豎毛肌（arrector pili），理論上阻斷 α1 訊號可能影響毛囊週期，但 Ambras 型多毛症為 TRPS1 基因突變所致的遺傳性疾病，與腎上腺素訊號通路無直接因果關係。TxGNN 高分可能源自知識圖譜中「毛髮疾病→腎上腺素相關節點」的間接路徑，屬模型雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn": {
+        "score": 0.9999933242797852,
+        "rank": 39
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與上述相同。值得注意的是，Alfuzosin 臨床使用中有多毛症（hypertrichosis）被報告為不良反應，提示 α1 阻斷可能促進毛髮生長而非抑制，用於治療多毛症的機轉邏輯矛盾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn": {
+        "score": 0.9999895095825196,
+        "rank": 63
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22057194",
+            "title": "Periodontitis and diabetes: a two-way relationship.",
+            "authors": [
+              "Preshaw P M",
+              "Alba A L",
+              "Herrera D",
+              "Jepsen S",
+              "Konstantinidis A"
+            ],
+            "journal": "Diabetologia",
+            "year": "2012",
+            "abstract": "Periodontitis is a common chronic inflammatory disease characterised by destruction of the supporting structures of the teeth (the periodontal ligament and alveolar bone). It is highly prevalent (severe periodontitis affects 10-15% of adults) and has multiple negative impacts on quality of life. Epidemiological data confirm that diabetes is a major risk factor for periodontitis; susceptibility to periodontitis is increased by approximately threefold in people with diabetes. There is a clear rela",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35688447",
+            "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+            "authors": [
+              "Herrera David",
+              "Sanz Mariano",
+              "Kebschull Moritz",
+              "Jepsen Søren",
+              "Sculean Anton"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2022",
+            "abstract": "The recently published clinical practice guideline (CPG) for the treatment of periodontitis in stages I-III provided evidence-based recommendations for the treatment of periodontitis patients, defined according to the 2018 classification. Stage IV periodontitis shares the severity and complexity characteristics of stage III periodontitis, but includes the anatomical and functional sequelae of tooth and periodontal attachment loss (tooth flaring and drifting, bite collapse, etc.), which require a",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9495612",
+            "title": "Microbial complexes in subgingival plaque.",
+            "authors": [
+              "Socransky S S",
+              "Haffajee A D",
+              "Cugini M A",
+              "Smith C",
+              "Kent R L"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "1998",
+            "abstract": "It has been recognized for some time that bacterial species exist in complexes in subgingival plaque. The purpose of the present investigation was to attempt to define such communities using data from large numbers of plaque samples and different clustering and ordination techniques. Subgingival plaque samples were taken from the mesial aspect of each tooth in 185 subjects (mean age 51 +/- 16 years) with (n = 160) or without (n = 25) periodontitis. The presence and levels of 40 subgingival taxa ",
+            "classification": {
+              "study_type": "Cross-sectional/Microbiome",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37435999",
+            "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+            "authors": [
+              "Jepsen Karin",
+              "Sculean Anton",
+              "Jepsen Søren"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2023",
+            "abstract": "Regenerative periodontal surgical procedures are an important component in the treatment of advanced periodontitis. They aim to improve the long-term prognosis of teeth that are periodontally compromised by the presence of intrabony and/or furcation defects, resulting biologically in formation of root cementum, periodontal ligament, and alveolar bone and evidenced clinically by reduction of deep pockets to maintainable probing depths and/or improvements of vertical and horizontal furcation depth",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35420698",
+            "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+            "authors": [
+              "Simpson Terry C",
+              "Clarkson Janet E",
+              "Worthington Helen V",
+              "MacDonald Laura",
+              "Weldon Jo C"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Glycaemic control is a key component in diabetes mellitus (diabetes) management. Periodontitis is the inflammation and destruction of the underlying supporting tissues of the teeth. Some studies have suggested a bidirectional relationship between glycaemic control and periodontitis.  Treatment for periodontitis involves subgingival instrumentation, which is the professional removal of plaque, calculus, and debris from below the gumline using hand or ultrasonic instruments. This is known variousl",
+            "classification": {
+              "study_type": "Systematic Review/Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36883660",
+            "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+            "authors": [
+              "Wielento A",
+              "Lagosz-Cwik K B",
+              "Potempa J",
+              "Grabiec A M"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2023",
+            "abstract": "Gingival fibroblasts (GFs) are essential components of the periodontium, which are responsible for the maintenance of tissue structure and integrity. However, the physiological role of GFs is not restricted to the production and remodeling of the extracellular matrix. GFs also act as sentinel cells that modulate the immune response to oral pathogens invading the gingival tissue. As an important \"nonclassical\" component of the innate immune system, GFs respond to bacteria and damage-related signa",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37452425",
+            "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes Mediate Endoplasmic Reticulum Stress and Immune Reprogramming for Periodontitis Therapy.",
+            "authors": [
+              "Cui Ya",
+              "Hong Shebin",
+              "Xia Yunhui",
+              "Li Xiaojing",
+              "He Xiaoya"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Periodontitis is a chronic infectious disease caused by bacterial irritation. As an essential component of the host immunity, macrophages are highly plastic and play a crucial role in inflammatory response. An appropriate and timely transition from proinflammatory (M1) to anti-inflammatory (M2) macrophages is indispensable for treating periodontitis. As M2 macrophage-derived exosomes (M2-exos) can actively target inflammatory sites and modulate immune microenvironments, M2-exos can effectively t",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29193334",
+            "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+            "authors": [
+              "Ivanovski Saso",
+              "Lee Ryan"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "abstract": "The integrity of the peri-implant soft-tissue seal is crucial for maintaining peri-implant tissue health. Whilst the transmucosal component of the restored implant shares some common features with teeth, namely the presence of a junctional epithelium and a connective tissue component, there are some important differences. A key difference is the nature of the relationship of the connective tissue with the implant surface, whereby there is 'adaptation' of collagen fibers in a parallel orientation",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38907216",
+            "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+            "authors": [
+              "Peng Shumin",
+              "Fu Haojie",
+              "Li Rui",
+              "Li Hui",
+              "Wang Shuyuan"
+            ],
+            "journal": "Journal of nanobiotechnology",
+            "year": "2024",
+            "abstract": "Periodontitis is a chronic inflammation caused by a bacterial infection and is intimately associated with an overactive immune response. Biomaterials are being utilized more frequently in periodontal therapy due to their designability and unique drug delivery system. However, local and systemic immune response reactions driven by the implantation of biomaterials could result in inflammation, tissue damage, and fibrosis, which could end up with the failure of the implantation. Therefore, immunolo",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38362600",
+            "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+            "authors": [
+              "Baima G",
+              "Ferrocino I",
+              "Del Lupo V",
+              "Colonna E",
+              "Thumbigere-Math V"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2024",
+            "abstract": "Mounting evidence indicates that periodontitis-related oral bacteria may contribute to gut microbial dysbiosis. This clinical study aimed to explore the oral-gut microbial signatures associated with periodontitis and to longitudinally evaluate the effect of periodontal treatment on the oral and gut microbial composition. Stool and saliva samples from generalized stage III/IV periodontitis patients (n = 47) were collected and analyzed by 16S ribosomal RNA gene amplicon sequencing, before and 3 mo",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7782979",
+            "title": "The modified papilla preservation technique. A new surgical approach for interproximal regenerative procedures.",
+            "authors": [
+              "Cortellini P",
+              "Prato G P",
+              "Tonetti M S"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "1995",
+            "abstract": "A modification of the papilla preservation technique has been applied to achieve primary closure of the interproximal tissue over barrier membranes placed coronal to the alveolar crest. Fifteen patients with deep intrabony interproximal defects were treated. Defects had a probing attachment level loss of 9.9 +/- 3.2 mm and a recession of the gingival margin of 1.7 +/- 1.6 mm. The depth of the intrabony component was 5.5 +/- 2.9 mm; while the suprabony component was 5.9 +/- 2.0 mm. Titanium-reinf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29194794",
+            "title": "The periodontal pocket.",
+            "authors": [
+              "Donos Nikolaos"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "abstract": "Periodontal disease is synonymous with the presence of periodontal pockets, and very often the clinical success of periodontal therapy is based on periodontal pocket depth reduction. Therefore, in the fields of periodontology and implant dentistry, significant research effort has been placed on the etiopathogenesis, diagnosis and treatment of periodontal/peri-implant disease and as a consequence on pocket pathology. In this volume of Periodontology 2000, the in-depth reviews include topics rangi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29291254",
+            "title": "Supportive periodontal therapy (SPT) for maintaining the dentition in adults treated for periodontitis.",
+            "authors": [
+              "Manresa Carolina",
+              "Sanz-Miralles Elena C",
+              "Twigg Joshua",
+              "Bravo Manuel"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "Periodontitis is a bacterially-induced, chronic inflammatory disease that destroys the connective tissues and bone that support teeth. Active periodontal treatment aims to reduce the inflammatory response, primarily through eradication of bacterial deposits. Following completion of treatment and arrest of inflammation, supportive periodontal therapy (SPT) is employed to reduce the probability of re-infection and progression of the disease; to maintain teeth without pain, excessive mobility or pe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12010523",
+            "title": "Clinical significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing.",
+            "authors": [
+              "Cobb Charles M"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2002",
+            "abstract": "Analysis of Egyptian hieroglyphics and medical papyri indicate that non-surgical periodontal treatment was common 3000-4000 years ago. Even today, scaling and root planing (SRP) remains an essential part of successful periodontal therapy. The collective evidence from numerous clinical trials reveals a consistency of clinical response in the treatment of chronic periodontitis by SRP using manual, sonic, or ultrasonic instrumentation. Thus, SRP remains the 'gold standard' to which more recently de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18673013",
+            "title": "Rethinking periodontal inflammation.",
+            "authors": [
+              "Offenbacher Steven",
+              "Barros Silvana P",
+              "Beck James D"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "2008",
+            "abstract": "Clinical signs and symptoms, as well as medical and dental history, are all considered in the clinical determination of gingival inflammation and periodontal disease severity. However, the \"biologic systems model\" highlights that the clinical presentation of periodontal disease is closely tied to the underlying biologic phenotype. We propose that the determination and integration of subject-level factors, microbial composition, systemic immune response, and gingival tissue inflammatory mediator ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20599785",
+            "title": "Complement and periodontitis.",
+            "authors": [
+              "Hajishengallis George"
+            ],
+            "journal": "Biochemical pharmacology",
+            "year": "2010",
+            "abstract": "Although the complement system is centrally involved in host defense, its overactivation or deregulation (e.g., due to inherent host genetic defects or due to pathogen subversion) may excessively amplify inflammation and contribute to immunopathology. Periodontitis is an oral infection-driven chronic inflammatory disease which exerts a systemic impact on health. This paper reviews evidence linking complement to periodontal inflammation and pathogenesis. Clinical and histological observations sho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17243998",
+            "title": "A minimally invasive surgical technique with an enamel matrix derivative in the regenerative treatment of intra-bony defects: a novel approach to limit morbidity.",
+            "authors": [
+              "Cortellini Pierpaolo",
+              "Tonetti Maurizio S"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2007",
+            "abstract": "This study was undertaken to describe a new surgical approach (minimally invasive surgical technique, MIST) and to evaluate preliminarily its clinical performance and patient perception associated with the application of enamel matrix derivative (EMD) in the treatment of isolated deep intra-bony defects.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11276517",
+            "title": "Osseous resective surgery.",
+            "authors": [
+              "Carnevale G",
+              "Kaldahl W B"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2000",
+            "abstract": "Osseous resective surgery necessitates following certain guidelines for proper recontouring of the alveolar bone and proper management and positioning of the gingival tissues. The results from osseous resective surgery are technique sensitive. It has limited use in treating cases with very deep intrabony or hemiseptal defects, which should be treated with a different surgical approach. If osseous resective surgery is used in advanced lesions, a compromise in the amount of probing depth reduction",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34269040",
+            "title": "The apically incised coronally advanced surgical technique (AICAST) for periodontal regeneration in isolated defects: a case series.",
+            "authors": [
+              "Calzavara Dino",
+              "Morante Segio",
+              "Sanz Javier",
+              "Noguerol Fernando",
+              "Gonzalez Jerian"
+            ],
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "abstract": "The aim of this retrospective case series was to report the performance up to 5 years of an innovative surgical design (the apically incised coronally advanced surgical technique [AICAST]) for the regenerative treatment of one- or two-walled intrabony periodontal lesions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3533789",
+            "title": "Juvenile periodontitis.",
+            "authors": [
+              "Genco R J",
+              "Christersson L A",
+              "Zambon J J"
+            ],
+            "journal": "International dental journal",
+            "year": "1986",
+            "abstract": "Juvenile periodontitis occurs in children and young adults and can be classified into: periodontitis which occurs in otherwise healthy individuals, and periodontitis which occurs in juveniles with systemic disease. The periodontitis which occurs in otherwise healthy individuals consists of two major forms: juvenile periodontitis, also called periodontosis or localized juvenile periodontitis (LJP), and generalized juvenile periodontitis which includes early onset adult periodontitis, recurrent ne",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "α1 受體於牙齦組織及牙周韌帶有所表達，α1 阻斷劑理論上可能影響牙齦微循環與免疫調節。然而本適應症為含牙周成分的先天畸形症候群，非單純牙周炎。文獻20篇均為一般牙周病治療研究，完全不涉及 Alfuzosin，無法作為支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn": {
+        "score": 0.9999886751174928,
+        "rank": 65
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dandy-Walker 症候群為第四腦室及小腦蚓部先天發育畸形，由多種基因突變引起（如 ZIC1、ZIC4）。α1 受體阻斷與神經管發育或後顱窩結構異常無已知機轉連結。此為先天結構性畸形，非藥物可逆轉之適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "txgnn": {
+        "score": 0.999987006187439,
+        "rank": 70
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛幹結構異常（如 Monilethrix, Pili torti 等）為角蛋白或橋粒相關基因突變導致，與 α1 腎上腺素訊號通路無直接機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "familial isolated trichomegaly",
+      "txgnn": {
+        "score": 0.9993964433670044,
+        "rank": 1311
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "睫毛過長症（trichomegaly）與遺傳因素或 EGFR 抑制劑副作用相關。α1 阻斷機轉與睫毛生長調控無已知關聯。TxGNN 分數雖略降（0.9994），但仍無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.9990174770355223,
+        "rank": 1962
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過敏性蕁麻疹主要由 IgE 介導的肥大細胞脫顆粒引起。α1 受體存在於皮膚血管平滑肌，理論上 α1 阻斷可緩解血管擴張相關紅斑。然而標準治療為抗組織胺及 omalizumab，alpha blocker 無臨床地位。有少數個案描述腎上腺素能機轉與慢性蕁麻疹相關，但尚屬假說階段。列為 Research Question 而非 Hold，建議觀察後續基礎研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "persistent fetal circulation syndrome",
+      "txgnn": {
+        "score": 0.9952385425567628,
+        "rank": 6286
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "持續性肺動脈高壓（PPHN）的病生理涉及肺血管收縮，α1 受體阻斷理論上可擴張肺血管。歷史上非選擇性 alpha blocker（如 tolazoline、phentolamine）曾用於新生兒 PPHN，但因全身性低血壓副作用已被 iNO 及西地那非取代。Alfuzosin 為選擇性 α1 拮抗劑，理論上肺血管擴張作用可能存在，但新生兒藥物動力學資料完全缺乏，且市場上已有更優選療法。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.9926506876945496,
+        "rank": 8506
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭皮型單純性少毛症（LPAR6 或 LIPH 基因突變）為毛囊結構缺陷，與 α1 腎上腺素通路無已知機轉關聯。TxGNN 分數雖有下降趨勢，但無任何支持性臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9923457503318788,
+        "rank": 8758
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛症合併粟丘疹為罕見遺傳性毛囊疾病，與 α1 腎上腺素訊號通路無已知機轉關聯。此批次中分數最低者，顯示模型信心略降，但仍無臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "familial isolated trichomegaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "familial isolated trichomegaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "familial isolated trichomegaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "persistent fetal circulation syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "persistent fetal circulation syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "persistent fetal circulation syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alfuzosin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

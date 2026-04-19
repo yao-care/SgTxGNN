@@ -1,0 +1,340 @@
+## Cyproheptadine (DB00434) 藥物再利用證據分析
+
+**分析概要**：Cyproheptadine 為第一代 H1 受體拮抗劑兼 5-HT2 拮抗劑，此雙重機轉為其多適應症再利用提供機轉基礎。以下就 10 項預測適應症逐一評估。
+
+---
+
+```json
+{
+  "drug": "Cyproheptadine",
+  "drugbank_id": "DB00434",
+  "analysis_date": "2026-04-04",
+  "core_moa_inference": {
+    "H1_antagonism": "第一代抗組織胺，阻斷 H1 受體介導的過敏反應",
+    "5HT2_antagonism": "5-HT2 受體拮抗劑，用於偏頭痛預防及血清素症解毒",
+    "anticholinergic": "輕度抗膽鹼效應，影響腺體分泌"
+  },
+  "indications": [
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyproheptadine 作為第一代 H1 拮抗劑，直接阻斷肥大細胞脫顆粒後釋放的組織胺與 H1 受體結合，抑制風團（wheal）與潮紅（flare）反應。5-HT2 拮抗作用可能協同抑制血管滲透性。此為抗組織胺藥物最核心的使用情境，具強力的類別機轉支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00762983",
+          "relevance_grade": "C",
+          "reasoning": "本試驗為 Loratadine（第二代抗組織胺）的藥物使用調查，非 Cyproheptadine 研究。雖同屬 H1 拮抗劑，但藥物特異性缺乏，僅提供間接的適應症背景，相關性低。"
+        },
+        {
+          "nct_id": "NCT07101445",
+          "relevance_grade": "C",
+          "reasoning": "PARADE 試驗研究 Dexamethasone 預防化療相關過敏反應，試驗藥物與適應症情境均與 Cyproheptadine 用於過敏性蕁麻疹無直接對應關係。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "33198523", "study_type": "Systematic Review", "tier": 2},
+        {"pmid": "35396016", "study_type": "Drug Review", "tier": 3},
+        {"pmid": "22686617", "study_type": "Drug Review", "tier": 3},
+        {"pmid": "27500993", "study_type": "Safety Review", "tier": 3},
+        {"pmid": "18336052", "study_type": "PK/PD Review", "tier": 3},
+        {"pmid": "18339040", "study_type": "Drug Review", "tier": 3},
+        {"pmid": "39549290", "study_type": "RCT", "tier": 3},
+        {"pmid": "21162645", "study_type": "Drug Review", "tier": 3},
+        {"pmid": "11398910", "study_type": "Drug Review", "tier": 3},
+        {"pmid": "16259582", "study_type": "Drug Review", "tier": 3}
+      ],
+      "evidence_gap": "所有提供的文獻均針對其他第二代抗組織胺藥（Loratadine, Bilastine, Rupatadine, Desloratadine），無 Cyproheptadine 直接試驗。L3 評級基於第一代抗組織胺的歷史臨床使用及強力類別機轉推斷。"
+    },
+    {
+      "disease_name": "cold urticaria",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "冷性蕁麻疹的病理機制涉及寒冷刺激誘發皮膚肥大細胞脫顆粒，大量釋放組織胺。Cyproheptadine 的 H1 拮抗作用直接阻斷此反應；5-HT2 拮抗特性可能進一步抑制血管擴張與滲透性增加。文獻中有 5 篇直接針對 Cyproheptadine 的臨床研究，包含 1 篇雙盲對照試驗（PMID:334082），是所有適應症中最強的直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "334082",
+          "study_type": "Double-blind RCT",
+          "tier": 1
+        },
+        {
+          "pmid": "7488341",
+          "study_type": "Comparative RCT",
+          "tier": 1
+        },
+        {
+          "pmid": "6480953",
+          "study_type": "Comparative Clinical Study",
+          "tier": 1
+        },
+        {
+          "pmid": "6102102",
+          "study_type": "Clinical Study",
+          "tier": 1
+        },
+        {
+          "pmid": "5287036",
+          "study_type": "Clinical Study",
+          "tier": 1
+        },
+        {
+          "pmid": "8447871",
+          "study_type": "Review",
+          "tier": 2
+        },
+        {
+          "pmid": "6209972",
+          "study_type": "Review",
+          "tier": 2
+        },
+        {
+          "pmid": "26038847",
+          "study_type": "RCT (Comparator)",
+          "tier": 2
+        },
+        {
+          "pmid": "20143651",
+          "study_type": "RCT (Comparator)",
+          "tier": 2
+        },
+        {
+          "pmid": "20609144",
+          "study_type": "Case Report",
+          "tier": 3
+        }
+      ],
+      "evidence_gap": "所有直接證據均為 1971-1995 年的研究，缺乏現代 GCP 標準的 RCT。研究樣本量偏小，未報告現代安全性終點。建議進行符合當代規範的驗證性研究。"
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "過敏性鼻炎（鼻腔疾病主要類型）的症狀由組織胺 H1 受體介導，包括鼻癢、噴嚏、水樣分泌物。Cyproheptadine 的 H1 拮抗作用理論上可緩解上述症狀；抗膽鹼效應可能減少鼻腺體分泌。然而，第一代抗組織胺的嗜睡副作用限制其日常使用，現代指引已以第二代藥物取代。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03640273",
+          "relevance_grade": "C",
+          "reasoning": "泰國草藥 Prapchompoothaweep 對比 Loratadine 治療過敏性鼻炎的 Phase 2 試驗，與 Cyproheptadine 無直接相關，僅提供過敏性鼻炎治療的背景脈絡。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "32312261", "study_type": "RCT (Other Drug)", "tier": 3},
+        {"pmid": "19769798", "study_type": "Animal Study", "tier": 3},
+        {"pmid": "20128424", "study_type": "RCT (Other Drug)", "tier": 3}
+      ],
+      "evidence_gap": "所有文獻均研究其他藥物（Loratadine, Rupatadine），無 Cyproheptadine 直接臨床證據。評為 L4 純基於 H1 拮抗劑類別間接推斷。"
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎主要由病毒（Rhinovirus, Coronavirus 等）或細菌（A 型鏈球菌）感染引起，炎症介質以細胞激素（IL-1β, TNF-α）為主，組織胺並非核心病理介質。Cyproheptadine 的抗組織胺和 5-HT2 拮抗機轉與感染性喉咽炎的病理生理聯繫極為薄弱，無合理的藥理學支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "零臨床試驗，零文獻支持。TxGNN 預測評分（0.9913）高，但缺乏機轉合理性，屬純算法預測產出，不應直接採納。"
+    },
+    {
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "異位性皮膚炎的瘙癢部分由組織胺和 5-HT 介導，Cyproheptadine 的雙重拮抗在機轉上具潛在相關性。然而「難治性」異位性皮膚炎涉及複雜的 Th2/Th17 免疫失調（IL-4, IL-13, IL-31 軸），已有靶向生物製劑（Dupilumab, Tralokinumab）為標準治療，第一代抗組織胺的鎮靜效應可短暫緩解瘙癢但無疾病修飾作用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "提供數據中無臨床試驗或文獻支持，評為 L5。建議先確認是否存在歷史小型研究或個案報告後，再考慮重新評估。"
+    },
+    {
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn_score": 0.9853,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Cyproheptadine 作用於 IgE 介導反應的下游（H1 受體層級），並非直接干預 IgE 產生、FcεRI 訊號或 Th2 分化等上游過敏致敏機轉。抗組織胺藥物不能降低 IgE 敏感性（atopy），機轉聯繫為間接且薄弱的推斷。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "無臨床證據，機轉聯繫不合理，評為 L5。此適應症更適合以抗 IgE 療法（Omalizumab）或免疫調節劑研究。"
+    },
+    {
+      "disease_name": "nasopharyngitis",
+      "txgnn_score": 0.9834,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻咽炎（普通感冒）主要為病毒性感染，組織胺在其病理中的角色有限（急性期可能有少量肥大細胞反應）。現有 Cochrane 系統回顧顯示，抗組織胺藥物對普通感冒症狀的整體效益不顯著。機轉聯繫薄弱，且感冒使用第一代抗組織胺的嗜睡風險高於其效益。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "無直接證據，評為 L5。"
+    },
+    {
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn_score": 0.9655,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "玫瑰痤瘡相關結膜炎涉及神經血管功能失調、先天免疫激活（Toll-like receptor 信號），以及 cathelicidin（LL-37）的異常剪切。組織胺和血清素在此病理中的角色尚未建立，Cyproheptadine 的雙重拮抗機轉與此適應症的關聯性極弱，屬高度推測性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "無臨床證據，TxGNN 分數為本藥物評估中最低（0.9655），評為 L5。此適應症現行治療為局部 Ivermectin、Doxycycline 及人工淚液，機轉上與抗組織胺無交集。"
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9578,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "5-HT2 拮抗是 Cyproheptadine 用於偏頭痛預防的核心機轉：5-HT2B/2C 受體在三叉神經血管系統的致敏化及皮質擴散性抑制（cortical spreading depression）中發揮關鍵作用，拮抗此受體可降低發作頻率。H1 拮抗作用透過「組織胺-偏頭痛軸」（histamine-migraine axis）提供輔助效益。Cyproheptadine 目前已為兒科偏頭痛預防的 off-label 標準選項之一。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06531707",
+          "relevance_grade": "C",
+          "reasoning": "Ibuprofen/Loratadine 固定劑量組合治療頭痛的 Phase 3 試驗。Loratadine 屬第二代抗組織胺，不具 5-HT2 拮抗作用，與 Cyproheptadine 的頭痛預防機轉不同，相關性低。"
+        },
+        {
+          "nct_id": "NCT05190627",
+          "relevance_grade": "C",
+          "reasoning": "Loratadine + Rapamycin 治療頭痛的 Phase 2 試驗，著重 mTOR 信號通路，與 Cyproheptadine 的 5-HT2/H1 機轉無關聯。"
+        },
+        {
+          "nct_id": "NCT07101445",
+          "relevance_grade": "C",
+          "reasoning": "Dexamethasone 預防化療過敏反應試驗，與頭痛治療適應症及 Cyproheptadine 均無關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39585058",
+          "study_type": "Retrospective Cohort Study",
+          "tier": 1
+        },
+        {
+          "pmid": "9951205",
+          "study_type": "Case Report/Commentary",
+          "tier": 2
+        },
+        {
+          "pmid": "24433203",
+          "study_type": "Mechanistic Review",
+          "tier": 2
+        },
+        {
+          "pmid": "6398056",
+          "study_type": "Pharmacology Review",
+          "tier": 2
+        },
+        {
+          "pmid": "20447666",
+          "study_type": "Clinical Review",
+          "tier": 2
+        },
+        {
+          "pmid": "41719916",
+          "study_type": "Review",
+          "tier": 2
+        },
+        {
+          "pmid": "29556858",
+          "study_type": "Review",
+          "tier": 2
+        },
+        {
+          "pmid": "40614698",
+          "study_type": "Case Series",
+          "tier": 3
+        },
+        {
+          "pmid": "25217187",
+          "study_type": "Clinical Review",
+          "tier": 3
+        },
+        {
+          "pmid": "15548924",
+          "study_type": "Consensus Review",
+          "tier": 3
+        }
+      ],
+      "evidence_gap": "PMID:39585058（2024 年日本回顧性研究）為迄今最直接的現代證據；Cyclic vomiting syndrome 相關文獻亦間接支持 Cyproheptadine 療效（屬偏頭痛等位症）。缺乏前瞻性 Phase 2/3 RCT。適用族群主要為兒科，成人族群證據更為薄弱。"
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9556,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "三叉自律神經頭痛（TACs，包括陣發性偏側頭痛、叢集性頭痛）的病理涉及三叉-副交感神經反射弓激活及下視丘功能異常。5-HT2 拮抗作用可能調節三叉神經痛覺敏感化；組織胺作為神經傳導物質在叢集性頭痛中的角色已被確認（H1 受體位於三叉神經節），使 Cyproheptadine 的雙重機轉具合理的病理生理基礎。PMID:39434953（2024）提供了陣發性偏側頭痛的首個初步直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39434953",
+          "study_type": "Preliminary Clinical Study",
+          "tier": 1
+        },
+        {
+          "pmid": "9195770",
+          "study_type": "Case Report",
+          "tier": 1
+        },
+        {
+          "pmid": "494146",
+          "study_type": "Open-label Clinical Study",
+          "tier": 1
+        },
+        {
+          "pmid": "3607869",
+          "study_type": "Case Series",
+          "tier": 2
+        },
+        {
+          "pmid": "6440873",
+          "study_type": "Clinical Review",
+          "tier": 2
+        }
+      ],
+      "evidence_gap": "全部證據規模小且多為歷史研究；PMID:39434953 雖為 2024 年新證，但屬初步調查（preliminary investigation），樣本數不明。TACs 屬罕見病，招募困難，建議設計 n-of-1 或適應性試驗設計的 Phase 2 研究。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要矩陣
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 直接 Cyproheptadine 證據 |
+|--------|-----------|---------|---------|------|------------------------|
+| Cold Urticaria | 0.9976 | **L2** | **S2** | Proceed with Guardrails | ✅ 5 篇直接研究（含 RCT） |
+| Headache Disorder | 0.9578 | **L3** | **S2** | Proceed with Guardrails | ✅ 回顧性研究 + 歷史臨床資料 |
+| Allergic Urticaria | 0.9996 | **L3** | **S2** | Proceed with Guardrails | ⚠️ 類別機轉推斷（無直接試驗） |
+| Trigeminal Autonomic Cephalalgia | 0.9556 | **L3** | **S1** | Research Question | ✅ 初步研究 + 個案報告 |
+| Nasal Cavity Disease | 0.9921 | **L4** | **S1** | Research Question | ❌ 間接類別效應 |
+| Acute Laryngopharyngitis | 0.9913 | **L5** | **S0** | Hold | ❌ 機轉不合理 |
+| Recalcitrant Atopic Dermatitis | 0.9892 | **L5** | **S0** | Hold | ❌ 無數據 |
+| IgE Responsiveness, Atopic | 0.9853 | **L5** | **S0** | Hold | ❌ 機轉不合理 |
+| Nasopharyngitis | 0.9834 | **L5** | **S0** | Hold | ❌ 機轉薄弱 |
+| Rosacea Conjunctivitis | 0.9655 | **L5** | **S0** | Hold | ❌ 機轉不合理 |
+
+---
+
+## 🔑 關鍵發現
+
+### ⚠️ TxGNN 分數與臨床證據的落差
+**重要警示**：TxGNN 預測分數與實際臨床證據等級存在顯著落差。多個分數 >0.99 的適應症（急性喉咽炎、鼻咽炎）卻是 L5（零臨床證據），反映 TxGNN 的圖神經網路預測能力需配合機轉評估與文獻驗證，**不應以預測分數高低直接決定優先順序**。
+
+### ✅ 最具優先性的再利用方向
+1. **Cold Urticaria**（L2/S2）：最強直接證據，有雙盲 RCT，建議優先推進至現代驗證試驗
+2. **兒科偏頭痛預防**（L3/S2，headache disorder 子類型）：有 2024 年回顧性研究，建議規劃前瞻性研究
+
+### ❌ 應擱置的方向
+急性喉咽炎、鼻咽炎、IgE 敏感性、玫瑰痤瘡結膜炎等 5 項——機轉不合理且零臨床數據，不建議投入研究資源。
+
+---
+> ⚕️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選適應症需經過前瞻性臨床驗證方可應用於臨床實踐。

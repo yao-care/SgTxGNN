@@ -1,0 +1,264 @@
+```json
+{
+  "drug": "Ketoconazole",
+  "drugbank_id": "DB01026",
+  "analysis_date": "2026-04-04",
+  "safety_note": "Ketoconazole（系統性）因肝毒性已受多國藥政限制，分析需區分外用 vs 系統性用途",
+  "indications": [
+    {
+      "disease_name": "acne (disease)",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "雙重機轉：(1) 抗雄激素效應 — 抑制 CYP17A1/CYP11A1 抑制皮脂腺雄激素合成，減少皮脂分泌；(2) 抗 Malassezia 活性 — 抑制 Malassezia folliculitis（真菌性痤瘡）相關菌種，與痤瘡臨床重疊。屬外用局部應用，規避系統性肝毒性疑慮。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07237763",
+          "relevance_grade": "A",
+          "reasoning": "直接比較 Topical Ketoconazole 2% Cream vs Adapalene 2% Cream 治療痤瘡，樣本 52 人，ACTIVE_NOT_RECRUITING，Phase NA（未正式分期），屬探索性臨床研究，提供初步直接臨床證據"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "8090657", "study_type": "Clinical Trial", "tier": "2", "note": "PCOS高雄激素痤瘡用ketoconazole治療，直接相關"},
+        {"pmid": "19445767", "study_type": "Review/Cohort", "tier": "2", "note": "PCOS與痤瘡機轉關聯，間接支持抗雄機轉"},
+        {"pmid": "12566804", "study_type": "Review", "tier": "2", "note": "系統性痤瘡治療更新，提及ketoconazole抗雄路徑"},
+        {"pmid": "8255067", "study_type": "Review", "tier": "2", "note": "Pityrosporum/Malassezia與皮膚病關聯，機轉連結"},
+        {"pmid": "32872149", "study_type": "Review", "tier": "2", "note": "Adapalene對照藥物背景資料"},
+        {"pmid": "33216275", "study_type": "RCT", "tier": "1", "note": "Levoketoconazole（類似物）RCT，機轉類比但適應症為Cushing's"},
+        {"pmid": "23600337", "study_type": "Review", "tier": "3", "note": "嬰兒皮疹，間接"},
+        {"pmid": "8629828", "study_type": "Case Report", "tier": "3", "note": "新生兒Malassezia膿疱，機轉相關但非痤瘡"},
+        {"pmid": "39622522", "study_type": "Observational", "tier": "2", "note": "皮膚科藥典優化，藥物選用背景"},
+        {"pmid": "35029850", "study_type": "Case Report", "tier": "3", "note": "Cushing's症候群，相關性低"}
+      ]
+    },
+    {
+      "disease_name": "zinc, elevated plasma",
+      "txgnn_score": 0.9538,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉連結。Ketoconazole 不具調節血漿鋅濃度的已知藥理作用。TxGNN 預測可能源於知識圖譜噪音或間接代謝路徑聯繫，缺乏生物學合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9311,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉連結。Leprosy 由 Mycobacterium leprae（分枝桿菌）引起，屬細菌感染；Ketoconazole 為抗真菌藥，無抗分枝桿菌活性。文獻 20 篇均為抗真菌相關主題（pityriasis versicolor、利什曼病等），pmid:10396193 雖提及 leprosy 但描述的是麻瘋病患者的感染性角膜炎，非ketoconazole治療leprosy的證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "10396193", "study_type": "Observational", "tier": "3", "note": "麻瘋病患者角膜炎，非ketoconazole治療leprosy的證據"},
+        {"pmid": "37907954", "study_type": "Review", "tier": "2", "note": "NTD口服抗感染藥pipeline，ketoconazole未列入leprosy治療"},
+        {"pmid": "1559307", "study_type": "Review", "tier": "2", "note": "Rifampicin藥物交互作用，相關性低"},
+        {"pmid": "11394481", "study_type": "RCT", "tier": "1", "note": "洗髮精皮膚炎治療，與leprosy無關"},
+        {"pmid": "20877107", "study_type": "RCT", "tier": "1", "note": "花斑癬治療比較，與leprosy無關"}
+      ]
+    },
+    {
+      "disease_name": "vulvovaginal candidiasis",
+      "txgnn_score": 0.9295,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "直接且強力機轉：Ketoconazole 抑制真菌 CYP51（lanosterol 14α-demethylase），阻斷麥角固醇生合成，破壞 Candida 細胞膜完整性。對 C. albicans 具廣效活性，為陰道念珠菌感染的一線治療藥物類別。局部陰道製劑可最小化系統性肝毒性風險。",
+      "guardrails": [
+        "建議外用/陰道局部劑型，避免系統性口服（肝毒性風險）",
+        "C. glabrata 可能有較低敏感性，需確認菌種",
+        "注意唑類耐藥性趨勢（2025文獻提示）",
+        "妊娠安全性需特別評估"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03473418",
+          "relevance_grade": "A",
+          "reasoning": "Ketoconazole In Situ Gel vs Terconazole Cream，Phase 3，直接評估陰道念珠菌感染療效，n=69，狀態UNKNOWN（可能因藥物監管限制）"
+        },
+        {
+          "nct_id": "NCT01293643",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3b 隨機比較研究，已COMPLETED，n=99，直接提供陰道念珠菌感染的L1級證據"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "39907782", "study_type": "Systematic Review/Meta-analysis", "tier": "1", "note": "2025年陰道念珠菌治療雨傘型系統性回顧，最高等級證據"},
+        {"pmid": "41319137", "study_type": "Laboratory/Observational", "tier": "2", "note": "Non-albicans Candida耐藥性，臨床實用資訊"},
+        {"pmid": "16703718", "study_type": "Review", "tier": "1", "note": "復發性陰道念珠菌治療指引，ketoconazole歷史角色"},
+        {"pmid": "12228137", "study_type": "Review", "tier": "1", "note": "VVC完整臨床回顧"},
+        {"pmid": "16620487", "study_type": "Clinical Evidence Summary", "tier": "1", "note": "BMJ Evidence Based Medicine摘要"},
+        {"pmid": "10160477", "study_type": "Pharmacoeconomic Review", "tier": "2", "note": "藥物經濟學分析，支持臨床可行性"},
+        {"pmid": "21774671", "study_type": "Review", "tier": "2", "note": "復發性VVC替代治療"},
+        {"pmid": "24387809", "study_type": "Observational", "tier": "2", "note": "VVC病因學，流行病學背景"},
+        {"pmid": "9795266", "study_type": "Review", "tier": "2", "note": "慢性復發性VVC，治療策略"},
+        {"pmid": "11363911", "study_type": "Review", "tier": "2", "note": "廣泛念珠菌症回顧"}
+      ]
+    },
+    {
+      "disease_name": "urticaria, aquagenic",
+      "txgnn_score": 0.9269,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無可靠機轉連結。水源性蕁麻疹（aquagenic urticaria）為物理性蕁麻疹，病理機制涉及皮膚滲透壓改變或IgE介導的肥大細胞活化，與Ketoconazole的抗真菌或抗雄激素機轉無明顯交集。TxGNN分數可能反映知識圖譜中蕁麻疹→免疫→真菌的遠距聯繫。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9143,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無臨床或機轉依據。點狀上皮角結膜炎（PEK）主要為病毒/免疫/乾眼相關，Ketoconazole無已知眼科抗真菌外用製劑的直接證據用於此適應症。雖然真菌性角膜炎（fungal keratitis）可能與ketoconazole相關，但PEK並非真菌感染所致。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tinea profunda",
+      "txgnn_score": 0.9076,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "直接機轉：Tinea profunda（深部皮癬菌病，包含 Majocchi's granuloma、kerion）為皮癬菌侵入真皮深層所致，Ketoconazole 的麥角固醇合成抑制作用對皮癬菌屬（Trichophyton, Microsporum, Epidermophyton）有效。對於頑固性/深部感染，系統性抗真菌治療為必要，但現有更安全的替代藥（terbinafine, itraconazole）需納入比較。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "41417273", "study_type": "Review", "tier": "2", "note": "2025年頑固性皮癬菌病臨床微生物學特徵，提及azole治療"},
+        {"pmid": "38494619", "study_type": "Case Report", "tier": "3", "note": "Majocchi's Granuloma外陰案例，抗真菌治療選擇"},
+        {"pmid": "26044242", "study_type": "Case Report", "tier": "3", "note": "CARD9突變導致深部皮癬菌病，系統性治療需求"},
+        {"pmid": "30187507", "study_type": "Animal Study", "tier": "3", "note": "動物模型抗真菌藥止癢效果，間接支持抗真菌機轉"},
+        {"pmid": "23278484", "study_type": "Case Report", "tier": "3", "note": "特殊菌種tinea faciei案例"},
+        {"pmid": "23513554", "study_type": "Case Report", "tier": "3", "note": "老年患者kerion案例"}
+      ]
+    },
+    {
+      "disease_name": "nail infection (onychomycosis)",
+      "txgnn_score": 0.9071,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "已知抗真菌機轉對指甲真菌症有效（主要為Trichophyton rubrum），但Ketoconazole因甲板穿透性差，系統性用途受肝毒性限制，目前臨床已被terbinafine和itraconazole取代。新型局部/經皮給藥系統（如transdermal patch）或為再利用切入點。pmid:161994（1979年）為直接使用ketoconazole治療甲癬的早期證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01615913",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，transdermal patch結合terbinafine治療甲癬，非直接ketoconazole研究，但提示經皮給藥策略的可行性，ketoconazole可作為替代成分考量，n=18，UNKNOWN狀態"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "161994", "study_type": "Clinical Trial/Case Series", "tier": "2", "note": "1979年ketoconazole直接治療皮膚和甲癬，最直接的歷史臨床證據"},
+        {"pmid": "15934887", "study_type": "Review", "tier": "2", "note": "甲癬藥物治療全面回顧，包含azole比較"},
+        {"pmid": "9665975", "study_type": "Review", "tier": "1", "note": "甲癬病生理診斷治療指引，ketoconazole歷史角色"},
+        {"pmid": "10344609", "study_type": "Clinical Guideline Review", "tier": "1", "note": "甲癬治療管理建議"},
+        {"pmid": "10939306", "study_type": "Review", "tier": "2", "note": "老年甲癬，安全性考量"},
+        {"pmid": "24625577", "study_type": "Review", "tier": "2", "note": "2014年足趾甲真菌感染臨床綜述"},
+        {"pmid": "21846413", "study_type": "Review", "tier": "2", "note": "2011年指甲真菌感染"},
+        {"pmid": "19445781", "study_type": "Review", "tier": "2", "note": "2008年指甲真菌感染"},
+        {"pmid": "33293950", "study_type": "Observational", "tier": "2", "note": "糖尿病與非糖尿病族群真菌感染比較"},
+        {"pmid": "16375669", "study_type": "Review", "tier": "2", "note": "皮膚真菌感染抗真菌治療機轉"}
+      ]
+    },
+    {
+      "disease_name": "candida glabrata",
+      "txgnn_score": 0.9039,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "機轉存在但效力受限：Ketoconazole 抑制麥角固醇合成理論上對 C. glabrata（現更名 Nakaseomyces glabrata）有效，但該菌種對唑類藥物天然敏感性較低，且易發展獲得性耐藥（ERG11突變、藥物外排泵上調）。文獻以體外活性研究為主，MIC值高於C. albicans，臨床應用受限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "7830098", "study_type": "In vitro", "tier": "3", "note": "Ketoconazole vs fluconazole vs itraconazole對Candida spp.體外活性直接比較"},
+        {"pmid": "15258831", "study_type": "In vitro", "tier": "3", "note": "C. glabrata臨床分離株對voriconazole等體外活性"},
+        {"pmid": "26221097", "study_type": "In vitro", "tier": "3", "note": "Tacrolimus與azole類協同效應，耐藥性C. glabrata"},
+        {"pmid": "35528623", "study_type": "Observational", "tier": "2", "note": "伊朗azole耐藥率調查，提示耐藥趨勢"},
+        {"pmid": "35049954", "study_type": "Observational", "tier": "2", "note": "拉丁美洲C. glabrata抗真菌耐藥性，臨床參考"},
+        {"pmid": "32065088", "study_type": "In vitro", "tier": "3", "note": "金屬-azole複合物對生物膜活性"},
+        {"pmid": "25426605", "study_type": "Laboratory", "tier": "3", "note": "Fluconazole序貫治療中C. glabrata表型蛋白質組"},
+        {"pmid": "40687555", "study_type": "In vitro", "tier": "3", "note": "植物萃取物對oral candidiasis，間接相關"},
+        {"pmid": "27681573", "study_type": "Observational", "tier": "2", "note": "C. glabrata複合體流行病學及體外藥敏"},
+        {"pmid": "1818723", "study_type": "Review", "tier": "2", "note": "真菌性外陰陰道炎含C. glabrata"}
+      ]
+    },
+    {
+      "disease_name": "neonatal candidiasis",
+      "txgnn_score": 0.9039,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉可行但安全性疑慮嚴重：Ketoconazole 抗真菌機轉對新生兒念珠菌感染理論上有效，且有1983、1989年案例報告直接記錄使用。然而：(1) 新生兒肝臟代謝未成熟，肝毒性風險更高；(2) 現有更安全替代藥（fluconazole、amphotericin B）已成為新生兒標準治療；(3) 藥物監管機構已限制ketoconazole在特殊族群使用。Hold理由：安全性風險高於臨床獲益，不宜作為再利用優先項目。",
+      "safety_concerns": [
+        "新生兒肝毒性風險（CYP450未成熟）",
+        "藥物相互作用廣泛",
+        "更安全替代藥已存在（fluconazole為新生兒一線）",
+        "孕期/新生兒用藥安全分級不佳"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "6302455", "study_type": "Case Report", "tier": "3", "note": "1983年新生兒系統性念珠菌以miconazole+ketoconazole治療，歷史直接證據"},
+        {"pmid": "2711272", "study_type": "Case Report", "tier": "3", "note": "1989年口服ketoconazole+flucytosine治療新生兒系統性念珠菌"},
+        {"pmid": "14626500", "study_type": "Review", "tier": "2", "note": "新生兒念珠菌症抗真菌藥物治療，ketoconazole歷史角色"},
+        {"pmid": "25506564", "study_type": "Review", "tier": "2", "note": "先天性念珠菌症，治療選擇"},
+        {"pmid": "8198857", "study_type": "Case Report/Series", "tier": "3", "note": "新生兒腎臟念珠菌症，治療考量"},
+        {"pmid": "34898894", "study_type": "Review", "tier": "2", "note": "懷孕期抗真菌藥安全性，風險評估"},
+        {"pmid": "8763460", "study_type": "Review", "tier": "2", "note": "兒童皮膚黴菌症，兒科安全性"},
+        {"pmid": "24209593", "study_type": "Clinical Evidence Summary", "tier": "1", "note": "口咽念珠菌症（成人），治療對照"},
+        {"pmid": "1476286", "study_type": "Review", "tier": "2", "note": "系統性念珠菌症（成人），機轉背景"},
+        {"pmid": "22348417", "study_type": "Clinical Evidence Summary", "tier": "1", "note": "口咽念珠菌症臨床證據"}
+      ]
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": ["vulvovaginal candidiasis"],
+      "L2": [],
+      "L3": ["acne (disease)", "tinea profunda", "nail infection"],
+      "L4": ["candida glabrata", "neonatal candidiasis"],
+      "L5": ["zinc elevated plasma", "leprosy", "urticaria aquagenic", "punctate epithelial keratoconjunctivitis"]
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "vulvovaginal candidiasis",
+        "rationale": "L1證據（2個Phase 3試驗），強力機轉，局部給藥規避肝毒性，最具臨床推進可行性"
+      },
+      {
+        "rank": 2,
+        "disease": "acne (disease)",
+        "rationale": "L3證據＋活躍臨床試驗（NCT07237763），雙重機轉（抗雄+抗Malassezia），外用製劑安全，具差異化開發潛力"
+      },
+      {
+        "rank": 3,
+        "disease": "nail infection (onychomycosis)",
+        "rationale": "L3證據＋歷史使用記錄（1979），新型經皮給藥系統可解決傳統限制"
+      },
+      {
+        "rank": 4,
+        "disease": "tinea profunda",
+        "rationale": "L3文獻支持，難治性深部皮癬菌病有未被滿足需求，但需與terbinafine/itraconazole比較"
+      }
+    ],
+    "global_safety_note": "系統性口服Ketoconazole因肝毒性已被EMA/FDA嚴格限制（2013-2016），所有再利用候選應優先考慮局部/外用給藥策略，或評估新型製劑（陰道凝膠、外用霜劑、經皮貼片）以降低系統性暴露風險。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 優先推進（S3）
+**外陰陰道念珠菌感染 (VVC)** — L1 證據，2個Phase 3試驗（NCT01293643已完成），機轉直接，局部製劑可行，建議加速臨床路徑並監控唑類耐藥趨勢。
+
+### 🟡 具研究價值（S2）
+| 適應症 | 關鍵亮點 |
+|--------|---------|
+| **痤瘡** | 活躍試驗中（NCT07237763），雙機轉（抗雄激素＋抗Malassezia），差異化定位 |
+| **甲癬** | 1979年直接歷史證據，新型給藥系統可解決穿透性問題 |
+| **Tinea profunda** | 難治性感染有未滿足需求，L3文獻支持 |
+
+### 🔴 暫緩（S0/S1）
+- **新生兒念珠菌症**：有歷史案例（L4），但安全性顧慮＞臨床效益，fluconazole已為標準治療
+- **C. glabrata**：體外活性受限（天然耐藥趨勢），臨床可行性低
+- **Leprosy / 水源性蕁麻疹 / PEK / 血漿鋅升高**：L5，無機轉依據，建議Hold

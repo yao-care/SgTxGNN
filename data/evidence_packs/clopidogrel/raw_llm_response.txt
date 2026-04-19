@@ -1,0 +1,523 @@
+以下是針對 Clopidogrel (DB00758) 各適應症的完整證據分析：
+
+```json
+{
+  "drug": "Clopidogrel",
+  "drugbank_id": "DB00758",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Clopidogrel 為 P2Y12 ADP 受體拮抗劑，原始適應症資料缺失（[Data Gap]），需注意其主要機轉為抗血小板凝集，在本分析中多數高分預測適應症集中於肌肉骨骼/結締組織疾病，但臨床證據差異極大。",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clopidogrel 透過抑制 P2Y12 ADP 受體阻斷血小板聚集，減少微栓子經卵圓孔未閉（PFO）或右向左分流（RLS）進入腦循環，從而降低微栓子誘發之皮質擴散性抑制（CSD）及偏頭痛觸發。此外，PMID 31722730 顯示三叉神經尾核（trigeminal nucleus caudalis）神經膠質細胞表達 P2Y12 受體，透過 RhoA/ROCK 路徑介導中樞敏感化，提供非血管機轉支持。關鍵限制：現有 RCT 主要針對 PFO 相關或術後偏頭痛亞群，非一般性偏頭痛人群。",
+      "guardrails": [
+        "適應症應嚴格限縮至 PFO 合併偏頭痛或術後新發偏頭痛之亞群",
+        "需確認 CYP2C19 基因型（loss-of-function 等位基因攜帶者療效顯著降低）",
+        "出血風險評估（與 Aspirin 合用時 GI 出血風險倍增）",
+        "排除無 RLS/PFO 之一般偏頭痛患者（缺乏療效證據）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00799045",
+          "title": "Clopidogrel On Top of Aspirin For the Prevention of New Onset Migraine Headache Occurrence Following Transcatheter Atrial...",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 220,
+          "relevance_grade": "A",
+          "reasoning": "直接研究 Clopidogrel 用於術後偏頭痛預防，Phase 4 完成，220 名受試者，具最高直接相關性。關聯文獻 PMID 32965476 與 PMID 26551304 均為此試驗衍生發表。"
+        },
+        {
+          "nct_id": "NCT02938182",
+          "title": "A Prospective Trial to Evaluate the Effectiveness of Clopidogrel to Relieve Migraine With Right-to-Left Shunt",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 50,
+          "relevance_grade": "A",
+          "reasoning": "直接評估 Clopidogrel 於右向左分流偏頭痛患者之療效，Phase 4 前瞻性設計。狀態不明（UNKNOWN）降低結果可用性。樣本數偏小（n=50）。"
+        },
+        {
+          "nct_id": "NCT04946734",
+          "title": "Effectivity and Safety of PFO Closure vs Medicine in Alleviating Migraine (SPRING)",
+          "phase": "PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 440,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 多中心 RCT，比較 PFO 封閉術與藥物治療（含抗血小板）於偏頭痛之療效。Clopidogrel 為藥物組成分之一，非單一比較對象。結果預計將提升本適應症證據至 L1/L2。"
+        },
+        {
+          "nct_id": "NCT05546320",
+          "title": "COMPETE: Comparison of the Effect of Medication Therapy: Anticoagulation Versus Anti-platelet Versus Migraine...",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 1000,
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 4 頭對頭比較試驗（n=1000），比較抗凝、抗血小板、偏頭痛專用藥三組。設計合理且規模大，但狀態不明，研究設計見 PMID 38109984。"
+        },
+        {
+          "nct_id": "NCT00562289",
+          "title": "Closure of Patent Foramen Ovale or Anticoagulants Versus Antiplatelet Therapy to Prevent Stroke Recurrence",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 664,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成，主要終點為中風預防，含偏頭痛作為次要/安全性終點。Clopidogrel 為抗血小板組，提供間接證據。"
+        },
+        {
+          "nct_id": "NCT02777359",
+          "title": "Percutaneous High Risk PFO to Treat Migraine Headaches",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，聚焦高風險 PFO 封閉術治療偏頭痛，Clopidogrel 為術後標準抗血小板方案，非獨立研究對象。"
+        },
+        {
+          "nct_id": "NCT04100135",
+          "title": "GORE CARDIOFORM Septal Occluder Migraine Clinical Study",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 7,
+          "relevance_grade": "C",
+          "reasoning": "已提前終止，僅 7 名受試者，為裝置研究而非藥物研究。Clopidogrel 僅為伴隨用藥，相關性極低。"
+        },
+        {
+          "nct_id": "NCT02670161",
+          "title": "Quality Improvement and Practice Based Research in Neurology Using the Electronic Medical Record",
+          "phase": "PHASE4",
+          "status": "ENROLLING_BY_INVITATION",
+          "enrollment": 3300,
+          "relevance_grade": "C",
+          "reasoning": "觀察性電子病歷研究，非 Clopidogrel 偏頭痛介入試驗，僅具真實世界資料參考價值。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39989443",
+          "title": "Do antithrombotic drugs have a role in migraine prevention? A systematic review.",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "note": "最新系統性回顧，直接評估包含 Clopidogrel 在內之抗血栓藥物於偏頭痛預防之角色，為本適應症最重要文獻。"
+        },
+        {
+          "pmid": "32965476",
+          "title": "Effect of Clopidogrel and Aspirin vs Aspirin Alone on Migraine Headaches After Transcatheter Atrial...",
+          "year": "2021",
+          "study_type": "RCT secondary analysis",
+          "tier": 1,
+          "note": "源自 NCT00799045 之 RCT 分析，直接比較 Clopidogrel+Aspirin vs Aspirin，為本適應症最強單一研究之一。"
+        },
+        {
+          "pmid": "26551304",
+          "title": "Effect of Clopidogrel and Aspirin vs Aspirin Alone on Migraine Headaches After Transcatheter Atrial...",
+          "year": "2015",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "同一 RCT 早期發表，提供與 2021 年結果的縱向對照。"
+        },
+        {
+          "pmid": "24836213",
+          "title": "Clopidogrel as prophylactic treatment for migraine: a pilot randomised, controlled study.",
+          "year": "2014",
+          "study_type": "Pilot RCT",
+          "tier": 1,
+          "note": "罕見的 Clopidogrel 用於偏頭痛預防之隨機對照試驗（pilot），雖樣本數小，但為本適應症直接 RCT 證據。"
+        },
+        {
+          "pmid": "40144614",
+          "title": "New-onset headache after transcatheter atrial septal defect closure: a systematic review.",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "note": "2025 年系統性回顧，聚焦術後頭痛，提供抗血小板療法（含 Clopidogrel）在此脈絡之綜合證據。"
+        },
+        {
+          "pmid": "31722730",
+          "title": "P2Y12 receptor mediates microglial activation via RhoA/ROCK pathway in the trigeminal nucleus caudalis",
+          "year": "2019",
+          "study_type": "Mechanistic/Basic Science",
+          "tier": 3,
+          "note": "關鍵機轉文獻，證明 P2Y12 受體在偏頭痛中樞路徑（三叉神經尾核）之作用，為 Clopidogrel 非血管機轉提供理論基礎。"
+        },
+        {
+          "pmid": "38109984",
+          "title": "Study design and rationale of COMPETE",
+          "year": "2024",
+          "study_type": "Study Protocol",
+          "tier": 2,
+          "note": "COMPETE 試驗設計說明，預告 1000 名受試者頭對頭比較，結果將對本適應症產生重大影響。"
+        },
+        {
+          "pmid": "32848048",
+          "title": "Clopidogrel can be an effective complementary prophylactic for drug-refractory migraine with patent foramen ovale",
+          "year": "2020",
+          "study_type": "Cohort/Observational",
+          "tier": 2,
+          "note": "PFO 合併難治性偏頭痛使用 Clopidogrel 之觀察性研究，支持特定亞群療效。"
+        },
+        {
+          "pmid": "33402037",
+          "title": "A trial of antithrombotic therapy in patients with refractory migraine and antiphospholipid antibodies",
+          "year": "2021",
+          "study_type": "Clinical Trial (uncontrolled)",
+          "tier": 2,
+          "note": "抗磷脂抗體合併難治性偏頭痛使用抗血栓治療之試驗，提示特殊亞群可能受益。"
+        },
+        {
+          "pmid": "16103551",
+          "title": "Clopidogrel reduces migraine with aura after transcatheter closure of persistent foramen ovale",
+          "year": "2005",
+          "study_type": "Observational",
+          "tier": 2,
+          "note": "早期觀察性研究，PFO 封閉術後 Clopidogrel 可減少有先兆偏頭痛，為本領域奠基性文獻。"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腦幹先兆型偏頭痛（原稱基底型偏頭痛）與後循環微栓子、PFO 相關性高於一般偏頭痛。Clopidogrel 抑制血小板栓子形成，可減少後循環微栓子負荷，阻斷腦幹先兆觸發機制。文獻（PMID 16103551, 30478066, 24770421）均集中於 PFO/RLS 合併有先兆偏頭痛之亞群，與腦幹先兆型偏頭痛病理生理學高度吻合。然而目前無針對「migraine with brainstem aura」之專屬臨床試驗，多數研究以「migraine with aura + PFO」為納入標準。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39989443",
+          "title": "Do antithrombotic drugs have a role in migraine prevention? A systematic review.",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "note": "涵蓋有先兆偏頭痛，間接適用於腦幹先兆型。"
+        },
+        {
+          "pmid": "26908949",
+          "title": "Percutaneous closure of patent foramen ovale in migraine with aura, a randomized controlled trial.",
+          "year": "2016",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "有先兆偏頭痛 + PFO 之 RCT，Clopidogrel 為術後標準用藥，間接支持本適應症。"
+        },
+        {
+          "pmid": "24836213",
+          "title": "Clopidogrel as prophylactic treatment for migraine: a pilot randomised, controlled study.",
+          "year": "2014",
+          "study_type": "Pilot RCT",
+          "tier": 1,
+          "note": "Pilot RCT，部分受試者含有先兆型，提供有限直接 RCT 證據。"
+        },
+        {
+          "pmid": "16103551",
+          "title": "Clopidogrel reduces migraine with aura after transcatheter closure of persistent foramen ovale",
+          "year": "2005",
+          "study_type": "Observational",
+          "tier": 2,
+          "note": "PFO 封閉術後 Clopidogrel 減少有先兆偏頭痛，與腦幹先兆機制吻合。"
+        },
+        {
+          "pmid": "30478066",
+          "title": "Retrospective review of thienopyridine therapy in migraineurs with patent foramen ovale.",
+          "year": "2018",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "note": "回顧性研究 thienopyridine（含 Clopidogrel）在 PFO 偏頭痛患者之療效。"
+        },
+        {
+          "pmid": "24770421",
+          "title": "A retrospective review of clopidogrel as primary therapy for migraineurs with right to left shunt",
+          "year": "2014",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "note": "直接回顧 Clopidogrel 作為 RLS 偏頭痛主要療法之效果，與腦幹先兆機制高度相關。"
+        },
+        {
+          "pmid": "30478067",
+          "title": "Ticagrelor for Refractory Migraine/Patent Foramen Ovale (TRACTOR): An open-label pilot study.",
+          "year": "2018",
+          "study_type": "Open-label Pilot",
+          "tier": 2,
+          "note": "Ticagrelor（同類 P2Y12 拮抗劑）pilot 研究，作為機轉類比佐證。"
+        },
+        {
+          "pmid": "32848048",
+          "title": "Clopidogrel can be an effective complementary prophylactic for drug-refractory migraine with patent foramen ovale",
+          "year": "2020",
+          "study_type": "Observational",
+          "tier": 2,
+          "note": "PFO 難治性偏頭痛使用 Clopidogrel 觀察性研究，部分病例可能含腦幹先兆型。"
+        },
+        {
+          "pmid": "33815258",
+          "title": "Case Report: Migraine-Like Headache With Visual Aura Initiated by Endovascular Coiling Treatment",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "個案報告，視覺先兆偏頭痛繼發於血管內治療，抗血小板角色為次要觀察。"
+        },
+        {
+          "pmid": "36588875",
+          "title": "Can aura migraine be elicited by isolated pulmonary arteriovenous fistula? A case report.",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "個案報告，肺動靜脈瘻管誘發先兆偏頭痛，支持右向左分流機轉，間接佐證抗血小板策略。"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確治療 OA 之機轉支持。P2Y12 受體雖在軟骨細胞及滑膜細胞有表達，ADP 信號理論上可影響軟骨降解，但缺乏功能性動物模型驗證。關鍵負面信號：PMID 32564514 顯示 Ticagrelor（同為 P2Y12 拮抗劑）相較 Clopidogrel 可顯著降低 OA 風險（HR 差異顯著），暗示 Clopidogrel 於 OA 保護方面可能劣於 Ticagrelor，甚至中性或有害。此外 PMID 12624808 報告 Clopidogrel+Aspirin 引發自發性膝關節積血（hemarthrosis），為關節健康之不良信號。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01511939",
+          "title": "Single Center, Open-label Study of Effect of PENNSAID (Diclofenac Sodium Solution Topical) on Coagulation Parameters",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 22,
+          "relevance_grade": "C",
+          "reasoning": "研究目的為評估外用 Diclofenac（PENNSAID）對接受 Clopidogrel+Aspirin 患者之凝血影響，即 DDI 安全性研究。並非評估 Clopidogrel 治療 OA 之療效試驗，相關性極低（C 級）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32564514",
+          "title": "Reduction in Osteoarthritis Risk After Treatment With Ticagrelor Compared to Clopidogrel",
+          "year": "2020",
+          "study_type": "Propensity-matched Cohort",
+          "tier": 2,
+          "note": "【負面信號】顯示 Ticagrelor 降低 OA 風險優於 Clopidogrel，暗示 Clopidogrel 在 OA 保護方面相對較弱，不支持再利用。"
+        },
+        {
+          "pmid": "12624808",
+          "title": "Spontaneous hemarthrosis of the knee associated with clopidogrel and aspirin treatment.",
+          "year": "2003",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "【安全性警訊】Clopidogrel+Aspirin 引發自發性膝關節積血，對 OA 患者關節健康構成潛在風險。"
+        },
+        {
+          "pmid": "28082817",
+          "title": "Prevalence of upper gastrointestinal bleeding risk factors among the general population and osteoarthritis patients",
+          "year": "2016",
+          "study_type": "Epidemiological Study",
+          "tier": 2,
+          "note": "評估 OA 患者 GI 出血風險因子，Clopidogrel 為風險因子之一，非治療研究。"
+        },
+        {
+          "pmid": "36949558",
+          "title": "Geriatric Pharmacotherapy Case Series: Potential Drug Interactions With Antiplatelet Medications",
+          "year": "2023",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "老年藥學視角討論抗血小板藥物（含 Clopidogrel）與 OA 常用 NSAIDs 之 DDI，安全性考量為主。"
+        },
+        {
+          "pmid": "19543536",
+          "title": "Discrepancy among observational studies: example of naproxen-associated adverse events.",
+          "year": "2009",
+          "study_type": "Methodological Study",
+          "tier": 3,
+          "note": "以 OA/Naproxen 為例討論觀察性研究偏差，Clopidogrel 僅作為共病藥物出現，無治療關聯性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "tendinitis",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血小板釋放 PDGF、TGF-β 等生長因子參與肌腱修復，抗血小板治療理論上可調節肌腱炎症反應，但此機制高度推測性。現有 2 篇文獻均無直接相關性：PMID 20631409 為體外心血管藥物內皮效應研究；PMID 28104092 為 Indomethacin 預防橈尺骨骨化性肌炎研究，均與 Clopidogrel 治療肌腱炎無直接關聯。TxGNN 高分可能源自藥物-組織共現偏差而非真實治療信號。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20631409",
+          "title": "Vane's blood-bathed organ technique adapted to examine the endothelial effects of cardiovascular drugs",
+          "year": "2010",
+          "study_type": "In vitro / Pharmacological Study",
+          "tier": 3,
+          "note": "體外實驗評估心血管藥物（含 Clopidogrel）之內皮效應，與肌腱炎無直接治療關聯。"
+        },
+        {
+          "pmid": "28104092",
+          "title": "The use of indomethacin in the prevention of postoperative radioulnar synostosis after distal biceps repair",
+          "year": "2017",
+          "study_type": "Clinical Study",
+          "tier": 3,
+          "note": "研究對象為 Indomethacin，非 Clopidogrel。肌腱相關手術情境為唯一交集，無直接相關性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "myositis fibrosa",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌炎伴纖維化（myositis fibrosa）為罕見炎症性肌肉病變，其病理機制以免疫介導纖維化為主，非血小板依賴路徑。無合理機轉支持 P2Y12 拮抗劑在此適應症之治療作用。文獻與試驗數量均為零，評估依據完全來自 TxGNN 知識圖譜預測，可靠性有限。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic granulomatous myositis",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性肉芽腫性肌炎為罕見免疫介導疾病，病理以 CD68+ 巨噬細胞肉芽腫浸潤為特徵。P2Y12 受體在巨噬細胞上有表達，ADP 信號可調節巨噬細胞活化，但此機轉極為間接且缺乏實驗驗證。本病極罕見（estimated prevalence <1/100,000），即便有機轉假說，開展臨床試驗的可行性極低。文獻及試驗數量均為零。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9903,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "P2Y12 受體在滑膜細胞（synoviocytes）及破骨細胞前驅細胞上有功能性表達（PMID 34840926），核苷酸信號調節滑膜細胞增殖及破骨細胞分化，提供間接理論基礎。然而，關鍵不良信號：PMID 38107217（2023）記錄「Clopidogrel-Associated Inflammatory Arthritis」個案，顯示 Clopidogrel 本身可誘發炎症性關節炎，為重大安全性警訊。20 篇文獻中大多數（>15篇）討論 tofacitinib vs TNF 抑制劑比較，Clopidogrel 僅以共病用藥或不良事件角色出現，無治療性使用證據。",
+      "safety_flag": "CRITICAL: PMID 38107217 報告 Clopidogrel 誘發炎症性關節炎，此藥物本身可能加重 RA 或誘發類 RA 症狀，構成禁忌信號。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38107217",
+          "title": "The Mystery of Clopidogrel-Associated Inflammatory Arthritis.",
+          "year": "2023",
+          "study_type": "Case Series / Review",
+          "tier": 3,
+          "note": "【安全性警訊 - 紅旗】報告 Clopidogrel 誘發炎症性關節炎，為本適應症之直接反適應症信號，Hold 決策之主要依據。"
+        },
+        {
+          "pmid": "34840926",
+          "title": "Nucleotides modulate synoviocyte proliferation and osteoclast differentiation in macrophages with potential implications in RA",
+          "year": "2021",
+          "study_type": "Basic Science / In vitro",
+          "tier": 3,
+          "note": "唯一提供 P2Y12-RA 機轉關聯之文獻，但為體外研究，不足以支持臨床推進。"
+        },
+        {
+          "pmid": "22402144",
+          "title": "Initiation and adherence to secondary prevention pharmacotherapy after myocardial infarction in patients with RA",
+          "year": "2012",
+          "study_type": "Cohort",
+          "tier": 2,
+          "note": "RA 患者心肌梗塞後二次預防用藥（含 Clopidogrel），為共病使用情境，非 RA 治療研究。"
+        },
+        {
+          "pmid": "16729012",
+          "title": "Lupus anticoagulant and ischemic myocardial microangiopathy in rheumatoid arthritis.",
+          "year": "2006",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "RA 合併狼瘡抗凝物之個案，Clopidogrel 為抗血栓管理用藥，非 RA 治療。"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn_score": 0.9901,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「OA 易感性」為遺傳/風險因子研究範疇，而非直接治療適應症。唯一文獻（PMID 20435227）為個人基因組臨床評估案例報告，提及 Clopidogrel 相關 CYP2C19 基因型，與 OA 易感性無直接關聯。此適應症分類可能為 TxGNN 知識圖譜本體論擴散（ontology propagation）產物，不具獨立臨床意義。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20435227",
+          "title": "Clinical assessment incorporating a personal genome.",
+          "year": "2010",
+          "study_type": "Case Study / Genomics",
+          "tier": 3,
+          "note": "個人基因組評估，涉及 CYP2C19（Clopidogrel 代謝基因），與 OA 易感性無治療關聯性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9893,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假性軟骨發育不全症（pseudoachondroplasia）為 COMP 基因突變導致之遺傳性骨骼發育不全症，屬單基因遺傳病，病理機制為 COMP 蛋白異常折疊及 ER stress，與血小板聚集/P2Y12 信號路徑無任何已知關聯。TxGNN 預測可能源於骨關節疾病節點間的知識圖譜路徑擴散，無臨床意義。文獻及試驗數量均為零。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fibromyalgia",
+      "txgnn_score": 0.9893,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "纖維肌痛症之核心機制為中樞敏感化（central sensitization）及下行疼痛調節失常，非周邊血小板或血管機制主導。雖然部分研究顯示纖維肌痛患者有血小板功能異常（過度激活），理論上 P2Y12 拮抗劑可能改善此現象，但此假說尚未進入任何臨床研究階段。文獻及試驗數量均為零，TxGNN 高分為純計算預測，無任何臨床佐證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease_name": "migraine disorder",
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "rationale": "多項 Phase 4 已完成 RCT（NCT00799045, n=220），系統性回顧（2025），進行中 Phase 3 試驗（NCT04946734），最強證據基礎。建議聚焦 PFO/RLS 亞群。"
+      },
+      {
+        "rank": 2,
+        "disease_name": "migraine with brainstem aura",
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "rationale": "與偏頭痛機制高度重疊，多篇回顧性研究及 pilot RCT 支持，需針對腦幹先兆型設計專屬試驗以確認。"
+      },
+      {
+        "rank": 3,
+        "disease_name": "rheumatoid arthritis",
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "rationale": "有間接機轉依據，但存在 Clopidogrel 誘發炎症性關節炎之重大安全性警訊（PMID 38107217），需先完成安全性初評方可考慮。"
+      }
+    ],
+    "hold_indications": [
+      "osteoarthritis（負面對照信號，DDI 試驗非治療性）",
+      "tendinitis（零相關文獻）",
+      "myositis fibrosa（零證據）",
+      "idiopathic granulomatous myositis（零證據）",
+      "osteoarthritis susceptibility（本體論擴散產物）",
+      "pseudoachondroplasia（遺傳疾病，機轉不相容）",
+      "fibromyalgia（中樞機制，與 P2Y12 不符）"
+    ],
+    "key_caveats": [
+      "本藥品標記為「未上市」且 DDI 計數為 0，需確認資料完整性",
+      "original_moa 為 [Data Gap]，但 Clopidogrel 機轉明確（P2Y12 不可逆拮抗劑），資料填補不影響分析",
+      "CYP2C19 基因多態性（poor metabolizers ~2-14% 亞洲人）是所有適應症療效評估之關鍵共同限制因子",
+      "偏頭痛適應症之現有 RCT 幾乎全部針對 PFO/RLS/術後亞群，結果外推至一般偏頭痛患者需謹慎"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 快速決策矩陣
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|-------------|----------|----------|------|
+| **migraine disorder** | 0.9944 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| **migraine with brainstem aura** | 0.9944 | **L3** | **S2** | 🔬 Research Question |
+| **rheumatoid arthritis** | 0.9903 | L4 | S1 | ⚠️ Hold（安全性警訊） |
+| osteoarthritis | 0.9925 | L5 | S0 | ❌ Hold（負面信號） |
+| tendinitis | 0.9917 | L5 | S0 | ❌ Hold |
+| myositis fibrosa | 0.9913 | L5 | S0 | ❌ Hold |
+| idiopathic granulomatous myositis | 0.9913 | L5 | S0 | ❌ Hold |
+| osteoarthritis susceptibility | 0.9901 | L5 | S0 | ❌ Hold |
+| pseudoachondroplasia | 0.9893 | L5 | S0 | ❌ Hold |
+| fibromyalgia | 0.9893 | L5 | S0 | ❌ Hold |
+
+> ⚠️ **YMYL 免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴格臨床驗證後方可應用於臨床實踐。

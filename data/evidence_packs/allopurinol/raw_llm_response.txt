@@ -1,0 +1,241 @@
+## Allopurinol 藥物再利用證據分析
+
+> ⚠️ **資料品質預警（分析前提）**
+> 以下欄位疑有資料缺漏，不影響本次證據評估但須標記：
+> - `market_status: 未上市` — Allopurinol 為全球廣泛上市藥物（痛風/高尿酸血症），疑為本地資料庫映射缺失
+> - `original_moa: [Data Gap]` — 已知機轉：**黃嘌呤氧化酶（XO）抑制劑**，降低尿酸生成並減少 ROS
+> - `ddi_count: 0` — 已知多項 DDI（Azathioprine、Warfarin、Mercaptopurine 等），此欄位不可信
+> - `original_indications: []` — 已核准適應症缺失
+
+---
+
+```json
+{
+  "drug": "Allopurinol",
+  "drugbank_id": "DB00437",
+  "known_moa": "Xanthine oxidase (XO) inhibitor — 抑制黃嘌呤氧化酶，減少尿酸與活性氧物種（ROS）生成，具間接抗氧化及抗發炎效果",
+  "data_quality_flags": [
+    "market_status 疑為本地資料庫映射缺失（全球已上市）",
+    "original_moa [Data Gap]（已知 XO 抑制劑）",
+    "ddi_count=0 不可靠（已知多項 DDI）",
+    "original_indications=[] 缺漏（已核准痛風/高尿酸血症）"
+  ],
+  "indications": [
+    {
+      "disease_name": "hepatic porphyria",
+      "txgnn_score": 0.9994645714759828,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "急性肝性紫質症由 5-胺基乙醯丙酸合成酶（ALAS1）過度活化所致，導致毒性前驅物累積。PMID 31443750 提出假設：XO 抑制劑（包含 Allopurinol）可能透過干擾血紅素代謝通路，間接下調 ALAS1 活性。此機轉具生物合理性，但仍屬假說層次，缺乏直接實驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31443750",
+          "title": "Hypothesis: Metabolic targeting of 5-aminolevulinate synthase...",
+          "year": "2019",
+          "study_type": "Hypothesis/Opinion",
+          "relevance": "中度相關",
+          "tier": "3",
+          "reasoning": "直接提出 XO 抑制劑對 ALAS1 之調控假說，與 Allopurinol MOA 相關；但屬假說文章，無實驗數據，為本組中相關性最高之文獻"
+        },
+        {
+          "pmid": "1567472",
+          "title": "Effects of acute carbamazepine administration on haem metabolism in rat liver.",
+          "year": "1992",
+          "study_type": "Animal Study",
+          "relevance": "低度相關",
+          "tier": "3",
+          "reasoning": "研究對象為 Carbamazepine 而非 Allopurinol；僅作為血紅素代謝背景知識參考，無法直接支持 Allopurinol 的相關性"
+        }
+      ],
+      "evidence_summary": "2 篇文獻均為 Tier 3；無臨床試驗；機轉假說具合理性但未驗證。評為 L4（間接/假說證據）。建議作為研究問題，優先進行體外/動物實驗驗證 ALAS1 抑制效果。"
+    },
+    {
+      "disease_name": "hepatopulmonary syndrome",
+      "txgnn_score": 0.9994344115257264,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HPS 以肝病合併肺內血管擴張為特徵，發病機轉涉及 NO 過度生成與血管新生。Allopurinol 之抗氧化效果理論上可減少氧化壓力驅動的血管異常，但目前無任何臨床或實驗證據支持此連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無文獻、無臨床試驗。純屬 TxGNN 計算預測，評為 L5。建議 Hold，不具備進入研究優先序之依據。"
+    },
+    {
+      "disease_name": "idiopathic copper-associated cirrhosis",
+      "txgnn_score": 0.9994344115257264,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "銅代謝異常所致肝硬化（非 Wilson 氏病），機轉與 XO 抑制無明確關聯。Allopurinol 無已知銅螯合或銅代謝調節作用。TxGNN 高分可能源自知識圖譜中肝病節點的間接關聯性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床證據。機轉連結薄弱。評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "early-onset familial noncirrhotic portal hypertension",
+      "txgnn_score": 0.9994344115257264,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此稀有遺傳性門脈高壓症與 XO 抑制無已知機轉關聯。疾病由門脈微血管病變所致，Allopurinol 之氧化壓力減少效果理論上或可延緩進展，但完全推測層次。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床或實驗室證據。評為 L5，建議 Hold。TxGNN 高分反映知識圖譜中門脈高壓疾病群的拓撲鄰近性，非直接機轉。"
+    },
+    {
+      "disease_name": "primitive portal vein thrombosis",
+      "txgnn_score": 0.9994344115257264,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "門靜脈血栓形成主要由凝血異常、骨髓增生性疾病或局部感染所致。Allopurinol 無已知抗凝血或溶栓機轉；雖有研究顯示 XO 抑制可改善血流動力（PMID 2853054，屬 disorder of phenylalanine metabolism 組），但無針對此適應症之直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無直接文獻或試驗。評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "hepatoportal sclerosis",
+      "txgnn_score": 0.9994344115257264,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝門靜脈硬化症（特發性門脈高壓的一種）以肝竇周圍纖維化為特徵。Allopurinol 的 XO 抑制理論上可減少氧化壓力誘導的肝星狀細胞活化，但屬完全推測，無任何實驗數據佐證。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無文獻、無臨床試驗。評為 L5，建議 Hold。與上方多個門脈高壓相關疾病共同構成一組 TxGNN 拓撲鄰近預測群，可作為肝纖維化研究的群體假說題目。"
+    },
+    {
+      "disease_name": "disorder of phenylalanine metabolism",
+      "txgnn_score": 0.9988559484481812,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "苯丙胺酸代謝障礙（含 PKU）主要由苯丙胺酸羥化酶（PAH）缺乏所致，與 XO 抑制無直接機轉關聯。唯一潛在連結：(1) Allopurinol 影響嘌呤代謝，嘌呤與芳香族胺基酸代謝存在間接代謝交叉；(2) 氧化壓力在 PKU 神經毒性中有一定角色，XO 抑制理論上可減少 ROS。但現有 7 篇文獻均非針對此適應症設計。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "799549",
+          "year": "1976",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "藥物活性代謝物通論綜述，包含 Allopurinol 代謝物（Oxipurinol）藥理學討論，非針對苯丙胺酸代謝，相關性極低"
+        },
+        {
+          "pmid": "39156502",
+          "year": "2024",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "reasoning": "水蛭蛋白萃取物改善高尿酸血症動物研究，Allopurinol 作為陽性對照組，與苯丙胺酸代謝障礙無直接關聯"
+        },
+        {
+          "pmid": "18694741",
+          "year": "2008",
+          "study_type": "In Vitro / Animal Study",
+          "tier": "3",
+          "reasoning": "Lithospermic acid 作為 XO 抑制劑的抗發炎/降尿酸研究，Allopurinol 為比較對照，與目標適應症無關"
+        },
+        {
+          "pmid": "851118",
+          "year": "1977",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "腎功能衰竭中活性藥物代謝物綜述，提及 Oxipurinol 蓄積，屬藥動學背景文獻，非此適應症直接證據"
+        },
+        {
+          "pmid": "22932763",
+          "year": "2012",
+          "study_type": "Metabolomics / Observational",
+          "tier": "3",
+          "reasoning": "尿液代謝組學研究，可能偵測到苯丙胺酸相關代謝物，若探討 Allopurinol 對尿液代謝譜影響或與 PKU 相關，但標題截斷無法確認直接相關性"
+        },
+        {
+          "pmid": "11729361",
+          "year": "2001",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "reasoning": "Diacerein 對消炎痛誘發胃潰瘍之影響，Allopurinol 僅作為參照，與苯丙胺酸代謝完全無關"
+        },
+        {
+          "pmid": "2853054",
+          "year": "1988",
+          "study_type": "Clinical Study (Small, Historical)",
+          "tier": "2",
+          "reasoning": "Allopurinol 預防缺血相關血液流變學改變的臨床研究，反映其血管保護效果；雖為直接臨床試驗，但研究問題與苯丙胺酸代謝障礙無關"
+        }
+      ],
+      "evidence_summary": "7 篇文獻均未直接研究 Allopurinol 對苯丙胺酸代謝障礙的療效；文獻係因嘌呤代謝/代謝組學主題被收錄，屬背景噪訊。PMID 2853054 為唯一 Tier 2 文獻，但研究問題不符。整體評為 L4（間接/非目標文獻），S0，建議 Hold。"
+    },
+    {
+      "disease_name": "immune-mediated necrotizing myopathy",
+      "txgnn_score": 0.9985507130622864,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IMNM 由抗 SRP 或抗 HMGCR 自體抗體介導，為自體免疫性肌炎。Allopurinol 無已知免疫調節機轉；理論上 XO 抑制減少 ROS 可能緩和肌肉氧化損傷，但此為推測，且 Allopurinol 本身也有引發藥物超敏反應性肌炎的不良反應風險，需特別注意安全性矛盾。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無文獻、無臨床試驗。評為 L5，建議 Hold。特別警示：Allopurinol 已知可引發 DRESS 綜合症及藥物誘發性肌炎，此適應症存在風險-效益矛盾。"
+    },
+    {
+      "disease_name": "antisynthetase syndrome",
+      "txgnn_score": 0.9985060691833496,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "抗合成酶症候群由抗胺醯 tRNA 合成酶抗體（如 anti-Jo-1）介導，特徵為肌炎、間質性肺病及多關節炎。此疾病與嘌呤代謝或 XO 路徑無已知機轉交集。TxGNN 預測可能源自「肌炎」類疾病節點的拓撲鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床證據。評為 L5，建議 Hold。"
+    },
+    {
+      "disease_name": "idiopathic eosinophilic myositis",
+      "txgnn_score": 0.998485505580902,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嗜酸性球性肌炎以嗜酸性球浸潤肌肉為特徵，與嗜酸性球活化及 IL-5 路徑相關。Allopurinol 無已知抗嗜酸性球或 IL-5 抑制機轉；同樣地，Allopurinol 本身為已知嗜酸性球性藥物反應的觸發因子，存在潛在的安全性矛盾。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床證據。評為 L5，建議 Hold。安全性警示與 IMNM 相同：Allopurinol 已知可誘發嗜酸性球性組織反應，應在安全性評估中特別標記。"
+    }
+  ]
+}
+```
+
+---
+
+## 總結決策矩陣
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|-------------|----------|----------|------|
+| Hepatic porphyria | 0.9995 | **L4** | **S1** | **Research Question** ⭐ |
+| Disorder of phenylalanine metabolism | 0.9989 | L4 | S0 | Hold |
+| Hepatopulmonary syndrome | 0.9994 | L5 | S0 | Hold |
+| Idiopathic copper-associated cirrhosis | 0.9994 | L5 | S0 | Hold |
+| Early-onset familial noncirrhotic portal HTN | 0.9994 | L5 | S0 | Hold |
+| Primitive portal vein thrombosis | 0.9994 | L5 | S0 | Hold |
+| Hepatoportal sclerosis | 0.9994 | L5 | S0 | Hold |
+| Immune-mediated necrotizing myopathy | 0.9986 | L5 | S0 | Hold ⚠️ |
+| Antisynthetase syndrome | 0.9985 | L5 | S0 | Hold |
+| Idiopathic eosinophilic myositis | 0.9985 | L5 | S0 | Hold ⚠️ |
+
+---
+
+## 關鍵洞見
+
+### 🔬 唯一值得追蹤的訊號：Hepatic Porphyria (L4 → S1)
+PMID 31443750 提出 XO 抑制劑可能下調 **ALAS1**（血紅素生合成限速酶），這與 Allopurinol 的 MOA 具有直接機轉連結。建議下一步進行：
+1. **文獻深挖**：系統性搜尋 "allopurinol" + "porphyria" 或 "ALAS1"
+2. **體外驗證**：HepG2 細胞模型測試 Allopurinol 對 ALAS1 mRNA/蛋白質表達的影響
+
+### ⚠️ 安全性矛盾警示：肌炎相關適應症
+Allopurinol 本身為 **DRESS 症候群**（Drug Reaction with Eosinophilia and Systemic Symptoms）的高風險藥物，可誘發：
+- 嗜酸性球性組織浸潤
+- 藥物誘發性肌炎
+
+在評估 IMNM 及 Idiopathic eosinophilic myositis 時，**風險-效益比可能為負**，即使後續發現治療訊號也需謹慎。
+
+### 📊 TxGNN 預測群體解讀
+門脈高壓疾病群（HPS、銅相關肝硬化、NCPH、PVT、HPS）具有**相同 TxGNN 分數（0.9994344...）**，高度一致的數值提示這些預測來自知識圖譜中相同的拓撲路徑（肝病節點群），而非個別機轉計算，需降低對此群體預測的信心加權。

@@ -1,0 +1,268 @@
+```json
+{
+  "drug": "Galcanezumab",
+  "drugbank_id": "DB14042",
+  "analysis_date": "2026-04-04",
+  "drug_profile_note": "Galcanezumab 為抗 CGRP（降鈣素基因相關肽）單株抗體，全球已獲 FDA/EMA 核准用於偏頭痛預防與叢發性頭痛治療，惟資料集顯示原始 MoA 欄位缺漏（[Data Gap]）、當地（新加坡）市場狀態為未上市，故以再利用框架評估。",
+  "indications": [
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9833,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Galcanezumab 阻斷 CGRP 與其受體結合，而 CGRP 在所有偏頭痛亞型（含腦幹先兆型）的發作期均顯著升高，機轉一致性強。腦幹先兆型偏頭痛雖曾被 Triptan 類藥物列為相對禁忌（因血管收縮顧慮），但 anti-CGRP mAb 不具血管收縮效應，理論安全性優於 Triptan。",
+      "evidence_summary": "全球有 Phase 3 RCT 支持 Galcanezumab 用於發作性與慢性偏頭痛（EVOLVE-1, EVOLVE-2, REGAIN），但無專門針對「腦幹先兆型」亞型的 RCT；現有文獻為間接外推（偏頭痛大族群 Phase 3 資料 + 機轉評論 + 遺傳性偏頭痛亞型分析）。文獻量達 20 篇，含多項 Tier-1 RCT 分析。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29813147",
+          "title": "EVOLVE-1: Evaluation of Galcanezumab for the Prevention of Episodic Migraine",
+          "year": "2018",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "核心 Phase 3 RCT，直接驗證 Galcanezumab 用於發作性偏頭痛預防；腦幹先兆型為偏頭痛亞型，機轉高度相關，屬間接但高度類比的 Tier-1 證據。"
+        },
+        {
+          "pmid": "33549036",
+          "title": "Effect of galcanezumab on severity and symptoms of migraine in phase 3 trials (episodic migraine)",
+          "year": "2021",
+          "study_type": "Phase 3 Pooled Analysis",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "跨 Phase 3 試驗整合分析，涵蓋多維度療效指標；雖未單獨分析腦幹先兆亞型，但族群代表性廣，外推價值高。"
+        },
+        {
+          "pmid": "40341526",
+          "title": "Genetic migraine disorders and the response to calcitonin gene-related peptide antagonist treatment",
+          "year": "2025",
+          "study_type": "Genetic/Subtype Analysis",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接探討遺傳性偏頭痛亞型（包含可能涵蓋腦幹先兆型的基因性偏頭痛）對 CGRP 拮抗劑的治療反應，為目前最接近目標適應症的文獻。"
+        },
+        {
+          "pmid": "32504377",
+          "title": "Galcanezumab: A Review in the Prevention of Migraine and Treatment of Episodic Cluster Headache",
+          "year": "2020",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "全面性評論，整合多個臨床試驗數據，說明 Galcanezumab 跨偏頭痛亞型的整體療效輪廓。"
+        },
+        {
+          "pmid": "36266558",
+          "title": "Galcanezumab Effects on Migraine Severity and Symptoms in Japanese Patients with Episodic Migraine",
+          "year": "2023",
+          "study_type": "RCT Subgroup (Japan)",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "亞太族群亞組分析，對新加坡在地應用的安全性與療效推論有參考價值，但非腦幹先兆亞型特定分析。"
+        },
+        {
+          "pmid": "36927366",
+          "title": "Galcanezumab effects on incidence of headache after occurrence of triggers, premonitory symptoms",
+          "year": "2023",
+          "study_type": "Secondary RCT Analysis",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "聚焦前驅症狀與誘發因子分析，間接支持 Galcanezumab 在先兆型偏頭痛中的機轉作用。"
+        },
+        {
+          "pmid": "38071464",
+          "title": "Characteristics associated with response to subcutaneously administered anti-CGRP monoclonal antibodies",
+          "year": "2024",
+          "study_type": "Real-World Cohort",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "真實世界資料，識別治療反應預測因子，有助於評估腦幹先兆型患者的潛在療效。"
+        },
+        {
+          "pmid": "39695402",
+          "title": "Interictal burden in migraine patients at the outset of CGRP monoclonal antibody prevention",
+          "year": "2024",
+          "study_type": "Observational Cohort",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "偏頭痛發作間期負擔評估，非腦幹先兆亞型直接研究，間接參考價值。"
+        },
+        {
+          "pmid": "41539111",
+          "title": "A 12-month observational study on the safety, efficacy on migraine-associated symptoms and satisfaction",
+          "year": "2026",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "長期安全性與療效觀察研究，支持 Galcanezumab 在偏頭痛族群中的長期安全輪廓。"
+        },
+        {
+          "pmid": "30725283",
+          "title": "Role of CGRP in Migraine",
+          "year": "2019",
+          "study_type": "Mechanistic Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "CGRP 在偏頭痛（含先兆型）病理生理的機轉評論，為 Galcanezumab 適用性提供生物學基礎。"
+        }
+      ],
+      "caveats": [
+        "腦幹先兆型偏頭痛歷史上有腦幹缺血顧慮，雖 anti-CGRP mAb 理論上無此風險，仍需監測腦血管事件",
+        "尚無腦幹先兆型專屬的獨立 RCT，目前 L2 評級基於偏頭痛族群整體 Phase 3 外推",
+        "新加坡本地未上市，需考量當地藥政申請路徑（同情用藥或臨床試驗准入）"
+      ]
+    },
+    {
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn_score": 0.9950,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Heparin Cofactor 2（HC-II）為絲胺酸蛋白酶抑制劑，抑制凝血酶活性；Galcanezumab 作用於 CGRP 神經肽路徑，兩者無已知生物學交集。TxGNN 超高分（0.9950）疑為知識圖譜中共享節點（血管調節相關）導致的假性高分。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "TxGNN 分數極高但生物學合理性極低，屬典型假陽性預測",
+        "無任何臨床試驗或文獻支持，建議列為知識圖譜雜訊案例"
+      ]
+    },
+    {
+      "disease_name": "antithrombin deficiency type 2",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "抗凝血酶（Antithrombin）缺乏導致血栓形成傾向，屬凝血瀑布調控障礙；Galcanezumab 為 CGRP 拮抗劑，主要影響神經血管調控，對凝血因子活性無直接調節機制。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻，純模型預測",
+        "凝血路徑與 CGRP 路徑機轉無重疊，生物學合理性評估為極低"
+      ]
+    },
+    {
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Factor V 過量導致自發性血栓屬凝血因子功能增益性缺陷；CGRP 拮抗作用無法影響 Factor V 活性或凝血酶生成，機轉不相符。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻，純模型預測",
+        "此三項凝血異常疾病（HC-2 缺乏、AT 缺乏 type 2、Factor V 過量）TxGNN 分數均 >0.994，高度懷疑為批次預測中的系統性偏差"
+      ]
+    },
+    {
+      "disease_name": "thrombophilia",
+      "txgnn_score": 0.9899,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CGRP 具輕度血管擴張效應，理論上可能間接影響血流剪切力，但此效應極弱且方向不確定；Galcanezumab 阻斷 CGRP 後對血栓形成風險的影響方向甚至可能為負面。無任何臨床或前臨床證據支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻",
+        "CGRP 阻斷可能降低血管擴張，理論上不利於血栓預防，存在潛在不利機轉方向"
+      ]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.9150,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Atrophoderma vermiculata 為毛囊性萎縮性皮膚病，病理機制涉及毛囊角化異常；CGRP 在皮膚感覺神經末梢有分布並參與皮膚神經源性炎症，但 Galcanezumab 系統性阻斷 CGRP 是否對此罕見皮膚病有療效，完全無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻",
+        "皮膚 CGRP 神經炎症聯結屬高度間接推論，TxGNN 可能透過「皮膚神經源性炎症」節點產生此預測"
+      ]
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn_score": 0.9030,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ulerythema ophryogenesis（眉部毛周角化萎縮）為毛囊萎縮性罕見皮膚病，病因不明，可能涉及 Ras-MAPK 信號通路；與 CGRP/抗 CGRP 機轉無明確關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻",
+        "兩項罕見皮膚病（atrophoderma vermiculata + ulerythema ophryogenesis）均出現高 TxGNN 分數，疑為知識圖譜中皮膚病變節點群聚效應"
+      ]
+    },
+    {
+      "disease_name": "hemorrhagic disease of newborn",
+      "txgnn_score": 0.8128,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒出血病（維生素 K 缺乏性出血）為維生素 K 依賴性凝血因子缺乏所致；Galcanezumab 為 CGRP 單株抗體，對維生素 K 路徑無任何作用，且新生兒族群使用大分子生物製劑存在極高安全顧慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻",
+        "新生兒族群用藥安全性禁忌，即便有任何機轉假說，臨床可行性評估為不可行"
+      ]
+    },
+    {
+      "disease_name": "prekallikrein deficiency",
+      "txgnn_score": 0.7225,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Prekallikrein（激肽釋放酶原）為接觸活化凝血路徑成員，與緩激肽（Bradykinin）生成相關；CGRP 與 Bradykinin 在神經源性炎症中共享部分下游效應，存在極遠端生物學聯結，但 Galcanezumab 阻斷 CGRP 對 prekallikrein 缺乏症無任何已知補償機制。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻",
+        "CGRP-激肽系統的間接關聯屬理論層面，不構成臨床研究的充分前提"
+      ]
+    },
+    {
+      "disease_name": "thrombotic disorder due to a platelet anomaly",
+      "txgnn_score": 0.7073,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血小板異常相關血栓症涉及血小板聚集與活化缺陷；CGRP 對血小板有輕度抑制聚集效應，理論上阻斷 CGRP 可能不利於此類疾病，機轉方向存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "caveats": [
+        "0 臨床試驗、0 文獻",
+        "CGRP 抑制血小板聚集的生理作用意味著阻斷 CGRP 可能加重而非改善血小板異常相關血栓，機轉方向可能為不利"
+      ]
+    }
+  ],
+  "cross_indication_observations": {
+    "txgnn_model_bias_alert": "前四項凝血異常適應症（HC-2 缺乏、AT 缺乏 type 2、Factor V 過量、thrombophilia）TxGNN 分數均 >0.98 且均無任何臨床/文獻支持，高度懷疑為知識圖譜中 Galcanezumab 透過「血管調節」共享節點產生的系統性假陽性預測群。建議模型端進行節點路徑追蹤驗證。",
+    "true_signal": "10 個預測適應症中，僅 migraine with brainstem aura 具有實質臨床意義（L2/S2），其餘 9 項均為 L5/S0。",
+    "moa_data_gap_impact": "資料集中 original_moa 標記為 [Data Gap] 可能導致 TxGNN 預測品質下降；若補入 Galcanezumab 的正確 MoA（anti-CGRP mAb, targets CGRP ligand），模型的凝血相關假陽性預測應可大幅降低。",
+    "safety_note": "Galcanezumab 屬大分子生物製劑，免疫原性、注射部位反應、妊娠/哺乳安全性、長期心血管影響（CGRP 具心臟保護效應）均需在新適應症臨床評估中特別監測。"
+  }
+}
+```
+
+---
+
+## 摘要說明
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵因素 |
+|--------|---------|---------|------|----------|
+| **migraine with brainstem aura** | **L2** | **S2** | **Proceed with Guardrails** | 20 篇文獻，含 Phase 3 RCT（偏頭痛大族群），CGRP 機轉高度相關 |
+| heparin cofactor 2 deficiency | L5 | S0 | Hold | 無證據，機轉不符，疑似 KG 假陽性 |
+| antithrombin deficiency type 2 | L5 | S0 | Hold | 無證據，凝血路徑與 CGRP 路徑無交集 |
+| factor 5 excess | L5 | S0 | Hold | 無證據，系統性假陽性預測群 |
+| thrombophilia | L5 | S0 | Hold | 無證據，機轉方向可能不利 |
+| atrophoderma vermiculata | L5 | S0 | Hold | 無證據，KG 節點群聚效應 |
+| ulerythema ophryogenesis | L5 | S0 | Hold | 無證據 |
+| hemorrhagic disease of newborn | L5 | S0 | Hold | 無證據，新生兒族群禁忌 |
+| prekallikrein deficiency | L5 | S0 | Hold | 無證據，機轉聯結極遠端 |
+| thrombotic disorder (platelet) | L5 | S0 | Hold | 無證據，機轉方向存疑 |
+
+> ⚠️ **重要警示**：此分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過完整臨床驗證方可應用。

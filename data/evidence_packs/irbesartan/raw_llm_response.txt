@@ -1,0 +1,296 @@
+## 藥物再利用證據分析：Irbesartan (DB01029)
+
+> **⚠️ 資料品質警告**：`original_indications: []` 且 `original_moa: [Data Gap]`，但 Irbesartan 為已核准 ARB（FDA 核准適應症：高血壓、第二型糖尿病腎病變），此為資料缺口而非真實空白，請補齊基礎資料以提升預測可靠性。
+
+---
+
+```json
+{
+  "drug_context": {
+    "drug": "Irbesartan",
+    "drugbank_id": "DB01029",
+    "inferred_moa": "選擇性 AT1 受體拮抗劑（ARB）：阻斷 Angiotensin II 與 AT1 受體結合，降低血管收縮、醛固酮分泌、腎小球高壓及血管纖維化，並具部分 PPARγ 促效活性（為 ARB 中特有）",
+    "data_quality_flag": "original_moa=[Data Gap], original_indications=[], 建議補充 IDNT/IRMA-2 試驗資料與核准適應症後重新評估"
+  },
+  "indications": [
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "rationale": "資料集中無直接試驗或文獻，但機轉關聯極強；IDNT 試驗（Phase 3 RCT）已驗證 Irbesartan 對糖尿病腎病變具腎保護效果，屬同類機轉間接外推",
+      "mechanistic_link": "AT1 拮抗 → 降低出球小動脈阻力 → 減少腎小球高壓 → 抑制腎小球硬化與腎小管纖維化；惡性高血壓腎病正是 AngII 驅動的腎小球損傷模型，機轉高度吻合",
+      "safety_flag": "需確認無雙側腎動脈狹窄（見下條目）；惡性高血壓急性期降壓速度需謹慎管控",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "ARB 類藥物在雙側腎動脈狹窄或單腎腎動脈狹窄患者中存在已知的急性腎衰竭風險（AngII 維持出球小動脈收縮以保持 GFR），為藥物安全禁忌情境；renovascular 高血壓的機轉與 ARB 作用點直接衝突，屬安全性拒絕",
+      "mechanistic_link": "腎血管性高血壓依賴 AngII 維持 GFR；AT1 拮抗劑移除此代償機制後，可急速惡化腎功能。雖然 AT1 阻斷可降低血壓，但此類患者的腎功能代償機制將失效",
+      "safety_flag": "🔴 高安全性疑慮：雙側腎動脈狹窄禁忌；需先排除解剖學因素後才可考慮研究",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "資料集中無任何試驗或文獻；Group 5 肺動脈高壓機轉異質性高，目前無 ARB 在此亞型的臨床試驗；TxGNN 分數高可能反映網路中 RAS 路徑的廣泛連結而非特異性訊號",
+      "mechanistic_link": "RAS 在肺血管重塑中有一定角色（AngII 促進肺動脈平滑肌細胞增殖），但缺乏特異性機轉支持；現行 PAH 核准治療（PDE5i、ERA、sPGC 激動劑）效果優於 ARB",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "Group 3 PH（低氧性）目前無 ARB 核准適應症，亦無直接臨床試驗；PMID 34147903（慢性高山病大鼠模型）雖與低氧有關，但位於「chronic pulmonary heart disease」條目下，且為動物研究，不足以支撐此適應症",
+      "mechanistic_link": "低氧→肺血管收縮→RAS 活化→AngII 升高→肺動脈重塑；AT1 拮抗理論上可中斷此路徑，但臨床療效未經驗證，且低氧性 PH 以治療原發肺病為主",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9899,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "罕見遺傳症候群（顱顏發育異常合併智能障礙），無任何試驗或文獻；TxGNN 分數高可能源自圖譜中的間接路徑連結，無生物學合理性支撐",
+      "mechanistic_link": "目前無已知機轉連結；Braddock syndrome 為發育性遺傳疾病，與 RAS 路徑無直接關聯",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "txgnn_score": 0.9887,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "冠狀動脈血管痙攣性心絞痛的第一線治療為鈣離子通道阻斷劑與長效硝酸鹽；ARB 無已知對冠狀動脈痙攣的特異性療效，無試驗或文獻支持",
+      "mechanistic_link": "AngII 可誘導血管平滑肌收縮（AT1 路徑），理論上 AT1 拮抗可緩解冠狀動脈痙攣；但 Prinzmetal angina 主要由 NO 缺乏與 ROCK 路徑驅動，與 ARB 作用點關聯較弱",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn_score": 0.9872,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "極罕見遺傳性血管結締組織疾病，無任何臨床試驗或文獻；疾病機轉（COL4A3/COL4A4 相關基底膜異常）與 ARB 機轉無直接連結",
+      "mechanistic_link": "血管基底膜結構缺陷導致血尿與視網膜血管迂曲；ARB 的 TGF-β 抑制效果理論上可能減緩血管纖維化（類似 Marfan 症候群的 ARB 研究方向），但此為高度推測，無實證",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn_score": 0.9866,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "雖有 18 篇文獻，但全部為眼科先天性異常（Axenfeld-Rieger 症候群、視神經發育不良、眼裂缺損等），均與 Irbesartan 治療無關；文獻反映的是疾病表型描述，而非藥物干預證據。COL4A1/COL4A2 突變導致的腦小血管病變目前無 ARB 核准或試驗",
+      "mechanistic_link": "COL4A1 突變破壞血管基底膜完整性 → 腦小血管出血與白質病變；ARB 的抗纖維化與 TGF-β 抑制可能有間接保護效果，但缺乏任何臨床前或臨床研究支持",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35882526",
+          "title": "Axenfeld-Rieger syndrome: more than meets the eye",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "先天性眼前段發育異常綜合評述，與 Irbesartan 無關，屬疾病背景文獻"
+        },
+        {
+          "pmid": "6782689",
+          "title": "Ocular coloboma",
+          "year": "1981",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "眼裂缺損舊版綜述，與藥物再利用無關聯"
+        },
+        {
+          "pmid": "30182440",
+          "title": "Neuropathology of holoprosencephaly",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "腦發育異常神經病理描述，無藥物關聯"
+        },
+        {
+          "pmid": "33870948",
+          "title": "Optic Nerve Aplasia",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "視神經發育不全文獻，與 Irbesartan 無關"
+        },
+        {
+          "pmid": "11941259",
+          "title": "Congenital megalocornea",
+          "year": "2002",
+          "study_type": "Case Series/Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "先天性大角膜，純描述性眼科文獻"
+        },
+        {
+          "pmid": "10498002",
+          "title": "Tilted disc syndrome",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "視盤傾斜症候群，無藥物干預"
+        },
+        {
+          "pmid": "6390155",
+          "title": "Optic disk abnormalities",
+          "year": "1983",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "視盤異常舊版描述，無治療相關性"
+        },
+        {
+          "pmid": "1458324",
+          "title": "Congenital ocular anomalies",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "先天性眼部異常通論，無 ARB 相關性"
+        },
+        {
+          "pmid": "16848213",
+          "title": "Distichiasis",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "雙行睫文獻，純眼科描述"
+        },
+        {
+          "pmid": "22963965",
+          "title": "Branchio-oculo-facial syndrome",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "鰓-眼-顏面症候群，遺傳性發育疾病，無藥物干預"
+        }
+      ]
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.9653,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "rationale": "5 篇文獻中有 2 篇直接涉及 Irbesartan（PMID 18949104 臨床研究、PMID 34147903 動物模型），提供初步間接證據；但無直接 RCT，且慢性肺心病（cor pulmonale）並非 ARB 現行適應症",
+      "mechanistic_link": "慢性肺心病（肺源性心臟病）：慢性缺氧 → RAS 活化 → AngII 升高 → 右心室重塑與肺血管收縮；AT1 拮抗可理論上減緩右心纖維化。PMID 34147903 在慢性高山病（低氧）大鼠模型中證實 Irbesartan 可透過膽固醇代謝路徑改善症狀",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38536153",
+          "title": "Prognostic Models for Mortality and Morbidity in HFpEF",
+          "year": "2024",
+          "study_type": "Observational/Prognostic Model",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "HFpEF 預後模型研究，未涉及 Irbesartan 治療，屬背景文獻；HFpEF 與慢性肺心病有部分重疊但非等同"
+        },
+        {
+          "pmid": "18949104",
+          "title": "Effects of aerobic exercise training and irbesartan on blood pressure and heart rate variability",
+          "year": "2008",
+          "study_type": "Clinical Intervention Study",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "直接涉及 Irbesartan 的臨床干預研究，評估其對血壓與心率變異性的影響；雖非專門針對慢性肺心病，但提供 Irbesartan 心臟自律神經效果的臨床資料，具部分相關性"
+        },
+        {
+          "pmid": "38904646",
+          "title": "Low Natriuretic Peptide Levels and Outcomes in HFpEF",
+          "year": "2024",
+          "study_type": "Observational Cohort",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "HFpEF 患者 BNP 水平與預後研究，無 Irbesartan 介入，為背景文獻"
+        },
+        {
+          "pmid": "22887722",
+          "title": "Sex differences in clinical characteristics in elderly patients with heart failure",
+          "year": "2012",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "老年心衰竭性別差異研究，無 Irbesartan 特異性分析，屬流行病學背景"
+        },
+        {
+          "pmid": "34147903",
+          "title": "Irbesartan ameliorates chronic mountain sickness in a rat model via cholesterol metabolism",
+          "year": "2021",
+          "study_type": "Preclinical (Animal Model)",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "最直接相關文獻：在慢性高山病大鼠（模擬慢性低氧環境）中，Irbesartan 透過膽固醇代謝路徑改善症狀；慢性低氧是慢性肺心病的核心病理驅動因素，機轉關聯性合理，但屬動物模型，證據等級有限"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete susceptibility to ischemic stroke",
+      "txgnn_score": 0.9570,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "疾病術語本身標記為『obsolete（已廢棄）』，不應作為再利用目標；此外無任何試驗或文獻。ARB 在缺血性腦中風預防有 LIFE 試驗（losartan）等間接類藥物證據，但需以現行疾病分類重新評估",
+      "mechanistic_link": "RAS 參與動脈粥樣硬化與血栓形成機轉；AT1 拮抗可降低血壓、改善血管內皮功能，理論上具中風預防潛力。但此疾病術語已廢棄，建議改以『ischemic stroke prevention』或 ICD-10 對應術語重新查詢",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 疾病名稱 | TxGNN | 證據等級 | 決策階段 | 建議 |
+|---|---|---|---|---|
+| malignant hypertensive renal disease | 0.993 | **L4** | S1 | 🟡 Research Question |
+| malignant renovascular hypertension | 0.993 | **L4** | S0 | 🔴 Hold（安全禁忌） |
+| pulmonary hypertension (multifactorial) | 0.993 | **L5** | S0 | ⛔ Hold |
+| pulmonary hypertension (hypoxia) | 0.993 | **L5** | S0 | ⛔ Hold |
+| Braddock syndrome | 0.990 | **L5** | S0 | ⛔ Hold |
+| Prinzmetal angina | 0.989 | **L5** | S0 | ⛔ Hold |
+| familial hematuria-arteriolar tortuosity syndrome | 0.987 | **L5** | S0 | ⛔ Hold |
+| brain small vessel disease 1 | 0.987 | **L5** | S0 | ⛔ Hold（文獻不相關） |
+| **chronic pulmonary heart disease** | 0.965 | **L4** | S1 | 🟡 Research Question |
+| obsolete ischemic stroke susceptibility | 0.957 | **L5** | S0 | ⛔ Hold（廢棄術語） |
+
+---
+
+## 🔑 關鍵洞察
+
+1. **資料缺口是主要限制**：Irbesartan 為已核准 ARB，IDNT/IRMA-2 試驗具 L1 等級證據（糖尿病腎病），但未被此資料集捕獲，導致最高分預測（malignant hypertensive renal disease）僅能評為 L4。**建議優先補充核准適應症資料**。
+
+2. **TxGNN 高分不等於高證據**：前 4 名（0.993–0.993）中有一個存在**安全禁忌**（renovascular hypertension），顯示模型分數需結合臨床安全性過篩。
+
+3. **最具研究價值的新適應症**：`chronic pulmonary heart disease`（PMID 34147903 動物模型 + 機轉合理性）值得設計 Phase 1/2 探索性試驗，特別是慢性低氧相關右心室重塑的情境。
+
+4. **brain small vessel disease 文獻警告**：18 篇文獻全為不相關的先天性眼科疾病描述，為**文獻比對偽陽性**，建議檢查收集器的 MeSH 術語設定。

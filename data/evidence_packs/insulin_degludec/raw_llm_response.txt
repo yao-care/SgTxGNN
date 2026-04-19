@@ -1,0 +1,355 @@
+## Insulin Degludec (DB09564) 藥物再利用證據分析
+
+分析資料涵蓋 10 個適應症候選。以下為完整評估結果：
+
+```json
+{
+  "drug": "Insulin degludec",
+  "drugbank_id": "DB09564",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "市場狀態標記為「未上市」，原始適應症欄位為空，推測為本地市場（新加坡）尚未登記，但全球已為 T1DM/T2DM 核准藥物（Tresiba®）。TxGNN 系統將所有候選一律視為再利用潛力評估。",
+  "indications": [
+    {
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "recommendation_note": "Insulin degludec 為全球已核准之 T1DM 基礎胰島素，本地若屬未登記問題，應優先申請藥品登記，而非列為一般再利用研究。",
+      "mechanistic_link": "T1DM 患者因自體免疫破壞胰島 β 細胞，導致內源性胰島素絕對缺乏。Insulin degludec 為超長效基礎胰島素類似物，透過皮下注射形成多聚體儲存庫，持續穩定釋放胰島素，與胰島素受體（IR）結合後活化 PI3K/Akt 與 MAPK 通路，調控葡萄糖攝取與糖質新生抑制，直接補充缺失的內源性胰島素功能。機轉連結直接，為 First-in-Class 機轉匹配。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05463744",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 692,
+          "relevance_grade": "A",
+          "reasoning": "大型 Phase 3 隨機對照試驗，直接評估 degludec 效益與安全性，為最高等級直接證據。樣本數 692 具統計效力。"
+        },
+        {
+          "nct_id": "NCT02738151",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 929,
+          "relevance_grade": "A",
+          "reasoning": "最大樣本量 Phase 4 上市後研究（n=929），多中心隨機開放標籤平行設計，真實世界驗證效益與安全性，相關性極高。"
+        },
+        {
+          "nct_id": "NCT03328845",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 300,
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 完成試驗，比較不同胰島素類似物對 T1DM 氧化壓力的影響，直接比較 degludec 與其他胰島素，具良好樣本數（n=300）。"
+        },
+        {
+          "nct_id": "NCT00614055",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 178,
+          "relevance_grade": "B",
+          "reasoning": "早期 Phase 2 三臂平行試驗，目標達成設計（treat-to-target），16 週追蹤，建立初期概念驗證，但樣本數與追蹤期較短。"
+        },
+        {
+          "nct_id": "NCT04196231",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 258,
+          "relevance_grade": "B",
+          "reasoning": "評估 degludec 合併 GLP-1 或 SGLT-2 抑制劑的持久性，研究複合療法而非單藥，相關性為中等。"
+        },
+        {
+          "nct_id": "NCT06408532",
+          "phase": "PHASE4",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 256,
+          "relevance_grade": "B",
+          "reasoning": "評估從其他療法轉換至 IDegLira 的策略，尚未招募，提供未來真實世界切換研究的前瞻性意義。"
+        },
+        {
+          "nct_id": "NCT03463564",
+          "phase": "PHASE4",
+          "status": "RECRUITING",
+          "enrollment": 150,
+          "relevance_grade": "B",
+          "reasoning": "胰島素幫浦 vs 多次注射比較研究，間接評估 degludec 在 T1DM 血糖控制中的角色，招募中。"
+        },
+        {
+          "nct_id": "NCT00841087",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 65,
+          "relevance_grade": "B",
+          "reasoning": "早期 Phase 2 探索性試驗（n=65），樣本數較小，6 週追蹤期較短，但為早期安全性確認有意義。"
+        },
+        {
+          "nct_id": "NCT03557892",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "C",
+          "reasoning": "非分期研究，樣本極小（n=28），主要比較輸注裝置差異，degludec 相關性間接，證據力弱。"
+        },
+        {
+          "nct_id": "NCT06945406",
+          "phase": "PHASE1",
+          "status": "RECRUITING",
+          "enrollment": 132,
+          "relevance_grade": "C",
+          "reasoning": "研究標的為 LY4057（非 degludec），為不同分子的 Phase 1 安全性研究，degludec 相關性極低，列入僅作參考對照。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39270686",
+          "title": "Once-weekly efsitora alfa vs once-daily degludec in T1DM",
+          "year": "2024",
+          "study_type": "RCT (Phase 3, QWINT-1)",
+          "tier": "1",
+          "note": "以 degludec 為對照組的 Phase 3 RCT，間接驗證 degludec 的標準基線效益。"
+        },
+        {
+          "pmid": "37863084",
+          "title": "Once-weekly icodec vs once-daily degludec in basal-bolus regimen",
+          "year": "2023",
+          "study_type": "RCT (ONWARDS 6)",
+          "tier": "1",
+          "note": "ONWARDS 系列 Phase 3 RCT，degludec 為主動對照組，高品質直接比較數據。"
+        },
+        {
+          "pmid": "36623517",
+          "title": "Degludec vs detemir, both with aspart, in T1DM",
+          "year": "2023",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "頭對頭 RCT，直接比較 degludec 與 detemir 在 T1DM 的療效，為最直接的比較效益證據。"
+        },
+        {
+          "pmid": "36763996",
+          "title": "Efficacy and tolerability of degludec vs other basal insulins in T1DM",
+          "year": "2022",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "note": "系統性回顧與統合分析，整合多項 RCT 數據，提供最高等級的療效與安全性總結。"
+        },
+        {
+          "pmid": "31055056",
+          "title": "Current status of degludec in T1DM and T2DM",
+          "year": "2020",
+          "study_type": "Narrative Review + Observational data",
+          "tier": "2",
+          "note": "整合隨機與觀察性研究，提供真實世界補充視角，時效性良好。"
+        },
+        {
+          "pmid": "38679838",
+          "title": "QWINT phase 3 development programme design",
+          "year": "2024",
+          "study_type": "Study Design Paper",
+          "tier": "2",
+          "note": "方法學設計文件，以 degludec 為對照組，反映其作為金標準對照藥的地位。"
+        },
+        {
+          "pmid": "36106652",
+          "title": "ONWARDS 1-6 trials rationale and design",
+          "year": "2023",
+          "study_type": "Study Design Paper",
+          "tier": "2",
+          "note": "ONWARDS 系列設計文件，確認 degludec 在大規模比較研究中作為主動對照組的標準地位。"
+        },
+        {
+          "pmid": "37290466",
+          "title": "Management of T1DM in pregnancy: update and novel approaches",
+          "year": "2023",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "涵蓋特殊族群（妊娠）的治療更新，提供 degludec 在臨床指引中的定位。"
+        },
+        {
+          "pmid": "25143741",
+          "title": "Insulin degludec/aspart combination for T1DM and T2DM",
+          "year": "2014",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "早期複合製劑評估，確立 degludec 的基礎作用機轉，時效性較舊但奠基意義重要。"
+        },
+        {
+          "pmid": "23890782",
+          "title": "Degludec: ultra-long-acting basal insulin for T1DM and T2DM",
+          "year": "2014",
+          "study_type": "Clinical Pharmacology Review",
+          "tier": "2",
+          "note": "藥物核准後早期機轉綜述，奠定 PK/PD 理解基礎，時效性較舊。"
+        }
+      ],
+      "clinical_evidence_summary": {
+        "rct_count": "≥5 項 RCT（含 Phase 3 直接試驗）",
+        "total_trials_reviewed": 10,
+        "grade_A_trials": 3,
+        "grade_B_trials": 5,
+        "grade_C_trials": 2,
+        "tier1_literature": 4,
+        "tier2_literature": 6,
+        "highest_phase_completed": "PHASE3 + PHASE4"
+      }
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9922,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "無任何臨床試驗或文獻支持。TxGNN 預測可能來自知識圖譜中 T1DM 與自體免疫疾病節點的共享路徑，屬演算法推論而非生物學機轉驗證。",
+      "mechanistic_link": "自體免疫性卵巢炎與 T1DM 同屬自體免疫疾病，可共同出現於自體免疫多腺體症候群（APS-II）。TxGNN 可能透過「自體免疫節點」關聯推論，但胰島素本身對卵巢自體免疫炎症無直接作用機轉。推論路徑：T1DM (autoimmune) ↔ autoimmune oophoritis，為間接拓樸關聯，非功能性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機轉關聯極弱，僅為拓樸推論", "自體免疫卵巢炎需免疫抑制治療，胰島素無適用機轉"]
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9912,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "罕見骨骼發育不良（INPPL1 基因突變），無臨床或前臨床證據。",
+      "mechanistic_link": "Opsismodysplasia 由 INPPL1（SHIP2，磷酸肌醇磷酸酶）基因突變引起，SHIP2 參與胰島素訊號通路中 PI(3,4,5)P₃ 去磷酸化調控。理論上胰島素訊號干預可能影響此通路，但此為極度間接的分子推論，缺乏任何功能驗證。極罕見疾病（全球病例數極少），研究可行性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見疾病，臨床研究可行性極低", "訊號通路關聯屬分子層次推論，無功能驗證"]
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9910,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "Thiamine-responsive megaloblastic anemia (TRMA/Rogers syndrome) 以 SLC19A2 突變為因，糖尿病為其三聯症之一，但現有治療以 Thiamine 補充為主，胰島素用於血糖控制屬支持性使用。",
+      "mechanistic_link": "TRMA（SLC19A2 突變）患者出現胰島素分泌不足型糖尿病，部分對 Thiamine 補充有反應。胰島素（包括 degludec）在此疾病中為支持性血糖管理工具，而非針對疾病根本機轉。若無 Thiamine 治療基礎，單用 degludec 無法改變疾病進程。此為「對症使用」非「機轉再利用」，缺乏正式臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["屬支持性症狀治療，非機轉性再利用", "極罕見疾病，難以設計臨床試驗"]
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "僵人症候群與 T1DM 有共同 GAD65 自體抗體，但胰島素不具治療 SPS 的神經肌肉機轉。",
+      "mechanistic_link": "Classical SPS 患者約 60-70% 有抗 GAD65 抗體，T1DM 患者亦高頻率出現 GAD65 抗體，兩病常共病。TxGNN 透過 GAD65/自體免疫路徑建立連結。然而，SPS 的治療靶點為 GABA 抑制性神經元功能恢復（Diazepam、Baclofen、IVIG、Rituximab），胰島素對 GABAergic 通路或 SPS 神經病理無直接作用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["共病關聯不等於治療關聯", "SPS 治療機轉與胰島素作用靶點不重疊"]
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "SPS 的局部型變體，與 classic SPS 有相同評估邏輯，同樣缺乏臨床證據。",
+      "mechanistic_link": "Focal stiff limb syndrome 為 SPS 譜系疾病，GAD65 抗體關聯相似但證據更少。與 classic SPS 分析相同：胰島素-GABAergic 通路無直接機轉連結。案例數量極罕見，疾病分類仍在演進中。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見變體，文獻基礎薄弱", "機轉關聯推論與 classic SPS 相同，同樣缺乏支持"]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9865,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "值得注意的是，胰島素本身是造成此疾病的已知原因之一（胰島素注射引發的脂肪增生/萎縮），此預測方向性存在疑問。",
+      "mechanistic_link": "胰島素注射引起的局部脂肪代謝異常是已知的藥物不良反應（insulin-induced lipodystrophy），而非治療靶點。Degludec 作為較新的胰島素類似物，其局部脂肪影響可能與舊型胰島素不同（可能較輕），但將其作為「治療藥物誘發性脂肪代謝異常」的再利用方向，存在根本性概念衝突。TxGNN 可能因胰島素與脂肪組織的代謝連結而建立此預測節點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["預測方向性存疑：胰島素是此症的已知致因之一", "再利用概念存在根本衝突，需重新框架"]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9861,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "胰臟先天性缺如導致的糖尿病屬於繼發性糖尿病，胰島素替代為必要治療，但屬「對症使用」而非基於創新機轉的再利用，且病例數極罕見。",
+      "mechanistic_link": "胰臟先天性缺如（多因 PTF1A、PDX1、GATA6 等基因突變）導致完全性胰島素缺乏，臨床上為新生兒型糖尿病。胰島素替代療法（包括 degludec）在概念上完全適用，機轉連結直接。然而此屬「對症支持治療」而非創新再利用，且此類疾病患者通常需要複雜的個人化胰島素方案，缺乏 degludec 的特定試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["概念上可行但屬支持性使用，非創新再利用", "病例數極少（< 1:1,000,000），無法設計標準臨床試驗"]
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9860,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "離心性脂肪代謝障礙為罕見獲得性局部脂肪萎縮，病因未明，無任何臨床試驗或文獻支持胰島素治療。",
+      "mechanistic_link": "Centrifugal lipodystrophy 為良性局部皮下脂肪萎縮，多見於兒童，病因可能涉及局部炎症或脂肪細胞凋亡。胰島素具有促進脂肪細胞分化與脂質合成的作用（透過 IR→IRS-1→PI3K→Akt→GLUT4 及 SREBP-1c 通路），理論上可能促進脂肪再生，但此為高度推測性機轉，缺乏任何功能驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["純理論推論，無任何前臨床證據", "病因不明增加靶向治療開發難度"]
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9858,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_note": "壓力誘發性局部脂肪萎縮無胰島素治療的臨床依據，機轉推論薄弱。",
+      "mechanistic_link": "壓力性局部脂肪萎縮由長期機械壓力導致脂肪細胞壞死與萎縮（常見於長期臥床或假肢摩擦部位）。胰島素的促脂肪生成效應在理論上可能有助於脂肪組織再生，但：(1) 壓力性損傷的主要機制是機械性缺血，非代謝性；(2) 無任何局部胰島素療法用於此症的前臨床或臨床研究；(3) 全身性胰島素對局部萎縮無法提供針對性治療效果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機械性損傷機轉與胰島素作用靶點不符", "局部治療可行性未經驗證"]
+    }
+  ],
+  "portfolio_summary": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 0,
+    "L5_count": 9,
+    "S3_proceed": ["type 1 diabetes mellitus"],
+    "S0_hold": [
+      "autoimmune oophoritis",
+      "opsismodysplasia",
+      "thiamine-responsive dysfunction syndrome",
+      "classic stiff person syndrome",
+      "focal stiff limb syndrome",
+      "drug-induced localized lipodystrophy",
+      "pancreatic agenesis",
+      "centrifugal lipodystrophy",
+      "pressure-induced localized lipoatrophy"
+    ],
+    "key_observations": [
+      "T1DM 具壓倒性 L1 臨床證據（Phase 3 RCT + Phase 4 + 系統性回顧），為本地藥品登記申請的優先適應症",
+      "其餘 9 項適應症均為 L5，TxGNN 預測主要來自知識圖譜拓樸關聯而非生物功能性機轉",
+      "drug-induced localized lipodystrophy 預測存在概念方向性衝突（胰島素為此症致因），需特別留意",
+      "pancreatic agenesis 與 TRMA 雖有對症使用合理性，但屬極罕見病且為支持性治療，不符合傳統再利用研究定義",
+      "TxGNN 高分數（>0.986）在缺乏任何臨床佐證的情況下，不應被解讀為臨床可行性的指標"
+    ],
+    "recommended_next_steps": {
+      "immediate": "向本地藥監局申請 T1DM 適應症藥品登記（若為市場登記問題）",
+      "research_worthy": "無（其餘 9 項均建議 Hold，待更多機轉前臨床資料後重評）",
+      "monitoring": "持續追蹤 ONWARDS 系列及 QWINT 試驗最終結果，可作為本地市場申請的補充證據"
+    }
+  }
+}
+```
+
+---
+
+## 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 臨床試驗 | 文獻 | 證據等級 | 決策 |
+|--------|-----------|---------|------|---------|------|
+| **Type 1 Diabetes Mellitus** | 0.9944 | 50 (含 Phase 3) | 20 | **L1** | ✅ **S3 — Proceed** |
+| Autoimmune oophoritis | 0.9923 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Opsismodysplasia | 0.9912 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Thiamine-responsive dysfunction | 0.9910 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Classic stiff person syndrome | 0.9908 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Focal stiff limb syndrome | 0.9908 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Drug-induced lipodystrophy | 0.9865 | 0 | 0 | L5 | ⚠️ S0 — Hold (方向性衝突) |
+| Pancreatic agenesis | 0.9861 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Centrifugal lipodystrophy | 0.9860 | 0 | 0 | L5 | 🚫 S0 — Hold |
+| Pressure-induced lipoatrophy | 0.9858 | 0 | 0 | L5 | 🚫 S0 — Hold |
+
+> ⚠️ **重要提醒**：本分析結果僅供研究參考，不構成醫療建議。所有再利用候選適應症需經過嚴格臨床驗證方可應用。TxGNN 高預測分數反映知識圖譜拓樸相似性，不等同於臨床療效。

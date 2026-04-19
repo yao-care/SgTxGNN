@@ -1,0 +1,396 @@
+## Ciprofloxacin (DB00537) 藥物再利用證據分析
+
+> ⚠️ **資料背景提醒**：`original_indications: []` 及 `market_status: 未上市` 顯示本市場尚無核准適應症記錄，但 Ciprofloxacin 全球已廣泛核准用於多種細菌感染，下列分析以提供數據為準。
+
+---
+
+```json
+{
+  "drug": "Ciprofloxacin",
+  "drugbank_id": "DB00537",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Ciprofloxacin 為氟喹諾酮類廣效抗生素，作用機轉為抑制細菌 DNA 旋轉酶（DNA gyrase）及拓撲異構酶 IV。original_moa 標記為 [Data Gap] 可能為資料庫缺漏，非藥理事實。",
+  "indications": [
+    {
+      "disease_name": "diffuse scleroderma",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "雙重機轉假說：(1) Ciprofloxacin 具超出抗菌活性的抗纖維化特性，體外研究顯示可抑制皮膚纖維母細胞增殖及膠原蛋白合成，與硬皮症病理（真皮層異常膠原沉積）具機轉相關性；(2) 硬皮症患者普遍存在小腸細菌過度生長（SBBO），抗生素治療可改善腸道相關症狀。兩者均非直接調節 TGF-β 等核心病理路徑，機轉連結屬間接性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20507401",
+          "title": "Ciprofloxacin utility as antifibrotic in the skin of patients with scleroderma.",
+          "year": "2010",
+          "study_type": "Pilot Clinical Study",
+          "tier": "2",
+          "relevance_to_indication": "直接相關 ✓",
+          "reasoning": "本適應症唯一直接臨床證據，探討 Ciprofloxacin 在硬皮症患者皮膚的抗纖維化效用。惟研究規模可能極小（Pilot/Case Series 等級），尚無法支撐高等級建議，需確認樣本數與研究設計"
+        },
+        {
+          "pmid": "7728404",
+          "title": "Small bowel bacterial overgrowth in systemic sclerosis: detection using direct and indirect methods",
+          "year": "1995",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "聚焦硬皮症中 SBBO 的偵測方法，Ciprofloxacin 僅用於治療感染性併發症而非硬皮症本身，提供機轉背景但無直接療效數據"
+        }
+      ]
+    },
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理直接機轉連結。多克隆高黏滯症候群由感染、自體免疫病等引起的多克隆免疫球蛋白大量增生所致，Ciprofloxacin 若用於治療其感染性誘因或有間接效益，但缺乏任何臨床支持，TxGNN 高分可能為知識圖譜拓撲偽關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hyperamylasemia",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉連結。高澱粉酶血症為症狀而非疾病本身，多源於胰臟炎或唾液腺疾病。⚠️ 安全警示：Ciprofloxacin 已有誘發急性胰臟炎（進而引起高澱粉酶血症）之罕見副作用報告，作為本症治療藥物存在加重疾病的潛在風險，TxGNN 預測可能反映關聯而非因果關係。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理機轉連結。先天性無白蛋白血症為 ALB 基因突變所致的遺傳性蛋白缺陷，抗生素干預無法糾正遺傳缺陷，與 Ciprofloxacin 作用機轉完全不符。此預測為 TxGNN 知識圖譜偽關聯，建議排除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blood group incompatibility",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉連結。血型不相容為免疫介導反應（ABO/Rh 抗體），現有 3 篇文獻均為移植相關感染情境中使用 Ciprofloxacin 作為預防/治療感染（非針對血型不相容本身），文獻關聯性評估全部為不相關或間接相關，建議排除此預測。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33246211",
+          "title": "Prevalence and molecular characterisation of carbapenemase-producing Enterobacterales in an outbreak",
+          "year": "2021",
+          "study_type": "Epidemiological/Outbreak Study",
+          "tier": "3",
+          "relevance_to_indication": "不相關 ✗",
+          "reasoning": "報導碳青黴烯酶產生菌爆發並提及 Ciprofloxacin 抗藥性問題，與血型不相容適應症無任何直接連結"
+        },
+        {
+          "pmid": "38388292",
+          "title": "High-Dose Intravenous Immunoglobulin to Treat Anti-Thymocyte Globulin Induction-Related BK Virus...",
+          "year": "2024",
+          "study_type": "Case Report/Clinical Study",
+          "tier": "3",
+          "relevance_to_indication": "間接相關（脈絡相關）",
+          "reasoning": "移植後 BK 病毒感染治療，Ciprofloxacin 用於感染預防，研究背景可能涉及血型不相容移植但非治療目標"
+        },
+        {
+          "pmid": "19917418",
+          "title": "A survival case of ABO-incompatible liver transplantation complicated with severe preoperative infec...",
+          "year": "2009",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "間接相關（脈絡相關）",
+          "reasoning": "ABO 不相容肝移植術後嚴重感染病例，Ciprofloxacin 用於抗感染治療，並非治療血型不相容本身"
+        }
+      ]
+    },
+    {
+      "disease_name": "premalignant hematological system disease",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接臨床證據。氟喹諾酮類在體外研究中顯示透過 DNA 損傷機制具有一定抗腫瘤活性，但此機制尚未在血液系統前惡性病變的臨床研究中得到驗證。文獻數為零，TxGNN 分數 0.9973 屬純模型預測，不具臨床可操作性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉存在理論基礎但缺乏直接證據：Ciprofloxacin 眼用製劑已核准用於細菌性結膜炎和角膜潰瘍；然而，點狀上皮角結膜炎（PEK）病因多為病毒性（腺病毒）、藥物毒性或乾眼症相關，細菌性病因佔比較少，且文獻數為零，建議優先尋找其他病因導向治療。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "monoclonal gammopathy",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "⚠️ 重要概念釐清：現有證據支持 Ciprofloxacin 作為單克隆丙種球蛋白病（含多發性骨髓瘤 MM）患者接受高劑量化療/幹細胞移植（HSCT）期間的「感染性預防用藥」，而非直接治療單克隆丙種球蛋白病本身。此用途基於 MM 患者免疫缺陷導致革蘭氏陰性菌感染風險增高的機轉合理性，已有多個回顧性研究及一項前瞻性試驗支持。若作為治療 MGUS/MM 本身的藥物，則缺乏任何直接證據（仍為 L5 等級）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00062231",
+          "title": "Oral Empirical Therapy of Fever in Low-Risk Neutropenic Cancer Patients",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 351,
+          "relevance_grade": "C",
+          "reasoning": "試驗針對低風險中性球低下癌症患者的發燒經驗性治療（非專門針對 MM/單克隆丙種球蛋白病），研究因故 TERMINATED，研究階段標記為 NA，不構成直接支持本適應症的高品質證據"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38804381",
+          "title": "Double Hit of Hydroxichloroquine and Amiodarone Induced Renal Phospholipidosis...",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "不相關 ✗",
+          "reasoning": "描述羥氯喹和胺碘酮引起的腎臟磷脂症，Ciprofloxacin 在此研究中無主要角色"
+        },
+        {
+          "pmid": "10233878",
+          "title": "Influence of intestinal bacterial decontamination using metronidazole and ciprofloxacin...",
+          "year": "1999",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "探討移植前腸道細菌去污染方案（含 Ciprofloxacin），於血液腫瘤患者背景下進行，支持感染預防機轉但非治療疾病本身"
+        },
+        {
+          "pmid": "29208561",
+          "title": "Antibacterial prophylaxis with ciprofloxacin for patients with multiple myeloma and lymphoma...",
+          "year": "2018",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance_to_indication": "直接相關（感染預防用途）✓",
+          "reasoning": "骨髓瘤和淋巴瘤患者幹細胞移植期間 Ciprofloxacin 抗菌預防研究，為本適應症中最直接的回顧性研究之一"
+        },
+        {
+          "pmid": "11686107",
+          "title": "Acquired von Willebrand syndromes: clinical features, aetiology, pathophysiology...",
+          "year": "2001",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "後天性 von Willebrand 症候群綜述（與單克隆丙種球蛋白病相關），提供疾病背景但未直接研究 Ciprofloxacin 療效"
+        },
+        {
+          "pmid": "28484157",
+          "title": "[Hematopoietic neoplasms accompanied by severe enterocolitis due to Aeromonas species].",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "血液腫瘤患者 Aeromonas 腸炎病例，Ciprofloxacin 用於感染治療"
+        },
+        {
+          "pmid": "29080369",
+          "title": "Ciprofloxacin vs levofloxacin for prophylaxis during hematopoietic stem-cell transplantation.",
+          "year": "2018",
+          "study_type": "Retrospective Comparative Study",
+          "tier": "2",
+          "relevance_to_indication": "直接相關（感染預防用途）✓",
+          "reasoning": "幹細胞移植期間 Ciprofloxacin vs Levofloxacin 預防用藥比較，多為血液腫瘤（含 MM）患者，支持感染預防用途"
+        },
+        {
+          "pmid": "35619805",
+          "title": "Case Report: Disseminated Nocardiosis Caused by Nocardia vulneris in a Patient With Macroglobulinemia",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "巨球蛋白血症患者播散性 Nocardia 感染，Ciprofloxacin 用於聯合抗感染治療，顯示免疫缺陷患者的感染處置情境"
+        },
+        {
+          "pmid": "29564621",
+          "title": "Addition of doxycycline to ciprofloxacin for infection prophylaxis during autologous stem cell trans...",
+          "year": "2018",
+          "study_type": "Prospective Clinical Study",
+          "tier": "2",
+          "relevance_to_indication": "直接相關（感染預防用途）✓",
+          "reasoning": "自體幹細胞移植期間 Doxycycline + Ciprofloxacin 感染預防的前瞻性研究，為本組證據中唯一前瞻性設計"
+        },
+        {
+          "pmid": "22366265",
+          "title": "Ciprofloxacin prophylaxis for patients undergoing high-dose chemotherapy and autologous stem cell tr...",
+          "year": "2012",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance_to_indication": "直接相關（感染預防用途）✓",
+          "reasoning": "高劑量化療和自體幹細胞移植期間 Ciprofloxacin 預防用藥研究，血液腫瘤患者群體"
+        },
+        {
+          "pmid": "27529971",
+          "title": "[Meningococcal Septicemia Revealing Multiple Myeloma: A Case Report].",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "腦膜炎球菌敗血症揭露多發性骨髓瘤病例，Ciprofloxacin 用於感染治療，提供 MM 患者感染脆弱性背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "🚨 主動安全疑慮（主動排除）：FDA 已對所有氟喹諾酮類（含 Ciprofloxacin）發出黑框警告（Black Box Warning），指出可誘發嚴重且可能不可逆的周邊神經病變。對已存在周邊神經病變的患者使用 Ciprofloxacin 具有潛在加重疾病的確實風險，此適應症應主動排除，不建議作為研究問題推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "septicemic plague",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "強力機轉支持：Ciprofloxacin 透過抑制 DNA 旋轉酶（DNA gyrase, GyrA/GyrB）及拓撲異構酶 IV（ParC/ParE）殺滅鼠疫耶爾森菌（Yersinia pestis）。鼠疫耶爾森菌對氟喹諾酮類具高度敏感性（MIC 通常 ≤ 0.06 μg/mL），美國 CDC 及多國疾控機構已將 Ciprofloxacin 列為鼠疫治療及生物恐怖主義後預防的建議用藥。注意：「septicemic plague（敗血性鼠疫）」與「bubonic plague（淋巴腺性鼠疫）」機轉相同，部分 RCT 可能主要納入後者，但治療原則一致。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01243437",
+          "title": "A Randomized, Non-inferiority, Active Controlled Clinical Trial to Evaluate the Safety and Efficacy...",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 200,
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 已完成隨機對照非劣效性試驗，直接評估 Ciprofloxacin 治療鼠疫的安全性和有效性，入組 200 名患者，為本適應症最強直接臨床設計證據。結合文獻中多篇 RCT 成果，整體證據接近 L1 水準"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40768716",
+          "title": "Ciprofloxacin versus Aminoglycoside-Ciprofloxacin for Bubonic Plague.",
+          "year": "2025",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_to_indication": "直接相關 ✓",
+          "reasoning": "2025 年最新 RCT，比較單用 Ciprofloxacin vs 氨基糖苷類聯合 Ciprofloxacin 治療腺性鼠疫，為本適應症最新高品質臨床證據"
+        },
+        {
+          "pmid": "32807214",
+          "title": "An open-label, randomized, non-inferiority trial of the efficacy and safety of ciprofloxacin versus...",
+          "year": "2020",
+          "study_type": "RCT（開放標籤非劣效性）",
+          "tier": "1",
+          "relevance_to_indication": "直接相關 ✓",
+          "reasoning": "隨機對照非劣效性試驗直接比較 Ciprofloxacin 與標準治療對鼠疫的療效，設計等同 Phase 3 水準"
+        },
+        {
+          "pmid": "38970065",
+          "title": "An open-label, randomized, non-inferiority trial of the efficacy and safety of ciprofloxacin versus...",
+          "year": "2024",
+          "study_type": "RCT（開放標籤非劣效性）",
+          "tier": "1",
+          "relevance_to_indication": "直接相關 ✓",
+          "reasoning": "2024 年 Ciprofloxacin 治療鼠疫的非劣效性 RCT 更新報告，與 PMID 32807214 可能為同一試驗的延伸分析或獨立研究"
+        },
+        {
+          "pmid": "32435805",
+          "title": "Effect of Delaying Treatment on Efficacy of Ciprofloxacin and Levofloxacin in the African Green Monkey...",
+          "year": "2020",
+          "study_type": "Animal Study（靈長類模型）",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "非洲綠猴模型研究延遲治療對 Ciprofloxacin 效果的影響，提供重要動物模型支持數據及給藥時機指引"
+        },
+        {
+          "pmid": "28125398",
+          "title": "Successful Treatment of Human Plague with Oral Ciprofloxacin.",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "直接相關 ✓",
+          "reasoning": "口服 Ciprofloxacin 成功治療人類鼠疫病例報告，支持口服可行性"
+        },
+        {
+          "pmid": "19188359",
+          "title": "Different pathologies but equal levels of responsiveness to the recombinant F1 and V antigen vaccine...",
+          "year": "2009",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "比較鼠疫不同病理形式（淋巴腺型 vs 肺型 vs 敗血型）對疫苗的免疫反應，提供敗血性鼠疫病理背景"
+        },
+        {
+          "pmid": "25643450",
+          "title": "[Yersinia pestis and plague - an update].",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "鼠疫及 Yersinia pestis 全面更新綜述，涵蓋含 Ciprofloxacin 的治療建議，提供臨床指引背景"
+        },
+        {
+          "pmid": "11737937",
+          "title": "Winter, plague and pestilence.",
+          "year": "2001",
+          "study_type": "Review/Editorial",
+          "tier": "3",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "鼠疫歷史與流行病學討論，臨床相關性有限"
+        },
+        {
+          "pmid": "12567312",
+          "title": "A case of plague successfully treated with ciprofloxacin and sympathetic blockade...",
+          "year": "2003",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "直接相關 ✓",
+          "reasoning": "Ciprofloxacin 成功治療鼠疫病例（合併壞疽治療），支持臨床實用性"
+        },
+        {
+          "pmid": "12064962",
+          "title": "Biological agents as weapons 2: anthrax and plague.",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_to_indication": "間接相關",
+          "reasoning": "生物恐怖主義藥物綜述，涵蓋 Ciprofloxacin 用於鼠疫預防與治療的建議，提供政策層面支持"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|---------|---------|------|
+| **septicemic plague** | 0.9964 | 1 (Ph2✓) | 19 (含3 RCT) | **L2** | **S3** | ✅ Proceed with Guardrails |
+| **monoclonal gammopathy** ¹ | 0.9971 | 1 (終止) | 20 | **L3** | **S2** | ⚠️ Proceed with Guardrails |
+| **diffuse scleroderma** | 0.9987 | 0 | 2 | **L4** | **S1** | 🔬 Research Question |
+| **blood group incompatibility** | 0.9978 | 0 | 3 (不相關) | **L5** | **S0** | 🚫 Hold |
+| **polyclonal hyperviscosity syndrome** | 0.9987 | 0 | 0 | **L5** | **S0** | 🚫 Hold |
+| **hyperamylasemia** | 0.9987 | 0 | 0 | **L5** | **S0** | 🚫 Hold（安全疑慮）|
+| **congenital analbuminemia** | 0.9985 | 0 | 0 | **L5** | **S0** | 🚫 Hold |
+| **premalignant hematological disease** | 0.9973 | 0 | 0 | **L5** | **S0** | 🚫 Hold |
+| **punctate epithelial keratoconjunctivitis** | 0.9971 | 0 | 0 | **L5** | **S0** | 🚫 Hold |
+| **hematological disease + peripheral neuropathy** | 0.9968 | 0 | 0 | **L5** | **S0** | ❌ Hold（主動排除）|
+
+> ¹ 注意：Monoclonal gammopathy 證據為「感染預防用途」，非治療疾病本身
+
+---
+
+## 🔑 關鍵發現
+
+1. **Septicemic plague 為最強再利用候選**：具備已完成的 Phase 2 RCT + 3 篇 Tier-1 臨床試驗文獻，整體證據水準接近 L1。Ciprofloxacin 已被多國 CDC 列入鼠疫治療指引。
+
+2. **TxGNN 高分 ≠ 臨床意義**：10 個適應症的 TxGNN 分數均高度集中（0.9964–0.9987），顯示評分缺乏鑑別力，不應作為優先排序的主要依據。
+
+3. **主動安全排除**：「hematological disease + peripheral neuropathy」應因 FDA 黑框警告主動排除，此為逆向適應症風險。
+
+4. **Diffuse scleroderma 值得關注**：PMID 20507401 提供了獨特的抗纖維化假說，雖屬 L4 等級，機轉新穎性高，建議設計 Pilot RCT 進一步驗證。

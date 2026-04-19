@@ -1,0 +1,415 @@
+## 分析說明
+
+Dexlansoprazole（DB05351）為 Lansoprazole 的 R 對映異構體，採雙延遲釋放（DDR）技術，是第二代 PPI。標記 MoA 為 `[Data Gap]`，但實際機轉明確：**不可逆阻斷胃壁細胞 H⁺/K⁺-ATPase**，抑制胃酸分泌。以下為各適應症逐一評估：
+
+---
+
+```json
+{
+  "drug": "Dexlansoprazole",
+  "drugbank_id": "DB05351",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "原始 original_moa 標記為 [Data Gap]，但根據藥理文獻（PMID 19708852, 19305367），Dexlansoprazole 為 PPI，不可逆阻斷 H+/K+-ATPase。TAK-390MR 為其研發代號（Takeda）。NCT00321737 為直接 dexlansoprazole Phase 3 試驗。",
+  "indications": [
+    {
+      "disease_name": "active peptic ulcer disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Dexlansoprazole 不可逆阻斷 H⁺/K⁺-ATPase，抑制胃酸分泌，消除消化性潰瘍形成的核心病因（酸-胃蛋白酶侵蝕）。DDR 製劑提供兩個釋放峰值，延長有效抑酸時間，理論上優化潰瘍癒合條件。PPI 類藥物為消化性潰瘍一線治療，機轉直接相關。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04784910",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，423 人，Active-controlled 平行組設計。標題顯示為亞洲多中心直接比較試驗，針對上消化道潰瘍，高度相關。"
+        },
+        {
+          "nct_id": "NCT05448001",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，329 人，Active-Controlled 平行組設計，多中心雙盲，直接評估 PPI 於消化性潰瘍療效，高品質試驗。"
+        },
+        {
+          "nct_id": "NCT07079540",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，380 人，Double-Blind Double-Dummy Active-Controlled 設計，方法學嚴謹，為直接高品質證據。"
+        },
+        {
+          "nct_id": "NCT05813561",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，332 人，Active-parallel-controlled，直接調查 PPI 在消化性潰瘍的安全有效性。"
+        },
+        {
+          "nct_id": "NCT04840550",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，狀態 UNKNOWN，390 人，Active-controlled 設計相符，但狀態不明（可能為行政原因）降低可利用性，仍具參考價值。"
+        },
+        {
+          "nct_id": "NCT04531475",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 RCT，已完成，90 人，Active Comparator-controlled 平行組設計。樣本較小，提供 Phase 2 支持性機轉/劑量證據。"
+        },
+        {
+          "nct_id": "NCT03675672",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，招募中，154 人，研究特發性胃十二指腸潰瘍出血復發預防，聚焦潰瘍併發症預防，具臨床相關性。"
+        },
+        {
+          "nct_id": "NCT06778824",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase，招募中，610 人，主要研究腸腦互動疾病（DGBI）的食道感覺過敏，潰瘍為次要關聯，相關性間接。"
+        },
+        {
+          "nct_id": "NCT04400136",
+          "relevance_grade": "C",
+          "reasoning": "Early Phase 1，狀態不明，45 人，聚焦減重手術後 PPI 使用對 GERD 影響，為特殊人群研究，適應症特異性低。"
+        },
+        {
+          "nct_id": "NCT06964334",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，尚未招募，70 人，維生素 D 輔助 H. pylori 根除試驗，PPI 為輔助成分而非主要干預，主終點為根除率非潰瘍癒合。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38345252",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1"
+        },
+        {
+          "pmid": "18821474",
+          "study_type": "Drug Review (Dexlansoprazole DDR 直接藥物評論)",
+          "tier": "2"
+        },
+        {
+          "pmid": "36150104",
+          "study_type": "In vitro / Mechanistic Study",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastrojejunal ulcer",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "胃空腸吻合術後邊緣潰瘍（marginal ulcer）的形成與殘餘胃酸持續刺激吻合口黏膜有關。Dexlansoprazole 抑制胃酸理論上可降低吻合口暴露，促進癒合。但 DDR 設計依賴十二指腸 pH 觸發第二釋放峰；胃繞道術後改變解剖結構可能影響吸收動力學（NCT04423588 正是研究此問題，但已撤回）。臨床上需謹慎評估術後 PK 改變。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04423588",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已撤回（0 人），研究減重手術前後 dexlansoprazole 吸收變化，雖已撤回，但設計直接針對此臨床問題，說明有研究者認識到此需求，文獻佐證需求真實存在。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29307999",
+          "study_type": "RCT（Dexlansoprazole 60mg vs Esomeprazole 40mg 治療胃潰瘍）",
+          "tier": "1"
+        },
+        {
+          "pmid": "30390234",
+          "study_type": "Systematic Review / Meta-analysis（Dexlansoprazole 於糜爛性食道炎）",
+          "tier": "1"
+        },
+        {
+          "pmid": "29072432",
+          "study_type": "RCT（Moxifloxacin-Dexlansoprazole 三聯療法）",
+          "tier": "2"
+        },
+        {
+          "pmid": "38345252",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1"
+        },
+        {
+          "pmid": "19708852",
+          "study_type": "Drug Profile Review（Dexlansoprazole MR）",
+          "tier": "2"
+        },
+        {
+          "pmid": "19305367",
+          "study_type": "Drug Review（Dexlansoprazole/Kapidex）",
+          "tier": "2"
+        },
+        {
+          "pmid": "35787720",
+          "study_type": "Review（PPI Drug-Drug Interactions）",
+          "tier": "2"
+        },
+        {
+          "pmid": "35348552",
+          "study_type": "Prescribing Reference（GERD/消化性潰瘍用藥）",
+          "tier": "3"
+        },
+        {
+          "pmid": "35348553",
+          "study_type": "Comparison Table（H2RA vs PPI）",
+          "tier": "3"
+        },
+        {
+          "pmid": "19713987",
+          "study_type": "Expert Review（胃酸抑制未來展望）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "peptic ulcer perforation",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "消化性潰瘍穿孔為外科急症，主要治療為手術（修補或切除）。PPI 在此情境下僅作為術後輔助酸抑制，非主要干預。Dexlansoprazole 無任何直接針對穿孔病人的臨床證據；現有試驗均涉及 lansoprazole（母體化合物）或觀察性研究。間接類外推有限，且穿孔急性期通常選擇靜脈 PPI 而非口服劑型。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00175032",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已完成，1045 人，研究 Lansoprazole 30mg（dexlansoprazole 母體化合物）對潰瘍及其併發症的安全有效性，提供間接類外推證據，但非 dexlansoprazole 直接研究。"
+        },
+        {
+          "nct_id": "NCT00854776",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase，狀態不明，300 人，為觀察性研究（阿斯匹靈使用者消化性潰瘍及其併發症發生率），並非治療性干預試驗。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastric ulcer (disease)",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胃潰瘍的形成核心為胃酸侵蝕黏膜保護層失衡。Dexlansoprazole 不可逆阻斷 H⁺/K⁺-ATPase，直接解除攻擊因子（胃酸），促進黏膜癒合。NCT00321737（TAK-390MR = dexlansoprazole 研發代號）為針對胃潰瘍的直接 Phase 3 試驗，確立直接機轉與臨床證據的連結。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00321737",
+          "relevance_grade": "A",
+          "reasoning": "【關鍵試驗】Phase 3，已完成，445 人，TAK-390MR（即 dexlansoprazole 研發代號）vs Lansoprazole，直接評估 dexlansoprazole 在胃潰瘍及十二指腸潰瘍的安全有效性。此為 dexlansoprazole 最直接的胃潰瘍 Phase 3 RCT 證據。"
+        },
+        {
+          "nct_id": "NCT04784910",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，423 人，Active-controlled 多中心研究，胃潰瘍適應症高度相關。"
+        },
+        {
+          "nct_id": "NCT04840550",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，狀態不明，390 人，Active-controlled 設計，相關但狀態不確定。"
+        },
+        {
+          "nct_id": "NCT01452750",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已完成，642 人，AG-1749（Rabeprazole）controlled，雖測試對象為 Lansoprazole 類，但提供 PPI 類別在胃潰瘍的高質量 Phase 3 證據。"
+        },
+        {
+          "nct_id": "NCT01008696",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已完成，217 人，研究 Rabeprazole 和 Lansoprazole 依 CYP2C19 基因型的療效差異。Dexlansoprazole 為 lansoprazole 對映體，CYP2C19 代謝特性相關。"
+        },
+        {
+          "nct_id": "NCT04423588",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已撤回，直接研究 dexlansoprazole，雖撤回但說明臨床有研究需求。"
+        },
+        {
+          "nct_id": "NCT04448028",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，招募中，476 人，研究肝硬化患者停用 PPI，為特殊族群安全性研究，與胃潰瘍療效關聯性間接。"
+        },
+        {
+          "nct_id": "NCT02151786",
+          "relevance_grade": "C",
+          "reasoning": "N/A Phase，已完成，1120 人，Takepron（Lansoprazole）靜脈注射觀察性調查，提供 lansoprazole 的止血效果數據作為間接參考。"
+        },
+        {
+          "nct_id": "NCT02633930",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，已完成，566 人，Berberine + Lansoprazole + Amoxicillin + Bismuth 四聯療法，PPI 為輔助成分，非主要干預。"
+        },
+        {
+          "nct_id": "NCT06778824",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase，招募中，610 人，主要研究腸腦互動疾病，與胃潰瘍療效關聯性較間接。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "20393635",
+          "study_type": "Drug Review（Dexlansoprazole 治療食道炎與 GERD 的直接綜述）",
+          "tier": "2"
+        },
+        {
+          "pmid": "27000074",
+          "study_type": "Review（PPI 立體選擇性 PK/PD，涵蓋 dexlansoprazole 作為 R 對映體）",
+          "tier": "2"
+        },
+        {
+          "pmid": "36150104",
+          "study_type": "In vitro / Mechanistic Study（V-ATPase 抑制與 ER stress）",
+          "tier": "3"
+        },
+        {
+          "pmid": "25377305",
+          "study_type": "Case Report（Omeprazole 接觸性皮炎，安全性參考）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastroduodenitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胃十二指腸炎為胃及十二指腸黏膜發炎，病因包含 H. pylori 感染、NSAIDs、胃酸過多等。理論上 PPI 可透過減少胃酸降低黏膜刺激，但目前無任何針對 dexlansoprazole 或 PPI 治療胃十二指腸炎的臨床試驗或文獻，所有關聯性均為機轉推測。TxGNN 預測分數高（0.9998）可能反映疾病概念與潰瘍/GERD 的知識圖譜節點高度相鄰，而非真實臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "duodenal obstruction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸阻塞主要為機械性（胃癌、胰頭腫瘤、先天性閉鎖或術後吻合口狹窄），治療以手術或內視鏡介入為主。PPI 對機械性阻塞無直接治療機轉。現有 4 筆試驗中，NCT04188119 和 NCT03794596 為乳癌免疫治療（Avelumab+Aspirin）試驗（已撤回），與十二指腸阻塞無關；NCT00175032 涉及 Lansoprazole 治療潰瘍及其併發症，非阻塞本身。TxGNN 預測分數（0.9985）可能為知識圖譜中疾病節點拓撲相鄰產生的誤報，建議不採信。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00175032",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，已完成，1045 人，Lansoprazole（母體化合物）治療潰瘍及其併發症。與十二指腸阻塞治療無直接關聯，僅能提供 PPI 在上消化道的一般安全性參考。"
+        },
+        {
+          "nct_id": "NCT00854776",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase，觀察性研究，研究阿斯匹靈使用者消化性潰瘍及其併發症，非介入性研究，與 dexlansoprazole 治療十二指腸阻塞無關。"
+        },
+        {
+          "nct_id": "NCT04188119",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，已撤回（0 人），研究 Avelumab + Aspirin 在三陰性乳癌（TNBC）的免疫效應，與十二指腸阻塞完全無關，可能為 KG 誤映射。"
+        },
+        {
+          "nct_id": "NCT03794596",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，已撤回（0 人），同 NCT04188119 之早期版本，TNBC 免疫治療試驗，與十二指腸阻塞無關。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "duodenogastric reflux",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸胃反流（膽汁反流）的主要成分為膽鹽和胰液（非胃酸），PPI 對膽汁反流無直接治療機轉。抑制胃酸可能減少混合性（酸+膽汁）反流的酸性損傷，但對純膽汁性反流效果有限。目前無任何臨床試驗或文獻支持 dexlansoprazole 治療此適應症，TxGNN 高分（0.9981）為知識圖譜拓撲推論，非臨床意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "duodenal ulcer (disease)",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "十二指腸潰瘍的核心病因為胃酸過度分泌（尤其空腹酸分泌）侵蝕十二指腸球部黏膜，常見 H. pylori 共病因素。Dexlansoprazole 抑制 H⁺/K⁺-ATPase 直接減少胃酸，NCT00321737（TAK-390MR Phase 3）明確涵蓋十二指腸潰瘍評估，為直接 Phase 3 RCT 證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00321737",
+          "relevance_grade": "A",
+          "reasoning": "【關鍵試驗】Phase 3，已完成，445 人，TAK-390MR（dexlansoprazole）vs Lansoprazole 直接比較，明確包含十二指腸潰瘍評估，為最高級別直接證據。"
+        },
+        {
+          "nct_id": "NCT04784910",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，423 人，Active-controlled，涵蓋胃十二指腸潰瘍適應症，高品質直接證據。"
+        },
+        {
+          "nct_id": "NCT01452750",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已完成，642 人，AG-1749（Rabeprazole）controlled，lansoprazole 類 vs rabeprazole，提供高品質間接 PPI 類別證據。"
+        },
+        {
+          "nct_id": "NCT00787254",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已完成，366 人，研究 lansoprazole（母體化合物）預防胃十二指腸潰瘍復發，與十二指腸潰瘍長期管理直接相關。"
+        },
+        {
+          "nct_id": "NCT01180179",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已完成，228 人，PPI 類預防特發性胃十二指腸潰瘍出血復發，高臨床相關性。"
+        },
+        {
+          "nct_id": "NCT04840550",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，狀態不明，390 人，Active-controlled 設計，相關但狀態不確定。"
+        },
+        {
+          "nct_id": "NCT01008696",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已完成，217 人，Rabeprazole 和 Lansoprazole 依 CYP2C19 基因型療效，CYP2C19 多型性對 dexlansoprazole（作為 lansoprazole 對映體）具藥理意義。"
+        },
+        {
+          "nct_id": "NCT02151786",
+          "relevance_grade": "C",
+          "reasoning": "N/A Phase，已完成，1120 人，Takepron（Lansoprazole）IV 觀察性調查，靜脈製劑與口服 dexlansoprazole 製劑不同，間接參考。"
+        },
+        {
+          "nct_id": "NCT02633930",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，已完成，566 人，H. pylori 根除四聯療法，PPI 為輔助成分，非主要干預。"
+        },
+        {
+          "nct_id": "NCT06778824",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase，招募中，610 人，腸腦互動疾病研究，十二指腸潰瘍關聯性間接。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32885499",
+          "study_type": "Comparative PK/PD Study（健康貓模型口服胃酸抑制劑比較，提供 dexlansoprazole 胃 pH 效果參考）",
+          "tier": "3"
+        },
+        {
+          "pmid": "35282344",
+          "study_type": "Pharmacovigilance Review（PPI 心血管風險真實世界安全性資料）",
+          "tier": "2"
+        }
+      ]
+    },
+    {
+      "disease_name": "achlorhydria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【警示：潛在反指標】無鹽酸症（achlorhydria）定義為胃酸完全缺失或嚴重不足。Dexlansoprazole 作為 PPI，其機轉為進一步抑制胃酸分泌，使用於已存在無鹽酸症的患者將加重病情，而非治療。此外，長期 PPI 使用本身即為醫源性無鹽酸症的已知風險因子。TxGNN 高預測分數（0.9947）可能源於知識圖譜中「PPI 使用 → 無鹽酸症」的已知因果關係被誤解讀為治療關聯，屬系統性誤推，建議明確標記為禁忌而非再利用候選。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "leather-bottle stomach",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "皮革胃（linitis plastica）為彌漫浸潤型胃腺癌，腫瘤細胞廣泛浸潤胃壁全層導致胃壁硬化失去伸縮性。此為惡性腫瘤，標準治療為手術切除、化療或標靶治療。Dexlansoprazole 無任何已知抗腫瘤機轉，亦無任何臨床試驗或文獻支持其用於胃癌治療。TxGNN 預測分數（0.9936）可能源於知識圖譜中胃部疾病節點的拓撲鄰近性，為假陽性預測，臨床上不具再利用意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|----------|----------|------|----------|
+| Active peptic ulcer disease | **L1** | **S3** | ✅ Proceed with Guardrails | 4+ Phase 3 RCT 已完成，直接 PPI 機轉 |
+| Gastric ulcer (disease) | **L1** | **S3** | ✅ Proceed with Guardrails | NCT00321737（TAK-390MR = dexlansoprazole 直接 Phase 3） |
+| Duodenal ulcer (disease) | **L1** | **S3** | ✅ Proceed with Guardrails | NCT00321737 涵蓋十二指腸潰瘍，多個 Phase 3 完成 |
+| Gastrojejunal ulcer | **L3** | **S2** | 🔶 Research Question | 豐富文獻，但術後 PK 改變需專項研究 |
+| Peptic ulcer perforation | **L4** | **S1** | 🔴 Hold | 外科急症，PPI 僅術後輔助，無直接 dexlansoprazole 證據 |
+| Gastroduodenitis | **L5** | **S0** | 🔴 Hold | 零臨床證據，純 KG 拓撲推論 |
+| Duodenal obstruction | **L5** | **S0** | 🔴 Hold | 機械性阻塞，PPI 無治療機轉；相關試驗均無關 |
+| Duodenogastric reflux | **L5** | **S0** | 🔴 Hold | 膽汁為主要成分，非酸性，PPI 機轉不適用 |
+| **Achlorhydria** | **L5** | **S0** | ⛔ Hold（**潛在禁忌**） | PPI 加重無鹽酸症，**KG 因果方向誤判** |
+| Leather-bottle stomach | **L5** | **S0** | 🔴 Hold | 胃癌，PPI 無抗腫瘤機轉，KG 假陽性 |
+
+> **特別注意**：Achlorhydria 為 TxGNN 知識圖譜的典型**因果反轉誤推**案例（PPI 導致無鹽酸症 ≠ PPI 治療無鹽酸症），建議在模型評估中標記此類節點作為系統性偏差校正依據。

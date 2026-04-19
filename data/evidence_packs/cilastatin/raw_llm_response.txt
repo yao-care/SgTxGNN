@@ -1,0 +1,249 @@
+## Cilastatin (DB01597) 藥物再利用證據分析
+
+> ⚠️ **關鍵背景說明**：Cilastatin 本身不具抗菌活性，其已知機轉為抑制腎臟去氫肽酶-I（DHP-I），防止 Imipenem 在腎小管被降解。臨床資料庫中的絕大多數證據均來自 **Imipenem/Cilastatin 複合製劑**，而非 Cilastatin 單一成分。以下分析需在此重要前提下解讀。
+
+---
+
+```json
+{
+  "drug": "Cilastatin",
+  "drugbank_id": "DB01597",
+  "analysis_note": "Cilastatin 單獨不具抗菌活性；所有感染症相關臨床證據均源自 Imipenem/Cilastatin 複合製劑。TxGNN 預測分數可能反映複合製劑的知識圖譜關聯，而非 Cilastatin 本身的藥理效果。本評估在此前提下分級。",
+  "indications": [
+    {
+      "disease_name": "staphylococcus aureus infection",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cilastatin 透過抑制 DHP-I，使 Imipenem 在泌尿道外（血液、組織）維持有效濃度，從而增強 Imipenem 對革蘭氏陽性菌（含 MSSA）的 β-lactam 殺菌效果。惟 MRSA 對 carbapenem 天然耐藥（PBP2a 介導），複合製劑對 MRSA 效果有限。需釐清是否針對 MSSA 或特定組織感染的再利用假說。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00707239",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，已終止，n=108。比較兩種抗菌方案的安全性與療效，Imipenem/Cilastatin 可能為對照臂之一，但試驗提前終止限制了結論強度，且非 S. aureus 專一設計。"
+        },
+        {
+          "nct_id": "NCT01356472",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，狀態不明，n=60。研究 Linezolid 單用或合併 Carbapenem 治療 MRSA，Carbapenem 含 Imipenem/Cilastatin，但狀態未知（UNKNOWN）且規模小，對 Cilastatin 獨立貢獻無法評估。"
+        },
+        {
+          "nct_id": "NCT03583333",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，已完成，n=274。較大規模試驗，但試驗主題與 Imipenem/Cilastatin 的關聯性需進一步確認，可能為比較其他抗菌藥物的優越性研究，與 S. aureus 專一適應症關聯性有限。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "3460521", "study_type": "Comparative Clinical Study", "tier": "2"},
+        {"pmid": "3378959", "study_type": "Animal Model (Endocarditis)", "tier": "2"},
+        {"pmid": "8072190", "study_type": "Clinical Trial (Combination Therapy)", "tier": "2"},
+        {"pmid": "33020155", "study_type": "Case Commentary (MRSA 難治病例)", "tier": "3"},
+        {"pmid": "18649613", "study_type": "Clinical Review (Diabetic Foot)", "tier": "3"},
+        {"pmid": "22196394", "study_type": "Narrative Review (MRSA)", "tier": "3"},
+        {"pmid": "36804370", "study_type": "Narrative Review (Off-label antibiotics)", "tier": "3"},
+        {"pmid": "12878512", "study_type": "In Vivo Preclinical Study", "tier": "3"},
+        {"pmid": "35294769", "study_type": "Narrative Review (Sulopenem)", "tier": "3"},
+        {"pmid": "1771308", "study_type": "Narrative Review (Pleural Empyema)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "chronic rhinosinusitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉關聯。慢性鼻竇炎病理機轉涉及黏膜免疫失調、多形性菌叢失衡（含厭氧菌），雖 Imipenem 對厭氧菌有活性，但 Cilastatin 本身無抗菌或抗炎特性，且 TxGNN 高分可能源於廣義鼻竇炎知識圖譜節點共現，並非藥理機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic ethmoidal sinusitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無臨床或機轉證據。篩竇炎為局部解剖結構感染，通常由 Streptococcus pneumoniae、H. influenzae、厭氧菌引起。Cilastatin 單獨無效；碳青黴烯類在慢性鼻竇炎通常並非一線選擇，且無針對性臨床資料。TxGNN 分數（0.9989）可能為知識圖譜拓撲偽關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "sinusitis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "6 篇文獻中，直接涉及 Imipenem/Cilastatin 用於鼻竇炎的僅有 PMID 3210301（1988 年新生兒 PK 研究，非成人鼻竇炎）及 PMID 17668809（鼻竇炎併發敗血症個案）。其餘為 Levofloxacin 評論或顱內膿瘍病例，均屬間接或情境性引用。證據質量低，不支持再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "3210301", "study_type": "Pediatric PK/Clinical Study (Neonates)", "tier": "3"},
+        {"pmid": "17668809", "study_type": "Case Report (Sinusitis + Sepsis)", "tier": "3"},
+        {"pmid": "11905002", "study_type": "Case Series (Intracranial Abscess)", "tier": "3"},
+        {"pmid": "37361939", "study_type": "Case Report (NTM)", "tier": "3"},
+        {"pmid": "14664657", "study_type": "Narrative Review (Levofloxacin)", "tier": "3"},
+        {"pmid": "12269858", "study_type": "Narrative Review (Levofloxacin)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 生物學合理性極低。副鼻竇腫瘤為惡性腫瘤，治療涉及手術、放療、化療；DHP-I 抑制劑對腫瘤無已知機轉。TxGNN 高分（0.9986）極可能來自知識圖譜拓撲偽關聯（鼻竇炎→鼻竇腫瘤→抗菌藥）。零臨床試驗、零文獻支持，不具科學追蹤價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pneumonia",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cilastatin 使 Imipenem 維持穩定血中濃度（T>MIC），對肺炎相關病原體（K. pneumoniae、P. aeruginosa、Acinetobacter spp.、厭氧菌等）具廣效殺菌活性。Imipenem/Cilastatin 已是醫院獲得性肺炎（HAP）及呼吸器相關肺炎（VAP）的標準療法之一，有多項 Phase 3 RCT 直接支持（含 Imipenem/Cilastatin/Relebactam 新組合）。再利用推展方向：耐藥菌株、特殊族群（免疫抑制、新生兒）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00236834",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，已完成，n=438。直接比較 Levofloxacin 與 Imipenem/Cilastatin 治療肺炎，高相關性 RCT，提供 Imipenem/Cilastatin 在社區獲得性肺炎的直接療效數據。"
+        },
+        {
+          "nct_id": "NCT02493764",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，已完成，n=537。大型雙盲活性對照試驗，直接評估肺炎治療，具高統計效力。"
+        },
+        {
+          "nct_id": "NCT05204563",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，已完成，n=450。近期完成的 RCT，提供當代證據，強化肺炎適應症的科學基礎。"
+        },
+        {
+          "nct_id": "NCT03969901",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3，已完成，n=115。混合期設計，對肺炎的安全性與療效提供全面評估。"
+        },
+        {
+          "nct_id": "NCT00080496",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，已完成，n=430。Tigecycline vs. Imipenem/Cilastatin 的 HAP 對照試驗，直接支持複合製劑在 HAP 的使用。"
+        },
+        {
+          "nct_id": "NCT00589693",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已終止，n=274。雖提前終止降低結論效力，但研究設計本身（雙盲、活性對照）仍提供部分安全性資料。"
+        },
+        {
+          "nct_id": "NCT00515034",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，已完成，n=146。Doripenem vs. Imipenem/Cilastatin for HAP，提供同類比較基準，間接支持複合製劑在 HAP 的地位。"
+        },
+        {
+          "nct_id": "NCT03894046",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已完成，n=207。Sulbactam-Etopoxide vs. Imipenem/Cilastatin，重要對照研究，評估耐藥菌肺炎場景。"
+        },
+        {
+          "nct_id": "NCT05561764",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，已終止，n=4。Imipenem/Cilastatin PK 研究，提前終止且樣本數極小，臨床意義有限，但提供特殊族群的藥動學參考。"
+        },
+        {
+          "nct_id": "NCT00707239",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，已終止，與 S. aureus 指標重疊，肺炎相關性需視試驗詳細方案而定。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "32785589", "study_type": "RCT (Imipenem/Cilastatin/Relebactam vs. Colistin for HAP/VAP)", "tier": "1"},
+        {"pmid": "39674398", "study_type": "Phase III RCT (Imipenem/Cilastatin, 2025)", "tier": "1"},
+        {"pmid": "38971203", "study_type": "Systematic Review (β-lactam PK/PD)", "tier": "1"},
+        {"pmid": "36688591", "study_type": "Cost-Effectiveness Analysis (HAP/VAP)", "tier": "2"},
+        {"pmid": "37182534", "study_type": "RCT (Sulbactam-durlobactam, 比較對照)", "tier": "1"},
+        {"pmid": "33630278", "study_type": "Narrative Review (Imipenem/Cilastatin/Relebactam)", "tier": "3"},
+        {"pmid": "17488146", "study_type": "Comparative Review (Carbapenems)", "tier": "3"},
+        {"pmid": "36830145", "study_type": "Epidemiological Review (CR-Kp)", "tier": "3"},
+        {"pmid": "37052117", "study_type": "Narrative Review (Sulbactam-durlobactam)", "tier": "3"},
+        {"pmid": "31608743", "study_type": "Narrative Review (AMR/UTI)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "paratyphoid fever",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無臨床或文獻支持。副傷寒由 Salmonella Paratyphi 引起，目前標準治療為 Fluoroquinolone 或 Cephalosporin。雖 Imipenem 體外對 Salmonella 有活性，但無副傷寒相關試驗或案例文獻。零數據支持，且 Carbapenem 非傷寒標準療法。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "bronchitis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Imipenem/Cilastatin 對下呼吸道感染病原體（含 P. aeruginosa、K. pneumoniae、厭氧菌）有廣效活性。1986-1994 年多項日文臨床研究直接評估了 Imipenem/Cilastatin 在肺癌患者、兒科及成人嚴重呼吸道感染的療效。急性細菌性支氣管炎（AECB）場景中，Carbapenem 為多重耐藥菌的後線選擇，惟需考量抗菌素管理原則，避免過度使用導致耐藥性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "3469186", "study_type": "Clinical Study (Severe Bacterial Infections)", "tier": "2"},
+        {"pmid": "7990255", "study_type": "Clinical Study (Respiratory Infections, IMP/CIL ± Amikacin)", "tier": "2"},
+        {"pmid": "3464784", "study_type": "Pediatric PK/Clinical Study", "tier": "2"},
+        {"pmid": "1652653", "study_type": "Clinical Study (Lung Cancer Patients)", "tier": "2"},
+        {"pmid": "2348550", "study_type": "Clinical Study (Respiratory Tract Infections)", "tier": "2"},
+        {"pmid": "8543488", "study_type": "Clinical Study (AECB/Hospitalized)", "tier": "2"},
+        {"pmid": "8072190", "study_type": "Clinical Trial (IMP/CIL + Arbekacin vs. MRSA)", "tier": "2"},
+        {"pmid": "12030399", "study_type": "Case Report (MRSA Pseudomembranous Tracheobronchitis)", "tier": "3"},
+        {"pmid": "14664657", "study_type": "Narrative Review (Levofloxacin)", "tier": "3"},
+        {"pmid": "12269858", "study_type": "Narrative Review (Levofloxacin)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "diffuse scleroderma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 生物學合理性極低。瀰漫性硬皮症為自體免疫性結締組織病，病理機轉涉及 TGF-β 過度活化、纖維母細胞異常增殖及免疫失調，與 DHP-I 抑制毫無關聯。TxGNN 分數（0.9955）極可能為知識圖譜拓撲雜訊。零臨床試驗、零文獻，應列為假陽性預測，不需進一步追蹤。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "salmonellosis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Imipenem 對 Salmonella spp. 具體外殺菌活性。1986-1987 年多項日本兒科臨床研究（PMID 2945941, 3464783, 3464779 等）直接評估了 Imipenem/Cilastatin 在兒童沙門氏菌症的療效；PMID 9363665 報告了新生兒沙門氏菌腦膜炎復發病例以 Imipenem 成功治療的個案。主要應用場景：複雜性或多重耐藥沙門氏菌感染、腦膜炎/菌血症併發症。惟現行指引優先推薦 Fluoroquinolone 或第三代 Cephalosporin，Carbapenem 為後線備選。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "2945941", "study_type": "Pediatric Clinical Study", "tier": "2"},
+        {"pmid": "3469191", "study_type": "Clinical Study (Nosocomial & MDR Infections)", "tier": "2"},
+        {"pmid": "3464783", "study_type": "Pediatric Clinical Study", "tier": "2"},
+        {"pmid": "3464779", "study_type": "Pediatric Clinical Study", "tier": "2"},
+        {"pmid": "3464777", "study_type": "Pediatric Clinical Study", "tier": "2"},
+        {"pmid": "3464780", "study_type": "Pediatric Clinical Study", "tier": "2"},
+        {"pmid": "3331043", "study_type": "Pediatric Clinical Study (Hospitalized)", "tier": "2"},
+        {"pmid": "9363665", "study_type": "Case Report (Neonatal Salmonella Meningitis)", "tier": "3"},
+        {"pmid": "15707075", "study_type": "Case Report + Review (Rhabdomyolysis + Salmonella)", "tier": "3"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵備注 |
+|--------|---------|---------|------|---------|
+| **pneumonia** | **L1** | **S3** | ✅ Proceed with Guardrails | 多項 Phase 3 RCT，HAP/VAP 標準療法 |
+| **staphylococcus aureus infection** | L2 | S2 | 🔬 Research Question | MSSA 有據，MRSA 因耐藥性受限 |
+| **bronchitis** | L3 | S1 | 🔬 Research Question | 1986-1994 臨床研究，重症後線角色 |
+| **salmonellosis** | L3 | S1 | 🔬 Research Question | 兒科歷史資料，腦膜炎/MDR 後線場景 |
+| **sinusitis** | L4 | S0 | ⛔ Hold | 間接文獻，無直接試驗 |
+| **chronic rhinosinusitis** | L5 | S0 | ⛔ Hold | 零數據 |
+| **chronic ethmoidal sinusitis** | L5 | S0 | ⛔ Hold | 零數據 |
+| **paratyphoid fever** | L5 | S0 | ⛔ Hold | 零數據 |
+| **paranasal sinus neoplasm** | L5 | S0 | ⛔ Hold | ⚠️ 生物學不合理（腫瘤≠感染） |
+| **diffuse scleroderma** | L5 | S0 | ⛔ Hold | ⚠️ 嚴重假陽性疑慮，自體免疫無機轉 |
+
+---
+
+## 🔑 分析師重點提示
+
+1. **本質侷限**：Cilastatin（DB01597）作為單一成分無任何已知治療適應症，所有 L1-L3 等級的臨床證據均來自 **Imipenem/Cilastatin 複合製劑**，TxGNN 預測應視為對複合製劑的間接關聯，而非 Cilastatin 獨立再利用機會。
+
+2. **真正再利用機會**（此分析未完全涵蓋）：近年研究顯示 Cilastatin 本身可能具有 **腎臟保護作用**（減少順鉑等腎毒性藥物的腎損傷），此為真正的 Cilastatin 獨立再利用方向，值得進一步研究。
+
+3. **假陽性警報**：`paranasal sinus neoplasm` 與 `diffuse scleroderma` 的高 TxGNN 分數應被標記為知識圖譜拓撲偽關聯，反映 TxGNN 模型在非感染性疾病領域的預測限制。

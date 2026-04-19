@@ -1,0 +1,586 @@
+```json
+{
+  "drug": "Arginine",
+  "drugbank_id": "DB00125",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Arginine 為 NO（一氧化氮）合成前驅物，經 NOS 代謝產生 NO，調控平滑肌舒張。此機轉為消化道適應症提供最強理論基礎。",
+  "indications": [
+    {
+      "disease_name": "gastroparesis (disease)",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "L-Arginine 是 NOS（一氧化氮合酶）的直接受質，NO 是腸肌神經（nitrergic）調控幽門括約肌舒張的關鍵訊號分子。PMID 25057793 直接證明糖皮質激素導致 L-arginine 耗竭，進而引發胃輕癱；PMID 35380456 顯示幽門括約肌 nitrergic 舒張障礙與胃輕癱相關。機轉關聯強度：★★★★☆",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01702051",
+          "title": "Autologous Pancreatic Islet Cell Transplantation for Improved Glycaemic Control After Pancreatectomy",
+          "relevance_grade": "C",
+          "reasoning": "研究對象為胰切除後胰島移植，與 Arginine 用於胃輕癱無直接關聯；狀態 UNKNOWN，結果不可信。屬誤匹配。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25057793",
+          "title": "Glucocorticoids induce gastroparesis in mice through depletion of l-arginine",
+          "study_type": "Animal (in vivo mouse)",
+          "tier": "2",
+          "comment": "核心機轉直接證據：arginine 耗竭→胃輕癱，支持補充 arginine 之假說"
+        },
+        {
+          "pmid": "35380456",
+          "title": "Impaired nitrergic relaxation in pyloric sphincter of the 6-OHDA Parkinson's disease rat",
+          "study_type": "Animal (in vivo rat)",
+          "tier": "2",
+          "comment": "NO 路徑障礙直接導致幽門舒張失能，強化 arginine→NO→胃輕癱機轉"
+        },
+        {
+          "pmid": "23639814",
+          "title": "Tetrahydrobiopterin deficiency induces gastroparesis in newborn mice",
+          "study_type": "Animal (in vivo mouse)",
+          "tier": "2",
+          "comment": "BH4 為 NOS 輔因子，BH4 缺乏→NOS 失能→胃輕癱，間接支持 arginine/NOS 路徑重要性"
+        },
+        {
+          "pmid": "18322959",
+          "title": "Gastric motor effects of ghrelin and GHRP-6 in diabetic mice with gastroparesis",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "探討 ghrelin 而非 arginine，背景參考價值"
+        },
+        {
+          "pmid": "18312542",
+          "title": "Characterization of myenteric neuropathy in the jejunum of spontaneously diabetic BB-rats",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "腸肌神經病變背景研究，非直接 arginine 證據"
+        },
+        {
+          "pmid": "33867519",
+          "title": "Lifestyle Changes Normalize Serum Lactate Levels in an m.3243A>G Carrier",
+          "study_type": "Case Report",
+          "tier": "3",
+          "comment": "線粒體病例報告，與胃輕癱關聯極弱"
+        },
+        {
+          "pmid": "19023028",
+          "title": "Synchronized gastric electrical stimulation improves vagotomy-induced impairment in gastric accommodation",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "電刺激介入，非藥物，間接背景"
+        },
+        {
+          "pmid": "31984783",
+          "title": "Sacral nerve stimulation increases gastric accommodation in rats",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "神經刺激介入，背景參考"
+        },
+        {
+          "pmid": "21193530",
+          "title": "Inhibition of gastric motility by hyperglycemia is mediated by nodose ganglia KATP channels",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "高血糖→胃動力抑制路徑，與 arginine 無直接關聯"
+        },
+        {
+          "pmid": "8194696",
+          "title": "Rat gastric motor response to food protein-induced anaphylaxis",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "過敏相關胃動力，無 arginine 介入"
+        }
+      ],
+      "evidence_summary": "強機轉基礎（arginine→NO→nitrergic relaxation），兩篇 Tier 2 動物研究直接支持機轉假說。無人類臨床試驗直接測試 arginine 治療胃輕癱。建議設計 Phase 1/2 PK/PD 試驗。"
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無可信機轉關聯。Arginine 為 NO 前驅物及半必需胺基酸，與凝血第二因子（凝血酶原）之合成或功能無已知直接路徑。TxGNN 高分可能源於知識圖譜中氨基酸代謝與廣義凝血路徑的遠距節點關聯，屬模型假陽性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00345605",
+          "title": "A Randomized, Double-Blind, Crossover Study of Sodium Phenylbutyrate and Low-Dose Arginine Compared...",
+          "relevance_grade": "B",
+          "reasoning": "含 arginine 成分（低劑量），推測為尿素循環障礙試驗（標題截斷），Phase 2 已完成 n=12。與先天性凝血酶原缺乏無適應症關聯，arginine 參與但目標疾病不符。"
+        },
+        {
+          "nct_id": "NCT02392767",
+          "title": "Effect of a Dietary Supplement on Endothelial Function in Volunteers With Light to Moderate Hypertension",
+          "relevance_grade": "C",
+          "reasoning": "高血壓內皮功能試驗，與凝血酶原缺乏無關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "21115138",
+          "title": "Acquired hemophilia A: diagnosis, aetiology, clinical spectrum and treatment options",
+          "study_type": "Review",
+          "tier": "3",
+          "comment": "後天性血友病 A（第八因子），非先天性凝血酶原缺乏，無 arginine 關聯"
+        },
+        {
+          "pmid": "12897104",
+          "title": "Effects of argatroban as an anticoagulant for haemodialysis in patients with antithrombin III deficiency",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "comment": "Argatroban（非 Arginine）用於 ATIII 缺乏血透，命名相似造成混淆，無關"
+        },
+        {
+          "pmid": "6776145",
+          "title": "Identification of a congenital dysthrombin, thrombin Quick",
+          "study_type": "Case Report/Molecular",
+          "tier": "3",
+          "comment": "描述凝血酶原突變，無 arginine 治療連結"
+        },
+        {
+          "pmid": "2607619",
+          "title": "[DDAVP administration in a case of congenital combined factor V and factor VIII deficiency]",
+          "study_type": "Case Report",
+          "tier": "3",
+          "comment": "DDAVP 用於不同凝血因子缺乏，無關"
+        },
+        {
+          "pmid": "1942544",
+          "title": "[Management of cesarean section under replacement therapy with factor VIII concentrates in a pregnant woman]",
+          "study_type": "Case Report",
+          "tier": "3",
+          "comment": "第八因子替代療法，與適應症及 arginine 均無關"
+        }
+      ],
+      "evidence_summary": "所有文獻均為無關出血性疾病或 Argatroban（非 Arginine）研究，無任何 arginine 與凝血酶原缺乏的機轉或臨床連結。判定為模型假陽性，建議不予追蹤。"
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9743,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "與胃輕癱機轉重疊：Arginine→NO→胃底舒張及胃動力調節。功能性消化不良（FD）核心病理之一為胃適應性舒張障礙（impaired accommodation），NO 路徑缺損為重要機轉。PMID 27535977 在大鼠及犬模型中直接證明 L-Arginine L-Glutamate 改善胃動力及延遲性胃排空。機轉關聯強度：★★★☆☆",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05934318",
+          "title": "Oral Antenatal L-citrulline Supplementation to Reduce Adverse Pregnancy Outcomes",
+          "relevance_grade": "C",
+          "reasoning": "L-Citrulline（arginine 代謝前驅物）用於妊娠結果，非消化不良，間接相關性極低"
+        },
+        {
+          "nct_id": "NCT07210164",
+          "title": "Prehabilitation With Exercise and Immunonutrition (Ocoxin®) in Perioperative Management of Gynecologic Cancer",
+          "relevance_grade": "C",
+          "reasoning": "婦科癌症圍術期營養支持，含多種免疫營養素，非消化不良專一研究"
+        },
+        {
+          "nct_id": "NCT05766774",
+          "title": "Feeding Study to Optimize Endocrine Dysfunction in Cystic Fibrosis",
+          "relevance_grade": "C",
+          "reasoning": "囊性纖維化內分泌障礙，非消化不良適應症"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27535977",
+          "title": "L-Arginine L-Glutamate Enhances Gastric Motor Function in Rats and Dogs and Improves Delayed Gastric Emptying",
+          "study_type": "Animal (in vivo rat & dog)",
+          "tier": "2",
+          "comment": "核心直接證據：L-arginine 複合物改善胃動力及胃排空延遲，動物多物種驗證"
+        },
+        {
+          "pmid": "29747754",
+          "title": "Mechanism of resveratrol-induced relaxation of the guinea pig fundus",
+          "study_type": "Animal (ex vivo)",
+          "tier": "2",
+          "comment": "NO 路徑介導胃底舒張機轉，支持 arginine→NO→胃適應性舒張假說"
+        },
+        {
+          "pmid": "35687195",
+          "title": "Utilising lipid and arginine and proline metabolism in blood plasma to differentiate the biochemical...",
+          "study_type": "Metabolomics/Biomarker",
+          "tier": "2",
+          "comment": "顯示消化不良患者 arginine 代謝異常，支持 arginine 代謝路徑在 FD 中的角色"
+        },
+        {
+          "pmid": "39149805",
+          "title": "Metabolomic comparison of postprandial distress syndrome patients with and without duodenal eosinophilia",
+          "study_type": "Observational/Metabolomics",
+          "tier": "3",
+          "comment": "FD 代謝組學背景研究"
+        },
+        {
+          "pmid": "38628273",
+          "title": "Supplementation of Crataegi fructus alleviates functional dyspepsia and restores gut microbiota in mice",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "山楂介入 FD，非 arginine，背景參考"
+        },
+        {
+          "pmid": "35668782",
+          "title": "Integrating Network Pharmacology and In Vivo Model to Investigate the Mechanism of Biheimaer",
+          "study_type": "Animal/Network Pharmacology",
+          "tier": "3",
+          "comment": "中藥複方研究，背景參考"
+        },
+        {
+          "pmid": "12055579",
+          "title": "Clinical and pathophysiological characteristics of acute-onset functional dyspepsia",
+          "study_type": "Clinical Cohort",
+          "tier": "3",
+          "comment": "FD 病理生理背景描述"
+        },
+        {
+          "pmid": "28327128",
+          "title": "The investigation of Helicobacter pylori in the dental biofilm and saliva samples of children with dyspepsia",
+          "study_type": "Clinical Observational",
+          "tier": "3",
+          "comment": "H. pylori 與 FD 關聯，無 arginine 介入"
+        },
+        {
+          "pmid": "40652782",
+          "title": "The impact of Bifidobacterium breve BBr60 on metabolic and gastrointestinal health",
+          "study_type": "RCT (probiotics)",
+          "tier": "3",
+          "comment": "益生菌介入，非 arginine"
+        },
+        {
+          "pmid": "6462599",
+          "title": "Primary dysmenorrhea: current concepts",
+          "study_type": "Review",
+          "tier": "3",
+          "comment": "痛經文獻，無關"
+        }
+      ],
+      "evidence_summary": "具合理機轉（NO→胃動力）及一篇動物直接證據（PMID 27535977），並有代謝組學人類數據支持 arginine 路徑異常。與胃輕癱適應症高度重疊，可合併設計臨床試驗。證據略弱於胃輕癱。"
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn_score": 0.9692,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉關聯。Arginine 為胺基酸，非維生素。維生素缺乏症與 arginine 的知識圖譜關聯可能源於共同代謝路徑節點（如尿素循環、胰島素分泌），為遠距間接連結，不構成治療性依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01371357",
+          "title": "Effects of 8-week Choline, Betaine, and Folic Acid Supplementation on Plasma Homocysteine",
+          "relevance_grade": "C",
+          "reasoning": "同半胱胺酸代謝試驗，Phase 3，測試葉酸/膽鹼/甜菜鹼，非 arginine 也非維生素缺乏直接治療"
+        },
+        {
+          "nct_id": "NCT07292753",
+          "title": "Role of Vitamin D Supplementation Versus Desmopressin in the Treatment of Primary...",
+          "relevance_grade": "C",
+          "reasoning": "維生素 D 補充試驗，與 arginine 無關"
+        },
+        {
+          "nct_id": "NCT03655223",
+          "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+          "relevance_grade": "C",
+          "reasoning": "新生兒篩查大型平台試驗，非特定維生素缺乏或 arginine 研究"
+        },
+        {
+          "nct_id": "NCT06078488",
+          "title": "Individualized Nutritional Care Bundle for Home Nursing Patients With Pressure Injuries",
+          "relevance_grade": "C",
+          "reasoning": "壓瘡護理營養支持，含多種營養素，非維生素缺乏專一研究"
+        },
+        {
+          "nct_id": "NCT05000515",
+          "title": "Inspiratory Muscle Strength Training for Lowering Blood Pressure and Improving Endothelial Function",
+          "relevance_grade": "C",
+          "reasoning": "呼吸肌訓練試驗，無關"
+        },
+        {
+          "nct_id": "NCT02392767",
+          "title": "Effect of a Dietary Supplement on Endothelial Function in Volunteers With Light to Moderate Hypertension",
+          "relevance_grade": "C",
+          "reasoning": "高血壓內皮功能，無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35969998",
+          "title": "Vitamin C deficiency induces hypoglycemia and cognitive disorder through S-nitrosylation-mediated activation",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "維生素 C 缺乏→S-亞硝基化（NO 路徑），間接涉及 arginine 下游，但非治療連結"
+        },
+        {
+          "pmid": "11383677",
+          "title": "Vitamin D deficiency reduces insulin secretion and turnover in rats",
+          "study_type": "Animal",
+          "tier": "3",
+          "comment": "維生素 D 與胰島素分泌，arginine 亦刺激胰島素分泌，極遠距關聯"
+        },
+        {
+          "pmid": "5420881",
+          "title": "[Transamidinase]",
+          "study_type": "Review (1970)",
+          "tier": "3",
+          "comment": "轉脒基酶（arginine 代謝酶），極古老背景文獻，無臨床價值"
+        }
+      ],
+      "evidence_summary": "文獻均為背景性研究，無任何 arginine 直接用於治療維生素缺乏症之臨床或動物試驗。判定模型假陽性，建議不予追蹤。"
+    },
+    {
+      "disease_name": "sclerosing cholangitis",
+      "txgnn_score": 0.9683,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉關聯。原發性硬化性膽管炎（PSC）病理為膽管進行性纖維化與炎症，主要機轉涉及免疫失調及膽汁酸毒性。雖 NO 在肝臟有保護功能（PMID 35750136 TREM-2 抑制炎症），但此為下游效應，不足以支持 arginine 作為特異性治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35750136",
+          "title": "TREM-2 plays a protective role in cholestasis by acting as a negative regulator of inflammation",
+          "study_type": "Animal/Mechanistic",
+          "tier": "3",
+          "comment": "膽汁淤積炎症調節，TREM-2 路徑，與 arginine 無直接關聯"
+        },
+        {
+          "pmid": "30009888",
+          "title": "Metabolomic analysis of cholestatic liver damage in mice",
+          "study_type": "Animal/Metabolomics",
+          "tier": "3",
+          "comment": "膽汁淤積代謝組學，可能含 arginine 代謝變化，但非治療介入"
+        },
+        {
+          "pmid": "15123348",
+          "title": "Susceptibility to primary sclerosing cholangitis is associated with polymorphisms of intercellular adhesion...",
+          "study_type": "Genetic Association",
+          "tier": "3",
+          "comment": "PSC 遺傳易感性研究，無 arginine 關聯"
+        },
+        {
+          "pmid": "29678444",
+          "title": "Biliary epithelium: A neuroendocrine compartment in cholestatic liver disease",
+          "study_type": "Review",
+          "tier": "3",
+          "comment": "膽管上皮神經內分泌功能，背景"
+        },
+        {
+          "pmid": "26420962",
+          "title": "TP53 codon 72 Arg/Pro polymorphism is associated with a higher risk for inflammatory bowel disease",
+          "study_type": "Genetic Association",
+          "tier": "3",
+          "comment": "TP53 codon 72 編碼精胺酸（Arg）多型性與 IBD 相關，為遺傳多型性而非 L-arginine 補充治療，命名混淆"
+        }
+      ],
+      "evidence_summary": "無 arginine 直接用於硬化性膽管炎之任何臨床或有效動物研究。TP53 Arg 多型性文獻為基因序列中胺基酸編碼，與 L-arginine 補充治療無關。判定模型假陽性。"
+    },
+    {
+      "disease_name": "obsolete vitamin D deficiency",
+      "txgnn_score": 0.9664,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉關聯。此為已廢棄（obsolete）的本體術語，臨床實體本身已不建議使用。無文獻、無試驗、無機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "本體術語已廢棄，無任何證據。強烈建議不予追蹤，並考慮從候選清單移除此 ontology term。"
+    },
+    {
+      "disease_name": "biotin metabolic disease",
+      "txgnn_score": 0.9619,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉關聯。Biotin 代謝疾病（如多種羧化酶缺乏症）機轉為 biotin 依賴性羧化酶功能缺損，與 arginine 代謝路徑無直接交集。PMID 39105860 研究的是 arginine silicate 複合物（非 L-arginine 本身）對代謝功能的影響，且為非臨床研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03655223",
+          "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+          "relevance_grade": "C",
+          "reasoning": "新生兒篩查平台，非特定 arginine 或 biotin 代謝病治療試驗"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39105860",
+          "title": "The impact of magnesium biotinate and arginine silicate complexes on metabolic dysfunctions, antioxidant...",
+          "study_type": "Animal/Biochemical",
+          "tier": "3",
+          "comment": "研究對象為 arginine silicate（矽酸精胺酸複合物），非 L-arginine；與 biotin 代謝病無特異性關聯"
+        },
+        {
+          "pmid": "29628436",
+          "title": "The Rheumatoid Arthritis-Associated Citrullinome",
+          "study_type": "Proteomics",
+          "tier": "3",
+          "comment": "RA 瓜氨酸化蛋白質組，arginine→citrulline 轉換為免疫機轉，非代謝病治療"
+        },
+        {
+          "pmid": "32750887",
+          "title": "Personalized Metabolic Analysis of Diseases",
+          "study_type": "Metabolomics/Review",
+          "tier": "3",
+          "comment": "廣泛代謝組學分析，無 arginine 治療 biotin 代謝病之特異性內容"
+        }
+      ],
+      "evidence_summary": "無有效機轉或臨床證據支持 arginine 用於 biotin 代謝疾病。模型高分可能源於廣義胺基酸代謝節點的圖譜關聯。"
+    },
+    {
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn_score": 0.9526,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "有限但特異性機轉：PMID 22886699 顯示 Hexa-D-arginine（六聚精胺酸胜肽）可抑制 PHEX 蛋白酶，增加 7B2•PC2 活性，在 Hyp 小鼠骨母細胞中恢復磷酸鹽代謝。然而，此研究使用的是特定胜肽形式（Hexa-D-arginine），而非 L-arginine 補充劑，轉換性存在不確定性。FGF23 過度分泌為 X-linked 低磷佝僂症（XLH）核心病理。機轉關聯強度：★★☆☆☆（化合物特異性限制）",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03655223",
+          "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+          "relevance_grade": "C",
+          "reasoning": "新生兒篩查平台試驗，非低磷佝僂症或 arginine 治療試驗"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22886699",
+          "title": "Hexa-D-arginine treatment increases 7B2•PC2 activity in hyp-mouse osteoblasts and rescues the HYP phenotype",
+          "study_type": "Animal (in vitro + in vivo mouse)",
+          "tier": "2",
+          "comment": "唯一直接相關證據：Hexa-D-arginine 在 Hyp 小鼠中恢復佝僂症表現型。化合物為 D-胺基酸六聚體，非標準 L-arginine，需注意轉換性差距"
+        },
+        {
+          "pmid": "12519781",
+          "title": "The autosomal dominant hypophosphatemic rickets R176Q mutation in fibroblast growth factor 23 resistance to cleavage",
+          "study_type": "Molecular Biology",
+          "tier": "3",
+          "comment": "FGF23 突變分子機轉，背景研究"
+        },
+        {
+          "pmid": "12711740",
+          "title": "Fibroblast growth factor 23 in oncogenic osteomalacia and X-linked hypophosphatemia",
+          "study_type": "Clinical Review",
+          "tier": "3",
+          "comment": "FGF23 臨床角色背景，非 arginine 介入"
+        },
+        {
+          "pmid": "25350412",
+          "title": "[Medical treatment of children with hypophosphataemic rickets]",
+          "study_type": "Clinical Review",
+          "tier": "3",
+          "comment": "兒童低磷佝僂症治療綜述（磷酸鹽+活性維生素D），無 arginine 提及"
+        },
+        {
+          "pmid": "19820004",
+          "title": "Hypophosphatemic rickets with hypercalciuria due to mutation in SLC34A3",
+          "study_type": "Clinical Case/Molecular",
+          "tier": "3",
+          "comment": "特定基因突變低磷佝僂症，背景"
+        }
+      ],
+      "evidence_summary": "僅一篇動物研究支持，且使用化合物為 Hexa-D-arginine（胜肽），非 L-arginine 補充劑。需先釐清化合物轉換性（L-arginine vs. peptide form）方可進入臨床評估。現有標準治療（磷酸鹽+活性維生素D、Burosumab）已相對成熟，競爭門檻高。"
+    },
+    {
+      "disease_name": "postgastrectomy syndrome",
+      "txgnn_score": 0.9374,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "弱但存在歷史臨床文獻：PMID 14143813（1964）記載 L-arginine HCl 在胃腸科患者的臨床應用試驗，此為直接使用記錄。機轉上，胃切除後症候群（傾倒症候群、消化不良）可能受 NO 路徑影響，但文獻年代過久，臨床研究標準無法對應現代規範。機轉關聯強度：★★☆☆☆",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14143813",
+          "title": "[INDICATIONS AND USE OF L-ARGININE HCl. CLINICAL EXPERIMENTATION IN GASTROENTEROLOGY PATIENTS]",
+          "study_type": "Clinical Case Series (1964)",
+          "tier": "2",
+          "comment": "唯一直接臨床紀錄：1964 年西班牙文獻，L-arginine HCl 用於胃腸科患者，現代循證標準無法評估，但具歷史佐證意義"
+        },
+        {
+          "pmid": "4320809",
+          "title": "Intestinal factors in the regulation of insulin secretion",
+          "study_type": "Animal/Physiological",
+          "tier": "3",
+          "comment": "腸道因子調節胰島素分泌，background；arginine 為胰島素分泌促進劑，間接關聯"
+        },
+        {
+          "pmid": "5171733",
+          "title": "[Somatotropin incretion in grave emaciation: preliminary results]",
+          "study_type": "Clinical Observation (1971)",
+          "tier": "3",
+          "comment": "嚴重消瘦患者生長激素研究，arginine 為 GH 刺激測試標準藥物，間接歷史關聯"
+        }
+      ],
+      "evidence_summary": "唯一支持性文獻為 1964 年病例系列，60 年前研究，無對照組，現代再現性存疑。當代手術技術已大幅減少胃切除後症候群發生率，且無對應現代試驗。決策階段評為 S0，建議不主動開發，但保留為歷史文獻追蹤。"
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9341,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉關聯。食道先天性畸形（如食道閉鎖、氣管食道瘻管）為胚胎發育異常，屬結構性缺陷，非代謝或信號路徑可干預之疾病。L-arginine 之 NO 路徑或代謝功能與此類畸形無已知關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無文獻、無試驗、無機轉。先天性結構畸形不適合藥物再利用框架，判定強烈假陽性，建議移除候選清單。"
+    }
+  ],
+  "priority_ranking": [
+    {
+      "rank": 1,
+      "disease_name": "gastroparesis (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "rationale": "最強機轉連結（直接 arginine→NO→nitrergic relaxation），有動物研究直接證明 arginine 耗竭致胃輕癱，建議優先開發"
+    },
+    {
+      "rank": 2,
+      "disease_name": "dyspepsia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "rationale": "與胃輕癱機轉高度重疊，有動物多物種直接證據（PMID 27535977），可與胃輕癱合併設計臨床試驗"
+    },
+    {
+      "rank": 3,
+      "disease_name": "hypophosphatemic rickets",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "rationale": "有特異性動物研究但化合物形式（Hexa-D-arginine）與標準 L-arginine 存在差距，需先進行轉換性研究"
+    },
+    {
+      "rank": 4,
+      "disease_name": "postgastrectomy syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "rationale": "有 1964 年歷史臨床記錄，但現代證據空白，市場需求有限"
+    }
+  ],
+  "overall_assessment": {
+    "most_promising_indications": ["gastroparesis", "dyspepsia"],
+    "false_positive_indications": ["congenital prothrombin deficiency", "vitamin deficiency disorder", "obsolete vitamin D deficiency", "non-syndromic esophageal malformation", "sclerosing cholangitis"],
+    "recommended_next_step": "針對胃輕癱設計 Phase 1 安全性/PK 試驗（口服 L-arginine 3-6g/day），以 gastric emptying scintigraphy 為主要療效指標，同步評估功能性消化不良亞組。",
+    "key_knowledge_gap": "目前缺乏直接在人類胃輕癱患者中測試 L-arginine 補充效果的臨床試驗，此為最大知識缺口。"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 優先適應症排序
+
+| 排名 | 適應症 | 證據等級 | 決策階段 | 建議 |
+|------|--------|---------|---------|------|
+| 🥇 | 胃輕癱 | L4 | S1 | Research Question |
+| 🥈 | 消化不良 | L4 | S1 | Research Question |
+| 🥉 | 低磷佝僂症 | L4 | S1 | Research Question（需先釐清化合物差異）|
+| 4 | 胃切除後症候群 | L4 | S0 | Hold（歷史文獻保留）|
+| — | 其餘 6 項 | L5 | S0 | Hold（假陽性）|
+
+### 🔬 核心機轉洞察
+
+**Arginine → NOS → NO → 消化道平滑肌舒張**是本次分析中唯一具可信機轉基礎的路徑，直接連結**胃輕癱**與**消化不良**兩個優先適應症。
+
+### ⚠️ 關鍵發現
+
+1. **假陽性率高**：10 個適應症中有 6 個（60%）屬 L5，TxGNN 高分（>0.93）不代表真實臨床關聯
+2. **化合物特異性問題**：低磷佝僂症的動物證據使用 *Hexa-D-arginine*（胜肽），而非 L-arginine，臨床轉換需額外研究
+3. **命名陷阱**：Argatroban（凝血酶抑制劑）≠ Arginine，部分文獻因命名相似被錯誤匹配

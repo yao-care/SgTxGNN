@@ -1,0 +1,343 @@
+## L-Lysine (DB00123) 藥物再利用證據分析
+
+以下為逐一適應症的完整評估：
+
+```json
+{
+  "drug": "L-Lysine",
+  "drugbank_id": "DB00123",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "L-Lysine 為必需胺基酸，主要生理功能包括：膠原蛋白合成（羥基離胺酸前驅物）、肉鹼生合成、組蛋白修飾、及抗病毒（HSV 競爭性拮抗精胺酸）。原始藥物上市適應症缺乏（[Data Gap]），DDI=0，安全性輪廓相對良好。",
+  "indications": [
+    {
+      "disease_name": "gastroparesis (disease)",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉連結極弱。L-Lysine 參與膠原蛋白交聯（經 lysyl oxidase），理論上可影響胃壁結締組織，但無任何直接機轉路徑支持其治療胃輕癱。TxGNN 高分（0.998）疑為知識圖譜假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29414870",
+          "study_type": "基礎研究",
+          "tier": 3,
+          "note": "研究主題為明膠-藻酸鹽水凝膠輸送間質幹細胞治療胃輕癱，L-Lysine 僅可能隱含於材料化學中，非治療藥物。文獻與本適應症無直接相關性，屬資料品質問題。"
+        }
+      ],
+      "data_quality_flag": "文獻不符：PMID 29414870 研究對象為幹細胞療法而非 L-Lysine，關聯係為誤配"
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無有效機轉連結。L-Lysine 不參與凝血酶原（Factor II）合成或活化路徑。Gla→Lys 為 Factor X 蛋白質突變位點描述（胺基酸取代），與外源性 L-Lysine 補充治療無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1973167",
+          "study_type": "分子生物學",
+          "tier": 3,
+          "note": "研究描述遺傳性 Factor X（非凝血酶原）缺乏症中 Gla+14→Lys 的蛋白質突變，'Lys' 指突變後的胺基酸殘基，而非 L-Lysine 藥物。雙重資料問題：(1) 疾病錯誤（Factor X vs. prothrombin deficiency），(2) Lysine 語義誤用。"
+        }
+      ],
+      "data_quality_flag": "嚴重資料品質問題：疾病名稱與文獻不符；文獻中 Lys 為蛋白質突變描述符，非藥物"
+    },
+    {
+      "disease_name": "obsolete vitamin D deficiency",
+      "txgnn_score": 0.9902,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無機轉連結。L-Lysine 不參與維生素 D 合成、代謝或信號路徑。此疾病本體（ontology term）標注為 'obsolete'，為已廢棄術語，不應作為有效預測目標。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_quality_flag": "本體論問題：'obsolete' 標記表示此疾病術語已被廢棄，建議從候選清單移除"
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9868,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極間接連結。唯一有限度相關性來自 L-Lysine acetylsalicylate（賴胺酸阿斯匹林鹽，PMID 3110654），此鹽型係以 L-Lysine 增加 aspirin 溶解度，可能間接影響消化不良症狀。然而此為組合藥物效應，非 L-Lysine 單一成分的治療作用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05287087",
+          "relevance_grade": "C",
+          "reasoning": "eHealth 數位介入研究，研究症狀管理可行性，完全未涉及 L-Lysine。試驗規模小（n=40），Phase NA，與本藥物無關聯，屬資料收集誤配。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38004468",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "Entecavir 回顧文章，與 L-Lysine 無關"
+        },
+        {
+          "pmid": "12825966",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "Tranexamic acid 於月經過多的回顧，與 L-Lysine 無關"
+        },
+        {
+          "pmid": "3110654",
+          "study_type": "RCT",
+          "tier": 2,
+          "note": "比較 tiaprofenic acid 與 lysine acetylsalicylate 用於老年骨關節炎（1987），此為含 L-Lysine 鹽的複合物研究，指向 GI 副作用減少，非 dyspepsia 治療；間接相關"
+        },
+        {
+          "pmid": "4304525",
+          "study_type": "臨床研究",
+          "tier": 3,
+          "note": "1968 年研究皮質醇反應，與 L-Lysine 治療消化不良無關"
+        }
+      ],
+      "data_quality_flag": "文獻整體不符：4 篇中 3 篇與 L-Lysine 完全無關；臨床試驗為 eHealth 研究誤入"
+    },
+    {
+      "disease_name": "familial visceral myopathy",
+      "txgnn_score": 0.9837,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無機轉連結。家族性內臟肌病為平滑肌基因突變（MYH11、ACTG2 等），L-Lysine 無已知干預此病理機轉的路徑。零臨床試驗、零文獻，為純預測結果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_quality_flag": "零臨床證據：所有資料來自模型預測，無法進入任何評估階段"
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn_score": 0.9821,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "相對最強的生物學合理性。L-Lysine 在以下維生素相關路徑扮演關鍵角色：(1) 肉鹼生合成——L-Lysine 為三甲基離胺酸前驅物，肉鹼合成需同時具備 L-Lysine 及維生素 C，維生素缺乏可導致繼發性肉鹼缺乏（PMID 2199597, 1962562）；(2) 吡哆醇依賴性癲癇（PDE）——dietary lysine restriction 已被確立為 PDE 的輔助療法，顯示 lysine 代謝與維生素 B6 路徑的生化交互（PMID 35053812）；(3) 同半胱胺酸代謝——lysine N-同半胱胺酸化影響多種蛋白功能（PMID 39859460, 39928858）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03682029",
+          "relevance_grade": "C",
+          "reasoning": "維生素 C 於造血表觀遺傳調控的研究（n=109），未直接研究 L-Lysine，但提供相關背景（維生素 C 與 lysine 協同作用於肉鹼合成）。"
+        },
+        {
+          "nct_id": "NCT00562874",
+          "relevance_grade": "C",
+          "reasoning": "HIV 感染肯亞婦女增加動物性食物（含高 lysine 食物）的介入研究（n=808），研究動機非 L-Lysine 補充，但提供實際 L-Lysine 攝取量與營養缺乏關係的觀察數據。"
+        },
+        {
+          "nct_id": "NCT01795170",
+          "relevance_grade": "B",
+          "reasoning": "WITHDRAWN（n=0），研究吡哆醇依賴性癲癇中早期 dietary lysine restriction 的神經發育影響——雖為限制（非補充）設計且已撤回，但直接研究 lysine 代謝與維生素 B6 相關疾病，機轉相關性最高。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2199597",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "繼發性肉鹼缺乏症回顧，L-Lysine 為肉鹼前驅物，維生素缺乏→肉鹼缺乏路徑直接"
+        },
+        {
+          "pmid": "1962562",
+          "study_type": "Basic Science",
+          "tier": 2,
+          "note": "抗壞血酸與肉鹼生合成——L-Lysine + Vitamin C 共同需求，支持機轉連結"
+        },
+        {
+          "pmid": "35053812",
+          "study_type": "Case Series/Review",
+          "tier": 2,
+          "note": "PDE 與 antiquitin 缺乏，lysine restriction 作為治療策略，提供 lysine-Vitamin B6 生化交叉點"
+        },
+        {
+          "pmid": "41816",
+          "study_type": "Basic Science",
+          "tier": 2,
+          "note": "Lysyl oxidase（需銅和 lysine），連結 lysine 與結締組織代謝"
+        },
+        {
+          "pmid": "39859460",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "同半胱胺酸代謝物與內皮功能，lysine 同半胱胺酸化為重要修飾"
+        },
+        {
+          "pmid": "17173758",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "維生素 C 回顧，間接支持 L-Lysine-Vitamin C 共同作用"
+        }
+      ],
+      "research_question": "L-Lysine 補充是否能改善維生素缺乏相關的繼發性肉鹼缺乏？是否在特定維生素缺乏（B6、C）狀態下具輔助代謝修正作用？"
+    },
+    {
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn_score": 0.9798,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無有效機轉連結。低磷佝僂症主要機轉為 FGF23 過度活化、PHEX 基因突變或維生素 D 受體缺陷，均與 L-Lysine 補充無已知干預路徑。文獻中 'Lys' 均為蛋白質突變位點描述（如 Glu353Lys in CASR），非藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37853976",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "Cinacalcet 用於 CASR Glu353Lys 突變，'Lys' 為突變殘基描述，非治療藥物"
+        },
+        {
+          "pmid": "23235437",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "note": "FGF23 與 WNK 抵抗磷酸尿症，無 L-Lysine 相關性"
+        },
+        {
+          "pmid": "18682534",
+          "study_type": "Molecular Study",
+          "tier": 3,
+          "note": "FGF23 突變於腫瘤鈣質沉著症，無 L-Lysine 相關性"
+        },
+        {
+          "pmid": "19049339",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "維生素 D 受體複合雜合突變，無 L-Lysine 相關性"
+        },
+        {
+          "pmid": "12403843",
+          "study_type": "Molecular Study",
+          "tier": 3,
+          "note": "VDR 螺旋 12 突變，無 L-Lysine 相關性"
+        }
+      ],
+      "data_quality_flag": "系統性語義誤配：所有文獻中 'Lys' 均為蛋白質突變位點標記，非藥物相關性"
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "txgnn_score": 0.9780,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接機轉連結，具特殊複雜性。(1) Lysinuric protein intolerance（LPI）——赖胺酸轉運缺陷遺傳疾病，可合併 Fanconi syndrome/RTA（PMID 37927490），但 LPI 的治療為低蛋白飲食+瓜胺酸補充，而非 L-Lysine 補充（因轉運缺陷）；(2) 腎小管 lysine 攝取競爭——L-Lysine 在腎臟為陽離子胺基酸，高濃度 L-Lysine 可競爭性阻斷腎小管蛋白（如 onconase）攝取（PMID 10412952）；(3) 1980 年觀察性資料（PMID 6768487）顯示 RTA 相關低鉀週期性麻痺患者血漿 lysine 濃度改變，但因果關係不明。整體而言，L-Lysine 與 RTA 的關係較可能為疾病的代謝後果，而非可治療的目標。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37927490",
+          "study_type": "Case Report",
+          "tier": 2,
+          "note": "LPI 合併 RTA/Fanconi syndrome——最相關文獻，但顯示 lysine 轉運缺陷是病因，補充 L-Lysine 可能無法被吸收或甚至有害"
+        },
+        {
+          "pmid": "6768487",
+          "study_type": "觀察性研究",
+          "tier": 2,
+          "note": "RTA 相關低鉀週期性麻痺患者血漿 lysine 含量研究（1980），直接量測 L-Lysine 於此疾病脈絡，但屬描述性而非介入性"
+        },
+        {
+          "pmid": "10412952",
+          "study_type": "Animal/In vitro",
+          "tier": 2,
+          "note": "L-Lysine pH 影響腎小管 onconase 攝取，顯示 L-Lysine 確實影響腎小管功能，但為腎毒性保護研究而非 RTA 治療"
+        },
+        {
+          "pmid": "30143066",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "Pendrin 與 RTA 機轉回顧，無 L-Lysine 直接關聯"
+        }
+      ],
+      "data_quality_flag": "機轉悖論：LPI 中 L-Lysine 轉運缺陷導致 RTA，補充 L-Lysine 對此型患者可能無益；需區分病因亞型"
+    },
+    {
+      "disease_name": "biotin metabolic disease",
+      "txgnn_score": 0.9780,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "有生化基礎但不構成治療機轉。生物素（Biotin）以共價鍵連接到依賴生物素的羧化酶的特定 lysine 殘基上（如丙酮酸羧化酶、乙醯 CoA 羧化酶），此「生物素化」反應由 biotin protein ligase（HLCS/HCS）催化（PMID 37997490）。然而，生物素代謝疾病的核心缺陷在於 biotin 酶（biotinidase）或 HCS 功能異常，外源性 L-Lysine 補充無法修正此酶缺陷。補充 L-Lysine 不能替代生物素本身的治療角色。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37997490",
+          "study_type": "Basic Science Review",
+          "tier": 2,
+          "note": "Biotin protein ligase 特異性回顧，闡明 biotin 連接至 lysine 殘基的機轉；提供生化連結但不支持 L-Lysine 為治療藥物"
+        },
+        {
+          "pmid": "19319844",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "Biotin 一般回顧，確認 biotinylation 需要 lysine 底物，但無治療應用建議"
+        }
+      ],
+      "data_quality_flag": "語義混淆：biotin 與 lysine 殘基的共價結合是內源性生化事件，非外源性 L-Lysine 藥物干預"
+    },
+    {
+      "disease_name": "postgastrectomy syndrome",
+      "txgnn_score": 0.9730,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "有限的間接機轉假說。傾倒症候群（dumping syndrome）涉及激肽系統（kinin system）活化（PMID 211309），而 L-Lysine 為 Lys-bradykinin（kallidin）的 N 端胺基酸延伸。此理論連結暗示 L-Lysine 可能調節激肽釋放酶-激肽系統（PMID 4369309），進而影響傾倒反應的血管舒張成分。然而：(1) kallidin 的生理合成不依賴外源性 L-Lysine 供給；(2) 無任何臨床研究測試此假說；(3) 1963 年 tetracycline-methylene-lysine 研究（PMID 14157407）為腹膜炎治療，非傾倒症候群。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "211309",
+          "study_type": "臨床觀察",
+          "tier": 2,
+          "note": "傾倒反應中激肽系統活性變化（1978），建立 kinin system 與 postgastrectomy syndrome 的關聯，L-Lysine 與 kinin 的連結為間接但非零"
+        },
+        {
+          "pmid": "4369309",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "人血漿激肽釋放酶-激肽系統回顧（1971），Lys-bradykinin 作為底物，提供機轉背景"
+        },
+        {
+          "pmid": "14157407",
+          "study_type": "臨床研究",
+          "tier": 3,
+          "note": "四環素-methylene-lysine 用於腹膜炎（1963），與胃切除後症候群無關，lysine 為複合製劑成分"
+        }
+      ],
+      "data_quality_flag": "研究情境錯誤：PMID 14157407 為腹膜炎治療，非胃切除後症候群"
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L5_no_evidence": ["gastroparesis", "congenital prothrombin deficiency", "obsolete vitamin D deficiency", "familial visceral myopathy", "hypophosphatemic rickets", "biotin metabolic disease"],
+      "L4_indirect_evidence": ["dyspepsia", "vitamin deficiency disorder", "renal tubular acidosis", "postgastrectomy syndrome"]
+    },
+    "highest_priority_indication": "vitamin deficiency disorder（L4/S1）——唯一具生物學合理性且有部分臨床試驗觸及 lysine 代謝，值得進一步探索",
+    "overall_assessment": "10 個預測適應症中，6 個完全無臨床或機轉支持（L5/S0），4 個有間接生化連結（L4）但均止步於 S0-S1。主要問題為：(1) 大量文獻為蛋白質突變位點描述中含 'Lys' 字樣（語義誤配）；(2) 臨床試驗與 L-Lysine 無關（收集誤配）；(3) 廢棄本體術語被納入。建議重新審視知識圖譜連結品質。",
+    "data_quality_issues": {
+      "semantic_mismatch": "多數文獻中 'Lysine/Lys' 指蛋白質殘基突變，而非藥物",
+      "trial_mismatch": "3 個臨床試驗（NCT05287087, NCT03682029, NCT00562874）與 L-Lysine 治療無直接關聯",
+      "obsolete_disease": "obsolete vitamin D deficiency 為廢棄本體論術語，應從預測清單排除",
+      "high_txgnn_low_evidence": "所有適應症 TxGNN score ≥ 0.97，但最高證據等級僅 L4，提示 TxGNN 分數不能直接換算為臨床可行性"
+    }
+  }
+}
+```
+
+---
+
+## 關鍵洞察摘要
+
+| 適應症 | 等級 | 階段 | 建議 | 主要問題 |
+|--------|------|------|------|---------|
+| gastroparesis | L5 | S0 | Hold | 文獻研究幹細胞療法，非 L-Lysine |
+| congenital prothrombin deficiency | L5 | S0 | Hold | 雙重誤配：疾病錯誤 + Lys 為突變描述符 |
+| **obsolete** vitamin D deficiency | L5 | S0 | Hold | **廢棄術語，應排除** |
+| dyspepsia | L4 | S0 | Hold | 唯一連結為 lysine acetylsalicylate（複合物） |
+| familial visceral myopathy | L5 | S0 | Hold | 零證據，純預測 |
+| **vitamin deficiency disorder** | **L4** | **S1** | **Research Question** | **肉鹼生合成路徑有生物學合理性** |
+| hypophosphatemic rickets | L5 | S0 | Hold | 所有 Lys 均為突變位點標記 |
+| renal tubular acidosis | L4 | S0 | Hold | 機轉悖論：LPI 中 lysine 轉運缺陷是病因而非治療目標 |
+| biotin metabolic disease | L5 | S0 | Hold | Biotinylation 為內源性生化反應，非外源藥物適應症 |
+| postgastrectomy syndrome | L4 | S0 | Hold | Kinin 系統連結過於間接，無臨床數據 |
+
+**最高優先研究方向**：`vitamin deficiency disorder` — 特別是維生素 C 或 B6 缺乏所致繼發性肉鹼不足，此為 L-Lysine 補充具最強生物學合理性的情境，建議設計 Phase 1/2 探索性研究。

@@ -1,0 +1,248 @@
+## 藥物再利用證據分析：Aprepitant (DB00673)
+
+在分析之前，先進行資料品質稽核，發現多項重要缺失：
+
+| 欄位 | 資料顯示 | 實際情況 |
+|------|----------|----------|
+| `original_moa` | [Data Gap] | NK1 (Neurokinin-1) 受體拮抗劑 |
+| `market_status` | 未上市 | 多國以 Emend® 上市，新加坡可能未本地核准 |
+| `ddi_count` | 0 | 實為 CYP3A4 中度抑制劑/誘導劑，DDI 風險顯著 |
+| 多數文獻 | 與適應症相關 | 為背景文獻，非 Aprepitant 直接證據 |
+
+---
+
+```json
+{
+  "drug": "Aprepitant",
+  "drugbank_id": "DB00673",
+  "analysis_date": "2026-04-05",
+  "actual_moa": "Substance P / Neurokinin-1 (NK1) 受體拮抗劑",
+  "data_quality_flags": [
+    "original_moa 為 [Data Gap]，需人工補正為 NK1 拮抗劑",
+    "ddi_count: 0 為資料缺失，CYP3A4 DDI 需額外評估",
+    "多數文獻為背景文獻，與 Aprepitant 無直接關聯"
+  ],
+  "indications": [
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis (NSIAD)",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2（V2 加壓素受體）功能增益突變所致，導致低鈉血症。NK1 受體拮抗劑對 V2 受體或腎臟水分再吸收無已知直接作用路徑。高 TxGNN 分數可能來自知識圖譜中 GPCR 家族共同節點的非特異性連結，缺乏藥理機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "無臨床依據，建議排除"
+    },
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Substance P 透過 NK1 受體參與毛囊週期調控（特別是退行期 catagen 調控），在毛囊周圍神經纖維及毛乳頭細胞均有表達。然而，NK1 拮抗劑對毛髮異常增生的影響方向不明，且多毛症病因異質性高（先天基因、藥物誘發、腫瘤相關），缺乏機轉特異性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "機轉推論方向可能相反（NK1 拮抗可能抑制而非促進毛髮調控）"
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Substance P 透過肺血管內皮細胞 NK1 受體介導血管舒張及神經性炎症，在 PAH 患者肺血管中 NK1 受體表達上調，具弱至中等機轉關聯性。然而，NK1 拮抗劑對 PH 的影響需釐清：若 Substance P 為保護性舒血管因子，拮抗可能有害。整體機轉方向不確定，需更多基礎研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28261651",
+          "title": "A Phase I Trial of Pazopanib + Cisplatin in Advanced Cancer Patients",
+          "year": "2016",
+          "study_type": "Phase I RCT (癌症適應症，非肺高壓)",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "本文獻為 Pazopanib（VEGFR 抑制劑）與 Cisplatin 聯合用於晚期癌症的第一期試驗，與 Aprepitant 及肺動脈高壓均無直接關聯。可能因 Pazopanib 具抗血管增生效應被知識圖譜連結，屬誤收文獻。"
+        }
+      ],
+      "risk_notes": "現有唯一文獻不相關；機轉方向不確定，有潛在加重風險"
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麻瘋桿菌（M. leprae）主要侵犯周邊神經及皮膚。Substance P 由感覺神經元釋放，NK1 受體在神經性炎症中扮演角色，理論上 NK1 拮抗可能調節麻瘋病的神經炎症反應（ENL, erythema nodosum leprosum）。然而機轉鏈條極為間接，無任何臨床前或臨床支持，且麻瘋病主要治療策略為多藥聯合抗菌。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "機轉推測性強，與主流治療策略無交集"
+    },
+    {
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ambras 症候群為染色體 8q22-q24 缺失所致的罕見先天性基因病，表現為全身性毛髮異常增生。屬於結構性基因疾病，NK1 受體拮抗劑對染色體缺失所致的發育異常無已知藥理介入點。TxGNN 連結可能來自「hypertrichosis」疾病本體論節點的間接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "基因結構性疾病，藥物介入無理論依據"
+    },
+    {
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牙周組織中存在 NK1 受體，Substance P 在牙周神經性炎症路徑中具有作用，理論上 NK1 拮抗劑可能調節牙周炎症。然而，20 篇文獻均為牙周病學背景文獻（糖尿病-牙周病關係、EFP 臨床指南、微生物組等），無一提及 Aprepitant，屬系統性誤收。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22057194",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "糖尿病與牙周炎雙向關係綜述，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "35688447",
+          "study_type": "Clinical Practice Guideline (S3 Level)",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "EFP 第四期牙周炎治療指南，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "9495612",
+          "study_type": "Observational/Microbiological",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "牙齦下菌斑微生物複合體研究（1998年），與 Aprepitant 無關"
+        },
+        {
+          "pmid": "37435999",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "再生牙周手術併發症分析，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "35420698",
+          "study_type": "Systematic Review / Cochrane",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "牙周治療改善糖尿病血糖控制的系統性回顧，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "36883660",
+          "study_type": "Basic Science Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "牙齦纖維母細胞在牙周炎中角色，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "37452425",
+          "study_type": "Experimental/Basic Science",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "褪黑激素工程化巨噬細胞外泌體治療牙周炎，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "29193334",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "植體周圍與牙周組織比較，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "38907216",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "生物材料介導巨噬細胞免疫治療牙周炎，與 Aprepitant 無關"
+        },
+        {
+          "pmid": "38362600",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "牙周炎對口腔及腸道微生物群影響，與 Aprepitant 無關"
+        }
+      ],
+      "risk_notes": "20 篇文獻全為資料收集副產物，需排除後重新評估；若聚焦牙周炎神經性炎症仍屬 L5"
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱側凸性心臟病為繼發性結構性心臟病，由嚴重脊柱畸形導致限制性肺功能障礙，進而引發肺心病。屬物理性結構異常，NK1 受體拮抗劑無藥理介入機制。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "結構性繼發疾病，藥物介入無理論基礎"
+    },
+    {
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dandy-Walker 畸形為先天性後腦發育異常（小腦蚓部發育不全、第四腦室擴大），屬神經發育性結構缺陷。NK1 受體雖存在於中樞神經系統，但對先天性腦結構畸形無已知治療性藥理作用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "先天性腦結構異常，藥物介入無機制依據"
+    },
+    {
+      "disease_name": "subarachnoid hemorrhage (disease)",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "此為本列表中機轉最具可信度的候選適應症。SAH 後 Substance P 大量釋放，透過 NK1 受體介導：(1) 腦血管痙攣（CVS），(2) 神經性炎症與血腦屏障破壞，(3) 腦水腫形成。動物模型中 NK1 拮抗劑已顯示可減輕 SAH 後血管痙攣及神經損傷。Aprepitant 具良好血腦屏障穿透性（CNS penetrant）及已建立的安全性資料，具備轉化研究潛力。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "目前僅有動物模型證據，需前瞻性臨床前研究確認；SAH 患者用藥安全性窗口窄，需謹慎評估 CYP3A4 DDI（與 nimodipine 等標準治療藥物交互作用）"
+    },
+    {
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛幹異常為角蛋白或相關結構蛋白的基因突變所致（如 trichorrhexis nodosa, pili torti 等），屬分子結構異常。NK1 受體拮抗雖可能影響毛囊神經性訊號，但對角蛋白結構缺陷無修正機制。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "基因結構蛋白缺陷，藥物介入無理論依據"
+    }
+  ]
+}
+```
+
+---
+
+## 整體分析摘要
+
+### 證據等級分佈
+
+| 等級 | 適應症數 | 代表疾病 |
+|------|----------|----------|
+| **L5** | 10/10 | 全部 — 僅計算預測，無臨床證據 |
+
+### 決策建議分類
+
+| 建議 | 適應症 | 理由 |
+|------|--------|------|
+| **Research Question** | 蜘蛛膜下腔出血 | 最具機轉支持，有動物模型基礎，NK1 在 SAH 病理中角色明確 |
+| **Hold** | 其餘 9 項 | 無機轉支持或機轉方向不確定 |
+
+### 關鍵發現
+
+1. **高 TxGNN 分數 ≠ 高臨床可信度**：所有分數均 > 0.998，但無一具有直接臨床證據，顯示模型可能在某些疾病子圖中產生系統性高估。
+
+2. **文獻品質嚴重問題**：收集到的 21 篇文獻中，**0 篇**與 Aprepitant 直接相關，全為背景文獻，需在 Phase 5 流程中加強文獻過濾機制。
+
+3. **藥物資料缺失警示**：MoA、市場狀態、DDI 三項核心資料均有缺失，建議在 Phase 1 資料整合中補充 DrugBank API 查詢邏輯。
+
+4. **最優先追蹤候選**：蜘蛛膜下腔出血（SAH）— Aprepitant 的 CNS 穿透性、NK1 在 SAH 神經炎症中的確立角色、及已知安全性資料，使其成為最具潛力的研究假說，但需注意與 nimodipine 的 CYP3A4 DDI 風險。
+
+> ⚠️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過完整臨床前及臨床驗證方可應用。

@@ -1,0 +1,265 @@
+## Calcium Carbonate (DB06724) 藥物再利用證據分析
+
+---
+
+### ⚠️ 前置說明
+
+分析前有三項關鍵發現需要標註：
+
+1. **Calcium-Alkali Syndrome** — CaCO₃ 是**致病原因**而非治療標的，TxGNN 高分反映的是因果關聯，方向錯誤
+2. **多個臨床試驗** — 所列試驗研究的是 *Sevelamer carbonate*、*Lanthanum carbonate* 等不同化合物，或藥物交互作用研究，與 CaCO₃ 治療該適應症無直接相關
+3. **Gastroduodenitis / Peptic Ulcer** — 全球普遍使用的 OTC 制酸劑（原始適應症空白可能為資料庫收錄問題），「再利用」意義有限
+
+---
+
+```json
+{
+  "drug": "Calcium carbonate",
+  "drugbank_id": "DB06724",
+  "analysis_date": "2026-04-05",
+  "analyst_notes": "原始適應症欄位為空，但 CaCO₃ 作為制酸劑及磷酸鹽結合劑已有廣泛臨床使用紀錄。部分 TxGNN 高分適應症（如 calcium-alkali syndrome）代表藥物副作用而非治療標的，需特別留意方向性謬誤。",
+  "indications": [
+    {
+      "disease_name": "calcium-alkali syndrome",
+      "txgnn_score": 0.9316,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "critical_flag": "⛔ 方向性錯誤警示：CaCO₃ 大量攝取是 CAS 的已知病因（高鈣血症 + 代謝性鹼中毒 + 腎功能損傷三聯症），所有 16 篇文獻均描述 CaCO₃ 為致病物質，而非治療藥物。TxGNN 高分反映化學關聯，但臨床方向為逆向。",
+      "mechanistic_link": "過量攝入 CaCO₃（常見於骨質疏鬆補鈣或制酸劑誤用）→ 高鈣血症 → 腎鈣鹽沉積 → GFR 下降 → 碳酸鹽積累 → 代謝性鹼中毒惡化回路。此為 CAS 發病機制，CaCO₃ 是病因而非解藥。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01622673",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 研究評估金屬陽離子制酸劑對 Raltegravir 藥動學的影響，並非針對 CAS 治療，與本適應症完全無關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "33732556", "study_type": "Review", "tier": "1", "note": "歷史回顧，確認 CaCO₃ 為 CAS 病因"},
+        {"pmid": "41444901", "study_type": "Case Report", "tier": "3", "note": "2025 年 OTC CaCO₃ 過量導致 CAS 案例"},
+        {"pmid": "38784190", "study_type": "Case Report", "tier": "3", "note": "雙胞胎妊娠期 CAS 致嚴重高鈣血症需透析"},
+        {"pmid": "33842126", "study_type": "Case Report", "tier": "3", "note": "CAS 以血液透析治療"},
+        {"pmid": "36712775", "study_type": "Case Report", "tier": "3", "note": "Tums (CaCO₃) 相關高鈣血症危象"},
+        {"pmid": "26260640", "study_type": "Review", "tier": "2", "note": "老年族群 CAS 識別與預防"},
+        {"pmid": "23543983", "study_type": "Review", "tier": "1", "note": "CAS 完整機轉描述"},
+        {"pmid": "33178509", "study_type": "Review", "tier": "2", "note": "CAS 合併 Thiazide 的協同毒性"},
+        {"pmid": "38404648", "study_type": "Case Report", "tier": "3", "note": "甲狀旁腺切除術後 15 年補鈣導致 CAS"},
+        {"pmid": "32675162", "study_type": "Case Report", "tier": "3", "note": "OTC 制酸劑過量致高鈣血症"}
+      ]
+    },
+    {
+      "disease_name": "primary bone dysplasia with defective bone mineralization",
+      "txgnn_score": 0.9308,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉合理：CaCO₃ 提供鈣離子 → 補充礦化所需底質 → 骨基質鈣化。骨礦化缺陷（如低磷酸酶症、X-linked 低磷血症）在嚴重缺鈣時可考慮鈣補充為輔助。然而此為 TxGNN 預測推論，缺乏任何直接臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_notes": "TxGNN 高分（0.93）可能源於知識圖譜中 CaCO₃ → 鈣補充 → 骨礦化的鏈接，但該特定疾病亞型（骨礦化缺陷）涉及複雜分子機制（ENPP1、ALPL 基因缺陷），單純補鈣效益存疑。建議查閱 XLH 或低磷酸酶症專門文獻後再評估。"
+    },
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.8185,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻所指多為「calcium gout」(PMID:5595740)，即焦磷酸鈣沉積症(CPPD/pseudogout)，與尿酸性痛風病理機制不同。另有部分文獻探討抗酸劑對 Lesinurad（降尿酸藥）PK 的影響，方向為藥物交互作用而非治療痛風。CaCO₃ 直接抗痛風機制缺乏合理依據（碳酸鈣不影響尿酸生成或排泄的主要通路）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "8194428", "study_type": "Review", "tier": "2", "note": "關節炎與晶體病理，涵蓋 CPPD，非直接相關"},
+        {"pmid": "5595740", "study_type": "Case Series", "tier": "3", "note": "\"Calcium gout\" 1967 年舊文，指 CPPD 非尿酸痛風"},
+        {"pmid": "33360232", "study_type": "Systematic Review", "tier": "1", "note": "CPPD 管理系統性回顧，與痛風為不同疾病"},
+        {"pmid": "30748125", "study_type": "Pharmacokinetic Study", "tier": "2", "note": "制酸劑對 Lesinurad PK 影響，非治療性研究"},
+        {"pmid": "36199773", "study_type": "Retrospective", "tier": "2", "note": "痛風石手術治療，與 CaCO₃ 無關"}
+      ]
+    },
+    {
+      "disease_name": "hypophosphatemia (disease)",
+      "txgnn_score": 0.7302,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "CaCO₃ 作為磷酸鹽結合劑用於 CKD 高磷血症管理（降低磷吸收），過度使用反而可能導致低磷血症。此處適應症「低磷血症」與 CaCO₃ 的關係為：(1) 若用於 CKD 磷酸鹽管理有間接關聯；(2) 在已有低磷血症患者中使用磷酸鹽結合劑可能加重病情。方向性需謹慎判斷。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01493050",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Sevelamer Carbonate（碳酸司維拉姆），非 Calcium Carbonate；Phase 2，研究 CKD 代謝/炎症，間接相關。"
+        },
+        {
+          "nct_id": "NCT03346369",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Lanthanum Carbonate（碳酸鑭），非 Calcium Carbonate；Phase 3，狀態 UNKNOWN，研究對象為草酸尿症，非低磷血症治療。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "23992043", "study_type": "Clinical Study", "tier": "2", "note": "Lanthanum carbonate 在 ESRD 高磷血症，不同藥物"},
+        {"pmid": "39839473", "study_type": "Case Report", "tier": "3", "note": "X-linked 低磷血症甲狀旁腺切除後 hungry bone syndrome"},
+        {"pmid": "28880715", "study_type": "In vitro", "tier": "3", "note": "XLH 牙髓細胞礦化缺陷，機制研究"},
+        {"pmid": "31249232", "study_type": "Observational", "tier": "2", "note": "馬來西亞血液透析患者磷異常管理，CaCO₃ 為磷結合劑之一"}
+      ]
+    },
+    {
+      "disease_name": "potassium deficiency disease",
+      "txgnn_score": 0.7192,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CaCO₃ 與鉀代謝無直接藥理關聯。知識圖譜可能透過「電解質代謝」節點產生間接連結，但缺乏具體機制。理論上，嚴重代謝性鹼中毒（CAS 併發症）可伴隨低鉀血症，但此為副作用關聯而非治療路徑。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07451561",
+          "relevance_grade": "C",
+          "reasoning": "GIK（葡萄糖-胰島素-鉀）輸注研究，尚未招募，CaCO₃ 非研究主體，完全不相關。"
+        },
+        {
+          "nct_id": "NCT02473367",
+          "relevance_grade": "C",
+          "reasoning": "金屬陽離子制酸劑對 MK-0518（Raltegravir）PK 影響，Phase 1 藥物交互作用研究，非治療低鉀血症。"
+        },
+        {
+          "nct_id": "NCT01622673",
+          "relevance_grade": "C",
+          "reasoning": "同上，Raltegravir 藥動學研究，與低鉀血症治療無關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38206738", "study_type": "Case Report", "tier": "3", "note": "17α-hydroxylase 缺乏合併 RTA 低鉀，CaCO₃ 角色不明確"},
+        {"pmid": "39455634", "study_type": "Agricultural Study", "tier": "3", "note": "CaCO₃ 奈米載體用於農業肥料，與臨床低鉀血症無關"}
+      ]
+    },
+    {
+      "disease_name": "digitalis poisoning",
+      "txgnn_score": 0.6660,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "critical_flag": "⚠️ 潛在安全疑慮：靜脈注射鈣劑在洋地黃中毒中為傳統禁忌（可能觸發致命性心律不整），口服 CaCO₃ 雖作用較緩，但原則上不應用於洋地黃中毒情境。",
+      "mechanistic_link": "理論連結：鈣離子可拮抗洋地黃對心肌 Na⁺/K⁺-ATPase 的抑制效應。然而，靜脈鈣劑在洋地黃中毒為禁忌（因高鈣可誘發「石頭心」cardiac tetany），口服 CaCO₃ 吸收速度慢，臨床處置意義極低。現代治療以 Digoxin-specific antibody（Digibind/DigiFab）為標準。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastroduodenitis",
+      "txgnn_score": 0.6578,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "CaCO₃ 為強效制酸劑，中和胃酸（CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂），提高胃內 pH，緩解胃炎/十二指腸炎症狀。制酸容量（acid neutralizing capacity）高於 Mg(OH)₂ 和 Al(OH)₃。缺點：「acid rebound」現象（鈣離子刺激胃泌素分泌），長期單獨使用有限制。此為 CaCO₃ 已知且廣泛使用的藥理機制。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "8011006", "study_type": "Comparative Study (in vitro + in vivo)", "tier": "2", "note": "CaCO₃ 與 hydrotalcite 制酸活性直接比較"},
+        {"pmid": "38192", "study_type": "Clinical Review", "tier": "1", "note": "制酸劑於消化性潰瘍的重新評估，包含 CaCO₃ 臨床數據"},
+        {"pmid": "8260735", "study_type": "Pharmacology Review", "tier": "1", "note": "制酸劑臨床藥理新面向，CaCO₃ 機轉完整描述"},
+        {"pmid": "2598753", "study_type": "Clinical Study", "tier": "2", "note": "制酸劑治療對胃/十二指腸黏膜前列腺素合成的影響"},
+        {"pmid": "2685532", "study_type": "RCT", "tier": "1", "note": "CaCO₃ 改善 ASA 胃耐受性，2 組交叉設計"},
+        {"pmid": "8763049", "study_type": "In vitro", "tier": "3", "note": "人工胃十二指腸模型評估制酸效能"},
+        {"pmid": "10232696", "study_type": "Clinical Study", "tier": "2", "note": "H2 阻斷劑對 CaCO₃ 磷酸鹽結合能力的影響，間接相關"}
+      ]
+    },
+    {
+      "disease_name": "hyperlipidemia",
+      "txgnn_score": 0.6456,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鈣離子在腸道與膽汁酸及脂肪酸結合形成不溶性鈣皂，減少脂質吸收；另有研究顯示鈣可抑制脂肪細胞脂解酶，促進膽固醇異化。文獻（PMID:1456855）顯示 CaCO₃ 在輕中度高膽固醇血症患者可降低 LDL 約 4%，效果有限但具統計學意義。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00917878",
+          "relevance_grade": "C",
+          "reasoning": "研究牛奶及乳製品成分對餐後炎症的影響，Phase NA，食品研究，非 CaCO₃ 藥物試驗。"
+        },
+        {
+          "nct_id": "NCT06247137",
+          "relevance_grade": "B",
+          "reasoning": "複合食品補充劑（含鈣）對血脂的影響，Phase NA，n=90，雖含鈣成分但為複合配方，無法單獨歸因於 CaCO₃。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "1456855", "study_type": "RCT", "tier": "1", "note": "CaCO₃ 在輕中度高膽固醇血症患者的降膽固醇效果，直接相關"},
+        {"pmid": "356720", "study_type": "Clinical Study", "tier": "2", "note": "鈣對血漿脂質影響，1977 年研究"},
+        {"pmid": "29056106", "study_type": "RCT", "tier": "1", "note": "膳食鈣/補充鈣對高脂餐後脂血影響，飲食研究"},
+        {"pmid": "223601", "study_type": "Clinical Study", "tier": "2", "note": "CaCO₃ + Clofibrate 組合長期降膽固醇效果"},
+        {"pmid": "10939556", "study_type": "Cost-effectiveness Analysis", "tier": "2", "note": "Sevelamer vs CaCO₃+Atorvastatin 在 CKD 患者降 LDL 成本效益"},
+        {"pmid": "40221242", "study_type": "Review", "tier": "1", "note": "家族性高膽固醇血症的營養干預，鈣補充為輔助策略之一"}
+      ]
+    },
+    {
+      "disease_name": "peptic ulcer disease",
+      "txgnn_score": 0.5977,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "CaCO₃ 中和胃酸，提高潰瘍部位 pH，創造有利於黏膜修復的微環境。歷史上為消化性潰瘍的一線制酸治療，現代已被 H2 阻斷劑和 PPI 取代，但仍用於症狀緩解。需注意：(1) acid rebound 現象；(2) 長期使用可能導致 Milk-alkali syndrome；(3) 未針對 H. pylori 根除。",
+      "guardrails": [
+        "不應單獨用於 H. pylori 相關潰瘍的治療",
+        "避免每日劑量 > 2g 長期使用（CAS 風險）",
+        "腎功能不全患者需減量",
+        "建議與現代 PPI/H2RA 聯合使用而非單獨替代"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03299725",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 研究膠體次檸檬酸鉍（Bismuth）作為 H. pylori 根除輔助治療，非 CaCO₃ 研究；狀態 UNKNOWN；與本適應症間接相關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38192", "study_type": "Clinical Review", "tier": "1", "note": "制酸劑於消化性潰瘍的全面評估，CaCO₃ 療效和限制"},
+        {"pmid": "10783482", "study_type": "Clinical Study", "tier": "2", "note": "CaCO₃ 和牛奶鈣在消化性潰瘍中的療效機制"},
+        {"pmid": "5090792", "study_type": "Clinical Study", "tier": "2", "note": "CaCO₃、高鈣血症與消化性潰瘍的關聯（1971）"},
+        {"pmid": "1500660", "study_type": "Review", "tier": "1", "note": "鈣與 acid rebound 的重新評估"},
+        {"pmid": "4813464", "study_type": "Review", "tier": "2", "note": "制酸劑藥理學完整回顧（1974）"},
+        {"pmid": "19252114", "study_type": "Review", "tier": "2", "note": "Milk-alkali syndrome，揭示長期 CaCO₃ 治療潰瘍的風險"},
+        {"pmid": "6755653", "study_type": "Review", "tier": "2", "note": "制酸劑與荷爾蒙交互作用"},
+        {"pmid": "4312520", "study_type": "Review", "tier": "2", "note": "制酸劑早期臨床文獻（1970）"}
+      ]
+    },
+    {
+      "disease_name": "duodenogastric reflux",
+      "txgnn_score": 0.5938,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CaCO₃ 制酸特性可理論上緩解酸性胃十二指腸逆流，但膽汁性逆流（鹼性）不受制酸劑影響。十二指腸胃逆流通常與幽門括約肌功能不全相關，CaCO₃ 無直接促動力或括約肌調節機制。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "8763049", "study_type": "In vitro", "tier": "3", "note": "人工胃十二指腸模型，體外制酸評估，非臨床研究"}
+      ]
+    }
+  ],
+  "summary": {
+    "proceed_count": 2,
+    "research_question_count": 1,
+    "hold_count": 7,
+    "top_priority_indications": ["peptic ulcer disease", "gastroduodenitis"],
+    "safety_flags": ["calcium-alkali syndrome (反向關聯)", "digitalis poisoning (潛在禁忌)"],
+    "data_quality_notes": [
+      "多個臨床試驗研究的是不同化合物（Sevelamer、Lanthanum carbonate），相關性評級均為 C",
+      "calcium-alkali syndrome TxGNN 最高分但為 Hold，說明 KG 分數不等於治療潛力",
+      "gastroduodenitis 和 peptic ulcer disease 的證據主要來自 1960-2000 年代文獻，現代 RCT 缺乏"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|-----------|---------|---------|------|---------|
+| calcium-alkali syndrome | 0.932 | L3 | S1 | ⛔ Hold | 病因非治療標的 |
+| primary bone dysplasia | 0.931 | L5 | S0 | Hold | 純預測，零臨床數據 |
+| gout | 0.818 | L4 | S0 | Hold | 文獻指 CPPD 非尿酸痛風 |
+| **peptic ulcer disease** | 0.598 | L3 | S2 | ✅ Proceed with Guardrails | 歷史用途明確，需避免長期高劑量 |
+| **gastroduodenitis** | 0.658 | L3 | S2 | ✅ Proceed with Guardrails | 制酸機轉強，需防 acid rebound |
+| hyperlipidemia | 0.646 | L3 | S1 | 🔍 Research Question | 有一篇 RCT，效果有限 |
+| hypophosphatemia | 0.730 | L4 | S1 | Hold | 試驗均為不同化合物 |
+| potassium deficiency | 0.719 | L5 | S0 | Hold | 無直接機轉 |
+| digitalis poisoning | 0.666 | L5 | S0 | Hold | 潛在禁忌 |
+| duodenogastric reflux | 0.594 | L4 | S0 | Hold | 僅 1 篇體外研究 |
+
+> **⚕️ 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用於實際治療。

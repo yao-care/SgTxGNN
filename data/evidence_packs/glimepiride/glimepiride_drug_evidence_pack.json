@@ -1,0 +1,1739 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00222-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Glimepiride",
+    "drugbank_id": "DB00222",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9974656105041504,
+        "rank": 4070
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "局部僵肢症候群（Focal Stiff Limb Syndrome）為僵人症候群（SPS）的局部變異型，以 GAD65 自體抗體為特徵。GAD65 同時也是 T1DM 的自體抗原，此共同抗原可能是 TxGNN 知識圖譜連結的依據。然而 Glimepiride 對 GAD65 自體免疫或 GABA 能神經元功能喪失無已知直接作用，機轉連結推測性強。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9974656105041504,
+        "rank": 4071
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SPS 的核心病理為 GAD65 自體抗體導致脊髓 GABA 能抑制功能缺失，與 T1DM 共享自體免疫背景（二者常共病）。TxGNN 可能透過共病路徑推斷此連結。Glimepiride 的 SUR1 受體結合機轉與 GABA 系統無直接聯繫，欲探索此方向需先建立體外免疫調節機轉研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.9974015951156616,
+        "rank": 4135
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Opsismodysplasia 為極罕見骨骼發育不良（INPPL1/SHIP2 基因突變），SHIP2 為磷脂醯肌醇磷酸酶，參與 PI3K/Akt 信號路徑（與胰島素信號下游重疊）。Glimepiride 雖可激活胰島素受體底物，但無針對骨骼形成路徑（FGF 受體信號）的已知效果，機轉連結高度推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9973258972167968,
+        "rank": 4216
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硫胺素反應性功能障礙症候群（Rogers 症候群，SLC19A2 突變）引起硫胺素轉運缺陷，導致三聯症：巨球貧血、感音性聽損、糖尿病。糖尿病成分為 β 細胞功能受損，Glimepiride 理論上可短期刺激殘餘 β 細胞。然而此症的根本治療為大劑量硫胺素補充，Glimepiride 無法解決根本代謝缺陷且最終仍需胰島素治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9962431192398072,
+        "rank": 5379
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "藥物誘發局部脂肪萎縮常見於胰島素注射部位或其他注射藥物。Glimepiride 具部分 PPAR-γ 活性（遠弱於 Thiazolidinediones），理論上可影響脂肪細胞分化。然而 Glimepiride 本身為口服藥物，對局部注射相關脂肪萎縮的作用機轉不明確。TZDs 已有針對全身性脂肪再分配的證據，但局部脂肪萎縮的 Glimepiride 再利用無任何依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.996012806892395,
+        "rank": 5591
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "離心性脂肪萎縮（Centrifugal Lipodystrophy）為罕見的取得性脂肪萎縮，病因不明，可能涉及局部炎症或免疫機制。Glimepiride 與此疾病無已知機轉連結，PPAR-γ 路徑的推測性連結缺乏支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.9959142804145812,
+        "rank": 5692
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力誘發局部脂肪萎縮為機械性損傷所致，主要治療為消除壓力來源。Glimepiride 的藥理機轉與壓力誘發脂肪萎縮的病理（機械性缺血、局部炎症、脂肪細胞凋亡）無任何交集，再利用假說缺乏生物學基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9956166744232178,
+        "rank": 5959
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性局部脂肪萎縮病因不明，可能涉及局部免疫異常。Glimepiride 的 PPAR-γ 部分活性提供極弱的理論基礎，但與已有臨床證據的 Thiazolidinediones 相比，效力差距懸殊且無任何支持性研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.9954894185066224,
+        "rank": 6076
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12720536",
+            "title": "Pitfalls in endosonographic imaging of suspected insulinomas: pancreatic nodules of unknown dignity.",
+            "authors": [
+              "Kann P H",
+              "Wirkus B",
+              "Keth A",
+              "Goitom K"
+            ],
+            "journal": "European journal of endocrinology",
+            "year": "2003",
+            "abstract": "Endosonography enables localization and characterization of gastroenteropancreatic neuroendocrine tumors. We have studied the problem of misleading abnormalities of pancreatic morphology as obtained by endosonographic imaging.",
+            "classification": {
+              "study_type": "Case Series / Imaging Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰腺發育不全（Pancreatic Agenesis，PDX1/PTF1A 等基因突變）導致胰腺先天性缺如。Glimepiride 作用機轉完全依賴功能性胰島 β 細胞的存在（透過 SUR1 受體），胰腺缺如患者完全缺乏作用靶點，本質上不具任何治療可能性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn": {
+        "score": 0.9886295795440674,
+        "rank": 11563
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02301806",
+            "title": "A Randomized, Prospective, Parallel Design Study to Compare the Effectiveness of Sitagliptin Versus Glimepiride on Endothelial Dysfunction During an Oral Glucose Loading in Drug Naive Patients With Type 2 Diabetes.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2015-01",
+            "completion_date": "2017-07",
+            "brief_summary": "To investigate whether single administration of sitaglitpin can restore acute endothelial dysfunction and ameliorate impaired increase of the number of endothelial progenitor cells (EPCs) after oral glucose loading in patients with T2DM.\n\nTo compare the effect of sitagliptin and glimepiride on endothelial function evaluated by flow-mediated vasodilatation (FMD) and the number of circulating EPCs in patients with T2DM.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "樣本數僅 30，狀態不明，證據效力弱"
+            }
+          },
+          {
+            "nct_id": "NCT00783744",
+            "title": "28-week, Open, Randomized, Multinational, Multicenter Clinical Trial to Compare Efficacy and Safety of Combination Therapy of Glimepiride Plus Metformin Plus HOE901 Insulin Analogue Versus a Two-injection Conventional Therapy With Premixed Insulin NPH 30/70 Bid in Type 2 Diabetes Mellitus Patients Poorly Controlled With Oral Antidiabetic Drug Treatment.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 375,
+            "start_date": "2001-12",
+            "completion_date": "",
+            "brief_summary": "To compare efficacy of combination therapy of insulin glargine plus glimepiride and metformin versus 2 injections insulin monotherapy with premixed insulin NPH 30/70 bid in terms of change of HbA1c (baseline to endpoint) to show non-inferiority of insulin glargine plus glimepiride and metformin.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 完成試驗，樣本數充足，但標題未明確指向 T1DM，可能為 T2DM 試驗中 Glimepiride 作為對照組；相關性需原始資料確認"
+            }
+          },
+          {
+            "nct_id": "NCT01769378",
+            "title": "A Randomized, Parallel-Arm, Double-Blinded Study Comparing the Effect of Once-Weekly Dulaglutide With Placebo in Patients With Type 2 Diabetes Mellitus on Sulfonylurea Therapy (AWARD-8: Assessment of Weekly AdministRation of LY2189265 in Diabetes - 8)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2013-01",
+            "completion_date": "2014-12",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of once-weekly dulaglutide compared to placebo in participants with type 2 diabetes who have inadequate glycemic control with sulfonylurea monotherapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Dulaglutide vs 對照（疑含 Glimepiride），Phase 3 完成，但適應症及 Glimepiride 角色不明確，可能為 T2DM"
+            }
+          },
+          {
+            "nct_id": "NCT01725672",
+            "title": "An Open-Label, Randomized, Single Dose, Four-way Crossover, Multi-stage Study to Determine the Comparative Bioavailability of Two Fixed Dose Combination Tablet Formulations, 500 mg or 1000 mg Extended Release Metformin and 1 mg or 2 mg Extended Release Glimepiride, in Healthy Adult Male and Female Subjects in the Fed State",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 20,
+            "start_date": "2012-09-27",
+            "completion_date": "2013-08-21",
+            "brief_summary": "This is a an open-label, randomized, single dose, four-way crossover, multi-stage study enrolling 20 healthy adult male and female subjects per part. This study consists of two separate parts (Part A and B) with each part comprising four treatment periods. Each subject will participate in all four treatment periods per part; Subjects may not enrol in both Parts A and B.\n\nThis study is being conducted to compare the pharmacokinetics (PK) of two extended release fixed dose combinations (FDC) oral ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 四向交叉試驗，試驗終止，樣本極小，貢獻有限"
+            }
+          },
+          {
+            "nct_id": "NCT01649466",
+            "title": "A Randomized Open-label Study to Compare Safety and Efficacy of Vildagliptin Versus NPH Insulin add-on to Glimepiride in Patients With Type 2 Diabetes Mellitus That do Not Reach Adequate Glycemic Control on Their Current Sulfonylurea Monotherapy.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 162,
+            "start_date": "2012-08",
+            "completion_date": "2013-10",
+            "brief_summary": "This study is designed to evaluate safety and efficacy of vildagliptin versus NPH insulin add-on to glimepiride in patients with type 2 diabetes mellitus that do not reach adequate glycemic control on their current sulfonylurea monotherapy to give treating physicians a guidance which additional anti-diabetic treatment can be used if sulfonylurea monotherapy is not sufficient to reach glycemic control.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Vildagliptin vs NPH Insulin add-on，Phase 4 上市後研究，T2DM 背景，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT00770653",
+            "title": "Effects of a Pioglitazone/Metformin Fixed Combination in Comparison to Metformin in Combination With Glimepiride on Diabetic Dyslipidemia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 305,
+            "start_date": "2007-04",
+            "completion_date": "2009-05",
+            "brief_summary": "The purpose of this study is to compare pioglitazone and metformin combination therapy, twice daily (BID), to glimepiride and metformin combination therapy for treating diabetic subjects with dyslipidemia.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Pioglitazone/Metformin vs Metformin+Glimepiride，T2DM 試驗，與 T1DM 再利用關聯性低"
+            }
+          },
+          {
+            "nct_id": "NCT02338921",
+            "title": "Therapeutic Efficacy and Safety of Sitagliptin, Dapagliflozin and Lobeglitazone in Patients With Type 2 Diabetes Mellitus Inadequately Controlled on Glimepiride and Metformin.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2015-01",
+            "completion_date": "2021-12-31",
+            "brief_summary": "To assess the efficacy of treatment with sitagliptin or dapagliflozin or lobeglitazone in type 2 diabetes mellitus patients, who had inadequate glycemic control even though use of two drug combination therapy with glimepiride and metformin.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "標題明確提及 T2DM 患者比較 Sitagliptin/Dapagliflozin/Lobeglitazone，與 T1DM 再利用無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT01495013",
+            "title": "Study ATG115317, a Comparison of Atorvastatin and Glimepiride Fixed Dose Combination and Atorvastatin and Glimepiride Loose Combination in the Treatment of Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 427,
+            "start_date": "2011-12",
+            "completion_date": "2013-09",
+            "brief_summary": "The aim of this 20 week study is to show that glimepiride/atorvastatin fixed dose combination tablet is safe and as effective as atorvastatin + glimepiride combination taken as separate tablets, in improving glycaemic control (glycated haemoglobin, HbA1c) and cholesterol levels (Low-density lipoprotein, LDL) in diabetic subjects, who are inadequately controlled on a stable dose of metformin. Eight dose combinations will be included.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Atorvastatin+Glimepiride 固定劑量組合 Phase 3，樣本數大，但研究問題為心血管代謝，非直接 T1DM 再利用研究"
+            }
+          },
+          {
+            "nct_id": "NCT00343980",
+            "title": "Safety and Efficacy of Inhaled Pre-prandial Human Insulin Plus Glimepiride Versus Rosiglitazone Plus Glimepiride in Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 363,
+            "start_date": "2006-10-10",
+            "completion_date": "2008-03-10",
+            "brief_summary": "This trial is conducted in Asia, Europe and Oceania. The aim of this research study is to compare the efficacy of adding inhaled preprandial insulin to glimepiride compared to adding rosiglitazone to glimepiride for the treatment of type 2 diabetes and to verify its safety (hypoglycaemia, pulmonary function, body weight, insulin antibodies and side effects)",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "吸入式胰島素+Glimepiride 研究，試驗終止降低證據效力，且可能為 T2DM"
+            }
+          },
+          {
+            "nct_id": "NCT00099944",
+            "title": "Efficacy and Safety of Vildagliptin in Combination With Glimepiride in Patients With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 515,
+            "start_date": "2004-05",
+            "completion_date": "2005-10",
+            "brief_summary": "Many people with type 2 diabetes cannot maintain target blood glucose levels when taking a single oral drug. The purpose of this study is to assess the safety and effectiveness of two doses of vildagliptin, an unapproved drug, in lowering overall blood glucose levels when added to glimepiride in people with type 2 diabetes not at target blood glucose levels on a sulfonylurea alone.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Vildagliptin+Glimepiride 在 T2DM 患者，明確標示 T2DM，對 T1DM 再利用貢獻有限"
+            }
+          },
+          {
+            "nct_id": "NCT01144728",
+            "title": "AMIT Study - Amaryl M Initiation and Titration Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 172,
+            "start_date": "2010-05",
+            "completion_date": "2010-12",
+            "brief_summary": "Primary Objective:\n\n* To describe the conditions of initiation and titration of Amaryl M, according to previous treatment:\n* initial dose\n* titration scheme\n* efficacy after 4 months assessed by HbA1C\n* tolerability (number and severity of hypoglycaemia)\n\nSecondary Objective:\n\n* Fasting Plasma Glucose\n* Weight evolution",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01494987",
+            "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Ranolazine When Added to Glimepiride in Subjects With Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 431,
+            "start_date": "2012-01",
+            "completion_date": "2013-08",
+            "brief_summary": "This is a randomized, double-blind, placebo-controlled, parallel-group, multi-center study to determine the effect of ranolazine when added to glimepiride on glycemic control in adults with type 2 diabetes mellitus (T2DM) who are inadequately controlled despite current treatment with stable sulfonylurea or metformin therapy in addition to diet and exercise.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02946632",
+            "title": "Effectiveness and Tolerability of Novel, Initial Triple Combination Therapy With Xigduo (Dapagliflozin Plus Metformin) and Saxagliptin vs. Conventional Stepwise add-on Therapy in Drug-naïve Patients With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 104,
+            "start_date": "2016-12",
+            "completion_date": "2019-12",
+            "brief_summary": "In this study, the investigators will assess the efficacy and tolerability of a novel, initial triple combination therapy with metformin, saxaglipitin, and dapagliflozin, compared to conventional stepwise add-on therapy in drug-naïve patients with recently onset type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00032487",
+            "title": "CSP #465 - Glycemic Control and Complications in Diabetes Mellitus Type 2 (VADT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1791,
+            "start_date": "2000-12-01",
+            "completion_date": "2008-05-30",
+            "brief_summary": "This study is a prospective, 2-arm, randomized controlled trial to determine whether glycemic control, achieved through intensification of treatment, is effective in preventing clinical macrovascular complications in patients with type 2 DM who are no longer responsive to oral agents alone. The study consists of a two-year accrual period and five years of follow-up (7 years total) of 1700 patients across 20 centers. We have powered the study to detect a 21% reduction in the primary event rate. A",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01644500",
+            "title": "The Efficacy and Safety of Once-Weekly, Subcutaneous Dulaglutide Monotherapy Compared to Glimepiride in Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 737,
+            "start_date": "2012-07",
+            "completion_date": "2014-08",
+            "brief_summary": "The purpose of this study is to examine if once-weekly dulaglutide is efficient and safe compared to glimepiride in participants with type 2 diabetes mellitus who have inadequate glycemic control with oral antihyperglycemic medication (OAM) or are OAM-naïve.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01511172",
+            "title": "Effect on Glycemic Control of Individual Maximum Effective Dose of NNC 90-1170 as Add on Therapy to Metformin Compared to Monotherapy of NNC 90-1170 or Metformin or a Metformin-SU Combination Therapy in Patients With Type 2 Diabetes. A Double-blind, Double-dummy, Randomised, Parallel-group, Dose Titration Study With an Open Labelled OHA Arm",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 145,
+            "start_date": "2002-08",
+            "completion_date": "2002-12",
+            "brief_summary": "This trial is conducted in Europe and Oceania. The aim of this trial is to assess the effect on glycemic control of NNC 90-1170 (liraglutide) added to metformin compared to metformin given alone in subjects with type 2 diabetes previously treated with OHAs (oral hypoglycaemic agents).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00562172",
+            "title": "Lantus vs Sulfonylurea as add-on Therapy in Type 2 Diabetic Patients Failing Metformin Monotherapy: Comparison of Effects on Beta Cell Function and Metabolic Profile.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 75,
+            "start_date": "2007-09",
+            "completion_date": "2010-10",
+            "brief_summary": "Primary objective:\n\nTo compare long-term glycemic control and preservation of beta cell function when basal insulin or sulfonylurea is added on metformin in the early Type 2 Diabetes Mellitus patients\n\nSecondary objective:\n\nTo assess the change of insulin resistance, microvascular complication incidence, patient satisfaction with treatment",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01509001",
+            "title": "Study of Metabolic and Haemodynamic Effects of Metformin and Glimepiride in Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2011-01",
+            "completion_date": "2012-01",
+            "brief_summary": "Aim:\n\nThe purpose of this study is to compare the effects of glimepiride(G) and metformin(M) on vascular reactivity, haemostatic factors and glucose and lipid profile in patients with type 2 diabetes.\n\nMethods:\n\nA prospective study will be performed in 20 uncontrolled patients previously treated with dietary intervention. Participants will randomized into M (750 to 2500 mg/day) or G (1 to 8 mg/day) therapy. After 4 months, the patients will be crossed-over with no washout period to the alternati",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00318422",
+            "title": "Liraglutide Effect and Action in Diabetes (LEAD-1): Effect on Glycaemic Control After Once Daily Administration of Liraglutide in Combination With Glimepiride Versus Glimepiride Monotherapy Versus Glimepiride and Rosiglitazone Combination Therapy in Subjects With Type 2 Diabetes.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1041,
+            "start_date": "2006-05",
+            "completion_date": "2007-05",
+            "brief_summary": "This trial is conducted globally (the United States of America excepted). This trial is designed to show the effect of treatment with liraglutide when added to existing glimepiride therapy and to compare this to both glimepiride monotherapy and to rosiglitazone as add-on therapy to glimepiride.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05538819",
+            "title": "The Effects of Glimepiride in Patients With Type 2 Diabetes and Chronic Heart Failure",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1018,
+            "start_date": "2017-06-01",
+            "completion_date": "2022-07-01",
+            "brief_summary": "Thirty years ago, Dzau and Braunwald introduced the concept of a continuum of cardiovascular diseases and defined them as a series of events caused by numerous related and unrelated risk factors, thus developing to end-stage heart disease through many pathophysiological pathways and processes. Owing to treatment concept changes and the urgency of investigating T2D combined with CHF, SUs are being re-evaluated, of which glimepiride is undoubtedly the most promising.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02769481",
+            "title": "A Phase 3, Randomized, Double-blind, Active-controlled Study to Evaluate the Effects of Bexagliflozin Versus Glimepiride in Subjects With Type 2 Diabetes Mellitus Who Have Inadequate Glycemic Control by Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 426,
+            "start_date": "2016-08-15",
+            "completion_date": "2019-06-14",
+            "brief_summary": "The purpose of this study is to investigate the effect of bexagliflozin compared to glimepiride as an add-on therapy to metformin in lowering hemoglobin A1c (HbA1c) levels in subjects with type 2 diabetes mellitus (T2DM).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00792935",
+            "title": "A Phase IIa, Multicenter, Double-Blind, Randomized, Active-Controlled, Parallel-Arm Clinical Trial to Study the Efficacy and Safety of MK-0941 Compared to Sulfonylurea in Patients With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 143,
+            "start_date": "2009-01",
+            "completion_date": "2010-02",
+            "brief_summary": "The purpose of this study is to test the effect of MK-0941 as add-on therapy for participants taking metformin for type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00131664",
+            "title": "Avandia™ + Amaryl™ or Avandamet™ Compared With Metformin: A 48-week Randomized, Open-label, Multicentre Phase IIIB Study to Compare the Effectiveness of Combination Therapy to Monotherapy in Type 2 Diabetes Mellitus Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 391,
+            "start_date": "2005-09",
+            "completion_date": "2008-01",
+            "brief_summary": "The incidence of type 2 diabetes is on the increase. According to recent Canadian Diabetes Association guidelines glucose control, based on the A1C measurement, needs to be achieved within a 6-12 month period of time after the initial diagnosis of type 2 diabetes. The guidelines on the use of antihyperglycemic agents identify the potential benefits of sub-maximal oral combination therapy in order to achieve more rapid and improved glycemic control compared with higher dose monotherapy. Furthermo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01453049",
+            "title": "A Multi-center, Randomized, Double-blind, Parallel-group Study to Compare the Efficacy and Safety of Fixed-dose Rosiglitazone/Glimepiride Combination Therapy With Glimepiride Monotherapy for 24 Weeks in Drug Naive Subjects With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 86,
+            "start_date": "2010-04",
+            "completion_date": "2010-10",
+            "brief_summary": "The purpose of this study is to demonstrate that the rosiglitazone/glimepiride fixed-dose combination tablet will safely and effectively control glycemia as first-line oral therapy in drug naïve subjects with type 2 diabetes. This 24-week study will compare the effects of treatment with rosiglitazone/glimepiride to treatment with glimepiride alone. The primary objective is to demonstrate superiority of rosiglitazone/glimepiride to glimepiride in lowering Glycosylated Hemoglobin (HbA1c).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00957060",
+            "title": "A Multicenter, Open, Randomized, 24 Weeks Study to Evaluate the Superiority of Glimepiride Over Sitagliptin for the Treatment of naïve Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "2009-07",
+            "completion_date": "2010-10",
+            "brief_summary": "Primary Objective:\n\nTo determine the superiority of glimepiride over sitagliptin in the reduction of HbA1c after 6 months of treatment in patients with monotherapy until the end of the trial.\n\nSecondary Objective:\n\nTo evaluate the effect of glimepiride compared to sitagliptin in:\n\nGlucose in fasting conditions; Postprandial glucose; Percentage of patients with HbA1c \\< 7% and \\< 6.5%; Symptomatic Hypoglycemia; Body weight; Percentage of withdrawal and percentage of patients with rescue therapy; ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01357135",
+            "title": "Observational Study of the Treatment and Follow-up of Patients With Type II Diabetes Receiving Bitherapy With or Without Sitagliptin (Januvia®/Xelevia®).",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3453,
+            "start_date": "2009-07-15",
+            "completion_date": "2013-08-31",
+            "brief_summary": "This is an observational study to compare the effectiveness of dual therapy of Type II diabetes mellitus with metformin + sitagliptin versus metformin + a sulfonylurea in routine clinical practice in France.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05162690",
+            "title": "Efficacy of Dapagliflozin in Diabetes Associated Peripheral Neuropathy: A Randomized Placebo Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2022-05-01",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Diabetic peripheral neuropathy(DPN) is a length dependent axonal neuropathy that affects at least 50% of patients with diabetes mellitus. DPN is often asymptomatic during the early stages of diabetes ,however, once symptoms and overt deficits have developed, it cannot be reversed. Early diagnosis of neuropathy is important because early diagnosis and timely intervention might prevent the development and progression of diabetic neuropathy.Though glycemic control has been shown to prevent the prog",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03076112",
+            "title": "Efficacy of Ipragliflozin Compared With Sitagliptin in Uncontrolled Type 2 Diabetes With Sulfonylurea and Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 170,
+            "start_date": "2017-04-25",
+            "completion_date": "2022-08-31",
+            "brief_summary": "The objectives of this study are 1) to compare the effect of ipragliflozin 50 mg on glucose-lowering effect with sitagliptin 100 mg in patients with type 2 diabetes mellitus, whose HbA1c level is ≥ 7.5% with sulfonylurea and metformin, 2) to investigate changes of other metabolic and cardiovascular risk factors such as triglyceride, HDL-cholesterol, uric acid, blood pressure, and inflammatory markers, 3) to examine changes of body composition including fat and muscle mass with volume status.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00740051",
+            "title": "A Randomised, db, Placebo-controlled, Parallel Group Efficacy and Safety Study of BI 1356 (5mg), Administered Orally Once Daily for 18 Weeks Followed by a 34 Week Double-blind Extension Period (Placebo Patients Switched to Glimepiride) in Type 2 Diabetic Patients With Insufficient Glycaemic Control for Whom Metformin Therapy is Inappropriate (Intolerability or Contraindication)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 227,
+            "start_date": "2008-08",
+            "completion_date": "",
+            "brief_summary": "Efficacy of BI 1356 compared to placebo in patients for whom metformin therapy is inappropriate (intolerability, contraindication). The second part of the study looks at the safety of BI 1356 in this patient population with longer term treatment in comparison to a sulfonylurea drug (glimepiride)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02475499",
+            "title": "The Use of Incretin-based Drugs and the Risk of Pancreatic Cancer in Patients With Type 2 Diabetes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 886172,
+            "start_date": "2014-03",
+            "completion_date": "2015-04",
+            "brief_summary": "The purpose of this study is to determine whether incretin-based drugs (used to treat type 2 diabetes) taken either alone in or combination with other anti-diabetic drugs are associated with an increased risk of pancreatic cancer (PC) compared to sulfonylureas.\n\nThe investigators will carry out separate population based cohort studies using administrative health databases in five jurisdictions in Canada, the US, and the UK. Cohorts will be defined by the initiation of a new anti-diabetic drug wh",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04841096",
+            "title": "Efficacy and Safety of the Oral Combined Therapy Glimepiride / Vildagliptin / Metformin in Patients With Type 2 Diabetes With Dual Treatment Failure",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 162,
+            "start_date": "2023-03-21",
+            "completion_date": "2024-05-15",
+            "brief_summary": "Phase IIIb, randomized, multicenter, double-blind, prospective study to evaluate the efficacy and safety of a daily fixed-dose combination of glimepiride / vildagliptin / metformin in patients with type 2 diabetes with a history of dual treatment failure and combined or individual oral antidiabetics with SGLT2 / Metformin, Biguanide / Sulfonylurea, Sulfonylurea / iDPP4 or Biguanide / iDPP4. To evaluate the changes in the percentage of HbA1c at 3 and 6 months with regard to their baseline measure",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03180281",
+            "title": "Exploring Effective and Safety Therapies Which Protect Islet β Cell on Newly Diagnosed Type 2 Diabetes Patients With High Glucose Toxicity",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 135,
+            "start_date": "2017-07-01",
+            "completion_date": "2020-01-01",
+            "brief_summary": "Prevalence of diabetes is increasing rapidly both in China and all over the world.Hyperglycemia is an important risk factor and major hazard to cardiovascular and cerebrovascular diseases and even dangerous to human health.\"High glucose toxicity \"cause pancreatic β cell non-physiologic and irreversible damage.It is an important cause of β cell dysfunction.High glucose toxicity further suppresses insulin secretion of β cell, further even β-cell function failure.It is urgent to explore more effect",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01951339",
+            "title": "Impact of Sitagliptin on Cardiovascular Exercise Performance in Type 2 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 36,
+            "start_date": "2013-10",
+            "completion_date": "2018-06",
+            "brief_summary": "The goal of this study is to examine whether sitagliptin, an agent which enhances the action of hormones that control the release of insulin and is already in clinical use for type 2 diabetes, might also improve functional exercise capacity.\n\nSpecific aims:\n\n1\\. To test whether sitagliptin will improve functional exercise capacity in persons with type 2 diabetes compared to glimepiride.\n\n1a. The primary outcome will be peak oxygen consumption (VO2peak) and oxygen uptake kinetics (VO2 kinetics).\n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03332771",
+            "title": "A 52-week Randomized, Double-blind, Double-dummy, Active and Placebo-controlled, Parallel-group, Multicenter Study to Evaluate the Efficacy and Safety of Sotagliflozin Compared to Glimepiride or Placebo Added to Metformin in Patients With Type 2 Diabetes Who Have Inadequate Glycemic Control With Metformin Monotherapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 954,
+            "start_date": "2017-12-01",
+            "completion_date": "2019-09-06",
+            "brief_summary": "Primary Objective:\n\nTo demonstrate the non-inferiority of Sotagliflozin 400 milligrams (mg) compared to Glimepiride on hemoglobin A1c (HbA1c) reduction at Week 52 in participants with Type 2 Diabetes (T2D) who have inadequate glycemic control with metformin.\n\nSecondary Objectives:\n\nTo demonstrate the superiority of Sotagliflozin 400 mg compared to Glimepiride on change in body weight, systolic blood pressure (SBP) in participants with baseline SBP ≥130 millimeter of mercury (mmHg), SBP in all pa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01593137",
+            "title": "A Long-term, Randomized, Open-labeled, Parallel-group Trial to Compare the Effects of Liraglutide and Sulphonylurea (Glimepiride) Both in Combination With Metformin on Clinical, Endothelial and Image Markers of Cardiovascular Risk in Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2012-05",
+            "completion_date": "2014-12",
+            "brief_summary": "The process of atherosclerosis is multifactorial and involves many mechanisms. The majority of published works have identified endothelial dysfunction as the first step in a cascade of events that culminates in plaque formation. Among the various mechanisms that occur following the attack on the vessel wall, it is thought that stem cells in the form of endothelial progenitor cells (EPCs) are the endothelial protection mechanism.\n\nFactors identified as cardiovascular risk factors, or rather those",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01703286",
+            "title": "Randomized, Three Period Cross Over, Double Blind, Double Dummy Study in Type 2 Diabetic Patients to Assess the Endothelial Effects of Linagliptin, Glimepiride and Placebo Therapy for 28 Days ('ENDOTHELINA')",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2012-10",
+            "completion_date": "2014-01",
+            "brief_summary": "The general aim of the present study is to investigate the impact of 4 weeks treatment with linagliptin (5 mg) on endothelial function in patients with type 2 diabetes mellitus. In the current trial this effect of linagliptin treatment on endothelial function will be compared against both the sulfonylurea glimepiride and against placebo, which has not been tested in a trial before; as also is the case for other DPP-4 inhibitors.\n\nBesides placebo, glimepiride was chosen as a comparator, as it is ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01614769",
+            "title": "A Study to Assess the Effects of Glimepiride on Recovery From Hypoglycemia in Participants With Type 2 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2012-07-18",
+            "completion_date": "2013-01-23",
+            "brief_summary": "This study aims to assess how glimepiride affects the recovery from hypoglycemia in participants with type 2 diabetes mellitus. The primary objective is to estimate the time taken by participants to recover from hypoglycemia to euglycemia after treatment with either 2 mg or 4 mg of glimepiride when compared to placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03907423",
+            "title": "Effects of Rosuvastatin on Markers of Atherosclerosis in Diabetic Patients Treated With Glimepiride/Metformin Combination",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2019-04-01",
+            "completion_date": "2021-01-31",
+            "brief_summary": "study effects of rosuvastatin on markers of atherosclerosis, thrombosis, in diabetic patients treated with glimepiride/metformin without coronary artery disease.\n\nThis effect will be investigated especially on sortilin ,fetuin-A",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00360698",
+            "title": "Comparison of Two Therapeutic Strategies for Treating Type 2 Diabetic Patients Poorly Controlled With Basal Insulin Associated With Oral Antidiabetic Drugs : 6-month Proof of Concept Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 106,
+            "start_date": "2006-07",
+            "completion_date": "2008-08",
+            "brief_summary": "To evaluate the efficacy of a single injection of glulisine before the main meal added to insulin glargine plus oral antidiabetic drugs (OADs) compared to insulin glargine plus OADs in Type 2 diabetic patients poorly controlled with basal insulin plus OADs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01682759",
+            "title": "A Phase III, Multicenter, Double-Blind, Randomized Study to Evaluate the Safety and Efficacy of the Addition of MK-3102 Compared With the Addition of Glimepiride in Subjects With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 751,
+            "start_date": "2012-09-10",
+            "completion_date": "2015-01-26",
+            "brief_summary": "This trial will assess the safety and efficacy of omarigliptin (MK-3102) compared with the sulfonylurea, glimepiride, in Type 2 diabetes mellitus participants with inadequate glycemic control on metformin monotherapy. The primay hypothesis of the study is that after 54 weeks, the mean change from baseline in hemoglobin A1C (A1C) in participants treated with omarigliptin is non-inferior compared with that in participants treated with glimepiride.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01841697",
+            "title": "A Phase III, Multicenter, Double-Blind, Randomized Study to Evaluate the Safety and Efficacy of the Addition of MK-3102 Compared With the Addition of Sitagliptin in Subjects With Type 2 Diabetes Mellitus With Inadequate Glycemic Control on Metformin",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 642,
+            "start_date": "2013-06-13",
+            "completion_date": "2014-11-17",
+            "brief_summary": "This is a non-inferiority study comparing omarigliptin with sitagliptin in participants with type 2 diabetes mellitus (T2DM) with inadequate glycemic control on metformin therapy. The primary hypothesis is that after 24 weeks, the mean change from baseline in hemoglobin A1c (A1C) in participants treated with omarigliptin is non-inferior to that in participants treated with sitagliptin. There will be a 2-week run-in period with placebo + metformin prior to the double-blind treatment period.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02476760",
+            "title": "The Use of Incretin-based Drugs and the Risk of Acute Pancreatitis in Patients With Type 2 Diabetes",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1417914,
+            "start_date": "2014-03",
+            "completion_date": "2015-04",
+            "brief_summary": "The purpose of this study is to determine whether incretin-based drugs (used to treat type 2 diabetes) taken either alone or in combination with other anti-diabetic drugs are associated with an increased risk of acute pancreatitis (AP) compared to other combinations of oral hypoglycemic agents (OHA).\n\nThe investigators will carry out separate population based cohort studies using administrative health databases in six jurisdictions in Canada, the US, and the UK. Cohorts will be defined by the in",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02133118",
+            "title": "A Prospective Observational Cohort Study; The Weight Trajectory in New Users of Sulfonylureas as Add on Therapy Next to Metformin.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 16293,
+            "start_date": "1998-01",
+            "completion_date": "2014-12",
+            "brief_summary": "Next to HbA1c, body weight is regarded as an important surrogate end-point in trials investigating glucose-lowering agents. An increase in weight could contribute to worsening insulin resistance. Differences in weight after starting glucose lowering agents have been described in many randomized controlled trials (RCTs).\n\nWith this prospective observational study, weight trajectories after receiving add-on therapy next to metformin are evaluated in primary care patients with good glycaemic contro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02919059",
+            "title": "A Randomized, Unicenter, Parallel Study of the Effect of Dapagliflozin on Central Blood Pressure Reduction Compared to Glimepiride in Adult Subjects With Type 2 Diabetes Mellitus and Inadequate Glycemic Control.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 159,
+            "start_date": "2016-12-13",
+            "completion_date": "2019-08",
+            "brief_summary": "This superiority of central pressure versus peripheral measures to predict cardiovascular events has also been reported in general population or in elder people",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01910441",
+            "title": "A Comparative Study to Assess the Effect of Vildagliptin Versus Glimepiride on Glucose Variability in Type 2 Diabetic Patients Uncontrolled on Metformin Alone",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 95,
+            "start_date": "2013-07",
+            "completion_date": "2014-09",
+            "brief_summary": "Compare the effect of Vildagliptin plus Metformin versus Glimepiride plus Metformin on glucose variability in T2DM patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00427154",
+            "title": "Effect of Inhaled Pre-Prandial Human Insulin Plus Metformin & Glimepiride Versus Rosiglitazone Plus Metformin & Glimepiride on HbA1c in Subjects With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 227,
+            "start_date": "2007-01-10",
+            "completion_date": "2008-03-11",
+            "brief_summary": "This trial is conducted in the United States of America (USA). This trial will compare the changes in HbA1c after 26 weeks of inhaled insulin or rosiglitazone treatment, both in combination with metformin and glimepiride.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02188186",
+            "title": "Therapeutic Efficacy of Triple Combination of Metformin, DPP4 Inhibitor and Thiazolidinedione in Drug-naïve Korean Type 2 Diabetic Patients",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2014-07",
+            "completion_date": "2018-09",
+            "brief_summary": "Triple combination of metformin, DPP4 inhibitor and Thiazolidinedione would be a good option in the treatment of drug-naïve Korean type 2 diabetic patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00775684",
+            "title": "A Randomized, Controlled Trial Comparing the Effect of Exenatide, Sitagliptin or Glimepiride on Functional ß -Cell Mass in Patients With Impaired Fasting Glucose or Early Type 2 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 47,
+            "start_date": "2008-10",
+            "completion_date": "2012-11",
+            "brief_summary": "This study evaluates exenatide, sitagliptin, and glimepiride for the treatment of high blood sugar in patients with impaired fasting glucose or early type 2 diabetes. The purpose of this study is to determine if exenatide and sitagliptin increase the amount of insulin made by the pancreas compared to glimepiride. It is hypothesized that exenatide or sitagliptin will sustain or increase the amount of insulin made by the pancreas in comparison to glimepiride.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02072096",
+            "title": "An Individualized treatMent aPproach for oldER patIents: A Randomized, Controlled stUdy in Type 2 Diabetes Mellitus (IMPERIUM)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 192,
+            "start_date": "2014-02",
+            "completion_date": "2015-10",
+            "brief_summary": "The main purpose of this study is to compare the benefits and risks associated with the use of 2 treatment strategies to lower blood sugar in participants aged 65 and older with T2DM. One strategy is based on the use of oral and injectable medications that only reduce blood sugar (glucose) when it is high. The other strategy is based on non-glucose dependent agents. The trial will last up to 72 weeks for each participant.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00699322",
+            "title": "The Comparative Study of Dipeptidyl Peptidase-IV Inhibitor and Sulfonylurea on the Effect of Improving Glucose Variability and Oxidative Stress in Type 2 Diabetic Patients With Inadequate Glycemic Control on Metformin",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 36,
+            "start_date": "2008-06",
+            "completion_date": "2010-06",
+            "brief_summary": "This research will focus on the effect of Sitagliptin on 24 hour glycemic excursion and improvement of oxidative stress markers compared to long acting sulphonylurea Glimepiride in type 2 diabetic patients with inadequate glycemic control on metformin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32268860",
+            "title": "Clinical Review: Safety and Efficacy Comparison between Sulfonylureas and Dipeptidyl Peptidase-4 Inhibitors as Second-Line Therapies in Type 2 Diabetes Mellitus.",
+            "authors": [
+              "Gillani Syed Wasif",
+              "Moosvi Arzu F"
+            ],
+            "journal": "Current pharmaceutical design",
+            "year": "2020",
+            "abstract": "According to the World Health Organization (WHO), diabetes mellitus is considered the 7th leading cause of death as of 2016, while almost half of all deaths related to high blood glucose occur before the age of 70. According to the 2019 American Diabetes Association's (ADA) guidelines, metformin is the firstline treatment for patients with Type 2 diabetes. Additional therapy is dependent on multiple patient-specific factors, including cardiovascular risks, risk of hypoglycemia, metabolic changes",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12663616",
+            "title": "Glimepiride treatment and IGF-I in adolescents with type 1 diabetes: a prospective, randomized, double-blind, placebo-controlled study.",
+            "authors": [
+              "Wudy Stefan A",
+              "Högel Josef",
+              "Dollinger Barbara",
+              "Mullis Primus",
+              "Heinze Eberhard"
+            ],
+            "journal": "Diabetes care",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7475982",
+            "title": "Glimepiride-induced prevention of diabetes and autoimmune events in the BB rat: revised.",
+            "authors": [
+              "Cheta D M",
+              "Lim J",
+              "Chan E K",
+              "Kunakorn T",
+              "Charles M A"
+            ],
+            "journal": "Life sciences",
+            "year": "1995",
+            "abstract": "The purpose of this study was to determine whether Glimepiride, an oral sulfonylurea drug, prevents the onset of diabetes in diabetic prone BB rats. S750181, a sulfonylurea drug that has minimal in vivo glucose metabolic effects, was also tested. In addition, the shortest period of sulfonylurea treatment required for prevention was determined. Eighty rats were studied for all treatment periods with 40 receiving a daily oral gavage dosage of glimepiride and 40 receiving a daily oral gavage dosage",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8539908",
+            "title": "Prevention and cure of type 1 diabetes in the BB rat by islet allotransplantation and glimepiride treatment.",
+            "authors": [
+              "Pan J",
+              "Chan E K",
+              "Yu E",
+              "Chen J",
+              "Schranz V"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "1995",
+            "abstract": "",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15955587",
+            "title": "Type 1 diabetes developed in a type 2 diabetic patient with severe insulin resistance.",
+            "authors": [
+              "Suehiro Tadashi",
+              "Osaki Fumiaki",
+              "Ikeda Yukio",
+              "Arii Kaoru",
+              "Nakayama Fumi"
+            ],
+            "journal": "Diabetes research and clinical practice",
+            "year": "2005",
+            "abstract": "We report a 38-year-old female with severe insulin resistance who developed type 1 diabetes after being diagnosed with type 2 diabetes. At the initial examination, BMI was 31.8 kg/m(2) and HbA1c 10.8%. Her insulin secretion was sufficient (urinary CPR 80 microg/day) and the GAD antibody was negative. Following treatment with insulin and glimepiride, HbA1c decreased to 6.3%, though diabetic control deteriorated after 1 year (HbA1c, 11.0%) and her body weight was reduced in a short period, from 78",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11460577",
+            "title": "Oral hypoglycemic agents: insulin secretagogues, alpha-glucosidase inhibitors and insulin sensitizers.",
+            "authors": [
+              "Raptis S A",
+              "Dimitriadis G D"
+            ],
+            "journal": "Experimental and clinical endocrinology & diabetes : official journal, German Society of Endocrinology [and] German Diabetes Association",
+            "year": "2001",
+            "abstract": "In this review we present the agents that are in use in the treatment of type 2 diabetes. Sulfonylureas of the 1st and 2nd generation increase insulin secretion but can induce hyperinsulinemia and sometimes prolonged hypoglycemia. Glimepiride is a new 3rd generation sulfonylurea with some advantages over the other members of this group, such as a lower risk of hypoglycemia, no interaction with cardiovascular KATP-channels and a possibility that it may increase insulin sensitivity. There are also",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15013454",
+            "title": "Timely initiation of basal insulin.",
+            "authors": [
+              "Riddle Matthew C"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "2004",
+            "abstract": "Recognition of the basal and postprandial components of hyperglycemia, in tandem with the development of new insulins and other clinical research, has led to a reassessment of type 2 diabetes mellitus treatment. In the future, insulin will be used earlier, treatment will intensify as the disease progresses, and combination therapy will be routine. Hyperglycemia can be controlled initially with sulfonylureas and metformin, agents that mainly improve control of fasting and preprandial glucose. Whe",
+            "classification": {
+              "study_type": "Review/Guideline",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32935446",
+            "title": "Continuous spectrum of glucose dysmetabolism due to the KCNJ11 gene mutation-Case reports and review of the literature.",
+            "authors": [
+              "He Binbin",
+              "Li Xia",
+              "Zhou Zhiguang"
+            ],
+            "journal": "Journal of diabetes",
+            "year": "2021",
+            "abstract": "The KCNJ11 gene encodes the Kir6.2 subunit of the adenosine triphosphate-sensitive potassium (KATP ) channel, which plays a key role in insulin secretion. Monogenic diseases caused by KCNJ11 gene mutation are rare and easily misdiagnosed. It has been shown that mutations in the KCNJ11 gene are associated with neonatal diabetes mellitus (NDM), maturity-onset diabetes of the young 13 (MODY13), type 2 diabetes mellitus (T2DM), and hyperinsulinemic hypoglycemia. We report four patients with KCNJ11 g",
+            "classification": {
+              "study_type": "Case Series / Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19729529",
+            "title": "Beta-cell-mediated signaling predominates over direct alpha-cell signaling in the regulation of glucagon secretion in humans.",
+            "authors": [
+              "Cooperberg Benjamin A",
+              "Cryer Philip E"
+            ],
+            "journal": "Diabetes care",
+            "year": "2009",
+            "abstract": "Given evidence of both indirect and direct signaling, we tested the hypothesis that increased beta-cell-mediated signaling of alpha-cells negates direct alpha-cell signaling in the regulation of glucagon secretion in humans.",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35911365",
+            "title": "SGLT-2 Inhibitor-Associated Euglycemic Diabetic Ketoacidosis: A Case Report and a Literature Review.",
+            "authors": [
+              "Mahfooz Rabia Salman",
+              "Khan Muhammad Khuzzaim",
+              "Al Hennawi Hussam",
+              "Khedr Anwar"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "Diabetic ketoacidosis (DKA) is considered a medical emergency, most commonly associated with type 1 diabetes mellitus, and is relatively rare in type 2 diabetes mellitus (T2DM). We discuss a case of a 45-year-old woman with T2DM who presented to the emergency room with worsening lethargy and weakness. Before her presentation, her physician had recently added empagliflozin, a sodium-glucose cotransporter-2 (SGLT-2) inhibitor, to her anti-diabetic drug regimen along with glimepiride and a combinat",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19277932",
+            "title": "[Quality of life and treatment satisfaction in patients being treated with long-acting insulin analogues].",
+            "authors": [
+              "Hagenmeyer E G",
+              "Schädlich P K",
+              "Köster A D",
+              "Dippel F-W",
+              "Häussler B"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2009",
+            "abstract": "The purpose of this study was to review studies reporting on quality of life and treatment satisfaction of patients with diabetes mellitus being treated with long-acting insulin analogues.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39678398",
+            "title": "Therapeutic effects of mesenchymal stem cell conditioned media on streptozotocin-induced diabetes in Wistar rats.",
+            "authors": [
+              "Shalaby Marwa S",
+              "Abdel-Reheim Eman S",
+              "Almanaa Taghreed N",
+              "Alhaber Lama Abdulaziz",
+              "Nabil Ahmed"
+            ],
+            "journal": "Regenerative therapy",
+            "year": "2025",
+            "abstract": "Cell-based therapy is a new direction of treatment of diseases such as type 1 diabetes mellitus (T1DM); but unfortunately, its severe side effects include immunogenicity and tumor development. Using Mesenchymal stem cells conditioned medium (MSCs-CM) may be an alternative therapy to avoid stem cell risks, preserving effectiveness and demonstrating noticeably increased levels of cytokines, angiogenic factors, and growth factors that encourage and support regenerative processes. In the current wor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18502532",
+            "title": "Acute progression of severe insulin edema accompanied by pericardial and pleural effusion in a patient with type 2 diabetes.",
+            "authors": [
+              "Kawashima Satoshi",
+              "Kaneto Hideaki",
+              "Sakamoto Ken'ya",
+              "Yasuda Tetsuyuki",
+              "Kuroda Akio"
+            ],
+            "journal": "Diabetes research and clinical practice",
+            "year": "2008",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38513803",
+            "title": "A novel mutation in the ABCC8 gene causing maturity-onset diabetes of the young: A case report.",
+            "authors": [
+              "Guo Yifan",
+              "Chen Yangli",
+              "Liang Wen",
+              "Zeng Lirong",
+              "Hu Fang"
+            ],
+            "journal": "Clinical medicine (London, England)",
+            "year": "2024",
+            "abstract": "A 34-year-old woman was diagnosed with type 1 diabetes mellitus and treated with insulin for 24 years. The patient has a family history of diabetes in three consecutive generations. Her Whole exon sequencing showed a heterozygous mutation in the ABCC8 gene, and it also found some of her relatives to carry this mutation. She was diagnosed with MODY12 and received glimepiride therapy with the achievement of good glycaemic control.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9188302",
+            "title": "New agents available for the treatment of diabetes.",
+            "authors": [
+              "Miller E C"
+            ],
+            "journal": "Home care provider",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26118037",
+            "title": "[COMBINED HONDROPROTECTION IN REHABILITATION OF PATIENTS WITH DIABETES MELLITUS WITH DIABETIC ARTHROPATHY].",
+            "authors": [
+              "Orlenko V L"
+            ],
+            "journal": "Likars'ka sprava",
+            "year": "2015",
+            "abstract": "The efficacy and tolerability of combined chondroprotectors Teraflex® in patients with diabetes mellitus type 1 and 2, complicated by arthropathy were investigated. It was established, that Tera- flex® therapy positively influences on the development of diabetic arthropathy (reducing intensity of pain, increasing the range of movements and reduced volume of the affected joints, increasing the functionality of the patient). In addition, an analysis of the impact of chondroprotectors on the level ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21992555",
+            "title": "Effective treatment of diabetes caused by activating ABCC8/SUR1 mutation with glimepiride.",
+            "authors": [
+              "Karges B",
+              "Schnur D",
+              "Ellard S",
+              "Kentrup H",
+              "Karges W"
+            ],
+            "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glimepiride 透過結合 SUR1 受體關閉 K-ATP 通道促進胰島素分泌，機轉依賴功能性 β 細胞；T1DM 中 β 細胞因自體免疫破壞，主路徑失效。然而 BB 大鼠研究（PMID 7475982, 8539908）顯示 Glimepiride 具免疫調節效果，可延緩或預防自體免疫性糖尿病發病，另有部分 PPAR-γ 活性及胰島素受體磷酸化效果。機轉相關性為間接/弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glimepiride",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 17,
+      "notes": ""
+    }
+  ]
+}

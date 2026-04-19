@@ -1,0 +1,1469 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01060-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amoxicillin",
+    "drugbank_id": "DB01060",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn": {
+        "score": 0.9963032007217408,
+        "rank": 5311
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多克隆高黏滯綜合症由多種免疫球蛋白升高引起，常繼發於慢性感染、自體免疫或漿細胞病。若根本原因為細菌感染，抗生素可間接降低免疫刺激，但此為非常迂迴的理論路徑，無任何臨床或體外證據支持阿莫西林對本症有效。高 TxGNN 分數可能反映知識圖譜中感染→免疫→血液病的鏈式關聯，而非直接藥理機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hyperamylasemia",
+      "txgnn": {
+        "score": 0.9963032007217408,
+        "rank": 5312
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高澱粉酶血症為實驗室異常值而非獨立疾病，成因包含胰腺炎、腮腺炎、腎衰竭等。細菌感染（如化膿性腮腺炎或膽道感染）可引起繼發性高澱粉酶，阿莫西林若能治療此類感染，理論上可間接正常化澱粉酶，但無任何臨床數據支持，且疾病定義本身排除了有意義的藥物再利用評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital analbuminemia",
+      "txgnn": {
+        "score": 0.9959016442298888,
+        "rank": 5705
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無白蛋白血症為 ALB 基因突變導致肝臟無法合成白蛋白的罕見遺傳病。阿莫西林對基因缺陷本身無任何已知機轉，知識圖譜預測無生物學合理性。唯一可能的間接路徑是無白蛋白患者因藥物蛋白質結合改變，阿莫西林游離濃度升高，但這涉及藥動學改變而非治療適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "blood group incompatibility",
+      "txgnn": {
+        "score": 0.9940282106399536,
+        "rank": 7358
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40350274",
+            "title": "[Campylobacter lari bacteremia during treatment of pure red cell aplasia following major ABO-mismatched hematopoietic stem cell transplantation].",
+            "authors": [
+              "Yoshimaru Ryo",
+              "Nakamura Hirotaka",
+              "Guo Yony-Mei",
+              "Chi Song-Gi",
+              "Minami Yousuke"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2025",
+            "abstract": "Campylobacter lari is a rare cause of bacteremia in Campylobacter spp. Clinical course and symptoms vary by report, and no standard approaches to antimicrobial selection and duration of treatment have been established. A 68-year-old man who underwent haploidentical hematopoietic stem cell transplantation (HSCT) from a major ABO-incompatible donor with post-transplant cyclophosphamide for myelodysplastic syndromes developed pure red cell anemia and post-transfusion iron overload. On day 360, the ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血型不相容症為同種免疫介導的紅血球破壞，屬免疫問題，阿莫西林對抗體介導的溶血機轉無作用。唯一文獻（PMID 40350274）描述的是 ABO 不相容輸血後純紅血球再生不良患者合併彎曲桿菌敗血症，阿莫西林用於治療感染性併發症，而非治療血型不相容本身，文獻相關性完全不符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "premalignant hematological system disease",
+      "txgnn": {
+        "score": 0.9928591251373292,
+        "rank": 8337
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血液系統惡變前期疾病（如 MDS、MGUS、MBL 等）的疾病進展主要由基因組不穩定性、免疫逃逸及骨髓微環境異常驅動，阿莫西林無針對上述機轉的任何已知作用。0 篇文獻、0 項試驗，無法支持進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "monoclonal gammopathy",
+      "txgnn": {
+        "score": 0.9922260046005248,
+        "rank": 8852
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00062231",
+            "title": "Oral Empirical Therapy of Fever in Low-Risk Neutropenic Cancer Patients: A Prospective, Double-Blind, Randomized, Multicenter Trial Comparing Monotherapy (Single Daily Dose Moxifloxacin) With Combination Therapy (Ciprofloxacin Plus Amoxicillin/Clavulanic Acid)",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 351,
+            "start_date": "2002-04",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Antibiotics such as amoxicillin, ciprofloxacin, and moxifloxacin may be effective in preventing or controlling fever and neutropenia in patients with cancer. It is not yet known whether moxifloxacin alone is more effective than amoxicillin combined with ciprofloxacin in treating neutropenia and fever.\n\nPURPOSE: This randomized clinical trial is studying how well moxifloxacin works and compares it to ciprofloxacin together with amoxicillin in treating neutropenia and fever in patients ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究主題為低風險發燒中性粒細胞減少癌症患者的口服經驗性抗生素療法（Phase NA，已終止，n=351），雖患者可能包含骨髓瘤等漿細胞病，但研究終點為抗感染療效而非單克隆丙球蛋白病治療，相關性僅為背景支持。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21908119",
+            "title": "[Pneumonia and Rothia dentocariosa].",
+            "authors": [
+              "Bousquet A",
+              "Soler C",
+              "Martinaud C",
+              "Join-Lambert O",
+              "Malfuson J-V"
+            ],
+            "journal": "Medecine et maladies infectieuses",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9030995",
+            "title": "\"Mediterranean lymphoma\" treated with antibiotics.",
+            "authors": [
+              "Matsumoto S",
+              "Kinoshita Y",
+              "Fukuda H",
+              "Waki S",
+              "Asahara M"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "1996",
+            "abstract": "We report a case of Mediterranean lymphoma treated with antibiotics. A 74-year-old woman visited the hospital due to abdominal pain. Endoscopic examination showed erosions and ulcerations on duodenal mucosa. Biopsy specimens histologically revealed massive infiltration of small-sized lymphocytes and plasma cells in subepithelial mucosa. Immunoperoxidase staining showed that the infiltrating cells were positively stained with anti-alpha heavy chain. Serum IgA concentration was elevated and immuno",
+            "classification": {
+              "study_type": "Case Series / Retrospective",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35619805",
+            "title": "Case Report: Disseminated Nocardiosis Caused by Nocardia vulneris in a Patient With Macroglobulinemia.",
+            "authors": [
+              "Qiu Fulan",
+              "Ma Zhiyi",
+              "Zhong Rongrong",
+              "Huang Haonan",
+              "Wang Yuehua"
+            ],
+            "journal": "Frontiers in public health",
+            "year": "2022",
+            "abstract": "This report describes a case of disseminated nocardiosis, caused by Nocardia vulneris, in a 61-year-old man with macroglobulinemia and presenting with repeated fever, cough, shortness of breath, and muscle pain. The isolated Nocardia strain was resistant to ciprofloxacin, but susceptible to amikacin, gentamicin, tobramycin, linezolid, trimethoprim-sulfamethoxazole, amoxicillin/clavulanic, moxifloxacin, ceftriaxone, cefotaxim, and imipenem. The patient was started on combined meropenem and doxycy",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20513124",
+            "title": "High incidence of false-positive Aspergillus galactomannan test in multiple myeloma.",
+            "authors": [
+              "Mori Yasuo",
+              "Nagasaki Yoji",
+              "Kamezaki Kenjiro",
+              "Takenaka Katsuto",
+              "Iwasaki Hiromi"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2010",
+            "abstract": "Invasive aspergillosis (IA) remains one of the most significant causes of morbidity and mortality in patients with hematological malignancies undergoing chemotherapy and hematopoietic stem cell transplantation (HSCT), mainly due to the difficulty in its early diagnosis. Monitoring of galactomannan (GM) antigen, an exoantigen of Aspergillus, in the blood by sandwich ELISA is a useful and noninvasive method for early diagnosis of IA. The GM test has a sensitivity of 67-100% with a specificity of 8",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18639371",
+            "title": "Consequence of therapy discontinuation in bisphosphonate-associated osteonecrosis of the jaws.",
+            "authors": [
+              "Gallego Lorena",
+              "Junquera Luis"
+            ],
+            "journal": "The British journal of oral & maxillofacial surgery",
+            "year": "2009",
+            "abstract": "We report a patient with bisphosphonate-associated osteonecrosis of the jaws who developed pathological fractures of the upper and lower extremities after the suspension of treatment with bisphosphonates. Temporary discontinuation of the drugs does not alter the clinical course of the disease, and could result in the recurrence of bone pain and the progression of metastases or osteolytic lesions.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20015614",
+            "title": "Surgical management of bisphosphonate induced osteonecrosis of the jaws.",
+            "authors": [
+              "Williamson R A"
+            ],
+            "journal": "International journal of oral and maxillofacial surgery",
+            "year": "2010",
+            "abstract": "Recent literature contains numerous articles on osteonecrosis of the jaws (ONJ) associated with bisphosphonate treatment (BPT), with most advocating a conservative approach to management. A prospective study was designed to review the surgical management of cases of ONJ that did not respond to conservative management. Forty patients, referred with ONJ that did not respond to conservative management, were treated surgically and followed up for 6 months to 4 years. Four patients were taking i.v. B",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22092390",
+            "title": "Multiple myeloma vs. breast cancer patients with bisphosphonates-related osteonecrosis of the jaws: a comparative analysis of response to treatment and predictors of outcome.",
+            "authors": [
+              "Fortuna Giulio",
+              "Ruoppo Elvira",
+              "Pollio Annamaria",
+              "Aria Massimo",
+              "Adamo Daniela"
+            ],
+            "journal": "Journal of oral pathology & medicine : official publication of the International Association of Oral Pathologists and the American Academy of Oral Pathology",
+            "year": "2012",
+            "abstract": "Multiple myeloma (MM) and breast cancer (BC) are the two most common diseases associated with bisphosphonates-related osteonecrosis of the jaws (BRONJ), for which different therapeutical approaches have been proposed. The aim of this study was to compare the clinical behaviour of BRONJ in patients with MM vs. BC and the time of healing in terms of clinical and symptomatological remission, following a standardized therapeutic protocol.",
+            "classification": {
+              "study_type": "Retrospective Comparative Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20300878",
+            "title": "Regression of immunoproliferative small intestinal disease after eradication of Helicobacter pylori.",
+            "authors": [
+              "Dutta Usha",
+              "Udawat Harsh",
+              "Noor Mohd Talha",
+              "Sidhu Gurbakhshish Singh",
+              "Kochhar Rakesh"
+            ],
+            "journal": "Journal of gastrointestinal cancer",
+            "year": "2010",
+            "abstract": "A 20-year-old male presented with low-grade fever, abdominal pain, anorexia, and weight loss of 4-month duration. On examination, he was emaciated. Barium meal follow-through examination showed extensive nodularity and thickening of duodenal and jejunal folds. Contrast-enhanced computed tomography of the abdomen revealed extensive proximal small-bowel thickening with mesenteric lymphadenopathy. Upper gastrointestinal endoscopy and enteroscopy revealed thickening of folds with multiple small supe",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8988128",
+            "title": "Regression of immunoproliferative small intestinal disease after eradication of Helicobacter pylori.",
+            "authors": [
+              "Fischbach W",
+              "Tacke W",
+              "Greiner A",
+              "Konrad H",
+              "Müller-Hermelink"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1997",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16253033",
+            "title": "Nonsecretory variant of immunoproliferative small intestinal disease: a case report with pathologic, immunophenotypic, and molecular findings.",
+            "authors": [
+              "Pai Reetesh K",
+              "Snider Warren K",
+              "Starkey Cindi R",
+              "Viswanatha David",
+              "Foucar M Kathryn"
+            ],
+            "journal": "Archives of pathology & laboratory medicine",
+            "year": "2005",
+            "abstract": "We report a case of the nonsecretory variant of immunoproliferative small intestinal disease involving the distal small bowel and the mesenteric and retroperitoneal lymph nodes in a 19-year-old woman from Mexico. This variant extranodal marginal zone B-cell lymphoma appeared similar in the different sites of involvement, with more interspersed large cells and greater plasmacytic differentiation present in intestinal specimens. Characteristic lymphoepithelial lesions and follicular colonization w",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20185222",
+            "title": "Bisphosphonate-induced osteonecrosis of the jaw 32 months after interruption of zoledronate in a patient with multiple myeloma.",
+            "authors": [
+              "Del Conte Alessandro",
+              "Bernardeschi Paolo",
+              "La Ferla Fabio",
+              "Turrisi Gina",
+              "D'Alessandro Michelina"
+            ],
+            "journal": "Journal of oral and maxillofacial surgery : official journal of the American Association of Oral and Maxillofacial Surgeons",
+            "year": "2010",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "單克隆丙球蛋白病中，免疫增殖性小腸病（IPSID/Alpha 重鏈病，又稱地中海淋巴瘤）被確認為細菌抗原驅動型 B 細胞克隆增殖，主要病原體為 H. pylori 及空腸彎曲桿菌。三聯療法（阿莫西林 + 克拉黴素 + PPI）根除 H. pylori 後，多個病例系列記錄到 M 蛋白消退及組織學完全緩解。此機轉類比 MALT 淋巴瘤的抗 H. pylori 治療策略，具有明確生物學合理性，但：(1) 效應限於感染驅動型亞型，對 MGUS/MM 無效；(2) 阿莫西林須作為聯合方案組成使用，而非單藥。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn": {
+        "score": 0.991374671459198,
+        "rank": 9517
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "獲得性周圍神經病變相關血液病（如 POEMS 症候群、副蛋白相關神經病變、血管炎性神經病變）的機轉為免疫球蛋白沉積、VEGF 過量或血管炎，阿莫西林對此無直接機轉。若神經病變繼發於萊姆病（Borrelia）或其他細菌感染，需特定抗生素（如多西環素、頭孢曲松），而非阿莫西林口服。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "septicemic plague",
+      "txgnn": {
+        "score": 0.9912928938865662,
+        "rank": 9585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37126899",
+            "title": "Traceability, virulence and antimicrobial resistance of Yersinia enterocolitica in two industrial cheese-making plants.",
+            "authors": [
+              "Piras Francesca",
+              "Siddi Giuliana",
+              "Le Guern Anne-Sophie",
+              "Brémont Sylvie",
+              "Fredriksson-Ahomaa Maria"
+            ],
+            "journal": "International journal of food microbiology",
+            "year": "2023",
+            "abstract": "Between 2018 and 2019, 309 environmental and food samples were collected from two industrial cheese-making plants located in Sardinia, in order to investigate Y. enterocolitica presence and to characterize the isolates. Y. enterocolitica isolates were further compared with isolates detected during a previous investigation from sheep and goat raw milk samples. Y. enterocolitica was detected in 7.4 % of the samples and the prevalence was higher, even if not significantly (P > 0.05) higher in non-f",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15086042",
+            "title": "Atypical pathogens and challenges in community-acquired pneumonia.",
+            "authors": [
+              "Thibodeau Kristopher P",
+              "Viera Anthony J"
+            ],
+            "journal": "American family physician",
+            "year": "2004",
+            "abstract": "Atypical organisms such as Mycoplasma pneumoniae, Chlamydia pneumoniae, and Legionella pneumophila are implicated in up to 40 percent of cases of community-acquired pneumonia. Antibiotic treatment is empiric and includes coverage for both typical and atypical organisms. Doxycycline, a fluoroquinolone with enhanced activity against Streptococcus pneumoniae, or a macrolide is appropriate for outpatient treatment of immunocompetent adult patients. Hospitalized adults should be treated with cefotaxi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28643091",
+            "title": "Sylvatic Plague Vaccine Partially Protects Prairie Dogs (Cynomys spp.) in Field Trials.",
+            "authors": [
+              "Rocke Tonie E",
+              "Tripp Daniel W",
+              "Russell Robin E",
+              "Abbott Rachel C",
+              "Richgels Katherine L D"
+            ],
+            "journal": "EcoHealth",
+            "year": "2017",
+            "abstract": "Sylvatic plague, caused by Yersinia pestis, frequently afflicts prairie dogs (Cynomys spp.), causing population declines and local extirpations. We tested the effectiveness of bait-delivered sylvatic plague vaccine (SPV) in prairie dog colonies on 29 paired placebo and treatment plots (1-59 ha in size; average 16.9 ha) in 7 western states from 2013 to 2015. We compared relative abundance (using catch per unit effort (CPUE) as an index) and apparent survival of prairie dogs on 26 of the 29 paired",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3957763",
+            "title": "Bubonic plague in a cat.",
+            "authors": [
+              "Raflo N L"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1986",
+            "abstract": "Bubonic plague was diagnosed in a cat. The diagnosis was made by isolation of bacteria from a ruptured bubo and by demonstration of an antibody titer to Yersinia pestis. The cat was treated successfully with amoxicillin and streptomycin. The entire veterinary staff was treated prophylactically with tetracycline.",
+            "classification": {
+              "study_type": "Case Report (Animal)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30563467",
+            "title": "Rapid antimicrobial susceptibility testing and β-lactam-induced cell morphology changes of Gram-negative biological threat pathogens by optical screening.",
+            "authors": [
+              "McLaughlin Heather P",
+              "Sue David"
+            ],
+            "journal": "BMC microbiology",
+            "year": "2018",
+            "abstract": "For Yersinia pestis, Burkholderia pseudomallei, and Burkholderia mallei, conventional broth microdilution (BMD) is considered the gold standard for antimicrobial susceptibility testing (AST) and, depending on the species, requires an incubation period of 16-20 h, or 24-48 h according to the Clinical and Laboratory Standards Institute (CLSI) guidelines. After a diagnosis of plague, melioidosis or glanders during an outbreak or after an exposure event, the timely distribution of appropriate antibi",
+            "classification": {
+              "study_type": "In vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40772196",
+            "title": "Yersinia Is Not Just the Plague: A Case Report of Yersiniosis Caused by Yersinia enterocolitica.",
+            "authors": [
+              "Hashmi Shahnawaz",
+              "Majumder Sunrit",
+              "Gillani Zamad",
+              "Ali Mariyam"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Yersinia enterocolitica is a Gram-negative bacterium that typically causes self-limiting gastrointestinal infections but can sometimes lead to systemic complications, particularly in immunocompromised hosts. This report describes a rare case of a 60-year-old farmer who developed enteric bacteremia, renal impairment, and pulmonary manifestations, likely due to the consumption of undercooked pork. Despite lacking common predisposing factors, the patient presented with a sore throat, joint pain, ab",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21628541",
+            "title": "In vitro efficacy of antibiotics commonly used to treat human plague against intracellular Yersinia pestis.",
+            "authors": [
+              "Wendte Jered M",
+              "Ponnusamy Duraisamy",
+              "Reiber Deanna",
+              "Blair Jeffrey L",
+              "Clinkenbeard Kenneth D"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2011",
+            "abstract": "Yersinia pestis initiates infection as a facultative intracellular parasite in host macrophages; however, little is known about the efficacy of antibiotics commonly used to treat human plague against intracellular Y. pestis. Intracellular minimal bactericidal concentrations (MBCs) were determined using a high-throughput broth microdilution assay in which human THP-1 macrophage-like cells were infected with Y. pestis strain KIM6-2053.1+ and exposed to 2-fold serial dilutions of antibiotics for 24",
+            "classification": {
+              "study_type": "In vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36284359",
+            "title": "Assessment of Helicobacter pylori positive infected patients according to Clarithromycin resistant 23S rRNA, rpl22 associated mutations and cyp2c19*1, *2, *3 genes pattern in the Early stage of Gastritis.",
+            "authors": [
+              "Maghami Atena Abedi",
+              "Mobarez Ashraf Mohabati",
+              "Yadegar Abbas",
+              "Nikkhah Maryam",
+              "Sadeghi Amir"
+            ],
+            "journal": "BMC research notes",
+            "year": "2022",
+            "abstract": "Clarithromycin resistant Helicobacter pylori (CAM-R) is the main cause of standard triple therapy eradicating failure. Proton pump inhibitors (PPIs) directly pose bacteriocidic activity and prepare the optimum condition for Clarithromycin's best function. In counter with Poor metabolizer subjects, Homozygote Extensive Metabolizers have well characterized by treatment failure. Eventually, determination of CAM-R profile and estimation of PPIs metabolization rate support clinicians in better prescr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8203841",
+            "title": "Assessment of a fluoroquinolone, three beta-lactams, two aminoglycosides, and a cycline in treatment of murine Yersinia pestis infection.",
+            "authors": [
+              "Bonacorsi S P",
+              "Scavizzi M R",
+              "Guiyoule A",
+              "Amouroux J H",
+              "Carniel E"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1994",
+            "abstract": "Amoxicillin, cefotaxime, ceftriaxone, gentamicin, doxycycline, and ofloxacin were active in vitro, like the reference drug streptomycin, against the virulent strain Yersinia pestis 6/69M. The comparative efficacies of these drugs in vivo were evaluated in a standardized and reproducible mouse model of systemic infection. Each antibiotic was injected intravenously once, at 24 h postinfection, and then repeatedly during 48 h. In vivo results were measured by counting the viable bacteria recovered ",
+            "classification": {
+              "study_type": "Comparative In vitro / Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "敗血型鼠疫由 Yersinia pestis（革蘭氏陰性菌）引起。Beta-lactam 類（含阿莫西林）體外對 Y. pestis 具有部分活性，但存在多重限制：(1) Y. pestis 攜帶 beta-lactamase 基因（bla 基因），可對氨基青黴素產生耐藥性；(2) Y. pestis 具胞內存活能力，阿莫西林細胞內穿透性差（相較氟喹諾酮類）；(3) WHO 及 CDC 建議的一線治療為鏈黴素/慶大黴素，二線為多西環素或氟喹諾酮，阿莫西林不在推薦方案中；(4) 僅體外與動物模型數據，無人體臨床試驗。評估屬次要研究問題而非優先方向。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "congenital hematological disorder",
+      "txgnn": {
+        "score": 0.9869712591171264,
+        "rank": 12858
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00062231",
+            "title": "Oral Empirical Therapy of Fever in Low-Risk Neutropenic Cancer Patients: A Prospective, Double-Blind, Randomized, Multicenter Trial Comparing Monotherapy (Single Daily Dose Moxifloxacin) With Combination Therapy (Ciprofloxacin Plus Amoxicillin/Clavulanic Acid)",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 351,
+            "start_date": "2002-04",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Antibiotics such as amoxicillin, ciprofloxacin, and moxifloxacin may be effective in preventing or controlling fever and neutropenia in patients with cancer. It is not yet known whether moxifloxacin alone is more effective than amoxicillin combined with ciprofloxacin in treating neutropenia and fever.\n\nPURPOSE: This randomized clinical trial is studying how well moxifloxacin works and compares it to ciprofloxacin together with amoxicillin in treating neutropenia and fever in patients ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對發燒中性粒細胞減少癌症患者的口服抗生素療法（已終止），非針對先天性血液疾病，相關性僅為背景性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20516363",
+            "title": "Amoxicillin-induced hemolytic anemia in a child with glucose 6-phosphate isomerase deficiency.",
+            "authors": [
+              "Rossi Francesca",
+              "Ruggiero Simona",
+              "Gallo Mariapina",
+              "Simeone Gelsomina",
+              "Matarese Sofia Maria Rosaria"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2010",
+            "abstract": "To describe the first case of amoxicillin-induced nonimmune hemolytic anemia in a child with glucose-6-phosphate isomerase (GPI) deficiency.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34420414",
+            "title": "Lemierre Syndrome in a Patient With Splenectomy Secondary to Pyruvate Kinase Deficiency, Complicated by Heparin Resistance.",
+            "authors": [
+              "Clark Kiley",
+              "Sly Morgan",
+              "Chan Pearl",
+              "Lai Hobart",
+              "Ali Hadi"
+            ],
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2021",
+            "abstract": "Lemierre syndrome was first documented in the literature in 1936, and is defined as septic thrombophlebitis of the internal jugular vein. It is typically a result of oropharyngeal infection causing local soft tissue inflammation, which spreads to vasculature, and promotes formation of septic thrombi within the lumen, persistent bacteremia, and septic emboli. We present the case of a 24-year-old incarcerated man, who presented with leukocytosis and a right-sided tender, swollen neck after undergo",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24947863",
+            "title": "Causes, diagnosis and therapy of common diseases in neonatal puppies in the first days of life: cornerstones of practical approach.",
+            "authors": [
+              "Münnich A",
+              "Küchenmeister U"
+            ],
+            "journal": "Reproduction in domestic animals = Zuchthygiene",
+            "year": "2014",
+            "abstract": "Neonatal diseases and losses are a common and often unavoidable problem within breeding kennels. Altogether, morbidity and mortality ranges, according to the literature, from 5 to 35%. Among non-infectious causes besides hypoxia during birth, hypothermia, hypoglycaemia and dehydration are mostly responsible for puppy diseases and losses. Approximately 90% of all deaths in hypoxaemic pups occur during the first 2 days. Of 183 pups with hypoxia, 63 died, 92.7% of them within 48 h after birth. Amon",
+            "classification": {
+              "study_type": "Animal Study (Veterinary)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12731605",
+            "title": "The relationship between periodontal status and peripheral levels of neutrophils in two consanguineous siblings with severe congenital neutropenia: case reports.",
+            "authors": [
+              "Tözüm Tolga Fikret",
+              "Berker Ezel",
+              "Ersoy Fügen",
+              "Tezcan Iihan",
+              "Sanal Ozden"
+            ],
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2003",
+            "abstract": "Congenital neutropenia is characterized by a severe reduction in absolute neutrophil counts, resulting in an almost total absence of neutrophils. It is well known that severe neutropenia affects periodontal status. Oral manifestations include ulcerations, gingival desquamation, gingival inflammation, attachment loss, and alveolar bone loss which may result in tooth loss. Treatment with granulocyte-colony stimulating factor (G-CSF) may improve this periodontal condition. This article reports the ",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性血液疾病（G6PD缺乏症、丙酮酸激酶缺乏症、遺傳性球形紅血球增多症等）為基因性疾病，阿莫西林對原發缺陷無治療機轉。重要安全警示：PMID 20516363 明確報告阿莫西林在葡萄糖-6-磷酸異構酶（G6PI）缺乏兒童中誘發溶血性貧血，提示在特定先天性血液疾病中阿莫西林可能有害而非有益。其他文獻顯示阿莫西林僅用於此類患者的感染性併發症（如 Lemierre 症候群），屬支持性抗感染使用，非再利用場景。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "epiglottitis",
+      "txgnn": {
+        "score": 0.9869699478149414,
+        "rank": 12859
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37730165",
+            "title": "Antimicrobial treatment of ENT infections.",
+            "authors": [
+              "Cohen R",
+              "Madhi F",
+              "Thollot F",
+              "Hau I",
+              "Vie le Sage F"
+            ],
+            "journal": "Infectious diseases now",
+            "year": "2023",
+            "abstract": "Ear, nose and throat (ENT) or upper respiratory tract infections (URTI) are the most common infections in children and the leading causes of antibiotic prescriptions. In most cases, these infections are due to (or are triggered by) viruses and even when bacterial species are implicated, recovery is usually spontaneous. The first imperative is to refrain from prescribing antibiotics in a large number of URTIs: common cold, most cases of sore throat, laryngitis, congestive otitis, and otitis media",
+            "classification": {
+              "study_type": "Clinical Guideline / Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15960127",
+            "title": "[Base tongue actinomycosis].",
+            "authors": [
+              "Lahoz Zamarro M T",
+              "Laguía Pérez M",
+              "Muniesa Soriano J A",
+              "Martínez Sanz G"
+            ],
+            "journal": "Acta otorrinolaringologica espanola",
+            "year": "2005",
+            "abstract": "Actinomycosis is a bacterial, suppurative chronic infectious disease caused by Actinomyces israelii. Actinomycosis of the tongue is an uncommon form, and only 3% affect the base of the tongue. We report a case with dysphagia from an epiglottis, vallecula and tongue base mass. Diagnosis was made on histologic examination of a tissue biopsy. The disease completely resolved after chirurgical incision and drainage of the abscess and one month of oral amoxicillin therapy. The recurrence of the diseas",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29290238",
+            "title": "Antimicrobial treatment of ENT infections.",
+            "authors": [
+              "Cohen R",
+              "Haas H",
+              "Lorrot M",
+              "Biscardi S",
+              "Romain O"
+            ],
+            "journal": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie",
+            "year": "2017",
+            "abstract": "ENT infections are the most common childhood infections and the leading causes of antibiotic prescriptions. These infections are mainly due to viruses and most of them (even if bacterial species are implicated) resolve spontaneously. Therefore, the first message is to not prescribe antibiotics in the following situations: common cold, non-streptococcal pharyngitis, laryngitis, non-purulent otitis media, etc. For sore throat/pharyngitis, the antibiotic treatment decision is based mainly on the us",
+            "classification": {
+              "study_type": "Clinical Guideline / Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10893774",
+            "title": "[Clinical manifestations, diagnosis and treatment of Haemophilus influenzae infection].",
+            "authors": [
+              "Bachiller Luque P",
+              "Eiros Bouza J M",
+              "Blanco Quirós A"
+            ],
+            "journal": "Anales de medicina interna (Madrid, Spain : 1984)",
+            "year": "2000",
+            "abstract": "Haemophilus influenzae is a small, nonmotile, non-spore-forming bacterium, and a strict parasite of humans found principally in the upper respiratory tract. The production of capsule is of major significance to clinicians since it is an important virulence factor. We described six antigenically distinct capsular types, designated a-f. Spread from one individual to another occurs by airborne droplets or by direct contagion with secretions. Haemophilus influenzae produces at least two factors that",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26332822",
+            "title": "[Revision of the Dutch College of General Practitioners practice guideline 'Acute sore throat'].",
+            "authors": [
+              "de Jongh Egbert",
+              "Opstelten Wim"
+            ],
+            "journal": "Nederlands tijdschrift voor geneeskunde",
+            "year": "2015",
+            "abstract": "The aim of a diagnostic work-up in patients with acute sore throat is to exclude serious causes of tonsillitis and, in cases of a pharyngotonsillitis, to assess the degree of illness and the risk of complications. A diagnostic work-up aimed at the distinction between a viral or bacterial cause of pharyngotonsillitis does not determine initial treatment policy. Pharyngotonsillitis usually has a benign natural course; patient information and analgesia are usually sufficient treatment. Complication",
+            "classification": {
+              "study_type": "Clinical Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3571053",
+            "title": "Sequential intravenous-oral amoxycillin/clavulanate (Augmentin) therapy in paediatric hospital practice.",
+            "authors": [
+              "Schaad U B",
+              "Pfenninger J",
+              "Wedgewood-Krucko J"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1987",
+            "abstract": "The efficacy and safety of intravenous and sequential intravenous-oral clavulanate-potentiated amoxycillin therapy was evaluated in 71 hospitalized paediatric patients, one month to 16 years of age. The infections treated included peritonsillar abscess (2 patients), purulent tracheitis (1), acute epiglottitis (24), pneumonia (31), pansinusitis (4), mastoiditis (1), cellulitis (4), lymphadenitis (2) and pyelonephritis (2). The severity of disease was rated as moderate in 31 patients (44%), and as",
+            "classification": {
+              "study_type": "Case Series (Pediatric)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31029301",
+            "title": "Man With Sore Throat and Dyspnea.",
+            "authors": [
+              "An Yu-Chin",
+              "Yang Chih-Jen",
+              "Chen Chih-Yu",
+              "Kuo Chao-Yin",
+              "Tsai Yi-Da"
+            ],
+            "journal": "Annals of emergency medicine",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8322095",
+            "title": "Acute epiglottitis during pregnancy.",
+            "authors": [
+              "Glock J L",
+              "Morales W J"
+            ],
+            "journal": "Southern medical journal",
+            "year": "1993",
+            "abstract": "A 26-year-old woman in her third trimester of pregnancy had stridor. Epiglottitis was diagnosed by fiberoptic laryngoscopy. Staphylococcus aureus was the predominant organism isolated from the laryngeal aspirate. Early intubation proved effective in managing this potentially life-threatening disease. Although pharyngitis is the most common cause of sore throat in the adult, acute epiglottitis must be considered in the differential diagnosis when there is unrelenting throat pain and minimal objec",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40269922",
+            "title": "Rare case of necrotizing tonsillitis causing severe airway infection in an infant: a case report.",
+            "authors": [
+              "Abdullah Farah Hanim",
+              "Low Yi Xuan",
+              "Teo Rufinah",
+              "Azmi Mohd Imree",
+              "Mokhtar Mohammad Nizam"
+            ],
+            "journal": "Italian journal of pediatrics",
+            "year": "2025",
+            "abstract": "Necrotizing tonsillitis is rare and may lead to life-threatening upper airway obstruction in children, requiring emergency airway management.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17334726",
+            "title": "Invasive Haemophilus influenzae infections in children in Kamikawa subprefecture, Hokkaido, Japan, 1996-2005, before the introduction of H. influenzae type b vaccination.",
+            "authors": [
+              "Sakata Hiroshi"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2007",
+            "abstract": "We evaluated 52 children with invasive Haemophilus influenzae infection in Kamikawa subprefucture, Hokkaido, Japan between 1996 and 2005. The most frequent disease was meningitis, in 30 children (57.7%), followed by pneumonia in 9 (17.3%), bacteremia in 8 (15.4%), epiglottitis in 4 (7.7%), and cellulitis in 1 (1.9%). Patients ranged in age from 0 days to 8 years. Thirty (57.7%) of the patients were less than 2 years old. Only 6 cases of invasive H. influenzae infection occurred in children older",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1755915",
+            "title": "[Clinical aspects of acute epiglottitis in adults].",
+            "authors": [
+              "Knöbber D",
+              "Bergbreiter R"
+            ],
+            "journal": "Laryngo- rhino- otologie",
+            "year": "1991",
+            "abstract": "During the last three years, 79 adults suffering from acute epiglottitis have been treated in the ENT departments of the university hospital Rudolf Virchow, Berlin, 36 women (41 years of age as an average) and 43 men (average age 39 years). Acute epiglottitis developed either all of a sudden, within hours, or gradually, within days. All patients complained of dysphagia and pain in the throat; dyspnea could be observed in 20%. During examination, we could see an inflamed, thickened epiglottis wit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19012876",
+            "title": "[Acute group A beta-hemolytic streptococcus membranous laryngotracheobronchitis in an adult].",
+            "authors": [
+              "Beck N",
+              "Folia M",
+              "Mahy S",
+              "Duvillard C",
+              "Chanteret C"
+            ],
+            "journal": "Annales d'oto-laryngologie et de chirurgie cervico faciale : bulletin de la Societe d'oto-laryngologie des hopitaux de Paris",
+            "year": "2008",
+            "abstract": "To describe the first case of a group A beta-hemolytic streptococcus laryngotracheobronchitis as well as the other possible etiologies in a case of acute dyspnea.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21404603",
+            "title": "[Antibiotic susceptibility to parental antibiotics and penicillin-binding-protein genotype in Haemophilus influenzae isolated from children with invasive infection].",
+            "authors": [
+              "Sakata Hiroshi"
+            ],
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "2011",
+            "abstract": "The minimum inhibitory concentation (MIC) and minimum bactericidal concentration (MBC) of 8 parental antibiotics were determined using 21 strains of Haemophilus influenzae from 21 children with invasive H. influenzae infection in 2006-2009. Children were from 4 months to 12 years, with 18 (85.7%) under 1 year old. Diagnosies involved meningitis or pneumonia in 7 (33.3%); epiglottitis, phlegmon, or arthritis in 2 each (9.5%), and occult bacteremia in 1 (4.8%). The capsule type was b (Hib) in 19 (",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "312999",
+            "title": "Acute epiglottitis in an adult.",
+            "authors": [
+              "Myers J B",
+              "Lee E M",
+              "Allen K M"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3445980",
+            "title": "[Laryngeal dyspnea of infectious origin in the adult. Apropos of 54 cases].",
+            "authors": [
+              "Perrin A",
+              "Hareux S",
+              "Florant A",
+              "Baril C",
+              "Depondt J"
+            ],
+            "journal": "Annales d'oto-laryngologie et de chirurgie cervico faciale : bulletin de la Societe d'oto-laryngologie des hopitaux de Paris",
+            "year": "1987",
+            "abstract": "Principal etiologies in 54 patients with acute laryngeal dyspnea of infectious origin were epiglottitis (35 cases), glotto-subglottal laryngitis (8 cases) and adjacent infections (9 cases). These cases are reviewed together with the relevant published literature and various conclusions drawn. The affection is serious (35 deaths out of 425 cases in the literature), and requires careful examination, immediate treatment and routine hospital care under surveillance. Apart from cases where the condit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性會厭炎（急性聲門上炎）主要由細菌性病原體引起，包含 Haemophilus influenzae type b（傳統首位病原體）、肺炎鏈球菌、金黃色葡萄球菌及 A 群鏈球菌。阿莫西林（尤其是阿莫西林-克拉維酸）對多數口咽及上呼吸道病原體有效，其 PBP 結合機轉直接針對細菌細胞壁，符合細菌性會厭炎的治療邏輯。多個臨床指南、系列病例及回顧性研究支持廣譜青黴素類作為一線或二線治療。注意事項：(1) 單純阿莫西林對產 beta-lactamase 的 H. influenzae 療效不足，臨床需使用阿莫西林-克拉維酸；(2) 重症病例需靜脈給藥（頭孢曲松/頭孢他啶）而非口服阿莫西林；(3) 兒童後 Hib 疫苗時代病原譜已改變，需考慮耐藥性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amoxicillin",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 15,
+      "notes": ""
+    }
+  ]
+}

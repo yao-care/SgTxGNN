@@ -1,0 +1,556 @@
+## Aspartic Acid (DB00128) 藥物再利用證據分析
+
+以下為各適應症的系統性評估，依據 TxGNN 預測分數、臨床試驗相關性、文獻品質與機轉合理性逐一分析。
+
+---
+
+```json
+{
+  "drug": "Aspartic acid",
+  "drugbank_id": "DB00128",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "所有試驗均需確認是否直接以 Aspartic acid 為介入藥物，本批資料多數試驗為疾病匹配而非藥物匹配，須特別留意。",
+  "indications": [
+    {
+      "disease_name": "renal tubular acidosis",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "天門冬胺酸（Aspartate）在腎小管的酸鹼代謝中扮演關鍵角色：(1) SLC22A13 在腎小管基底外側膜催化 aspartate 的單向外流（PMID 24147638），直接涉及腎小管離子轉運；(2) Aspartate 參與腎臟 NH3 產生（PMID 14301365），為腎小管酸鹼調節的核心機轉；(3) 在代謝性酸中毒的大鼠腎臟中，aspartate 等代謝中間物濃度出現顯著變化（PMID 5641145）。但目前缺乏直接治療 RTA 的臨床試驗證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04725812",
+          "title": "CRUSH Study - Complement Regulation in Preeclampsia",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 2,
+          "relevance_grade": "C",
+          "reasoning": "此試驗針對子癲前症的補體調節，與 Aspartic acid 治療 RTA 完全無關。試驗已終止且入組僅 2 人，資料價值極低。疾病標記可能為資料庫錯誤匹配。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24147638",
+          "year": "2014",
+          "study_type": "基礎研究（轉運體功能研究）",
+          "tier": "2",
+          "note": "SLC22A13 在腎小管基底外側膜對 aspartate 的單向外流，為最直接的機轉連結，但屬基礎科學非臨床治療研究"
+        },
+        {
+          "pmid": "14301365",
+          "year": "1965",
+          "study_type": "生理學研究",
+          "tier": "3",
+          "note": "腎小管細胞 pNH3 與腎臟氨生成關係，間接支持 aspartate 在酸鹼平衡中的角色"
+        },
+        {
+          "pmid": "5641145",
+          "year": "1968",
+          "study_type": "動物實驗",
+          "tier": "3",
+          "note": "代謝性酸中毒大鼠腎臟代謝中間物濃度變化，間接支持機轉但年代久遠"
+        },
+        {
+          "pmid": "2884989",
+          "year": "1987",
+          "study_type": "動物實驗（13C NMR）",
+          "tier": "3",
+          "note": "大鼠腎小管谷氨酸碳代謝命運研究，與 aspartate 代謝共路徑"
+        },
+        {
+          "pmid": "990372",
+          "year": "1976",
+          "study_type": "Case Series（靜脈負荷試驗）",
+          "tier": "3",
+          "note": "ornithine-aspartate 靜脈負荷於兩個家族的兄弟姊妹，為最接近臨床應用的文獻，但受試者極少且年代久遠"
+        },
+        {
+          "pmid": "26208211",
+          "year": "2015",
+          "study_type": "診斷研究（全外顯子定序）",
+          "tier": "3",
+          "note": "探討遠端 RTA 的基因診斷，未涉及 aspartate 治療"
+        },
+        {
+          "pmid": "20068363",
+          "year": "2010",
+          "study_type": "Case Series（基因突變研究）",
+          "tier": "3",
+          "note": "SLC4A1 突變導致的菲律賓兒童 RTA，為病因學研究，非治療研究"
+        },
+        {
+          "pmid": "12087557",
+          "year": "2002",
+          "study_type": "Case Report（基因突變）",
+          "tier": "3",
+          "note": "AE1 基因 G701D 突變的 AR-dRTA，為病因學，非治療研究"
+        },
+        {
+          "pmid": "6422151",
+          "year": "1983",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "丙酮酸羧化酶缺乏症合併 RTA 及胱胺酸尿，間接相關"
+        },
+        {
+          "pmid": "23053187",
+          "year": "2013",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "ITP 合併低血鉀 dRTA，為臨床描述，非治療研究"
+        }
+      ],
+      "evidence_gap": "需要直接評估 aspartate 補充對 RTA 患者腎小管功能的前瞻性研究",
+      "next_step": "設計 Phase 1 安全性評估，評估 aspartate 補充對遺傳性 RTA 患者尿液酸化及電解質的影響"
+    },
+    {
+      "disease_name": "esophageal varices with bleeding",
+      "txgnn_score": 0.9138,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝硬化患者存在血清胺基酸譜異常（PMID 6611579），包含 aspartate 代謝紊亂，但此為疾病狀態的伴隨現象而非治療機轉。目前無合理機轉支持 aspartic acid 可直接改善食道靜脈瘤出血。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07289698",
+          "relevance_grade": "C",
+          "reasoning": "握力對門脈/左胃靜脈壓力影響的研究，與 aspartic acid 無關"
+        },
+        {
+          "nct_id": "NCT07413549",
+          "relevance_grade": "C",
+          "reasoning": "人臍帶血幹細胞療法的 Phase I-II 研究，與 aspartic acid 無關"
+        },
+        {
+          "nct_id": "NCT04981756",
+          "relevance_grade": "C",
+          "reasoning": "原發性硬化性膽管炎流行病學研究，與 aspartic acid 無關"
+        },
+        {
+          "nct_id": "NCT02224456",
+          "relevance_grade": "C",
+          "reasoning": "Tenofovir 治療乙肝肝硬化的 Phase 4 研究，與 aspartic acid 無關"
+        },
+        {
+          "nct_id": "NCT07165028",
+          "relevance_grade": "C",
+          "reasoning": "多種藥理藥物的主協議 Phase 3 RCT，需確認是否包含 aspartate，但依標題判斷可能性低"
+        },
+        {
+          "nct_id": "NCT01560845",
+          "relevance_grade": "C",
+          "reasoning": "自體骨髓幹細胞肝動脈輸注，與 aspartic acid 無關"
+        },
+        {
+          "nct_id": "NCT07116096",
+          "relevance_grade": "C",
+          "reasoning": "握力對門脈血流動力學影響研究，與 aspartic acid 無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33985430",
+          "year": "2021",
+          "study_type": "橫斷面研究",
+          "tier": "3",
+          "note": "血吸蟲相關肝門周圍纖維化的 APRI/PSDR 生物標記研究，與 aspartate 治療無關"
+        },
+        {
+          "pmid": "6611579",
+          "year": "1984",
+          "study_type": "觀察性研究",
+          "tier": "3",
+          "note": "肝硬化患者血清胺基酸譜變化，顯示氨基酸失衡，為疾病描述而非治療依據"
+        }
+      ],
+      "evidence_gap": "無任何直接臨床證據支持 aspartic acid 用於食道靜脈瘤出血",
+      "next_step": "建議暫停此適應症的評估，優先評估有更強機轉連結的適應症"
+    },
+    {
+      "disease_name": "esophageal varices without bleeding",
+      "txgnn_score": 0.9138,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與出血型食道靜脈瘤相同，缺乏合理的直接治療機轉。Aspartate 在肝臟代謝中的角色（尿素循環）為間接聯繫，不構成治療靜脈曲張的合理機轉。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02224456",
+          "relevance_grade": "C",
+          "reasoning": "Tenofovir 研究，與 aspartic acid 治療食道靜脈瘤無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33985430",
+          "year": "2021",
+          "study_type": "橫斷面研究",
+          "tier": "3",
+          "note": "同上，與治療無直接關聯"
+        },
+        {
+          "pmid": "6611579",
+          "year": "1984",
+          "study_type": "觀察性研究",
+          "tier": "3",
+          "note": "肝硬化胺基酸譜研究，為背景資訊而非治療證據"
+        }
+      ],
+      "evidence_gap": "完全缺乏直接臨床治療證據",
+      "next_step": "Hold，不建議投入研究資源"
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.8995,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "多重機轉支持：(1) Betaine aspartate 的肝消化道療效早期臨床觀察（PMID 5994378, 1966；PMID 5050945, 1972）；(2) 日本高湯中的胺基酸（含 aspartate/glutamate）可影響胃排空速率（PMID 29031770, 2018）；(3) Aspartate 作為 NMDA 受體激動劑，透過 ENS（腸肌神經叢）調節胃腸動力（PMID 20383032）；(4) Helicobacter pylori 的代謝網路中 aspartate 為關鍵代謝物（PMID 27258354）。機轉合理性中等，但所有臨床研究均為舊文獻或間接證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06842966",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 多中心隨機雙盲安慰劑對照試驗，針對消化不良（300名受試者，招募中），但標題截斷無法確認介入藥物是否為 aspartate，相關性待查"
+        },
+        {
+          "nct_id": "NCT05346302",
+          "relevance_grade": "C",
+          "reasoning": "免疫接種的 Early Phase 1 研究，與 aspartic acid 治療消化不良無關"
+        },
+        {
+          "nct_id": "NCT04521751",
+          "relevance_grade": "C",
+          "reasoning": "LEAAP 研究針對超重/肥胖的 Phase 1/2 試驗，與 aspartate 治療消化不良無直接關聯"
+        },
+        {
+          "nct_id": "NCT04350346",
+          "relevance_grade": "B",
+          "reasoning": "Motilitone vs Gasmotil 比較研究，為胃動力藥物對照試驗，顯示此適應症的研究活躍度，但非 aspartate 直接研究"
+        },
+        {
+          "nct_id": "NCT04093960",
+          "relevance_grade": "C",
+          "reasoning": "Escitalopram + PS128 益生菌研究，已終止，與 aspartate 無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "5994378",
+          "year": "1966",
+          "study_type": "早期臨床觀察（法文）",
+          "tier": "3",
+          "note": "Betaine aspartate 在肝消化道領域的應用，最直接的臨床相關文獻，但年代過久（60年前），研究品質無法評估"
+        },
+        {
+          "pmid": "5050945",
+          "year": "1972",
+          "study_type": "早期臨床研究（法文）",
+          "tier": "3",
+          "note": "Betaine aspartate 的治療活性，同樣為早期觀察性研究，品質存疑"
+        },
+        {
+          "pmid": "29031770",
+          "year": "2018",
+          "study_type": "人體生理研究（RCT design）",
+          "tier": "2",
+          "note": "日本高湯中三種主要胺基酸（含 aspartate）對葡萄糖代謝和胃排空的影響，為最近且設計較嚴謹的研究，但 aspartate 為複合物的成分之一，非單獨測試"
+        },
+        {
+          "pmid": "20383032",
+          "year": "2010",
+          "study_type": "藥理學研究（動物/體外）",
+          "tier": "3",
+          "note": "Z-338 對興奮性/抑制性神經傳導物質作用的研究，顯示 aspartate 在腸道神經系統中的角色，為間接機轉支持"
+        },
+        {
+          "pmid": "29701047",
+          "year": "2018",
+          "study_type": "動物實驗",
+          "tier": "3",
+          "note": "電針對胃動力及 NMDA 的影響，間接支持 aspartate-NMDA 路徑在胃動力的作用"
+        },
+        {
+          "pmid": "27258354",
+          "year": "2017",
+          "study_type": "基礎研究（代謝體學）",
+          "tier": "3",
+          "note": "H. pylori 代謝網路中 aspartate 為關鍵代謝物，可能影響感染相關消化不良的路徑"
+        }
+      ],
+      "evidence_gap": "現代 RCT 中直接評估 aspartate 單藥或複方治療功能性消化不良的高品質研究缺乏",
+      "next_step": "進行系統性文獻回顧以評估 betaine aspartate 歷史研究品質；設計現代化 Phase 2 概念驗證試驗"
+    },
+    {
+      "disease_name": "renal hypomagnesemia",
+      "txgnn_score": 0.8274,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Aspartate 作為鎂的螯合載體具有最強的臨床文獻支持：(1) Potassium-magnesium aspartate 治療低血鉀合併低鎂血症的直接臨床應用（PMID 724623, 1978）；(2) Magnesium aspartate 用於校正食物性鎂缺乏及腎結石預防（PMID 19227867, 2008）；(3) Aspartate 螯合鎂的生物利用度優於無機鎂鹽，有助腎小管重吸收。然而，對於「腎性低鎂血症」（腎臟排鎂過多）這一特定病理機轉，補充 aspartate 可能有助於提升可被重吸收的鎂濃度，但不能解決基因性/藥物性腎小管功能缺陷的根本原因。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "724623",
+          "year": "1978",
+          "study_type": "臨床觀察研究",
+          "tier": "2",
+          "note": "Potassium-magnesium aspartate 治療低血鉀合併低鎂血症的血漿鎂濃度監測，最直接的臨床相關文獻，但為舊研究且樣本量小"
+        },
+        {
+          "pmid": "19227867",
+          "year": "2008",
+          "study_type": "臨床研究（俄文）",
+          "tier": "2",
+          "note": "食物性鎂缺乏導致腎結石及以 magnesium aspartate 校正的研究，直接支持 aspartate 作為鎂補充的臨床應用"
+        },
+        {
+          "pmid": "8577204",
+          "year": "1995",
+          "study_type": "RCT（比較三種鈣鹽）",
+          "tier": "2",
+          "note": "高劑量口服鈣鹽對酸鹼代謝和電解質的影響比較，間接顯示礦物質-aspartate 複合物的電解質效應"
+        },
+        {
+          "pmid": "19903818",
+          "year": "2010",
+          "study_type": "基礎研究（功能性分析）",
+          "tier": "3",
+          "note": "Kv1.1 N255D 突變（AD 低鎂血症），為病因學研究，非治療研究"
+        },
+        {
+          "pmid": "37512156",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "利尿劑誘導鹼中毒及多重用藥的 Milk-Alkali Syndrome，間接顯示電解質-酸鹼平衡複雜關係"
+        }
+      ],
+      "evidence_gap": "缺乏現代 RCT 直接比較 magnesium aspartate 與其他鎂製劑用於腎性低鎂血症的療效與安全性",
+      "next_step": "此適應症具有最強的現有文獻支持基礎，建議設計前瞻性 Phase 2 試驗比較 Mg-aspartate 與 MgO 在腎性低鎂血症的生物利用度及臨床效果"
+    },
+    {
+      "disease_name": "Alstrom syndrome",
+      "txgnn_score": 0.8261,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Alstrom 症候群為 ALMS1 基因突變導致的罕見多系統遺傳疾病，主要影響感覺器官和代謝功能。提供的唯一文獻（PMID 19122169）為 caspase-8 在新生血管形成中的作用研究，與 aspartic acid 治療 Alstrom 症候群無合理機轉連結。TxGNN 預測可能基於某些代謝通路的共享節點，但不構成可行的治療假說。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19122169",
+          "year": "2009",
+          "study_type": "基礎研究",
+          "tier": "3",
+          "note": "Caspase-8 在新生血管祖細胞功能中的作用，與 aspartate 治療 Alstrom 症候群無直接關聯"
+        }
+      ],
+      "evidence_gap": "完全缺乏機轉合理性與臨床證據",
+      "next_step": "Hold。此適應症的 TxGNN 預測可能為假陽性，不建議投入研究資源"
+    },
+    {
+      "disease_name": "hypophosphatemia (disease)",
+      "txgnn_score": 0.826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低磷血症主要涉及 FGF23/PHEX/DMP1 軸的磷調控機轉（PMID 21177780, 31843680）。Aspartate 在磷代謝中無已知直接作用。列出的 34 個臨床試驗幾乎全為癌症治療試驗（低磷血症為不良事件而非主要適應症），並非針對低磷血症治療的研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03269136",
+          "relevance_grade": "C",
+          "reasoning": "MAGNETISMM-1 為血液惡性腫瘤治療的 Phase 1 研究，低磷血症為不良事件監測項目，與 aspartate 治療低磷血症無關"
+        },
+        {
+          "nct_id": "NCT03911869",
+          "relevance_grade": "C",
+          "reasoning": "Encorafenib + Binimetinib 黑色素瘤 Phase 2 研究，已終止，與 aspartate 無關"
+        },
+        {
+          "nct_id": "NCT02880371",
+          "relevance_grade": "C",
+          "reasoning": "ARRY-382 + Pembrolizumab Phase 1/2 腫瘤免疫治療研究，與 aspartate 無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "21177780",
+          "year": "2011",
+          "study_type": "基礎研究（分子機轉）",
+          "tier": "3",
+          "note": "ASARM 胜肽的磷調節研究，為低磷血症的病理機轉，非 aspartate 治療研究"
+        },
+        {
+          "pmid": "31843680",
+          "year": "2020",
+          "study_type": "Case Report（基因突變）",
+          "tier": "3",
+          "note": "低磷血症骨硬化症的新突變，為病因學研究"
+        },
+        {
+          "pmid": "8675579",
+          "year": "1996",
+          "study_type": "Case Report（VDR 突變）",
+          "tier": "3",
+          "note": "維生素 D 受體突變導致的遺傳性佝僂病，為病因學研究"
+        },
+        {
+          "pmid": "37512156",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Milk-Alkali Syndrome，電解質失衡個案，與 aspartate 治療低磷血症無直接關聯"
+        }
+      ],
+      "evidence_gap": "完全缺乏機轉合理性與直接臨床證據",
+      "next_step": "Hold。列出的試驗均非針對 aspartate 的研究，不建議投入資源"
+    },
+    {
+      "disease_name": "varicose disease",
+      "txgnn_score": 0.8160,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "靜脈曲張主要涉及靜脈瓣膜功能不全和結締組織重塑。Aspartate 無已知直接治療靜脈曲張的機轉。提供的文獻多為神經科學相關（樹突棘、澱粉樣斑塊、突觸谷氨酸）或 HFE 基因與靜脈潰瘍愈合（PMID 22150832），與 aspartate 直接治療靜脈曲張缺乏合理連結。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05378997",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 隨機雙盲安慰劑對照研究於健康受試者，需進一步確認介入藥物，依試驗設計判斷可能非 aspartate 研究"
+        },
+        {
+          "nct_id": "NCT07289698",
+          "relevance_grade": "C",
+          "reasoning": "握力對門靜脈壓力影響，為肝硬化相關，非靜脈曲張直接治療"
+        },
+        {
+          "nct_id": "NCT02319837",
+          "relevance_grade": "C",
+          "reasoning": "Enzalutamide 前列腺癌 Phase 3 研究，與 aspartate 治療靜脈曲張完全無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22150832",
+          "year": "2012",
+          "study_type": "基因關聯研究",
+          "tier": "3",
+          "note": "HFE 基因與慢性靜脈潰瘍愈合的相關性，與 aspartate 無直接關聯"
+        },
+        {
+          "pmid": "41053811",
+          "year": "2025",
+          "study_type": "基礎神經科學研究",
+          "tier": "3",
+          "note": "腦發育中樹突形態對突觸傳遞的影響，與靜脈曲張治療完全無關"
+        },
+        {
+          "pmid": "26993139",
+          "year": "2016",
+          "study_type": "基礎神經科學研究",
+          "tier": "3",
+          "note": "澱粉樣斑塊周圍神經退行性研究，與靜脈曲張治療無關"
+        },
+        {
+          "pmid": "31697073",
+          "year": "2019",
+          "study_type": "基礎神經科學研究",
+          "tier": "3",
+          "note": "Aβ1-42 寡聚體誘導谷氨酸釋放研究，與靜脈曲張治療無關"
+        }
+      ],
+      "evidence_gap": "文獻品質低且與適應症高度不相關，疑似資料庫誤匹配",
+      "next_step": "Hold。多數文獻為神經科學研究，疑似資料匹配錯誤，不建議投入資源"
+    },
+    {
+      "disease_name": "HELIX syndrome",
+      "txgnn_score": 0.8046,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HELIX 症候群由 CLDN10 突變導致，影響汗液分泌、電解質平衡、淚腺功能、魚鱗病及口乾症。提供的 15 篇文獻涵蓋 GINS3（DNA 複製）、GEMIN5、SLC7A14（視網膜營養不良）、BK 通道突變、MID1 B-box2、Refsum 病等，均為其他遺傳症候群的研究，與 aspartate 治療 HELIX 症候群無合理機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30924391",
+          "year": "2019",
+          "study_type": "基因型-表現型研究",
+          "tier": "3",
+          "note": "SLC7A14（陽離子胺基酸轉運體）突變與視網膜營養不良，為最接近的間接連結（胺基酸轉運體），但與 HELIX 症候群及 aspartate 治療仍無直接關聯"
+        },
+        {
+          "pmid": "15166252",
+          "year": "2004",
+          "study_type": "基礎研究（受體結構）",
+          "tier": "3",
+          "note": "NMDA 受體跨膜區配體選擇性的結構研究，僅有間接的胺基酸傳導物相關性"
+        }
+      ],
+      "evidence_gap": "完全缺乏直接證據，文獻匹配品質差",
+      "next_step": "Hold。TxGNN 預測可能為假陽性，疾病的遺傳特異性高，外源性 aspartate 補充的治療效益不明確"
+    },
+    {
+      "disease_name": "Pendred syndrome",
+      "txgnn_score": 0.7937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pendred 症候群由 SLC26A4（pendrin）突變導致，影響碘轉運及內耳液體平衡，主要表現為感音神經性聽損合併甲狀腺腫。Pendrin 為陰離子交換器，可轉運氯離子/碳酸氫根/碘/thiocyanate，與 aspartate 代謝無明確治療性機轉連結。提供文獻（PMID 40040362）討論聽覺神經病變的分子動態，未涉及 aspartate 治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40040362",
+          "year": "2025",
+          "study_type": "綜述",
+          "tier": "3",
+          "note": "常染色體顯性聽覺神經病變的分子動態進展，為遺傳病理機轉綜述，非 aspartate 治療研究。與 Pendred 症候群的連結依賴於聽損這一共同表現，間接性極強。"
+        }
+      ],
+      "evidence_gap": "完全缺乏直接臨床及機轉證據",
+      "next_step": "Hold。不建議投入研究資源"
+    }
+  ],
+  "summary": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "renal hypomagnesemia",
+        "rationale": "有直接使用 aspartate 鹽類補充鎂的臨床文獻，機轉合理，具體可行"
+      },
+      {
+        "rank": 2,
+        "disease": "dyspepsia",
+        "rationale": "有 betaine aspartate 的早期臨床觀察及現代胺基酸-胃動力研究，機轉多元"
+      },
+      {
+        "rank": 3,
+        "disease": "renal tubular acidosis",
+        "rationale": "有腎小管 aspartate 轉運的分子基礎，機轉可信但臨床證據薄弱"
+      }
+    ],
+    "overall_assessment": "Aspartic acid 作為藥物再利用候選，在 10 個預測適應症中，多數（7/10）缺乏足夠的機轉合理性或臨床證據（L5, S0），建議暫停評估。具有最高潛力的適應症為腎性低鎂血症（aspartate 作為鎂載體已有臨床應用基礎），其次為消化不良（aspartate 對胃腸動力的調節機轉）。TxGNN 高分預測（>0.9）在食道靜脈瘤相關適應症中，因無直接機轉支持而評估為 L5，顯示預測分數需與機轉生物學證據整合判斷。",
+    "safety_note": "Aspartic acid 為人體天然胺基酸，一般認為安全性良好，DDI 計數為 0，支持進入 S1 安全性評估。但高劑量 aspartate 可能影響 NMDA 受體（興奮性神經毒性）需特別留意神經系統安全性。",
+    "ymyl_disclaimer": "以上分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證才能應用於患者。"
+  }
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 適應症 | TxGNN | 證據等級 | 決策階段 | 建議 |
+|--------|-------|---------|---------|------|
+| 腎性低鎂血症 | 0.827 | **L4** | **S1** | 🔬 Research Question |
+| 消化不良 | 0.899 | **L4** | **S1** | 🔬 Research Question |
+| 腎小管酸中毒 | 0.995 | **L4** | **S1** | 🔬 Research Question |
+| 食道靜脈瘤（出血） | 0.914 | L5 | S0 | ⛔ Hold |
+| 食道靜脈瘤（無出血） | 0.914 | L5 | S0 | ⛔ Hold |
+| 低磷血症 | 0.826 | L5 | S0 | ⛔ Hold |
+| 靜脈曲張 | 0.816 | L5 | S0 | ⛔ Hold |
+| HELIX 症候群 | 0.805 | L5 | S0 | ⛔ Hold |
+| Alstrom 症候群 | 0.826 | L5 | S0 | ⛔ Hold |
+| Pendred 症候群 | 0.794 | L5 | S0 | ⛔ Hold |
+
+> ⚠️ **重要提醒**：TxGNN 預測分數高（如食道靜脈瘤 0.914）並不等同於臨床證據充分。本分析顯示多數高分預測因缺乏直接機轉或臨床文獻支持，評估等級仍為 L5。建議以「機轉合理性 × 臨床證據品質」雙軸作為決策依據，而非單純依賴預測分數排序。

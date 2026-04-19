@@ -1,0 +1,352 @@
+```json
+{
+  "drug": "Dabrafenib",
+  "drugbank_id": "DB08912",
+  "analysis_date": "2026-04-04",
+  "background_note": "Dabrafenib 為選擇性 BRAF 激酶抑制劑（靶向 BRAF V600E/V600K 突變），全球已核准用於 BRAF 突變型黑色素瘤、NSCLC 及甲狀腺癌（常與 MEK 抑制劑 Trametinib 併用）。本資料集標示「未上市」推測為新加坡本地藥監狀態，MoA 欄位 [Data Gap]，以下分析以已知藥理為基礎進行評估。",
+  "indications": [
+    {
+      "disease_name": "non-cutaneous melanoma",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Dabrafenib 透過抑制 BRAF V600E/V600K 突變酶活性，阻斷 MAPK/ERK 信號通路增殖驅動。非皮膚性黑色素瘤（包含葡萄膜、黏膜、眼周等亞型）雖 BRAF 突變率較皮膚型低（約 3–15%），但在 BRAF 陽性個體中，機轉連結直接成立。需以伴隨診斷（companion diagnostic）篩選 BRAF V600 突變陽性患者。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02039947",
+          "phase": "Phase 2",
+          "status": "COMPLETED",
+          "enrollment": 127,
+          "relevance_grade": "A",
+          "reasoning": "BRF117277 研究：直接測試 Dabrafenib + Trametinib 於黑色素瘤受試者，完成收案 127 人，為本適應症最核心的支持性試驗。"
+        },
+        {
+          "nct_id": "NCT01619774",
+          "phase": "Phase 2",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "A",
+          "reasoning": "GSK2118436（Dabrafenib）+ GSK1120212（Trametinib）聯合用藥 Phase 2，已完成，提供轉移性黑色素瘤直接療效數據。"
+        },
+        {
+          "nct_id": "NCT01972347",
+          "phase": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 35,
+          "relevance_grade": "A",
+          "reasoning": "新輔助 Dabrafenib + Trametinib 單中心 Phase 2 研究，持續追蹤中，提供手術前縮瘤療效評估數據。"
+        },
+        {
+          "nct_id": "NCT02858921",
+          "phase": "Phase 2",
+          "status": "UNKNOWN",
+          "enrollment": 60,
+          "relevance_grade": "B",
+          "reasoning": "隨機新輔助 Dabrafenib + Trametinib ± Pembrolizumab 研究，多臂設計增加干擾，但仍含 Dabrafenib 直接對照臂。"
+        },
+        {
+          "nct_id": "NCT02977052",
+          "phase": "Phase 2",
+          "status": "UNKNOWN",
+          "enrollment": 186,
+          "relevance_grade": "B",
+          "reasoning": "多中心新輔助最佳組合研究，含 Ipilimumab + Dabrafenib 臂，Dabrafenib 為方案之一但非單獨比較臂。"
+        },
+        {
+          "nct_id": "NCT03149029",
+          "phase": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 16,
+          "relevance_grade": "B",
+          "reasoning": "MAPK 靶向治療縮短療程後接 Pembrolizumab，涉及 MAPK 路徑組合策略，樣本數小（16人）。"
+        },
+        {
+          "nct_id": "NCT02052193",
+          "phase": "Phase 2",
+          "status": "TERMINATED",
+          "enrollment": 8,
+          "relevance_grade": "C",
+          "reasoning": "光敏感性監測研究（安全性觀察性），已提前終止，收案僅 8 人，療效數據有限。"
+        },
+        {
+          "nct_id": "NCT02143050",
+          "phase": "Phase 1/2",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "Dabrafenib + Trametinib + Metformin 三聯組合，因撤回（0 收案）無任何數據，參考價值極低。"
+        },
+        {
+          "nct_id": "NCT06774989",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 66,
+          "relevance_grade": "C",
+          "reasoning": "真實世界藥物監測研究，主藥為 Encorafenib-Binimetinib（非 Dabrafenib），間接提供 BRAF/MEK 抑制劑類別數據。"
+        },
+        {
+          "nct_id": "NCT05370807",
+          "phase": "Phase 2",
+          "status": "UNKNOWN",
+          "enrollment": 48,
+          "relevance_grade": "C",
+          "reasoning": "研究主藥為 Regorafenib（非 Dabrafenib），與本藥物適應症關聯間接，僅代表同疾病不同藥物的競爭性證據。"
+        }
+      ],
+      "literature_analysis": [],
+      "key_caveats": [
+        "非皮膚性黑色素瘤（如葡萄膜型）BRAF 突變率低，需強制 companion diagnostic 篩選",
+        "多數試驗為 Dabrafenib + Trametinib 聯合方案，單藥療效數據有限",
+        "部分試驗狀態 UNKNOWN，需確認實際完成情形"
+      ]
+    },
+    {
+      "disease_name": "eyelid melanoma",
+      "txgnn_score": 0.9841,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "眼瞼黑色素瘤（含結膜型）部分案例攜帶 BRAF V600E 突變，Dabrafenib 透過抑制突變 BRAF 可阻斷腫瘤增殖。PMID 27893585 直接記錄 BRAF/MEK 雙重抑制劑使結膜黑色素瘤消退的個案，機轉連結成立。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27893585",
+          "title": "Conjunctival Melanoma Responsive to Combined Systemic BRAF/MEK Inhibitors",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "最直接相關文獻：記錄 BRAF/MEK 抑制劑（與 Dabrafenib+Trametinib 同類）使結膜黑色素瘤客觀緩解，提供概念驗證依據。"
+        },
+        {
+          "pmid": "31361915",
+          "title": "Two cases of BRAF-mutated, bulbar conjunctival melanoma, and review of the published literature",
+          "year": "2020",
+          "study_type": "Case Series + Literature Review",
+          "tier": 3,
+          "relevance_note": "報告 2 例 BRAF 突變陽性結膜黑色素瘤，說明此亞型的突變特徵，為靶向治療提供分子生物學背景。"
+        },
+        {
+          "pmid": "38590555",
+          "title": "Personalized treatment concepts in extraocular cancer",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_note": "較新的眼外癌個人化治療綜述，可能涵蓋 BRAF 靶向治療策略，但需確認是否直接評估 Dabrafenib。"
+        }
+      ],
+      "key_caveats": [
+        "現有證據均為個案報告或小型回顧，尚無前瞻性試驗",
+        "眼瞼黑色素瘤發生率極低，大型 RCT 難以執行",
+        "需先確認 BRAF V600 突變狀態"
+      ]
+    },
+    {
+      "disease_name": "epithelioid cell melanoma",
+      "txgnn_score": 0.9844,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "上皮樣細胞黑色素瘤（Epithelioid cell melanoma）為形態學亞型，部分案例具 BRAF 突變。文獻描述 BRAF 突變陽性的眼球結膜型病例，Dabrafenib 透過 BRAF 抑制機轉在突變陽性個體中具理論依據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31361915",
+          "title": "Two cases of BRAF-mutated, bulbar conjunctival melanoma, and review of the published literature",
+          "year": "2020",
+          "study_type": "Case Series + Literature Review",
+          "tier": 3,
+          "relevance_note": "涉及上皮樣型形態的結膜黑色素瘤，描述 BRAF 突變特徵及治療策略。"
+        },
+        {
+          "pmid": "31747798",
+          "title": "Lacrimal Sac Malignant Melanoma in 15 Japanese Patients: Case Report and Literature Review",
+          "year": "2019",
+          "study_type": "Case Series + Literature Review",
+          "tier": 3,
+          "relevance_note": "淚囊黑色素瘤 15 例系列研究，探討治療模式，部分病例可能涉及靶向治療，但 Dabrafenib 特異性有待確認。"
+        }
+      ],
+      "key_caveats": [
+        "「Epithelioid cell melanoma」為形態學診斷，非獨立分子亞型，BRAF 突變率需個別確認",
+        "文獻關聯性為間接，尚無直接針對此亞型的靶向治療試驗"
+      ]
+    },
+    {
+      "disease_name": "scrotum melanoma",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "陰囊黑色素瘤屬罕見黏膜/皮膚外黑色素瘤亞型，BRAF 突變可能性存在。PMID 33872566 直接記錄一例轉移性陰囊黑色素瘤對癌基因靶向治療產生反應，提供概念驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33872566",
+          "title": "Oncogene targeted therapy for metastatic primary scrotal melanoma",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "唯一直接針對陰囊黑色素瘤靶向治療的文獻，記錄癌基因導向治療（推測含 BRAF 抑制劑）的療效，為此罕見亞型最關鍵的 Proof-of-Concept 依據。"
+        }
+      ],
+      "key_caveats": [
+        "陰囊黑色素瘤極度罕見，現有證據僅為單一個案報告",
+        "證據強度極弱，需大量累積才可支持正式適應症開發",
+        "必須確認 BRAF 突變狀態後方可考慮使用"
+      ]
+    },
+    {
+      "disease_name": "lentigo maligna melanoma",
+      "txgnn_score": 0.9809,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "惡性雀斑樣黑色素瘤（Lentigo Maligna Melanoma）屬皮膚型黑色素瘤亞型，BRAF 突變率約 10–25%（低於一般 SSM/NM 亞型）。Dabrafenib 在 BRAF 突變型皮膚黑色素瘤中有完整作用機轉，此亞型為其延伸應用的合理子群。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40853557",
+          "title": "Cutaneous Melanoma: A Review",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": 2,
+          "relevance_note": "2025 年最新皮膚黑色素瘤綜述，涵蓋各亞型治療現況（含 BRAF 抑制劑）。應確認是否針對 LMM 亞型有特定論述。"
+        }
+      ],
+      "key_caveats": [
+        "LMM 的 BRAF 突變率低於 SSM，靶向治療受益族群更小",
+        "現有文獻為綜述而非 LMM 亞型專屬研究",
+        "臨床實踐上 Dabrafenib ± Trametinib 可能已用於 BRAF 突變陽性 LMM（off-label），但缺乏系統性數據"
+      ]
+    },
+    {
+      "disease_name": "amelanotic skin melanoma",
+      "txgnn_score": 0.9809,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "無色素性黑色素瘤（Amelanotic Melanoma）在診斷上較困難，但分子特徵與一般黑色素瘤相似，BRAF V600 突變可見。PMID 26710785 分析各黑色素瘤亞型的癌基因突變譜，有助於識別此亞型中可能受益的 BRAF 突變患者群。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40853557",
+          "title": "Cutaneous Melanoma: A Review",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": 2,
+          "relevance_note": "2025 年皮膚黑色素瘤最新綜述，提供治療脈絡，但對 amelanotic 亞型的針對性論述需確認。"
+        },
+        {
+          "pmid": "26710785",
+          "title": "Spectrum of oncogene mutations is different in melanoma subtypes",
+          "year": "2015",
+          "study_type": "Molecular Analysis / Cohort Study",
+          "tier": 2,
+          "relevance_note": "系統性分析各黑色素瘤亞型的癌基因突變頻譜，有助於評估無色素性亞型的 BRAF 突變率與靶向治療潛力，為分子依據文獻。"
+        }
+      ],
+      "key_caveats": [
+        "Amelanotic melanoma 為臨床表現描述，非獨立分子亞型，需基因檢測確認 BRAF 狀態",
+        "文獻未直接測試 Dabrafenib 於此亞型",
+        "2015 年分子分析資料較舊，需參考更新的基因組學研究"
+      ]
+    },
+    {
+      "disease_name": "choroideremia",
+      "txgnn_score": 0.9863,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Choroideremia 由 CHM 基因（編碼 REP-1 蛋白）突變所致，為 X-linked 遺傳性眼病，與 BRAF/MAPK 信號通路無已知關聯。Dabrafenib 的 BRAF 抑制機轉對此遺傳性視網膜退化疾病缺乏合理作用假說。高 TxGNN 分數可能源於知識圖譜中「眼科疾病」類別的拓撲相近性，而非直接生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_caveats": [
+        "無任何臨床或臨床前證據支持",
+        "疾病機轉與藥物靶點無生物學交集",
+        "建議不列入後續研究優先序"
+      ]
+    },
+    {
+      "disease_name": "choroidal dystrophy, central areolar",
+      "txgnn_score": 0.9827,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中央暈輪脈絡膜營養不良（Central Areolar Choroidal Dystrophy, CACD）主要由 PRPH2 基因突變引起，屬遺傳性光感受器退化疾病，與 BRAF 激酶通路無已知關聯。TxGNN 高分推測為圖譜拓撲效應（脈絡膜疾病類別聚集），非生物學機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_caveats": [
+        "無任何臨床或臨床前證據",
+        "遺傳性基因病變，靶向小分子抑制劑無理論基礎",
+        "建議排除此適應症"
+      ]
+    },
+    {
+      "disease_name": "amyotrophic lateral sclerosis",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ALS 以運動神經元進行性退化為特徵，主要涉及 SOD1、TDP-43、FUS、C9orf72 等致病機轉。雖有零星研究探討 MAPK 路徑在神經退化中的角色，但 Dabrafenib 的 BRAF V600 抑制作用對 ALS 缺乏直接機轉假說及任何臨床前支持數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_caveats": [
+        "無臨床試驗或文獻支持",
+        "BRAF 抑制機轉與 ALS 病理生理學之間缺乏已知橋接",
+        "若欲探索神經退化方向，建議先尋求臨床前機轉驗證數據"
+      ]
+    },
+    {
+      "disease_name": "bilateral parasagittal parieto-occipital polymicrogyria",
+      "txgnn_score": 0.9821,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雙側矢旁頂枕多小腦回症（BPPP）為大腦皮質發育異常，通常與 PIK3R2、MTOR、GPR56 等基因突變相關，為神經發育障礙。雖 MAPK 路徑參與腦部皮質發育，但 Dabrafenib（BRAF 體細胞突變抑制劑）對此先天性結構異常無治療理論依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_caveats": [
+        "無任何臨床或基礎研究支持",
+        "此疾病通常在出生時已確立的神經結構異常，靶向療法難以逆轉",
+        "強烈建議排除此適應症，高 TxGNN 分數可能為雜訊"
+      ]
+    }
+  ],
+  "summary_table": {
+    "L2_S2_proceed_with_guardrails": ["non-cutaneous melanoma"],
+    "L4_S1_research_question": [
+      "eyelid melanoma",
+      "epithelioid cell melanoma",
+      "scrotum melanoma",
+      "lentigo maligna melanoma",
+      "amelanotic skin melanoma"
+    ],
+    "L5_S0_hold": [
+      "choroideremia",
+      "choroidal dystrophy central areolar",
+      "amyotrophic lateral sclerosis",
+      "bilateral parasagittal parieto-occipital polymicrogyria"
+    ]
+  },
+  "cross_cutting_observations": {
+    "txgnn_score_reliability": "TxGNN 分數對黑色素瘤亞型（非皮膚性、眼瞼、上皮樣、陰囊、惡性雀斑樣、無色素性）均給予 0.98+ 高分，反映知識圖譜對「黑色素瘤」節點的強關聯，與 Dabrafenib BRAF 機轉高度一致；對於眼科遺傳病與神經退化疾病（Choroideremia、CACD、ALS、Polymicrogyria）的高分則可能代表圖譜拓撲偽陽性，臨床轉譯潛力極低。",
+    "companion_diagnostic_requirement": "所有黑色素瘤適應症均需 BRAF V600 突變伴隨診斷（如 cobas BRAF V600 Mutation Test），未篩選族群的預期療效接近零。",
+    "combination_therapy_note": "臨床試驗數據幾乎均為 Dabrafenib + Trametinib 聯合方案，單藥數據稀少，再利用評估應以聯合用藥框架考量。",
+    "rare_subtypes_strategy": "眼瞼、陰囊、上皮樣等罕見黑色素瘤亞型，建議以 basket trial 或 N-of-1 設計進行探索，傳統 RCT 收案可行性極低。"
+  }
+}
+```
+
+---
+
+## 分析摘要說明
+
+### 🟢 L2 / S2 — 可附條件推進
+**Non-cutaneous melanoma**：具 10 項 Phase 2 試驗（其中 3 項為 Grade A），多項已完成收案，機轉直接對應 BRAF V600 突變。主要條件：**強制 companion diagnostic 篩選**，且多數證據來自聯合方案（+Trametinib）。
+
+### 🟡 L4 / S1 — 研究問題值得探索
+**眼瞼、上皮樣、陰囊、惡性雀斑樣、無色素性黑色素瘤**：均具生物學合理性（BRAF 機轉延伸至各黑色素瘤亞型），但現有證據僅止於個案報告或間接文獻。建議以 **basket trial 設計**統一納入各罕見黑色素瘤亞型，並累積分子分型數據。
+
+### 🔴 L5 / S0 — 暫不推進
+**Choroideremia、CACD、ALS、Polymicrogyria**：高 TxGNN 分數為**圖譜拓撲偽陽性**，疾病機轉與 BRAF 抑制無已知交集，無任何臨床或臨床前支持，建議從後續優先序中排除。

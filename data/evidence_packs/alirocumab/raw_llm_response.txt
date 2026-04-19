@@ -1,0 +1,278 @@
+## Alirocumab (DB09302) 藥物再利用證據分析報告
+
+> ⚠️ **資料說明**：Alirocumab（Praluent®）實為已在 FDA/EMA 核准上市的 PCSK9 單株抗體，主要適應症為家族性高膽固醇血症及心血管風險降低。`original_indications: []` 與 `market_status: 未上市` 反映新加坡區域資料庫的收錄缺口，**非代表藥物實際未上市**，分析時已納入此背景知識。
+
+---
+
+```json
+{
+  "drug": "Alirocumab",
+  "drugbank_id": "DB09302",
+  "analysis_date": "2026-04-05",
+  "data_note": "原始 MoA 欄位為 [Data Gap]，惟 Alirocumab 為 PCSK9 單株抗體（IgG1），已獲 FDA/EMA 核准用於高膽固醇血症。original_indications 空值及 market_status 未上市為新加坡地區資料庫缺漏，分析採用全球已知機轉與臨床證據進行評估。",
+  "indications": [
+    {
+      "disease_name": "ichthyosis, X-linked, without steroid sulfatase deficiency",
+      "txgnn_score": 0.9943,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "X-連鎖魚鱗病（不含類固醇硫酸酯酶缺乏症）的核心病理為 STS 基因外的其他缺陷，涉及膽固醇硫酸鹽（cholesterol sulfate）積聚與表皮屏障異常。Alirocumab 透過 PCSK9 抑制上調肝臟 LDL 受體、降低循環 LDL-C，作用於血漿膽固醇清除，對皮膚膽固醇硫酸鹽局部代謝缺陷無直接藥理學關聯。高 TxGNN 分數推測來自知識圖譜中「膽固醇代謝」超節點（hypernode）的廣義拓樸關聯，缺乏生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["KG 拓樸假陽性高風險", "無生物合理性支撐"]
+    },
+    {
+      "disease_name": "disorder of other vitamins and cofactors metabolism and transport",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PCSK9 抑制的作用路徑高度專一於 LDL 受體循環（LDLR recycling），對維生素（A/D/E/K/B 群等）及輔因子（CoA、FAD、NAD 等）的轉運及代謝酵素系統缺乏任何已知直接調控機轉。此適應症分類過於廣泛，且與 PCSK9 生物學完全不相關。TxGNN 高分為知識圖譜噪訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["適應症分類過廣", "機轉無關", "KG 噪訊"]
+    },
+    {
+      "disease_name": "xanthomatosis (disease)",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "黃色瘤症（xanthomatosis）的病理基礎為膽固醇酯（cholesteryl ester）在巨噬細胞及其他組織中過度沉積，與血漿 LDL-C 長期升高高度相關。Alirocumab 透過 PCSK9 抑制可降低 LDL-C 40-60%，理論上能顯著減緩膽固醇組織沉積速率；已有他汀類藥物縮小黃色瘤的先例支持此路徑。然而，現有 2 篇文獻均為描述伴有黃色瘤的血脂異常案例（植物固醇血症、複合型基因性血脂異常），並非直接評估 alirocumab 治療黃色瘤症的臨床試驗。機轉合理性高（B 級），但臨床直接證據缺失，定位 L4。建議設計針對腱性黃色瘤（tendon xanthoma）患者的 Proof-of-Concept 研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31538826",
+          "title": "Severe Combined Dyslipidemia With a Complex Genetic Basis",
+          "year": "2019",
+          "study_type": "Case Report / Genetic Analysis",
+          "tier": "3",
+          "relevance_to_indication": "描述複雜遺傳性血脂異常患者伴有黃色瘤表現，支持 LDL-C 降低可能改善黃色瘤的間接機轉假說；未評估 PCSK9 抑制劑"
+        },
+        {
+          "pmid": "32713907",
+          "title": "Sitosterolemia Exhibiting Severe Hypercholesterolemia with Tendon Xanthomas Due to Compound Heterozygosity",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_indication": "植物固醇血症伴肌腱黃色瘤案例，記錄高膽固醇血症導致黃色瘤的機轉，為 PCSK9 抑制潛在效益提供間接支持；PCSK9 抑制劑在植物固醇血症的療效有限（因 ABCG5/8 路徑為主），需審慎區分亞型"
+        }
+      ],
+      "risk_flags": ["需區分 xanthomatosis 亞型（cebrotendinous vs. phytosterolemia vs. FH-related）", "植物固醇血症對 PCSK9 抑制反應有限"]
+    },
+    {
+      "disease_name": "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "DHT 後門合成路徑缺陷（backdoor pathway）涉及 AKR1C2/AKR1C4 等酵素異常，影響胎兒外生殖器男性化。雖膽固醇為所有類固醇前驅物，PCSK9 抑制透過降低 LDL-C 可能間接影響腎上腺/性腺膽固醇供應，但此機轉方向（降低膽固醇）與此疾病的治療需求（補充或修正類固醇合成）完全相悖。高 TxGNN 分數為膽固醇代謝廣義節點的假陽性拓樸關聯，臨床上不具意義。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機轉方向相悖（降 LDL vs. 需要足夠固醇前驅物）", "KG 假陽性"]
+    },
+    {
+      "disease_name": "cholesterol catabolic process disease",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Alirocumab 為抗 PCSK9 單株抗體（IgG1κ），與 PCSK9 結合後阻止其與肝細胞表面 LDL 受體結合，從而防止 LDL 受體降解（lysosomal degradation），顯著上調肝臟 LDL 受體密度（可增加 2-4 倍），使血漿 LDL-C 降低 40-60%。此機轉與「膽固醇分解代謝疾病」（cholesterol catabolic process disease）的核心病理生理直接契合——無論是家族性高膽固醇血症（FH，LDLR/ApoB/PCSK9 功能獲得性突變）、繼發性血脂異常（HIV 感染、代謝症候群等所致），或其他 LDL 清除受損疾病，均可透過 PCSK9 抑制恢復 LDL 受體功能。現有 1 項已完成 Phase 3 臨床試驗及 19 篇（提供 10 篇）高品質文獻，包含系統性回顧與機轉研究，構成 L2 證據強度。",
+      "guardrails": [
+        "新加坡地區應確認本地藥政審查狀態（Alirocumab 全球已於 FDA/EMA 核准，建議優先確認 HSA 申請狀態）",
+        "HIV 患者使用需評估與抗病毒藥物的相互作用（EPIC-HIV 試驗已初步評估安全性）",
+        "純合子 FH（HoFH）患者效果有限（因 LDLR 完全缺失），需搭配其他療法",
+        "需排除繼發性高膽固醇血症的可逆原因（甲狀腺功能低下、腎病症候群等）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03207945",
+          "title": "Effect of PCSK9 Inhibition on Cardiovascular Risk in Treated HIV Infection (EPIC-HIV Study)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 118,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 已完成試驗，直接評估 PCSK9 抑制劑（alirocumab）在接受 ART 治療的 HIV 感染者中的心血管風險及血脂改善效果。HIV 相關血脂異常（HIV-associated dyslipidemia）為膽固醇分解代謝受損的重要亞型，機轉契合度高。試驗設計聚焦於 HIV 特定族群而非一般性「膽固醇分解代謝疾病」，且樣本數偏小（n=118），故評為 B 級（間接但高度相關）。試驗結果可支持在 HIV 合併血脂異常族群推進 S3 建議。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36739653",
+          "title": "PCSK9 inhibitors and reduction in cardiovascular events: Current evidence and future perspectives",
+          "year": "2023",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "note": "彙整 PCSK9 抑制劑大型 RCT（ODYSSEY OUTCOMES, FOURIER 等）的心血管事件降低數據"
+        },
+        {
+          "pmid": "36411665",
+          "title": "Safety of PCSK9 inhibitors",
+          "year": "2022",
+          "study_type": "Systematic Review / Safety Analysis",
+          "tier": "1",
+          "note": "系統性安全性分析，涵蓋大規模試驗的不良事件數據"
+        },
+        {
+          "pmid": "39751968",
+          "title": "Homozygous Familial Hypercholesterolemia Treatment: New Developments",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "HoFH 最新治療策略，含 PCSK9 抑制劑適用情境（部分殘餘 LDLR 活性者有效）"
+        },
+        {
+          "pmid": "36422206",
+          "title": "Familial Hypercholesterolemia and Its Current Diagnostics and Treatment Possibilities",
+          "year": "2022",
+          "study_type": "Literature Review",
+          "tier": "2",
+          "note": "FH 診斷與治療全面綜述，PCSK9 抑制劑為核心治療選項"
+        },
+        {
+          "pmid": "37686091",
+          "title": "Advances in Treatment of Dyslipidemia",
+          "year": "2023",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "血脂異常治療進展綜述，涵蓋 PCSK9 抑制劑在多種膽固醇代謝疾病中的角色"
+        },
+        {
+          "pmid": "38277255",
+          "title": "PCSK9-directed therapies: an update",
+          "year": "2024",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "PCSK9 靶向治療最新進展，含小分子抑制劑、siRNA、疫苗等新興療法比較"
+        },
+        {
+          "pmid": "38185721",
+          "title": "Targeting proprotein convertase subtilisin/kexin type 9 (PCSK9): from bench to bedside",
+          "year": "2024",
+          "study_type": "Translational Review",
+          "tier": "2",
+          "note": "從基礎科學到臨床轉譯的完整路徑分析"
+        },
+        {
+          "pmid": "34070931",
+          "title": "PCSK9 Biology and Its Role in Atherothrombosis",
+          "year": "2021",
+          "study_type": "Mechanistic Review",
+          "tier": "3",
+          "note": "PCSK9 生物學深度機轉分析，包含 LDLR 降解路徑、pleiotropic effects"
+        },
+        {
+          "pmid": "39947256",
+          "title": "Therapeutic PCSK9 targeting: Inside versus outside the hepatocyte",
+          "year": "2025",
+          "study_type": "Mechanistic Review",
+          "tier": "3",
+          "note": "肝細胞內外 PCSK9 靶向的機轉差異，探討肝外作用（血管、腎臟、神經）"
+        },
+        {
+          "pmid": "40911366",
+          "title": "The evolving landscape of targets for lipid lowering",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "脂質降低靶點全景綜述，PCSK9 作為核心靶點與新興靶點（ANGPTL3、Lp(a) 等）比較"
+        }
+      ]
+    },
+    {
+      "disease_name": "46,XY disorder of sex development due to a cholesterol synthesis defect",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病源於膽固醇生合成酵素缺陷（如 DHCR7 缺陷導致 Smith-Lemli-Opitz 症候群、CYP51A1 缺陷等），影響性腺發育所需膽固醇供應。Alirocumab 作用方向為促進膽固醇清除（分解代謝↑），與此疾病所需之保護/補充內源性膽固醇合成能力的治療方向相悖，理論上有可能加重膽固醇缺乏。高 TxGNN 分數為知識圖譜膽固醇相關節點的方向性誤判（direction-agnostic KG）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機轉方向相悖（促膽固醇清除 vs. 需補充膽固醇合成）", "用藥安全顧慮"]
+    },
+    {
+      "disease_name": "dappled diaphyseal dysplasia",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "斑點狀骨幹發育不良（Dappled diaphyseal dysplasia）為極罕見骨骼疾病，目前分子機轉尚未完全闡明。與 PCSK9/LDL 受體軸缺乏任何已知病理生理關聯。TxGNN 評分可能反映知識圖譜稀疏區域的邊緣節點雜訊（edge noise in sparse KG region）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見疾病，KG 訓練資料不足", "高假陽性風險"]
+    },
+    {
+      "disease_name": "neutral lipid storage disease",
+      "txgnn_score": 0.9929,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中性脂質儲積症（NLSD）由 ATGL（PNPLA2）或 CGI-58（ABHD5）缺陷引起，導致三酸甘油酯（TG）在多器官積聚，分為 NLSD-M（肌病型）和 NLSD-I（魚鱗病型）。Alirocumab 的靶點 PCSK9 主要調控 LDL-C（膽固醇脂蛋白），對 TG 水解酵素缺陷及 TG 儲積路徑缺乏直接藥理作用。兩者代謝路徑交集極小，高 TxGNN 分數為廣義脂質代謝超節點的假性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["TG vs. 膽固醇代謝路徑混淆", "KG 超節點假陽性"]
+    },
+    {
+      "disease_name": "3-hydroxyacyl-CoA dehydrogenase deficiency",
+      "txgnn_score": 0.9929,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "3-羥醯基輔酶A脫氫酶（HADH/SCHAD）缺乏症為粒線體脂肪酸β-氧化（FAO）缺陷，影響中短鏈脂肪酸代謝，臨床表現為低血糖、高胰島素血症及肝臟損傷。此疾病的分子路徑（粒線體 FAO）與 Alirocumab 的作用路徑（肝細胞表面 LDLR 循環 → 血漿 LDL-C 清除）處於完全不同的細胞生化隔室，無藥理學交集。高 TxGNN 分數為 KG 中脂質代謝廣義節點的誤相關（non-specific lipid metabolism node overlap）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["粒線體 FAO vs. 血漿 LDL 路徑完全不同", "罕見病 KG 訓練偏差"]
+    },
+    {
+      "disease_name": "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "SPOAN 相關疾病群（痙攣性截癱-視神經萎縮-神經病變）為遺傳性神經退化性疾病，部分亞型（如 SPG5/CYP7B1 缺陷）涉及氧固醇（oxysterol）蓄積，與膽固醇代謝有間接關聯。雖有研究顯示 PCSK9 在神經系統有 pleiotropic 作用（如 NMDAR 降解、神經保護），但目前尚無 alirocumab 用於任何神經退化性疾病的臨床試驗或案例報告。高 TxGNN 分數可能捕捉到 SPG5 與膽固醇代謝的間接知識圖譜關聯，但尚未達到可進入臨床開發的證據門檻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["血腦屏障穿透問題（IgG 單株抗體）", "神經系統 PCSK9 作用機轉待確立", "SPG5 為可行研究假說但需機轉驗證"]
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 1,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S3_proceed": 1,
+      "S2_feasibility": 0,
+      "S1_safety": 1,
+      "S0_hold": 8
+    },
+    "key_finding": "Alirocumab 在本批次 TxGNN 預測適應症中，僅『cholesterol catabolic process disease』具有 L2 等級的臨床試驗與文獻支持（1 項 Phase 3 完成試驗 + 19 篇文獻），建議 Proceed with Guardrails。『xanthomatosis』具備 L4 間接證據，具機轉合理性，可作為後續研究問題。其餘 8 個適應症均為 L5，為 KG 拓樸假陽性，建議 Hold。",
+    "systemic_concern": "本批次 10 個適應症中 8 個為 L5，顯示 TxGNN 對 Alirocumab 的高分預測（0.993-0.994 分段集中）可能源自知識圖譜中膽固醇代謝超節點（cholesterol metabolism hypernode）的廣義拓樸效應，而非特異性疾病機轉預測。建議在後處理階段加入機轉相關性過濾器（mechanistic plausibility filter）以降低假陽性率。"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+| 疾病名稱 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|---------|-----------|---------|---------|------|
+| cholesterol catabolic process disease | 0.9936 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| xanthomatosis (disease) | 0.9937 | L4 | S1 | 🔬 Research Question |
+| ichthyosis, X-linked | 0.9943 | L5 | S0 | ❌ Hold |
+| disorder of vitamins/cofactors metabolism | 0.9941 | L5 | S0 | ❌ Hold |
+| 46,XY DSD (DHT backdoor) | 0.9937 | L5 | S0 | ❌ Hold |
+| 46,XY DSD (cholesterol synthesis) | 0.9935 | L5 | S0 | ❌ Hold |
+| dappled diaphyseal dysplasia | 0.9930 | L5 | S0 | ❌ Hold |
+| neutral lipid storage disease | 0.9929 | L5 | S0 | ❌ Hold |
+| 3-hydroxyacyl-CoA dehydrogenase deficiency | 0.9929 | L5 | S0 | ❌ Hold |
+| SPOAN-related disorder | 0.9926 | L5 | S0 | ❌ Hold |
+
+### 🔍 系統性問題警示
+
+> **KG 超節點效應（Hypernode Effect）**：本批次 10 個預測分數集中於 0.993–0.994 窄區間，且 8/10 為 L5，強烈暗示 TxGNN 預測分數受「膽固醇代謝」知識圖譜超節點驅動，產生系統性假陽性。建議在評分後處理流程中加入 **機轉相關性過濾器**（mechanistic plausibility filter）與 **疾病路徑特異性評分**（pathway specificity score），以提升預測精準度。

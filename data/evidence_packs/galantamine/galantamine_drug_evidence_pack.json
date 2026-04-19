@@ -1,0 +1,1185 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00674-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Galantamine",
+    "drugbank_id": "DB00674",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "psychogenic movement disorders",
+      "txgnn": {
+        "score": 0.9989504814147948,
+        "rank": 2077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "心因性運動障礙主要由心理/功能性機轉驅動，非膽鹼能系統直接缺損所致。AChEI 無合理機轉介入路徑，高分來自 KG 圖結構鄰近性，非生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "chronic tic disorder",
+      "txgnn": {
+        "score": 0.9988822340965272,
+        "rank": 2205
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7375270",
+            "title": "[Etiology, pathogenesis and treatment of tics in children].",
+            "authors": [
+              "Kozlova T A"
+            ],
+            "journal": "Pediatriia",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "Narrative Review / Case Series (推測)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抽動症與多巴胺-膽鹼能迴路失衡有部分關聯，膽鹼能強化理論上可調節基底核輸出，但現有文獻極度匱乏，唯一文獻來自 1980 年代（PMID 7375270），為兒童抽動症病理/治療通論，無 Galantamine 特異性內容。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "primary orthostatic tremor",
+      "txgnn": {
+        "score": 0.9988806843757628,
+        "rank": 2208
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性直立性震顫為罕見運動障礙，病因不明（可能涉及腦幹 16 Hz 節律異常），現有治療為 Clonazepam/Gabapentin。AChEI 介入無已發表文獻或試驗支持，KG 預測高分源於疾病分類鄰近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "extrapyramidal and movement disease",
+      "txgnn": {
+        "score": 0.9988489151000975,
+        "rank": 2257
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01012167",
+            "title": "Oxytocin or Galantamine vs. Placebo for the Treatment of Negative Symptoms and Cognitive Impairments in Schizophrenia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 86,
+            "start_date": "2010-02",
+            "completion_date": "2014-07",
+            "brief_summary": "The project is designed to address the following two primary aims:\n\n1. To determine whether adjunctive oxytocin is superior to placebo for the treatment of persistent negative symptoms, as measured by the SANS total score, in people with schizophrenia.\n2. To determine whether adjunctive Galantamine is superior to placebo for the treatment of cognitive impairments, as measured by improvement on a composite neurocognitive score in people with schizophrenia.\n\nThe investigators will also address the",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 完成試驗，提供 Galantamine 在精神科族群的人體安全性與耐受性資料。主要終點為精神分裂症陰性症狀與認知功能，非直接針對 EPS。相關性間接，但提供剂量與安全數據基礎。"
+            }
+          },
+          {
+            "nct_id": "NCT00176423",
+            "title": "Adjunctive Galantamine for Treatment of Cognitive Impairments in Patients With Schizophrenia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 117,
+            "start_date": "2002-05",
+            "completion_date": "2006-12",
+            "brief_summary": "The purpose of this study is to examine whether adjunctive galantamine is effective in the treatment of cognitive impairments in patients with schizophrenia.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 大樣本試驗（n=117），評估 Galantamine 輔助抗精神病藥物治療認知缺損。精神分裂症患者常伴隨 EPS，此試驗可提取 EPS 相關安全性資料，但非主要終點。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40224553",
+            "title": "Movement disorders associated with acetylcholinesterase inhibitors in Alzheimer's dementia: A systematic review.",
+            "authors": [
+              "Rissardo Jamir Pitton",
+              "Caprara Ana Letícia Fornari"
+            ],
+            "journal": "Brain circulation",
+            "year": "2025",
+            "abstract": "Acetylcholinesterase inhibitors (AChEIs) are widely used in Alzheimer's disease (AD). This study aims to systematically review the literature about movement disorders (MDs) associated with AChEIs for AD, which include donepezil, galantamine, rivastigmine, tacrine, and ipidacrine.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20701827",
+            "title": "Effects of adjunct galantamine to risperidone, or haloperidol, in animal models of antipsychotic activity and extrapyramidal side-effect liability: involvement of the cholinergic muscarinic receptor.",
+            "authors": [
+              "Wadenberg Marie-Louise G",
+              "Fjällström Ann-Kristin",
+              "Federley Malin",
+              "Persson Pernilla",
+              "Stenqvist Pia"
+            ],
+            "journal": "The international journal of neuropsychopharmacology",
+            "year": "2011",
+            "abstract": "The acetylcholine esterase inhibitor/cholinergic nicotinic receptor (nAChR) allosteric modulator galantamine (Gal) is used against cognitive impairment in Alzheimer's disease. Negative/cognitive and psychotic symptom improvement in schizophrenia by adjunct Gal to antipsychotic drugs (APDs) has been reported. Cognitive symptoms in schizophrenia may involve brain prefrontal hypo-dopaminergia. Experimental data by others indicate nAChR involvement in animal pro-cognitive effects of Gal. The role of",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17374745",
+            "title": "The acetylcholinesterase inhibitor galantamine inhibits d-amphetamine-induced psychotic-like behavior in Cebus monkeys.",
+            "authors": [
+              "Andersen Maibritt B",
+              "Werge Thomas",
+              "Fink-Jensen Anders"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2007",
+            "abstract": "Cholinergic receptors (AChR) are reported altered in brains from schizophrenic patients, and a growing body of evidence suggests that muscarinic receptor agonists exhibit antipsychotic potential. Centrally acting selective muscarinic receptor agonists are currently not available for clinical use, but acetylcholinesterase (AChE) inhibitors, which indirectly stimulate AChR by blocking the breakdown of acetylcholine by AChE, are widely used in the clinic against Alzheimer's disease. AChE inhibitors",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14676467",
+            "title": "Pharmacologic treatment expectations in the management of dementia with Lewy bodies.",
+            "authors": [
+              "Kaufer Daniel I"
+            ],
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2004",
+            "abstract": "Recently recognized as an entity separate from Alzheimer's disease (AD) and Parkinson's disease with dementia, dementia with Lewy bodies (DLB) is a frequent cause of dementia. It is characterized by progressive cognitive decline and attention deficits, but in contrast to AD, the cognitive changes typically fluctuate over time. Patients with DLB often experience Parkinson-like spontaneous motor features as well as recurrent visual hallucinations. Another frequent finding in DLB is rapid eye movem",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "錐體外徑症狀（EPS）與多巴胺-乙醯膽鹼平衡密切相關。Galantamine 透過 AChEI 作用增強膽鹼能傳遞，理論上可調節基底核多巴胺-ACh 拮抗迴路。已有動物模型支持其抗精神病藥物輔助效應（PMID 20701827, 17374745），Phase 2 臨床試驗提供間接人體安全性資料。然而，2025 年系統性回顧（PMID 40224553）指出 AChEI 在 Alzheimer's 患者中可誘發運動障礙，構成雙向風險訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "benign shuddering attacks",
+      "txgnn": {
+        "score": 0.9988489151000975,
+        "rank": 2258
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "良性顫抖發作為嬰幼兒良性功能性症狀，通常自然緩解，無需藥物介入。缺乏任何 Galantamine 相關臨床或基礎研究，KG 高分源於與抽動/運動障礙分類的圖鄰近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "tremor-nystagmus-duodenal ulcer syndrome",
+      "txgnn": {
+        "score": 0.9988417029380798,
+        "rank": 2266
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為極罕見的多系統遺傳症候群（Richards-Rundle syndrome 等），無 AChEI 介入的生物學合理性或任何臨床資料。症候群包含消化系統（十二指腸潰瘍），需特別評估 AChEI 的消化系統副作用風險（AChEI 可增加胃酸分泌）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "lingual-facial-buccal dyskinesia",
+      "txgnn": {
+        "score": 0.9988219141960144,
+        "rank": 2293
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25575935",
+            "title": "An unsubstantiated conclusion.",
+            "authors": [
+              "Reifler Burton V",
+              "Blazer Dan"
+            ],
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Letter / Commentary (推測)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29553158",
+            "title": "Cholinergic medication for antipsychotic-induced tardive dyskinesia.",
+            "authors": [
+              "Tammenmaa-Aho Irina",
+              "Asher Rosie",
+              "Soares-Weiser Karla",
+              "Bergman Hanna"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "Tardive dyskinesia (TD) remains a troublesome adverse effect of conventional antipsychotic (neuroleptic) medication. It has been proposed that TD could have a component of central cholinergic deficiency. Cholinergic drugs have been used to treat TD.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24402079",
+            "title": "Galantamine reverses scopolamine-induced behavioral alterations in Dugesia tigrina.",
+            "authors": [
+              "Ramakrishnan Latha",
+              "Amatya Christina",
+              "DeSaer Cassie J",
+              "Dalhoff Zachary",
+              "Eggerichs Michael R"
+            ],
+            "journal": "Invertebrate neuroscience : IN",
+            "year": "2014",
+            "abstract": "In planaria (Dugesia tigrina), scopolamine, a nonselective muscarinic receptor antagonist, induced distinct behaviors of attenuated motility and C-like hyperactivity. Planarian locomotor velocity (pLMV) displayed a dose-dependent negative correlation with scopolamine concentrations from 0.001 to 1.0 mM, and a further increase in scopolamine concentration to 2.25 mM did not further decrease pLMV. Planarian hyperactivity counts was dose-dependently increased following pretreatment with scopolamine",
+            "classification": {
+              "study_type": "Animal Study (planaria model)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12611743",
+            "title": "Use of cholinesterase inhibitors in clinical practice: evidence-based recommendations.",
+            "authors": [
+              "Cummings Jeffrey L"
+            ],
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2003",
+            "abstract": "Cholinesterase inhibitors (ChE-Is) are the standard of therapy for treatment of patients with Alzheimer disease (AD) and are the only class of drugs approved by the Food and Drug Administration (FDA) for treatment of this condition. This review provides evidenced-based recommendations for use of ChE-Is in clinical practice. The author searched computerized literature databases of the approved ChE-Is widely used in clinical practice (donepezil, rivastigmine, and galantamine), and extended the rev",
+            "classification": {
+              "study_type": "Evidence-Based Clinical Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12137608",
+            "title": "Cholinergic medication for neuroleptic-induced tardive dyskinesia.",
+            "authors": [
+              "Tammenmaa I A",
+              "McGrath J J",
+              "Sailas E",
+              "Soares-Weiser K"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2002",
+            "abstract": "Tardive dyskinesia remains a troublesome adverse effect of conventional antipsychotic (neuroleptic) medication. It has been proposed that tardive dyskinesia could have a component of central cholinergic deficiency. Cholinergic drugs have been used to treat tardive dyskinesia.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review (older version)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14564129",
+            "title": "Cholinesterase inhibitor therapies and neuropsychiatric manifestations of Alzheimer's disease.",
+            "authors": [
+              "Wynn Zakiya J",
+              "Cummings Jeffrey L"
+            ],
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2004",
+            "abstract": "Neuropsychiatric symptoms (NPS) of Alzheimer's disease (AD) occur throughout the course of AD. Behaviors include mood alterations, psychosis, agitation, and apathy. These symptoms are a major cause of diminished quality of life for both patients and caregivers. Evidence suggests that a cholinergic deficit resulting from a loss of cholinergic neurons is the biological basis of some NPS in AD and related dementias. The basal forebrain nuclei, the primary source of cholinergic projections to the co",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22070157",
+            "title": "Medicinal plants and dementia therapy: herbal hopes for brain aging?",
+            "authors": [
+              "Perry Elaine",
+              "Howes Melanie-Jayne R"
+            ],
+            "journal": "CNS neuroscience & therapeutics",
+            "year": "2011",
+            "abstract": "An escalating \"epidemic\" of diseases like Alzheimer's has not yet been met by effective symptomatic treatments or preventative strategies. Among a few current prescription drugs are cholinesterase inhibitors including galantamine, originating from the snowdrop. Research into ethnobotanicals for memory or cognition has burgeoned in recent years. Based on a multi-faceted review of medicinal plants or phytochemicals, including traditional uses, relevant bioactivities, psychological and clinical evi",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21148081",
+            "title": "Pharmacokinetic and pharmacodynamic properties of cholinesterase inhibitors donepezil, tacrine, and galantamine in aged and young Lister hooded rats.",
+            "authors": [
+              "Goh Catherine W",
+              "Aw Chiu Cheong",
+              "Lee Jasinda H",
+              "Chen Christopher P",
+              "Browne Edward R"
+            ],
+            "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+            "year": "2011",
+            "abstract": "Physiological alterations that may change pharmacological response accompany aging. Pharmacokinetic/pharmacodynamic properties of cholinesterase inhibitors (ChEIs) used in the treatment of Alzheimer's disease, donepezil, tacrine, and galantamine, were investigated in an aged Lister hooded rat model. Intravenous and oral 6-h blood sampling profiles in old (30 months old) and young (7 months old) rats revealed pharmacokinetic changes similar to those in humans with an approximately 40% increase in",
+            "classification": {
+              "study_type": "PK/PD Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24127392",
+            "title": "Cholinesterase inhibitors and Pisa syndrome: a pharmacovigilance study.",
+            "authors": [
+              "Zannas Anthony S",
+              "Okuno Yasushi",
+              "Doraiswamy P Murali"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2014",
+            "abstract": "Case reports suggest a relationship between cholinesterase inhibitors (ChEIs) and Pisa syndrome (PS), also known as pleurothotonus, a form of dystonia, but this relationship has not been systematically examined. Our objective was to estimate the adjusted reporting ratios of PS with donepezil, rivastigmine, and galantamine in the United States Food and Drug Administration (FDA) Adverse Event Reporting System (FAERS) database.",
+            "classification": {
+              "study_type": "Pharmacovigilance Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24969380",
+            "title": "Galantamine versus risperidone for agitation in people with dementia: a randomized, twelve-week, single-center study.",
+            "authors": [
+              "Freund-Levi Yvonne",
+              "Bloniecki Victor",
+              "Auestad Bjørn",
+              "Tysen Bäckström Ann Christine",
+              "Lärksäter Marie"
+            ],
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2014",
+            "abstract": "To examine the effects of galantamine and risperidone on agitation in patients with dementia.",
+            "classification": {
+              "study_type": "Randomized Controlled Trial (單盲 RCT)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25850380",
+            "title": "Interaction between anti-Alzheimer and antipsychotic drugs in modulating extrapyramidal motor disorders in mice.",
+            "authors": [
+              "Shimizu Saki",
+              "Mizuguchi Yuto",
+              "Sobue Akira",
+              "Fujiwara Mai",
+              "Morimoto Tomoki"
+            ],
+            "journal": "Journal of pharmacological sciences",
+            "year": "2015",
+            "abstract": "Antipsychotics are often used in conjunction with anti-Alzheimer drugs to treat the behavioral and psychological symptoms of dementia (BPSD). Here, we examined the effects of cholinesterase inhibitors (ChEIs), donepezil and galantamine, on antipsychotic-induced extrapyramidal side effects (EPS) in mice. The effects of serotonergic agents on the EPS drug interaction were also evaluated. Donepezil (0.3-3 mg/kg) did not induce EPS signs by itself; however, it significantly potentiated bradykinesia ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23897874",
+            "title": "Evidence-based guideline: treatment of tardive syndromes: report of the Guideline Development Subcommittee of the American Academy of Neurology.",
+            "authors": [
+              "Bhidayasiri Roongroj",
+              "Fahn Stanley",
+              "Weiner William J",
+              "Gronseth Gary S",
+              "Sullivan Kelly L"
+            ],
+            "journal": "Neurology",
+            "year": "2013",
+            "abstract": "To make evidence-based recommendations regarding management of tardive syndromes (TDS), including tardive dyskinesias (TDD), by addressing 5 questions: 1) Is withdrawal of dopamine receptor blocking agents (DRBAs) an effective TDS treatment? 2) Does switching from typical to atypical DRBAs reduce TDS symptoms? 3) What is the efficacy of pharmacologic agents in treating TDS? 4) Do patients with TDS benefit from chemodenervation with botulinum toxin? 5) Do patients with TDS benefit from surgical t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15610922",
+            "title": "Systematic review of cholinergic drugs for neuroleptic-induced tardive dyskinesia: a meta-analysis of randomized controlled trials.",
+            "authors": [
+              "Tammenmaa Irina A",
+              "Sailas Eila",
+              "McGrath John J",
+              "Soares-Weiser Karla",
+              "Wahlbeck Kristian"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2004",
+            "abstract": "The authors evaluated the efficacy of cholinergic drugs in the treatment of neuroleptic-induced tardive dyskinesia (TD) by a systematic review of the literature on the following agents: choline, lecithin, physostigmine, tacrine, 7-methoxyacridine, ipidacrine, galantamine, donepezil, rivastigmine, eptastigmine, metrifonate, arecoline, RS 86, xanomeline, cevimeline, deanol, and meclofenoxate. All relevant randomized controlled trials, without any language or year limitations, were obtained from th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24035407",
+            "title": "Galantamine versus risperidone treatment of neuropsychiatric symptoms in patients with probable dementia: an open randomized trial.",
+            "authors": [
+              "Freund-Levi Yvonne",
+              "Jedenius Erik",
+              "Tysen-Bäckström Ann Christine",
+              "Lärksäter Marie",
+              "Wahlund Lars-Olof"
+            ],
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2014",
+            "abstract": "To examine the effects of galantamine and risperidone on neuropsychiatric symptoms in dementia (NPSD) and global function.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25734590",
+            "title": "Cholinesterase inhibitors for rarer dementias associated with neurological conditions.",
+            "authors": [
+              "Li Ying",
+              "Hai Shan",
+              "Zhou Yan",
+              "Dong Bi Rong"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "abstract": "Rarer dementias include Huntington's disease (HD), cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL), frontotemporal dementia (FTD), dementia in multiple sclerosis (MS) and progressive supranuclear palsy (PSP). Cholinesterase inhibitors, including donepezil, galantamine and rivastigmine, are considered to be the first-line medicines for Alzheimer's disease and some other dementias, such as dementia in Parkinson's disease. Cholinesterase inhibito",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17388711",
+            "title": "Treatment of tardive dyskinesia with galantamine: a randomized controlled crossover trial.",
+            "authors": [
+              "Caroff Stanley N",
+              "Walker Patricia",
+              "Campbell Cabrina",
+              "Lorry Alan",
+              "Petro Christopher"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2007",
+            "abstract": "Recent evidence suggests that tar-dive dyskinesia may result from antipsychotic-induced damage to striatal cholinergic neurons. To test whether cholinesterase inhibitors compensate for diminished cholinergic activity, we conducted a 30-week randomized, double-blind, placebo-controlled crossover trial of galantamine in patients with tardive dyskinesia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17633594",
+            "title": "Atypical antipsychotics for the treatment of dementia-related behaviors: an update.",
+            "authors": [
+              "Daiello Lori A"
+            ],
+            "journal": "Medicine and health, Rhode Island",
+            "year": "2007",
+            "abstract": "Atypical antipsychotics will continue to be prescribed for the behavioral symptoms of dementia in the absence of more effective, better tolerated, and safer alternatives. The evidence base, although incomplete, suggests that modest treatment effect sizes are offset by risk of considerable adverse effects. How might this information be best applied to clinical practice? Non-pharmacologic strategies should be implemented in routine clinical practice. Placebo-controlled clinical trials of individua",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15180783",
+            "title": "A case study in the treatment of dementia with Lewy bodies.",
+            "authors": [
+              "Kaufer Daniel I"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "2004",
+            "abstract": "To describe the assessment and treatment of an elderly woman with parkinsonism, progressive memory and cognitive deficits, and visual hallucinations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17374745",
+            "title": "The acetylcholinesterase inhibitor galantamine inhibits d-amphetamine-induced psychotic-like behavior in Cebus monkeys.",
+            "authors": [
+              "Andersen Maibritt B",
+              "Werge Thomas",
+              "Fink-Jensen Anders"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2007",
+            "abstract": "Cholinergic receptors (AChR) are reported altered in brains from schizophrenic patients, and a growing body of evidence suggests that muscarinic receptor agonists exhibit antipsychotic potential. Centrally acting selective muscarinic receptor agonists are currently not available for clinical use, but acetylcholinesterase (AChE) inhibitors, which indirectly stimulate AChR by blocking the breakdown of acetylcholine by AChE, are widely used in the clinic against Alzheimer's disease. AChE inhibitors",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18938211",
+            "title": "Galantamine reduces striatal degeneration in 3-nitropropionic acid model of Huntington's disease.",
+            "authors": [
+              "Park Jung-Eun",
+              "Lee Soon-Tae",
+              "Im Woo-Seok",
+              "Chu Kon",
+              "Kim Manho"
+            ],
+            "journal": "Neuroscience letters",
+            "year": "2008",
+            "abstract": "The acetylcholinesterase inhibitor (AChEI) galantamine is currently used to treat mild to moderate Alzheimer's disease (AD), and it has been suggested to have several neuroprotective effects. To investigate the potential application of this drug to the treatment of Huntington's disease, we examined whether galantamine can reduce the striatal degeneration induced by the mitochondrial toxin, 3-nitropropionic acid (3NP). 3NP (63 mg/kg/day) was delivered to Lewis rats by osmotic pumps for 5 consecut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "口-顏面-頰部遲發性運動障礙（Tardive Dyskinesia, TD）與長期抗精神病藥物導致的紋狀體多巴胺受體超敏感相關，多巴胺-乙醯膽鹼失衡是核心病理。膽鹼能藥物（包括 AChEI）理論上可透過恢復 ACh/DA 平衡改善 TD。Cochrane 系統性回顧（PMID 29553158, 12137608）評估了「膽鹼能藥物」類別對 TD 的效果，但 Galantamine 特異性試驗資料仍缺乏。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "benign paroxysmal tonic upgaze of childhood with ataxia",
+      "txgnn": {
+        "score": 0.9988113641738892,
+        "rank": 2314
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "良性陣發性眼球上轉伴共濟失調（BPTU）為罕見兒科自限性疾病，成因可能涉及基底核-腦幹連結發育異常。無任何 AChEI 介入理由或相關文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "acute intermittent porphyria",
+      "txgnn": {
+        "score": 0.9971011281013488,
+        "rank": 4480
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性間歇性紫質症為血基質合成酵素缺損（PBGD）的代謝性遺傳疾病，與 AChEI 藥理機轉無交集。AchEI 誘發的膽鹼能毒性（噁心、嘔吐、腹絞痛）可能誤診為 AIP 急性發作或加重病情。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "porphyria",
+      "txgnn": {
+        "score": 0.9843761920928956,
+        "rank": 14579
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "紫質症（廣義）包含多種血基質代謝疾病，與 AChEI 藥理完全不相關。此為 KG 中與 AIP 的疾病分類鄰近性所導致的預測延伸，分數已較低（0.984）反映圖距離增加。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "psychogenic movement disorders"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "psychogenic movement disorders"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "psychogenic movement disorders"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "chronic tic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "chronic tic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "chronic tic disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "primary orthostatic tremor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "primary orthostatic tremor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "primary orthostatic tremor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "extrapyramidal and movement disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "benign shuddering attacks"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "benign shuddering attacks"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "benign shuddering attacks"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "tremor-nystagmus-duodenal ulcer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "lingual-facial-buccal dyskinesia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "lingual-facial-buccal dyskinesia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "lingual-facial-buccal dyskinesia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "benign paroxysmal tonic upgaze of childhood with ataxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "acute intermittent porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "acute intermittent porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "acute intermittent porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Galantamine",
+        "disease": "porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

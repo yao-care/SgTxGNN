@@ -1,0 +1,246 @@
+```json
+{
+  "drug": "Diclofenac",
+  "drugbank_id": "DB00586",
+  "analysis_date": "2026-04-04",
+  "data_notes": [
+    "市場狀態標記『未上市』與 Diclofenac 全球廣泛使用現況不符，疑為本地資料登錄缺漏，建議核查 SG 藥監資料",
+    "original_moa 標記 [Data Gap]，但 Diclofenac 為已知 COX-1/COX-2 抑制劑，本分析以文獻已知機轉補充",
+    "ddi_count=0 異常，Diclofenac 已知具多項交互作用，建議資料管線覆核"
+  ],
+  "indications": [
+    {
+      "disease_name": "juvenile idiopathic arthritis",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Diclofenac 抑制 COX-1/COX-2 → 前列腺素（PGE2）合成下降 → 減少滑膜炎症介質釋放 → 緩解關節腫痛。JIA 病理核心為持續性滑膜炎，NSAID 抗炎機轉與適應症直接相符。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00688545",
+          "relevance_grade": "B",
+          "reasoning": "SINCERE 登記研究（觀察性），涵蓋 NSAIDs（含 Diclofenac）於特發性關節炎之安全性，雖已終止（TERMINATED），但提供 NSAID 類別在此族群的真實世界安全訊號；非 Diclofenac 單獨介入，降低直接性"
+        },
+        {
+          "nct_id": "NCT05871086",
+          "relevance_grade": "C",
+          "reasoning": "探討輔酶 Q10 補充對 JIA 臨床結果的影響，Diclofenac 非主要介入藥物；狀態 UNKNOWN，資料可信度存疑；僅提供 JIA 族群背景資訊，不具直接證據價值"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3052965",
+          "study_type": "Crossover RCT",
+          "tier": "1",
+          "note": "直接比較 Diclofenac vs. Naproxen vs. Tolmetin 於血清陰性幼年型慢性關節炎，1988年，最高直接性"
+        },
+        {
+          "pmid": "6361986",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "note": "Diclofenac sodium 治療幼年型類風濕關節炎之臨床研究，1983年，直接介入證據"
+        },
+        {
+          "pmid": "1884567",
+          "study_type": "PK/PD Study",
+          "tier": "2",
+          "note": "幼年型關節炎藥物臨床藥理動力學，含 Diclofenac 劑量參考資料"
+        },
+        {
+          "pmid": "8422565",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "兒科風濕疾病 NSAID 使用系統回顧，涵蓋 Diclofenac 適應族群"
+        },
+        {
+          "pmid": "10756785",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "幼年型慢性關節炎一線抗風濕藥物療效分析，含 NSAID 類別證據"
+        },
+        {
+          "pmid": "11735667",
+          "study_type": "Comparative Review",
+          "tier": "2",
+          "note": "兒童 NSAID 風險效益比較（vs. Paracetamol），安全性參考"
+        },
+        {
+          "pmid": "15456329",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Nabumetone 於 OA/RA 管理評估，間接 NSAID 類別比較資訊"
+        },
+        {
+          "pmid": "21175420",
+          "study_type": "Technical Review",
+          "tier": "3",
+          "note": "NSAID 微囊包覆技術，藥物遞送間接資訊"
+        },
+        {
+          "pmid": "387372",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Naproxen 藥理與療效回顧，類別競爭藥物背景"
+        },
+        {
+          "pmid": "37144854",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "JIA 呈現瀰漫性肺泡出血案例系列，疾病表型描述，與 Diclofenac 無直接關聯"
+        }
+      ],
+      "evidence_summary": "具備 2 篇 Tier-1 直接臨床研究（1 個交叉 RCT + 1 個介入性試驗），6 篇 Tier-2 支持性文獻，但均發表於 1983–2004 年，現代 RCT 缺失。機轉明確，安全性資料豐富，建議在兒科劑量監控下推進。"
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9969,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上：PGD2 抑制毛囊生長；Diclofenac 抑制 COX-2 可降低 PGD2 水平，或具微弱促毛髮生長作用。但 Hypotrichosis simplex 為 LPAR6/LIPH/KRT 等基因突變所致之遺傳性脫髮，與前列腺素途徑關聯極弱，無臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，臨床試驗與文獻均為零，遺傳疾病機轉與 COX 抑制關聯性極低。"
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Hunter-Thompson 型肢端中肢發育不良為 CDMP1（GDF5）基因突變，導致軟骨形成異常。Diclofenac 抑制 COX 無法修正 BMP 信號缺陷，僅可能提供疼痛症狀緩解，不具疾病修飾潛力。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無任何臨床或文獻支持。基因性骨骼發育異常與 NSAID 機轉無直接關聯。"
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pseudoachondroplasia 為 COMP 基因突變導致軟骨寡聚體基質蛋白異常堆積，引發 ER 壓力與軟骨細胞凋亡。COX 抑制無法修正 COMP 蛋白錯誤折疊，缺乏疾病相關機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無任何臨床或文獻支持。"
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brachyolmia（短軀型侏儒症）涉及 TRPV4、PAPSS2 或 SOX9 相關基因突變，脊椎椎體扁平為主要特徵。NSAIDs 可緩解背痛症狀，但對骨骼結構異常無疾病修飾作用，機轉關聯極為間接。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無臨床或文獻支持。"
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群結合脊椎骨骼發育異常與釉質發育不全，目前致病基因尚未完全釐清（部分與 FAM20A 相關）。無已知機轉連結 COX 抑制與牙齒釉質或脊椎骨骼發育。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無臨床或文獻支持。極罕見症候群，文獻基礎本身極少。"
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛症合併粟粒疹為遺傳性皮膚附件發育異常，涉及 KRT 或 HR 基因突變。與前列腺素代謝途徑無已知關聯，COX 抑制缺乏理論機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無任何臨床或文獻支持。"
+    },
+    {
+      "disease_name": "diffuse alopecia areata",
+      "txgnn_score": 0.9957,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫性圓禿為 CD8+ T 細胞攻擊毛囊免疫豁免區所致。PGD2（COX-2 產物）已知抑制毛囊生長，理論上 COX 抑制劑可降低 PGD2 促進毛髮再生；但此機轉在雄性禿研究較有支持，圓禿的免疫機轉以 JAK-STAT 途徑為主，NSAIDs 介入效益未知且無任何臨床紀錄。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無臨床試驗或文獻支持。前列腺素-毛囊理論具微弱間接關聯，但不足以支撐推進決策。"
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌肉硬化症為進展性肌纖維化疾病，部分與 SEPN1/RYR1 相關。COX-2 在纖維化過程中具調節作用，理論上 NSAIDs 可能減緩纖維化進程，但此機轉高度推測，無任何肌肉硬化症相關臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無臨床試驗或文獻支持。極罕見疾病，研究資源匱乏。"
+    },
+    {
+      "disease_name": "WHIM syndrome",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "WHIM 症候群（疣-低丙球蛋白血症-感染-Myelokathexis）為 CXCR4 gain-of-function 突變，導致嗜中性球骨髓滯留與免疫缺陷。COX 抑制與 CXCR4 信號通路無直接關聯，機轉連結極度薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "僅 TxGNN AI 預測，無任何臨床或文獻支持。CXCR4 特異性靶向藥物（如 Plerixafor）才是此症的潛在治療方向。"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority": [
+      {
+        "disease_name": "juvenile idiopathic arthritis",
+        "rationale": "唯一具備直接臨床證據的適應症，含交叉 RCT（1988）與介入性臨床研究（1983），機轉明確，可進入 S2 臨床可行性評估",
+        "next_steps": [
+          "搜尋 2000 年後現代化 JIA NSAID 比較試驗",
+          "評估新加坡兒科風濕科臨床實踐指引中 Diclofenac 地位",
+          "確認 SG 兒科劑量核准狀態與市場供應情況"
+        ]
+      }
+    ],
+    "theoretical_only": [
+      "diffuse alopecia areata（前列腺素-毛囊軸，高度推測）",
+      "myosclerosis（COX-2 纖維化調節，高度推測）"
+    ],
+    "no_mechanistic_basis": [
+      "acromesomelic dysplasia, Hunter-Thompson type",
+      "pseudoachondroplasia",
+      "brachyolmia",
+      "brachyolmia-amelogenesis imperfecta syndrome",
+      "hypotrichosis simplex of the scalp",
+      "congenital hypotrichosis milia",
+      "WHIM syndrome"
+    ],
+    "data_quality_flags": [
+      "market_status『未上市』與 Diclofenac 全球使用現況矛盾，影響 S1 安全性初評",
+      "original_moa [Data Gap] 為資料管線問題，非藥物本身資料缺失",
+      "文獻證據多集中於 1980–1990 年代，現代 PICO 標準化試驗缺乏"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **juvenile idiopathic arthritis** | 0.9925 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| diffuse alopecia areata | 0.9957 | L5 | S0 | ⛔ Hold |
+| myosclerosis | 0.9960 | L5 | S0 | ⛔ Hold |
+| hypotrichosis simplex of the scalp | 0.9969 | L5 | S0 | ⛔ Hold |
+| congenital hypotrichosis milia | 0.9960 | L5 | S0 | ⛔ Hold |
+| acromesomelic dysplasia, Hunter-Thompson | 0.9967 | L5 | S0 | ⛔ Hold |
+| pseudoachondroplasia | 0.9966 | L5 | S0 | ⛔ Hold |
+| brachyolmia | 0.9965 | L5 | S0 | ⛔ Hold |
+| brachyolmia-amelogenesis imperfecta | 0.9963 | L5 | S0 | ⛔ Hold |
+| WHIM syndrome | 0.9916 | L5 | S0 | ⛔ Hold |
+
+**關鍵發現**：TxGNN 高分（>0.99）並不等同於臨床可行性——9 個高分預測因無支持性文獻而停留於 L5/S0。**JIA 是唯一具備直接 RCT 級歷史證據的適應症**，應優先推進臨床可行性評估，同時釐清新加坡本地藥政狀態異常。

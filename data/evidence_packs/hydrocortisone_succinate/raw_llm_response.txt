@@ -1,0 +1,210 @@
+## 藥物再利用證據分析：Hydrocortisone succinate (DB14545)
+
+**⚠️ 關鍵安全警示**：跨適應症審閱發現，文獻中有多篇報告顯示本藥物在氣喘患者（尤其阿斯匹林敏感型）中引發**支氣管痙攣**，琥珀酸酯（succinate）基團為可疑觸發因素（SUCNR1/GPR91 受體介導），此安全信號對所有氣喘適應症之評估具決定性影響。
+
+---
+
+```json
+{
+  "drug": "Hydrocortisone succinate",
+  "drugbank_id": "DB14545",
+  "analysis_date": "2026-04-04",
+  "safety_flag": "⚠️ Succinate 基團可能經 SUCNR1 受體介導支氣管痙攣（多篇個案報告，阿斯匹林敏感型氣喘），構成氣喘相關適應症之優先安全疑慮",
+  "indications": [
+    {
+      "disease_name": "allergic asthma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "糖皮質醇透過 GR 受體拮抗 NF-κB、抑制 IgE 介導炎症，理論支持過敏性氣喘治療；然 hydrocortisone succinate 之琥珀酸酯基團可激活肥大細胞 SUCNR1 受體，在阿斯匹林敏感型患者中引發非 IgE 介導之支氣管收縮，構成矛盾安全風險，藥物特異性危害超越藥物類效益。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05607901",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 完成，Tacrolimus vs Hydrocortisone 比較，適應症推測為異位性皮膚炎而非直接治療過敏性氣喘本身。間接支持類固醇在過敏疾病之應用，惟無法直接推論氣喘療效，且本藥未為主要研究藥物。"
+        },
+        {
+          "nct_id": "NCT03742414",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 SEAL 研究（n=398），目標為阻斷『過敏進行曲』（濕疹→氣喘），以皮膚屏障增強為主要介入，Hydrocortisone 為輔助成分。對過敏性氣喘直接治療效益無可推論，但顯示本藥物在過敏疾病預防架構中的角色。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12668895",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "討論交叉反應藥物，提示類固醇結構類似物間過敏風險，屬不良反應文獻，非治療效益證據"
+        },
+        {
+          "pmid": "1938768",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "記錄皮質醇類系統性過敏反應，屬安全警示文獻，不支持再利用"
+        },
+        {
+          "pmid": "15226693",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 氣喘患者使用 hydrocortisone hemisuccinate 發生皮膚過敏反應，安全警示"
+        },
+        {
+          "pmid": "8230880",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 靜脈 hydrocortisone sodium hemisuccinate 致阿斯匹林敏感型氣喘患者支氣管痙攣，重大安全信號"
+        }
+      ]
+    },
+    {
+      "disease_name": "intrinsic asthma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "內源性氣喘（非過敏性/阿斯匹林惡化型）與花生四烯酸代謝異常相關，對 NSAIDs 及某些添加劑敏感。兩篇直接文獻均顯示 hydrocortisone succinate 可在此族群引發嚴重支氣管痙攣，機轉可能為 SUCNR1 介導或嗜鹼性/肥大細胞直接激活，安全信號明確，無任何效益性證據對抗此風險。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04278404",
+          "relevance_grade": "C",
+          "reasoning": "大型 PK/PD 安全性研究（n=5000），涵蓋多種未充分研究藥物，非針對 intrinsic asthma 的療效試驗。Phase N/A 分類顯示為藥理學研究，不提供適應症再利用支持。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7264102",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 1981 年：靜脈 hydrocortisone succinate 致阿斯匹林敏感型氣喘支氣管痙攣，最早安全警示"
+        },
+        {
+          "pmid": "2214430",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 1990 年：阿斯匹林敏感型氣喘患者嚴重支氣管反應，再次確認安全疑慮，10 年重複信號"
+        }
+      ]
+    },
+    {
+      "disease_name": "gout",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "皮質醇類固醇可抑制嗜中性球浸潤及 IL-1β/NLRP3 信號通路，理論上可緩解急性痛風發作；然 hydrocortisone succinate 特異性應用於痛風完全無直接臨床證據。唯一相關試驗研究 methotrexate（不同藥物），且樣本量極小（n=14）。現有預測純屬 TxGNN 知識圖譜推論，無臨床驗證基礎。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03635957",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 完成，主要介入藥物為 Methotrexate，n=14 樣本極小（可能為難治性痛風），與 hydrocortisone succinate 毫無關聯，不提供再利用支持，相關性評級為最低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "靜脈類固醇（dexamethasone）有降低偏頭痛復發率之 RCT 證據，屬藥物類效應（class effect）；hydrocortisone succinate 本身無任何直接臨床試驗或文獻，TxGNN 預測來自知識圖譜藥物-疾病相似性，機轉類推缺乏特異性驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹先兆偏頭痛為罕見亞型，涉及後腦循環的皮質擴散性抑制（CSD）。無任何 hydrocortisone succinate 直接或間接臨床依據，且此亞型多種血管活性藥物（triptans）為相對禁忌，安全性評估更為複雜。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "uterine polyp",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮內膜息肉與雌激素驅動之局部增生相關。雖 GR 受體在子宮內膜有表現，且皮質醇可拮抗雌激素信號，但無已知臨床切入點；可能存在 HPA 軸抑制風險，無任何直接或間接研究支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polyp of vocal cord",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "聲帶息肉主要由機械性創傷引起，皮質醇可減少局部水腫，惟全身性 hydrocortisone succinate 靜脈製劑對聲帶息肉無任何臨床證據，現行標準治療為顯微手術或音聲治療。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polyp of middle ear",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中耳息肉通常繼發於慢性中耳炎之慢性炎症，局部類固醇滴耳液有一定應用，但 hydrocortisone succinate 靜脈製劑對此適應症無直接臨床依據，給藥途徑亦不適配局部病灶治療需求。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "epulis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "牙齦瘤為牙齦局部炎症性或纖維性增生，皮質醇透過 GR 受體抑制 NF-κB 炎症通路、減少肉芽組織生成，機轉合理。1962 年文獻直接記載 hydrocortisone hemisuccinate 局部應用於口腔黏膜潰瘍/大皰性病變有效；2018 年研究開發含本藥之黏膜貼片遞送系統，驗證局部給藥可行性。雖證據古老，但藥物-疾病機轉路徑合理，局部製劑安全性高，有現代化臨床研究之空間。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28832260",
+          "study_type": "Preclinical/Formulation",
+          "tier": "3",
+          "note": "2018 年：殼聚醣/明膠/角蛋白複合含 hydrocortisone sodium succinate 口腔貼片研發，驗證局部黏膜遞送系統可行性，支持製劑開發方向"
+        },
+        {
+          "pmid": "13907824",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "1962 年：hydrocortisone hemisuccinate 局部治療口腔黏膜潰瘍性及大皰性病變，最直接歷史性效益證據，惟年代久遠、方法學品質低，需現代 RCT 驗證"
+        }
+      ]
+    },
+    {
+      "disease_name": "polyp of frontal sinus",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "額竇息肉（慢性鼻竇炎合併鼻息肉亞型）涉及 Th2 炎症通路（IL-4/IL-13/IL-5），局部鼻內皮質醇為標準治療，惟 hydrocortisone succinate 靜脈製劑對鼻息肉無直接臨床依據；兩項 Phase 3 試驗均為 dupilumab（IL-4Rα 生物製劑），代表治療趨勢為精準標靶而非廣效類固醇。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02912468",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 完成（n=276），研究 dupilumab 治療慢性鼻竇炎合併鼻息肉。介入藥物完全不同（IL-4Rα 拮抗劑），間接佐證 Th2 通路之病理角色，但不支持 hydrocortisone succinate 再利用。"
+        },
+        {
+          "nct_id": "NCT02898454",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 完成（n=448），52 週 dupilumab 長期研究。同前，dupilumab 試驗結果不可推論至 hydrocortisone succinate，且 dupilumab 的高效性降低了廣效類固醇的相對競爭力。"
+        }
+      ],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| allergic asthma | **L3** | S1 | 🔴 Hold | 2 項 Phase 2 試驗間接相關；但 4 篇文獻均為不良反應報告，安全信號蓋過效益 |
+| intrinsic asthma | **L4** | S1 | 🔴 Hold | 2 篇直接個案報告均記錄支氣管痙攣，安全疑慮明確 |
+| gout | **L5** | S0 | 🔴 Hold | 唯一試驗為 methotrexate 研究，無直接證據 |
+| migraine disorder | **L5** | S0 | 🔴 Hold | 無任何臨床證據，純 TxGNN 預測 |
+| migraine with brainstem aura | **L5** | S0 | 🔴 Hold | 無任何臨床證據，稀有亞型安全性更複雜 |
+| uterine polyp | **L5** | S0 | 🔴 Hold | 無任何臨床證據 |
+| polyp of vocal cord | **L5** | S0 | 🔴 Hold | 無任何臨床證據 |
+| polyp of middle ear | **L5** | S0 | 🔴 Hold | 無任何臨床證據 |
+| **epulis** | **L4** | S1 | 🟡 Research Question | 歷史文獻有直接效益記錄 + 現代遞送系統研發，局部給藥機轉合理 |
+| polyp of frontal sinus | **L4** | S0 | 🔴 Hold | Phase 3 試驗均為 dupilumab，藥物無關；標準治療已轉向生物製劑 |
+
+> **注意**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用。

@@ -1,0 +1,3396 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11571-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Human thrombin",
+    "drugbank_id": "DB11571",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9695042967796326,
+        "rank": 21456
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04619693",
+            "title": "Determination of Biomarkers for the Prediction of Dexamethasone Response in Sars-Cov-2 / COVID-19 Pneumonia",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 79,
+            "start_date": "2020-11-18",
+            "completion_date": "2021-10-06",
+            "brief_summary": "The primary objective of this study is to demonstrate (at the time of admission) biomarkers of interest (Human Plasma BAK125 panel + interferon panel) for dexamethasone responders versus non-responders in SARS-CoV-2 hypoxemic pneumonia.\n\nThe secondary objectives are to describe and compare between groups:\n\n* The number of days without mechanical ventilation\n* The need for mechanical ventilation\n* 28-day mortality\n* Progression towards acute respiratory distress syndrome (ARDS)\n* Change in the qS",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02850692",
+            "title": "Portal Hypertension and Systemic Endothelial Function: Investigation of Systemic Endothelial Dysfunction in Case of Portal Hypertension Associated With Cystic Fibrosis.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2016-04-18",
+            "completion_date": "2021-12",
+            "brief_summary": "Cystic fibrosis can affect organs other than the lungs. Liver disease affects about 30% of patients: its main manifestation is the development of portal hypertension (PHT). The pathophysiology of this comorbidity is still poorly understood. It was previously considered secondary to the formation of biliary cirrhosis but another hypothesis would be that of a primitive pathology of venous vessels may cause the gradual emergence of portal hypertension without cirrhosis. Evidence indiscutly suggest ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03341156",
+            "title": "Optimized Administration of Prothrombin Complex Concentrate (PCC) vs. Standard Transfusion During/After Heart Transplantation - OPSTAHT",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 14,
+            "start_date": "2018-07-11",
+            "completion_date": "2025-02-20",
+            "brief_summary": "This study is comparing the use of Kcentra vs. standard transfusion in patients undergoing heart transplantation surgery. Half of the patients will receive Kcentra, while the other half will receive fresh frozen plasma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04492475",
+            "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults (ACTT-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 969,
+            "start_date": "2020-08-05",
+            "completion_date": "2020-12-21",
+            "brief_summary": "ACTT-3 will evaluate the combination of interferon beta-1a and remdesivir compared to remdesivir alone. Subjects will be assessed daily while hospitalized. If the subjects are discharged from the hospital, they will have a study visit at Days 15, 22, and 29. For discharged subjects, it is preferred that the Day 15 and 29 visits are in person to obtain safety laboratory tests and oropharyngeal (OP) swab and blood (serum only) samples for secondary research as well as clinical outcome data. Howeve",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03603769",
+            "title": "In Vitro And Ex Vivo Anti-Inflammatory Activities Of Salmon Polar Lipids",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 6,
+            "start_date": "2018-09-03",
+            "completion_date": "2019-01-31",
+            "brief_summary": "The aim of this project is to study the effects of a new-developed food-supplement that contains bioactive polar lipids derived from organic farmed Irish salmon for the beneficial promotion of cardiovascular health. The health claims that will be formulated for this nutraceutical are based on EFSA guidelines \"The scientific requirements for health claims related to antioxidants, oxidative damage and cardiovascular health\" and in particular paragraph 5.4, \"Claims on reduced platelet aggregation\" ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02528253",
+            "title": "A PHASE 3, RANDOMIZED, DOUBLE BLIND, PLACEBO AND ACTIVE-CONTROLLED, MULTICENTER, PARALLEL-GROUP STUDY OF THE ANALGESIC EFFICACY AND SAFETY OF TANEZUMAB IN ADULT SUBJECTS WITH CHRONIC LOW BACK PAIN",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1832,
+            "start_date": "2015-08-18",
+            "completion_date": "2018-12-20",
+            "brief_summary": "This study will investigate the efficacy and safety of tanezumab 5 mg and 10 mg administered by subcutaneous injection seven times at 8 week intervals (56 weeks). The primary objective of this study is to evaluate the effectiveness of tanezumab 10 mg and 5 mg compared to placebo for the treatment of chronic low back pain. Secondary objectives are to evaluate the long-term safety and effectiveness of tanezumab 10 mg and 5 mg compared to placebo for the treatment of chronic low back pain. In addit",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04808895",
+            "title": "Multicenter Randomized, Double-blind, Placebo-controlled, Clinical Trial of Acetylsalicylic Acid in the Prevention of Severe SARS-CoV2 Pneumonia in Hospitalised Patients (Asperum)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 204,
+            "start_date": "2021-04-01",
+            "completion_date": "2021-08-31",
+            "brief_summary": "Inflammatory diseases favour the onset of venous thromboembolic events in hospitalized patients. Thromboprophylaxis with a fixed dose of heparin/low molecular weight heparin (LMWH) is recommended if concomitant inflammatory disease. In severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) pneumonia an inflammation-dependent thrombotic process occurs and platelet activation may promote thrombosis and amplify inflammation, as indicated by previous experimental evidence, and the similarities ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05391412",
+            "title": "Effect of Prophylactic Fibrinogen Concentrate In Scoliosis Surgery: A Randomized Pilot Study",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 32,
+            "start_date": "2022-06-06",
+            "completion_date": "2023-09-30",
+            "brief_summary": "EFISS is a prospective, randomized, placebo-controlled trial testing the feasibility, safety and efficacy of prophylactic administration of fibrinogen in paediatric spinal surgery. The study is monocentric and will be conducted in University Hospital Brno, Czech Republic. This is a pilot study in which the primary objective will be to evaluate the feasibility of a clinical trial in 32 selected patients undergoing scoliosis surgery. Participants will be randomized into study groups in a 1:1 alloc",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04640168",
+            "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults (ACTT-4)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1010,
+            "start_date": "2020-12-02",
+            "completion_date": "2021-06-18",
+            "brief_summary": "ACTT-4 will evaluate the combination of baricitinib and remdesivir compared to dexamethasone and remdesivir. Subjects will be assessed daily while hospitalized. If the subjects are discharged from the hospital, they will have a study visit at Days 15, 22, and 29. For discharged subjects, it is preferred that the Day 15 and 29 visits are in person to obtain safety laboratory tests, oropharyngeal (OP) swabs, plasma (Day 29), and serum for secondary research as well as clinical outcome data. Howeve",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04401579",
+            "title": "A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults (ACTT-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1033,
+            "start_date": "2020-05-08",
+            "completion_date": "2020-07-31",
+            "brief_summary": "ACTT-2 will evaluate the combination of baricitinib and remdesivir compared to remdesivir alone. Subjects will be assessed daily while hospitalized. If the subjects are discharged from the hospital, they will have a study visit at Days 15, 22, and 29. For discharged subjects, it is preferred that the Day 15 and 29 visits are in person to obtain safety laboratory tests and oropharyngeal (OP) swab and blood (serum only) samples for secondary research as well as clinical outcome data. However, infe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04174937",
+            "title": "A Randomized, Placebo-controlled Study of the Tolerability, Safety and Pharmacokinetics of PA in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2016-06-17",
+            "completion_date": "2019-09-15",
+            "brief_summary": "This is a first-in-human (FIH) study to explore the safety, tolerability and pharmacokinetics of PA after oral ascending dose administration to healthy male volunteers.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06956807",
+            "title": "First in Human Open Label Multicentre Clinical Trial to Evaluate the Safety and Efficacy of Epicardial Implantation of Collagen Membranes With Allogeneic Adipose Derived Stem Cells in Patients With Ischaemic Left Ventricular Dysfunction Scheduled to Undergo Coronary Revascularisation Surgery",
+            "phase": "PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 10,
+            "start_date": "2025-09-01",
+            "completion_date": "2027-06-30",
+            "brief_summary": "* The Cardiomesh II clinical trial is a phase I open label study intended to enrol 10 patients to evaluate the safety and efficacy of surgical epicardial implantation of a membrane seeded with allogeneic adipose tissue derived stem cells in patients scheduled to undergo coronary revascularisation surgery and at high risk of developing heart failure.\n* The primary objective of the study is to evaluate the safety of surgical implantation of this membrane in patients with large ischaemic myocardial",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05868005",
+            "title": "Delivering an Innovative Multi-disease Screening Tool to High-risk Migrant Populations",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 980,
+            "start_date": "2024-01-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "Migrants' overall health status may be improved by increasing the detection of certain infectious diseases and other conditions for which effective care is available. This can be achieved through a systematic screening of these conditions using innovative and digital solutions implemented in routine health care.\n\nThis study aims to evaluate the implementation of a screening programme for migrants at primary care level in two different settings of Spain (Catalonia and Andalusia) using an innovati",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30986390",
+            "title": "AGA Clinical Practice Update: Coagulation in Cirrhosis.",
+            "authors": [
+              "O'Leary Jacqueline G",
+              "Greenberg Charles S",
+              "Patton Heather M",
+              "Caldwell Stephen H"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2019",
+            "abstract": "This expert review was commissioned and approved by the AGA Institute Clinical Practice Updates Committee and the AGA Governing Board to provide timely guidance on a topic of high clinical importance to the AGA membership. The intent is to evaluate the current data on mechanism of altered coagulation in patients with cirrhosis, provide guidance on the use of currently available testing of the coagulation cascade, and help practitioners use anticoagulation and pro-coagulants appropriately in pati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27885969",
+            "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+            "authors": [
+              "Bateman R. M.",
+              "Sharpe M. D.",
+              "Jagger J. E.",
+              "Ellis C. G.",
+              "Solé-Violán J."
+            ],
+            "journal": "Critical care (London, England)",
+            "year": "2016",
+            "abstract": "P001 - Sepsis impairs the capillary response within hypoxic capillaries and decreases erythrocyte oxygen-dependent ATP efflux R. M. Bateman, M. D. Sharpe, J. E. Jagger, C. G. Ellis P002 - Lower serum immunoglobulin G2 level does not predispose to severe flu. J. Solé-Violán, M. López-Rodríguez, E. Herrera-Ramos, J. Ruíz-Hernández, L. Borderías, J. Horcajada, N. González-Quevedo, O. Rajas, M. Briones, F. Rodríguez de Castro, C. Rodríguez Gallego P003 - Brain protective effects of intravenous immun",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "984037",
+            "title": "The effect of thrombin on the uptake and transformation of arachidonic acid by human platelets.",
+            "authors": [
+              "Russell F A",
+              "Deykin D"
+            ],
+            "journal": "American journal of hematology",
+            "year": "1976",
+            "abstract": "Washed human platelets take up arachidonic acid from plasma and incorporate the fatty acid into the major classes of complex lipids. Thrombin impairs net incorporation. It activates endogenous phospholipases which liberate arachidonic acid from phospholipids. As a consequence of thrombin induced aggregation platelets release arachidonic acid intermediates formed by the action of platelet fatty acid cyclooxygenase and by platelet fatty acid lipoxygenase. Cyclooxygenase, but not lipoxygenase, is i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2016486",
+            "title": "The role of platelets, thrombin and hyperplasia in restenosis after coronary angioplasty.",
+            "authors": [
+              "Ip J H",
+              "Fuster V",
+              "Israel D",
+              "Badimon L",
+              "Badimon J"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1991",
+            "abstract": "Coronary angioplasty has become a successful and widely used treatment for patients with coronary artery disease since its first clinical application in 1977. The primary success rate has improved despite the increase in procedure and case complexity. However, acute reocclusion and late restenosis, which constitute the most important problems after successful angioplasty, continue to occur in about 5% and 35% of patients within 3 to 6 months, respectively. Angioscopic and pathologic observations",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1321709",
+            "title": "Disorders of platelet function.",
+            "authors": [
+              "Bennett J S",
+              "Kolodziej M A"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1992",
+            "abstract": "Platelets provide for primary hemostasis by forming a hemostatic plug at sites of vascular damage. They also provide a surface for the assembly of the coagulation protein complexes that generate thrombin, serve as a nidus for fibrin clots, and secrete factors involved in wound repair. Normal platelet function can be divided into four phases: adhesion, aggregation, secretion, and expression of procoagulant activity. Platelet adhesion initiates plug formation as platelets adhere to the connective ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12839267",
+            "title": "Modulation and roles of the endothelins in the pathophysiology of pulmonary embolism.",
+            "authors": [
+              "Battistini Bruno"
+            ],
+            "journal": "Canadian journal of physiology and pharmacology",
+            "year": "2003",
+            "abstract": "Recent research on the endothelins (ETs) and their pathways in acute pulmonary embolism (APE) has led to significant advances in the understanding of this disease. ETs are potent vasoconstrictors and bronchoconstrictors found abundantly in the lung and can be released by stimuli such as endothelial injury, hypoxia, or thrombin, a key product in the coagulation cascade. Many studies using different approaches and methods of inducing pulmonary embolization, both in vitro and in vivo in various spe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33749992",
+            "title": "Current applications of platelet gels in wound healing-A review.",
+            "authors": [
+              "Wang Shujun",
+              "Yang Jie",
+              "Zhao Guangchao",
+              "Liu Ran",
+              "Du Ying"
+            ],
+            "journal": "Wound repair and regeneration : official publication of the Wound Healing Society [and] the European Tissue Repair Society",
+            "year": "2021",
+            "abstract": "Human platelets play important roles in several physiologic and pathologic processes. Platelet concentrates are activated with thrombin or calcium, resulting in a viscous coagulum (platelet gel [PG]), composed of 95% platelets at least. PG is increasingly used for the treatment of a variety of soft and hard tissue defects, most notably in the management of chronic non-healing wounds. During wound healing, platelets not only play a critical role in primary hemostasis and thrombosis, but also rele",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22841202",
+            "title": "Coagulopathy management in liver transplantation.",
+            "authors": [
+              "Sabate A",
+              "Dalmau A",
+              "Koo M",
+              "Aparicio I",
+              "Costa M"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "2012",
+            "abstract": "Risk of bleeding and transfusion in liver transplantation is determined by age, severity of liver disease, as well as hemoglobin and plasma fibrinogen values. During the hepatectomy and the anhepatic phase, the coagulopathy is related to a decrease in clotting factors caused by surgical bleeding, facilitated by the increased portal hypertension and esophageal-gastric venous distension. Corrections of hematologic disturbances by administration of large volumes of crystalloid, colloid, or blood pr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35344028",
+            "title": "Immunothrombosis and the molecular control of tissue factor by pyroptosis: prospects for new anticoagulants.",
+            "authors": [
+              "Ryan Tristram A J",
+              "Preston Roger J S",
+              "O'Neill Luke A J"
+            ],
+            "journal": "The Biochemical journal",
+            "year": "2022",
+            "abstract": "The interplay between innate immunity and coagulation after infection or injury, termed immunothrombosis, is the primary cause of disseminated intravascular coagulation (DIC), a condition that occurs in sepsis. Thrombosis associated with DIC is the leading cause of death worldwide. Interest in immunothrombosis has grown because of COVID-19, the respiratory disease caused by SARS-CoV-2, which has been termed a syndrome of dysregulated immunothrombosis. As the relatively new field of immunothrombo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23839295",
+            "title": "Cellular expression and biological activities of alternatively spliced forms of tissue factor pathway inhibitor.",
+            "authors": [
+              "Maroney Susan A",
+              "Hansen Karen G",
+              "Mast Alan E"
+            ],
+            "journal": "Current opinion in hematology",
+            "year": "2013",
+            "abstract": "Tissue factor pathway inhibitor (TFPI) is an anticoagulant protein that inhibits tissue factor-factor VIIa (TF-fVIIa) and factor Xa (fXa). Recent studies revealed distinct cellular expression patterns for TFPIα and TFPIβ and spurred additional experiments to define unique functions for these alternatively spliced TFPI isoforms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35226963",
+            "title": "Experiences in Routine Genetic Analysis of Hereditary Hemorrhagic, Thrombotic, and Platelet Disorders.",
+            "authors": [
+              "Pezeshkpoor B",
+              "Oldenburg J",
+              "Pavlova A"
+            ],
+            "journal": "Hamostaseologie",
+            "year": "2022",
+            "abstract": "Hemostasis is a complex and tightly regulated system that attempts to maintain a homeostatic balance to permit normal blood flow, without bleeding or thrombosis. Hemostasis reflects the subtle balance between procoagulant and anticoagulant factors in the pathways of primary hemostasis, secondary hemostasis, and fibrinolysis. The major components in this interplay include the vascular endothelium, platelets, coagulation factors, and fibrinolytic factors. After vessel wall injury, the subendotheli",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14961457",
+            "title": "Coronary vasospasm and the regulation of coronary blood flow.",
+            "authors": [
+              "Konidala Srilakshmi",
+              "Gutterman David D"
+            ],
+            "journal": "Progress in cardiovascular diseases",
+            "year": "2004",
+            "abstract": "Under physiologic conditions, epicardial arteries contribute minimally to coronary vascular resistance. However, in the presence of endothelial dysfunction, stimuli that normally produce vasodilation may instead cause constriction. Examples include neural release of acetylcholine or norepinephrine, platelet activation and production of serotonin and thrombin, and release of local factors such as bradykinin. This shift from a primary endothelial-mediated vasodilator influence to one of endothelia",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8777977",
+            "title": "The role of thrombosis in severe pulmonary hypertension.",
+            "authors": [
+              "Chaouat A",
+              "Weitzenblum E",
+              "Higenbottam T"
+            ],
+            "journal": "The European respiratory journal",
+            "year": "1996",
+            "abstract": "Considering the important surface in pulmonary circulation where blood can interact with the endothelium, the maintenance of blood fluidity through the lung, by antithrombotic pathways and products of the endothelium, is essential. This function appears to be ineffective in primary pulmonary hypertension and in severe secondary pulmonary hypertension. Thrombotic lesions are frequently found in pulmonary arteries in these diseases. Thrombin activity appears to be increased in severe pulmonary hyp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2701286",
+            "title": "Migraine: the platelet hypothesis after 10 years.",
+            "authors": [
+              "Hanington E"
+            ],
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "1989",
+            "abstract": "The proposal that migraine is a blood disorder and caused by a primary abnormality of platelet behaviour was first put forward in 1978. This paper outlines the basis on which the proposal was made and the way in which the platelet hypothesis can account for the many facets of the disorder. It also reports further studies of platelet composition and function which have been undertaken by a large number of independent workers during the past ten years. The results of their investigations provide s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6229030",
+            "title": "Impact of automation on the quantitation of low molecular weight markers of hemostatic defects.",
+            "authors": [
+              "Fareed J",
+              "Walenga J M",
+              "Bick R L",
+              "Bermes E J",
+              "Messmore H L"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "1983",
+            "abstract": "Through in depth studies, the biochemical pathways of hemostasis-related systems have been elucidated in terms of well-defined molecular mechanisms. The interrelationships of coagulation, fibrinolytic, kallikrein-kinin, platelets, prostaglandins, blood vessel, and complement systems are now well understood. Methods are currently developed to quantitate the molecular markers of each of these systems and define the involvement of each in disease and drug-related aberrations. Molecular markers allo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39133737",
+            "title": "Updated Assessment of Practice Patterns of Perioperative Management of Antiplatelet and Anticoagulant Therapy in Interventional Pain Management.",
+            "authors": [
+              "Manchikanti Laxmaiah",
+              "Sanapati Mahendra R",
+              "Pampati Vidyasagar",
+              "Soin Amol",
+              "Hirsch Joshua A"
+            ],
+            "journal": "Pain physician",
+            "year": "2024",
+            "abstract": "The role of antiplatelet/anticoagulant therapy is well known for its primary and secondary prevention of sequela from cardiovascular disease by decreasing the incidence of acute cerebral, cardiovascular, peripheral vascular, and other thrombo-embolicevents. The overwhelming data show that the risk of thrombotic events is significantly higher than that of bleeding during surgery after antiplatelet drug discontinuation. It has been assumed that discontinuing antiplatelet therapy prior to performin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35343037",
+            "title": "Endothelial-derived von Willebrand factor accelerates fibrin clotting within engineered microvessels.",
+            "authors": [
+              "Rayner Samuel G",
+              "Scholl Zackary",
+              "Mandrycky Christian J",
+              "Chen Junmei",
+              "LaValley Karina N"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2022",
+            "abstract": "Von Willebrand factor (VWF) is classically associated with primary hemostasis and platelet-rich arterial thromboses, but recently has also been implicated in fibrin clotting and venous thrombosis. Direct interaction between fibrin and VWF may mediate these processes, although prior reports are conflicting.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14727968",
+            "title": "New targets for antithrombotic drugs.",
+            "authors": [
+              "Thiagarajan Perumal"
+            ],
+            "journal": "American journal of cardiovascular drugs : drugs, devices, and other interventions",
+            "year": "2002",
+            "abstract": "The normal hemostatic process is initiated by disruption in the vascular continuity and exposure of the subendothelial components. Platelets adhere to subendothelium-bound von Willebrand factor via glycoprotein (GP) Ib complex. This initial interaction per se and the release of platelet agonists transduce signals that lead to the rise in intracellular Ca(2+). The rise in Ca(2+) induces shape change, prostaglandin synthesis, release of granular contents and conformational changes in platelet Gp I",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11079020",
+            "title": "Pathophysiology of heparin-induced thrombocytopenia. Clinical and diagnostic implications--a review.",
+            "authors": [
+              "Fabris F",
+              "Ahmad S",
+              "Cella G",
+              "Jeske W P",
+              "Walenga J M"
+            ],
+            "journal": "Archives of pathology & laboratory medicine",
+            "year": "2000",
+            "abstract": "This review of heparin-induced thrombocytopenia (HIT), the most frequent and dangerous side effect of heparin exposure, covers the epidemiology, pathophysiology, clinical presentation, diagnosis, and treatment of this disease syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8356457",
+            "title": "Platelets in diabetes: the role in the hemostatic regulation in atherosclerosis.",
+            "authors": [
+              "Tschoepe D",
+              "Roesen P",
+              "Schwippert B",
+              "Gries F A"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "1993",
+            "abstract": "Vascular diseases and related complications still represent the main cause of death in diabetic patients. Neuropathy, nephropathy, retinopathy, and disturbed nutritive tissue perfusion may result from reduced capillary microcirculation. These disturbances are diabetes specific. Macroangiopathy does not differ structurally from atherosclerotic lesions of nondiabetic subjects, but leads to accelerated cerebral, coronary, and peripheral artery disease. Occurrence of life-terminating thrombotic even",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9664093255996704,
+        "rank": 22428
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06211634",
+            "title": "A Phase 1/2, First-in-Human, Single and Multiple Ascending Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of HMB-001 in Participants With Glanzmann Thrombasthenia",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 57,
+            "start_date": "2022-12-13",
+            "completion_date": "2027-08",
+            "brief_summary": "The goal of this clinical trial is to Investigate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of HMB-001 in Participants with Glanzmann Thrombasthenia.\n\nThe main questions it aims to answer are:\n\n* Parts A, B, and C: To determine the safety and tolerability of HMB-001\n* Part A: To establish the dose level(s) and dosing interval(s) of HMB-001 to be investigated in Parts B and C\n* Parts B and C: To estimate the ability of HMB-001 to prevent the number and severity of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01476423",
+            "title": "Treatment of Glanzmann's Thrombasthenia: A Prospective Observational Registry",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 218,
+            "start_date": "2004-01",
+            "completion_date": "2011-10",
+            "brief_summary": "This observational registry is conducted in Europe, Asia, Africa and the United States of America (USA).\n\nThe purpose of the registry is to evaluate the efficacy and safety of activated recombinant human factor VII (rFVIIa) during bleeding episodes and for the prevention of bleeding during invasive procedures/surgery in patients with Glanzmann's thrombasthenia (GT) with past or present refractoriness to platelet transfusions. Attention will be directed towards complications related to thrombo-em",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12487785",
+            "title": "Glanzmann's thrombasthenia: updated.",
+            "authors": [
+              "Nair Sona",
+              "Ghosh Kanjaksha",
+              "Kulkarni Bipin",
+              "Shetty Shrimati",
+              "Mohanty Dipika"
+            ],
+            "journal": "Platelets",
+            "year": "2002",
+            "abstract": "Glanzmann's thrombasthenia is an autosomal recessive disorder, rare in a global context, but a relatively more common platelet function defect in communities where consanguineous marriages are more frequent. On clinical grounds alone, it cannot be distinguished from other congenital platelet function defects. Epistaxis, gum bleeding, menorrhagia are the common clinical manifestations, whereas large muscle hematoma or hemarthrosis seldom occur in these patients. Essential diagnostic features are ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6310559",
+            "title": "Glanzmann thrombasthenia: deficient binding of von Willebrand factor to thrombin-stimulated platelets.",
+            "authors": [
+              "Ruggeri Z M",
+              "Bader R",
+              "de Marco L"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "1982",
+            "abstract": "Glanzmann thrombasthenia is an inherited bleeding disorder characterized by the failure of platelets to aggregate in response to almost all stimuli. However, thrombasthenic platelets will aggregate with bovine and porcine von Willebrand factor (vWF) and will show normal ristocetin-induced binding and aggregation in the presence of human vWF. In contrast, we now report that the specific binding of vWF to the thrombin-stimulated platelets was less than 20% of normal in three patients with Glanzman",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18078017",
+            "title": "Clinical use of recombinant human activated factor VII (rFVIIa) in the prevention and treatment of bleeding episodes in patients with Glanzmann's thrombasthenia.",
+            "authors": [
+              "Poon Man-Chiu"
+            ],
+            "journal": "Vascular health and risk management",
+            "year": "2007",
+            "abstract": "Glanzmann's thrombasthenia (GT) is a congenital qualitative platelet disorders due to the deficiency or defect of platelet membrane GPIIb/IIIa (integrin alpha(IIb)beta3). The standard treatment for bleeding is platelet transfusion but repeated transfusion may result in the development of anti-platelet antibodies (to HLA and/or GPlIbIIIa) rendering future platelet transfusion ineffective. Alternative effective agent(s) are needed. There are increasing reports documenting efficacy of high dose rFV",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9371310",
+            "title": "Molecular abnormalities in Glanzmann's thrombasthenia, Bernard-Soulier syndrome, and platelet-type von Willebrand's disease.",
+            "authors": [
+              "Clemetson K J",
+              "Clemetson J M"
+            ],
+            "journal": "Current opinion in hematology",
+            "year": "1994",
+            "abstract": "Genetic defects of the blood platelet membrane glycoproteins, GPIIb-IIIa (alpha IIb/beta 3; CD41/CD61) and GPIb-V-IX (CD42) are the origin of several rare bleeding disorders, the best known of which are Glanzmann's thrombasthenia, Bernard-Soulier syndrome, and platelet-type von Willebrand's disease. In Glanzmann's thrombasthenia, GPIIb-IIIa are missing or defective and platelet aggregation is lacking or reduced. Either gene can be affected and mutations leading to lack of expression or to expres",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6064860",
+            "title": "Thrombasthenia.",
+            "authors": [
+              "Caen J P",
+              "Vainer H",
+              "Gautier A"
+            ],
+            "journal": "Thrombosis et diathesis haemorrhagica. Supplementum",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2611137",
+            "title": "Decreased stability and structural heterogeneity of the residual platelet glycoprotein IIb/IIIa complex in a variant of Glanzmann's thrombasthenia.",
+            "authors": [
+              "Modderman P W",
+              "van Mourik J A",
+              "van Berkel W",
+              "Cordell J L",
+              "Morel M C"
+            ],
+            "journal": "British journal of haematology",
+            "year": "1989",
+            "abstract": "A patient is described with a disturbance of platelet function comparable to that in Glanzmann's thrombasthenia. Platelet aggregation and binding of fibrinogen to the patient's platelets were defective and thrombin-induced clot retraction was absent. The platelet fibrinogen content was only moderately reduced. As measured by monoclonal antibody binding in the presence of divalent cations, the platelets contained about 15% of the normal amount of GPIIb and GPIIIa and only 6% of the normal amount ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26968829",
+            "title": "New Insights Into the Treatment of Glanzmann Thrombasthenia.",
+            "authors": [
+              "Poon Man-Chiu",
+              "Di Minno Giovanni",
+              "d'Oiron Roseline",
+              "Zotz Rainer"
+            ],
+            "journal": "Transfusion medicine reviews",
+            "year": "2016",
+            "abstract": "Glanzmann thrombasthenia (GT) is a rare inherited autosomal recessive bleeding disorder of platelet function caused by a quantitative or qualitative defect of platelet membrane glycoprotein IIb/IIIa (integrin αIIbβ3), a fibrinogen receptor required for platelet aggregation. Bleeds in GT are variable and may be severe and unpredictable. Bleeding not responsive to local and adjunctive measures, as well as surgical procedures, is treated with platelets, recombinant activated factor VII (rFVIIa), or",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1321709",
+            "title": "Disorders of platelet function.",
+            "authors": [
+              "Bennett J S",
+              "Kolodziej M A"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1992",
+            "abstract": "Platelets provide for primary hemostasis by forming a hemostatic plug at sites of vascular damage. They also provide a surface for the assembly of the coagulation protein complexes that generate thrombin, serve as a nidus for fibrin clots, and secrete factors involved in wound repair. Normal platelet function can be divided into four phases: adhesion, aggregation, secretion, and expression of procoagulant activity. Platelet adhesion initiates plug formation as platelets adhere to the connective ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22273510",
+            "title": "The in vivo effect of fibrinogen and factor XIII on clot formation and fibrinolysis in Glanzmann's thrombasthenia.",
+            "authors": [
+              "Shenkman Boris",
+              "Livnat Tami",
+              "Misgav Mudi",
+              "Budnik Ivan",
+              "Einav Yulia"
+            ],
+            "journal": "Platelets",
+            "year": "2012",
+            "abstract": "Glanzmann's thrombasthenia (GT) is characterized by increased bleeding risk. The treatment options in GT are limited. The aim of this study was to test the effect of GT blood supplementation with fibrinogen and factor XIII on thrombin generation, blood clotting, and fibrinolysis. Whole blood samples of GT patients and normal donors treated with eptifibatide (GT model) were subjected to clotting by CaCl(2) and tissue factor. Thrombin generation was measured in platelet-rich plasma. Clot formation",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24477274",
+            "title": "Phosphatidylserine exposure, microparticle formation and mitochondrial depolarisation in Glanzmann thrombasthenia platelets.",
+            "authors": [
+              "Wang Hong",
+              "Bang K W Annie",
+              "Blanchette Victor S",
+              "Nurden Alan T",
+              "Rand Margaret L"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30597506",
+            "title": "Low Concentrations of Recombinant Factor VIIa May Improve the Impaired Thrombin Generation of Glanzmann Thrombasthenia Patients.",
+            "authors": [
+              "Levy-Mendelovich Sarina",
+              "Levy Tamara",
+              "Budnik Ivan",
+              "Barg Assaf Arie",
+              "Rosenberg Nurit"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2019",
+            "abstract": "Glanzmann thrombasthenia (GT) is a rare bleeding disorder. The disease is caused by the lack or dysfunction of platelet membrane glycoprotein IIb/IIIa (integrin αIIbβ3) which is essential for platelet aggregation. Bleeding episodes are usually managed by platelet transfusions. Recombinant activated factor VII (rFVIIa) is a common adjunct or alternative treatment option.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10845892",
+            "title": "Megakaryocyte-targeted synthesis of the integrin beta(3)-subunit results in the phenotypic correction of Glanzmann thrombasthenia.",
+            "authors": [
+              "Wilcox D A",
+              "Olsen J C",
+              "Ishizawa L",
+              "Bray P F",
+              "French D L"
+            ],
+            "journal": "Blood",
+            "year": "2000",
+            "abstract": "Glanzmann thrombasthenia is an inherited bleeding disorder characterized by qualitative or quantitative defects of the platelet-specific integrin, alphaIIbbeta(3). As a result, alphaIIbbeta(3) cannot be activated and cannot bind to fibrinogen, leading to a loss of platelet aggregation. Thrombasthenia is clinically characterized by mucocutaneous hemorrhage with episodes of intracranial and gastrointestinal bleeding. To develop methods for gene therapy of Glanzmann thrombasthenia, a murine leukemi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1969070",
+            "title": "Shear-induced platelet aggregation.",
+            "authors": [
+              "O'Brien J R"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1990",
+            "abstract": "Two platelet mechanisms contribute to haemostasis and thrombosis. (1) Compounds such as thrombin activate glycoprotein IIb/IIIa; fibrinogen is the ligand. The cyclooxygenase pathway is involved and so this process is aspirin sensitive. (2) Shearing forces alone activate a different domain on glycoprotein IIb/IIIa; von Willebrand's factor is the ligand. This process is probably non-enzymatic and is aspirin insensitive. The prevention of shear-induced platelet activation may prove to be more rewar",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8325838",
+            "title": "Platelet-derived microparticle formation involves glycoprotein IIb-IIIa. Inhibition by RGDS and a Glanzmann's thrombasthenia defect.",
+            "authors": [
+              "Gemmell C H",
+              "Sefton M V",
+              "Yeo E L"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "1993",
+            "abstract": "While the physiologic role of platelet microparticles may include a stable, physical dispersion of concentrated surface procoagulant activity the mechanism(s) of platelet vesiculation remains unknown. We demonstrate using flow cytometric methods a central role for the beta 3 integrin glycoprotein (GP) IIb-IIIa complex and its ligand tetrapeptide Arg-Gly-Asp-Ser (RGDS) binding site in platelet vesiculation. Time- and calcium-dependent vesiculation of platelets in response to ADP, collagen, thromb",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2579690",
+            "title": "Immunocytochemical study of the binding of fibrinogen and thrombospondin to ADP- and thrombin-stimulated human platelets.",
+            "authors": [
+              "Hourdillé P",
+              "Hasitz M",
+              "Belloc F",
+              "Nurden A T"
+            ],
+            "journal": "Blood",
+            "year": "1985",
+            "abstract": "We have used immunogold staining to locate thrombospondin (TSP) on thrombin-activated human platelets, and have compared its distribution with that of fibrinogen (or fibrin) on thrombin- and ADP-stimulated platelets. To do this, isolated platelets were incubated with monospecific antibodies to TSP or fibrinogen (fib) and the bound IgG located with a second antibody adsorbed to gold particles. Thrombin-induced secretion in Tyrode-Ca2+ was followed by both anti-TSP and anti-fib binding, with large",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15670032",
+            "title": "The effect of platelets on fibrin gel structure formed in the presence of recombinant factor VIIa in hemophilia plasma and in plasma from a patient with Glanzmann thrombasthenia.",
+            "authors": [
+              "He S",
+              "Ekman G Jacobsson",
+              "Hedner U"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2005",
+            "abstract": "Fibrin gel structure has been shown to be dependent on the thrombin concentration as well as the rate of thrombin generation. Accordingly, factor VIII (FVIII)- and FIX-deficient plasma (hemophilia A and B) form loose fibrin clots with high permeability constants. By adding rFVIIa in vitro to FVIII-deficient plasma containing platelets (frozen and thawed), the fibrin gel permeability constant normalized, indicating that extra rFVIIa (1.2 microg mL(-1) or higher) induced a tight fibrin structure. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3416077",
+            "title": "Heparin-induced thrombocytopenia: laboratory studies.",
+            "authors": [
+              "Kelton J G",
+              "Sheridan D",
+              "Santos A",
+              "Smith J",
+              "Steeves K"
+            ],
+            "journal": "Blood",
+            "year": "1988",
+            "abstract": "This report describes studies into the pathophysiology of heparin-induced thrombocytopenia. The IgG fraction from each of nine patients with heparin-induced thrombocytopenia caused heparin-dependent platelet release of radiolabeled serotonin. Both the Fc and the Fab portions of the IgG molecule were required for the platelet reactivity. The platelet release reaction could be inhibited by the Fc portion of normal human or goat IgG, and patient F(ab')2, but not F(ab')2 from healthy controls. These",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8698879",
+            "title": "Inhibition of platelet-mediated, tissue factor-induced thrombin generation by the mouse/human chimeric 7E3 antibody. Potential implications for the effect of c7E3 Fab treatment on acute thrombosis and \"clinical restenosis\".",
+            "authors": [
+              "Reverter J C",
+              "Béguin S",
+              "Kessels H",
+              "Kumar R",
+              "Hemker H C"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1996",
+            "abstract": "The murine/human chimeric monoclonal antibody fragment (c7E3 Fab) blocks GPIIb/IIIa and alpha v beta 3 receptors, inhibits platelet aggregation, and decreases the frequency of ischemic events after coronary artery angioplasty in patients at high risk of suffering such events. Although inhibition of platelet aggregation is likely to be the major mechanism of c7E3 Fab's effects, since activated platelets facilitate thrombin generation, it is possible that c7E3 Fab also decreases thrombin generatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6457625",
+            "title": "Antibodies against platelet membrane glycoproteins. II. Influence on ADP- and collagen-induced platelet aggregation, crossed immunoelectrophoresis studies and relevance to Glanzmann's thrombasthenia.",
+            "authors": [
+              "Jenkins C S",
+              "Ali-Briggs E F",
+              "Clemetson K J"
+            ],
+            "journal": "British journal of haematology",
+            "year": "1981",
+            "abstract": "In Glanzmann's thrombasthenia glycoproteins IIb and IIIa are missing or strongly reduced and aggregation to ADP, collagen and thrombin is impaired. Antibodies against glycoproteins IIb and IIIa did not entirely induce a thrombasthenia-like state in normal platelets. However, they did strongly inhibit collagen-induced aggregation and inhibited the second wave of aggregation induced by ADP. Crossed immunoelectrophoresis studies using Triton X-100 extracts of whole platelets with these antibodies g",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2595666",
+            "title": "Aggregation to thrombin and collagen of platelets from a Glanzmann thrombasthenic patient lacking glycoproteins IIb and IIIa.",
+            "authors": [
+              "McGregor L",
+              "Hanss M",
+              "Sayegh A",
+              "Calvette J J",
+              "Trzeciak M C"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "1989",
+            "abstract": "The aim of this study was to investigate the platelets of a Glanzmann thrombasthenic patient, which in citrated PRP failed to respond to various agonists, but aggregated and secreted to high concentrations of thrombin (0.36, 0.72 and 1 U/ml) and collagen (4, 10 and 20 micrograms/ml) when washed and resuspended in a Tyrode-albumin solution (containing 2 mM Ca2+). Aggregation of the patient platelets was not affected by anti-IIb/IIIa monoclonal antibody (P18) which strongly inhibits thrombin or co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.9651938676834106,
+        "rank": 22783
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28004055",
+            "title": "Thrombocytopathy leading to impaired in vivo haemostasis and thrombosis in platelet type von Willebrand disease.",
+            "authors": [
+              "Kaur Harmanpreet",
+              "Corscadden Kathryn",
+              "Ware Jerry",
+              "Othman Maha"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2017",
+            "abstract": "Platelet defects due to hyper-responsive GPIbα causing enhanced VWF interaction, counter-intuitively result in bleeding rather than thrombosis. The historical explanation of platelet/VWF clearance fails to explain mechanisms of impaired haemostasis particularly in light of reported poor platelet binding to fibrinogen. This study aimed to evaluate the defects of platelets with hyper-responsive GPIbα and their contribution to impaired in vivo thrombosis. Using the PT-VWD mouse model, platelets fro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7660135",
+            "title": "Platelet GPIb-V-IX complex. Structure, function, physiology, and pathology.",
+            "authors": [
+              "Clemetson K J",
+              "Clemetson J M"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "1995",
+            "abstract": "In the early phase of primary hemostasis, platelets adhere to damaged vessel wall by binding via the platelet glycoprotein (GP) Ib-V-IX complex to von Willebrand factor (vWf) exposed on the subendothelium. The complex is composed of four glycoprotein subunits, GPIb alpha, GPIb beta, GPIX and GPV, each with a variable number of leucine-rich repeats. GPIb alpha and GPIb beta are linked by a disulphide bridge while GPIX and GPV associate noncovalently with the complex. The study of defects in the e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn": {
+        "score": 0.9168267250061036,
+        "rank": 32843
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+      "txgnn": {
+        "score": 0.9165619015693665,
+        "rank": 32875
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10544786",
+            "title": "[Exploration of hemostasis disorders in children (excluding the neonatal period)].",
+            "authors": [
+              "Bader-Meunier B",
+              "Dreyfus M"
+            ],
+            "journal": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie",
+            "year": "1999",
+            "abstract": "There are three different aspects in the etiological diagnosis of hemostasis disorders: (1) primary hemostasis evaluation; (2) coagulation evaluation; and, (3) thrombosis evaluation. In every case, a look at the medical history is an essential step before proceeding to biological investigations. Bleeding time is the first step of the primary hemostasis evaluation; prolonged drug use (particularly salicylates) and thrombocytopenia must be first considered; only then will the Von Willebrand factor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9042822",
+            "title": "Platelet alpha granule deficiency associated with decreased P-selectin and selective impairment of thrombin-induced activation in a new patient with gray platelet syndrome (alpha-storage pool deficiency).",
+            "authors": [
+              "Lages B",
+              "Sussman I I",
+              "Levine S P",
+              "Coletti D",
+              "Weiss H J"
+            ],
+            "journal": "The Journal of laboratory and clinical medicine",
+            "year": "1997",
+            "abstract": "We report studies on a new patient with gray platelet syndrome (GPS, alpha-storage pool deficiency). Her lifelong bleeding history is associated with platelet abnormalities characteristic of GPS including mild to moderate thrombocytopenia, a population of abnormally large platelets, and specific deficiencies of alpha-granule constituents and morphologically typical alpha-granules. Platelet function studies showed normal aggregation responses to adenosine diphosphate, epinephrine, collagen, arach",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6229303",
+            "title": "The defective prothrombin consumption in Bernard-Soulier syndrome. Hypotheses from 1948 to 1982.",
+            "authors": [
+              "Caen J",
+              "Bellucci S"
+            ],
+            "journal": "Blood cells",
+            "year": "1983",
+            "abstract": "Bernard-Soulier syndrome (BSS) was described in 1948 as a constitutional platelet disorder characterized by giant sized platelets, a prolonged bleeding time, and a defect in prothrombin consumption. The accurate mechanisms of these abnormalities remain unexplained, especially the defect in prothrombin consumption on which we focus in this paper. Several hypotheses are proposed: firstly, a defective reaction between the platelet membrane, where the phospholipid composition is abnormal, and the pr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "bleeding diathesis due to a collagen receptor defect",
+      "txgnn": {
+        "score": 0.9154731631278992,
+        "rank": 33040
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12487785",
+            "title": "Glanzmann's thrombasthenia: updated.",
+            "authors": [
+              "Nair Sona",
+              "Ghosh Kanjaksha",
+              "Kulkarni Bipin",
+              "Shetty Shrimati",
+              "Mohanty Dipika"
+            ],
+            "journal": "Platelets",
+            "year": "2002",
+            "abstract": "Glanzmann's thrombasthenia is an autosomal recessive disorder, rare in a global context, but a relatively more common platelet function defect in communities where consanguineous marriages are more frequent. On clinical grounds alone, it cannot be distinguished from other congenital platelet function defects. Epistaxis, gum bleeding, menorrhagia are the common clinical manifestations, whereas large muscle hematoma or hemarthrosis seldom occur in these patients. Essential diagnostic features are ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23929303",
+            "title": "Bernard-Soulier syndrome: an update.",
+            "authors": [
+              "Andrews Robert K",
+              "Berndt Michael C"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2013",
+            "abstract": "Bernard-Soulier syndrome (BSS) is a rare inherited platelet bleeding disorder characterized by low platelet count and abnormally large platelets (macrothrombocytopenia). Platelets from BSS patients are typically defective in surface expression of glycoprotein (GP)Ib-IX-V, a platelet-specific adhesion-signaling complex, composed of GPIbα disulfide linked to GPIbβ, and noncovalently associated with GPIX and GPV. The major ligand-binding subunit, GPIbα, binds the adhesive ligands von Willebrand fac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26886396",
+            "title": "Platelet Function Tests in Bleeding Disorders.",
+            "authors": [
+              "Lassila Riitta"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2016",
+            "abstract": "Functional disorders of platelets can involve any aspect of platelet physiology, with many different effects or outcomes. These include platelet numbers (thrombocytosis or thrombocytopenia); changes in platelet production or destruction, or capture to the liver (Ashwell receptor); altered adhesion to vascular injury sites and/or influence on hemostasis and wound healing; and altered activation or receptor functions, shape change, spreading and release reactions, procoagulant and antifibrinolytic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33564083",
+            "title": "ALOX12 mutation in a family with dominantly inherited bleeding diathesis.",
+            "authors": [
+              "Mitsui Tetsuo",
+              "Makino Satoshi",
+              "Tamiya Gen",
+              "Sato Hiroko",
+              "Kawakami Yuki"
+            ],
+            "journal": "Journal of human genetics",
+            "year": "2021",
+            "abstract": "The arachidonic acid (AA) cascade plays a significant role in platelet aggregation. AA released from membrane phospholipids is metabolized by cyclooxygenase (COX) pathway to thromboxane A2 (TXA2) or by 12S-lipoxygenase (ALOX12) to 12-hydroperoxyeicosatetraenoic acid (12-HPETE). In contrast to a well-known role of the COX pathway in platelet aggregation, the role of ALOX12 is not well understood. Platelets of ALOX12-deficient mice exhibit increased sensitivity for ADP-induced aggregation. However",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22314604",
+            "title": "New insights into von Willebrand disease and platelet function.",
+            "authors": [
+              "Szántó Tímea",
+              "Joutsi-Korhonen Lotta",
+              "Deckmyn Hans",
+              "Lassila Riitta"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2012",
+            "abstract": "Regulation of binding between von Willebrand factor (VWF) and the platelet receptor glycoprotein (GP) Ibα is one of the key steps in controlling hemostasis and thrombosis. On vascular injury at sites of high shear rates, the GPIbα interaction with subendothelial-bound VWF will initiate the tethering of circulating platelets to the vessel wall. Tethered platelets subsequently roll on the damaged vessel wall, a process that is amplified by the activation of the platelet integrin αΙΙbβ3 (GPIIb/IIIa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17073609",
+            "title": "Novel therapeutic agents in the management of hemorrhage and thrombosis.",
+            "authors": [
+              "Kempton Christine L",
+              "Harvey R Donald",
+              "Roberts Harold R"
+            ],
+            "journal": "Cardiovascular & hematological agents in medicinal chemistry",
+            "year": "2006",
+            "abstract": "Abnormalities in the hemostatic system can lead to, on one end of the spectrum, hemorrhage, and on the opposite end, thrombosis. Over the past decade, important new agents for the management of hemorrhagic and thrombotic disorders have been developed and more are in development. The care of patients with bleeding disorders has been advanced by the development of techniques to manufacture recombinant factor products with reduced or absent exposure to human or animal proteins, prolonged half-life ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23735588",
+            "title": "ADP-induced platelet aggregation and thrombin generation are increased in Essential Thrombocythemia and Polycythemia Vera.",
+            "authors": [
+              "Panova-Noeva Marina",
+              "Marchetti Marina",
+              "Russo Laura",
+              "Tartari Carmen J",
+              "Leuzzi Anna"
+            ],
+            "journal": "Thrombosis research",
+            "year": "2013",
+            "abstract": "Essential Thrombocythemia (ET) and Polycythemia Vera (PV) patients are characterized by an increased rate of thrombotic complications and by several abnormalities of platelets, more pronounced in JAK2V617F positive patients. The aim of this study was to characterize the platelet aggregation as well as the platelet procoagulant potential induced by several different agonists in ET and PV patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12487778",
+            "title": "Absence of compensatory platelet activation in patients with severe haemophilia, but evidence for a platelet collagen-activation defect.",
+            "authors": [
+              "Grünewald M",
+              "Siegemund A",
+              "Grünewald A",
+              "Konegen A",
+              "Koksch M"
+            ],
+            "journal": "Platelets",
+            "year": "2002",
+            "abstract": "Severe haemophilia is a serious, haemorrhagic disorder of the plasmatic coagulation system. In this study we investigated, whether 'compensatory' activation of the platelet coagulation system occurs in this situation. Platelet function was investigated with aggregation, adhesion and flow cytometric assays. In addition, we performed clot and platelet plug formation tests and determined endogenous thrombin potentials in patients with severe haemophilia A or B; results were compared to those of hea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33327658",
+            "title": "Characterization of Procoagulant COAT Platelets in Patients with Glanzmann Thrombasthenia.",
+            "authors": [
+              "Aliotta Alessandro",
+              "Krüsi Manuel",
+              "Bertaggia Calderara Debora",
+              "Zermatten Maxime G",
+              "Gomez Francisco J"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "abstract": "Patients affected by the rare Glanzmann thrombasthenia (GT) suffer from defective or low levels of the platelet-associated glycoprotein (GP) IIb/IIIa, which acts as a fibrinogen receptor, and have therefore an impaired ability to aggregate platelets. Because the procoagulant activity is a dichotomous facet of platelet activation, diverging from the aggregation endpoint, we were interested in characterizing the ability to generate procoagulant platelets in GT patients. Therefore, we investigated,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2691968",
+            "title": "[The platelet fibrinogen receptor: a model for the analysis of cellular adhesion mechanisms and their modification in pathology].",
+            "authors": [
+              "Pidard D"
+            ],
+            "journal": "Pathologie-biologie",
+            "year": "1989",
+            "abstract": "Blood platelets are implicated in a series of cellular recognition and adhesion phenomena (adhesion to the subendothelial matrix and platelet aggregation) which are key events in the processes of haemostasis and thrombosis. Platelet aggregation is a model of homotypic cellular adhesion. It is mediated by the binding of bifunctional molecules of fibrinogen to the plasma membrane of adjacent platelets, following stimulation of the platelets by agonists such as ADP, thrombin or collagen, with the f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10590061",
+            "title": "Regulation and function of WASp in platelets by the collagen receptor, glycoprotein VI.",
+            "authors": [
+              "Gross B S",
+              "Wilde J I",
+              "Quek L",
+              "Chapel H",
+              "Nelson D L"
+            ],
+            "journal": "Blood",
+            "year": "1999",
+            "abstract": "Wiskott Aldrich syndrome (WAS) is an X-linked recessive disorder associated with abnormalities in platelets and lymphocytes giving rise to thrombocytopenia and immunodeficiency. WAS is caused by a mutation in the gene encoding the cytoskeletal protein (WASp). Despite its importance, the role of WASp in platelet function is not established. WASp was recently shown to undergo tyrosine phosphorylation in platelets after activation by collagen, suggesting that it may play a selective role in activat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29695020",
+            "title": "Significant Hypo-Responsiveness to GPVI and CLEC-2 Agonists in Pre-Term and Full-Term Neonatal Platelets and following Immune Thrombocytopenia.",
+            "authors": [
+              "Hardy Alexander T",
+              "Palma-Barqueros Verónica",
+              "Watson Stephanie K",
+              "Malcor Jean-Daniel",
+              "Eble Johannes A"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2018",
+            "abstract": "Neonatal platelets are hypo-reactive to the tyrosine kinase-linked receptor agonist collagen. Here, we have investigated whether the hypo-responsiveness is related to altered levels of glycoprotein VI (GPVI) and integrin α2β1, or to defects in downstream signalling events by comparison to platelet activation by C-type lectin-like receptor 2 (CLEC-2). GPVI and CLEC-2 activate a Src- and Syk-dependent signalling pathway upstream of phospholipase C (PLC) γ2. Phosphorylation of a conserved YxxL sequ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10741915",
+            "title": "Spontaneous proliferative megakaryocytopoiesis and platelet hyperreactivity in essential thrombocythemia: is thrombopoietin the link?",
+            "authors": [
+              "Bellucci S",
+              "Michiels J J"
+            ],
+            "journal": "Annals of hematology",
+            "year": "2000",
+            "abstract": "Essential thrombocythemia (ET) is one of the less rare variants of the chronic myeloproliferative disorders (MPD). The present review questions the possible link between spontaneous megakaryocytopoiesis, platelet hyperreactivity, and the occurrence of platelet-mediated vascular manifestations in acquired and hereditary ET. In acquired ET, the role of thrombopoietin (TPO) is crucial to the observed hypermegakaryocytopoiesis, which is characterized by an increased proliferation of megakaryocyte (M",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28004055",
+            "title": "Thrombocytopathy leading to impaired in vivo haemostasis and thrombosis in platelet type von Willebrand disease.",
+            "authors": [
+              "Kaur Harmanpreet",
+              "Corscadden Kathryn",
+              "Ware Jerry",
+              "Othman Maha"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2017",
+            "abstract": "Platelet defects due to hyper-responsive GPIbα causing enhanced VWF interaction, counter-intuitively result in bleeding rather than thrombosis. The historical explanation of platelet/VWF clearance fails to explain mechanisms of impaired haemostasis particularly in light of reported poor platelet binding to fibrinogen. This study aimed to evaluate the defects of platelets with hyper-responsive GPIbα and their contribution to impaired in vivo thrombosis. Using the PT-VWD mouse model, platelets fro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30892978",
+            "title": "Evaluation of platelet function in essential thrombocythemia under different analytical conditions.",
+            "authors": [
+              "Lussana Federico",
+              "Femia Eti Alessandra",
+              "Pugliano Mariateresa",
+              "Podda Gianmarco",
+              "Razzari Cristina"
+            ],
+            "journal": "Platelets",
+            "year": "2020",
+            "abstract": "Background. Studies of platelet aggregation (PA) in essential thrombocythemia (ET) reported contrasting results, likely due to differences in analytical conditions.Objective. We investigated platelet aggregation using different techniques and analytical conditions.Patients and Methods. PA was studied by light-transmission aggregometry (LTA) in platelet-rich plasma (PRP) and impedance aggregometry in PRP and whole blood (WB). ADP, collagen, thrombin receptor activating peptide (TRAP-14) and adren",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27212476",
+            "title": "A genetically-engineered von Willebrand disease type 2B mouse model displays defects in hemostasis and inflammation.",
+            "authors": [
+              "Adam Frédéric",
+              "Casari Caterina",
+              "Prévost Nicolas",
+              "Kauskot Alexandre",
+              "Loubière Cécile"
+            ],
+            "journal": "Scientific reports",
+            "year": "2016",
+            "abstract": "von Willebrand disease (VWD)-type 2B is characterized by gain-of-function mutations in the von Willebrand factor (VWF) A1-domain, leading to increased affinity for its platelet-receptor, glycoprotein Ibα. We engineered the first knock-in (KI) murine model for VWD-type 2B by introducing the p.V1316M mutation in murine VWF. Homozygous KI-mice replicated human VWD-type 2B with macrothrombocytopenia (platelet counts reduced by 55%, platelet volume increased by 44%), circulating platelet-aggregates a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29227167",
+            "title": "Diagnosis of platelet function disorders: A standardized, rational, and modular flow cytometric approach.",
+            "authors": [
+              "Andres Oliver",
+              "Henning Katja",
+              "Strauß Gabriele",
+              "Pflug Annerose",
+              "Manukjan Georgi"
+            ],
+            "journal": "Platelets",
+            "year": "2018",
+            "abstract": "A high proportion of patients with mucocutaneous bleeding diathesis and suspected inherited or acquired platelet disorder remain without diagnosis even after comprehensive laboratory testing. Since flow cytometry allows investigation of resting and activated platelets on the single cell level by requiring only minimal amounts of blood, this method has become an important assay within the diagnostic algorithm, especially in pediatrics. We therefore developed a standardized and modular flow cytome",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38492852",
+            "title": "Comprehensive functional characterization of a novel ANO6 variant in a new patient with Scott syndrome.",
+            "authors": [
+              "Montague Samantha J",
+              "Price Joshua",
+              "Pennycott Katherine",
+              "Pavey Natasha J",
+              "Martin Eleyna M"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2024",
+            "abstract": "Scott syndrome is a mild platelet-type bleeding disorder, first described in 1979, with only 3 unrelated families identified through defective phosphatidylserine (PS) exposure and confirmed by sequencing. The syndrome is distinguished by impaired surface exposure of procoagulant PS on platelets after stimulation. To date, platelet function and thrombin generation in this condition have not been extensively characterized.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28981200",
+            "title": "Soluble fibrin causes an acquired platelet glycoprotein VI signaling defect: implications for coagulopathy.",
+            "authors": [
+              "Lee M Y",
+              "Verni C C",
+              "Herbig B A",
+              "Diamond S L"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2017",
+            "abstract": "Essentials Collagen and thrombin when used simultaneously generate highly activated platelets. The effect of thrombin stimulation on subsequent glycoprotein VI (GPVI) function was observed. Soluble fibrin, but not protease activated receptor (PAR) activation, prevented GPVI activation. Circulating soluble fibrin in coagulopathic blood may cause an acquired GPVI signaling defect.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9573017",
+            "title": "Tissue-specific expression of functional platelet factor XI is independent of plasma factor XI expression.",
+            "authors": [
+              "Hu C J",
+              "Baglia F A",
+              "Mills D C",
+              "Konkle B A",
+              "Walsh P N"
+            ],
+            "journal": "Blood",
+            "year": "1998",
+            "abstract": "Platelet factor XI is an alternatively spliced product of the factor XI gene expressed specifically within megakaryocytes and platelets as an approximately 1.9-kb mRNA transcript (compared with approximately 2.1 kb in liver cells) lacking exon V. Flow cytometry with an affinity-purified factor XI antibody, with PAC1 antibody (to the GPIIb/IIIa complex on activated platelets), and with S12 antibody (to P-selectin, an alpha-granule membrane protein expressed on the platelet surface during secretio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Scott syndrome",
+      "txgnn": {
+        "score": 0.914979875087738,
+        "rank": 33103
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02308111",
+            "title": "A Phase 4, Double-Blind, Randomized, Placebo-Controlled, Multicenter Study Evaluating the Effect of Obeticholic Acid on Clinical Outcomes in Patients With Primary Biliary Cholangitis",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 334,
+            "start_date": "2014-12-26",
+            "completion_date": "2021-12-23",
+            "brief_summary": "Primary Biliary Cholangitis (PBC) is a serious, life-threatening, bile acid related liver disease of unknown cause. Without treatment, it frequently progresses to liver fibrosis and eventual cirrhosis requiring liver transplantation or resulting in death. The investigational drug, Obeticholic Acid (OCA) is a modified bile acid and FXR agonist that is derived from the primary human bile acid chenodeoxycholic acid. The key mechanisms of action of OCA, including its choleretic, anti-inflammatory, a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02879344",
+            "title": "Extra Corporeal Membrane Oxygenation in the Acute Respiratory Distress Syndrome: Utility of a Biomarker to Assess the Membrane Efficiency in Improving Oxygenation",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2013-01",
+            "completion_date": "2017-03",
+            "brief_summary": "ECMO (extra-corporeal membrane oxygenation) is a blood oxygenation technical and purification of carbon dioxide by means of an extracorporeal circulation using a pump (identical to those used in cardiac surgery) and a membrane permitting gas exchange. This technique is used for almost 40 years in the acute respiratory distress syndrome (ARDS) but benefited from many technology improvements over the past 10 years.\n\nThe circuit is now fully pre-heparin, not imposing obtaining activated partial thr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27207414",
+            "title": "Platelets and coagulation in thrombus formation: aberrations in the Scott syndrome.",
+            "authors": [
+              "van Geffen Johanna P",
+              "Swieringa Frauke",
+              "Heemskerk Johan W M"
+            ],
+            "journal": "Thrombosis research",
+            "year": "2016",
+            "abstract": "Platelets play key roles in thrombosis and hemostasis by forming aggregates and providing a procoagulant surface, at which thrombin is generated and fibrin fibers are formed. Here we present an overview of the different mechanisms how platelets orchestrate coagulation processes in thrombus formation in thrombosis and hemostasis. Parts of these are via Ca(2+)-dependent activation responses, leading to phosphatidylserine exposure; swelling to form balloons with increased binding of coagulation fac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27535140",
+            "title": "Combined Quantification of the Global Proteome, Phosphoproteome, and Proteolytic Cleavage to Characterize Altered Platelet Functions in the Human Scott Syndrome.",
+            "authors": [
+              "Solari Fiorella A",
+              "Mattheij Nadine J A",
+              "Burkhart Julia M",
+              "Swieringa Frauke",
+              "Collins Peter W"
+            ],
+            "journal": "Molecular & cellular proteomics : MCP",
+            "year": "2016",
+            "abstract": "The Scott syndrome is a very rare and likely underdiagnosed bleeding disorder associated with mutations in the gene encoding anoctamin-6. Platelets from Scott patients are impaired in various Ca2+-dependent responses, including phosphatidylserine exposure, integrin closure, intracellular protein cleavage, and cytoskeleton-dependent morphological changes. Given the central role of anoctamin-6 in the platelet procoagulant response, we used quantitative proteomics to understand the underlying molec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40069722",
+            "title": "Dys-regulated phosphatidylserine externalization as a cell intrinsic immune escape mechanism in cancer.",
+            "authors": [
+              "Pulica Rachael",
+              "Aquib Ahmed",
+              "Varsanyi Christopher",
+              "Gadiyar Varsha",
+              "Wang Ziren"
+            ],
+            "journal": "Cell communication and signaling : CCS",
+            "year": "2025",
+            "abstract": "The negatively charged aminophospholipid, phosphatidylserine (PS), is typically restricted to the inner leaflet of the plasma membrane under normal, healthy physiological conditions. PS is irreversibly externalized during apoptosis, where it serves as a signal for elimination by efferocytosis. PS is also reversibly and transiently externalized during cell activation such as platelet and immune cell activation. These events associated with physiological PS externalization are tightly controlled b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32543068",
+            "title": "Procoagulant platelets: Laboratory detection and clinical significance.",
+            "authors": [
+              "Tohidi-Esfahani Ibrahim",
+              "Lee Christine S M",
+              "Liang Hai Po H",
+              "Chen Vivien M Y"
+            ],
+            "journal": "International journal of laboratory hematology",
+            "year": "2020",
+            "abstract": "Platelets play a critical role in both haemostasis and thrombosis, and it is now evident that not all platelets behave the same when they are called to action. A functionally distinct subpopulation of platelets forms in response to maximal agonist stimulation: the procoagulant platelet. This platelet subpopulation is defined by its ability to expose phosphatidylserine on its surface, allowing for coagulation factor complexes to form and generate bursts of thrombin and fibrin to stabilize platele",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17118501",
+            "title": "Circulating microparticles: pathophysiology and clinical implications.",
+            "authors": [
+              "Piccin Andrea",
+              "Murphy William G",
+              "Smith Owen P"
+            ],
+            "journal": "Blood reviews",
+            "year": "2007",
+            "abstract": "Microparticles (MP) derived from vascular endothelium or circulating blood cells circulate in the peripheral blood. They originate from blebbing and shedding from cell membrane surfaces in physiological and pathological conditions and are present in low concentrations in normal plasma. Increased levels are generated by a number of mechanisms including platelet activation, direct vascular endothelial damage, thrombin activity on the cell surface, C5b-9 activation, and PF4-heparin-antibody interac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35033201",
+            "title": "The role of phosphatidylserine on the membrane in immunity and blood coagulation.",
+            "authors": [
+              "Wang Jiao",
+              "Yu Changxin",
+              "Zhuang Junyi",
+              "Qi Wenxin",
+              "Jiang Jiawen"
+            ],
+            "journal": "Biomarker research",
+            "year": "2022",
+            "abstract": "The negatively charged aminophospholipid, phosphatidylserine (PtdSer), is located in the inner leaflet of the plasma membrane in normal cells, and may be exposed to the outer leaflet under some immune and blood coagulation processes. Meanwhile, Ptdser exposed to apoptotic cells can be recognized and eliminated by various immune cells, whereas on the surface of activated platelets Ptdser interacts with coagulation factors prompting enhanced production of thrombin which significantly facilitates b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20061396",
+            "title": "Phospholipid-esterified eicosanoids are generated in agonist-activated human platelets and enhance tissue factor-dependent thrombin generation.",
+            "authors": [
+              "Thomas Christopher P",
+              "Morgan Lloyd T",
+              "Maskrey Benjamin H",
+              "Murphy Robert C",
+              "Kühn Hartmut"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "2010",
+            "abstract": "Here, a group of specific lipids, comprising phosphatidylethanolamine (PE)- or phosphatidylcholine (PC)-esterified 12S-hydroxyeicosatetraenoic acid (12S-HETE), generated by 12-lipoxygenase was identified and characterized. 12S-HETE-PE/PCs were formed within 5 min of activation by thrombin, ionophore, or collagen. Esterified HETE levels generated in response to thrombin were 5.85 +/- 1.42 (PE) or 18.35 +/- 4.61 (PC), whereas free was 65.5 +/- 17.6 ng/4 x 10(7) cells (n = 5 separate donors, mean +",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36074709",
+            "title": "Update on platelet procoagulant mechanisms in health and in bleeding disorders.",
+            "authors": [
+              "Bourguignon Alex",
+              "Tasneem Subia",
+              "Hayward Catherine P M"
+            ],
+            "journal": "International journal of laboratory hematology",
+            "year": "2022",
+            "abstract": "Platelet procoagulant mechanisms are emerging to be complex and important to achieving haemostasis. The mechanisms include the release of procoagulant molecules from platelet storage granules, and strong agonist-induced expression of procoagulant phospholipids on the outer platelet membrane for tenase and prothrombinase assembly. The release of dense granule polyphosphate is important to platelet procoagulant function as it promotes the activation of factors XII, XI and V, inhibits tissue factor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9057642",
+            "title": "Platelet prothrombinase activity and intracellular calcium responses in patients with storage pool deficiency, glycoprotein IIb-IIIa deficiency, or impaired platelet coagulant activity--a comparison with Scott syndrome.",
+            "authors": [
+              "Weiss H J",
+              "Lages B"
+            ],
+            "journal": "Blood",
+            "year": "1997",
+            "abstract": "The procoagulant activity of platelets induced by collagen, thrombin, and collagen plus thrombin, measured as their capacity to promote the conversion of prothrombin to thrombin in the presence of factors Va and Xa, was studied in patients with alpha, alpha delta, and delta storage pool deficiency (SPD), thrombasthenia, and in two new patients with isolated defects in platelet coagulant activity, and compared with that in Scott syndrome. The most significant abnormality in the new patients, whos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30232085",
+            "title": "Platelet heterogeneity in activation-induced glycoprotein shedding: functional effects.",
+            "authors": [
+              "Baaten Constance C F M J",
+              "Swieringa Frauke",
+              "Misztal Tomasz",
+              "Mastenbroek Tom G",
+              "Feijge Marion A H"
+            ],
+            "journal": "Blood advances",
+            "year": "2018",
+            "abstract": "The platelet receptors glycoprotein Ibα (GPIbα) and GPVI are known to be cleaved by members of a disintegrin and metalloprotease (ADAM) family (ADAM10 and ADAM17), but the mechanisms and consequences of this shedding are not well understood. Our results revealed that (1) glycoprotein shedding is confined to distinct platelet populations showing near-complete shedding, (2) the heterogeneity between (non)shed platelets is independent of agonist type but coincides with exposure of phosphatidylserin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26330411",
+            "title": "Coordinated Membrane Ballooning and Procoagulant Spreading in Human Platelets.",
+            "authors": [
+              "Agbani Ejaife O",
+              "van den Bosch Marion T J",
+              "Brown Ed",
+              "Williams Christopher M",
+              "Mattheij Nadine J A"
+            ],
+            "journal": "Circulation",
+            "year": "2015",
+            "abstract": "Platelets are central to the process of hemostasis, rapidly aggregating at sites of blood vessel injury and acting as coagulation nidus sites. On interaction with the subendothelial matrix, platelets are transformed into balloonlike structures as part of the hemostatic response. It remains unclear, however, how and why platelets generate these structures. We set out to determine the physiological relevance and cellular and molecular mechanisms underlying platelet membrane ballooning.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19814742",
+            "title": "Laboratory monitoring of Scott Syndrome.",
+            "authors": [
+              "Percy Charles L",
+              "Macartney Nicola",
+              "Pollard Brian",
+              "Rayment Rachel",
+              "Collins Peter W"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2010",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21958383",
+            "title": "Platelet membrane phospholipid asymmetry: from the characterization of a scramblase activity to the identification of an essential protein mutated in Scott syndrome.",
+            "authors": [
+              "Lhermusier T",
+              "Chap H",
+              "Payrastre B"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2011",
+            "abstract": "Like all eukaryotic cells, platelets maintain plasma membrane phospholipid asymmetry in normal blood circulation via lipid transporters, which control transbilayer movement. Upon platelet activation, the asymmetric orientation of membrane phospholipids is rapidly disrupted, resulting in a calcium-dependent exposure of the anionic phospholipid, phosphatidylserine (PS), at the outer platelet surface. This newly-exposed PS surface is a major component of normal hemostasis because it supports platel",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9432050",
+            "title": "Aminophospholipid exposure, microvesiculation and abnormal protein tyrosine phosphorylation in the platelets of a patient with Scott syndrome: a study using physiologic agonists and local anaesthetics.",
+            "authors": [
+              "Dachary-Prigent J",
+              "Pasquet J M",
+              "Fressinaud E",
+              "Toti F",
+              "Freyssinet J M"
+            ],
+            "journal": "British journal of haematology",
+            "year": "1997",
+            "abstract": "The Scott syndrome is a rare inherited haemorrhagic disorder characterized by the inability of blood cells to expose aminophospholipids and to shed microparticles. We have had the opportunity to study a recently reported French patient with this syndrome and have confirmed by means of a fluorescence assay for transbilayer lipid movement a reduced aminophospholipid exposure when platelets were stimulated with the calcium-ionophore ionomycin, in spite of a normal elevation of intracellular Ca2+. S",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10591659",
+            "title": "Procoagulant expression in platelets and defects leading to clinical disorders.",
+            "authors": [
+              "Solum N O"
+            ],
+            "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+            "year": "1999",
+            "abstract": "Hemostasis is a result of interactions between fibrillar structures in the damaged vessel wall, soluble components in plasma, and cellular elements in blood represented mainly by platelets and platelet-derived material. During formation of a platelet plug at the damaged vessel wall, factors IXa and VIIIa form the \"tenase\" complex, leading to activation of factor X on the surface of activated platelets. Subsequently, factors Xa and Va form the \"prothrombinase\" complex, which catalyzes the formati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9704660",
+            "title": "Congenital disorders of platelet function: disorders of signal transduction and secretion.",
+            "authors": [
+              "Rao A K"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1998",
+            "abstract": "Congenital defects in platelet function are associated with bleeding manifestations of variable intensity and arise by diverse mechanisms. Defects in platelet-vessel wall interaction (disorders of adhesion) may arise because of qualitative or quantitative abnormalities in plasma von Willebrand factor (von Willebrand disease) or in platelet glycoprotein Ib, the binding site on platelets for von Willebrand factor (Bernard-Soulier syndrome). Disorders characterized by abnormal platelet-platelet int",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26417084",
+            "title": "TMEM16F is required for phosphatidylserine exposure and microparticle release in activated mouse platelets.",
+            "authors": [
+              "Fujii Toshihiro",
+              "Sakata Asuka",
+              "Nishimura Satoshi",
+              "Eto Koji",
+              "Nagata Shigekazu"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2015",
+            "abstract": "Phosphatidylserine (PtdSer) exposure on the surface of activated platelets requires the action of a phospholipid scramblase(s), and serves as a scaffold for the assembly of the tenase and prothrombinase complexes involved in blood coagulation. Here, we found that the activation of mouse platelets with thrombin/collagen or Ca(2+) ionophore at 20 °C induces PtdSer exposure without compromising plasma membrane integrity. Among five transmembrane protein 16 (TMEM16) members that support Ca(2+)-depen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26848157",
+            "title": "Platelet Control of Fibrin Distribution and Microelasticity in Thrombus Formation Under Flow.",
+            "authors": [
+              "Swieringa Frauke",
+              "Baaten Constance C F M J",
+              "Verdoold Remco",
+              "Mastenbroek Tom G",
+              "Rijnveld Niek"
+            ],
+            "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+            "year": "2016",
+            "abstract": "Platelet- and fibrin-dependent thrombus formation is regulated by blood flow and exposure of collagen and tissue factor. However, interactions between these blood-borne and vascular components are not well understood.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23519467",
+            "title": "Dual mechanism of integrin αIIbβ3 closure in procoagulant platelets.",
+            "authors": [
+              "Mattheij Nadine J A",
+              "Gilio Karen",
+              "van Kruchten Roger",
+              "Jobe Shawn M",
+              "Wieschhaus Adam J"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "2013",
+            "abstract": "Inactivation of integrin αIIbβ3 reverses platelet aggregate formation upon coagulation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38492852",
+            "title": "Comprehensive functional characterization of a novel ANO6 variant in a new patient with Scott syndrome.",
+            "authors": [
+              "Montague Samantha J",
+              "Price Joshua",
+              "Pennycott Katherine",
+              "Pavey Natasha J",
+              "Martin Eleyna M"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2024",
+            "abstract": "Scott syndrome is a mild platelet-type bleeding disorder, first described in 1979, with only 3 unrelated families identified through defective phosphatidylserine (PS) exposure and confirmed by sequencing. The syndrome is distinguished by impaired surface exposure of procoagulant PS on platelets after stimulation. To date, platelet function and thrombin generation in this condition have not been extensively characterized.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "esophageal disease",
+      "txgnn": {
+        "score": 0.8654107451438904,
+        "rank": 37991
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01943617",
+            "title": "Optimized Treatment and Regression of HBV-induced Compensated Liver Cirrhosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 606,
+            "start_date": "2013-06",
+            "completion_date": "2016-12",
+            "brief_summary": "Six hundreds patients with chronic hepatitis B clinically diagnosed as compensated liver cirrhosis are randomly assigned in a 1:1 ratio. One arm is entecavir alone for 2 years; the other is entecavir alone for the first 0.5 year, entecavir plus thymosin-α for 1 year, entecavir for another additional 0.5 year.Patients will be assessed at baseline, at every six months for blood cell count, liver function test, HBVDNA, AFP, prothrombin time, liver ultrasonography, and Fibroscan;",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06154291",
+            "title": "Phase I/II, Multi Center, Open Label, First-in-human, Dose Escalation and Expansion Study to Investigate the Safety, Pharmacokinetics, and Anti-tumors Efficacy of the Glyco-humanized Polyclonal Antibody XON7 in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 255,
+            "start_date": "2023-11-14",
+            "completion_date": "2027-11",
+            "brief_summary": "This is a two-stage trial consisting of a Part I, dose escalation and dose-finding component to establish the Maximal Tolerated Dose (MTD), if any, and Recommended Part 2 Dose (RP2D) of XON7, followed by a Part II component to investigate anti-tumors efficacy in selected solid tumor types and to further evaluate safety and tolerability of XON7 at RP2D.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07413549",
+            "title": "A Phase I-II Clinical Study on the Safety, Tolerability, and Preliminary Efficacy of Human Umbilical Cord Mesenchymal Stem Cell Injection in Patients With Decompensated Hepatitis B Cirrhosis",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 76,
+            "start_date": "2025-02-25",
+            "completion_date": "2027-12-31",
+            "brief_summary": "Phase I (Single Administration, Randomized, Double-blind, Dose Escalation)Primary Objective: To evaluate the safety and tolerability of Human Umbilical Cord Mesenchymal Stem Cell Injection in patients with decompensated hepatitis B cirrhosis, and to determine the safe clinical dose.Secondary Objective: To evaluate the preliminary efficacy of Human Umbilical Cord Mesenchymal Stem Cell Injection in patients with decompensated hepatitis B cirrhosis, providing a basis for the design of subsequent cl",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02224456",
+            "title": "A Prospective, Multi-center, Cohort Study to Evaluate the Efficacy and Safety of Tenofovir Disoproxil Fumarate (TDF) Therapy in Chinese Chronic Hepatitis B (CHB) Subjects With Advanced Fibrosis & Compensated Cirrhosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 197,
+            "start_date": "2015-03-25",
+            "completion_date": "2020-12-04",
+            "brief_summary": "Chronic Hepatitis B infection (CHB) is known as the most frequently identified cause of liver disease that predisposes patients to the development of hepatocellular carcinoma (HCC). Active hepatitis B virus (HBV) replication is the key driver of liver injury and disease progression. Majority of Chinese patients are infected with genotype B and C HBV, which is different from Caucasian counterparts. This prospective multi-center cohort open-label study is designed to investigate the long-term effe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01717612",
+            "title": "A Prospective, Randomized Trial of Histoacryl Injection Versus Thrombin in the Control of Acute Gastric Variceal Bleeding",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 62,
+            "start_date": "2012-10",
+            "completion_date": "",
+            "brief_summary": "Though histoacryl injection is now regarded as treatment of choice in the control of gastric variceal hemorrhage, it may be associated with a lot of complications such as ulcers, ulcer bleeding, bacterial infections, distant site thrombosis and cerebral vascular accident. On the other hand, thrombin has been shown to be effective in acute hemostasis of bleeding gastric varices, ranging from 70% to 100% has been recorded. The rebleeding rates were between 7% and 50%. Moreover, the benefits of thr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02105506",
+            "title": "Safety and Feasibility of TachoSil®: Application on Esophageal Anastomoses",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2012-09",
+            "completion_date": "2014-12",
+            "brief_summary": "Rationale: The construction of esophageal anastomoses is associated with considerable risk at postoperative anastomotic leakage. Application of TachoSil®, a tissue sealant with human fibrinogen and thrombin, can improve strength of the esophageal anastomosis and potentially prevent anastomotic leakage.\n\nObjective: Evaluation of feasibility and safety of TachoSil® application on esophageal anastomoses.\n\nStudy design: Non-randomized, non-blinded, single-center intervention study. Study population:",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03777969",
+            "title": "Precise Prediction System for Clinical Endpoint Events of Chronic Hepatitis B Patients in the Ear of Antiviral Therapy",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 2000,
+            "start_date": "2018-06-29",
+            "completion_date": "2028-12-31",
+            "brief_summary": "A total of 2000 chronic hepatitis B (CHB) patients with liver biopsy performed at least 1 year after antiviral therapy are enrolled. All the patients will receive original antiviral treatment for the following 10 years. Patients will be assessed at baseline and at every six months for blood count, liver function test, alpha fetoprotein (AFP), prothrombin time, liver ultrasonography, liver stiffness measurement (LSM), Hepatitis B virus (HBV) DNA and HBV serological markers. HBV-related endpoint e",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06874127",
+            "title": "Establishment and Application of a Non-Invasive Dynamic Model for Fibrosis Regression in Patients with Chronic Hepatitis B",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 1100,
+            "start_date": "2024-02-01",
+            "completion_date": "2026-05-01",
+            "brief_summary": "A total of 1000 chronic hepatitis B (CHB) patients with liver biopsy performed at least 1 year after antiviral therapy are retrospectively enrolled. All the patients received NAs treatment. Blood count, liver function test, alpha fetoprotein (AFP), prothrombin time, liver ultrasonography, liver stiffness measurement (LSM), Hepatitis B virus (HBV) DNA and HBV serological markers were collected. HBV-related endpoint events, including cirrhosis decompensations (ascites, esophageal variceal bleeding",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06248411",
+            "title": "A Phase 1, Uncontrolled, Open-label, Non-randomized, Dose-escalation Study of KK2260 in Patients With Advanced or Metastatic Solid Tumors, Followed by an Uncontrolled, Non-randomized Study and an Uncontrolled, Randomized Study in Patients With Esophageal Squamous Cell Carcinoma or Head and Neck Squamous Cell Carcinoma",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 189,
+            "start_date": "2023-11-01",
+            "completion_date": "2030-04-30",
+            "brief_summary": "This is the first in human study of KK2260. In Part 1a, the maximum tolerated dose (MTD) will be determined while evaluating the safety and tolerability of KK2260 in patients with advanced or metastatic solid tumors (any cancer type). In Part 1b and Part 2, at least two dosing regimens and two dosing regimens by cancer type, respectively, will be selected, and the safety, tolerability, and efficacy of each regimen will be evaluated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00562783",
+            "title": "A Phase II, Double-blinded, Randomized, Controlled Study to Evaluate the Efficacy and Safety of Vitalliver in Patients With Decompensated Cirrhosis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2005-01",
+            "completion_date": "2006-05",
+            "brief_summary": "Cirrhosis is a diffuse lesion characterized by architectural distortion of the liver because of collagen deposition and development of nodules of regenerating hepatocytes. It is an irreversible change that results from diseases characterized by chronic liver injury (Fujimoto, 2000). Cirrhosis alters the pattern of blood flow through the liver and results in impaired perfusion of hepatic lobules with intrahepatic and extrahepatic shunting of blood. This deprives hepatocytes of uniform perfusion b",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39480369",
+            "title": "Endoscopic devices and techniques for the management of gastric varices (with videos).",
+            "authors": [
+              "Trikudanathan Guru",
+              "Rahimi Erik F",
+              "Bhatt Amit",
+              "Bucobo Juan Carlos"
+            ],
+            "journal": "Gastrointestinal endoscopy",
+            "year": "2025",
+            "abstract": "Gastric variceal bleeding occurs less commonly than bleeding from esophageal varices (EVs), although it is associated with higher morbidity and mortality. Bleeding from gastroesophageal varices type 1 (GOV1) is treated like EVs. In contrast, other forms of gastric variceal bleeding, including gastroesophageal varices type 2 (GOV2) and isolated gastric varices types 1 (IGV1) and 2 (IGV2), are treated with varying endoscopic approaches. Nonendoscopic methods include transjugular intrahepatic porto",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30196518",
+            "title": "Role and safety of human thrombin injection for the treatment of bleeding gastric varices.",
+            "authors": [
+              "Jhajharia Ashok",
+              "Wanjari Shashank J",
+              "Ashdhir Prachis",
+              "Pokharna Rupesh",
+              "Nijhawan Sandeep"
+            ],
+            "journal": "Indian journal of gastroenterology : official journal of the Indian Society of Gastroenterology",
+            "year": "2018",
+            "abstract": "Human thrombin appears to be a new effective tool in the armamentarium of management of bleeding gastric varices, but there are paucity of data on its use. Thus, we share our experience with human thrombin in the treatment of bleeding gastric varices.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23139607",
+            "title": "Human thrombin for the treatment of gastric and ectopic varices.",
+            "authors": [
+              "McAvoy Norma C",
+              "Plevris John N",
+              "Hayes Peter C"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2012",
+            "abstract": "To evaluate the efficacy of human thrombin in the treatment of bleeding gastric and ectopic varices.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39319363",
+            "title": "Endoscopic ultrasound-guided vascular interventions.",
+            "authors": [
+              "Irisawa Atsushi",
+              "Nagashima Kazunori",
+              "Yamamiya Akira",
+              "Abe Yoko",
+              "Maki Takumi"
+            ],
+            "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society",
+            "year": "2025",
+            "abstract": "With the recent development of interventional endoscopic ultrasound (EUS), EUS-guided vascular interventions have seen increased clinical and research focus. This modality can be used to diagnose portal hypertension and treat portal hypertension-related gastrointestinal varices and refractory gastrointestinal hemorrhage, including pseudoaneurysm. The vascular embolic materials used for treatment include tissue adhesives (cyanoacrylates), sclerosants, thrombin, and vascular embolic coils, all of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33728506",
+            "title": "Safety and Efficacy of Thrombin for Bleeding Gastric Varices: A Systematic Review and Meta-Analysis.",
+            "authors": [
+              "Bhurwal Abhishek",
+              "Makar Michael",
+              "Patel Anish",
+              "Mutneja Hemant",
+              "Goel Akshay"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "2022",
+            "abstract": "The optimal therapy for bleeding-related gastric varices is still a controversial topic. There is a paucity of literature that comprehensively summarizes the available literature regarding safety and efficacy of thrombin in bleeding gastric varices.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8180541",
+            "title": "Management of variceal haemorrhage.",
+            "authors": [
+              "Williams S G",
+              "Westaby D"
+            ],
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "1994",
+            "abstract": "Fig 2 gives an algorithm for the treatment of bleeding oesophageal varices. Initial resuscitation of the patient is of paramount importance, ideally followed by early interventional endoscopy. Recent advances in available endoscopic techniques enable the endoscopist to suit the therapeutic approach to the clinical situation. Injection sclerotherapy remains the initial treatment of choice in bleeding patients. Endoscopic banding ligation is an alternative, best used in patients who have spontaneo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26452739",
+            "title": "Pradaxa-induced esophageal ulcer.",
+            "authors": [
+              "Wood Michele",
+              "Shaw Paul"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2015",
+            "abstract": "Pradaxa (dabigatran) is a direct thrombin inhibitor approved for prevention of stroke and systemic embolism in patients with non-valvular atrial fibrillation. We describe a case of esophageal ulceration associated with Pradaxa administration in a 75-year-old man. The patient reported difficulty swallowing and a burning sensation after taking his first dose of Pradaxa. An esophagogastroduodenoscopy (EGD) revealed linear ulcerations in the mid-esophagus. Pradaxa was held beginning the day before t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37562855",
+            "title": "Technical and clinical outcomes following EUS-guided thrombin injection and coil implantation for parastomal varices.",
+            "authors": [
+              "Todd Andrew",
+              "Shekhar Chander",
+              "O'Rourke Joanne",
+              "Forde Colm",
+              "Pallan Arvind"
+            ],
+            "journal": "BMJ open gastroenterology",
+            "year": "2023",
+            "abstract": "Bleeding from parastomal varices causes significant morbidity and mortality. Treatment options are limited, particularly in high-risk patients with significant underlying liver disease and other comorbidities. The use of EUS-guided embolisation coils combined with thrombin injection in gastric varices has been shown to be safe and effective. Our institution has applied the same technique to the treatment of parastomal varices.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38316226",
+            "title": "EUS-guided thrombin injection and coil implantation for gastric varices: feasibility, safety, and outcomes.",
+            "authors": [
+              "O'Rourke Joanne",
+              "Todd Andrew",
+              "Shekhar Chander",
+              "Forde Colm",
+              "Pallan Arvind"
+            ],
+            "journal": "Gastrointestinal endoscopy",
+            "year": "2024",
+            "abstract": "Gastric varices (GVs) are reported in up to 20% of patients with portal hypertension, and bleeding is often more severe and challenging than esophageal variceal bleeding. Data are limited on prophylaxis of GV bleeding or management in the acute setting, and different techniques are used. This study evaluated outcomes after EUS-guided placement of coils in combination with thrombin to manage GVs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24342596",
+            "title": "Response.",
+            "authors": [
+              "Rodriguez Sarah"
+            ],
+            "journal": "Gastrointestinal endoscopy",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24892515",
+            "title": "Outcomes of endoscopic human thrombin injection in the management of gastric varices.",
+            "authors": [
+              "Smith Matthew R",
+              "Tidswell Robert",
+              "Tripathi Dhiraj"
+            ],
+            "journal": "European journal of gastroenterology & hepatology",
+            "year": "2014",
+            "abstract": "Endoscopic human thrombin injection appears to be a technically simple and efficacious alternative to tissue adhesives with fewer complications; however, data remain limited. We analysed our experience using endoscopic human thrombin injection for gastric varices in a tertiary referral liver unit.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22841202",
+            "title": "Coagulopathy management in liver transplantation.",
+            "authors": [
+              "Sabate A",
+              "Dalmau A",
+              "Koo M",
+              "Aparicio I",
+              "Costa M"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "2012",
+            "abstract": "Risk of bleeding and transfusion in liver transplantation is determined by age, severity of liver disease, as well as hemoglobin and plasma fibrinogen values. During the hepatectomy and the anhepatic phase, the coagulopathy is related to a decrease in clotting factors caused by surgical bleeding, facilitated by the increased portal hypertension and esophageal-gastric venous distension. Corrections of hematologic disturbances by administration of large volumes of crystalloid, colloid, or blood pr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32580218",
+            "title": "Management of acute gastric variceal hemorrhage.",
+            "authors": [
+              "Ibrahim Mostafa"
+            ],
+            "journal": "Endoscopy",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38404210",
+            "title": "Advances in the endoscopic management of gastric varices.",
+            "authors": [
+              "Chi Xin-Tong",
+              "Lian Ting-Ting",
+              "Zhuang Ze-Hao"
+            ],
+            "journal": "Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society",
+            "year": "2024",
+            "abstract": "This review provides an overview of the treatment options available for gastric varices (GV) with a focus on endoscopic methods. Various minimally invasive techniques, including endoscopic band ligation, endoscopic cyanoacrylate injection, and transjugular intrahepatic portosystemic shunt, can be applied to the treatment of GV. Endoscopic cyanoacrylate injection is now recognized as a first-line treatment for GV. Endoscopic ultrasound-guided cyanoacrylate injection combined with coils has shown ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33389241",
+            "title": "The Role of Endoscopic Ultrasound (EUS) in the Management of Gastric Varices.",
+            "authors": [
+              "Thiruvengadam Sushrut Sujan",
+              "Sedarat Alireza"
+            ],
+            "journal": "Current gastroenterology reports",
+            "year": "2021",
+            "abstract": "Gastric varices (GV) are an important complication of portal hypertension, and the current recommendation for management is beta-blocker therapy for primary prophylaxis and transjugular intrahepatic portosystemic shunt (TIPS) for active bleeding or secondary prophylaxis. Direct endoscopic injection of cyanoacrylate (CYA) glue has been investigated but has drawbacks including limited endoscopic characterization of GV and possible distal glue embolism. To this end, endoscopic ultrasound (EUS) has ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25438285",
+            "title": "Endoscopic treatment of gastric varices.",
+            "authors": [
+              "Sarin Shiv K",
+              "Kumar Awinash"
+            ],
+            "journal": "Clinics in liver disease",
+            "year": "2014",
+            "abstract": "Gastric varices (GV) are present in one in 5 patients with portal hypertension and variceal bleeding. GV bleeds tend to be more severe with higher mortality. High index of suspicion, early detection and proper locational diagnosis are important. An algorithmic approach to the management of GV bleeding prevents rebleeds and improves survival. Vasoactive drugs should be started with in 30 minutes (door to needle time) and early endotherapy be done. Cyanoacrylate injection in experienced hands achi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10643628",
+            "title": "Endoscopic treatments for portal hypertension.",
+            "authors": [
+              "de Franchis R",
+              "Primignani M"
+            ],
+            "journal": "Seminars in liver disease",
+            "year": "1999",
+            "abstract": "Endoscopic treatments for bleeding gastroesophageal varices include injection sclerotherapy, variceal obturation with tissue adhesives, and variceal rubber band ligation. Acute injection sclerotherapy remains a quick and simple technique for the control of active bleeding from esophageal varices. Although few trials have been published so far, some evidence suggests that the early administration of vasoactive drugs (somatostatin, octreotide, or terlipressin) is safe and may increase the efficacy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23880574",
+            "title": "Management of acute gastric varices bleeding.",
+            "authors": [
+              "Chang Chen-Jung",
+              "Hou Ming-Chih",
+              "Liao Wei-Chih",
+              "Chen Ping-Hsien",
+              "Lin Han-Chieh"
+            ],
+            "journal": "Journal of the Chinese Medical Association : JCMA",
+            "year": "2013",
+            "abstract": "Gastroesophageal varices bleeding is a major complication in patients with cirrhosis. Gastric varices (GVs) occur in approximately 20% of patients with portal hypertension. However, GV bleeding develops in only 25% of patients with GV and requires more transfusion and has higher mortality than esophageal variceal (EV) bleeding. The best strategy for managing acute GV bleeding is similar to that of acute EV bleeding, which involves airway protection, hemodynamic stabilization, and intensive care.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14665393",
+            "title": "Haemostatic abnormalities in hepatosplenic schistosomiasis mansoni.",
+            "authors": [
+              "Tanabe Masanobu"
+            ],
+            "journal": "Parasitology international",
+            "year": "2003",
+            "abstract": "Hepatosplenic schistosomiasis is a complex immuno-regulatory disease and is major health problem in endemic countries. Acute bleeding is one of its most serious complications and often life-threatening. Clinical studies have demonstrated that the patients with hepatosplenic schistosomiasis are prone to develop complex haemostatic abnormalities that may be linked to the potential risk of bleeding from ruptured esophageal varices in these patients. The deficit in haemostatic parameters is more pro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37983812",
+            "title": "Endoscopic Glue Injection Versus Endoscopic Human Thrombin Injection for Bleeding Gastric Varices-A Randomized Controlled Trial.",
+            "authors": [
+              "Jhajharia Ashok",
+              "Ashdhir Prachis",
+              "Dhaked Gireesh",
+              "Sharma Hitesh"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "2024",
+            "abstract": "Acute gastric variceal bleeding (AGVB) is a potentially fatal consequence of portal hypertension, accounting for 10% to 30% of all variceal bleeding. Although endoscopic cyanoacrylate glue injection is a common treatment for acute hemostasis, it has been linked to significant side effects. In the treatment of AGVB, there is limited evidence of the efficacy and relative safety of endoscopic human thrombin injection over glue injection.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+      "txgnn": {
+        "score": 0.8621460795402527,
+        "rank": 38272
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27627660",
+            "title": "Anti-Human Platelet Antigen-1a Immunoglobulin G Preparation Intended to Prevent Fetal and Neonatal Alloimmune Thrombocytopenia.",
+            "authors": [
+              "Weng Ying-Jan",
+              "Husebekk Anne",
+              "Skogen Björn",
+              "Kjaer Mette",
+              "Lin Liang-Tzung"
+            ],
+            "journal": "PloS one",
+            "year": "2016",
+            "abstract": "Fetal and neonatal alloimmune thrombocytopenia (FNAIT) is a severe disease that is caused by maternal alloantibodies generated during pregnancy or at delivery as a result of incompatibility between maternal and fetal human platelet antigens (HPAs) inherited from the father. Antibody-mediated immune suppression using anti-HPA-1a immunoglobulins is thought to be able to prevent FNAIT caused by HPA-1a. A fractionation process to prepare anti-HPA-1a immunoglobulin (Ig) G (IgG) from human plasma was ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31142810",
+            "title": "Neonatal thrombocytopenia: Thrombin generation in presence of reduced platelet counts and effects of rFVIIa in cord blood.",
+            "authors": [
+              "Haidl Harald",
+              "Pohl Sina",
+              "Leschnik Bettina",
+              "Gallistl Siegfried",
+              "Muntean Wolfgang"
+            ],
+            "journal": "Scientific reports",
+            "year": "2019",
+            "abstract": "Healthy neonates exhibit a well-functioning haemostatic system despite peculiarities regarding composition of clotting factors and inhibitors as well as impaired platelet aggregation. Thrombocytopenia and severe bleeding events are feared in sick infants. Recombinant factor VIIa (rFVIIa) is a haemostatic agent used as a last resort in neonates with refractory bleedings. Aim of this study was to investigate in-vitro (i) changes in thrombin generation with different platelet counts, (ii) effects o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35388576",
+            "title": "Preliminary mechanism in fetal alloimmune thrombocytopenia associated with anti-HPA 15b antibodies.",
+            "authors": [
+              "Shao Yuan",
+              "Ye Xin",
+              "Xu Xiuzhang",
+              "Mai Mingqin",
+              "Chen Dawei"
+            ],
+            "journal": "The journal of obstetrics and gynaecology research",
+            "year": "2022",
+            "abstract": "Fetal and neonatal alloimmune thrombocytopenia (FNAIT) is a bleeding disease that can cause fetal hydrops, a rare but life-threatening condition in which abnormal amounts of fluid accumulate in one or two areas of the fetus's body. A case of FNAIT with fetal hydrops caused by anti-HPA-15b antibodies was involved in this study, as we investigated whether or not anti-HPA-15b antibodies can induce endothelial angiogenesis and apoptosis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27282765",
+            "title": "Platelets are versatile cells: New discoveries in hemostasis, thrombosis, immune responses, tumor metastasis and beyond.",
+            "authors": [
+              "Xu Xiaohong Ruby",
+              "Zhang Dan",
+              "Oswald Brigitta Elaine",
+              "Carrim Naadiya",
+              "Wang Xiaozhong"
+            ],
+            "journal": "Critical reviews in clinical laboratory sciences",
+            "year": "2016",
+            "abstract": "Platelets are small anucleate blood cells generated from megakaryocytes in the bone marrow and cleared in the reticuloendothelial system. At the site of vascular injury, platelet adhesion, activation and aggregation constitute the first wave of hemostasis. Blood coagulation, which is initiated by the intrinsic or extrinsic coagulation cascades, is the second wave of hemostasis. Activated platelets can also provide negatively-charged surfaces that harbor coagulation factors and markedly potentiat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "platelet-type bleeding disorder",
+      "txgnn": {
+        "score": 0.8613312840461731,
+        "rank": 38347
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05328804",
+            "title": "Evaluating the Efficacy and Safety of the Combination of Herombopag and Human Thrombopoietin (rhTPO) in the Treatment of Patients With Severe Immune Thrombocytopenia (ITP)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 90,
+            "start_date": "2022-01-01",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Severe immune thrombocytopenia (ITP) is a life-threatening acquired hemorrhagic disease with dramatically decreased platelet number and clinical bleeding symptoms. Some patients with severe ITP did not respond to first-line treatment including steroids and IVIG. It was critical for them to use effective treatments to promote platelet and reduce the risk of fatal bleeding. In this study, the patients with severe ITP will be treated with hetrombopag, rhTPO, and the combination of hetrombopag and r",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06617897",
+            "title": "A Phase 3, Single-center, Randomized, Controlled Clinical Study to Investigate the Efficacy of Fibrinogen Concentrate (CSL511) in Subjects With Pseudomyxoma Peritonei Undergoing Cytoreductive Surgery",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 90,
+            "start_date": "2024-10-01",
+            "completion_date": "2026-10-30",
+            "brief_summary": "This study is a phase 3, prospective, single center, randomized, open label, controlled, parallel arm, interventional study to investigate the efficacy and safety of CSL511, in participants undergoing cytoreductive surgery (CRS) with hyperthermic intraperitoneal chemotherapy (HIPEC) for pseudomyxoma peritonei (PMP) with predicted intraoperative blood loss of greater than or equal to (\\>=) 2 liter (L). Eligible participants will be randomized in a 1:1 ratio to 1 of 2 treatment arms, to receive CS",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06944275",
+            "title": "Characterising the Loss of Haemostasis in Haemorrhagic Fever With Renal Syndrome",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 62,
+            "start_date": "2026-05-01",
+            "completion_date": "2027-08-31",
+            "brief_summary": "Hantaviruses are globally distributed viruses that cause haemorrhagic fever with renal syndrome (HFRS) in Europe, a disease characterised by acute kidney failure and, in some cases, significant bleeding complications. The mechanisms underlying clotting abnormalities in HFRS remain poorly understood. This study aims to investigate the pathological mechanisms of clotting dysfunction in hospitalised HFRS patients, assess the impact of different hantavirus types on disease severity, and evaluate the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04631211",
+            "title": "A Prospective, Multicenter, Randomized, Open-Label Phase 2, Parallel, Dose Ranging Multidose Study of Thrombosomes® vs Liquid Stored Platelets (LSP) in Bleeding Thrombocytopenic Patients",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 21,
+            "start_date": "2021-03-05",
+            "completion_date": "2022-01-07",
+            "brief_summary": "This prospective, multicenter, randomized, open-label, Phase 2, parallel, dose ranging, multidose trial will enroll patients into 3 Thrombosomes dose groups and 1 control liquid stored platelets (LSP) group in order to evaluate, in a dose-escalation manner, the safety, and impact on bleeding, and the preliminary effect on coagulation measures of increasing doses of allogeneic Thrombosomes in comparison to standard of care, LSP.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04677803",
+            "title": "A Phase 2a Multiple Dose Basket Study of the Safety, Tolerability, and Pharmacologic Activity of BT200 in Patients With Hereditary Bleeding Disorders",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2020-12-14",
+            "completion_date": "2021-09-10",
+            "brief_summary": "BT200 is a PEGylated aptamer that binds to the A1 domain of human von Willebrand factor (VWF). At low doses, BT200 blocks the clearance of VWF antigen (VWF Ag) from the circulation and causes an increase in concentrations of both VWF Ag and Factor VIII (FVIII), but has negligible effect on the activity of either. At higher doses, BT200 blocks clearance of VWF and also inhibits its activity, but still does not inhibit FVIII activity. Therefore, low dose BT200 could potentially be used to correct ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05434728",
+            "title": "Disordered Bleeding in Ehlers Danlos Syndromes",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 45,
+            "start_date": "2022-11-01",
+            "completion_date": "2024-02-01",
+            "brief_summary": "Ehlers-Danlos Syndrome (EDS) is a disease that weakens the connective tissues (i.e. tendons and ligaments) in the human body. EDS can make the joints loose and alter skin and wound healing. It can also weaken blood vessels and organs. Many EDS patients are referred for investigation of bleeding symptoms. Although most patients will have mild symptoms such as bruising, many will experience significant bleeding that can be life-threatening. The physiological reason behind this has not been identif",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04234113",
+            "title": "A Multicenter Open-label Phase 1/1b Study to Evaluate the Safety and Preliminary Efficacy of SO-C101 as Monotherapy and in Combination With Pembrolizumab in Patients With Selected Advanced/Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 115,
+            "start_date": "2019-06-13",
+            "completion_date": "2024-11-27",
+            "brief_summary": "A multicenter open-label phase 1/1b study to evaluate the safety and preliminary efficacy of nanrilkefusp alfa as monotherapy and in combination with pembrolizumab in patients with selected advanced/metastatic solid tumors",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05385952",
+            "title": "A Prospective, Multicenter, Randomized Clinical Investigation Evaluating the Safety and Efficacy of GATT-Patch Versus TachoSil for Hemostasis During Open Liver Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 132,
+            "start_date": "2022-08-04",
+            "completion_date": "2024-05-10",
+            "brief_summary": "This is a pre-market, prospective, randomized (2:1), multicenter, multi-national pivotal clinical investigation. The purpose of this investigation is to determine the clinical safety and performance of GATT-Patch as compared with TachoSil for the management of minimal, mild, or moderate bleeding during elective open liver surgery.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02224456",
+            "title": "A Prospective, Multi-center, Cohort Study to Evaluate the Efficacy and Safety of Tenofovir Disoproxil Fumarate (TDF) Therapy in Chinese Chronic Hepatitis B (CHB) Subjects With Advanced Fibrosis & Compensated Cirrhosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 197,
+            "start_date": "2015-03-25",
+            "completion_date": "2020-12-04",
+            "brief_summary": "Chronic Hepatitis B infection (CHB) is known as the most frequently identified cause of liver disease that predisposes patients to the development of hepatocellular carcinoma (HCC). Active hepatitis B virus (HBV) replication is the key driver of liver injury and disease progression. Majority of Chinese patients are infected with genotype B and C HBV, which is different from Caucasian counterparts. This prospective multi-center cohort open-label study is designed to investigate the long-term effe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02484092",
+            "title": "Gene Therapy, Open-label, Dose-escalation Study of PF-06838435 (SPK-9001) [Adeno-associated Viral Vector With Human Factor IX Gene] in Subjects With Hemophilia B",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2015-11-18",
+            "completion_date": "2019-04-08",
+            "brief_summary": "A Phase 1/2, Open-Label, Non-Randomized, Dose-Escalation Study of SPK-9001 in Subjects with Hemophilia B.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05951777",
+            "title": "Autologous Adipose-Derived Mesenchymal Stem Cells for Chronic Traumatic Brain Injury",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 51,
+            "start_date": "2024-04-16",
+            "completion_date": "2026-12",
+            "brief_summary": "The global objective of this study is to establish the safety and investigate the potential treatment effect of an intravenous infusion of HB-adMSCs (Hope Biosciences adipose-derived mesenchymal stem cells) on brain structure, neurocognitive/functional outcomes, and neuroinflammation after traumatic brain injury.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06862388",
+            "title": "Clinical Research on Umbilical Cord Mesenchymal Stem Cells Therapy for Patients with Subacute Intracerebral Hemorrhage",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 39,
+            "start_date": "2025-03-01",
+            "completion_date": "2027-07-31",
+            "brief_summary": "Intracerebral hemorrhage (ICH) is a common condition with high morbidity, mortality, and disability. The current treatments for ICH primarily include surgical and pharmacological interventions. For large hematomas, surgical options such as craniotomy, debridement, decompression, and minimally invasive hematoma aspiration may be performed. Pharmacological treatments are mainly symptomatic. Despite timely and standardized surgical or pharmacological interventions, many patients with ICH still expe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06284590",
+            "title": "A Phase 2, Three-arm, Randomized Study of the Efficacy of Intratumorally Administered L19IL2 or L19TNF or L19IL2/L19TNF, All in Combination with Systemic Anti-PD1 Pembrolizumab, in Stage III and IV Unresectable Melanoma Patients with Resistance to or Progressing Upon Anti-PD1 Checkpoint Inhibitors and with Presence of Injectable Metastases",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 162,
+            "start_date": "2024-07-12",
+            "completion_date": "2028-07",
+            "brief_summary": "The trial aims to evaluate the efficacy of single agent L19IL2, single agent L19TNF, and combination L19IL2+L19TNF given concurrently with anti-PD1 therapy compared to historical control of anti-PD-1 re-challenge alone for anti-PD1 refractory unresectable stage III-IV melanoma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06942247",
+            "title": "A Clinical Study to Evaluate the Safety and Efficacy of Biologic Hollow Bone Screws",
+            "phase": "NA",
+            "status": "SUSPENDED",
+            "enrollment": 160,
+            "start_date": "2024-01-01",
+            "completion_date": "2026-12-30",
+            "brief_summary": "Traditional fracture fixation devices can cause corrosion, allergies, and stress shielding effects. They often require removal after healing, risking secondary damage. Recently, biodegradable materials have gained attention for their effective clinical use in fracture fixation. Absorbable bone nails, for example, eliminate the need for a second surgery, reducing pain and costs while avoiding infection and tissue re-injury. They do not corrode and are invisible on X-rays, allowing for thorough pa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05935358",
+            "title": "Nuwiq for Perioperative Management Of Patients With Haemophilia A on Emicizumab Regular Prophylaxis Study (NuPOWER)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 28,
+            "start_date": "2023-11-28",
+            "completion_date": "2026-08",
+            "brief_summary": "Recombinant factor VIII for the prevention of bleeding in patients with severe haemophilia A undergoing major surgery while receiving emicizumab prophylaxis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16138000",
+            "title": "Platelet-mimicry of cancer cells: epiphenomenon with clinical significance.",
+            "authors": [
+              "Tímár József",
+              "Tóvári József",
+              "Rásó Erzsébet",
+              "Mészáros Livia",
+              "Bereczky Bíborka"
+            ],
+            "journal": "Oncology",
+            "year": "2005",
+            "abstract": "Stem cell mimicry of cancer cells has been known for a long time and is considered to be responsible for ectopic gene expressions. The stem cell characteristics of tumor cells are shown to be involved in epithelial-mesenchymal transition and in the phenomenon of vascular mimicry. Certain cancer types acquire a geno-phenotype closely resembling the platelets and express several megakaryocytic genes (adhesion receptors alpha IIb beta 3, thrombin receptor and PECAM/CD 31 and/or platelet-type 12-LOX",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28004055",
+            "title": "Thrombocytopathy leading to impaired in vivo haemostasis and thrombosis in platelet type von Willebrand disease.",
+            "authors": [
+              "Kaur Harmanpreet",
+              "Corscadden Kathryn",
+              "Ware Jerry",
+              "Othman Maha"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2017",
+            "abstract": "Platelet defects due to hyper-responsive GPIbα causing enhanced VWF interaction, counter-intuitively result in bleeding rather than thrombosis. The historical explanation of platelet/VWF clearance fails to explain mechanisms of impaired haemostasis particularly in light of reported poor platelet binding to fibrinogen. This study aimed to evaluate the defects of platelets with hyper-responsive GPIbα and their contribution to impaired in vivo thrombosis. Using the PT-VWD mouse model, platelets fro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9371310",
+            "title": "Molecular abnormalities in Glanzmann's thrombasthenia, Bernard-Soulier syndrome, and platelet-type von Willebrand's disease.",
+            "authors": [
+              "Clemetson K J",
+              "Clemetson J M"
+            ],
+            "journal": "Current opinion in hematology",
+            "year": "1994",
+            "abstract": "Genetic defects of the blood platelet membrane glycoproteins, GPIIb-IIIa (alpha IIb/beta 3; CD41/CD61) and GPIb-V-IX (CD42) are the origin of several rare bleeding disorders, the best known of which are Glanzmann's thrombasthenia, Bernard-Soulier syndrome, and platelet-type von Willebrand's disease. In Glanzmann's thrombasthenia, GPIIb-IIIa are missing or defective and platelet aggregation is lacking or reduced. Either gene can be affected and mutations leading to lack of expression or to expres",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16684008",
+            "title": "Congenital platelet disorders: overview of their mechanisms, diagnostic evaluation and treatment.",
+            "authors": [
+              "Hayward C P M",
+              "Rao A K",
+              "Cattaneo M"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2006",
+            "abstract": "The bleeding problems associated with common and rare inherited platelet disorders illustrate the importance of platelets to normal haemostasis. At sites of injury, platelets normally adhere, undergo activation, secretion and aggregate formation, and they provide the membrane surface for the assembly of coagulation to generate thrombin. The causes of inherited disorders that alter platelet haemostatic functions are quite diverse, ranging from defects in receptors critical to platelet adhesion an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6415113",
+            "title": "von Willebrand factor binds to platelets and induces aggregation in platelet-type but not type IIB von Willebrand disease.",
+            "authors": [
+              "Miller J L",
+              "Kupinski J M",
+              "Castella A",
+              "Ruggeri Z M"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1983",
+            "abstract": "Platelet-type von Willebrand disease (vWD) and pseudo-vWD are two recently described intrinsic platelet defects characterized by enhanced ristocetin-induced agglutination in platelet-rich plasma. A similar finding is also typical of type IIB vWD, where it has been related to a von Willebrand factor (vWF) rather than a platelet abnormality. Platelet aggregation induced by unmodified human vWF in the absence of other stimuli has been reported in pseudo-vWD. In this study we demonstrate that vWF in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3018956",
+            "title": "Further studies on aggregation of platelet-type von Willebrand's disease platelets by human von Willebrand factor.",
+            "authors": [
+              "Takahashi H",
+              "Tatewaki W",
+              "Hanano M",
+              "Nagayama R",
+              "Shibata A"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "1986",
+            "abstract": "Platelet-type von Willebrand's disease (vWD) is a bleeding disorder characterized by a heightened interaction between platelets and von Willebrand factor (vWF) as the result of an intrinsic platelet abnormality (probably in GPIb). Platelet aggregability was nearly normal in response to thrombin, wheat germ agglutinin and Ricinus communis agglutinin in this disorder. Unmodified platelets showed no aggregation upon the addition of peanut agglutinin. Partially purified human vWF induced little aggr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38492852",
+            "title": "Comprehensive functional characterization of a novel ANO6 variant in a new patient with Scott syndrome.",
+            "authors": [
+              "Montague Samantha J",
+              "Price Joshua",
+              "Pennycott Katherine",
+              "Pavey Natasha J",
+              "Martin Eleyna M"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2024",
+            "abstract": "Scott syndrome is a mild platelet-type bleeding disorder, first described in 1979, with only 3 unrelated families identified through defective phosphatidylserine (PS) exposure and confirmed by sequencing. The syndrome is distinguished by impaired surface exposure of procoagulant PS on platelets after stimulation. To date, platelet function and thrombin generation in this condition have not been extensively characterized.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19808696",
+            "title": "Visualizing the von Willebrand factor/glycoprotein Ib-IX axis with a platelet-type von Willebrand disease mutation.",
+            "authors": [
+              "Guerrero Jose A",
+              "Kyei Mark",
+              "Russell Susan",
+              "Liu Junling",
+              "Gartner T Kent"
+            ],
+            "journal": "Blood",
+            "year": "2009",
+            "abstract": "Platelet-type von Willebrand disease (PT-VWD) is a bleeding disorder of the platelet glycoprotein Ib-IX/von Willebrand factor (VWF) axis caused by mutations in the glycoprotein Ib-IX receptor that lead to an increased affinity with VWF. In this report, platelets from a mouse expressing a mutation associated with PT-VWD have been visualized using state-of-the art image collection and processing. Confocal analysis revealed that VWF bound to the surface of single platelets and bridging micro-aggreg",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "esophageal disease"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "esophageal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "esophageal disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "platelet-type bleeding disorder"
+      },
+      "result_status": "success",
+      "result_count": 15,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "platelet-type bleeding disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Human thrombin",
+        "disease": "platelet-type bleeding disorder"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    }
+  ]
+}

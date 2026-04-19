@@ -1,0 +1,2056 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00142-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Glutamic acid",
+    "drugbank_id": "DB00142",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "postmenopausal osteoporosis",
+      "txgnn": {
+        "score": 0.9933679699897766,
+        "rank": 7949
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00048061",
+            "title": "Randomized, Double-blind, Double Dummy, Parallel Groups, Multicenter Study to Compare the Efficacy and Safety of Monthly Oral Administration of 100 mg and 150 mg Ibandronate With 2.5 mg Daily Oral Ibandronate in Postmenopausal Osteoporosis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1609,
+            "start_date": "2002-04",
+            "completion_date": "2004-12",
+            "brief_summary": "This study will compare the efficacy and safety of different treatment regimens of oral Bonviva tablets in women with post-menopausal osteoporosis. Patients will also receive daily supplementation with vitamin D and calcium. The anticipated time of study treatment is 2+ years, and the target sample size is 500+ individuals.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 大型 RCT，1609 名受試者，已完成。標題截斷，無法確認是否直接測試 glutamic acid。結合同適應症文獻（Vitamin K2 + bisphosphonate 研究為主），推測試驗主體為 Vit K2 或 bisphosphonate 比較研究，glutamic acid 並非主要干預。相關性評定為 C（同適應症但藥物不符）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "14529146",
+            "title": "Treatment with vitamin D3 and/or vitamin K2 for postmenopausal osteoporosis.",
+            "authors": [
+              "Iwamoto Jun",
+              "Takeda Tsuyoshi",
+              "Ichimura Shoichi"
+            ],
+            "journal": "The Keio journal of medicine",
+            "year": "2003",
+            "abstract": "It is established in Japan that treatment with 1alpha-hydroxyvitamin D3 (alfacalcidol) slightly reduces bone turnover, sustains lumbar bone mineral density (BMD), and prevents osteoporotic vertebral fractures in postmenopausal women with osteoporosis, while vitamin K2 (menatetrenone) enhances gamma-carboxylation of bone glutamic acid residues and secretion of osteocalcin, sustains lumbar BMD, and prevents osteoporotic fractures in patients with osteoporosis. Available evidence suggests that the ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14584089",
+            "title": "Combined treatment with vitamin k2 and bisphosphonate in postmenopausal women with osteoporosis.",
+            "authors": [
+              "Iwamoto Jun",
+              "Takeda Tsuyoshi",
+              "Ichimura Shoichi"
+            ],
+            "journal": "Yonsei medical journal",
+            "year": "2003",
+            "abstract": "Vitamin K2, as well as bisphosphonates, such as etidronate, alendronate, and risedronate, is widely used in the treatment with osteoporosis in Japan. Etidronate increases the lumbar bone mineral density (BMD), and prevents new vertebral fractures, in patients with osteoporosis, while alendronate and risedronate increase the lumbar and femoral neck BMDs, and prevent new vertebral and femoral neck fractures. Vitamin K2 enhances gamma-carboxylation of bone glutamic acid residues and the secretion o",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29437025",
+            "title": "Association between Vitamin K Epoxide Reductase (VKORC1) -1639G>A Polymorphism and Osteoporosis in Postmenopausal Women.",
+            "authors": [
+              "Kutluturk Faruk",
+              "Inanir Ahmet",
+              "Rustemoglu Aydin",
+              "Kaya Suheyla U",
+              "Demir Ayse K"
+            ],
+            "journal": "Endocrine, metabolic & immune disorders drug targets",
+            "year": "2018",
+            "abstract": "Introductıon: Osteoporosis is a common disease, and several factors contribute to its development. Recently, there has been increasing evidence that vitamin K (VK) plays a critical role in maintaining bone strength. Vitamin K serves as a co-factor for the γ-carboxylation of particular proteins to convert specific glutamic acid residues to γ-carboxyglutamic acid residues. This process involves two enzymes, γ-glutamyl carboxylase and vitamin K epoxide reductase (VKORC1). The number of studies inve",
+            "classification": {
+              "study_type": "Genetic association study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34529430",
+            "title": "Bone-Targeting Polymer Vesicles for Effective Therapy of Osteoporosis.",
+            "authors": [
+              "Zhou Xue",
+              "Cornel Erik Jan",
+              "Fan Zhen",
+              "He Shisheng",
+              "Du Jianzhong"
+            ],
+            "journal": "Nano letters",
+            "year": "2021",
+            "abstract": "With the aging of the population, postmenopausal osteoporosis becomes increasingly widespread and severe as fractures caused by osteoporosis may lead to permanent disabilities and even death. Inspired by extracellular vesicles that participate in bone remodeling, we present a biomimicking polymer vesicle for bone-targeted β-estradiol (E2) delivery. This vesicle is self-assembled from a poly(ε-caprolactone)28-block-poly[(l-glutamic acid)7-stat-(l-glutamic acid-alendronic acid)4] (PCL28-b-P[Glu7-s",
+            "classification": {
+              "study_type": "Preclinical/Drug delivery",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26144993",
+            "title": "Glutamic acid ameliorates estrogen deficiency-induced menopausal-like symptoms in ovariectomized mice.",
+            "authors": [
+              "Han Na-Ra",
+              "Kim Hee-Yun",
+              "Yang Woong Mo",
+              "Jeong Hyun-Ja",
+              "Kim Hyung-Min"
+            ],
+            "journal": "Nutrition research (New York, N.Y.)",
+            "year": "2015",
+            "abstract": "Some amino acids are considered alternative therapies for improving menopausal symptoms. Glutamic acid (GA), which is abundant in meats, fish, and protein-rich plant foods, is known to be a neurotransmitter or precursor of γ-aminobutyric acid. Although it is unclear if GA functions in menopausal symptoms, we hypothesized that GA would attenuate estrogen deficiency-induced menopausal symptoms. The objective to test our hypothesis was to examine an estrogenic effect of GA in ovariectomized (OVX) m",
+            "classification": {
+              "study_type": "Animal study (in vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11668761",
+            "title": "[Vitamin K in the Norwegian diet and osteoporosis].",
+            "authors": [
+              "Askim M"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2001",
+            "abstract": "In search of vitamin K literature, interesting results were discovered. A summary is presented.",
+            "classification": {
+              "study_type": "Observational/Diet study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39698319",
+            "title": "Zhuanggu Shubi ointment mediated the characteristic bacteria-intestinal mucosal barrier-bone metabolism axis to intervene in postmenopausal osteoporosis.",
+            "authors": [
+              "Li Xiaoya",
+              "Li Ning",
+              "Pei Huan",
+              "Ren Yu",
+              "Li Lei"
+            ],
+            "journal": "Frontiers in cellular and infection microbiology",
+            "year": "2024",
+            "abstract": "Zhuanggu Shubi ointment (ZGSBG) has good efficacy in postmenopausal osteoporosis (PMO), but the mechanism of efficacy involving gut microecology has not been elucidated.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40950804",
+            "title": "Amino acid profiles, aging, and sex hormone interactions in the elderly Iranian population: a metabolomics study.",
+            "authors": [
+              "Dehghanbanadaki Hojat",
+              "Mohammadian Maryam",
+              "Khalagi Kazem",
+              "Choobineh Hamid",
+              "Soltani Azin"
+            ],
+            "journal": "Journal of diabetes and metabolic disorders",
+            "year": "2025",
+            "abstract": "Aging and sex hormones significantly influences on metabolic profiles, particularly in individuals aged 50 year and older. This study aimed to investigate the associations between serum metabolites, aging, and sex hormone levels among elderly individuals in Bushehr, Iran - a coastal region characterized by a unique lifestyle, dietary patterns, and environmental conditions, such as high seafood consumption and exposure to marine climate, which may collectively influence metabolic profiles and hor",
+            "classification": {
+              "study_type": "Metabolomics/Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18187428",
+            "title": "Acute effect of poly-gamma-glutamic acid on calcium absorption in post-menopausal women.",
+            "authors": [
+              "Tanimoto Hiroyuki",
+              "Fox Tom",
+              "Eagles John",
+              "Satoh Hitoshi",
+              "Nozawa Hiroko"
+            ],
+            "journal": "Journal of the American College of Nutrition",
+            "year": "2007",
+            "abstract": "Poly-gamma-glutamic acid (PGA) increases calcium (Ca) solubility in vitro and in vivo, and is associated with reduced bone loss in post-menopausal Japanese women. This study is the first to examine the effect of PGA on Ca absorption in humans.",
+            "classification": {
+              "study_type": "Clinical study (acute intervention)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18414001",
+            "title": "Identification and characterization of single nucleotide polymorphisms of SLC22A11 (hOAT4) in Korean women osteoporosis patients.",
+            "authors": [
+              "Lee Woon Kyu",
+              "Kwak Jin Oh",
+              "Hwang Ji-Sun",
+              "Suh Chang Kook",
+              "Cha Seok Ho"
+            ],
+            "journal": "Molecules and cells",
+            "year": "2008",
+            "abstract": "Single nucleotide polymorphisms (SNPs) are the most common form of human genetic variation. Non-synonymous SNPs (nsSNPs) change an amino acid. Organic anion transporters (OATs) play an important role in eliminating or reabsorbing endogenous and exogenous organic anionic compounds. Among OATs, hOAT4 mediates high affinity transport of estrone sulfate and dehydroepiandrosterone sulfate. The rapid bone loss that occurs in post-menopausal women is mainly due to a net decrease of estrogen. In the pre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19172219",
+            "title": "Short-term menatetrenone therapy increases gamma-carboxylation of osteocalcin with a moderate increase of bone turnover in postmenopausal osteoporosis: a randomized prospective study.",
+            "authors": [
+              "Shiraki Masataka",
+              "Itabashi Akira"
+            ],
+            "journal": "Journal of bone and mineral metabolism",
+            "year": "2009",
+            "abstract": "The effect of vitamin K(2) (menatetrenone) on bone turnover was investigated in postmenopausal patients with osteoporosis. A 6-month open-label, randomized prospective study was conducted in 109 patients. The control group (n = 53) received calcium aspartate (133.8 mg of elemental calcium daily), while the menatetrenone group (n = 56) received 45 mg of menatetrenone daily for 6 months. Serum and urinary levels of bone turnover markers were monitored. The serum level of undercarboxylated osteocal",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glutamic acid 殘基在 vitamin K 依賴性蛋白質（如 osteocalcin、MGP）中被 γ-carboxylase 羧化形成 Gla 殘基，Gla-osteocalcin 為骨基質礦化的關鍵調節因子。PMID 26144993 直接顯示 glutamic acid 可改善卵巢切除小鼠（停經模型）的骨代謝異常及類更年期症狀；此外 poly-GGA 可促進停經後女性腸道鈣吸收（PMID 18187428）。機轉可信度：中等（前臨床有直接證據，臨床尚缺乏 RCT）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pregnancy associated osteoporosis",
+      "txgnn": {
+        "score": 0.9917955994606018,
+        "rank": 9179
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11369436",
+            "title": "Glutamate uptake.",
+            "authors": [
+              "Danbolt N C"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "2001",
+            "abstract": "Brain tissue has a remarkable ability to accumulate glutamate. This ability is due to glutamate transporter proteins present in the plasma membranes of both glial cells and neurons. The transporter proteins represent the only (significant) mechanism for removal of glutamate from the extracellular fluid and their importance for the long-term maintenance of low and non-toxic concentrations of glutamate is now well documented. In addition to this simple, but essential glutamate removal role, the gl",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 模型可能基於 glutamic acid → Gla 蛋白（osteocalcin）→ 骨代謝的通用路徑給出高分，但妊娠相關骨質疏鬆有其特殊病理機轉（哺乳期 PTHrP 升高、鈣需求增加），尚無直接機轉假說支持 glutamic acid 特異性治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.991309642791748,
+        "rank": 9567
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glutamic acid 興奮性毒性（excitotoxicity）與視網膜神經節細胞（RGC）死亡有關，在 open-angle glaucoma 中有相關文獻，但延伸至遺傳性青光眼（primary hereditary glaucoma）尚缺乏機轉說明。原發性遺傳青光眼（如 MYOC、CYP1B1 突變）主要透過小樑網功能異常升高眼壓，非 glutamate 通路直接作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gastroparesis (disease)",
+      "txgnn": {
+        "score": 0.991087019443512,
+        "rank": 9745
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02745028",
+            "title": "Effect of a Single Dose of Monosodium Glutamate on Delayed Gastric Emptying in Children",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2016-04",
+            "completion_date": "2017-10",
+            "brief_summary": "Children with a radionuclide gastric emptying test with abnormal results will undergo a second test with the addition of a weight adjusted dose of monosodium glutamate. The purpose of the study is to determine if a single dose of monosodium glutamate can shorten the gastric emptying time.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29487566",
+            "title": "Islet Cell Associated Autoantibodies and C-Peptide Levels in Patients with Diabetes and Symptoms of Gastroparesis.",
+            "authors": [
+              "Siraj Elias S",
+              "Homko Carol",
+              "Wilson Laura A",
+              "May Patrick",
+              "Rao Ajay D"
+            ],
+            "journal": "Frontiers in endocrinology",
+            "year": "2018",
+            "abstract": "Individuals with diabetes are at increased risk for complications, including gastroparesis. Type 1 diabetes mellitus (T1DM) is an autoimmune disorder resulting in decreased beta-cell function. Glutamic acid decarboxylase-65 antibody (GADA) is the most commonly used test to assess autoimmunity while C-peptide level is used to assess beta-cell function. Patients with type 2 diabetes mellitus (T2DM), who are GADA positive, are labeled latent autoimmune diabetes in adults (LADA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27014566",
+            "title": "Immunomodulation for treatment of drug and device refractory gastroparesis.",
+            "authors": [
+              "Soota Kaartik",
+              "Kedar Archana",
+              "Nikitina Yana",
+              "Arendale Evelyn",
+              "Vedanarayanan Vetta"
+            ],
+            "journal": "Results in immunology",
+            "year": "2016",
+            "abstract": "Patients with generalized autoimmune dysautonomia may also present with gastroparesis. Immune dysfunction in such patients can be evaluated using antibodies to glutamic acid decarboxylase (GAD) and full thickness biopsy of stomach. In this study, we utilize immunotherapy for treatment of drug and Gastric Electrical Stimulation (GES) resistant gastroparetic patients with evidence of neuroinflammation on full thickness gastric biopsy and had positive GAD65 autoantibodies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41071175",
+            "title": "Clinical Characteristics of Autoimmune Gastroparesis and Response to Immunomodulation.",
+            "authors": [
+              "Simons Madison",
+              "Loesch Jack",
+              "Hamza Eyad",
+              "Brown John T",
+              "Lembo Anthony"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "2025",
+            "abstract": "Autoimmune factors may be involved in the development of gastroparesis, a subtype known as autoimmune gastrointestinal dysmotility (AGID). Small open label studies in AGID have demonstrated intravenous immunoglobulin (IVIG) therapy may lead to improvement in symptoms and gastric emptying. We aimed to evaluate the effects of IVIG therapy on symptom severity in patients with gastroparesis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "autosomal dominant neovascular inflammatory vitreoretinopathy",
+      "txgnn": {
+        "score": 0.9894551634788512,
+        "rank": 10925
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ADNIV（autosomal dominant neovascular inflammatory vitreoretinopathy）為 CAPN5 基因突變導致的罕見眼科遺傳病，機轉涉及玻璃體炎症與新生血管。Glutamic acid 與此疾病無已知機轉連結；TxGNN 分數可能來自眼科適應症的知識圖譜網路效應（如與視網膜疾病的結構相似性）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "dyspepsia",
+      "txgnn": {
+        "score": 0.9890161156654358,
+        "rank": 11261
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06568965",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel Arm Clinical Trial of De-Stress and Happy Gut Powder in Relieving Stress and Functional Dyspepsia Symptoms in Adults.",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 81,
+            "start_date": "2024-09-05",
+            "completion_date": "2024-12-28",
+            "brief_summary": "The current study focuses on clinical validation of efficacy of nutraceutical product in relieving stress and functional dyspepsia symptoms in adults for gut health. The effect of these nutraceuticals not only targets the physical symptoms but also enhances overall well-being. Improved digestive health leads to better nutrient absorption, which is essential for energy levels and immune function. Reduced stress levels contribute to better sleep quality, cognitive function, and emotional stability",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "標題疑似草本複方（De-Stress and Happy G），可能含有 glutamate 相關成分，但尚未招募且非單一 glutamic acid 干預。相關性中等（B）。"
+            }
+          },
+          {
+            "nct_id": "NCT01671384",
+            "title": "Randomized Placebo Controlled Trial of Valproate and Levocarnitine in Children With Spinal Muscular Atrophy Aged 2-15 Years",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2013-08",
+            "completion_date": "2016-12",
+            "brief_summary": "Spinal muscular atrophy (SMA), an autosomal recessive disorder, is characterized by muscle weakness due to degeneration of anterior horn cells in the spinal cord and brain stem nuclei. It has a variable incidence of 1 in 6700 to 1 in 25000 live births and prevalence of 0.12 to 25 per 10,000 populations in different geographic areas and genetic constitution. A homozygous deletion/mutation involving exon 7 in SMN1 (survival motor neuron 1) is present in around 95% of the cases, resulting in the bi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "SMA 兒童試驗（valproate + levocarnitine），與消化不良及 glutamic acid 均無直接關聯，列入可能為資料庫誤配。"
+            }
+          },
+          {
+            "nct_id": "NCT07250308",
+            "title": "A Prospective Observational Study on the Correlation Between Pathologically Confirmed Chronic Atrophic Gastritis and Functional Dyspepsia Symptoms",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 315,
+            "start_date": "2025-10-01",
+            "completion_date": "2026-08-31",
+            "brief_summary": "Background:\n\nDyspepsia is a common gastrointestinal complaint globally, affecting approximately 21.8% of the population. Among patients presenting with dyspeptic symptoms, over 80% are diagnosed with functional dyspepsia (FD), while approximately 16% are found to have chronic atrophic gastritis (CAG). CAG represents an important precancerous condition in the gastric cancer cascade, yet the relationship between pathologically confirmed CAG and dyspeptic symptoms remains poorly understood. The sig",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性研究，探討慢性萎縮性胃炎與消化不良的相關性，無干預，與 glutamic acid 無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT06840964",
+            "title": "Analysis of the Effect of Acidified Omega 3 Esters (DHA+EPA) in Hypertensive Patients With Increased Triglycerides",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2023-03-23",
+            "completion_date": "2024-08-30",
+            "brief_summary": "This study aims to evaluate the impact of omega-3 (O3) supplementation in participants with high blood pressure and elevated triglycerides, focusing on cardiovascular risk factors. The research is particularly relevant, as O3 has been previously validated for its effects on abnormal lipid levels. The primary and secondary objectives aim to explore the effects of O3, as well as its potential therapeutic benefits in preventing cardiovascular diseases.\n\nThe main goal of this research is to investig",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Omega-3 脂肪酸於高血壓患者的研究，與 glutamic acid 及消化不良無直接關聯，列入可能為副作用追蹤（消化道症狀）相關。"
+            }
+          },
+          {
+            "nct_id": "NCT07179237",
+            "title": "Evaluation of the Efficacy of Carminal on the Gastric Mucosa in Patients With Helicobacter Pylori Positive Gastritis",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-08-04",
+            "completion_date": "2026-10-05",
+            "brief_summary": "Eighty patients will be included and randomized in two groups, one group (40 patients) will be administered 30 ml of the supplement Carminal, once a day, plus therapy for HP gastitis and the control group (40 patients) will be given standard therapy for HP gastritis with placebo. Treatment will begin after complection of upper endoscopy with histology results from biopted gastric mucosa. Treatment with Carminal will be continued after successful HP eradication during 12 weeks. The final evaluati",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 試驗測試 Carminal（carminative 劑）對 H. pylori 相關消化不良胃黏膜的效果，適應症相關但藥物不同，與 glutamic acid 無直接關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41544723",
+            "title": "Chaihu-Shugan-San alleviates functional dyspepsia by inhibiting central sensitization and regulating glutamate metabolism via NMDAR/CaMKII signaling pathway.",
+            "authors": [
+              "Jia Yuebo",
+              "Liu Chang",
+              "Jia Qingling",
+              "Wang Jing",
+              "Quan Yi"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2026",
+            "abstract": "Functional dyspepsia (FD) is a common functional gastrointestinal disease. Chaihu-Shugan-San (CSS), a classical traditional Chinese medicine (TCM) formula from the Ming Dynasty \"Jingyue Quanshu\". Clinical evidence suggests that CSS is a highly effective therapeutic approach for the treatment of FD, however, its therapeutic mechanism for FD has not been fully clarified.",
+            "classification": {
+              "study_type": "Preclinical / mechanism study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23886379",
+            "title": "Gastrointestinal motility and functional gastrointestinal diseases.",
+            "authors": [
+              "Kusano Motoyasu",
+              "Hosaka Hiroko",
+              "Kawada Akiyo",
+              "Kuribayashi Shiko",
+              "Shimoyama Yasuyuki"
+            ],
+            "journal": "Current pharmaceutical design",
+            "year": "2014",
+            "abstract": "Digestive tract motility patterns are closely related to the pathophysiology of functional gastrointestinal diseases (FGID), and these patterns differ markedly between the interdigestive period and the postprandial period. The characteristic motility pattern in the interdigestive period is so-called interdigestive migrating contraction (IMC). IMCs have a housekeeping role in the intestinal tract, and could also be related to FGID. IMCs arising from the stomach are called gastrointestinal IMCs (G",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22129863",
+            "title": "Nutritional and physiological significance of luminal glutamate-sensing in the gastrointestinal functions.",
+            "authors": [
+              "Uneyama Hisayuki"
+            ],
+            "journal": "Yakugaku zasshi : Journal of the Pharmaceutical Society of Japan",
+            "year": "2011",
+            "abstract": "Recent evidence indicates that free amino acids are nutrients as well as acting as chemical transmitters within the gastrointestinal tract. Gut glutamate research is the most advanced among 20 amino acids. Free glutamate carries the umami taste sensation on the tongue and a visceral sensation in the gut, especially the stomach. In the field of taste physiology, the physiological meaning of the glutamate-derived chemical sense, the umami taste, has been proposed to be a marker of protein intake. ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28634390",
+            "title": "Increased Glutamate in Somatosensory Cortex in Functional Dyspepsia.",
+            "authors": [
+              "Mak Arthur D P",
+              "Northoff Georg",
+              "Yeung David K W",
+              "Chu Winnie C W",
+              "Hui Steve C N"
+            ],
+            "journal": "Scientific reports",
+            "year": "2017",
+            "abstract": "Functional Dyspepsia-Post-prandial Distress Syndrome (FD-PDS) was associated with mood-related increases in resting activity and lowered activation threshold in the somatosensory cortex (SSC), insula and perigenual anterior cingulate cortex(pgACC) in functional imaging studies. The underlying cortical neurochemical changes are unknown. We performed proton Magnetic Resonance Spectroscopy (1H-MRS) on 17 consecutive tertiary clinic-recruited psychotropic-naïve Rome III FD-PDS female and 17 age-sex ",
+            "classification": {
+              "study_type": "Cross-sectional / neuroimaging (MRS)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15610075",
+            "title": "Organ-specific autoantibodies in children with Helicobacter pylori infection.",
+            "authors": [
+              "Guariso Graziella",
+              "Brotto Francesca",
+              "Basso Daniela",
+              "Alaggio Rita",
+              "Betterle Corrado"
+            ],
+            "journal": "Helicobacter",
+            "year": "2004",
+            "abstract": "We compared the prevalence of organ-specific autoantibodies in a group of Helicobacter pylori infected children and a group of uninfected children and investigated the relationship between the presence of relevant autoantibodies and the status of the target organs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21181442",
+            "title": "Neural autoantibody evaluation in functional gastrointestinal disorders: a population-based case-control study.",
+            "authors": [
+              "Pittock Sean J",
+              "Lennon Vanda A",
+              "Dege Carissa L",
+              "Talley Nicholas J",
+              "Locke G Richard"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "2011",
+            "abstract": "Our goal is to investigate the serum profile of neural autoantibodies in community-based patients with irritable bowel syndrome (IBS) or functional dyspepsia. The pathogenesis of functional gastrointestinal (GI) disorders, including IBS and dyspepsia, are unknown. Theories range from purely psychological to autoimmune alterations in GI tract neuromuscular function.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20093786",
+            "title": "New frontiers in gut nutrient sensor research: monosodium L-glutamate added to a high-energy, high-protein liquid diet promotes gastric emptying: a possible therapy for patients with functional dyspepsia.",
+            "authors": [
+              "Kusano Motoyasu",
+              "Zai Hiroaki",
+              "Hosaka Hiroko",
+              "Shimoyama Yasuyuki",
+              "Nagoshi Atsuto"
+            ],
+            "journal": "Journal of pharmacological sciences",
+            "year": "2010",
+            "abstract": "Functional dyspepsia is a clinical syndrome that features abdominal symptoms centered in the upper abdomen without an organic basis. Three possible mechanisms of gastric dysfunction could be related to functional dyspepsia: 1) delayed gastric emptying, 2) impaired gastric accommodation to food intake, and 3) hypersensitivity to gastric distention. Delayed gastric emptying has been suggested to lead to prolonged antral distension that causes dyspeptic symptoms. Delayed gastric emptying is therefo",
+            "classification": {
+              "study_type": "Human feeding study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27995404",
+            "title": "Circulating Zonulin Correlates with Density of Enteroviruses and Tolerogenic Dendritic Cells in the Small Bowel Mucosa of Celiac Disease Patients.",
+            "authors": [
+              "Vorobjova Tamara",
+              "Raikkerus Helerin",
+              "Kadaja Lumme",
+              "Talja Ija",
+              "Uibo Oivi"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "2017",
+            "abstract": "Impaired intestinal integrity, including increased permeability of the small bowel mucosa, has been shown in patients with celiac disease (CD) as well as with type 1 diabetes (T1D). Zonulin (ZO, pre-haptoglobin), a tight junction regulator, plays a particular role in the regulation of intestinal barrier function and in the pathogenesis of the above-mentioned diseases.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34900088",
+            "title": "Banhasasim-Tang Ameliorates Spatial Memory by Suppressing Oxidative Stress through Regulation of ERK/p38 Signaling in Hippocampus of Mice.",
+            "authors": [
+              "Pak Malk Eun",
+              "Oh You-Chang",
+              "Park Yeo Jin",
+              "Kim Jae Kwang",
+              "Shin Min-Gyeong"
+            ],
+            "journal": "Oxidative medicine and cellular longevity",
+            "year": "2021",
+            "abstract": "Since ancient times, Banhasasim-tang (BHS) has been used to treat functional dyspepsia in East Asia. Here, we aimed to determine the protective action of BHS on hippocampal neurons against oxidative stress. We investigated the functional effect of BHS on a scopolamine-induced mouse model, and molecular analysis was performed in glutamate-induced HT22 cells. We observed that BHS administration ameliorated memory dysfunction in scopolamine-treated mice. BHS administration also increased neuronal s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29031770",
+            "title": "Effects of three major amino acids found in Japanese broth on glucose metabolism and gastric emptying.",
+            "authors": [
+              "Mano Fumika",
+              "Ikeda Kaori",
+              "Joo Erina",
+              "Yamane Shunsuke",
+              "Harada Norio"
+            ],
+            "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+            "year": "2018",
+            "abstract": "To our knowledge, the effect of the broth of dried kelp and dried bonito, dashi, on glucose metabolism and digestion has rarely been studied. Based on the component analysis of three actual broths served in traditional restaurants, a chemically synthesized broth with three free amino acids (histidine, glutamate, aspartate) and salt was prepared to investigate their effect on glucose metabolism, glucose-dependent insulinotropic polypeptide (GIP), and glucagon-like peptide 1 (GLP-1) secretion, and",
+            "classification": {
+              "study_type": "Human intervention study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27535977",
+            "title": "L-Arginine L-Glutamate Enhances Gastric Motor Function in Rats and Dogs and Improves Delayed Gastric Emptying in Dogs.",
+            "authors": [
+              "Ishibashi-Shiraishi Ikumi",
+              "Shiraishi Seiji",
+              "Fujita Shinichi",
+              "Ogawa Saori",
+              "Kaneko Masahiko"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2016",
+            "abstract": "Amino acids are not only constituents of proteins, but also have multiple physiologic functions. Recent findings have revealed that ingested amino acids either activate luminal receptors or are metabolized, causing physiologic reactions in the gastrointestinal (GI) tract. We examined the effect of oral L-arginine L-glutamate (ArgGlu), a pharmaceutical amino acid salt used i.v. for the treatment of hyperammonemia, on gastric motor function in rats and dogs. Gastric emptying was determined using p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14764200",
+            "title": "Central vagal stimulation evokes gastric volume changes in mice: a novel technique using a miniaturized barostat.",
+            "authors": [
+              "Monroe M J",
+              "Hornby P J",
+              "Partosoedarso E R"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2004",
+            "abstract": "We have developed a novel technique to measure gastric volume in vivo in mice; this will be invaluable for revealing gastric alterations in genetically modified mice models, thus expanding our understanding of the mechanisms underlying functional disorders. Experimental data on gastric tone currently available has focused on rats using isovolumetric techniques to measure pressure changes, whereas clinical studies use barostatic techniques to measure volume changes. For better translational appro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glutamate 在上消化道的多重作用：①腔內 glutamate（umami 刺激）活化胃黏膜 mGluR4 → 觸發迷走神經傳入 → 促進胃酸分泌與胃動力；②腸嗜鉻細胞（enterochromaffin cells）對 L-glutamate 反應釋放 5-HT，調控胃腸運動；③功能性消化不良患者大腦體感皮質 glutamate 水平升高（PMID 28634390），提示中樞敏感化機轉。PMID 22129863 系統性回顧腔內 glutamate 感應的生理意義，PMID 29031770 提供人體急性試驗數據（含 glutamate 的高湯改善胃排空）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.9889804124832152,
+        "rank": 11291
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05474716",
+            "title": "The Effect of Topical Brimonidine on the Hemodynamics of the Optic Nerve Head and Retinochoroidal Circulation in Patients of Primary Open Angle Glaucoma Using Optical Coherence Tomography Angiography",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2020-05-01",
+            "completion_date": "2022-07-01",
+            "brief_summary": "Topical Brimonidine is a well-established topical antigalucoma, ocular hypotensive therapeutic that has been in use since 1996. Brimonidine stands out among other topical ocular hypotensives in that it has a neuroprotective effect that is independent of IOP reduction. This has been demonstrated in multiple animal and human controlled studies both in vivo and in vitro. The mechanisms proposed so far to account for this neuroprotection focus mainly on molecular level antiapoptotic effects and modu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 已完成試驗，測試 brimonidine（α2-腎上腺素受體促效劑）對視神經血流動力學的影響，與 glutamic acid 無直接關聯。雖然 brimonidine 有神經保護效果可能部分涉及 glutamate 拮抗，但此試驗不提供 glutamic acid 療效數據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "13680034",
+            "title": "Beta 2-adrenergic receptor polymorphism and susceptibility to primary congenital and primary open angle glaucoma.",
+            "authors": [
+              "Güngör Kivanc",
+              "Ozkur Mehtap",
+              "Cascorbi Ingolf",
+              "Brockmöller Jürgen",
+              "Bekir Necdet"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2003",
+            "abstract": "It has been shown that arginine to glycine (Arg16Gly), glutamine to glutamic acid (Gln27Glu) and threonine to isoleucine (Thr164Ile) exchanges in codons 16, 27 and 164, respectively, of the beta 2-adrenergic receptor (B2AR) gene significantly alter receptor function. As B2ARs are located on the afferent blood vessels supplying the ciliary body and trabecular meshwork cells, which control aqueous humour dynamics, polymorphisms of B2AR may be involved in the pathophysiology of certain eye diseases",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38619671",
+            "title": "Drug Treatment Attenuates Retinal Ganglion Cell Death by Inhibiting Collapsin Response Mediator Protein 2 Phosphorylation in Mouse Models of Normal Tension Glaucoma.",
+            "authors": [
+              "Wang Yuebing",
+              "Brahma Musukha Mala",
+              "Takahashi Kazuya",
+              "Hernandez Alessandra Nolia Blanco",
+              "Ichikawa Koki"
+            ],
+            "journal": "Neuromolecular medicine",
+            "year": "2024",
+            "abstract": "Normal tension glaucoma (NTG) is a progressive neurodegenerative disease in glaucoma families. Typical glaucoma develops because of increased intraocular pressure (IOP), whereas NTG develops despite normal IOP. As a subtype of open-angle glaucoma, NTG is characterized by retinal ganglion cell (RGC) degeneration, gradual loss of axons, and injury to the optic nerve. The relationship between glutamate excitotoxicity and oxidative stress has elicited great interest in NTG studies. We recently repor",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9292254",
+            "title": "Excitatory mechanisms in retinal ganglion cell death in primary open angle glaucoma (POAG).",
+            "authors": [
+              "Dreyer E B",
+              "Grosskreutz C L"
+            ],
+            "journal": "Clinical neuroscience (New York, N.Y.)",
+            "year": "1997",
+            "abstract": "Glaucoma is a leading cause of blindness worldwide and the second leading cause of irreversible blindness in the United States. The most common form of glaucoma, primary open angle glaucoma, is characterized by a chronically elevated intraocular pressure in the absence of any demonstrable structural abnormalities in the eye. The pathologic hallmark of glaucomatous optic neuropathy is the selective death of retinal ganglion cells, generally attributed to an elevated intraocular pressure. However,",
+            "classification": {
+              "study_type": "Mechanistic review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30256276",
+            "title": "Metabolic Alterations Within the Primary Visual Cortex in Early Open-angle Glaucoma Patients: A Proton Magnetic Resonance Spectroscopy Study.",
+            "authors": [
+              "Guo Linying",
+              "Wang Rong",
+              "Tang Zuohua",
+              "Sun Xinghuai",
+              "Wu Lingjie"
+            ],
+            "journal": "Journal of glaucoma",
+            "year": "2018",
+            "abstract": "To detect changes in metabolites and explore cortical plasticity at the metabolic level within the primary visual cortex through proton magnetic resonance spectroscopy in early open-angle glaucoma (OAG) patients.",
+            "classification": {
+              "study_type": "Cross-sectional / MRS",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26943134",
+            "title": "In vivo proton magnetic resonance spectroscopy (1H-MRS) evaluation of the metabolite concentration of optic radiation in primary open angle glaucoma.",
+            "authors": [
+              "Sidek Sabrilhakim",
+              "Ramli Norlisah",
+              "Rahmat Kartini",
+              "Ramli Norlina Mohd",
+              "Abdulrahman Fadzlina"
+            ],
+            "journal": "European radiology",
+            "year": "2016",
+            "abstract": "To compare the metabolite concentration of optic radiation in glaucoma patients with that of healthy subjects using Proton Magnetic Resonance Spectroscopy (1H-MRS).",
+            "classification": {
+              "study_type": "Cross-sectional / MRS imaging",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11377444",
+            "title": "New horizons in neuroprotection.",
+            "authors": [
+              "Naskar R",
+              "Dreyer E B"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "2001",
+            "abstract": "Glaucoma is a leading cause of blindness worldwide and the second leading cause of irreversible blindness in the USA. The most common form of glaucoma, primary open angle glaucoma, is characterized by a chronically elevated intraocular pressure in the absence of any demonstrable structural abnormalities in the eye. The pathologic hallmark of glaucomatous optic neuropathy is the selective death of retinal ganglion cells associated with structural changes in the optic nerve head. Recent discoverie",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38355836",
+            "title": "Potentially compromised systemic and local lactate metabolic balance in glaucoma, which could increase retinal glucose and glutamate concentrations.",
+            "authors": [
+              "Arai-Okuda Mina",
+              "Murai Yusuke",
+              "Maeda Hidetaka",
+              "Kanamori Akiyasu",
+              "Miki Takako"
+            ],
+            "journal": "Scientific reports",
+            "year": "2024",
+            "abstract": "To investigate the association between lactate metabolism and glaucoma, we conducted a multi-institutional cross-sectional clinical study and a retinal metabolomic analysis of mice with elevated intraocular pressure (IOP) induced by intracameral microbead injection. We compared lactate concentrations in serum and aqueous humor in age-matched 64 patients each with primary open-angle glaucoma (POAG) and cataract. Neither serum nor aqueous humor lactate concentrations differed between the two group",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34531647",
+            "title": "Elevated histamine levels in aqueous humor of patients with glaucoma.",
+            "authors": [
+              "Gowtham Lakshminarayanan",
+              "Halder Nabanita",
+              "Angmo Dewang",
+              "Singh Sundararajan Baskar",
+              "Jayasundar Rama"
+            ],
+            "journal": "Molecular vision",
+            "year": "2021",
+            "abstract": "Neurotransmitters (NTs) are the key mediators of essential ocular functions, such as processing the visual functions of the retina, maintaining homeostasis of aqueous humor, and regulating ocular blood flow. This study aims to determine variations in the levels of L-glutamate and γ-aminobutyric acid (GABA), histaminergic, adrenergic, cholinergic, and serotonergic NTs in patients with primary glaucoma versus patients with cataract.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18307994",
+            "title": "Enhanced binding of TBK1 by an optineurin mutant that causes a familial form of primary open angle glaucoma.",
+            "authors": [
+              "Morton Simon",
+              "Hesson Luke",
+              "Peggie Mark",
+              "Cohen Philip"
+            ],
+            "journal": "FEBS letters",
+            "year": "2008",
+            "abstract": "TANK-binding kinase 1 (TBK1) was identified as a binding partner for Optineurin (OPTN) in two-hybrid screens, an interaction confirmed by overexpression/immunoprecipitation experiments in HEK293 cells and by coimmunoprecipitation of endogenous OPTN and TBK1 from cell extracts. A TBK1 binding site was located between residues 1-127 of OPTN, residues 78-121 displaying striking homology to the TBK1-binding domain of TANK. The OPTN-binding domain was localised to residues 601-729 of TBK1, while TBK1",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12583783",
+            "title": "Vitreous amino acid concentrations in patients with glaucoma undergoing vitrectomy.",
+            "authors": [
+              "Honkanen Robert A",
+              "Baruah Sankar",
+              "Zimmerman M Bridget",
+              "Khanna Cheryl L",
+              "Weaver Yaffa K"
+            ],
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "2003",
+            "abstract": "To measure vitreous concentrations of glutamate and other amino acids in patients with glaucoma undergoing vitrectomy.",
+            "classification": {
+              "study_type": "Clinical observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10845620",
+            "title": "Concurrent downregulation of a glutamate transporter and receptor in glaucoma.",
+            "authors": [
+              "Naskar R",
+              "Vorwerk C K",
+              "Dreyer E B"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2000",
+            "abstract": "Elevated levels of extracellular glutamate have been implicated in the pathophysiology of neuronal loss in both central nervous system and ophthalmic disorders, including glaucoma. This increase in glutamate may result from a failure of glutamate transporters, which are molecules that ordinarily regulate extracellular glutamate. Elevated glutamate levels can also lead to a perturbation in glutamate receptors. The hypothesis for the current study was that glutamate transporters and/or receptors a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12147596",
+            "title": "Vitreal glutamate concentration in monkeys with experimental glaucoma.",
+            "authors": [
+              "Carter-Dawson Louvenia",
+              "Crawford Morris L J",
+              "Harwerth Ronald S",
+              "Smith Earl L",
+              "Feldman Robert"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "2002",
+            "abstract": "To investigate the hypothesis that the pathophysiology for the death of retinal ganglion cells in glaucoma involves excitotoxic effects from elevated concentrations of vitreal glutamate.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26115916",
+            "title": "Protective effect of 14-3-3 antibodies on stressed neuroretinal cells via the mitochondrial apoptosis pathway.",
+            "authors": [
+              "Bell Katharina",
+              "Wilding Corina",
+              "Funke Sebastian",
+              "Pfeiffer Norbert",
+              "Grus Franz H"
+            ],
+            "journal": "BMC ophthalmology",
+            "year": "2015",
+            "abstract": "Previous studies demonstrate changes of autoantibody concentrations against retinal and optic nerve head antigens in the serum of glaucoma patients in comparison to healthy persons. These antibodies belong to the natural autoimmunity. Previous studies showed up regulated, but also significantly down-regulated autoantibody levels. These antibodies have the ability to influence protein profiles of neuroretinal cells and possibly hold neuroprotective potential, as we have been able to demonstrate b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22627479",
+            "title": "Evaluation of corpus geniculatum laterale and vitreous fluid by magnetic resonance spectroscopy in patients with glaucoma; a preliminary study.",
+            "authors": [
+              "Doganay S",
+              "Cankaya C",
+              "Alkan A"
+            ],
+            "journal": "Eye (London, England)",
+            "year": "2012",
+            "abstract": "To determine whether metabolite changes at cellular level occur in vitreous and lateral geniculate body (LGB) in patients with glaucoma by magnetic resonance spectroscopy (MRS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19641288",
+            "title": "Effects of reduced oxygen and glucose levels on ocular cells in vitro: implications for tissue models.",
+            "authors": [
+              "Sander Edward A",
+              "Nauman Eric A"
+            ],
+            "journal": "Cells, tissues, organs",
+            "year": "2010",
+            "abstract": "An important goal of tissue engineering is the development of better in vitro tissue models for the study and treatment of diseases, especially those that are difficult to model in animals, such as glaucoma. In order to properly interpret experimental results designed to mimic in vivo conditions, it is necessary to characterize the metabolic state of the in vitro culture. The goal of this study was to determine how porcine lamina cribrosa cells (PLC), porcine scleral fibroblasts (PSC) and rat as",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18992243",
+            "title": "Proton magnetic resonance spectroscopy revealed choline reduction in the visual cortex in an experimental model of chronic glaucoma.",
+            "authors": [
+              "Chan Kevin C",
+              "So Kwok-fai",
+              "Wu Ed X"
+            ],
+            "journal": "Experimental eye research",
+            "year": "2009",
+            "abstract": "Glaucoma is a neurodegenerative disease of the visual system. While elevated intraocular pressure is considered to be a major risk factor, the primary cause and pathogenesis of this disease are still unclear. This study aims to employ in vivo proton magnetic resonance spectroscopy ((1)H MRS) to evaluate the metabolic changes in the visual cortex in a rat model of chronic glaucoma. Five Sprague-Dawley female rats were prepared to induce ocular hypertension unilaterally in the right eye by photoco",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【雙向性警告】開角型青光眼（POAG）的 RGC 死亡機轉涉及 glutamate 興奮性毒性：眼壓升高 → 視網膜缺血 → glutamate 過度釋放 → NMDA 受體過度活化 → RGC 凋亡。PMID 12583783 直接顯示青光眼患者玻璃體 glutamate 濃度顯著升高（~2倍）；PMID 9292254 提出 glutamate excitotoxicity 是 POAG 中 RGC 死亡的核心機轉。此機轉指向的治療策略應為 glutamate 拮抗劑（如 memantine），而非 glutamic acid 補充。補充 glutamic acid 理論上可能加劇 excitotoxicity，存在潛在危害風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "succinyl-CoA:3-ketoacid CoA transferase deficiency",
+      "txgnn": {
+        "score": 0.988088309764862,
+        "rank": 11993
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05687474",
+            "title": "Universal Genomic Newborn Screening in the Wallonia-Brussels Federation: Baby Detect",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 6824,
+            "start_date": "2022-09-01",
+            "completion_date": "2025-06-02",
+            "brief_summary": "Newborn screening (NBS) is a global initiative of systematic testing at birth to identify babies with pre-defined severe but treatable conditions. With a simple blood test, rare genetic conditions can be easily detected, and the early start of transformative treatment will help avoid severe disabilities and increase the quality of life.\n\nBaby Detect Project is an innovative NBS program using a panel of target sequencing that aims to identify 126 treatable severe early onset genetic diseases at b",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型新生兒基因組篩查研究，目的為早期識別遺傳代謝疾病（可能包含 SCOT 缺乏症），非 glutamic acid 干預試驗，相關性極低（C）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SCOT 缺乏症（酮體代謝障礙）的核心病理為酮體（乙酰乙酸）無法在腦組織利用，導致急性酮症酸中毒。Glutamic acid 與 SCOT 酶的已知底物或調節機轉無直接關聯；TxGNN 分數可能來自代謝疾病的知識圖譜鄰近效應（如三羧酸循環中 glutamate 的 anaplerotic 作用）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "Worth syndrome",
+      "txgnn": {
+        "score": 0.986786961555481,
+        "rank": 12981
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Worth syndrome（良性硬化性骨病，LRP5 功能增益突變）為罕見遺傳性骨量增加疾病。Wnt/LRP5 訊號通路為主要機轉，與 glutamic acid 代謝無已知直接關聯。TxGNN 預測可能來自骨代謝疾病的知識圖譜網路效應（如 osteocalcin/Gla 蛋白的結構相似性）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn": {
+        "score": 0.9662943482398988,
+        "rank": 22464
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06304948",
+            "title": "The Link Between Human Cytomegalovirus Gene Expression and Glutamate Levels in Migraine :Relationship to the Vit D Deficiency",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 72,
+            "start_date": "2024-05",
+            "completion_date": "2025-02",
+            "brief_summary": "1. To correlate serum 25(OH)-vitamin D level with duration, frequency, and severity of migraine headache attacks\n2. To evaluate the relationship between the serum level of vitamin D and other indices in patients with migraine.\n3. To correlate the serum level of glutamate with gene expression of in migraine",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05687474",
+            "title": "Universal Genomic Newborn Screening in the Wallonia-Brussels Federation: Baby Detect",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 6824,
+            "start_date": "2022-09-01",
+            "completion_date": "2025-06-02",
+            "brief_summary": "Newborn screening (NBS) is a global initiative of systematic testing at birth to identify babies with pre-defined severe but treatable conditions. With a simple blood test, rare genetic conditions can be easily detected, and the early start of transformative treatment will help avoid severe disabilities and increase the quality of life.\n\nBaby Detect Project is an innovative NBS program using a panel of target sequencing that aims to identify 126 treatable severe early onset genetic diseases at b",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03655223",
+            "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 30000,
+            "start_date": "2018-10-15",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Early Check provides voluntary screening of newborns for a selected panel of conditions. The study has three main objectives: 1) develop and implement an approach to identify affected infants, 2) address the impact on infants and families who screen positive, and 3) evaluate the Early Check program. The Early Check screening will lead to earlier identification of newborns with rare health conditions in addition to providing important data on the implementation of this model program. Early diagno",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05216705",
+            "title": "Study of Exploratory Plasmatic Markers of Alcohol Withdrawal",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2023-04-19",
+            "completion_date": "2024-04-17",
+            "brief_summary": "This research focuses on alcohol withdrawal in hospitals and its potential neurological consequences.\n\nAlcohol withdrawal is an event that induces physical symptoms, such as tremors, sweating, anxiety and requires medical support. Sometimes alcohol withdrawal results in neurological complications, such as epileptic seizures, delirium tremens, Wernicke Encephalopathy, memory and cognitive disorders. Chronic alcohol consumption and lack of vitamin B1 also cause neurological damage. Magnetic resona",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "酒精戒斷生物標誌研究，酒精依賴與 glutamate 系統過度活化有關，但非 glutamic acid 治療研究，與維生素缺乏的關聯為酒精相關 B 族維生素缺乏的間接連結。"
+            }
+          },
+          {
+            "nct_id": "NCT01404312",
+            "title": "Phase III Clinical Trial of Ultra-Short-Course Rifapentine/Isoniazid for the Prevention of Active Tuberculosis in HIV-Infected Individuals With Latent Tuberculosis Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 3000,
+            "start_date": "2012-05-23",
+            "completion_date": "2017-11-14",
+            "brief_summary": "HIV-infected people have an increased risk of developing active tuberculosis (TB). At the time the study was designed, the standard course of treatment for TB was 6 to 9 months of isoniazid (INH).This study compared the safety and effectiveness of a 4-week regimen of rifapentine (RPT) plus INH versus a standard 9-month regimen of INH in HIV-infected people who are at risk of developing active TB.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "結核病預防 Phase 3 試驗，Isoniazid 會拮抗 pyridoxal phosphate（Vit B6）影響 glutamate 代謝，但此試驗非 glutamic acid 干預研究。"
+            }
+          },
+          {
+            "nct_id": "NCT01407601",
+            "title": "Food Supplementation With Vitamin K2 to Activate MGP as an Endogenous Inhibitor of Vascular Calcification in Hemodialysis Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2008-01",
+            "completion_date": "2009-07",
+            "brief_summary": "Vascular calcification (VC) is a predictor of cardiovascular morbidity and mortality. Hemodialysis (HD) patients suffer from severe vascular calcifications. Matrix Gla protein (MGP) is a central calcification inhibitor of the arterial wall and its activity depends on vitamin K-dependent γ-glutamate carboxylation. Noncarboxylated MGP, formed as a result of vitamin K deficiency, is associated with cardiovascular disease. Recent studies pointed towards poor vitamin K status in HD patients. We there",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 Vitamin K2 補充試驗，目的是活化 MGP（Matrix Gla Protein，含 glutamic acid 殘基）。與 glutamic acid 的關聯為機轉層面（Gla 蛋白需 glutamate 殘基），非直接測試 glutamic acid 補充。"
+            }
+          },
+          {
+            "nct_id": "NCT04958980",
+            "title": "The Effectiveness of the Multiprofessional Approach in an Educational Group in the Control of Diabetes Mellitus in Patients Using Oral Hypoglycemic Agents From a Basic Health Unit in the City of Guarulhos/ SP: a Randomized Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 24,
+            "start_date": "2021-08",
+            "completion_date": "2022-03",
+            "brief_summary": "OBJECTIVE: to verify the effectiveness of adopting the practice of educational groups in primary care and the multiprofessional role in the control of diabetes mellitus in adults. METHODOLOGY: a randomized clinical study carried out in an educational group at the Basic Health Unit Nova Bonsucesso with six monthly meetings scheduled with 24 patients with type II diabetes mellitus users of oral hypoglycemic agents divided into two subgroups: 12 users in the control group and 12 users in the contro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7886607",
+            "title": "Vitamin K deficiency.",
+            "authors": [
+              "Hathaway W E"
+            ],
+            "journal": "The Southeast Asian journal of tropical medicine and public health",
+            "year": "1993",
+            "abstract": "Vitamin K (phylloquinone, K1; menaquinone, K2) functions as an essential cofactor for the synthesis of the coagulation protein factors II, VII, IX, X and protein C and S by promoting a unique post-translational modification of specific glutamic acid residues to gamma-carboxylglutamic acid, thus mediating calcium binding to phospholipid surfaces. Vitamin K deficiency results in a depletion of liver stores of phylloquinone, decreased plasma levels of vitamin K1, increased levels of K1 epoxide, app",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6087425",
+            "title": "Drug-pyridoxal phosphate interactions.",
+            "authors": [
+              "Ebadi M",
+              "Gessert C F",
+              "Al-Sayegh A"
+            ],
+            "journal": "Quarterly reviews on drug metabolism and drug interactions",
+            "year": "1982",
+            "abstract": "In this review it has been pointed out that vitamin B6 and its vitamers can be involved in many interactions with a number of drugs, as well as with the actions of various endocrines and neurotransmitters. Nutritional deficiencies, especially of vitamins and proteins, can affect the manner in which drugs undergo biotransformation, and thereby may also modify the therapeutic efficacy of certain drugs. The differences between nutritional vitamin B6 deficiency and the hereditary disorder producing ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18289028",
+            "title": "Is the deficiency of vitamin B12 related to oxidative stress and neurotoxicity in Parkinson's patients?",
+            "authors": [
+              "Qureshi G Ali",
+              "Qureshi Aftab A",
+              "Devrajani Bika Ram",
+              "Chippa M A",
+              "Syed S Ali"
+            ],
+            "journal": "CNS & neurological disorders drug targets",
+            "year": "2008",
+            "abstract": "This review deals with the results showing the relation between vitamin B(12) deficiency and neurotoxicity of homocysteine and nitrite (a metabolite of nitric oxide) in Parkinson's patients treated with levodopa (L-Dopa). We have already reported a linear relationship between the CSF levels of nitrite with glutamic acid and homocysteine suggesting that the production of nitrite is interrelated with the neurotoxic level of homocysteine. The levels of nitrite and homocysteine resulting in the defi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31821883",
+            "title": "Vitamin D deficiency induces the excitation/inhibition brain imbalance and the proinflammatory shift.",
+            "authors": [
+              "Kasatkina Ludmila A",
+              "Tarasenko Alla S",
+              "Krupko Olga O",
+              "Kuchmerovska Tamara M",
+              "Lisakovska Olha O"
+            ],
+            "journal": "The international journal of biochemistry & cell biology",
+            "year": "2020",
+            "abstract": "Vitamin D3 is among the major neurosteroids whose role in developing and adult brain is intensively studied now. Its active form 1,25(OH)2D3 regulates the expression and functioning of a range of brain-specific proteins, which orchestrate the neurotransmitter turnover, neurogenesis and neuroplasticity. Despite numerous studies of the vitamin D role in normal and pathological brain function, there is little evidence on the mechanisms of alterations in excitatory and inhibitory neurotransmission u",
+            "classification": {
+              "study_type": "Preclinical study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33186843",
+            "title": "Vitamin E deficiency dysregulates thiols, amino acids and related molecules during zebrafish embryogenesis.",
+            "authors": [
+              "Zhang Jie",
+              "Head Brian",
+              "Leonard Scott W",
+              "Choi Jaewoo",
+              "Tanguay Robyn L"
+            ],
+            "journal": "Redox biology",
+            "year": "2021",
+            "abstract": "Vitamin E (α-tocopherol, VitE) was discovered as a nutrient essential to protect fetuses, but its molecular role in embryogenesis remains undefined. We hypothesize that the increased lipid peroxidation due to VitE deficiency drives a complex mechanism of overlapping biochemical pathways needed to maintain glutathione (GSH) homeostasis that is dependent on betaine and its methyl group donation. We assess amino acids and thiol changes that occur during embryogenesis [12, 24 and 48 h post fertiliza",
+            "classification": {
+              "study_type": "Preclinical (zebrafish)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39683465",
+            "title": "Vitamin D Supplementation as a Therapeutic Strategy in Autoimmune Diabetes: Insights and Implications for LADA Management.",
+            "authors": [
+              "Mourelatou Niki G",
+              "Kounatidis Dimitris",
+              "Jude Edward B",
+              "Rebelos Eleni"
+            ],
+            "journal": "Nutrients",
+            "year": "2024",
+            "abstract": "Latent autoimmune diabetes of adults (LADA) is the most prevalent form of autoimmune diabetes (AI-D) in adulthood; however, its accurate diagnosis and optimal treatment remain challenging. Vitamin D deficiency (VDD) is commonly observed in LADA patients, while increased vitamin D exposure through supplementation and dietary intake is associated with a reduced incidence of LADA. Although limited, case reports, case-control studies, and randomized clinical trials have examined the effects of vitam",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31862867",
+            "title": "Laboratory assessment of vitamin K status.",
+            "authors": [
+              "Card David John",
+              "Gorska Renata",
+              "Harrington Dominic Jon"
+            ],
+            "journal": "Journal of clinical pathology",
+            "year": "2020",
+            "abstract": "Vitamin K is required for the ɣ-carboxylation of specific glutamic acid residues within the Gla domain of the 17 vitamin K-dependent proteins (VKDPs). The timely detection and correction of vitamin K deficiency can protect against bleeding. Vitamin K also plays a role in bone metabolism and vascular calcification. Patients at increased risk of vitamin K deficiency include those with a restricted diet or malnutrition, lipid malabsorption, cancer, renal disease, neonates and the elderly. Coagulati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9780555",
+            "title": "[Vitamin K: biochemistry, function, and deficiency. Review].",
+            "authors": [
+              "Mijares M E",
+              "Nagy E",
+              "Guerrero B",
+              "Arocha-Piñango C L"
+            ],
+            "journal": "Investigacion clinica",
+            "year": "1998",
+            "abstract": "Vitamin K is a cofactor for the synthesis of blood coagulation Factors II, VII, IX and X, and inhibitors such as Protein C and S and bone matrix protein. Its active form is a coenzyme in the glutamic acid carboxylation. Vitamin K-dependent factors form enzymatic complexes with calcium and membrane phospholipids. The insufficiency of gamma glutamic carboxylation impairs the hemostatic function. Hereditary deficiencies, antibiotics and oral anticoagulants, decrease the capacity of complex formatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12881619",
+            "title": "Pyridoxine-dependent seizures: a review.",
+            "authors": [
+              "Rajesh R",
+              "Girija A S"
+            ],
+            "journal": "Indian pediatrics",
+            "year": "2003",
+            "abstract": "Pyridoxine-dependent seizure is a rare autosomal recessive disorder that usually presents with neonatal intractable seizures. This syndrome results from an inborn abnormality of the enzyme glutamic acid decarboxylase, which results in reduced pyridazine-dependent synthesis of the inhibitory neurotransmitter gamma amino butyric acid. The full range of symptomatology is unknown; but can be associated with autism, breath holding and severe mental retardation, bilious vomiting, transient visual agno",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9868413",
+            "title": "Radioimmunoassay for glutamic acid decarboxylase (GAD65) autoantibodies as a diagnostic aid for stiff-man syndrome and a correlate of susceptibility to type 1 diabetes mellitus.",
+            "authors": [
+              "Walikonis J E",
+              "Lennon V A"
+            ],
+            "journal": "Mayo Clinic proceedings",
+            "year": "1998",
+            "abstract": "To establish and validate a double-antibody radioimmunoassay (RIA) for detecting serum auto-antibodies against glutamic acid decarboxylase (GAD65). This enzyme catalyzes synthesis of the neurotransmitter gamma-aminobutyric acid in neurons and pancreatic islet cells.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13077387",
+            "title": "Amino acid metabolism in vitamin deficiency. II. The glutamic-aspartic transaminase activity in tissues from normal and deficient rats.",
+            "authors": [
+              "ABDULNABI M",
+              "BIERI J G"
+            ],
+            "journal": "Texas reports on biology and medicine",
+            "year": "1953",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19874942",
+            "title": "Vitamin K in parenteral nutrition.",
+            "authors": [
+              "Shearer Martin J"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2009",
+            "abstract": "Vitamin K (as phylloquinone and menaquinones) is an essential cofactor for the conversion of peptide-bound glutamate to gamma-carboxy glutamic acid (Gla) residues in a number of specialized Gla-containing proteins. The only unequivocal deficiency outcome is a bleeding syndrome caused by an inability to synthesize active coagulation factors II, VII, IX, and X, although there is growing evidence for roles for vitamin K in bone and vascular health. An adult daily intake of about 100 microg of phyll",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "490207",
+            "title": "Effect of vitamin B-6 deficiency on glutamic acid decarboxylase activity in rat olfactory bulb and brain.",
+            "authors": [
+              "Quinn M R",
+              "Chan M M"
+            ],
+            "journal": "The Journal of nutrition",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8774237",
+            "title": "Accumulation of methylmalonic acid caused by vitamin B12-deficiency disrupts normal cellular metabolism in rat liver.",
+            "authors": [
+              "Toyoshima S",
+              "Watanabe F",
+              "Saido H",
+              "Pezacka E H",
+              "Jacobsen D W"
+            ],
+            "journal": "The British journal of nutrition",
+            "year": "1996",
+            "abstract": "To clarify the relationship between intracellular concentrations of methylmalonic acid and metabolic and growth inhibition in vitamin B12-deficient rats, hepatic methylmalonic acid levels were assayed and inhibition of glucose and glutamic acid metabolism by methylmalonic acid was studied in isolated hepatocytes. Vitamin B12-deficient rats (14 weeks old) excreted more urinary methylmalonic acid and had lower body weights than the control rats. Hepatic methylmalonic acid levels (3.6(SD 1.30)-5.3 ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24929329",
+            "title": "Role of astrocytes in thiamine deficiency.",
+            "authors": [
+              "Afadlal Szeifoul",
+              "Labetoulle Rémi",
+              "Hazell Alan S"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2014",
+            "abstract": "Thiamine deficiency (TD) is the underlying cause of Wernicke's encephalopathy (WE), an acute neurological disorder characterized by structural damage to key periventricular structures in the brain. Increasing evidence suggests these focal histological lesions may be representative of a gliopathy in which astrocyte-related changes are a major feature of the disorder. These changes include a loss of the glutamate transporters GLT-1 and GLAST concomitant with elevated interstitial glutamate levels,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13654280",
+            "title": "The effect of vitamin B6 deficiency on glutamic acid accumulation by Lactobacillus arabinosus.",
+            "authors": [
+              "HOLDEN J T"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "1959",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6043652",
+            "title": "Vitamin B6 deficiency in rats: utilization of 14C-labeled glutamic acid and sodium 2-ketoglutarate.",
+            "authors": [
+              "Thiele V F",
+              "Radke F H"
+            ],
+            "journal": "The Journal of nutrition",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6380538",
+            "title": "The function and metabolism of vitamin K.",
+            "authors": [
+              "Olson R E"
+            ],
+            "journal": "Annual review of nutrition",
+            "year": "1984",
+            "abstract": "Since the discovery of gamma-carboxyglutamic acid a decade ago, great progress has been made in advancing our knowledge of the function and metabolism of vitamin K. The distribution of this new amino acid in proteins of diverse origin and the presence of the vitamin K-dependent carboxylase in diverse tissues have emphasized the widespread significance in biology of a new triad: vitamin K, Gla, and calcium. New knowledge has been obtained on the importance of the utilization and reutilization of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3263905",
+            "title": "Fracture healing and osteocalcin metabolism in vitamin K deficiency.",
+            "authors": [
+              "Einhorn T A",
+              "Gundberg C M",
+              "Devlin V J",
+              "Warman J"
+            ],
+            "journal": "Clinical orthopaedics and related research",
+            "year": "1988",
+            "abstract": "Osteocalcin (a vitamin K-dependent, bone-specific protein) is widely accepted as a marker of osteoblastic activity. The present study was conducted to determine if a vitamin K deficiency would affect fracture healing by virtue of an alteration in osteocalcin metabolism. Thirty male Sprague-Dawley rats were divided into two groups. The control group was fed a diet that was lacking in, but offered water replete with vitamin K. The experimental group was fed a vitamin K-deficient diet and was offer",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glutamic acid 與多種維生素代謝存在間接關聯：①Pyridoxal phosphate（Vit B6）是 glutamate decarboxylase（GAD）及眾多胺基酸轉胺酶的輔酶，Vit B6 缺乏影響 glutamate 代謝（PMID 6087425）；②Vitamin K 依賴性 γ-carboxylase 以 glutamic acid 殘基為底物形成 Gla；③Vit E 缺乏影響胚胎期胺基酸代謝（PMID 33186843）；④Vit D 缺乏影響腦部 E/I 平衡（glutamate/GABA，PMID 31821883）。然而這些關聯均為 glutamic acid 作為「受影響代謝物」而非「治療干預」。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "postmenopausal osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "postmenopausal osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "postmenopausal osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "pregnancy associated osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "autosomal dominant neovascular inflammatory vitreoretinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "succinyl-CoA:3-ketoacid CoA transferase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "Worth syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "Worth syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "Worth syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "vitamin deficiency disorder"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "vitamin deficiency disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glutamic acid",
+        "disease": "vitamin deficiency disorder"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    }
+  ]
+}

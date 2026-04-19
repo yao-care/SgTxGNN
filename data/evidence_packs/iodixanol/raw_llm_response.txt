@@ -1,0 +1,263 @@
+## 藥物再利用證據分析：Iodixanol (DB01249)
+
+### 藥物背景評估
+
+Iodixanol 為等滲透壓非離子型碘化顯影劑（iso-osmolar non-ionic iodinated contrast agent），臨床定位為**影像診斷工具**而非治療藥物。MoA 標記為 [Data Gap]，但其核心機轉為碘原子提供 X 光衰減對比，非已知藥理干預途徑。TxGNN 高分預測極可能源於知識圖譜中 Iodixanol 與關節/軟骨影像檢查之大量共現關係（arthrography、CT contrast 等），形成**診斷性假關聯（diagnostic confounding）**。
+
+---
+
+```json
+{
+  "drug": "Iodixanol",
+  "drugbank_id": "DB01249",
+  "analysis_date": "2026-04-04",
+  "global_note": "Iodixanol 為診斷性顯影劑，TxGNN 高分預測普遍源於知識圖譜中與骨關節影像學之診斷性共現，而非治療性機轉關聯。所有適應症均缺乏治療性臨床試驗證據。",
+  "indications": [
+    {
+      "disease_name": "osteoarthritis",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Iodixanol 廣泛用於關節造影術（arthrography）及軟骨 CT 評估，知識圖譜因此建立強烈關聯。文獻顯示其作為研究工具評估軟骨溶質傳輸與結構，但均屬診斷/生物力學應用，無治療性機轉假說。PMID 30374787 顯示碘顯影劑不干擾關節內 PRP 功能，此為安全性相容資料，非療效證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40155520",
+          "title": "Dual-Contrast Agent with Nanoparticle and Molecular Components in Photon-Counting CT",
+          "year": "2025",
+          "study_type": "Imaging/Diagnostic Method",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "以光子計數 CT 評估軟骨雙顯影劑成像技術開發，Iodixanol 為診斷工具，非治療干預，與再利用無關。"
+        },
+        {
+          "pmid": "39012563",
+          "title": "Revealing Detailed Cartilage Function Through Nanoparticle Diffusion Imaging: A CT Study",
+          "year": "2024",
+          "study_type": "Diagnostic Imaging Research",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "奈米粒子擴散 CT 影像評估軟骨功能，Iodixanol 作為背景顯影劑使用，非治療性研究。"
+        },
+        {
+          "pmid": "30374787",
+          "title": "Iodine contrast agents do not influence Platelet-Rich Plasma function at an early time point in vitro",
+          "year": "2018",
+          "study_type": "In vitro study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "體外研究確認碘顯影劑不抑制 PRP 活性，屬安全性相容性資料。雖與 OA 治療情境（關節內注射）相關，但本身不構成 Iodixanol 治療 OA 的療效證據。"
+        },
+        {
+          "pmid": "28063646",
+          "title": "Solute transport at the interface of cartilage and subchondral bone plate: Effect of micro-architecture",
+          "year": "2017",
+          "study_type": "Biomechanics/Basic Science",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "軟骨下骨板溶質傳輸生物力學研究，使用 Iodixanol 作為溶質模型，非治療性應用。"
+        },
+        {
+          "pmid": "28518064",
+          "title": "Experimental and Finite Element Protocol for Transport of Neutral and Charged Solutes",
+          "year": "2017",
+          "study_type": "Biomechanics/Computational",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "有限元素法研究軟骨溶質傳輸，方法學研究，Iodixanol 為實驗工具。"
+        },
+        {
+          "pmid": "27793406",
+          "title": "Neutral solute transport across osteochondral interface: A finite element approach",
+          "year": "2016",
+          "study_type": "Computational/Basic Science",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "骨軟骨介面溶質傳輸計算模型，基礎科學研究，無治療相關性。"
+        },
+        {
+          "pmid": "30145230",
+          "title": "Aging does not change the compressive stiffness of mandibular condylar cartilage in horses",
+          "year": "2018",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "馬匹下頷關節軟骨老化研究，動物實驗，與 Iodixanol 治療 OA 之關聯極為間接。"
+        }
+      ],
+      "critical_gap": "7 篇文獻均為診斷影像學或生物力學基礎研究，無任何治療性 Phase 1-3 試驗，無案例報告顯示 Iodixanol 具 OA 治療效果。"
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純 TxGNN 預測，無任何文獻或試驗支持。疾病易感性基因位點（如 GDF5、ALDH1A2）與 Iodixanol 之間無已知藥理交互作用。高分可能源於 KG 中 OA 疾病群集效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "零臨床試驗，零文獻，純模型預測。"
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9900,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RA 為自體免疫疾病，標準治療為 DMARDs/生物製劑，Iodixanol 無已知免疫調節機轉。唯一文獻為 Iohexol（非 Iodixanol）脫敏成功案例，屬對顯影劑過敏的管理，與 RA 治療毫無關係。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36628042",
+          "title": "Successful Desensitization to the Radiocontrast Material Iohexol (Omnipaque™)",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "RA 患者對 Iohexol（非 Iodixanol）顯影劑過敏之脫敏處置案例，與 Iodixanol 再利用治療 RA 完全無關，屬錯誤關聯。"
+        }
+      ],
+      "critical_gap": "無任何支持 Iodixanol 治療 RA 之機轉假說或臨床資料。"
+    },
+    {
+      "disease_name": "hemoglobinopathy",
+      "txgnn_score": 0.9857,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Iodixanol 之等滲透壓特性（290 mOsm/kg）使其在血紅蛋白病變（尤其鐮刀型紅血球貧血症）患者接受顯影劑檢查時具安全優勢——避免高滲透壓造成紅血球脫水與鐮刀化。此為診斷安全性優化，而非治療性干預。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28801805",
+          "title": "Pulmonary CTA in sickle cell patients: quantitative assessment of enhancement quality",
+          "year": "2017",
+          "study_type": "Retrospective Observational",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "鐮刀型貧血症患者肺部 CTA 成像質量評估，確認 Iodixanol 在此族群之影像品質，屬診斷安全性研究，非治療再利用。"
+        },
+        {
+          "pmid": "11754395",
+          "title": "Comparison of the effects of radiographic contrast media on dehydration and filterability of red blood cells",
+          "year": "2001",
+          "study_type": "In vitro/Ex vivo Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "比較不同顯影劑對紅血球脫水及過濾性之影響，顯示 Iodixanol 等滲透壓特性對血紅蛋白病變患者紅血球損傷較小。屬安全性比較，非療效研究。"
+        }
+      ],
+      "critical_gap": "文獻支持 Iodixanol 為血紅蛋白病變患者影像檢查之較安全選擇，但此為顯影劑選擇策略，非藥物再利用之治療方案。"
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊椎短縮發育不良，為遺傳性骨骼發育異常（多涉及 TRPV4、SLC26A2 基因），Iodixanol 無已知相關機轉。TxGNN 高分可能反映 KG 中骨骼發育異常疾病群集效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "零臨床試驗，零文獻，純模型預測。罕見遺傳病，無藥理再利用基礎。"
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9838,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GDF5 基因突變導致之中肢型短肢發育不良，為極罕見遺傳性骨骼疾病。Iodixanol 與 GDF5/BMP 信號通路無已知交互作用。零文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "極罕見疾病（患病率 <1/1,000,000），零臨床試驗，零文獻。"
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9836,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見多器官發育異常症候群，涉及眼部與骨骼發育缺陷，致病機轉與 Iodixanol 完全無關。TxGNN 預測無生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "極罕見症候群，幾乎無藥物開發記錄，零臨床試驗，零文獻。"
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9836,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "合併脊椎短縮與琺瑯質發育不全之罕見遺傳症候群，與 Iodixanol 之碘化顯影劑特性毫無已知藥理關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "零臨床試驗，零文獻，罕見遺傳疾病，無再利用機制基礎。"
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9829,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "進行性肌肉纖維化疾病，為罕見骨骼肌疾病，與 Iodixanol 無已知機轉關聯。KG 預測可能源於「肌肉骨骼」疾病群集的非特異性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "零臨床試驗，零文獻，純模型預測。"
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9827,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "COMP 基因突變導致之骨骼發育不良，影響軟骨細胞外基質。雖然 Iodixanol 廣泛用於骨骼影像診斷，但無任何治療性干預機轉假說。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "零臨床試驗，零文獻。COMP 突變目前無有效藥物治療，Iodixanol 再利用無合理機制。"
+    }
+  ],
+  "overall_assessment": {
+    "pattern_finding": "所有 10 個適應症均呈現相同模式：高 TxGNN 分數（0.983-0.992）但缺乏治療性臨床證據。",
+    "root_cause_of_high_scores": "Iodixanol 在知識圖譜中與大量骨關節/肌肉骨骼疾病存在共現關係，主要來源為：(1) 關節造影術（arthrography）使用、(2) 骨骼 CT 顯影、(3) 軟骨生物力學研究工具。此為典型的『診斷性假關聯』偏誤。",
+    "evidence_distribution": {
+      "L5": 9,
+      "L4": 1,
+      "L3": 0,
+      "L2": 0,
+      "L1": 0
+    },
+    "decision_distribution": {
+      "S0": 10,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0
+    },
+    "recommendation_distribution": {
+      "Hold": 10,
+      "Research Question": 0,
+      "Proceed with Guardrails": 0
+    },
+    "actionable_note": "Iodixanol 不具備已知免疫調節、抗炎、基因校正或軟骨保護之藥理機轉，不建議優先納入任何上述適應症之再利用研究管線。若需探索顯影劑於關節疾病之角色，應聚焦於診斷精準度提升而非治療再利用。"
+  }
+}
+```
+
+---
+
+### 關鍵發現摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 主要問題 |
+|--------|----------|----------|------|----------|
+| osteoarthritis | **L4** | S0 | Hold | 7 篇文獻全為診斷/影像學用途 |
+| osteoarthritis susceptibility | L5 | S0 | Hold | 零文獻/試驗 |
+| rheumatoid arthritis | L5 | S0 | Hold | 唯一文獻為不同藥物(Iohexol) |
+| hemoglobinopathy | **L4** | S0 | Hold | 文獻為安全性選擇依據，非治療 |
+| brachyolmia | L5 | S0 | Hold | 零文獻/試驗 |
+| acromesomelic dysplasia (HT) | L5 | S0 | Hold | 零文獻/試驗 |
+| colobomatous microphthalmia-RDS | L5 | S0 | Hold | 零文獻/試驗 |
+| brachyolmia-amelogenesis | L5 | S0 | Hold | 零文獻/試驗 |
+| myosclerosis | L5 | S0 | Hold | 零文獻/試驗 |
+| pseudoachondroplasia | L5 | S0 | Hold | 零文獻/試驗 |
+
+> ⚠️ **本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證才能應用。**

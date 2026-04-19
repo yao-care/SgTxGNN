@@ -1,0 +1,200 @@
+```json
+{
+  "drug": "Chlortetracycline",
+  "drugbank_id": "DB09093",
+  "analysis_date": "2026-04-03",
+  "drug_context": {
+    "class": "First-generation tetracycline antibiotic (Aureomycin)",
+    "known_moa": "抑制細菌 30S 核糖體亞基，阻斷蛋白質合成（廣譜抑菌）；同時具備抗發炎特性（抑制 MMP、下調促炎細胞激素）",
+    "data_gap_note": "原始 MoA 欄位標記 [Data Gap]，惟文獻明確記載其作用機轉，評估以文獻為準",
+    "market_note": "台灣市場未上市，歷史上以眼用軟膏（Aureomycin Ointment）廣泛使用，近代已被後代四環素取代"
+  },
+  "indications": [
+    {
+      "disease_name": "postinfectious vasculitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "四環素類藥物具備下調 NF-κB 與 MMP 之抗發炎特性，理論上可減緩感染後血管炎的持續性免疫損傷；然 Chlortetracycline 對此適應症之直接臨床資料完全缺失，機轉連結屬類推性質",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "TxGNN score 0.9982 極高，但純屬圖神經網路預測，缺乏任何臨床或臨床前佐證"
+    },
+    {
+      "disease_name": "post-bacterial disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Chlortetracycline 廣譜抗菌機轉對細菌感染後遺症（如慢性骨髓炎）具理論可行性；四環素類亦可透過免疫調節減緩持續性發炎，但此類別疾病定義模糊，臨床路徑不明確",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02099240",
+          "title": "Prospective Randomized Study to Compare Clinical Outcomes in Patients With Osteomyelitis",
+          "phase": "EARLY_PHASE1",
+          "status": "TERMINATED",
+          "enrollment": 11,
+          "relevance_grade": "C",
+          "reasoning": "試驗已提前終止（TERMINATED），僅完成 11 例登錄（大幅低於統計效力需求），且為 Early Phase 1（安全性探索性質）；適應症為骨髓炎而非 post-bacterial disorder 本身，屬間接相關；終止原因未公開，可能暗示安全或可行性疑慮"
+        }
+      ],
+      "literature_analysis": [],
+      "scoring_note": "單一已終止的 Early Phase 1 試驗，無法支撐至 L3；降為 L4（間接/個案等級）"
+    },
+    {
+      "disease_name": "post-infectious syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後症候群之病生理涉及自體免疫失調、持續性神經發炎等多重機轉；四環素類抗發炎特性雖具理論基礎，然「感染後症候群」定義廣泛且異質性高，目前無任何直接臨床數據支持 Chlortetracycline 之應用",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "純 TxGNN 預測，無臨床/文獻支援"
+    },
+    {
+      "disease_name": "infective urethral stricture",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "泌尿道感染（尤其淋病/沙眼披衣菌）相關尿道狹窄理論上可受四環素類抑菌治療；然 Chlortetracycline 口服生物可用度低、已有 Doxycycline 等後代藥物取代，加之感染後纖維化為機械性問題，抗生素介入時機已過，缺乏臨床意義",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "純 TxGNN 預測；機轉連結雖合理但臨床可行性低"
+    },
+    {
+      "disease_name": "otitis externa",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Chlortetracycline（Aureomycin）為第一代四環素，歷史上廣泛用於局部感染；外耳炎由 Pseudomonas aeruginosa 及 Staphylococcus aureus 為主，四環素局部殺菌活性具直接生物合理性。本適應症為「歷史批准用途重新評估」而非新適應症探索，惟現代耐藥性格局已大幅改變",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "15426496",
+          "title": "Use of aureomycin in external otitis; comparison with other drugs now in use.",
+          "year": "1950",
+          "study_type": "Historical Clinical Comparison",
+          "tier": 3,
+          "reasoning": "直接針對 Aureomycin（即 Chlortetracycline）用於外耳炎的比較性臨床報告，為目前資料集中唯一直接相關文獻；然發表於 1950 年，屬現代 EBM 框架建立前研究，缺乏隨機化、盲法及現代統計設計，且未考慮當代抗藥性問題；歷史價值 > 現代臨床參考價值"
+        }
+      ],
+      "scoring_note": "有直接歷史文獻但品質極低（1950年非RCT），且現代臨床指引已不推薦本藥；定為 L4，可作為研究問題：評估局部製劑在當代敏感菌株外耳炎的活性"
+    },
+    {
+      "disease_name": "Chagas cardiomyopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "恰加斯心肌病由 Trypanosoma cruzi 寄生蟲引起；四環素類對原蟲的直接活性極為有限（主要機轉針對細菌核糖體）；現行標準治療為 Benznidazole/Nifurtimox。Chlortetracycline 對此適應症之機轉連結薄弱，TxGNN 預測可能基於「感染相關心肌病」的廣義節點關聯，非藥物特異性",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "純 TxGNN 預測；機轉合理性低，建議 Hold"
+    },
+    {
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染相關溶血性尿毒症候群（主要由 STEC O157:H7 志賀毒素誘發）在現行臨床指引中，抗生素使用為相對禁忌——可能促使細菌裂解並大量釋放志賀毒素，加重 HUS 病程。Chlortetracycline 之使用在此適應症不僅缺乏證據，且存在潛在加害風險",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "純 TxGNN 預測；臨床安全疑慮使此預測不具可行性，強烈建議 Hold"
+    },
+    {
+      "disease_name": "parasitic eyelid infestation",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼瞼寄生蟲感染（主要為 Demodex mite）理論上可受廣譜抗生素輔助治療（減少共生細菌並間接改善症狀）；Chlortetracycline 眼用製劑歷史上用於眼部感染，局部抗菌活性具理論可行性，但直接抗蟎效果未經驗證",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21955627",
+          "title": "Treatment of ocular itching associated with ocular demodicosis by 5% tea tree oil ointment.",
+          "year": "2012",
+          "study_type": "Clinical Trial (Tea Tree Oil)",
+          "tier": 3,
+          "reasoning": "⚠️ 本文獻研究對象為 5% 茶樹油（Tea Tree Oil），非 Chlortetracycline；文獻被標記為本適應症支持依據可能源於資料管線的關聯性誤配（Demodex blepharitis 主題節點關聯）。對 Chlortetracycline 而言此文獻為零相關（relevance: D），不應計入證據評分"
+        }
+      ],
+      "scoring_note": "文獻為不相關藥物（茶樹油）之研究，有效證據數 = 0；定為 L5"
+    },
+    {
+      "disease_name": "ulcerative blepharitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "潰瘍性瞼緣炎由葡萄球菌感染主導，四環素類局部抗菌及抗發炎雙重機轉具高度生物合理性；Chlortetracycline 眼用軟膏歷史上為第一線局部眼科抗生素，雖在提供資料中無任何文獻/試驗記錄，但外部文獻脈絡支持此連結值得系統性回顧",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "提供資料中無直接證據，定為 L5；然機轉合理性與歷史使用背景建議列為 Research Question 以進行系統性文獻回顧"
+    },
+    {
+      "disease_name": "blepharoconjunctivitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "瞼結膜炎為四環素類眼科製劑之歷史核心適應症；Chlortetracycline 眼膏（Aureomycin Eye Ointment）曾廣泛用於細菌性結膜炎及砂眼（Trachoma，由 Chlamydia trachomatis 引起），後者對四環素類高度敏感。現有資料集未反映此歷史用途，建議進行系統性文獻評估",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "scoring_note": "提供資料中無直接證據，定為 L5；外部臨床背景（歷史眼科用途）支持列為 Research Question"
+    }
+  ],
+  "overall_assessment": {
+    "drug_repurposing_potential": "低至極低",
+    "primary_concern": "Chlortetracycline 為第一代四環素（1948年），現代臨床已被 Doxycycline、Minocycline 等後代藥物取代；抗藥性問題、藥代動力學限制及市場可及性均為再利用障礙",
+    "highest_priority_indications": [
+      {
+        "rank": 1,
+        "disease": "otitis externa",
+        "rationale": "唯一有直接文獻（雖為1950年）的適應症；局部製劑可繞過系統性藥代動力學問題"
+      },
+      {
+        "rank": 2,
+        "disease": "blepharoconjunctivitis",
+        "rationale": "歷史核心適應症，砂眼（Trachoma）仍為全球重大公衛問題，外部文獻支持度高"
+      },
+      {
+        "rank": 3,
+        "disease": "ulcerative blepharitis",
+        "rationale": "機轉合理性高，需系統性文獻回顧確認"
+      }
+    ],
+    "safety_flag": {
+      "indication": "infection-related hemolytic uremic syndrome",
+      "warning": "🚨 STEC 相關 HUS 中抗生素為潛在禁忌，TxGNN 預測不應轉化為臨床建議"
+    },
+    "data_quality_issues": [
+      "PMID 21955627 為茶樹油研究，被錯誤關聯至 parasitic eyelid infestation，需修正資料管線",
+      "NCT02099240 已終止（n=11），證據價值極低",
+      "10 個適應症中 8 個完全無臨床或文獻支持，高度依賴 TxGNN 預測"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 評估摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| postinfectious vasculitis | 0.9982 | **L5** | S0 | Hold |
+| post-bacterial disorder | 0.9982 | **L4** | S1 | Hold |
+| post-infectious syndrome | 0.9981 | **L5** | S0 | Hold |
+| infective urethral stricture | 0.9981 | **L5** | S0 | Hold |
+| **otitis externa** | 0.9979 | **L4** | S1 | ⚡ Research Question |
+| Chagas cardiomyopathy | 0.9978 | **L5** | S0 | Hold |
+| infection-related HUS | 0.9978 | **L5** | S0 | 🚨 Hold（安全疑慮）|
+| parasitic eyelid infestation | 0.9904 | **L5** | S0 | Hold（文獻誤配）|
+| **ulcerative blepharitis** | 0.9900 | **L5** | S0 | ⚡ Research Question |
+| **blepharoconjunctivitis** | 0.9891 | **L5** | S0 | ⚡ Research Question |
+
+## 🔑 關鍵發現
+
+1. **資料集整體證據極薄弱**：10 個適應症中，8 個完全無任何臨床試驗或文獻支持，均為純 TxGNN 預測（L5）
+
+2. **最具潛力方向**：局部眼科及耳科用途（otitis externa、blepharoconjunctivitis、ulcerative blepharitis）——Chlortetracycline 眼膏（Aureomycin）歷史上即為第一線眼科外用抗生素，這些預測與歷史臨床實踐相符，值得系統性文獻回顧
+
+3. **資料管線問題**：PMID 21955627（茶樹油研究）被錯誤標記為 Chlortetracycline 之支持文獻，需修正
+
+4. **安全警示**：infection-related HUS 不應列為再利用候選——STEC 相關 HUS 中抗生素使用可能觸發大量志賀毒素釋放，加重病程

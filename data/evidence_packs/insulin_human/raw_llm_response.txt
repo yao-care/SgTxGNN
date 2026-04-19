@@ -1,0 +1,333 @@
+# 藥物再利用證據分析：Insulin human (DB00030)
+
+正在分析 10 個適應症的證據等級...
+
+## 背景補充說明
+
+> ⚠️ **資料品質注意**：原始資料顯示 `original_indications: []` 且 `original_moa: [Data Gap]`，但 Insulin human 是已知最廣泛使用的生技藥物之一，作用機轉明確（胰島素受體激動→PI3K/Akt + MAPK/ERK 路徑→促進葡萄糖攝取與合成代謝）。以下分析已整合領域知識補充此資料缺口。
+
+---
+
+```json
+{
+  "drug": "Insulin human",
+  "drugbank_id": "DB00030",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "market_status=未上市 疑為新加坡地區資料集缺口；original_moa 補充：胰島素受體激動 → PI3K/Akt + MAPK/ERK 路徑 → 葡萄糖攝取/糖原合成/脂質合成/細胞存活",
+  "indications": [
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎與自體免疫多腺體綜合症 (APS type II/III) 共存，後者常伴隨 T1DM，推測 TxGNN 捕捉到疾病共病網路拓撲關係。胰島素本身無抑制卵巢自體免疫的機轉；標準治療為荷爾蒙替代療法 ± 免疫抑制。此為共病關聯非治療關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "0 臨床試驗，0 文獻",
+        "機轉連結為疾病共病網路人工製品 (artifact)，非治療性"
+      ],
+      "evidence_summary": "純粹 TxGNN 圖神經網路預測，無任何臨床或基礎研究支撐"
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "僵人症候群 (SPS) 與 T1DM 共享 GAD65 自體抗體病理機轉：抗 GAD65 抗體在 SPS 攻擊 GABA 能神經元（抑制 GABA 合成），在 T1DM 攻擊胰島β細胞。TxGNN 通過共享免疫病理節點連結兩者。然而胰島素無法抑制 GAD65 自體抗體或恢復 GABA 能傳導；SPS 標準治療為 diazepam/baclofen + IVIG/rituximab。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8743289",
+          "title": "Mapping of an autoreactive epitope within glutamate decarboxylase using a diabetes-associated human...",
+          "year": "1996",
+          "study_type": "Mechanistic/Epitope Mapping",
+          "tier": "3",
+          "relevance_assessment": "描述 GAD65 自體免疫表位，闡明 T1DM 與 SPS 共享免疫病理，但完全不涉及胰島素作為 SPS 治療。文獻相關性：病理機轉背景，非治療證據"
+        }
+      ],
+      "red_flags": [
+        "唯一文獻 (1996) 為表位定位研究，非治療試驗",
+        "GAD65 共病機轉是預測模型的混淆因素"
+      ]
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9981,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局灶性僵肢綜合症為 SPS 變異型，與 classic SPS 共享 GAD65/amphiphysin 抗體病理。與胰島素連結路徑同 classic SPS，為 TxGNN KG 拓撲推斷。無獨立治療機轉支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "0 臨床試驗，0 文獻",
+        "與 classic SPS 共享相同圖拓撲節點，預測可能為重複計算"
+      ]
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "硫胺素反應性功能障礙綜合症 (TRMA/Rogers syndrome，SLC19A2 突變) 三聯症包含：巨幼紅細胞性貧血、感音神經性耳聾、糖尿病。其糖尿病成分為胰島β細胞功能障礙導致的胰島素分泌不足；胰島素替代治療是此症糖尿病表型的管理方案。PMID 30833467 提示硫胺素轉運缺陷→β細胞特異性損傷→胰島素缺乏→需要外源胰島素補充。注意：一線治療為高劑量硫胺素補充，可部分逆轉糖尿病；胰島素為輔助/後線選項。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30833467",
+          "title": "Loss-of-Function Mutation in Thiamine Transporter 1 in a Family With Autosomal Dominant Diabetes.",
+          "year": "2019",
+          "study_type": "Case Series / Genetic Study",
+          "tier": "3",
+          "relevance_assessment": "家族性 SLC19A2 突變個案研究，記錄硫胺素轉運缺陷導致自體顯性糖尿病表型。間接支持胰島素治療糖尿病成分的合理性，但非胰島素「再利用」的直接 RCT 證據。相關性等級：B（間接病理機轉連結）"
+        }
+      ],
+      "next_steps": "評估現有 TRMA 病例系列中胰島素使用模式；確認硫胺素補充後仍需胰島素的患者比例"
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "骨骼發育不良症由 INPPL1 基因突變所致，INPPL1 編碼 SHIP2（SH2 domain-containing Inositol-5-Phosphatase 2）。SHIP2 為磷酸酶，水解 PIP3→PIP2，是胰島素信號的負向調節器（PI3K/Akt 路徑）。INPPL1 功能喪失突變→PIP3 蓄積→PI3K/Akt 過度激活→軟骨細胞分化與骨基質礦化異常（PMID 31519471 貓模型）。理論上胰島素進一步激活此過度活躍路徑存在風險；但 IGF-1 樣軟骨生長促進效應也值得探索。機轉高度推測性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27708270",
+          "title": "INPPL1 gene mutations in opsismodysplasia.",
+          "year": "2017",
+          "study_type": "Genetic Association Study",
+          "tier": "3",
+          "relevance_assessment": "描述 INPPL1 突變譜與 opsismodysplasia 表型，建立 SHIP2 與疾病連結。間接提示胰島素信號路徑參與，但無治療性資料。相關性等級：C"
+        },
+        {
+          "pmid": "27907247",
+          "title": "SHIP2: Structure, Function and Inhibition.",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance_assessment": "SHIP2 全面綜述，明確描述其作為胰島素信號負調節器的角色，及 SHIP2 抑制劑在胰島素抵抗中的潛力。提供胰島素-SHIP2 機轉背景，但未涉及 opsismodysplasia 治療。相關性等級：C"
+        },
+        {
+          "pmid": "31519471",
+          "title": "Altered chondrocyte differentiation, matrix mineralization and MEK-Erk1/2 signaling in an INPPL1 cat model.",
+          "year": "2020",
+          "study_type": "Animal Model Study",
+          "tier": "3",
+          "relevance_assessment": "貓 INPPL1 自然突變模型研究，證實 SHIP2 缺失→MEK-Erk1/2 信號異常→軟骨分化障礙。顯示路徑複雜性，胰島素干預效果未知。相關性等級：C"
+        }
+      ],
+      "red_flags": [
+        "胰島素進一步激活已過度活躍的 PI3K/Akt 路徑存在潛在安全疑慮",
+        "所有文獻為機轉研究，無治療試驗"
+      ]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 重大警示：胰島素注射本身是藥物誘發性局部脂肪營養不良的主要致病原因之一。反覆在同一部位注射胰島素→脂肪萎縮（lipoatrophy）或脂肪肥大（lipohypertrophy）。此為胰島素已知不良反應，非治療效應。TxGNN 可能錯誤通過「藥物-疾病」共現節點（病例報告中記錄胰島素相關脂肪萎縮）建立聯結，但方向性完全相反（致病而非治療）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27823605",
+          "title": "Lipodystrophy Syndromes.",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance_assessment": "脂肪營養不良症候群綜述，記錄胰島素注射作為局部脂肪萎縮的已知病因。此文獻實際上反對胰島素作為此適應症的治療藥物。相關性等級：C（反向證據）"
+        }
+      ],
+      "red_flags": [
+        "🔴 致病性警示：胰島素是此疾病的主要已知病因之一",
+        "TxGNN 預測方向性錯誤：共現≠治療",
+        "建議在系統評分中加入反向安全旗標"
+      ]
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "離心性脂肪萎縮症（Lipodystrophia centrifugalis abdominalis infantilis）為罕見兒科脂肪代謝疾病，病因未明。與胰島素無已知治療性機轉連結。可能為 TxGNN 通過脂質代謝相關節點群聚所產生的鄰近節點預測。廣義脂肪萎縮症的代謝異常（胰島素抵抗）通常以 leptin 替代治療，而非胰島素。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "0 臨床試驗，0 文獻",
+        "KG 鄰近節點效應（lipodystrophy cluster）的可能預測人工製品"
+      ]
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘發局部脂肪萎縮（如長期臥床、假肢壓迫）為機械性病因。與胰島素信號路徑無直接治療性關聯。TxGNN 預測可能源自 lipodystrophy 疾病群組的圖拓撲鄰近性，而非特異性機轉。注意：此類患者若合併糖尿病需使用胰島素，但這不構成胰島素對此病症的再利用證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "0 臨床試驗，0 文獻",
+        "圖拓撲鄰近性人工製品"
+      ]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L4",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胰腺發育不全（完全型或部分型）→胰島β細胞缺如→內源性胰島素分泌完全喪失→新生兒糖尿病（NDM）。胰島素替代治療是此症的核心管理策略，機轉直接且無爭議：補充缺失的內源性胰島素以維持血糖穩態。這是胰島素最直接的治療適應—針對絕對胰島素缺乏的替代療法。文獻涵蓋幹細胞異種移植（PMID 39326417）、代謝機轉（PMID 7021445, 11818477）、β細胞功能（PMID 24559925, 35499468）等多面向支持。注意：此為胰島素「延伸適應症」而非嚴格意義之再利用；臨床實踐已存在，缺乏的是適應症特異性正式臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39326417",
+          "title": "Transplantation of chemically induced pluripotent stem-cell-derived islets under abdominal anterior...",
+          "year": "2024",
+          "study_type": "Translational/Animal Study",
+          "tier": "2",
+          "relevance_assessment": "最新幹細胞衍生胰島移植研究，作為胰腺發育不全的潛在根治策略。顯示胰島素替代（包括幹細胞途徑）的研究前沿，支持胰島素管理作為橋接治療。相關性等級：B"
+        },
+        {
+          "pmid": "37817671",
+          "title": "Experimental study on physical exercise in diabetes: pathophysiology and therapeutic effects.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance_assessment": "糖尿病（包括胰腺功能不全型）病理生理與治療綜述，支持胰島素作為胰島素缺乏性糖尿病的核心治療。間接相關。相關性等級：C"
+        },
+        {
+          "pmid": "21050479",
+          "title": "Wolcott-Rallison syndrome.",
+          "year": "2010",
+          "study_type": "Review/Case Series",
+          "tier": "3",
+          "relevance_assessment": "Wolcott-Rallison 症候群（EIF2AK3 突變→胰腺功能障礙→新生兒糖尿病）為胰腺發育/功能相關的新生兒糖尿病範例，記錄胰島素替代治療的必要性。類比支持。相關性等級：B"
+        },
+        {
+          "pmid": "35499468",
+          "title": "Indirect and Direct Effects of SARS-CoV-2 on Human Pancreatic Islets.",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance_assessment": "SARS-CoV-2 對胰島損傷機轉研究，提供胰島功能喪失→糖尿病→需要胰島素的病理連結背景。相關性等級：C"
+        },
+        {
+          "pmid": "3286444",
+          "title": "Mutant insulin syndromes.",
+          "year": "1988",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_assessment": "胰島素突變症候群記錄，顯示內源性胰島素結構/功能異常的臨床表型。支持外源性正常胰島素的替代療法概念。相關性等級：C"
+        }
+      ],
+      "guardrails": [
+        "監測低血糖風險（胰腺發育不全患者對胰島素敏感性可能存在個體差異）",
+        "需評估是否合併其他胰腺功能缺失（如消化酶分泌不足需胰酶替代）",
+        "考慮幹細胞/胰島移植作為根治性選項的臨床試驗入組",
+        "新生兒患者需特別注意給藥方式與劑量精確性"
+      ],
+      "evidence_summary": "最強適應症。胰腺發育不全→絕對胰島素缺乏，胰島素替代為唯一維生治療，雖缺乏正式 RCT 但臨床必要性明確。"
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪營養不良病因未明，可能涉及局部免疫、機械或血管機轉。與胰島素無已知直接治療性連結。如同其他脂肪萎縮亞型，廣泛脂肪萎縮伴嚴重胰島素抵抗可考慮 leptin（metreleptin）而非胰島素治療。TxGNN 預測可能為 lipodystrophy cluster 節點鄰近效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "0 臨床試驗，0 文獻",
+        "脂肪萎縮相關胰島素抵抗的標準生物製劑為 leptin，非胰島素"
+      ]
+    }
+  ],
+  "portfolio_summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S0_Hold": 7,
+      "S0_Research_Question": 1,
+      "S1_Research_Question": 1,
+      "S2_Proceed_with_Guardrails": 1
+    },
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "pancreatic agenesis",
+        "rationale": "胰島素替代為唯一治療，機轉直接，文獻支撐最豐富（19篇），雖為延伸適應而非嚴格再利用"
+      },
+      {
+        "rank": 2,
+        "disease": "thiamine-responsive dysfunction syndrome",
+        "rationale": "糖尿病成分的合理胰島素管理，有遺傳病理機轉支撐，但一線為硫胺素補充"
+      },
+      {
+        "rank": 3,
+        "disease": "opsismodysplasia",
+        "rationale": "SHIP2/INPPL1-胰島素信號路徑具學術探索價值，但存在安全疑慮（過度激活）"
+      }
+    ],
+    "critical_alerts": [
+      {
+        "alert_type": "REVERSE_CAUSALITY",
+        "disease": "drug-induced localized lipodystrophy",
+        "message": "🔴 胰島素是此疾病的已知致病原因，TxGNN 預測方向性錯誤。建議在管線中設立致病性旗標過濾機制。"
+      },
+      {
+        "alert_type": "KG_TOPOLOGY_ARTIFACT",
+        "diseases": ["centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"],
+        "message": "⚠️ 三個脂肪萎縮亞型聚集出現（分數 0.997-0.997），高度疑似知識圖譜疾病群組節點鄰近性人工製品，非獨立預測信號。"
+      },
+      {
+        "alert_type": "SHARED_AUTOIMMUNITY_ARTIFACT",
+        "diseases": ["classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis"],
+        "message": "⚠️ 三個自體免疫疾病因與 T1DM 共享 GAD65/APS 免疫病理節點而被預測，屬疾病共病網路人工製品，非治療效應。"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 決策矩陣摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|----------|---------|---------|------|---------|
+| **pancreatic agenesis** | 0.997 | **L4** | **S2** | ✅ Proceed w/ Guardrails | 絕對胰島素缺乏，替代治療必要性明確 |
+| **thiamine-responsive dysfunction syndrome** | 0.998 | **L4** | **S1** | 🔬 Research Question | 管理糖尿病成分合理，硫胺素為一線 |
+| **opsismodysplasia** | 0.998 | **L5** | **S0** | 🔬 Research Question | SHIP2/PI3K 路徑學術價值，安全疑慮存在 |
+| **classic stiff person syndrome** | 0.998 | **L5** | **S0** | 🛑 Hold | GAD65 共病機轉，非治療連結 |
+| **focal stiff limb syndrome** | 0.998 | **L5** | **S0** | 🛑 Hold | SPS 變異型，同上 |
+| **autoimmune oophoritis** | 0.998 | **L5** | **S0** | 🛑 Hold | APS 共病網路人工製品 |
+| **drug-induced localized lipodystrophy** | 0.997 | **L5** | **S0** | 🔴 Hold（致病警示）| 胰島素為此病病因，方向性錯誤 |
+| **centrifugal lipodystrophy** | 0.997 | **L5** | **S0** | 🛑 Hold | KG 群組鄰近性人工製品 |
+| **pressure-induced localized lipoatrophy** | 0.997 | **L5** | **S0** | 🛑 Hold | KG 群組鄰近性人工製品 |
+| **idiopathic localized lipodystrophy** | 0.997 | **L5** | **S0** | 🛑 Hold | KG 群組鄰近性人工製品 |
+
+---
+
+## 方法論建議
+
+根據此分析，建議 TxGNN 管線加入以下過濾層：
+
+1. **反向因果旗標**：藥物已知為疾病病因時自動標記（如胰島素→脂肪萎縮）
+2. **KG 群組去重**：同一疾病群組（lipodystrophy cluster）預測分數高度相關時警示可能為拓撲人工製品
+3. **共病vs治療區分**：自體免疫多腺體症共病連結需與治療性連結明確區分
+
+> 本分析僅供研究參考，不構成醫療建議。所有再利用候選均需經過正式臨床驗證方可應用。

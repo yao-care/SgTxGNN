@@ -1,0 +1,2682 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB13879-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Glecaprevir",
+    "drugbank_id": "DB13879",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "HIV infectious disease",
+      "txgnn": {
+        "score": 0.9987345337867736,
+        "rank": 2424
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02939989",
+            "title": "An Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Combination With Sofosbuvir and Ribavirin in Chronic Hepatitis C (HCV) Infected Subjects Who Have Experienced Virologic Failure in AbbVie HCV Clinical Studies (MAGELLAN-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2016-11-21",
+            "completion_date": "2021-07-30",
+            "brief_summary": "The purpose of this study was to evaluate the efficacy and safety of co-administration of glecaprevir (ABT-493)/pibrentasvir (ABT 530) plus sofosbuvir (SOF) plus ribavirin (RBV) in hepatitis C virus (HCV) genotype (GT) 1 - 6-infected participants (including non-cirrhotic, or cirrhotic with compensated cirrhosis participants) who had experienced virologic failure in an AbbVie parent clinical study.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，HIV/HCV 共感染族群（n=33），主要終點為 HCV SVR12，非抗 HIV 療效；提供 G/P 在 HIV+ 患者的安全性資料"
+            }
+          },
+          {
+            "nct_id": "NCT03222583",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Treatment-Naïve and Treatment-Experienced, Non-Cirrhotic Asian Adults With Chronic Hepatitis C Virus Genotype (GT) 1 to GT6 Infection With or Without Human Immunodeficiency Virus Co-Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 546,
+            "start_date": "2017-10-04",
+            "completion_date": "2019-02-15",
+            "brief_summary": "This study will evaluate the efficacy and safety of glecaprevir/pibrentasvir (ABT-493/ABT-530) in non-cirrhotic chronic hepatitis C virus (HCV) genotype (GT)1 to GT6-infected Asian participants with or without human immunodeficiency virus (HIV) co-infection who are HCV treatment-naïve or treatment-experienced with interferon (IFN) with or without ribavirin (RBV), OR sofosbuvir with RBV with or without IFN.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 大型 HCV 試驗（n=546），研究 G/P 對 HCV 的療效，與 HIV 適應症無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT04189627",
+            "title": "Real World EviDEnce of the EffecTIveness and Clinical Practice Use of Glecaprevir/Pibrentasvir in Adolescents 12 to <18 Years of Age With Chronic Hepatitis C Genotypes 1 to 6 in Russian Federation (DETI-2)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 99,
+            "start_date": "2020-02-17",
+            "completion_date": "2021-06-24",
+            "brief_summary": "The objective of this study is to assess the effectiveness of the glecaprevir/pibrentasvir (GLE/PIB) regimen in adolescent participants aged 12 to \\<18 years of age with chronic hepatitis C (CHC) in clinical practice in the Russian Federation. The study also plans to assess effectiveness of GLE/PIB in subpopulations of interest like co-infected hepatitis C virus (HCV)/human immunodeficiency virus (HIV) adolescents, in various HCV genotype/subgenotype, cirrhotic and non-cirrhotic participants, tr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "真實世界研究，研究 HCV 治療效果（n=99），與 HIV 再利用無關"
+            }
+          },
+          {
+            "nct_id": "NCT02738138",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus (HCV) Genotype 1 - 6 Infection and Human Immunodeficiency Virus-1 (HIV-1) Co-Infection (EXPEDITION-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 153,
+            "start_date": "2016-05-17",
+            "completion_date": "2017-06-07",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of ABT-493/ABT-530 in adults with chronic hepatitis C virus genotype 1-6 infection and human immunodeficiency virus-1 co-infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03868163",
+            "title": "Real World Evidence of the Effectiveness and Clinical Practice Use of Glecaprevir Plus Pibrentasvir in Patients With Chronic Hepatitis C Genotypes 1 to 6 in Russian Federation",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 161,
+            "start_date": "2019-02-28",
+            "completion_date": "2020-09-04",
+            "brief_summary": "This study seeks to assess the effectiveness of Glecaprevir plus Pibrentasvir in participants with chronic hepatitis C in a real-life setting across clinical practice populations in the Russian Federation.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "真實世界 HCV 治療研究（n=161），與 HIV 直接治療無關聯"
+            }
+          },
+          {
+            "nct_id": "NCT04577482",
+            "title": "Real World Evidence of the Effectiveness and Clinical Practice Use of Glecaprevir/Pibrentasvir in DAA Treatment-Experienced Patients With Chronic Hepatitis C Genotype 1 in Russian Federation (CHOICE)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2020-10-07",
+            "completion_date": "2022-09-03",
+            "brief_summary": "Hepatitis C virus (HCV) infection is among the most common of all chronic liver diseases. HCV predominantly affects liver cells and causes the liver to become inflamed and damaged. This can lead to cirrhosis (scarring of the liver), liver cancer or the need for liver transplant. This study will evaluate how effective glecaprevir/pibrentasvir (GLE/PIB) is in participants with chronic HCV infection. Effectiveness will be assessed as the achievement of sustained virologic response.\n\nGLE/PIB is an a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04042740",
+            "title": "Glecaprevir/Pibrentasvir Fixed-dose Combination Treatment for Acute Hepatitis C Virus Infection (PURGE-C)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2019-11-20",
+            "completion_date": "2023-08-22",
+            "brief_summary": "The purpose of this study was to assess the efficacy of a fixed dose combination (FDC) of glecaprevir/pibrentasvir (G/P) given for 4 weeks for treatment of acute hepatitis C (HCV), with or without HIV-1 coinfection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02604017",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus Genotype 1 Infection (ENDURANCE-1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 703,
+            "start_date": "2015-10",
+            "completion_date": "2017-01",
+            "brief_summary": "This study seeks to evaluate the efficacy and safety of ABT-493/ABT-530 in participants with Genotype 1 hepatitis C virus infection without cirrhosis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02634008",
+            "title": "An Open Label, Multicentre, International Pilot Study of Paritaprevir/Ritonavir, Ombitasvir, Dasabuvir With or Without Ribavirin or Glecaprevir/Pibrentasvir for People With Recently Acquired Hepatitis C Virus Infection With or Without HIV Co-infection.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 83,
+            "start_date": "2016-06",
+            "completion_date": "2021-04-30",
+            "brief_summary": "An open label, multicentre, international pilot study of paritaprevir/ritonavir, ombitasvir, dasabuvir with or without ribavirin or glecaprevir/pibrentasvir for people with recently acquired hepatitis C virus infection with or without HIV co-infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03823911",
+            "title": "Cardiovascular Disease in HIV and Hepatitis C: Risk Outcomes After Hepatitis C Eradication",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 87,
+            "start_date": "2018-11-18",
+            "completion_date": "2022-12-31",
+            "brief_summary": "This is an interventional, non-randomized, controlled prospective study to treat HCV in mono-infected and HIV co-infected individuals and compare cardiovascular risk outcomes to HIV mono-infected controls. This pilot study will demonstrate whether functional cure of HCV reduces myocardial injury and risk of cardiovascular disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，研究 HIV/HCV 共感染患者清除 HCV 後心血管風險變化，間接顯示 G/P 安全性但非抗 HIV 療效"
+            }
+          },
+          {
+            "nct_id": "NCT05108935",
+            "title": "Providing A Resource: Telemedicine at Needle Exchanges to Reach Under-served Populations - Greensboro",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2022-02-17",
+            "completion_date": "2023-03-30",
+            "brief_summary": "The purpose of this study is to provide medication for opioid use disorder (MOUD) with buprenorphine and naloxone, or bup/nx, pre-exposure prophylaxis (PrEP) for HIV prevention, and/or hepatitis C treatment for persons who inject opioids accessing syringe services programs (SSPs), as part of a comprehensive harm reduction program, and assess the acceptability and feasibility of using telemedicine to implement the program.\n\nThe initial visit will be conducted in person or remotely via telemedicin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07040319",
+            "title": "Phase I/II Study of the Pharmacokinetics and Safety of Glecaprevir/Pibrentasvir Initiated in Pregnancy in Women With Hepatitis C With and Without HIV",
+            "phase": "PHASE1, PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 30,
+            "start_date": "2026-02-28",
+            "completion_date": "2027-07-30",
+            "brief_summary": "This is a Phase I/II, multi-site, open-label, single arm study to describe the pharmacokinetics (PK) and safety of glecaprevir/pibrentasvir (GLE/PIB) initiated during pregnancy in women with hepatitis C virus (HCV) infection (acute or chronic) with or without HIV and to evaluate safety for their infants through 10 weeks postpartum.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03235349",
+            "title": "An Open-Label Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Treatment-Naïve and Treatment-Experienced Asian Adults With Chronic Hepatitis C Virus Genotype (GT) 1 to GT6 Infection With Compensated Cirrhosis and With or Without Human Immunodeficiency Virus Co-Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2017-09-29",
+            "completion_date": "2019-02-25",
+            "brief_summary": "This study will evaluate the efficacy and safety of glecaprevir/pibrentasvir (ABT-493/ABT-530) in chronic hepatitis C virus (HCV) genotype (GT)1 to GT6-infected Asian participants with compensated cirrhosis with or without human immunodeficiency virus (HIV) co-infection who are HCV treatment-naïve or treatment-experienced with interferon (IFN) (alpha, beta or pegylated interferon \\[pegIFN\\]) with or without ribavirin (RBV) OR sofosbuvir with RBV with or without IFN.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04352309",
+            "title": "REAl World Evidence Of The Effectiveness And Clinical Practice Use Of Glecaprevir/Pibrentasvir For 8 Weeks Treatment In Patients With Chronic HepatitiS C GenotYpes 1 to 6 And Liver Cirrhosis In Russian Federation (EASY)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 99,
+            "start_date": "2020-05-29",
+            "completion_date": "2021-06-11",
+            "brief_summary": "Hepatitis C Virus (HCV) infection is among the most common of all chronic liver diseases. HCV predominantly affects liver cells and causes the liver to become inflamed and damaged. This can lead to cirrhosis (scarring of the liver) and liver cancer leaving trial participants with need for liver transplant. The purpose of this study is to see how effective Glecaprevir/Pibrentasvir (GLE/PIB) is in a real world setting of participants with chronic HCV genotypes 1 to 6 and liver cirrhosis who have n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03117569",
+            "title": "A Phase IIIb, Open-label, Multicentre, International Randomised Controlled Trial of Simplified Treatment Monitoring for 8 Weeks Glecaprevir (300mg)/Pibrentasvir (120mg) in Chronic HCV Treatment naïve Patients Without Cirrhosis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 380,
+            "start_date": "2017-08-21",
+            "completion_date": "2018-12-19",
+            "brief_summary": "The aim of this study is to determine if treatment monitoring schedule for chronic HCV patients treated with glecaprevir (300mg)/pibrentasvir (120mg) can be simplified.\n\nData has shown that direct acting antiviral (DAA) regimen of glecaprevir (300mg)/pibrentasvir (120mg), a protease inhibitor and NS5A inhibitor respectively , provides key features for HCV treatment simplification.\n\nEligible participants (naïve pre-cirrhosis chronic HCV patients) will be randomized (1:2) to the standard or simpli",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29845496",
+            "title": "Glecaprevir/pibrentasvir expands reach while reducing cost and duration of hepatitis C virus therapy.",
+            "authors": [
+              "Abutaleb Ameer",
+              "Kottilil Shyam",
+              "Wilson Eleanor"
+            ],
+            "journal": "Hepatology international",
+            "year": "2018",
+            "abstract": "Hepatitis C virus (HCV) treatments have dramatically progressed from poorly tolerated, moderately successful interferon-based therapies to highly effective all-oral interferon-free regimens. While sustained virologic responses have significantly improved with fixed-dose combinations (FDC) of these direct-acting antivirals (DAA), cost remains high and certain populations of patients remain difficult to treat. Glecaprevir (GLE, an NS3/4A protease inhibitor) and pibrentasvir (PIB, NS5A inhibitor) w",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31284039",
+            "title": "Efficacy and safety of glecaprevir/pibrentasvir for chronic hepatitis C virus genotypes 1-6 infection: A systematic review and meta-analysis.",
+            "authors": [
+              "Wang Xiaoyun",
+              "Fan Xiude",
+              "Deng Huan",
+              "Zhang Xiaoge",
+              "Zhang Kun"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2019",
+            "abstract": "This systematic review and meta-analysis investigated the efficacy and safety of glecaprevir and pibrentasvir (G/P) for chronic hepatitis C virus (HCV) infection. Pubmed, Embase, Cochrane Library and Scopus were searched to identify relevant studies through August 2018. Data from eligible studies were pooled and sustained virological response rates at 12 weeks' post-treatment (SVR12) were calculated. Thirteen studies with 3082 patients were included and the overall SVR12 rate was 97.8%. The SVR1",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30499343",
+            "title": "Glecaprevir/pibrentasvir for the treatment of chronic hepatitis C virus infection.",
+            "authors": [
+              "Mensa Federico J",
+              "Lovell Sandra",
+              "Pilot-Matias Tami",
+              "Liu Wei"
+            ],
+            "journal": "Future microbiology",
+            "year": "2019",
+            "abstract": "In recent years, management of chronic hepatitis C virus (HCV) infection has been revolutionized by the availability of oral direct-acting antivirals (DAAs), which have significantly better efficacy and safety profiles than interferon-containing regimens. Simple, short-duration DAA therapies will facilitate expansion of HCV treatment to nonspecialist providers, which will be vital to achieve the WHO target of eliminating chronic HCV as a major public health threat by 2030. Coformulated glecaprev",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32754824",
+            "title": "Real-World Clinical Practice Use of 8-Week Glecaprevir/Pibrentasvir in Treatment-Naïve Patients with Compensated Cirrhosis.",
+            "authors": [
+              "Lampertico Pietro",
+              "Mauss Stefan",
+              "Persico Marcello",
+              "Barclay Stephen T",
+              "Marx Steven"
+            ],
+            "journal": "Advances in therapy",
+            "year": "2020",
+            "abstract": "More than 70 million people are estimated to be infected with hepatitis C virus globally. Glecaprevir/pibrentasvir is a widely used treatment and has recently been approved for an 8-week regimen for treatment-naïve patients with compensated cirrhosis in Europe and the USA, who would previously have received glecaprevir/pibrentasvir for 12 weeks. This label update was based on the EXPEDITION-8 study, which included 343 treatment-naïve patients with compensated cirrhosis. However, there is current",
+            "classification": {
+              "study_type": "Cohort/Real-world",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31537106",
+            "title": "Glecaprevir/Pibrentasvir: The First 8-Week, Pangenotypic HCV Treatment Regimen for Patients 12 Years of Age and Older.",
+            "authors": [
+              "Huff Jamie",
+              "Andersen Rebecca"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2020",
+            "abstract": "Objective: To review the pharmacology, pharmacokinetics, efficacy, safety, dosing, and cost information of glecaprevir/pibrentasvir in the treatment of hepatitis C virus (HCV). Data Sources: A literature search was conducted between September 2018 and July 2019 using PubMed and Google Scholar with the search terms glecaprevir, pibrentasvir, Mavyret, Maviret, and hepatitis C. Clinicaltrials.gov was searched using the same terms. References of published articles were assessed for additional inform",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39697370",
+            "title": "Effectiveness of glecaprevir/pibrentasvir in HIV/HCV-coinfected patients treated with bictegravir/emtricitabine/tenofovir alafenamide.",
+            "authors": [
+              "Berkan-Kawińska Aleksandra",
+              "Piekarska Anna",
+              "Berak Hanna",
+              "Mazur Włodzimierz",
+              "Garlicki Aleksander"
+            ],
+            "journal": "Clinical and experimental hepatology",
+            "year": "2024",
+            "abstract": "To assess the real-life efficacy and safety of glecaprevir/pibrentasvir (GLE/PIB) in HIV/HCV- positive patients treated with bictegravir/emtricitabine/tenofovir alafenamide (B/FTC/TAF).",
+            "classification": {
+              "study_type": "Cohort/Real-world",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39829106",
+            "title": "Real-world efficacy and safety of universal 8-week glecaprevir/pibrentasvir in patients with chronic hepatitis C with early chronic kidney disease or pre-end-stage renal disease: Insights from a nationwide hepatisis C virus registry in Taiwan.",
+            "authors": [
+              "Wang Szu-Jen",
+              "Huang Chung-Feng",
+              "Chang Te-Sheng",
+              "Lo Ching-Chu",
+              "Hung Chao-Hung"
+            ],
+            "journal": "The Kaohsiung journal of medical sciences",
+            "year": "2025",
+            "abstract": "An 8-week regimen of glecaprevir/pibrentasvir is recommended for treatment-naïve patients with chronic hepatitis C (CHC). In alignment with the Taiwanese government's objective to eliminate hepatitis C by 2025, this study aimed to provide real-world evidence on the use of this regimen in treatment-naïve patients with chronic kidney disease (CKD) by using data from the Taiwan Association for the Study of the Liver HCV Registry (TACR). CKD was defined by an estimated glomerular filtration rate (eG",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29595065",
+            "title": "Protease inhibitor therapy for hepatitis C virus-infection.",
+            "authors": [
+              "de Leuw P",
+              "Stephan C"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2018",
+            "abstract": "The hepatitis C virus (HCV) has affected an estimated of 80 million individuals worldwide and is a strain on public health. Around 25-30% of patients in Europe and the US who are infected with HIV are coinfected with HCV. Prior to 2013, treatment modalities containing an NS3/4A protease inhibitor in combination with pegylated interferon and ribavirin improved sustained virological response (SVR) rates. However, rates of severe side effects were high. Nowadays, oral direct-acting antiviral (DAA) ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38367631",
+            "title": "Direct-acting antiviral therapies for hepatitis C infection: global registration, reimbursement, and restrictions.",
+            "authors": [
+              "Marshall Alison D",
+              "Willing Alex R",
+              "Kairouz Abe",
+              "Cunningham Evan B",
+              "Wheeler Alice"
+            ],
+            "journal": "The lancet. Gastroenterology & hepatology",
+            "year": "2024",
+            "abstract": "Direct-acting antivirals (DAAs) for hepatitis C virus (HCV) infection have delivered high response rates (>95%) and simplified the management of HCV treatment, permitting non-specialists to manage patients without advanced liver disease. We collected and reviewed global data on the registration and reimbursement (government subsidised) of HCV therapies, including restrictions on reimbursement. Primary data collection occurred between Nov 15, 2021, and July 24, 2023, through the assistance of a g",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37671831",
+            "title": "Response to glecaprevir/pibrentasvir in HIV/HCV-coinfected patients in clinical practice.",
+            "authors": [
+              "Gonzalez-Serna Alejandro",
+              "Corma-Gomez Anaïs",
+              "Tellez Francisco",
+              "Corona-Mata Diana",
+              "Rios-Villegas María Jose"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2023",
+            "abstract": "HIV infection has been associated with lower rates of sustained viral response (SVR) with direct-acting antivirals (DAAs). There are few data on glecaprevir/pibrentasvir (G/P) in HIV/HCV coinfection outside clinical trials.",
+            "classification": {
+              "study_type": "Cohort/Real-world",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30874328",
+            "title": "Real-world effectiveness and safety of glecaprevir/pibrentasvir for the treatment of chronic hepatitis C infection: data from the German Hepatitis C-Registry.",
+            "authors": [
+              "Berg Thomas",
+              "Naumann Uwe",
+              "Stoehr Albrecht",
+              "Sick Christoph",
+              "John Christine"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2019",
+            "abstract": "Glecaprevir/pibrentasvir is a pangenotypic direct-acting antiviral regimen approved for treating adults chronically infected with hepatitis C virus (HCV). There are limited real-world data on glecaprevir/pibrentasvir to date.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30090878",
+            "title": "Glecaprevir/pibrentasvir for the treatment of chronic hepatitis C virus infection in adults.",
+            "authors": [
+              "Nehra V",
+              "Rizza S A",
+              "Temesgen Z"
+            ],
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2018",
+            "abstract": "The fixed-dose combination of glecaprevir (GLE), a nonstructural protein 3/4A (NS3/4A) protease inhibitor, and pibrentasvir (PIB), an NS5A inhibitor, was recently approved for the treatment of adult patients with chronic hepatitis C virus (HCV) genotypes 1-6 (GT-1-6) without cirrhosis or with compensated cirrhosis, and for the treatment of HCV GT-1 patients who have failed treatment with either NS5A inhibitors or NS3/4A protease inhibitors, but not both. This combination, administered over 8 or ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30671330",
+            "title": "Protease inhibitors for the treatment of hepatitis C virus infection.",
+            "authors": [
+              "de Leuw Philipp",
+              "Stephan Christoph"
+            ],
+            "journal": "GMS infectious diseases",
+            "year": "2017",
+            "abstract": "The hepatitis C virus (HCV) has affected an estimate of 80 million individuals worldwide and is a strain of public health. Around 25-30% of patients in Europe and the US infected with HIV are coinfected with HCV. Despite treatment modalities containing a NS3/4A protease inhibitor in combination with pegylated interferon and ribavirin prior to 2013 improved SVR rates, the amount of severe side effects was high. Nowadays, oral direct-acting antivirals (DAAs) combination therapy offers excellent tr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34633268",
+            "title": "The use of antiviral drugs in children.",
+            "authors": [
+              "Motisi Marco Antonio",
+              "Tamborino Agnese",
+              "Parigi Sara",
+              "Galli Luisa",
+              "de Martino Maurizio"
+            ],
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2022",
+            "abstract": "Viral infections are particularly common among children. They often have a mild course, are self-limiting and do not need any specific treatment. However, in some cases, the disease can be severe and lead to permanent disabilities. A variety of antiviral drugs are available for the treatments of certain infectious agents: for instance, acyclovir is used to treat herpes simplex virus encephalitis. Recommendations for flu treatment may change according to the current epidemiological surveillance d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30982721",
+            "title": "Hepatitis C virus infection in children and adolescents.",
+            "authors": [
+              "Indolfi Giuseppe",
+              "Easterbrook Philippa",
+              "Dusheiko Geoffrey",
+              "El-Sayed Manal H",
+              "Jonas Maureen M"
+            ],
+            "journal": "The lancet. Gastroenterology & hepatology",
+            "year": "2019",
+            "abstract": "Hepatitis C virus (HCV) infection is a major cause of chronic liver disease and associated morbidity and mortality worldwide. Short-course, oral, curative, direct-acting antiviral regimens have transformed treatment for HCV infection. Since the 2016 launch of the first global strategy towards elimination of viral hepatitis as a public health threat by 2030, the predominant focus of the global response has been on the treatment of adults, who bear the greatest burden of morbidity and mortality of",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35579223",
+            "title": "Chronic hepatitis C: Diagnosis and treatment made easy.",
+            "authors": [
+              "Abu-Freha Naim",
+              "Mathew Jacob Binil",
+              "Elhoashla Ali",
+              "Afawi Zaid",
+              "Abu-Hammad Talab"
+            ],
+            "journal": "The European journal of general practice",
+            "year": "2022",
+            "abstract": "Hepatitis C Virus (HCV) is a common cause of chronic liver disease and its ensuing complications. In the last years, there has been a revolution of the treatment for patients with HCV regarding efficacy, simplicity, safety and duration of treatment. The role of the family physician is vital in all steps of care: screening, diagnosis, linkage to treatment, treatment and follow-up.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35852787",
+            "title": "Defer no more: advances in the treatment and prevention of chronic hepatitis C virus infection in children.",
+            "authors": [
+              "Honegger Jonathan R",
+              "Gowda Charitha"
+            ],
+            "journal": "Current opinion in infectious diseases",
+            "year": "2022",
+            "abstract": "Direct-acting antiviral (DAA) regimens targeting hepatitis C virus (HCV) are now approved for young children. This review examines recent DAA experience in children, current treatment recommendations and challenges, and potential treatment-as-prevention strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35877601",
+            "title": "Comparing timelines and evidence available to support new TB, HIV, and HCV drug approvals: The same, only different.",
+            "authors": [
+              "LaHood Allison",
+              "Rahman Rifat",
+              "McKenna Lindsay",
+              "Frick Mike",
+              "Mitnick Carole D"
+            ],
+            "journal": "PloS one",
+            "year": "2022",
+            "abstract": "Tuberculosis (TB), human immunodeficiency virus (HIV), and hepatitis C virus (HCV) share a global presence and propensity to disproportionately affect marginalized populations. However, over recent decades, many fewer drugs have been brought to market for TB than for the others. Although three new anti-TB drugs have been approved in the US or Europe in the last 10 years, uptake of these drugs has been limited. Using case examples of drugs developed recently for TB, HIV, and HCV, we explore possi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34664197",
+            "title": "Successful treatment of Japanese hemophilia patient co-infected with HIV and HCV genotype 4a by glecaprevir/pibrentasvir therapy.",
+            "authors": [
+              "Sato Ken",
+              "Kanayama Yuki",
+              "Yamazaki Yuichi",
+              "Tojima Hiroki",
+              "Suga Takayoshi"
+            ],
+            "journal": "Clinical journal of gastroenterology",
+            "year": "2021",
+            "abstract": "Although direct-acting antiviral (DAA)-based anti-hepatitis C virus (HCV) therapies are very effective for patients with genotypes 1 and 2, evidence of the efficacy of DAA-based therapy for the special population of patients with genotypes 3-6 is insufficient due to the relatively small number of these subjects in Japan. Human immunodeficiency virus (HIV)/HCV-co-infected patients are recommended to be treated as HCV-mono-infected patients by the latest version of the Japan Society of Hepatology ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29369303",
+            "title": "Report from the International Conference on Viral Hepatitis - 2017.",
+            "authors": [
+              "Soriano Vicente",
+              "Young Benjamin",
+              "Reau Nancy"
+            ],
+            "journal": "AIDS reviews",
+            "year": "2018",
+            "abstract": "The International Conference on Viral Hepatitis 2017 brought exciting news on the treatment of viral hepatitis. The most recent estimates of the burden for hepatitis B virus and hepatitis C virus (HCV) infections were presented. The current gaps and prospects for regional and global eradication of viral hepatitis were discussed on the light of the WHO roadmap until 2030. Debates focused on hepatitis C and expectations using the new approved HCV pan-genotypic, once daily, oral direct-acting antiv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glecaprevir 靶向 HCV NS3/4A serine protease，HIV 使用 aspartyl protease（結構與機制根本不同），無已知交叉抑制活性。現有臨床試驗均為 HIV/HCV 共感染患者接受 G/P 治療 HCV（非抗 HIV 活性研究）。PMID 39697370、37671831 記錄的是 HIV 患者使用 G/P 的 HCV SVR 數據及與 ARV 藥物的相容性，非直接抗 HIV 療效。藥物再利用機轉依據薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hepatitis B virus infection",
+      "txgnn": {
+        "score": 0.9986639022827148,
+        "rank": 2523
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02640157",
+            "title": "A Randomized, Open-Label, Active-Controlled, Multicenter Study to Compare Efficacy and Safety of ABT-493/ABT-530 to Sofosbuvir Co-Administered With Daclatasvir in Adults With Chronic Hepatitis C Virus Genotype 3 Infection (ENDURANCE-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 506,
+            "start_date": "2015-12",
+            "completion_date": "2017-02",
+            "brief_summary": "The purpose of this study was to compare the safety and efficacy of ABT-493/ABT-530 to the combination of sofosbuvir (SOF) and daclatasvir (DCV) in adults with genotype 3 (GT3) chronic hepatitis C virus (HCV) infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 HCV 比較試驗（n=506），可能排除活躍 HBV 感染患者，與 HBV 治療適應症無關"
+            }
+          },
+          {
+            "nct_id": "NCT02446717",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 (or ABT-493/ABT-530) With and Without Ribavirin in Adults With Chronic Hepatitis C Virus (HCV) Infection Who Failed a Prior Direct-Acting Antiviral Agent (DAA)-Containing Therapy",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 141,
+            "start_date": "2015-04",
+            "completion_date": "2017-01",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of ABT-493 and ABT-530 with or without ribavirin (RBV) in participants with chronic hepatitis C virus, (HCV)-infection who previously failed treatment with a direct acting antiviral (DAA)-containing regimen.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03092375",
+            "title": "A Phase 3b, Multi-Center, Randomized, Open-Label, Pragmatic Study of Glecaprevir/Pibrentasvir (G/P) +/- Ribavirin for GT1 Subjects With Chronic Hepatitis C Previously Treated With an NS5A Inhibitor + Sofosbuvir Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 177,
+            "start_date": "2017-04-20",
+            "completion_date": "2020-02-06",
+            "brief_summary": "The study will enroll well-compensated cirrhotic as well as non-cirrhotic subjects treatment experienced with an NS5a Inhibitor + sofosbuvir and will include patients who did not complete the prescribed duration due to adverse event or any reason other than for non/poor compliance. Subjects will be randomized to 12 or 16 weeks of treatment.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3b G/P HCV 實用性研究（n=177），研究設計針對 HCV 非 HBV"
+            }
+          },
+          {
+            "nct_id": "NCT02243293",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 With and Without RBV in Subjects With Chronic Hepatitis C Virus (HCV) Genotypes 2, 3, 4, 5 or 6 Infection (SURVEYOR-II)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 694,
+            "start_date": "2014-09-19",
+            "completion_date": "2017-02-23",
+            "brief_summary": "The purpose of this phase 2/3, open-label, multipart, multicenter study was to evaluate the efficacy, and safety of co-administration of ABT-493 and ABT-530 with and without ribavirin (RBV) in chronic HCV genotype 2 (GT2-), genotype 3 (GT3-), genotype 4 (GT4), genotype 5 (GT5-), or genotype 6 (GT6-) infected participants with or without cirrhosis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3 HCV 大型試驗（n=694），非 HBV 研究"
+            }
+          },
+          {
+            "nct_id": "NCT02243280",
+            "title": "An Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 With and Without Ribavirin in Subjects With Chronic Hepatitis C Virus (HCV) Genotype 1, 4, 5, and 6 Infection (SURVEYOR-I)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 174,
+            "start_date": "2014-08",
+            "completion_date": "2016-02",
+            "brief_summary": "The purpose of this Phase 2, open-label, 2-part, multicenter study was to evaluate the efficacy, safety, and pharmacokinetics of co-administration of ABT-493 and ABT-530 with and without ribavirin (RBV) at different doses in chronic Hepatitis C virus (HCV) Genotype 1 (GT1), Genotype 4 (GT4), Genotype 5 (GT5), and Genotype 6 (GT6) infection with compensated cirrhosis (GT1 only) or without cirrhosis (GT1, GT4, GT5, or GT6). Although RBV was initially planned in the protocol, it was not administere",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02707952",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Japanese Adults With Chronic Hepatitis C Virus Infection (CERTAIN-1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 295,
+            "start_date": "2016-02-22",
+            "completion_date": "2017-02-09",
+            "brief_summary": "The purpose of this phase 3, multicenter study is to evaluate the efficacy and safety of ABT-493/ABT-530 in Japanese adults with chronic Hepatitis C Virus (HCV)-infected, HCV direct-acting antiviral agent (DAA) treatment-naïve, and DAA treatment-experienced Japanese adult subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02441283",
+            "title": "A Follow-up Study to Assess Resistance and Durability of Response to AbbVie Direct-Acting Antiviral Agent (DAA) Therapy (ABT-493 and/or ABT-530) in Subjects Who Participated in Phase 2 or 3 Clinical Studies for the Treatment of Chronic Hepatitis C Virus (HCV) Infection",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 384,
+            "start_date": "2015-06-22",
+            "completion_date": "2019-10-15",
+            "brief_summary": "This was a long-term follow-up study to evaluate the durability of sustained virologic response (SVR), persistence of direct-acting antiviral agent (DAA) resistance, and clinical outcomes for participants who received glecaprevir (ABT-493) and/or pibrentasvir (ABT-530) in prior AbbVie Phase 2 or 3 clinical studies for the treatment of chronic hepatitis C virus (HCV) infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "AbbVie DAA 抗藥性與持久反應追蹤研究（HCV），非 HBV 適應症"
+            }
+          },
+          {
+            "nct_id": "NCT02296905",
+            "title": "Pharmacokinetics and Safety of ABT-493 and/or ABT-530 in Subjects With Normal and Impaired Hepatic Function",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2014-10",
+            "completion_date": "2015-09",
+            "brief_summary": "This is an open-label, single-dose study designed to assess the pharmacokinetics and safety of ABT-493 and/or ABT-530 in subjects with impaired hepatic function and compare them to those in subjects with normal hepatic function.\n\nTwenty-four subjects will be selected and enrolled according to the subject selection criteria: 6 subjects with mild stable chronic hepatic impairment (Group I), 6 subjects with moderate stable chronic hepatic impairment (Group II), 6 subjects with severe stable chronic",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 PK/安全性試驗，肝功能損傷受試者（HCV 背景），非 HBV 療效"
+            }
+          },
+          {
+            "nct_id": "NCT02723084",
+            "title": "A Randomized, Open-Label, Active Comparator, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Japanese Adults With Genotype 2 Chronic Hepatitis C Virus Infection (CERTAIN-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 136,
+            "start_date": "2016-04-08",
+            "completion_date": "2017-03-24",
+            "brief_summary": "The purpose of this phase 3 study is to evaluate the efficacy and safety of ABT-493/ABT-530 in comparison to sofosbuvir plus ribavirin for 12 weeks in Hepatitis C Virus (HCV) Genotype 2 (GT2) infected participants.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03823911",
+            "title": "Cardiovascular Disease in HIV and Hepatitis C: Risk Outcomes After Hepatitis C Eradication",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 87,
+            "start_date": "2018-11-18",
+            "completion_date": "2022-12-31",
+            "brief_summary": "This is an interventional, non-randomized, controlled prospective study to treat HCV in mono-infected and HIV co-infected individuals and compare cardiovascular risk outcomes to HIV mono-infected controls. This pilot study will demonstrate whether functional cure of HCV reduces myocardial injury and risk of cardiovascular disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03981211",
+            "title": "Treatment of HOsPitalised Inpatients for Hepatitis C (TOPIC): Strategic Therapeutic Intervention to Enhance Linkage to Care in People Who Inject Drugs",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2021-02-12",
+            "completion_date": "2025-02-12",
+            "brief_summary": "This study will evaluate the proportion of patients achieving confirmed SVR12 (undetectable HCV RNA at time point 12 weeks plus post treatment commencement) in patients hospitalised for IRID (injecting related infectious diseases) and commencing inpatient DAA treatment within public hospital services.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01995071",
+            "title": "A Randomized, Open-Label, Dose Ranging Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Antiviral Activity of Multiple Doses of ABT-493 and ABT-530 in Adult Subjects With Genotype 1 Chronic Hepatitis C Virus (HCV) Infection",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 89,
+            "start_date": "2013-11",
+            "completion_date": "2015-06",
+            "brief_summary": "The purpose of this study is to evaluate the safety and antiviral effect of multiple doses of ABT-493 and ABT-530 in adults with genotype 1 HCV.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02640482",
+            "title": "A Randomized, Double-Blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus Genotype 2 Infection (ENDURANCE-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 304,
+            "start_date": "2015-11",
+            "completion_date": "2017-02",
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of ABT-493/ABT-530 in adults with genotype 2 chronic hepatitis C virus (HCV) infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03219216",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of Glecaprevir (GLE)/Pibrentasvir (PIB) in Treatment-Naïve Adults in Brazil With Chronic Hepatitis C Virus (HCV) Genotype 1 - 6 Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2018-06-06",
+            "completion_date": "2019-03-11",
+            "brief_summary": "This was a Phase 3, open-label, multicenter study to evaluate the efficacy and safety of glecaprevir (GLE)/pibrentasvir (PIB) for an 8 or 12-week treatment duration in adults in Brazil with chronic hepatitis C virus (HCV) genotype (GT) 1 to GT6 infection, without cirrhosis or with compensated cirrhosis, who were HCV treatment-naïve.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30982721",
+            "title": "Hepatitis C virus infection in children and adolescents.",
+            "authors": [
+              "Indolfi Giuseppe",
+              "Easterbrook Philippa",
+              "Dusheiko Geoffrey",
+              "El-Sayed Manal H",
+              "Jonas Maureen M"
+            ],
+            "journal": "The lancet. Gastroenterology & hepatology",
+            "year": "2019",
+            "abstract": "Hepatitis C virus (HCV) infection is a major cause of chronic liver disease and associated morbidity and mortality worldwide. Short-course, oral, curative, direct-acting antiviral regimens have transformed treatment for HCV infection. Since the 2016 launch of the first global strategy towards elimination of viral hepatitis as a public health threat by 2030, the predominant focus of the global response has been on the treatment of adults, who bear the greatest burden of morbidity and mortality of",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31981264",
+            "title": "Glecaprevir/pibrentasvir for patients with chronic hepatitis C virus infection and severe renal impairment.",
+            "authors": [
+              "Liu Chen-Hua",
+              "Yang Sheng-Shun",
+              "Peng Cheng-Yuan",
+              "Lin Woan-Tyy",
+              "Liu Chun-Jen"
+            ],
+            "journal": "Journal of viral hepatitis",
+            "year": "2020",
+            "abstract": "Data are limited regarding the real-world effectiveness and safety of glecaprevir/pibrentasvir (GLE/PIB) in patients with chronic hepatitis C virus (HCV) infection and severe renal impairment (RI). We aimed to evaluate the performance of GLE/PIB in patients with chronic kidney disease (CKD) stage 4 or 5 in Taiwan. 108 chronic HCV patients with CKD stage 4 (n = 32) or 5 (n = 76) receiving GLE/PIB for 8-12 weeks were retrospectively recruited at 4 academic centres in Taiwan. The effectiveness was ",
+            "classification": {
+              "study_type": "Clinical study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30964552",
+            "title": "Evolutionary Pathways to Persistence of Highly Fit and Resistant Hepatitis C Virus Protease Inhibitor Escape Variants.",
+            "authors": [
+              "Jensen Sanne Brun",
+              "Fahnøe Ulrik",
+              "Pham Long V",
+              "Serre Stéphanie Brigitte Nelly",
+              "Tang Qi"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2019",
+            "abstract": "Protease inhibitors (PIs) are important components of treatment regimens for patients with chronic hepatitis C virus (HCV) infection. However, emergence and persistence of antiviral resistance could reduce their efficacy. Thus, defining resistance determinants is highly relevant for efforts to control HCV. Here, we investigated patterns of PI resistance-associated substitutions (RASs) for the major HCV genotypes and viral determinants for persistence of key RASs. We identified protease position ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34344581",
+            "title": "Successful treatment by glecaprevir/pibrentasvir followed by hepatoprotective therapy of acute chronic hepatitis exacerbation caused by daratumumab-based regimen for multiple myeloma: Case report and review of the literature.",
+            "authors": [
+              "Yamazaki Tomoo",
+              "Joshita Satoru",
+              "Ichijo Tetsuya",
+              "Kobayashi Hiroyuki",
+              "Wakabayashi Shun-Ichi"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2021",
+            "abstract": "Hepatitis C virus (HCV) exacerbation is relatively rare as compared with hepatitis B virus reactivation in patients treated with immunosuppressive or anticancer drugs. We herein present the first reported case of acute exacerbation of chronic hepatitis in a patient with HCV persistent infection caused by combination treatment with daratumumab (DARA), bortezomib, and dexamethasone (DVd therapy). A 79-year-old woman diagnosed as having chronic HCV infection 11 years prior without successful viral ",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35579223",
+            "title": "Chronic hepatitis C: Diagnosis and treatment made easy.",
+            "authors": [
+              "Abu-Freha Naim",
+              "Mathew Jacob Binil",
+              "Elhoashla Ali",
+              "Afawi Zaid",
+              "Abu-Hammad Talab"
+            ],
+            "journal": "The European journal of general practice",
+            "year": "2022",
+            "abstract": "Hepatitis C Virus (HCV) is a common cause of chronic liver disease and its ensuing complications. In the last years, there has been a revolution of the treatment for patients with HCV regarding efficacy, simplicity, safety and duration of treatment. The role of the family physician is vital in all steps of care: screening, diagnosis, linkage to treatment, treatment and follow-up.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34092970",
+            "title": "Breakthroughs and challenges in the management of pediatric viral hepatitis.",
+            "authors": [
+              "Nicastro Emanuele",
+              "Norsa Lorenzo",
+              "Di Giorgio Angelo",
+              "Indolfi Giuseppe",
+              "D'Antiga Lorenzo"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2021",
+            "abstract": "Chronic infections by hepatitis B virus (HBV) and hepatitis C virus (HCV) major causes of advanced liver disease and mortality worldwide. Although regarded as benign infections in children, their persistence through adulthood is undoubtedly of concern. Recent advances in HCV treatment have restored the visibility of these conditions and raised expectations for HBV treatment, which is currently far from being curative. Herein we describe direct-acting antivirals available for pediatric HCV (sofos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31041789",
+            "title": "Retreatment of Hepatitis C Virus-Infected Patients with Direct-Acting Antiviral Failures.",
+            "authors": [
+              "Pawlotsky Jean-Michel"
+            ],
+            "journal": "Seminars in liver disease",
+            "year": "2019",
+            "abstract": "The treatment of chronic hepatitis C virus (HCV) infection has considerably evolved with the development of safe and well-tolerated combinations of direct-acting antiviral (DAA) drugs yielding high rates of infection cure. However, some patients fail to achieve a sustained virological response while receiving the most recent DAA combinations. Several waves of treatment failures have occurred concomitantly to the use of different drug combinations. The outcome of their retreatment strongly depend",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35431505",
+            "title": "Real-world effectiveness of direct-acting antivirals in people living with human immunodeficiency virus and hepatitis C virus genotype 6 infections.",
+            "authors": [
+              "Sun Hsin-Yun",
+              "Cheng Chien-Yu",
+              "Lin Chi-Ying",
+              "Yang Chia-Jui",
+              "Lee Nan-Yao"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2022",
+            "abstract": "Hepatitis C virus (HCV) genotype 6 (HCV-6) infection is prevalent predominantly in Southeast Asia, and the data on the virologic response of HCV-6 to direct-acting antivirals (DAAs) are sparse in people living with human immunodeficiency virus (HIV) (PLWH).",
+            "classification": {
+              "study_type": "Cohort/Real-world",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29485084",
+            "title": "Beyond one virus: vaccination against hepatitis B after hepatitis C treatment.",
+            "authors": [
+              "Debes Jose D",
+              "Singh Dupinder"
+            ],
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review/Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31114957",
+            "title": "Viral Hepatitis C Therapy: Pharmacokinetic and Pharmacodynamic Considerations: A 2019 Update.",
+            "authors": [
+              "Smolders Elise J",
+              "Jansen Anouk M E",
+              "Ter Horst Peter G J",
+              "Rockstroh Jürgen",
+              "Back David J"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2019",
+            "abstract": "It has been estimated by the World Health Organization (WHO) that over 71 million people were infected with the hepatitis C virus (HCV) in 2015. Since then, a number of highly effective direct-acting antiviral (DAA) regimens have been licensed for the treatment of chronic HCV infection: sofosbuvir/daclatasvir, sofosbuvir/ledipasvir, elbasvir/grazoprevir, sofosbuvir/velpatasvir, glecaprevir/pibrentasvir, and sofosbuvir/velpatasvir/voxilaprevir. With these treatment regimens, almost all chronic HC",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34298832",
+            "title": "An Update on Hepatocellular Carcinoma in Chronic Kidney Disease.",
+            "authors": [
+              "Fabrizi Fabrizio",
+              "Cerutti Roberta",
+              "Alfieri Carlo M",
+              "Ridruejo Ezequiel"
+            ],
+            "journal": "Cancers",
+            "year": "2021",
+            "abstract": "Chronic kidney disease is a major public health issue globally and the risk of cancer (including HCC) is greater in patients on long-term dialysis and kidney transplant compared with the general population. According to an international study on 831,804 patients on long-term dialysis, the standardized incidence ratio for liver cancer was 1.2 (95% CI, 1.0-1.4) and 1.5 (95% CI, 1.3-1.7) in European and USA cohorts, respectively. It appears that important predictors of HCC in dialysis population ar",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29369303",
+            "title": "Report from the International Conference on Viral Hepatitis - 2017.",
+            "authors": [
+              "Soriano Vicente",
+              "Young Benjamin",
+              "Reau Nancy"
+            ],
+            "journal": "AIDS reviews",
+            "year": "2018",
+            "abstract": "The International Conference on Viral Hepatitis 2017 brought exciting news on the treatment of viral hepatitis. The most recent estimates of the burden for hepatitis B virus and hepatitis C virus (HCV) infections were presented. The current gaps and prospects for regional and global eradication of viral hepatitis were discussed on the light of the WHO roadmap until 2030. Debates focused on hepatitis C and expectations using the new approved HCV pan-genotypic, once daily, oral direct-acting antiv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41734217",
+            "title": "[Antiviral treatment for chronic viral hepatitis B and C in children in Ostrava].",
+            "authors": [
+              "Rožnovský Luděk",
+              "Kabieszová Libuše",
+              "Orságová Irena",
+              "Petroušová Lenka",
+              "Konečná Martina"
+            ],
+            "journal": "Klinicka mikrobiologie a infekcni lekarstvi",
+            "year": "2025",
+            "abstract": "Retrospective evaluation of the frequency, efficacy, and tolerance of antiviral treatment for chronic viral hepatitis B and C (VHB, VHC) in children in Ostrava.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35260039",
+            "title": "Utilization of HCV viremic donors in kidney transplantation: a chance or a threat?",
+            "authors": [
+              "Czarnecka Paulina",
+              "Czarnecka Kinga",
+              "Tronina Olga",
+              "Baczkowska Teresa",
+              "Durlik Magdalena"
+            ],
+            "journal": "Renal failure",
+            "year": "2022",
+            "abstract": "Kidney transplantation is the treatment of choice in end-stage renal disease. The main issue which does not allow to utilize it fully is the number of organs available for transplant. Introduction of highly effective oral direct-acting antivirals (DAAs) to the treatment of chronic hepatitis C virus infection (HCV) enabled transplantation of HCV viremic organs to naive recipients. Despite an increasing number of reports on the satisfying effects of using HCV viremic organs, including kidneys, the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33983567",
+            "title": "Reactivation of hepatitis C virus with severe hepatitis flare during steroid administration for interstitial pneumonia.",
+            "authors": [
+              "Sato Kosuke",
+              "Inoue Jun",
+              "Kakazu Eiji",
+              "Ninomiya Masashi",
+              "Iwata Tomoaki"
+            ],
+            "journal": "Clinical journal of gastroenterology",
+            "year": "2021",
+            "abstract": "Hepatitis C virus reactivation (HCVr) was defined previously as an increase in HCV RNA level of ≥ 1 log10 IU/mL from baseline HCV RNA level after chemotherapies or immunosuppressive therapies, but HCVr during a steroid monotherapy has rarely been reported. Here we report a 75-year-old Japanese female with chronic hepatitis C (genotype 2a) who developed HCVr after the administration of prednisolone for interstitial pneumonia. She experienced alanine aminotransferase (ALT) flare with icterus, but ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40414600",
+            "title": "A global comparison of hepatitis B & C drug pricing.",
+            "authors": [
+              "Yao Leah",
+              "Ying Xiaohan",
+              "Malik Getan",
+              "Tsai Catherine",
+              "Jesudian Arun B"
+            ],
+            "journal": "Annals of hepatology",
+            "year": "2025",
+            "abstract": "Drug pricing is a major driver of healthcare spending in the United States (US) and the cost of medications in the US is up to three times higher than other countries. This cross-sectional study aims to investigate the current price differences between hepatitis B (HBV) and hepatitis C (HCV) antiviral therapies in the US as compared to peer high-income countries.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31521479",
+            "title": "Outcomes of heart transplantation from hepatitis C virus-positive donors.",
+            "authors": [
+              "Aslam Saima",
+              "Yumul Ily",
+              "Mariski Mark",
+              "Pretorius Victor",
+              "Adler Eric"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2019",
+            "abstract": "National data demonstrate that increasing opportunities exist for organ donation among hepatitis C virus (HCV)-infected individuals.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37286314",
+            "title": "Treatment effectiveness and side effects of patients with hepatitis C in the prisons of Southern Taiwan: a real-life retrospective analysis.",
+            "authors": [
+              "Tsai Yu-Chi",
+              "Yu Ming-Lung",
+              "Ko Chou-Yuan",
+              "Hsin Yi-Hsiang",
+              "Tsai Qi-Zhang"
+            ],
+            "journal": "BMJ open",
+            "year": "2023",
+            "abstract": "Hepatitis C is an important risk factor for cirrhosis and liver cancer in the Taiwanese population. Domestic prisons reported a higher rate of hepatitis C infection than the national average. Efficient and effective treatment of patients with hepatitis C in prisons is required to decrease the number of infections. This study analysed the effectiveness of hepatitis C treatment and its side effects in prison patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32296728",
+            "title": "Re-treatment of Hepatitis C Infection After Multiple Failures of Direct-Acting Antiviral Therapy.",
+            "authors": [
+              "Fierer Daniel S",
+              "Wyles David L"
+            ],
+            "journal": "Open forum infectious diseases",
+            "year": "2020",
+            "abstract": "Direct-acting antiviral (DAA) therapies for hepatitis C virus (HCV) result in initial cure rates of 95% to 99% and re-treatment cure rates of 95%. Nevertheless, given the sheer magnitude of infected persons, some will ultimately fail multiple DAA therapies, and re-treatment of these persons has not been adequately studied.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HBV 使用 DNA 聚合酶/reverse transcriptase 複製，與 HCV RNA 複製機制完全不同，Glecaprevir 無抗 HBV 活性機轉。現有文獻主要討論：(1) HCV 治療過程中的 HBV 再活化監測（PMID 29485084）；(2) 移植患者 HCV 相關肝病個案（PMID 30604247）；(3) 小兒病毒性肝炎管理綜述（非 G/P 特定）。臨床試驗均為 HCV 試驗，非針對 HBV 療效設計。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn": {
+        "score": 0.9980535507202148,
+        "rank": 3337
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FIV（貓免疫缺陷病毒）為 Retroviridae 慢病毒，複製機制與 HCV（Flaviviridae）根本不同；Glecaprevir 無抗反轉錄病毒活性依據。此預測極可能為知識圖譜中 HIV↔FIV 的節點關聯傳播至 HCV 治療藥物，屬於假陽性預測。無任何臨床試驗、文獻或臨床前數據支持。此外，FIV 感染為動物獸醫適應症，人類藥物再利用不適用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn": {
+        "score": 0.9980535507202148,
+        "rank": 3338
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SIV 為靈長類慢病毒（HIV 近親），屬 Retroviridae，與 HCV（Flaviviridae）機制根本不同。Glecaprevir 靶向 HCV serine protease，對反轉錄酶及 HIV/SIV aspartyl protease 無活性。TxGNN 評分（0.998）推測來自 HIV↔SIV 知識圖譜節點的遠端關聯，屬誤導性預測。無任何臨床或臨床前數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hepatitis E virus infection",
+      "txgnn": {
+        "score": 0.9980320334434508,
+        "rank": 3368
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02446717",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 (or ABT-493/ABT-530) With and Without Ribavirin in Adults With Chronic Hepatitis C Virus (HCV) Infection Who Failed a Prior Direct-Acting Antiviral Agent (DAA)-Containing Therapy",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 141,
+            "start_date": "2015-04",
+            "completion_date": "2017-01",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of ABT-493 and ABT-530 with or without ribavirin (RBV) in participants with chronic hepatitis C virus, (HCV)-infection who previously failed treatment with a direct acting antiviral (DAA)-containing regimen.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3 HCV 試驗（n=141），與 HEV 治療無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT02243293",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 With and Without RBV in Subjects With Chronic Hepatitis C Virus (HCV) Genotypes 2, 3, 4, 5 or 6 Infection (SURVEYOR-II)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 694,
+            "start_date": "2014-09-19",
+            "completion_date": "2017-02-23",
+            "brief_summary": "The purpose of this phase 2/3, open-label, multipart, multicenter study was to evaluate the efficacy, and safety of co-administration of ABT-493 and ABT-530 with and without ribavirin (RBV) in chronic HCV genotype 2 (GT2-), genotype 3 (GT3-), genotype 4 (GT4), genotype 5 (GT5-), or genotype 6 (GT6-) infected participants with or without cirrhosis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3 HCV 大型試驗（n=694），非 HEV 研究"
+            }
+          },
+          {
+            "nct_id": "NCT02243280",
+            "title": "An Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 With and Without Ribavirin in Subjects With Chronic Hepatitis C Virus (HCV) Genotype 1, 4, 5, and 6 Infection (SURVEYOR-I)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 174,
+            "start_date": "2014-08",
+            "completion_date": "2016-02",
+            "brief_summary": "The purpose of this Phase 2, open-label, 2-part, multicenter study was to evaluate the efficacy, safety, and pharmacokinetics of co-administration of ABT-493 and ABT-530 with and without ribavirin (RBV) at different doses in chronic Hepatitis C virus (HCV) Genotype 1 (GT1), Genotype 4 (GT4), Genotype 5 (GT5), and Genotype 6 (GT6) infection with compensated cirrhosis (GT1 only) or without cirrhosis (GT1, GT4, GT5, or GT6). Although RBV was initially planned in the protocol, it was not administere",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 HCV 合併用藥試驗（n=174），與 HEV 無直接關係"
+            }
+          },
+          {
+            "nct_id": "NCT03069365",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of Glecaprevir/Pibrentasvir in Renally-Impaired Adults With Chronic Hepatitis C Virus Genotype 1 - 6 Infection (EXPEDITION-5)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 101,
+            "start_date": "2017-03-28",
+            "completion_date": "2018-06-05",
+            "brief_summary": "This was a Phase 3b, open-label, non-randomized, multicenter study to evaluate the efficacy and safety of glecaprevir/pibrentasvir (GLE/PIB) in participants with chronic hepatitis C virus (HCV) genotype (GT) 1 - 6 infection without liver cirrhosis or with compensated liver cirrhosis and with chronic renal impairment in participants who were either HCV treatment-naïve (TN) or prior treatment-experienced (TE) with interferon (IFN) or pegylated interferon (PegIFN) with or without ribavirin (RBV), o",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 G/P 用於 HCV 復發患者（n=101），與 HEV 無關"
+            }
+          },
+          {
+            "nct_id": "NCT01995071",
+            "title": "A Randomized, Open-Label, Dose Ranging Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Antiviral Activity of Multiple Doses of ABT-493 and ABT-530 in Adult Subjects With Genotype 1 Chronic Hepatitis C Virus (HCV) Infection",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 89,
+            "start_date": "2013-11",
+            "completion_date": "2015-06",
+            "brief_summary": "The purpose of this study is to evaluate the safety and antiviral effect of multiple doses of ABT-493 and ABT-530 in adults with genotype 1 HCV.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 劑量範圍試驗（HCV，n=89），非 HEV 研究"
+            }
+          },
+          {
+            "nct_id": "NCT03219216",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of Glecaprevir (GLE)/Pibrentasvir (PIB) in Treatment-Naïve Adults in Brazil With Chronic Hepatitis C Virus (HCV) Genotype 1 - 6 Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2018-06-06",
+            "completion_date": "2019-03-11",
+            "brief_summary": "This was a Phase 3, open-label, multicenter study to evaluate the efficacy and safety of glecaprevir (GLE)/pibrentasvir (PIB) for an 8 or 12-week treatment duration in adults in Brazil with chronic hepatitis C virus (HCV) genotype (GT) 1 to GT6 infection, without cirrhosis or with compensated cirrhosis, who were HCV treatment-naïve.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 G/P 治療特定 HCV 族群（n=100），非 HEV"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HEV（Hepeviridae）ORF1 編碼一個 cysteine protease（papain-like），與 HCV NS3/4A serine protease 不同類型，但均為蛋白酶。重要參考：其他 HCV NS3 抑制劑（boceprevir、narlaprevir）已有 in vitro 抗 HEV 活性文獻報告。Glecaprevir 是否具類似活性，尚無任何臨床或臨床前數據（本資料集文獻數=0）。所列 6 個臨床試驗全為 HCV 試驗（與 HEV 無直接關係）。考量 HEV 慢性感染治療選擇極有限（ribavirin 為唯一主流選擇），且存在理論上的蛋白酶抑制轉化可能，值得進行 in vitro 研究驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hepatitis, viral, animal",
+      "txgnn": {
+        "score": 0.9979937076568604,
+        "rank": 3419
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32868923",
+            "title": "Fluoxazolevir inhibits hepatitis C virus infection in humanized chimeric mice by blocking viral membrane fusion.",
+            "authors": [
+              "Ma Christopher D",
+              "Imamura Michio",
+              "Talley Daniel C",
+              "Rolt Adam",
+              "Xu Xin"
+            ],
+            "journal": "Nature microbiology",
+            "year": "2020",
+            "abstract": "Fluoxazolevir is an aryloxazole-based entry inhibitor of hepatitis C virus (HCV). We show that fluoxazolevir inhibits fusion of HCV with hepatic cells by binding HCV envelope protein 1 to prevent fusion. Nine of ten fluoxazolevir resistance-associated substitutions are in envelope protein 1, and four are in a putative fusion peptide. Pharmacokinetic studies in mice, rats and dogs revealed that fluoxazolevir localizes to the liver. A 4-week intraperitoneal regimen of fluoxazolevir in humanized ch",
+            "classification": {
+              "study_type": "Animal model (in vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39583485",
+            "title": "Assessing the Efficacy of Novel Antiviral Therapies in Treating Hepatitis C.",
+            "authors": [
+              "Amjad Fatima",
+              "Javed Muhammad Nabeel",
+              "Tahir Sulaiman",
+              "Batool Zahra",
+              "Usman Muhammad"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Hepatitis C virus (HCV) infection is a major global health burden, with an estimated 58 million people chronically infected worldwide, according to the World Health Organization (WHO). While many people remain asymptomatic during the early stages of infection, chronic hepatitis C can cause long-term liver damage, significantly increasing the morbidity and mortality associated with the disease. The primary objective of this technical report is to find the efficacy of novel antiviral therapies in ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30604247",
+            "title": "Fibrosing cholestatic hepatitis in a kidney transplant recipient with hepatitis C virus.",
+            "authors": [
+              "Shinzato Takahiro",
+              "Kubo Taro",
+              "Shimizu Toshihiro",
+              "Nanmoku Koji",
+              "Yagisawa Takashi"
+            ],
+            "journal": "CEN case reports",
+            "year": "2019",
+            "abstract": "Fibrosing cholestatic hepatitis (FCH) is a fatal disorder that presents as a progressive deterioration of liver function over a period of several weeks to several months. It is caused by the direct cytotoxic effect of the over-expression of viral antigens on hepatocytes in immunosuppressed patients. Our patient was a 59-year-old man with hepatitis C virus (HCV) infection of genotype 2a who had suffered from end-stage renal disease due to diabetic nephropathy and underwent kidney transplantation.",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "動物病毒性肝炎涵蓋多種異質性病原體（woodchuck hepatitis virus、ground squirrel hepatitis virus 等）。所列 3 篇文獻主要為：HCV 動物模型研究（humanized chimeric mice，PMID 32868923，研究對象為不同藥物 fluoxazolevir）、HCV 抗病毒療法綜述（PMID 39583485）、HCV 移植患者個案報告（PMID 30604247）。無針對動物肝炎病毒使用 Glecaprevir 的直接數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hepatitis A virus infection",
+      "txgnn": {
+        "score": 0.9979887008666992,
+        "rank": 3422
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02692703",
+            "title": "A Single-Arm, Open-Label, Multicenter Study to Evaluate the Safety and Efficacy of ABT-493/ABT-530 in Adult Post-Liver or Post-Renal Transplant Recipients With Chronic Hepatitis C Virus Genotype 1 - 6 Infection (MAGELLAN-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2016-04-22",
+            "completion_date": "2017-06-29",
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of 12 weeks of treatment of ABT-493/ABT-530 (glecaprevir/pibrentasvir) in adults who are post primary orthotopic liver or renal transplant with chronic hepatitis C virus (HCV) infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 G/P HCV 單臂試驗（n=100），歸類至 HAV 為資料庫錯誤"
+            }
+          },
+          {
+            "nct_id": "NCT05582681",
+            "title": "HCV Test and Treat Utilizing Simplified HCV Patient Education",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 8,
+            "start_date": "2022-11-11",
+            "completion_date": "2024-11-22",
+            "brief_summary": "The study hypothesis is that the test and treat model utilizing video-based patient education will have higher rates of hepatitis C virus (HCV) treatment initiation and treatment completion.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03212521",
+            "title": "A Single Arm, Open Label, Multicenter Study to Evaluate the Efficacy and Safety of Glecaprevir (GLE)/Pibrentasvir (PIB) in Treatment Naïve Adults With Chronic Hepatitis C Virus (HCV) Genotypes 1 - 6 Infection and Aspartate Aminotransferase to Platelet Ratio Index (APRI) ≤ 1",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 230,
+            "start_date": "2017-08-07",
+            "completion_date": "2018-08-13",
+            "brief_summary": "A study to evaluate the efficacy and safety of glecaprevir(GLE)/pibrentasvir(PIB) in treatment-naïve participants with chronic hepatitis C virus (HCV) genotypes 1-6 infection and with an aspartate aminotransferase to platelet ratio index (APRI) of less than or equal to 1.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 G/P HCV 試驗（n=230），與 HAV 無關"
+            }
+          },
+          {
+            "nct_id": "NCT04235049",
+            "title": "Elimination of HCV Through Linkage and In Prison Treatment of Incarcerated Populations",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2021-10-01",
+            "completion_date": "2024-10-30",
+            "brief_summary": "Hepatitis C (HCV) is a chronic infection with significant morbidity and mortality. The development of directly acting antivirals (DAA) has dramatically improved the cure rate of HCV treatment. People who experience incarceration are disproportionately infected and often involved in ongoing transmission of disease. However, despite availability of effective treatment, people who experience incarceration are often unable to access this curative therapy, and are often not readily engaged in medical",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02642432",
+            "title": "A Single Arm, Open-label Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus Genotype 1, 2, 4, 5 or 6 Infection and Compensated Cirrhosis (EXPEDITION-1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 146,
+            "start_date": "2015-12-07",
+            "completion_date": "2017-02-10",
+            "brief_summary": "The purpose of this study is to assess the safety and efficacy of ABT-493/ABT-530 following 12 weeks of treatment in adults with chronic Hepatitis C Virus Infection genotype 1, 2, 4, 5 or 6 infection and compensated cirrhosis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02939989",
+            "title": "An Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Combination With Sofosbuvir and Ribavirin in Chronic Hepatitis C (HCV) Infected Subjects Who Have Experienced Virologic Failure in AbbVie HCV Clinical Studies (MAGELLAN-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2016-11-21",
+            "completion_date": "2021-07-30",
+            "brief_summary": "The purpose of this study was to evaluate the efficacy and safety of co-administration of glecaprevir (ABT-493)/pibrentasvir (ABT 530) plus sofosbuvir (SOF) plus ribavirin (RBV) in hepatitis C virus (HCV) genotype (GT) 1 - 6-infected participants (including non-cirrhotic, or cirrhotic with compensated cirrhosis participants) who had experienced virologic failure in an AbbVie parent clinical study.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 HCV/HIV 共感染試驗（n=33），非 HAV"
+            }
+          },
+          {
+            "nct_id": "NCT03627299",
+            "title": "An Open-label Pilot Study to Determine the Safety and Efficacy of Fixed-dose Glecaprevir and Pibrentasvir Treatment in Hepatitis C Uninfected Recipients of Renal Transplants From Hepatitis C Infected Deceased Donors",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 11,
+            "start_date": "2018-09-25",
+            "completion_date": "2021-09-20",
+            "brief_summary": "In this study, individuals without hepatitis C infection who are on the kidney transplant waitlist will receive a kidney from a deceased donor with hepatitis C infection and will be treated for hepatitis C at the same time. Treatment will include glecaprevir 300 mg / pibrentasvir 120 mg (G-P) administered on-call to the operating room for the renal transplant procedure and continued for 4 weeks post-renal transplant.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02636595",
+            "title": "A Single-Arm, Open-Label Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus Genotype 4, 5, or 6 Infection (ENDURANCE-4)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 121,
+            "start_date": "2015-11",
+            "completion_date": "2017-01",
+            "brief_summary": "The purpose of this study is to evaluate the effect of response to treatment by evaluating the percentage of subjects achieving a 12-week sustained virologic response (SVR12) after 12 weeks of treatment with ABT-493/ABT-530 and to evaluate the safety of the regimen in participants with chronic hepatitis C virus (HCV) genotype (GT) 4, 5, or 6 infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 HCV 試驗（n=121），非 HAV"
+            }
+          },
+          {
+            "nct_id": "NCT03855917",
+            "title": "A Phase IV Open-label Multicentre International Pilot Study of 4-week Treatment With Sofosbuvir (400 mg) Plus Glecaprevir/Pibrentasvir (300mg/120mg) in Chronic HCV Treatment naïve Patients With Early Liver Disease",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2020-02-11",
+            "completion_date": "2026-02",
+            "brief_summary": "This study aims to evaluate the efficacy, safety and feasibility of four weeks of sofosbuvir plus glecaprevir-pibrentasvir, followed by immediate retreatment of virological relapse with glecepravir-pibrentasvir for 12 weeks, in treatment-naïve participants with chronic HCV infection and early liver disease (F0-F2).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02640157",
+            "title": "A Randomized, Open-Label, Active-Controlled, Multicenter Study to Compare Efficacy and Safety of ABT-493/ABT-530 to Sofosbuvir Co-Administered With Daclatasvir in Adults With Chronic Hepatitis C Virus Genotype 3 Infection (ENDURANCE-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 506,
+            "start_date": "2015-12",
+            "completion_date": "2017-02",
+            "brief_summary": "The purpose of this study was to compare the safety and efficacy of ABT-493/ABT-530 to the combination of sofosbuvir (SOF) and daclatasvir (DCV) in adults with genotype 3 (GT3) chronic hepatitis C virus (HCV) infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 HCV 比較試驗（n=506），非 HAV 研究"
+            }
+          },
+          {
+            "nct_id": "NCT04366973",
+            "title": "New Care Pathways to Achieve HCV Elimination in the Community: Real-world Outcomes From HCV Infected Patients Treated in Addiction Centers in France",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 95,
+            "start_date": "2020-05-26",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Hepatitis C Virus is liver disease and is a leading cause of death and morbidity with around 71 million people affected worldwide. Widespread availability of highly effective direct-acting antivirals (DAAs) have dramatically changed the treatment landscape of HCV with a cure rate of over 95%. In May 2019, French Health Authorities expanded prescription abilities to all physicians treating adult treatment-naive patients with HCV without cirrhosis of the liver. This study will assess the treatment",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03781726",
+            "title": "A Multi-Center, Open-Label Study of Glecaprevir/Pibrentasvir to Treat Recipients of Transplanted Kidneys From Deceased Donors With Hepatitis C Virus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2019-04-10",
+            "completion_date": "2021-12-31",
+            "brief_summary": "Open label multi center study for the donation of HCV positive kidneys to HCV negative recipients with interventional treatment to prevent HCV transmission upon transplantation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02446717",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 (or ABT-493/ABT-530) With and Without Ribavirin in Adults With Chronic Hepatitis C Virus (HCV) Infection Who Failed a Prior Direct-Acting Antiviral Agent (DAA)-Containing Therapy",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 141,
+            "start_date": "2015-04",
+            "completion_date": "2017-01",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of ABT-493 and ABT-530 with or without ribavirin (RBV) in participants with chronic hepatitis C virus, (HCV)-infection who previously failed treatment with a direct acting antiviral (DAA)-containing regimen.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04214028",
+            "title": "Real World Evidence of the Safety and Clinical Practice Use of Maviret in Adolescents Patients Infected With Chronic Hepatitis C Virus (All Case Survey)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2019-12-26",
+            "completion_date": "2024-08-01",
+            "brief_summary": "This study will assess the safety and effectiveness of Maviret (Glecaprevir plus Pibrentasvir (GLE/PIB)) in adolescent participants diagnosed with chronic hepatitis C (CHC) in a real world setting across clinical practice in Japan.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03092375",
+            "title": "A Phase 3b, Multi-Center, Randomized, Open-Label, Pragmatic Study of Glecaprevir/Pibrentasvir (G/P) +/- Ribavirin for GT1 Subjects With Chronic Hepatitis C Previously Treated With an NS5A Inhibitor + Sofosbuvir Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 177,
+            "start_date": "2017-04-20",
+            "completion_date": "2020-02-06",
+            "brief_summary": "The study will enroll well-compensated cirrhotic as well as non-cirrhotic subjects treatment experienced with an NS5a Inhibitor + sofosbuvir and will include patients who did not complete the prescribed duration due to adverse event or any reason other than for non/poor compliance. Subjects will be randomized to 12 or 16 weeks of treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04614142",
+            "title": "Single Patient Protocol for Donor HCV-positive to Recipient HCV-negative Kidney Transplant in a Patient at Risk for Loss of Dialysis Access",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-11-13",
+            "completion_date": "2021-08-04",
+            "brief_summary": "This is a single patient, single center study evaluating if administration of pan-genotypic DAA therapy on day 3 (+/- 2 days) post-kidney transplant prevents the transmission of hepatitis C virus infection from an HCV-positive donor kidney to an HCV-negative recipient.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02243293",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 With and Without RBV in Subjects With Chronic Hepatitis C Virus (HCV) Genotypes 2, 3, 4, 5 or 6 Infection (SURVEYOR-II)",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 694,
+            "start_date": "2014-09-19",
+            "completion_date": "2017-02-23",
+            "brief_summary": "The purpose of this phase 2/3, open-label, multipart, multicenter study was to evaluate the efficacy, and safety of co-administration of ABT-493 and ABT-530 with and without ribavirin (RBV) in chronic HCV genotype 2 (GT2-), genotype 3 (GT3-), genotype 4 (GT4), genotype 5 (GT5-), or genotype 6 (GT6-) infected participants with or without cirrhosis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02243280",
+            "title": "An Open-Label, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Co-Administration of ABT-493 and ABT-530 With and Without Ribavirin in Subjects With Chronic Hepatitis C Virus (HCV) Genotype 1, 4, 5, and 6 Infection (SURVEYOR-I)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 174,
+            "start_date": "2014-08",
+            "completion_date": "2016-02",
+            "brief_summary": "The purpose of this Phase 2, open-label, 2-part, multicenter study was to evaluate the efficacy, safety, and pharmacokinetics of co-administration of ABT-493 and ABT-530 with and without ribavirin (RBV) at different doses in chronic Hepatitis C virus (HCV) Genotype 1 (GT1), Genotype 4 (GT4), Genotype 5 (GT5), and Genotype 6 (GT6) infection with compensated cirrhosis (GT1 only) or without cirrhosis (GT1, GT4, GT5, or GT6). Although RBV was initially planned in the protocol, it was not administere",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03776760",
+            "title": "Strategies for Hepatitis C Testing and Treatment in Aboriginal Communities That Lead to Elimination",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 600,
+            "start_date": "2019-05-28",
+            "completion_date": "2022-08",
+            "brief_summary": "A community-based \"test and treat\" intervention integrating point-of-care HCV RNA testing, non-invasive liver disease assessment and linkage to care will lead to a reduction in HCV prevalence among people attending Aboriginal health services.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03069365",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of Glecaprevir/Pibrentasvir in Renally-Impaired Adults With Chronic Hepatitis C Virus Genotype 1 - 6 Infection (EXPEDITION-5)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 101,
+            "start_date": "2017-03-28",
+            "completion_date": "2018-06-05",
+            "brief_summary": "This was a Phase 3b, open-label, non-randomized, multicenter study to evaluate the efficacy and safety of glecaprevir/pibrentasvir (GLE/PIB) in participants with chronic hepatitis C virus (HCV) genotype (GT) 1 - 6 infection without liver cirrhosis or with compensated liver cirrhosis and with chronic renal impairment in participants who were either HCV treatment-naïve (TN) or prior treatment-experienced (TE) with interferon (IFN) or pegylated interferon (PegIFN) with or without ribavirin (RBV), o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03222583",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Treatment-Naïve and Treatment-Experienced, Non-Cirrhotic Asian Adults With Chronic Hepatitis C Virus Genotype (GT) 1 to GT6 Infection With or Without Human Immunodeficiency Virus Co-Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 546,
+            "start_date": "2017-10-04",
+            "completion_date": "2019-02-15",
+            "brief_summary": "This study will evaluate the efficacy and safety of glecaprevir/pibrentasvir (ABT-493/ABT-530) in non-cirrhotic chronic hepatitis C virus (HCV) genotype (GT)1 to GT6-infected Asian participants with or without human immunodeficiency virus (HIV) co-infection who are HCV treatment-naïve or treatment-experienced with interferon (IFN) with or without ribavirin (RBV), OR sofosbuvir with RBV with or without IFN.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04189627",
+            "title": "Real World EviDEnce of the EffecTIveness and Clinical Practice Use of Glecaprevir/Pibrentasvir in Adolescents 12 to <18 Years of Age With Chronic Hepatitis C Genotypes 1 to 6 in Russian Federation (DETI-2)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 99,
+            "start_date": "2020-02-17",
+            "completion_date": "2021-06-24",
+            "brief_summary": "The objective of this study is to assess the effectiveness of the glecaprevir/pibrentasvir (GLE/PIB) regimen in adolescent participants aged 12 to \\<18 years of age with chronic hepatitis C (CHC) in clinical practice in the Russian Federation. The study also plans to assess effectiveness of GLE/PIB in subpopulations of interest like co-infected hepatitis C virus (HCV)/human immunodeficiency virus (HIV) adolescents, in various HCV genotype/subgenotype, cirrhotic and non-cirrhotic participants, tr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02707952",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Japanese Adults With Chronic Hepatitis C Virus Infection (CERTAIN-1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 295,
+            "start_date": "2016-02-22",
+            "completion_date": "2017-02-09",
+            "brief_summary": "The purpose of this phase 3, multicenter study is to evaluate the efficacy and safety of ABT-493/ABT-530 in Japanese adults with chronic Hepatitis C Virus (HCV)-infected, HCV direct-acting antiviral agent (DAA) treatment-naïve, and DAA treatment-experienced Japanese adult subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02738138",
+            "title": "A Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus (HCV) Genotype 1 - 6 Infection and Human Immunodeficiency Virus-1 (HIV-1) Co-Infection (EXPEDITION-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 153,
+            "start_date": "2016-05-17",
+            "completion_date": "2017-06-07",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of ABT-493/ABT-530 in adults with chronic hepatitis C virus genotype 1-6 infection and human immunodeficiency virus-1 co-infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03303599",
+            "title": "Real World Evidence of the Effectiveness and Clinical Practice Use of Glecaprevir Plus Pibrentasvir in Patients With Chronic Hepatitis C Genotypes 1 to 6",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2118,
+            "start_date": "2017-11-13",
+            "completion_date": "2020-01-24",
+            "brief_summary": "The interferon- and ribavirin- (RBV) free combination regimen of glecaprevir plus pibrentasvir (GLE/PIB) for the treatment of genotypes 1 to 6 of chronic hepatitis C (CHC) viral infection has been shown to be safe and effective in randomized controlled clinical trials.\n\nThis observational study is an effectiveness research examining the regimen of GLE/PIB, used according to local label, under real world conditions in a clinical practice patient population.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03523871",
+            "title": "A Single-center Pilot Study of the Use of Hepatitis C Positive Donors for Hepatitis C Negative Lung Transplant Recipients With Post-transplant Treatment With Mavyret",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2018-05-12",
+            "completion_date": "2020-09-01",
+            "brief_summary": "Patients who are Hepatitis C Negative (HCV negative) and are on the waiting list for a lung transplant at NYULH who consent to participate in this study will receive a lung transplant from a deceased donor that is HCV positive. Patients will initiate treatment for HCV with the pan-genotypic agent, Mavyret, on the day of surgery and will complete the full 8-week treatment course. Patients will be monitored post-transplant for the development of viremia, and for the time course of clearance of vir",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03868163",
+            "title": "Real World Evidence of the Effectiveness and Clinical Practice Use of Glecaprevir Plus Pibrentasvir in Patients With Chronic Hepatitis C Genotypes 1 to 6 in Russian Federation",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 161,
+            "start_date": "2019-02-28",
+            "completion_date": "2020-09-04",
+            "brief_summary": "This study seeks to assess the effectiveness of Glecaprevir plus Pibrentasvir in participants with chronic hepatitis C in a real-life setting across clinical practice populations in the Russian Federation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02946034",
+            "title": "Safety, Efficacy, and Changes in Traditional and Novel Biomarkers of Kidney Function in Patients With Hepatitis C and Advanced Chronic Kidney Disease Treated With Abbvie Viekira Pak or Mavyret Regimen",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2017-02-01",
+            "completion_date": "2020-09-16",
+            "brief_summary": "Open-label experimental trial of 12 weeks of Viekira Pak treatment ± ribavirin or Mavyret for adults with chronic kidney disease and hepatitis C.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03164902",
+            "title": "Evaluation of Wirelessly Observed Therapy to Optimize Adherence in Patients With Hepatitis C and Increased Risk for Nonadherence to Treatment",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 253,
+            "start_date": "2017-07-21",
+            "completion_date": "2019-04-30",
+            "brief_summary": "This study evaluates the ability of digital medicines, Proteus Discover, to promote adherence and thus achieving a cure for hepatitis C in patients at high risk for not adhering to their hepatitis therapy. In this single-arm, prospective study, subjects at high risk for nonadherence will be prescribed hepatitis C therapy that will be co-encapsulated with ingestible sensors (creating the digital medicine) by a pharmacy. Both the subject and the providers will have access to the ingestion adherenc",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04577482",
+            "title": "Real World Evidence of the Effectiveness and Clinical Practice Use of Glecaprevir/Pibrentasvir in DAA Treatment-Experienced Patients With Chronic Hepatitis C Genotype 1 in Russian Federation (CHOICE)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2020-10-07",
+            "completion_date": "2022-09-03",
+            "brief_summary": "Hepatitis C virus (HCV) infection is among the most common of all chronic liver diseases. HCV predominantly affects liver cells and causes the liver to become inflamed and damaged. This can lead to cirrhosis (scarring of the liver), liver cancer or the need for liver transplant. This study will evaluate how effective glecaprevir/pibrentasvir (GLE/PIB) is in participants with chronic HCV infection. Effectiveness will be assessed as the achievement of sustained virologic response.\n\nGLE/PIB is an a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04042740",
+            "title": "Glecaprevir/Pibrentasvir Fixed-dose Combination Treatment for Acute Hepatitis C Virus Infection (PURGE-C)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2019-11-20",
+            "completion_date": "2023-08-22",
+            "brief_summary": "The purpose of this study was to assess the efficacy of a fixed dose combination (FDC) of glecaprevir/pibrentasvir (G/P) given for 4 weeks for treatment of acute hepatitis C (HCV), with or without HIV-1 coinfection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05467826",
+            "title": "Efficacy and Safety of Sofosbuvir/Velpatasvir Plus Ribavirin for 12 Weeks or Sofosbuvir/Velpatasvir/Voxilaprevir for 12 Weeks in DAA Treatment Naïve HCV Subjects With GT3b, Compensated Cirrhosis in China",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2022-09-01",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Direct-acting antiviral agents (DAAs) targeting HCV have revolutionized the treatment of HCV. The efficacy of DAA-based therapy can depend on patient-related factors such as treatment experience, cirrhosis, but also on viral genotype. The high prevalence of genotype 3, which is considered difficult to cure, remains a challenge because many oral DAAs are less effective for this genotype, particularly subtype 3b than for others. Current guidance generally recommends sofosbuvir (SOF)/velpatasvir (V",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04596475",
+            "title": "Prevention of Transmission of Hepatitis C Virus (HCV) From HCV-Viremic Organ Donor to HCVNegative Organ Transplant Recipient - Pilot Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2021-05-28",
+            "completion_date": "2022-04-21",
+            "brief_summary": "This trial will be done in participants who undergo transplantation of heart, kidney or lung at University of California, San Diego (UCSD) and receive a hepatitis C infected donor organ. In this trial, the plan is to start hepatitis C treatment just before transplant surgery and treat for a short one-week course to see if hepatitis C infection can be prevented in the transplant recipient. The plan is to perform this trial in 10 participants and if successful, the next step is to try to make it s",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04952207",
+            "title": "Effectiveness and Safety of Direct-Acting Antiviral Agents for the Treatment of Chronic Hepatitis C: Multi-center, Prospective, Observational Real-world Study in EASTERN China",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2019-03-06",
+            "completion_date": "2021-08-31",
+            "brief_summary": "Clinical trials evaluating DAA have shown excellent rates of SVR and good safety profiles in patients with CHC infection. Real world data from TARGET, TRIO, IFI, DHCR, DALTON-C, as well as those cohorts from Japan, Taiwan and Korea further confirmed clinical trial findings of DAA in routine practice where populations are more complex. However, these populations are different from Chinese for different host and virus characteristics which limit the applicability of results to local practice.\n\nAs ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02441283",
+            "title": "A Follow-up Study to Assess Resistance and Durability of Response to AbbVie Direct-Acting Antiviral Agent (DAA) Therapy (ABT-493 and/or ABT-530) in Subjects Who Participated in Phase 2 or 3 Clinical Studies for the Treatment of Chronic Hepatitis C Virus (HCV) Infection",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 384,
+            "start_date": "2015-06-22",
+            "completion_date": "2019-10-15",
+            "brief_summary": "This was a long-term follow-up study to evaluate the durability of sustained virologic response (SVR), persistence of direct-acting antiviral agent (DAA) resistance, and clinical outcomes for participants who received glecaprevir (ABT-493) and/or pibrentasvir (ABT-530) in prior AbbVie Phase 2 or 3 clinical studies for the treatment of chronic hepatitis C virus (HCV) infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04047680",
+            "title": "Evolution of Estimated Glomerular Filtration Rate in Chronic Hepatitis C Patients Receiving Sofosbuvir-based or Sofosbuvir-free Direct Acting Antivirals",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 441,
+            "start_date": "2015-02",
+            "completion_date": "2019-06",
+            "brief_summary": "Data regarding the nephrotoxicity of sofosbuvir (SOF) remain controversial. The investigators compared the changes of estimated glomerular filtration rate (eGFR) in patients with chronic hepatitis C virus (HCV) infection receiving SOF-based or SOF-free direct acting antivirals (DAAs).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03492112",
+            "title": "A Non-randomized Trial to Evaluate a TEst and Treat Intervention Integrating Novel Point-of-care Hepatitis C RNA Testing, Linkage to Nursing Care, and Peer-supported Delivery of HCV Testing and Treatment aMong Current People Who Inject Drugs With HCV Attending Needle and Syringe PrOgrams",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 101,
+            "start_date": "2019-09-10",
+            "completion_date": "2021-11-30",
+            "brief_summary": "TEMPO is an interventional cohort study recruiting injecting drug users attending needle and syringe programs (NSP) in Australia. Three hundred participants will be invited to on-site HCV testing with NSP integrated care for HCV treatment.\n\nParticipants will be screened for HCV using point-of-care testing and HCV positive participants will be offered treatment with Sofosbuvir/Velpatasvir. Of those who initiate treatment, participants will receive weekly peer-based support on-treatment and return",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03623568",
+            "title": "Pan-genotypic Direct Acting Antiviral Therapy in Donor HCV-positive to Recipient HCV-negative Kidney Transplant",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2019-02-15",
+            "completion_date": "2021-04-15",
+            "brief_summary": "This is a proof of concept, single center study for the donation of HCV-positive kidney to HCV negative recipient patients, with preemptive, interventional treatment with 12 weeks of commercially available DAA therapy to prevent HCV transmission upon transplantation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03801707",
+            "title": "An Open Label, Proof of Concept Study to Evaluate the Feasibility and Safety of Kidney Transplant From HCV Positive Donors Into HCV Negative Recipient",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 54,
+            "start_date": "2019-03-22",
+            "completion_date": "2021-04-30",
+            "brief_summary": "To evaluate the safety and feasibility of transplanting kidneys from Hepatitis C virus (HCV) infected donors into recipients without HCV infection",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04515797",
+            "title": "QUICKly Eradicate Hepatitis C in Patients Undergoing REnal Transplant With 4 Weeks of Glecaprevir/Pibrentasvir",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2021-05-01",
+            "completion_date": "2023-08-31",
+            "brief_summary": "This is a single center study characterizing the experience of administration of 4 weeks of pan-genotypic DAA therapy in kidney transplantation to prevent the transmission of hepatitis C virus infection from an HCV-positive donor kidney to an HCV-negative recipient.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02651194",
+            "title": "A Single-Arm, Open-Label, Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Renally-Impaired Adults With Chronic Hepatitis C Virus Genotype 1 - 6 Infection (EXPEDITION-4)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 104,
+            "start_date": "2015-12",
+            "completion_date": "2017-01",
+            "brief_summary": "The purpose of this study is to assess the efficacy and safety of 12 weeks of treatment with the ABT-493/ABT-530 combination regimen in adults with chronic HCV genotype 1 - 6 infection and chronic severe renal impairment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02296905",
+            "title": "Pharmacokinetics and Safety of ABT-493 and/or ABT-530 in Subjects With Normal and Impaired Hepatic Function",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2014-10",
+            "completion_date": "2015-09",
+            "brief_summary": "This is an open-label, single-dose study designed to assess the pharmacokinetics and safety of ABT-493 and/or ABT-530 in subjects with impaired hepatic function and compare them to those in subjects with normal hepatic function.\n\nTwenty-four subjects will be selected and enrolled according to the subject selection criteria: 6 subjects with mild stable chronic hepatic impairment (Group I), 6 subjects with moderate stable chronic hepatic impairment (Group II), 6 subjects with severe stable chronic",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02604017",
+            "title": "A Randomized, Open-Label, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Adults With Chronic Hepatitis C Virus Genotype 1 Infection (ENDURANCE-1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 703,
+            "start_date": "2015-10",
+            "completion_date": "2017-01",
+            "brief_summary": "This study seeks to evaluate the efficacy and safety of ABT-493/ABT-530 in participants with Genotype 1 hepatitis C virus infection without cirrhosis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03067129",
+            "title": "An Open-Label, Multicenter Study to Evaluate the Pharmacokinetics, Safety, and Efficacy of Glecaprevir/Pibrentasvir in Pediatric Subjects With Genotypes 1-6 Chronic Hepatitis C Virus (HCV) Infection",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 129,
+            "start_date": "2017-03-20",
+            "completion_date": "2022-09-12",
+            "brief_summary": "The objectives of this study are to assess the pharmacokinetics, safety, and efficacy of glecaprevir/pibrentasvir adult formulation in adolescents ages 12 to 17 years and a pediatric formulation of glecaprevir and pibrentasvir in children ages 3 to \\< 12 years.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02634008",
+            "title": "An Open Label, Multicentre, International Pilot Study of Paritaprevir/Ritonavir, Ombitasvir, Dasabuvir With or Without Ribavirin or Glecaprevir/Pibrentasvir for People With Recently Acquired Hepatitis C Virus Infection With or Without HIV Co-infection.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 83,
+            "start_date": "2016-06",
+            "completion_date": "2021-04-30",
+            "brief_summary": "An open label, multicentre, international pilot study of paritaprevir/ritonavir, ombitasvir, dasabuvir with or without ribavirin or glecaprevir/pibrentasvir for people with recently acquired hepatitis C virus infection with or without HIV co-infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03702218",
+            "title": "An Open-label Pilot Study to Determine the Safety and Efficacy of Hepatitis C Uninfected Recipients of Renal and Liver Transplants From a Currently Infected or Previously Infected Hepatitis C Donor",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2019-07-01",
+            "completion_date": "2019-07-01",
+            "brief_summary": "Despite many efforts to increase the size of the donor pool, there is a large and growing disparity between the number of donor kidneys and livers available for transplantation and the number of patients on the transplant waiting list. New donor pools are needed to satisfy the lack of available donor organs, along with expanded criteria for the existing donor pools.\n\nA new standard of care now exists at most local and regional transplant centers. This new standard of care is based on the use of ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02723084",
+            "title": "A Randomized, Open-Label, Active Comparator, Multicenter Study to Evaluate the Efficacy and Safety of ABT-493/ABT-530 in Japanese Adults With Genotype 2 Chronic Hepatitis C Virus Infection (CERTAIN-2)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 136,
+            "start_date": "2016-04-08",
+            "completion_date": "2017-03-24",
+            "brief_summary": "The purpose of this phase 3 study is to evaluate the efficacy and safety of ABT-493/ABT-530 in comparison to sofosbuvir plus ribavirin for 12 weeks in Hepatitis C Virus (HCV) Genotype 2 (GT2) infected participants.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03823911",
+            "title": "Cardiovascular Disease in HIV and Hepatitis C: Risk Outcomes After Hepatitis C Eradication",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 87,
+            "start_date": "2018-11-18",
+            "completion_date": "2022-12-31",
+            "brief_summary": "This is an interventional, non-randomized, controlled prospective study to treat HCV in mono-infected and HIV co-infected individuals and compare cardiovascular risk outcomes to HIV mono-infected controls. This pilot study will demonstrate whether functional cure of HCV reduces myocardial injury and risk of cardiovascular disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03981211",
+            "title": "Treatment of HOsPitalised Inpatients for Hepatitis C (TOPIC): Strategic Therapeutic Intervention to Enhance Linkage to Care in People Who Inject Drugs",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2021-02-12",
+            "completion_date": "2025-02-12",
+            "brief_summary": "This study will evaluate the proportion of patients achieving confirmed SVR12 (undetectable HCV RNA at time point 12 weeks plus post treatment commencement) in patients hospitalised for IRID (injecting related infectious diseases) and commencing inpatient DAA treatment within public hospital services.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05446857",
+            "title": "Glecaprevir/Pibrentasvir for the Treatment of PTSD",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2023-04-01",
+            "completion_date": "2024-04-15",
+            "brief_summary": "An open-label pilot study to further investigate glecaprevir/pibrentasvir (GLE/PIB), a direct acting antiviral (DAA) that has been associated with posttraumatic stress disorder (PTSD) symptom improvement when prescribed for the treatment of chronic hepatitis C viral infection (HCV).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HAV（Picornaviridae）使用 2C NTPase 及 3C cysteine protease（非 serine protease），複製機制與 HCV 根本不同，Glecaprevir 無合理作用靶點。所列 50 個臨床試驗經檢視全為 HCV 試驗（NCT02692703、NCT03212521 等標題均為 ABT-493/ABT-530 或 Glecaprevir/Pibrentasvir 的 HCV 試驗），文獻數為 0。HAV 感染通常為自限性急性疾病，無特異性抗病毒治療需求。試驗計數（50）為資料庫歸類錯誤，應屬 HCV 試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Omsk hemorrhagic fever",
+      "txgnn": {
+        "score": 0.9979448914527892,
+        "rank": 3490
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "OHFV（Omsk hemorrhagic fever virus）屬 Flaviviridae（tick-borne），與 HCV 同科，理論上 NS3 蛋白酶可能有結構相似性。然而 OHFV NS3 序列與 HCV NS3 差異顯著，且針對 tick-borne flaviviruses 的 protease inhibitor 轉化研究極為有限。無任何臨床試驗、文獻或 in vitro 數據支持。地理分布極為侷限（西伯利亞），全球公衛影響極低，商業研究動力不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "Kyasanur forest disease",
+      "txgnn": {
+        "score": 0.997883141040802,
+        "rank": 3568
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "KFDV（Kyasanur Forest Disease Virus）同屬 Flaviviridae tick-borne group，與 OHFV 評估類似。雖與 HCV 同科，但 NS3 蛋白酶同源性低，無 in vitro 或 in vivo 數據支持 Glecaprevir 對 KFDV 的活性。疾病分布極為侷限（印度 Karnataka 邦），再利用研究優先順序低。無任何臨床試驗或文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn": {
+        "score": 0.9976894855499268,
+        "rank": 3792
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見遺傳性神經發育障礙（疑為 TBCK 相關 infantile encephalopathy 或類似疾病），病因為基因突變導致的神經發育缺陷，與 Glecaprevir 的抗病毒蛋白酶抑制機制完全無關。TxGNN 高分（0.998）可能來自知識圖譜遠端節點連結（如：肝功能↔神經發育的代謝關聯節點），屬明顯假陽性。無任何臨床、臨床前或機制支持數據。不建議研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 15,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis B virus infection"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis B virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis B virus infection"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis E virus infection"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis E virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis E virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis, viral, animal"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis, viral, animal"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis, viral, animal"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis A virus infection"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis A virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "hepatitis A virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "Omsk hemorrhagic fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "Omsk hemorrhagic fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "Omsk hemorrhagic fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "Kyasanur forest disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "Kyasanur forest disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "Kyasanur forest disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Glecaprevir",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

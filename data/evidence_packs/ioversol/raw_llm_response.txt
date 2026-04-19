@@ -1,0 +1,201 @@
+## Ioversol (DB09134) 藥物再利用證據分析
+
+**藥物背景**：Ioversol 為非離子型單體碘化顯影劑，主要用於血管造影、CT 強化掃描及泌尿道攝影等診斷程序，本身無已知治療性藥理機轉（MoA 資料缺失）。
+
+---
+
+```json
+{
+  "drug": "Ioversol",
+  "drugbank_id": "DB09134",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Ioversol 為診斷性碘化顯影劑，無已知治療性 MoA。TxGNN 高分預測群集於骨骼肌肉疾病，可能反映知識圖譜中與 GAE 程序及碘化油（Lipiodol）的間接鄰近性，需審慎區分「程序輔助角色」與「治療藥物角色」。",
+  "indications": [
+    {
+      "disease_name": "osteoarthritis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "膝關節動脈栓塞術（GAE）為新興膝骨關節炎疼痛介入療法，透過栓塞滑膜異常新生血管降低炎症訊號。碘化顯影劑（含 Ioversol 類）於 GAE 操作中用於術中血管造影定位，屬程序性輔助角色。現有試驗主要研究 Lipiodol（碘化油乳劑）作為兼具栓塞材料與顯影功能的雙效藥物，而非 Ioversol 本身的治療效果。兩者雖同屬碘化顯影劑類別，但 Lipiodol 具有額外的油性栓塞特性，與 Ioversol 的水溶性非離子特性有本質差異。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04733092",
+          "relevance_grade": "C",
+          "reasoning": "明確使用 Lipiodol 乳劑進行膝關節動脈栓塞，非 Ioversol。Phase 1，n=22，已完成。驗證 GAE 安全概念，但研究藥物與 Ioversol 化學性質不同（油性 vs 水性）。對 Ioversol 直接相關性低。"
+        },
+        {
+          "nct_id": "NCT06497140",
+          "relevance_grade": "B",
+          "reasoning": "膝關節動脈栓塞 Phase 3 假手術對照 RCT，n=130，多中心，正在招募。GAE 領域目前最高等級設計，但試驗標題未特指 Ioversol，程序中實際使用之碘化顯影劑需查閱完整方案確認。"
+        },
+        {
+          "nct_id": "NCT06611007",
+          "relevance_grade": "C",
+          "reasoning": "手指骨關節炎難治型病例之 Lipiodol® 栓塞，Phase 1/2，n=15，正在招募。適應症延伸至數位關節，但仍為 Lipiodol 專屬研究，Ioversol 不適用。"
+        },
+        {
+          "nct_id": "NCT06859164",
+          "relevance_grade": "B",
+          "reasoning": "症狀性膝骨關節炎 GAE 先導 Phase 2 RCT，n=50，正在招募。GAE 程序驗證，未特定栓塞材料。Ioversol 於此類程序中為標準輔助顯影劑，但非療效貢獻來源。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38102013",
+          "study_type": "Phase 1 RCT",
+          "tier": "2",
+          "note": "LipioJoint-1 試驗（2024）：Lipiodol 用於膝骨關節炎 GAE 的安全性與療效，結果支持繼續研究。研究藥物為 Lipiodol 而非 Ioversol，Ioversol 與此結果的直接因果關係尚無依據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨關節炎易感性（susceptibility）為遺傳傾向表型（如 GDF5、ALDH1A2 基因變異），而非可直接藥物介入的臨床狀態。Ioversol 作為碘化顯影劑無基因修飾或表觀遺傳調控機轉。TxGNN 高分可能來自與 osteoarthritis 節點的知識圖譜短距離鄰近，非真實機轉預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "類風濕性關節炎為自體免疫疾病，病理機轉涉及 T/B 細胞異常活化、TNF-α/IL-6 炎症軸及關節滑膜侵蝕。Ioversol 無免疫調節或抗炎治療機轉。現有關聯文獻 PMID 38102013 針對骨關節炎 GAE（非 RA），PMID 40137121 為 PAD4 抑制劑計算篩選研究且未涉及 Ioversol。預測可能源自 RA 與 OA 在知識圖譜關節炎分類節點的拓樸鄰近性傳播。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38102013",
+          "study_type": "Phase 1 RCT",
+          "tier": "3",
+          "note": "骨關節炎 GAE 試驗，非 RA 適應症。被歸入 RA 文獻可能為資料收集的過寬關聯，無直接支持。"
+        },
+        {
+          "pmid": "40137121",
+          "study_type": "Computational Study",
+          "tier": "3",
+          "note": "PAD4 抑制劑多方位計算篩選（2025），研究目標化合物非 Ioversol，與 Ioversol 無直接藥理關聯。"
+        }
+      ]
+    },
+    {
+      "disease_name": "hemoglobinopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有文獻評估鐮刀型細胞病患者接受碘化顯影劑的安全性（PMID 22195536），以及鐮刀型細胞病的影像學表現（PMID 23321839）。Ioversol 在此脈絡下為診斷工具，而非治療藥物，文獻目的為確認安全使用而非治療療效。無任何血紅素病變的治療機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22195536",
+          "study_type": "Retrospective Cohort / Safety Study",
+          "tier": "2",
+          "note": "鐮刀型細胞病靜脈碘化顯影劑安全性評估（2012），確認可安全使用但無治療意義。對再利用分析的意義為安全性背景資訊，非療效支持。"
+        },
+        {
+          "pmid": "23321839",
+          "study_type": "Case Series / Imaging Review",
+          "tier": "3",
+          "note": "鐮刀型細胞病顱顏骨梗塞影像學表現（2013），Ioversol 角色為診斷顯影介質，無治療相關性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "brachyolmia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brachyolmia 為罕見遺傳性脊柱骨骺發育不全（TRPV4、SLC26A2 等基因突變），目前無有效藥物治療。Ioversol 無骨骼發育調控或基因修正機轉，無任何臨床或文獻支持。預測可能源自知識圖譜中骨骼肌肉疾病群集的間接連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見複合骨骼-牙釉質發育缺陷症候群，無 Ioversol 相關臨床或文獻證據。預測可能源自 brachyolmia 節點的鄰近性擴散，無獨立機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CDMP1（GDF5）基因突變引起的肢端中段骨骼發育不全，屬常染色體隱性遺傳病。無 Ioversol 介入此發育途徑的機轉依據，亦無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myosclerosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌肉廣泛纖維化硬化症，病因複雜（遺傳性或後天性）。Ioversol 無抗纖維化或肌肉組織修復機轉，無任何臨床試驗或文獻支持。TxGNN 預測為純計算推斷，可信度低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見先天性眼發育缺陷合併肢根型骨骼發育不全症候群（PEX7 基因相關），無 Ioversol 相關治療證據。純預測，臨床可行性極低，不建議投入資源驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脫髮（尤其雄性脫髮或斑禿）與 Ioversol 無已知機轉關聯。無臨床試驗或文獻支持。知識圖譜中可能存在皮膚血管化或自體免疫的遠距間接連結，但無足夠生物合理性支撐再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| osteoarthritis | 0.9963 | **L4** | S1 | Research Question |
+| osteoarthritis susceptibility | 0.9967 | L5 | S0 | Hold |
+| rheumatoid arthritis | 0.9956 | L5 | S0 | Hold |
+| hemoglobinopathy | 0.9933 | L5 | S0 | Hold |
+| brachyolmia | 0.9936 | L5 | S0 | Hold |
+| brachyolmia-amelogenesis imperfecta | 0.9932 | L5 | S0 | Hold |
+| acromesomelic dysplasia | 0.9932 | L5 | S0 | Hold |
+| myosclerosis | 0.9929 | L5 | S0 | Hold |
+| colobomatous microphthalmia syndrome | 0.9926 | L5 | S0 | Hold |
+| alopecia | 0.9925 | L5 | S0 | Hold |
+
+---
+
+## ⚠️ 關鍵判讀說明
+
+### 1. TxGNN 高分 ≠ 直接治療潛力
+
+本案例出現**全部 10 個預測分數均 ≥ 0.992** 的情況，這是警示訊號而非支持訊號。Ioversol 作為碘化顯影劑在知識圖譜中可能與大量骨骼肌肉及結締組織相關節點存在程序性/診斷性關聯（如碘化顯影劑用於骨骼影像學），導致模型系統性高估此藥的再利用潛力。
+
+### 2. Ioversol vs. Lipiodol 的關鍵區分
+
+| 特性 | Ioversol | Lipiodol |
+|------|----------|----------|
+| 類型 | 水溶性非離子碘化顯影劑 | 碘化罌粟籽油（油性） |
+| 清除時間 | 快速（腎臟排出） | 緩慢（長期滯留組織） |
+| GAE 栓塞功能 | ❌ 無（僅顯影） | ✅ 有（油性栓塞材料） |
+| 現有 OA 試驗 | 程序輔助 | 直接研究對象 |
+
+### 3. 後續建議行動
+
+- **Osteoarthritis (Research Question)**：若欲繼續評估，需確認 NCT06497140 等 GAE 試驗中使用的具體碘化顯影劑種類，以判斷 Ioversol 是否可作為 GAE 程序中的顯影媒介，但需理解其角色為**程序工具**而非**治療藥物**。
+- **其他 9 個適應症**：無生物合理性或臨床支持，建議不投入進一步研究資源。
+
+> ⚕️ **免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證方可應用。

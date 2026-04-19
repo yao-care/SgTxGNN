@@ -1,0 +1,1477 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09083-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ivabradine",
+    "drugbank_id": "DB09083",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn": {
+        "score": 0.9978799819946288,
+        "rank": 3572
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "缺乏機轉支持。Ivabradine 的 HCN4 抑制作用主要在竇房結。HCN 通道（HCN1/HCN2）雖在毛囊神經末梢有少量表達，但無已知路徑連結 If 通道阻斷與毛髮過度生長。TxGNN 高分可能源自知識圖譜中毛囊相關表型的拓樸鄰接，屬計算假陽性信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "txgnn": {
+        "score": 0.9972223043441772,
+        "rank": 4332
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ambras 症候群為 TRPS1 基因變異導致的先天性毛髮異常，屬發育遺傳缺陷。Ivabradine 的心臟離子通道作用與此病理機轉無關。無任何臨床或實驗室證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn": {
+        "score": 0.99715256690979,
+        "rank": 4426
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22057194",
+            "title": "Periodontitis and diabetes: a two-way relationship.",
+            "authors": [
+              "Preshaw P M",
+              "Alba A L",
+              "Herrera D",
+              "Jepsen S",
+              "Konstantinidis A"
+            ],
+            "journal": "Diabetologia",
+            "year": "2012",
+            "abstract": "Periodontitis is a common chronic inflammatory disease characterised by destruction of the supporting structures of the teeth (the periodontal ligament and alveolar bone). It is highly prevalent (severe periodontitis affects 10-15% of adults) and has multiple negative impacts on quality of life. Epidemiological data confirm that diabetes is a major risk factor for periodontitis; susceptibility to periodontitis is increased by approximately threefold in people with diabetes. There is a clear rela",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35688447",
+            "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+            "authors": [
+              "Herrera David",
+              "Sanz Mariano",
+              "Kebschull Moritz",
+              "Jepsen Søren",
+              "Sculean Anton"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2022",
+            "abstract": "The recently published clinical practice guideline (CPG) for the treatment of periodontitis in stages I-III provided evidence-based recommendations for the treatment of periodontitis patients, defined according to the 2018 classification. Stage IV periodontitis shares the severity and complexity characteristics of stage III periodontitis, but includes the anatomical and functional sequelae of tooth and periodontal attachment loss (tooth flaring and drifting, bite collapse, etc.), which require a",
+            "classification": {
+              "study_type": "Clinical Guideline (EFP S3)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9495612",
+            "title": "Microbial complexes in subgingival plaque.",
+            "authors": [
+              "Socransky S S",
+              "Haffajee A D",
+              "Cugini M A",
+              "Smith C",
+              "Kent R L"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "1998",
+            "abstract": "It has been recognized for some time that bacterial species exist in complexes in subgingival plaque. The purpose of the present investigation was to attempt to define such communities using data from large numbers of plaque samples and different clustering and ordination techniques. Subgingival plaque samples were taken from the mesial aspect of each tooth in 185 subjects (mean age 51 +/- 16 years) with (n = 160) or without (n = 25) periodontitis. The presence and levels of 40 subgingival taxa ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37435999",
+            "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+            "authors": [
+              "Jepsen Karin",
+              "Sculean Anton",
+              "Jepsen Søren"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2023",
+            "abstract": "Regenerative periodontal surgical procedures are an important component in the treatment of advanced periodontitis. They aim to improve the long-term prognosis of teeth that are periodontally compromised by the presence of intrabony and/or furcation defects, resulting biologically in formation of root cementum, periodontal ligament, and alveolar bone and evidenced clinically by reduction of deep pockets to maintainable probing depths and/or improvements of vertical and horizontal furcation depth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35420698",
+            "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+            "authors": [
+              "Simpson Terry C",
+              "Clarkson Janet E",
+              "Worthington Helen V",
+              "MacDonald Laura",
+              "Weldon Jo C"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Glycaemic control is a key component in diabetes mellitus (diabetes) management. Periodontitis is the inflammation and destruction of the underlying supporting tissues of the teeth. Some studies have suggested a bidirectional relationship between glycaemic control and periodontitis.  Treatment for periodontitis involves subgingival instrumentation, which is the professional removal of plaque, calculus, and debris from below the gumline using hand or ultrasonic instruments. This is known variousl",
+            "classification": {
+              "study_type": "Cochrane-type Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36883660",
+            "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+            "authors": [
+              "Wielento A",
+              "Lagosz-Cwik K B",
+              "Potempa J",
+              "Grabiec A M"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2023",
+            "abstract": "Gingival fibroblasts (GFs) are essential components of the periodontium, which are responsible for the maintenance of tissue structure and integrity. However, the physiological role of GFs is not restricted to the production and remodeling of the extracellular matrix. GFs also act as sentinel cells that modulate the immune response to oral pathogens invading the gingival tissue. As an important \"nonclassical\" component of the innate immune system, GFs respond to bacteria and damage-related signa",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37452425",
+            "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes Mediate Endoplasmic Reticulum Stress and Immune Reprogramming for Periodontitis Therapy.",
+            "authors": [
+              "Cui Ya",
+              "Hong Shebin",
+              "Xia Yunhui",
+              "Li Xiaojing",
+              "He Xiaoya"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Periodontitis is a chronic infectious disease caused by bacterial irritation. As an essential component of the host immunity, macrophages are highly plastic and play a crucial role in inflammatory response. An appropriate and timely transition from proinflammatory (M1) to anti-inflammatory (M2) macrophages is indispensable for treating periodontitis. As M2 macrophage-derived exosomes (M2-exos) can actively target inflammatory sites and modulate immune microenvironments, M2-exos can effectively t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29193334",
+            "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+            "authors": [
+              "Ivanovski Saso",
+              "Lee Ryan"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "abstract": "The integrity of the peri-implant soft-tissue seal is crucial for maintaining peri-implant tissue health. Whilst the transmucosal component of the restored implant shares some common features with teeth, namely the presence of a junctional epithelium and a connective tissue component, there are some important differences. A key difference is the nature of the relationship of the connective tissue with the implant surface, whereby there is 'adaptation' of collagen fibers in a parallel orientation",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38907216",
+            "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+            "authors": [
+              "Peng Shumin",
+              "Fu Haojie",
+              "Li Rui",
+              "Li Hui",
+              "Wang Shuyuan"
+            ],
+            "journal": "Journal of nanobiotechnology",
+            "year": "2024",
+            "abstract": "Periodontitis is a chronic inflammation caused by a bacterial infection and is intimately associated with an overactive immune response. Biomaterials are being utilized more frequently in periodontal therapy due to their designability and unique drug delivery system. However, local and systemic immune response reactions driven by the implantation of biomaterials could result in inflammation, tissue damage, and fibrosis, which could end up with the failure of the implantation. Therefore, immunolo",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38362600",
+            "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+            "authors": [
+              "Baima G",
+              "Ferrocino I",
+              "Del Lupo V",
+              "Colonna E",
+              "Thumbigere-Math V"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2024",
+            "abstract": "Mounting evidence indicates that periodontitis-related oral bacteria may contribute to gut microbial dysbiosis. This clinical study aimed to explore the oral-gut microbial signatures associated with periodontitis and to longitudinally evaluate the effect of periodontal treatment on the oral and gut microbial composition. Stool and saliva samples from generalized stage III/IV periodontitis patients (n = 47) were collected and analyzed by 16S ribosomal RNA gene amplicon sequencing, before and 3 mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7782979",
+            "title": "The modified papilla preservation technique. A new surgical approach for interproximal regenerative procedures.",
+            "authors": [
+              "Cortellini P",
+              "Prato G P",
+              "Tonetti M S"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "1995",
+            "abstract": "A modification of the papilla preservation technique has been applied to achieve primary closure of the interproximal tissue over barrier membranes placed coronal to the alveolar crest. Fifteen patients with deep intrabony interproximal defects were treated. Defects had a probing attachment level loss of 9.9 +/- 3.2 mm and a recession of the gingival margin of 1.7 +/- 1.6 mm. The depth of the intrabony component was 5.5 +/- 2.9 mm; while the suprabony component was 5.9 +/- 2.0 mm. Titanium-reinf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29194794",
+            "title": "The periodontal pocket.",
+            "authors": [
+              "Donos Nikolaos"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "abstract": "Periodontal disease is synonymous with the presence of periodontal pockets, and very often the clinical success of periodontal therapy is based on periodontal pocket depth reduction. Therefore, in the fields of periodontology and implant dentistry, significant research effort has been placed on the etiopathogenesis, diagnosis and treatment of periodontal/peri-implant disease and as a consequence on pocket pathology. In this volume of Periodontology 2000, the in-depth reviews include topics rangi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29291254",
+            "title": "Supportive periodontal therapy (SPT) for maintaining the dentition in adults treated for periodontitis.",
+            "authors": [
+              "Manresa Carolina",
+              "Sanz-Miralles Elena C",
+              "Twigg Joshua",
+              "Bravo Manuel"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "Periodontitis is a bacterially-induced, chronic inflammatory disease that destroys the connective tissues and bone that support teeth. Active periodontal treatment aims to reduce the inflammatory response, primarily through eradication of bacterial deposits. Following completion of treatment and arrest of inflammation, supportive periodontal therapy (SPT) is employed to reduce the probability of re-infection and progression of the disease; to maintain teeth without pain, excessive mobility or pe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12010523",
+            "title": "Clinical significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing.",
+            "authors": [
+              "Cobb Charles M"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2002",
+            "abstract": "Analysis of Egyptian hieroglyphics and medical papyri indicate that non-surgical periodontal treatment was common 3000-4000 years ago. Even today, scaling and root planing (SRP) remains an essential part of successful periodontal therapy. The collective evidence from numerous clinical trials reveals a consistency of clinical response in the treatment of chronic periodontitis by SRP using manual, sonic, or ultrasonic instrumentation. Thus, SRP remains the 'gold standard' to which more recently de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18673013",
+            "title": "Rethinking periodontal inflammation.",
+            "authors": [
+              "Offenbacher Steven",
+              "Barros Silvana P",
+              "Beck James D"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "2008",
+            "abstract": "Clinical signs and symptoms, as well as medical and dental history, are all considered in the clinical determination of gingival inflammation and periodontal disease severity. However, the \"biologic systems model\" highlights that the clinical presentation of periodontal disease is closely tied to the underlying biologic phenotype. We propose that the determination and integration of subject-level factors, microbial composition, systemic immune response, and gingival tissue inflammatory mediator ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20599785",
+            "title": "Complement and periodontitis.",
+            "authors": [
+              "Hajishengallis George"
+            ],
+            "journal": "Biochemical pharmacology",
+            "year": "2010",
+            "abstract": "Although the complement system is centrally involved in host defense, its overactivation or deregulation (e.g., due to inherent host genetic defects or due to pathogen subversion) may excessively amplify inflammation and contribute to immunopathology. Periodontitis is an oral infection-driven chronic inflammatory disease which exerts a systemic impact on health. This paper reviews evidence linking complement to periodontal inflammation and pathogenesis. Clinical and histological observations sho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17243998",
+            "title": "A minimally invasive surgical technique with an enamel matrix derivative in the regenerative treatment of intra-bony defects: a novel approach to limit morbidity.",
+            "authors": [
+              "Cortellini Pierpaolo",
+              "Tonetti Maurizio S"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2007",
+            "abstract": "This study was undertaken to describe a new surgical approach (minimally invasive surgical technique, MIST) and to evaluate preliminarily its clinical performance and patient perception associated with the application of enamel matrix derivative (EMD) in the treatment of isolated deep intra-bony defects.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11276517",
+            "title": "Osseous resective surgery.",
+            "authors": [
+              "Carnevale G",
+              "Kaldahl W B"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2000",
+            "abstract": "Osseous resective surgery necessitates following certain guidelines for proper recontouring of the alveolar bone and proper management and positioning of the gingival tissues. The results from osseous resective surgery are technique sensitive. It has limited use in treating cases with very deep intrabony or hemiseptal defects, which should be treated with a different surgical approach. If osseous resective surgery is used in advanced lesions, a compromise in the amount of probing depth reduction",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34269040",
+            "title": "The apically incised coronally advanced surgical technique (AICAST) for periodontal regeneration in isolated defects: a case series.",
+            "authors": [
+              "Calzavara Dino",
+              "Morante Segio",
+              "Sanz Javier",
+              "Noguerol Fernando",
+              "Gonzalez Jerian"
+            ],
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "abstract": "The aim of this retrospective case series was to report the performance up to 5 years of an innovative surgical design (the apically incised coronally advanced surgical technique [AICAST]) for the regenerative treatment of one- or two-walled intrabony periodontal lesions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3533789",
+            "title": "Juvenile periodontitis.",
+            "authors": [
+              "Genco R J",
+              "Christersson L A",
+              "Zambon J J"
+            ],
+            "journal": "International dental journal",
+            "year": "1986",
+            "abstract": "Juvenile periodontitis occurs in children and young adults and can be classified into: periodontitis which occurs in otherwise healthy individuals, and periodontitis which occurs in juveniles with systemic disease. The periodontitis which occurs in otherwise healthy individuals consists of two major forms: juvenile periodontitis, also called periodontosis or localized juvenile periodontitis (LJP), and generalized juvenile periodontitis which includes early onset adult periodontitis, recurrent ne",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雖有 20 篇文獻，但內容全為一般牙周病研究（糖尿病-牙周炎雙向關係、EFP S3 指引、微生物叢等），無一涉及 Ivabradine 或 If 通道。文獻為 TxGNN 疾病節點相關背景文獻，非藥物-疾病連結證據。HCN 通道與牙周發育或惡化無已知病理機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn": {
+        "score": 0.997032880783081,
+        "rank": 4558
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dandy-Walker 症候群為先天性後顱窩發育異常，涉及 ZIC1、ZIC4 等基因。Ivabradine 無已知神經發育作用，HCN 通道雖在小腦有表達，但不影響結構發育。無任何臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "txgnn": {
+        "score": 0.9969047904014589,
+        "rank": 4708
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛幹遺傳異常（如 monilethrix、trichothiodystrophy 等）涉及角蛋白基因或 DNA 修復缺陷，與離子通道藥理無關。無任何臨床或基礎研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.990753173828125,
+        "rank": 9994
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.985034167766571,
+        "rank": 14172
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04735354",
+            "title": "Sacubitril/Valsartan in Heart Failure With Reduced Ejection Fraction Patients: a Real World Study in India",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 268,
+            "start_date": "2020-10-27",
+            "completion_date": "2022-06-01",
+            "brief_summary": "This was a non-interventional, retrospective EMR analysis of longitudinal prescriptions in India for a period of 1.5 years. Demographic profile of patients with heart failure with reduced ejection fraction on sacubitril/valsartan was recorded.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Sacubitril/Valsartan，非 Ivabradine；適應症為 HFrEF 而非肺高壓。間接參考：可了解心衰竭患者心率管理的背景，但無直接證據價值"
+            }
+          },
+          {
+            "nct_id": "NCT03650205",
+            "title": "Ivabradine to Prevent Anthracycline-induced Cardiotoxicity: a Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 160,
+            "start_date": "2019-01-22",
+            "completion_date": "2021-12-01",
+            "brief_summary": "Anthracyclines are associated with cardiotoxic effects. Previous studies suggest that enalapril, and or carvedilol, protect against cardiovascular effects of these drugs.\n\nIvabradine selectively reduces heart rate through inhibition of the cardiac pace maker IF channel, thus prolonging the duration of spontaneous depolarization in the sinus node. Additionally, ivabradine might preserve myocardial perfusion without negative inotropic effect and probably maintain cardiac contractility despite the ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "藥物正確（Ivabradine），但適應症為化療心毒性預防而非肺高壓。狀態 UNKNOWN 且為非隨機設計。可提供 Ivabradine 心臟保護效果的間接安全性數據，但不直接支持 PH 適應症"
+            }
+          },
+          {
+            "nct_id": "NCT00757055",
+            "title": "If Channel Blockade With Ivabradine in Patients With Diastolic Heart Failure",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2012-12",
+            "completion_date": "2014-01",
+            "brief_summary": "The purpose of this study is to investigate whether the medicine ivabradine, a novel drug which slows the heart rate has a favourable effect on patients with diastolic heart failure.\n\nIvabradine is a specific heart rate-lowering agent. It has a licence for treating patients with angina who are intolerant of agents such as beta blockers or whose angina is not adequately controlled. It has been shown to prolong exercise tolerance in these patients and to reduce the frequency of chest pain. Its mec",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "藥物正確（Ivabradine），Phase 2 設計，但已撤回且入組為零。適應症為舒張性心衰竭，與 PH 有部分病理生理重疊（右心功能不全）。撤回原因不明，需追查是否為安全顧慮"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32915674",
+            "title": "Heart Rate Reduction Improves Right Ventricular Function and Fibrosis in Pulmonary Hypertension.",
+            "authors": [
+              "Ishii Ryo",
+              "Okumura Kenichi",
+              "Akazawa Yohei",
+              "Malhi Manpreet",
+              "Ebata Ryota"
+            ],
+            "journal": "American journal of respiratory cell and molecular biology",
+            "year": "2020",
+            "abstract": "The potential benefit of heart rate reduction (HRR), independent of β-blockade, on right ventricular (RV) function in pulmonary hypertension (PH) remains undecided. We studied HRR effects on RV fibrosis and function in PH and RV pressure-loading models. Adult rats were randomized to 1) sham controls, 2) monocrotaline (MCT)-induced PH, 3) SU5416 + hypoxia (SUHX)-induced PH, or 4) pulmonary artery banding (PAB). Ivabradine (IVA) (10 mg/kg/d) was administered from 2 weeks after PH induction or PAB.",
+            "classification": {
+              "study_type": "Animal/Experimental Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29146614",
+            "title": "Heart rate reduction improves biventricular function and interactions in experimental pulmonary hypertension.",
+            "authors": [
+              "Gomez Olga",
+              "Okumura Kenichi",
+              "Honjo Osami",
+              "Sun Mei",
+              "Ishii Ryo"
+            ],
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2018",
+            "abstract": "The objective of the present study was to investigate mechanisms of heart rate (HR) reduction on biventricular function and interactions in experimental pulmonary arterial hypertension (PAH). We compared cardiac cycle mechanics and interventricular interactions in 15 sham, 8 monocrotaline-PAH, 9 PAH + carvedilol, and 8 PAH + ivabradine rats. We used echocardiography to assess biventricular function, timing of cardiac cycle events, and septal position in PAH rats and related HR reduction effects ",
+            "classification": {
+              "study_type": "Animal/Experimental Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37742537",
+            "title": "Effects of Ivabradine on Right Ventricular Systolic Function in Patients With Chronic Obstructive Pulmonary Disease and Cor Pulmonale.",
+            "authors": [
+              "Rossi Rosario",
+              "Coppi Francesca",
+              "Sgura Fabio Alfredo",
+              "Monopoli Daniel Enrique",
+              "Arrotti Salvatore"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "2023",
+            "abstract": "Cor pulmonale is a clinical syndrome associated with pulmonary hypertension, frequently complicated by congestive heart failure, commonly caused by chronic obstructive pulmonary disease (COPD). Most patients with cor pulmonale have tachycardia. However, heart rate (HR) reduction represents a primary treatment goal to improve the survival and quality of life in these patients. Ivabradine can selectively slow HR at rest and during exercise. In this prospective study, we tested the hemodynamic effe",
+            "classification": {
+              "study_type": "Clinical Observational Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24556029",
+            "title": "Functional improvement in pulmonary arterial hypertension patients treated with ivabradine.",
+            "authors": [
+              "Correale Michele",
+              "Brunetti Natale Daniele",
+              "Montrone Deodata",
+              "Totaro Antonio",
+              "Ferraretti Armando"
+            ],
+            "journal": "Journal of cardiac failure",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series / Small Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28701278",
+            "title": "Angiotensin-converting enzyme inhibitors, angiotensin II receptors antagonists, beta-blockers and ivabradine as supportive therapy in pulmonary hypertension: Drug safety and tolerability.",
+            "authors": [
+              "Correale Michele",
+              "Zicchino Stefano",
+              "Monaco Ilenia",
+              "Di Biase Matteo",
+              "Brunetti Natale Daniele"
+            ],
+            "journal": "European journal of internal medicine",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29414252",
+            "title": "Heart Failure with Preserved Ejection Fraction.",
+            "authors": [
+              "Gladden James D",
+              "Chaanine Antoine H",
+              "Redfield Margaret M"
+            ],
+            "journal": "Annual review of medicine",
+            "year": "2018",
+            "abstract": "Heart failure (HF) is a clinical syndrome of diverse etiologies and can be associated with preserved, reduced, or mid-range ejection fraction (EF). In the community, heart failure with preserved ejection fraction (HFpEF) is emerging as the most common form of HF. There remains considerable uncertainty regarding its pathogenesis, diagnosis, and optimal therapeutic approach. Hypotheses have been advanced to explain the underlying pathophysiology responsible for HFpEF, but to date, no specific ther",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23021874",
+            "title": "Ivabradine in systemic sclerosis related pulmonary arterial hypertension.",
+            "authors": [
+              "Correale Michele",
+              "Montrone Deodata",
+              "Ieva Riccardo",
+              "Di Biase Matteo",
+              "Brunetti Natale Daniele"
+            ],
+            "journal": "European journal of internal medicine",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report/Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22792738",
+            "title": "[Effect of ivabradine on pulmonary hypertension in chronic obstructive pulmonary disease].",
+            "authors": [
+              "Akhmetzianova É Kh",
+              "Gaĭnitdinova V V",
+              "Bakirov A B",
+              "Bogoroditskaia O A",
+              "Timershina I R"
+            ],
+            "journal": "Kardiologiia",
+            "year": "2012",
+            "abstract": "In order to assess effect of If-channel blocker ivabradine on severity of pulmonary hypertension in chronic obstructive pulmonary disease (COPD) we studied 60 patients with III-IV stage COPD. We divided these patients into 2 groups with similar clinical characteristics and therapy. Patients of one of these groups received ivabradine (10 mg/day) for 2 weeks, patients of another served as controls. The use of ivabradine was associated with statistically significant lowering of pulmonary hypertensi",
+            "classification": {
+              "study_type": "Small Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22383181",
+            "title": "Safe and well-tolerated treatment with ivabradine in systemic sclerosis affected by pulmonary hypertension.",
+            "authors": [
+              "Correale Michele",
+              "Montrone Deodata",
+              "Biase Matteo Di",
+              "Brunetti Natale Daniele"
+            ],
+            "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22890042",
+            "title": "Who needs a transplant and when?",
+            "authors": [
+              "Chan Wan Xian",
+              "Ross Heather"
+            ],
+            "journal": "Current opinion in organ transplantation",
+            "year": "2012",
+            "abstract": "Heart transplantation remains the treatment of choice for patients with advanced heart failure. We review the current definition of optimal therapy, prediction of prognosis and revisit contraindications for transplant.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32248556",
+            "title": "Beyond Heart Failure and Ischemic Heart Disease: A Scoping Review of Novel Uses of Ivabradine in Adults.",
+            "authors": [
+              "Hellenbart Erika L",
+              "Griffin Tina",
+              "DiDomenico Robert J"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2020",
+            "abstract": "Ivabradine lowers heart rate by inhibiting the hyperpolarization-activated current in pacemaker cells, and its use for the treatment of heart failure (HF) and ischemic heart disease (IHD) is well described. Ivabradine may be an attractive treatment option for other conditions for which a reduction in heart rate is desirable but less is known about its role in these settings. The primary objective was to perform a scoping review summarizing the literature evaluating novel uses for ivabradine othe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35068798",
+            "title": "Diagnosis and Management of Cirrhotic Cardiomyopathy.",
+            "authors": [
+              "Kaur Harpreet",
+              "Premkumar Madhumita"
+            ],
+            "journal": "Journal of clinical and experimental hepatology",
+            "year": "2022",
+            "abstract": "Cirrhotic cardiomyopathy refers to the structural and functional changes in the heart leading to either impaired systolic, diastolic, electrocardiographic, and neurohormonal changes associated with cirrhosis and portal hypertension. Cirrhotic cardiomyopathy is present in 50% of patients with cirrhosis and is clinically seen as impaired contractility, diastolic dysfunction, hyperdynamic circulation, and electromechanical desynchrony such as QT prolongation. In this review, we will discuss the car",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23389056",
+            "title": "Ivabradine in pulmonary arterial hypertension: can we delay the need for parenteral prostanoid therapy?",
+            "authors": [
+              "Correale Michele",
+              "Montrone Deodata",
+              "Ieva Riccardo",
+              "Di Biase Matteo",
+              "Brunetti Natale Daniele"
+            ],
+            "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32946268",
+            "title": "Heart Rate Reduction by Ivabradine: Slowly but Surely?",
+            "authors": [
+              "Kojonazarov Baktybek"
+            ],
+            "journal": "American journal of respiratory cell and molecular biology",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26508709",
+            "title": "Influence of Cardiovascular and Noncardiovascular Co-morbidities on Outcomes and Treatment Effect of Heart Rate Reduction With Ivabradine in Stable Heart Failure (from the SHIFT Trial).",
+            "authors": [
+              "Böhm Michael",
+              "Robertson Michele",
+              "Ford Ian",
+              "Borer Jeffrey S",
+              "Komajda Michel"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "2015",
+            "abstract": "Incidence of chronic heart failure (HF) increases with age and cardiovascular (CV) morbidity. Co-morbidities increase hospitalization and mortality in HF, and non-CV co-morbidities may lead to preventable hospitalizations. We studied the impact of co-morbidities on mortality and morbidity in Systolic Heart Failure Treatment with the I(f) Inhibitor Ivabradine Trial, and investigated whether the impact of ivabradine was affected by co-morbidities. We analyzed the Systolic Heart Failure Treatment w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35786196",
+            "title": "Current Updates in the Pharmacotherapy of Heart Failure with a Preserved Ejection Fraction.",
+            "authors": [
+              "Dahal Ranjan",
+              "Nickel Nils",
+              "Mukherjee Debabrata",
+              "Alkhateeb Haider"
+            ],
+            "journal": "Cardiovascular & hematological disorders drug targets",
+            "year": "2022",
+            "abstract": "Heart failure is the leading cause of morbidity and mortality worldwide. With improved longevity, the incidence and prevalence of heart failure continue to rise with an estimated prevalence of around 26 million worldwide. Heart failure with preserved ejection fraction (HFpEF) constitutes around 50% of the total heart failure cases and is the most common cause of heart failure in the elderly population. The cost of heart failure care continues to rise with care for heart failure hospitalization t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22484777",
+            "title": "Inadequate heart rate control is associated with worse quality of life in patients with coronary artery disease and chronic obstructive pulmonary disease. The RYTHMOS study.",
+            "authors": [
+              "Andrikopoulos George",
+              "Pastromas Socrates",
+              "Kartalis Athanasios",
+              "Toli Konstantina",
+              "Mantas Ioannis"
+            ],
+            "journal": "Hellenic journal of cardiology : HJC = Hellenike kardiologike epitheorese",
+            "year": "2012",
+            "abstract": "Significant evidence shows that elevated heart rate (HR) is an independent risk factor in patients with coronary artery disease (CAD) and influences their prognosis. In addition, patients with chronic obstructive pulmonary disease (COPD) have more frequent episodes of angina and their compliance with heart rate agents, such as beta blockers, is poor. The purpose of the multicenter observational RYTHMOS study was to evaluate the role of heart rate management in the prognosis and quality of life i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39539945",
+            "title": "Effects of dopamine β-hydroxylase inhibition in pressure overload-induced right ventricular failure.",
+            "authors": [
+              "Andersen Stine",
+              "Axelsen Julie Sørensen",
+              "Nielsen-Kudsk Anders H",
+              "Schwab Janne",
+              "Jensen Caroline D"
+            ],
+            "journal": "Pulmonary circulation",
+            "year": "2024",
+            "abstract": "Activation of the sympathetic nervous system is observed in pulmonary arterial hypertension patients. This study investigates whether inhibiting the conversion of dopamine into noradrenaline by dopamine β-hydroxylase (DβH) inhibition with BIA 21-5337 improved right ventricular (RV) function or remodeling in pressure overload-induced RV failure. RV failure was induced in male Wistar rats by pulmonary trunk banding (PTB). Two weeks after the procedure, PTB rats were randomized to vehicle (n = 8) o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35960633",
+            "title": "A pacing-controlled protocol for frequency-diastolic relations distinguishes diastolic dysfunction specific to a mouse HFpEF model.",
+            "authors": [
+              "Numata Genri",
+              "Takimoto Eiki",
+              "Kariya Taro",
+              "Adachi Yusuke",
+              "Tokiwa Hiroyuki"
+            ],
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2022",
+            "abstract": "Heart failure with preserved ejection fraction (HFpEF), characterized by diastolic dysfunction and insufficient exercise capacity, is a growing health problem worldwide. One major difficulty with experimental research on HFpEF is the lack of methods to consistently detect diastolic dysfunction in mouse models. We developed a pacing-controlled pressure-volume (PV) loop protocol for the assessment of diastolic function at different heart rates in mice and tested if the protocol could detect diasto",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34708559",
+            "title": "Clinical characteristics of people with heart failure in Australian general practice: results from a retrospective cohort study.",
+            "authors": [
+              "Sindone Andrew P",
+              "Haikerwal Deepak",
+              "Audehm Ralph G",
+              "Neville Alexander Munro",
+              "Lim Kevin"
+            ],
+            "journal": "ESC heart failure",
+            "year": "2021",
+            "abstract": "Heart failure (HF) causes significant morbidity and mortality, but the rates and characteristics of people with HF in Australia are not well studied. SHAPE set out to describe the characteristics of HF patients seen in the real-world setting.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "最具說服力的機轉路徑：肺高壓患者右心室因後負荷增加代償性心搏過速，但心跳過快反而惡化右心室功能（減少舒張充填時間、增加耗氧）。Ivabradine 選擇性降低心率而不抑制收縮力，可改善右心室充填、降低壁張力、減少心肌纖維化（動物模型已確認 TGF-β/Smad 路徑調控）。此外 HCN 通道在肺血管平滑肌亦有表達，存在直接血管效應假說待驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "familial isolated trichomegaly",
+      "txgnn": {
+        "score": 0.9837687611579896,
+        "rank": 14944
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Trichomegaly（睫毛過長異常）已知與 EGFR 抑制劑副作用或遺傳因素相關，與 HCN 通道完全無關。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9818073511123656,
+        "rank": 16139
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱側彎性心臟病（繼發性限制型心臟病）理論上可能因心率降低而部分獲益，但此推論極為間接。無任何臨床或基礎研究支持 Ivabradine 用於此適應症。應優先處理原發機械性病因。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.9802535772323608,
+        "rank": 16905
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "麻瘋病（Mycobacterium leprae 感染）的治療以抗菌為主（dapsone, rifampin, clofazimine）。Ivabradine 無已知抗菌或免疫調節機轉可解釋對麻瘋桿菌的效益。此預測為典型的 KG 圖譜雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "Ambras type hypertrichosis universalis congenita"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "isolated genetic hair shaft abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "familial isolated trichomegaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "familial isolated trichomegaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "familial isolated trichomegaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ivabradine",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

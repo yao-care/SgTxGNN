@@ -1,0 +1,331 @@
+## Denosumab (DB06643) 藥物再利用證據分析
+
+分析前說明：Denosumab 為 RANKL（核因子 κB 受體活化配體）單株抗體，透過抑制破骨細胞分化發揮作用。RANK/RANKL 路徑在骨骼代謝之外，亦參與免疫調節、皮膚免疫及眼部組織維持，為跨適應症預測的機轉基礎。
+
+---
+
+```json
+{
+  "drug": "Denosumab",
+  "drugbank_id": "DB06643",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "market_status=未上市（新加坡語境）；原始 MoA 標記 Data Gap，惟 Denosumab 為已知 anti-RANKL mAb，評估以此機轉為基礎。",
+  "indications": [
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RANKL 訊號路徑在視網膜周細胞（pericyte）存活及微血管完整性中有潛在作用，但目前無任何臨床或動物模型資料支持 Denosumab 對嚴重非增殖性糖尿病視網膜病變的療效。高 TxGNN 分數來自 KG 拓撲鄰近性，不代表臨床可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "純預測，無臨床佐證",
+        "嚴重視網膜病變介入需眼科專科監控",
+        "Denosumab 全身免疫抑制效果可能影響眼部感染風險"
+      ]
+    },
+    {
+      "disease_name": "diabetic retinopathy",
+      "txgnn_score": 0.9923,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "（1）Denosumab 已被報告可降低 T2DM 發生率（PMID 38899553），間接減少糖尿病視網膜病變風險母群；（2）RANKL 在視網膜 Müller 細胞及周細胞中表現，理論上抑制可減少炎性損傷；（3）NCT00925600 為 Phase 3 眼部安全性試驗（水晶體混濁），提供眼部藥物暴露的間接人體資料。惟現有文獻均屬間接路徑，無直接 DR 療效證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00925600",
+          "title": "Double-blind, Placebo-controlled Study to Evaluate New or Worsening Lens Opacifications",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 769,
+          "relevance_grade": "C",
+          "reasoning": "主要終點為水晶體混濁（安全性監測），而非 DR 療效評估；試驗設計為排除 Denosumab 致白內障之安全疑慮，結果無法直接推論至 DR 治療效益。提供眼部暴露的人體安全性資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38899553",
+          "year": "2024",
+          "study_type": "Observational/Meta-analysis（推測）",
+          "tier": "2",
+          "relevance": "間接",
+          "note": "報告 Denosumab 降低 T2DM 發生率及足部潰瘍風險，機轉可能涉及 RANKL 對胰島素敏感性的影響；對 DR 風險降低具間接推論價值，但非 DR 直接研究。"
+        },
+        {
+          "pmid": "36960265",
+          "year": "2023",
+          "study_type": "Assessment Tool Evaluation",
+          "tier": "3",
+          "relevance": "低",
+          "note": "聚焦於 T2DM 患者骨折風險評估工具（FRAX），未涉及 Denosumab 對 DR 的療效，相關性極低。"
+        }
+      ],
+      "risk_flags": [
+        "現有文獻為間接代謝路徑，非眼科終點",
+        "NCT00925600 為安全試驗，無法作為療效依據",
+        "建議先確認 RANKL 在人類糖尿病視網膜的表現量資料"
+      ]
+    },
+    {
+      "disease_name": "dermatitis",
+      "txgnn_score": 0.9725,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RANKL 在皮膚角質細胞及朗格漢斯細胞中表現，參與 UV 誘導的免疫抑制（NCT01978483 正是基於此假說）。然而，現有文獻幾乎全部記錄 Denosumab 誘發的皮膚不良事件（AGEP、DRESS、苔蘚樣反應、血管炎），顯示 RANKL 抑制對皮膚免疫具有雙向或不可預測效應。以皮膚炎為治療目標存在明確安全疑慮。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01978483",
+          "title": "Effect of RANKL Inhibition on UV-induced Immunosuppression",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 31,
+          "relevance_grade": "B",
+          "reasoning": "機轉高度相關：直接探討 RANKL 抑制對皮膚免疫的影響。惟設計目的為研究 UV 免疫抑制，非治療皮膚炎；n=31 樣本極小；Phase 1 安全性試驗無法推論療效。此試驗結果需仔細解讀——若 RANKL 抑制加劇皮膚免疫失調，則為反向警示。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39175449",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "反向（不良事件）",
+          "note": "Denosumab 誘發急性廣泛性發疹性膿疱病（AGEP）——嚴重皮膚不良反應，強烈警示皮膚科應用風險。"
+        },
+        {
+          "pmid": "31890758",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "反向（不良事件）",
+          "note": "首例 Denosumab 誘發 DRESS 症候群（嚴重藥物過敏反應），具致命風險。"
+        },
+        {
+          "pmid": "32656848",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "反向（不良事件）",
+          "note": "兩例 Denosumab 誘發苔蘚樣皮膚炎（lichen planus），停藥後緩解。"
+        },
+        {
+          "pmid": "30826782",
+          "year": "2019",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "反向（不良事件）",
+          "note": "c-ANCA 血管炎（皮膚血管炎），Denosumab 啟用後發生。"
+        },
+        {
+          "pmid": "29076163",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "反向（不良事件）",
+          "note": "皮膚過敏反應（hypersensitivity）伴組織病理學特徵，提示免疫媒介損傷。"
+        },
+        {
+          "pmid": "36184744",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "反向（不良事件）",
+          "note": "結節性紅斑合併鈣化防禦（calciphylaxis），複合皮膚毒性。"
+        },
+        {
+          "pmid": "22108301",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "背景資料",
+          "note": "骨質疏鬆適應症綜述，確認 Denosumab 已知安全性範圍，不支持皮膚炎治療。"
+        },
+        {
+          "pmid": "35960103",
+          "year": "2022",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "relevance": "無關",
+          "note": "脊椎巨細胞瘤治療結果，與皮膚炎無關。"
+        }
+      ],
+      "risk_flags": [
+        "⚠️ 關鍵警示：文獻中 6/8 篇為皮膚不良事件報告（AGEP、DRESS、lichen planus、vasculitis）",
+        "RANKL 抑制可能破壞皮膚免疫穩態，加重而非改善皮膚炎",
+        "不建議在此方向推進，除非有針對特定免疫亞型（如 RANKL 過度活化型）皮膚炎的明確假說"
+      ]
+    },
+    {
+      "disease_name": "diabetic cataract",
+      "txgnn_score": 0.9666,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "（1）NCT00925600（Phase 3, n=769）直接評估 Denosumab 對水晶體混濁的影響，為現有最相關人體資料；（2）PMID 32026309 為 Denosumab vs Zoledronic acid 比較白內障手術風險的真實世界隊列研究，是唯一具治療意義的比較資料；（3）RANKL 路徑在水晶體上皮細胞氧化壓力和凋亡調控中的潛在角色提供機轉假說。注意：NCT00925600 設計目的可能為排除安全疑慮，而非確認療效。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00925600",
+          "title": "Double-blind, Placebo-controlled Study to Evaluate New or Worsening Lens Opacifications",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 769,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，設計嚴謹（雙盲、安慰劑對照），直接以水晶體混濁為終點，n=769 統計力充足。惟需釐清：（a）試驗方向為安全性排除或療效確認；（b）受試者是否為糖尿病患者；（c）結果發表狀態。若試驗結果顯示 Denosumab 不增加白內障風險，此為必要的安全基礎，但需另行設計療效試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32026309",
+          "year": "2020",
+          "study_type": "Cohort Study（Active Comparator）",
+          "tier": "2",
+          "relevance": "直接",
+          "note": "比較 Denosumab 與 Zoledronic acid 啟用後白內障手術風險及 AMD 風險，為最具直接參考價值的文獻。Active comparator design 減少適應症混淆偏誤。需確認糖尿病亞組分析是否存在。"
+        },
+        {
+          "pmid": "24433001",
+          "year": "2014",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "低",
+          "note": "幼年型 Paget 病治療案例，與糖尿病白內障無直接關聯，僅提供長期用藥安全性背景。"
+        }
+      ],
+      "risk_flags": [
+        "NCT00925600 試驗目的需釐清（安全 vs 療效），直接影響證據等級判讀",
+        "糖尿病白內障有多種成熟治療方式（手術），需確認 Denosumab 的臨床定位",
+        "若為預防性用途（延緩白內障進展），需專門設計糖尿病患者亞組試驗"
+      ]
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.9623,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為萊姆病晚期皮膚表現（Borrelia burgdorferi 感染），以抗生素為標準治療。RANKL 抑制對慢性感染性皮膚病的潛在機轉極不明確。TxGNN 預測可能基於 KG 中皮膚病分類的拓撲鄰近性，無生物學合理性支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "感染性病因，免疫抑制（RANKL 路徑抑制）可能加重感染",
+        "無任何臨床或體外研究資料",
+        "TxGNN 高分可能為疾病分類偽訊號"
+      ]
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.9581,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒皮肌炎為極罕見自體免疫疾病（母體抗體轉移）。雖然 RANKL 在肌肉炎症中有潛在角色，但新生兒族群的 Denosumab 安全性資料幾乎不存在，且骨骼生長影響風險極高（RANKL 抑制可能干擾新生兒骨骼發育）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "⚠️ 新生兒用藥安全性：RANKL 抑制可能嚴重影響骨骼發育",
+        "無任何兒科或新生兒 Denosumab 安全性資料",
+        "極罕見疾病（n 極小），臨床試驗可行性極低"
+      ]
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.9520,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性種痘樣水疱病為 EBV 相關罕見光敏性皮膚病，具惡性淋巴瘤風險。RANKL 抑制與此疾病無已知機轉連結。TxGNN 分數可能反映 KG 中光敏性皮膚病的拓撲關聯，缺乏生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "EBV 相關疾病：免疫調節治療需謹慎評估病毒再活化風險",
+        "具惡性轉化風險，免疫抑制干預需嚴謹評估",
+        "完全無臨床基礎"
+      ]
+    },
+    {
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn_score": 0.9497,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "兒童結締組織病相關間質性肺病（CTD-ILD）病因複雜，主要治療為免疫抑制劑。RANK/RANKL 路徑在肺纖維化中有部分研究，但尚無 Denosumab 用於肺部疾病的臨床資料。兒童族群的 RANKL 抑制安全性顧慮（骨骼發育）未被充分研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "兒童骨骼發育風險（RANKL 為骨骼生長關鍵路徑）",
+        "CTD-ILD 有既有治療方案，新療法需明確優於現有選項",
+        "純預測，無任何支持資料"
+      ]
+    },
+    {
+      "disease_name": "acne keloid",
+      "txgnn_score": 0.9478,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "痤瘡瘢痕疙瘩（keloid acne）涉及過度纖維增生，RANKL 路徑在瘢痕形成中有間接理論連結（RANKL 影響皮膚纖維母細胞活化）。然而，此為極弱的機轉假說，缺乏任何實驗或臨床資料佐證。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "瘢痕疙瘩有局部治療方案，全身性 RANKL 抑制風險效益比不明",
+        "純 KG 拓撲預測，機轉假說極弱"
+      ]
+    },
+    {
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn_score": 0.9466,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無肌病性皮肌炎（ADM）為自體免疫疾病，與間質性肺病及惡性腫瘤高度相關。RANKL 在肌肉及皮膚炎症中有潛在角色，但無任何 Denosumab 用於皮肌炎的臨床前或臨床資料。高惡性腫瘤共病率亦需評估 RANKL 抑制的腫瘤影響。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "ADM 與肺癌高度相關，RANKL 抑制對腫瘤微環境影響需評估",
+        "純預測，無臨床依據",
+        "現有治療（immunosuppressants, JAK inhibitors）有較強證據"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "L1_count": 0,
+    "L2_count": 0,
+    "L3_count": 1,
+    "L4_count": 2,
+    "L5_count": 7,
+    "proceed_count": 0,
+    "research_question_count": 2,
+    "hold_count": 8,
+    "priority_targets": [
+      {
+        "rank": 1,
+        "disease": "diabetic cataract",
+        "rationale": "具 Phase 3 RCT（NCT00925600，n=769）眼部安全資料及直接隊列比較文獻（PMID 32026309），為現有最強的臨床路徑，建議深入評估 NCT00925600 結果及糖尿病亞組資料。"
+      },
+      {
+        "rank": 2,
+        "disease": "diabetic retinopathy",
+        "rationale": "具間接代謝機轉（降低 T2DM 發生率）及眼部人體安全性資料，建議設計針對早期 DR 的探索性研究。"
+      }
+    ],
+    "critical_safety_flag": "皮膚炎適應症（dermatitis）具明確反向證據（6 篇皮膚不良事件個案報告），強烈不建議推進，並應作為其他適應症研究的監測項目。"
+  }
+}
+```
+
+---
+
+## 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| 糖尿病白內障 | 0.9666 | **L3** | **S1** | 🟡 Research Question |
+| 糖尿病視網膜病變 | 0.9923 | L4 | S1 | 🟡 Research Question |
+| 皮膚炎 | 0.9725 | L4⚠️ | S0 | 🔴 Hold（反向警示） |
+| 嚴重非增殖性 DR | 0.9963 | L5 | S0 | 🔴 Hold |
+| 其餘 6 項 | 0.94–0.96 | L5 | S0 | 🔴 Hold |
+
+> **⚠️ 重要警示**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過完整臨床驗證才能應用於患者。Denosumab 在新適應症的使用需依照所在地藥政法規申請適當許可。

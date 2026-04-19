@@ -1,0 +1,267 @@
+# Hydralazine (DB01275) 藥物再利用證據分析
+
+## 藥物背景說明
+
+> **重要背景補正**：Hydralazine 實際上是已核准的降壓血管擴張劑（直接作用動脈平滑肌），廣泛用於高血壓危象及心衰竭（BiDil 組合）。資料中 `original_moa: "[Data Gap]"` 與 `market_status: "未上市"` 應為新加坡市場在地數據缺口，並非藥物本身資訊缺漏，分析時已納入現有藥理知識校正。
+
+---
+
+```json
+{
+  "drug": "Hydralazine",
+  "drugbank_id": "DB01275",
+  "analysis_date": "2026-04-04",
+  "data_quality_note": "original_moa 與 market_status 存在資料缺口，已依藥理文獻補正；ddi_count:0 亦屬資料庫缺漏。",
+  "indications": [
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Hydralazine 透過直接鬆弛小動脈平滑肌（可能涉及 K⁺ 通道開放與抑制 IP3 誘導的 Ca²⁺ 釋放）降低體循環血管阻力，具降低腎小球囊內壓、緩解惡性高血壓所致腎損傷之理論基礎。其在妊娠高血壓危象及高血壓急症的廣泛使用歷史提供間接支持，但針對「惡性高血壓性腎病」此特定亞型缺乏直接 RCT。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎血管性惡性高血壓由腎動脈狹窄觸發 RAAS 過度活化所致；Hydralazine 透過直接血管擴張可補償性降低血壓負荷，但因腎素依賴性患者的反射性心動過速與 RAAS 激活加劇風險，臨床實用性受限。現有三篇文獻均非直接評估 Hydralazine 對此亞型的療效，相關性低。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6085384",
+          "study_type": "Pharmacological Study",
+          "tier": "3",
+          "relevance_note": "評估 nitrendipine（鈣離子拮抗劑）之降壓機制，非 hydralazine 研究，僅提供同類高血壓治療背景參考"
+        },
+        {
+          "pmid": "417239",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance_note": "von Recklinghausen 神經纖維瘤病合併腎血管高血壓之病例報告，未評估 hydralazine 藥物治療，相關性低"
+        },
+        {
+          "pmid": "4813566",
+          "study_type": "Surgical Case Series",
+          "tier": "3",
+          "relevance_note": "雙側腎血管疾病之單側手術治療，聚焦外科介入而非藥物治療，與 hydralazine 再利用無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上 Hydralazine 可擴張肺血管降低肺動脈壓，但其非選擇性血管擴張特性在缺氧性肺血管收縮（HPV）情境下存在嚴重風險：HPV 為肺臟正常的保護性機制，非選擇性抑制將造成通氣-灌流失配（V/Q mismatch）並加重低氧血症。20 篇文獻均為低氧生物學基礎研究（HIF-1α 調節、神經退化等），無任何直接評估 Hydralazine 用於此適應症的臨床資料。安全性疑慮優先，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "低氧與腦老化綜述，聚焦神經退化機制，無 hydralazine 治療內容"
+        },
+        {
+          "pmid": "39841808",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "低氧作為治療工具之概念性綜述，非 hydralazine 應用研究"
+        },
+        {
+          "pmid": "28972206",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "低氧對免疫微環境調節的基礎研究，與 hydralazine 臨床應用無直接關聯"
+        },
+        {
+          "pmid": "34535359",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "低氧治療性調節綜述，未提及 hydralazine 作為治療介入"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多因素機制不明之肺動脈高壓（可能涵蓋 WHO Group 5）缺乏統一病理生理基礎；Hydralazine 之非選擇性體循環與肺循環擴張可能導致全身低血壓惡化，現代治療指引優先選用具肺循環選擇性之藥物（PDE5 抑制劑、ERA、前列環素類似物）。零臨床與文獻支持，僅依賴 TxGNN 預測，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群為 SETD5 基因突變所致罕見神經發育障礙（染色體 3p25.3），主要特徵為智力障礙、行為異常、顏面畸形。SETD5 為組蛋白甲基轉移酶，其功能喪失影響神經發育基因表達調控。Hydralazine 雖具 DNMT 抑制之表觀遺傳效應（甲基化抑制），但 SETD5 相關路徑涉及甲基化「寫入」而非「讀取」機制，兩者無明確交集。TxGNN 高分（0.958）可能反映知識圖譜中心血管/高血壓相關節點的非特異性連結，缺乏生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "慢性肺心病（cor pulmonale）核心病理為慢性肺動脈高壓（尤其 COPD 所致）→ 右心室後負荷增加 → 右心肥大/衰竭。Hydralazine 透過降低體循環血管阻力（afterload reduction）減輕右心負擔，並在部分研究中顯示可降低肺血管阻力。1976-2016 年間有多項直接血流動力學研究，包括 PMID 6692695（Hydralazine 在 COPD 合併 cor pulmonale 的直接血流動力學研究）、PMID 6407295（血管擴張劑對右心室功能的比較研究）。然而，主要限制為：(1) 現代選擇性肺血管藥物已取代其地位；(2) 反射性心動過速與姿位性低血壓為顯著安全性疑慮（PMID 6780233）；(3) 所有直接研究均為 1980 年代小型非隨機研究，缺乏現代 RCT 驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03967496",
+          "relevance_grade": "C",
+          "reasoning": "此試驗主題為「成人術後譫妄（IPD）的發生率與類型評估」（402 名患者，N/A 期），與 Hydralazine 治療慢性肺心病完全無關聯。雖然術後管理可能涉及血壓控制藥物，但該試驗的主要終點、設計目的與本適應症的臨床問題毫不相符，評為不相關（Grade C）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36994251",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Hydralazine 誘發性血管炎（2023）— 重要安全性警示，提示長期使用之自體免疫不良反應風險，為 Guardrails 依據之一"
+        },
+        {
+          "pmid": "7225252",
+          "study_type": "Clinical Observational Study",
+          "tier": "2",
+          "relevance_note": "Isosorbide dinitrate + hydralazine 組合用於慢性心衰竭之直接療效研究（1981），為 ISDN/Hydralazine 組合（BiDil 前驅研究）的歷史基礎"
+        },
+        {
+          "pmid": "27692135",
+          "study_type": "Observational Study",
+          "tier": "2",
+          "relevance_note": "COPD 合併射出分率降低心衰竭（HFrEF）的評估研究（2016），涉及 hydralazine 在此合併症中的當代應用評估"
+        },
+        {
+          "pmid": "6692695",
+          "study_type": "Clinical Hemodynamic Study",
+          "tier": "2",
+          "relevance_note": "【最直接相關】Hydralazine 在晚期穩定 COPD 合併 cor pulmonale 患者的血流動力學效果（1984）— 直接評估目標適應症，為本 L3 評級主要依據"
+        },
+        {
+          "pmid": "6780233",
+          "study_type": "Clinical Safety Study",
+          "tier": "2",
+          "relevance_note": "記錄 hydralazine-isosorbide dinitrate 治療期間之姿位性低血壓與心動過速（1981）— 重要安全性數據，Guardrails 之核心安全疑慮"
+        },
+        {
+          "pmid": "6407295",
+          "study_type": "Clinical Comparative Study",
+          "tier": "2",
+          "relevance_note": "比較硝酸甘油、硝普鈉、hydralazine 對右心室功能之急性效果（1983）— 提供 Hydralazine 相對其他血管擴張劑之右心血流動力學直接比較數據"
+        },
+        {
+          "pmid": "33850919",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "連續流式左心輔助器（cf-LVAD）管理中肺血管擴張劑使用的當代綜述（2021），提供 Hydralazine 在進階心衰竭管理的現代應用脈絡"
+        },
+        {
+          "pmid": "825327",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_note": "口服 Hydralazine 治療慢性難治性心衰竭的早期臨床研究（1976）— 奠定 Hydralazine 心衰竭應用基礎的先驅研究"
+        },
+        {
+          "pmid": "7426183",
+          "study_type": "Clinical Hemodynamic Study",
+          "tier": "2",
+          "relevance_note": "Hydralazine 在慢性心衰竭患者休息與運動時的血流動力學效果（1980）— 提供運動耐受度改善的生理機制支持"
+        },
+        {
+          "pmid": "9673832",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "血管擴張劑臨床藥動學綜述（1998），提供 Hydralazine 之 PK/PD 基礎資訊，支持劑量設計依據"
+        }
+      ]
+    },
+    {
+      "disease_name": "ocular tuberculosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼部結核病為 Mycobacterium tuberculosis 眼內感染，需抗結核藥物治療。Hydralazine 無已知抗分枝桿菌活性；雖有研究指出 Hydralazine 可能具抗炎特性（透過活性氮/氧物種調節），但此機制對結核菌感染的作用尚無任何前臨床或臨床支持。TxGNN 低分（0.591）加上零文獻，判定為純粹演算法噪音。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital temporomandibular joint ankylosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性顳顎關節強直為關節骨性或纖維性融合的機械性疾病，病理機制為骨化/纖維化過程，與血管舒縮無關。Hydralazine 之主要作用機制對關節纖維化/骨化路徑無理論支持。標準治療為外科矯正手術，藥物治療不具角色。TxGNN 預測（0.585）可能來自知識圖譜中非特異性結構病理連結，無生物學合理性，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polydipsia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多飲症之病因多樣（精神性多飲、中樞性/腎性尿崩症、藥物誘發等）。PMID 21263123 顯示腦部血管緊張素信號在 DOCA-salt 高血壓模型中調節飲水行為，提供極度間接的路徑連結（Hydralazine 降低 angiotensin II 效應 → 減少渴感中樞刺激），但此為動物模型推論，缺乏臨床驗證。兩篇現有文獻均非直接評估 Hydralazine 的多飲症治療效果，整體證據不足以支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31751313",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "妊娠期 CYP24A1 突變所致惡性高鈣血症病例（含多飲症狀），與 hydralazine 無任何關聯，為陰性參考"
+        },
+        {
+          "pmid": "21263123",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_note": "DOCA-salt 大鼠腦部血管緊張素信號調節代謝效應的動物研究 — 唯一具間接機制連結之文獻，但屬動物基礎研究，人體相關性不確定"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete superimposed infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病分類標記為「廢棄（obsolete）」，已從現代醫學分類系統（ICD/SNOMED）中移除，不具當代臨床意義。對廢棄疾病實體進行老藥新用研究缺乏科學價值與倫理基礎；即使 Hydralazine 具潛在抗炎活性，此分類亦無法作為有效的臨床研究目標。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| malignant hypertensive renal disease | 0.969 | **L4** | S1 | Research Question |
+| malignant renovascular hypertension | 0.969 | **L4** | S1 | Research Question |
+| pulmonary HTN (lung disease/hypoxia) | 0.967 | **L5** | S0 | ⛔ Hold |
+| pulmonary HTN (multifactorial) | 0.967 | **L5** | S0 | ⛔ Hold |
+| Braddock syndrome | 0.958 | **L5** | S0 | ⛔ Hold |
+| **chronic pulmonary heart disease** | 0.883 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| ocular tuberculosis | 0.591 | **L5** | S0 | ⛔ Hold |
+| congenital TMJ ankylosis | 0.585 | **L5** | S0 | ⛔ Hold |
+| polydipsia | 0.582 | **L5** | S0 | ⛔ Hold |
+| obsolete superimposed infection | 0.574 | **L5** | S0 | ⛔ Hold |
+
+---
+
+## 關鍵分析發現
+
+### ⚠️ TxGNN 分數 vs 臨床實用性落差
+
+高預測分數（>0.96）的肺動脈高壓相關適應症，因 Hydralazine 之非選擇性血管擴張特性，在缺氧性肺血管收縮環境下存在**加重低氧血症**的安全性疑慮，呈現「高分低可行性」悖論。
+
+### ✅ 唯一可推進適應症：慢性肺心病（S2）
+
+**Guardrails 說明**：
+1. **現代化驗證需求**：現有直接證據均來自 1976–1984 年小型非隨機研究，需設計現代 RCT
+2. **安全性監測**：心動過速、姿位性低血壓（PMID 6780233）、長期使用之 Hydralazine 誘發性血管炎（PMID 36994251）需納入監測計畫
+3. **競爭藥物背景**：需與現代肺選擇性藥物（sildenafil、macitentan、riociguat）比較的 head-to-head 設計
+4. **適用族群**：可能優先考慮 COPD 合併右心衰竭、無法使用 PDE5 抑制劑之特定族群
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。老藥新用候選需經嚴格臨床驗證方可應用於實際治療決策。

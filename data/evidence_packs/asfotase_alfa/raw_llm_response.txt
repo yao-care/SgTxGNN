@@ -1,0 +1,181 @@
+## 藥物再利用證據分析：Asfotase alfa (DB09105)
+
+### 藥物背景
+Asfotase alfa（Strensiq®）為**組織非特異性鹼性磷酸酶（TNSALP）重組融合蛋白**，核准適應症為低磷酸酯酶症（Hypophosphatasia, HPP），機轉為水解焦磷酸鹽（PPi）以促進骨礦化。本資料集中 10 個適應症均無臨床試驗與文獻支持，全部依賴 TxGNN 預測分數。
+
+---
+
+```json
+{
+  "drug": "Asfotase alfa",
+  "drugbank_id": "DB09105",
+  "analysis_date": "2026-04-05",
+  "drug_moa_summary": "重組TNSALP（tissue-nonspecific alkaline phosphatase）融合蛋白，水解焦磷酸鹽（PPi）促進骨礦化；核准適應症為低磷酸酯酶症（HPP）",
+  "global_note": "所有10個適應症均無臨床試驗（0）與文獻（0），證據來源僅為TxGNN深度學習預測分數（0.9965–0.9995）。高分數反映圖譜拓樸相似性，非臨床效果預測。",
+  "indications": [
+    {
+      "disease_name": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接推測：TNSALP參與能量代謝中ATP水解，PPi堆積可能影響粒線體膜電位，但核DNA突變導致的氧化磷酸化缺損屬複合體組裝障礙，與鹼性磷酸酶補充無直接機轉關聯。生物合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：(1) 體外模型驗證TNSALP對粒線體功能的影響；(2) HPP患者是否有繼發性粒線體異常的觀察性資料"
+    },
+    {
+      "disease_name": "Steel syndrome",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中等生物合理性：Steel syndrome為COL27A1突變引起的骨骼發育不良，伴有關節脫位與脊椎異常。Asfotase alfa促進骨礦化的機轉在骨骼發育不良疾病中具有一定邏輯基礎，但膠原蛋白缺損與磷酸酯酶活性為不同路徑，無法直接互補。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：(1) Steel syndrome患者TNSALP活性測量；(2) 確認是否有PPi堆積的病理生理證據"
+    },
+    {
+      "disease_name": "exocrine pancreatic insufficiency",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "生物合理性低：腸道鹼性磷酸酶（IAP）雖為TNSALP同工酶之一，具有腸道屏障保護作用，但胰外分泌功能不全主要涉及腺泡細胞功能與胰蛋白酶原分泌，與骨特異性TNSALP補充無直接關聯。兩者在知識圖譜中的連結可能來自腸道磷酸酶家族的共享節點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：確認TxGNN連結是否源自腸道鹼性磷酸酶（非Asfotase alfa的靶點）的混淆"
+    },
+    {
+      "disease_name": "Scheie syndrome",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "生物合理性低：Scheie syndrome為MPS I輕型，因α-L-iduronidase缺乏導致硫酸皮膚素/硫酸類肝素堆積，屬溶酶體儲積症。Asfotase alfa補充TNSALP而非溶酶體酶，機轉不重疊。知識圖譜相似性可能來自共享「罕見骨骼疾病」節點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：評估MPS I患者是否有繼發性TNSALP活性下降的報告"
+    },
+    {
+      "disease_name": "Hurler syndrome",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "生物合理性低：Hurler syndrome為MPS I重型，骨骼異形為主要表現之一（多發性骨發育不全）。雖然骨骼受累提供表型上的連結，但根本缺陷為溶酶體α-L-iduronidase缺乏，TNSALP補充無法處理GAG堆積問題。與Scheie syndrome分析相同。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：Hurler患者骨礦化狀態的評估，以確認是否存在繼發性礦化缺損"
+    },
+    {
+      "disease_name": "lysosomal storage disease with skeletal involvement",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中低生物合理性（本批次相對最高）：此寬泛分類涵蓋多種伴骨骼受累的溶酶體儲積症。部分LSD（如Gaucher disease type III）有記錄的骨礦化缺損，理論上TNSALP補充可能緩解繼發性礦化不足。但為間接、輔助性機轉，非疾病根本治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：(1) 篩選具體LSD亞型中是否有TNSALP活性降低的生化證據；(2) Gaucher病骨礦化研究中是否有磷酸酯酶相關數據"
+    },
+    {
+      "disease_name": "familial apolipoprotein C-II deficiency",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "生物合理性極低：ApoC-II缺乏導致脂蛋白脂酶無法啟動，引起嚴重高三酸甘油酯血症。鹼性磷酸酶在脂質代謝中無已知治療相關性。TxGNN連結可能源自「罕見代謝疾病」的圖譜拓樸鄰近性，而非生物機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "高度懷疑此為圖譜拓樸假陽性，建議人工審核TxGNN連結路徑"
+    },
+    {
+      "disease_name": "esophageal varices without bleeding",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "生物合理性極低：食道靜脈曲張為門脈高壓（肝硬化）的併發症。雖然ALP為肝功能指標（在肝病中升高），但此為生物標記關係，非治療靶點。TNSALP補充對門脈高壓或血管重塑無已知機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "高度懷疑為圖譜假陽性；ALP作為肝病標記物與TNSALP治療之間存在概念混淆"
+    },
+    {
+      "disease_name": "esophageal varices with bleeding",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "生物合理性極低：與食道靜脈曲張（無出血）分析相同。急性出血情境下，TNSALP補充更無治療邏輯。此兩條適應症TxGNN分數完全相同（0.9968056678771972），顯示圖譜中兩節點被視為等效，可能為本體論分組偽影。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "兩條適應症分數完全相同，建議檢查知識圖譜中esophageal varices節點的分割方式是否合理"
+    },
+    {
+      "disease_name": "cystinosis",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低生物合理性：胱胺酸症因溶酶體cystinosin轉運蛋白缺損導致胱胺酸堆積，腎小管Fanconi syndrome為主要早期表現（包含磷酸鹽流失/低磷血症）。此處存在潛在機轉假說：低磷血症類似於HPP的骨礦化問題，理論上TNSALP可能有輔助作用，但需與cysteamine（標準治療）區分。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "gap_analysis": "需要：評估胱胺酸症患者的血清ALP水平與骨礦化狀態，以確認是否存在繼發性HPP-like表現"
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_distribution": {
+      "S3_proceed": 0,
+      "S2_feasibility": 0,
+      "S1_safety": 0,
+      "S0_hold": 10
+    },
+    "mechanistic_plausibility_ranking": [
+      {"rank": 1, "disease": "lysosomal storage disease with skeletal involvement", "rationale": "骨骼受累提供表型連結，部分LSD有繼發性礦化缺損可能"},
+      {"rank": 2, "disease": "Steel syndrome", "rationale": "骨骼發育不良表型，但機轉路徑不重疊"},
+      {"rank": 3, "disease": "cystinosis", "rationale": "Fanconi syndrome引起的低磷血症提供間接機轉假說"},
+      {"rank": 4, "disease": "Hurler syndrome", "rationale": "骨骼表型相似，但根本缺陷不同"},
+      {"rank": 5, "disease": "Scheie syndrome", "rationale": "同Hurler，輕型MPS I"}
+    ],
+    "red_flags": [
+      "esophageal varices with/without bleeding兩條適應症TxGNN分數完全相同，疑似本體論節點分割問題",
+      "familial apolipoprotein C-II deficiency與Asfotase alfa機轉無交集，高度懷疑圖譜拓樸假陽性",
+      "市場狀態標記為「未上市」但Strensiq已在多國取得核准，建議確認資料庫本地化狀態",
+      "original_moa標記為[Data Gap]，需補充TNSALP機轉資訊以提升映射準確性"
+    ],
+    "next_steps": [
+      "優先對lysosomal storage disease with skeletal involvement進行文獻回顧（機轉合理性最高）",
+      "對cystinosis進行低磷血症相關文獻搜尋，評估是否有HPP-like繼發表現的報告",
+      "審查esophageal varices兩條適應症的KG節點連結路徑，排除拓樸假陽性",
+      "補充Asfotase alfa原始MoA資料，重新評估映射品質"
+    ]
+  }
+}
+```
+
+---
+
+### 分析摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 機轉可信度 |
+|--------|-----------|---------|---------|-----------|
+| Mitochondrial OxPhos disorder | 0.9995 | **L5** | S0 | ⭐ 極低 |
+| Steel syndrome | 0.9991 | **L5** | S0 | ⭐⭐ 低 |
+| Exocrine pancreatic insufficiency | 0.9989 | **L5** | S0 | ⭐ 極低 |
+| Scheie syndrome | 0.9985 | **L5** | S0 | ⭐ 低 |
+| Hurler syndrome | 0.9975 | **L5** | S0 | ⭐ 低 |
+| LSD with skeletal involvement | 0.9973 | **L5** | S0 | ⭐⭐ 相對較高 |
+| Familial ApoC-II deficiency | 0.9971 | **L5** | S0 | ⭐ 極低 |
+| Esophageal varices (no bleed) | 0.9968 | **L5** | S0 | ⭐ 極低 |
+| Esophageal varices (bleed) | 0.9968 | **L5** | S0 | ⭐ 極低 |
+| Cystinosis | 0.9965 | **L5** | S0 | ⭐⭐ 低 |
+
+> ⚠️ **重要提示**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證才能應用於患者。

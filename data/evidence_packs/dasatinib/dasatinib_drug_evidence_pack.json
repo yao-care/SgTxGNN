@@ -1,0 +1,2413 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01254-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dasatinib",
+    "drugbank_id": "DB01254",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Ewing sarcoma",
+      "txgnn": {
+        "score": 0.9989812970161438,
+        "rank": 2018
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00788125",
+            "title": "Dasatinib With Ifosfamide, Carboplatin, Etoposide: A Pediatric Phase I/II Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2008-09-03",
+            "completion_date": "2022-07-30",
+            "brief_summary": "RATIONALE: Dasatinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Drugs in chemotherapy, such as ifosfamide, carboplatin, and etoposide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving dasatinib together with ifosfamide, carboplatin, and etoposide may kill more tumor cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of dasatinib when given ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase I/II，兒童 dasatinib + ICE 化療，TERMINATED（僅 7 例入組），提供組合安全性初步資料但因終止而證據力有限"
+            }
+          },
+          {
+            "nct_id": "NCT00464620",
+            "title": "A Phase II Trial of Dasatinib in Advanced Sarcomas",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 366,
+            "start_date": "2007-05",
+            "completion_date": "2017-05",
+            "brief_summary": "This study will examine the response rate and the 6-month progression-free survival rates of subjects with advanced sarcoma treated with dasatinib.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase II，366 例晚期肉瘤（含 Ewing），COMPLETED，為最大型 dasatinib 肉瘤試驗，但為廣泛肉瘤族群，非 Ewing 專屬分析，需查原始分層數據"
+            }
+          },
+          {
+            "nct_id": "NCT06500819",
+            "title": "Phase I Clinical Trial of Autologous B7-H3 Chimeric Antigen Receptor T Cells (B7-H3CART) in Children and Young Adults With Relapsed or Refractory Solid Tumor Expressing B7-H3 Target",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 41,
+            "start_date": "2024-07-11",
+            "completion_date": "2029-07",
+            "brief_summary": "The purpose of this study is to test the manufacturing feasibility and safety of intravenous (IV) administration of B7-H3CART in children and young adult subjects with relapsed and/or refractory solid tumors expressing B7-H3 target using a standard 3+3 dose escalation design.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "B7-H3 CAR-T 細胞療法 Phase I，含兒童 Ewing 肉瘤適應症，非 dasatinib 試驗，相關性低（不同治療策略）"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35655525",
+            "title": "Targeting the FAK-Src Complex in Desmoplastic Small Round Cell Tumors, Ewing Sarcoma, and Rhabdomyosarcoma.",
+            "authors": [
+              "van Erp Anke E M",
+              "Hillebrandt-Roeffen Melissa H S",
+              "van Bree Niek F H N",
+              "Plüm Tim A",
+              "Flucke Uta E"
+            ],
+            "journal": "Sarcoma",
+            "year": "2022",
+            "abstract": "Desmoplastic small round cell tumors (DSRCTs), Ewing sarcoma (ES), and alveolar and embryonal rhabdomyosarcoma (ARMS and ERMS) are malignant sarcomas typically occurring at young age, with a poor prognosis in the metastatic setting. New treatment options are necessary. Src family kinase inhibitor dasatinib single-agent treatment has been investigated in a phase 2 study in patients with advanced sarcomas including ES and RMS but failed as a single agent in these subtypes. Since previous studies d",
+            "classification": {
+              "study_type": "Preclinical (Translational)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31521948",
+            "title": "Microenvironmental Factors Drive Tenascin C and Src Cooperation to Promote Invadopodia Formation in Ewing Sarcoma.",
+            "authors": [
+              "Hawkins Allegra G",
+              "Julian Claire M",
+              "Konzen Sonja",
+              "Treichel Sydney",
+              "Lawlor Elizabeth R"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2019",
+            "abstract": "Ewing sarcoma is a bone tumor most commonly diagnosed in adolescents and young adults. Survival for patients with recurrent or metastatic Ewing sarcoma is dismal and there is a dire need to better understand the mechanisms of cell metastasis specific to this disease. Our recent work demonstrated that microenvironmental stress leads to increased Ewing sarcoma cell invasion through Src activation. Additionally, we have shown that the matricellular protein tenascin C (TNC) promotes metastasis in Ew",
+            "classification": {
+              "study_type": "Preclinical (In vitro)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35190971",
+            "title": "Systemic Therapy for Chondrosarcoma.",
+            "authors": [
+              "Rock Adam",
+              "Ali Sana",
+              "Chow Warren A"
+            ],
+            "journal": "Current treatment options in oncology",
+            "year": "2022",
+            "abstract": "Clinical trial enrollment should be actively encouraged in all patients diagnosed with advanced, surgically unresectable chondrosarcoma (CS) due to the lack of consensus treatment recommendations. In the absence of an appropriate clinical trial, treatments are determined based on histologic subtype of CS with consideration given to targetable mutations (i.e., IDH1). Conventional CS is inherently resistant to cytotoxic chemotherapy and patients may benefit from antiangiogenic therapy including of",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27566104",
+            "title": "Micro-Environmental Stress Induces Src-Dependent Activation of Invadopodia and Cell Migration in Ewing Sarcoma.",
+            "authors": [
+              "Bailey Kelly M",
+              "Airik Merlin",
+              "Krook Melanie A",
+              "Pedersen Elisabeth A",
+              "Lawlor Elizabeth R"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2016",
+            "abstract": "Metastatic Ewing sarcoma has a very poor prognosis and therefore new investigations into the biologic drivers of metastatic progression are key to finding new therapeutic approaches. The tumor microenvironment is highly dynamic, leading to exposure of different regions of a growing solid tumor to changes in oxygen and nutrient availability. Tumor cells must adapt to such stress in order to survive and propagate. In the current study, we investigate how Ewing sarcoma cells respond to the stress o",
+            "classification": {
+              "study_type": "Preclinical (In vitro)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18202781",
+            "title": "In vitro antiproliferative and antimigratory activity of dasatinib in neuroblastoma and Ewing sarcoma cell lines.",
+            "authors": [
+              "Timeus Fabio",
+              "Crescenzio Nicoletta",
+              "Fandi Abderrahim",
+              "Doria Alessandra",
+              "Foglia Luiselda"
+            ],
+            "journal": "Oncology reports",
+            "year": "2008",
+            "abstract": "Neuroblastoma (NB) and Ewing sarcoma (ES) are neuroectodermal tumors typical of pediatric age that, despite aggressive treatment, still present a poor prognosis when in advanced stages. Studies indicate that c-KIT and platelet-derived growth factor receptor (PDGFR) play a substantial role in the proliferation and survival of NB and ES cells. Dasatinib, an oral multi-targeted inhibitor of several kinases including BCR-ABL and SRC-family kinases, is also active against c-KIT and PDGFR. Here, we ev",
+            "classification": {
+              "study_type": "Preclinical (In vitro/In vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29776413",
+            "title": "The CXCR4 antagonist plerixafor (AMD3100) promotes proliferation of Ewing sarcoma cell lines in vitro and activates receptor tyrosine kinase signaling.",
+            "authors": [
+              "Berning Philipp",
+              "Schaefer Christiane",
+              "Clemens Dagmar",
+              "Korsching Eberhard",
+              "Dirksen Uta"
+            ],
+            "journal": "Cell communication and signaling : CCS",
+            "year": "2018",
+            "abstract": "The CXCR4 receptor antagonist plerixafor (AMD3100) is raising interest as an anti-cancer agent that disrupts the CXCL12-CXCR4 chemokine - receptor interaction between neoplastic cells and their microenvironment in tumor progression and metastasis. Here, we investigated plerixafor for anti-cancer activity in Ewing sarcoma, a rare and aggressive cancer of bone and soft tissues.",
+            "classification": {
+              "study_type": "Preclinical (In vitro)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17363602",
+            "title": "Dasatinib inhibits migration and invasion in diverse human sarcoma cell lines and induces apoptosis in bone sarcoma cells dependent on SRC kinase for survival.",
+            "authors": [
+              "Shor Audrey C",
+              "Keschman Elizabeth A",
+              "Lee Francis Y",
+              "Muro-Cacho Carlos",
+              "Letson G Douglas"
+            ],
+            "journal": "Cancer research",
+            "year": "2007",
+            "abstract": "Sarcomas are rare malignant mesenchymal tumors for which there are limited treatment options. One potential molecular target for sarcoma treatment is the Src tyrosine kinase. Dasatinib (BMS-354825), a small-molecule inhibitor of Src kinase activity, is a promising cancer therapeutic agent with p.o. bioavailability. Dasatinib exhibits antitumor effects in cultured human cell lines derived from epithelial tumors, including prostate and lung carcinomas. However, the action of dasatinib in mesenchym",
+            "classification": {
+              "study_type": "Preclinical (In vitro)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26170970",
+            "title": "The importance of Src signaling in sarcoma.",
+            "authors": [
+              "Chen Quanchi",
+              "Zhou Zifei",
+              "Shan Liancheng",
+              "Zeng Hui",
+              "Hua Yingqi"
+            ],
+            "journal": "Oncology letters",
+            "year": "2015",
+            "abstract": "Src is a tyrosine kinase that is of significance in tumor biology. The present review focuses on Src, its molecular structure, and role in cancer, in addition to its expression and function in sarcoma. In addition, the feasibility of Src as a potential drug target for the treatment of sarcoma is also discussed. Previous studies have suggested that Src has essential functions in cell proliferation, apoptosis, invasion, metastasis and the tumor microenvironment. Thus, it may be a potential target ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32999666",
+            "title": "A Rare Chromosome Abnormality with der(16)t(1;16)(q12;q11.2) in Blast Crisis of Chronic Myeloid Leukemia.",
+            "authors": [
+              "Yanagiya Ryo",
+              "Ishikawa Daisuke",
+              "Toubai Tomomi",
+              "Ichikawa Tsubasa",
+              "Kawaguchi Naofumi"
+            ],
+            "journal": "Case reports in oncology",
+            "year": "2020",
+            "abstract": "Although tyrosine kinase inhibitors markedly improve the clinical outcome of chronic myeloid leukemia (CML), blast crisis in CML (CML-BC) still has a poor prognosis. Many chromosomal abnormalities have been reported in CML-BC and may contribute to therapeutic resistance, disease progression, and prognosis. Herein, we report a rare chromosome abnormality with der(16)t(1;16)(q12;q11.2) in CML-BC. It has been demonstrated that this chromosomal abnormality is associated with disease progression and ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ewing 肉瘤高度依賴 Src/FAK 軸驅動侵襲與遷移。Dasatinib 抑制 Src 家族激酶及 FAK，可阻斷 invadopodia 形成與腫瘤微環境誘導的遷移。EWS-FLI1 融合蛋白可能上調 Src 訊號；preclinical 數據（2007-2022）顯示 dasatinib 對 Ewing 肉瘤細胞株具抗增殖與促凋亡活性，且在缺氧/基質壓力條件下效果顯著。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "myeloid leukemia",
+      "txgnn": {
+        "score": 0.996761918067932,
+        "rank": 4833
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00978731",
+            "title": "Long-Term Safety and Efficacy of Dasatinib (BMS-354825) in Chronic Myelogenous Leukemia or Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia in Subjects Who Experienced Clinical Benefit on Protocol CA180-002",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 46,
+            "start_date": "2005-12",
+            "completion_date": "2008-09",
+            "brief_summary": "To determine the long term safety and tolerability of dasatinib exposure in subjects previously treated in CA180-002.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "長期安全性與療效追蹤研究，46 例 CML/Ph+ ALL 患者，COMPLETED，直接評估 dasatinib 於 CML 的持久反應"
+            }
+          },
+          {
+            "nct_id": "NCT02923986",
+            "title": "A Phase Ib/IIa Single-arm, Open-label Clinical Trial to Evaluate the Safety, Pharmacokinetics, and Efficacy of BP1001 (a Liposomal Grb2 Antisense Oligonucleotide) in Combination With Dasatinib in Patients With Philadelphia Chromosome Positive (Ph+) Chronic Myelogenous Leukemia (CML) Including Chronic Phase Patients Who Have Failed Initial Tyrosine Kinase Inhibitor (TKI) Therapy, Accelerated or Blast Phase, Ph+ Acute Myeloid Leukemia (AML) or High-risk Ph+ Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2017-09-01",
+            "completion_date": "2020-05-27",
+            "brief_summary": "The primary objective of the Phase Ib study is to determine the dose-limiting toxicity (DLT) and maximal tolerated dose (MTD) of BP1001 in combination with dasatinib in patients with with Philadelphia Chromosome Positive (Ph+) Chronic Myelogenous Leukemia (CML) including chronic phase patients who have failed initial tyrosine kinase inhibitor (TKI) therapy, accelerated or blast phase, Ph+ Acute Myeloid Leukemia (AML) or High-risk Ph+ Myelodysplastic Syndrome (MDS). The primary objective of the P",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "WITHDRAWN，enrollment 0，無實際資料貢獻，相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT00529763",
+            "title": "A Phase II Study to Determine the Activity of Dasatinib Administered Orally (PO) at a Dose of 100 mg Once Daily (QD) in Chronic Phase Chronic Myelogenous Leukemia (CML), at a Dose of 70 mg Twice Daily (BID) in Advanced Phase Chronic Myelogenous Leukemia (CML) Chinese Subjects Who Are Resistant to or Intolerant of Imatinib Mesylate (Gleevec®)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 121,
+            "start_date": "2007-11-17",
+            "completion_date": "2022-04-20",
+            "brief_summary": "The primary objective of this study is to estimate the major cytogenetic response (MCyR) rate to Dasatinib in subjects with CP CML, complete and overall hematologic response (CHR and OHR) rate in subjects with AD CML or Ph+ ALL who have primary or acquired resistance to imatinib, or are intolerant of imatinib, when administered at 100 mg QD (Chronic CML) or 70mg BID (AP CML and Ph+ALL).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase II，121 例，COMPLETED，直接評估 dasatinib 100mg QD 於 CML 的活性，為劑量最佳化關鍵研究"
+            }
+          },
+          {
+            "nct_id": "NCT04835584",
+            "title": "An Open-Label, Multicenter, Phase 1b/2 Study of the Safety and Efficacy of KRT-232 Combined With a Tyrosine Kinase Inhibitor (TKI) in Patients With Relapsed or Refractory Ph+ Chronic Myeloid Leukemia (CML)",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 109,
+            "start_date": "2021-05-07",
+            "completion_date": "2026-06-30",
+            "brief_summary": "This study evaluates KRT-232, a novel oral small molecule inhibitor of MDM2, for the treatment of patients with Ph+ Chronic Myeloid Leukemia (CML) who have relapsed or are refractory or intolerant to a Tyrosine Kinase Inhibitor (TKI).\n\nThis study is a global, open label Phase 1b/2 to determine the efficacy and safety of KRT-232 in patients with chronic phase CML (CML-CP) and accelerated phase (CML-AP) who have failed TKI treatments.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "KRT-232 聯合 TKI 的 Phase 1b/2，非 dasatinib 單藥，但評估 AML 情境下的組合策略，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT01887561",
+            "title": "PhaseⅡClinical Trial of Dasatinib for Patients With Newly Diagnosed Chronic Myeloid Leukemia in Chronic Phase and Stop Therapy After Achieving Complete Molecular Response for Cure D-NewS",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2012-11",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to assess whether dasatinib can be discontinued without occurrence of molecular relapse in patients with chronic myeloid leukemia in chronic phase in complete molecular remission(CMR) while on dasatinib.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase II，100 例，新診斷 CML 慢性期，直接評估 dasatinib 一線療效，狀態 UNKNOWN 但設計相關性高"
+            }
+          },
+          {
+            "nct_id": "NCT04126681",
+            "title": "A Phase 2, Randomized, Open Label, Pivotal Study to Evaluate the Efficacy and Safety of HQP1351 in CML CP Patients Who Are Resistant and/or Intolerant to First- and Second-Generation Tyrosine Kinase Inhibitors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 144,
+            "start_date": "2019-10-21",
+            "completion_date": "2024-08-01",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of HQP1351 in patients with chronic myeloid leukemia in chronic phase (CML-CP) who are resistant and/or intolerant to first- and second-generation tyrosine kinase inhibitors. The efficacy of HQP1351 is determined by evaluating the subjects' event free survival (EFS).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "HQP1351（ponatinib 類似物）Phase 2 於 CML，非 dasatinib，但機轉類似，提供同類藥物背景證據"
+            }
+          },
+          {
+            "nct_id": "NCT02546375",
+            "title": "A RETROSPECTIVE OBSERVATIONAL RESEARCH STUDY TO DESCRIBE THE REAL WORLD USE OF BOSUTINIB IN THE UK AND NETHERLANDS",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 87,
+            "start_date": "2015-07-15",
+            "completion_date": "2017-01-16",
+            "brief_summary": "The purpose of this study is to describe the efficacy and safety of bosutinib in patients with chronic myeloid leukaemia used in a real world setting",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Bosutinib 回顧性觀察研究，非 dasatinib，僅提供同類 TKI 真實世界使用背景"
+            }
+          },
+          {
+            "nct_id": "NCT00982488",
+            "title": "Dasatinib in Chronic Myelogenous Leukemia or Philadelphia Chromosome Positive Acute Lymphoblastic Leukemic Subjects Who Are Experiencing Clinical Benefit on Current START or CA180-039 Protocols: Long Term Safety and Efficacy Analysis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 238,
+            "start_date": "2007-10",
+            "completion_date": "2014-12",
+            "brief_summary": "This study assesses the long-term safety and tolerability of dasatinib administered to patients with chronic myelogenous leukemia or Philadelphia chromosome positive acute lymphoblastic leukemia and experienced clinical benefit from treatment with dasatinib or imatinib in previous protocols.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase II，238 例，COMPLETED，涵蓋 CML 慢性期與 Ph+ ALL，樣本數充足，直接相關"
+            }
+          },
+          {
+            "nct_id": "NCT00482703",
+            "title": "A Randomized, Multicenter, Open-label Phase II Study of Dasatinib (BMS-354825) Administered Orally at a Dose of 50mg Twice Daily or 100mg Once Daily in Subjects With Chronic Phase Philadelphia Chromosome Positive Chronic Myeloid Leukemia Who Are Resistant or Intolerant to Imatinib",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 23,
+            "start_date": "2007-05",
+            "completion_date": "2009-05",
+            "brief_summary": "The objective is to evaluate the cytogenetic response to Dasatinib (BMS-354825) administered for 24 weeks in subjects with Imatinib resistant or intolerant chronic phase chronic myeloid leukemia (CML) once daily (QD) or twice daily. (BID)",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase I/II，dasatinib 劑量優化研究於 CML，23 例，COMPLETED，劑量方案確立的重要早期研究"
+            }
+          },
+          {
+            "nct_id": "NCT04233346",
+            "title": "A Phase II Multi-center, Randomized, Open-label Study of Ponatinib in Chinese Patients With Chronic Myeloid Leukemia Who Have Failed Prior TKIs or With T315I Mutation, or Ph+ALL Who Have Failed Prior TKIs or With T315I Mutation",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 93,
+            "start_date": "2020-07-09",
+            "completion_date": "2025-12-31",
+            "brief_summary": "This protocol will allow ponatinib with refractory Chronic Myeloid Leukemia or Ph+ Acute Lymphoblastic Leukemia",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Ponatinib Phase II 於中國 CML 患者，非 dasatinib，相關性有限"
+            }
+          },
+          {
+            "nct_id": "NCT01218477",
+            "title": "Dasatinib (BMS-354825) Combined With SMO Inhibitor (BMS-833923; XL139) in CML With Resistance or Suboptimal Response to a Prior TKI",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2011-01",
+            "completion_date": "2013-04",
+            "brief_summary": "The purpose of the study is to determine the safety and tolerability of the combination of BMS-833923 plus dasatinib in patients with chronic myeloid leukemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00362466",
+            "title": "An Open-Label Randomized Phase III Study of Dasatinib vs. High-Dose (600 mg) Imatinib Mesylate in the Treatment of Subjects With Chronic Phase Philadelphia Chromosome-Positive Chronic Myeloid Leukemia Who Are Imatinib Failures or Who Have Had a Suboptimal Response After 3-18 Months of Therapy With 400 mg Imatinib",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2007-04",
+            "completion_date": "2008-06",
+            "brief_summary": "The purpose of this clinical research study is to compare the rate of complete cytogenetic response of dasatinib to imatinib therapy at 6 months after randomization in chronic phase CML patients. The safety of this treatment will also be studied.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04155411",
+            "title": "Efficacy and Safety of Dasatinib 70 mg as First-Line Treatment for Newly Diagnosed Chronic-Phase Chronic Myeloid Leukemia (CML-CP)",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 65,
+            "start_date": "2019-12-01",
+            "completion_date": "2023-12-01",
+            "brief_summary": "The purpose of this study is to explore the efficacy and safety of dasatinib 70 mg once daily as first line therapy in patients with early chronic phase (CP) chronic myeloid leukemia (CML).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05363488",
+            "title": "A Retrospective Observational Research Study to Describe the Real World Use of Bosutinib in a Single Centre in Scotland",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2021-10-08",
+            "completion_date": "2021-10-08",
+            "brief_summary": "This study will describe the efficacy and safety of bosutinib in patients with chronic myeloid leukaemia (CML) used in a real world clinical practice setting.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04591197",
+            "title": "Flumatinib Efficacy and Safety for New Diagnosed Chronic Phase Chronic Myeloid Leukemia : A Prospective, Multi-center, Single Arm Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 200,
+            "start_date": "2020-12-09",
+            "completion_date": "2024-12-30",
+            "brief_summary": "The overall survival (OS)of Chronic myeloid leukemia (CML) has been significantly improved since the advent of Tyrosine kinase inhibitors (TKIs) .Nevertheless, there still exists a amount of patients who has poor response or intolerance for TKI drugs( Imatinib, dasatinib, nilotinib). Flumatinib has been shown to be a more potent inhibitor of BCR-ABL1 tyrosine kinase than imatinib,and it aslo has better security when compared to other TKIs(Imatinib, dasatinib, nilotinib).It will be a better chioc",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05638763",
+            "title": "Cytochrome P450 Inhibition With Ketoconazole to Decrease Dosage and Costs of Dasatinib for Chronic Myelogenous Leukemia",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 15,
+            "start_date": "2024-11",
+            "completion_date": "2024-11",
+            "brief_summary": "This phase 2 single-arm study aims to demonstrate the efficacy of strong cytochrome inhibition with ketoconazole to reduce dasatinib dosage for adults with chronic myelogenous leukemia. Researchers will describe response rates and adverse events.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04216563",
+            "title": "Phase II Study of Dual Targeting of BCR-ABL1 by Adding the Allosteric Inhibitor ABL001 in Patients With Chronic Myeloid Leukemia (CML) and Minimal Residual Disease (MRD) While on Therapy With Tyrosine Kinase Inhibitors",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2020-07-29",
+            "completion_date": "2025-03-17",
+            "brief_summary": "This phase II trial studies how well ABL001 works in treating patients with chronic myeloid leukemia who are on therapy with tyrosine kinase inhibitor. ABL001 may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving ABL001 and tyrosine kinase inhibitor together may work better than tyrosine kinase inhibitor alone in treating patients with chronic myeloid leukemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00070499",
+            "title": "A Phase IIb Study of Molecular Responses to Imatinib, at Standard or Increased Doses, or Dasatinib (BMS-354825) (NSC-732517) for Previously Untreated Patients With Chronic Myelogenous Leukemia (CML) in Chronic Phase",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 406,
+            "start_date": "2004-08-15",
+            "completion_date": "2026-03-10",
+            "brief_summary": "This randomized phase IIB trial studies imatinib mesylate at two different doses and dasatinib to see how well they work in treating patients with previously untreated chronic phase chronic myelogenous leukemia. Imatinib mesylate or dasatinib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01460693",
+            "title": "A Phase III, Prospective Randomised Comparison of Imatinib (STI571, Glivec/Gleevec) 400mg Daily Versus Dasatinib 100mg in Patients With Newly-diagnosed Chronic Phase Chronic Myeloid Leukaemia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 814,
+            "start_date": "2008-08",
+            "completion_date": "2018-03-07",
+            "brief_summary": "Imatinib 400mg daily is the current NICE-approved standard treatment for newly diagnosed Chronic Myeloid Leukaemia (CML). 5 yr follow up of CML patients treated in this way indicates an 89% probability of progression-free survival. Imatinib is not tolerated or effective in some patients however, and a proportion of patients become resistant to the drug. SPIRIT 2 study aims to establish whether a new drug, dasatinib, is superior to imatinib in terms of event free survival and therefore will be an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02890784",
+            "title": "Treatment Optimization for Patients With Chronic Myeloid Leukemia (CML) With Treatment naïve Disease (1st Line) and Patients With Resistance or Intolerance Against Alternative Abl-Kinase Inhibitors (≥2nd Line)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 291,
+            "start_date": "2016-08",
+            "completion_date": "2023-03-31",
+            "brief_summary": "Treatment optimization for patients with chronic myeloid leukemia (CML) with treatment naïve disease (1st line) and patients with resistance or intolerance against alternative Abl-Kinase Inhibitors (≥2nd line) (DasaHIT Trial (Dasatinib Holiday for Improved Tolerability))",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00320190",
+            "title": "An Open-label, Randomized Study of Dasatinib vs High-dose (800-mg) Imatinib in the Treatment of Subjects With Chronic Phase Chronic Myeloid Leukemia Who Have Had a Suboptimal Response After at Least 3 Months of Therapy With 400 mg Imatinib",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 52,
+            "start_date": "2006-08",
+            "completion_date": "2010-01",
+            "brief_summary": "The purpose of this study is to compare the efficacy of dasatinib with that of high-dose (800-mg) imatinib in participants with chronic phase chronic myeloid leukemia who achieved only a suboptimal response after at least 3 months of monotherapy with 400-mg imatinib. The safety of these treatments will also be evaluated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03560908",
+            "title": "Dasatinib Combined With Multi-agents Chemotherapy in Relapsed t(8;21) Acute Myeloid Leukemia With KIT D816 Mutation",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2018-07-01",
+            "completion_date": "2021-12-31",
+            "brief_summary": "In this multi-center, open-label, no control,prospective clinical trial, a total of 30 relapsed acute myeloid leukemia with t(8;21) translocation and KIT D816 mutation patients will be enrolled. Dasatinib 70 mg twice a day will be administrated for two weeks from day 1 of re-induction chemotherapy. The purpose of current study is to determine the clinical efficacy and tolerability of combination therapy of dasatinib with multi-agent chemotherapy in relapsed acute myeloid leukemia with t(8;21) tr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01030718",
+            "title": "A Study to Document the Long-Term Safety and Efficacy of BMS-354825 in Subjects With Imatinib Resistant or Intolerant Chronic Myelogenous Leukemia and Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia Who Are Resistant or Intolerant to Previous Treatment and Have Completed the Previous Phase I/II Protocol (CA180-031/NCT00337454)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 54,
+            "start_date": "2006-01",
+            "completion_date": "2009-06",
+            "brief_summary": "To assess the safety of dasatinib (BMS-354825) in subjects with Imatinib resistant or intolerant chronic myelogenous leukemia (CML) and Philadelphia chromosome positive (Ph+) acute lymphoblastic leukemia (ALL) who are resistant or intolerant to treatment and will continue study drug after completing the previous Phase I/II study (CA180031/NCT00337454)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04626024",
+            "title": "Safety And Efficacy Of Tyrosine Kinase Inhibitor Cessation For Chronic Myeloid Leukemia Patients With Stable Molecular Response In A Real World Population",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2020-12-22",
+            "completion_date": "2028-11-15",
+            "brief_summary": "This is a single-arm, phase II study to evaluate safety and efficacy of tyrosine kinase inhibitor (TKI) cessation for chronic myeloid leukemia (CML) patients with stable molecular response in a real world population.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02348957",
+            "title": "Treating Patients With Chronic Myeloid Leukemia (CML) in Chronic Phase (CP) With Dasatinib PCR-Monitoring, Adherence, Quality of Life, Therapy Satisfaction",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 223,
+            "start_date": "2014-10",
+            "completion_date": "2019-05",
+            "brief_summary": "CML requires ongoing treatment and assessment of treatment milestones in order to manage the disease properly. Dasatinib is approved for the treatment of newly diagnosed PH+ CP-CML and CML in chronic or accelerated phase or blast crisis in patients resistant or intolerant to prior therapies including Imatinib. Although Imatinib has demonstrated unprecedented efficacy in clinical trials, mostly in chronic phase CML, there is lack of published data on how CML is managed in real-life clinical pract",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01460498",
+            "title": "Phase I-II Study of Low-Dose Azacitidine (Vidaza) in Patients With Chronic Myeloid Leukemia Who Have Minimal Residual Disease While Receiving Therapy With Tyrosine Kinase Inhibitors (VZ-CML-PI-0236)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 3,
+            "start_date": "2012-08-08",
+            "completion_date": "2019-08-07",
+            "brief_summary": "This is a 2 part study. The goal of the first part of this clinical research study is to find the highest tolerable dose of azacitidine that can be given with a TKI that you are already taking (such as Gleevec, Sprycel, or Tasigna). The safety of this drug will also be studied. The goal of the second part is to see if this combination may improve your response to the TKI you are already taking.\n\nAzacitidine is designed to change genes that are thought to cause leukemia. By changing these genes, ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00103701",
+            "title": "Phase I Study of BMS-354825 in Patients With Chronic Accelerated, or Blast Phase Chronic Myelogenous Leukemia or Philadelphia Positive Acute Lymphoblastic Leukemia",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2003-11",
+            "completion_date": "2006-03",
+            "brief_summary": "The purpose of this clinical research study is to understand the safety and efficacy of BMS-354825 in patients with chronic, accelerated, or blast phase chronic myelogenous leukemia (CML) or Philadelphia positive acute lymphoblastic leukemia (ALL) who are resistant to or intolerant of imatinib mesylate (Gleevec).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01498445",
+            "title": "An Open-Label, Phase I/II Study of Two Different Schedules of Dasatinib (Sprycel) and Decitabine (Dacogen) Used in Combination for Patients With Accelerated or Blastic Phase Chronic Myelogenous Leukemia (Protocol CA180357)",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 32,
+            "start_date": "2012-06-12",
+            "completion_date": "2019-09-24",
+            "brief_summary": "The goal of this clinical research study is to learn if combining Sprycel (dasatinib) and Dacogen (decitabine) can help to control Chronic Myeloid Leukemia (CML). The dose level of decitabine will also be studied.\n\nDasatinib is designed to block the protein that is responsible for chronic myeloid leukemia.\n\nDecitabine is designed to affect the mechanism that cells use to control the expression of certain genes, some of which are important in the progression of CML.\n\nThis is an investigational st",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01215487",
+            "title": "A Study Investigating the Predictive Value of Philadelphia Positive Stem Cell Properties in Newly Diagnosed Patients With Chronic Myeloid in Chronic Phase Receiving Treatment With Imatinib",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 68,
+            "start_date": "2010-10",
+            "completion_date": "2020-05-31",
+            "brief_summary": "Imatinib (IM) is first-line treatment for patients with newly diagnosed CML in chronic phase. The drug is associated with high rates of cytogenetic responses with minimal toxicity in approximately 80% of patients. In 20% of patients however, the disease is either initially unresponsive to IM (Imatinib), resistance develops within a few months, or blast crisis occurs early and unexpectedly following an initial response. An increasing body of clinical evidence indicates that single agent molecular",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00481247",
+            "title": "An Open-Label, Randomized, Multicenter Phase III Trial of Dasatinib (SPRYCEL®) vs. Standard Dose Imatinib (400 mg) in the Treatment of Subjects With Newly Diagnosed Chronic Phase Philadelphia Chromosome Positive Chronic Myeloid Leukemia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 547,
+            "start_date": "2007-09",
+            "completion_date": "2015-12",
+            "brief_summary": "The purpose of this clinical research study is to compare the confirmed complete cytogenetic response of dasatinib with that of imatinib within 12 months after randomization in patients with newly diagnosed chronic-phase Philadelphia positive chronic myeloid leukemia. The safety of this treatment will also be studied.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02013648",
+            "title": "Randomized Phase III Study of Intensive Chemotherapy With or Without Dasatinib (Sprycel™) in Adult Patients With Newly Diagnosed Core-Binding Factor Acute Myeloid Leukemia (CBF-AML)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 204,
+            "start_date": "2014-07",
+            "completion_date": "2024-02",
+            "brief_summary": "This is a randomized phase III open-label, multicenter trial evaluating standard induction therapy (daunorubicin \\[DNR\\] and cytarabine \\[Ara-C\\]) and consolidation therapy (high-dose cytarabine \\[HDAC\\]) with or without dasatinib in adult patients with newly diagnosed CBF-AML",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03906292",
+            "title": "Frontline Asciminib Combination in Chronic Phase CML",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 125,
+            "start_date": "2019-08-19",
+            "completion_date": "2027-12",
+            "brief_summary": "Adult male and female patients with newly diagnosed Philadelphia chromosome positive (Ph+) and/or BCR-ABL1 positive CML can be included in the study until 3 months after diagnosis. A \\<4 week pretreatment with hydroxyurea is permitted. Patients treated for \\<6 weeks with nilotinib 300 mg BID, imatinib 400 mg QD, dasatinib 100 mg QD or without any therapy are eligible for recruitment and will be allocated to the respective cohort. All patients must provide written informed consent to be enrolled ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00500006",
+            "title": "A Phase I Dose Escalation of MK0457 in Combination With Dasatinib in Patients With Chronic Myelogenous Leukemia and Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2007-10",
+            "completion_date": "2007-11",
+            "brief_summary": "This study will evaluate MK0457 in combination with Dasatinib in patients with Chronic Myelogenous Leukemia and Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia. Efficacy and Safety will be evaluated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04136015",
+            "title": "A Prospective Study on Early Conversion of Dasatinib in CML-CP Patients Who Have Not Early Molecular Response on Imatinib",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 200,
+            "start_date": "2019-10-22",
+            "completion_date": "2021-12-31",
+            "brief_summary": "Chronic myeloid leukemia (CML) is a malignant disease of acquired hematopoietic stem cells. The BCR-ABL fusion gene is the pathogenic basis of CML. Tyrosine kinase inhibitors (TKIs) are targeted drugs for this fusion protein. With the wide clinical application of TKIs, the efficacy of CML patients has been greatly improved. However, there are still a significant number of patients who have poor response to the first generation of TKI drugs, imatinib, most of them have early molecular response fa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02954523",
+            "title": "Phase I/II Study of Dasatinib and Osimertinib (AZD9291) in Patients With Advanced Non-small Cell Lung Cancer With EGFR Mutations",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 10,
+            "start_date": "2016-10",
+            "completion_date": "2023-03-03",
+            "brief_summary": "This is a study for patients with advanced non-small cell lung cancer with changes to their cancer cells called EGFR mutations. Mutated EGFR is important in the growth of cancer cells. Medical studies have shown that patients with EGFR mutation-positive lung cancer gain more benefit from targeted therapy drugs such as EGFR inhibitors than with standard chemotherapy. However, a significant proportion of patients carrying these sensitizing mutations do not respond well to the first-generation EGFR",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01392170",
+            "title": "Phase II Study of Pegylated Ifná-2a (Pegasys) in Patients With Chronic Myeloid Leukemia Who Have Minimal Residual Disease While Receiving Therapy With Tyrosine Kinase Inhibitors",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2011-10",
+            "completion_date": "2014-03",
+            "brief_summary": "The goal of this clinical research study is to learn if adding pegylated interferon-alfa 2a (Pegasys) to the TKI that you are already receiving can help to control CML. The safety of this treatment combination will also be studied.\n\nPegasys is a form of the drug interferon. It is designed to help the body's immune system to fight infections. It may also affect the body's response to cancer.\n\nA TKI (imatinib mesylate, nilotinib, or dasatinib) is designed to bind to and shut off a protein in tumor",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00345826",
+            "title": "Long-Term Safety and Efficacy of Dasatinib (BMS-354825) in Subjects Who Experienced Clinical Benefit on Protocol CA 180-002",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2005-11",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Dasatinib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth.\n\nPURPOSE: This phase I trial is studying the side effects of dasatinib in treating patients with chronic myelogenous leukemia or acute lymphoblastic leukemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01464411",
+            "title": "Phase II Clinical Trial of Dasatinib First Line Therapy for Patients With Newly Diagnosed Chronic Myeloid Leukemia in Chronic Phase",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2011-07",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to evaluate effectiveness of Dasatinib as the first line therapy for patients with newly diagnosed chronic myeloid leukemia in chronic phase in Japan.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03746054",
+            "title": "Phase III Study, Randomized, Multicenter, Evaluating the Efficacy of a Cardiovascular Active Prevention Vs Usual Clinical Practice, on the Morbi-mortality Decrease in Chronic Myeloid Leukemia Patients Treated with Tyrosine Kinase Inhibitor",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 80,
+            "start_date": "2019-12-20",
+            "completion_date": "2024-04-16",
+            "brief_summary": "According to the French National Cancer Institute, 35 000 new hematologic cancers are observed in France representing 10% of the new cancers. Chronic Myeloid Leukemia (CML) is a cancer involving the bone marrow and blood cells, the median age at diagnosis is 53 years in the Western world. The prognosis is worse than many other cancers with net survival at 5 years of 26%.\n\nSince the approval of imatinib, additional tyrosine kinase inhibitors (TKIs) have been approved by the European Medicine Agen",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01746836",
+            "title": "Ponatinib as Second Line Therapy for Patients With Chronic Myeloid Leukemia in Chronic Phase Resistant or Intolerant to Imatinib, Dasatinib or Nilotinib",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2013-01-17",
+            "completion_date": "2030-12-31",
+            "brief_summary": "This phase II trial studies how well ponatinib hydrochloride works as second line therapy in treating patients with chronic myeloid leukemia in chronic phase that has not responded to initial treatment (first line) with imatinib mesylate, dasatinib, or nilotinib or cannot tolerate imatinib mesylate, dasatinib, or nilotinib. Ponatinib hydrochloride may stop or control the growth of cancer cells by blocking a protein needed for cell growth.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03878524",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: PRIME",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2020-04-01",
+            "completion_date": "2020-12-10",
+            "brief_summary": "This phase Ib trial determines if samples from a patient's cancer can be tested to find combinations of drugs that provide clinical benefit for the kind of cancer the patient has. This study is also being done to understand why cancer drugs can stop working and how different cancers in different people respond to different types of therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00895297",
+            "title": "Phase II Efficacy and Safety Study of Dasatinib in Patients With Chronic and Accelerated Phase Chronic Myeloid Leukemia Relapsing After Allogeneic Blood or Bone Marrow Transplantation",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 50,
+            "start_date": "2010-02",
+            "completion_date": "2011-11",
+            "brief_summary": "This is a phase II efficacy (indicates the capacity for beneficial change or therapeutic effect) and safety study of Dasatinib in patients with relapsed Chronic Myeloid Leukemia (CML) following a Stem Cell Transplant (SCT) and who are not benefiting from other treatment, such as imatinib therapy.\n\nA relapse is when an illness that has seemed to be getting better, or to have been cured, comes back or gets worse again.\n\nA total of 50 patients ≥18 years of age will be registered on the trial.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02164903",
+            "title": "Mid to Long-term Quality of Life Effects Of imatiNIb Versus DASatinib in Chronic Myeloid Leukemia Patients (LEONIDAS)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 323,
+            "start_date": "2014-09-11",
+            "completion_date": "2018-10",
+            "brief_summary": "The broad goal of this study is to investigate if differences exist (and in which areas and of what magnitude) in QoL and symptoms of patients with CML being treated with first line therapy with dasatinib versus those receiving first line therapy with imatinib. Also, an additional objective is to characterize medication-taking behavior associated with imatinib or dasatinib.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01762969",
+            "title": "Modification of Imatinib to Other Tyrosine Kinase Inhibitors Dependent on 3-months Molecular Response of CML Patients",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2013-01",
+            "completion_date": "2020-01",
+            "brief_summary": "The investigators will check the feasibility of using early molecular response for making treatment decisions. Patients diagnosed with chronic myeloid leukemia will commence imatinib treatment. After 3 months of treatment their response will be assessed. If molecular response would be less the 10% (BCR-ABL1/ABL ISI \\>10%)imatinib therapy will be stopped and patients will start a different TKI (as nilotinib, dasatinib). The investigators will follow on lab and clinical outcomes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01916785",
+            "title": "A PROSPECTIVE RANDOMIZED PHASE II STUDY EVALUATING THE OPTIMIZATION OF THE RESIDUAL PLASMATIC LEVEL OF DASATINIB (SPRYCEL®) IN PATIENTS NEWLY DIAGNOSED WITH CHRONIC PHASE CHRONIC MYELOGENOUS LEUKAEMIA (CP-CML).",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 289,
+            "start_date": "2009-05",
+            "completion_date": "2013-12",
+            "brief_summary": "This protocol is a multicentric interventional phase II study from the French CML Intergroup (FILMC).\n\nThe core of the protocol is to explore the efficacy and safety of an optimization strategy consisting in the modulation of the dasatinib daily dose according to the results of repeated plasmatic levels of dasatinib.\n\nThe objective of this strategy is to improve the overall results of the treatment of early CP-CML in order to avoid the development of resistance and BCR-ABL tyrosine kinase mutati",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05042531",
+            "title": "Clinical Research for Azacitidine Combined With Low-dose Dasatinib in Maintenance Therapy of Acute Myeloid Leukemia",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2021-11-13",
+            "completion_date": "2023-12-15",
+            "brief_summary": "This project is a prospective, single-center study to evaluate the efficacy, safety and related mechanisms of azacitidine combined with low-dose dasatinib in maintenance therapy in patients with intermediate and high-risk acute myeloid leukemia(AML). The patients were randomly divided into azacitidine group and azacitidine combined with low-dose dasatinib group. The overall survival and disease-free survival were taken as the main end points, and the mortality and recurrence rate were taken as t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04991532",
+            "title": "Research on the Mechanism of Dasatinib Down-regulates the Expression of PD-1 in CMV-activated NKG2C+NK Cells and Enhances Killing pH + Leukemia Stem Cells.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 324,
+            "start_date": "2021-06-20",
+            "completion_date": "2022-12",
+            "brief_summary": "Research on the mechanism of dasatinib down-regulates the expression of PD-1 in CMV-activated NKG2C+NK cells and enhances killing pH + leukemia stem cells.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01188278",
+            "title": "Treatment With Second Generation TYROSINE KINASE INHIBITORS (2G TKI) Post Imatinib Failure: Factors Predicting Response and Predictive Value of Response",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 173,
+            "start_date": "2010-07",
+            "completion_date": "2013-01",
+            "brief_summary": "The purpose of this study is to determine predictive value of Hammersmith score on Complete Cytogenetic Response (CCyR).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04925141",
+            "title": "Efficacy and Safety of Dasatinib in the First-line Treatment of Newly Diagnosed Chronic-Phase Chronic Myeloid Leukemia (CML-CP)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 62,
+            "start_date": "2016-05-10",
+            "completion_date": "2019-12-06",
+            "brief_summary": "The purpose of this multicenter,open, prospective and single arm study is to evaluate the efficacy and safety of domestic dasatinib in the first-line treatment of newly diagnosed CML-CP.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00337454",
+            "title": "A Phase I/II Study of BMS-354825 in Subjects With Imatinib Resistant or Intolerant Philadelphia Chromosome Positive Chronic Myelogenous Leukemia and Philadelphia Chromosome Positive Acute Lymphoblastic Leukemia Who Are Resistant or Intolerant to Treatment",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2005-07",
+            "completion_date": "2007-03",
+            "brief_summary": "This study is composed of Phase I and Phase II part. Phase I part: The objective is to evaluate the safety of BMS-354825 in subject with chronic phase Chronic Myelogenous Leukemia (CML). Dosage of BMS-354825 will be 50 mg BID, 70 mg BID or 90 mg BID. Phase II part: The objective is to evaluate the efficacy of BMS-354825. dosage will be decided according to the results of Phase I part. Treatment period will be 6 months for subjects with chronic phase CML, and 3 months for subjects with accelerate",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27217448",
+            "title": "Final 5-Year Study Results of DASISION: The Dasatinib Versus Imatinib Study in Treatment-Naïve Chronic Myeloid Leukemia Patients Trial.",
+            "authors": [
+              "Cortes Jorge E",
+              "Saglio Giuseppe",
+              "Kantarjian Hagop M",
+              "Baccarani Michele",
+              "Mayer Jiří"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2016",
+            "abstract": "We report the 5-year analysis from the phase III Dasatinib Versus Imatinib Study in Treatment-Naïve Chronic Myeloid Leukemia Patients (DASISION) trial, evaluating long-term efficacy and safety outcomes of patients with chronic myeloid leukemia (CML) in chronic phase (CP) treated with dasatinib or imatinib.",
+            "classification": {
+              "study_type": "Phase 3 RCT (5-year follow-up)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40132166",
+            "title": "How I treat chronic myeloid leukemia in children and adolescents.",
+            "authors": [
+              "Chen Jing",
+              "Suttorp Meinolf",
+              "Hijiya Nobuko"
+            ],
+            "journal": "Blood",
+            "year": "2026",
+            "abstract": "Chronic myeloid leukemia (CML) is rare in children and adolescents. Although outcomes have dramatically improved owing to tyrosine kinase inhibitors (TKIs) in the last 2 decades, there are still many challenges related to the management of pediatric CML, including the impact of TKIs on growth deceleration and unknown long-term adverse effects as well as defining the role of treatment-free remission. Unlike adult CML, which is driven by evidence-based guidelines, management of pediatric CML is of",
+            "classification": {
+              "study_type": "Clinical Guideline/Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35920965",
+            "title": "Management of Chronic Myeloid Leukemia in Children and Young Adults.",
+            "authors": [
+              "Ford Maegan",
+              "Mauro Michael",
+              "Aftandilian Catherine",
+              "Sakamoto Kathleen M",
+              "Hijiya Nobuko"
+            ],
+            "journal": "Current hematologic malignancy reports",
+            "year": "2022",
+            "abstract": "Due to lack of pediatric-specific data, the management of chronic myeloid leukemia (CML) in pediatric, adolescents, and young adults is guided by adult CML evidence-based recommendations. Pediatric CML presents differently than adult CML and is often a more aggressive disease with different biological and host factors, yet there is sparse literature on how to address those differences.",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36763239",
+            "title": "Family Planning and Pregnancy in Patients with Chronic Myeloid Leukemia.",
+            "authors": [
+              "Berman Ellin"
+            ],
+            "journal": "Current hematologic malignancy reports",
+            "year": "2023",
+            "abstract": "The goal of this review is to summarize what is known about pregnancy in women with chronic myeloid leukemia (CML): there are very few guidelines regarding how to treat women who are pregnant at the time of CML diagnosis, and similarly, few guidelines regarding family planning for women already on tyrosine kinase inhibitor therapy who might want to start family planning.",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27784993",
+            "title": "Dasatinib for the treatment of chronic myeloid leukemia: patient selection and special considerations.",
+            "authors": [
+              "Keskin Dilek",
+              "Sadri Sevil",
+              "Eskazan Ahmet Emre"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "abstract": "Dasatinib is one of the second-generation tyrosine kinase inhibitors used in imatinib resistance and/or intolerance, as well as in the frontline setting in patients with chronic myeloid leukemia-chronic phase, and also in patients with advanced disease. It is also utilized in Philadelphia chromosome-positive acute lymphocytic leukemia. While choosing the appropriate tyrosine kinase inhibitor (ie, dasatinib) for each individual patient, comorbidities and BCR-ABL1 kinase domain mutations should al",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18215092",
+            "title": "Dasatinib: in chronic myeloid leukemia and Philadelphia chromosome-positive acute lymphoblastic leukemia.",
+            "authors": [
+              "Keam Susan J"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2008",
+            "abstract": "Dasatinib is a small-molecule inhibitor of multiple tyrosine kinases, including BCR-ABL, SRC, c-KIT, ephrin A receptor and platelet-derived growth factor-beta receptor kinases, at nanomolar concentrations. In vitro, dasatinib is 325-fold more potent than imatinib against cells expressing wild-type BCR-ABL. The efficacy and tolerability of oral dasatinib has been established in the START phase II trials in adults with chronic myeloid leukemia (CML) or Philadelphia chromosome-positive acute lympho",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31812340",
+            "title": "Utility of Therapeutic Drug Monitoring of Imatinib, Nilotinib, and Dasatinib in Chronic Myeloid Leukemia: A Systematic Review and Meta-analysis.",
+            "authors": [
+              "García-Ferrer Manuel",
+              "Wojnicz Aneta",
+              "Mejía Gina",
+              "Koller Dora",
+              "Zubiaur Pablo"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2019",
+            "abstract": "This study examined the utility of therapeutic drug monitoring (TDM) of imatinib, nilotinib, and dasatinib in adult patients with chronic-phase chronic myeloid leukemia (CML). TDM in CML entails the measurement of plasma tyrosine kinase inhibitor (TKI) concentration to predict efficacy and tolerability outcomes and to aid in clinical decision making. TDM was to be deemed useful if it could be used for predicting the effectiveness of a drug and/or the occurrence of adverse reactions. It was expec",
+            "classification": {
+              "study_type": "Pharmacokinetic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36448074",
+            "title": "Dasatinib-induced Chylothorax in Chronic Myeloid Leukemia.",
+            "authors": [
+              "Alqattan Yasmine",
+              "Ali Salha",
+              "Almohammad Rawan",
+              "Kayali Noura",
+              "Alhuraiji Ahmad"
+            ],
+            "journal": "The Gulf journal of oncology",
+            "year": "2022",
+            "abstract": "Dasatinib is a potent second-generation tyrosine kinase inhibitor (TKI) used in the first- and second-line treatment of chronic myeloid leukemia (CML). Chylothorax is a rare presentation that results in chyle leakage from the lymphatic system into the pleural space as a consequence of thoracic duct damage. Pleural effusion has been reported frequently in patients treated with Dasatinib however chylothorax has been rarely reported. Here we report an 18year old female presenting with chylothorax a",
+            "classification": {
+              "study_type": "Case Report/Adverse Event",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33256372",
+            "title": "Expanding dasatinib beyond KIT in acute myeloid leukemia.",
+            "authors": [
+              "Welch John S"
+            ],
+            "journal": "Haematologica",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "Translational Research",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36346055",
+            "title": "Interstitial pneumonitis associated with dasatinib treatment for chronic myeloid leukemia or acute lymphoblastic leukemia: case series and a literature review.",
+            "authors": [
+              "Kim Sang-A",
+              "Kwon Byoung Soo",
+              "Chung Jin-Haeng",
+              "Lee Ji Yun",
+              "Bang Soo-Mee"
+            ],
+            "journal": "Therapeutic advances in respiratory disease",
+            "year": "2022",
+            "abstract": "Dasatinib, a tyrosine kinase inhibitor, is usually prescribed for chronic myeloid leukemia and Philadelphia chromosome-positive acute lymphoblastic leukemia. However, some patients may develop an intolerance to this drug over the years. Among various toxicities related to dasatinib, dasatinib-associated interstitial pneumonitis is not reported frequently in the literature yet. Moreover, published studies have reported only few cases of dasatinib-associated pneumonitis, almost exclusively in chro",
+            "classification": {
+              "study_type": "Cohort/Adverse Event Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21463117",
+            "title": "The potential for dasatinib in treating chronic lymphocytic leukemia, acute myeloid leukemia, and myeloproliferative neoplasms.",
+            "authors": [
+              "Amrein Philip C"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2011",
+            "abstract": "Dasatinib is a kinase inhibitor that inhibits BCR-ABL, Src family kinases, c-Kit, and platelet-derived growth factor receptor kinase. It is licensed for the first- and second-line treatment of chronic myeloid leukemia and second-line treatment of Philadelphia chromosome-positive acute lymphoblastic leukemia on the basis of BCR-ABL inhibition, but the activity of dasatinib against additional molecular targets may enable treatment of other hematologic disorders. Potential targets for dasatinib in ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30465234",
+            "title": "Dasatinib: A Review in Pediatric Chronic Myeloid Leukemia.",
+            "authors": [
+              "McCafferty Emma H",
+              "Dhillon Sohita",
+              "Deeks Emma D"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2018",
+            "abstract": "Chronic myeloid leukemia (CML) is a rare hematopoietic stem cell disease that is typically characterized by the abnormal BCR-ABL1 fusion gene on the Philadelphia (Ph) chromosome in neoplastic cells. Dasatinib (Sprycel®) is an orally administered, small molecule tyrosine kinase inhibitor indicated for the treatment of certain hematological malignancies, including Ph-positive CML in the chronic phase (Ph+ CML-CP) in adult and pediatric patients. In open-label phase 1 and phase 2 clinical trials, d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19455391",
+            "title": "Clinical profile of dasatinib in Asian and non-Asian patients with chronic myeloid leukemia.",
+            "authors": [
+              "Kim Dong-Wook",
+              "Goh Yeow-Tee",
+              "Hsiao Hui-Hua",
+              "Caguioa Priscilla B",
+              "Kim Dongho"
+            ],
+            "journal": "International journal of hematology",
+            "year": "2009",
+            "abstract": "Resistance and intolerance to imatinib are of particular clinical relevance to Asian patients because of their lower body surface area. Dasatinib is 325-fold more potent than imatinib in inhibiting BCR-ABL in vitro and is indicated for the treatment of chronic myeloid leukemia (CML) and Philadelphia chromosome-positive acute lymphoblastic leukemia resistant or intolerant to imatinib. Data from a series of phase I/II research trials were analyzed to compare the efficacy, safety and pharmacokineti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35916333",
+            "title": "HHV8-negative primary effusion-based large B-cell lymphoma in a patient with chronic myeloid leukemia, BCR::ABL1-positive under dasatinib treatment: Report of a new case and literature review.",
+            "authors": [
+              "Christe Lucine",
+              "Veloza Luis",
+              "Gros Louis",
+              "Bisig Bettina",
+              "Blum Sabine"
+            ],
+            "journal": "Diagnostic cytopathology",
+            "year": "2022",
+            "abstract": "Dasatinib, a second-generation tyrosine kinase inhibitor (TKI), used as treatment for chronic myeloid leukemia, BCR::ABL1-positive (CML), is complicated by pleural or pericardial effusions in about one-third of patients. Besides, in exceptional instances, effusion-based neoplastic B-cell lymphoproliferations have been described. Here, we report an HHV8-negative, EBV-positive large B-cell lymphoma presenting as a pericardial effusion in a patient with CML treated with dasatinib for 23 months, wit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21528941",
+            "title": "Activity and safety of dasatinib as second-line treatment or in newly diagnosed chronic phase chronic myeloid leukemia patients.",
+            "authors": [
+              "Breccia Massimo",
+              "Alimena Giuliana"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2011",
+            "abstract": "Dasatinib is an oral dual tyrosine kinase inhibitor active against ABL1 and SRC family kinases. The US FDA approved it for the treatment of chronic myeloid leukemia (CML) patients in chronic, accelerated, or blastic phase with resistance or intolerance to imatinib therapy. Dasatinib is also indicated for the treatment of adults with Philadelphia chromosome-positive acute lymphoblastic leukemia who have become resistant to or intolerant of other treatments. The agent is now also approved for newl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35996356",
+            "title": "Tyrosine kinase inhibitors dosing for chronic phase chronic myeloid leukemia: The case for starting low with dasatinib (50 mg/day) and ponatinib (15 mg/day).",
+            "authors": [
+              "Tefferi Ayalew",
+              "Begna Kebede H",
+              "McCullough Kristen B"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2022",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35441424",
+            "title": "Skin and soft tissue infections in adolescent chronic myeloid leukemia under dasatinib treatment.",
+            "authors": [
+              "Uchida Eriko",
+              "Saito Shoji",
+              "Morita Daisuke",
+              "Okura Eri",
+              "Hirabayashi Koichi"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2022",
+            "abstract": "Although skin complications are common adverse events from tyrosine kinase inhibitors (TKIs) for the treatment of chronic myeloid leukemia (CML), no reports have focused on skin and soft tissue infections (SSTIs) associated with TKI use. We herein present five episodes of SSTIs in three CML patients under dasatinib treatment. All patients were adolescents and had been receiving dasatinib for more than 4 years. In contrast, none of 41 adult CML patients experienced SSTIs in a retrospective analys",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30568173",
+            "title": "Dasatinib and navitoclax act synergistically to target NUP98-NSD1+/FLT3-ITD+ acute myeloid leukemia.",
+            "authors": [
+              "Kivioja Jarno L",
+              "Thanasopoulou Angeliki",
+              "Kumar Ashwini",
+              "Kontro Mika",
+              "Yadav Bhagwan"
+            ],
+            "journal": "Leukemia",
+            "year": "2019",
+            "abstract": "Acute myeloid leukemia (AML) with co-occurring NUP98-NSD1 and FLT3-ITD is associated with unfavorable prognosis and represents a particularly challenging treatment group. To identify novel effective therapies for this AML subtype, we screened patient cells and engineered cell models with over 300 compounds. We found that mouse hematopoietic progenitors co-expressing NUP98-NSD1 and FLT3-ITD had significantly increased sensitivity to FLT3 and MEK-inhibitors compared to cells expressing either aber",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17155893",
+            "title": "Targeting ABL and SRC kinases in chronic myeloid leukemia: experience with dasatinib.",
+            "authors": [
+              "Quintás-Cardama Alfonso",
+              "Kantarjian Hagop",
+              "Cortes Jorge"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2006",
+            "abstract": "Mutations within the ABL kinase domain and overexpression of SRC family kinases have been identified among the known mechanisms of resistance to imatinib in chronic myeloid leukemia (CML). The development of agents with dual inhibitory activity against SRC and ABL kinases is one approach to overcome imatinib resistance. One such agent, dasatinib (formerly BMS-354825), is approximately 300-fold more potent against BCR-ABL than imatinib, and is active against all tested ABL mutant isoforms, except",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37726405",
+            "title": "Population Pharmacokinetics and Pharmacogenetics Analyses of Dasatinib in Chinese Patients with Chronic Myeloid Leukemia.",
+            "authors": [
+              "He Shiyu",
+              "Zhao Jinxia",
+              "Bian Jialu",
+              "Zhao Yinyu",
+              "Li Yuanyuan"
+            ],
+            "journal": "Pharmaceutical research",
+            "year": "2023",
+            "abstract": "Dasatinib, a second-generation tyrosine kinase inhibitor of BCR-ABL 1, used for first-line treatment of Philadelphia chromosome-positive chronic myeloid leukemia (CML), exhibits high pharmacokinetic (PK) variability. However, its PK data in Chinese patients with CML remains rarely reported to date. Thus, we developed a population pharmacokinetic (PPK) model of dasatinib in Chinese patients and identified the covariate that could explain the individual variability of PK for optimal individual adm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dasatinib 直接抑制 BCR-ABL 融合激酶（慢性骨髓性白血病的驅動突變），同時抑制 Src 家族激酶。DASISION Phase 3 RCT（imatinib 對照）確立其一線 CML 療效，5 年追蹤 CMR 率顯著優於 imatinib。已獲 FDA/EMA 核准，屬已知適應症而非再利用情境。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "liposarcoma",
+      "txgnn": {
+        "score": 0.9966674447059632,
+        "rank": 4944
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00464620",
+            "title": "A Phase II Trial of Dasatinib in Advanced Sarcomas",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 366,
+            "start_date": "2007-05",
+            "completion_date": "2017-05",
+            "brief_summary": "This study will examine the response rate and the 6-month progression-free survival rates of subjects with advanced sarcoma treated with dasatinib.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase II，366 例晚期肉瘤，COMPLETED，含 liposarcoma 亞組，但非 liposarcoma 專屬分析，需查亞組結果，整體相關性中等"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20863376",
+            "title": "Kinome profiling of myxoid liposarcoma reveals NF-kappaB-pathway kinase activity and casein kinase II inhibition as a potential treatment option.",
+            "authors": [
+              "Willems Stefan M",
+              "Schrage Yvonne M",
+              "Bruijn Inge H Briaire-de",
+              "Szuhai Karoly",
+              "Hogendoorn Pancras C W"
+            ],
+            "journal": "Molecular cancer",
+            "year": "2010",
+            "abstract": "Myxoid liposarcoma is a relatively common malignant soft tissue tumor, characterized by a (12;16) translocation resulting in a FUS-DDIT3 fusion gene playing a pivotal role in its tumorigenesis. Treatment options in patients with inoperable or metastatic myxoid liposarcoma are relatively poor though being developed and new hope is growing.",
+            "classification": {
+              "study_type": "Translational (Kinome Profiling)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29190494",
+            "title": "FUS-CHOP Promotes Invasion in Myxoid Liposarcoma through a SRC/FAK/RHO/ROCK-Dependent Pathway.",
+            "authors": [
+              "Tornin Juan",
+              "Hermida-Prado Francisco",
+              "Padda Ranjit Singh",
+              "Gonzalez M Victoria",
+              "Alvarez-Fernandez Carlos"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2018",
+            "abstract": "Deregulated SRC/FAK signaling leads to enhanced migration and invasion in many types of tumors. In myxoid and round cell liposarcoma (MRCLS), an adipocytic tumor characterized by the expression of the fusion oncogene FUS-CHOP, SRC have been found as one of the most activated kinases. Here we used a cell-of-origin model of MRCLS and an MRCLS cell line to thoroughly characterize the mechanisms of cell invasion induced by FUS-CHOP using in vitro (3D spheroid invasion assays) and in vivo (chicken ch",
+            "classification": {
+              "study_type": "Preclinical (In vitro)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26084847",
+            "title": "SRC inhibition represents a potential therapeutic strategy in liposarcoma.",
+            "authors": [
+              "Sievers Elisabeth",
+              "Trautmann Marcel",
+              "Kindler Dagmar",
+              "Huss Sebastian",
+              "Gruenewald Inga"
+            ],
+            "journal": "International journal of cancer",
+            "year": "2015",
+            "abstract": "Liposarcomas (LS) are the most common malignant mesenchymal tumors, with an overall long-term mortality rate of 60%. LS comprise three major subtypes, i.e., well-differentiated/dedifferentiated liposarcoma (WDLS/DDLS), myxoid/round cell liposarcoma (MLS) and pleomorphic liposarcoma (PLS). Aiming at the preclinical identification of novel therapeutic options, we here investigate the functional significance of SRC in primary human LS and in LS-derived cell lines. Immunohistochemical and Western bl",
+            "classification": {
+              "study_type": "Preclinical (In vitro/In vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Liposarcoma（尤其 myxoid liposarcoma）中 FUS-CHOP 融合蛋白透過 Src/FAK/RHO/ROCK 軸促進侵襲；激酶體分析顯示 NF-κB 路徑激酶活性異常。Dasatinib 抑制 Src 可干擾此侵襲機制。SRC 抑制在 liposarcoma 的 preclinical 研究（2015）顯示治療潛力，但臨床資料僅限於廣泛肉瘤試驗的非分層數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "fibromatosis, gingival",
+      "txgnn": {
+        "score": 0.9965283274650574,
+        "rank": 5077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "牙齦纖維瘤病（多為遺傳性結締組織過度增生）與 dasatinib 已知靶點（BCR-ABL、Src、PDGFR）無明確生物學連結。TxGNN 預測可能基於圖譜拓撲相似性，無支持性機轉假說。值得注意的是，TKI 類藥物（尤其 imatinib）本身曾報告牙齦副作用，需謹慎解讀預測結果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn": {
+        "score": 0.996510088443756,
+        "rank": 5099
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29408302",
+            "title": "The role of small molecule platelet-derived growth factor receptor (PDGFR) inhibitors in the treatment of neoplastic disorders.",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "journal": "Pharmacological research",
+            "year": "2018",
+            "abstract": "Platelet-derived growth factor (PDGF) was discovered as a serum-derived component necessary for the growth of smooth muscle cells, fibroblasts, and glial cells. The PDGF family is a product of four gene products and consists of five dimeric isoforms: PDGF-AA, PDGF-BB, PDGF-CC, PDGF-DD, and the PDGF-AB heterodimer. This growth factor family plays an essential role in embryonic development and in wound healing in the adult. These growth factors mediate their effects by binding to and activating th",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DFSP 由 COL1A1-PDGFB 基因融合驅動，產生自分泌 PDGFR-β 訊號迴路。Dasatinib 抑制 PDGFR-β（Kd ~5 nM），機轉上與 imatinib（已核准用於 DFSP）類似但結合親和力不同。文獻提及小分子 PDGFR 抑制劑的整體角色，包含 dasatinib 作為潛在選項，但缺乏直接臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "ovarian myxoid liposarcoma",
+      "txgnn": {
+        "score": 0.9959384202957152,
+        "rank": 5661
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "卵巢黏液性脂肪肉瘤為極罕見腫瘤，無 dasatinib 相關臨床或 preclinical 資料。預測可能延伸自 myxoid liposarcoma 的 Src/FAK 機轉假說，但缺乏卵巢原發部位的特定依據，不足以支持進一步行動。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn": {
+        "score": 0.995932161808014,
+        "rank": 5666
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經節神經母細胞瘤（介於神經母細胞瘤與神經節神經瘤之間）雖有部分 neuroblastoma preclinical 數據顯示 Src 參與（PMID 18202781 提及 neuroblastoma），但 ganglioneuroblastoma 特異性資料缺失，無法推論療效。證據僅停留在圖譜預測層級。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn": {
+        "score": 0.9958945512771606,
+        "rank": 5709
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此罕見先天性綜合症（可能涉及 TBCK 或類似基因）與 dasatinib 任何已知藥理機轉無合理生物學連結。無相關臨床試驗或文獻，TxGNN 高分可能反映知識圖譜中的間接連結，不具臨床轉化意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "txgnn": {
+        "score": 0.9958319067955016,
+        "rank": 5760
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontote",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "journal": "Neurology India",
+            "year": "2021",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive deme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia req",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disea",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to furth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several pri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzhe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IBMPFD（VCP 基因突變）涉及蛋白質體功能障礙與自噬異常。雖然 dasatinib 具有 senolytic 效應（Src/PI3K 抑制可促進衰老細胞清除），且有報告用於一般性神經退化症研究，但現有 20 篇文獻均為 FTD 疾病通論綜述，無一涉及 dasatinib 與 IBMPFD 的直接連結，不構成可操作的再利用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hamartoma of lung",
+      "txgnn": {
+        "score": 0.9956108927726746,
+        "rank": 5962
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺錯構瘤為良性錯構瘤性病變，通常無症狀且不需系統性治療。雖偶見 HMGA2 基因重排，但與 dasatinib 靶點無已知交集。無任何臨床或 preclinical 依據支持此適應症，TxGNN 預測不具轉化意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "Ewing sarcoma"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "Ewing sarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "Ewing sarcoma"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "myeloid leukemia"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "myeloid leukemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "myeloid leukemia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dasatinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

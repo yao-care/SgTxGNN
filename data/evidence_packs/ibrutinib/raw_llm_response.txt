@@ -1,0 +1,291 @@
+## Ibrutinib 藥物再利用證據分析
+
+> **分析背景說明**：Ibrutinib（DB09053）為不可逆共價 BTK 抑制劑（Bruton's Tyrosine Kinase Inhibitor），全球已有 FDA 批准適應症（CLL/SLL、MCL、WM、MZL、cGVHD）。`market_status: 未上市` 及 `original_indications: []` 推測為新加坡 HSA 本地藥典收錄狀態問題，而非全球上市狀況，不影響機轉分析。
+
+---
+
+```json
+{
+  "drug": "Ibrutinib",
+  "drugbank_id": "DB09053",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "original_moa [Data Gap] 為資料缺口，Ibrutinib 實際 MoA 為共價結合 BTK C481S 位點，阻斷 BCR 與 MYD88 下游訊號，誘導 B 細胞腫瘤凋亡。",
+  "indications": [
+    {
+      "disease_name": "polyclonal hypergammaglobulinemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "BTK 抑制理論上可減少多株 B 細胞活化與免疫球蛋白過度分泌。然而多株高免疫球蛋白血症多屬繼發性（慢性感染、自體免疫、肝病），缺乏單一 BTK 依賴性驅動標靶；TxGNN 評分 0.918 反映知識圖譜中 B 細胞相關疾病的拓撲相似性，並非機轉直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "monoclonal paraproteinemia disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此分類主要涵蓋 Waldenström 巨球蛋白血症（WM）。WM 腫瘤性淋巴漿細胞 >90% 攜帶 MYD88 L265P 突變，透過 TLR/IRAK1/4 → BTK → NF-κB 軸驅動存活與 IgM 分泌；約 35-40% 另有 CXCR4 突變影響療效。Ibrutinib 共價鎖定 BTK C481，雙重阻斷 BCR 及 MYD88 訊號，為 WM 一線與復發/難治標準治療。Guardrail 重點：CXCR4 突變型療效較差、心房顫動/出血風險需監測、考慮新世代 BTK 抑制劑（zanubrutinib）取代。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02165397",
+          "relevance_grade": "A",
+          "reasoning": "iNNOVATE 研究：Phase 3 隨機雙盲安慰劑對照 RCT，ibrutinib+rituximab vs 安慰劑+rituximab，專門針對 WM，181 人，已完成。核心 L1 證據，奠定 ibrutinib 於 WM 的基石地位。"
+        },
+        {
+          "nct_id": "NCT03053440",
+          "relevance_grade": "A",
+          "reasoning": "ASPEN 研究：Phase 3 開放標籤 RCT，zanubrutinib vs ibrutinib 頭對頭比較於 WM，201 人，已完成。提供 BTK 抑制劑類別內的比較性 L1 證據，確認 ibrutinib 療效基準線。"
+        },
+        {
+          "nct_id": "NCT03620903",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 Bortezomib+Rituximab+Ibrutinib（BRI 三聯療法）用於初治 WM，53 人，進行中（主動未招募）。直接評估含 ibrutinib 一線組合方案，相關性高。"
+        },
+        {
+          "nct_id": "NCT04840602",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 隨機研究：ibrutinib+rituximab vs zanubrutinib 單藥於 WM，92 人，招募中。評估 ibrutinib 組合策略的現代比較，直接相關。"
+        },
+        {
+          "nct_id": "NCT01479842",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 劑量遞增：Rituximab+Bendamustine+BTK 抑制劑，48 人，進行中（未招募）。涵蓋 WM 等多種 B 細胞惡性腫瘤，提供組合方案安全性基礎，相關性中等。"
+        },
+        {
+          "nct_id": "NCT04062448",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 ibrutinib 組合試驗，16 人，已完成。樣本數小，但提供 ibrutinib 於 B 細胞疾病組合策略的補充療效數據。"
+        },
+        {
+          "nct_id": "NCT02332980",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 anti-PD-1（MK-3475）用於復發/難治 CLL，主要研究藥物非 ibrutinib，疾病為 CLL 而非 WM/副蛋白血症，相關性低。"
+        },
+        {
+          "nct_id": "NCT05099471",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 Venetoclax+Rituximab 用於 WM，ibrutinib 非主要研究藥物，評估競爭替代方案，對 ibrutinib 支持相關性低。"
+        },
+        {
+          "nct_id": "NCT04439006",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 ibrutinib 用於 COVID-19 重症，10 人，已完成。疾病適應症完全不同，對單株副蛋白血症無支持價值。"
+        },
+        {
+          "nct_id": "NCT03740529",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 LOXO-305（pirtobrutinib）次世代 BTK 抑制劑用於 CLL/SLL，主要研究藥物非 ibrutinib，疾病類型不同，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "32731259", "study_type": "RCT（Phase 3，ASPEN）", "tier": "1"},
+        {"pmid": "34911327", "study_type": "Review（WM 疾病綜述）", "tier": "2"},
+        {"pmid": "29169431", "study_type": "Review（IgM 副蛋白血症）", "tier": "2"},
+        {"pmid": "34674984", "study_type": "Clinical Review（Bing-Neel 症候群）", "tier": "2"},
+        {"pmid": "34610502", "study_type": "Review（Anti-MAG 神經病變）", "tier": "2"},
+        {"pmid": "25679974", "study_type": "Review（WM 疾病綜述）", "tier": "2"},
+        {"pmid": "26458447", "study_type": "Review（WM，德語文獻）", "tier": "2"},
+        {"pmid": "39859314", "study_type": "Review（Schnitzler 症候群）", "tier": "2"},
+        {"pmid": "39938091", "study_type": "Case Report/Series（VITT-like 單株副蛋白）", "tier": "3"},
+        {"pmid": "39979252", "study_type": "Translational/Observational（CAR-T 後 ctDNA）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "thyroid gland mucosa-associated lymphoid tissue lymphoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "甲狀腺 MALT 淋巴瘤與橋本氏甲狀腺炎慢性抗原刺激高度相關，BCR/BTK 訊號理論上參與腫瘤細胞存活。然而：(1) 甲狀腺 MALT 常對抗生素/抗甲狀腺治療有效，抗原驅動機轉可能優先；(2) 無任何臨床試驗或文獻記錄；(3) 僅屬由其他 MALT 亞型外推的推論性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "small intestinal mucosa-associated lymphoid tissue lymphoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "小腸 MALT 淋巴瘤常與幽門螺旋桿菌或腸道慢性感染相關，BCR 依賴性抗原刺激驅動腫瘤維持，BTK 抑制理論上可中斷此訊號。唯一相關試驗（NCT02109224）針對 HIV 感染合併多種淋巴瘤患者且已終止，並非小腸 MALT 特異性設計，亦無文獻支持，僅屬間接類別外推。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02109224",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 ibrutinib 用於 HIV 感染合併復發/難治淋巴瘤，72 人，已終止（TERMINATED）。疾病範疇廣泛非小腸 MALT 特異性，HIV 免疫背景限制外推性，終止狀態降低可信度，相關性低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "small intestinal Burkitt lymphoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Burkitt 淋巴瘤以 MYC 易位（t(8;14) 等）為核心致病機轉，高度仰賴 PI3K/AKT 及 BCL-2 路徑，BCR/BTK 訊號雖有參與但非關鍵驅動因素。BTK 抑制對 Burkitt 淋巴瘤的理論基礎較 CLL/WM 明顯薄弱，且多數 Burkitt 細胞株對 ibrutinib 相對不敏感。現有臨床試驗僅一個終止的 HIV 相關 Phase 1，無直接文獻支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02109224",
+          "relevance_grade": "C",
+          "reasoning": "同小腸 MALT 分析：Phase 1 HIV 感染合併淋巴瘤，已終止，非 Burkitt 特異性，且 Burkitt 淋巴瘤對 BTK 抑制劑的生物學依賴性本即較低，相關性低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "breast mucosa-associated lymphoid tissue lymphoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳腺 MALT 淋巴瘤為極罕見疾病，BCR/BTK 依賴性機轉與其他 MALT 亞型類似，理論上可受 ibrutinib 影響。然而完全缺乏任何臨床試驗與文獻記錄，TxGNN 評分（0.881）反映 MALT 淋巴瘤類別內的圖譜相似性，非乳腺部位特異性依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tonsillar lymphoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "扁桃腺淋巴瘤為解剖部位描述而非特定分子亞型，涵蓋 DLBCL、MZL、FL 等多種組織學類型，BTK 路徑依賴程度因亞型而異（MZL > DLBCL ABC 亞型 > GCB 型）。無臨床試驗或文獻，缺乏亞型特異性數據，無法合理推薦。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "marginal zone lymphoma",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "MZL 腫瘤細胞高度依賴 BCR → BTK → NF-κB 存活軸，特別是脾臟 MZL（NOTCH2 突變）與黏膜相關 MZL（慢性抗原刺激）均有 BTK 依賴性證據。Ibrutinib 已獲 FDA 批准用於抗 CD20 單藥後進展之復發/難治 MZL。SELENE Phase 3 研究（PMID 37722354）及多項 Phase 2 試驗確認 L1 等級。Guardrail 重點：(1) 不同 MZL 亞型（SMZL/EMZL/NMZL）療效可能有差異；(2) 心血管毒性（AF、出血）監測；(3) 與次世代 BTK 抑制劑比較中的定位。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04212013",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 雙盲安慰劑對照試驗：ibrutinib 合併化療用於 MZL，進行中（主動未招募），為 MZL 特異性最高設計等級試驗。登記人數 23 人提示早期數據或慢速入組，需持續追蹤最終結果。"
+        },
+        {
+          "nct_id": "NCT03198026",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 obinutuzumab+ibrutinib 一線治療 MZL，30 人，進行中（未招募）。直接評估 ibrutinib 於 MZL 一線無化療策略，相關性高。"
+        },
+        {
+          "nct_id": "NCT03162536",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2 BTK 抑制劑劑量遞增與擴展研究，190 人，涵蓋 MZL 等多種 B 細胞惡性腫瘤，提供劑量最佳化、PK/PD 及擴展療效數據，相關性高。"
+        },
+        {
+          "nct_id": "NCT04116437",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 zanubrutinib（次世代 BTK 抑制劑）用於 R/R MZL，96 人，已完成。提供 BTK 抑制劑類別效應的高品質比較數據，間接支持 ibrutinib 但非直接研究。"
+        },
+        {
+          "nct_id": "NCT01955499",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 ibrutinib+lenalidomide 用於 R/R MZL 及其他 NHL，39 人，進行中（未招募）。評估組合增效策略，提供 ibrutinib 在 MZL 組合方案的早期安全性數據。"
+        },
+        {
+          "nct_id": "NCT01479842",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 Rituximab+Bendamustine+BTK 抑制劑，48 人，涵蓋 MZL。提供化學免疫療法聯合 BTK 抑制的安全性基礎，相關性中等。"
+        },
+        {
+          "nct_id": "NCT04043845",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 ERK 1/2 抑制用於 ibrutinib 耐藥 B 細胞惡性腫瘤，WITHDRAWN（0 人未入組）。探討耐藥後治療，對 ibrutinib 初次療效評估相關性低。"
+        },
+        {
+          "nct_id": "NCT05939752",
+          "relevance_grade": "C",
+          "reasoning": "ibrutinib 心血管副作用前瞻性觀察研究，8 人，TERMINATED。純粹安全性研究，提供監測框架但非療效數據，相關性低。"
+        },
+        {
+          "nct_id": "NCT04665115",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 ibrutinib 治療期間感染前瞻性觀察，WITHDRAWN（0 人）。安全性導向研究，對療效評估相關性低。"
+        },
+        {
+          "nct_id": "NCT04659044",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 Polatuzumab vedotin+Venetoclax+Rituximab，3 人，TERMINATED。主要研究藥物非 ibrutinib，幾乎無入組即終止，數據價值極低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "37722354", "study_type": "RCT（Phase 3，SELENE 研究）", "tier": "1"},
+        {"pmid": "40157832", "study_type": "Guideline/Review（2024 MZL 更新指引）", "tier": "1"},
+        {"pmid": "35842643", "study_type": "Retrospective Cohort（多中心）", "tier": "2"},
+        {"pmid": "34120550", "study_type": "Systematic Review/Analysis", "tier": "2"},
+        {"pmid": "29628774", "study_type": "Clinical Review（ibrutinib 於 MZL 焦點）", "tier": "2"},
+        {"pmid": "29572581", "study_type": "Review（MZL 臨床病理分類）", "tier": "2"},
+        {"pmid": "31229160", "study_type": "Review（MZL 與淋巴漿細胞淋巴瘤）", "tier": "2"},
+        {"pmid": "34017197", "study_type": "Review（無化療策略）", "tier": "2"},
+        {"pmid": "31807935", "study_type": "Review（MZL 最新治療）", "tier": "2"},
+        {"pmid": "37696810", "study_type": "Review（BTK 抑制劑比較）", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "extracutaneous mastocytoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肥大細胞活化依賴 FcεRI 下游之 BTK 訊號（BTK 參與 IgE 受體介導的細胞脫顆粒），ibrutinib 抑制 BTK 理論上可減少組織胺釋放與肥大細胞增殖。PMID 31286638（2019）在犬類腫瘤性肥大細胞中體外驗證 ibrutinib 的抑制效果。重要限制：(1) 系統性肥大細胞增生症通常以 KIT D816V 突變驅動（非 BTK 主要靶點），ibrutinib 對此突變體效力有限；(2) 僅有動物細胞實驗，無人類臨床試驗；(3) 需區分局限性 mastocytoma 與系統性肥大細胞增生症的適用性差異。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "31286638", "study_type": "Preclinical（犬類腫瘤性肥大細胞體外實驗）", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "neoplasm of mature B-cells",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "成熟 B 細胞腫瘤（廣義涵蓋 CLL、MCL、WM、MZL、DLBCL 等）均依賴 BCR → BTK → NF-κB/AKT/ERK 存活訊號軸，此為 ibrutinib 核心作用機轉。Phase 1（NCT01704963）在人類 B 細胞惡性腫瘤中確認 BTK 佔據與早期療效訊號。Phase 3 兒科試驗（NCT02703272）雖因非劣效性設計問題終止，但佐證跨年齡層的安全性輪廓。10+ 篇機轉文獻提供強力生物學基礎，但 L3 而非 L2 的原因在於此為廣義疾病類別，缺乏特異性 Phase 2 隨機對照試驗且 Phase 3 試驗未完成。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01704963",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1 BTK 抑制劑（ibrutinib/PCI-32765）用於復發 B 細胞惡性腫瘤，15 人，已完成。直接評估人類成熟 B 細胞腫瘤中的 BTK 靶點驗證、安全性與早期療效，為此廣義分類最直接的臨床數據。"
+        },
+        {
+          "nct_id": "NCT02703272",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 ibrutinib 用於兒科及年輕成人 B 細胞惡性腫瘤，72 人，TERMINATED。終止原因需釐清（疾病進展速率/設計問題vs安全性），但提供跨年齡層的 ibrutinib 使用數據；終止狀態降低證據可信度，評為 B 級。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "29455639", "study_type": "Review（BTK 在 B 細胞腫瘤的角色）", "tier": "2"},
+        {"pmid": "37717577", "study_type": "Review（CLL 疾病生物學）", "tier": "2"},
+        {"pmid": "27641927", "study_type": "Review（ibrutinib BTK 抑制機轉）", "tier": "2"},
+        {"pmid": "41594662", "study_type": "Review（BTK 抑制劑全景，2026）", "tier": "2"},
+        {"pmid": "31580408", "study_type": "Review（淋巴瘤靶向治療）", "tier": "2"},
+        {"pmid": "31364161", "study_type": "Review（CLL 分子致病機轉）", "tier": "2"},
+        {"pmid": "36376164", "study_type": "Review（BTK 抑制劑超越 B 細胞惡性腫瘤）", "tier": "2"},
+        {"pmid": "26628631", "study_type": "Review（BCR 抑制劑在 CLL 的角色）", "tier": "2"},
+        {"pmid": "24060900", "study_type": "Translational Review（BCR 訊號驅動淋巴瘤）", "tier": "2"},
+        {"pmid": "20615965", "study_type": "Preclinical（體內外 B 細胞腫瘤模型）", "tier": "3"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 疾病 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|--------|--------|----------|----------|------|
+| polyclonal hypergammaglobulinemia | 0.918 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| **monoclonal paraproteinemia disease** | 0.912 | 13（含2個Ph3） | 20 | **L1** | S3 | ✅ Proceed w/ Guardrails |
+| thyroid gland MALT lymphoma | 0.884 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| small intestinal MALT lymphoma | 0.884 | 1（終止Ph1） | 0 | **L4** | S0 | ⛔ Hold |
+| small intestinal Burkitt lymphoma | 0.883 | 1（終止Ph1） | 0 | **L4** | S0 | ⛔ Hold |
+| breast MALT lymphoma | 0.881 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| tonsillar lymphoma | 0.881 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| **marginal zone lymphoma** | 0.880 | 28（含Ph3） | 20 | **L1** | S3 | ✅ Proceed w/ Guardrails |
+| extracutaneous mastocytoma | 0.877 | 0 | 1（動物） | **L4** | S1 | 🔬 Research Question |
+| neoplasm of mature B-cells | 0.866 | 2（1個終止Ph3） | 20 | **L3** | S2 | 🔬 Research Question |
+
+### 關鍵觀察
+
+1. **TxGNN 評分與實際臨床證據脫節明顯**：評分最高（0.918）的 polyclonal hypergammaglobulinemia 完全無臨床數據（L5），而評分較低的 MZL（0.880）卻有最完整的 Phase 3 證據（L1）。TxGNN 分數反映知識圖譜拓撲相似性，不能直接作為臨床推薦依據。
+
+2. **L1 適應症的 Guardrail 核心**：WM 與 MZL 雖達 S3，但新加坡「未上市」狀態意味著需走本地 HSA 特殊審批或引用機制（Special Access Route），且需考量次世代 BTK 抑制劑（zanubrutinib）已具更佳安全性輪廓的競爭格局。
+
+3. **掛空的 MALT 淋巴瘤亞型**：多個 MALT 淋巴瘤部位亞型（甲狀腺、小腸、乳腺）評為 L5/L4，建議合併分析而非獨立推進，以「MALT 淋巴瘤（含各部位亞型）」作為一個籃式試驗（basket trial）設計更具可行性。

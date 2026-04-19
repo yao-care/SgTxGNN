@@ -1,0 +1,227 @@
+無需特定技能，直接進行藥物再利用證據分析。
+
+---
+
+## Aprotinin (DB06692) 藥物再利用證據分析
+
+**藥物背景說明：**
+Aprotinin 是牛胰臟來源的絲氨酸蛋白酶抑制劑（Kunitz 型 BPTI），主要抑制 Plasmin、Kallikrein、Trypsin。歷史適應症為心臟手術（CABG）中的抗纖維蛋白溶解/止血。2007–2008 年因 BART 試驗顯示增加死亡率、腎衰竭、卒中風險而在多數市場撤市，後於加拿大/部分歐洲恢復限制性核准。**此安全背景對所有新適應症評估具決定性影響。**
+
+---
+
+```json
+{
+  "drug": "Aprotinin",
+  "drugbank_id": "DB06692",
+  "safety_flag": "⚠️ 已因嚴重不良事件（死亡率上升、腎衰竭、心肌梗塞）撤市，任何新適應症均需優先考量風險收益比",
+  "indications": [
+    {
+      "disease_name": "primary release disorder of platelets",
+      "txgnn_score": 0.9271,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Aprotinin 透過抑制 Plasmin 保護血小板 GP Ib-IX 複合體免受降解，並抑制 Kallikrein 減少接觸活化誘導的血小板激活，可間接調節血小板顆粒釋放路徑。然而，原發性血小板釋放障礙（δ/α 顆粒分泌缺陷）的核心機轉與蛋白酶抑制並非直接因果關係，機轉連結屬間接推論。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01596738",
+          "title": "Tranexamic Acid in Patients Receiving Primary CABG With Premature Clopidogrel",
+          "relevance_grade": "C",
+          "reasoning": "測試藥物為 Tranexamic Acid（非 Aprotinin），研究情境為 CABG 術後出血（涉及血小板功能），與目標適應症有間接情境關聯，但無法作為 Aprotinin 用於血小板釋放障礙的直接證據。"
+        },
+        {
+          "nct_id": "NCT00724880",
+          "title": "Effect of Clopidogrel on Postoperative Bleeding in CABG Patients",
+          "relevance_grade": "C",
+          "reasoning": "測試藥物為 Clopidogrel（非 Aprotinin），研究情境相關但目標藥物不符。僅提供心臟手術中血小板功能干預的間接背景，不構成 Aprotinin 直接證據。"
+        }
+      ],
+      "literature_analysis": [],
+      "notes": "兩項試驗均測試非 Aprotinin 藥物，無直接臨床文獻支持。L4 評定源自 Aprotinin 已知藥理對血小板的保護效應（非本適應症直接試驗）。"
+    },
+    {
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn_score": 0.9249,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glanzmann 血小板無力症為 GP IIb/IIIa（αIIbβ3 整合素）缺乏/功能異常，核心為血小板聚集缺陷。Aprotinin 抑制 Plasmin/Kallikrein 可保護 GP Ib（不同受體），對 GP IIb/IIIa 缺陷無直接補救機轉。儘管歷史上偶有將 Aprotinin 用於 Glanzmann 患者手術止血管理的案例報告，本資料集中無任何支持性文獻或試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "現有資料集內證據為零。文獻中存在零散手術情境使用案例（未收錄），需進一步文獻補充才能重新評級。"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9150,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底動脈型偏頭痛（MBA）涉及後循環/腦幹特定先兆症狀，病理機轉包含皮質擴散性抑制及三叉神經血管激活。Kallikrein-Kinin 系統可能參與神經源性炎症，Aprotinin 抑制 Kallikrein 在理論上可減少 Bradykinin 生成，但此連結高度推測，且無任何支持性臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "純 TxGNN 預測，無任何臨床或前臨床佐證。"
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn_score": 0.9120,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pseudo-vWD（血小板型 vWD）為 GP Ibα 功能增益突變，導致 vWF 高分子量多聚體過度結合血小板。Aprotinin 抑制 Plasmin 可理論上保護 vWF 多聚體不被降解，間接維持 vWF 水平，但對 GP Ibα 突變的根本缺陷無直接作用。推測性連結，無臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "純 TxGNN 預測，血小板相關疾病集群評分偏高可能反映知識圖譜結構偏差。"
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9116,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Kallikrein-Kinin 系統在偏頭痛神經源性炎症中扮演角色：Kallikrein 催化 Bradykinin 生成 → 三叉神經末梢 CGRP 釋放 → 血管擴張與疼痛敏化。Aprotinin 抑制 Kallikrein 在理論上可中斷此路徑。然而，現有文獻（PMID 6181894）討論的是 Enkephalinase（Neprilysin，金屬蛋白酶）抑制，與 Aprotinin 作用的絲氨酸蛋白酶屬不同酶類，不能直接互證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6181894",
+          "title": "Enkephalinase inhibition relieves pain syndromes of central dysnociception (migraine and related headaches)",
+          "year": "1981",
+          "study_type": "Clinical observation/case series",
+          "tier": "3",
+          "relevance_assessment": "低度相關。研究主題為 Enkephalinase（Neprilysin）抑制對偏頭痛的療效，Enkephalinase 為金屬蛋白酶，非 Aprotinin 的抑制標靶（絲氨酸蛋白酶）。43 年前的觀察性研究，方法學標準遠低於現代 RCT 要求。"
+        }
+      ],
+      "notes": "L4 評定主要基於 Kallikrein-Kinin 路徑機轉推論，文獻本身支持力度不足，且藥物酶類不同。"
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9087,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道非症候群性畸形為先天性結構異常（如食道閉鎖、氣管食道瘻管），病因涉及胚胎發育基因程序，非蛋白酶失調。Aprotinin 的絲氨酸蛋白酶抑制機轉對先天性結構缺陷無合理治療連結。TxGNN 評分偏高可能為知識圖譜非特異性連結偽影。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無生物學合理性支持，建議排除。"
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.9029,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性凝血酶原缺乏症需要因子替代療法（FFP 或 PCC）。Aprotinin 抑制絲氨酸蛋白酶（包括 Thrombin 下游效應），無法補償凝血酶原本身的缺乏，機轉根本不匹配——抑制蛋白酶無法彌補凝血因子缺乏症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1780806",
+          "title": "Influence of anticoagulants used for blood collection on plasma prothrombin fragment F1+2 measurement",
+          "year": "1991",
+          "study_type": "Laboratory methodology",
+          "tier": "3",
+          "relevance_assessment": "無臨床相關性。本文為探討採血管中不同抗凝劑對 Prothrombin Fragment F1+2 測量值影響的實驗室方法學研究，僅因關鍵字（prothrombin）被收錄，與 Aprotinin 治療凝血酶原缺乏症無任何關聯。"
+        }
+      ],
+      "notes": "唯一文獻為方法學論文，無治療支持力。機轉矛盾，建議排除此適應症。"
+    },
+    {
+      "disease_name": "filariasis",
+      "txgnn_score": 0.8666,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "絲蟲（Onchocerca, Wuchereria bancrofti, Brugia spp.）依賴絲氨酸蛋白酶執行關鍵生物功能：蛻皮（molting）、消化宿主組織、逃避宿主免疫反應。Aprotinin 作為廣效絲氨酸蛋白酶抑制劑，在理論上可干擾寄生蟲蛋白酶功能，阻礙其發育存活。PMID 9491098 提供了此假說的直接前臨床支持（Onchocerca 模型）。此為所有候選適應症中最具生物合理性的機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9491098",
+          "title": "The effects of protease inhibitors and sugars on the survival and development of the parasite Onchocerca",
+          "year": "1997",
+          "study_type": "In vitro / Ex vivo preclinical",
+          "tier": "3",
+          "relevance_assessment": "中度相關。直接研究蛋白酶抑制劑對盤尾絲蟲（Onchocerca，絲蟲病病原體之一）存活與發育的影響，提供藥物類別層級的前臨床佐證。侷限：(1) 體外研究，系統生物利用率未知；(2) 未指定 Aprotinin 為特定測試化合物；(3) 發表距今 28 年，技術方法已過時。"
+        }
+      ],
+      "notes": "此適應症在所有候選中獨具前臨床生物合理性。建議可作為寄生蟲病研究問題，探索現代蛋白酶抑制劑設計（非 Aprotinin 本身）。Aprotinin 安全性問題（撤市原因）仍為主要障礙。"
+    },
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn_score": 0.8649,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嚴重非增殖性糖尿病視網膜病變的核心病理涉及微血管損傷、基底膜增厚、週細胞喪失及 VEGF 驅動的血管通透性增加，主要效應蛋白酶為基質金屬蛋白酶（MMPs）和 VEGF 路徑酶，非 Aprotinin 的靶標（絲氨酸蛋白酶）。Kallikrein-Kinin 系統確實參與糖尿病眼部血管通透性，但無數據支持此推論。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "純 TxGNN 預測，機轉連結薄弱。"
+    },
+    {
+      "disease_name": "esotropia",
+      "txgnn_score": 0.8560,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內斜視為眼外肌平衡失調所致（神經源性、屈光性或限制性），治療手段為屈光矯正、Botox 注射或手術。絲氨酸蛋白酶抑制與眼球對位異常無任何已知治療機轉。TxGNN 評分可能反映知識圖譜中眼部血管/炎症節點的非特異性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無生物學合理性，建議排除。"
+    }
+  ],
+  "overall_assessment": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 3,
+      "L5": 7
+    },
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "filariasis",
+        "rationale": "唯一具直接前臨床文獻支持（PMID 9491098）且機轉合理的適應症，可作為研究問題探索"
+      },
+      {
+        "rank": 2,
+        "disease": "primary release disorder of platelets",
+        "rationale": "具已知藥理機轉支持（血小板保護效應），L4 證據，但試驗非直接測試 Aprotinin"
+      },
+      {
+        "rank": 3,
+        "disease": "migraine disorder",
+        "rationale": "Kallikrein-Kinin 路徑提供機轉假說，但現有文獻相關性低"
+      }
+    ],
+    "critical_safety_considerations": [
+      "Aprotinin 因 BART 試驗顯示增加死亡率（RR ~1.47）、腎衰竭、心肌梗塞及卒中風險於 2007-2008 年在多數市場撤市",
+      "任何新適應症開發必須在 Phase 1 優先評估該人群的特定風險收益比",
+      "撤市藥物的再利用面臨監管審查強度顯著高於在市藥物",
+      "市場狀態「未上市」增加供應鏈與法規可行性障礙"
+    ]
+  }
+}
+```
+
+---
+
+### 評估摘要表
+
+| 適應症 | TxGNN | 證據等級 | 決策階段 | 建議 |
+|--------|-------|---------|---------|------|
+| **filariasis** | 0.867 | **L4** | S1 | ✅ Research Question |
+| primary release disorder of platelets | 0.927 | L4 | S1 | ⏸ Hold |
+| migraine disorder | 0.912 | L4 | S0 | ⏸ Hold |
+| Glanzmann thrombasthenia | 0.925 | L5 | S0 | ⏸ Hold |
+| migraine with brainstem aura | 0.915 | L5 | S0 | ⏸ Hold |
+| pseudo-von Willebrand disease | 0.912 | L5 | S0 | ⏸ Hold |
+| non-syndromic esophageal malformation | 0.909 | L5 | S0 | ❌ Hold |
+| congenital prothrombin deficiency | 0.903 | L5 | S0 | ❌ Hold |
+| severe nonproliferative diabetic retinopathy | 0.865 | L5 | S0 | ⏸ Hold |
+| esotropia | 0.856 | L5 | S0 | ❌ Hold |
+
+### 關鍵洞察
+
+1. **TxGNN 分數 ≠ 證據等級**：多個高分預測（>0.90）僅具 L5，顯示模型對絲氨酸蛋白酶靶點相關疾病存在系統性高估傾向（尤其出血/血小板疾病群集）
+
+2. **最佳機會：Filariasis（L4/S1）**：PMID 9491098 提供直接前臨床概念驗證，且絲蟲病存在巨大未滿足醫療需求，建議作為**研究問題**進一步文獻梳理
+
+3. **撤市安全問題是最大障礙**：即使找到有前景的適應症，Aprotinin 的再開發路徑需先解決安全性重新評估，建議考慮設計安全性更優的下一代 Kallikrein/Plasmin 選擇性抑制劑

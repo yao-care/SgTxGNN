@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB03793-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Benzoic acid",
+    "drugbank_id": "DB03793",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.9997846484184264,
+        "rank": 649
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11577798",
+            "title": "Repaglinide: a review of its therapeutic use in type 2 diabetes mellitus.",
+            "authors": [
+              "Culy C R",
+              "Jarvis B"
+            ],
+            "journal": "Drugs",
+            "year": "2001",
+            "abstract": "Repaglinide, a carbamoylmethyl benzoic acid derivative, is the first of a new class of oral antidiabetic agents designed to normalise postprandial glucose excursions in patients with type 2 diabetes mellitus. Like the sulphonylureas, repaglinide reduces blood glucose by stimulating insulin release from pancreatic beta-cells, but differs from these and other antidiabetic agents in its structure, binding profile, duration of action and mode of excretion. In clinical trials of up to 1-year's durati",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22180869",
+            "title": "Use of a soluble epoxide hydrolase inhibitor in smoke-induced chronic obstructive pulmonary disease.",
+            "authors": [
+              "Wang Lei",
+              "Yang Jun",
+              "Guo Lei",
+              "Uyeminami Dale",
+              "Dong Hua"
+            ],
+            "journal": "American journal of respiratory cell and molecular biology",
+            "year": "2012",
+            "abstract": "Tobacco smoke-induced chronic obstructive pulmonary disease (COPD) is a prolonged inflammatory condition of the lungs characterized by progressive and largely irreversible airflow limitation attributable to a number of pathologic mechanisms, including bronchitis, bronchiolitis, emphysema, mucus plugging, pulmonary hypertension, and small-airway obstruction. Soluble epoxide hydrolase inhibitors (sEHIs) demonstrated anti-inflammatory properties in a rat model after acute exposure to tobacco smoke.",
+            "classification": {
+              "study_type": "Animal/Preclinical",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "苯甲酸具有抗菌活性，對呼吸道病原菌（如Streptococcus、Haemophilus）可能有抑制作用；另有弱抗炎特性（NF-κB抑制）。然而尚無系統性呼吸道藥理研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9995848536491394,
+        "rank": 1014
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "苯甲酸具有活性羰基捕捉能力，可能抑制晚期糖化終產物（AGE）形成，而AGE在糖尿病視網膜病變中扮演重要角色。另有抗氧化特性可能保護視網膜微血管。此為純理論推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9984159469604492,
+        "rank": 2869
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24607487",
+            "title": "Posttranslational modification of mitochondrial transcription factor A in impaired mitochondria biogenesis: implications in diabetic retinopathy and metabolic memory phenomenon.",
+            "authors": [
+              "Santos Julia M",
+              "Mishra Manish",
+              "Kowluru Renu A"
+            ],
+            "journal": "Experimental eye research",
+            "year": "2014",
+            "abstract": "Mitochondrial transcription factor A (TFAM) is one of the key regulators of the transcription of mtDNA. In diabetes, despite increase in gene transcripts of TFAM, its protein levels in the mitochondria are decreased and mitochondria copy numbers become subnormal. The aim of this study is to investigate the mechanism(s) responsible for decreased mitochondrial TFAM in diabetes. Using retinal endothelial cells, we have investigated the effect of overexpression of cytosolic chaperone, Hsp70, and TFA",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37312852",
+            "title": "Design, Synthesis, and Structure-Activity Relationships of Biaryl Anilines as Subtype-Selective PPAR-alpha Agonists.",
+            "authors": [
+              "Lee Julia J",
+              "Hu Ziwei",
+              "Wang Yuhong Anna",
+              "Nath Dinesh",
+              "Liang Wentao"
+            ],
+            "journal": "ACS medicinal chemistry letters",
+            "year": "2023",
+            "abstract": "The role of peroxisome proliferator-activated receptor alpha (PPARα) in retinal biology is clarifying, and evidence demonstrates that novel PPARα agonists hold promising therapeutic utility for diseases like diabetic retinopathy and age-related macular degeneration. Herein, we disclose the design and initial structure-activity relationships for a new biaryl aniline PPARα agonistic chemotype. Notably, this series exhibits subtype selectivity for PPARα over other isoforms, a phenomenon postulated ",
+            "classification": {
+              "study_type": "Medicinal Chemistry",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10643211",
+            "title": "New directions in type 2 diabetes mellitus: an update of current oral antidiabetic therapy.",
+            "authors": [
+              "Brown D L",
+              "Brillon D"
+            ],
+            "journal": "Journal of the National Medical Association",
+            "year": "1999",
+            "abstract": "This article reviewed the relevant literature including published clinical trials and reviews on currently available oral hypoglycemic agents. Results showed that the benefits of glycemic control have been established through multiple clinical trials. Long-term control of blood glucose levels in type 1 and type 2 diabetic patients will decrease the incidence and prolong the time until progression of diabetic retinopathy, nephropathy, and neuropathy. Our increased understanding of the pathophysio",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20524146",
+            "title": "Intermittent high glucose enhances cell proliferation and VEGF expression in retinal endothelial cells: the role of mitochondrial reactive oxygen species.",
+            "authors": [
+              "Sun Jiazhong",
+              "Xu Yancheng",
+              "Sun Suxin",
+              "Sun Yanlei",
+              "Wang Xiang"
+            ],
+            "journal": "Molecular and cellular biochemistry",
+            "year": "2010",
+            "abstract": "Proliferation of human retinal endothelial cells (HRECs) is an important event in the development of diabetic retinopathy. Glucose fluctuations are strong predictor of diabetic vascular complications. In this study we have investigated the effect of intermittent high glucose on proliferation and expression of vascular endothelial growth factor (VEGF) in HRECs. The possible involvement of mitochondrial reactive oxygen species (ROS) was assessed. HRECs were incubated for 72 h in media containing d",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10487964",
+            "title": "Eales' disease: increased oxidation and peroxidation products of membrane constituents chiefly lipids and decreased antioxidant enzymes and reduced glutathione in vitreous.",
+            "authors": [
+              "Sulochana K N",
+              "Biswas J",
+              "Ramakrishnan S"
+            ],
+            "journal": "Current eye research",
+            "year": "1999",
+            "abstract": "To measure the levels of oxidation and peroxidation products of membrane constituents chiefly lipids produced by oxygen and lipid free radicals as thiobarbituric acid reacting substances (TBARS), reduced glutathione (GSH) and the antioxidant enzymes, superoxide dismutase (SOD) and glutathione peroxidase (GP) in vitreous samples from patients with Eales' disease and estimate GSH, SOD, GP in the erythrocytes of patients with Eales' disease with active perivasculitis and healed perivasculitis.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7506665",
+            "title": "Three novel synthetic retinoids, Re 80, Am 580 and Am 80, all exhibit anti-angiogenic activity in vivo.",
+            "authors": [
+              "Oikawa T",
+              "Okayasu I",
+              "Ashino H",
+              "Morita I",
+              "Murota S"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "1993",
+            "abstract": "In a previous study, we demonstrated that retinoic acid or a synthetic retinoid, Ch 55 ((E)-4-[3-(3,5-di-tert-butylphenyl)-3-oxo-1-propenyl]benzoic acid), significantly affects in vivo angiogenesis, on the basis of our working hypothesis that a cell differentiation modulator could also exhibit anti-angiogenic activity. In the present study, three novel synthetic retinoids, Re 80 (4-[1-hydroxy-3-oxo-3-(5,6,7,8-tetrahydro-3-hydroxy-5,5,8,8-tetramethyl- 2- naphthalenyl)-1-propenyl]benzoic acid), Am",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19668412",
+            "title": "Experimental effect of retinoic acids on apoptosis during the development of diabetic retinopathy.",
+            "authors": [
+              "Nishikiori Nami",
+              "Osanai Makoto",
+              "Chiba Hideki",
+              "Kojima Takashi",
+              "Inatomi Shuichiro"
+            ],
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2008",
+            "abstract": "This study was conducted to investigate whether retinoic acids (RAs) had any effect on apoptosis during the development of diabetic retinopathy.",
+            "classification": {
+              "study_type": "Animal/Preclinical",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與severe nonproliferative diabetic retinopathy相同推論：AGE抑制、抗氧化保護視網膜血管。惟7篇文獻均為背景研究，無苯甲酸直接介入證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "dry eye syndrome",
+      "txgnn": {
+        "score": 0.9979251623153688,
+        "rank": 3516
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6331966",
+            "title": "A controlled study of the exocrine pancreatic function in Sjögren's syndrome and rheumatoid arthritis.",
+            "authors": [
+              "Gobelet C",
+              "Gerster J C",
+              "Rappoport G",
+              "Hiroz C A",
+              "Maeder E"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "1983",
+            "abstract": "The exocrine pancreatic function has been estimated using the N-benzoyl-L-Tyrosyl para-amino-benzoic acid test (NBT PABA test) and by measuring the trypsinemia by radio-immunoassay (RIA trypsinemia) in nonselected cases of Sjögren's syndrome (SS) and seropositive rheumatoid arthritis (RA) in comparison with normal controls. The NBT PABA test was pathological in 37,5% of SS and 35% of RA patients but in none of the controls. The RIA trypsinemia was found to be high in 6,2% of SS and 45% of RA pat",
+            "classification": {
+              "study_type": "Controlled Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "苯甲酸抗炎特性可能對乾眼症（免疫介導的淚腺功能障礙）有理論效益，但機轉連結極弱且無文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "palmar fibromatosis",
+      "txgnn": {
+        "score": 0.9976834058761596,
+        "rank": 3805
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "掌側纖維瘤病（Dupuytren's contracture）為結締組織纖維化疾病。苯甲酸無已知抗纖維化機轉，與此疾病無文獻或臨床聯繫。KG預測可能基於鄰近節點的間接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Ledderhose disease",
+      "txgnn": {
+        "score": 0.9976078271865844,
+        "rank": 3899
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ledderhose disease（足底纖維瘤病）與palmar fibromatosis病理機轉相似（纖維母細胞增生、膠原異常）。苯甲酸無已知抗纖維化活性。TxGNN可能因疾病鄰近性（纖維瘤病家族）給出相似高分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "infantile digital fibromatosis",
+      "txgnn": {
+        "score": 0.9975875616073608,
+        "rank": 3927
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嬰兒指狀纖維瘤病（inclusion body fibromatosis）為罕見良性纖維瘤，病因不明。苯甲酸無相關機轉。三個纖維瘤病適應症（palmar、Ledderhose、infantile digital）的分數相近（0.9975-0.9977），強烈暗示KG節點群組效應而非真實生物學關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hereditary angioedema with C1Inh deficiency",
+      "txgnn": {
+        "score": 0.9972459077835084,
+        "rank": 4304
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "C1抑制劑缺乏性遺傳性血管性水腫（HAE）為補體系統調節疾病，主要影響激肽系統（Bradykinin pathway）。苯甲酸無已知補體調節或激肽系統抑制活性，機轉連結不明。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "posterior leukoencephalopathy syndrome",
+      "txgnn": {
+        "score": 0.9972398281097412,
+        "rank": 4314
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "後可逆性腦病綜合症（PRES）主要與高血壓、腎衰竭、免疫抑制劑相關，為腦血管自動調節失常所致。苯甲酸無已知腦血管保護或神經保護機轉（注意：苯丁酸鈉/Sodium phenylbutyrate為相關化合物，有神經保護研究，但不能混淆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "C1 inhibitor deficiency",
+      "txgnn": {
+        "score": 0.996855616569519,
+        "rank": 4749
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與HAE with C1Inh deficiency重疊（同為補體C1抑制劑缺乏相關疾病）。兩個適應症同時出現（PMID 0.9972 vs 0.9969）且分數相近，暗示KG中為同一疾病節點群組的不同分類節點，非獨立預測。苯甲酸無補體調節活性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "dry eye syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "dry eye syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "dry eye syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "palmar fibromatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "palmar fibromatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "palmar fibromatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "Ledderhose disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "Ledderhose disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "Ledderhose disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "infantile digital fibromatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "infantile digital fibromatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "infantile digital fibromatosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "hereditary angioedema with C1Inh deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "hereditary angioedema with C1Inh deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "hereditary angioedema with C1Inh deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "posterior leukoencephalopathy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "posterior leukoencephalopathy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "posterior leukoencephalopathy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzoic acid",
+        "disease": "C1 inhibitor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+## Abemaciclib 藥物再利用證據分析
+
+> ⚠️ **資料說明**：資料庫標註「未上市」及 MoA 為 [Data Gap]，但 Abemaciclib (Verzenio®) 實際上已獲 FDA/EMA 批准，為 **CDK4/6 抑制劑**，用於 HR+/HER2- 乳癌。以下分析基於此已知 MoA 進行評估。
+
+---
+
+```json
+{
+  "drug": "Abemaciclib",
+  "drugbank_id": "DB12001",
+  "actual_moa": "CDK4/6 抑制劑（細胞週期 G1/S 轉換阻斷）",
+  "analysis_date": "2026-04-03",
+  "indications": [
+    {
+      "disease_name": "rheumatoid arthritis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CDK4/6 抑制劑可抑制 T 細胞增殖及 IL-6/TNF-α 等促炎細胞因子分泌，與 RA 滑膜炎的 T 細胞驅動病理具理論關聯。然而唯一文獻（PMID 40504547）描述的是乳癌治療中 CDK4/6 抑制劑誘發免疫介導不良事件（含 RA 樣關節炎），屬反向安全訊號而非治療獲益。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40504547",
+          "study_type": "Retrospective/Pharmacovigilance",
+          "tier": "3",
+          "notes": "⚠️ 反向證據：描述 CDK4/6 抑制劑誘發免疫介導疾病（包括新發 RA）的不良反應監測，非治療性研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "hyperthyroidism",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "甲狀腺功能亢進的主要驅動機制（Graves 病之自身抗體、甲狀腺激素合成過量）與 CDK4/6 細胞週期調控路徑無直接治療交集。TxGNN 高分（0.9717）可能源於知識圖譜中甲狀腺增生節點的間接路徑傳播。無任何臨床或前臨床研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "MEN 相關腫瘤（MEN1：胰島細胞瘤、垂體瘤、副甲狀腺腺瘤；MEN2：甲狀腺髓樣癌）常伴隨 CDK4 過表現及 Rb 路徑失調。CDK4 在胰腺神經內分泌腫瘤（pNET）中為治療靶點。現有多個 Phase 1/2 試驗涵蓋 MEN 相關器官的腫瘤（胰臟、婦科），傘式研究（NCT03280563/NCT04802759）可能包含內分泌腫瘤亞組。無文獻直接針對 MEN。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03280563",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1b/2 多癌種傘式試驗（已完成，n=144），廣泛設計可能涵蓋 MEN 相關內分泌腫瘤亞組，具中度相關性"
+        },
+        {
+          "nct_id": "NCT04802759",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1b/2 傘式試驗（招募中，n=316），大型多亞組設計，MEN 相關神經內分泌腫瘤入組可能性中等"
+        },
+        {
+          "nct_id": "NCT06813079",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 胰臟癌精準治療研究（n=25），胰臟為 MEN1 最常見腫瘤部位，具直接病理機轉關聯"
+        },
+        {
+          "nct_id": "NCT03675893",
+          "relevance_grade": "C",
+          "reasoning": "RESOLVE 試驗針對子宮內膜癌及卵巢癌（n=180），非 MEN 標準受累器官"
+        },
+        {
+          "nct_id": "NCT02308020",
+          "relevance_grade": "C",
+          "reasoning": "HR+ 乳癌腦轉移研究，與 MEN 無直接解剖或遺傳關聯"
+        },
+        {
+          "nct_id": "NCT04158362",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 化療比較試驗，未針對內分泌腫瘤"
+        },
+        {
+          "nct_id": "NCT05362760",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 現實世界乳癌研究，與 MEN 無直接關聯"
+        },
+        {
+          "nct_id": "NCT05501704",
+          "relevance_grade": "C",
+          "reasoning": "ETHAN 試驗針對男性乳癌，與 MEN 相關性低"
+        },
+        {
+          "nct_id": "NCT04791384",
+          "relevance_grade": "C",
+          "reasoning": "腦轉移 Phase 1/2 研究，與 MEN 無關"
+        },
+        {
+          "nct_id": "NCT06630325",
+          "relevance_grade": "C",
+          "reasoning": "SMMART 廣泛適應性試驗，MEN 特異性極低"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "THRβ 突變導致的甲狀腺激素抵抗為核受體信號缺損，與 CDK4/6 細胞週期調控路徑無治療關聯。此罕見疾病的病理機轉不在 CDK4/6 抑制劑的合理應用範疇。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "homozygous familial hypercholesterolemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同型合子家族性高膽固醇血症由 LDLR 功能喪失突變或 PCSK9/ApoB 異常驅動，屬脂質代謝遺傳疾病。CDK4/6 抑制劑對 LDL 受體表現或膽固醇合成路徑無已知調控作用。TxGNN 預測可能為知識圖譜中細胞增殖節點的遠距傳播效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "heart disease",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全警示：現有 12 篇文獻及 9 項試驗的心臟相關證據，均指向 Abemaciclib 的心臟毒性風險（QTc 延長、心肌損傷），而非治療心臟疾病的獲益。薈萃分析（PMID 39254653、41422771）確認 CDK4/6 抑制劑增加主要心血管不良事件風險。雖然 CDK4/6 在心肌細胞再生中有理論角色，但現有臨床證據方向相反，應視為禁忌訊號。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03697577",
+          "relevance_grade": "B",
+          "reasoning": "評估 CDK4/6 抑制劑對體組成及心臟代謝指標的影響（安全監測性研究），確認心臟代謝效應，但屬毒性評估而非治療"
+        },
+        {
+          "nct_id": "NCT04941274",
+          "relevance_grade": "C",
+          "reasoning": "Kaposi 肉瘤 Phase 1/2，心臟監測為次要安全指標"
+        },
+        {
+          "nct_id": "NCT06630325",
+          "relevance_grade": "C",
+          "reasoning": "SMMART 廣泛腫瘤試驗，心臟相關性低"
+        },
+        {
+          "nct_id": "NCT05413304",
+          "relevance_grade": "C",
+          "reasoning": "膠質瘤藥動學研究，心臟相關性極低"
+        },
+        {
+          "nct_id": "NCT03939897",
+          "relevance_grade": "C",
+          "reasoning": "乳癌聯合治療研究，心臟為安全監測項目"
+        },
+        {
+          "nct_id": "NCT04750928",
+          "relevance_grade": "C",
+          "reasoning": "神經纖維瘤病研究，心臟相關性低"
+        },
+        {
+          "nct_id": "NCT07002177",
+          "relevance_grade": "C",
+          "reasoning": "多靶點聯合研究，心臟相關性低"
+        },
+        {
+          "nct_id": "NCT02523014",
+          "relevance_grade": "C",
+          "reasoning": "腦膜瘤 CDK/SMO/AKT 抑制劑試驗，心臟相關性低"
+        },
+        {
+          "nct_id": "NCT06570031",
+          "relevance_grade": "C",
+          "reasoning": "一線內分泌治療聯合研究，心臟為安全監測"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39254653",
+          "study_type": "Systematic Review/Meta-analysis of RCTs",
+          "tier": "1",
+          "notes": "⚠️ 確認 CDK4/6 抑制劑增加 QTc 延長風險，為高品質安全警示證據"
+        },
+        {
+          "pmid": "41422771",
+          "study_type": "Systematic Review/Meta-analysis",
+          "tier": "1",
+          "notes": "⚠️ 確認 CDK4/6 抑制劑與主要心血管不良事件（MACE）風險增加相關"
+        },
+        {
+          "pmid": "41602789",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "強調既存心血管共病患者使用 CDK4/6 抑制劑需謹慎評估，支持 Hold 建議"
+        },
+        {
+          "pmid": "41496429",
+          "study_type": "Disproportionality Analysis",
+          "tier": "2",
+          "notes": "老年患者心臟毒性風險不成比例地更高，強化安全疑慮"
+        },
+        {
+          "pmid": "36164682",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "notes": "⚠️ 直接確認 Abemaciclib 誘發心臟損傷（curcumin 保護效果研究）"
+        },
+        {
+          "pmid": "40116800",
+          "study_type": "Retrospective/Pharmacovigilance (FAERS)",
+          "tier": "2",
+          "notes": "FDA 不良反應資料庫分析確認多系統毒性，包含心臟影響"
+        },
+        {
+          "pmid": "33477469",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "notes": "HR+/HER2- 乳癌患者的心臟安全監測研究"
+        },
+        {
+          "pmid": "37343080",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "notes": "Ruxolitinib 的心臟保護效果研究，Abemaciclib 相關性為間接"
+        },
+        {
+          "pmid": "37129951",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "notes": "ACAA1 抑制增強 CDK4/6 抑制劑療效的機轉研究，非心臟病治療"
+        },
+        {
+          "pmid": "41527715",
+          "study_type": "Biomarker Analysis",
+          "tier": "2",
+          "notes": "頭頸癌 Abemaciclib 生物標誌探索，心臟相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "Laubry-Pezzi syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Laubry-Pezzi 症候群（室間隔缺損合併主動脈瓣關閉不全）為先天性結構性心臟缺損，由胚胎發育異常造成，不涉及 CDK4/6 調控的增殖性或炎症性病理機轉。無任何相關研究存在。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pierre Robin 症候群為胚胎期下頷骨發育不全導致的先天性顱顏異常，染色體異常相關型涉及基因劑量失衡。CDK4/6 抑制劑作用於增殖性腫瘤細胞的細胞週期，與先天性發育缺損的病理機轉無治療關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Jeune syndrome situs inversus",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Jeune 症候群（窒息性胸廓發育不全）合併內臟轉位為纖毛功能異常（ciliopathy）所致的先天性骨骼發育不良，病理機轉涉及 IFT 基因突變影響纖毛組裝，與 CDK4/6 細胞週期調控路徑無治療相關性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amyotrophic lateral sclerosis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "TDP-43 蛋白質異常聚集是 ALS 核心病理標誌（>97% 患者）。Abemaciclib 的潛在 ALS 機轉包含三個路徑：(1) 直接證據：通過加速自噬流量（autophagy flux）清除 TDP-43 聚集體（PMID 38596406）；(2) CDK4/6 抑制減少神經炎症及小膠質細胞活化；(3) 抑制神經元異常重入細胞週期（aberrant cell cycle re-entry），防止 G1/S 轉換誘發的神經元死亡。其中自噬加速路徑有直接前臨床數據支持，是目前最有力的再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38596406",
+          "study_type": "Preclinical Study (In vitro + In vivo)",
+          "tier": "3",
+          "notes": "★ 關鍵研究：直接證明 Abemaciclib 通過加速自噬流量減少 TDP-43 聚集體積累，為 ALS 再利用假說提供最直接的前臨床機轉證據（2024年）"
+        },
+        {
+          "pmid": "35865348",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "notes": "P97/VCP ATPase 抑制劑拯救運動神經元退化的研究，與 Abemaciclib 的關聯為間接的蛋白質降解質量控制路徑（2022年）"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合評估摘要表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|----------|----------|------|----------|
+| **ALS** | L4 | S1 | 🔬 Research Question | 直接前臨床機轉（TDP-43 自噬清除）|
+| **Multiple Endocrine Neoplasia** | L3 | S2 | 🔬 Research Question | Phase 1/2 試驗涵蓋相關腫瘤（胰腺/傘式）|
+| **Rheumatoid Arthritis** | L4 | S1 | 🔬 Research Question | 免疫調節機轉合理，但現有文獻為反向安全訊號 |
+| **Heart Disease** | L4 | S0 | 🛑 **Hold（安全疑慮）** | 多項薈萃分析確認心臟毒性，QTc 延長 |
+| **Hyperthyroidism** | L5 | S0 | 🛑 Hold | 無任何臨床/前臨床證據 |
+| **THRβ 突變抵抗** | L5 | S0 | 🛑 Hold | 病理機轉不相容 |
+| **同型合子 FH** | L5 | S0 | 🛑 Hold | 無機轉關聯，純預測 |
+| **Laubry-Pezzi** | L5 | S0 | 🛑 Hold | 先天性結構缺損，不適用 |
+| **Pierre Robin** | L5 | S0 | 🛑 Hold | 先天性染色體發育異常 |
+| **Jeune + SI** | L5 | S0 | 🛑 Hold | 纖毛病變，不適用 |
+
+---
+
+## 🔍 分析師備註
+
+### 重要發現
+1. **ALS 為最具潛力的再利用方向**：PMID 38596406 提供 Abemaciclib 直接減少 TDP-43 聚集的前臨床證據，是本次分析中**機轉最直接**的適應症，建議優先評估進入 Phase 1 安全性試驗的可行性。
+
+2. **Heart Disease 為假陽性警示**：TxGNN 高分（0.963）配合大量文獻，但所有證據均指向**心臟毒性**而非治療潛力。這是典型的知識圖譜路徑誤判，應在模型校正中標記。
+
+3. **MEN 具中期開發潛力**：CDK4 在 pNET 等 MEN1 相關腫瘤中有既有文獻支持，建議審閱傘式試驗（NCT03280563）是否有內分泌腫瘤亞組資料。
+
+4. **6 個適應症屬 L5 純預測**：Laubry-Pezzi、Pierre Robin、Jeune、THRβ 抵抗、HoFH 及 Hyperthyroidism 均為先天性或非增殖性疾病，與 CDK4/6 抑制劑機轉根本不相容，建議在 TxGNN 模型中加入「疾病類型過濾器」以排除先天性結構異常。

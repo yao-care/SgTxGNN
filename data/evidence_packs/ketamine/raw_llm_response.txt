@@ -1,0 +1,666 @@
+## Ketamine (DB01221) 藥物再利用證據分析
+
+根據提供的臨床試驗與文獻資料，以下為各適應症的詳細評估結果：
+
+```json
+{
+  "drug": "Ketamine",
+  "drugbank_id": "DB01221",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Ketamine 本身已作為麻醉劑上市；此處評估均為 off-label 再利用適應症。其立體異構物 Esketamine (Spravato) 已獲 FDA 核准用於難治性憂鬱症，部分安全性資料可互相參考。",
+  "indications": [
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9933,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ketamine 為強效 NMDA 受體拮抗劑，可抑制皮質擴散性去極化（CSD）並阻斷三叉神經傷害性信號的中樞敏化。對難治性頭痛，NMDA 受體拮抗作用可中斷疼痛中樞敏化循環；多項臨床研究已支持靜脈輸注與鼻內給藥路徑的療效，且 Phase 3 RCT 正在進行中。",
+      "guardrails": [
+        "僅限難治性/頑固性頭痛（標準治療失敗）",
+        "需在疼痛專科或神經科監督下使用",
+        "監測解離副作用與成癮風險",
+        "排除精神病史患者"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05306899",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心 RCT，直接評估 IV Ketamine 治療慢性頭痛之效果與安全性，正在招募中（n=56），為當前最高等級直接證據"
+        },
+        {
+          "nct_id": "NCT02697071",
+          "relevance_grade": "A",
+          "reasoning": "已完成的隨機安慰劑對照試驗，直接評估亞解離劑量 Ketamine 治療急性偏頭痛（n=34），提供 Phase 2 等級直接證據"
+        },
+        {
+          "nct_id": "NCT04814381",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，評估 Ketamine 合併硫酸鎂輸注治療難治性頭痛（含叢集性），正在招募（n=90），直接相關"
+        },
+        {
+          "nct_id": "NCT04179266",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 概念驗證試驗，鼻內 Ketamine 噴劑治療慢性頭痛，已完成（n=23），提供替代給藥路徑的初步可行性"
+        },
+        {
+          "nct_id": "NCT06968624",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，IV Ketamine 用於帶狀疱疹後神經痛合併憂鬱症，疼痛機轉相關但非純頭痛適應症"
+        },
+        {
+          "nct_id": "NCT06508710",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 抗憂鬱研究（Ketamine + Venlafaxine），非頭痛直接適應症"
+        },
+        {
+          "nct_id": "NCT04643132",
+          "relevance_grade": "C",
+          "reasoning": "S-Ketamine 用於術後疼痛與認知功能障礙研究，非頭痛直接適應症"
+        },
+        {
+          "nct_id": "NCT03921567",
+          "relevance_grade": "C",
+          "reasoning": "IV Lidocaine 為主的術周鎮痛研究，Ketamine 非主要研究藥物"
+        },
+        {
+          "nct_id": "NCT02587130",
+          "relevance_grade": "C",
+          "reasoning": "皮下 Ketamine 用於褥瘡疼痛，非頭痛適應症且已提前終止（n=8）"
+        },
+        {
+          "nct_id": "NCT05064592",
+          "relevance_grade": "C",
+          "reasoning": "小兒 ICU 長期鎮靜回顧性研究，非頭痛適應症"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35356451",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "IV Lidocaine 與 Ketamine 治療頭痛疾患之回顧性世代研究，直接相關，提供真實世界療效資料"
+        },
+        {
+          "pmid": "34919214",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "叢集性頭痛藥物治療全面性回顧，涵蓋 Ketamine 難治性病例使用"
+        },
+        {
+          "pmid": "38870050",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "三叉神經痛藥物治療最新更新回顧，NMDA 拮抗機轉相關"
+        },
+        {
+          "pmid": "32410204",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "兒童及青少年急診頭痛處理回顧，Ketamine 作為急救選項"
+        },
+        {
+          "pmid": "37421541",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "複雜性局部疼痛症候群治療進展，NMDA 拮抗機轉支持"
+        },
+        {
+          "pmid": "35416105",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Ketamine/Esketamine 長期安全性評估，重要安全性參考資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9898,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "叢集性頭痛（TAC 主要亞型）涉及三叉神經-自主神經反射弧的過度活化及下丘腦發作起源。Ketamine 透過 NMDA 受體拮抗抑制三叉神經尾端核的傷害性信號，並可能調節下丘腦過度興奮。鼻內給藥路徑（直接黏膜吸收）為急性發作提供快速起效選項，已有開放標籤試驗支持概念。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04814381",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，Ketamine 合併硫酸鎂治療難治性頭痛（涵蓋 TAC），正在招募（n=90）"
+        },
+        {
+          "nct_id": "NCT04179266",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2 已完成，鼻內 Ketamine 治療慢性頭痛（包含叢集性），提供初步安全性與療效資料（n=23）"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34806165",
+          "study_type": "Open-label Trial",
+          "tier": "2",
+          "note": "鼻內 Ketamine 治療急性叢集性頭痛發作之開放標籤概念驗證研究，為最直接的臨床試驗證據"
+        },
+        {
+          "pmid": "33128280",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "Ketamine-Magnesium 治療難治性慢性叢集性頭痛之病例系列"
+        },
+        {
+          "pmid": "28670718",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Ketamine 靜脈輸注合併 Magnesium 治療難治性慢性叢集性頭痛早期病例報告"
+        },
+        {
+          "pmid": "34919214",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "叢集性頭痛藥物治療全面回顧，Ketamine 列為難治性選項"
+        },
+        {
+          "pmid": "36310189",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "note": "難治性慢性叢集性頭痛預防治療系統性回顧與統合分析"
+        },
+        {
+          "pmid": "33290608",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "叢集性頭痛藥理治療現況與未來展望"
+        },
+        {
+          "pmid": "35156202",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "叢集性頭痛鼻內治療方法回顧，含 Ketamine 選項"
+        },
+        {
+          "pmid": "35294048",
+          "study_type": "Commentary",
+          "tier": "2",
+          "note": "叢集性頭痛鼻內治療評論回應"
+        }
+      ]
+    },
+    {
+      "disease_name": "common cold",
+      "txgnn_score": 0.9898,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理藥理機轉支持 Ketamine 治療普通感冒。Ketamine 為 NMDA 受體拮抗劑與解離性麻醉劑，對病毒性上呼吸道感染無已知抗病毒或症狀緩解機轉。此高 TxGNN 分數（0.9898）可能反映知識圖譜中透過『疼痛/炎症信號路徑』產生的間接節點連結（假陽性）。提供的所有試驗與文獻均與普通感冒無關。",
+      "flag": "⚠️ TxGNN 假陽性警示：高分數可能源於圖譜路徑間接連結，而非真實藥物-疾病關聯",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03041506",
+          "relevance_grade": "C",
+          "reasoning": "超音波引導肩關節脫位復位程序鎮靜研究，與普通感冒完全無關，Ketamine 僅作為程序鎮靜劑"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38993656",
+          "study_type": "Reference Book",
+          "tier": "3",
+          "note": "精神藥理劑量與監測手冊，非普通感冒相關文獻"
+        },
+        {
+          "pmid": "40483480",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "冬季運動傷害院前鎮痛使用 Ketamine 的劑量依賴性副作用研究，非普通感冒"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9865,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "偏頭痛涉及谷氨酸能 NMDA 受體過度活化及皮質擴散性去極化（CSD）。Ketamine 作為強效 NMDA 拮抗劑可：(1) 直接抑制 CSD 傳播；(2) 阻斷三叉神經傷害性信號的中樞敏化；(3) 對難治性偏頭痛發揮「中樞脫敏」作用。谷氨酸受體已被確認為偏頭痛藥物靶點，2025 年 ACEP 急診偏頭痛治療指南已將 Ketamine 納入考量。",
+      "guardrails": [
+        "建議限於難治性或頻繁性慢性偏頭痛（標準預防性與急性期治療無效後）",
+        "Phase 3 結果尚未完成，建議在研究框架或專科中心使用",
+        "急診應用需考量次解離劑量範圍（0.1-0.3 mg/kg IV）",
+        "監測解離症狀、血壓升高及濫用潛力"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02697071",
+          "relevance_grade": "A",
+          "reasoning": "已完成的隨機安慰劑對照試驗，直接評估次解離劑量 Ketamine 治療急性偏頭痛（n=34），提供最直接的完成 RCT 證據"
+        },
+        {
+          "nct_id": "NCT05306899",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心 RCT，IV Ketamine 治療慢性偏頭痛，正在招募（n=56），一旦完成可提供 L1 等級證據"
+        },
+        {
+          "nct_id": "NCT04179266",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2 已完成，鼻內 Ketamine 治療慢性偏頭痛，提供替代給藥路徑初步證據（n=23）"
+        },
+        {
+          "nct_id": "NCT06608277",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 多中心 RCT，比較 Ketamine 與其他介入，正在招募（n=175），將提供比較效果資料"
+        },
+        {
+          "nct_id": "NCT04860713",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 完成，口服 Ketamine + Aspirin vs Rimegepant 比較，但 n=5 樣本過小，僅為探索性"
+        },
+        {
+          "nct_id": "NCT02735343",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 Compazine vs Ketamine 急性偏頭痛 RCT，因提前終止（n=5）無法提供有效結論"
+        },
+        {
+          "nct_id": "NCT06935552",
+          "relevance_grade": "B",
+          "reasoning": "Ketamine 和 Lidocaine 輸注治療難治性慢性偏頭痛比較研究，尚未開始招募"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36869904",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "NMDA 受體拮抗劑（Memantine 和 Ketamine）作為抗偏頭痛藥物的機轉與臨床系統性回顧，直接相關"
+        },
+        {
+          "pmid": "34894295",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "難治性慢性偏頭痛治療全面性回顧（Beyond Raskin Protocol），Ketamine 為核心選項"
+        },
+        {
+          "pmid": "41321235",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "note": "2025 ACEP 成人急診急性偏頭痛治療指南更新，Ketamine 已被納入考量，為最高臨床認可級別"
+        },
+        {
+          "pmid": "33610431",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "皮質擴散性去極化與 Ketamine 系統性回顧，機轉支持強"
+        },
+        {
+          "pmid": "32358422",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "急診 Ketamine 治療偏頭痛的回顧，涵蓋臨床效果與安全性"
+        },
+        {
+          "pmid": "34125442",
+          "study_type": "Observational / Pilot",
+          "tier": "2",
+          "note": "難治性慢性偏頭痛 Ketamine 治療觀察性試驗及代謝物分析"
+        },
+        {
+          "pmid": "29508147",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "谷氨酸受體作為偏頭痛治療靶點，提供機轉基礎"
+        },
+        {
+          "pmid": "37806714",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "偏頭痛與難治性憂鬱症共病，Ketamine 同時處理兩者的潛力"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9846,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腦幹型偏頭痛先兆（原稱基底型偏頭痛）涉及腦幹/皮質擴散性去極化（CSD）及離子通道功能異常。Ketamine 作為 NMDA 受體拮抗劑可直接阻斷 CSD 的傳播速度和幅度；家族性偏癱型偏頭痛（FHM，共享部分腦幹先兆機轉）早期研究（2000年）顯示鼻內 Ketamine 可中止先兆，且一項 RCT（2013年，n=18）直接針對延長型先兆偏頭痛，提供概念驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23365053",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "隨機對照試驗，鼻內 Ketamine 治療延長型先兆偏頭痛（n=18），2013年，為本適應症最高等級直接臨床證據"
+        },
+        {
+          "pmid": "10891926",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "FHM 患者鼻內 Ketamine 中止先兆之早期病例報告，概念驗證起點"
+        },
+        {
+          "pmid": "36869904",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "NMDA 拮抗劑抗偏頭痛機轉回顧，涵蓋先兆型偏頭痛機轉"
+        },
+        {
+          "pmid": "33610431",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "CSD 與 Ketamine 系統性回顧，直接支持先兆型偏頭痛治療機轉"
+        },
+        {
+          "pmid": "25366616",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "擴散性去極化的藥理調控，Ketamine 為重要研究藥物"
+        },
+        {
+          "pmid": "37383673",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "Ketamine 治療顱顏面疼痛系統性效益回顧"
+        },
+        {
+          "pmid": "29143861",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "延長型先兆偏頭痛的表型與治療策略，提供臨床背景"
+        },
+        {
+          "pmid": "40062461",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "無梗塞之持續先兆回顧（2025），提供當前臨床管理框架"
+        }
+      ]
+    },
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn_score": 0.9838,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADHD 與前額葉 NMDA 受體功能異常有間接理論連結，但此機轉為高度推測性。Ketamine 在 ADHD 的臨床應用無任何直接試驗支持。更重要的是，Ketamine 的解離效應、成癮風險及認知副作用，在 ADHD（與物質使用障礙高共病率）族群中存在顯著安全疑慮，形成明確的安全性障礙。",
+      "safety_concern": "ADHD 患者物質使用障礙風險高（共病率 ~20-40%），Ketamine 成癮潛力構成重大安全疑慮",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01246765",
+          "relevance_grade": "C",
+          "reasoning": "精神科藥物妊娠安全登記研究，非 Ketamine 治療 ADHD 的直接試驗"
+        },
+        {
+          "nct_id": "NCT05930912",
+          "relevance_grade": "C",
+          "reasoning": "ASD 精神分析治療研究（n=1），非 ADHD 且非 Ketamine 相關介入"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26718589",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "ADHD 與異常 NMDA 受體系統的理論回顧，提供間接機轉連結，但無臨床試驗支持，等級最相關"
+        },
+        {
+          "pmid": "37742528",
+          "study_type": "Epidemiological Study",
+          "tier": "2",
+          "note": "ADHD 症狀與精神活性物質（含 Ketamine）終生使用關聯，反映安全性顧慮而非治療潛力"
+        },
+        {
+          "pmid": "36094064",
+          "study_type": "Animal Study / Review",
+          "tier": "3",
+          "note": "Ketamine 作為精神分裂症記憶缺損研究模型，非 ADHD 治療用途"
+        }
+      ]
+    },
+    {
+      "disease_name": "Tourette syndrome",
+      "txgnn_score": 0.9817,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Tourette 症候群主要涉及基底核-皮質-丘腦迴路中多巴胺能過度活化。雖然谷氨酸能 NMDA 受體在此迴路中有調節作用，但 Ketamine 對 Tourette 的直接治療機轉缺乏理論支持。現有文獻主要涉及前脈衝抑制（PPI）動物模型作為精神病理研究工具，與 Tourette 的臨床治療關聯極為間接，可視為 TxGNN 網路中的圖譜雜訊。",
+      "flag": "⚠️ TxGNN 假陽性警示：文獻連結為 Ketamine 作為 PPI 實驗模型工具，非 Tourette 治療相關",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11549226",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "健康受試者與患者群的前脈衝抑制研究，Ketamine 作為研究工具使用，非 Tourette 治療文獻"
+        },
+        {
+          "pmid": "22844330",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "植物萃取物在動物超活動/PPI 模型中的研究，非 Ketamine 直接相關"
+        },
+        {
+          "pmid": "16123308",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "情緒穩定劑在 PPI 嚙齒動物模型研究，Ketamine 作為模型誘導劑而非治療劑"
+        }
+      ]
+    },
+    {
+      "disease_name": "myofascial pain syndrome",
+      "txgnn_score": 0.9784,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肌筋膜疼痛症候群（MPS）涉及周邊和中樞 NMDA 受體介導的敏化機制。Ketamine 作為 NMDA 受體拮抗劑可：(1) 阻斷觸發點（trigger point）周邊的傷害性傳導；(2) 逆轉脊髓後角的中樞敏化（wind-up）；(3) 對纖維肌痛症（MPS 密切相關疾患）的多項研究顯示療效。PMID 18548841 直接證明周邊 NMDA 拮抗可緩解顳下頜關節的 MPS。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06131970",
+          "relevance_grade": "B",
+          "reasoning": "已完成試驗，連續 Ketamine 輸注合併硫酸鎂治療疼痛管理（n=80），相關慢性疼痛適應症"
+        },
+        {
+          "nct_id": "NCT04123652",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 門診觀察性研究，Lidocaine 和 Ketamine 輸注治療慢性疼痛（n=162），涵蓋 MPS 相關疼痛表型"
+        },
+        {
+          "nct_id": "NCT06184958",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，IV Ketamine vs Lidocaine 治療纖維肌痛症（MPS 高度相關疾患），狀態不明"
+        },
+        {
+          "nct_id": "NCT04436250",
+          "relevance_grade": "B",
+          "reasoning": "S-Ketamine IV 輸注治療纖維肌痛症探索性研究，已終止（n=23），提供部分安全性資料"
+        },
+        {
+          "nct_id": "NCT04938713",
+          "relevance_grade": "B",
+          "reasoning": "Ketamine vs Esketamine 治療纖維肌痛症門診比較研究（n=50），相關疾患比較資料"
+        },
+        {
+          "nct_id": "NCT06419439",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，Ketamine 輔助整合治療退伍軍人慢性下背痛合併憂鬱症，疼痛機轉相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "18548841",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "周邊 NMDA 受體阻斷（Ketamine）治療顳下頜關節肌筋膜疼痛之直接臨床研究，為本適應症最相關文獻"
+        },
+        {
+          "pmid": "9567202",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "纖維肌痛、慢性疲勞症候群與肌筋膜疼痛的整合回顧，提供疾病譜系背景"
+        },
+        {
+          "pmid": "11224736",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "纖維肌痛、CFS 與肌筋膜疼痛系列回顧更新"
+        },
+        {
+          "pmid": "40582925",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "纖維肌痛病理生理、診斷生物標記與治療最新進展（2025），NMDA 機轉相關"
+        },
+        {
+          "pmid": "33534003",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "慢性疼痛局部止痛藥全面回顧，含 Ketamine 局部/系統性使用"
+        }
+      ]
+    },
+    {
+      "disease_name": "trichotillomania",
+      "txgnn_score": 0.9764,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "拔毛癖（trichotillomania）屬強迫症頻譜障礙（OCD-spectrum），谷氨酸能功能障礙已被提出為 OCD 頻譜的共同病理機轉。Ketamine 對 OCD 有一項小型 Phase 2 試驗（n=10），屬相鄰間接證據。然而，拔毛癖通常以行為療法（HRT）為首選，且 Ketamine 的成癮風險在需長期維持治療的強迫衝動障礙中存在顯著疑慮。建議先等待 OCD 試驗的正式結果再評估擴展。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01349231",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 Ketamine 輸注治療強迫症（OCD）試驗，已完成（n=10）。拔毛癖屬 OCD 頻譜但非直接適應症，結果可作為相鄰間接證據，尚不足以支持拔毛癖的直接推進"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "psychotic disorder",
+      "txgnn_score": 0.9747,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 重要安全警示：Ketamine 作為 NMDA 受體拮抗劑，本身即為精神病症狀的已知誘導劑。「Ketamine challenge model」被廣泛用於健康志願者誘發精神病症狀以研究精神分裂症，這意味著 Ketamine 可能惡化現有精神病患者的症狀。提供的臨床試驗中，Phase 1 研究（NCT01101659, NCT00700076）均以 Ketamine 作為精神病誘導工具測試其他藥物，而非以 Ketamine 治療精神病。現有系統性回顧明確將精神病列為 Ketamine 使用的主要禁忌症之一。",
+      "safety_concern": "🚫 禁忌症警示：精神病史是 Ketamine（及 Esketamine）臨床使用的主要排除標準。此適應症應列為安全性禁忌考量，而非藥物再利用方向。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01101659",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，以 Ketamine 誘導精神病症狀並測試 JNJ-40411813 的對抗作用，Ketamine 作為精神病模型誘導劑，非治療劑，方向相反"
+        },
+        {
+          "nct_id": "NCT00700076",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，ORG 25935 調節 Ketamine 誘發行為和認知效應，Ketamine 仍作為模型工具"
+        },
+        {
+          "nct_id": "NCT03829124",
+          "relevance_grade": "C",
+          "reasoning": "精神分裂症患者電痙攣治療的麻醉比較（Propofol vs Ketamine），非 Ketamine 治療精神病的研究"
+        },
+        {
+          "nct_id": "NCT03053830",
+          "relevance_grade": "C",
+          "reasoning": "退伍軍人重鬱症使用 Ketamine 的開放標籤研究，精神病為排除標準而非治療目標"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31922684",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "精神分裂症中多巴胺和谷氨酸生物學，Ketamine 作為研究模型工具，強調 NMDA 低活化誘發精神病，提示反適應症"
+        },
+        {
+          "pmid": "33726522",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "Ketamine/Esketamine 治療難治性憂鬱症國際共識，精神病列為主要禁忌症，反向佐證"
+        },
+        {
+          "pmid": "40967562",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "大鼠模型顯示長期 Ketamine 可能誘發認知和精神病效應，安全性負向資料"
+        },
+        {
+          "pmid": "33795430",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "紋狀體多巴胺介導幻覺樣感知的動物研究，與 Ketamine 精神病機轉相關"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "high_priority": [
+      {
+        "indication": "migraine disorder",
+        "rationale": "L2 證據 + S3 決策階段 + 2025 ACEP 指南納入 + Phase 3 進行中"
+      },
+      {
+        "indication": "headache disorder",
+        "rationale": "L2 證據 + S2 決策階段 + Phase 3 RCT 進行中 + 多項已完成試驗"
+      }
+    ],
+    "moderate_priority": [
+      {
+        "indication": "trigeminal autonomic cephalalgia",
+        "rationale": "L3 + 開放標籤試驗 + 系統性回顧支持，需更大型 RCT"
+      },
+      {
+        "indication": "migraine with brainstem aura",
+        "rationale": "L3 + 有一項 RCT（2013）+ 強機轉支持，需重複驗證"
+      },
+      {
+        "indication": "myofascial pain syndrome",
+        "rationale": "L3 + 觀察性研究 + 直接機轉，需標準化 RCT"
+      }
+    ],
+    "hold_or_deprioritize": [
+      {
+        "indication": "psychotic disorder",
+        "reason": "已知 Ketamine 誘發精神病症狀，為臨床禁忌"
+      },
+      {
+        "indication": "common cold",
+        "reason": "TxGNN 假陽性，無任何合理機轉或相關臨床證據"
+      },
+      {
+        "indication": "Tourette syndrome",
+        "reason": "無臨床試驗，文獻均為間接動物模型"
+      },
+      {
+        "indication": "attention deficit-hyperactivity disorder",
+        "reason": "無直接試驗，且安全性禁忌（成癮風險 × 高共病率）"
+      },
+      {
+        "indication": "trichotillomania",
+        "reason": "L4 間接相鄰證據，需等待 OCD 試驗結果"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 關鍵分析摘要
+
+### 證據等級分布
+
+| 適應症 | 等級 | 階段 | 建議 |
+|--------|------|------|------|
+| migraine disorder | **L2** | **S3** | ✅ Proceed with Guardrails |
+| headache disorder | **L2** | **S2** | ✅ Proceed with Guardrails |
+| trigeminal autonomic cephalalgia | L3 | S2 | 🔬 Research Question |
+| migraine with brainstem aura | L3 | S2 | 🔬 Research Question |
+| myofascial pain syndrome | L3 | S1 | 🔬 Research Question |
+| trichotillomania | L4 | S0 | ⏸️ Hold |
+| psychotic disorder | L4 | S0 | 🚫 Hold (禁忌) |
+| ADHD | L5 | S0 | ⏸️ Hold |
+| Tourette syndrome | L5 | S0 | ⏸️ Hold |
+| **common cold** | **L5** | **S0** | 🚩 Hold (假陽性) |
+
+### 重點提示
+1. **偏頭痛族群**（migraine disorder + migraine with brainstem aura + trigeminal autonomic cephalalgia）構成 Ketamine 最具潛力的再利用方向，共享 NMDA/CSD 機轉
+2. **精神病疾患**應列為禁忌而非再利用目標
+3. **Common cold** 為典型 TxGNN 網路假陽性，需設立過濾機制

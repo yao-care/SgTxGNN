@@ -1,0 +1,1131 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09257-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gimeracil",
+    "drugbank_id": "DB09257",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "colonic neoplasm",
+      "txgnn": {
+        "score": 0.9987975358963012,
+        "rank": 2337
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03448549",
+            "title": "A Prospective Randomized Controlled Trial to Compare Oxaliplatin Combined With S-1 (SOX) Versus Oxaliplatin With Capecitabine (XELOX) as Adjuvant Chemotherapy for Stage III Colorectal Cancer Patients",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 1191,
+            "start_date": "2018-01-01",
+            "completion_date": "2024-01-01",
+            "brief_summary": "Fluorouracil combined with oxaliplatin are routinely recommended to patients with pathological stage III (p-stage III) colorectal cancer, leading to significant improvement of 5-year disease-free survival and overall survival (approximately 3.4% -4.2%) by by international guidelines such as the National Cancer Comprehensive Network. The Considerable proportion of patients suffer with hand-foot syndrome due to capecitabine as commonly prescribed. Meanwhile as another agent of fluorouracil, tegafu",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01918852",
+            "title": "S1 Versus Capecitabine in the First Line Treatment of Metastatic Colorectal Cancer Patients, the SALTO Randomised Phase III Study of the Dutch Colorectal Cancer Group. A Safety Evaluation of Oral Fluoropyrimidines",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 161,
+            "start_date": "2013-12",
+            "completion_date": "2018-03",
+            "brief_summary": "The study is a two-arm randomised phase III trial. Patients will be randomised to receive capecitabine (arm A) or S-1 (arm B). Bevacizumab may be added according to the choice of the investigator. Patients will be followed 3-weekly at the outpatient clinic, toxicity will be assessed according to study protocol guidelines. Patients will be evaluated every 3 cycles for response. Upon disease progression patients will be treated according to the local investigators",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00524706",
+            "title": "Phase I/II Study of S-1, Oral Leucovorin, and Oxaliplatin Combination Therapy (SOL) in Patients With Untreated Metastatic Colorectal Cancer",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 42,
+            "start_date": "2007-08",
+            "completion_date": "2011-04",
+            "brief_summary": "Introduction:\n\nS-1 is promising drug which could replace 5-fluorouracil plus l-leucovorin (5-FU/l-LV) in treatment of advanced colorectal cancer.\n\nPhase I/II study of S-1 plus Oxaliplatin (SOX) demonstrated its promising activity with acceptable toxicity as first-line chemotherapy in patients with untreated metastatic colorectal cancer and S-1 showed equivalent possibility to 5-FU/l-LV. On the other hand, phase I/II study of S-1 plus oral Leucovorin (S-1/LV) demonstrated that this regimen had en",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02216149",
+            "title": "Effects of S-1 and Capecitabine in Combination With Oxaliplatin on the Coronary Artery Blood Flow in Patients Metastatic Gastrointestinal Tract Adenocarcinoma: a Randomized Phase II Study",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 20,
+            "start_date": "2015-01",
+            "completion_date": "2018-08",
+            "brief_summary": "Fluoropyrimidine chemotherapy agents , such as 5-fluorouracil and capecitabine, are occasionally associated with cardiac toxicity. Clinical fluoropyrimidine cardiotoxicity is infrequent, but subclinical toxicity may be much more common. Cardiac toxicity may be less frequent with S-1 as compared with 5-fluorouracil and capecitabine, but head-to-head comparisons are lacking. The purpose of the study is to compare 2 measures of subclinical coronary artery microvascular dysfunction, the coronary flo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00660894",
+            "title": "Randomized Phase III Study of UFT+Leucovorin vs. TS-1 as Adjuvant Treatment for Stage III Colon Cancer , and Investigate Predictive Factors Based on Gene Expression",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1535,
+            "start_date": "2008-04",
+            "completion_date": "2015-07",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as tegafur-uracil, leucovorin, and S-1, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. It is not yet known whether giving tegafur-uracil together with leucovorin is more effective than giving S-1 in treating patients with stage III colon cancer.\n\nPURPOSE: This randomized phase III trial is studying giving tegafur-uracil together with leucovorin to see how well it works compared w",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00974389",
+            "title": "Phase II Study of Combination Chemotherapy With S-1 Plus Avastin in Unresectable or Recurrent Colorectal Cancer After Failure of Prior Chemotherapy, Including Irinotecan and Oxaliplatin Regimens.",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2009-07",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as S-1, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Giving S-1 together with bevacizumab may kill more tumor cells.\n\nPURPOSE: This phase II trial is ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02618356",
+            "title": "A Phase II Clinical Study of Combined Use of Raltitrexed and S-1 as Treatment for Patients With Metastasizing Colorectal Cancer Failed of Standard Chemotherapy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 82,
+            "start_date": "2015-12-25",
+            "completion_date": "2017-11",
+            "brief_summary": "The primary endpoint is to evaluate the Median disease progression free survival (mPFS).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06255379",
+            "title": "An Open, Single-arm, Multicenter, Prospective Phase II Study of Fuquinitinib Combined With Tegafur Gimeracil Oteracil in the Third-line Treatment of Patients With Advanced Metastatic CRC",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 52,
+            "start_date": "2024-05-06",
+            "completion_date": "2027-03-21",
+            "brief_summary": "This is an Open, Single-arm, Multicenter, Prospective Phase II Study of Fuquinitinib Combined With Tegafur Gimeracil Oteracil in the Third-line Treatment of Patients With Advanced Metastatic CRC",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28414195",
+            "title": "Tegafur/gimeracil/oteracil (TS-1)-induced erythroderma with an extensive mucosal involvement and hand-foot syndrome.",
+            "authors": [
+              "Matsuda Kazuki",
+              "Namiki Takeshi",
+              "Ueno Makiko",
+              "Hashimoto Takashi",
+              "Hanafusa Takaaki"
+            ],
+            "journal": "European journal of dermatology : EJD",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32936722",
+            "title": "Hypertriglyceridemia induced by S-1: A novel case report and review of the literature.",
+            "authors": [
+              "Saito Yoshitaka",
+              "Takekuma Yoh",
+              "Komatsu Yoshito",
+              "Sugawara Mitsuru"
+            ],
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2021",
+            "abstract": "S-1, a compounding agent of tegafur, gimeracil, and oteracil potassium, is one of the most effective chemotherapeutic agents for colorectal cancer. In this case, following S-1 administration, we observed predominant elevation of serum triglyceride.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20811661",
+            "title": "Irinotecan overcomes the resistance to 5-fluorouracil in human colon cancer xenografts by down-regulation of intratumoral thymidylate synthase.",
+            "authors": [
+              "Fukushima Masakazu",
+              "Sakamoto Kazuki",
+              "Ohshimo Hideyuki",
+              "Nakagawa Fumio",
+              "Taguchi Tetsuo"
+            ],
+            "journal": "Oncology reports",
+            "year": "2010",
+            "abstract": "To clarify the molecular interaction of irinotecan (CPT-11) and oxaliplatin (l-OHP) in combination with 5-fluorouracil (5-FU), the antitumor effects of CPT-11 and l-OHP combined with the oral 5-FU prodrug, S-1 composed by tegafur, gimeracil and potassium oteracil, were investigated on human colon cancer KM12C xenografts sensitive or resistant to 5-FU in nude mice. In parental KM12C tumor xenografts, combined treatment of CPT-11 with oral S-1 significantly augmented the antitumor activity compare",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21875473",
+            "title": "[Efficacy and side effects of combination therapy of oxaliplatin and S-1 for colorectal cancer].",
+            "authors": [
+              "Zhu Qing-chao",
+              "Jin Zhi-ming"
+            ],
+            "journal": "Zhonghua zhong liu za zhi [Chinese journal of oncology]",
+            "year": "2011",
+            "abstract": "To observe the efficacy and side effects of the combination therapy of oxaliplatin and S-1 in treating postoperative colorectal cancer patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26045119",
+            "title": "Long-term survival in metastasized leiomyosarcoma: a case report and review of the literature.",
+            "authors": [
+              "Schönknecht Christine",
+              "Hadjamu Miriam",
+              "Oechsner Markus",
+              "Andratschke Nicolaus",
+              "Duma Marciana-Nona"
+            ],
+            "journal": "Tumori",
+            "year": "2015",
+            "abstract": "Leiomyosarcoma of the mesosigma is a very rare entity, with low 5-year survival rates. Treatment consists of resection of the primary tumor and, if applicable, of synchronous or metachronous metastases. Local treatment options for metastatic disease should be exploited as long as possible, as response to chemotherapy is reportedly disappointing. Stereotactic radiotherapy is a fairly new locally effective treatment option which has been well established in stereotactic radiotherapy of lung tumors",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35444144",
+            "title": "[A Case Report for Peritoneal Recurrences by Laparoscopic Surgery after Colorectal Cancer Resection].",
+            "authors": [
+              "Ii Yuki",
+              "Irie Takahiro",
+              "Kobari Aya",
+              "Kawaguchi Megumi",
+              "Momose Hirotaka"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2022",
+            "abstract": "We report a cases report of colorectal cancer who underwent repeated resection for peritoneal recurrences by laparoscopic surgery. In 2013, a 70-year-old woman diagnosed with an ascending colon cancer underwent laparoscopic right hemicolectomy. The pathological diagnosis was tub2, pT4aN1M0, Stage Ⅲb. Postoperative adjuvant chemotherapy(uracil and tegafur/Leucovorin)was administered. PET-CT performed at 25 months after the surgery because of CEA elevation. It revealed a peritoneal recurrence in t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41253353",
+            "title": "[A Case of Urinary Retention Presenting as Oxaliplatin-Induced Acute Peripheral Neuropathy].",
+            "authors": [
+              "Noguchi Yoshinori",
+              "Shibahara Takuji",
+              "Miyake Tomohiro"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2025",
+            "abstract": "The patient was a man in his 70s. He had undergone sigmoid colon resection and D3 dissection 10 years earlier for sigmoid colon cancer and liver metastases. The patient postoperatively received FOLFOX4+bevacizumab(BEV), followed by tegafur/uracil. Increased lymph node metastasis was observed 2 years prior, and treatment with tegafur/gimeracil/oteracil was initiated. However, the tumor continued to grow, and the treatment was switched to CAPOX+BEV. Urinary retention was noted after completing the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20841935",
+            "title": "[Pharmacokinetic study of S-1 for the treatment of peritoneal metastasis from colon cancer--using a mouse peritoneal metastasis model].",
+            "authors": [
+              "Sadahiro Sotaro",
+              "Suzuki Toshiyuki",
+              "Maeda Yuji",
+              "Tanaka Akira",
+              "Okada Kazutake"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2010",
+            "abstract": "To investigate the usefulness of S-1 for the treatment of peritoneal metastasis from colon cancer using a colon cancer peritoneal metastasis model.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30692384",
+            "title": "[A Case of Complete Response to Computed Tomography-Guided Celiac Plexus Neurolysis of Pain Associated with Postoperative Recurrence of Colon Cancer].",
+            "authors": [
+              "Yabe Nobushige",
+              "Masuda Makiko",
+              "Tamura Eri",
+              "Morishige Shiho",
+              "Saito Ayako"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2018",
+            "abstract": "The patient was a man in his 40s, who had undergone laparoscopic ileocecal resection with lymph node dissection(D3)for cecal cancer in January 2012. Histopathological examination of the resected specimens had revealed StageⅡ primary tumor with subserosal invasion and positive metastasis in 1-3 regional lymph nodes(pT2[SS]n1[+]). The pathological stage was Ⅲa(fStage Ⅲa), and the tumor showed RAS gene mutation. The patient was administered 5 cycles of postoperative adjuvant chemotherapy with oral ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34650027",
+            "title": "Successful En Bloc Resection of Locally Advanced Pancreatic Tail Cancer with Colonic Perforation Following Neoadjuvant Chemotherapy: A Case Report.",
+            "authors": [
+              "Harada Shigeyuki",
+              "Iida Taku",
+              "Asai Satsuki",
+              "Nakamura Kojiro",
+              "Ishihara Misa"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2021",
+            "abstract": "BACKGROUND Distal pancreatic cancers may be unresectable at the time of diagnosis because these cancers are asymptomatic and readily infiltrate neighboring organs. Radical resection of a pancreatic tail cancer with colonic perforation is rare. We describe successful resection of a locally advanced pancreatic tail cancer with colonic perforation using a multidisciplinary approach. CASE REPORT A 66-year-old man presented to our hospital with a chief concern of high fever. Abdominal computed tomogr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18630468",
+            "title": "Complete response obtained and maintained by combination of S-1 and CPT-11 in hepatic metastases of colon cancer: a case report.",
+            "authors": [
+              "Tokunaga Yukihiko",
+              "Sasaki Hirokazu",
+              "Saito Tohru"
+            ],
+            "journal": "Anticancer research",
+            "year": "2008",
+            "abstract": "An oral combined fluoropyrimidine, S-1 (tegafur, gimeracil and oteracil) has recently been used alone or in combination for colorectal cancer (CRC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29483452",
+            "title": "[A Case of Transverse Colon Cancer with Liver Metastasis and Tumor Thrombosis of Portal Vein Effectively Treated with Chemotherapy].",
+            "authors": [
+              "Aida Toshiaki",
+              "Shiobara Masayuki",
+              "Wakatsuki Kazuo",
+              "Arai Shuka",
+              "Suda Kosuke"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2018",
+            "abstract": "The patient was a 70-year-old man. He was diagnosed with advanced transverse colon cancer. A computed tomography (CT)revealed liver metastasis and tumor thrombosis of portal vein. We started combination chemotherapy with capecita- bine/oxaliplatin(CapeOX). Perforation of the tumor was observed 5 days after CapeOX therapy was started. Treatment with abscess drainage and ileostmy, infection was controlled and general condition was improved. After 9 courses of CapeOX, we changed chemotherapy regime",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29394831",
+            "title": "[A Case of a Two-Stage Hepatectomy for Irresectable Colorectal Cancer Liver Metastases].",
+            "authors": [
+              "Yukawa Yoshiro",
+              "Murata Kohei",
+              "Kagawa Yoshinori",
+              "Sakamoto Takuya",
+              "Inatome Junichi"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2017",
+            "abstract": "A 60-year-oldman was diagnosedwith ascending colon cancer with multiple bilobar metastases. He then received7 courses of tegafur-gimeracil-oteracil andoxaliplatin (SOX)plus panitumumab as downstaging chemotherapy. This treatment significantly reducedthe size of the metastatic tumor, andwe subsequently triedto perform a curative resection. A twostage hepatectomy was plannedto avoidthe risk of hepatic failure from small future liver remnant. First, the anterior segmentectomy andthe left portal vei",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21084813",
+            "title": "[Risk associated with severe hematological toxicity in patients with advanced or recurrent colonic cancer receiving combination chemotherapy of S-1 and irinotecan hydrochloride].",
+            "authors": [
+              "Sunaga Tomiko",
+              "Suzuki Shuji",
+              "Harada Nobuhiko",
+              "Hayashi Tsuneo",
+              "Suzuki Mamoru"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2010",
+            "abstract": "The aim of this study was to analyze the risk factors for grade 3 to 4 hematological toxicity after primary chemotherapy (Tegafur, gimeracil, oteracil potassium (S-1)/irinotecan hydrochloride (CPT-11)) in 87 (56 male, 31 female; median age 66.1 years) patients with unresectable or recurrent colonic cancer between April 2005 and May 2009, and to prepare a risk classes (low-risk, intermediate-risk or high-risk groups). The rate of grade 3 to 4 hematological toxicity was 16.1%. At multivariate anal",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cecum villous adenoma",
+      "txgnn": {
+        "score": 0.9982043504714966,
+        "rank": 3140
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "malignant gastric granular cell tumor",
+      "txgnn": {
+        "score": 0.9982038736343384,
+        "rank": 3141
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "lipoma of colon",
+      "txgnn": {
+        "score": 0.998190939426422,
+        "rank": 3151
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "cecum neuroendocrine tumor G1",
+      "txgnn": {
+        "score": 0.9981641173362732,
+        "rank": 3185
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "rectosigmoid junction neoplasm",
+      "txgnn": {
+        "score": 0.9981589913368224,
+        "rank": 3194
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "cardia cancer",
+      "txgnn": {
+        "score": 0.998144030570984,
+        "rank": 3218
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27210096",
+            "title": "[Complete Response in a Patient with HER2-Positive Gastric Cancer and Multiple Lung Metastases with Trastuzumab-Containing Chemotherapy].",
+            "authors": [
+              "Nakata Wachiko",
+              "Tokuyama Nobuyuki",
+              "Yagioka Hiroshi",
+              "Suyama Yuki",
+              "Ogura Keiji"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2016",
+            "abstract": "We report the case ofa 79-year-old Japanese woman diagnosed with human epidermal growth factor receptor 2 (HER2)-positive gastric cancer of the cardia with multiple lung metastases that showed complete response to trastuzumab-containing chemotherapy. First, we administered tegafur/gimeracil/oteracil (S-1) and cisplatin (CDDP) concurrently to the patient. Next, we switched to trastuzumab in combination with capecitabine and CDDP because gastric cancer tissue indicated HER2-positivity. Considering",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "colonic lymphangioma",
+      "txgnn": {
+        "score": 0.9981383085250854,
+        "rank": 3225
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colon leiomyoma",
+      "txgnn": {
+        "score": 0.99813711643219,
+        "rank": 3226
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40322391",
+            "title": "Torsion of Metastatic Ovarian Tumor Originating From Sigmoid Colon Cancer.",
+            "authors": [
+              "Uenae Maika",
+              "Sasano Tomoyuki",
+              "Tomiie Mari",
+              "Miyagi Yoshimi",
+              "Moriyama Akihiro"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Metastasis of colorectal cancer (CRC) to the ovaries is relatively rare, and torsion of metastatic ovarian tumors is even rarer. Here, we report the case of a patient with CRC who developed torsion of ovarian metastases and underwent abdominal adnexectomy following chemotherapy with bevacizumab. A 51-year-old premenopausal woman presented with abdominal distension and was referred to our hospital after ultrasonography revealed abdominal tumors. Imaging showed bilateral ovarian masses (maximum di",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "gastric lymphoma",
+      "txgnn": {
+        "score": 0.9981303811073304,
+        "rank": 3234
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colonic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colonic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colonic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cecum villous adenoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cecum villous adenoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cecum villous adenoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "malignant gastric granular cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "malignant gastric granular cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "malignant gastric granular cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "lipoma of colon"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "lipoma of colon"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "lipoma of colon"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cecum neuroendocrine tumor G1"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cecum neuroendocrine tumor G1"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cecum neuroendocrine tumor G1"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "rectosigmoid junction neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "rectosigmoid junction neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "rectosigmoid junction neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cardia cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cardia cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "cardia cancer"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colonic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colonic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colonic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colon leiomyoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colon leiomyoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "colon leiomyoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "gastric lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "gastric lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Gimeracil",
+        "disease": "gastric lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

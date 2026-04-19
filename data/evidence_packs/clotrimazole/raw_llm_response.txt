@@ -1,0 +1,295 @@
+## 藥物再利用證據分析：Clotrimazole (DB00257)
+
+**藥物背景說明**：Clotrimazole 為咪唑類抗真菌藥，全球已廣泛使用，其作用機轉為抑制真菌 CYP51（羊毛甾醇 14α-去甲基酶），阻斷麥角固醇合成，破壞真菌細胞膜完整性。本資料集中 `original_indications` 為空、`market_status` 為「未上市」可能反映新加坡特定登記資料缺口，非全球藥品狀態，分析時需特別注意。
+
+---
+
+```json
+{
+  "drug": "Clotrimazole",
+  "drugbank_id": "DB00257",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "市場狀態「未上市」疑為新加坡本地登記資料缺口；Clotrimazole 全球已核准用於多種真菌感染。original_moa 標記為 [Data Gap]，依文獻補充：抑制真菌 CYP51 → 阻斷麥角固醇合成 → 細胞膜破壞。",
+  "indications": [
+    {
+      "disease_name": "acne (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Clotrimazole 主要機轉為抗真菌，與痤瘡（以 Cutibacterium acnes 細菌及皮脂腺炎症為主）無直接藥理關聯。唯一可能路徑為針對 Malassezia 相關痤瘡樣皮疹，但屬間接假說，無文獻支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01244256",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 但狀態為 SUSPENDED（中止），且為複方試驗（倍他米松 + 慶大黴素 + 可能含 Clotrimazole），無法確認 Clotrimazole 對痤瘡的獨立貢獻；enrollment=80 但未完成。高度限制性證據。"
+        }
+      ],
+      "literature_analysis": [],
+      "evidence_summary": "僅有 1 個已中止的複方 Phase 2/3 試驗，無直接文獻，TxGNN 高分（0.999）可能反映模型對廣效抗菌藥物的系統性偏誤。不建議推進。"
+    },
+    {
+      "disease_name": "vulvovaginitis",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clotrimazole 為外陰陰道念珠菌病（Candidal Vulvovaginitis, VVC）的標準治療藥物之一。透過抑制 CYP51 破壞 Candida albicans 細胞膜，臨床療效已有多個 Phase 3 RCT 直接驗證。注意：對細菌性陰道炎（BV）和滴蟲性陰道炎療效有限，須區分病原體。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00755053",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED，n=466，直接以 Clotrimazole 為研究主角，驗證非劣效性，高度相關且方法學嚴謹。"
+        },
+        {
+          "nct_id": "NCT02242695",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 COMPLETED，n=150，Clotrimazole 100mg 作為活性對照組，提供真實世界比較數據。"
+        },
+        {
+          "nct_id": "NCT03005353",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3 COMPLETED，n=100，直接比較孜然籽萃取物 vs Clotrimazole 治療念珠菌性外陰陰道炎，Clotrimazole 為標準參考臂。"
+        },
+        {
+          "nct_id": "NCT01230814",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，n=234，主要研究 Metronidazole + Miconazole 組合，Clotrimazole 非主要介入但同類適應症提供佐證。"
+        },
+        {
+          "nct_id": "NCT02860845",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 COMPLETED，n=48，硼酸 + Clotrimazole 組合研究，樣本數偏小但直接相關。"
+        },
+        {
+          "nct_id": "NCT06480604",
+          "relevance_grade": "B",
+          "reasoning": "NA phase，RECRUITING，益生菌輔助 Clotrimazole 預防復發，尚未完成，作為新興研究佐證。"
+        },
+        {
+          "nct_id": "NCT03024502",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2，UNKNOWN 狀態，黏膜黏附凝膠 vs Clotrimazole，狀態不明降低可信度但設計相關。"
+        },
+        {
+          "nct_id": "NCT00313131",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 COMPLETED，n=1524，大型試驗但主要比較 Tinidazole+Fluconazole vs Metronidazole 於 BV/TVV，Clotrimazole 非主角，相關性中等。"
+        },
+        {
+          "nct_id": "NCT02907307",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 但 WITHDRAWN，enrollment=0，無實質數據貢獻。"
+        },
+        {
+          "nct_id": "NCT04813822",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，UNKNOWN 狀態，相關性良好但完成度不明。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "24863842", "study_type": "Review", "tier": "2", "note": "Clotrimazole 完整藥學回顧，涵蓋 VVC 應用歷史與現況"},
+        {"pmid": "41765149", "study_type": "RCT", "tier": "1", "note": "2026年最新 RCT，Clotrimazole vs Prangos ferulacea 治療念珠菌性外陰陰道炎"},
+        {"pmid": "30565745", "study_type": "RCT", "tier": "1", "note": "益生菌輔助 Clotrimazole 治療復發性 VVC 的隨機試驗"},
+        {"pmid": "39824974", "study_type": "RCT", "tier": "1", "note": "三盲 RCT 比較 Mycozin vs Clotrimazole 1% 乳膏"},
+        {"pmid": "2644595", "study_type": "Clinical Study", "tier": "2", "note": "Clotrimazole 治療復發性及慢性念珠菌性外陰陰道炎"},
+        {"pmid": "3895960", "study_type": "RCT", "tier": "1", "note": "單劑量 vs 六日療程 Clotrimazole 陰道治療比較 RCT"},
+        {"pmid": "25976001", "study_type": "In vitro/Mechanistic", "tier": "3", "note": "Clotrimazole 對 Candida albicans 的抗真菌活性機制研究"},
+        {"pmid": "21774671", "study_type": "Review", "tier": "2", "note": "硼酸治療復發性 VVC 的臨床證據綜述，含 Clotrimazole 比較"},
+        {"pmid": "11363911", "study_type": "Review", "tier": "2", "note": "念珠菌病總論，含陰道感染治療"},
+        {"pmid": "27265075", "study_type": "Review", "tier": "2", "note": "妊娠期皮膚感染（含 VVC）的治療綜述"}
+      ],
+      "evidence_summary": "多個 Phase 3 RCT 直接驗證療效，Clotrimazole 為全球 VVC 指引推薦藥物。L1 等級證據充分，可直接推薦（需區分念珠菌性 vs 細菌性 vs 滴蟲性病因）。"
+    },
+    {
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "停經後萎縮性陰道炎主因為雌激素缺乏導致陰道上皮萎縮，非真菌感染所致。Clotrimazole 無雌激素活性，無法處理核心病理機轉。唯一可能適應：若患者同時合併念珠菌感染，但此為合併症治療而非萎縮性陰道炎本身。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04292704",
+          "relevance_grade": "C",
+          "reasoning": "研究主題為 CO2 雷射治療復發性 VVC，非萎縮性陰道炎，且為 NA phase、UNKNOWN 狀態；與本適應症無直接關聯，可能為資料庫關聯錯誤。"
+        }
+      ],
+      "literature_analysis": [],
+      "evidence_summary": "唯一試驗與適應症不符，無相關文獻，病理機轉與 Clotrimazole 藥理不匹配。不建議推進。"
+    },
+    {
+      "disease_name": "trichomonal vulvovaginitis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Clotrimazole 對陰道毛滴蟲（Trichomonas vaginalis）具有一定活性，可能透過干擾原蟲細胞膜固醇代謝發揮作用，但機轉尚未完全闡明。1970年代臨床數據顯示有效，但現今標準治療為 Metronidazole/Tinidazole（5-硝基咪唑類），Clotrimazole 通常作為 Metronidazole 不耐受或難治性病例的替代選項。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00313131",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 COMPLETED，n=1524，大型試驗涵蓋滴蟲性陰道炎但主角為 Tinidazole+Fluconazole vs Metronidazole，Clotrimazole 非介入藥物，間接提供背景數據。"
+        },
+        {
+          "nct_id": "NCT01230814",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，n=234，含混合感染（包含滴蟲）的 Metronidazole+Miconazole 研究，Clotrimazole 未直接研究但同類機轉提供佐證。"
+        },
+        {
+          "nct_id": "NCT01335373",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究（N/A phase），n=13024，研究 Neo-Penotran（Metronidazole+Miconazole），Clotrimazole 非研究藥物，相關性低。"
+        },
+        {
+          "nct_id": "NCT04292704",
+          "relevance_grade": "C",
+          "reasoning": "CO2 雷射研究，與 Clotrimazole 治療滴蟲性陰道炎無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "4619467", "study_type": "Clinical Trial", "tier": "2", "note": "1974年：Clotrimazole 陰道錠治療滴蟲性和念珠菌性陰道炎的早期臨床研究（直接相關但年代久遠）"},
+        {"pmid": "799324", "study_type": "Clinical Study", "tier": "2", "note": "1975年：Clotrimazole 治療滴蟲病和陰道念珠菌病的臨床經驗"},
+        {"pmid": "4619466", "study_type": "Clinical Study", "tier": "2", "note": "1974年：陰道念珠菌和滴蟲感染的發生率及治療"},
+        {"pmid": "16047929", "study_type": "Review", "tier": "2", "note": "混合性外陰陰道炎的診斷與陰道局部治療"},
+        {"pmid": "10470518", "study_type": "Review", "tier": "2", "note": "健康女性的外陰陰道炎綜述"},
+        {"pmid": "7971615", "study_type": "Review", "tier": "2", "note": "感染性陰道炎的治療選擇與復發預防"},
+        {"pmid": "7330756", "study_type": "Review", "tier": "2", "note": "1981年外陰陰道炎現行治療綜述"},
+        {"pmid": "18840006", "study_type": "Review", "tier": "2", "note": "Fenticonazole 在婦科的應用，含與 Clotrimazole 同類比較"},
+        {"pmid": "23566144", "study_type": "Review", "tier": "2", "note": "Sertaconazole 治療表淺念珠菌病，提供同類藥物背景"},
+        {"pmid": "3510114", "study_type": "Review", "tier": "2", "note": "Tioconazole 抗菌活性及治療應用（同類咪唑類比較）"}
+      ],
+      "evidence_summary": "有 1970年代直接臨床證據（PMID 4619467, 799324），但缺乏現代標準設計的 RCT。現今 Metronidazole 為滴蟲性陰道炎標準治療，Clotrimazole 可作為替代研究方向，建議以 Metronidazole 不耐受/失敗病患為目標族群設計研究。"
+    },
+    {
+      "disease_name": "tinea profunda",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Clotrimazole 為局部外用抗真菌藥，對淺表皮膚真菌有效，但 Tinea profunda（深部皮真菌病，累及毛囊深層和真皮）需要具有組織穿透力的系統性抗真菌藥（如 Terbinafine、Itraconazole）。外用 Clotrimazole 的組織滲透深度不足以處理深部感染灶。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "39106217", "study_type": "Case Report", "tier": "3", "note": "2024年個案報告：Trichophyton erinacei 人類感染，涉及深部皮膚感染類型，未特別提及 Clotrimazole 作為治療"},
+        {"pmid": "23518026", "study_type": "Case Report", "tier": "3", "note": "Trichophyton schoenleinii 廣泛性體癬模擬副銀屑病的個案報告，相關性間接"},
+        {"pmid": "1433223", "study_type": "In vitro", "tier": "3", "note": "1992年：苯并呋喃類作為 Miconazole 類似物的體外抗真菌活性研究，與 Clotrimazole 相關性為同類藥物推斷"},
+        {"pmid": "24794211", "study_type": "In vitro", "tier": "3", "note": "Trichophyton mentagrophytes 臨床分離株體外藥敏測試，提供基礎敏感性數據但非臨床療效證據"}
+      ],
+      "evidence_summary": "無臨床試驗，文獻均為個案報告或體外研究，且藥物的穿透性不足以治療深部感染。證據薄弱，不建議推進。"
+    },
+    {
+      "disease_name": "ectothrix infectious disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ectothrix 型感染為皮癬菌在毛幹外側的感染形式（如 Microsporum 屬），理論上 Clotrimazole 的抗皮癬菌活性可抑制此類病原體，但頭皮毛囊深層感染通常需要系統性藥物。體外活性不等同於臨床療效。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "完全無臨床試驗及文獻支持，純屬 TxGNN 模型預測。不建議推進。"
+    },
+    {
+      "disease_name": "Majocchi granuloma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Majocchi 肉芽腫為毛囊周圍肉芽腫性皮癬菌感染，常見於免疫抑制患者。Clotrimazole 為外用藥，缺乏穿透至毛囊深層及真皮的能力，且肉芽腫型反應需要系統性抗真菌治療（Itraconazole 或 Terbinafine）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "39106217", "study_type": "Case Report", "tier": "3", "note": "涉及深部皮膚皮癬菌感染的個案報告，與 Majocchi 肉芽腫有病理相似性，但未直接研究 Clotrimazole"},
+        {"pmid": "23518026", "study_type": "Case Report", "tier": "3", "note": "廣泛性體癬個案，間接相關"},
+        {"pmid": "1433223", "study_type": "In vitro", "tier": "3", "note": "咪唑類類似物體外活性，藥理背景參考"},
+        {"pmid": "24794211", "study_type": "In vitro", "tier": "3", "note": "Trichophyton 藥敏試驗，提供基礎敏感性佐證"}
+      ],
+      "evidence_summary": "無臨床試驗，文獻均為非直接相關的個案報告和體外研究，給藥途徑不適合此深部感染類型。不建議推進。"
+    },
+    {
+      "disease_name": "endothrix infectious disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Endothrix 型感染（如 Trichophyton tonsurans 引起的頭癬）為毛幹內侵犯，即使 Clotrimazole 對病原體具體外活性，外用製劑無法達到毛幹內部的治療濃度，系統性藥物（Griseofulvin、Terbinafine）為標準治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "完全無臨床試驗及文獻支持，純屬模型預測，藥物特性不適合此感染類型。不建議推進。"
+    },
+    {
+      "disease_name": "superficial mycosis",
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clotrimazole 為廣譜表淺性真菌感染的一線外用治療藥物，透過 CYP51 抑制阻斷麥角固醇合成，對皮癬菌（Trichophyton、Microsporum、Epidermophyton）、酵母菌（Candida spp.、Malassezia spp.）及部分黴菌有效。包含皮膚癬（tinea corporis/pedis/cruris）、花斑癬、皮膚念珠菌病等。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01547221",
+          "relevance_grade": "A",
+          "reasoning": "NA phase（設計為隨機對照），COMPLETED，n=120，直接比較硼酸 vs Clotrimazole 1% 治療耳真菌病（Otomycosis），真實療效數據，高度相關。"
+        },
+        {
+          "nct_id": "NCT00835029",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，緩釋 Clotrimazole 漆膜治療義齒性口炎（口腔念珠菌病），n=13 樣本數偏小但設計直接相關；驗證新劑型可行性。"
+        },
+        {
+          "nct_id": "NCT02039895",
+          "relevance_grade": "C",
+          "reasoning": "全身皮膚螺旋照射治療皮膚淋巴瘤，與 Clotrimazole 治療表淺真菌無直接關聯，疑為資料庫誤配。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "29953171", "study_type": "Clinical Study", "tier": "1", "note": "2016年：1% Clotrimazole 粉劑治療表淺真菌感染的療效與安全性（直接相關）"},
+        {"pmid": "2632381", "study_type": "RCT", "tier": "1", "note": "1989年：Miconazole vs Clotrimazole 治療表淺真菌病的比較研究"},
+        {"pmid": "25976001", "study_type": "In vitro", "tier": "3", "note": "Clotrimazole 對 Candida albicans 的抗真菌活性機制（碳源、生長期依賴性）"},
+        {"pmid": "778288", "study_type": "Review", "tier": "2", "note": "1976年：表淺真菌病診療綜述，Clotrimazole 為主要討論藥物"},
+        {"pmid": "1379146", "study_type": "Review", "tier": "2", "note": "1992年：皮膚表淺真菌感染的診斷與現行治療建議"},
+        {"pmid": "19558428", "study_type": "RCT", "tier": "1", "note": "Fluconazole 乳膏 vs Flutrimazole 乳膏治療表淺真菌病比較（同類藥物背景）"},
+        {"pmid": "7319573", "study_type": "Clinical Study", "tier": "2", "note": "表淺真菌病的臨床研究及 Clotrimazole 體外敏感性測試"},
+        {"pmid": "3510114", "study_type": "Review", "tier": "2", "note": "Tioconazole 治療表淺皮膚真菌病綜述（同類藥物比較背景）"},
+        {"pmid": "3281821", "study_type": "Review", "tier": "2", "note": "Sulconazole 治療表淺皮膚真菌病（同類藥物比較）"},
+        {"pmid": "2670516", "study_type": "Review", "tier": "2", "note": "Bifonazole 治療表淺真菌病（同類藥物比較）"}
+      ],
+      "evidence_summary": "Phase 2 已完成試驗（NCT00835029、NCT01547221）加上多項臨床比較研究，Clotrimazole 為表淺真菌病全球公認治療藥物之一。L2 定級（有直接 Phase 2 RCT 及多項比較研究）；S3 可建議（需依感染部位及嚴重程度選擇適當劑型）。"
+    },
+    {
+      "disease_name": "dermatophytosis of scalp or beard",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Clotrimazole 對引起頭癬/鬚癬的皮癬菌（Trichophyton、Microsporum）具有體外抗真菌活性。然而，頭皮/鬍鬚部位的皮癬菌感染累及毛幹和毛囊，外用 Clotrimazole 穿透性不足；全球指引建議使用系統性抗真菌藥（Terbinafine、Griseofulvin、Itraconazole）。外用 Clotrimazole 可作為輔助治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "778288", "study_type": "Review", "tier": "2", "note": "1976年表淺真菌病綜述，提及頭皮皮癬菌治療，與 Clotrimazole 有間接關聯"},
+        {"pmid": "34934294", "study_type": "Review", "tier": "3", "note": "鬍鬚重建手術相關，與皮癬菌治療無關，疑為資料庫誤配"},
+        {"pmid": "34984089", "study_type": "Review", "tier": "3", "note": "鬍鬚與鬍子重建，與本適應症無關，資料品質問題"},
+        {"pmid": "38936998", "study_type": "Review", "tier": "3", "note": "毛髮修復手術，與 Clotrimazole 治療頭皮皮癬菌無關"},
+        {"pmid": "37510908", "study_type": "Review", "tier": "3", "note": "鬍鬚脫髮的病因與治療，與皮癬菌感染相關性低"},
+        {"pmid": "38106958", "study_type": "Review", "tier": "3", "note": "壓力更新綜述，與本適應症完全無關，資料庫誤配"},
+        {"pmid": "32473165", "study_type": "Basic Science", "tier": "3", "note": "斑馬魚 Rohon-Beard 細胞研究，與本適應症完全無關"},
+        {"pmid": "17232589", "study_type": "Historical", "tier": "3", "note": "1903年生殖細胞研究，完全不相關"},
+        {"pmid": "39492201", "study_type": "Review", "tier": "3", "note": "少數族裔毛髮修復，無關"},
+        {"pmid": "40642854", "study_type": "Other", "tier": "3", "note": "鬍鬚長度與氧氣面罩效能，完全無關"}
+      ],
+      "evidence_summary": "⚠️ 資料品質警示：20篇文獻中，大多數（約 18篇）與 Clotrimazole 治療頭皮/鬍鬚皮癬菌病無關，疑為文獻配對演算法誤配（關鍵詞「beard/scalp」匹配到毛髮手術文獻）。僅 PMID 778288 具有間接相關性。無直接臨床試驗。雖然 Clotrimazole 理論上有抗皮癬菌活性，但給藥途徑不適合深部毛囊感染，需進一步安全性和劑量研究。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣總覽
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| **vulvovaginitis** | **L1** | **S3** | ✅ **Proceed** | 多個 Phase 3 RCT 直接驗證，全球標準治療 |
+| **superficial mycosis** | **L2** | **S3** | ✅ **Proceed** | Phase 2 RCT + 多項比較研究，已建立療效 |
+| **trichomonal vulvovaginitis** | L3 | S2 | 🔬 **Research Q** | 1970年代臨床數據，缺現代 RCT，可研究 MTZ 不耐受替代 |
+| dermatophytosis (scalp/beard) | L4 | S1 | ⏸️ Hold | 給藥途徑不適合，文獻資料品質問題 |
+| acne | L4 | S0 | ❌ Hold | 1個已中止試驗，機轉不符 |
+| postmenopausal atrophic vaginitis | L4 | S0 | ❌ Hold | 試驗誤配，病理機轉不符 |
+| tinea profunda | L4 | S0 | ❌ Hold | 深部感染，給藥途徑不足 |
+| Majocchi granuloma | L4 | S0 | ❌ Hold | 肉芽腫型，需系統性治療 |
+| ectothrix infectious disease | **L5** | S0 | ❌ Hold | 純模型預測，零臨床證據 |
+| endothrix infectious disease | **L5** | S0 | ❌ Hold | 純模型預測，零臨床證據 |
+
+---
+
+## ⚠️ 重要備註
+
+1. **資料缺口**：`market_status: 未上市` 疑為新加坡本地登記缺口，Clotrimazole 全球已廣泛核准，**vulvovaginitis 和 superficial mycosis 為其核心適應症**，在 TxGNN 框架中應視為「已知適應症再確認」而非典型「老藥新用」
+2. **文獻誤配警示**：`dermatophytosis of scalp or beard` 的 20 篇文獻中約 90% 與適應症無關，需人工驗證
+3. **本分析結果僅供研究參考，不構成醫療建議；所有再利用候選需經完整臨床驗證**

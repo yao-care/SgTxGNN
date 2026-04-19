@@ -1,0 +1,929 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB08879-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Belimumab",
+    "drugbank_id": "DB08879",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9996336698532104,
+        "rank": 943
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01610492",
+            "title": "BEL116472. A 2 Year Mechanistic Study of Belimumab in Idiopathic Membranous Glomerulonephropathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 14,
+            "start_date": "2012-07-01",
+            "completion_date": "2016-09-14",
+            "brief_summary": "This is a phase II, open label, experimental medicine study to evaluate the efficacy, safety and mechanism of action of belimumab in subjects with antiphospholipase A2 receptor (PLA2R) autoantibody positive idiopathic membranous glomerulonephropathy (IMGN), and to profile the relationship between biomarkers, autoantibody status and clinical response. 10 milligrams per kilogram (mg/kg) belimumab intravenous (IV) will be administered at weeks 0, 2, and then every 4 weeks, over a 24-week treatment ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此試驗研究對象為膜性腎小球病變（Membranous GN），與血小板釋放功能障礙無任何直接關聯；為系統擷取錯誤配對，不得計入適應症支持證據。Phase 2，已完成，14 人，規模極小且適應症不符。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Belimumab 藉由阻斷 BAFF/BLyS 抑制 B 細胞存活，理論上可減少自身抗體介導的血小板破壞（類 ITP 機轉）。然而『primary release disorder of platelets』屬血小板顆粒分泌功能缺陷，主要為血小板內在結構/功能異常，非抗體介導，BAFF 軸無明確病理角色，機轉關聯薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.9995803236961364,
+        "rank": 1023
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pseudo-vWD 為 GPIbα 功能增益突變（gain-of-function），導致血小板過度結合 VWF 多聚體，屬遺傳性血小板功能異常。與 BAFF/B 細胞軸無直接相關，Belimumab 機轉無法解決 GPIbα 結構問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9987730383872986,
+        "rank": 2374
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glanzmann thrombasthenia 為 GPIIb/IIIa（整合素 αIIbβ3）遺傳性缺失，血小板聚集功能完全喪失，屬基因結構缺陷病。Belimumab 之 BAFF 抑制機轉無法修復整合素表現，機轉連結不存在。部分同種免疫併發症（輸血後 GT 抗體）理論上可考慮，但無任何臨床資料支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+      "txgnn": {
+        "score": 0.9958892464637756,
+        "rank": 5717
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FNAIT 由母體產生抗胎兒血小板抗原（多為 HPA-1a）IgG 抗體並透過胎盤傳輸所致，為同種免疫性 B 細胞反應。理論上 Belimumab 抑制母體 BAFF → 減少致病性 B 細胞 → 降低同種抗體，具備最弱度的機轉假說。然而：(1) 無任何臨床試驗；(2) 無文獻；(3) 孕期 Belimumab 安全性尚不明確；(4) 標準治療（IVIG、糖皮質素）效果明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9904601573944092,
+        "rank": 10205
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嚴重非增殖性糖尿病視網膜病變主要機轉為高血糖誘發之微血管損傷、周細胞喪失與神經節細胞凋亡，炎症通路涉及 VEGF、TNF-α、AGE-RAGE 軸。BAFF 在糖尿病併發症之角色尚在初期研究階段（部分動物模型顯示 BAFF 參與代謝炎症），機轉連結極間接，且無任何人體臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "autosomal dominant macrothrombocytopenia",
+      "txgnn": {
+        "score": 0.990401804447174,
+        "rank": 10240
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "體染色體顯性巨血小板減少症多源於 MYH9、TUBB1、GP1BA 等基因突變，血小板生成及形態異常，屬遺傳性骨髓巨核細胞分化缺陷，非免疫媒介疾病。Belimumab 之 BAFF 抑制機轉與遺傳性骨髓發育無關，機轉連結不存在。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "granulomatous disease, chronic, autosomal recessive, 5",
+      "txgnn": {
+        "score": 0.9790873527526855,
+        "rank": 17453
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肉芽腫病（CGD）第 5 型（CYBC1 基因突變）為 NADPH 氧化酶複合體缺陷，導致中性球及吞噬細胞氧化殺菌功能喪失。病理核心為髓系細胞功能異常，非 B 細胞/抗體驅動。Belimumab 抑制 BAFF 不影響 NADPH 氧化酶功能，機轉連結不存在。免疫重建（造血幹細胞移植）或基因治療為本病標準研究方向。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "anus disease",
+      "txgnn": {
+        "score": 0.9788530468940736,
+        "rank": 17561
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "『anus disease』為極寬泛診斷分類，涵蓋肛裂、痔瘡、肛門癌、肛周 Crohn's 等異質病態。若為肛周 Crohn's 病（IBD 延伸），則可藉由 BAFF 介導的 B 細胞炎症機轉建立間接連結；但無法從此通用標籤確認疾病亞型。零臨床及文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "inflammatory bowel disease",
+      "txgnn": {
+        "score": 0.9776114225387572,
+        "rank": 18158
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03844061",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Study of Belimumab and Rituximab Combination Therapy for the Treatment of Diffuse Cutaneous Systemic Sclerosis",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2019-07-29",
+            "completion_date": "2026-06-30",
+            "brief_summary": "This is a 52 week, single center, randomized, double-blind, placebo-controlled study.\n\nAfter patients maintain a stable dose of Mycophenolate Mofetil (MMF) for at least 1 month, they will be randomized to treatment with either Belimumab \\& Rituximab or placebo.Patients in both groups will be on background MMF for the entirety of the study. Belimumab will be administered subcutaneously and Rituximab intravenously. Placebo injections and infusions will be of normal saline. Randomization will be do",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "含 Belimumab 之隨機雙盲安慰劑對照 Phase 2 試驗，設計嚴謹，但標題未明確指定 IBD 為適應症（可能為 SLE 或其他自體免疫病之聯合 B 細胞清除策略）。招募中，規模小（30 人），需確認主要適應症後調整評分。若試驗對象確認非 IBD，應降為 C 級。"
+            }
+          },
+          {
+            "nct_id": "NCT07138898",
+            "title": "Immunosuppressant Management in Rheumatology Patients Undergoing Elective Total Shoulder Arthroplasty",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-09",
+            "completion_date": "2027-09",
+            "brief_summary": "The purpose of this study is to assess the incidence of rheumatologic flares, changes in pain scores (VAS), changes in functional outcomes (PROMIS), wound complications, surgical site infections, and return trips to the operating room for rheumatology patients following shoulder replacements, comparing those who stop their immunosuppressants preoperatively for the same amount of time as suggested in the literature for hip and knee arthroplasty versus those who hold the medications for a shorter ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究主題為風濕病患者接受肩關節置換術的免疫抑制劑管理，並非 IBD 治療研究。Belimumab 為受研究藥物之一，但手術情境與 IBD 疾病活性評估無關。與 IBD 適應症相關性極低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35054212",
+            "title": "Role of B-Cell Activating Factor (BAFF) in Inflammatory Bowel Disease.",
+            "authors": [
+              "Kumric Marko",
+              "Zivkovic Piero Marin",
+              "Ticinovic Kurir Tina",
+              "Vrdoljak Josip",
+              "Vilovic Marino"
+            ],
+            "journal": "Diagnostics (Basel, Switzerland)",
+            "year": "2021",
+            "abstract": "As early commencement of inflammatory bowel disease (IBD) treatment has been shown to substantially improve outcomes, it is of utmost importance to make a timely diagnosis of this disease. Despite undisputed sensitivity of fecal calprotectin, the most widely accepted IBD biomarker, in discriminating between irritable bowel syndrome (IBS) and IBD, as well as recognized role in monitoring disease activity and response to therapy, perhaps the biggest setback of calprotectin use in IBD is lack of sp",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33403021",
+            "title": "Shared development of targeted therapies among autoimmune and inflammatory diseases: a systematic repurposing analysis.",
+            "authors": [
+              "Petitdemange Arthur",
+              "Blaess Julien",
+              "Sibilia Jean",
+              "Felten Renaud",
+              "Arnaud Laurent"
+            ],
+            "journal": "Therapeutic advances in musculoskeletal disease",
+            "year": "2020",
+            "abstract": "Pathogenic inflammatory pathways are largely shared between different autoimmune and inflammatory diseases (AIDs). This offers the potential to develop a given targeted therapy in several AIDs.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37716078",
+            "title": "Hepatic safety and efficacy of immunomodulatory drugs used in patients with autoimmune hepatitis.",
+            "authors": [
+              "Terziroli Beretta-Piccoli Benedetta",
+              "Buescher Gustav",
+              "Dalekos George",
+              "Zachou Kalliopi",
+              "Geerts Anja"
+            ],
+            "journal": "Journal of autoimmunity",
+            "year": "2023",
+            "abstract": "There is little data on the hepatic efficacy and safety of immunomodulatory drugs used in patients with autoimmune hepatitis (AIH), despite their established use in dermatology, rheumatology and inflammatory bowel diseases (IBD). Our aim was to collect real-life data on the experience of expert centres in treating AIH patients with these drugs, considered unconventional for AIH management.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25829190",
+            "title": "Are biological drugs safe in pregnancy?",
+            "authors": [
+              "Calligaro A",
+              "Hoxha A",
+              "Ruffatti A",
+              "Punzi L"
+            ],
+            "journal": "Reumatismo",
+            "year": "2015",
+            "abstract": "The introduction of biological therapies has significantly improved the outcome of inflammatory rheumatic diseases. As most of these diseases affect women and men in childbearing age, some concerns have been voiced as to the safety of these drugs in relation to reproduction and pregnancy. Data from many hundreds of pregnancies in patients affected by inflammatory bowel disease and inflammatory arthritis have suggested that exposure to anti-TNF therapies at conception and/or during pregnancy is n",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27655102",
+            "title": "B Cell-Activating Factor (BAFF)-Targeted B Cell Therapies in Inflammatory Bowel Diseases.",
+            "authors": [
+              "Uzzan Mathieu",
+              "Colombel Jean-Frederic",
+              "Cerutti Andrea",
+              "Treton Xavier",
+              "Mehandru Saurabh"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "2016",
+            "abstract": "Inflammatory bowel diseases (IBD) involve dysregulated immune responses to gut antigens in genetically predisposed individuals. While a better elucidation of IBD pathophysiology has considerably increased the number of treatment options, the need for more effective therapeutic strategies remains a pressing priority. Defects of both non-hematopoietic (epithelial and stromal) and hematopoietic (lymphoid and myeloid) cells have been described in patients with IBD. Within the lymphoid system, altera",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40414587",
+            "title": "Dual B-cell targeting in systemic lupus erythematosus: The role of combined and sequential therapy with rituximab and belimumab.",
+            "authors": [
+              "Frade-Sosa Beatriz",
+              "Sarmiento-Monroy Juan C",
+              "Bruce Ian N",
+              "Arnaud Laurent",
+              "Gómez-Puerta José A"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2025",
+            "abstract": "Systemic lupus erythematosus (SLE) is a complex autoimmune disease characterized by immune dysregulation and autoantibody production. Despite advances in treatment, achieving sustained disease control remains challenging. Rituximab (RTX) and belimumab (BELI) are two B-cell-targeting biologics with complementary mechanisms of action, leading to increasing interest in their combination as a therapeutic strategy for refractory SLE. RTX depletes CD20+ B cells, whereas BELI inhibits B-lymphocyte stim",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20947558",
+            "title": "Anticytokine therapy in systemic lupus erythematosus.",
+            "authors": [
+              "Yoo D-H"
+            ],
+            "journal": "Lupus",
+            "year": "2010",
+            "abstract": "Systemic lupus erythematosus is a prototype of heterogeneous autoimmune disease. There have been few newly approved therapeutic agents in lupus treatment for many reasons. Several animal studies and human data have shown that many potential cytokines are related to the pathogenesis and disease activity of systemic lupus erythematosus. Cytokines are produced by many immune cell types and have variable functions in the immune system. Following the success of biological agents in the treatment of i",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27490204",
+            "title": "Critical review of the current recommendations for the treatment of systemic inflammatory rheumatic diseases during pregnancy and lactation.",
+            "authors": [
+              "Levy Roger A",
+              "de Jesús Guilherme R",
+              "de Jesús Nilson R",
+              "Klumb Evandro M"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2016",
+            "abstract": "The crucial issue for a better pregnancy outcome in women with autoimmune rheumatic diseases is appropriate planning, with counseling of the ideal timing and treatment adaptation. Drugs used to treat rheumatic diseases may interfere with fertility or increase the risk of miscarriages and congenital abnormalities. MTX use post-conception is clearly linked to abortions as well as major birth defects, so it should be stopped 3months before conception. Leflunomide causes abnormalities in animals eve",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32497929",
+            "title": "Biologic therapy in severe and refractory peripheral ulcerative keratitis (PUK). Multicenter study of 34 patients.",
+            "authors": [
+              "Dominguez-Casas Lucia C",
+              "Sánchez-Bilbao Lara",
+              "Calvo-Río Vanesa",
+              "Maíz Olga",
+              "Blanco Ana"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2020",
+            "abstract": "We assessed the efficacy and safety of biologic therapy in severe and refractory Peripheral Ulcerative Keratitis (PUK).",
+            "classification": {
+              "study_type": "Cohort/Case series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IBD（Crohn's 病及潰瘍性結腸炎）中 BAFF/BLyS 顯著升高，B 細胞在腸道黏膜免疫紊亂中扮演重要角色（產生自身抗體、促進 T 細胞激活、分泌促炎細胞激素）。Belimumab 抑制 BAFF → 減少邊緣帶 B 細胞及漿母細胞存活 → 潛在降低腸道黏膜炎症。PMID 27655102 及 35054212 提供直接機轉依據。機轉可信度中等，但臨床轉化尚待驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "granulomatous disease with defect in neutrophil chemotaxis",
+      "txgnn": {
+        "score": 0.977077066898346,
+        "rank": 18393
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "中性球趨化功能缺陷型肉芽腫病為固有免疫缺陷，中性球無法有效遷移至感染灶，屬 NADPH 氧化酶或信號通路功能異常。Belimumab 作用於適應性免疫（B 細胞/BAFF 軸），對中性球趨化功能無直接影響。病理機轉與作用機轉完全不符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "autosomal dominant macrothrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "autosomal dominant macrothrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "autosomal dominant macrothrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "granulomatous disease, chronic, autosomal recessive, 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "granulomatous disease, chronic, autosomal recessive, 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "granulomatous disease, chronic, autosomal recessive, 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "anus disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "anus disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "anus disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "inflammatory bowel disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "inflammatory bowel disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "inflammatory bowel disease"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "granulomatous disease with defect in neutrophil chemotaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "granulomatous disease with defect in neutrophil chemotaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Belimumab",
+        "disease": "granulomatous disease with defect in neutrophil chemotaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+## 藥物再利用證據分析：Clascoterone (DB12499)
+
+**背景說明（資料差異注意）**：Clascoterone 實際上已於 2020 年獲 FDA 批准用於痤瘡（Winlevi®），為局部塗抹型雄激素受體拮抗劑（AR antagonist）。資料中「未上市」可能指新加坡市場狀態，「original_moa: [Data Gap]」為資料缺漏，實際機轉明確。
+
+---
+
+```json
+{
+  "drug": "Clascoterone",
+  "drugbank_id": "DB12499",
+  "actual_moa": "Androgen receptor (AR) antagonist — competitively inhibits dihydrotestosterone (DHT) binding in peripheral tissues; topical formulation with limited systemic absorption",
+  "data_quality_flags": [
+    "original_moa 標記為 [Data Gap]，實為 AR 拮抗劑",
+    "市場狀態 '未上市' 疑為新加坡在地狀態，非全球狀態",
+    "literature 與 migraine/aura 項目之文獻均為 epilepsy 背景文獻，與藥物無直接關聯"
+  ],
+  "indications": [
+    {
+      "disease_name": "candidiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Clascoterone 為 AR 拮抗劑，無已知抗真菌機轉。雄激素受體在免疫調節中有角色，但缺乏直接理論橋接。高分可能源自 KG 中非特異性皮膚疾病節點共活化。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "TxGNN 評分 0.948 為最高，但完全無臨床試驗與文獻支持，且機轉關聯薄弱。高分疑為模型假陽性（知識圖譜中藥物-皮膚病通用路徑）。"
+    },
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雄激素可調節神經元興奮性與 CGRP 釋放，有間接理論基礎。但 Clascoterone 局部給藥全身吸收量極低（Cmax 約 0.3 ng/mL），中樞作用存疑。月經性偏頭痛與荷爾蒙波動有關，但此藥全身暴露不足以影響中樞。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無任何臨床或前臨床直接數據。機轉理論弱，給藥途徑不支持中樞作用。"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛（現稱腦幹先兆偏頭痛）與 CACNA1A/SCN1A 相關離子通道異常有關，與 AR 拮抗機轉無已知交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "此為罕見且遺傳性強的偏頭痛亞型，TxGNN 評分可能源自上級節點 migraine 的評分傳播，非獨立預測。"
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻顯示癲癇與偏頭痛有共同遺傳易感性（如 SCN1A、CACNA1A），AR 拮抗與此共病機轉無直接關聯。雄激素調節神經興奮性存在間接理論，但缺乏直接藥物數據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "描述癲癇與偏頭痛共享遺傳/分子機轉，與 Clascoterone 無直接關聯",
+          "drug_specific": false
+        },
+        {
+          "pmid": "17460155",
+          "study_type": "Genetic Linkage Study",
+          "tier": "3",
+          "relevance": "家族性枕顳葉癲癇與偏頭痛連鎖至染色體 9q，與 AR 機轉無關",
+          "drug_specific": false
+        },
+        {
+          "pmid": "34575901",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "抗癲癇發生分子靶點綜述，非 Clascoterone 相關",
+          "drug_specific": false
+        },
+        {
+          "pmid": "34209535",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "神經炎症與癲癇，間接與偏頭痛相關，無藥物特異性",
+          "drug_specific": false
+        },
+        {
+          "pmid": "22938964",
+          "study_type": "Review (Animal Models)",
+          "tier": "3",
+          "relevance": "癲癇動物模型，與 Clascoterone 無關",
+          "drug_specific": false
+        }
+      ],
+      "data_quality_note": "⚠️ 此項目標記 literature_count: 20，但實際僅提供 10 筆 PMID。所有文獻均為癲癇/偏頭痛遺傳背景研究，無一直接研究 Clascoterone 用於偏頭痛。文獻關聯性極低（Tier 3，藥物非特異性）。"
+    },
+    {
+      "disease_name": "leprosy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麻風病為 Mycobacterium leprae 感染，AR 拮抗無抗分枝桿菌或免疫修復機轉。KG 可能透過皮膚疾病節點或免疫調節路徑錯誤關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "感染性疾病與 AR 拮抗機轉無合理橋接，L5 評估。"
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蟲蝕狀皮膚萎縮為罕見毛孔相關角化症（follicular keratosis），部分案例與 FGFR2 突變相關。AR 信號參與皮脂腺與毛囊功能，理論上有最弱的機轉連結，但缺乏任何數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "此為罕見皮膚病，Clascoterone 的皮膚靶點（毛囊/皮脂腺）與此病有最薄弱的理論聯繫，但無任何臨床前或臨床數據支持，維持 L5。"
+    },
+    {
+      "disease_name": "oral candidiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口腔念珠菌病為黏膜真菌感染，AR 拮抗無直接抗真菌作用。與 candidiasis 同樣為模型假陽性的可能性高。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "無任何支持性數據，機轉不合理。"
+    },
+    {
+      "disease_name": "progeria-short stature-pigmented nevi syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為極罕見遺傳症候群（HRAS 突變相關），與 AR 信號路徑無已知直接關聯。TxGNN 可能因 pigmented nevi（色素痣）的皮膚節點而產生關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "遺傳性罕見症候群，AR 拮抗無合理治療機轉，L5 評估。"
+    },
+    {
+      "disease_name": "adrenal gland hyperfunction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 此項目有最高機轉相關性：Clascoterone 結構上為皮質醇類固醇衍生物（11-去氧可的松 cortexolone 衍生物），其 ACTH 抑制作用已被研究（Cortexolone-17α-propionate）。然而，現有數據缺失，且局部給藥的全身性腎上腺抑制風險更為安全顧慮而非治療目標。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "雖有最強機轉關聯（類固醇骨架、AR/糖皮質素交叉作用），但方向為安全監測而非治療再利用，且無支持性臨床數據。"
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多發性內分泌腫瘤為 MEN1/RET/CDKN1B 基因突變驅動，AR 拮抗無已知治療機轉。TxGNN 可能透過內分泌系統節點產生關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "遺傳驅動腫瘤症候群，無合理治療路徑，L5 評估。"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 機轉強度 |
+|------|-----------|---------|---------|------|---------|
+| Candidiasis | 0.948 | **L5** | S0 | Hold | ✗ 無 |
+| Migraine disorder | 0.921 | **L5** | S0 | Hold | △ 極弱 |
+| Migraine w/ brainstem aura | 0.914 | **L5** | S0 | Hold | ✗ 無 |
+| Migraine w/wo aura susceptibility | 0.894 | **L5** | S0 | Hold | △ 極弱* |
+| Leprosy | 0.889 | **L5** | S0 | Hold | ✗ 無 |
+| Atrophoderma vermiculata | 0.868 | **L5** | S0 | Hold | △ 極弱 |
+| Oral candidiasis | 0.867 | **L5** | S0 | Hold | ✗ 無 |
+| Progeria-SS-pigmented nevi | 0.860 | **L5** | S0 | Hold | ✗ 無 |
+| Adrenal gland hyperfunction | 0.859 | **L5** | S0 | Hold | ⚠️ 安全顧慮向 |
+| Multiple endocrine neoplasia | 0.855 | **L5** | S0 | Hold | ✗ 無 |
+
+> *文獻 10 篇均為癲癇-偏頭痛遺傳背景研究，與 Clascoterone 無直接關聯
+
+---
+
+## 關鍵發現
+
+### 🔴 所有適應症均為 L5 / S0
+
+所有 10 個預測適應症**均無臨床試驗，且無直接文獻支持**，全部應 Hold。
+
+### ⚠️ 資料品質問題
+1. **原始適應症空缺**：Clascoterone 已有 FDA 核准適應症（痤瘡），資料缺漏可能影響模型基準
+2. **MOA 資料空缺**：已知機轉（AR 拮抗）缺失，影響知識圖譜推理品質
+3. **文獻假關聯**：`migraine with or without aura` 項目的 10 篇文獻均為癲癇文獻，非 Clascoterone 相關
+
+### 🔬 若需進一步研究的優先順序
+若要探索研究假設（非臨床建議），依機轉合理性排序：
+1. **Adrenal gland hyperfunction**（類固醇骨架，需關注安全性方向）
+2. **Atrophoderma vermiculata**（毛囊相關皮膚病，AR 局部作用有理論基礎）
+3. **Migraine（月經性亞型）**（性荷爾蒙-偏頭痛關聯文獻充足，但需系統性口服/全身性 AR 拮抗劑研究）
+
+> **免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有再利用候選適應症需經嚴格臨床驗證。

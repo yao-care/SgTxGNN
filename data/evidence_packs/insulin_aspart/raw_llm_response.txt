@@ -1,0 +1,351 @@
+## 藥物再利用證據分析：Insulin aspart (DB01306)
+
+正在分析各適應症的臨床試驗、文獻與機轉關聯…
+
+```json
+{
+  "drug": "Insulin aspart",
+  "drugbank_id": "DB01306",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "market_status 標記為「未上市」，但 Insulin aspart (NovoRapid®) 在全球主要市場（FDA/EMA/HSA）均已核准用於 T1DM/T2DM，original_indications 為空可能是本地資料缺口，並非全球藥政現況，分析時需區分「新加坡本地登記」與「國際核准」。",
+  "indications": [
+    {
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "guardrails_note": "此為 Insulin aspart 全球已核准的主要適應症（非「老藥新用」），新加坡應確認 HSA 本地登記狀態；若確屬本地未登記，可啟動 MAA 申請流程，已有大量 Phase 3/4 RCT 支持。",
+      "mechanistic_link": "Insulin aspart 為速效胰島素類似物，以 B28 Pro→Asp 胺基酸替換減少自聚合傾向，皮下注射後 10-20 分鐘起效，60 分鐘達峰，模擬生理性餐後胰島素分泌。T1DM 患者胰島 β 細胞完全破壞，胰島素補充為必要治療，Insulin aspart 可用於 CSII（胰島素幫浦）及 MDI（多次注射）方案，直接補充缺失的內源性胰島素功能。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00773279",
+          "phase": "PHASE3",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機交叉設計，多中心，直接評估 Insulin aspart 在 T1DM 中的有效性、安全性與患者偏好，n=242，已完成，高度相關。"
+        },
+        {
+          "nct_id": "NCT01278160",
+          "phase": "PHASE4",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 延伸試驗，評估 BIAsp 30（含 Insulin aspart 成分）每日兩次於 T1DM 的療效，n=179，已完成，上市後真實世界證據。"
+        },
+        {
+          "nct_id": "NCT00095446",
+          "phase": "PHASE4",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，外部 CSII 持續皮下輸注，n=513，評估 Insulin aspart 於幫浦治療中的安全性，大樣本已完成試驗。"
+        },
+        {
+          "nct_id": "NCT00467649",
+          "phase": "PHASE4",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 隨機開放標籤平行組研究，特徵化基礎-追加方案中 Insulin aspart 的使用，n=112，已完成。"
+        },
+        {
+          "nct_id": "NCT01755416",
+          "phase": "PHASE2",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，探索性閉迴路裝置研究，Insulin aspart 作為 ePID 演算法的輸入，n=18，已完成，技術可行性數據。"
+        },
+        {
+          "nct_id": "NCT02626936",
+          "phase": "PHASE2",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 單盲交叉設計，評估餐前劑量高估的安全性，n=10，小樣本但已完成，安全性資料有參考價值。"
+        },
+        {
+          "nct_id": "NCT00574405",
+          "phase": "NA",
+          "relevance_grade": "B",
+          "reasoning": "探索性研究，評估胰島素幫浦療法對胰島 β 細胞功能保存的影響，n=24，機轉層面具參考價值。"
+        },
+        {
+          "nct_id": "NCT00645827",
+          "phase": "NA",
+          "relevance_grade": "B",
+          "reasoning": "住院血糖控制 RCT，使用 IICE 轉換方程，涉及 Insulin aspart 院內應用，n=78，應用情境不同但有參考性。"
+        },
+        {
+          "nct_id": "NCT01487382",
+          "phase": "N/A",
+          "relevance_grade": "B",
+          "reasoning": "特殊調查（兒科），n=241，日本上市後兒科真實世界安全性數據，族群外推性有限制。"
+        },
+        {
+          "nct_id": "NCT05221359",
+          "phase": "NA",
+          "relevance_grade": "C",
+          "reasoning": "單中心 pilot，評估 ExOlin® 裝置安全性，n=8 且仍招募中，樣本極小，尚無結果。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "21333580",
+          "title": "Efficacy and safety comparison of rapid-acting insulin aspart and regular human insulin",
+          "year": "2011",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "直接比較 Insulin aspart vs 人類胰島素，T1DM 及 T2DM 療效與安全性，高相關性 RCT。"
+        },
+        {
+          "pmid": "36623517",
+          "title": "Insulin degludec versus insulin detemir, both in combination with insulin aspart",
+          "year": "2023",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "基礎-追加方案 RCT，Insulin aspart 作為追加胰島素，比較不同基礎胰島素，直接 T1DM 療效數據。"
+        },
+        {
+          "pmid": "37863084",
+          "title": "Once-weekly insulin icodec versus once-daily insulin degludec as part of a basal-bolus regimen",
+          "year": "2023",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "Insulin aspart 作為 basal-bolus 方案追加胰島素，評估基礎胰島素差異，間接提供 aspart 有效性佐證。"
+        },
+        {
+          "pmid": "12215068",
+          "title": "Insulin aspart: a review of its use in the management of type 1 and 2 diabetes mellitus",
+          "year": "2002",
+          "study_type": "Systematic Review",
+          "tier": 2,
+          "note": "早期系統性回顧，涵蓋 T1DM 及 T2DM 多項 RCT 彙整，建立 aspart 早期臨床基礎。"
+        },
+        {
+          "pmid": "15871555",
+          "title": "Spotlight on insulin aspart in type 1 and 2 diabetes mellitus",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "重點摘要回顧，確認 Insulin aspart 在 T1DM 的療效地位。"
+        },
+        {
+          "pmid": "25143741",
+          "title": "Insulin degludec/insulin aspart combination for the treatment of type 1 and type 2 diabetes",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "組合製劑（IDegAsp）回顧，包含 Insulin aspart 成分在 T1DM 的應用。"
+        },
+        {
+          "pmid": "30789066",
+          "title": "Premix insulins in type 1 diabetes: the coming of degludec/aspart",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "探討預混胰島素在 T1DM 的角色演變，強調 aspart 成分的藥動學優勢。"
+        },
+        {
+          "pmid": "18710361",
+          "title": "Biphasic insulin aspart 30 for the treatment of type 1 diabetes mellitus",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "BIAsp 30 在 T1DM 的應用回顧，含 Phase 3/4 試驗數據彙整。"
+        },
+        {
+          "pmid": "37290466",
+          "title": "Management of type 1 diabetes in pregnancy: update on lifestyle, pharmacological treatment",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "妊娠 T1DM 管理更新，Insulin aspart 在孕期安全性有專節討論。"
+        },
+        {
+          "pmid": "38379002",
+          "title": "Pharmacokinetic and pharmacodynamic properties of once-weekly insulin icodec in individuals with type 1 diabetes",
+          "year": "2024",
+          "study_type": "PK/PD Study",
+          "tier": 2,
+          "note": "Insulin aspart 用作追加胰島素對照，PK/PD 資料提供間接藥效比較基準。"
+        }
+      ]
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 高分可能源自知識圖譜中「自體免疫疾病」節點的間接連結：T1DM（autoimmune）與 autoimmune oophoritis 均為自體免疫病，共享 HLA-DR 易感性，且可共同發生於 APS-1/APS-2（多腺體自體免疫症候群）。然而，Insulin aspart 的作用機轉（替代胰島素功能）與卵巢自體免疫發炎（靶向卵巢組織的自體抗體）無直接關聯，模型可能混淆了「共病關聯」與「治療關聯」。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 文獻，無任何臨床證據支持 Insulin aspart 用於 autoimmune oophoritis。"
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 為 INPPL1 基因（編碼 SHIP2，磷酸肌醇 5-磷酸酶）突變所致的罕見骨骼發育不良。SHIP2 參與 PI3K/AKT 下游胰島素訊號傳遞，理論上 Insulin 可經 IGF-1R 影響骨骼生長板軟骨細胞，但此為極度推測性機轉。KG 模型可能透過「Insulin → IRS-1 → PI3K → SHIP2」路徑產生高分，屬方法論假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 文獻，不支持進一步評估。"
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9957,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Thiamine-responsive megaloblastic anemia（TRMA，SLC19A2 突變）三聯症包含糖尿病、巨幼紅血球貧血與感音性耳聾。TRMA 相關糖尿病機轉為 thiamine 轉運缺陷導致胰島 β 細胞氧化壓力，早期胰島素治療為 TRMA 糖尿病的臨床實踐。TxGNN 高分可能來自 TRMA 中的糖尿病表現型與 T1DM 節點重疊。Insulin aspart 在 TRMA 中的應用屬於症狀性胰島素替代，非疾病修飾治療，且 thiamine 補充為優先介入。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 文獻。雖有理論合理性（β 細胞損傷 → 胰島素需求），但缺乏 Insulin aspart 特異性證據。"
+    },
+    {
+      "disease_name": "permanent neonatal diabetes mellitus",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Permanent neonatal diabetes mellitus（PNDM）最常由 KCNJ11 或 ABCC8 突變導致 ATP 敏感性鉀通道功能增益，β 細胞無法回應葡萄糖刺激分泌胰島素。雖然 KCNJ11/ABCC8 PNDM 的一線治療已轉向高劑量磺醯脲素（glibenclamide），但 KATP 無反應者（如 INS 基因突變 PNDM）仍需胰島素替代。Insulin aspart 作為速效類似物理論上可模擬生理性餐後胰島素，但新生兒的劑量準確性、血糖波動管理和 CSII 裝置適用性是主要挑戰。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28527303",
+          "title": "Insulin therapy in neonatal diabetes mellitus: a review of the literature",
+          "year": "2017",
+          "study_type": "Narrative Review",
+          "tier": 2,
+          "note": "系統性回顧新生兒糖尿病的胰島素療法，涵蓋各類胰島素製劑（含速效類似物）的使用經驗與劑量調整原則，未有 Insulin aspart 專屬 RCT，主要為案例系列與專家建議。"
+        }
+      ],
+      "data_gap_note": "0 臨床試驗，1 篇回顧性文獻（非 Insulin aspart 特異）。需評估：(1) PNDM 次型別與胰島素需求關係；(2) 新生兒 aspart 使用的安全性資料；(3) 與磺醯脲素治療的比較。"
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9951,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Focal stiff limb syndrome 為 stiff person spectrum disorders 的局灶性表現，與 GAD65（glutamic acid decarboxylase）自體抗體高度相關。同一自體抗體（anti-GAD65）在 T1DM 患者中亦常見（>70%），這可能是 KG 建立兩病之間連結的原因。然而，Insulin aspart 針對胰島素受體訊號，無抑制 GAD65 自體抗體、調節 GABA 能系統或緩解痙攣的機轉，KG 連結屬共享自體抗原之間接關聯而非治療關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 文獻，生物學假設極弱。"
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9951,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Classic stiff person syndrome（SPS）核心機轉為 anti-GAD65 抗體介導的脊髓及腦幹 GABA 能抑制迴路損傷，導致持續性軀幹與近端肌肉僵硬。T1DM 與 SPS 共享 GAD65 自體免疫背景（HLA-DR3/DR4），約 5% T1DM 患者併發 SPS。TxGNN 評分來自 KG 中的共病節點路徑，但 Insulin aspart 無法修飾 GABA 能神經元功能或抑制 anti-GAD65 自體免疫，治療相關性不成立。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 文獻，與 focal stiff limb syndrome 同為 KG 假陽性模式。"
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Pancreatic agenesis（PTF1A、GATA6、PDX1 等基因突變）導致胰臟完全或部分缺失，患者既無內源性胰島素分泌，亦缺乏外分泌胰酶。胰島素替代為必要治療（類同 T1DM 全胰切除後管理）。Insulin aspart 理論上可作為速效胰島素替代，但文獻來源（PMID 30572448 為胰島素自體免疫症候群案例報告；PMID 12150359 為 T2DM 胰島素療法通論）與胰臟發育不全無直接關聯，證據品質有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30572448",
+          "title": "Insulin autoimmune syndrome: Three case reports",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "胰島素自體免疫症候群案例，探討外源性胰島素誘發自體抗體，與 pancreatic agenesis 治療需求無直接關聯，相關性低（C 級）。"
+        },
+        {
+          "pmid": "12150359",
+          "title": "Insulin therapy in type 2 diabetes",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "T2DM 胰島素治療通論，對 pancreatic agenesis 的特異性管理無直接指引，外推性有限。"
+        }
+      ],
+      "data_gap_note": "0 直接相關臨床試驗，2 篇低相關文獻。需確認：(1) 現有 pancreatic agenesis 個案系列的胰島素管理方案；(2) 是否有 Insulin aspart 特定的兒科 pancreatic agenesis 報告；(3) 外分泌功能缺失對胰島素吸收的影響。"
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向因果警示：Insulin aspart（及其他胰島素製劑）重複注射於同一部位本身即為 drug-induced localized lipodystrophy 的已知病因（注射部位脂肪增生或脂肪萎縮）。TxGNN KG 路徑中「胰島素 → 注射部位副作用 → 脂肪代謝異常」的連結可能被模型錯誤詮釋為治療關係，而非致病關係。Insulin aspart 不治療此症，而可能加劇之。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 支持性文獻。此為模型方法論缺陷案例（藥物副作用被納入「老藥新用」候選），需在管道上游過濾。"
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Centrifugal lipodystrophy（AKA lipodystrophia centrifugalis abdominalis infantilis）為罕見兒科脂肪萎縮症，病因不明，可能與皮膚炎症或免疫異常有關。與 Insulin aspart 無已知機轉關聯。KG 評分可能源自「lipodystrophy 節點」與「insulin-associated lipodystrophy」的共享類別連結，屬非特異性圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_note": "0 臨床試驗，0 文獻，KG 圖譜雜訊。"
+    }
+  ],
+  "pipeline_recommendations": {
+    "priority_1_proceed": [
+      {
+        "disease": "type 1 diabetes mellitus",
+        "action": "確認新加坡 HSA 登記狀態，若確為本地未登記，啟動 MAA 申請或 parallel import 評估；L1 證據已充分支持臨床應用。"
+      }
+    ],
+    "priority_2_research": [
+      {
+        "disease": "permanent neonatal diabetes mellitus",
+        "action": "系統性文獻回顧 Insulin aspart 在 PNDM 各次型別（特別是 INS 突變型）的安全性與劑量，評估 CSII 在新生兒的技術可行性。"
+      },
+      {
+        "disease": "pancreatic agenesis",
+        "action": "蒐集現有 pancreatic agenesis 個案的胰島素管理方案，評估速效類似物在此族群的 PK 表現（缺乏胰酶對吸收的影響）。"
+      }
+    ],
+    "priority_3_hold": [
+      "autoimmune oophoritis — KG 共病假陽性",
+      "opsismodysplasia — 推測性 SHIP2 路徑，無臨床基礎",
+      "thiamine-responsive dysfunction syndrome — thiamine 補充優先，無 aspart 特異性需求",
+      "focal stiff limb syndrome — GAD65 共享抗原，非治療關聯",
+      "classic stiff person syndrome — 同上",
+      "drug-induced localized lipodystrophy — ⚠️ 反向因果，Insulin 為致病因素",
+      "centrifugal lipodystrophy — KG 圖譜雜訊"
+    ],
+    "model_quality_flags": [
+      "drug-induced localized lipodystrophy 應在老藥新用管道中加入『副作用排除過濾器』",
+      "focal stiff limb syndrome 與 classic stiff person syndrome 高分源自 GAD65 共享自體抗原，建議增加『直接藥理路徑』篩選條件",
+      "original_indications 為空值可能導致 TxGNN 將已核准適應症錯誤計算為新用途，建議補全 DrugBank 核准適應症資料"
+    ]
+  }
+}
+```
+
+---
+
+### 摘要總覽
+
+| 疾病 | 證據等級 | 決策階段 | 建議 |
+|------|---------|---------|------|
+| type 1 diabetes mellitus | **L1** | **S3** | ✅ Proceed with Guardrails |
+| permanent neonatal diabetes mellitus | L4 | S1 | 🔬 Research Question |
+| pancreatic agenesis | L4 | S1 | 🔬 Research Question |
+| thiamine-responsive dysfunction syndrome | L5 | S0 | ⛔ Hold |
+| autoimmune oophoritis | L5 | S0 | ⛔ Hold |
+| opsismodysplasia | L5 | S0 | ⛔ Hold |
+| focal stiff limb syndrome | L5 | S0 | ⛔ Hold |
+| classic stiff person syndrome | L5 | S0 | ⛔ Hold |
+| drug-induced localized lipodystrophy | L5 | S0 | ⚠️ Hold（反向因果） |
+| centrifugal lipodystrophy | L5 | S0 | ⛔ Hold |
+
+### 關鍵發現
+
+1. **T1DM 非老藥新用**：txgnn_score 最高 (0.9995) 是因為這就是 Insulin aspart 的核心適應症，`original_indications` 空值是資料缺口，需修正上游 DrugBank 映射。
+
+2. **PNDM 與 Pancreatic agenesis 有研究價值**：兩者均有合理的機轉推論（胰島素絕對缺乏），但現有文獻並非針對 Insulin aspart，需要有針對性的文獻收集與安全性評估（S1 階段）。
+
+3. **兩個系統性假陽性模式值得改善**：
+   - *共病路徑假陽性*：SPS/oophoritis 因 GAD65/T1DM 共病節點獲高分
+   - *副作用反向因果*：drug-induced lipodystrophy 本是 Insulin 注射的副作用，不應列入治療候選

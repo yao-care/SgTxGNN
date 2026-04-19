@@ -1,0 +1,1162 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00030-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Insulin human",
+    "drugbank_id": "DB00030",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.998435080051422,
+        "rank": 2841
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫性卵巢炎與自體免疫多腺體綜合症 (APS type II/III) 共存，後者常伴隨 T1DM，推測 TxGNN 捕捉到疾病共病網路拓撲關係。胰島素本身無抑制卵巢自體免疫的機轉；標準治療為荷爾蒙替代療法 ± 免疫抑制。此為共病關聯非治療關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9980706572532654,
+        "rank": 3312
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8743289",
+            "title": "Mapping of an autoreactive epitope within glutamate decarboxylase using a diabetes-associated human monoclonal autoantibody and an epitope cDNA library.",
+            "authors": [
+              "Richter W",
+              "Northemann W",
+              "Müller M",
+              "Böhm B O"
+            ],
+            "journal": "Hybridoma",
+            "year": "1996",
+            "abstract": "Glutamate decarboxylase (GAD65) is a major autoantigen in insulin-dependent diabetes (IDDM) and the neurological disorder Stiff-Man-Syndrome (SMS). We derived a human monoclonal autoantibody (MICA 2) from peripheral blood of a patient newly diagnosed with IDDM, which reacted with GAD65 in Western blots. This indicated that a linear epitope is recognized by MICA 2. Using an epitope cDNA library we mapped the MICA 2 epitope to a contiguous stretch of 26 amino acids (506-531) in the C-terminus of G",
+            "classification": {
+              "study_type": "Mechanistic/Epitope Mapping",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "僵人症候群 (SPS) 與 T1DM 共享 GAD65 自體抗體病理機轉：抗 GAD65 抗體在 SPS 攻擊 GABA 能神經元（抑制 GABA 合成），在 T1DM 攻擊胰島β細胞。TxGNN 通過共享免疫病理節點連結兩者。然而胰島素無法抑制 GAD65 自體抗體或恢復 GABA 能傳導；SPS 標準治療為 diazepam/baclofen + IVIG/rituximab。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9980706572532654,
+        "rank": 3313
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "局灶性僵肢綜合症為 SPS 變異型，與 classic SPS 共享 GAD65/amphiphysin 抗體病理。與胰島素連結路徑同 classic SPS，為 TxGNN KG 拓撲推斷。無獨立治療機轉支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9980037808418274,
+        "rank": 3399
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30833467",
+            "title": "Loss-of-Function Mutation in Thiamine Transporter 1 in a Family With Autosomal Dominant Diabetes.",
+            "authors": [
+              "Jungtrakoon Prapaporn",
+              "Shirakawa Jun",
+              "Buranasupkajorn Patinut",
+              "Gupta Manoj K",
+              "De Jesus Dario F"
+            ],
+            "journal": "Diabetes",
+            "year": "2019",
+            "abstract": "Solute Carrier Family 19 Member 2 (SLC19A2) encodes thiamine transporter 1 (THTR1), which facilitates thiamine transport across the cell membrane. SLC19A2 homozygous mutations have been described as a cause of thiamine-responsive megaloblastic anemia (TRMA), an autosomal recessive syndrome characterized by megaloblastic anemia, diabetes, and sensorineural deafness. Here we describe a loss-of-function SLC19A2 mutation (c.A1063C: p.Lys355Gln) in a family with early-onset diabetes and mild TRMA tra",
+            "classification": {
+              "study_type": "Case Series / Genetic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硫胺素反應性功能障礙綜合症 (TRMA/Rogers syndrome，SLC19A2 突變) 三聯症包含：巨幼紅細胞性貧血、感音神經性耳聾、糖尿病。其糖尿病成分為胰島β細胞功能障礙導致的胰島素分泌不足；胰島素替代治療是此症糖尿病表型的管理方案。PMID 30833467 提示硫胺素轉運缺陷→β細胞特異性損傷→胰島素缺乏→需要外源胰島素補充。注意：一線治療為高劑量硫胺素補充，可部分逆轉糖尿病；胰島素為輔助/後線選項。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.997914493083954,
+        "rank": 3529
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27708270",
+            "title": "INPPL1 gene mutations in opsismodysplasia.",
+            "authors": [
+              "Fradet Anaïs",
+              "Fitzgerald Jamie"
+            ],
+            "journal": "Journal of human genetics",
+            "year": "2017",
+            "abstract": "The INPPL1 (inositol polyphosphate phosphatase-like 1) gene encodes the inositol phosphatase, SHIP2 (for src homology 2 domain-containing inositol phosphatase 2). SHIP2 functions to dephosphorylate, and negatively regulate, the lipid second messenger phosphatidylinositol (3,4,5)P3. SHIP2 has been well studied in the area of insulin resistance and obesity but has roles in cancer and other disorders. Recently, it was reported that mutations in INPPL1 cause opsismodysplasia, a rare, autosomal reces",
+            "classification": {
+              "study_type": "Genetic Association Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27907247",
+            "title": "SHIP2: Structure, Function and Inhibition.",
+            "authors": [
+              "Thomas Mark P",
+              "Erneux Christophe",
+              "Potter Barry V L"
+            ],
+            "journal": "Chembiochem : a European journal of chemical biology",
+            "year": "2017",
+            "abstract": "SHIP2 is a phosphatase that acts at the 5-position of phosphatidylinositol 3,4,5-trisphosphate. It is one of several enzymes that catalyse dephosphorylation at the 5-position of phosphoinositides or inositol phosphates. SHIP2 has a confirmed role in opsismodysplasia, a disease of bone development, but also interacts with proteins involved in insulin signalling, cytoskeletal function (thus having an impact on endocytosis, adhesion, proliferation and apoptosis) and immune system function. The stru",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31519471",
+            "title": "Altered chondrocyte differentiation, matrix mineralization and MEK-Erk1/2 signaling in an INPPL1 catalytic knock-out mouse model of opsismodysplasia.",
+            "authors": [
+              "Vande Catsyne Charles-Andrew",
+              "Sayyed Sufyan Ali",
+              "Molina-Ortiz Patricia",
+              "Moes Bastien",
+              "Communi David"
+            ],
+            "journal": "Advances in biological regulation",
+            "year": "2020",
+            "abstract": "Opsismodysplasia (OPS) is a rare but severe autosomal recessive skeletal chondrodysplasia caused by inactivating mutations in the Inppl1/Ship2 gene. The molecular mechanism leading from Ship2 gene inactivation to OPS is currently unknown. Here, we used our Ship2Δ/Δ mouse expressing reduced amount of a catalytically-inactive SHIP2 protein and a previously reported SHIP2 inhibitor to investigate growth plate development and mineralization in vivo, ex vivo and in vitro. First, as observed in OPS pa",
+            "classification": {
+              "study_type": "Animal Model Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨骼發育不良症由 INPPL1 基因突變所致，INPPL1 編碼 SHIP2（SH2 domain-containing Inositol-5-Phosphatase 2）。SHIP2 為磷酸酶，水解 PIP3→PIP2，是胰島素信號的負向調節器（PI3K/Akt 路徑）。INPPL1 功能喪失突變→PIP3 蓄積→PI3K/Akt 過度激活→軟骨細胞分化與骨基質礦化異常（PMID 31519471 貓模型）。理論上胰島素進一步激活此過度活躍路徑存在風險；但 IGF-1 樣軟骨生長促進效應也值得探索。機轉高度推測性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9971815347671508,
+        "rank": 4387
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27823605",
+            "title": "Lipodystrophy Syndromes.",
+            "authors": [
+              "Hussain Iram",
+              "Garg Abhimanyu"
+            ],
+            "journal": "Endocrinology and metabolism clinics of North America",
+            "year": "2016",
+            "abstract": "Lipodystrophies are heterogeneous disorders characterized by varying degrees of body fat loss and predisposition to insulin resistance and its metabolic complications. They are subclassified depending on degree of fat loss and whether the disorder is genetic or acquired. The two most common genetic varieties include congenital generalized lipodystrophy and familial partial lipodystrophy; the two most common acquired varieties include acquired generalized lipodystrophy and acquired partial lipody",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 重大警示：胰島素注射本身是藥物誘發性局部脂肪營養不良的主要致病原因之一。反覆在同一部位注射胰島素→脂肪萎縮（lipoatrophy）或脂肪肥大（lipohypertrophy）。此為胰島素已知不良反應，非治療效應。TxGNN 可能錯誤通過「藥物-疾病」共現節點（病例報告中記錄胰島素相關脂肪萎縮）建立聯結，但方向性完全相反（致病而非治療）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.9970232844352722,
+        "rank": 4576
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "離心性脂肪萎縮症（Lipodystrophia centrifugalis abdominalis infantilis）為罕見兒科脂肪代謝疾病，病因未明。與胰島素無已知治療性機轉連結。可能為 TxGNN 通過脂質代謝相關節點群聚所產生的鄰近節點預測。廣義脂肪萎縮症的代謝異常（胰島素抵抗）通常以 leptin 替代治療，而非胰島素。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.9969800114631652,
+        "rank": 4618
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力誘發局部脂肪萎縮（如長期臥床、假肢壓迫）為機械性病因。與胰島素信號路徑無直接治療性關聯。TxGNN 預測可能源自 lipodystrophy 疾病群組的圖拓撲鄰近性，而非特異性機轉。注意：此類患者若合併糖尿病需使用胰島素，但這不構成胰島素對此病症的再利用證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.996955156326294,
+        "rank": 4644
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27189025",
+            "title": "Type 2 diabetes mellitus.",
+            "authors": [
+              "DeFronzo Ralph A",
+              "Ferrannini Ele",
+              "Groop Leif",
+              "Henry Robert R",
+              "Herman William H"
+            ],
+            "journal": "Nature reviews. Disease primers",
+            "year": "2015",
+            "abstract": "Type 2 diabetes mellitus (T2DM) is an expanding global health problem, closely linked to the epidemic of obesity. Individuals with T2DM are at high risk for both microvascular complications (including retinopathy, nephropathy and neuropathy) and macrovascular complications (such as cardiovascular comorbidities), owing to hyperglycaemia and individual components of the insulin resistance (metabolic) syndrome. Environmental factors (for example, obesity, an unhealthy diet and physical inactivity) ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39326417",
+            "title": "Transplantation of chemically induced pluripotent stem-cell-derived islets under abdominal anterior rectus sheath in a type 1 diabetes patient.",
+            "authors": [
+              "Wang Shusen",
+              "Du Yuanyuan",
+              "Zhang Boya",
+              "Meng Gaofan",
+              "Liu Zewen"
+            ],
+            "journal": "Cell",
+            "year": "2024",
+            "abstract": "We report the 1-year results from one patient as the preliminary analysis of a first-in-human phase I clinical trial (ChiCTR2300072200) assessing the feasibility of autologous transplantation of chemically induced pluripotent stem-cell-derived islets (CiPSC islets) beneath the abdominal anterior rectus sheath for type 1 diabetes treatment. The patient achieved sustained insulin independence starting 75 days post-transplantation. The patient's time-in-target glycemic range increased from a baseli",
+            "classification": {
+              "study_type": "Translational/Animal Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37817671",
+            "title": "Experimental study on physical exercise in diabetes: pathophysiology and therapeutic effects.",
+            "authors": [
+              "Messina Giuseppe",
+              "Alioto Anna",
+              "Parisi Maria Chiara",
+              "Mingrino Omar",
+              "Di Corrado Donatella"
+            ],
+            "journal": "European journal of translational myology",
+            "year": "2023",
+            "abstract": "Diabetes is a chronic disease. Some complications can be prevented, their effects can be slowed down.  Sedentary lifestyle increases the risk of obesity and consequently the predisposition to diabetes II. The article aimed to demonstrate the positive and negative effects of exercise on active and sedentary diabetics and on pathophysiology, evaluating the effects after 3 and 6 months. The study involved 90 participants, both male and female, with type II diabetes, aged 45, divided into two groups",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11818477",
+            "title": "Lipotoxic diseases.",
+            "authors": [
+              "Unger Roger H"
+            ],
+            "journal": "Annual review of medicine",
+            "year": "2002",
+            "abstract": "I review evidence that leptin is a liporegulatory hormone that controls lipid homeostasis in nonadipose tissues during periods of overnutrition. When adipocytes store excess calories as triacylglycerol (TG), leptin secretion rises so as to prevent accumulation of lipids in nonadipose tissues, which are not adapted for TG storage. Whenever leptin action is lacking, whether through leptin deficiency or leptin resistance, overnutrition causes disease of nonadipose tissues with generalized steatosis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24559925",
+            "title": "Zinc and its transporters, pancreatic β-cells, and insulin metabolism.",
+            "authors": [
+              "Huang Liping"
+            ],
+            "journal": "Vitamins and hormones",
+            "year": "2014",
+            "abstract": "Zinc is an essential trace metal for life. Two families of zinc transporters, SLC30A (ZNT) and SLC39A (ZIP) are required for maintaining cellular zinc homeostasis. ZNTs function to decrease cytoplasmic zinc concentrations whereas ZIPs do the opposite. Expression of zinc transporters can be tissue/cell-type specific or ubiquitous. Zinc transporters that are limited in tissue/cell distributions usually perform specialized tasks to satisfy biological processes in a given cell. For example, ZNT8 is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35499468",
+            "title": "Indirect and Direct Effects of SARS-CoV-2 on Human Pancreatic Islets.",
+            "authors": [
+              "Ben Nasr Moufida",
+              "D'Addio Francesca",
+              "Montefusco Laura",
+              "Usuelli Vera",
+              "Loretelli Cristian"
+            ],
+            "journal": "Diabetes",
+            "year": "2022",
+            "abstract": "Recent studies have shown that severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection may induce metabolic distress, leading to hyperglycemia in patients affected by coronavirus disease 19 (COVID-19). We investigated the potential indirect and direct effects of SARS-CoV-2 on human pancreatic islets in 10 patients who became hyperglycemic after COVID-19. Although there was no evidence of peripheral anti-islet autoimmunity, the serum of these patients displayed toxicity on human pa",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3286444",
+            "title": "Mutant insulin syndromes.",
+            "authors": [
+              "Vinik A",
+              "Bell G"
+            ],
+            "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et metabolisme",
+            "year": "1988",
+            "abstract": "Highly sensitive procedures for the characterization of molecular species of insulin in the circulation and for the isolation of the gene encoding human insulin have recently been developed. Nine subjects with abnormal forms of insulin or proinsulin have been reported. These include: [Leu B25], [Ser B24], [Leu A3] insulin as well as others that have not yet been identified. The clinical syndrome associated with the secretion of an abnormal insulin or proinsulin molecule presents with apparent en",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21050479",
+            "title": "Wolcott-Rallison syndrome.",
+            "authors": [
+              "Julier Cécile",
+              "Nicolino Marc"
+            ],
+            "journal": "Orphanet journal of rare diseases",
+            "year": "2010",
+            "abstract": "Wolcott-Rallison syndrome (WRS) is a rare autosomal recessive disease, characterized by neonatal/early-onset non-autoimmune insulin-requiring diabetes associated with skeletal dysplasia and growth retardation. Fewer than 60 cases have been described in the literature, although WRS is now recognised as the most frequent cause of neonatal/early-onset diabetes in patients with consanguineous parents. Typically, diabetes occurs before six months of age, and skeletal dysplasia is diagnosed within the",
+            "classification": {
+              "study_type": "Review/Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7021445",
+            "title": "Physiology of glucagon.",
+            "authors": [
+              "Gerich J E"
+            ],
+            "journal": "International review of physiology",
+            "year": "1981",
+            "abstract": "Recent evidence indicates that glucagon is important in the physiological regulation of hepatic glucose and ketone body metabolism. It is the major acute glucocounterregulatory hormone in man and is one of several hormones with actions antagonistic to those of insulin that can exacerbate the metabolic consequences of insulin deficiency. The secretion of glucagon is governed by both local (e.g., somatostatin) and systemic factors (e.g., substrates and catecholamines), the most important of which ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16723378",
+            "title": "Structural and functional changes in human insulin induced by methylglyoxal.",
+            "authors": [
+              "Jia Xuming",
+              "Olson Douglas J H",
+              "Ross Andrew R S",
+              "Wu Lingyun"
+            ],
+            "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+            "year": "2006",
+            "abstract": "Elevated methylglyoxal (MG) levels have been reported in insulin-resistance syndrome. The present study investigated whether MG, a highly reactive metabolite of glucose, induced structural and functional changes of insulin. Incubation of human insulin with MG in vitro yielded MG-insulin adducts, as evidenced by additional peaks observed on mass spectrometric (MS) analysis of the incubates. Tandem MS analysis of insulin B-chain adducts confirmed attachment of MG at an arginine residue. [3H]-2-deo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6360922",
+            "title": "Diurnal profile of pancreatic polypeptide, pancreatic glucagon, gut glucagon and insulin in human morbid obesity.",
+            "authors": [
+              "Holst J J",
+              "Schwartz T W",
+              "Lovgreen N A",
+              "Pedersen O",
+              "Beck-Nielsen H"
+            ],
+            "journal": "International journal of obesity",
+            "year": "1983",
+            "abstract": "The diurnal profiles of pancreatic glucagon, insulin, pancreatic polypeptide (PP), and enteroglucagon were studied in five obese non-diabetic subjects (195 +/- 11 per cent of ideal body weight) and in six age matched controls. All the subjects were served with ordinary mixed meals five times during the day. The obese subjects were normoglycemic but hyperinsulinemic. Both groups showed rapid increases in PP to all meals, but the PP-response was significantly impaired in the obese group during the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35688210",
+            "title": "SARS-CoV-2 infection impairs the insulin/IGF signaling pathway in the lung, liver, adipose tissue, and pancreatic cells via IRF1.",
+            "authors": [
+              "Shin Jihoon",
+              "Toyoda Shinichiro",
+              "Nishitani Shigeki",
+              "Onodera Toshiharu",
+              "Fukuda Shiro"
+            ],
+            "journal": "Metabolism: clinical and experimental",
+            "year": "2022",
+            "abstract": "COVID-19 can cause multiple organ damages as well as metabolic abnormalities such as hyperglycemia, insulin resistance, and new onset of diabetes. The insulin/IGF signaling pathway plays an important role in regulating energy metabolism and cell survival, but little is known about the impact of SARS-CoV-2 infection. The aim of this work was to investigate whether SARS-CoV-2 infection impairs the insulin/IGF signaling pathway in the host cell/tissue, and if so, the potential mechanism and associa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23006325",
+            "title": "Pancreas-specific deletion of mouse Gata4 and Gata6 causes pancreatic agenesis.",
+            "authors": [
+              "Xuan Shouhong",
+              "Borok Matthew J",
+              "Decker Kimberly J",
+              "Battle Michele A",
+              "Duncan Stephen A"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "2012",
+            "abstract": "Pancreatic agenesis is a human disorder caused by defects in pancreas development. To date, only a few genes have been linked to pancreatic agenesis in humans, with mutations in pancreatic and duodenal homeobox 1 (PDX1) and pancreas-specific transcription factor 1a (PTF1A) reported in only 5 families with described cases. Recently, mutations in GATA6 have been identified in a large percentage of human cases, and a GATA4 mutant allele has been implicated in a single case. In the mouse, Gata4 and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33527355",
+            "title": "Insights into the etiology and physiopathology of MODY5/HNF1B pancreatic phenotype with a mouse model of the human disease.",
+            "authors": [
+              "Quilichini Evans",
+              "Fabre Mélanie",
+              "Nord Christoffer",
+              "Dirami Thassadite",
+              "Le Marec Axelle"
+            ],
+            "journal": "The Journal of pathology",
+            "year": "2021",
+            "abstract": "Maturity-onset diabetes of the young type 5 (MODY5) is due to heterozygous mutations or deletion of HNF1B. No mouse models are currently available to recapitulate the human MODY5 disease. Here, we investigate the pancreatic phenotype of a unique MODY5 mouse model generated by heterozygous insertion of a human HNF1B splicing mutation at the intron-2 splice donor site in the mouse genome. This Hnf1bsp2/+ model generated with targeted mutation of Hnf1b mimicking the c.544+1G>T (<IVS2nt+1G>T) mutati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15543146",
+            "title": "Mutations in PTF1A cause pancreatic and cerebellar agenesis.",
+            "authors": [
+              "Sellick Gabrielle S",
+              "Barker Karen T",
+              "Stolte-Dijkstra Irene",
+              "Fleischmann Christina",
+              "Coleman Richard J"
+            ],
+            "journal": "Nature genetics",
+            "year": "2004",
+            "abstract": "Individuals with permanent neonatal diabetes mellitus usually present within the first three months of life and require insulin treatment. We recently identified a locus on chromosome 10p13-p12.1 involved in permanent neonatal diabetes mellitus associated with pancreatic and cerebellar agenesis in a genome-wide linkage search of a consanguineous Pakistani family. Here we report the further linkage analysis of this family and a second family of Northern European descent segregating an identical p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38180040",
+            "title": "Pancreas agenesis and fetal growth: a semi-quantitative analysis.",
+            "authors": [
+              "van Poppel Mireille N M",
+              "Nolan Christopher J",
+              "Desoye Gernot"
+            ],
+            "journal": "Endocrine connections",
+            "year": "2024",
+            "abstract": "Pancreas agenesis is a rare condition underlying a variant of permanent neonatal diabetes mellitus. Neonates with this condition are born small for gestational age, but less is known about which components of growth are impacted, the timing of the growth restriction and potential sex differences. Our objective was to assess in which periods in gestation complete pancreas agenesis restricts fetal growth and possible sex differences in susceptibility. Published cases (n=49) with pancreas agenesis ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25445538",
+            "title": "Resveratrol and diabetes: from animal to human studies.",
+            "authors": [
+              "Szkudelski Tomasz",
+              "Szkudelska Katarzyna"
+            ],
+            "journal": "Biochimica et biophysica acta",
+            "year": "2015",
+            "abstract": "Diabetes mellitus is a serious disease affecting about 5% of people worldwide. Diabetes is characterized by hyperglycemia and impairment in insulin secretion and/or action. Moreover, diabetes is associated with metabolic abnormalities and serious complications. Resveratrol is a natural, biologically active polyphenol present in different plant species and known to have numerous health-promoting effects in both animals and humans. Anti-diabetic action of resveratrol has been extensively studied i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27615140",
+            "title": "When β-cells fail: lessons from dedifferentiation.",
+            "authors": [
+              "Accili D",
+              "Talchai S C",
+              "Kim-Muller J Y",
+              "Cinti F",
+              "Ishida E"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2016",
+            "abstract": "Diabetes is caused by a combination of impaired responsiveness to insulin and reduced production of insulin by the pancreas. Until recently, the decline of insulin production had been ascribed to β-cell death. But recent research has shown that β-cells do not die in diabetes, but undergo a silencing process, termed \"dedifferentiation.\" The main implication of this discovery is that β-cells can be revived by appropriate treatments. We have shown that mitochondrial abnormalities are a key step in ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10389846",
+            "title": "Enhancing effects of long-term elevated glucose and palmitate on stored and secreted proinsulin-to-insulin ratios in human pancreatic islets.",
+            "authors": [
+              "Björklund A",
+              "Grill V"
+            ],
+            "journal": "Diabetes",
+            "year": "1999",
+            "abstract": "Relative hypersecretion of proinsulin is a feature of type 2 diabetes. We investigated to what extent this feature can be induced in human pancreatic islets by elevated glucose or fatty acids, two major abnormalities of the diabetic state. A 48-h culture period with 27 mmol/l glucose increased the intraislet proinsulin-to-insulin (PI/I) ratio 5.0-fold, owing to preferential decrease of insulin. The PI/I ratio in culture medium was enhanced 1.9-fold versus islets cultured with 5.5 mmol/l glucose.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰腺發育不全（完全型或部分型）→胰島β細胞缺如→內源性胰島素分泌完全喪失→新生兒糖尿病（NDM）。胰島素替代治療是此症的核心管理策略，機轉直接且無爭議：補充缺失的內源性胰島素以維持血糖穩態。這是胰島素最直接的治療適應—針對絕對胰島素缺乏的替代療法。文獻涵蓋幹細胞異種移植（PMID 39326417）、代謝機轉（PMID 7021445, 11818477）、β細胞功能（PMID 24559925, 35499468）等多面向支持。注意：此為胰島素「延伸適應症」而非嚴格意義之再利用；臨床實踐已存在，缺乏的是適應症特異性正式臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9968144297599792,
+        "rank": 4778
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性局部脂肪營養不良病因未明，可能涉及局部免疫、機械或血管機轉。與胰島素無已知直接治療性連結。如同其他脂肪萎縮亞型，廣泛脂肪萎縮伴嚴重胰島素抵抗可考慮 leptin（metreleptin）而非胰島素治療。TxGNN 預測可能為 lipodystrophy cluster 節點鄰近效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin human",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

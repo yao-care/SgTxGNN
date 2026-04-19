@@ -1,0 +1,1162 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00053-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Imiglucerase",
+    "drugbank_id": "DB00053",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Hurler syndrome",
+      "txgnn": {
+        "score": 0.9952282905578612,
+        "rank": 6293
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20534487",
+            "title": "Imaging of enzyme replacement therapy using PET.",
+            "authors": [
+              "Phenix Christopher P",
+              "Rempel Brian P",
+              "Colobong Karen",
+              "Doudet Doris J",
+              "Adam Michael J"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2010",
+            "abstract": "Direct enzyme replacement therapy (ERT) has been introduced as a means to treat a number of rare, complex genetic conditions associated with lysosomal dysfunction. Gaucher disease was the first for which this therapy was applied and remains the prototypical example. Although ERT using recombinant lysosomal enzymes has been shown to be effective in altering the clinical course of Gaucher disease, Fabry disease, Hurler syndrome, Hunter syndrome, Maroteaux-Lamy syndrome, and Pompe disease, the reca",
+            "classification": {
+              "study_type": "技術性研究（PET影像應用於ERT監測）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21211680",
+            "title": "[Enzyme replacement therapy of lysosomal storage diseases].",
+            "authors": [
+              "Germain D P",
+              "Boucly C",
+              "Carlier R Y",
+              "Caudron E",
+              "Charlier P"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2010",
+            "abstract": "Extraction and purification of an acid β-glucosidase from human placenta (alglucerase) for the treatment of Gaucher disease, replaced a few years later by a recombinant enzyme (imiglucérase, Cerezyme(®)), has paved the way to the development of enzyme replacement therapies (ERT) for the treatment of lysosomal storage diseases (LSD) among which Fabry disease for which the long-term efficacy of the two currently available preparations (agalsidase alfa, Replagal(®) and Fabrazyme(®)) is still being ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hurler syndrome（MPS I）為 alpha-L-iduronidase 缺乏，導致醣胺聚醣堆積。Imiglucerase 作用酵素為 glucocerebrosidase（GBA），兩者為不同溶小體酵素，無交叉活性。TxGNN 高分反映同屬溶小體儲積症的疾病類別相似性，非酵素特異性治療依據。標準治療為 laronidase（Aldurazyme，alpha-L-iduronidase ERT）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Scheie syndrome",
+      "txgnn": {
+        "score": 0.9928949475288392,
+        "rank": 8314
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21211680",
+            "title": "[Enzyme replacement therapy of lysosomal storage diseases].",
+            "authors": [
+              "Germain D P",
+              "Boucly C",
+              "Carlier R Y",
+              "Caudron E",
+              "Charlier P"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2010",
+            "abstract": "Extraction and purification of an acid β-glucosidase from human placenta (alglucerase) for the treatment of Gaucher disease, replaced a few years later by a recombinant enzyme (imiglucérase, Cerezyme(®)), has paved the way to the development of enzyme replacement therapies (ERT) for the treatment of lysosomal storage diseases (LSD) among which Fabry disease for which the long-term efficacy of the two currently available preparations (agalsidase alfa, Replagal(®) and Fabrazyme(®)) is still being ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Scheie syndrome 為 MPS I 的輕型表現（Hurler syndrome 的等位基因變異體），同樣缺乏 alpha-L-iduronidase。與 Hurler syndrome 相同，Imiglucerase 之 glucocerebrosidase 活性與 MPS I 的致病酵素無關。無任何 imiglucerase 對 Scheie syndrome 之直接臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "benign neoplasm of adrenal gland",
+      "txgnn": {
+        "score": 0.9928037524223328,
+        "rank": 8375
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何已知機轉連結 imiglucerase（glucocerebrosidase ERT）與腎上腺良性腫瘤。Gaucher disease 中雖有報告巨噬細胞浸潤腎上腺，但 imiglucerase 治療腎上腺腫瘤無文獻支持。TxGNN 預測分數可能源於 Gaucher disease 偶發腎上腺受累之知識圖譜連結，非治療性依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "autosomal ichthyosis syndrome with fatal disease course",
+      "txgnn": {
+        "score": 0.9923737645149232,
+        "rank": 8733
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體隱性致死性魚鱗癬症候群（可能包含 Gaucher disease type 2/3 之皮膚表現）。若病因為 GBA 突變，imiglucerase 理論上有機轉連結，然而神經型 Gaucher disease 的 CNS 受累並不能被 imiglucerase 有效治療（血腦屏障穿透力不足）。現無臨床試驗或文獻支持此具體診斷分類。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "cholesteryl ester storage disease",
+      "txgnn": {
+        "score": 0.9911931157112122,
+        "rank": 9659
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cholesteryl ester storage disease（CESD）為溶小體酸性脂肪酶（LAL）缺乏，與 imiglucerase 靶向的 glucocerebrosidase 為不同酵素系統。LAL 缺乏的 ERT 為 sebelipase alfa（Kanuma），兩者無交叉治療可能。TxGNN 高分源於同屬溶小體膽固醇代謝相關疾病之類別連結，無臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "lysosomal storage disease with skeletal involvement",
+      "txgnn": {
+        "score": 0.9894155263900756,
+        "rank": 10952
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01842841",
+            "title": "A Multicenter, Open-label Extension Study of Velaglucerase Alfa Enzyme Replacement Therapy in Japanese Patients With Gaucher Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 5,
+            "start_date": "2013-03-13",
+            "completion_date": "2014-10-08",
+            "brief_summary": "Gaucher disease is an inherited deficiency of the lysosomal enzyme glucocerebrosidase (GCB) that leads to progressive accumulation of glucocerebroside within macrophages and subsequent tissue and organ damage; typically of the liver, spleen, bone marrow, and brain. Type 1 Gaucher disease affects an estimated 30,000 persons worldwide and is the most common. Type 1 Gaucher disease does not involve the central nervous system. Patients with Type 2 Gaucher disease present with acute neurological dete",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Velaglucerase alfa（非 imiglucerase）的 Phase 3 延伸研究，目標疾病（Gaucher disease 骨骼受累）相同。提供類別有效性支持，但受試者僅 5 人且為日本延伸試驗，不直接代表 imiglucerase 之試驗數據。"
+            }
+          },
+          {
+            "nct_id": "NCT04656600",
+            "title": "A Single Arm, Prospective, Open Label, Multicenter Study to Evaluate Efficacy and Safety of One-year Maximum Dosage in Chinese Label of Imiglucerase Treatment in Chinese Patients Who Are Diagnosed as Gaucher Disease Type Ⅲ",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2021-03-02",
+            "completion_date": "2023-10-12",
+            "brief_summary": "Primary Objective\n\n* To evaluate the efficacy on hematologic manifestations of imiglucerase treatment in Chinese patients who are diagnosed as Gaucher disease type Ⅲ\n* To evaluate the safety profile of imiglucerase in maximum dose in the label (60U/kg, IV biweekly) in Chinese patients.\n\nSecondary Objective\n\n* To evaluate the efficacy on viscera manifestations of imiglucerase treatment in Chinese patients who are diagnosed as Gaucher disease type Ⅲ\n* To evaluate the efficacy on bone disease of im",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 上市後研究，n=12，同類 ERT 之骨骼指標追蹤研究。規模小，但強化同類療法對骨骼受累 Gaucher disease 之持續安全有效性支持。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9050375",
+            "title": "Gaucher disease.",
+            "authors": [
+              "Beutler E"
+            ],
+            "journal": "Current opinion in hematology",
+            "year": "1997",
+            "abstract": "Many mutations affecting the glucocerebrosidase gene have been defined as causes of the glycolipid storage disorder, Gaucher disease. These correlate to a certain extent with the clinical course of the disease. Studies of the natural history of Gaucher disease show that progression is usually very slow. Pulmonary involvement, usually regarded as a very rare manifestation, has received more attention recently, and minor abnormalities have been documented in many patients. Replacement of the defic",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20055531",
+            "title": "Recombinant glucocerebrosidase (imiglucerase) as a therapy for Gaucher disease.",
+            "authors": [
+              "Pastores Gregory M"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2010",
+            "abstract": "Imiglucerase is a recombinant formulation of human glucocerebrosidase, which is administered to patients with Gaucher disease (GD) as enzyme replacement therapy (ERT). Imiglucerase is generated from transduced Chinese hamster ovary cells, and modified by sequential deglycosylation of its carbohydrate side chains to expose alpha-mannosyl residues that mediate the uptake of the intravenously infused enzyme. The majority of patients initiate therapy on a fortnightly basis, using imiglucerase doses ",
+            "classification": {
+              "study_type": "Review / ERT綜述",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17539908",
+            "title": "Imiglucerase (Cerezyme) improves quality of life in patients with skeletal manifestations of Gaucher disease.",
+            "authors": [
+              "Weinreb N",
+              "Barranger J",
+              "Packman S",
+              "Prakash-Cheng A",
+              "Rosenbloom B"
+            ],
+            "journal": "Clinical genetics",
+            "year": "2007",
+            "abstract": "Health-related quality of life (HRQOL) can be diminished in patients with type 1 Gaucher disease (GD) owing to the debilitating clinical manifestations of this chronic disease. This study investigates the impact of imiglucerase treatment on HRQOL of patients with type 1 GD and bone involvement. Thirty-two previously untreated type 1 GD patients with skeletal manifestations including bone pain, medullary infarctions, avascular necrosis, and lytic lesions received biweekly imiglucerase (at 60 U/kg",
+            "classification": {
+              "study_type": "Cohort / 觀察性研究",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9453101",
+            "title": "Gaucher disease: assessment of skeletal involvement and therapeutic responses to enzyme replacement.",
+            "authors": [
+              "Hermann G",
+              "Pastores G M",
+              "Abdelwahab I F",
+              "Lorberboym A M"
+            ],
+            "journal": "Skeletal radiology",
+            "year": "1997",
+            "abstract": "The clinical, pathological and radiological manifestations of type 1 Gaucher disease and the role of imaging techniques such as CT, MRI and sulfur-colloid scintigraphy in the management of these patients is discussed. MRI appears to be the most valuable imaging technique for evaluating bone marrow involvement and detecting disease activity. MRI is also useful in assessing therapeutic responses to enzyme replacement therapy.",
+            "classification": {
+              "study_type": "臨床研究 / 療效評估",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12803930",
+            "title": "Gaucher disease and the clinical experience with substrate reduction therapy.",
+            "authors": [
+              "Zimran Ari",
+              "Elstein Deborah"
+            ],
+            "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+            "year": "2003",
+            "abstract": "Gaucher disease is caused by an enzymatic defect with consequent accumulation of glucocerebroside. Type I, the non-neuronopathic form, is rather common and panethnic. Patients may present with hepatosplenomegaly, anaemia, thrombocytopenia and skeletal or lung involvement. Enzyme replacement therapy ameliorates disease symptoms and signs; however, it involves lifelong intravenous therapy, is costly and is incapable of crossing the blood-brain barrier. Substrate reduction with N-butyldeoxynojirimy",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18553043",
+            "title": "Changes of bone metabolism in seven patients with Gaucher disease treated consecutively with imiglucerase and miglustat.",
+            "authors": [
+              "Mikosch P",
+              "Reed M",
+              "Baker R",
+              "Holloway B",
+              "Berger L"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2008",
+            "abstract": "Bone manifestations are frequent in Gaucher disease (GD), the most prevalent lysosomal storage disorder. Currently, therapy with enzyme replacement (ERT) or substrate reduction (SRT) is available. We investigated changes of laboratory parameters associated with bone metabolism in GD patients switching from ERT to SRT. Seven GD patients consecutively treated with ERT and SRT were studied. All patients had different degrees of bone involvement. Laboratory results were acquired at the time of chang",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22640238",
+            "title": "Characteristics of type I Gaucher disease associated with persistent thrombocytopenia after treatment with imiglucerase for 4-5 years.",
+            "authors": [
+              "Hollak Carla E M",
+              "Belmatoug Nadia",
+              "Cole J Alexander",
+              "Vom Dahl Stephan",
+              "Deegan Patrick B"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2012",
+            "abstract": "The characteristics of Gaucher disease (GD) associated with persistent thrombocytopenia despite imiglucerase enzyme therapy in type 1 GD (GD1) were investigated by retrospective analysis of International Collaborative Gaucher Group (ICGG) Registry data. The study involved 1016 GD1 patients with an intact spleen for whom date of diagnosis, therapy initiation, and platelet counts were known, and who received continuous imiglucerase therapy for 4 to 5 years. These patients were stratified by last p",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21889384",
+            "title": "Therapeutic approaches to bone pathology in Gaucher disease: past, present and future.",
+            "authors": [
+              "Goker-Alpan Ozlem"
+            ],
+            "journal": "Molecular genetics and metabolism",
+            "year": "2011",
+            "abstract": "Enzyme replacement therapy (ERT) is effective for the treatment of the systemic manifestations of Gaucher disease (GD) and can have a significant impact on skeletal manifestations. Bone involvement is broad and can occur in otherwise clinically asymptomatic individuals. The heterogeneity in GD-related bone disease may implicate multiple pathological processes such as disruption of coordinated bone cell activity, in addition to the physical impact of Gaucher cells causing vascular occlusion. Accu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8931951",
+            "title": "Effect of low-dose enzyme replacement therapy on bones in Gaucher disease patients with severe skeletal involvement.",
+            "authors": [
+              "Elstein D",
+              "Hadas-Halpern I",
+              "Itzchaki M",
+              "Lahad A",
+              "Abrahamov A"
+            ],
+            "journal": "Blood cells, molecules & diseases",
+            "year": "1996",
+            "abstract": "Gaucher disease, the most common glycolipid storage disorder, is characterized by hepatosplenomegaly and skeletal involvement. Enzyme replacement therapy in both the high- and low-dose regimens has been shown to be effective in reducing the organomegaly and improving the hematological parameters of symptomatic patients with type I disease. Herein we report subjective and objective responses of bone-related complications after 2 to 4 years of low-dose enzyme replacement therapy in 14 adult type I",
+            "classification": {
+              "study_type": "臨床試驗（劑量研究）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27441734",
+            "title": "Glucosylsphingosine is a key biomarker of Gaucher disease.",
+            "authors": [
+              "Murugesan Vagishwari",
+              "Chuang Wei-Lien",
+              "Liu Jun",
+              "Lischuk Andrew",
+              "Kacena Katherine"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2016",
+            "abstract": "Gaucher disease (GD) involves the accumulation of glucosylceramide (GL1) and its deacylated lysolipid, glucosylsphingosine (lyso-GL1) which is implicated in mediating immune dysregulation and skeletal disease. The aim of our study was to assess plasma Lyso-GL1 as a biomarker of GD and its response to therapy. Plasma lyso-GL1 in 169 patients with GD type 1 (GD1) was measured by LC-MS/MS. Significant predictors of plasma LGL1 were assessed by Pearson's correlation coefficient, Wilcoxon Mann Whitne",
+            "classification": {
+              "study_type": "生物標記研究",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12556220",
+            "title": "Substrate reduction therapy: miglustat as a remedy for symptomatic patients with Gaucher disease type 1.",
+            "authors": [
+              "Pastores Gregory M",
+              "Barnett Natalie L"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2003",
+            "abstract": "Gaucher disease (GD) is an inborn error of glycosphingolipid metabolism, associated with multisystemic manifestations resulting from the lysosomal accumulation of an incompletely degraded material (glucosylceramide) within cells of monocyte/macrophage lineage. In the majority of GD patients with non-neurological involvement (type 1), the clinical features are dominated by haematological, visceral (hepatic and splenic) and skeletal complications. Infrequently, cardiopulmonary involvement may deve",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34500086",
+            "title": "Clinical-genetic characteristics and treatment outcomes of Turkish children with Gaucher disease type 1 and type 3: A sixteen year single-center experience.",
+            "authors": [
+              "Gumus Ersin",
+              "Karhan Asuman Nur",
+              "Hizarcioglu-Gulsen Hayriye",
+              "Demir Hulya",
+              "Ozen Hasan"
+            ],
+            "journal": "European journal of medical genetics",
+            "year": "2021",
+            "abstract": "Data from 38 children were retrospectively analyzed to determine the patient characteristics of Turkish children with Gaucher disease (GD) and evaluate the impact of enzyme replacement therapy (ERT) in a pediatric cohort consisting of two different sub-types of the disease, Gaucher disease type 1 (GD1) and type 3 (GD3). Both types were represented equally (GD1/GD3 = 20/18). L444P (35.5%) was the most common mutant allele while L444P/L444P (34.2%) was the most common genotype overall. Compound he",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17414023",
+            "title": "Use of plain radiography to optimize skeletal outcomes in children with type 1 Gaucher disease in Brazil.",
+            "authors": [
+              "Mota Ronald M V",
+              "Mankin Henry"
+            ],
+            "journal": "Journal of pediatric orthopedics",
+            "year": "2007",
+            "abstract": "Gaucher disease is the most common lysosomal storage disease and is caused by deficient production and activity of the lysosomal enzyme beta-glucosidase (glucocerebrosidase), resulting in progressive accumulation of glucosylceramide (glucocerebroside) in lysosomes of cells of the reticuloendothelial system in the spleen, liver, and marrow. Clinical manifestations include anemia, thrombocytopenia, hepatosplenomegaly, and bone complications, including bone pain, bone marrow infiltration, lytic les",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22954583",
+            "title": "Minimal disease activity in Gaucher disease: criteria for definition.",
+            "authors": [
+              "Di Rocco Maja",
+              "Andria Generoso",
+              "Bembi Bruno",
+              "Carubbi Francesca",
+              "Giona Fiorina"
+            ],
+            "journal": "Molecular genetics and metabolism",
+            "year": "2012",
+            "abstract": "Gaucher disease type I is a metabolic disorder caused by a genetic deficiency of lysosomal β-glucocerebrosidase that leads to accumulation of glucocerebroside in macrophages, thus causing damage in different organ systems. Enzyme replacement therapy with imiglucerase improves organ impairment and clinical manifestations, but patients differ in response to treatment. While clinical remission is the most desirable therapeutic outcome, a more realistic goal in patients with high disease burden is r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22916340",
+            "title": "Taliglucerase alfa for the treatment of Gaucher's disease.",
+            "authors": [
+              "Haddley K"
+            ],
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2012",
+            "abstract": "Gaucher's disease is a rare inherited inborn error of metabolism caused by mutations in the gene encoding the lysosomal enzyme glucocerebrosidase, GBA. Glucocerebrosidase is involved in the metabolism of the lipid metabolism-derived substrate, glucocerebroside. Accumulation of glucocerebroside substrate in macrophages, as a result of loss of enzyme function, leads to the formation of Gaucher cells causing hypertrophy of the spleen and liver, hematological disorders, skeletal malformations and th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30790003",
+            "title": "A Comprehensive Study of Bone Manifestations in Adult Gaucher Disease Type 1 Patients in Argentina.",
+            "authors": [
+              "Oliveri Beatriz",
+              "González Diana",
+              "Quiroga Felisa",
+              "Silva Claudio",
+              "Rozenfeld Paula"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2019",
+            "abstract": "Gaucher disease (GD) is the most prevalent lysosomal storage disease, and bone involvement is the most disabling condition. The aim of the present study was to evaluate bone involvement in adult patients with GD, using an observational cross-sectional study. Patients were evaluated using X-rays, bone densitometry (BMD), trabecular bone score (TBS), magnetic resonance imaging (MRI), and biochemical bone markers. Thirty-two type 1GD patients were included (mean age: 40 ± 16 years). Patients had re",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25127542",
+            "title": "Long term effects of enzyme replacement therapy in an Italian cohort of type 3 Gaucher patients.",
+            "authors": [
+              "Sechi Annalisa",
+              "Deroma Laura",
+              "Dardis Andrea",
+              "Ciana Giovanni",
+              "Bertin Nicole"
+            ],
+            "journal": "Molecular genetics and metabolism",
+            "year": "2014",
+            "abstract": "The chronic neuropathic form of Gaucher disease (GD3) is characterised by hepatosplenomegaly, anaemia, thrombocytopenia, bone alterations and central neurological involvement. Enzyme replacement therapy (ERT) has been demonstrated to be effective in non neuropathic Gaucher disease, but long term results in patients with GD3 are still limited and contrasting. A possible role of genotype in determining the response to ERT has been hypothesised.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41096096",
+            "title": "Ten-Year Follow-Up of Taliglucerase Alfa in Type 1 Gaucher Disease: Real-World Evidence from Albania.",
+            "authors": [
+              "Cullufi Paskal",
+              "Velmishi Virtut",
+              "Troja Erjon",
+              "Tomori Sonila",
+              "Dervishi Ermira"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2025",
+            "abstract": "Background/Objectives: Gaucher disease type 1 is an autosomal recessive lysosomal storage disorder caused by pathogenic variants in the GBA1 gene. Although enzyme replacement therapy has improved patient outcomes, there is limited long-term real-world data on taliglucerase alfa. This study aimed to evaluate the long-term efficacy and safety of taliglucerase alfa in both treatment-naïve and previously treated patients with Gaucher disease type 1 over a 10-year period. Methods: This prospective, s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11587517",
+            "title": "Magnetic resonance imaging of bone marrow changes in Gaucher disease during enzyme replacement therapy: first German long-term results.",
+            "authors": [
+              "Poll L W",
+              "Koch J A",
+              "vom Dahl S",
+              "Willers R",
+              "Scherer A"
+            ],
+            "journal": "Skeletal radiology",
+            "year": "2001",
+            "abstract": "Since 1991, enzyme replacement therapy (ERT) has been available for patients with Gaucher disease in Germany. The aim of this study was to analyse the MR pattern of bone marrow involvement and response to ERT in Gaucher disease type I.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17217655",
+            "title": "[A retrospective study on enzyme replacement therapy in patients with Gaucher disease].",
+            "authors": [
+              "Duan Yan-long",
+              "Zhang Yong-hong",
+              "Zang Yan",
+              "Shi Hui-ping",
+              "Zhang Wei-min"
+            ],
+            "journal": "Zhonghua er ke za zhi = Chinese journal of pediatrics",
+            "year": "2006",
+            "abstract": "Gaucher disease is the most common lysosomal storage disorder. A deficiency of beta-glucocerebrosidase causes accumulation of the glucocerebroside in macrophages throughout the body. This study summarizes the effects of enzyme replacement therapy (ERT) with Imiglucerase in children with Gaucher disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此分類實質上等同於 Gaucher disease type 1（骨骼受累型），為 imiglucerase 的全球已核准適應症（FDA 1994年核准，EMA核准）。GBA 基因突變導致 glucocerebrosidase 缺乏 → glucosylceramide（葡萄糖腦苷脂）於溶小體堆積 → 活化巨噬細胞浸潤骨髓 → 骨痛、骨梗塞、骨壞死、骨質疏鬆。Imiglucerase 提供外源性 glucocerebrosidase，降低底物堆積，改善骨骼表現。【注意：本地市場標記為未上市，建議確認台灣/當地健保給付狀態。臨床試驗顯示之 velaglucerase alfa 為同類不同分子，支持類別有效性。】",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Wolman disease with hypolipoproteinemia and acanthocytosis",
+      "txgnn": {
+        "score": 0.9893085956573486,
+        "rank": 11033
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Wolman disease 為溶小體酸性脂肪酶（LAL）完全缺乏，與 imiglucerase 靶向的 glucocerebrosidase 無關。標準 ERT 為 sebelipase alfa。'hypolipoproteinemia and acanthocytosis' 亞型提示脂蛋白代謝嚴重紊亂，imiglucerase 對此無已知療效機制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Wolman disease",
+      "txgnn": {
+        "score": 0.9878298044204712,
+        "rank": 12188
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上（Wolman disease with hypolipoproteinemia 之完整型別）。LAL 缺乏與 GBA 缺乏為不同溶小體酵素系統，無再利用依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "proximal myopathy with extrapyramidal signs",
+      "txgnn": {
+        "score": 0.985367715358734,
+        "rank": 13981
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "近端肌病變合併錐體外症候群可能與溶小體儲積疾病（如 Pompe disease、Gaucher disease type 3）有關。若為 Gaucher disease type 3（神經型），理論上 imiglucerase 對骨骼和內臟有效，但 CNS 錐體外症狀因血腦屏障限制而不可治療。目前無文獻支持 imiglucerase 用於此特定診斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant",
+      "txgnn": {
+        "score": 0.9848676323890686,
+        "rank": 14279
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此罕見自體顯性免疫調節異常合併生長激素不敏感症候群（可能涉及 STAT5B 突變），與 imiglucerase 之 glucocerebrosidase 替代機轉無任何已知連結。TxGNN 高分可能源於知識圖譜中免疫相關節點的非特異性連結。完全無支持文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Hurler syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Hurler syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Hurler syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Scheie syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Scheie syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Scheie syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "benign neoplasm of adrenal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "benign neoplasm of adrenal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "benign neoplasm of adrenal gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "autosomal ichthyosis syndrome with fatal disease course"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "autosomal ichthyosis syndrome with fatal disease course"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "autosomal ichthyosis syndrome with fatal disease course"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "cholesteryl ester storage disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "cholesteryl ester storage disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "cholesteryl ester storage disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "lysosomal storage disease with skeletal involvement"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "lysosomal storage disease with skeletal involvement"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "lysosomal storage disease with skeletal involvement"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Wolman disease with hypolipoproteinemia and acanthocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Wolman disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Wolman disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "Wolman disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "proximal myopathy with extrapyramidal signs"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "proximal myopathy with extrapyramidal signs"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "proximal myopathy with extrapyramidal signs"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Imiglucerase",
+        "disease": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,2812 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00332-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ipratropium",
+    "drugbank_id": "DB00332",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "obstructive lung disease",
+      "txgnn": {
+        "score": 0.999728262424469,
+        "rank": 745
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02233881",
+            "title": "Post-marketing Surveillance (as Per § 67(6) AMG [German Drug Law]) of Atrovent® Inhalets in Chronic Obstructive Pulmonary Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 4222,
+            "start_date": "2001-01",
+            "completion_date": "",
+            "brief_summary": "Study to obtain further information on the tolerability and efficacy of Atrovent® inhalets in the treatment of Chronic Obstructive Pulmonary Disease under conditions of daily practice",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "上市後監測研究（n=4222），直接以 Atrovent® 為研究藥物於 COPD 族群，真實世界大規模證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00117182",
+            "title": "A Phase II Study to Investigate Mannitol Challenge as a Tool to Predict Treatment Response to Inhaled Corticosteroids in COPD",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2005-07",
+            "completion_date": "2006-08",
+            "brief_summary": "The purpose of this study is to determine whether the Aridol (mannitol) challenge test can predict response to treatment with inhaled corticosteroids in COPD subjects. Subjects will undergo an Aridol test and then 3 months of treatment with inhaled corticosteroids. The effect on lung function and quality of life will then be measured and correlated with the Aridol test result.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估呼吸道反應作為吸入治療預測工具，Ipratropium 為研究治療選項之一，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT02182713",
+            "title": "Combivent vs. Salbutamol in Patients With Metacholine Induced Bronchospasm",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "1998-05",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study was to evaluate whether 2 puffs of fixed combination of aerosolized 120 mcg salbutamol sulphate (equivalent to 100 mcg of the base) + 20 mcg ipratropium bromide confers significant additional protection against metacholine induced bronchoconstriction in asthmatic atopic patients when compared to 2 puffs of aerosolized 100 mcg salbutamol alone.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 研究直接評估含 Ipratropium 之 Combivent 在支氣管痙攣的療效，相關性高。"
+            }
+          },
+          {
+            "nct_id": "NCT00000568",
+            "title": "Lung Health Study (LHS) I and III",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "1984-09",
+            "completion_date": "2005-01",
+            "brief_summary": "In the Lung Health Study I, to determine the effects of Special Care, compared to Usual Care, on rate of decline in pulmonary function in a group of cigarette smokers identified as having mild abnormalities in pulmonary function.\n\nIn the Lung Health Study III, to determine the long-term effects of smoking cessation and continued smoking, on cardiopulmonary morbidity, mortality, and the rate of decline in the one second forced expiratory volume (FEV1) in men and women with early chronic obstructi",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "指標性 Phase 3 RCT，直接評估 Ipratropium 在早期 COPD 患者的長期療效，奠定藥物在阻塞性肺疾病的核心地位。"
+            }
+          },
+          {
+            "nct_id": "NCT07112456",
+            "title": "Nebulized Ketamine Plus Standard Care vs. Standard Care Alone in Moderate to Severe Asthma Exacerbations: A Randomized Clinical Trial (KET-AIR Trial)",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2026-09-01",
+            "completion_date": "2029-08-31",
+            "brief_summary": "The goal of this clinical trial is to learn if nebulized ketamine helps treat moderate to severe asthma attacks in adults in the emergency department. It will also learn about the safety of ketamine when inhaled through a nebulizer.\n\nThe main questions it aims to answer are:\n\n* Does nebulized ketamine improve breathing more than standard treatment alone?\n* What side effects, if any, do participants experience after receiving nebulized ketamine?\n\nResearchers will compare nebulized ketamine to a p",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Ipratropium 為標準治療背景藥物而非研究主藥，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT02172469",
+            "title": "A Comparison of 18 µg of Tiotropium Inhalation Capsules and Atrovent® Metered Dose Inhaler (2 Puffs of 20 µg, 4 Times Daily) in a Double-Blind, Double-Dummy, Efficacy and Safety Study in Adults With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 215,
+            "start_date": "2001-05",
+            "completion_date": "",
+            "brief_summary": "To compare the bronchodilator efficacy and safety of tiotropium inhalation capsules (18 µg once daily) and Atrovent® MDI (2 puffs of 20µg q.i.d.) among Filipino patients with COPD",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較 Ipratropium（Atrovent®）vs. Tiotropium，Phase 3，提供本藥物在阻塞性肺疾病的比較療效資料。"
+            }
+          },
+          {
+            "nct_id": "NCT02182700",
+            "title": "Open Study on the Efficacy and Safety of Combivent® Aerosol (120 mcg Salbutamol Sulfate Plus 20 mcg Ipratropium Bromide) + Spacer, 12 to 24 Puffs, in Adult Patients With Moderate to Severe Asthma Crisis",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 47,
+            "start_date": "1998-07",
+            "completion_date": "",
+            "brief_summary": "Study to evaluate the bronchodilator efficacy and safety of a fixed combination of salbutamol sulfate (120 mcg) + ipratropium bromide (20mcg) (Combivent® MDI) in aerosol plus spacer in adult patients with moderate-to-severe asthma crisis who arrived at the emergency room.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "含 Ipratropium 的 Combivent 直接相關研究，但因提早終止（n=47），資料不完整，降為 B 級。"
+            }
+          },
+          {
+            "nct_id": "NCT00846586",
+            "title": "A Randomized, Double-blind, Controlled, Parallel-group, 12-week Study to Compare the Efficacy and Safety of the Combination of Indacaterol 150 µg Once Daily With Open Label Tiotropium 18 µg Once Daily Versus Open Label Tiotropium 18 µg Once Daily in Patients With Moderate-to-severe Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1134,
+            "start_date": "2009-03",
+            "completion_date": "2010-03",
+            "brief_summary": "This study assessed the efficacy and safety of indacaterol (150 µg once daily \\[od\\]) when combined with tiotropium (18 µg od) versus tiotropium (18 µg od) treatment alone in patients with chronic obstructive pulmonary disease (COPD)",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "大型（n=1134）Phase 3 RCT，直接比較支氣管擴張劑療效於 COPD 族群，高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00200967",
+            "title": "Asthma Clinical Research Network (ACRN) Trial - Long-Acting Beta Agonist Response by Genotype (LARGE)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 87,
+            "start_date": "2004-12",
+            "completion_date": "2008-02",
+            "brief_summary": "The purpose of this trial is to determine whether regularly scheduled use of an inhaled long-acting beta agonist (salmeterol) in the setting of concomitant use of inhaled corticosteroids (beclomethasone hydroflouroalkane (HFA) inhaler) will have a detrimental effect on asthma control in people who bear the B16-Arg/Arg genotype of the beta-2 adrenergic receptor gene, as compared to people with asthma of similar severity who bear the B16-Gly/Gly genotype.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "ACRN Phase 3 研究，雖主要關注 LABA 療效，Ipratropium 仍為對照組或標準治療背景藥物。"
+            }
+          },
+          {
+            "nct_id": "NCT05565430",
+            "title": "Vocal Cord Responses During Hyperventilation in Normal Individuals and in Mild and Severe",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2018-06-01",
+            "completion_date": "2025-02-10",
+            "brief_summary": "The Investigators aim to:\n\n1. Study the effect of hyperventilation on the development of paradoxical vocal cord movement (PVCM) in healthy individuals and in patients with mild and severe asthma,\n2. Relate PVCM to airway symptoms and measurements of intra- and extra-thoracic airway hyperresponsiveness (ET-AHR),\n3. Evaluate the effects of inhaled anti-cholinergic agents on PVCM induced by hyperventilation.\n\nHypotheses:\n\n1. In health PVCM will not occur in response to hyperventilation,\n2. In asthm",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "生理機轉研究，n=24，與 Ipratropium 直接療效相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT00531791",
+            "title": "Effects of Fluticasone/Salmeterol (Advair®) in Outpatients With Chronic Obstructive Pulmonary Disease (COPD) Acute Exacerbation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 14,
+            "start_date": "2007-11",
+            "completion_date": "2009-09",
+            "brief_summary": "Short course of steroids in COPD exacerbation improves FEV1 and decreases the relapse rate. However, some concerns remain about using systemic steroids for all patients with acute exacerbation. Their short-term advantages may be outweighed by the occurrence of adverse side effects such as hyperglycemia, which is difficult to manage on an outpatient basis. In this context, the possibility of treating patients with COPD exacerbation with inhaled steroids having less systemic adverse effects is int",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00092989",
+            "title": "A Multicenter, Randomized, Double-Blind Study Comparing the Clinical Effects of Intravenous Montelukast With Placebo in Patients With Acute Asthma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 650,
+            "start_date": "2004-07",
+            "completion_date": "2007-03",
+            "brief_summary": "The purpose of this study is to evaluate improved results of treatment for patients entering an emergency department with asthma attacks when given an investigational IV administration of an approved drug (MK-0476, montelukast sodium) in addition to approved standard treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00400153",
+            "title": "Safety and Efficacy of Combivent Respimat in Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1480,
+            "start_date": "2006-11",
+            "completion_date": "",
+            "brief_summary": "The primary objective of this study is to compare the effect of ipratropium bromide/salbutamol inhalation spray combination administered by the Respimat® inhaler (20 mcg/100 mcg), ipratropium bromide inhalation spray administered by the Respimat® inhaler (20 mcg), and COMBIVENT® MDI administered q.i.d on FEV1 at intervals over a treatment period of 12 weeks in patients with COPD. Specifically, non-inferiority of Combivent Respimat® to COMBIVENT® MDI in FEV1 AUC from 0 to 6 hours , superiority of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02299375",
+            "title": "A Study to Evaluate the Efficacy and Safety of 15mg BID Losmapimod (GW856553) Compared to Placebo in Frequently Exacerbating Subjects With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2014-12-09",
+            "completion_date": "2016-06-30",
+            "brief_summary": "This is a randomised, double-blind, parallel-group, multi-centre study evaluating 15 milligram (mg) twice daily/ Bi-daily (BID) of losmapimod versus placebo, in addition to standard of care (SoC).\n\nThe primary objective of this study is to explore the therapeutic potential of losmapimod as a treatment to reduce the rate of exacerbations in the subset of participants with moderate-to-severe COPD who are at high risk of exacerbation, having experienced two or more moderate/severe exacerbations in ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01068600",
+            "title": "A 12-week Treatment, Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Assess the Efficacy and Safety of Once Daily Indacaterol in Patients With Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 318,
+            "start_date": "2010-01",
+            "completion_date": "",
+            "brief_summary": "This 12-week study evaluated the efficacy and safety of indacaterol versus placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02176200",
+            "title": "A Randomised Open Label, Six Way, Cross-over Scintigraphic Evaluation of the Effect of Inspiratory Flow Rate on Lung and Oropharyngeal Deposition With the Respimat® Inhaler vs a Metered Dose Inhaler (HFA-MDI) Using Berodual® in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2003-04",
+            "completion_date": "",
+            "brief_summary": "Study to compare the lung and oropharyngeal deposition of Berodual® (fenoterol hydrobromide 50μg + ipratropium bromide 20μg /1x puff) delivered via the Respimat® inhaler and the same dose of Berodual® delivered via an hydrofluoroalkane (HFA) - metered dose inhaler (2 x puffs ) in COPD patients at different inspiratory flow rates.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00619918",
+            "title": "Nebulized Hypertonic Saline for Treatment of Viral Bronchiolitis",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 447,
+            "start_date": "2008-02",
+            "completion_date": "2011-05",
+            "brief_summary": "This study aims to examine the effect of nebulized 3% hypertonic saline in the treatment of viral bronchiolitis. The investigators hypothesize that nebulized 3% saline will decrease rate of hospital admission, decrease clinical severity scores, and decrease length of stay.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00874497",
+            "title": "A Multi-center, Randomized, Double-blind, Placebo-controlled Pilot Study to Assess the Pharmacodynamics, Efficacy and Safety of 50 mg Tetomilast Administered as Oral Tablets in Patients With Chronic Obstructive Pulmonary Disease Associated With Emphysema THIS STUDY IS CLOSED TO ENROLLMENT AND NEW SITES",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 84,
+            "start_date": "2009-03",
+            "completion_date": "2015-08",
+            "brief_summary": "Phase 2a multicenter, randomized, double-blind, placebo-controlled study to assess the pharmacodynamics, efficacy, and safety of tetomilast in patients with emphysema.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01019694",
+            "title": "Patient Acceptability of Ipratropium Bromide/Albuteroll Delivered by the Respimat® Inhaler in Adults With Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 470,
+            "start_date": "2009-11",
+            "completion_date": "",
+            "brief_summary": "The primary objective of this study is to evaluate long-term safety and patient acceptability of COMBIVENT RESPIMAT Inhalation Spray as compared to the COMBIVENT Inhalation Aerosol Chlorofluorocarbon-Metered Dose Inhaler (CFC-MDI) and the free combination of ATROVENT Hydrofluoroalkane (HFA) and albuterol Hydrofluoroalkane (HFA) inhalation aerosols.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02231437",
+            "title": "Post-marketing Surveillance (in Accordance With § 67,6 AMG) of Berodual® Metered-dose Inhaler in the Treatment of Chronic Obstructive Respiratory Tract Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3488,
+            "start_date": "1999-01",
+            "completion_date": "",
+            "brief_summary": "The aim of this post-marketing surveillance is to obtain further information about the tolerability of Berodual® metered-dose inhaler in the treatment of chronic obstructive respiratory tract disease under conditions of daily practice",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01636713",
+            "title": "A 24-week Randomised, Double-blind and Placebo-controlled Study to Evaluate the Efficacy and Safety of GSK573719/GW642444 125/25 mcg and 62.5/25mcg Inhalation Powder Compared With Placebo Inhalation Powder Delivered Once-daily Via a Novel Dry Powder Inhaler in Subjects With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 581,
+            "start_date": "2012-07",
+            "completion_date": "2013-10",
+            "brief_summary": "This is a 24-week, phase III multicenter, randomized, double-blind, placebo-controlled, parallel-group study. The study will have 9 scheduled visits and a telephone contact Follow-up visit one week following the end of study treatment.\n\nThe study primary endpoint is\n\n-Clinic visit trough (pre-bronchodilator and pre-dose) FEV1 on Treatment Day 169 Trough FEV1 on Treatment Day 169 is defined as the mean of the FEV1 values obtained 23 and 24 hours after dosing on Treatment Day 168 (i.e. at the Week",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02236715",
+            "title": "Postmarketing Surveillance Study (as Per §67(6)AMG[German Drug Law]) of Atrovent® Unit Dose Vial 500 µg in Chronic Obstructive Airways Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1039,
+            "start_date": "1999-09",
+            "completion_date": "",
+            "brief_summary": "Study to obtain further information on the tolerability and efficacy of Atrovent® unit dose vial 500 µg in the treatment of Chronic Obstructive Airways Disease under conditions of daily practice",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06951633",
+            "title": "Functional Efficiency, Respiratory Parameters and Blood Rheological Tests in Elderly People With Respiratory Diseases Participating in Pulmonary Rehabilitation in Underground Salt Chambers - a Prospective Experimental Study, Controlled in a Crossover Design",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 33,
+            "start_date": "2025-04-04",
+            "completion_date": "2026-02-28",
+            "brief_summary": "The aim of the study is to assess the impact of the rehabilitation and treatment stay at the underground Health Resort of the 'Wieliczka' Salt Mine in Wieliczka on the functional capacity, respiratory parameters, and rheological properties of blood in elderly individuals with respiratory diseases.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02238132",
+            "title": "Postmarketing Surveillance Study (as Per §67(6)AMG[German Drug Law]) of Atrovent® Inhalets in Chronic Obstructive Airways Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 374,
+            "start_date": "1998-12",
+            "completion_date": "",
+            "brief_summary": "To obtain further information on the tolerability of Atrovent® inhalets in the treatment of Chronic Obstructive Airways Disease under conditions of daily practice",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02233894",
+            "title": "Post-marketing Surveillance (as Per § 67(6) AMG [German Drug Law]) of Atrovent® Inhalets in Chronic Obstructive Pulmonary Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 526,
+            "start_date": "2001-02",
+            "completion_date": "",
+            "brief_summary": "Study to obtain further information on the tolerability and efficacy of Atrovent® inhalets in the treatment of Chronic Obstructive Pulmonary Disease under conditions of daily practice",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02238145",
+            "title": "Postmarketing Surveillance Study (as Per § 67 (6) AMG [German Drug Law] of Atrovent® Inhaletten® in Chronic Obstructive Airways Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 660,
+            "start_date": "1999-01",
+            "completion_date": "",
+            "brief_summary": "To obtain further information on the tolerability and efficacy of Atrovent® inhaletten® in the treatment of chronic obstructive airways disease under conditions of daily practice",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01705964",
+            "title": "Intramuscular Epinephrine as an Adjunctive Treatment for Severe Pediatric Asthma Exacerbation",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 49,
+            "start_date": "2013-06",
+            "completion_date": "2018-04-30",
+            "brief_summary": "Project Aim: To determine if intramuscular epinephrine is an effective adjunct to inhaled bronchodilators (β2 agonists) for children with severe asthma exacerbation.\n\nHypothesis: IM epinephrine is an efficacious adjunct to inhaled bronchodilators (β2 agonists) for children with severe asthma exacerbation.\n\nIntervention: Subjects will be randomly assigned (50% chance) to receive a weight based dose of IM epinephrine 1:1000 or no adjunctive medication. The dose will be 0.2 mg for subjects 20-30 kg",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03051971",
+            "title": "A Pilot Study of Medicated Aerosol Delivery Using A Jet Nebulizer Versus A Vibrating Mesh Nebulizer in COPD Exacerbation",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2017-03",
+            "completion_date": "2018-04",
+            "brief_summary": "Delivery of inhaled short-acting bronchodilators (SABD) is standard of care in the emergency department (ED) for exacerbation of COPD, the goal of such being rapid reversal of airflow obstruction. However, current guidelines for the delivery of SABDs in spontaneously breathing patients make no distinction whether these medications should be delivered via metered dose inhaler (MDI) or jet nebulizer (JN), the specific medication delivery device having no significant effect on hospital admission or",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05550402",
+            "title": "Comparison of Parasympathetic Activity in Mild, Moderate, and Severe Asthma With Fixed Airway Obstruction",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2024-02-17",
+            "completion_date": "2024-06-30",
+            "brief_summary": "In asthma, the significant role of pathogenesis is chronic airway inflammation, bronchial hyperresponsiveness, and variable airflow obstruction. Asthma with irreversible or fixed airflow obstruction (FAO) is a clinical phenotype resulting from chronic airway inflammation with having longer disease duration, suggesting that airway remodeling contributes to the decline in lung function seen in individuals with asthma. Although this condition frequently occurs in patients with severe asthma, there ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03611777",
+            "title": "Non-interventional, Cross-sectional, Multicenter Study to Describe the Exacerbations Profile of COPD Patients Treated With ICS in a Real-life Primary Care Population in Spain. OPTI Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 901,
+            "start_date": "2018-08-14",
+            "completion_date": "2020-01-31",
+            "brief_summary": "This non-Interventional, descriptive, cross-sectional cohort and multicentre study will be conducted with COPD patients attended at Spanish Primary Care offices.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00331292",
+            "title": "A Study to Identify a Transcriptomic Profile Indicative of Cycle AMP Pathway Activation in the Lung",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 30,
+            "start_date": "2006-08",
+            "completion_date": "",
+            "brief_summary": "The primary goal of this study is to identify a gene or panel of genes which are differentially expressed in lung cells and tissue from asthmatic patients following administration of Ipratropium bromide and eiTher nebulised Albuterol or saline. Each subject in this study will undergo two bronchoscopies.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00274040",
+            "title": "A Comparison of 18 μg of Tiotropium Inhalation Capsules and Atrovent Metered Dose Inhaler (2 Puffs of 20 μg, 4 Times Daily) in a Double-Blind, Double-Dummy, Efficacy and Safety Study in Adults With Chronic Obstructive Pulmonary Disease (COPD).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 141,
+            "start_date": "2002-07",
+            "completion_date": "2003-03",
+            "brief_summary": "Comparison of 18 mcg of Tiotropium Inhalation Capsules and ipratropiumMetered Dose Inhaler (2 puffs of 20 mcg, four times daily) in a Double-Blind, Double-dummy, Efficacy and Safety Study in Adults with Chronic Obstructive Pulmonary Disease (COPD).\n\nThe objective of this study is to compare the bronchodilator efficacy and safety of tiotropium inhalation capsules (18 mcg once daily) and ipratropium MDI (2 puffs of 20 mcg q.i.d.) in patients with chronic obstructive pulmonary disease (COPD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02260011",
+            "title": "A Single-Dose, Double Blind, Crossover Trial to Determinate the Comparability of Ipratropium Bromide HFA-134a Inhalation Aerosol to the Market Standard, Atrovent® CFC Inhalation Aerosol, in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2000-10",
+            "completion_date": "",
+            "brief_summary": "The objective of this study was to compare the bronchodilator efficacy and safety of ipratropium bromide HFA-134a inhalation aerosol and marketed, Atrovent® CFC Inhalation Aerosol in COPD patients",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00522444",
+            "title": "Nebulized Magnesium Sulfate Compared to Saline in Addition to Albuterol and Ipratropium Treatments in Moderate to Severe Pediatric Asthmatic Patients: A Randomized Controlled Clinical Trial",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2007-09",
+            "completion_date": "2013-09",
+            "brief_summary": "Nebulized Magnesium Sulfate has been shown to be of benefit in adults with acute asthma exacerbations, though limited work has been done in the pediatric population. Current therapeutic questions include the effect of more than one dose of nebulized magnesium, the possibility of a sustained effect (greater than 20 minutes) after a treatment, the potential benefit in children younger than 5 years of age, and the use of an asthma score to re-assess patients after treatment with this medication. Th",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01784146",
+            "title": "Analysis of the Distribution of Pulmonary Ventilation After Nebulization by Heliox Associated With Positive Expiratory Pressure in Patients Asthmatics Stable.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2009-06",
+            "completion_date": "2009-11",
+            "brief_summary": "Objective: To assess the influence of nebulization with bronchodilators carried by the heliox coupled to PEP in the distribution of compartimental lung volumes in asmathic adults and to correlate with pulmonary function data. Methods: A controlled randomized trial involving 27 patients divided into four groups: heliox + PEP, oxygen + PEP, heliox and oxygen. After the initial evaluation, it was placing 89 reflective markers attached to the surface of the trunk and images acquired by optoelectroni",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01331694",
+            "title": "Outcomes and Costs Associated With Initiating Maintenance Treatment With Fluticasone Propionate 250mcg/Salmeterol Xinafoate 50mcg Combination (FSC) Versus Anticholinergics Including Tiotropium (TIO) in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 76130,
+            "start_date": "2009-07",
+            "completion_date": "2010-05",
+            "brief_summary": "To evaluate COPD-related clinical outcomes and total healthcare utilization in commercially insured (at least 40 years with a subanalysis of those aged 65 years and older) COPD population associated with the use of fluticasone/salmeterol combination (FSC) 250/50mcg compared to other initial maintenance therapies (IMTs), specifically, tiotropium bromide (TIO), and either ipratropium bromide or ipratropium bromide/albuterol (IP).\n\nThis is a hypothesis testing study\n\nHo: There is no difference in t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02504801",
+            "title": "Efficacy of Nebulized Pulmicort Respules on Post Operation Pulmonary Complication During Pulmonary Single Lobectomy Surgery in Primary Lung Cancer Patients With COPD",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 73,
+            "start_date": "2015-07",
+            "completion_date": "2016-10",
+            "brief_summary": "To test the hypothesis that nebulized Pulmicort Respules could reduce post operation pulmonary complication incidence in primary lung cancer patients with COPD. Compare post-operation pulmonary complication incidence in two treatment arms among primary lung cancer patients with COPD required single lobectomy from 3days before operation to 7 days after operation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00624286",
+            "title": "A 12-week Treatment, Multi-center, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Assess the Efficacy and Safety of Indacaterol (150 μg o.d.) in Patients With Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 416,
+            "start_date": "2008-02",
+            "completion_date": "2008-07",
+            "brief_summary": "This study was designed to provide 12 weeks efficacy and safety data of the 150 μg once-daily (od) dose of indacaterol in chronic obstructive pulmonary disease (COPD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04181073",
+            "title": "The BRAVE Study: Borg Score Outcomes in Respiratory Compromised Acute Exacerbating COPD Patients Receiving Treatment Via Vibrating Mesh Nebuliser Versus Jet Nebuliser in the Emergency Department",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2019-07-01",
+            "completion_date": "2021-10",
+            "brief_summary": "The purpose of this study is to compare clinical outcomes in patients with acute COPD treated with a vibrating mesh nebuliser (VMN) versus a current standard jet nebuliser (JN), in the Emergency Department (ED).\n\nParticipants will be those who meet the inclusion criteria and have a primary diagnosis of COPD, and consent to take part in the study. Operators will be clinical staff including doctors and nurses who will be trained in the use of the nebulisers.\n\nDelivery of current treatment standard",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02584738",
+            "title": "Efficacy of Nebulized Magnesium Sulfate as an Adjunct to Standard Therapy in Asthma Exacerbation. A Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 152,
+            "start_date": "2015-09",
+            "completion_date": "2018-01",
+            "brief_summary": "The purpose of this study is to investigate the effectiveness of nebulized magnesium sulfate in patient with moderate to severe asthma exacerbation in pediatric emergency",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01218126",
+            "title": "A Randomised, Double-Blind, Placebo-Controlled, Parallel-Group, Multi-centre, Dose Ranging Study to Evaluate the Efficacy and Safety of Losmapimod (GW856553) Tablets Administered Twice Daily Compared With Placebo for 24 Weeks in Adult Subjects With Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 604,
+            "start_date": "2010-11-04",
+            "completion_date": "2011-12-21",
+            "brief_summary": "Randomised, double-blind, parallel-group, multi-centre study evaluating three doses of losmapimod (2.5mg, 7.5 mg and 15 mg) twice daily (BID) versus placebo on exercise tolerance. Eligible subjects will be randomised to treatment after a one-week run-in period. The duration of the treatment period is 24 weeks. An estimated 1000 subjects will be screened to reach the target enrolment of approximately 600 randomised subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02173782",
+            "title": "A Randomized, Placebo-controlled, Within-device, Double-blind Tri-national Study to Compare the Safety and Efficacy of Berodual® Administered Via the Respimat® Device (50 µg Fenoterol Hydrobromide/20 µg Ipratropium Bromide and 25 µg Fenoterol Hydrobromide/10 µg Ipratropium Bromide, 1 Puff q.i.d) With That Administered Via the MDI (50 µg Fenoterol Hydrobromide/21 µg Ipratropium Bromide, 2 Puffs q.i.d) in COPD Patients Over a 12-week Period",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 892,
+            "start_date": "1998-02",
+            "completion_date": "",
+            "brief_summary": "To demonstrate that at least one of the two doses of Berodual® (50 µg fenoterol hydrobromide/20 µg ipratropium bromide and 25 µg fenoterol hydrobromide/10 µg ipratropium bromide, 1 puff q.i.d) administered via the Respimat® gives a bronchodilator response which is not inferior to that obtained from one dose of Berodual® (50 µg fenoterol hydrobromide/21 µg ipratropium bromide, 2 puffs q.i.d) administered via the MDI and that the safety profile is at least as good when COPD patients are treated fo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05786950",
+            "title": "Neural Respiratory Drive of Patients With Chronic Obstructive Pulmonary Disease",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 44,
+            "start_date": "2023-01-01",
+            "completion_date": "2024-09-01",
+            "brief_summary": "To investigate the relationship among the neural respiratory drive (NRD), the sensation of the dyspnea and the effect of the bronchodilator on each stage COPD patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00250679",
+            "title": "Multicenter, Double-Blind, Double-Dummy, Randomized, Active-Controlled, Parallel Group Long-Term Safety Study of 15 μg and 25 μg Arformoterol Tartrate Inhalation Solution BID in Subjects With Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 443,
+            "start_date": "2005-10",
+            "completion_date": "2007-10",
+            "brief_summary": "To evaluate the long-term safety and monitor the long-term efficacy of arformoterol over a period of 6 months in subjects with chronic obstructive pulmonary disease (COPD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03405090",
+            "title": "Differential Mechanisms of Dyspnea Relief in Advanced COPD: Opiates vs. Bronchodilators",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2017-09-20",
+            "completion_date": "2023-03-31",
+            "brief_summary": "Activity-related breathlessness (dyspnea) is the dominant symptom and persists despite optimal medical care in as many as 50% of patients with advanced chronic obstructive pulmonary disease (COPD). The objective of this project is to determine the underlying mechanisms of the activity-related breathlessness in patients with advanced COPD. To study the different pathways involved in causing breathlessness, we will compare the effects of two treatments, opiates with oxygen versus bronchodilators, ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00922350",
+            "title": "Heliox and Posture Optimize Action of Nebulization With Bronchodilators for Asthma Attacks. Randomized Trial.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2008-06",
+            "completion_date": "2008-12",
+            "brief_summary": "The purpose of this study is to verify that nebulization with bronchodilators associated with heliox gas (helium + oxygen) and the posture of a leaning forward truck is effective in patients with an asthma attack.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02315131",
+            "title": "A 2-Stage, Single-Dose Study in Healthy Volunteers and COPD Patients With an Open Label Ipratropium Bromide Reference to Evaluate the Efficacy, Pharmacokinetics, and Safety Profile of Inhaled TV46017",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 53,
+            "start_date": "2015-03",
+            "completion_date": "2015-08",
+            "brief_summary": "The primary objective of the study is to characterize the safety profile and duration of bronchodilation of a single dose of inhaled TV46017",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00239473",
+            "title": "A Randomised, Double-Blind, Double-Dummy, Placebo- and Active-Controlled, Parallel Group Efficacy and Safety Comparison of 12-Week Treatment of Two Doses [5 μg (2 Actuations of 2.5 μg) and 10 μg (2 Actuations of 5 μg)] of Tiotropium Inhalation Solution Delivered by the Respimat Inhaler, Placebo and Ipratropium Bromide Inhalation Aerosol (MDI) in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 429,
+            "start_date": "2002-11",
+            "completion_date": "",
+            "brief_summary": "The primary objective was to compare the bronchodilator efficacy of two doses (5 mcg and 10 mcg) of tiotropium inhalation solution delivered by the Respimat inhaler once daily to placebo and to ipratropium bromide MDI four times daily in patients with COPD. The secondary objective was to compare the safety of tiotropium inhalation solution delivered by the Respimat to placebo and ipratropium bromide MDI.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02182674",
+            "title": "A Randomized, Double Blind, Crossover, Placebo- and Active Controlled Dose Confirmation Study of Combivent HFA Inhalation Aerosol in Patients With COPD",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 66,
+            "start_date": "2000-10",
+            "completion_date": "",
+            "brief_summary": "Study to demonstrate the comparability of two puffs of Combivent hydrofluoroalkane (HFA) inhalation aerosol (18 mcg ipratropium bromide/100 mcg albuterol sulfate / per puff) to two puffs of the marketed chlorofluorocarbon (CFC) containing product, Combivent (CFC) inhalation aerosol (18 mcg ipratropium bromide/103 mcg albuterol sulfate / per puff). The dose response profile, safety and pharmacokinetics of Combivent HFA formulation are to be characterized.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00794157",
+            "title": "A 12-week Treatment, Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Assess the Efficacy, Safety, and Tolerability of Indacaterol (150 and 300 µg Once Daily [od]) in Patients With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 347,
+            "start_date": "2008-11",
+            "completion_date": "2009-10",
+            "brief_summary": "This study was designed to provide pivotal confirmation of efficacy and safety data for 2 doses of indacaterol (150 and 300 µg once daily \\[od\\]) in patients with moderate to severe chronic obstructive pulmonary disease (COPD). Data from this study will be used for the registration of indacaterol in Japan.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20163324",
+            "title": "Inhaled albuterol/salbutamol and ipratropium bromide and their combination in the treatment of chronic obstructive pulmonary disease.",
+            "authors": [
+              "Gordon Joshiah",
+              "Panos Ralph J"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2010",
+            "abstract": "Chronic obstructive pulmonary disease (COPD) is a major cause of morbidity and mortality throughout the world. Combination therapy with albuterol and ipratropium bromide was approved > 15 years ago for the treatment of COPD. We review the mechanism of action, clinical efficacy, and safety of albuterol, ipratropium and combined albuterol-ipratropium therapy.",
+            "classification": {
+              "study_type": "Systematic Review/Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35616126",
+            "title": "Magnesium sulfate for acute exacerbations of chronic obstructive pulmonary disease.",
+            "authors": [
+              "Ni Han",
+              "Aye Swe Zin",
+              "Naing Cho"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Chronic obstructive pulmonary disease (COPD) is a chronic and progressive disease, often punctuated by recurrent flare-ups or exacerbations. Magnesium sulfate, having a bronchodilatory effect, may have a potential role as an adjunct treatment in COPD exacerbations. However, comprehensive evidence of its effects is required to facilitate clinical decision-making.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16856113",
+            "title": "Ipratropium bromide versus long-acting beta-2 agonists for stable chronic obstructive pulmonary disease.",
+            "authors": [
+              "Appleton S",
+              "Jones T",
+              "Poole P",
+              "Pilotto L",
+              "Adams R"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2006",
+            "abstract": "Chronic obstructive pulmonary disease (COPD) is a condition associated with high morbidity, mortality and cost to the community. Patients often report symptomatic improvement with long acting beta-2 agonists (LABAs) and anticholinergic bronchodilator medications, both of which are recommended in COPD guidelines. These medications have different mechanisms of action and therefore theoretically could have an additive effect when combined. As these medications are prescribed in COPD as long term th",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2977109",
+            "title": "Use of ipratropium bromide in obstructive lung disease.",
+            "authors": [
+              "Mann K V",
+              "Leon A L",
+              "Tietze K J"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1988",
+            "abstract": "The chemistry, pharmacology, pharmacokinetics, clinical efficacy, adverse effects, and dosage of ipratropium bromide are reviewed. Ipratropium bromide, a synthetic quaternary isopropyl derivative of atropine, interrupts vagally mediated bronchoconstriction by inhibiting the cyclic guanosine 3',5'-monophosphate system at parasympathetic nerve endings. Ipratropium bromide is poorly absorbed after oral and inhaled administration but diffuses rapidly into tissue after i.v. or i.m. administration. Th",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23170031",
+            "title": "Concomitant use of ipratropium and tiotropium in chronic obstructive pulmonary disease.",
+            "authors": [
+              "Cole Jennifer M",
+              "Sheehan Amy Heck",
+              "Jordan Joseph K"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2012",
+            "abstract": "To describe the current data evaluating the efficacy and safety of ipratropium used in combination with tiotropium in patients with chronic obstructive pulmonary disease.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38457591",
+            "title": "Probiotics combined with Budesonide and Ipratropium bromide for chronic obstructive pulmonary disease: A retrospective analysis.",
+            "authors": [
+              "Chen Chen",
+              "Wu LingBo",
+              "Wang LiJun",
+              "Tang XinHeng"
+            ],
+            "journal": "Medicine",
+            "year": "2024",
+            "abstract": "To explore the effect of probiotics combined with budesonide and ipratropium bromide in the treatment of chronic obstructive pulmonary disease (COPD) on lung function and gut microbiota. This was a retrospective study of prospectively collected clinical data of 118 patients with COPD admitted to our hospital between January 2020 and December 2022. According to the treatment records, 59 patients received budesonide and irpratropium bromide (control group), and 59 patients received probiotics comb",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26391969",
+            "title": "Tiotropium versus ipratropium bromide for chronic obstructive pulmonary disease.",
+            "authors": [
+              "Cheyne Leanne",
+              "Irvin-Sellers Melanie J",
+              "White John"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "abstract": "Tiotropium and ipratropium bromide are both recognised treatments in the management of people with stable chronic obstructive pulmonary disease (COPD). There are new studies which have compared tiotropium with ipratropium bromide, making an update necessary.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7813271",
+            "title": "Nonbronchodilator effects of pirbuterol and ipratropium in chronic obstructive pulmonary disease.",
+            "authors": [
+              "Ashutosh K",
+              "Dev G",
+              "Steele D"
+            ],
+            "journal": "Chest",
+            "year": "1995",
+            "abstract": "Although both beta-adrenergic agonists and anticholinergic agents are widely used in the treatment of patients with COPD, they influence the pulmonary circulation and ventilation differently. We compared the effects of these two agents on gas exchange and distribution of ventilation in COPD.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24043433",
+            "title": "Tiotropium versus ipratropium bromide for chronic obstructive pulmonary disease.",
+            "authors": [
+              "Cheyne Leanne",
+              "Irvin-Sellers Melanie J",
+              "White John"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2013",
+            "abstract": "Tiotropium and ipratropium bromide are both recognised treatments in the management of people with stable chronic obstructive pulmonary disease (COPD). There are new studies which have compared tiotropium with ipratropium bromide, making an update necessary.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6448137",
+            "title": "Ipratropium bromide: a review of its pharmacological properties and therapeutic efficacy in asthma and chronic bronchitis.",
+            "authors": [
+              "Pakes G E",
+              "Brogden R N",
+              "Heel R C",
+              "Speight T M",
+              "Avery G S"
+            ],
+            "journal": "Drugs",
+            "year": "1980",
+            "abstract": "Ipratropium bromide is an anticholinergc bronchodilator administered by inhalation. Although producing bronchodilation in most patients with obstructive airways disease, it is somewhat less effective than beta 2-adrenoceptor agonist drugs such as salbutamol or fenoterol in patients with asthma, but is at least as effective as these agents in bronchitis. As with the beta 2-adrenoceptor agonists, the onset of maximum effect with ipratropium (about 1.5 to 2 hours) is slower than with isoprenaline (",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3155676",
+            "title": "Ipratropium bromide.",
+            "authors": [
+              "Massey K L",
+              "Gotz V P"
+            ],
+            "journal": "Drug intelligence & clinical pharmacy",
+            "year": "1985",
+            "abstract": "Research clarifying the role of the parasympathetic nervous system in the pathophysiology of chronic obstructive pulmonary disease (COPD) has renewed interest in anticholinergic therapy of these disease processes. The investigational agent ipratropium bromide produces bronchodilation by competitive inhibition of cholinergic receptors on bronchial smooth muscle, antagonizing the action of acetylcholine. When administered via inhalation at therapeutic doses of 20-40 micrograms, ipratropium is some",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15257628",
+            "title": "A review of ipratropium bromide/fenoterol hydrobromide (Berodual) delivered via Respimat Soft Mist Inhaler in patients with asthma and chronic obstructive pulmonary disease.",
+            "authors": [
+              "Kässner Frank",
+              "Hodder Rick",
+              "Bateman Eric D"
+            ],
+            "journal": "Drugs",
+            "year": "2004",
+            "abstract": "Asthma and chronic obstructive pulmonary disease (COPD) can be effectively treated by the use of bronchodilator therapies delivered by inhalation. Berodual is a fixed combination of the anticholinergic agent ipratropium bromide (IB) and the beta2-adrenergic agonist fenoterol hydrobromide (FEN). IB/FEN has been available for the treatment of asthma and COPD in a pressurised metered dose inhaler (MDI) [pMDI] formulation for many years. The pMDI is the most widely used device for the delivery of in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2970009",
+            "title": "Ipratropium bromide.",
+            "authors": [
+              "Gross N J"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1988",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1835291",
+            "title": "Acute bronchodilating effects of ipratropium bromide and theophylline in chronic obstructive pulmonary disease.",
+            "authors": [
+              "Bleecker E R",
+              "Britt E J"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1991",
+            "abstract": "The bronchodilator effects of a single dose of ipratropium bromide aerosol (36 micrograms) and short-acting theophylline tablets (dose titrated to produce serum levels of 10-20 micrograms/mL) were compared in a double-blind, placebo-controlled crossover study in 21 patients with stable, chronic obstructive pulmonary disease. Mean peak forced expiratory volume in 1 second (FEV1) increases over baseline and the proportion of patients attaining at least a 15% increase in the FEV1 (responders) were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8612115",
+            "title": "Effects of theophylline and ipratropium on cognition in elderly patients with chronic obstructive pulmonary disease.",
+            "authors": [
+              "Ramsdell J W",
+              "Henderson S",
+              "Renvall M J",
+              "Salmon D P",
+              "Ferguson P"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "1996",
+            "abstract": "To determine whether chronic therapy with theophylline or ipratropium has an adverse effect on cognition and psychomotor skills in geriatric patients with chronic obstructive pulmonary disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8181328",
+            "title": "In chronic obstructive pulmonary disease, a combination of ipratropium and albuterol is more effective than either agent alone. An 85-day multicenter trial. COMBIVENT Inhalation Aerosol Study Group.",
+            "authors": [],
+            "journal": "Chest",
+            "year": "1994",
+            "abstract": "Combination bronchodilator therapy for chronic obstructive pulmonary disease (COPD) is available widely throughout the world except in North America. Previous studies have yielded conflicting results regarding the advantages of combining anticholinergic therapy with sympathomimetic therapy in COPD. We report the results of a 12-week prospective, double-blind, parallel-group evaluation of the use of the following: albuterol, a beta-adrenergic agent; ipratropium, an anticholinergic agent; or a com",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9817708",
+            "title": "Measurement of symptoms, lung hyperinflation, and endurance during exercise in chronic obstructive pulmonary disease.",
+            "authors": [
+              "O'Donnell D E",
+              "Lam M",
+              "Webb K A"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "1998",
+            "abstract": "Changes in lung hyperinflation, dyspnea, and exercise endurance are important outcomes in assessing therapeutic responses in chronic obstructive pulmonary disease (COPD). Therefore, we studied the reproducibility of Borg dyspnea ratings, inspiratory capacity (IC; to monitor lung hyperinflation), and endurance time during constant-load symptom-limited cycle exercise in 29 patients with COPD (FEV1 = 40 +/- 2% predicted; mean +/- SEM). Responsiveness was also studied by determining the acute effect",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10565879",
+            "title": "Anticholinergic bronchodilators.",
+            "authors": [
+              "Witek T J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "1999",
+            "abstract": "Antimuscarinic treatment of airway disease has a long and colorful history leading to its present day use as an effective bronchodilator in chronic obstructed pulmonary disease (COPD) as well as an antisecretory drug for watery rhinorrhea. Present formulations are limited to ipratropium bromide, a safe and effective respiratory therapeutic. The bronchodilation from ipratropium, as documented by spirometry, has been well established both alone and in combination with albuterol. Evidence suggests ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15987237",
+            "title": "Ipratropium bromide HFA.",
+            "authors": [
+              "Wellington Keri"
+            ],
+            "journal": "Treatments in respiratory medicine",
+            "year": "2005",
+            "abstract": "Ipratropium bromide is a nonselective antagonist of the muscarinic receptors located on airway smooth muscle, and is delivered via a metered-dose inhaler (MDI). Because of the requirement to phase out chlorofluorocarbon (CFC)-propelled MDIs, the ipratropium bromide inhalation aerosol MDI has been redesigned with a hydrofluoroalkane as the propellant (ipratropium bromide HFA). Ipratropium bromide HFA has recently been approved in the US for the maintenance treatment of bronchospasm associated wit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28461224",
+            "title": "Responsiveness to Ipratropium Bromide in Male and Female Patients with Mild to Moderate Chronic Obstructive Pulmonary Disease.",
+            "authors": [
+              "Li Xuan",
+              "Obeidat Ma'en",
+              "Zhou Guohai",
+              "Leung Janice M",
+              "Tashkin Donald"
+            ],
+            "journal": "EBioMedicine",
+            "year": "2017",
+            "abstract": "Although the prevalence of chronic obstructive pulmonary disease (COPD) is similar between men and women, current evidence used to support bronchodilator therapy has been generated in therapeutic trials that have predominately enrolled male patients. Here, we determined whether there is any significant sex-related differences in FEV1 responses to ipratropium bromide.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ipratropium 為競爭性毒蕈鹼受體拮抗劑（M1/M2/M3），阻斷副交感神經介導的支氣管收縮與黏液分泌過多，是 COPD/阻塞性肺疾病的第一線支氣管擴張劑。機轉與適應症高度吻合。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9986492991447448,
+        "rank": 2546
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39047643",
+            "title": "ROS responsive hydrogel for inhibition of MUC5AC against allergic rhinitis: A new delivery strategy for Ipratropium Bromide.",
+            "authors": [
+              "Zhao Qianqian",
+              "Gu Min",
+              "Ni Mengnan",
+              "Li Jinyu",
+              "Wu Ting"
+            ],
+            "journal": "Colloids and surfaces. B, Biointerfaces",
+            "year": "2024",
+            "abstract": "Allergic rhinitis (AR) is a chronic inflammatory disease of the nasal mucosa mediated by immunoglobulin E (IgE) after exposure to allergens. The bothersome symptoms of AR, such as runny nose and nasal congestion, affect millions of people worldwide. Ipratropium Bromide (IB), commonly used in clinical practice for treating AR, requires frequent administration through nasal spray and may cause significant irritation to the nasal mucosa. The induction of ROS is closely related to the initiation and",
+            "classification": {
+              "study_type": "Experimental/Drug Delivery",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ipratropium 鼻腔噴霧劑（Atrovent Nasal®）透過阻斷鼻黏膜腺體的毒蕈鹼受體（主要 M3），抑制副交感神經介導的鼻分泌物過多。全球已有鼻炎適應症上市紀錄，機轉明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pharyngitis",
+      "txgnn": {
+        "score": 0.9985429048538208,
+        "rank": 2690
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02299375",
+            "title": "A Study to Evaluate the Efficacy and Safety of 15mg BID Losmapimod (GW856553) Compared to Placebo in Frequently Exacerbating Subjects With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2014-12-09",
+            "completion_date": "2016-06-30",
+            "brief_summary": "This is a randomised, double-blind, parallel-group, multi-centre study evaluating 15 milligram (mg) twice daily/ Bi-daily (BID) of losmapimod versus placebo, in addition to standard of care (SoC).\n\nThe primary objective of this study is to explore the therapeutic potential of losmapimod as a treatment to reduce the rate of exacerbations in the subset of participants with moderate-to-severe COPD who are at high risk of exacerbation, having experienced two or more moderate/severe exacerbations in ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Losmapimod 為主要研究藥物（p38 MAPK 抑制劑），咽炎可能為不良事件監測項目，非 Ipratropium 直接療效研究。"
+            }
+          },
+          {
+            "nct_id": "NCT00845728",
+            "title": "A Phase IIIb Multicenter, 52 Week Treatment, Randomized, Blinded, Double Dummy, Parallel Group Efficacy Study Comparing the Effect of Inhaled Indacaterol 150 µg o.d. vs Inhaled Tiotropium 18 µg o.d. on Lung Function, Rate of Exacerbations and Related Outcomes in Patients With COPD",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 3439,
+            "start_date": "2009-03",
+            "completion_date": "2012-07",
+            "brief_summary": "This study compares indacaterol with tiotropium in terms of bronchodilation over 52 weeks",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型 COPD 研究（n=3439），咽炎可能為安全性終點，非 Ipratropium 在咽炎中的療效評估。"
+            }
+          },
+          {
+            "nct_id": "NCT05165992",
+            "title": "Nebulized Fentanyl for Respiratory Symptoms in Patients With COVID-19 (Ventanyl Trial)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 200,
+            "start_date": "2022-02",
+            "completion_date": "2022-12",
+            "brief_summary": "Patients with Coronavirus Disease (COVID-19) experience distressing and challenging to manage respiratory symptoms. Interventions such as Oxygen (O2) therapy, oral opiates, and traditional nebulizers like ipratropium bromide and salbutamol, are variably effective, and therapeutic responses in individual patients are difficult to predict. The purpose of this study is to investigate the efficacy of nebulized fentanyl citrate on dyspnea, cough, and throat pain in patients with COVID-19, as well as ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Fentanyl 為主要研究藥物，與 Ipratropium 在咽炎的關聯性極低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35838014",
+            "title": "Intranasal Anticholinergics for Treatment of Chronic Rhinitis: Systematic Review and Meta-Analysis.",
+            "authors": [
+              "Pang Jonathan C",
+              "Vasudev Milind",
+              "Du Amy T",
+              "Nottoli Madeline M",
+              "Dang Katherine"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "2023",
+            "abstract": "Topical intranasal anticholinergics are commonly prescribed for the relief of chronic rhinitis and associated symptoms, warranting thorough assessment of the supporting evidence. The present study aimed to evaluate the safety and efficacy of anticholinergic nasal sprays in the management of allergic and non-allergic rhinitis symptom severity and duration.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6217949",
+            "title": "A therapeutic comparison of ipratropium bromide and salbutamol in asthmatic patients.",
+            "authors": [
+              "Bell R",
+              "Sahay J N",
+              "Barber P V",
+              "Chatterjee S S",
+              "Cox G"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "1982",
+            "abstract": "A single-blind, crossover study was carried out in 43 asthmatic patients to compare the efficacy and tolerance of inhaled ipratropium bromide with inhaled salbutamol. One or other drug was given 3-times daily (0.04 mg ipratropium bromide or 0.2 mg salbutamol per dose) over a period of 4 weeks. Patients were then crossed over to the alternative medication for a further 4 weeks. The results of lung function tests performed at routine clinic visits and by the patients at home showed similar increas",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35089202",
+            "title": "Nebulized fentanyl for respiratory symptoms in patients with COVID-19 (ventanyl trial).",
+            "authors": [
+              "Shaikh Nissar",
+              "Khatib Mohamad Y",
+              "Wraidat Mohammad A Al",
+              "Mohamed Ahmed S",
+              "Al-Assaf Anood A"
+            ],
+            "journal": "Medicine",
+            "year": "2022",
+            "abstract": "Patients with coronavirus disease (COVID-19) commonly experience distressing and challenging respiratory symptoms. Interventions such as oxygen therapy, oral opiates, and traditional nebulizers like ipratropium bromide and salbutamol are variable in their efficacy, and therapy responses in patients are difficult to predict. The purpose of this study is to investigate the efficacy of nebulized fentanyl citrate on dyspnea, cough, and throat pain in patients with COVID-19 and evaluate the safety wi",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38879750",
+            "title": "Sinus Node Dysfunction Triggered by Tonsillar Abscess: Effects of Vagal Nerve Compression.",
+            "authors": [
+              "Yu Howard",
+              "Zaveri Sahil",
+              "Schaible Michael",
+              "Butt Nabeel",
+              "Tfaili Said"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2024",
+            "abstract": "BACKGROUND Compression of the vagus nerve by a pharyngeal mass is a well-documented condition that can result in sinus node dysfunction (SND). However, there is scarce literature on extrinsic vagal nerve compression from a tonsillar abscess. CASE REPORT A 59-year-old woman with a history of asthma and chronic throat discomfort presented to the Emergency Department with bradycardia, palpitations, and voice changes. Following a shellfish allergy hospitalization, an otolaryngology evaluation reveal",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15000120",
+            "title": "How to choose a cold remedy.",
+            "authors": [],
+            "journal": "Consumer reports",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review/Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抗膽鹼能效應可減少咽部黏液腺分泌，理論上可緩解咽部分泌物堆積症狀。然而咽炎的主要病因（感染、炎症）並非膽鹼能途徑，機轉連結薄弱。臨床試驗列表中無直接評估 Ipratropium 於咽炎的研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9984208345413208,
+        "rank": 2861
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性喉咽炎主要為感染或炎症病因，Ipratropium 的抗膽鹼能機轉僅能間接減少分泌物，無直接抗感染或消炎效應。TxGNN 預測可能基於解剖位置相似性（上呼吸道）的推論，缺乏生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "respiratory malformation",
+      "txgnn": {
+        "score": 0.9979616403579712,
+        "rank": 3461
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00000568",
+            "title": "Lung Health Study (LHS) I and III",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "1984-09",
+            "completion_date": "2005-01",
+            "brief_summary": "In the Lung Health Study I, to determine the effects of Special Care, compared to Usual Care, on rate of decline in pulmonary function in a group of cigarette smokers identified as having mild abnormalities in pulmonary function.\n\nIn the Lung Health Study III, to determine the long-term effects of smoking cessation and continued smoking, on cardiopulmonary morbidity, mortality, and the rate of decline in the one second forced expiratory volume (FEV1) in men and women with early chronic obstructi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要針對 COPD，呼吸道結構異常非主要研究族群，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT02299375",
+            "title": "A Study to Evaluate the Efficacy and Safety of 15mg BID Losmapimod (GW856553) Compared to Placebo in Frequently Exacerbating Subjects With Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2014-12-09",
+            "completion_date": "2016-06-30",
+            "brief_summary": "This is a randomised, double-blind, parallel-group, multi-centre study evaluating 15 milligram (mg) twice daily/ Bi-daily (BID) of losmapimod versus placebo, in addition to standard of care (SoC).\n\nThe primary objective of this study is to explore the therapeutic potential of losmapimod as a treatment to reduce the rate of exacerbations in the subset of participants with moderate-to-severe COPD who are at high risk of exacerbation, having experienced two or more moderate/severe exacerbations in ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00274040",
+            "title": "A Comparison of 18 μg of Tiotropium Inhalation Capsules and Atrovent Metered Dose Inhaler (2 Puffs of 20 μg, 4 Times Daily) in a Double-Blind, Double-Dummy, Efficacy and Safety Study in Adults With Chronic Obstructive Pulmonary Disease (COPD).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 141,
+            "start_date": "2002-07",
+            "completion_date": "2003-03",
+            "brief_summary": "Comparison of 18 mcg of Tiotropium Inhalation Capsules and ipratropiumMetered Dose Inhaler (2 puffs of 20 mcg, four times daily) in a Double-Blind, Double-dummy, Efficacy and Safety Study in Adults with Chronic Obstructive Pulmonary Disease (COPD).\n\nThe objective of this study is to compare the bronchodilator efficacy and safety of tiotropium inhalation capsules (18 mcg once daily) and ipratropium MDI (2 puffs of 20 mcg q.i.d.) in patients with chronic obstructive pulmonary disease (COPD).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "COPD 研究，與先天性呼吸道畸形的關聯性低。"
+            }
+          },
+          {
+            "nct_id": "NCT01987219",
+            "title": "The Effects of Bronchodilator Therapy On Respiratory and Autonomic Function in Patients With Familial Dysautonomia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2013-03",
+            "completion_date": "2014-12",
+            "brief_summary": "Evaluate the effects of bronchodilator therapy on respiratory function. Our overall goal is to determine whether, in patients with familial dysautonomia (FD), there is a component of airway obstruction that is reversible. To this end, we will evaluate airway resistance before and after receiving the anti-cholinergic ipratropium (Atrovent ®) and the beta-2-agonist albuterol (ProVentil®/Ventolin®). We predict that the response to either drug will depend on the underlying level of sympathetic and p",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "在先天性自律神經功能障礙（呼吸功能異常）患者中評估支氣管擴張劑效果，相關性中等。"
+            }
+          },
+          {
+            "nct_id": "NCT00372112",
+            "title": "A 2-wk Study to Evaluate the Safety, Tolerability,Pharmacodynamics and Pharmacokinetics of GW642444H(100 Administered Once Daily in the Morning Via DISKUS™ Dry-powder Inhaler)Compared With SEREVENT(Salmeterol)(50mcg Administered Twice Daily Via DISKUS Dry-powder Inhaler)and Placebo in Subject w/COPD",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 68,
+            "start_date": "2006-11-03",
+            "completion_date": "2007-05-10",
+            "brief_summary": "The compound GW642444 has previously been found to be well tolerated with no significant side effects in subjects with asthma and healthy volunteers. This study will assess the safety and tolerability of GW642444 in subjects with COPD in order to obtain information to support dosing in a broader population of subjects with COPD",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06110481",
+            "title": "Bronchodilator Response To Inhaled Beta-2 Agonist and Anticholinergic Drugs in Children Born Preterm",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 80,
+            "start_date": "2021-04-01",
+            "completion_date": "2026-01-01",
+            "brief_summary": "This observational study aims to compare responses to different, commonly used inhaled bronchodilators in children born preterm with bronchial obstruction at spirometry. All children were diagnosed with Chronic Lung Disease of Immaturity (CLDI).\n\nThe main questions are:\n\n* Is any inhaled bronchodilator or their combination generally superior in children with CLDI when assessing the reversibility of bronchial obstruction?\n* Is there an individual difference in the effect of betamimetic, anticholi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "直接評估早產出生兒（呼吸道結構異常高風險族群）對吸入 β2 和抗膽鹼能藥物（含 Ipratropium）的支氣管擴張反應，相關性高，但尚在進行中。"
+            }
+          },
+          {
+            "nct_id": "NCT06964997",
+            "title": "Anisocoria in the ICU (AICU Study): Diagnostic Implications and Clinical Outcomes",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 920,
+            "start_date": "2025-03-01",
+            "completion_date": "2025-12",
+            "brief_summary": "This retrospective single-center cohort study aims to determine the prevalence of acute \"new onset\" pupillary abnormalities in adult intensive care unit patients, assess their clinical impact, identify the contexts leading to treatment changes, and evaluate their prognostic implications.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01316887",
+            "title": "A 52 Week Study to Evaluate the Safety and Tolerability of GSK573719/GW642444 125mcg Once-daily Alone and in Combination With GW642444 25mcg Once-daily Via Novel Dry Powder Inhaler (nDPI) in Subjects With Chronic Obstructive Pulmonary Disease",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 563,
+            "start_date": "2011-01-01",
+            "completion_date": "2012-07-21",
+            "brief_summary": "The purpose of this 52-week study is to evaluate the long-term safety (in terms of adverse events, COPD exacerbations, laboratory, ECG, and Holter findings, vital signs, use of rescue medication and lung function) of GSK573719/GW642444 Inhalation Powder 125/25mcg in subjects with COPD. The long-term safety of GSK573719 Inhalation Powder 125mcg will also be evaluated. A placebo arm is included to evaluate these products compared to an inactive control.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00674817",
+            "title": "A Randomized, Double-blind, Crossover Study to Investigate the Bronchodilatation Post-inhalation of GSK961081 Alone and With the Addition of Cumulative Doses of Short Acting Bronchodilators (Salbutamol and Ipratropium Bromide) in Patients With COPD",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2008-04-01",
+            "completion_date": "2008-10-19",
+            "brief_summary": "GSK961081 is a potent dual pharmacophore that demonstrates both antimuscarinic and beta-agonist pharmacology in preclinical studies, both pharmacologies being of long duration. If reproduced in man, GSK961081 has the potential to deliver a medicine that can be given once daily. The bronchodilatation after inhalation of single doses of GSK961081 alone and in the presence of the short acting beta agonist salbutamol and the short acting muscarinic antagonist, ipratropium bromide will be measured in",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03170232",
+            "title": "A Randomized, Double-blind, Sponsor Open, Placebo-controlled, 52 Week Study Evaluating the Effect of Danirixin (GSK1325756) on Lung Function and Health Related Quality of Life in Participants With Mild to Moderate Chronic Obstructive Pulmonary Disease (COPD)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 54,
+            "start_date": "2017-10-16",
+            "completion_date": "2018-11-15",
+            "brief_summary": "This is a pilot study to investigate the effect of danirixin hydrobromide 35 milligram (mg) tablets on lung function and health related quality of life (HRQoL) in subjects with mild to moderate airflow obstruction and a demonstrated history of decline in forced expiratory volume in one second (FEV1). Specifically, this study aims to assess whether or not danirixin has the potential to impact disease progression in subjects with a COPD progression score indicating they are likely to decline based",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究提前終止，資料不完整，相關性需進一步核實。"
+            }
+          },
+          {
+            "nct_id": "NCT00549679",
+            "title": "A Randomised, Double-blind, Placebo-controlled Study to Investigate the Safety and Tolerability of Inhaled GSK256066 in Mild to Moderate COPD Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 104,
+            "start_date": "2007-10-04",
+            "completion_date": "2008-12-15",
+            "brief_summary": "This study will evaluate the safety and tolerability of the cfor the first time in mild to moderate COPD patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00180843",
+            "title": "Assessment of Ventilation-perfusion Abnormalities in Patients With Smoking-related Airways Disease in Stable Condition and the Effect of Bronchodilator Therapy",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2005-09",
+            "completion_date": "2008-02",
+            "brief_summary": "Subjects undergo history, examination, lung function assessment after informed consent has been obtained. All subjects will undergo ventilation-perfusion scans. If there first scan is normal they will undergo a second and final scan four weeks later. If abnormal they will undergo two further scans with either nebulized bronchodilator or nebulized saline prior to their second and third scans. Each time they will have repeat lung function tests prior to scanning. We will examine the regional chang",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10515429",
+            "title": "Effects of drugs on mucus clearance.",
+            "authors": [
+              "Houtmeyers E",
+              "Gosselink R",
+              "Gayan-Ramirez G",
+              "Decramer M"
+            ],
+            "journal": "The European respiratory journal",
+            "year": "1999",
+            "abstract": "Mucociliary clearance (MCC), the process in which airway mucus together with substances trapped within are moved out of the lungs, is an important defence mechanism of the human body. Drugs may alter this process, such that it is necessary to know the effect of the drugs on MCC. Indeed, agents stimulating MCC may be used therapeutically in respiratory medicine, especially in patients suspected of having an impairment of their mucociliary transport system. In contrast, caution should be taken wit",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40069469",
+            "title": "Unilateral mydriasis: an unexpected effect of ipratropium bromide inhalation-a brief report.",
+            "authors": [
+              "Levy Bar",
+              "Ziv Noa",
+              "Krause Irit"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "2025",
+            "abstract": "Anisocoria often raises concerns about potential underlying conditions such as intracranial hemorrhage, brain tumor, or Horner syndrome. However, iatrogenic exposures may also lead to unilateral mydriasis. A six-month-old infant was hospitalized due to acute bronchiolitis with a history of prematurity, bronchopulmonary dysplasia, and periventricular leukomalacia (PVL). He received non-invasive respiratory support, salbutamol, and ipratropium bromide by inhalation. Four days after admission, the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27140677",
+            "title": "Bronchodilator responsiveness of peripheral airways in smokers with normal spirometry.",
+            "authors": [
+              "Jetmalani Kanika",
+              "Chapman David G",
+              "Thamrin Cindy",
+              "Farah Claude S",
+              "Berend Norbert"
+            ],
+            "journal": "Respirology (Carlton, Vic.)",
+            "year": "2016",
+            "abstract": "Cigarette smoke exposure increases airway smooth muscle (ASM) contractility. Abnormalities in peripheral airway function in smokers with normal spirometry could be due to the effects of ASM tone. We aimed to determine the contribution of ASM tone to peripheral airway function in smokers with normal spirometry from the response to bronchodilator (BD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4081277",
+            "title": "[Pharmacology of mucociliary transport].",
+            "authors": [
+              "Lurie A",
+              "Pascal O",
+              "Castillon du Perron M",
+              "Grandordy B",
+              "Huchon G"
+            ],
+            "journal": "Revue des maladies respiratoires",
+            "year": "1985",
+            "abstract": "Muco-ciliary transport is only effective because of the coordination of the ciliary beats (metachronous) and the harmony between mucus and cilia. The tip of the cilia is in contact with a jellyform layer of mucus propelled to the oropharynx. This jellyform layer has a complex rheological behaviour: it flows like a liquid and shapes like solid elastic. When the rheological properties of bronchial secretion are abnormal, mucociliary transport becomes inefficient. However, the most fluid secretions",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8296756",
+            "title": "Abnormalities of pulmonary function in patients with congestive heart failure, and reversal with ipratropium bromide.",
+            "authors": [
+              "Kindman L A",
+              "Vagelos R H",
+              "Willson K",
+              "Prikazky L",
+              "Fowler M"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1994",
+            "abstract": "Patients with congestive heart failure (CHF) have baseline restrictive and obstructive abnormalities in pulmonary function. Thus, improvement of respiratory parameters may provide a new method for the treatment of CHF. Ipratropium is an inhaled anticholinergic bronchodilator with no reported cardiac or systemic effect. A pilot study was performed to investigate the acute effects of a 72 micrograms inhaled dose of ipratropium bromide on pulmonary function and pulmonary artery pressures in 18 nons",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28932559",
+            "title": "Pupillary abnormalities in non-selected critically ill patients: an observational study.",
+            "authors": [
+              "Portran Philippe",
+              "Cour Martin",
+              "Hernu Romain",
+              "de la Salle Sylvie",
+              "Argaud Laurent"
+            ],
+            "journal": "Journal of thoracic disease",
+            "year": "2017",
+            "abstract": "Repeated pupillary examination is a key element of neurologic surveillance in intensive care units (ICU). However, in non-selected critically ill patients, the clinical interest of monitoring pupillary diameter and light reflex is poorly documented. We aimed to determine the prevalence and the etiologies of pupillary abnormalities (PAs) in this ICU patient population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19052054",
+            "title": "Evaluation of acute bronchodilator reversibility in patients with symptoms of GOLD stage I COPD.",
+            "authors": [
+              "O'Donnell D E",
+              "Laveneziana P",
+              "Ora J",
+              "Webb K A",
+              "Lam Y-M"
+            ],
+            "journal": "Thorax",
+            "year": "2009",
+            "abstract": "Patients with symptoms of GOLD stage I chronic obstructive pulmonary disease (COPD) can have significant abnormalities of ventilatory mechanics with greater exertional symptoms and exercise limitation than age-matched healthy subjects. In such patients the impact of bronchodilator therapy remains unknown and is difficult to evaluate.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19911854",
+            "title": "Acute severe asthma: new approaches to assessment and treatment.",
+            "authors": [
+              "Papiris Spyros A",
+              "Manali Effrosyni D",
+              "Kolilekas Likurgos",
+              "Triantafillidou Christina",
+              "Tsangaris Iraklis"
+            ],
+            "journal": "Drugs",
+            "year": "2009",
+            "abstract": "The precise definition of a severe asthmatic exacerbation is an issue that presents difficulties. The term 'status asthmaticus' relates severity to outcome and has been used to define a severe asthmatic exacerbation that does not respond to and/or perilously delays the repetitive or continuous administration of short-acting inhaled beta(2)-adrenergic receptor agonists (SABA) in the emergency setting. However, a number of limitations exist concerning the quantification of unresponsiveness. Theref",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10976150",
+            "title": "Pulmonary function profile in chronic congestive heart failure and the effect of ipratropium bromide.",
+            "authors": [
+              "Khan K A",
+              "Jalal S",
+              "Jan V M",
+              "Lone G M",
+              "Jan R"
+            ],
+            "journal": "Indian heart journal",
+            "year": "2000",
+            "abstract": "Twenty-five symptomatic patients of chronic heart failure were subjected to spirometry to detect abnormalities of pulmonary function and to assess the effect of ipratropium bromide in reversing or minimising these abnormalities. All the patients exhibited abnormal pulmonary function manifesting as obstructive (15/25) or restrictive (10/25) ventilatory defect. There was overall improvement in lung functions with ipratropium bromide especially in those with obstructive ventilatory defects and most",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15101027",
+            "title": "The reversibility of increased airways resistance in chronic heart failure measured by impulse oscillometry.",
+            "authors": [
+              "Witte Klaus K A",
+              "Morice Alyn",
+              "Cleland John G F",
+              "Clark Andrew L"
+            ],
+            "journal": "Journal of cardiac failure",
+            "year": "2004",
+            "abstract": "Patients with chronic heart failure complain of breathlessness and fatigue on exercise. Airways resistance is increased and lung compliance is reduced in chronic heart failure patients. The aim of this study was to determine whether the pulmonary abnormalities are reversible and whether any improvements lead to changes to exercise capacity or symptoms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9230720",
+            "title": "Inhibition of PAF-induced gas exchange defects by beta-adrenergic agonists in mild asthma is not due to bronchodilation.",
+            "authors": [
+              "Díaz O",
+              "Barberà J A",
+              "Marrades R",
+              "Chung K F",
+              "Roca J"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "1997",
+            "abstract": "Salbutamol inhibits neutropenia, increased airway resistance, and gas exchange abnormalities provoked by platelet-activating factor (PAF) challenge in normal persons. To further explore the intriguing dissociation between spirometric abnormalities and gas exchange defects shown in patients with asthma, we investigated whether the salbutamol-induced improvement in gas exchange disturbances after PAF is the result of bronchodilation by comparing this effect with that of ipratropium bromide. We hyp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10092690",
+            "title": "Risk factors for death from asthma, chronic obstructive pulmonary disease, and cardiovascular disease after a hospital admission for asthma.",
+            "authors": [
+              "Guite H F",
+              "Dundas R",
+              "Burney P G"
+            ],
+            "journal": "Thorax",
+            "year": "1999",
+            "abstract": "Patients with asthma have an increased risk of death from causes other than asthma. A study was undertaken to identify whether severity of asthma, its treatment, or associated co-morbidity were associated with increased risk of death from other causes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16786796",
+            "title": "[A case of emphysema suggesting cystic lung disease in computer tomography].",
+            "authors": [
+              "Swierczyńska Monika",
+              "Mastalerz Lucyna",
+              "Papla Bolesław",
+              "Sładek Krzysztof",
+              "Nizankowska-Mogilnicka Ewa"
+            ],
+            "journal": "Przeglad lekarski",
+            "year": "2005",
+            "abstract": "Pulmonary emphysema is anatomically defined as abnormal persistent enlargement of the air spaces distal to the terminal bronchioles, accompanied by destruction of alveolar walls, without evident fibrosis. High-resolution computer tomography (HRCT) imaging is a valuable tool for diagnosis of this disease. The presence of minute cysts distributed evenly through all lung zones is rarely observed in pulmonary emphysema. In such cases, emphysema should be differentiated from other cystic lung disease",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "呼吸道結構異常（如早產兒支氣管肺發育不良 BPD、氣管支氣管軟化症 TBM）常伴有動態氣道塌陷與反應性氣道疾病。Ipratropium 透過抗膽鹼能作用擴張氣道平滑肌，可改善功能性氣流阻塞，但無法矯正結構性異常。部分回顧性研究支持早產兒族群中的支氣管擴張劑使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "papillary conjunctivitis",
+      "txgnn": {
+        "score": 0.9974539875984192,
+        "rank": 4087
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳突性結膜炎為免疫介導的眼表炎症反應，Ipratropium 的抗膽鹼能機轉與其發病機轉無直接關聯。已知 Ipratropium 霧化吸入時意外接觸眼睛可導致散瞳（不良反應），但此現象與治療結膜炎無關。TxGNN 預測缺乏生物學支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Rienhoff syndrome",
+      "txgnn": {
+        "score": 0.9969134330749512,
+        "rank": 4696
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Rienhoff 症候群（TGFB3 基因突變，結締組織疾病，類 Marfan 表現）為遺傳性結構蛋白異常，病理機轉涉及 TGF-β 信號通路過度活化，與毒蕈鹼受體路徑無直接關聯。此預測高度可能為 TxGNN 知識圖譜的間接關聯推斷（可能經由「結締組織疾病→心肺合併症→支氣管擴張劑」路徑），無臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "tracheal disease",
+      "txgnn": {
+        "score": 0.9966267347335817,
+        "rank": 4987
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04142814",
+            "title": "Randomized Controlled Study on the Evaluation of the T-PEP Method Based on Positive Expiratory Pressure Versus Intrapulmonary Percussive Ventilation for Lower Respiratory Airways Clearance in Sub-acute, Tetraplegic, Tracheotomized Spinal Cord Injured Patients",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2022-02",
+            "completion_date": "2023-08",
+            "brief_summary": "In tetraplegic patients with complete cervical spinal cord injury, respiratory complications are very frequent, especially in the sub-acute phase: the lungs often become obstructed due to the accumulation of secretions and the contemporary inefficiency of the cough mechanism. The present pilot study aims, in the context of a rehabilitative Critical Care Unit, at evaluating a not yet published method, called \"T-PEP\" and based on the principle of Positive Expiratory Pressure, applicable to tracheo",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究撤回且 0 enrollment，無有效資料。T-PEP 為主要干預，與 Ipratropium 在氣管疾病中的直接關聯不明確。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25278282",
+            "title": "A comparative study of the beneficial effects of ipratropium and beclomethasone against insulin-induced tracheal tissue contraction in a guinea pig model.",
+            "authors": [
+              "Sharif Mahjabeen",
+              "Khan Bushra Tayyaba",
+              "Bin Aleem Shoaib",
+              "Anwar Mohammad Asim"
+            ],
+            "journal": "Medical principles and practice : international journal of the Kuwait University, Health Science Centre",
+            "year": "2015",
+            "abstract": "To evaluate the acute effects of insulin on airway reactivity and the protective effects of beclomethasone and ipratropium against insulin-induced airway hyperresponsiveness on isolated tracheal smooth muscle in a guinea pig model.",
+            "classification": {
+              "study_type": "Experimental Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35781234",
+            "title": "The Importance of Flexible Bronchoscopy in Difficult-to-treat Asthma from a Pediatric Pulmonology Perspective.",
+            "authors": [
+              "Nayir Büyükşahin Halime",
+              "Emiralioğlu Nagehan",
+              "Ademhan Tural Dilber",
+              "Özsezen Beste",
+              "Sunman Birce"
+            ],
+            "journal": "Turkish archives of pediatrics",
+            "year": "2022",
+            "abstract": "Asthma is the most common chronic lung disease in childhood. Difficult-to-treat asthma is defined as the continuation of symptoms or attacks of patients despite step 4 or 5 of Global Initiative for Asthma therapy. In the differential diagnosis of these patients, flexible fiberoptic bronchoscopy is recommended to exclude other lung diseases. In this study, we aimed to examine the clinical and radiologic features and flexible fiberoptic bronchoscopy findings of patients referred to our pediatric p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23686692",
+            "title": "In vivo evidence of organic cation transporter-mediated tracheal accumulation of the anticholinergic agent ipratropium in mice.",
+            "authors": [
+              "Nakanishi Takeo",
+              "Hasegawa Yoshitaka",
+              "Haruta Tsunemitsu",
+              "Wakayama Tomohiko",
+              "Tamai Ikumi"
+            ],
+            "journal": "Journal of pharmaceutical sciences",
+            "year": "2013",
+            "abstract": "Ipratropium bromide (IPR) is an anticholinergic used to treat chronic obstructive pulmonary disease (COPD), and is a substrate of organic cation transporters. The present study aimed to assess the contribution of organic cation transporters to tracheobronchial absorption of IPR in vivo by directly injecting [(3) H]IPR into the tracheal lumen of mice and measuring its accumulation in tracheal tissue. RT-PCR and immunohistochemical analysis showed that Octn1, Octn2, and Oct2 were localized at epit",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37646125",
+            "title": "Dynamic computed tomography for evaluation of tracheobronchomalacia in premature infants with bronchopulmonary dysplasia.",
+            "authors": [
+              "Pugh Charles Preston",
+              "Ali Sumera",
+              "Agarwal Amit",
+              "Matlock David N",
+              "Sharma Megha"
+            ],
+            "journal": "Pediatric pulmonology",
+            "year": "2023",
+            "abstract": "Dynamic computed tomography (dCT) gives real-time physiological information and objective descriptions of airway narrowing in tracheobronchomalacia (TBM). There is a paucity of literature in the evaluation of TBM by dCT in premature infants with bronchopulmonary dysplasia (BPD). The aim of this study is to describe the findings of dCT and resultant changes in management in premature infants with TBM.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12434649",
+            "title": "[Tracheobronchomalacia in pediatric patients: clinical experience].",
+            "authors": [
+              "Castillo Andrés",
+              "Smith Jeany",
+              "Figueroa Valeria",
+              "Bertrand Pablo",
+              "Sánchez Ignacio"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "2002",
+            "abstract": "Tracheobronchomalacia is characterized by a deficiency in the cartilaginous support of the trachea and bronchi and hypotony in the myoelastic elements, that lead to different levels of airway obstruction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12133322",
+            "title": "[Effect of ipratropium bromide on calcium activated potassium channel in tracheal smooth muscle cells from chronically hypoxic rats].",
+            "authors": [
+              "Luo Yaling",
+              "Cheng Shihu",
+              "Lai Wenyan",
+              "Luo Liang"
+            ],
+            "journal": "Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases",
+            "year": "2002",
+            "abstract": "To study the effects of ipratropium bromide on large conductance calcium activated potassium (BK(Ca)) channel in tracheal smooth muscle cells (TSMC) from chronically hypoxic rat.",
+            "classification": {
+              "study_type": "Mechanistic/In vitro",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29853489",
+            "title": "The mucus bundles responsible for airway cleaning are retained in cystic fibrosis and by cholinergic stimulation.",
+            "authors": [
+              "Ermund Anna",
+              "Meiss Lauren N",
+              "Dolan Brendan",
+              "Bähr Andrea",
+              "Klymiuk Nikolai"
+            ],
+            "journal": "The European respiratory journal",
+            "year": "2018",
+            "abstract": "The beneficial effect of anticholinergic therapy for chronic lung diseases such as chronic obstructive pulmonary disease (COPD) is well documented, although cholinergic stimulation paradoxically inhibits liquid absorption, increases ciliary beat frequency and increases airway surface liquid transport.Using pig tracheobronchial explants, we quantified basal mucus transport before as well as after incubation with the clinically used antimuscarinic compound ipratropium bromide (Atrovent) and stimul",
+            "classification": {
+              "study_type": "Translational Research",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8839659",
+            "title": "Antimuscarinic effect of tiquizium bromide in vitro and in vivo.",
+            "authors": [
+              "Shioya T",
+              "Kagaya M",
+              "Sano M",
+              "Itaba M",
+              "Shindo T"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1996",
+            "abstract": "We studied the bronchodilatory effect of tiquizium bromide [3-(di-2-thienylmethylene)-5 methyl-trans-quinolizidinium bromide; TQZ], an antimuscarinic agent, on airway smooth muscle in vitro, and also in patients with chronic obstructive pulmonary disease (COPD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30518799",
+            "title": "Bronchoscopy in neonates with severe bronchopulmonary dysplasia in the NICU.",
+            "authors": [
+              "Hysinger Erik",
+              "Friedman Nicholas",
+              "Jensen Erik",
+              "Zhang Huayan",
+              "Piccione Joseph"
+            ],
+            "journal": "Journal of perinatology : official journal of the California Perinatal Association",
+            "year": "2019",
+            "abstract": "To describe the findings, resulting changes in management, and safety profile of flexible bronchoscopy in the neonates with severe bronchopulmonary dysplasia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8866585",
+            "title": "Cholinergic control of rabbit tracheal transepithelial potential difference in vivo.",
+            "authors": [
+              "Tamaoki J",
+              "Chiyotani A",
+              "Tagaya E",
+              "Takemura H",
+              "Konno K"
+            ],
+            "journal": "The European respiratory journal",
+            "year": "1996",
+            "abstract": "The aim of the present study was to investigate the role of the autonomic nervous system in the regulation of airway epithelial ion transport in vivo. Rabbits were anaesthetized and mechanically-ventilated through a cannula inserted above the carina. The upper tracheal mucosa was exposed, and the electrical potential difference (PD) between the mucosal surface and the submucosal space was continuously measured by a high-impedance voltmeter under open-circuit conditions. Perfusion of the mucosa w",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9105095",
+            "title": "Bronchial hyperreactivity in patients with familial amyloidotic polyneuropathy and autonomic neuropathy.",
+            "authors": [
+              "Kawano O",
+              "Kohrogi H",
+              "Ando Y",
+              "Iwagoe H",
+              "Fujii K"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "1997",
+            "abstract": "To investigate the role of autonomic regulation on airway reactivity, we performed bronchial inhalation tests of methacholine (MCh) and histamine (Hist) in Japanese patients with familial amyloidotic polyneuropathy (FAP) and autonomic neuropathy. First we examined the FEV1 and Raw in seven patients with FAP and in six normal subjects, then we administered aerosols of increasing concentrations of MCh (0.075 to 25 mg/ml) at about 5-min intervals via a nebulizer controlled by a dosimeter. We measur",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18348887",
+            "title": "Bronchodilatory effects of S-isopetasin, an antimuscarinic sesquiterpene of Petasites formosanus, on obstructive airway hyperresponsiveness.",
+            "authors": [
+              "Lin Ling-Hung",
+              "Huang Tzu-Jung",
+              "Wang Sheng-Hao",
+              "Lin Yun-Lian",
+              "Wu Sheng-Nan"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "2008",
+            "abstract": "In the presence of neostigmine (0.1 microM), S-isopetasin competitively antagonized cumulative acetylcholine-induced contractions in guinea pig trachealis, because the slope [1.18+/-0.15 (n=6)] of Schild's plot did not significantly differ from unity. The pA2 value of S-isopetasin was calculated to be 4.62+/-0.05 (n=18). The receptor binding assay for muscarinic receptors of cultured human tracheal smooth muscle cells (HTSMCs) was performed using [3H]-N-methylscopolamine ([3H]-NMS). Saturation b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24405692",
+            "title": "Pharmacologic inhibition of S-nitrosoglutathione reductase protects against experimental asthma in BALB/c mice through attenuation of both bronchoconstriction and inflammation.",
+            "authors": [
+              "Blonder Joan P",
+              "Mutka Sarah C",
+              "Sun Xicheng",
+              "Qiu Jian",
+              "Green Lucia H"
+            ],
+            "journal": "BMC pulmonary medicine",
+            "year": "2014",
+            "abstract": "S-nitrosoglutathione (GSNO) serves as a reservoir for nitric oxide (NO) and thus is a key homeostatic regulator of airway smooth muscle tone and inflammation. Decreased levels of GSNO in the lungs of asthmatics have been attributed to increased GSNO catabolism via GSNO reductase (GSNOR) leading to loss of GSNO- and NO- mediated bronchodilatory and anti-inflammatory actions. GSNOR inhibition with the novel small molecule, N6022, was explored as a therapeutic approach in an experimental model of a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2714355",
+            "title": "Muscarinic stimulation of prostanoid synthesis by the isolated rat trachea: calcium dependency and effect of cortisol and cigarette smoke.",
+            "authors": [
+              "Jeremy J Y",
+              "Mikhailidis D P",
+              "Dandona P"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "1989",
+            "abstract": "Tracheal prostanoid synthesis was stimulated by parasympathomimetics: arecoline greater than carbachol = methacholine greater than acetylcholine much greater than arecaidine. McNA343, dimethyl phenyl piperazinium (DMPP), nicotine, potassium and isoprenaline were without effect. Prostanoid synthesis was also stimulated by Ca2+ ionophore A23187 and arachidonic acid (AA). Carbachol-stimulated prostanoid synthesis was inhibited by cholinergic antagonists (atropine greater than ipratropium bromide mu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39902005",
+            "title": "A Rare Case of Endotracheal Metastases in Head and Neck Squamous Cell Carcinoma: A Case Report and Literature Review.",
+            "authors": [
+              "Krishnan Sathish",
+              "Abbasi Faheem",
+              "Jayapal Praveen",
+              "Selvarajan Dhileepan"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Head and neck squamous cell carcinoma (HNSCC) typically originates from the squamous cells lining the mucosal surfaces of the head and neck. Patients may present with diverse symptoms, including hoarseness of voice, difficulty swallowing (dysphagia), a neck mass, or a cough. While metastasis is usually regional, distant metastases, including tracheobronchial involvement, though rare, can occur and are often associated with a poor prognosis. Here, we report the case of a 64-year-old patient with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20658485",
+            "title": "Inhaled colistin for the treatment of tracheobronchitis and pneumonia in critically ill children without cystic fibrosis.",
+            "authors": [
+              "Falagas Matthew E",
+              "Sideri Georgia",
+              "Korbila Ioanna P",
+              "Vouloumanou Evridiki K",
+              "Papadatos John H"
+            ],
+            "journal": "Pediatric pulmonology",
+            "year": "2010",
+            "abstract": "Data regarding the role of inhaled colistin in critically ill pediatric patients without cystic fibrosis are scarce. Three children (one female), admitted to the intensive care unit (ICU) of a tertiary-care pediatric hospital in Athens, Greece, during 2004-2009 received inhaled colistin as monotherapy for tracheobronchitis (two children), and as adjunctive therapy for necrotizing pneumonia (one child). Colistin susceptible Acinetobacter baumannii and Pseudomonas aeruginosa were isolated from the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ipratropium 透過阻斷氣管平滑肌的毒蕈鹼受體（M3），抑制鈣離子激活鉀通道活性，降低氣道收縮張力。同時影響氣管黏液分泌與纖毛清除功能。機轉研究（PMID 12133322, 23686692）直接在氣管模型中驗證效應，支持氣管疾病的理論應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "anaphylaxis",
+      "txgnn": {
+        "score": 0.9938023090362548,
+        "rank": 7536
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30059791",
+            "title": "Management of anaphylaxis and allergies in patients with long QT syndrome: A review of the current evidence.",
+            "authors": [
+              "Welzel Tatjana",
+              "Ziesenitz Victoria C",
+              "Seitz Stefanie",
+              "Donner Birgit",
+              "van den Anker Johannes N"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2018",
+            "abstract": "To develop a treatment algorithm for patients with long QT syndrome (LQTS) in case they need antiallergic medications for allergic reactions, including asthma and anaphylaxis.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8449120",
+            "title": "An unusual case of severe anaphylaxis due to ipratropium bromide inhalation.",
+            "authors": [
+              "Bone W D",
+              "Amundson D E"
+            ],
+            "journal": "Chest",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6125398",
+            "title": "Bronchodilator and antiallergic effects of thiazinamium chloride in guinea pigs, rats, cats and dogs.",
+            "authors": [
+              "Lewis A J",
+              "Dervinis A",
+              "Rosenthale M E"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "1982",
+            "abstract": "This study characterized the in vivo pulmonary pharmacology of thiazinamium chloride administered largely by the aerosol route in different animal species. The compound has greater anticholinergic but weaker antihistaminic activity than promethazine, the parent compound. It was less potent than atropine or ipratropium as an anticholinergic and had a shorter duration of action, but unlike these compounds it had long-lasting antihistaminic activity. It is effective in both IgG- and IgE-induced mod",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20597367",
+            "title": "[Antianaphylactic effects of muscarinic antagonists].",
+            "authors": [
+              "Nezhinskaia G I",
+              "Vladykin A L",
+              "Sapronov N S"
+            ],
+            "journal": "Eksperimental'naia i klinicheskaia farmakologiia",
+            "year": "2010",
+            "abstract": "The study was carried out on color guinea pigs, in which anaphylactic shock was induced by sensitizing and challenging doses of normal horse serum (HS). Administration of atropine, ipratropium, or ipratropium in combination with neostigmine led to reduction of sensitizing effect of HS: anaphylactic index was decreased up to (2.2 - 2.4) +/- 0.1 arbitrary units (a.u.). Methacine in combination with neostigmine (0.4 +/- 0.01 a.u.) or atropine in combination with galantamine (1.5 +/- 0.3 a.u.) effec",
+            "classification": {
+              "study_type": "Preclinical/Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12802149",
+            "title": "It was a shock.",
+            "authors": [
+              "Karch Amy M",
+              "Karch Fred E"
+            ],
+            "journal": "The American journal of nursing",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18627797",
+            "title": "Validation of guinea pig model of allergic rhinitis by oral and topical drugs.",
+            "authors": [
+              "Bahekar Prashant C",
+              "Shah Jigar H",
+              "Ayer Upendra B",
+              "Mandhane Sanjay N",
+              "Thennati Rajamannar"
+            ],
+            "journal": "International immunopharmacology",
+            "year": "2008",
+            "abstract": "Ovalbumin-induced guinea pig model of rhinitis was assessed for its utility in the studies of rhinitis. Systemic sensitization and challenge with ovalbumin-induced rhinitis symptoms and an increase in anti-OVA-IgE and IgG titers, positive skin reactions and nasal lavage IL-4 concentration. Histopathology of nasal mucosa showed infiltration of eosinophils and other inflammatory cells consistent with the symptoms. Topical sensitization of ovalbumin yielded inconsistent symptoms of rhinitis. In sys",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31626398",
+            "title": "Prehospital management of pediatric asthma patients in a large emergency medical services system.",
+            "authors": [
+              "Ramgopal Sriram",
+              "Mazzarini Angelica",
+              "Martin-Gill Christian",
+              "Owusu-Ansah Sylvia"
+            ],
+            "journal": "Pediatric pulmonology",
+            "year": "2020",
+            "abstract": "Asthma is a common pediatric diagnosis for emergency medical services (EMS) transports, however there is a paucity of data on prehospital asthma management. The purpose of this study was to describe prehospital management of pediatric patients with suspected asthma exacerbation.",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7052339",
+            "title": "Atropine inhibits thromboxane A2 generation in isolated lungs of the guinea-pig.",
+            "authors": [
+              "Berti F",
+              "Folco G C",
+              "Giachetti A",
+              "Malandrino S",
+              "Omini C"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "1980",
+            "abstract": "1 Histamine (0.5 to 5 micrograms) and slow reacting substance of anaphylaxis (SRS-A, 0.05 to 0.3 u), injected in the isolated, perfused lungs of normal and ovalbumin-sensitized guinea-pigs, promote formation and release of thromboxane A2(TXA2) and other arachidonate metabolites, the effect being more pronounced in sensitized lungs. 2 Carbachol injected (1 to 10 micrograms) or perfused (1 micrograms ml-1 min-1) through normal or sensitized lungs does not elicit formation of TXA2 and prostaglandin",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24682736",
+            "title": "Successful readministration of trastuzumab after severe immune reactions in two breast cancer patients.",
+            "authors": [
+              "Tanz R",
+              "Meillan N",
+              "Libert N",
+              "Magne N",
+              "Vedrine L"
+            ],
+            "journal": "Investigational new drugs",
+            "year": "2014",
+            "abstract": "Trastuzumab is a standard treatment in breast cancer overexpressing Her2 oncogene. However, its administration carries the risk of severe immune adverse events which often lead to the discontinuation of trastuzumab. There is no clear guideline on how patients experiencing trastuzumab-related reaction should be rechallenged with the monoclonal antibody. Here, we present two case reports of patients who have presented severe anaphylactic reactions during trastuzumab infusion. Both of them have bee",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2531066",
+            "title": "Syncope caused by methacholine in a patient with exercise-induced anaphylaxis.",
+            "authors": [
+              "van Assendelft A H"
+            ],
+            "journal": "Chest",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過敏性休克伴發的嚴重支氣管痙攣部分由副交感神經-膽鹼能途徑介導。Ipratropium 作為抗膽鹼能藥物可作為 epinephrine 後的輔助支氣管擴張劑。動物實驗顯示毒蕈鹼拮抗劑具抗過敏效應（PMID 20597367），並可抑制 thromboxane A2 生成（PMID 7052339）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "food-dependent exercise-induced anaphylaxis",
+      "txgnn": {
+        "score": 0.9936360120773317,
+        "rank": 7697
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "食物依賴性運動誘發過敏性休克（FDEIA）的核心機轉為運動促進食物過敏原（如 ω-5 醇溶蛋白）的腸道吸收增加，進而觸發 IgE 介導的肥大細胞脫顆粒。此路徑與膽鹼能系統無直接關聯。雖然膽鹼激性蕁麻疹可有類似誘因，但 FDEIA 的發病機轉不同。TxGNN 預測為過度推論，無支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "obstructive lung disease"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "obstructive lung disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "obstructive lung disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "respiratory malformation"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "respiratory malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "respiratory malformation"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "Rienhoff syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "Rienhoff syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "Rienhoff syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "tracheal disease"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "anaphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "anaphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "anaphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Ipratropium",
+        "disease": "food-dependent exercise-induced anaphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,2782 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00125-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Arginine",
+    "drugbank_id": "DB00125",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "gastroparesis (disease)",
+      "txgnn": {
+        "score": 0.9942012429237366,
+        "rank": 7205
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01702051",
+            "title": "Autologous Pancreatic Islet Cell Transplantation for Improved Glycaemic Control After Pancreatectomy: Observational Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2012-02",
+            "completion_date": "2025-10",
+            "brief_summary": "Islet autotransplantation (IAT) is a therapeutic approach used to prevent pancreatogenic diabetes or to reduce the severity of diabetes after a major pancreatectomy. Total pancreatectomy with IAT is being used almost exclusively for treatment of chronic pancreatitis. More recently, indications other than chronic pancreatitis have been reported including IAT after extended pancreatectomy performed for the resection of benign tumors of the mid-segment of the pancreas or IAT after total pancreatect",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究對象為胰切除後胰島移植，與 Arginine 用於胃輕癱無直接關聯；狀態 UNKNOWN，結果不可信。屬誤匹配。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25057793",
+            "title": "Glucocorticoids induce gastroparesis in mice through depletion of l-arginine.",
+            "authors": [
+              "Reichardt Sybille D",
+              "Weinhage Toni",
+              "Rotte Anand",
+              "Föller Michael",
+              "Oppermann Martin"
+            ],
+            "journal": "Endocrinology",
+            "year": "2014",
+            "abstract": "Glucocorticoids (GCs) constitute a highly pleiotropic class of drugs predominantly employed in the treatment of inflammatory diseases. In our search for new mechanisms of action, we identified a hitherto unknown effect of GCs in the gastrointestinal tract. We found that oral administration of dexamethasone (Dex) to mice caused an enlargement of the stomach due to the induction of gastroparesis and that this effect was abolished in GR(dim) mice carrying the A458T mutation in the GC receptor (GR).",
+            "classification": {
+              "study_type": "Animal (in vivo mouse)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23639814",
+            "title": "Tetrahydrobiopterin deficiency induces gastroparesis in newborn mice.",
+            "authors": [
+              "Welsh Christopher",
+              "Enomoto Masahiro",
+              "Pan Jingyi",
+              "Shifrin Yulia",
+              "Belik Jaques"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2013",
+            "abstract": "Pyloric stenosis, the most common infant gastrointestinal disease, has no known etiology and clinically presents as abnormal gastric emptying with evidence of pyloric muscle hypertrophy. Whether abnormalities in gastric muscle contraction and/or relaxation have a role in this condition is poorly known, but gastroparesis is commonly observed in association with delayed gastric emptying in adults. Therefore, we evaluated the tetrahydrobiopterin (BH4)-deficient newborn mouse model of this disease (",
+            "classification": {
+              "study_type": "Animal (in vivo mouse)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35380456",
+            "title": "Impaired nitrergic relaxation in pyloric sphincter of the 6-OHDA Parkinson's disease rat.",
+            "authors": [
+              "Fan Yan-Yan",
+              "Zhang Yue",
+              "Fan Rui-Fang",
+              "Wang Tao",
+              "Yu Xiao"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2022",
+            "abstract": "Patients with Parkinson's disease (PD) often suffer from delayed gastric emptying, but the underlying mechanism remains unclear. We have shown previously that a PD rat model comprising bilateral substantia nigra destruction by 6-hydroxydopamine (6-OHDA rats) exhibits gastroparesis with alteration of neural nitric oxide synthase (nNOS) and acetylcholine in gastric corpus. However, changes in pyloric motility in the 6-OHDA rats have not been characterized. Solid gastric emptying test, immunofluore",
+            "classification": {
+              "study_type": "Animal (in vivo rat)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33867519",
+            "title": "Lifestyle Changes Normalize Serum Lactate Levels in an m.3243A>G Carrier.",
+            "authors": [
+              "Finsterer Josef"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2021",
+            "abstract": "BACKGROUND The normalization of serum lactate levels in a patient with non-syndromic mitochondrial disorder due to the m.3243A>G mitochondrial DNA (mtDNA) variant has not been previously reported. CASE REPORT A 57-year-old woman was diagnosed with mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS) due to the m.3243A>G variant, with low heteroplasmy rates (31%), at age 50. The initial manifestations were short stature, migraine, and diabetes. With progression of the d",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18322959",
+            "title": "Gastric motor effects of ghrelin and growth hormone releasing peptide 6 in diabetic mice with gastroparesis.",
+            "authors": [
+              "Qiu Wen-Cai",
+              "Wang Zhi-Gang",
+              "Wang Wei-Gang",
+              "Yan Jun",
+              "Zheng Qi"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2008",
+            "abstract": "To investigate the potential therapeutic significance of ghrelin and growth hormone releasing peptide 6 (GHRP-6) in diabetic mice with gastric motility disorders.",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18312542",
+            "title": "Characterization of myenteric neuropathy in the jejunum of spontaneously diabetic BB-rats.",
+            "authors": [
+              "Zandecki M",
+              "Vanden Berghe P",
+              "Depoortere I",
+              "Geboes K",
+              "Peeters T"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2008",
+            "abstract": "Decreased gastric expression and function of neuronal nitric oxide synthase (nNOS) has been proposed as a potential mechanism underlying diabetic gastroparesis. As gastric nNOS expression is vagally controlled, these changes might occur secondarily to vagal neuropathy. In addition, it is unclear whether other inhibitory neurotransmitters are also involved. We used the type 1 diabetic BioBreeding (BB)-rat model to study jejunal motor control and nNOS expression, which is independent of the vagus.",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19023028",
+            "title": "Synchronized gastric electrical stimulation improves vagotomy-induced impairment in gastric accommodation via the nitrergic pathway in dogs.",
+            "authors": [
+              "Chen Jie",
+              "Koothan Thillai",
+              "Chen Jiande D Z"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2009",
+            "abstract": "Impaired gastric accommodation and gastric dysrhythmia are common in gastroparesis and functional dyspepsia. Recent studies have shown that synchronized gastric electrical stimulation (SGES) accelerates gastric emptying and enhances antral contractions in dogs. The aim of this study was to investigate the effects and mechanism of SGES on gastric accommodation and slow waves impaired by vagotomy in dogs. Gastric tone, compliance, and accommodation as well as slow waves with and without SGES were ",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31984783",
+            "title": "Sacral nerve stimulation increases gastric accommodation in rats: a spinal afferent and vagal efferent pathway.",
+            "authors": [
+              "Ye Feng",
+              "Liu Yi",
+              "Li Shiying",
+              "Zhang Sujuan",
+              "Foreman Robert D"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2020",
+            "abstract": "Impaired gastric accommodation (GA) has been frequently reported in various gastrointestinal diseases. No standard treatment strategy is available for treating impaired GA. We explored the possible effect of sacral nerve stimulation (SNS) on GA and discovered a spinal afferent and vagal efferent mechanism in rats. Sprague-Dawley rats (450-500 g) with a chronically implanted gastric cannula and ECG electrodes were studied in a series of sessions to study: 1) the effects of SNS with different para",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21193530",
+            "title": "Inhibition of gastric motility by hyperglycemia is mediated by nodose ganglia KATP channels.",
+            "authors": [
+              "Zhou Shi-Yi",
+              "Lu Yuanxu",
+              "Song Il",
+              "Owyang Chung"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2011",
+            "abstract": "The inhibitory action of hyperglycemia is mediated by vagal afferent fibers innervating the stomach and duodenum. Our in vitro studies showed that a subset of nodose ganglia neurons is excited by rising ambient glucose, involving inactivation of ATP-sensitive K(+) (K(ATP)) channels and leading to membrane depolarization and neuronal firing. To investigate whether nodose ganglia K(ATP) channels mediate gastric relaxation induced by hyperglycemia, we performed in vivo gastric motility studies to e",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8194696",
+            "title": "Rat gastric motor response to food protein-induced anaphylaxis.",
+            "authors": [
+              "Catto-Smith A G",
+              "Tan D",
+              "Gall D G",
+              "Scott R B"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1994",
+            "abstract": "Antigen challenge of sensitized rats leads to delayed gastric emptying, but the mechanism (gastroparesis or prolonged trituration) and mediators are unknown.",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "L-Arginine 是 NOS（一氧化氮合酶）的直接受質，NO 是腸肌神經（nitrergic）調控幽門括約肌舒張的關鍵訊號分子。PMID 25057793 直接證明糖皮質激素導致 L-arginine 耗竭，進而引發胃輕癱；PMID 35380456 顯示幽門括約肌 nitrergic 舒張障礙與胃輕癱相關。機轉關聯強度：★★★★☆",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn": {
+        "score": 0.989164173603058,
+        "rank": 11137
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00345605",
+            "title": "A Randomized, Double-Blind, Crossover Study of Sodium Phenylbutyrate and Low-Dose Arginine Compared to High-Dose Arginine Alone on Liver Function, Ureagenesis and Subsequent Nitric Oxide Production in Patients With Argininosuccinic Aciduria",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2008-02",
+            "completion_date": "2012-11",
+            "brief_summary": "Urea cycle disorders are inherited illnesses in which the body does not produce enough of the chemicals that remove ammonia, a byproduct of protein metabolism, from the blood stream. Elevated ammonia levels can lead to brain damage and death. Argininosuccinic aciduria (ASA) is a type of urea cycle disorder that is characterized specifically by high levels of argininosuccinic acid, a chemical involved in the urea cycle. People with ASA are at risk for serious liver damage, which may be due to the",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "含 arginine 成分（低劑量），推測為尿素循環障礙試驗（標題截斷），Phase 2 已完成 n=12。與先天性凝血酶原缺乏無適應症關聯，arginine 參與但目標疾病不符。"
+            }
+          },
+          {
+            "nct_id": "NCT02392767",
+            "title": "Effect of a Dietary Supplement on Endothelial Function in Volunteers With Light to Moderate Hypertension - a Randomised, Double-blind, Placebo Controlled Cross-over Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2014-10",
+            "completion_date": "2015-08",
+            "brief_summary": "The effect of a combination product (Verum ) with L-arginine, Pycnogenol, vitamin K2, R-(+)-alpha-lipoic acid and vitamins B6, B12 and folic acid is investigated in a double blind placebo-controlled cross-over study. Volunteers with hypertension and hyperhomocysteinemia are randomly assigned to the dietary supplement or placebo.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "高血壓內皮功能試驗，與凝血酶原缺乏無關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21115138",
+            "title": "Acquired hemophilia a: diagnosis, aetiology, clinical spectrum and treatment options.",
+            "authors": [
+              "Shetty Shrimati",
+              "Bhave Manali",
+              "Ghosh Kanjaksha"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2011",
+            "abstract": "Acquired hemophilia A (AHA) is a rare disorder with an incidence of approximately 1 per million/year with a high mortality rate of more than 20%. The disease occurs due to autoantibodies against coagulation factor VIII (FVIII) which neutralize its procoagulant function and result in severe, often life-threatening bleeding. The antibodies arise in individuals with no prior history of hemophilia A. AHA may be associated with pregnancy, autoimmune diseases, malignancy, infections or medication and ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2607619",
+            "title": "[DDAVP administration in a case of congenital combined factor V and factor VIII deficiency].",
+            "authors": [
+              "Takai Y",
+              "Hayashi H",
+              "Ishimaru F",
+              "Fujita T",
+              "Tsurumi N"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "1989",
+            "abstract": "Combined deficiency of factor V and factor VIII, a rare bleeding disorder, was found in a 43 year-old male. He had often presented manifestations of easy bruising since childhood, but none of his family had shown evidence of a bleeding tendency. We examined him and his family as far as we could and his abnormality of blood coagulation was apparent, but the members of his family were normal. The prothrombin time and activated partial thromboplastin time of this patient were prolonged, but his thr",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1942544",
+            "title": "[Management of cesarean section under replacement therapy with factor VIII concentrates in a pregnant case with congenital combined deficiency of factor V and factor VIII].",
+            "authors": [
+              "Ueno H",
+              "Asami M",
+              "Yoneda R",
+              "Muraoka A",
+              "Oribe T"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "1991",
+            "abstract": "The congenital combined deficiency of Factor V and Factor VIII, a rare bleeding disorder, was identified in a 25-year-old woman. She was admitted to our hospital with a complaint of genital bleeding. Her prothrombin time and activated partial thromboplastin time were prolonged. She had low levels of Factor V coagulant activity (F. V:C) 14%, and Factor VIII coagulant activity (F. VIII:C), 12%, and normal levels of von Willebrand factor antigen (vWF:Ag), ristocetin cofactor (Rcof) and Protein C an",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12897104",
+            "title": "Effects of argatroban as an anticoagulant for haemodialysis in patients with antithrombin III deficiency.",
+            "authors": [
+              "Ota Kazuo",
+              "Akizawa Tadao",
+              "Hirasawa Yoshihei",
+              "Agishi Tetsuzo",
+              "Matsui Noriaki"
+            ],
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "2003",
+            "abstract": "In congenital or acquired antithrombin III-deficient patients undergoing haemodialysis, coagulation or residual blood in the blood circuit and dialyser is commonly observed under anticoagulation with heparin. Argatroban, a synthetic thrombin antagonist, directly inhibits thrombin activity in a manner that is different from that of heparin, thereby displaying an anticoagulating effect without the activation of antithrombin III. For this reason, the anticoagulating effect of argatroban in haemodia",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6776145",
+            "title": "Identification of a congenital dysthrombin, thrombin Quick.",
+            "authors": [
+              "Henriksen R A",
+              "Owen W G",
+              "Nesheim M E",
+              "Mann K G"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1980",
+            "abstract": "A dysprothrombin designated prothrombin Quick, is isolated from the plasma of an individual with < 2% of normal functional prothrombin activity and 34% of the normal prothrombin level by immunologic assay. With Factor Xa or taipan snake venom as activators, a fragmentation pattern identical to that of normal prothrombin is observed on gel electrophoresis in dodecylsulfate. This evidence combined with the observed barium citrate adsorption of prothrombin Quick and the low activity suggests that t",
+            "classification": {
+              "study_type": "Case Report/Molecular",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無可信機轉關聯。Arginine 為 NO 前驅物及半必需胺基酸，與凝血第二因子（凝血酶原）之合成或功能無已知直接路徑。TxGNN 高分可能源於知識圖譜中氨基酸代謝與廣義凝血路徑的遠距節點關聯，屬模型假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "dyspepsia",
+      "txgnn": {
+        "score": 0.9742588996887208,
+        "rank": 19623
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05934318",
+            "title": "Oral Antenatal L-citrulline Supplementation to Reduce Adverse Pregnancy Outcomes: a Two-arm, Randomized, Placebo-controlled Multi-site Trial in Kenya",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 2960,
+            "start_date": "2023-12-29",
+            "completion_date": "2026-12-30",
+            "brief_summary": "There are few safe, effective, and affordable interventions to improve pregnancy outcomes in low resource settings where the highest rates of poor birth outcomes occur. L-citrulline is naturally found in many foods and is changed into another important amino acid, L-arginine, in the body. L-arginine is important for the growth of a healthy placenta and healthy baby. Adding L-citrulline to the diets of pregnant women may be an effective and affordable way to improve the health of their babies.The",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "L-Citrulline（arginine 代謝前驅物）用於妊娠結果，非消化不良，間接相關性極低"
+            }
+          },
+          {
+            "nct_id": "NCT07210164",
+            "title": "Prehabilitation With Exercise and Immunonutrition (Ocoxin®) in the Perioperative Management of Gynecologic Malignancies Under ERAS Protocol.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-12-01",
+            "completion_date": "2029-12-30",
+            "brief_summary": "ERAS (Enhanced Recovery After Surgery) protocols are step-by-step care plans that help patients recover faster after surgery. They focus on keeping the body's normal functions, lowering stress from surgery, and supporting a quicker recovery. In gynecologic cancer surgeries, ERAS has been shown to help patients do better, have fewer problems, and leave the hospital sooner.\n\nA prehabilitation program, in combination with ERAS protocols, aims to optimize patients' physical and psychological conditi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "婦科癌症圍術期營養支持，含多種免疫營養素，非消化不良專一研究"
+            }
+          },
+          {
+            "nct_id": "NCT05766774",
+            "title": "Feeding Study to Optimize Endocrine Dysfunction in Cystic Fibrosis",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2023-06-28",
+            "completion_date": "2028-06",
+            "brief_summary": "The goal of this study is to determine the extent to which excess dietary sugars serve as a precipitating factor in glucose intolerance in adults with cystic fibrosis (CF), a population at especially high risk for a unique form of diabetes (CF-related diabetes, CFRD) and with standard-of-care dietary recommendations (high-calorie, high-fat) that conflict with recommendations for other forms of diabetes.\n\nThis trial will investigate if the typical high-sugar, high-fat CF diet plays a role in diab",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "囊性纖維化內分泌障礙，非消化不良適應症"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35687195",
+            "title": "Utilising lipid and, arginine and proline metabolism in blood plasma to differentiate the biochemical expression in functional dyspepsia (FD) and irritable bowel syndrome (IBS).",
+            "authors": [
+              "Karpe Avinash V",
+              "Liu Jian-Wei",
+              "Shah Ayesha",
+              "Koloski Natasha",
+              "Holtmann Gerald"
+            ],
+            "journal": "Metabolomics : Official journal of the Metabolomic Society",
+            "year": "2022",
+            "abstract": "Functional gastrointestinal disorders (FGID) such as functional dyspepsia (FD) and irritable bowel syndrome (IBS) are highly prevalent and debilitating attributed to altered gut function and gut-brain interactions. FGID can be reliably diagnosed based upon the symptom pattern; but in the clinical setting FD or IBS a frequent diagnoses of exclusion after relevant structural causes of symptoms have been ruled out by appropriate testing. Thus far, there is no established biomarker for FGIDs. To add",
+            "classification": {
+              "study_type": "Metabolomics/Biomarker",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35668782",
+            "title": "Integrating Network Pharmacology and In Vivo Model to Investigate the Mechanism of Biheimaer in the Treatment of Functional Dyspepsia.",
+            "authors": [
+              "Wang Chun",
+              "Huanbieke Nuermanati",
+              "Cai Xiaoxia",
+              "Gao Shuyan",
+              "Du Tianfang"
+            ],
+            "journal": "Evidence-based complementary and alternative medicine : eCAM",
+            "year": "2022",
+            "abstract": "Biheimaer (BHM) is a hospital formulation for clinical treatment of dyspepsia and acid reflux, based on Compatibility Theory of Traditional Chinese Medicine. This study anticipated to elucidate the molecular mechanism of BHM against Functional dyspepsia via combined network pharmacology prediction with experimental verification.",
+            "classification": {
+              "study_type": "Animal/Network Pharmacology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38628273",
+            "title": "Supplementation of Crataegi fructus alleviates functional dyspepsia and restores gut microbiota in mice.",
+            "authors": [
+              "Hao Liyu",
+              "Yu Zeyue",
+              "Sun Jianhui",
+              "Li Zongyuan",
+              "Li Jianliang"
+            ],
+            "journal": "Frontiers in nutrition",
+            "year": "2024",
+            "abstract": "Functional dyspepsia (FD), also known as non-ulcerative dyspepsia, is a common digestive system disorder.",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12055579",
+            "title": "Clinical and pathophysiological characteristics of acute-onset functional dyspepsia.",
+            "authors": [
+              "Tack Jan",
+              "Demedts Ingrid",
+              "Dehondt Geert",
+              "Caenepeel Philip",
+              "Fischler Benjamin"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2002",
+            "abstract": "Functional bowel disorders may follow acute intestinal infection. In animals, postinflammatory dysmotility is associated with nitrergic dysfunction. The aim of this study was to identify and characterize patients with presumed postinfectious dyspepsia (PD) compared with unspecified-onset dyspepsia (UD).",
+            "classification": {
+              "study_type": "Clinical Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27535977",
+            "title": "L-Arginine L-Glutamate Enhances Gastric Motor Function in Rats and Dogs and Improves Delayed Gastric Emptying in Dogs.",
+            "authors": [
+              "Ishibashi-Shiraishi Ikumi",
+              "Shiraishi Seiji",
+              "Fujita Shinichi",
+              "Ogawa Saori",
+              "Kaneko Masahiko"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2016",
+            "abstract": "Amino acids are not only constituents of proteins, but also have multiple physiologic functions. Recent findings have revealed that ingested amino acids either activate luminal receptors or are metabolized, causing physiologic reactions in the gastrointestinal (GI) tract. We examined the effect of oral L-arginine L-glutamate (ArgGlu), a pharmaceutical amino acid salt used i.v. for the treatment of hyperammonemia, on gastric motor function in rats and dogs. Gastric emptying was determined using p",
+            "classification": {
+              "study_type": "Animal (in vivo rat & dog)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40652782",
+            "title": "The impact of Bifidobacterium breve BBr60 (BBr60) on metabolic and gastrointestinal health in healthy adults: A combined in vitro metabolomic and randomized, double-blind, placebo-controlled study.",
+            "authors": [
+              "Dong Yao",
+              "Cai Yihui",
+              "Tian Hairui",
+              "Wen Jian",
+              "Han Mei"
+            ],
+            "journal": "Clinical nutrition (Edinburgh, Scotland)",
+            "year": "2025",
+            "abstract": "This study aims to evaluate the physiological and psychological health impacts of Bifidobacterium breve BBr60 (BBr60) on healthy adults.",
+            "classification": {
+              "study_type": "RCT (probiotics)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39149805",
+            "title": "Metabolomic comparison of postprandial distress syndrome patients with and without duodenal eosinophilia.",
+            "authors": [
+              "Dalal Stuti",
+              "Ajit Deepa",
+              "Friesen Chance S",
+              "Shakhnovich Valentina",
+              "Singh Meenal"
+            ],
+            "journal": "Journal of pediatric gastroenterology and nutrition",
+            "year": "2024",
+            "abstract": "In functional dyspepsia patients, duodenal mucosal eosinophilia has been associated with early satiety but is not present in all patients suggesting varied pathways to symptom generation. The objective of the current study was to explore metabolic differences comparing those with duodenal mucosal eosinophilia to those without eosinophilia.",
+            "classification": {
+              "study_type": "Observational/Metabolomics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29747754",
+            "title": "Mechanism of resveratrol-induced relaxation of the guinea pig fundus.",
+            "authors": [
+              "Tsai Ching-Chung",
+              "Tey Shu-Leei",
+              "Lee Ming-Che",
+              "Liu Ching-Wen",
+              "Su Yu-Tsun"
+            ],
+            "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "year": "2018",
+            "abstract": "Resveratrol is a polyphenolic compound that can be isolated from plants and also is a constituent of red wine. Resveratrol induces relaxation of vascular smooth muscle and may prevent cardiovascular diseases.",
+            "classification": {
+              "study_type": "Animal (ex vivo)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6462599",
+            "title": "Primary dysmenorrhea: current concepts.",
+            "authors": [
+              "Voto S J",
+              "Essig G F"
+            ],
+            "journal": "The Ohio State medical journal",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28327128",
+            "title": "The investigation of Helicobacter pylori in the dental biofilm and saliva samples of children with dyspeptic complaints.",
+            "authors": [
+              "Aksit Bıcak Damla",
+              "Akyuz Serap",
+              "Kıratlı Binnur",
+              "Usta Merve",
+              "Urganci Nafiye"
+            ],
+            "journal": "BMC oral health",
+            "year": "2017",
+            "abstract": "The oral cavity can be an extra-gastric reservoir for Helicobacter pylori (H.pylori). This can play a role in the pathogenesis of halitosis, glossitis, recurrent aphthous stomatitis, and dental caries. The present study was conducted to detect the presence of H.pylori within the dental biofilm and in saliva samples collected from children suffering from dyspepsia and children without any gastrointestinal complaints. Associations with gastric infection, halitosis, and some oral parameters were al",
+            "classification": {
+              "study_type": "Clinical Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38462026",
+            "title": "Comparing massa medicata fermentata before and after charred in terms of digestive promoting effect via metabolomics and microbiome analysis.",
+            "authors": [
+              "Fan Siqi",
+              "Zhu Huangyao",
+              "Liu Wanqiu",
+              "Ha Jingwen",
+              "Liu Ying"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2024",
+            "abstract": "Massa Medicata Fermentata, a fermented Chinese medicine, is produced by the fermentation of six traditional Chinese medicines. Liu Shenqu (LSQ) and charred Liu Shenqu (CLSQ) have been used for strengthening the spleen and enhancing digestion for over a thousand years, and CLSQ is commonly used in clinical practice. However, it is unclear whether there is a difference in the spleen strengthening and digestion effects between LSQ and CLSQ, as well as their mechanisms of action.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21659472",
+            "title": "Tetrahydroberberine, an isoquinoline alkaloid isolated from corydalis tuber, enhances gastrointestinal motor function.",
+            "authors": [
+              "Lee Tae Ho",
+              "Kim Ki Hyun",
+              "Lee Sung Ok",
+              "Lee Kang Ro",
+              "Son Miwon"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2011",
+            "abstract": "Because delayed gastric emptying and impaired gastric accommodation are regarded as pathophysiological mechanisms underlying functional dyspepsia (FD), prokinetics and fundic relaxants have been suggested as a new treatment for FD. We isolated tetrahydroberberine (THB), an isoquinoline alkaloid (5,8,13,13a-tetrahydro-9,10-dimethoxy-6H-benzo[g]-1,3-benzodioxolo[5,6-a]quinolizine) from Corydalis tuber, and found that it has micromolar affinity for dopamine D(2) (pK(i) = 6.08) and 5-HT(1A) (pK(i) =",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19023028",
+            "title": "Synchronized gastric electrical stimulation improves vagotomy-induced impairment in gastric accommodation via the nitrergic pathway in dogs.",
+            "authors": [
+              "Chen Jie",
+              "Koothan Thillai",
+              "Chen Jiande D Z"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2009",
+            "abstract": "Impaired gastric accommodation and gastric dysrhythmia are common in gastroparesis and functional dyspepsia. Recent studies have shown that synchronized gastric electrical stimulation (SGES) accelerates gastric emptying and enhances antral contractions in dogs. The aim of this study was to investigate the effects and mechanism of SGES on gastric accommodation and slow waves impaired by vagotomy in dogs. Gastric tone, compliance, and accommodation as well as slow waves with and without SGES were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22941498",
+            "title": "Helicobacter pylori cagL amino acid polymorphisms and its association with gastroduodenal diseases.",
+            "authors": [
+              "Shukla Sanket Kumar",
+              "Prasad Kashi Nath",
+              "Tripathi Aparna",
+              "Jaiswal Virendra",
+              "Khatoon Jahanarah"
+            ],
+            "journal": "Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association",
+            "year": "2013",
+            "abstract": "CagL is a pilus protein of Helicobacter pylori that interacts with host cellular α5β1 integrins through its arginine-glycine-aspartate (RGD) motif, guiding proper positioning of the T4SS and translocation of CagA. Deletion or sequence variations of cagL significantly diminished the ability of H. pylori to induce secretion of IL-8 by the host cell. Therefore, this study was undertaken to investigate the association of cagL and its amino acid sequence polymorphisms with gastric cancer (GC), peptic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24895242",
+            "title": "Black tea extract and its thearubigins relieve the sildenafil-induced delayed gut motility in mice: a possible role of nitric oxide.",
+            "authors": [
+              "Murad Hussam A S",
+              "Abdallah Hossam M"
+            ],
+            "journal": "Phytotherapy research : PTR",
+            "year": "2014",
+            "abstract": "In this study we hypothesize that a standardized black tea aqueous extract (BTE) and thearubigins, its main polyphenolic pigments, will improve sildenafil-induced delay in gastric emptying (GE) and small intestinal transit (SIT) in mice. Twenty groups of mice (n = 8) were given a phenol red meal, and three sets of experiments were performed. In the first and second sets, effects of different concentrations of BTE, thearubigins (TRs), and sildenafil (SLD), alone and in combinations, on GE and SIT",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31984783",
+            "title": "Sacral nerve stimulation increases gastric accommodation in rats: a spinal afferent and vagal efferent pathway.",
+            "authors": [
+              "Ye Feng",
+              "Liu Yi",
+              "Li Shiying",
+              "Zhang Sujuan",
+              "Foreman Robert D"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2020",
+            "abstract": "Impaired gastric accommodation (GA) has been frequently reported in various gastrointestinal diseases. No standard treatment strategy is available for treating impaired GA. We explored the possible effect of sacral nerve stimulation (SNS) on GA and discovered a spinal afferent and vagal efferent mechanism in rats. Sprague-Dawley rats (450-500 g) with a chronically implanted gastric cannula and ECG electrodes were studied in a series of sessions to study: 1) the effects of SNS with different para",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12117882",
+            "title": "Role of nitric oxide in gastric motor and sensory functions in healthy subjects.",
+            "authors": [
+              "Kuiken S D",
+              "Vergeer M",
+              "Heisterkamp S H",
+              "Tytgat G N J",
+              "Boeckxstaens G E E"
+            ],
+            "journal": "Gut",
+            "year": "2002",
+            "abstract": "Impaired accommodation and hypersensitivity to distension of the proximal stomach are considered to be important factors in the pathogenesis of dyspeptic complaints. As fundus relaxing agents may be effective in the treatment of these symptoms, insight into the mediators involved in fundic accommodation and associated perceptual responses is important. Therefore, we studied the effect of nitric oxide (NO) synthase inhibition by N(G)-monomethyl-L-arginine (L-NMMA) on fundic tone, postprandial sen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15601427",
+            "title": "The herbal preparation STW5 (lberogast) has potent and region-specific effects on gastric motility.",
+            "authors": [
+              "Hohenester B",
+              "Rühl A",
+              "Kelber O",
+              "Schemann M"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2004",
+            "abstract": "Functional dyspepsia (FD) is amongst the most common functional gastrointestinal disorders. Symptomatic treatment includes the use of herbal preparations whose effects on gastric motility are unclear. The present study aimed at investigating the effects of STW 5 (Iberogast), a fixed combination of hydroethanolic herbal extracts, on gastric motility in vitro. Muscle strips from guinea-pig gastric fundus, corpus and antrum were set up in organ baths either in circular or longitudinal orientation. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32394522",
+            "title": "Abnormalities in metabolic pathways in celiac disease investigated by the metabolic profiling of small intestinal mucosa, blood plasma and urine by NMR spectroscopy.",
+            "authors": [
+              "Upadhyay Deepti",
+              "Singh Alka",
+              "Das Prasenjit",
+              "Mehtab Jiya",
+              "Dattagupta Siddhartha"
+            ],
+            "journal": "NMR in biomedicine",
+            "year": "2020",
+            "abstract": "Celiac disease (CeD) is an autoimmune enteropathy caused by gluten intake in genetically predisposed individuals. We investigated the metabolism of CeD by metabolic profiling of intestinal mucosa, blood plasma and urine using NMR spectroscopy and multivariate analysis. The metabolic profile of the small intestinal mucosa was compared between patients with CeD (n = 64) and disease controls (DCs, n = 30). The blood plasma and urinary metabolomes of CeD patients were compared with healthy controls ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16166345",
+            "title": "Effect of modulation of serotonergic, cholinergic, and nitrergic pathways on murine fundic size and compliance measured by ultrasonomicrometry.",
+            "authors": [
+              "Xue Lin",
+              "Locke G Richard",
+              "Camilleri Michael",
+              "Schuurkes Jan A J",
+              "Meulemans Ann"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2006",
+            "abstract": "Reduced fasting or postprandial gastric volumes have been implicated in the pathophysiology of functional dyspepsia. The mechanisms that underlie the control of gastric fundic volume are incompletely understood, partly because of an inability to accurately measure fundic volume in vivo in small animals. Small animals are useful models to evaluate mechanisms, e.g., in knockout animals. The aim of this study was to determine whether an ultrasonometric technique accurately monitors fundic contracti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與胃輕癱機轉重疊：Arginine→NO→胃底舒張及胃動力調節。功能性消化不良（FD）核心病理之一為胃適應性舒張障礙（impaired accommodation），NO 路徑缺損為重要機轉。PMID 27535977 在大鼠及犬模型中直接證明 L-Arginine L-Glutamate 改善胃動力及延遲性胃排空。機轉關聯強度：★★★☆☆",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn": {
+        "score": 0.9692435264587402,
+        "rank": 21536
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03655223",
+            "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 30000,
+            "start_date": "2018-10-15",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Early Check provides voluntary screening of newborns for a selected panel of conditions. The study has three main objectives: 1) develop and implement an approach to identify affected infants, 2) address the impact on infants and families who screen positive, and 3) evaluate the Early Check program. The Early Check screening will lead to earlier identification of newborns with rare health conditions in addition to providing important data on the implementation of this model program. Early diagno",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "新生兒篩查大型平台試驗，非特定維生素缺乏或 arginine 研究"
+            }
+          },
+          {
+            "nct_id": "NCT06078488",
+            "title": "Individualized Nutritional Care Bundle for Home Nursing Patients With Pressure Injuries - A Cluster-Randomized, Pragmatic Clinical Trial and Economic Evaluation.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 380,
+            "start_date": "2023-10-23",
+            "completion_date": "2025-06-30",
+            "brief_summary": "Objective:\n\nTo evaluate the impact of an individualized nutrition intervention package on pressure injury healing rates, prevention of new pressure injuries, complications, quality of life, and cost-effectiveness in adult on home nursing care with pressure injuries staged II and above in Singapore.\n\nStudy Design:\n\nA two-group, non-blinded, randomized, pragmatic clinical trial with a cost-effectiveness analysis.\n\nLocation/ Setting:\n\nCommunity\n\nParticipants:\n\nAdults (aged 21 years and above) recei",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "壓瘡護理營養支持，含多種營養素，非維生素缺乏專一研究"
+            }
+          },
+          {
+            "nct_id": "NCT05000515",
+            "title": "Inspiratory Muscle Strength Training for Lowering Blood Pressure and Improving Endothelial Function in Postmenopausal Women: Comparison With \"Standard of Care\" Aerobic Exercise",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 90,
+            "start_date": "2022-04-19",
+            "completion_date": "2027-02-28",
+            "brief_summary": "High blood pressure (BP) is the major modifiable risk factor for cardiovascular diseases (CVD) and related health conditions, particularly among postmenopausal (PM) women. In adults age ≥50 years this risk is primarily driven by above-normal systolic BP (SBP ≥120 mmHg), as diastolic BP plateaus, then decreases in older adulthood. Although SBP is lower in premenopausal women vs. age-matched men, SBP reaches, then surpasses men after age 60. As such, \\>75% of PM women in the U.S. have above-normal",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "呼吸肌訓練試驗，無關"
+            }
+          },
+          {
+            "nct_id": "NCT07292753",
+            "title": "Role of Vitamin D Supplementation Versus Desmopressin Versus Their Combination in the Treatment of Primary Monosymptomatic Nocturnal Enuresis in Children With Vitamin D Deficiency: A Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2024-12-15",
+            "completion_date": "2025-10-10",
+            "brief_summary": "This randomized clinical trial evaluated three treatment approaches for children aged 6 to 12 years who had primary monosymptomatic nocturnal enuresis (night-time bedwetting) and confirmed vitamin D deficiency. Bedwetting is common in school-aged children and can affect self-esteem, social interactions, and school performance. Although desmopressin is widely used, some children do not respond adequately. Previous studies suggested that low vitamin D levels might contribute to bedwetting, raising",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "維生素 D 補充試驗，與 arginine 無關"
+            }
+          },
+          {
+            "nct_id": "NCT01371357",
+            "title": "The Effects of 8-week Choline, Betaine, and Folic Acid Supplementation on Plasma Homocysteine Concentration During Guanidinoacetic Acid Loading in Young Healthy Volunteers",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2011-05",
+            "completion_date": "2011-12",
+            "brief_summary": "A methyl-group acceptor such as guanidinoacetic acid (GAA) could induce hyperhomocysteinemia with the effects of GAA expected to be dose-dependent. Due to the fact that hyperhomocysteinemia is thought to be an independent risk factor for cardiovascular and neurodegenerative diseases, different dietary agents were used in the past for the treatment of elevated total plasma homocysteine (T-HCy), e. g. betaine, choline (betaine precursor) or folic acid. In the context of GAA loading the question ar",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同半胱胺酸代謝試驗，Phase 3，測試葉酸/膽鹼/甜菜鹼，非 arginine 也非維生素缺乏直接治療"
+            }
+          },
+          {
+            "nct_id": "NCT02392767",
+            "title": "Effect of a Dietary Supplement on Endothelial Function in Volunteers With Light to Moderate Hypertension - a Randomised, Double-blind, Placebo Controlled Cross-over Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2014-10",
+            "completion_date": "2015-08",
+            "brief_summary": "The effect of a combination product (Verum ) with L-arginine, Pycnogenol, vitamin K2, R-(+)-alpha-lipoic acid and vitamins B6, B12 and folic acid is investigated in a double blind placebo-controlled cross-over study. Volunteers with hypertension and hyperhomocysteinemia are randomly assigned to the dietary supplement or placebo.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "高血壓內皮功能，無關"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35969998",
+            "title": "Vitamin C deficiency induces hypoglycemia and cognitive disorder through S-nitrosylation-mediated activation of glycogen synthase kinase 3β.",
+            "authors": [
+              "Shu Yingying",
+              "Zou Chaochun",
+              "Cai Yuqing",
+              "He Qiangqiang",
+              "Wu Xiaowei"
+            ],
+            "journal": "Redox biology",
+            "year": "2022",
+            "abstract": "Vitamin C (VC, l-ascorbic acid) is an essential nutrient that plays a key role in metabolism and functions as a potent antioxidant in regulating the S-nitrosylation and denitrosylation of target proteins. The precise function of VC deprivation in glucose homeostasis is still unknown. In the absence of L-gulono-1,4-lactone oxidoreductase, an essential enzyme for the last step of VC synthesis, VC deprivation resulted in persistent hypoglycemia and subsequent impairment of cognitive functions in fe",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29074451",
+            "title": "Mitochondrial Dysfunction, Through Impaired Autophagy, Leads to Endoplasmic Reticulum Stress, Deregulated Lipid Metabolism, and Pancreatitis in Animal Models.",
+            "authors": [
+              "Biczo Gyorgy",
+              "Vegh Eszter T",
+              "Shalbueva Natalia",
+              "Mareninova Olga A",
+              "Elperin Jason"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2018",
+            "abstract": "Little is known about the signaling pathways that initiate and promote acute pancreatitis (AP). The pathogenesis of AP has been associated with abnormal increases in cytosolic Ca2+, mitochondrial dysfunction, impaired autophagy, and endoplasmic reticulum (ER) stress. We analyzed the mechanisms of these dysfunctions and their relationships, and how these contribute to development of AP in mice and rats.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37889280",
+            "title": "Interleukin-8 and neutrophil extracellular traps in children with lupus nephritis and vitamin C deficiency.",
+            "authors": [
+              "Santiworakul Chanunya",
+              "Saisorn Wilasinee",
+              "Siripen Nuanpan",
+              "Leelahavanichkul Asada",
+              "Rianthavorn Pornpimol"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "abstract": "Vitamin C is a potent scavenger of reactive oxygen species, which induce neutrophil extracellular trap (NET) formation. NETs are a major source of autoantigens and are involved in systemic lupus erythematosus (SLE) pathogenesis. We determined vitamin C status and evaluated NET formation and inflammatory cytokines in children with lupus nephritis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34768025",
+            "title": "Maternal vitamin D deficiency reduces docosahexaenoic acid, placental growth factor and peroxisome proliferator activated receptor gamma levels in the pup brain in a rat model of preeclampsia.",
+            "authors": [
+              "Nema Juhi",
+              "Randhir Karuna",
+              "Wadhwani Nisha",
+              "Sundrani Deepali",
+              "Joshi Sadhana"
+            ],
+            "journal": "Prostaglandins, leukotrienes, and essential fatty acids",
+            "year": "2021",
+            "abstract": "Preeclampsia is a pregnancy disorder characterized with abnormal placental angiogenesis. Vitamin D and long chain polyunsaturated fatty acids (LCPUFA) play a crucial role in pregnancy and are required for normal placental and fetal growth and development. This study reports the effect of maternal vitamin D on LCPUFA levels in the mother and offspring brain fatty acid levels and angiogenic markers in a rat model of preeclampsia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7937697",
+            "title": "Effects of vitamin A deficiency and repletion on rat glucagon secretion.",
+            "authors": [
+              "Chertow B S",
+              "Driscoll H K",
+              "Blaner W S",
+              "Meda P",
+              "Cordle M B"
+            ],
+            "journal": "Pancreas",
+            "year": "1994",
+            "abstract": "To determine whether vitamin A is involved in pancreatic alpha cell function, we tested for (a) effects of vitamin A deficiency on glucagon release from perifused islets and perfused pancreases, and (b) the presence of cytosolic retinol-binding proteins (CRBP) and retinoic acid-binding proteins (CRABP), in the glucagon-secreting alpha cell line, ln-R1-G9. Arginine 19 mM plus glucose 2.8 mM-stimulated glucagon secretion was markedly impaired in islets and pancreases of vitamin A-deficient rats or",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5420881",
+            "title": "[Transamidinase].",
+            "authors": [
+              "Methfessel J"
+            ],
+            "journal": "Zeitschrift fur die gesamte innere Medizin und ihre Grenzgebiete",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review (1970)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37226488",
+            "title": "Left and right ventricular function by echocardiography, tissue doppler imaging, carotid intima media thickness, and asymmetric dimethylarginine levels in female adolescents with vitamin D deficiency.",
+            "authors": [
+              "Aslan Eyup",
+              "Sert Ahmet",
+              "Buyukinan Muammer",
+              "Pirgon Mustafa Ozgur",
+              "Kurku Huseyin"
+            ],
+            "journal": "Cardiology in the young",
+            "year": "2024",
+            "abstract": "The aim of our study was to assess left and right ventricle systolic and diastolic functions in female adolescents with vitamin D deficiency using conventional echocardiography and pulsed-wave tissue Doppler imaging and to investigate carotid intima media thickness and asymmetric dimethylarginine levels.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35053812",
+            "title": "Pyridoxine-Dependent Epilepsy and Antiquitin Deficiency Resulting in Neonatal-Onset Refractory Seizures.",
+            "authors": [
+              "Kaminiów Konrad",
+              "Pająk Magdalena",
+              "Pająk Renata",
+              "Paprocka Justyna"
+            ],
+            "journal": "Brain sciences",
+            "year": "2021",
+            "abstract": "Pyridoxine-dependent epilepsy (PDE) is an autosomal recessive neurometabolic disorder due to a deficiency of α-aminoadipic semialdehyde dehydrogenase (mutation in ALDH7A1 gene), more commonly known as antiquitin (ATQ). ATQ is one of the enzymes involved in lysine oxidation; thus, its deficiency leads to the accumulation of toxic metabolites in body fluids. PDE is characterized by persistent, recurrent neonatal seizures that cannot be well controlled by antiepileptic drugs but are responsive clin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28794205",
+            "title": "The Human Serum Metabolome of Vitamin B-12 Deficiency and Repletion, and Associations with Neurological Function in Elderly Adults.",
+            "authors": [
+              "Brito Alex",
+              "Grapov Dmitry",
+              "Fahrmann Johannes",
+              "Harvey Danielle",
+              "Green Ralph"
+            ],
+            "journal": "The Journal of nutrition",
+            "year": "2017",
+            "abstract": "The specific metabolomic perturbations that occur in vitamin B-12 deficiency, and their associations with neurological function, are not well characterized.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11383677",
+            "title": "Vitamin D deficiency reduces insulin secretion and turnover in rats.",
+            "authors": [
+              "Ayesha I",
+              "Bala T S",
+              "Reddy C V",
+              "Raghuramulu N"
+            ],
+            "journal": "Diabetes, nutrition & metabolism",
+            "year": "2001",
+            "abstract": "Vitamin D deficiency can result in low serum insulin levels, which lead to impaired glucose tolerance. The present study was conducted to assess the mechanisms of this impairment. Pancreatic secretion of insulin and insulin turnover in vitamin D-deficient rats were studied. Insulin secretion was found to be significantly decreased in vitamin D-deficient rats compared to control rats. Supplementation with calcium alone could reverse the defect. The impaired insulin secretion observed in vitamin D",
+            "classification": {
+              "study_type": "Animal",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18495971",
+            "title": "The homocysteine paradox.",
+            "authors": [
+              "Rodionov Roman N",
+              "Lentz Steven R"
+            ],
+            "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+            "year": "2008",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21499117",
+            "title": "Vitamin D deficiency-induced hypertension is associated with vascular oxidative stress and altered heart gene expression.",
+            "authors": [
+              "Argacha Jean-François",
+              "Egrise Dominique",
+              "Pochet Stéphanie",
+              "Fontaine David",
+              "Lefort Anne"
+            ],
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "2011",
+            "abstract": "Vitamin D deficiency (VDD) is associated with an increased cardiovascular risk. We investigated the effect of VDD on the cardiovascular system of growing male rats fed with a vitamin D-deficient diet. Using isolated rat aorta, we assessed both superoxide anion and endothelial-dependent relaxations. Microarray technology was used to identify changes induced by VDD in cardiac gene expression. Compared with control, VDD increased systolic blood pressure (P < 0.05) and superoxide anion production in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16444866",
+            "title": "ADMA and hyperhomocysteinemia.",
+            "authors": [
+              "Dayal Sanjana",
+              "Lentz Steven R"
+            ],
+            "journal": "Vascular medicine (London, England)",
+            "year": "2005",
+            "abstract": "Hyperhomocysteinemia is a risk factor for cardiovascular disease and stroke. Like many other cardiovascular risk factors, hyperhomocysteinemia produces endothelial dysfunction due to impaired bioavailability of endothelium-derived nitric oxide (NO). The molecular mechanisms responsible for decreased NO bioavailability in hyperhomocysteinemia are incompletely understood, but emerging evidence suggests that asymmetric dimethylarginine (ADMA), an endogenous inhibitor of NO synthase, may be a key me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15010147",
+            "title": "Haemophilia and the newborn.",
+            "authors": [
+              "Chalmers Elizabeth A"
+            ],
+            "journal": "Blood reviews",
+            "year": "2004",
+            "abstract": "Haemophilia A and B are the most common of the inherited bleeding disorders. Haemophilia in the newborn presents a number of challenges in terms of both diagnosis and management which reflect features unique to this age group. In the presence of a family history of haemophilia optimal management requires close co-operation between three individual specialist groups - obstetricians, haematologists and neonatologists, who each have an important role to play in ensuring a safe outcome for these inf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10609307",
+            "title": "[Effect of vitamin D3, arginine, and a biologically active complex from Serratula coronata on free radical oxidation of lipids in vitamin D deficiency].",
+            "authors": [
+              "Kuz'menko A Y",
+              "Morozova R P",
+              "Nykolenko Y A",
+              "Kornyets H V",
+              "Donchenko H V"
+            ],
+            "journal": "Ukrains'kyi biokhimichnyi zhurnal (1999 )",
+            "year": "1999",
+            "abstract": "Lipid free-radical oxidation (LFRO) on the D-deficient model with the animal administration per os by vitamin D3 (cholecalciferol), specimen from Serratula coronata plant, containing low molecular weight biological sterol--20-hydroxyecdysone (ecdysterone) was investigated. As well influence of arginine as one of the amino acid components of the specimen from Serratula coronata was investigated. The LFRO in the blood serum, liver microsomal and mitochondrial fractions were characterize by measure",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8699136",
+            "title": "Relationship between calbindin-D28K levels in the A and B cells of the rat endocrine pancreas and the secretion of insulin and glucagon: influence of vitamin D3 deficiency and 1,25-dihydroxyvitamin D3.",
+            "authors": [
+              "Bourlon P M",
+              "Faure-Dussert A",
+              "Billaudel B",
+              "Sutter B C",
+              "Tramu G"
+            ],
+            "journal": "The Journal of endocrinology",
+            "year": "1996",
+            "abstract": "The pancreatic B cell is equipped with specific receptors for 1,25-dihydroxyvitamin D3 (1,25-(OH)2D3) and contains vitamin D-dependent calcium binding proteins (calbindin-D). Insulin secretion is impaired by vitamin D deficiency and is restored by 1,25-(OH)2D3 (concomitantly with an improved calcium handling within B cells) but the effect of 1,25-(OH)2D3 on the pancreatic B cell via calbindin-D is unclear. Therefore we examined the relationship between calbindin-D28K or calbindin-D9K and the act",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21807930",
+            "title": "Vitamin D status affects strength gains in older adults supplemented with a combination of β-hydroxy-β-methylbutyrate, arginine, and lysine: a cohort study.",
+            "authors": [
+              "Fuller John C",
+              "Baier Shawn",
+              "Flakoll Paul",
+              "Nissen Steven L",
+              "Abumrad Naji N"
+            ],
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "year": "2011",
+            "abstract": "Older adults supplemented for 1 year with β-hydroxy-β-methylbutyrate, arginine, and lysine (HMB/ARG/LYS) were previously shown to have significant gains in fat-free mass (FFM) but not muscular strength.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24558199",
+            "title": "Vitamin D hormone regulates serotonin synthesis. Part 1: relevance for autism.",
+            "authors": [
+              "Patrick Rhonda P",
+              "Ames Bruce N"
+            ],
+            "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+            "year": "2014",
+            "abstract": "Serotonin and vitamin D have been proposed to play a role in autism; however, no causal mechanism has been established. Here, we present evidence that vitamin D hormone (calcitriol) activates the transcription of the serotonin-synthesizing gene tryptophan hydroxylase 2 (TPH2) in the brain at a vitamin D response element (VDRE) and represses the transcription of TPH1 in tissues outside the blood-brain barrier at a distinct VDRE. The proposed mechanism explains 4 major characteristics associated w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16102030",
+            "title": "Mechanisms of homocysteine-induced atherothrombosis.",
+            "authors": [
+              "Lentz S R"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2005",
+            "abstract": "Elevation of plasma homocysteine level is a risk factor for cardiovascular disease, stroke, and venous thromboembolism. It is still uncertain, however, whether hyperhomocysteinemia is a causative factor or a marker of vascular disease. The strongest evidence that homocysteine plays a causal role in atherothrombosis has been provided by studies using animal models. In the past decade, considerable progress in defining the vascular effects of hyperhomocysteinemia was achieved through the use of ge",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35722582",
+            "title": "A Probable Way Vitamin D Affects Autism Spectrum Disorder: The Nitric Oxide Signaling Pathway.",
+            "authors": [
+              "Wang Bing",
+              "Dong HanYu",
+              "Li HongHua",
+              "Yue XiaoJing",
+              "Xie Lin"
+            ],
+            "journal": "Frontiers in psychiatry",
+            "year": "2022",
+            "abstract": "Vitamin D (VD) deficiency during pregnancy and early brain development is an important environmental risk factor for autism spectrum disorder (ASD). Its specific mechanism of action is still unclear. However, one study on the correlation between metabolomics and VD levels in children with ASD has found that the whole-blood arginine (Arg) levels of children with ASD are significantly negatively correlated with serum VD levels, suggesting that the effect of VD on ASD may be related to the signalin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉關聯。Arginine 為胺基酸，非維生素。維生素缺乏症與 arginine 的知識圖譜關聯可能源於共同代謝路徑節點（如尿素循環、胰島素分泌），為遠距間接連結，不構成治療性依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "sclerosing cholangitis",
+      "txgnn": {
+        "score": 0.9682559967041016,
+        "rank": 21852
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35750136",
+            "title": "TREM-2 plays a protective role in cholestasis by acting as a negative regulator of inflammation.",
+            "authors": [
+              "Labiano Ibone",
+              "Agirre-Lizaso Aloña",
+              "Olaizola Paula",
+              "Echebarria Anne",
+              "Huici-Izagirre Maider"
+            ],
+            "journal": "Journal of hepatology",
+            "year": "2022",
+            "abstract": "Inflammation, particularly that mediated by bacterial components translocating from the gut to the liver and binding to toll-like receptors (TLRs), is central to cholestatic liver injury. The triggering receptor expressed on myeloid cells-2 (TREM-2) inhibits TLR-mediated signaling and exerts a protective role in hepatocellular injury and carcinogenesis. This study aims to evaluate the role of TREM-2 in cholestasis.",
+            "classification": {
+              "study_type": "Animal/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29678444",
+            "title": "Biliary epithelium: A neuroendocrine compartment in cholestatic liver disease.",
+            "authors": [
+              "Ehrlich Laurent",
+              "Scrushy Marinda",
+              "Meng Fanyin",
+              "Lairmore Terry C",
+              "Alpini Gianfranco"
+            ],
+            "journal": "Clinics and research in hepatology and gastroenterology",
+            "year": "2018",
+            "abstract": "Hepatic fibrosis is characterized by abnormal accumulation of extracellular matrix (ECM) that can lead to ductopenia, cirrhosis, and even malignant transformation. In this review, we examine cholestatic liver diseases characterized by extensive biliary fibrosis such as primary sclerosing cholangitis (PSC), primary biliary cholangitis (PBC), polycystic liver disease (PLD), and MDR2-/- and BDL mouse models. Following biliary injury, cholangiocytes, the epithelial cells that line the bile ducts, be",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15123348",
+            "title": "Susceptibility to primary sclerosing cholangitis is associated with polymorphisms of intercellular adhesion molecule-1.",
+            "authors": [
+              "Yang Xuesong",
+              "Cullen Susan N",
+              "Li Jin H",
+              "Chapman Roger W",
+              "Jewell Derek P"
+            ],
+            "journal": "Journal of hepatology",
+            "year": "2004",
+            "abstract": "Intercellular adhesion molecule-1 (ICAM-1, CD54) gene polymorphisms have been implicated in the susceptibility to a range of inflammatory diseases, including inflammatory bowel disease (IBD). Primary sclerosing cholangitis (PSC) is an immune-mediated chronic cholestatic liver disease associated with IBD. ICAM-1 is expressed on proliferating bile ducts and interlobular bile ducts in late stage PSC and serum levels of soluble intercellular adhesion molecules are increased in PSC. The aim of this s",
+            "classification": {
+              "study_type": "Genetic Association",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30009888",
+            "title": "Metabolomic analysis of cholestatic liver damage in mice.",
+            "authors": [
+              "Yang Rui",
+              "Zhao Qi",
+              "Hu Dan-Dan",
+              "Xiao Xue-Rong",
+              "Huang Jian-Feng"
+            ],
+            "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+            "year": "2018",
+            "abstract": "Cholestasis is characterized by the obstruction of bile duct, including primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC). The complicated etiology and injury mechanism greatly limits the development of new drugs for its treatment. To better understand the mechanism of cholestatic liver damage, ultra-performance liquid chromatography-linked electrospray ionization quadrupole time-of-flight mass spectrometry (UPLC-ESI-QTOFMS) and multivariate data analysis were used to dete",
+            "classification": {
+              "study_type": "Animal/Metabolomics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8020893",
+            "title": "The molecular genetics of autoimmune liver disease.",
+            "authors": [
+              "Donaldson P",
+              "Doherty D",
+              "Underhill J",
+              "Williams R"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "1994",
+            "abstract": "The dual observations that human leukocyte antigens have an antigen-binding groove and that the polymorphism we study as human leukocyte antigen types is largely related to amino acid substitutions in and around that groove have provided a new focus for immunogenetic studies. In autoimmune liver disease, recent studies have described specific amino acid substitutions in the antigen-binding groove of human leukocyte antigen DR molecules that may determine both disease susceptibility, through thei",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26420962",
+            "title": "TP53 codon 72 Arg/Arg polymorphism is associated with a higher risk for inflammatory bowel disease development.",
+            "authors": [
+              "Volodko Natalia",
+              "Salla Mohamed",
+              "Eksteen Bertus",
+              "Fedorak Richard N",
+              "Huynh Hien Q"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2015",
+            "abstract": "To investigate the association between tumor protein 53 (TP53) codon 72 polymorphisms and the risk for inflammatory bowel disease (IBD) development.",
+            "classification": {
+              "study_type": "Genetic Association",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8450389",
+            "title": "Langerhans' cell histiocytosis presenting with hepatic dysfunction.",
+            "authors": [
+              "Squires R H",
+              "Weinberg A G",
+              "Zwiener R J",
+              "Winick N"
+            ],
+            "journal": "Journal of pediatric gastroenterology and nutrition",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉關聯。原發性硬化性膽管炎（PSC）病理為膽管進行性纖維化與炎症，主要機轉涉及免疫失調及膽汁酸毒性。雖 NO 在肝臟有保護功能（PMID 35750136 TREM-2 抑制炎症），但此為下游效應，不足以支持 arginine 作為特異性治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "obsolete vitamin D deficiency",
+      "txgnn": {
+        "score": 0.9663780331611632,
+        "rank": 22434
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉關聯。此為已廢棄（obsolete）的本體術語，臨床實體本身已不建議使用。無文獻、無試驗、無機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "biotin metabolic disease",
+      "txgnn": {
+        "score": 0.9618722200393676,
+        "rank": 23796
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03655223",
+            "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 30000,
+            "start_date": "2018-10-15",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Early Check provides voluntary screening of newborns for a selected panel of conditions. The study has three main objectives: 1) develop and implement an approach to identify affected infants, 2) address the impact on infants and families who screen positive, and 3) evaluate the Early Check program. The Early Check screening will lead to earlier identification of newborns with rare health conditions in addition to providing important data on the implementation of this model program. Early diagno",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "新生兒篩查平台，非特定 arginine 或 biotin 代謝病治療試驗"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38625525",
+            "title": "Characteristics of Nutrition and Metabolism in Dogs and Cats.",
+            "authors": [
+              "Li Peng",
+              "Wu Guoyao"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2024",
+            "abstract": "Domestic dogs and cats have evolved differentially in some aspects of nutrition, metabolism, chemical sensing, and feeding behavior. The dogs have adapted to omnivorous diets containing taurine-abundant meat and starch-rich plant ingredients. By contrast, domestic cats must consume animal-sourced foods for survival, growth, and development. Both dogs and cats synthesize vitamin C and many amino acids (AAs, such as alanine, asparagine, aspartate, glutamate, glutamine, glycine, proline, and serine",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29628436",
+            "title": "The Rheumatoid Arthritis-Associated Citrullinome.",
+            "authors": [
+              "Tilvawala Ronak",
+              "Nguyen Son Hong",
+              "Maurais Aaron J",
+              "Nemmara Venkatesh V",
+              "Nagar Mitesh"
+            ],
+            "journal": "Cell chemical biology",
+            "year": "2018",
+            "abstract": "Increased protein citrullination is linked to various diseases including rheumatoid arthritis (RA), lupus, and cancer. Citrullinated autoantigens, a hallmark of RA, are recognized by anti-citrullinated protein antibodies (ACPAs) which are used to diagnose RA. ACPA-recognizing citrullinated enolase, vimentin, keratin, and filaggrin are also pathogenic. Here, we used a chemoproteomic approach to define the RA-associated citrullinome. The identified proteins include numerous serine protease inhibit",
+            "classification": {
+              "study_type": "Proteomics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39105860",
+            "title": "The impact of magnesium biotinate and arginine silicate complexes on metabolic dysfunctions, antioxidant activity, inflammation, and neuromodulation in high-fat diet-fed rats.",
+            "authors": [
+              "Sahin Kazim",
+              "Sahin Emre",
+              "Orhan Cemal",
+              "Er Besir",
+              "Akoglan Bayram"
+            ],
+            "journal": "Clinical and experimental medicine",
+            "year": "2024",
+            "abstract": "Biotin and arginine play crucial roles in lipid metabolism and may offer promising interventions against obesity. This study examined the combined effect of magnesium biotinate (MgB) and inositol-stabilized arginine silicate complex (ASI) on obesity-related oxidative imbalance, inflammation, lipid metabolism and neuromodulation in rats on a high-fat diet (HFD). Forty rats were divided into five groups: (a) control: rats were fed a standard diet containing 12% of energy from fat; (b) HFD: rats we",
+            "classification": {
+              "study_type": "Animal/Biochemical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32750887",
+            "title": "Personalized Metabolic Analysis of Diseases.",
+            "authors": [
+              "Cakmak Ali",
+              "Celik M Hasan"
+            ],
+            "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+            "year": "2021",
+            "abstract": "The metabolic wiring of patient cells is altered drastically in many diseases, including cancer. Understanding the nature of such changes may pave the way for new therapeutic opportunities as well as the development of personalized treatment strategies for patients. In this paper, we propose an algorithm called Metabolitics, which allows systems-level analysis of changes in the biochemical network of cells in disease states. It enables the study of a disease at both reaction- and pathway-level g",
+            "classification": {
+              "study_type": "Metabolomics/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39162688",
+            "title": "Metabolomic Profiling of Tumor Tissues Unveils Metabolic Shifts in Non-Small Cell Lung Cancer Patients with Concurrent Diabetes Mellitus.",
+            "authors": [
+              "Lyu Xiaohong",
+              "Wang Yujue",
+              "Xu Yuan",
+              "Zhao Zhewei",
+              "Liu Hongsheng"
+            ],
+            "journal": "Journal of proteome research",
+            "year": "2024",
+            "abstract": "A comprehensive understanding of the exact influence of type 2 diabetes mellitus (T2DM) on the metabolic status of non-small cell lung cancer (NSCLC) is still lacking. This study explores metabolic alterations in tumor tissues among patients with coexisting NSCLC and T2DM in comparison with NSCLC patients. A combined approach of clinical analysis and metabolomics was employed, including 20 NSCLC patients and 20 NSCLC+T2DM patients. Targeted metabolomics analysis was performed on tumor tissues us",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6136951",
+            "title": "Metabolic diseases and the skin.",
+            "authors": [
+              "Lee E B"
+            ],
+            "journal": "Pediatric clinics of North America",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39067396",
+            "title": "Role of gut/liver metabolites and gut microbiota in liver fibrosis caused by cholestasis.",
+            "authors": [
+              "Xie Xing-Ming",
+              "Feng Shu",
+              "Liu Tao",
+              "Feng Jun",
+              "Xu Yuan"
+            ],
+            "journal": "International immunopharmacology",
+            "year": "2024",
+            "abstract": "Cholestasis induces severe liver injury and subsequent liver fibrosis. However, a comprehensive understanding of the relationships between liver fibrosis and cholestasis-induced changes in metabolites in the gut and fibrotic liver tissue and in the gut microbiota is insufficient.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38407452",
+            "title": "Metabolomic Characteristics of Nontuberculous Mycobacterial Pulmonary Disease.",
+            "authors": [
+              "Kim Jungeun",
+              "Chae Woori",
+              "Kim Joong-Yub",
+              "Yim Jae-Joon",
+              "Cho Joo-Youn"
+            ],
+            "journal": "The Journal of infectious diseases",
+            "year": "2024",
+            "abstract": "The therapeutic challenges posed by nontuberculous mycobacterial pulmonary disease (NTM-PD) contribute to an unmet medical need. In this study, we aimed to investigate NTM-PD-specific metabolic pathways using serum metabolomics to understand disease pathogenesis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33718374",
+            "title": "Identification of Urine Metabolic Biomarkers for Vogt-Koyanagi-Harada Disease.",
+            "authors": [
+              "Chang Rui",
+              "Zhu Ying",
+              "Xu Jing",
+              "Chen Lin",
+              "Su Guannan"
+            ],
+            "journal": "Frontiers in cell and developmental biology",
+            "year": "2021",
+            "abstract": "The diagnosis of Vogt-Koyanagi-Harada (VKH) disease is mainly based on a complex clinical manifestation while it lacks objective laboratory biomarkers. To explore the potential molecular biomarkers for diagnosis and disease activity in VKH, we performed an untargeted urine metabolomics analysis by ultra-high-performance liquid chromatography equipped with quadrupole time-of-flight mass spectrometry (UHPLC-Q-TOF/MS). Through univariate and multivariate statistical analysis, we found 9 differentia",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36197290",
+            "title": "Alterations in the Gut Microbiota and Metabolomics of Seafarers after a Six-Month Sea Voyage.",
+            "authors": [
+              "Jiang Chun-Hui",
+              "Fang Xue",
+              "Huang Wen",
+              "Guo Ji-Yao",
+              "Chen Jia-Yun"
+            ],
+            "journal": "Microbiology spectrum",
+            "year": "2022",
+            "abstract": "Maintaining the health of seafarers is a difficult task during long-term voyages. Little is known about the corresponding changes in the gut microbiome-host interaction. This study recruited 30 seafarers undertaking a 6-month voyage and analyzed their gut microbiota using 16S rRNA gene sequencing. Fecal untargeted metabolomics analysis was performed using liquid chromatography-mass spectrometry. Significant changes in the composition of the gut microbiota and an increased ratio of Firmicutes/Bac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24863085",
+            "title": "Emerging trends in management of propionic acidemia.",
+            "authors": [
+              "Rafique Muhammad"
+            ],
+            "journal": "Arquivos brasileiros de endocrinologia e metabologia",
+            "year": "2014",
+            "abstract": "To evaluate the therapeutic agents used during metabolic crises and in long-term management of patients with propionic acidemia (PA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38395522",
+            "title": "Attenuation of protein arginine dimethylation via S-nitrosylation of protein arginine methyltransferase 1.",
+            "authors": [
+              "Taniguchi Rikako",
+              "Moriya Yuto",
+              "Dohmae Naoshi",
+              "Suzuki Takehiro",
+              "Nakahara Kengo"
+            ],
+            "journal": "Journal of pharmacological sciences",
+            "year": "2024",
+            "abstract": "Upregulation of nitric oxide (NO) production contributes to the pathogenesis of numerous diseases via S-nitrosylation, a post-translational modification of proteins. This process occurs due to the oxidative reaction between NO and a cysteine thiol group; however, the extent of this reaction remains unknown. S-Nitrosylation of PRMT1, a major asymmetric arginine methyltransferase of histones and numerous RNA metabolic proteins, was induced by NO donor treatment. We found that nitrosative stress le",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30007819",
+            "title": "Metabolic Biosynthesis Pathways Identified from Fecal Microbiome Associated with Prostate Cancer.",
+            "authors": [
+              "Liss Michael A",
+              "White James Robert",
+              "Goros Martin",
+              "Gelfond Jonathan",
+              "Leach Robin"
+            ],
+            "journal": "European urology",
+            "year": "2018",
+            "abstract": "The fecal microbiome is associated with prostate cancer risk factors (obesity, inflammation) and can metabolize and produce various products that may influence cancer but have yet to be defined in prostate cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10540872",
+            "title": "[Enhancement of glucose-induced insulin secretion and modification of glucose metabolism by biotin].",
+            "authors": [
+              "Furukawa Y"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1999",
+            "abstract": "Biotin causes improvements in disordered glucose metabolism by stimulating glucose-induced insulin secretion in pancreatic beta-cells and by accelerating glycolysis in liver and pancreas. Biotin is known to regulate hepatic and pancreatic glucokinase expression at both transcriptional and translational levels, and to regulate hepatic phosphoenolpyruvate carboxykinase expression at the transcriptional level. The effects of biotin on glucose-induced insulin secretion were investigated using the me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35164882",
+            "title": "Proximity proteomics of C9orf72 dipeptide repeat proteins identifies molecular chaperones as modifiers of poly-GA aggregation.",
+            "authors": [
+              "Liu Feilin",
+              "Morderer Dmytro",
+              "Wren Melissa C",
+              "Vettleson-Trutza Sara A",
+              "Wang Yanzhe"
+            ],
+            "journal": "Acta neuropathologica communications",
+            "year": "2022",
+            "abstract": "The most common inherited cause of two genetically and clinico-pathologically overlapping neurodegenerative diseases, amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), is the presence of expanded GGGGCC intronic hexanucleotide repeats in the C9orf72 gene. Aside from haploinsufficiency and toxic RNA foci, another non-exclusive disease mechanism is the non-canonical translation of the repeat RNA into five different dipeptide repeat proteins (DPRs), which form neuronal inclusio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39510967",
+            "title": "Antibacterial activity and mechanism of rose essential oil against Aeromonas veronii isolated from Northern snakehead (Channa argus).",
+            "authors": [
+              "Zhang Kai",
+              "Wang Xiaolei",
+              "Rong Hui",
+              "Yang Wenjing",
+              "Liang Xinxin"
+            ],
+            "journal": "Journal of applied microbiology",
+            "year": "2024",
+            "abstract": "To investigate and identify the antibacterial action and mechanism of rose essential oil (REO) against Aeromonas veronii isolated from Northern snakehead for the first time by the phenotypic and metabolic analysis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18247344",
+            "title": "Biotinoyl domain of human acetyl-CoA carboxylase: Structural insights into the carboxyl transfer mechanism.",
+            "authors": [
+              "Lee Chung-Kyung",
+              "Cheong Hae-Kap",
+              "Ryu Kyoung-Seok",
+              "Lee Jae Il",
+              "Lee Weontae"
+            ],
+            "journal": "Proteins",
+            "year": "2008",
+            "abstract": "Acetyl-CoA carboxylase (ACC) catalyzes the first step in fatty acid biosynthesis: the synthesis of malonyl-CoA from acetyl-CoA. As essential regulators of fatty acid biosynthesis and metabolism, ACCs are regarded as therapeutic targets for the treatment of metabolic diseases such as obesity. In ACC, the biotinoyl domain performs a critical function by transferring an activated carboxyl group from the biotin carboxylase domain to the carboxyl transferase domain, followed by carboxyl transfer to m",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36147334",
+            "title": "Modulating effect of Xuanfei Baidu granule on host metabolism and gut microbiome in rats.",
+            "authors": [
+              "He Qiaoyu",
+              "Shi Yumeng",
+              "Xing Hong",
+              "Tang Qian",
+              "Liu Jing"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2022",
+            "abstract": "Xuanfei Baidu granule (XFBD) is a recommended patented drug for the prevention and treatment of Corona Virus Disease 2019 (COVID-19), which is approved by the National Medical Products Administration. XFBD suppresses the over-activated immune response caused by inflammatory factor storms in COVID-19 infection. The intestine plays a crucial role in the immune system. The mass spectrometry based fecal metabolomics with 16S rDNA sequencing were combined to evaluate the effects of XFBD on host metab",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39834838",
+            "title": "Metabolomics analysis of anaphylactoid reactions induced by Xueshuantong injection in normal and immunocompromised mice.",
+            "authors": [
+              "Guo Xiaoqian",
+              "Zhang Chi",
+              "Li Yingyu",
+              "Wen Wen",
+              "He Yinghui"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2024",
+            "abstract": "Xueshuantong injection (Lyophilized) (XSTI) is widely used to treat cardiovascular and cerebrovascular diseases. However, anaphylactoid reactions (ARs) are frequently reported as one of its side effects, and the mechanisms of ARs and their relationship with the different immune status are still not well understood.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23043510",
+            "title": "S-nitrosylated protein disulfide isomerase contributes to mutant SOD1 aggregates in amyotrophic lateral sclerosis.",
+            "authors": [
+              "Chen Xueping",
+              "Zhang Xiaosha",
+              "Li Chen",
+              "Guan Teng",
+              "Shang Huifang"
+            ],
+            "journal": "Journal of neurochemistry",
+            "year": "2013",
+            "abstract": "A major hallmark of mutant superoxide dismutase (SOD1)-linked familial amyotrophic lateral sclerosis is SOD1-immunopositive inclusions found within motor neurons. The mechanism by which SOD1 becomes aggregated, however, remains unclear. In this study, we aimed to investigate the role of nitrosative stress and S-nitrosylation of protein disulfide isomerase (PDI) in the formation of SOD1 aggregates. Our data show that with disease progression inducible nitric oxide synthase (iNOS) was up-regulated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉關聯。Biotin 代謝疾病（如多種羧化酶缺乏症）機轉為 biotin 依賴性羧化酶功能缺損，與 arginine 代謝路徑無直接交集。PMID 39105860 研究的是 arginine silicate 複合物（非 L-arginine 本身）對代謝功能的影響，且為非臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn": {
+        "score": 0.9525781273841858,
+        "rank": 26099
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03655223",
+            "title": "Early Check: A Collaborative Innovation to Facilitate Pre-Symptomatic Clinical Trials in Newborns",
+            "phase": "N/A",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 30000,
+            "start_date": "2018-10-15",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Early Check provides voluntary screening of newborns for a selected panel of conditions. The study has three main objectives: 1) develop and implement an approach to identify affected infants, 2) address the impact on infants and families who screen positive, and 3) evaluate the Early Check program. The Early Check screening will lead to earlier identification of newborns with rare health conditions in addition to providing important data on the implementation of this model program. Early diagno",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "新生兒篩查平台試驗，非低磷佝僂症或 arginine 治療試驗"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12519781",
+            "title": "The autosomal dominant hypophosphatemic rickets R176Q mutation in fibroblast growth factor 23 resists proteolytic cleavage and enhances in vivo biological potency.",
+            "authors": [
+              "Bai Xiu-Ying",
+              "Miao Dengshun",
+              "Goltzman David",
+              "Karaplis Andrew C"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "2003",
+            "abstract": "Missense mutations in fibroblast growth factor 23 (FGF23) are the cause of autosomal dominant hypophosphatemic rickets (ADHR). The mutations (R176Q, R179W, and R179Q) replace Arg residues within a subtilisin-like proprotein convertase (SPC) cleavage site (RXXR motif), leading to protease resistance of FGF23. The goals of this study were to examine in vivo the biological potency of the R176Q mutant FGF23 form and to characterize alterations in homeostatic mechanisms that give rise to the phenotyp",
+            "classification": {
+              "study_type": "Molecular Biology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19820004",
+            "title": "Hypophosphatemic rickets with hypercalciuria due to mutation in SLC34A3/type IIc sodium-phosphate cotransporter: presentation as hypercalciuria and nephrolithiasis.",
+            "authors": [
+              "Tencza Amanda L",
+              "Ichikawa Shoji",
+              "Dang Anna",
+              "Kenagy David",
+              "McCarthy Edward"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2009",
+            "abstract": "Hereditary hypophosphatemic rickets with hypercalciuria (HHRH) is a metabolic disorder due to homozygous loss-of-function mutations in the SLC34A3 gene encoding the renal type IIc sodium-phosphate cotransporter (NaPi-IIc). The typical presentation is severe rickets and hypophosphatemia, and hypercalciuria is often discovered later or overlooked.",
+            "classification": {
+              "study_type": "Clinical Case/Molecular",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22886699",
+            "title": "Hexa-D-arginine treatment increases 7B2•PC2 activity in hyp-mouse osteoblasts and rescues the HYP phenotype.",
+            "authors": [
+              "Yuan Baozhi",
+              "Feng Jian Q",
+              "Bowman Stephen",
+              "Liu Ying",
+              "Blank Robert D"
+            ],
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2013",
+            "abstract": "Inactivating mutations of the \"phosphate regulating gene with homologies to endopeptidases on the X chromosome\" (PHEX/Phex) underlie disease in patients with X-linked hypophosphatemia (XLH) and the hyp-mouse, a murine homologue of the human disorder. Although increased serum fibroblast growth factor 23 (FGF-23) underlies the HYP phenotype, the mechanism(s) by which PHEX mutations inhibit FGF-23 degradation and/or enhance production remains unknown. Here we show that treatment of wild-type mice w",
+            "classification": {
+              "study_type": "Animal (in vitro + in vivo mouse)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25350412",
+            "title": "[Medical treatment of children with hypophosphataemic rickets].",
+            "authors": [
+              "Rahbek Elise Torp",
+              "Nielsen Line Hougaard",
+              "Beck-Nielsen Signe Sparre",
+              "Christesen Henrik Thybo"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "2014",
+            "abstract": "Hypophosphataemic rickets is a rare, genetic disorder resulting in defect bone mineralisation and rickets. The current medical treatment consists of phosphate supplementation and alfacalcidol, but side effects such as secondary hyperparat-hyroidism and nephrocalcinosis are common. This treatment regimen often fails to prevent bone deformity and reduced final height. The rarity and complexity of these diseases call for centralised specialist care and international collaboration. Future medical tr",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16076374",
+            "title": "Post-translational modification of Fibroblast Growth Factor 23.",
+            "authors": [
+              "Fukumoto Seiji"
+            ],
+            "journal": "Therapeutic apheresis and dialysis : official peer-reviewed journal of the International Society for Apheresis, the Japanese Society for Apheresis, the Japanese Society for Dialysis Therapy",
+            "year": "2005",
+            "abstract": "Fibroblast Growth Factor (FGF) 23 has been shown to play important roles in the development of hypophosphatemic rickets/osteomalacia. Complementary DNA predicts that the FGF23 protein is composed of 251 amino acids and N-terminal 24 amino acids seem to be a signal peptide. In vitro experiments indicate that a part of the FGF23 protein is processed between arginine179 and serine180. When full-length, N-terminal and C-terminal processed fragments of FGF23 were injected into mice, only the full-len",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12711740",
+            "title": "Fibroblast growth factor 23 in oncogenic osteomalacia and X-linked hypophosphatemia.",
+            "authors": [
+              "Jonsson Kenneth B",
+              "Zahradnik Richard",
+              "Larsson Tobias",
+              "White Kenneth E",
+              "Sugimoto Toshitsugu"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2003",
+            "abstract": "Mutations in fibroblast growth factor 23 (FGF-23) cause autosomal dominant hypophosphatemic rickets. Clinical and laboratory findings in this disorder are similar to those in oncogenic osteomalacia, in which tumors abundantly express FGF-23 messenger RNA, and to those in X-linked hypophosphatemia, which is caused by inactivating mutations in a phosphate-regulating endopeptidase called PHEX. Recombinant FGF-23 induces phosphaturia and hypophosphatemia in vivo, suggesting that it has a role in pho",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15719255",
+            "title": "Phenotype and genotype of Dent's disease in three Korean boys.",
+            "authors": [
+              "Cheong Hae Il",
+              "Lee Jung Won",
+              "Zheng Shou Huan",
+              "Lee Joo Hoon",
+              "Kang Ju Hyung"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2005",
+            "abstract": "Dent's disease is a hereditary renal tubular disorder caused by mutations of the CLCN5 gene and is clinically characterized by low molecular weight proteinuria, hypercalciuria and nephrocalcinosis. This disease has been reported in several countries. However, there are some phenotypic differences between countries, such as hypophosphatemic rickets, progressive renal failure and hematuria. In this study, phenotypes were analyzed in three Korean boys with Dent's disease, and genetic diagnoses were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15628294",
+            "title": "[Different forms of clinical presentation of an autosomal dominant hypophosphatemic rickets caused by a FGF23 mutation in one family].",
+            "authors": [
+              "Negri Armando Luis",
+              "Negrotti Teresa",
+              "Alonso Guillermo",
+              "Pasqualini Titania"
+            ],
+            "journal": "Medicina",
+            "year": "2004",
+            "abstract": "In this report we describe different forms of clinical presentation of an autosomal dominant hypophosphatemic rickets (ADHR) in 4 members of the same family as well as the treatment used in these patients and their response to it. Patient No 1: a 60 year old female who consulted for bone pain: Bone densitometry showed osteoporosis. Laboratory assays showed hypophosphatemia with low renal phosphate threshold, high total alkaline phosphatase, normal intact PTH and normal serum calcium. With neutra",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17699549",
+            "title": "Fibroblast growth factor 23 impairs phosphorus and vitamin D metabolism in vivo and suppresses 25-hydroxyvitamin D-1alpha-hydroxylase expression in vitro.",
+            "authors": [
+              "Perwad Farzana",
+              "Zhang Martin Y H",
+              "Tenenhouse Harriet S",
+              "Portale Anthony A"
+            ],
+            "journal": "American journal of physiology. Renal physiology",
+            "year": "2007",
+            "abstract": "Fibroblast growth factor-23 (FGF-23) is critical to the pathogenesis of a distinct group of renal phosphate wasting disorders: tumor-induced osteomalacia, X-linked hypophosphatemia, and autosomal dominant and autosomal recessive hypophosphatemic rickets. Excess circulating FGF-23 is responsible for their major phenotypic features which include hypophosphatemia due to renal phosphate wasting and inappropriately low serum 1,25(OH)2D concentrations. To characterize the effects of FGF-23 on renal so",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8914019",
+            "title": "Direct demonstration of a humorally-mediated inhibition of renal phosphate transport in the Hyp mouse.",
+            "authors": [
+              "Lajeunesse D",
+              "Meyer R A",
+              "Hamel L"
+            ],
+            "journal": "Kidney international",
+            "year": "1996",
+            "abstract": "The murine Hyp model reproduces the characteristics of human X-linked hypophosphatemia (XLH), an inherited disease causing renal loss of phosphate (Pi), severe rickets and osteomalacia. A current hypothesis considers that a humoral factor may be responsible for the renal Pi loss, although in vitro experiments with renal cell models have failed to demonstrate the presence of such a factor in XLH or in the Hyp mouse model. To test this hypothesis directly, we prepared primary mouse proximal tubule",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12211444",
+            "title": "Tryptophan missense mutation in the ligand-binding domain of the vitamin D receptor causes severe resistance to 1,25-dihydroxyvitamin D.",
+            "authors": [
+              "Nguyen T M",
+              "Adiceam P",
+              "Kottler M L",
+              "Guillozo H",
+              "Rizk-Rabin M"
+            ],
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2002",
+            "abstract": "In this study, two related young children, brother and sister, exhibited severe vitamin D-resistant rickets without alopecia. Sequence analysis of the total vitamin D receptor (VDR) cDNA from skin fibroblasts revealed a substitution of the unique tryptophan of the VDR by arginine at amino acid 286 (W286R). Cultured skin fibroblasts of the two patients expressed normal-size VDR protein (immunocytochemistry and Western blotting) and normal length VDR mRNA (Northern blotting). But, these fibroblast",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11369766",
+            "title": "A rationale for treatment of hereditary vitamin D-resistant rickets with analogs of 1 alpha,25-dihydroxyvitamin D(3).",
+            "authors": [
+              "Gardezi S A",
+              "Nguyen C",
+              "Malloy P J",
+              "Posner G H",
+              "Feldman D"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "2001",
+            "abstract": "Hereditary vitamin D-resistant rickets (HVDRR) is caused by heterogeneous inactivating mutations in the vitamin D receptor (VDR). Treatment of HVDRR patients with high doses of oral calcium and supraphysiologic doses of 1 alpha,25-dihydroxyvitamin D(3) (1,25D(3)) has had limited success. In this study we explored the use of vitamin D analogs as a potential therapy for this disorder. The rationale for the use of vitamin D analogs is that they bind the VDR at different amino acid residues than 1,2",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8747120",
+            "title": "Stimulation of growth hormone secretion in children with X-linked hypophosphatemia.",
+            "authors": [
+              "Seikaly M G",
+              "Baum M"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "1995",
+            "abstract": "X-linked hypophosphatemia is characterized by low serum phosphorus, relative vitamin D deficiency and rickets. Despite adequate metabolic control with oral phosphate and vitamin D therapy, patients with X-linked hypophosphatemia have short stature. Whether growth hormone (GH) deficiency plays a role in short stature in patients with X-linked hypophosphatemia is not known. The purpose of this report was to investigate the response of GH to sequential paired pharmacological stimulation in patients",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9495519",
+            "title": "Hereditary 1,25-dihydroxyvitamin D-resistant rickets due to an opal mutation causing premature termination of the vitamin D receptor.",
+            "authors": [
+              "Zhu W",
+              "Malloy P J",
+              "Delvin E",
+              "Chabot G",
+              "Feldman D"
+            ],
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "1998",
+            "abstract": "Mutations in the vitamin D receptor (VDR) gene have been shown to cause hereditary vitamin D-resistant rickets (HVDRR). The patient in this study is a young French-Canadian boy with no known consanguinity in his family. The child exhibited the clinical characteristics of HVDRR with early onset rickets, hypocalcemia, secondary hyperparathyroidism, and elevated 1,25-dihydroxyvitamin D (1,25(OH)2D) levels as well as total alopecia. Fibroblasts were cultured from a skin biopsy of the patient and use",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2177843",
+            "title": "A unique point mutation in the human vitamin D receptor chromosomal gene confers hereditary resistance to 1,25-dihydroxyvitamin D3.",
+            "authors": [
+              "Sone T",
+              "Marx S J",
+              "Liberman U A",
+              "Pike J W"
+            ],
+            "journal": "Molecular endocrinology (Baltimore, Md.)",
+            "year": "1990",
+            "abstract": "The syndrome of hereditary resistance to 1,25-dihydroxyvitamin D3 is due to defective function of the vitamin D receptor (VDR). The recent cloning and nucleotide sequence determination of the human VDR chromosomal gene have enabled a direct evaluation of the genetic basis for this disease in affected patients. In this report we employed polymerase chain reaction techniques to amplify the gene exons that encode the DNA-binding domain of the VDR from two 1,25-dihydroxyvitamin D3-resistant patients",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11208993",
+            "title": "Autosomal recessive hypophosphataemic rickets with hypercalciuria is not caused by mutations in the type II renal sodium/phosphate cotransporter gene.",
+            "authors": [
+              "van den Heuvel L",
+              "Op de Koul K",
+              "Knots E",
+              "Knoers N",
+              "Monnens L"
+            ],
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "2001",
+            "abstract": "At present the genetic defect for autosomal recessive and autosomal dominant hypophosphataemic rickets with hypercalciuria (HHRH) is unknown. Type II sodium/phosphate cotransporter (NPT2) gene is a serious candidate for being the causative gene in either or both autosomal recessive and autosomal dominant HHRH. In the present study we tested this hypothesis in one autosomal recessive family.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9360557",
+            "title": "A novel nonsense mutation in the first zinc finger of the vitamin D receptor causing hereditary 1,25-dihydroxyvitamin D3-resistant rickets.",
+            "authors": [
+              "Mechica J B",
+              "Leite M O",
+              "Mendonca B B",
+              "Frazzatto E S",
+              "Borelli A"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1997",
+            "abstract": "Hereditary 1,25-dihydroxyvitamin D3 [1,25-(OH)2D3]-resistant rickets (HVDRR) is a rare autosomal recessive disorder resulting in target organ resistance to the active form of vitamin D [1,25-(OH)2D3]. Point mutations in the vitamin D receptor (VDR) gene have been identified in HVDRR. We investigated the molecular basis of HVDRR in a Brazilian family with two affected siblings. The propositus is a 12-yr-old boy born to first cousin parents who exhibited the classical pattern of the HVDRR, includi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "有限但特異性機轉：PMID 22886699 顯示 Hexa-D-arginine（六聚精胺酸胜肽）可抑制 PHEX 蛋白酶，增加 7B2•PC2 活性，在 Hyp 小鼠骨母細胞中恢復磷酸鹽代謝。然而，此研究使用的是特定胜肽形式（Hexa-D-arginine），而非 L-arginine 補充劑，轉換性存在不確定性。FGF23 過度分泌為 X-linked 低磷佝僂症（XLH）核心病理。機轉關聯強度：★★☆☆☆（化合物特異性限制）",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "postgastrectomy syndrome",
+      "txgnn": {
+        "score": 0.9373732805252076,
+        "rank": 29267
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4320809",
+            "title": "Intestinal factors in the regulation of insulin secretion.",
+            "authors": [
+              "Marks V",
+              "Samols E"
+            ],
+            "journal": "Advances in metabolic disorders",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Animal/Physiological",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14143813",
+            "title": "[INDICATIONS AND USE OF L-ARGININE HC1. CLINICAL EXPERIMENTATION IN GASTROENTEROLOGY PATIENTS].",
+            "authors": [
+              "DUBARRY J J"
+            ],
+            "journal": "Gazette medicale de France",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Case Series (1964)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5171733",
+            "title": "[Somatotropin incretion in grave emaciation: preliminary results].",
+            "authors": [
+              "Giordano G",
+              "Marugo M",
+              "Minuto F",
+              "Barreca T"
+            ],
+            "journal": "Folia endocrinologica",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Observation (1971)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "弱但存在歷史臨床文獻：PMID 14143813（1964）記載 L-arginine HCl 在胃腸科患者的臨床應用試驗，此為直接使用記錄。機轉上，胃切除後症候群（傾倒症候群、消化不良）可能受 NO 路徑影響，但文獻年代過久，臨床研究標準無法對應現代規範。機轉關聯強度：★★☆☆☆",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn": {
+        "score": 0.9341240525245668,
+        "rank": 29913
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉關聯。食道先天性畸形（如食道閉鎖、氣管食道瘻管）為胚胎發育異常，屬結構性缺陷，非代謝或信號路徑可干預之疾病。L-arginine 之 NO 路徑或代謝功能與此類畸形無已知關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "vitamin deficiency disorder"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "vitamin deficiency disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "vitamin deficiency disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "biotin metabolic disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "biotin metabolic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "biotin metabolic disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 17,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "postgastrectomy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "postgastrectomy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "postgastrectomy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Arginine",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

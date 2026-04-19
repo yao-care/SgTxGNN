@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01120-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gliclazide",
+    "drugbank_id": "DB01120",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9795717597007751,
+        "rank": 17212
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "僵硬人綜合症（SPS）具抗 GAD65（麩胺酸脫羧酶）自體抗體，GAD65 同時存在於胰臟 β 細胞與 GABA 能神經元。Gliclazide 阻斷 SUR1/KATP 通道，而 KATP 通道亦表現於中樞神經元，理論上可能影響 GABA 能突觸傳導。假說：KATP 通道調節可補償 GAD65 功能缺失所致 GABA 合成不足。機轉連結具科學基礎但未經驗證，值得探索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9795717597007751,
+        "rank": 17213
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "局灶性僵硬肢體綜合症為 SPS 的亞型變體，部分病例同樣具抗 GAD65 抗體，與 classic SPS 共享相同假設機轉路徑（KATP 通道/GABAergic 調節）。TxGNN 給出與 classic SPS 完全相同的分數，顯示模型視兩者為高度相關實體。機轉合理性同 classic SPS，但臨床表現更局限，優先級略低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9779220819473268,
+        "rank": 18013
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硫胺素反應性功能障礙症候群（TRMD/TRMA）由 SLC19A2 基因突變引起，臨床三聯症包含胰島素依賴性糖尿病、大球性貧血、感音神經性聽損。糖尿病成分源於 β 細胞功能障礙，Gliclazide 理論上可刺激殘存 β 細胞分泌胰島素。然而，標準治療為硫胺素補充 + 胰島素，使用磺醯脲類機轉合理但臨床必要性存疑。可作為硫胺素治療後仍有 β 細胞功能時的輔助選項假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.9771845936775208,
+        "rank": 18351
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨化不良症（Opsismodysplasia）由 INPPL1 基因（編碼 SHIP2 磷酸酶）突變導致，SHIP2 負調控胰島素訊號傳導（PI3K/AKT 路徑）。Gliclazide 促進胰島素分泌，理論上可透過上游訊號增強來補償 SHIP2 缺失。然而，SHIP2 缺失導致的是骨骼發育缺陷而非代謝異常，促進胰島素分泌對骨骼發育路徑的影響極為間接，機轉連結薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.9663628339767456,
+        "rank": 22437
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰臟缺如（完全型）患者無胰臟 β 細胞，Gliclazide 的主要靶點（SUR1 KATP 通道於 β 細胞）在此情境下不存在，藥物無法發揮促胰島素分泌機轉。部分型胰臟缺如若有殘存 β 細胞，理論上存在極小可能性，但臨床不可行性極高。此為 TxGNN 預測與藥理現實相悖的典型案例，不建議進一步探索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.96425461769104,
+        "rank": 23084
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "藥物誘導性局部脂肪萎縮最常見於胰島素注射部位（重複注射創傷 + 胰島素局部高濃度影響脂肪細胞）。Gliclazide 作為口服降糖藥可減少胰島素注射次數，間接降低注射部位脂肪萎縮風險。此為間接預防性機轉（非治療性），具實際臨床邏輯。另外，Gliclazide 的抗氧化特性可能減少脂肪細胞氧化應激。機轉連結屬間接但合理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.9622923135757446,
+        "rank": 23668
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "向心性脂肪萎縮（Centrifugal lipodystrophy）為罕見獲得性脂肪萎縮，確切病因不明，可能涉及自體免疫、感染後炎症反應。Gliclazide 的抗氧化特性可能具輕微抗炎效果，但與此疾病的脂肪組織選擇性喪失機轉無直接關聯。模型可能因脂肪代謝相關特徵給出高分，但缺乏足夠機轉支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.9614076018333436,
+        "rank": 23921
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力誘導性局部脂肪萎縮為機械性損傷導致，病因為物理壓力（義肢、輔具）而非代謝或免疫異常。Gliclazide 的藥理機轉（KATP 阻斷、胰島素促泌、抗氧化）與物理性脂肪萎縮無關聯路徑。此為 TxGNN 模型在脂肪萎縮疾病群集中的非特異性高分，無實際臨床意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9593665599822998,
+        "rank": 24452
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性局部脂肪萎縮病因未明，可能涉及脂肪細胞分化或代謝異常。磺醯脲類藥物對脂肪細胞的影響主要透過胰島素訊號間接作用，文獻中無 Gliclazide 對脂肪細胞直接作用的確切證據。評分可能來自模型學習脂肪代謝特徵的聚類效應，機轉依據不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.8815215826034546,
+        "rank": 36572
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫卵巢炎導致卵巢功能早衰，可能與 APS（自體免疫多腺體症候群）相關，後者亦常伴隨自體免疫糖尿病。Gliclazide 的抗氧化特性（自由基清除）理論上可減少自體免疫炎症中的氧化應激損傷，但對卵巢特異性自體免疫機轉（類固醇細胞抗體）無直接調控能力。TxGNN 分數為本分析中最低（0.882），可信度相對較低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gliclazide",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

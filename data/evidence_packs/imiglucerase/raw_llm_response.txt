@@ -1,0 +1,307 @@
+```json
+{
+  "drug": "Imiglucerase",
+  "drugbank_id": "DB00053",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": {
+    "data_quality_flags": [
+      "original_indications: [] 為資料缺口 — Imiglucerase (Cerezyme) 在 FDA/EMA 已核准用於 Gaucher disease，非真正無適應症藥物",
+      "original_moa: [Data Gap] — 實際機轉為重組人類葡萄糖腦苷脂酶 (recombinant human glucocerebrosidase)，補充 GBA 基因突變導致的溶小體酵素缺乏",
+      "market_status: 未上市 — 反映本地市場未登記，非全球上市狀態",
+      "部分候選適應症為溶小體儲積症（不同酵素缺乏），TxGNN 高分源於疾病類別相似性，非酵素特異性"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "Hurler syndrome",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Hurler syndrome（MPS I）為 alpha-L-iduronidase 缺乏，導致醣胺聚醣堆積。Imiglucerase 作用酵素為 glucocerebrosidase（GBA），兩者為不同溶小體酵素，無交叉活性。TxGNN 高分反映同屬溶小體儲積症的疾病類別相似性，非酵素特異性治療依據。標準治療為 laronidase（Aldurazyme，alpha-L-iduronidase ERT）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20534487",
+          "title": "Imaging of enzyme replacement therapy using PET.",
+          "year": "2010",
+          "study_type": "技術性研究（PET影像應用於ERT監測）",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "探討 PET 影像追蹤酵素替代療法之技術應用，為通用 ERT 研究，無任何 imiglucerase 用於 Hurler syndrome 之直接數據。"
+        },
+        {
+          "pmid": "21211680",
+          "title": "[Enzyme replacement therapy of lysosomal storage diseases].",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "涵蓋多種溶小體儲積症的 ERT 綜述，僅提供類別層次之間接支持。Hurler syndrome 之 ERT 為 laronidase，非 imiglucerase。"
+        }
+      ]
+    },
+    {
+      "disease_name": "Scheie syndrome",
+      "txgnn_score": 0.9929,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Scheie syndrome 為 MPS I 的輕型表現（Hurler syndrome 的等位基因變異體），同樣缺乏 alpha-L-iduronidase。與 Hurler syndrome 相同，Imiglucerase 之 glucocerebrosidase 活性與 MPS I 的致病酵素無關。無任何 imiglucerase 對 Scheie syndrome 之直接臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21211680",
+          "title": "[Enzyme replacement therapy of lysosomal storage diseases].",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "同上，通用 ERT 綜述，無 imiglucerase 特異性 Scheie syndrome 證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign neoplasm of adrenal gland",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何已知機轉連結 imiglucerase（glucocerebrosidase ERT）與腎上腺良性腫瘤。Gaucher disease 中雖有報告巨噬細胞浸潤腎上腺，但 imiglucerase 治療腎上腺腫瘤無文獻支持。TxGNN 預測分數可能源於 Gaucher disease 偶發腎上腺受累之知識圖譜連結，非治療性依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "autosomal ichthyosis syndrome with fatal disease course",
+      "txgnn_score": 0.9924,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體隱性致死性魚鱗癬症候群（可能包含 Gaucher disease type 2/3 之皮膚表現）。若病因為 GBA 突變，imiglucerase 理論上有機轉連結，然而神經型 Gaucher disease 的 CNS 受累並不能被 imiglucerase 有效治療（血腦屏障穿透力不足）。現無臨床試驗或文獻支持此具體診斷分類。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cholesteryl ester storage disease",
+      "txgnn_score": 0.9912,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Cholesteryl ester storage disease（CESD）為溶小體酸性脂肪酶（LAL）缺乏，與 imiglucerase 靶向的 glucocerebrosidase 為不同酵素系統。LAL 缺乏的 ERT 為 sebelipase alfa（Kanuma），兩者無交叉治療可能。TxGNN 高分源於同屬溶小體膽固醇代謝相關疾病之類別連結，無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lysosomal storage disease with skeletal involvement",
+      "txgnn_score": 0.9894,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此分類實質上等同於 Gaucher disease type 1（骨骼受累型），為 imiglucerase 的全球已核准適應症（FDA 1994年核准，EMA核准）。GBA 基因突變導致 glucocerebrosidase 缺乏 → glucosylceramide（葡萄糖腦苷脂）於溶小體堆積 → 活化巨噬細胞浸潤骨髓 → 骨痛、骨梗塞、骨壞死、骨質疏鬆。Imiglucerase 提供外源性 glucocerebrosidase，降低底物堆積，改善骨骼表現。【注意：本地市場標記為未上市，建議確認台灣/當地健保給付狀態。臨床試驗顯示之 velaglucerase alfa 為同類不同分子，支持類別有效性。】",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01842841",
+          "title": "A Multicenter, Open-label Extension Study of Velaglucerase Alfa ERT in Japan",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 5,
+          "relevance_grade": "B",
+          "reasoning": "Velaglucerase alfa（非 imiglucerase）的 Phase 3 延伸研究，目標疾病（Gaucher disease 骨骼受累）相同。提供類別有效性支持，但受試者僅 5 人且為日本延伸試驗，不直接代表 imiglucerase 之試驗數據。"
+        },
+        {
+          "nct_id": "NCT04656600",
+          "title": "A Single Arm, Prospective, Open Label, Multicenter Study to Evaluate Efficacy and Safety of One-year [ERT]",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 12,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 上市後研究，n=12，同類 ERT 之骨骼指標追蹤研究。規模小，但強化同類療法對骨骼受累 Gaucher disease 之持續安全有效性支持。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "20055531",
+          "title": "Recombinant glucocerebrosidase (imiglucerase) as a therapy for Gaucher disease.",
+          "year": "2010",
+          "study_type": "Review / ERT綜述",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接針對 imiglucerase 於 Gaucher disease 之系統性療效分析，為最相關文獻之一，確認藥物機轉與臨床應用。"
+        },
+        {
+          "pmid": "17539908",
+          "title": "Imiglucerase (Cerezyme) improves quality of life in patients with skeletal manifestations of Gaucher disease.",
+          "year": "2007",
+          "study_type": "Cohort / 觀察性研究",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "直接驗證 imiglucerase 改善 Gaucher disease 骨骼表現患者之生活品質，為核心支持文獻。"
+        },
+        {
+          "pmid": "9453101",
+          "title": "Gaucher disease: assessment of skeletal involvement and therapeutic responses to enzyme replacement.",
+          "year": "1997",
+          "study_type": "臨床研究 / 療效評估",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "早期評估 ERT（imiglucerase 前身 alglucerase）對骨骼受累之療效，建立骨骼指標體系，為領域奠基文獻。"
+        },
+        {
+          "pmid": "18553043",
+          "title": "Changes of bone metabolism in seven patients with Gaucher disease treated consecutively with imiglucerase.",
+          "year": "2008",
+          "study_type": "Case Series",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接追蹤 7 名患者 imiglucerase 治療後骨代謝指標變化，提供縱向生物標記數據。"
+        },
+        {
+          "pmid": "8931951",
+          "title": "Effect of low-dose enzyme replacement therapy on bones in Gaucher disease patients with severe skeletal involvement.",
+          "year": "1996",
+          "study_type": "臨床試驗（劑量研究）",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "研究低劑量 ERT 對嚴重骨骼受累患者之效果，為劑量優化之關鍵依據。"
+        },
+        {
+          "pmid": "9050375",
+          "title": "Gaucher disease.",
+          "year": "1997",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "早期 Gaucher disease 全疾病綜述，建立疾病分類與治療原則框架。"
+        },
+        {
+          "pmid": "12803930",
+          "title": "Gaucher disease and the clinical experience with substrate reduction therapy.",
+          "year": "2003",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "比較 ERT 與底物削減療法，提供 imiglucerase 之對照治療背景。"
+        },
+        {
+          "pmid": "22640238",
+          "title": "Characteristics of type I Gaucher disease associated with persistent thrombocytopenia after treatment.",
+          "year": "2012",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "分析 imiglucerase 治療後持續血小板低下的預測因子，與骨骼受累間接相關。"
+        },
+        {
+          "pmid": "21889384",
+          "title": "Therapeutic approaches to bone pathology in Gaucher disease: past, present and future.",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "彙整骨骼病變之各種治療策略，為 imiglucerase 骨骼適應症提供全面背景。"
+        },
+        {
+          "pmid": "27441734",
+          "title": "Glucosylsphingosine is a key biomarker of Gaucher disease.",
+          "year": "2016",
+          "study_type": "生物標記研究",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "確立 glucosylsphingosine 為 Gaucher disease 監測及治療反應指標，間接支持 imiglucerase 機轉。"
+        }
+      ]
+    },
+    {
+      "disease_name": "Wolman disease with hypolipoproteinemia and acanthocytosis",
+      "txgnn_score": 0.9893,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Wolman disease 為溶小體酸性脂肪酶（LAL）完全缺乏，與 imiglucerase 靶向的 glucocerebrosidase 無關。標準 ERT 為 sebelipase alfa。'hypolipoproteinemia and acanthocytosis' 亞型提示脂蛋白代謝嚴重紊亂，imiglucerase 對此無已知療效機制。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Wolman disease",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同上（Wolman disease with hypolipoproteinemia 之完整型別）。LAL 缺乏與 GBA 缺乏為不同溶小體酵素系統，無再利用依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "proximal myopathy with extrapyramidal signs",
+      "txgnn_score": 0.9854,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "近端肌病變合併錐體外症候群可能與溶小體儲積疾病（如 Pompe disease、Gaucher disease type 3）有關。若為 Gaucher disease type 3（神經型），理論上 imiglucerase 對骨骼和內臟有效，但 CNS 錐體外症狀因血腦屏障限制而不可治療。目前無文獻支持 imiglucerase 用於此特定診斷。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant",
+      "txgnn_score": 0.9849,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此罕見自體顯性免疫調節異常合併生長激素不敏感症候群（可能涉及 STAT5B 突變），與 imiglucerase 之 glucocerebrosidase 替代機轉無任何已知連結。TxGNN 高分可能源於知識圖譜中免疫相關節點的非特異性連結。完全無支持文獻。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "L1_S3_Proceed": ["lysosomal storage disease with skeletal involvement"],
+    "L4_S0_Hold": ["Hurler syndrome", "Scheie syndrome"],
+    "L5_S0_Hold": [
+      "benign neoplasm of adrenal gland",
+      "autosomal ichthyosis syndrome with fatal disease course",
+      "cholesteryl ester storage disease",
+      "Wolman disease with hypolipoproteinemia and acanthocytosis",
+      "Wolman disease",
+      "proximal myopathy with extrapyramidal signs",
+      "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant"
+    ]
+  },
+  "clinical_action_priorities": [
+    {
+      "priority": 1,
+      "indication": "lysosomal storage disease with skeletal involvement（= Gaucher disease type 1 骨骼受累型）",
+      "action": "確認本地市場登記狀態（未上市原因）。若為給付問題，建議透過罕見疾病專項申請途徑處理。此為 imiglucerase 之原始核准適應症，非再利用，應歸類為標準治療選項。",
+      "guardrails": [
+        "嚴格依 EMA/FDA 建議劑量（60 U/kg q2w 起始）",
+        "定期監測骨密度（DXA）、骨骼 MRI、生物標記（glucosylsphingosine, chitotriosidase）",
+        "注意 imiglucerase 供應短缺風險（2009年全球短缺歷史教訓），備有 velaglucerase alfa 或 taliglucerase alfa 替代方案",
+        "篩查 GBA 突變型別以預測療效（N370S 預後較佳）"
+      ]
+    },
+    {
+      "priority": 2,
+      "indication": "Hurler syndrome / Scheie syndrome（MPS I）",
+      "action": "研究問題層次：探討是否有文獻報告 imiglucerase 輔助 laronidase 於 MPS I 合併 Gaucher 突變之罕見共病個案。目前不建議主動開展試驗。",
+      "guardrails": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 關鍵發現
+
+| 適應症 | 證據等級 | 決策 | 核心理由 |
+|--------|----------|------|----------|
+| **Lysosomal storage disease w/ skeletal involvement** | **L1** | ✅ S3 Proceed | 實質等同 Gaucher disease——imiglucerase **原核准適應症**，多篇直接臨床文獻支持 |
+| Hurler syndrome | L4 | ⛔ S0 Hold | 不同溶小體酵素缺乏（alpha-L-iduronidase），標準治療為 laronidase |
+| Scheie syndrome | L4 | ⛔ S0 Hold | 同為 MPS I（Hurler 輕型），酵素特異性不符 |
+| 其餘 7 項適應症 | **L5** | ⛔ S0 Hold | 零臨床/文獻證據，純模型預測 |
+
+### ⚠️ 資料品質警示
+
+1. **`original_indications: []` 為嚴重資料缺口** — Imiglucerase 擁有 FDA（1994）及 EMA 核准，應標記 Gaucher disease 為已核准適應症
+2. **TxGNN 高分的陷阱** — 前 10 名候選中，9 項基於「溶小體儲積症類別相似性」而非「酵素特異性」，說明知識圖譜模型對此類 ERT 藥物有系統性的**酵素混淆偏差**
+3. **臨床試驗均為 Velaglucerase alfa**（競爭分子），非 imiglucerase 本身，但支持類別有效性

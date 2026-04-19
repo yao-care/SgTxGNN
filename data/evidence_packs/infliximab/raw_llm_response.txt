@@ -1,0 +1,557 @@
+## Infliximab (DB00065) 藥物再利用證據分析
+
+以下為各適應症的系統性評估結果：
+
+```json
+{
+  "drug": "Infliximab",
+  "drugbank_id": "DB00065",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "市場狀態標記為「未上市」（本地），但 Infliximab 為全球已核准抗 TNF-α 生物製劑，原始適應症資料缺失（Data Gap）可能係本地資料庫未完整收錄。分析以全球臨床證據為基礎。",
+  "indications": [
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9022,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群為罕見遺傳發育異常（ALDH18A1/PAX6等基因缺陷），屬結構性發育障礙，與 TNF-α 驅動之炎症路徑無已知直接關聯。TxGNN 高分可能反映圖譜拓撲相似性而非真實生物學機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "HIGH_SCORE_NO_EVIDENCE — TxGNN 評分 0.902 與零臨床證據形成極大落差，應優先確認模型解釋性"
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.8988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性骨骼發育異常（HOXD/GDF5等基因相關），為胚胎期肢體成形缺陷，非炎症性疾病。TNF-α 阻斷無預期治療作用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "STRUCTURAL_GENETIC_DISORDER — 非炎症機轉，不適用抗細胞激素療法"
+    },
+    {
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn_score": 0.8532,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "類風濕性血管炎為晚期 RA 的嚴重全身性表現，TNF-α 在血管壁炎症及免疫複合體沉積中具有病理角色，理論上 TNF 抑制有助控制血管炎。然而，矛盾現象（paradoxical vasculitis）已見於多篇文獻：Infliximab 本身可誘發皮膚性血管炎及 IgA 血管炎，機轉可能涉及免疫複合體積累及 B 細胞失調。此雙向性使安全評估極為關鍵。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05696106",
+          "relevance_grade": "B",
+          "reasoning": "大型真實世界研究（N=750,000），追蹤生物製劑使用者發生免疫介導炎症疾病（IMID）風險，可提供血管炎事件發生率的間接佐證，但非治療性試驗"
+        },
+        {
+          "nct_id": "NCT02590562",
+          "relevance_grade": "C",
+          "reasoning": "橫斷面觀察研究，聚焦 RA 整體治療模式，未針對血管炎亞群設計獨立分析終點"
+        },
+        {
+          "nct_id": "NCT01579006",
+          "relevance_grade": "C",
+          "reasoning": "非介入性多國 RA 研究，小樣本（N=184），無血管炎特定結果指標"
+        },
+        {
+          "nct_id": "NCT07138898",
+          "relevance_grade": "C",
+          "reasoning": "聚焦手術前免疫抑制劑管理，與血管炎治療無直接相關性"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33058033",
+          "title": "Biological therapy in rheumatoid vasculitis: a systematic review",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "最高相關性文獻；系統性回顧生物製劑於 RV 之療效，涵蓋 Infliximab 個案，但 RCT 數量極少，整體證據品質低"
+        },
+        {
+          "pmid": "16078342",
+          "title": "Rheumatoid vasculitis treated with infliximab",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "直接證據，單一病例成功治療 RV，但缺乏對照組"
+        },
+        {
+          "pmid": "40385904",
+          "title": "Infliximab-Induced Vasculitis in a Rheumatoid Arthritis Patient",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 安全訊號：記錄 Infliximab 誘發血管炎的矛盾反應，對本適應症構成直接安全疑慮"
+        },
+        {
+          "pmid": "28123776",
+          "title": "Drug-specific risk and characteristics of lupus and vasculitis-like events in RA patients",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "⚠️ 藥物特異性分析顯示 Infliximab 與血管炎樣事件風險相關，為重要安全性參考數據"
+        },
+        {
+          "pmid": "15853915",
+          "title": "Immunology of cutaneous vasculitis associated with etanercept and infliximab",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "⚠️ 免疫機轉探討，支持 TNF 抑制劑誘發皮膚血管炎的生物學基礎"
+        },
+        {
+          "pmid": "11792895",
+          "title": "Etanercept and infliximab associated with cutaneous vasculitis",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 最早期報告之一，確立 TNF 抑制劑-血管炎關聯"
+        },
+        {
+          "pmid": "35650123",
+          "title": "IgA vasculitis after 11 years' use of infliximab",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 長期使用後誘發腎炎相關 IgA 血管炎，強調長期安全監測必要性"
+        }
+      ],
+      "safety_alert": "PARADOXICAL_EFFECT_CONFIRMED — 多篇文獻確認 Infliximab 可誘發血管炎。此為「使用現有藥物治療其副作用目標疾病」的矛盾情境，須進入 S1 安全初評，明確釐清患者選擇標準（如病毒觸發 vs 免疫複合體介導亞型）後方可進入下一階段"
+    },
+    {
+      "disease_name": "hypermobility of coccyx",
+      "txgnn_score": 0.8249,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尾骨過度活動性為骨骼結構穩定性問題，主要機轉為韌帶鬆弛及關節不穩定，非炎症性或免疫介導。TNF-α 抑制對此病理機轉無合理作用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "NON-INFLAMMATORY_MECHANICAL_DISORDER — 缺乏生物學合理性"
+    },
+    {
+      "disease_name": "anus disease",
+      "txgnn_score": 0.8121,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "肛門直腸疾病於此情境主要指 Crohn 病肛周瘻管（perianal fistulizing Crohn's disease）。Infliximab 對 TNF-α 的阻斷可抑制腸道黏膜固有層的病理性炎症反應，促進瘻管癒合。ACCENT II 試驗（Phase 3 RCT）已確立 Infliximab 於瘻管性 Crohn 病的療效，此為其全球核准適應症之一。相關臨床試驗及文獻均高度支持此適應症。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02883296",
+          "relevance_grade": "A",
+          "reasoning": "直接相關：Crohn 病肛周瘻管接受抗 TNF-α 治療之長期追蹤，N=15，完成，提供真實世界長期療效數據"
+        },
+        {
+          "nct_id": "NCT02925338",
+          "relevance_grade": "A",
+          "reasoning": "Inflectra（Infliximab 生物相似藥）真實世界使用觀察，N=1,431，完成，支持 Infliximab 於 IBD（含肛門病變）之安全性與療效"
+        },
+        {
+          "nct_id": "NCT03801928",
+          "relevance_grade": "A",
+          "reasoning": "Inflectra 於 IBD 患者的觀察性研究，N=118，完成"
+        },
+        {
+          "nct_id": "NCT03917303",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，Crohn 病 adalimumab（同類 TNF 抑制劑）研究，間接支持抗 TNF 策略，正招募中"
+        },
+        {
+          "nct_id": "NCT05330416",
+          "relevance_grade": "B",
+          "reasoning": "肛周 Crohn 病手術（seton）聯合治療 QoL 研究，評估綜合管理策略"
+        },
+        {
+          "nct_id": "NCT05912712",
+          "relevance_grade": "C",
+          "reasoning": "PRP 治療肛周瘻管之 Phase 1 研究，替代療法，非直接相關"
+        },
+        {
+          "nct_id": "NCT01860963",
+          "relevance_grade": "C",
+          "reasoning": "IBD 患者肛門發育不良盛行率研究，非治療性試驗"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "11429666",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "加拿大 Infliximab 於 Crohn 病治療之早期綜合回顧，含瘻管適應症"
+        },
+        {
+          "pmid": "12641520",
+          "study_type": "RCT/Clinical Study",
+          "tier": "1",
+          "note": "最高相關性：探討 Infliximab 治療瘻管性 Crohn 病後反應、復發及黏膜免疫調節，奠定療效機轉理解"
+        },
+        {
+          "pmid": "20623697",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "Infliximab 聯合手術及 MTX 治療嚴重肛周瘻管 Crohn 病之組合策略"
+        },
+        {
+          "pmid": "20109634",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "肛直腸 Crohn 病完整臨床回顧，確立 Infliximab 作為標準治療選項"
+        },
+        {
+          "pmid": "17402327",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "肛周 Crohn 病管理回顧，強調 Infliximab 之核心角色"
+        },
+        {
+          "pmid": "39664232",
+          "study_type": "Retrospective/ML Study",
+          "tier": "2",
+          "note": "神經網絡評估 Infliximab 監測於 Crohn 病之疾病活動度，支持個人化用藥策略"
+        },
+        {
+          "pmid": "29126509",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "肛周 Crohn 病治療綜合回顧（2017），含最新生物製劑證據"
+        },
+        {
+          "pmid": "39882221",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "最新（2025）Crohn 病肛瘻管理指引，確認 Infliximab 持續地位"
+        }
+      ],
+      "guardrails": [
+        "需先排除感染性肛門疾病（膿瘍需先引流）",
+        "建議聯合免疫調節劑（如 azathioprine）以降低免疫原性",
+        "TDM（治療藥物監測）建議：谷值 ≥ 3-5 μg/mL",
+        "定期評估：抗藥抗體（ADA）、TB 篩檢、肝炎病毒狀態",
+        "本地市場未上市：需透過特殊進口或同情用藥途徑取得"
+      ]
+    },
+    {
+      "disease_name": "Kummell disease",
+      "txgnn_score": 0.8115,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Kummell 病（遲發性外傷後椎體塌陷）為缺血性骨壞死機轉，與微血管損傷和骨組織修復失敗相關，非炎症性免疫介導疾病。TNF-α 抑制對骨壞死機轉無已知療效，且理論上可能影響骨骼修復。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "AVASCULAR_NECROSIS_MECHANISM — 機轉不符，抗炎策略對缺血性骨病理無預期獲益"
+    },
+    {
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn_score": 0.8092,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "炎症性脊椎病（主要為強直性脊椎炎，AS）的核心病理為骶髂關節及椎體的 TNF-α 驅動慢性炎症，導致新骨生成及脊椎融合。Infliximab 為最早確立療效的抗 TNF 療法之一，ASSERT 試驗（Phase 3 RCT，NCT00051623）及 Phase 3 維持治療試驗（NCT00439283）均顯示 BASDAI/ASAS 顯著改善。此為全球核准適應症。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00051623",
+          "relevance_grade": "A",
+          "reasoning": "核心關鍵試驗：Phase 3 RCT，抗 TNF 嵌合單株抗體（Infliximab）於 AS，N=70，已完成。即 ASSERT 試驗，確立本適應症核准依據"
+        },
+        {
+          "nct_id": "NCT00439283",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，比較 AS 中不同 Infliximab 維持治療方案，N=240，已完成。支持最佳給藥策略制定"
+        },
+        {
+          "nct_id": "NCT05164198",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，多中心前瞻性試驗，優化 AS 患者 TNF 抑制劑劑量調整策略，N=448，真實世界劑量管理證據"
+        },
+        {
+          "nct_id": "NCT03445845",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，TNF 阻斷劑失敗後軸性脊椎關節炎之輪替或更換策略，N=300，已完成，提供治療序列決策依據"
+        },
+        {
+          "nct_id": "NCT00741793",
+          "relevance_grade": "B",
+          "reasoning": "加拿大大型生物製劑登記研究，N=2,821，含 AS 患者，提供長期安全性及療效真實世界數據"
+        },
+        {
+          "nct_id": "NCT02557308",
+          "relevance_grade": "B",
+          "reasoning": "Remsima（Infliximab 生物相似藥）前瞻性隊列，N=329，雖已中止，但提供生物相似藥應用數據"
+        },
+        {
+          "nct_id": "NCT03496831",
+          "relevance_grade": "C",
+          "reasoning": "慢性炎症性疾病住院感染風險預測模型，N=7,500，安全性背景參考"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27650650",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "Infliximab 生物相似藥（CT-P13）於自體免疫炎症疾病之全面回顧，含 AS 療效數據"
+        },
+        {
+          "pmid": "17644552",
+          "study_type": "Clinical Study",
+          "tier": "1",
+          "note": "AS 患者炎症生物標記、疾病活動度與脊椎病變的相關性分析，支持 Infliximab 療效監測指標"
+        },
+        {
+          "pmid": "28110580",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Calprotectin 作為脊椎關節炎活動性標記，有助 Infliximab 治療監測"
+        },
+        {
+          "pmid": "36624354",
+          "study_type": "Observational/Real-world",
+          "tier": "2",
+          "note": "SB2（Infliximab 生物相似藥）於免疫介導炎症疾病之安全性與療效，支持生物相似藥可互換性"
+        },
+        {
+          "pmid": "35168933",
+          "study_type": "Real-world Study",
+          "tier": "2",
+          "note": "強制性非醫療轉換至 Infliximab 生物相似藥研究，提供轉換安全性數據"
+        },
+        {
+          "pmid": "27438197",
+          "study_type": "Safety Analysis",
+          "tier": "2",
+          "note": "Infliximab 於多種炎症疾病之不良事件評估，含 AS，重要安全性參考"
+        }
+      ],
+      "guardrails": [
+        "NSAID 治療反應不足後方考慮啟動 Infliximab",
+        "啟動前必須排除活動性 TB（IGRA/Mantoux + 胸部 X 光）",
+        "建議 BASDAI > 4 且 CRP 升高作為治療指征",
+        "TDM 監測：維持谷值 1-5 μg/mL",
+        "本地市場未上市：需透過特殊進口途徑，或考慮已核准的生物相似藥替代方案"
+      ]
+    },
+    {
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn_score": 0.8014,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "多關節型幼年型特發性關節炎（pJIA）中，TNF-α 介導持續性滑膜炎及軟骨侵蝕，與成人 RA 病理機轉高度相似。NCT00036374（Phase 3 RCT）直接評估 Infliximab + MTX 於 pJIA 的療效，PMID 17763439 為其關鍵發表（N=122，16 週反應率顯著優於安慰劑）。長期數據（PMID 20237125）支持持續療效與可接受安全性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00036374",
+          "relevance_grade": "A",
+          "reasoning": "核心 Phase 3 RCT：Infliximab + MTX 於 pJIA（多關節型幼年型特發性關節炎），N=123，雙盲隨機對照，已完成。為本適應症最強直接證據"
+        },
+        {
+          "nct_id": "NCT01015547",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，比較抗 TNF + MTX、DMARDs 組合及 MTX 單藥於 JIA，N=60，已完成，提供治療策略比較數據"
+        },
+        {
+          "nct_id": "NCT06413563",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，分析 JIA 患者周邊血液淋巴球亞群，屬機轉探索性研究，非療效試驗"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17763439",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "最高相關性：Phase 3 隨機對照試驗，Infliximab + MTX 治療多關節型 JIA，N=122，確立療效"
+        },
+        {
+          "pmid": "20237125",
+          "study_type": "Long-term Follow-up Study",
+          "tier": "1",
+          "note": "Infliximab + MTX 於多關節型 JIA 之長期療效與安全性（延伸試驗），支持持續使用依據"
+        },
+        {
+          "pmid": "31612428",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "單中心回顧：pJIA 接受 Infliximab 之療效與結果，真實世界驗證"
+        },
+        {
+          "pmid": "33626206",
+          "study_type": "Comparative Study",
+          "tier": "2",
+          "note": "比較 pJIA 與成人 RA 對 Infliximab 之反應相似性，支持跨適應症外推合理性"
+        },
+        {
+          "pmid": "28418334",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "幼年型特發性關節炎現代治療全面回顧，確立 Infliximab 於 pJIA 的治療定位"
+        },
+        {
+          "pmid": "20506561",
+          "study_type": "Validation Study",
+          "tier": "2",
+          "note": "RA 與 JIA 疾病活動度評估工具比較，有助療效監測標準化"
+        }
+      ],
+      "guardrails": [
+        "適用年齡限制：通常 ≥ 4 歲（依核准書）",
+        "聯合 MTX 使用以降低免疫原性，除非有禁忌",
+        "啟動前排除潛伏 TB 及活動性感染",
+        "需兒童風濕科醫師監督，監測生長發育指標",
+        "疫苗接種：治療前完成活疫苗接種，治療中避免活疫苗",
+        "本地市場未上市：需透過特殊進口或醫院自費管道"
+      ]
+    },
+    {
+      "disease_name": "bronchitis",
+      "txgnn_score": 0.7787,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "TNF-α 在氣道炎症中具有調節作用：急性支氣管炎多為感染性（病毒/細菌），TNF-α 阻斷可能延誤感染清除。慢性支氣管炎（COPD相關）或特殊情境（如 IBD 相關氣道受累的氣管支氣管炎）則有間接理論依據。現有文獻主要為 IBD 腸外表現累及氣道的個案報告，非原發性支氣管炎的直接證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01862965",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，GvHD 患者接受 Prednisone + Infliximab 治療，N=38，完成。閉塞性支氣管炎為 GvHD 常見肺部表現，提供特定情境下的間接支氣管相關證據"
+        },
+        {
+          "nct_id": "NCT00244179",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，慢性反應性關節炎的免疫調節策略，氣道疾病非主要研究終點"
+        },
+        {
+          "nct_id": "NCT03112603",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，Ruxolitinib vs BAT 於 GvHD，非 Infliximab 試驗，不同藥物機轉"
+        },
+        {
+          "nct_id": "NCT06085079",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，Ixekizumab（抗 IL-17）於呼吸道疾病，不同抗體，機轉不同"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31675916",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "最直接相關：潰瘍性結腸炎患者氣管支氣管炎以 Infliximab 治療成功，IBD 腸外表現情境"
+        },
+        {
+          "pmid": "12548168",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "Crohn 病患者的非感染性肺部病理描述，支持 IBD-肺部軸線的存在"
+        },
+        {
+          "pmid": "23332019",
+          "study_type": "Experimental Study",
+          "tier": "2",
+          "note": "TNF-α 在閉塞性支氣管炎重塑中的分子機轉，提供動物模型間接支持"
+        },
+        {
+          "pmid": "12923437",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "豬氣道閉塞性支氣管炎模型中 TNF-α 的角色，機轉參考"
+        },
+        {
+          "pmid": "37493790",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ UC 患者接受 Infliximab 後發生暴發性機化性肺炎，顯示呼吸系統不良事件風險"
+        }
+      ],
+      "research_question": "建議限定研究假說：「Infliximab 於 IBD 相關氣道腸外表現（EIM-airway）之療效」，而非廣義支氣管炎",
+      "safety_note": "感染性支氣管炎為 TNF 抑制劑禁忌情境；PMID 37493790 顯示 Infliximab 可誘發機化性肺炎，呼吸系統安全性需優先評估"
+    },
+    {
+      "disease_name": "Crohn disease of the esophagus",
+      "txgnn_score": 0.7758,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "食道 Crohn 病為 CD 的罕見上消化道表現（上消化道 CD 發生率約 0.2-11%），TNF-α 驅動的透壁性肉芽腫性炎症機轉與小腸/結腸 CD 相同。Infliximab 已核准用於廣義 Crohn 病，食道受累理論上適用相同治療策略，但缺乏專門針對食道部位的 RCT 數據。現有證據主要來自個案報告與回顧性研究，並有一項 2026 年生物製劑時代回顧性研究（PMID 41622053）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "41622053",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "最新（2026）最高相關性文獻：生物製劑時代食道/胃/十二指腸 CD 的回顧性多中心研究，提供當代 Infliximab 於上消化道 CD 的療效數據"
+        },
+        {
+          "pmid": "11907371",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "里程碑病例：Infliximab 成功治療食道支氣管瘻（廣泛食道 CD 併發症），確立概念驗證"
+        },
+        {
+          "pmid": "40386539",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "2025年：抗 TNF 難治性食道 CD 的替代生物製劑治療成功案例，提示 Infliximab 失敗後之治療序列"
+        },
+        {
+          "pmid": "16954965",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "兒童嚴重 Crohn 病以 Infliximab 作為一線療法，含上消化道受累案例"
+        },
+        {
+          "pmid": "17298766",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "食道 Crohn 病臨床特徵與診療策略回顧，確立稀有性及診斷挑戰"
+        },
+        {
+          "pmid": "18377798",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "IBD 食道/胃/十二指腸表現及上內視鏡診斷角色回顧"
+        },
+        {
+          "pmid": "18618629",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "兒童 IBD 患者短期使用 adalimumab（同類 TNF 抑制劑）反應，提供類推依據"
+        }
+      ],
+      "pathway_to_s3": [
+        "需進行前瞻性多中心登記研究（registry），收集系統性療效與安全性數據",
+        "建議依循 CD 一般治療原則（Infliximab 5mg/kg 誘導 + 維持），合理外推至食道 CD",
+        "EGD 監測（食道內視鏡）作為療效評估主要工具",
+        "排除感染性食道炎（尤其是念珠菌、皰疹病毒），因免疫抑制下感染風險升高"
+      ]
+    }
+  ],
+  "summary": {
+    "L1_established": ["anus disease (perianal Crohn's)", "inflammatory spondylopathy (AS)", "polyarticular juvenile rheumatoid arthritis"],
+    "L3_emerging": ["Crohn disease of the esophagus"],
+    "L4_indirect_or_paradoxical": ["rheumatoid vasculitis", "bronchitis"],
+    "L5_prediction_only": ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "hypermobility of coccyx", "Kummell disease"],
+    "critical_safety_flags": [
+      "rheumatoid vasculitis: Infliximab 可誘發矛盾性血管炎（多篇文獻確認）",
+      "bronchitis: 感染性情境為 TNF 抑制劑禁忌；機化性肺炎風險需評估",
+      "全適應症通則: 本地市場未上市（市場狀態：未上市），所有使用均需特殊取得途徑"
+    ],
+    "data_quality_concern": "原始適應症（original_indications: []）及機轉（Data Gap）資料缺失，反映本地資料庫收錄不完整，不代表 Infliximab 無已核准適應症。全球核准適應症包含 RA、CD（含瘻管）、AS、UC、PsA、Ps 及 pJIA。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|--------|--------|----------|----------|------|
+| anus disease (肛周 Crohn) | 0.812 | 16 | 20 | **L1** | **S3** | ✅ Proceed |
+| inflammatory spondylopathy (AS) | 0.809 | 50 | 20 | **L1** | **S3** | ✅ Proceed |
+| polyarticular JRA | 0.801 | 3 | 19 | **L1** | **S3** | ✅ Proceed |
+| Crohn disease of esophagus | 0.776 | 0 | 8 | L3 | S2 | 🔬 Research Question |
+| rheumatoid vasculitis | 0.853 | 4 | 20 | L4 | S1 | ⚠️ Hold（矛盾效應）|
+| bronchitis | 0.779 | 4 | 20 | L4 | S1 | 🔬 Research Question |
+| microphthalmia syndrome | 0.902 | 0 | 0 | L5 | S0 | 🚫 Hold |
+| brachydactyly-syndactyly | 0.899 | 0 | 0 | L5 | S0 | 🚫 Hold |
+| hypermobility of coccyx | 0.825 | 0 | 0 | L5 | S0 | 🚫 Hold |
+| Kummell disease | 0.812 | 0 | 0 | L5 | S0 | 🚫 Hold |
+
+> **⚠️ 重要提醒**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過臨床驗證，且本地市場「未上市」狀態下的使用需符合相關法規程序。

@@ -1,0 +1,1978 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06403-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Ambrisentan",
+    "drugbank_id": "DB06403",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "pulmonary arteriovenous malformation (disease)",
+      "txgnn": {
+        "score": 0.9941036105155944,
+        "rank": 7296
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33969094",
+            "title": "Pulmonary arterial hypertension in a patient with hereditary hemorrhagic telangiectasia and family gene analysis: A case report.",
+            "authors": [
+              "Wu Jian",
+              "Yuan Yuan",
+              "Wang Xin",
+              "Shao Dong-Ying",
+              "Liu Li-Guo"
+            ],
+            "journal": "World journal of clinical cases",
+            "year": "2021",
+            "abstract": "Hereditary hemorrhagic telangiectasia (HHT) is a rare autosomal dominant genetic disease. Very few patients suffering from HHT present with associated pulmonary arterial hypertension (PAH), which may result in a poor prognosis. Here, we report a case of HHT with PAH. The patient's clinical manifestations and treatment as well as genetic analysis of family members are reviewed, in order to raise awareness of this multimorbidity.",
+            "classification": {
+              "study_type": "Case Report / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間接機轉：HHT（遺傳性出血性毛細血管擴張症）可同時引發肺動靜脈畸形（PAVM）與 PAH。Endoglin/ALK1（TGF-β 路徑突變）與 ET-1 訊號交互作用，但 ETA 拮抗劑直接治療 PAVM 結構異常無明確機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pulmonary arterial hypertension associated with congenital heart disease",
+      "txgnn": {
+        "score": 0.993699312210083,
+        "rank": 7630
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01884675",
+            "title": "A Randomised, Multicentre, Double-Blind, Placebo-Controlled Study Of Ambrisentan In Subjects With Inoperable Chronic Thromboembolic Pulmonary Hypertension (CTEPH).",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 33,
+            "start_date": "2013-09",
+            "completion_date": "2015-03",
+            "brief_summary": "It is hypothesised that ambrisentan may provide benefit to subjects with inoperable chronic thromboembolic pulmonary hypertension (CTEPH), where currently no proven or licensed treatment options exist. This Phase III, randomized, double-blind placebo controlled parallel group, 16 week study will compare the safety and efficacy of ambrisentan 5 milligrams (mg) versus placebo in subjects with inoperable CTEPH. The study will enrol 160 subjects, to assure at least 72 evaluable subjects per treatmen",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3, TERMINATED，n=33（招募不足）。早期終止削弱證據強度，但其設計（雙盲、RCT）仍具參考價值；需調查終止原因是否為安全性疑慮。"
+            }
+          },
+          {
+            "nct_id": "NCT00593905",
+            "title": "Pharmacogenomics in Pulmonary Arterial Hypertension: A Multi-Center International Study to Determine Whether in PAH Patients Clinical Associations Exist Between the Efficacy and Toxicity of Endothelin Receptor Antagonists and Several Gene Polymorphisms in Several Key Disease-Specific and Therapy Specific Genes",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2005-07",
+            "completion_date": "2012-07",
+            "brief_summary": "Our goal is to determine clinically in Pulmonary Arterial Hypertension patients if associations exist between the efficacy and toxicity of sitaxsentan, bosentan, and ambrisentan and several gene polymorphisms in several key disease-specific and therapy specific genes. Also characterized is the relationship between these polymorphisms and the severity of Pulmonary Arterial Hypertension using either baseline hemodynamic or clinical surrogates for disease severity.\n\nHypothesis: Polymorphisms influe",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "WITHDRAWN，零招募。藥物基因組學研究設計，無法提供任何療效或安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT01383083",
+            "title": "Effects of Iloprost Treatment in Adult Patients With Pulmonary Arterial Hypertension Related to Congenital Heart Disease (Eisenmenger Physiology): Safety, Tolerability, Clinical, and Hemodynamic Effect.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 42,
+            "start_date": "2010-11",
+            "completion_date": "2012-11",
+            "brief_summary": "The prevalence of PAH associated with congenital systemic-to-pulmonary shunts in Western countries has been estimated to range between 1.6 and 12.5 cases per million adults, with 25-50% of this population affected by Eisenmenger's syndrome. The rarity of this syndrome, combined with its complex pathophysiology, account for the insufficient understanding of the principles underlying its proper treatment.Recent decades have seen developments in pulmonary hypertension pathophysiology which have led",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究主體為 Iloprost（非 Ambrisentan），狀態 UNKNOWN，與本藥無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT04095286",
+            "title": "An Open-label, Randomized Three Period Cross-over Relative Bioavailability Study to Compare the Pharmacokinetic Parameters of a Lower Dose Formulation of Ambrisentan (GSK1325760) With Marketed Ambrisentan in Healthy Adult Participants",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "2019-09-30",
+            "completion_date": "2019-12-17",
+            "brief_summary": "This is a single center, open-label, randomized, single-dose, three-period cross-over study in healthy participants. The aim of this study is to provide clinically relevant information on the pharmacokinetic (PK) and safety profile of a new lower dose formulation ambrisentan (AMB) tablet, which is intended for pediatric use. The study will compare the relative bioavailability of the lower dose tablet, dispersed in water and administered orally, with the reference marketed AMB tablet in healthy a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 生體可用率研究，COMPLETED，n=29。藥動學數據，無療效評估，僅支持配方優化。"
+            }
+          },
+          {
+            "nct_id": "NCT01332331",
+            "title": "A Randomized, Open Label Study Comparing Safety and Efficacy Parameters for a High and a Low Dose of Ambrisentan (Adjusted for Body Weight) for the Treatment of Pulmonary Arterial Hypertension in Paediatric Patients Aged 8 Years up to 18 Years",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 41,
+            "start_date": "2011-01-04",
+            "completion_date": "2013-11-12",
+            "brief_summary": "A 6-month (24-week), randomized, open label evaluation of the safety, tolerability, and efficacy of a high and low dose ambrisentan (adjusted for body weight) treatment group in subjects aged 8 years up to 18 years with pulmonary arterial hypertension (PAH). An additional objective is to determine the ambrisentan population pharmacokinetics in the paediatric population. The study will include a screening/baseline period and a treatment period. The treatment period will be 24 weeks or until the s",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，TERMINATED，n=41。高劑量 vs. 低劑量比較研究，因終止僅提供部分量效關係資料。"
+            }
+          },
+          {
+            "nct_id": "NCT02688387",
+            "title": "A Phase 1 Study to Demonstrate the Relative Bioavailability of Fixed Dose Combinations of Ambrisentan and Tadalafil in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 112,
+            "start_date": "2016-03-18",
+            "completion_date": "2017-08-04",
+            "brief_summary": "This study is designed to understand the relative bioavailability (proportion of the administered dose that is absorbed into the bloodstream) of several fixed dose combinations (FDCs) tablets of ambrisentan and tadalafil for further development and to provide pharmacokinetic (PK - what the body does to the drug) data to enable a pivotal bioequivalence (BE - the relationship between two preparations of the same drug in the same dosage form that have a similar bioavailability) study. Depending on ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 固定劑量複方（Ambrisentan+Tadalafil）生體可用率研究，n=112。不直接評估 CHD-PAH 療效。"
+            }
+          },
+          {
+            "nct_id": "NCT01808313",
+            "title": "An Open Label Phase IIIb Study to Evaluate Efficacy and Safety of Ambrisentan in Chinese Patients With Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 134,
+            "start_date": "2012-12-01",
+            "completion_date": "2014-08-15",
+            "brief_summary": "This open label, single-arm, non-controlled, multicentre study will determine the effect of ambrisentan on exercise capacity (6MWT) in Chinese subjects with PAH. The study consists of a screening period of 4 weeks, a 12-week primary evaluation period (PEP) and a 12-week dose-adjustment period (DAP). Ambrisentan 5 mg will be administered to eligible subjects for 12 weeks (PEP).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3b, COMPLETED, n=134 中國 PAH 患者（涵蓋 CHD-PAH 亞組）開放標籤研究，評估 Ambrisentan 療效與安全性，為本適應症最強直接臨床證據。"
+            }
+          },
+          {
+            "nct_id": "NCT01894022",
+            "title": "An Open-label Extension Study of the Long-term Safety, Tolerability and Efficacy of Ambrisentan in Subjects With Inoperable Chronic Thromboembolic Pulmonary Hypertension (CTEPH)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 19,
+            "start_date": "2014-01-23",
+            "completion_date": "2015-11-18",
+            "brief_summary": "This is an open label, long term extension to Study AMB115811. All subjects may remain in the extension study for a minimum of 18 months. Beyond the 18-month period, subjects may continue in the extension study until one of the following: the product is approved locally for use in inoperable CTEPH patients; development for use in the CTEPH population is discontinued or product is not approved by the local regulatory authorities; or the investigator decides to discontinue the subject or subject d",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 開放標籤延伸，TERMINATED，n=19。小樣本且提前終止，長期安全性資料不完整。"
+            }
+          },
+          {
+            "nct_id": "NCT01342952",
+            "title": "An Open-label, Long Term Extension Study for Treatment of Pulmonary Arterial Hypertension in Paediatric Patients Aged 8 Years up to 18 Years Who Have Participated in AMB112529 and in Whom Continued Treatment With Ambrisentan is Desired",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2011-06-21",
+            "completion_date": "2022-06-09",
+            "brief_summary": "An open label, long term extension to Study AMB112529. All subjects may remain in the extension study for a minimum of six months. Beyond the six month period, subjects may continue in the extension study until one of the following conditions is met:\n\nthe subject turns 18 years of age (when the subject can receive marketed product) the product is approved and available for use in the subject's age group, development for use in the paediatric population is discontinued. the subject decides he/she",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 長期延伸研究，COMPLETED，n=38 兒科 PAH 患者，支持年齡族群擴展的安全性與療效數據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35412560",
+            "title": "Diagnosis and Treatment of Pulmonary Arterial Hypertension: A Review.",
+            "authors": [
+              "Ruopp Nicole F",
+              "Cockrill Barbara A"
+            ],
+            "journal": "JAMA",
+            "year": "2022",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a subtype of pulmonary hypertension (PH), characterized by pulmonary arterial remodeling. The prevalence of PAH is approximately 10.6 cases per 1 million adults in the US. Untreated, PAH progresses to right heart failure and death.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18333354",
+            "title": "Management of pulmonary arterial hypertension associated with congenital heart disease.",
+            "authors": [
+              "Togănel Rodica",
+              "Benedek I",
+              "Suteu Carmen",
+              "Blesneac Cristina"
+            ],
+            "journal": "Romanian journal of internal medicine = Revue roumaine de medecine interne",
+            "year": "2007",
+            "abstract": "Congenital heart diseases are the most common congenital malformations and account for about eight cases per 1000 births and are often associated with pulmonary arterial hypertension. Increased shear stress and the excess flow through the pulmonary vascular bed due to a systemic-to-pulmonary shunt lead to the development of pulmonary vascular disease and an increase in pulmonary vascular resistance. Without surgical repair approximately 30% of patients develop pulmonary vascular disease. Eisenme",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21852894",
+            "title": "Non-congenital heart disease associated pediatric pulmonary arterial hypertension.",
+            "authors": [
+              "Ivy D D",
+              "Feinstein J A",
+              "Humpl T",
+              "Rosenzweig E B"
+            ],
+            "journal": "Progress in pediatric cardiology",
+            "year": "2009",
+            "abstract": "Recognition of causes of pulmonary hypertension other than congenital heart disease is increasing in children. Diagnosis and treatment of any underlying cause of pulmonary hypertension is crucial for optimal management of pulmonary hypertension. This article discusses the available knowledge regarding several disorders associated with pulmonary hypertension in children: idiopathic pulmonary arterial hypertension (IPAH), pulmonary capillary hemangiomatosis, pulmonary veno-occlusive disease, hemog",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21371683",
+            "title": "Ambrisentan for pulmonary arterial hypertension due to congenital heart disease.",
+            "authors": [
+              "Zuckerman Warren A",
+              "Leaderer Derek",
+              "Rowan Cherise A",
+              "Mituniewicz Johnell D",
+              "Rosenzweig Erika Berman"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "2011",
+            "abstract": "Eisenmenger syndrome (ES) is a known complication of congenital heart disease associated with unrepaired systemic to pulmonary shunts. Evidence for use of targeted pulmonary arterial hypertension therapy in ES is limited. The early experience using ambrisentan was evaluated in a cohort of consecutive patients with ES who initiated ambrisentan at Columbia University's Pulmonary Hypertension Center from January 1, 2007, to August 1, 2008. Effects of ambrisentan on rest and exercise systemic arteri",
+            "classification": {
+              "study_type": "Prospective Cohort / Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22104452",
+            "title": "Adult congenital heart disease and pulmonary arterial hypertension: the Texas Adult Congenital Heart Program experience.",
+            "authors": [
+              "Franklin Wayne J",
+              "Parekh Dhaval R",
+              "Safdar Zeenat"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "2011",
+            "abstract": "Congenital heart disease (CHD) is a common structural defect of the heart or major blood vessels. Patients with adult congenital heart disease (ACHD) have medical needs that are distinct from those of pediatric patients with CHD, and the transition into adult health care is important for management of the patient with ACHD. A large proportion of patients with CHD develop diseases and complications associated with the long-term stress of intracardiac shunts. Pulmonary arterial hypertension (PAH) ",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34921523",
+            "title": "Safety and tolerability of combination therapy with ambrisentan and tadalafil for the treatment of pulmonary arterial hypertension in children: Real-world experience.",
+            "authors": [
+              "Issapour Azadeh",
+              "Frank Benjamin",
+              "Crook Sarah",
+              "Hite Michelle D",
+              "Dorn Michelle L"
+            ],
+            "journal": "Pediatric pulmonology",
+            "year": "2022",
+            "abstract": "To describe the safety and tolerability of treatment with ambrisentan and tadalafil in pediatric pulmonary hypertension (PH).",
+            "classification": {
+              "study_type": "Safety Study / Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31096477",
+            "title": "What is the position of pulmonary arterial hypertension-specific drug therapy in patients with Eisenmenger syndrome: A systematic review and meta-analysis.",
+            "authors": [
+              "Li Qiang",
+              "Kuang Hong-Yu",
+              "Wu Yu-Hao",
+              "Lu Tie-Wei",
+              "Yi Qi-Jian"
+            ],
+            "journal": "Medicine",
+            "year": "2019",
+            "abstract": "It is commonly reported a limitation of therapeutic strategy in Eisenmenger syndrome (ES) historically. This qualitative systematic review is conducted to evaluate the safety and efficacy of pulmonary arterial hypertension-specific drug therapy (PAH-SDT) for ES patients for a clinical therapeutic strategy based on evidence.",
+            "classification": {
+              "study_type": "Review / Position Paper",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22621693",
+            "title": "Treatment of pulmonary arterial hypertension in connective tissue disease.",
+            "authors": [
+              "Grünig Ekkehard"
+            ],
+            "journal": "Drugs",
+            "year": "2012",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a group of distinct disorders that includes idiopathic PAH (IPAH), familial PAH and PAH associated with other conditions (APAH) such as connective tissue disease (CTD-APAH) or congenital heart disease. PAH is characterized by increased pulmonary arterial pressure and pulmonary vascular resistance. If left untreated, PAH can lead to right heart failure and premature death. CTD-APAH represents an important clinical subgroup of APAH that has a higher risk of",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26223872",
+            "title": "Current Concepts in Management of Pulmonary Hypertension: Fighting the Old Demon with Modern Weapons.",
+            "authors": [
+              "Ramakrishnan Sivasubramanian"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "2015",
+            "abstract": "Pulmonary hypertension in children is a rare disease associated with high morbidity and mortality. The pathogenesis is not fully understood. Diagnostic evaluation focuses on ruling out other etiologies of pulmonary hypertension and prognosticating the disease. Congenital heart disease and left sided heart disease associated pulmonary hypertension are more common in children. Therapies for idiopathic pulmonary hypertension have evolved over the past decade. Phosphodiesterase 5 inhibitors (sildena",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24787237",
+            "title": "Ambrisentan therapy in pulmonary hypertension: clinical use and tolerability in a referral centre.",
+            "authors": [
+              "Condliffe Robin",
+              "Elliot Charlie A",
+              "Hurdman Judith",
+              "Sabroe Ian",
+              "Billings Catherine"
+            ],
+            "journal": "Therapeutic advances in respiratory disease",
+            "year": "2014",
+            "abstract": "Ambrisentan is an oral selective endothelin receptor antagonist licensed for use in pulmonary arterial hypertension (PAH). There are few data on clinical use and long-term tolerability in a wider range of patients with pulmonary hypertension (PH).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18260899",
+            "title": "[Pulmonary hypertension and right ventricular failure. Part XI. Endothelin receptor blockers in the treatment of primary pulmonary arterial hypertension].",
+            "authors": [
+              "Batyraliev T A",
+              "Makhmutkhodzhaev S A",
+              "Ekinsi E",
+              "Pataraia S A",
+              "Pershukov I V"
+            ],
+            "journal": "Kardiologiia",
+            "year": "2007",
+            "abstract": "In a series of articles the authors discuss literature data concerning epidemiology of pulmonary arterial hypertension (PAH), its current classification; peculiarities of its pathogenesis and treatment in various diseases and conditions. In the eleventh communication the authors discuss literature data related to the role of endothelin system in pathogenesis of primary (idiopathic) PAH, as well as PAH associated with diffuse diseases of connective tissue and congenital heart disease. This commun",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38447536",
+            "title": "Cyanotic Nephropathy in an Adult Patient with Eisenmenger Syndrome: A Case Report and Literature Review.",
+            "authors": [
+              "Zhu Fanyou",
+              "Wen Rui",
+              "Tan Xiangling",
+              "Nie Hongjun",
+              "Li Jiali"
+            ],
+            "journal": "Kidney & blood pressure research",
+            "year": "2024",
+            "abstract": "Cyanotic nephropathy, a rare disease characterized by proteinuria, decreased estimated glomerular filtration rate, thrombocytopenia, polycythemia, and hyperuricemia, may occasionally be secondary to cyanotic congenital heart disease (CHD). There are currently no detailed diagnostic criteria or treatments for cyanotic nephropathy, owing to its extremely low incidence. Eisenmenger syndrome (ES) was initially defined by Paul Wood in pathophysiologic terms as \"pulmonary hypertension (PH) at the syst",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29076824",
+            "title": "Preliminary results from a nationwide adult cardiology perspective for pulmonary hypertension: RegiStry on clInical outcoMe and sUrvival in pulmonaRy hypertension Groups (SIMURG).",
+            "authors": [
+              "Kaymaz Cihangir",
+              "Mutlu Bülent",
+              "Küçükoğlu M Serdar",
+              "Kaya Barış",
+              "Akdeniz Bahri"
+            ],
+            "journal": "Anatolian journal of cardiology",
+            "year": "2017",
+            "abstract": "The present study was designed to evaluate the characteristics of pulmonary hypertension (PH) and adult cardiology practice patterns for PH in our country.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41727855",
+            "title": "Endothelin-1 in the failing Fontan: pathobiology, precision therapeutics, and future trial design.",
+            "authors": [
+              "Maiza Iman"
+            ],
+            "journal": "Frontiers in pediatrics",
+            "year": "2025",
+            "abstract": "The Fontan circulation, devised as definitive palliation for single-ventricle congenital heart disease, imposes systemic venous hypertension, loss of pulmonary arterial pulsatility, and restricted preload reserve. These hemodynamic trade-offs progressively injure the pulmonary vasculature, liver, and lymphatic system, producing late morbidities including elevated pulmonary vascular resistance, Fontan-associated liver disease (FALD), protein-losing enteropathy, and arrhythmias. Endothelin-1 (ET-1",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28348949",
+            "title": "Impact of advanced medical therapy for the outcome of an adult patient with Eisenmenger syndrome.",
+            "authors": [
+              "Ereminienė Eglė",
+              "Kinderytė Marija",
+              "Miliauskas Skaidrius"
+            ],
+            "journal": "Respiratory medicine case reports",
+            "year": "2017",
+            "abstract": "Eisenmenger syndrome (ES) is the most severe form of pulmonary arterial hypertension (PAH) associated with congenital heart disease. It is an extremely devastating condition with a serious impact on patients' life. Classical therapy of ES remains directed to avoid complications, such as erythrocytosis, treatment of congestive heart failure, prevention of infection, and secondary haematological abnormalities such as iron deficiency and coagulation disorders. However, the only effective treatment ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25787798",
+            "title": "Medical treatment for an adult patient with eisenmenger syndrome. A case report.",
+            "authors": [
+              "Yao Atsushi"
+            ],
+            "journal": "International heart journal",
+            "year": "2015",
+            "abstract": "Previous studies examining the use of pulmonary arterial hypertension (PAH) drugs in patients with Eisenmenger syndrome (ES) have shown that it may have beneficial effects in some patients with ES; however, experience with additional cases is necessary to confirm its efficacy and appropriate clinical use. We herein report our experience of an adult patient with ES who benefitted from treatment with PAH drugs. A 32-year-old Japanese man with severe ES induced by a ventricular septal defect associ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性心臟病（CHD）造成左至右分流 → 肺血管床剪切應力增加 → 內皮細胞受損 → ET-1 過度表現 → ETA 受體活化 → 肺血管收縮與重塑。Ambrisentan 阻斷 ETA 受體，直接逆轉此病理機轉，與 idiopathic PAH 機轉高度重疊（WHO Group 1 同類）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary arterial hypertension associated with connective tissue disease",
+      "txgnn": {
+        "score": 0.9930201172828674,
+        "rank": 8211
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02885012",
+            "title": "A Safety and Clinical Efficacy Study Measuring Echocardiographic Composite Comparing Ambrisentan (Letairis®) After a Switch From Bosentan (Tracleer®) or Macintentan (Opsumit®) in Treatment of Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2016-06",
+            "completion_date": "2017-07-07",
+            "brief_summary": "The purpose of this study is to learn more about the safety and effects of switching treatments from bosentan (Tracleer) or macientan (Opsumit) to ambrisentan (Letairis) over 24 weeks in subjects with Connective Tissue Disease associated Pulmonary Arterial Hypertension (CTD-PAH).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，TERMINATED，n=3（招募嚴重不足），幾乎無有效數據。需了解終止原因（招募困難 vs. 安全性問題）。"
+            }
+          },
+          {
+            "nct_id": "NCT01042158",
+            "title": "A Clinical Trial of Ambrisentan and Tadalafil in Pulmonary Arterial Hypertension Associated With Systemic Sclerosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2010-01",
+            "completion_date": "2014-11",
+            "brief_summary": "This will be a 36-week, single group, open label study assessing the effects of Tadalafil plus Ambrisentan combination therapy in patients with pulmonary arterial hypertension associated with the scleroderma spectrum of disease (PAH-SSD). Standard outcome measures such as six-minute walk distance (6MWD), New York heart Association (NYHA) classification, and hemodynamic measurements will be assessed, as well as novel functional measures of RV-PV function including the transthoracic echocardiogram",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，COMPLETED，n=25，直接評估 Ambrisentan+Tadalafil 用於 SSc 相關 PAH，提供真實世界四期數據。"
+            }
+          },
+          {
+            "nct_id": "NCT02290613",
+            "title": "Early Treatment of Borderline Pulmonary Arterial Hypertension Associated With Systemic Sclerosis (SSc-APAH) A Randomized, Controlled, Double-blind, Parallel Group, Proof-of-concept Trial EDITA",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2014-07-01",
+            "completion_date": "2017-12-31",
+            "brief_summary": "Trial Design Patients with borderline PAH indicated by borderline mPAP values will be included in this single centre study. This clinical investigation is performed as a Proof-of-Concept (PoC) investigator initiated trial (IIT) using a prospective, randomized, double-blind, parallel group, placebo-controlled, phase IIA clinical study design. On their first visit their medical history will be obtained and physical examination will be conducted. Moreover, an electrocardiogram (ECG), laboratory tes",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2，COMPLETED，n=38，評估早期介入邊緣性 SSc-PAH，探索 Ambrisentan 在疾病早期階段的效果，具創新性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35412560",
+            "title": "Diagnosis and Treatment of Pulmonary Arterial Hypertension: A Review.",
+            "authors": [
+              "Ruopp Nicole F",
+              "Cockrill Barbara A"
+            ],
+            "journal": "JAMA",
+            "year": "2022",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a subtype of pulmonary hypertension (PH), characterized by pulmonary arterial remodeling. The prevalence of PAH is approximately 10.6 cases per 1 million adults in the US. Untreated, PAH progresses to right heart failure and death.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38378970",
+            "title": "Treatment of pulmonary arterial hypertension in patients with connective tissue diseases: a systematic review and meta-analysis.",
+            "authors": [
+              "Erdogan Mustafa",
+              "Esatoglu Sinem Nihal",
+              "Kilickiran Avci Burcak",
+              "Hatemi Gulen"
+            ],
+            "journal": "Internal and emergency medicine",
+            "year": "2024",
+            "abstract": "The evidence for the treatment of connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) mostly depends on subgroup or post hoc analysis of randomized controlled trials (RCTs). Thus, we performed a meta-analysis of RCTs that reported outcomes for CTD-PAH. PubMed and EMBASE were searched for CTD-PAH treatment. The selected outcomes were functional class (FC) change, survival rates, 6-min walk distance (6-MWD), clinical worsening (CW), N-terminal prohormone BNP (NT-proBNP),",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37765060",
+            "title": "Recent Advances in the Treatment of Pulmonary Arterial Hypertension Associated with Connective Tissue Diseases.",
+            "authors": [
+              "Smukowska-Gorynia Anna",
+              "Gościniak Weronika",
+              "Woźniak Patrycja",
+              "Iwańczyk Sylwia",
+              "Jaxa-Kwiatkowska Karolina"
+            ],
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "Pulmonary hypertension (PH) is a severe vascular complication of connective tissue diseases (CTD). Patients with CTD may develop PH belonging to diverse groups: (1) pulmonary arterial hypertension (PAH), (2) PH due to left heart disease, (3) secondary PH due to lung disease and/or hypoxia and (4) chronic thromboembolic pulmonary hypertension (CTEPH). PAH most often develops in systemic scleroderma (SSc), mostly in its limited variant. PAH-CTD is a progressive disease characterized by poor progno",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28425346",
+            "title": "Ambrisentan: a review of its use in pulmonary arterial hypertension.",
+            "authors": [
+              "Rivera-Lebron Belinda N",
+              "Risbano Michael G"
+            ],
+            "journal": "Therapeutic advances in respiratory disease",
+            "year": "2017",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a progressive disease defined by an elevation in pulmonary arterial pressure that can lead to right heart failure and death. Ambrisentan is a selective endothelin receptor antagonist approved for the treatment of idiopathic, heritable PAH and connective tissue disease-associated PAH. Ambrisentan has been shown to improve exercise capacity and hemodynamics with an acceptable side-effect profile. It has also proven to be safely used in combination with othe",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23906950",
+            "title": "Pulmonary arterial hypertension associated with connective tissue disease: meta-analysis of clinical trials.",
+            "authors": [
+              "Kuwana Masataka",
+              "Watanabe Hiroshi",
+              "Matsuoka Nobushige",
+              "Sugiyama Naonobu"
+            ],
+            "journal": "BMJ open",
+            "year": "2013",
+            "abstract": "Few studies have focused on pulmonary arterial hypertension (PAH) associated with connective tissue diseases (CTDs). The optimal treatment for CTD-PAH has yet to be established.",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22621693",
+            "title": "Treatment of pulmonary arterial hypertension in connective tissue disease.",
+            "authors": [
+              "Grünig Ekkehard"
+            ],
+            "journal": "Drugs",
+            "year": "2012",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a group of distinct disorders that includes idiopathic PAH (IPAH), familial PAH and PAH associated with other conditions (APAH) such as connective tissue disease (CTD-APAH) or congenital heart disease. PAH is characterized by increased pulmonary arterial pressure and pulmonary vascular resistance. If left untreated, PAH can lead to right heart failure and premature death. CTD-APAH represents an important clinical subgroup of APAH that has a higher risk of",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32161055",
+            "title": "Initial combination therapy of ambrisentan and tadalafil in connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) in the modified intention-to-treat population of the AMBITION study: post hoc analysis.",
+            "authors": [
+              "Kuwana Masataka",
+              "Blair Christiana",
+              "Takahashi Tomohiko",
+              "Langley Jonathan",
+              "Coghlan John G"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2020",
+            "abstract": "To evaluate initial combination therapy with ambrisentan plus tadalafil (COMB) compared with monotherapy of either agent (MONO), and the utility of baseline characteristics and risk stratification in predicting outcomes, in patients with connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) and the systemic sclerosis (SSc)-pulmonary arterial hypertension (PAH) subpopulation.",
+            "classification": {
+              "study_type": "Prospective Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27492539",
+            "title": "Ambrisentan response in connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) - A subgroup analysis of the ARIES-E clinical trial.",
+            "authors": [
+              "Fischer Aryeh",
+              "Denton Christopher P",
+              "Matucci-Cerinic Marco",
+              "Gillies Hunter",
+              "Blair Christiana"
+            ],
+            "journal": "Respiratory medicine",
+            "year": "2016",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a condition which may lead to right ventricular failure and early mortality and is an important complication in patients with connective tissue disease (CTD). Previously, the endothelin A selective receptor antagonist, ambrisentan, demonstrated efficacy and safety in treating patients with PAH due to WHO Group I etiologies. These analyses describe the 3-year efficacy and safety of ambrisentan in patients specifically with CTD associated PAH (CTD-PAH).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20160534",
+            "title": "Pulmonary arterial hypertension in connective tissue diseases.",
+            "authors": [
+              "Goldberg Avram"
+            ],
+            "journal": "Cardiology in review",
+            "year": "2010",
+            "abstract": "Pulmonary arterial hypertension (PAH) is an entity that is known to complicate connective tissue diseases (CTD). PAH in CTD is a very important diagnosis which greatly affects treatment and prognosis. The most commonly affected CTD is scleroderma, although lupus, inflammatory myopathies such as poly and dermatomyositis, and mixed CTD are also associated with PAH. The manifestations of PAH have both similarities and differences when occurring in the setting of CTD as compared with idiopathic PAH.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28039187",
+            "title": "Initial combination therapy with ambrisentan and tadalafil in connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH): subgroup analysis from the AMBITION trial.",
+            "authors": [
+              "Coghlan John Gerry",
+              "Galiè Nazzareno",
+              "Barberà Joan Albert",
+              "Frost Adaani E",
+              "Ghofrani Hossein-Ardeschir"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2017",
+            "abstract": "Patients with connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH), in particular systemic sclerosis (SSc), had an attenuated response compared with idiopathic PAH in most trials. Thus, there is uncertainty regarding the benefit of PAH-targeted therapy in some forms of CTD-PAH.",
+            "classification": {
+              "study_type": "Prospective Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21119190",
+            "title": "Early intervention in pulmonary arterial hypertension associated with systemic sclerosis: an essential component of disease management.",
+            "authors": [
+              "Hachulla E",
+              "Denton C P"
+            ],
+            "journal": "European respiratory review : an official journal of the European Respiratory Society",
+            "year": "2010",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a life-threatening complication of systemic sclerosis (SSc). However, PAH-specific treatments are available and can significantly improve survival of patients, especially those diagnosed in World Health Organization (WHO) functional class (FC) II. Registry data have shown that without screening, more than two-thirds of PAH-SSc patients are in WHO FC III or IV when diagnosed. The recognised predisposition of SSc patients to develop PAH should mean that an ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26360334",
+            "title": "Ambrisentan and Tadalafil Up-front Combination Therapy in Scleroderma-associated Pulmonary Arterial Hypertension.",
+            "authors": [
+              "Hassoun Paul M",
+              "Zamanian Roham T",
+              "Damico Rachel",
+              "Lechtzin Noah",
+              "Khair Rubina"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "2015",
+            "abstract": "Scleroderma-associated pulmonary arterial hypertension (SSc-PAH) is a rare disease characterized by a very dismal response to therapy and poor survival. We assessed the effects of up-front combination PAH therapy in patients with SSc-PAH.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32816781",
+            "title": "Correction: Initial combination therapy of ambrisentan and tadalafil in connective tissue disease-associated pulmonary arterial hypertension (CTD-PAH) in the modified intention-to-treat population of the AMBITION study: post hoc analysis.",
+            "authors": [],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24037627",
+            "title": "Pulmonary hypertension complicating connective tissue disease.",
+            "authors": [
+              "Lynch Joseph P",
+              "Belperio John A",
+              "Saggar Rajeev",
+              "Fishbein Michael C",
+              "Saggar Rajan"
+            ],
+            "journal": "Seminars in respiratory and critical care medicine",
+            "year": "2013",
+            "abstract": "Pulmonary hypertension (PH) may complicate connective tissue disease (CTD), particularly systemic sclerosis (SSc, scleroderma), and markedly increases mortality. More than 70% of cases of PH complicating CTD occur in SSc, which is the major focus of this article. Pulmonary complications (i.e., interstitial lung disease [ILD] and PH) are the leading causes of scleroderma-related deaths. \"Isolated\" PH (i.e., without ILD) complicates SSc in 7.5 to 20% of cases; secondary PH may also occur in patien",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19487219",
+            "title": "Pulmonary arterial hypertension: the most devastating vascular complication of systemic sclerosis.",
+            "authors": [
+              "McLaughlin V",
+              "Humbert M",
+              "Coghlan G",
+              "Nash P",
+              "Steen V"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2009",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a devastating vascular complication of a number of CTDs. In patients with SSc, PAH has a dramatic impact on prognosis and survival and is the single most common cause of disease-related death.Yearly echocardiographic screening for PAH is recommended in patients with SSc. If suspected, confirmation of PAH diagnosis by right heart catheterization is necessary. Treatment goals for patients with PAH associated with SSc (PAH-SSc) aim to slow disease progressio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24387049",
+            "title": "Current therapies for the treatment of systemic sclerosis-related pulmonary arterial hypertension: efficacy and safety.",
+            "authors": [
+              "Murdaca Giuseppe",
+              "Spanò Francesca",
+              "Puppo Francesco"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2014",
+            "abstract": "Systemic sclerosis (SSc) is a rare connective tissue disease characterized by chronic inflammation and fibrosis of the skin, vascular abnormalities and variable involvement of organs. Patients with limited SSc typically develop pulmonary arterial hypertension (PAH). TNF-α, VEGF, platelet-derived growth factor and endothelin-1 play a key role in the development of PAH.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29282676",
+            "title": "Surveillance on The Safety and Efficacy of Ambrisentan (Volibris Tablet 2.5 mg) in Patients with Pulmonary Arterial Hypertension in Real Clinical Practice: Post-marketing Surveillance (Interim Analysis Report).",
+            "authors": [
+              "Takahashi Tomohiko",
+              "Hayata Satoru",
+              "Kobayashi Akihiro",
+              "Onaka Yuna",
+              "Ebihara Takeshi"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2018",
+            "abstract": "Pulmonary arterial hypertension (PAH) is an intractable and rare disease and the accumulation of clinical evidence under real-world setting is needed. A post-marketing surveillance for the endothelin receptor antagonist ambrisentan (Volibris tablet) has been conducted by all-case investigation since September 2010. This paper is an interim report on the safety and efficacy of ambrisentan in 702 patients with PAH.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24787237",
+            "title": "Ambrisentan therapy in pulmonary hypertension: clinical use and tolerability in a referral centre.",
+            "authors": [
+              "Condliffe Robin",
+              "Elliot Charlie A",
+              "Hurdman Judith",
+              "Sabroe Ian",
+              "Billings Catherine"
+            ],
+            "journal": "Therapeutic advances in respiratory disease",
+            "year": "2014",
+            "abstract": "Ambrisentan is an oral selective endothelin receptor antagonist licensed for use in pulmonary arterial hypertension (PAH). There are few data on clinical use and long-term tolerability in a wider range of patients with pulmonary hypertension (PH).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27282418",
+            "title": "Ambrisentan use for pulmonary arterial hypertension in a post-authorization drug registry: The VOLibris Tracking Study.",
+            "authors": [
+              "Vachiéry Jean-Luc",
+              "Hoeper Marius M",
+              "Peacock Andrew J",
+              "Sitbon Olivier",
+              "Cheli Martino"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2017",
+            "abstract": "The VOLibris Tracking (VOLT) Study was an open-label, prospective, observational, multicenter, post-marketing registry program designed to more fully characterize the safety profile of ambrisentan for the treatment of pulmonary arterial hypertension (PAH). The key outcome was the incidence of aminotransferase elevations >3× the upper limit of normal (ULN).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "結締組織病（特別是系統性硬化症 SSc）造成血管內皮自體免疫損傷 → ET-1 大量釋放（SSc 患者血清 ET-1 顯著升高）→ ETA 受體持續活化 → 肺血管重塑。ETA 選擇性拮抗劑機轉與 CTD-PAH 病理生理直接對應，ET-1 亦參與纖維化路徑（SSc 主要病理）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary arterial hypertension associated with chronic hemolytic anemia",
+      "txgnn": {
+        "score": 0.9930201172828674,
+        "rank": 8212
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "溶血性貧血（鐮狀細胞、地中海貧血等）釋放游離血紅蛋白 → 消耗一氧化氮（NO）→ 肺血管收縮。ET-1 在此機轉中為次要路徑（主要為 NO-cGMP 路徑受損）。ETA 拮抗劑理論上可補充性干預，但缺乏任何臨床驗證，且鐮狀細胞病 PAH 有特殊血流動力學特徵（毛細血管後成分），ERA 類藥物安全性未確立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pulmonary arterial hypertension associated with HIV infection",
+      "txgnn": {
+        "score": 0.9930201172828674,
+        "rank": 8213
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00709956",
+            "title": "A Multicenter, Double-blind, Randomized, Placebo-controlled, Crossover Study to Assess the Effects of a Single Dose of Iloprost Power 15 on Exercise Capacity in Patients With Symptomatic Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2008-07",
+            "completion_date": "2009-08",
+            "brief_summary": "Patients with symptomatic idiopathic pulmonary arterial hypertension (IPAH), or familial pulmonary arterial hypertension (FPAH) or pulmonary hypertension associated with Human immunodeficiency virus (HIV) or drugs/toxins in New York Heart Association (NYHA) functional class II to IV at baseline, naive to PAH treatment or currently being treated with a stable dose of either bosentan, ambrisentan or sildenafil will be enrolled in the PROWESS 15 study. This randomized, double blind, placebo-control",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，COMPLETED，n=64，多中心雙盲隨機安慰劑對照交叉設計（最高等級設計），直接評估 Ambrisentan 用於 HIV-PAH。此為本資料集中最強單一試驗證據，升至 L1 等級之關鍵依據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24787237",
+            "title": "Ambrisentan therapy in pulmonary hypertension: clinical use and tolerability in a referral centre.",
+            "authors": [
+              "Condliffe Robin",
+              "Elliot Charlie A",
+              "Hurdman Judith",
+              "Sabroe Ian",
+              "Billings Catherine"
+            ],
+            "journal": "Therapeutic advances in respiratory disease",
+            "year": "2014",
+            "abstract": "Ambrisentan is an oral selective endothelin receptor antagonist licensed for use in pulmonary arterial hypertension (PAH). There are few data on clinical use and long-term tolerability in a wider range of patients with pulmonary hypertension (PH).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26897508",
+            "title": "[Pulmonary arterial hypertension associated with human immunodeficiency virus infection: study of 4 cases].",
+            "authors": [
+              "Pousada Guillermo",
+              "Baloira Adolfo",
+              "Castro-Añón Olalla",
+              "Valverde Diana"
+            ],
+            "journal": "Medicina clinica",
+            "year": "2016",
+            "abstract": "Pulmonary arterial hypertension (PAH) is a rare and progressive disease that can be inherited as autosomal dominant form. The BMPR2, ACVRL1 and ENG genes are main genes involved in the pathology. PAH associated to human immunodeficiency virus (HIV) is another rare disease with a low incidence, prevalence and survival. The main objective of this analysis was to study the clinical and molecular characteristics of PAH associated to HIV patients.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25560124",
+            "title": "Human immunodeficiency virus-associated pulmonary arterial hypertension diagnosed postpartum.",
+            "authors": [
+              "Newman Tondra",
+              "Cafardi John M",
+              "Warshak Carri R"
+            ],
+            "journal": "Obstetrics and gynecology",
+            "year": "2015",
+            "abstract": "Human immunodeficiency virus (HIV) is a significant risk factor for pulmonary arterial hypertension. There is a significant added risk for maternal mortality when superimposed on the physiologic changes of pregnancy.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31090367",
+            "title": "Pulmonary arterial hypertension in Russia: six-year observation analysis of the National Registry.",
+            "authors": [
+              "Chazova I E",
+              "Arkhipova O A",
+              "Martynyuk T V"
+            ],
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2019",
+            "abstract": "Assess the prevalence, clinical course, current therapy, and mortality in patients with pulmonary arterial hypertension (PAH) in the National Registry.",
+            "classification": {
+              "study_type": "Registry Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HIV 感染 → 直接損傷肺血管內皮（gp120、Tat 蛋白毒性）→ ET-1 過度表現 + NO 生成減少 → 肺血管收縮與重塑。HIV-PAH 與 idiopathic PAH 組織病理高度相似（叢狀病灶），ETA 拮抗劑機轉完全適用。需注意抗 HIV 藥物（尤其蛋白酶抑制劑）與 Ambrisentan 的藥物交互作用（CYP3A4/P-gp）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pulmonary arterial hypertension associated with schistosomiasis",
+      "txgnn": {
+        "score": 0.9930201172828674,
+        "rank": 8214
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血吸蟲卵沉積肺血管 → 肉芽腫性炎症 → 血管重塑。ET-1 在此炎症驅動的血管病理中可能參與，但驅蟲治療為首要介入。ERA 類藥物於此亞型的機轉及安全性（寄生蟲病合併肝硬化後門脈高壓常見）完全未研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn": {
+        "score": 0.9919153451919556,
+        "rank": 9093
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22057194",
+            "title": "Periodontitis and diabetes: a two-way relationship.",
+            "authors": [
+              "Preshaw P M",
+              "Alba A L",
+              "Herrera D",
+              "Jepsen S",
+              "Konstantinidis A"
+            ],
+            "journal": "Diabetologia",
+            "year": "2012",
+            "abstract": "Periodontitis is a common chronic inflammatory disease characterised by destruction of the supporting structures of the teeth (the periodontal ligament and alveolar bone). It is highly prevalent (severe periodontitis affects 10-15% of adults) and has multiple negative impacts on quality of life. Epidemiological data confirm that diabetes is a major risk factor for periodontitis; susceptibility to periodontitis is increased by approximately threefold in people with diabetes. There is a clear rela",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35688447",
+            "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+            "authors": [
+              "Herrera David",
+              "Sanz Mariano",
+              "Kebschull Moritz",
+              "Jepsen Søren",
+              "Sculean Anton"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2022",
+            "abstract": "The recently published clinical practice guideline (CPG) for the treatment of periodontitis in stages I-III provided evidence-based recommendations for the treatment of periodontitis patients, defined according to the 2018 classification. Stage IV periodontitis shares the severity and complexity characteristics of stage III periodontitis, but includes the anatomical and functional sequelae of tooth and periodontal attachment loss (tooth flaring and drifting, bite collapse, etc.), which require a",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9495612",
+            "title": "Microbial complexes in subgingival plaque.",
+            "authors": [
+              "Socransky S S",
+              "Haffajee A D",
+              "Cugini M A",
+              "Smith C",
+              "Kent R L"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "1998",
+            "abstract": "It has been recognized for some time that bacterial species exist in complexes in subgingival plaque. The purpose of the present investigation was to attempt to define such communities using data from large numbers of plaque samples and different clustering and ordination techniques. Subgingival plaque samples were taken from the mesial aspect of each tooth in 185 subjects (mean age 51 +/- 16 years) with (n = 160) or without (n = 25) periodontitis. The presence and levels of 40 subgingival taxa ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37435999",
+            "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+            "authors": [
+              "Jepsen Karin",
+              "Sculean Anton",
+              "Jepsen Søren"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2023",
+            "abstract": "Regenerative periodontal surgical procedures are an important component in the treatment of advanced periodontitis. They aim to improve the long-term prognosis of teeth that are periodontally compromised by the presence of intrabony and/or furcation defects, resulting biologically in formation of root cementum, periodontal ligament, and alveolar bone and evidenced clinically by reduction of deep pockets to maintainable probing depths and/or improvements of vertical and horizontal furcation depth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35420698",
+            "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+            "authors": [
+              "Simpson Terry C",
+              "Clarkson Janet E",
+              "Worthington Helen V",
+              "MacDonald Laura",
+              "Weldon Jo C"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Glycaemic control is a key component in diabetes mellitus (diabetes) management. Periodontitis is the inflammation and destruction of the underlying supporting tissues of the teeth. Some studies have suggested a bidirectional relationship between glycaemic control and periodontitis.  Treatment for periodontitis involves subgingival instrumentation, which is the professional removal of plaque, calculus, and debris from below the gumline using hand or ultrasonic instruments. This is known variousl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36883660",
+            "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+            "authors": [
+              "Wielento A",
+              "Lagosz-Cwik K B",
+              "Potempa J",
+              "Grabiec A M"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2023",
+            "abstract": "Gingival fibroblasts (GFs) are essential components of the periodontium, which are responsible for the maintenance of tissue structure and integrity. However, the physiological role of GFs is not restricted to the production and remodeling of the extracellular matrix. GFs also act as sentinel cells that modulate the immune response to oral pathogens invading the gingival tissue. As an important \"nonclassical\" component of the innate immune system, GFs respond to bacteria and damage-related signa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37452425",
+            "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes Mediate Endoplasmic Reticulum Stress and Immune Reprogramming for Periodontitis Therapy.",
+            "authors": [
+              "Cui Ya",
+              "Hong Shebin",
+              "Xia Yunhui",
+              "Li Xiaojing",
+              "He Xiaoya"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Periodontitis is a chronic infectious disease caused by bacterial irritation. As an essential component of the host immunity, macrophages are highly plastic and play a crucial role in inflammatory response. An appropriate and timely transition from proinflammatory (M1) to anti-inflammatory (M2) macrophages is indispensable for treating periodontitis. As M2 macrophage-derived exosomes (M2-exos) can actively target inflammatory sites and modulate immune microenvironments, M2-exos can effectively t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29193334",
+            "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+            "authors": [
+              "Ivanovski Saso",
+              "Lee Ryan"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "abstract": "The integrity of the peri-implant soft-tissue seal is crucial for maintaining peri-implant tissue health. Whilst the transmucosal component of the restored implant shares some common features with teeth, namely the presence of a junctional epithelium and a connective tissue component, there are some important differences. A key difference is the nature of the relationship of the connective tissue with the implant surface, whereby there is 'adaptation' of collagen fibers in a parallel orientation",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38907216",
+            "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+            "authors": [
+              "Peng Shumin",
+              "Fu Haojie",
+              "Li Rui",
+              "Li Hui",
+              "Wang Shuyuan"
+            ],
+            "journal": "Journal of nanobiotechnology",
+            "year": "2024",
+            "abstract": "Periodontitis is a chronic inflammation caused by a bacterial infection and is intimately associated with an overactive immune response. Biomaterials are being utilized more frequently in periodontal therapy due to their designability and unique drug delivery system. However, local and systemic immune response reactions driven by the implantation of biomaterials could result in inflammation, tissue damage, and fibrosis, which could end up with the failure of the implantation. Therefore, immunolo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38362600",
+            "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+            "authors": [
+              "Baima G",
+              "Ferrocino I",
+              "Del Lupo V",
+              "Colonna E",
+              "Thumbigere-Math V"
+            ],
+            "journal": "Journal of dental research",
+            "year": "2024",
+            "abstract": "Mounting evidence indicates that periodontitis-related oral bacteria may contribute to gut microbial dysbiosis. This clinical study aimed to explore the oral-gut microbial signatures associated with periodontitis and to longitudinally evaluate the effect of periodontal treatment on the oral and gut microbial composition. Stool and saliva samples from generalized stage III/IV periodontitis patients (n = 47) were collected and analyzed by 16S ribosomal RNA gene amplicon sequencing, before and 3 mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7782979",
+            "title": "The modified papilla preservation technique. A new surgical approach for interproximal regenerative procedures.",
+            "authors": [
+              "Cortellini P",
+              "Prato G P",
+              "Tonetti M S"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "1995",
+            "abstract": "A modification of the papilla preservation technique has been applied to achieve primary closure of the interproximal tissue over barrier membranes placed coronal to the alveolar crest. Fifteen patients with deep intrabony interproximal defects were treated. Defects had a probing attachment level loss of 9.9 +/- 3.2 mm and a recession of the gingival margin of 1.7 +/- 1.6 mm. The depth of the intrabony component was 5.5 +/- 2.9 mm; while the suprabony component was 5.9 +/- 2.0 mm. Titanium-reinf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29194794",
+            "title": "The periodontal pocket.",
+            "authors": [
+              "Donos Nikolaos"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2018",
+            "abstract": "Periodontal disease is synonymous with the presence of periodontal pockets, and very often the clinical success of periodontal therapy is based on periodontal pocket depth reduction. Therefore, in the fields of periodontology and implant dentistry, significant research effort has been placed on the etiopathogenesis, diagnosis and treatment of periodontal/peri-implant disease and as a consequence on pocket pathology. In this volume of Periodontology 2000, the in-depth reviews include topics rangi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29291254",
+            "title": "Supportive periodontal therapy (SPT) for maintaining the dentition in adults treated for periodontitis.",
+            "authors": [
+              "Manresa Carolina",
+              "Sanz-Miralles Elena C",
+              "Twigg Joshua",
+              "Bravo Manuel"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "Periodontitis is a bacterially-induced, chronic inflammatory disease that destroys the connective tissues and bone that support teeth. Active periodontal treatment aims to reduce the inflammatory response, primarily through eradication of bacterial deposits. Following completion of treatment and arrest of inflammation, supportive periodontal therapy (SPT) is employed to reduce the probability of re-infection and progression of the disease; to maintain teeth without pain, excessive mobility or pe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12010523",
+            "title": "Clinical significance of non-surgical periodontal therapy: an evidence-based perspective of scaling and root planing.",
+            "authors": [
+              "Cobb Charles M"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2002",
+            "abstract": "Analysis of Egyptian hieroglyphics and medical papyri indicate that non-surgical periodontal treatment was common 3000-4000 years ago. Even today, scaling and root planing (SRP) remains an essential part of successful periodontal therapy. The collective evidence from numerous clinical trials reveals a consistency of clinical response in the treatment of chronic periodontitis by SRP using manual, sonic, or ultrasonic instrumentation. Thus, SRP remains the 'gold standard' to which more recently de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18673013",
+            "title": "Rethinking periodontal inflammation.",
+            "authors": [
+              "Offenbacher Steven",
+              "Barros Silvana P",
+              "Beck James D"
+            ],
+            "journal": "Journal of periodontology",
+            "year": "2008",
+            "abstract": "Clinical signs and symptoms, as well as medical and dental history, are all considered in the clinical determination of gingival inflammation and periodontal disease severity. However, the \"biologic systems model\" highlights that the clinical presentation of periodontal disease is closely tied to the underlying biologic phenotype. We propose that the determination and integration of subject-level factors, microbial composition, systemic immune response, and gingival tissue inflammatory mediator ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20599785",
+            "title": "Complement and periodontitis.",
+            "authors": [
+              "Hajishengallis George"
+            ],
+            "journal": "Biochemical pharmacology",
+            "year": "2010",
+            "abstract": "Although the complement system is centrally involved in host defense, its overactivation or deregulation (e.g., due to inherent host genetic defects or due to pathogen subversion) may excessively amplify inflammation and contribute to immunopathology. Periodontitis is an oral infection-driven chronic inflammatory disease which exerts a systemic impact on health. This paper reviews evidence linking complement to periodontal inflammation and pathogenesis. Clinical and histological observations sho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17243998",
+            "title": "A minimally invasive surgical technique with an enamel matrix derivative in the regenerative treatment of intra-bony defects: a novel approach to limit morbidity.",
+            "authors": [
+              "Cortellini Pierpaolo",
+              "Tonetti Maurizio S"
+            ],
+            "journal": "Journal of clinical periodontology",
+            "year": "2007",
+            "abstract": "This study was undertaken to describe a new surgical approach (minimally invasive surgical technique, MIST) and to evaluate preliminarily its clinical performance and patient perception associated with the application of enamel matrix derivative (EMD) in the treatment of isolated deep intra-bony defects.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11276517",
+            "title": "Osseous resective surgery.",
+            "authors": [
+              "Carnevale G",
+              "Kaldahl W B"
+            ],
+            "journal": "Periodontology 2000",
+            "year": "2000",
+            "abstract": "Osseous resective surgery necessitates following certain guidelines for proper recontouring of the alveolar bone and proper management and positioning of the gingival tissues. The results from osseous resective surgery are technique sensitive. It has limited use in treating cases with very deep intrabony or hemiseptal defects, which should be treated with a different surgical approach. If osseous resective surgery is used in advanced lesions, a compromise in the amount of probing depth reduction",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34269040",
+            "title": "The apically incised coronally advanced surgical technique (AICAST) for periodontal regeneration in isolated defects: a case series.",
+            "authors": [
+              "Calzavara Dino",
+              "Morante Segio",
+              "Sanz Javier",
+              "Noguerol Fernando",
+              "Gonzalez Jerian"
+            ],
+            "journal": "Quintessence international (Berlin, Germany : 1985)",
+            "year": "2021",
+            "abstract": "The aim of this retrospective case series was to report the performance up to 5 years of an innovative surgical design (the apically incised coronally advanced surgical technique [AICAST]) for the regenerative treatment of one- or two-walled intrabony periodontal lesions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3533789",
+            "title": "Juvenile periodontitis.",
+            "authors": [
+              "Genco R J",
+              "Christersson L A",
+              "Zambon J J"
+            ],
+            "journal": "International dental journal",
+            "year": "1986",
+            "abstract": "Juvenile periodontitis occurs in children and young adults and can be classified into: periodontitis which occurs in otherwise healthy individuals, and periodontitis which occurs in juveniles with systemic disease. The periodontitis which occurs in otherwise healthy individuals consists of two major forms: juvenile periodontitis, also called periodontosis or localized juvenile periodontitis (LJP), and generalized juvenile periodontitis which includes early onset adult periodontitis, recurrent ne",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無合理機轉連結。文獻中的 20 篇完全為牙周病一般文獻（微生物複合體、糖尿病-牙周雙向關係、手術治療等），與 Ambrisentan 或內皮素路徑無任何關聯。此高 TxGNN 分數可能為知識圖譜中牙齦相關血管炎症節點的誤導性鄰近效應。ET-1 雖在牙齦纖維母細胞中有少量表現，但無臨床意義支持 ERA 用於牙周疾病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.9915465712547302,
+        "rank": 9373
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭皮單純少毛症為遺傳性毛囊異常（通常涉及 LPAR6、LIPH 基因突變影響脂質信號路徑）。ETA 受體在毛囊週期中的角色極為有限（ETB 受體在黑色素細胞/毛囊幹細胞中更具相關性）。Ambrisentan 選擇性阻斷 ETA，無合理機轉支持其影響頭髮生長。注意：ERA 類藥物副作用可能包含周圍水腫，但無毛髮相關效應記錄。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn": {
+        "score": 0.9913964867591858,
+        "rank": 9490
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多毛症（Hypertrichosis）為毛髮過度生長，病因複雜（先天性、藥物誘發、腫瘤相關等）。雖然某些血管藥物（如 Minoxidil）有促毛髮生長副作用，但其機轉為 KATP 通道，與 ETA 拮抗完全不同。Ambrisentan 無已知促毛髮生長或抑制毛髮生長的臨床或前臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn": {
+        "score": 0.9912079572677612,
+        "rank": 9642
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dandy-Walker 畸形為胚胎發育期後顱窩（小腦蚓部）發育異常，與遺傳因素（ZIC1, ZIC4, FOXC1 等）及早期神經管發育相關。ET-1 在胚胎血管發育中有一定角色，但 ETA 拮抗劑用於已發生的結構性腦畸形無任何合理治療機轉，亦無 ERA 穿越血腦屏障治療腦結構病變的依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arteriovenous malformation (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "result_status": "success",
+      "result_count": 17,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with HIV infection"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "malformation syndrome with odontal and/or periodontal component"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Ambrisentan",
+        "disease": "syndrome with a Dandy-Walker malformation as major feature"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

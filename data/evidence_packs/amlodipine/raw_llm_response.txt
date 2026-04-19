@@ -1,0 +1,307 @@
+## Amlodipine 藥物再利用證據分析
+
+以下為針對 10 個預測適應症的系統性證據評估：
+
+---
+
+```json
+{
+  "drug": "Amlodipine",
+  "drugbank_id": "DB00381",
+  "drug_class": "Dihydropyridine Calcium Channel Blocker (L-type CCB)",
+  "analysis_date": "2026-04-05",
+  "data_quality_notes": [
+    "original_indications 欄位為空，market_status 標記為「未上市」，可能為特定市場資料庫缺漏，非全球狀態",
+    "original_moa 標記為 [Data Gap]，實際機轉為阻斷 L 型電壓閘控鈣離子通道 → 血管平滑肌舒張 → 降血壓/減少心肌耗氧",
+    "pulmonary hypertension 類適應症的 20 篇文獻均為「缺氧生理/病理」主題，無一涉及 Amlodipine 療效，為文獻匹配假陽性"
+  ],
+  "indications": [
+    {
+      "disease_name": "brain stem infarction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Amlodipine 的降血壓機轉理論上可減少腦幹穿通動脈缺血風險，但腦幹梗塞多由椎基底動脈粥樣硬化或心臟栓塞引起，CCB 的保護效果尚未於此特定解剖部位被臨床驗證。目前僅有 TxGNN 模型預測分數（0.9994），無任何臨床或前臨床支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全警示：WHO Group 3 肺動脈高壓（肺病/缺氧型）中 CCB 類藥物屬相對禁忌。Amlodipine 引起之體循環血管舒張可加重通氣-灌流不匹配，惡化低血氧症。現有 20 篇文獻均為缺氧生理/病理通用機轉研究（腦老化、免疫調控、糖解代謝等），無任何文獻測試 Amlodipine 於此適應症，屬文獻匹配假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "33862277", "study_type": "Review", "tier": "3", "note": "缺氧與腦老化神經退化，與 Amlodipine/PH 不相關"},
+        {"pmid": "39841808", "study_type": "Review", "tier": "3", "note": "缺氧作為治療媒介概念，與 Amlodipine 不相關"},
+        {"pmid": "28972206", "study_type": "Review", "tier": "3", "note": "缺氧調控免疫/炎症，與 Amlodipine 不相關"},
+        {"pmid": "37328448", "study_type": "Basic Science", "tier": "3", "note": "胃癌 HIF-1α 糖解研究，完全不相關"},
+        {"pmid": "34618295", "study_type": "Review", "tier": "3", "note": "缺氧致認知損傷機轉，與 Amlodipine 不相關"},
+        {"pmid": "21328446", "study_type": "Review", "tier": "3", "note": "缺氧生物控制機轉，與 Amlodipine 不相關"},
+        {"pmid": "8817697", "study_type": "Review", "tier": "3", "note": "缺氧與腦部發育，與 Amlodipine 不相關"},
+        {"pmid": "31706510", "study_type": "Review", "tier": "3", "note": "去泛素化酶/缺氧/癌症，完全不相關"},
+        {"pmid": "34535359", "study_type": "Review", "tier": "3", "note": "缺氧治療修飾策略，與 Amlodipine 不相關"},
+        {"pmid": "11172576", "study_type": "Review", "tier": "3", "note": "低血氧病理機轉，與 Amlodipine 不相關"}
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全警示：WHO Group 5（多因素/不明機制）肺動脈高壓缺乏 CCB 用藥實證指引，且 Amlodipine 可能因體循環擴張引發安全問題。無臨床試驗或文獻支持。與 Group 3 PH 同樣建議不予追蹤此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Amlodipine 透過阻斷 L 型鈣離子通道使血管平滑肌舒張，可有效控制全身性高血壓。惡性腎血管性高血壓病理機轉為腎動脈狹窄 → RAAS 過度活化 → 急速惡性高血壓。雖 RAAS 阻斷劑（ACEi/ARB）為首選，但 CCB 可作為輔助降壓劑，尤其在雙側腎動脈狹窄時 CCB 更具安全優勢。2 篇兒科個案報告間接支持 Amlodipine 用於此類高血壓急症，但缺乏成人系統性研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16467664",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "結節性硬化症合併重大血管異常之兒童嚴重高血壓處置，提及 Amlodipine 作為降壓方案之一"
+        },
+        {
+          "pmid": "15113447",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "18 個月幼兒低鈉血症高血壓症候群以惡性高血壓表現，記錄 Amlodipine 治療使用"
+        }
+      ]
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性高血壓腎臟病理（纖維素樣壞死、蔥皮樣動脈炎）理論上可藉 Amlodipine 降壓而部分緩解，但 RAAS 阻斷劑具更直接的腎臟保護機轉（減少出球小動脈阻力、降低腎小球內壓）。無任何臨床試驗或文獻直接測試此適應症。與 malignant renovascular hypertension 相比，此適應症的間接個案支持亦付之闕如。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cerebral artery occlusion",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Amlodipine 具多重神經保護機轉：① 阻斷鈣離子超載 → 減少缺血性神經元凋亡；② 脂溶性結構賦予抗氧化能力 → 減少活性氧物種（ROS）損傷；③ 與 atorvastatin 合用呈現協同神經保護效果（多篇動物研究一致確認）。5 篇前臨床文獻（嚙齒類腦中風模型）直接驗證 Amlodipine 對腦缺血的保護效果，但目前無針對腦動脈阻塞的獨立人體臨床試驗。現有 5 個試驗均為血壓控制或頸動脈手術相關研究，非直接測試 Amlodipine 的神經保護效果。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02850081",
+          "relevance_grade": "C",
+          "reasoning": "Statin 神經保護 + 頸動脈內膜切除術 Phase 3 已完成試驗（n=31），主角為 statin，非 Amlodipine；規模過小，不適用"
+        },
+        {
+          "nct_id": "NCT03015311",
+          "relevance_grade": "B",
+          "reasoning": "老年高血壓患者收縮壓介入策略（n=8000），血壓控制試驗可能含 Amlodipine 使用，但狀態不明（UNKNOWN）；為間接相關"
+        },
+        {
+          "nct_id": "NCT03785067",
+          "relevance_grade": "C",
+          "reasoning": "TRIDENT 認知子研究 Phase 3（TERMINATED, n=1），已終止且樣本量僅 1，無參考價值"
+        },
+        {
+          "nct_id": "NCT03783754",
+          "relevance_grade": "C",
+          "reasoning": "TRIDENT MRI 子研究（TERMINATED, n=4），已終止且樣本量極小，無參考價值"
+        },
+        {
+          "nct_id": "NCT00805311",
+          "relevance_grade": "C",
+          "reasoning": "頸動脈內膜切除術 vs 最佳藥物治療（PHASE4, TERMINATED, n=400），手術比較試驗，藥物控制臂未特定為 Amlodipine"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "21538457",
+          "study_type": "Animal Study (In Vivo)",
+          "tier": "3",
+          "note": "Amlodipine + atorvastatin 透過抗凋亡/抗自噬路徑保護缺血神經元，動物腦中風模型"
+        },
+        {
+          "pmid": "20971084",
+          "study_type": "Animal Study (In Vivo)",
+          "tier": "3",
+          "note": "Amlodipine + atorvastatin 在 Zucker 大鼠腦中風模型中的協同神經損傷保護效果"
+        },
+        {
+          "pmid": "17904110",
+          "study_type": "Animal Study (In Vivo)",
+          "tier": "3",
+          "note": "具抗氧化特性之 CCB（含 Amlodipine）在暫時性腦缺血後的神經保護，動物模型"
+        },
+        {
+          "pmid": "17070425",
+          "study_type": "Animal Study (In Vivo)",
+          "tier": "3",
+          "note": "Amlodipine 顯著縮小 ApoE 缺陷小鼠腦中風病灶體積，直接動物証據"
+        },
+        {
+          "pmid": "21276424",
+          "study_type": "Animal Study (In Vivo)",
+          "tier": "3",
+          "note": "Amlodipine + atorvastatin 聯合用藥對缺血性腦中風損傷的保護效果（動物模型）"
+        }
+      ]
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock syndrome 為極罕見遺傳症候群（SETBP1 基因突變），主要臨床表現為智能障礙與語言遲緩，與鈣離子通道調控無已知病理關聯。TxGNN 預測分數高（0.9988）可能源於知識圖譜中神經系統疾病節點的泛化連結，屬模型假陽性。無任何臨床或前臨床證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "MRI defined brain infarct",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "MRI 定義腦梗塞（包含無症狀腦梗塞/白質病變）與長期高血壓密切相關，Amlodipine 的降壓機轉理論上可減少腦小血管病變累積。NCT03015311 為老年高血壓患者 BP 介入研究，樣本量龐大（n=8000），但試驗狀態不明（UNKNOWN）且非 Amlodipine 特定研究；無直接文獻支持，證據薄弱，建議暫不優先追蹤。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03015311",
+          "relevance_grade": "B",
+          "reasoning": "老年高血壓患者收縮壓介入策略（n=8000, NA phase, UNKNOWN status），可能以 MRI 腦梗塞為次要終點，但試驗狀態不明，且非 Amlodipine 直接研究"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ABri amyloidosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ABri 澱粉樣變性病為極罕見遺傳性腦病（ITM2B 基因突變），以血管壁 BRI2 蛋白切割片段沉積為特徵，與鈣離子通道無已知病理關聯。目前無合理治療機轉假說，亦無任何臨床或前臨床證據。高 TxGNN 分數（0.998）可能為知識圖譜腦血管病變節點的泛化連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "intracerebral hemorrhage",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Amlodipine 在腦出血（ICH）中的核心角色為次級預防中的血壓管理。病理機轉：① 強化血壓控制（SBP < 130 mmHg）顯著降低復發 ICH 風險；② TRIDENT 三聯降壓療法（Triple Therapy）直接以含 Amlodipine 之 CCB 方案預防復發 ICH；③ CASE-J 試驗直接比較 Amlodipine vs Candesartan 對日本高血壓患者心腦血管事件影響。⚠️ 重要限制：① Amlodipine 不建議用於急性期 ICH 降壓（急性期偏好靜脈注射降壓劑）；② PMID 19299323 記錄 Amlodipine 誘發血管性水腫不良反應，需列入安全監控。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00134160",
+          "relevance_grade": "B",
+          "reasoning": "CASE-J 子研究：高劑量 ARB 單療法 vs 聯合療法（含 Amlodipine 對照組），Phase 4 已完成（n=1000），心腦血管事件為主要終點，直接涉及 Amlodipine 對照臂"
+        },
+        {
+          "nct_id": "NCT02699645",
+          "relevance_grade": "A",
+          "reasoning": "TRIDENT Phase 3 已完成主試驗（n=1671），三聯降壓療法預防復發腦出血，為此適應症最直接的 Phase 3 RCT 證據；設計文件（PMID 34994269）確認試驗框架"
+        },
+        {
+          "nct_id": "NCT03785067",
+          "relevance_grade": "B",
+          "reasoning": "TRIDENT 認知子研究（PHASE3, TERMINATED, n=1），已因樣本量不足終止，提供背景情境但無實質數據"
+        },
+        {
+          "nct_id": "NCT03783754",
+          "relevance_grade": "B",
+          "reasoning": "TRIDENT MRI 子研究（TERMINATED, n=4），已終止，與主試驗配套設計，提供影像生物標記背景"
+        },
+        {
+          "nct_id": "NCT03264352",
+          "relevance_grade": "C",
+          "reasoning": "第 2 型糖尿病高正常血壓介入（PHASE4, RECRUITING, n=11414），一般心血管預防研究，非 ICH 特異性"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "19299323",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 安全警示：Amlodipine 誘發血管性水腫個案報告（2009），需納入安全監控計畫"
+        },
+        {
+          "pmid": "34994269",
+          "study_type": "RCT Protocol / Design Paper",
+          "tier": "1",
+          "note": "TRIDENT 試驗設計與基準特徵（2022），Phase 3 三聯降壓療法預防復發 ICH，為核心支持文獻"
+        },
+        {
+          "pmid": "37489780",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Tizanidine 合併 Amlodipine 誘發低血壓個案，藥物交互作用安全參考"
+        },
+        {
+          "pmid": "23053838",
+          "study_type": "Comparative Observational Study",
+          "tier": "2",
+          "note": "急性 ICH 中 β 阻斷劑（atenolol）vs 其他降壓劑（含 Amlodipine）比較，直接相關臨床數據"
+        },
+        {
+          "pmid": "3154329",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "CCB 類藥物（含 Amlodipine 前身藥物）於高血壓及心律不整的療效比較（1988），歷史機轉回顧"
+        },
+        {
+          "pmid": "14717341",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "CASE-J 試驗：Candesartan vs Amlodipine 對日本高血壓患者心腦血管事件影響（2003），直接比較 Amlodipine 療效之 Phase 4 RCT"
+        },
+        {
+          "pmid": "26698202",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "減重手術後 PRES（後可逆性腦病症候群）個案，與 ICH 鑑別診斷相關，間接參考"
+        },
+        {
+          "pmid": "17077518",
+          "study_type": "Clinical/Pharmacological Study",
+          "tier": "2",
+          "note": "Benidipine（同類 dihydropyridine CCB）對腦血流影響研究，間接支持 CCB 類藥物腦血管保護效果"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| brain stem infarction | 0.9994 | **L5** | S0 | ⛔ Hold |
+| PH owing to lung disease/hypoxia | 0.9991 | **L5** ⚠️ | S0 | ⛔ Hold（安全疑慮）|
+| PH with unclear multifactorial mechanism | 0.9991 | **L5** ⚠️ | S0 | ⛔ Hold（安全疑慮）|
+| malignant renovascular hypertension | 0.9990 | **L4** | S1 | 🔬 Research Question |
+| malignant hypertensive renal disease | 0.9990 | **L5** | S0 | ⛔ Hold |
+| cerebral artery occlusion | 0.9989 | **L3** | S2 | 🔬 Research Question |
+| Braddock syndrome | 0.9988 | **L5** | S0 | ⛔ Hold |
+| MRI defined brain infarct | 0.9986 | **L4** | S0 | ⛔ Hold |
+| ABri amyloidosis | 0.9984 | **L5** | S0 | ⛔ Hold |
+| **intracerebral hemorrhage** | 0.9979 | **L2** | S2 | ✅ Proceed with Guardrails |
+
+---
+
+## 🔑 關鍵發現
+
+### 優先推進：腦出血（ICH）次級預防
+- **TRIDENT Phase 3 試驗**（NCT02699645, n=1,671, completed）為最強臨床支持
+- **CASE-J RCT**（PMID 14717341）直接比較 Amlodipine 療效
+- 建議優先追蹤 TRIDENT 最終結果，規劃以「血壓管理 + CCB 方案」為框架的 Phase 2b/3 試驗
+
+### 需進一步研究：腦動脈阻塞（Stroke）
+- 5 篇動物研究一致顯示 Amlodipine 具直接神經保護效果（非僅降壓）
+- **缺口**：缺乏人體 Phase 1/2 試驗；建議設計以神經保護機轉為主要終點的早期臨床試驗
+
+### 安全警示：肺動脈高壓類適應症
+- CCB 在 WHO Group 2、3、5 PH 中屬禁忌或相對禁忌，應從再利用管線中移除
+- 文獻搜尋假陽性（20篇缺氧文獻均非 Amlodipine 療效研究），建議檢視搜尋策略

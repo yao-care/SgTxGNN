@@ -1,0 +1,283 @@
+## 藥物再利用證據分析：Alfuzosin (DB00346)
+
+### 藥物背景評估
+
+**Alfuzosin** 為選擇性 α1-腎上腺素受體拮抗劑（alpha-1 blocker），原適應症為良性前列腺增生（BPH）。其 MoA 為放鬆前列腺與膀胱頸平滑肌、同時具有全身性血管舒張作用。本批次分析資料顯示「市場未上市」且 DDI 數為 0，代表本地資料庫資訊不完整，需以全球文獻補充評估。
+
+---
+
+```json
+{
+  "drug": "Alfuzosin",
+  "drugbank_id": "DB00346",
+  "known_moa": "選擇性 α1-腎上腺素受體拮抗劑，放鬆平滑肌、血管舒張",
+  "analysis_date": "2026-04-05",
+  "indications": [
+    {
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "txgnn_score": 0.9999943,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "α1 受體存在於毛囊豎毛肌（arrector pili），理論上阻斷 α1 訊號可能影響毛囊週期，但 Ambras 型多毛症為 TRPS1 基因突變所致的遺傳性疾病，與腎上腺素訊號通路無直接因果關係。TxGNN 高分可能源自知識圖譜中「毛髮疾病→腎上腺素相關節點」的間接路徑，屬模型雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "罕見單基因遺傳病，藥物干預不改變基因缺陷",
+        "Alfuzosin 已知副作用包含多毛症（paradoxical effect），方向相反"
+      ]
+    },
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn_score": 0.9999933,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與上述相同。值得注意的是，Alfuzosin 臨床使用中有多毛症（hypertrichosis）被報告為不良反應，提示 α1 阻斷可能促進毛髮生長而非抑制，用於治療多毛症的機轉邏輯矛盾。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "機轉方向性矛盾：alpha blocker 副作用本身即包含 hypertrichosis",
+        "TxGNN 可能混淆「相關性」與「治療性」連結"
+      ]
+    },
+    {
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn_score": 0.9999895,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "α1 受體於牙齦組織及牙周韌帶有所表達，α1 阻斷劑理論上可能影響牙齦微循環與免疫調節。然而本適應症為含牙周成分的先天畸形症候群，非單純牙周炎。文獻20篇均為一般牙周病治療研究，完全不涉及 Alfuzosin，無法作為支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22057194",
+          "title": "Periodontitis and diabetes: a two-way relationship.",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—探討牙周病與糖尿病雙向關係，未提及 alpha blocker"
+        },
+        {
+          "pmid": "35688447",
+          "title": "Treatment of stage IV periodontitis: The EFP S3 level clinical practice guideline.",
+          "year": "2022",
+          "study_type": "Clinical Practice Guideline",
+          "tier": 2,
+          "relevance_to_alfuzosin": "無關—EFP 官方治療指引，標準療法為機械清創+抗生素，不含 alpha blocker"
+        },
+        {
+          "pmid": "9495612",
+          "title": "Microbial complexes in subgingival plaque.",
+          "year": "1998",
+          "study_type": "Cross-sectional/Microbiome",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—牙周致病菌叢分類研究"
+        },
+        {
+          "pmid": "37435999",
+          "title": "Complications and treatment errors related to regenerative periodontal surgery.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—牙周再生手術併發症分析"
+        },
+        {
+          "pmid": "35420698",
+          "title": "Treatment of periodontitis for glycaemic control in people with diabetes mellitus.",
+          "year": "2022",
+          "study_type": "Systematic Review/Meta-analysis",
+          "tier": 1,
+          "relevance_to_alfuzosin": "無關—牙周治療對血糖控制的 meta-analysis，Alfuzosin 未被提及"
+        },
+        {
+          "pmid": "36883660",
+          "title": "The Role of Gingival Fibroblasts in the Pathogenesis of Periodontitis.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—牙齦纖維母細胞病理機轉"
+        },
+        {
+          "pmid": "37452425",
+          "title": "Melatonin Engineering M2 Macrophage-Derived Exosomes...",
+          "year": "2023",
+          "study_type": "Basic Science",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—melatonin exosome 治療，與 Alfuzosin 無關"
+        },
+        {
+          "pmid": "29193334",
+          "title": "Comparison of peri-implant and periodontal marginal soft tissues in health and disease.",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—植體周組織比較研究"
+        },
+        {
+          "pmid": "38907216",
+          "title": "A new direction in periodontitis treatment: biomaterial-mediated macrophage immunotherapy.",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—生物材料免疫治療，與 alpha blocker 無關"
+        },
+        {
+          "pmid": "38362600",
+          "title": "Effect of Periodontitis and Periodontal Therapy on Oral and Gut Microbiota.",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_alfuzosin": "無關—口腔/腸道微生物群研究"
+        }
+      ],
+      "note": "20篇文獻均為牙周病領域一般研究，0篇提及 Alfuzosin 或 alpha blocker，文獻匹配為 TxGNN 系統的疾病節點關聯，非藥物特異性證據，評級降至 L5"
+    },
+    {
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn_score": 0.9999887,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dandy-Walker 症候群為第四腦室及小腦蚓部先天發育畸形，由多種基因突變引起（如 ZIC1、ZIC4）。α1 受體阻斷與神經管發育或後顱窩結構異常無已知機轉連結。此為先天結構性畸形，非藥物可逆轉之適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "先天結構性腦部畸形，非藥物治療適應症",
+        "兒科/新生兒族群安全性資料完全缺乏"
+      ]
+    },
+    {
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "txgnn_score": 0.9999870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛幹結構異常（如 Monilethrix, Pili torti 等）為角蛋白或橋粒相關基因突變導致，與 α1 腎上腺素訊號通路無直接機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "familial isolated trichomegaly",
+      "txgnn_score": 0.9993964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "睫毛過長症（trichomegaly）與遺傳因素或 EGFR 抑制劑副作用相關。α1 阻斷機轉與睫毛生長調控無已知關聯。TxGNN 分數雖略降（0.9994），但仍無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.9990175,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "過敏性蕁麻疹主要由 IgE 介導的肥大細胞脫顆粒引起。α1 受體存在於皮膚血管平滑肌，理論上 α1 阻斷可緩解血管擴張相關紅斑。然而標準治療為抗組織胺及 omalizumab，alpha blocker 無臨床地位。有少數個案描述腎上腺素能機轉與慢性蕁麻疹相關，但尚屬假說階段。列為 Research Question 而非 Hold，建議觀察後續基礎研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "upgrade_criteria": "需要：(1) 皮膚科 alpha blocker 機轉基礎研究；(2) 小型 pilot 試驗"
+    },
+    {
+      "disease_name": "persistent fetal circulation syndrome",
+      "txgnn_score": 0.9952385,
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "持續性肺動脈高壓（PPHN）的病生理涉及肺血管收縮，α1 受體阻斷理論上可擴張肺血管。歷史上非選擇性 alpha blocker（如 tolazoline、phentolamine）曾用於新生兒 PPHN，但因全身性低血壓副作用已被 iNO 及西地那非取代。Alfuzosin 為選擇性 α1 拮抗劑，理論上肺血管擴張作用可能存在，但新生兒藥物動力學資料完全缺乏，且市場上已有更優選療法。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "新生兒族群 PK/PD 資料完全缺乏",
+        "全身性低血壓風險在血流動力學不穩定新生兒中極危險",
+        "已有 iNO、sildenafil 等標準療法存在"
+      ],
+      "upgrade_criteria": "需要：(1) 動物（新生兒豬/鼠）PPHN 模型中 Alfuzosin 肺血管效應研究；(2) 安全性劑量研究"
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9926507,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頭皮型單純性少毛症（LPAR6 或 LIPH 基因突變）為毛囊結構缺陷，與 α1 腎上腺素通路無已知機轉關聯。TxGNN 分數雖有下降趨勢，但無任何支持性臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9923458,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛症合併粟丘疹為罕見遺傳性毛囊疾病，與 α1 腎上腺素訊號通路無已知機轉關聯。此批次中分數最低者，顯示模型信心略降，但仍無臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "batch_summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_distribution": {
+      "S0_Hold": 8,
+      "S0_Research_Question": 1,
+      "S1_Research_Question": 1
+    },
+    "overall_assessment": "本批次 Alfuzosin 再利用預測全部為 L5 純模型預測，無任何臨床試驗或直接文獻支持。TxGNN 高分（>0.99）且集中在毛髮相關疾病，高度懷疑為知識圖譜中 alpha blocker 副作用節點（多毛症）造成的系統性偏差（confounding via adverse effect nodes）。",
+    "key_concerns": [
+      "機轉矛盾警示：Alfuzosin 已知副作用包含多毛症，高分毛髮相關預測可能為 adverse effect pathway 混淆",
+      "台灣市場未上市：安全性本地資料不完整，需參考國際文獻",
+      "DDI 資料缺失（count=0）：可能為資料庫不完整，非真正無交互作用",
+      "20 篇牙周文獻均與 Alfuzosin 無關：TxGNN 文獻匹配為疾病節點關聯，非藥物特異性"
+    ],
+    "actionable_priorities": [
+      {
+        "rank": 1,
+        "indication": "persistent fetal circulation syndrome",
+        "rationale": "唯一具備部分機轉基礎的適應症（歷史 alpha blocker PPHN 使用先例），雖安全性挑戰大，但機轉假說最具科學合理性，值得基礎研究探索"
+      },
+      {
+        "rank": 2,
+        "indication": "allergic urticaria",
+        "rationale": "皮膚血管 alpha-1 受體機轉邏輯清晰，且蕁麻疹為非致命性適應症，安全性評估風險相對低"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 📊 綜合評估摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|----------|----------|------|
+| Ambras type hypertrichosis | 0.99999 | **L5** | S0 | ❌ Hold |
+| Hypertrichosis (disease) | 0.99999 | **L5** | S0 | ❌ Hold ⚠️ 機轉矛盾 |
+| Periodontal malformation syndrome | 0.99999 | **L5** | S0 | ❌ Hold |
+| Dandy-Walker syndrome | 0.99999 | **L5** | S0 | ❌ Hold |
+| Isolated hair shaft abnormality | 0.99999 | **L5** | S0 | ❌ Hold |
+| Familial trichomegaly | 0.99940 | **L5** | S0 | ❌ Hold |
+| Allergic urticaria | 0.99902 | **L5** | S0 | 🔬 Research Question |
+| **Persistent fetal circulation** | 0.99524 | **L5** | **S1** | 🔬 Research Question |
+| Hypotrichosis simplex | 0.99265 | **L5** | S0 | ❌ Hold |
+| Congenital hypotrichosis milia | 0.99235 | **L5** | S0 | ❌ Hold |
+
+---
+
+## ⚠️ 關鍵分析備註
+
+### 1. 系統性偏差警示（Critical Flag）
+TxGNN 對毛髮相關疾病（6/10 適應症）給出極高預測分數，但 **Alfuzosin 的已知副作用本身即包含多毛症**。這意味著知識圖譜可能將「藥物→副作用→疾病」路徑誤判為治療性關聯，屬模型架構的已知限制。
+
+### 2. 文獻品質問題
+「牙周成分畸形症候群」的 20 篇文獻**全部為疾病領域文獻，零篇涉及 Alfuzosin**，顯示 TxGNN 的文獻關聯為疾病節點驅動，非藥物特異性匹配，不應作為證據升級依據。
+
+### 3. 最具潛力方向
+**Persistent fetal circulation syndrome（PPHN）** 是本批次唯一具備歷史先例機轉基礎的適應症（非選擇性 alpha blocker 曾用於 PPHN），但因新生兒族群安全性資料完全缺乏，建議優先進行動物模型研究再評估臨床可行性。

@@ -1,0 +1,717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09274-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Artesunate",
+    "drugbank_id": "DB09274",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "acne (disease)",
+      "txgnn": {
+        "score": 0.7921450138092041,
+        "rank": 42180
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Artesunate透過NF-κB抑制及下游促炎細胞因子(IL-1β、TNF-α、IL-6)的壓制具抗炎效果，可能緩解痤瘡的炎症性病灶。此外，artemisinin衍生物對Cutibacterium acnes(痤瘡丙酸桿菌)在體外具有一定抑菌活性，並可能透過ROS機制影響皮脂腺細胞代謝。機轉合理但間接，需體外驗證",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Smouldering systemic mastocytosis",
+      "txgnn": {
+        "score": 0.7917800545692444,
+        "rank": 42198
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肥大細胞腫瘤(含smouldering型)多由KIT D816V體細胞突變驅動，導致不受控制的肥大細胞增殖。Artesunate的抗增殖機制包括：(1)CDK1/2抑制阻礙細胞週期G2/M過渡；(2)ROS介導的粒線體凋亡通路活化；(3)可能的c-KIT下游訊號干擾。部分前驅研究顯示dihydroartemisinin(ART近源物)對KIT突變細胞株有活性，但直接針對artesunate及smouldering表型的資料缺乏",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+      "txgnn": {
+        "score": 0.7726088762283325,
+        "rank": 43013
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "除肥大細胞增殖機轉(同systemic mastocytosis)外，此型別具顯著嗜酸性球增多症。Artesunate對IL-5(嗜酸性球主要生存因子)及IL-4/IL-13訊號具抑制潛力，可同時處理兩種細胞群異常增殖。此為稀有亞型(OMIM罕見)，臨床試驗設計面臨患者招募挑戰",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gastrin secretion abnormality",
+      "txgnn": {
+        "score": 0.767074465751648,
+        "rank": 43202
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉連結高度間接。可能路徑：(1)Artesunate體外具抗幽門螺旋桿菌(H. pylori)活性，而H. pylori感染可導致胃泌素分泌亢進(高胃泌素血症)；(2)Artesunate的前列腺素路徑調節可能間接影響G細胞功能。然而，此適應症的疾病定義模糊(異常分泌可為高或低)，且TxGNN可能捕捉到的是與mastocytosis相關的胃泌素異常(mastocytosis常伴發消化性潰瘍/高胃泌素血症)，屬知識圖譜鄰近效應",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "systemic mastocytosis",
+      "txgnn": {
+        "score": 0.7144328355789185,
+        "rank": 44862
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Artesunate的多重抗腫瘤機制(CDK抑制、ROS凋亡、抗血管新生)理論上可干擾骨髓及其他器官的異常肥大細胞積聚。KIT D816V突變對imatinib耐藥，現有療法(midostaurin/avapritinib)雖有效但有毒性顧慮，artesunate作為相對低毒性輔助療法具假說基礎。需注意：若此疾病分類包含侵略型，器官損傷風險需謹慎評估安全性",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "leishmaniasis, diffuse cutaneous",
+      "txgnn": {
+        "score": 0.6616138815879822,
+        "rank": 46357
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【最強機轉連結】Artesunate的核心MoA(內過氧橋ROS生成)對原蟲類具跨物種活性：利什曼原蟲缺乏有效的過氧化物解毒系統，對ROS壓力高度敏感，機制上與抗瘧疾雷同。體外研究已顯示dihydroartemisinin/artesunate對L. donovani、L. major有IC50活性。彌漫性皮膚型利什曼病(DCL)因免疫低下難以治療，現有療法(pentavalent antimonials, miltefosine)毒性高且DCL型常耐藥，代表未被滿足醫療需求。安全性資料豐富(malaria適應症已有大量人類暴露資料)",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "abnormality of glucagon secretion",
+      "txgnn": {
+        "score": 0.6176609396934509,
+        "rank": 47621
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Artemisinin衍生物(尤其是artemisinin本身)已在Nature Medicine(2017, Ye et al.)發表的研究中顯示可促進胰臟α細胞(分泌升糖素)向β細胞(分泌胰島素)轉分化，機制涉及PCAF/GCN5乙醯轉移酶活化及Pax4基因表達誘導。若artesunate具相似效果，理論上可減少功能性α細胞數量，降低升糖素分泌。然而：(1)此研究主要針對糖尿病情境；(2)升糖素分泌異常可指向高或低兩方向；(3)artesunate與artemisinin活性差異需確認",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+      "txgnn": {
+        "score": 0.5966314077377319,
+        "rank": 48328
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PAPA syndrome以PSTPIP1功能異常導致的IL-1β過度活化為核心病理，現有療法為IL-1拮抗劑(anakinra/canakinumab)。Artesunate具有一定程度的NF-κB抑制及NLRP3炎症小體下調活性，理論上可減少IL-1β分泌。然而：(1)機轉特異性不足，對PSTPIP1-pyrin互作的影響未知；(2)此病極罕見(全球病例數百例)，難以設計臨床試驗；(3)名稱中的'acne'成分雖與高TxGNN分數的acne適應症重疊，但屬不同機轉的痤瘡",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "Wiskott-Aldrich syndrome 2",
+      "txgnn": {
+        "score": 0.5940628051757812,
+        "rank": 48420
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Wiskott-Aldrich syndrome 2涉及WIPF1基因突變影響WASp複合物功能，導致T細胞活化、NK細胞毒殺及血小板功能缺陷(actin細胞骨架重組障礙)。Artesunate對actin-WASp路徑無已知直接作用。間接連結：artesunate的免疫調節效果(調節T細胞反應)可能部分緩解WAS的免疫失調，但此為非特異性效果，不針對WAS2核心病理。可能的TxGNN預測來源：知識圖譜中WAS2與免疫缺陷-自體免疫節點的共同鄰近關係",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "alacrima, achalasia, and intellectual disability syndrome",
+      "txgnn": {
+        "score": 0.5932522416114807,
+        "rank": 48459
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "AAAS syndrome的病理涉及ALADIN蛋白(核孔複合體成分)缺失，導致氧化壓力保護蛋白(APE1, ferritin)無法進入細胞核，使神經及腺體細胞對氧化損傷高度脆弱。關鍵矛盾：Artesunate的主要MoA為主動產生ROS(氧化壓力)，此機制在AAAS患者細胞中可能加劇已有的氧化損傷缺陷，存在理論上的反向效應風險。除非artesunate的抗炎/神經保護效果能超越ROS毒性，否則機轉上不支持此適應症",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "gastrin secretion abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "gastrin secretion abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "gastrin secretion abnormality"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "leishmaniasis, diffuse cutaneous"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "leishmaniasis, diffuse cutaneous"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "leishmaniasis, diffuse cutaneous"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Wiskott-Aldrich syndrome 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Wiskott-Aldrich syndrome 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "Wiskott-Aldrich syndrome 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "alacrima, achalasia, and intellectual disability syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "alacrima, achalasia, and intellectual disability syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Artesunate",
+        "disease": "alacrima, achalasia, and intellectual disability syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

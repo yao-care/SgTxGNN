@@ -1,0 +1,322 @@
+## 藥物再利用證據分析：Deoxycholic Acid (DB03619)
+
+### 藥物背景說明
+
+> **重要前提**：文獻與臨床試驗中大量證據指向 **UDCA（Ursodeoxycholic Acid）**，而非 DCA（Deoxycholic Acid）本身。兩者同屬膽汁酸類，共用 FXR/TGR5 受體機轉，但藥理特性有差異（DCA 細胞毒性較強，UDCA 具保護性）。所有引用臨床試驗皆為 UDCA 研究，僅構成**間接類別效應證據**。
+
+---
+
+```json
+{
+  "drug": "Deoxycholic acid",
+  "drugbank_id": "DB03619",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "本藥物市場狀態為未上市，原始適應症空白，MOA 缺失。多數臨床試驗/文獻指向 UDCA（同類膽汁酸），DCA 直接臨床證據極度稀缺。評估以類別效應推論為主，應謹慎解讀。",
+  "indications": [
+    {
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何已知機轉連結。DCA 主要作用於膽汁酸代謝（FXR/TGR5）與脂肪溶解，與此罕見遺傳性微血管/腎臟/視網膜症候群之致病機轉（COLA4A3/4 膠原蛋白突變）無交集。TxGNN 高分可能反映知識圖譜中節點距離近，但缺乏生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純計算預測，零臨床或實驗室佐證。"
+    },
+    {
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此病由 COL4A1/COL4A2 突變導致基底膜結構缺陷，引發腦小血管病變與眼部異常。DCA 之 FXR/TGR5 訊號路徑與結構性膠原蛋白缺陷修復無關聯。18 筆文獻均為眼科解剖異常（視盤異常、小眼症等）之描述性研究，與 DCA 治療無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35882526",
+          "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+          "study_type": "Review",
+          "tier": 3,
+          "dca_relevance": "描述眼部發育異常病理，與DCA無機轉關聯"
+        },
+        {
+          "pmid": "30182440",
+          "title": "Neuropathology of holoprosencephaly.",
+          "study_type": "Review",
+          "tier": 3,
+          "dca_relevance": "神經發育異常病理描述，與DCA無關"
+        },
+        {
+          "pmid": "6782689",
+          "title": "Ocular coloboma.",
+          "study_type": "Review",
+          "tier": 3,
+          "dca_relevance": "眼部先天缺損描述，與DCA無關"
+        }
+      ],
+      "evidence_summary": "18 篇文獻為眼科罕見病描述性回顧，無一涉及 DCA 治療。文獻計數具誤導性，實質為 L5。"
+    },
+    {
+      "disease_name": "diabetic nephropathy",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "**類別效應機轉（間接）**：膽汁酸透過 FXR 活化可抑制腎臟氧化壓力、ER stress（內質網壓力）、podocyte 凋亡；TGR5 活化可改善胰島素敏感性與腎臟保護。SGLT2 表達下調（PMID 22429686，UDCA 研究）提供代謝保護機制。DCA 同樣為 FXR/TGR5 配體，理論上可共享此路徑。核心問題：現有文獻幾乎全為 UDCA 而非 DCA，且 DCA 高濃度下具腎毒性風險，安全窗口未知。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29089371",
+          "title": "FXR/TGR5 Dual Agonist Prevents Progression of Nephropathy in Diabetes and Obesity.",
+          "study_type": "Animal_Study",
+          "tier": 3,
+          "dca_relevance": "最相關文獻：膽汁酸受體雙重激動劑保護糖尿病腎病，提供DCA機轉合理性（FXR/TGR5），但研究對象非DCA"
+        },
+        {
+          "pmid": "27193377",
+          "title": "Ursodeoxycholic Acid Ameliorated Diabetic Nephropathy by Attenuating Hyperglycemia-Mediated Oxidative Stress.",
+          "study_type": "Animal_Study",
+          "tier": 3,
+          "dca_relevance": "UDCA 改善糖尿病腎病動物模型，DCA 類別效應參考，非直接證據"
+        },
+        {
+          "pmid": "26999661",
+          "title": "Ursodeoxycholic acid and 4-phenylbutyrate prevent endoplasmic reticulum stress-induced podocyte apoptosis.",
+          "study_type": "In_Vitro_Study",
+          "tier": 3,
+          "dca_relevance": "UDCA 抑制 ER stress 所致 podocyte 凋亡，機轉類別參考"
+        },
+        {
+          "pmid": "39384774",
+          "title": "Metabolomic profiling reveals the step-wise alteration of bile acid metabolism in patients with diabetic nephropathy.",
+          "study_type": "Clinical_Cohort",
+          "tier": 2,
+          "dca_relevance": "人體代謝組學顯示糖尿病腎病患者膽汁酸代謝異常，支持膽汁酸路徑在疾病中的角色"
+        },
+        {
+          "pmid": "22429686",
+          "title": "Ursodeoxycholic acid decreases sodium-glucose cotransporter (SGLT2) expression and oxidative stress.",
+          "study_type": "Animal_Study",
+          "tier": 3,
+          "dca_relevance": "UDCA 下調腎臟 SGLT2 表達，類 SGLT2i 機轉，DCA 是否共享此效應未知"
+        },
+        {
+          "pmid": "28696246",
+          "title": "Farnesoid X Receptor Agonism Protects against Diabetic Tubulopathy.",
+          "study_type": "Animal_Study",
+          "tier": 3,
+          "dca_relevance": "FXR 激動劑保護糖尿病腎小管病變，DCA 為 FXR 配體，提供間接機轉支持"
+        }
+      ],
+      "evidence_summary": "存在合理機轉假說（FXR/TGR5 膽汁酸訊號保護腎臟），但所有文獻均為 UDCA 或其他 FXR 激動劑。DCA 本身無直接腎病臨床試驗。DCA 腎毒性安全窗口需首先評估。"
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "txgnn_score": 0.9735,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Prinzmetal 變異型心絞痛由冠狀動脈痙攣驅動，主要機轉為血管平滑肌過度反應（α-腎上腺素受體、內皮功能障礙）。DCA 之 FXR/TGR5 路徑與冠脈痙攣發病機轉無已知交集。TGR5 在心臟中有表達，但其對冠脈張力的影響尚未研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純計算預測，零文獻或試驗支持。"
+    },
+    {
+      "disease_name": "hemoglobinopathy",
+      "txgnn_score": 0.9664,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血色素病（鐮刀型貧血、地中海貧血等）由血紅蛋白基因突變引起。DCA 無已知對血紅蛋白合成、紅血球穩定性或 HbF 誘導的機轉。兩篇文獻為肝膽功能與鐮刀型貧血肝病的描述（PMID 6142634, 38978231），反映的是疾病繼發性肝膽影響，非 DCA 治療效果。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38978231",
+          "title": "The enigma of sickle cell hepatopathy: Pathophysiology, clinical manifestations and therapy.",
+          "study_type": "Review",
+          "tier": 3,
+          "dca_relevance": "描述鐮刀型貧血繼發肝病，DCA非治療藥物，僅反映膽汁酸代謝在疾病中受影響"
+        },
+        {
+          "pmid": "6142634",
+          "title": "Liver function and the diagnostic significance of conjugated cholic acid and chenodeoxycholic acid.",
+          "study_type": "Clinical_Study",
+          "tier": 3,
+          "dca_relevance": "血色素病患者肝功能診斷，膽汁酸作為生物標記非治療劑"
+        }
+      ],
+      "evidence_summary": "文獻顯示膽汁酸在血色素病繼發肝病中為生物標記，而非治療目標。無治療性機轉連結。"
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9609,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "**最強適應症，具多層級間接臨床證據**。機轉路徑：(1) FXR/TGR5 活化 → 抑制 NF-κB → 下調 IL-6/TNF-α；(2) 膽汁酸影響 Th17/Treg 平衡（Th17 抑制為 RA 核心治療靶點）；(3) 腸道菌群調節 → 減少關節炎促發信號；(4) PMID 23041275 直接顯示 DCA 共軛物（6ODS-LHbD）在膠原誘導性關節炎模型中抑制發炎。**警示**：兩項 Phase 2 試驗均為 UDCA 非 DCA；DCA 具潛在促炎性（高濃度），需確認治療窗口。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05973370",
+          "title": "Evaluating the Effect of Ursodeoxycholic Acid in Patients With Rheumatoid Arthritis in Egypt",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 60,
+          "relevance_grade": "B",
+          "reasoning": "UDCA（非DCA）Phase 2 完成試驗，直接在 RA 患者中驗證膽汁酸類抗炎效應。結果提供 DCA 同類藥物概念驗證，但需注意 UDCA 與 DCA 安全性差異顯著"
+        },
+        {
+          "nct_id": "NCT04834557",
+          "title": "Evaluating the Effect of Digoxin and Ursodeoxycholic Acid in Patients With Rheumatoid Arthritis in Egypt",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 90,
+          "relevance_grade": "B",
+          "reasoning": "UDCA+Digoxin 組合在 RA 中的 Phase 2 試驗，規模較大（n=90），完成狀態支持膽汁酸類在 RA 的安全性與初步療效。DCA 類別效應推論有據但非直接"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23041275",
+          "title": "Orally active desulfated low molecular weight heparin and deoxycholic acid conjugate, 6ODS-LHbD, suppresses collagen-induced arthritis.",
+          "study_type": "Animal_Study_DCA_Direct",
+          "tier": 3,
+          "dca_relevance": "★ 唯一直接含 DCA 成分的 RA 研究。DCA 共軛物在 CIA 模型中抑制關節炎，但為共軛物非純 DCA，且為動物模型"
+        },
+        {
+          "pmid": "38313166",
+          "title": "Evaluating the effect of ursodeoxycholic acid (UDCA) in comparison with dexamethasone and diclofenac in RA.",
+          "study_type": "Clinical_RCT",
+          "tier": 1,
+          "dca_relevance": "UDCA vs 地塞米松/雙氯芬酸的 RA 臨床比較研究，最強間接臨床證據，UDCA 效果與標準抗炎藥相當"
+        },
+        {
+          "pmid": "28539269",
+          "title": "Ursodeoxycholic acid attenuates experimental autoimmune arthritis by targeting Th17 and inducing pAMPK.",
+          "study_type": "Animal_Study",
+          "tier": 3,
+          "dca_relevance": "UDCA 透過 Th17 抑制與 pAMPK 活化改善自身免疫性關節炎，機轉路徑 DCA 理論上可共享"
+        },
+        {
+          "pmid": "36604114",
+          "title": "Gut commensal Parabacteroides distasonis alleviates inflammatory arthritis.",
+          "study_type": "Animal_Study",
+          "tier": 3,
+          "dca_relevance": "腸道菌-膽汁酸軸調控關節炎，支持微生物-膽汁酸-免疫軸在 RA 中的角色"
+        },
+        {
+          "pmid": "73677",
+          "title": "Chenodeoxycholic-acid treatments of rheumatoid arthritis.",
+          "study_type": "Clinical_Case_Series",
+          "tier": 3,
+          "dca_relevance": "1976年：鹼膽酸（CDCA）治療RA的早期臨床觀察，歷史性膽汁酸類抗炎概念驗證"
+        },
+        {
+          "pmid": "1166284",
+          "title": "Effect of an intravenously administered bile acid (chenodeoxycholic acid) on rheumatoid arthritis.",
+          "study_type": "Clinical_Pilot",
+          "tier": 3,
+          "dca_relevance": "1975年靜脈注射 CDCA 於 RA 患者，最早膽汁酸類 RA 臨床嘗試，歷史參考價值"
+        }
+      ],
+      "guardrails": [
+        "DCA 高濃度具促炎/細胞毒性，需確立 RA 治療窗口",
+        "目前所有人體試驗均為 UDCA，需專門針對 DCA 的安全性評估",
+        "DCA 市場狀態為「未上市」，需先通過 Phase 1 安全性研究",
+        "監測腸胃道不良反應（DCA 與結腸黏膜毒性相關）"
+      ],
+      "evidence_summary": "膽汁酸類在 RA 具最佳間接臨床證據（2項 Phase 2 完成試驗）；DCA 本身有一項動物模型直接研究；歷史性臨床觀察可追溯至 1975 年。L3 評級適當，但需嚴格確認 DCA 自身的安全性差異。"
+    },
+    {
+      "disease_name": "partial deletion of the short arm of chromosome 16",
+      "txgnn_score": 0.9575,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "染色體 16p 缺失症候群（如 16p11.2、16p13.3 等）為基因組結構異常，DCA 之膽汁酸訊號路徑無法糾正基因組劑量不平衡問題。無已知機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純計算預測，遺傳性染色體結構異常不適合此類藥物介入策略。"
+    },
+    {
+      "disease_name": "conjunctivitis",
+      "txgnn_score": 0.9565,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "結膜炎（感染性/過敏性/免疫性）的局部眼部炎症機轉與全身性膽汁酸訊號無直接關聯。6 篇文獻涵蓋肝毒性（PMID 21145082）、Shigella 病理（PMID 26481305）、GVHD（PMID 15553047）、川崎病（PMID 11138348）、原發性膽汁性肝硬化（PMID 11930680）、病毒性出血性結膜炎（PMID 4368318）—無一涉及 DCA 治療眼部炎症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11138348",
+          "title": "Acute febrile cholestasis as an inaugural manifestation of Kawasaki's disease.",
+          "study_type": "Case_Report",
+          "tier": 3,
+          "dca_relevance": "川崎病合併膽汁淤積，DCA 非治療劑，文獻與結膜炎治療無關"
+        }
+      ],
+      "evidence_summary": "文獻均為疾病描述或無關適應症報告，與 DCA 治療結膜炎無實質連結。"
+    },
+    {
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn_score": 0.9540,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乙型地中海貧血由 HBB 基因突變造成 β-球蛋白合成缺陷。DCA 無已知影響 globin 基因表達或紅血球生成之機轉。零文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純計算預測，遺傳性血液病無 DCA 介入的生物學合理性。"
+    },
+    {
+      "disease_name": "hemolytic anemia due to glucophosphate isomerase deficiency",
+      "txgnn_score": 0.9523,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GPI 缺乏症（GPI 酶突變 → 糖解路徑障礙 → 紅血球溶血）屬酶缺乏症，無已知膽汁酸訊號路徑的治療機轉。極罕見疾病（全球約 50 例），藥物再利用研究基礎薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "純計算預測，酶缺乏導致的溶血性貧血不適合 DCA 介入。"
+    }
+  ],
+  "priority_ranking": [
+    {
+      "rank": 1,
+      "disease": "rheumatoid arthritis",
+      "evidence_level": "L3",
+      "rationale": "唯一具間接 Phase 2 臨床試驗（UDCA 完成試驗 x2）、歷史人體試驗、直接 DCA 動物模型三重支持的適應症"
+    },
+    {
+      "rank": 2,
+      "disease": "diabetic nephropathy",
+      "evidence_level": "L4",
+      "rationale": "FXR/TGR5 機轉在腎臟保護有充分動物模型及人體代謝組學佐證，但缺乏 DCA 直接試驗"
+    }
+  ],
+  "overall_drug_assessment": {
+    "key_concern": "DCA 作為次級膽汁酸，高濃度具細胞毒性與促炎性，與 UDCA 的保護性特質不同，不能直接套用 UDCA 臨床結果",
+    "recommended_next_step": "若優先追求 RA 適應症，建議先在 RA 患者中進行 DCA 的 Phase 1 安全性/耐受性/PK 研究，並同步評估最佳劑量窗口",
+    "data_gaps": [
+      "DCA 原始適應症與 MOA 資料缺失，需補充基礎藥理資料",
+      "DCA 在 RA 或腎病的人體 PK/PD 數據為零",
+      "DCA 腸道濃度 vs 血清濃度對全身免疫效應的影響未知"
+    ]
+  }
+}
+```
+
+---
+
+## 摘要儀表板
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **類風濕性關節炎** | **L3** | **S2** | **Proceed w/ Guardrails** | UDCA Phase 2 完成 ×2；DCA 共軛物動物模型 |
+| **糖尿病腎病** | L4 | S1 | Research Question | FXR/TGR5 機轉；UDCA 動物/人體代謝組學 |
+| 血色素病 | L5 | S0 | Hold | 僅膽汁酸生物標記描述 |
+| 先天性眼部異常（腦小血管病） | L5 | S0 | Hold | 文獻皆為無關眼科描述 |
+| 結膜炎 | L5 | S0 | Hold | 文獻無治療關聯 |
+| 其餘 6 項 | L5 | S0 | Hold | 純計算預測，零佐證 |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證方可應用於患者。

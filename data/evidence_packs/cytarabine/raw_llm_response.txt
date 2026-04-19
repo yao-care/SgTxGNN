@@ -1,0 +1,629 @@
+```json
+{
+  "drug": "Cytarabine",
+  "drugbank_id": "DB00987",
+  "analysis_date": "2026-04-04",
+  "note": "Cytarabine 為嘧啶核苷類似物，嵌入 DNA 後抑制 DNA 聚合酶 α，為 S 期特異性細胞毒殺劑，臨床上廣泛用於 AML/ALL/NHL/腦膜白血病治療。",
+  "indications": [
+    {
+      "disease_name": "small cell lung carcinoma",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "SCLC 為高度增殖的神經內分泌腫瘤，S 期比例高，理論上對 Ara-C 敏感。1970-1990 年代文獻顯示 Ara-C+CDDP 組合對 SCLC/NSCLC 均有探索性應用。現行 SCLC 標準治療已被鉑類/依託泊苷取代，再利用價值在難治/腦膜轉移場景較高。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03101579",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Pemetrexed（鞘注），適應症為 NSCLC 腦膜轉移，非 Cytarabine、非 SCLC，僅提供腦膜轉移治療背景參考。Phase 1，N=13，已完成。"
+        },
+        {
+          "nct_id": "NCT03507244",
+          "relevance_grade": "C",
+          "reasoning": "同為 Pemetrexed 鞘注+放療組合治療 NSCLC LM，Phase 1/2，N=34，已完成。與 Cytarabine 無直接關聯，可作為腦膜轉移治療設計對照。"
+        },
+        {
+          "nct_id": "NCT00863512",
+          "relevance_grade": "C",
+          "reasoning": "NSCLC 術後輔助化療 Phase 3，已提前終止（N=34，目標 344），適應症為 NSCLC 而非 SCLC，且未明確含 Cytarabine，參考價值低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "232239",
+          "title": "Combination radiotherapy and chemotherapy for small cell carcinoma of the lung",
+          "year": "1979",
+          "study_type": "Clinical Series",
+          "tier": 2,
+          "note": "最直接相關文獻；早期 SCLC 多藥化療方案中包含 Ara-C，提供歷史概念驗證。"
+        },
+        {
+          "pmid": "6264785",
+          "title": "Meningeal carcinomatosis in small cell carcinoma of the lung",
+          "year": "1981",
+          "study_type": "Case Series",
+          "tier": 2,
+          "note": "SCLC 腦膜癌病處理，提及鞘內或全身 Ara-C 使用背景。"
+        },
+        {
+          "pmid": "28223673",
+          "title": "A Case of Meningeal Carcinomatosis and Small Cell Lung Carcinoma Effectively Treated Using a Multidisciplinary Approach",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 2,
+          "note": "2017 年個案報告，多模態治療 SCLC 腦膜癌病，現代案例支持。"
+        },
+        {
+          "pmid": "2157307",
+          "title": "Phase II trial of cytarabine, cisplatin and vindesine for advanced non-small cell lung cancer",
+          "year": "1990",
+          "study_type": "Phase II Trial",
+          "tier": 2,
+          "note": "Phase II，Cytarabine+CDDP+Vindesine 用於 NSCLC（非 SCLC），證明 Ara-C 肺癌可耐受性，間接支持。"
+        },
+        {
+          "pmid": "2156598",
+          "title": "Phase II trial of high-dose cytarabine and cisplatin in previously untreated non-small cell carcinoma",
+          "year": "1990",
+          "study_type": "Phase II Trial",
+          "tier": 2,
+          "note": "大劑量 Ara-C+CDDP 用於初治 NSCLC Phase II，提供劑量安全性參考。"
+        },
+        {
+          "pmid": "2820740",
+          "title": "Cisplatin and cytarabine combination chemotherapy of advanced non-small cell lung cancer: a pilot study",
+          "year": "1987",
+          "study_type": "Pilot Study",
+          "tier": 2,
+          "note": "先導研究，CDDP+Ara-C 組合 NSCLC，早期可行性依據。"
+        },
+        {
+          "pmid": "9561978",
+          "title": "Carcinoma meningitis secondary to non-small cell lung cancer: combined modality therapy",
+          "year": "1998",
+          "study_type": "Retrospective",
+          "tier": 3,
+          "note": "NSCLC 腦膜癌病多模態治療，間接相關。"
+        },
+        {
+          "pmid": "348088",
+          "title": "ARA-C analogs",
+          "year": "1978",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "Ara-C 類似物藥理學綜述，機轉背景文獻。"
+        },
+        {
+          "pmid": "32183950",
+          "title": "ADORA1 Inhibition Promotes Tumor Immune Evasion by Regulating the ATF3-PD-L1 Axis",
+          "year": "2020",
+          "study_type": "Basic Research",
+          "tier": 3,
+          "note": "腺苷受體/PD-L1 免疫逃脫機轉研究，與 Cytarabine 直接相關性低，可能為 KG 關聯節點。"
+        },
+        {
+          "pmid": "38377785",
+          "title": "Efficacy and safety of intrathecal pemetrexed for TKI-failed leptomeningeal metastases from EGFR+ NSCLC",
+          "year": "2024",
+          "study_type": "Clinical Study",
+          "tier": 3,
+          "note": "Pemetrexed 鞘注，非 Cytarabine，可作為鞘內治療設計對照。"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary pulmonary lymphoma",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cytarabine 為淋巴瘤標準化療核心藥物（BEAM 高劑量調理方案、R-ESHAP 等），對 B 細胞淋巴瘤 DNA 合成有直接抑制效果。原發性肺淋巴瘤（以 MALT 淋巴瘤或 DLBCL 為主）在進展期或 CNS 受累情況下，含 Ara-C 方案（HD-MTX+AraC）具強烈理論依據及間接臨床支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00452374",
+          "relevance_grade": "A",
+          "reasoning": "OFAR 方案（Oxaliplatin+Fludarabine+Cytarabine+Rituximab）用於 Richter's Syndrome（CLL 轉化淋巴瘤），Phase 1/2，N=48，已完成。Cytarabine 為核心藥物，直接相關性最高，但適應症為 Richter's 轉化而非原發性肺淋巴瘤。"
+        },
+        {
+          "nct_id": "NCT00345865",
+          "relevance_grade": "B",
+          "reasoning": "ASCT 用於淋巴瘤 Phase 2，N=473，BEAM 調理方案含 Cytarabine。廣泛淋巴瘤適應症研究，間接支持 Cytarabine 在淋巴瘤中的安全性與療效。"
+        },
+        {
+          "nct_id": "NCT02443077",
+          "relevance_grade": "B",
+          "reasoning": "Ibrutinib+ASCT Phase 3（N=94，ACTIVE），ASCT 調理含 BEAM/Cytarabine，淋巴瘤治療平台研究，提供現代治療組合參考。"
+        },
+        {
+          "nct_id": "NCT01476839",
+          "relevance_grade": "B",
+          "reasoning": "Y-90 抗CD25+BEAM ASCT Phase 1 用於血液腫瘤（N=25），BEAM 含 Cytarabine，相關性中等。"
+        },
+        {
+          "nct_id": "NCT02356159",
+          "relevance_grade": "C",
+          "reasoning": "Palifermin 用於非相關 HSCT 黏膜炎預防，Cytarabine 僅為調理方案背景藥，直接關聯性低。"
+        },
+        {
+          "nct_id": "NCT00013533",
+          "relevance_grade": "C",
+          "reasoning": "HLA 配對異體移植小兒血液腫瘤，Early Phase 1，N=30，非肺淋巴瘤專屬，間接背景。"
+        },
+        {
+          "nct_id": "NCT02280525",
+          "relevance_grade": "C",
+          "reasoning": "臍帶血 NK 細胞輸注 Phase 1，N=8，淋巴清除含 Cytarabine，免疫療法背景研究，直接性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12241119",
+          "title": "Combination chemotherapy with high-dose methotrexate and cytarabine with or without brain irradiation for primary CNS lymphoma",
+          "year": "2002",
+          "study_type": "RCT/Phase II",
+          "tier": 1,
+          "note": "HD-MTX+Cytarabine 用於原發性 CNS 淋巴瘤，直接驗證 Cytarabine 在淋巴瘤 CNS 受累的療效，高度相關。"
+        },
+        {
+          "pmid": "12860951",
+          "title": "Chemotherapy alone as initial treatment for primary CNS lymphoma in patients older than 60 years",
+          "year": "2003",
+          "study_type": "Phase II Trial",
+          "tier": 1,
+          "note": "老年 CNS 淋巴瘤單純化療（含 Cytarabine），提供安全性與療效數據，與肺淋巴瘤 CNS 受累場景高度相關。"
+        },
+        {
+          "pmid": "11244328",
+          "title": "Combined treatment with high-dose methotrexate, vincristine and procarbazine, without intrathecal chemotherapy",
+          "year": "2001",
+          "study_type": "Clinical Study",
+          "tier": 1,
+          "note": "CNS 淋巴瘤不含鞘內化療的 HD-MTX 方案，比較研究，提供治療設計參考。"
+        },
+        {
+          "pmid": "29217775",
+          "title": "Chemotherapy-induced differential cell cycle arrest in B-cell lymphomas affects their sensitivity to cytarabine",
+          "year": "2018",
+          "study_type": "Translational Research",
+          "tier": 1,
+          "note": "直接研究 Cytarabine 對 B 細胞淋巴瘤細胞週期的影響，提供現代機轉支持。"
+        },
+        {
+          "pmid": "38555923",
+          "title": "Anti-CD30 CAR T cells as consolidation after autologous haematopoietic stem-cell transplantation in relapsed/refractory lymphoma",
+          "year": "2024",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "ASCT 後 CAR-T 鞏固，BEAM 調理含 Cytarabine，2024 年最新組合療法背景。"
+        },
+        {
+          "pmid": "41117344",
+          "title": "Randomized Phase II Study of Brentuximab-Vedotin With High-Dose Chemotherapy in CD30 Positive Lymphoma",
+          "year": "2025",
+          "study_type": "Phase II RCT",
+          "tier": 2,
+          "note": "2025 年 BV+高劑量化療 Phase II RCT，含 Cytarabine 組合，最新臨床數據。"
+        },
+        {
+          "pmid": "15957966",
+          "title": "Management of leptomeningeal malignancy",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "腦膜惡性腫瘤處理綜述，包含鞘內 Cytarabine 使用指引，間接支持。"
+        },
+        {
+          "pmid": "26256690",
+          "title": "Synchronous mantle cell lymph node lymphoma and pulmonary adenocarcinoma: a case report",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "肺部同步淋巴瘤+腺癌個案，提供原發性肺淋巴瘤鑑別背景。"
+        },
+        {
+          "pmid": "7804123",
+          "title": "Intensive therapy and autotransplantation in Hodgkin's disease",
+          "year": "1994",
+          "study_type": "Clinical Study",
+          "tier": 3,
+          "note": "霍奇金淋巴瘤高劑量化療+ASCT，BEAM 歷史背景，間接參考。"
+        },
+        {
+          "pmid": "37886671",
+          "title": "Central Nervous System T-Cell Lymphoma as the Presenting Manifestation of Late-Onset Combined Immunodeficiency",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "CNS T 細胞淋巴瘤特殊表現型個案，背景參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "well-differentiated fetal adenocarcinoma of the lung",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高分化胎兒型肺腺癌（WDFA）為極罕見 WNT 路徑活化肺腫瘤，無 Cytarabine 相關臨床或基礎研究。TxGNN 預測可能基於肺癌通用知識圖譜節點關聯，缺乏疾病特異性生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary blastoma",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺母細胞瘤（Pulmonary blastoma）為罕見雙相性腫瘤，偶見文獻以鉑類/依託泊苷為基礎治療，無 Cytarabine 直接臨床或體外研究。KG 預測可能因肺癌/胚胎性腫瘤節點關聯產生，無可操作性依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "upper aerodigestive tract neoplasm",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cytarabine 作為 DNA 合成抑制劑，對上呼吸消化道腫瘤（包含頭頸癌、嗅神經母細胞瘤等）的應用基於其廣效細胞毒性。1989 年 Ara-C+CDDP 組合用於頭頸癌有小樣本探索；嗅神經母細胞瘤化療亦見 Ara-C 組合方案，但整體證據陳舊且樣本量極小。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2589230",
+          "title": "Combination chemotherapy with cytosine arabinoside (Ara-C) and cis-diamminedichloroplatinum (CDDP) for head and neck cancer",
+          "year": "1989",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "最直接相關文獻，Ara-C+CDDP 用於頭頸癌，小樣本早期探索，提供概念驗證。"
+        },
+        {
+          "pmid": "9588546",
+          "title": "Chemotherapy for advanced esthesioneuroblastoma: the Mayo Clinic experience",
+          "year": "1998",
+          "study_type": "Retrospective Case Series",
+          "tier": 2,
+          "note": "嗅神經母細胞瘤（上呼吸道腫瘤）Mayo Clinic 化療經驗，間接涵蓋 Cytarabine 組合。"
+        },
+        {
+          "pmid": "16041392",
+          "title": "Genetic factors influencing pyrimidine-antagonist chemotherapy",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "嘧啶拮抗劑藥物基因組學綜述，包含 Cytarabine 代謝酶變異，機轉背景。"
+        },
+        {
+          "pmid": "1332622",
+          "title": "New antitumor antimetabolites—gemcitabine and DMDC",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "核苷類似物抗腫瘤藥物比較綜述，Cytarabine 藥理背景參考。"
+        },
+        {
+          "pmid": "15548350",
+          "title": "Chemotherapy-induced and/or radiation therapy-induced oral mucositis—complicating the treatment of cancer",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "化放療誘發口腔黏膜炎綜述，Cytarabine 為常見誘發藥物之一，毒性管理參考。"
+        },
+        {
+          "pmid": "32183950",
+          "title": "ADORA1 Inhibition Promotes Tumor Immune Evasion by Regulating the ATF3-PD-L1 Axis",
+          "year": "2020",
+          "study_type": "Basic Research",
+          "tier": 3,
+          "note": "免疫逃脫機轉研究，與 Cytarabine 直接關聯性低，KG 節點間接連結。"
+        }
+      ]
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經節母細胞瘤（Ganglioneuroblastoma）為兒科神經嵴來源腫瘤，標準治療以鉑類、依託泊苷、環磷醯胺為基礎。Cytarabine 在神經母細胞瘤有體外分化誘導研究（參見 neuroblastoma 適應症），但 ganglioneuroblastoma 無任何直接臨床或體外研究可查。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見遺傳發育症候群（類 VATER 相關綜合症），以先天性骨骼畸形和免疫/內分泌缺陷為特徵，非增殖性腫瘤疾病。Cytarabine 的細胞毒殺機轉在此完全無治療依據，KG 預測為偽陽性（可能源於 T 細胞功能障礙節點與血液腫瘤治療關聯）。建議排除此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn_score": 0.9923,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹膜後腫瘤為異質性病理集合（軟組織肉瘤、腎上腺腫瘤、生殖細胞腫瘤、淋巴瘤/骨髓肉瘤等）。文獻顯示 Cytarabine 在腹膜後淋巴瘤轉化（PMID 28579851）及骨髓肉瘤（PMID 34733617、41366933）中有個案使用記錄，但缺乏針對「腹膜後腫瘤」整體的系統性證據，高度異質性使通用建議不可行。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01468311",
+          "relevance_grade": "C",
+          "reasoning": "Y-90 抗CD25+BEAM ASCT Phase 1/2，已提前終止（N=6），適應症為血液惡性腫瘤（含 BEAM/Cytarabine），非腹膜後腫瘤特異性，且因早期終止缺乏結論性數據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34733617",
+          "title": "Gastric myeloid sarcoma: A case report",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 2,
+          "note": "胃部髓系肉瘤（骨髓肉瘤）個案，含 AML 誘導方案（含 Cytarabine），間接支持腹膜後骨髓肉瘤治療概念。"
+        },
+        {
+          "pmid": "41366933",
+          "title": "Extensive myeloid sarcoma presenting with esophageal compression and dysphagia as the initial manifestation",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 2,
+          "note": "2025 年廣泛骨髓肉瘤個案，包含腹部病灶，AML 誘導（含 Cytarabine）治療，最新案例。"
+        },
+        {
+          "pmid": "28579851",
+          "title": "Transformation of Follicular Lymphoma to a High-Grade B-Cell Lymphoma With MYC and BCL2 Translocations",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 2,
+          "note": "濾泡淋巴瘤轉化（雙打擊），治療含 Cytarabine 組合，腹膜後受累間接相關。"
+        },
+        {
+          "pmid": "39588445",
+          "title": "Cervical Granulocytic Sarcoma Without Acute Leukemia: A Case Report and Review of 42 Additional Cases",
+          "year": "2024",
+          "study_type": "Case Report + Review",
+          "tier": 2,
+          "note": "顆粒細胞肉瘤（骨髓肉瘤）系統性回顧 42 例，治療含 Cytarabine，對罕見型別提供最大現有證據。"
+        },
+        {
+          "pmid": "12656749",
+          "title": "Acute myeloid leukemia mimicking primary testicular neoplasm",
+          "year": "2003",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "AML 模擬睾丸腫瘤（腹膜後相鄰）個案，鑑別診斷參考。"
+        },
+        {
+          "pmid": "2049752",
+          "title": "Improved treatment results in boys with overt testicular relapse during or shortly after initial therapy for ALL",
+          "year": "1991",
+          "study_type": "Clinical Study",
+          "tier": 3,
+          "note": "ALL 睾丸復發（腹膜後）含 Cytarabine 強化，歷史數據，間接參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "neuroblastoma",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cytarabine 對神經母細胞瘤具雙重潛在機轉：(1) 直接細胞毒性（DNA 合成抑制）；(2) 分化誘導活性—體外研究顯示 Ara-C 聯合干擾素/維A酸可誘導 NB 細胞形態分化（PMID 2917605, 1751963）。Cyclopentenyl cytosine 前處理可增敏 Cytarabine 毒性（PMID 12471622）。然而現行 NB 標準方案以 COJEC/鉑類/拓撲替康為主，Cytarabine 缺乏大型 Phase II/III 直接試驗支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03236857",
+          "relevance_grade": "B",
+          "reasoning": "Venetoclax 兒科腫瘤 Phase 1（N=143，含 NB），已完成。雖非 Cytarabine 試驗，但 Cytarabine 常與 Venetoclax 組合用於難治血液腫瘤，提供 NB 新藥組合框架參考。"
+        },
+        {
+          "nct_id": "NCT06942039",
+          "relevance_grade": "B",
+          "reasoning": "鞘內 Topotecan+維持化療用於 NB 後鞏固治療，Early Phase 1，招募中（N=15）。Cytarabine 為常見維持化療組成，設計模式高度相關，提供現代 NB 鞘注治療框架。"
+        },
+        {
+          "nct_id": "NCT04029688",
+          "relevance_grade": "C",
+          "reasoning": "多臂 Phase 1/2，因安全性問題提前終止（N=38），非 Cytarabine 特異性，間接兒科腫瘤安全性參考。"
+        },
+        {
+          "nct_id": "NCT01546038",
+          "relevance_grade": "C",
+          "reasoning": "Hedgehog 抑制劑 Phase 2（N=255），NB 為其中一適應症，與 Cytarabine 機轉無直接關聯。"
+        },
+        {
+          "nct_id": "NCT02130869",
+          "relevance_grade": "C",
+          "reasoning": "NK 細胞輸注 Phase 1（N=8），淋巴清除可能含 Cytarabine，但非研究主體，間接背景。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2917605",
+          "title": "Morphologic and phenotypic changes of human neuroblastoma cells in culture induced by cytosine arabinoside",
+          "year": "1989",
+          "study_type": "In Vitro Study",
+          "tier": 1,
+          "note": "核心機轉文獻：Ara-C 直接誘導人類 NB 細胞形態和表型分化，提供強力體外概念驗證。"
+        },
+        {
+          "pmid": "1751963",
+          "title": "Gamma-interferon, retinoic acid, and cytosine arabinoside induce neuroblastoma differentiation by distinct pathways",
+          "year": "1991",
+          "study_type": "In Vitro Study",
+          "tier": 1,
+          "note": "三藥組合誘導 NB 分化，不同路徑機轉，支持 Ara-C 在分化治療中的角色，高度相關。"
+        },
+        {
+          "pmid": "12471622",
+          "title": "Cyclopentenyl cytosine primes SK-N-BE(2)c neuroblastoma cells for cytarabine toxicity",
+          "year": "2003",
+          "study_type": "In Vitro Study",
+          "tier": 1,
+          "note": "Cytarabine 增敏策略研究，CPEC 前處理提升 NB 細胞 Ara-C 殺傷效果，提供組合治療依據。"
+        },
+        {
+          "pmid": "1358448",
+          "title": "A combined evaluation of biochemical and morphological changes during human neuroblastoma cell differentiation",
+          "year": "1992",
+          "study_type": "In Vitro Study",
+          "tier": 1,
+          "note": "NB 細胞分化中生化和形態變化聯合評估，支持 Ara-C 誘導分化機轉的生化基礎。"
+        },
+        {
+          "pmid": "7529082",
+          "title": "Sensitivity to bleomycin and arabinoside cytosine in lymphocytes of patients affected by neuroblastoma",
+          "year": "1993",
+          "study_type": "Ex Vivo Study",
+          "tier": 2,
+          "note": "NB 患者淋巴細胞對 Ara-C 敏感性研究（DNA 損傷反應），提供患者層面的生物標誌前期數據。"
+        },
+        {
+          "pmid": "36688816",
+          "title": "Green Light-Triggerable Chemo-Photothermal Activity of Cytarabine-Loaded Polymer Carbon Dots: Mechanism of Cancer Therapy",
+          "year": "2023",
+          "study_type": "In Vitro/Nanotechnology Study",
+          "tier": 2,
+          "note": "2023 年 Cytarabine 奈米遞送（光熱+化療）用於癌症，提供新型遞送策略概念，應用可延伸至 NB。"
+        },
+        {
+          "pmid": "15867251",
+          "title": "Sensitivity to gemcitabine and its metabolizing enzymes in neuroblastoma",
+          "year": "2005",
+          "study_type": "In Vitro Study",
+          "tier": 2,
+          "note": "NB 對 Gemcitabine（同類嘧啶核苷類似物）敏感性與代謝酶研究，間接支持核苷類似物在 NB 的生物學基礎。"
+        },
+        {
+          "pmid": "8070034",
+          "title": "Epipodophyllotoxins in the treatment of childhood cancer",
+          "year": "1994",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "兒科腫瘤化療綜述，Cytarabine 為組合背景藥，歷史參考。"
+        },
+        {
+          "pmid": "9394364",
+          "title": "Clinical status and optimal use of topotecan",
+          "year": "1997",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "Topotecan 在 NB 等兒科腫瘤的應用，Cytarabine 為比較/組合背景，間接參考。"
+        },
+        {
+          "pmid": "31681584",
+          "title": "Two Receptors, Two Isoforms, Two Cancers: Comprehensive Analysis of KIT and TrkA Expression in Neuroblastoma",
+          "year": "2019",
+          "study_type": "Translational Study",
+          "tier": 3,
+          "note": "KIT/TrkA 在 NB 表現分析，靶向治療背景，與 Cytarabine 直接關聯性低。"
+        }
+      ]
+    },
+    {
+      "disease_name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IgHV 體細胞超突變陽性（mutated-IGHV）的 CLL/SLL 為預後良好亞型，對 FCR（氟達拉濱+環磷醯胺+利妥昔單抗）化療免疫方案反應佳，Cytarabine 雖在 Richter 轉化（OFAR 方案）有使用，但針對此特定 IGHV 突變亞型無任何臨床試驗或文獻記錄。現代治療已轉向 BTK 抑制劑（伊布替尼/澤布替尼）和 BCL-2 抑制劑（維奈克拉），Cytarabine 再利用空間極為有限。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": [
+    {
+      "disease_name": "small cell lung carcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "key_evidence": "Phase II 試驗（NSCLC）+ 歷史 SCLC 文獻；鞘內/腦膜轉移場景具潛力"
+    },
+    {
+      "disease_name": "primary pulmonary lymphoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "key_evidence": "OFAR Phase 1/2 直接含 Cytarabine；HD-MTX+AraC 為 CNS 淋巴瘤標準方案"
+    },
+    {
+      "disease_name": "well-differentiated fetal adenocarcinoma of the lung",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "key_evidence": "無任何臨床或基礎研究"
+    },
+    {
+      "disease_name": "pulmonary blastoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "key_evidence": "無任何臨床或基礎研究"
+    },
+    {
+      "disease_name": "upper aerodigestive tract neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "key_evidence": "1989 年 Ara-C+CDDP 頭頸癌小樣本探索；嗅神經母細胞瘤案例"
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "key_evidence": "無直接研究；與神經母細胞瘤共享部分治療框架但缺乏特異性"
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "key_evidence": "非腫瘤性遺傳症候群，KG 預測為偽陽性，建議排除"
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "key_evidence": "骨髓肉瘤個案含 Cytarabine；病理高度異質性，不支持通用建議"
+    },
+    {
+      "disease_name": "neuroblastoma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "key_evidence": "多篇體外研究證明分化誘導機轉；增敏策略（CPEC+Ara-C）具研究潛力"
+    },
+    {
+      "disease_name": "CLL/SLL with mutated-IGHV",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "key_evidence": "無 IGHV 亞型特異性研究；現代 BTKi/BCL-2 抑制劑取代化療"
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 可進一步評估（S2）
+| 適應症 | 等級 | 關鍵依據 |
+|--------|------|----------|
+| **Primary pulmonary lymphoma** | L3 → S2 | OFAR 方案（NCT00452374）直接含 Cytarabine；HD-MTX+AraC 已是 CNS 淋巴瘤標準，外推至肺淋巴瘤具邏輯連貫性 |
+
+### 🟡 尚需研究（S1）
+| 適應症 | 等級 | 研究缺口 |
+|--------|------|----------|
+| **Small cell lung carcinoma** | L3 | Phase II 數據來自 NSCLC，需 SCLC 專屬臨床設計；腦膜轉移場景最具切入點 |
+| **Neuroblastoma** | L3 | 體外機轉強（分化誘導），但缺乏 Phase I/II 直接 Cytarabine 試驗 |
+| **Upper aerodigestive tract neoplasm** | L4 | 僅 1989 年小樣本探索，需現代 Phase I 安全性評估 |
+
+### 🔴 暫不建議（S0 / Hold）
+- **Pulmonary blastoma、WDFA**：罕見腫瘤，完全無證據
+- **Ganglioneuroblastoma、CLL/SLL with mutated-IGHV**：無特異性研究，現代治療已替代
+- **Retroperitoneal neoplasm**：病理異質性過高，不支持通用建議
+- **Vertebral anomalies syndrome**：非腫瘤性疾病，KG 偽陽性，**建議從候選清單移除**

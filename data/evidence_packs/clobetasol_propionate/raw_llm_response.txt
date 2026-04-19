@@ -1,0 +1,466 @@
+## 藥物再利用證據分析 — Clobetasol Propionate (DB01013)
+
+> **背景說明**：Clobetasol propionate 為超強效（Class I）外用糖皮質激素，全球已廣泛用於多種炎症性皮膚病（牛皮癬、皮炎等）。本市場（`market_status: 未上市`）無原始適應症登錄，MoA 欄位標記為 [Data Gap]，但其藥理機轉（GCR 激動 → 抑制 NF-κB → 下調 IL-1/IL-6/TNF-α；抑制磷脂酶 A2；抑制 T 細胞增殖；角化細胞抗增殖）於文獻中已有充分描述，以下分析基於此既知機轉。
+
+---
+
+```json
+{
+  "drug": "Clobetasol propionate",
+  "drugbank_id": "DB01013",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "market_status 未上市（新加坡），original_indications 空陣列。MoA 為既知超強效 GCR 激動劑，[Data Gap] 係本地資料缺失，非藥理未知。",
+  "indications": [
+    {
+      "disease_name": "psoriasis",
+      "txgnn_score": 0.9630,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "confidence": "HIGH",
+      "mechanistic_link": "Clobetasol 透過抑制 Th1/Th17 軸（IL-17A、IL-22、TNF-α）及角化細胞過增殖，直接對抗牛皮癬核心病理；外用超強效類固醇為牛皮癬第一線局部療法，機轉高度吻合。",
+      "key_finding": "Phase 3 RCT（NCT01235442，n=592）完成；Phase 4 多項大型試驗完成；全球有充足 RCT 與系統性綜述支持。主要風險為 HPA 軸抑制（尤兒童），NCT04364555 有 iatrogenic Cushing's 案例報告。",
+      "guardrails": [
+        "限短期（≤4週）或間歇使用，勿大面積連續塗抹",
+        "兒童患者需監測 HPA 軸，計算用量上限",
+        "面部、皮膚皺褶、黏膜區域禁用或極謹慎使用",
+        "本地上市申請應附具 Phase 3 完整數據包"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01235442",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，COMPLETED，n=592，Etanercept + 外用 clobetasol vs 單藥，直接評估 clobetasol 於牛皮癬療效，最高等級直接證據"
+        },
+        {
+          "nct_id": "NCT00438399",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，COMPLETED，n=219，Clobetasol shampoo 0.05% 偏好比較，直接評估不同劑型於牛皮癬"
+        },
+        {
+          "nct_id": "NCT00437255",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，COMPLETED，n=122，Clobetasol 噴劑療效與安全性，直接相關"
+        },
+        {
+          "nct_id": "NCT00436540",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，COMPLETED，n=78，Clobetasol 噴劑 vs 泡沫劑比較，劑型最佳化證據"
+        },
+        {
+          "nct_id": "NCT00988637",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，COMPLETED，n=138，多中心安全性與療效評估，直接支持"
+        },
+        {
+          "nct_id": "NCT05706870",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，COMPLETED，n=190，多中心 RDB，牛皮癬治療評估，高品質 Phase 2 證據"
+        },
+        {
+          "nct_id": "NCT01043224",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，COMPLETED，n=24，Clobetasol + calcipotriol 聯合療法，機轉探索性研究"
+        },
+        {
+          "nct_id": "NCT03453190",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，UNKNOWN 狀態，n=20，Apremilast + Clobetasol 聯合，樣本小且狀態不明"
+        },
+        {
+          "nct_id": "NCT04220554",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，COMPLETED，n=103，依從性研究，間接支持長期使用可行性"
+        },
+        {
+          "nct_id": "NCT01205880",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，COMPLETED，n=12，樣本偏小，Clobetasol spray + Vectical 聯合，參考價值有限"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32308782",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "Clobetasol 0.025% 用於牛皮癬的綜述，總結多劑型療效與安全性資料"
+        },
+        {
+          "pmid": "36745373",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Halobetasol + tazarotene vs Clobetasol 頭對頭 RCT，2023，牛皮癬治療比較基準"
+        },
+        {
+          "pmid": "18806904",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "Clobetasol 適應症、用法與安全邊際的臨床使用指引綜述"
+        },
+        {
+          "pmid": "16774104",
+          "study_type": "Clinical Comparative Study",
+          "tier": "2",
+          "note": "軟膏 vs 其他劑型效力比較，臨床實踐指導意義高"
+        },
+        {
+          "pmid": "16086659",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Clobetasol 泡沫劑用於牛皮癬，早期劑型研究"
+        },
+        {
+          "pmid": "35533304",
+          "study_type": "RCT",
+          "tier": "2",
+          "note": "Halobetasol lotion vs Clobetasol，間接比較數據"
+        },
+        {
+          "pmid": "11705308",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Clobetasol 泡沫劑，2001，奠定劑型多樣化基礎"
+        },
+        {
+          "pmid": "39273201",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "大鼠 imiquimod 誘導牛皮癬模型，機轉驗證；臨床直接應用性低"
+        },
+        {
+          "pmid": "32598275",
+          "study_type": "Formulation Study",
+          "tier": "3",
+          "note": "奈米脂質載體凝膠開發，製劑探索，非臨床療效研究"
+        },
+        {
+          "pmid": "39695818",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 兒童牛皮癬使用 clobetasol 導致醫源性 Cushing's syndrome，重要安全性警示"
+        }
+      ]
+    },
+    {
+      "disease_name": "exanthem (disease)",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "confidence": "MODERATE",
+      "mechanistic_link": "Exanthem（皮膚疹）多由免疫炎症驅動（T細胞介導、細胞激素風暴）；Clobetasol 廣效抑制炎症瀑布，可緩解多種炎症性皮膚疹，尤以苔癬樣（lichenoid）型最有文獻支持（OLP 為 exanthem 子集）。",
+      "key_finding": "21 項臨床試驗中多數針對口腔扁平苔癬（OLP，Oral Lichen Planus），其為黏膜型 exanthem；NCT04364555（Phase 2/3，n=90，active）及 NCT01323673（Phase 4，n=125，completed）為最相關的直接 clobetasol 試驗。然而，廣義 exanthem（如病毒疹）的直接 RCT 仍缺乏。",
+      "caveats": [
+        "大多數試驗針對 OLP，非廣義病毒性/藥疹性 exanthem",
+        "Exanthem 病因異質性高（病毒性、藥物性、自體免疫），clobetasol 對不同病因療效可能差異大",
+        "DRESS（NCT01987076）為嚴重藥疹，使用 clobetasol 需謹慎評估"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04364555",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3 多中心 RCT，n=90，ACTIVE_NOT_RECRUITING，Clobetasol 直接用於 OLP（symptomatic oral lichen planus = lichenoid exanthem），最高相關性"
+        },
+        {
+          "nct_id": "NCT01323673",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，COMPLETED，n=125，Clobetasol 泡沫無酒精配方用於慢性皮膚炎症，直接相關"
+        },
+        {
+          "nct_id": "NCT00393263",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，COMPLETED，n=38，Pimecrolimus vs Clobetasol 頭對頭比較，皮膚炎症情境，方法學完整"
+        },
+        {
+          "nct_id": "NCT07278999",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，RECRUITING，n=60，Clobetasol + 光生物調節治療 OLP 糜爛型，結合療法，可行性數據"
+        },
+        {
+          "nct_id": "NCT05818618",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，COMPLETED，n=64，Clobetasol 對 OLP 的分子機轉（gingival miRNA），機制探索"
+        },
+        {
+          "nct_id": "NCT01987076",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，UNKNOWN，n=112，DRESS 皮質類固醇治療，廣義藥疹/exanthem 相關，但非 clobetasol 特異"
+        },
+        {
+          "nct_id": "NCT03026478",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，UNKNOWN，n=30，Clobetasol vs Betamethasone 比較，可能為 OLP，狀態不明降低可信度"
+        },
+        {
+          "nct_id": "NCT03320460",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，UNKNOWN，n=44，光生物調節 for OLP，無直接 clobetasol 評估，相關性低"
+        },
+        {
+          "nct_id": "NCT03386643",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，COMPLETED，n=22，益生菌介入，非 clobetasol 相關試驗，僅疾病背景相關"
+        },
+        {
+          "nct_id": "NCT07100613",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，RECRUITING，n=45，黏附性貼片劑型研究，非 clobetasol 主角，間接參考"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29974124",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Tamsulosin 誘發光敏性皮疹，描述 exanthem 表現，無 clobetasol 相關內容"
+        },
+        {
+          "pmid": "36342724",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Epoprostenol 長期使用後無炎症皮疹，描述性病例，無治療評估"
+        },
+        {
+          "pmid": "34289766",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "膿疱性牛皮癬住院特徵分析，與廣義 exanthem 有重疊，但非 clobetasol 療效研究"
+        },
+        {
+          "pmid": "29736978",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "園藝後丘疹性皮疹病例，描述 exanthem 表現，無治療數據"
+        },
+        {
+          "pmid": "30604475",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "頭皮皮角病例，與 exanthem 連結薄弱"
+        },
+        {
+          "pmid": "18544295",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Gianotti-Crosti 症候群成人案例，病毒性 exanthem 表現，無 clobetasol 療效資訊"
+        }
+      ]
+    },
+    {
+      "disease_name": "acne keloid",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "confidence": "LOW-MODERATE",
+      "mechanistic_link": "Clobetasol 抑制纖維母細胞增殖及膠原合成（TGF-β 路徑下調），可減少瘢痕疙瘩形成；同時抑制毛囊周炎症，對 acne keloidalis nuchae（後頸部疙瘩性痤瘡）具雙重作用機轉。",
+      "key_finding": "僅有 1 篇開放性研究（PMID 16047868，2005）直接評估 Clobetasol 泡沫劑用於 acne keloid，無 RCT 支持，證據薄弱但機轉合理。",
+      "caveats": [
+        "單一開放性研究，樣本量與方法不明，偏倚風險高",
+        "長期外用強效類固醇於頭頸部可能導致皮膚萎縮、毛囊炎惡化",
+        "瘢痕疙瘩治療首選為皮內注射（triamcinolone），外用 clobetasol 為輔助角色"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16047868",
+          "study_type": "Open-label Study",
+          "tier": "2",
+          "note": "直接評估 Clobetasol propionate 0.05% 與 betamethasone valerate 0.12% 泡沫劑用於 acne keloid，2005，唯一直接證據；開放性設計，偏倚風險中等"
+        }
+      ]
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "LOW",
+      "mechanistic_link": "ACA 為萊姆病晚期皮膚表現（Borrelia burgdorferi 感染），以真皮萎縮與慢性炎症為特徵；Clobetasol 抗炎可能緩解局部炎症反應，但無法清除根本病原，且長期類固醇可能掩蓋感染進展或抑制免疫清除。",
+      "key_finding": "1 項臨床試驗（NCT04719962）為 Lyme borreliosis「診斷性」蛋白質組學研究（非治療），與 clobetasol 完全無關；1 篇文獻（PMID 25878446）為 Borrelia 感染相關性脫髮，非 ACA 之 clobetasol 療效研究。實質上零直接臨床證據。",
+      "caveats": [
+        "ACA 標準治療為抗生素（doxycycline / amoxicillin），糖皮質激素非適用",
+        "外用強效類固醇可能抑制局部免疫，加重 Borrelia 感染",
+        "TxGNN 高分（0.993）可能源於皮膚炎症特徵相似性，非真實療效信號"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04719962",
+          "relevance_grade": "C",
+          "reasoning": "萊姆病散播性感染的蛋白質組學診斷研究，Phase NA，UNKNOWN，n=10；與 clobetasol 治療 ACA 完全無關，收錄可能為疾病背景匹配錯誤"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25878446",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Borrelia 感染相關急性瀰漫性脫髮，描述病例，未涉及 clobetasol 療效，與 ACA 直接治療關聯極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "VERY LOW",
+      "mechanistic_link": "皮肌炎（DM）皮膚表現以 T 細胞及干擾素信號過活化為核心；類固醇（全身性）為 DM 標準治療；但 clobetasol 為外用製劑，對系統性肌炎病理無效，僅理論上可緩解皮膚 Gottron 丘疹等局部炎症。新生兒型更罕見，安全性數據幾近空白。",
+      "key_finding": "零臨床試驗，零文獻，TxGNN 純預測。新生兒皮肌炎極罕見，外用強效類固醇在新生兒的全身吸收風險極高。",
+      "caveats": [
+        "新生兒皮膚屏障不成熟，clobetasol 全身吸收率遠高於成人，HPA 抑制風險極高",
+        "全身性免疫抑制（類固醇口服/靜脈）才能有效治療肌炎成分",
+        "需優先確立安全性基線（Phase 0/1 毒理）再考量臨床研究"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn_score": 0.9905,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "VERY LOW",
+      "mechanistic_link": "無肌病皮肌炎（ADM）以皮膚炎症（Gottron 丘疹、V-neck sign）為主，無肌肉受損；Clobetasol 理論上可控制局部皮膚炎症；但 ADM 患者 ILD 合併率高，需警惕類固醇相關感染風險；且系統性免疫調節（羥氯喹、甲氨蝶呤）更為標準。",
+      "key_finding": "零臨床試驗，零文獻，TxGNN 純預測。機轉連結合理但臨床優先序低，建議觀察而非主動開發。",
+      "caveats": [
+        "ADM 患者常需系統性治療（ILD 監控），外用 clobetasol 為局部輔助，非主要療法",
+        "長期外用強效類固醇可能誘發感染，對免疫功能已受損的 ADM 患者風險更高"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "VERY LOW",
+      "mechanistic_link": "CTD-ILD 以肺部纖維化與炎症為核心；全身性糖皮質激素（口服/靜脈潑尼松龍等）為標準治療；Clobetasol 為外用製劑，生物利用率不足以達到肺部治療濃度，機轉連結極弱。TxGNN 預測可能源於皮質類固醇藥物類別的類別效應錯誤推斷。",
+      "key_finding": "零臨床試驗，零文獻。外用 clobetasol 物理上無法到達肺組織，此預測被認為屬模型的藥物類別泛化偽陽性。",
+      "caveats": [
+        "外用類固醇對肺部疾病無治療路徑，建議標記為模型假陽性",
+        "若需探索糖皮質激素類別效應，應研究口服/吸入製劑，而非 clobetasol"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.9888,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "VERY LOW",
+      "mechanistic_link": "家族性種痘水疱病為 EBV 驅動的 T/NK 細胞光敏反應；類固醇理論上可抑制局部炎症，但無法針對 EBV 病毒驅動機轉；且長期外用強效類固醇可能進一步損傷已脆弱的皮膚屏障。",
+      "key_finding": "零臨床試驗，零文獻，極罕見疾病（孤兒病），TxGNN 純預測。",
+      "caveats": [
+        "極罕見疾病，難以開展臨床試驗",
+        "主要治療策略為光防護，而非糖皮質激素"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vulvar inverted follicular keratosis",
+      "txgnn_score": 0.9945,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "VERY LOW",
+      "mechanistic_link": "外翻性毛囊角化症（IFK）為良性角化腫瘤（seborrheic keratosis 變異型）；Clobetasol 抗增殖及抗炎效應理論上可抑制異常角化，但 IFK 通常以手術切除為標準處置，類固醇外用的臨床意義存疑。外陰部位使用強效類固醇風險更高（皮膚萎縮）。",
+      "key_finding": "零臨床試驗，零文獻，TxGNN 最高預測分（0.9946）但無任何臨床支持，典型的高分偽陽性案例。",
+      "caveats": [
+        "IFK 為良性腫瘤，手術切除為首選，類固醇非適應症",
+        "外陰部位皮膚薄，超強效類固醇長期使用風險高（萎縮、繼發感染）",
+        "高 TxGNN 分數可能源於角化增殖的特徵相似性，非真實療效預測"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "2-hydroxyethyl methacrylate sensitization",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "confidence": "VERY LOW",
+      "mechanistic_link": "HEMA 敏感化為接觸性致敏（IVb 型過敏反應）；Clobetasol 可非特異性抑制已誘發的過敏性接觸性皮炎炎症反應，機轉合理，但無法逆轉致敏狀態，且非真正意義上的「再利用」（類固醇治療接觸性皮炎為已知用途）。",
+      "key_finding": "零臨床試驗，零文獻。此適應症更接近 clobetasol 既有廣義用途（接觸性皮炎），非再利用創新點，建議重新評估候選資格。",
+      "caveats": [
+        "接觸性皮炎本就是外用類固醇已知適應症，此預測意義有限",
+        "根本治療為避免接觸 HEMA，而非持續使用類固醇"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": ["psoriasis"],
+      "L2": ["exanthem (disease)"],
+      "L3": ["acne keloid"],
+      "L4": [],
+      "L5": [
+        "acrodermatitis chronica atrophicans",
+        "neonatal dermatomyositis",
+        "secondary interstitial lung disease...",
+        "amyopathic dermatomyositis",
+        "hydroa vacciniforme, familial",
+        "vulvar inverted follicular keratosis",
+        "2-hydroxyethyl methacrylate sensitization"
+      ]
+    },
+    "priority_recommendations": [
+      {
+        "rank": 1,
+        "indication": "psoriasis",
+        "rationale": "L1 證據，Phase 3 RCT 完成，全球已廣泛使用，本地市場准入申請可行性最高"
+      },
+      {
+        "rank": 2,
+        "indication": "exanthem (disease) → oral lichen planus 子集",
+        "rationale": "L2 證據，Phase 2/3 RCT 進行中，OLP 為明確可行的研究問題，建議縮窄至 OLP 再申報"
+      },
+      {
+        "rank": 3,
+        "indication": "acne keloid",
+        "rationale": "L3 單一開放性研究，機轉合理，需要小型 Phase 2 RCT 確立療效"
+      }
+    ],
+    "false_positive_flags": [
+      "secondary interstitial lung disease（外用藥物無法到達肺部）",
+      "vulvar inverted follicular keratosis（良性腫瘤，手術優先）",
+      "2-HEMA sensitization（非真正再利用，為既知用途）"
+    ],
+    "safety_alerts": [
+      "⚠️ 兒童患者：PMID 39695818 記錄 iatrogenic Cushing's syndrome",
+      "⚠️ 大面積/長期使用：HPA 軸抑制風險，需設定 DDI 與劑量上限監控",
+      "⚠️ 免疫抑制背景（ACA、ADM）：感染加重風險，不建議使用"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|------------|---------|---------|------|
+| **psoriasis** | 0.963 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| **exanthem (OLP)** | 0.993 | **L2** | **S2** | 🔬 Research Question |
+| **acne keloid** | 0.992 | **L3** | **S1** | 🔬 Research Question |
+| acrodermatitis chronica atrophicans | 0.993 | L5 | S0 | ❌ Hold |
+| neonatal dermatomyositis | 0.992 | L5 | S0 | ❌ Hold |
+| amyopathic dermatomyositis | 0.991 | L5 | S0 | ❌ Hold |
+| hydroa vacciniforme, familial | 0.989 | L5 | S0 | ❌ Hold |
+| vulvar inverted follicular keratosis | **0.995** | L5 | S0 | ❌ Hold（偽陽性）|
+| secondary ILD + CTD | 0.991 | L5 | S0 | ❌ Hold（偽陽性）|
+| 2-HEMA sensitization | 0.988 | L5 | S0 | ❌ Hold（非再利用）|
+
+> **關鍵洞察**：TxGNN 高分（>0.99）並不等同於高臨床證據等級。`vulvar IFK`（最高分 0.9946）實為最典型的偽陽性，而 `psoriasis`（相對較低分 0.963）反而是唯一 L1 直接證據適應症，體現了模型分數與臨床可轉化性之間的解離，需結合文獻與試驗數據共同判斷。

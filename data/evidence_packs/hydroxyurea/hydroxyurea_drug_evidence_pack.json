@@ -1,0 +1,1882 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01005-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydroxyurea",
+    "drugbank_id": "DB01005",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "female breast carcinoma",
+      "txgnn": {
+        "score": 0.9996738433837892,
+        "rank": 860
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38211596",
+            "title": "\"In-silico Design and Development of Novel Hydroxyurea Lipid Drug Conjugates for Breast Cancer Therapy Targeting PI3K/AKT/mTOR Pathway\".",
+            "authors": [
+              "Dharmaraj Saranya",
+              "Swaroop Akey Krishna",
+              "Esakkimuthukumar Mariappan",
+              "Negi Preeya",
+              "Jubie Selvaraj"
+            ],
+            "journal": "Drug research",
+            "year": "2024",
+            "abstract": "Hydroxyurea (HU) has shown promise in breast cancer treatment, but its hydrophilic nature limits its efficacy. Therefore, conjugating HU with lipids could increase its liphophilicity and improve its cellular uptake, leading to increased efficacy and reduced toxicity. The PI3K/Akt/mTOR pathway is an attractive therapeutic target in cancer not only because it is the second most frequently altered pathway after p53, but also because it serves as a convergence point for many stimuli. The aim of this",
+            "classification": {
+              "study_type": "In-silico / Computational",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1957839",
+            "title": "A phase I study of a combination of allopurinol, 5-fluorouracil and leucovorin followed by hydroxyurea in patients with advanced gastrointestinal and breast cancer.",
+            "authors": [
+              "Bhalla K",
+              "Birkhofer M",
+              "Bhalla M",
+              "Lutzky J",
+              "Hindenburg A"
+            ],
+            "journal": "American journal of clinical oncology",
+            "year": "1991",
+            "abstract": "Twenty patients with advanced carcinomas of the colorectum, pancreas, stomach, and breast were enrolled in a Phase I study of a sequential administration of 5-fluorouracil-leucovorin (FU-LV) combination followed by hydroxyurea (HU) with allopurinol protection (HALF regimen). As a weekly regimen for 6 weeks, followed by a rest period of 2 weeks, FU was administered intravenously (i.v.) during infusion of a 2-hour i.v. infusion of LV at a dose of 500 mg/m2. Six hours following the FU-LV combinatio",
+            "classification": {
+              "study_type": "Phase I RCT (combination)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2245491",
+            "title": "Cisplatin preceded by concurrent cytarabine and hydroxyurea: a pilot study based on an in vitro model.",
+            "authors": [
+              "Albain K S",
+              "Swinnen L J",
+              "Erickson L C",
+              "Stiff P J",
+              "Fisher R I"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "1990",
+            "abstract": "As previously reported, cytotoxic synergy is produced when clinically achievable concentrations of cytarabine (Ara-C) and hydroxyurea (HU) are used as potential inhibitors of in vitro DNA repair in cisplatin (cis-Pt)-treated human colon carcinoma cells. This pilot study was subsequently designed to duplicate the in vitro dose and schedule and to determine the toxicity of this three-drug combination in two cohorts of patients. 21 patients had received prior chemotherapy and 19 were not previously",
+            "classification": {
+              "study_type": "Pilot / In vitro-guided clinical",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1733549",
+            "title": "5-Fluorouracil, leucovorin, hydroxyurea, and escalating doses of continuous-infusion cisplatin with concomitant radiotherapy: a clinical and pharmacologic study.",
+            "authors": [
+              "Vokes E E",
+              "Moormeier J A",
+              "Ratain M J",
+              "Egorin M J",
+              "Haraf D J"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "1992",
+            "abstract": "Cisplatin (CDDP), 5-fluorouracil (5-FU), and hydroxyurea (HU) have individually demonstrated activity against several solid tumors, act synergistically with each other in vitro, and may act as radiation sensitizers. Therefore, we designed a phase I study to determine the maximally tolerated dose of cisplatin as given in addition to our previously described combination of 5-FU, HU, and concomitant radiotherapy (XRT). Patients exhibiting advanced solid tumors requiring palliative XRT were eligible",
+            "classification": {
+              "study_type": "Phase I/II (combination)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37777742",
+            "title": "EYA4 promotes breast cancer progression and metastasis through its role in replication stress avoidance.",
+            "authors": [
+              "de la Peña Avalos Bárbara",
+              "Tropée Romain",
+              "Duijf Pascal H G",
+              "Dray Eloïse"
+            ],
+            "journal": "Molecular cancer",
+            "year": "2023",
+            "abstract": "The Eyes Absent (EYA) family of proteins is an atypical group of four dual-functioning protein phosphatases (PP), which have been linked to many vital cellular processes and organogenesis pathways. The four family members of this PP family possess transcriptional activation and phosphatase functions, with serine/threonine and tyrosine phosphatase domains. EYA4 has been associated with several human cancers, with tumor-suppressing and tumor-promoting roles. However, EYA4 is the least well-charact",
+            "classification": {
+              "study_type": "Mechanistic / Preclinical",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26844848",
+            "title": "In Vitro/In Vivo Evaluation of Radiolabeled [(99m)Tc(CO)3](+)-Hydroxyurea and Fluorescein Isothiocyanate-Hydroxyurea.",
+            "authors": [
+              "Yilmaz Baris",
+              "Teksoz Serap",
+              "Kilcar Ayfer Yurt",
+              "Ucar Eser",
+              "Ichedef Cigdem"
+            ],
+            "journal": "Cancer biotherapy & radiopharmaceuticals",
+            "year": "2016",
+            "abstract": "The aim of current study is to examine hydroxyurea (HU), which is an antineoplastic drug used for the treatment of leukemia, sickle-cell disease, HIV, psoriasis, thrombocythemia, and various neoplastic diseases in two aspects. The active ingredient hydroxyurea was obtained by purification of the capsule form drug, commercially named as HYDREA. Then, [(99m)Tc(CO)3](+)core radiolabeling with HU was performed as first aspect. Quality control studies of (99m)Tc(CO)3-HU complex were performed by thin",
+            "classification": {
+              "study_type": "Preclinical (radiolabeled)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7914447",
+            "title": "High-dose cyclophosphamide, thiotepa and hydroxyurea with autologous hematopoietic stem cell rescue: an effective consolidation chemotherapy regimen for early metastatic breast cancer.",
+            "authors": [
+              "Vaughan W P",
+              "Reed E C",
+              "Edwards B",
+              "Kessinger A"
+            ],
+            "journal": "Bone marrow transplantation",
+            "year": "1994",
+            "abstract": "Phase I and II trials have demonstrated that high-dose chemotherapy with autologous hematopoietic stem cell rescue is effective 'consolidation' chemotherapy for patients with responding metastatic breast cancer. In this study 26 women with metastatic breast cancer responding to lower dose combination chemotherapy were treated with 18 g/m2 of hydroxyurea added to the widely used combination of cyclophosphamide (CY) 6 g/m2 and thiotepa 600 mg/m2. Hematopoietic stem cell support was provided in the",
+            "classification": {
+              "study_type": "Phase I/II (high-dose with stem cell rescue)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33631478",
+            "title": "An update on the role of long non-coding RNAs in the pathogenesis of breast cancer.",
+            "authors": [
+              "Ghafouri-Fard Soudeh",
+              "Tamizkar Kasra Honarmand",
+              "Hussen Bashdar Mahmud",
+              "Taheri Mohammad"
+            ],
+            "journal": "Pathology, research and practice",
+            "year": "2021",
+            "abstract": "Breast cancer is the most frequent female malignancy. This malignancy has diverse clinical and molecular subtypes with different prognoses. Dysregulation of long non-coding RNAs (lncRNAs) not only participates in the development of breast cancer, but also affects the clinical course and prognosis of this type of cancer. Hundreds of studies have shown up-regulation or down-regulation of lncRNAs in breast cancer samples or serum samples of affected individuals suggesting these RNA molecules as dia",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28237610",
+            "title": "Visceral and bone metastases of a WHO grade 2 meningioma: A case report and review of the literature.",
+            "authors": [
+              "Paix A",
+              "Waissi W",
+              "Antoni D",
+              "Adeduntan R",
+              "Noël G"
+            ],
+            "journal": "Cancer radiotherapie : journal de la Societe francaise de radiotherapie oncologique",
+            "year": "2017",
+            "abstract": "Meningiomas represent the most common tumours of the central nervous system in adults. Risk factors include ionizing radiation, female hormones exposure, head trauma, cell phone use, breast cancer and family history of meningioma. Despite complete surgical resection, natural history of meningiomas often includes local recurrence but very few metastatic meningiomas have been reported. Here, we report the case of a metastatic meningioma. A 43-year-old woman was firstly treated for a symptomatic pa",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21730979",
+            "title": "Identification and evaluation of a potent novel ATR inhibitor, NU6027, in breast and ovarian cancer cell lines.",
+            "authors": [
+              "Peasland A",
+              "Wang L-Z",
+              "Rowling E",
+              "Kyle S",
+              "Chen T"
+            ],
+            "journal": "British journal of cancer",
+            "year": "2011",
+            "abstract": "The ataxia telangiectasia mutated and Rad3-related kinase (ATR) has a key role in the signalling of stalled replication forks and DNA damage to cell cycle checkpoints and DNA repair. It has long been recognised as an important target for cancer therapy but inhibitors have proved elusive. As NU6027, originally developed as a CDK2 inhibitor, potentiated cisplatin in a CDK2-independent manner we postulated that it may inhibit ATR.",
+            "classification": {
+              "study_type": "Preclinical (cell line)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32795962",
+            "title": "2-hexyl-4-pentynoic acid, a potential therapeutic for breast carcinoma by influencing RPA2 hyperphosphorylation-mediated DNA repair.",
+            "authors": [
+              "Ding Wenwen",
+              "Lim David",
+              "Wang Zhendong",
+              "Cai Zuchao",
+              "Liu Guochao"
+            ],
+            "journal": "DNA repair",
+            "year": "2020",
+            "abstract": "Breast carcinoma is one of the most common malignancies in women. Previous studies have reported that 500 μM valproic acid can sensitize breast tumor cells to the anti-neoplastic agent hydroxyurea. However, the dose requirements for valproic acid is highly variable due to the wide inter-individuals clinical characteristics. High therapeutic dose of valproic acid required to induce anti-tumor activity in solid tumor was associated with increased adverse effects. There are attempts to locate suita",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27504932",
+            "title": "Chemoresistance of Lung and Breast Cancer Cells Growing Under Prolonged Periods of Serum Starvation.",
+            "authors": [
+              "Yakisich Juan Sebastian",
+              "Venkatadri Rajkumar",
+              "Azad Neelam",
+              "Iyer Anand Krishnan V"
+            ],
+            "journal": "Journal of cellular physiology",
+            "year": "2017",
+            "abstract": "The efficacy of chemotherapy is hindered by both tumor heterogeneity and acquired or intrinsic multi-drug resistance caused by the contribution of multidrug resistance proteins and stemness-associated prosurvival markers. Therefore, targeting multi-drug resistant cells would be much more effective against cancer. In this study, we characterized the chemoresistance properties of adherent (anchorage-dependent) lung H460 and breast MCF-7 cancer cells growing under prolonged periods of serum starvat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30692636",
+            "title": "Nucleostemin reveals a dichotomous nature of genome maintenance in mammary tumor progression.",
+            "authors": [
+              "Lin Tao",
+              "Lin Tsung-Chin",
+              "McGrail Daniel J",
+              "Bhupal Parnit K",
+              "Ku Yi-Hsuan"
+            ],
+            "journal": "Oncogene",
+            "year": "2019",
+            "abstract": "A defective homologous recombination (HR) repair program increases tumor incidence as well as providing a survival advantage in patients with breast and ovarian cancers. Here we hypothesize that the tumor-promoting side of genome maintenance programs may be contributed by a self-renewal protein, nucleostemin (NS). To address this issue, we established its functional importance in mammary tumor progression in mice and showed that mammary tumor cells become highly susceptible to replicative DNA da",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31338966",
+            "title": "Berberine attenuates XRCC1-mediated base excision repair and sensitizes breast cancer cells to the chemotherapeutic drugs.",
+            "authors": [
+              "Gao Xingjie",
+              "Wang Jing",
+              "Li Meiqi",
+              "Wang Jia",
+              "Lv Jian"
+            ],
+            "journal": "Journal of cellular and molecular medicine",
+            "year": "2019",
+            "abstract": "Berberine (BBR) is a natural isoquinoline alkaloid, which is used in traditional medicine for its anti-microbial, anti-protozoal, anti-diarrhoeal activities. Berberine interacts with DNA and displays anti-cancer activities, yet its effects on cellular DNA repair and on synthetic treatments with chemotherapeutic drugs remain unclear. In this study, we investigated the effects of BBR on DNA repair and on sensitization of breast cancer cells to different types of DNA damage anti-tumoural drugs. We ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34661718",
+            "title": "Hydroxyurea-loaded Fe3O4/SiO2/chitosan-g-mPEG2000 nanoparticles; pH-dependent drug release and evaluation of cell cycle arrest and altering p53 and lincRNA-p21 genes expression.",
+            "authors": [
+              "Chaghervand Mahsa Moeini",
+              "Torbati Maryam Bikhof",
+              "Shaabanzadeh Masoud",
+              "Ahmadi Adeleh",
+              "Tafvizi Farzaneh"
+            ],
+            "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "year": "2022",
+            "abstract": "Carbohydrate polymers were widely used in pharmaceuticals and drug delivery systems due to their biodegradability and biocompatibility. Among them, chitosan (Cs) has been considered in many new drug delivery systems. Poly(ethylene glycol) as a hydrophilic polymer can increase the solubility and stealth functions of nanocarriers. The Fe3O4 nanoparticles functionalized with polymers act as non-toxic drug vehicles for tumor targeting under external magnetic fields. In present study, the Fe3O4/SiO2-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16396749",
+            "title": "[Concomitant chemoradiation in patients with cervix cancer].",
+            "authors": [
+              "Haie-Meder Christine",
+              "de Crevoisier Renaud",
+              "Bruna Antoine",
+              "Lhommé Catherine",
+              "Pautier Patricia"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2005",
+            "abstract": "Cervical cancer is the 2nd most common cancer among women, behind breast cancer. Concomitant chemoradiation has been assessed in more than 15 randomised clinical trials. A meta-analysis for overall survival showed a statistically significant difference in favour of chemoradiotherapy: relative risk (RR) = 1.20, 95% confidence interval (CI) = 1.14-1.26, p < 0.001, p hetero = 0.21). Disease-free survival was also statistically significantly higher in favour of chemoradiotherapy: RR = 1.26, 95%CI = ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10753218",
+            "title": "DNA damage in human breast milk cells and its induction by 'early' and 'late' milk extracts.",
+            "authors": [
+              "Martin F L",
+              "Cole K J",
+              "Harvey D",
+              "Weaver G",
+              "Williams J A"
+            ],
+            "journal": "Carcinogenesis",
+            "year": "2000",
+            "abstract": "Environmental and dietary factors are thought to be significant in breast cancer aetiology. The alkaline single-cell gel electrophoresis ('Comet') assay was used to examine breast milk cells for DNA damage and to measure the activity of extracts of the milk in causing such damage. UK-resident women were recruited as donors (n = 16) and provided 'early' ( approximately 4 weeks post-partum) and/or 'late' ( approximately 4 months post-partum) milk samples. Cells (79-94% viable, trypan blue exclusio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28585003",
+            "title": "Secondary breast carcinoma after completely remitted chronic myeloid leukemia following targeted tyrosine kinase inhibitor therapy.",
+            "authors": [
+              "Pan Linlin",
+              "Duan Junwu",
+              "Qiao Weiqiang",
+              "Bi Lirong",
+              "Wu Di"
+            ],
+            "journal": "Breast cancer (Tokyo, Japan)",
+            "year": "2017",
+            "abstract": "We describe a rare case of secondary breast carcinoma after chronic myeloid leukemia (CML) in a 56-year-old woman. The patient was treated with hydroxyurea and imatinib for CML and achieved complete remission (she has since been taking imatinib as the maintenance therapy). Four years later, the patient noticed a firm and painless lump in the left breast, which was diagnosed as ductal carcinoma in situ based on a percutaneous biopsy of the mass. Simple resection and sentinel lymph node biopsy of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837865",
+            "title": "Valproic acid sensitizes breast cancer cells to hydroxyurea through inhibiting RPA2 hyperphosphorylation-mediated DNA repair pathway.",
+            "authors": [
+              "Tian Youjia",
+              "Liu Guochao",
+              "Wang Hui",
+              "Tian Zhujun",
+              "Cai Zuchao"
+            ],
+            "journal": "DNA repair",
+            "year": "2017",
+            "abstract": "It was reported that valproic acid (VPA, a histone deacetylase inhibitor) can sensitize cancer cells to hydroxyurea (HU, a ribonucleotide reductase inhibitor) for chemotherapy, although the mechanism of VPA-induced HU sensitization is unclear. In this study, we systematically characterized VPA-induced HU sensitization of breast cancer cells. Multiple breast cancer cell models were employed to investigate whether the safe concentration of 0.5mM VPA and 2mM HU can result in DNA double-strand break",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30159181",
+            "title": "Coexistent Breast Cancer and Essential Thrombocythemia: How We Addressed the Therapeutic Challenges.",
+            "authors": [
+              "Seegobin Karan",
+              "Gharia Bharatsinh",
+              "Maharaj Satish",
+              "Zuberi Lara"
+            ],
+            "journal": "Case reports in hematology",
+            "year": "2018",
+            "abstract": "Essential thrombocythemia (ET) occurring with breast cancer is uncommon; the therapeutic approach varies and poses a challenge. A 65-year-old female presented to us after being diagnosed with hormone positive, HER2-negative infiltrating ductal carcinoma. She had a platelet count of 600 thou/cu mm. Her JAK2 mutation was positive. Bone marrow biopsy showed increased megakaryocytes. She was diagnosed with ET in the setting of breast cancer. She underwent breast conservation surgery after which aspi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HU 抑制 RNR → S 期細胞週期停滯 → 干擾快速分裂的癌細胞 DNA 合成；歷史上作為放射增敏劑及與鉑類/氟尿嘧啶協同的聯合化療組成；近期 in-silico 研究探索脂質藥物共軛物提升乳癌靶向性；缺乏 HU 單藥治療乳癌的直接 RCT，現有證據均為聯合方案 Phase I 或前臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "sickle cell-hemoglobin E disease syndrome",
+      "txgnn": {
+        "score": 0.9967042803764344,
+        "rank": 4899
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03763656",
+            "title": "A Prospective Open Label, Pharmacokinetic Study of an Oral Hydroxyurea Solution in Children With Sickle Cell Anemia.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2019-01-03",
+            "completion_date": "2021-12-29",
+            "brief_summary": "An open label, safety and pharmacokinetic study of oral hydroxyurea solution administered to children from 6 months to 17.99 years (i.e. to the day before 18th birthday), with a 12 to 15 month treatment period for each participant. The study treatment duration will be for 6 months at the maximum tolerated dose \\[MTD\\], which is usually reached by 6 months after initiation of treatment. For patients in whom time to MTD is longer than 6 months or not achieved at all, the maximum duration of study ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "研究涵蓋多種鐮刀型血球變異體（含 HbSE），完成 PK/PD 評估；HbSE 為次群分析，非主要研究對象"
+            }
+          },
+          {
+            "nct_id": "NCT02709681",
+            "title": "Hydroxyurea in Sickle Cell Disease: a Large Nation-wide Cohort Study From Italy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 628,
+            "start_date": "2015-11",
+            "completion_date": "2017-07",
+            "brief_summary": "This is a retrospective cohort study of Sickle Cell Disease (SCD) patients attending 32 treatment centers across Italy. The aim of this study will be to report the Italian experience with the use of hydroxyurea in a large cohort of SCD patients and to evaluate the benefits and safety of this intervention for the prevention and management of a wide range of clinical morbidities",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型真實世界觀察性研究，628 例 SCD 患者含不同基因型；HbSE 可能作為次群納入，但非專屬研究"
+            }
+          },
+          {
+            "nct_id": "NCT03264989",
+            "title": "A Phase 2, Multicenter, Open-Label Study to Assess PK/PD of SEG101 (Crizanlizumab), With or Without Hydroxyurea/Hydroxycarbamide, in Sickle Cell Patients With Vaso-Occlusive Crisis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 57,
+            "start_date": "2017-12-19",
+            "completion_date": "2023-06-26",
+            "brief_summary": "The purpose of the CSEG101A2202 study was to characterize the Pharmacokinetic (PK) and Pharmacodynamic (PD) of SEG101/crizanlizumab and to evaluate the safety and efficacy of SEG101/crizanlizumab in sickle cell disease (SCD) patients.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "主要評估 crizanlizumab，HU 為基礎治療之一；研究群體包含 SCD 多種基因型，HbSE 次群分析潛力有限"
+            }
+          },
+          {
+            "nct_id": "NCT04927247",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Multicenter Study of a Single Dose of Inclacumab to Reduce Re-admission in Participants With Sickle Cell Disease and Recurrent Vaso-occlusive Crises",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 72,
+            "start_date": "2021-12-09",
+            "completion_date": "2023-11-24",
+            "brief_summary": "This Phase 3 study will assess the safety and efficacy of a single dose of inclacumab, a P-selectin inhibitor, for a vaso-occlusive crisis (VOC) after an index VOC in participants with sickle cell disease (SCD). Participants will be randomized to receive either inclacumab or placebo.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究 inclacumab（P-selectin 拮抗劑），非 HU；且已提早終止（72/計畫人數）；對 HU 在 HbSE 之直接證據貢獻極低"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36799926",
+            "title": "Most adults with severe HbSC disease are not treated with hydroxyurea.",
+            "authors": [
+              "Ghunney William Kwesi",
+              "Asare Eugenia Vicky",
+              "Ayete-Nyampong John Benaiah",
+              "Oppong Samuel Antwi",
+              "Rodeghier Mark"
+            ],
+            "journal": "Blood advances",
+            "year": "2023",
+            "abstract": "Sickle cell hemoglobin SC (HbSC) disease is the second most frequent sickle cell disease (SCD) genotype after sickle cell anemia (HbSS). Globally, ∼55 000 newborns with HbSC are delivered annually, with the highest HbC gene frequency in West Africa. In Ghana, 40% of adults visiting the Ghana Institute of Clinical Genetics SCD clinic have HbSC. Unlike HbSS, hydroxyurea use is not routinely recommended for individuals with HbSC because of the perceived high-risk to benefit ratio. To test the hypot",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HU 誘導 HbF 生成 → 稀釋 HbE/HbS 比例 → 減少 HbS 聚合；同時降低中性球與血小板數量 → 減少血管閉塞炎症反應。HbSE 臨床嚴重度介於 HbSS 與 HbSC 之間，理論上 HU 機轉與 HbSS 相似但需考量 HbE 的特殊血液學特性（低氧親和力）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
+      "txgnn": {
+        "score": 0.9967042803764344,
+        "rank": 4900
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23342821",
+            "title": "Kikuchi-Fugimoto's disease in sickle cell disease: report of 2 cases.",
+            "authors": [
+              "Crawford Regina D",
+              "Kalhagen Lindsey",
+              "Wang Endi",
+              "Telen Marilyn J"
+            ],
+            "journal": "Journal of the National Medical Association",
+            "year": "2012",
+            "abstract": "Kikuchi-Fugimoto's Disease (KFD), also known as histiocytic necrotizing lymphadenitis, is most frequently seen in young women and has been associated with autoimmune disorders such as polymyositis and systemic lupus erythematosus. It is generally a self-limiting disease with recovery time ranging from weeks to months. A typical presentation of KFD includes painful cervical lymphadenopathy, usually consisting of unilateral involvement of the posterior cervical chain. To date, this condition has n",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HPFH-鐮刀型血球症候群患者天生 HbF 水平已顯著偏高（可達 15-35%），此即 HU 治療 HbSS 的核心作用機轉所在。HU 誘導 HbF 的附加臨床效益在此族群可能極為有限甚至無意義；其臨床嚴重度已因高 HbF 而大幅緩解，治療必要性存疑。此為負向機轉論據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "sickle cell-hemoglobin c disease syndrome",
+      "txgnn": {
+        "score": 0.9967042803764344,
+        "rank": 4901
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07277023",
+            "title": "The Influence of micro-and Macro Vascular Dysfunction on Clinical Severity in Adults With Sickle Cell Anemia (SS) and Sickle Cell Hemoglobin C Disease (SC)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 49,
+            "start_date": "2016-04-29",
+            "completion_date": "2021-10-29",
+            "brief_summary": "The primary aim of this study is to determine the implication of micro and macro vascular function on the clinical severity of SCD (SS, SC, Sß°) adults. The secondary aim of this study is to understand the contribution of several parameters, known to influence vascular function in non-SCD individuals, in SCD",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性血管功能研究，非 HU 介入；了解 HbSC 病理生理有間接參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT03975894",
+            "title": "A Feasibility Trial of Serial Prophylactic Exchange Blood Transfusion in Pregnant Women With Sickle Cell Disease Aiming to Improve Maternal and Infant Outcomes",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2019-05-02",
+            "completion_date": "2021-05-01",
+            "brief_summary": "Sickle Cell Disease (SCD) is a serious inherited blood disorder affecting red blood cells. When oxygen levels drop the red cells become abnormally shaped and unable to move through the blood vessels easily. Blood and oxygen do not reach body organs, resulting in episodes of severe pain and other complications. Pregnant women with SCD have an increased risk of both sickle and pregnancy complications, including raised blood pressure. Their babies may grow more slowly in the womb, are more likely t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估輸血（非 HU）於妊娠 HbSC；狀態不明（UNKNOWN）；與 HU 無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT00532883",
+            "title": "Effectiveness of Hydroxyurea and Magnesium Pidolate Alone and in Combination in Hemoglobin SC Disease: A Phase II Trial",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 44,
+            "start_date": "2007-01",
+            "completion_date": "2009-08",
+            "brief_summary": "Sickle cell disease (SCD), also known as sickle cell anemia, is an inherited blood disease that can cause intense pain episodes. Hemoglobin SCD (HbSC) is a form of SCD that is characterized by dense red blood cells. The purpose of this study is to evaluate the safety and effectiveness of hydroxyurea and magnesium pidolate, alone and combined, at reducing red blood cell density and the frequency of pain episodes in people with HbSC.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "HbSC 專屬 Phase 2 RCT，評估 HU ± Mg pidolate；雖提早終止（44/目標）但為目前唯一針對 HbSC 的直接 HU 對照試驗"
+            }
+          },
+          {
+            "nct_id": "NCT03763656",
+            "title": "A Prospective Open Label, Pharmacokinetic Study of an Oral Hydroxyurea Solution in Children With Sickle Cell Anemia.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2019-01-03",
+            "completion_date": "2021-12-29",
+            "brief_summary": "An open label, safety and pharmacokinetic study of oral hydroxyurea solution administered to children from 6 months to 17.99 years (i.e. to the day before 18th birthday), with a 12 to 15 month treatment period for each participant. The study treatment duration will be for 6 months at the maximum tolerated dose \\[MTD\\], which is usually reached by 6 months after initiation of treatment. For patients in whom time to MTD is longer than 6 months or not achieved at all, the maximum duration of study ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "多基因型 SCD 兒童 HU PK/PD 研究；完成且提供 HbSC 亞群藥動學資料"
+            }
+          },
+          {
+            "nct_id": "NCT03474965",
+            "title": "A Phase 2,Multicenter,Open-Label Study to Assess Appropriate Dosing and to Evaluate Safety of Crizanlizumab,With or Without Hydroxyurea/Hydroxycarbamide,in Sequential,Descending Age Groups of Pediatric Sickle Cell Disease Patients With Vaso-Occlusive Crisis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 117,
+            "start_date": "2018-10-01",
+            "completion_date": "2024-11-06",
+            "brief_summary": "The purpose of this study was to confirm and to establish appropriate dosing and to evaluate the safety in pediatric participants ages 2 to \\<18 years with a history of Vaso-Occlusive Crisis (VOC) with or without Hydroxyurea/Hydroxycarbamide (HU/HC), receiving crizanlizumab for 2 years. The efficacy and safety of crizanlizumab was previously demonstrated in adults with sickle cell disease. The approach was to extrapolate from the pharmacokinetics (PK)/pharmacodynamics (PD) already established in",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "117 例 SCD 患者研究 crizanlizumab，部分接受 HU 背景治療；支持 HU 與新型療法聯合使用的可行性"
+            }
+          },
+          {
+            "nct_id": "NCT03128515",
+            "title": "Optimizing Hydroxyurea Therapy in Children With Sickle Cell Anemia In Malaria Endemic Areas: The NOHARM Maximum Tolerated Dose (MTD) Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 187,
+            "start_date": "2017-07-26",
+            "completion_date": "2020-01-28",
+            "brief_summary": "The Novel use Of Hydroxyurea in an African Region with Malaria (NOHARM) study is the first placebo-controlled randomized clinical trial of hydroxyurea treatment in a malaria endemic region. NOHARM has now achieved full enrollment; all children have completed the blinded portion of the protocol and are in the open-label study treatment portion.\n\nThis extension study of maximum tolerated dose (MTD), addresses the next critical set of questions about the optimal dosing and monitoring of hydroxyurea",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 完成，主要針對 HbSS 兒童；HbSC 為次群；187 例提供最高層次 SCD 兒童 HU 安全性與療效資料"
+            }
+          },
+          {
+            "nct_id": "NCT01987908",
+            "title": "A Phase 2, Exploratory, Placebo-Controlled, Multicenter, Double-Blind Evaluation of the Safety, Pharmacokinetics, Pharmacodynamics, and Clinical Effects of Two Dose Regimens of Aes-103 Given for 28 Days to Subjects With Stable Sickle Cell Disease",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 35,
+            "start_date": "2013-12-03",
+            "completion_date": "2015-03-16",
+            "brief_summary": "Sickle cell disease (SCD) is a genetic blood disorder characterized by the presence of sickle-shaped red blood cells. In the U.S. and the U.K. this occurs primarily in persons of African origin. There is only one drug (hydroxyurea) approved to manage SCD, but it is not fully efficacious and can produce medically significant side effects. Aes-103 is being evaluated as a novel agent for the long term management of SCD. By directly reducing the sickling process, Aes-103 has a different mechanism of",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "雙盲安慰劑對照 Phase 2 設計，但提早終止；若含 HbSC 次群則為重要設計參考"
+            }
+          },
+          {
+            "nct_id": "NCT03264989",
+            "title": "A Phase 2, Multicenter, Open-Label Study to Assess PK/PD of SEG101 (Crizanlizumab), With or Without Hydroxyurea/Hydroxycarbamide, in Sickle Cell Patients With Vaso-Occlusive Crisis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 57,
+            "start_date": "2017-12-19",
+            "completion_date": "2023-06-26",
+            "brief_summary": "The purpose of the CSEG101A2202 study was to characterize the Pharmacokinetic (PK) and Pharmacodynamic (PD) of SEG101/crizanlizumab and to evaluate the safety and efficacy of SEG101/crizanlizumab in sickle cell disease (SCD) patients.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "完成的 Phase 2，HU 為對照基礎治療；支持 HbSC 患者 HU 背景治療的藥物交互作用資料"
+            }
+          },
+          {
+            "nct_id": "NCT02336373",
+            "title": "SC Youth Treatment With Hydroxyurea Effects",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 32,
+            "start_date": "2014-12",
+            "completion_date": "2017-03-31",
+            "brief_summary": "Sickle cell disease (SCD), specifically hemoglobin SC disease (HbSC), is a subtype of sickle cell disease with typically higher hemoglobin and milder or later disease complications. Sickle cell disease is a disorder in which red blood cells (RBCs) are abnormally shaped. This can result in painful episodes, serious infections, and damage to body organs. One medication used to treat sickle cell disease is hydroxyurea.\n\nHydroxyurea therapy offers significant benefits for infants, children, and adol",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "HbSC 青少年 HU 治療效果研究；Phase 2 設計，TERMINATED（32 例），提供有限療效訊號"
+            }
+          },
+          {
+            "nct_id": "NCT02640573",
+            "title": "Treatment of Adult Patients With Hemoglobin SC Disease",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2015-10-12",
+            "completion_date": "2017-11-16",
+            "brief_summary": "Sickle cell disease (SCD), specifically hemoglobin SC disease (HbSC), is a subtype of sickle cell disease with typically higher hemoglobin and milder or later disease complications. Sickle cell disease is a disorder in which red blood cells (RBCs) are abnormally shaped. This can result in painful episodes, serious infections, and damage to body organs. One medication used to treat sickle cell disease is hydroxyurea.\n\nHydroxyurea therapy offers significant benefits for infants, children, and adol",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "HbSC 成人專屬研究，但僅招募 1 例即終止，無統計意義；反映 HbSC 成人 HU 試驗招募困難"
+            }
+          },
+          {
+            "nct_id": "NCT05850156",
+            "title": "Study of a Deformability Parameter of Red Blood Cell. FITRED",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 130,
+            "start_date": "2023-09",
+            "completion_date": "2027-03",
+            "brief_summary": "Sickle-cell disease is one of the most common severe monogenic disorders in the world, it results in the synthesis of abnormal hemoglobin (HbS) instead of hemoglobin A. When deoxygenated, the sickle haemoglobin (HbS) polymerizes inducing the sickling of red blood cells (RBCs) and leading to decreased deformability and increased fragility. Therefore, sickle RBCs exhibit a reduced lifespan associated with intravascular hemolysis, hemolytic anemia and low tissue oxygenation. Sickle RBCs, which exhi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36047926",
+            "title": "Hydroxyurea (hydroxycarbamide) for sickle cell disease.",
+            "authors": [
+              "Rankine-Mullings Angela E",
+              "Nevitt Sarah J"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Sickle cell disease (SCD) is one of the most common inherited diseases worldwide. It is associated with lifelong morbidity and a reduced life expectancy. Hydroxyurea (hydroxycarbamide), an oral chemotherapeutic drug, ameliorates some of the clinical problems of SCD, in particular that of pain, by raising foetal haemoglobin (HbF). This is an update of a previously published Cochrane Review.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis (Cochrane)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39647172",
+            "title": "Hydroxyurea for Children and Adults with Hemoglobin SC Disease.",
+            "authors": [
+              "Dei-Adomakoh Yvonne A",
+              "Segbefia Catherine I",
+              "Latham Teresa S",
+              "Lane Adam C",
+              "Dzefi-Tettey Klenam"
+            ],
+            "journal": "NEJM evidence",
+            "year": "2025",
+            "abstract": "Hemoglobin SC (HbSC) is a common sickle hemoglobinopathy that causes acute complications, chronic organ damage, and early death with no established disease-modifying treatment. In this trial, we examined the safety and efficacy of hydroxyurea treatment in patients with HbSC.",
+            "classification": {
+              "study_type": "RCT / Systematic Review (需確認全文)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33679049",
+            "title": "Sickle Hepatopathy.",
+            "authors": [
+              "Praharaj Dibya L",
+              "Anand Anil C"
+            ],
+            "journal": "Journal of clinical and experimental hepatology",
+            "year": "2021",
+            "abstract": "Sickle hepatopathy is an umbrella term describing various pattern of liver injury seen in patients with sickle cell disease. The disease is not uncommon in India; in terms of prevalence, India is second only to Sub-Saharan Africa where sickle cell disease is most prevalent. Hepatic involvement in sickle cell disease is not uncommon. Liver disease may result from viral hepatitis and iron overload due to multiple transfusions of blood products or due to disease activity causing varying changes in ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28426137",
+            "title": "Hydroxyurea (hydroxycarbamide) for sickle cell disease.",
+            "authors": [
+              "Nevitt Sarah J",
+              "Jones Ashley P",
+              "Howard Jo"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2017",
+            "abstract": "Sickle cell disease (SCD) is one of the most common inherited diseases worldwide. It is associated with lifelong morbidity and a reduced life expectancy. Hydroxyurea (hydroxycarbamide), an oral chemotherapeutic drug, ameliorates some of the clinical problems of SCD, in particular that of pain, by raising fetal haemoglobin. This is an update of a previously published Cochrane Review.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis (Cochrane)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11406036",
+            "title": "Hydroxyurea for sickle cell disease.",
+            "authors": [
+              "Davies S",
+              "Olujohungbe A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2001",
+            "abstract": "Sickle cell disease is one of the most common inherited diseases world wide. It is associated with life long morbidity and a reduced life expectancy. Hydroxyurea, a chemotherapeutic drug taken by mouth, raises fetal haemoglobin and, as such, is expected to ameliorate some of the clinical problems of sickle cell disease.",
+            "classification": {
+              "study_type": "Systematic Review / Clinical Summary",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11464988",
+            "title": "Hydroxyurea therapy for pediatric patients with hemoglobin SC disease.",
+            "authors": [
+              "Miller M K",
+              "Zimmerman S A",
+              "Schultz W H",
+              "Ware R E"
+            ],
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2001",
+            "abstract": "Hydroxyurea (HU) has laboratory and clinical efficacy in hemoglobin SS (HbSS) disease, but its benefits in hemoglobin SC (HbSC) disease are unknown. A recent adult HbSC disease pilot trial with HU therapy documented a modest laboratory benefit. Our goal was to evaluate the laboratory and clinical responses of selected pediatric patients with severe HbSC disease to HU therapy.",
+            "classification": {
+              "study_type": "Clinical Study / Case Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39229085",
+            "title": "CureSCi Metadata Catalog-finding and harmonizing studies for secondary analysis of hydroxyurea use for sickle cell disease.",
+            "authors": [
+              "Wu Xin",
+              "Stratford Jeran",
+              "Kesler Karen",
+              "Ives Cataia",
+              "Hendershot Tabitha"
+            ],
+            "journal": "bioRxiv : the preprint server for biology",
+            "year": "2024",
+            "abstract": "Sickle cell disease (SCD) is a rare group of inherited red blood cell disorders that affect hemoglobin, resulting in serious multi-system complications. The limited number of patients available to participate in research studies can inhibit investigating sophisticated relationships. Secondary analysis is a research method that involves using existing data to answer new research questions. Data harmonization enables secondary analysis by combining data across studies, especially helpful for rare ",
+            "classification": {
+              "study_type": "Database / Methodological",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32499906",
+            "title": "The curious case of hemoglobin DC disease masquerading as sickle cell anemia.",
+            "authors": [
+              "Hirani Samina",
+              "Gupta Supriya",
+              "Veillon Diana",
+              "Patan Shajadi",
+              "Master Samip"
+            ],
+            "journal": "Hematology reports",
+            "year": "2020",
+            "abstract": "Hemoglobin D is a relatively rare disease first reported in 1951. We present the first reported case of Hemoglobin DC disease. This is a case of a Hemoglobinopathy with DC disease in a woman with a previous diagnosis of Hemoglobin SC disease. A 19-year-old woman presented to the Adult Hematology clinic at a tertiary care hospital in Northwest Louisiana for transition of care from Pediatric Hematology for a diagnosis of Hemoglobin SC disease diagnosed at the age 4. Historical data suggested no av",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10959446",
+            "title": "Major changes in sickle cell disease.",
+            "authors": [
+              "Hagar R W",
+              "Vichinsky E P"
+            ],
+            "journal": "Advances in pediatrics",
+            "year": "2000",
+            "abstract": "Clinical, molecular, and genetic advances have revealed new pathophysiologic insights and treatments for the growing number of recognized hematologic and nonhematologic abnormalities in sickle cell disease. Treatment targets of cellular dehydration, sickle hemoglobin concentrations, endothelial dysfunction, and abnormal coagulation regulation have been validated as potential therapy. New uses for transfusion therapy hold the promise of decreased major symptoms of acute chest syndrome, stroke, an",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37439373",
+            "title": "Metabolic signatures of cardiorenal dysfunction in plasma from sickle cell patients as a function of therapeutic transfusion and hydroxyurea treatment.",
+            "authors": [
+              "D'Alessandro Angelo",
+              "Nouraie S Mehdi",
+              "Zhang Yingze",
+              "Cendali Francesca",
+              "Gamboni Fabia"
+            ],
+            "journal": "Haematologica",
+            "year": "2023",
+            "abstract": "Metabolomics studies in sickle cell disease (SCD) have been so far limited to tens of samples, owing to technical and experimental limitations. To overcome these limitations, we performed plasma metabolomics analyses on 596 samples from patients with SCD enrolled in the WALK-PHaSST study (clinicaltrials gov. Identifier: NCT00492531). Clinical covariates informed the biological interpretation of metabolomics data, including genotypes (hemoglobin [Hb] SS, hemoglobin SC), history of recent transfus",
+            "classification": {
+              "study_type": "Cohort / Biomarker Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27736922",
+            "title": "Associations of Prolonged QTc in Sickle Cell Disease.",
+            "authors": [
+              "Indik Julia H",
+              "Nair Vineet",
+              "Rafikov Ruslan",
+              "Nyotowidjojo Iwan S",
+              "Bisla Jaskanwal"
+            ],
+            "journal": "PloS one",
+            "year": "2016",
+            "abstract": "Sudden death is a leading cause of mortality in sickle cell disease, implicating ventricular tachyarrhythmias. Prolonged QTc on an electrocardiogram (ECG), commonly seen with myocardial ischemia, is a known risk for polymorphic ventricular tachycardia (VT). We hypothesized that prolonged QTc is associated with mortality in sickle cell disease. ECG were analyzed from a cohort of 224 sickle patients (University of Illinois at Chicago, UIC) along with available laboratory, and echocardiographic fin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26615793",
+            "title": "Effects of hydroxyurea treatment for patients with hemoglobin SC disease.",
+            "authors": [
+              "Luchtman-Jones Lori",
+              "Pressel Sara",
+              "Hilliard Lee",
+              "Brown R Clark",
+              "Smith Mary G"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2016",
+            "abstract": "Although hemoglobin SC (HbSC) disease is usually considered less severe than sickle cell anemia (SCA), which includes HbSS and HbS/β(0) -thalassemia genotypes, many patients with HbSC experience severe disease complications, including vaso-occlusive pain, acute chest syndrome, avascular necrosis, retinopathy, and poor quality of life. Fully 20 years after the clinical and laboratory efficacy of hydroxyurea was proven in adult SCA patients, the safety and utility of hydroxyurea treatment for HbSC",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17724699",
+            "title": "Pulmonary hypertension associated with sickle cell disease: clinical and laboratory endpoints and disease outcomes.",
+            "authors": [
+              "De Castro Laura M",
+              "Jonassaint Jude C",
+              "Graham Felicia L",
+              "Ashley-Koch Allison",
+              "Telen Marilyn J"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2008",
+            "abstract": "Screening for pulmonary hypertension (pHTN) has not yet become routine in sickle cell disease (SCD), despite clinical evidence of its high prevalence and associated mortality. Our objectives are to identify clinical conditions and laboratory findings predictive of/or associated with pHTN. One hundred twenty-five adult outpatients with Hb SS, SC, SOArab, Sbeta(0), or Sbeta(+) thalassemia, who underwent echocardiography and/or right heart catheterization due to cardiorespiratory symptoms, were stu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17551985",
+            "title": "Sickle cell disease caused by Hb S/Québec-CHORI: treatment with hydroxyurea and response.",
+            "authors": [
+              "Tubman Venée N",
+              "Bennett Carolyn M",
+              "Luo Hong-yuan",
+              "Chui David H K",
+              "Heeney Matthew M"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2007",
+            "abstract": "Sickle hemoglobin (Hb S;betaGlu 6 Val) is due to an A>T transversion in codon 6 of the beta-globin gene. Other variant hemoglobins mimic Hb A, S, or C on newborn screening and clinical laboratory diagnostic tools, thus making their correct identification potentially difficult. Sickling disorders can result in individuals who are compound heterozygous for beta-globin mutations (e.g., Hb SC, HbSO(Arab)). The authors report a second case of HbS/Québec-CHORI, a severe compound heterozygous sickling ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36799926",
+            "title": "Most adults with severe HbSC disease are not treated with hydroxyurea.",
+            "authors": [
+              "Ghunney William Kwesi",
+              "Asare Eugenia Vicky",
+              "Ayete-Nyampong John Benaiah",
+              "Oppong Samuel Antwi",
+              "Rodeghier Mark"
+            ],
+            "journal": "Blood advances",
+            "year": "2023",
+            "abstract": "Sickle cell hemoglobin SC (HbSC) disease is the second most frequent sickle cell disease (SCD) genotype after sickle cell anemia (HbSS). Globally, ∼55 000 newborns with HbSC are delivered annually, with the highest HbC gene frequency in West Africa. In Ghana, 40% of adults visiting the Ghana Institute of Clinical Genetics SCD clinic have HbSC. Unlike HbSS, hydroxyurea use is not routinely recommended for individuals with HbSC because of the perceived high-risk to benefit ratio. To test the hypot",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22949140",
+            "title": "Hydroxyurea treatment of children with hemoglobin SC disease.",
+            "authors": [
+              "Yates Amber M",
+              "Dedeken Laurence",
+              "Smeltzer Matthew P",
+              "Lebensburger Jeffrey D",
+              "Wang Winfred C"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2013",
+            "abstract": "The efficacy of hydroxyurea in hemoglobin SC (HbSC) patients is not well documented. We describe the long-term response to hydroxyurea in children with clinically severe HbSC. In 15 patients, hydroxyurea resulted in a significant increase in mean corpuscular volume (MCV) and fetal hemoglobin (HbF) and a significant decrease in episodes of acute chest syndrome and hospitalization for pain; there was no effect on hemoglobin level. The most significant side effect was thrombocytopenia, which led to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18177923",
+            "title": "Characteristics and outcome of connective tissue diseases in patients with sickle-cell disease: report of 30 cases.",
+            "authors": [
+              "Michel M",
+              "Habibi A",
+              "Godeau B",
+              "Bachir D",
+              "Lahary A"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2008",
+            "abstract": "To analyze the main characteristics of adults with sickle cell disease (SCD) and concurrent connective tissue disease (CTD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39779438",
+            "title": "[Extramedullary hematopoiesis, a rare complication of sickle cell disease: A six-case series and literature review].",
+            "authors": [
+              "Boccadifuoco Ugo",
+              "Cheminet Geoffrey",
+              "Morino Benjamin",
+              "Arlet Jean-Benoît"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2025",
+            "abstract": "Extramedullary hematopoiesis (EMH) is very rarely described during sickle cell disease (SCD). Our aim was to describe six cases of EMH occurring in adult SCD patients and to conduct a literature review.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33538815",
+            "title": "Longitudinal Assessment of Retinal Thinning in Adults With and Without Sickle Cell Retinopathy Using Spectral-Domain Optical Coherence Tomography.",
+            "authors": [
+              "Lim Jennifer I",
+              "Niec Marcia",
+              "Sun Jie",
+              "Cao Dingcai"
+            ],
+            "journal": "JAMA ophthalmology",
+            "year": "2021",
+            "abstract": "Determination of retinal thinning rates may help to identify patients who are at risk of progression of sickle cell retinopathy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HU 誘導 HbF → 稀釋 HbS 濃度 → 抑制去氧 HbS 聚合，對 HbSC 理論上仍有效但因 HbC 參與降低 HbS 濃度（HbC 本身不聚合），疾病表型相對 HbSS 溫和，治療閾值需個別化。HU 同時降低網狀細胞、中性球，可能減少 HbSC 特有的視網膜病變與缺血性骨壞死風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "sickle cell-hemoglobin d disease syndrome",
+      "txgnn": {
+        "score": 0.9967042803764344,
+        "rank": 4902
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03763656",
+            "title": "A Prospective Open Label, Pharmacokinetic Study of an Oral Hydroxyurea Solution in Children With Sickle Cell Anemia.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2019-01-03",
+            "completion_date": "2021-12-29",
+            "brief_summary": "An open label, safety and pharmacokinetic study of oral hydroxyurea solution administered to children from 6 months to 17.99 years (i.e. to the day before 18th birthday), with a 12 to 15 month treatment period for each participant. The study treatment duration will be for 6 months at the maximum tolerated dose \\[MTD\\], which is usually reached by 6 months after initiation of treatment. For patients in whom time to MTD is longer than 6 months or not achieved at all, the maximum duration of study ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "多基因型 SCD 兒童，HbSD 可能作為次群納入；提供 HU PK 基礎資料"
+            }
+          },
+          {
+            "nct_id": "NCT04046705",
+            "title": "A Prospective Multicenter Trial Comparing Allogeneic Matched Related Haematopoietic Stem Cell Transplantation After a Reduced Intensity Conditioning Regimen, With Standard of Care in Adolescents and Adults With Severe Sickle Cell Disease",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 78,
+            "start_date": "2019-10-15",
+            "completion_date": "2024-10-15",
+            "brief_summary": "Although the survival of children with sickle cell disease (SCD) has dramatically improved over the last decades in the US and Europe, mortality remains high in adults. Moreover, many children and most adults develop a chronic debilitating condition due to organ damage. Allogeneic hematopoietic stem cell transplantation (HSCT) is currently the unique curative approach; it allows the cure of more than 95% of children transplanted from a matched related donor (MRD) after a myeloablative conditioni",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "比較 HSCT 與 HU 治療的 Phase 3 試驗，若含 HbSD 次群則為直接比較；狀態不明（UNKNOWN）限制解讀"
+            }
+          },
+          {
+            "nct_id": "NCT06464458",
+            "title": "Optimizing the Management of Sickle Cell Patients on Hydroxyurea: The Value of Therapeutic Pharmacological Monitoring",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2023-02-08",
+            "completion_date": "2025-08-07",
+            "brief_summary": "Brief Summary: \\* A short description of the clinical study, including a brief statement of the clinical study's hypothesis, written in language intended for the lay public.\n\nLimit: 5000 characters.\n\nSevere forms of sickle cell syndrome are characterized by the occurrence of repeated vaso-occlusive crises (CVO), early complications and a high morbidity and mortality in these patients. Intensified management is then required, with the introduction of hydroxyurea treatment and then, if it proves i",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "正在招募中，以治療藥物監測優化 HU 劑量；廣義 SCD 族群，對 HbSD 個體化治療具參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT06979492",
+            "title": "Prophylactic Transfusion In Pregnant in Women With Sickle Cell Disease",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2026-04",
+            "completion_date": "2028-05",
+            "brief_summary": "The goal of this study is to determine if there is a positive effect of prophylactic red blood cell (RBC) transfusion of leukoreduced, ABO, Rh (D/Cc/Ee) and Kell matched blood compared to standard of care on the number of episodes of acute sickle cell disease (SCD) manifestations or pregnancy-related complications requiring acute health care encounters (acute care/ER/Hospital visits) or resulting in death over the entirety of pregnancy until 2 months post-partum in women with SCD.\n\nRBC transfusi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估妊娠 SCD 患者輸血策略，非 HU 介入；Phase 4 標籤可能指上市後研究（不同國家背景）"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36799926",
+            "title": "Most adults with severe HbSC disease are not treated with hydroxyurea.",
+            "authors": [
+              "Ghunney William Kwesi",
+              "Asare Eugenia Vicky",
+              "Ayete-Nyampong John Benaiah",
+              "Oppong Samuel Antwi",
+              "Rodeghier Mark"
+            ],
+            "journal": "Blood advances",
+            "year": "2023",
+            "abstract": "Sickle cell hemoglobin SC (HbSC) disease is the second most frequent sickle cell disease (SCD) genotype after sickle cell anemia (HbSS). Globally, ∼55 000 newborns with HbSC are delivered annually, with the highest HbC gene frequency in West Africa. In Ghana, 40% of adults visiting the Ghana Institute of Clinical Genetics SCD clinic have HbSC. Unlike HbSS, hydroxyurea use is not routinely recommended for individuals with HbSC because of the perceived high-risk to benefit ratio. To test the hypot",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20502357",
+            "title": "First report of successful stem cell transplantation in a patient with sickle cell hemoglobin D disease.",
+            "authors": [
+              "Hamidieh Amir Ali",
+              "Jalili Mahdi",
+              "Khojasteh Omid",
+              "Ghavamzadeh Ardeshir"
+            ],
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2010",
+            "abstract": "Sickle cell hemoglobin D disease is a rare variant of sickle cell disease. Affected patients suffer from episodes of acute exacerbation of clinical course with a wide range of manifestations such as acute chest syndrome, stroke, painful vaso-occlusive crises, acute sequestration crises, joint necrosis, organ failure, infections, and temporary aplastic crises, collectively called sickling crises. Conventional treatments for patients with sickle cell disease include hydroxyurea therapy and prophyl",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HbSD（HbS/HbD-Punjab 最常見）：HbD 不參與聚合但會與 HbS 形成混合聚合體，臨床嚴重度接近 HbSS。HU 誘導 HbF 機轉理論上適用，惟 HbSD 極為罕見（全球病例稀少），缺乏足夠臨床研究基礎。現有文獻以骨髓移植為主要治癒性選項。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "sickle cell-beta-thalassemia disease syndrome",
+      "txgnn": {
+        "score": 0.9967042803764344,
+        "rank": 4903
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03653338",
+            "title": "T-Cell Depleted, Alternative Donor Transplant in Pediatric and Adult Patients With Severe Sickle Cell Disease (SCD) and Other Transfusion-Dependent Anemias",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 5,
+            "start_date": "2018-08-02",
+            "completion_date": "2027-08-01",
+            "brief_summary": "The purpose of this study is to evaluate what effect, if any, mismatched unrelated volunteer donor and/or haploidentical related donor stem cell transplant may have on severe sickle cell disease and other transfusion dependent anemias. By using mismatched unrelated volunteer donor and/or haploidentical related donor stem cells, this study will increase the number of patients who can undergo a stem cell transplant for their specified disease. Additionally, using a T-cell depleted approach should ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估替代供體移植（非 HU）；提供 HbS-β thal 作為嚴重疾病的替代治療背景，仍在招募且樣本極小"
+            }
+          },
+          {
+            "nct_id": "NCT03763656",
+            "title": "A Prospective Open Label, Pharmacokinetic Study of an Oral Hydroxyurea Solution in Children With Sickle Cell Anemia.",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2019-01-03",
+            "completion_date": "2021-12-29",
+            "brief_summary": "An open label, safety and pharmacokinetic study of oral hydroxyurea solution administered to children from 6 months to 17.99 years (i.e. to the day before 18th birthday), with a 12 to 15 month treatment period for each participant. The study treatment duration will be for 6 months at the maximum tolerated dose \\[MTD\\], which is usually reached by 6 months after initiation of treatment. For patients in whom time to MTD is longer than 6 months or not achieved at all, the maximum duration of study ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "含 HbS-β 地中海貧血兒童次群，完成 PK/PD 研究；為東南亞 SCD 族群 HU 使用提供基礎劑量資料"
+            }
+          },
+          {
+            "nct_id": "NCT04528355",
+            "title": "A Prospective Outcomes Study of Pediatric and Adult Patients With Non-Malignant Disorders Undergoing Umbilical Cord Blood, Bone Marrow, or Peripheral Blood Stem Cell Transplantation With a Reduced-Intensity Conditioning Regimen (PRO-RIC)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2020-08-20",
+            "completion_date": "2028-06-30",
+            "brief_summary": "This is a data collection study that will examine the general diagnostic and treatment data associated with the reduced-intensity chemotherapy-based regimen paired with simple alemtuzumab dosing strata designed to prevented graft failure and to aid in immune reconstitution following hematopoietic stem cell transplantation.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性移植結果研究，非 HU；涵蓋 SCD 及 β 地中海貧血，為移植 vs HU 決策提供間接比較背景"
+            }
+          },
+          {
+            "nct_id": "NCT01962415",
+            "title": "A Phase II Study of Reduced Intensity Conditioning in Pediatric Patients and Young Adults ≤55 Years of Age With Non-Malignant Disorders Undergoing Umbilical Cord Blood, Bone Marrow, or Peripheral Blood Stem Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2014-02-04",
+            "completion_date": "2027-11",
+            "brief_summary": "The objective of this study is to evaluate the efficacy of using a reduced-intensity condition (RIC) regimen with umbilical cord blood transplant (UCBT), double cord UCBT, matched unrelated donor (MUD) bone marrow transplant (BMT) or peripheral blood stem cell transplant (PBSCT) in patients with non-malignant disorders that are amenable to treatment with hematopoietic stem cell transplant (HSCT). After transplant, subjects will be followed for late effects and for ongoing graft success.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估降低強度移植預處理方案；HbS-β thal 可能納入；仍在招募；與 HU 療效比較無直接關聯"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27053181",
+            "title": "Sickle Cell Disease in Central India: A Potentially Severe Syndrome.",
+            "authors": [
+              "Jain Dipty",
+              "Warthe Vinit",
+              "Dayama Paridhi",
+              "Sarate Dilip",
+              "Colah Roshan"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "2016",
+            "abstract": "To explore clinical, hematological and molecular features of homozygous sickle cell (SS) disease in central India.",
+            "classification": {
+              "study_type": "Epidemiological Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10326220",
+            "title": "Effect of hydroxyurea in sickle cell anemia: a clinical trial in children and teenagers with severe sickle cell anemia and sickle cell beta-thalassemia.",
+            "authors": [
+              "Koren A",
+              "Segal-Kupershmit D",
+              "Zalman L",
+              "Levin C",
+              "Abu Hana M"
+            ],
+            "journal": "Pediatric hematology and oncology",
+            "year": "1999",
+            "abstract": "This study evaluated the efficacy of hydroxyurea treatment in the prevention of vaso-occlusive crises among children and teenagers with severe sickle cell anemia and sickle cell beta-thalassemia. Nineteen children and young adults with severe sickle cell disease were enrolled to the hydroxyurea treatment trial. The incidence of vaso-occlusive crises, acute chest syndrome, hemolytic crises, splenic sequestration episodes, blood transfusions, and hospital days in the 2 years before hydroxyurea (HU",
+            "classification": {
+              "study_type": "Clinical Trial (Phase 2/3)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HbS-β 地中海貧血（HbSβ+ 或 HbSβ0）：HbS-β0 型嚴重度接近 HbSS，β 鏈完全缺失使 HbS 佔主導；HU 誘導 HbF 可有效減少 HbS 聚合。HbSβ+ 型因有殘餘正常 β 鏈生成少量 HbA，病情較輕，HU 治療指徵需依嚴重度決定。地中海型地區（東南亞、南亞）流行率較高，此適應症與新加坡在地流行病學高度相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "cervical adenosarcoma",
+      "txgnn": {
+        "score": 0.9939921498298644,
+        "rank": 7380
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RNR 抑制 → DNA 合成阻斷的廣譜抗腫瘤機轉為純理論外推；宮頸腺肉瘤（混合性上皮-間質腫瘤）無 HU 相關臨床或前臨床研究，TxGNN 評分可能反映通用腫瘤知識圖譜連結，非疾病特異性機轉證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "colon mucinous adenocarcinoma",
+      "txgnn": {
+        "score": 0.993162989616394,
+        "rank": 8111
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RNR 抑制理論上可抑制大腸黏液腺癌 DNA 合成，但黏液腺癌通常具有特殊分子特徵（MSI-H、KRAS/BRAF 突變、黏蛋白高表達），與一般大腸腺癌治療反應不同；HU 對黏液亞型無任何臨床或前臨床特異性研究，TxGNN 分數為圖譜推斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "rectum mucinous adenocarcinoma",
+      "txgnn": {
+        "score": 0.993063509464264,
+        "rank": 8185
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與大腸黏液腺癌機轉論據相同；直腸黏液腺癌額外需考量放射治療為標準治療組成，HU 作為放射增敏劑在頭頸癌有核准依據，但直腸癌放射增敏劑以卡培他濱/5-FU 為標準，HU 無競爭優勢。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "gallbladder mucinous adenocarcinoma",
+      "txgnn": {
+        "score": 0.9927752017974854,
+        "rank": 8403
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膽囊黏液腺癌為極罕見腫瘤，整體膽囊癌預後差且對全身治療反應不佳。RNR 抑制理論外推無法支撐臨床開發，缺乏任何生物標誌物或前臨床模型數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "female breast carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "female breast carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "female breast carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin E disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin E disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin E disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin c disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin c disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin c disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin d disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin d disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-hemoglobin d disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-beta-thalassemia disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-beta-thalassemia disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "sickle cell-beta-thalassemia disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "cervical adenosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "cervical adenosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "cervical adenosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "colon mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "colon mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "colon mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "rectum mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "rectum mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "rectum mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "gallbladder mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "gallbladder mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyurea",
+        "disease": "gallbladder mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

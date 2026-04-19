@@ -1,0 +1,191 @@
+## Anidulafungin 藥物再利用證據分析
+
+**藥物背景：** Anidulafungin 是棘白菌素類（Echinocandin）抗真菌藥，機轉為抑制 β-(1,3)-D-葡聚醣合成酶，破壞真菌細胞壁。本品在台灣未上市，DDI 紀錄為零，原始 MOA 資料缺失。
+
+---
+
+> ⚠️ **重要分析前置觀察**
+> 
+> 所有 10 個預測適應症中，有 7 個屬於**細菌感染**（膿痂疹、葡萄球菌燙傷樣皮膚症候群、hordeolum、Clostridium 感染）或**惡性腫瘤**（間皮瘤群），而 Anidulafungin 為純抗真菌藥物，對上述疾病在機轉上**生物學合理性極低**。TxGNN 高分反映知識圖譜拓撲結構連結，並非真實療效預測。
+
+---
+
+```json
+{
+  "drug": "Anidulafungin",
+  "drugbank_id": "DB00362",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "棘白菌素類抗真菌藥，β-(1,3)-葡聚醣合成酶抑制劑；原始適應症為念珠菌感染，本次 TxGNN 預測適應症多為細菌感染與惡性腫瘤，生物機轉合理性普遍不足",
+  "indications": [
+    {
+      "disease_name": "impetigo",
+      "txgnn_score": 0.9885,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "膿痂疹為金黃色葡萄球菌或化膿性鏈球菌所致細菌性皮膚感染。Anidulafungin 機轉為抑制真菌細胞壁 β-葡聚醣合成，對革蘭氏陽性菌無任何已知作用靶點，生物學合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⛔ 機轉不符：抗真菌藥 vs. 細菌感染"
+    },
+    {
+      "disease_name": "malignant pleural mesothelioma",
+      "txgnn_score": 0.9875,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性胸膜間皮瘤為石綿暴露相關惡性腫瘤。部分棘白菌素在細胞實驗中曾觀察到非特異性細胞毒性，但此類間接連結屬高度推測性，且與圖形拓撲偏差（pleural 節點聚集）高度相關，無臨床或前臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ TxGNN 圖譜 pleural 節點叢集效應，非機轉驅動"
+    },
+    {
+      "disease_name": "staphylococcal scalded skin syndrome",
+      "txgnn_score": 0.9873,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "葡萄球菌燙傷樣皮膚症候群（SSSS）由 S. aureus 外毒素（剝脫性毒素 A/B）引起。為純細菌毒素介導疾病，Anidulafungin 對細菌及其毒素均無已知抑制機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⛔ 機轉不符：抗真菌藥 vs. 細菌毒素介導疾病"
+    },
+    {
+      "disease_name": "pleural empyema (disease)",
+      "txgnn_score": 0.9852,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胸膜積膿症通常為細菌感染（肺炎球菌、金黃色葡萄球菌），罕見情況下可能為真菌性（念珠菌、麴菌），後者理論上與 Anidulafungin 有機轉連結。唯一文獻（PMID 29439960）為 PK 研究，證實藥物可滲透至胸腔積液，提供間接藥動學支撐，但未評估療效。整體屬間接 PK 證據，非療效證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29439960",
+          "title": "Anidulafungin Pharmacokinetics in Ascites Fluid and Pleural Effusion of Critically Ill Patients.",
+          "year": "2018",
+          "study_type": "Pharmacokinetic Study (ICU patients)",
+          "tier": "3",
+          "relevance_assessment": "提供藥物胸腔穿透率數據（間接支持），但不涉及療效評估；僅對假設性真菌性胸膜積膿症有意義，對細菌性膿胸無關聯",
+          "key_finding": "在重症患者腹水與胸腔積液中偵測到 Anidulafungin 濃度，顯示有限但可測得的組織穿透"
+        }
+      ],
+      "flag": "📊 唯一支持為 PK 數據；細菌性膿胸（>95% 病例）機轉不符，真菌性膿胸理論連結微弱"
+    },
+    {
+      "disease_name": "malignant visceral pleura tumor",
+      "txgnn_score": 0.9845,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性內臟胸膜腫瘤與間皮瘤相關，同屬 pleural 節點群集效應。無任何臨床或前臨床證據支持棘白菌素類用於此類腫瘤治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ TxGNN 圖譜 pleural 節點叢集效應"
+    },
+    {
+      "disease_name": "bullous impetigo",
+      "txgnn_score": 0.9840,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "大疱性膿痂疹為 S. aureus 噬菌體群 II 型產生的剝脫性毒素所致，屬細菌毒素介導疾病。與 impetigo 分析一致，Anidulafungin 對此疾病無機轉合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⛔ 機轉不符：抗真菌藥 vs. 細菌毒素介導疾病"
+    },
+    {
+      "disease_name": "malignant epithelioid mesothelioma",
+      "txgnn_score": 0.9837,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "上皮樣間皮瘤為惡性胸膜間皮瘤主要亞型（約 60%），與 malignant pleural mesothelioma 分析一致，屬圖譜節點叢集效應，無機轉支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ TxGNN 圖譜 mesothelioma 節點叢集效應"
+    },
+    {
+      "disease_name": "sarcomatoid mesothelioma",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肉瘤樣間皮瘤預後最差的間皮瘤亞型，與上述兩個間皮瘤適應症同屬 pleural/mesothelioma 節點群集。無任何機轉或臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ TxGNN 圖譜 mesothelioma 節點叢集效應"
+    },
+    {
+      "disease_name": "hordeolum",
+      "txgnn_score": 0.9823,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麥粒腫（hordeolum）為眼瞼腺體的細菌性感染（主要為 S. aureus），對 Anidulafungin 完全無機轉合理性。此預測可能反映圖譜中皮膚/感染節點的非特異性連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⛔ 機轉不符：抗真菌藥 vs. 細菌性眼科感染"
+    },
+    {
+      "disease_name": "Clostridium infectious disease",
+      "txgnn_score": 0.9822,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "梭菌感染為厭氧革蘭氏陽性桿菌所致，棘白菌素類抗真菌藥對細菌完全無效。唯一文獻（PMID 18756840）為感染科治療綜述，並非針對 Anidulafungin 用於梭菌感染的研究，相關性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18756840",
+          "title": "Update in infectious disease treatment.",
+          "year": "2008",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance_assessment": "感染科治療總體綜述，未針對 Anidulafungin 用於梭菌感染提供具體分析；與本適應症相關性極低",
+          "key_finding": "無法從摘要確認是否包含 Anidulafungin 對 Clostridium 的相關討論"
+        }
+      ],
+      "flag": "⛔ 機轉不符：抗真菌藥 vs. 革蘭氏陽性厭氧菌感染"
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L5_prediction_only": 9,
+      "L4_indirect_evidence": 1,
+      "L3_or_above": 0
+    },
+    "decision_distribution": {
+      "Hold": 10,
+      "Research_Question": 0,
+      "Proceed_with_Guardrails": 0
+    },
+    "overall_assessment": "所有 10 個預測適應症均建議 Hold。本批次預測呈現明顯的系統性偏差：(1) 7/10 適應症為細菌感染，與抗真菌藥機轉根本不符；(2) 3/10 為間皮瘤亞型，反映圖譜 pleural 節點叢集效應。最具相對意義的適應症為 pleural empyema（L4），原因是存在 PK 穿透數據，且在真菌性胸膜感染的罕見情境下有理論機轉，但仍不足以進入研究規劃階段。",
+    "key_concern": "Anidulafungin 的 TxGNN 高分（0.98-0.99）與生物合理性嚴重脫節，建議檢視知識圖譜中感染節點的連結設計，可能存在藥物類別混淆（抗菌 vs. 抗真菌節點未分離）",
+    "potential_valid_extension": "若需尋找真實再利用可能性，應聚焦於：(1) 真菌性胸膜感染 (fungal empyema/pleural candidiasis)，(2) 重症 ICU 患者的深部真菌感染擴展適應症，此類方向才符合 Anidulafungin 已知的機轉與藥動學特性"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策 | 主要問題 |
+|--------|-----------|----------|------|---------|
+| impetigo | 0.9885 | L5 | Hold | 細菌感染，機轉不符 |
+| malignant pleural mesothelioma | 0.9875 | L5 | Hold | 腫瘤，圖譜叢集效應 |
+| staphylococcal scalded skin syndrome | 0.9873 | L5 | Hold | 細菌毒素疾病，機轉不符 |
+| **pleural empyema** | **0.9852** | **L4** | **Hold*** | PK 數據存在，但療效無支撐 |
+| malignant visceral pleura tumor | 0.9845 | L5 | Hold | 腫瘤，圖譜叢集效應 |
+| bullous impetigo | 0.9840 | L5 | Hold | 細菌毒素疾病，機轉不符 |
+| malignant epithelioid mesothelioma | 0.9837 | L5 | Hold | 腫瘤，圖譜叢集效應 |
+| sarcomatoid mesothelioma | 0.9826 | L5 | Hold | 腫瘤，圖譜叢集效應 |
+| hordeolum | 0.9823 | L5 | Hold | 細菌感染，機轉不符 |
+| Clostridium infectious disease | 0.9822 | L5 | Hold | 細菌感染，機轉不符 |
+
+> *pleural empyema 在**真菌性胸膜感染**的極罕見亞情境下具有 PK 理論支撐，但整體仍維持 S0/Hold。
+
+### 核心發現
+
+本次 TxGNN 預測結果呈現**系統性知識圖譜偏差**，所有高分預測均缺乏機轉合理性。建議將此結果回饋至模型校正流程，檢視圖譜中**抗菌藥 vs. 抗真菌藥節點**是否存在混淆，及 **pleural/mesothelioma 節點的超連結問題**。

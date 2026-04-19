@@ -1,0 +1,162 @@
+## Gatifloxacin 藥物再利用證據分析
+
+**背景說明：** Gatifloxacin 是第四代氟喹諾酮類抗生素（DNA 旋轉酶 / 拓撲異構酶 II & IV 抑制劑），2006 年因引發嚴重血糖異常（dysglycemia）在美國撤市。10 個預測適應症中有 9 個屬於血液/蛋白質疾病，與抗生素機轉連結薄弱，高分很可能是 KG 結構相似性造成的預測偽陽性。
+
+---
+
+```json
+{
+  "drug": "Gatifloxacin",
+  "drugbank_id": "DB01044",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "氟喹諾酮類抗生素，因dysglycemia副作用撤市。9/10適應症為純AI預測無臨床支撐；唯一有文獻支持者為敗血性鼠疫（動物實驗）。",
+  "indications": [
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn_score": 0.9759,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高黏滯度症候群（多克隆型）源於免疫球蛋白過量，屬漿細胞/B細胞疾病。氟喹諾酮抑制細菌DNA旋轉酶，與此症候群無已知機轉連結。高TxGNN分數可能反映KG中血液病節點群聚效應（偽陽性）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hyperamylasemia",
+      "txgnn_score": 0.9759,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高澱粉酶血症主因為胰腺炎或腮腺炎。雖有個別氟喹諾酮引發胰腺炎副作用報告（逆向關聯），但Gatifloxacin作為治療藥物無機轉依據。注意：Gatifloxacin本身即有血糖及代謝副作用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "txgnn_score": 0.9731,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症為罕見常染色體隱性遺傳病（ALB基因突變），無任何已知小分子療法可矯正該基因缺陷。抗生素在此無機轉連結。純KG結構預測，生物合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blood group incompatibility",
+      "txgnn_score": 0.9645,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血型不相容反應為抗原抗體免疫反應（IgM/IgG介導補體活化）。氟喹諾酮類對此免疫病理無任何已知調節作用。此預測缺乏生物合理性，建議忽略。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "premalignant hematological system disease",
+      "txgnn_score": 0.9586,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "廣義血液前惡性病（MDS、MGUS等）。部分氟喹諾酮（如環丙沙星）有拓撲異構酶II抑制相關的體外抗增生效應，但Gatifloxacin無相關臨床前或臨床數據。撤市狀態及dysglycemia風險進一步削弱研發可行性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "monoclonal gammopathy",
+      "txgnn_score": 0.9561,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "單株球蛋白病（MGUS）為漿細胞克隆增生，抗菌機轉（DNA旋轉酶抑制）與漿細胞生物學無直接連結。KG預測可能因MGUS與感染易感性的流行病學共病關係而產生假性連結。無臨床依據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn_score": 0.9523,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此類疾病（如副蛋白血症周圍神經病）治療重點為控制原發血液病。需特別注意：氟喹諾酮類本身有周圍神經毒性風險（FDA黑框警告），Gatifloxacin用於此適應症存在加重神經損傷的安全顧慮，反向風險明顯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital hematological disorder",
+      "txgnn_score": 0.9364,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性血液病（鐮刀型貧血、地中海貧血等）為基因缺陷所致，抗生素無法矯正根本病因。氟喹諾酮在此族群中用途僅限於預防感染（次要支持性治療），非老藥新用概念。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "septicemic plague",
+      "txgnn_score": 0.9326,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "敗血性鼠疫由鼠疫耶爾森菌（Yersinia pestis）引起，為革蘭氏陰性菌。氟喹諾酮類以DNA旋轉酶抑制作用對Y. pestis具強效殺菌活性，CDC已將環丙沙星、左氧氟沙星列為鼠疫替代治療選項。Gatifloxacin作為第四代氟喹諾酮，對革蘭氏陰性菌覆蓋更廣，具合理類效應（class effect）支持。但需考量：(1) Gatifloxacin已撤市，不如其他在市氟喹諾酮實際可及；(2) 同類藥物已有更充分人體安全資料；(3) dysglycemia風險在危重鼠疫患者中需特別監控。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "15555886",
+          "title": "Efficacy of the latest fluoroquinolones against experimental Yersinia pestis.",
+          "year": "2004",
+          "study_type": "Animal Study (In Vivo Experimental)",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "動物實驗（小鼠感染模型）直接測試Gatifloxacin等新型氟喹諾酮對Y. pestis的效力。為L3等級直接藥效學證據，但距人體臨床試驗仍有差距。Tier 3因屬動物實驗非人體RCT，相關性Grade B因為直接測試目標病原體但為撤市藥物且無後續人體研究跟進。"
+        }
+      ]
+    },
+    {
+      "disease_name": "hematopoietic and lymphoid system neoplasm",
+      "txgnn_score": 0.8627,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "造血及淋巴系統腫瘤為廣泛分類（含白血病、淋巴瘤等）。氟喹諾酮拓撲異構酶II抑制作用理論上有抗增生潛力，但目前僅有少量非Gatifloxacin的同類藥物體外細胞株資料，無Gatifloxacin特異性臨床前/臨床數據，且TxGNN分數為本分析中最低（0.8627），撤市風險不支持研發投入。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "L1_count": 0,
+    "L2_count": 0,
+    "L3_count": 1,
+    "L4_count": 0,
+    "L5_count": 9,
+    "S0_count": 9,
+    "S1_count": 1,
+    "S2_count": 0,
+    "S3_count": 0,
+    "Hold_count": 9,
+    "ResearchQuestion_count": 1,
+    "ProceedWithGuardrails_count": 0,
+    "key_finding": "9/10適應症為純TxGNN預測（L5/S0），無任何臨床或文獻支撐，且多數與氟喹諾酮機轉無合理連結（疑似KG血液病節點群聚偽陽性）。唯一具研究價值者為敗血性鼠疫（L3/S1），有動物實驗直接證據及氟喹諾酮類效支持，但Gatifloxacin撤市狀態及dysglycemia副作用使其劣於在市同類藥物（環丙沙星、左氧氟沙星）。",
+    "critical_safety_flag": "Gatifloxacin因dysglycemia（高/低血糖）於2006年撤市，所有再利用研究須先完成風險效益重新評估，尤其糖尿病患者及代謝疾病族群。另具FDA黑框警告之周圍神經毒性風險。"
+  }
+}
+```
+
+---
+
+## 分析重點摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| polyclonal hyperviscosity syndrome | L5 | S0 | Hold | 純預測，無機轉連結 |
+| hyperamylasemia | L5 | S0 | Hold | 純預測，逆向副作用風險 |
+| congenital analbuminemia | L5 | S0 | Hold | 基因病，無治療機轉 |
+| blood group incompatibility | L5 | S0 | Hold | 免疫反應，無機轉連結 |
+| premalignant hematological disease | L5 | S0 | Hold | 純預測，撤市藥物 |
+| monoclonal gammopathy | L5 | S0 | Hold | 純預測，無臨床依據 |
+| hematological + peripheral neuropathy | L5 | S0 | Hold | ⚠️ 氟喹諾酮本身有神經毒性 |
+| congenital hematological disorder | L5 | S0 | Hold | 基因病，超出藥物適用範疇 |
+| **septicemic plague** | **L3** | **S1** | **Research Question** | ✅ 動物實驗直接證據，類效應支持 |
+| hematopoietic & lymphoid neoplasm | L5 | S0 | Hold | 最低TxGNN分，無臨床前數據 |
+
+> **⚠️ 核心警示：** 本藥物「未上市」狀態（撤市）是所有再利用方向的首要障礙。建議優先評估同類在市藥物（環丙沙星/左氧氟沙星）的相同適應症，除非Gatifloxacin有不可替代的獨特優勢。

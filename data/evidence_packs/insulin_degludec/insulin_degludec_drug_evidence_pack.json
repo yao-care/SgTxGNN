@@ -1,0 +1,1775 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09564-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Insulin degludec",
+    "drugbank_id": "DB09564",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn": {
+        "score": 0.9944122433662416,
+        "rank": 7006
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06945406",
+            "title": "A Phase 1 Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY4057996 in Healthy Participants and Participants With Type 1 and Type 2 Diabetes",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 132,
+            "start_date": "2025-05-16",
+            "completion_date": "2026-12",
+            "brief_summary": "The purpose of this study is to evaluate how well LY4057996 is tolerated and what side effects may occur in healthy participants and participants with Type 1 and Type 2 Diabetes. The study drug will be administered either subcutaneously (SC) (under the skin) or intravenously (IV) (into a vein in the arm). Blood tests will be performed to check how much LY4057996 gets into the bloodstream and how long it takes the body to eliminate it.\n\nThe study will last 11 weeks for Part A1-A2, 4 weeks for A3-",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究標的為 LY4057（非 degludec），為不同分子的 Phase 1 安全性研究，degludec 相關性極低，列入僅作參考對照。"
+            }
+          },
+          {
+            "nct_id": "NCT00614055",
+            "title": "A 16 Week Randomised, Open Labelled, 3 Armed, Parallel Group, Treat-to-target Trial Comparing Once Daily Injection of SIAC 30 (B), SIAC 45 (B) and Insulin Glargine, All in Combination With Metformin in Subjects With Type 2 Diabetes Failing on OAD Treatment",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 178,
+            "start_date": "2008-01",
+            "completion_date": "2008-07",
+            "brief_summary": "This trial is conducted in Europe. The aim of this trial is to compare two NN5401 (SIAC, insulin degludec/insulin aspart) formulations with each other and with insulin glargine, all in combination with metformin in insulin naive subjects with type 2 diabetes.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "早期 Phase 2 三臂平行試驗，目標達成設計（treat-to-target），16 週追蹤，建立初期概念驗證，但樣本數與追蹤期較短。"
+            }
+          },
+          {
+            "nct_id": "NCT03328845",
+            "title": "Impact on the Oxidative Stress of the Different Analogues of Insulin in People With Type 1 Diabetes. Clinical Trial of Low Level of Intervention. (Ineox Study)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2017-01-20",
+            "completion_date": "2021-11-20",
+            "brief_summary": "This study evaluates in a group of people with DM 1 the influence in parameters of oxidative stress of the treatments with the different current analogs of insulin",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 完成試驗，比較不同胰島素類似物對 T1DM 氧化壓力的影響，直接比較 degludec 與其他胰島素，具良好樣本數（n=300）。"
+            }
+          },
+          {
+            "nct_id": "NCT00841087",
+            "title": "A 6-week, Randomised, Multi-centre, Open-labelled, Parallel Group, Exploratory Trial to Investigate the Safety of SIBA Once Daily + NovoRapid® Compared to Insulin Detemir Once Daily + NovoRapid®, All in a Basal-bolus Regimen in Subjects With Type 1 Diabetes Mellitus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2009-01",
+            "completion_date": "2009-05",
+            "brief_summary": "This trial is conducted in Japan. The aim of this clinical trial is to investigate the safety (with emphasis on hypoglycaemia) after switching from long-acting insulin analogue or intermediate-acting insulin to insulin degludec (NN1250, SIBA) on a basal-bolus regimen in subjects with type 1 diabetes mellitus.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "早期 Phase 2 探索性試驗（n=65），樣本數較小，6 週追蹤期較短，但為早期安全性確認有意義。"
+            }
+          },
+          {
+            "nct_id": "NCT03463564",
+            "title": "Effects of Insulin Pump Versus Multiple Daily Injections of Insulin on Glycemic and Metabolic Control in Type 1 Diabetic Patients Transitioned to the Adult Center: the Management and Technology for Transition Study (METRO)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 150,
+            "start_date": "2016-01",
+            "completion_date": "2026-12",
+            "brief_summary": "The transition from the Pediatric clinic to the adult care is a challenging period for young adults with type 1 diabetes, due to the high risk of poor glycemic control. Achieving the glycemic target without hypoglycemia and/or large glucose excursions is of paramount importance for type 1 diabetic patients, who have high variability of daily glucose levels . Both insulin pump therapy and multiple daily injections of insulin are recommended strategy to achieve glycemic control in type 1 diabetes;",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "胰島素幫浦 vs 多次注射比較研究，間接評估 degludec 在 T1DM 血糖控制中的角色，招募中。"
+            }
+          },
+          {
+            "nct_id": "NCT05463744",
+            "title": "A Phase 3, Multicenter, Randomized, Parallel-Design, Open-Label Study to Evaluate the Efficacy and Safety of LY3209590 as a Weekly Basal Insulin Compared With Insulin Degludec in Participants With Type 1 Diabetes Treated With Multiple Daily Injection Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 692,
+            "start_date": "2022-08-12",
+            "completion_date": "2024-05-07",
+            "brief_summary": "The main purpose of this study is to measure the safety and efficacy of insulin efsitora alfa (LY3209590) compared with insulin degludec in participants with type 1 diabetes treated with multiple daily injection therapy.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "大型 Phase 3 隨機對照試驗，直接評估 degludec 效益與安全性，為最高等級直接證據。樣本數 692 具統計效力。"
+            }
+          },
+          {
+            "nct_id": "NCT06408532",
+            "title": "The Evaluation of the Efficacy and Safety of Switching to Once-daily IDegLira in Patients With Type 2 Diabetes Receiving Premixed Insulin Therapy, a Multi-center, Randomized Control Trial",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 256,
+            "start_date": "2024-04-30",
+            "completion_date": "2025-02-28",
+            "brief_summary": "The study aims to evaluate the efficacy and safety of IDegLira in type 2 diabetes who have failed premixed insulin therapy. The study plans to enroll 256 participants with inadequate glycemic control despite twice-daily subcutaneous injections of premixed insulin and metformin. Participants will be randomly assigned to either the premixed insulin dose optimization group (control group) or IDegLira once daily group, and the difference in change in glycated hemoglobin levels from baseline to 16 we",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估從其他療法轉換至 IDegLira 的策略，尚未招募，提供未來真實世界切換研究的前瞻性意義。"
+            }
+          },
+          {
+            "nct_id": "NCT03557892",
+            "title": "Continuous Subcutaneous Insulin Infusion Associated With Continuous Glucose Monitoring in Comparison With Subcutaneous Multi-injection Insulin Therapy Using Degludec as Basal Insulin: a Randomized Crossover Trial in Type 1 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2018-04-01",
+            "completion_date": "2020-01-02",
+            "brief_summary": "Several studies have shown that Continuous Subcutaneous Insulin Infusion together with Continuous Glucose Monitoring improves glycemic control in type 1 diabetes when compared to more traditional approaches; however, in available trials the basal insulin used in multi-injection therapy is typically glargine, which is associated with a higher hypoglycemic risk than degludec.\n\nThis study will assess the efficacy and safety of Continuous Subcutaneous Insulin infusion (CSII) combined with Continuous",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "非分期研究，樣本極小（n=28），主要比較輸注裝置差異，degludec 相關性間接，證據力弱。"
+            }
+          },
+          {
+            "nct_id": "NCT04196231",
+            "title": "Durability of Combination of Insulin and GLP-1 Receptor Agonist or SGLT-2 Inhibitors Versus Basal Bolus Insulin Regimen in Type 2 Diabetes: a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 258,
+            "start_date": "2019-11-27",
+            "completion_date": "2020-10-20",
+            "brief_summary": "BEYOND represents an open-label, parallel, three-arm randomized controlled trial, aimed at evaluating the effects of combination therapy of fixed ratio basal insulin/GLP-1 receptor agonist (GLP-1RA) or basal insulin/SGLT-2 inhibitors (SGLT-2i) on the durability of the glycemic control, as compared with the basal bolus insulin regimen, in people with type 2 diabetes failing to achieve glycemic targets with injective therapy. The potential benefits for participants in the study include the possibi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估 degludec 合併 GLP-1 或 SGLT-2 抑制劑的持久性，研究複合療法而非單藥，相關性為中等。"
+            }
+          },
+          {
+            "nct_id": "NCT02738151",
+            "title": "A 24-week, Multicenter, Randomized, Open-Label, Parallel-group StudyComparing the Efficacy and Safety of Toujeo® and Tresiba® in Insulin-NaivePatients With Type 2 Diabetes Mellitus Not Adequately Controlled With OralAntihyperglycemic Drug(s) ± GLP-1 Receptor Agonist",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 929,
+            "start_date": "2016-05-19",
+            "completion_date": "2017-08-15",
+            "brief_summary": "Primary Objective:\n\nTo demonstrate the noninferiority in the efficacy of Toujeo® to Tresiba® in glycated hemoglobin (HbA1c) change from Baseline to Week 24.\n\nSecondary Objectives:\n\nChange From Baseline in HbA1c to Week 12\n\nTo assess the effects of the insulin Toujeo® in comparison with insulin Tresiba® at week 12 and week 24 on:\n\n* Change in Fasting plasma glucose (FPG);\n* Change in Fasting self-monitored plasma glucose (SMPG) and 4-point SMPG and 8-point SMPG profile;\n* Percentage of participan",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "最大樣本量 Phase 4 上市後研究（n=929），多中心隨機開放標籤平行設計，真實世界驗證效益與安全性，相關性極高。"
+            }
+          },
+          {
+            "nct_id": "NCT02392117",
+            "title": "A Multi-centre, Prospective, Non-interventional Study of Insulin Degludec Investigating the Safety and Effectiveness in a Real World Population With Type 1 and 2 Diabetes Mellitus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1262,
+            "start_date": "2015-03-16",
+            "completion_date": "2018-03-19",
+            "brief_summary": "This study is conducted in Europe. The aim of this non-interventional study is to investigate the safety and effectiveness of insulin degludec (Tresiba®) in a real world population with type 1 (T1DM) and 2 (T2DM) diabetes mellitus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05221580",
+            "title": "A Prospective Non-interventional Single-arm Study Investigating Clinical Parameters Associated With the Use of Ryzodeg® (Insulin Degludec/Insulin Aspart) in a Real-world Adult Population With Type 2 Diabetes in China",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 887,
+            "start_date": "2022-03-18",
+            "completion_date": "2023-03-31",
+            "brief_summary": "The purpose of this study is to collect information on how Ryzodeg® works in real-world patients.\n\nParticipants will get Ryzodeg® as prescribed to by their doctor. The study will last for about 5-8 months. Participants will be asked questions about their health and their diabetes treatment as part of their normal doctor's appointment",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03214367",
+            "title": "A Prospective, Randomized, Double-Blind Comparison of LY900014 to Insulin Lispro With an Open-Label Postprandial LY900014 Treatment Group, in Combination With Insulin Glargine or Insulin Degludec, in Adults With Type 1 Diabetes PRONTO-T1D",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1392,
+            "start_date": "2017-07-17",
+            "completion_date": "2019-08-22",
+            "brief_summary": "The main purpose of this study is to evaluate the efficacy of the study drug LY900014 compared to insulin lispro, both in combination with insulin glargine or insulin degludec, in adults with type 1 diabetes (T1D).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01045707",
+            "title": "NN5401-3590: A Trial Comparing Efficacy and Safety of NN5401 With Insulin Glargine in Insulin Naive Subjects With Type 2 Diabetes (BOOST™ : START 1) / NN5401-3726: An Extension Trial Comparing Safety and Efficacy of NN5401 With Insulin Glargine in Subjects With Type 2 Diabetes (BOOST™: START 1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 530,
+            "start_date": "2010-01",
+            "completion_date": "2010-10",
+            "brief_summary": "This trial is conducted in Asia, Europe and the United States of America (USA). The aim of this trial is to compare the efficacy and safety of NN5401 (insulin degludec/insulin aspart (IDegAsp)) with insulin glargine (IGlar), both as add-on to subject's ongoing treatment with metformin + at least one OAD (oral anti-diabetic drug).\n\nThe main period is registered internally at Novo Nordisk as NN5401-3590 while the extension period is registered as NN5401-3726.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06288412",
+            "title": "Pharmacodynamic Properties of Insulin Icodec During Exercise and Prolonged Fasting in Participants With Type 2 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2024-02-26",
+            "completion_date": "2025-04-14",
+            "brief_summary": "The study will investigate the safety of once weekly insulin icodec subcutaenously (s.c.) during and after exercise and prolonged fasting in patients with type 2 diabetes (T2D). Participants will first receive insulin decludec (Tresiba®, a long-acting insulin taken once daily) for atleast one week. Afterwards participants will receive insulin icodec that will be administered once weekly at the study site (for a minimum of 7 weeks and maximum of 14 weeks). Insulin icodec is a novel long-acting in",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04965051",
+            "title": "A Prospective, Randomized, Open-label, Parallel Group Study to Evaluate Safety and Efficacy of Insulin Degludec/Insulin Aspart in Patients With Type 1 Diabetes Mellitus",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2021-08",
+            "completion_date": "2023-12",
+            "brief_summary": "In this prospective, randomized, open-label, parallel group trial, the safety and efficacy of insulin degludec/insulin aspart (IDegAsp) twice daily will be compared with basal insulin once or twice daily plus pre-prandial insulin after 16 weeks of treatment in patients with type 1 diabetes. This trial will enable assessment of the clinically relevant endpoint of a change in HbA1c and Time in Range (TIR).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07215312",
+            "title": "A Phase 2, Randomized, Open-Label, Comparator-Controlled Trial to Evaluate the Efficacy and Safety of LY3938577 in Study Participants, With Type 2 Diabetes Previously Treated With Basal Insulin",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-10-13",
+            "completion_date": "2026-12",
+            "brief_summary": "The purpose of this study is to see how well LY3938577 works and how safe it is compared to degludec in people with type 2 diabetes. Participation in the study will last about 26 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00612040",
+            "title": "A 16 Week Randomised, Open Labelled, 3-armed, Treat-to-target, Parallel Group Trial Comparing SIBA (D) Once Daily + NovoRapid®, SIBA (E) Once Daily + NovoRapid® and Insulin Glargine Once Daily + NovoRapid®, All in a Basal/Bolus Regimen in Subjects With Type 1 Diabetes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 178,
+            "start_date": "2008-01",
+            "completion_date": "2008-06",
+            "brief_summary": "This trial is conducted in Europe, Oceania and the United States of America (USA). The aim of this trial is to compare two NN1250 (insulin degludec) formulations with each other and with insulin glargine, all in combination with insulin aspart in subjects with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01076634",
+            "title": "A Trial Investigating the Pharmacodynamic Properties of NN1250 in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2010-02",
+            "completion_date": "2010-07",
+            "brief_summary": "This trial is conducted in Europe. The aim of the trial is to investigate the pharmacodynamic properties (effect) by comparing two NN1250 (insulin degludec, IDeg) formulations in subjects with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04671043",
+            "title": "Does Combined Caffeine and Carbohydrate Ingestion Counter the Exercise-mediated Fall in Glycaemia in Individuals With Type 1 Diabetes on Insulin Degludec? The DE-CAF Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2022-02-04",
+            "completion_date": "2023-02-02",
+            "brief_summary": "This project will aim to investigate the clinical efficacy and metabolic effects of a pre-exercise dose of caffeine with a low (10g) dose of carbohydrate (CAF+lowCHO) without modification of insulin degludec on exercise metabolism in people with T1D.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05362058",
+            "title": "A Phase 3, Parallel-Design, Open-Label, Randomized Control Study to Evaluate the Efficacy and Safety of LY3209590 as a Weekly Basal Insulin Compared to Insulin Degludec in Insulin Naïve Adults With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 928,
+            "start_date": "2022-06-03",
+            "completion_date": "2024-04-10",
+            "brief_summary": "The purpose of this study is to determine the effect and safety of insulin efsitora alfa (LY3209590) compared to degludec in adult participants with type 2 diabetes who are starting basal insulin for the first time. The study consists of a 1-week screening period, a 2-week lead-in period, a 52-week treatment period, and a 5-week safety follow-up period. The study will last up to 60 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04409587",
+            "title": "Basal Insulin Glycemic ControL With DEglugec vs Aspart Via Pump: A Comparison of Insulin Degludec to Continuous Subcutaneous Infusion of Insulin Aspart for Basal Insulin Delivery in Type 1 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2018-04-12",
+            "completion_date": "2020-11-01",
+            "brief_summary": "The purpose of this investigator-initiated trial is to compare the effect of a daily injection of insulin degludec vs. basal insulin delivery via Continuous Subcutaneous Insulin Infusion (CSII), both in combination with bolus insulin delivery via the patient's usual insulin pump with insulin aspart, on glycemic variability, overall blood glucose control and incidence of hypoglycemia, all assessed by continuous glucose monitor (CGM), as well as patient satisfaction, in patients with type 1 diabet",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01835431",
+            "title": "A Trial Investigating the Efficacy and Safety of Insulin Degludec/Insulin Aspart Once Daily Plus Insulin Aspart for the Remaining Meals Versus Insulin Detemir Once or Twice Daily Plus Meal Time Insulin Aspart in Children and Adolescents With Type 1 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 362,
+            "start_date": "2013-10-17",
+            "completion_date": "2014-11-07",
+            "brief_summary": "This trial is conducted in Asia, Europe and North and South America. The aim of the trial is to investigate the efficacy and safety of insulin degludec/insulin aspart once daily plus insulin aspart for the remaining meals in children and adolescents with type 1 diabetes mellitus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00992537",
+            "title": "A Trial Comparing the Pharmacokinetic and Pharmacodynamic Properties Between NN5401 and NN1250 and Between NN5401 and Insulin Aspart in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2009-10",
+            "completion_date": "2010-01",
+            "brief_summary": "This trial is conducted in Europe. The aim of this clinical trial is to compare the blood glucose lowering effect of NN5401(insulin degludec/insulin aspart (IDegAsp)) with NN1250 (insulin degludec (IDeg)) and insulin aspart (IAsp) in subjects with type 1 diabetes where the trial participant will receive one single dose of each trial product in varying order.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03268005",
+            "title": "Efficacy and Safety of Fast-acting Insulin Aspart Compared to NovoRapid® Both in Combination With Insulin Degludec With or Without Metformin in Adults With Type 2 Diabetes (Onset® 9)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1264,
+            "start_date": "2017-09-19",
+            "completion_date": "2019-01-29",
+            "brief_summary": "The study compares 2 medicines for type 2 diabetes: fast-acting insulin aspart (a new medicine) and NovoRapid®/NovoLog® (a medicine doctors can already prescribe). Fast-acting insulin aspart will be tested to see how well it works and if it is safe. Participants will get either fast-acting insulin aspart or NovoRapid®/ NovoLog® - which treatment you get is decided by chance. Both medicines will be taken together with insulin degludec. Participants will need to take 1 injection 4 times every day ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06280703",
+            "title": "A Four-Part, Randomized, Double-Blind (Part A) and Open-Label (Part B, Part C, and Part D), Multi-Dose, Phase 1 Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3938577 in Healthy Participants and Participants With Type 1 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 118,
+            "start_date": "2024-05-15",
+            "completion_date": "2026-09",
+            "brief_summary": "The main purpose of this study is to look at the amount of the study drug LY3938577 that gets into the blood stream and how long it takes the body to get rid of it. At a later stage of this study (part B and C) the blood sugar lowering effect and the duration of action of LY3938577 will be evaluated compared to Insulin Degludec.\n\nThe study will also evaluate the safety and tolerability of LY3938577 and information about any side effects experienced will be collected.\n\nThe study will be conducted",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02192450",
+            "title": "The Effect of Insulin Degludec on Risk of Symptomatic Nocturnal Hypoglycaemia in Subjects With Type 1 Diabetes and High Risk of Nocturnal Severe Hypoglycaemia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 149,
+            "start_date": "2015-01",
+            "completion_date": "2019-02-28",
+            "brief_summary": "The purpose of this study is to determine whether insulin degludec compared to insulin glargine can reduce the risk of symptomatic nocturnal hypoglycaemia in subjects with the greatest potential benefit from optimised insulin treatment, which are patients with type 1 diabetes and high risk of nocturnal severe hypoglycaemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06132126",
+            "title": "A Single and Multiple-Ascending Dose Phase 1 Study to Assess the Safety, Tolerability, and Pharmacokinetics of LY3938577 in Healthy Participants and Participants With Type 2 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 66,
+            "start_date": "2023-11-17",
+            "completion_date": "2024-06-28",
+            "brief_summary": "The main purpose of this study is to assess the safety and tolerability of a single dose of LY3938577 in healthy participants and participants with Type 2 Diabetes Mellitus (T2DM) (Part A) and multiple doses of LY3938577 in participants with T2DM (Part B). The study will last approximately 6 weeks for Part A and approximately 10 weeks for Part B respectively.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00993096",
+            "title": "A Trial Investigating the Pharmacodynamic Response of NN5401 in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2009-09",
+            "completion_date": "2009-12",
+            "brief_summary": "This trial was conducted in Europe. The aim of this clinical trial was to evaluate the pharmacodynamic dose-response relationship of NN5401 (insulin degludec/insulin aspart) at three therapeutically relevant doses in subjects with type 1 diabetes.\n\nThe trial is designed as a four period, incomplete block cross-over trial where the trial participant will be randomised to a treatment sequence by which the subject will receive two matched dose levels of NN5401 and biphasic insulin aspart, respectiv",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04663282",
+            "title": "Evaluation of the Efficacy and Safety of INS068 Injection and Insulin Degludec Subcutaneous Injection Once Daily in Subjects With Type 2 Diabetes Mellitus Not Adequately Controlled With One or Two Oral Antidiabetics (A Randomized, Open-Label, Two-Arm, Treat-to-Target, Parallel Controlled Trial)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 179,
+            "start_date": "2021-02-04",
+            "completion_date": "2022-05-28",
+            "brief_summary": "The study is being conducted to evaluate the efficacy and safety of IND068 once daily (QD) in subjects with type 2 diabetes not adequately controlled with one or two oral antidiabetics compared to insulin degludec QD for 16 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01009580",
+            "title": "A 26-week, Randomised, Open-labelled, Two-arm, Parallel-group, Treat-to-target Trial Comparing Efficacy and Safety of Soluble Insulin Analogue Combination (SIAC) Twice Daily (BID) With Biphasic Insulin Aspart (BIAsp) 30 BID, With or Without Metformin, With or Without DPP-4 Inhibitor, With or Without Pioglitazone in Subjects With Type 2 Diabetes in Inadequate Glycaemic Control on Once or Twice Daily Premixed or Self-mixed Insulin Regimen With or Without OADs (BOOST™: Intensify Premix 1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 447,
+            "start_date": "2009-11-05",
+            "completion_date": "2010-08-23",
+            "brief_summary": "This trial is conducted in Asia, Europe and Oceania. The aim of this clinical trial is to compare NN5401 (insulin degludec/insulin aspart) with biphasic insulin aspart 30 in subjects with type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05275400",
+            "title": "A Phase 3, Multicenter, Randomized, Parallel-Design, Open-Label Trial to Evaluate the Efficacy and Safety of LY3209590 Compared With Insulin Degludec in Participants With Type 2 Diabetes Currently Treated With Basal Insulin (QWINT-3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 986,
+            "start_date": "2022-03-08",
+            "completion_date": "2024-05-15",
+            "brief_summary": "The reason for this study is to see if the study drug insulin efsitora alfa (LY3209590) is safe and effective in participants with Type 2 diabetes that have already been treated with basal insulin. The study consists of a 3-week screening/lead-in period, a 78-week treatment period and a 5-week safety follow-up period. The study will last up to 86 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05767255",
+            "title": "Risk of Hypoglycemia in the Transition From Inpatient to Outpatient Setting. Comparative Study of Basal-bolus Insulin Versus Basal Insulin Plus GLP-1 Analogue",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 66,
+            "start_date": "2022-12-01",
+            "completion_date": "2023-08-30",
+            "brief_summary": "The association of insulin degludec with liraglutide in the same device (IDegLira) is a potent but at the same time safe drug that reduces the risk of hypoglycemia when compared to a basal or basal-bolus insulin schedule.\n\nThe DUAL (Dual Action of Liraglutide and Insulin Degludec) studies are the pivotal studies of this combination. Specifically, the DUAL VII study has demonstrated that ideglira is a non-inferior drug in terms of glycemic control versus a basal-bolus schedule in patients in the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03400501",
+            "title": "Reducing the Risk of Metabolic Decompensation in Adolescents With Poorly Controlled Type 1 Diabetes by Supervised School Administration of Insulin Degludec",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 32,
+            "start_date": "2017-10-01",
+            "completion_date": "2021-06-07",
+            "brief_summary": "This is a pilot study to examine and compare the efficacy of supervised injections of long acting insulins degludec and glargine to protect youth with poorly controlled type 1 diabetes (T1D) from development of ketones.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01865292",
+            "title": "A Randomised, Double-Blind, Single Dose, Six-Period Cross-over Dose Response Trial Comparing the Pharmacodynamics and Pharmacokinetics of Insulin 454 With Insulin Glargine in Subjects With Type 1 and Type 2 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2006-08",
+            "completion_date": "2006-11",
+            "brief_summary": "This trial is conducted in Europe. The aim of this trial is to compare the pharmacodynamics (the effect of the investigated drug on the body) and pharmacokinetics (the exposure of the trial drug in the body) of insulin degludec (insulin 454), an explorative formulation, not similar to the proposed commercial formulation, with insulin glargine in subjects with type 1 and type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06685185",
+            "title": "A Study Investigating Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single and Multiple Doses of NNC0363-1063 in Healthy Participants and Participants With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 154,
+            "start_date": "2024-11-12",
+            "completion_date": "2026-05-15",
+            "brief_summary": "This study will look into testing a new medicine called NNC0363-1063 which may be used to treat people with diabetes. The study consists of three parts: Part 1 is a single ascending dose (SAD) study that comprises two subtypes: Part 1A conducted in healthy participants and Part 1B conducted in participants with type 1 diabetes (T1D). This study part will last for about 1½ to 5½ weeks. Part 2 is a proof-of-principle (PoP) study part conducted in participants with T1D and will last for about 3½ to",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01868568",
+            "title": "A Randomised, Double-blind, Multiple Period Cross-over Trial Comparing Insulin 454 and Insulin Aspart Fixed Combination Products With Separately Injected, Simultaneous Doses of Insulin 454 and Insulin Aspart, Compared to Biphasic Insulin Aspart 30 (NovoMix® 30) in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 55,
+            "start_date": "2008-04",
+            "completion_date": "2008-08",
+            "brief_summary": "This trial is conducted in Europe. The aim of this trial is to compare insulin degludec and insulin aspart (IDegAsp) co-formulations with separately injected, simultaneous doses of insulin degludec (insulin 454) and insulin aspart, compared with biphasic insulin aspart 30 (NovoMix® 30) in subjects with type 1 diabetes mellitus. Each subject will be randomised to four out of nine possible treatment arms. IDegAsp 40, IDegAsp 45, IDegAsp 55 and IDeg high concentration were explorative formulations,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02034513",
+            "title": "A Randomised, Double Blind, Cross-over Trial Comparing the Safety and Efficacy of Insulin Degludec and Insulin Glargine, Both With Insulin Aspart as Mealtime Insulin in Subjects With Type 1 Diabetes (SWITCH 1)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 501,
+            "start_date": "2014-01-05",
+            "completion_date": "2016-01-11",
+            "brief_summary": "This trial is conducted in Europe and the United States of America (USA). The aim of the trial is to compare the safety and efficacy of insulin degludec (IDeg) and insulin glargine (IGlar), both with insulin aspart (IAsp) as mealtime insulin in subjects with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04450394",
+            "title": "A Phase 2, Parallel, Comparator-Controlled Trial to Evaluate the Safety and Efficacy of LY3209590 in Insulin-Naïve Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 278,
+            "start_date": "2020-07-01",
+            "completion_date": "2021-10-08",
+            "brief_summary": "The reason for this study is to see if the study drug LY3209590 is safe and effective in participants with type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02230618",
+            "title": "A Multi-centre, Prospective, Open-label, Single-arm, Non-interventional, Post Marketing Surveillance (PMS) Study of Ryzodeg™ (Insulin Degludec/Insulin Aspart) to Evaluate Long Term Safety and Efficacy in Patients With Diabetes Mellitus in Routine Clinical Practice in India",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1029,
+            "start_date": "2015-11-24",
+            "completion_date": "2017-06-01",
+            "brief_summary": "This study is conducted in Asia. The aim of this study is to evaluate long term safety and efficacy in patients with diabetes mellitus in routine clinical practice in India.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01046110",
+            "title": "A Trial Comparing Efficacy and Safety of NN1250 With Sitagliptin in Insulin Naive Subjects With Type 2 Diabetes (BEGIN™ : EARLY)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 458,
+            "start_date": "2010-01",
+            "completion_date": "2010-11",
+            "brief_summary": "This trial will be conducted in Africa, Asia, North America and South America. The aim of this clinical trial is to compare NN1250 (insulin degludec) with sitagliptin, as add-on to subject's own current oral antidiabetic (OAD) treatment, in subjects with type 2 diabetes inadequately controlled with 1-2 OADs (metformin, sulphonylurea, glinides or pioglitazone).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01569841",
+            "title": "A Trial Comparing the Efficacy of Insulin Degludec With Insulin Glargine on Glycaemic Control Using Continuous Glucose Monitoring in Patients With Type 1 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2012-04",
+            "completion_date": "2012-11",
+            "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to compare the efficacy of insulin decludec with insulin glargine on glycaemic control using continuous glucose monitoring in patients with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06111508",
+            "title": "An Exploratory 16-Week Pilot Study of the Effect and Safety of a Novel CGM-Based Titration Algorithm for Basal Insulin, With or Without Non-Insulin Antidiabetic Drugs, in Type 2 Diabetes Mellitus Participants Treated With Basal Insulin.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2023-11-29",
+            "completion_date": "2024-09-16",
+            "brief_summary": "The goal of this clinical trial is to compare the effect of a continuous glucose monitor (CGM) based titration algorithm to standard titration by self-monitoring blood glucose (SMBG) in participants with Type 2 Diabetes already using long acting insulin. The comparison aims to study the difference in glycemic control between the two therapies. Participants will be followed for 18 weeks and will be provided with Degludec insulin, insulin pen, and a CGM (Dexcom G6).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00961324",
+            "title": "A Randomised, Single-centre, Double-blind, Parallelgroup, Multiple Dose Trial Comparing the Within-subject Variability of SIBA and Insulin Glargine With Respect to Pharmacodynamic Response at Steady State Conditions in Subjects With Type 1 Diabetes",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 54,
+            "start_date": "2009-07-27",
+            "completion_date": "2009-10-26",
+            "brief_summary": "This trial is conducted in Europe. The aim of this clinical trial is to evaluate the variability in the blood glucose-lowering effect of NN1250 (insulin degludec) in subjects with type 1 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05360537",
+            "title": "Effects of Degludec/Liraglutide on Time in Range, Markers of Inflammation and Endothelial Dysfunction Compared to Scheme Insulin Basal Bolus, in a Population of Diabetic Inpatients and Possible Correlation With Intra-hospital Mortality Rates",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2021-04-01",
+            "completion_date": "2022-04-20",
+            "brief_summary": "The study aims to evaluate the effects of Insulin Degludec/Liraglutide on glycemic variability assessed by continuous glycemic monitoring with the function time in range, serum markers of inflammation, markers of endothelial dysfunction and a possible correlation with intra and extra-hospital mortality rates in a group of hospitalized diabetic patients compared to a control group of in-patient diabetic in treatment on insulin Basal-bolus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01868529",
+            "title": "A Randomised, Single Centre, Double-blind, Two-Period Cross-over, Multiple Dose Trial Comparing the Pharmacodynamic Response of Insulin 454 With Insulin Glargine at Steady-State Conditions in Subjects With Type 1 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 63,
+            "start_date": "2008-01",
+            "completion_date": "2008-06",
+            "brief_summary": "This trial was conducted in Europe. The aim of this trial was to compare the pharmacodynamic (the effect of the investigated drug on the body) response of insulin degludec (insulin 454) with insulin glargine at steady-state conditions in subjects with type 1 diabetes mellitus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04974528",
+            "title": "INHALE-1: A 26-week Primary Treatment Phase, With 26-week Extension, Open-label, Randomized Clinical Trial Evaluating the Efficacy and Safety of Afrezza® Versus Rapid-acting Insulin Analog Injections, Both in Combination With a Basal Insulin, in Pediatric Subjects With Type 1 or Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 319,
+            "start_date": "2021-09-29",
+            "completion_date": "2025-04-29",
+            "brief_summary": "INHALE-1 is a Phase 3, open-label, randomized clinical study evaluating the efficacy and safety of Afrezza in combination with a basal insulin (i.e., the Afrezza group) versus insulin aspart, insulin lispro or insulin glulisine in combination with a basal insulin (i.e., the Rapid-acting Insulin Analog \\[RAA\\] injection group) in pediatric subjects with type 1 or type 2 diabetes mellitus. Following 26 weeks of randomized treatment (i.e., Afrezza or RAA injection combined with a basal insulin), al",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03882970",
+            "title": "A Randomized, Phase 3, Open-Label Trial Comparing the Effect of LY3298176 Versus Titrated Insulin Degludec on Glycemic Control in Patients With Type 2 Diabetes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1444,
+            "start_date": "2019-04-01",
+            "completion_date": "2021-01-04",
+            "brief_summary": "The purpose of this study is to compare the effect of the study drug tirzepatide to insulin degludec on blood sugar levels in participants with type 2 diabetes. The study will last about 67 weeks and may include up to 22 visits.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05429359",
+            "title": "cArdiopulmonary exerCise Test Assessing Multiple biOmarkers and Hormones iN Type 1 diabetEs Under Different Circumstances (ACT-ONE)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2022-10-01",
+            "completion_date": "2024-03-31",
+            "brief_summary": "Collection of venous blood samples in 50 persons with type 1 diabetes to evaluate the behavior of different biomarkers (glucose, lactate, beta-hydroxybutyrate), and hormones (cortisol, growth hormone) during and after one morning CardioPulmonary Exercise Test and 2 aerobic (90 minutes at 40-45% of VO2 max) exercise tests under different circumstances (see Protocol).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04027023",
+            "title": "Pilot Study for Evaluation of the Impact of Intensive Short-Term Drug Therapy on Beta-Cell Function and Insulin Resistance in Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 9,
+            "start_date": "2019-10-30",
+            "completion_date": "2021-05-31",
+            "brief_summary": "This phase IV study is a prospective open-label multi-center study to investigate the effect of a temporary individualized poly-pharmaceutical De-escalation treatment with the target to regenerate ß-cell function over 12 weeks on the disease stage and glycemic control in patients with type 2 diabetes. This is an uncontrolled pilot study to collect data for later confirmatory trials.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37863084",
+            "title": "Once-weekly insulin icodec versus once-daily insulin degludec as part of a basal-bolus regimen in individuals with type 1 diabetes (ONWARDS 6): a phase 3a, randomised, open-label, treat-to-target trial.",
+            "authors": [
+              "Russell-Jones David",
+              "Babazono Tetsuya",
+              "Cailleteau Roman",
+              "Engberg Susanne",
+              "Irace Concetta"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2023",
+            "abstract": "ONWARDS 6 compared the efficacy and safety of once-weekly subcutaneous insulin icodec (icodec) and once-daily insulin degludec (degludec) in adults with type 1 diabetes.",
+            "classification": {
+              "study_type": "RCT (ONWARDS 6)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37290466",
+            "title": "Management of type 1 diabetes in pregnancy: update on lifestyle, pharmacological treatment, and novel technologies for achieving glycaemic targets.",
+            "authors": [
+              "Benhalima Katrien",
+              "Beunen Kaat",
+              "Siegelaar Sarah E",
+              "Painter Rebecca",
+              "Murphy Helen R"
+            ],
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2023",
+            "abstract": "Glucose concentrations within target, appropriate gestational weight gain, adequate lifestyle, and, if necessary, antihypertensive treatment and low-dose aspirin reduces the risk of pre-eclampsia, preterm delivery, and other adverse pregnancy and neonatal outcomes in pregnancies complicated by type 1 diabetes. Despite the increasing use of diabetes technology (ie, continuous glucose monitoring and insulin pumps), the target of more than 70% time in range in pregnancy (TIRp 3·5-7·8 mmol/L) is oft",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36623517",
+            "title": "Insulin degludec versus insulin detemir, both in combination with insulin aspart, in the treatment of pregnant women with type 1 diabetes (EXPECT): an open‑label, multinational, randomised, controlled, non-inferiority trial.",
+            "authors": [
+              "Mathiesen Elisabeth R",
+              "Alibegovic Amra Ciric",
+              "Corcoy Rosa",
+              "Dunne Fidelma",
+              "Feig Denice S"
+            ],
+            "journal": "The lancet. Diabetes & endocrinology",
+            "year": "2023",
+            "abstract": "Insulin degludec (degludec) is a second-generation basal insulin with an improved pharmacokinetic-pharmacodynamic profile compared with first-generation basal insulins, but there are few data regarding its use during pregnancy. In this non-inferiority trial, we aimed to compare the efficacy and safety of degludec with insulin detemir (detemir), both in combination with insulin aspart (aspart), in pregnant women with type 1 diabetes.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36106652",
+            "title": "Rationale and design of the phase 3a development programme (ONWARDS 1-6 trials) investigating once-weekly insulin icodec in diabetes.",
+            "authors": [
+              "Philis-Tsimikas Athena",
+              "Bajaj Harpreet S",
+              "Begtrup Kamilla",
+              "Cailleteau Roman",
+              "Gowda Amoolya"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2023",
+            "abstract": "To describe the phase 3a ONWARDS clinical development programme investigating insulin icodec (icodec), a once-weekly basal insulin, including the design and rationale for each of the ONWARDS 1-6 trials.",
+            "classification": {
+              "study_type": "Study Design Paper",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36763996",
+            "title": "Efficacy and Tolerability of Insulin Degludec Versus Other Long-acting Basal Insulin Analogues in the Treatment of Type 1 and Type 2 Diabetes Mellitus: A Systematic Review and Meta-analysis.",
+            "authors": [
+              "Dong Zhi-Yuan",
+              "Feng Ji-Hua",
+              "Zhang Jian-Feng"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2022",
+            "abstract": "The goal of this study was to compare the efficacy and tolerability of insulin degludec with those of other long-acting insulin analogues (insulin glargine and insulin detemir) in patients with type 1 or 2 diabetes mellitus (T1D or T2D).",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39270686",
+            "title": "Once-weekly insulin efsitora alfa versus once-daily insulin degludec in adults with type 1 diabetes (QWINT-5): a phase 3 randomised non-inferiority trial.",
+            "authors": [
+              "Bergenstal Richard M",
+              "Weinstock Ruth S",
+              "Mathieu Chantal",
+              "Onishi Yukiko",
+              "Vijayanagaram Vishali"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2024",
+            "abstract": "Insulin efsitora alfa (efsitora) is a once-weekly basal insulin. This phase 3 study aimed to assess the efficacy and safety of efsitora compared with insulin degludec (degludec) in adults with type 1 diabetes.",
+            "classification": {
+              "study_type": "RCT (Phase 3, QWINT-1)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38679838",
+            "title": "Once-weekly insulin efsitora alfa: Design and rationale for the QWINT phase 3 clinical development programme.",
+            "authors": [
+              "Bergenstal Richard M",
+              "Philis-Tsimikas Athena",
+              "Wysham Carol",
+              "Carr Molly C",
+              "Bue-Valleskey Juliana M"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2024",
+            "abstract": "Insulin efsitora alfa (efsitora) is a once-weekly basal insulin. This review describes the study design and rationale of the efsitora phase 3 Once Weekly (QW) Insulin Therapy (QWINT) clinical development programme, including the five trials, QWINT-1 through QWINT-5.",
+            "classification": {
+              "study_type": "Study Design Paper",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23890782",
+            "title": "Degludec, a new ultra-long-acting basal insulin for the treatment of diabetes mellitus type 1 and 2: advances in clinical research.",
+            "authors": [
+              "Muñoz Torres Manuel"
+            ],
+            "journal": "Endocrinologia y nutricion : organo de la Sociedad Espanola de Endocrinologia y Nutricion",
+            "year": "2014",
+            "abstract": "Degludec is the most recent molecule of the ultra-long-acting basal insulin analogues approved for human use. It forms soluble multihexamers which after subcutaneous injection are converted into monomers, and are thus slowly and continuously absorbed into the bloodstream. This absorption mechanism confers degludec an ultra-long and stable action profile, with no concentration peaks. This paper discusses the most recent studies in patients with type 1 and 2 diabetes mellitus, which showed deglude",
+            "classification": {
+              "study_type": "Clinical Pharmacology Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25143741",
+            "title": "Insulin degludec/insulin aspart combination for the treatment of type 1 and type 2 diabetes.",
+            "authors": [
+              "Dardano Angela",
+              "Bianchi Cristina",
+              "Del Prato Stefano",
+              "Miccoli Roberto"
+            ],
+            "journal": "Vascular health and risk management",
+            "year": "2014",
+            "abstract": "Glycemic control remains the major therapeutic objective to prevent or delay the onset and progression of complications related to diabetes mellitus. Insulin therapy represents a cornerstone in the treatment of diabetes and has been used widely for achieving glycemic goals. Nevertheless, a large portion of the population with diabetes does not meet the internationally agreed glycemic targets. Moreover, insulin treatment, especially if intensive, may be associated with emergency room visits and h",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31055056",
+            "title": "Current status of insulin degludec in type 1 and type 2 diabetes based on randomized and observational trials.",
+            "authors": [
+              "Preumont V",
+              "Buysschaert M"
+            ],
+            "journal": "Diabetes & metabolism",
+            "year": "2020",
+            "abstract": "Insulin degludec is a new ultra-long-action basal insulin. Using treat-to-target protocols, controlled trials have shown comparable HbA1c reductions with insulin degludec and comparators in both type 1 and type 2 diabetes. Most studies identify, however, better control of fasting plasma glucose with insulin degludec vs. either insulin glargine U100 or detemir, and all have consistently demonstrated clinically relevant decreases in (nocturnal) hypoglycaemic episodes. These characteristics have pr",
+            "classification": {
+              "study_type": "Narrative Review + Observational data",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30789066",
+            "title": "Premix insulins in type 1 diabetes: the coming of degludec/aspart.",
+            "authors": [
+              "Rendell Marc"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2019",
+            "abstract": "Although premixed fixed ratio NPH insulin products are commonly used in type 2 diabetes patients, the advent of Glargine insulin which cannot be formulated together with a rapid-acting insulin (basal-bolus) has largely eliminated premixed insulin from use in type 1 diabetes. Degludec insulin can be formulated together with Aspart insulin in a 70/30 fixed ratio product. We review the potential use of Degludec-Aspart in type 1 diabetes. Areas covered: A historical search of the development and use",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35476308",
+            "title": "Safety, efficacy, and cost-effectiveness of insulin degludec U100 versus insulin glargine U300 in adults with type 1 diabetes: a systematic review and indirect treatment comparison.",
+            "authors": [
+              "Martin",
+              "Zhou Yi",
+              "Takagi Tatsuya",
+              "Tian Yu-Shi"
+            ],
+            "journal": "International journal of clinical pharmacy",
+            "year": "2022",
+            "abstract": "Clinical differences between degludec U100 (Deg-100) and glargine U300 (Gla-300) in type 1 diabetes (T1D) were unknown.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28458515",
+            "title": "United States experience of insulin degludec alone or in combination for type 1 and type 2 diabetes.",
+            "authors": [
+              "Rendell Marc"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2017",
+            "abstract": "Insulin degludec has been the product of a sophisticated and systematic biochemical engineering program which began with the release of insulin detemir. The goal was to produce a long-lasting basal insulin with low individual variability. Certainly, this goal has been achieved. Degludec has a duration of action approaching twice that of glargine. Another advantage of degludec is in its lack of unpredictable copolymerization of added aspart. In several studies, degludec has shown lower rates of n",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23620200",
+            "title": "Insulin degludec and insulin degludec/insulin aspart: a review of their use in the management of diabetes mellitus.",
+            "authors": [
+              "Keating Gillian M"
+            ],
+            "journal": "Drugs",
+            "year": "2013",
+            "abstract": "Insulin degludec (Tresiba(®)) is an ultra-long-acting insulin analogue that is also available as a coformulation with rapid-acting insulin aspart (insulin degludec/insulin aspart) [Ryzodeg(®)]. Insulin degludec has a flat, stable glucose-lowering profile with a duration of action of >42 h, and less within-patient day-to-day variability in glucose-lowering effect than the long-acting insulin analogue insulin glargine. In clinical trials, insulin degludec achieved similar glycaemic control to that",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29477399",
+            "title": "Basal Insulin Regimens for Adults with Type 1 Diabetes Mellitus: A Systematic Review and Network Meta-Analysis.",
+            "authors": [
+              "Dawoud Dalia",
+              "O'Mahony Rachel",
+              "Wonderling David",
+              "Cobb Jill",
+              "Higgins Bernard"
+            ],
+            "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+            "year": "2018",
+            "abstract": "To assess the relative efficacy and safety of basal insulin regimens in adults with type 1 diabetes mellitus (T1DM).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36800034",
+            "title": "The efficacy of insulin degludec and insulin glargine over NPH insulin among toddlers and preschoolers with type 1 diabetes using glycemic variability and time in range.",
+            "authors": [
+              "Elhabashy Safinaz Adel",
+              "Sakr Eman Mohamed",
+              "Salah Nouran Yousef"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "2023",
+            "abstract": "Optimizing glycemic control without risking hypoglycemia is crucial in toddlers and preschoolers with type 1 diabetes (T1D) to avoid cognitive impairment later in life. Hence, this study aims to compare glycemic parameters among toddlers and preschoolers with T1D in relation to different basal insulins. Sixty toddlers and preschoolers with T1D with mean age of 3.53 ± 1.17 years (range, 2-6) and mean diabetes duration of 9.37 ± 1.85 months were randomly assigned into three equal groups; group A r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40098468",
+            "title": "Inhaled Technosphere Insulin Plus Insulin Degludec for Adults with Type 1 Diabetes: The INHALE-3 Extension Study.",
+            "authors": [
+              "Beck Roy W",
+              "Bailey Ryan J",
+              "Klein Klara R",
+              "Aleppo Grazia",
+              "Levy Carol J"
+            ],
+            "journal": "Diabetes technology & therapeutics",
+            "year": "2025",
+            "abstract": "Background: Postmeal hyperglycemia is difficult to avoid even with automated insulin delivery (AID) due to the delayed effect of subcutaneously administered rapid-acting insulin analogs. Inhaled technosphere insulin (TI, Afrezza®) has a more rapid onset of action with the potential to reduce the postmeal glucose rise. We evaluated the effects of a regimen of TI and degludec over 30 weeks. Methods: In total, 123 adults with type 1 diabetes (T1D) participated in a 17-week multicenter randomized co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35650058",
+            "title": "[Switching insulin degludec to insulin glulisine improved nocturnal hypoglycemia and ventricular arrythmia in an elderly type 1 diabetes patient with chronic heart failure: A case report].",
+            "authors": [
+              "Hajika Yuriko",
+              "Kawaguchi Yuji",
+              "Tanaka Takako",
+              "Hamazaki Kenji",
+              "Kumeda Yasuro"
+            ],
+            "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+            "year": "2022",
+            "abstract": "The patient was 82-year-old man with type 1 diabetes mellitus. He had been using insulin degludec (IDeg) and insulin glulisine (IGlu) for treatment. He was admitted to our hospital due to diabetic ketoacidosis. As he started eating after recovery, we restarted intensive insulin therapy for glycemic control. Although he had eaten almost whole meals, his fasting blood glucose was extremely low, and the existence of nocturnal hypoglycemia was apparent. We reduced the dose and changed the injection ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34763071",
+            "title": "Basal Insulin Degludec and Glycemic Control Compared to Aspart Via Insulin Pump in Type 1 Diabetes (BIGLEAP): A Single-Center, Open-Label, Randomized, Crossover Trial.",
+            "authors": [
+              "Lane Wendy S",
+              "Weinrib Stephen L",
+              "Lawrence Michael J",
+              "Lane Benjamin C",
+              "Jarrett Ryan T"
+            ],
+            "journal": "Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists",
+            "year": "2022",
+            "abstract": "We compared the efficacy of the second-generation basal insulin degludec (IDeg) to that of insulin aspart via pump using continuous glucose monitoring in patients with well-controlled type 1 diabetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31670620",
+            "title": "An Overview of Prospective Drugs for Type 1 and Type 2 Diabetes.",
+            "authors": [
+              "Wu Ping",
+              "Liu Zhenyu",
+              "Jiang Xiaohong",
+              "Fang Hao"
+            ],
+            "journal": "Current drug targets",
+            "year": "2020",
+            "abstract": "The aim of this study is to provide an overview of several emerging anti-diabetic molecules.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "T1DM 患者因自體免疫破壞胰島 β 細胞，導致內源性胰島素絕對缺乏。Insulin degludec 為超長效基礎胰島素類似物，透過皮下注射形成多聚體儲存庫，持續穩定釋放胰島素，與胰島素受體（IR）結合後活化 PI3K/Akt 與 MAPK 通路，調控葡萄糖攝取與糖質新生抑制，直接補充缺失的內源性胰島素功能。機轉連結直接，為 First-in-Class 機轉匹配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.9922943115234376,
+        "rank": 8804
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫性卵巢炎與 T1DM 同屬自體免疫疾病，可共同出現於自體免疫多腺體症候群（APS-II）。TxGNN 可能透過「自體免疫節點」關聯推論，但胰島素本身對卵巢自體免疫炎症無直接作用機轉。推論路徑：T1DM (autoimmune) ↔ autoimmune oophoritis，為間接拓樸關聯，非功能性機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.991182804107666,
+        "rank": 9671
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Opsismodysplasia 由 INPPL1（SHIP2，磷酸肌醇磷酸酶）基因突變引起，SHIP2 參與胰島素訊號通路中 PI(3,4,5)P₃ 去磷酸化調控。理論上胰島素訊號干預可能影響此通路，但此為極度間接的分子推論，缺乏任何功能驗證。極罕見疾病（全球病例數極少），研究可行性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9910030364990234,
+        "rank": 9801
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TRMA（SLC19A2 突變）患者出現胰島素分泌不足型糖尿病，部分對 Thiamine 補充有反應。胰島素（包括 degludec）在此疾病中為支持性血糖管理工具，而非針對疾病根本機轉。若無 Thiamine 治療基礎，單用 degludec 無法改變疾病進程。此為「對症使用」非「機轉再利用」，缺乏正式臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.990753173828125,
+        "rank": 9992
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Classical SPS 患者約 60-70% 有抗 GAD65 抗體，T1DM 患者亦高頻率出現 GAD65 抗體，兩病常共病。TxGNN 透過 GAD65/自體免疫路徑建立連結。然而，SPS 的治療靶點為 GABA 抑制性神經元功能恢復（Diazepam、Baclofen、IVIG、Rituximab），胰島素對 GABAergic 通路或 SPS 神經病理無直接作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.990753173828125,
+        "rank": 9993
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Focal stiff limb syndrome 為 SPS 譜系疾病，GAD65 抗體關聯相似但證據更少。與 classic SPS 分析相同：胰島素-GABAergic 通路無直接機轉連結。案例數量極罕見，疾病分類仍在演進中。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9864891767501832,
+        "rank": 13231
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰島素注射引起的局部脂肪代謝異常是已知的藥物不良反應（insulin-induced lipodystrophy），而非治療靶點。Degludec 作為較新的胰島素類似物，其局部脂肪影響可能與舊型胰島素不同（可能較輕），但將其作為「治療藥物誘發性脂肪代謝異常」的再利用方向，存在根本性概念衝突。TxGNN 可能因胰島素與脂肪組織的代謝連結而建立此預測節點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.9860959649086,
+        "rank": 13511
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰臟先天性缺如（多因 PTF1A、PDX1、GATA6 等基因突變）導致完全性胰島素缺乏，臨床上為新生兒型糖尿病。胰島素替代療法（包括 degludec）在概念上完全適用，機轉連結直接。然而此屬「對症支持治療」而非創新再利用，且此類疾病患者通常需要複雜的個人化胰島素方案，缺乏 degludec 的特定試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.9860206246376038,
+        "rank": 13553
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Centrifugal lipodystrophy 為良性局部皮下脂肪萎縮，多見於兒童，病因可能涉及局部炎症或脂肪細胞凋亡。胰島素具有促進脂肪細胞分化與脂質合成的作用（透過 IR→IRS-1→PI3K→Akt→GLUT4 及 SREBP-1c 通路），理論上可能促進脂肪再生，但此為高度推測性機轉，缺乏任何功能驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.9858231544494628,
+        "rank": 13687
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力性局部脂肪萎縮由長期機械壓力導致脂肪細胞壞死與萎縮（常見於長期臥床或假肢摩擦部位）。胰島素的促脂肪生成效應在理論上可能有助於脂肪組織再生，但：(1) 壓力性損傷的主要機制是機械性缺血，非代謝性；(2) 無任何局部胰島素療法用於此症的前臨床或臨床研究；(3) 全身性胰島素對局部萎縮無法提供針對性治療效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin degludec",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

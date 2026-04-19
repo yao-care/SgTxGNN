@@ -1,0 +1,884 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB05260-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gallium nitrate",
+    "drugbank_id": "DB05260",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "sickle cell-hemoglobin c disease syndrome",
+      "txgnn": {
+        "score": 0.9817527532577516,
+        "rank": 16162
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 圖神經網路預測：可能源於 Gallium 對鐵代謝干擾路徑（HbS 依賴鐵氧化）的間接推論，但無任何已發表臨床或前臨床支持。鐮刀型細胞變異體共享相同病生理，模型分數一致（0.9818），顯示此為批次預測而非個別驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "sickle cell-hemoglobin d disease syndrome",
+      "txgnn": {
+        "score": 0.9817527532577516,
+        "rank": 16163
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上，TxGNN 預測分數與 HbSC 完全一致（0.9818），屬同一批次推論。HbSD 發生率極低，臨床試驗設計困難。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "sickle cell-beta-thalassemia disease syndrome",
+      "txgnn": {
+        "score": 0.9817527532577516,
+        "rank": 16164
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上。β-地中海貧血/鐮刀型細胞複合體涉及 β-globin 鏈生成缺陷，Gallium 對此路徑無已知直接干預。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "sickle cell-hemoglobin E disease syndrome",
+      "txgnn": {
+        "score": 0.9817527532577516,
+        "rank": 16165
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上。HbSE 為東南亞常見複合型血紅素病，現有標準治療（羥基尿素）已相對成熟，Gallium 在此無差異化機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
+      "txgnn": {
+        "score": 0.9817527532577516,
+        "rank": 16166
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HPFH-SCD 因持續高 HbF 而症狀較輕。Gallium 對 γ-globin 基因誘導無已知作用，此預測缺乏生物合理性基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "plasma cell myeloma",
+      "txgnn": {
+        "score": 0.9812331199645996,
+        "rank": 16430
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12776253",
+            "title": "Gallium nitrate revisited.",
+            "authors": [
+              "Chitambar Christopher R"
+            ],
+            "journal": "Seminars in oncology",
+            "year": "2003",
+            "abstract": "Gallium nitrate, the nitrate salt of the \"near-metal\" element gallium, is highly effective in the treatment of cancer-related hypercalcemia. Unlike bisphosphonates, gallium nitrate is effective in both parathyroid hormone-related protein-mediated and non-parathyroid hormone-related protein-mediated hypercalcemia. Gallium nitrate's effects on bone are clearly different from those of bisphosphonates. Gallium nitrate enhances calcium and phosphate content of bone and has direct, noncytotoxic effect",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12776256",
+            "title": "Gallium nitrate in multiple myeloma: prolonged survival in a cohort of patients with advanced-stage disease.",
+            "authors": [
+              "Niesvizky Ruben"
+            ],
+            "journal": "Seminars in oncology",
+            "year": "2003",
+            "abstract": "Multiple myeloma is characterized by bone destruction mediated by osteoclastic bone resorption. Skeletal complications of myeloma, including bone pain, fractures, spinal cord compression and hypercalcemia, result in significant morbidity. Gallium nitrate was shown in a small, randomized trial to attenuate the rate of bone loss in patients with myeloma treated with chemotherapy. In a retrospective analysis, we found that patients with advanced multiple myeloma treated with chemotherapy plus galli",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8246033",
+            "title": "Low-dose gallium nitrate for prevention of osteolysis in myeloma: results of a pilot randomized study.",
+            "authors": [
+              "Warrell R P",
+              "Lovett D",
+              "Dilmanian F A",
+              "Schneider R",
+              "Heelan R T"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "1993",
+            "abstract": "Since osteolysis is a major cause of morbidity in myeloma, we conducted a pilot study to evaluate whether the addition of gallium nitrate to standard antimyeloma treatment could preserve or increase bone mass in patients with osteolytic disease.",
+            "classification": {
+              "study_type": "Pilot RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9362436",
+            "title": "Gallium nitrate for the treatment of bone metastases.",
+            "authors": [
+              "Warrell R P"
+            ],
+            "journal": "Cancer",
+            "year": "1997",
+            "abstract": "Gallium nitrate was originally developed as an antineoplastic agent; however, further studies have revealed that this drug has extremely potent effects on turnover of bone, and that low doses can be used to reduce bone resorption. Like the bisphosphonates, gallium nitrate has been studied in both malignant and in nonmalignant conditions. The results of randomized double blind studies have suggested that this drug has superior clinical efficacy relative to etidronate, calcitonin, and pamidronate ",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3533251",
+            "title": "Gallium nitrate: the second metal with clinical activity.",
+            "authors": [
+              "Foster B J",
+              "Clagett-Carr K",
+              "Hoth D",
+              "Leyland-Jones B"
+            ],
+            "journal": "Cancer treatment reports",
+            "year": "1986",
+            "abstract": "Gallium nitrate is the anhydrate salt of the naturally occurring heavy metal. It has demonstrated antitumor activity in a variety of murine tumor models, including Walker carcinosarcoma 256, fibrosarcoma M-89, leukemia K-1964, adenocarcinoma 755, mammary carcinoma YMC, reticulum cell sarcoma A-RCS, lymphoma P1798, and osteosarcoma 124F. Preclinical studies performed in rats, rabbits, dogs, and monkeys showed the dose-limiting toxicity to be renal. The hepatic, pulmonary, gastrointestinal, hemato",
+            "classification": {
+              "study_type": "Early Clinical Observation",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12002765",
+            "title": "Extended survival in advanced-stage multiple myeloma patients treated with gallium nitrate.",
+            "authors": [
+              "Niesvizkya Ruben",
+              "Choy C Galen",
+              "Siegel David",
+              "Lyons Larry",
+              "Michaeli Joseph"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2002",
+            "abstract": "Adjunctive anti-bone resorption therapy has become an important part of multiple myeloma (MM) treatment. Currently, no definite evidence exists that this therapy increases survival. We examined a cohort of 13 of 167 patients (8%) treated with the M-2 protocol who received adjuvant gallium nitrate (GN) treatment for osteolysis, and then compared the outcome of these patients to all individuals treated with the M-2 regimen. The stage at diagnosis was IA in two patients, IIIA in 10 patients and III",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12776254",
+            "title": "The effects of gallium nitrate on bone resorption.",
+            "authors": [
+              "Bockman Richard"
+            ],
+            "journal": "Seminars in oncology",
+            "year": "2003",
+            "abstract": "Gallium nitrate has been shown to be an effective treatment for patients with cancer-related hypercalcemia. Clinical studies have also suggested the drug may have considerably broader use in other diseases associated with accelerated bone loss including multiple myeloma, bone metastases, Paget's disease, and osteoporosis. The actions of gallium nitrate on bone are quite distinct from those of bisphosphonates. Preclinical studies show that gallium preferentially accumulates in trace amounts in me",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24021907",
+            "title": "Approach to diagnosis and treatment of hypercalcemia in a patient with malignancy.",
+            "authors": [
+              "Reagan Patrick",
+              "Pani Antonello",
+              "Rosner Mitchell H"
+            ],
+            "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+            "year": "2014",
+            "abstract": "Hypercalcemia is a common complication of malignancy and portends a worse prognosis. It causes a variety of symptoms in patients, which can range from confusion and polyuria to coma and death. There are 4 broad mechanistic categories to classify hypercalcemia of malignancy: local osteolysis secondary to metastatic cancer or multiple myeloma, excess parathyroid-related hormone, excess 1,25-dihydroxyvitamin D production, and ectopic parathyroid hormone production. Volume expansion with normal sali",
+            "classification": {
+              "study_type": "Clinical Review/Case",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15478593",
+            "title": "Targeting apoptosis and DNA synthesis: understanding treatment concepts and nursing considerations.",
+            "authors": [],
+            "journal": "ONS news",
+            "year": "2004",
+            "abstract": "This session dealt with targeting apoptosis and DNA synthesis via antisense therapy to block overproduction of Bcl-2. Speakers also discussed ongoing developments in and use of antisense therapies in hypercalcemia, multiple myeloma, lymphoma, and bladder cancer, as well as nursing considerations.",
+            "classification": {
+              "study_type": "Nursing/Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【多重機轉支持】① 抑制 RNR（鐵依賴性）→ 阻斷漿細胞 DNA 合成；② 抑制蝕骨細胞骨吸收 → 緩解溶骨性病變；③ 干擾鐵代謝 → 抑制骨髓瘤微環境血管新生。多篇文獻顯示延長晚期 MM 患者存活，並有一項 pilot RCT 針對溶骨症預防。證據整體接近 L2，但因 pilot RCT 規模小且主要終點為替代指標（骨質溶解），維持 L3。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn": {
+        "score": 0.9783066511154176,
+        "rank": 17836
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雖機轉上與 plasma cell myeloma 相同，但惰性骨髓瘤通常採觀察等待策略。無任何針對此亞型的臨床或文獻資料，不應由 MM 數據外推至惰性型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "relapsing-remitting multiple sclerosis",
+      "txgnn": {
+        "score": 0.9760363698005676,
+        "rank": 18859
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "背景知識：Gallium nitrate 在 EAE（實驗性自體免疫腦脊髓炎）動物模型中顯示免疫調節活性，可能透過干擾 T 細胞鐵代謝抑制自體免疫反應。惟提供資料中無任何 RRMS 臨床或文獻佐證，分數 0.976 可能反映模型對免疫路徑的泛化推論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colonic neoplasm",
+      "txgnn": {
+        "score": 0.9714788198471068,
+        "rank": 20721
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8467506",
+            "title": "Inhibition of protein tyrosine phosphatase by the antitumor agent gallium nitrate.",
+            "authors": [
+              "Berggren M M",
+              "Burns L A",
+              "Abraham R T",
+              "Powis G"
+            ],
+            "journal": "Cancer research",
+            "year": "1993",
+            "abstract": "Protein tyrosine phosphatases (PTPases) play an important role in regulating cell growth and transformation. We report that the antitumor agent gallium nitrate is a potent inhibitor (concentration producing 50% inhibition, 2-6 microM) of detergent-solubilized cellular membrane PTPase from Jurkat human T-cell leukemia cells and HT-29 human colon cancer cells. This is the first report of a selective, small molecule drug inhibitor of PTPase. Gallium nitrate did not inhibit CD45, a PTPase found in t",
+            "classification": {
+              "study_type": "In vitro Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一證據（PMID 8467506）為體外實驗：Gallium nitrate 抑制蛋白酪氨酸磷酸酶（PTP），此為腫瘤細胞訊號傳導中的重要調控靶點。此機轉具生物合理性，但體外→臨床的轉譯距離極大，無法支撐高於 L5 的評分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn": {
+        "score": 0.96908700466156,
+        "rank": 21598
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Gallium nitrate 已知抑制蝕骨細胞骨吸收（PMID 12776254 在 MM 骨病變文獻中記載），理論上可對抗藥物誘導性骨質疏鬆（如糖皮質激素、芳香酶抑制劑引起）。惟此適應症完全無直接臨床或文獻資料，機轉推論需從 MM 骨病變數據外推，級別仍為 L5。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin c disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin c disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin c disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin d disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin d disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin d disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-beta-thalassemia disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-beta-thalassemia disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-beta-thalassemia disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin E disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin E disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "sickle cell-hemoglobin E disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "relapsing-remitting multiple sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "relapsing-remitting multiple sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "relapsing-remitting multiple sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "colonic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "colonic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "colonic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gallium nitrate",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

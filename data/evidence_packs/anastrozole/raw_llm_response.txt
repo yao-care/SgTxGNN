@@ -1,0 +1,289 @@
+```json
+{
+  "drug": "Anastrozole",
+  "drugbank_id": "DB01217",
+  "analysis_date": "2026-04-05",
+  "data_quality_alert": "⚠️ original_indications 為空且 market_status=未上市，疑為本地資料庫缺口——Anastrozole 在全球（FDA/EMA）已核准用於 ER+ 乳腺癌，此為已上市藥物之再評估場景，非典型老藥新用",
+  "indications": [
+    {
+      "disease_name": "female breast carcinoma",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "recommendation_rationale": "本適應症為 Anastrozole 之全球核准主適應症（FDA 1995、EMA 核准），擁有多項大型 Phase 3 RCT 直接證據（ATAC、IBIS-II）及大量 Phase 2 試驗與 Meta-analysis 支持。建議本地主管機關確認未上市原因（是否為 HSA 清單缺漏或商業未進口），優先處理上市許可缺口而非僅視為再利用候選。",
+      "mechanistic_link": "Anastrozole 為高選擇性非類固醇型芳香環酶抑制劑（Aromatase Inhibitor, AI），競爭性抑制 CYP19A1，阻斷雄激素（雄烯二酮、睪固酮）轉化為雌激素（雌酮、雌二醇）。在停經後 ER+ / PR+ 乳腺癌中，全身雌激素濃度降低可直接抑制腫瘤增殖（Ki-67 下降已在術前短期試驗中驗證）。與 Tamoxifen 相比，AI 直接消除雌激素來源而非競爭受體，對 ER+ 亞型具更強抑制效果。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00688194",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（n=396），直接測試芳香環酶抑制劑用於轉移性乳腺癌中克服內分泌抗藥性，最高等級試驗直接證據，UNKNOWN 狀態需確認是否有發表結果。"
+        },
+        {
+          "nct_id": "NCT04568616",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT（n=178），NAOMI 研究，評估術前 AI 於 ER+ 乳腺癌之新輔助治療，樣本量充足，正在進行中。"
+        },
+        {
+          "nct_id": "NCT00629616",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 多中心 RCT（n=116），已完成，評估荷爾蒙敏感性分層及 AI 療效，提供機制性與臨床效益雙重數據。"
+        },
+        {
+          "nct_id": "NCT04023292",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2（n=185），比較術前 2 週 vs 4 週 AI 療程之生物標誌變化，機轉驗證研究，支持術前短期使用策略。"
+        },
+        {
+          "nct_id": "NCT00186121",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2（n=35），完成，Anastrozole + Zoladex 用於 ER+ 轉移性乳腺癌，停經前族群 AI 聯合 GnRH 拮抗劑之特殊場景。"
+        },
+        {
+          "nct_id": "NCT01016665",
+          "relevance_grade": "A",
+          "reasoning": "探索性研究（n=71），已完成，直接量測 Anastrozole 對腫瘤增殖指數（Ki-67、PR）之影響，機轉確認研究。"
+        },
+        {
+          "nct_id": "NCT05150652",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 新輔助內分泌療法（n=8），樣本過小，仍在進行，可提供初步生物標誌數據但統計力不足。"
+        },
+        {
+          "nct_id": "NCT00681928",
+          "relevance_grade": "B",
+          "reasoning": "N/A phase（n=72），評估 AI 對認知功能之影響，非療效試驗，屬安全性/副作用評估研究。"
+        },
+        {
+          "nct_id": "NCT01028352",
+          "relevance_grade": "B",
+          "reasoning": "N/A phase（n=35），評估 Duloxetine 緩解 AI 所致關節痛，屬副作用管理研究，間接支持 AI 長期使用可行性。"
+        },
+        {
+          "nct_id": "NCT00573755",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2（n=4），提前終止，Sorafenib + AI 聯合，樣本極少無法得出結論，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "15639680",
+          "study_type": "Phase 3 RCT（ATAC trial）",
+          "tier": "1",
+          "note": "里程碑試驗，n>9,000，Anastrozole vs Tamoxifen vs 聯合，確立 AI 作為術後輔助治療標準"
+        },
+        {
+          "pmid": "31839281",
+          "study_type": "Phase 3 RCT（IBIS-II，長期隨訪）",
+          "tier": "1",
+          "note": "化學預防 RCT，n=3,864，中位隨訪 10.9 年，確立 Anastrozole 在高風險族群之預防效益"
+        },
+        {
+          "pmid": "24716940",
+          "study_type": "Meta-analysis",
+          "tier": "1",
+          "note": "Fulvestrant 250mg vs Anastrozole 1mg Meta-analysis，比較兩種內分泌療法療效與安全性"
+        },
+        {
+          "pmid": "28614542",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "涵蓋預防至治療全段臨床證據綜述，資料整合完整"
+        },
+        {
+          "pmid": "16439860",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "從晚期到早期乳腺癌及預防全段 Anastrozole 角色評述，引用豐富"
+        },
+        {
+          "pmid": "16761927",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "聚焦進展與挑戰，涵蓋抗藥性機轉討論"
+        },
+        {
+          "pmid": "20923259",
+          "study_type": "Drug Monograph",
+          "tier": "2",
+          "note": "藥物完整藥理學評述"
+        },
+        {
+          "pmid": "16034487",
+          "study_type": "Drug Review",
+          "tier": "2",
+          "note": "臨床藥理與使用總覽"
+        },
+        {
+          "pmid": "14687437",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期乳腺癌 Anastrozole 應用評述"
+        },
+        {
+          "pmid": "41024216",
+          "study_type": "Case Report / Hypothesis",
+          "tier": "3",
+          "note": "2025 年個案報告，Anastrozole 誘發荷爾蒙改變與乳腺大汗腺癌之可能關聯，尚無因果確立"
+        }
+      ]
+    },
+    {
+      "disease_name": "neuroblastoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床試驗或文獻支持，僅有 TxGNN 計算預測（score=0.9953）。Neuroblastoma 為兒科神經嵴源腫瘤，主要治療以化療為主，現無芳香環酶抑制劑應用之臨床前機制研究資料。",
+      "mechanistic_link": "假說性：部分神經母細胞瘤細胞系在體外實驗中表達雌激素受體（ERα/ERβ），且雌激素可能影響神經嵴細胞分化/增殖的平衡。芳香環酶活性在神經組織有表達，理論上抑制局部雌激素合成可能影響腫瘤微環境。但此機轉連結完全基於計算推斷，缺乏任何臨床前或臨床數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無臨床試驗或文獻數據。此為涉及脊椎發育異常合併內分泌及免疫功能障礙之複雜症候群（可能屬 VATER/VACTERL 相關或類似罕見病），病理機轉複雜，Anastrozole 之應用假說過度延伸。",
+      "mechanistic_link": "極度推測性：雌激素在脊椎發育（成骨細胞活性、生長板功能）及免疫調節（T 細胞分化）中有已知生理角色，但抑制芳香環酶對此罕見遺傳症候群的治療推論缺乏任何分子路徑證據。TxGNN 預測可能源自知識圖譜中雌激素與內分泌系統的廣泛連結，不具靶向性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床證據。Ganglioneuroblastoma 為介於成熟神經節細胞瘤與惡性神經母細胞瘤之間的分化型腫瘤，現行治療以手術為主，荷爾蒙療法無文獻支持。",
+      "mechanistic_link": "與 Neuroblastoma 相似的假說性機轉：神經嵴源腫瘤可能具部分雌激素受體表達，但分化程度較高之 ganglioneuroblastoma 的增殖依賴性與雌激素之關聯更弱。純計算推斷，無支持數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "唯一文獻（PMID 21403449）描述的是乳腺癌腹膜後轉移案例，以 S-1 + Anastrozole 治療——本質上仍屬乳腺癌適應症範疇，而非原發性腹膜後腫瘤。需審慎區分：此不能構成 Anastrozole 對原發腹膜後腫瘤之獨立支持證據。",
+      "mechanistic_link": "腹膜後腫瘤包含多種組織類型（腹膜後脂肪肉瘤、平滑肌肉瘤、轉移性腺癌等），部分如腹膜後平滑肌肉瘤（ER 陽性率約 30-40%）理論上可能對芳香環酶抑制劑有反應，但現有單一文獻僅支持乳腺癌轉移場景，不能外推至原發腹膜後腫瘤。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21403449",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "乳腺癌腹膜後轉移案例（日文文獻），S-1 + Anastrozole 聯合治療，非原發性腹膜後腫瘤，無法作為獨立再利用證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "monocytic leukemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床試驗或文獻直接支持。AML-M5（單核球型白血病）之標準治療以化療（阿糖胞苷+蒽環類）為主，荷爾蒙療法在此亞型無臨床探索記錄。",
+      "mechanistic_link": "推測性：成熟單核球/巨噬細胞表達雌激素受體，雌激素信號與骨髓細胞分化有關聯。部分 AML 細胞系在體外表達芳香環酶，抑制局部雌激素合成的理論概念存在，但缺乏前臨床有效性數據及臨床研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rhabdomyosarcoma (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床或文獻數據支持。橫紋肌肉瘤為最常見兒科軟組織肉瘤，標準治療為化療（VAC 方案）± 放療手術，目前無雌激素依賴性機轉的臨床前研究共識。",
+      "mechanistic_link": "部分橫紋肌肉瘤細胞系在體外具雌激素受體表達（尤其腺泡型），且性別差異（男性預後較差）暗示性激素可能影響腫瘤生物學，但此假說尚未轉化為臨床前動物模型中的 AI 有效性數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myeloid leukemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "3 篇文獻均不支持 Anastrozole 用於骨髓性白血病治療：PMID 29343958 探討奈米粒子載體對乳腺癌細胞凋亡之影響；PMID 11161223 為乳腺癌藥物審批摘要；PMID 17326321 描述乳腺癌療法後發生的 t(8;16) 治療相關 AML（屬副作用，非治療依據）。⚠️ 後者反而提示 Anastrozole 聯合方案可能與繼發性白血病風險相關。",
+      "mechanistic_link": "骨髓細胞（造血幹細胞至成熟粒系細胞）表達雌激素受體，雌激素調節造血微環境。部分骨髓性白血病細胞表達 CYP19A1，理論上局部雌激素合成可能影響腫瘤增殖信號，但此機轉連結完全推測，且現有文獻不支持甚至出現負面信號（治療相關 AML 報告）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29343958",
+          "study_type": "Preclinical / Nanoparticle Study",
+          "tier": "3",
+          "note": "研究 Anastrozole 奈米粒子對乳腺癌細胞凋亡影響，與骨髓性白血病無直接關聯"
+        },
+        {
+          "pmid": "11161223",
+          "study_type": "Drug Approval Summary",
+          "tier": "3",
+          "note": "FDA 審批摘要文件，Anastrozole 項目為乳腺癌核准，非骨髓性白血病"
+        },
+        {
+          "pmid": "17326321",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 乳腺癌療法（含 Anastrozole 聯合方案）後出現 t(8;16) AML，屬不良事件報告，提示潛在安全性疑慮而非治療依據"
+        }
+      ]
+    },
+    {
+      "disease_name": "collagenopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床試驗或文獻支持。⚠️ 相反地，Anastrozole 已知副作用包括肌肉骨骼症狀（關節痛、骨密度下降），雌激素降低可能對膠原合成和結締組織有不利影響，在膠原蛋白相關疾病中的使用需謹慎評估。",
+      "mechanistic_link": "雌激素促進膠原蛋白合成並維持結締組織完整性（透過 ERα 調控成纖維細胞活性）。Anastrozole 降低雌激素可能理論上抑制某些纖維化通路，但在膠原病變中的抑制或促進作用取決於病理亞型，且 AI 已知引起關節症狀和骨質疏鬆，使此適應症方向存在矛盾性安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lymphocytic hypereosinophilic syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床試驗或文獻支持。淋巴球型嗜酸性球增多綜合症（L-HES）的標準治療為糖皮質激素和 Mepolizumab（anti-IL-5），雌激素調節在此病理機轉中的角色極度邊緣化。",
+      "mechanistic_link": "雌激素可調節嗜酸性球生成（透過 GATA-1 和 IL-5 信號），且雌激素對 T 細胞亞群分化有調節作用（促進 Th2 偏移，而 Th2 細胞因子驅動嗜酸性球增多）。理論上抑制雌激素可能改變 Th2/Th1 平衡，進而影響嗜酸性球活化。但此為高度推測性機轉，無任何數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 2,
+    "L5_count": 7,
+    "S3_proceed": ["female breast carcinoma"],
+    "S1_safety_review": [],
+    "S0_hold": ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia", "rhabdomyosarcoma (disease)", "myeloid leukemia", "collagenopathy", "lymphocytic hypereosinophilic syndrome"],
+    "key_actions": [
+      "【優先行動】確認 Anastrozole 在本地（HSA/新加坡）未上市原因——若為商業缺口而非安全疑慮，應優先推動上市許可申請",
+      "【安全警示】myeloid leukemia 項目存在治療相關 AML 不良事件報告（PMID 17326321），在任何血液惡性腫瘤再利用研究前需仔細評估",
+      "【矛盾訊號】collagenopathy 方向與 Anastrozole 已知副作用（關節痛、骨密度下降）相矛盾，不建議研究",
+      "【TxGNN 高分但零證據】neuroblastoma、ganglioneuroblastoma、rhabdomyosarcoma 雖 TxGNN score > 0.988，但完全缺乏臨床前機制驗證數據，建議先進行體外細胞系研究再考慮臨床轉化"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要說明
+
+### 🔴 關鍵資料品質警示
+
+| 問題 | 說明 |
+|------|------|
+| `original_indications: []` | Anastrozole 為全球核准芳香環酶抑制劑，應有正式適應症記錄 |
+| `market_status: 未上市` | 疑為新加坡本地資料庫缺口，非全球狀態 |
+| `original_moa: [Data Gap]` | 已知機轉：CYP19A1（Aromatase）選擇性非類固醇抑制劑 |
+
+### 📊 證據分層總覽
+
+```
+female breast carcinoma  ████████████ L1 → S3 ✅ Proceed
+retroperitoneal neoplasm ████░░░░░░░░ L4 → S0 ⛔ Hold (乳腺癌轉移個案)
+myeloid leukemia         ████░░░░░░░░ L4 → S0 ⛔ Hold (負面安全信號)
+其餘 7 項適應症           ░░░░░░░░░░░░ L5 → S0 ⛔ Hold (純計算預測)
+```
+
+### ⚠️ 值得注意的負面信號
+- **myeloid leukemia**：PMID 17326321 記錄乳腺癌聯合療法後出現治療相關 AML，提示在血液腫瘤再利用方向需謹慎安全評估
+- **collagenopathy**：Anastrozole 本身即可引起關節痛與骨密度下降，在膠原病變中應用存在生理矛盾

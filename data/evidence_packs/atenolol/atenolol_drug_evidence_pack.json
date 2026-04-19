@@ -1,0 +1,1398 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00335-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Atenolol",
+    "drugbank_id": "DB00335",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "posterolateral myocardial infarction",
+      "txgnn": {
+        "score": 0.9986864924430848,
+        "rank": 2482
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Atenolol 透過 β1 阻斷降低心率與心肌耗氧量，抑制梗塞後交感神經過度活化並減少心室重塑，藥理學上支持所有 MI 亞型的應用；後外側 MI 為特定冠狀動脈病變模式（Cx/RCA 域），β 阻滯劑類別效應成立，但資料集中無針對此特定 MI 亞型的臨床試驗或文獻直接佐證，證據來自間接類別推斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "posteroinferior myocardial infarction",
+      "txgnn": {
+        "score": 0.9986864924430848,
+        "rank": 2483
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3901170",
+            "title": "[Comparative anti-ischemic activity of atenolol and diltiazem. Crossed single-blind randomized study using a computerized exercise test].",
+            "authors": [
+              "Berthout P",
+              "Bassand J",
+              "Schipman C",
+              "Faivre R",
+              "Mercier M"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "1985",
+            "abstract": "The anti-ischaemic activities of atenolol (200 mg) and diltiazem (240 mg) were compared in 23 patients undergoing retraining 4 weeks after a limited postero-inferior or anterior primary myocardial infarction. The patients, who had signs of residual ischaemia during stress with or without angina, were subjected to 3 exercise tests on a bicycle ergometer; a computer was used to analyze the results (Case-Marquette). The first test was performed under placebo, the second after randomized treatment w",
+            "classification": {
+              "study_type": "RCT (Single-blind Crossover)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "後下壁 MI 多由 RCA 閉塞引起，常合併心搏過緩與房室傳導阻滯；atenolol 的 β1 阻斷可減少心肌耗氧與梗塞擴展，但對已有傳導阻滯患者需謹慎。PMID 3901170 為 1985 年直接比較 atenolol 與 diltiazem 抗缺血活性的隨機交叉試驗，提供 atenolol 在心肌缺血情境的直接功效數據，惟非專門針對後下壁 MI 亞型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9985080361366272,
+        "rank": 2739
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18454714",
+            "title": "[High blood pressure due to aortic coarctation and renal artery stenosis in a teenager with type 1 neurofibromatosis].",
+            "authors": [
+              "Pardo R",
+              "Somalo L",
+              "Málaga S",
+              "Santos F"
+            ],
+            "journal": "Nefrologia : publicacion oficial de la Sociedad Espanola Nefrologia",
+            "year": "2008",
+            "abstract": "Hypertension affect about 1% of patients with neurofibromatosis type 1 (NF1). Major causes are concomitant pheocromocytoma in adults and renovascular hypertension in children. In most cases, NF1 is associated with renal artery stenosis, smooth cell proliferation and advential fibrosis. We describe a 16 year old girl with hypertension complicating NF1 secondary to severe coarctation of abdominal aorta and tight stenosis of right renal artery, a very uncommon case. She was first diagnosed when she",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性腎血管性高血壓由腎動脈狹窄引發腎素-血管緊張素系統（RAAS）過度活化所驅動；β 阻滯劑雖可降低腎素釋放，但對此機轉的控制效果遠劣於 ACEi/ARB 或血管重建術。唯一文獻（PMID 18454714）為個案報告，描述合併主動脈縮窄與腎動脈狹窄的青少年，atenolol 僅作輔助用藥，非主要研究對象。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9985080361366272,
+        "rank": 2740
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性高血壓性腎臟病以急速進行性腎損傷、纖維素樣壞死與微血管病變為特徵；緊急降壓首選靜脈 labetalol、nitroprusside 或 nicardipine，口服 atenolol 起效過緩且無腎保護機制優勢。資料集中無任何臨床試驗或文獻支持，證據等級僅為 TxGNN 預測（0.9985）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9984083771705629,
+        "rank": 2881
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Group 5 肺動脈高壓（多因性）病理機轉異質性高（血液病、全身性疾病等），目前無標準 β 阻滯劑治療方案；β 阻滯劑可能因降低心輸出量加重右心衰竭，安全性存疑。資料集無任何臨床試驗或文獻，僅依賴 TxGNN 預測分數（0.9984）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9984083771705629,
+        "rank": 2882
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Group 3 肺動脈高壓（因慢性肺病或慢性缺氧）的首選治療為改善底層肺病與長期氧療；β 阻滯劑可加重支氣管痙攣（即使 β1 選擇性）及低氧血症，不建議使用。雖有 20 篇文獻，但逐篇審閱後發現全部關於低氧生物學一般機轉（腦老化、癌症、免疫調節），無任何文獻涉及 atenolol 治療此適應症，文獻關聯性判定為假陽性配對。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "septal myocardial infarction",
+      "txgnn": {
+        "score": 0.9983800649642944,
+        "rank": 2919
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7257500",
+            "title": "[201-thallium stress scintigram in patients with coronary artery disease after administration of the cardioselective betablocker atenolol (author's transl)].",
+            "authors": [
+              "Chlup J",
+              "Engel H J",
+              "Pretschner P",
+              "Lichtlen P R"
+            ],
+            "journal": "Zeitschrift fur Kardiologie",
+            "year": "1981",
+            "abstract": "Changes of regional myocardial perfusion before and after administration of Atenolol (AT) (5 mg i.v.) were investigated by 201-Tl stress-imaging in 14 patients (PAT) with greater than or equal to 70% coronary obstructions. Scintigrams were performed in 4 projections (AP, 30 degree LAO, 60 degrees LAO, left lateral); scintigraphic defects (SD) in one of the 6 LV segments (anterior, apical, inferior, septal, lateral, posterior) had to be identified in at least 2 projections and to show a decrease ",
+            "classification": {
+              "study_type": "Clinical Diagnostic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間隔部 MI 常涉及 LAD 近端閉塞，心律不整（室性心動過速）風險高；β 阻滯劑可穩定心電、預防惡性心律不整。PMID 7257500（1981）研究冠心病患者服用 β 阻滯劑後鉈-201 壓力掃描表現，間接反映 atenolol 在冠心病功能評估中的角色，但非再利用直接佐證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9980304837226868,
+        "rank": 3369
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock syndrome 為極罕見先天性發育障礙（OMIM #600828），特徵包括智能障礙、關節攣縮與顱面異常，致病機轉與腎上腺素受體信號無已知關聯。TxGNN 高分（0.9980）可能源於知識圖譜中非特異性結構路徑或稀疏節點偏差，不反映真實生物學關聯。資料集無任何臨床試驗或文獻，不建議進一步投入研究資源。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.990392804145813,
+        "rank": 10249
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03278509",
+            "title": "Randomized Evaluation of Decreased Usage of betablocCkErs After Myocardial Infarction in the SWEDEHEART Registry - A Registry-based, Randomized, Parallel, Open-label, Multicenter Trial (REDUCE-SWEDEHEART)",
+            "phase": "PHASE4",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 5000,
+            "start_date": "2017-09-11",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Long-term beta-blocker therapy has not been investigated in contemporary randomized clinical trials in patients with myocardial infarction and normal heart function. The aim of this study is to determine whether long-term treatment with oral beta-blockade in patients with myocardial infarction and preserved left ventricular systolic ejection fraction reduces the composite of death of any cause or new myocardial infarction..",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "REDUCE SWEDEHEART，Phase 4 RCT，招募 5000 人，ACTIVE_NOT_RECRUITING。研究 MI 後是否持續使用 β 阻滯劑對心血管預後的影響（在 SWEDHEART 登錄庫中）。主要終點為 MI 後心衰竭，非直接針對 cor pulmonale；然而大規模試驗中必然納入合併慢性肺病的心肺共病患者，其亞組分析結果高度相關。相關性評定為 B（間接，具潛在亞組資訊價值）"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28982831",
+            "title": "Association of asthma-chronic obstructive pulmonary disease overlap syndrome with coronary artery disease, cardiac dysrhythmia and heart failure: a population-based retrospective cohort study.",
+            "authors": [
+              "Yeh Jun-Jun",
+              "Wei Yu-Feng",
+              "Lin Cheng-Li",
+              "Hsu Wu-Huei"
+            ],
+            "journal": "BMJ open",
+            "year": "2017",
+            "abstract": "Patients with asthma-chronic obstructive pulmonary disease (COPD) overlap syndrome (ACOS) and cardiovascular diseases (CVDs) share common risk factors. However, the association between ACOS and the incidence of CVDs has not been reported. This study investigated the relationship between CVDs and ACOS in the general population.",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19393838",
+            "title": "Nebivolol: a third-generation beta-blocker for hypertension.",
+            "authors": [
+              "Cheng Judy W M"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2009",
+            "abstract": "Nebivolol is a third-generation beta(1)-selective beta-blocker that is approved for the treatment of hypertension.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15881093",
+            "title": "[What is the danger of long-term application of beta blockers in patients with ischemic heart disease and concomitant chronic obstructive pulmonary disease?].",
+            "authors": [
+              "Kozlova L I",
+              "Aĭsanov Z R",
+              "Chuchalin A G"
+            ],
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2005",
+            "abstract": "To show specific features of respiratory disoders in patients with ischemic heart disease (IHD) and chronic obstructive pulmonary disease (COPD) taking atenolol for a long time.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38700308",
+            "title": "β-blockers as the First Line of Treatment for Hypertension Management.",
+            "authors": [
+              "Ray Saumitra",
+              "Banshi Saboo",
+              "Shashank Joshi",
+              "Mangesh Tiwaskar",
+              "Sandeep Bansal"
+            ],
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2023",
+            "abstract": "β-adrenergic blocker group of medicines has been traditionally used to control high blood pressure since propranolol was discovered by Sir James Black almost 50 years ago. They were the drug of choice in hypertension (HTN) associated with ischemic heart disease, tachyarrhythmias including atrial fibrillation (AF), and anxiety. Congestive cardiac failure was a relative contraindication, but with major advances in science, it became an absolute indication. However, with the advent of newer antihyp",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11219471",
+            "title": "Comparison of 26-week efficacy and tolerability of telmisartan and atenolol, in combination with hydrochlorothiazide as required, in the treatment of mild to moderate hypertension: a randomized, multicenter study.",
+            "authors": [
+              "Freytag F",
+              "Schelling A",
+              "Meinicke T",
+              "Deichsel G"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2001",
+            "abstract": "This study was undertaken to compare the efficacy and tolerability of telmisartan, a novel antihypertensive agent, and atenolol, a well-established beta-blocker, in the treatment of mild to moderate hypertension.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6673339",
+            "title": "[Use of Falicard and Sectral in patients with COPD and ischemic heart disease].",
+            "authors": [
+              "Khadzhipetrov N",
+              "Georgiev S"
+            ],
+            "journal": "Vutreshni bolesti",
+            "year": "1983",
+            "abstract": "Thirty patients with chronic obstructive pulmonary disease (ChOPD) and concomitant ischemic heart disease (IHD) were studied that were admitted to the clinic for the treatment of a recurrence of the basic disease within the period 1981-1982. The patients were grouped into three groups of 10 patients and each group was treated for a period of 14 days, as follows: group 1--10 patients were given only sectral 50 mg per os during the first week and 10 mg/day during the second week; group II--treated",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30191469",
+            "title": "Risk of Hospitalization for Cardiovascular Events with β-Blockers in Hypertensive Patients: A Retrospective Cohort Study.",
+            "authors": [
+              "Basile Jan",
+              "Egan Brent",
+              "Punzi Henry",
+              "Ali Sanjida",
+              "Li Qian"
+            ],
+            "journal": "Cardiology and therapy",
+            "year": "2018",
+            "abstract": "β-Blockers are a heterogenous class of drugs that are no longer recommended for initial antihypertension monotherapy due to unfavorable long-term cardiovascular events observed with non-vasodilatory β-blockers. However, the comparative cardiovascular event risk between the vasodilatory β1-selective antagonist/β3 agonist nebivolol and non-vasodilatory β1-blockers, atenolol and metoprolol, is unknown.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31524",
+            "title": "[Effect of atenolol in chronic pulmonary patients with airway obstruction].",
+            "authors": [
+              "Vancrombreucq J C",
+              "Schandevyl W"
+            ],
+            "journal": "Lille medical : journal de la Faculte de medecine et de pharmacie de l'Universite de Lille",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20354044",
+            "title": "Inadequate control of heart rate in patients with stable angina: results from the European heart survey.",
+            "authors": [
+              "Daly Caroline A",
+              "Clemens Felicity",
+              "Sendon Jose L Lopez",
+              "Tavazzi Luigi",
+              "Boersma Eric"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "2010",
+            "abstract": "To examine resting heart rate (HR) in a population presenting with stable angina in relation to prior and subsequent pharmacological treatment, comorbid conditions and clinical outcome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14520850",
+            "title": "[Efficacy and safety of different beta-blockers in patients with isolated systolic hypertension associated with diabetes mellitus and obstructive pulmonary diseases].",
+            "authors": [
+              "Kukes V G",
+              "Ostroumova O D",
+              "Mamaev V I",
+              "Batutina A M",
+              "Abakumov Iu E"
+            ],
+            "journal": "Terapevticheskii arkhiv",
+            "year": "2003",
+            "abstract": "To compare efficacy and safety of atenolol, methoprolol and bisoprolol, as the most usable beta-blockers, in patients with isolated systolic arterial hypertension (ISAH) and concomitant diabetes mellitus (DM) and/or chronic obstructive pulmonary disease (COPD).",
+            "classification": {
+              "study_type": "Clinical Comparative Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25350545",
+            "title": "β2-Adrenergic receptor-dependent attenuation of hypoxic pulmonary vasoconstriction prevents progression of pulmonary arterial hypertension in intermittent hypoxic rats.",
+            "authors": [
+              "Nagai Hisashi",
+              "Kuwahira Ichiro",
+              "Schwenke Daryl O",
+              "Tsuchimochi Hirotsugu",
+              "Nara Akina"
+            ],
+            "journal": "PloS one",
+            "year": "2014",
+            "abstract": "In sleep apnea syndrome (SAS), intermittent hypoxia (IH) induces repeated episodes of hypoxic pulmonary vasoconstriction (HPV) during sleep, which presumably contribute to pulmonary arterial hypertension (PAH). However, the prevalence of PAH was low and severity is mostly mild in SAS patients, and mild or no right ventricular hypertrophy (RVH) was reported in IH-exposed animals. The question then arises as to why PAH is not a universal finding in SAS if repeated hypoxia of sufficient duration ca",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28836972",
+            "title": "Access to medicines and diagnostic tests integral in the management of diabetes mellitus and cardiovascular diseases in Uganda: insights from the ACCODAD study.",
+            "authors": [
+              "Kibirige Davis",
+              "Atuhe David",
+              "Kampiire Leaticia",
+              "Kiggundu Daniel Ssekikubo",
+              "Donggo Pamela"
+            ],
+            "journal": "International journal for equity in health",
+            "year": "2017",
+            "abstract": "Despite the burgeoning burden of diabetes mellitus (DM) and cardiovascular diseases (CVD) in low and middle income countries (LMIC), access to affordable essential medicines and diagnostic tests for DM and CVD still remain a challenge in clinical practice. The Access to Cardiovascular diseases, Chronic Obstructive pulmonary disease, Diabetes mellitus and Asthma Drugs and diagnostics (ACCODAD) study aimed at providing contemporary information about the availability, cost and affordability of medi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1686421",
+            "title": "[Neurohumoral changes in patients with heart failure treated chronically with beta-blockers].",
+            "authors": [
+              "Mattioli A V",
+              "Mattioli G"
+            ],
+            "journal": "Cardiologia (Rome, Italy)",
+            "year": "1991",
+            "abstract": "Long-term beta-blocker therapy may be useful in some patients affected by chronic heart failure. In a group of 15 patients with chronic heart failure of different origin we evaluated clinical, hemodynamic and neurohormonal features after 1 year of therapy. All patients were treated with atenolol at dosage of 50 mg/die. We observed a better ejection fraction by radionuclide angiography after 1 year of treatment. There was an increase of exercise time and VO2 max evaluated by cycloergometer test. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1982621",
+            "title": "[Hemodynamic effects of the nitroprusside test in chronic congestive heart failure treated with long-term beta blocking therapy].",
+            "authors": [
+              "Mattioli A V",
+              "Cappello C",
+              "Bettelli G",
+              "Mattioli G"
+            ],
+            "journal": "Cardiologia (Rome, Italy)",
+            "year": "1990",
+            "abstract": "In patients with congestive heart failure (CHF) sympathetic reflexes are attenuated because of down regulation of beta receptors. Many Authors suggest that betablockers therapy can be useful in selected patients. We wanted to test if betablockers therapy could modify sympathetic reflex during nitroprusside test. We studied 20 patients: 10 were healthy volunteers and 10 were affected by CHF of different origin. They were divided in 4 groups in relation to therapy. During nitroprusside infusion we",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10672687",
+            "title": "[The characteristics of left ventricular remodelling in hypertensive heart patients and the possibilities for its drug correction].",
+            "authors": [
+              "Iakimenko E A",
+              "Bondar' V N",
+              "Artemenko A V"
+            ],
+            "journal": "Likars'ka sprava",
+            "year": "1999",
+            "abstract": "In 85 patients with mild and moderately severe arterial hypertension presenting with signs of hypertensive heart, processes of remodelling of the left ventricle (LV) of the heart were studied using combined echocardiographic criteria. An evaluation was done of effects of different groups of antihypertensive drugs on the revealed changes in the LV structure and geometry. The patients were divided into four groups depending on the antihypertensive drug taken (atenolol, cozaar, norvask, enalapril).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺心病（cor pulmonale）以慢性缺氧引發肺血管阻力升高、右心肥厚與心衰竭為核心病理；atenolol 的高度 β1 選擇性（相較非選擇性 β 阻滯劑）可減少心肌耗氧，理論上減少對 β2 受體的支氣管痙攣作用。PMID 31524（1978）為直接研究 atenolol 在慢性肺病合併氣道阻塞患者的臨床試驗；NCT03278509 為大型 Phase 4 試驗，評估 MI 後 β 阻滯劑使用策略，間接涵蓋心肺共病族群。建議：需現代 RCT 驗證安全性，密切監測肺功能與右心功能。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.9884137511253356,
+        "rank": 11739
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "β 阻滯劑（timolol 眼藥水）為青光眼降眼壓的標準局部治療，透過抑制睫狀體 β2 受體減少房水生成；然而 atenolol 為全身性口服/注射製劑，降眼壓效果有限且暴露全身性副作用（心搏過緩、低血壓）風險。原發性遺傳性青光眼（如 MYOC、OPTN 基因突變）以局部製劑或手術為優先治療，全身性 β 阻滯劑不具優勢。資料集無臨床試驗或文獻，類別效應不足以支撐 atenolol 全身用藥的再利用評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "posterolateral myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "posterolateral myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "posterolateral myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "posteroinferior myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "posteroinferior myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "posteroinferior myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "septal myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "septal myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "septal myocardial infarction"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 15,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atenolol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

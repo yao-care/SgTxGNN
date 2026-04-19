@@ -1,0 +1,304 @@
+```json
+{
+  "drug": "Kanamycin",
+  "drugbank_id": "DB01172",
+  "analysis_date": "2026-04-04",
+  "background_note": "Kanamycin 為胺基糖苷類抗生素，具腎毒性與耳毒性，歷史上用於結核病及革蘭氏陰性菌感染。本資料集市場狀態標記為「未上市」，DDI 紀錄為 0，MoA 資料缺失，增加安全評估難度。",
+  "indications": [
+    {
+      "disease_name": "hyperamylasemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高澱粉酶血症通常繼發於胰腺炎、唾液腺疾病或腎衰竭；Kanamycin 本身具腎毒性，理論上可因腎小球濾過率下降導致澱粉酶清除降低，但此為副作用機制而非治療機制，無合理再利用依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 零臨床證據；高 TxGNN 分數（0.945）可能反映知識圖譜中腎毒性相關節點的間接連結，需人工審查。"
+    },
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多克隆高黏滯症候群病因為免疫球蛋白過度產生（如感染、自體免疫）；Kanamycin 理論上在感染誘發病例中可消除觸發因子，但無直接文獻支持此假說。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 零臨床證據；與 hyperamylasemia 分數相同（0.945），疑為模型對此藥物的批次評分現象。"
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症為罕見遺傳性蛋白合成缺陷，與抗生素治療無已知機轉關聯。Kanamycin 無任何蛋白合成促進或補充機制。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚫 機轉關聯極弱，零臨床證據，建議從候選清單移除。"
+    },
+    {
+      "disease_name": "Ureaplasma urethritis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ureaplasma urealyticum 對胺基糖苷類抗生素的敏感性歷來被認為有限；1978 年抗生素圖譜研究提示 Kanamycin 可能具有部分抑菌活性，但 Ureaplasma 缺乏細胞壁使胺基糖苷類效果不穩定。現行指引以四環素類（多西環素）或大環內酯類為首選。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34136",
+          "study_type": "In vitro / Antibiogram",
+          "tier": 3,
+          "year": 1978,
+          "comment": "僅為體外抗生素敏感性測試，無臨床療效資料；年代久遠（48年前），耐藥性格局已大幅改變。"
+        }
+      ],
+      "flag": "⚠️ 唯一文獻為1978年體外研究；Ureaplasma 對胺基糖苷類固有耐藥性問題未解，不建議進一步推進。"
+    },
+    {
+      "disease_name": "gonococcal urethritis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Kanamycin 對 Neisseria gonorrhoeae 具抑菌活性，通過抑制 30S 核糖體次單元阻斷蛋白質合成。歷史上在 β-lactam 耐藥流行地區（尤其非洲）被用作替代療法。2018 年耐藥監測數據仍顯示部分地區敏感菌株存在，但整體抗藥性上升削弱了其當代價值。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "13637839",
+          "study_type": "Clinical Observational",
+          "tier": 2,
+          "year": 1958,
+          "comment": "最早期直接臨床使用紀錄，肌注 Kanamycin 治療男性急性淋球菌性尿道炎，有初步療效觀察。"
+        },
+        {
+          "pmid": "6042975",
+          "study_type": "Clinical Observational",
+          "tier": 2,
+          "year": 1967,
+          "comment": "Kanamycin 用於非淋球菌性尿道炎，提供反向對照參考。"
+        },
+        {
+          "pmid": "5356422",
+          "study_type": "Clinical Trial (combination)",
+          "tier": 2,
+          "year": 1969,
+          "comment": "Hetacillin + Kanamycin 聯合治療，有對照設計雛形，但方法學有限。"
+        },
+        {
+          "pmid": "813568",
+          "study_type": "Clinical Comparative",
+          "tier": 2,
+          "year": 1975,
+          "comment": "Kanamycin vs Vibramycin 比較治療淋病性尿道炎，含療效比較。"
+        },
+        {
+          "pmid": "6672557",
+          "study_type": "Clinical Series",
+          "tier": 2,
+          "year": 1983,
+          "comment": "直接評估 Kanamycin 治療男性淋球菌性尿道炎，有樣本量與治癒率報告。"
+        },
+        {
+          "pmid": "3890228",
+          "study_type": "Clinical Comparative RCT-like",
+          "tier": 2,
+          "year": 1985,
+          "comment": "Gentamicin vs Kanamycin 比較研究（尚比亞），最具對照設計，提供直接療效與安全性數據。"
+        },
+        {
+          "pmid": "25581806",
+          "study_type": "Surveillance / Epidemiology",
+          "tier": 3,
+          "year": 2014,
+          "comment": "病原體及耐藥性監測，間接提供當代敏感性資料。"
+        },
+        {
+          "pmid": "28476914",
+          "study_type": "Surveillance",
+          "tier": 3,
+          "year": 2018,
+          "comment": "5個哨兵監測點淋球菌耐藥監測，為最新耐藥景觀參考；部分地區 Kanamycin 仍具一定敏感性。"
+        }
+      ],
+      "evidence_summary": "累積 20 篇文獻（含 10 篇可見），跨越 1958-2018 年，包含多項有對照設計的臨床研究，達 L3（回顧性/觀察性臨床研究）等級。無現代 Phase 2/3 RCT。",
+      "flag": "⚠️ 歷史證據充分但現代化程度不足；主要障礙為耐藥性（特別是 WHO 耐藥監測警示）及更優替代療法（頭孢曲松）的存在。若研究方向為資源匱乏地區替代療法，具 Research Question 價值。"
+    },
+    {
+      "disease_name": "blood group incompatibility",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "輸血相關血型不相容為免疫介導溶血反應，與抗生素治療無關聯。唯一文獻（PMID 6338820）探討的是 R 質體相容性群組（plasmid incompatibility groups），屬細菌遺傳學術語，與臨床血型不相容（ABO/Rh）概念完全不同——文獻與適應症之間存在術語混淆。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6338820",
+          "study_type": "Microbiology / Plasmid Genetics",
+          "tier": 3,
+          "year": 1983,
+          "comment": "研究沙門氏菌 R 質體相容性群組與抗藥性，與臨床血型不相容無關；為資料管道中的術語匹配錯誤。"
+        }
+      ],
+      "flag": "🚫 確認為資料處理中的 false positive；'incompatibility' 術語歧義所致，建議從候選清單移除並修正映射邏輯。"
+    },
+    {
+      "disease_name": "premalignant hematological system disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前驅血液系統惡性病變（如 MDS、MGUS 前期）的治療以疾病特異性標靶療法為主；Kanamycin 無已知抗腫瘤或免疫調節機轉，無合理再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "🚫 零臨床證據，機轉缺乏生物學合理性，建議移除。"
+    },
+    {
+      "disease_name": "uterine inflammatory disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "骨盆腔炎（PID）的標準治療包含廣譜抗生素覆蓋革蘭氏陰性菌（包括腸桿菌科），Kanamycin 作為胺基糖苷類對此類病原體具活性。1988 年研究直接比較含胺基糖苷類方案治療 PID。然而，現行指引（CDC 2021）以頭孢菌素類+多西環素為首選，胺基糖苷類因腎毒性已被降低使用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01431326",
+          "relevance_grade": "C",
+          "reasoning": "兒童標準治療藥物 PK 研究，收錄 3520 名患者，雖可提供 Kanamycin 在不同族群的 PK 參數，但研究族群（兒童）與子宮炎症疾病（成人婦科）不匹配；間接相關。"
+        },
+        {
+          "nct_id": "NCT01290003",
+          "relevance_grade": "C",
+          "reasoning": "胎便污染羊水中預防性抗生素防止新生兒敗血症研究，與子宮/骨盆炎症直接治療關聯性低；僅在圍產期情境下有間接關聯（母體感染→新生兒預防）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3132668",
+          "study_type": "Clinical Comparative Trial",
+          "tier": 2,
+          "year": 1988,
+          "comment": "最相關文獻：直接比較兩種抗生素方案治療 PID，有對照設計，提供療效和安全性比較數據。"
+        },
+        {
+          "pmid": "4617009",
+          "study_type": "Clinical Evaluation",
+          "tier": 3,
+          "year": 1974,
+          "comment": "Amikacin（Kanamycin 衍生物）在婦產科領域評估，間接支持胺基糖苷類在此領域的可行性。"
+        },
+        {
+          "pmid": "4215903",
+          "study_type": "Clinical Evaluation",
+          "tier": 3,
+          "year": 1974,
+          "comment": "Amikacin (BB-K8) 研究，同前——為 Kanamycin 半合成衍生物，機轉相近但不完全等同。"
+        },
+        {
+          "pmid": "10342654",
+          "study_type": "Case Report",
+          "tier": 3,
+          "year": 1999,
+          "comment": "Edwardsiella tarda 菌血症合併急性胰腺炎與 pyomyoma（子宮肌瘤感染）個案，使用含 Kanamycin 方案，為個案層級間接證據。"
+        }
+      ],
+      "flag": "⚠️ 最直接的文獻已逾35年，且臨床試驗未針對此適應症設計。鑑於 Kanamycin 腎毒性及現有替代方案，進一步推進需謹慎評估風險收益比。"
+    },
+    {
+      "disease_name": "xanthogranulomatous pyelonephritis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "黃色肉芽腫性腎盂腎炎為慢性腎臟感染性肉芽腫病變，主因大腸桿菌或克雷白氏菌，治療以手術切除為主，輔以術前抗生素。雖 Kanamycin 對相關病原體有活性，但無任何臨床研究評估此用途。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 機轉上有一定合理性（革蘭氏陰性菌覆蓋），但零臨床證據且病例極罕見，投資回報率低。"
+    },
+    {
+      "disease_name": "monoclonal gammopathy",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "18 篇文獻中，多數是以下兩種情境：(1) 基因治療研究中使用 Kanamycin 抗性基因（neo^R）作為選擇性標記，非治療用途；(2) 骨髓瘤/免疫抑制患者發生機會性感染（諾卡氏菌、分枝桿菌）時使用 Kanamycin。前者與治療完全無關，後者為感染併發症處理而非單克隆丙種球蛋白病本身的治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35619805",
+          "study_type": "Case Report",
+          "tier": 3,
+          "year": 2022,
+          "comment": "巨球蛋白血症患者發生播散性諾卡氏菌病個案，使用含 Kanamycin 方案治療感染，非治療 MGUS 本身。"
+        },
+        {
+          "pmid": "36266937",
+          "study_type": "Case Report",
+          "tier": 3,
+          "year": 2022,
+          "comment": "多發性骨髓瘤患者腦膿瘍（Nocardia farcinica），同前——治療機會性感染。"
+        },
+        {
+          "pmid": "7803277",
+          "study_type": "Laboratory / Gene Transfer",
+          "tier": 3,
+          "year": 1994,
+          "comment": "逆轉錄病毒介導基因轉染骨髓瘤細胞，使用 Kanamycin 抗性基因作選擇標記，非治療研究。"
+        },
+        {
+          "pmid": "7538814",
+          "study_type": "Laboratory / Gene Transfer",
+          "tier": 3,
+          "year": 1995,
+          "comment": "CD34+ 造血幹細胞逆轉錄病毒標記研究，Kanamycin 為選擇標記，無治療意義。"
+        },
+        {
+          "pmid": "8723474",
+          "study_type": "PK Study",
+          "tier": 3,
+          "year": 1996,
+          "comment": "嚴重嗜中性白血球減少患者 Teicoplanin PK 研究，Kanamycin 僅為背景資訊。"
+        }
+      ],
+      "flag": "🚫 文獻存在嚴重選擇性偏差——Kanamycin 在多數論文中為選擇標記或感染治療工具，非針對單克隆丙種球蛋白病的治療研究。建議標記為 false positive。"
+    }
+  ],
+  "summary_table": {
+    "headers": ["適應症", "TxGNN分數", "證據等級", "決策階段", "建議"],
+    "rows": [
+      ["gonococcal urethritis",        "0.929", "L3", "S2", "Research Question"],
+      ["uterine inflammatory disease", "0.908", "L3", "S1", "Research Question"],
+      ["Ureaplasma urethritis",        "0.929", "L4", "S0", "Hold"],
+      ["monoclonal gammopathy",        "0.901", "L4", "S0", "Hold"],
+      ["blood group incompatibility",  "0.919", "L5", "S0", "Hold (False Positive)"],
+      ["hyperamylasemia",              "0.945", "L5", "S0", "Hold"],
+      ["polyclonal hyperviscosity",    "0.945", "L5", "S0", "Hold"],
+      ["congenital analbuminemia",     "0.939", "L5", "S0", "Hold"],
+      ["premalignant hematological",   "0.910", "L5", "S0", "Hold"],
+      ["xanthogranulomatous pyelo.",   "0.907", "L5", "S0", "Hold"]
+    ]
+  },
+  "cross_cutting_concerns": {
+    "safety_profile": "Kanamycin 具已知腎毒性（腎小管損傷）及不可逆耳毒性（第八對腦神經損傷），在所有再利用評估中均需列為重大安全顧慮。市場狀態「未上市」及 DDI 資料缺失增加監管與藥物交互作用評估難度。",
+    "data_quality_flags": [
+      "blood group incompatibility：術語混淆（plasmid incompatibility ≠ 血型不相容），建議修正資料管道",
+      "monoclonal gammopathy：Kanamycin 在文獻中主要作為選擇標記，非治療用途，建議加強文獻相關性過濾",
+      "多個適應症的高 TxGNN 分數（>0.9）可能反映知識圖譜中的批次偏差，需人工驗證"
+    ],
+    "most_promising": "gonococcal urethritis 為唯一具備足夠歷史臨床證據的適應症（L3/S2），在資源有限地區替代療法研究框架下具有 Research Question 價值，但需正視當代耐藥問題。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 核心發現
+
+| 層級 | 適應症 | 關鍵因素 |
+|------|--------|---------|
+| **L3 / S2** | 淋球菌性尿道炎 | 20篇文獻含多項有對照臨床研究（1958-2018），歷史上為公認替代療法 |
+| **L3 / S1** | 子宮炎症疾病（PID） | 1篇直接PID比較研究 + 2個間接臨床試驗，但均逾35年 |
+| **L4 / S0** | Ureaplasma尿道炎 | 僅1篇1978年體外敏感性測試 |
+| **L4 / S0** | 單克隆丙種球蛋白病 | 文獻為選擇標記/機會感染治療，非直接療效證據 |
+| **L5 / S0 × 6** | 其餘6個適應症 | 零臨床證據，含2個疑似 false positive |
+
+### 行動建議
+
+1. **立即行動**：將 `blood group incompatibility` 標記為資料管道錯誤（plasmid incompatibility 術語歧義），修正 NLP 映射邏輯
+2. **短期**：`gonococcal urethritis` 可進入安全性審查（S1），聚焦資源有限地區替代療法研究問題
+3. **長期關注**：Kanamycin 耳腎毒性為所有適應症的共同限制因素，任何 S2+ 方案均需 TDM（治療藥物監測）計畫

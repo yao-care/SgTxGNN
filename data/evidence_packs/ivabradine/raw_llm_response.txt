@@ -1,0 +1,290 @@
+## 藥物再利用證據分析：Ivabradine (DB09083)
+
+> **背景說明**：資料顯示 MOA 為 [Data Gap]，但 Ivabradine 為已知的 HCN4（If 通道）抑制劑，主要作用為選擇性降低竇房結起搏電流，降低心率。本分析以此已知機轉為基礎進行評估。
+
+---
+
+```json
+{
+  "drug": "Ivabradine",
+  "drugbank_id": "DB09083",
+  "known_moa": "HCN4/If channel blocker — selectively inhibits sinoatrial node pacemaker current, reduces heart rate without affecting contractility",
+  "data_quality_note": "original_moa marked as [Data Gap] and market_status as 未上市 — likely Singapore-specific registry gap; Ivabradine (Procoralan/Corlanor) is globally approved for chronic stable angina and HFrEF",
+  "indications": [
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "缺乏機轉支持。Ivabradine 的 HCN4 抑制作用主要在竇房結。HCN 通道（HCN1/HCN2）雖在毛囊神經末梢有少量表達，但無已知路徑連結 If 通道阻斷與毛髮過度生長。TxGNN 高分可能源自知識圖譜中毛囊相關表型的拓樸鄰接，屬計算假陽性信號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["TxGNN high-score artifact", "zero clinical evidence", "no plausible MOA pathway"]
+    },
+    {
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ambras 症候群為 TRPS1 基因變異導致的先天性毛髮異常，屬發育遺傳缺陷。Ivabradine 的心臟離子通道作用與此病理機轉無關。無任何臨床或實驗室證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["genetic developmental disorder", "no pharmacological plausibility", "zero clinical evidence"]
+    },
+    {
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雖有 20 篇文獻，但內容全為一般牙周病研究（糖尿病-牙周炎雙向關係、EFP S3 指引、微生物叢等），無一涉及 Ivabradine 或 If 通道。文獻為 TxGNN 疾病節點相關背景文獻，非藥物-疾病連結證據。HCN 通道與牙周發育或惡化無已知病理機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "22057194", "study_type": "Review", "tier": 3, "relevance": "糖尿病-牙周炎關係，與Ivabradine無關"},
+        {"pmid": "35688447", "study_type": "Clinical Guideline (EFP S3)", "tier": 3, "relevance": "牙周炎治療指引，與Ivabradine無關"},
+        {"pmid": "35420698", "study_type": "Cochrane-type Review", "tier": 3, "relevance": "牙周治療對血糖控制，與Ivabradine無關"},
+        {"pmid": "36883660", "study_type": "Review", "tier": 3, "relevance": "牙齦纖維母細胞在牙周炎的角色，與Ivabradine無關"},
+        {"pmid": "38907216", "study_type": "Review", "tier": 3, "relevance": "生物材料-巨噬細胞免疫療法，與Ivabradine無關"}
+      ],
+      "flags": ["literature is disease-background only", "zero ivabradine-specific evidence", "20 PMIDs are noise signal"]
+    },
+    {
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dandy-Walker 症候群為先天性後顱窩發育異常，涉及 ZIC1、ZIC4 等基因。Ivabradine 無已知神經發育作用，HCN 通道雖在小腦有表達，但不影響結構發育。無任何臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["congenital structural brain malformation", "no pharmacological plausibility", "zero clinical evidence"]
+    },
+    {
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "txgnn_score": 0.9969,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛幹遺傳異常（如 monilethrix、trichothiodystrophy 等）涉及角蛋白基因或 DNA 修復缺陷，與離子通道藥理無關。無任何臨床或基礎研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["structural protein/genetic disorder", "no channel pharmacology link", "zero clinical evidence"]
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis (NSIAD)",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 為 AVPR2（V2 血管加壓素受體）gain-of-function 突變導致的低血鈉症。Ivabradine 的 If 通道機轉與 AVPR2 訊號路徑無交集。理論上心率降低可略微影響 ANP 分泌，但無法解釋對 NSIAD 的直接效益。零臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["AVPR2 gain-of-function disorder", "no mechanistic overlap with If channels", "zero clinical evidence"]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9850,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "最具說服力的機轉路徑：肺高壓患者右心室因後負荷增加代償性心搏過速，但心跳過快反而惡化右心室功能（減少舒張充填時間、增加耗氧）。Ivabradine 選擇性降低心率而不抑制收縮力，可改善右心室充填、降低壁張力、減少心肌纖維化（動物模型已確認 TGF-β/Smad 路徑調控）。此外 HCN 通道在肺血管平滑肌亦有表達，存在直接血管效應假說待驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04735354",
+          "title": "Sacubitril/Valsartan in HFrEF: Real World Study",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 268,
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Sacubitril/Valsartan，非 Ivabradine；適應症為 HFrEF 而非肺高壓。間接參考：可了解心衰竭患者心率管理的背景，但無直接證據價值"
+        },
+        {
+          "nct_id": "NCT03650205",
+          "title": "Ivabradine to Prevent Anthracycline-induced Cardiotoxicity",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 160,
+          "relevance_grade": "B",
+          "reasoning": "藥物正確（Ivabradine），但適應症為化療心毒性預防而非肺高壓。狀態 UNKNOWN 且為非隨機設計。可提供 Ivabradine 心臟保護效果的間接安全性數據，但不直接支持 PH 適應症"
+        },
+        {
+          "nct_id": "NCT00757055",
+          "title": "If Channel Blockade With Ivabradine in Diastolic Heart Failure",
+          "phase": "PHASE2",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "B",
+          "reasoning": "藥物正確（Ivabradine），Phase 2 設計，但已撤回且入組為零。適應症為舒張性心衰竭，與 PH 有部分病理生理重疊（右心功能不全）。撤回原因不明，需追查是否為安全顧慮"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32915674",
+          "title": "Heart Rate Reduction Improves Right Ventricular Function and Fibrosis in Pulmonary Hypertension",
+          "year": "2020",
+          "study_type": "Animal/Experimental Study",
+          "tier": 2,
+          "relevance": "直接相關：動物模型顯示心率降低改善右心室功能與纖維化，支持機轉假說。最重要的基礎科學支持之一"
+        },
+        {
+          "pmid": "29146614",
+          "title": "Heart rate reduction improves biventricular function in experimental pulmonary hypertension",
+          "year": "2018",
+          "study_type": "Animal/Experimental Study",
+          "tier": 2,
+          "relevance": "直接相關：實驗性 PH 模型中雙心室功能改善，強化心率降低作為治療策略的機轉基礎"
+        },
+        {
+          "pmid": "37742537",
+          "title": "Effects of Ivabradine on Right Ventricular Systolic Function in COPD Patients",
+          "year": "2023",
+          "study_type": "Clinical Observational Study",
+          "tier": 2,
+          "relevance": "高度相關：直接研究 Ivabradine 對右心室功能的臨床效果，COPD 相關 PH 患者，為迄今最新的臨床直接證據"
+        },
+        {
+          "pmid": "24556029",
+          "title": "Functional improvement in pulmonary arterial hypertension patients treated with ivabradine",
+          "year": "2014",
+          "study_type": "Case Series / Small Observational",
+          "tier": 2,
+          "relevance": "直接相關：PAH 患者使用 Ivabradine 的功能性改善報告，為最早的臨床直接證據之一"
+        },
+        {
+          "pmid": "23021874",
+          "title": "Ivabradine in systemic sclerosis related pulmonary arterial hypertension",
+          "year": "2012",
+          "study_type": "Case Report/Series",
+          "tier": 2,
+          "relevance": "直接相關：SSc-PAH 患者使用 Ivabradine 的個案報告，提供特定 PAH 亞型（結締組織病相關）的初步安全性與療效信號"
+        },
+        {
+          "pmid": "22792738",
+          "title": "Effect of ivabradine on pulmonary hypertension in COPD",
+          "year": "2012",
+          "study_type": "Small Clinical Study",
+          "tier": 2,
+          "relevance": "直接相關：COPD-PH 患者使用 Ivabradine 的小型臨床研究，支持不同病因 PH 均可能受益"
+        },
+        {
+          "pmid": "22383181",
+          "title": "Safe and well-tolerated treatment with ivabradine in systemic sclerosis with pulmonary hypertension",
+          "year": "2012",
+          "study_type": "Case Series",
+          "tier": 2,
+          "relevance": "直接相關：安全性數據，SSc-PH 患者可耐受，重要的安全性初評支持"
+        },
+        {
+          "pmid": "28701278",
+          "title": "ACE inhibitors, ARBs, beta-blockers and ivabradine in heart failure",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "間接相關：心衰竭藥物回顧，包含 Ivabradine，但非 PH 特異性。提供心率管理藥物比較背景"
+        },
+        {
+          "pmid": "29414252",
+          "title": "Heart Failure with Preserved Ejection Fraction",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "間接相關：HFpEF 回顧，與 PH 右心衰竭有部分病理生理重疊，但非直接 PH 證據"
+        },
+        {
+          "pmid": "22890042",
+          "title": "Who needs a transplant and when?",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "相關性低：心臟移植適應症回顧，作為 PH 嚴重度背景參考，無 Ivabradine 特異性數據"
+        }
+      ],
+      "evidence_summary": {
+        "direct_clinical_evidence_count": 5,
+        "experimental_evidence_count": 2,
+        "safety_data_available": true,
+        "largest_study_size": "~60-80 patients (combined case series estimates)",
+        "evidence_gaps": [
+          "無 Phase 2 RCT for PH",
+          "無長期預後數據",
+          "無大型 WHO Group 分類特異性研究",
+          "NCT00757055 撤回原因未知"
+        ],
+        "research_priority": "需要設計 Phase 2 RCT，特別針對 WHO Group 2 (左心疾病相關PH) 或 Group 3 (肺病相關PH)，評估 Ivabradine 對右心功能、6分鐘步行距離及BNP的效果"
+      }
+    },
+    {
+      "disease_name": "familial isolated trichomegaly",
+      "txgnn_score": 0.9838,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Trichomegaly（睫毛過長異常）已知與 EGFR 抑制劑副作用或遺傳因素相關，與 HCN 通道完全無關。零臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["no MOA overlap", "zero clinical evidence", "likely KG topology artifact"]
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9818,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱側彎性心臟病（繼發性限制型心臟病）理論上可能因心率降低而部分獲益，但此推論極為間接。無任何臨床或基礎研究支持 Ivabradine 用於此適應症。應優先處理原發機械性病因。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["mechanical/structural etiology", "no direct evidence", "indirect mechanistic speculation only"]
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9802,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麻瘋病（Mycobacterium leprae 感染）的治療以抗菌為主（dapsone, rifampin, clofazimine）。Ivabradine 無已知抗菌或免疫調節機轉可解釋對麻瘋桿菌的效益。此預測為典型的 KG 圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["infectious disease requiring antimicrobials", "no immunomodulatory MOA for Ivabradine", "clear false positive prediction"]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 整體評估摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|----------|----------|------|
+| hypertrichosis | 0.9979 | **L5** | S0 | 🔴 Hold |
+| Ambras hypertrichosis | 0.9972 | **L5** | S0 | 🔴 Hold |
+| Odontal malformation syndrome | 0.9972 | **L5** | S0 | 🔴 Hold（文獻為雜訊）|
+| Dandy-Walker syndrome | 0.9970 | **L5** | S0 | 🔴 Hold |
+| Genetic hair shaft abnormality | 0.9969 | **L5** | S0 | 🔴 Hold |
+| NSIAD | 0.9908 | **L5** | S0 | 🔴 Hold |
+| **Pulmonary hypertension** | **0.9850** | **L3** | **S2** | 🟡 **Research Question** |
+| Familial isolated trichomegaly | 0.9838 | **L5** | S0 | 🔴 Hold |
+| Kyphoscoliotic heart disease | 0.9818 | **L5** | S0 | 🔴 Hold |
+| Leprosy | 0.9803 | **L5** | S0 | 🔴 Hold |
+
+---
+
+## 🔑 關鍵發現
+
+### ⚠️ TxGNN 評分悖論
+本批次呈現明顯的**評分-證據倒置現象**：評分最高的適應症（毛髮相關疾病，>0.997）完全無臨床與文獻支持；唯一有實質臨床證據的適應症（肺高壓）評分反而最低（0.985）。這提示 TxGNN 的 KG 拓樸特徵可能在此案例中捕捉到非因果性的圖譜鄰接結構。
+
+### ✅ 肺高壓：唯一值得推進的信號
+- **5 篇直接臨床研究**（case series/small observational），跨 SSc-PAH、COPD-PH 多亞型
+- **2 篇動物實驗**證實右心室纖維化改善機轉
+- **安全性數據**初步充足（22383181, 24556029）
+- **研究缺口**：需 Phase 2 RCT，建議優先考慮 WHO Group 2/3 PH 患者，以右心功能（RVEF、TAPSE）為主要終點
+
+### 📋 建議下一步行動（肺高壓）
+1. **系統性文獻回顧**：彙整所有 Ivabradine in PH case series，進行 meta-analysis 估算效應量
+2. **NCT00757055 撤回調查**：確認撤回原因（安全顧慮 vs. 資金問題）
+3. **Phase 2 RCT 設計**：目標 PH WHO Group 3（COPD相關），n≈60-80，主要終點 RV function + 6MWT
+
+> ⚕️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。老藥新用候選需經臨床驗證方可應用。

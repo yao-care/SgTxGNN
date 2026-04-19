@@ -1,0 +1,1169 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00117-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Histidine",
+    "drugbank_id": "DB00117",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "gastroparesis (disease)",
+      "txgnn": {
+        "score": 0.995512068271637,
+        "rank": 6050
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Histidine → Histamine 路徑可透過胃壁 H2 受體影響胃酸分泌與胃腸蠕動，與 gastroparesis 之胃排空延遲理論上有關。然而此為純粹推測性機轉，無任何臨床前或臨床資料直接支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "sclerosing cholangitis",
+      "txgnn": {
+        "score": 0.9927287101745604,
+        "rank": 8443
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30325540",
+            "title": "Serum Metabolites as Diagnostic Biomarkers for Cholangiocarcinoma, Hepatocellular Carcinoma, and Primary Sclerosing Cholangitis.",
+            "authors": [
+              "Banales Jesus M",
+              "Iñarrairaegui Mercedes",
+              "Arbelaiz Ander",
+              "Milkiewicz Piotr",
+              "Muntané Jordi"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2019",
+            "abstract": "Early and differential diagnosis of intrahepatic cholangiocarcinoma (iCCA) and hepatocellular carcinoma (HCC) by noninvasive methods represents a current clinical challenge. The analysis of low-molecular-weight metabolites by new high-throughput techniques is a strategy for identifying biomarkers. Here, we have investigated whether serum metabolome can provide useful biomarkers in the diagnosis of iCCA and HCC and could discriminate iCCA from HCC. Because primary sclerosing cholangitis (PSC) is ",
+            "classification": {
+              "study_type": "Metabolomics / Biomarker study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27351144",
+            "title": "Inhibition of mast cell-secreted histamine decreases biliary proliferation and fibrosis in primary sclerosing cholangitis Mdr2(-/-) mice.",
+            "authors": [
+              "Jones Hannah",
+              "Hargrove Laura",
+              "Kennedy Lindsey",
+              "Meng Fanyin",
+              "Graf-Eaton Allyson"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2016",
+            "abstract": "Hepatic fibrosis is marked by activation of hepatic stellate cells (HSCs). Cholestatic injury precedes liver fibrosis, and cholangiocytes interact with HSCs promoting fibrosis. Mast cells (MCs) infiltrate following liver injury and release histamine, increasing biliary proliferation. We evaluated if inhibition of MC-derived histamine decreases biliary proliferation and fibrosis. Wild-type and multidrug resistance 2 knockout mice (9-11 weeks) were treated with cromolyn sodium for 1 week to block ",
+            "classification": {
+              "study_type": "Preclinical (in vitro/in vivo)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32054995",
+            "title": "Biliary damage and liver fibrosis are ameliorated in a novel mouse model lacking l-histidine decarboxylase/histamine signaling.",
+            "authors": [
+              "Kennedy Lindsey",
+              "Meadows Vik",
+              "Demieville Jennifer",
+              "Hargrove Laura",
+              "Virani Shohaib"
+            ],
+            "journal": "Laboratory investigation; a journal of technical methods and pathology",
+            "year": "2020",
+            "abstract": "Primary sclerosing cholangitis (PSC) is characterized by biliary damage and fibrosis. Multidrug resistance-2 gene knockout (Mdr2-/-) mice and PSC patients have increased histamine (HA) levels (synthesized by l-histidine decarboxylase, HDC) and HA receptor (HR) expression. Cholestatic HDC-/- mice display ameliorated biliary damage and hepatic fibrosis. The current study evaluated the effects of knockout of HDC-/- in Mdr2-/- mice (DKO) on biliary damage and hepatic fibrosis. WT, Mdr2-/- mice, and ",
+            "classification": {
+              "study_type": "Animal model (knockout)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35799467",
+            "title": "Mast cells selectively target large cholangiocytes during biliary injury via H2HR-mediated cAMP/pERK1/2 signaling.",
+            "authors": [
+              "Zhou Tianhao",
+              "Meadows Vik",
+              "Kundu Debjyoti",
+              "Kyritsi Konstantina",
+              "Owen Travis"
+            ],
+            "journal": "Hepatology communications",
+            "year": "2022",
+            "abstract": "Bile ducts are heterogenous in structure and function, and primary sclerosing cholangitis (PSC) damages specific bile ducts leading to ductular reaction (DR), mast cell (MC) infiltration, increased histamine release, inflammation, and fibrosis. Bile duct ligation (BDL) induces large duct damage via cyclic adenosine monophosphate (cAMP)/extracellular signal-related protein kinase (ERK) signaling, and large cholangiocytes express H2 histamine receptor (H2HR). We evaluated how MCs interact with lar",
+            "classification": {
+              "study_type": "Mechanistic study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8020893",
+            "title": "The molecular genetics of autoimmune liver disease.",
+            "authors": [
+              "Donaldson P",
+              "Doherty D",
+              "Underhill J",
+              "Williams R"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "1994",
+            "abstract": "The dual observations that human leukocyte antigens have an antigen-binding groove and that the polymorphism we study as human leukocyte antigen types is largely related to amino acid substitutions in and around that groove have provided a new focus for immunogenetic studies. In autoimmune liver disease, recent studies have described specific amino acid substitutions in the antigen-binding groove of human leukocyte antigen DR molecules that may determine both disease susceptibility, through thei",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29601088",
+            "title": "Blocking H1/H2 histamine receptors inhibits damage/fibrosis in Mdr2-/- mice and human cholangiocarcinoma tumorigenesis.",
+            "authors": [
+              "Kennedy Lindsey",
+              "Hargrove Laura",
+              "Demieville Jennifer",
+              "Karstens Walker",
+              "Jones Hannah"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2018",
+            "abstract": "Primary sclerosing cholangitis (PSC) patients are at risk of developing cholangiocarcinoma (CCA). We have shown that (1) histamine increases biliary hyperplasia through H1/H2 histamine receptors (HRs) and (2) histamine levels increase and mast cells (MCs) infiltrate during PSC and CCA. We examined the effects of chronic treatment with H1/H2HR antagonists on PSC and CCA. Wild-type and multidrug-resistant knockout (Mdr2-/- ) mice were treated by osmotic minipumps with saline, mepyramine, or raniti",
+            "classification": {
+              "study_type": "Preclinical + translational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23928409",
+            "title": "MicroRNA profiles in graft preservation solution are predictive of ischemic-type biliary lesions after liver transplantation.",
+            "authors": [
+              "Verhoeven Cornelia J",
+              "Farid Waqar R R",
+              "de Ruiter Petra E",
+              "Hansen Bettina E",
+              "Roest Henk P"
+            ],
+            "journal": "Journal of hepatology",
+            "year": "2013",
+            "abstract": "Ischemic-type biliary lesions (ITBL) are the second most common cause of graft loss after liver transplantation. Though the exact pathophysiology of ITBL is unknown, bile duct injury during graft preservation is considered to be a major cause. Here we investigated whether the release of cholangiocyte-derived microRNAs (CDmiRs) during graft preservation is predictive of the development of ITBL after liver transplantation.",
+            "classification": {
+              "study_type": "Biomarker study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19691661",
+            "title": "Incidence of and risk factors for ischemic-type biliary lesions following orthotopic liver transplantation.",
+            "authors": [
+              "Heidenhain Christoph",
+              "Pratschke Johann",
+              "Puhl Gero",
+              "Neumann Ulf",
+              "Pascher Andreas"
+            ],
+            "journal": "Transplant international : official journal of the European Society for Organ Transplantation",
+            "year": "2010",
+            "abstract": "Ischemic-type biliary lesions (ITBL) account for a major part of patients' morbidity and mortality after orthotopic liver transplantation (OLT). The exact origin of this type of biliary complication remains unknown. This study retrospectively evaluated 1843 patients. Patients with primary sclerosing cholangitis were excluded from this study. The diagnosis of ITBL was established only when all other causes of destruction of the biliary tree were ruled out. Donor age (P = 0.028) and cold ischemic ",
+            "classification": {
+              "study_type": "Retrospective cohort",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻顯示 mast cell 分泌的 histamine 透過 H1/H2 受體促進膽管增生與纖維化（PMID 27351144, 29601088）；HDC 基因剔除小鼠模型（PMID 32054995）顯示減少 l-histidine 脫羧可改善膽管損傷與肝纖維化。此機轉提示 histidine 作為 histamine 前驅物，補充後可能**加重** PSC 病程，與再利用目標相反。此為關鍵安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn": {
+        "score": 0.9879550933837892,
+        "rank": 12093
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性凝血酶原缺乏為 F2 基因突變所致的出血性疾病。Histidine 作為必需胺基酸在蛋白質合成中扮演角色，理論上可影響凝血因子合成，但無任何直接機轉或臨床支持。此連結過度延伸，僅為模型推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "familial visceral myopathy",
+      "txgnn": {
+        "score": 0.986713409423828,
+        "rank": 13044
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性內臟肌病（ACTG2 基因突變）為腸道平滑肌功能障礙。Histidine 對平滑肌功能的影響極為間接，無機轉支持，純為計算預測結果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "potassium deficiency disease",
+      "txgnn": {
+        "score": 0.9866547584533693,
+        "rank": 13104
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39855736",
+            "title": "Effect of CXCR2 Deficiency in HeLa Cell on the Regulatory Network of Coding Genes and Non-Coding RNAs.",
+            "authors": [
+              "Dong Wei",
+              "Gao Jifang",
+              "Mu Yilin",
+              "Wang Yanyan",
+              "Zhu Xiaoyan"
+            ],
+            "journal": "Annals of clinical and laboratory science",
+            "year": "2024",
+            "abstract": "C-X-C motif chemokine receptor 2 (CXCR2) plays a crucial role in inflammation and immunity, and the involvement of chemokine receptors in the tumor microenvironment is extensively documented. However, the impact of CXCR2 deficiency on the complete transcriptome, including mRNA and ncRNAs, in tumor cells remains unclear.",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15577749",
+            "title": "[Neuroprotective role of PACAP, VIP, and PHI in the central nervous system].",
+            "authors": [
+              "Sokołowska Paulina",
+              "Dejda Agnieszka",
+              "Nowak Jerzy Z"
+            ],
+            "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
+            "year": "2004",
+            "abstract": "Pituitary adenylate cyclase-activating polypeptide (PACAP), vasoactive intestinal peptide (VIP), and peptide histidine-isoleucine (PHI) belong to a structurally related family of polypeptides present in many regions of the central and peripheral nervous system. The neuroprotective potential of PACAP, VIP, and PHI has become a matter of intensive investigations in many animal models. In vitro studies revealed that PACAP protects neurons against apoptosis occurring naturally during CNS development",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27453048",
+            "title": "Identification of PGAM5 as a Mammalian Protein Histidine Phosphatase that Plays a Central Role to Negatively Regulate CD4(+) T Cells.",
+            "authors": [
+              "Panda Saswati",
+              "Srivastava Shekhar",
+              "Li Zhai",
+              "Vaeth Martin",
+              "Fuhs Stephen R"
+            ],
+            "journal": "Molecular cell",
+            "year": "2016",
+            "abstract": "Whereas phosphorylation of serine, threonine, and tyrosine is exceedingly well characterized, the role of histidine phosphorylation in mammalian signaling is largely unexplored. Here we show that phosphoglycerate mutase family 5 (PGAM5) functions as a phosphohistidine phosphatase that specifically associates with and dephosphorylates the catalytic histidine on nucleoside diphosphate kinase B (NDPK-B). By dephosphorylating NDPK-B, PGAM5 negatively regulates CD4(+) T cells by inhibiting NDPK-B-med",
+            "classification": {
+              "study_type": "Mechanistic study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26088577",
+            "title": "Nucleoside diphosphate kinase B-activated intermediate conductance potassium channels are critical for neointima formation in mouse carotid arteries.",
+            "authors": [
+              "Zhou Xiao-Bo",
+              "Feng Yu-Xi",
+              "Sun Qiang",
+              "Lukowski Robert",
+              "Qiu Yi"
+            ],
+            "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+            "year": "2015",
+            "abstract": "Vascular smooth muscle cells (VSMC) proliferation is a hallmark of atherosclerosis and vascular restenosis. The intermediate conductance Ca(2+)-activated K(+) (SK4) channel is required for pathological VSMC proliferation. In T lymphocytes, nucleoside diphosphate kinase B (NDPKB) has been implicated in SK4 channel activation. We thus investigated the role of NDPKB in the regulation of SK4 currents (ISK4) in proliferating VSMC and neointima formation.",
+            "classification": {
+              "study_type": "Mechanistic study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4249109",
+            "title": "[Study of dietary deprivation of certain essential amino acids on plasma and erythrocyte electrolytes in rats. I. Water, sodium, potassium and magnesium content of erythrocytes].",
+            "authors": [
+              "Spach C",
+              "Aschkenasy A"
+            ],
+            "journal": "Comptes rendus des seances de la Societe de biologie et de ses filiales",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Dietary intervention study (animal/human, unclear)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻中 PGAM5（蛋白質組胺酸磷酸酶）與 histidine 磷酸化有間接關聯（PMID 27453048），NDK-B 活化鉀通道（PMID 26088577）亦涉及磷酸化訊號，但與補充 histidine 治療低鉀血症的直接機轉鏈結薄弱。PMID 4249109 (1970) 的胺基酸缺乏與電解質研究設計已過時，無法支持治療推薦。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "dyspepsia",
+      "txgnn": {
+        "score": 0.9854145050048828,
+        "rank": 13957
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03401970",
+            "title": "Dietary Carbohydrate and Internal Body Fat Mass in Women and Men With Obesity",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2018-01-03",
+            "completion_date": "2021-03-24",
+            "brief_summary": "This is a 2-year randomized controlled trial to test the effect of dietary carbohydrates, both quality and quantity, on changes in internal body fat mass. Up to 250 women and men with obesity are recruited in Bergen, Norway, and randomized to one of the following normo- and isocaloric dietary patterns (same amount of protein, polyunsaturated fatty acids and moderate energy, 2,000 - 2,500 kcal per day): 1) a low-fat high-carbohydrate diet primarily with refined (e.g., flour-based) carbohydrate so",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "肥胖族群的飲食碳水化合物與體脂肪研究，與 histidine 用於 dyspepsia 無直接關聯。試驗無關，不支持亦不否定此適應症。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29031770",
+            "title": "Effects of three major amino acids found in Japanese broth on glucose metabolism and gastric emptying.",
+            "authors": [
+              "Mano Fumika",
+              "Ikeda Kaori",
+              "Joo Erina",
+              "Yamane Shunsuke",
+              "Harada Norio"
+            ],
+            "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+            "year": "2018",
+            "abstract": "To our knowledge, the effect of the broth of dried kelp and dried bonito, dashi, on glucose metabolism and digestion has rarely been studied. Based on the component analysis of three actual broths served in traditional restaurants, a chemically synthesized broth with three free amino acids (histidine, glutamate, aspartate) and salt was prepared to investigate their effect on glucose metabolism, glucose-dependent insulinotropic polypeptide (GIP), and glucagon-like peptide 1 (GLP-1) secretion, and",
+            "classification": {
+              "study_type": "Clinical intervention study (human)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32394522",
+            "title": "Abnormalities in metabolic pathways in celiac disease investigated by the metabolic profiling of small intestinal mucosa, blood plasma and urine by NMR spectroscopy.",
+            "authors": [
+              "Upadhyay Deepti",
+              "Singh Alka",
+              "Das Prasenjit",
+              "Mehtab Jiya",
+              "Dattagupta Siddhartha"
+            ],
+            "journal": "NMR in biomedicine",
+            "year": "2020",
+            "abstract": "Celiac disease (CeD) is an autoimmune enteropathy caused by gluten intake in genetically predisposed individuals. We investigated the metabolism of CeD by metabolic profiling of intestinal mucosa, blood plasma and urine using NMR spectroscopy and multivariate analysis. The metabolic profile of the small intestinal mucosa was compared between patients with CeD (n = 64) and disease controls (DCs, n = 30). The blood plasma and urinary metabolomes of CeD patients were compared with healthy controls ",
+            "classification": {
+              "study_type": "Metabolomics study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25943773",
+            "title": "The influence of Helicobacter pylori eradication on the expression and methylation status of the FHIT gene in non-cancerous gastric mucosa of dyspeptic patients.",
+            "authors": [
+              "Peczek Lukasz",
+              "Zuk Karolina",
+              "Stec-Michalska Krystyna",
+              "Medrek Marta",
+              "Nawrot Barbara"
+            ],
+            "journal": "Journal of digestive diseases",
+            "year": "2015",
+            "abstract": "To investigate the effect of Helicobacter pylori (H. pylori) eradication on the expression level of the FHIT gene and its methylation status in the gastric mucosa of dyspeptic patients with or without a family history of gastric cancer (FHGC).",
+            "classification": {
+              "study_type": "Clinical observational",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19751438",
+            "title": "Helicobacter pylori infection and family history of gastric cancer decrease expression of FHIT tumor suppressor gene in gastric mucosa of dyspeptic patients.",
+            "authors": [
+              "Stec-Michalska Krystyna",
+              "Peczek Lukasz",
+              "Michalski Blazej",
+              "Wisniewska-Jarosinska Maria",
+              "Krakowiak Agnieszka"
+            ],
+            "journal": "Helicobacter",
+            "year": "2009",
+            "abstract": "The expression of a fragile histidine triad (FHIT) protein is lost in stomach tumors. The study aimed at determining whether FHIT expression is affected by Helicobacter pylori infection, strain virulence (vacA and cagA genes) and histopathological changes in the gastric mucosa of patients with functional dyspepsia having first-degree relatives with gastric cancer.",
+            "classification": {
+              "study_type": "Clinical observational",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5569277",
+            "title": "[Evaluation of the antacid activity of K 3717 compound, using pH radiotelemetry].",
+            "authors": [
+              "Arullani P"
+            ],
+            "journal": "Minerva gastroenterologica",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical pharmacology study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PMID 29031770 顯示日式高湯中包含 histidine 在內的三種主要胺基酸可影響血糖代謝與胃排空速率，提示 histidine 可能透過腸道激素（如 GLP-1、GIP）路徑調節胃腸功能，與消化不良的胃排空異常有間接關聯。此外 H2 受體拮抗劑（histamine 的受體）已是 dyspepsia 的臨床標準療法，histidine 作為前驅物理論上可能有複雜的雙向作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "unclassified intestinal pseudoobstruction",
+      "txgnn": {
+        "score": 0.9812309145927428,
+        "rank": 16433
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腸道假性梗阻（CIPO）為腸神經系統或平滑肌功能障礙。無任何文獻或臨床試驗支持 histidine 治療此症。與 familial visceral myopathy 同為 TxGNN 對腸道動力障礙的群聚預測，可能反映知識圖譜中的鄰接節點效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "myopathic intestinal pseudoobstruction",
+      "txgnn": {
+        "score": 0.9812309145927428,
+        "rank": 16434
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同 unclassified intestinal pseudoobstruction，評分完全相同印證為同一群組預測。平滑肌病型 CIPO 屬極罕見疾病，Histidine 無已知機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "primary aldosteronism",
+      "txgnn": {
+        "score": 0.9810216426849364,
+        "rank": 16538
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05456997",
+            "title": "Prospective Observational Study of Metabolic Myopathy in Cushing's Syndrome or Pheochromocytoma Patients Undergoing Adrenalectomy",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2023-03-20",
+            "completion_date": "2023-09-30",
+            "brief_summary": "Endocrine diseases including Cushing's syndrome and phaeochromocytoma/paraganglioma (PPGL) but not Conn's syndrome are associated with muscle wasting and weakness. The study's aim is to identify epigenetic determinants of muscle homeostasis in these conditions following medical treatment and adrenalectomy. This is an observational pilot study that will recruit 66 patients from 3 diagnostic groups: Cushing's syndrome (16), PPGL (20) and Conn's syndrome (30). Indices of muscle bulk and strength wi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性研究（Cushing's/嗜鉻細胞瘤之代謝肌病），非 primary aldosteronism，招募 1 人即終止，無任何 histidine 相關性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31966891",
+            "title": "Transcriptome analysis of primary aldosteronism in adrenal glands and controls.",
+            "authors": [
+              "Chu Chenlong",
+              "Zhao Chenhui",
+              "Zhang Zhiwei",
+              "Wang Mingwei",
+              "Zhang Zhaohui"
+            ],
+            "journal": "International journal of clinical and experimental pathology",
+            "year": "2017",
+            "abstract": "Primary aldosteronism (PA) is the most common form of endocrine hypertension. This study was to investigate the gene expression profile in PA adrenal glands and normal controls using RNA-Sequencing. By performing transcriptome analyses for 3 PA adrenal glands and 3 controls on Illumina platform, we identified 1,093 transcripts as significantly differently expressed genes (DEGs), which provided clues for further study of these transcript changes during PA pathogenesis. Further, Gene Set Enrichmen",
+            "classification": {
+              "study_type": "Transcriptomic study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8106638",
+            "title": "Mutations of the p53 gene in human functional adrenal neoplasms.",
+            "authors": [
+              "Lin S R",
+              "Lee Y J",
+              "Tsai J H"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "1994",
+            "abstract": "To clarify gene alterations in functional human adrenal tumors, we performed molecular analysis for p53 abnormalities in 23 cases with adrenal neoplasms. The immunohistochemical study with anti-p53 monoclonal antibody pAb1801 demonstrated that 10 of 23 (43.5%) cases overexpressed p53 protein in the tumor cells. Using a polymerase chain reaction-single strand conformation polymorphism study, 5 of 6 (83.3%) pheochromocytoma tissues (1 malignant and 5 benign) and 11 of 15 (73.3%) adrenocortical ade",
+            "classification": {
+              "study_type": "Molecular genetics study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12472765",
+            "title": "A novel mutation in the chloride channel gene, CLCNKB, as a cause of Gitelman and Bartter syndromes.",
+            "authors": [
+              "Zelikovic Israel",
+              "Szargel Raymonde",
+              "Hawash Ali",
+              "Labay Valentina",
+              "Hatib Ihab"
+            ],
+            "journal": "Kidney international",
+            "year": "2003",
+            "abstract": "Gitelman syndrome (GS) and Bartter syndrome (BS) are hereditary hypokalemic tubulopathies with distinct phenotypic features. GS has been considered a genetically homogeneous disorder caused by mutation in the gene encoding the NaCl cotransporter (TSC) of the distal convoluted tubule. In contrast, BS is caused by mutations in the genes encoding either the Na-K-2Cl cotransporter (NKCC2), the K+ channel (ROMK) or the Cl- channel (ClC-Kb) of the thick ascending limb. The purpose of this study was to",
+            "classification": {
+              "study_type": "Case study / Molecular genetics",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性醛固酮增多症為 CYP11B2 基因突變導致腎上腺過度分泌醛固酮。文獻（PMID 31966891）僅為轉錄組分析，PMID 8106638 探討 p53 突變，PMID 12472765 為 CLCNKB 突變（Bartter/Gitelman 症候群），三者均與 histidine 治療無直接機轉連結。標準治療（spironolactone 或手術）已成熟。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "intestinal obstruction",
+      "txgnn": {
+        "score": 0.9805856347084044,
+        "rank": 16757
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04821557",
+            "title": "Effect of Microbial Protease Supplementation on Postprandial Amino Acid Levels in Healthy Adults",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2021-03-30",
+            "completion_date": "2021-09-03",
+            "brief_summary": "Dietary protein is digested in the stomach and intestines to smaller peptides and 20 individual amino acids which, when absorbed by the gut into circulation and taken up by skeletal muscle, help stimulate muscle protein synthesis (MPS). Amino acids also provide the building blocks for muscle proteins that contribute to lean mass gains and increased strength following resistance exercise. Therefore, strategies to efficiently maximize amino acid exposure without overconsumption are warranted.\n\nOra",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究蛋白酶補充劑對餐後胺基酸吸收的影響，對象為健康成人，非腸梗阻患者，與 histidine 再利用無直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT05190432",
+            "title": "A Pilot Study of Dietary Taxifolin/Dihydroquercetin and Ergothioneine and Immune Biomarkers in Healthy Volunteers",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 90,
+            "start_date": "2021-11-10",
+            "completion_date": "2025-07",
+            "brief_summary": "The complexities of the immune system make measuring the impact of dietary interventions upon its function challenging. The immune system is highly responsive to environmental influences, including the diet. An individual's diet provides the energy required to mount a strong and protective immune response, the building blocks required for synthesis of immune mediators such as antibodies and cytokines, and can also indirectly affect immune function via changes in the gut microbiome. Immune functi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "植化素對免疫生物標誌物的研究，與 histidine 或腸梗阻無任何直接關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腸道梗阻為機械性或動力性問題，主要治療為外科或支持療法。兩個臨床試驗均與 histidine 治療腸梗阻無關（NCT04821557 研究蛋白酶補充劑對胺基酸吸收的影響；NCT05190432 研究 taxifolin/ergothioneine 對免疫生物標誌物的影響）。無文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "familial visceral myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "familial visceral myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "familial visceral myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "myopathic intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "primary aldosteronism"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "primary aldosteronism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "primary aldosteronism"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "intestinal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "intestinal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Histidine",
+        "disease": "intestinal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

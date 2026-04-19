@@ -1,0 +1,326 @@
+## Clonazepam (DB01068) 藥物再利用證據分析報告
+
+> ⚠️ **資料注意**：`market_status: 未上市` 與 `original_indications: []` 可能反映新加坡本地藥監局資料缺口。Clonazepam 在全球主要市場（美國、歐盟、日本等）均已批准用於癲癇發作及恐慌症，全球藥理文獻基礎完整。
+
+---
+
+```json
+{
+  "drug": "Clonazepam",
+  "drugbank_id": "DB01068",
+  "analysis_date": "2026-04-04",
+  "data_note": "市場狀態「未上市」可能為新加坡本地資料庫缺口，非全球狀態。Clonazepam 為長效苯二氮䓬類，全球廣泛用於癲癇與恐慌症，核心機轉為 GABA-A 受體正向變構調節，增強 Cl⁻ 通道開放頻率，全腦抑制性神經傳遞增強。",
+  "indications": [
+    {
+      "disease_name": "status epilepticus",
+      "txgnn_score": 0.9697,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clonazepam 為長效苯二氮䓬類（t½ 20-60h），透過 GABA-A 受體正向調節，快速終止全腦持續性異常放電。其較長半衰期使其在癲癇持續狀態的復發預防上優於 diazepam。多項 Phase 3 RCT 直接於此適應症完成，包含院外及院內場景。Guardrails：呼吸抑制監測、劑量依體重調整（兒科）、與其他 CNS 抑制劑交互作用評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01870024",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 完成 RCT（n=434），直接比較院外癲癇持續狀態 Lorazepam vs Clonazepam vs Clonazepam+Fosphenytoin，為 SE 核心 RCT 證據，與此適應症高度直接相關"
+        },
+        {
+          "nct_id": "NCT01150331",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 完成 RCT（n=203），Levetiracetam+Clonazepam vs Clonazepam 單藥治療癲癇持續狀態，直接評估 clonazepam 療效，高度相關"
+        },
+        {
+          "nct_id": "NCT04287361",
+          "relevance_grade": "A",
+          "reasoning": "兒童癲癇持續狀態 IV Clonazepam 劑量研究（n=310），完成，直接評估兒科族群劑量安全性，高度相關"
+        },
+        {
+          "nct_id": "NCT07443241",
+          "relevance_grade": "B",
+          "reasoning": "大型觀察性研究（n=779），評估性別差異於 SE 病因/治療/預後，含 clonazepam 真實世界使用資料，間接支持"
+        },
+        {
+          "nct_id": "NCT00362141",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 Levetiracetam 附加治療 SE（n=12），clonazepam 為背景標準治療，間接確認其標準照護地位"
+        },
+        {
+          "nct_id": "NCT02134366",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 設計但早期終止（n=7），統計力嚴重不足，僅提供設計參考價值"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "26109227", "study_type": "Clinical Review", "tier": "1"},
+        {"pmid": "35791584", "study_type": "Clinical Efficacy Study", "tier": "1"},
+        {"pmid": "37291410", "study_type": "Clinical Study (Dose Analysis)", "tier": "1"},
+        {"pmid": "35971024", "study_type": "Systematic Review", "tier": "1"},
+        {"pmid": "35333156", "study_type": "Evidence-Based Review", "tier": "1"},
+        {"pmid": "36158897", "study_type": "Pediatric Review", "tier": "1"},
+        {"pmid": "38358613", "study_type": "Review (Seizure Clusters)", "tier": "1"},
+        {"pmid": "2670537", "study_type": "PK Study", "tier": "2"},
+        {"pmid": "32890066", "study_type": "Review (Drug Trials in SE)", "tier": "2"},
+        {"pmid": "32893075", "study_type": "Scoping Review (Angelman/SE)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "epilepsy with generalized tonic-clonic seizures",
+      "txgnn_score": 0.9653,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "GTCS 為全腦同步異常放電，Clonazepam 透過 GABA-A 正向調節提升全腦癲癇閾值，抑制異常放電傳播。有 1978 年直接 RCT 資料（Clonazepam 附加 phenytoin/phenobarbital），且兩篇 Cochrane 系統性綜述支持其作為附加治療（add-on）於藥物難治性癲癇的療效。現代大型 Phase 3 RCT 設計多聚焦 SE，GTCS 次級分析資料仍支持。Guardrails：依賴性評估、與其他 AED 交互作用、長期耐受性監測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01150331",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成（n=203），主要評估 SE，但 convulsive GTCS 為常見表現型，提供 clonazepam 在 GTCS 型 SE 的直接療效資料"
+        },
+        {
+          "nct_id": "NCT07443241",
+          "relevance_grade": "B",
+          "reasoning": "觀察性研究（n=779），真實世界 GTCS 治療模式，含 clonazepam 使用分析"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "32309880", "study_type": "Cochrane Systematic Review (2020)", "tier": "1"},
+        {"pmid": "29717488", "study_type": "Cochrane Systematic Review (2018)", "tier": "1"},
+        {"pmid": "352972", "study_type": "RCT (1978, direct)", "tier": "1"},
+        {"pmid": "35971024", "study_type": "Systematic Review", "tier": "1"},
+        {"pmid": "38358613", "study_type": "Review (Benzodiazepines/Seizure Clusters)", "tier": "1"},
+        {"pmid": "35333156", "study_type": "Evidence-Based Review", "tier": "1"},
+        {"pmid": "99652", "study_type": "Clinical Study (1978)", "tier": "2"},
+        {"pmid": "32893075", "study_type": "Scoping Review (Angelman/GTCS)", "tier": "2"},
+        {"pmid": "2550216", "study_type": "Review (AED Mechanisms)", "tier": "2"},
+        {"pmid": "22386832", "study_type": "Clinical Study (Benign Myoclonic/GTCS)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "restless legs syndrome",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clonazepam 透過 GABA-A 正向調節，抑制週期性肢體運動（PLMD）頻率，降低皮質脊髓興奮性，改善 RLS 相關夜間不適感及睡眠連續性。有安慰劑對照急性睡眠研究支持（2001），Cochrane 綜述確認有限但存在的臨床效益。非一線用藥（一線為 dopamine agonists），適用於 PLMD 共病或其他藥物無效者。Guardrails：長期依賴風險評估、與 dopaminergic 藥物並用評估、不推薦 augmentation 高風險族群。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "39324694", "study_type": "Clinical Practice Guideline (AASM 2025)", "tier": "1"},
+        {"pmid": "28319266", "study_type": "Cochrane Systematic Review", "tier": "1"},
+        {"pmid": "11313161", "study_type": "Placebo-Controlled Acute Sleep Study", "tier": "1"},
+        {"pmid": "38708125", "study_type": "Historical Review", "tier": "2"},
+        {"pmid": "24363103", "study_type": "Treatment Review", "tier": "2"},
+        {"pmid": "35426627", "study_type": "Clinical Review (Sleep Disorders)", "tier": "2"},
+        {"pmid": "17876423", "study_type": "Expert Consensus (Brazilian)", "tier": "2"},
+        {"pmid": "3510520", "study_type": "Historical Review (1986)", "tier": "3"},
+        {"pmid": "24874697", "study_type": "Case Report (Drug-Induced RLS)", "tier": "3"},
+        {"pmid": "40724952", "study_type": "Genetic Association Study", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "insomnia (disease)",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clonazepam 增強 GABA-A 受體活性，延長 Cl⁻ 通道開放時間，產生鎮靜催眠效果；縮短睡眠潛伏期、增加總睡眠時間，但會抑制 REM 睡眠及 N3 深睡期。有直接睡眠實驗室研究（1991）及 Clonazepam vs Zolpidem 頭對頭比較 RCT（2011）。主要關注點：耐受性（2-4 週後療效下降）、依賴性及停藥反彈性失眠。Guardrails：建議短期使用（≤4 週）、與 CBT-I 合併、避免老年族群長期使用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00025740",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 完成（n=78），Clonazepam+SSRI 聯合治療，主要適應症為恐慌症但含睡眠次要終點，間接支持失眠症狀改善"
+        },
+        {
+          "nct_id": "NCT03977441",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 多中心 RCT（n=240），狀態不明，設計可能評估催眠藥療效，待資料公開確認"
+        },
+        {
+          "nct_id": "NCT03255642",
+          "relevance_grade": "B",
+          "reasoning": "Melatonin vs Clonazepam 治療 REM 睡眠行為障礙（n=34，完成），與睡眠障礙直接相關，clonazepam 為對照藥"
+        },
+        {
+          "nct_id": "NCT04109118",
+          "relevance_grade": "C",
+          "reasoning": "苯二氮䓬類停藥研究（n=4），非失眠治療主要研究"
+        },
+        {
+          "nct_id": "NCT01893632",
+          "relevance_grade": "C",
+          "reasoning": "Gabapentin 治療苯二氮䓬依賴（n=2，終止），招募人數極少，無參考價值"
+        },
+        {
+          "nct_id": "NCT04364321",
+          "relevance_grade": "C",
+          "reasoning": "熱性痙攣預防研究，與失眠無直接相關"
+        },
+        {
+          "nct_id": "NCT06258512",
+          "relevance_grade": "C",
+          "reasoning": "敘事介入戒除苯二氮䓬過度使用，非療效主要研究"
+        },
+        {
+          "nct_id": "NCT00812851",
+          "relevance_grade": "C",
+          "reasoning": "THC 治療研究，Clonazepam 為對照組，失眠不是主要終點"
+        },
+        {
+          "nct_id": "NCT00745030",
+          "relevance_grade": "C",
+          "reasoning": "Ramelteon 治療帕金森 RBD，clonazepam 為對照，招募3人即終止"
+        },
+        {
+          "nct_id": "NCT06606418",
+          "relevance_grade": "C",
+          "reasoning": "針灸治療 RBD，clonazepam 為參考藥，非失眠主要研究"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "37940498", "study_type": "RCT (High vs Low Dose + CBT, 2024)", "tier": "1"},
+        {"pmid": "22057073", "study_type": "RCT (Clonazepam vs Zolpidem, hemodialysis)", "tier": "1"},
+        {"pmid": "2066457", "study_type": "Sleep Laboratory Study (Efficacy + Withdrawal, 1991)", "tier": "1"},
+        {"pmid": "32921425", "study_type": "Clinical Guidelines (French Medical Academy)", "tier": "1"},
+        {"pmid": "39297769", "study_type": "Cross-Sectional Study", "tier": "2"},
+        {"pmid": "39535843", "study_type": "Clinical Review (PD Sleep)", "tier": "2"},
+        {"pmid": "28567500", "study_type": "Clinical Review (PD Sleep)", "tier": "2"},
+        {"pmid": "23330992", "study_type": "PK Review (Anxiolytics)", "tier": "2"},
+        {"pmid": "34916075", "study_type": "Review (Neurocognitive Disorders Sleep)", "tier": "2"},
+        {"pmid": "11463132", "study_type": "Review (PD Sleep Epidemiology)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "sleep disorder, initiating and maintaining sleep",
+      "txgnn_score": 0.9875,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "與失眠機轉相同（GABA-A 正向調節），針對入睡困難及睡眠維持困難均有作用。PMID 22057073 直接比較 Clonazepam vs Zolpidem 於慢性腎病/透析患者之 DIMS，顯示相當療效。PMID 2066457 睡眠實驗室研究確認短期療效及停藥反彈現象。此適應症與「insomnia (disease)」高度重疊，證據基礎共用。Guardrails：與失眠相同，老年族群跌倒風險特別注意。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "22057073", "study_type": "RCT (Clonazepam vs Zolpidem, DIMS in hemodialysis)", "tier": "1"},
+        {"pmid": "2066457", "study_type": "Sleep Laboratory Study (Efficacy + Withdrawal)", "tier": "1"},
+        {"pmid": "39374004", "study_type": "RCT (Masked Taper + Behavioral Intervention)", "tier": "1"},
+        {"pmid": "39297769", "study_type": "Cross-Sectional Study (Insomnia Management)", "tier": "2"},
+        {"pmid": "35426627", "study_type": "Clinical Review (Sleep Disorders)", "tier": "2"},
+        {"pmid": "23944726", "study_type": "Clinical Review (Common Sleep Disorders)", "tier": "2"},
+        {"pmid": "34916075", "study_type": "Review (Neurocognitive Disorders Sleep)", "tier": "2"},
+        {"pmid": "28319266", "study_type": "Cochrane Systematic Review (BZD/RLS, partial)", "tier": "1"},
+        {"pmid": "11463132", "study_type": "Review (PD Sleep)", "tier": "2"},
+        {"pmid": "29991425", "study_type": "Case Report (Paradoxical Effect/SRED)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "trigeminal neuralgia",
+      "txgnn_score": 0.9766,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "三叉神經痛涉及三叉神經根異位放電（ectopic discharge），Clonazepam 透過 GABA-A 強化抑制性傳遞及穩定神經元膜電位，可能抑制此異位放電。有 1974-1975 年兩篇直接小型臨床研究，多個治療指引將其列為二線選項。然而，現代缺乏設計嚴謹的 RCT；Carbamazepine/Oxcarbazepine 為公認一線標準治療，Clonazepam 的確切定位需現代對照試驗釐清。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "1104361", "study_type": "Clinical Study with Electrophysiology (1975, direct)", "tier": "2"},
+        {"pmid": "4480638", "study_type": "Clinical Study (1974, direct, Portuguese)", "tier": "2"},
+        {"pmid": "19445753", "study_type": "Review (TN, mentions clonazepam)", "tier": "2"},
+        {"pmid": "20426709", "study_type": "Review (Trigeminal Neuropathic Pain Management)", "tier": "2"},
+        {"pmid": "11803299", "study_type": "Review (TN Pharmacotherapy)", "tier": "2"},
+        {"pmid": "7775611", "study_type": "Review (Medical/Surgical Management)", "tier": "2"},
+        {"pmid": "11096730", "study_type": "Review (TN, 1999)", "tier": "2"},
+        {"pmid": "1408017", "study_type": "Review (TN Drug Management, 1992)", "tier": "2"},
+        {"pmid": "1774173", "study_type": "Review Article (Medical Management, 1991)", "tier": "2"},
+        {"pmid": "27586175", "study_type": "Case Series/Review (VBD-related TN)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "reading seizures",
+      "txgnn_score": 0.9657,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "閱讀性癲癇（reading epilepsy）為反射性癲癇，閱讀觸發下頷肌陣攣繼而泛化。Clonazepam 的廣效抗肌陣攣特性（GABA 強化）理論上可抑制此類反射性閾值。1980 年有一份直接臨床報告（PMID 6768006）支持此用法，但樣本極小。驚嚇性癲癇相關文獻（苯二氮䓬類有效）提供旁證。需現代設計的前瞻性研究確認。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "6768006", "study_type": "Case Series/Clinical Report (1980, direct)", "tier": "3"},
+        {"pmid": "14646614", "study_type": "Case Report (Proprioceptive Reflex Seizures, 2003)", "tier": "3"},
+        {"pmid": "7640741", "study_type": "Review (Hyperexplexia/BZD effective)", "tier": "2"},
+        {"pmid": "6510379", "study_type": "Clinical Study (Startle Seizures, 1984)", "tier": "2"},
+        {"pmid": "8891399", "study_type": "Review (Therapy of Myoclonus)", "tier": "2"},
+        {"pmid": "34198356", "study_type": "Review (Self-Induced Seizures)", "tier": "2"},
+        {"pmid": "22675038", "study_type": "Case Report (Adult Onset Startle Epilepsy)", "tier": "3"},
+        {"pmid": "15036433", "study_type": "Case Report (Startle Epilepsy + AGU)", "tier": "3"},
+        {"pmid": "32283447", "study_type": "Animal/Basic Study (GABA-A Subunit Changes)", "tier": "3"},
+        {"pmid": "6141619", "study_type": "Animal Study (Seizure Pharmacology)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "acute encephalopathy with biphasic seizures and late reduced diffusion",
+      "txgnn_score": 0.9860,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "AESD 為兒科急性腦病特殊表現型，病理機轉涉及細胞毒性水腫（DWI 改變）及雙相痙攣。Clonazepam 作為苯二氮䓬類可控制急性癲癇發作（共病性使用），但對 AESD 特有病理進程無直接治療機轉。唯一文獻（PMID 22982002）為兒科腦病後遲發型癲癇回顧，間接且非針對 AESD 的 Clonazepam 研究。此預測可能源於 TxGNN 在苯二氮䓬→癲癇→腦病路徑上的圖推斷，屬假陽性風險高的預測。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "22982002", "study_type": "Retrospective Clinical Series (Febrile Encephalopathy/Late Epilepsy)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "adolescent/adult onset autosomal dominant epilepsy with auditory features",
+      "txgnn_score": 0.9682,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADPEAF（LGI1 基因突變，KCNQ5/DEPDC5 相關）為局灶性聽覺先兆癲癇，一線治療為 carbamazepine/lacosamide。Clonazepam 作為廣效苯二氮䓬類在理論上可作為附加治療，但無任何針對此特定基因型癲癇症候群的臨床或基礎研究。文獻計數為 0，試驗計數為 0。此評分純屬 TxGNN 圖神經網路的知識圖譜推斷，建議在取得基礎機轉研究前暫不推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "trigeminal nerve neoplasm",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Clonazepam 為 GABA-A 調節劑，無已知抗腫瘤活性，亦無合理的三叉神經腫瘤治療藥理假說。TxGNN 此預測可能源於：三叉神經痛→苯二氮䓬類→三叉神經→腫瘤的間接知識圖譜路徑，屬機轉不合理的假陽性預測。現有兩篇文獻均為個案報告，且均非直接針對三叉神經腫瘤的 Clonazepam 治療研究（PMID 29589986 為灼口症疼痛；PMID 16717232 為腦膜瘤繼發眼肌強直）。TxGNN 評分高（0.993）很可能為圖結構偽影（graph artifact）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "29589986", "study_type": "Case Report (Burning Mouth Pain, indirect)", "tier": "3"},
+        {"pmid": "16717232", "study_type": "Case Report (Cavernous Sinus Meningioma/Ocular Neuromyotonia, indirect)", "tier": "3"}
+      ]
+    }
+  ],
+  "summary_table": {
+    "L1_S3": ["status epilepticus"],
+    "L2_S2": ["epilepsy with generalized tonic-clonic seizures"],
+    "L3_S2": [
+      "restless legs syndrome",
+      "insomnia (disease)",
+      "sleep disorder, initiating and maintaining sleep",
+      "trigeminal neuralgia"
+    ],
+    "L4_S1": ["reading seizures"],
+    "L4_S0": ["acute encephalopathy with biphasic seizures and late reduced diffusion"],
+    "L5_S0": [
+      "adolescent/adult onset autosomal dominant epilepsy with auditory features",
+      "trigeminal nerve neoplasm"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN | 證據等級 | 決策階段 | 建議 | 關鍵證據 |
+|--------|-------|---------|---------|------|---------|
+| **癲癇持續狀態** | 0.9697 | **L1** | **S3** | ✅ Proceed with Guardrails | 3 × Phase 3 RCT 完成（n=434, 203, 310） |
+| **泛化強直陣攣發作癲癇** | 0.9653 | **L2** | **S2** | ✅ Proceed with Guardrails | 2 × Cochrane 綜述 + 1978年RCT |
+| **不寧腿症候群** | 0.9965 | **L3** | **S2** | ✅ Proceed with Guardrails | Cochrane 綜述 + 安慰劑對照睡眠研究 |
+| **失眠症** | 0.9932 | **L3** | **S2** | ✅ Proceed with Guardrails | 直接 RCT（2011, 2024）+ 睡眠實驗室研究 |
+| **睡眠起始/維持障礙** | 0.9875 | **L3** | **S2** | ✅ Proceed with Guardrails | 與失眠共用證據基礎 |
+| **三叉神經痛** | 0.9766 | **L3** | **S2** | 🔬 Research Question | 1974/1975 小型直接研究，缺現代 RCT |
+| **閱讀性癲癇** | 0.9657 | **L4** | **S1** | 🔬 Research Question | 1篇1980年個案系列 |
+| **AESD** | 0.9860 | **L4** | **S0** | ⛔ Hold | 僅1篇間接回顧研究 |
+| **ADPEAF** | 0.9682 | **L5** | **S0** | ⛔ Hold | 零臨床文獻 |
+| **三叉神經腫瘤** | 0.9930 | **L5** | **S0** | ⛔ Hold | 2篇無關個案報告，機轉不合理 ⚠️ |
+
+> ⚠️ **高 TxGNN 評分警示**：「三叉神經腫瘤」TxGNN 評分高達 0.993，但證據等級僅 L5，顯示此為圖神經網路**路徑偽影**（graph artifact）的典型案例——高模型分數不等同於臨床相關性，必須結合機轉合理性評估。

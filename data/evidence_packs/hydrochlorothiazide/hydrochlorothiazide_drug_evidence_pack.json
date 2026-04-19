@@ -1,0 +1,1415 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00999-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydrochlorothiazide",
+    "drugbank_id": "DB00999",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9842352867126464,
+        "rank": 14663
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HCTZ 抑制遠曲小管 Na-Cl 共轉運體，減少鈉水再吸收，降低循環血量與血壓。惡性高血壓腎病變雖屬高血壓序列疾病，但腎功能顯著下降時（eGFR<30）噻嗪類利尿劑療效明顯降低，臨床上多改用袢利尿劑。此適應症為高血壓之間接外推，無直接試驗支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9842352867126464,
+        "rank": 14664
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6292087",
+            "title": "Hypertension and neurofibromatosis. Case report.",
+            "authors": [
+              "Guthrie G P",
+              "Tibbs P A",
+              "McAllister R G",
+              "Stevens R K",
+              "Clark D B"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "1982",
+            "abstract": "A 14-year-old girl with neurofibromatosis presented with severe hypertension. She was subsequently found to have a cerebellar glioblastoma multiforme and vascular lesions producing coarctation of the abdominal aorta and 50% and 95% stenosis of the left and right renal arteries respectively. No evidence of pheochromocytoma was found. After removal of the cerebellar tumor, marked amelioration of the hypertension suggested that the tumor had a major role in the pronounced elevation of her blood pre",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HCTZ 透過利尿降低血容量，理論上可降低全身血壓。然而腎血管性高血壓的核心機轉為 RAAS 過度活化（腎動脈狹窄→腎臟低灌流→腎素↑），噻嗪類利尿劑可能進一步活化 RAAS 並加重腎臟缺血，安全性疑慮高於潛在效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.983491599559784,
+        "rank": 15117
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HCTZ 為全身性利尿/降壓藥物，對肺動脈血管阻力無直接降低作用。容量負荷減少在理論上可改善右心前負荷，但多因子機轉之肺高壓（第5群）治療以處理潛在病因為主，無確立之噻嗪利尿劑地位。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.983491599559784,
+        "rank": 15118
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻搜尋結果（20 篇）全數為低氧生物學基礎研究（HIF-1α 路徑、腦低氧、癌症缺氧等），與 HCTZ 治療此適應症無直接關聯。肺部疾病/低氧引起之肺高壓以處理原發疾病（COPD、ILD）及氧療為主，噻嗪類利尿劑無確立角色。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.979215681552887,
+        "rank": 17388
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock 症候群為罕見體染色體顯性遺傳病，主要特徵為脫髮、指甲萎縮及智能障礙（疑與 KAT6A/KAT6B 基因相關）。噻嗪類利尿劑之藥理機轉（離子通道抑制）與此遺傳症候群之分子病機無已知交集。高 TxGNN 分數可能反映知識圖譜中『高血壓』節點之廣泛連結，而非疾病特異性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9780004620552064,
+        "rank": 17980
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36595088",
+            "title": "Diuretics in pediatrics.",
+            "authors": [
+              "Lava Sebastiano A G",
+              "Zollinger Chiara",
+              "Chehade Hassib",
+              "Schaffner Damien",
+              "Sekarski Nicole"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "2023",
+            "abstract": "Diuretics are frequently prescribed drugs and help managing several pathological conditions, including acute and chronic kidney disease, nephrotic syndrome, congestive heart failure, ascites, systemic and pulmonary hypertension. Diuretic classes include among others osmotic diuretics and carboanhydrase inhibitors, loop diuretics, thiazides, and potassium-sparing diuretics. In this educational article, we aim at reviewing indications, mechanisms of action, and side effects, as well as basic pharm",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28711447",
+            "title": "The Transition From Hypertension to Heart Failure: Contemporary Update.",
+            "authors": [
+              "Messerli Franz H",
+              "Rimoldi Stefano F",
+              "Bangalore Sripal"
+            ],
+            "journal": "JACC. Heart failure",
+            "year": "2017",
+            "abstract": "Longstanding hypertension ultimately leads to heart failure (HF), and, as a consequence most patients with HF have a history of hypertension. Conversely, absence of hypertension in middle age is associated with lower risks for incident HF across the remaining life course. Cardiac remodeling to a predominant pressure overload consists of diastolic dysfunction and concentric left ventricular (LV) hypertrophy. When pressure overload is sustained, diastolic dysfunction progresses, filling of the con",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30426333",
+            "title": "A Critical Review of Nebivolol and its Fixed-Dose Combinations in the Treatment of Hypertension.",
+            "authors": [
+              "Cicero Arrigo F G",
+              "Kuwabara Masanari",
+              "Borghi Claudio"
+            ],
+            "journal": "Drugs",
+            "year": "2018",
+            "abstract": "β-Adrenergic receptor blockers (β-blockers) are well-known useful and cost-effective drugs for managing hypertensive patients with coronary heart disease, stroke, and heart failure. However, it is often difficult to use β-blockers for patients with asthma or chronic obstructive pulmonary disease (COPD). Moreover, most β-blockers negatively influence glucose or lipid metabolism. Nebivolol is a third-generation lipophilic β-1 receptor-selective blocker with nitric oxide-mediated vasodilatory effec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9673832",
+            "title": "Clinical pharmacokinetics of vasodilators. Part II.",
+            "authors": [
+              "Kirsten R",
+              "Nelson K",
+              "Kirsten D",
+              "Heintz B"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "abstract": "Stimulating cardiac beta 1-adrenoceptors with oxyfedrine causes dilatation of coronary vessels and positive inotropic effects on the myocardium. beta 1-adrenergic agonists increase coronary blood flow in nonstenotic and stenotic vessels. The main indication for the use of the phosphodiesterase inhibitors pamrinone, mirinone, enoximone and piroximone is acute treatment of severe congestive heart failure. Theophylline is indicated for the treatment of asthma, chronic obstructive pulmonary disease,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7906158",
+            "title": "Ibopamine. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic use in congestive heart failure.",
+            "authors": [
+              "Spencer C",
+              "Faulds D",
+              "Fitton A"
+            ],
+            "journal": "Drugs & aging",
+            "year": "1993",
+            "abstract": "Ibopamine is an orally administered dopamine agonist which is rapidly converted to its active metabolite epinine by esterase hydrolysis. Ibopamine acts predominantly as a vasodilator and inhibitor of neuroendocrine activation in congestive heart failure, but also has mild positive inotropic effects at higher doses. The beneficial effects on cardiac and systemic haemodynamic parameters seen in short term studies have been maintained in predominantly noncomparative trials for up to 1 year, and imp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11219471",
+            "title": "Comparison of 26-week efficacy and tolerability of telmisartan and atenolol, in combination with hydrochlorothiazide as required, in the treatment of mild to moderate hypertension: a randomized, multicenter study.",
+            "authors": [
+              "Freytag F",
+              "Schelling A",
+              "Meinicke T",
+              "Deichsel G"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2001",
+            "abstract": "This study was undertaken to compare the efficacy and tolerability of telmisartan, a novel antihypertensive agent, and atenolol, a well-established beta-blocker, in the treatment of mild to moderate hypertension.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2924690",
+            "title": "[Basic therapy of chronic heart failure with digitalis or diuretics?].",
+            "authors": [
+              "Sievert H",
+              "Offermann T",
+              "Hopf R",
+              "Kaltenbach M",
+              "Bussmann W D"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1989",
+            "abstract": "Sixteen patients in heart failure and sinus rhythm were, after a four-week treatment-free period, randomly assigned to receive, for four to six weeks, either a diuretic combination (hydrochlorothiazide + triamterene) or a digitalis glycoside. Subsequently the treatment was exchanged between the two groups. Without treatment nine patients were in stage II (New York Heart Association classification), seven in stage III. Pulmonary wedge pressure at rest was 27 +/- 14, on exercise 32 +/- 8 mm Hg, ca",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33224781",
+            "title": "Mineralocorticoid receptor blockade improves pulmonary hypertension and right ventricular function in bronchopulmonary dysplasia: a case report.",
+            "authors": [
+              "Giagnorio Roberto",
+              "Hansmann Georg"
+            ],
+            "journal": "Cardiovascular diagnosis and therapy",
+            "year": "2020",
+            "abstract": "Bronchopulmonary dysplasia (BPD) is a combined pulmonary vascular and parenchymal disease, representing the most common cause of chronic lung disease (CLD) in infancy. Pulmonary hypertension (PH) is frequently associated with BPD and-if persistent-substantially increases mortality. We report on a 4-month-old, former preterm infant with BPD, severe PH and right heart failure who greatly and rapidly improved clinical status and right ventricular (RV) function by means of blood biomarkers [N-termin",
+            "classification": {
+              "study_type": "Experimental/Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19366339",
+            "title": "Chronic cor pulmonale secondary to pulmonary atherosclerosis in an African Grey parrot.",
+            "authors": [
+              "Sedacca Cassidy D",
+              "Campbell Terry W",
+              "Bright Janice M",
+              "Webb Brett T",
+              "Aboellail Tawfik A"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "2009",
+            "abstract": "A 20-year-old sexually intact female African Grey parrot (Psittacus erithacus) was evaluated to determine the cause of lethargy, hyporexia, weight loss, and persistent ascites of 21 days' duration.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38215973",
+            "title": "Sex differences in clinical characteristics and outcomes in the CLOROTIC (combining loop with thiazide diuretics for decompensated heart failure) trial.",
+            "authors": [
+              "Conde-Martel A",
+              "Trullàs J C",
+              "Morales-Rull J L",
+              "Casado J",
+              "Carrera-Izquierdo M"
+            ],
+            "journal": "Revista clinica espanola",
+            "year": "2024",
+            "abstract": "The addition of hydrochlorothiazide (HCTZ) to furosemide improved the diuretic response in patients with acute heart failure (AHF) in the CLOROTIC trial. Our aim was to evaluate if there were differences in clinical characteristics and outcomes according to sex.",
+            "classification": {
+              "study_type": "RCT Secondary Analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21180306",
+            "title": "Chirally pure S-metoprolol--place in therapy.",
+            "authors": [
+              "Dasbiswas Arup",
+              "Dasbiswas Debasri"
+            ],
+            "journal": "Indian heart journal",
+            "year": "2010",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1916562",
+            "title": "[Combination therapy in chronic heart failure. Hemodynamic effects with a calcium antagonist-diuretic combination].",
+            "authors": [
+              "Podszus T h",
+              "Peter J H",
+              "Völger K D",
+              "Zilles P"
+            ],
+            "journal": "Fortschritte der Medizin",
+            "year": "1991",
+            "abstract": "In twelve patients with chronic cardiac insufficiency (NYHA II-III), the effect of a fixed combination of drugs (160 mg verapamil/50 mg triamterene/25 mg hydrochlorothiazide) on cardiac hemodynamics was studied over a period of four weeks. During the course of treatment, the arterial blood pressure decreased from 145 +/- 16/93 +/- 9 mmHg to 133 +/- 18/86 +/- 14 mmHg, and the heart rate from 79 +/- 13 to 75 +/- 12 beats/min. Exercise blood pressure (900 watts) decreased from 180 +/- 22/104 +/- 14",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14018837",
+            "title": "[Action of depletion and bloodletting on respiratory function in chronic cor pulmonale].",
+            "authors": [
+              "CARPENTIERE G",
+              "BARBAGALLO SANGIORGI G",
+              "DURANTE F"
+            ],
+            "journal": "Atti della Societa italiana di cardiologia",
+            "year": "1962",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺心病（肺動脈高壓致右心衰竭）中，容量超載是重要病理生理特徵。HCTZ 作為輔助利尿劑，可協助袢利尿劑（如呋塞米）在利尿劑抵抗時增強療效（噻嗪類序列腎元阻斷策略）。CLOROTIC 試驗（NCT 未直接列出但 PMID 38215973 已發表）提供噻嗪類聯合療法在心衰竭中的直接 RCT 證據，可延伸至慢性肺心病情境。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acute pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9316563606262208,
+        "rank": 30331
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07008365",
+            "title": "The Role of intraABDOminal Pressure and Point Of Care UltraSound to Guide Decongestive Therapy in Heart Failure",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 168,
+            "start_date": "2025-03-10",
+            "completion_date": "2026-12-31",
+            "brief_summary": "Systemic venous congestion is the primary therapeutic target of intravenous loop diuretics in patients admitted for acute heart failure (AHF). Despite their utility, a significant proportion of AHF patients are discharged with persistent clinical symptoms of congestion (residual congestion). Therefore, in recent years, there has been a growing focus on the use of tools (biomarkers, clinical ultrasound) that allow us to optimize diuretic treatment and thereby improve the prognosis of AHF patients",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 招募中試驗，研究超音波引導之去充血治療（含噻嗪類利尿劑）於心衰竭。HCTZ 屬去充血策略之一，為藥物類別間接證據，非 HCTZ 單藥設計。"
+            }
+          },
+          {
+            "nct_id": "NCT06273397",
+            "title": "Acetazolamide or Metolazone in Acute Heart Failure",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 1050,
+            "start_date": "2024-05-01",
+            "completion_date": "2027-05-01",
+            "brief_summary": "Impact of Acute Heart Failure:\n\nAccording to the World Health Organization (WHO), approximately 26 million people suffer from Heart Failure (HF), with a mortality rate of up to 50% within five years of diagnosis. Acute Heart Failure (AHF) exacerbations, leading to hospitalization, are common and represent the primary cause of hospital admissions in those over 65. Effective decongestion during hospitalization is crucial, as failure to achieve it doubles the risk of rehospitalization and mortality",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型試驗（n=1050）比較 Metolazone（噻嗪類似物）與 Acetazolamide 在急性心衰竭之效果，機轉與 HCTZ 高度相似，為最強之藥物類別間接支持，但非 HCTZ 本身。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36595088",
+            "title": "Diuretics in pediatrics.",
+            "authors": [
+              "Lava Sebastiano A G",
+              "Zollinger Chiara",
+              "Chehade Hassib",
+              "Schaffner Damien",
+              "Sekarski Nicole"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "2023",
+            "abstract": "Diuretics are frequently prescribed drugs and help managing several pathological conditions, including acute and chronic kidney disease, nephrotic syndrome, congestive heart failure, ascites, systemic and pulmonary hypertension. Diuretic classes include among others osmotic diuretics and carboanhydrase inhibitors, loop diuretics, thiazides, and potassium-sparing diuretics. In this educational article, we aim at reviewing indications, mechanisms of action, and side effects, as well as basic pharm",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9673832",
+            "title": "Clinical pharmacokinetics of vasodilators. Part II.",
+            "authors": [
+              "Kirsten R",
+              "Nelson K",
+              "Kirsten D",
+              "Heintz B"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "abstract": "Stimulating cardiac beta 1-adrenoceptors with oxyfedrine causes dilatation of coronary vessels and positive inotropic effects on the myocardium. beta 1-adrenergic agonists increase coronary blood flow in nonstenotic and stenotic vessels. The main indication for the use of the phosphodiesterase inhibitors pamrinone, mirinone, enoximone and piroximone is acute treatment of severe congestive heart failure. Theophylline is indicated for the treatment of asthma, chronic obstructive pulmonary disease,",
+            "classification": {
+              "study_type": "PK Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17269602",
+            "title": "Heart and renal failure in renovascular hypertension caused by giant cell arteritis--case report.",
+            "authors": [
+              "Kalimanovska-Ostric D V",
+              "Simic-Ogrizovic S P",
+              "Bonaci-Nikolic B M",
+              "Bozic V D",
+              "Ostric V Z"
+            ],
+            "journal": "Clinical nephrology",
+            "year": "2007",
+            "abstract": "We report a case of a male teenager with severe heart and acute renal failure as the dominant clinical manifestations of renovascular hypertension (RVH) caused by atypical giant cell arteritis (GCA). Unrecognized RVH and treatment of the consequent heart failure by angiotensin-converting enzyme inhibitors (ACEI) probably contributed to progression of renovascular disease to bilateral renal artery occlusion. Recurrent \"flash\" pulmonary edemas could not be prevented until surgical revascularizatio",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38215973",
+            "title": "Sex differences in clinical characteristics and outcomes in the CLOROTIC (combining loop with thiazide diuretics for decompensated heart failure) trial.",
+            "authors": [
+              "Conde-Martel A",
+              "Trullàs J C",
+              "Morales-Rull J L",
+              "Casado J",
+              "Carrera-Izquierdo M"
+            ],
+            "journal": "Revista clinica espanola",
+            "year": "2024",
+            "abstract": "The addition of hydrochlorothiazide (HCTZ) to furosemide improved the diuretic response in patients with acute heart failure (AHF) in the CLOROTIC trial. Our aim was to evaluate if there were differences in clinical characteristics and outcomes according to sex.",
+            "classification": {
+              "study_type": "RCT Secondary Analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性肺心病（急性右心衰竭）之核心治療包含利尿減輕容量超載。HCTZ 可作為袢利尿劑的增效藥物（sequential nephron blockade），尤其在利尿劑阻抗情境下。CLOROTIC 試驗已在急性心衰竭族群中直接驗證 HCTZ + 袢利尿劑聯合策略之有效性與安全性，形成 Phase 3 等級之藥物類別證據。目前 2 項進行中試驗（NCT07008365、NCT06273397）進一步強化此方向。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.9086565971374512,
+        "rank": 33881
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "青光眼治療的利尿劑機轉主要依賴碳酸酐酶抑制（CAI，如 Acetazolamide、Dorzolamide）減少房水生成以降低眼壓（IOP）。HCTZ 為噻嗪類利尿劑，對碳酸酐酶的抑制作用極弱（與 Acetazolamide 相比幾乎可忽略），缺乏降低眼壓的生物學依據。高 TxGNN 分數可能源於青光眼與高血壓在知識圖譜中的共病連結（而非藥物特異性）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.861608624458313,
+        "rank": 38315
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "開角型青光眼與原發遺傳性青光眼同樣以 IOP 管理為核心（前列腺素類似物、β-阻斷劑、CAI、α-促效劑）。HCTZ 在此機轉路徑中無確立角色。值得注意的是，有回溯性研究報告噻嗪類利尿劑長期使用可能與黑色素瘤風險相關（光敏感性），若延伸至眼部腫瘤考量則為負面訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.7453884482383728,
+        "rank": 43923
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭皮單純性少毛症（HSS）為遺傳性毛囊發育障礙（CDSN、LPAR6 等基因突變），屬於毛囊結構問題，非血流動力學或離子轉運異常。HCTZ 之利尿/降壓機轉與 HSS 之分子病機無已知交集。TxGNN 0.74 為本藥最低分，且無任何支持性資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrochlorothiazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1228 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00766-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clavulanic acid",
+    "drugbank_id": "DB00766",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Ureaplasma urethritis",
+      "txgnn": {
+        "score": 0.999303936958313,
+        "rank": 1498
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34366085",
+            "title": "Emerging presence of urethritis and balanitis by Pasteurella bettyae.",
+            "authors": [
+              "Rosales-Castillo Antonio",
+              "Hidalgo-Tenorio Carmen",
+              "Navarro-Marí José María",
+              "Gutiérrez-Fernández José"
+            ],
+            "journal": "Infectious diseases now",
+            "year": "2021",
+            "abstract": "Humans can also be infrequent infected by Pasteurella bettyae. We report the first association of P. bettyae with urethritis and balanitis in men who have sex with men practicing unprotected intercourse.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9669200",
+            "title": "The possible role of anaerobic bacteria in chronic prostatitis.",
+            "authors": [
+              "Szöke I",
+              "Török L",
+              "Dósa E",
+              "Nagy E",
+              "Scultéty S"
+            ],
+            "journal": "International journal of andrology",
+            "year": "1998",
+            "abstract": "Prostatis, the most common urological disease in men, afflicts between 25 and 50% of all adult men. Four clinical categories are recognized: acute and chronic bacterial prostatitis, non-bacterial prostatitis and prostatodynia. The role of Gram-positive aerobic bacteria and the different anaerobes in chronic bacterial prostatitis is still a matter of debate. During this study, the urethral discharge and the prostatic fluid obtained after prostatic massage of 50 patients with chronic prostatitis, ",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19544099",
+            "title": "[Diagnosis of urethritis in men. A 3-year review].",
+            "authors": [
+              "Orellana M A",
+              "Gómez M l",
+              "Sánchez M T",
+              "Fernández-Chacón T"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2009",
+            "abstract": "The aim of this study is to know the prevalence and tendency of microorganisms producing urethritis, in men, in the City Centre of Madrid.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21947096",
+            "title": "[Which is the best empirical treatment in patients with urethritis?].",
+            "authors": [
+              "Orellana M A",
+              "Gómez-Lus M L"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2011",
+            "abstract": "To know the best empirical treatment of urethritis in patients at the City Center of Madrid.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ureaplasma urealyticum 缺乏細胞壁，對所有 β-lactam 類抗生素具有固有抵抗性（intrinsic resistance）。Clavulanic acid 作為 β-lactamase 抑制劑，其作用機轉無法針對無細胞壁病原體發揮效用。機轉相容性根本上不成立，建議終止此適應症評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "gonococcal urethritis",
+      "txgnn": {
+        "score": 0.999303936958313,
+        "rank": 1499
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6757686",
+            "title": "Single dose oral amoxycillin and clavulanic acid in the treatment of gonococcal urethritis in males.",
+            "authors": [
+              "Lim V K",
+              "Bakar R",
+              "Hussin Z"
+            ],
+            "journal": "The Medical journal of Malaysia",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Small Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3533755",
+            "title": "Comparison of oral treatment of uncomplicated urogenital and rectal gonorrhoea with cefuroxime axetil ester or clavulanic acid potentiated amoxycillin (Augmentin).",
+            "authors": [
+              "Schift R",
+              "van Ulsen J",
+              "Ansink-Schipper M C",
+              "van Joost T",
+              "Michel M F"
+            ],
+            "journal": "Genitourinary medicine",
+            "year": "1986",
+            "abstract": "In a randomised study of two drugs for the oral treatment of uncomplicated urogenital and rectal gonorrhoea the therapeutic effect of cefuroxime axetil ester (CAE) and amoxycillin plus clavulanic acid (A + C) was compared. Cefuroxime axetil ester 1.5 g was given to 129 men and 118 women. Amoxycillin 3.0 g and clavulanic acid 0.25 g was given to 131 men and 122 women. Both treatments were combined with probenecid 1.0 g and administered in a single oral dose. Of the 500 patients thus treated, 376 ",
+            "classification": {
+              "study_type": "Comparative Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3147528",
+            "title": "Therapy of uncomplicated gonorrhea due to antibiotic-resistant Neisseria gonorrhoeae.",
+            "authors": [
+              "Kraus S J",
+              "Reynolds G H",
+              "Rolfs R T"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1988",
+            "abstract": "Antibiotics available to treat uncomplicated anogenital infections due to beta-lactamase-producing Neisseria gonorrhoeae include spectinomycin, ceftriaxone, and clavulanic acid added to aqueous procaine penicillin G or amoxicillin. Important variables in deciding which antibiotic regimen to use include effectiveness against urethral, cervical, pharyngeal, and rectal infections; cost; eradication of coexisting incubating syphilis; adverse effects; efficacy against strains of N. gonorrhoeae with c",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3004176",
+            "title": "Single dose treatment of gonococcal urethritis with augmentin in Ibadan.",
+            "authors": [
+              "Osoba A O",
+              "Oyelese A O",
+              "Ashiru J O",
+              "Ekweozor C C",
+              "Ochei J"
+            ],
+            "journal": "African journal of medicine and medical sciences",
+            "year": "1985",
+            "abstract": "Augmentin, a new orally absorbed broadspectrum antibacterial agent comprising of amoxycillin trihydrate and potassium clavulanate, was investigated in the treatment of gonococcal urethritis in Ibadan, Nigeria, where penicillinase producing Neisseria gonorrhoeae (PPNG) constitute about 80% of the circulating strains of gonococci. Two different formulations of the agent were employed in the study. The first formulation consisting of 3.0 g amoxycillin and 125 mg clavulanic acid, achieved a cure rat",
+            "classification": {
+              "study_type": "Small Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4007860",
+            "title": "Single dose oral amoxycillin 3 g with either 125 mg or 250 mg clavulanic acid to treat uncomplicated anogenital gonorrhoea.",
+            "authors": [
+              "Lawrence A G",
+              "Shanson D C"
+            ],
+            "journal": "Genitourinary medicine",
+            "year": "1985",
+            "abstract": "A single supervised oral dose of amoxycillin 3 g combined with clavulanic acid 125 mg as a suspension (Augmentin 3.125G) plus probenecid 1 g, cured 97 of 100 assessable patients who had uncomplicated anogenital gonorrhoea. Thirteen of the 100 patients were infected with penicillinase producing strains of Neisseria gonorrhoeae (PPNG) and 11 (85%) of these patients were cured, including one infected with a PPNG strain that was also resistant to spectinomycin. Another group of 93 assessable patient",
+            "classification": {
+              "study_type": "Dose-comparison Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19544099",
+            "title": "[Diagnosis of urethritis in men. A 3-year review].",
+            "authors": [
+              "Orellana M A",
+              "Gómez M l",
+              "Sánchez M T",
+              "Fernández-Chacón T"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2009",
+            "abstract": "The aim of this study is to know the prevalence and tendency of microorganisms producing urethritis, in men, in the City Centre of Madrid.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6365235",
+            "title": "Treating gonococcal urethritis in men: oral amoxycillin potentiated by clavulanate compared with intramuscular procaine penicillin.",
+            "authors": [
+              "Latif A S",
+              "Sithole J",
+              "Bvumbe S",
+              "Gumbo B",
+              "Kawemba M"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1984",
+            "abstract": "In a study of 121 men with uncomplicated gonococcal urethritis, 64 were treated orally with a single dose of 3 g amoxycillin and 250 mg of the specific beta-lactamase inhibitor, clavulanic acid, and 57 with a single intramuscular injection of 2.4 MU procaine penicillin. After seven days, six (9.4%) patients treated with amoxycillin and clavulanic acid were still culture positive for Neisseria gonorrhoeae, compared with 26.3% of those treated with procaine penicillin.",
+            "classification": {
+              "study_type": "Comparative Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21947096",
+            "title": "[Which is the best empirical treatment in patients with urethritis?].",
+            "authors": [
+              "Orellana M A",
+              "Gómez-Lus M L"
+            ],
+            "journal": "Revista espanola de quimioterapia : publicacion oficial de la Sociedad Espanola de Quimioterapia",
+            "year": "2011",
+            "abstract": "To know the best empirical treatment of urethritis in patients at the City Center of Madrid.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6240784",
+            "title": "Introductory address: gonorrhea today.",
+            "authors": [
+              "Stolz E"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1984",
+            "abstract": "The counterattack to the resurgence of one of the commonest infectious diseases, gonorrhea, still consists of epidemiologic measures, correct clinical and microbiological diagnosis, and effective treatment. Few antibiotics effective against Neisseria gonorrhoeae fulfill the criteria of the World Health Organization (i.e., the antibiotic should be effective, safe, free from side effects, capable of aborting simultaneously acquired or coexisting infection with Treponema pallidum or Chlamydia trach",
+            "classification": {
+              "study_type": "Review/Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3721514",
+            "title": "Three regimens of procaine penicillin G, Augmentin, and probenecid compared for treating acute gonorrhoea in men.",
+            "authors": [
+              "Lim K B",
+              "Thirumoorthy T",
+              "Lee C T",
+              "Sng E H",
+              "Tan T"
+            ],
+            "journal": "Genitourinary medicine",
+            "year": "1986",
+            "abstract": "The efficacy of three penicillin regimens in treating uncomplicated gonorrhoea in men was evaluated. The regimens consisted of: Augmentin 3.25 g plus probenecid 1 g orally: aqueous procaine penicillin G 4.5 MIU intramuscularly and probenecid 1 g plus one tablet of Augmentin 375 mg orally; or aqueous procaine penicillin G 4.5 MIU intramuscularly and probenecid 1 g plus two tablets of Augmentin 375 mg orally. Cure rates for infections caused by penicillinase (beta lactamase) producing Neisseria go",
+            "classification": {
+              "study_type": "Comparative Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6428699",
+            "title": "Two dose Augmentin treatment of acute gonorrhoea in men.",
+            "authors": [
+              "Lim K B",
+              "Rajan V S",
+              "Giam Y C",
+              "Lui E O",
+              "Sng E H"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1984",
+            "abstract": "We studied 192 men with acute gonococcal urethritis, 97 of whom received two oral doses of Augmentin (amoxycillin 3 g and clavulanic acid 250 mg) separated by a four hour interval; the remaining 95 received 2 g kanamycin in a single intramuscular injection. Of the patients treated with Augmentin, 93 (95.9%) were cured, which was significantly more than the 83 (87.4%) patients treated with kanamycin. Augmentin was equally effective in the treatment of penicillinase producing Neisseria gonorrhoeae",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7958383",
+            "title": "An open study of procaine penicillin G, clavulanate-potentiated amoxycillin and probenecid in the treatment of acute gonorrhoea.",
+            "authors": [
+              "Ekwere P D"
+            ],
+            "journal": "The Journal of international medical research",
+            "year": "1994",
+            "abstract": "In an open study 55 patients presenting with acute gonorrhoea were given 4.8 mega units procaine penicillin G, intramuscularly, and oral probenecid (1 g) plus one 375-mg tablet clavulanate-potentiated amoxycillin orally. Before this treatment, 53 patients (96.4%) had presented with a purulent discharge, and dysuria was present in 47 patients (85.5%). The presence of Neisseria gonorrhoeae was confirmed by bacterial culture in 54 patients (98.2%). The majority of pathogens (92.5%) were penicillin ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3132029",
+            "title": "[Detection of penicillinase-producing Neisseria gonorrhoeae from male patients with urethritis].",
+            "authors": [
+              "Ohkawa M",
+              "Nakajima T",
+              "Tokunaga S",
+              "Kawaguchi S",
+              "Sugata T"
+            ],
+            "journal": "Hinyokika kiyo. Acta urologica Japonica",
+            "year": "1988",
+            "abstract": "Eighty-nine isolates of Neisseria gonorrhoeae from 89 male urethritis patients were studied for beta-lactamases (penicillinase) production, and their susceptibilities to benzylpenicillin, amoxicillin, piperacillin, clavulanic acid/amoxicillin (Augmentin), cephalexin, cefotaxime, spectinomycin and minocycline were determined by an agar plate-dilution method. Penicillinase activity was tested by a chromogenic cephalosporin method with nitrocefin as substrate (CefinaseTM discs, BBL, USA) and by a p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3898395",
+            "title": "Treatment of uncomplicated gonococcal urethritis in males with two doses of Augmentin, six hours apart.",
+            "authors": [
+              "Bee L H",
+              "Phang T"
+            ],
+            "journal": "Singapore medical journal",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Neisseria gonorrhoeae 可產生 penicillinase（PPNG 株），導致 amoxicillin 失效。Clavulanic acid 不可逆抑制 β-lactamase，與 amoxicillin 合用（Augmentin）可恢復對 PPNG 的殺菌活性，機轉邏輯明確。然而 1980 年代後淋病治療指引已轉向 ceftriaxone（因更廣泛耐藥性），歷史證據的現代臨床適用性需重新評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "uterine inflammatory disease",
+      "txgnn": {
+        "score": 0.9991819262504578,
+        "rank": 1669
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36268928",
+            "title": "Antibiotic use in endodontic treatment during pregnancy: A narrative review.",
+            "authors": [
+              "Aliabadi Tahere",
+              "Saberi Eshagh Ali",
+              "Motameni Tabatabaei Amin",
+              "Tahmasebi Ebadolah"
+            ],
+            "journal": "European journal of translational myology",
+            "year": "2022",
+            "abstract": "More than half of pregnant women are usually affected by odontogenic pain affects. Pain often accompanies periapical or pulp infections and increases the risks to pregnant patients and their fetuses. The American Dental Association, in partnership with the American College of Obstetricians and Gynecologists, has offered a strong declaration reaffirming the significance of suitable and timely oral health care as an indispensable constituent of a healthy pregnancy. However, there is lack of knowle",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30890463",
+            "title": "[Postpartum endometritis: CNGOF and SPILF Pelvic Inflammatory Diseases Guidelines].",
+            "authors": [
+              "Faure K",
+              "Dessein R",
+              "Vanderstichele S",
+              "Subtil D"
+            ],
+            "journal": "Gynecologie, obstetrique, fertilite & senologie",
+            "year": "2019",
+            "abstract": "Postpartum endometritis accounts for 2% of postpartum infections in developed countries. In France, 2.3% of deaths are attributed to puerperal infections. The most important risk factor is cesarean delivery, especially if it is done after the start of labor. Bacteria of the vaginal microbiota are associated with postpartum endometritis. Symptoms are abdomino-pelvic pain, hyperthermia and abnormal lochia. The diagnosis is confirmed by uterine mobilization pain. The first-line antibiotic therapy i",
+            "classification": {
+              "study_type": "Clinical Guideline (CNGOF/SPILF)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7811001",
+            "title": "Characteristics of murine model of genital infection with Chlamydia trachomatis and effects of therapy with tetracyclines, amoxicillin-clavulanic acid, or azithromycin.",
+            "authors": [
+              "Beale A S",
+              "Upshon P A"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1994",
+            "abstract": "Following intravaginal inoculation of progesterone-treated outbred mice with Chlamydia trachomatis MoPn, 4 to 6 log10 inclusion-forming units were recovered in vaginal swabs for 21 days but all animals were culture negative after 28 days. Serum antibody titers were elevated and remained high for at least 70 days. Between 28 and 70 days, upper tract infection (inflammation and distension of the uterine horns, occlusion of oviducts with inflammatory exudate, pyosalpinx, and hydrosalpinx) was seen ",
+            "classification": {
+              "study_type": "Animal Study (Murine)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23517211",
+            "title": "Uterine bacterial isolates from mares and their resistance to antimicrobials: 8,296 cases (2003-2008).",
+            "authors": [
+              "Davis Heather A",
+              "Stanton Mary Beth",
+              "Thungrat Kamoltip",
+              "Boothe Dawn M"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "2013",
+            "abstract": "To describe bacteria isolated from reproductive tracts of mares and to examine the extent and patterns of resistance to antimicrobials commonly used for treatment of endometritis.",
+            "classification": {
+              "study_type": "Retrospective Study (Veterinary)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25638979",
+            "title": "Trueperella pyogenes and Escherichia coli as an etiological factor of endometritis in cows and the susceptibility of these bacteria to selected antibiotics.",
+            "authors": [
+              "Brodzki P",
+              "Bochniarz M",
+              "Brodzki A",
+              "Wrona Z",
+              "Wawron W"
+            ],
+            "journal": "Polish journal of veterinary sciences",
+            "year": "2014",
+            "abstract": "The aim of this study was to determine the percentage of participation of particular species of microorganisms, isolated from the uterus of cows with endometritis and from cows without inflammatory lesions of the uterus, in the same postpartum period. The aim of the study was also to examine how long after parturition non-treated endometritis persists. Moreover, antibiotic susceptibility tests were carried out of the bacterial isolates dominating in the uterus. Forty cows were included in the st",
+            "classification": {
+              "study_type": "Veterinary Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30381253",
+            "title": "Pathogenicity, genotyping and antibacterial susceptibility of the Listeria spp. recovered from stray dogs.",
+            "authors": [
+              "Abay Seçil",
+              "Çakır Bayram Latife",
+              "Aydin Fuat",
+              "Müştak Hamit Kaan",
+              "Diker Kadir Serdar"
+            ],
+            "journal": "Microbial pathogenesis",
+            "year": "2019",
+            "abstract": "The present study aimed to determine the prevalence of Listeria spp. in stray dogs in the Kayseri province of Turkey. In addition, serotyping, genotyping and virulence gene analysis of the isolated Listeria spp. were performed and their pathogenicity and antibacterial susceptibility were investigated. The study included 80 rectal swaps taken from 80 stray dogs of different ages and gender that were sheltered in the Kayseri Municipal Dog Shelter. Listeria selective broth and Listeria selective ag",
+            "classification": {
+              "study_type": "Microbiological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7857230",
+            "title": "Chest wall actinomycosis in association with the use of an intra-uterine device.",
+            "authors": [
+              "McBride W J",
+              "Hill D R",
+              "Gordon D L"
+            ],
+            "journal": "The Australian and New Zealand journal of surgery",
+            "year": "1995",
+            "abstract": "A 31 year old woman presented with a chest wall abscess due to Actinomyces israellii and Porphyromonas asaccharolytica (previously Bacteroides asaccharolyticus). She was a long-term user of an intra-uterine device (IUD) and, although asymptomatic, had radiological evidence of pelvic infection. Actinomyces-like organisms were seen on cervico-vaginal smears. The abscess was surgically drained, the IUD removed, and a prolonged course of amoxycillin/clavulanic acid given.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮炎性疾病（子宮內膜炎、骨盆腔炎）常為多菌感染，包含可產生 β-lactamase 的細菌（MRSA 除外之金黃色葡萄球菌、部分腸桿菌科）。Amoxicillin-clavulanate 在 CNGOF 產後子宮內膜炎指引（PMID 30890463）中被列為治療選項，具備指引層級支持。然而大多數文獻為動物研究或間接人類資料，人類 RCT 證據不足，需要現代臨床試驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "xanthogranulomatous pyelonephritis",
+      "txgnn": {
+        "score": 0.9990478157997132,
+        "rank": 1903
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17424672",
+            "title": "[CME-ultrasonography 15/ Resolve].",
+            "authors": [],
+            "journal": "Praxis",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "CME Case Discussion",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9922842",
+            "title": "[Pseudotumorous focal xanthogranulomatous pyelonephritis in children. Apropos of a case].",
+            "authors": [
+              "Benouachane T",
+              "Khattab M",
+              "Outarahout O",
+              "Msefer-Alaoui F"
+            ],
+            "journal": "Annales d'urologie",
+            "year": "1998",
+            "abstract": "Xanthogranulomatous pyelonephritis is a particular form of chronic pyelonephritis. It is observed less frequently in children and can sometimes present with a focal pseudoneoplastic appearance. An 11-year-old child was admitted with abdominal pain, alteration of the general state and weight loss without fever or palpable mass. Medical imaging was unable to distinguish between malignant renal tumour or tuberculosis. The diagnosis was confirmed by the inflammatory and purulent appearance of the ma",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "黃色肉芽腫性腎盂腎炎（XGP）主要由 Proteus mirabilis 或 E. coli 引起（部分可產生 β-lactamase），理論上存在一定機轉相關性。然而 XGP 治療核心為手術切除（腎切除術），抗生素僅為輔助且通常需廣效覆蓋。現有文獻僅為影像診斷病例報告，無 clavulanic acid 的直接治療證據，暫不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "urogenital tuberculosis",
+      "txgnn": {
+        "score": 0.9988722205162048,
+        "rank": 2225
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26847806",
+            "title": "Tuberculous epididymo-orchitis masquerading as acute scrotum.",
+            "authors": [
+              "Kinnear Ned",
+              "Hoh Ivan",
+              "Campillo Pedro",
+              "Bolt John"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2016",
+            "abstract": "An 18-year-old boy, a refugee from Afghanistan, with no significant medical history, presented after 1 day of severe left testicular pain. History, clinical examination and scrotal ultrasound suggested the diagnosis of epididymo-orchitis. He was discharged on a 2-week course of amoxicillin/clavulanic acid. Six weeks later, he re-presented with a testicular abscess, continuous with the epididymal head. Incision and drainage led to laboratory confirmation of tuberculous infection. He was treated w",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "結核分枝桿菌（M. tuberculosis）雖具有 β-lactamase（BlaC），且體外研究顯示 amoxicillin-clavulanate 可部分抑制 BlaC，有輔助治療耐藥性肺結核的探索性證據。然而：(1) 針對泌尿生殖系統結核無直接臨床數據；(2) 標準抗結核化療（HRZE）仍為不可替代的一線治療；(3) 唯一文獻（PMID 26847806）僅為診斷性個案報告，未涉及 clavulanic acid 治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "abdominal ectopic pregnancy",
+      "txgnn": {
+        "score": 0.9979639053344728,
+        "rank": 3455
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04751500",
+            "title": "The HYsteroscopic Miscarriage MaNagement (HYMMN) Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 149,
+            "start_date": "2021-01-31",
+            "completion_date": "2022-11-02",
+            "brief_summary": "Pregnancy tissue can be found remaining in the womb in up to 20% of women following a miscarriage. These \"retained products of conception\" (RPOC), which are diagnosed by transvaginal ultrasound, can cause prolonged bleeding, pain, infection, impaired fertility and therefore further psychological distress. Ineffective medical and surgical interventions place considerable burden on affected women and utilise scarce health care resources. Additionally, surgery is performed 'blindly' using a suction",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HYMMN 試驗（HYsteroscopic Miscarriage MaNagement）研究子宮鏡處理流產，非腹部異位妊娠，且未以 clavulanic acid 作為研究藥物。Phase NA、已完成、n=149，與本適應症無直接關聯，評為 C 級（極低相關性）"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹部異位妊娠為外科急症，標準治療為手術切除或 methotrexate（葉酸拮抗劑）。Clavulanic acid 為 β-lactamase 抑制劑，對滋養層細胞增殖無任何已知作用機轉，機轉邏輯根本上不成立。TxGNN 高分（0.9980）可能源於知識圖譜中「婦科疾病–感染–抗生素」節點的非特異性路徑連結，屬典型假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "celiac trunk compression syndrome",
+      "txgnn": {
+        "score": 0.9979639053344728,
+        "rank": 3456
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹腔幹壓迫症候群（Dunbar syndrome / Median arcuate ligament syndrome）為解剖結構性血管壓迫，主要治療為手術解壓。Clavulanic acid 對血管壓迫無任何已知作用機轉，零臨床或文獻支持。TxGNN 評分屬圖譜非特異性預測，不具備生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "abdominal cystic lymphangioma",
+      "txgnn": {
+        "score": 0.9979639053344728,
+        "rank": 3457
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹部囊性淋巴管瘤為先天性淋巴管畸形，主要治療為手術切除或硬化療法。Clavulanic acid 對淋巴管瘤的增殖或退縮無已知作用機轉，零臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "lymph node palisaded myofibroblastoma",
+      "txgnn": {
+        "score": 0.9979574680328368,
+        "rank": 3470
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "淋巴結柵欄狀肌纖維母細胞瘤（palisaded myofibroblastoma）為罕見良性腫瘤，主要治療為手術切除。Clavulanic acid 對間葉性腫瘤無已知作用機轉，無任何臨床或文獻支持，評估應終止。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "disease of uterine broad ligament",
+      "txgnn": {
+        "score": 0.9979302883148192,
+        "rank": 3508
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮闊韌帶疾病涵蓋多種異質性病理（囊腫、肌瘤、感染性等）。若為感染性病因（如闊韌帶膿瘍），amoxicillin-clavulanate 有理論上的機轉邏輯，但現有輸入資料中無任何臨床試驗或文獻支持，且病因異質性高，評估暫不推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "uterine inflammatory disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "uterine inflammatory disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "uterine inflammatory disease"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "urogenital tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "urogenital tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "urogenital tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "abdominal ectopic pregnancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "celiac trunk compression syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "abdominal cystic lymphangioma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "lymph node palisaded myofibroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "disease of uterine broad ligament"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "disease of uterine broad ligament"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clavulanic acid",
+        "disease": "disease of uterine broad ligament"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

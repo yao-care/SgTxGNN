@@ -1,0 +1,225 @@
+## Glipizide (DB01067) 藥物再利用證據分析
+
+> ⚠️ **資料缺口警示**：原始 MoA 標記為 `[Data Gap]`，市場狀態為「未上市」。Glipizide 實為已知第二型糖尿病磺醯脲類口服降糖藥（KATP 通道阻斷劑），資料缺口可能為當地市場登錄問題。
+
+---
+
+```json
+{
+  "drug": "Glipizide",
+  "drugbank_id": "DB01067",
+  "known_moa": "ATP-sensitive potassium channel (KATP) blocker → 刺激胰島 β-cell 釋放胰島素",
+  "analysis_date": "2026-04-04",
+  "data_quality_warnings": [
+    "original_moa 標記為 [Data Gap]，已由 DrugBank 公開資料補充",
+    "市場狀態「未上市」可能為新加坡本地登錄缺失，非全球狀態",
+    "所有適應症 clinical_trials_count = 0",
+    "僅 pancreatic_agenesis 有文獻，但相關性低"
+  ],
+  "indications": [
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9877,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 為 INPPL1 基因突變導致的罕見骨骼發育不良。KATP 通道阻斷與骨骼發育無已知直接機轉。TxGNN 預測可能源自知識圖譜中磷酸化訊號路徑的遠端關聯，缺乏生物合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見疾病（< 50 case reports 全球）", "無任何臨床前模型數據", "高 TxGNN 分數可能為假陽性"]
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold — 可作為研究假說登記",
+      "mechanistic_link": "SPS 由抗 GAD65 自體抗體介導，導致脊髓及腦幹 GABAergic 抑制性神經元功能異常。潛在機轉假說：(1) GAD65 同時存在於胰島 β-cell，磺醯脲類藥物可能透過 KATP 通道影響中樞神經興奮性；(2) SPS 患者中 30-40% 合併 T1DM，存在共病代謝背景。但無任何臨床試驗或直接文獻支持 Glipizide 用於 SPS。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "SPS 與 T1DM 共病機轉複雜，磺醯脲類對 T1DM 無效",
+        "低血糖風險在神經肌肉疾病患者可能放大"
+      ]
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Focal Stiff Limb Syndrome 為 SPS 的局部型變體，機轉假說與 classic SPS 相同但局限於單肢。TxGNN 評分與 classic SPS 完全相同（0.9867），提示模型將兩者視為同一疾病節點，可能為知識圖譜中疾病本體論合併的結果，獨立證據價值有限。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["與 classic SPS 評分完全相同，疑為 KG 本體論重複節點"]
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Thiamine-responsive dysfunction syndrome（TRMA/Rogers syndrome）為 SLC19A2 基因突變導致的硫胺素轉運缺陷，表現三聯症：糖尿病 + 巨球性貧血 + 感音神經性耳聾。潛在關聯：TRMA 相關糖尿病為胰島 β-cell 功能障礙，磺醯脲類理論上可短期促進殘餘 β-cell 分泌，但硫胺素補充為首選根本治療，Glipizide 僅為症狀性輔助。無臨床證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "TRMA 糖尿病隨硫胺素補充通常緩解，無需磺醯脲類",
+        "兒童患者為主，Glipizide 在兒童低血糖風險高"
+      ]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9800,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物誘發性局部脂肪萎縮通常由胰島素注射部位創傷或局部免疫反應所致。Glipizide 為口服藥物，不涉及注射部位。間接假說：改善胰島素敏感性可能減少胰島素用量，進而降低注射相關脂肪萎縮風險，但此為替代效果，非直接治療。無文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["疾病機轉（注射部位損傷）與口服藥物作用位置不符"]
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9788,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Centrifugal lipodystrophy（Lipodystrophia centrifugalis abdominalis infantilis）為罕見兒童脂肪萎縮症，病因不明，可能與自體免疫或發炎有關。與胰島素分泌路徑無已知直接機轉連結。TxGNN 預測可能源自脂肪代謝網絡中的遠端節點關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["主要影響兒童", "磺醯脲類在兒童安全性數據不足"]
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9783,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘發性局部脂肪萎縮為機械性損傷導致，與代謝途徑無直接關聯。Glipizide 對機械性脂肪損傷無合理機轉。預測可能為脂肪萎縮類別的群體效應（cluster effect）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["純物理性損傷機轉，藥物干預合理性極低"]
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9769,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪萎縮病因未明。理論假說：Glipizide 促進胰島素分泌可能影響局部脂肪細胞分化（脂肪生成促進效應），但此為生理副作用方向（促脂肪堆積），與治療脂肪萎縮方向相悖。無文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "磺醯脲類已知副作用包含體重增加，對脂肪萎縮治療方向不一致",
+        "四種脂肪萎縮適應症（L5-L8）呈梯度下降分數，疑為 KG 疾病本體論同類群組"
+      ]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9748,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold — 強烈不建議",
+      "mechanistic_link": "胰臟缺如（PTF1A/PDX1/GATA6等基因突變）導致胰臟完全或部分缺失，無功能性 β-cell。Glipizide 作用機轉為刺激 β-cell 釋放胰島素，在胰臟缺如患者中 β-cell 不存在，藥物完全無法發揮作用。此預測存在根本性機轉矛盾（fundamental mechanistic contradiction）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38686885",
+          "title": "Avian Diabetes Mellitus: A Review",
+          "year": "2024",
+          "study_type": "Animal Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "禽類糖尿病動物綜述，與人類胰臟缺如及 Glipizide 均無直接關聯。文獻匹配可能源自 PubMed 搜尋詞廣義命中"
+        },
+        {
+          "pmid": "10052060",
+          "title": "Transient clinical diabetes mellitus in cats: 10 cases (1989-1991)",
+          "year": "1999",
+          "study_type": "Veterinary Case Series",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "貓暫時性糖尿病獸醫病例報告，物種與疾病均不相關。可能因 'diabetes mellitus' 關鍵字命中"
+        },
+        {
+          "pmid": "18691993",
+          "title": "Rhabdomyolysis and pancreatitis associated with coadministration of danazol and lovastatin",
+          "year": "2008",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "Danazol + lovastatin 引起橫紋肌溶解和胰臟炎的藥物不良反應報告，與 Glipizide 或胰臟缺如無關。'pancreat-' 詞根命中"
+        },
+        {
+          "pmid": "28323942",
+          "title": "Incretin Therapies Do Not Expand β-Cell Mass or Alter Pancreatic Histology in Young Male Mice",
+          "year": "2017",
+          "study_type": "Animal Experiment",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "Incretin 療法（GLP-1/DPP-4）在小鼠胰臟組織學研究。與磺醯脲類 Glipizide 不同藥物類別，且為動物實驗。間接相關性：提示 β-cell 質量在胰臟疾病研究中的重要性，但對胰臟缺如患者無適用性"
+        },
+        {
+          "pmid": "32814671",
+          "title": "Protective role of Convolvulus pluricaulis on lipid abnormalities in high-fat diet with low dose streptozotocin",
+          "year": "2020",
+          "study_type": "Animal Experiment",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "植物提取物在高脂飲食 + STZ 糖尿病大鼠模型中的研究，與 Glipizide 或胰臟缺如無直接關聯"
+        }
+      ],
+      "critical_note": "5 篇文獻均為 C 級相關性，無一直接研究 Glipizide 在胰臟缺如中的應用。此外，機轉上 Glipizide 對胰臟缺如患者無效（無 β-cell 可刺激），高 TxGNN 評分可能反映知識圖譜中「胰臟相關疾病」節點群組效應，而非真實再利用潛力。"
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.9030,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性卵巢炎通常與多腺體自體免疫症候群（APS type I/II）相關。潛在間接連結：(1) APS-II 常合併 T1DM，患者可能同時服用抗糖尿病藥；(2) KATP 通道在卵巢顆粒細胞中有表現，但功能意義未明。此評分為本列表中最低（0.9030），可能反映模型對自體免疫疾病群組的系統性預測傾向。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["KATP 通道在生殖系統的作用未充分研究"]
+    }
+  ],
+  "cross_indication_analysis": {
+    "pattern_observations": [
+      "所有 10 個適應症均為 L5（僅預測，無臨床證據）",
+      "8 個適應症文獻數為 0，1 個有 5 篇但均為 C 級相關性",
+      "脂肪萎縮類疾病（4 個）評分梯度 0.9800→0.9769，疑為 KG 疾病本體論同一疾病群組的預測擴散",
+      "Stiff person syndrome 兩型評分完全相同（0.9867），確認為 KG 重複節點",
+      "pancreatic agenesis 存在根本性機轉矛盾（藥物靶點 β-cell 不存在）",
+      "TxGNN 高分（>0.97）不等於臨床有效性，需獨立驗證"
+    ],
+    "overall_priority": "極低",
+    "recommended_actions": [
+      "不建議任何適應症進入臨床轉化流程",
+      "若需優先研究，SPS（stiff person syndrome）因有代謝-神經共病機轉假說，可列為文獻回顧研究問題（Research Question）",
+      "pancreatic agenesis 應從候選列表中移除（機轉矛盾）",
+      "建議審查 Glipizide 的 MoA 數據缺口問題，補充 DrugBank 機轉資料"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 總結摘要
+
+| 疾病 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|------|-----------|----------|----------|------|----------|
+| opsismodysplasia | 0.9877 | **L5** | S0 | Hold | 骨骼發育疾病，無機轉連結 |
+| classic stiff person syndrome | 0.9867 | **L5** | S0 | Hold* | 有代謝-神經共病假說 |
+| focal stiff limb syndrome | 0.9867 | **L5** | S0 | Hold | KG 重複節點 |
+| thiamine-responsive dysfunction syndrome | 0.9859 | **L5** | S0 | Hold | 硫胺素補充為根本治療 |
+| drug-induced localized lipodystrophy | 0.9800 | **L5** | S0 | Hold | 注射部位疾病，口服藥不適用 |
+| centrifugal lipodystrophy | 0.9788 | **L5** | S0 | Hold | 兒童疾病，安全性疑慮 |
+| pressure-induced localized lipoatrophy | 0.9783 | **L5** | S0 | Hold | 純機械損傷機轉 |
+| idiopathic localized lipodystrophy | 0.9769 | **L5** | S0 | Hold | 藥理方向與疾病特徵相悖 |
+| **pancreatic agenesis** | 0.9748 | **L5** | S0 | **強烈 Hold** | ⚠️ 根本性機轉矛盾（無β-cell） |
+| autoimmune oophoritis | 0.9030 | **L5** | S0 | Hold | 最低評分，無機轉支持 |
+
+> *SPS 可登記為「研究問題（Research Question）」但不建議直接進入臨床評估
+
+**核心結論**：Glipizide 在本批次所有 10 個預測適應症中均缺乏臨床證據支持，全部評定為 **L5 / S0**。尤其 pancreatic agenesis 存在藥理機轉的根本矛盾，建議從候選列表中排除。

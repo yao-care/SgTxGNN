@@ -1,0 +1,334 @@
+# Crizotinib (DB08865) 藥物再利用證據分析
+
+## 背景說明
+
+> ⚠️ **資料異常提醒**：Crizotinib (Xalkori) 在全球多國已核准用於 **ALK+ / ROS1+ NSCLC**，但本資料標記為「未上市」、`original_indications: []`，推測為新加坡市場特定狀態或資料缺口，分析時已納入此背景知識校正。
+
+---
+
+```json
+{
+  "drug": "Crizotinib",
+  "drugbank_id": "DB08865",
+  "analysis_date": "2026-04-04",
+  "drug_background": {
+    "moa": "ALK / ROS1 / MET 多靶點酪胺酸激酶抑制劑（TKI）",
+    "globally_approved_for": ["ALK陽性非小細胞肺癌", "ROS1陽性非小細胞肺癌"],
+    "data_note": "資料標記未上市，推測為新加坡市場特定狀態，非全球狀態"
+  },
+  "indications": [
+    {
+      "disease_name": "fibromatosis, gingival",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牙齦纖維瘤病為良性纖維組織增生，無 ALK 重排、ROS1 融合或 MET 擴增的病理學依據；TxGNN 高分（0.9981）反映圖神經網路遠端拓樸關聯，而非分子機轉合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fibroma of lung",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺纖維瘤為罕見良性間葉腫瘤，缺乏 ALK/ROS1/MET 驅動突變的文獻記錄；MET 信號通路在此腫瘤的角色未被確認；無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hamartoma of lung",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺錯構瘤為良性發育異常病灶，通常無惡性潛能。唯一文獻（PMID 34011083）描述 ALK 陰性炎性肌纖維母細胞瘤（IMT）案例，ALK 陰性實際上論證此類病灶對 Crizotinib 無效，屬反向證據。IMT 雖可能被疾病分類系統歸於廣義錯構瘤，但無支持性臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34011083",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "ALK 陰性肺 IMT 年輕成人案例；ALK 陰性意味 Crizotinib 不適用，此文獻屬反向參考，不支持再利用"
+        }
+      ]
+    },
+    {
+      "disease_name": "lung hilum carcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肺門癌症（中央型肺癌）若具 ALK 重排或 ROS1 融合，Crizotinib 具充分的生物學合理性。2 篇文獻均為分子標記陽性案例：ALK+ 68 個月長期 PFS 及 ROS1+ 新輔助治療案例。關鍵前提：需分子篩查確認 ALK/ROS1 狀態，無標記則無療效依據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32830600",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "ALK+ 轉移性肺癌 Crizotinib 治療後 68 個月 PFS（2021），極長生存期案例，強烈分子標記關聯性，但屬單一案例"
+        },
+        {
+          "pmid": "39716454",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "ROS1+ 局部晚期肺腺癌新輔助 Crizotinib 治療案例（2024），最新報告，支持 ROS1 靶向策略"
+        }
+      ]
+    },
+    {
+      "disease_name": "lung benign neoplasm",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ 疾病分類警示：20 篇文獻主要涉及惡性 NSCLC（ALK+/ROS1+），與「良性肺腫瘤」分類存在系統性錯位。例外：ALK 重排型炎性肌纖維母細胞瘤（IMT）雖屬低惡性度腫瘤，具 Crizotinib 療效的強烈生物學合理性，Phase II 研究已支持 ALK+ IMT 治療。建議細分亞型評估，不宜以「良性」一概而論。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37530142",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "notes": "Alectinib vs Crizotinib 在 ALK+ NSCLC 更新薈萃分析（2023），確認 ALK 靶向療效，Crizotinib 為基準對照"
+        },
+        {
+          "pmid": "29596029",
+          "study_type": "Phase II RCT",
+          "tier": "1",
+          "notes": "東亞 ROS1+ 晚期 NSCLC 的 Crizotinib Phase II 研究（2018），直接療效證據，ORR 71.7%"
+        },
+        {
+          "pmid": "25239305",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "notes": "ALK+ NSCLC Crizotinib 療效與安全性系統性回顧（2014），奠定循證基礎"
+        },
+        {
+          "pmid": "28342113",
+          "study_type": "Evidence-Based Review",
+          "tier": "2",
+          "notes": "未治療 ALK+ NSCLC Crizotinib 循證分析（2017），支持一線治療角色"
+        },
+        {
+          "pmid": "30902613",
+          "study_type": "Phase III RCT Sub-analysis",
+          "tier": "1",
+          "notes": "EML4-ALK 融合變異體對 Alectinib vs Crizotinib 療效影響分析（2019），分子亞型資料"
+        },
+        {
+          "pmid": "41617059",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "Crizotinib 誘發毒性機制與管理（2026），安全性最新綜合文獻"
+        },
+        {
+          "pmid": "30010763",
+          "study_type": "Pooled Analysis",
+          "tier": "2",
+          "notes": "ALK FISH 陽性程度與 Crizotinib 療效相關性（3 項前瞻性研究），生物標記研究"
+        },
+        {
+          "pmid": "24756793",
+          "study_type": "Drug Profile",
+          "tier": "3",
+          "notes": "Crizotinib 藥物早期簡介（2014），提供基本藥理背景"
+        },
+        {
+          "pmid": "30069759",
+          "study_type": "Drug Profile",
+          "tier": "3",
+          "notes": "Crizotinib 更新藥物簡介（2018），四年後更新資料"
+        },
+        {
+          "pmid": "41110693",
+          "study_type": "Clinical Study / Meta-analysis",
+          "tier": "1",
+          "notes": "Alectinib vs Crizotinib 未治療 ALK+ NSCLC（2026），最新比較效益資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "lung germ cell tumor",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "原發性肺生殖細胞腫瘤極罕見（<0.5% 肺腫瘤）；ALK 重排在生殖細胞腫瘤罕見但有文獻記錄。部分以「肺生殖細胞腫瘤」歸類的病灶可能為 ALK 陽性 IMT 或神經母細胞瘤轉移。MATCH 籃式試驗提供 ALK 突變跨腫瘤療效框架；神經母細胞瘤（ALK 驅動）文獻提供間接機轉支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02465060",
+          "relevance_grade": "B",
+          "reasoning": "NCI-MATCH Phase 2 籃式試驗（n=6452），活躍未招募。設計涵蓋 ALK 融合及 MET 擴增分子分型，跨腫瘤類型設計原則上可入組 ALK+ 肺腫瘤（包括稀有類型），但非針對生殖細胞腫瘤設計，療效資料需從亞群分析獲取"
+        },
+        {
+          "nct_id": "NCT01121588",
+          "relevance_grade": "B",
+          "reasoning": "Crizotinib Phase 1b 泛實體腫瘤開放標籤研究（已終止，n=44）。雖已終止，提供跨腫瘤類型的安全性與初步療效訊號，為後續籃式試驗設計依據"
+        },
+        {
+          "nct_id": "NCT02223819",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 葡萄膜黑色素瘤輔助 Crizotinib（已完成，n=34）。腫瘤類型與肺生殖細胞腫瘤無直接關聯，僅提供 Crizotinib 在非 NSCLC 腫瘤的一般安全性背景"
+        },
+        {
+          "nct_id": "NCT02568267",
+          "relevance_grade": "C",
+          "reasoning": "Entrectinib（Pan-TRK/ROS1/ALK）Phase 2 籃式試驗（活躍，n=534）。為競品藥物而非 Crizotinib，但間接支持 ALK/ROS1 靶向策略在多種腫瘤類型的可行性概念"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27573755",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "ALK 受體在癌症生物學中的角色（2016），提供跨腫瘤 ALK 靶向合理性機轉基礎"
+        },
+        {
+          "pmid": "37012551",
+          "study_type": "Phase 1 Trial",
+          "tier": "2",
+          "notes": "Lorlatinib（次世代 ALK 抑制劑）在 ALK 驅動難治/復發神經母細胞瘤 Phase 1（2023），間接支持 ALK 靶向在非 NSCLC 實體腫瘤"
+        },
+        {
+          "pmid": "28183697",
+          "study_type": "Phase 1/2 Clinical Study",
+          "tier": "2",
+          "notes": "Entrectinib 安全性與抗腫瘤活性（2017），支持 ALK 抑制劑類藥物的跨腫瘤類型活性概念"
+        },
+        {
+          "pmid": "22968692",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "ALK 靶向策略在 NSCLC、NHL、神經母細胞瘤的綜合評估（2012），奠定跨腫瘤 ALK 靶向基礎"
+        },
+        {
+          "pmid": "28960893",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "notes": "Crizotinib 靶向膠質母細胞瘤幹細胞（2017），提示跨腫瘤類型 MET 抑制機轉"
+        },
+        {
+          "pmid": "37561984",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "ALK 抑制劑在成人神經母細胞瘤治療回顧（2023），支持 ALK 靶向在神經源性腫瘤"
+        },
+        {
+          "pmid": "26122839",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "兒科 Crizotinib 耐藥性對策（2015），提供小兒科 ALK 靶向藥物開發歷程"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary sulcus neoplasm",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pancoast 腫瘤（肺上溝腫瘤）病理組成以鱗狀細胞癌（45-50%）與腺癌（25-30%）為主，ALK/ROS1 重排發生率極低（約 1-3%）。無臨床試驗或文獻支持。若分子篩查確認 ALK/ROS1 陽性，則可適用一般 ALK+ NSCLC 指引，但此屬個別化治療而非再利用適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IBMPFD（IBM-EPD-FTD）由 VCP/p97 基因功能獲得性突變導致，核心病理為泛素蛋白酶體系統及自噬功能障礙，與 ALK/ROS1/MET 信號通路無已知交叉。20 篇文獻全為額顳葉失智症一般性回顧，無任何 Crizotinib 或 ALK/MET 靶向治療相關內容，文獻相關性評分為零。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26595641",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "FTD 通用回顧（2015）；與 Crizotinib 完全無關，為疾病背景參考"
+        },
+        {
+          "pmid": "39620838",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "FTD 最新回顧（2024）；與 Crizotinib 完全無關，為疾病背景參考"
+        },
+        {
+          "pmid": "38687620",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "FTD 遺傳學到治療方法（2024）；VCP 通路未與 TKI 靶向治療連結"
+        }
+      ]
+    },
+    {
+      "disease_name": "junctional epidermolysis bullosa",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "交界型大疱性表皮鬆解症（JEB）由 LAMA3、LAMB3 或 LAMC2 基因突變導致基底膜帶蛋白缺陷，屬結構蛋白遺傳病，與 ALK/ROS1/MET 激酶信號通路無病理關聯。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此極罕見症候群（Cantu-Garcia 症候群）病理機轉尚未完全闡明。文獻中含 2 篇具Crizotinib 直接關聯的重要發現：(1) RIPK1 依賴性細胞死亡再利用研究（PMID 36534968，2023）提示 Crizotinib 具意外的 RIPK1 抑制活性；(2) Crizotinib 促進巨核細胞生成改善血小板減少症（PMID 40813622，2025）。然而，這兩個新機轉均與本症候群的色素異常及發育障礙無直接病理關聯，現階段不足以支持再利用決策。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36534968",
+          "study_type": "Preclinical / Mechanistic Study",
+          "tier": "3",
+          "notes": "【值得關注】Crizotinib 再利用靶向 RIPK1 依賴性細胞死亡（2023），揭示 ALK 抑制劑的新意外機轉，但與本症候群無直接關聯"
+        },
+        {
+          "pmid": "40813622",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "notes": "【新發現】Crizotinib 促進巨核細胞生成改善血小板減少症（2025），提示潛在血液系統副作用反轉用途"
+        },
+        {
+          "pmid": "26898609",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "Crizotinib 誘發致命暴發性肝衰竭（2016），重要安全性警示，任何再利用研究必須考量"
+        },
+        {
+          "pmid": "29058790",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "notes": "C-Met/HGF 信號通路在子宮頸癌的臨床預後價值，提供 MET 靶向的跨適應症背景"
+        },
+        {
+          "pmid": "30636579",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "C-MET/HGF 信號通路在胰腺導管腺癌靶向策略，MET 靶向跨癌種機轉背景"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 疾病 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|------|---------|---------|------|---------|
+| fibromatosis, gingival | **L5** | S0 | 🔴 Hold | 無機轉合理性 |
+| fibroma of lung | **L5** | S0 | 🔴 Hold | 無機轉合理性 |
+| hamartoma of lung | **L4** | S0 | 🔴 Hold | 唯一文獻為反向證據（ALK-） |
+| lung hilum carcinoma | **L4** | S1 | 🟡 Research Question | 需確認 ALK/ROS1 分子標記 |
+| lung benign neoplasm | **L3** | S1 | 🟡 Research Question | 文獻分類錯位；ALK+ IMT 為可行亞群 |
+| lung germ cell tumor | **L3** | S1 | 🟡 Research Question | 籃式試驗間接支持；病理確認為前提 |
+| pulmonary sulcus neoplasm | **L5** | S0 | 🔴 Hold | ALK/ROS1 發生率極低 |
+| IBMPFD + FTD | **L5** | S0 | 🔴 Hold | 文獻與藥物完全無關 |
+| junctional epidermolysis bullosa | **L5** | S0 | 🔴 Hold | 無機轉合理性 |
+| Leukomelanoderma syndrome | **L4** | S0 | 🔴 Hold | RIPK1 新機轉有趣但無疾病關聯 |
+
+### 🔑 核心發現
+
+1. **TxGNN 高分（>0.997）不等於臨床證據**：10 個適應症中，7 個達 L5（純預測），反映模型對缺乏臨床驗證的預測能力需謹慎解讀
+
+2. **分子標記是關鍵分水嶺**：Crizotinib 所有有意義的再利用候選均需 **ALK 重排 / ROS1 融合 / MET 擴增** 確認，無標記篩查無法執行再利用
+
+3. **新機轉訊號值得追蹤**：PMID 36534968（RIPK1 抑制）與 PMID 40813622（促血小板生成）提示 Crizotinib 具超越 ALK/ROS1 的意外作用，值得基礎研究投入
+
+4. **安全性隱憂**：PMID 26898609 記錄致命性暴發性肝衰竭，任何新適應症臨床試驗需強化肝功能監測協議

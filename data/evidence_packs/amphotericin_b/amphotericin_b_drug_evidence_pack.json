@@ -1,0 +1,3073 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00681-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amphotericin B",
+    "drugbank_id": "DB00681",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn": {
+        "score": 0.974514365196228,
+        "rank": 19524
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7689184",
+            "title": "Rhinocerebral mucormycosis--case report.",
+            "authors": [
+              "Ochiai H",
+              "Iseda T",
+              "Miyahara S",
+              "Goya T",
+              "Wakisaka S"
+            ],
+            "journal": "Neurologia medico-chirurgica",
+            "year": "1993",
+            "abstract": "A rare case of rhinocerebral mucormycosis occurred in a 74-year-old diabetic male with gradually progressive right visual loss and total ophthalmoplegia. Computed tomography and magnetic resonance imaging revealed an invasive right orbital apex mass, destroying the medial wall of the orbit and extending into the right cavernous sinus and right middle fossa. Laboratory data demonstrated no signs of inflammation. A carcinomatous lesion originating in the paranasal sinuses and extending into the in",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31181136",
+            "title": "Pediatric Mucormycosis: A 10-Year Systematic Review of Reported Cases and Review of the Literature.",
+            "authors": [
+              "Otto William R",
+              "Pahud Barbara A",
+              "Yin Dwight E"
+            ],
+            "journal": "Journal of the Pediatric Infectious Diseases Society",
+            "year": "2019",
+            "abstract": "Mucormycosis is a severe infection that affects a variety of patients, including immunocompromised children and neonates. Given improved survival rates from advances in the treatment of malignancies, the population at risk for mucormycosis is increasing. We conducted a systematic review of cases of mucormycosis in children in the English-language literature reported between August 2008 and June 2017 and analyzed the clinical characteristics, diagnosis, management, and outcome of those infections",
+            "classification": {
+              "study_type": "Systematic Review (小兒 Mucormycosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12229280",
+            "title": "[Mucormycosis. Report of 3 cases].",
+            "authors": [
+              "Tristano Antonio",
+              "Chollet María Eugenia",
+              "Willson María",
+              "Troccoli Marcos"
+            ],
+            "journal": "Investigacion clinica",
+            "year": "2002",
+            "abstract": "Mucormycosis is an acute and often fatal infection caused by a fungus of the Mucorales order of the Zygomycetes class. There are various clinical types, usually associated with an underlying disorder. The rhinocerebral mucormycosis is usually seen in diabetics, especially in ketoacidosis, but may also appear in healthy people. We report three cases of mucormycosis diagnosed since april 1987 through january 2001 at the Dr. Domingo Luciani Hospital, Caracas, Venezuela. Two of them had diabetes and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23058177",
+            "title": "The surgical management of rhinocerebral mucormycosis.",
+            "authors": [
+              "Abu El-Naaj Imad",
+              "Leiser Y",
+              "Wolff A",
+              "Peled M"
+            ],
+            "journal": "Journal of cranio-maxillo-facial surgery : official publication of the European Association for Cranio-Maxillo-Facial Surgery",
+            "year": "2013",
+            "abstract": "Rhinocerebral mucormycosis is a rare, rapidly progressive life threatening opportunistic fungal disease that usually occurs in immunocompromised patients.",
+            "classification": {
+              "study_type": "Surgical Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30338581",
+            "title": "Invasive mucormycosis in children with cancer: A retrospective study from the Infection Working Group of Italian Pediatric Hematology Oncology Association.",
+            "authors": [
+              "Muggeo Paola",
+              "Calore Elisabetta",
+              "Decembrino Nunzia",
+              "Frenos Stefano",
+              "De Leonardis Francesco"
+            ],
+            "journal": "Mycoses",
+            "year": "2019",
+            "abstract": "Invasive mucormycosis is a rare but frequently fatal fungal disease. The acute and rapidly progressive evolution causes unfavourable outcome in 22%-59% of patients and its treatment represents a clinical challenge, especially in immunocompromised patients. Current data in paediatric oncological patients are limited.",
+            "classification": {
+              "study_type": "Retrospective Study (癌童 Mucormycosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27832748",
+            "title": "Invasive mucormycosis in children: an epidemiologic study in European and non-European countries based on two registries.",
+            "authors": [
+              "Pana Zoi Dorothea",
+              "Seidel Danila",
+              "Skiada Anna",
+              "Groll Andreas H",
+              "Petrikkos Georgios"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2016",
+            "abstract": "Mucormycosis has emerged as a rare but frequently fatal invasive fungal disease. Current knowledge on paediatric mucormycosis is based on case reports and small series reported over several decades. Contemporary data on a large cohort of patients is lacking.",
+            "classification": {
+              "study_type": "Epidemiologic Study (小兒 Mucormycosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10340559",
+            "title": "Lung cancer, proptosis, and decreased vision.",
+            "authors": [
+              "Auerbach D B",
+              "Bilyk J R"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1999",
+            "abstract": "A 48-year-old man presented to the emergency department with a 3-day history of decreased vision in a painful proptotic right eye. The patient was being treated with chemotherapy and radiation for non-small cell lung carcinoma. Examination showed visual acuity of hand motions, decreased motility, and an afferent pupillary defect on the right, consistent with an orbital apex syndrome. Neuroimaging revealed \"dirty\" orbital fat and no paranasal sinus disease. Orbital biopsy initially showed only fi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1057138",
+            "title": "Rhinocerebral mucormycosis: diagnosis and treatment. Report of two cases.",
+            "authors": [
+              "Berger C J",
+              "Disque F C",
+              "Topazian R G"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1975",
+            "abstract": "Rhinocerebral mucormycosis (phycomycetes), a human fungal disease with oral and perioral findings, has an extremely high morbidity and mortality. The disease is most frequently seen in patients with poorly controlled diabetes. The symptoms, findings, and treatment of rhinocerebral mucormycosis are discussed, and two case histories are presented.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12218600",
+            "title": "Rhinocerebral mucormycosis in a boy with recurrent acute lymphoblastic leukemia: long-term survival with systemic antifungal treatment.",
+            "authors": [
+              "Wehl Goetz",
+              "Hoegler Wolfgang",
+              "Kropshofer Gabriele",
+              "Meister Bernhard",
+              "Fink Franz-Martin"
+            ],
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2002",
+            "abstract": "Rhinocerebral mucormycosis is rare in hematologic malignancies and usually leads to death within weeks. In contrast, chronic rhinocerebral mucormycosis takes a slowly progressive course and has not been reported in hematologic malignancies in children so far. The authors report the long-term survival of a boy with rhinocerebral mucormycosis in a relapse of acute lymphoblastic leukemia after allogeneic cord blood transplantation. The disease started acutely but took a chronic course thereafter. N",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2195371",
+            "title": "[Cerebral aspergillotic granuloma. Apropos of a case and a review of the literature].",
+            "authors": [
+              "Kchir N",
+              "Bouratbine A",
+              "Boubaker S",
+              "Jemel H",
+              "Haouet S"
+            ],
+            "journal": "Neuro-Chirurgie",
+            "year": "1990",
+            "abstract": "The authors report a case of aspergillus granuloma of the brain, in a 28 year old woman, simulating a meningioma. Preoperative diagnosis of aspergilloma is difficult. However, it may be suspected in a patient who has associated pulmonary and paranasal sinus fungal infection. Peroperatively it may be confused with a brain tumour. The lesions usually are in the frontal lobes. Diagnosis can be made only by surgical biopsy with identification of fungal elements. Granuloma induce a good host response",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8567925",
+            "title": "Cutaneous phaeohyphomycosis caused by Alternaria longipes in an immunosuppressed patient.",
+            "authors": [
+              "Gené J",
+              "Azón-Masoliver A",
+              "Guarro J",
+              "Ballester F",
+              "Pujol I"
+            ],
+            "journal": "Journal of clinical microbiology",
+            "year": "1995",
+            "abstract": "Alternaria longipes was reported as the agent of a cutaneous infection in a patient with a neoplastic disease. The fungus has not been reported previously as causing disease in humans. It was distinguished by its rather small conidia with smooth or slightly verruculose walls and a pale brown beak which rarely extended into a secondary conidiophore. In vitro inhibitory activities of amphotericin B, ketoconazole, itraconazole, and miconazole were shown.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10595472",
+            "title": "Value of Ga-67 SPECT in monitoring the effects of therapy in invasive aspergillosis of the sphenoid sinus.",
+            "authors": [
+              "Tzen K Y",
+              "Yen T C",
+              "Lin K J"
+            ],
+            "journal": "Clinical nuclear medicine",
+            "year": "1999",
+            "abstract": "We report a case of invasive sphenoid sinus aspergillosis clinically presenting as a pituitary mass.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ KG 標注疑義：12 篇文獻全部描述鼻竇真菌感染（mucormycosis、aspergillosis）而非鼻竇腫瘤（neoplasm）。AmB 無已知抗腫瘤機轉。唯一半相關文獻（PMID 10340559）描述肺癌合併眼球突出鑑別診斷，並非抗腫瘤治療依據。高 TxGNN 分數推測源於 KG 中鼻竇相關病理節點的結構鄰近性，非實際藥物-腫瘤生物學關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn": {
+        "score": 0.974420726299286,
+        "rank": 19557
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00425620",
+            "title": "A Prospective, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Parallel-Group Study of Intranasal Amphotericin B Suspension in Patients With Refractory, Postsurgical Chronic Sinusitis (CS)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2006-12",
+            "completion_date": "2007-10",
+            "brief_summary": "The primary objective of the study is to evaluate the safety and efficacy of Amphotericin B suspension versus placebo in the complete resolution of key chronic sinusitis symptoms during 16 weeks of treatment in patients with refractory, postsurgical CS.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 多中心 RCT，雙盲安慰劑對照，300 名 CRS 患者，已完成。直接評估鼻內 AmB 沖洗療效，為本適應症最高等級試驗證據。與多篇 meta-analysis 中納入的 RCT 研究同屬本適應症核心試驗群。"
+            }
+          },
+          {
+            "nct_id": "NCT03935828",
+            "title": "Effect of Topical Sinonasal Antibiotics in Post-Surgical Patients With an Acute Exacerbation of Chronic Rhinosinusitis",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2019-06",
+            "completion_date": "2021-06",
+            "brief_summary": "In this study, patients who have had previous endoscopic sinus surgery and present with an acute exacerbation of chronic rhinosinusitis will be offered endoscopic-guided, culture-directed antibiotic therapy. They will then be randomized to receive oral or intranasal topical antibiotics. Both of these are considered standard of care, but there is some limited data suggesting superiority of topical antibiotics especially if guided by culture and in patients who have undergone previous surgery. How",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 研究已 WITHDRAWN，入組 0 人，研究聚焦術後急性惡化 CRS 抗生素使用而非 AmB 專一評估，無實際數據貢獻。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18197021",
+            "title": "Nasal amphotericin irrigation in chronic rhinosinusitis.",
+            "authors": [
+              "Stankiewicz James A",
+              "Musgrave Brandon K",
+              "Scianna Joseph M"
+            ],
+            "journal": "Current opinion in otolaryngology & head and neck surgery",
+            "year": "2008",
+            "abstract": "To review the literature on the use of amphotericin irrigation for the treatment of chronic rhinosinusitis.",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31358093",
+            "title": "Role of Amphotericin B in Nasal Irrigation for Chronic Rhinosinusitis with Nasal Polyps.",
+            "authors": [
+              "Zia Sadaf",
+              "Naqvi Syeda Uzma",
+              "Ahmed Salman",
+              "Farrukh M Shuja",
+              "Sheikh Salman Matiullah"
+            ],
+            "journal": "Journal of the College of Physicians and Surgeons--Pakistan : JCPSP",
+            "year": "2019",
+            "abstract": "To determine the effect of topical antifungal irrigation fluid containing amphotericin B on nasal polyp and their recurrence pattern, and to study the association of serum IgE in predicting the presence of fungus along with the nasal polyps.",
+            "classification": {
+              "study_type": "Clinical Study (鼻息肉)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25217082",
+            "title": "The effectiveness topical amphotericin B in the management of chronic rhinosinusitis: a meta-analysis.",
+            "authors": [
+              "Wang Tianqi",
+              "Su Jinfei",
+              "Feng Yanjun"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2015",
+            "abstract": "Chronic rhinosinusitis (CRS) is believed to be the result of an exaggerated reaction to fungi in the nasal mucosa, and topical amphotericin B (AMB) is a commonly used treatment. The purpose of this study was to perform a meta-analysis of high-quality comparative studies to examine the efficacy of topical AMB for the treatment of CRS. A search was conducted of Medline, Cochrane, EMBASE, and ISI Web of Knowledge until December 31, 2013 using combinations of the search terms chronic rhinosinusitis,",
+            "classification": {
+              "study_type": "Meta-analysis (n=9 RCTs)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30199594",
+            "title": "Topical and systemic antifungal therapy for chronic rhinosinusitis.",
+            "authors": [
+              "Head Karen",
+              "Sharp Steve",
+              "Chong Lee-Yee",
+              "Hopkins Claire",
+              "Philpott Carl"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "This review adds to a series of reviews looking at primary medical management options for patients with chronic rhinosinusitis.Chronic rhinosinusitis is common and characterised by inflammation of the lining of the nose and paranasal sinuses leading to nasal blockage, nasal discharge, facial pressure/pain and loss of sense of smell. The condition can occur with or without nasal polyps. Antifungals have been suggested as a treatment for chronic rhinosinusitis.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22287428",
+            "title": "A meta-analysis of topical amphotericin B for the treatment of chronic rhinosinusitis.",
+            "authors": [
+              "Isaacs Seth",
+              "Fakhri Samer",
+              "Luong Amber",
+              "Citardi Martin J"
+            ],
+            "journal": "International forum of allergy & rhinology",
+            "year": "2011",
+            "abstract": "Fungal species have been implicated in the pathophysiology of chronic rhinosinusitis (CRS). Based on this observation, some clinicians have employed topical antifungal therapy with amphotericin B (AMB); however, its efficacy has not been consistently supported by the literature.",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18360640",
+            "title": "Diagnosis and treatment of chronic rhinosinusitis: focus on intranasal Amphotericin B.",
+            "authors": [
+              "Kern Eugene B",
+              "Sherris David",
+              "Stergiou Angelos M",
+              "Katz Laura M",
+              "Rosenblatt Lisa C"
+            ],
+            "journal": "Therapeutics and clinical risk management",
+            "year": "2007",
+            "abstract": "Chronic rhinosinusitis (CRS) is a chronic disease that affects 14.2% of the US adult population. Despite being widespread, little is known about the etiology of CRS. Treatment has been symptomatic and focused on relieving symptoms. Recent investigations into causes of CRS have revealed that most CRS patients have an eosinophilic infiltration of their nasal tissue (mucosa), regardless of atopy and elevated immunoglobulin E levels. Although fungi are ubiquitous and in the nasal mucus of both healt",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17088142",
+            "title": "Amphotericin B nasal lavages: not a solution for patients with chronic rhinosinusitis.",
+            "authors": [
+              "Ebbens Fenna A",
+              "Scadding Glenis K",
+              "Badia Lydia",
+              "Hellings Peter W",
+              "Jorissen Mark"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2006",
+            "abstract": "Chronic rhinosinusitis (CRS) is one of the most common chronic diseases. Recently, it has been suggested that an exaggerated immune response to fungi is crucial in the pathogenesis of the disease. On the basis of this hypothesis, intranasal treatment with amphotericin B should benefit patients with CRS. Data from 2 uncontrolled and 2 controlled trials are conflicting, however.",
+            "classification": {
+              "study_type": "RCT (陰性結果)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31763315",
+            "title": "Randomised Comparison of Safety Profile and Short Term Response of Itraconazole, Voriconazole and Amphotericin B in the Management of Chronic Invasive Fungal Rhinosinusitis.",
+            "authors": [
+              "Debbarma Santosh",
+              "Gupta Rijuneeta",
+              "Patro Sourabha K",
+              "Gupta Ashok K",
+              "Pandhi Promila"
+            ],
+            "journal": "Indian journal of otolaryngology and head and neck surgery : official publication of the Association of Otolaryngologists of India",
+            "year": "2019",
+            "abstract": "Chronic invasive fungal rhino sinusitis (CIFS) is a well described clinical entity characterized by mucosal and sub mucosal infiltration of mycotic organisms and angio-centric extension into orbital and intracranial structures. Itraconazole, Voriconazole and Amphotericin B are commonly used for CIFS. In the present study we have evaluated short term clinical response of these drugs. Thirty diagnosed patients of CIFS who presented to us from January 2011 to December 2015 were divided into three g",
+            "classification": {
+              "study_type": "RCT (三藥比較)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19348723",
+            "title": "Antifungal treatment and chronic rhinosinusitis.",
+            "authors": [
+              "Lal Devyani",
+              "Stankiewicz James A"
+            ],
+            "journal": "Current allergy and asthma reports",
+            "year": "2009",
+            "abstract": "Chronic rhinosinusitis (CRS) is an inflammatory disease with a multifactorial etiology. Antifungal therapy is not routinely used to treat it. However, evidence implicating fungi in some forms of CRS recently has been published. Controversy exists as to whether fungi identified in sinonasal cultures are always pathogenic. Immunologic evidence supporting the role of fungi in the pathogenesis of CRS is also debated. Topical antifungal therapy is more widely used than oral therapy, with amphotericin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18284860",
+            "title": "Amphotericin B irrigation for the treatment of chronic rhinosinusitis without nasal polyps: a randomized, placebo-controlled, double-blind study.",
+            "authors": [
+              "Liang Kai-Li",
+              "Su Mao-Chang",
+              "Shiao Jiun-Yi",
+              "Tseng Hung-Cheng",
+              "Hsin Chung-Han"
+            ],
+            "journal": "American journal of rhinology",
+            "year": "2008",
+            "abstract": "Fungus-driven inflammation is proposed to play an important role in the pathogenesis of chronic rhinosinusitis (CRS). Previous studies tested the efficacy of intranasal antifungal agents for patients with nasal polyps. The purpose of this study was to evaluate the efficacy of intranasal amphotericin B (AMB) in patients who have CRS without nasal polyps (CRSsNP).",
+            "classification": {
+              "study_type": "RCT (無鼻息肉 CRS)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15637558",
+            "title": "Treatment of chronic rhinosinusitis with intranasal amphotericin B: a randomized, placebo-controlled, double-blind pilot trial.",
+            "authors": [
+              "Ponikau Jens U",
+              "Sherris David A",
+              "Weaver Amy",
+              "Kita Hirohito"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2005",
+            "abstract": "Chronic rhinosinusitis (CRS) is one of the most common chronic diseases. Its etiology is unknown, and there is a paucity of effective medical treatments.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18953552",
+            "title": "Postoperative application of amphotericin B nasal spray in chronic rhinosinusitis with nasal polyposis, with a review of the antifungal therapy.",
+            "authors": [
+              "Gerlinger I",
+              "Fittler A",
+              "Fónai F",
+              "Patzkó A",
+              "Mayer A"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2009",
+            "abstract": "Chronic rhinosinusitis (CRS) affects 1-4% of the adult population. The etiology of this multifactorial, chronic disease, which leads to a significant impairment of the quality of life, often accompanied by nasal polyposis, is not fully understood. In the past decade, it was presumed that the disease, which causes characteristic eosinophilic infiltration of the nasal mucosa, is triggered by an enhanced (but not classical allergic IgE-type) immune response against fungal organisms in the nasal muc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20513020",
+            "title": "Is topical amphotericin B efficacious in the treatment of chronic rhinosinusitis?",
+            "authors": [
+              "Lupa Michael",
+              "Amedee Ronald"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "2010",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29204573",
+            "title": "Protective and antifungal properties of Nanodisk-Amphotericin B over commercially available Amphotericin B.",
+            "authors": [
+              "Cho Do-Yeon",
+              "Hoffman Kyle J",
+              "Gill Gobind S",
+              "Lim Dong-Jin",
+              "Skinner Daniel"
+            ],
+            "journal": "World journal of otorhinolaryngology - head and neck surgery",
+            "year": "2017",
+            "abstract": "Amphotericin B (AMB), a potent antifungal agent, has been employed as topical and systemic therapy for sinonasal fungal infections. A novel formulation of nanodisc (ND) containing super aggregated AMB (ND-AMB) for the treatment of fungal infections has been recently developed to provide greater protection from AMB toxicity than current, clinically approved lipid-based formulations. The objective of the current study was to evaluate the safety and potency of ND-AMB for sinonasal delivery using an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19160404",
+            "title": "The effect of topical amphotericin B on inflammatory markers in patients with chronic rhinosinusitis: a multicenter randomized controlled study.",
+            "authors": [
+              "Ebbens Fenna A",
+              "Georgalas Christos",
+              "Luiten Silvia",
+              "van Drunen Cornelis M",
+              "Badia Lydia"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "2009",
+            "abstract": "It has been suggested that an exaggerated immune response to fungi is crucial in the pathogenesis of chronic rhinosinusitis (CRS). Based on this rationale, the use of topical antifungals (amphotericin B) has been advocated. Studies on its clinical effectiveness are, however, contradictory.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37004006",
+            "title": "Is low dose of liposomal amphotericin B effective in management of acute invasive fungal rhinosinusitis? Our conclusions from Al-Mowassat University Hospital, Syria: a prospective observational study.",
+            "authors": [
+              "Alabdullah Muhammad Nour",
+              "Yousfan Abdulmajeed"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2023",
+            "abstract": "Acute invasive fungal rhinosinusitis (AIFRS) is a fatal infection associated with high morbidity and mortality. Although it is a rare disease, upsurge of AIFRS was noticed during the second wave of COVID-19 disease. Early diagnosis and management is the cornerstone for good outcomes. However, management of AIFRS is challengeable especially in developing countries due to limited resources and high prices of antifungal agents. No previous studies have been conducted to evaluate the outcomes of man",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27655019",
+            "title": "Clinical implications of microbial biofilms in chronic rhinosinusitis and orbital cellulitis.",
+            "authors": [
+              "Nayak Niranjan",
+              "Satpathy Gita",
+              "Prasad Sujata",
+              "Thakar Alok",
+              "Chandra Mahesh"
+            ],
+            "journal": "BMC ophthalmology",
+            "year": "2016",
+            "abstract": "Discovery of sessile mode of microbial existence (Biofilm state) focussed much interest, during the recent years, on the study of biofilms in many recurring and chronic infections. However, the exact role of microbial biofilms in chronic rhinosinusitis and orbital cellulitis were not elucidated earlier. The purpose of the present study was to look for the adherent property and biofilm producing ability of the clinical isolates in chronic rhinosinusitis and orbital cellulitis, and to look for the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37554299",
+            "title": "Combination endoscopic surgical debridement and transcutaneous retrobulbar amphotericin B for acute rhino-orbital-cerebral aspergillosis.",
+            "authors": [
+              "Zhang Kevin X",
+              "Gu David",
+              "Puchi Christopher",
+              "Welch Kevin C",
+              "Lissner Gary S"
+            ],
+            "journal": "American journal of ophthalmology case reports",
+            "year": "2023",
+            "abstract": "To report a case of acute rhino-orbital-cerebral aspergillosis with aggressive intracranial and orbital extension co-managed medically and surgically with endoscopic sinus debridement and multiple retrobulbar injections of amphotericin B.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18805757",
+            "title": "[Postoperative application of amphotericin B nasal spray in chronic rhinosinusitis with nasal polyposis. Can recidive polyposis be prevented?].",
+            "authors": [
+              "Gerlinger Imre",
+              "Fittler András",
+              "Mayer Anna",
+              "Patzkó Agnes",
+              "Fónay Fruzsina"
+            ],
+            "journal": "Orvosi hetilap",
+            "year": "2008",
+            "abstract": "Chronic rhinosinusitis affects 1-4% of the adult population. The aetiology of this multifactorial, chronic disease, which leads to a significant impairment of the quality of life, often accompanied by nasal polyposis, is not fully understood. In the past decade it was presumed that the disease, which causes characteristic eosinophilic infiltration of the nasal mucosa, is triggered by an enhanced (but not classical allergic IgE type) immune response.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18043932",
+            "title": "Clinical subgroups and antifungal susceptibilities in fungal culture-positive patients with chronic rhinosinusitis.",
+            "authors": [
+              "Erbek Selim S",
+              "Serefhanoglu Kivanc",
+              "Erbek Seyra",
+              "Demirbilek Muge",
+              "Can Fusun"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2008",
+            "abstract": "The goal of this study was to investigate clinical characteristics of chronic rhinosinusitis (CRS) in patients with positive fungal cultures. Fungal cultures were taken from 55 CRS patients and 20 healthy volunteers. Susceptibilities of isolated fungi to fluconazole, amphotericin B, itraconazole, voriconazole, and caspofungin were determined in CRS patients. Fungi grew in the cultures from 44 (80%) CRS patients and 17 (85%) healthy volunteers. Of the patients with positive fungal cultures, 5 (11",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假說認為部分 CRS 由 Alternaria 等真菌誘導嗜酸性球炎症驅動（Mayo Clinic 真菌假說），AmB 局部鼻腔沖洗可清除真菌觸發源以減輕黏膜炎症。然而此機轉假說已受多項 Phase 3 RCT 及 meta-analysis 挑戰，現有臨床結果呈現混合/陰性效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn": {
+        "score": 0.9743750095367432,
+        "rank": 19582
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3523112",
+            "title": "Phaeohyphomycosis caused by the fungal genera Bipolaris and Exserohilum. A report of 9 cases and review of the literature.",
+            "authors": [
+              "Adam R D",
+              "Paquin M L",
+              "Petersen E A",
+              "Saubolle M A",
+              "Rinaldi M G"
+            ],
+            "journal": "Medicine",
+            "year": "1986",
+            "abstract": "We have reported 7 new cases of Bipolaris infection and 2 of Exserohilum infection, which demonstrate the capability of these 2 genera to cause invasive as well as \"allergic\" disease. As noted previously, it is likely that all of the cases of \"Helminthosporium\" and Drechslera infections reported in the literature were caused by Bipolaris or Exserohilum. Infections due to these 2 genera are probably more common than previously recognized. They should be included in the differential diagnosis of c",
+            "classification": {
+              "study_type": "Case Series (Bipolaris/Exserohilum)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8093116",
+            "title": "A case of chronic progressive rhinocerebral mucormycosis treated with liposomal amphotericin B and surgery.",
+            "authors": [
+              "Ericsson M",
+              "Anniko M",
+              "Gustafsson H",
+              "Hjalt C A",
+              "Stenling R"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (脂質體 AmB)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36274521",
+            "title": "First report of human infection caused by Curvularia warraberensis, manifesting as invasive sinusitis with intracranial involvement.",
+            "authors": [
+              "Samaddar Arghadip",
+              "Shrimali Twishi",
+              "Tiwari Sarbesh",
+              "Sharma Anuradha"
+            ],
+            "journal": "Journal de mycologie medicale",
+            "year": "2023",
+            "abstract": "Curvularia species are saprophytic dematiaceous fungi commonly isolated from environmental sources. Most often, they are responsible for allergic fungal rhinosinusitis, an intense, allergic inflammatory sinus disease in immunocompetent individuals. Though invasive infections are rare and more commonly observed in immunocompromised patients, recent reports indicate an increasing trend of invasive sinusitis caused by Curvularia species in immunocompetent hosts. Over the past few years, new species",
+            "classification": {
+              "study_type": "Case Report (Curvularia, 2023)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35186287",
+            "title": "Mixed etiology COVID-19 associated acute rhinosinusitis caused by two Aspergillus species.",
+            "authors": [
+              "Tabarsi Payam",
+              "Sharifynia Somayeh",
+              "Pourabdollah Toutkaboni Mihan",
+              "Abtahian Zahra",
+              "Rahdar Mohammad"
+            ],
+            "journal": "Annals of medicine and surgery (2012)",
+            "year": "2022",
+            "abstract": "Acute invasive fungal rhino-sinusitis (AIFR) is a life-threatening infection that is mostly found in immunocompromised patients with serious morbidity and mortality. Recently, reports of AIFR have also emerged among SARS-CoV-2 infected patients.",
+            "classification": {
+              "study_type": "Case Report (COVID-19 相關)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9854089",
+            "title": "Metarrhizium anisopliae as a cause of sinusitis in immunocompetent hosts.",
+            "authors": [
+              "Revankar S G",
+              "Sutton D A",
+              "Sanche S E",
+              "Rao J",
+              "Zervos M"
+            ],
+            "journal": "Journal of clinical microbiology",
+            "year": "1999",
+            "abstract": "Metarrhizium anisopliae is a common pathogen of insects and has even been used to control insect populations. It is rarely isolated from human or animal sources, but recently, there have been three reported cases of disease, two in humans and one in a cat. We present our experience with five isolates from human sources, including two that were the apparent causes of two cases of sinusitis in immunocompetent hosts. The first patient was a 36-year-old male with frontal and ethmoid sinusitis, and t",
+            "classification": {
+              "study_type": "Case Report (Metarrhizium)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17701590",
+            "title": "Invasive fungal sinusitis: an effective combined treatment in five haematological patients.",
+            "authors": [
+              "Vener Claudia",
+              "Carrabba Maria",
+              "Fracchiolla Nicola S",
+              "Costa Antonella",
+              "Fabio Giovanna"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2007",
+            "abstract": "Invasive fungal rhinosinusitis (IFR) is a life-threatening infection. Its onset is subtle and a late diagnosis leads to severe complications. Death may occur within a few weeks notwithstanding treatment. We describe a comprehensive pre- and post-operative approach to care for haematological patients with IFR. Five haematological patients with IFR were treated with systemic antifungal therapy and endoscopic surgical debridement of infected tissues, followed by amphotericin-B directly instilled in",
+            "classification": {
+              "study_type": "Case Series (5 血液病患者)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1287049",
+            "title": "Indolent orbital apex syndrome caused by occult mucormycosis.",
+            "authors": [
+              "Dooley D P",
+              "Hollsten D A",
+              "Grimes S R",
+              "Moss J"
+            ],
+            "journal": "Journal of clinical neuro-ophthalmology",
+            "year": "1992",
+            "abstract": "The chronic or indolent presentation of rhino-orbital mucormycosis, as defined by the presence of symptoms for more than 1 month before diagnosis, is extremely unusual. A 45-year-old man with stable diabetes presented with a right orbital apex syndrome and minimal ethmoid and sphenoid sinusitis. Progression was indolent, and the diagnosis was not made until 7 weeks after admission, when a third biopsy was prompted by new cavernous sinus and carotid artery thromboses. Mucormycosis was found. The ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1307468",
+            "title": "[Invasive aspergillosis of the sphenoid sinus and paralysis of the 6th nerve].",
+            "authors": [
+              "Lana-Peixoto M I",
+              "Lana-Peixoto M A"
+            ],
+            "journal": "Arquivos de neuro-psiquiatria",
+            "year": "1992",
+            "abstract": "A case of aspergillosis of the sphenoid sinus manifested as an isolated sixth nerve palsy occurred in a 74-year old diabetic woman who had no complaints of headache or symptoms suggestive of sinusitis. A CT scan demonstrated a large mass occupying the sphenoid and ethmoid sinuses extending posteriorly to the clivus. There was a calcific density within the opacified sinus and bony erosion of the sphenoid walls and the sella turcica. The patient underwent a sublabial transseptal sphenoidotomy with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15475776",
+            "title": "Chronic rhizopus invasive fungal rhinosinusitis in an immunocompetent host.",
+            "authors": [
+              "Scharf Joshua L",
+              "Soliman Ahmed M S"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "2004",
+            "abstract": "Rhizopus species may cause chronic invasive fungal rhinosinusitis in an immunocompetent host.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3531745",
+            "title": "[Penicillinosis of the paranasal sinuses].",
+            "authors": [
+              "Nouri M E"
+            ],
+            "journal": "Laryngologie, Rhinologie, Otologie",
+            "year": "1986",
+            "abstract": "A 29-year old female patient suffering from severe pain in her right eye, headache, ophthalmoplegia and ptosis of the right eye, total roentgenological opacity of the right maxillary sinus and ethmoidal cells , as well as signs of bone destruction in the orbital floor, was operated on under the suspicion of a tumour. Histological and bacteriological examinations as well as fungus cultures indicated, however, that the patient was suffering from a chronic infection caused by Penicillium notatum. S",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1816796",
+            "title": "[Naso-sinusal aspergillosis. Review of the literature and description of 2 cases].",
+            "authors": [
+              "Pérez-Villa J",
+              "Cobarro J",
+              "Olmo A",
+              "Morello A",
+              "Traserra J"
+            ],
+            "journal": "Acta otorrinolaringologica espanola",
+            "year": "1991",
+            "abstract": "The number of cases of NSA is increasing owing to a better knowledge of the disease and the high number of patients with impaired immunologic defense mechanism. Two cases are presented. A valoration of the different diagnostic and therapeutic procedures and also the different etiologic and clinical possibilities is done.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "篩竇侵襲性真菌性鼻竇炎（mucormycosis、Aspergillus、Bipolaris、Curvularia、Penicillium 等）的多個案例系列顯示 AmB 聯合外科清創的治療效益，機轉為廣效抗真菌活性加局部清創輔助。篩竇解剖結構複雜（眼眶/顱底毗鄰），侵襲性感染死亡率高，AmB 為首選。與慢性鼻竇炎（非真菌性）應嚴格區分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "bacterial pneumonia",
+      "txgnn": {
+        "score": 0.9556700587272644,
+        "rank": 25300
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05468372",
+            "title": "A Randomized Controlled Trial of Amphotericin B Versus Posaconazole for Treating Pulmonary Mucormycosis",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2022-07-01",
+            "completion_date": "2025-07-30",
+            "brief_summary": "Pulmonary mucormycosis is a serious illness with high morbidity and mortality (approximately 57%). Surgery and antifungal therapy are central in the management of mucormycosis. Unlike rhino-orbital mucormycosis, surgery is not feasible in several patients with pulmonary mucormycosis. Hence, treatment is primarily with antifungal therapy. Amphotericin B is the standard of care in the medical management of mucormycosis. However, amphotericin B is expensive, has significant adverse events, and is a",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 RCT 評估 AmB vs posaconazole 治療肺部 mucormycosis，50 人，招募中。研究適應症為真菌性肺部感染，非細菌性肺炎；為最具直接 AmB 肺部用藥參考意義的試驗，但適應症不符合標注。"
+            }
+          },
+          {
+            "nct_id": "NCT04157465",
+            "title": "Early Empirical Versus Pre-emptive Systemic Anti-fungal Therapy in Acute-on-Chronic Liver Failure Patients With Suspected Invasive Fungal Infections: a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 216,
+            "start_date": "2019-11-07",
+            "completion_date": "2024-12-31",
+            "brief_summary": "Early treatment of invasive fungal infections (IFI) may prevent undue mortality in acute on chronic liver failure (ACLF) patients. We aim to study the impact of early empiric treatment (based on clinical suspicion) of IFI as compared to pre-emptive treatment (based on biomarkers and culture positivity) on the outcomes in ACLF patients with suspected IFI in a randomized trial. The ACLF patients with clinically suspected IFI would be randomly allocated to empiric treatment or pre-emptive treatment",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA phase，評估肝衰竭患者中早期 vs 搶先抗真菌治療，216 人，已完成。研究族群（急性慢性肝衰竭）及適應症均不符合細菌性肺炎。"
+            }
+          },
+          {
+            "nct_id": "NCT06267326",
+            "title": "Case Series of Post Covid 19 Rhino Orbito Cerebral Mucormycosis in Egypt",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 35,
+            "start_date": "2021-05-23",
+            "completion_date": "2023-08-21",
+            "brief_summary": "Objectives: identify and recognize clinical Characteristics, Pathophysiology, and management of a group of patients with rhino Rhino-Orbito-Cerebral Mucormycosis infection associated with Covid 19 viral infection",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "COVID-19 相關鼻眼腦 mucormycosis 案例系列，35 人，已完成。地域性（埃及）且適應症不符合細菌性肺炎。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30329097",
+            "title": "Pulmonary cryptococcosis: A review of pathobiology and clinical aspects.",
+            "authors": [
+              "Setianingrum Findra",
+              "Rautemaa-Richardson Riina",
+              "Denning David W"
+            ],
+            "journal": "Medical mycology",
+            "year": "2019",
+            "abstract": "Pulmonary cryptococcosis is an important opportunistic invasive mycosis in immunocompromised patients, but it is also increasingly seen in immunocompetent patients. The main human pathogens are Cryptococcus neoformans and C. gattii, which have a worldwide distribution. In contrast to cryptococcal meningitis, pulmonary cryptococcosis is still underdiagnosed because of limitations in diagnostic tools. It can mimic lung cancer, pulmonary tuberculosis, bacterial pneumonia, and other pulmonary mycose",
+            "classification": {
+              "study_type": "Review (肺部 Cryptococcosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38215741",
+            "title": "Fungicide-tolerant persister formation during cryptococcal pulmonary infection.",
+            "authors": [
+              "Ke Weixin",
+              "Xie Yuyan",
+              "Chen Yingying",
+              "Ding Hao",
+              "Ye Leixin"
+            ],
+            "journal": "Cell host & microbe",
+            "year": "2024",
+            "abstract": "Bacterial persisters, a subpopulation of genetically susceptible cells that are normally dormant and tolerant to bactericides, have been studied extensively because of their clinical importance. In comparison, much less is known about the determinants underlying fungicide-tolerant fungal persister formation in vivo. Here, we report that during mouse lung infection, Cryptococcus neoformans forms persisters that are highly tolerant to amphotericin B (AmB), the standard of care for treating cryptoc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38154471",
+            "title": "Chronic Pulmonary Aspergillosis: Clinical Presentation and Management.",
+            "authors": [
+              "Evans Terry J",
+              "Lawal AbdulAzeez",
+              "Kosmidis Chris",
+              "Denning David W"
+            ],
+            "journal": "Seminars in respiratory and critical care medicine",
+            "year": "2024",
+            "abstract": "Chronic pulmonary aspergillosis (CPA) refers to a number of clinical syndromes resulting from the presence and local proliferation of Aspergillus organisms in the lungs of patients with chronic lung disease. CPA is more common than was realized two decades ago. Recognition remains poor, despite recent studies from many countries highlighting the high prevalence in at-risk populations. In low- and middle-income countries, CPA may be misdiagnosed and treated as tuberculosis (TB). In addition, CPA ",
+            "classification": {
+              "study_type": "Review (慢性肺部 Aspergillosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18365999",
+            "title": "Pulmonary blastomycosis.",
+            "authors": [
+              "Bradsher Robert W"
+            ],
+            "journal": "Seminars in respiratory and critical care medicine",
+            "year": "2008",
+            "abstract": "Blastomycosis is a rare but important fungal infection diagnosed primarily in the south central and midwestern United States but also in the American and Canadian borders of the Great Lakes. Epidemics of infection related to point-source exposure include patients of all ages and both sexes, but endemic cases are usually in young to middle-aged adults, with more men than women reported. Pneumonia is the most common manifestation and the lung is almost always the organ initially infected. The lung",
+            "classification": {
+              "study_type": "Review (肺部 Blastomycosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33875468",
+            "title": "[Not Available].",
+            "authors": [
+              "Li Kelli",
+              "Khan Abid",
+              "Mishra Sharmistha",
+              "Zhabokritsky Alice"
+            ],
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8722836",
+            "title": "Histoplasmosis and blastomycosis.",
+            "authors": [
+              "Bradsher R W"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1996",
+            "abstract": "Histoplasmosis and blastomycosis are caused by dimorphic fungi, can be epidemic or endemic, and can produce a spectrum of illness, from subclinical infection to progressive disseminated disease. Diagnosis of both is best made by visualization of yeast in tissue or by culture. Itraconazole is the drug of choice for treatment of both histoplasmosis and blastomycosis, except in cases of life-threatening infection, for which amphotericin B is indicated. A heavy inoculum of Histoplasma capsulatum may",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10565884",
+            "title": "Inhaled antimicrobial therapy.",
+            "authors": [
+              "O'Riordan T",
+              "Faris M"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "1999",
+            "abstract": "Although antimicrobial therapy has been administered through the inhaled route for decades, it has always been controversial. There are relatively few accepted indications for this mode of administration. Well-controlled studies of aerosolized antibiotics in cystic fibrosis demonstrate that tobramycin on a cyclical basis may reduce sputum volume, bacterial counts, and improve pulmonary function. Preliminary data indicate that inhaled antibiotic therapy of ventilator-associated tracheobronchitis ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9653427",
+            "title": "Cryptococcal pneumonia complicating pregnancy.",
+            "authors": [
+              "Ely E W",
+              "Peacock J E",
+              "Haponik E F",
+              "Washburn R G"
+            ],
+            "journal": "Medicine",
+            "year": "1998",
+            "abstract": "In the present report we describe 4 previously healthy women who developed cryptococcal pneumonia during pregnancy, and 1 pregnant woman with cryptococcal meningitis. These cases illustrate a previously uncharacterized spectrum of cryptococcal disease. We also discuss 24 patients previously reported who had cryptococcal meningitis during pregnancy. Finally, we review the available data for each therapeutic option and present an algorithm for management based on appraisals of disease severity and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24673698",
+            "title": "Inhaled antibiotics for lower airway infections.",
+            "authors": [
+              "Quon Bradley S",
+              "Goss Christopher H",
+              "Ramsey Bonnie W"
+            ],
+            "journal": "Annals of the American Thoracic Society",
+            "year": "2014",
+            "abstract": "Inhaled antibiotics have been used to treat chronic airway infections since the 1940s. The earliest experience with inhaled antibiotics involved aerosolizing antibiotics designed for parenteral administration. These formulations caused significant bronchial irritation due to added preservatives and nonphysiologic chemical composition. A major therapeutic advance took place in 1997, when tobramycin designed for inhalation was approved by the U.S. Food and Drug Administration (FDA) for use in pati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34603460",
+            "title": "Less common bacterial, fungal and viral infections: review of management in the pregnant patient.",
+            "authors": [
+              "Gould Alyssa P",
+              "Winders Hana R",
+              "Stover Kayla R",
+              "Bookstaver P Brandon",
+              "Griffin Brooke"
+            ],
+            "journal": "Drugs in context",
+            "year": "2021",
+            "abstract": "This review is a comprehensive summary of treatment options for pregnant patients with less common bacterial, fungal, and viral infections. It offers guidance to clinicians based on the most recently published evidence-based research and expert recommendations. A search of MEDLINE (inception to March 2021) and the CDC website was performed. Liposomal amphotericin B is the preferred therapy for cryptococcosis, histoplasmosis, oesophageal candidiasis, and coccidioidomycosis, especially during the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15849838",
+            "title": "Control of bacterial pneumonia during mechanical ventilation.",
+            "authors": [
+              "Kolak Juranko",
+              "van Saene Hendrick K F",
+              "de la Cal Miguel A",
+              "Silvestre Luciano",
+              "Peric Mladen"
+            ],
+            "journal": "Croatian medical journal",
+            "year": "2005",
+            "abstract": "Pneumonia complicates the course of 50% of patients on mechanical ventilation, requiring three or more days of mechanical ventilation and potentially increasing the relative risk of mortality by 20-40%. The predominant potentially pathogenic micro-organisms are Streptococcus pneumoniae, Staphylococcus aureus (sensitive to methicillin in the previously healthy host), Pseudomonas aeruginosa (aerobic gram-negative bacilli), and methicillin-resistant Staphylococcus aureus in the host with underlying",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32691293",
+            "title": "Inhaled Liposomal Antimicrobial Delivery in Lung Infections.",
+            "authors": [
+              "Bassetti Matteo",
+              "Vena Antonio",
+              "Russo Alessandro",
+              "Peghin Maddalena"
+            ],
+            "journal": "Drugs",
+            "year": "2020",
+            "abstract": "The management of difficult-to-treat acute and chronic respiratory infections (infections in cystic fibrosis, non-cystic fibrosis bronchiectasis, immunocompromised and mechanically ventilated patients) and difficult-to-treat pathogens (including multidrug-resistant strains) has become a challenge in clinical practice. The arsenal of conventional antibiotic drugs can be limited by tissue penetration, toxicities, or increasing antibiotic resistance. Inhaled antimicrobials are an interesting therap",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24365857",
+            "title": "Short-term decline in all-cause acquired infections with the routine use of a decontamination regimen combining topical polymyxin, tobramycin, and amphotericin B with mupirocin and chlorhexidine in the ICU: a single-center experience.",
+            "authors": [
+              "Camus Christophe",
+              "Salomon Sylvain",
+              "Bouchigny Claire",
+              "Gacouin Arnaud",
+              "Lavoué Sylvain"
+            ],
+            "journal": "Critical care medicine",
+            "year": "2014",
+            "abstract": "In a multicenter, placebo-controlled, randomized, double-blind trial, we showed that acquired infections in intubated patients were reduced by the combination of topical polymyxin plus tobramycin and nasal mupirocin plus chlorhexidine body wash. Because intubated patients are particularly at risk for acquired infections, we reassessed the impact of this protocol as a routine procedure to control acquired infections in the ICU.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9363054",
+            "title": "Pulmonary infections in immunosuppressed patients.",
+            "authors": [
+              "White D A",
+              "Santamauro J T"
+            ],
+            "journal": "Current opinion in pulmonary medicine",
+            "year": "1995",
+            "abstract": "Pulmonary infections continue to be a significant problem in patients immunosuppressed by cancer or by drugs given for malignancy, or rheumatologic or dermatologic problems. For the neutropenic patient, single-drug rather than combination antibiotic therapy is being increasingly used. The role of growth factors is also being defined. The availability of the new azoles and of alternative forms of amphotericin B have increased treatment options, particularly for invasive pulmonary aspergillosis. P",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12569602",
+            "title": "Refractory Aspergillus pneumonia in patients with acute leukemia: successful therapy with combination caspofungin and liposomal amphotericin.",
+            "authors": [
+              "Aliff Timothy B",
+              "Maslak Peter G",
+              "Jurcic Joseph G",
+              "Heaney Mark L",
+              "Cathcart Kathleen N"
+            ],
+            "journal": "Cancer",
+            "year": "2003",
+            "abstract": "Pulmonary aspergillosis and other invasive fungal infections (IFIs) commonly complicate the management of patients with acute leukemia. Standard amphotericin-based therapies may be ineffective for many patients and the available salvage agents (itraconazole and caspofungin) are reported to possess only moderate activity against resistant infections. Laboratory evidence suggests a synergistic interaction between amphotericin and caspofungin. The authors treated a group of patients with amphoteric",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9660990",
+            "title": "Pharmacokinetic evaluation of amphotericin B in lung tissue: lung lymph distribution after intravenous injection and airspace distribution after aerosolization and inhalation of amphotericin B.",
+            "authors": [
+              "Koizumi T",
+              "Kubo K",
+              "Kaneki T",
+              "Hanaoka M",
+              "Hayano T"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1998",
+            "abstract": "We have studied the pharmacokinetics of amphotericin B (AmB) in lung lymph circulation and bronchial-wash fluid after intravenous infusion and inhalation, respectively. For two experiments with awake sheep, we used lung lymph fistulas and tracheotomy. In experiment 1, AmB concentrations in plasma and lung lymph after intravenous infusion of AmB (1 mg/kg of body weight) over 1.5 h were measured. The mean peak in plasma level was 756.0 +/- 188.8 ng/ml at 3 h after the start of infusion, and the le",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3044680",
+            "title": "Bacterial and fungal pneumonias.",
+            "authors": [
+              "Fels A O"
+            ],
+            "journal": "Clinics in chest medicine",
+            "year": "1988",
+            "abstract": "Bacterial pneumonias occur with increased frequency and can be associated with increased morbidity in the HIV-infected population compared with normals. The pathogens that most frequently cause community-acquired pneumonias are S. pneumoniae, H. influenzae, and occasionally S. aureus. These pneumonias usually respond to appropriate antibiotic therapy; however, patients diagnosed with bacterial pneumonias are at increased risk for subsequent episodes. Nosocomial pneumonias, by contrast, are usual",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20209317",
+            "title": "Chapter 8: Fungal infections in immunocompromised patients.",
+            "authors": [
+              "Silva Rodney Frare e"
+            ],
+            "journal": "Jornal brasileiro de pneumologia : publicacao oficial da Sociedade Brasileira de Pneumologia e Tisilogia",
+            "year": "2010",
+            "abstract": "Pulmonary complications are the most common cause of morbidity and mortality in immunocompromised patients, who lack of the basic mechanisms of cellular defense. Regardless of the cause of the immunodeficiency, the most common complications are infections (bacterial, viral or fungal). Among the fungal infections, aspergillosis is the most common (incidence, 1-9%; mortality, 55-92%) following organ transplant. Although pulmonary involvement is the most common form of aspergillosis, central nervou",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8714157",
+            "title": "[Primary cutaneous cryptococcosis and bacterial pneumonia caused by Pseudomonas aeruginosa in AIDS: clinical case and review of the literature].",
+            "authors": [
+              "Dronda F",
+              "González-López A",
+              "Fernández-Martín J I",
+              "Alonso-Sanz M",
+              "Chaves F"
+            ],
+            "journal": "Enfermedades infecciosas y microbiologia clinica",
+            "year": "1996",
+            "abstract": "Clinically symptomatic infection due to Cryptococcus neoformans is found in 5-10% of patients with AIDS. It usually appears as meningitis with or without associated blood stream infection. In the last years, severe Pseudomonas aeruginosa infections in HIV (+) patients, with a high morbidity and mortality, are increasingly reported.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8397916",
+            "title": "Prophylaxis and treatment of infection in the bone marrow transplant recipient.",
+            "authors": [
+              "Winston D J"
+            ],
+            "journal": "Current clinical topics in infectious diseases",
+            "year": "1993",
+            "abstract": "Considerable progress has been made in the prophylaxis and treatment of infections in the bone marrow transplant recipient. Much of this progress is related to the availability of many new antimicrobial agents and biological products, as well as to an improved understanding of the pathogenesis of infections. Because of the expense associated with many of these agents and products, defensive strategies against infections must consider not only effectiveness but also cost (Table 16.9). It is now p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 嚴重適應症不符：AmB 為抗真菌藥物，對細菌無任何直接作用機轉。三項臨床試驗（NCT05468372：肺部 mucormycosis；NCT04157465：肝衰竭真菌感染；NCT06267326：COVID-19 相關 mucormycosis）及所有文獻均針對真菌性肺炎（cryptococcosis、aspergillosis、blastomycosis、histoplasmosis），而非細菌性肺炎。高 TxGNN 分數推測源於肺部感染相關 KG 節點結構鄰近性造成的錯誤映射。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "meningococcal infection",
+      "txgnn": {
+        "score": 0.9430125951766968,
+        "rank": 28220
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11105143",
+            "title": "Efficacy and Tolerability of Liposomal Amphotericin B (Ambisome) in the Treatment of Visceral Leishmaniasis in Brazil.",
+            "authors": [
+              "Freire M",
+              "Badaró F",
+              "Avelar ME",
+              "Luz K",
+              "Nakatani MS"
+            ],
+            "journal": "The Brazilian journal of infectious diseases : an official publication of the Brazilian Society of Infectious Diseases",
+            "year": "1997",
+            "abstract": "Thirty-two patients were enrolled in an open-label, dose/schedule ranging clinical trial to evaluate the efficacy and tolerability ofliposomal amphotericin B (Ambisome) in the treatment of visceral leishmaniasis. All patients received a dose of 2mg/kg daily for the first 4 days, followed by a single repeat dose of 2mg/kg at day 10 in 4 patients (total dose 10mg/kg); repeat doses on days 5, 6, and 10 in 13 patients (total dose 14mg/kg); or daily doses were continued on days 5 through 10 in 15 pat",
+            "classification": {
+              "study_type": "RCT (內臟利什曼病，非腦膜炎)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4944736",
+            "title": "[Therapy of meningitides].",
+            "authors": [
+              "Bender F"
+            ],
+            "journal": "Bibliotheca psychiatrica et neurologica",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Review 1969 (廣義腦膜炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6036959",
+            "title": "The headache associated with cisternal injections of amphotericin B.",
+            "authors": [
+              "Moore T F"
+            ],
+            "journal": "Headache",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (AmB 鞘內注射副作用)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9459405",
+            "title": "Hazards of inadequate fluconazole dosage to treat deep-seated or systemic Candida albicans infection.",
+            "authors": [
+              "Flanagan P G",
+              "Barnes R A"
+            ],
+            "journal": "The Journal of infection",
+            "year": "1997",
+            "abstract": "We report three cases of deep-seated and systemic Candida albicans infection in which inadequate dosages of fluconazole were used, leading to breakthrough fungaemia, candidal osteomyelitis and endocarditis. The need to modify fluconazole dosage in patients receiving continuous venovenous haemofiltration is discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5455302",
+            "title": "Right lower lobe lesion with meningitis.",
+            "authors": [
+              "Choy P P"
+            ],
+            "journal": "Chest",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report 1970",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "根本機轉不符：腦膜炎雙球菌（Neisseria meningitidis）為革蘭氏陰性細菌，AmB 對其完全無殺菌活性（AmB 靶向麥角固醇，細菌無此成分）。5 篇文獻中：2 篇為 1960-70 年代廣義腦膜炎治療歷史文獻；1 篇描述 AmB 鞘內注射頭痛副作用；1 篇為內臟利什曼病 AmB 治療；1 篇為肺部病灶合併腦膜炎案例。KG 分數源於「腦膜炎」語義節點聚集造成的語義漂移。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "endocardial fibroelastosis",
+      "txgnn": {
+        "score": 0.936105728149414,
+        "rank": 29530
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉關聯：心內膜彈力纖維增生症（EFE）為罕見小兒心臟疾病，病因涉及病毒感染（腮腺炎、流感病毒）、遺傳異常（Barth syndrome、Danon disease）或自體免疫，與真菌感染無直接病因關聯。無任何文獻或臨床試驗支持 AmB 用於 EFE。TxGNN 分數（0.936）為純粹演算法預測，推測源於知識圖譜中心臟結構節點的間接連結，無任何臨床基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9329676628112792,
+        "rank": 30111
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1096003",
+            "title": "Yeasts in banal external ocular inflammations.",
+            "authors": [
+              "Romano A",
+              "Segal E",
+              "Stein R",
+              "Eylan E"
+            ],
+            "journal": "Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift fur Augenheilkunde",
+            "year": "1975",
+            "abstract": "In 53 out of 313 patients suffering from longstanding inflammations of the outer eye or dacryocanaliculitis, not yielding to the obligate treatment with antibiotics and steroids, yeasts were isolated and regarded as the causative agents. Among the yeasts, different Candida species were prevalent, with C. albicans and C. guillermondii at the top. An obstinate, superificial epithelial and subepithelial punctate keratitis appeared to represent an entity pathognomonic of a yeast infection. Eradicati",
+            "classification": {
+              "study_type": "Historical Case Observation 1975",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "點狀上皮角膜結膜炎（PEK）通常由腺病毒感染、乾眼症、藥物毒性或眼瞼異常引起，真菌感染非主要病因。唯一文獻（PMID 1096003, 1975 年）為 50 年前歷史性描述外眼炎症中的酵母菌存在，不構成有效治療依據。值得注意的是局部 AmB 滴眼液確實用於真菌性角膜炎（fungal keratitis），但此為不同疾病實體，需區分。本適應症不宜推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "bacterial arthritis",
+      "txgnn": {
+        "score": 0.9326645731925964,
+        "rank": 30176
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7049575",
+            "title": "Blastomycosis.",
+            "authors": [
+              "Tenenbaum M J",
+              "Greenspan J",
+              "Kerkering T M"
+            ],
+            "journal": "Critical reviews in microbiology",
+            "year": "1982",
+            "abstract": "Blastomycosis is the infection caused by the dimorphic fungus Blastomyces dermatitidis. The fungus was believed to be limited in distribution to North America but is found in Africa and northern South America, too. The exact natural habitat of B. dermatitidis is still uncertain with only rare reported isolation of the fungus from the environment. The inability to recover the organism from nature along with the absence of both a reliable skin test antigen and a sensitive serological test have sig",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16297735",
+            "title": "Fungal arthritis and osteomyelitis.",
+            "authors": [
+              "Kohli Rakhi",
+              "Hadley Susan"
+            ],
+            "journal": "Infectious disease clinics of North America",
+            "year": "2005",
+            "abstract": "Fungal arthritis and osteomyelitis are uncommon diseases and generally present in an indolent fashion. The incidence of fungal bone and joint dis-ease is increasing with an increase in the prevalence of factors predisposing to invasive fungal disease, such as the use of central venous catheters, broad spectrum antibiotics, immunosuppression, and abdominal surgery. Definitive diagnosis relies on bone or synovial culture or biopsy. Successful management has traditionally consisted of amphotericin ",
+            "classification": {
+              "study_type": "Review (真菌性關節炎/骨髓炎)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "347998",
+            "title": "Coccidioidomycosis. Part II.",
+            "authors": [
+              "Drutz D J",
+              "Catanzaro A"
+            ],
+            "journal": "The American review of respiratory disease",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1059760",
+            "title": "Candida arthritis treated with amphotericin B.",
+            "authors": [
+              "Poplack D G",
+              "Jacobs S A"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1975",
+            "abstract": "This report describes a patient with acute lymphoblastic leukemia who developed arthritis of the knee caused by Candida tropicalis. Systemic therapy with amphotericin B apparently suppressed but did not eliminate the infection. Resolution of the arthritis occurred only after three intra-articular injections of amphotericin B. Intra-articular administration of amphotericin B may be a useful adjunct to systemic antifungal therapy in the treatment of these infections.",
+            "classification": {
+              "study_type": "Case Report (Candida 關節炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31345844",
+            "title": "Amphotericin B Induction with Voriconazole Consolidation as Salvage Therapy for FKS-Associated Echinocandin Resistance in Candida glabrata Septic Arthritis and Osteomyelitis.",
+            "authors": [
+              "Wright William F",
+              "Bejou Nika",
+              "Shields Ryan K",
+              "Marr Kieren",
+              "McCarty Todd P"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2019",
+            "abstract": "We report the case of a 61-year-old female with Crohn's disease dependent on total parenteral nutrition who developed a central venous catheter bloodstream infection and septic arthritis, complicated further by osteomyelitis and persistent Candida glabrata fungemia. Fluconazole treatment led to persistent infection, and micafungin therapy failed with development of FKS-associated resistance. Infection responded after initiation of amphotericin B plus voriconazole. Echinocandin resistance is incr",
+            "classification": {
+              "study_type": "Case Study (棘白菌素抗藥性 Candida)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1294755",
+            "title": "Articular histoplasmosis.",
+            "authors": [
+              "Darouiche R O",
+              "Cadle R M",
+              "Zenon G J",
+              "Weinert M F",
+              "Hamill R J"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1992",
+            "abstract": "Rheumatic manifestations of histoplasmosis are uncommon. Polyarthritis or arthralgias may occur as a part of a sensitization process in primary acute histoplasmosis. Infectious arthritis may accompany disseminated histoplasmosis or occur as solitary monoarthritis. Treatment of the latter traditionally consists of surgical excision followed by amphotericin B. Reports of clinical experience with the newer triazole compounds in treating articular histoplasmosis are lacking. We describe a patient wi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8263628",
+            "title": "Treatment of Candida arthritis with flucytosine and amphotericin B.",
+            "authors": [
+              "Weisse M E",
+              "Person D A",
+              "Berkenbaugh J T"
+            ],
+            "journal": "Journal of perinatology : official journal of the California Perinatal Association",
+            "year": "1993",
+            "abstract": "A premature infant with disseminated Candida tropicalis infection with arthritis and osteomyelitis is presented. Although the organism was susceptible to amphotericin B, synovial fluid cultures were still positive for yeast after 2 weeks of intravenous amphotericin B therapy. The addition of oral flucytosine (25 mg/kg four times daily) resulted in sterilization of the synovial fluid within 4 days. Simultaneous serum and synovial levels of flucytosine were 47.5 micrograms/ml and 39.6 micrograms/m",
+            "classification": {
+              "study_type": "Case Report (Candida 關節炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24502270",
+            "title": "Long-term sustained-released in situ gels of a water-insoluble drug amphotericin B for mycotic arthritis intra-articular administration: preparation, in vitro and in vivo evaluation.",
+            "authors": [
+              "Shan-Bin Guo",
+              "Yue Tian",
+              "Ling-Yan Jian"
+            ],
+            "journal": "Drug development and industrial pharmacy",
+            "year": "2015",
+            "abstract": "Amphotericin B (AMB) was often used in intra-articular injection administration for fungal arthritis, because it could often bring a satisfactory therapeutic efficacy and a minimum systemic toxic side effect. However, because of the multiple operations and the frequent injections, the compliance of the patients was bad. Therefore, to develop a long-term sustained-released preparation of AMB for mycotic arthritis intra-articular administration is of great significance. The purpose of present stud",
+            "classification": {
+              "study_type": "Preclinical (緩釋製劑)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32213145",
+            "title": "Management of osteoarticular fungal infections in the setting of immunodeficiency.",
+            "authors": [
+              "Papachristou Savvas G",
+              "Iosifidis Elias",
+              "Sipsas Nikolaos V",
+              "Gamaletsou Maria N",
+              "Walsh Thomas J"
+            ],
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2020",
+            "abstract": "Introduction: Osteoarticular fungal infections (OAFIs) complicate the clinical course of high-risk patients, including immunosuppressed individuals. Their management, however, despite being intricate, is governed by evidence arising from sub-optimal quality research, such as case series. Guidelines are scarce and when present result in recommendations based on low quality evidence. Furthermore, the differences between the management of immunocompromised and immunocompetent patients are not disti",
+            "classification": {
+              "study_type": "Review (骨關節真菌感染/免疫缺陷)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15216961",
+            "title": "Septic arthritis due to Aspergillus treated with amphotericin B lipid complex and surgical debridement.",
+            "authors": [
+              "Saba R",
+              "Beköz H",
+              "Karadoğan I",
+              "Inan D",
+              "Bilgin-Uğur A"
+            ],
+            "journal": "Journal of chemotherapy (Florence, Italy)",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (Aspergillus 關節炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8502780",
+            "title": "Candida arthritis.",
+            "authors": [
+              "Silveira L H",
+              "Cuéllar M L",
+              "Citera G",
+              "Cabrera G E",
+              "Scopelitis E"
+            ],
+            "journal": "Rheumatic diseases clinics of North America",
+            "year": "1993",
+            "abstract": "Septic arthritis can be caused by Candida species. Its true incidence is unknown because only a few cases have been reported. Two clinical syndromes have been identified. The first is an isolated monarthritis caused by the direct intra-articular inoculation of fungi that inhabit the skin, by means of an injection, or during surgery. The second is the development of a mono- or polyarthritis as a complication of hematogenously disseminated candidiasis. The optimum treatment of this condition is no",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3584893",
+            "title": "Extracutaneous sporotrichosis.",
+            "authors": [
+              "Janes P C",
+              "Mann R J"
+            ],
+            "journal": "The Journal of hand surgery",
+            "year": "1987",
+            "abstract": "Although an uncommon cause of arthritis, sporotrichosis may mimic other forms of joint disease and should be considered in the differential diagnosis of a patient with a chronic monoarticular arthritis or if granulomatous synovitis is recognized by histologic examination. Characteristic skin findings may be absent, repeated cultures may be necessary, severe osseous destructive changes can occur, and surgical extirpation of the diseased tissue combined with amphotericin B chemotherapy is recommen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5055175",
+            "title": "Sporotrichosis arthritis and tenosynovitis. Report of a case cured by synovectomy and amphotericin B.",
+            "authors": [
+              "Dehaven K E",
+              "Wilde A H",
+              "O'Duffy J D"
+            ],
+            "journal": "The Journal of bone and joint surgery. American volume",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8970223",
+            "title": "Successful therapy of Candida albicans arthritis with a sequential intravenous amphotericin B and oral fluconazole regimen.",
+            "authors": [
+              "Barson W J",
+              "Marcon M J"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8258017",
+            "title": "Candida arthritis treated with intra-articular amphotericin B.",
+            "authors": [
+              "Nouyrigat P",
+              "Baume D",
+              "Blaise D",
+              "Revillon D",
+              "Gabus R"
+            ],
+            "journal": "The European journal of medicine",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39458078",
+            "title": "Fungal Shoulder Periprosthetic Infections: A Systematic Review.",
+            "authors": [
+              "Giovanoulis Vasileios",
+              "Pastamentzas Vasileios",
+              "Veizi Enejd",
+              "Matzaroglou Charalampos",
+              "Naoum Symeon"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2024",
+            "abstract": "Background: Data regarding fungal PJIs of the shoulder are scarce. The present systematic review aims to identify and evaluate all published shoulder fungal PJIs in an effort to better understand the diagnostic and therapeutic approach to these infections. Methods: A systematic review according to the PRISMA guidelines was conducted, locating all shoulder fungal PJIs. The initial search located 1435 articles. Data were collected on demographics, the causative fungus, antifungal treatment (AFT), ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10524556",
+            "title": "Candida glabrata arthritis: case report and review of the literature of Candida arthritis.",
+            "authors": [
+              "Zmierczak H",
+              "Goemaere S",
+              "Mielants H",
+              "Verbruggen G",
+              "Veys E M"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "1999",
+            "abstract": "We report a case of arthritis due to Candida (Torulopsis) glabrata in two different joints at different times in the same patient. The first episode of arthritis was situated in the right ankle and lasted more than 1 year before the patient agreed to the proposed treatment. Therapy with intravenous amphotericin B and oral fluconazole failed. A cure was achieved with weekly intra-articular administration of amphotericin B, which was continued for more than 20 weeks and combined with oral itracona",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7751243",
+            "title": "Amphotericin B treatment of Candida arthritis in two horses.",
+            "authors": [
+              "Madison J B",
+              "Reid B V",
+              "Raskin R E"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1995",
+            "abstract": "Infectious arthritis caused by Candida spp was diagnosed in 2 horses. Source of infection was by direct inoculation in 1 horse and was presumed to be hematogenous in the other horse. On microbial culturing of synovial fluid and synovial membrane specimens, the organisms were isolated in both horses. In both horses, the joint infections resolved after i.v. administration of amphotericin B and joint drainage; however, 1 horse was eventually euthanatized because of signs of cervical pain and progre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10526387",
+            "title": "Successful lipid-complexed amphotericin B treatment of Candida arthritis in a lymphoma patient.",
+            "authors": [
+              "Azaceta G",
+              "Olave T",
+              "de los Martires L D",
+              "Delgado C",
+              "Gutierrez M"
+            ],
+            "journal": "Revue du rhumatisme (English ed.)",
+            "year": "1999",
+            "abstract": "Fungal arthritis is uncommon but has been increasingly diagnosed over recent years, particularly in patients with immunodeficiency due for instance to hematological malignancies. Candida albicans is the most frequent causative agent, and the knee is the joint most often involved. Amphotericin B is the drug of choice, but is associated with significant toxicity. Recently developed lipid formulations of amphotericin B have been found as effective and less toxic than the conventional formulation. W",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40539059",
+            "title": "Case Report: Disseminated leishmaniasis and rheumatoid arthritis: navigating a clinical conundrum.",
+            "authors": [
+              "Shahini Endrit",
+              "Marziliano Donatello",
+              "Losito Francesco",
+              "Zappimbulso Marianna",
+              "Cavalcanti Elisabetta"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "Leishmaniasis is a potentially life-threatening protozoan infection that presents with many clinical manifestations, including cutaneous, mucocutaneus and visceral forms. In patients with rheumatoid arthritis (RA), cutaneous leishmaniasis can persist or re-emerge due to treatment-induced immunosuppression. However, it remains unclear whether this severe opportunistic infection is primarily driven by medication-induced immunosuppression or other poorly understood immune-mediated mechanisms that i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ KG 適應症標注偏差警告：所有 20 篇文獻實際描述真菌性關節炎（Candida、Aspergillus、Blastomyces、Coccidioides、Histoplasma 等），而非細菌性關節炎。AmB 對細菌完全無殺菌機轉。若重新標注為「fungal arthritis / septic arthritis (fungal etiology)」，則 L3 等級有效，機轉為關節腔抗真菌穿透（特別是脂質體製劑）。建議修正適應症標注後重新評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "endocarditis",
+      "txgnn": {
+        "score": 0.9290733337402344,
+        "rank": 30803
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40490193",
+            "title": "Candida endocarditis: current perspectives on diagnosis and therapy.",
+            "authors": [
+              "Ben-Ami Ronen",
+              "Bassetti Matteo",
+              "Bouza Emilio",
+              "Kosman Alex",
+              "Vena Antonio"
+            ],
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2026",
+            "abstract": "Candida infective endocarditis (CIE) is a rare but potentially devastating condition. Although it accounts for only 1-1.5% of infective endocarditis cases, CIE carries a high mortality rate (36-49%) and a substantial risk of relapse. Despite advances in diagnostic and therapeutic strategies, significant uncertainties persist regarding the role and selection of imaging modalities and the most effective medical and surgical management. Furthermore, the best follow-up strategy to promptly detect re",
+            "classification": {
+              "study_type": "Contemporary Review 2026",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33118745",
+            "title": "Antifungal Efficacy of Amphotericin B in Candida Albicans Endocarditis Therapy: Systematic Review.",
+            "authors": [
+              "Bezerra Lucas Soares",
+              "Silva Janielli Assis da",
+              "Santos-Veloso Marcelo Antônio Oliveira",
+              "Lima Sandro Gonçalves de",
+              "Chaves-Markman Ândrea Virgínia"
+            ],
+            "journal": "Brazilian journal of cardiovascular surgery",
+            "year": "2020",
+            "abstract": "Although it is the most common agent among the fungal causes of endocarditis, Candida albicans endocarditis is rare.",
+            "classification": {
+              "study_type": "Systematic Review (Candida 心內膜炎)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24126720",
+            "title": "Fungal endocarditis.",
+            "authors": [
+              "Tacke Daniela",
+              "Koehler Philipp",
+              "Cornely Oliver A"
+            ],
+            "journal": "Current opinion in infectious diseases",
+            "year": "2013",
+            "abstract": "Fungal endocarditis remains a rare disease occurring mostly in patients with predisposing host conditions. Regarding its poor prognosis because of severe complications, there is an urgent need for properly established treatment guidelines and prophylaxis for patients at risk. In this review we provide up-to-date information on treatment recommendations, and discuss recent case reports on fungal endocarditis and challenges in prophylaxis and treatment.",
+            "classification": {
+              "study_type": "Review (真菌性心內膜炎)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23137135",
+            "title": "ESCMID* guideline for the diagnosis and management of Candida diseases 2012: non-neutropenic adult patients.",
+            "authors": [
+              "Cornely O A",
+              "Bassetti M",
+              "Calandra T",
+              "Garbino J",
+              "Kullberg B J"
+            ],
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2012",
+            "abstract": "This part of the EFISG guidelines focuses on non-neutropenic adult patients. Only a few of the numerous recommendations can be summarized in the abstract. Prophylactic usage of fluconazole is supported in patients with recent abdominal surgery and recurrent gastrointestinal perforations or anastomotic leakages. Candida isolation from respiratory secretions alone should never prompt treatment. For the targeted initial treatment of candidaemia, echinocandins are strongly recommended while liposoma",
+            "classification": {
+              "study_type": "ESCMID Clinical Practice Guideline 2012",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15545866",
+            "title": "Fusarium solani endocarditis successfully treated with liposomal amphotericin B and voriconazole.",
+            "authors": [
+              "Guzman-Cottrill Judith A",
+              "Zheng Xiaotian",
+              "Chadwick Ellen G"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2004",
+            "abstract": "Fungal infections caused by Fusarium in the immunocompromised host are highly resistant to all antifungal agents. Fusarium endocarditis is a rare and usually fatal disease. We report an immunocompromised child who survived Fusarium solani endocarditis despite the in vitro resistance of the organism to all available antifungal agents.",
+            "classification": {
+              "study_type": "Case Report (Fusarium)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2502408",
+            "title": "Candidiasis.",
+            "authors": [
+              "Meunier F"
+            ],
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "1989",
+            "abstract": "Candida spp. are the most common fungal pathogens isolated in immunocompromised hosts, particularly cancer patients. Numerous clinical manifestations of candidiasis have been recognized, including localized infection such as oropharyngeal candidiasis or focal hepatic candidiasis, and disseminated infection resulting from hematogenous spread, with or without documented fungemia. Granulocytopenic patients are particularly at risk. Candida albicans is isolated in approximately 40% of cases of funge",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12512183",
+            "title": "Deeply invasive candidiasis.",
+            "authors": [
+              "Ostrosky-Zeichner Luis",
+              "Rex John H",
+              "Bennett John",
+              "Kullberg Bart-Jan"
+            ],
+            "journal": "Infectious disease clinics of North America",
+            "year": "2002",
+            "abstract": "The incidence of invasive candidiasis is on the rise because of increasing numbers of immunocompromised hosts and more invasive medical technology. Recovery of Candida spp from several body sites in a critically ill or immunocompromised patient should raise the question of disseminated disease. Although identification to the species level and antifungal susceptibility testing should guide therapy, at this time amphotericin B preparations are the usual initial therapy for severe life-threatening ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14175539",
+            "title": "CANDIDA ENDOCARDITIS.",
+            "authors": [
+              "SOLER-BECHARA J",
+              "SOSCIA J L",
+              "KENNEDY R J",
+              "GRACE W J"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Case Series (1964)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9374975",
+            "title": "Efficacy of deoxycholate amphotericin B and unilamellar liposomal amphotericin B in prophylaxis of experimental Aspergillus fumigatus endocarditis.",
+            "authors": [
+              "Mylonakis E",
+              "Chalevelakis G",
+              "Saroglou G",
+              "Danias P",
+              "Argyropoulou A D"
+            ],
+            "journal": "Mayo Clinic proceedings",
+            "year": "1997",
+            "abstract": "To evaluate and compare in vivo the protective efficacy of unilamellar liposomal amphotericin B (L-AmB) with that of deoxycholate amphotericin B (D-AmB) in experimental endocarditis.",
+            "classification": {
+              "study_type": "Experimental (動物模型)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11158745",
+            "title": "Impact of the order of initiation of fluconazole and amphotericin B in sequential or combination therapy on killing of Candida albicans in vitro and in a rabbit model of endocarditis and pyelonephritis.",
+            "authors": [
+              "Louie A",
+              "Kaw P",
+              "Banerjee P",
+              "Liu W",
+              "Chen G"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2001",
+            "abstract": "In vitro time-kill studies and a rabbit model of endocarditis and pyelonephritis were used to define the impact that the order of exposure of Candida albicans to fluconazole (FLC) and amphotericin B (AMB), as sequential and combination therapies, had on the susceptibility of C. albicans to AMB and on the outcome. The contribution of FLC-induced resistance to AMB for C. albicans also was assessed. In vitro, AMB monotherapy rapidly killed each of four C. albicans strains; FLC alone was fungistatic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25933094",
+            "title": "Fungal Endocarditis in Neonates: A Review of Seventy-one Cases (1971-2013).",
+            "authors": [
+              "Pana Zoe Dorothea",
+              "Dotis Jhn",
+              "Iosifidis Elias",
+              "Roilides Emmanuel"
+            ],
+            "journal": "The Pediatric infectious disease journal",
+            "year": "2015",
+            "abstract": "Fungal endocarditis (FE) remains an uncommon but life-threatening complication of invasive fungal infections. As data on neonatal FE are scant, we aimed to review all published experience regarding this serious infection.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37051439",
+            "title": "Flucytosine and its clinical usage.",
+            "authors": [
+              "Sigera L Shamithra M",
+              "Denning David W"
+            ],
+            "journal": "Therapeutic advances in infectious disease",
+            "year": "2023",
+            "abstract": "Flucytosine is an antifungal agent first licensed in the 1970's. However, its clinical value has long been overlooked and its availability across the globe is limited. This review highlights the important clinical and pharmacological aspects of flucytosine. This a narrative review of the clinical and in vitro susceptibility literature, with a focus on clinical uses for flucytosine. Detailed literature review including early literature related to primary and acquired resistance to flucytosine. Fl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37508277",
+            "title": "Trichosporon asahii Infective Endocarditis of Prosthetic Valve: A Case Report and Literature Review.",
+            "authors": [
+              "Mulè Alice",
+              "Rossini Francesco",
+              "Sollima Alessio",
+              "Lenzi Angelica",
+              "Fumarola Benedetta"
+            ],
+            "journal": "Antibiotics (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "Trichosporon spp. endocarditis is a severe and hard-to-treat infection. Immunosuppressed subjects and carriers of prosthetic valves or intracardiac devices are at risk. This article presents the case of an immunocompetent 74-year-old man affected by endocarditis of the prosthetic aortic valve. After Bentall surgery, cultures of the removed valve demonstrated Trichosporon ashaii as the etiological agent. The patient was treated with amphotericin B at first and subsequently with fluconazole. Given",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1810181",
+            "title": "Comparison of fluconazole and amphotericin B for prevention and treatment of experimental Candida endocarditis.",
+            "authors": [
+              "Witt M D",
+              "Bayer A S"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1991",
+            "abstract": "Fluconazole and amphotericin B were compared in the prophylaxis and treatment of Candida albicans aortic endocarditis in a rabbit model. In the prophylaxis study, catheterized rabbits received, prior to intravenous (i.v.) challenge with C. albicans (2 x 10(7) blastospores), either no therapy, single-dose i.v. amphotericin B (1 mg/kg of body weight), single-dose fluconazole (50 mg/kg or 100 mg/kg i.v. or intraperitoneally [i.p.]), or fluconazole (50 mg/kg or 100 mg/kg i.v. or i.p.) with a second ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7226950",
+            "title": "Histoplasma capsulatum endocarditis.",
+            "authors": [
+              "Blair T",
+              "Raymond L"
+            ],
+            "journal": "Chest",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8157577",
+            "title": "Amphotericin B lipid complex in the treatment of experimental cryptococcal meningitis and disseminated candidosis.",
+            "authors": [
+              "Perfect J R",
+              "Wright K A"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1994",
+            "abstract": "In the quest for safer and more effective antifungal agents, amphotericin B (AMB) has been placed in a variety of lipid preparations. In this study, we examined the efficacy of amphotericin B lipid complex (ABLC) on experimental cryptococcal meningitis and disseminated candidosis. This formulation is relatively safe compared to the parent compound, and therefore doses ten times greater than the commercial amphotericin B deoxycholate can be given to rabbits. Although at equal doses the ABLC prepa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20608781",
+            "title": "Aspergillus endocarditis 2003-2009.",
+            "authors": [
+              "McCormack Joe",
+              "Pollard James"
+            ],
+            "journal": "Medical mycology",
+            "year": "2011",
+            "abstract": "A retrospective study of 35 case reports of Aspergillus endocarditis published between 2003 and 2009 was carried out. Fifteen percent of cases presented with a new cardiac murmur, 38% with an embolus. Eighty percent of cases involved the aortic or mitral valves. Seventy-four percent of cases involved patients with a history of prior surgery, 48% of these involved a heart valve, 20% had other cardiac surgery and 32% had non-cardiac surgery. Galactomannan testing was helpful diagnostically in four",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4902629",
+            "title": "Amphotericin B therapy in children; a review of the literature and a case report.",
+            "authors": [
+              "Cherry J D",
+              "Lloyd C A",
+              "Quilty J F",
+              "Laskowski L F"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9174196",
+            "title": "Combination therapy with amphotericin B and fluconazole against invasive candidiasis in neutropenic-mouse and infective-endocarditis rabbit models.",
+            "authors": [
+              "Sanati H",
+              "Ramos C F",
+              "Bayer A S",
+              "Ghannoum M A"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1997",
+            "abstract": "Although there are an increasing number of new antifungal agents available, the morbidity and mortality due to invasive mycoses remain high. The high rates of polyene toxicities and the development of azole resistance have raised the issue of using antifungal agents of these classes in combination, despite theoretical concerns regarding antagonism between such agents. This study was designed to evaluate the in vivo efficacy of combined therapy with amphotericin B and fluconazole against Candida ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25178919",
+            "title": "Fungal endocarditis: current challenges.",
+            "authors": [
+              "Tattevin Pierre",
+              "Revest Matthieu",
+              "Lefort Agnès",
+              "Michelet Christian",
+              "Lortholary Olivier"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2014",
+            "abstract": "Whilst it used to affect mostly intravenous drug users and patients who underwent valvular surgery with suboptimal infection control procedures, fungal endocarditis is now mostly observed in patients with severe immunodeficiency (onco-haematology), in association with chronic central venous access and broad-spectrum antibiotic use. The incidence of fungal endocarditis has probably decreased in most developed countries with access to harm-reduction policies (i.e. needle exchange programmes) and w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "AmB 對 Candida（含生物膜）及 Fusarium 等真菌具廣效殺真菌活性，可穿透心臟瓣膜植入物相關生物膜，為真菌性心內膜炎標準治療之一，已獲 ESCMID 2012 指引推薦（脂質體製劑優先）。無 RCT 主要因倫理限制（稀少致命病症），以系統性回顧與指引代替。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "pneumocystosis",
+      "txgnn": {
+        "score": 0.9160768389701844,
+        "rank": 32944
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28774701",
+            "title": "Fungal infections in HIV/AIDS.",
+            "authors": [
+              "Limper Andrew H",
+              "Adenis Antoine",
+              "Le Thuy",
+              "Harrison Thomas S"
+            ],
+            "journal": "The Lancet. Infectious diseases",
+            "year": "2017",
+            "abstract": "Fungi are major contributors to the opportunistic infections that affect patients with HIV/AIDS. Systemic infections are mainly with Pneumocystis jirovecii (pneumocystosis), Cryptococcus neoformans (cryptococcosis), Histoplasma capsulatum (histoplasmosis), and Talaromyces (Penicillium) marneffei (talaromycosis). The incidence of systemic fungal infections has decreased in people with HIV in high-income countries because of the widespread availability of antiretroviral drugs and early testing for",
+            "classification": {
+              "study_type": "Review (HIV 真菌感染)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21193785",
+            "title": "An official American Thoracic Society statement: Treatment of fungal infections in adult pulmonary and critical care patients.",
+            "authors": [
+              "Limper Andrew H",
+              "Knox Kenneth S",
+              "Sarosi George A",
+              "Ampel Neil M",
+              "Bennett John E"
+            ],
+            "journal": "American journal of respiratory and critical care medicine",
+            "year": "2011",
+            "abstract": "With increasing numbers of immune-compromised patients with malignancy, hematologic disease, and HIV, as well as those receiving immunosupressive drug regimens for the management of organ transplantation or autoimmune inflammatory conditions, the incidence of fungal infections has dramatically increased over recent years. Definitive diagnosis of pulmonary fungal infections has also been substantially assisted by the development of newer diagnostic methods and techniques, including the use of ant",
+            "classification": {
+              "study_type": "ATS Official Statement/Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10565884",
+            "title": "Inhaled antimicrobial therapy.",
+            "authors": [
+              "O'Riordan T",
+              "Faris M"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "1999",
+            "abstract": "Although antimicrobial therapy has been administered through the inhaled route for decades, it has always been controversial. There are relatively few accepted indications for this mode of administration. Well-controlled studies of aerosolized antibiotics in cystic fibrosis demonstrate that tobramycin on a cyclical basis may reduce sputum volume, bacterial counts, and improve pulmonary function. Preliminary data indicate that inhaled antibiotic therapy of ventilator-associated tracheobronchitis ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30508854",
+            "title": "[Opportunistic infections: What's new?].",
+            "authors": [
+              "Boesecke Christoph",
+              "Rockstroh Jürgen K",
+              "Thoden Jan"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2018",
+            "abstract": "Guidelines from 3 clinical societies and peer-reviewed publications have been reviewed for recent changes in the management of opportunistic infections. Trimethoprim and sulfamethoxazol administered intravenously is an option to treat cerebral toxoplasmosis if oral therapy is not feasible. CD4 T cell cut-off for starting prophylaxis with trimethoprim and sulfamethoxazole is now 200/µl. For prophylaxis and treatment of Pneumocystis pneumonia trimethoprim and sulfamethoxazole still are recommended",
+            "classification": {
+              "study_type": "Review (機會性感染)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8589154",
+            "title": "Paracoccidioidomycosis and AIDS: an overview.",
+            "authors": [
+              "Goldani L Z",
+              "Sugar A M"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "1995",
+            "abstract": "The scarcity of reported cases of paracoccidioidomycosis and AIDS remains unexplained. We review the details of the 27 cases reported in the medical literature. Paracoccidioidomycosis occurs in patients with advanced AIDS who are not receiving prophylaxis for Pneumocystis carinii pneumonia with trimethoprim-sulfamethoxazole, which is also effective against Paracoccidioides brasiliensis. Clinical manifestations include prolonged fever, weight loss, generalized lymphadenopathy, splenomegaly, hepat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26398544",
+            "title": "Overview of Fungal Infections--The Italian Experience.",
+            "authors": [
+              "Bassetti Matteo",
+              "Righi Elda"
+            ],
+            "journal": "Seminars in respiratory and critical care medicine",
+            "year": "2015",
+            "abstract": "The incidence of severe fungal infections has increased worldwide and represents a serious threat, especially among immunocompromised and critically ill patients. Most common pulmonary fungal infections include aspergillosis, cryptococcosis, and Pneumocystis jiroveci pneumonia. Among nosocomial bloodstream infections, Candida spp. is the most common isolated fungus. Mortality rates up to 60% in critically ill patients with Candida infections and 90% in hematological patients with invasive asperg",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9363054",
+            "title": "Pulmonary infections in immunosuppressed patients.",
+            "authors": [
+              "White D A",
+              "Santamauro J T"
+            ],
+            "journal": "Current opinion in pulmonary medicine",
+            "year": "1995",
+            "abstract": "Pulmonary infections continue to be a significant problem in patients immunosuppressed by cancer or by drugs given for malignancy, or rheumatologic or dermatologic problems. For the neutropenic patient, single-drug rather than combination antibiotic therapy is being increasingly used. The role of growth factors is also being defined. The availability of the new azoles and of alternative forms of amphotericin B have increased treatment options, particularly for invasive pulmonary aspergillosis. P",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2121456",
+            "title": "Therapy and prophylaxis of systemic protozoan infections.",
+            "authors": [
+              "Van Voorhis W C"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "This article summarises current therapy and prophylaxis for Pneumocystis carinii, Toxoplasma gondii, Leishmania species, African trypanosomes (Trypanosoma brucei gambiense and T. b. rhodesiense), and American trypanosome (Trypanosoma cruzi) infections. Each agent and the disease it causes is briefly reviewed, and current data on the structure, mode of action, indications for treatment, dosage, administration, duration of therapy, efficacy, toxicity, and necessary monitoring during therapy are di",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1818270",
+            "title": "[Comparative study of the therapy of Candida esophagitis in HIV-1-infected patients with fluconazole or amphotericin B and flucytosine].",
+            "authors": [
+              "Brockmeyer N H",
+              "Hantschke D",
+              "Olbricht T",
+              "Hengge U A",
+              "Goos M"
+            ],
+            "journal": "Mycoses",
+            "year": "1991",
+            "abstract": "In 20 HIV-patients (17 male homosexuals, 1 male and 1 female i.v. drug abuser and 1 female patient with M. Willebrand-Jürgens) Candida esophagitis was diagnosed by esophagogastroduodenoscopy. Clinically they presented retrosternal pain or an exacerbation of oral candidosis under local antimycotics. The diagnosis of Candida esophagitis was based on histopathologic examination and culture studies of biopsy specimen from macroscopically suspect lesions. Candida antigen was found in the serum of 30%",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41567111",
+            "title": "Antifungal treatment strategies in intensive care unit patients.",
+            "authors": [
+              "Bartalucci Claudia",
+              "Mezzogori Laura",
+              "Schiavoni Riccardo",
+              "Vena Antonio",
+              "Giacobbe Daniele Roberto"
+            ],
+            "journal": "European journal of clinical investigation",
+            "year": "2026",
+            "abstract": "Invasive fungal infections (IFIs) are a major cause of morbidity and mortality among critically ill patients. In the intensive care unit (ICU), invasive candidiasis (IC), invasive pulmonary aspergillosis (IPA), and Pneumocystis jirovecii pneumonia (PjP) represent the most prevalent and clinically relevant fungal diseases. Their diagnosis is often hampered by nonspecific clinical and radiological findings, delayed or negative cultures, and suboptimal performance of fungal biomarkers in this popul",
+            "classification": {
+              "study_type": "Review (ICU 抗真菌策略, 2026)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2334159",
+            "title": "Acute, rapidly progressive renal failure with simultaneous use of amphotericin B and pentamidine.",
+            "authors": [
+              "Antoniskis D",
+              "Larsen R A"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1990",
+            "abstract": "We report four cases of acute reversible renal failure in patients with acquired immune deficiency syndrome who received both amphotericin B (for systemic mycoses) and pentamidine isethionate (for Pneumocystis carinii pneumonia). The concurrent use of amphotericin B with either inhaled pentamidine or trimethoprim-sulfamethoxazole did not cause significant renal impairment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20209317",
+            "title": "Chapter 8: Fungal infections in immunocompromised patients.",
+            "authors": [
+              "Silva Rodney Frare e"
+            ],
+            "journal": "Jornal brasileiro de pneumologia : publicacao oficial da Sociedade Brasileira de Pneumologia e Tisilogia",
+            "year": "2010",
+            "abstract": "Pulmonary complications are the most common cause of morbidity and mortality in immunocompromised patients, who lack of the basic mechanisms of cellular defense. Regardless of the cause of the immunodeficiency, the most common complications are infections (bacterial, viral or fungal). Among the fungal infections, aspergillosis is the most common (incidence, 1-9%; mortality, 55-92%) following organ transplant. Although pulmonary involvement is the most common form of aspergillosis, central nervou",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1782741",
+            "title": "Pharmacokinetic justification of antiprotozoal therapy. A US perspective.",
+            "authors": [
+              "Berman J D",
+              "Fleckenstein L"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1991",
+            "abstract": "Infections with parasitic protozoa have always been problems for the developing world and are becoming of greater importance to the developed world in this age of easy international travel. The major human protozoal diseases are summarised with an emphasis on their presentation in normal hosts and in immunocompromised individuals and current US drug treatment recommendations are discussed. Present antiprotozoal regimens are based either on a pharmacokinetic rationale or on clinical trial and err",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8187612",
+            "title": "[Disseminated histoplasmosis in AIDS].",
+            "authors": [
+              "Albrecht H",
+              "Stellbrink H J",
+              "Petersen J",
+              "Patzak A",
+              "Jäger H"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1994",
+            "abstract": "A 41-year-old man infected with HIV-1 developed fever up to 39.8 degrees C together with nonproductive cough and dyspnoea. Lactate dehydrogenase concentration rose from a level of 998 U/l to 6307 U/l. As pneumocystis carinii pneumonia was at first suspected he was treated with co-trimoxazole (1600 mg sulfamethoxazole and 320 mg trimethoprim, four times daily). But the symptoms did not abate. Bone-marrow puncture revealed numerous macrophages containing ovoid inclusions typical of Histoplasma cap",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34603460",
+            "title": "Less common bacterial, fungal and viral infections: review of management in the pregnant patient.",
+            "authors": [
+              "Gould Alyssa P",
+              "Winders Hana R",
+              "Stover Kayla R",
+              "Bookstaver P Brandon",
+              "Griffin Brooke"
+            ],
+            "journal": "Drugs in context",
+            "year": "2021",
+            "abstract": "This review is a comprehensive summary of treatment options for pregnant patients with less common bacterial, fungal, and viral infections. It offers guidance to clinicians based on the most recently published evidence-based research and expert recommendations. A search of MEDLINE (inception to March 2021) and the CDC website was performed. Liposomal amphotericin B is the preferred therapy for cryptococcosis, histoplasmosis, oesophageal candidiasis, and coccidioidomycosis, especially during the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1344647",
+            "title": "Central nervous system opportunistic infections in HIV disease: clinical aspects.",
+            "authors": [
+              "Guiloff R J",
+              "Tan S V"
+            ],
+            "journal": "Bailliere's clinical neurology",
+            "year": "1992",
+            "abstract": "Nervous system opportunistic infections are seen in about one fifth of AIDS cases and account for over 40% of the patients with neurological manifestations. Serious infections are seen in severely immunosuppressed patients, usually with CD4 counts of 200 ml-1 or less. The commonest is CMV, which can produce acute encephalitis, sometimes with focal hemisphere or brain-stem signs, dementia, retinitis, optic neuritis and an ascending radiculomyeloencephalitis. Cryptococcal meningitis is the most fr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40781933",
+            "title": "Utility and Pitfalls of β-D-Glucan for Diagnosis and Response Monitoring of Chronic Disseminated Candidiasis in Paediatric Cancer Patients.",
+            "authors": [
+              "Körholz Katharina F",
+              "Hennies Marc T",
+              "Herbrüggen Heidrun",
+              "Krämer Katja",
+              "Ahlmann Martina"
+            ],
+            "journal": "Mycoses",
+            "year": "2025",
+            "abstract": "β-D-Glucan (BDG) is a useful but nonspecific biomarker in patients with suspected invasive fungal diseases including Pneumocystis pneumonia. Little is known, however, about its utility for response monitoring in chronic disseminated candidiasis (CDC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3127217",
+            "title": "Prophylaxis of infection in bone marrow transplants.",
+            "authors": [
+              "Winston D J",
+              "Ho W G",
+              "Gale R P",
+              "Champlin R E"
+            ],
+            "journal": "European journal of cancer & clinical oncology",
+            "year": "1988",
+            "abstract": "Bone marrow transplants experience severe immuno-deficiency as a consequence of pretransplant radiation and chemotherapy, transient granulocytopenia before marrow engraftment, and post-transplant prevention and treatment of graft-versus-host disease with immuno-suppressive agents. During periods of granulocytopenia, chemoprophylaxis with the oral fluorinated quinolones can prevent colonization and infection with gram-negative bacilli, is better tolerated than oral non-absorbable antibiotics or t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39404906",
+            "title": "Disseminated Aspergillosis in X-linked Agammaglobulinemia: Beyond the norm.",
+            "authors": [
+              "Thangaraj Abarna",
+              "Sil Archan",
+              "Goel Sumit",
+              "Vignesh Pandiarajan",
+              "Rawat Amit"
+            ],
+            "journal": "Journal of clinical immunology",
+            "year": "2024",
+            "abstract": "X-linked agammaglobulinemia (XLA) due to a mutation in Bruton's tyrosine kinase (BTK), leads to the arrested development of B cells at the pro-B cell stage. This results in absent B cells and severe hypogammaglobulinemia. XLA patients usually present with recurrent sinopulmonary infection. Bacterial infections are the commonest [2], fungal infections like Pneumocystis jirovecii, Aspergillus and Candida species are rarely reported and they are associated with mortality in XLA [3]. We report a 3.5",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7728120",
+            "title": "The lung as a critical organ in marrow transplantation.",
+            "authors": [
+              "Quabeck K"
+            ],
+            "journal": "Bone marrow transplantation",
+            "year": "1994",
+            "abstract": "Respiratory failure is the main cause of death in patients undergoing bone marrow transplantation (BMT). In this paper, clinical and research aspects as well as diagnostic, prophylactic and therapeutic strategies concerning the various forms of pulmonary and bronchial complications, which may evolve after BMT, are discussed. Both cytomegalovirus (CMV)-induced interstitial pneumonia (PM) and the idiopathic pneumonia syndrome rarely occur in the cytopenic phase post-BMT. Haematological reconstitut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉性禁忌：Pneumocystis jirovecii 雖分類為真菌，但其細胞壁不含麥角固醇（AmB 的唯一作用靶點），故 AmB 對 PCP 在藥理上無效。標準治療為 TMP-SMX。所有文獻中 AmB 提及均針對免疫缺陷患者的共感染（Cryptococcus、Candida），而非 PCP 本身。ATS 指引（PMID 21193785）亦未推薦 AmB 用於 PCP。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "bacterial pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "bacterial pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "bacterial pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "meningococcal infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "meningococcal infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "meningococcal infection"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "endocardial fibroelastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "endocardial fibroelastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "endocardial fibroelastosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "bacterial arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "endocarditis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "endocarditis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "endocarditis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "pneumocystosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "pneumocystosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amphotericin B",
+        "disease": "pneumocystosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

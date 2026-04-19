@@ -1,0 +1,398 @@
+```json
+{
+  "drug": "Hydrocortisone",
+  "drugbank_id": "DB00741",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "市場狀態標記為「未上市」（新加坡藥監），原始適應症欄位空缺，MoA 為 Data Gap。Hydrocortisone 為內源性主要糖皮質激素，抗炎機轉明確，但本次以再利用框架逐一評估。",
+  "indications": [
+    {
+      "disease_name": "alopecia areata",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "圓禿為 CD8+ T 細胞介導的自體免疫性毛囊攻擊。Hydrocortisone（外用/病灶注射）透過抑制 NF-κB 路徑、減少促炎細胞激素（IL-2、IFN-γ）並誘導 T 細胞凋亡，壓制局部免疫反應。1% 外用劑型對輕中度病灶有效，但效力弱於 Clobetasol 0.05%（見 NCT01453686 直接比較）。",
+      "guardrails": [
+        "1% 濃度療效劣於強效類固醇，建議作為兒童或敏感部位選項",
+        "長期外用需監測皮膚萎縮、毛細血管擴張",
+        "大面積使用（>20% BSA）有 HPA 軸抑制風險",
+        "復發率高，需搭配維持療法計畫"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01453686",
+          "title": "Clobetasol 0.05% vs Hydrocortisone 1% Cream in Alopecia Areata",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 41,
+          "relevance_grade": "A",
+          "reasoning": "直接比較 Hydrocortisone 1% vs Clobetasol 0.05% 的 Phase 3 RCT，結果顯示兩者均有效但 Clobetasol 統計上更優。提供 Hydrocortisone 直接療效數據，為最高相關性試驗。"
+        },
+        {
+          "nct_id": "NCT06551818",
+          "title": "Dose Response Study (Four-Arm, Double-Blind) for Alopecia Areata",
+          "phase": "NA",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 72,
+          "relevance_grade": "A",
+          "reasoning": "針對圓禿的劑量反應研究，尚未招募。設計為雙盲四臂，可能涉及不同濃度外用類固醇（含 Hydrocortisone 系列），待結果確認相關性。"
+        },
+        {
+          "nct_id": "NCT04343560",
+          "title": "Abnormal Steroid Metabolome on Bone Strength/Density/Remodeling",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 380,
+          "relevance_grade": "C",
+          "reasoning": "研究重點為類固醇代謝組對骨骼的影響，並非直接針對圓禿治療。相關性低，主要提供 Hydrocortisone 全身代謝安全性參考數據。"
+        },
+        {
+          "nct_id": "NCT00484679",
+          "title": "Adrenal Function and Intralesional Triamcinolone in Alopecia Areata",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 18,
+          "relevance_grade": "B",
+          "reasoning": "評估圓禿患者接受曲安奈德病灶注射後的腎上腺功能，直接使用的是 Triamcinolone 而非 Hydrocortisone，但提供類固醇病灶治療在圓禿的 HPA 安全性佐證。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24226568",
+          "title": "Clobetasol propionate 0.05% vs hydrocortisone 1% for alopecia areata in children: a randomized clinical trial",
+          "year": "2014",
+          "study_type": "RCT",
+          "tier": "1",
+          "notes": "兒童圓禿 RCT，直接比較數據，為核心支持文獻"
+        },
+        {
+          "pmid": "38501938",
+          "title": "Efficacy and safety of topical corticosteroid under occlusion for severe alopecia areata",
+          "year": "2024",
+          "study_type": "Systematic Review / Clinical Study",
+          "tier": "1",
+          "notes": "封閉療法強化外用類固醇效果，支持外用類固醇在重症圓禿的應用"
+        },
+        {
+          "pmid": "36718837",
+          "title": "Fractional laser alone or in combination on alopecia areata: systematic review and meta-analysis",
+          "year": "2023",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "notes": "主題為雷射治療，間接提及類固醇聯合療法對照數據，相關性中等"
+        },
+        {
+          "pmid": "28516731",
+          "title": "Alopecia areata - hyperactivity of HPA axis is a myth?",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "探討圓禿與 HPA 軸關係，對理解 Hydrocortisone 全身機轉有助"
+        },
+        {
+          "pmid": "13368875",
+          "title": "Alopecia areata treatment with cortisone, hydrocortisone and analogs (1956)",
+          "year": "1956",
+          "study_type": "Case Series / Historical",
+          "tier": "3",
+          "notes": "最早期 Hydrocortisone 用於圓禿的臨床報告，歷史佐證價值"
+        },
+        {
+          "pmid": "15692503",
+          "title": "Congenital alopecia areata",
+          "year": "2005",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "先天性圓禿個案，類固醇治療背景資訊"
+        },
+        {
+          "pmid": "29227263",
+          "title": "Adaptive regulatory mechanisms of alopecia areata",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "免疫調節機轉綜述，機轉支持"
+        },
+        {
+          "pmid": "24326563",
+          "title": "Therapy for alopecia areata in mice using PTH agonists/antagonists",
+          "year": "2013",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "notes": "小鼠模型，間接機轉參考"
+        },
+        {
+          "pmid": "39506493",
+          "title": "Chronic psychological stress impact on skin aging",
+          "year": "2025",
+          "study_type": "Exploratory Clinical Study",
+          "tier": "3",
+          "notes": "壓力-皮質醇-皮膚軸研究，機轉背景"
+        },
+        {
+          "pmid": "13525930",
+          "title": "Alopecia areata and other scalp problems (1958)",
+          "year": "1958",
+          "study_type": "Case Series / Historical",
+          "tier": "3",
+          "notes": "早期臨床文獻，歷史佐證"
+        }
+      ]
+    },
+    {
+      "disease_name": "alopecia mucinosa",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "黏蛋白性脫髮（follicular mucinosis）為毛囊皮脂腺單位的黏蛋白沉積性炎症疾病。理論上類固醇可抑制局部炎症反應，但現有文獻支持的主要替代療法為 Cyclosporine（PMID 40657655），缺乏 Hydrocortisone 直接治療數據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40657655",
+          "title": "Idiopathic Follicular Mucinosis Treated Successfully with Cyclosporine",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "支持 Cyclosporine 而非 Hydrocortisone；間接顯示免疫抑制路徑有效，但藥物不同"
+        },
+        {
+          "pmid": "27477178",
+          "title": "Trichotillomania: Bizarre Pattern of Hair Loss",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "拔毛癖個案報告，與黏蛋白性脫髮不相關；文獻品質不足以支持本適應症"
+        }
+      ]
+    },
+    {
+      "disease_name": "telogen effluvium",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "休止期落髮為毛囊週期紊亂（通常由壓力、疾病、營養缺乏引發），不屬於炎症介導疾病，因此 Hydrocortisone 的抗炎機轉理論連結薄弱。皮質醇本身過高（Cushing's syndrome）甚至可引發休止期落髮，使用適應症存在潛在矛盾。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27477178",
+          "title": "Trichotillomania: Bizarre Pattern of Hair Loss",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "主題為拔毛癖，與休止期落髮無直接關聯；文獻收錄為誤匹配，無支持價值"
+        }
+      ]
+    },
+    {
+      "disease_name": "Quinquaud's folliculitis decalvans",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "禿頭性毛囊炎（folliculitis decalvans）為慢性化膿性瘢痕性脫髮，以金黃色葡萄球菌感染為主要病因，標準治療為抗生素（rifampicin + clindamycin）。單純使用 Hydrocortisone 的抗炎機轉無法解決感染病因，且有加重感染之風險。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia antibody deficiency",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "此適應症與自體免疫多腺體症候群（APS）及 DAVID 症候群（垂體前葉功能不全 + 普通變異性免疫缺乏）相關。在此情境中，Hydrocortisone 作為腎上腺功能不全的**替代療法**（而非再利用），間接影響相關脫髮表現。文獻均為個案報告，機轉為內分泌替代而非免疫調控再利用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19289325",
+          "title": "Silent thyroiditis, isolated corticotropin deficiency, and alopecia universalis",
+          "year": "2009",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "ACTH 缺乏合併脫髮個案，Hydrocortisone 替代療法背景，非再利用直接佐證"
+        },
+        {
+          "pmid": "37322808",
+          "title": "DAVID syndrome: pituitary deficiency + CVID",
+          "year": "2023",
+          "study_type": "Case Report / Review",
+          "tier": "3",
+          "notes": "DAVID 症候群新個案，描述內分泌替代治療，機轉連結需進一步研究"
+        },
+        {
+          "pmid": "34938581",
+          "title": "Autoimmune phenomena attenuation in APS type 1",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "APS-1 中免疫現象緩解，類固醇角色為替代而非治療性再利用"
+        },
+        {
+          "pmid": "11313187",
+          "title": "32-year-old with autoimmune polyglandular syndrome",
+          "year": "2001",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "APS 個案報告，早期文獻，提供背景但無直接治療數據"
+        }
+      ]
+    },
+    {
+      "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性少毛症合併復發性皮膚水泡為罕見基因缺陷疾病（LPAR6/LIPH 基因相關），屬結構性缺陷而非炎症介導。Hydrocortisone 無法修正遺傳缺陷，機轉連結極弱。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見基因症候群（部分與 FANCM/KAT6A 等基因相關），涉及神經發育、性腺功能及脫髮的複合缺陷。Hydrocortisone 缺乏對此症候群核心病因的機轉連結，無任何臨床試驗或文獻。評分高分可能來自 KG 中脫髮節點的非特異性連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "atrichia with papular lesions",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無毛症合併丘疹性病變（APL）為 HR 基因突變導致的先天性完全無毛，毛囊缺失為永久性結構缺陷。類固醇對不存在的毛囊無法發揮作用，機轉連結不成立。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia universalis onychodystrophy vitiligo",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為全禿合併指甲萎縮及白斑的複合自體免疫表現（部分歸類為 APS 或 APECED 相關）。雖然各成分均可能對類固醇部分反應，但作為複合症候群的系統性治療，缺乏針對此特定組合的 Hydrocortisone 臨床證據。可考慮更強力的免疫抑制劑研究方向。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic steroid-sensitive nephrotic syndrome",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "特發性類固醇敏感性腎病症候群（ISSNS）的第一線標準治療即為糖皮質激素（prednisolone），透過抑制足細胞免疫損傷及穩定腎小球濾過屏障發揮作用。文獻顯示糖皮質激素受體表現量與類固醇反應性相關（PMID 14717910, 10502121）。Hydrocortisone 雖為天然糖皮質激素，但臨床標準為 Prednisolone（更強效且長效），Hydrocortisone 在此情境為機轉上可行但臨床上非最佳選擇。現有文獻探討的是腎上腺-類固醇軸而非直接 Hydrocortisone 治療。",
+      "clinical_note": "ISSNS 使用類固醇已是 established practice，但使用的是 Prednisolone/Prednisone 而非 Hydrocortisone。本分析框架下屬於「機轉明確、藥物選擇需優化」的研究問題。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14717910",
+          "title": "Glucocorticoid receptors, in vitro steroid sensitivity, and cytokine secretion in idiopathic nephrotic syndrome",
+          "year": "2004",
+          "study_type": "Cohort / Basic Research",
+          "tier": "2",
+          "notes": "探討 GR 表現與類固醇反應性的核心機轉研究，為 Hydrocortisone 機轉連結最強佐證"
+        },
+        {
+          "pmid": "10502121",
+          "title": "Glucocorticoid receptors in idiopathic nephrotic syndrome",
+          "year": "1999",
+          "study_type": "Cohort / Laboratory",
+          "tier": "2",
+          "notes": "GR 功能研究，支持糖皮質激素在 ISSNS 的分子機轉"
+        },
+        {
+          "pmid": "346147",
+          "title": "Idiopathic nephrotic syndrome: prevention of early relapse",
+          "year": "1978",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "notes": "早期腎病症候群復發預防研究，類固醇替代策略背景"
+        },
+        {
+          "pmid": "6286520",
+          "title": "Adrenal responsiveness in children with steroid-responsive idiopathic nephrotic syndrome",
+          "year": "1982",
+          "study_type": "Cohort",
+          "tier": "2",
+          "notes": "腎上腺反應性與類固醇療效相關性，支持 HPA 軸在 ISSNS 的角色"
+        },
+        {
+          "pmid": "71603",
+          "title": "Postmedication hypocortisolism with early first relapse of idiopathic nephrotic syndrome",
+          "year": "1977",
+          "study_type": "Cohort",
+          "tier": "2",
+          "notes": "治療後低皮質醇與早期復發的關聯，提示 Hydrocortisone 補充的潛在研究問題"
+        },
+        {
+          "pmid": "197476",
+          "title": "Adrenocortical insufficiency and relapsing in childhood idiopathic nephrotic syndrome",
+          "year": "1977",
+          "study_type": "Cohort",
+          "tier": "2",
+          "notes": "腎上腺皮質功能不足與復發的關聯研究"
+        },
+        {
+          "pmid": "10504505",
+          "title": "Beneficial effects of ACTH on lipoprotein profile and glomerular function in nephrotic syndrome",
+          "year": "1999",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "notes": "ACTH 刺激內源性皮質醇的間接效果，支持糖皮質激素在腎病症候群的作用"
+        },
+        {
+          "pmid": "2242307",
+          "title": "Pharmacokinetics of prednisolone in children with nephrotic syndrome",
+          "year": "1990",
+          "study_type": "PK Study",
+          "tier": "2",
+          "notes": "Prednisolone PK 研究，顯示類固醇代謝在 ISSNS 患者中的特殊性，為比較 Hydrocortisone PK 的背景依據"
+        }
+      ]
+    }
+  ],
+  "summary_table": {
+    "L1_S3_proceed": ["alopecia areata"],
+    "L3_L4_S1_S2_research": ["alopecia antibody deficiency", "idiopathic steroid-sensitive nephrotic syndrome"],
+    "L5_S0_hold": [
+      "alopecia mucinosa",
+      "telogen effluvium",
+      "Quinquaud's folliculitis decalvans",
+      "hereditary hypotrichosis with recurrent skin vesicles",
+      "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "atrichia with papular lesions",
+      "alopecia universalis onychodystrophy vitiligo"
+    ]
+  },
+  "key_observations": [
+    "TxGNN 預測分數均極高（0.994-0.9997），提示知識圖譜可能因「脫髮」節點群聚產生過度概化；臨床相關性需獨立驗證",
+    "Hydrocortisone 對 alopecia areata 有 Phase 3 RCT 直接支持（NCT01453686），但效力弱於強效類固醇，建議作為兒童/特殊部位選項",
+    "多個遺傳性/結構性脫髮症（APL、hereditary hypotrichosis、intellect disability syndrome）無論機轉或臨床均不支持，應從候選清單移除",
+    "ISSNS 的類固醇機轉成熟，但標準藥物為 Prednisolone，Hydrocortisone 的直接臨床試驗缺失，屬可研究但非優先開發方向",
+    "市場狀態「未上市」可能影響新加坡本地的可及性評估，但不影響全球證據等級判定"
+  ]
+}
+```
+
+---
+
+## 決策摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| **alopecia areata** | **L1** | **S3** | ✅ Proceed with Guardrails |
+| idiopathic steroid-sensitive nephrotic syndrome | L3 | S2 | 🔬 Research Question |
+| alopecia antibody deficiency | L4 | S1 | 🔬 Research Question |
+| alopecia mucinosa | L4 | S0 | 🚫 Hold |
+| telogen effluvium | L5 | S0 | 🚫 Hold |
+| Quinquaud's folliculitis decalvans | L5 | S0 | 🚫 Hold |
+| hereditary hypotrichosis w/ vesicles | L5 | S0 | 🚫 Hold |
+| alopecia-ID-hypogonadism syndrome | L5 | S0 | 🚫 Hold |
+| atrichia with papular lesions | L5 | S0 | 🚫 Hold |
+| alopecia universalis onychodystrophy vitiligo | L5 | S0 | 🚫 Hold |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有再利用候選需經正式臨床驗證方可應用。

@@ -1,0 +1,2310 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06626-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Axitinib",
+    "drugbank_id": "DB06626",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "renal cell carcinoma associated with neuroblastoma",
+      "txgnn": {
+        "score": 0.9990253448486328,
+        "rank": 1943
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Neuroblastoma 相關性 RCC 極為罕見，分子特徵不明。VEGF 路徑參與程度假設性，目前無任何臨床或前臨床證據支持 axitinib 用於此適應症。TxGNN 預測可能基於 RCC 家族相似性而非疾病特異性機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "unclassified renal cell carcinoma",
+      "txgnn": {
+        "score": 0.9990253448486328,
+        "rank": 1944
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04033991",
+            "title": "A Real World Retrospective Database Study of Patients Diagnosed With Metastatic and/or Advanced Renal Cell Carcinoma and Treated With Sunitinib and/or Axitinib in a Specialist United Kingdom Oncology Centre",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 684,
+            "start_date": "2019-09-27",
+            "completion_date": "2020-12-18",
+            "brief_summary": "Research Questions:\n\nTo understand the clinical outcomes of patients treated with sunitinib in first line and axitinib in second line in a real world setting as therapies for metastatic and/or advanced renal cell carcinoma (mRCC).\n\nPrimary Objective:\n\n1. What is the progression free survival (PFS) of patients treated in first line with sunitinib, and stratified by Memorial Sloan-Kettering Cancer Center / International Metastatic Renal Cell Carcinoma Database Consortium (MSKCC/IMDC) risk category",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "真實世界回顧性研究，樣本數大（n=684）但非隨機設計，可能包含未分類型 RCC 患者，提供現實治療模式參考"
+            }
+          },
+          {
+            "nct_id": "NCT02156895",
+            "title": "POST MARKETING SURVEILLANCE STUDY TO OBSERVE SAFETY AND EFFICACY OF INLYTA (REGISTERED)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 111,
+            "start_date": "2018-07-17",
+            "completion_date": "2021-08-06",
+            "brief_summary": "The objective of this study is to monitor the usage of INLYTA® in real practice, including the adverse events associated with INLYTA®.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "上市後監測研究，以一般 RCC 族群為主，對未分類亞型的特異性有限"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未分類型 RCC 為異質性群體，分子驅動機轉多樣。部分案例可能保有 VEGF 路徑活化，但整體機轉不確定，需個別分子分型才能預測 axitinib 反應性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
+      "txgnn": {
+        "score": 0.9990253448486328,
+        "rank": 1945
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03595124",
+            "title": "A Randomized Phase 2 Trial of Axitinib/Nivolumab Combination Therapy vs. Single Agent Nivolumab for the Treatment of TFE/Translocation Renal Cell Carcinoma (tRCC) Across All Age Groups",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 15,
+            "start_date": "2019-01-08",
+            "completion_date": "2026-11-13",
+            "brief_summary": "This phase II trial studies how well axitinib and nivolumab work in treating patients with TFE/translocation renal cell carcinoma that cannot be removed by surgery (unresectable) or has spread to other places in the body (metastatic). Axitinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells t",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "涵蓋 Xp11.2 易位型亞組，但整體樣本數極小（n=15），尚無公開結果；無法單獨評估此亞型療效"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TFE3 融合蛋白可活化 VEGF 及 mTOR 訊號，Xp11.2 易位型 RCC 常有新生血管高表達。理論上 VEGFR 抑制可能有效，但此亞型 PD-L1 表達亦高，IO+TKI 聯合策略有生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "childhood kidney cell carcinoma",
+      "txgnn": {
+        "score": 0.9987096786499025,
+        "rank": 2455
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03595124",
+            "title": "A Randomized Phase 2 Trial of Axitinib/Nivolumab Combination Therapy vs. Single Agent Nivolumab for the Treatment of TFE/Translocation Renal Cell Carcinoma (tRCC) Across All Age Groups",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 15,
+            "start_date": "2019-01-08",
+            "completion_date": "2026-11-13",
+            "brief_summary": "This phase II trial studies how well axitinib and nivolumab work in treating patients with TFE/translocation renal cell carcinoma that cannot be removed by surgery (unresectable) or has spread to other places in the body (metastatic). Axitinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells t",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "樣本數極小（n=15），含部分兒童型別腎癌，提供初步安全性信號但統計力不足"
+            }
+          },
+          {
+            "nct_id": "NCT04510597",
+            "title": "Phase III Trial of Immunotherapy-Based Combination Therapy With or Without Cytoreductive Nephrectomy for Metastatic Renal Cell Carcinoma (PROBE Trial)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 364,
+            "start_date": "2021-03-08",
+            "completion_date": "2033-07",
+            "brief_summary": "This phase III trial compares the effect of adding surgery to a standard of care immunotherapy-based drug combination versus a standard of care immunotherapy-based drug combination alone in treating patients with kidney cancer that has spread to other places in the body (metastatic). Immunotherapy with monoclonal antibodies, such as nivolumab, ipilimumab, pembrolizumab, and avelumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow an",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "唯一針對此適應症的 Phase 3 試驗且包含兒童族群，但尚在招募階段，無結果數據可評估"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31012542",
+            "title": "Treatment of advanced pediatric renal cell carcinoma.",
+            "authors": [
+              "Ambalavanan Manoj",
+              "Geller James I"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2019",
+            "abstract": "Pediatric renal cell carcinoma (pRCC) is the second most common renal malignancy of childhood; however, treatment data for advanced disease is lacking.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26279736",
+            "title": "Malignant epitheloid angiomyolipoma of the kidney in a child treated with sunitinib, everolimus and axitinib.",
+            "authors": [
+              "Citak Elvan Caglar",
+              "Yilmaz Eda Bengi",
+              "Yaman Emel",
+              "Kaya Simge",
+              "Taskinlar Hakan"
+            ],
+            "journal": "Canadian Urological Association journal = Journal de l'Association des urologues du Canada",
+            "year": "2015",
+            "abstract": "The malignant variant of epithelioid angiomyolipoma (EAML) of the kidney is uncommon, extremely aggressive and behaves like a renal cell carcinoma. We present a case of a 12-year-old male with malignant EAML who was treated according to adult treatment protocols. To our knowledge, axitinib has not been used before in children. We conclude that adult protocols, in this rare case, could be safely used in rare childhood malignancies.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "兒童腎細胞癌（尤以 Xp11.2 易位型）常見 VEGF 訊號異常活化，MET 路徑亦可能參與。VEGFR 抑制的抗腫瘤機轉在兒童 RCC 具生物學合理性，但兒童 PK/PD 與成人有差異。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "liposarcoma",
+      "txgnn": {
+        "score": 0.998687207698822,
+        "rank": 2480
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27822137",
+            "title": "Axitinib Has Antiangiogenic and Antitumorigenic Activity in Myxoid Liposarcoma.",
+            "authors": [
+              "Kerr Lauren T",
+              "Donoghue Jacqueline F",
+              "Wilding Alexander L",
+              "Johns Terrance G"
+            ],
+            "journal": "Sarcoma",
+            "year": "2016",
+            "abstract": "Myxoid liposarcoma is a rare form of soft-tissue sarcoma. Although most patients initially respond well to treatment, approximately 21% relapse, highlighting the need for alternative treatments. To identify novel treatment regimens and gain a better understanding of myxoid liposarcoma tumor biology, we screened various candidate and approved targeted therapeutics and chemotherapeutics against myxoid liposarcoma cell lines. Therapeutics that target angiogenesis showed antitumor activity. The smal",
+            "classification": {
+              "study_type": "Preclinical (In vitro / In vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "黏液型脂肪肉瘤（myxoid liposarcoma）具高度血管新生特性，VEGFR 及 PDGFR 表達增加。Axitinib 之 PDGFR-β 抑制活性可能具有抗腫瘤潛力，但僅有前臨床/體外數據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "renal carcinoma",
+      "txgnn": {
+        "score": 0.9984660148620604,
+        "rank": 2806
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01441414",
+            "title": "A PHASE II TRIAL OF PF-04856884 (CVX-060), A SELECTIVE ANGIOPOIETIN-2 (ANG-2) INHIBITOR IN COMBINATION WITH AG-013736 (AXITINIB) IN PATIENTS WITH PREVIOUSLY TREATED METASTATIC RENAL CELL CARCINOMA",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 18,
+            "start_date": "2011-11-21",
+            "completion_date": "2014-03-27",
+            "brief_summary": "To evaluate the combination of PF-04856884 (CVX-060) in combination with Axitinib (AG-013736) in patients that have received one prior systemic regimen for metastatic renal cell carcinoma (mRCC) vs. axitinib alone.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗提前終止，數據有限，僅供安全性背景參考"
+            }
+          },
+          {
+            "nct_id": "NCT04555603",
+            "title": "Retrospective Analysis of Axitinib Treatment Optimization and Management of Selected Immune Related Adverse Events of Checkpoints Inhibitors",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-09-15",
+            "completion_date": "2021-02-22",
+            "brief_summary": "The objectives of the study is to describe axitinib therapy management through use of the data to be generated by ConcertAI",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00678392",
+            "title": "AXITINIB (AG-013736) AS SECOND LINE THERAPY FOR METASTATIC RENAL CELL CANCER: AXIS TRIAL",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 723,
+            "start_date": "2008-09-03",
+            "completion_date": "2016-02-25",
+            "brief_summary": "The study is designed to demonstrate that axitinib (AG-013736) is superior to sorafenib in delaying tumor progression in patients with metastatic renal cell cancer after failure of one first line regimen.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "樞紐 Phase 3 RCT，直接支持 axitinib 二線 mRCC 適應症；主要終點 PFS 達統計顯著，驅動 FDA 2012 年核准"
+            }
+          },
+          {
+            "nct_id": "NCT05808608",
+            "title": "A Study of AK104 Plus Axitinib in Advanced/Metastatic Special Pathological Subtypes of Renal Cell Carcinoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 33,
+            "start_date": "2023-11-17",
+            "completion_date": "2025-12",
+            "brief_summary": "This is a Phase Ib/II, open-label, single arm trial to evaluate the efficacy and safety of AK104 in combination with axitinib as a first-line treatment for advanced/metastatic special pathological subtypes of renal cell carcinoma (ssRCC). Subjects will receive AK104 plus axitinib until disease progression, development of unacceptable toxic effects, death, a decision by the physician or patient to withdraw from the trial. The primary endpoint is ORR and PFS per RECIST v1.1 and imRECIST as assesse",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00835978",
+            "title": "Randomized, Double-blind Phase 2 Study Of Axitinib (Ag-013736) With Or Without Dose Titration In Patients With Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 213,
+            "start_date": "2009-08",
+            "completion_date": "2016-02",
+            "brief_summary": "Axitinib dose titration (giving a higher dose of the drug above its standard starting dose) among certain patients may improve the response to treatment.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "探索劑量最佳化策略，支持 axitinib 在 RCC 的療效與安全性框架"
+            }
+          },
+          {
+            "nct_id": "NCT04385654",
+            "title": "Toripalimab Combined With Axitinib as Neoadjuvant Therapy for Advanced/Metastatic Non-clear Cell Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2020-06",
+            "completion_date": "2022-06",
+            "brief_summary": "This is a single-arm phase II clinical trial to evaluate the initial efficacy and safety of toripalimab combined with axitinib as neoadjuvant therapy for advanced/metastatic non-clear cell renal cell carcinoma",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05738694",
+            "title": "A Multicenter Randomized Controlled Clinical Study of Neoadjuvant Combination of Axitinib Plus PD-1 Monoclonal Antibody to Improve Disease Free Survival of Patients With Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 298,
+            "start_date": "2023-04-19",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The study included 298 RCC patients who were at high risk for recurrence after nephrectomy (T2G3-4 or T3-4 or N1). They were randomly divided to receive axitinib plus PD-1 + surgery or surgery alone at a ratio of 1:1, so as to determine the efficacy of the neoadjuvant combination of axitinib plus PD-1.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "探索新輔助情境，為特定族群（局部晚期）開拓臨床路徑"
+            }
+          },
+          {
+            "nct_id": "NCT02133742",
+            "title": "A PHASE 1B, OPEN LABEL, DOSE FINDING STUDY TO EVALUATE SAFETY, PHARMACOKINETICS AND PHARMACODYNAMICS OF AXITINIB (AG-013736) IN COMBINATION WITH PEMBROLIZUMAB (MK-3475) IN PATIENTS WITH ADVANCED RENAL CELL CANCER",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 52,
+            "start_date": "2014-09-16",
+            "completion_date": "2019-07-03",
+            "brief_summary": "Despite substantial improvements of patients outcome in advanced RCC, durable and complete response is uncommon. The majority of patients eventually develop resistance and exhibit disease progression. Combining a PD-1 inhibitor, which has shown single-agent efficacy with axitinib may provide additional clinical benefit compared to axitinib alone.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "提供亞洲族群 PK 數據，對新加坡在地實施有參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT01334073",
+            "title": "Phase I Study of the Combination of Axitinib (AX) Plus Everolimus (EV) in Patients With Malignant Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2011-03",
+            "completion_date": "2015-01",
+            "brief_summary": "The aim of the study is to determine the MTD of the combination of everolimus plus axitinib in solid tumors, especially RCC.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02071719",
+            "title": "Prediction of Response to Kinase Inhibitors Based on Protein Phosphorylation Profiles in Tumor Tissue From Advanced Renal Cell Cancer Patients",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2012-04",
+            "completion_date": "2017-10",
+            "brief_summary": "The rapid development of agents blocking kinases has established the use of molecularly targeted therapy as the preferred treatment approach for patients with metastatic renal cell cancer (RCC). Five kinase inhibitors (sunitinib, everolimus, temsirolimus, sorafenib and pazopanib) are now approved for clinical use. Response rates differ among these agents, importantly depending on line of treatment. In first-line treatment sunitinib results in 47% objective response rates, where in second-line af",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02187302",
+            "title": "A Randomized, Phase 2 Study to Assess the Safety and Efficacy of CRLX101 in Combination With Bevacizumab in Patients With Metastatic Renal Cell Carcinoma (RCC) Versus Standard of Care (SOC) (Investigator's Choice)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 115,
+            "start_date": "2014-07",
+            "completion_date": "2017-01",
+            "brief_summary": "This study to evaluate treatment in patients with metastatic renal cell carcinoma (RCC) which has progressed through 2 to 3 prior lines of therapy, with the investigational drug CRLX101 in combination with bevacizumab compared to treatment with a standard of care therapy. The study will compare which treatment resulted in longer time before progression of the RCC. Patients will be treated and followed for progression of their disease on average for up to 6 months.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01827254",
+            "title": "Etude Resume (Retraitement Sunitinib Rein Metastatique)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 61,
+            "start_date": "2013-07",
+            "completion_date": "2014-04",
+            "brief_summary": "Retrospective and prospective study in mRCC patients treated with sutent in first line and rechallenged by Sutent in 3rd and 4th line.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05817903",
+            "title": "Phase II Study of Axitinib Intensification Plus Nivolumab Compared to Nivolumab Alone After Induction With Nivolumab Plus Ipilimumab in mRCC Patients Without Previous Complete Response (AxIn Study).",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 118,
+            "start_date": "2023-04-18",
+            "completion_date": "2027-04-01",
+            "brief_summary": "This phase II open label trial randomized patients who completed the induction with nivolumab plus ipilimumab without complete response or progressive disease will be randomized 1:1 to receive axitinib in addition to nivolumab (Arm A) or continue with nivolumab alone (Arm B).Treatment will be continued until progression of disease, unacceptable toxicity, patient's refusal, or physician decision whichever occurred first.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03595124",
+            "title": "A Randomized Phase 2 Trial of Axitinib/Nivolumab Combination Therapy vs. Single Agent Nivolumab for the Treatment of TFE/Translocation Renal Cell Carcinoma (tRCC) Across All Age Groups",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 15,
+            "start_date": "2019-01-08",
+            "completion_date": "2026-11-13",
+            "brief_summary": "This phase II trial studies how well axitinib and nivolumab work in treating patients with TFE/translocation renal cell carcinoma that cannot be removed by surgery (unresectable) or has spread to other places in the body (metastatic). Axitinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02639182",
+            "title": "A Multi-Center, Open Label, Randomized Phase 2 Study of AGS-16C3F vs. Axitinib in Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 133,
+            "start_date": "2016-05-03",
+            "completion_date": "2020-10-02",
+            "brief_summary": "The purpose of this study was to evaluate the progression free survival (PFS), based on investigator radiologic review, of AGS-16C3F compared to axitinib in subjects with metastatic renal cell carcinoma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05650164",
+            "title": "A Multicenter, NI, Retrospective, Observational Study Evaluating Real-World Treatment Outcomes in Japanese Patients With Metastatic Renal Cell Carcinoma (mRCC) Treated With Avelumab Plus Axitinib as First-line Therapy: J-DART2",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 171,
+            "start_date": "2023-01-25",
+            "completion_date": "2023-10-13",
+            "brief_summary": "This study is a multicenter, non-interventional, retrospective, medical chart review of participants with metastatic renal cell cancer(mRCC) treated with avelumab plus axitinib as a first-line therapy in Japan between 20 December 2019 and 17 October 2022. All decisions regarding clinical management and treatment of the participating patients were made by the investigator as part of standard care in real-world clinical setting and were not contingent upon the patient's participation in the study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05012865",
+            "title": "Retrospective, Multicenter, Observational Study to Evaluate Current Treatment Outcomes in Japanese Patients With Metastatic Renal Cell Carcinoma Treated With Avelumab Plus Axitinib as a First-line Therapy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2021-09-14",
+            "completion_date": "2022-01-31",
+            "brief_summary": "This study is a multicenter, non-interventional, retrospective, medical chart review of patients with metastatic renal cell cancer(mRCC) treated with avelumab plus axitinib as a first-line therapy in Japan between 20 December 2019 and 20 December 2020. All decisions regarding clinical management and treatment of the participating patients were made by the investigator as part of standard care in real-world clinical setting and were not contingent upon the patient's participation in the study. Da",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03494816",
+            "title": "NAXIVA- Phase II Neoadjuvant Study of Axitinib for Reducing Extent of Venous Tumour Thrombus in Clear Cell Renal Cell Cancer With Venous Invasion",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2017-12-15",
+            "completion_date": "2020-06-10",
+            "brief_summary": "NAXIVA is a study of axitinib in patients with metastatic and non-metastatic renal cell carcinoma with venous invasion. Patients will be given axitinib (twice daily) for 8 weeks (at an escalated dose) and the response of the venous invasion will be assessed.\n\nBlood, urine and tumour tissue samples will be taken prior to and during therapy to evaluate biomarkers of treatment response.\n\nThe primary objective is to assess the response of the thrombus to axitinib. Its thought that axitinib will redu",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04033991",
+            "title": "A Real World Retrospective Database Study of Patients Diagnosed With Metastatic and/or Advanced Renal Cell Carcinoma and Treated With Sunitinib and/or Axitinib in a Specialist United Kingdom Oncology Centre",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 684,
+            "start_date": "2019-09-27",
+            "completion_date": "2020-12-18",
+            "brief_summary": "Research Questions:\n\nTo understand the clinical outcomes of patients treated with sunitinib in first line and axitinib in second line in a real world setting as therapies for metastatic and/or advanced renal cell carcinoma (mRCC).\n\nPrimary Objective:\n\n1. What is the progression free survival (PFS) of patients treated in first line with sunitinib, and stratified by Memorial Sloan-Kettering Cancer Center / International Metastatic Renal Cell Carcinoma Database Consortium (MSKCC/IMDC) risk category",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05097599",
+            "title": "StrataPATH™ (Precision Indications for Approved Therapies): A Study Evaluating the Clinical Activity and Safety of Approved Drugs Within Biomarker-Guided Patients With Solid Tumors",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 11,
+            "start_date": "2022-04-29",
+            "completion_date": "2024-06-12",
+            "brief_summary": "StrataPATH™ is a non-randomized, open-label trial designed to explore efficacy and safety of multiple FDA-approved and commercially available cancer therapies in new, biomarker-guided patient populations.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00282048",
+            "title": "Phase 2 Study Of AG-013736 In Patients With Refractory Metastatic Renal Cell Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 62,
+            "start_date": "2006-03",
+            "completion_date": "2009-06",
+            "brief_summary": "To determine the activity and response rate of AG-013736 in patients with advanced and refractory renal cell cancer, (patients who also failed on sorafenib-based therapy).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01727336",
+            "title": "A Phase 2 Randomized, Double-Blind Study of Dalantercept and Axitinib Compared to Placebo and Axitinib in Patients With Advanced Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 160,
+            "start_date": "2012-12",
+            "completion_date": "2017-11",
+            "brief_summary": "The purpose of Part 1 of this study is to evaluate the safety and tolerability of dalantercept in combination with axitinib in patients with advanced renal cell carcinoma (RCC) to determine the recommended dose level of dalantercept in combination with axitinib for Part 2.\n\nThe purpose of Part 2 of this study is to determine whether treatment with dalantercept in combination with axitinib prolongs progression free survival (PFS) compared to axitinib alone in patients with advanced renal cell car",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03538717",
+            "title": "Retrospective Analysis of Clinical Factors Associated With Greater Benefit of Axitinib in Metastatic Renal Cancer (AXILONG Study)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 157,
+            "start_date": "2018-04-19",
+            "completion_date": "2019-03-01",
+            "brief_summary": "Retrospective study to collect data from Patients with advanced/metastatic renal cell carcinoma previously treated with Axitinib under standard clinical practice, to describe the clinical profile of the patients with a long response to Axitinib and to try to identify clinical factors which could be related with the long response to Axitinib, through the comparison between long responder patients and a group of refractory patients",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04458259",
+            "title": "A PHASE 1, OPEN-LABEL, MULTI-CENTER, DOSE-FINDING, PHARMACOKINETIC, SAFETY AND TOLERABILITY STUDY OF PF 07265807 IN PARTICIPANTS WITH SELECTED ADVANCED OR METASTATIC SOLID TUMOR MALIGNANCIES",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 88,
+            "start_date": "2020-09-24",
+            "completion_date": "2024-11-15",
+            "brief_summary": "A First-in-Human Pharmacokinetic, Safety, and Tolerability Study of PF-07265807 as Monotherapy and in Combination in Participants with Advanced or Metastatic Solid Tumors",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05534789",
+            "title": "Clinical Outcomes and Therapy Management Among Patients With Advanced Renal Cell Carcinoma (aRCC) Receiving Systemic First-line (1L) Anti-cancer Treatment Under Daily Routine in Germany: Retrospective Chart Review (RENALISTIC Study)",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 106,
+            "start_date": "2022-10-15",
+            "completion_date": "2023-12-13",
+            "brief_summary": "The purpose of this study is to learn about the treatments used in for advanced renal cell carcinoma as well as effectiveness of these treatments in the real world. Study participants must be:\n\nAt least 18 years of age or older. Confirmed renal cell carcinoma Received first line treatment",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07351266",
+            "title": "Multi-omics Analysis of Renal Cell Carcinoma Mechanisms; Drug Sensitivity Testing in Patient-Derived Cell-based Microtumors",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 10,
+            "start_date": "2026-01-25",
+            "completion_date": "2030-01-25",
+            "brief_summary": "This is a research study aiming to better understand a type of kidney cancer called Renal Cell Carcinoma (RCC). Doctors have observed that inside some larger RCC tumors, there are multiple smaller nodules. This study wants to find out if these nodules are different from each other and how they might be related.\n\nTo do this, researchers will study tumor tissue samples from 10 patients with RCC who are having surgery. From each tumor, several nodules will be analyzed using advanced laboratory tech",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01999972",
+            "title": "A PHASE 1B, OPEN LABEL, DOSE ESCALATION STUDY TO EVALUATE SAFETY, PHARMACOKINETICS AND PHARMACODYNAMICS OF AXITINIB (AG-013736) IN COMBINATION WITH CRIZOTINIB (PF-02341066) IN PATIENTS WITH ADVANCED SOLID TUMORS",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2014-02-26",
+            "completion_date": "2019-09-05",
+            "brief_summary": "Despite the success of anti-angiogenic therapy in multiple treatment settings, a fraction of patients are refractory to vascular endothelial growth factor (VEGF) inhibitor treatment, while the majority of patients will eventually develop evasive resistance. It is proposed that mesenchymal-epithelial transition factor (c-MET) and its ligand hepatocyte growth factor (HGF or scatter factor) contribute to VEGF inhibitor resistance, such that combining a c-MET inhibitor with a VEGF inhibitor will pro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00700258",
+            "title": "STAR-TOR- REGISTRY FOR THE EVALUATION OF THE SAFETY, TOLERABILITY AND EFFICACY OF TEMSIROLIMUS (TORISEL), SUNITINIB (SUTENT) AND AXITINIB (INLYTA) FOR THE TREATMENT OF SUBJECTS WITH ADVANCED RENAL CELL CARCINOMA (MRCC), MANTLE CELL LYMPHOMA (MCL) AND GASTRO-INTESTINAL STROMA TUMOR (GIST).",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1520,
+            "start_date": "2008-02-13",
+            "completion_date": "2021-12-28",
+            "brief_summary": "The purpose of this registry is to obtain a general view as regards efficacy, tolerability and safety issues of the Torisel®, Sutent®, and/or Inlyta® therapies in patients with advanced renal cell carcinoma, recurrent / refractory mantle cell lymphoma (MCL) and gastro-intestinal stroma tumors (GIST) under the conditions of routine use",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05579847",
+            "title": "The Feasibility of an Educational and Monitoring Smart-Phone Application for Patients With Advanced Renal Cell Carcinoma Undergoing Combination Immunotherapy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2022-10-19",
+            "completion_date": "2024-11-04",
+            "brief_summary": "The purpose of the study is to test and understand acceptability and preliminary effectiveness of a mobile educational app specifically customized to patients with advanced Renal Cell Carcinoma (RCC) receiving therapy with combination immunotherapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01693822",
+            "title": "A-PREDICT: A Phase II Study Of Axitinib In Metastatic Renal Cell Cancer in Patients Unsuitable for Nephrectomy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2012-10",
+            "completion_date": "2022-02-28",
+            "brief_summary": "A-PREDICT is a study of axitinib in patients with metastatic renal cell carcinoma unsuitable for nephrectomy (as judged by the treating clinician) to evaluate efficacy, safety, toxicity and changes in biomarkers during therapy. Axitinib will given twice daily by mouth according to tolerability of treatment, for as long as patients are deriving clinical benefit. Blood and tumour tissue samples will be taken prior to and during therapy to evaluate biomarkers of treatment response. The primary clin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04387500",
+            "title": "Single-arm Phase II Clinical Trial to Evaluate the Initial Efficacy and Safety of Sintilimab Injection Combined With Inlyta in Fumarate Hydratase- Deficient Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 41,
+            "start_date": "2021-07-01",
+            "completion_date": "2026-01-01",
+            "brief_summary": "This is a single-arm phase II clinical trial to evaluate the initial efficacy and safety of Sintilimab injection combined with Inlyta in fumarate hydratase-deficient renal cell carcinoma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05816642",
+            "title": "A Prospective Observational Study of Molecular Classification and Circulating Tumor DNA Dynamic Monitoring to Explore Related Factors That Predict the Efficacy of Single Targeted Therapy or Combined With Immunotherapy for Metastatic Renal Cell Carcinoma",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 500,
+            "start_date": "2022-08-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "Next-Generation Sequencing and whole transcriptome RNA sequencing were used to detect genomic variation and expression in tissues or blood, respectively. The treatment outcome of single targeted therapy or combined with immunotherapy was observed and followed up. Through this study, we intend to achieve RNA molecular classification of Chinese mRCC patients and to evaluate the correlation between ctDNA level, RNA molecular classification and treatment outcome, provide reference for metastatic RCC",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03438708",
+            "title": "\"PADRES\" (Prior Axitinib as a Determinant of Outcome of REnal Surgery)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 22,
+            "start_date": "2018-03-05",
+            "completion_date": "2026-03-04",
+            "brief_summary": "This is a single arm phase II study of axitinib in patients with clear cell renal cell carcinoma (RCC) with strong indications for partial nephrectomy (PN) for whom PN is not currently possible due to anatomic considerations and residual renal function concerns. Evaluation of tumor downsizing will be performed including changes of tumor complexity by nephrometry score. A total of 50 participants will be enrolled.\n\nIt is hypothesized that pretreatment with axitinib will be safe and improve the fe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07123090",
+            "title": "A Phase 2 Study of Sasanlimab, Palbociclib and Axitinib in Metastatic Renal Cell Carcinoma - SPARCC",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 25,
+            "start_date": "2026-02",
+            "completion_date": "2028-02-01",
+            "brief_summary": "The goal of this research study is to evaluate how well and safely the study drugs sasanlimab, palbociclib, and axitinib work for treatment of participants with advanced clear cell renal cell carcinoma (ccRCC) or translocation renal cell carcinoma (tRCC).\n\nThe name of the study drugs involved in this research study is:\n\n* Sasanlimab (a type of monoclonal antibody)\n* Palbociclib (a type of kinase inhibitor)\n* Axitinib (a type of Vascular endothelial growth factor inhibitor)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02493751",
+            "title": "A PHASE 1B, OPEN-LABEL, DOSE-FINDING STUDY TO EVALUATE SAFETY, PHARMACOKINETICS AND PHARMACODYNAMICS OF AVELUMAB (MSB0010718C) IN COMBINATION WITH AXITINIB (AG-013736) IN PATIENTS WITH PREVIOUSLY UNTREATED ADVANCED RENAL CELL CANCER",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 55,
+            "start_date": "2015-10-26",
+            "completion_date": "2021-03-04",
+            "brief_summary": "This is a Phase 1b, open-label, multi-center, multiple-dose trial designed to estimate the maximum tolerated dose (MTD) and select the recommended phase 2 dose (RP2D) of avelumab (MSB0010718C) in combination with axitinib (AG-013736). Once the MTD of avelumab administered in combination with axitinib is estimated (dose finding portion), the dose expansion phase will be opened to further characterize the combination in term of safety profile, anti tumor activity, pharmacokinetics, pharmacodynamic",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05256472",
+            "title": "Phase II Trial of Cadonilimab (AK104) Monotherapy or AK104 Plus Axitinib in Advanced/Metastatic Renal Cell Carcinoma (RCC)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 70,
+            "start_date": "2023-07-06",
+            "completion_date": "2026-06-22",
+            "brief_summary": "This is a Phase II, open-label trial to evaluate the efficacy and safety of AK104 monotherapy or AK104 in combination with axitinib as a first-line treatment for advanced/metastatic renal cell carcinoma (RCC). There are two parts in this trial. In part 1 of this study, subjects with unresectable advanced clear cell or non-clear cell renal cell carcinoma (ccRCC or nccRCC) who had not received systemic therapy for advanced disease will be enrolled to randomly received three different dosage of AK1",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02164838",
+            "title": "A Phase 1 Study of the VEGF Receptor Tyrosine Kinase Inhibitor Axitinib (INLYTA, IND# TBD) in Children With Recurrent or Refractory Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 51,
+            "start_date": "2014-09",
+            "completion_date": "2017-10-19",
+            "brief_summary": "This trial will be the first study of axitinib in children and adolescents. The primary objective of this Phase 1 trial is to determine a maximum tolerated dose (MTD) or recommended Phase 2 dose (RP2D) of axitinib in pediatric patients with refractory solid tumors. Additional objectives include measurement of pharmacokinetic and pharmacodynamic parameters, description of the toxicity profile of this agent in children and adolescents, and assessment of response within the confines of a Phase 1 tr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03341845",
+            "title": "Neoadjuvant AXITINIB and AVELUMAB for Patients With Localized Clear-cell RCC and a Moderate to High Risk",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2018-03-28",
+            "completion_date": "2025-01-31",
+            "brief_summary": "a monocenter, open label, single arm, phase II study of the combination of axitinib with avelumab as neoadjuvant therapy in patients with intermediate to high-risk non-metastatic RCC.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06583369",
+            "title": "The Efficacy and Safety of Liangxue Ointment in the Treatment of Hand-foot Syndrome Caused by VEGFR-TKI Drugs",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 220,
+            "start_date": "2024-03-25",
+            "completion_date": "2025-03-25",
+            "brief_summary": "This study was a prospective, single-center randomized controlled trial. The subject of this study is to evaluate the effectiveness and safety of traditional Chinese medicine Liangxue Ointment in the treatment of hand-foot syndrome caused by VEGFR-TKI drugs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01599754",
+            "title": "Adjuvant Axitinib Treatment of Renal Cancer: A Randomized Double-blind Phase 3 Study of Adjuvant Axitinib vs. Placebo in Subjects at High Risk of Recurrent RCC",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 724,
+            "start_date": "2012-04",
+            "completion_date": "2018-05",
+            "brief_summary": "The purpose of this trial is to determine if adjuvant therapy with axitinib will prevent or delay the recurrence of renal cell cancer after surgery to remove the primary tumor in high risk patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03129724",
+            "title": "Retrospective Study in Patients With Metastatic Renal Cancer Treated With TKI Sequence (Tyrosine Kinase Inhibitors of VEGFR) - mTOR- Axitinib Inhibitors or Anti-VEGF Antibody -Inhibiteurs mTOR - Axitinib",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2016-09",
+            "completion_date": "2017-07",
+            "brief_summary": "Describe in patients with metastatic kidney cancer treatment modalities with the type sequences: TKI - mTORi - Axitinib or VEGF mAb - mTORi - Axitinib.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02560012",
+            "title": "Targeting of Renal Cell Cancer With Specific Inhibitors: A Model for Selective Adaptive Medicine Based on Molecular Alterations",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2016-01-04",
+            "completion_date": "2017-07-27",
+            "brief_summary": "This is for subjects with metastatic Renal Cell Cancer (RCC). There are four Food and Drug Administration (FDA) approved drugs for first-line therapy of Renal Cell Cancer (RCC) and two for second-line therapy. Each of these drugs targets a specific molecular pathway. At present oncologists select therapy based on current guidelines. There is a new method for trying to use biomarker information from the subject's tumor to select the best drug to treat the subject. This process is investigational,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03092856",
+            "title": "Phase II Randomized Double Blind Trial of PF-04518600, an OX40 Antibody, in Combination With Axitinib Versus Axitinib in Immune-Checkpoint Inhibitor Exposed Patients With Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 62,
+            "start_date": "2017-07-19",
+            "completion_date": "2026-12-31",
+            "brief_summary": "This randomized phase II trial studies how well axitinib with or without anti-OX40 antibody PF-04518600 work in treating patients with kidney cancer that has spread to other parts of the body. Biological therapies, such as anti-OX40 antibody PF-04518600, use substances made from living organisms that may may stimulate the immune system in different ways and stop tumor cells from growing. Axitinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Giving ax",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00076011",
+            "title": "Phase 2 Study of AG 013736 as Second-Line Treatment in Patients With Metastatic Renal Cell Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 52,
+            "start_date": "2003-10",
+            "completion_date": "2007-02",
+            "brief_summary": "The primary purpose of this protocol is to determine the activity of AG 013736 in patients with metastatic renal cell cancer who have received 1 prior cytokine-based therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07277972",
+            "title": "An Open-Label, Single-Arm, Multicenter, Phase II Clinical Study of Iparomlimab and Tuvonralimab Injection in Combination With Lenvatinib or Axitinib for the Treatment of Locally Advanced or Metastatic Clear Cell Renal Cell Carcinoma That Has Failed First-Line Systemic Therapy",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 36,
+            "start_date": "2026-02-15",
+            "completion_date": "2031-08-31",
+            "brief_summary": "The primary objective is to evaluate the improvement in Objective Response Rate (ORR) achieved with Iparomlimab and Tuvonralimab Injection (QL1706, an Anti-PD-1/CTLA-4 Combined Antibody) in combination with Lenvatinib or Axitinib, in patients with locally advanced or metastatic clear cell renal cell carcinoma (ccRCC) who have failed first-line systemic therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03013946",
+            "title": "A Phase III Study Testing the Role of PRoactivE Coaching on PAtient REported Outcome in Advanced or Metastatic Renal Cell Carcinoma Treated With Sunitinib or a Combination of Pembrolizumab + Axitinib or Avelumab + Axitinib in First Line Therapy",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 121,
+            "start_date": "2017-01-18",
+            "completion_date": "2024-01-16",
+            "brief_summary": "The primary objective of the trial is to determine the effect of a 24-week concomitant coaching on patient reported outcomes of patients receiving standard treatment for mRCC with sunitinib or a combination of pembrolizumab + axitinib or avelumab + axitinib in first line therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03941795",
+            "title": "A Randomized, Controlled, Multicenter Phase II Clinical Study to Evaluate the Efficacy and Safety of Toripalimab Injection Combined With Axitinib in the First-Line Treatment of Patients With Advanced Mucosal Melanoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 99,
+            "start_date": "2019-11-11",
+            "completion_date": "2022-12",
+            "brief_summary": "This is a randomized, controlled, multicenter Phase II clinical study to evaluate the efficacy and safety of toripalimab injection combined with axitinib in the first-line treatment of patients with advanced mucosal melanoma. The target population is the patients with previously untreated, histopathologically confirmed, unresectable or metastatic mucosal melanoma. At the randomization, patients are randomized 1:1:1 into three groups with approximately 33 subjects in each group to receive toripal",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01473043",
+            "title": "Clinical Study With Axitinib (AG 013736) In Patients With Metastatic Renal Cell Carcinoma After Failure Of One Prior Systemic First-Line Therapy",
+            "phase": "N/A",
+            "status": "NO_LONGER_AVAILABLE",
+            "enrollment": "N/A",
+            "start_date": "2012-03",
+            "completion_date": "2014-03",
+            "brief_summary": "This is a single arm study with axitinib in patients with advanced kidney cancer (clear cell variant), who have failed first line therapy. The study will recruit a maximum of 30 patients from 2 countries including Australia and Canada. Patients will be followed up for efficacy, safety and health related outcomes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06889649",
+            "title": "Prospective Study on the Efficacy and Safety of Stereotactic Ablative Body Radiotherapy Combined with Axitinib and Toripalimab in Recurrent or Metastatic Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2019-01-01",
+            "completion_date": "2028-02-20",
+            "brief_summary": "This is a prospective, single-center clinical trial designed to evaluate the safety and efficacy of combining stereotactic ablative body radiotherapy (SABR) with the targeted therapy Axitinib and the immunotherapy Toripalimab in patients with recurrent metastatic renal cell carcinoma (RCC). Patients will receive a treatment regimen consisting of Axitinib, Toripalimab, and comprehensive multi-lesion SABR. The primary endpoint is Progression-Free Survival 1 (PFS1), and secondary endpoints include ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04958473",
+            "title": "A Single-center, Non-randomized Controlled, Single-arm, Phase II Clinical Trial of Sintilimab in Combination With Axitinib in the Treatment of Advanced Renal Cell Carcinoma",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2021-08-01",
+            "completion_date": "2025-08-01",
+            "brief_summary": "In patients with recurrent or metastatic renal cell carcinoma, a preliminary evaluation of the safety and efficacy of sintilimab combined with axitinib in patients with advanced renal cell carcinoma was conducted.Progression-free survival (PFS), overall survival (OS), disease control rate (DCR) and disease remission rate (ORR) were evaluated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28276433",
+            "title": "Renal cell carcinoma.",
+            "authors": [
+              "Hsieh James J",
+              "Purdue Mark P",
+              "Signoretti Sabina",
+              "Swanton Charles",
+              "Albiges Laurence"
+            ],
+            "journal": "Nature reviews. Disease primers",
+            "year": "2017",
+            "abstract": "Renal cell carcinoma (RCC) denotes cancer originated from the renal epithelium and accounts for >90% of cancers in the kidney. The disease encompasses >10 histological and molecular subtypes, of which clear cell RCC (ccRCC) is most common and accounts for most cancer-related deaths. Although somatic VHL mutations have been described for some time, more-recent cancer genomic studies have identified mutations in epigenetic regulatory genes and demonstrated marked intra-tumour heterogeneity, which ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30779529",
+            "title": "Pembrolizumab plus Axitinib versus Sunitinib for Advanced Renal-Cell Carcinoma.",
+            "authors": [
+              "Rini Brian I",
+              "Plimack Elizabeth R",
+              "Stus Viktor",
+              "Gafanov Rustem",
+              "Hawkins Robert"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "abstract": "The combination of pembrolizumab and axitinib showed antitumor activity in a phase 1b trial involving patients with previously untreated advanced renal-cell carcinoma. Whether pembrolizumab plus axitinib would result in better outcomes than sunitinib in such patients was unclear.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37500340",
+            "title": "Pembrolizumab Plus Axitinib Versus Sunitinib as First-line Treatment of Advanced Renal Cell Carcinoma: 43-month Follow-up of the Phase 3 KEYNOTE-426 Study.",
+            "authors": [
+              "Plimack Elizabeth R",
+              "Powles Thomas",
+              "Stus Viktor",
+              "Gafanov Rustem",
+              "Nosov Dmitry"
+            ],
+            "journal": "European urology",
+            "year": "2023",
+            "abstract": "Previous analyses of KEYNOTE-426, an open-label, phase 3 randomized study, showed superior efficacy of first-line pembrolizumab plus axitinib to sunitinib in advanced clear cell renal cell carcinoma (ccRCC). We report results of the final protocol-prespecified analysis of KEYNOTE-426. Patients received pembrolizumab 200 mg intravenously every 3 wk plus axitinib 5 mg orally twice daily or sunitinib 50 mg orally once daily (4 wk per 6-wk cycle). The dual primary endpoints were overall survival (OS",
+            "classification": {
+              "study_type": "Phase 3 RCT Follow-up",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30779531",
+            "title": "Avelumab plus Axitinib versus Sunitinib for Advanced Renal-Cell Carcinoma.",
+            "authors": [
+              "Motzer Robert J",
+              "Penkov Konstantin",
+              "Haanen John",
+              "Rini Brian",
+              "Albiges Laurence"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "abstract": "In a single-group, phase 1b trial, avelumab plus axitinib resulted in objective responses in patients with advanced renal-cell carcinoma. This phase 3 trial involving previously untreated patients with advanced renal-cell carcinoma compared avelumab plus axitinib with the standard-of-care sunitinib.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39988631",
+            "title": "STX17-DT facilitates axitinib resistance in renal cell carcinoma by inhibiting mitochondrial ROS accumulation and ferroptosis.",
+            "authors": [
+              "Pan Yihui",
+              "Liu Shuang",
+              "Shu Guannan",
+              "Chen Minyu",
+              "Fu Liangmin"
+            ],
+            "journal": "Cell death & disease",
+            "year": "2025",
+            "abstract": "Axitinib resistance remains a serious challenge in the treatment of advanced renal cell carcinoma (RCC), and the underlying mechanisms are not fully understood. Here, we constructed an in vivo axitinib-resistant RCC model and identified the long non-coding RNA STX17-DT as a driver of therapy resistance in RCC. The expression of STX17-DT was significantly elevated in axitinib-resistant RCC cells and correlated with poorer prognosis in RCC patients. Elevated levels of STX17-DT contributed to the d",
+            "classification": {
+              "study_type": "Translational/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37872020",
+            "title": "Toripalimab plus axitinib versus sunitinib as first-line treatment for advanced renal cell carcinoma: RENOTORCH, a randomized, open-label, phase III study.",
+            "authors": [
+              "Yan X Q",
+              "Ye M J",
+              "Zou Q",
+              "Chen P",
+              "He Z S"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2024",
+            "abstract": "Immune checkpoint inhibitors in combination with tyrosine kinase inhibitors are standard treatments for advanced clear cell renal cell carcinoma (RCC). This phase III RENOTORCH study compared the efficacy and safety of toripalimab plus axitinib versus sunitinib for the first-line treatment of patients with intermediate-/poor-risk advanced RCC.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32293937",
+            "title": "Avelumab and axitinib in the treatment of renal cell carcinoma: safety and efficacy.",
+            "authors": [
+              "Leslie Isla",
+              "Boos Laura Amanda",
+              "Larkin James",
+              "Pickering Lisa"
+            ],
+            "journal": "Expert review of anticancer therapy",
+            "year": "2020",
+            "abstract": "Introduction: The incidence of advanced renal cell carcinoma (RCC) is increasing. Over the last 10 years targeted therapies have led to improved efficacy outcomes for renal carcinoma, including longer survival. However, the majority of patients develop disease progression within a year of initiation of first-line therapy. Recently a number of new regimens have been investigated including the combination of immune checkpoint inhibitors with VEGF inhibitors.Areas covered: In this review, we assess",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32856478",
+            "title": "Avelumab and axitinib combination therapy for the treatment of advanced renal cell carcinoma.",
+            "authors": [
+              "Soleimani Maryam",
+              "Nappi Lucia",
+              "Kollmannsberger Christian"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2020",
+            "abstract": "Owing to an improved understanding of the immunobiological profile of renal cell carcinoma (RCC), the past few years have ushered in significant changes in systemic therapies for advanced stage RCC. First-line treatment with single-agent tyrosine kinase inhibitors (TKI) has been virtually replaced for most patients by immunotherapy combinations. The first of such treatments was the dual immune checkpoint inhibitor combination of ipilimumab and nivolumab. More recently, the combination of an immu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40750932",
+            "title": "Pembrolizumab plus axitinib versus sunitinib for advanced clear cell renal cell carcinoma: 5-year survival and biomarker analyses of the phase 3 KEYNOTE-426 trial.",
+            "authors": [
+              "Rini Brian I",
+              "Plimack Elizabeth R",
+              "Stus Viktor",
+              "Gafanov Rustem",
+              "Waddell Tom"
+            ],
+            "journal": "Nature medicine",
+            "year": "2025",
+            "abstract": "At the first interim analysis of the phase 3 KEYNOTE-426 trial, first-line pembrolizumab plus axitinib showed superior overall survival (OS), progression-free survival (PFS) and objective response rate (ORR) over sunitinib for advanced renal cell carcinoma (RCC). To assess long-term durability of clinical outcomes and elucidate predictive biomarkers for RCC, we performed efficacy and prespecified exploratory biomarker analyses from KEYNOTE-426 with ≥5 years of follow-up. Pembrolizumab plus axiti",
+            "classification": {
+              "study_type": "Phase 3 RCT Long-term",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39362847",
+            "title": "Neoadjuvant toripalimab plus axitinib for clear cell renal cell carcinoma with inferior vena cava tumor thrombus: NEOTAX, a phase 2 study.",
+            "authors": [
+              "Gu Liangyou",
+              "Peng Cheng",
+              "Liang Qiyang",
+              "Huang Qingbo",
+              "Lv Deqiang"
+            ],
+            "journal": "Signal transduction and targeted therapy",
+            "year": "2024",
+            "abstract": "The potential benefit of neoadjuvant toripalimab plus axitinib in cases with clear cell renal cell carcinoma (ccRCC) and inferior vena cava tumor thrombus (IVC-TT) remains unclear. NEOTAX was a phase 2 study to investigate the efficacy and safety of neoadjuvant toripalimab plus axitinib in patients with ccRCC and IVC-TT (ChiCTR2000030405). The primary endpoint was the down-staging rate of IVC-TT level. Secondary endpoints included change in TT length, response rate, percentage change in surgical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29033542",
+            "title": "Axitinib in the treatment of renal cell carcinoma: design, development, and place in therapy.",
+            "authors": [
+              "Bellesoeur Audrey",
+              "Carton Edith",
+              "Alexandre Jerome",
+              "Goldwasser Francois",
+              "Huillard Olivier"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2017",
+            "abstract": "Since 2005, the approved first-line treatment of metastatic renal cell carcinoma consists in tyrosine kinase inhibitors (TKIs) targeting the vascular endothelial growth factor receptors (VEGFRs). Axitinib is an oral second-generation TKI and a potent VEGFR inhibitor with a half maximal inhibitory concentration for the VEGF family receptors 10-fold lower than other TKIs. Axitinib activity in renal cell carcinoma (RCC) patients has been studied in various settings and particularly as second-line t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33284113",
+            "title": "Pembrolizumab plus axitinib versus sunitinib monotherapy as first-line treatment of advanced renal cell carcinoma (KEYNOTE-426): extended follow-up from a randomised, open-label, phase 3 trial.",
+            "authors": [
+              "Powles Thomas",
+              "Plimack Elizabeth R",
+              "Soulières Denis",
+              "Waddell Tom",
+              "Stus Viktor"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2020",
+            "abstract": "The first interim analysis of the KEYNOTE-426 study showed superior efficacy of pembrolizumab plus axitinib over sunitinib monotherapy in treatment-naive, advanced renal cell carcinoma. The exploratory analysis with extended follow-up reported here aims to assess long-term efficacy and safety of pembrolizumab plus axitinib versus sunitinib monotherapy in patients with advanced renal cell carcinoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32895571",
+            "title": "Avelumab plus axitinib versus sunitinib in advanced renal cell carcinoma: biomarker analysis of the phase 3 JAVELIN Renal 101 trial.",
+            "authors": [
+              "Motzer Robert J",
+              "Robbins Paul B",
+              "Powles Thomas",
+              "Albiges Laurence",
+              "Haanen John B"
+            ],
+            "journal": "Nature medicine",
+            "year": "2020",
+            "abstract": "We report on molecular analyses of baseline tumor samples from the phase 3 JAVELIN Renal 101 trial (n = 886; NCT02684006 ), which demonstrated significantly prolonged progression-free survival (PFS) with first-line avelumab + axitinib versus sunitinib in advanced renal cell carcinoma (aRCC). We found that neither expression of the commonly assessed biomarker programmed cell death ligand 1 (PD-L1) nor tumor mutational burden differentiated PFS in either study arm. Similarly, the presence of FcɣR ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35136485",
+            "title": "GZ17-6.02 and axitinib interact to kill renal carcinoma cells.",
+            "authors": [
+              "Booth Laurence",
+              "West Cameron",
+              "Moore Robert P",
+              "Hoff Daniel Von",
+              "Dent Paul"
+            ],
+            "journal": "Oncotarget",
+            "year": "2022",
+            "abstract": "GZ17-6.02 is undergoing clinical evaluation in solid tumors and lymphoma. The present studies were performed to define its biology in renal carcinoma cells and to determine whether it interacted with axitinib to enhance tumor cell killing. GZ17-6.02 interacted in an arithmetically greater than additive fashion with axitinib to kill kidney cancer cells. GZ17-6.02 and axitinib cooperated to inactivate ERBB2, c-MET, c-KIT, c-SRC, the AMPK, STAT3, STAT5 and eIF2α and to activate PERK, ULK1 and ATG13",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40810951",
+            "title": "Sintilimab Plus Axitinib for Advanced Fumarate Hydratase-Deficient Renal Cell Carcinoma: A Phase 2 Nonrandomized Clinical Trial.",
+            "authors": [
+              "Zhang Xingming",
+              "Liu Haoyang",
+              "Liang Jiayu",
+              "Zhao Junjie",
+              "Wang Yongquan"
+            ],
+            "journal": "JAMA oncology",
+            "year": "2025",
+            "abstract": "Fumarate hydratase-deficient renal cell carcinoma (FH-deficient RCC) is a lethal kidney cancer that has limited therapeutic options.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39326645",
+            "title": "Outcome after treatment with axitinib in children, young adults, and adults with renal cell carcinoma: a narrative review.",
+            "authors": [
+              "Sprokkerieft Julia",
+              "van der Beek Justine N",
+              "Spreafico Filippo",
+              "Selle Barbara",
+              "Chowdhury Tanzina"
+            ],
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2024",
+            "abstract": "Renal cell carcinoma (RCC) is a very rare type of renal cancer in children and young adults. When metastasized or recurrent, no standards of care are available, and outcome is still poor. The tyrosine kinase inhibitor axitinib is approved for treatment of RCC in adults, but its effects in children and young adults with RCC remains unclear. Due to the histological and biological differences between children and adults, it is difficult to extrapolate knowledge on treatments from the adult to the p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31547602",
+            "title": "Drug-Induced Hypertension Caused by Multikinase Inhibitors (Sorafenib, Sunitinib, Lenvatinib and Axitinib) in Renal Cell Carcinoma Treatment.",
+            "authors": [
+              "Bæk Møller Nanna",
+              "Budolfsen Cecilie",
+              "Grimm Daniela",
+              "Krüger Marcus",
+              "Infanger Manfred"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "abstract": "This paper reviews current treatments for renal cell carcinoma/cancer (RCC) with the multikinase inhibitors (MKIs) sorafenib, sunitinib, lenvatinib and axitinib. Furthermore, it compares these drugs regarding progression-free survival, overall survival and adverse effects (AE), with a focus on hypertension. Sorafenib and sunitinib, which are included in international clinical guidelines as first- and second-line therapy in metastatic RCC, are now being challenged by new-generation drugs like len",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39706335",
+            "title": "Avelumab + axitinib versus sunitinib as first-line treatment for patients with advanced renal cell carcinoma: final analysis of the phase III JAVELIN Renal 101 trial.",
+            "authors": [
+              "Choueiri T K",
+              "Penkov K",
+              "Uemura H",
+              "Campbell M T",
+              "Pal S"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2025",
+            "abstract": "In the phase III JAVELIN Renal 101 trial (NCT02684006), first-line treatment with avelumab + axitinib resulted in significantly longer progression-free survival (PFS) and a higher objective response rate (ORR) versus sunitinib in patients with advanced renal cell carcinoma (aRCC). We report the final analysis, including the primary analysis of overall survival (OS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37194701",
+            "title": "Renal cell carcinoma management: real-world practice and challenges at a national level.",
+            "authors": [
+              "Ghosn Marwan",
+              "Kattan Joseph",
+              "Karak Fadi El",
+              "Ghanem Hady",
+              "Debs Jamil"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2023",
+            "abstract": "Renal cell carcinoma (RCC) management has seen a revolution over the last decades. Six Lebanese oncologists discussed recent updates in RCC management and outlined the challenges and future directions in Lebanon. Sunitinib continues to be a first-line choice for metastatic RCC in Lebanon, except for intermediate- and poor-risk patients. Immunotherapy is not always accessible to patients or selected routinely as first-line therapy. More data are needed on the sequencing of immunotherapy and tyros",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40295487",
+            "title": "Angiogenic and immune predictors of neoadjuvant axitinib response in renal cell carcinoma with venous tumour thrombus.",
+            "authors": [
+              "Wray Rebecca",
+              "Paverd Hania",
+              "Machado Ines",
+              "Barbieri Johanna",
+              "Easita Farhana"
+            ],
+            "journal": "Nature communications",
+            "year": "2025",
+            "abstract": "Venous tumour thrombus (VTT), where the primary tumour invades the renal vein and inferior vena cava, affects 10-15% of renal cell carcinoma (RCC) patients. Curative surgery for VTT is high-risk, but neoadjuvant therapy may improve outcomes. The NAXIVA trial demonstrated a 35% VTT response rate after 8 weeks of neoadjuvant axitinib, a VEGFR-directed therapy. However, understanding non-response is critical for better treatment. Here we show that response to axitinib in this setting is characteris",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "VHL 突變導致 HIF-1α 堆積 → VEGF/PDGF 過表達 → VEGFR 訊號驅動腫瘤血管新生。Axitinib 直接阻斷 VEGFR1/2/3，為 RCC 最成熟的靶向機轉。AXIS Phase 3 試驗（NCT00678392）為核心樞紐試驗，KEYNOTE-426 與 JAVELIN Renal 101 確立一線聯合方案標準治療地位。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ovarian myxoid liposarcoma",
+      "txgnn": {
+        "score": 0.9983799457550048,
+        "rank": 2921
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "卵巢黏液型脂肪肉瘤極為罕見，雖理論上 axitinib 的抗血管新生機轉可能適用（參考一般脂肪肉瘤前臨床數據），但無任何針對此特定亞型的臨床或前臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "angiolipoma",
+      "txgnn": {
+        "score": 0.998261034488678,
+        "rank": 3076
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血管脂肪瘤（angiolipoma）為良性腫瘤，含脂肪與血管成分。雖 VEGFR 路徑理論上與血管增生相關，但 axitinib 用於良性腫瘤缺乏任何臨床合理性，風險效益比不佳。TxGNN 評分可能源自結構相似性誤導。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "collecting duct carcinoma",
+      "txgnn": {
+        "score": 0.9980785846710204,
+        "rank": 3296
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06211114",
+            "title": "Study to Evaluate the Efficacy and Safety of Immune Checkpoint Inhibitors in Combination With Axitinib in Previously Treated Advanced Collecting Duct Carcinoma",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2024-02-09",
+            "completion_date": "2027-02",
+            "brief_summary": "This is a phase II trial to evaluate the efficacy and safety of immune checkpoint inhibitors in combination with axitinib for previously treated advanced collecting duct carcinoma.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "目前唯一直接針對 collecting duct carcinoma + axitinib 的前瞻性 Phase 2 試驗，但仍在招募且樣本數小（n=30）"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28276433",
+            "title": "Renal cell carcinoma.",
+            "authors": [
+              "Hsieh James J",
+              "Purdue Mark P",
+              "Signoretti Sabina",
+              "Swanton Charles",
+              "Albiges Laurence"
+            ],
+            "journal": "Nature reviews. Disease primers",
+            "year": "2017",
+            "abstract": "Renal cell carcinoma (RCC) denotes cancer originated from the renal epithelium and accounts for >90% of cancers in the kidney. The disease encompasses >10 histological and molecular subtypes, of which clear cell RCC (ccRCC) is most common and accounts for most cancer-related deaths. Although somatic VHL mutations have been described for some time, more-recent cancer genomic studies have identified mutations in epigenetic regulatory genes and demonstrated marked intra-tumour heterogeneity, which ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30779529",
+            "title": "Pembrolizumab plus Axitinib versus Sunitinib for Advanced Renal-Cell Carcinoma.",
+            "authors": [
+              "Rini Brian I",
+              "Plimack Elizabeth R",
+              "Stus Viktor",
+              "Gafanov Rustem",
+              "Hawkins Robert"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "abstract": "The combination of pembrolizumab and axitinib showed antitumor activity in a phase 1b trial involving patients with previously untreated advanced renal-cell carcinoma. Whether pembrolizumab plus axitinib would result in better outcomes than sunitinib in such patients was unclear.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35428926",
+            "title": "[Collecting duct carcinoma].",
+            "authors": [
+              "Sondermann Marcus",
+              "Günther Marlis",
+              "Enzmann Thomas"
+            ],
+            "journal": "Urologie (Heidelberg, Germany)",
+            "year": "2022",
+            "abstract": "Collecting duct carcinoma (Bellini duct carcinoma) is a very rare disease with poor prognosis. Primary tumor surgery is not advisable, even though it is the therapy of choice for suspected malignant space-occupying renal masses. Chemotherapy seems to be inferior to new therapeutic concepts based on single case reports. Immunotherapy with nivolumab and axitinib and additive radiotherapy significantly prolongs survival. At the same time, targeted therapy with cabozantinib seems promising. However,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35773144",
+            "title": "Clinicopathological characteristics and prognosis of metastatic collecting duct carcinoma.",
+            "authors": [
+              "Zhou Li",
+              "Liu Yiqiang",
+              "Mo Jiazhi",
+              "Cui Chuanliang",
+              "Chi Zhihong"
+            ],
+            "journal": "Urologic oncology",
+            "year": "2022",
+            "abstract": "To investigate the clinicopathological characteristics, response to different treatment regimens, and prognostic factors of metastatic collecting duct carcinoma (CDC).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30779531",
+            "title": "Avelumab plus Axitinib versus Sunitinib for Advanced Renal-Cell Carcinoma.",
+            "authors": [
+              "Motzer Robert J",
+              "Penkov Konstantin",
+              "Haanen John",
+              "Rini Brian",
+              "Albiges Laurence"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2019",
+            "abstract": "In a single-group, phase 1b trial, avelumab plus axitinib resulted in objective responses in patients with advanced renal-cell carcinoma. This phase 3 trial involving previously untreated patients with advanced renal-cell carcinoma compared avelumab plus axitinib with the standard-of-care sunitinib.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39988631",
+            "title": "STX17-DT facilitates axitinib resistance in renal cell carcinoma by inhibiting mitochondrial ROS accumulation and ferroptosis.",
+            "authors": [
+              "Pan Yihui",
+              "Liu Shuang",
+              "Shu Guannan",
+              "Chen Minyu",
+              "Fu Liangmin"
+            ],
+            "journal": "Cell death & disease",
+            "year": "2025",
+            "abstract": "Axitinib resistance remains a serious challenge in the treatment of advanced renal cell carcinoma (RCC), and the underlying mechanisms are not fully understood. Here, we constructed an in vivo axitinib-resistant RCC model and identified the long non-coding RNA STX17-DT as a driver of therapy resistance in RCC. The expression of STX17-DT was significantly elevated in axitinib-resistant RCC cells and correlated with poorer prognosis in RCC patients. Elevated levels of STX17-DT contributed to the d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37500340",
+            "title": "Pembrolizumab Plus Axitinib Versus Sunitinib as First-line Treatment of Advanced Renal Cell Carcinoma: 43-month Follow-up of the Phase 3 KEYNOTE-426 Study.",
+            "authors": [
+              "Plimack Elizabeth R",
+              "Powles Thomas",
+              "Stus Viktor",
+              "Gafanov Rustem",
+              "Nosov Dmitry"
+            ],
+            "journal": "European urology",
+            "year": "2023",
+            "abstract": "Previous analyses of KEYNOTE-426, an open-label, phase 3 randomized study, showed superior efficacy of first-line pembrolizumab plus axitinib to sunitinib in advanced clear cell renal cell carcinoma (ccRCC). We report results of the final protocol-prespecified analysis of KEYNOTE-426. Patients received pembrolizumab 200 mg intravenously every 3 wk plus axitinib 5 mg orally twice daily or sunitinib 50 mg orally once daily (4 wk per 6-wk cycle). The dual primary endpoints were overall survival (OS",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37872020",
+            "title": "Toripalimab plus axitinib versus sunitinib as first-line treatment for advanced renal cell carcinoma: RENOTORCH, a randomized, open-label, phase III study.",
+            "authors": [
+              "Yan X Q",
+              "Ye M J",
+              "Zou Q",
+              "Chen P",
+              "He Z S"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2024",
+            "abstract": "Immune checkpoint inhibitors in combination with tyrosine kinase inhibitors are standard treatments for advanced clear cell renal cell carcinoma (RCC). This phase III RENOTORCH study compared the efficacy and safety of toripalimab plus axitinib versus sunitinib for the first-line treatment of patients with intermediate-/poor-risk advanced RCC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40750932",
+            "title": "Pembrolizumab plus axitinib versus sunitinib for advanced clear cell renal cell carcinoma: 5-year survival and biomarker analyses of the phase 3 KEYNOTE-426 trial.",
+            "authors": [
+              "Rini Brian I",
+              "Plimack Elizabeth R",
+              "Stus Viktor",
+              "Gafanov Rustem",
+              "Waddell Tom"
+            ],
+            "journal": "Nature medicine",
+            "year": "2025",
+            "abstract": "At the first interim analysis of the phase 3 KEYNOTE-426 trial, first-line pembrolizumab plus axitinib showed superior overall survival (OS), progression-free survival (PFS) and objective response rate (ORR) over sunitinib for advanced renal cell carcinoma (RCC). To assess long-term durability of clinical outcomes and elucidate predictive biomarkers for RCC, we performed efficacy and prespecified exploratory biomarker analyses from KEYNOTE-426 with ≥5 years of follow-up. Pembrolizumab plus axiti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32895571",
+            "title": "Avelumab plus axitinib versus sunitinib in advanced renal cell carcinoma: biomarker analysis of the phase 3 JAVELIN Renal 101 trial.",
+            "authors": [
+              "Motzer Robert J",
+              "Robbins Paul B",
+              "Powles Thomas",
+              "Albiges Laurence",
+              "Haanen John B"
+            ],
+            "journal": "Nature medicine",
+            "year": "2020",
+            "abstract": "We report on molecular analyses of baseline tumor samples from the phase 3 JAVELIN Renal 101 trial (n = 886; NCT02684006 ), which demonstrated significantly prolonged progression-free survival (PFS) with first-line avelumab + axitinib versus sunitinib in advanced renal cell carcinoma (aRCC). We found that neither expression of the commonly assessed biomarker programmed cell death ligand 1 (PD-L1) nor tumor mutational burden differentiated PFS in either study arm. Similarly, the presence of FcɣR ",
+            "classification": {
+              "study_type": "Biomarker Sub-analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33284113",
+            "title": "Pembrolizumab plus axitinib versus sunitinib monotherapy as first-line treatment of advanced renal cell carcinoma (KEYNOTE-426): extended follow-up from a randomised, open-label, phase 3 trial.",
+            "authors": [
+              "Powles Thomas",
+              "Plimack Elizabeth R",
+              "Soulières Denis",
+              "Waddell Tom",
+              "Stus Viktor"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2020",
+            "abstract": "The first interim analysis of the KEYNOTE-426 study showed superior efficacy of pembrolizumab plus axitinib over sunitinib monotherapy in treatment-naive, advanced renal cell carcinoma. The exploratory analysis with extended follow-up reported here aims to assess long-term efficacy and safety of pembrolizumab plus axitinib versus sunitinib monotherapy in patients with advanced renal cell carcinoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35136485",
+            "title": "GZ17-6.02 and axitinib interact to kill renal carcinoma cells.",
+            "authors": [
+              "Booth Laurence",
+              "West Cameron",
+              "Moore Robert P",
+              "Hoff Daniel Von",
+              "Dent Paul"
+            ],
+            "journal": "Oncotarget",
+            "year": "2022",
+            "abstract": "GZ17-6.02 is undergoing clinical evaluation in solid tumors and lymphoma. The present studies were performed to define its biology in renal carcinoma cells and to determine whether it interacted with axitinib to enhance tumor cell killing. GZ17-6.02 interacted in an arithmetically greater than additive fashion with axitinib to kill kidney cancer cells. GZ17-6.02 and axitinib cooperated to inactivate ERBB2, c-MET, c-KIT, c-SRC, the AMPK, STAT3, STAT5 and eIF2α and to activate PERK, ULK1 and ATG13",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20072829",
+            "title": "Axitinib (AG-013736).",
+            "authors": [
+              "Kelly Ronan Joseph",
+              "Rixe Olivier"
+            ],
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "year": "2010",
+            "abstract": "The vascular endothelial growth factor (VEGF)/VEGF receptor tyrosine kinase (RTK) signaling pathway plays a pivotal role in tumor angiogenesis. Neovascularization promotes increased tumor cell proliferation, survival and metasasis. Many antiangiogenic agents including multi-RTK inhibitors are either approved or are undergoing testing in clinical trials. Axitinib is a potent and selective inhibitor of VEGF RTK 1, 2, and 3. This chapter discusses the stucture of axitinib as well as its toxicities ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40295487",
+            "title": "Angiogenic and immune predictors of neoadjuvant axitinib response in renal cell carcinoma with venous tumour thrombus.",
+            "authors": [
+              "Wray Rebecca",
+              "Paverd Hania",
+              "Machado Ines",
+              "Barbieri Johanna",
+              "Easita Farhana"
+            ],
+            "journal": "Nature communications",
+            "year": "2025",
+            "abstract": "Venous tumour thrombus (VTT), where the primary tumour invades the renal vein and inferior vena cava, affects 10-15% of renal cell carcinoma (RCC) patients. Curative surgery for VTT is high-risk, but neoadjuvant therapy may improve outcomes. The NAXIVA trial demonstrated a 35% VTT response rate after 8 weeks of neoadjuvant axitinib, a VEGFR-directed therapy. However, understanding non-response is critical for better treatment. Here we show that response to axitinib in this setting is characteris",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32293937",
+            "title": "Avelumab and axitinib in the treatment of renal cell carcinoma: safety and efficacy.",
+            "authors": [
+              "Leslie Isla",
+              "Boos Laura Amanda",
+              "Larkin James",
+              "Pickering Lisa"
+            ],
+            "journal": "Expert review of anticancer therapy",
+            "year": "2020",
+            "abstract": "Introduction: The incidence of advanced renal cell carcinoma (RCC) is increasing. Over the last 10 years targeted therapies have led to improved efficacy outcomes for renal carcinoma, including longer survival. However, the majority of patients develop disease progression within a year of initiation of first-line therapy. Recently a number of new regimens have been investigated including the combination of immune checkpoint inhibitors with VEGF inhibitors.Areas covered: In this review, we assess",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38714434",
+            "title": "Comparison of Cabozantinib and Axitinib as Second-line Therapy After Nivolumab Plus Ipilimumab in Patients With Metastatic Clear Cell Renal Cell Carcinoma: A Comparative Analysis of Retrospective Real-world Data.",
+            "authors": [
+              "Tomida Ryotaro",
+              "Takahashi Masayuki",
+              "Matsushita Yuto",
+              "Kojima Takahiro",
+              "Yamana Kazutoshi"
+            ],
+            "journal": "Clinical genitourinary cancer",
+            "year": "2024",
+            "abstract": "To date, no studies have compared the treatment outcomes of second-line therapies in patients with metastatic clear cell renal cell carcinoma (ccRCC). This study retrospectively evaluated the efficacy of cabozantinib and axitinib as second-line treatments in patients with metastatic ccRCC who previously received immune-oncology combination therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39362847",
+            "title": "Neoadjuvant toripalimab plus axitinib for clear cell renal cell carcinoma with inferior vena cava tumor thrombus: NEOTAX, a phase 2 study.",
+            "authors": [
+              "Gu Liangyou",
+              "Peng Cheng",
+              "Liang Qiyang",
+              "Huang Qingbo",
+              "Lv Deqiang"
+            ],
+            "journal": "Signal transduction and targeted therapy",
+            "year": "2024",
+            "abstract": "The potential benefit of neoadjuvant toripalimab plus axitinib in cases with clear cell renal cell carcinoma (ccRCC) and inferior vena cava tumor thrombus (IVC-TT) remains unclear. NEOTAX was a phase 2 study to investigate the efficacy and safety of neoadjuvant toripalimab plus axitinib in patients with ccRCC and IVC-TT (ChiCTR2000030405). The primary endpoint was the down-staging rate of IVC-TT level. Secondary endpoints included change in TT length, response rate, percentage change in surgical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29033542",
+            "title": "Axitinib in the treatment of renal cell carcinoma: design, development, and place in therapy.",
+            "authors": [
+              "Bellesoeur Audrey",
+              "Carton Edith",
+              "Alexandre Jerome",
+              "Goldwasser Francois",
+              "Huillard Olivier"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2017",
+            "abstract": "Since 2005, the approved first-line treatment of metastatic renal cell carcinoma consists in tyrosine kinase inhibitors (TKIs) targeting the vascular endothelial growth factor receptors (VEGFRs). Axitinib is an oral second-generation TKI and a potent VEGFR inhibitor with a half maximal inhibitory concentration for the VEGF family receptors 10-fold lower than other TKIs. Axitinib activity in renal cell carcinoma (RCC) patients has been studied in various settings and particularly as second-line t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32856478",
+            "title": "Avelumab and axitinib combination therapy for the treatment of advanced renal cell carcinoma.",
+            "authors": [
+              "Soleimani Maryam",
+              "Nappi Lucia",
+              "Kollmannsberger Christian"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2020",
+            "abstract": "Owing to an improved understanding of the immunobiological profile of renal cell carcinoma (RCC), the past few years have ushered in significant changes in systemic therapies for advanced stage RCC. First-line treatment with single-agent tyrosine kinase inhibitors (TKI) has been virtually replaced for most patients by immunotherapy combinations. The first of such treatments was the dual immune checkpoint inhibitor combination of ipilimumab and nivolumab. More recently, the combination of an immu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37452557",
+            "title": "Editorial Comment to Efficacy and safety of pembrolizumab and axitinib as first-line treatment for patients with advanced renal cell carcinoma: Real-world experience in Japan.",
+            "authors": [
+              "Kondo Tsunenori"
+            ],
+            "journal": "International journal of urology : official journal of the Japanese Urological Association",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "集合管癌（Bellini 管癌）為高侵襲性稀少型 RCC，分子特徵含 NF2、CDKN2A 突變，VEGF 路徑相對次要；但部分病例 VEGFR 表達陽性。現有一線缺乏標準治療，IO+TKI 聯合策略有探索價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "familial spontaneous pneumothorax",
+      "txgnn": {
+        "score": 0.9978234767913818,
+        "rank": 3634
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性自發性氣胸（多與 FLCN、TSC 突變相關）和 VEGFR 路徑之間缺乏直接生物學連結。此適應症與 axitinib 的機轉高度不符，TxGNN 高分可能為知識圖譜中肺部/血管相關節點的間接關聯，無臨床探索依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal cell carcinoma associated with neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "unclassified renal cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "childhood kidney cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "renal carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "angiolipoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "angiolipoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "angiolipoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "collecting duct carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "collecting duct carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "collecting duct carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "familial spontaneous pneumothorax"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "familial spontaneous pneumothorax"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Axitinib",
+        "disease": "familial spontaneous pneumothorax"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

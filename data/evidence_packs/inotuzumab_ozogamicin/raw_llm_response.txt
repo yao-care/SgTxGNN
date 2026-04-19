@@ -1,0 +1,263 @@
+## 藥物背景知識確認
+
+**Inotuzumab ozogamicin** 是抗 CD22 抗體藥物複合體（ADC），以 anti-CD22 單株抗體連接 calicheamicin（細胞毒性劑）。FDA 已核准用於復發/難治性 B 細胞前驅急性淋巴性白血病（B-ALL）。原始資料中 `original_indications: []` 及 `original_moa: "[Data Gap]"` 屬資料缺失，需注意。
+
+---
+
+```json
+{
+  "drug": "Inotuzumab ozogamicin",
+  "drugbank_id": "DB05889",
+  "known_moa": "Anti-CD22 ADC（抗體藥物複合體）：靶向 B 細胞表面 CD22，內化後釋放 calicheamicin 造成 DNA 雙股斷裂",
+  "data_quality_flags": [
+    "original_moa 標記為 [Data Gap]，實際機轉明確（anti-CD22 ADC）",
+    "original_indications 空白，但已有 FDA 核准適應症（B-cell precursor ALL）",
+    "市場狀態標記為未上市，疑為台灣/新加坡在地上市資料缺失"
+  ],
+  "indications": [
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉連結。Anti-CD22 ADC 主要靶向 B 淋巴細胞，骨質疏鬆涉及 osteoclast/osteoblast 失衡，與 CD22/calicheamicin 路徑無直接關聯。KG 分數高（0.982）推測來自圖譜中間接路徑（如 B 細胞調控 RANKL），屬高度推測性連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9824,
+      "score_interpretation": "高分但無任何支持性臨床或文獻證據，屬模型過度預測（overreach）",
+      "red_flags": ["適應症方向性矛盾：藥物本身造成血小板低下等副作用，與治療骨鬆背道而馳"]
+    },
+    {
+      "disease_name": "HER2 positive breast carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HER2 陽性乳癌的標靶為 HER2（ERBB2），與 CD22 無關。CD22 主要表現於 B 淋巴細胞，乳腺上皮癌細胞不表現 CD22。潛在間接路徑：腫瘤微環境中腫瘤浸潤性 B 淋巴球（TIL-B）表現 CD22，但此機轉極為間接且缺乏支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9777,
+      "score_interpretation": "KG 預測分數極高但無臨床依據，可能因知識圖譜中 B 細胞免疫路徑與腫瘤微環境節點相連所致",
+      "red_flags": ["目標抗原 CD22 不表現於乳癌細胞", "HER2+ 乳癌有專屬靶向療法（trastuzumab, pertuzumab）"]
+    },
+    {
+      "disease_name": "normal breast-like subtype of breast carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Normal breast-like 亞型乳癌基因表現接近正常乳腺組織，無 CD22 表現證據。機轉連結與 HER2+ 乳癌相同分析，均屬 KG 間接路徑預測，無臨床意義。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9679,
+      "score_interpretation": "與 progesterone-receptor positive 同分（0.9679），暗示 KG 同一路徑節點所致的批量預測",
+      "red_flags": ["無 CD22 表現依據", "亞型分類較罕見，臨床試驗招募困難"]
+    },
+    {
+      "disease_name": "progesterone-receptor positive breast cancer",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PR+ 乳癌的驅動機轉為雌激素/黃體素受體訊號，與 CD22 路徑無交集。Anti-CD22 ADC 對 PR+ 乳癌上皮細胞無直接靶向效果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9679,
+      "score_interpretation": "與 normal breast-like 同分，強化批量路徑預測假說",
+      "red_flags": ["PR+ 乳癌有成熟內分泌療法（aromatase inhibitors, fulvestrant）"]
+    },
+    {
+      "disease_name": "breast tumor luminal A or B",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Luminal A/B 乳癌由 ER/PR 驅動，CD22 非靶點。19 篇文獻經逐一查核均與本藥用於乳癌無關，屬關鍵字污染（'B' 字母觸發 B 細胞相關文獻）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32323265",
+          "title": "B Cell Development and Maturation",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "B 細胞發育基礎科學，無乳癌連結"
+        },
+        {
+          "pmid": "11244048",
+          "title": "B cell development pathways",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "2001 年基礎回顧，無乳癌連結"
+        },
+        {
+          "pmid": "34590138",
+          "title": "Hepatitis B Vaccines",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "完全不相關",
+          "note": "B 型肝炎疫苗，與乳癌/inotuzumab 無關"
+        },
+        {
+          "pmid": "32323276",
+          "title": "B Cell Lymphoma",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "B 細胞淋巴瘤（血液腫瘤），非乳癌"
+        },
+        {
+          "pmid": "33783302",
+          "title": "CpG-Adjuvanted Hepatitis B Vaccine (HEPLISAV-B®) Update",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "完全不相關",
+          "note": "疫苗藥物更新，無乳癌連結"
+        },
+        {
+          "pmid": "17471822",
+          "title": "Introduction to B-Cell disorders",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "B 細胞疾病概論，無乳癌連結"
+        },
+        {
+          "pmid": "39424718",
+          "title": "B Cell Differentiation and the Origin and Pathogenesis of Human B Cell Lymphomas",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "B 細胞分化與淋巴瘤，非乳癌"
+        },
+        {
+          "pmid": "34557923",
+          "title": "Heplisav-B in Prior Hepatitis B Vaccine Nonresponders",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "完全不相關",
+          "note": "疫苗案例系列，無乳癌連結"
+        },
+        {
+          "pmid": "16879952",
+          "title": "B-1 B cells: development, selection, natural autoantibody and leukemia",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "B-1 細胞基礎科學，無乳癌連結"
+        },
+        {
+          "pmid": "26194636",
+          "title": "Siglec-G is a B-1 cell inhibitory receptor and also controls B cell tolerance",
+          "study_type": "Original Research",
+          "tier": 3,
+          "relevance": "不相關",
+          "note": "Siglec-G/CD22 家族受體基礎研究，無乳癌臨床連結"
+        }
+      ],
+      "txgnn_score": 0.9676,
+      "score_interpretation": "19 篇文獻均屬假陽性（文獻搜尋關鍵字污染），有效臨床證據為零",
+      "red_flags": ["文獻污染警告：所有文獻均因 'B'（B 細胞/B 型肝炎）關鍵字誤收，非因乳癌-inotuzumab 真實連結"]
+    },
+    {
+      "disease_name": "progesterone-receptor negative breast cancer",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PR- 乳癌（含部分 triple-negative）無 CD22 靶向依據。TNBC 現有研究方向為 PD-L1、TROP-2（sacituzumab govitecan）等靶點，CD22 非已知靶點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9668,
+      "score_interpretation": "無支持證據",
+      "red_flags": ["靶點不符", "TNBC 已有 TROP-2 ADC（sacituzumab govitecan）競爭"]
+    },
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "糖尿病視網膜病變主要為微血管病變（AGE、VEGF、pericyte 損失），與 CD22/B 細胞路徑無已知直接連結。Anti-CD22 ADC 的 calicheamicin 毒性對視網膜微血管可能具潛在傷害性（副作用考量）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9205,
+      "score_interpretation": "分數明顯低於乳癌群（0.92 vs 0.97），反映 KG 連結更弱",
+      "red_flags": ["機轉反向：ADC 細胞毒性可能加重視網膜損傷", "無免疫機轉依據"]
+    },
+    {
+      "disease_name": "primary release disorder of platelets",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血小板釋放障礙（如 storage pool disease）為血小板功能障礙，與 CD22 無直接關係。反諷的是，inotuzumab ozogamicin 本身會造成血小板低下（thrombocytopenia）為其主要毒性之一，用於治療血小板疾病存在安全性矛盾。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9151,
+      "score_interpretation": "預測方向性錯誤風險高",
+      "red_flags": ["安全性矛盾：藥物本身引起 thrombocytopenia，用於血小板疾病風險極高", "此預測需特別標記為安全性禁忌研究方向"]
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pseudo-vWD 為 GPIbα 功能異常導致 vWF 結合過強，屬血小板-vWF 相互作用障礙，與 B 細胞/CD22/calicheamicin 路徑無任何已知交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.8985,
+      "score_interpretation": "無支持證據，機轉完全不符",
+      "red_flags": ["疾病罕見性：極罕見疾病，即使有微弱信號也難以設計臨床試驗", "安全性顧慮同 platelet 疾病"]
+    },
+    {
+      "disease_name": "infectious bovine rhinotracheitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牛傳染性鼻氣管炎（BoHV-1 感染）為獸醫疾病，不適用於人類臨床。即使考慮跨物種應用，anti-CD22 ADC 對疱疹病毒感染無已知抗病毒機轉。此預測屬 KG 跨物種節點連結的假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.8969,
+      "score_interpretation": "獸醫疾病預測，根本不在人類適應症範疇",
+      "red_flags": ["物種適用性：獸醫疾病，人類臨床無適用性", "KG 資料品質問題：跨物種節點污染"]
+    }
+  ],
+  "overall_assessment": {
+    "summary": "10 個預測適應症全數評為 L5/S0，建議全部 Hold",
+    "critical_observations": [
+      "1. 藥物真實機轉被標記為 Data Gap：Inotuzumab ozogamicin 是已核准的 anti-CD22 ADC（用於 B-cell ALL），原始機轉資料缺失導致模型無法正確理解其靶向特異性",
+      "2. 批量乳癌預測（6/10 適應症）：KG 可能透過 B 細胞免疫路徑錯誤將 B-ALL 適應症擴展至乳癌，乃模型的系統性偏差",
+      "3. 文獻污染：breast tumor luminal A or B 的 19 篇文獻均為 B 細胞/B 型肝炎相關，完全非特異性",
+      "4. 安全性反向預測：blood platelet disorder 及 pseudo-vWD 的預測方向與藥物副作用（thrombocytopenia）相矛盾，具潛在安全性風險",
+      "5. 獸醫疾病入列：infectious bovine rhinotracheitis 顯示 KG 資料存在跨物種節點污染問題"
+    ],
+    "legitimate_repurposing_directions": [
+      "雖未在本批預測中，但實際上 inotuzumab ozogamicin 有更具潛力的研究方向：",
+      "- CD22+ 非霍奇金淋巴瘤（Non-Hodgkin Lymphoma）",
+      "- Diffuse Large B Cell Lymphoma (DLBCL)",
+      "- 與 CART-19 therapy 序列組合用於 ALL",
+      "- 自體免疫疾病（CD22+ B 細胞耗竭，如 SLE）"
+    ],
+    "data_pipeline_recommendations": [
+      "修正 original_moa 資料缺失問題，正確標記為 anti-CD22 ADC",
+      "增加 original_indications（B-cell precursor ALL）以校正 KG 起始節點",
+      "加入靶點表現過濾器（CD22 expression filter）排除非 B 細胞來源疾病的預測",
+      "文獻搜尋需加入藥物名稱作為必要關鍵字，避免僅依疾病名稱搜尋造成污染"
+    ]
+  }
+}
+```
+
+---
+
+## 摘要說明
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 核心問題 |
+|--------|---------|---------|------|---------|
+| drug-induced osteoporosis | L5 | S0 | Hold | 機轉無連結 |
+| HER2+ breast carcinoma | L5 | S0 | Hold | CD22 非靶點 |
+| normal breast-like subtype | L5 | S0 | Hold | CD22 非靶點 |
+| PR+ breast cancer | L5 | S0 | Hold | CD22 非靶點 |
+| luminal A or B breast tumor | L5 | S0 | Hold | **文獻全為假陽性** |
+| PR- breast cancer | L5 | S0 | Hold | CD22 非靶點 |
+| severe nonproliferative DRP | L5 | S0 | Hold | 機轉不符 |
+| primary platelet release disorder | L5 | S0 | Hold | ⚠️ **安全性矛盾** |
+| pseudo-vWD | L5 | S0 | Hold | ⚠️ 安全性顧慮 |
+| infectious bovine rhinotracheitis | L5 | S0 | Hold | 🚫 獸醫疾病 |
+
+> ⚠️ **最重要發現**：本藥原始機轉（anti-CD22 ADC）在資料管道中被標記為 `[Data Gap]`，原始適應症（B-cell ALL）也為空值，導致 KG 模型失去正確錨點，產生系統性方向偏差。建議優先修正資料品質問題後重新預測。

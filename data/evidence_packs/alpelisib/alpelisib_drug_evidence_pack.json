@@ -1,0 +1,1319 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB12015-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alpelisib",
+    "drugbank_id": "DB12015",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.9903062582015992,
+        "rank": 10332
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06705504",
+            "title": "Real-world Effectiveness and Safety in HR+/HER2- Advanced or Metastatic BC Patients Treated With Ribociclib or Alpelisib: A European Non-interventional Retrospective Study (REASSURE)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 435,
+            "start_date": "2021-06-11",
+            "completion_date": "2023-11-30",
+            "brief_summary": "This study was a multinational and multicenter cohort study of patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) advanced or metastatic breast cancer (aBC/mBC) treated with ribociclib or alpelisib between the period of 01 January 2018 and 30 September 2021. Patients who were receiving active treatment for malignancies other than BC or participating in a clinical trial were excluded. This study was conducted retrospectively with secondary use of",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此試驗為 HR+/HER2- 乳癌真實世界研究，與肺動脈高壓無關。試驗設計、族群及終點均不適用於此適應症評估。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35730191",
+            "title": "Alpelisib induced interstitial lung disease in a patient with advanced breast cancer.",
+            "authors": [
+              "Isiklar Aysun",
+              "Basaran Gul",
+              "Sepin Beyza",
+              "Gumusay Ozge",
+              "Kocagoz Ayse Sesin"
+            ],
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2023",
+            "abstract": "Interstitial lung disease interstitial lung disease is a group of respiratory diseases that causes progressive fibrosis. Many of the recently approved oncology drugs are associated with the development of interstitial lung disease as an adverse event. We report an alpelisib-induced interstitial lung disease in a patient with advanced breast cancer.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31039672",
+            "title": "PI3Kα Pathway Inhibition With Doxorubicin Treatment Results in Distinct Biventricular Atrophy and Remodeling With Right Ventricular Dysfunction.",
+            "authors": [
+              "McLean Brent A",
+              "Patel Vaibhav B",
+              "Zhabyeyev Pavel",
+              "Chen Xueyi",
+              "Basu Ratnadeep"
+            ],
+            "journal": "Journal of the American Heart Association",
+            "year": "2019",
+            "abstract": "Background Cancer therapies inhibiting PI 3Kα (phosphoinositide 3-kinase-α)-dependent growth factor signaling, including trastuzumab inhibition of HER 2 (Human Epidermal Growth Factor Receptor 2), can cause adverse effects on the heart. Direct inhibition of PI 3Kα is now in clinical trials, but the effects of PI 3Kα pathway inhibition on heart atrophy, remodeling, and function in the context of cancer therapy are not well understood. Method and Results Pharmacological PI 3Kα inhibition and heart",
+            "classification": {
+              "study_type": "Preclinical/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PI3Kα/AKT/mTOR 訊號通路參與肺動脈平滑肌細胞增殖與血管重塑，理論上具機轉關聯；但現有文獻顯示 Alpelisib 對肺部主要為不良事件（ILD），並非治療效益。PI3Kβ/γ isoforms 在 PAH 中的作用可能更關鍵。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.9894922971725464,
+        "rank": 10898
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "Genetic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "journal": "Epilepsia",
+            "year": "2011",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the chara",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PI3K/mTOR 訊號路徑理論上涉及皮質擴延性去極化（CSD）調控與神經元興奮性，且癲癇與偏頭痛在遺傳機轉上有部分重疊；但 Alpelisib 用於偏頭痛無任何直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9890084862709044,
+        "rank": 11270
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同 'migraine with or without aura'，PI3K/mTOR 在偏頭痛中的理論作用，惟缺乏任何直接臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9886310696601868,
+        "rank": 11562
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱後凸側彎性心臟病主要為機械性限制型心臟病（肺心病），PI3Kα 抑制在此病生理無合理機轉連結。推測 TxGNN 係透過心臟重塑通路節點產生高分，但無生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9875198602676392,
+        "rank": 12421
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32066498",
+            "title": "The paradox of cancer genes in non-malignant conditions: implications for precision medicine.",
+            "authors": [
+              "Adashek Jacob J",
+              "Kato Shumei",
+              "Lippman Scott M",
+              "Kurzrock Razelle"
+            ],
+            "journal": "Genome medicine",
+            "year": "2020",
+            "abstract": "Next-generation sequencing has enabled patient selection for targeted drugs, some of which have shown remarkable efficacy in cancers that have the cognate molecular signatures. Intriguingly, rapidly emerging data indicate that altered genes representing oncogenic drivers can also be found in sporadic non-malignant conditions, some of which have negligible and/or low potential for transformation to cancer. For instance, activating KRAS mutations are discerned in endometriosis and in brain arterio",
+            "classification": {
+              "study_type": "Conceptual Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PI3K/AKT 通路參與免疫細胞活化（T細胞、B細胞、巨噬細胞）。但 Alpelisib 為 PI3Kα 選擇性抑制劑，而 RA 的 PI3K 靶點主要為 PI3Kδ（淋巴細胞）和 PI3Kγ（嗜中性球/單核球），isoform 選擇性不符。PI3Kδ 抑制劑（如 Idelalisib）在自身免疫疾病研究較具合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.986933171749115,
+        "rank": 12888
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PI3K 信號在麻風分枝桿菌感染的宿主免疫逃逸機制中有理論性角色（巨噬細胞吞噬體成熟調控），但 Alpelisib 為 PI3Kα 選擇性，對感染免疫的 PI3Kγ/δ 通路影響有限；無任何臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9868248105049132,
+        "rank": 12958
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "基底型偏頭痛涉及腦幹 CSD 機轉，PI3K/mTOR 在腦幹神經元調控的理論角色極為間接；無臨床依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "thrombotic disease",
+      "txgnn": {
+        "score": 0.9856237173080444,
+        "rank": 13816
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38880808",
+            "title": "Targeted therapy for capillary-venous malformations.",
+            "authors": [
+              "Zerbib Lola",
+              "Ladraa Sophia",
+              "Fraissenon Antoine",
+              "Bayard Charles",
+              "Firpion Marina"
+            ],
+            "journal": "Signal transduction and targeted therapy",
+            "year": "2024",
+            "abstract": "Sporadic venous malformations are genetic conditions primarily caused by somatic gain-of-function mutation of PIK3CA or TEK, an endothelial transmembrane receptor signaling through PIK3CA. Venous malformations are associated with pain, bleedings, thrombosis, pulmonary embolism, esthetic deformities and, in severe cases, life-threatening situations. No authorized medical treatment exists for patients with venous malformations. Here, we created a genetic mouse model of PIK3CA-related capillary ven",
+            "classification": {
+              "study_type": "Review/Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31903879",
+            "title": "Isoform-Selective PI3K Inhibitors for Various Diseases.",
+            "authors": [
+              "Bheemanaboina Rammohan R Y"
+            ],
+            "journal": "Current topics in medicinal chemistry",
+            "year": "2020",
+            "abstract": "Phosphoinositide 3-kinases (PI3Ks) are a family of ubiquitously distributed lipid kinases that control a wide variety of intracellular signaling pathways. Over the years, PI3K has emerged as an attractive target for the development of novel pharmaceuticals to treat cancer and various other diseases. In the last five years, four of the PI3K inhibitors viz. Idelalisib, Copanlisib, Duvelisib, and Alpelisib were approved by the FDA for the treatment of different types of cancer and several other PI3",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35343049",
+            "title": "A precision medicine approach to hereditary hemorrhagic telangiectasia and complex vascular anomalies.",
+            "authors": [
+              "Al-Samkari Hanny",
+              "Eng Whitney"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2022",
+            "abstract": "Vascular anomalies represent a diverse group of disorders classified broadly as malformations or tumors and include the second most common hereditary bleeding disorder worldwide, hereditary hemorrhagic telangiectasia (HHT). Patients with HHT and other vascular anomalies suffer morbid consequences of these diseases, including bleeding, thrombosis, anemia, localized intravascular coagulation, tissue overgrowth, infections, and other complications. The International Society for the Study of Vascula",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PI3K 通路在血小板活化中具重要角色：PI3Kβ 調控 GPIb/GPVI 訊號，PI3Kγ 調控整合素活化。然而 Alpelisib 為 PI3Kα 選擇性，對血小板功能的直接作用有限。現有文獻主要描述 PI3K 抑制在血管畸形（PROS、HHT）的療效，與血栓性疾病病生理機轉不同。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "amyotrophic lateral sclerosis",
+      "txgnn": {
+        "score": 0.9840090274810792,
+        "rank": 14816
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PI3K/AKT/mTOR 通路在神經元存活和自噬調控中具角色；mTOR 過度活化與 ALS 病生理有關聯的理論研究。但 Alpelisib 無 ALS 相關前臨床或臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn": {
+        "score": 0.9837756752967834,
+        "rank": 14942
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01708161",
+            "title": "A Phase Ib/II Study of the Combination of BYL719 Plus AMG 479 in Adult Patients With Selected Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 47,
+            "start_date": "2012-11-27",
+            "completion_date": "2017-06-01",
+            "brief_summary": "This was a multi-center, open-label, phase Ib/II study. The aim of the phase Ib part was to estimate the MTD(s) and/or identify the recommended phase II dose(s) (RP2Ds) for the combination of BYL719 and AMG 479 (ganitumab), followed by the phase II part to assess the clinical efficacy and to further assess the safety of the combination in selected patient populations. Patients were to be treated until progression of disease, unacceptable toxicity develops, or withdrawal of informed consent, whic",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "涵蓋多種實體腫瘤（'selected solid tumors'）可能包含內分泌腫瘤；Phase 1b/2 設計提供安全性與初步療效數據；但試驗終止且樣本數僅 47，數據有限。"
+            }
+          },
+          {
+            "nct_id": "NCT05631795",
+            "title": "ALPelisib INdia Safety STudy (ALPINIST): A Phase IV, Prospective, Multicenter, Open-label, Non-comparative, Interventional Study to Assess the Safety of Alpelisib Plus Fulvestrant, in Men and Post-menopausal Women With HR Positive, HER2-negative, Advanced Breast Cancer (aBC) With a PIK3CA Mutation, Whose Disease Has Progressed on or After Endocrine Based Treatment.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2022-08-09",
+            "completion_date": "2025-06-12",
+            "brief_summary": "The purpose of this study is to determine the safety of alpelisib plus fulvestrant in men and post-menopausal women with HR-positive, HER2-negative, advanced or metastatic breast cancer (aBC) with a PIK3CA mutation, whose disease has progressed on or after endocrine-based treatment",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "乳癌安全性研究，與 MEN 無關。"
+            }
+          },
+          {
+            "nct_id": "NCT02437318",
+            "title": "A Phase III Randomized Double-blind, Placebo Controlled Study of Alpelisib in Combination With Fulvestrant for Men and Postmenopausal Women With Hormone Receptor Positive, HER2-negative Advanced Breast Cancer Which Progressed on or After Aromatase Inhibitor Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 572,
+            "start_date": "2015-07-23",
+            "completion_date": "2023-06-09",
+            "brief_summary": "To determine whether treatment with alpelisib plus fulvestrant prolonged progression-free survival (PFS) compared to fulvestrant and placebo in men and postmenopausal women with hormone receptor positive (HR+), human epidermal growth factor receptor-2 (HER2)-negative advanced breast cancer, who received prior treatment with an aromatase Inhibitor (AI) either as (neo)adjuvant or for advanced disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "SOLAR-1 確立 Alpelisib 在 PIK3CA 突變實體腫瘤的 Phase 3 療效概念（ORR 26.6% vs 12.8%，PFS 延長），提供強大的間接支持；但適應症為 HR+/HER2- 乳癌，非 MEN，僅作為機轉驗證依據。"
+            }
+          },
+          {
+            "nct_id": "NCT04729387",
+            "title": "EPIK-O: A Phase III, Multi-center, Randomized (1:1), Open-label, Active-controlled, Study to Assess the Efficacy and Safety of Alpelisib (BYL719) in Combination With Olaparib as Compared to Single Agent Cytotoxic Chemotherapy, in Participants With no Germline BRCA Mutation Detected, Platinum-resistant or Refractory, High-grade Serous Ovarian Cancer",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 358,
+            "start_date": "2021-07-22",
+            "completion_date": "2026-01-19",
+            "brief_summary": "The objective of this study is to assess the efficacy and safety of the combination of alpelisib and olaparib compared with single agent cytotoxic chemotherapy in patients with platinum resistant or refractory high-grade serous ovarian cancer, with no germline BRCA mutation detected.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "乳癌特定試驗，適應症不同，對 MEN 無直接參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT04967248",
+            "title": "Alpelisib (Piqray®) Post-Authorization Safety Study (PASS): a Non-interventional Study of Alpelisib in Combination With Fulvestrant in Postmenopausal Women, and Men, With Hormone Receptor Positive (HR+), Human Epidermal Growth Factor Receptor 2 Negative (HER2-), Locally Advanced or Metastatic Breast Cancer With a Phosphatidylinositol-3-kinase Catalytic Subunit Alpha (PIK3CA) Mutation, After Disease Progression Following Endocrine Therapy as Monotherapy, in the Real-world Setting",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2023-06-21",
+            "completion_date": "2024-10-18",
+            "brief_summary": "This was a prospective, multi-national, non-interventional study (NIS) collecting data from postmenopausal women, and adult men, with HR+, HER2- locally advanced or metastatic breast cancer whose tumor harbors a PIK3CA mutation, and who were to be treated with alpelisib in combination with fulvestrant after disease progression following endocrine therapy as monotherapy, in the real-world setting.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "安全性觀察研究且提前終止（僅 4 人），無療效數據，對 MEN 無參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT06705504",
+            "title": "Real-world Effectiveness and Safety in HR+/HER2- Advanced or Metastatic BC Patients Treated With Ribociclib or Alpelisib: A European Non-interventional Retrospective Study (REASSURE)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 435,
+            "start_date": "2021-06-11",
+            "completion_date": "2023-11-30",
+            "brief_summary": "This study was a multinational and multicenter cohort study of patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) advanced or metastatic breast cancer (aBC/mBC) treated with ribociclib or alpelisib between the period of 01 January 2018 and 30 September 2021. Patients who were receiving active treatment for malignancies other than BC or participating in a clinical trial were excluded. This study was conducted retrospectively with secondary use of",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "乳癌真實世界研究，與 MEN 無關。"
+            }
+          },
+          {
+            "nct_id": "NCT02058381",
+            "title": "A Phase Ib Dose De-escalation Study of the Combination of Tamoxifen Plus Goserelin Acetate With Alpelisib (BYL719) or Buparlisib (BKM120) in Premenopausal Patients With Hormone Receptor-positive/HER2-negative Locally Advanced or Metastatic Breast Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2014-05-06",
+            "completion_date": "2018-06-19",
+            "brief_summary": "Based on the evidence acquired in the post-menopausal setting with everolimus and on pre-clinical evidences supporting the investigation of PI3K inhibitors, such as alpelisib and buparlisib, in combination with endocrine therapy in hormone receptor-positive MBC, the purpose of this phase Ib trial is to assess the maximum tolerated dose (MTD) and/or the RP2D(s), to characterize the safety and tolerability, to determine the single and multiple dose PK profile and assess the preliminary anti-tumor ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "乳癌 Phase 1 試驗，與 MEN 無關。"
+            }
+          },
+          {
+            "nct_id": "NCT04300790",
+            "title": "Study to Evaluate the Effect of Metformin in the Prevention of Hyperglycemia in HR[+]/HER2[-] PIK3CA-mutation Advanced Breast Cancer Patients Treated With Alpelisib Plus Endocrine Therapy. Study Metallica",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 69,
+            "start_date": "2020-10-23",
+            "completion_date": "2025-03-16",
+            "brief_summary": "Men and post- or induced menopausal women with ER\\[+\\] and/or PgR\\[+\\], HER2\\[- \\] advanced BC, with centrally-confirmed PI3KCAMut who progressed to an aromatase inhibitor (AI) regimen.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "代謝不良反應管理研究（高血糖預防），與 MEN 療效無關；但提供安全性管理參考。"
+            }
+          },
+          {
+            "nct_id": "NCT05564377",
+            "title": "Molecular Analysis for Combination Therapy Choice (ComboMATCH)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 2900,
+            "start_date": "2023-04-07",
+            "completion_date": "2030-07-01",
+            "brief_summary": "This ComboMATCH patient screening trial is the gateway to a coordinated set of clinical trials to study cancer treatment directed by genetic testing. Patients with solid tumors that have spread to nearby tissue or lymph nodes (locally advanced) or have spread to other places in the body (advanced) and have progressed on at least one line of standard systemic therapy or have no standard treatment that has been shown to prolong overall survival may be candidates for these trials. Genetic tests loo",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "籃型試驗（basket trial）按分子標誌（含 PIK3CA 突變）分層，可能涵蓋 MEN 相關腫瘤；2900 患者規模提供跨腫瘤型別的 PI3Kα 抑制療效數據，具有潛在的間接相關性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PIK3CA 突變在多種內分泌腫瘤中均有報告（甲狀腺濾泡癌、副甲狀腺腺瘤、胰臟神經內分泌腫瘤）。PI3K/AKT/mTOR 通路在 MEN 相關腫瘤（尤其 MEN1 胰臟 NETs、MEN2 甲狀腺髓樣癌）中高度活化。Alpelisib 的 PIK3CA 靶向機轉在 PIK3CA 突變型內分泌腫瘤中具生物學合理性，且 SOLAR-1 Phase 3 確立 PI3Kα 抑制在 PIK3CA 突變實體腫瘤的治療概念。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alpelisib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

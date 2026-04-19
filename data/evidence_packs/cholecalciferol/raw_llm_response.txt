@@ -1,0 +1,775 @@
+## Cholecalciferol (DB00169) 藥物再利用證據分析
+
+以下為各適應症的系統性評估：
+
+```json
+{
+  "drug": "Cholecalciferol",
+  "drugbank_id": "DB00169",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Cholecalciferol（Vitamin D3）為前驅物，須經肝臟 25-hydroxylation 及腎臟 1α-hydroxylation 轉化為活性 calcitriol。在腎功能受損病況中，活化效率下降；FGF23 過高的遺傳性低磷血症中具有療效侷限性。區分病因亞型對評估適應性至關重要。",
+  "indications": [
+    {
+      "disease_name": "familial isolated hypoparathyroidism due to impaired PTH secretion",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PTH 分泌不足導致低鈣血症與骨礦化障礙。Cholecalciferol 理論上可透過殘存的腎臟 1α-hydroxylase 轉化為 calcitriol，補償部分 PTH 效應。然而腎臟 1α-hydroxylation 本身受 PTH 正調控，故在 hypoparathyroidism 中轉化效率低落，臨床上活性 Vitamin D（calcitriol / alfacalcidol）為優先選擇。機轉關聯存在但屬次優策略，且無任何臨床試驗或文獻直接支持此特定罕見亞型。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Campailla Martinelli type",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此病由 NPR2（Natriuretic Peptide Receptor B）功能喪失突變引起，核心病理為 cGMP 訊號缺陷導致骨骺板軟骨細胞增殖異常。Vitamin D 訊號路徑與 NPR2-cGMP 軸無直接功能關聯。TxGNN 高分可能源於知識圖譜中廣義骨骼代謝節點的非特異性連結，缺乏生物合理性支持。無任何臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "craniofacial conodysplasia",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見先天性顱面骨發育異常，致病機轉未完整闡明，無已知 Vitamin D 相關病理文獻記載。TxGNN 預測反映知識圖譜中骨骼發育廣義連結，無臨床轉化依據。無任何試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Dahlberg-Borer-Newcomer syndrome",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群特徵為腎炎、感音性聽力損失及血小板減少症（類 Alport 症候群變體）。腎功能受損理論上影響 Vitamin D 活化，但資料中所列 20 篇文獻均為一般 Vitamin D 研究（MS、糖尿病代謝、COVID-19、PCOS、兒童佝僂病指引等），與本症候群無任何直接關聯，屬系統誤收錄文獻。實質等同零文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37895163",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "Vitamin D 與胰島素阻抗/代謝症候群，與本症候群無關"
+        },
+        {
+          "pmid": "40063041",
+          "study_type": "RCT",
+          "tier": 3,
+          "relevance_to_indication": "D-Lay MS 試驗（Vitamin D 在 CIS/MS），與本症候群無關"
+        },
+        {
+          "pmid": "28375869",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "Hungry bone syndrome，PTH/Vit D 代謝背景，非針對本症"
+        },
+        {
+          "pmid": "34969941",
+          "study_type": "Clinical Guidelines",
+          "tier": 3,
+          "relevance_to_indication": "印度兒科學會 Vitamin D 缺乏指引，非針對本症"
+        },
+        {
+          "pmid": "35406098",
+          "study_type": "Clinical Guidelines",
+          "tier": 3,
+          "relevance_to_indication": "中東歐 Vitamin D 缺乏臨床實踐指引，非針對本症"
+        },
+        {
+          "pmid": "40219003",
+          "study_type": "RCT",
+          "tier": 3,
+          "relevance_to_indication": "Vitamin D3 治療 PCOS，無關"
+        },
+        {
+          "pmid": "38085047",
+          "study_type": "RCT",
+          "tier": 3,
+          "relevance_to_indication": "Vitamin D 未能減少 MS 疾病活動性，無關"
+        },
+        {
+          "pmid": "35639792",
+          "study_type": "RCT",
+          "tier": 3,
+          "relevance_to_indication": "高劑量 vs 標準劑量 Vitamin D 在 COVID-19（COVIT-TRIAL），無關"
+        },
+        {
+          "pmid": "10901209",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "火雞骨髓炎複合症，完全無關"
+        },
+        {
+          "pmid": "21918848",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "Kallmann syndrome 綜述，完全無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "低磷血症性佝僂病傳統治療包含高劑量磷酸鹽 + Vitamin D 補充。然而最常見的 X-linked 型（XLH）由 PHEX 突變導致 FGF23 過高，FGF23 同時抑制腎臟磷酸鹽重吸收及 1α-hydroxylase 活性，形成「Vitamin D 抵抗」狀態。故 cholecalciferol 在此類患者效果有限，需極高劑量且面臨高鈣尿症風險。現代治療已轉向 burosumab（抗 FGF23 抗體）。Cholecalciferol 在非 FGF23 依賴型（如 VDDR）可能更有效。臨床試驗多為 burosumab 研究（間接），文獻以回顧性研究為主。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01748812",
+          "relevance_grade": "C",
+          "reasoning": "Cinacalcet 治療 FGF23 excess（不同藥物），Phase 1 已終止，收案僅 1 人，無參考價值"
+        },
+        {
+          "nct_id": "NCT01057186",
+          "relevance_grade": "C",
+          "reasoning": "挪威低磷血症性佝僂病登錄研究（n=80，觀察性），提供疾病盛行率數據但非干預試驗"
+        },
+        {
+          "nct_id": "NCT04872907",
+          "relevance_grade": "B",
+          "reasoning": "XLH 兒童牙科膿瘍預防 Phase 3（n=60），傳統磷酸鹽 + Vit D 可能作為背景治療，間接相關"
+        },
+        {
+          "nct_id": "NCT01571596",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab（KRN23）Phase 1/2 長期延伸（n=23），不同機轉藥物，確立疾病可治療性"
+        },
+        {
+          "nct_id": "NCT01652573",
+          "relevance_grade": "C",
+          "reasoning": "Calcitonin 治療 XLH（n=21），不同藥物"
+        },
+        {
+          "nct_id": "NCT03920072",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab Phase 3b（n=35，已完成），確立 XLH 藥物治療可行性，但非 Cholecalciferol"
+        },
+        {
+          "nct_id": "NCT04146935",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab 肌肉功能 MR Spectroscopy（n=10），Phase 4，不同藥物"
+        },
+        {
+          "nct_id": "NCT06046820",
+          "relevance_grade": "C",
+          "reasoning": "ENERGY 3 研究，burosumab Phase 3（n=27，進行中），不同藥物"
+        },
+        {
+          "nct_id": "NCT01340482",
+          "relevance_grade": "C",
+          "reasoning": "KRN23 Phase 1/2（n=29），不同藥物"
+        },
+        {
+          "nct_id": "NCT04846647",
+          "relevance_grade": "B",
+          "reasoning": "FGF23 異常分泌在低磷血症脈絡中的觀察研究（n=260），提供病理機轉量化數據，間接支持 Vitamin D 代謝紊亂的研究價值"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7900834",
+          "study_type": "Basic Science",
+          "tier": 3,
+          "relevance_to_indication": "Hyp 小鼠模型機轉，基礎科學背景"
+        },
+        {
+          "pmid": "31392510",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "低磷血症性佝僂病礦化組織病理，機轉基礎"
+        },
+        {
+          "pmid": "38337700",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★直接相關：各型佝僂病與 Vitamin D 及類似物治療系統性回顧（2024）"
+        },
+        {
+          "pmid": "3884759",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "腎性低磷血症性佝僂病舊文獻（1985），歷史背景"
+        },
+        {
+          "pmid": "26813507",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★FGF23 相關低磷血症性佝僂病治療現況，明確指出 Vitamin D 的療效限制"
+        },
+        {
+          "pmid": "11873859",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "FGF23 與低磷血症性佝僂病機轉，解釋 Vit D 抵抗機制"
+        },
+        {
+          "pmid": "23533226",
+          "study_type": "Observational",
+          "tier": 2,
+          "relevance_to_indication": "XLH 皮質骨與海綿骨密度，臨床特徵描述"
+        },
+        {
+          "pmid": "35226335",
+          "study_type": "Observational",
+          "tier": 2,
+          "relevance_to_indication": "遺傳性低磷血症性佝僂病出生至成年生長追蹤"
+        },
+        {
+          "pmid": "9316301",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★X-linked 低磷血症性 Vit D 抵抗性佝僂病醫療管理與併發症，直接涉及治療策略（含傳統 Vit D 高劑量療法）"
+        },
+        {
+          "pmid": "16817365",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "XLH 綜述（法文，2006），歷史背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "renal osteodystrophy",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎骨病變（CKD-MBD 骨骼表現）核心為腎臟 1α-hydroxylase 活性隨 eGFR 下降而降低，導致 calcitriol 不足、繼發性副甲狀腺機能亢進及骨礦化異常。KDIGO 指引建議維持足夠 25(OH)D 水平，cholecalciferol 為一線儲量補充選項；晚期 CKD 則需活性 Vitamin D 類似物（calcitriol/alfacalcidol）。相關臨床試驗多為觀察性或以其他藥物為主，直接 cholecalciferol 數據缺乏，但類別證據支持 L3。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01382966",
+          "relevance_grade": "C",
+          "reasoning": "Sclerostin 水平與透析患者動靜脈廔管血栓觀察研究（n=400），與 Vit D 干預無直接關聯"
+        },
+        {
+          "nct_id": "NCT00859612",
+          "relevance_grade": "B",
+          "reasoning": "腎骨病變新方法觀察研究（n=464），可能評估 Vit D 代謝相關指標，提供疾病自然病程數據"
+        },
+        {
+          "nct_id": "NCT00508885",
+          "relevance_grade": "C",
+          "reasoning": "Niacinamide 降低腹膜透析患者血磷（Phase 1/2，n=17），不同藥物機轉"
+        },
+        {
+          "nct_id": "NCT01675089",
+          "relevance_grade": "C",
+          "reasoning": "Zoledronic acid 預防腎移植後骨流失（Phase 4，n=34），不同藥物"
+        },
+        {
+          "nct_id": "NCT00527085",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 雙盲安慰劑對照 12 個月研究（n=45），評估對骨骼影響，可能涉及 Vit D 相關分析"
+        },
+        {
+          "nct_id": "NCT00364234",
+          "relevance_grade": "C",
+          "reasoning": "低強度機械振動對 ESRD 骨骼結構的影響，非藥物干預"
+        },
+        {
+          "nct_id": "NCT00560300",
+          "relevance_grade": "B",
+          "reasoning": "腎骨病變骨形成調控研究 Phase 2（n=61），評估骨形成標記，間接涉及 Vit D 調控機轉"
+        },
+        {
+          "nct_id": "NCT00004340",
+          "relevance_grade": "C",
+          "reasoning": "生長激素在透析兒童/青少年 Phase 2（n=109），不同藥物"
+        },
+        {
+          "nct_id": "NCT01665651",
+          "relevance_grade": "C",
+          "reasoning": "中醫補腎法對腎骨病變骨代謝影響（Phase 2），已撤案，收案 0 人"
+        },
+        {
+          "nct_id": "NCT00001242",
+          "relevance_grade": "B",
+          "reasoning": "★NIH：Vitamin D 和 PTH 抵抗狀態研究（n=70，觀察性），直接評估 Vit D 相關代謝機制，高度關聯"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "txgnn_score": 0.9906,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎小管酸中毒（RTA）通過多重機轉影響 Vitamin D 代謝：慢性酸中毒抑制腎臟 1α-hydroxylase 活性，降低 calcitriol 合成；酸中毒促進骨骼鈣釋出；低磷血症性 RTA（如 Fanconi syndrome）同時影響磷酸鹽重吸收。Cholecalciferol 補充可改善 RTA 引起的骨軟化症，但需優先處理酸中毒本身（alkali therapy）。案例報告顯示 Sjögren 症候群合併 RTA 患者 Vit D 治療後骨軟化症迅速改善。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01005082",
+          "relevance_grade": "B",
+          "reasoning": "鈣性腎結石臨床特徵與營養決定因素（Phase 2/3，n=210），評估鈣/Vit D 攝取與腎結石關聯，RTA 患者可能納入，間接相關"
+        },
+        {
+          "nct_id": "NCT01894594",
+          "relevance_grade": "C",
+          "reasoning": "Alkali therapy 在鐮刀型血球症 Phase 1（已終止，n=7），疾病不同，僅 alkali 治療概念相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6546310",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_to_indication": "★直接相關：RTA 不改變血清 calcitriol 濃度，確立 Vit D 代謝與 RTA 的關鍵藥理關係（1984）"
+        },
+        {
+          "pmid": "3005710",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_to_indication": "★RTA 中鈣磷代謝紊亂研究，量化 Vit D 相關代謝異常（1985）"
+        },
+        {
+          "pmid": "8286838",
+          "study_type": "Case Report/Series",
+          "tier": 3,
+          "relevance_to_indication": "結節性硬化症患者抗痙攣藥物骨軟化症合併 RTA，涉及 Vit D 治療"
+        },
+        {
+          "pmid": "6095003",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_to_indication": "★Vit D 抵抗性佝僂病合併 RTA 與磷酸鹽耗竭的角色，病理機轉"
+        },
+        {
+          "pmid": "3807789",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_to_indication": "高鈣尿症與獨立於 Vit D 的腸鈣吸收，RTA 相關鈣代謝研究"
+        },
+        {
+          "pmid": "10910456",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "醫源性低鈣血症、腎鈣質沉澱合併不完全遠端 RTA，Vit D 過量副作用案例（安全性警示）"
+        },
+        {
+          "pmid": "11518137",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "★Sjögren 症候群合併 RA 及 RTA 引起骨軟化症，Vit D 治療後迅速改善，直接療效案例"
+        },
+        {
+          "pmid": "6895575",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "抗痙攣藥物引起佝僂病合併 RTA，Vit D 正常水平下的特殊病例"
+        },
+        {
+          "pmid": "22740247",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "★RTA 合併 Sjögren 症候群引起骨軟化症成功治療（含 Vit D 干預，2013）"
+        },
+        {
+          "pmid": "11372811",
+          "study_type": "Case Report/Series",
+          "tier": 3,
+          "relevance_to_indication": "近端 RTA 合併骨軟化症案例，描述治療策略"
+        }
+      ]
+    },
+    {
+      "disease_name": "hereditary hypophosphatemic rickets",
+      "txgnn_score": 0.9897,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "遺傳性低磷血症性佝僂病包含多種基因亞型，Cholecalciferol 療效高度取決於亞型：HHRH（SLC34A3 突變）伴 calcitriol 過度生成，高劑量 Vitamin D 禁忌（風險高鈣血症/尿）；ARHR（DMP1/ENPP1 突變）及 XLH（PHEX 突變）為 FGF23 過高型，Vitamin D 療效有限；Vit D 依賴型佝僂病（CYP27B1/VDR 突變）需活性 Vit D。亞型基因確認為使用 cholecalciferol 前的必要步驟，不可一概而論。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01748812",
+          "relevance_grade": "C",
+          "reasoning": "Cinacalcet Phase 1（已終止，n=1），不同藥物，無參考價值"
+        },
+        {
+          "nct_id": "NCT01057186",
+          "relevance_grade": "C",
+          "reasoning": "挪威登錄觀察研究（n=80），流行病學數據"
+        },
+        {
+          "nct_id": "NCT04872907",
+          "relevance_grade": "B",
+          "reasoning": "XLH 兒童牙科 Phase 3，傳統 Vit D 可能為背景用藥，間接相關"
+        },
+        {
+          "nct_id": "NCT01571596",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab 長期延伸，不同藥物"
+        },
+        {
+          "nct_id": "NCT01652573",
+          "relevance_grade": "C",
+          "reasoning": "Calcitonin 試驗，不同藥物"
+        },
+        {
+          "nct_id": "NCT03920072",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab Phase 3b（n=35），確立 XLH 現代治療標準"
+        },
+        {
+          "nct_id": "NCT04146935",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab 肌肉功能研究，Phase 4"
+        },
+        {
+          "nct_id": "NCT06046820",
+          "relevance_grade": "C",
+          "reasoning": "ENERGY 3，burosumab Phase 3"
+        },
+        {
+          "nct_id": "NCT01340482",
+          "relevance_grade": "C",
+          "reasoning": "KRN23 Phase 1/2"
+        },
+        {
+          "nct_id": "NCT04846647",
+          "relevance_grade": "B",
+          "reasoning": "FGF23 異常分泌大型觀察研究（n=260），為亞型分類提供機轉數據基礎"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7900834",
+          "study_type": "Basic Science",
+          "tier": 3,
+          "relevance_to_indication": "XLH 小鼠模型基礎研究"
+        },
+        {
+          "pmid": "35226335",
+          "study_type": "Observational",
+          "tier": 2,
+          "relevance_to_indication": "★遺傳性低磷血症性佝僂病出生至成年生長追蹤，確立臨床自然病程"
+        },
+        {
+          "pmid": "3796683",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_to_indication": "★特發性高鈣尿症與 HHRH 表型分析（1987），確立高 calcitriol 亞型禁忌 Vit D 的關鍵"
+        },
+        {
+          "pmid": "31392510",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "礦化組織病理回顧，機轉基礎"
+        },
+        {
+          "pmid": "2983203",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance_to_indication": "★HHRH 伴高鈣尿症原始描述（1985），此亞型禁忌 Cholecalciferol 的關鍵文獻"
+        },
+        {
+          "pmid": "26813507",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "FGF23 相關低磷血症佝僂病治療現況與未解問題"
+        },
+        {
+          "pmid": "38337700",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★各型佝僂病與 Vitamin D 及類似物治療全面回顧（2024）"
+        },
+        {
+          "pmid": "19122271",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "佝僂病通論（日文，2009），一般背景"
+        },
+        {
+          "pmid": "11873859",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "FGF23 機轉，解釋 FGF23 高型對 Vit D 治療的抵抗機制"
+        },
+        {
+          "pmid": "9316301",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★XLH 醫療管理與併發症，傳統高劑量 Vit D 治療策略描述"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypophosphatemia (disease)",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "磷酸鹽代謝與 Vitamin D 高度耦合：calcitriol 促進腸道磷酸鹽吸收；FGF23（受 calcitriol 誘導）則抑制腎臟磷酸鹽重吸收。低磷血症的 cholecalciferol 療效高度依賴病因：(1) 營養性/日照不足型：cholecalciferol 有效；(2) FGF23 過高型（XLH、ARHR）：效果有限；(3) 吸收不良型：需高劑量或活性 Vit D；(4) 醫源性（IV 鐵劑誘發 FGF23 上升）：需監測。病因分層評估為先決條件。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01748812",
+          "relevance_grade": "C",
+          "reasoning": "Cinacalcet 治療 FGF23 excess（已終止），不同藥物"
+        },
+        {
+          "nct_id": "NCT01057186",
+          "relevance_grade": "C",
+          "reasoning": "挪威登錄觀察研究，流行病學"
+        },
+        {
+          "nct_id": "NCT04872907",
+          "relevance_grade": "B",
+          "reasoning": "XLH 低磷血症 Phase 3，疾病直接相關，間接涉及 Vit D 背景治療"
+        },
+        {
+          "nct_id": "NCT01571596",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab 延伸研究，不同藥物"
+        },
+        {
+          "nct_id": "NCT01652573",
+          "relevance_grade": "C",
+          "reasoning": "Calcitonin 試驗，不同藥物"
+        },
+        {
+          "nct_id": "NCT05544669",
+          "relevance_grade": "B",
+          "reasoning": "★IV 鐵劑誘發鈣磷併發症研究（n=220），評估 FGF23 介導的低磷血症機轉，Vit D 代謝直接相關"
+        },
+        {
+          "nct_id": "NCT03920072",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab Phase 3b，不同藥物"
+        },
+        {
+          "nct_id": "NCT04146935",
+          "relevance_grade": "C",
+          "reasoning": "Burosumab 肌肉功能，不同藥物"
+        },
+        {
+          "nct_id": "NCT07415421",
+          "relevance_grade": "C",
+          "reasoning": "副甲狀腺次全切除術（招募中，n=85），手術干預，與 cholecalciferol 無直接關聯"
+        },
+        {
+          "nct_id": "NCT01340482",
+          "relevance_grade": "C",
+          "reasoning": "KRN23 Phase 1/2，不同藥物"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28375869",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "Hungry bone syndrome 與磷酸鹽代謝，PTH/Vit D 相互作用"
+        },
+        {
+          "pmid": "390300",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "副甲狀腺低能症（1979），歷史文獻，鈣磷代謝背景"
+        },
+        {
+          "pmid": "26813509",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★腎性低磷血症病生理與治療，直接涉及 Vit D 在磷代謝中的角色（2016）"
+        },
+        {
+          "pmid": "26176801",
+          "study_type": "Observational",
+          "tier": 2,
+          "relevance_to_indication": "★XLH 成人傳統治療（磷酸鹽 + Vit D）對附著點病與牙齒疾病的長期效益評估"
+        },
+        {
+          "pmid": "36868732",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★磷酸鹽紊亂病生理學全面回顧，Vit D-FGF23-PTH 軸詳細闡述（2023）"
+        },
+        {
+          "pmid": "21610497",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "CYP24A1（Vit D 降解酶）與腎臟疾病，Vit D 代謝機轉"
+        },
+        {
+          "pmid": "19122271",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "佝僂病通論，一般背景"
+        },
+        {
+          "pmid": "20671739",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "CKD 骨病與死亡率，Vit D 角色再評估（2010）"
+        },
+        {
+          "pmid": "40996610",
+          "study_type": "Case Report/Review",
+          "tier": 3,
+          "relevance_to_indication": "腎移植後骨軟化症案例（2025），Vit D 相關磷代謝紊亂"
+        },
+        {
+          "pmid": "33471363",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★腸外鐵劑治療與磷酸鹽恆定，FGF23 介導低磷血症機轉（2021）"
+        }
+      ]
+    },
+    {
+      "disease_name": "impaired renal function disease",
+      "txgnn_score": 0.9840,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "CKD 患者腎臟 1α-hydroxylase 活性隨 eGFR 下降而降低，導致 calcitriol 合成不足、繼發性副甲狀腺機能亢進、骨礦化異常及免疫功能障礙。Cholecalciferol 補充可：(1) 提升 25(OH)D 儲量，通過殘存腎功能活化；(2) 在免疫細胞（單核球、巨噬細胞）中透過腎臟外 1α-hydroxylase 發揮免疫調節作用；(3) 改善血管內皮功能及動脈硬化指標。有多項 Phase 2-4 RCT 直接以 calcitriol（活性 Vit D）干預 CKD，及 3 篇直接以 cholecalciferol 干預 CKD 的前瞻性研究（PMID 40342405、35657784、26432706）。Guardrails：需監測高鈣血症/尿、PTH、eGFR 變化；劑量依 CKD 分期調整；嚴重 CKD（G4-G5）建議改用活性 Vit D。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07388914",
+          "relevance_grade": "B",
+          "reasoning": "原發性副甲狀腺機能亢進手術前後醛固酮變化（n=400，招募中），PTH-Vit D-醛固酮軸研究，間接相關"
+        },
+        {
+          "nct_id": "NCT00175149",
+          "relevance_grade": "A",
+          "reasoning": "★★1,25-Dihydroxycholecalciferol（calcitriol）對腎功能不全患者心血管系統影響 Phase 4（n=24，已終止），直接使用 Vit D 活性形式於腎功能受損患者"
+        },
+        {
+          "nct_id": "NCT00798993",
+          "relevance_grade": "A",
+          "reasoning": "★★25-hydroxyvitamin D 補充加結構化運動對腎病患者運動能力影響 Phase 4（n=19），直接 Vit D 補充干預腎功能受損患者"
+        },
+        {
+          "nct_id": "NCT02486744",
+          "relevance_grade": "C",
+          "reasoning": "Acthar Gel（ACTH 類似物）在門診透析患者 Phase 1（已終止，n=9），不同藥物"
+        },
+        {
+          "nct_id": "NCT03633708",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 隨機開放標籤研究（n=56，招募中），PK/PD/療效評估，可能涉及 Vit D 類似物干預"
+        },
+        {
+          "nct_id": "NCT05350098",
+          "relevance_grade": "C",
+          "reasoning": "植物蛋白飲食在 CKD 患者效益評估（n=40），飲食干預，非 Vit D"
+        },
+        {
+          "nct_id": "NCT02224144",
+          "relevance_grade": "A",
+          "reasoning": "★★Calcitriol vs 安慰劑對腎移植後骨質保存 Phase 2（n=61），直接 Vit D 干預腎功能受損患者，高度相關"
+        },
+        {
+          "nct_id": "NCT04975464",
+          "relevance_grade": "C",
+          "reasoning": "CKD 認知衰退 BRINK 研究 2.0（n=600，觀察性），疾病相關但非 Vit D 干預"
+        },
+        {
+          "nct_id": "NCT01115543",
+          "relevance_grade": "A",
+          "reasoning": "★★Pulse Calcitriol vs Alfacalcidol 治療繼發性副甲狀腺機能亢進 Phase 4（n=32），直接比較活性 Vit D 劑型療效"
+        },
+        {
+          "nct_id": "NCT00742716",
+          "relevance_grade": "B",
+          "reasoning": "Vit D 類似物劑量遞增 PK/PD/療效 Phase 2（n=41），間接相關但支持 Vit D 類別在 CKD 的研究基礎"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22544696",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★CKD 中 Vitamin D 全面回顧，臨床指引與機轉基礎（2012）"
+        },
+        {
+          "pmid": "28346348",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★CKD 和透析患者 Vitamin D 機轉與臨床建議（2017）"
+        },
+        {
+          "pmid": "30876622",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "CKD 免疫功能障礙與感染風險，Vit D 免疫調節機轉背景"
+        },
+        {
+          "pmid": "28375869",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "Hungry bone syndrome，CKD 術後 PTH/Vit D/磷酸鹽代謝"
+        },
+        {
+          "pmid": "35893866",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "★CKD 中 Vitamin D 與繼發性副甲狀腺機能亢進的批判性評估（2022），當前爭議與實證"
+        },
+        {
+          "pmid": "40342405",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance_to_indication": "★★★直接證據：Cholecalciferol 對非糖尿病 CKD 患者免疫及血管功能影響（2025），最新直接 cholecalciferol 干預 CKD 的 RCT"
+        },
+        {
+          "pmid": "35657784",
+          "study_type": "RCT/Prospective",
+          "tier": 1,
+          "relevance_to_indication": "★★★直接證據：Cholecalciferol 補充與 CKD 血管新生標記（2022），直接以 cholecalciferol 干預 CKD 患者"
+        },
+        {
+          "pmid": "23713873",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "Calcitriol 治療應用（含腎臟疾病章節），活性形式臨床應用綜述"
+        },
+        {
+          "pmid": "26432706",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance_to_indication": "★★★直接證據：Cholecalciferol 對兒童 CKD 局部動脈硬化及內皮功能障礙影響（2016），直接 cholecalciferol 在兒科 CKD 的介入研究"
+        },
+        {
+          "pmid": "23944728",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_to_indication": "副甲狀腺疾病（腎性副甲狀腺機能亢進背景），間接相關"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| familial isolated hypoparathyroidism | 0.9979 | **L4** | S0 | 🔴 Hold |
+| acromesomelic dysplasia | 0.9978 | **L5** | S0 | 🔴 Hold |
+| craniofacial conodysplasia | 0.9975 | **L5** | S0 | 🔴 Hold |
+| Dahlberg-Borer-Newcomer syndrome | 0.9973 | **L5** | S0 | 🔴 Hold（文獻不相關）|
+| hypophosphatemic rickets | 0.9920 | **L3** | S1 | 🟡 Research Question |
+| renal osteodystrophy | 0.9911 | **L3** | S1 | 🟡 Research Question |
+| renal tubular acidosis | 0.9906 | **L3** | S1 | 🟡 Research Question |
+| hereditary hypophosphatemic rickets | 0.9897 | **L3** | S1 | 🟡 Research Question（需亞型分層）|
+| hypophosphatemia (disease) | 0.9896 | **L3** | S1 | 🟡 Research Question（需病因分層）|
+| **impaired renal function disease** | 0.9840 | **L2** | S2 | 🟢 **Proceed with Guardrails** |
+
+---
+
+## ⚠️ 關鍵洞察
+
+1. **TxGNN 分數 ≠ 臨床證據等級**：高分（0.997+）的罕見病（acromesomelic dysplasia、craniofacial conodysplasia）完全無臨床證據（L5），反映知識圖譜的非特異性骨骼代謝連結。
+
+2. **CKD 為最強支持適應症（L2/S2）**：有 3 篇直接以 Cholecalciferol 干預 CKD 的 Tier-1 研究（PMID 40342405、35657784、26432706），加上多項 Phase 2/4 calcitriol 試驗，構成最完整的間接類別證據。
+
+3. **低磷血症類疾病需強制亞型分層**：HHRH 亞型（高 calcitriol）禁忌 Cholecalciferol；FGF23 過高型（XLH、ARHR）療效有限；未分型前統一使用具有安全風險。
+
+4. **Dahlberg-Borer-Newcomer syndrome 的 20 篇文獻為誤收錄**：均為 MS、COVID-19、PCOS 等無關研究，實質為 L5，不應因文獻數量提升評級。

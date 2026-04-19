@@ -1,0 +1,434 @@
+```json
+{
+  "indications": [
+    {
+      "disease_name": "acne (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Gabapentin 透過結合電壓閘控鈣離子通道 α2δ 亞基抑制神經元過度放電，主要機轉為抗癲癇及神經性疼痛調控，與痤瘡病理（皮脂腺過度分泌、毛囊角化異常、痤瘡桿菌感染、皮膚炎症）無任何直接生物機轉關聯。TxGNN 高分（0.9846）可能反映知識圖譜中的遠端間接鏈結（如皮膚神經性發炎？），但缺乏機轉合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22278969",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "標題「年輕男性腫痛趾頭的罕見案例（2012）」，與痤瘡治療毫無關聯，極可能為資料庫索引錯誤或遠端引用鏈導致的誤匹配，不構成任何證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "adolescent/adult onset autosomal dominant epilepsy with auditory features",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本病為 LGI1 基因突變導致的遺傳性局灶性癲癇，以聽覺先兆為特徵。Gabapentin 作為廣效 AED 在理論上有 α2δ 機轉合理性，但此特定遺傳亞型缺乏針對性研究，LGI1 突變相關的突觸傳遞異常可能需要更精準的靶向干預。文獻及試驗資料完全空白。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "epilepsy with generalized tonic-clonic seizures",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Gabapentin 與突觸前 α2δ-1 鈣離子通道亞基結合，降低鈣離子內流及 glutamate/GABA 釋放失衡，具明確抗癲癇機轉。FDA 核准為局部性癲癇輔助治療（partial seizures），但 AAN 實踐指引（2018）及 Cochrane 網絡整合分析均顯示其對 GTCS 有一定療效數據。需注意：Gabapentin 在 GTC 的療效證據強度低於 valproate 或 lamotrigine；市場狀態「未上市」需確認當地法規路徑。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00537940",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 Pregabalin 彈性劑量頭對頭比較試驗（n=482，已完成）。Pregabalin 與 Gabapentin 具相同 α2δ 結合機轉及相似藥理特性，可作為間接類推，但無法直接外推 Gabapentin 療效。"
+        },
+        {
+          "nct_id": "NCT07443241",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究（n=779），探討癲癇持續狀態病因/診斷/治療的性別差異，非直接測試 Gabapentin 對 GTCS 的療效，相關性低。NCT ID 格式疑似異常（07字頭），資料可靠性需核實。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35363878",
+          "study_type": "Network Meta-analysis (RCT)",
+          "tier": "1",
+          "reasoning": "AED 單藥治療個人資料網絡整合分析，直接比較包括 Gabapentin 在內的多種 AED 對各類型癲癇的療效與耐受性，為本適應症最高層級間接證據。"
+        },
+        {
+          "pmid": "29898971",
+          "study_type": "Clinical Practice Guideline (AAN)",
+          "tier": "1",
+          "reasoning": "AAN 新型抗癲癇藥物療效實踐指引更新（2018），提供 Gabapentin 在不同癲癇類型中的推薦等級，具高度規範性參考價值。"
+        },
+        {
+          "pmid": "8784216",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "Gabapentin 早期全面性藥理與臨床回顧（1995），確立其 AED 基礎地位，為歷史性奠基文獻。"
+        },
+        {
+          "pmid": "19445769",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "Lancet 癲癇綜述，涵蓋 Gabapentin 在整體癲癇治療策略中的定位。"
+        },
+        {
+          "pmid": "32120063",
+          "study_type": "Mechanistic Review",
+          "tier": "2",
+          "reasoning": "現用抗癲癇藥物作用機轉系統性綜述，支持 Gabapentin α2δ 機轉的合理性。"
+        },
+        {
+          "pmid": "31912315",
+          "study_type": "Observational Cohort",
+          "tier": "2",
+          "reasoning": "女性癲癇患者用藥監測研究，提供 Gabapentin 在真實世界使用的安全性與濃度數據。"
+        },
+        {
+          "pmid": "29097018",
+          "study_type": "Review",
+          "tier": "2",
+          "reasoning": "AED 與肝臟疾病綜述，提供肝功能不全患者使用 Gabapentin 的安全性考量，屬用藥指導文獻。"
+        },
+        {
+          "pmid": "28931473",
+          "study_type": "Review",
+          "tier": "2",
+          "reasoning": "成人癲癇患者 AED 精神行為副作用回顧，提供 Gabapentin 的安全性評估數據。"
+        },
+        {
+          "pmid": "17126531",
+          "study_type": "Pharmacology Review",
+          "tier": "2",
+          "reasoning": "Pregabalin 的鈣離子通道 α2δ 機轉藥理詳述，同機轉 Gabapentin 的機制佐證，間接支持 GTC 治療合理性。"
+        },
+        {
+          "pmid": "37370556",
+          "study_type": "Veterinary Review",
+          "tier": "3",
+          "reasoning": "Gabapentin 在犬貓馬的臨床藥動學研究，非人類適應症研究，參考價值有限。"
+        }
+      ]
+    },
+    {
+      "disease_name": "myofascial pain syndrome",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Gabapentin 透過抑制 α2δ-1/α2δ-2 鈣離子通道亞基，降低脊髓後角及背根神經節的神經元過度興奮性，有效調控慢性肌筋膜疼痛的核心病理機轉——中樞敏化（central sensitization）。MPS 與纖維肌痛症（fibromyalgia）共享神經性疼痛機轉，並有針對咀嚼肌疼痛（顳顎關節相關 MPS）的直接 RCT 支持（PMID 17030096）。三期臨床試驗（NCT01107574）測試了 Gabapentin 於纖維肌痛的療效，提供最接近 MPS 的高層次臨床佐證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01107574",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，直接比較 Gabapentin + OMM 與安慰劑治療纖維肌痛症（n=41，已完成）。纖維肌痛與 MPS 病理高度重疊（中樞敏化），為本分析最強相關試驗，但樣本數偏小，且目標疾病非嚴格意義的 MPS。"
+        },
+        {
+          "nct_id": "NCT05384210",
+          "relevance_grade": "A",
+          "reasoning": "直接頭對頭比較 Milnacipran vs Gabapentin vs 兩者合併用於纖維肌痛症（n=75），可評估 Gabapentin 單藥療效，但目前狀態 UNKNOWN，數據可用性不確定。"
+        },
+        {
+          "nct_id": "NCT03905486",
+          "relevance_grade": "B",
+          "reasoning": "Pregabalin 單藥 vs Pregabalin+Milnacipran 治療疼痛管理（n=58），同 α2δ 機轉藥物的頭對頭比較，為間接佐證。"
+        },
+        {
+          "nct_id": "NCT06237595",
+          "relevance_grade": "C",
+          "reasoning": "迷走神經刺激 vs 藥物治療比較研究（狀態 UNKNOWN），非直接評估 Gabapentin，相關性低。"
+        },
+        {
+          "nct_id": "NCT06465810",
+          "relevance_grade": "C",
+          "reasoning": "真實世界觀察性研究（n=1850），收集纖維肌痛特性與治療反應數據，非干預性試驗，與 Gabapentin 療效評估無直接關聯。"
+        },
+        {
+          "nct_id": "NCT04730934",
+          "relevance_grade": "C",
+          "reasoning": "評估 COVID-19 對纖維肌痛患者的生理心理影響（n=1360），為流行病學觀察研究，非藥物試驗。"
+        },
+        {
+          "nct_id": "NCT03037073",
+          "relevance_grade": "C",
+          "reasoning": "Duloxetine 對手術後肌痛的影響研究（n=70），不同藥物、不同病因肌痛，相關性低。"
+        },
+        {
+          "nct_id": "NCT04451252",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究評估介入性疼痛治療技術反應（n=400），未直接測試 Gabapentin 療效。"
+        },
+        {
+          "nct_id": "NCT00938834",
+          "relevance_grade": "C",
+          "reasoning": "氣功 vs 對照治療纖維肌痛（n=100），非藥物介入，參考價值有限。"
+        },
+        {
+          "nct_id": "NCT04364867",
+          "relevance_grade": "C",
+          "reasoning": "Exparel vs pain pump 用於全肩置換術後疼痛（n=102），與 MPS 及 Gabapentin 無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17030096",
+          "study_type": "RCT",
+          "tier": "1",
+          "reasoning": "直接 RCT：Gabapentin 對咀嚼肌慢性疼痛（顳顎肌筋膜疼痛，MPS 核心亞型）的鎮痛作用，為本適應症最高層級直接臨床證據。"
+        },
+        {
+          "pmid": "9303258",
+          "study_type": "RCT/Review",
+          "tier": "1",
+          "reasoning": "Gabapentin 對神經性疼痛療效研究（1997），為 Gabapentin 進入疼痛適應症的早期重要文獻。"
+        },
+        {
+          "pmid": "40110636",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "reasoning": "MPS 臨床特徵、病因、診斷及治療的 2025 年最新系統性回顧，提供當前治療標準的整體框架。"
+        },
+        {
+          "pmid": "18363616",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "纖維肌痛科學與臨床實踐整合評述，提供 Gabapentin 在纖維肌痛/MPS 連續疾病譜中的定位。"
+        },
+        {
+          "pmid": "25905532",
+          "study_type": "Open-label Study",
+          "tier": "2",
+          "reasoning": "MPS 的階段性藥物治療反應開放性研究（2015），提供真實世界用藥模式，但缺對照組。"
+        },
+        {
+          "pmid": "26768433",
+          "study_type": "Review",
+          "tier": "2",
+          "reasoning": "慢性頑固性 MPS 及去神經超敏感性作為全球公衛議題的綜述，強調神經性機轉的重要性。"
+        },
+        {
+          "pmid": "32627323",
+          "study_type": "Case Series",
+          "tier": "3",
+          "reasoning": "Gabapentin 用於 Noonan 症候群兒童早發性神經性疼痛（n=2），為罕見遺傳病症的小型案例系列，可信度有限但提供 Gabapentin 鎮痛的臨床觀察。"
+        },
+        {
+          "pmid": "37142285",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "Levator ani 症候群（骨盆底肌筋膜疼痛）合併陰道痛的個案報告，間接支持 Gabapentin 對骨盆底 MPS 的潛在療效。"
+        },
+        {
+          "pmid": "25794224",
+          "study_type": "Case Series",
+          "tier": "3",
+          "reasoning": "顳顎關節症候群疼痛的神經刺激治療案例系列，提供顳顎 MPS 的疼痛機轉背景，但非 Gabapentin 研究。"
+        },
+        {
+          "pmid": "41731761",
+          "study_type": "Case Series",
+          "tier": "3",
+          "reasoning": "針灸肌筋膜觸發點治療帶狀皰疹後神經痛（2026），與 Gabapentin 無直接關聯，背景參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "visual epilepsy",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全性警示：Gabapentin 的 α2δ 鈣離子通道抑制機轉理論上可減少枕葉視覺皮質異常放電，對視覺性癲癇具機轉合理性。然而，PMID 39842123（2025 年斑馬魚研究）揭示 Gabapentin 可能透過視網膜細胞凋亡（retinal apoptosis）及甲狀腺干擾（thyroid disruption）損害視覺系統發育，此安全信號需在正式人體安全性評估完成前優先處理，建議暫緩此適應症的推進。現有試驗數據均非針對視覺性癲癇，文獻支持為廣義 AED 間接證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00855738",
+          "relevance_grade": "B",
+          "reasoning": "觀察性研究（n=111），評估新型 AED 作為一線治療的有效性，可能包含 Gabapentin 數據，但非專門針對視覺性癲癇設計的試驗。"
+        },
+        {
+          "nct_id": "NCT03708237",
+          "relevance_grade": "C",
+          "reasoning": "Gabapentin 用於透析患者不寧腿症候群（Phase 2，提前終止，n=3），與視覺性癲癇無關，樣本數極小且提前終止。"
+        },
+        {
+          "nct_id": "NCT03604354",
+          "relevance_grade": "C",
+          "reasoning": "Tapentadol vs Pregabalin 用於單側膝關節置換術後疼痛（n=95），與視覺性癲癇無直接關聯。"
+        },
+        {
+          "nct_id": "NCT03635905",
+          "relevance_grade": "C",
+          "reasoning": "Gabapentin 用於子宮擴張刮除術疼痛管理（n=130），為疼痛適應症，與視覺性癲癇無關。"
+        },
+        {
+          "nct_id": "NCT04345432",
+          "relevance_grade": "C",
+          "reasoning": "Gabapentin 治療姿態性心搏過速症候群（PoTS）先導研究（n=10），測試自律神經調控，與視覺性癲癇無關。"
+        },
+        {
+          "nct_id": "NCT04342065",
+          "relevance_grade": "C",
+          "reasoning": "Pregabalin vs Celecoxib 用於七氟醚麻醉術前鎮痛（n=200），與視覺性癲癇無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7693432",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "Gabapentin 早期藥理特性及癲癇臨床潛力全面回顧（1993），為廣義 AED 應用的基礎文獻。"
+        },
+        {
+          "pmid": "12151013",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "鈣離子通道與癲癇的機轉綜述，直接支持 Gabapentin α2δ 在癲癇治療中的生物學合理性。"
+        },
+        {
+          "pmid": "29898971",
+          "study_type": "Clinical Practice Guideline (AAN)",
+          "tier": "1",
+          "reasoning": "AAN 新型 AED 實踐指引，提供廣義癲癇類型中 Gabapentin 的療效建議，視覺性癲癇為其亞型。"
+        },
+        {
+          "pmid": "34819636",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "1",
+          "reasoning": "Gabapentin/Pregabalin 在雙相情感障礙、焦慮及失眠的系統性回顧，並涵蓋廣義神經精神應用安全性數據。"
+        },
+        {
+          "pmid": "39842123",
+          "study_type": "Animal Study (⚠️ Safety Signal)",
+          "tier": "2",
+          "reasoning": "【關鍵安全信號】斑馬魚研究顯示 Gabapentin 可致視網膜細胞凋亡及甲狀腺干擾，損害視覺發育（2025）。雖為動物研究，但鑑於目標疾病為視覺系統相關癲癇，此安全疑慮需優先納入風險評估。"
+        },
+        {
+          "pmid": "20818832",
+          "study_type": "Pharmacokinetic Review",
+          "tier": "2",
+          "reasoning": "Gabapentin 與 Pregabalin 藥動/藥效比較研究，提供兩藥物在臨床應用上的差異化依據。"
+        },
+        {
+          "pmid": "31912315",
+          "study_type": "Observational Cohort",
+          "tier": "2",
+          "reasoning": "女性癲癇患者 AED 治療監測研究，提供真實世界安全性與用藥管理數據。"
+        },
+        {
+          "pmid": "19445769",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "Lancet 癲癇綜述，廣義癲癇治療現況，間接涵蓋視覺性癲癇的治療選擇。"
+        },
+        {
+          "pmid": "17126531",
+          "study_type": "Pharmacology Review",
+          "tier": "2",
+          "reasoning": "α2δ 鈣離子通道機轉詳述，強化 Gabapentin 在視覺皮質癲癇中的機轉合理性基礎。"
+        },
+        {
+          "pmid": "37370556",
+          "study_type": "Veterinary Review",
+          "tier": "3",
+          "reasoning": "獸醫臨床藥動學研究，參考價值有限，不構成人類適應症的直接證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "active cochlear Meniere disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "耳蝸型美尼爾氏病的核心病理為內淋巴積水（endolymphatic hydrops）及耳蝸毛細胞功能障礙，主要症狀為低頻感音神經性聽損及耳鳴。Gabapentin 的神經性疼痛/癲癇機轉與內淋巴液體壓力調節或耳蝸離子傳輸無直接生物機轉關聯。無任何臨床試驗或文獻支持，TxGNN 分數（0.8340）與另外兩型美尼爾氏病完全相同，顯示可能為圖譜中同一疾病節點的三個子類別，而非獨立預測結果。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "active vestibular Meniere disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前庭型美尼爾氏病以反覆發作性眩暈（vertigo）及前庭毛細胞功能障礙為主，無明顯聽力損失。雖然 Gabapentin 已有用於治療前庭神經炎後持續性眩暈的個案報告（非列於此資料），但對美尼爾氏病特有的積水病理無機轉介入路徑。TxGNN 分數與耳蝸型相同（0.8340），進一步指向圖譜節點分類問題。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "active cochleovestibular Meniere disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "耳蝸前庭型美尼爾氏病同時呈現耳蝸（聽損、耳鳴）及前庭（眩暈）症狀，為三亞型中最完整的臨床表現。機轉考量同上述兩亞型，Gabapentin 對內淋巴積水的根本病因無機轉介入基礎。三個美尼爾氏病亞型評分完全相同（0.8340）且均無文獻支持，建議作為單一適應症群組進行統一評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "trigeminal nerve neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ 適應症解讀警示：需釐清「三叉神經腫瘤」與「三叉神經痛」的根本差異——前者為腫瘤性病因（需手術/放射治療），後者為神經功能性疼痛。Gabapentin 具有緩解三叉神經相關神經性疼痛的間接臨床證據（帶狀皰疹後三叉神經痛、三叉神經痛二線治療），對腫瘤壓迫引發的繼發性疼痛症狀可能有緩解效果（症狀控制而非疾病修飾）。所有現有文獻均針對功能性三叉神經痛，無一針對腫瘤性病因，此適應症的臨床問題需重新定義為「三叉神經腫瘤相關性神經痛的輔助症狀控制」。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17997704",
+          "study_type": "Review",
+          "tier": "1",
+          "reasoning": "三叉神經痛多元治療策略回顧（2007），涵蓋 Gabapentin 作為二線藥物的臨床定位，但針對功能性三叉神經痛，非腫瘤性病因。"
+        },
+        {
+          "pmid": "23729458",
+          "study_type": "Review",
+          "tier": "2",
+          "reasoning": "神經性顏面口腔疼痛的局部用藥管理綜述（2013），提供包括 Gabapentin 在內的多種藥物用於三叉神經痛範疇疼痛的臨床數據。"
+        },
+        {
+          "pmid": "10204905",
+          "study_type": "Case Series",
+          "tier": "3",
+          "reasoning": "Gabapentin 用於頭頸部帶狀皰疹急性期及帶狀皰疹後神經痛的反應評估（1999），涉及三叉神經分布區域，間接支持 Gabapentin 對三叉神經性疼痛的療效。"
+        },
+        {
+          "pmid": "28666502",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "橋前表皮樣瘤導致雙側三叉神經痛的個案報告（2016），罕見腫瘤性三叉神經痛案例，但聚焦於手術治療，非 Gabapentin 藥物療效。"
+        },
+        {
+          "pmid": "29589986",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "灼口症疼痛個案（2018），涉及三叉神經感覺分支，但為功能性疼痛，與腫瘤性病因相差甚遠。"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨關節炎的主要病理為軟骨基質退化、軟骨細胞凋亡及滑膜炎症，Gabapentin 的 α2δ 鈣離子通道機轉對軟骨保護或疾病修飾無已知生物學路徑。雖然 Gabapentin 可緩解骨關節炎合併之神經敏化性疼痛（部分 OA 疼痛具神經性成分），但「osteoarthritis susceptibility」意指疾病易感性預防，而非症狀管理，機轉差距更大。唯一文獻（PMID 28085183）為辣椒素貼片治療神經性疼痛的系統性回顧，與 Gabapentin 及 OA 易感性均無直接關聯，疑為索引誤匹配。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28085183",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "reasoning": "高濃度局部辣椒素治療成人慢性神經性疼痛的 Cochrane 系統性回顧（2017），內容為 capsaicin 而非 Gabapentin，且目標為神經性疼痛而非骨關節炎病情修飾，相關性極低，疑為數據管道中的索引錯誤。"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 疾病名稱 | 證據等級 | 決策階段 | 建議 | 關鍵發現 |
+|---------|---------|---------|------|---------|
+| **epilepsy with generalized tonic-clonic seizures** | **L2** | **S2** | ✅ Proceed with Guardrails | AAN指引 + 網絡Meta分析支持，需注意局部性癲癇的核准外使用 |
+| **myofascial pain syndrome** | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 3 + 直接 RCT（咀嚼肌）支持，與 fibromyalgia 證據重疊 |
+| **trigeminal nerve neoplasm** | **L4** | **S1** | 🔬 Research Question | 需重新定義為「腫瘤繼發性疼痛症狀控制」；腫瘤 vs 功能性疼痛需釐清 |
+| **visual epilepsy** | **L3** | **S1** | ⚠️ Hold | 斑馬魚研究顯示視網膜毒性安全信號（PMID 39842123），安全性評估優先 |
+| **acne (disease)** | L5 | S0 | ❌ Hold | 無機轉合理性；唯一文獻為索引錯誤 |
+| **adolescent/adult onset autosomal dominant epilepsy with auditory features** | L5 | S0 | ❌ Hold | 遺傳性特定亞型，文獻空白 |
+| **active cochlear/vestibular/cochleovestibular Meniere disease** | L5 | S0 | ❌ Hold | 三亞型分數相同，無文獻支持，內淋巴積水無機轉關聯 |
+| **osteoarthritis susceptibility** | L5 | S0 | ❌ Hold | 唯一文獻為辣椒素研究，索引誤匹配 |
+
+> ⚠️ **特別注意**：Gabapentin 在新加坡（SgTxGNN context）標記為「未上市」，任何 Proceed with Guardrails 的適應症推進前，需先確認當地藥管局（HSA）的法規路徑及再利用申請流程。

@@ -1,0 +1,425 @@
+## Gefitinib (DB00317) 藥物再利用證據分析
+
+> **分析說明**：Gefitinib 為 EGFR 酪胺酸激酶抑制劑（EGFR-TKI），原廠核准適應症為 EGFR 突變陽性 NSCLC（Iressa®）。以下依提供資料進行各適應症證據等級評估。
+
+---
+
+```json
+{
+  "drug": "Gefitinib",
+  "drugbank_id": "DB00317",
+  "analysis_date": "2026-04-04",
+  "drug_moa_note": "資料標記 [Data Gap]，惟依文獻 Gefitinib 為選擇性 EGFR 酪胺酸激酶抑制劑，阻斷 EGFR 下游 RAS/MAPK 及 PI3K/AKT 訊號，抑制腫瘤增生並促進凋亡。",
+  "indications": [
+    {
+      "disease_name": "fibromatosis, gingival",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牙齦纖維瘤病主要由 SOS1/HRAS/KRAS 突變或藥物誘發（如 Cyclosporine）所致，EGFR 訊號在纖維母細胞增生中雖有輔助角色，但並非此病驅動機轉。Gefitinib 與牙齦纖維瘤病間無文獻支持之機轉連結，AI 高分預測（0.9989）可能源於 EGFR 在結締組織共有訊號途徑之非特異性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fibroma of lung",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺纖維瘤為良性間質腫瘤，缺乏 EGFR 突變驅動機轉，EGFR-TKI 治療缺乏病理生理學合理性。無任何臨床試驗或文獻證據，TxGNN 高分（0.9986）反映知識圖譜中「肺部病變」節點之非特異性連結，不應轉化為研究優先級。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IBMPFD（VCP 基因突變）涉及泛素蛋白酶體系統（UPS）及自噬路徑異常，致病機轉與 EGFR 訊號無已知交集。20 篇文獻全為額顳葉失智症（FTD）之流行病學、診斷標準及治療綜述，無一涉及 Gefitinib 應用，屬疾病背景資訊而非候選藥物證據。文獻引入可能為 PubMed 搜尋時「frontotemporal dementia」關鍵字之非特異性匹配。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26595641",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 疾病綜述"
+        },
+        {
+          "pmid": "35182511",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 診斷與生物標誌物綜述"
+        },
+        {
+          "pmid": "28410663",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 臨床綜述"
+        },
+        {
+          "pmid": "34747778",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 當前概念"
+        },
+        {
+          "pmid": "39620838",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 最新綜述"
+        },
+        {
+          "pmid": "32439025",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 神經病理學綜述"
+        },
+        {
+          "pmid": "21810890",
+          "study_type": "Diagnostic Criteria Validation Study",
+          "tier": "2",
+          "relevance_to_drug": "無相關性，bvFTD 診斷標準靈敏度驗證"
+        },
+        {
+          "pmid": "35678399",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，行為型 FTD 綜述"
+        },
+        {
+          "pmid": "38687620",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無相關性，FTD 基因到治療方向綜述"
+        },
+        {
+          "pmid": "35039149",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "間接參考，Progranulin 為神經退化症治療靶點，未涉及 Gefitinib"
+        }
+      ]
+    },
+    {
+      "disease_name": "hamartoma of lung",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺錯構瘤為錯構性良性病變（混合軟骨、脂肪、平滑肌組織），發生機制與 HMGA2 基因重排相關，非 EGFR 突變驅動。EGFR-TKI 對良性錯構性腫瘤無治療理論依據，且無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lung hilum carcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺門癌多為中央型 NSCLC（以鱗狀細胞癌為主），EGFR 突變在肺鱗癌中發生率較腺癌低（約 3-5%），但部分肺門腺癌病例 EGFR 突變陽性時機轉上支持 Gefitinib 治療。唯一文獻（PMID 22688581）為個案報告，描述晚期肺癌 Gefitinib 超級反應者術後挽救，屬間接證據。無針對肺門癌之臨床試驗設計。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22688581",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_drug": "直接涉及 Gefitinib，但為晚期肺癌通論案例，非特定肺門癌族群"
+        }
+      ]
+    },
+    {
+      "disease_name": "lung benign neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性肺腫瘤（支氣管腺瘤、乳頭狀瘤等）通常缺乏 EGFR 活化突變，EGFR-TKI 治療機轉支持不足。20 篇文獻全針對惡性 NSCLC（肺腺癌）之 Gefitinib 耐藥機轉（FTO/m6A、FGL1、METTL1/FOXM1、CA916798 等）及組合策略研究，無一針對良性肺腫瘤。文獻品質雖有部分臨床研究（Tier 2），但疾病適應症錯誤匹配導致整體證據等級降為 L4。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "24794908",
+          "study_type": "Drug Review/Monograph",
+          "tier": "3",
+          "relevance_to_drug": "Gefitinib 藥物綜述，不針對良性腫瘤"
+        },
+        {
+          "pmid": "39394098",
+          "study_type": "Preclinical Molecular Study",
+          "tier": "3",
+          "relevance_to_drug": "FTO/m6A 調控 Gefitinib 耐藥，針對肺腺癌細胞株"
+        },
+        {
+          "pmid": "32778129",
+          "study_type": "Preclinical Molecular Study",
+          "tier": "3",
+          "relevance_to_drug": "FGL1 介導 Gefitinib 耐藥，NSCLC 細胞株研究"
+        },
+        {
+          "pmid": "41461328",
+          "study_type": "Preclinical Combination Study",
+          "tier": "3",
+          "relevance_to_drug": "天然藥物增強 Gefitinib 肺癌療效，臨床前研究"
+        },
+        {
+          "pmid": "23140355",
+          "study_type": "Retrospective Clinical Study",
+          "tier": "2",
+          "relevance_to_drug": "Erlotinib/Gefitinib 於老年晚期 NSCLC，惡性腫瘤研究"
+        },
+        {
+          "pmid": "29185589",
+          "study_type": "Clinical Study (Prospective)",
+          "tier": "2",
+          "relevance_to_drug": "Bevacizumab+Gefitinib+全腦放療於 NSCLC 腦轉移，惡性腫瘤研究"
+        },
+        {
+          "pmid": "37057810",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "relevance_to_drug": "青蒿素衍生物增強 Gefitinib 於肺腺癌，臨床前研究"
+        },
+        {
+          "pmid": "38967523",
+          "study_type": "Preclinical Molecular Study",
+          "tier": "3",
+          "relevance_to_drug": "METTL1/FOXM1 促 Gefitinib 耐藥，肺腺癌細胞研究"
+        },
+        {
+          "pmid": "40233501",
+          "study_type": "Preclinical Combination Study",
+          "tier": "3",
+          "relevance_to_drug": "USP24 抑制劑增敏 Gefitinib，藥物耐受性研究"
+        },
+        {
+          "pmid": "36959566",
+          "study_type": "Preclinical Biomarker Study",
+          "tier": "3",
+          "relevance_to_drug": "CA916798 預測 Gefitinib 耐藥，肺腺癌生物標誌物"
+        }
+      ]
+    },
+    {
+      "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此極罕見遺傳性神經皮膚症候群（OMIM #227400）之確切致病基因尚未完全鑑定，但與 EGFR 訊號無已知關聯。20 篇文獻內容涵蓋不同藥物（Valsartan、Cushing 治療藥物等）、不同疾病（小細胞肺癌、ALI）之研究，與本適應症無關，確認為資料庫檢索雜訊。注意 PMID 20215798（Gefitinib + Capecitabine 於大腸直腸癌 Phase II）雖涉及 Gefitinib 但與此症候群完全無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38288441",
+          "study_type": "Preclinical (ALI model)",
+          "tier": "3",
+          "relevance_to_drug": "雜訊：Valsartan 研究，與 Gefitinib/本症候群無關"
+        },
+        {
+          "pmid": "39281285",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "雜訊：胃腸道類器官藥物篩選綜述"
+        },
+        {
+          "pmid": "18931563",
+          "study_type": "Review/Case Series",
+          "tier": "3",
+          "relevance_to_drug": "部分相關：EGFR-TKI 皮膚毒性（副作用研究，非適應症）"
+        },
+        {
+          "pmid": "18316005",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "雜訊：小細胞肺癌綜述，非本適應症"
+        },
+        {
+          "pmid": "30033041",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "雜訊：庫欣症候群治療進展"
+        },
+        {
+          "pmid": "20215798",
+          "study_type": "Phase II Clinical Trial",
+          "tier": "2",
+          "relevance_to_drug": "涉及 Gefitinib（大腸直腸癌 Phase II），但與本症候群無關"
+        },
+        {
+          "pmid": "34474028",
+          "study_type": "Mechanistic Study",
+          "tier": "3",
+          "relevance_to_drug": "安全性參考：Gefitinib 誘導 QT 延長機轉"
+        },
+        {
+          "pmid": "32349387",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "安全性背景：NSCLC 系統治療心血管副作用"
+        },
+        {
+          "pmid": "30048162",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "雜訊：庫欣症新興療法"
+        },
+        {
+          "pmid": "22076388",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "安全性背景：標靶治療肺毒性綜述"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary sulcus neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肺溝腫瘤（Pancoast 腫瘤）多為頂端 NSCLC，部分為腺癌且具 EGFR 突變（東亞人群尤甚），機轉上 EGFR-TKI 治療有合理性。文獻 PMID 16015545 為 ECOG NSCLC III 期研究綜述（Tier 2，非特定 Pancoast 族群），PMID 21441747 為軟腦膜轉移個案報告（Tier 3）。建議：針對 EGFR 突變陽性 Pancoast 腫瘤患者，可設計納入研究問題，先行 EGFR 突變篩選分層分析。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16015545",
+          "study_type": "Retrospective Review (ECOG cohort)",
+          "tier": "2",
+          "relevance_to_drug": "ECOG III 期 NSCLC 研究概述，包含 Gefitinib 相關治療背景，非 Pancoast 特定研究"
+        },
+        {
+          "pmid": "21441747",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_drug": "術後肺癌局灶性軟腦膜轉移個案，涉及 Gefitinib 治療選項，為間接參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "lung germ cell tumor",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "原發性肺生殖細胞腫瘤（Primary Pulmonary GCT）極為罕見（多為轉移性），通常缺乏 EGFR 驅動突變，EGFR-TKI 機轉支持薄弱。然而：(1) 存在 1 項 Gefitinib 肺癌臨床試驗（NCT00068497，雖非針對 GCT）；(2) 個案報告顯示少數 GCT 病例具 EGFR 表達（PMID 22042963，大細胞神經內分泌癌合併 EGFR 突變回應 Gefitinib）；(3) EGFR-TKI 耐藥機轉研究（PMID 38261467）提示基因組異質性。整體屬 L3 邊界，可進行安全性初評，但需 EGFR 突變狀態篩選作為前提。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00068497",
+          "relevance_grade": "C",
+          "reasoning": "試驗標題：ZD-1839（Gefitinib/NSC-715055）於晚期頭頸癌或非小細胞肺癌之單藥研究（Phase NA，已完成，n=40）。雖於 NCT 標題包含 'Non-small cell lung cancer' 但無針對生殖細胞腫瘤之設計；Phase NA 代表探索性/不適用分期；入組規模小（n=40）。相關性等級 C 理由：提供 Gefitinib 肺癌安全性及探索性療效數據，可作為未來 GCT 研究之安全性參照基準，但不構成直接適應症證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22588876",
+          "study_type": "Mechanistic Review",
+          "tier": "3",
+          "relevance_to_drug": "EGFR 訊號占領機轉分析，背景文獻"
+        },
+        {
+          "pmid": "38261467",
+          "study_type": "Clinical Genomic Study",
+          "tier": "2",
+          "relevance_to_drug": "Germline USP36 突變導致 EGFR-TKI 耐藥，有臨床患者數據，間接提示 EGFR-TKI 治療族群異質性"
+        },
+        {
+          "pmid": "24618893",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "MET 在肺癌中的角色，EGFR 耐藥旁路機轉"
+        },
+        {
+          "pmid": "16330971",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "Gefitinib/TKI 於癌症治療之早期綜述，背景文獻"
+        },
+        {
+          "pmid": "21485758",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "EGFR 標靶治療於實體腫瘤，廣泛背景文獻"
+        },
+        {
+          "pmid": "38656402",
+          "study_type": "Preclinical Drug Delivery Study",
+          "tier": "3",
+          "relevance_to_drug": "小麥胚芽凝集素修飾微胞改善 Gefitinib 腸道吸收，藥物傳遞研究"
+        },
+        {
+          "pmid": "14967454",
+          "study_type": "Early Phase Clinical/Mechanistic",
+          "tier": "3",
+          "relevance_to_drug": "Gefitinib 合併放療於實體腫瘤之理論基礎及早期臨床依據"
+        },
+        {
+          "pmid": "22042963",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_to_drug": "關鍵個案：大細胞神經內分泌癌合併 EGFR 突變對 Gefitinib 反應，提示非典型肺腫瘤中 EGFR 突變可驅動治療反應"
+        },
+        {
+          "pmid": "26561558",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "relevance_to_drug": "InsR/IGF1R 路徑介導 EGFR 抑制劑耐藥於膠質母細胞瘤，耐藥旁路機轉"
+        },
+        {
+          "pmid": "22236672",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "化療於腦轉移之角色，背景文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "junctional epidermolysis bullosa",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "接合型大皰性表皮鬆解症由 LAMA3、LAMB3、LAMC2 或 COL17A1 基因突變導致，為基底膜帶半橋粒蛋白缺陷性遺傳病，致病機轉與 EGFR 訊號通路無已知關聯。近年雖有 EGFR 抑制劑副作用（皮膚毒性）研究，但機轉上為不同病理途徑。無任何臨床試驗或文獻支持，不建議進一步投入資源。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L5_no_clinical_evidence": ["fibromatosis_gingival", "fibroma_of_lung", "IBMPFD", "hamartoma_of_lung", "Leukomelanoderma_syndrome", "junctional_epidermolysis_bullosa"],
+      "L4_indirect_evidence": ["lung_hilum_carcinoma", "lung_benign_neoplasm", "pulmonary_sulcus_neoplasm"],
+      "L3_phase1_or_retrospective": ["lung_germ_cell_tumor"]
+    },
+    "priority_for_further_investigation": [
+      {
+        "rank": 1,
+        "disease": "pulmonary sulcus neoplasm",
+        "rationale": "EGFR 突變陽性 Pancoast 腫瘤具機轉合理性，可於現有 NSCLC 研究框架下進行亞組分析"
+      },
+      {
+        "rank": 2,
+        "disease": "lung germ cell tumor",
+        "rationale": "有臨床試驗基礎（NCT00068497）及個案報告（PMID 22042963），EGFR 突變篩選陽性者可進入安全性評估"
+      },
+      {
+        "rank": 3,
+        "disease": "lung hilum carcinoma",
+        "rationale": "肺門腺癌具 EGFR 突變可能，個案報告顯示 Gefitinib 反應性"
+      }
+    ],
+    "data_quality_concerns": [
+      "多個適應症之文獻為與疾病或藥物不相關之資料庫雜訊（尤其 IBMPFD 及 Leukomelanoderma 症候群）",
+      "lung_benign_neoplasm 文獻實際上全為惡性 NSCLC 研究，疾病分類匹配度低",
+      "drug.market_status='未上市' 需確認：Gefitinib (Iressa®) 於多國已核准上市，建議核對當地藥政資料"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 快速決策矩陣
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| fibromatosis, gingival | **L5** | S0 | 🔴 Hold | 無證據，機轉關聯極弱 |
+| fibroma of lung | **L5** | S0 | 🔴 Hold | 良性間質瘤，無 EGFR 機轉 |
+| IBMPFD | **L5** | S0 | 🔴 Hold | VCP 突變疾病，20篇文獻均為雜訊 |
+| hamartoma of lung | **L5** | S0 | 🔴 Hold | 錯構性良性病變，無 EGFR 機轉 |
+| lung hilum carcinoma | **L4** | S0 | 🟡 Hold | 1篇個案報告，需 EGFR 突變篩選 |
+| lung benign neoplasm | **L4** | S0 | 🔴 Hold | 文獻全為惡性腫瘤，疾病不匹配 |
+| Leukomelanoderma syndrome | **L5** | S0 | 🔴 Hold | 文獻為資料庫雜訊，無機轉關聯 |
+| pulmonary sulcus neoplasm | **L4** | S0 | 🟡 Research Question | EGFR+ Pancoast 腫瘤有機轉依據 |
+| **lung germ cell tumor** | **L3** | **S1** | 🟢 Research Question | 有試驗（NCT00068497）+ 個案支持 |
+| junctional epidermolysis bullosa | **L5** | S0 | 🔴 Hold | 基因缺陷病，無 EGFR 連結 |
+
+> ⚠️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過完整臨床驗證方可應用。

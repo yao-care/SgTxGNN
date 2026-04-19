@@ -1,0 +1,228 @@
+# Aminacrine (DB11561) 藥物再利用證據分析
+
+## 藥物背景評估
+
+在分析前，先梳理 Aminacrine 的基本資料：
+- **化學類別**：9-胺基吖啶（Acridine 衍生物）
+- **已知特性**：DNA 嵌入劑（intercalating agent）、拓撲異構酶抑制劑、抗菌/消毒活性
+- **監管狀態**：未上市（市場空白，無核准適應症）
+- **資料缺口**：MoA 未記錄、DDI 資料全無
+
+---
+
+```json
+{
+  "drug": "Aminacrine",
+  "drugbank_id": "DB11561",
+  "analysis_date": "2026-04-05",
+  "overall_summary": {
+    "evidence_quality": "極低",
+    "primary_limitation": "全部10個適應症均無臨床試驗與文獻支持，僅依賴TxGNN模型預測分數",
+    "drug_profile_concern": "未上市藥物、MoA資料缺口、DDI資料空白，安全性評估基礎薄弱",
+    "high_txgnn_scores_note": "TxGNN分數0.95-0.98雖高，但在無任何臨床佐證情況下，不能提升證據等級"
+  },
+  "indications": [
+    {
+      "disease_name": "paratyphoid fever",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "副傷寒由Salmonella paratyphi引起，Aminacrine作為吖啶類抗菌劑理論上對革蘭氏陰性菌有活性，但全身性沙門氏菌感染需要系統性抗生素治療，局部消毒用途無法外推至全身感染適應症。機轉連結極弱且推測性強。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何體內（in vivo）抗Salmonella paratyphi數據",
+        "無藥代動力學（PK）資料支持全身給藥可行性",
+        "未上市狀態意味無安全劑量參考"
+      ]
+    },
+    {
+      "disease_name": "diffuse scleroderma",
+      "txgnn_score": 0.9586,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫性硬皮症為自體免疫疾病，涉及TGF-β驅動的纖維化。吖啶類化合物有微弱免疫調節報告，但Aminacrine與硬皮症相關纖維化或免疫路徑（如Th2/Treg失衡）間無已知直接機轉連結。預測可能源自知識圖譜中吖啶類藥物的共性節點關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無抗纖維化機轉實驗數據",
+        "自體免疫適應症需長期安全性資料，現況完全缺失"
+      ]
+    },
+    {
+      "disease_name": "sinusitis",
+      "txgnn_score": 0.9578,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻竇炎（急性）多由肺炎鏈球菌、流感嗜血桿菌引起。Aminacrine的局部抗菌特性在理論上有些許關聯性，但鼻腔局部應用的安全性、濃度及遞送系統均未被評估。與慢性乙狀竇炎/慢性鼻竇炎條目有重疊，預測可能源自相同病理節點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無鼻腔局部給藥安全性數據",
+        "無針對鼻竇常見病原體的體內抗菌數據"
+      ]
+    },
+    {
+      "disease_name": "epiglottitis",
+      "txgnn_score": 0.9550,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性會厭炎為危及生命的感染（主因Hib或A群鏈球菌），需立即靜脈抗生素及氣道管理。Aminacrine的局部抗菌用途完全不適合此類急性重症情境，臨床應用不具可行性。機轉連結評估：不適用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "急性會厭炎為醫療緊急狀況，無法以未驗證藥物進行試驗",
+        "無靜脈給藥安全性資料"
+      ]
+    },
+    {
+      "disease_name": "apical periodontitis",
+      "txgnn_score": 0.9541,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "根尖牙周炎由根管感染（厭氧菌為主）引起。相較其他適應症，此條目具有較高的機轉合理性：吖啶類化合物在牙髓治療中有歷史性局部消毒應用先例，且9-aminoacridine（Aminacrine）曾出現於部分早期牙科消毒配方研究中。然而當前無正式臨床試驗支持，無法超越L5等級。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "缺乏近代根管治療情境下的隨機對照試驗",
+        "現代根管消毒標準（NaOCl, CHX）未與Aminacrine進行比較"
+      ]
+    },
+    {
+      "disease_name": "periapical granuloma",
+      "txgnn_score": 0.9512,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "根尖肉芽腫為根尖牙周炎的慢性型態，病理上涉及慢性發炎與肉芽腫形成。機轉連結與apical periodontitis相同，需根管治療或手術介入。Aminacrine作為根管沖洗液的輔助角色有極低理論可行性，但證據完全缺失。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "與apical periodontitis共享相同證據缺口",
+        "TxGNN分數與apical periodontitis幾乎相同，可能源自相同知識圖譜節點"
+      ]
+    },
+    {
+      "disease_name": "suppurative periapical periodontitis",
+      "txgnn_score": 0.9512,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "化膿性根尖牙周炎（牙槽膿瘍急性期）需引流及抗生素治療。與periapical granuloma具有完全相同的TxGNN分數（0.9512），強烈提示預測來自知識圖譜中的共同上位節點（periodontal disease cluster），而非針對特定疾病的獨立預測信號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "分數與periapical granuloma完全相同，需警惕知識圖譜節點混淆",
+        "急性化膿性感染需立即標準抗生素治療，不適合試驗未驗證藥物"
+      ]
+    },
+    {
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn_score": 0.9510,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性篩竇炎涉及慢性發炎、生物膜形成及黏膜重塑。Aminacrine理論上對生物膜可能有破壞活性（DNA嵌入劑特性），但此機轉在鼻竇炎情境下從未被驗證。此條目與sinusitis、chronic rhinosinusitis三者TxGNN分數相近（0.9503-0.9578），呈現鼻竇病變cluster聚集現象。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無生物膜破壞活性的體外（in vitro）鼻竇相關病原數據",
+        "慢性鼻竇炎通常需要手術（FESS）處置，藥物角色有限"
+      ]
+    },
+    {
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn_score": 0.9503,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性鼻竇炎（CRS）分為有鼻息肉（CRSwNP）及無鼻息肉兩型，病理複雜（Th2/Th17失衡、嗜酸性球浸潤）。Aminacrine對於CRS的免疫調節或抗炎路徑無任何已知機轉連結。此預測高度可能源自sinusitis知識圖譜節點的延伸關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無CRS相關免疫調節機轉數據",
+        "現代CRS治療已進入生物製劑時代（dupilumab等），Aminacrine的競爭性定位不明確"
+      ]
+    },
+    {
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn_score": 0.9500,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻旁竇腫瘤（鱗狀細胞癌為主）。吖啶類化合物作為DNA嵌入劑/拓撲異構酶II抑制劑在理論上具有抗腫瘤潛力（同類化合物如amsacrine已用於白血病），此為本清單中機轉連結相對最強的條目。然而Aminacrine本身無任何鼻旁竇腫瘤的體外、體內或臨床數據，且頭頸部腫瘤用藥通常需要高度器官保護考量。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "Aminacrine與Amsacrine雖同為吖啶類但結構不同，不能直接類推",
+        "無針對鼻旁竇腫瘤細胞株的IC50數據",
+        "頭頸部腫瘤放化療標準治療競爭壓力強"
+      ]
+    }
+  ],
+  "cross_indication_patterns": {
+    "cluster_analysis": [
+      {
+        "cluster": "牙科感染群",
+        "members": ["apical periodontitis", "periapical granuloma", "suppurative periapical periodontitis"],
+        "shared_score_range": "0.9512-0.9541",
+        "note": "periapical granuloma與suppurative periapical periodontitis分數完全相同（0.9512），強烈提示知識圖譜中這兩個節點具有相同的上游關聯路徑，預測信號可靠性需打折扣"
+      },
+      {
+        "cluster": "鼻竇炎群",
+        "members": ["sinusitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis"],
+        "shared_score_range": "0.9503-0.9578",
+        "note": "三個鼻竇相關條目分數集中，可能源自sinusitis父節點的級聯預測，而非各自獨立的藥物-疾病機轉信號"
+      }
+    ],
+    "highest_mechanistic_plausibility": "paranasal sinus neoplasm（拓撲異構酶抑制→抗腫瘤）及 apical periodontitis（歷史性牙科消毒應用）",
+    "lowest_mechanistic_plausibility": "epiglottitis（急性重症，臨床應用場景不適合）、diffuse scleroderma（自體免疫，機轉連結薄弱）"
+  },
+  "overall_recommendation": {
+    "immediate_action": "Hold — 全部適應症",
+    "rationale": "Aminacrine為未上市藥物，MoA資料缺口，所有適應症均缺乏任何臨床試驗或文獻支持。高TxGNN分數（0.95-0.98）雖具參考價值，但在資料真空下不足以推進任何適應症至S1以上。",
+    "priority_research_directions": [
+      {
+        "rank": 1,
+        "target": "paranasal sinus neoplasm",
+        "rationale": "吖啶類化合物抗腫瘤機轉（拓撲異構酶抑制）有類藥物先例（Amsacrine），建議先進行體外細胞株篩選實驗"
+      },
+      {
+        "rank": 2,
+        "target": "apical periodontitis / periapical granuloma",
+        "rationale": "歷史性局部牙科消毒應用先例，局部給藥安全性評估相對容易，可考慮體外根管消毒效能比較研究"
+      }
+    ],
+    "prerequisite_before_any_progression": [
+      "確立Aminacrine的MoA（拓撲異構酶抑制程度、DNA嵌入動力學）",
+      "完成基礎毒理學評估（Ames test、細胞毒性IC50）",
+      "確認藥代動力學參數（口服生物可利用度、組織分佈）",
+      "若考慮局部應用（牙科），需確認局部刺激性及黏膜安全性"
+    ]
+  }
+}
+```
+
+---
+
+## 摘要說明
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 機轉合理性 |
+|--------|---------|---------|------|-----------|
+| Paratyphoid fever | **L5** | S0 | Hold | 低（全身抗菌外推） |
+| Diffuse scleroderma | **L5** | S0 | Hold | 極低（自體免疫） |
+| Sinusitis | **L5** | S0 | Hold | 低（局部消毒外推） |
+| Epiglottitis | **L5** | S0 | Hold | 不適用（急性重症） |
+| Apical periodontitis | **L5** | S0 | Hold | 中低⭐（歷史先例） |
+| Periapical granuloma | **L5** | S0 | Hold | 中低⭐（同上） |
+| Suppurative periapical periodontitis | **L5** | S0 | Hold | 低（急性期） |
+| Chronic ethmoidal sinusitis | **L5** | S0 | Hold | 低（生物膜推測） |
+| Chronic rhinosinusitis | **L5** | S0 | Hold | 低（免疫路徑不明） |
+| Paranasal sinus neoplasm | **L5** | S0 | Hold | 中⭐⭐（拓撲抑制先例） |
+
+> ⚠️ **關鍵觀察**：兩組疾病（牙科感染群、鼻竇炎群）出現分數趨同現象，提示預測信號可能來自知識圖譜的上位共享節點，而非針對個別疾病的獨立機轉路徑，分析時需特別留意此「假多樣性」問題。

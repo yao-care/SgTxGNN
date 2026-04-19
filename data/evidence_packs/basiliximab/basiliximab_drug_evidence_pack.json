@@ -1,0 +1,1013 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00074-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Basiliximab",
+    "drugbank_id": "DB00074",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "plasma cell myeloma",
+      "txgnn": {
+        "score": 0.9561294913291932,
+        "rank": 25185
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01526096",
+            "title": "Pilot Study T Cell Depletion in the Setting of Autologous Stem Cell Transplantation for Patients With Multiple Myeloma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2011-07-12",
+            "completion_date": "2024-08-28",
+            "brief_summary": "The purpose of this study is to test whether regulatory T-cell reduction is possible and safe in myeloma subjects undergoing autologous stem cell transplantation (ASCT).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 完成試驗，直接在自體 SCT 背景下用於骨髓瘤患者進行 T 細胞清除，有安全性數據支持，但缺乏療效終點與對照組"
+            }
+          },
+          {
+            "nct_id": "NCT00594308",
+            "title": "In-Vivo Activated T-Cell Depletion to Prevent GVHD",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 10,
+            "start_date": "2007-10",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to compare the effects (good and bad) of the medication basiliximab in combination with cyclosporine with cyclosporine alone for the prevention of graft-versus-host disease.\n\nThis research is being done because there is no completely safe and effective prevention for graft-versus-host disease. It is known that cyclosporine helps with GVHD but we would like to know if the addition of basiliximab will decrease the incidence and/or severity of GVHD after a transplant kn",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗提前終止、無明確分期、樣本極小（n=10），證據價值低，僅提供安全信號參考"
+            }
+          },
+          {
+            "nct_id": "NCT00975975",
+            "title": "Basiliximab #2: In-Vivo Activated T-Cell Depletion to Prevent GVHD After Nonmyeloablative Allotransplantation for the Treatment of Blood Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2009-09",
+            "completion_date": "2013-11",
+            "brief_summary": "The purpose of this study is to compare the effects (good and bad) of the medication basiliximab in combination with cyclosporine (investigational therapy) for the prevention of a complication of bone marrow transplantation known as graft-versus-host disease (GVHD). GVHD is a complication in which the cells of the transplanted bone marrow react against organs and tissues.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 完成試驗，測試非骨髓清除異體移植後 Basiliximab 預防 GVHD，樣本小（n=17），骨髓瘤患者比例不明，關聯屬間接性"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12476283",
+            "title": "Basiliximab is well tolerated and effective in the treatment of steroid-refractory acute graft-versus-host disease after allogeneic stem cell transplantation.",
+            "authors": [
+              "Massenkeil G",
+              "Rackwitz S",
+              "Genvresse I",
+              "Rosen O",
+              "Dörken B"
+            ],
+            "journal": "Bone marrow transplantation",
+            "year": "2002",
+            "abstract": "Basiliximab, a chimeric interleukin-2 receptor (IL-2-R) antagonist, was evaluated in 17 patients with steroid-refractory acute graft-versus-host disease (GVHD) after allogeneic stem cell transplantation (SCT). Patients were transplanted from a related (n = 6) or unrelated (n = 11) HLA-identical donor because of acute lymphoblastic leukemia (n = 4), acute myeloid leukemia (n = 3), chronic myeloid leukemia (n = 7), myelodysplastic syndrome (n = 1), non-Hodgkin's lymphoma (n = 1), and multiple myel",
+            "classification": {
+              "study_type": "Case Series / Prospective",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31940591",
+            "title": "Regulatory T-cell depletion in the setting of autologous stem cell transplantation for multiple myeloma: pilot study.",
+            "authors": [
+              "Derman Benjamin A",
+              "Zha Yuanyuan",
+              "Zimmerman Todd M",
+              "Malloy Rebecca",
+              "Jakubowiak Andrzej"
+            ],
+            "journal": "Journal for immunotherapy of cancer",
+            "year": "2020",
+            "abstract": "Progression after high-dose melphalan with autologous stem cell transplantation (ASCT) in multiple myeloma (MM) may be due in part to immune dysfunction. Regulatory T (Treg) cells reconstitute rapidly after ASCT and inhibit immune responses against myeloma cells.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28320553",
+            "title": "Kidney Transplantation for Kidney Failure Due to Multiple Myeloma: Case Reports.",
+            "authors": [
+              "Le Thuy X",
+              "Wolf Jeffrey L",
+              "Peralta Carmen A",
+              "Webber Allison B"
+            ],
+            "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+            "year": "2017",
+            "abstract": "Transplantation centers have historically considered a history of multiple myeloma as a contraindication to kidney transplantation due to high recurrence rates and poor transplant survival. However, there have been significant advances in the treatment of multiple myeloma, with improved patient survival, which may allow for successful kidney transplantation in these patients. We report on 4 patients who underwent kidney transplantation at our institution between 2009 and 2015 after having achiev",
+            "classification": {
+              "study_type": "Case Reports",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多發性骨髓瘤（MM）患者常需接受自體或異體造血幹細胞移植（HSCT）。Basiliximab 作為 IL-2R 拮抗劑，可清除移植後活化 T 細胞（包括調節性 T 細胞），降低 GVHD 風險並可能增強移植物抗骨髓瘤效應（GVM effect）。機轉關聯屬間接性——針對移植相關免疫併發症而非直接抗骨髓瘤活性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.95544171333313,
+        "rank": 25351
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01862965",
+            "title": "Treatment of Newly Diagnosed Moderate or Severe Chronic Graft-versus-host Disease With Prednisone and Everolimus (PredEver First) - A Prospective Multicenter Phase IIA Study -",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2013-03-06",
+            "completion_date": "2019-03",
+            "brief_summary": "In this study patients with moderate to severe chronic graft-versus-host disease will be treated with a combination of prednisone and everolimus. Patients will be treated on the study for a maximum of 12 months and followed up for another 12 months.\n\nThe primary hypothesis of this study is that the addition of everolimus to prednisone increases response rates without increasing treatment related mortality or mortality due to relapse of underlying disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 完成試驗，直接測試 Basiliximab + Prednisone 治療中重度慢性 GVHD（包含肺部表現），n=38，提供中等質量療效與安全性數據"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26833657",
+            "title": "The Impact of Alemtuzumab and Basiliximab Induction on Patient Survival and Time to Bronchiolitis Obliterans Syndrome in Double Lung Transplantation Recipients.",
+            "authors": [
+              "Furuya Y",
+              "Jayarajan S N",
+              "Taghavi S",
+              "Cordova F C",
+              "Patel N"
+            ],
+            "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+            "year": "2016",
+            "abstract": "We examined the effect of alemtuzumab and basiliximab induction therapy on patient survival and freedom from bronchiolitis obliterans syndrome (BOS) in double lung transplantation. The United Network for Organ Sharing database was reviewed for adult double lung transplant recipients from 2006 to 2013. The primary outcome was risk-adjusted all-cause mortality. Secondary outcomes included time to BOS. There were 6117 patients were identified, of whom 738 received alemtuzumab, 2804 received basilix",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16143251",
+            "title": "A comparison of basiliximab and anti-thymocyte globulin as induction agents after lung transplantation.",
+            "authors": [
+              "Hachem Ramsey R",
+              "Chakinala Murali M",
+              "Yusen Roger D",
+              "Lynch John P",
+              "Aloush Aviva A"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2005",
+            "abstract": "Interleukin-2 receptor antagonists have supplanted polyclonal antibody preparations as the most frequently used induction agents after lung transplantation, but the relative efficacy of these agents has not been firmly established.",
+            "classification": {
+              "study_type": "Retrospective Comparative Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21764603",
+            "title": "Timing of basiliximab induction and development of acute rejection in lung transplant patients.",
+            "authors": [
+              "Swarup Rajeev",
+              "Allenspach Lisa L",
+              "Nemeh Hassan W",
+              "Stagner Lisa D",
+              "Betensley Alan D"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2011",
+            "abstract": "Acute rejection affects more than 36% of recipients within the first year post-transplantation. The interleukin-2 (IL-2) receptor antagonist basiliximab has been associated with decreased frequency and severity of acute rejection. We investigated whether the timing of induction administration would impact the frequency and severity of acute rejection in the first year after transplantation.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23701023",
+            "title": "Induction therapy in lung transplantation.",
+            "authors": [
+              "Sweet Stuart C"
+            ],
+            "journal": "Transplant international : official journal of the European Society for Organ Transplantation",
+            "year": "2013",
+            "abstract": "Strategies for induction in lung transplant recipients typically mirror those used in other solid organ transplant recipients. Polyclonal (Atgam, RATG) and monoclonal (OKT3) T-cell depleting agents, IL-2 Receptor antagonists (basiliximab and daclizumab) have been used most commonly. In spite of evidence from ISHLT registry reports that induction reduces acute rejection and has a small benefit in freedom from bronchiolitis obliterans and long-term survival, other studies have been less convincing",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37474631",
+            "title": "Ruxolitinib versus basiliximab for steroid-refractory acute graft-versus-host disease: a retrospective study.",
+            "authors": [
+              "Liu Jiapei",
+              "Fan Zhiping",
+              "Xu Na",
+              "Ye Jieyu",
+              "Chen Yanqiu"
+            ],
+            "journal": "Annals of hematology",
+            "year": "2023",
+            "abstract": "Acute graft-versus-host disease (aGVHD) remains a major limitation of allogeneic hematopoietic stem cell transplantation; not all patients respond to standard glucocorticoids treatment. This study retrospectively evaluated the effects of ruxolitinib compared with basiliximab for steroid-refractory aGVHD (SR-aGVHD). One hundred and twenty-nine patients were enrolled, 81 in ruxolitinib and 48 in basiliximab group. The overall response (OR) at day 28 was higher in ruxolitinib group (72.8% vs. 54.2%",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20558084",
+            "title": "Anti-human leukocyte antigen antibodies and preemptive antibody-directed therapy after lung transplantation.",
+            "authors": [
+              "Hachem Ramsey R",
+              "Yusen Roger D",
+              "Meyers Bryan F",
+              "Aloush Aviva A",
+              "Mohanakumar Thalachallour"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2010",
+            "abstract": "Because the development of donor-specific anti-human leukocyte antigen (HLA) antibodies (DSA) after lung transplantation has been associated with acute and chronic rejection, we implemented a clinical protocol to screen all transplant recipients for DSA and preemptively treat those who developed DSA with rituximab and intravenous immune globulin (IVIG), or IVIG alone.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26496787",
+            "title": "Influence of human leukocyte antigen mismatching on bronchiolitis obliterans syndrome in lung transplantation.",
+            "authors": [
+              "Hayes Don",
+              "Black Sylvester M",
+              "Tobias Joseph D",
+              "Kopp Benjamin T",
+              "Kirkby Stephen E"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "2016",
+            "abstract": "Varying results have been reported in the investigation of human leukocyte antigen (HLA) mismatching and bronchiolitis obliterans syndrome (BOS) after lung transplantation (LTx).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 疾病名稱需重新解讀：文獻與試驗一致指向「閉塞性細支氣管炎症候群（BOS / Bronchiolitis Obliterans Syndrome）」，為肺移植後慢性排斥的主要表現形式，而非一般感染性支氣管炎。Basiliximab 作為肺移植誘導性免疫抑制劑，抑制 T 細胞活化以預防急性排斥，理論上可降低後續慢性排斥（BOS）發生率。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn": {
+        "score": 0.9529080986976624,
+        "rank": 25995
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惰性漿細胞骨髓瘤（Smoldering Multiple Myeloma）為低進展性疾病，目前標準治療以觀察等待為主。Basiliximab 的 IL-2R 阻斷機轉在此情境下無直接理論支持，TxGNN 預測可能源於與 plasma cell myeloma 的知識圖譜近鄰效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hemoglobinopathy",
+      "txgnn": {
+        "score": 0.9427525997161864,
+        "rank": 28267
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03171831",
+            "title": "Haploidentical Hematopoietic Stem Cell Transplantation for Patients With Thalassemia Major",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2017-04-01",
+            "completion_date": "2022-04-01",
+            "brief_summary": "The purpose of the study is to assess the safety and efficacy of haploidentical hematopoietic stem cell transplantation for patients with thalassemia major.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 試驗直接針對地中海貧血重症患者（Thalassemia Major）行半相合 HSCT，疾病特異性高，但試驗狀態不明（UNKNOWN）需追蹤確認"
+            }
+          },
+          {
+            "nct_id": "NCT02342145",
+            "title": "Efficacy of Basiliximab in the Prevention of Acute Graft-versus-host Disease in Unrelated Allogeneic Hematopoietic Stem Cell Transplantation Therapy for Thalassemia Major Treatment: a Multi-center, Open, Randomized, Controlled Clinical Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 205,
+            "start_date": "2015-04",
+            "completion_date": "2022-08-20",
+            "brief_summary": "The purpose of this study is to evaluate the basiliximab for prevention of graft-versus-host disease in unrelated allo-genetic hematopoietic stem cell transplantation for thalassemia major. The objective was to evaluate the effect and safety of basiliximab for acute graft-versus-host disease.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 大型完成試驗（n=205），直接測試 Basiliximab 預防異體移植後急性 GVHD 的療效，樣本量充足，為本分析中最強臨床證據"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33608657",
+            "title": "Hepatic veno-occlusive disease/sinusoidal obstruction syndrome after hematopoietic stem cell transplantation for thalassemia major: incidence, management, and outcome.",
+            "authors": [
+              "Lai Xiaoxuan",
+              "Liu Lianjin",
+              "Zhang Zhongming",
+              "Shi Lingling",
+              "Yang Gaohui"
+            ],
+            "journal": "Bone marrow transplantation",
+            "year": "2021",
+            "abstract": "Hepatic veno-occlusive disease or sinusoidal obstruction syndrome (VOD/SOS) is a potentially life-threatening complication of allogeneic hematopoietic stem cell transplantation (allo-HSCT). In the present prospective study, we aimed to investigate the incidence, management, and outcome of VOD/SOS in patients with thalassemia major (TM) who received allo-HSCT. VOD/SOS was diagnosed and classified based on the modified Seattle criteria. The prophylactic regimen for VOD/SOS was a combination treatm",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "地中海貧血等血紅素病變患者常需異體 HSCT 作為根治性治療。Basiliximab 作為抗 IL-2R 抗體，透過抑制活化 T 細胞增殖以預防移植後急性 GVHD——這是 HSCT 後最主要的致病原因之一。IL-2 訊號通路在供者 T 細胞攻擊宿主組織的 GVHD 病理機轉中扮演核心角色。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gastric carcinoma",
+      "txgnn": {
+        "score": 0.9388582110404968,
+        "rank": 29014
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 機轉矛盾風險：胃癌的免疫治療方向為增強抗腫瘤免疫（如 PD-1/PD-L1 抑制劑），而 Basiliximab 的 IL-2R 阻斷可能抑制效應 T 細胞活性，理論上與抗腫瘤免疫方向相悖。TxGNN 預測可能源於知識圖譜中 IL-2 通路節點的廣泛連結而非真實臨床關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "diffuse gastric adenocarcinoma",
+      "txgnn": {
+        "score": 0.937525749206543,
+        "rank": 29247
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與胃癌（gastric carcinoma）分析相同——彌漫型胃腺癌（印戒細胞癌為主）為侵襲性腫瘤，免疫抑制治療在此情境缺乏合理機轉支持。預測可能為 gastric carcinoma 子分類的知識圖譜鄰近效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "partial deletion of the short arm of chromosome 16",
+      "txgnn": {
+        "score": 0.9352430105209352,
+        "rank": 29716
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "16p 短臂缺失為染色體結構異常，可能導致多種發育障礙。與 IL-2R 訊號通路無已知直接關聯，TxGNN 預測可能源於部分 16p 缺失病例伴隨免疫缺陷的罕見報告，或純粹為圖譜統計相關性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn": {
+        "score": 0.9328983426094056,
+        "rank": 30124
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Beta-地中海貧血為血紅素病變（hemoglobinopathy）的主要亞型，HSCT 為重症患者的潛在根治選項，Basiliximab 的 GVHD 預防機轉理論上適用（與 hemoglobinopathy 分析相同）。然而此子分類本身無獨立臨床試驗數據，需依賴 hemoglobinopathy 的傘狀證據外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hemolytic anemia due to glucophosphate isomerase deficiency",
+      "txgnn": {
+        "score": 0.9293022751808168,
+        "rank": 30763
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "葡萄糖磷酸異構酶（GPI）缺乏症為極罕見的先天性溶血性貧血（先天性紅血球酵素缺乏症之一），主要為代謝性疾病而非免疫介導。少數重症患者可能考慮 HSCT，但 Basiliximab 在此情境的應用缺乏任何文獻支持。TxGNN 預測可能源於溶血性貧血與血紅素病變的本體論鄰近關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn": {
+        "score": 0.9286041855812072,
+        "rank": 30888
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Jeune 症候群（窒息性胸廓發育不全，ATD）為纖毛病（ciliopathy）相關骨骼發育異常，合併內臟轉位（situs inversus）屬罕見亞型。此遺傳性結構性疾病與 IL-2R 訊號通路無已知關聯，Basiliximab 的免疫抑制機轉在此疾病框架下缺乏合理的作用靶點。預測極可能為知識圖譜的統計假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "gastric carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "gastric carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "gastric carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "diffuse gastric adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "diffuse gastric adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "diffuse gastric adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Basiliximab",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

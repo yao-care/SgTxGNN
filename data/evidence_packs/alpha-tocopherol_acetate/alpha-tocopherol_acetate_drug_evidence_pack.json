@@ -1,0 +1,1514 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB14003-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "alpha-Tocopherol acetate",
+    "drugbank_id": "DB14003",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn": {
+        "score": 0.9999393224716188,
+        "rank": 219
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "藥物誘發性骨質疏鬆（如類固醇誘導）主要機轉為抑制成骨細胞功能、促進骨吸收及干擾鈣磷代謝。Alpha-tocopherol 的抗氧化特性理論上可保護成骨細胞免於氧化損傷，且動物研究顯示維生素E可能改善骨轉換標記，但無人體臨床試驗直接驗證。此為 TxGNN 模型最高分預測，然臨床與文獻證據完全缺失，高度懷疑為模型泛化偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "diabetic cataract",
+      "txgnn": {
+        "score": 0.9999260902404784,
+        "rank": 258
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9695797",
+            "title": "Aldose reductase: a window to the treatment of diabetic complications?",
+            "authors": [
+              "Crabbe M J",
+              "Goode D"
+            ],
+            "journal": "Progress in retinal and eye research",
+            "year": "1998",
+            "abstract": "Kinetic studies on the aldose reductase protein (AR2) have shown that it does not behave as a classical enzyme in relation to ring aldose sugars. These results have been confirmed by X-ray crystallography studies, which have pinpointed binding sites for pharmacological \"aklose reductase inhibitors\" (ARIs). As with non-enzymic glycation reactions, there is probably a free-radical element involved derived from monosaccharide autoxidation. In the case of AR2, there is free radical oxidation of NADP",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8512984",
+            "title": "Plasma antioxidants and risk of cortical and nuclear cataract.",
+            "authors": [
+              "Vitale S",
+              "West S",
+              "Hallfrisch J",
+              "Alston C",
+              "Wang F"
+            ],
+            "journal": "Epidemiology (Cambridge, Mass.)",
+            "year": "1993",
+            "abstract": "We evaluated nutritional risk factors for cataract in 660 subjects enrolled in the Baltimore Longitudinal Study on Aging. As a part of a regular cycle of visits, nuclear and cortical lens photographs were taken over a 2-year period. Measurements of plasma antioxidants (beta-carotene, ascorbic acid, and alpha-tocopherol) were obtained in this cohort as part of the study protocol up to 4 years before lens photographs were taken. We found that plasma beta-carotene and ascorbic acid levels were not ",
+            "classification": {
+              "study_type": "Cohort/Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9799882",
+            "title": "Incidence of cataract operations in Finnish male smokers unaffected by alpha tocopherol or beta carotene supplements.",
+            "authors": [
+              "Teikari J M",
+              "Rautalahti M",
+              "Haukka J",
+              "Järvinen P",
+              "Hartman A M"
+            ],
+            "journal": "Journal of epidemiology and community health",
+            "year": "1998",
+            "abstract": "To examine the effect of alpha tocopherol and beta carotene supplementation on the incidence of age related cataract extraction.",
+            "classification": {
+              "study_type": "RCT (ATBC trial substudy)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8839930",
+            "title": "Vitamin E in humans: demand and delivery.",
+            "authors": [
+              "Traber M G",
+              "Sies H"
+            ],
+            "journal": "Annual review of nutrition",
+            "year": "1996",
+            "abstract": "How much vitamin E is enough? An established use of supplemental vitamin E in humans is in the prevention and therapy of deficiency symptoms. The cause of vitamin E deficiency, characterized by peripheral neuropathy and ataxia, is usually malabsorption-a result of fat malabsorption or genetic abnormalities in lipoprotein metabolism. Genetic abnormalities in the hepatic alpha-tocopherol transfer protein also cause vitamin E deficiency-defects in this protein cause an impairment in plasma vitamin ",
+            "classification": {
+              "study_type": "Review/Pharmacokinetics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11678042",
+            "title": "Nutrition and cataract in low-income Mexicans: experience in an Eye camp.",
+            "authors": [
+              "Sánchez-Castillo C P",
+              "Lara J",
+              "Romero-Keith J",
+              "Castorena G",
+              "Villa A R"
+            ],
+            "journal": "Archivos latinoamericanos de nutricion",
+            "year": "2001",
+            "abstract": "Surgical Eye-camps for cataract treatment of low-income adult Mexicans have been undertaken over the last 10 years. Despite the high prevalence of cataracts among these subjects, no assessment of their nutritional or health status has ever been made. We compare the results obtained for 81 adults (44 men and 37 women) who received treatment in May 1997 with those for a \"control\" group of age and sex-matched but affluent individuals in Mexico City. alpha-Tocopherol and beta-carotene were assessed ",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1486302",
+            "title": "Serum antioxidant vitamins and risk of cataract.",
+            "authors": [
+              "Knekt P",
+              "Heliövaara M",
+              "Rissanen A",
+              "Aromaa A",
+              "Aaran R K"
+            ],
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "1992",
+            "abstract": "To investigate serum concentrations of alpha tocopherol, beta carotene, retinol, and selenium for their prediction of end stage cataract.",
+            "classification": {
+              "study_type": "Case-control",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11471092",
+            "title": "Associations of cardiovascular disease and its risk factors with age-related macular degeneration: the POLA study.",
+            "authors": [
+              "Delcourt C",
+              "Michel F",
+              "Colvez A",
+              "Lacroux A",
+              "Delage M"
+            ],
+            "journal": "Ophthalmic epidemiology",
+            "year": "2001",
+            "abstract": "The POLA study (June 1995 through July 1997) is a population-based study on cataract and age-related macular degeneration (AMD) and their risk factors in 2584 residents of Séte (South of France), aged 60--95 years. Classification of AMD was performed on 50 degrees fundus photographs, according to an international classification. The presence of cardiovascular disease and its risk factors was determined by interviewer-based questionnaire, clinical examination (anthropometry, blood pressure) and f",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2629605",
+            "title": "Modeling cortical cataractogenesis: IX. Activity of vitamin E and esters in preventing cataracts and gamma-crystallin leakage from lenses in diabetic rats.",
+            "authors": [
+              "Trevithick J R",
+              "Linklater H A",
+              "Mitton K P",
+              "Dzialoszynski T",
+              "Sanford S E"
+            ],
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1989",
+            "abstract": "Normal and streptozotocin diabetic female Wistar rats were given vitamin E in the diet as the tocopherol, acetate, or succinate form (2,850 IU/kg food). At the end of 6 weeks, the rats were examined for weight gain or loss, general body condition, and cataracts. At sacrifice, blood was collected for measurement of serum glucose, and gamma-crystallin levels were measured in aqueous and vitreous humors using a radioimmunoassay. One lens was homogenized in 8 M guanidinium chloride for ATP analysis.",
+            "classification": {
+              "study_type": "Animal/Lab Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12770645",
+            "title": "Vitamin E supplementation in the mitigation of carbon tetrachloride induced oxidative stress in rats.",
+            "authors": [
+              "MacDonald-Wicks Lesley K",
+              "Garg Manohar L"
+            ],
+            "journal": "The Journal of nutritional biochemistry",
+            "year": "2003",
+            "abstract": "Oxidative stress is implicated in the pathophysiology of a number of chronic diseases including atherosclerosis, diabetes, cataracts and accelerated aging. The aim of this study was to elucidate the protective role of vitamin E supplementation when oxidative stress is induced by CCl4 administration, using the rat as a model. Rats were fed diets for four weeks either with or without dl-alpha-tocopherol acetate supplementation. Half of the rats (n = 9) from each of the diet groups were then challe",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12919321",
+            "title": "Glycation and glycoxidation of low-density lipoproteins by glucose and low-molecular mass aldehydes. Formation of modified and oxidized particles.",
+            "authors": [
+              "Knott Heather M",
+              "Brown Bronwyn E",
+              "Davies Michael J",
+              "Dean Roger T"
+            ],
+            "journal": "European journal of biochemistry",
+            "year": "2003",
+            "abstract": "Patients with diabetes mellitus suffer from an increased incidence of complications including cardiovascular disease and cataracts; the mechanisms responsible for this are not fully understood. One characteristic of such complications is an accumulation of advanced glycation end-products formed by the adduction of glucose or species derived from glucose, such as low-molecular mass aldehydes, to proteins. These reactions can be nonoxidative (glycation) or oxidative (glycoxidation) and result in t",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19326340",
+            "title": "Inhibitory effect of astraxanthin combined with Flavangenol on oxidative stress biomarkers in streptozotocin-induced diabetic rats.",
+            "authors": [
+              "Nakano Masako",
+              "Orimo Natsumi",
+              "Katagiri Nakako",
+              "Tsubata Masahito",
+              "Takahashi Jiro"
+            ],
+            "journal": "International journal for vitamin and nutrition research. Internationale Zeitschrift fur Vitamin- und Ernahrungsforschung. Journal international de vitaminologie et de nutrition",
+            "year": "2008",
+            "abstract": "In this study, the effect of dietary antioxidants, such as astaxanthin and Flavangenol, and a combination of both, in counteracting oxidative stress in streptozotocin-induced diabetes was investigated. Streptozotocin-induced diabetic rats were divided into four groups: control, astaxanthin, Flavangenol, and combined astaxanthin and Flavangenol (mix group). Each group other than the control group was fed with an astaxanthin diet (0.1 g/kg), Flavangenol diet (2.0 g/kg), or an astaxanthin (0.1 g/kg",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "糖尿病高血糖激活多元醛醣還原酶路徑，山梨醇蓄積導致水晶體滲透壓改變與氧化壓力上升；同時 AGE 形成加速水晶體蛋白質交聯。Alpha-tocopherol 可抑制上述氧化路徑，但對醛醣還原酶無直接抑制作用，機轉為間接保護。現有文獻多針對一般性白內障（非糖尿病特異性），需更具針對性的研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "immature cataract",
+      "txgnn": {
+        "score": 0.9999176263809204,
+        "rank": 287
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10749028",
+            "title": "Protective function of alpha-tocopherol against the process of cataractogenesis in humans.",
+            "authors": [
+              "Seth R K",
+              "Kharb S"
+            ],
+            "journal": "Annals of nutrition & metabolism",
+            "year": "1999",
+            "abstract": "In a random trial 50 patients with unilateral/ bilateral idiopathic immature senile cataract (cortical n = 25, nuclear n = 25) requiring surgery at least in one eye were included in the present study. Reduced glutathione (GSH), vitamin E, malondialdehyde (MDA) and glutathione peroxidase (GSH-Px) were studied in these patients receiving either vitamin E (n = 12 in each subgroup) or placebo (n = 13 in each group) for 30 days. A comparable increase of vitamin E in both types of lens homogenates of ",
+            "classification": {
+              "study_type": "Human Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "不成熟型白內障為白內障進展中間階段，非特定病因疾病實體。Alpha-tocopherol 的抗氧化作用可能延緩氧化性白內障進程，但「immature cataract」作為形態學描述，病因異質性高，機轉關聯需視原發病因而定。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "mature cataract",
+      "txgnn": {
+        "score": 0.9999176263809204,
+        "rank": 288
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "成熟型白內障為白內障終末期，水晶體完全混濁。此階段手術為標準治療，藥物干預的臨床意義極低。Alpha-tocopherol 的氧化保護機轉在此疾病階段幾乎無治療相關性。無任何臨床或文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "tetanic cataract",
+      "txgnn": {
+        "score": 0.9999176263809204,
+        "rank": 289
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "手足搐搦性白內障主要由低鈣血症（副甲狀腺功能低下）引起，離子失衡導致水晶體滲透壓改變。此病因與氧化壓力機轉無直接關聯，alpha-tocopherol 的抗氧化機轉對此適應症幾乎無理論基礎。TxGNN 預測可能源於多種白內障疾病節點的圖譜傳播，非特異性關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "craniostenosis cataract",
+      "txgnn": {
+        "score": 0.9999176263809204,
+        "rank": 290
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "顱縫早閉相關白內障為罕見先天性結構異常，機轉與顱內壓增高及眼眶骨骼發育異常有關。此為先天性/結構性病因，與氧化壓力機轉完全無關聯。Alpha-tocopherol 在此適應症無任何合理的機轉基礎或臨床證據，TxGNN 預測高度懷疑為知識圖譜節點擴散偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "diabetes mellitus type 2 associated cataract",
+      "txgnn": {
+        "score": 0.9999176263809204,
+        "rank": 291
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "第二型糖尿病相關白內障機轉涵蓋多元醛醣還原酶路徑、AGE 蓄積及氧化壓力，alpha-tocopherol 理論上可干預氧化壓力路徑。然而此特定疾病實體無任何臨床試驗或文獻直接支持，雖與 diabetic cataract 概念高度重疊，但資料完全缺失。建議合併至 diabetic cataract 項目進行系統性評估，而非獨立研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "nuclear senile cataract",
+      "txgnn": {
+        "score": 0.999914288520813,
+        "rank": 297
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10749028",
+            "title": "Protective function of alpha-tocopherol against the process of cataractogenesis in humans.",
+            "authors": [
+              "Seth R K",
+              "Kharb S"
+            ],
+            "journal": "Annals of nutrition & metabolism",
+            "year": "1999",
+            "abstract": "In a random trial 50 patients with unilateral/ bilateral idiopathic immature senile cataract (cortical n = 25, nuclear n = 25) requiring surgery at least in one eye were included in the present study. Reduced glutathione (GSH), vitamin E, malondialdehyde (MDA) and glutathione peroxidase (GSH-Px) were studied in these patients receiving either vitamin E (n = 12 in each subgroup) or placebo (n = 13 in each group) for 30 days. A comparable increase of vitamin E in both types of lens homogenates of ",
+            "classification": {
+              "study_type": "Human Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "核型老年性白內障與水晶體核心蛋白質（crystallin）氧化聚合相關。Alpha-tocopherol 可抑制脂質過氧化，保護水晶體細胞膜，但核型白內障以蛋白質氧化為主，脂溶性抗氧化劑作用有限；機轉關聯度中等偏低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "cortical cataract",
+      "txgnn": {
+        "score": 0.999914288520813,
+        "rank": 298
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9527321",
+            "title": "Long-term supplementation with alpha-tocopherol and beta-carotene and age-related cataract.",
+            "authors": [
+              "Teikari J M",
+              "Virtamo J",
+              "Rautalahti M",
+              "Palmgren J",
+              "Liesto K"
+            ],
+            "journal": "Acta ophthalmologica Scandinavica",
+            "year": "1997",
+            "abstract": "To study if long-term supplementation with alpha-tocopherol or beta-carotene is associated with cataract prevalence and severity.",
+            "classification": {
+              "study_type": "RCT (secondary analysis)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8512984",
+            "title": "Plasma antioxidants and risk of cortical and nuclear cataract.",
+            "authors": [
+              "Vitale S",
+              "West S",
+              "Hallfrisch J",
+              "Alston C",
+              "Wang F"
+            ],
+            "journal": "Epidemiology (Cambridge, Mass.)",
+            "year": "1993",
+            "abstract": "We evaluated nutritional risk factors for cataract in 660 subjects enrolled in the Baltimore Longitudinal Study on Aging. As a part of a regular cycle of visits, nuclear and cortical lens photographs were taken over a 2-year period. Measurements of plasma antioxidants (beta-carotene, ascorbic acid, and alpha-tocopherol) were obtained in this cohort as part of the study protocol up to 4 years before lens photographs were taken. We found that plasma beta-carotene and ascorbic acid levels were not ",
+            "classification": {
+              "study_type": "Case-control/Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21620831",
+            "title": "Dose-response relationship for α-tocopherol prevention of ultraviolet radiation induced cataract in rat.",
+            "authors": [
+              "Wang Jing",
+              "Löfgren Stefan",
+              "Dong Xiuqin",
+              "Galichanin Konstantin",
+              "Söderberg Per G"
+            ],
+            "journal": "Experimental eye research",
+            "year": "2011",
+            "abstract": "The purpose of this study is to establish the dose response relationship for α-tocopherol protection of ultraviolet radiation (UVR) induced cataract in the rat. Four groups of 20 six-week-old albino Sprague Dawley rats received 5, 25, 50, and 100 IU/day α-tocopherol, whilst another group of 20 rats without any α-tocopherol feeding was the control group. After 4 weeks of feeding, each rat was unilaterally exposed to 8 kJ/m(2) UVR-300 nm for 15 min. At 1 week after exposure, the rats were sacrific",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7843899",
+            "title": "Serum carotenoids and tocopherols and severity of nuclear and cortical opacities.",
+            "authors": [
+              "Mares-Perlman J A",
+              "Brady W E",
+              "Klein B E",
+              "Klein R",
+              "Palta M"
+            ],
+            "journal": "Investigative ophthalmology & visual science",
+            "year": "1995",
+            "abstract": "To determine whether higher levels of individual carotenoids and tocopherols in the serum are related to less severe nuclear and cortical opacities within the general population.",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10550792",
+            "title": "Fat-soluble nutrient concentrations in different layers of human cataractous lens.",
+            "authors": [
+              "Yeum K J",
+              "Shang F M",
+              "Schalch W M",
+              "Russell R M",
+              "Taylor A"
+            ],
+            "journal": "Current eye research",
+            "year": "1999",
+            "abstract": "Recent epidemiologic studies suggest that differential risk for cataract in different areas of the lens may be related to intake of carotenoids, retinol, and tocopherol. Nevertheless, there is little information about differential localization of these nutrients in the lens. To determine the spatial distribution of fat-soluble nutrients within the lens, we determined levels of these nutrients in the epithelium/ outer cortex vs. inner cortex/nucleus.",
+            "classification": {
+              "study_type": "Observational/Tissue analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8363468",
+            "title": "The Linxian cataract studies. Two nutrition intervention trials.",
+            "authors": [
+              "Sperduto R D",
+              "Hu T S",
+              "Milton R C",
+              "Zhao J L",
+              "Everett D F"
+            ],
+            "journal": "Archives of ophthalmology (Chicago, Ill. : 1960)",
+            "year": "1993",
+            "abstract": "To determine whether the vitamin/mineral supplements used in two cancer intervention trials affected the risk of developing age-related cataracts.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10749028",
+            "title": "Protective function of alpha-tocopherol against the process of cataractogenesis in humans.",
+            "authors": [
+              "Seth R K",
+              "Kharb S"
+            ],
+            "journal": "Annals of nutrition & metabolism",
+            "year": "1999",
+            "abstract": "In a random trial 50 patients with unilateral/ bilateral idiopathic immature senile cataract (cortical n = 25, nuclear n = 25) requiring surgery at least in one eye were included in the present study. Reduced glutathione (GSH), vitamin E, malondialdehyde (MDA) and glutathione peroxidase (GSH-Px) were studied in these patients receiving either vitamin E (n = 12 in each subgroup) or placebo (n = 13 in each group) for 30 days. A comparable increase of vitamin E in both types of lens homogenates of ",
+            "classification": {
+              "study_type": "Human Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2629605",
+            "title": "Modeling cortical cataractogenesis: IX. Activity of vitamin E and esters in preventing cataracts and gamma-crystallin leakage from lenses in diabetic rats.",
+            "authors": [
+              "Trevithick J R",
+              "Linklater H A",
+              "Mitton K P",
+              "Dzialoszynski T",
+              "Sanford S E"
+            ],
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1989",
+            "abstract": "Normal and streptozotocin diabetic female Wistar rats were given vitamin E in the diet as the tocopherol, acetate, or succinate form (2,850 IU/kg food). At the end of 6 weeks, the rats were examined for weight gain or loss, general body condition, and cataracts. At sacrifice, blood was collected for measurement of serum glucose, and gamma-crystallin levels were measured in aqueous and vitreous humors using a radioimmunoassay. One lens was homogenized in 8 M guanidinium chloride for ATP analysis.",
+            "classification": {
+              "study_type": "Animal/Lab Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21705085",
+            "title": "Inverse association of vitamin C with cataract in older people in India.",
+            "authors": [
+              "Ravindran Ravilla D",
+              "Vashist Praveen",
+              "Gupta Sanjeev K",
+              "Young Ian S",
+              "Maraini Giovanni"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2011",
+            "abstract": "To examine the association between vitamin C and cataract in the Indian setting.",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "水晶體皮質富含多不飽和脂肪酸，極易受氧化壓力及紫外線誘導的脂質過氧化損傷。Alpha-tocopherol 集中於水晶體組織，可終止自由基連鎖反應、保護膜磷脂，並與維生素 C 協同維持水晶體抗氧化屏障。機轉強度高，但臨床試驗以複合介入或顯示無效（ATBC 試驗於吸菸族群）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9999094009399414,
+        "rank": 315
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04071977",
+            "title": "Effect of Combined Antioxidant Therapy on the Levels of Oxidative Stress Markers in Aqueous and Vitreous Humor of Patients With Proliferative Diabetic Retinopathy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2020-03-25",
+            "completion_date": "2021-12-31",
+            "brief_summary": "The present study aims to support previous research on the effects of antioxidant therapy on the outcome of diabetic retinopathy and local oxidative stress values. The researchers intend to evaluate 56 patients with proliferative diabetic retinopathy undergoing the vitrectomy procedure, who will be assigned to a placebo group or combination antioxidant therapy. Each group will receive the intervention for 2 months. This intervention consists of taking one tablet (placebo or antioxidant therapy) ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 已完成（n=40），族群為糖尿病視網膜病變，量測眼內氧化壓力標記（房水與玻璃體）。樣本小，複合用藥設計，無法分離 alpha-tocopherol 貢獻。但提供了重要的局部氧化壓力機轉證據，支持後續單藥設計試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT03702374",
+            "title": "Effect of Prolonged Combined Antioxidant Therapy Intake on Oxidative Stress and Mitochondrial Dysfunction Markers in Patients With Diabetic Retinopathy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 132,
+            "start_date": "2018-09-26",
+            "completion_date": "2020-12-31",
+            "brief_summary": "The present study aims to support previous research on antioxidant therapy effects in diabetic retinopathy outcome. The investigators intend to assess 180 patients with diabetic retinopathy in different stages (moderate, severe and proliferative), whom either will be assigned to placebo group or combined antioxidant therapy. Each group will receive the intervention for 12 months. Such intervention consists in taking one tablet (placebo or antioxidant therapy) orally, a day.\n\nAt baseline, blood a",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 已完成試驗（n=132），直接針對糖尿病視網膜病變族群，但干預為複合抗氧化療法（Combined Antioxidant Therapy），alpha-tocopherol 為成分之一而非單獨給藥。主要終點為氧化壓力生物標記（替代終點），非視網膜結構或視力功能。結果尚不明確是否可歸因於 alpha-tocopherol 單一成分。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19900709",
+            "title": "Micronutrients and diabetic retinopathy a systematic review.",
+            "authors": [
+              "Lee Chee-Tin Christine",
+              "Gayton Emma L",
+              "Beulens Joline W J",
+              "Flanagan Declan W",
+              "Adler Amanda I"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2010",
+            "abstract": "We have evaluated the evidence for the association between intake and blood levels of micronutrients and diabetic retinopathy. Treatment for diabetic retinopathy requires significant clinical input and specialist ophthalmologic care. Micronutrients, including vitamin C, vitamin E, and magnesium, may interfere with pathologic mechanisms of diabetic retinopathy and potentially alter its risk.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35715832",
+            "title": "Effect of retinol and α-tocopherol supplementation on photoreceptor and retinal ganglion cell apoptosis in diabetic rats model.",
+            "authors": [
+              "Ichsan Andi Muhammad",
+              "Bukhari Agussalim",
+              "Lallo Subehan",
+              "Miskad Upik Anderiani",
+              "Dzuhry Andi Afdal"
+            ],
+            "journal": "International journal of retina and vitreous",
+            "year": "2022",
+            "abstract": "Diabetic retinopathy (DR) is the most common microvascular complication of diabetes. Retinol and α-tocopherol of diabetic models prevent the damage of photoreceptor and retinal ganglion cells (RGC) caused by hyperglycemia.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12882944",
+            "title": "Relations of serum ascorbic acid and alpha-tocopherol to diabetic retinopathy in the Third National Health and Nutrition Examination Survey.",
+            "authors": [
+              "Millen Amy E",
+              "Gruber Michael",
+              "Klein Ron",
+              "Klein Barbara E K",
+              "Palta Mari"
+            ],
+            "journal": "American journal of epidemiology",
+            "year": "2003",
+            "abstract": "The protective relation of ascorbic acid and alpha-tocopherol to the development of diabetic retinopathy has not been thoroughly evaluated in epidemiologic studies. The association of prevalent diabetic retinopathy with serum ascorbic acid and alpha-tocopherol was studied among participants with type 2 diabetes (>or=40 years) (n = 998) in the Third National Health and Nutrition Examination Survey (1988-1994); 20% of the sample (n = 199) had prevalent retinopathy. The overall odds ratio for retin",
+            "classification": {
+              "study_type": "Cross-sectional (National Survey)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8407170",
+            "title": "Plasma retinol and alpha-tocopherol concentrations in insulin-dependent diabetes mellitus: their relationship to microvascular complications.",
+            "authors": [
+              "Martinoli L",
+              "Di Felice M",
+              "Seghieri G",
+              "Ciuti M",
+              "De Giorgio L A"
+            ],
+            "journal": "International journal for vitamin and nutrition research. Internationale Zeitschrift fur Vitamin- und Ernahrungsforschung. Journal international de vitaminologie et de nutrition",
+            "year": "1993",
+            "abstract": "Plasma alpha-tocopherol and retinol, both assayed by an HPLC method, have been evaluated in a group of 60 patients affected by insulin-dependent (type 1) diabetes mellitus, stratified according to the presence of retinopathy and nephropathy diagnosed by an urinary albumin excretion rate ranging between 20 and 200 micrograms/min (microalbuminaria) or > 200 micrograms/min (macroalbuminuria), all of whom were compared with 26 healthy controls strictly matched for age and sex. Plasma lipids and age ",
+            "classification": {
+              "study_type": "Cohort/Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13148290",
+            "title": "Alpha tocopherol to treat diabetic retinopathy.",
+            "authors": [
+              "DE HOFF J B",
+              "OZAZEWSKI J"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "1954",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9609359",
+            "title": "Reducing lipid peroxidation stress of erythrocyte membrane by alpha-tocopherol nicotinate plays an important role in improving blood rheological properties in type 2 diabetic patients with retinopathy.",
+            "authors": [
+              "Chung T W",
+              "Yu J J",
+              "Liu D Z"
+            ],
+            "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+            "year": "1998",
+            "abstract": "The effects of alpha-tocopherol nicotinate on blood viscoelasticity and viscosity and on lipid peroxidation stress in erythrocyte membranes in patients with Type 2 DM were investigated. Thirteen Type 2 diabetic subjects with retinopathy were given alpha-tocopherol nicotinate 300 mg tds, after meals, for 3 months. The treatment resulted in significant reductions of blood viscosity at different shear rates (e.g. -2.23 +/- 2.82 p<0.015, gamma = 1.5 s(-1)) and viscoelasticity (p<0.004); resistance o",
+            "classification": {
+              "study_type": "In vitro/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10803422",
+            "title": "Retinal vascular changes induced by the oxidative stress of alpha-tocopherol deficiency contrasted with diabetic microangiopathy.",
+            "authors": [
+              "Robison W G",
+              "Jacot J L",
+              "Katz M L",
+              "Glover J P"
+            ],
+            "journal": "Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics",
+            "year": "2000",
+            "abstract": "It has been proposed that oxidative tissue damage is involved in the development of diabetic angiopathies. To evaluate this hypothesis, experiments were conducted to identify the retinal vessel changes induced by the oxidative stress related to alpha-tocopherol deficiency and examine possible similarities with the lesions characteristic of diabetic retinopathy. Twenty-one-day-old male Fisher 344 albino rats were divided randomly to receive a basal, chemically defined diet either with (adequate g",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16842139",
+            "title": "Role of oxidative stress in development of cardiovascular complications in diabetes mellitus.",
+            "authors": [
+              "Haidara Mohamed A",
+              "Yassin Hanaa Z",
+              "Rateb Moshira",
+              "Ammar Hania",
+              "Zorkani Mahmoud A"
+            ],
+            "journal": "Current vascular pharmacology",
+            "year": "2006",
+            "abstract": "Diabetes represents a serious risk factor for the development of cardiovascular problems such as coronary heart disease, peripheral arterial disease, hypertension, stroke, cardiomyopathy, nephropathy and retinopathy. Identifying the pathogenesis of this increased risk provides a basis for secondary intervention to reduce morbidity and mortality in diabetic patients. Hyperglycemia and protein glycation, increased inflammation, a prothrombotic state and endothelial dysfunction have all been implic",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12606527",
+            "title": "Characterization of retinal leukostasis and hemodynamics in insulin resistance and diabetes: role of oxidants and protein kinase-C activation.",
+            "authors": [
+              "Abiko Toru",
+              "Abiko Atsuko",
+              "Clermont Allen C",
+              "Shoelson Brett",
+              "Horio Naoichi"
+            ],
+            "journal": "Diabetes",
+            "year": "2003",
+            "abstract": "Increases in leukostasis/monocyte adhesion to the capillary endothelium (leukostasis) and decreases in retinal blood flow may be causally associated and are implicated in the pathogenesis of diabetic retinopathy. In this study, we demonstrate that increases in leukostasis are observed in insulin-resistant states without diabetes, whereas decreases in retinal blood flow require diabetes and hyperglycemia. Microimpaction studies using beads mimicking retinal capillary obstruction by leukocytes did",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9695797",
+            "title": "Aldose reductase: a window to the treatment of diabetic complications?",
+            "authors": [
+              "Crabbe M J",
+              "Goode D"
+            ],
+            "journal": "Progress in retinal and eye research",
+            "year": "1998",
+            "abstract": "Kinetic studies on the aldose reductase protein (AR2) have shown that it does not behave as a classical enzyme in relation to ring aldose sugars. These results have been confirmed by X-ray crystallography studies, which have pinpointed binding sites for pharmacological \"aklose reductase inhibitors\" (ARIs). As with non-enzymic glycation reactions, there is probably a free-radical element involved derived from monosaccharide autoxidation. In the case of AR2, there is free radical oxidation of NADP",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17560455",
+            "title": "Effects of stobadine and vitamin E in diabetes-induced retinal abnormalities: involvement of oxidative stress.",
+            "authors": [
+              "Yülek Fatma",
+              "Or Meral",
+              "Ozoğul Candan",
+              "Isik Asli Ceylan",
+              "Ari Nuray"
+            ],
+            "journal": "Archives of medical research",
+            "year": "2007",
+            "abstract": "Because hyperglycemia-induced oxidative stress may be a cause of retinopathy, this study examined the hypothesis that administration of exogenous antioxidants, stobadine (ST) and vitamin E (vitE), can restore retinal abnormalities in experimental diabetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11222918",
+            "title": "Retinal glutamate in diabetes and effect of antioxidants.",
+            "authors": [
+              "Kowluru R A",
+              "Engerman R L",
+              "Case G L",
+              "Kern T S"
+            ],
+            "journal": "Neurochemistry international",
+            "year": "2001",
+            "abstract": "Diabetes results in various biochemical abnormalities in the retina, but which of these abnormalities are critical in the development of retinopathy is not known. The aim of this study is to examine the effect of antioxidant supplementation on diabetes-induced alterations of retinal glutamate, and to explore the inter-relationship between alterations of retinal glutamate, oxidative stress, and nitric oxide (NO) in diabetes. Glutamate was measured in the retina at 2 months of diabetes in rats rec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14703729",
+            "title": "Diabetes-induced activation of nuclear transcriptional factor in the retina, and its inhibition by antioxidants.",
+            "authors": [
+              "Kowluru Renu A",
+              "Koppolu Prashant",
+              "Chakrabarti Subrata",
+              "Chen Shali"
+            ],
+            "journal": "Free radical research",
+            "year": "2003",
+            "abstract": "Oxidative stress is increased in the retina in diabetes, and long-term administration of antioxidants inhibits the development of retinopathy in diabetic rats. The purpose of this study is to determine how diabetes affects the activation of a redox-sensitive nuclear transcriptional factor in the retina, NF-kappaB, and its inhibition by antioxidants. Alloxan diabetic rats were assigned to receive standard diet or the diet supplemented with multiple antioxidants, including ascorbic acid, Trolox, d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41302178",
+            "title": "Effect of Buah Merah (Pandanus conoideus Lamk.) Extract Supplementation on the Density and Apoptosis of Photoreceptor and Retinal Ganglion Cells in a Diabetic Rat Model.",
+            "authors": [
+              "Ichsan Andi Muhammad",
+              "Salle Susan Waterina",
+              "Islam Itzar Chaidir",
+              "Lallo Subehan",
+              "Zainuddin Andi Alfian"
+            ],
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2025",
+            "abstract": "Diabetic retinopathy (DR) is a microvascular disorder of the retina due to diabetes mellitus (DM). Natural products are widely used to prevent and treat various diseases caused by DM. This study aims to evaluate the effect of buah merah (Pandanus conoideus Lamk.) extract on retinal density and apoptosis in a diabetic rat model. A total of 30 male rats (Rattus norvegicus) weighing 120-150 g were induced with diabetes using alloxan and divided into five groups: group 1 (normal control), 2 (diabeti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22695936",
+            "title": "Supplementation with antioxidants attenuates transient worsening of retinopathy in diabetes caused by acute intensive insulin therapy.",
+            "authors": [
+              "Wu Haixiang",
+              "Xu Gezhi",
+              "Liao Yujie",
+              "Ren Hui",
+              "Fan Jiawen"
+            ],
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2012",
+            "abstract": "To investigate whether insulin can increase the production of reactive oxygen species (ROS) in bovine retinal microvascular endothelial cells (BRECs), the role of antioxidants in the insulin-induced exacerbation of diabetic retinopathy and the related mechanisms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12448825",
+            "title": "Diabetes-induced activation of caspase-3 in retina: effect of antioxidant therapy.",
+            "authors": [
+              "Kowluru Renu A",
+              "Koppolu Prashant"
+            ],
+            "journal": "Free radical research",
+            "year": "2002",
+            "abstract": "Apoptosis of retinal endothelial cells and pericytes is postulated to contribute to the development of retinopathy in diabetes. The goal of this study is to investigate diabetes-induced activation of retinal caspase-3, an apoptosis executer enzyme, in retina, and examine the effects of antioxidants on the activation. Caspase-3 activation was determined in the retina of alloxan diabetic rats (2-14 months duration) and in the isolated retinal capillary cells (endothelial cells and pericytes) by me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9536928",
+            "title": "Carotenoids, retinol and tocopherols in patients with insulin-dependent diabetes mellitus and their immediate relatives.",
+            "authors": [
+              "Granado F",
+              "Olmedilla B",
+              "Gil-Martínez E",
+              "Blanco I",
+              "Millan I"
+            ],
+            "journal": "Clinical science (London, England : 1979)",
+            "year": "1998",
+            "abstract": "1. Patients with insulin-dependent diabetes mellitus are classified among the groups at risk for low vitamin status, and recent studies suggest that some degree of supplementation with antioxidants may be beneficial in helping to prevent certain long-term complications of diabetes mellitus. Our objective was to compare the status of the fat-soluble vitamins and antioxidant-related compounds in patients with well-defined insulin-dependent diabetes mellitus with that of their first-degree relative",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11473058",
+            "title": "Abnormalities of retinal metabolism in diabetes and experimental galactosemia. VII. Effect of long-term administration of antioxidants on the development of retinopathy.",
+            "authors": [
+              "Kowluru R A",
+              "Tang J",
+              "Kern T S"
+            ],
+            "journal": "Diabetes",
+            "year": "2001",
+            "abstract": "Antioxidants were administered to diabetic rats and experimentally galactosemic rats to evaluate the ability of these agents to inhibit the development of diabetic retinopathy. Alloxan diabetic rats and nondiabetic rats that were fed 30% galactose randomly received standard diets or the diets supplemented with ascorbic acid and alpha-tocopherol (vitamins C+E diet) or a more comprehensive mixture of antioxidants (multi-antioxidant diet), including Trolox, alpha-tocopherol, N-acetyl cysteine, asco",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9523029",
+            "title": "Prevention of diabetes-induced abnormal retinal blood flow by treatment with d-alpha-tocopherol.",
+            "authors": [
+              "Kunisaki M",
+              "Bursell S E",
+              "Umeda F",
+              "Nawata H",
+              "King G L"
+            ],
+            "journal": "BioFactors (Oxford, England)",
+            "year": "1998",
+            "abstract": "Hyperglycemia in diabetes mellitus has been shown to activate diacylglycerol (DAG)-protein kinase C (PKC) pathway in the vascular tissues, possibly altering vascular function. We have characterized the effects of vitamin E (d-alpha-tocopherol) on activation of PKC and DAG levels in retinal tissues of diabetic rats, and correlated its effects to retinal hemodynamics using video-based fluorescein angiography (VFA). Comparing streptozotocin-induced diabetic rats to controls, membranous PKC specific",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22235421",
+            "title": "Regulation of lipid peroxidation in the retina under the effect of bright light.",
+            "authors": [
+              "Dzhafarov A I",
+              "Kasimov E M",
+              "Mamedov Sh Y"
+            ],
+            "journal": "Bulletin of experimental biology and medicine",
+            "year": "2011",
+            "abstract": "Changes in LPO intensity under the effect of exposure to bright light and the possibility of their correction with antioxidants were studied on rabbits with diabetic retinopathy. It was found that enhanced LPO caused by exposure to bright light in rabbits with diabetic retinopathy can be corrected with antioxidants. Phenosan potassium salt, α-tocopherol, and oxypyridine were more effective than SOD and taurine in preventing MDA accumulation. A complex of natural and synthetic antioxidants was mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "糖尿病高血糖狀態觸發多元醛醣還原酶路徑（polyol pathway）、AGE 生成及 PKC 活化，導致視網膜血管內皮氧化損傷。Alpha-tocopherol 作為脂溶性抗氧化劑，可抑制脂質過氧化（lipid peroxidation）、降低 ROS、改善線粒體功能並抑制 PKC-β 活化，從而保護視網膜血管完整性。機轉合理，文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetic cataract"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "immature cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "immature cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "immature cataract"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "mature cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "mature cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "mature cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "tetanic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "tetanic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "tetanic cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "craniostenosis cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "craniostenosis cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "craniostenosis cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetes mellitus type 2 associated cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "nuclear senile cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "nuclear senile cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "nuclear senile cataract"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "cortical cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "cortical cataract"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "cortical cataract"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "alpha-Tocopherol acetate",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

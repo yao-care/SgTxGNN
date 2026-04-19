@@ -1,0 +1,254 @@
+## Alprazolam (DB00404) 藥物再利用證據分析
+
+分析 10 個適應症，整合 TxGNN 預測分數、臨床試驗相關性與文獻等級後，結果如下：
+
+---
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "insomnia (disease)",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Alprazolam 為 GABA-A 受體正向異位調節劑（苯二氮平類），增強 GABA 抑制性突觸後電位，縮短睡眠潛伏期並延長 NREM 睡眠時間，機轉上直接支持催眠療效。主要顧慮：REM 睡眠壓抑、次日殘留效應、依賴性風險，需於老年族群與腎臟病患者謹慎評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02648776",
+          "relevance_grade": "A",
+          "reasoning": "前瞻性世代研究（N=1400），直接評估老年人安眠藥（含苯二氮平類）的風險效益，與失眠適應症高度相關，提供真實世界安全性數據。"
+        },
+        {
+          "nct_id": "NCT01584440",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 雙盲安慰劑對照試驗（N=220，已完成），標題截斷，可能涵蓋焦慮合併失眠睡眠終點，需查閱完整 NCT 登錄確認主要終點。"
+        },
+        {
+          "nct_id": "NCT00266409",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 多中心隨機開放標籤試驗（N=418，已完成），比較症狀緩解時間，可能涵蓋焦慮/失眠症狀群，但標題截斷無法確認是否為主要適應症。"
+        },
+        {
+          "nct_id": "NCT04572750",
+          "relevance_grade": "C",
+          "reasoning": "電子自我管理介入協助苯二氮平停藥試驗（N=170，已完成），聚焦戒斷管理而非失眠治療效果，間接支持安全性評估。"
+        },
+        {
+          "nct_id": "NCT03327506",
+          "relevance_grade": "C",
+          "reasoning": "催眠術與術前藥物比較圍術期焦慮（Phase 4，N=128），適應症為焦慮非失眠，與本適應症相關性低。"
+        },
+        {
+          "nct_id": "NCT01146600",
+          "relevance_grade": "C",
+          "reasoning": "Clarithromycin 治療過眠症（Phase 2，N=26，已完成），受試藥非 alprazolam，適應症為過眠症非失眠，相關性極低。"
+        },
+        {
+          "nct_id": "NCT01893632",
+          "relevance_grade": "C",
+          "reasoning": "Gabapentin 治療苯二氮平依賴性研究（Phase 2，提前終止，N=2），提前終止且受試藥不同，不提供療效證據。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "33403184", "study_type": "Comparative RCT", "tier": "1"},
+        {"pmid": "39183410", "study_type": "RCT (Integrative)", "tier": "1"},
+        {"pmid": "35041261", "study_type": "RCT (老年/AD)", "tier": "1"},
+        {"pmid": "36692463", "study_type": "Clinical Cohort", "tier": "2"},
+        {"pmid": "38363887", "study_type": "Cross-sectional", "tier": "2"},
+        {"pmid": "35493764", "study_type": "Cohort Study", "tier": "2"},
+        {"pmid": "37984023", "study_type": "Predictive/Economic Model", "tier": "2"},
+        {"pmid": "23330992", "study_type": "PK Review", "tier": "3"},
+        {"pmid": "7484706", "study_type": "Narrative Review", "tier": "3"},
+        {"pmid": "39295670", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嬰兒良性陣發性斜頸（BPTI）為自限性神經發育疾患，可能與偏頭痛前驅相關（CACNA1A 通道病變），GABAergic 調節機轉與其病因無直接關聯。TxGNN 高分（0.996）可能反映知識圖譜中神經系統節點的圖譜距離偽影，而非真實生物效應。無任何臨床或前臨床支持數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "agoraphobia",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "廣場恐懼症的核心病理為杏仁核-前額葉恐懼迴路過度活化；Alprazolam 透過增強 GABA-A 受體功能，快速降低杏仁核放電閾值，有效緩解急性恐慌發作與迴避行為。多項多中心 Phase 3 等級 RCT 直接支持 alprazolam 用於恐慌症合併廣場恐懼（全球有 FDA/EMA 核准先例）。主要風險：長期依賴性、突然停藥反跳焦慮，建議合併 CBT/暴露療法使用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00634790",
+          "relevance_grade": "A",
+          "reasoning": "Xanax XR（alprazolam 緩釋劑型）直接用於青少年廣場恐懼/焦慮的 Phase 4 開放標籤安全性研究（N=49），雖提前終止但適應症直接吻合，確認臨床可行性。"
+        },
+        {
+          "nct_id": "NCT01330472",
+          "relevance_grade": "B",
+          "reasoning": "Xanax XR 3mg 生物等效性 Phase 1 研究（N=16，已完成），屬藥動學研究非療效試驗，但確認藥物劑型可及性與暴露量，支持後續療效研究設計。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "38014714", "study_type": "Network Meta-analysis", "tier": "1"},
+        {"pmid": "3282478", "study_type": "RCT Multicenter (Phase 3)", "tier": "1"},
+        {"pmid": "3282479", "study_type": "RCT Multicenter (discontinuation)", "tier": "1"},
+        {"pmid": "8101126", "study_type": "RCT Controlled", "tier": "1"},
+        {"pmid": "7802851", "study_type": "RCT Controlled (safety)", "tier": "1"},
+        {"pmid": "2651490", "study_type": "RCT (3-arm)", "tier": "1"},
+        {"pmid": "2859580", "study_type": "RCT Comparative", "tier": "1"},
+        {"pmid": "9259039", "study_type": "Long-term Follow-up", "tier": "2"},
+        {"pmid": "2963053", "study_type": "Scale Validation Study", "tier": "2"},
+        {"pmid": "2681171", "study_type": "Narrative Review", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADHD 的核心缺陷為前額葉多巴胺/正腎上腺素傳導不足，GABAergic 機轉無法直接修正此缺陷；Alprazolam 的鎮靜效果理論上會加重注意力缺損。現有文獻（PMID 32413536）主要探討 alprazolam 對 methylphenidate 所致神經行為改變的拮抗作用（即副作用管理），而非作為 ADHD 主要治療藥物。機轉評估：逆向作用，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "32413536", "study_type": "Animal/Mechanistic Study", "tier": "3"},
+        {"pmid": "6442440", "study_type": "Pediatric Clinical Study", "tier": "2"},
+        {"pmid": "23144164", "study_type": "Drug Utilization Study", "tier": "2"},
+        {"pmid": "30083378", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "27007452", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何臨床或文獻支持。ADHD 注意力缺失型（DSM-5 predominantly inattentive presentation）與 GABAergic 機轉缺乏直接關聯；苯二氮平類的鎮靜效果理論上加重注意力症狀，且此特定亞型無任何 alprazolam 相關研究。機轉逆向，風險大於潛在效益。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsessive-compulsive disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "OCD 的病理機轉為眶額皮質-紋狀體-視丘迴路過度活化（皮質-基底核超驅動），與焦慮/GABA 系統有部分重疊但非核心機轉。Alprazolam 可能緩解 OCD 相關焦慮成分，但對強迫思想/儀式行為的核心症狀缺乏機轉支持。WFSBP 指南（PMID 12516310）以 SSRI + CBT 為第一線，苯二氮平類僅作為輔助緩解焦慮，且有掩蓋強迫行為的疑慮。唯一直接文獻（PMID 6143507）為 1984 年單一個案報告，證據級別極低。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "6143507", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "12516310", "study_type": "Clinical Practice Guideline", "tier": "2"},
+        {"pmid": "7905781", "study_type": "Narrative Review", "tier": "3"},
+        {"pmid": "22204483", "study_type": "Narrative Review", "tier": "3"},
+        {"pmid": "12600700", "study_type": "Animal Model Review", "tier": "3"},
+        {"pmid": "2859581", "study_type": "Narrative Review", "tier": "3"},
+        {"pmid": "3708519", "study_type": "Narrative Review", "tier": "3"},
+        {"pmid": "7592263", "study_type": "Review (Pediatric)", "tier": "3"},
+        {"pmid": "23324513", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "30083378", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "chondromyxoid fibroma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "軟骨黏液纖維瘤為骨骼良性腫瘤，病因涉及 GPC3/IDH 等基因異常，與 GABA-A 受體調節機轉無任何已知關聯。TxGNN 高分（0.981）極可能為知識圖譜中罕見骨骼腫瘤節點的假陽性信號。無任何前臨床或臨床支持數據，生物合理性缺失。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "specific developmental disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特定發展障礙（閱讀、語言、動作協調）的病因涉及神經發育異常（皮質連結異常、神經遷移缺陷），非 GABAergic 失調所致。NCT03702803 研究植物藥治療焦慮症、NCT05925140 研究抗病毒藥物，兩者均與本適應症無直接關聯。唯一文獻（PMID 30891943）為苯二氮平妊娠暴露的出生缺陷風險研究，屬安全性警示而非療效證據，反向提示使用風險。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03702803",
+          "relevance_grade": "C",
+          "reasoning": "IMSS 植物藥治療焦慮症的 Phase 2 試驗（N=122），受試藥非 alprazolam，適應症為焦慮症而非特定發展障礙，相關性極低。"
+        },
+        {
+          "nct_id": "NCT05925140",
+          "relevance_grade": "C",
+          "reasoning": "抗病毒/抗反轉錄病毒/免疫抑制劑比較試驗（Phase 1，N=1000），與 alprazolam 及特定發展障礙均無直接相關性。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "30891943", "study_type": "Epidemiological/Teratology Study", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "faciodigitogenital syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "顏面指趾生殖器症候群（Aarskog-Scott 症候群）為 FGD1 基因突變所致 X-染色體連鎖遺傳疾病，影響 Rho GTP 酶（Cdc42）訊號路徑，造成骨骼與顏面發育異常。此病因與 GABA-A 受體調節機轉無任何已知關聯，為典型知識圖譜罕見遺傳病假陽性預測，無任何支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "phobic disorder",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "恐懼症（含恐慌症、社交恐懼症、特定恐懼症）的核心病理為杏仁核條件恐懼記憶過度泛化與前額葉抑制不足；Alprazolam 透過增強 GABA-A 活性快速抑制杏仁核-海馬迴放電，有效緩解急性恐懼反應。多項 Phase 2/3 RCT（含系統性回顧 PMID 21869686）直接支持 alprazolam 用於恐慌症及相關恐懼症，與廣場恐懼證據高度重疊。長期使用需注意行為抑制效應可能干擾暴露療法的消弱學習。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00555139",
+          "relevance_grade": "A",
+          "reasoning": "雙盲隨機安慰劑對照三期交叉研究（Phase 1，N=35，已完成），直接以 alprazolam 為其中一個治療臂，提供藥效與安全性直接比較數據，高度相關。"
+        },
+        {
+          "nct_id": "NCT05737511",
+          "relevance_grade": "B",
+          "reasoning": "Hydroxyzine 與標準治療比較恐慌症的 Phase 4 開放標籤試驗（N=80，未開始招募），受試藥不同但適應症（恐慌症/恐懼症）高度相關，可提供比較療效框架。"
+        },
+        {
+          "nct_id": "NCT03220113",
+          "relevance_grade": "C",
+          "reasoning": "演算法/公式治療難治性慢性病變的 Phase 1-2 試驗（N=100，狀態不明），適應症模糊，與恐懼症的直接相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "21869686", "study_type": "Systematic Review/Meta-analysis", "tier": "1"},
+        {"pmid": "1862730", "study_type": "RCT (Scandinavian multicenter)", "tier": "1"},
+        {"pmid": "3282479", "study_type": "RCT Multicenter (discontinuation)", "tier": "1"},
+        {"pmid": "7802851", "study_type": "RCT Controlled (safety)", "tier": "1"},
+        {"pmid": "2651490", "study_type": "RCT (3-arm)", "tier": "1"},
+        {"pmid": "8101126", "study_type": "RCT Controlled", "tier": "1"},
+        {"pmid": "2859580", "study_type": "RCT Comparative (MAOI)", "tier": "1"},
+        {"pmid": "2040715", "study_type": "Clinical Pharmacokinetic Study", "tier": "2"},
+        {"pmid": "2963053", "study_type": "Scale Validation Study", "tier": "2"},
+        {"pmid": "2859581", "study_type": "Narrative Review", "tier": "3"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 決策摘要表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **agoraphobia** | L1 | S3 | ✅ Proceed with Guardrails | 多中心 Phase 3 RCT + 網路 Meta 分析 |
+| **phobic disorder** | L2 | S2 | ✅ Proceed with Guardrails | 多項 RCT + 系統性回顧 |
+| **insomnia** | L3 | S2 | ⚠️ Proceed with Guardrails | Phase 2/4 試驗 + 直接比較研究 |
+| **obsessive-compulsive disorder** | L4 | S1 | 🔴 Hold | 僅單一個案報告（1984），機轉不支持 |
+| **attention deficit-hyperactivity disorder** | L4 | S0 | 🔴 Hold | 間接/動物研究，機轉逆向 |
+| **ADHD inattentive type** | L5 | S0 | 🔴 Hold | 無任何支持證據 |
+| **specific developmental disorder** | L5 | S0 | 🔴 Hold | 試驗/文獻均不相關 |
+| **benign paroxysmal torticollis** | L5 | S0 | 🔴 Hold | 無臨床數據，機轉缺失 |
+| **chondromyxoid fibroma** | L5 | S0 | 🔴 Hold | 純預測，生物合理性缺失 |
+| **faciodigitogenital syndrome** | L5 | S0 | 🔴 Hold | 遺傳病，機轉無關 |
+
+---
+
+### ⚕️ 跨適應症共同注意事項（Guardrails）
+
+1. **依賴性風險**：Alprazolam 半衰期短（6-12h），高依賴性潛力，所有「Proceed」適應症均需設定療程上限（建議 ≤4 週）並制定停藥計畫
+2. **市場狀態**：本地標記「未上市」，需確認當地藥監法規可行性後方可推進臨床計畫
+3. **原始適應症欄位空白**（original_indications: []）：提示本地資料來源缺乏適應症登錄，不代表全球無核准適應症，建議補充 FDA/EMA 核准資料
+4. **YMYL 聲明**：所有輸出頁面需標註「僅供研究參考，老藥新用候選需經臨床驗證，不構成醫療建議」

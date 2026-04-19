@@ -1,0 +1,69 @@
+背景研究代理已完成文獻搜索，發現了幾項重要補充資訊，更新部分評估如下：
+
+---
+
+## 🔄 證據更新（背景搜索補充）
+
+### 關鍵新發現
+
+| 適應症 | 更新內容 | 評級變化 |
+|--------|---------|---------|
+| **dyspepsia** | 廣泛網路搜索確認**無直接臨床試驗**連結 Glycine 與胃輕癱/消化不良 | L4 維持，但機轉更確認屬推測性 |
+| **papillary conjunctivitis** | Gly-Tβ4（甘胺酸-胸腺素β4）眼藥水在乾眼病 RCT 中療效等同 0.05% CsA；游離胺基酸眼科應用文獻存在 | **L4 強化**（更具體的眼科機轉證據） |
+| **cervical disc degenerative disorder** | 體外研究（PMID 28929384）：高濃度 Glycine 顯著增加軟骨細胞膠原蛋白合成 | L4 維持，機轉證據升級為「體外實驗支持」 |
+| **gastroparesis** | 搜索完全未發現 Glycine 與胃腸動力的直接連結 | 考慮降為 **L5**（機轉方向不確定 + 零直接證據） |
+
+---
+
+### 2024 系統性回顧關鍵結論
+> Glycine 補充研究（52項，健康/疾病族群，最長4個月）：
+> - 🏆 最強證據：**精神症狀**（思覺失調症、睡眠改善）
+> - ✅ 試驗性支持：囊狀纖維化（抗發炎，1項 pilot RCT）
+> - ❌ 鼻腔/椎間盤/胃腸：**無直接試驗**
+
+---
+
+### 最終優先排序調整
+
+```json
+{
+  "priority_update": [
+    {
+      "rank": 1,
+      "disease": "dyspepsia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "key_evidence": "PMID 27558952（大鼠胃適應性舒張）+ ENS GlyR 機轉",
+      "next_step": "探索性人體 Phase 1 試驗（功能性消化不良胃舒張評估）"
+    },
+    {
+      "rank": 2,
+      "disease": "papillary conjunctivitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "key_evidence": "Gly-Tβ4 乾眼 RCT + 游離胺基酸眼科文獻 + 結膜肥大細胞 GlyR 機轉",
+      "note": "乾眼 RCT 為 Gly-Tβ4（複合分子），非純 Glycine，需區分"
+    },
+    {
+      "rank": 3,
+      "disease": "cervical disc degenerative disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "key_evidence": "PMID 28929384（軟骨細胞體外膠原合成）+ Glycine = 33% 膠原組成",
+      "next_step": "軟骨/椎間盤基質生化指標的 Phase 1/2 安全性+探索效果試驗"
+    },
+    {
+      "rank": 4,
+      "disease": "gastroparesis",
+      "evidence_level_revised": "L5",
+      "decision_stage": "S0",
+      "rationale": "廣泛文獻搜索無任何 GI 動力直接連結；GlyR 抑制性機轉可能惡化胃排空延遲",
+      "recommendation": "Hold（從 L4 降級）"
+    }
+  ]
+}
+```
+
+---
+
+> **分析完整性說明**：原始 JSON 分析維持有效，以上為背景搜索引擎確認後的補充修訂。所有結論僅供研究參考，不構成醫療建議。

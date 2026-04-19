@@ -1,0 +1,240 @@
+## 藥物再利用證據分析：Lacidipine (DB09236)
+
+**藥物背景**：Lacidipine 為第三代二氫吡啶類鈣通道阻斷劑（CCB），具高脂溶性與強效血管舒張作用，並具有抗氧化特性。台灣/新加坡市場未上市，但在部分歐洲國家已用於高血壓治療。
+
+---
+
+```json
+{
+  "drug": "Lacidipine",
+  "drugbank_id": "DB09236",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "所有適應症均無臨床試驗紀錄；原始適應症欄位為空、MoA 標記為 Data Gap，但依藥理文獻確認其為 L-type CCB。",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9834,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "部分 CCB（如 flunarizine，T-type CCB；verapamil，non-DHP CCB）有偏頭痛預防適應症，但 L-type DHP CCB（包括 lacidipine）對偏頭痛的機轉關聯薄弱，缺乏直接血管平滑肌以外的神經調節證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["MoA 與已核准偏頭痛預防藥物（L-type CCB）不符", "無任何臨床或文獻支持"]
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn_score": 0.9820,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2 gain-of-function 突變所致，CCB 對精氨酸加壓素受體路徑無已知影響。TxGNN 預測可能源於知識圖譜中腎臟節點的間接連結，生物學合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機轉關聯無合理生物學依據", "孤兒疾病，臨床試驗設計困難"]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9807,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛（brainstem aura）涉及腦幹血管及神經元異常去極化，DHP CCB 對腦血管穿透性有限，且缺乏針對此亞型的任何 CCB 研究。與一般偏頭痛相比，證據基礎更為薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["腦血管穿透性不足", "無任何文獻支持"]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9789,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "部分肺動脈高壓（PAH）患者（vasoreactive responders，約 10-15%）對 CCB 有臨床反應，機轉為抑制肺血管平滑肌 L-type 鈣通道，促進舒張、降低肺血管阻力。Lacidipine 之強效血管選擇性理論上適用，但現有文獻均針對 amlodipine、nifedipine，lacidipine 無直接 PAH 研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9471233",
+          "title": "Role of calcium antagonists in the treatment of arterial hypertension (1997)",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "討論 CCB 於系統性高血壓的角色，非肺動脈高壓。與 lacidipine 無直接關聯，僅提供 CCB 類別背景。"
+        },
+        {
+          "pmid": "8973777",
+          "title": "MIDAS trial: Isradipine vs HCTZ for hypertension and atherosclerosis (1996)",
+          "study_type": "RCT（不同藥物）",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "研究主體為 isradipine（另一 DHP CCB），適應症為系統性高血壓與動脈粥樣硬化，非肺動脈高壓。提供 DHP CCB 類別安全性參考，與 lacidipine 在 PAH 的相關性極低。"
+        },
+        {
+          "pmid": "32337731",
+          "title": "Drug repurposing in Raynaud's phenomenon through adverse event signature matching (2020)",
+          "study_type": "Computational / Pharmacovigilance",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "主題為 Raynaud 氏症的藥物再利用，非肺動脈高壓。與 PAH 的關聯為間接（雷諾與 PAH 共病於硬皮症），不構成 PAH 直接證據。"
+        }
+      ],
+      "risk_flags": ["僅有 vasoreactive PAH 次族群可能受益，需急性血管反應試驗確認", "lacidipine 無 PAH 專一臨床數據"]
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9761,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後側凸性心臟病為限制型心肺功能障礙，非血管痙攣或鈣通道異常所致。CCB 在此情境下的心肌舒張作用理論上可能有助於右心功能，但機轉極為間接，且有加重右心衰竭風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["CCB 負性肌力效應可能惡化右心衰竭", "無任何臨床或文獻支持"]
+    },
+    {
+      "disease_name": "alopecia",
+      "txgnn_score": 0.9737,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "DHP CCB（特別是 minoxidil，雖非 CCB 但為 K+ channel opener）已知可促進毛髮生長；部分 CCB 如 nifedipine 亦有多毛症副作用，提示鈣通道可能參與毛囊調節。然而 lacidipine 的促毛髮效應無直接研究，且脫髮病因多元（自體免疫、雄性素等），機轉推論高度不確定。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["機轉推論為間接類比，非直接 lacidipine 效應", "無任何臨床支持"]
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "txgnn_score": 0.9733,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Prinzmetal（變異型）心絞痛由冠狀動脈痙攣所致，CCB 為第一線治療（Class I 指引建議），機轉為阻斷冠狀動脈平滑肌 L-type 鈣通道、解除血管痙攣。Lacidipine 為高效 L-type CCB，在機轉上與已核准用藥（verapamil、diltiazem、nifedipine）高度一致，但缺乏 lacidipine 特定臨床試驗數據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14689111",
+          "title": "Differential therapy with calcium antagonists (2003)",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "評述 CCB 在各心血管適應症的差異化選擇，明確提及血管痙攣型心絞痛（Prinzmetal）為 CCB 適應症之一。雖為類別證據，提供 lacidipine 作為 DHP CCB 在此適應症的機轉支持，相關性 B 級。"
+        }
+      ],
+      "risk_flags": ["需確認 lacidipine 對冠狀動脈的特異性效應", "DHP CCB 反射性心跳加速可能不適合某些患者"]
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9728,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "雷諾氏症（Raynaud disease）由肢端血管痙攣所致，DHP CCB（如 nifedipine、amlodipine）為第一線治療（EULAR 指引 Grade A），機轉為阻斷週邊血管平滑肌 L-type 鈣通道促進舒張。Lacidipine 之強效血管選擇性與高脂溶性（利於組織分布）理論上具治療優勢。2020 年計算性藥物再利用研究明確將 Lacidipine 列為 Raynaud 現象的再利用候選。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32337731",
+          "title": "Drug repurposing in Raynaud's phenomenon through adverse event signature matching in the WHO adverse event database (2020)",
+          "study_type": "Computational Pharmacovigilance / Drug Repurposing",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "本研究明確將 lacidipine 識別為 Raynaud 現象的再利用候選藥物，基於 WHO VigiBase 不良事件特徵匹配。雖為計算性研究（非臨床試驗），但為目前最直接的 lacidipine-Raynaud 關聯文獻，相關性 B 級。"
+        },
+        {
+          "pmid": "14689111",
+          "title": "Differential therapy with calcium antagonists (2003)",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "評述 CCB 在血管痙攣性疾病的應用，Raynaud 現象為 CCB 適應症之一。提供類別層級支持。"
+        }
+      ],
+      "risk_flags": ["目前最高等級為計算性研究，需前瞻性臨床研究驗證", "原發性與繼發性 Raynaud 反應差異大"]
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9713,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頭皮單純性少毛症為基因性疾病（CDSN、LPAR6 等基因突變），鈣通道阻斷與此遺傳病因無已知關聯。TxGNN 預測可能源於毛囊表型節點的知識圖譜路徑，生物學合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["基因性疾病，藥物介入機轉不明", "無任何文獻支持"]
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9690,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛粟粒疹為罕見遺傳皮膚症候群，具毛囊與皮脂腺發育異常，非鈣通道相關病因。與 lacidipine 無已知機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["罕見先天遺傳症，藥物治療效益不明", "無任何文獻支持"]
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "by_evidence_level": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 3,
+      "L5": 7
+    },
+    "by_decision_stage": {
+      "S0": 8,
+      "S1": 2,
+      "S2": 0,
+      "S3": 0
+    },
+    "by_recommendation": {
+      "Hold": 8,
+      "Research Question": 2,
+      "Proceed with Guardrails": 0
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease_name": "Raynaud disease",
+        "rationale": "機轉最強（DHP CCB 第一線治療）+ 有直接計算性再利用研究支持 + CCB 類別 Grade A 指引。建議設計小型 pilot RCT 或系統性回顧（vs amlodipine）。"
+      },
+      {
+        "rank": 2,
+        "disease_name": "Prinzmetal angina",
+        "rationale": "機轉一致（冠狀動脈痙攣 = CCB 適應症）+ 有類別層級評述支持。建議優先進行 lacidipine vs 已核准 CCB 的頭對頭安全性研究。"
+      },
+      {
+        "rank": 3,
+        "disease_name": "pulmonary hypertension",
+        "rationale": "有合理次族群（vasoreactive PAH）+ 3 篇間接文獻，但臨床翻譯複雜度高。建議先進行急性血管反應試驗設計評估。"
+      }
+    ],
+    "key_limitations": [
+      "Lacidipine 在本資料庫中 original_indications 為空，MoA 標記 Data Gap，分析部分依賴文獻藥理學知識補充",
+      "所有 10 個適應症均無任何已登錄臨床試驗",
+      "現有文獻均為 CCB 類別級別（class effect），非 lacidipine 特異性研究",
+      "市場狀態「未上市」限制了真實世界數據的可及性"
+    ]
+  }
+}
+```
+
+---
+
+## 決策摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **Raynaud disease** | 0.973 | **L4** | **S1** | 🟡 Research Question |
+| **Prinzmetal angina** | 0.973 | **L4** | **S1** | 🟡 Research Question |
+| **pulmonary hypertension** | 0.979 | **L4** | **S1** | 🟡 Research Question |
+| migraine disorder | 0.983 | L5 | S0 | 🔴 Hold |
+| nephrogenic SIAD | 0.982 | L5 | S0 | 🔴 Hold |
+| migraine with brainstem aura | 0.981 | L5 | S0 | 🔴 Hold |
+| kyphoscoliotic heart disease | 0.976 | L5 | S0 | 🔴 Hold |
+| alopecia | 0.974 | L5 | S0 | 🔴 Hold |
+| hypotrichosis simplex | 0.971 | L5 | S0 | 🔴 Hold |
+| congenital hypotrichosis milia | 0.969 | L5 | S0 | 🔴 Hold |
+
+> ⚠️ **YMYL 免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證後方可應用。

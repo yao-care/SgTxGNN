@@ -1,0 +1,2659 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00257-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clotrimazole",
+    "drugbank_id": "DB00257",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "acne (disease)",
+      "txgnn": {
+        "score": 0.9985916018486024,
+        "rank": 2625
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01244256",
+            "title": "Isolation and Comparative Efficacy of the Combination of beclometasona0, 025% + Gentamicin 0.1% + Clotrimazole 1% Topical Dermatological Cream of GLENMARK PHARMACEUTICALS, in Patients Infected With Acne",
+            "phase": "PHASE2, PHASE3",
+            "status": "SUSPENDED",
+            "enrollment": 80,
+            "start_date": "2007-04",
+            "completion_date": "2007-09",
+            "brief_summary": "The objective of this trial is to evaluate the comparative efficacy of the combination of Clotrimazole + Gentamicin + Beclomethasone in study subjects with a condition of contaminated dermatosis showing bilateral symmetrical lesions.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3 但狀態為 SUSPENDED（中止），且為複方試驗（倍他米松 + 慶大黴素 + 可能含 Clotrimazole），無法確認 Clotrimazole 對痤瘡的獨立貢獻；enrollment=80 但未完成。高度限制性證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clotrimazole 主要機轉為抗真菌，與痤瘡（以 Cutibacterium acnes 細菌及皮脂腺炎症為主）無直接藥理關聯。唯一可能路徑為針對 Malassezia 相關痤瘡樣皮疹，但屬間接假說，無文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "vulvovaginitis",
+      "txgnn": {
+        "score": 0.9959421753883362,
+        "rank": 5657
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01230814",
+            "title": "A Double-Blind, Randomized Trial of Monthly Treatment With Topical Metronidazole and Miconazole Co-formulated Vaginal Suppositories Versus Placebo for Preventing Vaginal Infections in HIV-seronegative Women",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 234,
+            "start_date": "2011-04",
+            "completion_date": "2013-08",
+            "brief_summary": "This research study is about vaginal infections such as bacterial vaginosis, yeast infections, and trichomoniasis. Usually, these infections can be treated with medication, but sometimes they come back after treatment. Researchers want to know if using vaginal suppositories can decrease the risk of vaginal infections. Participants will include 234 women who are sexually active (greater than or equal to 4 episodes of sex with men during the past month), HIV-negative, 18 to 45 years old, with bact",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，n=234，主要研究 Metronidazole + Miconazole 組合，Clotrimazole 非主要介入但同類適應症提供佐證。"
+            }
+          },
+          {
+            "nct_id": "NCT02907307",
+            "title": "Comparative Study of the Efficacy and Safety of LactiSal 1% Vaginal Gel and LactSal 50 mg Vaginal Tablet Versus Clotrimazole 100 mg Vaginal Tablet in the Treatment of Vulvovaginal Candidiasis (VVC)",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2018-12",
+            "completion_date": "2020-07",
+            "brief_summary": "The purpose of this study is to compare the efficacy and safety of LactiSal 1%vaginal gel and LactiSal 50 mg vaginal tablet with the standart treatment of clotrimazole 100 mg vaginal tablet in woman with vulvovaginal candidiasis (VVC)",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 但 WITHDRAWN，enrollment=0，無實質數據貢獻。"
+            }
+          },
+          {
+            "nct_id": "NCT02242695",
+            "title": "Comparative Study of the Efficacy of 10.0 mg Dequalinium Chloride (Fluomizin®) and 100 mg Clotrimazole (Canesten®) for the Treatment of Vulvovaginal Candidiasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2014-11",
+            "completion_date": "2016-04",
+            "brief_summary": "A clinical study to compare the clinical efficacy of vaginal tablets containing 10mg dequalinium chloride (Fluomizin) with the clinical efficacy of 100mg clotrimazole in patients suffering from vulvovaginal candidiasis, to assess safety of the two medications during the treatment, and to evaluate women's satisfaction with the two treatments.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 COMPLETED，n=150，Clotrimazole 100mg 作為活性對照組，提供真實世界比較數據。"
+            }
+          },
+          {
+            "nct_id": "NCT02860845",
+            "title": "Multicenter Pilot Study to Compare the Efficacy of a Combination of Vaginal Capsules With Acid Boric, L.Gasseri and L.Rhamnosus Versus the Reference Medication in Patients With Vaginal Candidiasis or Bacterial Vaginosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2016-07-12",
+            "completion_date": "2017-11-30",
+            "brief_summary": "The purpose of this study is to determine whether a formula of boric acid and probiotics for vaginal application is effective in the treatment of symptomatic episodes of vulvovaginitis in comparison to pharmacological reference controls (depending on the suspected diagnosis).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 COMPLETED，n=48，硼酸 + Clotrimazole 組合研究，樣本數偏小但直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT06480604",
+            "title": "A Pilot Clinical Trial Assessing the Effect of a Multi-strain Probiotic on the Risk of Recurrence and Severity of Symptoms in Females With Recurrent Vulvovaginal Candidiasis",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 126,
+            "start_date": "2024-10-15",
+            "completion_date": "2025-07",
+            "brief_summary": "This study evaluates the effect of a multi-strain probiotic on the risk of recurrence and severity of symptoms in females with recurrent vulvovaginal candidiasis (R-VVC).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "NA phase，RECRUITING，益生菌輔助 Clotrimazole 預防復發，尚未完成，作為新興研究佐證。"
+            }
+          },
+          {
+            "nct_id": "NCT03024502",
+            "title": "Randomized Clinical Trial of a Mucoadhesive Gel Containing EPP-AF in Patients Diagnosed With Vulvovaginal Candidiasis",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 90,
+            "start_date": "2018-01-30",
+            "completion_date": "2020-06",
+            "brief_summary": "The present study aims to evaluate the safety of two mucoadhesive gels containing a propolis standardized extract identified as EPP-AF, with 1 and 2% of propolis. The efficacy studies with both propolis gels will be performed in comparison with clotrimazole cream in patients presenting vulvovaginal candidiasis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1/2，UNKNOWN 狀態，黏膜黏附凝膠 vs Clotrimazole，狀態不明降低可信度但設計相關。"
+            }
+          },
+          {
+            "nct_id": "NCT00313131",
+            "title": "A Randomised Controlled Trial of Single Dose Tinidazole+Fluconazole Versus Longer Courses of Metronidazole+Clotrimazole in the Management of West African Women With Vaginal Discharge",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1524,
+            "start_date": "2004-01",
+            "completion_date": "2005-05",
+            "brief_summary": "This randomised controlled trial aimed to verify whether directly observed single dose treatment (with tinidazole+fluconazole) would be as effective as the longer standard treatments (metronidazole for 7 days, plus vaginal clotrimazole for 3 days) in the syndromic management of women presenting with vaginal discharge in primary health care centers of Ghana, Togo, Guinea and Mali. It was designed as an effectiveness trial, i.e. it was done under conditions typical of routine work in these health ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 COMPLETED，n=1524，大型試驗但主要比較 Tinidazole+Fluconazole vs Metronidazole 於 BV/TVV，Clotrimazole 非主角，相關性中等。"
+            }
+          },
+          {
+            "nct_id": "NCT03005353",
+            "title": "Randomized Clinical Trial for Treatment of Candidal Vulvovaginitis Using Cumin Seed Extract Vaginal Suppositories.",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2018-03-01",
+            "completion_date": "2020-01-31",
+            "brief_summary": "Fungal infections have increased over the last two decades, largely because of the increasing size of the population at risk, including patients who are immunocompromised, broad-spectrum antibiotics and intravascular catheter users. Essential oils and other extracts of plants have evoked interest as sources of natural products. They have been shown to possess antibacterial, antifungal, antiviral, insecticidal and antioxidant properties. To the best of our knowledge, no study has examined the eff",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3 COMPLETED，n=100，直接比較孜然籽萃取物 vs Clotrimazole 治療念珠菌性外陰陰道炎，Clotrimazole 為標準參考臂。"
+            }
+          },
+          {
+            "nct_id": "NCT00755053",
+            "title": "An Investigator-blinded, Active-controlled Phase 3 Study to Prove the Non-inferior Efficacy of a Clotrimazole Ovule (500 mg) Versus a Clotrimazole Vaginal Tablet (500 mg) in Vaginal Candidiasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 466,
+            "start_date": "2008-09",
+            "completion_date": "2009-05",
+            "brief_summary": "The study is focused to prove that the efficacy of a new Canesten formulation (ovule) is not inferior to the old Canesten formulation (tablet)",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 COMPLETED，n=466，直接以 Clotrimazole 為研究主角，驗證非劣效性，高度相關且方法學嚴謹。"
+            }
+          },
+          {
+            "nct_id": "NCT04813822",
+            "title": "A Phase 2, Randomized, Double-Blind, Active-Controlled Study to Evaluate the Efficacy and Safety of Miconazole Nitrate 2% + Domiphen Bromide Vaginal Cream in the Treatment of Subjects With Acute Vulvovaginal Candidiasis",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 90,
+            "start_date": "2021-09-13",
+            "completion_date": "2022-10",
+            "brief_summary": "This study is a multicentre, three-arm, double-blind, randomized controlled, parallel-group, comparative phase II clinical trial to evaluate miconazole nitrate 2% + domiphen bromide vaginal cream in subjects with acute vulvovaginal candidiasis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，UNKNOWN 狀態，相關性良好但完成度不明。"
+            }
+          },
+          {
+            "nct_id": "NCT02180828",
+            "title": "An Case-controlled Randomized Study to the Efficacy of Clotrimazole Vaginal Tablet vs Fluconazole for Severe Vulvovaginal Candidiasis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 240,
+            "start_date": "2014-07",
+            "completion_date": "2015-09",
+            "brief_summary": "The study is focused to prove that the efficacy and safety of Clotrimazole vaginal tablet vs Fluconazole for the treatment of severe vulvovaginal candidiasis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00194324",
+            "title": "Vaginal Imaging Study to Evaluate the Effect of Exercise on the Distribution of Miconozole Nitrate OVULE",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2004-07",
+            "completion_date": "2004-10",
+            "brief_summary": "This study uses MRI to detect the spread of the Miconozole Nitrate OVULE within the vagina. The effect of moderate amounts of physical activity on the spread will be evaluated, and compared to no physical activity.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05507333",
+            "title": "An Open Labelled Study to Evaluate Clinical Performance of the Gedea Pessary in Adult Women With Vulvovaginal Candidiasis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2023-03-16",
+            "completion_date": "2024-03-05",
+            "brief_summary": "This is a multi-centre, multi-national study to evaluate the clinical performance and safety of treatment with Gedea Pessary in adult women with confirmed vulvovaginal candidiasis (VVC).\n\nThe study population will consist of post-menarchal, pre-menopausal females, 18 years or older, seeking care for VVC symptoms. A total of 26 patients are planned to be included in the study. On Day 0 (Screening, Visit 1), eligible patients will undergo a gynaecological examination, including collection of compo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03562156",
+            "title": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Oteseconazole (VT-1161) Oral Capsules in the Treatment of Subjects With Recurrent Vulvovaginal Candidiasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 438,
+            "start_date": "2018-08-16",
+            "completion_date": "2021-08-06",
+            "brief_summary": "Recurrent vulvovaginal candidiasis (RVVC), also known as recurrent yeast infections, is defined as at least 3 episodes of acute VVC in the past 12 months. Several properties of oteseconazole (VT-1161) suggest that it might be a safer and more effective treatment for RVVC than other oral anti-fungal medicines.\n\nThis study will evaluate the effectiveness and safety of oteseconazole (VT-1161) for the treatment of RVVC and consists of 2 parts. The first part of the study is a 2-week period for the t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02248506",
+            "title": "Epidemiological Study About the Clinical and Microbiological Evolution of Patients Treated for an Acute Episode of Vulvovaginal Candidiasis.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 56,
+            "start_date": "2013-06",
+            "completion_date": "2015-03",
+            "brief_summary": "To determine proportion of women achieving clinical and mycological cure or have recurrences / reinfection after being treated for an acute episode of vulvovaginal candidiasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06835361",
+            "title": "International Open-label Randomized Comparative Clinical Study of Efficacy and Safety of Clotrimazole+Lactulose, Vaginal Suppositories (AVVA RUS JSC, Russia) Vs. a Clotrimazole Monocomponent Product in Adult Female Patients with Candidal Vaginitis/vulvovaginitis",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 264,
+            "start_date": "2024-02-29",
+            "completion_date": "2025-11-30",
+            "brief_summary": "This study aims to compare the efficacy and safety of the combination drug Clotrimazole+Lactulose with the monocomponent product Canesten® (clotrimazole) in adult women diagnosed with candidal vulvovaginitis. The primary objective was to confirm the superiority of the combination drug in terms of clinical and microbiological response on Day 25 of the study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04699240",
+            "title": "A Prospective, Case-controlled Randomized Study of Human Reproductive Tract Active Lactobacillus in Adjuvant Treatment of Recurrent Vulvovaginal Candidiasis.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2020-07-01",
+            "completion_date": "2023-12-30",
+            "brief_summary": "We are trying to determine if Clotrimazole vaginal tablets with oral Lactobacillus is better than Clotrimazole vaginal tablets in Preventing the Recurrence of vulvovaginalcandidiasis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03599323",
+            "title": "Prospective, Non-interventional, Post-marketing, Multi-center, Single-cohort, Safety (Questionnaire) Investigation of Empecid L Cream (Clotrimazole 1%)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1033,
+            "start_date": "2018-07-10",
+            "completion_date": "2021-09-03",
+            "brief_summary": "Researchers already did trials that showed Empecid L Cream worked for patients with Vaginal yeast infection who were in those trials. In this trial, they want to learn if consumers that use the cream under the guidance of a pharmacist have any medical problems during the trial",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04292704",
+            "title": "The Role of Fractional CO2 Laser in Consolidation Treatment of Recurrent Vulvovaginal Candidiasis (RVVC) ：a Study Protocol for a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 205,
+            "start_date": "2019-12-13",
+            "completion_date": "2022-05",
+            "brief_summary": "Background: Recurrent vulvovaginal candidiasis (RVVC) is a common obstinate vulvovaginal inflammation in gynecology. At present, the pathogenesis of RVVC is not clear. In recent years, it is emphasized that the changes of vaginal microecological environment play an important role in the occurrence and development of RVVC. The treatment of RVVC can be divided into intensive treatment and consolidation treatment. Currently, local antifungal treatment is the main treatment regimen. While it is diff",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00479947",
+            "title": "A Double-Blind,Randomized Placebo-Controlled Study Using Probiotic Lactobacillus GR-1 and RC-14 as an Adjunctive Therapy to Fluconazole in the Treatment of Yeast Vaginitis",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2007-05",
+            "completion_date": "2007-12",
+            "brief_summary": "Yeast vaginitis is a very common ailment affecting premenopausal women in Nigeria. This condition is more prevalent in the age group between 21-30 years. More than 75% of premenopausal women and university students are diagnosed with yeast infections annually. In most of these women, recurrent rate of vaginal candidiasis with empiric therapy, stands between 70 and 80%. In addition, resistance to anti-fungal agents is increasing at an alarming speed, particularly with species other than Candida a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03115073",
+            "title": "A Phase IIa Randomized, Active-controlled, Double-blind, Dose-escalation Study in Patients With Vulvovaginal Candidiasis to Evaluate Dose Response Relationship of Clinical Efficacy, Safety and Tolerability of Topically Administered ProF-001",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 84,
+            "start_date": "2017-04-04",
+            "completion_date": "2018-07-30",
+            "brief_summary": "This is a multi-center, randomized, prospective, active-controlled, double-blind, dose-escalation study comparing dose response of clinical efficacy, safety, local tolerability of three different doses of ProF-001/Candiplus® (Candiplus® 0.2%, Candiplus® with 0.3%, Candiplus® with 0.4%) to 1% clotrimazole vaginal cream.\n\nPatients with acute episode of vulvovaginal candidiasis (VVC) will be randomized to receive a daily dose of either 5 ml (intravaginal) of Candiplus® at three different doses for ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01335373",
+            "title": "Observational Program Neo-Penotran® Forte",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 13024,
+            "start_date": "2010-10",
+            "completion_date": "2015-04",
+            "brief_summary": "Vaginitis is the most common gynecologic diagnosis in the primary care setting. In approximately 90 percent of affected women, this condition occurs secondary to bacterial vaginosis, vulvovaginal candidiasis, trichomoniasis or mixed infection.\n\nNeo-Penotran Forte is registered for treatment of these most common vaginal infections. Efficacy and safety of this product is already established, and this observational study was designed to learn more about practical use of Neo-Penotran® Forte in real ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24863842",
+            "title": "Clotrimazole as a pharmaceutical: past, present and future.",
+            "authors": [
+              "Crowley P D",
+              "Gallagher H C"
+            ],
+            "journal": "Journal of applied microbiology",
+            "year": "2014",
+            "abstract": "Clotrimazole is a broad-spectrum antimycotic drug mainly used for the treatment of Candida albicans and other fungal infections. A synthetic, azole antimycotic, clotrimazole is widely used as a topical treatment for tinea pedis (athlete's foot), as well as vulvovaginal and oropharyngeal candidiasis. It displays fungistatic antimycotic activity by targeting the biosynthesis of ergosterol, thereby inhibiting fungal growth. As well as its antimycotic activity, clotrimazole has become a drug of inte",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21774671",
+            "title": "Boric acid for recurrent vulvovaginal candidiasis: the clinical evidence.",
+            "authors": [
+              "Iavazzo Christos",
+              "Gkegkes Ioannis D",
+              "Zarkada Ioanna M",
+              "Falagas Matthew E"
+            ],
+            "journal": "Journal of women's health (2002)",
+            "year": "2011",
+            "abstract": "Recurrent vulvovaginal candidiasis (VVC) remains a challenge to manage in clinical practice. Recent epidemiologic studies indicate that non-albicans Candida spp. are more resistant to conventional antifungal treatment with azoles and are considered as causative pathogens of vulvovaginal candidiasis.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11363911",
+            "title": "Candidiasis.",
+            "authors": [
+              "Powderly W G"
+            ],
+            "journal": "Journal of the International Association of Physicians in AIDS Care",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41765149",
+            "title": "Candida Vulvovaginitis Treatment: A Comparative Clinical Trial of Clotrimazole and Prangos Ferulacea (Jashir) Vaginal Creams.",
+            "authors": [
+              "Ghiasi Leila",
+              "Goudarzi Fatemeh",
+              "Sadeghi Hossein",
+              "Gharaghani Maral",
+              "Hekmatzadeh Seyedeh Fatemeh"
+            ],
+            "journal": "Complementary therapies in medicine",
+            "year": "2026",
+            "abstract": "This investigation was conducted to evaluate and compare the therapeutic effectiveness of Prangos ferulacea vaginal cream with clotrimazole vaginal cream in improving clinical manifestations and laboratory outcomes of vulvovaginal candidiasis.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30565745",
+            "title": "Randomised clinical trial in women with Recurrent Vulvovaginal Candidiasis: Efficacy of probiotics and lactoferrin as maintenance treatment.",
+            "authors": [
+              "Russo Rosario",
+              "Superti Fabiana",
+              "Karadja Eugen",
+              "De Seta Francesco"
+            ],
+            "journal": "Mycoses",
+            "year": "2019",
+            "abstract": "Vulvovaginal candidiasis (VVC) is a recurrent vaginal condition in childbearing women.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27265075",
+            "title": "Skin infections in pregnancy.",
+            "authors": [
+              "Müllegger Robert R",
+              "Häring Nina S",
+              "Glatz Martin"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2016",
+            "abstract": "A wide array of infectious diseases can occur in pregnancy. Their acquisition, clinical presentation, and course during gestation may be altered due to an impairment of the maternal cellular immunity. Some infectious diseases can lead to serious consequences for the mother or the offspring, including congenital malformations. This review describes in detail the clinical presentation, course, management, and associated maternal and fetal risks of selected viral (varicella-zoster virus infections,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2644595",
+            "title": "Clotrimazole treatment of recurrent and chronic candida vulvovaginitis.",
+            "authors": [
+              "Sobel J D",
+              "Schmitt C",
+              "Meriwether C"
+            ],
+            "journal": "Obstetrics and gynecology",
+            "year": "1989",
+            "abstract": "The management of women with recurrent and chronic vulvovaginal candidiasis continues to present a therapeutic challenge. In a prospective double-blind randomized study of 42 women with recurrent candidal vaginitis, clotrimazole 500-mg vaginal suppositories, administered once weekly for 2 weeks, induced clinical remission in 38 patients (90.4%) and achieved mycologic negative status in 83% of subjects. Thereafter, asymptomatic patients were randomized to receive monthly prophylactic vaginal tabl",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25976001",
+            "title": "Antifungal activity of clotrimazole against Candida albicans depends on carbon sources, growth phase and morphology.",
+            "authors": [
+              "Kasper Lydia",
+              "Miramón Pedro",
+              "Jablonowski Nadja",
+              "Wisgott Stephanie",
+              "Wilson Duncan"
+            ],
+            "journal": "Journal of medical microbiology",
+            "year": "2015",
+            "abstract": "Vulvovaginal candidiasis, a superficial infection caused predominantly by the pathogenic fungus Candida albicans, is frequently treated with clotrimazole. Some drug formulations contain lactate for improved solubility. Lactate may modify C. albicans physiology and drug sensitivity by serving as a carbon source for the fungus and/or affecting local pH. Here, we explored the effects of lactate, in combination with pH changes, on C. albicans proliferation, morphology and clotrimazole sensitivity. M",
+            "classification": {
+              "study_type": "In vitro/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39824974",
+            "title": "Comparing the effects of Mycozin and Clotrimazole 1% creams on vaginal candidiasis: a triple-blinded randomized controlled trial.",
+            "authors": [
+              "Hajizadeh Khadije",
+              "Alivand Zahra",
+              "Rahmani Vahideh",
+              "Mehrannia Leila",
+              "Nami Sanam"
+            ],
+            "journal": "Scientific reports",
+            "year": "2025",
+            "abstract": "Clotrimazole 1% and Mycozin vaginal cream have been reported to be effective in relieving the symptoms of vulvovaginitis caused by Candida. The resistance to azole compounds, and the side effects of chemical drugs have been reported following azole therapy. It was hypothesized that Mycozin is at least as effective as Clotrimazole in treating vaginal candidiasis. This equivalent, triple-blinded, randomized clinical trial was conducted on 126 patients who complained of vaginal itching referred to ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3895960",
+            "title": "Efficacy and tolerability of single-dose versus six-day treatment of candidal vulvovaginitis with vaginal tablets of clotrimazole.",
+            "authors": [
+              "Loendersloot E W",
+              "Goormans E",
+              "Wiesenhaan P E",
+              "Barthel P J",
+              "Branolte J H"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1985",
+            "abstract": "One hundred ninety-nine female patients with candidal vulvovaginitis were included in an open, randomized, mycologically controlled study carried out at three Dutch gynecologic clinics to determine the efficacy and tolerability of a single vaginal tablet containing 500 mg clotrimazole in comparison with a 6-day treatment with vaginal tablets containing 100 mg clotrimazole. Both groups were comparable in age, body weight, and duration and severity of the infection, and in both groups the percenta",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39419780",
+            "title": "Clotrimazole-induced shifts in vaginal bacteriome and lipid metabolism: insights into recovery mechanisms in vulvovaginal candidiasis.",
+            "authors": [
+              "Wang Jingjing",
+              "Pu Xiaowen",
+              "Gu Zhengrong"
+            ],
+            "journal": "Journal of applied microbiology",
+            "year": "2024",
+            "abstract": "Vulvovaginal candidiasis (VVC) is a prevalent condition affecting a significant proportion of women worldwide, with recurrent episodes leading to detrimental effects on quality of life. While treatment with clotrimazole is common, the specific alterations it evokes in the vaginal bacteriome and metabolome were previously underexplored.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31106557",
+            "title": "Combined systemic (fluconazole) and topical (metronidazole + clotrimazole) therapy for a new approach to the treatment and prophylaxis of recurrent candidiasis.",
+            "authors": [
+              "Genovese Carlo",
+              "Cianci Antonio",
+              "Corsello Salvatore",
+              "Ettore Giuseppe",
+              "Mattana Paolo"
+            ],
+            "journal": "Minerva ginecologica",
+            "year": "2019",
+            "abstract": "Recurrent vulvovaginal candidiasis (RVVC) is an important pathological and infectious condition that can greatly impact a woman's health and quality of life. Clinical and epidemiological studies show that different types of therapies are able to eliminate the signs and symptoms of mycotic vaginitis in the acute phase, but so far none of these has proved able to significantly reduce the risk of long-term recurrence. In this review, based on the available literature and original data from a prelim",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16047929",
+            "title": "[\"Mixed\" and \"miscellaneous\" vulvovaginitis: diagnostics and therapy of vaginal administration of nystatin and nifuratel].",
+            "authors": [
+              "Cepický P",
+              "Malina J",
+              "Líbalová Z",
+              "Kuzelová M"
+            ],
+            "journal": "Ceska gynekologie",
+            "year": "2005",
+            "abstract": "The evaluation of combined and miscellaneous vulvovaginal infections incidence and their treatment with combined vaginal products containing nifuratel and nystatin.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7482105",
+            "title": "Comparative study of fluconazole and clotrimazole for the treatment of vulvovaginal candidiasis.",
+            "authors": [
+              "O-Prasertsawat P",
+              "Bourlert A"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1995",
+            "abstract": "The introduction of the triazole antifungal agent fluconazole, which can be used via an oral route and single dose, has had a significant impact on patient compliance.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40860867",
+            "title": "Knowledge and usage patterns of clotrimazole vaginal cream and tablet amongst females: a cross-sectional study.",
+            "authors": [
+              "Adigwe Obi Peter",
+              "Onavbavba Godspower",
+              "Okeke Chiamaka Frances"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2025",
+            "abstract": "Clotrimazole is a broad-spectrum antimycotic agent that is primarily used to treat yeast and other fungal infections. Considering the limited number of medicines available for the treatment of vulvovaginal candidiasis, indiscriminate use of clotrimazole is rapidly emerging as a critical health issue. In Nigeria, where clotrimazole can be obtained without a prescription, there are public health concerns regarding the potential for antimicrobial resistance. This study therefore aimed to assess the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31879636",
+            "title": "The effect of curcumin-based and clotrimazole vaginal cream in the treatment of vulvovaginal candidiasis.",
+            "authors": [
+              "Abouali Nilufar",
+              "Moghimipour Eskandar",
+              "Mahmoudabadi Ali Zarei",
+              "Namjouyan Foroogh",
+              "Abbaspoor Zahra"
+            ],
+            "journal": "Journal of family medicine and primary care",
+            "year": "2019",
+            "abstract": "Vulvovaginal candidiasis (VVC) is the second most common infection of the lower female genital among women passing through their productive age. Furthermore, Candida albicans is the most common VVC agents followed by, non-albicans Candida species. Nowadays, extensive studies are being conducted on alternative therapies and the use of herbal medicines.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34104249",
+            "title": "Chlorhexidine, clotrimazole, metronidazole and combination therapy in the treatment of vaginal infections.",
+            "authors": [
+              "Mirzaeei Shahla",
+              "Zangeneh Maryam",
+              "Veisi Firoozeh",
+              "Parsa Somayeh",
+              "Hematti Maryam"
+            ],
+            "journal": "Journal of medicine and life",
+            "year": "2021",
+            "abstract": "This was a clinical trial study that aimed to investigate the efficacy of vaginal chlorhexidine gel in the treatment of vulvovaginal candidiasis, bacterial vaginosis, and nonspecific vaginitis. The study population included patients who complained of vaginal discharge and presented to our University Gynecology Clinic. The data were analyzed using the Statistical Package for the Social Sciences (SPSS) software. The student t-test and Mann-Whitney U test were used to analyze the quantitative and o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6329405",
+            "title": "Single blind comparison of ketoconazole 200 mg oral tablets and clotrimazole 100 mg vaginal tablets and 1% cream in treating acute vaginal candidosis.",
+            "authors": [
+              "Bingham J S"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1984",
+            "abstract": "A single blind study of 103 women with vaginal candidosis was undertaken to compare treatment with conventional topical clotrimazole and oral ketoconazole. Both treatment regimens were equally effective in terms of clinical symptoms, negative results on culture for Candida albicans, and relapse rates. As treatment for vaginal candidosis takes several days, patient compliance is important and the success of a treatment regimen may depend on its acceptability to patients. Those in this study who h",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38579182",
+            "title": "Enhanced Solubility and Bioavailability of Clotrimazole in Aqueous Solutions with Hydrophobized Hyperbranched Polyglycidol for Improved Antifungal Activity.",
+            "authors": [
+              "Jaworska-Krych Daria",
+              "Gosecka Monika",
+              "Gosecki Mateusz",
+              "Urbaniak Malgorzata",
+              "Dzitko Katarzyna"
+            ],
+            "journal": "ACS applied materials & interfaces",
+            "year": "2024",
+            "abstract": "The poor solubility of clotrimazole in the aqueous medium and the uncontrolled removal of the drug-loaded suppository content limit its effectiveness in the treatment of vulvovaginal candidiasis. We present here the aqueous formulations of clotrimazole in the form of non-Newtonian structured fluids, i.e., Bingham plastic or pseudoplastic fluids constructed of hyperbranched polyglycidol, HbPGL, with a hydrophobized core with aryl groups such as phenyl or biphenyl. The amphiphilic constructs were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40464716",
+            "title": "The future of non-invasive azole antifungal treatment options for the management of vulvovaginal candidiasis.",
+            "authors": [
+              "Quindós Guillermo",
+              "Marcos-Arias Cristina",
+              "Miranda-Cadena Katherine",
+              "Sevillano Elena",
+              "Jauregizar Nerea"
+            ],
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2025",
+            "abstract": "High worldwide prevalence and significant morbidity of vulvovaginal candidiasis (VVC) requires better therapeutic approaches to improve quality of life of affected women. Although treatment of acute episodes is often straightforward, complicated and recurrent vulvovaginal candidiasis (RVVC) presents medical challenges.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clotrimazole 為外陰陰道念珠菌病（Candidal Vulvovaginitis, VVC）的標準治療藥物之一。透過抑制 CYP51 破壞 Candida albicans 細胞膜，臨床療效已有多個 Phase 3 RCT 直接驗證。注意：對細菌性陰道炎（BV）和滴蟲性陰道炎療效有限，須區分病原體。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "postmenopausal atrophic vaginitis",
+      "txgnn": {
+        "score": 0.9945921301841736,
+        "rank": 6831
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04292704",
+            "title": "The Role of Fractional CO2 Laser in Consolidation Treatment of Recurrent Vulvovaginal Candidiasis (RVVC) ：a Study Protocol for a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 205,
+            "start_date": "2019-12-13",
+            "completion_date": "2022-05",
+            "brief_summary": "Background: Recurrent vulvovaginal candidiasis (RVVC) is a common obstinate vulvovaginal inflammation in gynecology. At present, the pathogenesis of RVVC is not clear. In recent years, it is emphasized that the changes of vaginal microecological environment play an important role in the occurrence and development of RVVC. The treatment of RVVC can be divided into intensive treatment and consolidation treatment. Currently, local antifungal treatment is the main treatment regimen. While it is diff",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究主題為 CO2 雷射治療復發性 VVC，非萎縮性陰道炎，且為 NA phase、UNKNOWN 狀態；與本適應症無直接關聯，可能為資料庫關聯錯誤。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "停經後萎縮性陰道炎主因為雌激素缺乏導致陰道上皮萎縮，非真菌感染所致。Clotrimazole 無雌激素活性，無法處理核心病理機轉。唯一可能適應：若患者同時合併念珠菌感染，但此為合併症治療而非萎縮性陰道炎本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "trichomonal vulvovaginitis",
+      "txgnn": {
+        "score": 0.9898814558982848,
+        "rank": 10619
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01230814",
+            "title": "A Double-Blind, Randomized Trial of Monthly Treatment With Topical Metronidazole and Miconazole Co-formulated Vaginal Suppositories Versus Placebo for Preventing Vaginal Infections in HIV-seronegative Women",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 234,
+            "start_date": "2011-04",
+            "completion_date": "2013-08",
+            "brief_summary": "This research study is about vaginal infections such as bacterial vaginosis, yeast infections, and trichomoniasis. Usually, these infections can be treated with medication, but sometimes they come back after treatment. Researchers want to know if using vaginal suppositories can decrease the risk of vaginal infections. Participants will include 234 women who are sexually active (greater than or equal to 4 episodes of sex with men during the past month), HIV-negative, 18 to 45 years old, with bact",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，n=234，含混合感染（包含滴蟲）的 Metronidazole+Miconazole 研究，Clotrimazole 未直接研究但同類機轉提供佐證。"
+            }
+          },
+          {
+            "nct_id": "NCT00313131",
+            "title": "A Randomised Controlled Trial of Single Dose Tinidazole+Fluconazole Versus Longer Courses of Metronidazole+Clotrimazole in the Management of West African Women With Vaginal Discharge",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1524,
+            "start_date": "2004-01",
+            "completion_date": "2005-05",
+            "brief_summary": "This randomised controlled trial aimed to verify whether directly observed single dose treatment (with tinidazole+fluconazole) would be as effective as the longer standard treatments (metronidazole for 7 days, plus vaginal clotrimazole for 3 days) in the syndromic management of women presenting with vaginal discharge in primary health care centers of Ghana, Togo, Guinea and Mali. It was designed as an effectiveness trial, i.e. it was done under conditions typical of routine work in these health ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 COMPLETED，n=1524，大型試驗涵蓋滴蟲性陰道炎但主角為 Tinidazole+Fluconazole vs Metronidazole，Clotrimazole 非介入藥物，間接提供背景數據。"
+            }
+          },
+          {
+            "nct_id": "NCT04292704",
+            "title": "The Role of Fractional CO2 Laser in Consolidation Treatment of Recurrent Vulvovaginal Candidiasis (RVVC) ：a Study Protocol for a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 205,
+            "start_date": "2019-12-13",
+            "completion_date": "2022-05",
+            "brief_summary": "Background: Recurrent vulvovaginal candidiasis (RVVC) is a common obstinate vulvovaginal inflammation in gynecology. At present, the pathogenesis of RVVC is not clear. In recent years, it is emphasized that the changes of vaginal microecological environment play an important role in the occurrence and development of RVVC. The treatment of RVVC can be divided into intensive treatment and consolidation treatment. Currently, local antifungal treatment is the main treatment regimen. While it is diff",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "CO2 雷射研究，與 Clotrimazole 治療滴蟲性陰道炎無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT01335373",
+            "title": "Observational Program Neo-Penotran® Forte",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 13024,
+            "start_date": "2010-10",
+            "completion_date": "2015-04",
+            "brief_summary": "Vaginitis is the most common gynecologic diagnosis in the primary care setting. In approximately 90 percent of affected women, this condition occurs secondary to bacterial vaginosis, vulvovaginal candidiasis, trichomoniasis or mixed infection.\n\nNeo-Penotran Forte is registered for treatment of these most common vaginal infections. Efficacy and safety of this product is already established, and this observational study was designed to learn more about practical use of Neo-Penotran® Forte in real ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性研究（N/A phase），n=13024，研究 Neo-Penotran（Metronidazole+Miconazole），Clotrimazole 非研究藥物，相關性低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16047929",
+            "title": "[\"Mixed\" and \"miscellaneous\" vulvovaginitis: diagnostics and therapy of vaginal administration of nystatin and nifuratel].",
+            "authors": [
+              "Cepický P",
+              "Malina J",
+              "Líbalová Z",
+              "Kuzelová M"
+            ],
+            "journal": "Ceska gynekologie",
+            "year": "2005",
+            "abstract": "The evaluation of combined and miscellaneous vulvovaginal infections incidence and their treatment with combined vaginal products containing nifuratel and nystatin.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10470518",
+            "title": "Vulvovaginitis in healthy women.",
+            "authors": [
+              "Sobel J D"
+            ],
+            "journal": "Comprehensive therapy",
+            "year": "1999",
+            "abstract": "Vulvovaginal symptoms are extremely common and result in millions of visits to practitioners' offices, STD clinics and emergency rooms. Vaginal infections or infectious vaginitis is responsible for only a minority of symptoms and is readily diagnosed. Epidemiology, diagnosis and therapy of vaginitis is reviewed.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18840006",
+            "title": "Topical fenticonazole in dermatology and gynaecology: current role in therapy.",
+            "authors": [
+              "Veraldi Stefano",
+              "Milani Rodolfo"
+            ],
+            "journal": "Drugs",
+            "year": "2008",
+            "abstract": "Fenticonazole is an imidazole derivative with a broad spectrum of antimycotic activity against dermatophytes and yeasts in in vitro and clinical studies. Fenticonazole exerts its unique antimycotic mechanism of action in the following three ways: (i) inhibition of the secretion of protease acid by Candida albicans; (ii) damage to the cytoplasmic membrane; and (iii) by blocking cytochrome oxidases and peroxidises. Fenticonazole has also been shown to exhibit antibacterial action, with a spectrum ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23566144",
+            "title": "Sertaconazole: an antifungal agent for the topical treatment of superficial candidiasis.",
+            "authors": [
+              "Carrillo-Muñoz Alfonso Javier",
+              "Tur-Tur Cristina",
+              "Giusiano Gustavo",
+              "Marcos-Arias Cristina",
+              "Eraso Elena"
+            ],
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2013",
+            "abstract": "Sertaconazole is a useful antifungal agent against mycoses of the skin and mucosa, such as cutaneous, genital and oral candidiasis and tinea pedis. Its antifungal activity is due to inhibition of the ergosterol biosynthesis and disruption of the cell wall. At higher concentrations, sertaconazole is able to bind to nonsterol lipids of the fungal cell wall, increasing the permeability and the subsequent death of fungal cells. Fungistatic and fungicidal activities on Candida are dose-dependent. The",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3510114",
+            "title": "Tioconazole. A review of its antimicrobial activity and therapeutic use in superficial mycoses.",
+            "authors": [
+              "Clissold S P",
+              "Heel R C"
+            ],
+            "journal": "Drugs",
+            "year": "1986",
+            "abstract": "Tioconazole is a substituted imidazole antimicrobial agent structurally related to other drugs in this group. It has been shown to have a broad spectrum of activity in vitro against dermatophytes and yeasts, as well as against some chlamydia, trichomonads and Gram-positive bacteria. Both open and controlled clinical trials have clearly demonstrated the efficacy and safety of topical preparations of tioconazole for treating superficial dermatophyte or yeast infections of the skin and vaginal cand",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4619466",
+            "title": "The incidence of vaginal candida and trichomonas infections and treatment of trichomonas vaginitis with clotrimazole.",
+            "authors": [
+              "Schnell J D"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7971615",
+            "title": "Infectious vaginitis. Selecting therapy and preventing recurrence.",
+            "authors": [
+              "Goode M A",
+              "Grauer K",
+              "Gums J G"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "1994",
+            "abstract": "Vaginal candidiasis, trichomoniasis, and bacterial vaginosis can be difficult to manage because of predisposing factors and frequent recurrence. Thus, in addition to drug therapy, management should include attempts to minimize factors that contribute to recurrence. Both topical and oral agents are available for vaginal candidiasis and bacterial vaginosis, and both routes of administration appear equally safe and effective. Topical therapy may be used for these conditions in pregnant women. Only ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7330756",
+            "title": "Current therapy of vulvovaginitis.",
+            "authors": [
+              "Rein M F"
+            ],
+            "journal": "Sexually transmitted diseases",
+            "year": "1981",
+            "abstract": "Trichomoniasis is reliably treated with a single 2-g dose of metronidazole; however, with this regimen simultaneous treatment of sexual partners is particularly important. Trichomoniasis in pregnant women, who should not receive metronidazole, might be treated initially with clotrimazole vaginal suppositories, which appear to cure about 50% of cases. Topical antifungal agents of the imidazole class are superior to polyenes in treating vulvovaginal candidiasis. Boric acid powder applied intravagi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4619467",
+            "title": "The treatment of trichomonas and candida vaginitis with clotrimazole vaginal tablets.",
+            "authors": [
+              "Legal H P"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "799324",
+            "title": "[Experience with clotrimazole in the treatment of trichomoniasis and vaginal candiasis].",
+            "authors": [
+              "Saumann A",
+              "Riedemann R",
+              "Parra M",
+              "Pinto M E",
+              "Gostin L"
+            ],
+            "journal": "Revista chilena de obstetricia y ginecologia",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4849985",
+            "title": "[Therapy of combined vaginal infections with Trichomonas vaginalis and Blastomycetes. A controlled double-blind comparison of Metronidazole and Clotrimazole].",
+            "authors": [
+              "Schnell J D",
+              "Rüther C"
+            ],
+            "journal": "Geburtshilfe und Frauenheilkunde",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11486720",
+            "title": "Evaluation of two self-care treatments for prevention of vaginal candidiasis in women with HIV.",
+            "authors": [
+              "Williams A B",
+              "Yu C",
+              "Tashima K",
+              "Burgess J",
+              "Danvers K"
+            ],
+            "journal": "The Journal of the Association of Nurses in AIDS Care : JANAC",
+            "year": "2001",
+            "abstract": "Vaginal candidiasis (VC) is a common concern for women living with HIV infection. The authors evaluated the effectiveness of two self-care approaches to prophylaxis of VC among HIV-infected women, weekly intravaginal application of Lactobacillus acidophilus or weekly intravaginal application of clotrimazole tablets, in a randomized, double-blind, placebo-controlled trial. VC was defined as a vaginal swab positive for Candida species in the presence of signs/symptoms of vaginitis and the absence ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12404886",
+            "title": "Antimicrobial activity of dequalinium chloride against leading germs of vaginal infections.",
+            "authors": [
+              "Della Casa Vera",
+              "Noll Harald",
+              "Gonser Susanne",
+              "Grob Philipp",
+              "Graf Federico"
+            ],
+            "journal": "Arzneimittel-Forschung",
+            "year": "2002",
+            "abstract": "Dequalinium chloride (CAS 522-51-0) and povidone iodine (CAS 25655-41-8) are known as antiseptic agents and used in the local treatment of vaginal infections. Clotrimazole (CAS 23593-75-1) is an anti-fungal drug and applied primarily in the therapy of vulvo-vaginal candidiasis and to a lesser extent in bacterial vaginosis and trichomoniasis. However, antimicrobial activities of those three agents in comparison to each other have not been reported so far. To address this issue the antimicrobial a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3042226",
+            "title": "The treatment of vaginitis: Trichomonas, yeast, and bacterial vaginosis.",
+            "authors": [
+              "Landers D V"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "1988",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6493579",
+            "title": "[Comparative activity of clotrimazole and nifuratel plus nystatin in vaginal infections of various etiologies].",
+            "authors": [
+              "Nencioni T",
+              "Tuveri E",
+              "Olgiati M L",
+              "Faravelli M",
+              "Salvini P"
+            ],
+            "journal": "Minerva ginecologica",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17128343",
+            "title": "The syndromic management of vaginal discharge using single-dose treatments: a randomized controlled trial in West Africa.",
+            "authors": [
+              "Pépin Jacques",
+              "Sobela François",
+              "Khonde Nzambi",
+              "Agyarko-Poku Thomas",
+              "Diakité Soumaila"
+            ],
+            "journal": "Bulletin of the World Health Organization",
+            "year": "2006",
+            "abstract": "To evaluate whether single-dose treatments are as effective as standard therapy in the syndromic management of vaginal discharge.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "427516",
+            "title": "Current approaches to the diagnosis, treatment, and reporting of trichomoniasis and candidosis.",
+            "authors": [
+              "O'Connor B H",
+              "Adler M W"
+            ],
+            "journal": "The British journal of venereal diseases",
+            "year": "1979",
+            "abstract": "The current approach to the management of trichomoniasis and candidosis in sexually transmitted disease (STD) clinics in England and Wales is described. Microscopy alone was used in the diagnosis of trichomoniasis in 44% of clinics and of candidosis in 35% of clinics. Oral metronidazole was used for the treatment of trichomoniasis in women in 92% of clinics. Vaginal pessaries containing nystatin or clotrimazole were routinely used to treat candidosis in 95% of clinics. Male sexual contacts of fe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4463457",
+            "title": "[Value of clotrimazole (BAY B 5097 or Canesten) as an antimycotic, antiprotozoal and antibacterial agent in vulvo-vaginal inflammations].",
+            "authors": [
+              "Facchini V"
+            ],
+            "journal": "Rivista italiana di ginecologia",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "950950",
+            "title": "Gyne-lotrimin for vaginal infections.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4619465",
+            "title": "Treatment of candidiasis and trichomoniasis of the female genital tract.",
+            "authors": [
+              "Lohmeyer H"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clotrimazole 對陰道毛滴蟲（Trichomonas vaginalis）具有一定活性，可能透過干擾原蟲細胞膜固醇代謝發揮作用，但機轉尚未完全闡明。1970年代臨床數據顯示有效，但現今標準治療為 Metronidazole/Tinidazole（5-硝基咪唑類），Clotrimazole 通常作為 Metronidazole 不耐受或難治性病例的替代選項。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "tinea profunda",
+      "txgnn": {
+        "score": 0.9876177906990052,
+        "rank": 12341
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39106217",
+            "title": "Trichophyton erinacei infection in humans: a case report and a literature review.",
+            "authors": [
+              "Cammarata Edoardo",
+              "Cristo Nunzia Di",
+              "Airoldi Chiara",
+              "Veronese Federica",
+              "Esposto Elia"
+            ],
+            "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+            "year": "2024",
+            "abstract": "Trichophyton (T.) erinacei is a rare but emerging zoonotic dermatophyte that is rarely isolated as a human pathogen, with only a few cases extensively described in the literature.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23518026",
+            "title": "Trichophyton Schoenleinii-induced widespread tinea corporis mimicking parapsoriasis.",
+            "authors": [
+              "Mansouri P",
+              "Farshi S",
+              "Khosravi A R",
+              "Naraghi Z S",
+              "Chalangari R"
+            ],
+            "journal": "Journal de mycologie medicale",
+            "year": "2012",
+            "abstract": "We report a case of extensive tinea corporis in an 80-year-old woman on her forearms, thighs, legs, buttocks and trunk, mimicking parapsoriasis due to Trichophyton schoenleinii, without scalp involvement. Diagnosis of Trichophyton schoenleinii was confirmed by microscopy and mycological culture specimens.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1433223",
+            "title": "Isobenzofurans as conformationally constrained miconazole analogues with improved antifungal potency.",
+            "authors": [
+              "Lovey R G",
+              "Elliott A J",
+              "Kaminski J J",
+              "Loebenberg D",
+              "Parmegiani R M"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "1992",
+            "abstract": "A series of halogen-substituted isobenzofuran analogues was synthesized, which represented conformationally constrained analogues of miconazole (1). In vitro and in vivo topical antifungal activity against both dermatophytes and Candida species varied widely, but 13c proved to be significantly superior to both 1 and clotrimazole against a vaginal Candida infection in hamsters, while 13b was significantly more active than 1 against a a topical Trichophyton infection in guinea pigs. None of the co",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24794211",
+            "title": "[Evaluation of the in vitro susceptibility pattern of clinical isolates of Trichophyton mentagrophytes and Trichophyton rubrum in Santiago, Chile].",
+            "authors": [
+              "Díaz Jarabrán María Cristina",
+              "Díaz González Pablo",
+              "Espinoza Rodríguez José",
+              "Carrillo Muñoz Alfonso Javier"
+            ],
+            "journal": "Revista iberoamericana de micologia",
+            "year": "2015",
+            "abstract": "Dermatophytes are a group of keratinophilic fungi able to produce dermatophytosis or tinea infections. In Chile, Trichophyton rubrum and Trichophyton mentagrophytes are the ones most commonly isolated in adults, while Microsporum canis is found among children. Treatment of these infections is usually with topical or oral antifungals, such as griseofulvin or azole derivatives (clotrimazole, itraconazole, fluconazole), allylamines (terbinafine) or new drugs that are available.",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clotrimazole 為局部外用抗真菌藥，對淺表皮膚真菌有效，但 Tinea profunda（深部皮真菌病，累及毛囊深層和真皮）需要具有組織穿透力的系統性抗真菌藥（如 Terbinafine、Itraconazole）。外用 Clotrimazole 的組織滲透深度不足以處理深部感染灶。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "ectothrix infectious disease",
+      "txgnn": {
+        "score": 0.9873927235603333,
+        "rank": 12548
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ectothrix 型感染為皮癬菌在毛幹外側的感染形式（如 Microsporum 屬），理論上 Clotrimazole 的抗皮癬菌活性可抑制此類病原體，但頭皮毛囊深層感染通常需要系統性藥物。體外活性不等同於臨床療效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Majocchi granuloma",
+      "txgnn": {
+        "score": 0.9873927235603333,
+        "rank": 12547
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39106217",
+            "title": "Trichophyton erinacei infection in humans: a case report and a literature review.",
+            "authors": [
+              "Cammarata Edoardo",
+              "Cristo Nunzia Di",
+              "Airoldi Chiara",
+              "Veronese Federica",
+              "Esposto Elia"
+            ],
+            "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+            "year": "2024",
+            "abstract": "Trichophyton (T.) erinacei is a rare but emerging zoonotic dermatophyte that is rarely isolated as a human pathogen, with only a few cases extensively described in the literature.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23518026",
+            "title": "Trichophyton Schoenleinii-induced widespread tinea corporis mimicking parapsoriasis.",
+            "authors": [
+              "Mansouri P",
+              "Farshi S",
+              "Khosravi A R",
+              "Naraghi Z S",
+              "Chalangari R"
+            ],
+            "journal": "Journal de mycologie medicale",
+            "year": "2012",
+            "abstract": "We report a case of extensive tinea corporis in an 80-year-old woman on her forearms, thighs, legs, buttocks and trunk, mimicking parapsoriasis due to Trichophyton schoenleinii, without scalp involvement. Diagnosis of Trichophyton schoenleinii was confirmed by microscopy and mycological culture specimens.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1433223",
+            "title": "Isobenzofurans as conformationally constrained miconazole analogues with improved antifungal potency.",
+            "authors": [
+              "Lovey R G",
+              "Elliott A J",
+              "Kaminski J J",
+              "Loebenberg D",
+              "Parmegiani R M"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "1992",
+            "abstract": "A series of halogen-substituted isobenzofuran analogues was synthesized, which represented conformationally constrained analogues of miconazole (1). In vitro and in vivo topical antifungal activity against both dermatophytes and Candida species varied widely, but 13c proved to be significantly superior to both 1 and clotrimazole against a vaginal Candida infection in hamsters, while 13b was significantly more active than 1 against a a topical Trichophyton infection in guinea pigs. None of the co",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24794211",
+            "title": "[Evaluation of the in vitro susceptibility pattern of clinical isolates of Trichophyton mentagrophytes and Trichophyton rubrum in Santiago, Chile].",
+            "authors": [
+              "Díaz Jarabrán María Cristina",
+              "Díaz González Pablo",
+              "Espinoza Rodríguez José",
+              "Carrillo Muñoz Alfonso Javier"
+            ],
+            "journal": "Revista iberoamericana de micologia",
+            "year": "2015",
+            "abstract": "Dermatophytes are a group of keratinophilic fungi able to produce dermatophytosis or tinea infections. In Chile, Trichophyton rubrum and Trichophyton mentagrophytes are the ones most commonly isolated in adults, while Microsporum canis is found among children. Treatment of these infections is usually with topical or oral antifungals, such as griseofulvin or azole derivatives (clotrimazole, itraconazole, fluconazole), allylamines (terbinafine) or new drugs that are available.",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Majocchi 肉芽腫為毛囊周圍肉芽腫性皮癬菌感染，常見於免疫抑制患者。Clotrimazole 為外用藥，缺乏穿透至毛囊深層及真皮的能力，且肉芽腫型反應需要系統性抗真菌治療（Itraconazole 或 Terbinafine）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "endothrix infectious disease",
+      "txgnn": {
+        "score": 0.986535370349884,
+        "rank": 13200
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Endothrix 型感染（如 Trichophyton tonsurans 引起的頭癬）為毛幹內侵犯，即使 Clotrimazole 對病原體具體外活性，外用製劑無法達到毛幹內部的治療濃度，系統性藥物（Griseofulvin、Terbinafine）為標準治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "superficial mycosis",
+      "txgnn": {
+        "score": 0.9862449765205384,
+        "rank": 13409
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01547221",
+            "title": "Effectiveness of 3% Boric Acid in 70% Alcohol Versus 1% Clotrimazole Solution in Otomycosis Patients: a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2012-03",
+            "completion_date": "2015-04",
+            "brief_summary": "Otomycosis is a superficial fungal infection of the external ear canal. Patients should be treated with cleaning fungal debris combined with topical antifungal agent. There is wide range of topical antifungal agents. However, there is still no consensus of the most effective topical antifungal agents in treatment otomycosis is still lacking.\n\nAccording to Thai National List of essential medicines for topical antifugal agents are:\n\n* acetic acid (2% in aqueous and 2% in 70% isopropyl alcohol)\n* b",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "NA phase（設計為隨機對照），COMPLETED，n=120，直接比較硼酸 vs Clotrimazole 1% 治療耳真菌病（Otomycosis），真實療效數據，高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT00835029",
+            "title": "Efficacy of Slow Release Clotrimazole Varnish Treating Denture Stomatitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 13,
+            "start_date": "2009-03",
+            "completion_date": "2012-02",
+            "brief_summary": "Background: Oral candidiasis is most frequently found among the elderly .It is accompanied with oral pain, irritation, burning sensation. In addition, the altered taste sensation may cause nutrition compromise, which may affect ones diet. Management of superficial oral Candida is usually achieved by treatment with clotrimazole, a fungi static drug which is given five times per day with instruction to slowly suck on it with out the dentures.\n\nWorking hypothesis and aims: Management of oral candid",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，緩釋 Clotrimazole 漆膜治療義齒性口炎（口腔念珠菌病），n=13 樣本數偏小但設計直接相關；驗證新劑型可行性。"
+            }
+          },
+          {
+            "nct_id": "NCT02039895",
+            "title": "Helical Irradiation of Total Skin (HITS) for Cutaneous Lymphoma",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 10,
+            "start_date": "2014-01",
+            "completion_date": "2017-12",
+            "brief_summary": "Radiation therapy, Total skin electron beam therapy (TSEBT), achieves a high response rate and is an effective treatment for cutaneous T-cell lymphoma affecting the superficial region. One the most widely used TSEBT techniques consists of six dual fields initially developed at Stanford University. However, deviations occur from the prescription dose up to 40% and the surface dose inhomogeneity as much as 90% in body areas such as the perineum and eyelid.\n\nHelical tomotherapy (HT) has advantages ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "全身皮膚螺旋照射治療皮膚淋巴瘤，與 Clotrimazole 治療表淺真菌無直接關聯，疑為資料庫誤配。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "778288",
+            "title": "Superficial mycoses.",
+            "authors": [
+              "Taplin D"
+            ],
+            "journal": "The Journal of investigative dermatology",
+            "year": "1976",
+            "abstract": "Twenty-five years ago many of the topical remedies for superficial mycoses were irritating, toxic, or allergenic. Total x-ray depilation of the scalp was the accepted mode of therapy for tinea capitis. The introduction of topical nystatin for candidiasis and tolnaftate for dermatophytosis were major advances, but tinea capitis, onychomycosis, and chronic tinea pedis still presented problems. Soon after its introduction in 1958, griseofulvin became the definitive form of therapy for all types of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2632381",
+            "title": "Comparative study of miconazole and clotrimazole in superficial mycosis.",
+            "authors": [
+              "Saha K C"
+            ],
+            "journal": "Indian journal of dermatology",
+            "year": "1989",
+            "abstract": "Two hundred cases of superficial mycosis (100 dermatophytosis, 40 candidiasis and 60 pityriasis versicolor) were studied for the comparative effect of miconazole and clotrimazole. The patients were evaluated both clinically and mycologically every 2 weeks for a period of 12 weeks. In dermatophytosis, miconazole showed accelerated response (75% cleared in 6 weeks) than clotrimazole (56%). In candidiasis, both were found to be effective (80-85%) cure though clotrimazole showed slightly earlier res",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25976001",
+            "title": "Antifungal activity of clotrimazole against Candida albicans depends on carbon sources, growth phase and morphology.",
+            "authors": [
+              "Kasper Lydia",
+              "Miramón Pedro",
+              "Jablonowski Nadja",
+              "Wisgott Stephanie",
+              "Wilson Duncan"
+            ],
+            "journal": "Journal of medical microbiology",
+            "year": "2015",
+            "abstract": "Vulvovaginal candidiasis, a superficial infection caused predominantly by the pathogenic fungus Candida albicans, is frequently treated with clotrimazole. Some drug formulations contain lactate for improved solubility. Lactate may modify C. albicans physiology and drug sensitivity by serving as a carbon source for the fungus and/or affecting local pH. Here, we explored the effects of lactate, in combination with pH changes, on C. albicans proliferation, morphology and clotrimazole sensitivity. M",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29953171",
+            "title": "Efficacy and Safety in 1% Clotrimazole Powder, Adjuvant Therapy in Patients with Superficial Fungal Cutaneous Infection in Intertriginous Areas.",
+            "authors": [
+              "Desomchoke Rasthawathana",
+              "Bunyaratavej Sumanas",
+              "Leeyaphan Charussri",
+              "Prasertworonun Nuntida",
+              "Rujitharanawong Chuda"
+            ],
+            "journal": "Journal of the Medical Association of Thailand = Chotmaihet thangphaet",
+            "year": "2016",
+            "abstract": "Superficial fungal cutaneous infection is commonly found in intertriginous area.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1379146",
+            "title": "Superficial fungal infections of the skin. Diagnosis and current treatment recommendations.",
+            "authors": [
+              "Rezabek G H",
+              "Friedman A D"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "Superficial fungal infections are common. Most diagnoses of fungal infections of the skin can be made by physical examination, assisted by the use of a Wood's lamp, skin scrapings for microscopic examination, and fungal cultures. Dermatophyte infections are common at all ages, in both sexes, and they have a worldwide distribution. These infections include tinea capitis, tinea cruris, tinea pedis, tinea corporis, tinea manuum and tinea barbae. Tinea versicolor, caused by Malassezia furfur, and ca",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19558428",
+            "title": "Study to compare the efficacy and safety of fluconazole cream with flutrimazole cream in the treatment of superficial mycosis: a multicentre, randomised, double-blind, phase III trial.",
+            "authors": [
+              "Yim S M",
+              "Ko J H",
+              "Lee Y W",
+              "Kim H W",
+              "Lee J Y"
+            ],
+            "journal": "Mycoses",
+            "year": "2010",
+            "abstract": "Fluconazole, which is a drug of the azole family, is safely used in systemic treatment of oral and intravenous injection, but it is difficult to use fluconazole as a topical application because of its large molecular weight and strong hydrophilic property. This study is a multicentre, double-blind, randomised, non-inferiority study to compare the antifungal effect and safety of fluconazole cream 0.5% and 1% with flutrimazole cream 1% in superficial mycosis. A total of 162 subjects selected to pa",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7319573",
+            "title": "Superficial mycoses and in vitro sensitivity of dermatophytes and Candida species to tolciclate and clotrimazole.",
+            "authors": [
+              "Jacob Z",
+              "Wahab S",
+              "Ghosh M",
+              "Srivastava O P"
+            ],
+            "journal": "The Indian journal of medical research",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3510114",
+            "title": "Tioconazole. A review of its antimicrobial activity and therapeutic use in superficial mycoses.",
+            "authors": [
+              "Clissold S P",
+              "Heel R C"
+            ],
+            "journal": "Drugs",
+            "year": "1986",
+            "abstract": "Tioconazole is a substituted imidazole antimicrobial agent structurally related to other drugs in this group. It has been shown to have a broad spectrum of activity in vitro against dermatophytes and yeasts, as well as against some chlamydia, trichomonads and Gram-positive bacteria. Both open and controlled clinical trials have clearly demonstrated the efficacy and safety of topical preparations of tioconazole for treating superficial dermatophyte or yeast infections of the skin and vaginal cand",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3281821",
+            "title": "Sulconazole. A review of its antimicrobial activity and therapeutic use in superficial dermatomycoses.",
+            "authors": [
+              "Benfield P",
+              "Clissold S P"
+            ],
+            "journal": "Drugs",
+            "year": "1988",
+            "abstract": "Sulconazole is a substituted imidazole antimicrobial agent structurally related to other drugs in this group. It possesses a broad spectrum of activity in vitro against dermatophytes, yeasts and some Gram-positive bacteria. The efficacy and safety of sulconazole 1% cream has been demonstrated in controlled clinical studies in patients with superficial dermatophyte or yeast infections. In these trials, sulconazole generally displayed similar efficacy to clotrimazole, econazole and miconazole, alt",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2670516",
+            "title": "Bifonazole. A review of its antimicrobial activity and therapeutic use in superficial mycoses.",
+            "authors": [
+              "Lackner T E",
+              "Clissold S P"
+            ],
+            "journal": "Drugs",
+            "year": "1989",
+            "abstract": "Bifonazole is a substituted imidazole antifungal agent structurally related to other drugs in this group. It possesses a broad spectrum of activity in vitro against dermatophytes, moulds, yeasts, dimorphic fungi and some Gram-positive bacteria. Both non-comparative and comparative clinical trials have clearly demonstrated the efficacy and safety of various formulations of bifonazole 1% (cream, gel, solution and powder) applied once daily in the treatment of superficial fungal infections of the s",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8536553",
+            "title": "Fluconazole. An update of its pharmacodynamic and pharmacokinetic properties and therapeutic use in major superficial and systemic mycoses in immunocompromised patients.",
+            "authors": [
+              "Goa K L",
+              "Barradell L B"
+            ],
+            "journal": "Drugs",
+            "year": "1995",
+            "abstract": "Fluconazole is a triazole antifungal agent which is now an established part of therapy in patients with immune deficiencies. It is effective against oropharyngeal/oesophageal candidiasis (candidosis) when used orally once daily either as treatment or secondary prophylaxis in patients with AIDS or as treatment or primary prophylaxis in neutropenia associated with cancer therapy. Fluconazole also resolves symptoms in up to 60% of patients with cryptococcal meningitis and AIDS. However, in this inf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "788971",
+            "title": "A clinical double-blind trial of topical miconazole and clotrimazole against superficial fungal infections and erythrasma.",
+            "authors": [
+              "Clayton Y M",
+              "Knight A G"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11362589",
+            "title": "Fungal infection overview.",
+            "authors": [],
+            "journal": "Treatment review",
+            "year": "1995",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8706596",
+            "title": "Itraconazole. A reappraisal of its pharmacological properties and therapeutic use in the management of superficial fungal infections.",
+            "authors": [
+              "Haria M",
+              "Bryson H M",
+              "Goa K L"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "Itraconazole is an orally administered triazole antifungal agent. Its spectrum of activity includes dermatophyte, dimorphic and dematiaceous fungi, yeasts, and some moulds. In clinical trials, mycological cure was attained in approximately 70 to 80, > or = 70 and > or = 80% of patients with, respectively, fingernail and toenail onychomycosis (200 mg/day for 3 months), dermatophytosis (100 mg/day for 2 to 4 weeks) and vaginal candidiasis (400 mg/day for 1 day or 200 mg/day for 3 days). Approximat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18840006",
+            "title": "Topical fenticonazole in dermatology and gynaecology: current role in therapy.",
+            "authors": [
+              "Veraldi Stefano",
+              "Milani Rodolfo"
+            ],
+            "journal": "Drugs",
+            "year": "2008",
+            "abstract": "Fenticonazole is an imidazole derivative with a broad spectrum of antimycotic activity against dermatophytes and yeasts in in vitro and clinical studies. Fenticonazole exerts its unique antimycotic mechanism of action in the following three ways: (i) inhibition of the secretion of protease acid by Candida albicans; (ii) damage to the cytoplasmic membrane; and (iii) by blocking cytochrome oxidases and peroxidises. Fenticonazole has also been shown to exhibit antibacterial action, with a spectrum ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40372034",
+            "title": "Non-synonymous ERG11 mutations in M. restricta and M. arunalokei: impact on azole susceptibility.",
+            "authors": [
+              "Leong Cheryl",
+              "Chua Wisely",
+              "Chong Cheng-Shoong",
+              "Lee Shi Mun",
+              "Maurer-Stroh Sebastian"
+            ],
+            "journal": "Microbiology spectrum",
+            "year": "2025",
+            "abstract": "Malassezia are commensal lipid-dependent yeasts and opportunistic pathogens that cause superficial mycoses and systemic infection. Azole antifungals target cell wall ergosterol synthesis and are the first line of antifungal treatment. ERG11 gene mutations and overexpression are major mechanisms conferring azole resistance and resulting in antifungal therapy failure. Malassezia restricta is found ubiquitously on healthy and diseased skin, with azole-resistant isolates described. Malassezia arunal",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4619464",
+            "title": "A double-blind comparison of clotrimazole and tolnaftate therapy of superficial dermatophytoses.",
+            "authors": [
+              "Male O"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8278940",
+            "title": "Double-blind comparative examination of ketoconazole 1% cream and clotrimazole 2% ointment in superficial dermatomycosis.",
+            "authors": [
+              "Török I",
+              "Stehlich G"
+            ],
+            "journal": "Therapia Hungarica (English edition)",
+            "year": "1993",
+            "abstract": "Comparative examinations were performed with ketoconazole (Nizoral) 1% cream and clotrimazole (Canesten) 2% ointment in 41 patients suffering from superficial dermatomycosis. Twenty-one patients were treated with ketoconazole, twenty patients, with clotrimazole twice daily, for a maximum 4 weeks. The results of the clinical and mycological examinations showed no significant differences when comparing the two groups treated with the different products. Trichophyton rubrum was the most frequently ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16989127",
+            "title": "[Use of topical antifungal agents].",
+            "authors": [
+              "Dupont Bertrand"
+            ],
+            "journal": "Therapie",
+            "year": "2006",
+            "abstract": "Topical antifungal agents are not absorbed when given orally. They act by direct contact on the fungus, this type of action requires the simultaneous presence of antifungal and fungus for a minimum of time. There are a large number of compounds belonging to different families of antifungals: polyens, azoles, allylamine and morpholine and antiseptic substances. The treatment of oropharyngeal candidiasis is based on topical antifungal agents: amphotericin B or nystatin, imidazoles such as clotrima",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "484286",
+            "title": "[Superficial mycosis. Treatment with clotrimazole. Report of 60 cases].",
+            "authors": [
+              "Reyes G"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clotrimazole 為廣譜表淺性真菌感染的一線外用治療藥物，透過 CYP51 抑制阻斷麥角固醇合成，對皮癬菌（Trichophyton、Microsporum、Epidermophyton）、酵母菌（Candida spp.、Malassezia spp.）及部分黴菌有效。包含皮膚癬（tinea corporis/pedis/cruris）、花斑癬、皮膚念珠菌病等。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "dermatophytosis of scalp or beard",
+      "txgnn": {
+        "score": 0.9859415888786316,
+        "rank": 13604
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34934294",
+            "title": "Beard Reconstruction.",
+            "authors": [
+              "Yaseen Ummer",
+              "Ahmed Shabir",
+              "Ahmed Muzaffar"
+            ],
+            "journal": "International journal of trichology",
+            "year": "2021",
+            "abstract": "Loss of beard can occur due to many reasons. As beard has huge cosmetic importance, loss of beard can be psychologically traumatic. Beard can be absent from puberty, called as congenital absence of beard. Beard loss can be secondary to dermatological conditions such as nodulocystic acne. In our setting, the most common cause of loss of beard is burn injury. There are many treatment options such as surgical excision of scar, flaps Z/W plasty, and hair transplantation to reconstruct the beard. We ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "778288",
+            "title": "Superficial mycoses.",
+            "authors": [
+              "Taplin D"
+            ],
+            "journal": "The Journal of investigative dermatology",
+            "year": "1976",
+            "abstract": "Twenty-five years ago many of the topical remedies for superficial mycoses were irritating, toxic, or allergenic. Total x-ray depilation of the scalp was the accepted mode of therapy for tinea capitis. The introduction of topical nystatin for candidiasis and tolnaftate for dermatophytosis were major advances, but tinea capitis, onychomycosis, and chronic tinea pedis still presented problems. Soon after its introduction in 1958, griseofulvin became the definitive form of therapy for all types of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34984089",
+            "title": "Beard and Moustache Reconstruction.",
+            "authors": [
+              "Dua Kapil",
+              "Verma Vandana",
+              "Dua Aman"
+            ],
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "abstract": "Beard and moustache reconstruction has gained more popularity and acceptance over the last decade. The procedure is done for the correction of facial areas with hair density deficit and also for the cosmetic enhancement of pre-existing facial hair. The surgical technique includes the harvesting of grafts from the scalp by the follicular unit excision (FUE) or follicular unit transplantation (FUT) technique and then placing them in either premade slits or by stick and place method. The advancemen",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38936998",
+            "title": "Facial Hair in Hair Restoration Surgery: Beard Transplantation and Beard-To-Scalp Hair Restoration.",
+            "authors": [
+              "Epstein Jeffrey S"
+            ],
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2024",
+            "abstract": "Restoration of the beard region has become an important component of hair restoration surgery due to increased awareness of its natural-appearing results. In the author's experience performing more than 700 primary beard hair transplants and tens of reparative procedures, key aesthetic steps include proper graft dissection so that one- and two-hair grafts contain a minimal cuff of surrounding skin, acute angulation and appropriate direction of recipient sites using the smallest possible recipien",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38106958",
+            "title": "Stress, a Brief Update.",
+            "authors": [
+              "Valencia-Florez Kenji Baruch",
+              "Sánchez-Castillo Hugo",
+              "Vázquez Priscila",
+              "Zarate Pavel",
+              "Paz Diana Berenice"
+            ],
+            "journal": "International journal of psychological research",
+            "year": "2023",
+            "abstract": "Stress is fundamental for health and adaptation; it is an evolutionarily conserved response that involves several systems in the organism. The study of the stress response could be traced back to the end of the nineteenth century with George Beard's or Claude Bernard's work and, from that moment on, several studies that have allowed the elucidation of its neurobiology and the consequences of suﬀering from it were consolidated. In this theoretical review, we discuss the most relevant researches t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37510908",
+            "title": "Beard Alopecia: An Updated and Comprehensive Review of Etiologies, Presentation and Treatment.",
+            "authors": [
+              "Kaiser Michael",
+              "Abdin Rama",
+              "Yaghi Marita",
+              "Gaumond Simonetta I",
+              "Jimenez Joaquin J"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "abstract": "Facial hair is an important social and psychologic aspect of clinical appearance for men. The purpose of this review is to provide a comprehensive overview of the causes of alopecia of the beard including the prevalence, pathophysiology, clinical presentation, and treatment. In this review, we highlight more common causes of beard alopecia including alopecia areata and pseudofolliculitis barbae, infectious causes such as tinea barbae and herpes simplex folliculitis, and rare causes including der",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32473165",
+            "title": "Long-lived zebrafish Rohon-Beard cells.",
+            "authors": [
+              "Williams Kristina",
+              "Ribera Angeles B"
+            ],
+            "journal": "Developmental biology",
+            "year": "2020",
+            "abstract": "During normal development of the nervous system, extensive neuronal proliferation as well as death occurs. The extent of development death varies considerably between neuronal populations from little to almost 100%. Early born somatosensory neurons, known as Rohon-Beard cells, have served as an example of neurons that disappear during early developmental stages, presumably as their function is taken over by later developing dorsal root ganglion neurons. However, recent studies have raised questi",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17232589",
+            "title": "The Germ-Cells.",
+            "authors": [
+              "Beard J"
+            ],
+            "journal": "Journal of anatomy and physiology",
+            "year": "1903",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39492201",
+            "title": "Hair Restoration in the Ethnic Patient.",
+            "authors": [
+              "Epstein Jeffrey S",
+              "Epstein Gorana Kuka",
+              "Abdul Al-Awady Abdurrahman"
+            ],
+            "journal": "Facial plastic surgery clinics of North America",
+            "year": "2022",
+            "abstract": "Hair restoration surgery is a popular procedure among patients of all ethnic groups. Whether performing hair procedures to treat male and female pattern hair loss, or to restore eyebrows and beards, or to shorten overly high hairlines, the surgeon must consider differences in esthetic ideals, hair characteristics, and healing properties to achieve optimal results.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40642854",
+            "title": "Beard Length and the Efficacy of an Aviator Oxygen Mask.",
+            "authors": [
+              "French John",
+              "Wagner Scott D"
+            ],
+            "journal": "Aerospace medicine and human performance",
+            "year": "2025",
+            "abstract": "Facial hair is prohibited for most airline pilots because of the widespread belief that the seal on oxygen masks might be rendered ineffective, preventing aircrew from performing their duties during emergencies.",
+            "classification": {
+              "study_type": "Other",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32716531",
+            "title": "Clinical Issues-August 2020.",
+            "authors": [
+              "Anderson Mary Alice"
+            ],
+            "journal": "AORN journal",
+            "year": "2020",
+            "abstract": "Pneumatic tourniquet education and documentation Key words: pneumatic tourniquet, documentation, competency verification, tourniquet cuff. Creating a safe environment for surgical patients with latex allergies or sensitivities Key words: natural rubber latex, latex allergy, latex sensitivity, latex reaction, anaphylaxis. Covering patients' beards Key words: facial hair, surgical site infection (SSI), beard, sterile field. Informed consent requirements Key words: informed consent, witness, legal ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32541711",
+            "title": "Beards and masks.",
+            "authors": [
+              "Matharu K"
+            ],
+            "journal": "British dental journal",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37251589",
+            "title": "The role of recognition error in the stability of green-beard genes.",
+            "authors": [
+              "Choi Jibeom",
+              "Lee Seoeun",
+              "Kim Hyun",
+              "Park Junpyo"
+            ],
+            "journal": "Evolution letters",
+            "year": "2023",
+            "abstract": "The empirical examples of the green-beard genes, once a conundrum of evolutionary biology, are accumulating, while theoretical analyses of this topic are occasional compared to those concerning (narrow-sense) kin selection. In particular, the recognition error of the green-beard effect that the cooperator fails to accurately recognize the other cooperators or defectors is readily found in numerous green-beard genes. To our knowledge, however, no model up to date has taken that effect into accoun",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26942473",
+            "title": "To Beard or Not to Beard? Bacterial Shedding Among Surgeons.",
+            "authors": [
+              "Parry Joshua Alan",
+              "Karau Melissa J",
+              "Aho Johnathon M",
+              "Taunton Michael",
+              "Patel Robin"
+            ],
+            "journal": "Orthopedics",
+            "year": "2016",
+            "abstract": "Beards in the operating room are controversial because of their potential to retain and transmit pathogenic organisms. Many bearded orthopedic surgeons choose to wear nonsterile hoods in addition to surgical masks to decrease contamination of the operative field. The goal of this study was to determine whether nonsterile surgical hoods reduce the risk of bacterial shedding posed by beards. Bearded (n=10) and clean-shaven (n=10) subjects completed 3 sets of standardized facial motions, each lasti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25426178",
+            "title": "Dengue fever: a Wikipedia clinical review.",
+            "authors": [
+              "Heilman James M",
+              "De Wolff Jacob",
+              "Beards Graham M",
+              "Basden Brian J"
+            ],
+            "journal": "Open medicine : a peer-reviewed, independent, open-access journal",
+            "year": "2014",
+            "abstract": "Dengue fever, also known as breakbone fever, is a mosquito-borne infectious tropical disease caused by the dengue virus. Symptoms include fever, headache, muscle and joint pains, and a characteristic skin rash that is similar to measles. In a small proportion of cases, the disease develops into life-threatening dengue hemorrhagic fever, which results in bleeding, thrombocytopenia, and leakage of blood plasma, or into dengue shock syndrome, in which dangerously low blood pressure occurs. Treatmen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34146585",
+            "title": "Quantitative analysis of mitochondrial ATP synthesis.",
+            "authors": [
+              "Randall E Benjamin",
+              "Hock Marcus",
+              "Lopez Rachel",
+              "Marzban Bahador",
+              "Marshall Collin"
+            ],
+            "journal": "Mathematical biosciences",
+            "year": "2021",
+            "abstract": "We present a computational framework for analyzing and simulating mitochondrial ATP synthesis using basic thermodynamic and kinetic principles. The framework invokes detailed descriptions of the thermodynamic driving forces associated with the processes of the electron transport chain, mitochondrial ATP synthetase, and phosphate and adenine nucleotide transporters. Assembling models of these discrete processes into an integrated model of mitochondrial ATP synthesis, we illustrate how to analyze ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34984086",
+            "title": "Using Nonscalp Hair in Scalp Hair Restoration-Theory and Execution.",
+            "authors": [
+              "True Robert H"
+            ],
+            "journal": "Indian journal of plastic surgery : official publication of the Association of Plastic Surgeons of India",
+            "year": "2021",
+            "abstract": "Harvesting of beard and body hair follicles for transplantation can be an effective form of treatment for appropriate patients. These patients may have had prior scalp transplantation and require repair but do not have sufficient scalp donor follicles remaining. Other patients will have these hairs mixed with scalp hairs to produce a greater density of hair on the bald scalp. Follicular unit excision (FUE) is preferred for body and beard follicle harvesting. Not all body hair is suitable for tra",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38530738",
+            "title": "Multi-Label Conditional Generation From Pre-Trained Models.",
+            "authors": [
+              "Proszewska Magdalena",
+              "Wolczyk Maciej",
+              "Zieba Maciej",
+              "Wielopolski Patryk",
+              "Maziarka Lukasz"
+            ],
+            "journal": "IEEE transactions on pattern analysis and machine intelligence",
+            "year": "2024",
+            "abstract": "Although modern generative models achieve excellent quality in a variety of tasks, they often lack the essential ability to generate examples with requested properties, such as the age of the person in the photo or the weight of the generated molecule. To overcome these limitations we propose PluGeN (Plugin Generative Network), a simple yet effective generative technique that can be used as a plugin for pre-trained generative models. The idea behind our approach is to transform the entangled lat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36487685",
+            "title": "Beards.",
+            "authors": [],
+            "journal": "Hall's journal of health",
+            "year": "1874",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37615445",
+            "title": "Contextualizing Congenital Syphilis Rates.",
+            "authors": [
+              "Beard Kenya"
+            ],
+            "journal": "The American journal of nursing",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clotrimazole 對引起頭癬/鬚癬的皮癬菌（Trichophyton、Microsporum）具有體外抗真菌活性。然而，頭皮/鬍鬚部位的皮癬菌感染累及毛幹和毛囊，外用 Clotrimazole 穿透性不足；全球指引建議使用系統性抗真菌藥（Terbinafine、Griseofulvin、Itraconazole）。外用 Clotrimazole 可作為輔助治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 22,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "postmenopausal atrophic vaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "trichomonal vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "trichomonal vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "trichomonal vulvovaginitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "tinea profunda"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "tinea profunda"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "tinea profunda"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "ectothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "Majocchi granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "Majocchi granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "Majocchi granuloma"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "endothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "endothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "endothrix infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "superficial mycosis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "superficial mycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "superficial mycosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clotrimazole",
+        "disease": "dermatophytosis of scalp or beard"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

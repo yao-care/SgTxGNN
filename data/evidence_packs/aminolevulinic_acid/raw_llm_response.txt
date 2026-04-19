@@ -1,0 +1,705 @@
+# Aminolevulinic Acid (DB00855) 藥物再利用證據分析
+
+正在進行系統性證據評估...
+
+```json
+{
+  "drug": "Aminolevulinic acid",
+  "drugbank_id": "DB00855",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "ALA 為血紅素合成前驅物，腫瘤細胞優先累積並轉化為 PpIX 光敏劑，為光動力療法（PDT）及螢光引導手術核心機制。市場狀態標記『未上市』反映當地（新加坡）法規現況，惟全球已有 Levulan®（痤瘡角化病）及 Gleolan®（神經膠質瘤螢光手術）核准先例。",
+  "indications": [
+    {
+      "disease_name": "pre-malignant neoplasm",
+      "txgnn_score": 0.960,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "腫瘤及癌前病變細胞因亞鐵螯合酶活性低、PBGD 活性高，優先將 ALA 轉化為 PpIX 並選擇性蓄積。光照後 PpIX 激發產生單態氧（¹O₂）及 ROS，誘導凋亡並破壞新生血管。eEF1A1 蛋白（PMID 27150264）在癌細胞中結合並富集 PpIX，解釋腫瘤選擇性。此機制對皮膚（光化性角化病）、口腔及食道癌前病變均有直接適用性。",
+      "evidence_summary": "ALA-PDT 對皮膚癌前病變已有跨國 Phase 3 RCT（光化性角化病，Levulan® 核准基礎）；口腔癌前病變有系統性回顧（PMID 25315968）及多個 Phase 1/2 試驗支持；腦腫瘤螢光手術端有逾 500 例 Phase 1 資料（NCT02191488）。整體橫跨多個癌前疾病類型達 Phase 1/2 程度。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03638622",
+          "title": "Low-cost PDT for Oral Pre-malignant Lesions",
+          "phase": "PHASE1/2",
+          "status": "COMPLETED",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "直接針對口腔癌前病變（premalignant）進行 ALA-PDT，已完成且樣本數合理，最高度相關。"
+        },
+        {
+          "nct_id": "NCT06507644",
+          "title": "MAL 8% vs 16% with Red Light for Skin Pre-malignant",
+          "phase": "NA",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 144,
+          "relevance_grade": "A",
+          "reasoning": "甲基胺基乙醯丙酸（MAL）為 ALA 甲酯前驅藥，針對皮膚癌前病變，設計嚴謹（n=144），高度相關。"
+        },
+        {
+          "nct_id": "NCT02050243",
+          "title": "ALA as Intraoperative Tumor Marker for Pediatric CNS Tumors",
+          "phase": "PHASE1/2",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "B",
+          "reasoning": "以 ALA-PpIX 螢光標記腫瘤邊界，屬術中影像引導應用，疾病為兒童腦腫瘤（非癌前），機制相關但適應症偏移。"
+        },
+        {
+          "nct_id": "NCT06907485",
+          "title": "Gleolan in Pediatric CNS Tumors",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 20,
+          "relevance_grade": "B",
+          "reasoning": "Gleolan® Phase 2 可行性研究，適應症為兒童腦腫瘤，非癌前，但佐證 ALA 在廣泛腫瘤診斷的可行性。"
+        },
+        {
+          "nct_id": "NCT02191488",
+          "title": "Quantification of ALA-PpIX Fluorescence During Brain Tumor Resection",
+          "phase": "PHASE1",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 540,
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 1 安全性/藥效研究（n=540），確立 ALA 螢光引導在手術中的安全性基準，為間接支持證據。"
+        },
+        {
+          "nct_id": "NCT05101798",
+          "title": "5-ALA Fluorescence-Guided Surgery in Head and Neck Cancers",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 7,
+          "relevance_grade": "B",
+          "reasoning": "頭頸部癌症螢光引導，提前終止且 n=7，提供部分頭頸部安全性數據但統計力不足。"
+        },
+        {
+          "nct_id": "NCT05850377",
+          "title": "Gliolan® Usage for Neurosurgical Procedures",
+          "phase": "N/A",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 90,
+          "relevance_grade": "C",
+          "reasoning": "非干預性觀察研究，神經外科手術適應症，與癌前病變關聯性低。"
+        },
+        {
+          "nct_id": "NCT00977795",
+          "title": "5-ALA for Malignant Brain Tumor Visualization",
+          "phase": "PHASE1/2",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "已撤回，無有效資料，不納入核心評估。"
+        },
+        {
+          "nct_id": "NCT07438860",
+          "title": "SBK2-ICG Fluorescence Imaging of Brain Tumors (Phase 1)",
+          "phase": "PHASE1",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 12,
+          "relevance_grade": "C",
+          "reasoning": "測試新型 ICG 複合物（非 ALA），本試驗與 ALA 直接相關性低，作為對照背景資料。"
+        },
+        {
+          "nct_id": "NCT03717766",
+          "title": "New Technologies for Intracranial Tumor Resection",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "廣泛性技術整合研究，ALA 可能為其中一項工具，相關性不確定。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25315968",
+          "title": "Efficacy of PDT in oral premalignant lesions: systematic review",
+          "year": "2015",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "note": "直接針對口腔癌前病變 PDT 療效之系統性回顧，最高證據等級"
+        },
+        {
+          "pmid": "26516853",
+          "title": "Combined Treatments with PDT for Non-Melanoma Skin Cancer",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": 1,
+          "note": "非黑色素瘤皮膚癌（含癌前病變）ALA-PDT 聯合治療綜合回顧"
+        },
+        {
+          "pmid": "40614840",
+          "title": "10-year follow-up of PDT for nodular BCC: RCT",
+          "year": "2025",
+          "study_type": "RCT (long-term follow-up)",
+          "tier": 1,
+          "note": "10 年 RCT 追蹤，基底細胞癌（BCC）可視為癌前-癌交界，提供長期療效與安全性最強證據"
+        },
+        {
+          "pmid": "39566196",
+          "title": "PDT for early and recurrent oral cancers and pre-malignant lesions",
+          "year": "2024",
+          "study_type": "Review/Commentary",
+          "tier": 2,
+          "note": "2024 年口腔癌前病變 PDT 最新回顧，反映當前臨床共識"
+        },
+        {
+          "pmid": "18389144",
+          "title": "ALA clinical impact, bench to bedside",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "ALA 全面性臨床應用回顧，涵蓋多種癌前及惡性適應症機轉"
+        },
+        {
+          "pmid": "27150264",
+          "title": "eEF1A1 enriches PpIX in cancer cells",
+          "year": "2016",
+          "study_type": "Mechanistic Study",
+          "tier": 2,
+          "note": "闡明 eEF1A1 蛋白介導 PpIX 在癌細胞選擇性蓄積機轉，強化生物合理性"
+        },
+        {
+          "pmid": "9744510",
+          "title": "Biochemical basis of ALA-induced PpIX accumulation",
+          "year": "1998",
+          "study_type": "Clinical-Mechanistic Study",
+          "tier": 2,
+          "note": "人體組織 PpIX 蓄積動力學研究，機轉基礎奠定"
+        },
+        {
+          "pmid": "16879035",
+          "title": "PpIX photobleaching in Barrett's esophagus after ALA",
+          "year": "2006",
+          "study_type": "Clinical Pilot",
+          "tier": 2,
+          "note": "Barrett 食道（高風險癌前病變）ALA-PDT 治療反應，擴展適應症至消化道癌前"
+        },
+        {
+          "pmid": "16936603",
+          "title": "Topical PDT: introduction for nurses",
+          "year": "2006",
+          "study_type": "Educational Review",
+          "tier": 3,
+          "note": "臨床實踐介紹，反映 ALA-PDT 已進入常規護理流程"
+        },
+        {
+          "pmid": "23128146",
+          "title": "Modelling fluorescence in clinical PDT",
+          "year": "2013",
+          "study_type": "Technical/Modelling Study",
+          "tier": 3,
+          "note": "PDT 劑量優化模型研究，技術支持性證據"
+        }
+      ],
+      "guardrails": [
+        "需依腫瘤解剖位置選擇適當光照波長及能量密度",
+        "深層腫瘤 PDT 效果受光穿透深度限制（<1cm），需考慮介入式光纖傳導",
+        "光敏期（24-48h）需嚴格避光，避免光毒性",
+        "與新加坡現行 MOH 光動力治療規範接軌"
+      ]
+    },
+    {
+      "disease_name": "odontogenic cyst",
+      "txgnn_score": 0.958,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "牙源性囊腫（尤其 Gorlin 症候群相關之角化性囊腫）的囊壁上皮細胞具有類似腫瘤的增殖特性，理論上可蓄積 ALA 轉化之 PpIX。Gorlin 症候群患者同時罹患多發性基底細胞癌及牙源性角化囊腫，ALA-PDT 對皮膚 BCC 有效（見 PMID 15209801），但對囊腫本身尚缺乏直接證據。PTCH1 基因失活導致 Hedgehog 路徑異常活化，使 Gorlin 患者成為 ALA-PDT 與 Vismodegib（Hedgehog 抑制劑）聯合或替代治療的潛在對象。",
+      "evidence_summary": "僅 NCT01556009（Phase 2，n=24，Gorlin 症候群中 Vismodegib vs PDT 比較，已完成）提供間接臨床試驗數據，但該試驗主要評估皮膚 BCC，非牙源性囊腫本身。文獻 20 篇均聚焦 Gorlin 症候群皮膚表現，牙源性囊腫直接治療數據缺如。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01556009",
+          "title": "Vismodegib vs PDT for Gorlin Syndrome",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 24,
+          "relevance_grade": "B",
+          "reasoning": "Gorlin 症候群同時具牙源性囊腫與多發 BCC，本試驗比較 PDT 與 Hedgehog 抑制劑，間接反映 ALA-PDT 在此症候群的定位，但主要終點為皮膚 BCC，非牙源性囊腫。"
+        },
+        {
+          "nct_id": "NCT02157623",
+          "title": "Blue vs Red Light for Levulan PDT",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 3,
+          "relevance_grade": "C",
+          "reasoning": "n=3 極小型光源比較研究，適應症不明確，統計力不足，僅技術參考價值。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23581795",
+          "title": "Consensus recommendations: PDT for BCC in Gorlin syndrome",
+          "year": "2014",
+          "study_type": "Consensus/Expert Guideline",
+          "tier": 1,
+          "note": "國際共識建議 ALA-PDT 用於 Gorlin 症候群 BCC 管理，為目前最高等級參考"
+        },
+        {
+          "pmid": "36222440",
+          "title": "10-year chemopreventive role of PDT in Gorlin syndrome",
+          "year": "2022",
+          "study_type": "Case Report (Long-term follow-up)",
+          "tier": 3,
+          "note": "單一 Gorlin 患者 10 年 ALA-PDT 化學預防追蹤，提供長期安全性線索但樣本為 N=1"
+        },
+        {
+          "pmid": "32835883",
+          "title": "ALA-PDT and excision for nevoid BCC syndrome",
+          "year": "2020",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "Gorlin 症候群合併 PDT+手術切除，牙源性囊腫治療非主要討論範疇"
+        },
+        {
+          "pmid": "15209801",
+          "title": "ALA and blue light PDT for multiple BCC in Gorlin",
+          "year": "2004",
+          "study_type": "Clinical Series",
+          "tier": 2,
+          "note": "多發性 BCC 之 ALA-PDT，為 Gorlin 症候群皮膚表現的直接臨床證據"
+        },
+        {
+          "pmid": "17190630",
+          "title": "International guidelines: PDT for non-melanoma skin cancer",
+          "year": "2007",
+          "study_type": "International Guideline",
+          "tier": 1,
+          "note": "非黑色素瘤皮膚癌 PDT 國際指南，BCC 部分具 Gorlin 症候群專節"
+        },
+        {
+          "pmid": "26550910",
+          "title": "Photodynamic therapy for BCC",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "BCC-PDT 系統性回顧，涵蓋 Gorlin 症候群亞族群分析"
+        },
+        {
+          "pmid": "15655143",
+          "title": "Treatment of diffuse BCC in nevoid BCC syndrome",
+          "year": "2005",
+          "study_type": "Clinical Report",
+          "tier": 2,
+          "note": "瀰漫性 BCC 及毛囊錯構瘤治療策略，牙源性病變非主角"
+        },
+        {
+          "pmid": "14626660",
+          "title": "DNA damage and repair in Gorlin syndrome after ALA-PDT",
+          "year": "2003",
+          "study_type": "Mechanistic/Clinical Study",
+          "tier": 2,
+          "note": "ALA-PDT 對 Gorlin 症候群成纖維細胞 DNA 損傷/修復機制研究"
+        },
+        {
+          "pmid": "33141489",
+          "title": "PDT for recurrent BCC in Gorlin syndrome",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "復發性 BCC 個案，顯示 ALA-PDT 對頑固性病灶的挽救潛力"
+        },
+        {
+          "pmid": "7599378",
+          "title": "ALA-PDT for cutaneous manifestations: early evidence",
+          "year": "1995",
+          "study_type": "Early Clinical Study",
+          "tier": 3,
+          "note": "ALA-PDT 皮膚應用早期研究，歷史基礎證據"
+        }
+      ],
+      "research_gaps": [
+        "無直接針對牙源性角化囊腫（OKC）進行 ALA-PDT 的 RCT 或 Phase 2 試驗",
+        "囊腫腔內 ALA 遞送方式（局部灌洗 vs 靜脈）未建立標準",
+        "PpIX 在囊壁上皮是否有效蓄積需體外確認"
+      ]
+    },
+    {
+      "disease_name": "nasopharyngeal teratoma",
+      "txgnn_score": 0.958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻咽畸胎瘤為由三胚層組織構成的先天性腫瘤，細胞異質性極高，理論上含腫瘤性上皮成分的部分可能蓄積 PpIX，惟目前無任何臨床或轉譯醫學研究。TxGNN 高分可能源於其在廣泛『腫瘤』節點的圖神經網路傳播，非特異性機轉證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻。TxGNN 分數（0.958）接近癌前病變預測值，反映圖結構鄰近效應而非真實臨床相關性。疾病極罕見（先天性腫瘤），且多為新生兒急症手術處理。"
+    },
+    {
+      "disease_name": "cervical neuroblastoma",
+      "txgnn_score": 0.957,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經母細胞瘤為神經嵴細胞來源之兒童惡性腫瘤，現有標準治療為化療/放療/手術。ALA 的 PpIX 蓄積機制在神經源性腫瘤中未經驗證，且頸部解剖位置的光動力治療受限於光穿透深度及重要神經血管保護需求。無直接或間接臨床證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻。屬純粹 TxGNN 計算預測，臨床轉譯路徑尚未建立。"
+    },
+    {
+      "disease_name": "benign neoplasm of tongue",
+      "txgnn_score": 0.957,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "舌部良性腫瘤及早期鱗狀細胞病變中，上皮細胞可蓄積 ALA 衍生 PpIX，光照後誘導選擇性細胞凋亡。PMID 16792728 顯示給藥方式（局部 vs 口服）顯著影響舌腫瘤 PpIX 蓄積效率。微滴給藥法（PMID 39153711）為舌部局部遞送的新興策略。聲動力療法（SDT）以超音波替代光源（PMID 22739213, 21273578），可克服舌部組織光穿透限制。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35672359",
+          "title": "ALA Waterlase-assisted PDT for tongue treatment",
+          "year": "2022",
+          "study_type": "Clinical Case Series",
+          "tier": 2,
+          "note": "ALA 結合雷射水刀輔助 PDT 於舌部病變，創新給藥-光源組合，臨床可行性初步確立"
+        },
+        {
+          "pmid": "39153711",
+          "title": "Tongue SCC treated by ALA microdrop method",
+          "year": "2024",
+          "study_type": "Clinical Case Report",
+          "tier": 3,
+          "note": "2024 年最新微滴法 ALA 給藥治療舌鱗癌，技術可行性個案"
+        },
+        {
+          "pmid": "21412802",
+          "title": "PDT outcome for oral dysplasia",
+          "year": "2011",
+          "study_type": "Clinical Cohort",
+          "tier": 2,
+          "note": "口腔異生性病變（含舌部）PDT 療效評估，提供最相關臨床結果數據"
+        },
+        {
+          "pmid": "22739213",
+          "title": "Low-intensity ultrasound + ALA for human tongue cancer",
+          "year": "2012",
+          "study_type": "In Vitro / Translational",
+          "tier": 3,
+          "note": "ALA-SDT（聲動力）體外實驗，克服光穿透限制的替代機制探索"
+        },
+        {
+          "pmid": "21273578",
+          "title": "Apoptosis of tongue SAS cells by SDT with ALA",
+          "year": "2011",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "note": "舌癌細胞株 ALA-SDT 誘導凋亡機制研究"
+        },
+        {
+          "pmid": "37041780",
+          "title": "In Vitro Anti-tumor Effects of PDT on Oral SCC: Review",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "口腔鱗狀細胞癌 ALA-PDT 體外效應回顧，含舌部癌細胞株研究整合"
+        },
+        {
+          "pmid": "15254708",
+          "title": "Confocal endomicroscopy of tongue tissue using ALA-PpIX",
+          "year": "2004",
+          "study_type": "Clinical-Technical Study",
+          "tier": 2,
+          "note": "ALA-PpIX 用於舌部正常與腫瘤組織之共焦顯微鏡診斷，確立 PpIX 在舌部蓄積"
+        },
+        {
+          "pmid": "10211320",
+          "title": "ALA-PDT for chemically-induced tongue premalignant lesions",
+          "year": "1999",
+          "study_type": "Preclinical (Animal)",
+          "tier": 3,
+          "note": "化學誘導舌癌前病變動物模型中 ALA-PDT 效果，早期概念驗證"
+        },
+        {
+          "pmid": "16792728",
+          "title": "Administration methods and ALA-PpIX accumulation in mouse tongue tumors",
+          "year": "2006",
+          "study_type": "Preclinical",
+          "tier": 3,
+          "note": "給藥途徑（局部/靜脈/口服）對小鼠舌腫瘤 PpIX 蓄積的影響比較"
+        },
+        {
+          "pmid": "37209763",
+          "title": "Topical PDT for brachytherapy-induced oral mucositis",
+          "year": "2023",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "ALA-PDT 用於放射治療所致口腔黏膜炎，反映口腔組織 PDT 安全性"
+        }
+      ],
+      "research_gaps": [
+        "缺乏前瞻性 RCT 針對舌良性腫瘤（如纖維瘤、乳突瘤）的 ALA-PDT",
+        "最佳給藥方式（局部塗抹/微滴/DMSO 增滲）尚未標準化",
+        "ALA-SDT（聲動力）路徑有助克服光穿透限制，值得進一步探索"
+      ]
+    },
+    {
+      "disease_name": "benign neoplasm of buccal mucosa",
+      "txgnn_score": 0.957,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "頰黏膜癌前病變（白板症、紅板症）及早期病變中，ALA 可透過黏膜上皮滲透並轉化為 PpIX。PMID 25190225 開發以殼聚糖為基底的 ALA 黏附膜劑型，針對頰部癌特異性遞送系統；PMID 28818775 以 α-bisabolol 作為滲透促進劑改善 ALA 在頰部組織的滯留時間。文獻顯示頰部黏膜對 ALA-PpIX 具備螢光顯示（PMID 8988675）及光動力殺傷能力。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38172857",
+          "title": "Clinical evaluation of PDT for oral leukoplakia: 50 patients",
+          "year": "2024",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "note": "50 例口腔白板症（含頰黏膜）ALA-PDT 回顧性研究，最具直接臨床相關性"
+        },
+        {
+          "pmid": "38677259",
+          "title": "Response differences: normal mucosa vs leukoplakia vs SCC to ALA-PDT",
+          "year": "2024",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "2024 年區分正常黏膜/白板症/鱗癌對 ALA-PDT 反應差異，支持選擇性治療潛力"
+        },
+        {
+          "pmid": "25190225",
+          "title": "Chitosan-ALA mucoadhesive films for buccal cancer treatment",
+          "year": "2014",
+          "study_type": "Drug Delivery Research",
+          "tier": 2,
+          "note": "頰部黏著性 ALA 劑型開發，解決 ALA 頰黏膜滲透問題的關鍵技術"
+        },
+        {
+          "pmid": "28818775",
+          "title": "α-Bisabolol improves ALA retention in buccal tissues",
+          "year": "2017",
+          "study_type": "Ex Vivo Study",
+          "tier": 2,
+          "note": "滲透促進劑對頰部組織 ALA 滯留改善，解決遞送障礙"
+        },
+        {
+          "pmid": "24811932",
+          "title": "Topical methotrexate pretreatment enhances ALA-PDT in buccal",
+          "year": "2014",
+          "study_type": "Animal/Translational Study",
+          "tier": 2,
+          "note": "MTX 預處理提升頰部腫瘤 ALA-PDT 效果，聯合策略初步驗證"
+        },
+        {
+          "pmid": "10646720",
+          "title": "Detection of oral SCC by ALA-PpIX fluorescence imaging",
+          "year": "2000",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "口腔鱗癌（含頰黏膜）ALA-PpIX 螢光偵測，確立診斷應用"
+        },
+        {
+          "pmid": "8988675",
+          "title": "Fluorescence imaging of oral mucosa with ALA-PpIX",
+          "year": "1996",
+          "study_type": "Clinical-Technical Study",
+          "tier": 2,
+          "note": "早期確立 ALA-PpIX 在口腔黏膜（含頰部）的螢光顯示可行性"
+        },
+        {
+          "pmid": "12458466",
+          "title": "Fluorescence staining of oral and laryngeal cancer with ALA",
+          "year": "2002",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "口腔含頰部及喉部癌症 ALA 螢光染色，多部位適用性佐證"
+        },
+        {
+          "pmid": "9203383",
+          "title": "Online fluorescence of human tissues after oral ALA administration",
+          "year": "1997",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "口服 ALA 後多部位黏膜螢光動力學，頰黏膜包含在內"
+        },
+        {
+          "pmid": "22974427",
+          "title": "Bak/Mcl-1 ratio predicts PDT outcome for oral verrucous hyperplasia",
+          "year": "2013",
+          "study_type": "Translational Study",
+          "tier": 2,
+          "note": "生物標記預測口腔 PDT 療效，有助頰黏膜病灶個體化治療選擇"
+        }
+      ],
+      "research_gaps": [
+        "需要前瞻性 RCT 驗證 ALA-PDT 對頰黏膜白板症（OL）的長期療效",
+        "最佳 ALA 局部劑型（黏附膜 vs 凝膠）的頭對頭比較缺如",
+        "Bak/Mcl-1 等生物標記預測療效需前瞻性驗證"
+      ]
+    },
+    {
+      "disease_name": "cystic neoplasm",
+      "txgnn_score": 0.957,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "囊性腫瘤（如胰腺/膽管 IPMN、腹膜假性黏液瘤）的腺上皮細胞可能蓄積 PpIX，但囊腔結構對光遞送造成挑戰。PMID 38642727 展示以 SpyGlass 導引 PDT 治療膽管 IPMN（個案），顯示內視鏡輔助光纖傳導的可行路徑。PMID 25056850 展示腹腔鏡細胞減量手術結合 ALA-PDT 用於腹膜轉移治療。囊性腫瘤的壁細胞 PpIX 蓄積動力學（PMID 29425880）為選擇性殺傷理論基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38642727",
+          "title": "SpyGlass guided PDT for IPMN of bile tract",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "2024 最新個案：內視鏡導引 ALA-PDT 治療膽管 IPMN，技術突破性但 N=1"
+        },
+        {
+          "pmid": "25056850",
+          "title": "Cytoreductive surgery + ALA-PDT for peritoneal carcinomatosis",
+          "year": "2014",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "腹膜轉移細胞減量手術 + ALA-PDT，含囊性腫瘤腹膜播散情境"
+        },
+        {
+          "pmid": "23435809",
+          "title": "ALA-PDT detection and management of peritoneal papillary serous carcinoma",
+          "year": "2014",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "腹膜乳突漿液性癌（含囊性成分）ALA-PDT 偵測與治療個案"
+        },
+        {
+          "pmid": "20929386",
+          "title": "PDT for cutaneous adenoid cystic carcinoma",
+          "year": "2010",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "皮膚腺樣囊性癌（囊性腫瘤型）ALA-PDT 個案，鞏固治療概念"
+        },
+        {
+          "pmid": "29425880",
+          "title": "Protoporphyrinogen oxidase and PpIX fluorescence intensity",
+          "year": "2018",
+          "study_type": "Translational Study",
+          "tier": 2,
+          "note": "原卟啉原氧化酶調控 PpIX 螢光強度機制，解釋不同腫瘤類型蓄積差異"
+        },
+        {
+          "pmid": "11705725",
+          "title": "ALA effects on ovarian cancer and vascular endothelial cells",
+          "year": "2001",
+          "study_type": "In Vitro Study",
+          "tier": 3,
+          "note": "卵巢癌細胞（常伴囊性成分）ALA 效應體外研究"
+        },
+        {
+          "pmid": "25840141",
+          "title": "In vivo fluorescence navigation of gastric tumors by ALA",
+          "year": "2015",
+          "study_type": "Clinical Series",
+          "tier": 2,
+          "note": "胃及上消化道腫瘤 ALA 螢光導航手術，擴展消化道囊性腫瘤應用背景"
+        },
+        {
+          "pmid": "23780986",
+          "title": "Scirrhous gastric cancer treated with hyperthermia + ALA",
+          "year": "2013",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "胃癌 ALA + 熱療聯合個案，探索 PDT 增敏策略"
+        },
+        {
+          "pmid": "19009482",
+          "title": "Invisible gastric carcinoma detected by random biopsy: long-term PDT results",
+          "year": "2008",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "note": "不可見胃癌 ALA-PDT 長期治療結果，消化道囊性腫瘤相關背景證據"
+        }
+      ],
+      "safety_concerns": [
+        "囊性腫瘤光纖傳導技術要求高（需內視鏡/腹腔鏡輔助），非標準 PDT",
+        "囊腔積液可能稀釋 ALA 濃度，影響 PpIX 蓄積效率",
+        "腹腔 PDT 有腸道及血管損傷風險，需嚴格劑量控制"
+      ]
+    },
+    {
+      "disease_name": "inner ear neoplasm",
+      "txgnn_score": 0.957,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內耳腫瘤（如前庭神經鞘瘤/聽神經瘤）位於顱底深部，光動力治療的物理限制極為嚴苛：光纖需穿越複雜解剖路徑，且內耳器官高度敏感，ALA-PDT 可能損及耳蝸及前庭功能。無任何臨床或轉譯證據支持，TxGNN 預測可能源於廣泛神經腫瘤節點鄰近效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻。解剖位置極度不利於 PDT 物理遞送，風險效益比嚴重不利。"
+    },
+    {
+      "disease_name": "tumor of testis and paratestis",
+      "txgnn_score": 0.956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "睾丸腫瘤（精原細胞瘤、非精原細胞腫瘤）現有高效標準治療（orchiectomy + BEP 化療），ALA-PDT 介入定位不明。睾丸富含精原細胞，ALA-PDT 可能造成生殖毒性。無任何臨床或轉譯證據，TxGNN 高分源於泛腫瘤圖神經網路效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻。在已有高效標準治療的背景下，再利用動機不足，且潛在生殖毒性風險需優先排除。"
+    },
+    {
+      "disease_name": "schwannoma of jugular foramen",
+      "txgnn_score": 0.956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頸靜脈孔神經鞘瘤為神經鞘良性腫瘤，位於顱底最複雜解剖區域（毗鄰 CN IX-XII、頸靜脈球），手術本身即高風險。ALA-PDT 在神經源性良性腫瘤中無機轉驗證，且光遞送的解剖路徑幾乎不可行。TxGNN 0.956 分反映圖結構中神經腫瘤節點的泛化效應，缺乏生物合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻。解剖位置高度限制性，良性疾病風險效益比不合理。"
+    }
+  ],
+  "overall_assessment": {
+    "drug_profile": {
+      "mechanism_class": "光敏劑前驅物（Photosensitizer Precursor）/ 血紅素合成路徑",
+      "active_metabolite": "Protoporphyrin IX (PpIX)",
+      "selectivity": "腫瘤選擇性蓄積（因亞鐵螯合酶低表達 + PBGD 高表達）",
+      "approved_uses_globally": ["光化性角化病（Levulan®，美國 FDA）", "神經膠質瘤螢光手術（Gleolan®，EMA/FDA）"],
+      "sg_market_status": "未上市（須向 HSA 申請核准）"
+    },
+    "evidence_distribution": {
+      "L2_S3": ["pre-malignant neoplasm"],
+      "L3_S2": ["odontogenic cyst", "benign neoplasm of tongue", "benign neoplasm of buccal mucosa"],
+      "L4_S1": ["cystic neoplasm"],
+      "L5_S0": ["nasopharyngeal teratoma", "cervical neuroblastoma", "inner ear neoplasm", "tumor of testis and paratestis", "schwannoma of jugular foramen"]
+    },
+    "priority_recommendation": "pre-malignant neoplasm（尤其口腔癌前病變及皮膚光化性角化病）具最充分的臨床轉譯證據，建議優先推動新加坡 HSA 同情用藥申請或本地臨床試驗計畫。benign neoplasm of buccal mucosa 及 tongue 病變具豐富的遞送技術基礎，為次優先研究問題候選。",
+    "data_quality_warning": "TxGNN 分數 0.956-0.960 之範圍集中，顯示分數壓縮（score compression）現象，無法作為適應症間的相對優先排序依據，需以證據等級（L1-L5）為主要決策基準。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|----------|----------|------|
+| pre-malignant neoplasm | 0.960 | 40 | 20 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| benign neoplasm of buccal mucosa | 0.957 | 0 | 20 | L3 | S2 | 🔬 Research Question |
+| benign neoplasm of tongue | 0.957 | 0 | 18 | L3 | S2 | 🔬 Research Question |
+| odontogenic cyst | 0.958 | 2 | 20 | L3 | S2 | 🔬 Research Question |
+| cystic neoplasm | 0.957 | 0 | 9 | L4 | S1 | 🔬 Research Question（謹慎）|
+| nasopharyngeal teratoma | 0.958 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| cervical neuroblastoma | 0.957 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| inner ear neoplasm | 0.957 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| tumor of testis & paratestis | 0.956 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| schwannoma of jugular foramen | 0.956 | 0 | 0 | L5 | S0 | ⛔ Hold |
+
+---
+
+## 🔑 關鍵分析洞見
+
+### 1. TxGNN 分數壓縮警告
+所有 10 個適應症分數集中於 **0.956-0.961**，差距僅 0.005，**無法用於適應症間優先排序**。臨床決策應以 L 等級與 S 階段為主。
+
+### 2. ALA 的「地形圖」限制
+ALA-PDT 本質上是**光達及之處才有效**的療法。5 個 L5/S0 適應症（內耳、頸靜脈孔、睾丸等）的最大障礙並非生物機轉，而是**光物理遞送的解剖不可行性**，這是 TxGNN 知識圖譜未能捕捉的維度。
+
+### 3. 最具轉譯潛力路徑
+**口腔/頰黏膜/舌部癌前病變** 三者合計形成一個連貫的臨床研究網絡：
+- 解剖位置可達
+- 遞送技術（黏附膜、微滴法）已在開發
+- 新加坡頭頸部腫瘤負擔（鼻咽癌高發）提供在地研究動機
+- 可申請 HSA Expanded Access Programme

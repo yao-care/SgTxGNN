@@ -1,0 +1,188 @@
+## 藥物背景分析
+
+**Dexchlorpheniramine maleate (DB09555)** 為苯丙胺類第一代 H1 組織胺受體拮抗劑（氯苯那敏的右旋異構體），可穿越血腦屏障，具鎮靜及抗膽鹼附加效應。雖原適應症欄位為空、臺灣市場狀態為「未上市」，但此藥在全球臨床已有數十年使用歷史，以下依提供資料進行系統性評估。
+
+---
+
+```json
+{
+  "drug": "Dexchlorpheniramine maleate",
+  "drugbank_id": "DB09555",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "原始資料原適應症欄位為空（Data Gap），MoA 標記為 Data Gap，惟依藥化結構確認為第一代 H1 拮抗劑。市場狀態「未上市」指臺灣市場，非全球狀態。",
+  "indications": [
+    {
+      "disease_name": "allergic urticaria",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "最強機轉關聯：Dexchlorpheniramine 直接拮抗皮膚肥大細胞脫顆粒後釋出的組織胺與 H1 受體結合，阻斷血管擴張、通透性增加及搔癢訊號傳導，為過敏性蕁麻疹的核心病理機轉。附加效益包含抑制嗜酸性球趨化（PMID 2523357）及 IgE 依賴性血小板活化。TxGNN 分數 0.9696 反映藥物-疾病圖譜的強關聯。注意事項：現行指引多優先推薦第二代（非鎮靜型）抗組織胺為第一線；第一代藥物因 CNS 鎮靜及抗膽鹼效應，限用於急性期或注射劑型情境。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39265704",
+          "study_type": "Comparative Clinical Study (RCT-level design)",
+          "tier": "1",
+          "reasoning": "2024 年直接比較口服 bilastine 與靜脈注射 dexchlorpheniramine 對蕁麻疹的抑制效果，為提供資料中最直接、最新的臨床證據，高度相關"
+        },
+        {
+          "pmid": "29723372",
+          "study_type": "Comparative Clinical Study",
+          "tier": "1",
+          "reasoning": "2018 年比較巴西上市 H1 抗組織胺對組織胺試驗風團／紅暈抑制效果，直接量化 dexchlorpheniramine 的臨床效能"
+        },
+        {
+          "pmid": "2523357",
+          "study_type": "In vitro / Mechanistic Study",
+          "tier": "2",
+          "reasoning": "1989 年揭示額外免疫調節機轉（嗜酸性球趨化抑制、IgE 依賴性活化抑制），補強機轉多面向支持"
+        },
+        {
+          "pmid": "39803",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "reasoning": "1979 年獲得性熱接觸蕁麻疹臨床免疫研究，為早期臨床效用佐證"
+        },
+        {
+          "pmid": "26179134",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "2015 年眼瞼血管性水腫及接觸性過敏病例，間接支持過敏反應管理脈絡"
+        },
+        {
+          "pmid": "28601540",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "2017 年過敏反應伴隨心房顫動病例，安全性層面參考（心律不整風險需監測）"
+        }
+      ],
+      "evidence_gap": "提供資料中無正式 Phase 2/3 RCT 登錄；文獻多為臨床比較或機轉研究，補充系統性文獻搜尋後證據等級可能升至 L2",
+      "guardrails": [
+        "限急性期或注射劑型使用情境",
+        "警告鎮靜、抗膽鹼副作用（老年人、駕駛人慎用）",
+        "心律不整患者需額外評估（PMID 28601540）",
+        "現行指引建議第二代抗組織胺為第一線，需說明藥物選擇依據"
+      ]
+    },
+    {
+      "disease_name": "schizophrenia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接機轉假說：多種非典型抗精神病藥（氯氮平、奧氮平）具高親和力 H1 拮抗活性，提示組織胺系統參與精神症狀調節。然而，唯一相關文獻（PMID 19220286）顯示 H1 阻斷主要「損害」感覺運動處理過程，而非改善精神分裂症症狀；第一代抗組織胺穿越血腦屏障所產生的鎮靜及抗膽鹼效應可能惡化認知功能。機轉關聯為間接且潛在有害，需優先完成安全性評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19220286",
+          "study_type": "Controlled Human Pharmacodynamic Study",
+          "tier": "3",
+          "reasoning": "2009 年研究 H1 阻斷對人類感覺運動表現的影響，為間接相關的基礎藥理學研究，非治療性 RCT；結果提示 H1 阻斷可能損害而非改善精神分裂症相關的感覺門控缺陷"
+        }
+      ],
+      "evidence_gap": "無臨床試驗；現有文獻方向與治療假說相悖；需先完成 CNS 安全性初評（認知影響、EPS 風險、與抗精神病藥交互作用）",
+      "safety_concern": "高風險：抗膽鹼效應可能惡化認知；與抗精神病藥合用 QTc 延長風險；鎮靜加乘效應"
+    },
+    {
+      "disease_name": "acute intermittent porphyria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "缺乏合理治療機轉。AIP 為 HMBS 基因突變導致的血紅素合成障礙，核心病理為 ALA/PBG 累積及神經毒性。H1 受體拮抗對血紅素合成路徑無直接調節作用。高 TxGNN 分數（0.9912）推測源自知識圖譜中共病網絡或症狀節點的間接連結，不代表治療機轉關聯。額外安全警示：部分第一代抗組織胺在紫質症患者的安全性分級未定，British/South African Porphyria 指引將特定藥物列為「需謹慎」，存在誘發急性發作的潛在疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "零臨床試驗及相關文獻；安全性本身存疑，不建議進入後續評估"
+    },
+    {
+      "disease_name": "porphyria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "紫質症（廣義）涵蓋多種血紅素合成酵素缺陷，與 H1 受體拮抗無直接治療機轉關聯。安全性疑慮同 AIP 條目。TxGNN 高分（0.9769）可能反映與 AIP 條目共享圖譜節點的評分重疊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gap": "零臨床及文獻支持；安全性分級需先行確認"
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 為 AVPR2（V2 血管加壓素受體）功能獲得性突變引起，病理核心為腎集尿管對 ADH 過度反應導致低鈉血症。H1 受體拮抗對 V2 受體信號路徑或水通道蛋白調節無已知交互作用，缺乏合理機轉假說。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性多小腦迴症伴小腦發育不全及多關節攣縮為神經發育結構異常，由基因（如 TUBB2B、ACTB 等）突變造成，非組織胺路徑可干預。H1 拮抗對已形成的神經結構缺陷無治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "syndromic myopia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "症候群性近視多由系統性遺傳症候群（如 Stickler, Marfan, 先天性靜態夜盲等）伴發，為結構性/基因性眼科異常，與 H1 受體拮抗無治療機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "atypical glycine encephalopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非典型甘胺酸腦病為 GLDC/AMT/GCSH 基因突變導致的甘胺酸代謝障礙，神經毒性源自腦脊液中甘胺酸累積並過度活化 NMDA 受體。H1 受體拮抗對甘胺酸裂解系統或 NMDA 訊號路徑無直接調節效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myopia 26, X-linked, female-limited",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "X 連鎖女性限制性近視（OMIM #300777）為罕見單基因遺傳性屈光異常，為結構性眼科疾病，與 H1 受體拮抗無治療機轉關聯。TxGNN 高分可能源自近視相關節點群聚效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myopia X-linked",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "X 連鎖遺傳性近視（OMIM #310460, Bornholm Eye Disease）為 RPGR 基因相關的遺傳性眼病，兼有視網膜色素上皮病變，為結構性基因疾病，與 H1 受體拮抗無治療機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 疾病名稱 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|---|---|---|---|---|
+| allergic urticaria | 0.9696 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| schizophrenia | 0.9717 | **L4** | **S1** | ⚠️ Hold（安全性初評） |
+| acute intermittent porphyria | 0.9912 | **L5** | **S0** | ❌ Hold |
+| nephrogenic syndrome of inappropriate antidiuresis | 0.9836 | **L5** | **S0** | ❌ Hold |
+| porphyria | 0.9769 | **L5** | **S0** | ❌ Hold |
+| polymicrogyria + cerebellar hypoplasia | 0.9713 | **L5** | **S0** | ❌ Hold |
+| syndromic myopia | 0.9683 | **L5** | **S0** | ❌ Hold |
+| atypical glycine encephalopathy | 0.9675 | **L5** | **S0** | ❌ Hold |
+| myopia 26, X-linked, female-limited | 0.9671 | **L5** | **S0** | ❌ Hold |
+| myopia X-linked | 0.9661 | **L5** | **S0** | ❌ Hold |
+
+---
+
+## 關鍵發現
+
+> ⚠️ **模型評分與臨床相關性脫鉤警示**：TxGNN 最高分適應症（AIP, 0.9912；NSIAD, 0.9836）均為 L5/S0，而臨床上最合理的適應症（allergic urticaria, 0.9696）反而分數較低。顯示本次預測結果存在**圖譜拓撲偏差**——高分反映知識圖譜的間接路徑連結，而非藥理學相關性，需以機轉分析校正解讀。
+
+> 📌 **Allergic urticaria 的特殊定位**：此適應症實為 Dexchlorpheniramine 的**歷史核心用途**（非再利用），低 TxGNN 分數可能因其已被視為既有用途而在訓練資料中處理方式不同。建議補充 PubMed 全文搜尋以確認是否存在 Phase 2/3 RCT，屆時證據等級可升至 **L1-L2**。
+
+> ⚕️ **YMYL 免責聲明**：以上分析僅供研究參考，不構成醫療建議。老藥新用候選均需經過完整臨床驗證流程方可應用。

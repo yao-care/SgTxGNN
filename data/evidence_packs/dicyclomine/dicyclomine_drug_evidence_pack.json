@@ -1,0 +1,831 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00804-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dicyclomine",
+    "drugbank_id": "DB00804",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.996632754802704,
+        "rank": 4979
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "馬尾症候群為神經根壓迫性急症，需外科減壓治療。抗膽鹼機制對神經根壓迫無直接療效路徑，機轉關聯薄弱。高 TxGNN 分數推測可能來自圖譜結構相似性（共享神經系統節點），而非真實藥理依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.9950245022773744,
+        "rank": 6469
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經性膀胱（neurogenic bladder）標準治療包含抗膽鹼藥物（如 oxybutynin、solifenacin），Dicyclomine 作為同類藥物具有可信機轉關聯（M3 受體拮抗→膀胱逼尿肌鬆弛）。但本資料集中無任何臨床試驗或文獻支持。注意：術語標示 'obsolete' 為 MONDO 本體論已棄用節點，現代分類已細分為多個亞型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn": {
+        "score": 0.9854676127433776,
+        "rank": 13920
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ADHD 核心病理為多巴胺/去甲腎上腺素系統失調，標準治療為中樞興奮劑或 NRI。Dicyclomine 的抗膽鹼機制對 ADHD 之膽鹼-多巴胺交互作用影響雖具理論探討空間，但缺乏任何支持性證據，且抗膽鹼副作用（認知干擾）可能惡化注意力缺損症狀。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "specific developmental disorder",
+      "txgnn": {
+        "score": 0.9780446887016296,
+        "rank": 17962
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特定發展障礙（閱讀障礙、語言障礙等）為神經發育性疾病，目前無抗膽鹼藥物治療依據。機轉關聯極弱，推測為 TxGNN 圖譜中與 ADHD 節點共享導致評分拉升。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn": {
+        "score": 0.9634690284729004,
+        "rank": 23309
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與 ADHD inattentive type 分析相同。此節點為 ADHD 通用型，同樣缺乏抗膽鹼藥物療效依據，且存在認知副作用風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chondromyxoid fibroma",
+      "txgnn": {
+        "score": 0.9581902623176576,
+        "rank": 24701
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "軟骨黏液樣纖維瘤為罕見良性骨腫瘤，標準治療為外科切除。抗膽鹼機制對骨腫瘤無已知作用路徑（無平滑肌、無腺體靶點）。此預測結果合理性存疑，可能為知識圖譜噪音訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "gastroduodenitis",
+      "txgnn": {
+        "score": 0.9560744762420654,
+        "rank": 25203
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "13321467",
+            "title": "[Bentyl hydrochloride in therapy of gastritis and gastroduodenal ulcers].",
+            "authors": [
+              "SCHLEPPER G"
+            ],
+            "journal": "Die Medizinische",
+            "year": "1956",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early clinical report / Case series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dicyclomine（Bentyl）作為抗膽鹼劑可減少胃酸分泌、緩解胃十二指腸平滑肌痙攣，對胃十二指腸炎之痙攣性症狀具機轉合理性。1956 年文獻直接報告 Bentyl（即 Dicyclomine）用於胃炎及胃十二指腸潰瘍治療，屬早期臨床應用紀錄。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "faciodigitogenital syndrome",
+      "txgnn": {
+        "score": 0.93773752450943,
+        "rank": 29205
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Aarskog-Scott 症候群為 X 染色體連鎖遺傳性疾病（FGD1 基因突變），導致顏面、手指及生殖器異常發育。Dicyclomine 的抗膽鹼機制對此遺傳性發育疾病無已知治療路徑。此預測為明顯假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "peptic ulcer disease",
+      "txgnn": {
+        "score": 0.9325539469718932,
+        "rank": 30190
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6378733",
+            "title": "Factors influencing the healing rate of gastric ulcer in hospitalised subjects.",
+            "authors": [
+              "Okada M",
+              "Yao T",
+              "Fuchigami T",
+              "Imamura K",
+              "Omae T"
+            ],
+            "journal": "Gut",
+            "year": "1984",
+            "abstract": "A multiple linear regression analysis was carried out on 75 inpatients with gastric ulcer. In order to elucidate the effects of various factors - endoscopic and roentgenological findings, age, sex, medical history, and drugs such as antacids, anticholinergics or both - on the healing rate, these factors were compared between those with ulcer which healed within eight weeks after treatment and those which did not. In patients over 50 years of age, alcohol consumption of over 60 g per day until ad",
+            "classification": {
+              "study_type": "Cohort / Observational study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6825995",
+            "title": "Postprandial hypoglycemia after Nissen fundoplication for reflux esophagitis.",
+            "authors": [
+              "Zaloga G P",
+              "Chernow B"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1983",
+            "abstract": "The motility of the stomach is modulated by the complex interplay of muscular, humoral, and neuronal factors. Rapid gastric emptying has been described after gastrectomy, gastrojejunostomy, vagotomy with pyloroplasty, and with active peptic ulcer disease. Rapid emptying may result in \"dumping\" syndrome and in postprandial hypoglycemia. We report a patient who developed postprandial hypoglycemia after a Nissen fundoplication for reflux esophagitis. This is the first report of this complication af",
+            "classification": {
+              "study_type": "Clinical study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13104594",
+            "title": "Acute glaucoma in patient with peptic ulcer; case report on use of a new antispasmodic, bentyl hydrochloride.",
+            "authors": [
+              "BROWN D W",
+              "GUILBERT G D"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "1953",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14864967",
+            "title": "Kolantyl, a new antispasmodic preparation for combined therapy of peptic ulcer; a preliminary report.",
+            "authors": [
+              "HUFFORD A R"
+            ],
+            "journal": "The Review of gastroenterology",
+            "year": "1951",
+            "abstract": "",
+            "classification": {
+              "study_type": "Preliminary clinical report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14784818",
+            "title": "A new antispasmodic: Bentyl hydrochloride; a preliminary experience.",
+            "authors": [
+              "HUFFORD A R"
+            ],
+            "journal": "Journal - Michigan State Medical Society",
+            "year": "1950",
+            "abstract": "",
+            "classification": {
+              "study_type": "Preliminary clinical report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13321467",
+            "title": "[Bentyl hydrochloride in therapy of gastritis and gastroduodenal ulcers].",
+            "authors": [
+              "SCHLEPPER G"
+            ],
+            "journal": "Die Medizinische",
+            "year": "1956",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early clinical report / Case series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抗膽鹼劑在 H2 拮抗劑和 PPI 問世前（1970-1990年代前）曾廣泛用於消化性潰瘍，機轉為抑制胃酸分泌（M1/M3 拮抗）及緩解痙攣。Dicyclomine（Bentyl）1950-1956 年文獻顯示其早期臨床應用歷史。然而現代消化性潰瘍治療典範已根本轉變（H. pylori 根除 + PPI），抗膽鹼劑已不再為標準治療選項。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "autonomic nervous system disease",
+      "txgnn": {
+        "score": 0.8796342015266418,
+        "rank": 36773
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自律神經系統疾病為廣泛分類，Dicyclomine 作為抗膽鹼劑直接作用於副交感神經系統（muscarinic receptor），理論上對副交感神經亢進型自律神經失調具機轉關聯。但此診斷節點過於廣泛，需細分具體亞型才能評估可行性，且目前無任何臨床資料支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "autonomic nervous system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "autonomic nervous system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dicyclomine",
+        "disease": "autonomic nervous system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

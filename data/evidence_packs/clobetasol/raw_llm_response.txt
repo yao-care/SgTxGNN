@@ -1,0 +1,441 @@
+## Clobetasol (DB11750) 藥物再利用證據分析
+
+分析各適應症的臨床試驗相關性、文獻品質及機轉連結後，以下為完整評估結果：
+
+---
+
+```json
+{
+  "drug": "Clobetasol",
+  "drugbank_id": "DB11750",
+  "analysis_date": "2026-04-04",
+  "drug_profile_note": "Clobetasol propionate 為第一級（最強效）局部皮質類固醇，作用機轉為活化糖皮質素受體（GR），產生抗炎與免疫抑制效果。雖 MoA 欄位標記 [Data Gap]，但其藥理機轉有大量文獻支持。",
+  "indications": [
+    {
+      "disease_name": "primary cutaneous T-cell lymphoma",
+      "txgnn_score": 0.9951,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clobetasol 作為強效局部 GR 促效劑，可抑制皮膚局部 T 細胞浸潤與細胞激素釋放（IL-2、IFN-γ），對早期 mycosis fungoides（MF）patch/plaque 期有直接療效。此為皮膚科實務中已採用的治療方式，但僅限局部病灶，進展期或全身性 CTCL 無效。",
+      "risk_flags": [
+        "長期使用導致皮膚萎縮、毛細血管擴張",
+        "HPA axis 抑制（大面積使用）",
+        "可能掩蓋疾病進展"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32603400",
+          "title": "Topical clobetasol propionate treatment and cutaneous adverse effects in patients with early-stage mycosis fungoides",
+          "year": "2020",
+          "study_type": "Retrospective observational study",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "直接研究 clobetasol 於早期 MF 之療效與不良反應，為最關鍵的直接證據，但為回顧性研究非 RCT"
+        },
+        {
+          "pmid": "30677799",
+          "title": "Lymphomatoid papulosis",
+          "year": "2018",
+          "study_type": "Review/Case series",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "LyP 為 CTCL 相關疾病，文章描述局部皮質類固醇於 CTCL 譜系疾病之使用情境"
+        },
+        {
+          "pmid": "23773745",
+          "title": "Papular mycosis fungoides",
+          "year": "2013",
+          "study_type": "Case report/series",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "MF 少見型態案例描述，間接支持局部皮質類固醇在 MF 治療脈絡中的使用"
+        },
+        {
+          "pmid": "26303240",
+          "title": "Woringer-Kolopp disease mimicking psoriasis",
+          "year": "2015",
+          "study_type": "Case report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "Pagetoid reticulosis 案例，與 clobetasol 使用關聯僅為間接"
+        },
+        {
+          "pmid": "28031140",
+          "title": "Cutaneous Presentation of Angioimmunoblastic T-Cell Lymphoma",
+          "year": "2016",
+          "study_type": "Case report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "AITL 皮膚表現，非局部 clobetasol 直接治療對象"
+        }
+      ],
+      "evidence_summary": "有 2 篇直接涉及 clobetasol 於早期 MF 使用之文獻（PMID 32603400 為最強），其餘為 CTCL 相關病例描述。整體屬 L3 回顧性研究層級，但符合皮膚科實務共識，建議附加嚴格監測條件下推進。"
+    },
+    {
+      "disease_name": "lymphosarcoma",
+      "txgnn_score": 0.9888,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Lymphosarcoma（舊稱，現歸類為 NHL 之一）若有皮膚浸潤表現，局部 clobetasol 之 GR 活化可抑制腫瘤微環境中的免疫細胞活化。然而 lymphosarcoma 為系統性疾病，局部皮質類固醇僅能控制皮膚症狀而無法治療根本疾病。",
+      "risk_flags": [
+        "掩蓋系統性疾病惡化指標",
+        "免疫抑制可能促進淋巴瘤進展",
+        "NCT01313221 研究藥物為 etanercept，非 clobetasol，試驗相關性低"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01313221",
+          "title": "A Randomized, Blinded Assessor Study to Evaluate the Efficacy and Safety of Etanercept 50mg Once Weekly",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 310,
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 etanercept（TNF-α 抑制劑），非 clobetasol；試驗適應症與 lymphosarcoma 關聯不明確，可能為自體免疫或皮膚疾病試驗被誤歸類，對本適應症評估貢獻極低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39741016",
+          "title": "Comparison of the efficacy of treatment with clobetasol propionate or bexarotene in early-stage mycosis fungoides",
+          "year": "2025",
+          "study_type": "Comparative study (likely retrospective)",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "最新（2025 年）直接比較 clobetasol vs bexarotene 於早期 MF（cutaneous T-cell lymphoma 之主要型）療效，為本適應症最關鍵文獻"
+        },
+        {
+          "pmid": "16704661",
+          "title": "Topical mechlorethamine and clobetasol in multifocal primary cutaneous marginal zone-B cell lymphoma",
+          "year": "2006",
+          "study_type": "Case report/series",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "直接描述 clobetasol 與 mechlorethamine 聯合用於皮膚 B 細胞淋巴瘤，但病例數極少"
+        },
+        {
+          "pmid": "32603400",
+          "title": "Topical clobetasol propionate treatment and cutaneous adverse effects in early-stage MF",
+          "year": "2020",
+          "study_type": "Retrospective study",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "MF 與 lymphosarcoma 分類重疊，此研究提供 clobetasol 局部治療皮膚淋巴瘤之間接支持"
+        },
+        {
+          "pmid": "33026773",
+          "title": "Persistent Agminated CD30+ Lymphoproliferative Disorder",
+          "year": "2020",
+          "study_type": "Case report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "CD30+ 淋巴增生性疾病案例，關聯性間接"
+        }
+      ],
+      "evidence_summary": "以皮膚淋巴瘤（尤其 MF）為主軸的 L3 回顧性證據，有 2025 年比較研究支持。但 lymphosarcoma 作為系統性 NHL，使用 clobetasol 僅能作為皮膚症狀的輔助治療，非根治性方案，建議定義為研究問題（皮膚症狀緩解之輔助角色）。"
+    },
+    {
+      "disease_name": "cystic teratoma",
+      "txgnn_score": 0.9888,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "缺乏合理機轉連結。囊性畸胎瘤（皮樣囊腫）為胚胎發育性良性腫瘤，含三胚層組織，其病理為組織異位而非炎症性，局部皮質類固醇無已知治療機轉。",
+      "risk_flags": [
+        "完全無臨床或機轉依據",
+        "TxGNN 預測可能為知識圖譜路徑誤導（共享皮膚相關節點）"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零相關文獻，無生物學合理性。此預測應視為知識圖譜噪訊，建議停止（Hold）。"
+    },
+    {
+      "disease_name": "Crohn's colitis",
+      "txgnn_score": 0.9888,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "局部皮質類固醇可抑制 NF-κB 路徑，減少 TNF-α、IL-6 等促炎細胞激素，對 Crohn's 病的炎症機轉具理論相關性。然而 Clobetasol 為局部外用製劑，系統吸收有限，文獻證據集中於皮膚/黏膜 Crohn's 表現（如肛周、口腔）而非腸道炎症本體。",
+      "risk_flags": [
+        "大面積或長期使用致系統性吸收（Cushing syndrome 風險，見 PMID 33902425）",
+        "腸道 Crohn's 需系統性治療，局部外用路徑不適",
+        "免疫抑制可能增加腸道感染風險"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18186842",
+          "title": "Cutaneous penile and perianal Crohn's disease treated with medical and surgical intervention",
+          "year": "2008",
+          "study_type": "Case report/series",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "描述 clobetasol 用於 Crohn's 病皮膚及肛周表現，為間接支持（皮膚 Crohn's，非腸炎）"
+        },
+        {
+          "pmid": "33902425",
+          "title": "Topical Clobetasol: An Overlooked Cause of Cushing Syndrome",
+          "year": "2021",
+          "study_type": "Case report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "安全性警示：Crohn's 病患若大面積使用 clobetasol 可導致類庫欣症，為重要安全性參考而非療效依據"
+        },
+        {
+          "pmid": "12066767",
+          "title": "Cheilitis granulomatosa: overview of 13 patients with long-term follow-up",
+          "year": "2002",
+          "study_type": "Case series",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "Melkersson-Rosenthal 症候群/Crohn's 相關肉芽腫性唇炎管理，間接涉及皮質類固醇使用"
+        },
+        {
+          "pmid": "19279428",
+          "title": "Early corticosteroid administration improves healing of peristomal pyoderma gangrenosum",
+          "year": "2009",
+          "study_type": "Case series",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "腸造口旁壞疽性膿皮症（Crohn's 腸外表現）使用局部皮質類固醇，間接相關"
+        }
+      ],
+      "evidence_summary": "L4 間接證據：clobetasol 僅對 Crohn's 病的皮膚/黏膜外在表現有輔助角色，對腸道炎症（Crohn's colitis 本體）無直接治療路徑。安全性疑慮（Cushing syndrome）明確記載。建議 Hold，若要研究應聚焦皮膚表現輔助治療的明確定義研究問題。"
+    },
+    {
+      "disease_name": "spinal cord dermoid cyst",
+      "txgnn_score": 0.9887,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊髓皮樣囊腫為先天性發育異常，治療為外科切除。局部外用皮質類固醇在此情境下無任何進入病灶的生理途徑，亦無理論上的治療機轉。",
+      "risk_flags": [
+        "完全無臨床或機轉依據",
+        "解剖學路徑不可行（脊髓病變無法由外用藥物到達）"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零相關文獻，無生物學合理性且解剖路徑不可行。Hard Stop。"
+    },
+    {
+      "disease_name": "disease of orbital part of eye adnexa",
+      "txgnn_score": 0.9886,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼附器疾病（淚腺、眼瞼）雖部分為炎症性（如眼眶假性腫瘤），系統性皮質類固醇為主要治療。外用 clobetasol 對眼附器內部病變無滲透路徑；眼瞼皮膚使用強效局部皮質類固醇有青光眼和白內障風險。",
+      "risk_flags": [
+        "眼周 clobetasol 使用有明確安全禁忌（青光眼、白內障、皮膚萎縮）",
+        "零文獻零試驗支持"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零相關文獻，且有已知眼周使用安全禁忌。Hard Stop。"
+    },
+    {
+      "disease_name": "disease of orbital region",
+      "txgnn_score": 0.9877,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼眶炎症性疾病（如甲狀腺眼病、特發性眼眶炎症）理論上受益於皮質類固醇的抗炎效果，但需要系統性給藥。所列臨床試驗均非評估 clobetasol 用於眼眶病變，試驗相關性極低。",
+      "risk_flags": [
+        "所列 Phase 3 試驗標題截斷，無法確認與 clobetasol 或眼眶疾病的直接關聯",
+        "NCT00102557 明確為口腔扁平苔癬試驗，分類錯誤",
+        "眼周強效局部類固醇使用有 IOP 升高、白內障等嚴重副作用"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04246801",
+          "title": "A Phase 3, Multicenter, Randomized, Double-Masked Clinical Trial to Assess the Efficacy and Safety o[f...]",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 250,
+          "relevance_grade": "C",
+          "reasoning": "標題截斷，研究藥物不明，無法確認與 clobetasol 的關聯；完整標題顯示可能為另一藥物（如 teprotumumab）用於甲狀腺眼病的試驗，被誤歸類至此適應症"
+        },
+        {
+          "nct_id": "NCT00102557",
+          "title": "Hydroxychloroquine Versus Clobetasol 0.05% Rinse for the Treatment of Oral Lichen Planus",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 74,
+          "relevance_grade": "C",
+          "reasoning": "明確為口腔扁平苔癬試驗，與眼眶疾病完全無關；雖涉及 clobetasol，但適應症歸類錯誤，不支持此適應症評估"
+        },
+        {
+          "nct_id": "NCT04249076",
+          "title": "A Phase 3, Multicenter, Randomized, Double-Masked Clinical Trial to Assess the Efficacy and Safety o[f...]",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 215,
+          "relevance_grade": "C",
+          "reasoning": "同 NCT04246801，標題截斷，研究藥物與眼眶病適應症關聯不明，可能為誤歸類"
+        }
+      ],
+      "literature_analysis": [],
+      "evidence_summary": "3 個臨床試驗均相關性不足（C 級）：2 個標題截斷無法確認，1 個明確為口腔扁平苔癬試驗。零相關文獻。整體 L4，安全疑慮存在，建議 Hold。"
+    },
+    {
+      "disease_name": "dermoid cyst of ovary",
+      "txgnn_score": 0.9874,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢皮樣囊腫（成熟型囊性畸胎瘤）為良性生殖細胞腫瘤，標準治療為腹腔鏡手術切除。皮質類固醇對此良性腫瘤無任何治療機轉，外用 clobetasol 亦無法到達卵巢病灶。",
+      "risk_flags": [
+        "完全無臨床或機轉依據",
+        "解剖路徑不可行"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零相關文獻，無生物學合理性且解剖路徑不可行。Hard Stop。"
+    },
+    {
+      "disease_name": "candidiasis",
+      "txgnn_score": 0.9860,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "【重要警示】Clobetasol 的免疫抑制效果理論上會惡化念珠菌感染，而非治療。文獻中 clobetasol 與念珠菌的關聯主要來自：(1) 口腔扁平苔癬（OLP）患者使用 clobetasol 後出現繼發性念珠菌感染的管理，需合併抗真菌藥物（miconazole、nystatin）；(2) 益生菌輔助 clobetasol 以預防繼發性感染。這是 clobetasol 作為念珠菌感染的誘因而非治療藥物的關係。",
+      "risk_flags": [
+        "Clobetasol 可能誘發或加重念珠菌感染（免疫抑制效果）",
+        "口腔及皮膚皺折處使用風險尤高",
+        "NCT06119672 研究益生菌以預防 clobetasol 引起的念珠菌感染，反映此因果關係",
+        "此適應症方向可能為「逆因果」——clobetasol 是念珠菌感染的危險因子"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03320460",
+          "title": "Efficacy of Photobiomodulation for Oral Lichen Planus Treatment",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 44,
+          "relevance_grade": "C",
+          "reasoning": "研究光生物調控（非 clobetasol）用於口腔扁平苔癬，與念珠菌治療無直接關聯"
+        },
+        {
+          "nct_id": "NCT06119672",
+          "title": "Evaluation of the Efficacy of Supplementary Probiotic Capsules With Topical Clobetasol Propionate 0.05%",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 36,
+          "relevance_grade": "B",
+          "reasoning": "研究益生菌搭配 clobetasol，目的可能是預防 clobetasol 治療（OLP）中繼發性念珠菌感染，clobetasol 為背景治療而非針對念珠菌的藥物"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "10218041",
+          "title": "Topical corticosteroids in association with miconazole and chlorhexidine in the long-term management",
+          "year": "1999",
+          "study_type": "Clinical study (OLP management)",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "明確說明局部皮質類固醇（含 clobetasol）合併抗真菌藥（miconazole）以管理 OLP 同時控制念珠菌感染，支持「clobetasol 引起念珠菌感染需被管理」的框架"
+        },
+        {
+          "pmid": "8065723",
+          "title": "Double-blind clinical trial of 0.05% clobetasol propionate ointment",
+          "year": "1994",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance_grade": "C",
+          "reasoning": "早期 clobetasol RCT，可能為黏膜疾病（OLP 或苔癬硬化症），念珠菌感染為副作用監測項目而非主要療效指標"
+        },
+        {
+          "pmid": "34907617",
+          "title": "Efficacy and safety of a novel mucoadhesive clobetasol patch for treatment of erosive oral lichen planus",
+          "year": "2022",
+          "study_type": "Clinical trial",
+          "tier": 1,
+          "relevance_grade": "C",
+          "reasoning": "口腔扁平苔癬 clobetasol 新劑型研究，念珠菌感染為安全性監測指標，非適應症"
+        }
+      ],
+      "evidence_summary": "關鍵判斷：clobetasol 與念珠菌的關係為「誘因-結果」而非「藥物-治療靶點」。L4 間接證據僅支持 clobetasol 搭配抗真菌藥物管理繼發性念珠菌感染。作為念珠菌治療藥物本身，此推薦方向存在根本性邏輯問題（反因果），強烈建議 Hold。"
+    },
+    {
+      "disease_name": "polyp of vocal cord",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "聲帶息肉主要由機械性損傷（聲帶過度使用）引起，形成 Reinke's 間隙水腫性組織增生。標準治療為顯微喉鏡手術切除合併聲音訓練。皮質類固醇對急性喉炎有使用，但對已形成的聲帶息肉無消退證據；外用 clobetasol 亦無法到達聲帶病灶。",
+      "risk_flags": [
+        "完全無臨床或機轉依據",
+        "解剖路徑不可行（外用藥物無法到達聲帶）"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零相關文獻，無生物學合理性且解剖路徑不可行。Hard Stop。"
+    }
+  ],
+  "overall_summary": {
+    "actionable_indications": [
+      {
+        "disease_name": "primary cutaneous T-cell lymphoma",
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "priority": "HIGH",
+        "rationale": "最強證據，有直接臨床研究（PMID 32603400, 39741016），符合皮膚科實務共識"
+      },
+      {
+        "disease_name": "lymphosarcoma",
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "priority": "MEDIUM",
+        "rationale": "以皮膚淋巴瘤輔助治療為定位，需明確研究問題範圍"
+      }
+    ],
+    "monitor_indications": [
+      {
+        "disease_name": "Crohn's colitis",
+        "note": "限皮膚/黏膜表現之輔助治療，非腸道炎症本體"
+      },
+      {
+        "disease_name": "disease of orbital region",
+        "note": "試驗歸類疑有錯誤，需重新驗證數據來源"
+      },
+      {
+        "disease_name": "candidiasis",
+        "note": "逆因果警示：clobetasol 為念珠菌感染誘因，非治療藥物"
+      }
+    ],
+    "hard_stop_indications": [
+      "cystic teratoma",
+      "spinal cord dermoid cyst",
+      "disease of orbital part of eye adnexa",
+      "dermoid cyst of ovary",
+      "polyp of vocal cord"
+    ],
+    "data_quality_concerns": [
+      "NCT01313221 研究藥物為 etanercept，非 clobetasol，歸類錯誤",
+      "NCT00102557 為口腔扁平苔癬試驗，被歸類至 'disease of orbital region'，疑似分類錯誤",
+      "NCT04246801 和 NCT04249076 標題截斷，無法確認與 clobetasol 的關聯",
+      "candidiasis 適應症存在根本性逆因果問題，需重新評估 TxGNN 預測邏輯"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣總覽
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| Primary cutaneous T-cell lymphoma | 0.9951 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| Lymphosarcoma | 0.9888 | **L3** | **S2** | 🔬 Research Question |
+| Crohn's colitis | 0.9888 | L4 | S1 | ⏸ Hold（限皮膚表現） |
+| Disease of orbital region | 0.9877 | L4 | S1 | ⏸ Hold（試驗分類疑誤） |
+| Candidiasis | 0.9860 | L4 | S1 | 🚫 Hold（**逆因果警示**） |
+| Cystic teratoma | 0.9888 | L5 | S0 | 🛑 Hard Stop |
+| Spinal cord dermoid cyst | 0.9887 | L5 | S0 | 🛑 Hard Stop |
+| Disease of orbital part of eye adnexa | 0.9886 | L5 | S0 | 🛑 Hard Stop |
+| Dermoid cyst of ovary | 0.9874 | L5 | S0 | 🛑 Hard Stop |
+| Polyp of vocal cord | 0.9859 | L5 | S0 | 🛑 Hard Stop |
+
+> ⚠️ **重要發現**：本批次 TxGNN 高分預測（>0.98）中，5/10 適應症無任何臨床文獻或機轉依據，顯示模型在此藥物的預測存在**過度泛化**問題，建議審查知識圖譜節點連結品質。Candidiasis 適應症更存在**逆因果**邏輯問題，需特別標記。

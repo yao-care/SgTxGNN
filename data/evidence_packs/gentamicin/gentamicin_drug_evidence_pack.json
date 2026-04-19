@@ -1,0 +1,1796 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00798-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gentamicin",
+    "drugbank_id": "DB00798",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9776055216789246,
+        "rank": 18162
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00872066",
+            "title": "A Prospective, Randomised, Uncontrolled, Single-Centre, Post-Market Surveillance Study To Evaluate The Performance Of SmartSet® HV and SmartSet® GHV Bone Cements In Primary Cemented Total Hip Arthroplasty(THA)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 243,
+            "start_date": "2006-03",
+            "completion_date": "2016-07",
+            "brief_summary": "The purpose of this study is to monitor the performance of artificial hip joints implanted with two different bone cements, SmartSet® HV and SmartSet® GHV, in the treatment of patients with hip joint disease requiring a total hip replacement. Patients who enter the study will be randomly allocated to SmartSet® HV or SmartSet® GHV and will be evaluated at regular intervals following hip surgery using patient, clinical and x-ray assessments",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 上市後監測研究（n=243，completed）。標題截斷，結合Phase 4性質推斷為評估含Gentamicin骨科產品（如Gentamicin-PMMA骨水泥珠）在RA相關關節手術中的安全性/有效性監測，而非直接以Gentamicin治療RA疾病本身。相關性評為C級：提供RA患者使用Gentamicin的安全性數據，但不支持疾病修飾作用。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40293759",
+            "title": "Non-Cystic Fibrosis Bronchiectasis in Adults: A Review.",
+            "authors": [
+              "Barker Alan F",
+              "Karamooz Elham"
+            ],
+            "journal": "JAMA",
+            "year": "2025",
+            "abstract": "Non-cystic fibrosis (CF) bronchiectasis is a chronic lung condition caused by permanent bronchial dilatation and inflammation and is characterized by daily cough, sputum, and recurrent exacerbations. Approximately 500 000 people in the US have non-CF bronchiectasis.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33827581",
+            "title": "Helicobacter canis bacteraemia in a rheumatoid arthritis patient treated with tofacitinib: case report and literature review.",
+            "authors": [
+              "Mihevc Matic",
+              "Koren Krajnc Metka",
+              "Bombek Ihan Maja",
+              "Holc Iztok"
+            ],
+            "journal": "Annals of clinical microbiology and antimicrobials",
+            "year": "2021",
+            "abstract": "Non-Helicobacter pylori species (NHPS) are newly emerging bacteria that naturally inhabit birds and mammals apart from humans and rarely cause diseases in humans. In recent years, a rise in the number of cases associated with NHPS infections in humans has been observed. Among them, infections with Helicobacter (H.) canis are sporadic and challenging to recognise clinically. To date, ten cases of H. canis infections in mainly immunocompromised humans have been reported in the literature. Transmis",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12447049",
+            "title": "Wet wound healing.",
+            "authors": [
+              "Vranckx Jan J",
+              "Slama Jaromir",
+              "Preuss Stefan",
+              "Perez Norvin",
+              "Svensjö Tor"
+            ],
+            "journal": "Plastic and reconstructive surgery",
+            "year": "2002",
+            "abstract": "Wound treatment in a flexible transparent chamber attached to the perimeter of the wound and containing a liquid has been extensively tested in preclinical experiments in pigs and found to offer several advantages. It protects the wound; the liquid medium or saline in the chamber provides in vivo tissue culture-like conditions; and antibiotics, analgesics, and various molecules can be delivered to the wound through the chamber. The wound chamber causes no injury to the wound itself or to the sur",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31683054",
+            "title": "A novel NFKBIA variant substituting serine 36 of IκBα causes immunodeficiency with warts, bronchiectasis and juvenile rheumatoid arthritis in the absence of ectodermal dysplasia.",
+            "authors": [
+              "Sogkas Georgios",
+              "Adriawan Ignatius R",
+              "Ringshausen Felix C",
+              "Baumann Ulrich",
+              "Schröder Claudia"
+            ],
+            "journal": "Clinical immunology (Orlando, Fla.)",
+            "year": "2020",
+            "abstract": "Genetic studies have led to identification of an increasing number of monogenic primary immunodeficiency disorders. Monoallelic pathogenic gain-of-function (GOF) variants in NFKBIA, the gene encoding IκBα, result in an immunodeficiency disorder, typically accompanied by anhidrotic ectodermal dysplasia (EDA). So far, 14 patients with immunodeficiency due to NFKBIA GOF mutations have been reported. In this study we report three patients from the same family with immunodeficiency, presenting with r",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14649677",
+            "title": "The combination of systemic antibiotics and antibiotics impregnated cement in primary total knee arthroplasty in patients of rheumatoid arthritis--evaluation of 60 knees.",
+            "authors": [
+              "Liu Hsin-Tung",
+              "Chiu Fang-Yao",
+              "Chen Chuan-Mu",
+              "Chen Tain-Hsiung"
+            ],
+            "journal": "Journal of the Chinese Medical Association : JCMA",
+            "year": "2003",
+            "abstract": "We evaluated the effect of combination of systemic antibiotics and antibiotics-impregnated cement in prevention of deep infection in primary total knee arthroplasty (TKA) in patients of rheumatoid arthritis (RA).",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11233881",
+            "title": "[Microbiological and immunological monitoring in polyarticular rheumatoid arthritis after total joint replacement].",
+            "authors": [
+              "Kunz D",
+              "Sagel U",
+              "Schenk K",
+              "Neumann W",
+              "König W"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2001",
+            "abstract": "A 51-year-old man with polyarticular rheumatoid arthritis since the age of 10 years, which had required three total joint replacements, presented in a generally good condition for replacement of the left elbow joint, which was swollen and had reduced movement.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20374322",
+            "title": "Pericardial effusions with tamponade and visceral constriction in patients with rheumatoid arthritis on tumour necrosis factor (TNF)-inhibitor therapy.",
+            "authors": [
+              "Soh May Ching",
+              "Hart Hamish H",
+              "Corkill Michael"
+            ],
+            "journal": "International journal of rheumatic diseases",
+            "year": "2009",
+            "abstract": "Tumour necrosis factor-inhibitor (TNF-inhibitor) therapy is increasingly used for the treatment of rheumatoid arthritis. While it is effective for the articular manifestations of rheumatoid arthritis we have reason to believe that it is less effective for extra-articular disease. We present two cases of life-threatening cardiac tamponade in two patients with well-controlled rheumatoid arthritis on adalimumab. An extensive literature search was carried out and three other patients were found. We ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40119266",
+            "title": "A case of septic shock caused by drug-resistant Edwardsiella tarda and literature review.",
+            "authors": [
+              "Zhou Yan",
+              "Ren De",
+              "Li Yin",
+              "Gui Shuiqing"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2025",
+            "abstract": "Edwardsiella tarda (E. tarda) causes highly mortality, which is rare in septic patients. We herein reported a case of septic shock caused by drug-resistant E. tarda.",
+            "classification": {
+              "study_type": "Case Report/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41221316",
+            "title": "RISK FACTORS, PREVENTION, AND TREATMENT OF INFECTIONS RELATED TO TOTAL HIP ARTHROPLASTY: SYNTHESIS OF CLINICAL EVIDENCE.",
+            "authors": [
+              "Abati Tiago Afonso Silva",
+              "Bononi Marco Antonio",
+              "Lima Rafael Costa",
+              "Veiga Israel Scholtz"
+            ],
+            "journal": "Acta ortopedica brasileira",
+            "year": "2025",
+            "abstract": "Total hip arthroplasty (THA) is a complex surgery and is indicated for the treatment of degenerative diseases such as osteoarthritis, rheumatoid arthritis and osteonecrosis, as well as femoral neck fractures. This procedure aims to restore mobility, relieve pain and improve patients' quality of life. However, infections, especially periprosthetic joint infection (PJI), are serious complications that can compromise the success of the surgery. To identify risk factors, as well as methods of preven",
+            "classification": {
+              "study_type": "Systematic Review/Synthesis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4579913",
+            "title": "Serratia arthritis. Medical eradication of infection in a patient with rheumatoid arthritis.",
+            "authors": [
+              "Dorwart B B",
+              "Abrutyn E",
+              "Schumacher H R"
+            ],
+            "journal": "JAMA",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36074653",
+            "title": "Acinetobacter baumannii-calcoaceticus Complex-associated Orbital Cellulitis: A Case Report and Literature Review.",
+            "authors": [
+              "Lai Kenneth K H",
+              "Wang Sarah",
+              "Kuk Andrew K T",
+              "Tsang Alan",
+              "Tai Jacqueline H C"
+            ],
+            "journal": "Ocular immunology and inflammation",
+            "year": "2023",
+            "abstract": "Acinetobacter baumannii-calcoaceticus complex is emerging as one of the most common causes of hospital-acquired infection globally. We present a case of orbital cellulitis caused by the A. baumannii-calcoaceticus complex. A 73-year-old Chinese woman with a history of rheumatoid arthritis presented with subacute onset of right upper eyelid swelling for 1 week. Computer tomography revealed a post-septal soft tissue lesion located at the right superior orbit that was enhanced with contrast, compres",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23841940",
+            "title": "Dolosigranulum pigrum keratitis: a three-case series.",
+            "authors": [
+              "Sampo Magali",
+              "Ghazouani Oaufeh",
+              "Cadiou Dominique",
+              "Trichet Elodie",
+              "Hoffart Louis"
+            ],
+            "journal": "BMC ophthalmology",
+            "year": "2013",
+            "abstract": "Dolosigranulum pigrum is a commensal inhabitant of the upper respiratory tract suspected to be responsible for ocular infections but no well-described case of D. pigrum corneal infection has been reported. Herein culture and PCR-sequencing-based investigations of corneal scraping specimens confirmed D. pigrum keratitis in three patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7019786",
+            "title": "Cefoxitin-associated renal failure.",
+            "authors": [
+              "Reddy J",
+              "Bailey R R"
+            ],
+            "journal": "The New Zealand medical journal",
+            "year": "1981",
+            "abstract": "Two elderly women suffered an acute deterioration of renal function after treatment with cefoxitin sodium. One with stable chronic renal failure due to reflux nephropathy underwent a rapid deterioration of renal function which proved fatal. The other woman had rheumatoid arthritis and developed acute tubular necrosis after treatment with gentamicin and cefoxitin. All the data suggested that the antibiotic was responsible for the deterioration in renal function. The dose of cefoxitin should be re",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33663589",
+            "title": "Controversy of indomethacin eye drops in the treatment of rheumatoid arthritis-induced corneal ulceration: a case report.",
+            "authors": [
+              "Nicoară Simona Delia",
+              "Damian Ioana"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2021",
+            "abstract": "Perforation of the cornea is a rare finding in patients with rheumatoid arthritis (RA). Addressing a perforated cornea associated with RA is challenging, since its pathogenesis is not fully elucidated. Topical nonsteroidal anti-inflammatory drugs (NSAIDs) were developed to prevent cystoid macular edema following cataract surgery in patients at risk. Their prescription in inflammation of the anterior segment of the eye may induce negative effects on the ocular surface. We bring into focus a corne",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "832090",
+            "title": "Septic arthritis in rheumatoid disease.",
+            "authors": [
+              "Emmerson A M",
+              "Keane C T"
+            ],
+            "journal": "British medical journal",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2487744",
+            "title": "[Bacteroides distasonis meningitis].",
+            "authors": [
+              "Santoianni J E",
+              "Abalo A B",
+              "Figueroa A S",
+              "Predari S C"
+            ],
+            "journal": "Medicina",
+            "year": "1989",
+            "abstract": "A 50 year old woman while undergoing severe treatment for rheumatoid arthritis, developed anaerobic meningitis. The cerebrospinal fluid (CSF) sample was transported and cultivated aerobically and anaerobically. After 48 h at 37 degrees C the anaerobically incubated plate, the enriched fluid thioglycollate medium and the anaerobic culture medium yielded luxuriant growth of an anaerobic Gram negative bacillum. The biochemical and antimicrobial susceptibility patterns were consistent with those for",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35169373",
+            "title": "Is DAIR Still an Effective Way to Eradicate Acute Prosthetic Joint Infections? Our Experience in the Jordanian Royal Medical Services.",
+            "authors": [
+              "Ghnaimat Malik",
+              "Alyamani Almuthanna",
+              "Obeidat Mohammad",
+              "Jbarat Ashraf",
+              "Abushahot Mohammad"
+            ],
+            "journal": "Medical archives (Sarajevo, Bosnia and Herzegovina)",
+            "year": "2021",
+            "abstract": "Prosthetic joint infections is estimated to occur in 1-2% of primary total joint arthroplasty. Debridement, antibiotics, irrigation and retention of prosthesis (DAIR) is the traditional treatment for acute prosthetic joint infections.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32751547",
+            "title": "Slower Elimination of Tofacitinib in Acute Renal Failure Rat Models: Contribution of Hepatic Metabolism and Renal Excretion.",
+            "authors": [
+              "Bae Sung Hun",
+              "Chang Sun-Young",
+              "Kim So Hee"
+            ],
+            "journal": "Pharmaceutics",
+            "year": "2020",
+            "abstract": "Tofacitinib is a Jak inhibitor developed as a treatment for rheumatoid arthritis. Tofacitinib is metabolized mainly through hepatic CYP3A1/2, followed by CYP2C11. Rheumatoid arthritis tends to increase renal toxicity due to drugs used for long-term treatment. In this study, pharmacokinetic changes of tofacitinib were evaluated in rats with gentamicin (G-ARF) and cisplatin-induced acute renal failure (C-ARF). The time-averaged total body clearance (CL) of tofacitinib in G-ARF and C-ARF rats after",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33812255",
+            "title": "Daphnetin ameliorated GM-induced renal injury through the suppression of oxidative stress and apoptosis in mice.",
+            "authors": [
+              "Fan Xiaoye",
+              "Gu Wenjing",
+              "Gao Yun",
+              "Ma Ning",
+              "Fan Changqing"
+            ],
+            "journal": "International immunopharmacology",
+            "year": "2021",
+            "abstract": "Gentamicin (GM), an aminoglycoside antibiotic, is one of the most effective drugs used in the treatment of various types of bacterial infections, but the major adverse effect and drug-induced nephrotoxicity of GM limit its clinical applications. Daphnetin (Daph) is a natural coumarin derivative that is clinically used to treat rheumatoid arthritis and coagulopathy and exhibits antioxidant effects. However, the effect of Daph on GM-induced nephrotoxicity has not yet been elucidated. This study in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9836219",
+            "title": "Anaesthesia for scoliosis surgery in a patient on anticoagulant therapy.",
+            "authors": [
+              "Leitão L M",
+              "Isaac J B"
+            ],
+            "journal": "Paediatric anaesthesia",
+            "year": "1998",
+            "abstract": "Kyphoscoliosis surgery is frequently associated with major blood loss and coagulation disorders. A patient with juvenile rheumatoid arthritis, heart valve prosthesis and respiratory restrictive syndrome, was submitted to surgical correction of kyphoscoliosis. Current drug therapy included digitalis, oral anticoagulant and nonsteroidal anti-inflammatory drugs. After careful preoperative evaluation, oral anticoagulant and nonsteroidal anti-inflammatory drugs were discontinued (five and ten days be",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接抗RA機轉證據。現有證據集中於RA患者接受關節置換術時，Gentamicin作為感染預防藥物（抗生素浸潤骨水泥/膠原海綿）的外科輔助應用。潛在間接機轉：腸道/關節細菌抗原觸發RA自體免疫反應，抗生素介入可能降低免疫刺激；氨基糖苷類可能具有輕度NF-κB抑制活性，但尚未在RA背景下臨床驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "sclerosing cholangitis",
+      "txgnn": {
+        "score": 0.9749646186828612,
+        "rank": 19344
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28564649",
+            "title": "Oral Vancomycin and Gentamicin for Treatment of Very Early Onset Inflammatory Bowel Disease.",
+            "authors": [
+              "Lev-Tzion Raffi",
+              "Ledder Oren",
+              "Shteyer Eyal",
+              "Tan Michelle Li Nien",
+              "Uhlig Holm H"
+            ],
+            "journal": "Digestion",
+            "year": "2017",
+            "abstract": "The pathogenesis of inflammatory bowel disease (IBD) is complex and involves the contribution of genetic and environmental factors. Many patients with very early onset IBD are difficult to treat. The current antibiotic medication that targets gram-negative and anaerobic bacteria provides only moderate efficacy in subsets of patients with IBD.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086796",
+            "title": "Prophylaxis of post-ERC infectious complications in patients with biliary obstruction by adding antimicrobial agents into ERC contrast media- a single center retrospective study.",
+            "authors": [
+              "Wobser Hella",
+              "Gunesch Agnetha",
+              "Klebl Frank"
+            ],
+            "journal": "BMC gastroenterology",
+            "year": "2017",
+            "abstract": "Patients with biliary obstruction are at high risk to develop septic complications after endoscopic retrograde cholangiography (ERC). We evaluated the benefits of local application of antimicrobial agents into ERC contrast media in preventing post-ERC infectious complications in a high-risk study population.",
+            "classification": {
+              "study_type": "Prospective Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "口服抗生素（包括Gentamicin）在極早發型IBD中使用，部分此類患者可能合併IBD相關性原發性硬化性膽管炎（PSC）。腸道微生物組調節被認為是PSC的潛在治療靶點（口服vancomycin在PSC中有初步研究）。ERCP術後感染預防（包括PSC患者的常見介入手術）為Gentamicin的已知臨床背景。腸-肝軸（gut-liver axis）微生物干預機轉有理論基礎，但Gentamicin對PSC的直接療效未見研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9632234573364258,
+        "rank": 23397
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。潛在機轉假說：Gentamicin（及其他氨基糖苷類）可促進核糖體對premature termination codon（PTC）的read-through，若本症由無義突變（nonsense mutation）導致，理論上可部分恢復蛋白功能。但：(1)需確認具體突變類型；(2)Gentamicin全身長期暴露的腎毒性/耳毒性使此策略不可行；(3)骨骼/眼部發育異常的治療機會窗口極窄。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9528363347053528,
+        "rank": 26020
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。PTC read-through機轉在理論層面適用於特定無義突變型骨骼發育症候群，但骨骼畸形屬先天性結構異常，生後干預的治療意義有限；Gentamicin毒性不支持長期全身給藥。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn": {
+        "score": 0.9199256896972656,
+        "rank": 32345
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純計算預測。若本症涉及膠原蛋白IV型（COL4A）或其他基底膜蛋白的無義突變，PTC read-through理論上有相關性。然而：(1)本症累及腎臟（血尿），Gentamicin腎毒性構成明確禁忌風險；(2)無任何臨床前研究支持；(3)視網膜血管病變的機轉與Gentamicin已知藥理無交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn": {
+        "score": 0.9169902205467224,
+        "rank": 32814
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "authors": [
+              "Pagon R A"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurre",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle inte",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough exa",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "authors": [
+              "Savino P J"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "authors": [
+              "Roberts S M"
+            ],
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used i",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, approp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of pos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純計算預測。18篇文獻經分析均為先天性眼部異常的通用綜述（Axenfeld-Rieger症候群、眼部缺損、視神經異常等），係搜尋關鍵字「ocular anomalies」匹配所致，與Gentamicin治療腦小血管疾病無實質關聯。額外限制：血腦屏障穿透率極低，限制Gentamicin在CNS疾病的應用；腦小血管病變的主要機轉（NOTCH3突變、膠原蛋白異常）與Gentamicin藥理無已知交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn": {
+        "score": 0.9061940908432008,
+        "rank": 34165
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39990634",
+            "title": "Pathogen Distribution, Drug Resistance, and Postoperative High-Quality Nursing Intervention Effectiveness in Knee Osteoarthritis Patients After Knee Arthroplasty With Postoperative Infection.",
+            "authors": [
+              "Tang Yuanyuan",
+              "Fu Baihui",
+              "Tong Qun"
+            ],
+            "journal": "Journal of multidisciplinary healthcare",
+            "year": "2025",
+            "abstract": "To analyze the distribution and drug resistance of pathogens in patients with postoperative infection following knee arthroplasty (TKA) for knee osteoarthritis (KOA) and to explore the effectiveness of high-quality nursing interventions postoperatively.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Gentamicin在骨關節炎患者關節置換手術中作為感染預防藥物使用（外科適應症），但此為外科預防性應用，不能作為針對OA疾病本身的治療證據。無Gentamicin調節軟骨退化、滑膜炎症或OA疾病進展的機轉文獻。「Osteoarthritis susceptibility」為易感性/遺傳背景，非活動性疾病，治療框架更不適用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "diabetic nephropathy",
+      "txgnn": {
+        "score": 0.8991835117340088,
+        "rank": 34893
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24915992",
+            "title": "Fungal metabolite nigerloxin ameliorates diabetic nephropathy and gentamicin-induced renal oxidative stress in experimental rats.",
+            "authors": [
+              "Suresha Bharathinagar S",
+              "Srinivasan Krishnapura"
+            ],
+            "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "year": "2014",
+            "abstract": "Elevated polyol pathway enzyme activities and oxidative stress play an important role in the development and progression of diabetic nephropathy. Here, we investigated the beneficial influence of nigerloxin, a fungal metabolite and a potent aldose reductase inhibitor and free radical scavenger in the kidney of streptozotocin-induced diabetic rats. A group of diabetic rats was orally administered with nigerloxin for 30 days (100 mg/kg). Diabetic rats showed increased lipid peroxides, advanced gly",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18766456",
+            "title": "Pharmacokinetics of gentamicin in hemodialysis patients: a comparative study between diabetic and non-diabetic patients.",
+            "authors": [
+              "Al-Homrany Mohammed A",
+              "Irshaid Yacoub M",
+              "El Sherif Assem K",
+              "Omar Haider A"
+            ],
+            "journal": "International urology and nephrology",
+            "year": "2009",
+            "abstract": "Diabetic nephropathy is one of the leading causes of end-stage renal disease (ESRD). There is some evidence that differences in extracellular fluid volume and capillary permeability do exist between diabetic and non-diabetic patients. This may have an impact on the gentamicin volume of distribution and clearance and thus dosing regimen. The pharmacokinetic parameters of gentamicin [volume of distribution (Vd), clearance (CL), elimination rate constant (K), and half life of elimination (t((1/2)))",
+            "classification": {
+              "study_type": "PK Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22706107",
+            "title": "[Carnosine, carnosinase and kidney diseases].",
+            "authors": [
+              "Kiliś-Pstrusińska Katarzyna"
+            ],
+            "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
+            "year": "2012",
+            "abstract": "Carnosine (beta-alanyl-L-histidine) is an endogenously synthesized dipeptide which is present in different human tissues, including the kidney. Carnosine is hydrolyzed by the enzyme carnosinase. There are two carnosinase homologues: serum secreted carnosinase and non-specific cytosolic dipeptidase, encoded by the genes CNDP1 and CNDP2 respectively and located on chromosome 18q22.3. Carnosine functions as a radical oxygen species scavenger and as a natural angiotensin converting enzyme inhibitor.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16538977",
+            "title": "Urinary excretion of guanidinoacetic acid in rats with diabetic nephropathy.",
+            "authors": [
+              "Kiyatake I",
+              "Nakamura T",
+              "Koide H"
+            ],
+            "journal": "Renal failure",
+            "year": "2006",
+            "abstract": "Urinary guanidinoacetic acid (GAA) is a sensitive marker for gentamicin nephrotoxicity in rats. This study assesses the usefulness of GAA concentrations in the diagnosis of renal tubular injury in diabetic nephropathy. Serum, urine, and renal cortex samples were obtained from rats 1, 2, and 3 weeks after streptozotocin injection (65 mg/kg body weight). Guanidinoacetic acid levels were measured by high-performance liquid chromatography. N-acetyl-beta-D-glucosaminidase (NAG) activity in urine was ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8062313",
+            "title": "Pharmacokinetics of gentamicin in patients with various levels of diabetic proteinuria.",
+            "authors": [
+              "White J R",
+              "Freerksen A",
+              "Gould B",
+              "Sclar D A"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "1994",
+            "abstract": "Diabetic nephropathy is a relatively common medical problem. The effects of early-stage nephropathy on the kinetic disposition of renally cleared drugs have received little attention. This study evaluated single-dose pharmacokinetics of gentamicin in 15 patients with various levels of diabetic proteinuria who had relatively normal serum creatinine concentrations. These pharmacokinetic parameters were compared with predicted parameters based on the method used clinically in our institution. The c",
+            "classification": {
+              "study_type": "PK Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24191240",
+            "title": "Renoprotective effect of the antioxidant curcumin: Recent findings.",
+            "authors": [
+              "Trujillo Joyce",
+              "Chirino Yolanda Irasema",
+              "Molina-Jijón Eduardo",
+              "Andérica-Romero Ana Cristina",
+              "Tapia Edilia"
+            ],
+            "journal": "Redox biology",
+            "year": "2013",
+            "abstract": "For years, there have been studies based on the use of natural compounds plant-derived as potential therapeutic agents for various diseases in humans. Curcumin is a phenolic compound extracted from Curcuma longa rhizome commonly used in Asia as a spice, pigment and additive. In traditional medicine of India and China, curcumin is considered as a therapeutic agent used in several foods. Numerous studies have shown that curcumin has broad biological functions particularly antioxidant and antiinfla",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17935800",
+            "title": "Renoprotection by pituitary adenylate cyclase-activating polypeptide in multiple myeloma and other kidney diseases.",
+            "authors": [
+              "Li Min",
+              "Maderdrut Jerome L",
+              "Lertora Juan J L",
+              "Arimura Akira",
+              "Batuman Vecihi"
+            ],
+            "journal": "Regulatory peptides",
+            "year": "2008",
+            "abstract": "Renal involvement in patients with multiple myeloma complicates their treatment and shortens their life-span. The main renal lesion is a tubulointerstitial transformation with fibrosis, frequently associated with cast formation in the distal nephron that results from co-precipitation of pathological immunoglobulin light chains with Tamm-Horsfall proteins. The human renal proximal tubular reabsorption of excessive light chains by endocytosis causes cellular protein overload and activates the tran",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26155451",
+            "title": "Low-molecular-weight chitosan scavenges methylglyoxal and N (ε)-(carboxyethyl)lysine, the major factors contributing to the pathogenesis of nephropathy.",
+            "authors": [
+              "Chou Chu-Kuang",
+              "Chen Shih-Ming",
+              "Li Yi-Chieh",
+              "Huang Tzu-Chuan",
+              "Lee Jen-Ai"
+            ],
+            "journal": "SpringerPlus",
+            "year": "2015",
+            "abstract": "Methylglyoxal (MG) can cause protein glycation, resulting in cell damage and dysfunction. Accumulation of MG and its downstream metabolite N (ε)-(carboxyethyl)lysine (CEL) has been identified in several variations of nephropathy, including diabetic, hypertensive, and gentamicin-induced nephropathies. In this study, we investigated the effects of low-molecular-weight chitosan (lmw-chitosan) on MG-induced carbonyl stress in aristolochic acid-induced nephropathy. We used a buffer to investigate whe",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9481071",
+            "title": "Course and management of renal subcapsular abscess in a 63-year-old diabetic woman.",
+            "authors": [
+              "Yu W L",
+              "Jean S N",
+              "Chiang H J"
+            ],
+            "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+            "year": "1998",
+            "abstract": "Renal subcapsular abscess is a very rare disease that is defined by a suppurative process localized to a space between the renal capsule and the renal parenchyma. The course and management of subcapsular abscesses have received less attention than those of renal and perirenal abscesses. We describe a 63-year-old diabetic woman who presented with intermittent fever of 1 month's duration. She was initially treated for suspected acute pyelonephritis then referred to our hospital because of poor cli",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21621841",
+            "title": "Effects of pituitary adenylate cyclase activating polypeptide in the urinary system, with special emphasis on its protective effects in the kidney.",
+            "authors": [
+              "Reglodi Dora",
+              "Kiss Peter",
+              "Horvath Gabriella",
+              "Lubics Andrea",
+              "Laszlo Eszter"
+            ],
+            "journal": "Neuropeptides",
+            "year": "2012",
+            "abstract": "Pituitary adenylate cyclase activating polypeptide (PACAP) is a widespread neuropeptide with diverse effects in the nervous system and peripheral organs. One of the most well-studied effects of PACAP is its cytoprotective action, against different harmful stimuli in a wide variety of cells and tissues. PACAP occurs in the urinary system, from the kidney to the lower urinary tract. The present review focuses on the nephroprotective effects of PACAP and summarizes data obtained regarding the prote",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21348389",
+            "title": "Imaging of peritoneal catheter tunnel infection using positron-emission tomography.",
+            "authors": [
+              "Singh Pooja",
+              "Wiggins Brenda",
+              "Sun Yijuan",
+              "Servilla Karen S",
+              "Last Reuben E"
+            ],
+            "journal": "Advances in peritoneal dialysis. Conference on Peritoneal Dialysis",
+            "year": "2010",
+            "abstract": "Imaging by ultrasonography or scintigraphy may assist in the diagnosis and management of tunnel infections of the peritoneal dialysis (PD) catheter. Here, we report a case of tunnel infection in which imaging with positron-emission tomography (PET) correctly predicted failure of conservative management. A 61-year-old man with diabetic nephropathy commenced PD in January 2008. He developed erythema and drainage at the exit site, with negative cultures in February 2008, and frank exit-site infecti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16955110",
+            "title": "Tunneled catheters' outcome optimization among diabetics on dialysis through antibiotic-lock placement.",
+            "authors": [
+              "Saxena A K",
+              "Panhotra B R",
+              "Sundaram D S",
+              "Al-Hafiz A",
+              "Naguib M"
+            ],
+            "journal": "Kidney international",
+            "year": "2006",
+            "abstract": "Efficacy and safety of antibiotic 'locks', in prevention of thrombotic and infectious complication-related morbidity and mortality, among diabetics dialyzed through tunneled-cuffed catheters (TCCs) has not been effectively investigated. This trial was designed to investigate the outcome of TCCs (n = 109), inserted among 96 diabetic end-stage renal disease patients (March 2002-February 2003), by comparing the catheter thrombosis, catheter-related bloodstream infections (CRBSI), catheter survival,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16125744",
+            "title": "Diabetic mice are protected from normally lethal nephrotoxicity of S-1,2-dichlorovinyl-L-cysteine (DCVC): role of nephrogenic tissue repair.",
+            "authors": [
+              "Dnyanmote Ankur V",
+              "Sawant Sharmilee P",
+              "Lock Edward A",
+              "Latendresse John R",
+              "Warbritton Alan A"
+            ],
+            "journal": "Toxicology and applied pharmacology",
+            "year": "2006",
+            "abstract": "Streptozotocin (STZ)-induced diabetic (DB) rats are protected from nephrotoxicity of gentamicin, cisplatin and mercuric chloride, although the mechanisms remain unclear. Ninety percent of DB mice receiving a LD90 dose (75 mg/kg, ip) of S-1,2-dichlorovinyl-l-cysteine (DCVC) survived in contrast to only 10% of the nondiabetic (NDB) mice surviving the same dose. We tested the hypothesis that the mechanism of protection is upregulated tissue repair. In the NDB mice, DCVC produced steep temporal incr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19125150",
+            "title": "Urinary lipocalin-type prostaglandin D synthase: a potential marker for early gentamicin-induced renal damage?",
+            "authors": [
+              "Nakayama Hirokazu",
+              "Echizen Hirotoshi",
+              "Gomi Tomoko",
+              "Shibuya Yuko",
+              "Nakamura Yoshitsugu"
+            ],
+            "journal": "Therapeutic drug monitoring",
+            "year": "2009",
+            "abstract": "Urinary excretion of lipocalin-type prostaglandin D synthase (L-PGDS) has been suggested to be a useful biomarker of early diabetic nephropathy. We studied whether L-PGDS is also a marker of gentamicin (GM)-induced renal damage in the \"creatinine-blind\" range. A prospective study was conducted in 6 patients who were given long-term intravenous administration of GM (18-42 days in combination with a beta-lactam/carbapenem antibiotic or vancomycin) for the treatment of infective endocarditis. Urina",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24904085",
+            "title": "Blood kidney injury molecule-1 is a biomarker of acute and chronic kidney injury and predicts progression to ESRD in type I diabetes.",
+            "authors": [
+              "Sabbisetti Venkata S",
+              "Waikar Sushrut S",
+              "Antoine Daniel J",
+              "Smiles Adam",
+              "Wang Chang"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2014",
+            "abstract": "Currently, no blood biomarker that specifically indicates injury to the proximal tubule of the kidney has been identified. Kidney injury molecule-1 (KIM-1) is highly upregulated in proximal tubular cells following kidney injury. The ectodomain of KIM-1 is shed into the lumen, and serves as a urinary biomarker of kidney injury. We report that shed KIM-1 also serves as a blood biomarker of kidney injury. Sensitive assays to measure plasma and serum KIM-1 in mice, rats, and humans were developed an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20563608",
+            "title": "Peritonitis in type 2 diabetes mellitus due to Ochrobactrum anthropi complicating automated peritoneal dialysis.",
+            "authors": [
+              "Sepe Vincenzo",
+              "Esposito Pasquale",
+              "Sacco Laura",
+              "Ceci Adalgisa",
+              "Magrassi Anna"
+            ],
+            "journal": "Acta diabetologica",
+            "year": "2010",
+            "abstract": "Epidemiology data predict that by the year 2025, diabetes will affect about 380 million people worldwide with a significant increase in patients with chronic renal disease progressing to hemodialysis. Diabetes-related peripheral vascular disease is a major risk factor for vascular access failure in patients on extracorporeal hemodialysis. Although peritoneal dialysis is a valid option for diabetics, peritonitis is still a main complication for these patients. We report the case of a 71-year-old ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24341733",
+            "title": "A case of subacute infective endocarditis and blood access infection caused by Enterococcus durans.",
+            "authors": [
+              "Kenzaka Tsuneaki",
+              "Takamura Noriko",
+              "Kumabe Ayako",
+              "Takeda Koichi"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2013",
+            "abstract": "Infection by Enterococcus durans (E. durans) is very rare; reported cases are often preceded by therapy or an immunosuppressed state, including infective endocarditis, urinary tract infection, or wound infection. A few reported cases of infective endocarditis exist, with no reports describing involvement of blood access infection.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5404084",
+            "title": "[Preliminary results on the gentamicin effect in the urinary tract infections of diabetic subjects].",
+            "authors": [
+              "Montenero P",
+              "Donatone E"
+            ],
+            "journal": "Giornale italiano di chemioterapia",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6577582",
+            "title": "Clinical aspects of continuous ambulatory peritoneal dialysis.",
+            "authors": [
+              "Grefberg N"
+            ],
+            "journal": "Scandinavian journal of urology and nephrology. Supplementum",
+            "year": "1983",
+            "abstract": "Clinical aspects of Continuous Ambulatory Peritoneal Dialysis (CAPD) were studied in the first fifty patients started on CAPD at our hospital. CAPD was found to achieve good control of the uremic symptoms and of the biochemical values studied. Hypertension became less pronounced. The costs were found to be low. Twenty-four diabetic subjects were studied in detail. Intraperitoneal administration of insulin resulted in good metabolic control of the diabetes. The two catheters used for peritoneal a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "反向警示：Gentamicin通過氧化壓力、粒線體損傷及溶酶體失能誘導腎小管上皮細胞死亡。糖尿病腎病患者腎功能已受損，Gentamicin清除率降低導致藥物蓄積，毒性風險倍增。文獻中出現DN相關搜尋結果的原因：(1)Gentamicin在DN患者中的藥代動力學研究（給藥調整，非治療）；(2)多篇論文研究如何保護腎臟免受Gentamicin毒性。無任何文獻支持Gentamicin作為DN的治療藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.8889719843864441,
+        "rank": 35891
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。若本症由特定基因（如LIPH、HR基因）的無義突變引起，Gentamicin PTC read-through機轉在理論層面具潛力，但：(1)缺乏具體突變型別資料驗證；(2)毛髮稀少症與粟粒疹屬皮膚/毛囊發育障礙，局部給藥更合理但尚無研究；(3)Gentamicin系統性毒性不支持長期使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "txgnn": {
+        "score": 0.8873544335365295,
+        "rank": 36036
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "純計算預測，無任何臨床或臨床前文獻。MDS為造血幹細胞克隆性疾病，主要機轉涉及體細胞突變、表觀遺傳調控異常及造血微環境失調；與Gentamicin的抗生素機轉（細菌30S核糖體抑制）無已知直接交集。額外考量：MDS患者常有感染風險需使用抗生素（對症治療背景），但此與疾病本身治療完全不同；Gentamicin骨髓毒性風險在血液疾病患者中需特別警惕。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "diabetic nephropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "diabetic nephropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "diabetic nephropathy"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gentamicin",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

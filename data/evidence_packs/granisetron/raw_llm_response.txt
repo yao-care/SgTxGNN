@@ -1,0 +1,190 @@
+## Granisetron (DB00889) 藥物再利用證據分析
+
+> **藥理背景說明**：Granisetron 為選擇性 5-HT₃（血清素）受體拮抗劑，核准適應症為化療/放療引起的噁心嘔吐及術後噁心嘔吐。本次提供資料顯示 **所有 10 個適應症均無臨床試驗及文獻支持**，分析結果完全依賴 TxGNN 預測分數與機轉推論。
+
+---
+
+```json
+{
+  "drug": "Granisetron",
+  "drugbank_id": "DB00889",
+  "known_moa": "選擇性 5-HT₃ 受體拮抗劑（serotonin type 3 receptor antagonist）",
+  "analysis_date": "2026-04-04",
+  "data_quality_warning": "所有適應症 clinical_trials_count=0 且 literature_count=0，以下評估完全基於 TxGNN 機器學習預測與藥理機轉推論，不具臨床實證支持",
+  "indications": [
+    {
+      "disease_name": "manic bipolar affective disorder",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血清素系統失調與雙相情感障礙的躁狂發作有關聯，5-HT₃ 受體在邊緣系統（海馬迴、杏仁核）分布密集，拮抗 5-HT₃ 理論上可調節情緒迴路。然而躁狂期的血清素角色複雜，且現有情緒穩定劑機轉迥異，機轉推論薄弱。機轉相關性：弱-中等。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "高 TxGNN 分數可能反映知識圖譜中血清素路徑與雙相障礙的廣泛連結，但缺乏直接臨床依據。建議：僅作假說生成，不建議進一步投資。"
+    },
+    {
+      "disease_name": "Tourette syndrome",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "妥瑞氏症涉及多巴胺-血清素交互作用失衡，5-HT₃ 受體拮抗可間接調節多巴胺神經傳遞。同類藥物 ondansetron 已有小規模研究探索妥瑞氏症治療可能性（知識圖譜可能已收錄相關連結），具中等機轉合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "本資料庫雖無記錄，但廣義文獻中 ondansetron 在 Tourette syndrome 有過概念驗證報告，建議以「Research Question」進行系統性文獻搜尋（PubMed 搜尋 5-HT3 antagonist + Tourette）再決定是否升級至 S1。"
+    },
+    {
+      "disease_name": "acute contagious conjunctivitis",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼部組織雖存在 5-HT₃ 受體，但急性傳染性結膜炎的病理機制以細菌/病毒感染為主，與血清素路徑的關聯極為薄弱。5-HT₃ 拮抗對感染性炎症無明確抗菌或抗病毒活性。機轉相關性：非常弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "TxGNN 高分可能為知識圖譜路徑雜訊所致。此適應症不建議投入資源。"
+    },
+    {
+      "disease_name": "angioedema",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血清素參與血管通透性調節（透過內皮細胞 5-HT 受體），理論上 5-HT₃ 拮抗可能減少血管性水腫中的血管擴張成分。然而血管性水腫主要由緩激肽（bradykinin）或組織胺驅動，serotonin 為次要因素。機轉相關性：弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "現有標準治療（抗組織胺、C1-INH 補充）機轉更直接。建議 Hold。"
+    },
+    {
+      "disease_name": "allergic urticaria",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "皮膚肥大細胞與感覺神經元上存在 5-HT₃ 受體，血清素是蕁麻疹瘙癢信號傳遞的重要介質之一。5-HT₃ 拮抗可能減少皮膚感覺神經元的致癢信號，具中等機轉合理性。類似藥物在慢性瘙癢研究中有初步數據支持此路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "5-HT₃ 拮抗用於慢性搔癢有生物學基礎，建議搜尋 ondansetron/granisetron + urticaria/pruritus 相關文獻後決定是否升級評估。"
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2（精胺酸加壓素受體 V2）功能獲得性突變所致，導致持續性抗利尿激素效應。5-HT₃ 受體與 V2 受體路徑的交互作用極為有限，機轉關聯非常薄弱。此病極其罕見，預測可能受知識圖譜稀疏連結影響。機轉相關性：非常弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "罕見疾病且機轉連結薄弱，不建議投入資源。"
+    },
+    {
+      "disease_name": "trichotillomania",
+      "txgnn_score": 0.9923,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "拔毛症（Trichotillomania）屬強迫症譜系障礙（OCD spectrum），血清素系統功能異常在此類病症中有明確角色。5-HT₃ 受體拮抗可調節前額葉-紋狀體迴路，理論上可減少強迫性重複行為。OCD 相關研究中有 5-HT₃ 拮抗輔助治療的初步探索。機轉相關性：中等。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "建議搜尋 5-HT3 antagonist + OCD spectrum / body-focused repetitive behavior 相關文獻。機轉合理性足以作為研究假說。"
+    },
+    {
+      "disease_name": "bronchitis",
+      "txgnn_score": 0.9918,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "呼吸道迷走神經末梢存在 5-HT₃ 受體，理論上 5-HT₃ 拮抗可抑制咳嗽反射（支氣管炎的主要症狀）。然而支氣管炎的核心病理為氣道炎症，5-HT₃ 拮抗缺乏抗炎或抗感染活性。鎮咳效果雖有理論基礎，但臨床意義存疑。機轉相關性：弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "若有咳嗽抑制的研究興趣，建議考慮更有文獻基礎的目標（如慢性咳嗽），而非支氣管炎整體。"
+    },
+    {
+      "disease_name": "cold urticaria",
+      "txgnn_score": 0.9910,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "寒冷性蕁麻疹涉及寒冷刺激誘發的肥大細胞脫顆粒，釋放組織胺、血清素等介質。皮膚感覺神經元的 5-HT₃ 受體參與寒冷誘發的癢感傳遞，拮抗此受體理論上可緩解症狀。機轉與過敏性蕁麻疹相似，相關性：中等。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "與 allergic urticaria 機轉相似，可合併搜尋 5-HT3 拮抗在蕁麻疹中的研究。"
+    },
+    {
+      "disease_name": "conjunctivitis",
+      "txgnn_score": 0.9909,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "結膜組織中 5-HT₃ 受體分布有限，結膜炎病理機制依型別不同（過敏性、感染性、刺激性），血清素路徑的參與程度低。此適應症與 acute contagious conjunctivitis 評估類似，缺乏明確機轉支持。機轉相關性：非常弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "TxGNN 預測為普通型結膜炎，機轉連結比急性傳染性結膜炎略強（可能包含過敏性結膜炎成分），但仍不足以建議投入資源。"
+    }
+  ],
+  "overall_summary": {
+    "total_indications_analyzed": 10,
+    "evidence_level_distribution": {
+      "L5": 10,
+      "L4": 0,
+      "L3": 0,
+      "L2": 0,
+      "L1": 0
+    },
+    "decision_stage_distribution": {
+      "S0": 10,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0
+    },
+    "recommendation_distribution": {
+      "Hold": 6,
+      "Research Question": 4,
+      "Proceed with Guardrails": 0
+    },
+    "priority_research_questions": [
+      {
+        "rank": 1,
+        "indication": "Tourette syndrome",
+        "rationale": "同類藥物 ondansetron 在妥瑞氏症有初步研究基礎，5-HT₃-多巴胺交互作用機轉明確，最具轉化研究潛力"
+      },
+      {
+        "rank": 2,
+        "indication": "allergic urticaria / cold urticaria",
+        "rationale": "血清素在皮膚感覺神經元與肥大細胞的角色有較強的生物學依據，5-HT₃ 拮抗在慢性搔癢中有初步數據支持"
+      },
+      {
+        "rank": 3,
+        "indication": "trichotillomania",
+        "rationale": "OCD 譜系障礙與血清素系統關聯明確，具合理的研究假說價值"
+      }
+    ],
+    "critical_caveats": [
+      "原始 MoA 欄位顯示 [Data Gap]，但 Granisetron 藥理機轉（5-HT₃ 拮抗劑）為醫學共識，此資料缺口不影響分析",
+      "市場狀態「未上市」需確認指星加坡（SgTxGNN）市場，Granisetron 在多數國家已核准用於止吐",
+      "所有評估均基於 L5 等級，TxGNN 高分（>0.99）反映模型對知識圖譜路徑的信心，不等同臨床證據",
+      "DDI_count=0 可能為資料庫缺口，Granisetron 實際上有已知 QT 延長風險，與其他 QT 延長藥物有交互作用，臨床使用前須仔細評估"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 機轉強度 |
+|--------|-----------|----------|----------|------|---------|
+| manic bipolar affective disorder | 0.9962 | L5 | S0 | Hold | 弱-中 |
+| **Tourette syndrome** | 0.9952 | L5 | S0 | **Research Question** ⭐ | 中 |
+| acute contagious conjunctivitis | 0.9949 | L5 | S0 | Hold | 非常弱 |
+| angioedema | 0.9936 | L5 | S0 | Hold | 弱 |
+| **allergic urticaria** | 0.9932 | L5 | S0 | **Research Question** ⭐ | 中 |
+| nephrogenic SIAD | 0.9932 | L5 | S0 | Hold | 非常弱 |
+| **trichotillomania** | 0.9923 | L5 | S0 | **Research Question** ⭐ | 中 |
+| bronchitis | 0.9918 | L5 | S0 | Hold | 弱 |
+| **cold urticaria** | 0.9910 | L5 | S0 | **Research Question** ⭐ | 中 |
+| conjunctivitis | 0.9909 | L5 | S0 | Hold | 非常弱 |
+
+> ⚠️ **重要提醒**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證方可應用。

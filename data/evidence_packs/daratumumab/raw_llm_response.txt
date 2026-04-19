@@ -1,0 +1,212 @@
+## Daratumumab 藥物再利用證據分析
+
+### 藥物背景說明
+
+> ⚠️ **資料差距警示**：Daratumumab（DARZALEX®）實際上是已上市的 **抗 CD38 單株抗體**（FDA 核准用於多發性骨髓瘤），市場狀態標記為「未上市」可能反映**新加坡/特定地區**尚未取得藥證，而非全球未上市。`original_moa: "[Data Gap]"` 為資料管道缺失，實際 MoA 為：Anti-CD38 → ADCC/ADCP/CDC + 免疫調節（清除 CD38⁺ 抑制性免疫細胞）。
+
+---
+
+```json
+{
+  "drug": "Daratumumab",
+  "drugbank_id": "DB09331",
+  "true_moa": "Anti-CD38 monoclonal antibody; mediates ADCC, ADCP, CDC, and apoptosis induction; immunomodulation via depletion of CD38+ regulatory T/B cells and NK cells",
+  "data_quality_flag": "market_status may reflect regional (SG) registration gap; drug is globally approved for MM",
+  "indications": [
+    {
+      "disease_name": "indolent plasma cell myeloma (Smouldering Multiple Myeloma, SMM)",
+      "txgnn_score": 0.9813,
+      "evidence_level": "L3 (資料集內) / L1 (外部已知證據)",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "CD38 高度表現於漿細胞（plasma cells）及其前驅細胞。SMM 是活性 MM 的前驅階段，具相同 CD38+ 靶點表現。AQUILA Phase 3 RCT（NCT03301220）已於 2023 年顯示 Daratumumab 皮下製劑顯著延緩 SMM→MM 進展（PFS 改善），FDA 已批准此適應症延伸；PMID 28915615 直接提供骨髓微環境中 CD38 表現的機轉依據。",
+      "data_gap_note": "資料集僅捕獲 1 個 Phase 1 試驗（NCT04136756），但該試驗主藥為 NKTR-255 而非 Daratumumab；關鍵 Phase 3 AQUILA 試驗未被資料管道收錄，導致證據等級被低估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04136756",
+          "title": "NKTR-255 Dose Escalation in Relapsed Hematologic Malignancies",
+          "phase": "PHASE1",
+          "relevance_grade": "B",
+          "reasoning": "主要研究藥物為 NKTR-255（PEGylated IL-15 agonist），部分 cohort 可能與 Daratumumab 聯用。疾病領域（復發血液惡性腫瘤含 MM）與適應症相關，但：(1) 主藥不是 Daratumumab；(2) 疾病期別為復發/難治（非惰性）；因此降為 B 級——間接相關，不可直接計入 Daratumumab 的 SMM 證據。",
+          "missing_key_trial": "NCT03301220 (AQUILA, Phase 3, Dara SC vs watch-and-wait for high-risk SMM) — 未收錄於資料集"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28915615",
+          "title": "Expression of CD38 in myeloma bone niche: A rational basis for the use of anti-CD38 immunotherapy",
+          "year": "2017",
+          "study_type": "Translational/Mechanistic Study",
+          "tier": "1",
+          "reasoning": "直接針對骨髓微環境中 CD38 表現進行分析，為 Daratumumab 用於 (惰性) 骨髓瘤提供分子機轉依據。與本適應症高度相關。"
+        },
+        {
+          "pmid": "41571958",
+          "title": "Diagnosis, risk stratification and management of smouldering multiple myeloma",
+          "year": "2026",
+          "study_type": "Clinical Review / Guideline",
+          "tier": "1",
+          "reasoning": "2026 年 SMM 診斷與管理綜述，極可能涵蓋 Daratumumab 在高風險 SMM 的最新循證建議（包含 AQUILA 試驗結果）。為疾病管理層面的 Tier 1 參考文獻。"
+        },
+        {
+          "pmid": "40257478",
+          "title": "Paraneoplastic leukocytoclastic vasculitis as initial manifestation of smouldering myeloma",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "描述 SMM 的罕見副腫瘤皮膚表現，為診斷相關案例報告。與 Daratumumab 治療直接相關性低。"
+        },
+        {
+          "pmid": "32736600",
+          "title": "Crystal storing histiocytosis secondary to indolent multiple myeloma",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "reasoning": "惰性 MM 的罕見組織病理學併發症報告。無法支持 Daratumumab 再利用決策。"
+        },
+        {
+          "pmid": "34514307",
+          "title": "Imaging for aortic valve papillary fibroelastoma and cardiac amyloidosis",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "主題為心臟澱粉樣變性影像診斷，雖然 AL amyloidosis 可能與 plasma cell dyscrasia 相關，但與 SMM 的 Daratumumab 治療直接相關性極低。列入分析但不計入核心證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "cholangiocarcinoma, susceptibility to",
+      "txgnn_score": 0.6506,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CD38 在膽管癌中的表現數據極為稀少。部分實體腫瘤的腫瘤微環境含有 CD38⁺ 免疫抑制細胞，理論上 Daratumumab 可能具有免疫調節效果，但此機轉高度推測性，缺乏實驗驗證。此外，適應症名稱為「susceptibility to」而非確診疾病，指遺傳易感性而非治療靶點。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "placenta disease",
+      "txgnn_score": 0.6282,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CD38 在胎盤中有一定表現，參與 cADPR 介導的 Ca²⁺ 訊號調節，但將 Daratumumab 用於胎盤疾病的概念極為新穎且缺乏任何臨床前驗證。此外，孕期使用單株抗體存在重大安全疑慮（胎兒 IgG 轉移），屬於高風險適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flag": "⚠️ 孕期使用高風險 — 需優先安全性評估"
+    },
+    {
+      "disease_name": "minimally invasive lung adenocarcinoma",
+      "txgnn_score": 0.6274,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺腺癌中 CD38 表現有限。已有少數研究探討 CD38 在肺癌腫瘤微環境中的角色，但均屬早期探索性研究。「Minimally invasive」分類指手術病理分期，而非系統治療適應症，邏輯層面也不匹配。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "GCGR-related hyperglucagonemia",
+      "txgnn_score": 0.6181,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胰升糖素受體（GCGR）相關高胰升糖素血症為代謝/內分泌疾病，與 CD38/抗體靶向治療的機轉連結極為薄弱。TxGNN 預測可能來自知識圖譜中遠端基因本體（GO）連結，缺乏臨床合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hemoglobin C-beta-thalassemia syndrome",
+      "txgnn_score": 0.6149,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "地中海貧血為血紅蛋白基因缺陷疾病。雖然部分地中海貧血患者會出現繼發性漿細胞異常（如長期輸血導致的免疫活化），但直接將 Daratumumab 用於此疾病缺乏合理機轉依據。知識圖譜可能透過「anemia → bone marrow → plasma cells → CD38」的間接路徑生成此預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "giant cell reparative granuloma",
+      "txgnn_score": 0.5940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "巨細胞修復性肉芽腫為骨骼的局部良性反應性病灶，主要涉及破骨細胞樣多核巨細胞。雖然 CD38 在骨髓瘤骨病中有研究，但此疾病的機轉完全不同，缺乏任何可信的靶向依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colon inflammatory polyp",
+      "txgnn_score": 0.5873,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "大腸炎性息肉為黏膜慢性發炎反應，主要由 T 細胞/黏膜免疫介導。CD38 在腸道免疫細胞中有表現，但以 Daratumumab 靶向治療此疾病缺乏臨床前數據支持，且 TxGNN 分數已接近閾值（0.587）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dental caries",
+      "txgnn_score": 0.5869,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "齲齒為口腔細菌（主要為 Streptococcus mutans）代謝酸性產物導致的牙齒硬組織脫礦疾病，與 CD38 免疫靶向治療毫無機轉關聯。此預測極可能為知識圖譜雜訊（noise）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "quality_flag": "⛔ 極低可信度 — 建議從候選清單中排除"
+    },
+    {
+      "disease_name": "epidural abscess",
+      "txgnn_score": 0.5808,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "硬膜外膿瘍為細菌感染性急症（主要為金黃色葡萄球菌），需要抗生素及手術引流治療。以免疫抑制性單株抗體 Daratumumab 治療此疾病不但無機轉依據，且可能加重感染風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flag": "⚠️ 安全性禁忌 — 免疫抑制劑於活動性感染症禁用"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合決策摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| 惰性漿細胞骨髓瘤 (SMM) | 0.9813 | **L3/L1*** | **S3** | ✅ Proceed with Guardrails |
+| 膽管癌易感性 | 0.6506 | L5 | S0 | 🔴 Hold |
+| 胎盤疾病 | 0.6282 | L5 | S0 | 🔴 Hold + 安全警示 |
+| 微浸潤性肺腺癌 | 0.6274 | L5 | S0 | 🔴 Hold |
+| GCGR 相關高胰升糖素血症 | 0.6181 | L5 | S0 | 🔴 Hold |
+| Hb C-β 地中海貧血症候群 | 0.6149 | L5 | S0 | 🔴 Hold |
+| 巨細胞修復性肉芽腫 | 0.5940 | L5 | S0 | 🔴 Hold |
+| 大腸炎性息肉 | 0.5873 | L5 | S0 | 🔴 Hold |
+| 齲齒 | 0.5869 | L5 | S0 | ⛔ 排除（噪訊） |
+| 硬膜外膿瘍 | 0.5808 | L5 | S0 | ⛔ 安全性禁忌 |
+
+> \* L3（資料集內） / L1（外部 AQUILA Phase 3 RCT 已知證據，資料管道未收錄）
+
+---
+
+## 關鍵發現與行動建議
+
+### 🎯 優先行動：惰性漿細胞骨髓瘤 (SMM)
+1. **資料管道修補**：NCT03301220（AQUILA Phase 3）未被收錄，建議檢查 ClinicalTrials 收集器的篩選條件是否排除了 Daratumumab 的既有核准適應症延伸
+2. **藥物資訊修正**：`market_status` 和 `original_indications` 需更新（Daratumumab 已核准 MM 多個適應症）
+3. **分析結論**：SMM 適應症為**高優先再利用候選**，機轉清晰（CD38⁺ 靶點），臨床證據充分，建議進入新加坡本地核准申請評估
+
+### 🚫 需排除項目
+- **齲齒**：知識圖譜噪訊，應設置過濾規則排除明顯無機轉關聯的預測
+- **硬膜外膿瘍**：免疫抑制劑於活動性感染為禁忌，需加入安全過濾層
+
+### 📊 資料品質改善建議
+```
+TxGNN 分數 > 0.9 且有 CD38 機轉連結 → 優先研究隊列
+TxGNN 分數 0.58-0.65 且零臨床證據 → 需機轉篩查再進入隊列
+感染性疾病 → 自動加入安全警示標籤
+孕期相關疾病 → 自動加入安全警示標籤
+```

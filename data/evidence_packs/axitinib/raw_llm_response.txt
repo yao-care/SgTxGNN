@@ -1,0 +1,359 @@
+## Axitinib (DB06626) 藥物再利用證據分析
+
+以下為各適應症的系統性評估：
+
+```json
+{
+  "drug": "Axitinib",
+  "drugbank_id": "DB06626",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Axitinib（Inlyta）為 VEGFR1/2/3 選擇性 TKI，全球已有 FDA/EMA 核准用於 RCC，但本地市場狀態標記為「未上市」，後續建議需考量在地藥政路徑。",
+  "indications": [
+    {
+      "disease_name": "renal carcinoma",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "guardrails_note": "本地市場未上市，需確認新加坡 HSA 核准狀態與同情使用或上市申請路徑",
+      "mechanistic_link": "VHL 突變導致 HIF-1α 堆積 → VEGF/PDGF 過表達 → VEGFR 訊號驅動腫瘤血管新生。Axitinib 直接阻斷 VEGFR1/2/3，為 RCC 最成熟的靶向機轉。AXIS Phase 3 試驗（NCT00678392）為核心樞紐試驗，KEYNOTE-426 與 JAVELIN Renal 101 確立一線聯合方案標準治療地位。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00678392",
+          "title": "AXIS Trial - Axitinib vs Sorafenib 二線治療",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 723,
+          "relevance_grade": "A",
+          "reasoning": "樞紐 Phase 3 RCT，直接支持 axitinib 二線 mRCC 適應症；主要終點 PFS 達統計顯著，驅動 FDA 2012 年核准"
+        },
+        {
+          "nct_id": "NCT00835978",
+          "title": "Axitinib 含/不含劑量滴定 Phase 2",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 213,
+          "relevance_grade": "A",
+          "reasoning": "探索劑量最佳化策略，支持 axitinib 在 RCC 的療效與安全性框架"
+        },
+        {
+          "nct_id": "NCT05738694",
+          "title": "Axitinib + PD-1 抑制劑新輔助 Phase 2",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 298,
+          "relevance_grade": "B",
+          "reasoning": "探索新輔助情境，為特定族群（局部晚期）開拓臨床路徑"
+        },
+        {
+          "nct_id": "NCT02133742",
+          "title": "Axitinib Phase 1b PK/PD",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 52,
+          "relevance_grade": "B",
+          "reasoning": "提供亞洲族群 PK 數據，對新加坡在地實施有參考價值"
+        },
+        {
+          "nct_id": "NCT01441414",
+          "title": "CVX-060 + Axitinib Phase 2（終止）",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 18,
+          "relevance_grade": "C",
+          "reasoning": "試驗提前終止，數據有限，僅供安全性背景參考"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30779529",
+          "title": "Pembrolizumab + Axitinib vs Sunitinib（KEYNOTE-426）",
+          "year": "2019",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "確立 pembro+axitinib 一線 mRCC 標準治療；OS、PFS 均顯著優於 sunitinib"
+        },
+        {
+          "pmid": "37500340",
+          "title": "KEYNOTE-426 長期隨訪（2023）",
+          "year": "2023",
+          "study_type": "Phase 3 RCT Follow-up",
+          "tier": "1",
+          "note": "43 個月中位追蹤確認持久生存優勢"
+        },
+        {
+          "pmid": "40750932",
+          "title": "KEYNOTE-426 5 年生存分析",
+          "year": "2025",
+          "study_type": "Phase 3 RCT Long-term",
+          "tier": "1",
+          "note": "5 年 OS 率 41.9% vs 35.5%，最成熟生存數據"
+        },
+        {
+          "pmid": "30779531",
+          "title": "Avelumab + Axitinib vs Sunitinib（JAVELIN Renal 101）",
+          "year": "2019",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "另一一線 IO+TKI 組合的樞紐試驗，PFS 於 PD-L1+ 族群顯著改善"
+        },
+        {
+          "pmid": "37872020",
+          "title": "Toripalimab + Axitinib vs Sunitinib 一線（2024）",
+          "year": "2024",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "亞洲人群 Phase 3 數據，對新加坡族群具特別參考價值"
+        },
+        {
+          "pmid": "32293937",
+          "title": "Avelumab + Axitinib 安全性與療效綜述",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "28276433",
+          "title": "Renal cell carcinoma（綜合綜述）",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "39988631",
+          "title": "STX17-DT 介導 axitinib 抗藥性機轉",
+          "year": "2025",
+          "study_type": "Translational/Mechanistic",
+          "tier": "3",
+          "note": "揭示粒線體 ROS 路徑的抗藥機轉，對後線治療策略有指導意義"
+        }
+      ]
+    },
+    {
+      "disease_name": "childhood kidney cell carcinoma",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "guardrails_note": "NCT04510597 Phase 3 仍在招募中（未完成），不適合直接臨床應用；需等待試驗結果並評估兒童族群特殊安全考量（生長發育、用藥劑量）",
+      "mechanistic_link": "兒童腎細胞癌（尤以 Xp11.2 易位型）常見 VEGF 訊號異常活化，MET 路徑亦可能參與。VEGFR 抑制的抗腫瘤機轉在兒童 RCC 具生物學合理性，但兒童 PK/PD 與成人有差異。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04510597",
+          "title": "Phase III：免疫療法聯合治療±腎切除術",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 364,
+          "relevance_grade": "A",
+          "reasoning": "唯一針對此適應症的 Phase 3 試驗且包含兒童族群，但尚在招募階段，無結果數據可評估"
+        },
+        {
+          "nct_id": "NCT03595124",
+          "title": "Axitinib/Nivolumab vs Nivolumab Phase 2（含非透明細胞型）",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 15,
+          "relevance_grade": "B",
+          "reasoning": "樣本數極小（n=15），含部分兒童型別腎癌，提供初步安全性信號但統計力不足"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31012542",
+          "title": "Treatment of advanced pediatric renal cell carcinoma（2019）",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "系統性回顧兒童進展期 RCC 治療，提及 VEGFR TKI 的角色與限制"
+        },
+        {
+          "pmid": "26279736",
+          "title": "Sunitinib/everolimus 治療兒童腎血管肌脂肪瘤（2015）",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "案例使用同類 VEGFR TKI（sunitinib），非 axitinib 直接證據，但提供兒童腎腫瘤 TKI 耐受性參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "collecting duct carcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "集合管癌（Bellini 管癌）為高侵襲性稀少型 RCC，分子特徵含 NF2、CDKN2A 突變，VEGF 路徑相對次要；但部分病例 VEGFR 表達陽性。現有一線缺乏標準治療，IO+TKI 聯合策略有探索價值。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06211114",
+          "title": "免疫檢查點抑制劑聯合 Axitinib 治療 Phase 2",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "目前唯一直接針對 collecting duct carcinoma + axitinib 的前瞻性 Phase 2 試驗，但仍在招募且樣本數小（n=30）"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35428926",
+          "title": "Collecting duct carcinoma 疾病綜述（2022）",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "疾病特異性文獻，描述分子特徵與治療挑戰，間接支持 TKI 試驗合理性"
+        },
+        {
+          "pmid": "35773144",
+          "title": "轉移性集合管癌臨床病理與預後分析（2022）",
+          "year": "2022",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "真實世界預後數據，提供疾病背景但非 axitinib 特異性"
+        },
+        {
+          "pmid": "30779529",
+          "title": "KEYNOTE-426（一般 RCC，非 CDC 特異）",
+          "year": "2019",
+          "study_type": "Phase 3 RCT",
+          "tier": "3",
+          "note": "主要針對透明細胞型 RCC，間接提供 axitinib 組合方案的安全性框架"
+        },
+        {
+          "pmid": "32895571",
+          "title": "JAVELIN Renal 101 生物標記分析",
+          "year": "2020",
+          "study_type": "Biomarker Sub-analysis",
+          "tier": "3",
+          "note": "探索 IO+axitinib 反應預測因子，部分發現可能類推至 CDC"
+        }
+      ]
+    },
+    {
+      "disease_name": "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "TFE3 融合蛋白可活化 VEGF 及 mTOR 訊號，Xp11.2 易位型 RCC 常有新生血管高表達。理論上 VEGFR 抑制可能有效，但此亞型 PD-L1 表達亦高，IO+TKI 聯合策略有生物學依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03595124",
+          "title": "Axitinib/Nivolumab vs 單藥 Nivolumab Phase 2（非透明細胞型含 Xp11.2）",
+          "phase": "PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 15,
+          "relevance_grade": "B",
+          "reasoning": "涵蓋 Xp11.2 易位型亞組，但整體樣本數極小（n=15），尚無公開結果；無法單獨評估此亞型療效"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "unclassified renal cell carcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "未分類型 RCC 為異質性群體，分子驅動機轉多樣。部分案例可能保有 VEGF 路徑活化，但整體機轉不確定，需個別分子分型才能預測 axitinib 反應性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04033991",
+          "title": "轉移性/進展期 RCC 真實世界回顧性資料庫研究",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 684,
+          "relevance_grade": "B",
+          "reasoning": "真實世界回顧性研究，樣本數大（n=684）但非隨機設計，可能包含未分類型 RCC 患者，提供現實治療模式參考"
+        },
+        {
+          "nct_id": "NCT02156895",
+          "title": "Inlyta 上市後安全性與療效觀察研究",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 111,
+          "relevance_grade": "C",
+          "reasoning": "上市後監測研究，以一般 RCC 族群為主，對未分類亞型的特異性有限"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "liposarcoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "黏液型脂肪肉瘤（myxoid liposarcoma）具高度血管新生特性，VEGFR 及 PDGFR 表達增加。Axitinib 之 PDGFR-β 抑制活性可能具有抗腫瘤潛力，但僅有前臨床/體外數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27822137",
+          "title": "Axitinib 在黏液型脂肪肉瘤具抗血管新生與抗腫瘤活性（2016）",
+          "year": "2016",
+          "study_type": "Preclinical (In vitro / In vivo)",
+          "tier": "3",
+          "note": "前臨床研究顯示 axitinib 在黏液型脂肪肉瘤細胞株與動物模型有活性，尚無臨床試驗驗證"
+        }
+      ]
+    },
+    {
+      "disease_name": "renal cell carcinoma associated with neuroblastoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Neuroblastoma 相關性 RCC 極為罕見，分子特徵不明。VEGF 路徑參與程度假設性，目前無任何臨床或前臨床證據支持 axitinib 用於此適應症。TxGNN 預測可能基於 RCC 家族相似性而非疾病特異性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ovarian myxoid liposarcoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢黏液型脂肪肉瘤極為罕見，雖理論上 axitinib 的抗血管新生機轉可能適用（參考一般脂肪肉瘤前臨床數據），但無任何針對此特定亞型的臨床或前臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "angiolipoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血管脂肪瘤（angiolipoma）為良性腫瘤，含脂肪與血管成分。雖 VEGFR 路徑理論上與血管增生相關，但 axitinib 用於良性腫瘤缺乏任何臨床合理性，風險效益比不佳。TxGNN 評分可能源自結構相似性誤導。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "familial spontaneous pneumothorax",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性自發性氣胸（多與 FLCN、TSC 突變相關）和 VEGFR 路徑之間缺乏直接生物學連結。此適應症與 axitinib 的機轉高度不符，TxGNN 高分可能為知識圖譜中肺部/血管相關節點的間接關聯，無臨床探索依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_indications": ["renal carcinoma"],
+    "L2_indications": ["childhood kidney cell carcinoma"],
+    "L3_indications": ["collecting duct carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma"],
+    "L4_indications": ["liposarcoma"],
+    "L5_indications": ["renal cell carcinoma associated with neuroblastoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"],
+    "priority_recommendation": "Axitinib 在 renal carcinoma（廣義 RCC）具全球 L1 級頂級證據，本地未上市狀態為主要障礙，建議優先評估 HSA 核准路徑或同情使用申請。Collecting duct carcinoma 有積極 Phase 2 試驗，可納入試驗招募追蹤清單。L5 適應症（肺炎/良性腫瘤）評分雖高，但機轉不支持，不建議進一步資源投入。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|----------|----------|------|----------|
+| **renal carcinoma** | **L1** | **S3** | ✅ Proceed w/ Guardrails | AXIS Phase 3 (n=723) + KEYNOTE-426 + JAVELIN，全球已核准 |
+| childhood kidney cell carcinoma | L2 | S2 | 🔬 Proceed w/ Guardrails | Phase 3 招募中 (n=364)，需等待結果 |
+| collecting duct carcinoma | L3 | S2 | 🔬 Research Question | Phase 2 主動招募 (n=30)，稀少亞型缺標準治療 |
+| Xp11.2/TFE3 RCC | L3 | S1 | 🔬 Research Question | 小型 Phase 2 (n=15)，無文獻 |
+| unclassified RCC | L3 | S1 | 🔬 Research Question | 僅真實世界觀察性研究 |
+| liposarcoma | L4 | S1 | 🔬 Research Question | 唯一前臨床體外研究 |
+| RCC+neuroblastoma | L5 | S0 | ⛔ Hold | 純預測，無任何臨床證據 |
+| ovarian myxoid liposarcoma | L5 | S0 | ⛔ Hold | 純預測 |
+| angiolipoma | L5 | S0 | ⛔ Hold | 良性腫瘤，機轉不符 |
+| familial spontaneous pneumothorax | L5 | S0 | ⛔ Hold | 機轉完全不相關 |
+
+> ⚠️ **YMYL 免責聲明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選需經完整臨床驗證方可應用於患者。

@@ -1,0 +1,2280 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB08865-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Crizotinib",
+    "drugbank_id": "DB08865",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "fibromatosis, gingival",
+      "txgnn": {
+        "score": 0.9980996251106262,
+        "rank": 3270
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "牙齦纖維瘤病為良性纖維組織增生，無 ALK 重排、ROS1 融合或 MET 擴增的病理學依據；TxGNN 高分（0.9981）反映圖神經網路遠端拓樸關聯，而非分子機轉合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "fibroma of lung",
+      "txgnn": {
+        "score": 0.9975415468215942,
+        "rank": 3980
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺纖維瘤為罕見良性間葉腫瘤，缺乏 ALK/ROS1/MET 驅動突變的文獻記錄；MET 信號通路在此腫瘤的角色未被確認；無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "hamartoma of lung",
+      "txgnn": {
+        "score": 0.9974601864814758,
+        "rank": 4076
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34011083",
+            "title": "ALK-negative lung inflammatory myofibroblastic tumor in a young adult: A case report and literature review of molecular alterations.",
+            "authors": [
+              "Debonis Silvia Angela",
+              "Bongiovanni Alberto",
+              "Pieri Federica",
+              "Fausti Valentina",
+              "De Vita Alessandro"
+            ],
+            "journal": "Medicine",
+            "year": "2021",
+            "abstract": "Inflammatory myofibroblastic tumor (IMT) is a rare mesenchymal tumor that is prevalent among children and adolescents. Surgery is the most important therapeutic approach for IMT and complete resection is recommended. Although 50% of IMTs show anaplastic lymphoma kinase (ALK) rearrangements, crizotinib has proven an effective therapeutic approach. However, the genetic landscape of this tumor is still not fully understood and treatment options are limited, especially in the majority of ALK-negativ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺錯構瘤為良性發育異常病灶，通常無惡性潛能。唯一文獻（PMID 34011083）描述 ALK 陰性炎性肌纖維母細胞瘤（IMT）案例，ALK 陰性實際上論證此類病灶對 Crizotinib 無效，屬反向證據。IMT 雖可能被疾病分類系統歸於廣義錯構瘤，但無支持性臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "lung hilum carcinoma",
+      "txgnn": {
+        "score": 0.9973253011703492,
+        "rank": 4218
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32830600",
+            "title": "68-months progression-free survival with crizotinib treatment in a patient with metastatic ALK positive lung adenocarcinoma and sarcoidosis: A case report.",
+            "authors": [
+              "Tanriverdi Ozgur",
+              "Tarimer Mehmet L",
+              "Pak Ceren D",
+              "Uylas Selcuk",
+              "Alkan Ali"
+            ],
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2021",
+            "abstract": "Lung cancer still ranks first among the most common and most lethal cancers today. The most common subtype is non-small cell lung cancer, and in this group, adenocarcinoma has the worst prognosis. EGFR, ROS1 and ALK-EML4 gene fusion mutations are common in non-small cell lung cancer.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39716454",
+            "title": "Efficacy of Neoadjuvant Therapy for ROS1-Positive Locally-Advanced Lung Adenocarcinoma: A Case Report.",
+            "authors": [
+              "Chen Rong",
+              "Wang Guirong",
+              "Zhao Jinlong",
+              "Liu Yiqun"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2024",
+            "abstract": "BACKGROUND ROS1 fusion-positive locally-advanced lung adenocarcinoma is a rare malignant tumor with no clear neoadjuvant therapy guidelines and a poor prognosis. This report describes a 49-year-old man with a ROS1 fusion-positive locally-advanced lung adenocarcinoma with a pathological complete response (pCR) to the tyrosine kinase inhibitor crizotinib combined with chemotherapy. CASE REPORT A 49-year-old Chinese man visited the hospital with a cough and phlegm that began over 20 days ago. Compu",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺門癌症（中央型肺癌）若具 ALK 重排或 ROS1 融合，Crizotinib 具充分的生物學合理性。2 篇文獻均為分子標記陽性案例：ALK+ 68 個月長期 PFS 及 ROS1+ 新輔助治療案例。關鍵前提：需分子篩查確認 ALK/ROS1 狀態，無標記則無療效依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "lung benign neoplasm",
+      "txgnn": {
+        "score": 0.99732506275177,
+        "rank": 4219
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37530142",
+            "title": "Safety and efficacy of alectinib versus crizotinib in alk-positive non-small cell lung cancer: An update meta-analysis.",
+            "authors": [
+              "Xiong Rui",
+              "Fu Haitan",
+              "Zhang Qianrui",
+              "Li Wei"
+            ],
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2023",
+            "abstract": "Our study aimed to evaluate the efficacy and toxicity of alectinib compared with crizotinib and provide a reference for clinical use of ALK-TKI, systematically. We searched articles published update till October, 2021 based on the electronic databases, including PubMed, EMBASE and Cochrane Library. All trials analyzed the summary odds ratios (ORs) of the interesting outcomes. Three RCTs, including six studies were included. The pooled hazard ratio (HR) =0.33 (95%CI=0.21-0.51, P<0.00001) shown th",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24756793",
+            "title": "Crizotinib.",
+            "authors": [
+              "Heigener David F",
+              "Reck Martin"
+            ],
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "year": "2014",
+            "abstract": "Crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases (RTK) c-Met, anaplastic lymphoma kinase (ALK), and ROS1. There is convincing clinical evidence for the effectiveness in non-small-cell lung cancer (NSCLC) harboring EML4-ALK rearrangements resulting in constitutional activation of the ALK-RTK. The drug is approved for this entity, which represents no more than 3-5% of all NSCLC. However, in this population, impressive response rates are generated. The same",
+            "classification": {
+              "study_type": "Drug Profile",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30069759",
+            "title": "Crizotinib.",
+            "authors": [
+              "Heigener David F",
+              "Reck Martin"
+            ],
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "year": "2018",
+            "abstract": "Crizotinib is an ATP-competitive small-molecule inhibitor of the receptor tyrosine kinases (RTK) C-Met, ALK and ROS1. There is a robust effectiveness in non-small-cell lung cancer (NSCLC) harbouring EML4-ALK-rearrangements resulting in constitutional activation of the ALK-RTK. The drug is approved for this entity, which represents no more than 3-5% of all NSCLC. However, in this population, impressive response rates are generated. The same is true for ROS-1 rearrangements; however, these only oc",
+            "classification": {
+              "study_type": "Drug Profile",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25239305",
+            "title": "The efficacy and safety of crizotinib in the treatment of anaplastic lymphoma kinase-positive non-small cell lung cancer: a meta-analysis of clinical trials.",
+            "authors": [
+              "Qian Haili",
+              "Gao Feng",
+              "Wang Haijuan",
+              "Ma Fei"
+            ],
+            "journal": "BMC cancer",
+            "year": "2014",
+            "abstract": "Crizotinib was granted accelerated approval by the Food and Drug Administration in 2011 for the treatment of anaplastic lymphoma kinase (ALK)-positive non-small cell lung cancer (NSCLC). To evaluate the efficacy and safety of crizotinib, we performed a meta-analysis of published clinical trials using the random effect model.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41617059",
+            "title": "Mechanisms and management of crizotinib-induced toxicity in non-small cell lung cancer.",
+            "authors": [
+              "Liu Xiaoxiao",
+              "Tao Xinyu",
+              "Cheng Mengting",
+              "Yan Hao",
+              "Xu Zhifei"
+            ],
+            "journal": "Toxicology letters",
+            "year": "2026",
+            "abstract": "Crizotinib, a first-in-class ALK/ROS1/MET inhibitor, has been shown to significantly improve outcomes in advanced non-small cell lung cancer (NSCLC); however, its clinical utility remains limited by multisystem toxicities. This review synthesizes evidence regarding crizotinib-induced adverse effects-such as hepatotoxicity, cardiotoxicity, and interstitial lung disease-along with associated clinical management strategies. Through a systematic examination of the molecular mechanisms and multifacto",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29596029",
+            "title": "Phase II Study of Crizotinib in East Asian Patients With ROS1-Positive Advanced Non-Small-Cell Lung Cancer.",
+            "authors": [
+              "Wu Yi-Long",
+              "Yang James Chih-Hsin",
+              "Kim Dong-Wan",
+              "Lu Shun",
+              "Zhou Jianying"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2018",
+            "abstract": "Purpose Approximately 1% to 2% of non-small-cell lung cancers (NSCLCs) harbor a c-ros oncogene 1 ( ROS1) rearrangement. Crizotinib, an inhibitor of anaplastic lymphoma kinase (ALK), ROS1, and MET, has shown marked antitumor activity in a small expansion cohort of patients with ROS1-positive advanced NSCLC from an ongoing phase I study. We assessed the efficacy and safety of crizotinib in the largest cohort of patients with ROS1-positive advanced NSCLC. Patients and Methods This phase II, open-la",
+            "classification": {
+              "study_type": "Phase II RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30902613",
+            "title": "Updated Efficacy and Safety Data and Impact of the EML4-ALK Fusion Variant on the Efficacy of Alectinib in Untreated ALK-Positive Advanced Non-Small Cell Lung Cancer in the Global Phase III ALEX Study.",
+            "authors": [
+              "Camidge D Ross",
+              "Dziadziuszko Rafal",
+              "Peters Solange",
+              "Mok Tony",
+              "Noe Johannes"
+            ],
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2019",
+            "abstract": "At the prior data cutoff (February 9, 2017) the ALEX trial showed superior investigator-assessed progression-free survival (PFS) for alectinib versus crizotinib in untreated, anaplastic lymphoma kinase (ALK)-positive, advanced NSCLC (hazard ratio = 0.47, 95% confidence interval: 0.34-0.65, p < 0.001). The median PFS in the alectinib arm was not reached versus 11.1 months with crizotinib. Retrospective analyses suggest that the echinoderm microtubule-associated protein-like 4 gene-ALK variant (EM",
+            "classification": {
+              "study_type": "Phase III RCT Sub-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28342113",
+            "title": "Crizotinib for Untreated Anaplastic Lymphoma Kinase-Positive Non-Small-Cell Lung Cancer: An Evidence Review Group Perspective of a NICE Single Technology Appraisal.",
+            "authors": [
+              "Morgan Philip",
+              "Woolacott Nerys",
+              "Biswas Mousumi",
+              "Mebrahtu Teumzghi",
+              "Harden Melissa"
+            ],
+            "journal": "PharmacoEconomics",
+            "year": "2017",
+            "abstract": "As part of the National Institute for Health and Care Excellence (NICE) single technology appraisal process, the manufacturer of crizotinib submitted evidence on the clinical and cost effectiveness of crizotinib in untreated anaplastic lymphoma kinase-positive (ALK-positive) non-small-cell lung cancer (NSCLC). Crizotinib has previously been assessed by NICE for patients with previously treated ALK-positive NSCLC (TA 296). It was not approved in this previous appraisal, but had been made availabl",
+            "classification": {
+              "study_type": "Evidence-Based Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41110693",
+            "title": "Alectinib versus crizotinib in previously untreated ALK-positive advanced non-small cell lung cancer: final overall survival analysis of the phase III ALEX study.",
+            "authors": [
+              "Peters S",
+              "Camidge R",
+              "Dziadziuszko R",
+              "Gadgeel S",
+              "Shaw A T"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2026",
+            "abstract": "ALEX, a global, randomized, phase III trial evaluated alectinib versus crizotinib in patients with advanced ALK-positive non-small cell lung cancer (NSCLC). This final analysis provides mature overall survival (OS), duration of response (DOR) and long-term safety data.",
+            "classification": {
+              "study_type": "Clinical Study / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30010763",
+            "title": "Correlation of extent of ALK FISH positivity and crizotinib efficacy in three prospective studies of ALK-positive patients with non-small-cell lung cancer.",
+            "authors": [
+              "Soria J-C",
+              "Ho S N",
+              "Varella-Garcia M",
+              "Iafrate A J",
+              "Solomon B J"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2018",
+            "abstract": "In clinical trials of patients with anaplastic lymphoma kinase (ALK)-positive non-small-cell lung cancer (NSCLC) treated with crizotinib, evaluation of the relationship between the percentage of ALK-positive cells by fluorescence in situ hybridization (FISH)-particularly near the cut-off defining positive status-and clinical outcomes have been limited by small sample sizes.",
+            "classification": {
+              "study_type": "Pooled Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31313100",
+            "title": "Targeting ROS1 Rearrangements in Non-small Cell Lung Cancer: Crizotinib and Newer Generation Tyrosine Kinase Inhibitors.",
+            "authors": [
+              "Morris Tessa A",
+              "Khoo Christine",
+              "Solomon Benjamin J"
+            ],
+            "journal": "Drugs",
+            "year": "2019",
+            "abstract": "ROS1 gene rearrangements exist in 1-2% of non-small cell lung cancers, typically occurring in younger, never or light smokers with adenocarcinoma. ROS1 gene fusions are potent oncogenic drivers, the presence of which results in the susceptibility of tumours to ROS1-targeted therapy. Crizotinib was the first tyrosine kinase inhibitor to demonstrate activity in ROS1-rearranged lung cancer, and remains the recommended first-line therapy for patients with advanced ROS1-rearranged non-small cell lung",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29066738",
+            "title": "ALK and IGF-1R as independent targets in crizotinib resistant lung cancer.",
+            "authors": [
+              "Wilson Christabel",
+              "Nimick Mhairi",
+              "Nehoff Hayley",
+              "Ashton John C"
+            ],
+            "journal": "Scientific reports",
+            "year": "2017",
+            "abstract": "ALK positive non-small cell lung cancer is highly responsive to ALK inhibitors such as crizotinib, but drug resistance typically develops within a year of treatment. In this study we investigated whether IGF-1R is an independent druggable target in ALK-positive lung cancer cells. We confirmed that combination ALK and IGF-1R inhibitor treatment is synergistically cytotoxic to ALK-positive lung cancer cells and that this remains the case for at least 12 days after initial exposure to crizotinib. A",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35232230",
+            "title": "Effectiveness of crizotinib versus entrectinib in ROS1-positive non-small-cell lung cancer using clinical and real-world data.",
+            "authors": [
+              "Tremblay Gabriel",
+              "Groff Michael",
+              "Iadeluca Laura",
+              "Daniele Patrick",
+              "Wilner Keith"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2022",
+            "abstract": "Aims: To compare clinical trial results for crizotinib and entrectinib in ROS1-positive non-small-cell lung cancer and compare clinical trial data and real-world outcomes for crizotinib. Patients & methods: We analyzed four phase I-II studies using a simulated treatment comparison (STC). A STC of clinical trial versus real-world evidence compared crizotinib clinical data to real-world outcomes. Results: Adjusted STC found nonsignificant trends favoring crizotinib over entrectinib: objective resp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27987579",
+            "title": "Response and acquired resistance to crizotinib in Chinese patients with lung adenocarcinomas harboring MET Exon 14 splicing alternations.",
+            "authors": [
+              "Dong Hua-Jie",
+              "Li Peng",
+              "Wu Chang-Ling",
+              "Zhou Xiao-Yue",
+              "Lu Hong-Jun"
+            ],
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2016",
+            "abstract": "Approximately 10% of lung adenocarcinomas harbor aberrations that are targetable using the approved multitargeted TKI crizotinib. MET exon 14 skipping mutation predicts for response to crizotinib in human lung adenocarcinomas. However, a substantial part of patients still has no sufficient tissue to perform genomic analysis. As a promising noninvasive biomarker and potential surrogate for the entire tumor genome, circulating tumor DNA (ctDNA) has been applied to the detection of driver gene muta",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32949827",
+            "title": "Characteristics and response to crizotinib in lung cancer patients with MET amplification detected by next-generation sequencing.",
+            "authors": [
+              "Li Jingwen",
+              "Wang Yue",
+              "Zhang Bo",
+              "Xu Jianlin",
+              "Cao Shuhui"
+            ],
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2020",
+            "abstract": "Mesenchymal-epithelial transition (MET) amplification is a rare gene alteration in lung cancer. The aim of this study was to investigate the clinical characteristics of MET amplification in lung cancer and the response to crizotinib by subsets of patients with MET amplification detected by next-generation sequencing (NGS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24872405",
+            "title": "Successful crizotinib rechallenge after crizotinib-induced interstitial lung disease.",
+            "authors": [
+              "Tachihara Motoko",
+              "Kobayashi Kazuyuki",
+              "Ishikawa Yumiko",
+              "Hori Suya",
+              "Tamura Daisuke"
+            ],
+            "journal": "Japanese journal of clinical oncology",
+            "year": "2014",
+            "abstract": "We report the case of a 70-year-old Japanese male diagnosed with advanced lung adenocarcinoma harboring the echinoderm microtubule-associated protein-like 4-anaplastic lymphoma kinase fusion gene. As soon as crizotinib was administered, tumor shrank immediately. On Day 25, he developed interstitial lung disease. Bronchoalveolar lavage fluid analysis demonstrated elevated lymphocytes fractionation. A drug lymphocyte stimulating test for crizotinib with the bronchoalveolar lavage lymphocytes was n",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35278911",
+            "title": "Influence of alectinib and crizotinib on ionizing radiation - in vitro analysis of ALK/ROS1-wildtype lung tissue cells.",
+            "authors": [
+              "Jost Tina",
+              "Schultz Ann-Kristin",
+              "Frey Benjamin",
+              "Vu Jennifer",
+              "Fietkau Rainer"
+            ],
+            "journal": "Neoplasia (New York, N.Y.)",
+            "year": "2022",
+            "abstract": "(1) Background: Just little is known about the interaction of ALK/ROS1-targeting kinase inhibitors with ionizing radiation (IR), particularly regarding side effects. We investigated the toxicity in two different lung cell lines both ALK/ROS1 wildtype (healthy and tumor origin) as representatives for normal lung tissue; (2) Methods: Human lung cell line BEAS-2B and malignant A549 lung cancer cells (ALK/ROS1 wt) were treated with alectinib or crizotinib, 2 Gy irradiation or a combination of KI and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27835601",
+            "title": "Is there a benefit of first- or second-line crizotinib in locally advanced or metastatic anaplastic lymphoma kinase-positive non-small cell lung cancer? a meta-analysis.",
+            "authors": [
+              "Hu Hao",
+              "Qing Lin Wei",
+              "Zhu Qian",
+              "Wen Yang Xiong",
+              "Wang Hai Dong"
+            ],
+            "journal": "Oncotarget",
+            "year": "2016",
+            "abstract": "Crizotinib show a promising efficacy in patients with anaplastic lymphoma kinase (ALK)-positive non-small cell lung cancer (NSCLC). However, differences in efficacy for first- and second-line crizotinib are unclear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24427836",
+            "title": "Crizotinib.",
+            "authors": [],
+            "journal": "Prescrire international",
+            "year": "2013",
+            "abstract": "Patients with advanced-stage or metastatic non-small cell lung cancer have a grim prognosis when first-line chemotherapy fails. Some cytotoxic drugs such as docetaxel and pemetrexed prolong overall survival by a few months, but at a cost of severe toxicity. Crizotinib (Xalkori*, Pfizer), a drug that inhibits ALK (among other tyrosine kinases) has been authorised for use in patients whose tumours overexpress this tyrosine kinase. Preliminary results of a comparative, randomised but unblinded tria",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25592111",
+            "title": "Synergistic effects of crizotinib and radiotherapy in experimental EML4-ALK fusion positive lung cancer.",
+            "authors": [
+              "Dai Ying",
+              "Wei Quanxiang",
+              "Schwager Christian",
+              "Moustafa Mahmoud",
+              "Zhou Cheng"
+            ],
+            "journal": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology",
+            "year": "2015",
+            "abstract": "Non-small cell lung cancer (NSCLC) patients with chromosomal rearrangements of the anaplastic lymphoma kinase gene (ALK) are sensitive to the tyrosine kinase inhibitor crizotinib. We aimed to investigate the effects of combined radiotherapy and crizotinib in ALK-positive vs. wild type NSCLC models.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 疾病分類警示：20 篇文獻主要涉及惡性 NSCLC（ALK+/ROS1+），與「良性肺腫瘤」分類存在系統性錯位。例外：ALK 重排型炎性肌纖維母細胞瘤（IMT）雖屬低惡性度腫瘤，具 Crizotinib 療效的強烈生物學合理性，Phase II 研究已支持 ALK+ IMT 治療。建議細分亞型評估，不宜以「良性」一概而論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "lung germ cell tumor",
+      "txgnn": {
+        "score": 0.9972984194755554,
+        "rank": 4243
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02465060",
+            "title": "Molecular Analysis for Therapy Choice (MATCH)",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 6452,
+            "start_date": "2015-08-17",
+            "completion_date": "2026-12-31",
+            "brief_summary": "This phase II MATCH screening and multi-sub-trial studies how well treatment that is directed by genetic testing works in patients with solid tumors, lymphomas, or multiple myelomas that may have spread from where it first started to nearby tissue, lymph nodes, or distant parts of the body (advanced) and does not respond to treatment (refractory). Patients must have progressed following at least one line of standard treatment or for which no agreed upon treatment approach exists. Genetic tests l",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "NCI-MATCH Phase 2 籃式試驗（n=6452），活躍未招募。設計涵蓋 ALK 融合及 MET 擴增分子分型，跨腫瘤類型設計原則上可入組 ALK+ 肺腫瘤（包括稀有類型），但非針對生殖細胞腫瘤設計，療效資料需從亞群分析獲取"
+            }
+          },
+          {
+            "nct_id": "NCT01121588",
+            "title": "PHASE 1B OPEN-LABEL STUDY OF THE SAFETY AND CLINICAL ACTIVITY OF CRIZOTINIB (PF-02341066) IN TUMORS WITH GENETIC EVENTS INVOLVING THE ANAPLASTIC LYMPHOMA KINASE (ALK ) GENE LOCUS",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 44,
+            "start_date": "2011-03-22",
+            "completion_date": "2023-09-07",
+            "brief_summary": "This is a Phase 1 trial evaluating the safety and efficacy of crizotinib in patients with tumors except non-small cell lung cancer that are positive for ALK.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Crizotinib Phase 1b 泛實體腫瘤開放標籤研究（已終止，n=44）。雖已終止，提供跨腫瘤類型的安全性與初步療效訊號，為後續籃式試驗設計依據"
+            }
+          },
+          {
+            "nct_id": "NCT02223819",
+            "title": "Phase II Trial of Adjuvant Crizotinib in High-Risk Uveal Melanoma Following Definitive Therapy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2015-03",
+            "completion_date": "2019-07-03",
+            "brief_summary": "The study is designed to determine the 32 month rate of distant relapse in patients with uveal melanoma who are at high risk of recurrence following definitive therapy with surgery or radiation who receive adjuvant crizotinib; and secondarily, the overall survival and disease specific survival in this patient population.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 葡萄膜黑色素瘤輔助 Crizotinib（已完成，n=34）。腫瘤類型與肺生殖細胞腫瘤無直接關聯，僅提供 Crizotinib 在非 NSCLC 腫瘤的一般安全性背景"
+            }
+          },
+          {
+            "nct_id": "NCT02568267",
+            "title": "An Open-Label, Multicenter, Global Phase 2 Basket Study of Entrectinib for the Treatment of Patients With Locally Advanced or Metastatic Solid Tumors That Harbor NTRK1/2/3, ROS1, or ALK Gene Rearrangements",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 534,
+            "start_date": "2015-11-19",
+            "completion_date": "2026-05-14",
+            "brief_summary": "This is an open-label, multicenter, global Phase 2 basket study of entrectinib (RXDX-101) for the treatment of patients with solid tumors that harbor an NTRK1/2/3, ROS1, or ALK gene fusion. Patients will be assigned to different baskets according to tumor type and gene fusion.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Entrectinib（Pan-TRK/ROS1/ALK）Phase 2 籃式試驗（活躍，n=534）。為競品藥物而非 Crizotinib，但間接支持 ALK/ROS1 靶向策略在多種腫瘤類型的可行性概念"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27573755",
+            "title": "The role of the ALK receptor in cancer biology.",
+            "authors": [
+              "Hallberg B",
+              "Palmer R H"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2016",
+            "abstract": "A vast array of oncogenic variants has been identified for anaplastic lymphoma kinase (ALK). Therefore, there is a need to better understand the role of ALK in cancer biology in order to optimise treatment strategies. This review summarises the latest research on the receptor tyrosine kinase ALK, and how this information can guide the management of patients with cancer that is ALK-positive. A variety of ALK gene alterations have been described across a range of tumour types, including point muta",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37012551",
+            "title": "Lorlatinib with or without chemotherapy in ALK-driven refractory/relapsed neuroblastoma: phase 1 trial results.",
+            "authors": [
+              "Goldsmith Kelly C",
+              "Park Julie R",
+              "Kayser Kimberly",
+              "Malvar Jemily",
+              "Chi Yueh-Yun"
+            ],
+            "journal": "Nature medicine",
+            "year": "2023",
+            "abstract": "Neuroblastomas harbor ALK aberrations clinically resistant to crizotinib yet sensitive pre-clinically to the third-generation ALK inhibitor lorlatinib. We conducted a first-in-child study evaluating lorlatinib with and without chemotherapy in children and adults with relapsed or refractory ALK-driven neuroblastoma. The trial is ongoing, and we report here on three cohorts that have met pre-specified primary endpoints: lorlatinib as a single agent in children (12 months to <18 years); lorlatinib ",
+            "classification": {
+              "study_type": "Phase 1 Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28183697",
+            "title": "Safety and Antitumor Activity of the Multitargeted Pan-TRK, ROS1, and ALK Inhibitor Entrectinib: Combined Results from Two Phase I Trials (ALKA-372-001 and STARTRK-1).",
+            "authors": [
+              "Drilon Alexander",
+              "Siena Salvatore",
+              "Ou Sai-Hong Ignatius",
+              "Patel Manish",
+              "Ahn Myung Ju"
+            ],
+            "journal": "Cancer discovery",
+            "year": "2017",
+            "abstract": "Entrectinib, a potent oral inhibitor of the tyrosine kinases TRKA/B/C, ROS1, and ALK, was evaluated in two phase I studies in patients with advanced or metastatic solid tumors, including patients with active central nervous system (CNS) disease. Here, we summarize the overall safety and report the antitumor activity of entrectinib in a cohort of patients with tumors harboring NTRK1/2/3, ROS1, or ALK gene fusions, naïve to prior TKI treatment targeting the specific gene, and who were treated at d",
+            "classification": {
+              "study_type": "Phase 1/2 Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22968692",
+            "title": "Targeting ALK: a promising strategy for the treatment of non-small cell lung cancer, non-Hodgkin's lymphoma, and neuroblastoma.",
+            "authors": [
+              "Morales La Madrid Andres",
+              "Campbell Nicholas",
+              "Smith Sonali",
+              "Cohn Susan L",
+              "Salgia Ravi"
+            ],
+            "journal": "Targeted oncology",
+            "year": "2012",
+            "abstract": "Anaplastic lymphoma kinase (ALK) is a tyrosine kinase receptor that affects a number of biological and biochemical functions through normal ligand-dependent signaling. It has oncogenic functions in a number of tumors including non-small cell lung cancer (NSCLC), anaplastic large cell lymphoma, and neuroblastoma when altered by translocation or amplification or mutation. On August 2011, a small molecule inhibitor against ALK, crizotinib, was approved for therapy against NSCLC with ALK translocati",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28960893",
+            "title": "Crizotinib targets in glioblastoma stem cells.",
+            "authors": [
+              "Junca Audelaure",
+              "Villalva Claire",
+              "Tachon Gaëlle",
+              "Rivet Pierre",
+              "Cortes Ulrich"
+            ],
+            "journal": "Cancer medicine",
+            "year": "2017",
+            "abstract": "Glioblastoma stem cells (GSCs) are believed to be involved in the mechanisms of tumor resistance, therapeutic failures, and recurrences after conventional glioblastoma therapy. Therefore, elimination of GSCs might be a prerequisite for the development of successful therapeutic strategies. ALK, ROS1, and MET are targeted by Crizotinib, a tyrosine kinase inhibitor which has been approved for treatment of ALK-rearranged non-small-cell lung cancer. In this study we investigated ALK, ROS1, and MET st",
+            "classification": {
+              "study_type": "Preclinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37561984",
+            "title": "Anaplastic Lymphoma Kinase Inhibitors for Therapy of Neuroblastoma in Adults.",
+            "authors": [
+              "Stiefel Jessica",
+              "Kushner Brian H",
+              "Roberts Stephen S",
+              "Iglesias-Cardenas Fiorella",
+              "Kramer Kim"
+            ],
+            "journal": "JCO precision oncology",
+            "year": "2023",
+            "abstract": "Adult-onset neuroblastoma (AON) differs significantly in biology and clinical behavior from childhood-onset disease. AON poses therapeutic challenges since tolerance of intensive multimodality therapies that are standard of care for pediatric neuroblastoma (NB) is poor. AON is enriched for somatic mutations including anaplastic lymphoma kinase (ALK), deemed to be an oncogenic driver in NB. ALK inhibitors (ALKis), therefore, have the potential to be of therapeutic benefit. The purpose of this stu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26122839",
+            "title": "Tackling Crizotinib Resistance: The Pathway from Drug Discovery to the Pediatric Clinic.",
+            "authors": [
+              "Tucker Elizabeth R",
+              "Danielson Laura S",
+              "Innocenti Paolo",
+              "Chesler Louis"
+            ],
+            "journal": "Cancer research",
+            "year": "2015",
+            "abstract": "Neuroblastoma is a childhood malignancy that has not yet benefitted from the rapid progress in the development of small-molecule therapeutics for cancer. An opportunity to take advantage of pharmaceutical innovation in this area arose when the identification of ALK fusion proteins in non-small cell lung cancer (NSCLC) occurred in parallel to the discovery of point mutations of ALK in neuroblastomas. ALK is now known to be a marker of poor outcome in neuroblastoma, and therefore, urgent developme",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25351246",
+            "title": "ALK pERKs up MYCN in neuroblastoma.",
+            "authors": [
+              "Lindner Sven",
+              "Henssen Anton",
+              "Astrahantseff Kathy",
+              "Schulte Johannes H"
+            ],
+            "journal": "Science signaling",
+            "year": "2014",
+            "abstract": "The gene expressing the receptor tyrosine kinase anaplastic lymphoma kinase (ALK) is mutated and aberrantly expressed in several cancers. The clinical efficacy of the ALK inhibitor, crizotinib, lags behind expectations for treating MYCN-amplified, ALK-mutant neuroblastoma, a deadly childhood cancer. In this issue of Science Signaling, Umapathy et al. identify the kinase extracellular signal-regulated kinase 5 (ERK5) as a central mediator that enables ALK to boost MYCN expression, and they show t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21587085",
+            "title": "Detection of ALK gene rearrangement in non-small cell lung cancer: a comparison of fluorescence in situ hybridization and chromogenic in situ hybridization with correlation of ALK protein expression.",
+            "authors": [
+              "Kim Hyojin",
+              "Yoo Seol-Bong",
+              "Choe Ji-Young",
+              "Paik Jin Ho",
+              "Xu Xianhua"
+            ],
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2011",
+            "abstract": "Accurate determination of ALK rearrangement is important in lung cancer patients, especially in determining their eligibility for crizotinib therapy. Fluorescence in situ hybridization (FISH) has been regarded as the gold standard method for detecting ALK rearrangement. However, FISH requires a fluorescence microscope, and the signals are labile and rapidly fade over time. This study evaluates the concordance between ALK gene rearrangement in non-small cell lung cancer assessed by ALK FISH and a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22585002",
+            "title": "Targeting ALK in neuroblastoma--preclinical and clinical advancements.",
+            "authors": [
+              "Carpenter Erica L",
+              "Mossé Yael P"
+            ],
+            "journal": "Nature reviews. Clinical oncology",
+            "year": "2012",
+            "abstract": "Despite improvements in cancer therapies in the past 50 years, neuroblastoma remains a devastating clinical problem and a leading cause of childhood cancer deaths. Advances in treatments for children with high-risk neuroblastoma have, until recently, involved addition of cytotoxic therapy to dose-intensive regimens. In this era of targeted therapies, substantial efforts have been made to identify optimal targets for different types of cancer. The discovery of hereditary and somatic activating mu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30790327",
+            "title": "Anaplastic lymphoma kinase expression in small-cell lung cancer.",
+            "authors": [
+              "Kondoh Chiaki",
+              "Horio Yoshitsugu",
+              "Hayashi Yuko",
+              "Ebi Hiromichi",
+              "Hida Toyoaki"
+            ],
+            "journal": "Histopathology",
+            "year": "2019",
+            "abstract": "Anaplastic lymphoma kinase (ALK) immunohistochemistry has shifted from being a screening tool to being a sole determinant for ALK-targeted therapy. Recent articles have referred to small-cell lung cancer (SCLC) transformation as a resistance mechanism after ALK inhibitor treatments, but few reports have addressed ALK expression in treatment-naive SCLC in a comprehensive manner. Therefore, we examined ALK expression and the mechanisms in treatment-naive SCLCs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32651063",
+            "title": "Next-Generation Sequencing Identified a Novel Crizotinib-Sensitive PLB1-ALK Rearrangement in Lung Large-Cell Neuroendocrine Carcinoma.",
+            "authors": [
+              "Wang Shuai",
+              "Wu Xuan",
+              "Zhao Jiuzhou",
+              "Chen Haiyang",
+              "Zhang Zhe"
+            ],
+            "journal": "Clinical lung cancer",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31852910",
+            "title": "Repotrectinib (TPX-0005), effectively reduces growth of ALK driven neuroblastoma cells.",
+            "authors": [
+              "Cervantes-Madrid Diana",
+              "Szydzik Joanna",
+              "Lind Dan Emil",
+              "Borenäs Marcus",
+              "Bemark Mats"
+            ],
+            "journal": "Scientific reports",
+            "year": "2019",
+            "abstract": "Neuroblastoma is the most commonly diagnosed extracranial tumor in the first year of life. Approximately 9% of neuroblastoma patients present germline or somatic aberrations in the gene encoding for anaplastic lymphoma kinase (ALK). This increases in high-risk neuroblastomas, which have a 14% frequency of ALK aberrations at the time of diagnosis and show increasing numbers at relapse. Abrogating ALK activity with kinase inhibitors is employed as clinical therapy in malignancies such as non-small",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38032104",
+            "title": "SHP2 Inhibition with TNO155 Increases Efficacy and Overcomes Resistance of ALK Inhibitors in Neuroblastoma.",
+            "authors": [
+              "Valencia-Sama Ivette",
+              "Kee Lynn",
+              "Christopher Gabriella",
+              "Ohh Michael",
+              "Layeghifard Mehdi"
+            ],
+            "journal": "Cancer research communications",
+            "year": "2023",
+            "abstract": "Survival rates among patients with high-risk neuroblastoma remain low and novel therapies for recurrent neuroblastomas are required. ALK is commonly mutated in primary and relapsed neuroblastoma tumors and ALK tyrosine kinase inhibitors (TKI) are promising treatments for ALK-driven neuroblastoma; however, innate or adaptive resistance to single-agent ALK-TKIs remain a clinical challenge. Recently, SHP2 inhibitors have been shown to overcome ALK-TKI resistance in lung tumors harboring ALK rearran",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31559892",
+            "title": "A case of primary pulmonary atypical carcinoid with EML4-ALK rearrangement.",
+            "authors": [
+              "Liu Na",
+              "Wang Jingjing",
+              "Fu Xiao",
+              "Zheng Xiaoqiang",
+              "Gao Huan"
+            ],
+            "journal": "Cancer biology & therapy",
+            "year": "2020",
+            "abstract": "Targeted therapy has revolutionized the treatment pattern of advanced drive gene mutation positive non-small cell lung cancer (NSCLC). Advanced testing techniques enable physicians to detect these gene alterations in the clinic, thereby offering targeted therapies as treatment options to their patients. In this article, we reported a 52-year-old Chinese female with a pulmonary nodule in her left lower lung. After thoracoscopic lobectomy, a histopathological diagnosis of moderately differentiated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24140933",
+            "title": "Crizotinib, a c-Met inhibitor, prevents metastasis in a metastatic uveal melanoma model.",
+            "authors": [
+              "Surriga Oliver",
+              "Rajasekhar Vinagolu K",
+              "Ambrosini Grazia",
+              "Dogan Yildrim",
+              "Huang Ruimin"
+            ],
+            "journal": "Molecular cancer therapeutics",
+            "year": "2013",
+            "abstract": "Uveal melanoma is the most common primary intraocular malignant tumor in adults and half of the primary tumors will develop fatal metastatic disease to the liver and the lung. Crizotinib, an inhibitor of c-Met, anaplastic lymphoma kinase (ALK), and ROS1, inhibited the phosphorylation of the c-Met receptor but not of ALK or ROS1 in uveal melanoma cells and tumor tissue. Consequently, migration of uveal melanoma cells was suppressed in vitro at a concentration associated with the specific inhibiti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29357780",
+            "title": "Crizotinib-induced erosive esophagitis in a pediatric patient with neuroblastoma.",
+            "authors": [
+              "Lubcke Nicole",
+              "Van Camp Kevin"
+            ],
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2019",
+            "abstract": "Crizotinib is an oral tyrosine kinase inhibitor, approved by the FDA in 2011, for use in anaplastic lymphoma kinase positive, metastatic, non-small cell lung cancer. Crizotinib inhibits oncogenic protein expression and impairs cellular proliferation in tumors with an overexpressed anaplastic lymphoma kinase gene. Currently used most frequently in the adult patient population, pediatric use is becoming more prominent, specifically in disease states exhibiting anaplastic lymphoma kinase-positive, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26568289",
+            "title": "Discovery of Inhibitors That Overcome the G1202R Anaplastic Lymphoma Kinase Resistance Mutation.",
+            "authors": [
+              "Hatcher John M",
+              "Bahcall Magda",
+              "Choi Hwan Geun",
+              "Gao Yang",
+              "Sim Taebo"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "2015",
+            "abstract": "The treatment of patients with advanced non-small-cell lung cancer harboring chromosomal rearrangements of anaplastic lymphoma kinase (ALK) has been revolutionized by the development of crizotinib, a small-molecule inhibitor of ALK, ROS1, and MET. However, resistance to crizotinib inevitably develops through a variety of mechanisms, leading to relapse both systemically and in the central nervous system (CNS). This has motivated the development of \"second-generation\" ALK inhibitors, including ale",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21948233",
+            "title": "ALK mutations conferring differential resistance to structurally diverse ALK inhibitors.",
+            "authors": [
+              "Heuckmann Johannes M",
+              "Hölzel Michael",
+              "Sos Martin L",
+              "Heynck Stefanie",
+              "Balke-Want Hyatt"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2011",
+            "abstract": "EML4-ALK fusions define a subset of lung cancers that can be effectively treated with anaplastic lymphoma kinase (ALK) inhibitors. Unfortunately, the duration of response is heterogeneous and acquired resistance limits their ultimate efficacy. Thus, a better understanding of resistance mechanisms will help to enhance tumor control in EML4-ALK-positive tumors.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266870",
+            "title": "Antibody targeting of anaplastic lymphoma kinase induces cytotoxicity of human neuroblastoma.",
+            "authors": [
+              "Carpenter E L",
+              "Haglund E A",
+              "Mace E M",
+              "Deng D",
+              "Martinez D"
+            ],
+            "journal": "Oncogene",
+            "year": "2012",
+            "abstract": "Anaplastic lymphoma kinase (ALK) is a receptor tyrosine kinase aberrantly expressed in neuroblastoma, a devastating pediatric cancer of the sympathetic nervous system. Germline and somatically acquired ALK aberrations induce increased autophosphorylation, constitutive ALK activation and increased downstream signaling. Thus, ALK is a tractable therapeutic target in neuroblastoma, likely to be susceptible to both small-molecule tyrosine kinase inhibitors and therapeutic antibodies-as has been show",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性肺生殖細胞腫瘤極罕見（<0.5% 肺腫瘤）；ALK 重排在生殖細胞腫瘤罕見但有文獻記錄。部分以「肺生殖細胞腫瘤」歸類的病灶可能為 ALK 陽性 IMT 或神經母細胞瘤轉移。MATCH 籃式試驗提供 ALK 突變跨腫瘤療效框架；神經母細胞瘤（ALK 驅動）文獻提供間接機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pulmonary sulcus neoplasm",
+      "txgnn": {
+        "score": 0.9972984194755554,
+        "rank": 4244
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pancoast 腫瘤（肺上溝腫瘤）病理組成以鱗狀細胞癌（45-50%）與腺癌（25-30%）為主，ALK/ROS1 重排發生率極低（約 1-3%）。無臨床試驗或文獻支持。若分子篩查確認 ALK/ROS1 陽性，則可適用一般 ALK+ NSCLC 指引，但此屬個別化治療而非再利用適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "txgnn": {
+        "score": 0.9972051978111268,
+        "rank": 4361
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontote",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "journal": "Neurology India",
+            "year": "2021",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive deme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia req",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to furth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several pri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzhe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IBMPFD（IBM-EPD-FTD）由 VCP/p97 基因功能獲得性突變導致，核心病理為泛素蛋白酶體系統及自噬功能障礙，與 ALK/ROS1/MET 信號通路無已知交叉。20 篇文獻全為額顳葉失智症一般性回顧，無任何 Crizotinib 或 ALK/MET 靶向治療相關內容，文獻相關性評分為零。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "junctional epidermolysis bullosa",
+      "txgnn": {
+        "score": 0.9970266222953796,
+        "rank": 4571
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "交界型大疱性表皮鬆解症（JEB）由 LAMA3、LAMB3 或 LAMC2 基因突變導致基底膜帶蛋白缺陷，屬結構蛋白遺傳病，與 ALK/ROS1/MET 激酶信號通路無病理關聯。無任何臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+      "txgnn": {
+        "score": 0.9969406127929688,
+        "rank": 4658
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27931070",
+            "title": "[Not Available].",
+            "authors": [
+              "Löser P",
+              "Mross B",
+              "Lapp H",
+              "Bauer J U"
+            ],
+            "journal": "Pneumologie (Stuttgart, Germany)",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36534968",
+            "title": "Repurposing crizotinib to target RIPK1-dependent cell death.",
+            "authors": [
+              "Yu Yajie",
+              "Li Min",
+              "Fu Shufang",
+              "He Xiaoyan",
+              "Hu Xinqian"
+            ],
+            "journal": "International immunology",
+            "year": "2023",
+            "abstract": "Receptor-interacting protein kinase 1 (RIPK1) has emerged as a key regulator of cell death and inflammation, which are implicated in the pathogenesis of many inflammatory and degenerative diseases. RIPK1 is therefore a putative therapeutic target in many of these diseases. However, no pharmacological inhibitor of RIPK1-mediated cell death is currently in clinical use. Recognizing that a repurposed drug has an expedited clinical development pipeline, here we performed a high-throughput drug scree",
+            "classification": {
+              "study_type": "Preclinical / Mechanistic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26898609",
+            "title": "Crizotinib-induced fatal fulminant liver failure.",
+            "authors": [
+              "van Geel Robin M J M",
+              "Hendrikx Jeroen J M A",
+              "Vahl Jelmer E",
+              "van Leerdam Monique E",
+              "van den Broek Daan"
+            ],
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2016",
+            "abstract": "Herein we describe a case of a 62-year-old female in good clinical condition with non-small-cell lung cancer who was treated with crizotinib. After 24 days of crizotinib therapy she presented with acute liver failure. Serum aspartate aminotransferase and alanine aminotransferase levels had increased from normal prior to crizotinib start to 2053 IU/L and 6194 IU/L, respectively. Total bilirubin and prothrombin time (PT-INR) increased up to 443 IU/L and 5.33, respectively, and symptoms of hepatic ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40813622",
+            "title": "Unraveling the impact of crizotinib to promote megakaryopoiesis for alleviating thrombocytopenia in myelodysplastic neoplasms.",
+            "authors": [
+              "Kobayashi Hiroki",
+              "Komizo Yuta",
+              "Watanabe Nanami",
+              "Miyata Yu",
+              "Ohnuma Yoshiya"
+            ],
+            "journal": "Leukemia",
+            "year": "2025",
+            "abstract": "Current therapeutic options for myelodysplastic neoplasms (MDS)-associated thrombocytopenia are limited. Megakaryocyte maturation might be an innovative therapeutic strategy because its dysregulation profoundly contributes to MDS pathogenesis. Here, we identified crizotinib, a clinically approved anti-cancer drug for anaplastic lymphoma kinase (ALK)-positive non-small-cell lung cancer, as a potent inducer of megakaryocyte maturation. We demonstrated that crizotinib effectively induced polyploidi",
+            "classification": {
+              "study_type": "Preclinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40843703",
+            "title": "Epidemiology, Clinical Data, and Management of Aseptic Abscess Syndrome: Review of Published Cases Outside France.",
+            "authors": [
+              "Eleftheriotis Gerasimos",
+              "Fragonikolaki Michaela",
+              "Karelaki Chrysi",
+              "Syrigou Ergina",
+              "Georgiadis Spyridon"
+            ],
+            "journal": "Epidemiologia (Basel, Switzerland)",
+            "year": "2025",
+            "abstract": "Aseptic abscess syndrome is a clinical entity that is being increasingly documented. Unfortunately, apart from the French registry, there are no other studies presenting collective data. In this review, we sought to analyze clinical and laboratory data from case reports published from the rest of the world. A total of 107 articles were found through our literature search in PubMed, Scopus, and Google, which contained 108 patients who met our eligibility criteria, including pediatric cases. The m",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29058790",
+            "title": "Clinical and prognostic value of the C-Met/HGF signaling pathway in cervical cancer.",
+            "authors": [
+              "Boromand Nadia",
+              "Hasanzadeh Malihe",
+              "ShahidSales Soodabeh",
+              "Farazestanian Marjaneh",
+              "Gharib Masoumeh"
+            ],
+            "journal": "Journal of cellular physiology",
+            "year": "2018",
+            "abstract": "Aberrant activation of the HGF/c-Met signalling pathway is reported to be associated with cell proliferation, progression, and metastasis features of several tumor types, including cervical cancer, suggesting that it may be of potential value as a novel therapeutic target. Furthermore, HPV-positive patients had a higher serum level of HGF or c-Met protein, compared with HPV-negative patients. c-Met or HGF overexpression in lesions of cervical cancer is reported to be related to a poorer prognosi",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30636579",
+            "title": "Targeting the C-MET/HGF Signaling Pathway in Pancreatic Ductal Adenocarcinoma.",
+            "authors": [
+              "Ghanaatgar-Kasbi Sadaf",
+              "Khorrami Shadi",
+              "Avan Amir",
+              "Aledavoud Seyed A",
+              "Ferns Gordon A"
+            ],
+            "journal": "Current pharmaceutical design",
+            "year": "2018",
+            "abstract": "The c-mesenchymal-epithelial transition factor (c-MET) is involved in the tumorigenesis of various cancers. HGF/Met inhibitors are now attracting considerable interest due to their anti-tumor activity in multiple malignancies such as pancreatic cancer. It is likely that within the next few years, HGF/Met inhibitors will become a crucial component for cancer management. In this review, we summarize the role of HGF/Met pathway in the pathogenesis of pancreatic cancer, with particular emphasize on ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30165779",
+            "title": "Management of Acute Complications of Targeted Therapy in Patients With Cancer: A Review of Cases Managed in ICU.",
+            "authors": [
+              "Pistone Aureliano",
+              "Durieux Valérie",
+              "Grigoriu Bogdan",
+              "Meert Anne-Pascale"
+            ],
+            "journal": "Journal of intensive care medicine",
+            "year": "2019",
+            "abstract": "Targeted therapies, molecules in full expansion, are not free of side effects that can lead patients to intensive care. We performed an extensive review of the published evidence and propose a management strategy for acute complications of targeted therapy in critically ill patients with cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34675489",
+            "title": "The Expanding Role of Pyridine and Dihydropyridine Scaffolds in Drug Design.",
+            "authors": [
+              "Ling Yong",
+              "Hao Zhi-You",
+              "Liang Dong",
+              "Zhang Chun-Lei",
+              "Liu Yan-Fei"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2021",
+            "abstract": "Pyridine-based ring systems are one of the most extensively used heterocycles in the field of drug design, primarily due to their profound effect on pharmacological activity, which has led to the discovery of numerous broad-spectrum therapeutic agents. In the US FDA database, there are 95 approved pharmaceuticals that stem from pyridine or dihydropyridine, including isoniazid and ethionamide (tuberculosis), delavirdine (HIV/AIDS), abiraterone acetate (prostate cancer), tacrine (Alzheimer's), cic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25246725",
+            "title": "Gefitinib inhibits the growth of Toxoplasma gondii in HeLa cells.",
+            "authors": [
+              "Yang Zhaoshou",
+              "Ahn Hye-Jin",
+              "Nam Ho-Woo"
+            ],
+            "journal": "The Korean journal of parasitology",
+            "year": "2014",
+            "abstract": "Toxoplasma gondii is the causative agent of toxoplasmosis with symptoms of congenital neurological and ocular diseases and acquired lymphadenitis, retinochoroiditis, and meningoencephalitis. Small molecules which block the activity of protein kinases were tested in in vitro culture of T. gondii to find new therapeutic drugs of safer and more effective than the combined administration of pyrimethamine and sulfadoxine that sometimes provoke lethal Stevens-Johnson syndrome. Among them, Gefitinib an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33414136",
+            "title": "Molecular Characterization and Therapeutic Targeting of Colorectal Cancers Harboring Receptor Tyrosine Kinase Fusions.",
+            "authors": [
+              "Singh Harshabad",
+              "Li Yvonne Y",
+              "Spurr Liam F",
+              "Shinagare Atul B",
+              "Abhyankar Ritika"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2021",
+            "abstract": "Receptor tyrosine kinase fusions in colorectal cancers are rare, but potentially therapeutically relevant. We describe clinical, molecular, and pathologic attributes of RTK fusion-associated colorectal cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38893082",
+            "title": "Integrating Ataxia Evaluation into Tumor-Induced Hearing Loss Model to Comprehensively Study NF2-Related Schwannomatosis.",
+            "authors": [
+              "Lu Simeng",
+              "Yin Zhenzhen",
+              "Chen Jie",
+              "Wu Limeng",
+              "Sun Yao"
+            ],
+            "journal": "Cancers",
+            "year": "2024",
+            "abstract": "NF2-related Schwannomatosis (NF2-SWN) is a disease that needs new solutions. The hallmark of NF2-SWN, a dominantly inherited neoplasia syndrome, is bilateral vestibular schwannomas (VSs), which progressively enlarge, leading to sensorineural hearing loss, tinnitus, facial weakness, and pain that translates to social impairment and clinical depression. Standard treatments for growing VSs include surgery and radiation therapy (RT); however, both carry the risk of further nerve damage that can resu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29717400",
+            "title": "Crizotinib-induced simultaneous multiple cardiac toxicities.",
+            "authors": [
+              "Oyakawa Takuya",
+              "Muraoka Nao",
+              "Iida Kei",
+              "Kusuhara Masatoshi",
+              "Kawamura Takahisa"
+            ],
+            "journal": "Investigational new drugs",
+            "year": "2018",
+            "abstract": "Crizotinib is a receptor tyrosine kinase inhibitor that has several targets, including c-ros oncogene 1 and the MET proto-oncogene. Considering its known cardiac toxicity, bradycardia is often investigated following treatment with crizotinib. Our patients had bradycardia, QT prolongation, ventricular rhythm, ventricular fibrillation, and pericarditis simultaneously. The cardiotoxicity of crizotinib can sometimes be simultaneous; thus, intensive observation is needed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33402581",
+            "title": "Successful combination of crizotinib and hematopoietic stem cell transplantation in relapsed ALK-positive ALCL.",
+            "authors": [
+              "Sun Xue",
+              "Fang Xiaosheng",
+              "Jiang Yujie"
+            ],
+            "journal": "Indian journal of cancer",
+            "year": "2021",
+            "abstract": "We report a case wherein a combination of crizotinib and hematopoietic stem cell transplantation (HSCT) cured a 20-year-old woman with relapsed and refractory anaplastic lymphoma kinase-positive anaplastic large cell lymphoma (ALK-positive ALCL). Although she received cyclophosphamide, doxorubicin, vincristine, prednisone, and etoposide (CHOPE) as the first-line chemotherapy from the beginning, the disease progressed rapidly with the emergence of bone marrow invasion and hemophagocytic syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28844392",
+            "title": "Lazarus Syndrome With Crizotinib in a Non-Small Cell Lung Cancer Patient With ROS1 Rearrangement and Disseminated Intravascular Coagulation.",
+            "authors": [
+              "Brosseau Solenn",
+              "Gounant Valérie",
+              "Naltet Charles",
+              "Théou-Anton Nathalie",
+              "Cazes Aurélie"
+            ],
+            "journal": "Clinical lung cancer",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37393293",
+            "title": "Landscape of PCOS co-expression gene and its role in predicting prognosis and assisting immunotherapy in endometrial cancer.",
+            "authors": [
+              "Zhang Yun",
+              "Hu Yifang",
+              "Yu Jian",
+              "Xie Xiaoyan",
+              "Jiang Feng"
+            ],
+            "journal": "Journal of ovarian research",
+            "year": "2023",
+            "abstract": "Endometrial carcinoma (EC) is the sixth most frequent malignancy in women and is often linked to high estrogen exposure. Polycystic ovarian syndrome (PCOS) is a known risk factor for EC, but the underlying mechanisms remain unclear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28075018",
+            "title": "C-Met as a potential target for the treatment of gastrointestinal cancer: Current status and future perspectives.",
+            "authors": [
+              "Bahrami Afsane",
+              "Shahidsales Soodabeh",
+              "Khazaei Majid",
+              "Ghayour-Mobarhan Majid",
+              "Maftouh Mina"
+            ],
+            "journal": "Journal of cellular physiology",
+            "year": "2017",
+            "abstract": "Aberrant activation of the HGF/c-Met signalling pathways is shown to be related with cell proliferation, progression, metastasis, and worse prognosis in several tumor types, including gastrointestinal cancers, suggesting its value as a stimulating-target for cancer-therapy. Several approaches have been developed for targeting HGF and/or c-Met, and one of them, crizotinib (dual c-Met/ALK inhibitor), is recently been approved by FDA for lung-cancers with ALK-rearrangement. The main aim of current ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25994067",
+            "title": "Crizotinib-associated erythema multiforme in a lung cancer patient.",
+            "authors": [
+              "Sawamura Soichiro",
+              "Kajihara Ikko",
+              "Ichihara Asako",
+              "Fukushima Satoshi",
+              "Jinnin Masatoshi"
+            ],
+            "journal": "Drug discoveries & therapeutics",
+            "year": "2015",
+            "abstract": "Crizotinib is an oral small-molecule anaplastic lymphoma kinase (ALK) tyrosine-kinase inhibitor for the treatment of ALK-positive non-small-cell lung cancer (NSCLC). A 63-year old woman with postoperative relapsed ALK-positive NSCLC was treated with crizotinib. Erythema multiforme (EM) occurred one week after initiation of crizotinib therapy. Skin biopsy specimen showed compatible drug eruption. The discontinuation of crizotinib improved her eruption within one week. This report presented the fi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29413968",
+            "title": "Current perspective: Osimertinib-induced QT prolongation: new drugs with new side-effects need careful patient monitoring.",
+            "authors": [
+              "Schiefer Mart",
+              "Hendriks Lizza E L",
+              "Dinh Trang",
+              "Lalji Ulrich",
+              "Dingemans Anne-Marie C"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2018",
+            "abstract": "An increasing number of tyrosine kinase inhibitors (TKIs) are available for the treatment of non-small cell lung cancer (NSCLC). QT prolongation is one of the known, but relatively rare, adverse events of several TKIs (e.g. osimertinib, crizotinib, ceritinib). Screening for QT prolongation in (high risk) patients is advised for these TKIs. When a QT prolongation develops, the physician is challenged with the question whether to (permanently) discontinue the TKI. In this perspective, we report on",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25922742",
+            "title": "Anaplastic lymphoma kinase-positive lung adenocarcinoma patient with development of sick sinus syndrome while on targeted treatment with crizotinib.",
+            "authors": [
+              "Jiang Hao",
+              "Li Mei-Mei",
+              "Jin Shu-Xian"
+            ],
+            "journal": "Journal of thoracic disease",
+            "year": "2015",
+            "abstract": "The anaplastic lymphoma kinase (ALK) positive non-small cell lung cancer (NSCLC) patients are younger and have never smoked, while pathologically are predominately adenocarcinomas. Crizotinib as an ALK inhibitor has been used in treating ALK positive NSCLC patients for several years and some adverse effects should be paid attention to. We now describe a case of ALK positive NSCLC patient with development of sick sinus syndrome (SSS) while on targeted treatment with crizotinib. A 46-year-old non-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此極罕見症候群（Cantu-Garcia 症候群）病理機轉尚未完全闡明。文獻中含 2 篇具Crizotinib 直接關聯的重要發現：(1) RIPK1 依賴性細胞死亡再利用研究（PMID 36534968，2023）提示 Crizotinib 具意外的 RIPK1 抑制活性；(2) Crizotinib 促進巨核細胞生成改善血小板減少症（PMID 40813622，2025）。然而，這兩個新機轉均與本症候群的色素異常及發育障礙無直接病理關聯，現階段不足以支持再利用決策。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "fibroma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "fibroma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "fibroma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung benign neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung benign neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung benign neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung germ cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung germ cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "lung germ cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Crizotinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

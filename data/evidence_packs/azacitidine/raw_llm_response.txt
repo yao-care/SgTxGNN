@@ -1,0 +1,525 @@
+```json
+{
+  "drug": "Azacitidine",
+  "drugbank_id": "DB00928",
+  "analysis_date": "2026-04-05",
+  "global_context_note": "Azacitidine (Vidaza) 於全球多國（美國 FDA 2004、EMA、日本等）已核准用於 MDS 及 AML；本分析以新加坡（SgTxGNN）市場狀態（未上市）為基準，但全球 Phase 3 RCT 證據仍納入評估。",
+  "indications": [
+    {
+      "disease_name": "bulbar polio",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Azacitidine 為 DNA 甲基轉移酶抑制劑（HMA），主要作用於異常甲基化之造血幹細胞重程式化。脊髓灰質炎病毒引起的延髓性麻痺屬急性病毒感染/神經破壞性病變，與 HMA 的表觀遺傳機轉無已知生物學交集。TxGNN 高分可能源自知識圖譜中神經系統疾病節點的拓撲鄰近性，而非直接藥理路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "骨髓抑制副作用對病毒感染患者風險高",
+        "無任何前驅機轉假說支撐",
+        "TxGNN 分數可能為假陽性（拓撲雜訊）"
+      ]
+    },
+    {
+      "disease_name": "refractory cytopenia of childhood",
+      "txgnn_score": 0.9820,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "難治性兒童血球減少症（RCC）是兒童最常見的 MDS 亞型，以低增生性骨髓和單一血球減少為特徵。Azacitidine 藉由去甲基化恢復造血幹細胞正常分化程序，理論上可改善 RCC 的骨髓衰竭；但兒童劑量耐受性、長期毒性（尤其發育影響）尚待釐清。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00398047",
+          "title": "Combination of Azacitadine and Hematopoietic Growth Factors for Myelodysplastic Syndrome",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 3,
+          "relevance_grade": "B",
+          "reasoning": "針對 MDS（RCC 的上層分類）設計，但因僅收案 3 例即終止，統計效力極低；間接支持 azacitidine 在 MDS/RCC 使用概念，但不提供療效結論。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "41098113",
+          "title": "Clinical activity of venetoclax and azacitidine in children with de novo or secondary multiple relapsed...",
+          "year": "2026",
+          "study_type": "Prospective Case Series / Phase 1-2",
+          "tier": 1,
+          "relevance": "直接在兒童 MDS/AML 使用 azacitidine 聯合方案，最新證據，高度相關"
+        },
+        {
+          "pmid": "26766110",
+          "title": "Therapy with low-dose azacitidine for MDS in children and young adults: a retrospective analysis",
+          "year": "2016",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance": "最直接相關文獻：兒童/青少年 MDS 使用低劑量 azacitidine 的實際療效報告，涵蓋 RCC 相似病患群"
+        },
+        {
+          "pmid": "38067298",
+          "title": "Development of MDS in Pediatric Patients with GATA2 Deficiency: Increased Histone Trimethylation...",
+          "year": "2023",
+          "study_type": "Molecular/Translational Study",
+          "tier": 2,
+          "relevance": "揭示兒童 MDS 表觀遺傳異常機轉，強化 HMA 治療的生物學理據"
+        },
+        {
+          "pmid": "35624441",
+          "title": "The effect of decitabine-combined minimally myelosuppressive regimen bridged allo-HSCT on the outcome...",
+          "year": "2022",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance": "Decitabine（同類 HMA）橋接 allo-HSCT 於難治性血球減少症，間接支持 HMA 類藥物在此適應症的可行性"
+        },
+        {
+          "pmid": "6170431",
+          "title": "Effective remission induction of refractory childhood acute nonlymphocytic leukemia by VP-16-213...",
+          "year": "1981",
+          "study_type": "Clinical Trial (Older)",
+          "tier": 3,
+          "relevance": "歷史參考價值：使用不同化療藥物（VP-16），與 azacitidine 無直接關聯，相關性低"
+        }
+      ],
+      "guardrails": [
+        "需兒科腫瘤科專科監督",
+        "劑量應依體重/體表面積調整（參考低劑量方案 pmid:26766110）",
+        "需監測長期發育及繼發性腫瘤風險",
+        "移植橋接評估為優先考量"
+      ]
+    },
+    {
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "txgnn_score": 0.9810,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "未分類 MDS（MDS-U）通常為低危至中危病變，Azacitidine 藉由逆轉異常 DNA 甲基化，可重新激活沉默的腫瘤抑制基因，改善骨髓衰竭。雖在新加坡未上市，但全球已有 Phase 3 RCT（CALGB 9221、AZA-001）奠定 MDS 治療基礎；MDS-U 屬 MDS 分類之一，具直接藥理路徑支撐。",
+      "global_evidence_note": "AZA-001 Phase 3 RCT（N=358，Lancet Oncol 2009）證明 azacitidine 對 MDS 整體生存優於傳統治療，雖本資料集未直接列出，應提升實際證據等級至 L2 層級。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00879385",
+          "title": "Targeted Demethylation to Enhance Response or Overcome Resistance to EGFR Blocking Agents in KRAS Wild-type...",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 21,
+          "relevance_grade": "C",
+          "reasoning": "此試驗針對 KRAS 野生型實體瘤（大腸直腸癌）使用 azacitidine 進行表觀遺傳敏感化，與 MDS-U 無直接關聯；但驗證 azacitidine 去甲基化機轉的體內活性，具機轉參考價值。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24956145",
+          "title": "Patients with myelodysplastic syndromes treated with azacitidine in clinical practice: the AVIDA registry",
+          "year": "2015",
+          "study_type": "Registry / Real-World Observational",
+          "tier": 1,
+          "relevance": "AVIDA 登錄研究：真實世界大規模 MDS 患者使用 azacitidine 的療效與安全性，最直接支持文獻"
+        },
+        {
+          "pmid": "20664061",
+          "title": "Treatment of progression of Philadelphia-negative myeloproliferative neoplasms to myelodysplastic syndrome...",
+          "year": "2010",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance": "MPN 進展至 MDS/AML 的治療策略，azacitidine 為主要選項之一，間接支持 MDS-U 使用"
+        },
+        {
+          "pmid": "33275673",
+          "title": "Myelodysplastic syndrome/myeloproliferative neoplasm overlap syndromes: a focused review",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "MDS/MPN 重疊症候群綜述，包含 azacitidine 治療策略，相關但非直接針對 MDS-U"
+        },
+        {
+          "pmid": "37495538",
+          "title": "Prognostic Value of Pretreatment Fetal Hemoglobin Levels in Patients with Myelodysplastic Syndromes...",
+          "year": "2024",
+          "study_type": "Prospective Observational",
+          "tier": 2,
+          "relevance": "探討 HbF 作為 MDS 接受 azacitidine 治療前的預後生物標誌，提供個體化治療依據"
+        },
+        {
+          "pmid": "26350487",
+          "title": "Systemic inflammatory and autoimmune manifestations associated with myelodysplastic syndromes...",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "MDS 相關全身性炎症，部分患者接受 azacitidine 治療，背景參考"
+        },
+        {
+          "pmid": "36474285",
+          "title": "A treatment-refractory aggressive MDS-MLD with multiple highly complex chromosome 5 intrachromosomal...",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "MDS-MLD（多血球減少異型增生）個案，與 MDS-U 分類相近，azacitidine 使用描述"
+        },
+        {
+          "pmid": "40785134",
+          "title": "Complex Interplay Between Sweet Syndrome and Therapy-Related Myelodysplastic Syndrome...",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "治療相關 MDS 個案報告，背景參考，相關性有限"
+        },
+        {
+          "pmid": "24850455",
+          "title": "Successful treatment of an essential thrombocythemia patient complicated by Sweet's syndrome...",
+          "year": "2014",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "ET 合併 Sweet 症候群個案，與 MDS-U 關聯性低"
+        }
+      ],
+      "guardrails": [
+        "建議參考 IPSS-R 風險分層決定是否使用 azacitidine",
+        "需排除更適合支持性療法的低危 MDS-U",
+        "監測血球計數及骨髓反應（至少 6 週期後評估）",
+        "考慮 SGH/NCC（新加坡國立癌症中心）特殊用藥申請路徑"
+      ]
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 5 (del5q)",
+      "txgnn_score": 0.9788,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Del(5q) MDS 的一線標準治療為 Lenalidomide（來那度胺），而非 HMA。然而，del(5q) 合併其他細胞遺傳學異常或 lenalidomide 失敗後，azacitidine 被納入後線選項。此資料集無任何直接試驗或文獻，現行臨床指引（NCCN/ELN）未將 azacitidine 列為 del(5q) 一線治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "Del(5q) 存在 TP53 突變時，lenalidomide 療效下降，此時 HMA 可能有作用但缺乏直接證據",
+        "需與 lenalidomide 療效比較後方可評估再利用價值"
+      ]
+    },
+    {
+      "disease_name": "aregenerative anemia",
+      "txgnn_score": 0.9788,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "再生不良性貧血（aregenerative anemia）在 MDS 背景下最常見，反映造血幹細胞功能衰竭。Azacitidine 透過去甲基化機轉可重啟造血相關基因表達，改善骨髓造血功能；此外，pmid:34781359 直接展示 azacitidine 對 X 染色體連鎖含鐵血球性貧血的療效，提供非 MDS 相關貧血的獨立藥理支撐。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00454480",
+          "title": "A Programme of Treatment Development for Older Patients With Acute Myeloid Leukemia and High Risk MDS",
+          "phase": "PHASE2/PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 2000,
+          "relevance_grade": "B",
+          "reasoning": "大規模 Phase 2/3 試驗（N=2000），老年 AML/高危 MDS 患者，azacitidine 為治療組成之一；高危 MDS 常伴嚴重再生不良性貧血，提供強力間接支持。"
+        },
+        {
+          "nct_id": "NCT01928537",
+          "title": "Phase IIIB Study of Rigosertib as IV Infusion in Patients After Failure of Hypomethylating Agents",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 67,
+          "relevance_grade": "B",
+          "reasoning": "HMA 失敗後的 Phase 3 試驗，患者背景為 MDS/AML 合併嚴重血球減少，提供 azacitidine 作為標準前線治療的對照組依據。"
+        },
+        {
+          "nct_id": "NCT00392353",
+          "title": "Phase 1/2 Study of Vorinostat in Combination With Azacitidine",
+          "phase": "PHASE1/PHASE2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 135,
+          "relevance_grade": "B",
+          "reasoning": "azacitidine + HDAC 抑制劑聯合 Phase 1/2（N=135），探討協同去甲基化/去乙醯化對 MDS/AML 的療效，適度相關。"
+        },
+        {
+          "nct_id": "NCT01016600",
+          "title": "Phase I/II Trial of Azacitidine Plus Lenalidomide in the Treatment of AML",
+          "phase": "PHASE1/PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 31,
+          "relevance_grade": "B",
+          "reasoning": "azacitidine + lenalidomide 於 AML 的組合試驗，部分 AML 患者表現為嚴重貧血，間接相關。"
+        },
+        {
+          "nct_id": "NCT00398047",
+          "title": "Combination of Azacitadine and Hematopoietic Growth Factors for MDS",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 3,
+          "relevance_grade": "C",
+          "reasoning": "早期終止，收案數極少（N=3），統計意義不足，但設計概念相關。"
+        },
+        {
+          "nct_id": "NCT01839240",
+          "title": "Phase I Investigation of 5-azacytidine With High-dose Cytarabine (HiDAC)",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 安全性研究，著重藥物組合毒性評估，療效數據有限。"
+        },
+        {
+          "nct_id": "NCT01065129",
+          "title": "Phase I Trial of Plerixafor and G-CSF Combined With Azacitidine",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "C",
+          "reasoning": "探討造血幹細胞動員策略與 azacitidine 的組合，機轉層面相關但非貧血主要療效研究。"
+        },
+        {
+          "nct_id": "NCT03813186",
+          "title": "Phase 1b PK Study of ASTX727 (Cedazuridine and Decitabine)",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 18,
+          "relevance_grade": "C",
+          "reasoning": "針對 Decitabine（同類 HMA）的藥動學研究，與 azacitidine 直接相關性低，僅作類比參考。"
+        },
+        {
+          "nct_id": "NCT03593915",
+          "title": "Phase 1b/2 of Alvocidib When Added to Azacitidine",
+          "phase": "PHASE1/PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 20,
+          "relevance_grade": "C",
+          "reasoning": "因終止且收案少，數據不完整；alvocidib（CDK9 抑制劑）+ azacitidine 組合的前期探索。"
+        },
+        {
+          "nct_id": "NCT01607645",
+          "title": "Phase II Trial of Epigenetic Priming With Decitabine Followed by Idarubicin and Cytarabine",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 7,
+          "relevance_grade": "C",
+          "reasoning": "Decitabine 而非 azacitidine，且已終止；類比 HMA 機轉有一定參考性。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34781359",
+          "title": "Azacitidine is a potential therapeutic drug for pyridoxine-refractory female X-linked sideroblastic anemia",
+          "year": "2022",
+          "study_type": "Case Series / Translational",
+          "tier": 1,
+          "relevance": "【關鍵文獻】直接展示 azacitidine 對吡哆醇難治性含鐵血球性貧血療效，提供非 MDS 再生不良性貧血的直接藥理證據"
+        },
+        {
+          "pmid": "21947085",
+          "title": "Pilot study on combination of azacitidine and low-dose cytarabine for patients with refractory anemia",
+          "year": "2012",
+          "study_type": "Pilot Study",
+          "tier": 2,
+          "relevance": "直接針對難治性貧血患者使用 azacitidine 組合方案的初步療效研究，高度相關"
+        },
+        {
+          "pmid": "40449509",
+          "title": "Bexmarilimab plus azacitidine for high-risk MDS and relapsed/refractory AML",
+          "year": "2025",
+          "study_type": "Phase 2 Trial",
+          "tier": 1,
+          "relevance": "最新 Phase 2 組合試驗，確認 azacitidine 在高危 MDS/AML（常伴嚴重貧血）中持續使用"
+        },
+        {
+          "pmid": "38471289",
+          "title": "Venetoclax plus cytarabine and azacitidine in relapsed/refractory AML: phase 2",
+          "year": "2024",
+          "study_type": "Phase 2 Trial",
+          "tier": 1,
+          "relevance": "Phase 2 組合試驗，顯示 azacitidine 於復發/難治性 AML 的現代組合使用地位"
+        },
+        {
+          "pmid": "38572562",
+          "title": "Phase I study of pevonedistat, azacitidine, and venetoclax in relapsed/refractory AML",
+          "year": "2024",
+          "study_type": "Phase 1 Trial",
+          "tier": 2,
+          "relevance": "三藥組合 Phase 1，azacitidine 為骨幹藥物，安全性數據有助風險評估"
+        },
+        {
+          "pmid": "36309981",
+          "title": "Phase 1b study of venetoclax and azacitidine in relapsed/refractory myeloid malignancy",
+          "year": "2023",
+          "study_type": "Phase 1b Trial",
+          "tier": 2,
+          "relevance": "Phase 1b 組合安全性/療效數據，骨髓惡性疾病相關貧血情境"
+        },
+        {
+          "pmid": "33171487",
+          "title": "Combined oral 5-azacytidine and romidepsin in patients with PTCL: multicenter study",
+          "year": "2021",
+          "study_type": "Multicenter Phase 2-like Study",
+          "tier": 2,
+          "relevance": "外周 T 細胞淋巴瘤（PTCL）使用口服 azacitidine，展示淋巴瘤情境下的用藥耐受性"
+        },
+        {
+          "pmid": "37899297",
+          "title": "Sorafenib plus venetoclax, azacitidine and homoharringtonine for refractory/relapsed AML",
+          "year": "2024",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance": "四藥組合方案，azacitidine 在難治性 AML 持續使用，間接支持"
+        },
+        {
+          "pmid": "26855506",
+          "title": "Low Dose Cytosine Arabinoside and Azacitidine Combination in Elderly AML Patients",
+          "year": "2016",
+          "study_type": "Retrospective Study",
+          "tier": 2,
+          "relevance": "老年 AML 患者低劑量組合方案，安全性及耐受性數據"
+        },
+        {
+          "pmid": "24195247",
+          "title": "Refractory anemias (Review)",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "難治性貧血綜述，涵蓋 azacitidine 治療策略，提供分類與適應症框架"
+        }
+      ],
+      "guardrails": [
+        "需明確貧血病因（MDS 相關 vs. 原發性骨髓衰竭 vs. 含鐵血球性貧血）再決定治療路徑",
+        "對非 MDS 來源的再生不良性貧血應優先考慮 ATG + 環孢素或 EPO",
+        "監測血球計數恢復時程（通常需 4-6 週期才見療效）",
+        "輸血依賴程度作為療效評估主要終點之一"
+      ]
+    },
+    {
+      "disease_name": "severe congenital hypochromic anemia with ringed sideroblasts",
+      "txgnn_score": 0.9756,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "先天性含鐵血球性貧血（XLSA/congenital sideroblastic anemia）涉及血紅素合成基因（如 ALAS2）異常或粒線體功能缺陷。雖此資料集無直接證據，但 pmid:34781359（同樣在 aregenerative anemia 分析中列出）顯示 azacitidine 可能透過上調 ALAS2 基因表達或改變骨髓環境而發揮作用，構成間接生物學假說。屬罕見遺傳性疾病，基因療法/吡哆醇為首選。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34781359",
+          "title": "Azacitidine is a potential therapeutic drug for pyridoxine-refractory female X-linked sideroblastic anemia",
+          "year": "2022",
+          "study_type": "Translational Case Series",
+          "tier": 2,
+          "relevance": "【間接關聯】雖未列於本適應症的文獻清單，但此文獻所描述的吡哆醇難治性 XLSA 與先天性低色素含鐵血球性貧血高度重疊，構成關鍵間接證據"
+        }
+      ],
+      "risk_flags": [
+        "先天性患者多為兒科/青年，需特別評估長期毒性",
+        "基因型（ALAS2 vs. SLC25A38 突變）可能影響 HMA 療效",
+        "建議先進行 in vitro 骨髓細胞實驗確認去甲基化效果"
+      ]
+    },
+    {
+      "disease_name": "5q35 microduplication syndrome",
+      "txgnn_score": 0.9748,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "5q35 微複製症候群（NSD1 基因區域重複）為先天性染色體微重複，導致 Sotos 症候群表現型（過度生長、智力障礙）。與 del(5q) MDS 的染色體異常性質截然不同。目前無任何臨床或基礎研究顯示 azacitidine 與此症的相關性；TxGNN 高分可能源自染色體 5 相關基因節點的圖譜近鄰效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "此為發育性遺傳症候群，並非腫瘤性或血液性疾病",
+        "無生物學合理性支持 azacitidine 使用",
+        "確認為 TxGNN 假陽性預測"
+      ]
+    },
+    {
+      "disease_name": "neuralgic amyotrophy",
+      "txgnn_score": 0.9620,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經性肌萎縮（Parsonage-Turner syndrome）為免疫媒介的臂神經叢神經病變，與 SEPT9 基因突變相關（遺傳性）。雖然 SEPT9 基因的甲基化在某些腫瘤中具有生物標誌意義，但目前無證據顯示 azacitidine 的去甲基化作用能改善神經叢損傷的發炎或修復機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "Azacitidine 的免疫調節效果尚未在周邊神經系統驗證",
+        "骨髓抑制副作用在此適應症的風險/效益比極不利",
+        "建議先確認 SEPT9 甲基化狀態是否為疾病機轉（而非僅為生物標誌）"
+      ]
+    },
+    {
+      "disease_name": "amyotrophic neuralgia",
+      "txgnn_score": 0.9587,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌萎縮性神經痛（amyotrophic neuralgia）與神經性肌萎縮（neuralgic amyotrophy）高度重疊，為同一臨床實體的不同命名。評估結論與 neuralgic amyotrophy 相同：無臨床或機轉依據支持 azacitidine 使用。TxGNN 評分可能因圖譜中神經系統疾病節點的高度連結性而產生過度預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "與 neuralgic amyotrophy 可能為重複預測（同一疾病不同名稱）",
+        "建議去重後合併評估",
+        "確認為 TxGNN 假陽性預測"
+      ]
+    },
+    {
+      "disease_name": "familial thrombocytosis",
+      "txgnn_score": 0.9309,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性血小板增多症（MPL 或 THPO 基因突變）為良性遺傳性骨髓增生異常，血栓風險高。雖 Azacitidine 被用於骨髓纖維化（MF）的後線治療，但家族性血小板增多症病理機轉（JAK/STAT 持續激活）與 MDS 的甲基化沉默機轉不同，HMA 的療效理由薄弱。此資料集完全無支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "良性疾病使用細胞毒性/骨髓抑制藥物需特別謹慎",
+        "JAK2 抑制劑（ruxolitinib）或 anagrelide 為更有依據的治療選項",
+        "若患者進展為骨髓纖維化/MDS 轉化，則 azacitidine 適應症可重新評估"
+      ]
+    }
+  ],
+  "summary_matrix": {
+    "L2_indications": ["aregenerative anemia"],
+    "L3_indications": ["refractory cytopenia of childhood", "unclassified myelodysplastic syndrome"],
+    "L4_indications": ["severe congenital hypochromic anemia with ringed sideroblasts"],
+    "L5_indications": [
+      "bulbar polio",
+      "partial deletion of the long arm of chromosome 5",
+      "5q35 microduplication syndrome",
+      "neuralgic amyotrophy",
+      "amyotrophic neuralgia",
+      "familial thrombocytosis"
+    ],
+    "proceed_indications": [
+      "aregenerative anemia (L2/S2)",
+      "unclassified myelodysplastic syndrome (L3/S2)",
+      "refractory cytopenia of childhood (L3/S2)"
+    ],
+    "research_question_indications": [
+      "severe congenital hypochromic anemia with ringed sideroblasts (L4/S1)"
+    ],
+    "hold_indications": [
+      "bulbar polio",
+      "partial deletion of the long arm of chromosome 5",
+      "5q35 microduplication syndrome",
+      "neuralgic amyotrophy",
+      "amyotrophic neuralgia",
+      "familial thrombocytosis"
+    ]
+  },
+  "key_analytical_notes": [
+    "【資料品質警示】original_moa 標記為 [Data Gap]，實際上 azacitidine 為明確的 DNMT 抑制劑，建議更新 DrugBank 機轉欄位",
+    "【市場狀態說明】'未上市' 指新加坡未核准，但 azacitidine 全球已有多項 Phase 3 RCT 證據（AZA-001 等），應於評分系統中納入全球核准歷史",
+    "【假陽性識別】neuralgic amyotrophy 與 amyotrophic neuralgia 極可能為同一疾病的重複預測，建議知識圖譜去重",
+    "【TxGNN 模型限制】5q35 microduplication、bulbar polio 等高分預測（>0.97）但零臨床證據，顯示模型對罕見遺傳/感染性疾病存在系統性過預測傾向，建議設立最低臨床試驗數作為閾值過濾器",
+    "【最優先推進適應症】aregenerative anemia（尤其含鐵血球性貧血亞型）具有直接機轉假說（pmid:34781359）且有 Phase 3 試驗背景，為本批次最具再利用潛力的適應症"
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **aregenerative anemia** | L2 | S2 | ✅ Proceed with Guardrails | Phase 2/3 試驗 × 10+，直接含鐵血球性貧血文獻 |
+| **unclassified MDS** | L3* | S2 | ✅ Proceed with Guardrails | AVIDA 登錄研究 + 全球 Phase 3 背景 |
+| **refractory cytopenia of childhood** | L3 | S2 | ✅ Proceed with Guardrails | 兒科 MDS 回顧性研究，2026 最新數據 |
+| **severe congenital hypochromic anemia** | L4 | S1 | 🔬 Research Question | 間接機轉假說（pmid:34781359） |
+| **bulbar polio** | L5 | S0 | ❌ Hold | 零證據，無機轉連結 |
+| **del5q** | L5 | S0 | ❌ Hold | Lenalidomide 為標準治療 |
+| **5q35 microduplication** | L5 | S0 | ❌ Hold | 發育性遺傳症候群，不適用 |
+| **neuralgic amyotrophy** | L5 | S0 | ❌ Hold | 神經系統假陽性預測 |
+| **amyotrophic neuralgia** | L5 | S0 | ❌ Hold | 疑為重複疾病節點 |
+| **familial thrombocytosis** | L5 | S0 | ❌ Hold | 良性疾病，機轉不符 |
+
+> *unclassified MDS 實際全球證據應升至 L2，資料集呈現低估，建議補充 AZA-001 Phase 3 試驗資料。

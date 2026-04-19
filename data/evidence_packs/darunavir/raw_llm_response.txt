@@ -1,0 +1,355 @@
+## Darunavir (DB01264) 藥物再利用證據分析
+
+在提供 JSON 分析之前，先標記幾個**資料品質警示**：
+
+1. `market_status: "未上市"` — Darunavir（Prezista®）為全球核准 HIV 藥物，疑為新加坡本地市場資料缺口
+2. `ddi_count: 0` & `original_indications: []` — 明顯資料缺口（Darunavir 具高度 DDI 風險）
+3. **NCT02770508 配對錯誤** — 該試驗為人類 HIV 試驗，被誤配對至「feline acquired immunodeficiency syndrome」
+
+---
+
+```json
+{
+  "drug": "Darunavir",
+  "drugbank_id": "DB01264",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "market_status='未上市' 疑為新加坡本地市場資料，非全球上市狀態",
+    "original_indications=[], ddi_count=0 存在嚴重資料缺口",
+    "NCT02770508 被誤配對至 feline AIDS，實為人類 HIV Phase 4 試驗"
+  ],
+  "indications": [
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Darunavir 為 HIV-1 蛋白酶抑制劑。SIV（猴免疫缺乏病毒）與 HIV 蛋白酶在結構與催化機制上高度同源，現有文獻均以非人靈長類 SIV 模型測試強化 ART 方案（包含 PI 類藥物）對病毒儲存庫的影響。屬合理的動物模型外推，但無直接 Darunavir 單藥對 SIV 的人體臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26150024",
+          "study_type": "Animal Study (NHP/SIV model)",
+          "tier": "3",
+          "note": "可注射複方 ART 在 SIV 模型的療效比較，間接評估 PI 類藥物角色"
+        },
+        {
+          "pmid": "25033210",
+          "study_type": "Animal Study (NHP/SIV model)",
+          "tier": "3",
+          "note": "ART + HDAC 抑制劑對病毒儲存庫的影響，機轉研究"
+        },
+        {
+          "pmid": "22737073",
+          "study_type": "Animal Study (NHP/SIV model)",
+          "tier": "3",
+          "note": "強化 ART 方案在 SIV 模型實現長期病毒抑制"
+        },
+        {
+          "pmid": "21505294",
+          "study_type": "Animal Study (NHP/SIV model)",
+          "tier": "3",
+          "note": "金化合物 auranofin 在猴 AIDS 模型；Darunavir 為背景 ART"
+        }
+      ],
+      "clinical_note": "4 篇文獻均為非人靈長類動物模型研究（Tier 3），無人體試驗。SIV 模型是 HIV 藥物研發的標準臨床前平台，具科學意義但不構成臨床再利用依據。"
+    },
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "貓免疫缺乏病毒（FIV）為慢病毒，與 HIV 蛋白酶結構存在顯著差異。HIV 蛋白酶抑制劑對 FIV 蛋白酶的抑制活性有限（結合口袋幾何形態不同）。雖有研究探討洛匹那韋/利托那韋用於貓科 FIV，但缺乏 Darunavir 的直接實驗或臨床獸醫資料。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02770508",
+          "relevance_grade": "C",
+          "reasoning": "⚠️ 資料配對錯誤：此為人類 HIV-1 Phase 4 RCT（Boosted Darunavir + Lamivudine vs. Boosted Triple Therapy），n=145，COMPLETED。與貓免疫缺乏症無任何關聯，屬 TxGNN pipeline 誤配對。不可作為此適應症之佐證。"
+        }
+      ],
+      "literature_analysis": [],
+      "clinical_note": "唯一關聯試驗為系統誤配對之人類 HIV 試驗。Darunavir 用於貓 FIV 無任何有效臨床或實驗室證據。建議資料管線修正配對邏輯。"
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見神經發育疾病（可能為遺傳性白質病變）。Darunavir 作為蛋白酶抑制劑，雖有文獻討論其對 HIV 相關神經認知障礙（HAND）的 CNS 穿透性，但對原發性遺傳性神經發育疾病無合理機轉連結。TxGNN 高分可能源於知識圖譜中 HIV-神經系統節點的間接路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "clinical_note": "零試驗、零文獻。TxGNN 預測可能為知識圖譜噪音（HIV→神經系統→白質病變的間接邊）。不具備任何啟動再利用評估的依據。"
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向機轉警示：HIV 蛋白酶抑制劑（包括 Darunavir）的已知副作用即包括誘發高脂血症（三酸甘油酯↑、LDL↑）。以此藥「治療」家族性複合型高脂血症在機轉上為反治療性。此 TxGNN 預測很可能是知識圖譜中 PI 類藥物→脂質代謝節點的連結被誤判為治療關聯。疾病標記為'obsolete'亦提示本體論已棄用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "clinical_note": "機轉上不合理（PI 類藥物為致高脂血症藥物），且疾病本體已標記為 obsolete。強烈建議 Hold，無需進一步評估。"
+    },
+    {
+      "disease_name": "AIDS related complex",
+      "txgnn_score": 0.9897,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "AIDS related complex（ARC）為 HIV 感染疾病譜中的中間階段（CD4 200-500/μL，症狀性但未達 AIDS 定義疾病）。Darunavir 作為 HIV-1 蛋白酶抑制劑，直接抑制病毒成熟，是 ARC 患者標準 ART 組合的核心組件。此為藥物在原始治療機轉疾病譜上的延伸應用，而非傳統再利用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02503462",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，TERMINATED（n=7），探討 Cobicistat vs. Ritonavir boosting 對 Darunavir 腦部穿透的影響。與 ARC 神經認知表現相關，但過早終止且樣本極小，僅提供機轉參考。"
+        },
+        {
+          "nct_id": "NCT01792570",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED（n=37），Darunavir/Ritonavir + Rilpivirine 雙療法 vs. 三聯療法。直接評估含 Darunavir 方案療效，但樣本量小（n=37），結果需謹慎解讀。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28991888",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "ART 方案與神經系統 AIDS 定義疾病發生率"
+        },
+        {
+          "pmid": "27333088",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "神經認知功能比較研究，間接涉及 PI 類藥物方案"
+        },
+        {
+          "pmid": "25281609",
+          "study_type": "Observational",
+          "tier": "2",
+          "note": "ART 藥物 CSF 抑制商數與認知功能相關性"
+        },
+        {
+          "pmid": "29984302",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "腦穿透性 PI 用於 HAND 的前景分析，提及 Darunavir"
+        },
+        {
+          "pmid": "19290032",
+          "study_type": "Observational",
+          "tier": "2",
+          "note": "HIV 患者 GI 不良事件風險因子，安全性參考"
+        },
+        {
+          "pmid": "34978889",
+          "study_type": "In vitro / Medicinal Chemistry",
+          "tier": "3",
+          "note": "氟化修飾對抗藥性 HIV 的活性，機轉研究"
+        },
+        {
+          "pmid": "16962136",
+          "study_type": "Structural Biology",
+          "tier": "3",
+          "note": "HIV-1 蛋白酶晶體結構，Darunavir 結合位點"
+        },
+        {
+          "pmid": "21840146",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "免疫重建症候群案例，安全性警示"
+        }
+      ],
+      "clinical_note": "ARC 本質上屬 Darunavir 核心治療疾病譜。Phase 3 試驗（n=37）雖已完成但樣本量不足支撐獨立結論，需結合更大型 HIV 試驗的次族群分析。建議整合現有 HIV 治療指引框架推進。"
+    },
+    {
+      "disease_name": "congenital human immunodeficiency virus",
+      "txgnn_score": 0.9897,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "先天性/圍產期 HIV 感染（母嬰垂直傳播）的預防與治療是 Darunavir 的高度相關臨床應用。Darunavir 的蛋白酶抑制機轉可有效降低孕婦病毒載量，從而減少母嬰傳播風險。已有大量 Phase 3 RCT 直接評估此適應症，包括妊娠期 PK 研究、PMTCT（母嬰傳播預防）方案及兒科 HIV 治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02738502",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，COMPLETED（n=91），無 NRTI 的 PMTCT 方案，直接評估 Darunavir 在預防圍產期傳播的角色。"
+        },
+        {
+          "nct_id": "NCT03577470",
+          "relevance_grade": "B",
+          "reasoning": "義大利觀察性研究（n=246），含 Darunavir 方案的真實世界 ART 管理，提供長期安全性資料。"
+        },
+        {
+          "nct_id": "NCT06747507",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，RECRUITING（n=392），Dolutegravir 抗藥性管理，Darunavir 為救援方案組件，間接相關。"
+        },
+        {
+          "nct_id": "NCT00326963",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，COMPLETED（n=142），新蛋白酶抑制劑在 HIV 感染特殊族群的安全性/療效，直接相關。"
+        },
+        {
+          "nct_id": "NCT01458132",
+          "relevance_grade": "C",
+          "reasoning": "GSK 藥物暴露登錄研究（n=19），非 Darunavir 主體試驗，相關性低。"
+        },
+        {
+          "nct_id": "NCT00855335",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED（n=77），Darunavir/Ritonavir PK 在兒科及特殊族群，直接相關。"
+        },
+        {
+          "nct_id": "NCT02269917",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED（n=1149），大型 RCT 評估含 Darunavir 方案療效與安全性，最高品質證據。"
+        },
+        {
+          "nct_id": "NCT02938520",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，ACTIVE_NOT_RECRUITING（n=631），平行組別研究，提供最新長期療效資料。"
+        },
+        {
+          "nct_id": "NCT02429791",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED（n=510），非劣效性研究，直接比較含 Darunavir 方案，高品質 RCT。"
+        },
+        {
+          "nct_id": "NCT04518228",
+          "relevance_grade": "B",
+          "reasoning": "妊娠期及產後 ART 藥物 PK（n=205），涵蓋 Darunavir，提供重要 PK/安全性資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38788744",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "2024 年 RCT：Dolutegravir + Boosted Darunavir vs. 標準 ART，高品質最新證據"
+        },
+        {
+          "pmid": "25326090",
+          "study_type": "PK Study",
+          "tier": "2",
+          "note": "HIV-1 感染孕婦 Darunavir 總量與游離型 PK，劑量依據"
+        },
+        {
+          "pmid": "38864586",
+          "study_type": "Cohort (Safety)",
+          "tier": "2",
+          "note": "2024 年：妊娠早期新型 ART 暴露與先天異常風險，美國大型隊列"
+        },
+        {
+          "pmid": "31595301",
+          "study_type": "Pharmacovigilance",
+          "tier": "2",
+          "note": "妊娠期 Dolutegravir 安全性藥物警戒分析，比較性參考"
+        },
+        {
+          "pmid": "33048878",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "HIV 感染孕婦使用 INSTI 的出生缺陷風險，安全性對比"
+        },
+        {
+          "pmid": "20587860",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "妊娠期使用 Darunavir + Etravirine 的早期臨床經驗"
+        },
+        {
+          "pmid": "34151853",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒童 ART 引發炎症性肌炎案例，不良事件警示"
+        },
+        {
+          "pmid": "35809963",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "HIV 患者肺部結節案例，鑑別診斷參考"
+        },
+        {
+          "pmid": "25172528",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Darunavir 引發視網膜皺褶不良反應，安全性警示"
+        }
+      ],
+      "clinical_note": "最強證據適應症：多項 Phase 3 RCT（最大 n=1149）直接支持。妊娠期 PK 已充分研究。主要 Guardrails：(1) 妊娠早期需監測先天異常風險；(2) 需 Ritonavir/Cobicistat boosting 確保足夠暴露量；(3) 兒科劑量需依體重調整。"
+    },
+    {
+      "disease_name": "fibroma of prostate",
+      "txgnn_score": 0.9774,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "攝護腺纖維瘤為良性間質腫瘤。雖有文獻報告某些 HIV 蛋白酶抑制劑（如 Nelfinavir）具有非特異性促細胞凋亡活性，但對良性間質來源腫瘤無特異性機轉依據，且 Darunavir 的抗腫瘤活性研究極為有限。TxGNN 高分可能源於生殖系統疾病本體論節點的非特異性聚類。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "clinical_note": "零試驗、零文獻，無機轉依據。Hold。"
+    },
+    {
+      "disease_name": "Brenner tumor",
+      "txgnn_score": 0.9753,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brenner 瘤為卵巢上皮性腫瘤（移行細胞型）。HIV 蛋白酶抑制劑無已知抗卵巢腫瘤機轉。知識圖譜可能透過生殖系統腫瘤節點產生非特異性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "clinical_note": "零試驗、零文獻，無機轉依據。Hold。"
+    },
+    {
+      "disease_name": "benign reproductive system neoplasm",
+      "txgnn_score": 0.9752,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性生殖系統腫瘤為廣義本體論節點，涵蓋多種異質性疾病。HIV 蛋白酶抑制劑的抗腫瘤活性研究主要集中在惡性腫瘤（如卡波西氏肉瘤、淋巴瘤），對良性腫瘤無特異性機轉或臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "clinical_note": "零試驗、零文獻。此廣義節點的高 TxGNN 分數可能反映下游節點聚合效應，非真實再利用訊號。Hold。"
+    },
+    {
+      "disease_name": "benign prostate phyllodes tumor",
+      "txgnn_score": 0.9735,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "攝護腺葉狀瘤為罕見良性間葉性腫瘤。HIV 蛋白酶抑制劑無已知對此類腫瘤的特異性活性。與 fibroma of prostate 類似，TxGNN 分數可能源於本體論鄰近效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "clinical_note": "零試驗、零文獻，無機轉依據。Hold。"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 疾病 | TxGNN | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|------|-------|---------|---------|------|---------|
+| 先天性 HIV | 0.9897 | **L1** | **S3** | ✅ Proceed | 妊娠安全性監測 |
+| AIDS related complex | 0.9897 | **L2** | **S3** | ✅ Proceed | Phase 3 樣本量偏小 |
+| SIV 感染 | 0.9997 | **L4** | **S1** | 🔬 Research Question | 僅動物模型 |
+| 貓免疫缺乏症 | 0.9997 | **L5** | **S0** | ❌ Hold | 試驗配對錯誤 |
+| 神經發育障礙 | 0.9997 | **L5** | **S0** | ❌ Hold | 零證據 |
+| 家族性複合高脂血症 | 0.9919 | **L5** | **S0** | ❌ Hold | **機轉反向**（PI→致高血脂）|
+| 攝護腺纖維瘤 | 0.9774 | **L5** | **S0** | ❌ Hold | 零證據 |
+| Brenner 瘤 | 0.9753 | **L5** | **S0** | ❌ Hold | 零證據 |
+| 良性生殖系腫瘤 | 0.9752 | **L5** | **S0** | ❌ Hold | 本體論聚合噪音 |
+| 良性攝護腺葉狀瘤 | 0.9735 | **L5** | **S0** | ❌ Hold | 零證據 |
+
+### 重要發現
+
+1. **TxGNN 高分≠臨床可行性**：7 個 TxGNN 分數 > 0.97 的適應症評估為 L5/S0，顯示知識圖譜預測需嚴格臨床證據過濾
+2. **資料管線錯誤**：NCT02770508 誤配對需修正，否則會虛增 feline AIDS 的表觀證據
+3. **反向機轉警示**：「familial combined hyperlipidemia」的 TxGNN 預測屬系統性錯誤——HIV-PI 為已知致高脂血症藥物
+4. **核心適應症確認**：先天性 HIV 與 AIDS related complex 具最強臨床支持，符合 Darunavir 已知藥理學定位

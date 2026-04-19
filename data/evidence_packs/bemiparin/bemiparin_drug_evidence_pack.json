@@ -1,0 +1,1025 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09258-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Bemiparin",
+    "drugbank_id": "DB09258",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9871312975883484,
+        "rank": 12754
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血小板釋放功能障礙（如 dense granule 或 α-granule 缺陷）導致一期止血受損。Bemiparin 作為抗凝劑，會進一步抑制凝血酶生成，理論上將加重出血傾向。TxGNN 高分可能源於知識圖譜中『凝血–血小板』節點的間接連結，而非治療邏輯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9866166114807128,
+        "rank": 13128
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glanzmann 血小板無力症為 GPIIb/IIIa（整合素 αIIbβ3）先天性缺陷，導致血小板無法聚集。治療重點為血小板輸注與 rFVIIa。Bemiparin 抗 Xa 機轉與 GPIIb/IIIa 通路無直接關聯，且因抑制凝血酶形成將削弱二期止血的代償，存在矛盾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.9828655123710632,
+        "rank": 15536
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pseudo-VWD（type 2B VWD 類似）為 GPIbα 功能增益突變，導致血小板異常結合 VWF 引發血小板減少與出血。雖有時出現血小板-VWF 微血栓，但標準處置為 DDAVP 禁用、輸注血小板/VWF。Bemiparin 之抗凝機轉不針對 GPIbα-VWF 異常交互作用，無治療依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia",
+      "txgnn": {
+        "score": 0.9485620856285096,
+        "rank": 27027
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性血小板減少症（如 MYH9 相關疾病、Bernard-Soulier 症候群等）本質為血小板數量不足導致出血。在此基礎上加用抗凝劑，機轉上完全對立於治療目標，無任何合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "bleeding diathesis due to a collagen receptor defect",
+      "txgnn": {
+        "score": 0.9481287598609924,
+        "rank": 27126
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膠原蛋白受體（GPVI 或 GP Ia/IIa）缺陷導致血小板無法被膠原活化，引發輕至中度出血傾向。Bemiparin 無法補償受體功能缺失，且抗凝效果將加重出血。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Scott syndrome",
+      "txgnn": {
+        "score": 0.9379854202270508,
+        "rank": 29159
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Scott syndrome 為 TMEM16F（ANO6）基因缺陷，血小板無法外翻磷脂醯絲胺酸（PS），導致 tenase/prothrombinase 複合體組裝障礙，影響凝血酶生成。Bemiparin 進一步抑制 Xa 因子，在凝血酶生成本已不足的情況下為疊加性抑制，機轉相反。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+      "txgnn": {
+        "score": 0.9254397749900818,
+        "rank": 31411
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FNAIT 由母體抗血小板抗原（HPA-1a 最常見）IgG 抗體跨胎盤引起，導致胎兒血小板減少，嚴重時致顱內出血。標準治療為 IVIg、胎兒血小板輸注或提早分娩。Bemiparin 之抗凝機轉完全無法解決免疫媒介之血小板破壞，且在新生兒/胎兒血小板減少下使用抗凝劑具極高出血風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "platelet-type bleeding disorder",
+      "txgnn": {
+        "score": 0.9024173021316528,
+        "rank": 34562
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02795065",
+            "title": "Bemiparin Versus Enoxaparin in the Prevention of Venous Thromboembolism Among ICU Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2014-03",
+            "completion_date": "2016-03",
+            "brief_summary": "The purpose of this study is to compare two types of low-molecular-weight heparin, enoxaparin and bemiparin, as regards their efficacy and safety in venous thromboembolism prevention among intensive care unit patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究為 ICU 患者 VTE 預防比較試驗，與『血小板型出血障礙』適應症無關聯。因平台關鍵字匹配誤歸至此適應症，屬假陽性。試驗結果不能作為此適應症的支持證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血小板型出血障礙（泛稱）包含多種血小板功能/數量異常。NCT02795065 雖掛名 Bemiparin，但研究目的為 ICU 患者 VTE 預防（抗血栓），非針對血小板出血障礙治療。試驗與此適應症完全不相關，屬資料匹配誤差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pulmonary embolism (disease)",
+      "txgnn": {
+        "score": 0.8791934251785278,
+        "rank": 36816
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04508855",
+            "title": "Safety and Efficacy of Switching From Direct Oral Anticoagulants to Low Molecular Weight Heparin in Cancer Patients With Atrial Fibrillation During Antineoplastic Therapy",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-08-01",
+            "completion_date": "2023-12",
+            "brief_summary": "The primary objective is to assess the safety and efficacy of switching from direct oral anticoagulants to low molecular weight heparin in cancer patients during antineoplastic therapy",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已撤回，零招募，無有效資料，不構成有效證據。"
+            }
+          },
+          {
+            "nct_id": "NCT01880216",
+            "title": "A Multinational, Multicentre, Randomized, Open, Parallel Group Study on the Efficacy and Safety of Bemiparin Sodium (LMWH) Compared to Enoxaparin Sodium (LMWH) in the Treatment of Acute Deep Vein Thrombosis (DVT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 312,
+            "start_date": "2013-06",
+            "completion_date": "2015-05",
+            "brief_summary": "Deep-vein thrombosis (DVT) is a common but under-diagnosed medical condition that occurs when a thrombus forms in one of the large veins, usually in the lower limbs, leading to either partial or complete blocked circulation. The condition may progress to severe health complications, such as pulmonary embolism (PE), if not diagnosed and treated in a timely and effective manner.\n\nThe goal of the therapy for lower-extremity DVT is to prevent the extension of thrombus and pulmonary embolism in the s",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 多國多中心 RCT，直接評估 Bemiparin 於 VTE（含 PE）治療之療效與安全性，樣本數適當，完成狀態，為最高等級直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT01164046",
+            "title": "Long-term Treatment for Cancer Patients With Deep Venous Thrombosis or Pulmonary Embolism",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 56,
+            "start_date": "2010-08",
+            "completion_date": "2014-07",
+            "brief_summary": "Background\n\nPatients with cancer and a first deep venous thrombosis of the leg or pulmonary embolism (venous thromboembolism, VTE) are generally treated with low molecular weight heparin (LMWH)injections for 6 months, since this treatment is associated with a reduced incidence of recurrent VTE compared to vitamin K antagonists (VKA). It is recommended that patients with active malignancy (metastatic cancer and/or ongoing cancer treatment)continue anticoagulant treatment. However, it is unknown w",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 設計直接相關（癌症 VTE 長期治療），但因招募困難提前終止，僅 56 名受試者，結論有限。降至 B 級。"
+            }
+          },
+          {
+            "nct_id": "NCT01588171",
+            "title": "Bemiparin Versus Enoxaparin as Thromboprophylaxis Following Vaginal and Abdominal Deliveries: A Prospective Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 7020,
+            "start_date": "2012-05",
+            "completion_date": "2013-11",
+            "brief_summary": "The use of a new generation low molecular weight heparin (Bemiparin)and the well known LMWH (Enoxaparin) after Caesarean sections and vaginal deliveries in a risky group patients for venous thrombosis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型產後血栓預防研究（7020人），與 PE 治療間接相關（VTE 預防），主要支持安全性資料，相關性較低。"
+            }
+          },
+          {
+            "nct_id": "NCT01630148",
+            "title": "Bemiparin as a Thromboprophylaxis After Benign Gynaecological Surgeries:A Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 774,
+            "start_date": "2012-07",
+            "completion_date": "2014-03",
+            "brief_summary": "The use of prophylaxis for venous thromboembolism (VTE) remains grossly underused for women who undergo gynecologic surgery for benign conditions world wide and especially in developing countries including our region. Having a research in our locality for the first time might raise awareness of the importance of VTE prophylaxis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "婦科手術後血栓預防，與 PE 治療間接相關，列為 C 級背景安全性證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00219973",
+            "title": "Multicentric, Rand., D-b, Pbo Controlled Clinical Trial to Evaluate the Efficacy and the Safety of the Thromboprophylaxis With Bemiparin 3,500 IU/d for 28 Days Compared to 8 Days, in Patients Undergoing Oncological Abdominal/ Pelvic Surgery",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 526,
+            "start_date": "2005-05",
+            "completion_date": "2009-04",
+            "brief_summary": "The aim of the study is to evaluate the efficacy and safety of Bemiparin, a second-generation LMWH, in the prophylaxis of VTE (using a postoperative regimen, i.e. administering the first dose 6 hours after finishing the surgical procedure) for 28 days compared to 8 days, in oncological surgery.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 隨機雙盲安慰劑對照試驗，526 名受試者，完成狀態。為 Bemiparin VTE 預防/治療領域重要 RCT 支柱。"
+            }
+          },
+          {
+            "nct_id": "NCT02795065",
+            "title": "Bemiparin Versus Enoxaparin in the Prevention of Venous Thromboembolism Among ICU Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2014-03",
+            "completion_date": "2016-03",
+            "brief_summary": "The purpose of this study is to compare two types of low-molecular-weight heparin, enoxaparin and bemiparin, as regards their efficacy and safety in venous thromboembolism prevention among intensive care unit patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "ICU 患者 VTE 預防比較研究，與 PE 治療間接相關，提供 ICU 場景安全性資料，列 C 級。"
+            }
+          },
+          {
+            "nct_id": "NCT01727427",
+            "title": "Prospective Study on the Treatment of Unsuspected Pulmonary Embolism in Cancer Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 695,
+            "start_date": "2012-11",
+            "completion_date": "2017-12",
+            "brief_summary": "The same initial and long-term anticoagulation is suggested for unsuspected pulmonary embolism as for patients with symptomatic embolism. Based on these indications, cancer patients with unsuspected pulmonary embolism would be anticoagulated for at least 6 months or until the disease is active, which in most cases would mean indefinite treatment. In fact, dedicated studies on the treatment of unsuspected pulmonary embolism are missing, leaving doubts over the need for (indefinite) anticoagulatio",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "直接針對癌症患者偶發性 PE 之前瞻性觀察研究，695 名大樣本完成，直接相關但設計非 RCT，為 B 級。"
+            }
+          },
+          {
+            "nct_id": "NCT04420299",
+            "title": "A Randomized, Single-blind Study With a Parallel Control Group on the Efficacy and Safety of Bemiparin at Therapeutic Dose vs. Prophylactic Dose in Patients Hospitalized for COVID-19",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 81,
+            "start_date": "2020-06-04",
+            "completion_date": "2021-06-08",
+            "brief_summary": "The 2019 coronavirus disease (Covid-19) is a new disease caused by the SARS-CoV2 virus of which many things are not yet known. Among others, there is a need to define the best therapeutic strategy to treat Covid-19, improving patients survival and reducing complications in its management, for which many different types of treatments are being tested.\n\nThe drug being tested in this clinical trial is called bemiparin. Bemiparin is a drug authorized as a prevention and as a treatment for deep vein ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 試驗，雖提前終止（81 名），仍提供 Bemiparin 在 VTE 相關適應症之中期安全性資料，列為 B 級輔助證據。"
+            }
+          },
+          {
+            "nct_id": "NCT05569681",
+            "title": "Comparison of Two Different Regimens of Bemiparin as a Thromboprophylaxis After Surgery in Morbidly Obese Patients: A Randomized, Outcome-assessor Blinded Trial.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 2400,
+            "start_date": "2023-01-07",
+            "completion_date": "2026-10-02",
+            "brief_summary": "Morbid obesity, is known to be associated with a high risk of VTE and, unfortunately, fixed doses of anticoagulant regimens may not provide optimal VTE prophylaxis in these patients especially after surgery.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型進行中術後預防研究，結果尚未可用，列 C 級未來參考。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24657810",
+            "title": "Bemiparin, an effective and safe low molecular weight heparin: a review.",
+            "authors": [
+              "Ciccone Marco Matteo",
+              "Cortese Francesca",
+              "Corbo Filomena",
+              "Corrales Noel Ernesto",
+              "Al-Momen Abdul Kareem"
+            ],
+            "journal": "Vascular pharmacology",
+            "year": "2014",
+            "abstract": "Bemiparin is a low molecular weight heparin (LMWH) indicated for the acute treatment of deep vein thrombosis with or without pulmonary embolism, for the prophylaxis of venous thromboembolism in surgical and non-surgical patients and for the prevention of clotting in the extracorporeal circuit during hemodialysis. Due to its excellent pharmacological profile-the second-generation LMWH with the lowest molecular weight, the longest half-life and the highest anti-Factor Xa/anti-Factor IIa activity r",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31030749",
+            "title": "Low molecular weight heparins and their clinical applications.",
+            "authors": [
+              "Hao Cui",
+              "Sun Mojian",
+              "Wang Hongmei",
+              "Zhang Lijuan",
+              "Wang Wei"
+            ],
+            "journal": "Progress in molecular biology and translational science",
+            "year": "2019",
+            "abstract": "Heparin is an anticoagulant medication that was discovered in 1917 and used in clinic since 1935. Low molecular weight heparins (LMWHs) represent a refined use of heparin as anticoagulant medications that were developed in 1980s. LMWHs are obtained by cleaving heparin with different chemical or enzymatic methods. Eight chemically distinct and officially approved LMWHs are Bemiparin, Certoparin, Dalteparin, Enoxaparin, Nadroparin, Parnaparin, Reviparin, and Tinzaparin. LMWHs are mainly used for p",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29214507",
+            "title": "Comparison of Once-Daily Bemiparin with Twice-Daily Enoxaparin for Acute Deep Vein Thrombosis: A Multicenter, Open-Label, Randomized Controlled Trial.",
+            "authors": [
+              "Suchkov Igor A",
+              "Martinez-Gonzalez Javier",
+              "Schellong Sebastian M",
+              "Garbade Toni",
+              "Falciani Michela"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2018",
+            "abstract": "Individuals with deep vein thrombosis (DVT) have an increased risk of pulmonary embolism (PE), death, and long-term thrombotic complications.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17532688",
+            "title": "Utilisation and safety of bemiparin, a low-molecular-weight heparin, in medical patients : a prospective, uncontrolled cohort study.",
+            "authors": [
+              "Miras-Parra Francisco",
+              "Navascués-Martínez Emilia",
+              "Gómez-Outes Antonio",
+              "Martínez-González Javier",
+              "Rocha Eduardo"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2005",
+            "abstract": "Venous thromboembolism (VTE) is the cause of approximately 10-12% of all deaths occurring in hospitalised patients. In a previous study, bemiparin suppressed markers of hypercoagulability in acutely ill medical patients with heart failure.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20384389",
+            "title": "Thromboprophylaxis with the low-molecular-weight heparin bemiparin sodium in elderly medical patients in usual clinical practice: the ANCIANOS study.",
+            "authors": [
+              "Rodríguez-Mañas Leocadio",
+              "Gómez-Huelgas Ricardo",
+              "Veiga-Fernández Fernando",
+              "Ruiz Gema Monteagudo",
+              "González Javier Martínez"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2010",
+            "abstract": "Venous thromboembolism (VTE) is a preventable common disease in geriatric medical patients, causing substantial morbidity and mortality.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22242023",
+            "title": "Postcesarean thromboprophylaxis with two different regimens of bemiparin.",
+            "authors": [
+              "Cruz Milagros",
+              "Fernández-Alonso Ana M",
+              "Rodríguez Isabel",
+              "Garrigosa Loreto",
+              "Caño Africa"
+            ],
+            "journal": "Obstetrics and gynecology international",
+            "year": "2011",
+            "abstract": "Objectives. To compare the effectiveness of postcesarean thromboprophylaxis with two different regimens of bemiparin. Material and Methods. The study included 646 women with cesarean delivery in our hospital within a 1-year period, randomly assigned to one of two groups for prophylaxis with 3500 IU bemiparin once daily for 5 days or 3500 IU bemiparin once daily for 10 days. Results. There was one case of pulmonary embolism (first day following cesarean). An additional risk factor was present in ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16545251",
+            "title": "[Can home prophylaxis for venous thromboembolism reduce mortality rates in patients with chronic obstructive pulmonary disease?].",
+            "authors": [
+              "Modesto-Alapont M",
+              "Nauffal-Manzur D",
+              "Ansótegui-Barrera E",
+              "Menéndez-Villanueva R",
+              "Ballesta A"
+            ],
+            "journal": "Archivos de bronconeumologia",
+            "year": "2006",
+            "abstract": "The incidence of venous thromboembolism (VTE) in patients with chronic obstructive pulmonary disease (COPD) ranges from 20% to 60% in different studies and the mortality rates are higher for patients with both conditions. Heparin prophylaxis is therefore usually prescribed for COPD patients who are hospitalized for exacerbation. Once their situation becomes stable, however, they are discharged to home without prophylaxis even though the low level of physical activity their disease allows continu",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22935839",
+            "title": "[Thromboprophylaxis during immobilization of non-surgical traumatic injury in the lower limb. An outpatient perspective].",
+            "authors": [
+              "Garrastazu R",
+              "Fernández-Fonfria J R"
+            ],
+            "journal": "Semergen",
+            "year": "2012",
+            "abstract": "Thromboprophylaxis with low molecular weight heparin is efficient, effective and generates savings in health costs in hospitals. However, outside hospitals, there are situations of apparent risk of thrombosis, where there seems to be no such consensus. This occurs in traumatic lower limb injuries which are not undergoing surgery and need a period of immobilization. These are processes with multidisciplinary interventions (Emergency, Family Physicians and Traumatology), although during outpatient",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PE 為深部靜脈血栓延伸至肺動脈所致。LMWH 透過抗 Xa 抑制凝血酶生成，是 VTE 急性期治療與二級預防的一線藥物（ACCP/ESC 指引支持）。Bemiparin 作為第二代 LMWH，具優化的 Xa/IIa 比（約 8:1），半衰期較長（5.2h vs enoxaparin 4.4h）。已有多項 Phase 3 RCT 直接支持 VTE 治療與預防適應症，PE 為 VTE 的核心組成部分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "autosomal dominant macrothrombocytopenia",
+      "txgnn": {
+        "score": 0.8721066117286682,
+        "rank": 37446
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "體染色體顯性巨血小板減少症（如 MYH9 相關疾病：May-Hegglin anomaly, Fechtner syndrome 等）呈現血小板數量減少但體積增大。少數患者伴發血栓（如 GP9 突變之 Bernard-Soulier），理論上或需抗凝，但無 Bemiparin 特定研究。多數以觀察為主，出血風險高者禁用抗凝。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "hemorrhagic disorder due to a constitutional thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "fetal and neonatal alloimmune thrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "platelet-type bleeding disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "platelet-type bleeding disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "platelet-type bleeding disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "pulmonary embolism (disease)"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "pulmonary embolism (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "pulmonary embolism (disease)"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "autosomal dominant macrothrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "autosomal dominant macrothrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Bemiparin",
+        "disease": "autosomal dominant macrothrombocytopenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

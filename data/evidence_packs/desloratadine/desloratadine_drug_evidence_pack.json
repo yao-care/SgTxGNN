@@ -1,0 +1,988 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00967-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Desloratadine",
+    "drugbank_id": "DB00967",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "cold urticaria",
+      "txgnn": {
+        "score": 0.9994307160377502,
+        "rank": 1263
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01444196",
+            "title": "Multi-center, Double Blind, Dose Escalating Study to Compare the Effects of 5 mg, 10mg and 20mg of Desloratadine in Patients With Acquired Cold Urticaria (ACU)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2009-08",
+            "completion_date": "2010-05",
+            "brief_summary": "The primary objective of the study is to assess the dosis of DL which is sufficient to inhibit cold urticaria symptoms.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "劑量遞增研究（5/10/20mg），直接評估高劑量Desloratadine之效益，支持劑量最佳化，與PMID 19201016結果互補"
+            }
+          },
+          {
+            "nct_id": "NCT00600847",
+            "title": "An Exploratory Phase IV, Randomised, Double-Blind, Placebo Controlled Crossover Study to Compare the Effects of 5 mg vs. 20 mg Desloratadine on the Development of Experimentally Induced Urticaria Lesions",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2006-11",
+            "completion_date": "",
+            "brief_summary": "The aim of this study is to compare cold urticaria lesions by thermography, volumetry and digital time lapse photography in ACU patients treated with placebo, 5 mg and 20 mg desloratadine. Hypothesis: The updosing of desloratadine (20 mg)is more effective in the treatment of ACU symptoms as compared to standard doses (5 mg desloratadine) and placebo.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "隨機雙盲安慰劑對照交叉設計，直接評估Desloratadine對冷性蕁麻疹之療效，方法學嚴謹，為最核心證據"
+            }
+          },
+          {
+            "nct_id": "NCT01940393",
+            "title": "Evaluation of the Inhibitory Effect of 5 Anti-Histamines in Urticaria",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2013-08",
+            "completion_date": "2014-01",
+            "brief_summary": "The antihistamines with inhaled steroids are the cornerstone on the symptomatic therapy in the management of patients with rhinitis and the first line of treatment in patients with urticaria. Currently, the use of antihistamines has become popular due to its excellent safety profile and clinical efficacy, however to the investigators knowledge, there are no studies about the pharmacokinetic and pharmacodynamic effects of these drugs in patients of tropical Latin America. The investigators main i",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "多抗組織胺頭對頭比較研究（5種），樣本數最大，但Desloratadine為比較組之一而非主要研究藥物，間接支持其相對效益定位"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "14754651",
+            "title": "Inhibition of cold urticaria by desloratadine.",
+            "authors": [
+              "Juhlin L"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2004",
+            "abstract": "The effect of 5 mg desloratadine for 4 days was tested with ice-cubes before and after 4 days of treatment in 12 patients with cold urticaria. They had been asked not to take any antihistamine for at least 4 days.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38025339",
+            "title": "Cold-induced urticaria after black ant bite anaphylaxis.",
+            "authors": [
+              "Mohamed Sara",
+              "Mobayed Hassan"
+            ],
+            "journal": "Qatar medical journal",
+            "year": "2023",
+            "abstract": "Acquired cold-induced urticaria is a form of physical urticaria that is usually spontaneous. However, reports have shown that bees, wasps, or jellyfish stings can trigger it. We report the first case of cold-induced urticaria following black ant bite-induced anaphylaxis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15516152",
+            "title": "Chronic urticaria: aetiology, management and current and future treatment options.",
+            "authors": [
+              "Kozel Martina M A",
+              "Sabroe Ruth A"
+            ],
+            "journal": "Drugs",
+            "year": "2004",
+            "abstract": "Chronic urticaria is a common condition that can be very disabling when severe. A cause for chronic idiopathic urticaria (CIU) is only infrequently identified. Potential causes include reactions to food and drugs, infections (rarely) and, apart from an increased incidence of thyroid disease, uncomplicated urticaria is not usually associated with underlying systemic disease or malignancy. About one-third of patients with CIU have circulating functional autoantibodies against the high affinity IgE",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19201016",
+            "title": "High-dose desloratadine decreases wheal volume and improves cold provocation thresholds compared with standard-dose treatment in patients with acquired cold urticaria: a randomized, placebo-controlled, crossover study.",
+            "authors": [
+              "Siebenhaar Frank",
+              "Degener Franziska",
+              "Zuberbier Torsten",
+              "Martus Peter",
+              "Maurer Marcus"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2009",
+            "abstract": "Increased dosing of nonsedating antihistamines is recommended by the current European Academy of Allergology and Clinical Immunology/Global Allergy and Asthma European Network/European Dermatology Forum guidelines on patients with acquired cold urticaria (ACU) who do not respond satisfactorily to the standard dose. Prospective data supporting this recommendation are scant.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19032340",
+            "title": "Ebastine in allergic rhinitis and chronic idiopathic urticaria.",
+            "authors": [
+              "Sastre J"
+            ],
+            "journal": "Allergy",
+            "year": "2008",
+            "abstract": "Histamine is a key mediator in the development of allergy symptoms, and oral H(1)-antihistamines are among the most widely used treatments for symptomatic relief in conditions such as allergic rhinitis and chronic urticaria. Ebastine is a second-generation antihistamine which has been shown to be an effective treatment for both seasonal and perennial allergic rhinitis. In controlled clinical trials in adult and adolescent patients with allergic rhinitis, ebastine 10 mg once-daily improved sympto",
+            "classification": {
+              "study_type": "Comparative Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29698807",
+            "title": "Food-dependent cold urticaria: A new variant of physical urticaria.",
+            "authors": [
+              "Kulthanan Kanokvalai",
+              "Tuchinda Papapit",
+              "Chularojanamontri Leena",
+              "Maurer Marcus"
+            ],
+            "journal": "The journal of allergy and clinical immunology. In practice",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22242678",
+            "title": "Critical temperature threshold measurement for cold urticaria: a randomized controlled trial of H(1) -antihistamine dose escalation.",
+            "authors": [
+              "Magerl M",
+              "Pisarevskaja D",
+              "Staubach P",
+              "Martus P",
+              "Church M K"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2012",
+            "abstract": "Cold urticaria is a rare but severe and potentially lethal condition. It is primarily treated symptomatically with H(1) -antihistamines. However, patients have a variable response to these drugs and, to date, it has not been possible to predict readily the response to therapy of individual patients.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "H1受體拮抗阻斷冷刺激誘發之組織胺釋放，抑制皮膚肥大細胞脫顆粒，降低冷激發閾值。已有多項Phase 4 RCT直接確認劑量反應關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9986629486083984,
+        "rank": 2524
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04088721",
+            "title": "A Ib/IIa Randomized, Placebo Controlled, Intranasal Administration Study on Safety, Tolerability and Potential Efficacy of AD17002 in Subjects With House Dust Mite (HDM) Allergic Rhinitis",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2019-03-26",
+            "completion_date": "2020-12-11",
+            "brief_summary": "A single center, double-blind, randomized, dose-escalation study to assess the safety, tolerability and efficacy of 3 doses of AD17002 in comparison to placebo. Subjects will be randomized at 3:1 ratios in each of 3 cohorts to receive AD17002 or placebo.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1b/2a隨機安慰劑對照試驗，評估鼻內給藥新劑型之安全性與耐受性，完成度完整；惟重點為給藥途徑而非適應症療效確認，且鼻腔局部製劑與口服全身性用藥之臨床問題不同"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19769798",
+            "title": "Loratadine and montelukast administered in combination produce decongestion in an experimental feline model of nasal congestion.",
+            "authors": [
+              "McLeod Robbie L",
+              "Mingo Garfield G",
+              "Xu Xiaoying",
+              "Palamanda Jairam",
+              "Hunter John C"
+            ],
+            "journal": "American journal of rhinology & allergy",
+            "year": "2009",
+            "abstract": "Histamine and leukotrienes act to exert numerous local and systemic effects that contribute to the pathophysiology of allergic rhinitis. The aim of these experiments was to evaluate the nasal decongestant effects of loratadine and montelukast alone and in combination in a feline model of nasal congestion. We also studied the decongestant actions of the alpha-agonist adrenergic agonist D-pseudoephedrine with and without desloratadine.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30488351",
+            "title": "The amendatory effect of hesperidin and thymol in allergic rhinitis: an ovalbumin-induced rat model.",
+            "authors": [
+              "Kilic Korhan",
+              "Sakat Muhammed Sedat",
+              "Yildirim Serkan",
+              "Kandemir Fatih Mehmet",
+              "Gozeler Mustafa Sitki"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2019",
+            "abstract": "Allergic rhinitis is an immunoglobulin-E (Ig-E)-mediated response driven by type 2 helper T cells. Hesperidin and thymol are biological agents that possess antioxidant and anti-inflammatory characteristics. The purpose of this study was to investigate the effects of hesperidin and thymol in rats with ovalbumin-induced allergic rhinitis.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "H1受體拮抗減少鼻黏膜組織胺介導之血管擴張、分泌增加及黏膜水腫，理論上可改善鼻腔症狀；然現有文獻為動物模型且以Loratadine為主，直接轉化證據不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.998497724533081,
+        "rank": 2759
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上H1拮抗可減輕過敏性喉咽炎之黏膜水腫，但急性喉咽炎多為病毒感染所致，抗組織胺療效機轉薄弱。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn": {
+        "score": 0.9975242018699646,
+        "rank": 4004
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "H1拮抗劑可緩解異位性皮膚炎之搔癢症狀，但難治性異位性皮膚炎病理涉及Th2/Th17軸、IL-4/IL-13等複雜免疫機轉，非單純組織胺介導。Desloratadine對此亞型無直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn": {
+        "score": 0.9964383840560912,
+        "rank": 5171
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "H1受體拮抗劑作用於組織胺下游效應，而非直接調控IgE產生或IgE-FcεRI結合；影響IgE反應性需上游介入（如Omalizumab）。機轉間接，無臨床證據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.9940489530563354,
+        "rank": 7338
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "玫瑰斑結膜炎主要與皮脂腺功能異常、蠕形螨感染及神經血管調節失調相關，非組織胺介導之過敏反應；H1拮抗劑機轉關聯性薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9844182729721068,
+        "rank": 14561
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17288686",
+            "title": "Effects of desloratadine and alcohol coadministration on psychomotor performance.",
+            "authors": [
+              "Scharf Martin",
+              "Berkowitz David"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "2007",
+            "abstract": "This study was set up to evaluate the effects of desloratadine 7.5 mg daily, with and without alcohol, on sedation and psychomotor performance.",
+            "classification": {
+              "study_type": "Pharmacodynamic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16146151",
+            "title": "[Desloratadine for chronic idiopathic urticaria].",
+            "authors": [
+              "Rottem Menachem",
+              "Elbirt Daniel",
+              "Sthoeger Zev"
+            ],
+            "journal": "Harefuah",
+            "year": "2005",
+            "abstract": "Chronic idiopathic urticaria (CIU) is a common and frustrating disorder defined as a regular recurrence of hives for a period of more than 6 weeks, and has a major impact on patients' daily quality of life--H1 receptor antagonists are considered to be particularly effective in reducing pruritus, and are recommended as first-line treatment in patients with CIU. However, the efficacy of the treatment is insufficient.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41541906",
+            "title": "Administration of Desloratadine for Postorgasmic Illness Syndrome in a Japanese Teenager.",
+            "authors": [
+              "Ito Kaoru",
+              "Kobayashi Ko",
+              "Hashimoto Kohei",
+              "Yorozuya Wakako",
+              "Okabe Ko"
+            ],
+            "journal": "IJU case reports",
+            "year": "2026",
+            "abstract": "Postorgasmic illness syndrome is a rare condition occurring after ejaculation. This syndrome can significantly affect the quality of life of patients.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "組織胺確與某些頭痛類型（組織胺性頭痛、叢發性頭痛）相關，理論上H1/H2/H3拮抗有潛力；然現有3篇文獻均非以頭痛為主要研究終點，為間接引用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.9833373427391052,
+        "rank": 15244
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "叢發性頭痛等三叉神經自主神經性頭痛涉及下丘腦啟動及三叉血管系統，組織胺在叢發性頭痛病理中有一定角色（H1/H2受體）；惟無任何Desloratadine之臨床試驗或案例報告支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9767704606056212,
+        "rank": 18529
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "點狀上皮角結膜炎多因病毒感染（腺病毒）或乾眼症所致，過敏性機轉非主要病因；H1拮抗劑無明確治療作用。若為過敏性結膜炎繼發則有部分機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Angelucci syndrome",
+      "txgnn": {
+        "score": 0.976353645324707,
+        "rank": 18717
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Angelucci綜合症（春季卡他性結膜炎合併神經症狀）具明確過敏性基礎（IgE介導），H1拮抗劑機轉關聯性為本列表中最合理之一；惟屬罕見疾病，無任何Desloratadine相關臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desloratadine",
+        "disease": "Angelucci syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

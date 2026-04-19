@@ -1,0 +1,329 @@
+```json
+{
+  "drug": "Benralizumab",
+  "drugbank_id": "DB12023",
+  "analysis_date": "2026-04-10",
+  "background_note": "Benralizumab 為抗 IL-5Rα 單株抗體，透過 ADCC 機制直接耗盡嗜酸性球（eosinophils）及嗜鹼性球（basophils）。全球已核准用於重度嗜酸性球哮喘（severe eosinophilic asthma），但本資料集標記「未上市」（可能指特定市場）。原始 MoA 欄位標記 [Data Gap] 需補正。",
+  "indications": [
+    {
+      "disease_name": "thrombocytopenia due to immune destruction",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IL-5Rα 路徑主要調控嗜酸性球生成與存活，與免疫破壞性血小板減少症（ITP）的主要發病機轉（B 細胞產生抗血小板 IgG 抗體、T 細胞介導血小板破壞）無直接生物學連結。雖有文獻報告 ITP 患者偶見嗜酸性球增多，但因果關係不明確，難以支持 IL-5Rα 抑制作為治療切入點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["TxGNN 高分可能源於知識圖譜的間接節點關聯（血液免疫疾病群聚效應），非真實機轉支持"]
+    },
+    {
+      "disease_name": "dermatitis",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Hold",
+      "mechanistic_link": "嗜酸性球為異位性皮膚炎（Atopic Dermatitis, AD）重要效應細胞，IL-5/IL-5Rα 軸驅動嗜酸性球募集至皮膚病灶，Benralizumab 可耗盡皮膚中 IL-5Rα 陽性細胞（PMID 40781582）。然而 AD 核心發炎軸以 Th2/IL-4/IL-13 為主，單純耗盡嗜酸性球不足以解決 ILC2 激活與 IL-4/IL-13 驅動的上皮屏障破壞，臨床試驗結果已確認此侷限性。特殊亞型如 DRESS（藥物反應伴嗜酸性球增多）因嗜酸性球為核心病理角色，機轉連結較強。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03563066",
+          "title": "Benralizumab Regulates Atopic Dermatitis Through Effects on Eosinophils, Basophils and Innate Lymphocytes",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 20,
+          "relevance_grade": "A",
+          "reasoning": "直接測試 Benralizumab 用於異位性皮膚炎，Phase 2，完成。樣本量極小（n=20），屬於概念驗證性研究，結果可能對應 PMID 37178404 的陰性報告。"
+        },
+        {
+          "nct_id": "NCT04605094",
+          "title": "Phase 2 Multinational, Randomized, Double-blind, Placebo-controlled Study (16-week)",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 194,
+          "relevance_grade": "A",
+          "reasoning": "最關鍵試驗：多國、隨機、雙盲、安慰劑對照 Phase 2 RCT，但被提前終止（enrollment 194 人）。TERMINATED 狀態高度提示療效不足或安全性疑慮，是本適應症最強的負面直接證據。"
+        },
+        {
+          "nct_id": "NCT06734884",
+          "title": "Efficacy and Safety of Anti-IL5R Therapy (Benralizumab) in Patients With Drug Reaction with Eosinophilia (DRESS)",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 96,
+          "relevance_grade": "B",
+          "reasoning": "針對 DRESS 亞型（非廣義 dermatitis），嗜酸性球為 DRESS 核心病理，機轉連結較強。尚未開始招募，無結果可用，但值得追蹤。"
+        },
+        {
+          "nct_id": "NCT04126499",
+          "title": "Observational Retrospective Study – Benralizumab Real-World Use",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "B",
+          "reasoning": "回顧性觀察研究，可提供真實世界安全性資料，但設計無法評估療效，且樣本量小。"
+        },
+        {
+          "nct_id": "NCT06477653",
+          "title": "Dupilumab as Add-on Therapy for Hypereosinophilic Conditions",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "relevance_grade": "C",
+          "reasoning": "測試 Dupilumab（非 Benralizumab），不同靶點（IL-4Rα vs IL-5Rα），與本藥物無直接關聯。"
+        },
+        {
+          "nct_id": "NCT04763447",
+          "title": "Impact of Omalizumab Withdrawal After 3-Year Treatment in Severe Allergic Conditions",
+          "phase": "PHASE4",
+          "status": "RECRUITING",
+          "enrollment": 234,
+          "relevance_grade": "C",
+          "reasoning": "測試 Omalizumab（抗 IgE），非 Benralizumab，靶點完全不同，與本評估無直接相關性。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37178404",
+          "title": "Lack of effect of benralizumab on signs and symptoms of moderate-to-severe atopic dermatitis",
+          "year": "2023",
+          "study_type": "Phase 2 RCT 結果報告",
+          "tier": "2",
+          "key_finding": "【關鍵負面結果】直接報告 Benralizumab 對中重度 AD 無明顯療效，EASI/IGA 等主要終點未達標。"
+        },
+        {
+          "pmid": "38695680",
+          "title": "Treating moderate-to-severe atopic dermatitis with benralizumab: results from the HILLIER study",
+          "year": "2024",
+          "study_type": "Phase 2 Pilot RCT",
+          "tier": "2",
+          "key_finding": "HILLIER 研究結果，為 benralizumab 在 AD 的 Phase 2 pilot 數據，需確認完整療效數據及亞組分析。"
+        },
+        {
+          "pmid": "40781582",
+          "title": "Benralizumab Depletes IL-5Rα-Bearing Cells in Skin Lesions of Patients With Atopic Dermatitis",
+          "year": "2025",
+          "study_type": "轉譯/機轉研究",
+          "tier": "3",
+          "key_finding": "確認生物標誌物活性：Benralizumab 可有效耗盡皮膚病灶中 IL-5Rα 陽性細胞，提供藥理作用的組織學證據，但臨床療效轉換有限。"
+        },
+        {
+          "pmid": "36270814",
+          "title": "Benralizumab-induced interstitial granulomatous dermatitis: A case report",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "key_finding": "【安全性警示】Benralizumab 可能誘發肉芽腫性皮膚炎（paradoxical reaction），用於皮膚科適應症需特別監測此不良反應。"
+        },
+        {
+          "pmid": "39600395",
+          "title": "Biologics in allergology and clinical immunology: Update on therapies for atopic diseases",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "1",
+          "key_finding": "最新生物製劑綜述，Benralizumab 在 AD 中不屬於標準推薦選項，Dupilumab/Tralokinumab 為主流。"
+        },
+        {
+          "pmid": "36355314",
+          "title": "The Combination of Dupilumab with Other Monoclonal Antibodies",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "1",
+          "key_finding": "探討 Dupilumab 聯合其他生物製劑（含 Benralizumab）的合理性，提供聯合療法理論基礎，但臨床數據有限。"
+        },
+        {
+          "pmid": "36411004",
+          "title": "Monoclonal Antibodies (Biologics) for Allergic Rhinitis, Asthma, and Atopic Dermatitis During Pregnancy",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "1",
+          "key_finding": "懷孕期間生物製劑安全性評估，Benralizumab 在 AD 孕婦族群中的數據極為有限。"
+        },
+        {
+          "pmid": "35987486",
+          "title": "Safety of Biologics for Atopic Diseases During Pregnancy",
+          "year": "2022",
+          "study_type": "Safety Review",
+          "tier": "1",
+          "key_finding": "孕期安全性評估文獻，Benralizumab 孕期數據不足，無法作出明確建議。"
+        },
+        {
+          "pmid": "31690400",
+          "title": "Immunobiologic treatments for severe asthma, atopic dermatitis, and chronic urticaria",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": "1",
+          "key_finding": "早期綜述，Benralizumab 用於 AD 尚在探索階段，後續 RCT 已顯示療效不足。"
+        },
+        {
+          "pmid": "32375958",
+          "title": "Biologics for oral corticosteroid-dependent asthma",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "1",
+          "key_finding": "主要討論哮喘適應症，皮膚科相關性較低，屬間接參考。"
+        }
+      ],
+      "evidence_summary": {
+        "positive_signals": [
+          "Phase 2 試驗已執行（NCT03563066 completed, NCT04605094 terminated）",
+          "確認皮膚病灶中藥理活性（PMID 40781582）",
+          "DRESS 亞型有 Phase 2 試驗籌備中（NCT06734884）"
+        ],
+        "negative_signals": [
+          "最大規模 Phase 2 RCT（n=194）提前終止，強烈提示療效不足",
+          "PMID 37178404 明確報告廣義 AD 無顯著療效",
+          "Paradoxical皮膚炎不良反應已有案例（PMID 36270814）",
+          "最新 2024 生物製劑指引未將 Benralizumab 列為 AD 推薦選項"
+        ],
+        "remaining_opportunity": "DRESS（藥物過敏伴嗜酸性球增多）為高嗜酸性球依賴亞型，機轉更契合，NCT06734884 值得追蹤"
+      },
+      "risk_flags": [
+        "已有 Phase 2 RCT 陰性結果，廣義 AD 再試驗需充分差異化（biomarker-enriched 亞族群）",
+        "Paradoxical 皮膚炎不良反應為皮膚科使用的特殊安全性考量"
+      ]
+    },
+    {
+      "disease_name": "acne keloid",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "痤瘡瘢痕疙瘩（Acne Keloidalis Nuchae）主要由慢性毛囊炎症、纖維母細胞異常活化及膠原蛋白過度沉積所致，IL-5Rα/嗜酸性球軸在其發病機制中無已知核心作用。TGF-β 及纖維化路徑為主要靶點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["無任何臨床或文獻支持，TxGNN 評分可能反映皮膚科疾病群聚效應"]
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.9905,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒皮肌炎為罕見自體免疫性肌肉炎症，主要由干擾素（IFN）路徑及 Th1 免疫失調介導，嗜酸性球增多非其核心特徵。IL-5Rα 抑制缺乏合理機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["孤兒病、無臨床數據、機轉連結薄弱"]
+    },
+    {
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn_score": 0.9903,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無肌病性皮肌炎（Amyopathic Dermatomyositis）以皮膚症狀為主，與 MDA5 抗體及 IFN-I 高度活化相關。部分病例伴隨輕度嗜酸性球增多，但不構成核心發病機轉，IL-5Rα 靶點合理性不足。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["與 neonatal 亞型同屬 IFN 驅動疾病，機轉不匹配"]
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.9891,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性萎縮性肢端皮炎為伯氏疏螺旋體（Borrelia burgdorferi）感染所致的晚期萊姆病皮膚表現，屬感染後纖維化過程，非嗜酸性球介導。IL-5Rα 靶點完全不適用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["感染性/纖維化疾病，與免疫生物製劑靶點無機轉關聯"]
+    },
+    {
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "兒童結締組織病相關繼發性間質性肺病（CTD-ILD）主要由自體免疫介導纖維化及炎症所致。雖嗜酸性球性肺炎存在，但此特定亞型以 CTD（如 JDM、MCTD）相關機轉為主，IL-5Rα 靶點缺乏直接支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["罕見兒科病，需先確認是否有嗜酸性球主導的亞型"]
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.9889,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性種痘樣水皰病為 EBV 相關 T/NK 細胞淋巴增生性疾病，由病毒驅動的細胞毒性免疫反應介導，嗜酸性球並非主要病理角色。IL-5Rα 抑制無已知機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["病毒驅動淋巴增生性疾病，生物製劑使用需謹慎評估免疫抑制風險"]
+    },
+    {
+      "disease_name": "autoimmune thrombocytopenic",
+      "txgnn_score": 0.9837,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫性血小板減少症與「thrombocytopenia due to immune destruction」機轉相近，均以 B 細胞產生抗 GP IIb/IIIa 抗體及 Fc 受體介導血小板破壞為核心，嗜酸性球角色邊緣。兩個適應症的評估結論一致。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["與另一血小板減少適應症高度重疊，均缺乏機轉支持"]
+    },
+    {
+      "disease_name": "Evans syndrome",
+      "txgnn_score": 0.9824,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Evans 症候群為自體免疫溶血性貧血（AIHA）合併免疫性血小板減少症，核心為 B 細胞自體抗體失調及 T 細胞調節異常，常與 SLE 或 CVID 相關。IL-5Rα 靶點與此多系列自體免疫疾病無直接機轉連結，建議優先評估 Rituximab（anti-CD20）等已有證據的生物製劑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["B 細胞介導疾病，抗 IL-5Rα 路徑不適用"]
+    }
+  ],
+  "overall_assessment": {
+    "actionable_indications": [
+      {
+        "disease_name": "dermatitis (DRESS 亞型)",
+        "priority": "Medium",
+        "next_step": "追蹤 NCT06734884 結果（Phase 2, n=96），並設計 Biomarker-enriched（高血嗜酸性球）亞族群研究假說",
+        "rationale": "廣義 AD 已有負面 Phase 2 數據，但 DRESS 亞型機轉契合度更高"
+      }
+    ],
+    "non_actionable_indications": [
+      "thrombocytopenia due to immune destruction（L5, 機轉不匹配）",
+      "acne keloid（L5, 纖維化疾病）",
+      "neonatal dermatomyositis（L5, IFN 驅動）",
+      "amyopathic dermatomyositis（L5, IFN 驅動）",
+      "acrodermatitis chronica atrophicans（L5, 感染後纖維化）",
+      "secondary ILD in childhood CTD（L5, CTD 主導）",
+      "hydroa vacciniforme familial（L5, EBV 淋巴增生）",
+      "autoimmune thrombocytopenic（L5, 機轉不匹配）",
+      "Evans syndrome（L5, B 細胞介導）"
+    ],
+    "data_quality_notes": [
+      "MoA 欄位標記為 [Data Gap]，實際上 Benralizumab 為成熟的 anti-IL-5Rα 生物製劑，應補充完整 MoA 資料",
+      "市場狀態「未上市」需確認特定市場（新加坡？），全球已有多國核准（哮喘適應症）",
+      "Dermatitis 文獻共 20 篇但僅顯示 10 篇，完整文獻分析需補全",
+      "TxGNN 高分在皮膚及血液免疫疾病群聚現象顯著，建議校準模型以避免「疾病本體論鄰近效應」造成假陽性"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 整體結論
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| **dermatitis** | **L2** | **S2** | **Hold**（廣義AD）/ Research Question（DRESS亞型） |
+| thrombocytopenia due to immune destruction | L5 | S0 | Hold |
+| acne keloid | L5 | S0 | Hold |
+| neonatal dermatomyositis | L5 | S0 | Hold |
+| amyopathic dermatomyositis | L5 | S0 | Hold |
+| acrodermatitis chronica atrophicans | L5 | S0 | Hold |
+| secondary ILD in childhood CTD | L5 | S0 | Hold |
+| hydroa vacciniforme, familial | L5 | S0 | Hold |
+| autoimmune thrombocytopenic | L5 | S0 | Hold |
+| Evans syndrome | L5 | S0 | Hold |
+
+### 關鍵洞察
+
+1. **Dermatitis 的 Phase 2 RCT 已呈現負面訊號**：NCT04605094（n=194）提前終止 + PMID 37178404 明確報告無效，廣義異位性皮膚炎的再利用價值已受重大挑戰。
+
+2. **DRESS 亞型為僅剩的有效機轉視窗**：NCT06734884 尚在籌備，嗜酸性球為 DRESS 核心病理，值得持續追蹤。
+
+3. **其他 9 個適應症均為純 AI 預測**（L5/S0）：機轉分析顯示多為血液免疫或纖維化疾病，與 IL-5Rα 靶點不匹配，建議不投入研究資源。
+
+4. **Paradoxical 皮膚炎風險**（PMID 36270814）：若在任何皮膚科適應症使用 Benralizumab，需納入監測協議。

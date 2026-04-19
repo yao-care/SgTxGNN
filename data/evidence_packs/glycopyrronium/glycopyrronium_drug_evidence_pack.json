@@ -1,0 +1,1110 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00986-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Glycopyrronium",
+    "drugbank_id": "DB00986",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "irritable bowel syndrome",
+      "txgnn": {
+        "score": 0.988427460193634,
+        "rank": 11726
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9696463",
+            "title": "Effects of tricyclic antidepressants on mechanosensitive pelvic nerve afferent fibers innervating the rat colon.",
+            "authors": [
+              "Su X",
+              "Gebhart G F"
+            ],
+            "journal": "Pain",
+            "year": "1998",
+            "abstract": "The aim of this study was to examine the effects of tricyclic antidepressants on responses of mechanosensitive afferent fibers innervating the rat colon. A total of 53 fibers in the decentralized S1 dorsal root were studied. The effects of the non-specific monoamine reuptake inhibitor imipramine (IMI), the noradrenaline reuptake inhibitor desipramine (DES), and the serotonin reuptake inhibitor clomipramine (CLO) were tested on responses of 22 mechanosensitive afferent fibers to noxious colorecta",
+            "classification": {
+              "study_type": "Animal/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "M3 受體拮抗 → 腸道平滑肌痙攣抑制 → 可能緩解 IBS 腹痛/腸痙攣；同類藥物（hyoscine、dicyclomine）已有 IBS 適應症，glycopyrronium 具相同作用機轉，但尚無直接臨床資料",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.9850876927375792,
+        "rank": 14138
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "馬尾神經壓迫造成膀胱/直腸功能障礙屬結構性損傷；抗膽鹼劑或能緩解繼發性逼尿肌過動症狀，但無法改善神經壓迫根本病因，機轉連結極弱，無任何臨床資料",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.9773024320602416,
+        "rank": 18286
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "M2/M3 受體拮抗 → 抑制逼尿肌不自主收縮 → 改善神經因性膀胱過動症狀；同類藥物（oxybutynin、tolterodine、solifenacin）為神經因性膀胱一線治療，glycopyrronium 具完全相同的作用機轉，但本資料集中無直接臨床試驗或文獻支持",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "neurocirculatory asthenia",
+      "txgnn": {
+        "score": 0.969077169895172,
+        "rank": 21599
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Da Costa 症候群具自律神經失調特徵（心悸、出汗、功能性心血管症狀）；glycopyrronium 周邊抗膽鹼效應理論上可調節部分症狀，但機轉連結不明確，無任何臨床資料，不構成研究優先議題",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9607567191123962,
+        "rank": 24082
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40590589",
+            "title": "Botulinum Treatment Induced Dropped Head Syndrome in a Patient With Chronic Migraines and Multiple Sclerosis.",
+            "authors": [
+              "Narula Sameer",
+              "Snodgrass Clarke"
+            ],
+            "journal": "Pain medicine case reports",
+            "year": "2024",
+            "abstract": "Chronic migraine treatment typically is treated medically by use of medications, such as nonsteroidal anti-inflammatory drugs and triptans; however, for a subset of patients, botulinum toxin (or Botox) has effectively been shown to be an alternative medication.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偏頭痛涉及三叉血管神經路徑與 CGRP/5-HT 系統；抗毒蕈鹼機轉與主流治療靶點無直接連結；唯一文獻為肉毒桿菌素引起垂頭症候群的案例報告，與 glycopyrronium 完全無關",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9567775130271912,
+        "rank": 25023
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹先兆偏頭痛涉及後循環及腦幹功能異常；glycopyrronium 幾乎不穿越血腦屏障，無法作用於中樞腦幹路徑，機轉連結缺失，無任何臨床資料",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.9561276435852052,
+        "rank": 25186
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全疑慮旗標：抗毒蕈鹼藥物可能引起瞳孔散大（虹膜括約肌鬆弛），在窄角型青光眼列為禁忌症；開角型青光眼雖風險相對較低，但 glycopyrronium 無降低眼內壓的藥理機轉，不具治療根據",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "autonomic nervous system disease",
+      "txgnn": {
+        "score": 0.9555104970932008,
+        "rank": 25342
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02872090",
+            "title": "Effects of Long Acting Bronchodilators on CARDiac Autonomic Nervous System Control in Patients With COPD",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2016-03",
+            "completion_date": "2021-06-01",
+            "brief_summary": "The aim of this interventional, randomized, double-blind, monocentric, cross-over study is to quantify the possible deleterious effect on the cardiac autonomic nervous system control of two long-acting anticholinergic bronchodilatators (tiotropium and glycopyrronium) and one beta-2 agonist long-acting bronchodilatator (indacaterol ) in patients with mild COPD.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 完成試驗（42 名 COPD 患者），直接研究長效支氣管擴張劑（含 glycopyrronium）對心臟自律神經系統控制的效應；雖主要族群為 COPD 而非原發性自律神經疾病，但提供 glycopyrronium 影響自律神經功能的直接臨床量測資料"
+            }
+          },
+          {
+            "nct_id": "NCT03662711",
+            "title": "Comparison of 1-year Treatment With Inhaled Long Acting Bronchodilators (LABD) Plus Inhaled Glucocorticosteroids (ICS) Versus LABD Without ICS on Re-hospitalizations and/or Death in Elderly Patients With Chronic Obstructive Pulmonary Disease (COPD) Recently Hospitalized Because of an Acute Exacerbation of COPD (ICS-Life Study).",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 843,
+            "start_date": "2018-11-11",
+            "completion_date": "2022-10-26",
+            "brief_summary": "This will be a phase IV, open label, multicenter, randomized pragmatic study in frail elderly patients with COPD. Participants will be treated with either inhaled LABD alone or LABD combined with inhaled glucocorticosteroids. The main aim of the study is to assess whether, in elderly patients with COPD and one or more cardiac comorbidities (heart failure, and/or ischemic heart disease, and/or atrial fibrillation) recently hospitalized because of an acute exacerbation of COPD, 12 months treatment",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，已提前終止（計畫招募 843 人），比較 LABD + ICS 一年治療效果，自律神經評估僅為次要終點；因試驗中止導致資料不完整，證據品質降為 C 級"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22021174",
+            "title": "The Movement Disorder Society Evidence-Based Medicine Review Update: Treatments for the non-motor symptoms of Parkinson's disease.",
+            "authors": [
+              "Seppi Klaus",
+              "Weintraub Daniel",
+              "Coelho Miguel",
+              "Perez-Lloret Santiago",
+              "Fox Susan H"
+            ],
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2011",
+            "abstract": "The Movement Disorder Society (MDS) Task Force on Evidence-Based Medicine (EBM) Review of Treatments for Parkinson's Disease (PD) was first published in 2002 and was updated in 2005 to cover clinical trial data up to January 2004 with the focus on motor symptoms of PD. In this revised version the MDS task force decided it was necessary to extend the review to non-motor symptoms. The objective of this work was to update previous EBM reviews on treatments for PD with a focus on non-motor symptoms.",
+            "classification": {
+              "study_type": "Systematic Review / EBM Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31957505",
+            "title": "State-of-the-art pharmacotherapy for autonomic dysfunction in Parkinson's disease.",
+            "authors": [
+              "Quarracino Cecilia",
+              "Otero-Losada Matilde",
+              "Capani Francisco",
+              "Pérez-Lloret Santiago"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2020",
+            "abstract": "Introduction: Autonomic dysfunction is one of the most frequent and disabling non-motor symptoms of Parkinson's disease (PD). It includes, among others, orthostatic hypotension (OH), sialorrhea, constipation, erectile dysfunction (ED), urinary dysfunction, and diaphoresis. They are usually under-recognized and suboptimally managed.Areas covered: Recommended treatments for dysautonomias are summarized with a description of the mechanism of action and observed results. The pathophysiology of each ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28128284",
+            "title": "Sensory and autonomic function and structure in footpads of a diabetic mouse model.",
+            "authors": [
+              "Liu Ying",
+              "Sebastian Blessan",
+              "Liu Ben",
+              "Zhang Yiyue",
+              "Fissel John A"
+            ],
+            "journal": "Scientific reports",
+            "year": "2017",
+            "abstract": "Sensory and autonomic neuropathy affects the majority of type II diabetic patients. Clinically, autonomic evaluation often focuses on sudomotor function yet this is rarely assessed in animal models. We undertook morphological and functional studies to assess large myelinated and small unmyelinated axons in the db/db type II diabetes mouse model. We observed that autonomic innervation of sweat glands in the footpads was significantly reduced in db/db mice compared to control db/+ mice and this de",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23373820",
+            "title": "Emerging drugs for autonomic dysfunction in Parkinson's disease.",
+            "authors": [
+              "Perez-Lloret Santiago",
+              "Rey María Verónica",
+              "Pavy-Le Traon Anne",
+              "Rascol Olivier"
+            ],
+            "journal": "Expert opinion on emerging drugs",
+            "year": "2013",
+            "abstract": "Autonomic dysfunction, including orthostatic hypotension (OH), sialorrhea, sexual dysfunction, urinary dysfunction and constipation is a common feature of Parkinson's disease (PD). Even though its treatment has been recognized as a major unmet need in PD, there is a paucity of clinical trials to assess their treatment.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26211748",
+            "title": "[Are there cardiovascular adverse effects of inhaled anticholinergics?].",
+            "authors": [
+              "Nagy László Béla"
+            ],
+            "journal": "Orvosi hetilap",
+            "year": "2015",
+            "abstract": "The purpose of this review is to discuss the cardiovascular risk associated with inhaled anticholinergics in chronic obstructive pulmonary disease. Several meta-analyses of data for tiotropium raised the possibility of an increased risk for arrhythmia, angina, myocardial infarction, etc. This review includes the data of retrospective studies of databases using databases, randomized controlled trials, and meta-analyses of clinical trials. The conclusions of studies were inconsistent. In most clin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37714301",
+            "title": "Topical Anticholinergics in the Management of Focal Hyperhidrosis in Adults and Children. A Narrative Review.",
+            "authors": [
+              "Morgado-Carrasco D",
+              "de Lucas R"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2024",
+            "abstract": "Hyperhidrosis, or excessive sweating, is characterized by overactivity of the eccrine sweat glands, usually associated with dysfunction of the autonomic nervous system. Primary focal hyperhidrosis is the most common form and can affect the axillae, palms, soles, and/or face, often leading to significantly impaired quality of life and social functioning. Treatment is complex. Topical antiperspirants are normally recommended as the first-line treatment for mild hyperhidrosis. Multiple clinical tri",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23070700",
+            "title": "Cholinergic control of the cerebral vasculature in humans.",
+            "authors": [
+              "Hamner J W",
+              "Tan Can Ozan",
+              "Tzeng Yu-Chieh",
+              "Taylor J Andrew"
+            ],
+            "journal": "The Journal of physiology",
+            "year": "2012",
+            "abstract": "Despite growing evidence of autonomic nervous system involvement in the regulation of cerebral blood flow, the specific contribution of cholinergic vasodilatation to cerebral autoregulation remains unknown. We examined cerebral and forearm blood flow responses to augmented arterial pressure oscillations with and without cholinergic blockade. Oscillatory lower body negative pressure was applied at six frequencies from 0.03 to 0.08 Hz in nine healthy subjects with and without cholinergic blockade ",
+            "classification": {
+              "study_type": "Clinical Physiology Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16005153",
+            "title": "PM-induced cardiac oxidative stress and dysfunction are mediated by autonomic stimulation.",
+            "authors": [
+              "Rhoden Claudia R",
+              "Wellenius Gregory A",
+              "Ghelfi Elisa",
+              "Lawrence Joy",
+              "González-Flecha Beatriz"
+            ],
+            "journal": "Biochimica et biophysica acta",
+            "year": "2005",
+            "abstract": "Epidemiological studies show that increases in particulate air pollution (PM) are associated with increases in cardiopulmonary morbidity and mortality. However, the mechanism(s) underlying the cardiac effects of PM remain unknown. We used pharmacological strategies to determine whether oxidants are implicated in PM-dependent cardiac dysfunction and whether PM-induced increase in autonomic stimulation on the heart mediates cardiac oxidative stress and toxicity. Adult Sprague-Dawley rats were expo",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24506933",
+            "title": "Tiotropium modulates transient receptor potential V1 (TRPV1) in airway sensory nerves: A beneficial off-target effect?",
+            "authors": [
+              "Birrell Mark A",
+              "Bonvini Sara J",
+              "Dubuis Eric",
+              "Maher Sarah A",
+              "Wortley Michael A"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2014",
+            "abstract": "Recent studies have suggested that the long-acting muscarinic receptor antagonist tiotropium, a drug widely prescribed for its bronchodilator activity in patients with chronic obstructive pulmonary disease and asthma, improves symptoms and attenuates cough in preclinical and clinical tussive agent challenge studies. The mechanism by which tiotropium modifies tussive responses is not clear, but an inhibition of vagal tone and a consequent reduction in mucus production from submucosal glands and b",
+            "classification": {
+              "study_type": "Mechanistic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1659617",
+            "title": "Central and peripheral effects of arecoline in patients with autonomic failure.",
+            "authors": [
+              "Polinsky R J",
+              "Brown R T",
+              "Curras M T",
+              "Baser S M",
+              "Baucom C E"
+            ],
+            "journal": "Journal of neurology, neurosurgery, and psychiatry",
+            "year": "1991",
+            "abstract": "Increased plasma adrenalin (A) levels following arecoline in normal subjects and patients with multiple system atrophy (MSA) may result from nicotinic adrenal stimulation. Lack of this response in patients with pure autonomic failure (PAF) is consistent with peripheral sympathetic dysfunction. The mechanisms underlying diminished plasma corticotropin (ACTH) responses to arecoline may differ in patients with autonomic failure. Hypothalamic, cholinergic degeneration could prevent the response in M",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9575980",
+            "title": "Primary vagally mediated decelerations in heart rate during tonic rapid eye movement sleep in cats.",
+            "authors": [
+              "Verrier R L",
+              "Lau T R",
+              "Wallooppillai U",
+              "Quattrochi J",
+              "Nearing B D"
+            ],
+            "journal": "The American journal of physiology",
+            "year": "1998",
+            "abstract": "Rapid eye movement (REM) sleep results in profound state-dependent alterations in heart rate. The present study describes a novel phenomenon of a primary deceleration in heart rate that is not preceded or followed by increases in heart rate or arterial blood pressure and occurs primarily during tonic REM sleep. The goals were to characterize the primary decelerations and to provide insights on the underlying central and peripheral autonomic mechanisms. Cats were chronically implanted with electr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11591615",
+            "title": "Parasympathetic neural activity accounts for the lowering of exercise heart rate at high altitude.",
+            "authors": [
+              "Boushel R",
+              "Calbet J A",
+              "Rådegran G",
+              "Sondergaard H",
+              "Wagner P D"
+            ],
+            "journal": "Circulation",
+            "year": "2001",
+            "abstract": "In chronic hypoxia, both heart rate (HR) and cardiac output (Q) are reduced during exercise. The role of parasympathetic neural activity in lowering HR is unresolved, and its influence on Q and oxygen transport at high altitude has never been studied.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15921933",
+            "title": "Cholinergic modulation of preattentive auditory processing in aging.",
+            "authors": [
+              "Pekkonen Eero",
+              "Jääskeläinen Iiro P",
+              "Kaakkola Seppo",
+              "Ahveninen Jyrki"
+            ],
+            "journal": "NeuroImage",
+            "year": "2005",
+            "abstract": "Auditory event-related potential (ERP) components P50 and N100 are thought to index preattentive auditory processing underlying stimulus detection, whereas a subsequent component termed mismatch negativity (MMN) has been proposed to reflect comparison of incoming stimuli to a short-lived sensory memory trace of preceding sounds. Existing evidence suggests impairment of preattentive auditory processing in aging, which appears to be accompanied by decline of cholinergic activity. Previous studies ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15095083",
+            "title": "Cardiovascular autonomic function in patients with hemodynamic instability at induction of capnoperitoneum: a case-control study.",
+            "authors": [
+              "Alijani A",
+              "Hanna G B",
+              "Band M",
+              "Struthers A D",
+              "Cuschieri A"
+            ],
+            "journal": "Surgical endoscopy",
+            "year": "2004",
+            "abstract": "This study hypothesized that patients in whom bradycardia and hypotension develop with induction of positive-pressure capnoperitoneum have an underlying autonomic cardiovascular dysfunction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17622395",
+            "title": "Mechanism of hypotensive transients associated with abrupt bradycardias in conscious rabbits.",
+            "authors": [
+              "Sheldon Robert S",
+              "Wright Christopher I",
+              "Duff Henry J",
+              "Thakore Ela",
+              "Gillis Anne M"
+            ],
+            "journal": "The Canadian journal of cardiology",
+            "year": "2007",
+            "abstract": "Transient bradycardic hypotensive events occur in resting rabbits. If the hypotension is due to vasodepression, these events may be a model for vasovagal syncope.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1972432",
+            "title": "Effect of central cholinergic stimulation on regional cerebral blood flow in Alzheimer disease.",
+            "authors": [
+              "Geaney D P",
+              "Soper N",
+              "Shepstone B J",
+              "Cowen P J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1990",
+            "abstract": "Patients with Alzheimer disease (AD) had reduced regional cerebral blood flow (rCBF) in the posterior parietotemporal region compared with controls, as determined with technetium-99m hexamethyl propyleneamine oxime and single photon emission tomography. Central cholinergic stimulation with physostigmine produced a focal increase in rCBF in the posterior parietotemporal region in the patients with AD but not in controls.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2207482",
+            "title": "Vagal reflexes and anaesthesia.",
+            "authors": [
+              "Wood P R",
+              "Foley M A",
+              "Lawler P G"
+            ],
+            "journal": "British journal of hospital medicine",
+            "year": "1990",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3767025",
+            "title": "Refractory bradycardia after reversal of muscle relaxant in a diabetic with vagal neuropathy.",
+            "authors": [
+              "Triantafillou A N",
+              "Tsueda K",
+              "Berg J",
+              "Wieman T J"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "周邊 M 型受體拮抗 → 調節膽鹼能支配的自律神經效應器（唾液腺、汗腺、心臟竇房結、膀胱逼尿肌、腸道平滑肌）；已核准/使用中的自律神經失調適應症包含：帕金森病流涎（PD 自律神經症狀）、原發性多汗症（交感膽鹼能支配）；COPD 臨床試驗顯示對心臟自律神經功能有可量測效應",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.9529885053634644,
+        "rank": 25968
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全疑慮旗標：遺傳性青光眼患者眼壓管理更為困難；抗毒蕈鹼藥物可能加劇眼壓升高風險（瞳孔擴大影響房水流出），無降眼壓藥理機轉，禁忌傾向明確",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "dysthymic disorder",
+      "txgnn": {
+        "score": 0.9367579221725464,
+        "rank": 29398
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "持續性憂鬱症與單胺系統（5-HT、NE、DA）失調相關；抗毒蕈鹼機轉與憂鬱症標準治療靶點不符；部分研究顯示抗膽鹼藥物可能因認知副作用加重情緒症狀，不構成治療根據",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "autonomic nervous system disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "autonomic nervous system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "autonomic nervous system disease"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glycopyrronium",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

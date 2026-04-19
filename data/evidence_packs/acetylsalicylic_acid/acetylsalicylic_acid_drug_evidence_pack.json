@@ -1,0 +1,3434 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00945-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Acetylsalicylic acid",
+    "drugbank_id": "DB00945",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.999371349811554,
+        "rank": 1349
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34384631",
+            "title": "Migraine with aura.",
+            "authors": [
+              "Lucas C"
+            ],
+            "journal": "Revue neurologique",
+            "year": "2021",
+            "abstract": "Around 15% to one-third of migraineurs experience aura. Aura is a fully reversible focal neurological phenomenon involving visual, sensory, speech, and/or motor symptoms that develops gradually and usually precedes the headache phase. The pivotal role of cortical spreading depression (CSD) as a mechanism underlying aura has been widely supported by a large body of studies. The diagnosis is based on the International Headache Classification Disorders III edition criteria. Aura is characterized by",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30291554",
+            "title": "Episodic Migraine With and Without Aura: Key Differences and Implications for Pathophysiology, Management, and Assessing Risks.",
+            "authors": [
+              "Vgontzas Angeliki",
+              "Burch Rebecca"
+            ],
+            "journal": "Current pain and headache reports",
+            "year": "2018",
+            "abstract": "To review the pathophysiologic, epidemiologic, and clinical evidence for similarities and differences between migraine with and without aura.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34048399",
+            "title": "Headache in Women.",
+            "authors": [
+              "Pavlović Jelena M"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2021",
+            "abstract": "Women are greatly overrepresented among patients seeking treatment for symptoms of headache pain in general and migraine in particular. Understanding the presentation of headache in women in relation to hormonal changes both during the menstrual cycle and throughout the life span is essential for appropriate diagnosis and treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8291477",
+            "title": "Migraine and pregnancy.",
+            "authors": [
+              "Welch K M"
+            ],
+            "journal": "Advances in neurology",
+            "year": "1994",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25600718",
+            "title": "The acute treatment of migraine in adults: the american headache society evidence assessment of migraine pharmacotherapies.",
+            "authors": [
+              "Marmura Michael J",
+              "Silberstein Stephen D",
+              "Schwedt Todd J"
+            ],
+            "journal": "Headache",
+            "year": "2015",
+            "abstract": "The study aims to provide an updated assessment of the evidence for individual pharmacological therapies for acute migraine treatment. Pharmacological therapy is frequently required for acutely treating migraine attacks. The American Academy of Neurology Guidelines published in 2000 summarized the available evidence relating to the efficacy of acute migraine medications. This review, conducted by the members of the Guidelines Section of the American Headache Society, is an updated assessment of ",
+            "classification": {
+              "study_type": "Evidence-based Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10534294",
+            "title": "Menstrual migraine.",
+            "authors": [
+              "Silberstein S D"
+            ],
+            "journal": "Journal of women's health & gender-based medicine",
+            "year": "1999",
+            "abstract": "Migraine in women is influenced by hormonal changes throughout the life cycle: menarche, menstruation, oral contraceptive use, pregnancy, menopause, and hormonal replacement therapy (HRT). Based on clinical experience, the frequency of menstrual migraine has been reported to be as high as 60%-70%. Most women have increased headache and migraine attacks (usually without aura) at the time of menses. Attacks occurring only with menstruation, even if infrequent, are called true menstrual migraine. A",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35006660",
+            "title": "Stroke: Primary Prevention.",
+            "authors": [
+              "Tai Waimei Amy"
+            ],
+            "journal": "FP essentials",
+            "year": "2022",
+            "abstract": "Stroke is a leading cause of long-term disability in adults and the fifth leading cause of mortality in the United States. One of the main tasks related to stroke in the family medicine setting is assessment and management of modifiable risk factors. The American Heart Association/American Stroke Association (AHA/ASA) guidelines on primary prevention of stroke recommend that cigarette smoking, physical inactivity, overweight and obesity, dyslipidemia, hypertension, and diabetes be addressed and/",
+            "classification": {
+              "study_type": "Review/Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39989443",
+            "title": "Do antithrombotic drugs have a role in migraine prevention? A systematic review.",
+            "authors": [
+              "De Santis Federico",
+              "Foschi Matteo",
+              "Romoli Michele",
+              "Mastrangelo Vincenzo",
+              "Rosignoli Chiara"
+            ],
+            "journal": "Headache",
+            "year": "2025",
+            "abstract": "To explore the available evidence on the role of antithrombotics as migraine preventive medication.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25729594",
+            "title": "Acetylsalicylic Acid in migraine with aura prevention - a retrospective study.",
+            "authors": [
+              "Anoaica Mihaela-Bianca",
+              "Anoaica P G",
+              "Popescu Florica"
+            ],
+            "journal": "Current health sciences journal",
+            "year": "2014",
+            "abstract": "In a retrospective study we evaluated the efficacy and tolerability of Acetylsalicylic Acid (ASA), an antiplatelet drug, in the prophylactic treatment of migraine with aura (MA). We reviewed the charts of 203 patients suffering from MA according to the ICHD II criteria, attending to Turin University Headache Centre. 95 subjects (46.8%) were treated with ASA at low dose, 108 (53.2%) with other prophylactic therapies normally used for migraine for a period that ranged from at least 4 months to 194",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15891416",
+            "title": "Patent foramen ovale: paradoxical connection to migraine and stroke.",
+            "authors": [
+              "Diener Hans-Christoph",
+              "Weimar Christian",
+              "Katsarava Zaza"
+            ],
+            "journal": "Current opinion in neurology",
+            "year": "2005",
+            "abstract": "In this article we aim to elucidate the relationship between patent foramen ovale, cryptogenic stroke and migraine.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36657989",
+            "title": "Prepregnancy Migraine, Migraine Phenotype, and Risk of Adverse Pregnancy Outcomes.",
+            "authors": [
+              "Purdue-Smithe Alexandra C",
+              "Stuart Jennifer J",
+              "Farland Leslie V",
+              "Kang Jae H",
+              "Harriott Andrea M"
+            ],
+            "journal": "Neurology",
+            "year": "2023",
+            "abstract": "Migraine is a highly prevalent neurovascular disorder among reproductive-aged women. Whether migraine history and migraine phenotype might serve as clinically useful markers of obstetric risk is not clear. The primary objective of this study was to examine associations of prepregnancy migraine and migraine phenotype with risks of adverse pregnancy outcomes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41036277",
+            "title": "Blood pressure lowering for prevention of episodic migraine: results of a pilot randomized, placebo-controlled trial of combination blood pressure lowering medication with propranolol.",
+            "authors": [
+              "Carcel Cheryl",
+              "Haghdoost Faraidoon",
+              "Davies Leo",
+              "Cordato Dennis",
+              "Griffiths Lyn"
+            ],
+            "journal": "Frontiers in neurology",
+            "year": "2025",
+            "abstract": "Beta blockers are effective in migraine prevention. Low-dose combination therapy of blood pressure lowering is likely to lower blood pressure more than a beta-blocker, but there are no data on comparative efficacy of these treatments in migraine prophylaxis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9556832",
+            "title": "Medical treatment of migraine: from mechanisms of action to contraindications.",
+            "authors": [
+              "Higelin F",
+              "Annoni J M"
+            ],
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1998",
+            "abstract": "Management of migraine patients with or without aura must include appropriate medication to treat the attack and long-term preventive therapy, especially if the frequency of the attacks is greater than 2-4 per month. In both cases the choice of treatment depends on its efficacy and side effects. With regard to acute drug therapy, group studies do not suggest that ergot derivatives and sumatriptan are superior to simple analgesics and anti-inflammatory drugs, particularly if a prokinetic agent is",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8536293",
+            "title": "Migraine and cluster headache--their management with sumatriptan: a critical review of the current clinical experience.",
+            "authors": [
+              "Wilkinson M",
+              "Pfaffenrath V",
+              "Schoenen J",
+              "Diener H C",
+              "Steiner T J"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1995",
+            "abstract": "Sumatriptan is a potent and selective agonist at the vascular 5HT1 receptor which mediates constriction of certain large cranial blood vessels and/or inhibits the release of vasoactive neuropeptides from perivascular trigeminal axons in the dura mater following activation of the trigeminovascular system. The mode of action of this drug in migraine and cluster headache is discussed. On the basis of a detailed review of all published trials and available data from post-marketing studies, the effic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16103551",
+            "title": "Clopidogrel reduces migraine with aura after transcatheter closure of persistent foramen ovale and atrial septal defects.",
+            "authors": [
+              "Wilmshurst P T",
+              "Nightingale S",
+              "Walsh K P",
+              "Morrison W L"
+            ],
+            "journal": "Heart (British Cardiac Society)",
+            "year": "2005",
+            "abstract": "To report the clinical events leading to alteration of an anticoagulation regimen for patients undergoing transcatheter closure of an atrial shunt and how this affected migraine symptoms after the closure procedure.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37145844",
+            "title": "Social Media Listening and Digital Profiling Study of People With Headache and Migraine: Retrospective Infodemiology Study.",
+            "authors": [
+              "Goadsby Peter",
+              "Ruiz de la Torre Elena",
+              "Constantin Luminita",
+              "Amand Caroline"
+            ],
+            "journal": "Journal of medical Internet research",
+            "year": "2023",
+            "abstract": "There is an unmet need for a better understanding and management of headache, particularly migraine, beyond specialist centers, which may be facilitated using digital technology.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33525313",
+            "title": "Ubrogepant to Treat Acute Migraine in Adults.",
+            "authors": [
+              "Edinoff Amber N",
+              "Casey C Austin",
+              "Colon Marc A",
+              "Zaheri Alexa R",
+              "Gregoire Courtney M"
+            ],
+            "journal": "Neurology international",
+            "year": "2021",
+            "abstract": "Migraine is a neurobiological headache disorder that affects around 16% of adults in the United States. Medical treatment of mild to moderate migraines include non-prescription non-steroidal anti-inflammatory drugs, acetaminophen, or aspirin and caffeine-containing combination analgesics. Additionally, moderate to severe migraines and those that are mild to moderate that have not responded to analgesics can be treated with triptans, which are drugs specific for migraine treatment. Non-pharmacolo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10448545",
+            "title": "Efficacy and safety of intravenous acetylsalicylic acid lysinate compared to subcutaneous sumatriptan and parenteral placebo in the acute treatment of migraine. A double-blind, double-dummy, randomized, multicenter, parallel group study. The ASASUMAMIG Study Group.",
+            "authors": [
+              "Diener H C"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1999",
+            "abstract": "Two-hundred-and-seventy-eight patients with acute migraine attacks with or without aura were treated in 17 centers with 1.8 g lysine acetylsalicylate i.v. (Aspisol; = 1 g acetylsalicylic acid), 6 mg sumatriptan s.c. or placebo using a double-blind, double-dummy, randomized, multicenter parallel group study design. Two-hundred-and-seventy-five of them fulfilled the criteria for efficacy analysis, corresponding to 119 patients treated with lysine acetylsalicylate (L-ASA), 114 with sumatriptan and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19455281",
+            "title": "Atrial septal defect closure and migraine with aura: is there a correlation?",
+            "authors": [
+              "Castellini Paola",
+              "Lambru Giorgio",
+              "Manzoni Gian Camillo",
+              "Torelli Paola"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2009",
+            "abstract": "Recently, some authors detected increased frequency or new onset of migraine with aura (MA) after atrial septal defect (ASD) closure. We report the effects of ASD closure on the occurrence of MA in three patients of Parma Headache Centre. Two of them developed MA after the procedure one had a worsening of pre-existing MA. The increased frequency or the de novo onset of MA after ASD closure may be related to the alteration of some physiological variables that play a central role in the physiopath",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偏頭痛先兆（尤其腦幹先兆）涉及皮質擴散性抑制（CSD）和三叉神經血管活化。血小板在 CSD 觸發中扮演角色：血小板活化釋放血清素可觸發三叉神經末梢，TXA2 亦可促進顱內血管收縮。ASA 透過 TXA2 抑制可減少血小板介導的三叉神經活化，理論上具預防先兆型偏頭痛的潛力。此外腦幹先兆型偏頭痛與缺血性腦中風風險相關，ASA 的抗血栓效益可提供附加保護。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.9959108829498292,
+        "rank": 5695
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "蠕蟲狀皮膚萎縮（Atrophoderma vermiculata）為罕見遺傳性角化症，屬毛周角化異型，主要由毛囊漏斗部角化栓塞引起，與炎症、免疫機制相關性尚不明確。ASA 的抗炎機制在理論上可能與部分毛囊炎症有關，但目前無任何臨床或文獻證據支持 ASA 用於此適應症。TxGNN 預測分數高（0.996）可能反映知識圖譜中「皮膚炎症」節點的拓撲相似性，而非生物學相關性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn": {
+        "score": 0.994496762752533,
+        "rank": 6923
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眉毛鱗狀毛囊角化症（Ulerythema ophryogenesis）為罕見毛周角化症，以眉部鱗狀紅斑和毛囊萎縮為特徵，常與其他發育綜合症（如 Noonan 症候群）相關。其病理機制以毛囊角化失常為主，ASA 的 COX 抑制機轉對此適應症無明確理論依據。與 atrophoderma vermiculata 類似，此預測結果極可能為知識圖譜節點相似性造成的偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn": {
+        "score": 0.9940815567970276,
+        "rank": 7317
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1615493",
+            "title": "Hereditary heparin cofactor II deficiency and coronary artery disease.",
+            "authors": [
+              "Matsuo T",
+              "Kario K",
+              "Sakamoto S",
+              "Yamada T",
+              "Miki T"
+            ],
+            "journal": "Thrombosis research",
+            "year": "1992",
+            "abstract": "We here present a Japanese family with type I hereditary heparin cofactor II (HC II) deficiency. The propositus (a 61-year-old man) suffered from angina pectoris and coronary artery disease was confirmed by coronary angiography. He underwent percutaneous transluminal coronary angioplasty (PTCA) four times in one year. Combined use of heparin, aspirin, and nitrates could not prevent the return of his symptoms and restenosis of segment 6 of the left anterior descending artery. His HC II activity a",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2214444",
+            "title": "[Right ventricular thrombosis due to familial heparin cofactor II deficiency].",
+            "authors": [
+              "Nagae N",
+              "Watanabe T",
+              "Miura M",
+              "Minowa T",
+              "Hirooka S"
+            ],
+            "journal": "Kyobu geka. The Japanese journal of thoracic surgery",
+            "year": "1990",
+            "abstract": "This case report was with regard to familial heparin cofactor II (HC II) deficiency. The patient was a 14-years-old female, having complaints of chest pain, fever and swelling of right lower extremity. Echocardiography and DSA showed a pediculated mass at the right ventricular outflow tract which highly suggested a ventricular myxoma. At surgery, a large pediculated thrombus was removed from the RV conus septum aun pulmonary valve. The mass was identified as thrombus by histological examination.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1440517",
+            "title": "Congenital protein C deficiency and myocardial infarction:concomitant factor VII hyperactivity may play a role in the onset of arterial thrombosis.",
+            "authors": [
+              "Kario K",
+              "Matsuo T",
+              "Tai S",
+              "Sakamoto S",
+              "Yamada T"
+            ],
+            "journal": "Thrombosis research",
+            "year": "1992",
+            "abstract": "A 29-year-old man with congenital protein C deficiency and acute myocardial infarction is reported. Four hours after the onset of chest pain, he was treated intravenously with tissue-type plasminogen activator. Subsequent coronary angiography revealed only slight stenosis of the left anterior descending coronary artery without any atherosclerosis. The propositus, his brother, and his mother, showed low levels of both protein C activity and antigen, while plasma thrombomodulin levels were normal.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝素輔因子 II（HCII）為凝血酶的天然抑制劑，缺乏時凝血酶活性升高，血小板活化增強，導致血栓傾向。ASA 可藉由抑制 TXA2 減少血小板聚集，理論上可部分補償 HCII 缺乏的血栓風險；然而 HCII 缺乏的主要問題在凝血酶過度活化，抗血小板治療的效益有限，抗凝血藥（如肝素、DOAC）才是病理邏輯上更直接的治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "txgnn": {
+        "score": 0.9940459728240968,
+        "rank": 7341
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "第五凝血因子過量伴自發性血栓為極罕見的凝血異常。理論上 ASA 可透過抑制血小板 TXA2 減少血小板對第五因子過量環境下的血栓形成貢獻；然而第五因子過量的主要病理為凝血酶生成過旺，需抗凝血藥介入而非抗血小板。目前無文獻或試驗數據支持 ASA 的使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "antithrombin deficiency type 2",
+      "txgnn": {
+        "score": 0.9940111041069032,
+        "rank": 7366
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抗凝血酶缺乏第二型（功能性缺陷）導致血栓素活性增加、凝血酶未受有效抑制。ASA 抗血小板機轉可理論上減少血小板相關血栓形成，但抗凝血酶缺乏的核心病理在凝血酶過度活化（凝血途徑），肝素補充和長期抗凝血治療（DOAC/warfarin）才是主流治療。無任何 ASA 直接用於此適應症的臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.9939910769462584,
+        "rank": 7382
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04939922",
+            "title": "China Headache and Vertigo Registry Study",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 10000,
+            "start_date": "2017-06-12",
+            "completion_date": "2050-12-12",
+            "brief_summary": "In the Chinese Headache and Vertigo Registration Study, patients aged 4-99 years with headache (primary headache and secondary headache such as migraine and tension type headache), vertigo (vertigo diseases such as vestibular migraine) and chronic pain (fibromyalgia and other diseases) were collected. The biomarkers, imaging features, right-to-left shunt of the heart (lung), genetic characteristics, treatment, and outcome (in relation to other diseases) of headache-related diseases were studied,",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "登記性觀察研究（n=10000），並非評估 ASA 療效的介入性試驗；對 ASA 再利用於 TAC 無直接貢獻"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1379152",
+            "title": "Sumatriptan. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic efficacy in the acute treatment of migraine and cluster headache.",
+            "authors": [
+              "Dechant K L",
+              "Clissold S P"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "Sumatriptan is a serotonin1 (5-HT1) receptor agonist, which is effective in the acute treatment of migraine headache. Its antimigraine activity is believed to derive from selective vasoconstriction of cranial blood vessels which are dilated and distended during migraine headache and/or from inhibition of neurogenically mediated inflammation in the dura mater. In placebo-controlled comparative studies, sumatriptan reduced migraine headache from 'moderate or severe' to 'mild or none' within 2 hour",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8536293",
+            "title": "Migraine and cluster headache--their management with sumatriptan: a critical review of the current clinical experience.",
+            "authors": [
+              "Wilkinson M",
+              "Pfaffenrath V",
+              "Schoenen J",
+              "Diener H C",
+              "Steiner T J"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1995",
+            "abstract": "Sumatriptan is a potent and selective agonist at the vascular 5HT1 receptor which mediates constriction of certain large cranial blood vessels and/or inhibits the release of vasoactive neuropeptides from perivascular trigeminal axons in the dura mater following activation of the trigeminovascular system. The mode of action of this drug in migraine and cluster headache is discussed. On the basis of a detailed review of all published trials and available data from post-marketing studies, the effic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7516861",
+            "title": "Sumatriptan. A reappraisal of its pharmacology and therapeutic efficacy in the acute treatment of migraine and cluster headache.",
+            "authors": [
+              "Plosker G L",
+              "McTavish D"
+            ],
+            "journal": "Drugs",
+            "year": "1994",
+            "abstract": "Sumatriptan is a potent and selective agonist at a vascular serotonin1 (5-hydroxytryptamine1; 5-HT1) receptor subtype (similar to 5-HT1D) and is used in acute treatment of migraine and cluster headache. Following administration of sumatriptan 100mg orally, relief of migraine headache (at 2 hours) was achieved in 50 to 67% of patients compared with 10 to 31% with placebo in controlled clinical trials. In a comparative study, oral administration of sumatriptan 100mg consistently achieved significa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1334452",
+            "title": "Sumatriptan: a new drug for vascular headache.",
+            "authors": [
+              "Hsu V D"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1992",
+            "abstract": "The role of serotonin in the pathogenesis of migraine is discussed, and the chemistry, pharmacology, pharmacokinetics, efficacy, adverse effects, and dosage and administration of sumatriptan are reviewed. Sumatriptan, which is structurally related to the neurotransmitter serotonin, is a serotonin type-1-like-receptor agonist that has a selective but heterogeneous effect on the carotid arterial system. Sumatriptan has a rapid onset of action and a large volume of distribution. Its subcutaneous bi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6741135",
+            "title": "Headache--diagnosis and effective management.",
+            "authors": [
+              "Peters K S"
+            ],
+            "journal": "The Western journal of medicine",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3921257",
+            "title": "Concentration and uptake of 5-hydroxytryptamine in platelets from cluster headache and migraine patients.",
+            "authors": [
+              "Waldenlind E",
+              "Ross S B",
+              "Sääf J",
+              "Ekbom K",
+              "Wetterberg L"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1985",
+            "abstract": "Concentrations of 5-hydroxytryptamine (5-HT) in platelets were determined in 33 cluster headache patients (17 males) and in 34 migraine patients (16 males) outside attacks. The 5-HT uptake into platelets was measured and the kinetic constants Vmax and Km determined in 26 cluster patients (14 males) and in 30 migraine patients (13 males). Significantly lower 5-HT concentrations in whole blood were found in cluster headache and migraine patients than in 50 healthy controls (19 males). The Vmax and",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7145460",
+            "title": "Treatment of migraine and cluster headache.",
+            "authors": [
+              "Rose F C",
+              "Peatfield R C"
+            ],
+            "journal": "Panminerva medica",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27861830",
+            "title": "Hemicrania Continua: Beneficial Effect of Non-Invasive Vagus Nerve Stimulation in a Patient With a Contraindication for Indomethacin.",
+            "authors": [
+              "Eren Ozan",
+              "Straube Andreas",
+              "Schöberl Florian",
+              "Schankin Christoph"
+            ],
+            "journal": "Headache",
+            "year": "2017",
+            "abstract": "Hemicrania continua (HC) is a primary chronic headache disorder, characterized by a continuous and strictly unilateral headache, with possible cranial autonomic symptoms during episodes of pain exacerbation. The unilateral headache generally responds well to indomethacin; however, continuous indomethacin intake is often not tolerated due to severe adverse effects, like hypertension, gastrointestinal discomfort (especially if combined with aspirin), slightly increased risk of vascular events, and",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7393781",
+            "title": "Newer drug therapies for headache.",
+            "authors": [
+              "Diamond S",
+              "Medina J L"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17334959",
+            "title": "Dissection of the internal carotid artery mimicking episodic cluster headache.",
+            "authors": [
+              "Hardmeier Matrin",
+              "Gobbi Claudio",
+              "Buitrago Carlos",
+              "Steck Andreas",
+              "Lyrer Philippe"
+            ],
+            "journal": "Journal of neurology",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11368000",
+            "title": "[Aspirin, triptan tablet, nasal spray, injection. Even the most severe migraine capitulates].",
+            "authors": [
+              "Wiedemann B"
+            ],
+            "journal": "MMW Fortschritte der Medizin",
+            "year": "2001",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉自主神經頭痛（TAC，包含叢集性頭痛、陣發性偏頭痛、SUNCT 等）以三叉神經-自主神經反射活化為核心機制。ASA 的潛在機轉為：(1) 血小板 5-HT 釋放與 TAC 疼痛傳導相關（PMID 3921257），(2) 抗炎效益可能減少三叉神經節發炎；但 TAC 的主要治療（舒馬曲坦、維拉帕米、吲哚美辛）機制與 ASA 有根本差異，目前無直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "thrombotic disease",
+      "txgnn": {
+        "score": 0.9914022088050842,
+        "rank": 9481
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02545933",
+            "title": "Adjunctive Vorapaxar Therapy in Patients With Prior Myocardial Infarction Treated With New Generation P2Y12 Receptor Inhibitors Prasugrel and Ticagrelor (VORA-PRATIC): A Prospective, Randomized, Pharmacodynamic Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 130,
+            "start_date": "2016-02",
+            "completion_date": "2020-01",
+            "brief_summary": "Dual antiplatelet therapy (DAPT) with aspirin and a P2Y12 receptor inhibitor represents the standard of care for the long-term secondary prevention of atherothrombotic events in patients with myocardial infarction (MI). However, rates of ischemic recurrences remain high, which may be in part due to the fact that other platelet signaling pathways, such as thrombin-induced platelet aggregation, continue to be activated. Vorapaxar is a protease-activated receptor (PAR)-1 inhibitor, which exerts pot",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "ASA 為對照/背景治療，主要探討 vorapaxar 附加效益，間接確認 ASA 在心肌梗塞後血栓預防的標準角色"
+            }
+          },
+          {
+            "nct_id": "NCT01447498",
+            "title": "Effect of a Systematic Screening for Risk-factors for Ulcer Bleeding Before Post-PCI Anti-thrombotic Treatment",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 2024,
+            "start_date": "2011-04",
+            "completion_date": "2014-05",
+            "brief_summary": "In a prospective randomised study design to investigate, if a systematic risk factor screening for bleeding ulcer in patients, who following percutaneous coronary intervention (PCI) commence a one year combination treatment with low dose aspirin and clopidogrel, followed by prophylactic treatment with a proton pump inhibitor (PPI) in case of increased risk, can reduce the risk of bleeding ulcer. Based on the recently raised suspicion that PPI's, possibly except pantoprazole, reduce the effect of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05821062",
+            "title": "Effect of Antiplatelet Therapies in Patients With Depression and Coronary Disease",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 400,
+            "start_date": "2022-04-14",
+            "completion_date": "2024-02",
+            "brief_summary": "Depression after an acute coronary syndrome (ACS) but also at any time after CAD diagnosis, is highly associated with death, and it predicts mortality more than any other risk factor, comorbidity or follow-up events, suggesting that the standard medical therapy may not be sufficient to prevent the poor prognosis in these patients.\n\nThis study aims to assess whether depression might affect the response to dual antiplatelet therapy (DAPT) as recommended in coronary artery disease (CAD) patients.\n\n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04217447",
+            "title": "Assessment of Quitting Versus Using Aspirin Therapy In Patients Treated With Oral Anticoagulation for Atrial Fibrillation or Other Indication With Stabilized Coronary Artery Disease",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 874,
+            "start_date": "2020-05-25",
+            "completion_date": "2024-10-28",
+            "brief_summary": "* Long-term aspirin (ASA) is the standard recommended antithrombotic therapy in patients with stable coronary artery disease (CAD), especially following stenting (Class I, Level A).\n* Long-term oral anticoagulation (OAC) is the standard antithrombotic therapy in patients with atrial fibrillation (AF) associated with one or more risk factor for stroke (Class I, Level A).\n* During the first year following acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI), several studie",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接評估 ASA 在抗凝治療患者中的血栓預防角色；雖提前終止但屬 Phase 3 設計，直接相關性最高"
+            }
+          },
+          {
+            "nct_id": "NCT06339021",
+            "title": "Evaluation of Neointimal Coverage After Guiding De-escalation of Antiplatelet Treatment in Patients With ST-elevation Myocardial Infarction Undergoing Percutaneous Coronary Intervention by Optical Coherence Tomography or Angiography of STEMI Patients",
+            "phase": "EARLY_PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2024-04-01",
+            "completion_date": "2026-12-01",
+            "brief_summary": "Optical coherence tomography (OCT) offers a high-resolution intravascular imaging modality to accurately assess vessel and lumen geometry and identify the hallmark of a culprit lesion including plaque disruption and thrombus. In addition, the incorporation of the MLD MAX algorithm into daily practice guides an efficient and easily-memorable workflow for optimized OCT-guided percutaneous coronary intervention (PCI) with drug-eluting stents (DES). Regarding the antithrombotic therapy after revascu",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02118870",
+            "title": "Randomized Evaluation of Short-term DUal Anti Platelet Therapy in Patients With Acute Coronary Syndrome Treated With the COMBO Dual-therapy stEnt",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 1500,
+            "start_date": "2014-06-10",
+            "completion_date": "2018-09",
+            "brief_summary": "Background:\n\nThe optimal duration of dual antiplatelet therapy in ACS patients treated with DES is still under debate. This is especially true for STEMI patients in the era of new anticoagulants and antiplatelet agents. Yet, the potential benefits of longterm dual antiplatelet therapy in avoiding thrombotic complications may be clearly counterbalanced by a higher risk of major bleeding complications. In particular, the COMBO dual therapy stent, being associated with early re-endothelization, may",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 完成試驗，直接測試 ASA 為基礎之雙重抗血小板策略於 ACS（血栓疾病）中的療效，高度相關"
+            }
+          },
+          {
+            "nct_id": "NCT02672566",
+            "title": "Low-molecular-weight Heparin in Constituted Vascular Intrauterine Growth Restriction. Randomized Multicenter Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 82,
+            "start_date": "2016-07-22",
+            "completion_date": "2020-01-22",
+            "brief_summary": "Intrauterine growth restriction (IUGR) is correlated to an abnormal placenta development, with an alteration of the maternal-fetal circulation, coagulation troubles, and apparition of placental infarcts. IUGR represents the third cause of perinatal mortality in France, and is associated to an important morbidity. For birth-weights \\< 10th percentile of the gestational age, the neonatal death risk is doubled, compared to abnormal weights. In 35% of cases, IUGR is of vascular origin and is include",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03039205",
+            "title": "Evaluation of Platelet Aggregation and Adenosine Levels in Patients With Coronary Artery Disease and Chronic Kidney Dysfunction Taking Dual Antiplatelet Therapy With Aspirin and Clopidogrel or Ticagrelor",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2017-11-07",
+            "completion_date": "2019-12-19",
+            "brief_summary": "About 35% of patients hospitalized with Acute Coronary Syndromes (ACS) have some degree of renal dysfunction. Chronic kidney disease (CKD) is not only associated to worse prognosis in ACS patients, but leads also to an increased risk of bleeding, which may importantly influence the risk-benefit ratio of antiplatelet therapy in this population. The responsible mechanisms for increased rate of ischemic events in this population are not completely elucidated.\n\nAntiplatelet therapy is of paramount i",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "ASA 治療下評估血小板聚集機制，提供 ASA 抗血栓機制支持數據"
+            }
+          },
+          {
+            "nct_id": "NCT03120182",
+            "title": "Impact of Perioperative Maintenance or Interruption of Low-dose Aspirin on Recurrence Rate and Thrombotic Events After Burr-hole Drainage of Chronic Subdural Hematoma: a Randomized, Placebo Controlled, Double Blinded Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2018-02-19",
+            "completion_date": "2023-12-31",
+            "brief_summary": "The aim of this randomized, blinded, placebo controlled clinical study is to compare the peri- and postoperative bleeding and cardiovascular complication rates of patients undergoing burr-hole trepanation for chronic subdural hematoma with and without discontinuation of low-dose aspirin",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估周術期 ASA 中斷對血栓復發率的影響，間接支持 ASA 持續治療的必要性"
+            }
+          },
+          {
+            "nct_id": "NCT01186146",
+            "title": "Optimal Duration of Clopidogrel Therapy After Drug-Eluting Stent Implantation to Reduce Late Coronary Arterial Thrombotic Events",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 5000,
+            "start_date": "2010-08",
+            "completion_date": "2013-10",
+            "brief_summary": "This is randomized-controlled trial to evaluate the difference of composite of cardiac death, myocardial infarction, or Stroke between the dual antiplatelet therapy group and the aspirin monotherapy group after 1-year of drug-eluting stents implantation.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "最大規模完成試驗（n=5000），ASA 為標準背景治療，評估 DES 後血栓預防策略，支持 ASA 在支架血栓預防的核心地位"
+            }
+          },
+          {
+            "nct_id": "NCT06638151",
+            "title": "Clopidogrel Plus Aspirin in Acute Ischemic Stroke Following Thrombectomy and/or Intravenous Thrombolysis (CoPrime): A Randomized Pilot Study",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2025-09-02",
+            "completion_date": "2027-03-31",
+            "brief_summary": "Stroke is a common cause of disability. The most common type of stroke, an ischemic stroke, is caused by a blood vessel in the brain getting blocked by a clot. When this happens, part of the brain is damaged because it is not getting the blood supply it needs. To treat this type of stroke, doctors give medication and/or do a procedure to remove the blockage and restore blood supply to the brain.\n\nUnfortunately, patients who have had an ischemic stroke are at higher risk of having another ischemi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03695159",
+            "title": "The Perioperative Management of Anti-thrombotic Drug Registry",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 288,
+            "start_date": "2018-01-31",
+            "completion_date": "2020-04-16",
+            "brief_summary": "The purpose of the study is to investigate contemporary antiplatelet therapy management of patients referred for non-cardiac and cardiac surgical procedures while on chronic therapy with antiplatelet and/or anticoagulant drugs. These medications are routinely prescribed to patients following percutaneous coronary interventions (PCI), known diagnosis of atrial fibrillation, prosthetic heart valves, transcatheter aortic valve procedures, pulmonary embolism, deep vein thrombosis, peripheral artery ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01383304",
+            "title": "Is a Reduced Biochemical Response to Aspirin Associated With Increased Cardiovascular Morbidity and Mortality in High Risk Patients With Coronary Artery Disease?",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 906,
+            "start_date": "2007-11",
+            "completion_date": "2017-01",
+            "brief_summary": "Previous studies indicate that patients with cardiovascular disease have a variable response to aspirin. Despite treatment with aspirin a large number of patients suffer a myocardial infarction. This has given rise to the phenomenon \"aspirin low-responsiveness\". Laboratory aspirin low-responsiveness can be defined as the failure of aspirin to inhibit platelet production of thromboxane A2 or inhibit thromboxane-dependent platelet aggregation. Whether a low platelet response to aspirin results in ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02642419",
+            "title": "Atrial Fibrillation and Ischemic Events With Rivaroxaban in Patients With Stable Coronary Artery Disease Study (AFIRE Study)",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 2200,
+            "start_date": "2015-01",
+            "completion_date": "2017-12",
+            "brief_summary": "In patients with atrial fibrillation (AF) complicated with coronary artery disease (CAD), antiplatelet drugs are commonly used for the prevention of recurrence of stent thrombosis and cardiovascular events in combination with anticoagulant drugs. Based on the observations that the incidence of hemorrhagic complications increased when an antiplatelet drug was administered in combination with vitamin K antagonist (VKA), the guidelines for antithrombotic therapy after PCI in the US and EU recommend",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06002490",
+            "title": "A Phase III b, Single-arm, Multicenter, Optimal Dose Finding Study to Assess the Efficacy and Safety of P1101 in Japanese Patients With Polycythemia Vera (PV).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2023-10-17",
+            "completion_date": "2024-07-26",
+            "brief_summary": "This is a Phase 3 single arm study to investigate efficacy and safety of P1101's rapid titration for adult Japanese patients with PV.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06013020",
+            "title": "Safety and Efficacy of Century Clot-Guided Prophylactic Rivaroxaban Therapy for Post ST-Segment Elevation Myocardial Infarction Complicating Left Ventricular Thrombus Compared With Conventional Antiplatelet Therapy",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 374,
+            "start_date": "2024-04-01",
+            "completion_date": "2027-12-31",
+            "brief_summary": "To manage the ST-segment elevation myocardial infarction (STEMI) caused by plaque rupture, triggers platelet activation/aggregation and thrombin generation, requires dual (platelet and coagulation) pathway inhibition. However, triple antithrombotic therapy with standard dual antiplatelet therapy (DAPT) and oral anticoagulant (OAC) in the STEMI setting is a challenge, since that increase in potential risk of bleeding.\n\nAlthough the incidence of left ventricular thrombus (LVT) formation after STEM",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06478537",
+            "title": "Thrombopoietin Receptor Agonist (TPO-RA) Treatment on Immune Tolerance Induction of ITP Patients With Sustained Platelet Recovery After Treatment Termination",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 56,
+            "start_date": "2024-06-20",
+            "completion_date": "2027-06-20",
+            "brief_summary": "The aim of this study was to observe whether maintaining a high level of platelet count after TPO-RA in patients with primary immune thrombocytopenia (ITP) can induce immune tolerance, develop immune balance in ITP patients, and enable patients to achieve a sustained response (SRoT) after TPO-RA discontinuation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04624854",
+            "title": "Dual Anti-Platelet Therapy in Patients With Coronary Multi-Vessel Disease (DAPT-MVD): A Prospective, Multicenter, Randomized, Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 8250,
+            "start_date": "2020-10-28",
+            "completion_date": "2025-09-23",
+            "brief_summary": "This study is a prospective, multicenter, parallel, open-label, randomized, controlled, superiority trial. It is planned to recruit 8,250 patients with multi-vessel disease(MVD), and the patients will be followed-up for at least 12 months after being implanted with a drug-eluting stent (DES) at one of 100 different centers. All patients will be randomly divided into the treatment group and control group on a 1:1 basis, based on a permuted completely randomization.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03781258",
+            "title": "Safety and Feasibility of Transition to Anti-thrombotic Monotherapy With the HeartMate 3 LVAS: A Multicenter Prospective Controlled Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2018-11-23",
+            "completion_date": "2021-12-31",
+            "brief_summary": "The purpose of this prospective controlled study is to obtain a multi-center safety and feasibility data on patients managed with anti-thrombotic monotherapy with HeartMate 3 LVAS.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01225562",
+            "title": "A Randomized, Double-Blind, Placebo Controlled, Parallel Group, Multinational Trial, to Assess the Prevention of Thrombotic Events With Ticagrelor Compared to Placebo on a Background of Acetyl Salicylic Acid (ASA) Therapy in Patients With History of Myocardial Infarction",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 21379,
+            "start_date": "2010-10",
+            "completion_date": "2014-12",
+            "brief_summary": "This study is being carried out to see if a new drug called ticagrelor given twice daily in addition to the ASA therapy decreases the frequency of cardiovascular events (e.g., death from heart disease, heart attack, or stroke).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03165136",
+            "title": "Prévention Des Fausses Couches Spontanées Répétées Par Hydroxychloroquine. Essai thérapeutique Multicentrique, randomisé, en Double Insu, Contre Placebo",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2017-12-04",
+            "completion_date": "2026-02-01",
+            "brief_summary": "Recurrent miscarriage (RM) defined by \\>=3 consecutive losses affects 1% of fertile couples. Most women have recurrent early loss with a failure of development before 10 weeks' gestation. Standard investigations fail to reveal any apparent cause in \\>50% of couples.\n\nNo study has demonstrated any benefit of any medication in women with Unexplained RM, in the presence or absence of an inherited thrombophilia.\n\nMoreover, the benefit of aspirin and/or heparin has not been proved in women with Antip",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05531474",
+            "title": "Bariatric Surgery for the Reduction of cArdioVascular Events Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2020-11-02",
+            "completion_date": "2027-07-01",
+            "brief_summary": "The primary objective of this study is to evaluate if, in patients with severe obesity (body mass index (BMI) ≥30 kg/m2) and high-risk cardiovascular disease (CVD), bariatric surgery compared to medical weight management (MWM) safely reduces the risk of major cardiovascular events. The cost-effectiveness of bariatric surgery will also be examined. Separate sub-studies will be performed to examine the relationship between bariatric surgery and mental health, cardiac structure and function, genomi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01069003",
+            "title": "EDUCATE: a Prospective, Multi-center Study Designed to Collect Real-world Safety and Clinical Outcomes in Subjects Receiving One or More Endeavor Zotarolimus-Eluting Stents and Either Clopidogrel and Aspirin or Prasugrel and Aspirin as Part of a Dual Antiplatelet Therapy (DAPT) Drug Regimen",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 2272,
+            "start_date": "2010-04",
+            "completion_date": "2014-04",
+            "brief_summary": "EDUCATE is a prospective, multi-center study designed to collect real-world safety and clinical outcomes in subjects receiving one or more Endeavor Zotarolimus-Eluting Stents and either clopidogrel and aspirin or prasugrel and aspirin as part of a dual antiplatelet therapy (DAPT) drug regimen.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04418479",
+            "title": "Clopidogrel Versus Aspirin Monotherapy After Percutaneous Coronary Intervention and Standard Dual Antiplatelet Therapy in Patients At High Risk for Recurrent Ischemic Events",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 5506,
+            "start_date": "2020-08-10",
+            "completion_date": "2024-11-12",
+            "brief_summary": "This study is a prospective, open-label, two-arm, randomized multicenter trial to compare the efficacy and safety of clopidogrel versus aspirin monotherapy beyond the standard duration of dual antiplatelet therapy (DAPT) (more than 12 months for myocardial infarction \\[MI\\] and more than 6 months for non-MI) after percutaneous coronary intervention (PCI) in patients at high risk of recurrent ischemic events.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00089895",
+            "title": "Early Glycoprotein IIb/IIIa Inhibition in Non-ST-segment Elevation Acute Coronary Syndrome: A Randomized, Placebo-Controlled Trial Evaluating the Clinical Benefits of Early Front-loaded Eptifibatide in the Treatment of Patients With Non-ST-segment Elevation Acute Coronary Syndrome (EARLY ACS)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 9406,
+            "start_date": "2004-11-01",
+            "completion_date": "2008-11-01",
+            "brief_summary": "The purpose of this study is to see if early INTEGRILIN® (eptifibatide) therapy in patients with non-ST-segment elevation acute coronary syndrome (ACS) reduces the occurence of death, heart attack and urgent cardiac intervention (surgery) compared to placebo (with delayed provisional use of eptifibatide).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05233124",
+            "title": "A Randomized Controlled Trial of Dual Antiplatelet Therapy Versus Antiplatelet Monotherapy and Oral Anticoagulation in Patients With Acute Coronary Syndrome and Coronary Artery Ectasia: OVER-TIME",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2021-09-01",
+            "completion_date": "2024-07-30",
+            "brief_summary": "The optimal anti-thrombotic therapy to prevent recurrent ischemic events in patients with acute coronary syndrome and coronary artery ectasia (CAE) remains unclear.\n\nOVER-TIME is an investigator initiated, exploratory, open label, single center, randomized clinical trial comparing dual antiplatelet therapy (acetyl-salicylic acid plus a P2Y12 inhibitor) with the combination of an antiplatelet monotherapy (a P2Y12 inhibitor) plus a low dose anticoagulant (rivaroxaban, 15mg oral dose) for the preve",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04434365",
+            "title": "The Study of Berberine Affecting Metabolism, Inflammation Status, Endothelial Function and Thrombotic Events in Patients With Coronary Artery Disease by Remodeling Gut Microbiota",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 24,
+            "start_date": "2019-06-21",
+            "completion_date": "2020-12-30",
+            "brief_summary": "The purpose of this study is to conduct a single-center, randomized, open-label, controlled, dose-escalating, parallel-group study, evaluating the effects and change of endothelial function and gut microbiota after berberine administration in patients with stable coronary artery disease who are at \\> 8 but ≤ 40 weeks after elective percutaneous coronary intervention",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00391872",
+            "title": "A Randomised, Double-blind, Parallel Group, Phase 3, Efficacy and Safety Study of Ticagrelor Compared With Clopidogrel for Prevention of Vascular Events in Patients With Non-ST or ST Elevation Acute Coronary Syndromes (ACS) [PLATO- a Study of PLATelet Inhibition and Patient Outcomes]",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 18624,
+            "start_date": "2006-10",
+            "completion_date": "2009-03",
+            "brief_summary": "Ticagrelor is a new, reversible binding, anti-platelet medication. Anti-platelet medications work to prevent the formation of blood clots. Ticagrelor is being developed as a treatment for patients with acute coronary syndrome (ACS). ACS is a term that is used to describe both heart attacks in progress or the imminent threat of a heart attack. ACS is usually caused by the formation of a blood clot in an artery that partially or totally blocks the blood supply to a portion of the heart muscle. Tic",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05622500",
+            "title": "Best Endovenous Treatment, Including STenting, Versus Non-endovenous Treatment in Chronic Proximal Deep Venous Disease - the BEST Multi-centre Randomised Controlled Trial",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 12,
+            "start_date": "2022-09-03",
+            "completion_date": "2025-04-08",
+            "brief_summary": "Chronic obstruction of the iliac veins or inferior vena cava can occur as a result of deep vein thrombosis (DVT), or due to extrinsic compression in non-thrombotic iliac vein lesions (NIVLs). This obstruction can manifest as post-thrombotic syndrome (PTS) after DVT or as chronic venous disease (CVD) in NIVL. Despite sparse evidence, rates of venous stenting for PTS and NIVLs are increasing.\n\nA pragmatic, observer-blind, multi-centre, randomised-controlled trial for adults with CVD secondary to e",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02285738",
+            "title": "Anti-Platelet and Statin Therapy to Prevent Cancer-Associated Thrombosis: A Pilot Study",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2014-12-30",
+            "completion_date": "2018-10-01",
+            "brief_summary": "This research study examines the safety and feasibility of aspirin with or without Simvastatin in solid tumor patients at risk for VTE (Venous Thromboembolism - or blood clots - in the arms, lets, lungs, or other part of the body). One-fifth of all thrombotic (clotting) events occur in patients that have cancer. Changes in sP-selectin will be used as a measure of efficacy. We have chosen sP-selectin as the primary marker because of its role in hemostasis, because it is predictive of thrombosis i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04703608",
+            "title": "Prevention and Treatment for COVID -19 Associated Severe Pneumonia in The Gambia: a Single-Blinded Randomised Clinical Trial (PaTS-COVID)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 1200,
+            "start_date": "2021-01-22",
+            "completion_date": "2022-07",
+            "brief_summary": "The trial aims to assess the impact of cheap, licenced and widely available investigational products on the natural history of SARS-CoV-2 infection in 2 groups of patients - those with mild or moderate pneumonia (Cohort 1) and those with severe pneumonia (Cohort 2), through randomisation to non-identical placebo or intervention arm.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02260414",
+            "title": "Effects of Injection Tinzaparin Prophylactic Dose (4,500 IU Anti-Xa) on Thrombin Generation in Patients With Multiple Myeloma, Lymphoma Patients and Patients Hospitalized for an Acute Medical Condition.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2015-04-14",
+            "completion_date": "2017-05-09",
+            "brief_summary": "In cancer, the incidence of venous thromboembolism (VTE) is particularly high in patients with myeloma, especially when it is de novo and treated with thalidomide, lenalidomide or erythropoietin. Curiously, the prevention of VTE with LMWH (low-molecular-weight heparin) in myeloma seems no more effective than that achieved with aspirin, while the effectiveness of the latter in the primary prevention of VTE has never been demonstrated regardless of the type of population considered. Meanwhile, a b",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04755387",
+            "title": "EASTYLE (DE-escAlation Strategy for Optimal Ticagrelor Therapy in Acute MYocardiaL Infarction PatiEnts, Prospective, Multicenter, Randomized) Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 2312,
+            "start_date": "2023-03-27",
+            "completion_date": "2028-01-31",
+            "brief_summary": "DAPT de-escalation strategies to reduce bleeding include de-escalation of DAPT intensity (downgrading from potent P2Y12 inhibitor at conventional doses to either clopidogrel or reduced-dose prasugrel) or abbreviation of DAPT duration. The EASTYLE trial will evaluate a hybrid DAPT de-escalation strategy (reduced-dose ticagrelor, followed by aspirin early discontinuation) in AMI patients, compared with a conventional DAPT strategy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04808895",
+            "title": "Multicenter Randomized, Double-blind, Placebo-controlled, Clinical Trial of Acetylsalicylic Acid in the Prevention of Severe SARS-CoV2 Pneumonia in Hospitalised Patients (Asperum)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 204,
+            "start_date": "2021-04-01",
+            "completion_date": "2021-08-31",
+            "brief_summary": "Inflammatory diseases favour the onset of venous thromboembolic events in hospitalized patients. Thromboprophylaxis with a fixed dose of heparin/low molecular weight heparin (LMWH) is recommended if concomitant inflammatory disease. In severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) pneumonia an inflammation-dependent thrombotic process occurs and platelet activation may promote thrombosis and amplify inflammation, as indicated by previous experimental evidence, and the similarities ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04182100",
+            "title": "Phase 2 Single Arm Study of Efficacy and Safety of P1101 for Polycythemia Vera (PV) Patients for Whom the Current Standard of Treatment is Difficult to Apply",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "2019-12-20",
+            "completion_date": "2021-03-08",
+            "brief_summary": "This is a Phase 2 single arm study to investigate efficacy and safety of P1101 for adult Japanese patients with PV.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02901067",
+            "title": "STAT (STatins and Aspirin in Trauma) Trial: A Phase II, Pragmatic, Prospective, Randomized, Double-blind, Adaptive Clinical Trial Examining the Efficacy of Statins and Aspirin in the Reduction of Acute Lung Injury and Venous Thromboembolism in Patients With Fibrinolysis Shutdown",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 43,
+            "start_date": "2017-02-03",
+            "completion_date": "2021-08-01",
+            "brief_summary": "This is a phase II, pragmatic, prospective, randomized, double-blind, adaptive clinical trial examining the efficacy of statins and aspirin in the reduction of acute lung injury and venous thromboembolism in patients with fibrinolysis shutdown.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02384070",
+            "title": "Evaluation of Simplified Anti-Thrombotic Therapy for Coronary Fractional Flow Reserve",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2009-01",
+            "completion_date": "2014-12",
+            "brief_summary": "Despite the routine use of procedural anti-coagulation and anti-platelet therapy for FFR calculation, no study has evaluated the optimal anti-thrombotic regimen in patients undergoing FFR. Therefore, the aim of the Evaluation of Simplified Anti-Thrombotic Therapy for Coronary Fractional Flow Reserve (SMART-FFR) study was to evaluate the safety of using a simplified anti-thrombotic regimen with only upstream dual anti-platelet therapy (DAT) with aspirin and clopidogrel, compared with anticoagulat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03746275",
+            "title": "Xarelto + Acetylsalicylic Acid: Treatment Patterns and Outcomes in Patients With Atherosclerosis. A Non-interventional Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 5798,
+            "start_date": "2018-11-13",
+            "completion_date": "2021-07-13",
+            "brief_summary": "In this study researchers want to gain more information on treatment patterns of patients treated with Xarelto in combination with acetylsalicylic acid (ASA). Both drugs reduce the risk of blood clots via different pathways. The study will enroll adult patients suffering from coronary artery disease (narrowing or blockage of vessels that supply the heart with blood) or peripheral artery disease (narrowing or blockage of vessels that supply the legs or head with blood). The study will focus on in",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01159639",
+            "title": "Dual Antiplatelet Therapy in Patients With Aspirin Resistance Following Coronary Artery Bypass Grafting",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2010-06",
+            "completion_date": "2013-02",
+            "brief_summary": "Reactive platelet hyperactivity following coronary artery bypass grafting (CABG) might lead to thrombotic complications and major ischemic cardiac events. The aim of this study is to evaluate the changes in platelet reactivity following CABG and to clarify a potentially beneficial effect of dual antiplatelet therapy in the group of patients with documented aspirin resistance following CABG. Platelet function will be assessed by multiple electrode aggregometry. Aortocoronary vein graft disease is",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05627375",
+            "title": "Best Antithrombotic Therapy in Patients With Acute Venous ThromboEmbolism While Taking Antiplatelets",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 1400,
+            "start_date": "2023-08-16",
+            "completion_date": "2028-12",
+            "brief_summary": "Venous thromboembolism (VTE) and atherosclerotic cardiovascular disease share common risk factors and frequently coexist in the same patients.\n\nTheir management requires use of antithrombotic agents: anticoagulant therapy (AC) for secondary prevention of VTE recurrence, antiplatelet (AP) for secondary prevention of major adverse ischemic cardiovascular and cerebrovascular event (MACCE) in patients with atherosclerotic cardiovascular disease (coronary artery disease, atherosclerotic cerebrovascul",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04069156",
+            "title": "Antiplatelet Removal and HemocompatIbility EventS With the HeartMate 3 Pump IDE Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 628,
+            "start_date": "2020-07-14",
+            "completion_date": "2023-08-10",
+            "brief_summary": "Prospective, randomized, double-blinded, placebo-controlled clinical investigation of advanced heart failure patients treated with the HM3 with two different antithrombotic regimens: vitamin K antagonist with aspirin versus vitamin K antagonist with placebo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01347580",
+            "title": "A 30 Day International, Randomized, Parallel-group, Double-blind, Placebo-controlled Phase IV Study to Evaluate Efficacy and Safety of Pre-hospital vs. In-hospital Initiation of Ticagrelor Therapy in STEMI Patients Planned for PCI.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 1875,
+            "start_date": "2011-09",
+            "completion_date": "2013-11",
+            "brief_summary": "The aim of this study is to determine whether initiation of ticagrelor as early as in the ambulance setting leads to a rapid reperfusion of the infarct-related artery therefore facilitating the Percutaneous Coronary Intervention (PCI) and optimizing the outcome for the patient.\n\nThe study will assess the efficacy and safety of pre-hospital compared to in-hospital administration of ticagrelor in co-administration with aspirin, on restoring the blood flow in the occluded heart artery and improving",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06915428",
+            "title": "Personalized Toolkit Building a Comprehensive Approach to Resource Optimization and Empowerment in Pregnancy & Beyond (PTBCARE+) A Randomized Controlled Trial (RCT) of Personalized Care for Prenatal Stress Reduction and Preterm Birth Disparities Prevention",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 1228,
+            "start_date": "2026-02-01",
+            "completion_date": "2029-01",
+            "brief_summary": "The goal of this clinical trial is to learn if a personalized prenatal support program \\[(Personalized Toolkit Building a Comprehensive Approach to Resource optimization and Empowerment in Pregnancy \\& Beyond, (PTBCARE+)\\] works to lower stress and lower the risk of early delivery in pregnant individuals at high-risk for delivering preterm. The main question\\[s\\] it aims to answer are:\n\n* Does the PTBCARE+ patient support program lower patient-reported stress levels during pregnancy?\n* Does the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05633810",
+            "title": "COLchicine and Non-enteric Coated Aspirin in the Cardiovascular Outcomes Trial of Patients With Type 2 Diabetes (COLCOT-T2D)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 10000,
+            "start_date": "2022-12-21",
+            "completion_date": "2027-12",
+            "brief_summary": "To evaluate the efficacy and safety of colchicine and non-enteric coated aspirin, combined or alone, to improve cardiovascular outcomes in high-risk patients with type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01166685",
+            "title": "Evaluation of Late Clinical Events After Drug-eluting Versus Bare-metal Stents in Patients at Risk: BAsel Stent Kosten Effektivitäts Trial - PROspective Validation Examination Part II (BASKET-PROVE II)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 2291,
+            "start_date": "2010-04",
+            "completion_date": "2014-05",
+            "brief_summary": "Background:\n\nRetrospective analyses of long-term BASKET findings identified patients with large drug-eluting stents (DES) (\\>2.5mm Stents) as patients at risk for late cardiac death/nonfatal myocardial infarction. In view of new DES with absorbable polymers and new bare metal stents BMS) with thin struts and biocompatible polymers, BP-II will be launched to test their comparative clinical safety up to 12 years if treated with an aspirin/prasugrel combination, since prasugrel halved stent thrombo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04128956",
+            "title": "Aspirin® Plus Rivaroxaban Versus Rivaroxaban Alone for the Prevention of Venous Stent Thrombosis in Patients With Post-thrombotic Syndrome a Multi-center, International, Randomized, Open Label, Controlled Trial",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 172,
+            "start_date": "2020-03-11",
+            "completion_date": "2024-02-21",
+            "brief_summary": "To show if a combination therapy of rivaroxaban plus Aspirin® is more efficient (superiority testing) as rivaroxaban alone in the prevention of early venous stent thrombosis in patients suffering from post-thrombotic syndrome in the first 6 months following endovascular therapy To demonstrate tolerability of combination therapy of Aspirin® plus rivaroxaban in long-term treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02504216",
+            "title": "An International, Multicenter, Randomized, Double-blind, Placebo-controlled Phase 3 Trial Investigating the Efficacy and Safety of Rivaroxaban to Reduce the Risk of Major Thrombotic Vascular Events in Patients With Symptomatic Peripheral Artery Disease Undergoing Lower Extremity Revascularization Procedures",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 6564,
+            "start_date": "2015-08-18",
+            "completion_date": "2020-01-09",
+            "brief_summary": "The purpose of study was to test whether rivaroxaban added to standard of care treatment, when compared to placebo, had the potential to reduce the incidence of the clinical events related to the clots and complications of the heart and brain (CV death, MI, or stroke) or the legs (acute limb ischemia or major amputation) in patients who had undergone recent procedure(s) to improve the blood flow of their legs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03331666",
+            "title": "Impact of LDL-cholesterol Lowering on Platelet Activation",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2018-11-16",
+            "completion_date": "2020-02-04",
+            "brief_summary": "The primary goal is to assess the impact of Evolocumab therapy on platelet function of familial hypercholesterolemia (FH) patients in a randomized, double blind study. Evolocumab is a humanized monoclonal antibody that targets circulating PCSK9, increases hepatic LDL receptor, decreases plasma LDL cholesterol and reduces risk of cardiovascular events. Evolocumab (brand name Rapatha) has been approved by FDA along with diet and maximally tolerated statin therapy in adults with FH or atherosclerot",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05995600",
+            "title": "Comparison of Clopidogrel-based Antiplatelet Therapy Versus Warfarin As Secondary Prevention Strategy for AntiPhospholipid Syndrome-related STROKE (APS-STROKE)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2024-02-20",
+            "completion_date": "2029-03",
+            "brief_summary": "Antiphospholipid syndrome (APS) has a close association with ischemic stroke; however, the optimal treatment strategy for APS-related stroke has yet to be established. The clinical guidelines suggest using warfarin for APS-related stroke, but these suggestions are largely based on retrospective studies from the 1990s and expert opinion, rather than high-quality clinical trials. Moreover, the evidence on the role of antiplatelet drugs other than aspirin (e.g., clopidogrel) in APS-related stroke i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00465218",
+            "title": "\"Transcranial Doppler Assessment of Cerebral Embolization During Early Anti-thrombotic Therapy After Bioprosthetic Aortic Valve Replacement: Comparison of High-dose Aspirin Versus Warfarin Plus Low-dose Aspirin\"",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 56,
+            "start_date": "2007-03",
+            "completion_date": "2011-03",
+            "brief_summary": "The purpose of this study is to determine if there is any difference in the counts of cerebral emboli and platelet function between two prophylactic treatments of thrombosis currently used at University of Ottawa Heart Institute for the first three months after surgery in low-risk patients undergoing aortic valve replacement with a bioprosthetic valve: 1) daily use of high-dose aspirin \\[325 mgs\\], and 2) the combination of oral Warfarin \\[target INR 2.0 to 3.0\\] and low-dose aspirin \\[81 mg\\].",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29321641",
+            "title": "Antiphospholipid syndrome.",
+            "authors": [
+              "Schreiber Karen",
+              "Sciascia Savino",
+              "de Groot Philip G",
+              "Devreese Katrien",
+              "Jacobsen Soren"
+            ],
+            "journal": "Nature reviews. Disease primers",
+            "year": "2018",
+            "abstract": "Antiphospholipid syndrome (APS) is an autoimmune disease characterized by the presence of antiphospholipid antibodies, such as lupus anticoagulant, anticardiolipin antibodies and anti-β2-glycoprotein 1 antibodies. APS can present with a variety of clinical phenotypes, including thrombosis in the veins, arteries and microvasculature as well as obstetrical complications. The pathophysiological hallmark is thrombosis, but other factors such as complement activation might be important. Prevention of",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22315272",
+            "title": "Antithrombotic and thrombolytic therapy for valvular disease: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.",
+            "authors": [
+              "Whitlock Richard P",
+              "Sun Jack C",
+              "Fremes Stephen E",
+              "Rubens Fraser D",
+              "Teoh Kevin H"
+            ],
+            "journal": "Chest",
+            "year": "2012",
+            "abstract": "Antithrombotic therapy in valvular disease is important to mitigate thromboembolism, but the hemorrhagic risk imposed must be considered.",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33928791",
+            "title": "Could Low Doses Acetylsalicylic Acid Prevent Thrombotic Complications in COVID-19 Patients?",
+            "authors": [
+              "Cacciapuoti Federico",
+              "Cacciapuoti Fulvio"
+            ],
+            "journal": "Clinical and applied thrombosis/hemostasis : official journal of the International Academy of Clinical and Applied Thrombosis/Hemostasis",
+            "year": "2021",
+            "abstract": "Severe Acute Respiratory Syndrome-Coronavirus-2 (SARS-CoV-2) can induce inflammatory and thrombotic complications of pulmonary district (interstitial pneumonia), sometimes evolving toward acute respiratory failure. In adults, Acetylsalicylic Acid (ASA) is widely employed at low doses for primary and secondary prevention of cardiovascular diseases (CVD). Apart their anti-thrombotic effect, low ASA doses also exert an anti-inflammatory action. So, when these are assumed for CVD prevention, could p",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25597592",
+            "title": "Individualized antithrombotic therapy.",
+            "authors": [
+              "Lüscher T F",
+              "Steffel J"
+            ],
+            "journal": "Hamostaseologie",
+            "year": "2016",
+            "abstract": "Clot formation in the circulation is a physiological mechanism preventing bleeding at sites of loss of vascular integrity. Clot formation may also occur intravascularly under pathological conditions, e.g. leading to myocardial infarction, stroke, and critical limb ischaemia. Clot formation involves activation of the coagulation cascade and of platelets eventually leading to an occlusive clot. In the venous circulation, clots are rich in erythrocytes and fibrin, while in the arterial circulation ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32187042",
+            "title": "Treatment of thrombotic antiphospholipid syndrome in adults and children.",
+            "authors": [
+              "Madison Jacqueline A",
+              "Duarte-García Alí",
+              "Zuo Yu",
+              "Knight Jason S"
+            ],
+            "journal": "Current opinion in rheumatology",
+            "year": "2020",
+            "abstract": "Antiphospholipid syndrome (APS), more common than once believed, is an autoimmune disease best known for its high risk of incident and recurrent thrombotic events. The approach to treatment potentially differs from treatment of thrombosis in the general population, and this article endeavors to review the latest updates on this topic.",
+            "classification": {
+              "study_type": "Review/Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32141628",
+            "title": "Antiplatelet therapies in diabetes.",
+            "authors": [
+              "Sagar R C",
+              "Naseem K M",
+              "Ajjan R A"
+            ],
+            "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+            "year": "2020",
+            "abstract": "Cardiovascular complications remain the main cause of mortality and morbidity in diabetes. This is related to advanced vascular pathology in this population, together with an enhanced thrombotic environment. The increased risk in thrombosis is secondary to platelet hyper-reactivity and increased levels and/or altered activity of coagulation factors. The current review is focused on the role of antiplatelet agents in modulating the thrombotic milieu in diabetes and improving vascular outcome in t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35170216",
+            "title": "Prevention of arterial and venous thrombotic events in symptomatic peripheral arterial disease patients after lower extremity revascularization in the VOYAGER PAD trial: Dual anticoagulant/antiplatelet regimen vs antiplatelet therapy alone.",
+            "authors": [
+              "Berkowitz Scott D",
+              "Bauersachs Rupert M",
+              "Szarek Michael",
+              "Nehler Mark R",
+              "Debus E Sebastian"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2022",
+            "abstract": "Vascular disease burden after lower extremity revascularization (LER) comprises more than the first event, more vascular beds than the local arteries, and more than one clinical event type.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35570383",
+            "title": "A Review of the Role of the Antiplatelet Drug Ticagrelor in the Management of Acute Coronary Syndrome, Acute Thrombotic Disease, and Other Diseases.",
+            "authors": [
+              "Tao Luyuan",
+              "Ren Shijia",
+              "Zhang Li",
+              "Liu Wenhua",
+              "Zhao Yi"
+            ],
+            "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+            "year": "2022",
+            "abstract": "P2Y12 inhibitors, including aspirin, are key components of dual-antiplatelet therapy (DAPT), which is the optimal therapeutic strategy for preventing arterial thrombosis in patients with acute coronary syndromes (ACS) who underwent stent implantation. Ticagrelor is a cyclopentyl-triazole pyrimidine antiplatelet drug that was the first reversible oral P2Y12 receptor antagonist. Compared with clopidogrel, ticagrelor exerts a faster onset and offset of function by reversible and selective inhibitio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31287415",
+            "title": "Management of maternal antiphospholipid syndrome.",
+            "authors": [
+              "Fernandes Melissa Alexandre",
+              "Gerardi Maria Chiara",
+              "Andreoli Laura",
+              "Tincani Angela"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "2020",
+            "abstract": "Antiphospholipid syndrome (APS) is a systemic autoimmune disease which manifests as thrombotic and/or obstetric adverse events, mediated by persistent circulating antiphospholipid antibodies (aPL) detected by means of three tests: lupus anticoagulant, anticardiolipin and anti β2-glycoprotein I antibodies. It can be isolated or associated with other autoimmune rheumatic diseases. During pregnancy, patients with APS have a higher risk of obstetric complications and a higher thrombotic risk due to ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34328635",
+            "title": "Acetylsalicylic Acid Compared with Enoxaparin for the Prevention of Thrombosis and Mechanical Ventilation in COVID-19 Patients: A Retrospective Cohort Study.",
+            "authors": [
+              "Abdelwahab Heba Wagih",
+              "Shaltout Shaker Wagih",
+              "Sayed Ahmed Hazem A",
+              "Fouad Ahmed Mahmoud",
+              "Merrell Eric"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2021",
+            "abstract": "Low-dose acetylsalicylic acid (ASA, aspirin) is a well-known and frequently studied drug for primary and secondary prevention of disease due to its anti-inflammatory and coagulopathic effects. COVID-19 complications are attributed to the role of thrombo-inflammation. Studies regarding the use of low-dose ASA in COVID-19 are limited. For this reason, we propose that the use of low-dose ASA may have protective effects in COVID-19-related thromboembolism and lung injury. This study was conducted to",
+            "classification": {
+              "study_type": "Comparative Study/RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39431716",
+            "title": "How to treat patients with thrombotic antiphospholipid syndrome in 2024?",
+            "authors": [
+              "Jurcut Ciprian",
+              "Caraiola Simona",
+              "Radin Massimo",
+              "Sciascia Savino"
+            ],
+            "journal": "Polish archives of internal medicine",
+            "year": "2024",
+            "abstract": "Antiphospholipid syndrome (APS) encompasses a range of clinical conditions, particularly thrombotic or obstetrical manifestations, associated with the presence of antiphospholipid antibodies. Managing thrombotic APS in daily clinical practice can be challenging and requires thorough risk stratification and tailored treatment strategies. Primary prophylaxis focuses on correcting the traditional thrombotic risk factors and, in certain situations, may include low‑dose aspirin and / or prophylactic ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32866112",
+            "title": "Comparison of acetylsalicylic acid and clopidogrel non-responsiveness assessed by light transmittance aggregometry and PFA-100® in patients undergoing neuroendovascular procedures.",
+            "authors": [
+              "Rolling Christina C",
+              "Tomada Julia",
+              "Frölich Andreas M",
+              "Holst Brigitte",
+              "Holstein Katharina"
+            ],
+            "journal": "Clinical chemistry and laboratory medicine",
+            "year": "2020",
+            "abstract": "Dual platelet inhibition is commonly used for prevention of cardiovascular events in patients undergoing neuroendovascular procedures. Non-responsiveness to platelet inhibitors may be associated with adverse outcomes. The aim of this study was to evaluate the reliability of the platelet function analyzer PFA-100® in comparison to light transmittance aggregometry (LTA) for monitoring clopidogrel and acetylsalicylic acid (ASA) non-responsiveness in a cohort of patients treated for intracranial ane",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9077376",
+            "title": "Inflammation, aspirin, and the risk of cardiovascular disease in apparently healthy men.",
+            "authors": [
+              "Ridker P M",
+              "Cushman M",
+              "Stampfer M J",
+              "Tracy R P",
+              "Hennekens C H"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1997",
+            "abstract": "Inflammation may be important in the pathogenesis of atherothrombosis. We studied whether inflammation increases the risk of a first thrombotic event and whether treatment with aspirin decreases the risk.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32092505",
+            "title": "Xarelto plus Acetylsalicylic acid: Treatment patterns and Outcomes in patients with Atherosclerosis (XATOA): Rationale and design of a prospective registry study to assess rivaroxaban 2.5 mg twice daily plus aspirin for prevention of atherothrombotic events in coronary artery disease, peripheral artery disease, or both.",
+            "authors": [
+              "Fox Keith A A",
+              "Anand Sonia S",
+              "Aboyans Victor",
+              "Cowie Martin R",
+              "Debus E Sebastian"
+            ],
+            "journal": "American heart journal",
+            "year": "2020",
+            "abstract": "Patients with coronary artery disease (CAD), peripheral artery disease (PAD), or both remain at risk of cardiovascular events (including peripheral ischemic events), even when they receive the current guideline-recommended treatment. The phase III COMPASS trial demonstrated that treatment with rivaroxaban vascular dose 2.5 mg twice daily plus aspirin (dual pathway inhibition [DPI] regimen) significantly reduced the risk of major adverse cardiovascular events (including peripheral ischemic events",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "382146",
+            "title": "Antiplatelet drugs in thromboembolism.",
+            "authors": [
+              "Hirsh J"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "1979",
+            "abstract": "Evidence is mounting that three drugs that inhibit platelet function--aspirin, dipyridamole, and sulfinpyrazine--have an antithrombotic effect in humans. Particularly in men, aspirin is beneficial in controlling transient ischemic attacks and stroke, and there is evidence that it may be effective in preventing thrombotic and embolic complication of hip surgery. It abolishes symptoms in peripheral ischemia associated with thrombocytosis and spontaneous platelet aggregation and may prove effective",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35000048",
+            "title": "COX-1, COX-2 and CYP2C19 variations may be related to cardiovascular events due to acetylsalicylic acid resistance.",
+            "authors": [
+              "Kirac Deniz",
+              "Yaman Aysun Erdem",
+              "Doran Tansu",
+              "Mihmanli Mujgan",
+              "Keles Elif Cigdem"
+            ],
+            "journal": "Molecular biology reports",
+            "year": "2022",
+            "abstract": "In some stent implanted patients, cardiovascular events (CE) may occur. Acetylsalicylic acid (ASA) is routinely administered to these patients in order to prevent the occurrence of CE. CE may be related to gene variations which cause ASA resistance (AR). Therefore, it was aimed to investigate the relationship between COX-1, COX-2, CYP2C9 and CYP2C19 variations with CE due to AR.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "379914",
+            "title": "The role of platelets in thrombotic and vascular disease.",
+            "authors": [
+              "Schafer A I",
+              "Handin R I"
+            ],
+            "journal": "Progress in cardiovascular diseases",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19452405",
+            "title": "Platelet function and response to aspirin: gender-specific features and implications for female thrombotic risk and management.",
+            "authors": [
+              "Zuern Christine S",
+              "Lindemann Stephan",
+              "Gawaz Meinrad"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2009",
+            "abstract": "This article reviews gender-specific differences in platelet function and response to aspirin. In contrast with men, women under 65 years of age do not benefit from aspirin therapy in primary prevention of coronary artery disease. Furthermore, the overall mortality after myocardial infarction is higher among women, which cannot simply be explained by age or individual treatment. Platelets play a central role in thrombo-ischemic events leading to myocardial infarction and ischemic stroke. Gender ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26942726",
+            "title": "Laboratory assessment of anti-thrombotic therapy in heart failure, atrial fibrillation and coronary artery disease: insights using thrombelastography and a micro-titre plate assay of thrombogenesis and fibrinolysis.",
+            "authors": [
+              "Lau Y C",
+              "Xiong Q",
+              "Ranjit P",
+              "Lip G Y H",
+              "Blann A D"
+            ],
+            "journal": "Journal of thrombosis and thrombolysis",
+            "year": "2016",
+            "abstract": "As heart failure, coronary artery disease and atrial fibrillation all bring a risk of thrombosis, anti-thrombotic therapy is recommended. Despite such treatment, major cardiovascular events such as myocardial infarction and stroke still occur, implying inadequate suppression of thrombus formation. Accordingly, identification of patients whose haemostasis remains unimpaired by treatment is valuable. We compared indices for assessing thrombogenesis and fibrinolysis by two different techniques in p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38608997",
+            "title": "Rationale and design for the randomized placebo-controlled double-blind trial studying the effect of single antiplatelet therapy (clopidogrel) versus dual antiplatelet therapy (clopidogrel/acetylsalicylic acid) on the occurrence of atherothrombotic events following lower extremity peripheral transluminal angioplasty (CLEAR-PATH).",
+            "authors": [
+              "Wegerif Emilien C J",
+              "Ünlü Çağdaş",
+              "Generaal Manon I",
+              "van den Bor Rutger M",
+              "van de Ven Peter M"
+            ],
+            "journal": "American heart journal",
+            "year": "2024",
+            "abstract": "Antiplatelet therapy (APT) is the standard of care after endovascular revascularization (EVR) in patients with peripheral artery disease (PAD). APT aims to prevent both major adverse cardiovascular events (MACE) and major adverse limb events (MALE). Nonetheless, the rates of MACE and MALE after EVR remain high. In coronary artery and cerebrovascular disease, dual APT (DAPT)compared to acetylsalicylic acid alone has been proven to reduce MACE without increasing the risk of major bleeding when app",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ASA 不可逆抑制 COX-1，阻斷 TXA2 合成，抑制血小板活化與聚集，為動脈血栓預防的核心機制。大量 Phase 3/4 RCT（ACS、PCI 後雙重抗血小板、APL 症候群）直接支持此適應症，是 ASA 最核心已確立的臨床用途。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "thrombophilia",
+      "txgnn": {
+        "score": 0.990411341190338,
+        "rank": 10230
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05318547",
+            "title": "Assessing Women's Preferences for Postpartum Thromboprophylaxis: the PREFER-PostPartum",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 52,
+            "start_date": "2022-05-13",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The risk of venous thromboembolism (VTE), which consists of deep vein thrombosis (DVT) and pulmonary embolism (PE), increases during pregnancy and most strikingly in the postpartum period (6 weeks after delivery). Extensive research efforts have led to the identification of many risk factors for VTE events. Examples of such factors include maternal characteristics (personal history of VTE, thrombophilia, obesity, race) and obstetrical characteristics (methods of delivery, pre-term delivery, grow",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04466670",
+            "title": "Dynamics of Hemostatic Parameters in COVID-19 and Comparison of Intervention Strategies Through Adaptive Clinical Trial",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 379,
+            "start_date": "2020-07-11",
+            "completion_date": "2022-05-30",
+            "brief_summary": "Hypercoagulability has been demonstrated in COVID-19, leading to respiratory distress and increased mortality. This is an adaptive clinical trial to compare the efficacy and safety of two experimental strategies in patients with COVID-19: ASA or inhaled UFH associated with standard VTE prophylaxis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06013020",
+            "title": "Safety and Efficacy of Century Clot-Guided Prophylactic Rivaroxaban Therapy for Post ST-Segment Elevation Myocardial Infarction Complicating Left Ventricular Thrombus Compared With Conventional Antiplatelet Therapy",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 374,
+            "start_date": "2024-04-01",
+            "completion_date": "2027-12-31",
+            "brief_summary": "To manage the ST-segment elevation myocardial infarction (STEMI) caused by plaque rupture, triggers platelet activation/aggregation and thrombin generation, requires dual (platelet and coagulation) pathway inhibition. However, triple antithrombotic therapy with standard dual antiplatelet therapy (DAPT) and oral anticoagulant (OAC) in the STEMI setting is a challenge, since that increase in potential risk of bleeding.\n\nAlthough the incidence of left ventricular thrombus (LVT) formation after STEM",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00749710",
+            "title": "Blood Loss and Complications of Internal Fixation of Femoral Neck Fractures in Patients Treated With Clopidogrel",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2008-09",
+            "completion_date": "2012-12",
+            "brief_summary": "Patients suffering from femoral neck or pertrochanteric fractures have a high rate of mortality and morbidity associated mainly with deconditioning and immobilization. Surgical management including open reduction and internaql fixation has been shown to reduce complication and improve outcome in such patients. Delay of surgery produces less optimal results and is associated with higher morbidity even after 24-48 hours of fracture event.\n\nPatients treated with platelet antiaggregants are exposed ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03165136",
+            "title": "Prévention Des Fausses Couches Spontanées Répétées Par Hydroxychloroquine. Essai thérapeutique Multicentrique, randomisé, en Double Insu, Contre Placebo",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2017-12-04",
+            "completion_date": "2026-02-01",
+            "brief_summary": "Recurrent miscarriage (RM) defined by \\>=3 consecutive losses affects 1% of fertile couples. Most women have recurrent early loss with a failure of development before 10 weeks' gestation. Standard investigations fail to reveal any apparent cause in \\>50% of couples.\n\nNo study has demonstrated any benefit of any medication in women with Unexplained RM, in the presence or absence of an inherited thrombophilia.\n\nMoreover, the benefit of aspirin and/or heparin has not been proved in women with Antip",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估 HCQ 而非 ASA，但研究族群（反覆流產/血栓性素質）與 ASA 適應症重疊，可提供疾病背景資訊"
+            }
+          },
+          {
+            "nct_id": "NCT04363840",
+            "title": "The LEAD COVID-19 Trial: Low-risk, Early Aspirin and Vitamin D to Reduce COVID-19 Hospitalizations",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-05",
+            "completion_date": "2020-12",
+            "brief_summary": "Although the novel SARS-CoV-2 virus (COVD-19) is classified as an acute respiratory infection, emerging data show that morbidity and mortality are driven by disseminated intravascular coagulopathy. Untreated CAC leads to microangiopathic thromboses, causing multiple systems organ failure and consuming enormous healthcare resources. Identifying strategies to prevent CAC are therefore crucial to reducing COVID-19 hospitalization rates.\n\nThe pathogenesis of CAC is unknown, but there are major overl",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01542411",
+            "title": "Effectiveness of Aspirin in Compare With Heparin Plus Aspirin in Recurrent Pregnancy Loss Treatment",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 520,
+            "start_date": "2008-04",
+            "completion_date": "",
+            "brief_summary": "This study evaluated the effect of anticoagulant treatment on the live-birth rate in women with a history of at least two continuous unexplained miscarriages or thrombophilia. It also compared two methods of treatment with aspirin and aspirin plus heparin.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較 ASA 單用 vs ASA+肝素於反覆妊娠流失（血栓性素質相關）的療效，n=520，完成試驗，直接相關性最高"
+            }
+          },
+          {
+            "nct_id": "NCT00564174",
+            "title": "A Randomized Controlled Trial Comparing Low Molecular Weight Heparin and Aspirin to Aspirin Alone in Women With Unexplained Recurrent Pregnancy Loss",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 88,
+            "start_date": "2000-03",
+            "completion_date": "2005-09",
+            "brief_summary": "To compare the livebirth rate of women with recurrent pregnancy loss and autoantibodies randomized to either low molecular weight heparin plus aspirin versus aspirin alone.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較 LMWH vs ASA 單用於血栓性素質，雖提前終止但直接評估 ASA 的角色"
+            }
+          },
+          {
+            "nct_id": "NCT00740545",
+            "title": "Essai thérapeutique randomisé Multicentrique en Double Insu, Comparant l'énoxaparine 40mg Versus Placebo, en Une Injection Sous-cutanée Quotidienne, Dans Les Fausses Couches spontanées récurrentes inexpliquées",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 258,
+            "start_date": "2007-04",
+            "completion_date": "2014-09",
+            "brief_summary": "Standard investigations fail to reveal any apparent cause in 50% of the cases of recurrent spontaneous abortion. Prothrombotic mechanisms were initially evoked. Factor V Leiden, Prothrombin G20210A mutation and protein S deficiency are implicated in the meta-analysis of Rey (Lancet).However, they do not account for a large number of miscarriages.Gris JC and coworkers (Blood 2004)carried out an open trial, low-molecular-weight heparin versus low-dose aspirin, in women with one fetal loss and with",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 試驗評估血栓性素質抗凝治療，ASA 為對照/背景治療，間接支持抗血小板策略的位置"
+            }
+          },
+          {
+            "nct_id": "NCT01050153",
+            "title": "An Evaluation of the Clinical Utility of Thrombelastography (TEG) in Guiding Low Molecular Weight Heparin (LMWH) and Antiplatelet Prophylaxis of Venous Thromboembolism (VTE) Following Trauma",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2010-03",
+            "completion_date": "2011-12",
+            "brief_summary": "This study plans to learn more about how to prevent blood clots in the veins of your extremities. You are at risk of forming these clots after a major injury and when you have had surgery and are hospitalized on bed rest.\n\nUsually, patients in the SICU at Denver Health who are at risk for blood clots receive preventative treatment with a FDA-approved medicine called Fragmin. Fragmin is intended to prevent blood clots from forming but, with the way it is generally used, some patients may still de",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01214772",
+            "title": "the Effect of Unfractionated Heparin in Treatment of IVF-ET Failure",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 86,
+            "start_date": "2009-05",
+            "completion_date": "2010-06",
+            "brief_summary": "Embryo transfer failure is defined as ≥3 IVF-embryo transfer failures without pregnancy . In spite of transfer of 3 good quality embryos , just 20-30% of women undergoing IVF will achieve ongoing pregnancy . There are multiple factors that influence IVF-failure.\n\nAutoantibodies may be one of the possible causes of IVF-failure , especially in unexplained and mechanical infertility .\n\nIn some studies , antiphospholipid antibody is considered as causative factor on implantation and embryo failure. ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06531525",
+            "title": "A Multicenter, Open-label, Randomized, Controlled, Phase 2 Trial Evaluating Whether Low Molecular Heparin Could Improve Pregnancy Outcomes With Protein S Deficiency",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 48,
+            "start_date": "2024-08-01",
+            "completion_date": "2027-12-31",
+            "brief_summary": "To evaluate whether low molecular heparin could improve pregnancy outcomes in pregnancies with protein S deficiency.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02396732",
+            "title": "The Role Of Combined Therapy With Aspirin and Enoxaparin In Prevention Of Venous Thromboembolism In Trauma Patients: A Randomized-Controlled Trial",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 31,
+            "start_date": "2016-02",
+            "completion_date": "2018-05-15",
+            "brief_summary": "The purpose of this study is to determine if the addition of antiplatelet therapy (i.e. aspirin) to low-molecular-weight-heparin (i.e. enoxaparin) will decrease the incidence of venous thromboembolism (VTE) in high-risk critically injured patients. The investigators further aim to determine the safety and efficacy of dual thromboprophylaxis with aspirin and enoxaparin for decreasing the incidence of VTE after trauma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05864937",
+            "title": "Comparison of Two Preventive Treatments for Patients With Recurrent Miscarriages Carrying a C677T Methylenetetrahydrofolate Reductase Mutation: 5-year Experience",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 363,
+            "start_date": "2011-12-01",
+            "completion_date": "2016-09-28",
+            "brief_summary": "To investigate the effect of anticoagulant treatment on pregnancy outcomes in patients with previous recurrent miscarriages (RM) who carry a methylenetetrahydrofolate reductase (MTHFR) gene mutation.\n\nIn this longitudinal retrospective study, patients with RM were treated during pregnancy with either: (i) 100 mg/day aspirin and 5 mg/day folic acid (group 1); or the same protocol plus 0.4 mg/day enoxaparin (group 2). An age-matched group of triparous women without RM or thrombophilia was used as ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05568147",
+            "title": "A Prospective Multicenter Clinical Study of Aspirin for Prophylaxis in Patients With Hereditary or Acquired Thrombotic Thrombocytopenic Purpura",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2022-10-01",
+            "completion_date": "2028-09-30",
+            "brief_summary": "Thrombotic thrombocytopenic purpura (TTP) is a rare and life-threatening thrombotic microangiopathy characterized by thrombocytopenia, microangiopathic hemolytic anemia, and microvascular thrombosis causing neurological and renal abnormalities; it is associated with massive depletion of platelets in the microvasculature to form microthrombi1 . Long-term follow-up of patients with congenital TTP (cTTP) revealed frequent strokes and renal injury. Of 217 surviving patients, 62 (29%) had a stroke; t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05122455",
+            "title": "Effects of Edoxaban on Platelet Aggregation in Patients With Stable Coronary Artery Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 61,
+            "start_date": "2021-09-14",
+            "completion_date": "2024-06-24",
+            "brief_summary": "Rationale: The interaction between nonvitamin K oral anticoagulants (NOACs) and platelet aggregation is complex. The direct activated factor X inhibitors (factor Xa inhibitors) an NOAC antagonizes thrombin generation, one of most important platelet agonist, so that, factor Xa inhibitors has a potential effect in decreasing thrombin-mediated platelet aggregation. On the other hand, patients who experience ACS continue to have a hypercoagulable state for long periods after the index event. The COM",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00986765",
+            "title": "Low Molecular Weight Heparin, Enoxaparin, to Prevent Adverse Maternal and Perinatal Outcomes in Women With Previous Severe Preeclampsia at Less Than 34 Weeks' Gestation. A Prospective Randomized Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 257,
+            "start_date": "2009-06",
+            "completion_date": "2015-11",
+            "brief_summary": "Preeclampsia (PE) complicates 2-8% of pregnancies. It is associated with an increased risk of adverse maternal (death, eclampsia, abruptio placenta, HELLP syndrome) and perinatal (perinatal death, growth restriction, prematurity) outcomes. The only definite treatment of PE remains pregnancy termination. Therefore, prevention of PE remains an important challenge. Low dose aspirin may be used in the prevention of PE, particularly in women who had a severe preeclampsia before 34 weeks. Its efficien",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06494878",
+            "title": "The PARTUM (Postpartum Aspirin to Reduce Thromboembolism Undue Morbidity) Trial",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 8805,
+            "start_date": "2025-04",
+            "completion_date": "2030-12",
+            "brief_summary": "The goal of the PARTUM trial is to determine if taking low-dose aspirin daily for 6 weeks after delivery is similar (non-inferior) to usual care low-molecular-weight heparin injections to prevent venous thromboembolism (VTE: blood clots in the legs or lungs) for postpartum individuals with VTE risk factors.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04400981",
+            "title": "Multi-center Randomized Pilot Clinical Trial on Remote Ischemic Conditioning in Acute Ischemic Stroke Within 9 Hours of Onset in Patients Ineligible to Recanalization Therapies",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 80,
+            "start_date": "2021-08-01",
+            "completion_date": "2024-08-30",
+            "brief_summary": "Phase II, prospective, randomized, multicenter, open-label, pilot clinical trial comparing remote ischemic conditioning (RIC) plus standard medical therapy to standard medical therapy alone, in patients with acute ischemic stroke within 9 hours of stroke onset that are not eligible to recanalization therapies.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02415803",
+            "title": "Safety and Efficacy of Low-Dose Ticagrelor in Chinese Patients With Non-ST-Elevation Acute Coronary Syndrome: A Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 75,
+            "start_date": "2014-12",
+            "completion_date": "",
+            "brief_summary": "Ticagrelor is an oral, reversibly-binding, direct-acting P2Y12 receptor antagonist used clinically for the prevention of atherothrombotic events in patients with acute coronary syndromes (ACS). Guideline recommendations on the use of dual antiplatelet therapy (DAPT) have been formulated that ticagrelor 90 mg twice daily plus aspirin in preference to clopidogrel 75mg daily plus aspirin for patients who have an ACS with or without ST-segment elevation. These recommendations are primarily based on ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02986594",
+            "title": "Shanghai First Maternity and Infant Hospital, Tongji University School of Medicine",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 600,
+            "start_date": "2016-11",
+            "completion_date": "2019-10",
+            "brief_summary": "In this clinical cohort study, the investigators observe the efficacy of low molecular weight heparin in the treatment of thrombophilia with recurrent pregnancy loss with a prospective randomized controlled trial.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00959621",
+            "title": "Role of LMWH (Enoxaparine) With or Without Aspirin in the Prevention of Habitual Abortion; Special Attention to the Thrombophilic Status of the Mother",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 220,
+            "start_date": "2002-01",
+            "completion_date": "2008-12",
+            "brief_summary": "1 % of all pregnancies end in habitual/recurrent abortion. In about half of women with habitual abortions (HAB) hereditary or acquired (antiphospholipid antibodies) thrombophilia are observed. The investigators wanted to test whether antithrombotic treatment (Low-Molecular Weight Heparin, LMWH, ASA or both combined)would prevent these women from a subsequent abortion. Depending on thrombophilic status the women included in one of the three sub-studies: HABENOX 1 (mild, single thrombophilia), HAB",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02889549",
+            "title": "Effects of Different Doses of Ticagrelor and Standard-dose Clopidogrel on Platelet Aggregation and Endothelial Function in Diabetic Patients With Stable Coronary Artery Disease",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2016-08",
+            "completion_date": "",
+            "brief_summary": "Ticagrelor is an oral, reversibly-binding, direct-acting P2Y12 receptor antagonist used clinically for the prevention of atherothrombotic events in patients with acute coronary syndromes (ACS). Guideline recommendations on the use of dual antiplatelet therapy have been formulated that ticagrelor 90 mg twice daily plus aspirin in preference to clopidogrel 75mg daily plus aspirin for ACS patients. However, few East Asian patients have been included in these trials to assess the use of these drugs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01046942",
+            "title": "ThrombElastoGraphic Haemostatic Status and Antiplatelet Therapy After Coronary Artery Bypass Graft Surgery(TEG-CABG Trial):Does Intensified Postoperative Antiplatelet Therapy in Preoperatively Identified Hypercoagulable Patients Improve Outcome After CABG Surgery",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 250,
+            "start_date": "2008-11",
+            "completion_date": "2014-09",
+            "brief_summary": "The purpose of this study is to determine whether adding clopidogrel to aspirin after coronary bypass operation (CABG) improves graft patency, in patients that have preoperatively increased platelet activity(hypercoagulable) and therefore greater risk of graft occlusion( thrombosis).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04153760",
+            "title": "A Pilot Study Assessing the Feasibility of a Randomized Controlled Trial Evaluating Aspirin in Postpartum Women at Risk of Developing Venous Thromboembolism",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 257,
+            "start_date": "2020-10-07",
+            "completion_date": "2023-09-05",
+            "brief_summary": "The pilot PARTUM trial is a randomized, multicenter, placebo-controlled trial. Women who are at modest risk of VTE (as defined by the inclusion criteria) will be identified during pregnancy, labor and delivery and up to 48 hours postpartum. Eligible and consenting participants will be randomly assigned to one of two study arms: aspirin 81 mg daily or placebo daily for 6 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37334488",
+            "title": "Recurrent MiscarriageGreen-top Guideline No. 17.",
+            "authors": [
+              "Regan Lesley",
+              "Rai Rajendra",
+              "Saravelos Sotirios",
+              "Li Tin-Chiu"
+            ],
+            "journal": "BJOG : an international journal of obstetrics and gynaecology",
+            "year": "2023",
+            "abstract": "In this guideline, recurrent miscarriage has been defined as three or more first trimester miscarriages. However, clinicians are encouraged to use their clinical discretion to recommend extensive evaluation after two first trimester miscarriages, if there is a suspicion that the miscarriages are of pathological and not of sporadic nature. Women with recurrent miscarriage should be offered testing for acquired thrombophilia, particularly for lupus anticoagulant and anticardiolipin antibodies, pri",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22729089",
+            "title": "Recurrent miscarriage and thrombophilia: an update.",
+            "authors": [
+              "McNamee Kelly",
+              "Dawood Feroza",
+              "Farquharson Roy"
+            ],
+            "journal": "Current opinion in obstetrics & gynecology",
+            "year": "2012",
+            "abstract": "Acquired and inherited thrombophilia is an important research avenue in the recurrent miscarriage field. The optimum treatment for patients with recurrent miscarriage and a confirmed thrombophilia remains a contentious issue. We aim to appraise and explore the latest research in the field of thrombophilia and recurrent miscarriage in this review.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12062831",
+            "title": "Thrombophilia and pregnancy loss.",
+            "authors": [
+              "Regan Lesley",
+              "Rai Raj"
+            ],
+            "journal": "Journal of reproductive immunology",
+            "year": "2002",
+            "abstract": "Thrombophilia is defined as a tendency to thrombosis. The association between specific thrombophilic defects--both inherited and acquired--and pregnancy loss is a rapidly developing field. However, apart from antiphospholipid antibodies (aPL), an acquired thrombophilic defect, the role of other defects in the haemostatic pathways remains to be established. In this invited review we discuss the recent advances in our understanding of aPL related pregnancy loss, the association between genetic thr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12787537",
+            "title": "Pre-eclampsia and thrombophilia.",
+            "authors": [
+              "Said Joanne",
+              "Dekker Gustaaf"
+            ],
+            "journal": "Best practice & research. Clinical obstetrics & gynaecology",
+            "year": "2003",
+            "abstract": "Pre-eclampsia is a major cause of perinatal and maternal morbidity and mortality worldwide. Although knowledge of the precise aetiology remains uncertain a number of risk factors have been described. Thrombophilias have been associated with pre-eclampsia in a number of studies and it is biologically plausible that they may contribute to the uteroplacental thrombosis that is frequently seen in pre-eclampsia. If this association is confirmed, there is the potential to investigate preventive treatm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10560975",
+            "title": "Thrombophilia-associated pregnancy wastage.",
+            "authors": [
+              "Blumenfeld Z",
+              "Brenner B"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1999",
+            "abstract": "To critically review the literature regarding inherited thrombophilia and recurrent fetal loss.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16888444",
+            "title": "Prophylaxis and treatment of thrombophilia in pregnancy.",
+            "authors": [
+              "Gris Jean-Christophe",
+              "Lissalde-Lavigne Géraldine",
+              "Quéré Isabelle",
+              "Dauzat Michel",
+              "Marès Pierre"
+            ],
+            "journal": "Current opinion in hematology",
+            "year": "2006",
+            "abstract": "This review addresses the prophylaxis and treatment of thrombophilia in pregnancy, which is associated with increased risk of venous thromboembolism and placental vascular complications.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23934738",
+            "title": "Sticky platelet syndrome.",
+            "authors": [
+              "Kubisz Peter",
+              "Stasko Jan",
+              "Holly Pavol"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2013",
+            "abstract": "Sticky platelet syndrome (SPS) is a thrombophilic thrombocytopathy with familial occurrence and autosomal dominant trait, characterized by an increased in vitro platelet aggregation in response to low concentrations of adenosine diphosphate (ADP) and/or epinephrine (EPI). According to aggregation pattern, three types of the syndrome can be identified (hyperresponse after both reagents, Type I; EPI alone, Type II; ADP alone, Type III). Clinically, the syndrome is associated with both venous and a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26520197",
+            "title": "[Gastrointestinal bleeding].",
+            "authors": [
+              "Lanas Ángel"
+            ],
+            "journal": "Gastroenterologia y hepatologia",
+            "year": "2015",
+            "abstract": "In the Digestive Disease Week in 2015 there have been some new contributions in the field of gastrointestinal bleeding that deserve to be highlighted. Treatment of celecoxib with a proton pump inhibitor is safer than treatment with nonselective NSAID and a proton pump inhibitor in high risk gastrointestinal and cardiovascular patients who mostly also take acetylsalicylic acid. Several studies confirm the need to restart the antiplatelet or anticoagulant therapy at an early stage after a gastroin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21370210",
+            "title": "Hemostasis in pre-eclampsia.",
+            "authors": [
+              "Ismail Siti Khadijah",
+              "Higgins John R"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2011",
+            "abstract": "Pre-eclampsia (P-EC) is a multisystem disorder exclusive to pregnancy. It complicates ~2 to 8% of all pregnancies and remains a major cause of maternal mortality. P-EC is characterized by a profound hypercoagulable state. The delicate hemostatic balance that must be maintained in the uteroplacental circulation during pregnancy makes this system vulnerable to perturbation. An abnormal hemostatic pattern occurs within the uteroplacental circulation in P-EC compared with normal pregnancy. Much rece",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187021",
+            "title": "Inherited thrombophilia and anticoagulant therapy for women with reproductive failure.",
+            "authors": [
+              "Han Ae Ra",
+              "Han Jae Won",
+              "Lee Sung Ki"
+            ],
+            "journal": "American journal of reproductive immunology (New York, N.Y. : 1989)",
+            "year": "2021",
+            "abstract": "Reproductive failure (RF) is the inability to conceive or to carry a pregnancy to term, and its prevalence is not negligible. Pregnancy is a prothrombotic condition, which can be abnormally exaggerated in women with thrombophilia. Antiphospholipid syndrome is a cause of RF and effectively managed with heparin and aspirin. However, there are yet insufficient data in patients with RF and inherited thrombophilia. This review focuses on the significance of inherited thrombophilia and RF and the role",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20237866",
+            "title": "Polycythemia vera.",
+            "authors": [
+              "Landolfi Raffaele",
+              "Nicolazzi Maria Anna",
+              "Porfidia Angelo",
+              "Di Gennaro Leonardo"
+            ],
+            "journal": "Internal and emergency medicine",
+            "year": "2010",
+            "abstract": "The diagnostic approach to a patient with polycythemia has been greatly simplified by the introduction of new genetic testing in addition to traditional tests, such as measurement of red cell mass and serum erythropoietin (Epo) level. Clonal erythrocytosis, which is the diagnostic feature of polycythemia vera (PV), is almost always associated with a JAK2 mutation (JAK2V617F or exon 12). Therefore, in a patient with acquired erythrocytosis, it is reasonable to begin the diagnostic work-up with JA",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15921544",
+            "title": "Recurrent miscarriage.",
+            "authors": [
+              "Horne Andrew W",
+              "Alexander Claire I"
+            ],
+            "journal": "The journal of family planning and reproductive health care",
+            "year": "2005",
+            "abstract": "Recurrent miscarriage, the occurrence of three consecutive first-trimester losses of pregnancy, affects 1% of women. The purported causes of recurrent miscarriage include chromosomal abnormalities, thrombophilia, metabolic disorders, anatomical causes and immune factors. At present, the only recommended investigations are testing for lupus anticoagulant and anticardiolipin antibody levels (to diagnose antiphospholipid syndrome, an acquired thrombophilia) and the karyotyping of both parents for c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38233773",
+            "title": "Low-molecular-weight heparin for the prevention of preeclampsia in high-risk pregnancies without thrombophilia: a systematic review and meta-analysis.",
+            "authors": [
+              "Chen Jiahui",
+              "Huai Jing",
+              "Yang Huixia"
+            ],
+            "journal": "BMC pregnancy and childbirth",
+            "year": "2024",
+            "abstract": "To systematically evaluate the efficacy of low molecular weight heparin (LMWH) to prevent preeclampsia in high risk pregnant women without thrombophilia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20008203",
+            "title": "Antiphospholipid antibody syndrome.",
+            "authors": [
+              "Lim Wendy"
+            ],
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2009",
+            "abstract": "The antiphospholipid antibody syndrome (APS) is defined by the persistent presence of antiphospholipid antibodies in patients with recurrent venous or arterial thromboembolism or pregnancy morbidity. Anti-thrombotic therapy is the mainstay of treatment given the high risk of recurrent thromboembolism that characterizes this condition. Despite the prothrombotic nature of APS, thrombocytopenia is present in a proportion of patients. which can complicate management and limit the use of antithrombot",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30062868",
+            "title": "The pathogenesis and available prevention options in patients with diabetic thrombophilia.",
+            "authors": [
+              "Kwiatkowski Jacek",
+              "Halupczok-Żyła Jowita",
+              "Bolanowski Marek",
+              "Kuliszkiewicz-Janus Małgorzata"
+            ],
+            "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
+            "year": "2018",
+            "abstract": "Diabetes mellitus (DM), a growing health problem itself, is accompanied by an increased risk of cardiovascular and thrombotic complications. The imbalance between coagulation and fibrinolysis processes observed in patients with diabetes may be defined as diabetic thrombophilia. Several mechanisms are involved in the hypercoagulability state in diabetics, including endothelial cell damage, altered platelet structure and function, increased microparticle formation, different structure of fibrin cl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25696884",
+            "title": "Anticoagulation in pregnancy complications.",
+            "authors": [
+              "Middeldorp Saskia"
+            ],
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2014",
+            "abstract": "Women with acquired and inherited thrombophilia are thought to be at increased risk for pregnancy complications, including recurrent pregnancy loss and, depending on the type of thrombophilia, severe preeclampsia. This review discusses the associations between the types of thrombophilia and types of complications, as well as the currently available clinical trial evidence regarding the use of aspirin and heparin to prevent these pregnancy complications. In women with antiphospholipid syndrome, g",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16797917",
+            "title": "Inherited and acquired thrombophilia: pregnancy outcome and treatment.",
+            "authors": [
+              "De Santis Marco",
+              "Cavaliere A F",
+              "Straface G",
+              "Di Gianantonio E",
+              "Caruso A"
+            ],
+            "journal": "Reproductive toxicology (Elmsford, N.Y.)",
+            "year": "2006",
+            "abstract": "Maternal thrombophilias increases the risk of an adverse pregnancy outcome. An extensive literature review highlights the role of inherited and acquired thrombophilic disorders in spontaneous abortion, both early and late, recurrent or isolate, in intrauterine growth retardation, in placenta abruption, in pre-eclampsia and in venous thromboembolism. We have particularly focused attention on the following factors: antithrombin III (ATIII), proteins C (PC) and S (PS) deficiencies, genetic mutation",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16286582",
+            "title": "Thrombophilia and severe preeclampsia: time to screen and treat in future pregnancies?",
+            "authors": [
+              "Sibai Baha M"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17094039",
+            "title": "Thrombophilia and adverse maternal-perinatal outcome: controversies in screening and management.",
+            "authors": [
+              "Stella Caroline L",
+              "How Helen Y",
+              "Sibai Baha M"
+            ],
+            "journal": "American journal of perinatology",
+            "year": "2006",
+            "abstract": "A recent review of the literature on thrombophilia and adverse pregnancy outcome reveals contradictory findings. There are retrospective and prospective studies that recommend testing for genetic and acquired markers of thrombophilia for those with the enumerated adverse pregnancy outcome. Based on our review, routine screening for thrombophilias in women with a history of adverse pregnancy outcome (preeclampsia, abruptio placenta, intrauterine growth restriction, and fetal loss) is not justifie",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17766616",
+            "title": "Thrombophilia and the obstetric patient.",
+            "authors": [
+              "Cleary-Goldman Jane",
+              "Bettes Barbara",
+              "Robinson Julian N",
+              "Norwitz Errol",
+              "Schulkin Jay"
+            ],
+            "journal": "Obstetrics and gynecology",
+            "year": "2007",
+            "abstract": "To examine how practicing obstetricians evaluate and manage thrombophilias in selected clinical situations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血栓性素質患者（遺傳性或後天性）體內 TXA2/PGI2 失衡，ASA 透過抑制 COX-1 減少 TXA2 介導的血小板過度活化，特別在妊娠相關血栓性素質（如反覆流產、子癇前症）中，ASA 與 LMWH 聯合使用已有多項 Phase 3 試驗支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Raynaud disease",
+      "txgnn": {
+        "score": 0.9866986274719238,
+        "rank": 13060
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06888973",
+            "title": "Mesenchymal Stem Cells Infusion in Patients With Autoimmune Diseases - A Phase II Clinical Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 200,
+            "start_date": "2025-02-01",
+            "completion_date": "2026-02-01",
+            "brief_summary": "The goal of this study is to learn if mesenchymal stem cell therapy (treatment group) can effectively treat autoimmune diseases, when compared to normal saline (given to placebo group). The primary outcome measures will be clinical improvement based on the respective disease specific clinical scores, normalization of T-lymphocyte subsets and \\> 50% reduction in disease specific antibody titres. The study will also document the type and frequency of any adverse event or side effects, reported by ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估 MSC 而非 ASA，疾病族群與雷諾氏病重疊，但對 ASA 再利用評估無直接幫助"
+            }
+          },
+          {
+            "nct_id": "NCT03558854",
+            "title": "Evaluation of Effectiveness of Acetylsalicylic Acid on Markers of Vascular Dysfunction in Patients With Systemic Sclerosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2018-08-28",
+            "completion_date": "2021-10-26",
+            "brief_summary": "Systemic sclerosis is a chronic autoimmune disease characterized by vascular changes in the microcirculation (small blood vessels) and progressive fibrosis of the skin and internal organs. It is believed that vascular changes, expressed early by the Raynaud phenomenon, precede fibrosis and organic dysfunction. There is no available treatment that reverses the vascular damage caused by the disease to the moment, although there are several medications recommended for the relief of manifestations d",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接評估 ASA 對雷諾氏病血管功能標記的效益，Phase 4 已完成（n=70），相關性最高，但以生物標記為終點而非症狀，臨床意義需補充"
+            }
+          },
+          {
+            "nct_id": "NCT01233999",
+            "title": "Botulinum Toxin in the Treatment of Raynaud's",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2010-10",
+            "completion_date": "2012-03",
+            "brief_summary": "The investigators are studying a medical condition known as Raynaud's Phenomenon (RP). RP is a painful condition in which cold surroundings or stressful events trigger pain, a cold sensation, and in severe cases, sores and ulcers on one's fingers. The investigators think that RP results from problems with some of the components of the blood vessels, surrounding nerves, and some of the circulating messengers in the bloodstream. Although there are many different medicines that are currently used t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "評估肉毒桿菌素，非 ASA；提供雷諾氏病治療替代策略背景資訊"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23519183",
+            "title": "Cryofibrinogenemia.",
+            "authors": [
+              "Michaud Martin",
+              "Pourrat Jacques"
+            ],
+            "journal": "Journal of clinical rheumatology : practical reports on rheumatic & musculoskeletal diseases",
+            "year": "2013",
+            "abstract": "Cryofibrinogenemia is a cryoprotein that was first identified in 1955 by Korst and Kratochvil. Unlike cryoglobulin, the precipitate forms only in plasma and not in the serum. The presence of cryofibrinogen in plasma can be asymptomatic. Cryofibrinogenemia is considered a rare disorder: its prevalence varies from 0% to 7% in healthy subjects and from 8% to 13% in hospitalized patients. Nevertheless, cryofibrinogenemia, when a cryopathy is clinically suspected, has been reported in 12% to 51% of p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15293589",
+            "title": "Prinzmetal's angina.",
+            "authors": [
+              "Keller Kathryn Buchanan",
+              "Lemberg Louis"
+            ],
+            "journal": "American journal of critical care : an official publication, American Association of Critical-Care Nurses",
+            "year": "2004",
+            "abstract": "Prinzmetal's angina, often referred to as \"variant\" angina, is a temporary increase in coronary vascular tone (vasospasm) causing a marked, but transient reduction in luminal diameter. This coronary vasospastic state is usually focal at a single site and can occur in either a normal or diseased vessel. Patients are predominantly younger women who may not have the classical cardiovascular risk factors (except for cigarette use). PVA has been associated with vasospastic disorders such as Raynaud's",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27129065",
+            "title": "Raynaud's phenomenon and digital ischaemia--pharmacologic approach and alternative treatment options.",
+            "authors": [
+              "Linnemann Birgit",
+              "Erbe Matthias"
+            ],
+            "journal": "VASA. Zeitschrift fur Gefasskrankheiten",
+            "year": "2016",
+            "abstract": "The primary goal of therapy is to reduce the frequency and intensity of Raynaud's attacks and to minimize the related morbidity rather than to cure the underlying condition. Treatment strategies depend on whether Raynaud's phenomenon (RP) is primary or secondary. All patients should be instructed about general measures to maintain body warmth and to avoid triggers of RP attacks. Pharmacologic intervention can be useful for patients with severe and frequent RP episodes that impair the patient's q",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15073997",
+            "title": "Peripheral vasodilators and the management of peripheral vascular disease and Raynaud's syndrome in general practice.",
+            "authors": [
+              "Connolly J P",
+              "McGavock H",
+              "Wilson-Davis K"
+            ],
+            "journal": "Pharmacoepidemiology and drug safety",
+            "year": "1998",
+            "abstract": "There is no convincing evidence that peripheral vasodilators produce any significant improvement in exercise tolerance in patients with peripheral vascular disease, and these drugs may do more harm than good. In the treatment of severe Raynaud's syndrome, however, thymoxamine, prazosin or nifedipine is recommended. A descriptive study was carried out, firstly, to determine why these drugs are prescribed in general practice, and secondly, to describe the drug choices in the treatment of both Rayn",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3332095",
+            "title": "Prostaglandins in the pathogenesis and prevention of vascular disease.",
+            "authors": [
+              "Moncada S",
+              "Higgs E A"
+            ],
+            "journal": "Blood reviews",
+            "year": "1987",
+            "abstract": "Metabolism of arachidonic acid gives rise to a number of products with potent, and sometimes opposing, biological actions. Prostacyclin, the main product of arachidonic acid in vascular tissue, is a vasodilator and inhibitor of platelet aggregation whereas thromboxane A2, produced by the platelet, is a vasoconstrictor and inducer of platelet aggregation. Generation of these products may be modified in certain diseases, such as atherosclerosis and diabetes, so that prostacyclin production is redu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36788863",
+            "title": "Cocaine-Induced Raynaud's Phenomenon: A Case Report.",
+            "authors": [
+              "Ahn Heong Jin C",
+              "Tine Iii Albert",
+              "Patel Arsh N",
+              "Le Samantha A",
+              "Defour Fulton"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "We illustrate a notable case of a middle-aged male who presents to a community hospital with left third- and fourth-digit discoloration and pain for the past four days. On presentation to the emergency department, a urine drug screen was ordered which showed synthetic cannabinoids, cocaine, and amphetamines. Initial therapy of nitroglycerin paste, oral oxycodone, intravenous Dilaudid®, and aspirin was started, which resulted in decreased subjective pain. The pathophysiology and mechanism of coca",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3299819",
+            "title": "A double-blind controlled trial of low dose acetylsalicylic acid and dipyridamole in the treatment of Raynaud's phenomenon.",
+            "authors": [
+              "van der Meer J",
+              "Wouda A A",
+              "Kallenberg C G",
+              "Wesseling H"
+            ],
+            "journal": "VASA. Supplementum",
+            "year": "1987",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37097526",
+            "title": "Cannabis arteritis presenting with Raynaud's and digital ulcerations: a case-based review of a controversial thromboangiitis obliterans-like condition.",
+            "authors": [
+              "Pilitsi Eleni",
+              "Kennamer Brooke",
+              "Trepanowski Nicole",
+              "Gonzalez Reina",
+              "Trojanowski Marcin"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2023",
+            "abstract": "Thromboangiitis obliterans (TAO), or Buerger's disease, is a non-atherosclerotic inflammatory disease of the small and medium-sized arteries, veins, and nerves of the legs and arms, strongly associated with the use of tobacco products in young adults. Cannabis arteritis (CA), an entity with similar clinical and pathological features, has been described in marijuana users as a subtype of TAO. Distinction between TAO and CA is challenging, given that most patients use tobacco and marijuana product",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "483935",
+            "title": "[Functional peripheral ischemia].",
+            "authors": [
+              "Preuss E G"
+            ],
+            "journal": "Zeitschrift fur die gesamte innere Medizin und ihre Grenzgebiete",
+            "year": "1979",
+            "abstract": "The terminal circulation which plays an important role in the thermoregulation particularly at the periphery of the extremities is not infrequently irritated by false multifactorial regulations. As their sequela an increased tonus of vasoconstrictors and pathological vasodilatation lead to idiopathic and symptomatic functional angiolopathies. Transitions into organic vascular processes are no rarity. From the extreme functional behaviour patterns complaints and symptoms of the individual angiolo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40661725",
+            "title": "Deep inferior epigastric perforator flap breast reconstruction in patients with Raynaud's disease: a case series and literature review.",
+            "authors": [
+              "Shah Rushabh",
+              "Sosnowski Krzysztof",
+              "Habeeb Amir",
+              "Smeeton Benjamin",
+              "Malata Charles M"
+            ],
+            "journal": "Journal of surgical case reports",
+            "year": "2025",
+            "abstract": "Free tissue transfer using the deep inferior epigastric perforator (DIEP) flap represents the gold-standard for autologous breast reconstruction. Raynaud's disease, characterized by vasospasm, thrombosis, and a hypercoagulable state, poses a theoretical risk to flap viability; however, its impact on DIEP outcomes remains poorly defined. We present the first reported case series evaluating DIEP flap reconstruction in three patients with Raynaud's disease. In the first case, complete flap loss occ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27651971",
+            "title": "Severe Primary Raynaud's Disease Treated with Rituximab.",
+            "authors": [
+              "Shabrawishi Mohammed",
+              "Albeity Abdurahman",
+              "Almoallim Hani"
+            ],
+            "journal": "Case reports in rheumatology",
+            "year": "2016",
+            "abstract": "Raynaud's phenomenon refers to reversible spasms of the peripheral arterioles that can be primary Raynaud's phenomenon (PRP) or secondary Raynaud's phenomenon (SRP) to underlying connective tissue disease, both of which are characterized by a triphasic color response triggered by cold exposure or stress. PRP is typically a benign disease, whereas SRP may progress into digital ulcers and/or gangrene. Here, we report a case of a 55-year-old female diagnosed with PRP 7 years ago. Treatment with fir",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37291935",
+            "title": "[Anti-HMGCR immune-mediated necrotizing myopathy: A case report].",
+            "authors": [
+              "Zhang Y J",
+              "Ma J Y",
+              "Liu X Y",
+              "Zheng D F",
+              "Zhang Y S"
+            ],
+            "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences",
+            "year": "2023",
+            "abstract": "The patient was a 55-year-old man who was admitted to hospital with \"progressive myalgia and weakness for 4 months, and exacerbated for 1 month\". Four months ago, he presented with persistent shoulder girdle myalgia and elevated creatine kinase (CK) at routine physical examination, which fluctuated from 1 271 to 2 963 U/L after discontinuation of statin treatment. Progressive myalgia and weakness worsened seriously to breath-holding and profuse sweating 1 month ago. The patient was post-operativ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8438681",
+            "title": "Managing Raynaud's phenomenon: a practical approach.",
+            "authors": [
+              "Adee A C"
+            ],
+            "journal": "American family physician",
+            "year": "1993",
+            "abstract": "Raynaud's phenomenon is characterized by vasospasm of the digits, most commonly the fingers, although the toes, ears, nose and even the tip of the tongue may be involved. The disorder is commonly precipitated by exposure to cold, although vasoconstrictive drugs and emotional distress may be triggers. Patients with Raynaud's phenomenon should avoid these triggers. Behavioral therapies, including stress management, relaxation training and biofeedback, are effective in some patients. When lifestyle",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1379160",
+            "title": "Iloprost. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic potential in peripheral vascular disease, myocardial ischaemia and extracorporeal circulation procedures.",
+            "authors": [
+              "Grant S M",
+              "Goa K L"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "Iloprost is an analogue of epoprostenol (prostacyclin; PGI2; a potent but short-lived prostanoid mainly produced in the vascular endothelium) and mimics the pharmacodynamic properties of this compound, namely: inhibition of platelet aggregation, vasodilatation and, as yet ill-defined, cytoprotection. Improved metabolic and, in particular, chemical stability enhance the clinical utility of iloprost. When administered as an intermittent intravenous infusion at less than or equal to 2 ng/kg/min for",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35835622",
+            "title": "[Paroxysmal vascular acrosyndromes: Practical approach to diagnosis and management].",
+            "authors": [
+              "Senet P"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2022",
+            "abstract": "Paroxysmal vascular acrosyndromes are related to a peripheral vasomotor disorder and presented as paroxysmal color changes of the fingers. They include primary Raynaud's phenomenon (RP), which is the most common, secondary RP and erythermalgia. They are to be distinguished from non-paroxysmal acrosyndromes such as acrocyanosis and chilblains, which are very frequent and often associated with RP, digital ischemia and necrosis, spontaneous digital hematoma and acrocholosis. The challenge of a cons",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1973503",
+            "title": "Erythromelalgia versus erythermalgia.",
+            "authors": [
+              "Michiels J J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1990",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36874716",
+            "title": "Vasculitis Leading to Gangrene: An Early Presentation in a Rheumatoid Arthritis Patient.",
+            "authors": [
+              "Vadher Abhishek",
+              "Yeruva Karthik",
+              "Vora Chitralekha",
+              "Gangu Karthik",
+              "Baraiya Swati"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Vasculitis is a late complication in rheumatoid arthritis (RA) and is seen in RA patients with long-standing disease. Rheumatoid vasculitis affects small-to-medium-sized vessels. In a few patients, vasculitis develops early in the course of the disease. Here, we report the case of a 32-year-old female who presented with gangrene in the second and third digits of the right foot and gangrene in the second digit of the left foot. She was on hydroxychloroquine and methotrexate for one year since the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6398664",
+            "title": "An antagonist of prostaglandin synthesis in cardiovascular diseases.",
+            "authors": [
+              "Viinikka L"
+            ],
+            "journal": "Annals of clinical research",
+            "year": "1984",
+            "abstract": "Prostaglandins potently regulate platelet aggregation and vascular tone. Thus they are of great importance in the blood supply of tissue. The strategy of the attempts to prevent occlusive vascular disease have been either to decrease the amount of aggregatory, vasoconstricting prostaglandins or to increase antiaggregatory, vasodilatory prostaglandins. Acetylsalicylic acid has been mostly used in attempts to inhibit platelet TxA2-synthesis without disturbing endothelial cell PGI2-synthesis. Prima",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17607716",
+            "title": "Anorexia nervosa and Raynaud's phenomenon: a case report.",
+            "authors": [
+              "Yucel Basak",
+              "Uzum Ayse Kubat",
+              "Ozbey Nese",
+              "Kamali Sevil",
+              "Yager Joel"
+            ],
+            "journal": "The International journal of eating disorders",
+            "year": "2007",
+            "abstract": "To describe and discuss potential relationships between anorexia nervosa (AN) and Raynaud's phenomenon, the course and concurrent treatment of these two disorders as they appeared simultaneously, and a potential treatment modification entailed in such concurrent therapies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7307205",
+            "title": "[Raynaud's phenomenon: diagnostic and therapeutic aspects].",
+            "authors": [
+              "Soro P",
+              "Occhioni G",
+              "Spissu M",
+              "Trignano M",
+              "Dettori G"
+            ],
+            "journal": "Chirurgia italiana",
+            "year": "1981",
+            "abstract": "The Authors report their experience concerning 120 patients with Raynaud's Disease (50 pats.) or Syndrome (70 pats.). All patients were studied before and after treatment, by clinical, thermometric, oscillographic and photoplethysmographic observation and by the Doppler examination, in order to evaluate the functional and organic component of the disease. Surgical treatment was reserved to 45 patients with secondary or primitive Raynaud's phenomenon refractory to medical therapy. The treatment o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雷諾氏病的核心機制為血管痙攣與血小板過度活化（高 TXA2、低 PGI2 的比例失衡）。ASA 透過抑制 COX-1 降低 TXA2 生成，同時保留內皮 PGI2（prostacyclin）的血管舒張效應，理論上可改善血管痙攣。另有研究顯示 ASA 可調節 alpha-2 腎上腺素受體敏感性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 25,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetylsalicylic acid",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

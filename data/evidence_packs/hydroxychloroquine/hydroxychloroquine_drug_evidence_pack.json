@@ -1,0 +1,2075 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01611-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydroxychloroquine",
+    "drugbank_id": "DB01611",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Quinquaud's folliculitis decalvans",
+      "txgnn": {
+        "score": 0.9866378307342528,
+        "rank": 13114
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40230058",
+            "title": "Management of folliculitis decalvans: The EADV task force on hair diseases position statement.",
+            "authors": [
+              "Waśkiel-Burnat Anna",
+              "Starace Michela",
+              "Iorizzo Matilde",
+              "Katoulis Alexandros",
+              "Apalla Zoe"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2025",
+            "abstract": "Folliculitis decalvans is the most common form of primary neutrophilic scarring alopecia, which is diagnosed in 2.8% of patients with hair loss. The course of the disease is typically chronic and relapsing. Thus, numerous therapies may be needed. Treatment extended beyond the resolution of the manifestations may be considered to avoid recurrences. As folliculitis decalvans is a form of scarring alopecia, the aim of any therapy is to control inflammation and prevent further hair loss. Hair regrow",
+            "classification": {
+              "study_type": "Expert Consensus / EADV Position Statement",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39893632",
+            "title": "Efficacy, safety and tolerability of drugs for alopecia: a comprehensive review.",
+            "authors": [
+              "Valdez-Zertuche Jair Alejandro",
+              "Ramírez-Marín Hassiel Aurelio",
+              "Tosti Antonella"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2025",
+            "abstract": "Alopecia, encompassing non-scarring and scarring types, presents therapeutic challenges requiring individualized approaches based on pathophysiology and treatment responses. A comprehensive literature search of PubMed/MEDLINE, Embase, Cochrane Library, Scopus, and Web of Science (2015-2024) focused on randomized controlled trials, meta-analyses, and observational studies.",
+            "classification": {
+              "study_type": "Comprehensive Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39340420",
+            "title": "Hydroxychloroquine may be beneficial as an adjuvant therapy for folliculitis decalvans: a 5-year retrospective study with 49 patients.",
+            "authors": [
+              "Doche Isabella",
+              "Sotto Mirian N",
+              "Hordinsky Maria K",
+              "Melhado Isabela P",
+              "Gerlero Paula"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2025",
+            "abstract": "Folliculitis decalvans (FD) is a chronic and recurrent neutrophilic scarring alopecia that mostly affects the vertex scalp of young male patients. It manifests as painful alopecic lesions surrounded by pustules, tuftings and intense scalp fibrosis. However, the occurrence of less active or 'lichen planopilaris-like' forms of FD questions the exact role of Staphylococcus aureus in the pathogenic mechanism of this disease. The management of FD is very challenging, as relapses are frequent and prol",
+            "classification": {
+              "study_type": "Retrospective Cohort (5-year, HCQ as adjuvant, direct)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32030059",
+            "title": "Therapy-Recalcitrant Folliculitis Decalvans Controlled Successfully with Adalimumab.",
+            "authors": [
+              "Alhameedy Meshal M",
+              "Alsantali Adel M"
+            ],
+            "journal": "International journal of trichology",
+            "year": "2019",
+            "abstract": "Folliculitis decalvans (FD) is a rare idiopathic primary cicatricial alopecia which leads to permanent destruction of hair follicular stem cell. Staphylococcus aureus as well as autoimmunity has been implicated in the pathogenesis. Treatment options include topical antiseptics, topical and systemic corticosteroids, systemic antibiotics, isotretinoin, dapsone, hydroxychloroquine, and immunomodulators. We present the therapy-recalcitrant case of FD which is controlled successfully by subcutaneous ",
+            "classification": {
+              "study_type": "Case Report (Adalimumab for refractory FD, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛囊decalvans為中性粒細胞主導的瘢痕性脫髮，HCQ 透過抑制 TLR 信號與溶酶體酸化，可減少毛囊局部 IL-1β/IL-17 驅動的中性粒細胞聚集；EADV 工作小組（2025）已將 HCQ 納入輔助治療選項",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "telogen effluvium",
+      "txgnn": {
+        "score": 0.9854589700698853,
+        "rank": 13924
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33405302",
+            "title": "Telogen effluvium associated with COVID-19 infection.",
+            "authors": [
+              "Olds Hailey",
+              "Liu Jesse",
+              "Luk Kevin",
+              "Lim Henry W",
+              "Ozog David"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2021",
+            "abstract": "Telogen effluvium (TE) is characterized by diffuse hair shedding 2-3 months after a stressor, and COVID-19 infection is potentially one such stressor. Those who were infected with the virus were under immense psychosocial and physiologic stress. We retrospectively reviewed electronic medical records of 552 patients who were evaluated by a Henry Ford Health System dermatologist between February 2020 and September 2020 and had a diagnosis of COVID-19 infection. Ten patients were identified with TE",
+            "classification": {
+              "study_type": "Case Series (COVID-19 sequelae, highly indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 33405302）描述 COVID-19 作為休止期脫髮的觸發因子，並非 HCQ 治療休止期脫髮的直接證據。休止期脫髮為壓力誘導的生理反應，與 HCQ 之免疫調節機制缺乏直接機轉連結；TxGNN 高分預測可能源於 HCQ 與 COVID-19 的歷史關聯",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "alopecia antibody deficiency",
+      "txgnn": {
+        "score": 0.985295295715332,
+        "rank": 14017
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36117202",
+            "title": "Systemic lupus erythematosus with various clinical manifestations in a patient with hereditary angioedema: a case report.",
+            "authors": [
+              "Ushio Yusuke",
+              "Wakiya Risa",
+              "Kameda Tomohiro",
+              "Nakashima Shusaku",
+              "Shimada Hiromi"
+            ],
+            "journal": "Allergy, asthma, and clinical immunology : official journal of the Canadian Society of Allergy and Clinical Immunology",
+            "year": "2022",
+            "abstract": "Hereditary angioedema (HAE) is an inherited disease characterized by recurrent angioedema without urticaria or pruritus. The most common types of HAE are caused by deficiency or dysfunction in C1 esterase inhibitor (C1-INH-HAE). The association between C1-INH-HAE and systemic lupus erythematosus (SLE) is known; however, variations in the underlying pathophysiology, disease course, and treatment in this population remain incompletely understood.",
+            "classification": {
+              "study_type": "Case Report (SLE + hereditary angioedema, highly indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 36117202）為 SLE 合併遺傳性血管性水腫個案報告，與此特定罕見症候群（原發性抗體缺乏合併脫髮）無直接機轉連結；TxGNN 預測極可能源自 HCQ 在 SLE 的已知用途，屬知識圖譜遠距關聯推斷",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "alopecia mucinosa",
+      "txgnn": {
+        "score": 0.9846727252006532,
+        "rank": 14404
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40657655",
+            "title": "A Case of Idiopathic Follicular Mucinosis Treated Successfully with Cyclosporine.",
+            "authors": [
+              "Mizuno Hayato",
+              "Yanase Tetsuji",
+              "Yorita Yuri",
+              "Kan Takanobu",
+              "Tanaka Akio"
+            ],
+            "journal": "Acta dermatovenerologica Croatica : ADC",
+            "year": "2024",
+            "abstract": "Follicular mucinosis (FM) is a disease histopathologically characterized by mucin deposition in the hair follicles; the main symptoms are papular erythema, papular pilaris, and hair loss in hairy areas (1). FM is classified as either idiopathic or secondary based on underlying diseases or complications. In recurrent or refractory cases, the disease can transform into mycosis fungoides. Treatment includes local or systemic corticosteroids, dapsone, indomethacin, interferon, hydroxychloroquine, an",
+            "classification": {
+              "study_type": "Case Report (cyclosporine for follicular mucinosis, indirect comparator)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36873884",
+            "title": "Clinicopathological features, therapeutic options, and significance of CD103 expression in 15 patients with follicular mucinosis.",
+            "authors": [
+              "Wang Jiaqi",
+              "Wang Yanqing",
+              "Zhou Hongyu",
+              "Wang Ping",
+              "Zhu Mengyan"
+            ],
+            "journal": "Frontiers in medicine",
+            "year": "2023",
+            "abstract": "Follicular mucinosis (FM) is generally divided into a primary benign idiopathic form and a secondary form associated with mycosis fungoides.",
+            "classification": {
+              "study_type": "Retrospective Cohort (15 patients, includes HCQ as treatment option)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21242413",
+            "title": "Acneiform follicular mucinosis responding to hydroxychloroquine.",
+            "authors": [
+              "White Forrest N",
+              "Bergstresser Paul R",
+              "Lamontagne Darci",
+              "Boswell J Scott"
+            ],
+            "journal": "Archives of dermatology",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (acneiform follicular mucinosis responding to HCQ)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23968145",
+            "title": "A case of idiopathic follicular mucinosis treated with bexarotene gel.",
+            "authors": [
+              "Heyl Jennifer",
+              "Mehregan Darius",
+              "Kado Jessica",
+              "Campbell Michelle"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2014",
+            "abstract": "Topical bexarotene 1% gel is currently FDA-approved for early stage (IA and IB) persistent or refractory cutaneous T-cell lymphoma (CTCL). No uniformly effective therapy exists for follicular mucinosis, although several treatments are routinely used. There are no known reports of topical bexarotene being used in the treatment of idiopathic follicular mucinosis when there is no association with CTCL. This article reports the first case of bexarotene gel to successfully treat persistent idiopathic",
+            "classification": {
+              "study_type": "Case Report (bexarotene gel, indirect comparator)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20302581",
+            "title": "Treatment of so-called idiopathic follicular mucinosis with hydroxychloroquine.",
+            "authors": [
+              "Schneider S W",
+              "Metze D",
+              "Bonsmann G"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2010",
+            "abstract": "There exists no treatment of choice for follicular mucinosis (FM). Historically two distinct entities of FM have been proposed: FM of children and young adults not associated with other diseases ('idiopathic' FM), and FM in elderly patients associated with mycosis fungoides and Sézary syndrome ('lymphoma-associated' FM). Nowadays it is suggested that 'idiopathic' FM might represent a localized form of cutaneous T-cell lymphoma. Six patients with 'idiopathic' FM were treated with hydroxychloroqui",
+            "classification": {
+              "study_type": "Case Series (HCQ direct treatment for idiopathic follicular mucinosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛囊黏蛋白症（follicular mucinosis）涉及 T 細胞介導的毛囊上皮損傷，HCQ 的抗炎作用可抑制毛囊周圍 T 細胞浸潤及黏蛋白異常沉積。兩篇直接報告（2010、2011）顯示特發性毛囊黏蛋白症對 HCQ 有臨床反應",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+      "txgnn": {
+        "score": 0.983998954296112,
+        "rank": 14822
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為 OMIM 記錄之極罕見遺傳性毛髮疾病（基因缺陷所致），無任何臨床試驗或文獻支持 HCQ 用於此症。HCQ 之免疫調節機制與遺傳性角蛋白/橋粒缺損的病理機轉無直接關聯；預測僅基於知識圖譜中「毛髮疾病」節點群集效應",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "txgnn": {
+        "score": 0.983714997768402,
+        "rank": 14967
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見多系統遺傳症候群，脫髮為遺傳缺損的組成特徵而非免疫介導，無任何文獻支持 HCQ 介入。TxGNN 高分預測可能反映「脫髮」語意節點的共同召回，機轉上無合理連結",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "alopecia areata",
+      "txgnn": {
+        "score": 0.9820966720581056,
+        "rank": 15961
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06887517",
+            "title": "Chinese Rheumatism Biobank(CRB)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 300,
+            "start_date": "2025-02-10",
+            "completion_date": "2033-04-01",
+            "brief_summary": "Early prediction of major organ damage in SLE needs to dynamically track the evolution of SLE patients before and after the onset of major organ damage, and analyze the microscopic molecular evolution patterns synchronized with the macroscopic pathophysiological changes.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "中國風濕病生物樣本庫，主要收集自身免疫疾病數據，與 AA 無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT00176982",
+            "title": "Open Label Study of Hydroxychloroquine for Alopecia Areata, Alopecia Totalis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2002-04",
+            "completion_date": "2008-01",
+            "brief_summary": "Alopecia areata is an autoimmune condition resulting in hair loss and complete baldness (alopecia totalis). Published evidence says that it is mediated by T-lymphocytes. Plaquenil is an anti-inflammatory drug approved by the FDA for malaria, lupus erythematosus, and rheumatoid arthritis. It has an effect on T-lymphocyte mediated inflammation, making it a logical choice for a treatment trail for alopecia areata.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 開放標籤研究，直接針對 AA/AT，n=16，已完成。無對照組、規模小，屬早期可行性數據，但為目前針對 AA 最直接的 HCQ 臨床試驗"
+            }
+          },
+          {
+            "nct_id": "NCT07396168",
+            "title": "Nemolizumab to Treat Lichen Planopilaris, a Noncontrolled, Prospective, Pilot Study.",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 10,
+            "start_date": "2026-02-01",
+            "completion_date": "2027-06",
+            "brief_summary": "Lichen planopilaris (LPP) is a primary lymphocytic cicatricial alopecia characterized by progressive, permanent hair loss and scalp symptoms such as pruritus and burning. Current treatments-including topical and intralesional corticosteroids, hydroxychloroquine, and immunosuppressants-are often inadequate, with limited evidence for efficacy and frequent treatment switching or discontinuation due to side effects or lack of response.1,2 Recent systematic reviews and meta-analyses highlight the nee",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Nemolizumab 用於 LPP 之 Phase 4 研究，非 HCQ，對本分析無直接貢獻"
+            }
+          },
+          {
+            "nct_id": "NCT02466243",
+            "title": "A Phase 2, Double-blind, Randomized, Placebo-controlled Study to Investigate the Safety, Tolerability, and Efficacy of JBT-101 in Subjects With Dermatomyositis",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 22,
+            "start_date": "2015-06",
+            "completion_date": "2021-01-29",
+            "brief_summary": "The purpose of this study is to evaluate the safety, tolerability and efficacy of JBT-101 in adult subjects with skin-predominant, dermatomyositis (DM) that is refractory to at least 3 months treatment with hydroxychloroquine.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 雙盲 RCT，直接針對 AA，已終止（n=22/計劃）。終止原因未揭露，但已積累的數據具有重要參考價值；終止事件本身亦是負向信號"
+            }
+          },
+          {
+            "nct_id": "NCT06512766",
+            "title": "Cicatricial Alopecia: a Retrospective Study on the Systemic Treatment of Lichen Planopilaris and Frontal Fibrosing Alopecia",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 315,
+            "start_date": "2022-09-23",
+            "completion_date": "2023-02-01",
+            "brief_summary": "This retrospective study aims to assess the effectiveness of systemic treatments for lichen planopilaris (LPP) and frontal fibrosing alopecia (FFA) in patients treated at the Erasmus MC University Medical Center. LPP and FFA are chronic inflammatory hair disorders leading to irreversible hair loss. The study evaluates treatment responses to systemic medications, including hydroxychloroquine, methotrexate, cyclosporine A, and retinoids.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "回顧性研究，瘢痕性脫髮（LPP/FFA）系統治療，n=315，已完成，可能包含 HCQ 真實世界數據"
+            }
+          },
+          {
+            "nct_id": "NCT06512753",
+            "title": "The Effectiveness of Hydroxychloroquine Versus Methotrexate in the Treatment of Lichen Planopilaris in Routine Clinical Care: a Patient Preference Trial",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 56,
+            "start_date": "2024-07-01",
+            "completion_date": "2026-07-01",
+            "brief_summary": "Rationale Lichen planopilaris (LPP) is a prevalent form of cicatricial alopecia, predominantly affecting women and causing irreversible hair loss. Hydroxychloroquine (HCQ) and methotrexate (MTX) are the most frequently used systemics for treatment of LPP in daily practice. Due to the absence of well-established treatment guidelines, this study aims to evaluate the effectiveness of HCQ and MTX in routine clinical care.\n\nObjective(s) To investigate the effectiveness of HCQ and MTX in the treatment",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "HCQ vs MTX 比較研究，針對扁平苔癬性脫髮（LPP），與 AA 為不同疾病但同屬免疫性脫髮，可作為 HCQ 在毛髮免疫疾病中療效比較的間接參考"
+            }
+          },
+          {
+            "nct_id": "NCT07190534",
+            "title": "The Effectiveness of Hydroxychloroquine Versus Methotrexate in the Treatment of Frontal Fibrosing Alopecia in Routine Clinical Care: a Patient Preference Trial",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 50,
+            "start_date": "2025-11",
+            "completion_date": "2027-05",
+            "brief_summary": "Frontal fibrosing alopecia (FFA) is a type of scarring hair loss that mostly affects women and causes permanent hair loss. Two medicines, hydroxychloroquine (HCQ) and methotrexate (MTX), are often used to treat FFA, but it is not yet clear which treatment works better. This study aims to compare the effects of HCQ and MTX in everyday clinical care.\n\nAdults with FFA who choose to start either HCQ or MTX and will be followed for up to 48 weeks.\n\nThe main goal is to see how well each medicine helps",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "HCQ vs MTX 用於額部纖維化脫髮（FFA），屬瘢痕性脫髮（不同於 AA 之非瘢痕性），機轉部分重疊，研究結果可提供 HCQ 效力比較數據"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33940103",
+            "title": "Treatment of pediatric alopecia areata: A systematic review.",
+            "authors": [
+              "Barton Virginia R",
+              "Toussi Atrin",
+              "Awasthi Smita",
+              "Kiuru Maija"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2022",
+            "abstract": "Alopecia areata (AA) is an autoimmune, nonscarring hair loss disorder with slightly greater prevalence in children than adults. Various treatment modalities exist; however, their evidence in pediatric AA patients is lacking.",
+            "classification": {
+              "study_type": "Systematic Review (pediatric AA treatment, 2022)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39893632",
+            "title": "Efficacy, safety and tolerability of drugs for alopecia: a comprehensive review.",
+            "authors": [
+              "Valdez-Zertuche Jair Alejandro",
+              "Ramírez-Marín Hassiel Aurelio",
+              "Tosti Antonella"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2025",
+            "abstract": "Alopecia, encompassing non-scarring and scarring types, presents therapeutic challenges requiring individualized approaches based on pathophysiology and treatment responses. A comprehensive literature search of PubMed/MEDLINE, Embase, Cochrane Library, Scopus, and Web of Science (2015-2024) focused on randomized controlled trials, meta-analyses, and observational studies.",
+            "classification": {
+              "study_type": "Comprehensive Review (alopecia drugs, 2025)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29575039",
+            "title": "Alopecia areata treated with hydroxychloroquine: A retrospective study of nine pediatric cases.",
+            "authors": [
+              "Yun Duri",
+              "Silverberg Nanette B",
+              "Stein Sarah L"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2018",
+            "abstract": "Alopecia areata is a common hair loss condition that is often emotionally devastating for patients. There is a paucity of effective treatments available. Hydroxychloroquine has been reported as variably effective in inducing significant hair regrowth in adults with alopecia areata. The objective of this retrospective study was to assess the benefit and tolerability of hydroxychloroquine in pediatric alopecia areata.",
+            "classification": {
+              "study_type": "Retrospective Case Series (9 pediatric AA cases treated with HCQ, 2018)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33167077",
+            "title": "Co-localization of alopecia areata and lichen planopilaris in a patient receiving immunosuppressants: A rare case.",
+            "authors": [
+              "Mofarrah Ramin",
+              "Mofarrah Ramina",
+              "Jahani Amiri Kousar",
+              "Ghasemi Maryam"
+            ],
+            "journal": "Journal of cosmetic dermatology",
+            "year": "2021",
+            "abstract": "AA is an acquired dermatosis distributed universally, with multifactorial etiology. It affects the hair follicle with or without nail involvement, resulting in an acute nonscarring alopecia with a relapsing course.1 Being a relatively common skin disease, LPP (lichen planopilaris) is initiated by a chronic lymphocytic inflammation that selectively destructs the hair follicles and eventually leads to scarring alopecia. Also, even though there is enough literature available for the co-existence of",
+            "classification": {
+              "study_type": "Case Report (co-localization AA + LPP under immunosuppressants)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33630354",
+            "title": "Therapeutic management in paediatric alopecia areata: A systematic review.",
+            "authors": [
+              "Waśkiel-Burnat A",
+              "Kołodziejak M",
+              "Sikora M",
+              "Stochmal A",
+              "Rakowska A"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2021",
+            "abstract": "Alopecia areata is the third most common cause of dermatology consultations in children but the treatment of paediatric alopecia areata remains challenging. A systematic review of the literature about the treatment of alopecia areata in children (≤18 years old) was performed on 11 May 2020 by searching the PubMed, Scopus and EBSCO databases. The terms used for the search were: 'alopecia areata', 'alopecia totalis' or 'alopecia universalis' combined with 'paediatric', 'children' or 'childhood'. A",
+            "classification": {
+              "study_type": "Systematic Review (pediatric AA therapeutic management, 2021)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35199735",
+            "title": "Alopecia Universalis Associated with Hyperthyroidism Treated with Azathioprine and Hydroxychloroquine: A Case Report.",
+            "authors": [
+              "Paudel Vikash",
+              "Chudal Deepa",
+              "Pradhan Manish Bhakta",
+              "Thakur Rupa",
+              "Pandey Buddhi Raj"
+            ],
+            "journal": "JNMA; journal of the Nepal Medical Association",
+            "year": "2021",
+            "abstract": "Alopecia universalis is an uncommon form of alopecia areata involving hair loss over the entire scalp and body. This condition is difficult to treat and sustain the growth of hair for longer duration. We report a case of alopecia universalis associated with severe hyperthyroidism. A lady in her fourth decade presented to us with gradual onset of alopecia universalis, who later found to have hyperthyroidism which was refractory to multiple treatment modalities. She was treated successfully with a",
+            "classification": {
+              "study_type": "Case Report (AA + hyperthyroidism, HCQ + azathioprine combination)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21570572",
+            "title": "[Pseudopelade of Brocq].",
+            "authors": [
+              "Kluger N",
+              "Assouly P"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review/Case (Pseudopelade of Brocq, HCQ mentioned, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33911611",
+            "title": "Twenty-Nail Dystrophy Treated with Hydroxychloroquine in a Patient with Alopecia Areata.",
+            "authors": [
+              "Bae Soo Hyeon",
+              "Jang Seok Hwan",
+              "Won Young Ho"
+            ],
+            "journal": "Annals of dermatology",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (twenty-nail dystrophy + AA treated with HCQ)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27051848",
+            "title": "Hydroxychloroquine is ineffective in treatment of alopecia totalis and extensive alopecia areata: A case series of 8 patients.",
+            "authors": [
+              "Nissen Christoffer V",
+              "Wulf Hans Christian"
+            ],
+            "journal": "JAAD case reports",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "Retrospective Study (NEGATIVE: HCQ ineffective for alopecia totalis/extensive AA)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38058539",
+            "title": "Use of Hydroxychloroquine in Hair Disorders.",
+            "authors": [
+              "Ravipati Advaitaa",
+              "Randolph Michael",
+              "Al-Salhi Waleed",
+              "Tosti Antonella"
+            ],
+            "journal": "Skin appendage disorders",
+            "year": "2023",
+            "abstract": "Hydroxychloroquine (HCQ) is an antimalarial that is utilized to treat a range of dermatologic and autoimmune disorders. With its ability to alter immunologic mechanisms, it has been used to slow or halt the progression of hair loss in conditions secondary to autoimmune dysfunction. Lichen planopilaris (LPP), frontal fibrosing alopecia (FFA), and alopecia areata (AA) are hair disorders with underlying autoimmune components and no standardized treatment guidelines. We summarized the available lite",
+            "classification": {
+              "study_type": "Narrative Review (HCQ use in hair disorders, 2023)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38313572",
+            "title": "JAK Inhibitors in the Treatment of Lichen Planopilaris.",
+            "authors": [
+              "Nasimi Maryam",
+              "Ansari Mahshid Sadat"
+            ],
+            "journal": "Skin appendage disorders",
+            "year": "2024",
+            "abstract": "Lichen planopilaris (LPP) is an autoimmune disorder leading to lymphocytic cicatricial alopecia. Different agents such as hydroxychloroquine, methotrexate, cyclosporine, and mycophenolate mofetil have been tried to control hair loss with limited efficacy. JAK inhibitors are immune-modulating drugs which interfere with the JAK-STAT signaling pathway in lymphocytes and are used in treatment of inflammatory conditions such as rheumatoid arthritis and alopecia areata.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36744055",
+            "title": "Hydroxychloroquine for granuloma annulare: A case report on secondary hair growth in alopecia universalis.",
+            "authors": [
+              "Osman Selena",
+              "Traboulsi Danya"
+            ],
+            "journal": "SAGE open medical case reports",
+            "year": "2023",
+            "abstract": "Alopecia areata is an autoimmune disease resulting in non-scarring hair loss. Alopecia areata can progress to become alopecia totalis (loss of hair from the entire scalp) or alopecia universalis (loss of hair form the entire body), with the progression estimated to range from 7% to 30%. There are no universally proven therapies that both induce and sustain remission, and furthermore, the course of alopecia areata tends to be unpredictable, with ~80% of patients achieving spontaneous remission wi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30264512",
+            "title": "Tofacitinib for the treatment of lichen planopilaris: A case series.",
+            "authors": [
+              "Yang Christine C",
+              "Khanna Trisha",
+              "Sallee Brigitte",
+              "Christiano Angela M",
+              "Bordone Lindsey A"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2018",
+            "abstract": "Lichen planopilaris (LPP) is an inflammatory cicatricial alopecia for which many different therapies are attempted with varying success. The Janus kinase (JAK) inhibitor, tofacitinib, has been shown to be effective in treating the noncicatricial alopecia, alopecia areata. As in alopecia areata, upregulation of interferon and JAK signaling may play a role in LPP. We retrospectively reviewed the cases of 10 patients with recalcitrant LPP who were treated with oral tofacitinib. Patients received or",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33405302",
+            "title": "Telogen effluvium associated with COVID-19 infection.",
+            "authors": [
+              "Olds Hailey",
+              "Liu Jesse",
+              "Luk Kevin",
+              "Lim Henry W",
+              "Ozog David"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2021",
+            "abstract": "Telogen effluvium (TE) is characterized by diffuse hair shedding 2-3 months after a stressor, and COVID-19 infection is potentially one such stressor. Those who were infected with the virus were under immense psychosocial and physiologic stress. We retrospectively reviewed electronic medical records of 552 patients who were evaluated by a Henry Ford Health System dermatologist between February 2020 and September 2020 and had a diagnosis of COVID-19 infection. Ten patients were identified with TE",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32909635",
+            "title": "Alopecia areata in a patient with SARS-Cov-2 infection.",
+            "authors": [
+              "Sgubbi Paola",
+              "Savoia Francesco",
+              "Calderoni Ombretta",
+              "Longo Rosita",
+              "Stinchi Caterina"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12121404",
+            "title": "Lupus panniculitis clinically simulating alopecia areata.",
+            "authors": [
+              "Kossard Steven"
+            ],
+            "journal": "The Australasian journal of dermatology",
+            "year": "2002",
+            "abstract": "A 27-year-old woman with a known history of lupus erythematosus presented with two circumscribed patches of non-scarring alopecia closely resembling alopecia areata. Scalp biopsy showed a predominantly subcutaneous and deep dermal lymphocytic infiltrate that surrounded the deep follicular segments and hair bulbs, as well as the eccrine glands. There was associated hyaline fat sclerosis. The epidermis, infundibular and isthmus segments of follicles were relatively spared and lacked the lichenoid ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706933",
+            "title": "Diffuse variants of scalp lichen planopilaris: Clinical, trichoscopic, and histopathologic features of 40 patients.",
+            "authors": [
+              "Starace Michela",
+              "Orlando Gloria",
+              "Alessandrini Aurora",
+              "Baraldi Carlotta",
+              "Bruni Francesca"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2020",
+            "abstract": "Fibrosing alopecia in a pattern distribution and cicatricial pattern hair loss are poorly recognized diffuse variants of lichen planopilaris (LPP).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41552240",
+            "title": "Lupus-Associated Knee Pain: An Atypical Presentation of Systemic Lupus Erythematosus in a Young Male.",
+            "authors": [
+              "Pessoa António L",
+              "Teixeira Reis Ana",
+              "Santos Costa Ana",
+              "Rodrigues Miguel",
+              "De Almeida Robalo Carolina"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Systemic lupus erythematosus (SLE) predominantly affects young women, and its presentation in male patients may be diagnostically challenging. We report a case of a 19-year-old male presenting with bilateral inflammatory knee pain initially interpreted as patellofemoral chondromalacia. ¹⁸F-fluorodeoxyglucose positron emission tomography-computed tomography (¹⁸F-FDG PET-CT) revealed multiple symmetric hypermetabolic osteo-medullary and subcutaneous lesions suggestive of systemic inflammation. Fur",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28359766",
+            "title": "Interstitial granulomatous dermatitis associated with lupus: A case report.",
+            "authors": [
+              "Arévalo Marta",
+              "Moreno Mireia",
+              "Gratacós Jordi"
+            ],
+            "journal": "Reumatologia clinica",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "AA 為 CD8+ T 細胞攻擊毛囊免疫豁免區（毛球周圍 MHC-I 上調），HCQ 可抑制干擾素信號（IFN-γ/CXCL10 軸）並降低自身抗原呈現。然而，PMID 27051848 明確顯示 HCQ 對全禿/重症 AA 無效，提示療效可能局限於輕至中度 AA 或特定合併免疫疾病亞群",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
+      "txgnn": {
+        "score": 0.9803651571273804,
+        "rank": 16849
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8627446",
+            "title": "Accelerated nodulosis during methotrexate therapy for juvenile rheumatoid arthritis.",
+            "authors": [
+              "Muzaffer M A",
+              "Schneider R",
+              "Cameron B J",
+              "Silverman E D",
+              "Laxer R M"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1996",
+            "abstract": "We describe two patients with rheumatoid factor-positive, polyarticular-onset juvenile rheumatoid arthritis in whom accelerated nodulosis developed during methotrexate therapy. Although they had only a few nodules at diagnosis, the nodules increased in number and size 3 to 4 months after the start of methotrexate therapy in both patients. The nodules regressed after withdrawal of methotrexate therapy in one patient and were arrested with the addition of hydroxychloroquine in the other. Physician",
+            "classification": {
+              "study_type": "Case Report (MTX-induced nodulosis in JRA, mentions HCQ context, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RF+ 多關節型 JIA 在臨床與免疫病理上最接近成人 RA（HCQ 已知適應症），HCQ 作為 csDMARD 的 TLR 抑制與細胞因子下調機制具有直接外推合理性。現有文獻（PMID 8627446）屬間接證據，但 HCQ 在兒童風濕科的廣泛使用提供了安全性背景",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "juvenile chronic polyarthritis",
+      "txgnn": {
+        "score": 0.977527916431427,
+        "rank": 18202
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33548956",
+            "title": "[Application and safety of hydroxychloroquine in chronic disease among children].",
+            "authors": [
+              "Sun L",
+              "Gong Y R",
+              "Chen Q",
+              "Zhang T",
+              "Li G M"
+            ],
+            "journal": "Zhonghua er ke za zhi = Chinese journal of pediatrics",
+            "year": "2021",
+            "abstract": "Objective: To analyze the disease spectrum among children who were using hydroxychloroquine (HCQ), and evaluate the drug's safety and compliance. Methods: From January 2008 to December 2019, children from Children's Hospital of Fudan University who used HCQ were selected as subjects, the disease spectrum of HCQ was analyzed, and the drug safety and compliance were evaluated for the patients who were followed up for more than 6 months. Demographic information, diagnosis, initial dose, time of con",
+            "classification": {
+              "study_type": "Retrospective Review (HCQ safety in children with chronic disease, 2021)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1379157",
+            "title": "Pharmacological management of juvenile rheumatoid arthritis.",
+            "authors": [
+              "Rose C D",
+              "Doughty R A"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "The goals of pharmacotherapy in juvenile rheumatoid arthritis (JRA) are to suppress chronic synovitis which causes potential cartilage destruction and deformities, to control the systemic effects of inflammation (including growth retardation and nutritional deficits), relieve pain and limit psychological impact of disease. Currently available methods include nonsteroidal anti-inflammatory drugs (NSAIDs) such as aspirin, salicylates, naproxen, tolmetin, ibuprofen and indomethacin; disease modifyi",
+            "classification": {
+              "study_type": "Review (pharmacological management of JRA, 1992)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24044622",
+            "title": "Nijmegen breakage syndrome and chronic polyarthritis.",
+            "authors": [
+              "Pasic Srdjan",
+              "Cupic Maja",
+              "Jovanovic Tanja",
+              "Djukic Slobodanka",
+              "Kavaric Maja"
+            ],
+            "journal": "Italian journal of pediatrics",
+            "year": "2013",
+            "abstract": "We report on pediatric patient with Nijmegen breakage syndrome (NBS), a rare DNA repair disorder characterized by microcephaly, immunodeficiency and predisposition to malignant lymphomas, who developed juvenile idiopathic arthritis (JIA)-like polyarthritis. In patients with primary immunodeficiencies (PID), septic arthritis due to pyogenic bacteria or mycoplasmal arthritis are the most common osteoarticular manifestations. In certain PID, chronic, non-infectious arthritis resembling rheumatoid a",
+            "classification": {
+              "study_type": "Case Report (Nijmegen breakage syndrome + polyarthritis, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24728117",
+            "title": "[Not Available].",
+            "authors": [
+              "Horneff G"
+            ],
+            "journal": "Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz",
+            "year": "2002",
+            "abstract": "Juvenile idiopathic arthritis is a chronic inflammatory disease with uncertain outcome. Patients may suffer from severe joint damage leading to mutilations as well as from extra-articular manifestations. Prognosis is variable and depends in part on the number of affected joints and the occurrence of extra-articular manifestations. Treatment regimes should take this into account. Pharmacomedical treatment strategies include the application of nonsteroidal antirheumatics, corticosteroids, sulfasal",
+            "classification": {
+              "study_type": "Review (not available, content unverifiable)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11945114",
+            "title": "Safety and efficacy of disease-modifying anti-rheumatic agents: focus on the benefits and risks of etanercept.",
+            "authors": [
+              "Fleischmann Roy",
+              "Iqbal Imran",
+              "Nandeshwar Pallavi",
+              "Quiceno Andres"
+            ],
+            "journal": "Drug safety",
+            "year": "2002",
+            "abstract": "The traditional approach to the treatment of rheumatoid arthritis (RA) has been the use of nonsteroidal anti-inflammatory drugs usually in combination with a disease-modifying antirheumatic drug (DMARD) such as hydroxychloroquine, gold, sulfasalazine, methotrexate, leflunomide or cyclosporin. Each of these DMARDs has its own distinct toxicities but has also been shown to be effective in reducing signs and symptoms of disease and to some extent, reduce radiological progression. Within the past 10",
+            "classification": {
+              "study_type": "Review (safety and efficacy of DMARDs in JIA, 2002)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34190324",
+            "title": "Inflammatory Arthritis Among Military Servicemen From a Rheumatology Center in Singapore.",
+            "authors": [
+              "Chua Choon-Guan",
+              "Thong Bernard Yu-Hor"
+            ],
+            "journal": "Military medicine",
+            "year": "2023",
+            "abstract": "Musculoskeletal disorders are one of the most common reasons military servicemen seek medical care during their line of duty. This study aims to review the clinical profile and outcomes of military personnel with inflammatory arthritis (IA) referred to a specialist rheumatology center in Singapore.",
+            "classification": {
+              "study_type": "Retrospective Cohort (inflammatory arthritis, military cohort)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26678914",
+            "title": "The role of synthetic drugs in the biologic era: therapeutic strategies for treating juvenile idiopathic arthritis.",
+            "authors": [
+              "Hügle Boris",
+              "Horneff Gerd"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2016",
+            "abstract": "Juvenile idiopathic arthritis is the most frequent chronic rheumatic disease in childhood. Synthetic disease modifying drugs (DMARDs) have been used in its treatment since the 1980s and have led to substantial improvement of quality of life and disease outcome. Recent pharmacological research has focused on newer medications, especially biologic agents.",
+            "classification": {
+              "study_type": "Systematic Review (DMARDs in JIA biologic era, 2016)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9187235",
+            "title": "Combination of second-line antirheumatic drugs.",
+            "authors": [
+              "Haagsma C J",
+              "van Riel P L"
+            ],
+            "journal": "Annals of medicine",
+            "year": "1997",
+            "abstract": "Single drug therapy is often not satisfactory in the treatment of chronic arthritis. The combination of second-line antirheumatic drugs is therefore increasingly employed. Various strategies of combining drugs can be used, starting with combinations or adding agents in case of insufficient effect of single therapy. Effective combinations have to be found empirically because lack of knowledge about pharmacodynamics and pharmacokinetics often hinders rational choices. Few controlled studies on com",
+            "classification": {
+              "study_type": "Review (combination second-line antirheumatic drugs)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20149327",
+            "title": "A Brazilian registry of juvenile dermatomyositis: onset features and classification of 189 cases.",
+            "authors": [
+              "Sato J O",
+              "Sallum A M E",
+              "Ferriani V P L",
+              "Marini R",
+              "Sacchetti S B"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "2009",
+            "abstract": "To describe onset features, classification and treatment of juvenile dermatomyositis (JDM) and juvenile polymyositis (JPM) from a multicentre registry.",
+            "classification": {
+              "study_type": "Registry Study (Brazilian JDM registry, HCQ co-treatment context)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27629113",
+            "title": "Characterization of chronic arthritis in a multicenter study of 852 childhood-onset systemic lupus erythematosus patients.",
+            "authors": [
+              "Sakamoto Ana Paula",
+              "Silva Clovis Artur",
+              "Ferriani Mariana Paes Leme",
+              "Pereira Rosa Maria Rodrigues",
+              "Bonfá Eloisa"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2016",
+            "abstract": "Chronic arthritis (CA) is an unusual condition in childhood-onset systemic lupus erythematosus (cSLE) and data in children is very limited. The aim of the study is to assess CA in a large population of cSLE patients, in a multicenter cross-sectional study including 852 cSLE patients followed in ten Pediatric Rheumatology referral services in state of São Paulo, Brazil. CA was observed in 32/852 (3.7 %) cSLE patients mostly in hands and ankles. Chronic monoarthritis was diagnosed in four cSLE pat",
+            "classification": {
+              "study_type": "Multicenter Retrospective Cohort (childhood-onset SLE with arthritis, n=852)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39224038",
+            "title": "Outcomes from a Multidisciplinary Otolaryngology and Rheumatology Clinic for the Management of Chronic Sialadenitis.",
+            "authors": [
+              "Holley Anna G",
+              "Stern Sara M",
+              "Park Albert H"
+            ],
+            "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+            "year": "2025",
+            "abstract": "Determine the outcomes in children with recurrent sialadenitis after establishment of a multidisciplinary pediatric otolaryngology and rheumatology clinic.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1543666",
+            "title": "Immunopathology, rheumatic features, and therapy of sarcoidosis.",
+            "authors": [
+              "Mathur A",
+              "Kremer J M"
+            ],
+            "journal": "Current opinion in rheumatology",
+            "year": "1992",
+            "abstract": "A spectrum of immune alterations underlies the clinical syndrome of sarcoidosis. There is an increase in the number of helper T lymphocytes at sites of disease activity. Both macrophages and T cells are in a state of activation. Inflammation in sarcoidosis probably attracts specific T lymphocytes, as has been shown by the preferential usage of the C beta 1 elements of the T-cell antigen receptor. Acute sarcoid arthritis is distinctly different in its HLA association and clinical outcome than chr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32787461",
+            "title": "Hydroxychloroquine-Induced Toxic Myopathy Causing Diaphragmatic Weakness and Lung Collapse Requiring Prolonged Mechanical Ventilation.",
+            "authors": [
+              "Pillittere Julie",
+              "Mian Sundus",
+              "Richardson Timothy E",
+              "Perl Andras"
+            ],
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2020",
+            "abstract": "A 42-year-old woman with juvenile idiopathic arthritis was treated with anakinra, corticosteroids, and hydroxychloroquine when she developed chronic hypoxic respiratory myopathy. She was admitted to the intensive care unit for acute hypercapnic respiratory failure and required prolonged intubation, subsequent tracheostomy, and long-term ventilatory support due to multiple failed spontaneous breathing trials after discontinuation of anakinra and steroids. Muscle biopsy revealed type II fiber atro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18034568",
+            "title": "Comparative tolerability of treatments for juvenile idiopathic arthritis.",
+            "authors": [
+              "Prieur A M",
+              "Quartier P"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2000",
+            "abstract": "Juvenile idiopathic arthritis (JIA) includes several forms of chronic arthritis in children. Treatments are chosen according to the type and severity of the disease. Nonsteroidal anti-inflammatory drugs (NSAIDs) and corticosteroids remain the mainstays of therapy. Traditional slower acting anti-rheumatic drugs, such as gold therapy, penicillamine, sulfasalazine, tiopronin and hydroxychloroquine, are usually poorly active in children. In addition, adverse effects are common, including severe macr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9523387",
+            "title": "Third-degree atrioventricular block in a patient under chloroquine therapy.",
+            "authors": [
+              "Guedira N",
+              "Hajjaj-Hassouni N",
+              "Srairi J E",
+              "el Hassani S",
+              "Fellat R"
+            ],
+            "journal": "Revue du rhumatisme (English ed.)",
+            "year": "1998",
+            "abstract": "The first case of chronic cardiac toxicity due to an antimalarial agent was reported in 1971 and since then several cases of heart failure, restrictive cardiomyopathy or atrioventricular block have been ascribed to this family of drugs. We report the case of a 43-year-old woman who developed juvenile chronic arthritis at the age of ten, followed in adulthood by sero-positive rheumatoid arthritis. In 1980 she was put under chloroquine sulfate (hydroxychloroquine was not available) in a dose of 20",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6829384",
+            "title": "Treatment of juvenile arthritis.",
+            "authors": [
+              "Baum J"
+            ],
+            "journal": "American family physician",
+            "year": "1983",
+            "abstract": "Aspirin remains the cornerstone of treatment for juvenile arthritis, although tolmetin may be more effective in controlling the fever of systemic-onset disease. Tolmetin and naproxen appear to be more effective in HLA-B27 positive males with pauciarticular disease. When the nonsteroidal anti-inflammatory drugs fail, gold, penicillamine and, occasionally, immunosuppressive agents may be used in the polyarticular forms. Prosthetic joint replacement may be beneficial for patients with extensive dis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3614954",
+            "title": "[Drug therapy of chronic juvenile arthritis].",
+            "authors": [
+              "Tulzer W"
+            ],
+            "journal": "Padiatrie und Padologie",
+            "year": "1987",
+            "abstract": "Children suffering from juvenile chronic arthritis need a longterm therapy and guidance for many years, in course of which drug therapy is only one part of the whole treatment regimen. This article gives a review about the actual available drugs with mode of action, indications and side effects. Finally follow some suggestions for practicable therapeutic guidelines on different courses of juvenile chronic arthritis which include also the possibility for the necessary individual adaptation to the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6082201",
+            "title": "[Chronic oligoarthritis in children].",
+            "authors": [
+              "Mozziconacci P",
+              "Hayem F",
+              "Guy-Grand D"
+            ],
+            "journal": "Revue du rhumatisme et des maladies osteo-articulaires",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9779314",
+            "title": "Lymphocytic interstitial pneumonitis preceding polyarticular juvenile rheumatoid arthritis.",
+            "authors": [
+              "Uziel Y",
+              "Hen B",
+              "Cordoba M",
+              "Wolach B"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "1998",
+            "abstract": "We describe the case of a 12-year-old girl who developed lymphocytic interstitial pneumonitis at 2 years of age which preceded polyarticular rheumatoid factor (RF) positive juvenile arthritis. Her disease had a chronic active course, but showed a good response to combination therapy. The pathogenesis of these two immune processes and of the lung involvement in juvenile arthritis is discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HCQ 是兒科風濕科指引認可的 csDMARD（2016 EULAR/ACR JIA 治療建議），其 TLR7/9 抑制與 IL-1/IL-6/TNF-α 下調機制在多關節炎中有明確生物學基礎。多篇系統性回顧（PMID 26678914、11945114）確認其在 JIA 中的安全性與療效，PMID 33548956 特別評估兒童 HCQ 安全性。主要監控需求：視網膜毒性（長期使用）、心律不整（QTc 延長）",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "rheumatoid nodulosis",
+      "txgnn": {
+        "score": 0.9775245189666748,
+        "rank": 18203
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01664117",
+            "title": "Study of the Profile and Clinical Management of Patients With Rheumatoid Arthritis Treated With Biologic Therapy Alone",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 210,
+            "start_date": "2012-06",
+            "completion_date": "2013-06",
+            "brief_summary": "This observational multicenter study will evaluate the management of disease and safety in clinical practice in patients with moderate to severe rheumatoid arthritis receiving any biological therapies in monotherapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "RA 患者使用生物製劑的觀察性登記研究（n=210，已完成），未以 HCQ 或結節治療為主要研究目的，僅可能提供真實世界中 HCQ 合併使用時的結節發生率數據"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8261056",
+            "title": "Accelerated nodulosis and systemic manifestations during methotrexate therapy for rheumatoid arthritis.",
+            "authors": [
+              "Combe B",
+              "Didry C",
+              "Gutierrez M",
+              "Anaya J M",
+              "Sany J"
+            ],
+            "journal": "The European journal of medicine",
+            "year": "1993",
+            "abstract": "Methotrexate is successfully used in the treatment of arthritis but little is known about its effects on extra-articular manifestations of rheumatoid arthritis. We focused this work on the incidence and clinical course of extra-articular manifestations during long-term treatment with methotrexate.",
+            "classification": {
+              "study_type": "Case Series (accelerated nodulosis + systemic manifestations on MTX)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10458088",
+            "title": "Methotrexate nodulosis.",
+            "authors": [
+              "Jang K A",
+              "Choi J H",
+              "Moon K C",
+              "Yoo B",
+              "Sung K J"
+            ],
+            "journal": "The Journal of dermatology",
+            "year": "1999",
+            "abstract": "Methotrexate (MTX) nodulosis in patients with rheumatoid arthritis treated with MTX has become a well recognized phenomenon. It has not been described in patients receiving MTX for treatment of other diseases, e.g., dermatological or malignant diseases. Recently, MTX nodulosis was described in a patient with psoriasis and arthritis. The pathophysiology and treatment of MTX nodulosis are yet unsettled. We experienced a case with dermatomyositis who developed multiple subcutaneous nodules after tr",
+            "classification": {
+              "study_type": "Review (MTX nodulosis mechanisms and management)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12222551",
+            "title": "A review of methotrexate-induced accelerated nodulosis.",
+            "authors": [
+              "Patatanian Edna",
+              "Thompson Dennis F"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2002",
+            "abstract": "To review the English-language literature on methotrexate-induced accelerated nodulosis, compile case reports of its occurrences, and make recommendations on the clinical management of patients.",
+            "classification": {
+              "study_type": "Review (MTX-induced accelerated nodulosis, comprehensive, 2002)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39754918",
+            "title": "Rheumatologic complications of CAR-T Cell therapy. Experience of a single center.",
+            "authors": [
+              "Gómez-Puerta José A",
+              "Monegal Ana",
+              "Ponce Andrés",
+              "Peris Pilar",
+              "Martínez-Cibrian Nuria"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2025",
+            "abstract": "Chimeric Antigen Receptor T-cell (CAR-T) therapy has emerged as a promising treatment for hematological malignancies. However, its association with immune-related complications such as rheumatic complications, is not well defined.",
+            "classification": {
+              "study_type": "Retrospective Cohort (CAR-T rheumatologic complications, 2025)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39886296",
+            "title": "Methotrexate-Induced Accelerated Nodulosis: A Case Series.",
+            "authors": [
+              "Subramanian Ramaswamy",
+              "Chettri Nikita",
+              "Bisaralli Rahul",
+              "Bansa Purna",
+              "Mamadapur Mahabaleshwar"
+            ],
+            "journal": "Mediterranean journal of rheumatology",
+            "year": "2024",
+            "abstract": "Methotrexate-induced nodulosis, also known as methotrexate-induced accelerated nodulosis (MIAN), is a rare side effect of methotrexate therapy. Methotrexate (MTX) is commonly used to treat various autoimmune diseases, such as rheumatoid arthritis, psoriasis, and inflammatory bowel disease. In this case series, we present patients with MIAN, discussing their clinical features, diagnostic approaches, and management strategies. We aim to increase recognition of this rare side effect of MTX therapy,",
+            "classification": {
+              "study_type": "Case Series (MTX-induced accelerated nodulosis, 2024)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4573028",
+            "title": "Rheumatoid arthritis.",
+            "authors": [],
+            "journal": "JAMA",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review (RA overview, 1973, historical reference only)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29859543",
+            "title": "Accelerated subcutaneous nodulosis in patients with rheumatoid arthritis treated with tocilizumab: a case series.",
+            "authors": [
+              "Talotta Rossella",
+              "Atzeni Fabiola",
+              "Batticciotto Alberto",
+              "Ditto Maria Chiara",
+              "Gerardi Maria Chiara"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2018",
+            "abstract": "Tocilizumab is a monoclonal antibody directed against the interleukin-6 receptor, which is approved for the treatment of moderate-to-severe rheumatoid arthritis. Authors have found that it prevents lung and subcutaneous nodulosis in patients with rheumatoid arthritis but, to the best of our knowledge, there are no data concerning the acceleration of subcutaneous nodulosis during tocilizumab therapy.",
+            "classification": {
+              "study_type": "Case Series (tocilizumab-induced subcutaneous nodulosis)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15645976",
+            "title": "Methotrexate induced accelerated nodulosis.",
+            "authors": [
+              "Agarwal V",
+              "Aggarwal Amita",
+              "Misra R"
+            ],
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2004",
+            "abstract": "Methotrexate induced accelerated nodulosis (MIAN) is a rare but unique side effect of methotrexate therapy. There is paucity of data from our country about this entity. We analyzed 14 cases of MIAN and studied its association with gender, rheumatoid factor positivity and dose and duration of methotrexate. Fourteen patients (8 females), 12 with rheumatoid arthritis (8 seropositive), one each with juvenile idiopathic (JIA) and psoriatic arthritis (PsA) were detected to have MIAN during study perio",
+            "classification": {
+              "study_type": "Case Report (MTX-induced accelerated nodulosis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26284464",
+            "title": "Rheumatoid nodulosis with extra-articular cyst synovitis.",
+            "authors": [
+              "Dhaon Pooja",
+              "Das Siddharth",
+              "Sharma Arti",
+              "Wakhlu Archana",
+              "Goel Madhu Mati"
+            ],
+            "journal": "International journal of rheumatic diseases",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (rheumatoid nodulosis + extra-articular cyst synovitis)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8496880",
+            "title": "Possible efficacy of hydroxychloroquine on accelerated nodulosis during methotrexate therapy for rheumatoid arthritis.",
+            "authors": [
+              "Combe B",
+              "Guttierrez M",
+              "Anaya J M",
+              "Sany J"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series (possible HCQ efficacy for MTX-induced nodulosis, DIRECT, 1993)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39243370",
+            "title": "Beyond rheumatoid nodules in rheumatoid arthritis.",
+            "authors": [
+              "Cadório Maria João",
+              "Teixeira João",
+              "Oliveira João",
+              "Santiago Tânia",
+              "Gonçalo Margaria"
+            ],
+            "journal": "ARP rheumatology",
+            "year": "2024",
+            "abstract": "Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease predominantly affecting synovial joints. Extra-articular manifestations, including skin involvement, can also occur. The most frequent cutaneous manifestation in RA patients is rheumatoid nodules, occurring in 20-30% of seropositive individuals. These nodules are typically firm, painless, and located on pressure points such as the hands and elbows. However, in a minority of cases, other skin conditions can complicate RA, notably ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12540080",
+            "title": "The influence of rheumatoid chemotherapy, age, and presence of rheumatoid nodules on postoperative complications in rheumatoid foot and ankle surgery: analysis of 725 procedures in 104 patients [corrected].",
+            "authors": [
+              "Bibbo Christopher",
+              "Anderson Robert B",
+              "Davis W Hodges",
+              "Norton Jim"
+            ],
+            "journal": "Foot & ankle international",
+            "year": "2003",
+            "abstract": "The records of 104 patients who underwent reconstructive foot and ankle surgery for deformities secondary to rheumatoid arthritis were reviewed. The use of rheumatoid chemotherapeutic agents, age, sex, rheumatoid nodule status, and the number of concurrent surgical procedures performed was analyzed to determine any association with the postoperative outcome for wound healing and infectious complications. The 104 patients, ranging in age from 23 to 83 years, underwent 725 operative procedures. An",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5772520",
+            "title": "Diffuse interstitial pulmonary fibrosis and rheumatoid arthritis.",
+            "authors": [
+              "Walker W C",
+              "Wright V"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38061720",
+            "title": "Methotrexate-Induced Accelerated Nodulosis in a Patient with Systemic Lupus Erythematosus.",
+            "authors": [
+              "Kwon Hyeong Mok",
+              "Jeong Eun Hye",
+              "Yim Jung Eun",
+              "Kim Hye Ri",
+              "Shin Dong Hoon"
+            ],
+            "journal": "Annals of dermatology",
+            "year": "2023",
+            "abstract": "Methotrexate (MTX)-induced accelerated nodulosis (MIAN) reportedly occurs in patients with rheumatic arthritis receiving MTX therapy. However, it has also been reported in patients with other autoinflammatory conditions, such as systemic lupus erythematosus (SLE). A 38-year-old woman diagnosed with SLE presented with multiple movable, firm, flesh-colored nodules on both hands that had developed 3 years ago. She was taking oral medications, specifically hydroxychloroquine, azathioprine, and MTX. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1865421",
+            "title": "Complete reversal of rheumatoid nodulosis.",
+            "authors": [
+              "McCarty D J"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1991",
+            "abstract": "A woman first seen in 1978 had a history of seropositive rheumatoid arthritis (RA) of 12 years' duration with attacks of palindromic rheumatism for 3 years. She was treated with D-penicillamine, pyridoxine and hydroxychloroquine and serial measurements of her grip strength and proximal interphalangeal joint circumference were taken. By 1987 all her nodules had resorbed completely. Hydroxychloroquine effects probably helped her improvement. Although spontaneous resorption of a rheumatoid nodule i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8627446",
+            "title": "Accelerated nodulosis during methotrexate therapy for juvenile rheumatoid arthritis.",
+            "authors": [
+              "Muzaffer M A",
+              "Schneider R",
+              "Cameron B J",
+              "Silverman E D",
+              "Laxer R M"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1996",
+            "abstract": "We describe two patients with rheumatoid factor-positive, polyarticular-onset juvenile rheumatoid arthritis in whom accelerated nodulosis developed during methotrexate therapy. Although they had only a few nodules at diagnosis, the nodules increased in number and size 3 to 4 months after the start of methotrexate therapy in both patients. The nodules regressed after withdrawal of methotrexate therapy in one patient and were arrested with the addition of hydroxychloroquine in the other. Physician",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15195871",
+            "title": "Rheumatoid nodules and reflux disease.",
+            "authors": [
+              "Beaver Mary Es",
+              "Stasney C Richard",
+              "Rodriguez Margarita"
+            ],
+            "journal": "Ear, nose, & throat journal",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32436170",
+            "title": "Rheumatoid Nodule Simulating a Parotid Tumor.",
+            "authors": [
+              "Martins Sara",
+              "Fernandes Bruno Miguel",
+              "Bernardes Miguel",
+              "Melo Daniel",
+              "Neto Tiago"
+            ],
+            "journal": "Head and neck pathology",
+            "year": "2021",
+            "abstract": "Rheumatoid nodules are an extra-articular manifestation of rheumatoid arthritis that are rarely found in the maxillofacial region. A 59-year-old woman with rheumatoid arthritis treated with methotrexate, leflunomide, and tocilizumab, presented with an enlarging mass in the left parotid region. Magnetic resonance imaging (MRI) displayed a lesion compatible with a neoplasm. However, an incisional biopsy showed features consistent with a rheumatoid nodule. The patient was managed conservatively, in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34473908",
+            "title": "Extra-articular involvement of rheumatoid arthritis in three seropositive patients in the absence of initial joint involvement.",
+            "authors": [
+              "Chirila Razvan M",
+              "Berianu Florentina",
+              "Abril Andy",
+              "Butendieck Ronald R"
+            ],
+            "journal": "Immunity, inflammation and disease",
+            "year": "2021",
+            "abstract": "Extra-articular involvement (EAI) in rheumatoid arthritis (RA) is rare, severe and usually presents after years of joint involvement. Onset of RA as lung involvement has been published. We describe a series of three patients with strongly positive anti-citrullinated peptide antibodies (ACPA) and rheumatoid factor (RF) positive in the absence of joint symptoms, but with significant EAI.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10084052",
+            "title": "Accelerated nodulosis immediately after initiating weekly low dose methotrexate for rheumatoid arthritis.",
+            "authors": [
+              "Jun J B",
+              "Koh H K",
+              "Bae S C",
+              "Yoo D H",
+              "Kim S Y"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HCQ 可能透過腺苷釋放途徑（MTX 誘發腺苷積累的協同或對抗效應）及肉芽腫形成抑制，影響類風濕結節的發展。1993 年最早期報告（PMID 8496880）描述 MTX 誘發加速結節時 HCQ 的可能反向調節作用，但現有文獻主要描述結節的臨床特徵（MTX/tocilizumab/CAR-T 誘發），缺乏 HCQ 直接治療證據",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "telogen effluvium"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "telogen effluvium"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "telogen effluvium"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia antibody deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia antibody deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia antibody deficiency"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia mucinosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia mucinosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia mucinosa"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "juvenile chronic polyarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "juvenile chronic polyarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "juvenile chronic polyarthritis"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydroxychloroquine",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

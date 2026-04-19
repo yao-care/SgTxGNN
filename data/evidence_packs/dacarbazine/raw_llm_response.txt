@@ -1,0 +1,459 @@
+## Dacarbazine (DB00851) 藥物再利用證據分析
+
+> **⚠️ 關鍵資料品質警示（分析前置說明）**
+> 1. `original_indications` 標記為空屬**資料錯誤**：Dacarbazine 已核准用於惡性黑色素瘤及霍奇金淋巴瘤（ABVD 方案）
+> 2. `original_moa` 標記 `[Data Gap]` 亦屬資料缺失：實際機轉為 **DNA 烷化劑**（經肝臟 CYP450 活化 → 活性代謝物 MTIC → 甲基化鳥嘌呤 N7/O6 位置）
+> 3. **大量臨床試驗實為 Temozolomide（SCH 52365）研究**，而非 Dacarbazine 本身。兩者共享相同活性代謝物 MTIC，但 TMZ 可自發水解且 BBB 穿透性佳；**Dacarbazine 需肝臟活化且 BBB 穿透力差（腦/血漿比 < 10%）**，此差異對 CNS 腫瘤適應症影響重大，所有 TMZ 試驗證據需降級評估。
+
+---
+
+```json
+{
+  "drug": "Dacarbazine",
+  "drugbank_id": "DB00851",
+  "analysis_date": "2026-04-04",
+  "mechanistic_background": {
+    "approved_moa": "DNA 烷化劑：肝臟 CYP450（主要 CYP1A2）氧化活化 → MTIC 中間代謝物 → O6-甲基鳥嘌呤 DNA 加合物 → 錯配修復系統無效介入 → DNA 雙股斷裂 → 細胞凋亡",
+    "key_pharmacokinetic_limitation": "BBB 穿透率 < 10%（vs TMZ > 40%），肝功能依賴性活化，靜脈注射劑型",
+    "analog_note": "Temozolomide (TMZ) 為口服 prodrug，生理 pH 下自發水解為相同 MTIC，是 Dacarbazine 的下一代類似物，BBB 穿透性顯著優於 DTIC"
+  },
+  "indications": [
+    {
+      "disease_name": "upper aerodigestive tract neoplasm",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "MTIC 所致 DNA 烷化理論上對上呼吸消化道腫瘤具廣效細胞毒性。現有唯一試驗（NCT00423150）測試的是 TMZ 而非 Dacarbazine，且因療效不足提前終止，提示此類腫瘤對 MTIC 類藥物敏感性有限。Dacarbazine 本身在此適應症無任何直接臨床資料。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00423150",
+          "relevance_grade": "C",
+          "reasoning": "測試 Temozolomide（非 Dacarbazine），Phase 2，TERMINATED（因療效不足），入組 86 人。試驗終止本身即為反向訊號，顯示 MTIC 類藥物在此適應症療效有限；對 DTIC 僅具機轉類比參考價值，且需再降一級。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23443801",
+          "study_type": "Phase II Clinical Trial",
+          "tier": "2",
+          "note": "TMZ 用於進展期上呼吸消化道及大腸直腸癌 Phase II（2013），最相關文獻，但為 TMZ 非 DTIC"
+        },
+        {
+          "pmid": "20627492",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "甲狀腺髓質癌（屬頭頸部腫瘤）綜述，與本適應症邊界相關"
+        },
+        {
+          "pmid": "25772801",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "TMZ 用於侵襲性垂體瘤，垂體為上消化道鄰近結構，間接相關"
+        },
+        {
+          "pmid": "34705104",
+          "study_type": "Epidemiological Study",
+          "tier": "3",
+          "note": "EBV 相關癌症全球疾病負擔，流行病學資料，無治療指引意義"
+        }
+      ]
+    },
+    {
+      "disease_name": "small cell lung carcinoma",
+      "txgnn_score": 0.9881,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "SCLC 為高增殖率神經內分泌腫瘤，MGMT 啟動子甲基化發生率高達 60-70%，理論上對 MTIC 類 DNA 烷化劑敏感。Dacarbazine 在早期多藥化療方案中有歷史使用紀錄（1981 PMID:6268269）。TMZ 作為機轉類似物已有 Phase I/II 試驗，包含與 Olaparib（PARP 抑制劑）聯合方案，利用 SCLC 的 DNA 修復缺陷特性。然 SCLC 腦轉移率高（~40-60%），Dacarbazine 的 BBB 穿透限制在此成重要臨床問題。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02446704",
+          "relevance_grade": "B",
+          "reasoning": "Phase I/II，Olaparib + Temozolomide 用於復發 SCLC，入組 66 人，最直接相關試驗。TMZ 為 DTIC 機轉類似物，PARP 抑制劑聯合策略利用 SCLC DNA 修復缺陷，機轉可延伸至 DTIC。"
+        },
+        {
+          "nct_id": "NCT00076856",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 RCT，TMZ + 全腦放療 vs 單純放療（NSCLC/SCLC 腦轉移），完成 95 人。涵蓋 SCLC 亞群腦轉移資料，但為 TMZ 非 DTIC，且 DTIC 之 BBB 穿透差令此資料更難轉化。"
+        },
+        {
+          "nct_id": "NCT00831545",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，TMZ 用於黑色素瘤或乳癌腦轉移（非 SCLC），入組 162 人，展示 TMZ 廣效性，與 SCLC 相關性低。"
+        },
+        {
+          "nct_id": "NCT03732482",
+          "relevance_grade": "C",
+          "reasoning": "Phase II/III NSCLC，同步 TMZ vs 無 TMZ，目標 400 人，狀態 UNKNOWN。為 NSCLC 非 SCLC，間接參考。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31416802",
+          "study_type": "Phase II RCT",
+          "tier": "2",
+          "note": "Olaparib + TMZ 用於復發 SCLC Phase II（2019），奠定 PARP 抑制 + 烷化劑在 SCLC 的研究方向，最相關文獻"
+        },
+        {
+          "pmid": "38970838",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "TMZ 用於 SCLC 治療之挑戰與展望（2024），涵蓋 MGMT 甲基化生物標記、耐藥機轉等關鍵議題"
+        },
+        {
+          "pmid": "35559669",
+          "study_type": "Translational Study",
+          "tier": "3",
+          "note": "TLS（轉位病灶合成）介導 Olaparib + TMZ 在 SCLC 的獲得性耐藥，2022，提供生物標記與耐藥洞見"
+        },
+        {
+          "pmid": "6268269",
+          "study_type": "Historical RCT",
+          "tier": "2",
+          "note": "1981 年 SCLC 多藥化療 + 放射治療試驗，歷史性多藥方案可能含 DTIC，具直接歷史證據意義"
+        },
+        {
+          "pmid": "37216840",
+          "study_type": "Case Series + Systematic Review",
+          "tier": "2",
+          "note": "神經內分泌 NSCLC 系統性治療（2023），病生理與 SCLC 高度重疊，烷化劑使用模式可供參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary pulmonary lymphoma",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "原發性肺淋巴瘤以霍奇金淋巴瘤（HL）為重要亞型，Dacarbazine 為 ABVD 標準方案的四種藥物之一（Adriamycin-Bleomycin-Vinblastine-Dacarbazine）。DTIC 的 DNA 烷化作用對 HL 的 Reed-Sternberg 細胞具直接細胞毒性。已有多項 Phase 3 RCT 確認 ABVD 在各期 HL 中的療效。然而，「原發性肺霍奇金淋巴瘤」（PPHL）為罕見解剖特定亞型（發生率 < 0.5% HL），尚無針對此特定亞型設計的隨機試驗，現有 Phase 3 證據均來自全身性 HL。",
+      "guardrails_notes": [
+        "原發性肺 HL 治療應以全身性 HL 之 ABVD 方案為基礎，Dacarbazine 為標準骨幹藥物",
+        "需評估 PPHL 特定病期（局部 vs. 系統性播散）",
+        "Brentuximab Vedotin + AVD（不含 DTIC）在 Stage III/IV HL 已優於 ABVD（ECHELON-1），需注意競爭方案",
+        "此適應症 Dacarbazine 屬現行標準治療的一部分，非「再利用」情境，但在新加坡未上市背景下有可及性議題"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03159897",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，比較 HL 治療方案（含 ABVD/Dacarbazine），完成入組 500 人。Dacarbazine 作為 ABVD 骨幹之最高等級直接試驗證據。"
+        },
+        {
+          "nct_id": "NCT02247869",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，早期不良預後 HL 密集 ABVD 一線治療，完成 100 人。ABVD 含 Dacarbazine，直接相關。"
+        },
+        {
+          "nct_id": "NCT05675410",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 HL 適應性試驗，招募中（目標 1875 人），含免疫腫瘤學方案比較，可能包含 ABVD 對照組。"
+        },
+        {
+          "nct_id": "NCT06104878",
+          "relevance_grade": "C",
+          "reasoning": "A+AVD vs ABVD 比較設計（ABVD 含 Dacarbazine），但 WITHDRAWN，入組 0 人，無實際資料。"
+        },
+        {
+          "nct_id": "NCT03226249",
+          "relevance_grade": "C",
+          "reasoning": "Phase II，PET 引導 Pembrolizumab + AVD（不含 Dacarbazine），cHL 一線，展示新型無 DTIC 方案趨勢。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29224502",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "ECHELON-1 試驗：A+AVD vs ABVD 用於 Stage III/IV HL（NEJM 2018），ABVD 組含 Dacarbazine，最高等級直接證據"
+        },
+        {
+          "pmid": "17085663",
+          "study_type": "Long-term Cohort",
+          "tier": "2",
+          "note": "早期 HL 放化療（含 ABVD）長期追蹤結果（2006），確認 Dacarbazine 為骨幹的長期療效資料"
+        },
+        {
+          "pmid": "12052167",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "甲基化劑抗腫瘤活性增強策略（2002），直接討論 Dacarbazine/TMZ 機轉差異及增效方法"
+        },
+        {
+          "pmid": "38962576",
+          "study_type": "Prospective Multicenter Cohort",
+          "tier": "2",
+          "note": "HIV 相關 HL 長期治療結果（2024），ABVD 療效在免疫缺陷特殊族群的確認"
+        },
+        {
+          "pmid": "9920825",
+          "study_type": "Expert Opinion/Review",
+          "tier": "3",
+          "note": "HL 治療管理問題（1999），提供 ABVD 奠定標準治療地位的歷史脈絡"
+        }
+      ]
+    },
+    {
+      "disease_name": "well-differentiated fetal adenocarcinoma of the lung",
+      "txgnn_score": 0.9856,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高分化胎兒型肺腺癌（WDFA）為極罕見低惡性度肺部腫瘤，以胎兒型支氣管上皮分化為特徵，多數手術可治癒。DNA 烷化劑理論上對增殖期細胞具毒性，但此腫瘤的低增殖率及罕見性使化療應用尚無臨床依據。無任何試驗、文獻或病例報告支持 Dacarbazine 用於此適應症。高 TxGNN 分數可能源於知識圖譜對「肺部腫瘤」廣義節點的過度泛化。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary blastoma",
+      "txgnn_score": 0.9844,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺母細胞瘤為罕見雙相腫瘤（惡性間葉 + 上皮成分），目前無標準化療方案，偶有鉑類/依托泊苷個案報告。Dacarbazine 特定用於肺母細胞瘤缺乏任何文獻依據。TxGNN 高分數可能為圖神經網路從「肉瘤樣肺腫瘤」節點推斷（肉瘤治療有時含 DTIC）導致的假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "breast papillomatosis",
+      "txgnn_score": 0.9838,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳房乳頭狀瘤病為良性乳管上皮增生性病變，不具惡性潛力。系統性化療對良性病變不具臨床合理性（毒性遠超潛在收益），Dacarbazine 用於此適應症無任何生物學基礎、臨床試驗或文獻記載。此預測高度可疑為 TxGNN 模型將「乳房病變」與化療藥物節點錯誤連結的假陽性，應直接排除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "head and neck cancer",
+      "txgnn_score": 0.9836,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "頭頸部惡性腫瘤中，Dacarbazine 在以下特定亞型具直接臨床證據：(1) 頭頸部黏膜黑色素瘤：DTIC 為黑色素瘤核心化療藥物，已有生化化療（biochemotherapy）Phase II 試驗；(2) 甲狀腺髓質癌：有 DTIC + 5-FU 的前瞻性臨床試驗（PMID 7826911）；(3) 頭頸部軟組織肉瘤：有 DTIC + Bortezomib Phase I 試驗（NCT00580320）。Dacarbazine 的 DNA 烷化機轉對神經嵴來源腫瘤（黑色素瘤、副神經節瘤、髓質癌）具特別的生物學合理性。",
+      "guardrails_notes": [
+        "應聚焦於有直接 Dacarbazine 試驗資料的特定亞型：頭頸部黏膜黑色素瘤、甲狀腺髓質癌",
+        "頭頸部鱗狀細胞癌（最常見亞型）目前無 DTIC 直接試驗，不建議此亞型優先考慮",
+        "現代頭頸部黑色素瘤治療已轉向免疫檢查點抑制劑（PD-1/PD-L1）及 BRAF/MEK 抑制劑，DTIC 處於後線地位",
+        "NCT00354523 已終止，需評估終止原因以判斷安全性及療效訊號"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00580320",
+          "relevance_grade": "A",
+          "reasoning": "Phase I，Dacarbazine + Bortezomib 用於黑色素瘤和軟組織肉瘤，完成 17 人。直接使用 Dacarbazine 的 Phase I 試驗，最高直接相關性，安全性及初步療效資料可用。"
+        },
+        {
+          "nct_id": "NCT00354523",
+          "relevance_grade": "A",
+          "reasoning": "Phase I/II，Imatinib + Dacarbazine（可能為軟組織腫瘤），TERMINATED，入組 21 人。直接 Dacarbazine 聯合試驗，終止原因需調查。"
+        },
+        {
+          "nct_id": "NCT00423150",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，TMZ 用於進展期上呼吸消化道癌症，TERMINATED。為 TMZ 非 DTIC，已終止，對頭頸部癌症療效訊號為負面。"
+        },
+        {
+          "nct_id": "NCT03463733",
+          "relevance_grade": "C",
+          "reasoning": "Phase I，Hydroxyurea + 高劑量 TMZ（非 DTIC），54 人，狀態 UNKNOWN。TMZ 聯合方案，間接參考。"
+        },
+        {
+          "nct_id": "NCT03150810",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1b，BGB-290（PARP 抑制劑）+ 化療，完成 139 人。探索 PARP 抑制 + 化療協同，機轉延伸參考。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7826911",
+          "study_type": "Prospective Clinical Trial",
+          "tier": "2",
+          "note": "DTIC + 5-FU 用於進展期甲狀腺髓質癌（1994），直接 Dacarbazine 頭頸部腫瘤試驗，最關鍵直接文獻"
+        },
+        {
+          "pmid": "18798304",
+          "study_type": "Phase II Study",
+          "tier": "2",
+          "note": "生化化療（含 DTIC）用於頭頸部黏膜黑色素瘤（2008），直接相關，Phase II 療效資料"
+        },
+        {
+          "pmid": "31621203",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "note": "碳離子放療 + 化療（含 DTIC）用於頭頸部黏膜黑色素瘤（2019），直接相關聯合治療資料"
+        },
+        {
+          "pmid": "11005097",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "頭頸部皮膚黑色素瘤手術及輔助藥物治療（2000），討論 Dacarbazine 作為輔助化療選項"
+        },
+        {
+          "pmid": "34654328",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "頭頸部惡性副神經節瘤單一機構經驗（2024），神經嵴來源腫瘤，Dacarbazine 生物學延伸相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "salivary gland type cancer of the breast",
+      "txgnn_score": 0.9834,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳房唾液腺型癌為超罕見腫瘤（< 0.01% 乳癌），包含腺樣囊性癌等亞型，無確立標準化療方案，更無 Dacarbazine 相關資料。此 TxGNN 預測可能源於模型將「乳房癌」節點與「唾液腺癌」節點分別連結至化療藥物後的誤推，臨床不具依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "adult astrocytic tumour",
+      "txgnn_score": 0.9828,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "成人星形細胞瘤（含膠質母細胞瘤 GBM）的 DNA 烷化治療標準已由 Dacarbazine 演進至 Temozolomide。PMID 15758016（2005）直接描述此歷史轉換：TMZ 因優越的 BBB 穿透性（> 40% 腦/血漿比）取代了 DTIC（< 10%），成為 GBM 標準治療骨幹（Stupp 方案）。Dacarbazine 雖具相同活性代謝物 MTIC，但其 BBB 穿透性差是根本性藥動學障礙，無法達到腦腫瘤治療所需的組織濃度。除非開發腦靶向遞送技術（如 NP 包裹、局部給藥），否則此適應症的臨床可行性受到嚴重限制。",
+      "critical_barrier": "BBB 穿透性差（腦/血漿比 < 10% vs. TMZ > 40%）構成根本性藥動學障礙，為 L4（非 L3）評級的決定性因素",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00052455",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，TMZ vs PCV 用於復發 WHO 星形細胞瘤，完成 500 人（最大規模直接相關試驗）。為 TMZ 非 DTIC，但展示 DNA 烷化在星形細胞瘤的 Phase 3 級療效；Dacarbazine 因 BBB 限制無法直接套用此結論。"
+        },
+        {
+          "nct_id": "NCT00960492",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，XL184（Cabozantinib）+ 口服 TMZ 劑量探索，完成 26 人。探索 MET/VEGFR2 抑制 + TMZ 聯合，不涉及 Dacarbazine。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "15758009",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "Stupp et al. NEJM 2005（里程碑）：RT + TMZ 用於 GBM，確立 TMZ 為標準治療，同時標誌 DTIC 時代終結"
+        },
+        {
+          "pmid": "15758016",
+          "study_type": "Commentary/Review",
+          "tier": "2",
+          "note": "腦腫瘤化療新篇章（2005），直接討論 TMZ 取代 DTIC 的歷史脈絡，最直接涉及 Dacarbazine 的文獻"
+        },
+        {
+          "pmid": "22578793",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "老年惡性星形細胞瘤：TMZ 單藥 vs 放射治療（2012），確認 TMZ 在老年 GBM 的核心地位（非 DTIC）"
+        },
+        {
+          "pmid": "26670971",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "腫瘤電場治療 + TMZ vs 單獨 TMZ（2015），確認 TMZ 為 GBM 不可取代的治療骨幹（非 DTIC）"
+        },
+        {
+          "pmid": "17478095",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "成人退行性星形細胞瘤診療（2007），涵蓋化療方案演進，包含 TMZ vs DTIC 歷史比較"
+        }
+      ]
+    },
+    {
+      "disease_name": "breast lipoma",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳房脂肪瘤為良性間葉細胞腫瘤，不具惡性潛力，標準治療為觀察或外科切除。系統性化療用於良性脂肪瘤在任何情境下均缺乏臨床合理性，毒性效益比極差。此 TxGNN 預測應視為模型假陽性，直接排除，無需進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 2,
+      "L5": 5
+    },
+    "priority_matrix": [
+      {
+        "disease": "primary pulmonary lymphoma",
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails",
+        "priority": "High",
+        "rationale": "Dacarbazine 為 ABVD 標準骨幹，Phase 3 RCT（500 人）確認療效。需特定評估原發性肺 HL 亞型，並注意 A+AVD 的競爭性優勢。"
+      },
+      {
+        "disease": "head and neck cancer",
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails",
+        "priority": "Medium-High",
+        "rationale": "黏膜黑色素瘤與甲狀腺髓質癌有直接 Dacarbazine Phase I/II 臨床試驗及文獻，機轉合理性強，但現代治療已轉向靶向/免疫治療。"
+      },
+      {
+        "disease": "small cell lung carcinoma",
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question",
+        "priority": "Medium",
+        "rationale": "MGMT 甲基化生物標記 + PARP 抑制劑聯合方案有理論基礎，TMZ Phase I/II 資料支持機轉，但 Dacarbazine 的 BBB 限制影響腦轉移場景應用。"
+      },
+      {
+        "disease": "upper aerodigestive tract neoplasm",
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question",
+        "priority": "Low-Medium",
+        "rationale": "唯一相關試驗（TMZ）已終止，為負向訊號。需更多直接 Dacarbazine 試驗設計方可升級。"
+      },
+      {
+        "disease": "adult astrocytic tumour",
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question",
+        "priority": "Low",
+        "rationale": "強大 TMZ 證據體系因 BBB 穿透限制無法直接轉化至 Dacarbazine；需創新遞送技術突破才有意義。"
+      }
+    ],
+    "hold_indications": [
+      "well-differentiated fetal adenocarcinoma of the lung（L5，無任何臨床證據）",
+      "pulmonary blastoma（L5，超罕見，無任何 DTIC 證據）",
+      "breast papillomatosis（L5，良性病變，化療禁忌）",
+      "salivary gland type cancer of the breast（L5，超罕見，無任何 DTIC 證據）",
+      "breast lipoma（L5，良性病變，化療禁忌）"
+    ],
+    "critical_caveats": [
+      "【資料品質】Dacarbazine 的 original_indications 為空屬嚴重資料錯誤，系統性分析前應先修正此欄位",
+      "【試驗混淆】收集到的 42 項 SCLC 試驗及大多數其他試驗實為 Temozolomide（SCH 52365）研究，非 Dacarbazine；所有 TMZ 試驗證據需降一級評估",
+      "【BBB 障礙】Dacarbazine BBB 穿透率 < 10%，任何 CNS 腫瘤適應症均面臨根本性藥動學障礙",
+      "【已核准用途】Dacarbazine 核准用途（黑色素瘤、Hodgkin HL）未出現在預測清單，提示 TxGNN 模型在此藥物的預測可能存在系統性偏誤",
+      "【良性病變】breast papillomatosis 及 breast lipoma 的預測屬模型假陽性，具有潛在的臨床誤導風險"
+    ]
+  }
+}
+```
+
+---
+
+### 📊 決策矩陣快覽
+
+| 適應症 | TxGNN | 證據等級 | 決策階段 | 建議 |
+|--------|-------|---------|---------|------|
+| primary pulmonary lymphoma | 0.986 | **L2** | S2 | ✅ Proceed w/ Guardrails |
+| head and neck cancer | 0.984 | **L3** | S2 | ✅ Proceed w/ Guardrails |
+| small cell lung carcinoma | 0.988 | **L3** | S2 | 🔬 Research Question |
+| upper aerodigestive tract neoplasm | 0.993 | **L4** | S1 | 🔬 Research Question |
+| adult astrocytic tumour | 0.983 | **L4** | S1 | 🔬 Research Question |
+| well-differentiated fetal adenocarcinoma | 0.986 | **L5** | S0 | ⛔ Hold |
+| pulmonary blastoma | 0.984 | **L5** | S0 | ⛔ Hold |
+| breast papillomatosis | 0.984 | **L5** | S0 | ⛔ Hold（良性，禁忌）|
+| salivary gland type cancer of the breast | 0.983 | **L5** | S0 | ⛔ Hold |
+| breast lipoma | 0.983 | **L5** | S0 | ⛔ Hold（良性，禁忌）|
+
+> **核心洞察**：TxGNN 的 high-confidence 預測（全部 > 0.98）中，有 **5/10 為 L5**，反映模型對 Dacarbazine 這個原始適應症標注嚴重缺失的藥物存在預測可靠性問題。建議優先修正資料品質問題後重新預測。

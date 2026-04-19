@@ -1,0 +1,407 @@
+## Glycerin (DB09462) 藥物再利用證據分析
+
+---
+
+```json
+{
+  "drug_summary": {
+    "drug_name": "Glycerin (Glycerol)",
+    "drugbank_id": "DB09462",
+    "market_status": "未上市（作為主治療藥物）",
+    "known_moa": "滲透壓調節劑（osmotic agent）、保濕劑（humectant）、代謝中間物（glycolysis/lipid metabolism）",
+    "ddi_concern": "低（DDI count = 0）",
+    "overall_assessment": "TxGNN 評分普遍偏高（0.992–0.996），但臨床證據極為稀薄。多數適應症僅憑模型預測，缺乏直接臨床支持。"
+  },
+  "indications": [
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Glycerol 作為口服滲透壓劑，可短暫降低眼內壓（IOP）。歷史上用於急性青光眼發作前的緊急處置，但對慢性開角型青光眼的長期療效缺乏 RCT 支持。代謝組學研究顯示 POAG 患者存在糖酵解與 TCA 循環異常，glycerol 作為代謝中間物可能具潛在調節作用，但屬高度間接推論。",
+      "evidence_gaps": [
+        "無針對 Glycerin 治療 POAG 的 Phase 1/2 試驗",
+        "現有文獻多為保存劑用途而非治療用途",
+        "滲透壓降眼壓機制主要適用於急性閉角，非慢性開角"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04676126",
+          "title": "Augmented Macular Pigment Supplement and Pericentral Visual Function",
+          "phase": "PHASE4",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "試驗已撤回且零招募，研究主題為黃斑色素補充劑與視功能，並非 Glycerin 的治療用途。Glycerin 若有出現應為輔料角色。無效數據點。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "4832172",
+          "year": "1974",
+          "title": "A breakthrough in open angle glaucoma therapy",
+          "study_type": "Historical Report / Commentary",
+          "tier": "2",
+          "reasoning": "年代久遠（1974），可能涉及 glycerol 口服降眼壓歷史用途，具機轉相關性，但缺乏現代臨床設計。"
+        },
+        {
+          "pmid": "6717920",
+          "year": "1984",
+          "title": "Intraocular pressure the day of argon laser trabeculoplasty in POAG",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "reasoning": "研究 ALT 術前 IOP，glycerin 僅為輔助用藥之一，非主要研究對象。"
+        },
+        {
+          "pmid": "32890110",
+          "year": "2020",
+          "title": "Glycerin-preserved Human-donor Corneoscleral Patch Grafts for Glaucoma Drainage Devices",
+          "study_type": "Retrospective Case Series",
+          "tier": "3",
+          "reasoning": "Glycerin 作為組織保存劑使用，非治療性應用。藥物再利用相關性極低。"
+        },
+        {
+          "pmid": "22955016",
+          "year": "2014",
+          "title": "Outcomes of shunt tube coverage with glycerol preserved cornea vs pericardium",
+          "study_type": "Comparative Study",
+          "tier": "3",
+          "reasoning": "同上，glycerol 為組織保存劑，與治療性再利用無關。"
+        },
+        {
+          "pmid": "41034373",
+          "year": "2025",
+          "title": "Targeted LC-MS profiling reveals dysregulated glycolytic flux and TCA cycle stalling in POAG plasma",
+          "study_type": "Metabolomics / Cross-sectional",
+          "tier": "3",
+          "reasoning": "提供間接機轉連結：POAG 患者糖酵解異常可能與 glycerol 代謝路徑相關，但無直接治療證據。"
+        },
+        {
+          "pmid": "32012845",
+          "year": "2020",
+          "title": "A Data Mining Metabolomics Exploration of Glaucoma",
+          "study_type": "Metabolomics / Data Mining",
+          "tier": "3",
+          "reasoning": "代謝組學探索性研究，glycerol 代謝異常在青光眼中可能有病理意義，屬高度推論性機轉連結。"
+        },
+        {
+          "pmid": "32602905",
+          "year": "2020",
+          "title": "Alteration in Lysophospholipids and Converting Enzymes in Glaucomatous Optic Nerves",
+          "study_type": "Basic Science / Lipidomics",
+          "tier": "3",
+          "reasoning": "Lysophospholipid 代謝與 glycerophospholipid 路徑相關，屬間接機轉連結，無臨床用藥依據。"
+        },
+        {
+          "pmid": "23916822",
+          "year": "2013",
+          "title": "Liquid crystal nanoparticles for ophthalmic delivery of pilocarpine",
+          "study_type": "Formulation Study",
+          "tier": "3",
+          "reasoning": "Glycerin 作為眼藥水配方輔料，非治療主體。"
+        },
+        {
+          "pmid": "17389500",
+          "year": "2007",
+          "title": "Sodium 4-phenylbutyrate acts as chemical chaperone on misfolded myocilin",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "reasoning": "研究 myocilin 折疊相關 ER stress，glycerin 無直接關聯。相關性極低。"
+        },
+        {
+          "pmid": "1614157",
+          "year": "1992",
+          "title": "[Pathogenesis and treatment of primary closed-angle glaucoma]",
+          "study_type": "Review",
+          "tier": "3",
+          "reasoning": "閉角型青光眼（非開角型）文獻，研究對象不符。"
+        }
+      ]
+    },
+    {
+      "disease_name": "alopecia",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Glycerol 作為保濕劑可改善頭皮水合，間接支持毛囊微環境；Glycerol kinase 5 (GK5) 參與皮膚特異性脂質合成（SREBP 調控），缺乏 GK5 的動物模型出現脫毛表現。LPA6（lysophosphatidic acid receptor）可能涉及毛囊週期調節，glycerophospholipid 代謝為其上游路徑。然而，這些均為間接/基礎科學連結。",
+      "evidence_gaps": [
+        "無直接以 Glycerin 為主藥的脫毛 RCT",
+        "現有臨床試驗為補充劑複方，glycerin 角色不明",
+        "GK5 路徑為基因敲除模型，非 glycerin 給藥研究"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06920758",
+          "title": "Randomized Double-blind Placebo Controlled Study Evaluating Efficacy and Safety (hair disorder)",
+          "phase": "NA",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 60,
+          "relevance_grade": "B",
+          "reasoning": "Active trial（60 人），雖 Phase NA 且標題截斷，主題涉及毛髮疾病。Glycerin 可能為配方成分之一，但無法確認為主要活性成分。需查閱完整試驗設計以確定 glycerin 的角色。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28607088",
+          "year": "2017",
+          "title": "Skin-specific regulation of SREBP processing and lipid biosynthesis by glycerol kinase 5",
+          "study_type": "Basic Science / Molecular Biology",
+          "tier": "2",
+          "reasoning": "最相關文獻：GK5 knockout 小鼠出現皮膚屏障缺陷與脫毛，建立 glycerol 代謝與毛髮生長的機轉連結。雖為動物研究，機轉指向明確。"
+        },
+        {
+          "pmid": "28792932",
+          "year": "2017",
+          "title": "Structural insights into ligand recognition by LPA6",
+          "study_type": "Basic Science / Structural Biology",
+          "tier": "3",
+          "reasoning": "LPA6 為毛囊發育相關受體，glycerophospholipid 為其配體上游，屬間接機轉連結。"
+        },
+        {
+          "pmid": "24080521",
+          "year": "2014",
+          "title": "Acyl-CoA binding protein and epidermal barrier function",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "reasoning": "皮膚屏障功能研究，glycerol 為相關代謝物，間接機轉。"
+        },
+        {
+          "pmid": "32700723",
+          "year": "2020",
+          "title": "Co-loading of finasteride and baicalin in phospholipid vesicles for hair disorders",
+          "study_type": "Formulation Study",
+          "tier": "3",
+          "reasoning": "Glycerin 作為配方輔料，非主要活性成分。"
+        },
+        {
+          "pmid": "23207960",
+          "year": "2013",
+          "title": "Finasteride-loaded liquid crystalline nanoparticles for topical delivery",
+          "study_type": "Formulation Study",
+          "tier": "3",
+          "reasoning": "同上，glycerin 為溶劑/輔料角色。"
+        },
+        {
+          "pmid": "32227767",
+          "year": "2020",
+          "title": "Safety of hair essence containing purified bee venom",
+          "study_type": "Safety Study",
+          "tier": "3",
+          "reasoning": "安全性評估，glycerin 為配方成分，無療效資訊。"
+        },
+        {
+          "pmid": "14555416",
+          "year": "2003",
+          "title": "Final report on the safety assessment of triacetin",
+          "study_type": "Safety Review",
+          "tier": "3",
+          "reasoning": "Triacetin 為 glycerol 三酯，安全性報告，與脫毛治療無直接關聯。"
+        },
+        {
+          "pmid": "27896851",
+          "year": "2017",
+          "title": "Quantitating lateral skin stiffness by electro-mechanical instrument",
+          "study_type": "Methodology",
+          "tier": "3",
+          "reasoning": "皮膚彈性測量方法，無直接 glycerin 或脫毛關聯。"
+        },
+        {
+          "pmid": "2211213",
+          "year": "1990",
+          "title": "Effect of Fluosol-DA 20% and oxygen on C57BL/6 mice irradiation",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "reasoning": "輻射防護研究，與脫毛治療無關。"
+        },
+        {
+          "pmid": "9823424",
+          "year": "1998",
+          "title": "Phase I study of doxorubicin and paclitaxel",
+          "study_type": "Phase I Trial",
+          "tier": "3",
+          "reasoning": "化療藥物試驗，與 glycerin 或脫毛完全無關，可能為系統噪音資料。"
+        }
+      ]
+    },
+    {
+      "disease_name": "irritable bowel syndrome",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glycerol 直腸給藥（甘油栓劑）有已知通便效果，但對 IBS 的腸道微生物調節、內臟過敏性、腸腦軸等核心病理機轉缺乏已知連結。現有試驗為耳穴迷走神經刺激研究，與 glycerin 無關。",
+      "evidence_gaps": [
+        "無任何 glycerin 治療 IBS 的直接臨床研究",
+        "唯一試驗為干預類型完全不同（電刺激）",
+        "IBS 病理機轉與 glycerin 藥理無已知交集"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05723731",
+          "title": "Transcutaneous Auricular Vagal Nerve Stimulation for Chronic Constipation",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 106,
+          "relevance_grade": "C",
+          "reasoning": "試驗已終止，研究干預為耳穴迷走神經電刺激（非 glycerin），適應症為慢性便秘（非 IBS）。與 glycerin 再利用完全無關，可能為資料庫誤配。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cauda equina syndrome",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "馬尾症候群為機械性脊椎壓迫所致，需外科減壓。Glycerol 作為滲透壓劑理論上可降低脊髓水腫，但對此急性神經外科急症缺乏任何臨床基礎。高 TxGNN 評分可能反映模型在神經壓迫相關疾病的過度概化。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "疾病需外科干預，藥物再利用空間極有限",
+        "無任何間接機轉連結支持"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性青光眼（如 MYOC、CYP1B1 突變相關）為基因驅動疾病，osmotic agent 治療對遺傳缺陷無修正作用。與開角型青光眼共享部分病理（高 IOP），但遺傳背景使藥物再利用挑戰更大。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "遺傳病理機轉與 glycerin 藥理無交集",
+        "可能受開角型青光眼評分影響（模型知識圖譜鄰近性）"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9950,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性毛髮稀少症伴粟粒疹為罕見皮膚基因病（KRT 基因相關），與 alopecia 評分相近可能反映模型在毛髮疾病叢集的整體評估，而非針對性機轉連結。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "先天基因缺陷，glycerin 無基因修正能力",
+        "極罕見疾病，幾乎無藥物再利用研究"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "單純性頭皮毛髮稀少症（CDSN 基因相關），與上述先天毛髮疾病評估相同，缺乏 glycerin 直接作用機轉。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "遺傳性毛髮疾病，glycerin 無法修正基因缺陷",
+        "Alopecia 叢集效應導致評分偏高"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diffuse alopecia areata",
+      "txgnn_score": 0.9945,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫性圓禿為自體免疫性疾病（T 細胞介導毛囊攻擊），glycerin 無免疫調節機轉。評分偏高可能受 alopecia 知識圖譜鄰近性影響，而非真正機轉連結。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "免疫病理與 glycerin 藥理無交集",
+        "與一般 alopecia 評分差距小（叢集效應）"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glycerol 靜脈注射曾被研究用於降低顱內壓（ICP），偏頭痛的某些亞型（如與 ICP 相關）可能有間接連結。然而，對一般性偏頭痛，缺乏任何臨床或基礎科學支持。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "偏頭痛病理（CGRP 路徑、皮質擴散性抑制）與 glycerin 無交集",
+        "ICP 降低機轉僅適用於特定顱高壓情況"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9918,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛/腦幹先兆偏頭痛涉及後循環皮質擴散性抑制，glycerin 無已知針對此特定亞型的機轉。評分略低於一般偏頭痛，符合更特異性亞型的模型行為。",
+      "evidence_gaps": [
+        "零臨床試驗、零文獻",
+        "偏頭痛亞型特異性機轉更複雜，glycerin 無法涵蓋",
+        "純粹模型預測，無任何支持性證據"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 總體評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | TxGNN 分數 |
+|--------|---------|---------|------|-----------|
+| open-angle glaucoma | **L4** | S1 | Research Question | 0.9959 |
+| alopecia | **L4** | S1 | Research Question | 0.9955 |
+| irritable bowel syndrome | L5 | S0 | ⛔ Hold | 0.9949 |
+| cauda equina syndrome | L5 | S0 | ⛔ Hold | 0.9960 |
+| primary hereditary glaucoma | L5 | S0 | ⛔ Hold | 0.9956 |
+| congenital hypotrichosis milia | L5 | S0 | ⛔ Hold | 0.9950 |
+| hypotrichosis simplex of scalp | L5 | S0 | ⛔ Hold | 0.9947 |
+| diffuse alopecia areata | L5 | S0 | ⛔ Hold | 0.9945 |
+| migraine disorder | L5 | S0 | ⛔ Hold | 0.9927 |
+| migraine with brainstem aura | L5 | S0 | ⛔ Hold | 0.9918 |
+
+---
+
+## ⚠️ 關鍵分析發現
+
+### 1. TxGNN 高分警示（Score Inflation）
+所有適應症評分均 > 0.99，顯示模型可能對 Glycerin 存在系統性高估。推測原因：
+- Glycerin 作為常見輔料廣泛出現在各類藥物研究中，導致知識圖譜邊連接密集
+- 圖譜中 glycerin 與多種疾病節點共現頻率高（混淆真實藥效與配方共現）
+
+### 2. 最優先候選（相對而言）
+- **開角型青光眼**：有歷史滲透壓降眼壓機制基礎（雖非一線用途），代謝組學提供新機轉假說
+- **脫毛症**：GK5-SREBP 路徑提供合理基礎科學假說，有 active trial（待確認 glycerin 角色）
+
+### 3. 資料品質問題
+- NCT05723731（IBS）：干預為神經刺激，與 glycerin 完全無關，屬**資料誤配**
+- NCT04676126（青光眼）：已撤回且零招募，**無效數據點**
+- 多篇文獻中 glycerin 為**輔料角色**，非治療主體
+
+### 4. 建議後續行動
+```
+Open-angle glaucoma → 系統性回顧 glycerol 歷史口服降眼壓文獻
+                    → 探討代謝調節新假說（聯合代謝組學研究）
+
+Alopecia          → 確認 NCT06920758 中 glycerin 的角色
+                  → 設計 GK5 路徑相關機轉研究
+                  → 考慮局部給藥（頭皮保濕）的 pilot study
+```
+
+> ⚕️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有再利用候選需經過嚴格臨床驗證方可應用。

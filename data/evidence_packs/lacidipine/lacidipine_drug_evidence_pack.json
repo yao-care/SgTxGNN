@@ -1,0 +1,803 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09236-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Lacidipine",
+    "drugbank_id": "DB09236",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9833820462226868,
+        "rank": 15195
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "部分 CCB（如 flunarizine，T-type CCB；verapamil，non-DHP CCB）有偏頭痛預防適應症，但 L-type DHP CCB（包括 lacidipine）對偏頭痛的機轉關聯薄弱，缺乏直接血管平滑肌以外的神經調節證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9819567203521729,
+        "rank": 16046
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 由 AVPR2 gain-of-function 突變所致，CCB 對精氨酸加壓素受體路徑無已知影響。TxGNN 預測可能源於知識圖譜中腎臟節點的間接連結，生物學合理性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9807248115539552,
+        "rank": 16695
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "基底型偏頭痛（brainstem aura）涉及腦幹血管及神經元異常去極化，DHP CCB 對腦血管穿透性有限，且缺乏針對此亞型的任何 CCB 研究。與一般偏頭痛相比，證據基礎更為薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.9788920879364014,
+        "rank": 17528
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9471233",
+            "title": "[Role of calcium antagonists in the treatment of arterial hypertension].",
+            "authors": [
+              "Velasco M",
+              "Negrín C"
+            ],
+            "journal": "Investigacion clinica",
+            "year": "1997",
+            "abstract": "We have reviewed the cardiovascular actions of calcioantagonists. These drugs act through L and T channels, inhibiting calcium ions entry at the alpha 1 subunit. The union sites for dihydropiridines (DHPs) are surfacely located (N site) compared to those of diltiazem and verapamil (D and V sites). The administration of calcioantagonists induces peripheral vasodilation with decrease of blood pressure and peripheral resistance; they also act on myocardium inhibiting AV conduction and cardiac contr",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8973777",
+            "title": "How to study the role of hypertension in atherosclerosis. Lessons from MIDAS. Multicentre Isradipine Diuretic Atherosclerosis Study.",
+            "authors": [
+              "Hansson L"
+            ],
+            "journal": "Blood pressure. Supplement",
+            "year": "1996",
+            "abstract": "The development of atherosclerosis is clearly linked to the level of blood pressure. This is illustrated by the difference of atheroma formation in arteries as compared to veins, the development of atherosclerosis in veins transplanted to the arterial circulation or the finding of atherosclerosis also in the pulmonary circulation as an effect of pulmonary hypertension. Several experimental studies have also illuminated the strong link between high blood pressure and the development of atheroscle",
+            "classification": {
+              "study_type": "RCT（不同藥物）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32337731",
+            "title": "Drug repurposing in Raynaud's phenomenon through adverse event signature matching in the World Health Organization pharmacovigilance database.",
+            "authors": [
+              "Zaza Putkaradze",
+              "Matthieu Roustit",
+              "Jean-Luc Cracowski",
+              "Charles Khouri"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2020",
+            "abstract": "Several pharmacological treatments are recommended for Raynaud's phenomenon (RP) secondary to systemic sclerosis, but they only have modest efficacy. A way to efficiently identify new drugs is drug repurposing, which can be based on signature matching. The signature could be derived from chemical structures, pharmacological affinity or adverse event profiles. We propose to use the World Health Organization (WHO) pharmacovigilance database to generate repositioning hypotheses for treatments of RP",
+            "classification": {
+              "study_type": "Computational / Pharmacovigilance",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "部分肺動脈高壓（PAH）患者（vasoreactive responders，約 10-15%）對 CCB 有臨床反應，機轉為抑制肺血管平滑肌 L-type 鈣通道，促進舒張、降低肺血管阻力。Lacidipine 之強效血管選擇性理論上適用，但現有文獻均針對 amlodipine、nifedipine，lacidipine 無直接 PAH 研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9761468768119812,
+        "rank": 18817
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱後側凸性心臟病為限制型心肺功能障礙，非血管痙攣或鈣通道異常所致。CCB 在此情境下的心肌舒張作用理論上可能有助於右心功能，但機轉極為間接，且有加重右心衰竭風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "alopecia",
+      "txgnn": {
+        "score": 0.9737334847450256,
+        "rank": 19819
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DHP CCB（特別是 minoxidil，雖非 CCB 但為 K+ channel opener）已知可促進毛髮生長；部分 CCB 如 nifedipine 亦有多毛症副作用，提示鈣通道可能參與毛囊調節。然而 lacidipine 的促毛髮效應無直接研究，且脫髮病因多元（自體免疫、雄性素等），機轉推論高度不確定。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Prinzmetal angina",
+      "txgnn": {
+        "score": 0.973316490650177,
+        "rank": 19986
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "14689111",
+            "title": "[Differential therapy with calcium antagonists].",
+            "authors": [
+              "Scholze Jürgen E"
+            ],
+            "journal": "Herz",
+            "year": "2003",
+            "abstract": "EFFICACY OF CALCIUM ANTAGONISTS: Calcium-channel blockers (CCBs) have long been recognized as potent agents for hypertensive therapy, with substantial blood pressure reduction in all age groups and races. CCBs improve endothelial function, may positively influence atherosclerosis in carotid arteries, reduce left ventricular hypertrophy, and hypertrophy of the resistance vessels, and improve arterial compliance. They do not adversely affect lipids and serum glucose. USE IN PRACTICE: CCBs are also",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Prinzmetal（變異型）心絞痛由冠狀動脈痙攣所致，CCB 為第一線治療（Class I 指引建議），機轉為阻斷冠狀動脈平滑肌 L-type 鈣通道、解除血管痙攣。Lacidipine 為高效 L-type CCB，在機轉上與已核准用藥（verapamil、diltiazem、nifedipine）高度一致，但缺乏 lacidipine 特定臨床試驗數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Raynaud disease",
+      "txgnn": {
+        "score": 0.972769856452942,
+        "rank": 20217
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32337731",
+            "title": "Drug repurposing in Raynaud's phenomenon through adverse event signature matching in the World Health Organization pharmacovigilance database.",
+            "authors": [
+              "Zaza Putkaradze",
+              "Matthieu Roustit",
+              "Jean-Luc Cracowski",
+              "Charles Khouri"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2020",
+            "abstract": "Several pharmacological treatments are recommended for Raynaud's phenomenon (RP) secondary to systemic sclerosis, but they only have modest efficacy. A way to efficiently identify new drugs is drug repurposing, which can be based on signature matching. The signature could be derived from chemical structures, pharmacological affinity or adverse event profiles. We propose to use the World Health Organization (WHO) pharmacovigilance database to generate repositioning hypotheses for treatments of RP",
+            "classification": {
+              "study_type": "Computational Pharmacovigilance / Drug Repurposing",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雷諾氏症（Raynaud disease）由肢端血管痙攣所致，DHP CCB（如 nifedipine、amlodipine）為第一線治療（EULAR 指引 Grade A），機轉為阻斷週邊血管平滑肌 L-type 鈣通道促進舒張。Lacidipine 之強效血管選擇性與高脂溶性（利於組織分布）理論上具治療優勢。2020 年計算性藥物再利用研究明確將 Lacidipine 列為 Raynaud 現象的再利用候選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.9713417291641236,
+        "rank": 20755
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭皮單純性少毛症為基因性疾病（CDSN、LPAR6 等基因突變），鈣通道阻斷與此遺傳病因無已知關聯。TxGNN 預測可能源於毛囊表型節點的知識圖譜路徑，生物學合理性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9690220952033995,
+        "rank": 21613
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛粟粒疹為罕見遺傳皮膚症候群，具毛囊與皮脂腺發育異常，非鈣通道相關病因。與 lacidipine 無已知機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Lacidipine",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

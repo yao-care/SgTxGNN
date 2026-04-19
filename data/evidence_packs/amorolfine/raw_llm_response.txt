@@ -1,0 +1,166 @@
+## Amorolfine (DB09056) 藥物再利用證據分析
+
+### 藥物背景說明
+
+> **⚠️ 資料缺口警示**：Amorolfine 實際上是已上市的嗎啉類抗真菌藥（主要用於甲癬/甲真菌病，以指甲油劑型在歐盟、日本等國核准），本筆資料顯示「未上市」且 `original_moa: [Data Gap]`，存在嚴重資料品質問題，分析結論應謹慎詮釋。
+
+### 整體訊號評估
+
+| 維度 | 觀察 | 風險旗標 |
+|------|------|---------|
+| TxGNN 分數 | 全部 ≥ 0.9999，差異極小 | 🚩 分數集中異常，可能為模型偽陽性 |
+| 臨床試驗 | 所有適應症 = 0 | 🚩 無任何人體試驗支持 |
+| 文獻數量 | 所有適應症 = 0 | 🚩 無任何已發表佐證 |
+| 疾病異質性 | 骨質疏鬆、後腹腔、宮外孕、脊椎狹窄... | 🚩 跨系統無關聯，非特異性預測 |
+| 已知 MoA | 麥角固醇合成抑制（真菌 Δ14-還原酶/Δ7,8-異構酶） | 無法解釋上述10項疾病機轉 |
+
+---
+
+```json
+{
+  "drug": "Amorolfine",
+  "drugbank_id": "DB09056",
+  "analysis_date": "2026-04-05",
+  "data_quality_warning": "original_moa=[Data Gap], market_status 與已知文獻不符，建議先修正藥物基礎資料",
+  "global_signal_flag": "ALL_L5_S0 — 十項適應症均無臨床或文獻支撐，分數高度集中（均>0.9999）疑似模型偽陽性批次，整批建議 Hold",
+  "indications": [
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn_score": 0.9999778,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Amorolfine 抑制麥角固醇生合成路徑（真菌 Δ14-還原酶），與哺乳類骨代謝路徑（RANK-L/OPG、成骨/蝕骨細胞調控）無已知交集。藥物性骨質疏鬆通常由皮質類固醇、芳香環酶抑制劑等引發，與嗎啉類抗真菌藥無直接關聯。尚無文獻或試驗支持此連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "純計算預測，無任何臨床或生化機轉佐證"
+    },
+    {
+      "disease_name": "disease of retroperitoneum",
+      "txgnn_score": 0.9999661,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "後腹腔疾病（含腹膜後纖維化、腫瘤等）病理機轉多元，與 Amorolfine 的真菌細胞膜靶點無已知相關。此為解剖位置描述性類別，非特定病理機轉，預測可信度極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "疾病分類過於寬泛，零文獻零試驗，L5 Hold"
+    },
+    {
+      "disease_name": "disease of uterine broad ligament",
+      "txgnn_score": 0.9999659,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮闊韌帶疾病（如子宮闊韌帶肌瘤、血腫）為婦科解剖結構相關疾病，Amorolfine 的麥角固醇路徑靶點與女性生殖系統結締組織病理無已知連結。無文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，解剖位置類別無機轉支撐"
+    },
+    {
+      "disease_name": "lumbar spinal stenosis",
+      "txgnn_score": 0.9999655,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腰椎管狹窄症主要由骨質增生、椎間盤退化、韌帶肥厚引發。Amorolfine 無已知抗炎、骨代謝調節或神經保護機轉。麥角固醇合成抑制在脊椎結構病理中無理論依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，退化性骨骼疾病與抗真菌 MoA 無連結"
+    },
+    {
+      "disease_name": "abdominal cystic lymphangioma",
+      "txgnn_score": 0.9999648,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹部囊性淋巴管瘤為先天性或後天性淋巴管畸形，治療上以手術或 mTOR 抑制劑（如 Sirolimus）為主。Amorolfine 無抗淋巴管增生或淋巴管新生抑制的機轉文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，極罕見病且零證據"
+    },
+    {
+      "disease_name": "abdominal ectopic pregnancy",
+      "txgnn_score": 0.9999648,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹腔妊娠為婦科急症，標準處置為 Methotrexate 或外科手術。Amorolfine 的抗真菌機轉與滋養細胞增殖、hCG 分泌或胚胎著床無任何已知關聯。此預測具臨床危害潛力，應立即排除。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold + ⚠️ 臨床危害風險：婦科急症不應基於純預測探索用藥",
+      "safety_flag": "HIGH_RISK — 急症情境，零機轉支撐，嚴禁依此預測進行任何臨床探索"
+    },
+    {
+      "disease_name": "celiac trunk compression syndrome",
+      "txgnn_score": 0.9999648,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹腔動脈壓迫症候群（Dunbar Syndrome）為血管解剖異常，標準治療為手術或血管介入。Amorolfine 無血管擴張、抗纖維化或神經節鬆解機轉，此預測無生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，血管解剖疾病無藥理連結"
+    },
+    {
+      "disease_name": "sacrum chordoma",
+      "txgnn_score": 0.9999638,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "薦骨脊索瘤為罕見惡性骨腫瘤，源自脊索殘餘細胞。雖有研究探討 Hedgehog 路徑、EGFR 等靶點，但 Amorolfine 的麥角固醇靶點與脊索瘤細胞信號路徑無已發表的機轉連結。值得注意：固醇路徑在腫瘤代謝有間接角色，但仍需實驗室前期資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，雖固醇路徑有遠端腫瘤相關性，但無直接證據支持此特定癌種"
+    },
+    {
+      "disease_name": "lymph node palisaded myofibroblastoma",
+      "txgnn_score": 0.9999638,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淋巴結柵欄狀肌纖維母細胞瘤為極罕見良性腫瘤，文獻報告極少（全球不足百例），通常手術切除即可治癒。Amorolfine 無已知 MFB 分化或肌纖維母細胞標記物調控機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，超罕見疾病、零文獻、零機轉支撐"
+    },
+    {
+      "disease_name": "urethral disease",
+      "txgnn_score": 0.9999636,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尿道疾病涵蓋感染性（尿道炎）、解剖性（狹窄）、腫瘤性等多類別。若為真菌性尿道炎，Amorolfine 的抗真菌機轉具有極微弱間接合理性，但無任何系統性試驗或病例系列支持此給藥途徑。目前已有核准的抗真菌藥（如 Fluconazole）可用於泌尿系統真菌感染。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "L5 Hold，分類過寬；即使限縮至真菌性尿道炎，亦已有更佳替代方案"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合結論
+
+### 🔴 整批訊號品質警示
+
+```
+所有10項適應症 → Evidence Level: L5 | Decision Stage: S0 | Recommendation: Hold
+```
+
+| 問題層面 | 說明 |
+|---------|------|
+| **模型可信度** | 分數 0.99996~0.99998，差距僅 0.00001，疑似知識圖譜中 Amorolfine 節點連結稀疏造成的非特異性高分批次 |
+| **疾病選擇邏輯** | 10項疾病橫跨骨科、婦科、腫瘤、血管、泌尿，缺乏共同病理機轉軸線，非典型真正信號分布 |
+| **資料基礎問題** | `original_moa=[Data Gap]` + `original_indications=[]` 表示 KG 中 Amorolfine 缺乏充分錨定知識，預測結果可靠性存疑 |
+| **急症安全考量** | `abdominal ectopic pregnancy` 預測具潛在臨床誤導風險，應加入系統黑名單過濾 |
+
+### 建議行動
+
+1. **資料修正優先**：補全 Amorolfine 的 MoA（Δ14-還原酶抑制）、適應症（甲癬）、DrugBank 知識連結
+2. **重新執行預測**：資料修正後再評估是否產生更具生物合理性的候選
+3. **系統層過濾**：考慮加入「零文獻+零試驗+全部分數>0.999 → 自動降為 S0」的批次過濾規則
+4. **急症疾病黑名單**：`abdominal ectopic pregnancy`、`ectopic pregnancy` 等急症類別應設定再利用預測排除清單
+
+> ⚕️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證方可應用。

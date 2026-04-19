@@ -1,0 +1,1280 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09123-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dienogest",
+    "drugbank_id": "DB09123",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9970722198486328,
+        "rank": 4512
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07164183",
+            "title": "Prospective, Multicenter, Open-label, Randomized, Parallel Groups Clinical Study to Compare Efficacy and Safety of Indinol Forto® 200 mg Capsules (LLC Alcea, Russia) and Visanne 2 mg Tablets (BAYER AG, Germany) in Treatment of Endometriosis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 290,
+            "start_date": "2025-09-11",
+            "completion_date": "2026-11",
+            "brief_summary": "Prospective open-label randomized parallel groups study to compare efficacy and safety of Indinol Forto® 200 mg capsules and Visanne 2 mg tablets in treatment of endometriosis. This is phase 3 study, based on hypothesis of non-inferiority.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 多中心 RCT（招募中，n=290），比較效果，可能涉及月經抑制管理；但標題指向子宮內膜異位症療效比較，非閉經疾病治療試驗。若研究終點包含月經抑制率，可作為間接佐證"
+            }
+          },
+          {
+            "nct_id": "NCT02425462",
+            "title": "EffectiveNess of VISanne® in Improving Quality of Life in asIan wOmen With eNdometriosis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 895,
+            "start_date": "2015-04-28",
+            "completion_date": "2018-12-14",
+            "brief_summary": "This study is a prospective observational cohort study. The study will be conducted in routine clinical practice settings. It is planned to enroll 870 patients with endometriosis for whom a decision has been made by the physician to treat with dienogest according to local health authority approved label. It is the aim of this observational cohort study to further characterize the effectiveness of dienogest in improving quality of life and long-term safety in routine clinical practice setting. En",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "ENVISION 觀察性研究（已完成，n=895）：評估亞洲子宮內膜異位症患者 Visanne® QoL，閉經僅為不良事件記錄指標，與治療閉經疾病無關"
+            }
+          },
+          {
+            "nct_id": "NCT04495855",
+            "title": "VISANNE OS/Treatment of Endometriosis With Dienogest in the Real World Clinical Practice",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 968,
+            "start_date": "2020-10-28",
+            "completion_date": "2022-12-23",
+            "brief_summary": "Endometriosis is a condition that affects women, usually during their reproductive years. In women with endometriosis, the tissue that lines the uterus starts to grow outside of the uterus. This can cause pain during their periods or during sex, and constant pain in the pelvis. Endometriosis can decrease a woman's quality of life and requires long-term treatment to control the symptoms.\n\nFor some women with endometriosis, symptoms can return after they stop treatment. Or, they may not be able to",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "VISANNE 真實世界研究（已完成，n=968），觀察性設計，針對子宮內膜異位症，提供閉經發生率真實數據但非治療閉經的試驗"
+            }
+          },
+          {
+            "nct_id": "NCT07204093",
+            "title": "Transdermally Applied Estradiol Delivery In Ultra-Safe Medications Valuable In Treatment Against Endometriosis",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 138,
+            "start_date": "2025-08-11",
+            "completion_date": "2026-02",
+            "brief_summary": "Endometriosis is a chronic, estrogen-dependent disease affecting women of reproductive age, associated with pelvic pain, infertility, and reduced quality of life. Progestins are the standard first-line therapy, but long-term treatment requires well-tolerated regimens that balance efficacy with patient satisfaction.\n\nThis study will compare two combinations of progestins with natural transdermal estradiol-dienogest versus drospirenone-to evaluate which regimen provides greater patient satisfactio",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "經皮雌二醇給藥研究（招募結束，n=138），主角為雌二醇而非 dienogest，可能為子宮內膜異位症荷爾蒙附加療法，與閉經治療關聯極弱"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34405378",
+            "title": "Hormonal treatments for endometriosis: The endocrine background.",
+            "authors": [
+              "Vannuccini Silvia",
+              "Clemenza Sara",
+              "Rossi Margherita",
+              "Petraglia Felice"
+            ],
+            "journal": "Reviews in endocrine & metabolic disorders",
+            "year": "2022",
+            "abstract": "Endometriosis is a benign uterine disorder characterized by menstrual pain and infertility, deeply affecting women's health. It is a chronic disease and requires a long term management. Hormonal drugs are currently the most used for the medical treatment and are based on the endocrine pathogenetic aspects. Estrogen-dependency and progesterone-resistance are the key events which cause the ectopic implantation of endometrial cells, decreasing apoptosis and increasing oxidative stress, inflammation",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39090694",
+            "title": "A systematic review and Bayesian analysis of the adverse effects of dienogest.",
+            "authors": [
+              "Li Rui-Rui",
+              "Xi Qing",
+              "Tao Lei",
+              "Sheng Wei",
+              "Zhao Cheng-Cheng"
+            ],
+            "journal": "BMC pharmacology & toxicology",
+            "year": "2024",
+            "abstract": "Endometriosis and adenomyosis are two common diseases that impair women's health, and dienogest is one of the pharmacologic treatments which is the first-line therapeutic option for patients with pelvic pain and individuals who have no desire for immediate pregnancy. The goal of this study was to summarize the current evidence of adverse events associated with dienogest as well as the prevalence of these adverse events during treatment with dienogest.",
+            "classification": {
+              "study_type": "Systematic Review + Bayesian Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29161960",
+            "title": "Efficacy and Safety of Long-Term Use of Dienogest in Women With Ovarian Endometrioma.",
+            "authors": [
+              "Lee Sa Ra",
+              "Yi Kyong Wook",
+              "Song Jae Yen",
+              "Seo Seok Kyo",
+              "Lee Dong-Yun"
+            ],
+            "journal": "Reproductive sciences (Thousand Oaks, Calif.)",
+            "year": "2018",
+            "abstract": "Dienogest (DNG) is a progestin with highly selective progesterone activity and minimal androgenic activity and is helpful in reducing endometriosis-related pain. This study assessed the long-term efficacy and safety and recurrence rate of endometrioma with DNG use beyond 12 months of treatment. A retrospective cohort study was conducted with data collected from 7 university-affiliated hospitals and included a total of 514 women with ovarian endometrioma. All patients received 2 mg of oral DNG da",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41329046",
+            "title": "High inhibition ratio and transformation index of 2 mg dienogest: further evidence for its use in endometriosis treatment.",
+            "authors": [
+              "Pinto Pedro Viana",
+              "Barretta Marta",
+              "Grandi Giovanni"
+            ],
+            "journal": "The European journal of contraception & reproductive health care : the official journal of the European Society of Contraception",
+            "year": "2026",
+            "abstract": "Endometriosis is a common, chronic disease with a high burden for women, characterised by the implantation of endometrial cells outside the uterus. Many different treatments have been proposed for this disease, mainly hormonal, with the objective of inducing amenorrhoea and a hypoestrogenic environment. Dienogest (DNG), a fourth-generation progestin, has received approval for the treatment of endometriosis in many countries. Its pharmacological properties make it especially attractive for the tr",
+            "classification": {
+              "study_type": "Pharmacological/Mechanistic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34918698",
+            "title": "A case report of ovarian granulosa cell tumor in patient with polycystic ovarian syndrome.",
+            "authors": [
+              "Kim Yun S",
+              "Lee Ji H"
+            ],
+            "journal": "Medicine",
+            "year": "2021",
+            "abstract": "Granulosa cell tumors (GCTs) account for less than 2% of all ovarian malignancies and are the second most common ovarian sex cord stromal tumors after fibroma/thecomas.GCTs occur most frequently in postmenopausal women with a peak age of 50 to 55, are usually diagnosed in their early stages, and have a good prognosis. GCTs usually present with features of hyperestrogenism, with an average size is 10 to 15 cm.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40543564",
+            "title": "Navigating Complexity: Advanced Visualization for Müllerian Anomalies and its Implications for Diagnoses and Surgical Planning.",
+            "authors": [
+              "From Anat",
+              "Dumont Tania",
+              "Singh Sukhbir",
+              "Duigenan Shauna",
+              "Flaxman Teresa"
+            ],
+            "journal": "Journal of pediatric and adolescent gynecology",
+            "year": "2025",
+            "abstract": "Obstructive Müllerian anomalies present diagnostic and surgical-planning challenges, often requiring multiple imaging studies and prolonged medical management. Three-dimensional (3-D) modelling and virtual-reality (VR) visualization may improve anatomic understanding, counselling, and operative safety.",
+            "classification": {
+              "study_type": "Review/Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dienogest 為第四代合成孕激素，透過抑制 HPO 軸（下視丘-腦垂體-卵巢軸）、降低雌二醇至卵泡早期水平，誘發閉經而非治療閉經。現有 4 項臨床試驗均以子宮內膜異位症為主要適應症，閉經（amenorrhea rate 40-70%）為藥效副作用指標，並非治療目標。機轉方向倒置（causative agent，非therapeutic agent），若定義為「治療病理性閉經」則無支持依據；若重新定義為「誘發治療性閉經」則有間接 L3 級證據。目前建議暫緩，需重新界定研究問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "primary ovarian failure",
+      "txgnn": {
+        "score": 0.9968600273132324,
+        "rank": 4747
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04306276",
+            "title": "Pretreatment With Dienogest in Women With Endometriosis Undergoing in Vitro-fertilization After a Previous Failed Cycle",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2020-01-01",
+            "completion_date": "2020-03-01",
+            "brief_summary": "It is generally assumed that the major causes of in vitro fertilization (IVF) failure in women with endometriosis are diminished ovarian reserve, impaired endometrial receptivity and low quality of embryos. The use of prolonged courses of hormone therapy may play an important role in the strategy of overcoming endometriosis-related infertility. The aim of this study was to evaluate the use of dienogest (DNG) before an IVF cycle in women with endometriosis undergone a previous IVF failed cycle",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究對象為子宮內膜異位症合併 IVF 失敗史（poor ovarian response）女性（n=140），目的為 IVF 結果優化，非 POI 本身的疾病治療；ovarian failure 的病因與試驗設計不吻合"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性卵巢功能不全（POI）的標準治療為 HRT（雌孕激素替代）或促性腺激素；dienogest 作為純孕激素無法恢復卵巢功能或提升 AMH/卵泡儲備。唯一相關試驗（NCT04306276）探討子宮內膜異位症女性 IVF 前使用 dienogest 預處理以改善 poor ovarian response，與 POI 病理機轉（卵泡耗竭/自體免疫）僅有間接重疊。證據不支持此再利用方向。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "breast fibrocystic disease",
+      "txgnn": {
+        "score": 0.9959830045700072,
+        "rank": 5620
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19499407",
+            "title": "Dienogest and the breast.",
+            "authors": [
+              "Schindler Adolf E",
+              "Henkel Alexandria",
+              "Christensen Bernd",
+              "Oettel Michel",
+              "Moore Claudia"
+            ],
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "2009",
+            "abstract": "In a clinical pilot study, 21 women with endometriosis have been primarely treated with dienogest 2 x 10 mg daily p.o. for 24 weeks. Besides the effect on endometriosis the action of such high-dose progestogen treatment on the breast was evaluated by breast ultrasound prior to medication and at 24 weeks of medical treatment. In all women, a significant size reduction of the mammary gland (p < 0.023) and regression of mastopathic changes were observed. There was a non-significant reduction (p = 0",
+            "classification": {
+              "study_type": "Pharmacological Review / Preclinical-Clinical Bridge Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dienogest 具高選擇性孕激素受體（PR-A/PR-B）親和力及輕微抗雄活性，對乳腺組織有潛在影響。孕激素在纖維囊腫性乳腺病（FCD）中的角色雙向：PR-B 活化可抑制乳腺上皮增生，而部分合成孕激素可能增加乳腺密度。2009 年文獻直接評估 dienogest 的乳腺效應，顯示學術界已注意此關聯，但數據有限且為 2009 年前（缺乏現代 RCT 設計）。具備生物學合理性，值得以獨立研究問題進一步探索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "isolated growth hormone deficiency",
+      "txgnn": {
+        "score": 0.9952591061592102,
+        "rank": 6268
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無合理機轉關聯。孤立性生長激素缺乏症（IGHD）病因為 GH1/GHRHR 基因缺陷或特發性，治療為 rhGH 替代療法。Dienogest 的孕激素活性與 GH-IGF-1 軸無直接調控路徑，可能的極間接連結（孕激素影響 GH 分泌脈衝）缺乏臨床支持。無任何臨床試驗或文獻，純為 TxGNN 計算分數（0.9953），需基礎實驗室驗證方可考慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "symptomatic form of fragile X syndrome in female carrier",
+      "txgnn": {
+        "score": 0.9946174025535583,
+        "rank": 6804
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脆性 X 症候群前突變女性攜帶者（55-200 CGG repeats）可能發展 FXPOI（脆性 X 相關 POI），存在荷爾蒙軸關聯的理論假說；然而 FXPOI 治療以 HRT 為主，而非孕激素單一療法。神經症狀（FXTAS 相關焦慮/認知問題）與孕激素的神經活性類固醇機轉（GABA 調節）有微弱假設性連結。無任何臨床或臨床前證據，暫無法推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "blepharophimosis-epicanthus inversus-ptosis",
+      "txgnn": {
+        "score": 0.9946046471595764,
+        "rank": 6817
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hypogonadotropic hypogonadism with or without anosmia",
+      "txgnn": {
+        "score": 0.99457848072052,
+        "rank": 6843
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33417259",
+            "title": "COVID-19 with and without anosmia or dysgeusia: A case-control study.",
+            "authors": [
+              "Dev Nishanth",
+              "Sankar Jhuma",
+              "Gupta Nitesh",
+              "Meena Ramesh Chand",
+              "Singh Charanjit"
+            ],
+            "journal": "Journal of medical virology",
+            "year": "2021",
+            "abstract": "Various new clinical signs and symptoms, such as dysfunction of smell (anosmia) and taste (dysgeusia) have emerged ever since the coronavirus disease 2019 (COVID-19) pandemic begun. The objective of this study was to identify the clinical presentation and factors associated with 'new loss/change of smell (anosmia) or taste (dysgeusia)' at admission in patients positive by real time polymerase chain reaction for SARS-CoV-2 infection. All adult COVID-19 patients with new onset anosmia or dysgeusia",
+            "classification": {
+              "study_type": "Case-Control [COVID-19 anosmia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36209486",
+            "title": "Pathogenesis and progression of anosmia and dysgeusia during the COVID-19 pandemic.",
+            "authors": [
+              "Krishnakumar Hari N",
+              "Momtaz David A",
+              "Sherwani Anusha",
+              "Mhapankar Aum",
+              "Gonuguntla Rishi K"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2023",
+            "abstract": "Severe acute respiratory syndrome coronavirus type 2 (SARS-CoV-2) is the causative agent of COVID-19 which was detected in late 2019 in Wuhan, China. As of September 2022, there have been over 612 million confirmed cases of COVID-19 with over 6.5 million associated deaths. In many cases, anosmia and dysgeusia have been identified as primary symptoms of COVID-19 infection in patients. While the loss of smell (anosmia) and loss of taste (dysgeusia) due to COVID-19 infection is transient in most pa",
+            "classification": {
+              "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37450393",
+            "title": "[COVID-19-associated anosmia].",
+            "authors": [
+              "Meller A E",
+              "Fokeev V A",
+              "Shakhova M A",
+              "Shakhov A V"
+            ],
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2023",
+            "abstract": "The article is a systematic review of the literature data summarizes to date on the issue of COVID-19-associated anosmia. We mainly used full-text and abstract electronic databases (PubMed, Scopus and Web of Science). The paper discusses hypothetical mechanisms of development, clinical features, as well as methods of diagnosis and treatment of COVID-19-associated anosmia.",
+            "classification": {
+              "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35790059",
+            "title": "Chemosensory loss in COVID-19.",
+            "authors": [
+              "Xu Winnie",
+              "Sunavala-Dossabhoy Gulshan",
+              "Spielman Andrew I"
+            ],
+            "journal": "Oral diseases",
+            "year": "2022",
+            "abstract": "The COVID-19 pandemic caused by SARS-CoV-2 virus quickly spread globally, infecting over half a billion individuals, and killing over 6 million*. One of the more unusual symptoms was patients' complaints of sudden loss of smell and/or taste, a symptom that has become more apparent as the virus mutated into different variants. Anosmia and ageusia, the loss of smell and taste, respectively, seem to be transient for some individuals, but for others persists even after recovery from the infection. C",
+            "classification": {
+              "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32811912",
+            "title": "Anosmia and ageusia.",
+            "authors": [
+              "Tarakji B",
+              "Alali F M",
+              "Nassani M Z"
+            ],
+            "journal": "British dental journal",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review [anosmia/ageusia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36341691",
+            "title": "Anosmia, mild cognitive impairment, and biomarkers of brain aging in older adults.",
+            "authors": [
+              "Dong Yi",
+              "Li Yuanjing",
+              "Liu Keke",
+              "Han Xiaolei",
+              "Liu Rui"
+            ],
+            "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+            "year": "2023",
+            "abstract": "Olfactory impairment is a potential marker for prodromal dementia, but the underlying mechanisms are poorly understood. This population-based study included 4214 dementia-free participants (age ≥65 years). Olfaction was assessed using the 16-item Sniffin' Sticks identification test. In the subsamples, we measured plasma amyloid beta (Aβ)40, Aβ42, total tau, and neurofilament light chain (NfL; n = 1054); and quantified hippocampal, entorhinal cortex, and white matter hyperintensity (WMH) volumes,",
+            "classification": {
+              "study_type": "Cohort [anosmia + cognition — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32909060",
+            "title": "Anosmia: an evolution of our understanding of its importance in COVID-19 and what questions remain to be answered.",
+            "authors": [
+              "Saussez Sven",
+              "Lechien Jerome R",
+              "Hopkins Claire"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2021",
+            "abstract": "From the start of the pandemic, many European otolaryngologists observed an unprecendented number of anosmic patients. Early reports proposed that anosmia could be the first or even the only symptom of COVID-19 infection, prompting calls for self-isolation in affected patients.",
+            "classification": {
+              "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37062268",
+            "title": "Olfactory Nomenclature: An Orchestrated Effort to Clarify Terms and Definitions of Dysosmia, Anosmia, Hyposmia, Normosmia, Hyperosmia, Olfactory Intolerance, Parosmia, and Phantosmia/Olfactory Hallucination.",
+            "authors": [
+              "Hernandez Anna Kristina",
+              "Landis Basile N",
+              "Altundag Aytug",
+              "Fjaeldstad Alexander Wieck",
+              "Gane Simon"
+            ],
+            "journal": "ORL; journal for oto-rhino-laryngology and its related specialties",
+            "year": "2023",
+            "abstract": "Definitions are essential for effective communication and discourse, particularly in science. They allow the shared understanding of a thought or idea, generalization of knowledge, and comparison across scientific investigation. The current terms describing olfactory dysfunction are vague and overlapping.",
+            "classification": {
+              "study_type": "Nomenclature Review [olfactory — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37342077",
+            "title": "Mechanisms of SARS-CoV-2-associated anosmia.",
+            "authors": [
+              "Tsukahara Tatsuya",
+              "Brann David H",
+              "Datta Sandeep Robert"
+            ],
+            "journal": "Physiological reviews",
+            "year": "2023",
+            "abstract": "Anosmia, the loss of the sense of smell, is one of the main neurological manifestations of COVID-19. Although the SARS-CoV-2 virus targets the nasal olfactory epithelium, current evidence suggests that neuronal infection is extremely rare in both the olfactory periphery and the brain, prompting the need for mechanistic models that can explain the widespread anosmia in COVID-19 patients. Starting from work identifying the non-neuronal cell types that are infected by SARS-CoV-2 in the olfactory sy",
+            "classification": {
+              "study_type": "Review [SARS-CoV-2 anosmia — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33709973",
+            "title": "Neuro-COVID-19 is more than anosmia: clinical presentation, neurodiagnostics, therapies, and prognosis.",
+            "authors": [
+              "Schweitzer Finja",
+              "Kleineberg Nina N",
+              "Göreci Yasemin",
+              "Onur Oezguer A",
+              "Franke Christiana"
+            ],
+            "journal": "Current opinion in neurology",
+            "year": "2021",
+            "abstract": "To provide an overview on current knowledge of neurological symptoms and complications of COVID-19, and to suggest management concepts.",
+            "classification": {
+              "study_type": "Review [Neuro-COVID-19 — 無關文獻]",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39740091",
+            "title": "Long-term Outcomes of PRP Injections for Post-viral Olfactory Loss: A Prospective Cohort Study.",
+            "authors": [
+              "Fieux Maxime",
+              "Castro Bruna R",
+              "Jang Sophie S",
+              "Yan Carol H",
+              "Patel Zara M"
+            ],
+            "journal": "International forum of allergy & rhinology",
+            "year": "2025",
+            "abstract": "Platelet-rich plasma (PRP) injections have previously been shown to benefit coronavirus disease 2019 (COVID-19)-induced smell loss. It is unknown if that benefit is stable over time. The aim of this study was to assess outcomes at 1-year post-intervention.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39438441",
+            "title": "Humans without a sense of smell breathe differently.",
+            "authors": [
+              "Gorodisky Lior",
+              "Honigstein Danielle",
+              "Weissbrod Aharon",
+              "Weissgross Reut",
+              "Soroka Timna"
+            ],
+            "journal": "Nature communications",
+            "year": "2024",
+            "abstract": "Olfaction may play a restricted role in human behavior, yet paradoxically, its absence in anosmia is associated with diverse deleterious outcomes, culminating in reduced life expectancy. The mammalian nose serves two purposes: olfaction and breathing. Because respiratory patterns are impacted by odors, we hypothesized that nasal respiratory airflow may be altered in anosmia. We apply a wearable device that precisely logs nasal airflow for 24-hour-long sessions in participants with isolated conge",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33526549",
+            "title": "[Not Available].",
+            "authors": [
+              "King James A",
+              "Whitten Tara A",
+              "Bakal Jeffrey A",
+              "McAlister Finlay A"
+            ],
+            "journal": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32692465",
+            "title": "COVID-19, cilia, and smell.",
+            "authors": [
+              "Li Wei",
+              "Li Ming",
+              "Ou Guangshuo"
+            ],
+            "journal": "The FEBS journal",
+            "year": "2020",
+            "abstract": "The novel coronavirus SARS-CoV-2 is the causative agent of the global coronavirus disease 2019 (COVID-19) outbreak. In addition to pneumonia, other COVID-19-associated symptoms have been reported, including loss of smell (anosmia). However, the connection between infection with coronavirus and anosmia remains enigmatic. It has been reported that defects in olfactory cilia lead to anosmia. In this Viewpoint, we summarize transmission electron microscopic studies of cilia in virus-infected cells. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36719595",
+            "title": "Coronavirus infection in chemosensory cells.",
+            "authors": [
+              "Donadoni Martina",
+              "Kaminski Rafal",
+              "Liao Shuren",
+              "Al Janabi Suhair",
+              "Margolskee Robert F"
+            ],
+            "journal": "Journal of neurovirology",
+            "year": "2023",
+            "abstract": "Clinical manifestations of human coronavirus (HCoV)-related diseases are mostly related to the respiratory system, although secondary complications such as headache, anosmia, ageusia, and myalgia have been reported. HCoV infection and replication in chemosensory cells associated with ageusia and anosmia is poorly understood. Here, we characterized HCoV-OC43 and SARS-CoV-2 infection in two types of chemosensory cells, olfactory and taste cells, with their unique molecular and histological charact",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33130000",
+            "title": "SARS-CoV-2, the autoimmune virus.",
+            "authors": [
+              "Halpert Gilad",
+              "Shoenfeld Yehuda"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32502645",
+            "title": "New-onset anosmia and ageusia in adult patients diagnosed with SARS-CoV-2 infection.",
+            "authors": [
+              "Patel A",
+              "Charani E",
+              "Ariyanayagam D",
+              "Abdulaal A",
+              "Denny S J"
+            ],
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2020",
+            "abstract": "We investigated the prevalence of anosmia and ageusia in adult patients with a laboratory-confirmed diagnosis of infection with severe acute respiratory distress syndrome coronavirus-2 (SARS-CoV-2).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32678494",
+            "title": "Clinical and Radiological Evaluations of COVID-19 Patients With Anosmia: Preliminary Report.",
+            "authors": [
+              "Lechien Jerome R",
+              "Michel Justin",
+              "Radulesco Thomas",
+              "Chiesa-Estomba Carlos M",
+              "Vaira Luigi A"
+            ],
+            "journal": "The Laryngoscope",
+            "year": "2020",
+            "abstract": "To investigate clinical and radiological features of olfactory clefts of patients with mild coronavirus disease 2019 (COVID-19).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32228208",
+            "title": "Smelling the danger.",
+            "authors": [
+              "Yong Kok Pin",
+              "Kim Ho Jin"
+            ],
+            "journal": "Multiple sclerosis (Houndmills, Basingstoke, England)",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34587819",
+            "title": "COVID-19 and anosmia: The story so far.",
+            "authors": [
+              "Meng Xiangming",
+              "Pan Yuandan"
+            ],
+            "journal": "Ear, nose, & throat journal",
+            "year": "2024",
+            "abstract": "The pandemic has affected over 182 million coronavirus disease 2019 (COVID-19) cases worldwide. Accumulated evidence indicates that anosmia is one of the significant characteristics of COVID-19 with a high prevalence. However, many aspects of COVID-19-induced anosmia are still far from being fully understood. The purpose of this review is to summarize recent developments in COVID-19-induced anosmia to increase awareness of the condition.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "低促性腺激素性性腺功能低下症（HH/Kallmann syndrome）由 GnRH 神經元遷移缺陷或 GNRH1/KISS1R/FGFR1 等基因突變引起，治療為 GnRH 脈衝療法或 FSH/LH 替代；dienogest 進一步抑制 HPO 軸，與治療目標相悖。【重大資料品質警示】：20 篇文獻全部為 COVID-19 嗅覺喪失（anosmia）相關研究，與 hypogonadotropic hypogonadism 的治療完全無關——此為文獻檢索系統誤以病名關鍵字「anosmia」匹配所產生的 false positive 雜訊，應予排除。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "partial trisomy/tetrasomy of the short arm of chromosome 5",
+      "txgnn": {
+        "score": 0.994312047958374,
+        "rank": 7096
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "5p 部分三體/四體為先天染色體結構異常（涉及 CTNND2、TERT 等基因座），主要表現為智能障礙及發育遲緩，無孕激素治療的合理機轉。TxGNN 高分可能來自 HPO 表現型網路中性腺發育表現型的間接路徑，但缺乏生物學合理性支持臨床應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome",
+      "txgnn": {
+        "score": 0.9942889213562012,
+        "rank": 7109
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "3q23 重排（含 FOXL2 基因座缺失/破壞）導致的 BPES 變體，病理機轉與標準 FOXL2 點突變型 BPES 相同。先天性眼瞼結構畸形無法透過孕激素治療改善，FOXL2 的卵巢功能影響與眼瞼表現型是獨立路徑。無支持性證據，不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "partial trisomy/tetrasomy of the short arm of chromosome 18",
+      "txgnn": {
+        "score": 0.9942458271980286,
+        "rank": 7165
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "18p 部分三體/四體涉及 TGIF1（轉化生長因子路徑抑制劑）等基因，可能呈現性腺發育異常表現型，此為 TxGNN 可能偵測到的間接連結。然而染色體劑量效應引起的發育異常非孕激素補充可修正的範疇。無任何臨床或基礎研究支持，暫無法推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "primary ovarian failure"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "primary ovarian failure"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "primary ovarian failure"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "breast fibrocystic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "breast fibrocystic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "breast fibrocystic disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "isolated growth hormone deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "isolated growth hormone deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "isolated growth hormone deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "hypogonadotropic hypogonadism with or without anosmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "hypogonadotropic hypogonadism with or without anosmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "hypogonadotropic hypogonadism with or without anosmia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 18"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 18"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dienogest",
+        "disease": "partial trisomy/tetrasomy of the short arm of chromosome 18"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

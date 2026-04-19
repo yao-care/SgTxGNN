@@ -1,0 +1,220 @@
+## 藥物再利用證據分析：Baricitinib (DB11817)
+
+**分析背景說明：**
+- Baricitinib 為 **JAK1/JAK2 抑制劑**（原始 MOA 資料缺失，依已知藥理補充）
+- 全球已上市適應症：類風濕性關節炎、斑禿、COVID-19（但本地資料標記「未上市」）
+- 以下依各適應症證據進行分層評估
+
+---
+
+```json
+{
+  "drug": "Baricitinib",
+  "drugbank_id": "DB11817",
+  "known_moa": "Selective JAK1/JAK2 inhibitor → blocks STAT1/3/5 phosphorylation → anti-inflammatory & immunomodulatory",
+  "data_note": "original_moa=[Data Gap]; original_indications=[]; 以已知藥理學資料補充分析",
+  "indications": [
+    {
+      "disease_name": "myeloid leukemia",
+      "txgnn_score": 0.9101,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "JAK1/2 抑制可阻斷 IL-6/IL-3/GM-CSF 等骨髓增生相關細胞激素訊號；於異體造血幹細胞移植（allo-HSCT）情境下，JAK 抑制可降低移植物對抗宿主病（GvHD）的 Th1/Th17 免疫活化，同類藥物 ruxolitinib 已獲 FDA 核准用於 steroid-refractory GvHD，機轉高度重疊",
+      "summary": "唯一有 Phase 2/3 臨床試驗的適應症；試驗聚焦於白血病 allo-HSCT 後 GvHD 預防，為支持性治療用途而非直接抗腫瘤；文獻支持度偏弱但機轉可信",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06475820",
+          "title": "Prospective Pilot Study of the Clinical Efficacy and Safety of the Method for Preventing Graft-versus-Host Disease",
+          "phase": "PHASE2/PHASE3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 150,
+          "relevance_grade": "B",
+          "reasoning": "直接研究 baricitinib 於骨髓白血病患者 allo-HSCT 後 GvHD 預防，Phase 2/3 設計、n=150 具一定統計效力；但研究終點為 GvHD 預防而非抗白血病療效，與 myeloid leukemia 適應症為間接關聯（支持性治療），故降為 B 級"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36569952",
+          "title": "Repurposing BCL-2 and Jak 1/2 inhibitors: Cure and treatment of HIV-1 and other viral infections",
+          "year": "2022",
+          "study_type": "Narrative Review",
+          "tier": 3,
+          "relevance_note": "聚焦病毒感染再利用，白血病內容為背景說明，與本適應症關聯性低"
+        },
+        {
+          "pmid": "35442720",
+          "title": "Acute Leukemia Classification Using Transcriptional Profiles From Low-Cost Nanopore mRNA Sequencing",
+          "year": "2022",
+          "study_type": "Methodology Study",
+          "tier": 3,
+          "relevance_note": "白血病分類方法學論文，未涉及 baricitinib 治療，關聯性極低"
+        },
+        {
+          "pmid": "34730109",
+          "title": "Antibody-drug conjugates plus Janus kinase inhibitors enable MHC-mismatched allogeneic hematopoietic stem cell transplantation",
+          "year": "2021",
+          "study_type": "Preclinical / Translational",
+          "tier": 3,
+          "relevance_note": "最相關之文獻：ADC 聯合 JAK 抑制劑促進 MHC 不匹配 allo-HSCT，機轉支持 NCT06475820 之科學假說，為臨床前概念驗證"
+        },
+        {
+          "pmid": "31816725",
+          "title": "Effective quantification of 11 tyrosine kinase inhibitors and caffeine in human plasma by validated LC-MS/MS",
+          "year": "2020",
+          "study_type": "Analytical/Pharmacokinetics Method",
+          "tier": 3,
+          "relevance_note": "藥物定量分析方法論文，包含 baricitinib 血漿濃度測量，與治療適應症無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "plasma cell myeloma",
+      "txgnn_score": 0.9183,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨髓瘤細胞高度依賴 IL-6 → JAK1/2 → STAT3 訊號軸進行增殖與存活；Baricitinib 阻斷此軸理論上可抑制 STAT3 活化，與已知 STAT3 抑制劑在骨髓瘤的研究方向一致；但尚無針對性臨床試驗",
+      "summary": "唯一文獻為 COVID-19 合併骨髓瘤患者的個案報告，baricitinib 用於治療 COVID-19 而非骨髓瘤本身，屬偶然共病觀察，不構成骨髓瘤治療證據；需進一步安全性評估（免疫抑制風險在血液腫瘤患者中需謹慎）",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34856779",
+          "title": "Simultaneous effective treatment of critical COVID-19 disease and newly diagnosed high-risk multiple myeloma",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "Baricitinib 用於治療嚴重 COVID-19，患者同時診斷為高風險骨髓瘤；骨髓瘤為共病而非治療標靶，無法推斷 baricitinib 對骨髓瘤的直接療效，證據等級極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn_score": 0.9331,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 plasma cell myeloma 相同的 IL-6/JAK/STAT3 機轉推論；惰性型骨髓瘤（smoldering myeloma）生長緩慢，治療時機選擇更需審慎，當前標準為觀察等待",
+      "summary": "無任何臨床試驗或文獻證據，完全依賴 TxGNN 預測分數（0.9331）；加上惰性型骨髓瘤目前尚無確立的主動治療共識，引入 JAK 抑制劑的獲益不確定性極高",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "WHIM syndrome",
+      "txgnn_score": 0.9312,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "WHIM 症候群由 CXCR4 功能增益突變（gain-of-function）引起，導致骨髓中中性球滯留；CXCR4 下游可活化 JAK/STAT 訊號，理論上 JAK 抑制可能改善 myelokathexis；然而主要治療靶點為 CXCR4（plerixafor 已有臨床數據），JAK 抑制為次要且未驗證路徑",
+      "summary": "無臨床試驗及文獻支持；機轉連結間接，主要驅動突變為 CXCR4 而非 JAK；WHIM 為極罕見病（< 100 例全球），臨床試驗設計難度極高",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見先天性症候群，涉及眼球及肢體發育缺陷（通常為基因突變所致結構異常）；JAK-STAT 訊號在胚胎發育中有功能，但針對已形成的結構性缺陷，JAK 抑制劑無理論修復機制；高 TxGNN 分數可能反映知識圖譜中通用細胞激素網路的相似性，非疾病特異性訊號",
+      "summary": "TxGNN 分數異常高（0.9994）但零臨床證據，高分可能為演算法偽陽性（罕見疾病節點連接特性導致）；結構性先天缺陷不適合 JAK 抑制劑再利用假說",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性肢體發育異常（通常為 HRAS、FGFR 等基因突變），JAK-STAT 路徑非主要致病機轉；與 colobomatous microphthalmia 類似，結構性缺陷不適合本藥物機轉",
+      "summary": "TxGNN 分數極高（0.9994）但完全無臨床支持；先天性骨骼發育異常非 JAK 抑制劑的合理再利用方向，強烈建議 Hold",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Meester-Loeys syndrome",
+      "txgnn_score": 0.8821,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "由 BGN（Biglycan）基因突變引起的 X 染色體連鎖結締組織疾病（主動脈瘤、關節過動）；TGF-β 訊號失調為主要機轉，JAK 路徑為次要；Baricitinib 在結締組織遺傳性疾病無任何研究基礎",
+      "summary": "罕見遺傳性結締組織疾病，無任何臨床或文獻證據；主要治療研究方向為 TGF-β 拮抗劑，與 JAK 抑制劑機轉不同",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.8759,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經節母細胞瘤為兒科神經嵴來源腫瘤；部分研究顯示 JAK-STAT 訊號參與神經母細胞瘤（neuroblastoma）的分化與存活，但 baricitinib 在此腫瘤類型無任何研究數據",
+      "summary": "無臨床試驗及文獻，屬純預測；兒科腫瘤適應症需更嚴格安全性評估，在缺乏任何前期數據的情況下不建議推進",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn_score": 0.8631,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Heparin Cofactor II（SERPIND1）缺乏症為罕見凝血異常；JAK-STAT 訊號與凝血串聯（coagulation cascade）的機轉連結極為薄弱，僅有炎症狀態下 JAK 訊號影響血管內皮的間接推論",
+      "summary": "無任何臨床或文獻證據；機轉連結缺乏生物學合理性；JAK 抑制劑本身可能影響血小板功能（已知副作用風險），在凝血異常疾病中使用需特別謹慎",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.8468,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群（VATER/VACTERL 相關或特定基因缺陷）涉及脊椎發育異常及 T 細胞缺陷；T 細胞功能障礙部分可能涉及 JAK-STAT（如 JAK3 缺陷），但 baricitinib 抑制 JAK1/2 而非 JAK3，機轉匹配度低",
+      "summary": "無任何臨床或文獻支持；T 細胞功能障礙的 JAK 靶點（JAK3）與 baricitinib 靶點（JAK1/2）不符，機轉不匹配",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_assessment": {
+    "actionable_indications": [
+      {
+        "disease_name": "myeloid leukemia",
+        "priority": "HIGH",
+        "rationale": "唯一具備 Phase 2/3 臨床試驗（NCT06475820, n=150）的適應症；GvHD 預防情境與已批准的 ruxolitinib（同類 JAK 抑制劑）適應症高度類似，機轉可信度高"
+      }
+    ],
+    "watch_list": [
+      {
+        "disease_name": "plasma cell myeloma",
+        "priority": "LOW-MEDIUM",
+        "rationale": "IL-6/JAK/STAT3 機轉生物學合理，但目前僅有偶然性個案報告；建議追蹤 baricitinib 在 STAT3 活化骨髓瘤亞型的相關研究動態"
+      }
+    ],
+    "algorithm_flags": {
+      "warning": "colobomatous microphthalmia（0.9994）與 brachydactyly-syndactyly（0.9994）的異常高分值得注意",
+      "interpretation": "極高 TxGNN 分數配合零臨床證據，可能反映演算法在極罕見疾病節點上的網路效應（hub bias），建議作為模型校正案例"
+    }
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣總覽
+
+| 適應症 | TxGNN分數 | 臨床試驗 | 文獻 | 證據等級 | 決策 |
+|--------|-----------|---------|------|---------|------|
+| myeloid leukemia | 0.910 | Phase 2/3 ✅ | 4篇⚠️ | **L2** | **S2 Research Question** |
+| plasma cell myeloma | 0.918 | 0 | 1篇（間接）| **L4** | **S1 Hold** |
+| indolent plasma cell myeloma | 0.933 | 0 | 0 | **L5** | **S0 Hold** |
+| WHIM syndrome | 0.931 | 0 | 0 | **L5** | **S0 Hold** |
+| brachydactyly-syndactyly | 0.999 | 0 | 0 | **L5** | **S0 Hold** ⚠️偽陽性警示 |
+| colobomatous microphthalmia | 0.999 | 0 | 0 | **L5** | **S0 Hold** ⚠️偽陽性警示 |
+| Meester-Loeys syndrome | 0.882 | 0 | 0 | **L5** | **S0 Hold** |
+| ganglioneuroblastoma | 0.876 | 0 | 0 | **L5** | **S0 Hold** |
+| heparin cofactor 2 deficiency | 0.863 | 0 | 0 | **L5** | **S0 Hold** |
+| vertebral anomalies + T-cell dysfunction | 0.847 | 0 | 0 | **L5** | **S0 Hold** |
+
+> ⚠️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選適應症需經正式臨床驗證方可應用。

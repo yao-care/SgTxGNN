@@ -1,0 +1,280 @@
+```json
+{
+  "drug": "Bacitracin",
+  "drugbank_id": "DB00626",
+  "analysis_date": "2026-04-10",
+  "drug_context": {
+    "known_moa": "多肽類抗生素，透過結合 undecaprenyl pyrophosphate（C55-PP）阻止脂質載體去磷酸化，中斷細菌細胞壁合成循環；主要對革蘭氏陽性菌有效。全身吸收具腎毒性，臨床上限定外用途徑。",
+    "data_gap_note": "原始資料標記 MoA 為 [Data Gap]，惟 Bacitracin 藥理機轉已有大量文獻記載，以下分析據此補充。"
+  },
+  "indications": [
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9999919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "角點狀角膜炎常由細菌（如葡萄球菌）或病毒引起。Bacitracin 眼膏已有核准眼科外用劑型，機轉上可覆蓋革蘭氏陽性菌所致角膜炎，但針對此特定亞型完全無臨床資料支持。TxGNN 高分可能反映其廣效眼科感染圖譜推論。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無任何臨床試驗或文獻，屬純模型預測。在已有核准眼科抗生素的背景下，獨立研究優先性低。"
+    },
+    {
+      "disease_name": "exposure keratitis",
+      "txgnn_score": 0.9999074,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "暴露性角膜炎本質為機械性/神經性角膜損傷，Bacitracin 在此場景的角色限於預防繼發性細菌感染，而非針對核心病因。機轉關聯性間接且次要。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無臨床資料。此適應症的首要治療目標為角膜潤滑與保護，抗生素為輔助預防感染，不構成再利用研究驅動力。"
+    },
+    {
+      "disease_name": "non-human animal disease",
+      "txgnn_score": 0.9996955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為極廣泛的非特異性疾病分類，無法進行有意義的機轉分析。Bacitracin 確有獸醫外用用途，但此分類過於模糊，不宜作為再利用適應症研究標的。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "分類過寬泛，缺乏可操作性。建議待疾病細化後重新評估。"
+    },
+    {
+      "disease_name": "otitis externa",
+      "txgnn_score": 0.9996887,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "外耳炎常由 Staphylococcus aureus 及 Pseudomonas aeruginosa 等細菌引起。Bacitracin 對革蘭氏陽性菌（尤其葡萄球菌）具強效活性，配合局部外用可達有效藥物濃度。Nebacetin（neomycin + bacitracin 複合製劑）已有歷史性臨床使用記錄，擴大抗菌譜覆蓋革蘭氏陰性菌。機轉關聯性合理但缺乏現代高品質 RCT。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17503066",
+          "title": "Topical treatment of acute otitis externa: clinical comparison of an antibiotics ointment alone or in combination...",
+          "year": "2007",
+          "study_type": "臨床比較研究（可能含對照組）",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接針對急性外耳炎局部抗生素治療的臨床比較，為本組最高相關性文獻。需確認試驗設計細節以確定是否為 RCT。"
+        },
+        {
+          "pmid": "14048629",
+          "title": "[THE LOCAL TREATMENT OF INFLAMMATORY, SECRETORY EAR PROCESSES WITH NEBACETIN STYLI]",
+          "year": "1963",
+          "study_type": "臨床病例系列",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "Nebacetin（neomycin + bacitracin 複合物）耳道局部使用的早期臨床記錄，直接包含 Bacitracin，但年代久遠（1963年）且設計標準低。"
+        },
+        {
+          "pmid": "4306877",
+          "title": "[The use of antibiotics in otologic practice]",
+          "year": "1969",
+          "study_type": "專家評論/綜述",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "耳科抗生素使用的綜述性文章，可能涵蓋 Bacitracin，提供歷史使用背景，但無獨立臨床數據。"
+        },
+        {
+          "pmid": "14055264",
+          "title": "PRACTICAL TREATMENT OF OTITIS EXTERNA",
+          "year": "1963",
+          "study_type": "臨床實務回顧",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "1963年外耳炎治療實務文章，年代過久，可能涉及 Bacitracin 但無法確認其研究品質。"
+        },
+        {
+          "pmid": "165871",
+          "title": "Use of trimethoprim-sulfamethoxazole in external otitis",
+          "year": "1975",
+          "study_type": "臨床研究",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究對象為 TMP-SMX 而非 Bacitracin，對本藥物相關性低，僅提供外耳炎抗菌治療背景。"
+        },
+        {
+          "pmid": "9820118",
+          "title": "Susceptibility of bacterial isolates from chronic canine otitis externa to twenty antibiotics",
+          "year": "1998",
+          "study_type": "獸醫體外藥敏研究",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "犬外耳炎細菌藥敏研究，屬動物感染模型，對人體外耳炎僅有間接參考價值。"
+        }
+      ],
+      "summary": "共 6 篇文獻，年代集中於 1963-2007 年，缺乏現代 RCT。最相關者為 2007 年臨床比較研究及 1963 年 Nebacetin 耳道使用報告。整體證據等級受限於研究設計老舊，但機轉合理性足以支持進一步安全性評估。建議設計現代化小型 RCT。"
+    },
+    {
+      "disease_name": "postinfectious vasculitis",
+      "txgnn_score": 0.9996789,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後血管炎屬免疫介導的炎症反應，Bacitracin 的抗菌機轉對已進入免疫病理階段的疾病無直接作用。若致病菌已消除，抗生素再利用的生物學根據薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無臨床資料，且機轉關聯性不具說服力。TxGNN 評分可能反映圖譜中細菌感染→血管炎的拓樸鄰近性，而非直接藥效相關性。"
+    },
+    {
+      "disease_name": "post-bacterial disorder",
+      "txgnn_score": 0.9996724,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "細菌感染後疾病為極廣泛分類，Bacitracin 理論上可在活動性感染期預防後續後遺症，但此間接關聯缺乏針對性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00534391",
+          "title": "Dose Antibiotic Need in Hordeolum After Incision and Curettage?",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "眼瞼麥粒腫術後抗生素需求研究，與 Bacitracin 眼科外用有邊緣相關性，但未明確指定 Bacitracin，且研究狀態不明。"
+        },
+        {
+          "nct_id": "NCT05874219",
+          "title": "The Effect of Mupirocin 2% Ointment on Duration of Stay of Temporary Hemodialysis Catheter",
+          "phase": "PHASE2_PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Mupirocin 而非 Bacitracin，但同屬外用抗生素預防導管感染的研究設計，僅提供類比背景。"
+        },
+        {
+          "nct_id": "NCT02099240",
+          "title": "Prospective Randomized Study in Patients With Osteomyelitis",
+          "phase": "EARLY_PHASE1",
+          "status": "TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "骨髓炎治療研究，已提前終止（僅招募 11 人），與 Bacitracin 無明確關聯。"
+        },
+        {
+          "nct_id": "NCT03052842",
+          "title": "Phase 2 Study to Evaluate Microbiology, Safety and Efficacy",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "試驗名稱不完整，無法確認與 Bacitracin 的關聯性。"
+        },
+        {
+          "nct_id": "NCT00705354",
+          "title": "Pilot Study To Evaluate A Pharmacologically Active Nasal Sponge",
+          "phase": "NA",
+          "status": "WITHDRAWN",
+          "relevance_grade": "C",
+          "reasoning": "已撤回研究，無可用數據。Bacitracin 有鼻腔去定殖用途的歷史，但本試驗未完成。"
+        }
+      ],
+      "literature_analysis": [],
+      "notes": "12 項臨床試驗中無一明確針對 Bacitracin 用於此適應症。相關試驗均涉及其他抗菌藥物或非特異性抗菌介入。「post-bacterial disorder」分類過廣，建議拆解為具體疾病實體後重新評估。"
+    },
+    {
+      "disease_name": "infective urethral stricture",
+      "txgnn_score": 0.9996505,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染性尿道狹窄常與沙眼衣原體或淋球菌感染相關，Bacitracin 對這些病原體活性有限，且全身使用具腎毒性，局部尿道應用可行性低。機轉關聯性弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無臨床資料，給藥途徑存在實際困難，機轉不支持。優先性極低。"
+    },
+    {
+      "disease_name": "post-infectious syndrome",
+      "txgnn_score": 0.9996474,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後症候群（如 POTS、ME/CFS 等）的發病機轉以免疫失調、神經功能紊亂為主，而非持續性細菌感染。Bacitracin 的抗菌作用對此類疾病機轉的直接性存疑。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02809131",
+          "title": "Randomized Noninferiority Study of an Antibacterial Envelope Alone Versus Envelope Plus Intraoperative Irrigation",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 1010,
+          "relevance_grade": "C",
+          "reasoning": "研究抗菌信封（TYRX，含 rifampin + minocycline）預防心臟植入裝置感染，非 Bacitracin 研究，且目標為預防性抗菌而非 post-infectious syndrome 治療。間接提供抗菌預防心臟感染後遺症的概念支持。"
+        },
+        {
+          "nct_id": "NCT00000635",
+          "title": "Treatment of Acyclovir-Resistant Mucocutaneous Herpes Simplex in Patients With AIDS",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 25,
+          "relevance_grade": "C",
+          "reasoning": "針對 AIDS 患者抗藥性 HSV 感染，研究對象為病毒感染，與 Bacitracin 抗菌機轉無關。"
+        },
+        {
+          "nct_id": "NCT06992453",
+          "title": "Disentangling Microbiome Engraftment During Fecal Transplant",
+          "phase": "NA",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 90,
+          "relevance_grade": "C",
+          "reasoning": "腸道微生物組研究，與 Bacitracin 無明確關聯，僅因感染後腸道重建概念被納入，相關性極低。"
+        }
+      ],
+      "literature_analysis": [],
+      "notes": "3 項試驗均非 Bacitracin 直接研究，機轉牽強。此適應症需重新思考是否存在有意義的再利用假說。"
+    },
+    {
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "txgnn_score": 0.9996184,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染相關溶血性尿毒症候群（HUS）主要由 STEC（O157:H7 等）志賀毒素誘發微血管病變所致。Bacitracin 對革蘭氏陰性菌活性有限，且在 STEC 感染中使用抗生素本身具有爭議性（可能促進毒素釋放）。機轉關聯性不僅薄弱，且可能存在安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無臨床資料，且現有 STEC-HUS 指引對抗生素使用持保留態度。此適應症的再利用假說存在潛在安全性問題，應在 S0 階段即予排除。"
+    },
+    {
+      "disease_name": "Chagas cardiomyopathy",
+      "txgnn_score": 0.9996101,
+          "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "恰加斯心肌病由克氏錐蟲（Trypanosoma cruzi）引起，屬原蟲感染而非細菌感染。Bacitracin 為純抗細菌藥物，對原蟲病原體無已知活性。機轉關聯性缺乏生物學基礎。TxGNN 評分可能反映心臟病→感染病 KG 拓樸的偽相關。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無臨床資料，且藥理機轉明確不符。此預測結果提示 TxGNN 模型在寄生蟲感染領域可能產生假陽性，應降低此類預測的信度評估。"
+    }
+  ],
+  "overall_summary": {
+    "highest_priority_indication": "otitis externa",
+    "rationale": "唯一具備 L3 證據等級的適應症，有 6 篇文獻（含 2007 年臨床比較研究及 Nebacetin 耳道使用記錄），機轉合理，給藥途徑可行（局部外用）。",
+    "critical_concerns": [
+      "Bacitracin 全身毒性（腎毒性）限制了非外用適應症的開發空間",
+      "9 項適應症為純 L5 預測，缺乏任何臨床資料",
+      "infection-related HUS 適應症存在潛在安全疑慮（抗生素使用可能惡化 STEC-HUS）",
+      "Chagas cardiomyopathy 預測顯示模型可能存在細菌/寄生蟲感染分類混淆"
+    ],
+    "recommended_next_steps": {
+      "otitis_externa": "系統性文獻回顧 + 設計現代化 Phase 2 RCT（與 polymyxin B 或 ofloxacin 比較）",
+      "others": "維持 S0，等待獨立機轉假說形成或其他資料來源支持"
+    }
+  }
+}
+```
+
+---
+
+## 📊 快速摘要表
+
+| 適應症 | TxGNN分 | 證據等級 | 決策 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| **otitis externa** | 0.9997 | **L3** | ⚠️ Research Question | 6篇文獻含Nebacetin直接使用記錄 |
+| post-bacterial disorder | 0.9997 | L4 | 🔴 Hold | 12項試驗均非Bacitracin直接研究 |
+| post-infectious syndrome | 0.9996 | L4 | 🔴 Hold | 3項試驗與Bacitracin無直接關聯 |
+| punctate epithelial keratoconjunctivitis | 0.9999 | L5 | 🔴 Hold | 零臨床資料 |
+| exposure keratitis | 0.9999 | L5 | 🔴 Hold | 機轉間接，無資料 |
+| non-human animal disease | 0.9997 | L5 | 🔴 Hold | 分類過廣，無法操作 |
+| postinfectious vasculitis | 0.9997 | L5 | 🔴 Hold | 機轉不符免疫病理 |
+| infective urethral stricture | 0.9997 | L5 | 🔴 Hold | 給藥困難，病原不符 |
+| infection-related HUS | 0.9996 | L5 | 🚫 Hold + Safety Alert | 抗生素可能惡化STEC毒素釋放 |
+| **Chagas cardiomyopathy** | 0.9996 | L5 | 🚫 Hold + MoA Mismatch | 原蟲≠細菌，機轉根本不符 |
+
+> ⚕️ **免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過完整臨床驗證流程方可應用。

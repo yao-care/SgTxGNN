@@ -1,0 +1,239 @@
+## Griseofulvin (DB00400) 藥物再利用證據分析
+
+根據提供的資料，以下為各適應症的系統性評估：
+
+**藥物背景**：Griseofulvin 為抗真菌藥，機轉為抑制真菌微管蛋白聚合（disrupts mitotic spindle），專一性作用於皮膚癬菌（Dermatophytes：*Trichophyton*, *Microsporum*, *Epidermophyton*）。對念珠菌、寄生蟲、細菌均**無已知機轉支持**。
+
+---
+
+```json
+{
+  "drug": "Griseofulvin",
+  "drugbank_id": "DB00400",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "myiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Myiasis 為蠅幼蟲寄生感染，Griseofulvin 作用於真菌微管蛋白，對節肢動物幼蟲無已知生物活性。機轉上無合理連結，TxGNN 高分（0.994）可能源於知識圖譜中「皮膚感染」節點的拓撲相似性，並非真實藥理關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "4098614",
+          "study_type": "Veterinary Review",
+          "tier": "3",
+          "note": "1970年犬貓寄生蟲皮膚病綜述，非人類、非Griseofulvin直接療效研究，相關性極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "creeping myiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Creeping myiasis（皮膚爬行型蠅蛆病）屬於寄生蟲感染，Griseofulvin 無抗寄生蟲機轉。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "wound myiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Wound myiasis 為傷口寄生蟲感染，Griseofulvin 對幼蟲無殺滅活性，無機轉連結，無臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "furuncular myiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Furuncular myiasis（癤腫型蠅蛆病）與 Griseofulvin 無機轉連結，無任何臨床或文獻證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "echinococcus granulosus infectious disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "棘球蚴病（囊型包蟲病）為絛蟲感染，Griseofulvin 針對真菌微管蛋白之機轉無法延伸至蠕蟲。標準治療為 Albendazole/Mebendazole。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cutaneous candidiasis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Griseofulvin 對 Candida 屬無活性——其機轉靶點（真菌微管蛋白）在念珠菌中的敏感性遠低於皮膚癬菌。20篇文獻均為廣義抗真菌藥物綜述，部分文獻（PMID:10439936, 1372222, 8706596）明確指出 Terbinafine/Itraconazole 取代 Griseofulvin，隱含其對念珠菌療效不足。文獻間接性強，且方向性偏向「Griseofulvin 不適用」。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8763460",
+          "study_type": "Pediatric Review",
+          "tier": "3",
+          "note": "兒童皮膚真菌病綜述，提及多種抗真菌藥，非Griseofulvin對念珠菌之直接療效研究"
+        },
+        {
+          "pmid": "28196318",
+          "study_type": "Clinical Review",
+          "tier": "3",
+          "note": "兒科皮膚感染綜述，相關性低"
+        },
+        {
+          "pmid": "34898894",
+          "study_type": "Safety Review",
+          "tier": "3",
+          "note": "妊娠期抗真菌藥安全性，提及Griseofulvin有致畸風險，非療效證據"
+        },
+        {
+          "pmid": "6295158",
+          "study_type": "Pharmacology Review",
+          "tier": "3",
+          "note": "Ketoconazole 藥理綜述，Griseofulvin 僅作為比較基準"
+        },
+        {
+          "pmid": "10439936",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "Terbinafine 綜述，相關性低"
+        },
+        {
+          "pmid": "16989127",
+          "study_type": "Clinical Review",
+          "tier": "3",
+          "note": "局部抗真菌藥使用，非直接證據"
+        },
+        {
+          "pmid": "2143740",
+          "study_type": "Epidemiological Review",
+          "tier": "3",
+          "note": "甲癬綜述，相關性低"
+        },
+        {
+          "pmid": "1372222",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "Terbinafine 綜述，相關性低"
+        },
+        {
+          "pmid": "8706596",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "Itraconazole 綜述，相關性低"
+        },
+        {
+          "pmid": "4894316",
+          "study_type": "Dermatology Review",
+          "tier": "3",
+          "note": "1969年皮膚真菌病綜述，歷史文獻，相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "toxoplasmosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "弓漿蟲病為原蟲感染，Griseofulvin 無抗原蟲機轉。標準治療為 Pyrimethamine + Sulfadiazine。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alveolar echinococcosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "泡型包蟲病（多房棘球蚴病）為絛蟲感染，Griseofulvin 無抗蠕蟲活性。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blastomycosis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "芽生菌病為深部真菌感染（Blastomyces dermatitidis），理論上 Griseofulvin 對真菌有微管蛋白抑制活性，然其對全身性真菌的藥物動力學不佳（穿透性差，血中濃度不足）。6篇文獻均為1963-1994年歷史綜述，在比較各種抗真菌藥時提及 Griseofulvin，但均指出其對全身性真菌療效不足，現代指引以 Itraconazole/Amphotericin B 為標準治療。文獻證據為歷史性間接負向證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1100588",
+          "study_type": "Pharmacology Review",
+          "tier": "3",
+          "note": "1975年抗真菌藥綜述，歷史文獻，Griseofulvin被提及但療效有限"
+        },
+        {
+          "pmid": "8077517",
+          "study_type": "Treatment Review",
+          "tier": "3",
+          "note": "1994年熱帶真菌病治療綜述，現代指引已不推薦Griseofulvin用於全身性真菌"
+        },
+        {
+          "pmid": "14048882",
+          "study_type": "Historical Review",
+          "tier": "3",
+          "note": "1963年歷史文獻，藥物選擇已過時"
+        },
+        {
+          "pmid": "1100335",
+          "study_type": "Clinical Review",
+          "tier": "3",
+          "note": "1975年皮膚真菌診治綜述，歷史文獻"
+        },
+        {
+          "pmid": "5598929",
+          "study_type": "Historical Review",
+          "tier": "3",
+          "note": "1967年真菌治療進展，歷史文獻"
+        },
+        {
+          "pmid": "14162090",
+          "study_type": "Case Series/Report",
+          "tier": "3",
+          "note": "1963年病例報告，地區性報告，歷史文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "Bacteroidaceae infectious disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Bacteroidaceae 為厭氧革蘭氏陰性菌，Griseofulvin 為抗真菌藥，對細菌無抗菌活性，機轉上完全不相關。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_assessment": {
+    "summary": "Griseofulvin 在所有 10 個 TxGNN 預測適應症中均缺乏有效的臨床再利用證據。高 TxGNN 分數（0.956-0.994）反映的是知識圖譜中「感染性疾病」節點的拓撲相似性，而非真實藥理關聯。藥物本身機轉高度專一（真菌微管蛋白），不適用於寄生蟲、細菌或 Candida/全身性真菌感染。",
+    "top_concern": "市場狀態為「未上市」，且原始適應症資料缺失（[Data Gap]），顯示此藥物的基礎資訊不完整，建議優先補充 MoA 與原始適應症資料。",
+    "evidence_distribution": {
+      "L5_count": 8,
+      "L4_count": 2,
+      "L3_count": 0,
+      "L2_count": 0,
+      "L1_count": 0
+    },
+    "recommendation": "所有適應症均建議 Hold。TxGNN 預測結果需以機轉合理性過濾，本案例為典型「高 AI 分數但機轉不支持」情境，不建議投入進一步研究資源。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|----------|----------|------|----------|
+| myiasis（含3亞型） | L5 | S0 | Hold | 寄生蟲感染，無機轉連結 |
+| cutaneous candidiasis | L4 | S0 | Hold | Griseofulvin 對念珠菌無活性，文獻為反向間接證據 |
+| toxoplasmosis | L5 | S0 | Hold | 原蟲感染，無機轉連結 |
+| echinococcosis（兩型） | L5 | S0 | Hold | 蠕蟲感染，無機轉連結 |
+| blastomycosis | L4 | S0 | Hold | 有歷史文獻但均為負向/歷史性證據 |
+| Bacteroidaceae | L5 | S0 | Hold | 細菌感染，抗真菌藥無效 |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用於實際醫療。

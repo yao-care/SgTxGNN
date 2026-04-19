@@ -1,0 +1,305 @@
+```json
+{
+  "drug": "Activated Charcoal",
+  "drugbank_id": "DB09278",
+  "analysis_date": "2026-04-04",
+  "note": "市場狀態「未上市」可能為資料庫缺漏，活性碳在多數市場有解毒/中毒處置的既有適應症。original_indications 為空屬資料缺口。",
+  "indications": [
+    {
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn_score": 0.8994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Jeune 症候群為纖毛病變（ciliopathy），造成骨骼發育不良及內臟轉位（situs inversus），屬於遺傳性結構缺陷。活性碳機轉為腸道物理吸附，對纖毛功能、胚胎軸向決定或骨骼發育無任何已知作用路徑。TxGNN 高分極可能來自知識圖譜中非特異性網路連結（artifact）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "orofacial clefting syndrome",
+      "txgnn_score": 0.8957,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "顏面裂症候群為胚胎顱面部融合失敗所致之發育/遺傳缺陷（涉及 IRF6、FOXE1 等基因）。活性碳為非選擇性吸附劑，與顏面裂發病機轉完全無交集；缺乏任何生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "disorder of fucoglycosan synthesis",
+      "txgnn_score": 0.8953,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Fucoglycosan 合成缺陷屬溶酶體貯積症亞型，肇因於醣蛋白降解酵素缺乏。雖活性碳在理論上可吸附腸道代謝廢物（uremic toxins、膽汁酸），但對此類酵素缺陷型貯積病無已知療效路徑；文獻 20 筆皆為活性碳既有用途（CKD、中毒）的間接引用，無一篇直接針對此疾病。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32716060",
+          "study_type": "Systematic Review / RCT meta-analysis",
+          "tier": "3",
+          "relevance_note": "妊娠肝內膽汁淤積症之藥物介入，活性碳為其中一選項；與 fucoglycosan 疾病無直接關係"
+        },
+        {
+          "pmid": "31725009",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "CKD 搔癢及尿毒素管理；屬活性碳既有用途，不適用於此遺傳代謝病"
+        },
+        {
+          "pmid": "40093417",
+          "study_type": "RCT / Experimental",
+          "tier": "3",
+          "relevance_note": "活化竹炭減少尿毒素、改善腎功能；CKD 相關，非 fucoglycosan 缺陷"
+        },
+        {
+          "pmid": "21716104",
+          "study_type": "Review / Clinical guideline",
+          "tier": "3",
+          "relevance_note": "急性中毒單次給藥適應症回顧；無代謝病相關內容"
+        },
+        {
+          "pmid": "22541700",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "肝性腦病管理；與標的疾病無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+      "txgnn_score": 0.8949,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pierre Robin 序列合併染色體異常屬遺傳性顱面缺陷（下頷發育不全、舌下垂、顎裂）。活性碳的腸道吸附機轉與染色體結構異常或顱面胚胎發育完全無關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 22",
+      "txgnn_score": 0.8939,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "22q 長臂缺失（含 DiGeorge/22q11.2 deletion spectrum）為染色體結構異常，表現多系統缺陷（心臟、免疫、神經）。藥物無法修復染色體缺失；活性碳機轉與其病因完全不相容。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 7",
+      "txgnn_score": 0.8929,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "7q 缺失症候群為染色體結構病，臨床表現視缺失區段而異（如 Williams syndrome 涉及 7q11.23）。與染色體缺失相關的遺傳病理無法藉由腸道吸附劑介入。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary valve disease",
+      "txgnn_score": 0.8919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺動脈瓣疾病（狹窄或閉鎖不全）病理在於瓣膜結構異常，需介入手術或瓣膜置換。活性碳為非全身性吸附劑（不被吸收），對瓣膜重塑、纖維化或血流動力學無作用機轉。2 篇文獻均與活性碳用於肺動脈瓣無關（heroin body packer 緊急處置、Legionella 感染報告）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8445184",
+          "study_type": "Case Series / Clinical review",
+          "tier": "3",
+          "relevance_note": "Heroin 人體包裝者的活性碳急救應用；與肺動脈瓣疾病無關"
+        },
+        {
+          "pmid": "41245143",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Legionella cardiaca 感染案例；無活性碳治療相關內容"
+        }
+      ]
+    },
+    {
+      "disease_name": "heart disease",
+      "txgnn_score": 0.8916,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "活性碳潛在心臟相關作用路徑包含：(1) 老舊研究（1980s-1990s）顯示口服活性碳可降低 LDL 膽固醇（約 25-41%）及 LDL/HDL 比值，理論上可減少動脈粥樣硬化風險；(2) 在急性心臟毒性藥物過量（鈣離子阻斷劑、三環抗憂鬱劑、Digoxin）中，活性碳為標準去汙染措施，間接保護心臟免於藥物毒性；(3) 對於 CKD 相關心血管病，減少腸道尿毒素循環（p-cresol、indoxyl sulfate）理論上可降低心臟毒性負擔。然而上述均為間接或機轉推論證據，缺乏專門針對心臟病治療設計的 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07348679",
+          "relevance_grade": "B",
+          "reasoning": "直接涉及活性碳（charcoal-filtered cigarettes），評估活性碳過濾對吸菸者行為與毒素暴露的影響，具心血管風險因子相關性，但研究對象為菸品改良，非活性碳作為治療藥物，間接相關"
+        },
+        {
+          "nct_id": "NCT06376994",
+          "relevance_grade": "C",
+          "reasoning": "COPD 清潔空氣 RCT（PHASE3），探討空氣品質對 COPD 及心血管結局的影響；無活性碳治療介入，相關性低"
+        },
+        {
+          "nct_id": "NCT01738087",
+          "relevance_grade": "C",
+          "reasoning": "6-way cross-over 藥物生體可用率研究，活性碳可能作為吸附對照組，非治療性使用；與心臟病無直接關係"
+        },
+        {
+          "nct_id": "NCT02359292",
+          "relevance_grade": "C",
+          "reasoning": "吸入藥物肺部生體可用率研究（PHASE1），活性碳作為藥物吸附對照；非心臟病治療"
+        },
+        {
+          "nct_id": "NCT03253653",
+          "relevance_grade": "C",
+          "reasoning": "水煙毒性研究，評估二手煙暴露；無活性碳治療介入"
+        },
+        {
+          "nct_id": "NCT00276406",
+          "relevance_grade": "C",
+          "reasoning": "Pyridostigmine 治療糖尿病患者便秘（PHASE1/2），與活性碳及心臟病均無直接關聯"
+        },
+        {
+          "nct_id": "NCT06141473",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 雙盲比較研究，從標題無法判斷是否涉及活性碳或心臟病直接治療"
+        },
+        {
+          "nct_id": "NCT01984086",
+          "relevance_grade": "C",
+          "reasoning": "健康受試者單劑量藥物研究；活性碳可能作為吸附對照"
+        },
+        {
+          "nct_id": "NCT04661683",
+          "relevance_grade": "C",
+          "reasoning": "水煙與電子菸二手效應研究；無活性碳治療相關"
+        },
+        {
+          "nct_id": "NCT01349257",
+          "relevance_grade": "C",
+          "reasoning": "2-way cross-over 藥物單劑量研究；活性碳作為吸附對照之可能，非心臟病治療"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26344579",
+          "study_type": "Review / Clinical guideline",
+          "tier": "2",
+          "relevance_note": "鈣離子阻斷劑與 β-blocker 過量治療；活性碳作為毒理學去汙染措施，具心臟保護間接性"
+        },
+        {
+          "pmid": "3515300",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance_note": "三環抗憂鬱劑過量（具重大心臟毒性）；活性碳為標準治療之一"
+        },
+        {
+          "pmid": "9220044",
+          "study_type": "Case Report / Review",
+          "tier": "2",
+          "relevance_note": "Amlodipine（鈣離子阻斷劑）過量；活性碳為急性心臟毒性藥物中毒的管理工具"
+        },
+        {
+          "pmid": "33399225",
+          "study_type": "Clinical Guideline",
+          "tier": "2",
+          "relevance_note": "惡性高熱 2020 指引；活性碳在危急情況下的使用，間接心臟相關性"
+        },
+        {
+          "pmid": "29614179",
+          "study_type": "Prospective Cohort",
+          "tier": "3",
+          "relevance_note": "固體燃料使用與心血管死亡率相關性（中國農村）；環境毒素暴露，與活性碳機轉有遠端相關"
+        },
+        {
+          "pmid": "33069303",
+          "study_type": "Systematic Review / Meta-analysis",
+          "tier": "2",
+          "relevance_note": "室內空氣污染的心血管健康危害；與活性碳減少環境毒素的概念有間接連結"
+        },
+        {
+          "pmid": "16174888",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "Phenytoin 中毒；活性碳標準用途，間接心臟相關"
+        },
+        {
+          "pmid": "26563790",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "一氧化碳中毒；心肌損傷相關，活性碳不是 CO 中毒的主要解毒劑"
+        },
+        {
+          "pmid": "2858971",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "過量中毒通論；活性碳既有適應症"
+        },
+        {
+          "pmid": "109693",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Phenol 中毒；活性碳毒理學用途，心臟相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "genetic syndromic Pierre Robin syndrome",
+      "txgnn_score": 0.8916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳性 Pierre Robin 症候群（含 Stickler、Treacher Collins 等）屬結締組織/發育基因突變導致之顱面缺陷。活性碳對基因驅動的發育異常無任何已知治療路徑。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Laubry-Pezzi syndrome",
+      "txgnn_score": 0.8906,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Laubry-Pezzi 症候群為先天性室中隔缺損合併主動脈瓣閉鎖不全（VSD + aortic regurgitation）的罕見先天心臟病，需外科或介入性治療。活性碳作為腸道吸附劑，對先天性瓣膜或心臟結構缺陷無任何治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications_reviewed": 10,
+    "L1_count": 0,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 1,
+    "L5_count": 9,
+    "S3_proceed": 0,
+    "S2_feasibility": 0,
+    "S1_safety_review": 1,
+    "S0_insufficient": 9,
+    "key_observation": "10 項 TxGNN 預測適應症中，9 項為遺傳/先天性結構缺陷，活性碳（非全身性腸道吸附劑）對此類疾病缺乏生物合理性，均評為 L5/S0。唯一值得進一步探索的適應症為「heart disease」（L4/S1），原因在於活性碳具降低 LDL 膽固醇的文獻依據（主要為 1980-90 年代的早期研究）及心臟毒性藥物過量的既有應用，建議設計以心血管代謝調節（如膽固醇吸附）或尿毒心臟毒素減少為目標的探索性 Phase 1/2 研究問題，但需謹慎考量活性碳對同時服用藥物的廣泛吸附干擾（DDI 風險）。"
+  }
+}
+```
+
+---
+
+## 評估摘要說明
+
+### 整體判讀
+| 適應症 | 等級 | 階段 | 建議 |
+|---|---|---|---|
+| Jeune syndrome situs inversus | **L5** | S0 | Hold |
+| Orofacial clefting syndrome | **L5** | S0 | Hold |
+| Disorder of fucoglycosan synthesis | **L5** | S0 | Hold |
+| Pierre Robin + chromosomal anomaly | **L5** | S0 | Hold |
+| Del 22q long arm | **L5** | S0 | Hold |
+| Del 7q long arm | **L5** | S0 | Hold |
+| Pulmonary valve disease | **L5** | S0 | Hold |
+| **Heart disease** | **L4** | **S1** | **Research Question** |
+| Genetic syndromic Pierre Robin | **L5** | S0 | Hold |
+| Laubry-Pezzi syndrome | **L5** | S0 | Hold |
+
+### 關鍵警示
+
+> ⚠️ **資料品質問題**：`literature_count: 20` 等文獻命中多為活性碳**既有適應症**（中毒、CKD、肝性腦病）的引用，並非針對標的疾病的直接證據，系統存在**假陽性文獻匹配**現象，評估時已予以扣除。
+
+> 🧬 **遺傳病的根本問題**：TxGNN 對遺傳/染色體疾病產生高分預測（0.89-0.90），最可能的解釋是圖神經網路在知識圖譜中捕捉到非特異性拓樸相似性，而非真實藥物-疾病機轉，建議在篩選流程中加入「先天結構/染色體病」排除濾器。
+
+> 💊 **Heart Disease 唯一可行研究問題**：活性碳在心臟病的潛在價值應聚焦於 (1) 膽固醇吸附（需複製早期 RCT 並更新方法）；(2) 尿毒心臟毒素減少（p-cresol, indoxyl sulfate）；但需解決**廣泛 DDI**問題（活性碳會同時吸附心臟用藥，影響其生體可用率）。

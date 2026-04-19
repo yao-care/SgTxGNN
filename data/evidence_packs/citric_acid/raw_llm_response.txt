@@ -1,0 +1,543 @@
+```json
+{
+  "drug": "Citric acid",
+  "drugbank_id": "DB04272",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "柠檬酸本身是 TCA 循環中間代謝物，廣泛作為食品添加劑與醫藥輔料；其鹽類（citrate）已在透析抗凝、血液採樣保存中具臨床應用。本次評估以直接治療適應症為準，輔料/診斷工具用途列為間接證據。",
+  "indications": [
+    {
+      "disease_name": "stomach disease",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "柠檬酸為胃液正常成分（PMID 6027230）；作為 13C-尿素呼氣試驗（UBT）的試驗餐媒介（PMID 31505905），可輔助 H. pylori 診斷，但屬診斷工具而非治療介入。代謝組學研究顯示胃癌患者血清柠檬酸水平與預後相關（PMID 35900644），為腫瘤能量代謝（TCA 通量）的觀察性連結，尚無直接治療機轉。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03425747",
+          "relevance_grade": "C",
+          "reasoning": "比較 Calcium Citrate vs Calcium Carbonate 治療慢性副甲狀腺低下症，研究主角為鈣鹽，目的是骨代謝而非胃病治療，與本適應症無直接關聯。"
+        },
+        {
+          "nct_id": "NCT05753306",
+          "relevance_grade": "C",
+          "reasoning": "機器人細胞減量手術合併 HIPEC 用於腹膜癌，為腫瘤外科手術研究，與柠檬酸治療胃病無關。"
+        },
+        {
+          "nct_id": "NCT05608577",
+          "relevance_grade": "C",
+          "reasoning": "消化道出血患者數位平台可行性研究，屬診斷/監測工具研究，非柠檬酸干預。"
+        },
+        {
+          "nct_id": "NCT04626609",
+          "relevance_grade": "C",
+          "reasoning": "嗜酸性食道炎前列腺素與大麻素受體研究，與柠檬酸無關。"
+        },
+        {
+          "nct_id": "NCT07122284",
+          "relevance_grade": "B",
+          "reasoning": "H. pylori 感染患者腸道菌群與代謝輪廓分析，柠檬酸可能作為代謝生物標誌物出現，但研究主體非柠檬酸治療，屬間接關聯。"
+        },
+        {
+          "nct_id": "NCT05294939",
+          "relevance_grade": "C",
+          "reasoning": "急性酮體補充劑（含柠檬酸鹽）對運動表現的效果，非胃病治療研究。"
+        },
+        {
+          "nct_id": "NCT05836402",
+          "relevance_grade": "C",
+          "reasoning": "低碳飲食介入 Long COVID 症候群，非柠檬酸特異性干預。"
+        },
+        {
+          "nct_id": "NCT04350346",
+          "relevance_grade": "C",
+          "reasoning": "Motilitone vs Gasmotil 比較試驗，主角為胃動力藥，與柠檬酸無關。"
+        },
+        {
+          "nct_id": "NCT03320538",
+          "relevance_grade": "C",
+          "reasoning": "中藥「後谷米希」治療消化性潰瘍多中心 RCT，非柠檬酸試驗。"
+        },
+        {
+          "nct_id": "NCT04329494",
+          "relevance_grade": "C",
+          "reasoning": "PIPAC 用於卵巢/子宮腫瘤腹膜擴散，為腫瘤化療試驗，非胃病或柠檬酸。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38959111",
+          "title": "Molecular characterization of metabolic signature subtypes in gastric cancer",
+          "study_type": "Molecular/Genomic Classification",
+          "tier": "3",
+          "note": "胃癌代謝亞型分類研究，柠檬酸作為 TCA 循環標誌物出現，為背景機轉而非治療證據。"
+        },
+        {
+          "pmid": "9604442",
+          "title": "Clinical practice--breath tests",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "呼氣試驗臨床綜述，說明柠檬酸作為試驗餐媒介用於 UBT，屬診斷工具應用。"
+        },
+        {
+          "pmid": "35900644",
+          "title": "High serum levels of L-carnitine and citric acid negatively correlated with ALP in gastric cancer",
+          "study_type": "Observational/Biomarker",
+          "tier": "3",
+          "note": "胃癌患者血清柠檬酸水平觀察性研究，無治療介入，屬生物標誌物關聯。"
+        },
+        {
+          "pmid": "39539553",
+          "title": "The role of cuproptosis in gastric cancer",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "銅毒死與胃癌綜述，柠檬酸在銅代謝/TCA 循環中的背景角色，極間接。"
+        },
+        {
+          "pmid": "2072799",
+          "title": "Diet and nutrition in ulcer disease",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "潰瘍病飲食管理舊文，提及柠檬酸食物來源，非藥物治療證據。"
+        },
+        {
+          "pmid": "37477784",
+          "title": "Energy metabolism: a new target for gastric cancer treatment",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "胃癌能量代謝綜述，TCA 循環靶點討論，柠檬酸作為中間代謝物，為背景知識。"
+        },
+        {
+          "pmid": "6027230",
+          "title": "Lactic, pyruvic, citric, and uric acid in human gastric juice",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "1967 年基礎生理學研究，確認柠檬酸為正常胃液成分，無治療意義。"
+        },
+        {
+          "pmid": "31505905",
+          "title": "Citric acid meal for increasing accuracy of 13C-urea breath test in Asian populations",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "亞洲族群中柠檬酸試驗餐提升 UBT 診斷精度的前瞻研究，為診斷輔助應用，非胃病治療。"
+        },
+        {
+          "pmid": "7106518",
+          "title": "Salivary secretion in reflux esophagitis",
+          "study_type": "Physiological Study",
+          "tier": "3",
+          "note": "胃食道逆流與唾液分泌生理研究，柠檬酸僅作為刺激物，非治療藥物。"
+        },
+        {
+          "pmid": "30541171",
+          "title": "Cobalamin deficiency in dogs and cats",
+          "study_type": "Veterinary Review",
+          "tier": "3",
+          "note": "動物醫學文獻，與人類胃病治療無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "pharyngitis",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "缺乏直接機轉連結。柠檬酸的溫和抗菌特性（低 pH 破壞細菌細胞膜）在理論上可能對口咽部鏈球菌有效，但現有文獻（PMID 17547418）研究對象為葡萄酒中多種成分的綜合效果，無法歸因於柠檬酸單一作用。PMID 1489123 甚至顯示柠檬酸可誘發咳嗽反射，對咽炎症狀可能有負面影響。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06251050",
+          "relevance_grade": "C",
+          "reasoning": "鋰離子漱口水預防放療相關口腔黏膜炎，研究藥物為鋰鹽，非柠檬酸，且適應症為口腔黏膜炎而非咽炎。"
+        },
+        {
+          "nct_id": "NCT06390176",
+          "relevance_grade": "C",
+          "reasoning": "Lactobacillus rhamnosus LGG 減輕放療口腔黏膜炎，為益生菌研究，與柠檬酸及咽炎均無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "1489123",
+          "title": "Capsaicin-induced cough in humans",
+          "study_type": "Experimental/Physiological",
+          "tier": "3",
+          "note": "柠檬酸作為咳嗽誘發工具（刺激性測試），顯示其對咽喉黏膜的刺激作用，對咽炎治療方向為負向證據。"
+        },
+        {
+          "pmid": "24669216",
+          "title": "Trapa bispinosa Roxb.: A Review on Nutritional and Pharmacological Aspects",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "草藥綜述，提及傳統用於咽喉不適，柠檬酸為植物成分之一，非直接治療證據。"
+        },
+        {
+          "pmid": "17547418",
+          "title": "Antibacterial activity of red and white wine against oral streptococci",
+          "study_type": "In Vitro",
+          "tier": "3",
+          "note": "葡萄酒對口腔鏈球菌抗菌活性，柠檬酸為葡萄酒多種成分之一，無法分離其獨立貢獻。"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "完全基於 TxGNN 圖神經網路預測，無任何臨床試驗或文獻支持。柠檬酸對急性喉咽炎（通常為病毒或細菌感染）的直接治療機轉尚無科學文獻描述。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "postgastrectomy syndrome",
+      "txgnn_score": 0.9958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "完全基於 TxGNN 預測，無臨床或文獻支持。胃切除後症候群（傾倒症候群、小胃容量症狀等）的病理機轉與柠檬酸作用無已知連結。若有假說，可能源自柠檬酸對胃酸分泌或消化道動力的間接影響，但尚無任何實驗數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9952,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Gallium-67 citrate 閃爍攝影術（PMID 2587802）用於 Wegener 肉芽腫症診斷，屬核醫診斷工具，非治療用途。柠檬酸的螯合特性在理論上可能影響鼻腔黏膜礦物質環境，但無任何臨床治療數據。所有相關試驗均研究其他藥物（皮質類固醇、化療）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03705793",
+          "relevance_grade": "C",
+          "reasoning": "Mometasone 鼻腔灌洗治療慢性鼻竇炎，研究藥物為皮質類固醇，與柠檬酸無關。"
+        },
+        {
+          "nct_id": "NCT05063552",
+          "relevance_grade": "C",
+          "reasoning": "頭頸癌化療聯合免疫治療三臂 Phase II/III 試驗，為腫瘤化療研究，與柠檬酸及鼻腔疾病治療無關。"
+        },
+        {
+          "nct_id": "NCT00656513",
+          "relevance_grade": "C",
+          "reasoning": "針灸樣電神經刺激（ALTENS）vs 放射治療頭頸癌，非藥物研究，與柠檬酸無關。"
+        },
+        {
+          "nct_id": "NCT02196168",
+          "relevance_grade": "C",
+          "reasoning": "Cisplatin + Wee1 激酶抑制劑用於頭頸癌 Phase II 試驗（因受試者不足終止），與柠檬酸無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30315448",
+          "title": "Entry and Deposit of Aluminum in the Brain",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "鋁神經毒性綜述，提及柠檬酸促進鋁跨越血腦屏障（螯合增溶），與鼻腔疾病治療無關，且為毒理學負向訊號。"
+        },
+        {
+          "pmid": "2587802",
+          "title": "Gallium-67 citrate scintigraphy in Wegener's granulomatosis",
+          "study_type": "Case Report/Nuclear Medicine",
+          "tier": "3",
+          "note": "Gallium-67 citrate 診斷 Wegener 肉芽腫症的個案影像報告，為核醫診斷工具，非治療用途。"
+        }
+      ]
+    },
+    {
+      "disease_name": "papillary conjunctivitis",
+      "txgnn_score": 0.9924,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "完全基於 TxGNN 預測，無任何支持性文獻或臨床試驗。乳頭狀結膜炎（通常為過敏或機械性刺激所致）的發病機轉與柠檬酸已知特性無直接連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blepharoconjunctivitis",
+      "txgnn_score": 0.9914,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "完全基於 TxGNN 預測，無任何支持性文獻或臨床試驗。瞼結膜炎（細菌性/脂漏性/過敏性）的病理與柠檬酸作用無已知連結；低 pH 環境對眼表刺激性高，安全性亦存疑。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "rhinitis",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "最相關機轉為柠檬酸的生物膜破壞活性：PMID 22186246 顯示柠檬酸/兩性離子界面活性劑組合（CACS）可有效破壞鼻腔 Staphylococcus aureus 生物膜，為慢性鼻竇炎相關鼻炎提供潛在治療基礎。PMID 23710951 的綜述確認界面活性劑在鼻腔黏液清除的應用，柠檬酸作為輔助成分被提及。另外，desloratadine citrate（柠檬酸鹽形式）配合生理鹽水鼻腔沖洗的研究（PMID 33040814）顯示協同效果，但柠檬酸為藥物鹽類輔料而非獨立活性成分。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03705793",
+          "relevance_grade": "C",
+          "reasoning": "Mometasone 鼻腔灌洗治療慢性鼻竇炎 Phase IV 完成試驗，研究藥物為皮質類固醇，鼻腔灌洗配方中柠檬酸鹽緩衝液的角色未被研究，與本適應症評估無直接貢獻。"
+        },
+        {
+          "nct_id": "NCT04898686",
+          "relevance_grade": "C",
+          "reasoning": "Lactobacillus 益生菌用於上呼吸道過敏性鼻炎，為益生菌研究，與柠檬酸無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22186246",
+          "title": "Efficacy of hydrodebrider and citric acid/zwitterionic surfactant on Staphylococcus aureus biofilm",
+          "study_type": "In Vitro / Preclinical",
+          "tier": "2",
+          "note": "最強相關文獻：柠檬酸/界面活性劑組合對鼻腔 Staph aureus 生物膜的破壞效果，提供機轉假說基礎，但為體外研究，尚需臨床驗證。"
+        },
+        {
+          "pmid": "28381800",
+          "title": "Citric Acid Suppresses Bitter Taste of Olopatadine HCl Orally Disintegrating Tablets",
+          "study_type": "Formulation Study",
+          "tier": "3",
+          "note": "柠檬酸作為味道掩蔽劑用於奥洛他定（抗過敏藥）製劑，屬輔料研究，非直接治療鼻炎。"
+        },
+        {
+          "pmid": "23710951",
+          "title": "Surfactants in the management of rhinopathologies",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "鼻腔疾病界面活性劑管理綜述，柠檬酸作為鼻腔沖洗成分的潛在角色被提及，提供概念支持。"
+        },
+        {
+          "pmid": "33040814",
+          "title": "Desloratadine citrate + physiological saline nasal irrigation for rhinitis",
+          "study_type": "RCT",
+          "tier": "2",
+          "note": "RCT 研究，但柠檬酸為藥物鹽類（desloratadine citrate），非獨立活性成分；生理鹽水鼻腔沖洗為對照，無法分離柠檬酸的獨立效果。"
+        },
+        {
+          "pmid": "31848795",
+          "title": "Acquisition and generalization of cough trigger beliefs in allergic rhinitis",
+          "study_type": "Behavioral Study",
+          "tier": "3",
+          "note": "過敏性鼻炎咳嗽觸發認知研究，柠檬酸作為咳嗽誘發工具，顯示其可能加重咳嗽症狀，屬負向訊號。"
+        },
+        {
+          "pmid": "16204773",
+          "title": "Antileukotriene treatment and allergic rhinitis-related cough in guinea pigs",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "天竺鼠過敏性鼻炎咳嗽模型，柠檬酸用於誘發咳嗽（實驗工具），非治療用途。"
+        },
+        {
+          "pmid": "18204116",
+          "title": "Experimental allergic rhinitis-related cough and airway eosinophilia in guinea pigs",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "同類動物實驗，柠檬酸為咳嗽誘發劑，顯示咳嗽敏感化機轉，非治療角色。"
+        },
+        {
+          "pmid": "36337846",
+          "title": "Molecular mechanisms of Bimin Kang Mixture on allergic rhinitis: network pharmacology",
+          "study_type": "Network Pharmacology",
+          "tier": "3",
+          "note": "中藥複方網路藥理學分析，非柠檬酸單獨研究，相關性極低。"
+        },
+        {
+          "pmid": "36454091",
+          "title": "Inter-individual characteristics on basic taste recognition thresholds",
+          "study_type": "Cross-sectional",
+          "tier": "3",
+          "note": "味覺閾值個體差異研究，與鼻炎治療無關。"
+        },
+        {
+          "pmid": "40268108",
+          "title": "Compatibility mechanism of TCM prescription research method",
+          "study_type": "Review/TCM",
+          "tier": "3",
+          "note": "中藥複方相容性方法學研究，與本適應症無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "thrombotic disease",
+      "txgnn_score": 0.9886,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "柠檬酸（以 trisodium citrate/檸檬酸三鈉形式）通過螯合 Ca²⁺ 抑制凝血酶原激活，是已建立的區域抗凝機轉（不同於全身性肝素）。主要臨床應用包括：(1) 血液採樣保存管（EDTA-citrate tube，標準血庫應用）；(2) 透析導管封管液（Catheter Lock Solution），如 KiteLock（NCT04548713，n=1449）；(3) 連續性腎臟替代療法（CRRT）區域抗凝（PMID 40028212，2025 年發表）；(4) 血液透析抗凝替代（NCT03887468）。此證據為柠檬酸在特定「血管內血栓預防」場景（靜脈導管、體外循環）的直接臨床證據，而非廣泛系統性血栓疾病治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04548713",
+          "relevance_grade": "A",
+          "reasoning": "KiteLock 臨床試驗（n=1449，重症監護室中央靜脈導管），比較柠檬酸封管液 vs 其他方案在預防導管相關血栓/感染的效果。大樣本量、完成試驗，為柠檬酸抗血栓應用最直接的 A 級證據。"
+        },
+        {
+          "nct_id": "NCT03887468",
+          "relevance_grade": "B",
+          "reasoning": "無抗凝血劑血液透析（使用肝素替代品）研究，可能涉及區域柠檬酸抗凝方案；樣本量小（n=38），需確認柠檬酸是否為研究干預藥物。"
+        },
+        {
+          "nct_id": "NCT03890601",
+          "relevance_grade": "C",
+          "reasoning": "抗磷脂症候群中 β2-GP1 自體抗體與凝血酶生成研究，為觀察性生物標誌物研究，非柠檬酸干預。"
+        },
+        {
+          "nct_id": "NCT04595110",
+          "relevance_grade": "C",
+          "reasoning": "COVID-19 患者凝血功能前瞻性觀察研究，非柠檬酸治療試驗。"
+        },
+        {
+          "nct_id": "NCT06172296",
+          "relevance_grade": "C",
+          "reasoning": "Dinutuximab 用於神經母細胞瘤兒童 Phase III 試驗，與血栓疾病或柠檬酸無關。"
+        },
+        {
+          "nct_id": "NCT04003220",
+          "relevance_grade": "C",
+          "reasoning": "特發性慢性血小板減少症發病機轉與生物標誌物研究，非柠檬酸治療。"
+        },
+        {
+          "nct_id": "NCT00369122",
+          "relevance_grade": "C",
+          "reasoning": "Bevacizumab 聯合放化療用於頭頸癌 Phase II 試驗，為腫瘤治療研究，與柠檬酸抗血栓無關。"
+        },
+        {
+          "nct_id": "NCT02026297",
+          "relevance_grade": "C",
+          "reasoning": "預防性 tranexamic acid 在剖腹產中的血栓彈性圖研究（已終止），非柠檬酸研究。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36047812",
+          "title": "Reevaluation of lock solutions for Central venous catheters in hemodialysis: a narrative review",
+          "study_type": "Narrative Review",
+          "tier": "1",
+          "note": "★ 最強核心文獻：系統性回顧柠檬酸封管液在血液透析中央靜脈導管的應用，直接評估柠檬酸的抗血栓及抗菌效果，支持 L2 證據等級。"
+        },
+        {
+          "pmid": "40028212",
+          "title": "Efficacy and safety of LMWH plus citrate in nephrotic syndrome during CRRT",
+          "study_type": "Clinical Study",
+          "tier": "1",
+          "note": "★ 2025 年最新臨床研究：腎病症候群 CRRT 中低分子肝素合併柠檬酸抗凝的療效與安全性，直接支持柠檬酸在血栓預防的臨床應用。"
+        },
+        {
+          "pmid": "32824700",
+          "title": "Impact of anticoagulation and sample processing on miRNA quantification",
+          "study_type": "Methodological Study",
+          "tier": "2",
+          "note": "柠檬酸鹽作為血液樣本抗凝劑的標準應用討論，確認其抗凝機轉在樣本保存中的作用，為間接機轉證明。"
+        },
+        {
+          "pmid": "37315726",
+          "title": "Urinary exosomal metabolites as cardiovascular risk predictors",
+          "study_type": "Observational/Metabolomics",
+          "tier": "3",
+          "note": "尿液外泌體代謝組學研究，柠檬酸作為心血管風險生物標誌物，為觀察性關聯，無治療意義。"
+        },
+        {
+          "pmid": "26189969",
+          "title": "Acetic acid in aged vinegar affects molecular targets for thrombus disease",
+          "study_type": "In Vitro",
+          "tier": "3",
+          "note": "醋酸（非柠檬酸）對血栓分子靶點的體外研究，類比有機酸效果，間接相關但不能歸因於柠檬酸。"
+        },
+        {
+          "pmid": "40663364",
+          "title": "Plasma metabolomics and machine learning for thrombosis biomarkers",
+          "study_type": "Metabolomics/ML",
+          "tier": "3",
+          "note": "血漿代謝組學診斷研究，柠檬酸作為血栓診斷生物標誌物，為觀察性關聯非治療干預。"
+        },
+        {
+          "pmid": "36126009",
+          "title": "Thrombocytopenia: Evaluation and Management",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "血小板減少症管理綜述，柠檬酸作為血液採樣標準抗凝劑被提及，為背景應用知識。"
+        },
+        {
+          "pmid": "35133846",
+          "title": "Metabolic Snapshot of Plasma in SARS-CoV-2 Pathogenesis",
+          "study_type": "Metabolomics",
+          "tier": "3",
+          "note": "COVID-19 血漿代謝組學，柠檬酸水平改變為感染病理標誌，無直接治療意義。"
+        },
+        {
+          "pmid": "26295816",
+          "title": "Chronic Migraineurs Form Carboxyhemefibrinogen",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "偏頭痛患者纖維蛋白原修飾研究，與柠檬酸或血栓治療無直接關聯。"
+        },
+        {
+          "pmid": "39290129",
+          "title": "Comparative efficacy of two paclitaxel-coated balloons",
+          "study_type": "RCT/Clinical",
+          "tier": "3",
+          "note": "紫杉醇塗藥球囊長期療效比較，為介入性血管研究，與柠檬酸無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "ulcerative blepharitis",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "完全基於 TxGNN 預測，無任何支持性文獻或臨床試驗。潰瘍性眼瞼炎（通常由金黃色葡萄球菌感染引起）的治療以局部抗生素為主；柠檬酸的低 pH 對眼表應用有刺激性安全疑慮，理論上的抗菌特性需實驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "L1": [],
+    "L2": ["thrombotic disease"],
+    "L3": [],
+    "L4": ["stomach disease", "rhinitis"],
+    "L5": [
+      "pharyngitis",
+      "acute laryngopharyngitis",
+      "postgastrectomy syndrome",
+      "nasal cavity disease",
+      "papillary conjunctivitis",
+      "blepharoconjunctivitis",
+      "ulcerative blepharitis"
+    ]
+  },
+  "priority_recommendation": {
+    "highest_priority": "thrombotic disease",
+    "rationale": "柠檬酸（citrate）在透析導管封管液（NCT04548713, n=1449）與 CRRT 區域抗凝（PMID 40028212）已有 L2 等級臨床證據，安全性輪廓已知（局部應用），具備直接進入 S2 臨床可行性評估的條件。建議聚焦於特定場景：靜脈導管相關血栓預防、體外循環抗凝替代（肝素禁忌患者）。",
+    "secondary_watch": "rhinitis - 柠檬酸/界面活性劑組合對鼻腔生物膜的破壞活性（PMID 22186246）提供研究假說基礎，建議設計針對慢性鼻竇炎（細菌生物膜型）的 Phase I 安全性試驗作為研究問題。",
+    "overall_caveat": "TxGNN 高分預測（>0.99）與臨床證據嚴重脫鉤，多數適應症的高分反映知識圖譜中代謝物/食物共現關係而非直接藥理機轉，需謹慎解讀。"
+  }
+}
+```
+
+---
+
+## 📊 評估摘要
+
+| 適應症 | TxGNN 分 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|----------|------|
+| **thrombotic disease** | 0.9886 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| **rhinitis** | 0.9907 | **L4** | **S1** | 🔬 Research Question |
+| **stomach disease** | 0.9974 | L4 | S0 | ⏸ Hold |
+| pharyngitis | 0.9968 | L5 | S0 | ⏸ Hold |
+| nasal cavity disease | 0.9952 | L5 | S0 | ⏸ Hold |
+| acute laryngopharyngitis | 0.9959 | L5 | S0 | ⏸ Hold |
+| postgastrectomy syndrome | 0.9958 | L5 | S0 | ⏸ Hold |
+| papillary conjunctivitis | 0.9924 | L5 | S0 | ⏸ Hold |
+| blepharoconjunctivitis | 0.9914 | L5 | S0 | ⏸ Hold |
+| ulcerative blepharitis | 0.9867 | L5 | S0 | ⏸ Hold |
+
+### 🔑 關鍵發現
+
+1. **TxGNN 高分 ≠ 臨床證據**：10 個適應症評分均 >0.98，但 7 個為 L5（純預測無證據），說明本批預測高度依賴代謝物共現網路，非直接藥理機轉。
+
+2. **最具潛力：血栓疾病（L2/S2）**：柠檬酸 citrate 形式已在透析抗凝有實質臨床應用，NCT04548713（n=1449）為最大規模直接證據；PMID 40028212 為 2025 年最新 CRRT 應用數據。**建議：聚焦靜脈導管封管液 + 體外循環抗凝替代適應症申請。**
+
+3. **次要研究問題：鼻炎（L4/S1）**：生物膜破壞機轉有體外數據（PMID 22186246），建議設計鼻腔沖洗配方的 Phase I 安全性/可行性研究。
+
+4. **Stomach disease 需降格解讀**：29 個相關試驗中，柠檬酸主要角色是 **13C-UBT 診斷試驗餐**（非治療），試驗本身研究其他藥物/干預措施。

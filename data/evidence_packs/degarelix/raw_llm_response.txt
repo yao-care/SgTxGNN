@@ -1,0 +1,212 @@
+## Degarelix 藥物再利用證據分析
+
+**分析前置說明：**
+- **已知 MoA**（補充資料落差）：Degarelix 為 **GnRH 受體拮抗劑**，快速抑制垂體 LH/FSH 釋放 → 降低睪固酮/雌激素，**無促效劑初始激發效應**
+- **已知核准適應症**：晚期前列腺癌（Firmagon®，FDA/EMA 核准），「未上市」應為本地市場標記
+- **資料品質警示**：多項 txgnn_score > 0.999 之預測涵蓋先天性/遺傳性疾病，顯示知識圖譜可能存在節點路徑過度連結的偽陽性風險
+
+---
+
+```json
+{
+  "drug": "Degarelix",
+  "drugbank_id": "DB06699",
+  "data_quality_flags": [
+    "original_moa 標記 [Data Gap]，實際為已知 GnRH 拮抗劑",
+    "original_indications 空值，實際已核准前列腺癌適應症",
+    "多項 score > 0.999 但零臨床證據，疑似 KG 演算法偽陽性",
+    "malformation syndrome 的 20 篇文獻均與 Degarelix 無關，屬關鍵字誤配"
+  ],
+  "indications": [
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雄性素可促進毛囊生長，GnRH 拮抗降低睪固酮理論上可抑制雄性素依賴性毛髮生長。然而 hypertrichosis 定義上為「非雄性素依賴性」過度毛髮生長（與 hirsutism 不同），機轉連結薄弱。高 TxGNN 分數可能源自 KG 中毛髮→雄性素→GnRH 的多跳節點關聯，屬演算法偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ambras 型先天性全身多毛症由染色體 8q22 倒位（TRPS1 基因附近）所致，為遺傳性結構異常，與 HPG 軸荷爾蒙調控無直接關聯。GnRH 拮抗對此基因病因缺乏合理治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "syndrome with a Dandy-Walker malformation as major feature",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dandy-Walker 畸形為先天性後顱窩腦部結構異常（小腦蚓部發育不全、第四腦室囊腫性擴張），通常由 ZIC1/ZIC4 等基因突變或早期胚胎發育異常造成。GnRH 受體拮抗對先天性腦部結構缺陷無任何已知治療機轉，此預測高度疑似演算法假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malformation syndrome with odontal and/or periodontal component",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "性荷爾蒙（特別是雌激素、孕激素）對牙周組織有調控作用（妊娠期牙齦炎為已知現象，雌激素可調節牙周纖維母細胞及免疫反應）。Degarelix 降低性荷爾蒙理論上可能影響牙周免疫微環境，但此為極間接之推論。重要：收錄的 20 篇文獻均為一般牙周病文獻，無一涉及 Degarelix 或 GnRH 拮抗劑，文獻匹配屬疾病關鍵字誤配，不應計入支持性證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22057194",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "牙周病與糖尿病雙向關係綜述——與 Degarelix 無關，疾病層面文獻"
+        },
+        {
+          "pmid": "35688447",
+          "study_type": "Clinical Practice Guideline (EFP S3-level)",
+          "tier": "1",
+          "relevance_grade": "C",
+          "relevance_note": "Stage IV 牙周炎治療指引——高品質指引但與 Degarelix 完全無關"
+        },
+        {
+          "pmid": "9495612",
+          "study_type": "Observational/Microbiological",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "齦下菌斑微生物複合體經典研究——與 Degarelix 無關"
+        },
+        {
+          "pmid": "37435999",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "再生牙周手術併發症回顧——與 Degarelix 無關"
+        },
+        {
+          "pmid": "35420698",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "relevance_grade": "C",
+          "relevance_note": "牙周治療對糖尿病血糖控制效果——Cochrane 回顧，與 Degarelix 無關"
+        },
+        {
+          "pmid": "36883660",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "牙齦纖維母細胞在牙周炎病理中的角色——與 Degarelix 無關"
+        },
+        {
+          "pmid": "37452425",
+          "study_type": "Basic Research (in vitro/in vivo)",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "褪黑激素工程化 M2 巨噬細胞外泌體——與 Degarelix 無關"
+        },
+        {
+          "pmid": "29193334",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "植體周圍與牙周邊緣軟組織比較——與 Degarelix 無關"
+        },
+        {
+          "pmid": "38907216",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "生物材料介導巨噬細胞免疫治療新方向——與 Degarelix 無關"
+        },
+        {
+          "pmid": "38362600",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "relevance_note": "牙周炎對口腔與腸道菌群的影響——與 Degarelix 無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "isolated genetic hair shaft abnormality",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "孤立性遺傳性髮幹異常（如 monilethrix、pili torti、trichothiodystrophy 等）由角蛋白（KRT81/KRT83/KRT86）或其相關蛋白基因突變引起，影響的是毛幹結構蛋白而非荷爾蒙調控。GnRH 拮抗對此類遺傳性結構缺陷無已知治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "allergic urticaria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雌激素可上調肥大細胞 FcεRI 表現並促進組織胺合成，低雌激素狀態（如更年期）與某些慢性蕁麻疹相關。Degarelix 降低雌激素理論上可能調節肥大細胞反應，但此機轉為雙向且高度間接。臨床上抗組織胺、抗 IgE（omalizumab）為標準治療，無任何 GnRH 拮抗劑用於過敏性蕁麻疹的臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cold urticaria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "冷誘發蕁麻疹由冷刺激觸發 IgE 依賴及非依賴性肥大細胞脫粒，部分涉及 IgE-cold-reactive IgM 複合體。性荷爾蒙對冷誘發蕁麻疹的特定調控作用尚未確立，Degarelix 與此疾病缺乏合理機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "familial male-limited precocious puberty",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 機轉根本性缺陷：家族性男性限制性性早熟（Testotoxicosis）由 LHCGR 基因活化突變所致，LH 受體組成性活化不需 LH/GnRH 刺激即可持續產生睪固酮——屬「促性腺激素獨立性」性早熟。GnRH 拮抗劑（如 Degarelix）無法影響已組成性活化的 LH 受體，臨床上無效。正確治療為抗雄性素藥物（比卡魯胺、酮康唑）加芳香酶抑制劑。此預測為演算法錯誤，不應考慮。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "centra precocious puberty 1",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "✅ 最強機轉連結：中樞性性早熟（CPP）為「促性腺激素依賴性」疾病，下視丘-垂體-性腺（HPG）軸過早活化。Degarelix 直接拮抗 GnRH 受體，可快速且可逆地抑制 LH/FSH → 抑制性荷爾蒙分泌（且無 GnRH 促效劑的初始睪固酮激發效應，理論上更安全）。同類機轉藥物（GnRH 促效劑 leuprolide、histrelin、triptorelin）為 CPP 唯一核准標準治療；新型 GnRH 拮抗劑（relugolix、elagolix）已在子宮內膜異位症/子宮肌瘤中核准，類別效應支持可行性。限制：資料集中無 Degarelix 用於 CPP 之臨床試驗或文獻，CPP 1 基因型（MKRN3 突變）的特定資料亦缺乏，現有證據屬類別間接推斷。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "familial isolated trichomegaly",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性孤立性睫毛過長症通常為常染色體顯性遺傳特徵（基因未完全確定），亦可見於 EGFR 抑制劑、cyclosporine、bimatoprost 等藥物使用後。性荷爾蒙對睫毛毛囊生長週期的特定調控作用尚未確立；GnRH 拮抗劑治療此症缺乏合理機轉及任何臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 彙整評估表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵判斷依據 |
+|--------|---------|---------|------|-------------|
+| hypertrichosis | **L5** | S0 | 🔴 Hold | 機轉薄弱（非雄性素依賴型），零臨床證據 |
+| Ambras hypertrichosis | **L5** | S0 | 🔴 Hold | 遺傳性，與荷爾蒙無關 |
+| Dandy-Walker syndrome | **L5** | S0 | 🔴 Hold | 先天性腦部結構缺陷，無機轉 |
+| 牙周相關畸形症候群 | **L5** | S0 | 🔴 Hold | 文獻均為疾病誤匹配，非藥物證據 |
+| 遺傳性髮幹異常 | **L5** | S0 | 🔴 Hold | 角蛋白基因缺陷，與 GnRH 無關 |
+| 過敏性蕁麻疹 | **L5** | S0 | 🔴 Hold | 機轉高度間接，零臨床資料 |
+| 冷誘發蕁麻疹 | **L5** | S0 | 🔴 Hold | 機轉連結薄弱，零臨床資料 |
+| 家族性男性性早熟 | **L5** | S0 | 🔴 Hold | ⚠️ 機轉根本性缺陷（LH 受體獨立型） |
+| **中樞性性早熟 (CPP)** | **L4** | S1 | 🟡 Research Question | ✅ 強機轉連結，同類藥物有效，需進一步驗證 |
+| 家族性睫毛過長症 | **L5** | S0 | 🔴 Hold | 遺傳性，荷爾蒙機轉未確立 |
+
+---
+
+## 優先建議
+
+**中樞性性早熟（CPP）** 是本次分析中唯一值得進入 **S1 安全性初評** 的候選：
+1. 確認 Degarelix 在兒童族群的藥動學與安全性資料（目前核准用於成人男性）
+2. 檢索同類 GnRH 拮抗劑（elagolix、relugolix）在 CPP 的 Phase 1/2 數據
+3. 評估與現有 GnRH 促效劑標準治療的差異化優勢（無激發效應、快速起效）
+
+> ⚠️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證方可應用。

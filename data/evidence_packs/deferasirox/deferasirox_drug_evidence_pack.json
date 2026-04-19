@@ -1,0 +1,809 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01609-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Deferasirox",
+    "drugbank_id": "DB01609",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "HIV infectious disease",
+      "txgnn": {
+        "score": 0.9939775466918944,
+        "rank": 7394
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34550543",
+            "title": "Endolysosome iron restricts Tat-mediated HIV-1 LTR transactivation by increasing HIV-1 Tat oligomerization and β-catenin expression.",
+            "authors": [
+              "Khan Nabab",
+              "Halcrow Peter W",
+              "Lakpa Leo K",
+              "Rehan Mohd",
+              "Chen Xuesong"
+            ],
+            "journal": "Journal of neurovirology",
+            "year": "2021",
+            "abstract": "HIV-1 transactivator of transcription (Tat) protein is required for HIV-1 replication, and it has been implicated in the pathogenesis of HIV-1-associated neurocognitive disorder (HAND). HIV-1 Tat can enter cells via receptor-mediated endocytosis where it can reside in endolysosomes; upon its escape from these acidic organelles, HIV-1 Tat can enter the cytosol and nucleus where it activates the HIV-1 LTR promoter. Although it is known that HIV-1 replication is affected by the iron status of peopl",
+            "classification": {
+              "study_type": "Mechanistic / In vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16529348",
+            "title": "New drugs: ramelteon, tipranavir, nepafenac, and deferasirox.",
+            "authors": [
+              "Hussar Daniel A"
+            ],
+            "journal": "Journal of the American Pharmacists Association : JAPhA",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Drug Review / Commentary",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鐵離子參與 HIV-1 Tat 蛋白的 LTR 轉活化（transactivation）；內溶酶體鐵螯合可促進 Tat 寡聚化（oligomerization），抑制 LTR 驅動的病毒基因轉錄。Deferasirox 降低胞內 Fe³⁺ 濃度，可能具有輔助抗病毒效果。機轉具生物學合理性，但僅限體外（in vitro）證據，缺乏臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "chronic hepatitis C virus infection",
+      "txgnn": {
+        "score": 0.9939365983009338,
+        "rank": 7433
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28378040",
+            "title": "Interferon free antiviral treatment of chronic hepatitis C in patients affected by β-thalassemia major.",
+            "authors": [
+              "Biliotti Elisa",
+              "Palazzo Donatella",
+              "Serani Marco",
+              "Silvestri Alessandro M",
+              "Volpicelli Lorenzo"
+            ],
+            "journal": "Annals of hematology",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "Cohort / Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18647144",
+            "title": "Iron and hepatitis C: what can we learn from thalassemia major?",
+            "authors": [
+              "Mahmoud Amira",
+              "Musallam Khaled M",
+              "Taher Ali T"
+            ],
+            "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+            "year": "2008",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22515110",
+            "title": "Determination of ferritin and hemosiderin iron in patients with normal iron stores and iron overload by serum ferritin kinetics.",
+            "authors": [
+              "Saito Hiroshi",
+              "Tomita Akihiro",
+              "Ohashi Haruhiko",
+              "Maeda Hideaki",
+              "Hayashi Hisao"
+            ],
+            "journal": "Nagoya journal of medical science",
+            "year": "2012",
+            "abstract": "We attempted to clarify the storage iron metabolism from the change in the serum ferritin level. We assumed that the nonlinear decrease in serum ferritin was caused by serum ferritin increase in iron mobilization. Under this assumption, we determined both ferritin and hemosiderin iron levels by computer-assisted simulation of the row of decreasing assay-dots of serum ferritin in 11 patients with normal iron stores free of both iron deficiency and iron overload; chronic hepatitis C (CHC) and iron",
+            "classification": {
+              "study_type": "Laboratory / Cross-sectional",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝臟鐵過載可促進 HCV 複製、加速纖維化並減低干擾素治療反應。β-地中海貧血合併 HCV 感染的患者族群中，deferasirox 作為鐵螯合背景療法被同步使用，部分文獻顯示降低肝臟鐵積累可改善直接抗病毒藥（DAA）治療環境。然屬間接臨床證據，deferasirox 非作為抗 HCV 藥物使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn": {
+        "score": 0.9923266172409058,
+        "rank": 8779
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "推測性：鐵代謝失調與部分遺傳性神經髓鞘化疾病有關聯，但此罕見神經發育障礙（可能為NUBPL或LYRM4相關）與deferasirox鐵螯合無任何已發表關聯。知識圖譜預測可能基於鐵-神經毒性一般路徑，但缺乏特異性證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn": {
+        "score": 0.991962730884552,
+        "rank": 9063
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "推測性：鐵過載可誘發氧化壓力，間接影響脂蛋白代謝（LDL氧化修飾路徑），但deferasirox與高脂血症無已知直接關聯。此疾病本體論標籤為「obsolete（已廢棄）」，病種定義可信度低，進一步評估優先序應降低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn": {
+        "score": 0.9910558462142944,
+        "rank": 9760
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "推測性：DFSP 以 COL1A1-PDGFB 基因融合為特徵，對 imatinib 具標靶治療反應。腫瘤鐵代謝（鐵死亡/ferroptosis 路徑）理論上可能與鐵螯合相關，但deferasirox無任何DFSP臨床或前臨床證據。TxGNN預測可能源於知識圖譜中鐵-腫瘤增殖一般連結，特異性不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn": {
+        "score": 0.9896358847618104,
+        "rank": 10793
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SIV 與 HIV 同屬靈長類慢病毒，鐵-Tat 機轉原則上可類推（參見 HIV 適應症分析）。然此預測可能源於知識圖譜中 SIV-HIV 節點近距離，而非獨立臨床證據。物種差異限制直接轉譯價值，且無任何動物實驗證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn": {
+        "score": 0.9896358847618104,
+        "rank": 10794
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FIV（貓免疫缺乏病毒）與 HIV 同屬逆轉錄病毒科，知識圖譜可能以病毒家族相似性進行節點連結。deferasirox 為人用藥物，貓用藥物動力學、毒性資料完全缺乏，無再利用評估基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn": {
+        "score": 0.9859206080436708,
+        "rank": 13618
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【⚠️ 資料缺口警示】此適應症顯示零臨床試驗、零文獻，為嚴重資料收集缺口。Deferasirox 全球已獲 FDA（2005）、EMA（2006）核准用於輸血依賴性 β-地中海貧血之慢性鐵過載治療。Phase 3 關鍵試驗 ESCALATOR（n=586）及多項 CICL670A 系列試驗提供 L1 級證據。機轉：反覆輸血 → 繼發性鐵過載（hemosiderosis）→ 心肝損傷；deferasirox 口服鐵螯合可降低血清鐵蛋白及肝臟鐵濃度（LIC）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pyropoikilocytosis, hereditary",
+      "txgnn": {
+        "score": 0.9854561686515808,
+        "rank": 13928
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "遺傳性熱變形紅血球增多症（HPP）為 α-血影蛋白突變導致的重度溶血性貧血，慢性溶血可引發繼發性鐵過載。原則上鐵螯合治療有機轉合理性（類同其他溶血性貧血），但此極罕見疾病缺乏任何deferasirox相關研究，無法支持進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "pyruvate kinase deficiency of red cells",
+      "txgnn": {
+        "score": 0.9850489497184752,
+        "rank": 14159
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "丙酮酸激酶缺乏症（PKD）導致慢性溶血性貧血，輸血依賴患者及非輸血依賴患者均可發生無效造血性鐵過載（ineffective erythropoiesis-driven iron loading）。機轉上deferasirox鐵螯合具合理性，部分指引已提及PKD中的鐵管理議題（如 Mitapivat 試驗背景療法）。然本資料集無任何deferasirox-PKD臨床試驗或文獻，現階段僅為推測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "chronic hepatitis C virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "chronic hepatitis C virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "chronic hepatitis C virus infection"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferasirox",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

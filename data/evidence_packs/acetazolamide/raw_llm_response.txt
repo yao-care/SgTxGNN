@@ -1,0 +1,313 @@
+## Acetazolamide (DB00819) 藥物再利用證據分析
+
+> ⚠️ **注意**：新加坡市場狀態為「未上市」，即使有強力全球證據，仍需考量本地取得途徑與監管框架。
+
+---
+
+```json
+{
+  "drug": "Acetazolamide",
+  "drugbank_id": "DB00819",
+  "analysis_date": "2026-04-04",
+  "global_moa": "碳酸酐酶抑制劑（Carbonic Anhydrase Inhibitor）— 抑制近端腎小管 CA，減少 NaHCO₃ 再吸收，產生利尿、降低 CSF 壓力、穩定肌膜電位等多效機轉",
+  "market_caveat": "新加坡未上市；所有 S2/S3 建議需附帶取得途徑評估",
+  "indications": [
+    {
+      "disease_name": "cardiomyopathy",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Acetazolamide 抑制腎近端小管 CA，減少 NaHCO₃ 再吸收，在 loop 利尿劑基礎上提供協同去充血（decongestion）效果，同時糾正代謝性鹼中毒。心肌 CA2 亦參與心肌重塑的 pH 調節與 Na⁺/H⁺ 交換機轉。ADVOR Phase 3 RCT（NEJM 2022）已驗證此機轉於急性失代償性心衰竭。",
+      "guardrails": [
+        "新加坡未上市，需透過特殊藥品申請（SAF/SHF）取得",
+        "監測電解質（低鈉、低鉀）與腎功能",
+        "避免用於 eGFR<30 患者",
+        "靜脈給藥需謹慎（見 PMID 29123889 非心因性肺水腫個案）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05802849",
+          "title": "Acetazolamide Per os for Decompensation of Heart Failure",
+          "phase": "PHASE4",
+          "relevance_grade": "A",
+          "reasoning": "直接研究 acetazolamide 口服於心衰竭失代償（n=400，招募中）。Phase 4 定性意味 Phase 3（ADVOR）已完成並支持使用。為本組最具代表性試驗。"
+        },
+        {
+          "nct_id": "NCT06166654",
+          "title": "Optimal Diuretic Therapies for Acute Heart Failure With Volume Overload",
+          "phase": "PHASE4",
+          "relevance_grade": "B",
+          "reasoning": "急性心衰竭最優利尿方案比較（n=939），acetazolamide 作為比較臂之一，提供真實世界效能比較數據，相關性高但非 acetazolamide 專屬試驗。"
+        },
+        {
+          "nct_id": "NCT06092437",
+          "title": "TAILOR-AHF: Randomized Trial Investigating a Tailored Diuretic Algorithm in AHF",
+          "phase": "NA",
+          "relevance_grade": "B",
+          "reasoning": "個人化利尿算法研究（n=466），探討 acetazolamide 在精準醫療框架中的定位。Phase NA 限制其直接證據效力，但有助建立臨床決策流程。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38806171",
+          "title": "2024 update in heart failure",
+          "year": "2025",
+          "study_type": "Annual Review",
+          "tier": "1",
+          "note": "2024 年心衰竭治療年度更新，預期已納入 ADVOR 試驗後 acetazolamide 的新地位，為目前最新綜合評估"
+        },
+        {
+          "pmid": "37169875",
+          "title": "New pharmacological agents and novel cardiovascular pharmacotherapy strategies in 2022",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2022 年心血管新藥回顧，與 ADVOR 試驗發表同期，可能含初步整合分析"
+        },
+        {
+          "pmid": "30279861",
+          "title": "Treatment of hypochloremia with acetazolamide in an advanced heart failure patient",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "進展性心衰竭低氯血症個案，顯示 acetazolamide 改善電解質失衡的臨床應用"
+        },
+        {
+          "pmid": "22426904",
+          "title": "The effects of acetazolamide on ischemia reperfused isolated hearts of 2- and 8-week-old rabbits",
+          "year": "2012",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "兔心臟缺血再灌注模型，支持 acetazolamide 的心肌保護機轉，屬基礎科學支持"
+        },
+        {
+          "pmid": "29123889",
+          "title": "A case of non-cardiogenic pulmonary edema provoked by intravenous acetazolamide",
+          "year": "2017",
+          "study_type": "Case Report / Safety Signal",
+          "tier": "3",
+          "note": "⚠️ 靜脈 acetazolamide 誘發非心因性肺水腫，安全性警示，支持口服優先策略"
+        },
+        {
+          "pmid": "742352",
+          "title": "Hypokalaemic periodic paralysis and cardiomyopathy",
+          "year": "1978",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "低鉀性週期性麻痺合併心肌病歷史文獻，背景參考"
+        },
+        {
+          "pmid": "7324871",
+          "title": "Heart muscle disease in familial hypokalaemic periodic paralysis",
+          "year": "1981",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "家族性低鉀性週期性麻痺心肌病，背景參考"
+        },
+        {
+          "pmid": "9627326",
+          "title": "SPECT findings in mitochondrial encephalomyopathy",
+          "year": "1998",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "粒線體腦肌病個案，與心肌病適應症相關性低"
+        },
+        {
+          "pmid": "35619116",
+          "title": "Congenital hydrocephalus in a trisomy 9p gained child",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "水腦症個案，與心肌病無關，文獻映射誤差"
+        },
+        {
+          "pmid": "23571262",
+          "title": "Cystoid macular edema in a patient with Danon disease",
+          "year": "2014",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Danon 病（溶酶體貯積）眼部表現，與心肌病適應症關聯性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypertrophic cardiomyopathy",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CA2 在心肌細胞中調節 intracellular pH 與 Ca²⁺ 動態，理論上 CA 抑制可減少 Ca²⁺ 超載誘發的肌纖維過度收縮。然而 HCM 核心機轉為肌節蛋白突變（MYH7/MYBPC3），與 CA 活性無直接關係。現有文獻均為心衰竭通論，非 HCM 特定研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38806171",
+          "study_type": "Review/Update",
+          "tier": "3",
+          "note": "心衰竭總體更新，非 HCM 特定，相關性間接"
+        },
+        {
+          "pmid": "37169875",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "心血管藥物策略回顧，間接參考"
+        },
+        {
+          "pmid": "30279861",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "進展性心衰竭個案，非 HCM 患者，相關性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypertrophic cardiomyopathy due to intensive athletic training",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "運動誘發之生理性心肌肥厚為機械應力（mTOR/MAPK）訊號適應，非病理性 CA 失調所致。Acetazolamide 對生理性肥厚無已知調節機轉，TxGNN 分數可能反映與一般 HCM 的節點鄰近性而非真實機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cirrhotic cardiomyopathy",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肝硬化性心肌病常合併代謝性鹼中毒與體液滯留，CA 抑制理論上可雙重獲益（利尿 + 糾正鹼中毒）。然而肝硬化患者腎前性氮血症風險高，且對利尿劑反應不可預測。目前無任何臨床試驗或文獻直接探討，僅屬機轉推測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "intestinal obstruction",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "safety_flag": "⛔ CONTRA-SIGNAL：現有文獻顯示 acetazolamide 可能【誘發】腸阻塞，而非治療之",
+      "mechanistic_link": "⚠️ CA 抑制可影響腸道平滑肌離子通道，導致腸蠕動下降（adynamic ileus）。PMID 19653068 和 PMID 13659695 均記錄 acetazolamide 誘發麻痺性腸阻塞的不良事件。此適應症的 TxGNN 預測為偽陽性，機轉方向與治療目的相悖，具主動安全疑慮。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02779803",
+          "title": "STAMCAR: A Prospective EC-IC Bypass Registry",
+          "phase": "N/A",
+          "status": "WITHDRAWN",
+          "relevance_grade": "C",
+          "reasoning": "EC-IC 旁路手術血管外科登錄研究（已撤回，n=0），與腸阻塞完全無關。疑為資料庫映射錯誤，不應計入證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "19653068",
+          "title": "Acetazolamide-induced adynamic ileus",
+          "year": "2009",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "note": "⚠️ 直接記錄 acetazolamide 誘發腸動力不全，為反向安全訊號"
+        },
+        {
+          "pmid": "13659695",
+          "title": "Drug-induced paralytic ileus with potentiation by chlorothiazide derivative",
+          "year": "1959",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "note": "⚠️ 1959 年藥物性麻痺性腸阻塞報告，歷史性反向安全訊號"
+        },
+        {
+          "pmid": "31383334",
+          "title": "Hydrocephalus associated with multiple Tarlov cysts",
+          "year": "2019",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Tarlov 囊腫水腦症個案，與腸阻塞無關，文獻映射誤差"
+        }
+      ]
+    },
+    {
+      "disease_name": "exercise-induced malignant hyperthermia",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性高熱核心機轉為 RYR1/CACNA1S 突變導致 SR Ca²⁺ 異常大量釋放與高代謝狀態。CA 抑制對此路徑無已知干預效果，公認治療為 dantrolene。歷史上有小規模研究探索 acetazolamide 於週期性麻痺（非惡性高熱），不應混淆。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital myopathy with excess of thin filaments",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Thin filament excess myopathy（NEB/ACTA1/TPM 突變）涉及肌節 thin filament 比例失衡，與 CA 抑制無直接機轉關聯。Acetazolamide 對某些先天性肌肉病（如 Andersen-Tawil 症候群）有效係透過穩定肌膜電位，機轉差異顯著。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "distal myopathy, Tateyama type",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Tateyama 型遠端肌肉病變為 GNE 基因突變（UDP-GlcNAc 2-epimerase/ManNAc kinase），導致唾液酸合成缺陷與肌膜糖蛋白異常。與 CA 抑制毫無已知機轉交集，屬 TxGNN 知識圖譜拓撲鄰近效應產生的雜訊預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "glycogen storage disease due to acid maltase deficiency, late-onset",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "晚發型龐貝病（GAA 突變）為溶酶體糖原蓄積症，標準治療為酵素替代療法（alglucosidase alfa）。CA 抑制對溶酶體 pH 有理論影響，但無任何研究探討其於龐貝病的臨床效益，屬純計算預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myopathic intestinal pseudoobstruction",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腸道平滑肌病變所致假性阻塞涉及肌層退化，CA 抑制對此無已知療效。類比 intestinal obstruction 的安全訊號（PMID 19653068），acetazolamide 本身可誘發腸動力障礙，理論上可能加重此疾病，具主動安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|---------|---------|------|
+| **cardiomyopathy** | 0.9983 | **L1** ⭐ | **S3** | **Proceed with Guardrails** |
+| hypertrophic cardiomyopathy | 0.9993 | L4 | S0 | Research Question |
+| cirrhotic cardiomyopathy | 0.9988 | L5 | S0 | Research Question |
+| intestinal obstruction | 0.9982 | L4 ⚠️ | S0 | **Hold (反向訊號)** |
+| exercise-induced malignant hyperthermia | 0.9995 | L5 | S0 | Hold |
+| HCM due to athletic training | 0.9989 | L5 | S0 | Hold |
+| congenital myopathy (thin filaments) | 0.9990 | L5 | S0 | Hold |
+| distal myopathy, Tateyama type | 0.9988 | L5 | S0 | Hold |
+| glycogen storage disease (Pompe, late) | 0.9980 | L5 | S0 | Hold |
+| myopathic intestinal pseudoobstruction | 0.9979 | L5 | S0 | Hold |
+
+---
+
+## 🔑 關鍵發現
+
+### ✅ 優先追蹤：`cardiomyopathy` → L1 / S3
+
+**ADVOR 試驗**（Phase 3 RCT, NEJM 2022）已確立 acetazolamide 加入標準 loop 利尿劑治療急性失代償心衰竭的臨床效益。3 項 Phase 4 試驗（n=1,805 合計）正在招募中，顯示此方向已進入臨床實踐確認階段。**新加坡市場未上市**是目前最大障礙，建議評估特殊藥品申請途徑（SAF）。
+
+### ⛔ 主動安全警示：`intestinal obstruction`
+
+儘管 TxGNN 分數高（0.998），**現有臨床文獻明確顯示 acetazolamide 可誘發而非治療腸阻塞**（adynamic ileus）。此預測判斷為偽陽性，應從候選清單移除並標記為禁忌傾向適應症。
+
+### ⚠️ TxGNN 分數膨脹效應
+
+本批次 10 個適應症分數集中於 0.997–0.9995，但 9/10 為 L4–L5 等級，顯示高 TxGNN 分數在**罕見肌肉病、特定心肌病亞型**中存在系統性高估。建議後續預測結合疾病機轉相似度分數作為篩濾條件。

@@ -1,0 +1,1550 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00808-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Indapamide",
+    "drugbank_id": "DB00808",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9296934008598328,
+        "rank": 30686
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28711447",
+            "title": "The Transition From Hypertension to Heart Failure: Contemporary Update.",
+            "authors": [
+              "Messerli Franz H",
+              "Rimoldi Stefano F",
+              "Bangalore Sripal"
+            ],
+            "journal": "JACC. Heart failure",
+            "year": "2017",
+            "abstract": "Longstanding hypertension ultimately leads to heart failure (HF), and, as a consequence most patients with HF have a history of hypertension. Conversely, absence of hypertension in middle age is associated with lower risks for incident HF across the remaining life course. Cardiac remodeling to a predominant pressure overload consists of diastolic dysfunction and concentric left ventricular (LV) hypertrophy. When pressure overload is sustained, diastolic dysfunction progresses, filling of the con",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19623566",
+            "title": "Overdose of methyldopa, indapamide and theophylline resulting in prolonged hypotension, marked diuresis and hypokalaemia in an elderly patient.",
+            "authors": [
+              "Chan Thomas Y K",
+              "Gomersall Charles D",
+              "Cheng Claudia A Y",
+              "Woo Jean"
+            ],
+            "journal": "Pharmacoepidemiology and drug safety",
+            "year": "2009",
+            "abstract": "An 89-year-old man with a history of hypertension, chronic obstructive pulmonary disease, personality disorder and previous attempts of self-poisoning attempted suicide by swallowing two mouthfuls of tablets (methyldopa 250 mg, theophylline SR 200 mg, indapamide 2.5 mg and paracetamol 500 mg). He had prolonged, severe hypotension, necessitating the use of 3000 ml of Gelofusine and almost 2 days of intravenous norepinephrine infusion. He had marked diuresis for 4.5 days, requiring continuous and ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19069455",
+            "title": "[Treatment of cardiac insufficiency in patients with chronic obstructive lung disease].",
+            "authors": [
+              "Krushka S I",
+              "Butorov I V",
+              "Butorov S I",
+              "Bodrug N I"
+            ],
+            "journal": "Klinicheskaia meditsina",
+            "year": "2008",
+            "abstract": "Course and systematic long-term noliprel therapy of chronic obstructive lung disease (COLD) complicated by chronic pulmonary heart permitted to arrest or significantly slow down further progress of heart remodeling, impairment of systolic and diastolic function of right and left chamber and to decrease pressure in the pulmonary artery. These changes correlated with an improved clinical picture of the disease, increased tolerance to physical exercise, and reduced frequency of progressive right ve",
+            "classification": {
+              "study_type": "Observational/Case Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Indapamide 利尿作用可減少肺心病患者的前負荷（preload）及體液滯留，理論上可緩解右心衰竭症狀。然而肺心病（cor pulmonale）的核心病理為肺動脈高壓造成的右心室肥大，單用利尿劑無法改善根本病因，且過度利尿可能降低右心室充盈壓、加重低血壓風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9275236129760742,
+        "rank": 31086
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血管舒張機轉（鈣拮抗）理論上可降低肺動脈壓，但 Indapamide 對肺動脈的選擇性極低，現有肺高壓治療靶點（PDE5、ERA、前列環素路徑）均未涉及。多因性肺高壓病因複雜，利尿劑僅為症狀性支持治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9275236129760742,
+        "rank": 31087
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Group 3 肺高壓（低氧相關）的主要治療為糾正缺氧（長期氧療），Indapamide 無直接改善低氧性血管收縮的機轉。利尿劑可緩解右心負荷，但無法改善 V/Q 不匹配根本問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9272711873054504,
+        "rank": 31140
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Indapamide 為抗高血壓藥，對惡性高血壓腎病理論上可透過降壓保護腎臟。然而惡性高血壓腎病為急重症，通常需靜脈給藥快速降壓，口服噻嗪樣利尿劑不適合急性期；慢性期則 RAS 抑制劑（ACEI/ARB）為首選腎保護藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9272711873054504,
+        "rank": 31141
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性腎血管性高血壓（腎動脈狹窄+惡性高血壓）的標準處理為介入性治療（腎動脈支架/手術）或 RAAS 調節，Indapamide 可作為輔助降壓，但此處的再利用意義有限，且 RAAS 高度激活狀態下，利尿劑可能加重腎前性損傷風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "acute pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9101897478103638,
+        "rank": 33691
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19623566",
+            "title": "Overdose of methyldopa, indapamide and theophylline resulting in prolonged hypotension, marked diuresis and hypokalaemia in an elderly patient.",
+            "authors": [
+              "Chan Thomas Y K",
+              "Gomersall Charles D",
+              "Cheng Claudia A Y",
+              "Woo Jean"
+            ],
+            "journal": "Pharmacoepidemiology and drug safety",
+            "year": "2009",
+            "abstract": "An 89-year-old man with a history of hypertension, chronic obstructive pulmonary disease, personality disorder and previous attempts of self-poisoning attempted suicide by swallowing two mouthfuls of tablets (methyldopa 250 mg, theophylline SR 200 mg, indapamide 2.5 mg and paracetamol 500 mg). He had prolonged, severe hypotension, necessitating the use of 3000 ml of Gelofusine and almost 2 days of intravenous norepinephrine infusion. He had marked diuresis for 4.5 days, requiring continuous and ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性肺心病（如急性肺栓塞致右心衰竭）為急重症，口服 Indapamide 起效太慢，臨床不適用。利尿劑在急性右心衰竭中的角色有限且需謹慎（避免降低前負荷過度）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9041554927825928,
+        "rank": 34379
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock 症候群為罕見先天性疾病（OMIM），特徵包含智能障礙、心臟異常、多發畸形。Indapamide 無已知針對此症候群遺傳路徑（SETBP1 等）的作用機轉。TxGNN 預測可能源於心臟相關節點的泛化連結，無實質依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.8452774882316589,
+        "rank": 39535
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上利尿劑可降低眼內壓（IOP），但碳酸酐酶抑制劑（如 acetazolamide、dorzolamide）為青光眼降壓主要利尿機轉，Indapamide 作用在遠曲小管，對房水生成影響極小。遺傳性青光眼（MYOC、OPTN 等突變）亦非利尿劑可干預的病理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.7964447140693665,
+        "rank": 41989
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34736431",
+            "title": "Multimodal imaging of indapamide-induced bilateral choroidal effusion: a case report.",
+            "authors": [
+              "Takahashi Shizuka",
+              "Usui Shinichi",
+              "Hashida Noriyasu",
+              "Kubota Hiroshi",
+              "Nishida Kentaro"
+            ],
+            "journal": "BMC ophthalmology",
+            "year": "2021",
+            "abstract": "Indapamide, a sulfonamide diuretic used to treat hypertension, has been reported to have ocular side effects of acute angle-closure glaucoma, transient myopia and choroidal effusion whose immediate etiology is uncertain. This report aims to clarify the nature of indapamide-induced edema of the entire eyeball using multimodal imaging.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "個案報告顯示 Indapamide 可引起雙側脈絡膜積液（choroidal effusion），此為不良反應，但理論上可能影響眼壓動態。然而現有證據來自不良事件報告而非治療性研究，且脈絡膜積液本身為嚴重副作用（可造成閉角型青光眼危機），不支持用於開角型青光眼。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "chronic kidney disease",
+      "txgnn": {
+        "score": 0.7796565890312195,
+        "rank": 42690
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01588795",
+            "title": "Renal Denervation in Patients With Diabetic Nephropathy and Persistent Proteinuria",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2012-04",
+            "completion_date": "2016-01",
+            "brief_summary": "The DERENEDIAB study is a proof-of-concept, multi-center, prospective, open, randomized, controlled study of the effectiveness of renal denervation in addition to standardized medical treatment compared to medical treatment alone in diabetic subjects with diabetic nephropathy and resistant proteinuria. Bilateral renal denervation will be performed using the Symplicity Catheter - a percutaneous system that delivers radiofrequency (RF) energy through the luminal surface of the renal artery.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要測試腎去神經術，Indapamide 可能為背景降壓療法。小樣本（n=25），不直接測試 Indapamide 療效"
+            }
+          },
+          {
+            "nct_id": "NCT04036409",
+            "title": "A Randomized Controlled Trial to Assess the Effect of Intensive Blood Pressure Control on Major Cardiovascular Events in Stroke Patients",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 4369,
+            "start_date": "2019-08-05",
+            "completion_date": "2025-12",
+            "brief_summary": "Elevated blood pressure (BP) consists of a major public health concern especially in low and middle income countries. Besides being a highly prevalent condition, it is also a risk factor for several major cardiovascular events including stroke (which consists of the second leading cause of death in developing countries) and coronary artery disease, and is also related to cognitive decline. The OPTIMAL Stroke trial consists of a two-arm, multicenter, randomized clinical trial designed to test whe",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型試驗（n=4369），強化血壓控制對腎臟預後的影響，Indapamide 為常用一線降壓藥之一，可能在試驗中作為組成藥物；狀態 UNKNOWN 需確認"
+            }
+          },
+          {
+            "nct_id": "NCT01500590",
+            "title": "Phase IV, Effect of Rennin-Angiotensin System Blockers on Glomerular Filtration Rate in Patients With Hypertension, Type 2 Diabetes With Normoalbuminuria--- A Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 1400,
+            "start_date": "2011-11",
+            "completion_date": "2019-08",
+            "brief_summary": "Diabetes is the leading cause of chronic kidney disease in developed countries. About 30-40% of patients with type 1 and type 2 diabetes mellitus will develop diabetic nephropathy. Microalbuminuria is often used as an early predictor of diabetic nephropathy. Many studies already demonstrated the renoprotective effect of Renin-angiotensin-system (RAS) blockers in patients with varying degree of albuminuria, few studies focus on studying the decline in glomerular filtration rate (GFR) among patien",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要研究 RAAS 阻斷劑，Indapamide 非主要干預藥物；1400人規模有意義，但相關性間接"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38920202",
+            "title": "Thiazide and thiazide-like diuretics are associated with improved cardiovascular and renal outcomes in patients with chronic kidney disease.",
+            "authors": [
+              "Lin Hugo Y-H",
+              "Chang Yu-Han",
+              "Wang Yu-Tsang",
+              "Liang Peir-In",
+              "Hung Chi-Chih"
+            ],
+            "journal": "Annals of the Academy of Medicine, Singapore",
+            "year": "2023",
+            "abstract": "Hypervolemia is a prevalent comorbidity of chronic kidney disease (CKD) patients. Thiazide diuretics (THZ) are the most common treatment for volume overload and hypertension (HTN). This study examines the association between THZ usage and clinical outcomes among CKD patients in a nationwide cohort.",
+            "classification": {
+              "study_type": "Cohort/Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25944876",
+            "title": "Volume overload and adverse outcomes in chronic kidney disease: clinical observational and animal studies.",
+            "authors": [
+              "Hung Szu-Chun",
+              "Lai Yi-Shin",
+              "Kuo Ko-Lin",
+              "Tarng Der-Cherng"
+            ],
+            "journal": "Journal of the American Heart Association",
+            "year": "2015",
+            "abstract": "Volume overload is frequently encountered and is associated with cardiovascular risk factors in patients with chronic kidney disease (CKD). However, the relationship between volume overload and adverse outcomes in CKD is not fully understood.",
+            "classification": {
+              "study_type": "Clinical Observational + Animal Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20501479",
+            "title": "Effects of a fixed combination of perindopril and indapamide in patients with type 2 diabetes and chronic kidney disease.",
+            "authors": [
+              "Heerspink Hiddo J Lambers",
+              "Ninomiya Toshiharu",
+              "Perkovic Vlado",
+              "Woodward Mark",
+              "Zoungas Sophia"
+            ],
+            "journal": "European heart journal",
+            "year": "2010",
+            "abstract": "Individuals with diabetes and chronic kidney disease (CKD) are at high risk for cardiovascular disease. In these analyses of the ADVANCE trial, we assessed the effects of a fixed combination of perindopril-indapamide on renal and cardiovascular outcomes in patients with type 2 diabetes according to baseline CKD stage.",
+            "classification": {
+              "study_type": "RCT Secondary Analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34233330",
+            "title": "The Forgotten Antiproteinuric Properties of Diuretics.",
+            "authors": [
+              "Trujillo Hernando",
+              "Caravaca-Fontán Fernando",
+              "Caro Jara",
+              "Morales Enrique",
+              "Praga Manuel"
+            ],
+            "journal": "American journal of nephrology",
+            "year": "2021",
+            "abstract": "Although diuretics are one of the most widely used drugs by nephrologists, their antiproteinuric properties are not generally taken into consideration.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30079760",
+            "title": "Contribution of volume overload to progression of cardiovascular disease in a rat model of chronic kidney disease.",
+            "authors": [
+              "Mahmoud Manal Moustafa",
+              "Shamseldeen Asmaa Mohammed",
+              "Rashed Laila Ahmed",
+              "Fares Amal Elham",
+              "Shamaa Ashraf"
+            ],
+            "journal": "Canadian journal of physiology and pharmacology",
+            "year": "2018",
+            "abstract": "Volume overload is a common phenomenon in patients with chronic kidney disease that is associated with cardiovascular risk factors. However, its contribution to the development of adverse cardiovascular outcomes in those patients is not fully understood. Thus, the present work investigated the effect of salt-induced volume overload on cardiac functions and geometry in a rat model of chronic kidney disease. Thirty adult male Sprague-Dawley rats were randomly divided. One set of animals received a",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22118707",
+            "title": "What matters in ADVANCE and ADVANCE-ON.",
+            "authors": [
+              "Hamet P"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2012",
+            "abstract": "Most recent meta-analyses of morbidity-mortality risk hazards brought about by the presence of diabetes as compared with non-diabetics underline the dominant risk of renal disease and cardiovascular outcomes and the relevance of blood glucose, blood pressure (BP) and cholesterol levels. The translation of this reality into therapeutic guidelines always requires interventional evidence. Evidence for combined approaches in controlling for BP and blood glucose was provided by Action in Diabetes and",
+            "classification": {
+              "study_type": "RCT Analysis/Commentary",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40564132",
+            "title": "Optimizing Nephron Performance: The Old, the New, and the New-Old Diuretic Therapies.",
+            "authors": [
+              "Fuchs Flavio D",
+              "Procianoy Guilherme S",
+              "Bottino Leonardo G",
+              "Fuchs Sandra C",
+              "Whelton Paul K"
+            ],
+            "journal": "Biomedicines",
+            "year": "2025",
+            "abstract": "Pharmacological influence on nephron function has modified the clinical course of hypertension, heart failure, and chronic kidney disease. (CKD). This is a review of the efficacy of old diuretics and the incremental efficacy of new diuretics in managing hypertension, heart failure, and CKD, concluding with new evidence on the effectiveness of old agents. The efficacy of \"older\" diuretic agents, such as thiazide and loop diuretics, on heart failure and CKD has been primarily explored in nonrandom",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23136355",
+            "title": "Thiazide diuretics as chronic antihypertensive therapy in patients with severe renal disease--is there a role in the absence of diuresis?",
+            "authors": [
+              "Chan Cynthia Y",
+              "Peterson Evan J",
+              "Ng Tien M H"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2012",
+            "abstract": "To determine whether thiazides have a chronic antihypertensive effect, in the absence of diuresis, in patients with severe renal disease (creatinine clearance <30 mL/min) or in those receiving dialysis.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29307229",
+            "title": "Vascular legacy beyond blood pressure control: benefits of perindopril/indapamide combination in hypertensive patients with diabetes.",
+            "authors": [
+              "Lévy Bernard I",
+              "Taddei Stefano"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "2018",
+            "abstract": "Much of the chronic care of patients with type 2 diabetes mellitus and hypertension involves the prevention of diabetic complications. Renin-angiotensin system inhibitors are recommended as first-line therapies because of their nephroprotective properties. Their combination with metabolically neutral diuretics is recommended to reduce blood pressure, morbidity and mortality. Our objective was to review the mechanisms by which the combination of the angiotensin-converting enzyme inhibitor, perind",
+            "classification": {
+              "study_type": "RCT Secondary Analysis",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4077233",
+            "title": "A review of 10 years of experience with indapamide as an antihypertensive agent.",
+            "authors": [
+              "Thomas J R"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "1985",
+            "abstract": "Indapamide is an effective antihypertensive agent for which a dual mechanism of action has been put forward: a limited diuretic activity combined with antivasoconstrictive effects, resulting in decreased peripheral vascular resistance. Results from clinical trials show that 2.5 mg indapamide once daily effectively reduces arterial blood pressure in about two-thirds of patients with mild to moderate hypertension and that this reduction is related to the severity of the hypertension. As a rule, in",
+            "classification": {
+              "study_type": "Retrospective Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30580690",
+            "title": "Prevalence of Apparent Treatment-Resistant Hypertension in the United States.",
+            "authors": [
+              "Carey Robert M",
+              "Sakhuja Swati",
+              "Calhoun David A",
+              "Whelton Paul K",
+              "Muntner Paul"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2019",
+            "abstract": "In 2018, the American Heart Association published a Scientific Statement on resistant hypertension. We compared the prevalence of apparent treatment-resistant hypertension (aTRH) among US adults as defined in the 2018 and 2008 American Heart Association Scientific Statements using data from 4158 participants with hypertension, taking antihypertensive medication in the 2009 to 2014 National Health and Nutrition Examination Survey. Blood pressure (BP) was measured 3 times, and antihypertensive med",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1706990",
+            "title": "Torasemide. A review of its pharmacological properties and therapeutic potential.",
+            "authors": [
+              "Friedel H A",
+              "Buckley M M"
+            ],
+            "journal": "Drugs",
+            "year": "1991",
+            "abstract": "Torasemide (torsemide) is a high-ceiling loop diuretic which acts on the thick ascending limb of the loop of Henle to promote rapid and marked excretion of water, sodium and chloride. Like furosemide (frusemide), its major site of action is from the luminal side of the cell. Torasemide is at least twice as potent as furosemide on a weight-for-weight basis, produces equivalent diuresis and natriuresis at lower urinary concentrations and has a longer duration of action, allowing once-daily adminis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21678653",
+            "title": "[Correction of aldosterone level as marker of RAAS dysfunction in patients with arterial hypertension degree II-III and chronic kidney diseases].",
+            "authors": [
+              "Dralova O V",
+              "Maksimov M L",
+              "Derbentseva E A",
+              "Ermolaeva A S",
+              "Starodubtsev A K"
+            ],
+            "journal": "Eksperimental'naia i klinicheskaia farmakologiia",
+            "year": "2011",
+            "abstract": "The hyperactivation of renin-angiotensin-aldosterone system (RAAS) underlies the development and the progression of arterial hypertension and chronic kidney diseases. Aldosterone is the main unit of RAAS and self-sufficient predictor of the development of cardiovascular events. In this study, the angiotensin receptor blocker valsartan, ACE inhibitor enalapril, and direct renin inhibitor aliskiren were used for the correction of blood pressure and aldosterone levels in patients with hypertension ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18847425",
+            "title": "[Advances in diabetes mellitus, diabetic nephropathy, metabolic syndrome and cardio-vascular-renal risk].",
+            "authors": [
+              "Martínez Castelao A"
+            ],
+            "journal": "Nefrologia : publicacion oficial de la Sociedad Espanola Nefrologia",
+            "year": "2008",
+            "abstract": "1. Epidemiological aspects: There is evidence that the pandemic of DM is entering a stabilization phase, with a slight downturn in the rates of ESRD attributed to DM in the United States. 2. New pathogenic and progression mechanisms of renal disease are proposed: 1) Intraglomerular hyperpressure with phenotypical cell changes, inducing TGF-beta activation; 2) Genetic polymorphisms, with candidate genes in chromosomes 18q, 3q, 7p and others; 3) Endothelial dysfunction as an injury initiating mech",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6346847",
+            "title": "Clinical efficacy, safety, and pharmacokinetics of indapamide in renal impairment.",
+            "authors": [
+              "Acchiardo S R",
+              "Skoutakis V A"
+            ],
+            "journal": "American heart journal",
+            "year": "1983",
+            "abstract": "The efficacy and safety of a new diuretic-antihypertensive drug, indapamide (2.5 mg/day), were evaluated in hypertensive patients with normal renal function, in patients with various degrees of chronic renal failure, and in hypertensive patients undergoing long-term maintenance hemodialysis. The results obtained from single-blind, placebo-controlled studies indicate that indapamide is a safe and effective agent to use in lowering the blood pressure of hypertensive patients with normal renal func",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27006512",
+            "title": "Long-term Benefits of Intensive Glucose Control for Preventing End-Stage Kidney Disease: ADVANCE-ON.",
+            "authors": [
+              "Wong Muh Geot",
+              "Perkovic Vlado",
+              "Chalmers John",
+              "Woodward Mark",
+              "Li Qiang"
+            ],
+            "journal": "Diabetes care",
+            "year": "2016",
+            "abstract": "The Action in Diabetes and Vascular Disease: Preterax and Diamicron MR Controlled Evaluation (ADVANCE) trial reported that intensive glucose control prevents end-stage kidney disease (ESKD) in patients with type 2 diabetes, but uncertainty about the balance between risks and benefits exists. Here, we examine the long-term effects of intensive glucose control on risk of ESKD and other outcomes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7618651",
+            "title": "Comparison between the effects of indapamide and hydrochlorothiazide on creatinine clearance in patients with impaired renal function and hypertension.",
+            "authors": [
+              "Madkour H",
+              "Gadallah M",
+              "Riveline B",
+              "Plante G E",
+              "Massry S G"
+            ],
+            "journal": "American journal of nephrology",
+            "year": "1995",
+            "abstract": "The long-term effects of indapamide or hydrochlorothiazide on blood pressure and renal function were examined in patients with impaired renal function and moderate hypertension. Both drugs controlled hypertension and blood pressure remained normal during the 2 years of the study. Despite this comparable control of hypertension, indapamide therapy was associated with a 28.5 +/- 4.4% increase in creatinine clearance while treatment with hydrochlorothiazide was associated with a 17.4 +/- 3.0% decre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1432315",
+            "title": "Sodium, large arteries and diuretic compounds in hypertension.",
+            "authors": [
+              "Safar M E",
+              "Asmar R G",
+              "Benetos A",
+              "London G M",
+              "Lévy B I"
+            ],
+            "journal": "Journal of hypertension. Supplement : official journal of the International Society of Hypertension",
+            "year": "1992",
+            "abstract": "Clinical and experimental data have shown that different antihypertensive drugs do not cause similar changes in arterial compliance for an equipotent blood pressure reduction. There are no clear data on the effects of sodium and diuretics on the visco-elastic properties of the hypertensive arterial wall.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9752894",
+            "title": "Fixed low-dose perindopril-indapamide combination in hypertensive patients with chronic renal failure.",
+            "authors": [
+              "Meyrier A",
+              "Dratwa M",
+              "Sennesael J",
+              "Lachaud-Pettiti V"
+            ],
+            "journal": "American journal of hypertension",
+            "year": "1998",
+            "abstract": "The angiotensin converting enzyme inhibitor perindopril and the diuretic indapamide have been shown to be effective antihypertensive agents in patients with chronic renal failure. A fixed low-dose combination of these two agents has been proposed in the treatment of hypertension. We evaluated this combination in 26 patients with mild to moderate essential hypertension and mild to severe chronic renal failure that did not require dialysis. This was a multicenter, open trial consisting of a 2-week",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32515706",
+            "title": "[Therapeutic approaches to the Rational Use of trip-le combination therapy with a fixed combination of amlodipine, indapamide and perindopril arginine (TRIPLE COMBINATION) in patients with hypertension who do not control blood pressure on conventional treatment. (Description and main results of the TRIO program)].",
+            "authors": [
+              "Mareev V Yu",
+              "Minina Yu V",
+              "Begrambekova Yu L",
+              "Levin A M"
+            ],
+            "journal": "Kardiologiia",
+            "year": "2020",
+            "abstract": "Aim To study tactics of outpatient physicians in choosing the treatment when the previous double antihypertensive therapy (AHT) fails and to analyze the effectivity of an amlodipine/indapamide/perindopril arginine triple combination (TC).Material and methods The program included 1252 patients with arterial hypertension (AH); the TC group consisted of 992 (79.23 %) patients (38.3 % males; age, 61.6 [55.0; 67.9]); the control group included 260 (20.77 %) patients (37.7 % males; age, 60.6 [53.3; 67",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多重機轉支持：(1) 減少體液滯留，緩解 CKD 容量過負荷所致心腎損傷；(2) 降壓保護腎小球，延緩 GFR 下降；(3) 獨立抗蛋白尿效應（不依賴血壓降低）；(4) ADVANCE 試驗（perindopril+indapamide）證實糖尿病腎病患者腎臟保護效益。噻嗪樣利尿劑在 CKD 3-4 期仍維持利尿效果（相較 thiazide），臨床有額外優勢。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "chronic kidney disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "chronic kidney disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Indapamide",
+        "disease": "chronic kidney disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

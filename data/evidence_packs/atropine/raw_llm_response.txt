@@ -1,0 +1,220 @@
+## Atropine (DB00572) 藥物再利用證據分析
+
+以下是基於提供資料的完整評估報告：
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "膽鹼能系統在偏頭痛病理生理中扮演調節角色：副交感神經激活（蝶顎神經節通路）促進硬腦膜血管舒張及漿蛋白滲出（PMID 9344563），中樞膽鹼能系統亦參與痛覺抑制（PMID 8930196）。Atropine 作為 M 型膽鹼受體拮抗劑，理論上可阻斷副交感神經介導的三叉神經血管激活，但所有支持性證據均來自動物實驗或機制研究，尚無人體臨床試驗直接測試此假說。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "36485173", "study_type": "Animal/Mechanistic", "tier": "2"},
+        {"pmid": "9344563", "study_type": "Animal", "tier": "2"},
+        {"pmid": "8930196", "study_type": "Animal", "tier": "2"},
+        {"pmid": "10193781", "study_type": "Animal (basilar artery)", "tier": "2"},
+        {"pmid": "15882801", "study_type": "Animal (CGRP/nicotinic)", "tier": "2"},
+        {"pmid": "17186568", "study_type": "Review/Pharmacology (anisodamine analog)", "tier": "2"},
+        {"pmid": "1786517", "study_type": "Animal (serotonin receptor, indirect)", "tier": "3"},
+        {"pmid": "27179636", "study_type": "Case Report (anesthetic complication, incidental)", "tier": "3"},
+        {"pmid": "40590589", "study_type": "Case Report (botulinum/migraine, indirect)", "tier": "3"},
+        {"pmid": "18091300", "study_type": "Case Series (topiramate/IOP, indirect)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一相關文獻（PMID 31945385）顯示，膽鹼能調控活化（激動，非拮抗）可抑制小鼠新皮質的皮質擴散抑制（CSD）——即先兆的核心機制。此方向對 atropine（膽鹼受體拮抗劑）不利：atropine 阻斷膽鹼能訊號，理論上可能促進 CSD 而非抑制。腦幹先兆亞型本身即具較高安全性風險（循環障礙），此雙重考量支持暫緩。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "31945385", "study_type": "Animal (mouse neocortex, mechanistic direction unfavorable)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有 20 篇文獻幾乎全部聚焦於「癲癇與偏頭痛共享遺傳機制」（PMID 33856647, 17460155），以及癲癇發生機制（PMID 34575901, 34209535, 30267335）。此為知識圖譜中偏頭痛易感性節點與癲癇節點高度連結的副產物，並非 atropine 作用於偏頭痛易感性的直接藥理機轉。無任何文獻直接連結 atropine 與偏頭痛遺傳易感性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "33856647", "study_type": "Review (epilepsy-migraine shared mechanisms)", "tier": "3"},
+        {"pmid": "17460155", "study_type": "Genetic Study (occipitotemporal epilepsy-migraine linkage)", "tier": "3"},
+        {"pmid": "22938964", "study_type": "Review (animal models, epilepsy)", "tier": "3"},
+        {"pmid": "34575901", "study_type": "Review (antiepileptogenesis targets)", "tier": "3"},
+        {"pmid": "34209535", "study_type": "Review (neuroinflammation in epilepsy)", "tier": "3"},
+        {"pmid": "30267335", "study_type": "Meta-analysis (MTHFR/epilepsy)", "tier": "3"},
+        {"pmid": "22266888", "study_type": "Review (genetics of epilepsy)", "tier": "3"},
+        {"pmid": "28086980", "study_type": "Review (TBI epileptogenesis)", "tier": "3"},
+        {"pmid": "16201993", "study_type": "Review (receptor rearrangement)", "tier": "3"},
+        {"pmid": "19935934", "study_type": "Review (psychogenic seizures)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "毛囊蟲蝕狀萎縮是一種遺傳性毛囊角化症，發病機制涉及毛囊周圍炎症與纖維化，與膽鹼能訊號通路無已知關聯。零文獻、零臨床試驗，TxGNN 高分預測（0.9815）可能源於皮膚疾病分類節點的非特異性圖譜連結（參見 ulerythema ophryogenesis 為同譜系疾病，同樣無證據）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "【安全性警示優先】：Atropine 具明確眼壓升高風險（散瞳/睫狀肌麻痺）；1968 年研究記錄其在開角型青光眼患者中引起眼壓升高（PMID 5640848）。近期系統性回顧（PMID 39027062）及台灣兒童世代研究（PMID 40932733）均確認 atropine 近視控制劑量可升高眼壓。雖有 1970 年代早期研究探索抗膽鹼藥在開角型青光眼的應用（PMID 4992184），但現代證據指向潛在傷害方向，安全性風險明確高於推測效益。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "39027062", "study_type": "Systematic Review (IOP safety, atropine)", "tier": "2"},
+        {"pmid": "40932733", "study_type": "Cohort (Taiwanese children, ocular risks)", "tier": "2"},
+        {"pmid": "33961969", "study_type": "Review (myopia control risks/benefits)", "tier": "2"},
+        {"pmid": "4992184", "study_type": "Clinical Study (1970, anticholinergic in OAG, historical)", "tier": "3"},
+        {"pmid": "5640848", "study_type": "Clinical Study (1968, cycloplegic IOP elevation)", "tier": "3"},
+        {"pmid": "12641848", "study_type": "Animal Study (beagle POAG)", "tier": "3"},
+        {"pmid": "39500586", "study_type": "Case Report (anterior segment ischemia)", "tier": "3"},
+        {"pmid": "37223149", "study_type": "Case Report (malignant glaucoma)", "tier": "3"},
+        {"pmid": "35135528", "study_type": "Case Report (malignant glaucoma)", "tier": "3"},
+        {"pmid": "33736487", "study_type": "Case Report (malignant glaucoma)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性遺傳性青光眼由基因突變（MYOC、CYP1B1 等）驅動房水動力學異常，與 atropine 抗膽鹼機制無已知直接交叉點。零文獻支持，且與 open-angle glaucoma 分析相同的眼壓升高安全性顧慮適用，雙重否定（無機轉+有害副作用）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉毛蟲蝕狀紅斑與 atrophoderma vermiculata 同屬毛囊角化症譜系（KRAS 通路相關），均為遺傳性皮膚角化異常，無已知與膽鹼能系統的生物學交叉。零文獻、零試驗，TxGNN 預測極可能源於這兩種疾病在 HPO/OMIM 知識圖譜中的緊密疾病分類鄰接性，屬圖譜雜訊而非真實訊號。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "headache disorder",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此適應症特指「硬膜穿刺後頭痛（PDPH）」，與一般偏頭痛不同。機轉假說：Neostigmine（乙醯膽鹼酯酶抑制劑）透過增強蜘蛛膜下腔膽鹼能張力，可能調節脊髓液壓力動力學或血管反應性；Atropine 作為必要的聯合用藥，防止 neostigmine 的毒蕈鹼副作用（心動過緩、分泌過多）。【重要限制】：現有臨床試驗均測試「neostigmine+atropine 組合」，atropine 在此為輔助安全劑而非主要治療藥物，其獨立治療貢獻尚未被析出驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04910477",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 已完成 RCT（90人）；直接比較 nebulized neostigmine/atropine 對比 dexmedetomidine 治療 PDPH；為迄今最高證據等級的直接相關試驗"
+        },
+        {
+          "nct_id": "NCT06729047",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2（330人，大樣本）；靜脈注射 neostigmine+atropine 對比 ketorolac 治療 PDPH；尚未開始招募，結果待定，但設計高度相關"
+        },
+        {
+          "nct_id": "NCT06824025",
+          "relevance_grade": "B",
+          "reasoning": "Early Phase 1（111人）；nebulized neostigmine/atropine 治療急性 PDPH；探索性設計，方法新穎（霧化給藥），但尚未開始，證據力有限"
+        },
+        {
+          "nct_id": "NCT06436768",
+          "relevance_grade": "C",
+          "reasoning": "研究 sugammadex vs neostigmine 逆轉神經肌肉阻斷；atropine 僅為 neostigmine 組的標準伴隨給藥，非治療性頭痛介入，無關聯性"
+        },
+        {
+          "nct_id": "NCT05843812",
+          "relevance_grade": "C",
+          "reasoning": "硫酸鎂作為肥胖手術麻醉輔助劑研究；頭痛為術後次要評估指標，atropine 非研究重點"
+        },
+        {
+          "nct_id": "NCT06404983",
+          "relevance_grade": "C",
+          "reasoning": "無阿片麻醉方案比較；整體麻醉框架研究，atropine 非主要介入藥物"
+        },
+        {
+          "nct_id": "NCT05462938",
+          "relevance_grade": "C",
+          "reasoning": "TAVR 術中丙泊酚 vs dexmedetomidine 鎮靜比較；與頭痛適應症無關"
+        },
+        {
+          "nct_id": "NCT03319511",
+          "relevance_grade": "C",
+          "reasoning": "胸椎旁阻滯 vs 節段性脊椎麻醉比較；乳房手術麻醉方式研究，非頭痛治療"
+        },
+        {
+          "nct_id": "NCT05227716",
+          "relevance_grade": "C",
+          "reasoning": "硫酸鎂麻醉輔助劑（NCT05843812 的相關試驗）；與 atropine 頭痛治療無直接關聯"
+        },
+        {
+          "nct_id": "NCT06920576",
+          "relevance_grade": "C",
+          "reasoning": "食管手術圍術期 esketamine/硫酸鎂對情緒及認知影響；研究情境與 atropine 治療頭痛無關"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "30169405", "study_type": "RCT (neostigmine+atropine vs conventional for PDPH)", "tier": "1"},
+        {"pmid": "36651373", "study_type": "RCT (nebulized dex vs neostigmine/atropine for PDPH)", "tier": "1"},
+        {"pmid": "37802666", "study_type": "Case Report (RCVS adverse event after neostigmine/atropine)", "tier": "3"},
+        {"pmid": "31094821", "study_type": "Letter/Commentary (critical appraisal of PDPH treatment)", "tier": "3"},
+        {"pmid": "31094822", "study_type": "Letter/Commentary (response)", "tier": "3"},
+        {"pmid": "31094824", "study_type": "Letter/Commentary (response)", "tier": "3"},
+        {"pmid": "7246278", "study_type": "Case Report (naphazoline intoxication, indirect)", "tier": "3"},
+        {"pmid": "35541133", "study_type": "Review (mad honey toxicology, indirect)", "tier": "3"},
+        {"pmid": "24807372", "study_type": "Review (sarin/organophosphate, atropine as antidote, indirect)", "tier": "3"},
+        {"pmid": "7039329", "study_type": "Review (mydriatic/cycloplegic complications, safety reference)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "三叉神經自主神經頭痛（TAC，含叢集性頭痛）的自主神經症狀（流淚、鼻塞、結膜充血）由副交感神經（蝶顎神經節）過度激活所驅動，理論上為抗膽鹼藥物作用的靶點。1984 年法文文獻（PMID 6397917）報告了阿托品製劑用於 Horton 頭痛（叢集性頭痛舊稱）的臨床觀察；PMID 2452018 在叢集性頭痛患者眼組織中發現 substance P 與膽鹼酯酶抑制相關的縮瞳現象，間接支持膽鹼能通路參與；PMID 15009014 的動物研究顯示三叉神經-副交感神經反射調節顱內血流。證據歷史久遠且等級低，但機轉邏輯具有一定生物學合理性，值得現代方法學重新評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "6397917", "study_type": "Clinical Report/Case Series (1984, French, atropine in cluster headache)", "tier": "3"},
+        {"pmid": "2452018", "study_type": "Clinical Study (substance P/cholinergic in cluster headache)", "tier": "3"},
+        {"pmid": "15009014", "study_type": "Animal Study (trigemino-parasympathetic reflex)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腎源性不適當抗利尿症候群（NSIAD）由 AVPR2（V2 血管加壓素受體）功能獲得性突變引起，導致 cAMP 持續升高及集合管對水的持續通透，與膽鹼能訊號通路（M 受體/毒蕈鹼路徑）無任何已知分子交叉點。零文獻、零試驗，TxGNN 預測評分（0.9634）可能源於知識圖譜中「水電解質失衡」與「自主神經功能」相鄰節點的非特異性連結，屬演算法雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵考量 |
+|--------|----------|----------|------|---------|
+| **headache disorder** (PDPH) | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 3 RCT 存在，但 atropine 為組合療法輔助藥 |
+| migraine disorder | L4 | S1 | 🔬 Research Question | 動物機制合理，需 POC 人體試驗 |
+| trigeminal autonomic cephalalgia | L4 | S1 | 🔬 Research Question | 1984 年舊報告，機轉邏輯成立，值得重新評估 |
+| migraine with brainstem aura | L4 | S1 | ⛔ Hold | 文獻機轉方向可能有害（atropine 促進 CSD）|
+| open-angle glaucoma | L4 | S1 | ⛔ Hold | 已知眼壓升高副作用，安全性風險明確 |
+| migraine with/without aura susceptibility | L5 | S0 | ⛔ Hold | 文獻為癲癇研究，圖譜誤連 |
+| atrophoderma vermiculata | L5 | S0 | ⛔ Hold | 零文獻，無機轉 |
+| primary hereditary glaucoma | L5 | S0 | ⛔ Hold | 零文獻 + 眼壓安全顧慮 |
+| ulerythema ophryogenesis | L5 | S0 | ⛔ Hold | 零文獻，圖譜分類雜訊 |
+| nephrogenic SIAD | L5 | S0 | ⛔ Hold | 零文獻，無分子機轉 |
+
+> **重要提示**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選（尤其是 headache disorder/PDPH 的 L2 等級建議）需經正式臨床試驗驗證，且需辨明 atropine 在 neostigmine+atropine 組合中的獨立治療貢獻後方可評估單獨應用可行性。

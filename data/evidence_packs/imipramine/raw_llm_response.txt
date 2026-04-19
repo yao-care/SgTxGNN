@@ -1,0 +1,246 @@
+以下是針對 Imipramine (DB00458) 各適應症的系統性證據評估：
+
+```json
+{
+  "drug": "Imipramine",
+  "drugbank_id": "DB00458",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Imipramine 為三環類抗憂鬱藥（TCA），主要機轉為抑制血清素（SERT）與正腎上腺素（NET）再攝取，並具有抗膽鹼、抗組織胺及 α-腎上腺素阻斷效應。市場狀態標示為「未上市」（新加坡 HSA），original_indications 欄位為空，惟依全球藥典其核准適應症應包含重鬱症及兒童夜尿症，此落差須於後續資料清理時確認。",
+  "indications": [
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn_score": 0.999,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "NET 抑制可提升前額葉皮質之兒茶酚胺訊號（尤其正腎上腺素），改善執行功能與注意力調控，機轉與 FDA 核准 ADHD 藥物 Atomoxetine 相似；SERT 抑制亦可輔助共病情緒症狀管理。",
+      "evidence_summary": "歷史上存在多個雙盲安慰劑對照試驗（1970s-1990s，早於 ClinicalTrials.gov 登錄），但現有資料集中所示臨床試驗與 Imipramine 無直接關聯，文獻多為 ADHD 治療綜述，部分直接提及 Imipramine 作為二線選項（PMID 10790990, 25295451）。整體歸類 L3。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03220308",
+          "title": "Mindfulness Training for Children With ADHD and Mindful Parenting",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 103,
+          "relevance_grade": "C",
+          "reasoning": "介入為正念訓練（非藥物），與 Imipramine 完全無關。雖涉及 ADHD 族群，對本藥之再利用評估無直接貢獻。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "1974836", "year": "1990", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "ADHD 一般性綜述"},
+        {"pmid": "10790990", "year": "1999", "study_type": "Treatment Review", "tier": "1", "imipramine_direct": true, "note": "ADHD 治療選項系統性回顧，提及 Imipramine 為二線藥物"},
+        {"pmid": "25295451", "year": "2014", "study_type": "Review", "tier": "2", "imipramine_direct": true, "note": "ADHD 治療選項，含 TCA 討論"},
+        {"pmid": "32982805", "year": "2020", "study_type": "Meta-Review", "tier": "1", "imipramine_direct": true, "note": "兒童及青少年抗憂鬱劑 Meta-review，涵蓋 TCA 安全性（含自殺風險警語）"},
+        {"pmid": "1351794", "year": "1992", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "成人 ADHD 綜述"},
+        {"pmid": "17078784", "year": "2006", "study_type": "Clinical Study", "tier": "2", "imipramine_direct": false, "note": "P300 腦電圖指導治療選擇，間接相關"},
+        {"pmid": "16450529", "year": "2003", "study_type": "Cross-sectional", "tier": "2", "imipramine_direct": false, "note": "沙烏地阿拉伯 ADHD 共病與治療模式"},
+        {"pmid": "20112604", "year": "2009", "study_type": "Cohort", "tier": "2", "imipramine_direct": false, "note": "妊娠合併症與 ADHD 治療，間接相關"},
+        {"pmid": "31776871", "year": "2019", "study_type": "Review", "tier": "2", "imipramine_direct": true, "note": "ADHD 藥物 DDI 回顧，含 Imipramine 交互作用風險提示"},
+        {"pmid": "14501767", "year": "2003", "study_type": "Clinical Guidance", "tier": "2", "imipramine_direct": true, "note": "ADHD 合併夜尿/尿失禁管理，直接提及 Imipramine 應用"}
+      ]
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NET 抑制機轉理論上對注意力不足亞型具潛力（與混合型 ADHD 機轉相同），但此亞型專屬臨床數據完全缺失。",
+      "evidence_summary": "無任何臨床試驗或文獻，TxGNN 高分（0.998）推測源自知識圖譜中 ADHD 節點相似性。需與上方 ADHD 混合型資料整合評估，不應單獨立案。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "faciodigitogenital syndrome",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Aarskog-Scott 症候群為 FGD1 基因（Rho GEF）突變所致罕見 X 染色體遺傳疾病，影響 Rho GTPase 訊號，與 Imipramine 之單胺再攝取抑制機轉無已知關聯。TxGNN 預測可能反映知識圖譜拓撲假陽性。",
+      "evidence_summary": "無任何臨床或文獻依據。高 TxGNN 分數（0.998）在缺乏支持性機轉連結情況下，高度懷疑為圖網絡拓撲造成之假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "specific developmental disorder",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「特定發展障礙」為異質性分類（含閱讀障礙、語言障礙、計算障礙等），各亞型神經病理差異顯著，無統一機轉支持 Imipramine 應用。",
+      "evidence_summary": "唯一登錄試驗（NCT04815278）為職業健康介入計畫，與 Imipramine 或特定發展障礙完全無關（Grade C）；無相關文獻。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04815278",
+          "title": "NC Works4Health: Reducing Chronic Disease Risks in Socioeconomically Disadvantaged, Unemployed Populations",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 455,
+          "relevance_grade": "C",
+          "reasoning": "職業/社會介入研究，針對失業族群慢性病風險，與 Imipramine 治療特定發展障礙完全無關聯。疾病標籤匹配可能來自資料庫寬鬆對應。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chondromyxoid fibroma",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "軟骨黏液纖維瘤為良性骨腫瘤，目前無任何抗腫瘤機轉支持 Imipramine 應用。部分文獻探討 TCA 類藥物對某些腫瘤的細胞毒性（粒線體途徑），但此類骨腫瘤缺乏任何基礎或臨床研究支撐。",
+      "evidence_summary": "無任何臨床或文獻依據。此為 TxGNN 預測罕見腫瘤再利用的典型假陽性模式，建議 Hold。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "良性嬰兒陣發性斜頸被認為是偏頭痛譜系早期表現（CACNA1A/ATP1A2 基因關聯），Imipramine 歷史上雖用於偏頭痛預防，但無此特定嬰兒疾病之機轉或臨床研究。",
+      "evidence_summary": "無任何臨床或文獻依據。此為極罕見嬰兒疾病，臨床試驗設計亦存在倫理挑戰。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsessive-compulsive disorder",
+      "txgnn_score": 0.9901,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "OCD 與皮質-紋狀體-視丘-皮質迴路（CSTC）過度活化及血清素失調有關。SERT 抑制可增加突觸間隙 5-HT，理論上可減輕強迫症狀；然 Imipramine 之 SERT/NET 抑制比例不如 Clomipramine（SRI 選擇性較高）理想，臨床效果遜於 SSRI/Clomipramine。",
+      "evidence_summary": "存在直接對照研究（PMID 3887445: Clomipramine vs Imipramine in OCD；PMID 3615688: Imipramine 對 OCD 症狀影響），惟結論顯示 Imipramine 效果顯著劣於 Clomipramine。現有 ClinicalTrials 試驗均無直接關聯（TMS 研究已撤案；食道超敏感研究與精神科 OCD 無關）。歸類 L3，建議安全性初評（關注 QTc 延長、抗膽鹼副作用）後再決定是否推進。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01944657",
+          "title": "Supplemental TMS vs. Standard Medication Monotherapy for Treating Major Depression",
+          "phase": "NA",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "研究已撤案（enrolled 0），且適應症為重鬱症非 OCD，與本評估無關。"
+        },
+        {
+          "nct_id": "NCT06778824",
+          "title": "Esophageal Visceral Hypersensitivity and Hypervigilance in Disorders of Gut-brain Interaction",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 610,
+          "relevance_grade": "C",
+          "reasoning": "研究焦點為腸-腦軸食道過敏，雖屬腸腦互動領域，但與 OCD 之精神科指標無關；可能因 Imipramine 抗膽鹼特性用於腸道症狀，與 OCD 再利用評估無關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "3887445", "year": "1985", "study_type": "RCT", "tier": "1", "imipramine_direct": true, "note": "Clomipramine vs Imipramine 頭對頭 RCT in OCD，Imipramine 效果較差"},
+        {"pmid": "3615688", "year": "1987", "study_type": "Clinical Trial", "tier": "1", "imipramine_direct": true, "note": "Imipramine 對憂鬱與 OCD 症狀之直接研究"},
+        {"pmid": "2413912", "year": "1985", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "OCD 血清素假說，機轉相關"},
+        {"pmid": "3036259", "year": "1987", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "OCD 神經生物學與治療綜述"},
+        {"pmid": "7963449", "year": "1994", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "OCD 診斷與治療新視角"},
+        {"pmid": "10986730", "year": "2000", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "疑病症與 OCD 關係，間接相關"},
+        {"pmid": "10775017", "year": "2000", "study_type": "Review", "tier": "2", "imipramine_direct": false, "note": "單胺假說演進，機轉背景"},
+        {"pmid": "1281075", "year": "1992", "study_type": "Drug Review", "tier": "2", "imipramine_direct": false, "note": "Sertraline 藥理回顧，OCD 對照藥物"},
+        {"pmid": "2878798", "year": "1986", "study_type": "Drug Review", "tier": "2", "imipramine_direct": false, "note": "Fluoxetine 藥理回顧，OCD 對照"},
+        {"pmid": "32982805", "year": "2020", "study_type": "Meta-Review", "tier": "1", "imipramine_direct": true, "note": "兒童青少年抗憂鬱劑 Meta-review，含安全性警語"}
+      ]
+    },
+    {
+      "disease_name": "agoraphobia",
+      "txgnn_score": 0.9897,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "恐慌症/廣場恐懼症涉及藍斑核（Locus Coeruleus）正腎上腺素系統過度活化及 5-HT 失調。Imipramine 透過 NET+SERT 雙重抑制降低恐慌發作頻率，並可能透過下游受體適應性變化（β 受體下調）產生抗焦慮效果。此機轉已獲多項 RCT 直接驗證。",
+      "evidence_summary": "最強證據適應症。存在多個直接 RCT（1980-2002）證實 Imipramine 於廣場恐懼症/恐慌症之急性期及維持期療效，2023 年網絡 Meta 分析進一步整合歷史數據。雖無近期大型 Phase 3 試驗（已歸屬 L2 而非 L1），證據體系完整，支持 S3 決策階段。主要安全性考量：QTc 延長、抗膽鹼效應、撤藥症候群（PMID 7133835）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "38014714", "year": "2023", "study_type": "Network Meta-Analysis", "tier": "1", "imipramine_direct": true, "note": "恐慌症藥物治療網絡 Meta 分析，含 Imipramine 比較數據，為最新最高等級證據"},
+        {"pmid": "2672069", "year": "1989", "study_type": "RCT", "tier": "1", "imipramine_direct": true, "note": "Imipramine vs 行為療法頭對頭 RCT，廣場恐懼症急性期"},
+        {"pmid": "12006900", "year": "2002", "study_type": "RCT", "tier": "1", "imipramine_direct": true, "note": "Imipramine 療程長度與廣場恐懼症復發研究"},
+        {"pmid": "6101535", "year": "1980", "study_type": "RCT", "tier": "1", "imipramine_direct": true, "note": "Imipramine 合併暴露治療 RCT，早期關鍵研究"},
+        {"pmid": "11534926", "year": "2001", "study_type": "RCT", "tier": "1", "imipramine_direct": true, "note": "第 2 年維持治療及停藥 RCT"},
+        {"pmid": "12884888", "year": "1999", "study_type": "RCT", "tier": "1", "imipramine_direct": true, "note": "長期維持治療及停藥策略 RCT"},
+        {"pmid": "3731774", "year": "1986", "study_type": "Clinical Trial", "tier": "1", "imipramine_direct": true, "note": "廣場恐懼症直接臨床試驗"},
+        {"pmid": "2293254", "year": "1990", "study_type": "Mechanistic Study", "tier": "2", "imipramine_direct": false, "note": "恐慌症/廣場恐懼症神經化學相關物，機轉支持"},
+        {"pmid": "7133835", "year": "1982", "study_type": "Case/Clinical Observation", "tier": "3", "imipramine_direct": true, "note": "廣場恐懼症與 Imipramine 撤藥關聯，安全性警示"},
+        {"pmid": "2963053", "year": "1988", "study_type": "Validation Study", "tier": "2", "imipramine_direct": false, "note": "Hamilton 焦慮量表效度研究，評估工具相關"}
+      ]
+    },
+    {
+      "disease_name": "histrionic personality disorder (disease)",
+      "txgnn_score": 0.9861,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "表演型人格障礙（HPD）目前無公認藥物療法；情緒調節困難可能與多巴胺/血清素訊號有關，但無特定機轉支持 Imipramine 應用。",
+      "evidence_summary": "僅 1 篇 1973 年極早期動物神經生理模型研究（PMID 4799687），非直接 HPD 臨床研究，屬 L4 間接/個案等級。無可評估的臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "4799687", "year": "1973", "study_type": "Basic/Animal Study", "tier": "3", "imipramine_direct": true, "note": "神經生理模型中抗憂鬱活性展示，非人類臨床研究，與 HPD 關聯極弱"}
+      ]
+    },
+    {
+      "disease_name": "schizoid personality disorder",
+      "txgnn_score": 0.9861,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "分裂性人格障礙（SchPD）特徵為情感疏離，部分假說涉及多巴胺低活性，與 Imipramine 主要機轉（單胺再攝取抑制）有潛在反向效應，無充分機轉支持。",
+      "evidence_summary": "僅 1 篇 1973 年研究（PMID 4572815），為人格障礙藥物效果預測研究，非直接 SchPD with Imipramine RCT。L4 間接證據，且年代久遠（53 年前），現代診斷標準已有重大修訂。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "4572815", "year": "1973", "study_type": "Predictive/Observational Study", "tier": "3", "imipramine_direct": false, "note": "人格障礙藥物反應預測研究，非 Imipramine 特異性，診斷標準已過時"}
+      ]
+    }
+  ],
+  "prioritization_summary": {
+    "S3_proceed": ["agoraphobia"],
+    "S2_clinical_feasibility": ["attention deficit-hyperactivity disorder"],
+    "S1_safety_review": ["obsessive-compulsive disorder"],
+    "S0_hold": [
+      "attention deficit hyperactivity disorder, inattentive type",
+      "faciodigitogenital syndrome",
+      "specific developmental disorder",
+      "chondromyxoid fibroma",
+      "benign paroxysmal torticollis of infancy",
+      "histrionic personality disorder (disease)",
+      "schizoid personality disorder"
+    ]
+  },
+  "cross_cutting_safety_flags": [
+    "QTc 延長風險：所有適應症均需心電圖基線評估",
+    "抗膽鹼效應：禁用於青光眼、前列腺肥大患者",
+    "兒童/青少年警語（PMID 32982805）：黑框警告—增加自殺意念風險，ADHD 族群尤須慎重",
+    "DDI 風險：CYP2D6 代謝，與 MAOi 禁忌，與 ADHD 興奮劑合用需監控",
+    "市場狀態（未上市）：新加坡 HSA 資料庫未收載，實際臨床應用需確認監管途徑"
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **Agoraphobia** | 0.990 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| **ADHD** | 0.999 | L3 | S2 | 🔬 Research Question |
+| **OCD** | 0.990 | L3 | S1 | 🔬 Research Question（安全性先評）|
+| Histrionic PD | 0.986 | L4 | S0 | ⛔ Hold |
+| Schizoid PD | 0.986 | L4 | S0 | ⛔ Hold |
+| ADHD Inattentive | 0.998 | L5 | S0 | ⛔ Hold |
+| Faciodigitogenital | 0.998 | L5 | S0 | ⛔ Hold |
+| Specific Dev. Disorder | 0.997 | L5 | S0 | ⛔ Hold |
+| Chondromyxoid Fibroma | 0.997 | L5 | S0 | ⛔ Hold |
+| BPT of Infancy | 0.992 | L5 | S0 | ⛔ Hold |
+
+## 🔑 關鍵發現
+
+1. **最強適應症（Agoraphobia，L2/S3）**：具備 6 篇直接 RCT + 2023 年網絡 Meta 分析，為資料集中唯一達 S3 的適應症，建議優先推進，但需注意撤藥症候群管理。
+
+2. **ADHD TxGNN 高分但臨床試驗不匹配**：TxGNN 分數最高（0.999）卻僅找到正念訓練試驗，反映資料集試驗匹配演算法需優化（寬鬆疾病標籤對應問題）。
+
+3. **L5 假陽性模式**：Faciodigitogenital syndrome 及 Chondromyxoid fibroma 的高 TxGNN 預測分數（>0.996）合併零臨床證據，為典型知識圖譜拓撲假陽性，建議在知識圖譜訓練時增加罕見病節點的懲罰機制。
+
+4. **資料品質警示**：`original_indications: []` 及 `original_moa: [Data Gap]` 不符合 Imipramine 的實際藥典狀態，建議回溯 Singapore HSA 資料庫匹配邏輯。

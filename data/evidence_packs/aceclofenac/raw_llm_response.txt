@@ -1,0 +1,305 @@
+正在分析藥物再利用證據資料，評估各適應症的證據等級。
+
+```json
+{
+  "drug": "Aceclofenac",
+  "drugbank_id": "DB06736",
+  "analysis_date": "2026-04-03",
+  "drug_background": {
+    "note": "Aceclofenac 為偏選性 COX-2 NSAID，在多國（印度、英國、歐洲、韓國）已上市用於骨關節炎、類風濕性關節炎及強直性脊椎炎，為 Diclofenac 的衍生物前驅藥。本市場標記為「未上市」，分析以再利用角度評估。",
+    "moa_inferred": "抑制 COX-1/COX-2 → 減少前列腺素合成 → 抗炎、鎮痛、解熱；代謝物 4'-hydroxyaceclofenac 亦具抗炎活性"
+  },
+  "indications": [
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症為 XYLT2 基因突變所致骨骼發育不全合併釉質缺陷的遺傳性疾病；Aceclofenac 作為 COX 抑制劑僅具潛在症狀性鎮痛作用，無任何針對病因的機轉支持。TxGNN 高分可能源於共享肌肉骨骼疾病節點的模型偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["極罕見疾病（無流行病學資料）", "純遺傳病因，NSAID 無法改變病程", "模型預測可信度存疑"]
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GDF5/CDMP1 基因突變導致的體染色體隱性遺傳骨骼發育不全；NSAID 無針對性機轉，僅可能提供輔助鎮痛。KG 高分反映疾病分類鄰近性而非藥物機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["遺傳性骨骼發育異常，無根治機轉", "無任何臨床資料支持"]
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "以肌肉纖維化和硬化為主要病理特徵；Aceclofenac 雖具抗炎作用，但對肌肉纖維化進程無已知修飾效果，缺乏機轉合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["纖維化機轉超出 COX 抑制範疇", "無臨床資料"]
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "椎體高度異常減少的遺傳性疾病（多為 TRPV4、PAPSS2 等基因突變）；NSAID 無法影響椎體形態，僅有症狀緩解潛力，機轉關聯極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["結構性骨骼異常，非炎症主導", "無臨床或文獻支持"]
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "COMP 基因突變導致軟骨寡聚基質蛋白異常累積；為結構性/代謝性疾病，非炎症主導，COX 抑制無法改變病程。可能有輔助鎮痛作用但無再利用價值。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["COMP 蛋白病理超出 NSAID 作用範疇", "無任何臨床資料"]
+    },
+    {
+      "disease_name": "hypermobility of coccyx",
+      "txgnn_score": 0.9969,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尾骨過度活動引起的局部疼痛；雖然 NSAID 類藥物常用於此症的症狀性鎮痛，但此屬 Aceclofenac 既有適應症的延伸使用而非真正的藥物再利用，且無特定臨床研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["症狀治療範疇，非機轉性再利用", "無專屬臨床資料"]
+    },
+    {
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "類風濕性關節炎合併系統性血管炎；標準治療為皮質類固醇及 DMARDs/生物製劑。NSAID 在血管炎治療中效果有限且可能加重腎臟和心血管風險，機轉支持薄弱，臨床資料缺失。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "血管炎嚴重性需免疫抑制治療，NSAID 不足以控制",
+        "腎臟毒性風險在血管炎患者中更顯著",
+        "無臨床資料支持"
+      ]
+    },
+    {
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "炎症性脊椎病（含強直性脊椎炎）的核心病理為 COX 介導的前列腺素過度產生，導致脊椎關節炎症和疼痛。Aceclofenac 通過選擇性 COX-2 抑制降低 PGE2 合成，直接對應疾病機轉；其代謝物 4'-hydroxyaceclofenac 額外抑制 IL-1β 和 TNF-α 生成，具有多重抗炎機轉優勢。此為 Aceclofenac 在多國已建立的適應症範疇。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00647517",
+          "title": "Chung Shan Medical University Hospital, Taiwan - Phase 4 Study",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 60,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 已完成試驗，規模雖小（60人），但為台灣機構的完成試驗，可能涉及 Aceclofenac 在炎症性脊椎病的實際臨床評估。完整試驗資料需進一步查閱以確認主要終點和藥物使用情況。"
+        },
+        {
+          "nct_id": "NCT05164198",
+          "title": "Multicenter Prospective Trial for TNF Inhibitor Dose Adjustment in Ankylosing Spondylitis",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 448,
+          "relevance_grade": "C",
+          "reasoning": "試驗主題為 TNF 抑制劑劑量調整，非 Aceclofenac 研究，但確認強直性脊椎炎（屬炎症性脊椎病）的活躍研究環境，間接支持疾病重要性。與藥物再利用目標不直接相關。"
+        },
+        {
+          "nct_id": "NCT02883569",
+          "title": "Comparative Effectiveness: Surgery vs Non-Surgery in Inflammatory Spondylopathy",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 1102,
+          "relevance_grade": "C",
+          "reasoning": "手術與非手術治療比較研究，規模大（1102人），但研究設計為干預比較，非藥物療效評估，對 Aceclofenac 再利用的直接相關性有限。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8823692",
+          "title": "Aceclofenac is as safe and effective as tenoxicam in the treatment of ankylosing spondylitis: a 3 month study",
+          "year": "1996",
+          "study_type": "RCT（comparative trial）",
+          "tier": "1",
+          "note": "直接比較 Aceclofenac vs Tenoxicam 於強直性脊椎炎的 3 個月控制試驗，為最強的直接臨床證據，確立療效非劣性。"
+        },
+        {
+          "pmid": "8823693",
+          "title": "The efficacy and tolerability of aceclofenac in the treatment of patients with ankylosing spondylitis",
+          "year": "1996",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "note": "專門評估 Aceclofenac 在強直性脊椎炎患者的療效與耐受性，直接支持炎症性脊椎病適應症。"
+        },
+        {
+          "pmid": "34876850",
+          "title": "A Review of Aceclofenac: Analgesic and Anti-Inflammatory Effects on Musculoskeletal Disorders",
+          "year": "2021",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "最新系統性回顧，全面涵蓋肌肉骨骼疾病的鎮痛抗炎效果，提供現代整合性證據基礎。"
+        },
+        {
+          "pmid": "15163279",
+          "title": "Aceclofenac in the management of inflammatory pain",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "炎症性疼痛管理的專題回顧，與炎症性脊椎病高度相關。"
+        },
+        {
+          "pmid": "11511027",
+          "title": "Aceclofenac: a reappraisal of its use in the management of pain and rheumatic disease",
+          "year": "2001",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "風濕病管理的全面回顧，直接相關。"
+        },
+        {
+          "pmid": "8799688",
+          "title": "Aceclofenac: pharmacodynamic properties and therapeutic potential in rheumatic disease",
+          "year": "1996",
+          "study_type": "Pharmacological Review",
+          "tier": "1",
+          "note": "奠定藥理學基礎的重要文獻，確立機轉與風濕病的關聯。"
+        },
+        {
+          "pmid": "11523298",
+          "title": "Role of aceclofenac in chronic osteoarthritis pathology",
+          "year": "2001",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "骨關節炎（鄰近適應症）的回顧，間接支持關節炎機轉。"
+        },
+        {
+          "pmid": "22350497",
+          "title": "NSAIDs and gastroprotection with proton pump inhibitors",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "安全性/副作用管理文獻，作為 Guardrails 設計的參考。"
+        },
+        {
+          "pmid": "11548913",
+          "title": "Iatrogenic cost factors in economic comparison of aceclofenac",
+          "year": "2001",
+          "study_type": "Health Economics",
+          "tier": "3",
+          "note": "醫療經濟學分析，提供成本效益參考。"
+        },
+        {
+          "pmid": "31323799",
+          "title": "Optimization of Aceclofenac Proniosomes",
+          "year": "2019",
+          "study_type": "Drug Delivery Research",
+          "tier": "3",
+          "note": "藥物傳遞系統研究，與療效無直接關聯。"
+        }
+      ],
+      "guardrails": [
+        "GI 保護：合併 PPI 使用（PMID 22350497 提供依據）",
+        "腎功能監測：定期評估 eGFR，尤其長期使用者",
+        "心血管風險評估：炎症性脊椎病患者心血管風險已偏高",
+        "最低有效劑量原則：短期使用優先",
+        "注意 1996 年試驗資料老化問題，建議配合現代評估工具（BASDAI/ASDAS）重新評估"
+      ]
+    },
+    {
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多關節型幼年型類風濕性關節炎雖具 COX 介導炎症成分，NSAID 類藥物（如 Naproxen、Ibuprofen）確有在 JIA 使用，但 Aceclofenac 在兒科族群無安全性或療效資料。兒科藥物開發需專屬資料支持，不能直接外推成人數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "兒科族群（18歲以下）需專屬安全性資料",
+        "無兒科劑量研究",
+        "Reye 症候群風險需排除（雖 Aceclofenac 非水楊酸類）",
+        "監管要求：兒科適應症需額外申請"
+      ]
+    },
+    {
+      "disease_name": "Kummell disease",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Kummell 病為遲發性椎體壓縮性骨折後骨壞死，病因以血管缺血為主而非炎症。NSAID 可提供症狀性鎮痛，但無任何針對骨壞死機轉的理論基礎，且有研究指出 NSAID 可能抑制骨癒合，使此適應症存在潛在風險疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "NSAID 可能抑制骨癒合（前列腺素在骨重塑中的角色）",
+        "缺血性骨壞死病因不符合 COX 抑制機轉",
+        "無臨床資料支持"
+      ]
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 0,
+      "L5": 9
+    },
+    "decision_distribution": {
+      "S3_可建議": 0,
+      "S2_臨床可行性": 1,
+      "S1_安全性初評": 0,
+      "S0_初篩不足": 9
+    },
+    "priority_recommendation": {
+      "indication": "inflammatory spondylopathy",
+      "rationale": "唯一具備直接臨床試驗證據（1996年兩項對照試驗）及多篇系統性回顧支持的適應症，且機轉與藥物藥理高度一致。Aceclofenac 在多個市場已有此類適應症核准，具備市場准入先例，建議優先推進本市場的藥物登記評估。",
+      "next_steps": [
+        "1. 查閱 NCT00647517 完整試驗資料（台灣 Phase 4，60人）",
+        "2. 進行系統性文獻回顧更新（2021年後新試驗）",
+        "3. 評估本地監管機構（HSA 或相應藥監局）對境外臨床資料的接受度",
+        "4. 設計本地 Phase 4 真實世界研究方案"
+      ]
+    },
+    "model_bias_note": "9 個適應症為 L5 且均為罕見遺傳性骨骼疾病，TxGNN 高分（>0.996）可能源於知識圖譜中肌肉骨骼疾病節點的密集連接，建議對此類批次預測結果進行人工校驗，避免罕見遺傳病的系統性假陽性偏差。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|----------|----------|------|
+| 🟢 **inflammatory spondylopathy** | 0.9963 | **L2** | **S2** | **Proceed with Guardrails** |
+| 🔴 brachyolmia-amelogenesis imperfecta | 0.9989 | L5 | S0 | Hold |
+| 🔴 acromesomelic dysplasia | 0.9989 | L5 | S0 | Hold |
+| 🔴 myosclerosis | 0.9988 | L5 | S0 | Hold |
+| 🔴 brachyolmia | 0.9987 | L5 | S0 | Hold |
+| 🔴 pseudoachondroplasia | 0.9985 | L5 | S0 | Hold |
+| 🔴 hypermobility of coccyx | 0.9969 | L5 | S0 | Hold |
+| 🔴 rheumatoid vasculitis | 0.9964 | L5 | S0 | Hold |
+| 🔴 polyarticular JRA | 0.9963 | L5 | S0 | Hold |
+| 🔴 Kummell disease | 0.9962 | L5 | S0 | Hold |
+
+### 關鍵發現
+
+1. **唯一值得推進的適應症**：**Inflammatory Spondylopathy**（炎症性脊椎病），具有兩項1996年直接對照臨床試驗（PMID 8823692, 8823693）及多篇系統性回顧支持，達 **L2 / S2**。
+
+2. **模型偏差警告**：9個 L5 適應症均為罕見骨骼遺傳病，TxGNN 評分全部超過 0.996，高度疑似 KG 鄰近節點造成的批次假陽性，**建議設立遺傳性疾病過濾規則**。
+
+3. **市場背景補充**：Aceclofenac 雖在本市場標記「未上市」，但其在強直性脊椎炎/炎症性脊椎病的療效在印度、英國等已有監管核准，**境外證據策略（foreign clinical data bridging）** 為可行路徑。

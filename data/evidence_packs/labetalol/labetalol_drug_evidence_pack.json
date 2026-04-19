@@ -1,0 +1,1252 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00598-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Labetalol",
+    "drugbank_id": "DB00598",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9907959699630736,
+        "rank": 9960
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7242419",
+            "title": "Hallucinogenic drug induced vasculitis.",
+            "authors": [
+              "Heazlewood V J",
+              "Bochner F",
+              "Craswell P W"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1981",
+            "abstract": "A case of malignant hypertension in a 20-year-old man who self-administered various hallucinogenic drugs is described. Renal angiography showed arteritic changes with aneurysms in renal vessels and focal renal cortical infarction. A dramatic response in terms of resolution of arteritis occurred with prednisone therapy. The impressive use of minoxidil and labetalol in the initial control of the hypertension is also demonstrated.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15113447",
+            "title": "Hyponatremic hypertensive syndrome (HHS) in an 18-month old-child presenting as malignant hypertension: a case report.",
+            "authors": [
+              "Dixit Mehul P",
+              "Hughes John D",
+              "Theodorou Andreas",
+              "Dixit Naznin M"
+            ],
+            "journal": "BMC nephrology",
+            "year": "2004",
+            "abstract": "The combination of hyponatremia and renovascular hypertension is called hyponatremic hypertensive syndrome (HHS). Malignant hypertension as a presentation has been reported in adults with HHS but is rare in children.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Labetalol 透過 α1+β 阻斷降低外周血管阻力與心輸出量，對惡性高血壓具直接降壓機轉；腎血管性高血壓常伴有 RAAS 過度活化，β-blockade 可抑制腎素釋放，具雙重機轉潛力。惟腎功能不全時 labetalol 清除率可能受影響，需謹慎劑量調整。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9907959699630736,
+        "rank": 9961
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "α1+β 阻斷劑理論上可降低惡性高血壓對腎臟的血流動力學損傷，但惡性高血壓性腎病需快速且精準的血壓控制，labetalol IV 型態雖用於高血壓急症，但特定針對此亞型的腎臟保護證據完全缺失。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.990772008895874,
+        "rank": 9981
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15192444",
+            "title": "Chronic hypoxia: common traits between chronic obstructive pulmonary disease and altitude.",
+            "authors": [
+              "Raguso Comasia A",
+              "Guinot Sofia L",
+              "Janssens Jean-Paul",
+              "Kayser Bengt",
+              "Pichard Claude"
+            ],
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "year": "2004",
+            "abstract": "Loss of body mass and exercise intolerance are common findings in chronic obstructive pulmonary disease and are often difficult to reverse despite optimal nutritional intake. Similar findings have been reported in healthy individuals during high-altitude exposure. The role of hypoxia in modulating metabolism has been largely investigated in vitro and in animal studies. More fragmentary is the knowledge regarding hypoxia effects on in-vivo human metabolism. This paper reviews recent literature re",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【安全警示】Beta-blocker 在低氧性肺動脈高壓中存在潛在危害：β2 阻斷可誘發支氣管痙攣、加重肺血管阻力；α1 阻斷雖有輕度肺血管擴張效果，但整體對右心室後負荷的影響難以預測。現有 20 篇文獻均為一般性缺氧生物學研究，與 labetalol 治療此適應症無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.990772008895874,
+        "rank": 9982
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【安全警示】多因性肺動脈高壓病因異質，beta-blocker 在大多數 PAH 亞型中被視為相對禁忌（尤其 Group 1 PAH）；α1 阻斷的輕度肺血管擴張不足以抵消 β-阻斷對心臟輸出與肺循環的負面影響。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.98797869682312,
+        "rank": 12073
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock 症候群為 FOXF2 基因突變所致罕見先天性發育障礙（特徵：腦-肺-腸道異常），與 labetalol 之 α1/β 腎上腺素阻斷機轉無明確藥理連結。TxGNN 高分可能為圖譜拓撲相似性假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9492295384407043,
+        "rank": 26882
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02531490",
+            "title": "Personalized Hemodynamically Guided Antihypertensive Treatment in Pregnant Women With Mild to Moderate Hypertension: a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 368,
+            "start_date": "2015-01-01",
+            "completion_date": "2023-04",
+            "brief_summary": "Paradoxical fetal and maternal results of studies have led to inconsistent use of antihypertensive drugs or no treatment at all in mild to moderate gestational hypertension in the Netherlands. However, none of the studies have taken the individual maternal circulatory state or the contemplated blood pressure response into account. Hypertension may be accompanied by high (hyperdynamic vasodilated profile), normal (normodynamic profile) of low (hypodynamic vasoconstrictive profile) cardiac output,",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 高品質血流動力學引導降壓試驗，雖針對妊娠高血壓而非肺心病，但 labetalol 作為試驗用藥的血流動力學資料可提供間接安全性資訊；狀態 UNKNOWN 降低可用性"
+            }
+          },
+          {
+            "nct_id": "NCT01431326",
+            "title": "Pharmacokinetics of Understudied Drugs Administered to Children Per Standard of Care",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3520,
+            "start_date": "2011-11",
+            "completion_date": "2019-11",
+            "brief_summary": "Understudied drugs will be administered to children per standard of care as prescribed by their treating caregiver and only biological sample collection during the time of drug administration will be involved. A total of approximately 7000 children aged \\<21 years who are receiving these drugs for standard of care will be enrolled and will be followed for up a maximum of 90 days. The goal of this study is to characterize the pharmacokinetics of understudied drugs for which specific dosing recomm",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "兒童 PK 觀察性研究，提供藥物動力學資料但無療效終點，與慢性肺心病適應症相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT02299414",
+            "title": "A Pragmatic Multicenter Randomized Clinical Trial (RCT) of Antihypertensive Therapy for Mild Chronic Hypertension During Pregnancy: Chronic Hypertension and Pregnancy (CHAP) Project",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 2408,
+            "start_date": "2015-06",
+            "completion_date": "2022-12-16",
+            "brief_summary": "The purpose of this study is to evaluate whether a blood pressure treatment strategy during pregnancy to achieve targets that are recommended for non-pregnant reproductive-age adults (\\<140/90 mmHg) compared ACOG- recommended standard during pregnancy (no treatment unless BP is severe) is effective and safe.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型 Phase 4 RCT（n=2408，COMPLETED），評估妊娠期輕度慢性高血壓之抗高血壓治療；labetalol 為對照組主要用藥之一，提供長期安全性與有效性間接證據，但研究人群與慢性肺心病不同"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9673832",
+            "title": "Clinical pharmacokinetics of vasodilators. Part II.",
+            "authors": [
+              "Kirsten R",
+              "Nelson K",
+              "Kirsten D",
+              "Heintz B"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "abstract": "Stimulating cardiac beta 1-adrenoceptors with oxyfedrine causes dilatation of coronary vessels and positive inotropic effects on the myocardium. beta 1-adrenergic agonists increase coronary blood flow in nonstenotic and stenotic vessels. The main indication for the use of the phosphodiesterase inhibitors pamrinone, mirinone, enoximone and piroximone is acute treatment of severe congestive heart failure. Theophylline is indicated for the treatment of asthma, chronic obstructive pulmonary disease,",
+            "classification": {
+              "study_type": "Review/PK",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32951311",
+            "title": "Epidemiology of hypertensive crisis in the Buea Regional Hospital, Cameroon.",
+            "authors": [
+              "Nkoke Clovis",
+              "Noubiap Jean Jacques",
+              "Dzudie Anastase",
+              "M Jingi Ahmadou",
+              "Njume Debimeh"
+            ],
+            "journal": "Journal of clinical hypertension (Greenwich, Conn.)",
+            "year": "2020",
+            "abstract": "Hypertensive crisis (HC) includes hypertensive urgency (HU) and hypertensive emergency (HE). There is scarcity of data on the epidemiology of patients presenting with HC in Cameroon. The aim of this study was to determine the prevalence, clinical characteristics, and outcome of HU and HE. We conducted a cross-sectional study from June 2018 until June 2019. The criteria to define a hypertensive crisis were systolic and/or diastolic blood pressure ≥180/110 mm Hg. We compared HU vs HE. Out of the 1",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31205435",
+            "title": "Blood Loss and Visibility with Esmolol vs Labetalol in Endoscopic Sinus Surgery: A Randomized Clinical Trial.",
+            "authors": [
+              "Lavere Philip F",
+              "Rana Nikunj A",
+              "Kinsky Michael P",
+              "Funston J Sean",
+              "Mohamed Sharif S"
+            ],
+            "journal": "Clinical medicine insights. Ear, nose and throat",
+            "year": "2019",
+            "abstract": "Improved intraoperative visibility during functional endoscopic sinus surgery (FESS) decreases the risk of serious orbital or skull base injuries. Esmolol and labetalol have been used to reduce bleeding and achieve better visibility, but it remains unclear which drug is more effective. This study aims to measure visibility scores and mucosal bleeding rates for esmolol and labetalol in FESS.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺心病（Cor Pulmonale）常繼發於慢性肺病，以右心室肥大/衰竭為特徵。Labetalol 的 α1 阻斷可降低系統性血管阻力，理論上減輕右心後負荷；然而 β-阻斷可能惡化支氣管痙攣並抑制代償性心輸出量。現有 3 個 Phase 4 試驗均為妊娠高血壓或兒童 PK 研究，並非直接針對慢性肺心病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.7360199689865112,
+        "rank": 44210
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Beta-blocker 類藥物（如 timolol）為青光眼標準治療，透過抑制睫狀體 β 受體降低房水生成；labetalol 具相同 β-阻斷機轉，理論上可降低眼壓。然而原發性遺傳性青光眼（如 MYOC/CYP1B1 突變）通常對傳統房水生成抑制劑反應不佳，且 α1 阻斷成分的眼部效應尚不明確。無任何直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.6354110240936279,
+        "rank": 47069
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31862675",
+            "title": "Development and validation of a bio-analytical method for simultaneous quantification of nebivolol and labetalol in aqueous humor and plasma using LC-MS/MS and its application to ocular pharmacokinetic studies.",
+            "authors": [
+              "Rawat Pradeep Singh",
+              "Ravi Punna Rao",
+              "Kaswan Laxman",
+              "Raghuvanshi Rajeev Singh"
+            ],
+            "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+            "year": "2020",
+            "abstract": "Beta blockers is the class of choice of drugs in treatment of open angle Glaucoma. However, many of these drugs suffer from systemic side effects due to their absorption into systemic circulation via nasolachrymal duct. To evaluate the safety and efficacy of nebivolol and labetalol for the treatment of open angle glaucoma, it is important to have a bioanalytical method for measuring the drug concentrations both in aqueous humor and plasma. A simple, sensitive and high throughput liquid chromatog",
+            "classification": {
+              "study_type": "Analytical Method",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6914126",
+            "title": "Ocular hypotensive action of labetalol in rabbit and human eyes.",
+            "authors": [
+              "Bonomi L",
+              "Perfetti S",
+              "Bellucci R",
+              "Massa F",
+              "Noya E"
+            ],
+            "journal": "Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie. Albrecht von Graefe's archive for clinical and experimental ophthalmology",
+            "year": "1981",
+            "abstract": "The ocular hypotensive action of labetalol, a drug endowed with alpha- and beta-adrenergic receptor-blocking properties, was studied in both rabbit and human eyes. In the rabbit, using two different models of experimentally induced ocular hypertension, an impressive decrease of IOP was seen after topical administration of the drug. In this species labetalol was found to be at least as effective as timolol and more active than pilocarpine or propranolol. In human eyes suffering from glaucoma, how",
+            "classification": {
+              "study_type": "Early Phase Human Study (Translational)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Labetalol 的 β 受體阻斷成分可抑制睫狀體房水分泌（β2 阻斷），降低眼內壓；α1 阻斷則可能影響眼部血管張力。1981 年兔與人類眼部試驗（PMID 6914126）顯示 labetalol 具眼壓降低效果，但後續 40 年未見進一步臨床開發，推測因眼部專用 beta-blocker（timolol 滴眼液）已成標準而失去開發誘因。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "atrial flutter (disease)",
+      "txgnn": {
+        "score": 0.5973370671272278,
+        "rank": 48309
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6145367",
+            "title": "Beta-blocking drugs for arrhythmias, hypertension, and ischemic heart disease.",
+            "authors": [
+              "Johns V J"
+            ],
+            "journal": "American journal of surgery",
+            "year": "1984",
+            "abstract": "Beta-blocking drugs have provided significant improvement in the medical therapy of many types of heart disease. They are more effective in treating young hypertensive patients than elderly hypertensive patients. These drugs reduce the ventricular rate seen in atrial flutter and fibrillation, and they also reduce the frequency of ventricular ectopy. Beta blockers are important adjuncts for control of angina pectoris. When these drugs are given for a period of 1 to 3 years after myocardial infarc",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Beta-blocker 類藥物為心房撲動心率控制的標準治療之一（ESC/ACC 指引），透過抑制 AV 結傳導降低心室率。Labetalol 的 β 阻斷效果可達心率控制目的；α1 阻斷在抗心律不整情境中的角色較不確定，但不影響 AV 結阻斷效果。現有文獻為 1984 年綜述，描述 beta-blocker 類在心律不整的廣泛應用，未具體評估 labetalol。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ocular tuberculosis",
+      "txgnn": {
+        "score": 0.5947654247283936,
+        "rank": 48395
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼部結核由 Mycobacterium tuberculosis 感染所致，需抗結核藥物治療（isoniazid、rifampicin 等）。Labetalol 無任何已知抗分枝桿菌活性，亦無免疫調節機轉可解釋其對眼部結核的可能療效。TxGNN 評分可能源於眼部疾病節點的圖譜相似性（與青光眼節點相鄰），為假陽性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "atrial flutter (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "atrial flutter (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "atrial flutter (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "ocular tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "ocular tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Labetalol",
+        "disease": "ocular tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00047-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Insulin glargine",
+    "drugbank_id": "DB00047",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.9988064765930176,
+        "rank": 2323
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫性卵巢炎為 T 細胞介導的自體免疫疾病，破壞卵巢顆粒細胞。Insulin glargine 作用於 INSR/IGF-1R，具有弱 IGF-1 活性，推測 TxGNN 可能透過 INSR 在卵巢類固醇生成的共享節點連結，但無任何臨床或基礎研究支持胰島素對卵巢自體免疫有直接治療作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9960518479347228,
+        "rank": 5558
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Thiamine-responsive megaloblastic anemia syndrome (TRMA/Rogers syndrome) 為 SLC19A2 基因突變，臨床三聯症包含：巨紅血球貧血、感音性耳聾、糖尿病。其糖尿病成分源於胰島 β 細胞對硫胺素缺乏的敏感性，理論上 Insulin glargine 可管理 TRMA 的糖尿病表現。然而正確治療為高劑量硫胺素補充，可部分逆轉糖尿病；胰島素為輔助治療而非疾病修飾治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9959880709648132,
+        "rank": 5612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Focal stiff limb syndrome 為 Stiff Person Spectrum Disorder (SPSD) 的局部型，主要由 anti-GAD65 抗體介導。關鍵連結：GAD65 抗體同時見於第1型糖尿病（T1DM），約 60-80% SPSD 患者伴有 T1DM，因此 Insulin glargine 用於管理共病 T1DM，而非治療 SPSD 本身的肌肉強直症狀。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9959880709648132,
+        "rank": 5614
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Classic SPS 與 T1DM 共享 anti-GAD65 自體免疫機轉，兩者常共病（盛行率高達 30-60%）。此外，近期研究（Alexopoulos et al.）顯示胰島素訊號路徑在 GABAergic 神經元中具有神經保護作用，INSR 在脊髓中樞抑制性中間神經元有表現。推測研究問題：胰島素是否透過神經性 INSR 調節脊髓 GABA 釋放而緩解強直症狀？但目前無臨床研究驗證此假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.995934247970581,
+        "rank": 5663
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Opsismodysplasia 為 INPPL1（SHIP2 基因）突變導致的罕見骨骼發育不良症。SHIP2 為磷脂醯肌醇 3-磷酸酶，負調控 PI3K/AKT 路徑，為胰島素訊號傳遞的關鍵抑制因子。TxGNN 可能偵測到此路徑連結：SHIP2 功能喪失 → PI3K/AKT 過度活化 → 骨骼發育異常；而 Insulin 亦透過 PI3K/AKT 訊號作用。然而骨骼發育不良為結構性問題，胰島素無法修正 SHIP2 突變或改善骨骼形態。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.994269847869873,
+        "rank": 7129
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11727406",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "authors": [
+              "Mudaliar S",
+              "Edelman S V"
+            ],
+            "journal": "Endocrinology and metabolism clinics of North America",
+            "year": "2001",
+            "abstract": "Type 2 diabetes is a common disorder often accompanied by numerous metabolic abnormalities leading to a high risk of cardiovascular morbidity and mortality. Results from the UKPDS have confirmed that intensive glucose control delays the onset and retards the progression of microvascular disease and possibly of macrovascular disease in patients with type 2 diabetes. In the early stages of the disease, insulin resistance plays a major role in the development of hyperglycemia and other metabolic ab",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12150359",
+            "title": "Insulin therapy in type 2 diabetes.",
+            "authors": [
+              "Campbell R Keith",
+              "White John R"
+            ],
+            "journal": "Journal of the American Pharmaceutical Association (Washington, D.C. : 1996)",
+            "year": "2002",
+            "abstract": "To review the increasingly common use of insulin therapy in patients with type 2 diabetes and the practical aspects of initiating insulin therapy in these patients.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19322513",
+            "title": "Secondary diabetes associated with principal endocrinopathies: the impact of new treatment modalities.",
+            "authors": [
+              "Resmini Eugenia",
+              "Minuto Francesco",
+              "Colao Annamaria",
+              "Ferone Diego"
+            ],
+            "journal": "Acta diabetologica",
+            "year": "2009",
+            "abstract": "The secondary occurrence of type 2 diabetes with various hormonal diseases (e.g. pituitary, adrenal and/or thyroid diseases) is a recurrent observation. Indeed, impaired glucose tolerance (IGT) and overt diabetes mellitus are frequently associated with acromegaly and hypercortisolism (Cushing syndrome). The increased cardiovascular morbidity and mortality associated with acromegaly and Cushing syndrome may partly be a consequence of increased insulin resistance that normally accompanies hormone ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25818213",
+            "title": "Longitudinal evaluation of serum pancreatic enzymes and ultrasonographic findings in diabetic cats without clinically relevant pancreatitis at diagnosis.",
+            "authors": [
+              "Zini E",
+              "Hafner M",
+              "Kook P",
+              "Lutz T A",
+              "Ohlerth S"
+            ],
+            "journal": "Journal of veterinary internal medicine",
+            "year": "2015",
+            "abstract": "Cats with diabetes mellitus can have subclinical pancreatitis but prospective studies to confirm this are lacking. Metabolic control of diabetic cats with pancreatitis is difficult.",
+            "classification": {
+              "study_type": "Prospective Observational (Animal)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32871938",
+            "title": "Maturity-Onset diabetes of the young type 5 treated with the glucagon-like peptide-1 receptor agonist: A case report.",
+            "authors": [
+              "Terakawa Aiko",
+              "Chujo Daisuke",
+              "Yasuda Kazuki",
+              "Ueno Keisuke",
+              "Nakamura Tomoka"
+            ],
+            "journal": "Medicine",
+            "year": "2020",
+            "abstract": "Maturity-onset diabetes of the young type 5 (MODY 5) is a form of monogenic diabetes that is often accompanied by pancreatic dysfunction. To date, no cases of MODY 5 treated with glucagon-like peptide-1 receptor agonist (GLP-1RA) have been reported. We present the first case of MODY 5 treated with GLP-1RA.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18518815",
+            "title": "Chronic pancreatitis with secondary diabetes mellitus treated by use of insulin in an adult California sea lion.",
+            "authors": [
+              "Meegan Jenny M",
+              "Sidor Inga F",
+              "Steiner Jörg M",
+              "Sarran Delphine",
+              "Dunn J Lawrence"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "2008",
+            "abstract": "A 21-year-old neutered male captive California sea lion developed chronic polyuria; polydipsia; polyphagia; accelerated development of existing cataracts; and frequent episodes of gastrointestinal upset including anorexia, signs of abdominal discomfort, diarrhea, and vomiting.",
+            "classification": {
+              "study_type": "Case Report (Animal)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰臟發育不全（Pancreatic agenesis）導致內分泌胰臟完全缺失，患者出生即為永久性胰島素依賴型糖尿病（neonatal diabetes mellitus, NDM）。此為最直接的機轉連結：無胰島素分泌能力 → 外源性胰島素為唯一治療選項。Insulin glargine 作為長效基礎胰島素，符合此類患者的生理需求（持續低劑量基礎胰島素補充）。文獻中繼發性糖尿病的胰島素使用案例支持此概念，但缺乏針對胰臟發育不全的特異性 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.994183361530304,
+        "rank": 7227
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向安全警示：Insulin glargine 注射本身為局部脂肪萎縮（lipoatrophy）及脂肪增生（lipohypertrophy）的已知致因，屬藥物誘發局部脂質營養不良的典型範例。TxGNN 的高分可能反映知識圖譜中胰島素與脂肪代謝節點的密切連結，但此連結在臨床上表現為不良反應而非治療效果。使用 Insulin glargine 治療此症不僅無機轉支持，且可能加重症狀。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.9938547015190125,
+        "rank": 7478
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Centrifugal lipodystrophy（Lipodystrophia centrifugalis abdominalis infantilis, LCAI）為兒童罕見自限性皮下脂肪萎縮，病因不明（可能涉及局部炎症）。Insulin glargine 的脂肪代謝調節路徑（促進脂肪合成、抑制脂解）理論上可能與局部脂肪萎縮有關，但無任何臨床依據支持，且胰島素注射局部也會造成類似病灶。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.99380624294281,
+        "rank": 7533
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力誘發局部脂肪萎縮為物理性機械壓迫導致局部脂肪組織缺失，與胰島素的代謝作用路徑無直接關聯。知識圖譜連結可能透過脂肪組織代謝節點建立，但病理機轉為機械性，非代謝性，胰島素無法修正。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn": {
+        "score": 0.993446171283722,
+        "rank": 7876
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性局部脂質營養不良病因不明，但胰島素訊號異常（尤其是 INSR 後訊號路徑缺陷）在全身性脂質營養不良中已有記載。然而此為全身性而非局部型；局部型的機轉更傾向炎症或自體免疫局部因素，Insulin glargine 在此無合理治療假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Insulin glargine",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

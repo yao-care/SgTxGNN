@@ -1,0 +1,1386 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00915-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amantadine",
+    "drugbank_id": "DB00915",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Rasmussen subacute encephalitis",
+      "txgnn": {
+        "score": 0.9948235750198364,
+        "rank": 6636
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 圖神經網路純預測，無任何臨床或臨床前文獻支持。Rasmussen 腦炎為進行性自體免疫腦炎，理論上 Amantadine 的 NMDA 拮抗活性可能提供神經保護，但無任何直接證據。需排除免疫媒介機轉後方可考慮進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "transaldolase deficiency",
+      "txgnn": {
+        "score": 0.9927138686180116,
+        "rank": 8454
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 純預測，無文獻支持。Transaldolase 缺乏症為戊糖磷酸途徑（PPP）代謝酵素缺乏症，與 Amantadine 的多巴胺能/NMDA 機轉無已知連結。預測可能源於圖譜中共享罕見代謝疾病節點的鄰域擴散效應（neighborhood diffusion artifact）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "myelitis",
+      "txgnn": {
+        "score": 0.9923707246780396,
+        "rank": 8741
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15561551",
+            "title": "Aging in polio.",
+            "authors": [
+              "Bartels Matthew N",
+              "Omura Akiko"
+            ],
+            "journal": "Physical medicine and rehabilitation clinics of North America",
+            "year": "2005",
+            "abstract": "For a disease that was \"conquered\" some 40 years ago with the onset of effective vaccination, the issues of long-term survivors of paralytic polio as they age continue to present challenges to rehabilitation specialists. Aging with polio is a definition of PPS. There are over a million patients with PPS in the United States. Management has to include the appropriate use of exercises, appropriate bracing and support, and, in the case of bulbar and respiratory symptoms, the appropriate use of spee",
+            "classification": {
+              "study_type": "Review（Post-polio aging）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25984923",
+            "title": "Treatment for postpolio syndrome.",
+            "authors": [
+              "Koopman Fieke Sophia",
+              "Beelen Anita",
+              "Gilhus Nils Erik",
+              "de Visser Marianne",
+              "Nollet Frans"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "abstract": "Postpolio syndrome (PPS) may affect survivors of paralytic poliomyelitis and is characterised by a complex of neuromuscular symptoms leading to a decline in physical functioning. The effectiveness of pharmacological treatment and rehabilitation management in PPS is not yet established. This is an update of a review first published in 2011.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review（PPS 治療）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328301",
+            "title": "Treatment for postpolio syndrome.",
+            "authors": [
+              "Koopman Fieke Sophia",
+              "Uegaki Kimi",
+              "Gilhus Nils Erik",
+              "Beelen Anita",
+              "de Visser Marianne"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2011",
+            "abstract": "Postpolio syndrome (PPS) may affect survivors of paralytic poliomyelitis and is characterised by a complex of neuromuscular symptoms leading to a decline in physical functioning. The effectiveness of pharmacological treatment and rehabilitation management in PPS is not yet established.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review（PPS 治療）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17874343",
+            "title": "[Fatigue syndrome in chronic neurological disorders].",
+            "authors": [
+              "Brola Waldemar",
+              "Ziomek Małgorzata",
+              "Czernicki Jan"
+            ],
+            "journal": "Neurologia i neurochirurgia polska",
+            "year": "2007",
+            "abstract": "Fatigue without coincident depression may accompany many neurological disorders, including multiple sclerosis, Parkinson's disease, motor neuron disease, stroke and post-polio syndrome, and is frequently reported by patients as a predominant complaint. The pathophysiology of fatigue is unknown. The role of various mechanisms has been suggested, including the effect of proinflammatory cytokines (TNF-alpha, IL-1beta and IL-6) on glutaminergic transmission, hypothalamo-pituitary-adrenal (HPA) axis ",
+            "classification": {
+              "study_type": "Review（慢性神經疾病疲勞）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10965680",
+            "title": "[Influenza--always present among us].",
+            "authors": [
+              "Turkulov V",
+              "Madle-Samardzija N"
+            ],
+            "journal": "Medicinski pregled",
+            "year": "2000",
+            "abstract": "Influenza virus infects about 10 million persons worldwide each year. Two important characteristics of influenza are its epidemic outbreak and high mortality rate, mostly caused by complications. Influenza virus is characterised by a great antigenic variability. Major modifications, called antigenic shifts or type changes, occur approximately three times per century and result in worldwide epidemics--pandemics. Minor modifications, called antigenic drifts or strain changes demand new vaccine com",
+            "classification": {
+              "study_type": "Review（流感）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4950642",
+            "title": "Antiviral chemotherapy.",
+            "authors": [
+              "Bauer D J"
+            ],
+            "journal": "Modern trends in medical virology",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Review（抗病毒化療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7611638",
+            "title": "A double-blind, placebo-controlled trial of amantadine for the treatment of fatigue in patients with the post-polio syndrome.",
+            "authors": [
+              "Stein D P",
+              "Dambrosia J M",
+              "Dalakas M C"
+            ],
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1995",
+            "abstract": "Because amantadine has been shown to reduce fatigue in patients with multiple sclerosis, we performed a double-blind, placebo-controlled study to assess its efficacy in the disabling symptom of post-polio fatigue. Twenty-three patients completed six weeks of therapy. Fatigue was measured by the patients using visual analogue scales (twice per day) and numerical fatigue severity scales (once per week) and by overall impression (at end of therapy). Formal neuropsychological testing and serum drug ",
+            "classification": {
+              "study_type": "RCT（雙盲安慰劑對照，疲勞療效）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32782018",
+            "title": "Memantine ameliorates motor impairments and pathologies in a mouse model of neuromyelitis optica spectrum disorders.",
+            "authors": [
+              "Yick Leung-Wah",
+              "Tang Chi-Ho",
+              "Ma Oscar Ka-Fai",
+              "Kwan Jason Shing-Cheong",
+              "Chan Koon-Ho"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2020",
+            "abstract": "Neuromyelitis optica spectrum disorders (NMOSD) are central nervous system (CNS) autoimmune inflammatory demyelinating diseases characterized by recurrent episodes of acute optic neuritis and transverse myelitis. Aquaporin-4 immunoglobulin G (AQP4-IgG) autoantibodies, which target the water channel aquaporin-4 (AQP4) on astrocytic membrane, are pathogenic in NMOSD. Glutamate excitotoxicity, which is triggered by internalization of AQP4-glutamate transporter complex after AQP4-IgG binding to astr",
+            "classification": {
+              "study_type": "Animal Study（NMO 小鼠模型，Memantine）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16879288",
+            "title": "EFNS guideline on diagnosis and management of post-polio syndrome. Report of an EFNS task force.",
+            "authors": [
+              "Farbu E",
+              "Gilhus N E",
+              "Barnes M P",
+              "Borg K",
+              "de Visser M"
+            ],
+            "journal": "European journal of neurology",
+            "year": "2006",
+            "abstract": "Post-polio syndrome (PPS) is characterized by new or increased muscular weakness, atrophy, muscle pain and fatigue several years after acute polio. The aim of the article is to prepare diagnostic criteria for PPS, and to evaluate the existing evidence for therapeutic interventions. The Medline, EMBASE and ISI databases were searched. Consensus in the group was reached after discussion by e-mail. We recommend Halstead's definition of PPS from 1991 as diagnostic criteria. Supervised, aerobic muscu",
+            "classification": {
+              "study_type": "Clinical Guideline（EFNS PPS 管理）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4331613",
+            "title": "Approaches to antiviral chemotherapy.",
+            "authors": [
+              "Hirschman S Z"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Review（抗病毒化療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2039376",
+            "title": "Post-polio fatigue treated with amantadine.",
+            "authors": [
+              "Dunn M G"
+            ],
+            "journal": "Archives of neurology",
+            "year": "1991",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amantadine 具 NMDA 拮抗活性，理論上可減少脊髓炎症後的興奮毒性損傷（glutamate excitotoxicity）。現有文獻主要集中於兩條路徑：(1) 脊髓灰質炎後症候群（post-polio syndrome, PPS）的疲勞管理——EFNS 指引（PMID 16879288）及 Cochrane 系統回顧（PMID 25984923、21328301）均提及 Amantadine；(2) MS 相關脊髓炎的疲勞症狀——PMID 7611638 為小型 RCT，顯示 Amantadine 改善疲勞（研究對象疑為 MS 患者）。NMO 相關研究（PMID 32782018）以 Memantine 為標的，為 NMDA 類效應間接參考。整體為亞症狀（疲勞）的 Phase 2 級別 RCT，並非直接針對脊髓炎本身的病程修飾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "PLA2G6-associated neurodegeneration",
+      "txgnn": {
+        "score": 0.9923350214958192,
+        "rank": 8767
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31366412",
+            "title": "Amantadine for Gait Dysfunction in Pantothenate Kinase-Associated Neurodegeneration.",
+            "authors": [
+              "Al-Shorafat Duha M",
+              "Lang Anthony E"
+            ],
+            "journal": "The Canadian journal of neurological sciences. Le journal canadien des sciences neurologiques",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report/Case Series（PKAN，非 PLAN）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4808495",
+            "title": "Hallervorden-Spatz syndrome.",
+            "authors": [
+              "Dooling E C",
+              "Schoene W C",
+              "Richardson E P"
+            ],
+            "journal": "Archives of neurology",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report（Historical, Hallervorden-Spatz）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PLA2G6 相關神經退化（PLAN）與泛酸激酶相關神經退化（PKAN）同屬 NBIA（腦鐵沉積神經退化）疾病群，但為不同亞型（不同致病基因）。PMID 31366412（2019）描述 Amantadine 改善 PKAN 步態障礙，提供 NBIA 群組的類比推論，但非 PLAN 直接證據。PMID 4808495（1974）為 Hallervorden-Spatz 症（NBIA 舊稱）的歷史個案報告。機轉假說：Amantadine 的 NMDA 拮抗活性可能緩解鐵誘發的 ROS 導致的興奮毒性，但缺乏 PLAN 特異性基礎研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "fructose-1,6-bisphosphatase deficiency",
+      "txgnn": {
+        "score": 0.9897228479385376,
+        "rank": 10736
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 純預測，無任何文獻支持。果糖-1,6-二磷酸酶缺乏症為葡萄糖新生作用（gluconeogenesis）代謝酵素缺乏症，主要表現為低血糖與乳酸酸中毒。與 Amantadine 的神經系統靶點機轉無任何已知關聯，預測可能為圖譜代謝疾病節點的假陽性擴散。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "paralysis agitans, juvenile, of Hunt",
+      "txgnn": {
+        "score": 0.9785811305046082,
+        "rank": 17697
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hunt 青少年震顫性癱瘓（青少年型帕金森症）與成人帕金森症共享黑質多巴胺能神經元缺損的核心機轉。Amantadine 作為多巴胺促進劑及 NMDA 拮抗劑，在成人 PD 有長期使用歷史（原核准適應症），理論上可進行類效應外推。然而青少年族群存在發育期腦部特殊性，且無任何針對此亞型的臨床試驗或個案文獻，外推具有顯著不確定性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Lewy body dementia",
+      "txgnn": {
+        "score": 0.978289783000946,
+        "rank": 17849
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04117178",
+            "title": "Monitoring Anti-Dementia Drugs by Serum Levels: Importance of Serum Levels, Drug-monitoring, Side-effects, Clinical Efficacy and Compliance (Translation of Official Danish Title)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 132,
+            "start_date": "2020-02-04",
+            "completion_date": "2023-02-16",
+            "brief_summary": "The main objective of the MONANTI study is twofold:\n\nFirstly, to determine the serum concentration (SC) the anti-dementia drugs donepezil and memantine in a broadly defined clinical population of patients suffering from dementia treated with the two drugs in question. Secondly, to determine whether adjustment of treatment of anti-dementia medication based on measurements of the SC will benefit patients in terms of cognitive performance, activities of daily living (ADL), frequency and severity of",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 抗失智藥物血清濃度監測觀察性研究（n=132），為藥物動力學設計，非療效干預試驗。研究對象涵蓋多種失智症，無法提取 Amantadine 於 LBD 的直接療效數據。"
+            }
+          },
+          {
+            "nct_id": "NCT03858270",
+            "title": "Inhibition of α-synuclein Cell-cell Transmission by NMDAR Blocker, Memantine",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2019-04-01",
+            "completion_date": "2023-07-01",
+            "brief_summary": "Lewy Body Dementia (LBD), is the second most common form of dementia after Alzheimer's Disease. Dementia is defined as a serious loss in cognitive ability due to damages or disease in the brain beyond what is normal aging. With Lewy Body Dementia, protein deposits, or Lewy Bodies, accumulate in nerve cells throughout the brain, affecting motor control, memory and thinking. LBD can also form with the progression of Parkinson's disease (PD). PD is a degenerative nervous system disorder that affect",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 試驗探討 Memantine 抑制 α-synuclein 細胞間傳遞（LBD 核心病理），機轉高度相關。然藥物為 Memantine 非 Amantadine，且狀態為 UNKNOWN，可信度受限。"
+            }
+          },
+          {
+            "nct_id": "NCT00630500",
+            "title": "A Double-blind, Placebo-controlled Multicentre Trial of Memantine in Patients With Parkinson's Disease Dementia or Dementia With Lewy Bodies",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 75,
+            "start_date": "2006-02",
+            "completion_date": "2009-03",
+            "brief_summary": "A 24-week placebo-controlled parallel group multicentre trial to study the safety and efficacy of memantine in patients with dementia associated with Parkinson's disease and dementia with Lewy bodies. It is hypothesized that memantine will be safe and well tolerated, and more effective than placebo.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 完成 RCT，評估 Memantine 於 Parkinson's 失智症（PDD）。PDD 與 DLB 為 Lewy body 疾病譜系，疾病相關性高；藥物類別相同但非 Amantadine 直接試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT00855686",
+            "title": "A Randomised, Double-blind, Placebo-controlled, 6-month Study of the Efficacy and Safety of Memantine in Patients With Parkinson's Disease Dementia or Dementia With Lewy Bodies",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 199,
+            "start_date": "2007-01",
+            "completion_date": "2009-01",
+            "brief_summary": "The purpose of this exploratory study is to determine whether memantine can provide benefits on clinical symptoms in patients with Parkinson's Disease Dementia or Dementia with Lewy Bodies.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 完成 RCT（n=199），直接評估 Memantine 於 DLB 患者，為本群組最高相關性試驗。支持 NMDA 拮抗機轉在 LBD 的臨床可行性，但為 Memantine 而非 Amantadine 直接證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26085043",
+            "title": "Pharmacological Management of Lewy Body Dementia: A Systematic Review and Meta-Analysis.",
+            "authors": [
+              "Stinton Chris",
+              "McKeith Ian",
+              "Taylor John-Paul",
+              "Lafortune Louise",
+              "Mioshi Eneida"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "2015",
+            "abstract": "The authors examined research on effects, costs, and patient and caregiver views of pharmacological management strategies for Lewy body dementia.",
+            "classification": {
+              "study_type": "Systematic Review & Meta-analysis（LBD 藥物管理）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21726471",
+            "title": "Dementia.",
+            "authors": [
+              "Warner James P",
+              "Butler Rob",
+              "Gupta Susham"
+            ],
+            "journal": "BMJ clinical evidence",
+            "year": "2010",
+            "abstract": "Dementia is characterised by chronic, global, non-reversible deterioration in memory, executive function, and personality. Speech and motor function may also be impaired.",
+            "classification": {
+              "study_type": "General Review（Dementia）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24406251",
+            "title": "Memantine for Lewy body disorders: systematic review and meta-analysis.",
+            "authors": [
+              "Matsunaga Shinji",
+              "Kishi Taro",
+              "Iwata Nakao"
+            ],
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2015",
+            "abstract": "To clarify whether memantine is more efficacious in several outcomes and safer than placebo in patients with Lewy body disorders, we performed a meta-analysis of memantine in patients with Lewy body disorders.",
+            "classification": {
+              "study_type": "Systematic Review & Meta-analysis（Memantine in LBD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26411499",
+            "title": "Cognitive impairment in Parkinson's disease and dementia with Lewy bodies.",
+            "authors": [
+              "Aarsland Dag"
+            ],
+            "journal": "Parkinsonism & related disorders",
+            "year": "2016",
+            "abstract": "Parkinson's disease (PD) and dementia with Lewy bodies (DLB) share clinical and pathological similarities. The defining features are motor parkinsonism and cognitive impairment, often accompanied by visual hallucinations, fluctuating consciousness, autonomic and sleep disturbances, and a number of other non-motor symptoms. Mild cognitive impairment (MCI) can be identified in 15% of PD patients at time of diagnosis, and may even precede motor symptoms. MCI usually progresses further, and dementia",
+            "classification": {
+              "study_type": "Review（PD/DLB 認知障礙）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19517247",
+            "title": "Efficacy and safety of memantine in Lewy body dementia.",
+            "authors": [
+              "Levin O S",
+              "Batukaeva L A",
+              "Smolentseva I G",
+              "Amosova N A"
+            ],
+            "journal": "Neuroscience and behavioral physiology",
+            "year": "2009",
+            "abstract": "Lewy body dementia (LBD) is a progressive brain disease manifest as dementia and parkinsonism, along with psychotic and autonomic disorders. Although studies in recent years have demonstrated the positive effects of cholinesterase inhibitors in LBD, the search for therapeutic agents with other mechanisms of action remains relevant. An open, controlled, 16-week study was performed with the aim of evaluating the efficacy and safety of memantine in patients with clinically diagnosed LBD (criteria o",
+            "classification": {
+              "study_type": "RCT（Memantine in LBD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16934009",
+            "title": "Dementia with lewy bodies: therapeutic opportunities and pitfalls.",
+            "authors": [
+              "Henriksen Anne-Lenora",
+              "St Dennis Clarke",
+              "Setter Stephen M",
+              "Tran John T"
+            ],
+            "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+            "year": "2006",
+            "abstract": "To review diagnoses and challenges of treating patients with dementia with Lewy bodies (DLB), commonly considered the second most common form of dementia.",
+            "classification": {
+              "study_type": "Review（DLB 治療策略）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22806065",
+            "title": "Clinical trials of dementia with Lewy bodies and Parkinson's disease dementia.",
+            "authors": [
+              "Aarsland D",
+              "Ballard C",
+              "Rongve A",
+              "Broadstock M",
+              "Svenningsson P"
+            ],
+            "journal": "Current neurology and neuroscience reports",
+            "year": "2012",
+            "abstract": "Despite the frequency and importance of dementia associated with Parkinson's disease (PDD) and dementia with Lewy bodies (DLB), there is relatively little evidence on which to base treatment. Evidence from meta-analysis suggests that rivastigmine can improve cognition and functioning in PDD and also reduce risk of falling. There is also evidence supporting its use in DLB. Recent evidence suggests that memantine may also be effective, particularly for PDD, although evidence is more conflicting. M",
+            "classification": {
+              "study_type": "Clinical Trial Review（DLB/PDD）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14608514",
+            "title": "[Dementia].",
+            "authors": [
+              "Diehl R R"
+            ],
+            "journal": "Fortschritte der Neurologie-Psychiatrie",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "General Review（Dementia）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39515322",
+            "title": "Redox regulation, protein S-nitrosylation, and synapse loss in Alzheimer's and related dementias.",
+            "authors": [
+              "Oh Chang-Ki",
+              "Nakamura Tomohiro",
+              "Zhang Xu",
+              "Lipton Stuart A"
+            ],
+            "journal": "Neuron",
+            "year": "2024",
+            "abstract": "Redox-mediated posttranslational modification, as exemplified by protein S-nitrosylation, modulates protein activity and function in both health and disease. Here, we review recent findings that show how normal aging, infection/inflammation, trauma, environmental toxins, and diseases associated with protein aggregation can each trigger excessive nitrosative stress, resulting in aberrant protein S-nitrosylation and hence dysfunctional protein networks. These redox reactions contribute to the etio",
+            "classification": {
+              "study_type": "Review（氧化還原/S-nitrosylation in dementias）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24828899",
+            "title": "Efficacy and safety of cholinesterase inhibitors and memantine in cognitive impairment in Parkinson's disease, Parkinson's disease dementia, and dementia with Lewy bodies: systematic review with meta-analysis and trial sequential analysis.",
+            "authors": [
+              "Wang Hui-Fu",
+              "Yu Jin-Tai",
+              "Tang Shao-Wen",
+              "Jiang Teng",
+              "Tan Chen-Chen"
+            ],
+            "journal": "Journal of neurology, neurosurgery, and psychiatry",
+            "year": "2015",
+            "abstract": "Recently, several large randomised controlled trials about the treatments of cognitive impairment or dementia due to Parkinson's disease (CIND-PD or PDD) and dementia with Lewy bodies (DLB) were completed. Here, we systematically reviewed the studies (including the recent reports) to provide updated evidence for the treatments of CIND-PD, PDD and DLB.",
+            "classification": {
+              "study_type": "Systematic Review（ChEI/Memantine in PD 認知障礙）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23386073",
+            "title": "Visual hallucinations treated with the reinitiation of memantine in a patient with Lewy body dementia.",
+            "authors": [
+              "Mathys Monica L",
+              "McCarrell Jamie",
+              "Sleeper Rebecca B",
+              "Blaszczyk Amie Taggart"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2013",
+            "abstract": "To report on a patient with Lewy body dementia who developed worsening of hallucinations with memantine withdrawal and significant improvement with reinitiation of the drug.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21428015",
+            "title": "[Drug treatment of dementia with Lewy bodies and Parkinson's disease dementia--common features and differences].",
+            "authors": [
+              "Drach Lutz M"
+            ],
+            "journal": "Medizinische Monatsschrift fur Pharmazeuten",
+            "year": "2011",
+            "abstract": "Dementia with Lewy-bodies (DLB) and Parkinson's disease dementia (PDD) are no rare causes of dementia. Both have neuropathologically, clinically, and neurochemically much in common. In the course of both conditions frequently psychotic symptoms occur, often induced by antiparkinsonian medication. Treatment of psychotic features with conventional antipsychotics is not tolerated in many cases. Therefore low-dose clozapine treatment is acknowledged usual practise for psychosis in Parkinson's diseas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39177108",
+            "title": "Long-term effects of cholinesterase inhibitors and memantine on cognitive decline, cardiovascular events, and mortality in dementia with Lewy bodies: An up to 10-year follow-up study.",
+            "authors": [
+              "Xu Hong",
+              "Habich Annegret",
+              "Ferreira Daniel",
+              "Elisabet Londos",
+              "Westman Eric"
+            ],
+            "journal": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+            "year": "2024",
+            "abstract": "We aimed to assess the impact of cholinesterase inhibitors (ChEIs) and memantine on cognition, major adverse cardiovascular events (MACE) and mortality in dementia with Lewy bodies (DLB).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24737460",
+            "title": "Memantine improves attention and episodic memory in Parkinson's disease dementia and dementia with Lewy bodies.",
+            "authors": [
+              "Wesnes Keith A",
+              "Aarsland Dag",
+              "Ballard Clive",
+              "Londos Elisabet"
+            ],
+            "journal": "International journal of geriatric psychiatry",
+            "year": "2015",
+            "abstract": "In both dementia with Lewy bodies (DLB) and Parkinson's disease dementia (PDD), attentional dysfunction is a core clinical feature together with disrupted episodic memory. This study evaluated the cognitive effects of memantine in DLB and PDD using automated tests of attention and episodic memory.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18577956",
+            "title": "[Efficacy and safety of memantine in dementia with Lewy bodies].",
+            "authors": [
+              "Levin O S",
+              "Batukaeva L A",
+              "Smolentseva I G",
+              "Amosova N A"
+            ],
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2008",
+            "abstract": "Dementia with Lewy bodies (DLB) is a progressive disease of the nervous system manifested with dementia, parkinsonism, psychotic and autonomic disturbances. To estimate efficacy and safety of memantine in patients with clinically diagnosed DLB (according to criteria of McKeith et al., 1999), an open controlled 16-week trial was carried out in 23 patients, mean age 69,2+/-5,9 years. Patients were divided into 2 groups: 14 patients who received memantine in dosage 20 mg/d and 9 patients of a contr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22122992",
+            "title": "Quality of life and the effect of memantine in dementia with lewy bodies and Parkinson's disease dementia.",
+            "authors": [
+              "Larsson Victoria",
+              "Engedal Knut",
+              "Aarsland Dag",
+              "Wattmo Carina",
+              "Minthon Lennart"
+            ],
+            "journal": "Dementia and geriatric cognitive disorders",
+            "year": "2011",
+            "abstract": "To investigate quality of life (QOL) and the effect of memantine treatment in patients with Lewy body dementias.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22992546",
+            "title": "Pharmacological treatment of dementia.",
+            "authors": [
+              "Schwarz Stefan",
+              "Froelich Lutz",
+              "Burns Alistair"
+            ],
+            "journal": "Current opinion in psychiatry",
+            "year": "2012",
+            "abstract": "In this article, we discuss new data on currently licensed drugs for dementia and novel developments in the management of neuropsychiatric symptoms in patients with dementia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32484120",
+            "title": "Ethnic disparities in the uptake of anti-dementia medication in young and late-onset dementia.",
+            "authors": [
+              "Giebel Clarissa",
+              "Cations Monica",
+              "Draper Brian",
+              "Komuravelli Aravind"
+            ],
+            "journal": "International psychogeriatrics",
+            "year": "2023",
+            "abstract": "People with dementia can face barriers when trying to access care after a diagnosis, particularly in young-onset dementia (YOD). Little is known about the effects of ethnicity on the use of anti-dementia medication and variations between age groups. The aim of this study was to analyze national data on variations in the uptake of anti-dementia medication between people with YOD and late-onset dementia (LOD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20872929",
+            "title": "The effect of memantine on sleep behaviour in dementia with Lewy bodies and Parkinson's disease dementia.",
+            "authors": [
+              "Larsson Victoria",
+              "Aarsland Dag",
+              "Ballard Clive",
+              "Minthon Lennart",
+              "Londos Elisabet"
+            ],
+            "journal": "International journal of geriatric psychiatry",
+            "year": "2010",
+            "abstract": "Two common and characteristic sleep disturbances have been described in dementia with Lewy bodies (DLB) and Parkinson's disease dementia (PDD); excessive daytime sleepiness and REM sleep behaviour disorder (RBD). This study is an analysis of a secondary outcome measure of a larger study already reported, aimed to determine whether memantine has an effect on the sleep disturbances in DLB and PDD patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24993765",
+            "title": "Treatment effect of memantine on survival in dementia with Lewy bodies and Parkinson's disease with dementia: a prospective study.",
+            "authors": [
+              "Stubendorff Kajsa",
+              "Larsson Victoria",
+              "Ballard Clive",
+              "Minthon Lennart",
+              "Aarsland Dag"
+            ],
+            "journal": "BMJ open",
+            "year": "2014",
+            "abstract": "To investigate the effect on survival of treatment with memantine in patients with dementia with Lewy bodies (DLB) and Parkinson's disease with dementia (PDD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amantadine 與 Memantine 同屬非競爭性 NMDA 受體拮抗劑，理論上可：(1) 減少 LBD 中 α-synuclein 相關的突觸 NMDA 過度活化引發的興奮毒性損傷；(2) 透過多巴胺能活性緩解 LBD 的帕金森運動症狀。多項以 Memantine 為主體的 Phase 2/3/4 RCT（NCT00630500、NCT00855686）及多篇系統性回顧（PMID 26085043、24406251）提供機轉類效應間接支持。⚠️ 重要安全警示：LBD 患者對多巴胺能藥物存在神經精神不良反應風險（幻覺惡化），需嚴格監測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "X-linked intellectual disability-ataxia-apraxia syndrome",
+      "txgnn": {
+        "score": 0.977995216846466,
+        "rank": 17982
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 純預測，無任何臨床或文獻支持。X 染色體連鎖智能障礙合併共濟失調-失用症為罕見遺傳神經發育疾病，需先確認特定致病基因（XID 致病基因多樣）及分子機轉，再評估 NMDA 拮抗是否具合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "progressive supranuclear palsy-corticobasal syndrome",
+      "txgnn": {
+        "score": 0.9777325391769408,
+        "rank": 18100
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02994719",
+            "title": "Gait Pattern Analysis in Neurological Disease",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 120,
+            "start_date": "2016-03-01",
+            "completion_date": "2026-06-20",
+            "brief_summary": "The purpose of this study is to investigate whether speed-dependent measures of gait can be identified in patients with neurological conditions that affect gait, particularly in subjects with parkinsonian disorders.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "步態分析觀察性研究（Phase N/A），涵蓋多種神經疾病，無干預設計，僅提供患者步態特徵資料，無法支持 Amantadine 療效評估。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30051337",
+            "title": "Therapeutic Management of the Overlapping Syndromes of Atypical Parkinsonism.",
+            "authors": [
+              "Giagkou Nikolaos",
+              "Stamelou Maria"
+            ],
+            "journal": "CNS drugs",
+            "year": "2018",
+            "abstract": "Progressive supranuclear palsy, corticobasal degeneration and multiple system atrophy account for approximately 10% of neurodegenerative parkinsonism. Considerable clinical overlap exists between these disorders that extends to features considered characteristic of each disease. Clinical diagnostic criteria have attempted to increase the accuracy of clinical diagnosis as accurate diagnosis is necessary to inform prognosis and to facilitate the recognition of disease-modifying treatments. Current",
+            "classification": {
+              "study_type": "Review（非典型帕金森症候群治療管理）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PSP-CBS 為 tau 蛋白病變（tauopathy）所致之非典型帕金森症候群。Amantadine 的多巴胺促進及 NMDA 拮抗機轉在理論上可緩解多巴胺能相關運動症狀（步態凍結、肌張力異常），臨床實踐中常以 off-label 方式用於 PSP/CBS。PMID 30051337（2018）為非典型帕金森症候群治療管理敘述性回顧，提及 Amantadine 於 PSP/CBS 的症狀管理應用。NCT02994719 為觀察性步態分析研究，不提供療效數據。缺乏針對 PSP-CBS 的正式 RCT，tau 蛋白病變對 NMDA 拮抗的反應機轉尚未明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "X-linked intellectual disability-cerebellar hypoplasia syndrome",
+      "txgnn": {
+        "score": 0.969501495361328,
+        "rank": 21459
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 純預測，無任何臨床或文獻支持。X 染色體連鎖智能障礙合併小腦發育不全為先天性神經發育疾病，涉及腦部結構性缺陷，與 Amantadine 的突觸功能調節機轉缺乏合理介入點，不建議進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "Rasmussen subacute encephalitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "transaldolase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "transaldolase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "transaldolase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "myelitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "myelitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "myelitis"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "PLA2G6-associated neurodegeneration"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "fructose-1,6-bisphosphatase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "paralysis agitans, juvenile, of Hunt"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "Lewy body dementia"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "Lewy body dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "Lewy body dementia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "X-linked intellectual disability-ataxia-apraxia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "progressive supranuclear palsy-corticobasal syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "progressive supranuclear palsy-corticobasal syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "progressive supranuclear palsy-corticobasal syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amantadine",
+        "disease": "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

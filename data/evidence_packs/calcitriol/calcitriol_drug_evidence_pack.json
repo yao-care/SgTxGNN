@@ -1,0 +1,3006 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00136-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Calcitriol",
+    "drugbank_id": "DB00136",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "obsolete vitamin D deficiency",
+      "txgnn": {
+        "score": 0.9995552897453308,
+        "rank": 1060
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Calcitriol 本身即為維生素 D 活化代謝終產物，直接補充可繞過肝腎羥化步驟糾正維生素 D 效應缺乏。然本疾病術語標記為 'obsolete'（已廢棄本體論術語），資料庫中無任何臨床試驗或文獻對應。機轉關聯完整，但術語廢棄導致數據缺口，不代表無臨床意義，應對應至現行 ICD/SNOMED 術語（如 Vitamin D deficiency E55）重新檢索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "renal tubular acidosis",
+      "txgnn": {
+        "score": 0.999340832233429,
+        "rank": 1421
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32074694",
+            "title": "[The 475th case: renal tubular acidosis, renal failure, anemia, and lactic acidosis].",
+            "authors": [
+              "Chen G",
+              "Wu D",
+              "Li M X"
+            ],
+            "journal": "Zhonghua nei ke za zhi",
+            "year": "2020",
+            "abstract": "A 47-year-old female patient presented nausea and vomiting for half a year and elevated serum creatinine for 3 days. Proximal renal tubular acidosis (RTA) complicated with anemiawas confirmed after admission. Secondary factors, such as autoimmune disease, drugs, poison, monoclonal gammopathy, were excluded. Renal biopsy revealed acute interstitial nephritis. The patient was administrated with daily prednisone 50 mg, sodium bicarbonate 4 g, 3 times per day, erythropoietin 3 000 U, 2 times per wee",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6546310",
+            "title": "Renal tubular acidosis does not alter circulating values of calcitriol.",
+            "authors": [
+              "Chesney R W",
+              "Kaplan B S",
+              "Phelps M",
+              "DeLuca H F"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1984",
+            "abstract": "In 10 patients with renal tubular acidosis, seven with type I and three with Fanconi syndrome, simultaneous measurements of vitamin D metabolites and electrolytes were made. No marked abnormalities of calcidiol2, calcidiol3, 24,25(OH)2D, or calcitriol were found in these patients, whose mean serum HCO3 was 18 +/- 3 mM/L (SD). Further, no relationship between serum HCO3 and calcitriol could be found. These results suggest that either vitamin D deficiency may be required before any alterations in ",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7970647",
+            "title": "[Effect of calcitriol, a vitamin D compound, in bone disease associated with distal renal tubular acidosis].",
+            "authors": [
+              "Radó J",
+              "Pató E",
+              "Haris A",
+              "Balogh I"
+            ],
+            "journal": "Orvosi hetilap",
+            "year": "1994",
+            "abstract": "In a 47-year-old female patient distal renal tubular acidosis (dRTA) led to the development of osteomalacia following 13 years of the first episode of hypokalemic respiratory paralysis and 7 years of KHCO3 treatment. In spite of the musculoskeletal disability, intense bone pain and myopathy, the values of serum calcium (Ca++) and phosphorous (P) showed minimal deviation from the normal levels. The bone scintigraphy was the first indicator of the bone disease. As the disease progressed the serum ",
+            "classification": {
+              "study_type": "Clinical Study (non-RCT)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32936106",
+            "title": "Tenofovir-induced delayed nephro-osteo toxicity.",
+            "authors": [
+              "Kumar Bhargavi",
+              "Prabhakar Rajgokul",
+              "Thangavelu Saravanan"
+            ],
+            "journal": "The journal of the Royal College of Physicians of Edinburgh",
+            "year": "2020",
+            "abstract": "Tenofovir disoproxil fumarate (TDF) is the foundation nucleotide reverse-transcriptase inhibitor in the recommended first-line regimen for all naive human immunodeficciency virus-1 (HIV-1) patients whose age is more than 10 years and body weight is more than 30 kg. Although it has a good safety profile overall, nephrotoxicity is a concern and its overall incidence is 1-6% with a long period of clinical latency. Nephrotoxicity may manifest as either proximal renal tubule dysfunction in the form o",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1983808",
+            "title": "[Osteomalacia and renal tubular acidosis associated with analgesic abuse. A clinical case].",
+            "authors": [
+              "Valdivieso A",
+              "Flores F",
+              "Llach F",
+              "Felsenfeld A J",
+              "Massardo L"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1990",
+            "abstract": "Osteomalacia is a multifactorial bone disorder. Main causes are vitamin D deficiency and phosphorus depletion. Among patients with renal insufficiency the incidence of osteomalacia is variable and probable related to impairment of the synthesis of 1,25 dihydroxy-vitamin D3 (calcitriol). We report a patients with severe osteomalacia, hyperkalemic tubular acidosis, low serum calcitriol levels and insufficiency associated to a prolonged overuse of analgesic drugs. Differential diagnosis and pathoph",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8286838",
+            "title": "Metabolic bone disease (anticonvulsant osteomalacia) and renal tubular acidosis in tuberous sclerosis.",
+            "authors": [
+              "Radó J P",
+              "Haris A"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "1993",
+            "abstract": "The characteristics triad of tuberous sclerosis-adenoma sebaceum, mental deficiency and epilepsy-associated with distal-type renal tubular acidosis was combined with anticonvulsant osteomalacia in a 41-year-old woman. In addition to the specific bone lesions of tuberous sclerosis, the bone disease was caused by an adverse effect of a drug and possibly also by the renal disorder leading to significant musculoskeletal disability. In response to calcium carbonicum and 1-25-dihydroxyvitamin D therap",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6095003",
+            "title": "Renal tubular acidosis associated with vitamin D-resistant rickets. Role of phosphate depletion.",
+            "authors": [
+              "Minari M",
+              "Castellani A",
+              "Garella S"
+            ],
+            "journal": "Mineral and electrolyte metabolism",
+            "year": "1984",
+            "abstract": "3 children with vitamin D-resistant rickets (VDRR), and severe phosphate depletion had moderate metabolitic acidosis and evidence of impaired distal tubular acidifying mechanisms. Therapy with 1-alpha-OH-vitamin D3 and phosphate supplementation improved the clinical and radiological rachitic manifestations, and resulted in the normalization of systemic acid-base parameters as well as of tubular acidification. Profound phosphate depletion is another cause of acquired, reversible distal renal tubu",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32204545",
+            "title": "Protective Role of Vitamin D in Renal Tubulopathies.",
+            "authors": [
+              "Gembillo Guido",
+              "Cernaro Valeria",
+              "Siligato Rossella",
+              "Curreri Francesco",
+              "Catalano Antonino"
+            ],
+            "journal": "Metabolites",
+            "year": "2020",
+            "abstract": "Vitamin D is tightly linked with renal tubular homeostasis: the mitochondria of proximal convoluted tubule cells are the production site of 1α,25-dihydroxyvitamin D3. Patients with renal impairment or tubular injury often suffer from chronic inflammation. This alteration comes from oxidative stress, acidosis, decreased clearance of inflammatory cytokines and stimulation of inflammatory factors. The challenge is to find the right formula for each patient to correctly modulate the landscape of tre",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3807789",
+            "title": "Hypercalciuria and altered intestinal calcium absorption occurring independently of vitamin D in incomplete distal renal tubular acidosis.",
+            "authors": [
+              "Preminger G M",
+              "Sakhaee K",
+              "Pak C Y"
+            ],
+            "journal": "Metabolism: clinical and experimental",
+            "year": "1987",
+            "abstract": "Negative calcium balance and calcium nephrolithiasis are two sequelae of chronic metabolic acidosis. To establish the effects of acidosis on calcium and vitamin D metabolism, we have examined a group of nine patients with incomplete distal renal tubular acidosis. Patients were studied during a control phase and after eight months of potassium citrate treatment, 60 to 80 meq daily. Potassium citrate caused a significant decrease in urinary calcium. The fractional intestinal calcium absorption inc",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10910456",
+            "title": "Physician-induced hypocalcaemia, nephrocalcinosis, and incomplete distal renal tubular acidosis.",
+            "authors": [
+              "Brindzjuk M",
+              "Krupp G",
+              "Kettritz U",
+              "Luft F C"
+            ],
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "2000",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6895575",
+            "title": "Anticonvulsant-induced rickets associated with renal tubular acidosis and normal level of serum 1,25-dihydroxyvitamin D.",
+            "authors": [
+              "Ishitsu T",
+              "Matsuda I",
+              "Seino Y",
+              "Kann H"
+            ],
+            "journal": "American journal of diseases of children (1960)",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25618772",
+            "title": "Interactions of vitamin D and the proximal tubule.",
+            "authors": [
+              "Chesney Russell W"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2016",
+            "abstract": "Severe vitamin D deficiency (reduction in serum 25(OH)D concentration) in infants and children can cause features of the Fanconi syndrome, including phosphaturia, glycosuria, aminoaciduria, and renal tubular acidosis. This indicates that vitamin D and its metabolites influence proximal tubule function. Filtered 25(OH)D bound to vitamin D binding protein (DBP) is endocytosed by megalin-cubilin in the apical membrane. Intracellular 25(OH)D is metabolized to 1,25(OH)2D or calcitroic acid by 1-α-hyd",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34492747",
+            "title": "Genotype and phenotypic spectrum of vitamin D dependent rickets type 1A: our experience and systematic review.",
+            "authors": [
+              "Dodamani Manjunath Havalappa",
+              "Sehemby Manjeetkaur",
+              "Memon Saba Samad",
+              "Sarathi Vijaya",
+              "Lila Anurag R"
+            ],
+            "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+            "year": "2021",
+            "abstract": "Vitamin D dependent rickets type 1 (VDDR1) is a rare disease due to pathogenic variants in 1-α hydroxylase gene. We describe our experience with systematic review of world literature to describe phenotype and genotype.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2662305",
+            "title": "Calcitriol metabolism during chronic metabolic acidosis.",
+            "authors": [
+              "Langman C B"
+            ],
+            "journal": "Seminars in nephrology",
+            "year": "1989",
+            "abstract": "Chronic metabolic acidosis causes a profound disturbance in renal proximal tubule 1OHase activity through perturbation of the normal ionic and hormonal controls of the enzyme activity. A lack of enzyme stimulation in response to hypophosphatemia and a paradoxical response of increased 1OHase activity to increased extracellular phosphorus are the important extracellular markers of deranged P control of 1OHase activity during chronic metabolic acidosis. 1OHase activity is down-regulated during chr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39176318",
+            "title": "An Interesting Case of Acquired Renal Fanconi Syndrome.",
+            "authors": [
+              "Senthilnathan Subbiah",
+              "Nallusamy Gunasekaran",
+              "Varadaraj Priyadarshini"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Renal Fanconi syndrome (RFS) is a proximal tubular dysfunction characterized by abnormalities in the absorption of electrolytes and substances by the proximal tubule. It can manifest as proteinuria, glycosuria, aminoaciduria, phosphaturia, and proximal renal tubular acidosis (RTA) type 2. Heavy metal-induced nephrotoxicity from heavy metals such as iron, cadmium, mercury, and lead is a common risk factor for type 2 RTA. Environmental contamination or prolonged contact with pesticides, such as le",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2352031",
+            "title": "Effects of dietary acidification and potassium depletion on acid-base balance, mineral metabolism and renal function in adult cats.",
+            "authors": [
+              "Dow S W",
+              "Fettman M J",
+              "Smith K R",
+              "Hamar D W",
+              "Nagode L A"
+            ],
+            "journal": "The Journal of nutrition",
+            "year": "1990",
+            "abstract": "Effects of dietary potassium restriction, with or without dietary acidification, on acid-base balance, mineral metabolism and renal function were evaluated in 12 adult cats. Six cats were fed a potassium-restricted diet (0.2% potassium) for 8 wk, and six cats were fed the same potassium-restricted diet plus a dietary acidifier (0.8% NH4Cl) for 8 wk. Both groups of cats were then fed the same diet supplemented with potassium gluconate (0.7% dietary potassium) for an additional 4 wk. Renal functio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15068493",
+            "title": "Fanconi's syndrome in HIV+ adults: report of three cases and literature review.",
+            "authors": [
+              "Earle Karen E",
+              "Seneviratne Tara",
+              "Shaker Joseph",
+              "Shoback Dolores"
+            ],
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2004",
+            "abstract": "We diagnosed Fanconi's syndrome (phosphate depletion and dysfunction of the renal tubules) in three HIV(+) patients. This was temporally related to their HIV treatment. Physicians caring for patients with HIV should recognize the association of this rare syndrome with antiretroviral medications and monitor their patients carefully.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16129198",
+            "title": "Tubulointerstitial nephritis and Fanconi syndrome in primary biliary cirrhosis.",
+            "authors": [
+              "Lino Marie",
+              "Binaut Raynald",
+              "Noël Laure-Hélène",
+              "Patey Natacha",
+              "Rustin Pierre"
+            ],
+            "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+            "year": "2005",
+            "abstract": "Primary biliary cirrhosis is a chronic cholestatic liver disease of unknown cause that predominantly affects middle-aged women. Distal tubular acidosis is the main renal complication of primary biliary cirrhosis. Tubulointerstitial nephritis and Fanconi syndrome have been reported more rarely. We report on 2 patients with primary biliary cirrhosis who presented with tubulointerstitial nephritis and Fanconi syndrome and review similar cases published previously. Serum from 1 patient exerted an in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RTA 常伴隨低鈣血症與代謝性骨病（骨軟化症、佝僂病）。Calcitriol 透過 VDR 促進腸道鈣磷吸收、抑制繼發性甲亢，改善骨礦化缺陷。PMID 32204545（2020）直接論述維生素 D 對腎小管病變的保護角色；PMID 7970647（1994）報告 calcitriol 改善遠端 RTA 骨病。然 RTA 根本病因（H⁺排泄障礙）非 calcitriol 直接作用靶點，療效定位為骨病併發症次級預防。缺乏正式 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "familial isolated hypoparathyroidism due to impaired PTH secretion",
+      "txgnn": {
+        "score": 0.9980937838554382,
+        "rank": 3277
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PTH 缺乏使腎臟 1α-羥化酶（CYP27B1）活性降低，血清 calcitriol 不足，導致低鈣血症與高磷血症。外源性補充 calcitriol 直接替代 PTH 依賴性維生素 D 活化步驟，為甲狀旁腺功能低下症的核心治療。機轉關聯極強（酶產物替代療法），此治療原則廣泛適用於各類型甲低，但本特定基因亞型（isolated familial，PTH 分泌障礙）在資料庫中無臨床試驗或文獻紀錄，存在明顯數據缺口。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acromesomelic dysplasia, Campailla Martinelli type",
+      "txgnn": {
+        "score": 0.9978740215301514,
+        "rank": 3575
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "本症由 NPR2（Natriuretic Peptide Receptor B）突變引起，影響 CNP 訊號路徑及軟骨內骨化，屬罕見肢端肢中骨骼發育不良。Calcitriol 透過 VDR 調節骨礦化，但對 NPR2-CNP 路徑無直接作用。TxGNN 預測可能基於骨骼疾病知識圖譜的間接節點連結。無任何臨床試驗或文獻佐證，預測依據薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "craniofacial conodysplasia",
+      "txgnn": {
+        "score": 0.997818112373352,
+        "rank": 3640
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見顱面骨骼發育異常，分子機轉尚未完全闡明。Calcitriol 與本病的生物學關聯無文獻或理論基礎支持，預測完全依賴 TxGNN 知識圖譜的遠端路徑推斷。無臨床試驗、文獻及機轉依據，不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Dahlberg-Borer-Newcomer syndrome",
+      "txgnn": {
+        "score": 0.9975749850273132,
+        "rank": 3942
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28375869",
+            "title": "Hungry bone syndrome.",
+            "authors": [
+              "Jain Nishank",
+              "Reilly Robert F"
+            ],
+            "journal": "Current opinion in nephrology and hypertension",
+            "year": "2017",
+            "abstract": "In the United States, the number of parathyroidectomies among patients with chronic dialysis has remained stable in the last decade. A fall in serum calcium concentration is common postparathyroidectomy in patients with hyperparathyroidism, which usually resolves in 2-4 days. A severe drop in serum total calcium concentration less than 2.1 mmol/L and/or prolonged hypocalcemia for more than 4 days postparathyroidectomy is called hungry bone syndrome (HBS). Concomitant hypophosphatemia, hypomagnes",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36771474",
+            "title": "Effects of Vitamin D on Cardiovascular Risk and Oxidative Stress.",
+            "authors": [
+              "Renke Guilherme",
+              "Starling-Soares Bernardo",
+              "Baesso Thomaz",
+              "Petronio Rayssa",
+              "Aguiar Danilo"
+            ],
+            "journal": "Nutrients",
+            "year": "2023",
+            "abstract": "Vitamin D has been primarily studied as an important factor influencing bone and calcium metabolism. Metabolites of vitamin D are essential for whole-body calcium homeostasis, maintaining serum calcium levels within a narrow range by regulating this process in the bones and gut. Nevertheless, its deficiency is also related to increased risk of type 2 diabetes mellitus (T2DM), metabolic syndrome (MS), and cardiovascular disease (CVD)-with increased visceral adipose tissue and body mass index (BMI",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11195313",
+            "title": "Hypercalciuria.",
+            "authors": [
+              "Audran M",
+              "Legrand E"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2000",
+            "abstract": "Hypercalciuria is a biological syndrome defined as excretion in the urine of more than 0.1 mmol/kg/24 hours of calcium in the absence of dietary manipulation. A number of endocrine, renal, and bone diseases can cause hypercalciuria. Urinary calcium excretion is substantially influenced by dietary intakes of calcium, sodium, protein, carbohydrates, alcohol, and potassium: a poorly balanced diet can result in hypercalciuria. Recently, there has been a burst of interest in the molecular underpinnin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21490240",
+            "title": "Tumor-induced osteomalacia.",
+            "authors": [
+              "Chong William H",
+              "Molinolo Alfredo A",
+              "Chen Clara C",
+              "Collins Michael T"
+            ],
+            "journal": "Endocrine-related cancer",
+            "year": "2011",
+            "abstract": "Tumor-induced osteomalacia (TIO) is a rare and fascinating paraneoplastic syndrome in which patients present with bone pain, fractures, and muscle weakness. The cause is high blood levels of the recently identified phosphate and vitamin D-regulating hormone, fibroblast growth factor 23 (FGF23). In TIO, FGF23 is secreted by mesenchymal tumors that are usually benign, but are typically very small and difficult to locate. FGF23 acts primarily at the renal tubule and impairs phosphate reabsorption a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16880407",
+            "title": "Topical vitamin D3 and low-calcemic analogs induce thymic stromal lymphopoietin in mouse keratinocytes and trigger an atopic dermatitis.",
+            "authors": [
+              "Li Mei",
+              "Hener Pierre",
+              "Zhang Zhikun",
+              "Kato Shigeaki",
+              "Metzger Daniel"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2006",
+            "abstract": "We have demonstrated that cytokine thymic stromal lymphopoietin (TSLP), whose expression is rapidly induced upon keratinocyte-selective ablation of retinoid X receptors (RXRs) -alpha and -beta in the mouse (RXRalphabeta(ep-/-) mice), plays a key role in initiating a skin and systemic atopic dermatitis-like phenotype. We show here that topical application of the physiologically active ligand [1alpha,25-(OH)(2)D(3); calcitriol] of the vitamin D receptor, or of its low-calcemic analog MC903 (calcip",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1668641",
+            "title": "The osteomalacias.",
+            "authors": [
+              "Caniggia A"
+            ],
+            "journal": "Annali italiani di medicina interna : organo ufficiale della Societa italiana di medicina interna",
+            "year": "1991",
+            "abstract": "Osteomalacia is characterized by large osteoid seams and a preserved volume of bone trabeculae. The mineralization of newly formed bone requires adequate concentrations of calcium and phosphate: the Ca.P product has been regarded as a useful, empirical diagnostic test of osteomalacia. It decreases in patients with osteomalacia mainly because they have very low plasma phosphate levels. At present total body bone mineral and total body bone density can be directly measured by whole body absorptiom",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30665552",
+            "title": "Causes and pathophysiology of hypoparathyroidism.",
+            "authors": [
+              "Cianferotti Luisella",
+              "Marcucci Gemma",
+              "Brandi Maria Luisa"
+            ],
+            "journal": "Best practice & research. Clinical endocrinology & metabolism",
+            "year": "2018",
+            "abstract": "Hypoparathyroidism, a disorder characterized by hypocalcemia ensuing from inadequate parathyroid hormone secretion, is a rather rare disorder caused by multiple etiologies. When not caused by inadvertent damage or removal of the parathyroids during neck surgery, it is usually genetically determined. Epidemiological figures of this disease are still scarce and mainly limited to countries where non-anonymous databases are available and to surgical case series. Both the surgical and non-surgical fo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18650515",
+            "title": "Clinical practice. Hypoparathyroidism.",
+            "authors": [
+              "Shoback Dolores"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2008",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7752498",
+            "title": "[Pseudohypoparathyroidism].",
+            "authors": [
+              "Yamamoto M",
+              "Akatsu T"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1995",
+            "abstract": "Pseudohypoparathyroidism (PsH) is a disease (or syndrome) characterized by biochemical abnormalities of hypoparathyroidism, increased serum PTH levels and the resistance to exogenous PTH. Since the first description of this disease by Albright et al, there has been substantial progress in understanding the pathogenesis of PTH resistance and the genetic basis for this disease. The differential diagnosis includes other forms of hypoparathyroidism, especially idiopathic hypoparathyroidism. Normocal",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38044258",
+            "title": "Inherited fibroblast growth factor 23 excess.",
+            "authors": [
+              "Cherian Kripa Elizabeth",
+              "Paul Thomas Vizhalil"
+            ],
+            "journal": "Best practice & research. Clinical endocrinology & metabolism",
+            "year": "2024",
+            "abstract": "Syndromes of inherited fibroblast growth factor 23 (FGF-23) excess encompass a wide spectrum that includes X-linked hypophosphataemia (XLH), autosomal dominant and recessive forms of rickets as well as various syndromic conditions namely fibrous dysplasia/McCune Albright syndrome, osteoglophonic dysplasia, Jansen's chondrodysplasia and cutaneous skeletal hypophosphataemia syndrome. A careful attention to patient symptomatology, family history and clinical features, supported by appropriate labor",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26578366",
+            "title": "Calcitriol attenuates cardiac remodeling and dysfunction in a murine model of polycystic ovary syndrome.",
+            "authors": [
+              "Gao Ling",
+              "Cao Jia-Tian",
+              "Liang Yan",
+              "Zhao Yi-Chao",
+              "Lin Xian-Hua"
+            ],
+            "journal": "Endocrine",
+            "year": "2016",
+            "abstract": "Polycystic ovary syndrome (PCOS) is a complex reproductive and metabolic disorder affecting 10 % of reproductive-aged women, and is well associated with an increased prevalence of cardiovascular risk factors. However, there are few data concerning the direct association of PCOS with cardiac pathologies. The present study aims to investigate the changes in cardiac structure, function, and cardiomyocyte survival in a PCOS model, and explore the possible effect of calcitriol administration on these",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25727384",
+            "title": "Cardiorenal Syndrome and the Role of the Bone-Mineral Axis and Anemia.",
+            "authors": [
+              "Charytan David M",
+              "Fishbane Steven",
+              "Malyszko Jolanta",
+              "McCullough Peter A",
+              "Goldsmith David"
+            ],
+            "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+            "year": "2015",
+            "abstract": "The association between chronic kidney disease (CKD) and cardiovascular disease (CVD) is well established, and there is mounting evidence of interorgan cross talk that may accelerate pathologic processes and the progression of organ dysfunction in both systems. This process, termed cardiorenal syndrome (CRS) by the Acute Dialysis Quality Initiative, is considered a major health problem: patients with CKD and CVD are at much higher risk of mortality than patients with either condition alone. To d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26813509",
+            "title": "[Renal hypophosphatemia:pathophysiology and treatment].",
+            "authors": [
+              "Sekine Takashi"
+            ],
+            "journal": "Clinical calcium",
+            "year": "2016",
+            "abstract": "Serum level of phosphate is regulated by the kidney, especially proximal tubule. The transcellular transport of phosphate in the proximal tubule is mediated via Na dependent transporters, i.e., NPT2a and NPT2b at the luminal membrane, and unknown channel at the basolateral side. The transport of phosphate via NPT2a and NPT2b is further regulated by factors, such as PTH, FGF23, and 1,25(OH)(2)D. Several hereditary diseases that cause hypophoshatemia specically are known. In addition, dysfunction ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38233267",
+            "title": "Calcitriol ameliorates motor deficits and prolongs survival of Chrne-deficient mouse, a model for congenital myasthenic syndrome, by inducing Rspo2.",
+            "authors": [
+              "Ohkawara Bisei",
+              "Tomita Hiroyuki",
+              "Inoue Taro",
+              "Zhang Shaochuan",
+              "Kanbara Shunsuke"
+            ],
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2024",
+            "abstract": "Signal transduction at the neuromuscular junction (NMJ) is compromised in a diverse array of diseases including congenital myasthenic syndromes (CMS). Germline mutations in CHRNE encoding the acetylcholine receptor (AChR) ε subunit are the most common cause of CMS. An active form of vitamin D, calcitriol, binds to vitamin D receptor (VDR) and regulates gene expressions. We found that calcitriol enhanced MuSK phosphorylation, AChR clustering, and myotube twitching in co-cultured C2C12 myotubes an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29128315",
+            "title": "Parathyroid hormone, calcidiol, calcitriol and adverse events in the acute coronary syndrome.",
+            "authors": [
+              "Ramos Ruiz P",
+              "Jaulent Huertas L",
+              "Castañeda Sancirilo M",
+              "Martínez Díaz J J",
+              "Clavel Ruipérez G"
+            ],
+            "journal": "Medicina intensiva",
+            "year": "2018",
+            "abstract": "To know the clinical profile as well as the prognostic significance of elevated levels of parathyroid hormone (PTH) in patients admitted for acute coronary syndrome (ACS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1377195",
+            "title": "Differentiation therapy.",
+            "authors": [
+              "Paquette R L",
+              "Koeffler H P"
+            ],
+            "journal": "Hematology/oncology clinics of North America",
+            "year": "1992",
+            "abstract": "A variety of compounds are able to induce myeloid leukemia cells to differentiate into morphologically and functionally mature cells. Vitamin D derivatives, retinoids, interferons, and polar-planar compounds are agents that demonstrate such activity in vitro and have been employed as therapy for the myelodysplastic syndromes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32504139",
+            "title": "New Therapies for Hypophosphatemia-Related to FGF23 Excess.",
+            "authors": [
+              "Athonvarangkul Diana",
+              "Insogna Karl L"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2021",
+            "abstract": "FGF23 is a hormone produced by osteocytes in response to an elevation in the concentration of extracellular phosphate. Excess production of FGF23 by bone cells, or rarely by tumors, is the hormonal basis for several musculoskeletal syndromes characterized by hypophosphatemia due to renal phosphate wasting. FGF23-dependent chronic hypophosphatemia causes rickets and osteomalacia, as well as other skeletal complications. Genetic disorders of FGF23-mediated hypophosphatemia include X-linked hypopho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30888661",
+            "title": "Hutchinson-Gilford Progeria Syndrome: Challenges at Bench and Bedside.",
+            "authors": [
+              "Kreienkamp Ray",
+              "Gonzalo Susana"
+            ],
+            "journal": "Sub-cellular biochemistry",
+            "year": "2019",
+            "abstract": "The structural nuclear proteins known as \"lamins\" (A-type and B-type) provide a scaffold for the compartmentalization of genome function that is important to maintain genome stability. Mutations in the LMNA gene -encoding for A-type lamins- are associated with over a dozen of degenerative disorders termed laminopathies, which include muscular dystrophies, lipodystrophies, neuropathies, and premature ageing diseases such as Hutchinson Gilford Progeria Syndrome (HGPS). This devastating disease is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3909812",
+            "title": "Renal osteodystrophy--pathogenesis and treatment.",
+            "authors": [
+              "Cushner H M",
+              "Adams N D"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1985",
+            "abstract": "Histologic bone changes of osteitis fibrosa and osteomalacia are commonly present in patients with end-stage renal disease. Although many patients are not symptomatic from these bone changes, some patients are severely disabled. Altered metabolism of vitamin D, calcium, phosphorus, and parathyroid hormone occurs in renal failure and contributes to the development of uremic bone disease. This article reviews the current theories of pathogenesis and treatment of renal osteodystrophy. In addition, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28303481",
+            "title": "Morphea and Eosinophilic Fasciitis: An Update.",
+            "authors": [
+              "Mertens Jorre S",
+              "Seyger Marieke M B",
+              "Thurlings Rogier M",
+              "Radstake Timothy R D J",
+              "de Jong Elke M G J"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2017",
+            "abstract": "Morphea, also known as localized scleroderma, encompasses a group of idiopathic sclerotic skin diseases. The spectrum ranges from relatively mild phenotypes, which generally cause few problems besides local discomfort and visible disfigurement, to subtypes with severe complications such as joint contractures and limb length discrepancies. Eosinophilic fasciitis (EF, Shulman syndrome) is often regarded as belonging to the severe end of the morphea spectrum. The exact driving mechanisms behind mor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dahlberg-Borer-Newcomer 症候群（即 HDR/Barakat 症候群，GATA3 突變）以甲狀旁腺功能低下、感音神經性耳聾及腎臟發育異常三聯症為特徵。Calcitriol 適用於其甲狀旁腺功能低下成分的低鈣血症管理（機轉同 PTH 缺乏）。現有文獻（PMID 30665552, 18650515）均為甲低一般性文獻，無針對本特定症候群的 calcitriol 臨床試驗或直接研究。屬間接外推應用，安全性與劑量需個體化評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hereditary hypophosphatemic rickets",
+      "txgnn": {
+        "score": 0.9927727580070496,
+        "rank": 8408
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01526304",
+            "title": "A Cross-Sectional Study To Investigate The Role Of FGF23, Klotho, And Sclerostin In Kidney Stone Formers",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2012-01",
+            "completion_date": "2014-01",
+            "brief_summary": "Kidney stones are very common in industrialized countries and the lifetime risk is about 10 to 15% in this population. Kidney stones are composed of inorganic and organic components. Calcium containing stones are the most common stone type accounting for more than 80% of kidney stones. Many factors predispose or contribute to the development of kidney stones, including genetic variants or mutations, diet, environmental factors, and behavior. To date, little is known on fibroblast growth factor (",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "FGF23/Klotho/Sclerostin 腎結石橫斷面研究，非干預性，間接提供磷代謝相關背景資訊。"
+            }
+          },
+          {
+            "nct_id": "NCT06046820",
+            "title": "The ENERGY 3 Study: A Randomized, Controlled, Open-Label, Phase 3 Study to Evaluate the Efficacy and Safety of INZ-701 in Children With Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) Deficiency",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 27,
+            "start_date": "2023-11-05",
+            "completion_date": "2026-02",
+            "brief_summary": "The primary purpose of Study INZ701-106 (The ENERGY 3 Study) is to assess the efficacy and safety of INZ-701 in children with ENPP1 Deficiency.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "ENERGY 3 Phase 3 XLH 試驗（可能為 burosumab），提供疾病治療背景對照，n=27，正在進行。間接佐證 calcitriol 作為對照/輔助的臨床位置。"
+            }
+          },
+          {
+            "nct_id": "NCT04846647",
+            "title": "Study of the Inappropriate Secretion of FGF23 in Patients Followed in Hospital in a Context of Hypophosphatemia",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 260,
+            "start_date": "2021-10-05",
+            "completion_date": "2022-04-25",
+            "brief_summary": "The discovery of FGF23, the missing link in the long researched and finally found phosphate metabolism, marked a turning point in the understanding and physiopathology of specific hypophosphatemia. By inhibiting the renal reabsorption of phosphate and the production of calcitriol, FGF23 behaves like a hypophosphatemia hormone.\n\nHypersecretion of FGF23 can occur in the case of genetic abnormalities (X-linked hypophosphatemic vitamin-resistant rickets, recessive or dominant hypophosphatemic ricket",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "FGF23 分泌異常觀察研究，n=260，已完成。提供低磷血症機轉背景知識，支持 calcitriol 介入的病理生理學依據。"
+            }
+          },
+          {
+            "nct_id": "NCT00844740",
+            "title": "Effect of Cinacalcet on the Long-term Treatment of Familial Hypophosphatemic Rickets",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2009-03-01",
+            "completion_date": "2012-03-01",
+            "brief_summary": "Currently, large oral doses of phosphate and 1,25(OH)2D (calcitriol) are the standard treatment of patients with familial hypophosphatemic rickets (XLH). While this therapy is effective in healing the rickets, it is often limited by development of complications due to the high dose of medications required to achieve cure. Among them are the development of calcifications in the kidneys and secondary hyperparathyroidism (HPT) which in some patients may cause complications like high blood calcium l",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Cinacalcet 用於家族性低磷血性佝僂病，測試不同機轉藥物，已撤回（n=0），相關性最低。"
+            }
+          },
+          {
+            "nct_id": "NCT06921720",
+            "title": "ATP (Adenosine Triphosphate) Concentration Measurement by Phosphorus-31 Spectroscopy in Phosphate Diabetes",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 65,
+            "start_date": "2025-05-01",
+            "completion_date": "2027-05-01",
+            "brief_summary": "Phosphate diabetes is defined by urinary phosphate wasting due to impaired tubular reabsorption. It can be classified based on either a genetic or acquired origin. Chronic hypophosphatemia causes rickets in children, leading to growth disorders, bone deformities, and bone pain. In adults, it results in osteomalacia, pseudofractures, as well as muscle fatigue and weakness during exertion.\n\nX-linked hypophosphatemia (XLH) is a common cause of hereditary rickets linked to renal phosphate loss due t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "磷酸鹽疾病 ATP 濃度磷-31 光譜診斷研究，尚未招募，為診斷性研究，與 calcitriol 療效無直接關係。"
+            }
+          },
+          {
+            "nct_id": "NCT03748966",
+            "title": "Calcitriol Monotherapy for X-Linked Hypophosphatemia: Effects on Mineral Ions, Growth and Skeletal Parameters",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 20,
+            "start_date": "2019-03-28",
+            "completion_date": "2026-05",
+            "brief_summary": "Children and adults with XLH recruited will be treated with calcitriol alone (without phosphate supplementation) for one year, during which the calcitriol dose will be escalated during the first 3 months of therapy. The investigators hypothesize that treatment of adults and children with XLH alone will improve serum phosphate levels and skeletal mineralization without causing an increase in kidney calcifications. The study will also examine if calcitriol therapy will improve growth in children.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接評估 Calcitriol 單療 X 連鎖低磷血症（XLH），EARLY_PHASE1，n=20，ACTIVE_NOT_RECRUITING，最高相關性。為本適應症唯一 calcitriol 專一性試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT03820518",
+            "title": "Comparing the Effectiveness of High or Low Dose of Active Vitamin D Combined With Neutral Phosphate in Children With X-linked Hypophosphatemia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2017-01-01",
+            "completion_date": "2022-12-31",
+            "brief_summary": "X-linked hypophosphatemia (XLH) is the most common form of heritable rickets. Current treatments include active vitamin D metabolites (e.g. calcitriol) and phosphate salts. There is no consistent weight-based dosing of calcitriol and phosphate now. The primary objective of this study is to establish the efficacy of different dose of calcitriol combined with neutral phosphate in children with XLH.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 試驗比較高低劑量活性維生素 D（calcitriol/alfacalcidol）聯合中性磷酸鹽，n=100，UNKNOWN 狀態仍提供 Phase 4 層級直接藥物比較證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36446330",
+            "title": "Rickets, Vitamin D, and Ca/P Metabolism.",
+            "authors": [
+              "Miller Walter L",
+              "Imel Erik A"
+            ],
+            "journal": "Hormone research in paediatrics",
+            "year": "2022",
+            "abstract": "Rickets was a major public health problem dating from Roman times, and medical descriptions of rickets date from the 17th century. Sniadecki first advocated treatment by exposure to sunshine in 1822; contemporaneously, several British physicians advocated use of cod liver oil. Both approaches were successful. Work in 1924 showed that exposure to UV light endowed fats and other foods with antirachitic properties. Vitamins D2 and D3, the antirachitic agent in cod liver oil, were, respectively, pro",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39181153",
+            "title": "X-linked hypophosphataemia.",
+            "authors": [
+              "Kamenický Peter",
+              "Briot Karine",
+              "Munns Craig F",
+              "Linglart Agnès"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2024",
+            "abstract": "X-linked hypophosphataemia is a genetic disease caused by defects in the phosphate regulating endopeptidase homolog X-linked (PHEX) gene and is characterised by X-linked dominant inheritance. The main consequence of PHEX deficiency is increased production of the phosphaturic hormone fibroblast growth factor 23 (FGF23) in osteoblasts and osteocytes. Chronic exposure to circulating FGF23 is responsible for renal phosphate wasting and decreased synthesis of calcitriol, which decreases intestinal ph",
+            "classification": {
+              "study_type": "Systematic Review/Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38988138",
+            "title": "Hypophosphatemic rickets and short stature.",
+            "authors": [
+              "Davis Kelli",
+              "Imel Erik A",
+              "Kelley Jennifer"
+            ],
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2024",
+            "abstract": "An 18-month-old male presented with gross motor delay and poor growth (weight z-score -2.21, length z-score -4.26). Radiographs showed metaphyseal irregularities suggesting metaphyseal dysplasia and sagittal craniosynostosis. Biochemical evaluation supported hypophosphatemic rickets [serum phosphorus 2.3 mg/dL (reference range (RR) 4.3-6.8), alkaline phosphatase 754 unit/L (RR 156-369)] due to renal phosphate wasting (TmP/GFR 4.3 mg/dL, normal for age 4.3-6.8), with C-terminal fibroblast growth ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17117305",
+            "title": "Hypophosphatemic rickets and osteomalacia.",
+            "authors": [
+              "de Menezes Filho Hamilton",
+              "de Castro Luiz Claudio G",
+              "Damiani Durval"
+            ],
+            "journal": "Arquivos brasileiros de endocrinologia e metabologia",
+            "year": "2006",
+            "abstract": "The hypophosphatemic conditions that interfere in bone mineralization comprise many hereditary or acquired diseases, all of them sharing the same pathophysiologic mechanism: reduction in the phosphate reabsorption by the renal tubuli. This process leads to chronic hyperphosphaturia and hypophosphatemia, associated with inappropriately normal or low levels of calcitriol, causing osteomalacia or rickets in children and osteomalacia in adults. X-linked hypophosphatemic rickets, autosomal-dominant h",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39853071",
+            "title": "Hypophosphatemic Rickets as a Key Sign for the Diagnosis of Hereditary Tyrosinemia Type 1: Case Reports and Narrative Review of the Literature.",
+            "authors": [
+              "Tezanos-Pinto D Andrés de",
+              "Godoy P Marcela",
+              "Arias P Carolina",
+              "Romero M Patricio",
+              "Cabello A Juan F"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "2024",
+            "abstract": "Hereditary tyrosinemia type 1 (HT-1) is an inborn error of metabolism caused by a defect in tyrosine (tyr) degradation. This defect results in the accumulation of succinylacetone (SA), causing liver failure with a high risk of hepatocarcinoma and kidney injury, leading in turn to Fanconi syndrome with urine loss of phosphate and secondary hypophosphatemic rickets (HR). HT-1 diagnosis is usually made in infants with acute or chronic liver failure or by neonatal screening programs. HR is rarely de",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7900834",
+            "title": "X-linked hypophosphatemic rickets and the murine Hyp homologue.",
+            "authors": [
+              "Hruska K A",
+              "Rifas L",
+              "Cheng S L",
+              "Gupta A",
+              "Halstead L"
+            ],
+            "journal": "The American journal of physiology",
+            "year": "1995",
+            "abstract": "Recent studies have reported the cloning of several sodium-dependent phosphate cotransport proteins from the apical membrane of proximal tubules of several species. The human proximal tubule apical sodium-phosphate cotransport protein maps to chromosome 5 in the 5q35 region, indicating that this gene is not a candidate for the genetic defect leading to X-linked hypophosphatemia (XLH). Studies in what is thought to be the murine XLH homologue, Hyp, also indicate that the proximal tubular phosphat",
+            "classification": {
+              "study_type": "Clinical/Basic Science Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35226335",
+            "title": "Growth in height and body proportion from birth to adulthood in hereditary hypophosphatemic rickets: a retrospective cohort study.",
+            "authors": [
+              "Del Pino M",
+              "Viterbo G L",
+              "Arenas M A",
+              "Perez Garrido N",
+              "Ramirez P"
+            ],
+            "journal": "Journal of endocrinological investigation",
+            "year": "2022",
+            "abstract": "Patients with hereditary hypophosphatemic rickets are short and disproportionate and very little information is available on segmental growth, but the body disproportion at adulthood leads us to think that the growth velocity of legs is slower.",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11778363",
+            "title": "[Familial hypophosphatemic rickets].",
+            "authors": [
+              "Reusz G"
+            ],
+            "journal": "Orvosi hetilap",
+            "year": "2001",
+            "abstract": "Familiar hypophosphatemic rickets (FHR) is characterized by isolated defect of renal phosphate reabsorption, hypophosphataemia, rickets and poor growth. In untreated cases parathyroid hormone and calcitriol levels are normal. FHR is caused by mutations of the PHEX gene encoding a zinc-binding metalloprotease enzyme. PHEX is expressed in bones and the parathyroid gland but not in the kidney. The gene product is involved in the inactivation of a phosphate regulating hormone (phosphatonin). The pre",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40295317",
+            "title": "The Diagnosis and Therapy of XLH.",
+            "authors": [
+              "Böckmann Ineke",
+              "Haffner Dieter"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2025",
+            "abstract": "X-linked hypophosphatemia is a rare genetic disease caused by pathogenic variants in the PHEX (phosphate-regulating endopeptidase homolog X-linked) gene with X-linked dominant inheritance that causes metabolic bone disease and other severe complications. PHEX dysfunction results in increased production and secretion of the phosphaturic hormone fibroblast growth factor 23 (FGF23) from bone. The consequences of FGF23 excess are renal phosphate wasting and decreased calcitriol synthesis, leading to",
+            "classification": {
+              "study_type": "Clinical Review/Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3796683",
+            "title": "\"Idiopathic\" hypercalciuria and hereditary hypophosphatemic rickets. Two phenotypical expressions of a common genetic defect.",
+            "authors": [
+              "Tieder M",
+              "Modai D",
+              "Shaked U",
+              "Samuel R",
+              "Arie R"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1987",
+            "abstract": "Among 59 closely related members of one Bedouin tribe, we identified 9 who had the characteristic features of hereditary hypophosphatemic rickets with hypercalciuria (HHRH). We found \"idiopathic\" hypercalciuria in 21 of the 50 asymptomatic members. The biochemical abnormalities observed in these 21 subjects were qualitatively similar to those in the 9 with HHRH, but were quantitatively milder. The urinary calcium concentration was 0.43 +/- 0.14 mg per milligram of creatinine (mean +/- SD) in the",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31392510",
+            "title": "Mineralized tissues in hypophosphatemic rickets.",
+            "authors": [
+              "Robinson Marie-Eve",
+              "AlQuorain Haitham",
+              "Murshed Monzur",
+              "Rauch Frank"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2020",
+            "abstract": "Hypophosphatemic rickets is caused by renal phosphate wasting that is most commonly due to X-linked dominant mutations in PHEX. PHEX mutations cause hypophosphatemia indirectly, through the increased expression of fibroblast growth factor 23 (FGF23) by osteocytes. FGF23 decreases renal phosphate reabsorption and thereby increases phosphate excretion. The lack of phosphate leads to a mineralization defect at the level of growth plates (rickets), bone tissue (osteomalacia), and teeth, where the de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29292875",
+            "title": "Spontaneous Growth and Effect of Early Therapy with Calcitriol and Phosphate in X-linked Hypophosphatemic Rickets.",
+            "authors": [
+              "Cagnoli Michele",
+              "Richter Roland",
+              "Böhm Peter",
+              "Knye Kathrin",
+              "Empting Susann"
+            ],
+            "journal": "Pediatric endocrinology reviews : PER",
+            "year": "2017",
+            "abstract": "Whereas nutritional vitamin D deficient rickets affects many people world-wide, X-linked hypophosphatemic rickets (XLH, MIM 307800) has a prevalence of only 1:25.000. Like other rare diseases burden of disease in XLH and the effect of the current standard of care are inadequately described. Only few height data of untreated patients with XLH have been published. Here we report on height before start of therapy of 127 patients with XLH from 49 centres. One investigator collected all data from pat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36705686",
+            "title": "Genotypic Spectrum and its Correlation with Alopecia and Clinical Response in Hereditary Vitamin D Resistant Rickets: Our Experience and Systematic Review.",
+            "authors": [
+              "Dodamani Manjunath Havalappa",
+              "Lila Anurag Ranjan",
+              "Memon Saba Samad",
+              "Sarathi Vijaya",
+              "Arya Sneha"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2023",
+            "abstract": "Alopecia in hereditary vitamin D resistant rickets (HVDRR) has some correlation with severe rickets and poor overall response. However, these observations are based on small series. Hence, we aim to assess the genotypic spectrum of HVDRR and its correlation with alopecia and clinical response. Seven genetically-proven HVDDR patients from five unrelated families and 119 probands from systematic review were analysed retrospectively for phenotypic and genotypic data and overall response to therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26813507",
+            "title": "[FGF23 related hypophosphatemic rickets:current therapy and unresolved issues].",
+            "authors": [
+              "Harada Daisuke",
+              "Namba Noriyuki"
+            ],
+            "journal": "Clinical calcium",
+            "year": "2016",
+            "abstract": "FGF23-related hypophosphatemic rickets is basically treated with active vitamin D and phosphorus. The treatment goals are to minimize bone deformity and improve adult height in children, and to relieve pain and decrease osteomalacia in adult. However, since they do not target the underlying molecular defect, bone deformity can worsen during growth and adult height is suboptimal restricted. Many adult patients suffer from enthesopathy leading to symptoms such as spinal cord compression and debili",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38337700",
+            "title": "Rickets Types and Treatment with Vitamin D and Analogues.",
+            "authors": [
+              "Biasucci Giacomo",
+              "Donini Valentina",
+              "Cannalire Giuseppe"
+            ],
+            "journal": "Nutrients",
+            "year": "2024",
+            "abstract": "The definition of \"Vitamin D\" encompasses a group of fat-soluble steroid compounds of different origins with similar chemical structures and the same biological effects. Vitamin D deficiency and/or a defect in the process of its synthesis or transport predispose individuals to several types of rickets. In addition to cholecalciferol, ergocalciferol, and vitamins D3 and D2, there are also active metabolites for the treatment of this condition which are commercially available. Calcitriol and aphac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6252463",
+            "title": "Bone response to phosphate salts, ergocalciferol, and calcitriol in hypophosphatemic vitamin D-resistant rickets.",
+            "authors": [
+              "Glorieux F H",
+              "Marie P J",
+              "Pettifor J M",
+              "Delvin E E"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1980",
+            "abstract": "We treated 11 children with vitamin D-resistant rickets with a phosphate mixture either alone (1.2 to 3.6 g per day) or combined with ergocalciferol (vitamin D2, to 50 x 103 IU per day) or with calcitriol (1,25-dihydroxyvitamin D3, 0.25 to 1 microgram per day). Serum calcitriol concentrations were normal in all patients. Calcitriol therapy circulating levels of the hormone to values above normal and increased intestinal phosphate absorption. In some patients this regimen decreased the need for p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39026484",
+            "title": "Hereditary vitamin D resistant rickets (HVDRR) case series: phenotype, genotype, conventional treatment, and adjunctive cinacalcet therapy.",
+            "authors": [
+              "Ahmad Noman",
+              "Ansari Sundus A",
+              "Aleysae Nabil A",
+              "Heaphy Emily L G",
+              "Sobaihi Mrouge M"
+            ],
+            "journal": "Pediatric endocrinology, diabetes, and metabolism",
+            "year": "2024",
+            "abstract": "Hereditary vitamin D resistant rickets (HVDRR) is a rare autosomal recessive disorder marked by end-organ resistance of 1,25-dihydroxyvitamin D secondary to various mutations in the vitamin D receptor gene. The currently accepted treatment modality involves bypassing the affected receptors in the gut with high-dose intravenous calcium. In a few limited case reports, cinacalcet, a calcimimetic, has been used as an adjunctive therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3839245",
+            "title": "Healing of bone disease in X-linked hypophosphatemic rickets/osteomalacia. Induction and maintenance with phosphorus and calcitriol.",
+            "authors": [
+              "Harrell R M",
+              "Lyles K W",
+              "Harrelson J M",
+              "Friedman N E",
+              "Drezner M K"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1985",
+            "abstract": "Although conventional therapy (pharmacologic doses of vitamin D and phosphorus supplementation) is usually successful in healing the rachitic bone lesion in patients with X-linked hypophosphatemic rickets, it does not heal the coexistent osteomalacia. Because serum 1,25-dihydroxyvitamin D levels are inappropriately low in these patients and high calcitriol concentrations may be required to heal the osteomalacia, we chose to treat five affected subjects with high doses of calcitriol (68.2 +/- 10.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19122271",
+            "title": "[Rickets].",
+            "authors": [
+              "Yasuda Toshiyuki"
+            ],
+            "journal": "Clinical calcium",
+            "year": "2009",
+            "abstract": "This review mainly describes on childhood vitamin D deficiency and x-linked hypophosphatemic rickets. Though nutritional state has improved dramatically, 25 (OH) D level, which is a good indicator of vitamin D status, is marginal especially in winter, and vitamin D deficiency is not rare in Japan. The PTH/Vitamin D axis does not account for the entire picture of x-linked hypophosphatemic rickets, and a new bone (osteocyte) -renal metabolic milieu has emerged and loss of PHEX, mostly expressed in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2492895",
+            "title": "Familial hypophosphatemic rickets: bone mass measurements in children following therapy with calcitriol and supplemental phosphate.",
+            "authors": [
+              "Block J E",
+              "Piel C F",
+              "Selvidge R",
+              "Genant H K"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "1989",
+            "abstract": "Familial hypophosphatemic rickets is characterized by defective skeletal mineralization resulting in abnormal growth and development. The pathologic and radiologic correlates of this syndrome have been given some investigation, but the effect of this mineralization defect on bone mineral density has not been adequately assessed. We measured axial and appendicular bone mineral in 17 children (mean age 5.59 +/- 4.87) with familial hypophosphatemia at baseline and at 6-month intervals after initiat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "遺傳性低磷血性佝僂病（主要為 XLH，PHEX 突變）由 FGF23 過量分泌導致腎磷消耗及 1α-羥化酶抑制，形成低磷血症與相對性 calcitriol 不足。外源性 calcitriol 補充可改善腸道鈣磷吸收、促進骨礦化，為傳統標準輔助治療。NCT03748966 直接評估 calcitriol 單療 XLH（Phase 1）；NCT03820518（Phase 4）比較不同劑量活性維生素 D 配合磷酸鹽的療效。Burosumab（抗 FGF23 單株抗體）已成部分地區新標準，但 calcitriol 於資源受限地區仍為一線選項。主要安全顧慮：高鈣血症、腎鈣化症風險，需定期監測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn": {
+        "score": 0.9808008074760436,
+        "rank": 16666
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01526304",
+            "title": "A Cross-Sectional Study To Investigate The Role Of FGF23, Klotho, And Sclerostin In Kidney Stone Formers",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2012-01",
+            "completion_date": "2014-01",
+            "brief_summary": "Kidney stones are very common in industrialized countries and the lifetime risk is about 10 to 15% in this population. Kidney stones are composed of inorganic and organic components. Calcium containing stones are the most common stone type accounting for more than 80% of kidney stones. Many factors predispose or contribute to the development of kidney stones, including genetic variants or mutations, diet, environmental factors, and behavior. To date, little is known on fibroblast growth factor (",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "FGF23 腎結石橫斷面研究，背景知識，非干預性。"
+            }
+          },
+          {
+            "nct_id": "NCT06046820",
+            "title": "The ENERGY 3 Study: A Randomized, Controlled, Open-Label, Phase 3 Study to Evaluate the Efficacy and Safety of INZ-701 in Children With Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1) Deficiency",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 27,
+            "start_date": "2023-11-05",
+            "completion_date": "2026-02",
+            "brief_summary": "The primary purpose of Study INZ701-106 (The ENERGY 3 Study) is to assess the efficacy and safety of INZ-701 in children with ENPP1 Deficiency.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "XLH Phase 3 試驗，提供疾病治療背景，間接定位 calcitriol 在治療階層中的位置。"
+            }
+          },
+          {
+            "nct_id": "NCT04846647",
+            "title": "Study of the Inappropriate Secretion of FGF23 in Patients Followed in Hospital in a Context of Hypophosphatemia",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 260,
+            "start_date": "2021-10-05",
+            "completion_date": "2022-04-25",
+            "brief_summary": "The discovery of FGF23, the missing link in the long researched and finally found phosphate metabolism, marked a turning point in the understanding and physiopathology of specific hypophosphatemia. By inhibiting the renal reabsorption of phosphate and the production of calcitriol, FGF23 behaves like a hypophosphatemia hormone.\n\nHypersecretion of FGF23 can occur in the case of genetic abnormalities (X-linked hypophosphatemic vitamin-resistant rickets, recessive or dominant hypophosphatemic ricket",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "FGF23 分泌異常觀察研究，支持低磷血症病理背景理解，n=260，已完成。"
+            }
+          },
+          {
+            "nct_id": "NCT00844740",
+            "title": "Effect of Cinacalcet on the Long-term Treatment of Familial Hypophosphatemic Rickets",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2009-03-01",
+            "completion_date": "2012-03-01",
+            "brief_summary": "Currently, large oral doses of phosphate and 1,25(OH)2D (calcitriol) are the standard treatment of patients with familial hypophosphatemic rickets (XLH). While this therapy is effective in healing the rickets, it is often limited by development of complications due to the high dose of medications required to achieve cure. Among them are the development of calcifications in the kidneys and secondary hyperparathyroidism (HPT) which in some patients may cause complications like high blood calcium l",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Cinacalcet 試驗（不同機轉），已撤回，不相關。"
+            }
+          },
+          {
+            "nct_id": "NCT06921720",
+            "title": "ATP (Adenosine Triphosphate) Concentration Measurement by Phosphorus-31 Spectroscopy in Phosphate Diabetes",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 65,
+            "start_date": "2025-05-01",
+            "completion_date": "2027-05-01",
+            "brief_summary": "Phosphate diabetes is defined by urinary phosphate wasting due to impaired tubular reabsorption. It can be classified based on either a genetic or acquired origin. Chronic hypophosphatemia causes rickets in children, leading to growth disorders, bone deformities, and bone pain. In adults, it results in osteomalacia, pseudofractures, as well as muscle fatigue and weakness during exertion.\n\nX-linked hypophosphatemia (XLH) is a common cause of hereditary rickets linked to renal phosphate loss due t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "ATP 診斷性研究，尚未招募，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT03748966",
+            "title": "Calcitriol Monotherapy for X-Linked Hypophosphatemia: Effects on Mineral Ions, Growth and Skeletal Parameters",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 20,
+            "start_date": "2019-03-28",
+            "completion_date": "2026-05",
+            "brief_summary": "Children and adults with XLH recruited will be treated with calcitriol alone (without phosphate supplementation) for one year, during which the calcitriol dose will be escalated during the first 3 months of therapy. The investigators hypothesize that treatment of adults and children with XLH alone will improve serum phosphate levels and skeletal mineralization without causing an increase in kidney calcifications. The study will also examine if calcitriol therapy will improve growth in children.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Calcitriol 單療 XLH（低磷血性佝僂病最常見亞型），EARLY_PHASE1，直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT03820518",
+            "title": "Comparing the Effectiveness of High or Low Dose of Active Vitamin D Combined With Neutral Phosphate in Children With X-linked Hypophosphatemia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2017-01-01",
+            "completion_date": "2022-12-31",
+            "brief_summary": "X-linked hypophosphatemia (XLH) is the most common form of heritable rickets. Current treatments include active vitamin D metabolites (e.g. calcitriol) and phosphate salts. There is no consistent weight-based dosing of calcitriol and phosphate now. The primary objective of this study is to establish the efficacy of different dose of calcitriol combined with neutral phosphate in children with XLH.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 活性維生素 D 劑量比較試驗，直接評估 calcitriol 類藥物療效與安全性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36446330",
+            "title": "Rickets, Vitamin D, and Ca/P Metabolism.",
+            "authors": [
+              "Miller Walter L",
+              "Imel Erik A"
+            ],
+            "journal": "Hormone research in paediatrics",
+            "year": "2022",
+            "abstract": "Rickets was a major public health problem dating from Roman times, and medical descriptions of rickets date from the 17th century. Sniadecki first advocated treatment by exposure to sunshine in 1822; contemporaneously, several British physicians advocated use of cod liver oil. Both approaches were successful. Work in 1924 showed that exposure to UV light endowed fats and other foods with antirachitic properties. Vitamins D2 and D3, the antirachitic agent in cod liver oil, were, respectively, pro",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30454743",
+            "title": "Hypophosphatemic Rickets.",
+            "authors": [
+              "Bitzan Martin",
+              "Goodyer Paul R"
+            ],
+            "journal": "Pediatric clinics of North America",
+            "year": "2019",
+            "abstract": "Hypophosphatemic rickets, mostly of the X-linked dominant form caused by pathogenic variants of the PHEX gene, poses therapeutic challenges with consequences for growth and bone development and portends a high risk of fractions and poor bone healing, dental problems and nephrolithiasis/nephrocalcinosis. Conventional treatment consists of PO4 supplements and calcitriol requiring monitoring for treatment-emergent adverse effects. FGF23 measurement, where available, has implications for the differe",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38988138",
+            "title": "Hypophosphatemic rickets and short stature.",
+            "authors": [
+              "Davis Kelli",
+              "Imel Erik A",
+              "Kelley Jennifer"
+            ],
+            "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+            "year": "2024",
+            "abstract": "An 18-month-old male presented with gross motor delay and poor growth (weight z-score -2.21, length z-score -4.26). Radiographs showed metaphyseal irregularities suggesting metaphyseal dysplasia and sagittal craniosynostosis. Biochemical evaluation supported hypophosphatemic rickets [serum phosphorus 2.3 mg/dL (reference range (RR) 4.3-6.8), alkaline phosphatase 754 unit/L (RR 156-369)] due to renal phosphate wasting (TmP/GFR 4.3 mg/dL, normal for age 4.3-6.8), with C-terminal fibroblast growth ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39181153",
+            "title": "X-linked hypophosphataemia.",
+            "authors": [
+              "Kamenický Peter",
+              "Briot Karine",
+              "Munns Craig F",
+              "Linglart Agnès"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2024",
+            "abstract": "X-linked hypophosphataemia is a genetic disease caused by defects in the phosphate regulating endopeptidase homolog X-linked (PHEX) gene and is characterised by X-linked dominant inheritance. The main consequence of PHEX deficiency is increased production of the phosphaturic hormone fibroblast growth factor 23 (FGF23) in osteoblasts and osteocytes. Chronic exposure to circulating FGF23 is responsible for renal phosphate wasting and decreased synthesis of calcitriol, which decreases intestinal ph",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17117305",
+            "title": "Hypophosphatemic rickets and osteomalacia.",
+            "authors": [
+              "de Menezes Filho Hamilton",
+              "de Castro Luiz Claudio G",
+              "Damiani Durval"
+            ],
+            "journal": "Arquivos brasileiros de endocrinologia e metabologia",
+            "year": "2006",
+            "abstract": "The hypophosphatemic conditions that interfere in bone mineralization comprise many hereditary or acquired diseases, all of them sharing the same pathophysiologic mechanism: reduction in the phosphate reabsorption by the renal tubuli. This process leads to chronic hyperphosphaturia and hypophosphatemia, associated with inappropriately normal or low levels of calcitriol, causing osteomalacia or rickets in children and osteomalacia in adults. X-linked hypophosphatemic rickets, autosomal-dominant h",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7900834",
+            "title": "X-linked hypophosphatemic rickets and the murine Hyp homologue.",
+            "authors": [
+              "Hruska K A",
+              "Rifas L",
+              "Cheng S L",
+              "Gupta A",
+              "Halstead L"
+            ],
+            "journal": "The American journal of physiology",
+            "year": "1995",
+            "abstract": "Recent studies have reported the cloning of several sodium-dependent phosphate cotransport proteins from the apical membrane of proximal tubules of several species. The human proximal tubule apical sodium-phosphate cotransport protein maps to chromosome 5 in the 5q35 region, indicating that this gene is not a candidate for the genetic defect leading to X-linked hypophosphatemia (XLH). Studies in what is thought to be the murine XLH homologue, Hyp, also indicate that the proximal tubular phosphat",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31392510",
+            "title": "Mineralized tissues in hypophosphatemic rickets.",
+            "authors": [
+              "Robinson Marie-Eve",
+              "AlQuorain Haitham",
+              "Murshed Monzur",
+              "Rauch Frank"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2020",
+            "abstract": "Hypophosphatemic rickets is caused by renal phosphate wasting that is most commonly due to X-linked dominant mutations in PHEX. PHEX mutations cause hypophosphatemia indirectly, through the increased expression of fibroblast growth factor 23 (FGF23) by osteocytes. FGF23 decreases renal phosphate reabsorption and thereby increases phosphate excretion. The lack of phosphate leads to a mineralization defect at the level of growth plates (rickets), bone tissue (osteomalacia), and teeth, where the de",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38337700",
+            "title": "Rickets Types and Treatment with Vitamin D and Analogues.",
+            "authors": [
+              "Biasucci Giacomo",
+              "Donini Valentina",
+              "Cannalire Giuseppe"
+            ],
+            "journal": "Nutrients",
+            "year": "2024",
+            "abstract": "The definition of \"Vitamin D\" encompasses a group of fat-soluble steroid compounds of different origins with similar chemical structures and the same biological effects. Vitamin D deficiency and/or a defect in the process of its synthesis or transport predispose individuals to several types of rickets. In addition to cholecalciferol, ergocalciferol, and vitamins D3 and D2, there are also active metabolites for the treatment of this condition which are commercially available. Calcitriol and aphac",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26813507",
+            "title": "[FGF23 related hypophosphatemic rickets:current therapy and unresolved issues].",
+            "authors": [
+              "Harada Daisuke",
+              "Namba Noriyuki"
+            ],
+            "journal": "Clinical calcium",
+            "year": "2016",
+            "abstract": "FGF23-related hypophosphatemic rickets is basically treated with active vitamin D and phosphorus. The treatment goals are to minimize bone deformity and improve adult height in children, and to relieve pain and decrease osteomalacia in adult. However, since they do not target the underlying molecular defect, bone deformity can worsen during growth and adult height is suboptimal restricted. Many adult patients suffer from enthesopathy leading to symptoms such as spinal cord compression and debili",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29617471",
+            "title": "HYPOPHOSPHATEMIC RICKETS: CASE REPORT.",
+            "authors": [
+              "Maia Marta Liliane de Almeida",
+              "Abreu Ana Lucia Santos",
+              "Nogueira Paulo Cesar Koch",
+              "Val Maria Luiza Dautro Moreira do",
+              "Carvalhaes João Tomas de Abreu"
+            ],
+            "journal": "Revista paulista de pediatria : orgao oficial da Sociedade de Pediatria de Sao Paulo",
+            "year": "2018",
+            "abstract": "Early diagnosis and immediate treatment of hypophosphatemic rickets is of utmost importance as it may prevent subsequent sequelae. This report aims at warning pediatricians to consider the presence of the disease.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3884759",
+            "title": "Renal hypophosphatemic rickets.",
+            "authors": [
+              "Chan J C",
+              "Alon U",
+              "Hirschman G M"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40295317",
+            "title": "The Diagnosis and Therapy of XLH.",
+            "authors": [
+              "Böckmann Ineke",
+              "Haffner Dieter"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2025",
+            "abstract": "X-linked hypophosphatemia is a rare genetic disease caused by pathogenic variants in the PHEX (phosphate-regulating endopeptidase homolog X-linked) gene with X-linked dominant inheritance that causes metabolic bone disease and other severe complications. PHEX dysfunction results in increased production and secretion of the phosphaturic hormone fibroblast growth factor 23 (FGF23) from bone. The consequences of FGF23 excess are renal phosphate wasting and decreased calcitriol synthesis, leading to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39853071",
+            "title": "Hypophosphatemic Rickets as a Key Sign for the Diagnosis of Hereditary Tyrosinemia Type 1: Case Reports and Narrative Review of the Literature.",
+            "authors": [
+              "Tezanos-Pinto D Andrés de",
+              "Godoy P Marcela",
+              "Arias P Carolina",
+              "Romero M Patricio",
+              "Cabello A Juan F"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "2024",
+            "abstract": "Hereditary tyrosinemia type 1 (HT-1) is an inborn error of metabolism caused by a defect in tyrosine (tyr) degradation. This defect results in the accumulation of succinylacetone (SA), causing liver failure with a high risk of hepatocarcinoma and kidney injury, leading in turn to Fanconi syndrome with urine loss of phosphate and secondary hypophosphatemic rickets (HR). HT-1 diagnosis is usually made in infants with acute or chronic liver failure or by neonatal screening programs. HR is rarely de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29292875",
+            "title": "Spontaneous Growth and Effect of Early Therapy with Calcitriol and Phosphate in X-linked Hypophosphatemic Rickets.",
+            "authors": [
+              "Cagnoli Michele",
+              "Richter Roland",
+              "Böhm Peter",
+              "Knye Kathrin",
+              "Empting Susann"
+            ],
+            "journal": "Pediatric endocrinology reviews : PER",
+            "year": "2017",
+            "abstract": "Whereas nutritional vitamin D deficient rickets affects many people world-wide, X-linked hypophosphatemic rickets (XLH, MIM 307800) has a prevalence of only 1:25.000. Like other rare diseases burden of disease in XLH and the effect of the current standard of care are inadequately described. Only few height data of untreated patients with XLH have been published. Here we report on height before start of therapy of 127 patients with XLH from 49 centres. One investigator collected all data from pat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11873859",
+            "title": "Fibroblast growth factor (FGF)-23 and hypophosphatemic rickets/osteomalacia.",
+            "authors": [
+              "Fukumoto S",
+              "Yamashita T"
+            ],
+            "journal": "Endocrine journal",
+            "year": "2001",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2157942",
+            "title": "Calcitriol treatment in vitamin D-dependent and vitamin D-resistant rickets.",
+            "authors": [
+              "Glorieux F H"
+            ],
+            "journal": "Metabolism: clinical and experimental",
+            "year": "1990",
+            "abstract": "Use of 1,25(OH)2D3 (calcitriol) can be of benefit in the treatment of two hereditary types of rickets and osteomalacia, vitamin D dependency type I (VDD1) and X-linked hypophosphatemic vitamin D-resistant rickets (HPDR). VDD1 is due to inadequate activation of 25(OH)D to 1,25(OH)2D, leading to very low circulating levels of 1,25(OH)2D in plasma; the basic abnormality appears to be an alteration in renal 1 alpha-hydroxylase activity. In VDD1, replacement therapy with calcitriol results in complet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23533226",
+            "title": "Cortical and trabecular bone density in X-linked hypophosphatemic rickets.",
+            "authors": [
+              "Cheung Moira",
+              "Roschger Paul",
+              "Klaushofer Klaus",
+              "Veilleux Louis-Nicolas",
+              "Roughley Peter"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2013",
+            "abstract": "X-linked hypophosphatemic rickets is caused by mutations in PHEX. Even though the disease is characterized by disordered skeletal mineralization, detailed bone densitometric studies are lacking.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35226335",
+            "title": "Growth in height and body proportion from birth to adulthood in hereditary hypophosphatemic rickets: a retrospective cohort study.",
+            "authors": [
+              "Del Pino M",
+              "Viterbo G L",
+              "Arenas M A",
+              "Perez Garrido N",
+              "Ramirez P"
+            ],
+            "journal": "Journal of endocrinological investigation",
+            "year": "2022",
+            "abstract": "Patients with hereditary hypophosphatemic rickets are short and disproportionate and very little information is available on segmental growth, but the body disproportion at adulthood leads us to think that the growth velocity of legs is slower.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9316301",
+            "title": "Medical management and complications of X-linked hypophosphatemic vitamin D resistant rickets.",
+            "authors": [
+              "Ono T",
+              "Seino Y"
+            ],
+            "journal": "Acta paediatrica Japonica : Overseas edition",
+            "year": "1997",
+            "abstract": "To improve the growth failure, bowed legs, and biochemical and radiological abnormalities in patients with X-linked hypophosphatemic vitamin D resistant rickets (XLH), combined therapy of phosphate and calcitriol is the best therapeutic approach at present. However, the complications involving combined therapy, such as hypercalcemia, nephrocalcinosis and hyperparathyroidism, are not fully solved. To achieve better control, new therapeutic approaches have been reported recently, for example, grow",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36347435",
+            "title": "Bone characteristics of autosomal dominant hypophosphatemic rickets patients.",
+            "authors": [
+              "Liu Chang",
+              "Ni Xiaolin",
+              "Zhao Zhen",
+              "Qi Wenting",
+              "Jiang Yan"
+            ],
+            "journal": "Bone",
+            "year": "2023",
+            "abstract": "Autosomal dominant hypophosphatemic rickets (ADHR) is a rare disease caused by activating mutations in fibroblast growth factor 23 (FGF23) gene. With FGF23 activation, ADHR is a good model to explore the effects of FGF23 on skeletal development and mineralization. However, the bone microarchitecture of ADHR patients is poorly investigated. This study aims to illustrate the bone properties of ADHR patients and clarify the effect of FGF23 on load bearing and non-load bearing bone.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "低磷血性佝僂病（廣義類別，涵蓋 XLH、ADHR、ARHR、TIO 等亞型）共同特徵為腎磷消耗與骨礦化不足。Calcitriol 配合磷酸鹽補充為各亞型的傳統治療基礎：增加腸道磷吸收效率、補償 FGF23 或 PHEX/DMP1 突變導致的骨礦化障礙。現有 Phase 4 試驗（NCT03820518）及 Phase 1 試驗（NCT03748966）提供跨亞型臨床可行性依據。文獻基礎廣泛（20 篇），涵蓋多種佝僂病亞型。主要監測項目：腎鈣化症、高鈣血症、PTH 抑制。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "osteomalacia (disease)",
+      "txgnn": {
+        "score": 0.9767980575561525,
+        "rank": 18517
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06921720",
+            "title": "ATP (Adenosine Triphosphate) Concentration Measurement by Phosphorus-31 Spectroscopy in Phosphate Diabetes",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 65,
+            "start_date": "2025-05-01",
+            "completion_date": "2027-05-01",
+            "brief_summary": "Phosphate diabetes is defined by urinary phosphate wasting due to impaired tubular reabsorption. It can be classified based on either a genetic or acquired origin. Chronic hypophosphatemia causes rickets in children, leading to growth disorders, bone deformities, and bone pain. In adults, it results in osteomalacia, pseudofractures, as well as muscle fatigue and weakness during exertion.\n\nX-linked hypophosphatemia (XLH) is a common cause of hereditary rickets linked to renal phosphate loss due t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "磷酸鹽疾病診斷性研究，尚未招募，與骨軟化症有病理背景重疊但相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT03603444",
+            "title": "Serum Calcium to Phosphorus (Ca/P) Ratio to Define Disorders of Ca-P Metabolism",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 606,
+            "start_date": "2011-01-01",
+            "completion_date": "2018-01-01",
+            "brief_summary": "BACKGROUND: Primary hyperparathyroidism (PHPT) is the third most common endocrine disorder. The Ca/P ratio is an accurate tool to differentiate patients with PHPT (\\>3.5 if Ca and P are expressed in mg/dl) from healthy subjects. The reliability of this index is based on the fact that serum Ca and P are inversely related together. However, other disorders of the Ca-P metabolism, such as hypophosphoremia (HypoP) not related to PHPT, might also impair the Ca/P ratio.\n\nOBJECTIVE: To validate the acc",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Ca/P 比值觀察研究，n=606，已完成，提供鈣磷代謝障礙診斷背景知識，間接支持骨軟化症代謝管理框架，但非 calcitriol 干預試驗。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33774081",
+            "title": "Osteoporosis and Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD): Back to Basics.",
+            "authors": [
+              "Pazianas Michael",
+              "Miller Paul D"
+            ],
+            "journal": "American journal of kidney diseases : the official journal of the National Kidney Foundation",
+            "year": "2021",
+            "abstract": "Osteoporosis is defined as a skeletal disorder of compromised bone strength predisposing those affected to an elevated risk of fracture. However, based on bone histology, osteoporosis is only part of a spectrum of skeletal complications that includes osteomalacia and the various forms of renal osteodystrophy of chronic kidney disease-mineral and bone disorder (CKD-MBD). In addition, the label \"kidney-induced osteoporosis\" has been proposed, even though the changes caused by CKD do not qualify as",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21490240",
+            "title": "Tumor-induced osteomalacia.",
+            "authors": [
+              "Chong William H",
+              "Molinolo Alfredo A",
+              "Chen Clara C",
+              "Collins Michael T"
+            ],
+            "journal": "Endocrine-related cancer",
+            "year": "2011",
+            "abstract": "Tumor-induced osteomalacia (TIO) is a rare and fascinating paraneoplastic syndrome in which patients present with bone pain, fractures, and muscle weakness. The cause is high blood levels of the recently identified phosphate and vitamin D-regulating hormone, fibroblast growth factor 23 (FGF23). In TIO, FGF23 is secreted by mesenchymal tumors that are usually benign, but are typically very small and difficult to locate. FGF23 acts primarily at the renal tubule and impairs phosphate reabsorption a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40295317",
+            "title": "The Diagnosis and Therapy of XLH.",
+            "authors": [
+              "Böckmann Ineke",
+              "Haffner Dieter"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2025",
+            "abstract": "X-linked hypophosphatemia is a rare genetic disease caused by pathogenic variants in the PHEX (phosphate-regulating endopeptidase homolog X-linked) gene with X-linked dominant inheritance that causes metabolic bone disease and other severe complications. PHEX dysfunction results in increased production and secretion of the phosphaturic hormone fibroblast growth factor 23 (FGF23) from bone. The consequences of FGF23 excess are renal phosphate wasting and decreased calcitriol synthesis, leading to",
+            "classification": {
+              "study_type": "Clinical Review/Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36868732",
+            "title": "Physiopathology of Phosphate Disorders.",
+            "authors": [
+              "Portales-Castillo Ignacio",
+              "Rieg Timo",
+              "Khalid Sheikh B",
+              "Nigwekar Sagar U",
+              "Neyra Javier A"
+            ],
+            "journal": "Advances in kidney disease and health",
+            "year": "2023",
+            "abstract": "Intracellular phosphate is critical for cellular processes such as signaling, nucleic acid synthesis, and membrane function. Extracellular phosphate (Pi) is an important component of the skeleton. Normal levels of serum phosphate are maintained by the coordinated actions of 1,25-dihydroxyvitamin D3, parathyroid hormone and fibroblast growth factor-23, which intersect in the proximal tubule to control the reabsorption of phosphate via the sodium-phosphate cotransporters Npt2a and Npt2c. Furthermo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40565034",
+            "title": "Regulation of Renal and Extrarenal Calcitriol Synthesis and Its Clinical Implications.",
+            "authors": [
+              "Zittermann Armin"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "abstract": "There is evidence that calcitriol is the only biologically active vitamin D metabolite. This review summarizes data on the regulation of renal and extrarenal synthesis of calcitriol by nutritional, physiologic, mechanical, genetic, and disease-related factors. Relatively low circulating calcitriol due to low substrate availability, i.e., low circulating 25-hydroxyvitamin D, has been reported in nutritional rickets, osteomalacia, obesity, and preeclampsia. In these situations, vitamin D supplemen",
+            "classification": {
+              "study_type": "Review (2025)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35288871",
+            "title": "Vitamin D and Phosphate Interactions in Health and Disease.",
+            "authors": [
+              "Akimbekov Nuraly S",
+              "Digel Ilya",
+              "Sherelkhan Dinara K",
+              "Razzaque Mohammed S"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2022",
+            "abstract": "Vitamin D plays an essential role in calcium and inorganic phosphate (Pi) homeostasis, maintaining their optimal levels to assure adequate bone mineralization. Vitamin D, as calcitriol (1,25(OH)2D), not only increases intestinal calcium and phosphate absorption but also facilitates their renal reabsorption, leading to elevated serum calcium and phosphate levels. The interaction of 1,25(OH)2D with its receptor (VDR) increases the efficiency of intestinal absorption of calcium to 30-40% and phosph",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35334948",
+            "title": "Rapid Nontranscriptional Effects of Calcifediol and Calcitriol.",
+            "authors": [
+              "Donati Simone",
+              "Palmini Gaia",
+              "Aurilia Cinzia",
+              "Falsetti Irene",
+              "Miglietta Francesca"
+            ],
+            "journal": "Nutrients",
+            "year": "2022",
+            "abstract": "Classically, a secosteroid hormone, vitamin D, has been implicated in calcium and phosphate homeostasis and has been associated with the pathogenesis of rickets and osteomalacia in patients with severe nutritional vitamin D deficiency. The spectrum of known vitamin D-mediated effects has been expanded in recent years. However, the mechanisms of how exactly this hormone elicits its biological function are still not fully understood. The interaction of this metabolite with the vitamin D receptor (",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40586907",
+            "title": "Differential diagnosis of heritable and acquired osteomalacia in children: biochemical and biomaterial signatures.",
+            "authors": [
+              "Uday Suma",
+              "Högler Wolfgang"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2025",
+            "abstract": "Defective mineralization of bone matrix results in osteomalacia, which universally affects the skeletal system and dentition and manifests alongside the clinically and radiologically more obvious growth plate disorder rickets in young children. Given that radiological signs of osteomalacia are limited, most hypomineralization disorders are diagnosed based on their clinical features and/or typical biochemical signatures, especially after the closure of growth plates. Evaluation of histomorphometr",
+            "classification": {
+              "study_type": "Observational/Diagnostic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3839245",
+            "title": "Healing of bone disease in X-linked hypophosphatemic rickets/osteomalacia. Induction and maintenance with phosphorus and calcitriol.",
+            "authors": [
+              "Harrell R M",
+              "Lyles K W",
+              "Harrelson J M",
+              "Friedman N E",
+              "Drezner M K"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1985",
+            "abstract": "Although conventional therapy (pharmacologic doses of vitamin D and phosphorus supplementation) is usually successful in healing the rachitic bone lesion in patients with X-linked hypophosphatemic rickets, it does not heal the coexistent osteomalacia. Because serum 1,25-dihydroxyvitamin D levels are inappropriately low in these patients and high calcitriol concentrations may be required to heal the osteomalacia, we chose to treat five affected subjects with high doses of calcitriol (68.2 +/- 10.",
+            "classification": {
+              "study_type": "Clinical Trial (historical, non-RCT)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17117305",
+            "title": "Hypophosphatemic rickets and osteomalacia.",
+            "authors": [
+              "de Menezes Filho Hamilton",
+              "de Castro Luiz Claudio G",
+              "Damiani Durval"
+            ],
+            "journal": "Arquivos brasileiros de endocrinologia e metabologia",
+            "year": "2006",
+            "abstract": "The hypophosphatemic conditions that interfere in bone mineralization comprise many hereditary or acquired diseases, all of them sharing the same pathophysiologic mechanism: reduction in the phosphate reabsorption by the renal tubuli. This process leads to chronic hyperphosphaturia and hypophosphatemia, associated with inappropriately normal or low levels of calcitriol, causing osteomalacia or rickets in children and osteomalacia in adults. X-linked hypophosphatemic rickets, autosomal-dominant h",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35381903",
+            "title": "Persistence and recurrence in tumor-induced osteomalacia: A systematic review of the literature and results from a national survey/case series.",
+            "authors": [
+              "Cianferotti Luisella",
+              "Delli Poggi Chiara",
+              "Bertoldo Francesco",
+              "Caffarelli Carla",
+              "Crotti Chiara"
+            ],
+            "journal": "Endocrine",
+            "year": "2022",
+            "abstract": "Tumor induced osteomalacia (TIO) is a rare disease of mineral metabolism, whose clinical picture is dominated by hypophosphatemia usually due to an excess of circulating FGF23 produced by small mesenchymal tumors. Data on the real prevalence of the disease are lacking, with the knowledge of the disease mainly relying on case reports and small case series. No estimate is available on the prevalence of uncured TIO.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35103802",
+            "title": "[Tumor localization and treatment of tumor-induced osteomalacia].",
+            "authors": [
+              "Beil Frank Timo",
+              "Stürznickel Julian",
+              "Rolvien Tim",
+              "Amling Michael",
+              "Oheim Ralf"
+            ],
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2022",
+            "abstract": "Tumor-induced osteomalacia (TIO) or oncogenic osteomalacia (OOM) is a rare paraneoplastic renal phosphate wasting syndrome. The disease is mostly triggered by small, benign mesenchymal tumors that express somatostatin receptors (SSTR) and produce excessive levels of fibroblast growth factor 23 (FGF 23) or other phosphatonins. These reduce the phosphate back resorption in the proximal tubules of the kidneys, thereby causing hypophosphatemia and lead to an absolute or relatively low calcitriol ser",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8592480",
+            "title": "Metabolic acidosis and osteodystrophic bone disease in predialysis chronic renal failure: effect of calcitriol treatment.",
+            "authors": [
+              "Coen G",
+              "Manni M",
+              "Addari O",
+              "Ballanti P",
+              "Pasquali M"
+            ],
+            "journal": "Mineral and electrolyte metabolism",
+            "year": "1995",
+            "abstract": "The role of metabolic acidosis on osteodystrophic bone lesions of chronic renal failure has been studied retrospectively in 24 patients, divided into two equal groups of 12, one with normal acid-base equilibrium (group A) and one with metabolic acidosis (group B). The two groups were found to differ significantly in serum levels of BGP (23.7 +/- 18 vs. 42.3 +/- 24 ng/ml, p < 0.02) and in several bone histomorphometric parameters such as osteoid volume (4.5 +/- 3.4 vs. 10.2 +/- 6.6%, p < 0.01), o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37235783",
+            "title": "Tumor-Induced Osteomalacia in Patients With Malignancy: A Meta-analysis and Systematic Review of Case Reports.",
+            "authors": [
+              "Bouraima Farouk",
+              "Sapin Vincent",
+              "Kahouadji Samy",
+              "Pickering Marie-Eva",
+              "Pereira Bruno"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2023",
+            "abstract": "Tumor-induced osteomalacia (TIO) due to fibroblast growth factor 23 (FGF23) overexpression is becoming recognized in patients with malignancy. The condition may be underdiagnosed, with a scarce medical literature.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24597598",
+            "title": "Vitamin D and vitamin D receptor activators in treatment of hypertension and cardiovascular disease.",
+            "authors": [
+              "Franczyk Agata",
+              "Stolarz-Skrzypek Katarzyna",
+              "Wesołowska Anna",
+              "Czarnecka Danuta"
+            ],
+            "journal": "Cardiovascular & hematological disorders drug targets",
+            "year": "2014",
+            "abstract": "Vitamin D plays an essential role in calcium homeostasis and bone metabolism, but recent research has exposed a larger spectrum of biological actions that also includes induction of cell proliferation, immunomodulation, and control of other hormonal systems. Many cells that play an important role in the cardiovascular system express the Vitamin D receptor (VDR) and respond to 1,25-(OH)2D (the active product of vitamin D conversion by hydroxylase) with cell-specific function and gene regulation. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31863781",
+            "title": "Management of X-linked hypophosphatemia in adults.",
+            "authors": [
+              "Lecoq Anne-Lise",
+              "Brandi Maria Luisa",
+              "Linglart Agnès",
+              "Kamenický Peter"
+            ],
+            "journal": "Metabolism: clinical and experimental",
+            "year": "2020",
+            "abstract": "X-linked hypophosphatemia (XLH) is caused by mutations in the PHEX gene which result in Fibroblast Growth Factor-23 (FG-F23) excess and phosphate wasting. Clinically, XLH children present with rickets, bone deformities and short stature. In adulthood, patients may still be symptomatic with bone and joint pain, osteomalacia-related fractures or pseudofractures, precocious osteoarthrosis, enthesopathy, muscle weakness and severe dental anomalies. Besides these musculoskeletal and dental manifestat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20599669",
+            "title": "The bone and the kidney.",
+            "authors": [
+              "Mazzaferro Sandro",
+              "Pasquali Marzia",
+              "Pirrò Giuliana",
+              "Rotondi Silverio",
+              "Tartaglione Lida"
+            ],
+            "journal": "Archives of biochemistry and biophysics",
+            "year": "2010",
+            "abstract": "Renal tubular diseases may present with osteopenia, osteoporosis or osteomalacia, as a result of significant derangements in body electrolytes. In case of insufficient synthesis of calcitriol, as in renal failure, the more complex picture of renal osteodystrophy may develop. Hypothetically, also disturbed renal production of BMP-7 and Klotho could cause bone disease. However, the acknowledgment that osteocytes are capable of producing FGF23, a phosphaturic hormone at the same time modulating ren",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24400428",
+            "title": "Vitamin D in health and disease: a literature review.",
+            "authors": [
+              "Basit S"
+            ],
+            "journal": "British journal of biomedical science",
+            "year": "2013",
+            "abstract": "Vitamin D, a fat-soluble prohormone, is synthesised in response to sunlight. Vitamin D requires two metabolic conversions, 25-hydroxylation in the liver and 1alpha-hydroxylation in the kidney, to become active hormone. The active form, 1alpha,25-(OH)2D, binds to the vitamin D receptor (VDR) to modulate gene transcription and regulate mineral ion homeostasis. Vitamin D plays several roles in the body, influencing bone health as well as serum calcium and phosphate levels. Furthermore, vitamin D ma",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30711691",
+            "title": "X-linked hypophosphatemia: Management and treatment prospects.",
+            "authors": [
+              "Lambert Anne-Sophie",
+              "Zhukouskaya Volha",
+              "Rothenbuhler Anya",
+              "Linglart Agnès"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2019",
+            "abstract": "X-linked hypophosphatemia (XLH), due to a PHEX gene mutation, is the most common genetic form of rickets and osteomalacia. Manifestations in children consist of rickets, lower-limb bone deformities, bone pain, failure to thrive, dental abscesses, and/or craniostenosis. Adults may present with persistent bone pain, early osteoarthritis, hairline fractures and Looser zones, enthesopathy, and/or periodontitis. Regardless of whether the patient is an infant, child, adolescent or adult, an early diag",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨軟化症由骨基質礦化不足引起，維生素 D 缺乏/代謝障礙為主要病因之一。Calcitriol 直接促進腸道鈣磷吸收，提升循環礦化離子，改善類骨質礦化。PMID 3839245（1985）為歷史性關鍵研究，提供 calcitriol 誘導及維持 XLH 骨軟化症骨癒合的直接臨床證據。PMID 40565034（2025）論述腎外 calcitriol 合成調控的臨床意義。現有臨床試驗（NCT03603444）為觀察性研究，非干預試驗，但文獻基礎充分且機轉明確。需注意腫瘤引發骨軟化（TIO）亞型對 calcitriol 反應有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "vitamin D-dependent rickets",
+      "txgnn": {
+        "score": 0.974177360534668,
+        "rank": 19660
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9316302",
+            "title": "Vitamin D-dependent rickets type I and type II.",
+            "authors": [
+              "Takeda E",
+              "Yamamoto H",
+              "Taketani Y",
+              "Miyamoto K"
+            ],
+            "journal": "Acta paediatrica Japonica : Overseas edition",
+            "year": "1997",
+            "abstract": "Two distinct hereditary defects, vitamin D-dependent rickets type I (VDDR I) and type II (VDDR II), have been recognized in vitamin D metabolism. VDDR I is suggested to be a deficiency of the renal 25-hydroxyvitamin D (25(OH)D)-1 alpha-hydroxylase. Muscle weakness and rickets are the prominent clinical findings. A normal physiologic dose of 1 alpha-hydroxyvitamin D3 and 1,25-dihydroxyvitamin D3 is sufficient to maintain remission of rickets in this disorder. VDDR II consists of a spectrum of int",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34492747",
+            "title": "Genotype and phenotypic spectrum of vitamin D dependent rickets type 1A: our experience and systematic review.",
+            "authors": [
+              "Dodamani Manjunath Havalappa",
+              "Sehemby Manjeetkaur",
+              "Memon Saba Samad",
+              "Sarathi Vijaya",
+              "Lila Anurag R"
+            ],
+            "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+            "year": "2021",
+            "abstract": "Vitamin D dependent rickets type 1 (VDDR1) is a rare disease due to pathogenic variants in 1-α hydroxylase gene. We describe our experience with systematic review of world literature to describe phenotype and genotype.",
+            "classification": {
+              "study_type": "Case Series + Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36524979",
+            "title": "Clinical spectrum and diagnostic challenges of vitamin D dependent rickets type 1A (VDDR1A) caused by CYP27B1 mutation in resource limited countries.",
+            "authors": [
+              "Aftab Sommayya",
+              "Khan Sabeen Abid",
+              "Malik Munir Iqbal",
+              "Imran Ahmed",
+              "Anjum Muhammad Nadeem"
+            ],
+            "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+            "year": "2023",
+            "abstract": "Vitamin D dependent rickets type 1A (VDDR1A) is a rare autosomal recessive condition due to inactivating mutation of CYP27B1. It mimics clinically, biochemically and rediologically to nutritional and hypophosphatemic rickets. In developing countries like Pakistan, VDDR1A is often misdiagnosed as nutritional rickets or hypophosphatemic rickets due lack of free access to 1,25 (OH) 2 D level and genetic testing. This study was aimed to determine the clinical spectrum and diagnostic challenges of VD",
+            "classification": {
+              "study_type": "Case Series/Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26939683",
+            "title": "Fibroblast growth factor-23 and renin-angiotensin system levels in vitamin-D-dependent rickets type I.",
+            "authors": [
+              "Cuervo Carlos",
+              "Abitbol Carolyn L",
+              "Zilleruelo Gaston E",
+              "Freundlich Michael"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2016",
+            "abstract": "As 1,25(OH)2D3 vitamin D3 induces fibroblast growth factor-23 (FGF-23) production and suppresses the renin-angiotensin-aldosterone system (RAAS), its absence in vitamin-D-dependent rickets type I (VDDR-I) may have adverse health consequences.",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3012979",
+            "title": "The metabolism and functions of vitamin D.",
+            "authors": [
+              "DeLuca H F"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "1986",
+            "abstract": "Vitamin D functions by stimulating intestinal calcium and phosphorus absorption, by stimulating bone calcium mobilization, and by increasing renal reabsorption of calcium in the distal tubule. These functions on bone and possibly kidney, but not intestine, require the parathyroid hormone. As a result of these functions, serum calcium and phosphorus concentrations are elevated to supersaturating levels required for the mineralization of bone to prevent rickets, osteomalacia, and hypocalcemic teta",
+            "classification": {
+              "study_type": "Review (foundational)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32926064",
+            "title": "Vitamin D-dependent rickets (VDDR) type 1: case series of two siblings with a CYP27B1 mutation and review of the literature.",
+            "authors": [
+              "Dhull Rachita Singh",
+              "Jain Reena",
+              "Deepthi Bobbity",
+              "Cheong Hae Ii",
+              "Saha Abhijeet"
+            ],
+            "journal": "Jornal brasileiro de nefrologia",
+            "year": "2020",
+            "abstract": "Two siblings presented with clinical and biochemical features of rickets, initially suspected as hypophosphatemic rickets. There was no improvement initially, hence the siblings were reinvestigated and later diagnosed as having vitamin D-dependent rickets (VDDR) type 1 due to a rare mutation in the CYP27B1 gene encoding the 1α-hydroxylase enzyme. Both siblings improved with calcitriol supplementation. The initial presentation of VDDR is often confusing and algorithmic evaluation helps in diagnos",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33823104",
+            "title": "The genetics and clinical manifestations of patients with vitamin D dependent rickets type 1A.",
+            "authors": [
+              "Ozden Ayse",
+              "Doneray Hakan"
+            ],
+            "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+            "year": "2021",
+            "abstract": "Vitamin D dependent rickets type 1A (VDDR-1A) is a very rare autosomal recessive disorder caused by mutations in the CYP27B1, which encodes vitamin D 1α-hydroxylase. We report the genetics and clinical manifestations of nine patients with VDDR-1A and compare our patients to other cases with the same mutations in the literature.",
+            "classification": {
+              "study_type": "Cohort/Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38365463",
+            "title": "Vitamin D deficiency or resistance and hypophosphatemia.",
+            "authors": [
+              "Sarathi Vijaya",
+              "Dhananjaya Melkunte Shanthaiah",
+              "Karlekar Manjiri",
+              "Lila Anurag Ranjan"
+            ],
+            "journal": "Best practice & research. Clinical endocrinology & metabolism",
+            "year": "2024",
+            "abstract": "Vitamin D is mainly produced in the skin (cholecalciferol) by sun exposure while a fraction of it is obtained from dietary sources (ergocalciferol). Vitamin D is further processed to 25-hydroxyvitamin D and 1,25-dihydroxy vitamin D (calcitriol) in the liver and kidneys, respectively. Calcitriol is the active form which mediates the actions of vitamin D via vitamin D receptor (VDR) which is present ubiquitously. Defect at any level in this pathway leads to vitamin D deficient or resistant rickets",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2157942",
+            "title": "Calcitriol treatment in vitamin D-dependent and vitamin D-resistant rickets.",
+            "authors": [
+              "Glorieux F H"
+            ],
+            "journal": "Metabolism: clinical and experimental",
+            "year": "1990",
+            "abstract": "Use of 1,25(OH)2D3 (calcitriol) can be of benefit in the treatment of two hereditary types of rickets and osteomalacia, vitamin D dependency type I (VDD1) and X-linked hypophosphatemic vitamin D-resistant rickets (HPDR). VDD1 is due to inadequate activation of 25(OH)D to 1,25(OH)2D, leading to very low circulating levels of 1,25(OH)2D in plasma; the basic abnormality appears to be an alteration in renal 1 alpha-hydroxylase activity. In VDD1, replacement therapy with calcitriol results in complet",
+            "classification": {
+              "study_type": "Clinical Trial (non-RCT)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36405822",
+            "title": "Clinical characteristics and long-term outcomes of 12 children with vitamin D-dependent rickets type 1A: A retrospective study.",
+            "authors": [
+              "Lin Yunting",
+              "Guan Zhihong",
+              "Mei Huifen",
+              "Zhang Wen",
+              "Zhou Zhizi"
+            ],
+            "journal": "Frontiers in pediatrics",
+            "year": "2022",
+            "abstract": "Vitamin D-dependent rickets type 1A (VDDR1A) is a rare autosomal recessive disorder caused by deficiency of the CYP27B1 gene. This study aims to investigate the phenotypic and genotypic features of VDDR1A children in southern China and evaluate the long-term therapeutic effects.",
+            "classification": {
+              "study_type": "Case Series/Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27060335",
+            "title": "Genetic disorders of Vitamin D biosynthesis and degradation.",
+            "authors": [
+              "Miller Walter L"
+            ],
+            "journal": "The Journal of steroid biochemistry and molecular biology",
+            "year": "2017",
+            "abstract": "Vitamin D, an inactive secosteroid pro-hormone, is produced by the action of ultraviolet light on 7-dehydrocholesterol in the skin. The active hormone, 1,25(OH)2D is produced by sequential 25-hydroxylation in the liver, principally by CYP2R1, and 1α-hydroxylation in the kidney by CYP27B1. Mutations in CYP27B1 cause 1α-hydroxylase deficiency, also known as vitamin D dependent rickets type I or hereditary pseudo-vitamin D deficient rickets; very rare mutations in CYP2R1 can cause 25-hydroxylase de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39502845",
+            "title": "A Rare Case of Neuronal Ceroid Lipofuscinosis-Type 1 (NCL-1) with Vitamin D-Dependent Rickets-Type 1 (VDDR-1), Complex 1 Mitochondrial Deficiency, and Mixed Variant-Checkerboard and Phylloid Type of Pigmentary Mosaicism.",
+            "authors": [
+              "Gowda Vykuntaraju K",
+              "K Anusha Raj",
+              "Srinivasan Varunvenkat M",
+              "Vamyanmane Dhananjaya K",
+              "Srinivas Sahana M"
+            ],
+            "journal": "Journal of pediatric genetics",
+            "year": "2024",
+            "abstract": "Introduction  Neuronal ceroid lipofuscinosis-type 1 (NCL-1) is a neurodegenerative lysosomal storage disorder. Vitamin D-dependent rickets type 1 (VDDR-1) is a rare cause of refractory rickets. Here, we report an unusual association of NCL-1 with VDDR-1. Case  A 3-year-old boy presented with a history of seizures from 45 days of life, delayed development, and loss of attained milestones at 20 months of age, along with progressive vision impairment since 1 year. Examination showed a failure to th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38872968",
+            "title": "Clinical characteristics and long-term management for patients with vitamin D-dependent rickets type II: a retrospective study at a single center in Saudi Arabia.",
+            "authors": [
+              "Alsagheir Afaf",
+              "Al-Ashwal Abdullah",
+              "Binladen Amal",
+              "Alhuthil Raghad",
+              "Joueidi Faisal"
+            ],
+            "journal": "Frontiers in endocrinology",
+            "year": "2024",
+            "abstract": "Hereditary Vitamin D-dependent rickets type II (HVDDR-type II) is a rare autosomal recessive disorder caused by molecular variation in the gene encoding the vitamin D receptor (VDR). This study aims to evaluate phenotype and genotype characteristics and long-term follow-up of the largest group of patients with (HVDDR-type II) in Saudi Arabia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33004071",
+            "title": "Clinical and genetic analysis of two Chinese families with vitamin D-dependent rickets type IA and follow-up.",
+            "authors": [
+              "Li Yunfei",
+              "Yuan Xin",
+              "Chen Ruimin",
+              "Lin Xiangquan",
+              "Shangguan Huakun"
+            ],
+            "journal": "Orphanet journal of rare diseases",
+            "year": "2020",
+            "abstract": "Vitamin D-dependent rickets type IA (VDDR-IA) is a rare autosomal recessive disorder characterized by the early onset of severe rickets. The objectives of this study were twofold: (1) to analyze the clinical characteristics and therapy of two patients with VDDR-IA from two separate Chinese families, and (2) investigate the CYP27B1 gene mutations in two large pedigrees.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39893280",
+            "title": "Hereditary disorders of vitamin-D metabolism and its receptor.",
+            "authors": [
+              "Lainis Vasileios",
+              "Katsouli Olga",
+              "Gazi Sοusana",
+              "Kassi Evanthia",
+              "Chronopoulos Efstathios"
+            ],
+            "journal": "Hormones (Athens, Greece)",
+            "year": "2025",
+            "abstract": "Hereditary disorders of vitamin D metabolism are rare diseases. This review summarizes the current knowledge in this field and highlights the complicated metabolism of vitamin D.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22145480",
+            "title": "Vitamin D dependent rickets, diagnostic and therapeutic difficulties: two case reports.",
+            "authors": [
+              "Donghi Valentina",
+              "Di Frenna Marianna",
+              "di Lascio Alessandra",
+              "Chiumello Giuseppe",
+              "Weber Giovanna"
+            ],
+            "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+            "year": "2011",
+            "abstract": "There are two types of vitamin D dependent rickets (VDDR) that cause rickets in children. Vitamin D dependent rickets type 1 (VDDR-I) is caused by an inborn error of vitamin D metabolism, which interferes with renal conversion of calcidiol (25OHD) to calcitriol (1,25(OH)2D) by the enzyme 1alpha-hydroxylase. Vitamin D dependent rickets type 2 (VDDR-II) is caused by a defect in the vitamin D receptor (VDR). We report cases of two African children affected by VDDR-I and VDDR-II, respectively. Estab",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26982175",
+            "title": "Genotype and Phenotype Characteristics in 22 Patients with Vitamin D-Dependent Rickets Type I.",
+            "authors": [
+              "Tahir Sophia",
+              "Demirbilek Hüseyin",
+              "Ozbek Mehmet Nuri",
+              "Baran Riza Taner",
+              "Tanriverdi Sibel"
+            ],
+            "journal": "Hormone research in paediatrics",
+            "year": "2016",
+            "abstract": "Vitamin D-dependent rickets type I (VDDR1) is an autosomal recessive disorder caused by mutations in the 25-hydroxyvitamin D 1-alpha-hydroxylase gene (CYP27B1). Mutations in CYP27B1 disrupt or lead to a total loss of the 1-α-hydroxylase activity and require treatment with physiological doses of calcitriol.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29461981",
+            "title": "CYP3A4 mutation causes vitamin D-dependent rickets type 3.",
+            "authors": [
+              "Roizen Jeffrey D",
+              "Li Dong",
+              "O'Lear Lauren",
+              "Javaid Muhammad K",
+              "Shaw Nicholas J"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "2018",
+            "abstract": "Genetic forms of vitamin D-dependent rickets (VDDRs) are due to mutations impairing activation of vitamin D or decreasing vitamin D receptor responsiveness. Here we describe two unrelated patients with early-onset rickets, reduced serum levels of the vitamin D metabolites 25-hydroxyvitamin D and 1,25-dihydroxyvitamin D, and deficient responsiveness to parent and activated forms of vitamin D. Neither patient had a mutation in any genes known to cause VDDR; however, using whole exome sequencing an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33386952",
+            "title": "Does Genotype-Phenotype Correlation Exist in Vitamin D-Dependent Rickets Type IA: Report of 13 New Cases and Review of the Literature.",
+            "authors": [
+              "Kaygusuz Sare Betul",
+              "Alavanda Ceren",
+              "Kirkgoz Tarik",
+              "Eltan Mehmet",
+              "Yavas Abali Zehra"
+            ],
+            "journal": "Calcified tissue international",
+            "year": "2021",
+            "abstract": "Vitamin D-dependent rickets type IA (VDDR-IA) is caused by biallelic mutations in CYP27B1. Data regarding genotype-phenotype correlation in VDDR-IA are scarce. Here, we aimed to investigate clinical/genotypic features and long-term follow-up of 13 new cases with VDDR-IA and genotype-phenotype correlation of reported cases in the literature. Thirteen patients with VDDR-IA were evaluated. Eight patients had reached their final height at the time of the study and, for whom, long-term outcome data w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6303646",
+            "title": "Parathyroid hormone and vitamin D receptors.",
+            "authors": [
+              "Spiegel A M",
+              "Marx S J"
+            ],
+            "journal": "Clinics in endocrinology and metabolism",
+            "year": "1983",
+            "abstract": "Parathyroid hormone (PTH), an 84-amino-acid polypeptide hormone, interacts with plasma membrane-bound receptors on bone and kidney cells, thereby increasing intracellular cAMP. Although the synthetic amino terminal 1-34 fragment of PTH possesses full biological activity, there is no firm evidence that hormone cleavage is a requisite step in the biological action of PTH. In contrast, vitamin D must undergo hydroxylations in the 1 and 25 positions in order to become fully active on target organs. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "維生素 D 依賴性佝僂病第 1A 型（VDDR1A）由 CYP27B1（1α-羥化酶）突變引起，無法將 25-OH-D 轉化為 calcitriol，導致低鈣血症、繼發性甲亢及嚴重骨病。補充 calcitriol 直接替代缺失的酶產物，可完全糾正代謝異常，機轉關聯強度極高（精準替代療法）。PMID 2157942（1990）提供 calcitriol 治療 VDDR 的直接非 RCT 臨床研究；PMID 34492747 為系統性回顧結合病例系列；多個病例系列（PMID 32926064, 36405822, 33823104）一致確認療效與長期預後。雖無正式 RCT（罕見病倫理限制），但證據體系一致性高，臨床可行性確立。VDDR2A（VDR 突變）對 calcitriol 部分抵抗，需超高劑量或不同策略。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "familial isolated hypoparathyroidism due to impaired PTH secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "familial isolated hypoparathyroidism due to impaired PTH secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "familial isolated hypoparathyroidism due to impaired PTH secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "acromesomelic dysplasia, Campailla Martinelli type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "acromesomelic dysplasia, Campailla Martinelli type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "acromesomelic dysplasia, Campailla Martinelli type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "craniofacial conodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "craniofacial conodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "craniofacial conodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "Dahlberg-Borer-Newcomer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "Dahlberg-Borer-Newcomer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "Dahlberg-Borer-Newcomer syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "hereditary hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "hereditary hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "hereditary hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "osteomalacia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "osteomalacia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "osteomalacia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "vitamin D-dependent rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "vitamin D-dependent rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Calcitriol",
+        "disease": "vitamin D-dependent rickets"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

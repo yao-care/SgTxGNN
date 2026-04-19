@@ -1,0 +1,412 @@
+## Cisplatin (DB00515) 藥物再利用證據分析
+
+> ⚠️ **資料缺口說明**：Cisplatin 為全球廣泛使用之含鉑化療標準藥物，`market_status: 未上市` 及空白原始適應症屬特定登錄資料庫缺口，非全球市場實況。以下分析依所提供資料進行獨立評估。
+
+---
+
+```json
+{
+  "drug_summary": {
+    "drug": "Cisplatin",
+    "drugbank_id": "DB00515",
+    "analysis_date": "2026-04-04",
+    "data_gap_note": "market_status '未上市' 及空白 original_indications 屬資料庫登錄缺口，非全球市場實況。Cisplatin 為全球批准之標準化療藥物，MoA 為 DNA 鉑加合物形成（intrastrand / interstrand cross-links），阻斷 DNA 複製與轉錄，誘發細胞凋亡。",
+    "overall_moa": "形成鉑-DNA 加合物 → 阻斷 DNA 複製 → 啟動 p53/caspase 凋亡路徑；對 HRD（同源重組缺陷）腫瘤尤其敏感"
+  },
+  "indications": [
+    {
+      "disease_name": "female breast carcinoma",
+      "txgnn_score": 0.9739,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cisplatin 之 DNA 交叉連結作用對具 BRCA1/2 突變或 HRD 的三陰性乳癌（TNBC）具高度選擇性細胞毒性，因此類細胞缺乏有效同源重組修復。PMID 33500735 顯示 cisplatin 可阻斷 EMT 抑制轉移；PMID 32124501 揭示 CtBP1/RAD51 軸為耐藥機制；PMID 38043199 顯示 Set7/9 甲基轉移酶調控 PARP1 影響 cisplatin 反應性，確立 BRCA 缺陷為預測生物標記。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02466971",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，放療合併 cisplatin ± tirapazamine 於乳癌，ACTIVE_NOT_RECRUITING，n=450，為最高等級直接療效證據，確立 L1 基礎"
+        },
+        {
+          "nct_id": "NCT01595061",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，cisplatin + gemcitabine 合併放療於乳癌，n=57，直接測試 cisplatin 療效"
+        },
+        {
+          "nct_id": "NCT04126525",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，paclitaxel/cisplatin 用於 HER2+ 局部晚期乳癌新輔助治療，ACTIVE_NOT_RECRUITING，n=53，直接相關"
+        },
+        {
+          "nct_id": "NCT00002772",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，intensive sequential 化療方案（doxorubicin/paclitaxel/cyclophosphamide），已終止（n=602），方案中 cisplatin 角色未明確"
+        },
+        {
+          "nct_id": "NCT05007106",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 basket study，MK-7684A 免疫治療組合，cisplatin 非主要研究藥物，相關性間接"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2643295",
+          "study_type": "Clinical Series",
+          "tier": "2",
+          "note": "Cisplatin+etoposide 用於難治性乳癌，1989，早期臨床療效證據"
+        },
+        {
+          "pmid": "27905324",
+          "study_type": "Case Series/Review",
+          "tier": "2",
+          "note": "乳腺原發神經內分泌癌單中心經驗，含 cisplatin 方案，2016"
+        },
+        {
+          "pmid": "33500735",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": "3",
+          "note": "EMT 阻斷機制研究，2021，支持抗轉移機轉"
+        },
+        {
+          "pmid": "40295796",
+          "study_type": "Network Pharmacology",
+          "tier": "3",
+          "note": "Olaparib+cisplatin 協同機制分析，2025，支持 HRD 靶向策略"
+        },
+        {
+          "pmid": "32124501",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": "3",
+          "note": "CtBP1/RAD51 耐藥機制，2020"
+        }
+      ],
+      "guardrails_note": "建議限定於 TNBC/BRCA 突變亞型；監測腎毒性、耳毒性、神經毒性；需與婦科腫瘤科共同決策"
+    },
+    {
+      "disease_name": "choriocarcinoma of ovary",
+      "txgnn_score": 0.9568,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "卵巢絨毛膜癌（非妊娠性）屬惡性生殖細胞腫瘤，與睪丸 GCT 共享高增殖率、有限 DNA 損傷修復能力，對鉑類藥物敏感。Cisplatin 為標準 BEP 方案（bleomycin+etoposide+cisplatin）核心成分。NCT03067181 直接比較 carboplatin vs cisplatin 用於 GCT（含卵巢），顯示 cisplatin 在此類型腫瘤中的機轉直接相關；卵黃囊瘤標誌物（AFP）可作為療效監測替代指標。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03067181",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，直接比較 carboplatin vs. cisplatin 用於低風險監測及 GCT（包含卵巢絨毛膜癌）治療，RECRUITING，n=1780，為最高等級直接比較研究，完成後將提供 L1 證據"
+        },
+        {
+          "nct_id": "NCT00470366",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，paclitaxel+ifosfamide+cisplatin 用於未治療中/高風險 GCT，COMPLETED，n=60，直接相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7691050",
+          "study_type": "Clinical Series",
+          "tier": "2",
+          "note": "Cisplatin+vinblastine+bleomycin 用於晚期/復發卵巢 GCT，1993，早期療效系列"
+        },
+        {
+          "pmid": "2458993",
+          "study_type": "Clinical Series",
+          "tier": "2",
+          "note": "含 cisplatin 初始化療於非無性細胞瘤 GCT，1988"
+        },
+        {
+          "pmid": "33888146",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "轉移性非妊娠性卵巢絨毛膜癌治療個案，2021"
+        },
+        {
+          "pmid": "26137022",
+          "study_type": "Case Report/Review",
+          "tier": "3",
+          "note": "原發性非妊娠性絨毛膜癌文獻回顧，2015，確認罕見性與治療挑戰"
+        },
+        {
+          "pmid": "25939824",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "腹腔鏡保留生育力治療個案，2015"
+        }
+      ],
+      "research_question": "NCT03067181 完成後（n=1780）可升級至 L1；目前研究問題為：cisplatin vs carboplatin 在卵巢絨毛膜癌中的非劣效性是否成立？"
+    },
+    {
+      "disease_name": "gonadal germ cell tumor",
+      "txgnn_score": 0.9566,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "生殖細胞腫瘤（GCT）是 cisplatin 治療最成功的典範之一。高敏感性源於：(1) 高增殖率；(2) Nucleotide Excision Repair（NER）功能受損；(3) 保留 p53 凋亡路徑。BEP 方案將晚期 GCT 治癒率從 <20% 提升至 >80%。NCT00003941（Phase 3，COMPLETED，n=222）直接驗證高劑量含 cisplatin 方案，NCT00053352（Phase 3，n=302）確立兒童 GCT 標準治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00003941",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，高劑量 cisplatin/etoposide/ifosfamide + 幹細胞支持 vs 標準治療，COMPLETED，n=222，核心療效證據"
+        },
+        {
+          "nct_id": "NCT00053352",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，低/中風險兒童性腺外 GCT 減量治療（含 cisplatin），COMPLETED，n=302，直接確立兒童 GCT 標準"
+        },
+        {
+          "nct_id": "NCT00274950",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，顱外 GCT 兒童/青少年治療（GC III 方案），n=105，含 cisplatin 核心方案"
+        },
+        {
+          "nct_id": "NCT02429466",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，去甲基化藥物 SGI-110 + cisplatin 用於復發/難治性 GCT，COMPLETED，n=14，探索克服耐藥策略"
+        },
+        {
+          "nct_id": "NCT06309732",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，GAMEC 方案（含 cisplatin）COMPLETED，n=36，替代方案療效探索"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39924670",
+          "study_type": "Comparative Study",
+          "tier": "2",
+          "note": "Carboplatin vs cisplatin 在 GCT 治療中的比較，2025，支持 cisplatin 仍為標準"
+        },
+        {
+          "pmid": "34665989",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "兒童 GCT carboplatin vs cisplatin 方案結果，2022，明確臨床比較數據"
+        },
+        {
+          "pmid": "22301054",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "惡性卵巢 GCT 全面綜述，含 cisplatin BEP 方案，2012"
+        },
+        {
+          "pmid": "39028926",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "TIP 方案（paclitaxel+ifosfamide+cisplatin）長期療效，2024"
+        },
+        {
+          "pmid": "39392037",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": "3",
+          "note": "EMT 轉化介導 cisplatin 耐藥模型，2024"
+        }
+      ],
+      "guardrails_note": "需區分睪丸 vs 卵巢 GCT 之亞型分層；監測後期毒性（腎毒性、耳毒性、神經毒性、繼發性白血病）"
+    },
+    {
+      "disease_name": "adult germ cell tumor",
+      "txgnn_score": 0.9549,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "成人 GCT（以睪丸癌為主）是 cisplatin 治療的里程碑適應症。Cisplatin 敏感性與 12p 染色體擴增、高凋亡易感性及獨特的 DNA 修復缺陷相關。PMID 9552027 的 RCT 直接比較 cisplatin+etoposide+bleomycin vs ifosfamide 方案，為 GCT 標準治療奠定循證基礎。注意：此適應症下所列臨床試驗多為腦腫瘤試驗，反映資料匹配寬鬆，但文獻層面已有 RCT 支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00002876",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，etoposide+cisplatin 用於復發室管膜瘤（腦腫瘤），COMPLETED，n=35，非直接成人 GCT 適應症，但確認 cisplatin 組合耐受性"
+        },
+        {
+          "nct_id": "NCT00336024",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，新診斷 PNET/高風險髓母細胞瘤，COMPLETED，n=91，適應症為腦腫瘤，與成人 GCT 相關性低"
+        },
+        {
+          "nct_id": "NCT00002608",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，cisplatin+doxorubicin+tamoxifen 用於軟組織與內分泌惡性腫瘤，n=30，非直接 GCT"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "9552027",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "隨機比較 cisplatin+etoposide+bleomycin vs ifosfamide 用於進行性 GCT，1998，最高等級直接 RCT 證據，奠定 L1 基礎"
+        },
+        {
+          "pmid": "16170162",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "TIP 方案作為 GCT 第二線治療，n=46，2005，療效確立"
+        },
+        {
+          "pmid": "36959716",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "門診 TIP 方案安全性與療效，2023，現代實踐確認"
+        },
+        {
+          "pmid": "8630961",
+          "study_type": "Clinical Series",
+          "tier": "2",
+          "note": "Cisplatin 為主之性腺外 GCT 化療單中心經驗，1996"
+        },
+        {
+          "pmid": "11801470",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "高劑量化療合併幹細胞移植於 GCT 之現況綜述，2002"
+        }
+      ],
+      "guardrails_note": "試驗匹配品質警示：所列臨床試驗多為腦腫瘤；L1 判定主要依據文獻 RCT（PMID 9552027）及 GCT 領域全球實踐，而非本資料集試驗列表"
+    },
+    {
+      "disease_name": "ovarian primitive germ cell tumor",
+      "txgnn_score": 0.9546,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "卵巢原始生殖細胞腫瘤（OGCT，含未成熟畸胎瘤、卵黃囊瘤、胚胎癌等）與其他 GCT 共享對 cisplatin 的基本敏感機制。BEP 為 OGCT 的骨幹治療，但此特定亞類之 Phase 3 試驗缺乏（NCT00716976 Phase 3 聚焦毒性預防而非療效）。Phase 1 探索（NCT00436657：腹腔內高溫灌注）顯示局部應用潛力，整體療效需依賴由 GCT 大類外推。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00716976",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，硫代硫酸鈉預防 cisplatin 耳毒性（用於兒童 GCT），COMPLETED，n=131，確認 cisplatin 在 GCT 兒童中的標準使用，但聚焦毒性管理而非療效"
+        },
+        {
+          "nct_id": "NCT00436657",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，CHPP cisplatin 劑量遞增於腹膜腫瘤，COMPLETED，n=10，探索性腹膜內給藥策略"
+        },
+        {
+          "nct_id": "NCT00002854",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，高劑量 cisplatin 序貫方案，COMPLETED，n=33，劑量探索研究"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8180359",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "卵巢 GCT 診斷與治療全面綜述，含 cisplatin BEP 方案，1994"
+        },
+        {
+          "pmid": "10561269",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "兒童未成熟畸胎瘤完整切除療效，cisplatin 作為輔助化療，1999"
+        },
+        {
+          "pmid": "39309737",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "晚期妊娠巨大卵巢卵黃囊瘤個案，BEP 方案，2024"
+        },
+        {
+          "pmid": "32957389",
+          "study_type": "Case Report/Review",
+          "tier": "3",
+          "note": "兒童卵巢成長畸胎瘤症候群個案，2020"
+        },
+        {
+          "pmid": "9251739",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "卵巢轉移性 PNET 大劑量化療個案，1997"
+        }
+      ],
+      "research_question": "OGCT 特定亞型（尤其未成熟畸胎瘤 Grade 2-3 + 卵黃囊瘤）是否需要減量 cisplatin 方案？保留生育力手術後輔助化療最佳強度為何？"
+    },
+    {
+      "disease_name": "enteric pattern testicular yolk sac tumor",
+      "txgnn_score": 0.9502,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腸型睪丸卵黃囊瘤（Intestinal/Enteric pattern YST）為 YST 組織學亞型。Cisplatin 的適用性由整體 GCT/YST 類別外推，機轉相同（DNA 交叉連結、凋亡誘導），但此特定形態學亞型無獨立臨床試驗或文獻。TxGNN 評分（0.9502）與其他四種 YST 亞型完全相同，顯示模型無法區分組織亞型特異性，為模型輸出警示。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_note": "TxGNN 評分 0.9502 為此 YST 亞型群組之共同評分，反映預測模型解析度不足以區分組織形態亞型，需謹慎解讀"
+    },
+    {
+      "disease_name": "testicular yolk sac tumor, papillary pattern",
+      "txgnn_score": 0.9502,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳頭型 YST 為 YST 的組織學亞型之一，Schiller-Duval 小體為特徵性結構。Cisplatin 機轉推論同腸型，均源自 BEP 方案對整體 YST 的廣泛療效。此亞型在臨床治療決策上通常不單獨影響化療方案選擇，作為獨立老藥新用研究主題需亞型特異性設計驗證。無此亞型之直接臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_note": "與腸型共享 TxGNN 評分 0.9502，模型無亞型鑑別力"
+    },
+    {
+      "disease_name": "reticular pattern testicular yolk sac tumor",
+      "txgnn_score": 0.9502,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "網狀型 YST 為 YST 最常見的組織學生長模式，形成疏鬆的網狀或微囊狀結構。在成人睪丸 GCT 中純 YST 罕見（多為混合型 GCT），主要見於嬰幼兒。Cisplatin 適用性由 BEP 方案對整體 GCT 外推，但網狀亞型的惰性程度與 cisplatin 反應率是否有別於其他亞型，缺乏數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_note": "嬰幼兒 YST 可能需不同化療強度評估，建議與成人 GCT 分開分析"
+    },
+    {
+      "disease_name": "testicular yolk sac tumor, solid pattern",
+      "txgnn_score": 0.9502,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "實性型 YST 呈緊密排列的瘤細胞塊，無明顯分化結構，為預後較差的亞型之一。Cisplatin 機轉（DNA 損傷誘導凋亡）對此亞型在理論上適用，且 NCT00470466（TIP 方案 Phase 2）提供了最接近的試驗證據。然而，實性型 YST 的 EMT 特徵（PMID 39392037 的耐藥模型研究）提示可能對 cisplatin 產生較高耐藥性，需安全性與初步療效評估後再決策。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00470366",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，TIP 方案（paclitaxel+ifosfamide+cisplatin）用於未治療中/高風險 GCT（包含 YST），COMPLETED，n=60，未特定針對 solid pattern 亞型，但為目前唯一相關試驗"
+        }
+      ],
+      "literature_analysis": [],
+      "safety_concern": "實性型 YST 之 EMT 特徵可能影響 cisplatin 敏感性，建議在 S1 安全性初評時同步評估生物標記（如 E-cadherin、vimentin）"
+    },
+    {
+      "disease_name": "testicular yolk sac tumor, macrocystic pattern",
+      "txgnn_score": 0.9502,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "大囊型 YST 由大囊腔構成，為 YST 中較罕見且預後相對較佳的亞型。Cisplatin 適用性推論源自整體 GCT 療效，但大囊型 YST 的惰性生物學行為（低增殖率、局限性生長）可能導致其對 cisplatin 的反應模式不同於高增殖型亞型。無此亞型的直接臨床試驗或文獻支持，亦無法排除過度治療風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_note": "預後較佳之亞型在「研究再利用 vs 避免過度治療」之間需更審慎衡量"
+    }
+  ]
+}
+```
+
+---
+
+## 證據等級總覽表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|----------|----------|------|---------|
+| female breast carcinoma | **L1** | S3 | ✅ Proceed with Guardrails | Phase 3 RCT (NCT02466971, n=450) + 多個 Phase 2 |
+| gonadal germ cell tumor | **L1** | S3 | ✅ Proceed with Guardrails | Phase 3 × 3 完成 + BEP 方案標準治療 |
+| adult germ cell tumor | **L1** | S3 | ✅ Proceed with Guardrails | RCT PMID 9552027 + 全球臨床實踐 |
+| choriocarcinoma of ovary | **L2** | S2 | 🔬 Research Question | Phase 3 進行中 (NCT03067181) + Phase 2 完成 |
+| ovarian primitive germ cell tumor | **L3** | S2 | 🔬 Research Question | Phase 1 + 文獻綜述，待 Phase 3 外推 |
+| testicular YST, solid pattern | **L3** | S1 | ⏸ Hold | 1 個 Phase 2 間接相關；耐藥疑慮 |
+| enteric pattern testicular YST | **L4** | S0 | ⏸ Hold | 無直接證據，由上層類別外推 |
+| testicular YST, papillary pattern | **L4** | S0 | ⏸ Hold | 無直接證據 |
+| reticular pattern testicular YST | **L4** | S0 | ⏸ Hold | 無直接證據 |
+| testicular YST, macrocystic pattern | **L4** | S0 | ⏸ Hold | 無直接證據；惰性亞型過度治療風險 |
+
+---
+
+## 關鍵分析備注
+
+1. **模型預測警示**：五種 YST 亞型的 TxGNN 評分完全相同（0.9502），顯示 **TxGNN 模型在此群組缺乏亞型鑑別力**，分數反映類別層級而非亞型特異性預測，應降權解讀
+
+2. **Cisplatin 的再利用框架悖論**：Cisplatin 本身已是 GCT 標準治療，在 SgTxGNN 資料集中被標記為「未上市/無適應症」屬資料缺口而非真實臨床空白，**建議優先修正資料完整性**
+
+3. **毒性監控優先項**（所有 S3 適應症）：腎毒性（定期 eGFR）、高頻聽力損失（聽力測試）、周邊神經病變、繼發性白血病（長期隨訪）

@@ -1,0 +1,1124 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09060-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Avibactam",
+    "drugbank_id": "DB09060",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "streptococcal pneumonia",
+      "txgnn": {
+        "score": 0.996972918510437,
+        "rank": 4629
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺炎鏈球菌（Streptococcus pneumoniae）為革蘭氏陽性菌，其 β-lactam 抗性主要由 PBP（penicillin-binding protein）突變介導，非 serine β-lactamase 水解。Avibactam 對此機轉無效，且對革蘭氏陽性菌無已知活性增效作用。機轉關聯不存在。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "influenza, severe, susceptibility to",
+      "txgnn": {
+        "score": 0.9928357005119324,
+        "rank": 8355
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "流感為 RNA 病毒（Influenza A/B）感染，avibactam 為純抗菌性 β-lactamase 抑制劑，對病毒神經氨酸酶（neuraminidase）或任何病毒複製機制無已知交叉作用。細菌性與病毒性靶點完全不同，此預測為生物學上不合理的假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "ureter tuberculosis",
+      "txgnn": {
+        "score": 0.9910984635353088,
+        "rank": 9730
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "M. tuberculosis 具有 BlaC（Class A β-lactamase），avibactam 能抑制 BlaC（Soroka et al., Antimicrob Agents Chemother 2015），理論上與 β-lactam 組合（如 meropenem-avibactam）可增效抗 MTB 活性。此機轉基礎存在，但：(1) 現有研究針對肺結核為主，非輸尿管結核；(2) 組織穿透性及局部藥物濃度未確認；(3) 提供資料中無任何相關試驗或文獻支持此特定解剖適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "urinary schistosomiasis",
+      "txgnn": {
+        "score": 0.9905966520309448,
+        "rank": 10115
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "泌尿系統血吸蟲病由 Schistosoma haematobium（多細胞寄生蟲）引起。Avibactam 靶向細菌 serine β-lactamases，蠕蟲無此靶點，且寄生蟲無細胞壁合成機制。機轉關聯完全不存在，預測為 KG 網絡噪音。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hyperamylasemia",
+      "txgnn": {
+        "score": 0.990065336227417,
+        "rank": 10490
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高澱粉酶血症為胰臟/唾液腺酵素釋放異常（代謝/器官損傷指標），非感染性靶點。TxGNN 預測分數偏高（0.990）推測源於知識圖譜中「amylase（澱粉酶）」與「enzyme inhibitor（酵素抑制劑）」節點的語義相似性漂移，屬 graph embedding 假陽性典型案例。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn": {
+        "score": 0.990065336227417,
+        "rank": 10491
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多株性高黏滯度症候群為漿細胞/B 細胞增生導致免疫球蛋白過量的血液科疾病（如 Waldenström macroglobulinemia 相關），治療以化療/免疫調節為主。Avibactam 無任何抗腫瘤或免疫調節機轉，與此病完全無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "staphylococcus aureus infection",
+      "txgnn": {
+        "score": 0.9897152781486512,
+        "rank": 10745
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06634940",
+            "title": "International Surveillance of Antimicrobial Resistance in Cirrhosis-Related Infections",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 1000,
+            "start_date": "2020-11-15",
+            "completion_date": "2031-06-01",
+            "brief_summary": "What is this study about?\n\nThis study tracks antibiotic resistance in patients with cirrhosis who develop bacterial infections. Cirrhosis is a condition where the liver is severely scarred, and people with cirrhosis are at high risk for serious bacterial infections.\n\nWhy is this study important?\n\nBacterial infections are common in patients with cirrhosis, affecting 25-46% of those who are hospitalized. These infections can be life-threatening, with 1 in 4 patients dying from complications. Many ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "肝硬化相關感染抗藥性國際監測研究（Phase N/A，觀察性，N=1000，狀態：招募中）。研究目的為流行病學監測，非測試 avibactam 對 S. aureus 的療效；僅提供細菌流行背景，與再利用假說無直接支持關係。"
+            }
+          },
+          {
+            "nct_id": "NCT03941951",
+            "title": "Quasi-experimental Intervention Study to Optimize the Use of New Antibiotics (Project NEW_SAFE)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 900,
+            "start_date": "2019-07-09",
+            "completion_date": "2022-12-31",
+            "brief_summary": "Quasi-experimental intervention multicenter trial of patients treated with new antibiotics (before-after study).\n\nThe study will be carried out in 14 hospitals of the Andalusian Public Health System with representation from all the provinces and has been designed in two phases:\n\n1. A first phase in which an observational study of historical preintervention cohorts of patients who have received either empirical or targeted treatment with ceftaroline, tedizolid, dalbavancin, ceftazidime-avibactam,",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "新型抗生素使用優化準實驗研究（Phase NA，N=900，狀態：UNKNOWN）。為一般性抗生素管理干預，未特異性研究 avibactam 對 S. aureus 的效果；狀態不明確降低可用性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40910659",
+            "title": "Management of MDR/XDR severe infections in the critically ill.",
+            "authors": [
+              "Mezzadri Luca",
+              "Chang Ya-Ting",
+              "Paterson David L"
+            ],
+            "journal": "Current opinion in critical care",
+            "year": "2025",
+            "abstract": "This review aims to summarize current recommendations for the management of serious infections, such as bloodstream infections (BSIs) and ventilator-associated pneumonia, caused by multidrug-resistant (MDR) and extensively drug-resistant (XDR) pathogens, focusing on evidence from randomized controlled trials (RCTs) and emerging treatment options.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22733066",
+            "title": "Activity of ceftaroline-avibactam tested against Gram-negative organism populations, including strains expressing one or more β-lactamases and methicillin-resistant Staphylococcus aureus carrying various staphylococcal cassette chromosome mec types.",
+            "authors": [
+              "Castanheira Mariana",
+              "Sader Helio S",
+              "Farrell David J",
+              "Mendes Rodrigo E",
+              "Jones Ronald N"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2012",
+            "abstract": "Ceftaroline is a new cephalosporin with broad-spectrum activity against Gram-positive and -negative organisms. The prodrug of ceftaroline, ceftaroline fosamil, combined with the β-lactamase inhibitor avibactam (formerly NXL104), was tested against Enterobacteriaceae strains producing Ambler class A, B, C, and D enzymes, including strains producing multiple enzymes, as well as Pseudomonas aeruginosa, Acinetobacter spp., and methicillin-susceptible and methicillin-resistant Staphylococcus aureus (",
+            "classification": {
+              "study_type": "In vitro Susceptibility Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36804370",
+            "title": "Off-label use versus formal recommendations of conventional and novel antibiotics for the treatment of infections caused by multidrug-resistant bacteria.",
+            "authors": [
+              "Jean Shio-Shin",
+              "Liu I-Min",
+              "Hsieh Po-Chuen",
+              "Kuo Dai-Huang",
+              "Liu Yi-Lien"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2023",
+            "abstract": "The infections caused by multidrug- and extensively drug-resistant (MDR, XDR) bacteria, including Gram-positive cocci (GPC, including methicillin-resistant Staphylococcus aureus, MDR-Streptococcus pneumoniae and vancomycin-resistant enterococci) and Gram-negative bacilli (GNB, including carbapenem-resistant [CR] Enterobacterales, CR-Pseudomonas aeruginosa and XDR/CR-Acinetobacter baumannii complex) can be quite challenging for physicians with respect to treatment decisions. Apart from complicate",
+            "classification": {
+              "study_type": "Observational / Guidelines Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40612455",
+            "title": "An exploratory cost-effectiveness analysis of methicillin-resistant Staphylococcus aureus nares PCR in pediatric pneumonia and tracheitis.",
+            "authors": [
+              "Facer Evan E",
+              "Aldewereld Zachary",
+              "Green Michael D",
+              "Smith Kenneth J"
+            ],
+            "journal": "Antimicrobial stewardship & healthcare epidemiology : ASHE",
+            "year": "2025",
+            "abstract": "To estimate the cost-effectiveness of methicillin-resistant Staphylococcus aureus (MRSA) nares poymerase chain reaction (PCR) use in pediatric pneumonia and tracheitis.",
+            "classification": {
+              "study_type": "Cost-effectiveness Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40516754",
+            "title": "A time series analysis approach to quantify change in antibiotic resistance and antibiotic consumption during COVID-19 epidemics: a multicentre cross-national ecological study on behalf of QUantifying change in Antibiotic Resistance, ANTibiotic use, and INfection control during COVID-19 Epidemics study project.",
+            "authors": [
+              "Meschiari Marianna",
+              "López Lozano José María",
+              "Medioli Filippo",
+              "Bacca Erica",
+              "Sarti Mario"
+            ],
+            "journal": "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases",
+            "year": "2025",
+            "abstract": "We aimed to assess the impact of COVID-19 on antibiotic consumption (AMC) and antimicrobial resistance (AMR) in the new epidemiological scenario from a cross-national perspective.",
+            "classification": {
+              "study_type": "Time Series / Ecological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28314920",
+            "title": "[New antibiotics - standstill or progress].",
+            "authors": [
+              "Rademacher J",
+              "Welte T"
+            ],
+            "journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+            "year": "2017",
+            "abstract": "The development of resistance to antibiotics has been ignored for a long time. But nowadays, increasing resistance is an important topic. For a decade no new antibiotics had been developed and it is not possible to quickly close this gap of new resistance and no new drugs. This work presents six new antibiotics (ceftaroline, ceftobiprole, solithromycin, tedizolid, ceftolozane/tazobactam, ceftazidime/avibactam). In part, only expert opinions are given due to lack of study results.The two 5th gene",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40887577",
+            "title": "The bacterial etiology and antimicrobial susceptibility of lower respiratory tract infections in Vietnam.",
+            "authors": [
+              "Dung Tran Thi Ngoc",
+              "Vinh Chau",
+              "Anh Pham Hong",
+              "Linh Vo Kim Phuong",
+              "Tuyen Ha Thanh"
+            ],
+            "journal": "Annals of clinical microbiology and antimicrobials",
+            "year": "2025",
+            "abstract": "Lower respiratory tract infection (LRTI) remains the leading infectious cause of morbidity and mortality globally. Key bacterial pathogens include Acinetobacter baumannii, Pseudomonas aeruginosa, Klebsiella pneumoniae, Escherichia coli, Staphylococcus aureus and Streptococcus pneumoniae. This study examined the prevalence and antimicrobial resistance patterns of major bacterial pathogens from community- and hospital-acquired LRTIs across six major hospitals in Vietnam.",
+            "classification": {
+              "study_type": "Epidemiology / Cross-sectional",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25667169",
+            "title": "Development of novel antibacterial drugs to combat multiple resistant organisms.",
+            "authors": [
+              "Bassetti Matteo",
+              "Righi Elda"
+            ],
+            "journal": "Langenbeck's archives of surgery",
+            "year": "2015",
+            "abstract": "Infections due to multidrug-resistant (MDR) bacteria are increasing both in hospitals and in the community and are characterized by high mortality rates. New molecules are in development to face the need of active compounds toward resistant gram-positive and gram-negative pathogens. In particular, the Infectious Diseases Society of America (IDSA) has supported the initiative to develop ten new antibacterials within 2020. Principal targets are the so-called ESKAPE pathogens (Enterococcus faecium,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40426531",
+            "title": "Outcome of Bloodstream Infections Caused by Antibiotic-Resistant Bacteria: A 7-Year Retrospective Study at the University Hospital of Palermo, Italy.",
+            "authors": [
+              "Pipitò Luca",
+              "Bono Eleonora",
+              "Mazzola Chiara Vincenza",
+              "Rubino Raffaella",
+              "Anastasia Antonio"
+            ],
+            "journal": "Antibiotics (Basel, Switzerland)",
+            "year": "2025",
+            "abstract": "Bloodstream infections (BSIs) are both a primary cause and a severe complication of hospitalization. This retrospective study aims to analyze the epidemiology of BSIs at the University Hospital of Palermo from 2018 to 2024.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39386375",
+            "title": "Resistance is reality: findings from the first Ukrainian cumulative antibiogram.",
+            "authors": [
+              "Vodianyk Arkadii",
+              "Holovnia Oksana",
+              "Diomin Eugene",
+              "Letourneau Alyssa R",
+              "Poznansky Mark C"
+            ],
+            "journal": "JAC-antimicrobial resistance",
+            "year": "2024",
+            "abstract": "Antimicrobial resistance is a global health threat resulting in significant morbidity and mortality worldwide. Until recently, in Ukraine, cumulative antibiograms (CuAbgms) have never been available.",
+            "classification": {
+              "study_type": "Epidemiology / Antibiogram Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37553715",
+            "title": "Bacterial ventriculoperitoneal shunt infections: changing trends in antimicrobial susceptibility, a 7-year retrospective study from Pakistan.",
+            "authors": [
+              "Akram Asif Amina",
+              "Mahmood Khalid",
+              "Riaz Saba",
+              "McHugh Timothy",
+              "Sultan Sikander"
+            ],
+            "journal": "Antimicrobial resistance and infection control",
+            "year": "2023",
+            "abstract": "Ventriculoperitoneal (VP) shunt infections in adults represent a severe complication and make treatment more challenging. Therefore, drug susceptibility patterns are crucial for therapeutic decisions and infection control in neurosurgical centers. This 7-year retrospective study aimed to identify the bacteria responsible for adult VP shunt infections and determine their drug susceptibility patterns.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29913473",
+            "title": "Meropenem/vaborbactam (Vabomere) for complicated urinary tract infection.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36143934",
+            "title": "Antibiotic Abuse and Antimicrobial Resistance in Hospital Environment: A Retrospective Observational Comparative Study.",
+            "authors": [
+              "Nardulli Patrizia",
+              "Hall Gabriel Gustafsson",
+              "Quarta Alessandro",
+              "Fruscio Giovanni",
+              "Laforgia Mariarita"
+            ],
+            "journal": "Medicina (Kaunas, Lithuania)",
+            "year": "2022",
+            "abstract": "Background and Objectives: Antimicrobial resistance represents a serious problem, and it may be life-threatening in the case of severe hospital-acquired infections (HAI). Antibiotic abuse and multidrug resistance (MDR) have significantly increased this burden in the last decades. The aim of this study was to investigate the distribution and susceptibility rates of five selected bacterial species (E. coli, K. pneumoniae, P. aeruginosa, S. aureus and E. faecium) in two healthcare settings located ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37644177",
+            "title": "[New developments in the fight against bacterial infections : Update on antiobiotic research, development and treatment].",
+            "authors": [
+              "Stegemann Miriam",
+              "Trost Ulrike"
+            ],
+            "journal": "Innere Medizin (Heidelberg, Germany)",
+            "year": "2023",
+            "abstract": "Infections caused by pathogens with antimicrobial resistance (AMR) pose a threat to modern healthcare and have triggered the development of comprehensive national and global action plans against the spread of AMR. These include an increasing global network with the focus on rational antibiotic use, innovative strategies on antibiotic research and development, and new therapeutic approaches in antibacterial drug research. In Europe 671,689 infections associated with AMR pathogens and 33,110 death",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35183777",
+            "title": "Microbiology and antimicrobial sensitivity of ventriculo-peritoneal shunt infections in a referral paediatric neurosurgery ward during a period of 7 years.",
+            "authors": [
+              "Mostafavi Sayed Nassereddin",
+              "Khedmati Majid",
+              "Kelishadi Roya"
+            ],
+            "journal": "Journal of global antimicrobial resistance",
+            "year": "2022",
+            "abstract": "This study aims to evaluate the aetiology and antibiotic susceptibility pattern in children with ventriculo-peritoneal (VP) shunt infections.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36316206",
+            "title": "[Clinical experience with the use of newer antibiotics in internal medicine].",
+            "authors": [
+              "Paterová Pavla",
+              "Novosadová Martina"
+            ],
+            "journal": "Vnitrni lekarstvi",
+            "year": "2022",
+            "abstract": "The alarming rise in antibiotic resistance between Gram-positive and Gram-negative bacteria makes maximum use of known and available antibiotics necessary. The aim of this work is to highlight some advantages and disadvantages of antibiotics that have appeared on the market in recent years, and share clinical experience with their use in internal medicine. Flucloxacillin is an antibiotic with a significant antistaphylococcal effect, the most significant indications of the oral form are infection",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24041891",
+            "title": "In vivo efficacy of humanized ceftaroline fosamil-avibactam exposures in a polymicrobial infection model.",
+            "authors": [
+              "Bhalodi Amira A",
+              "Crandon Jared L",
+              "Williams Gregory",
+              "Nicolau David P"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2013",
+            "abstract": "Although Gram-positive cocci are the most common pathogens in diabetic foot infections, these infections often are polymicrobial. The objective of this study was to assess the efficacy of a simulated human dose of 600 mg ceftaroline fosamil-600 mg avibactam every 8 h as a 1-h infusion in a polymicrobial in vivo murine model. Seven isolates were used (3 methicillin-resistant Staphylococcus aureus [MRSA] isolates, 1 methicillin-susceptible S. aureus [MSSA] isolate, 1 Escherichia coli isolate, 1 En",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39816272",
+            "title": "In vitro antimicrobial susceptibility of clinical isolates from adult and paediatric patients in Jordan: Antimicrobial Testing Leadership and Surveillance (ATLAS) 2010-2021.",
+            "authors": [
+              "Al Jammal Dima",
+              "Bachir Julia",
+              "Moussa Jihane A",
+              "Al Ramahi Jamal Wadi"
+            ],
+            "journal": "Frontiers in antibiotics",
+            "year": "2024",
+            "abstract": "To evaluate the in vitro antimicrobial susceptibilities of Gram-positive and Gram-negative isolates from patients in Jordan between 2010 and 2021, through the Antimicrobial Testing Leadership and Surveillance (ATLAS) programme.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41454504",
+            "title": "In vitro Antibiotic Susceptibility of Bacterial Isolates from Polish patients with Cystic Fibrosis: A Non-Interventional Study.",
+            "authors": [
+              "Milczewska Justyna",
+              "Skorupa Wojciech",
+              "Walicka-Serzysko Katarzyna",
+              "Springer Daria",
+              "Kołda Ewa"
+            ],
+            "journal": "Polish journal of microbiology",
+            "year": "2025",
+            "abstract": "This non-interventional study was conducted at three cystic fibrosis (CF) treatment centers in Poland from August 2022 to July 2023. The aim was to assess the etiology of bacterial infection and evaluate antimicrobial susceptibility in CF patients. Prevalent pathogens were identified and their in vitro susceptibility to commonly prescribed antibiotics was assessed, highlighting potential needs in CF antibiotic therapy. Results indicated that Staphylococcus aureus was the most frequently isolated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23979759",
+            "title": "In vitro activity of ceftaroline-avibactam against gram-negative and gram-positive pathogens isolated from patients in Canadian hospitals from 2010 to 2012: results from the CANWARD surveillance study.",
+            "authors": [
+              "Karlowsky James A",
+              "Adam Heather J",
+              "Baxter Melanie R",
+              "Lagacé-Wiens Philippe R S",
+              "Walkty Andrew J"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2013",
+            "abstract": "The in vitro activities of ceftaroline-avibactam, ceftaroline, and comparative agents were determined for a collection of bacterial pathogens frequently isolated from patients seeking care at 15 Canadian hospitals from January 2010 to December 2012. In total, 9,758 isolates were tested by using the Clinical and Laboratory Standards Institute (CLSI) broth microdilution method (document M07-A9, 2012), with MICs interpreted by using CLSI breakpoints (document M100-S23, 2013). Ceftaroline-avibactam ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "金黃色葡萄球菌（包含 MRSA）具 PC1 β-lactamase（Class A），理論上 avibactam 可抑制之。Ceftaroline（具 MRSA 活性）+ avibactam 組合（ceftaroline-avibactam）已有體外研究。然而：(1) avibactam 對革蘭氏陽性菌增效作用臨床數據有限；(2) 現有 2 個試驗皆為觀察性/管理性研究；(3) 20 篇文獻中無一直接測試 avibactam 介入 S. aureus 感染結果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "renal tuberculosis",
+      "txgnn": {
+        "score": 0.98932284116745,
+        "rank": 11020
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29507064",
+            "title": "Pneumonia and Renal Replacement Therapy Are Risk Factors for Ceftazidime-Avibactam Treatment Failures and Resistance among Patients with Carbapenem-Resistant Enterobacteriaceae Infections.",
+            "authors": [
+              "Shields Ryan K",
+              "Nguyen M Hong",
+              "Chen Liang",
+              "Press Ellen G",
+              "Kreiswirth Barry N"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2018",
+            "abstract": "Ceftazidime-avibactam was used to treat 77 patients with carbapenem-resistant Enterobacteriaceae (CRE) infections at our center. Thirty- and 90-day survival rates were 81% and 69%, respectively; these rates were higher than those predicted by SAPS II and SOFA scores at the onset of infection. Clinical success was achieved for 55% of patients but differed by the site of infection. Success rates were lowest for pneumonia (36%) and higher for bacteremia (75%) and urinary tract infections (88%). By ",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉同「輸尿管結核」（BlaC 抑制），但提供唯一文獻（PMID 29507064）為研究 ceftazidime-avibactam 治療革蘭氏陰性菌感染失敗的危險因子（肺炎、腎替代治療），與腎臟結核完全無關。此為系統性文獻匹配錯誤（假陽性連結）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "squamous cell lung carcinoma",
+      "txgnn": {
+        "score": 0.9886189699172974,
+        "rank": 11585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺鱗狀細胞癌為上皮源性惡性腫瘤，主要由 EGFR/FGFR/TP53 等腫瘤驅動突變介導。Avibactam 無已知抗腫瘤機轉（無激酶抑制、無 DNA 損傷、無免疫調節）。KG 預測可能源於「肺部感染→肺部疾病→肺癌」的圖遍歷路徑假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital analbuminemia",
+      "txgnn": {
+        "score": 0.988358438014984,
+        "rank": 11788
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無白蛋白血症由 ALB 基因突變導致白蛋白缺失，為罕見遺傳性疾病。Avibactam 蛋白質結合率約 5-8%（主要與白蛋白結合），KG 可能因「白蛋白 → 藥物結合蛋白 → 無白蛋白血症」節點連結產生高分預測，屬藥動學參數被誤解為治療關聯的典型假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "streptococcal pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "streptococcal pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "streptococcal pneumonia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "influenza, severe, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "influenza, severe, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "influenza, severe, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "ureter tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "ureter tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "ureter tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "urinary schistosomiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "urinary schistosomiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "urinary schistosomiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "renal tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "renal tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "renal tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "squamous cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "squamous cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "squamous cell lung carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avibactam",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

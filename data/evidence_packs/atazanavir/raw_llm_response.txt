@@ -1,0 +1,366 @@
+# Atazanavir (DB01072) 藥物再利用證據分析
+
+> ⚠️ **注意**：資料顯示 `market_status: 未上市`、`original_indications: []`、`original_moa: [Data Gap]`。根據醫學知識補充：Atazanavir（Reyataz®）為 **HIV-1 蛋白酶抑制劑（PI）**，全球已上市但本地資料庫收錄缺失，以下分析整合外部知識進行評估。
+
+---
+
+```json
+{
+  "drug": "Atazanavir",
+  "drugbank_id": "DB01072",
+  "analysis_date": "2026-04-05",
+  "moa_supplement": "HIV-1 蛋白酶抑制劑（PI）：阻斷 Gag-Pol 多蛋白前體切割，抑制病毒顆粒成熟。同時抑制 CYP3A4 / UGT1A1，影響膽紅素代謝。",
+  "data_quality_flags": [
+    "original_moa 欄位缺失（[Data Gap]），MoA 由 DrugBank 外部知識補充",
+    "market_status 未上市（本地資料庫無收錄，非藥物本身未上市）",
+    "ddi_count = 0 可能反映本地資料庫缺漏，Atazanavir 實際 DDI 負擔極高"
+  ],
+  "indications": [
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "貓免疫缺乏病毒（FIV）雖與 HIV-1 同屬慢病毒屬，但蛋白酶三維結構差異顯著，HIV-1 PI 對 FIV 蛋白酶親和力低；此外為獸醫適應症，超出人類藥物再利用框架。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "TxGNN 高分源於 HIV 相關節點的圖神經網路拓樸相似性，非臨床可行性。屬 L5 純預測，不建議投入資源。"
+    },
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "SIV 蛋白酶與 HIV-1 蛋白酶同源性高（～50%），HAART 方案（含 PI）已被用於 SIV 感染獼猴模型以研究病毒儲庫動態，但屬動物模型/基礎研究，不構成人類臨床適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20497048",
+          "title": "Simian immunodeficiency virus-infected macaques treated with highly active antiretroviral therapy",
+          "year": "2010",
+          "study_type": "Animal Model / Preclinical",
+          "tier": "3",
+          "relevance_note": "僅動物模型；提供 Atazanavir 於 SIV 情境的間接機轉支持，但無法直接轉化為人類適應症建議"
+        }
+      ],
+      "summary": "單篇動物模型文獻，L4 間接證據。作為 HIV 病毒儲庫研究工具有學術價值，但不構成新適應症開發目標。"
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病（OMIM 617183，可能為 TSEN54 或類似基因相關）為遺傳性神經發育障礙，與 HIV 蛋白酶抑制機轉無明確關聯。TxGNN 高分可能源於知識圖譜中『神經系統』節點的間接路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "零臨床試驗、零文獻，無任何機轉假說支撐。L5 純預測，建議 Hold。"
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn_score": 0.9982,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 注意：Atazanavir（尤其合併 Ritonavir）實際上可能引發高脂血症（副作用），而非治療高脂血症。此外該疾病術語已標記為 'obsolete'，OMIM/MONDO 本體已棄用。因果方向倒置，機轉負向。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "疾病術語廢棄＋因果方向矛盾（Atazanavir 為高脂血症風險因子）。L5，建議 Hold。"
+    },
+    {
+      "disease_name": "AIDS related complex",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "AIDS related complex（ARC）為 HIV 感染 CD4⁺ T 細胞計數下降、出現機會性感染但尚未達到 AIDS 診斷標準的臨床分期。Atazanavir 作為 HIV-1 蛋白酶抑制劑，直接抑制病毒複製，可提升 CD4⁺ 細胞數及降低病毒載量，機轉直接且明確。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01099579",
+          "title": "A Prospective Single Arm, Open-label, International, Multicenter Study to Evaluate the Safety and Efficacy...",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 82,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 完成試驗，直接評估 Atazanavir 含方案之安全性與療效；雖樣本數較小（N=82），但設計嚴謹，為核心支持證據"
+        },
+        {
+          "nct_id": "NCT00035932",
+          "title": "Phase III Open Label Atazanavir (BMS-232632) in Combination With Ritonavir or Saquinavir, and Lopinavir...",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 571,
+          "relevance_grade": "A",
+          "reasoning": "大型 Phase 3 比較試驗（N=571），ATV/RTV vs Lopinavir 方案，直接支持 Atazanavir 在 HIV/ARC 情境的療效與安全性"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28991888",
+          "title": "Commonly Prescribed Antiretroviral Therapy Regimens and Incidence of AIDS-Defining Neurological Conditions",
+          "year": "2018",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance_note": "評估包含 ATV 之 ART 方案對 AIDS 定義性神經學疾病發生率的影響，間接支持療效"
+        },
+        {
+          "pmid": "19290032",
+          "title": "Risk factors for gastrointestinal adverse events in HIV treated and untreated patients",
+          "year": "2009",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance_note": "安全性相關研究，評估 ATV 治療患者的 GI 副作用風險"
+        },
+        {
+          "pmid": "34978889",
+          "title": "Fluorine Modifications Contribute to Potent Antiviral Activity against Highly Drug-Resistant HIV-1",
+          "year": "2022",
+          "study_type": "Basic Research / Drug Discovery",
+          "tier": "3",
+          "relevance_note": "探討耐藥性 HIV-1 的新型 PI 設計，與 Atazanavir 現有療效間接相關"
+        }
+      ],
+      "guardrails": [
+        "ARC 為 HIV 感染連續譜，應整合至 HIV 標準治療指引框架（DHHS/WHO），而非獨立適應症",
+        "需監測高膽紅素血症（UGT1A1 抑制）、腎結石風險（特別是本地缺乏 DDI 數據情況下）",
+        "本地 market_status 未上市需確認：可能需要特殊進口或替代 PI 選擇"
+      ],
+      "summary": "具備 2 個 Phase 3 完成試驗（總 N=653）及支持性文獻，L1 最高等級證據。ARC 本質為 HIV 感染階段，Atazanavir 機轉完全契合。建議 Proceed with Guardrails，重點為本地藥物可及性確認。"
+    },
+    {
+      "disease_name": "congenital human immunodeficiency virus",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "先天性 HIV 感染（母嬰垂直傳播）之嬰幼兒及兒童患者需長期 ART 治療。Atazanavir 具兒科配方（粉末劑型），可與食物同服，QD 給藥方便，已在 PMTCT 及兒童 HIV 治療中廣泛研究。機轉同成人 HIV 治療，另有 PMTCT 脈絡中母體 PK 研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02422797",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 518,
+          "relevance_grade": "A",
+          "reasoning": "大型 Phase 3 RCT（N=518），直接評估兒童/青少年 HIV 患者中 Atazanavir 方案療效，核心支持證據"
+        },
+        {
+          "nct_id": "NCT00272779",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 1057,
+          "relevance_grade": "A",
+          "reasoning": "最大規模試驗（N=1,057），96 週比較 ATV/RTV vs LPV/RTV，長期療效與安全性核心數據"
+        },
+        {
+          "nct_id": "NCT02227238",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 627,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3b（N=627），比較 Dolutegravir vs ATV/RTV，提供相對療效數據"
+        },
+        {
+          "nct_id": "NCT02269917",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 1149,
+          "relevance_grade": "A",
+          "reasoning": "最大型試驗（N=1,149），Phase 3 開放標籤，廣泛療效與安全性評估"
+        },
+        {
+          "nct_id": "NCT01232127",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 25,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 PK/DDI 研究（Famotidine 交互作用），樣本數小但提供重要用藥管理資訊"
+        },
+        {
+          "nct_id": "NCT01691794",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 108,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 安全性研究（N=108），真實世界安全性補充數據"
+        },
+        {
+          "nct_id": "NCT00207142",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 252,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 維持治療策略試驗（N=252），支持長期治療管理"
+        },
+        {
+          "nct_id": "NCT00326716",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 69,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 PK 研究（N=69），ATV/RTV 在 HAART 背景下的藥動學，為劑量管理提供依據"
+        },
+        {
+          "nct_id": "NCT00197145",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "enrollment": 24,
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 但提早終止（N=24），樣本極小，終止原因需查核，結果可靠性有限"
+        },
+        {
+          "nct_id": "NCT02386098",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 86,
+          "relevance_grade": "C",
+          "reasoning": "Phase 2b 提早終止（N=86），可能反映設計問題或安全性考量，降低等級"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27242802",
+          "title": "The PHACS SMARTT Study: Assessment of the Safety of In Utero Exposure to Antiretroviral Drugs",
+          "year": "2016",
+          "study_type": "Prospective Cohort",
+          "tier": "1",
+          "relevance_note": "PHACS SMARTT 大型前瞻性世代研究，系統性評估宮內 ART 暴露（含 ATV）的安全性，最高品質佐證文獻"
+        },
+        {
+          "pmid": "40011239",
+          "title": "Antiretroviral drug exposure in pregnancy and risk of congenital anomalies: a European case/non-case study",
+          "year": "2025",
+          "study_type": "Case/Non-case Study",
+          "tier": "2",
+          "relevance_note": "最新（2025）歐洲多中心研究，評估妊娠期 ART 暴露與先天性異常風險，直接相關"
+        },
+        {
+          "pmid": "24992294",
+          "title": "Atazanavir exposure is effective during pregnancy regardless of tenofovir use",
+          "year": "2015",
+          "study_type": "PK Cohort",
+          "tier": "2",
+          "relevance_note": "妊娠期 ATV 藥動學研究，tenofovir 交互作用評估，直接支持 PMTCT 場景用藥"
+        },
+        {
+          "pmid": "25383770",
+          "title": "Congenital anomalies and in utero antiretroviral exposure in HIV-exposed uninfected infants",
+          "year": "2015",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance_note": "評估宮內 ART 暴露（含 ATV）對 HIV 暴露但未感染嬰兒的先天異常風險"
+        },
+        {
+          "pmid": "31595301",
+          "title": "Analysis of Pharmacovigilance Databases for Dolutegravir Safety in Pregnancy",
+          "year": "2020",
+          "study_type": "Pharmacovigilance",
+          "tier": "2",
+          "relevance_note": "藥物警戒研究，比較 ATV 與 DTG 妊娠安全性，提供相對安全性框架"
+        },
+        {
+          "pmid": "28459118",
+          "title": "Newborn Hearing Screenings in HIV-Exposed Uninfected Infants",
+          "year": "2016",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance_note": "評估 ART 暴露嬰兒聽力安全性，為先天性 HIV 管理提供安全性補充數據"
+        },
+        {
+          "pmid": "29859254",
+          "title": "Interactions of protease inhibitors atazanavir and ritonavir with ABCB1, ABCG2, and ABCC2 transporters",
+          "year": "2018",
+          "study_type": "In Vitro / Mechanistic",
+          "tier": "3",
+          "relevance_note": "轉運蛋白交互作用研究，解釋 ATV 胎盤穿透性及 DDI 機轉，機轉補充"
+        }
+      ],
+      "guardrails": [
+        "⚠️ 妊娠安全性監測必要：PMTCT 使用需持續追蹤先天異常風險（2025 年最新研究仍有不確定性）",
+        "兒科劑量精準計算：需按體重調整，ATV 粉末劑型（50mg）與 ATV 膠囊生物等效性需確認",
+        "高膽紅素血症監測：UGT1A1 *28 多態性攜帶者風險倍增，建議基因型篩查",
+        "本地 DDI 數據缺失（ddi_count=0）：ATV 實際 DDI 極多，需查詢 Liverpool HIV drug interactions 資料庫",
+        "Ritonavir boosting 需求確認：ATV 通常需 RTV 或 COBI 增效，boosting 策略影響療效"
+      ],
+      "summary": "4 個 Phase 3 完成 RCT（總 N=3,351）加上豐富 Phase 4 及安全性數據，為 L1 最強等級。先天性 HIV 兒童及 PMTCT 均有充分支持。建議 Proceed with Guardrails，重點管控妊娠安全性與本地 DDI 數據缺口。"
+    },
+    {
+      "disease_name": "fibroma of prostate",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺纖維瘤為良性間質腫瘤，與 HIV 蛋白酶抑制無機轉關聯。PI 類藥物雖有報告抗血管新生效應（抑制 MMP），但針對前列腺纖維瘤無任何假說或數據。TxGNN 高分可能源於圖譜中藥物節點與「生殖系統腫瘤」大類別的非特異性連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "零臨床試驗、零文獻，無機轉假說。L5，建議 Hold。"
+    },
+    {
+      "disease_name": "Brenner tumor",
+      "txgnn_score": 0.9868,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Brenner 腫瘤為卵巢移行細胞型良性/惡性腫瘤。部分研究顯示 HIV-PI 具 NF-κB 抑制及抗增殖效應，但無針對 Brenner 腫瘤的任何機轉假說或臨床前數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "零臨床試驗、零文獻，無直接機轉支持。L5，建議 Hold。"
+    },
+    {
+      "disease_name": "benign reproductive system neoplasm",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "廣泛分類疾病節點，可能因知識圖譜中與上述 Brenner tumor / fibroma of prostate 的本體層級關係而得高分。無特異性機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "本體論廣義父類別節點，TxGNN 高分可能為子節點分數上傳播效應。L5，建議 Hold。"
+    },
+    {
+      "disease_name": "benign prostate phyllodes tumor",
+      "txgnn_score": 0.9851,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺葉狀腫瘤（Phyllodes tumor）為極罕見良性腫瘤，發生率極低，無 Atazanavir 相關的任何機轉假說或數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "零臨床試驗、零文獻，極罕見疾病，無機轉支持。L5，建議 Hold。"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 彙總決策矩陣
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|-----------|----------|----------|------|----------|
+| AIDS related complex | 0.9971 | **L1** | **S3** | ✅ Proceed with Guardrails | 2× Phase 3 RCT (N=653) |
+| congenital HIV | 0.9971 | **L1** | **S3** | ✅ Proceed with Guardrails | 4× Phase 3 RCT (N=3,351) + PMTCT數據 |
+| simian immunodeficiency virus | 0.9998 | L4 | S1 | 🔬 Research Question | 1篇動物模型文獻 |
+| feline AIDS | 0.9998 | L5 | S0 | ❌ Hold | 純預測，獸醫適應症 |
+| neurodevelopmental disorder | 0.9998 | L5 | S0 | ❌ Hold | 零證據，無機轉 |
+| obsolete familial hyperlipidemia | 0.9982 | L5 | S0 | ❌ Hold | 術語廢棄＋因果方向矛盾 |
+| fibroma of prostate | 0.9878 | L5 | S0 | ❌ Hold | 零證據，無機轉 |
+| Brenner tumor | 0.9868 | L5 | S0 | ❌ Hold | 零證據 |
+| benign reproductive neoplasm | 0.9867 | L5 | S0 | ❌ Hold | 本體廣義節點效應 |
+| benign prostate phyllodes tumor | 0.9851 | L5 | S0 | ❌ Hold | 極罕見，零證據 |
+
+---
+
+## 🔑 關鍵發現
+
+### 1. TxGNN 高分≠臨床可行性警示
+本案例中 **FIV（0.9998）、neurodevelopmental disorder（0.9998）** 分數高於 **AIDS related complex（0.9971）**，但前兩者為 L5 而後者為 L1，印證 TxGNN 圖譜相似性分數需配合臨床證據分層才有意義。
+
+### 2. 核心可行適應症
+僅 **AIDS related complex** 與 **Congenital HIV** 達到 S3 可建議等級，均為 HIV 感染譜系的直接應用，機轉完全一致。
+
+### 3. 本地資料品質缺口
+`ddi_count = 0` 為嚴重警示：Atazanavir 實際上是 DDI 最複雜的抗 HIV 藥物之一（抑制 CYP3A4、UGT1A1、P-gp），本地資料庫缺漏需在臨床使用前補強，建議查詢 [Liverpool HIV Drug Interactions](https://www.hiv-druginteractions.org/) 資料庫。
+
+> **免責聲明**：本分析僅供研究參考，不構成醫療建議。老藥新用候選需經完整臨床驗證方可應用於患者照護。

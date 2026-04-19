@@ -1,0 +1,811 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB12141-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gilteritinib",
+    "drugbank_id": "DB12141",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "bulbar polio",
+      "txgnn": {
+        "score": 0.9910489320755004,
+        "rank": 9763
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "延髓型小兒麻痺為腸病毒感染引起的下位運動神經元疾病，致病機轉與 FLT3/AXL 激酶訊號路徑無任何已知關聯。TxGNN 評分 0.991 為圖神經網路的高分假陽性，可能源於知識圖譜中疾病節點的遠端鄰域相似性，非生物學真實訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent",
+      "txgnn": {
+        "score": 0.9899098873138428,
+        "rank": 10593
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "治療相關性 AML/MDS（烷化劑誘發，t-AML）屬 AML 亞型，FLT3 突變率約 10–15%（低於原發性 AML 的 ~30%）。Gilteritinib 作為 FLT3 抑制劑在廣義 AML 已獲核准，具間接外推依據，但針對此特定亞型缺乏直接臨床試驗或文獻。歸類為 L4（間接證據），需先確認 FLT3 突變富集率再決定推進方向。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acute myeloid leukemia and myelodysplastic syndromes related to radiation",
+      "txgnn": {
+        "score": 0.9899098873138428,
+        "rank": 10594
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05564390",
+            "title": "Master Screening and Reassessment Protocol (MSRP) for the NCI MyeloMATCH Clinical Trials",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 2000,
+            "start_date": "2024-06-18",
+            "completion_date": "2029-05-15",
+            "brief_summary": "This MyeloMATCH Master Screening and Reassessment Protocol (MSRP) evaluates the use of a screening tool and specific laboratory tests to help improve participants' ability to register to clinical trials throughout the course of their myeloid cancer (acute myeloid leukemia or myelodysplastic syndrome) treatment. This study involves testing patients' bone marrow and blood for certain biomarkers. A biomarker (sometimes called a marker) is any molecule in the body that can be measured. Doctors look ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "NCI MyeloMATCH Phase 2 主篩選協議（招募中，n=2,000），廣納 AML/MDS 亞型包含放射線相關型，為平台試驗框架；但非直接測試 Gilteritinib 於此亞型，關聯為間接性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "放射線相關 t-AML/MDS 與烷化劑誘發型機轉相似，FLT3 突變可見但頻率偏低。NCT05564390（NCI MyeloMATCH Phase 2 主篩選協議）提供廣義 AML/MDS 亞型的試驗框架，部分子試驗含 FLT3 抑制劑臂，具間接 Phase 2 級支撐，但非針對此亞型設計。升至 L3 需以 FLT3 突變分層為前提。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "5q35 microduplication syndrome",
+      "txgnn": {
+        "score": 0.988911271095276,
+        "rank": 11339
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "5q35 微重複症候群為罕見染色體拷貝數變異，主要表現為發育遲緩與輕度顱面特徵，致病機轉為基因劑量效應，與 FLT3/AXL 激酶抑制路徑無已知關聯。高 TxGNN 分數（0.989）反映知識圖譜的網路結構假象，不具生物學意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "neuralgic amyotrophy",
+      "txgnn": {
+        "score": 0.9810132384300232,
+        "rank": 16546
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經痛性肌萎縮症（Parsonage-Turner 症候群）為免疫媒介周邊神經炎症性疾病，部分與 SEPT9 突變相關，FLT3/AXL 訊號軸在此疾病中無已知角色。缺乏任何支持 Gilteritinib 再利用的臨床前、臨床或理論依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "amyotrophic neuralgia",
+      "txgnn": {
+        "score": 0.9795621633529664,
+        "rank": 17217
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "萎縮性神經痛與 neuralgic amyotrophy 高度重疊（同義詞或密切相關亞型），均為周邊神經炎症性疾病。TxGNN 兩條目同時高分（0.981 / 0.980）可能反映本體論（ontology）層面的疾病節點關聯，而非獨立的生物學訊號。機轉關聯性同樣缺乏，建議合併評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn": {
+        "score": 0.973591685295105,
+        "rank": 19877
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此罕見複合症候群（脊椎結構異常合併內分泌及 T 細胞功能障礙）機轉複雜，目前無證據支持 FLT3/AXL 抑制在其病程中的作用。無任何臨床前或臨床試驗資料，TxGNN 預測無法提供合理的機轉解釋。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn": {
+        "score": 0.972208857536316,
+        "rank": 20435
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "節細胞神經母細胞瘤為交感神經系統中間分化腫瘤。雖然 AXL（Gilteritinib 靶點之一）在神經母細胞瘤中已有初步體外研究報告，但針對 ganglioneuroblastoma 缺乏直接 AXL/FLT3 臨床前或臨床數據。潛在機轉假設需體外驗證後方可進入 S1 評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn": {
+        "score": 0.9700589179992676,
+        "rank": 21257
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腹膜後腫瘤為廣義解剖位置診斷類別，涵蓋脂肪肉瘤、平滑肌肉瘤、神經源性腫瘤等多種組織型態。過度寬泛的疾病定義使機轉評估無法聚焦，且無任何 FLT3/AXL 相關臨床或臨床前證據支持。需先界定組織學亞型再評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myelodysplastic/myeloproliferative disease",
+      "txgnn": {
+        "score": 0.9699611067771912,
+        "rank": 21303
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04140487",
+            "title": "A Phase I/II Study of Azacitidine, Venetoclax, and Gilteritinib for Patients With Acute Myeloid Leukemia or High-Risk Myelodysplastic Syndrome With an Activating FLT3 Mutation",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 97,
+            "start_date": "2019-12-17",
+            "completion_date": "2028-09-01",
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of gilteritinib and to see how well it works in combination with azacitidine and venetoclax in treating patients with FLT3-mutation positive acute myeloid leukemia, chronic myelomonocytic leukemia, or high-risk myelodysplastic syndrome/myeloproliferative neoplasm that has come back (recurrent) or has not responded to treatment (refractory). Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of ca",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase I/II 試驗（招募中，n=97），直接評估 Azacitidine + Venetoclax + Gilteritinib 三藥組合於 AML 患者，疾病族群與 MDS/MPN 高度重疊。Gilteritinib 為試驗核心藥物，提供直接的 Phase I/II 級安全性與初步療效數據，為本分析中最高相關性試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT03922100",
+            "title": "A Phase I/II Study of NMS-03592088, a FLT3, KIT and CSF1R Inhibitor, in Patients With Relapsed or Refractory AML or CMML",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 63,
+            "start_date": "2019-04-03",
+            "completion_date": "2024-08-29",
+            "brief_summary": "The purpose of this study is to explore safety, tolerability, including the maximum tolerated dose and the recommended Phase II dose (RP2D), and antitumor activity of NMS-03592088 in adult patients with relapsed or refractory Acute Myeloid Leukemia (AML) or Chronic Myelomonocytic Leukemia (CMML).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase I/II 試驗（已終止，n=63），測試 NMS-03592088（FLT3/KIT/CSF1R 三重抑制劑）於 R/R AML/MDS。機轉類別與 Gilteritinib 相近，提供 FLT3 抑制在 MDS 族群的類藥效驗證；試驗終止（可能因安全性或商業決策）需納入安全性評估考量。"
+            }
+          },
+          {
+            "nct_id": "NCT05564390",
+            "title": "Master Screening and Reassessment Protocol (MSRP) for the NCI MyeloMATCH Clinical Trials",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 2000,
+            "start_date": "2024-06-18",
+            "completion_date": "2029-05-15",
+            "brief_summary": "This MyeloMATCH Master Screening and Reassessment Protocol (MSRP) evaluates the use of a screening tool and specific laboratory tests to help improve participants' ability to register to clinical trials throughout the course of their myeloid cancer (acute myeloid leukemia or myelodysplastic syndrome) treatment. This study involves testing patients' bone marrow and blood for certain biomarkers. A biomarker (sometimes called a marker) is any molecule in the body that can be measured. Doctors look ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "NCI MyeloMATCH Phase 2 主篩選協議（招募中，n=2,000），廣納 AML/MDS/MPN 亞型並設計多個分子分層子試驗，部分子試驗含 FLT3 抑制劑治療臂。提供大規模平台試驗的框架性支持，但 Gilteritinib 特定關聯需確認子試驗設計。"
+            }
+          },
+          {
+            "nct_id": "NCT02115295",
+            "title": "Phase II Study of Cladribine Plus Idarubicin Plus Cytarabine (ARAC) in Patients With AML, HR MDS, or Myeloid Blast Phase of CML",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 508,
+            "start_date": "2014-05-19",
+            "completion_date": "2030-05-31",
+            "brief_summary": "This phase II trial studies how well cladribine, idarubicin, cytarabine, and venetoclax work in patients with acute myeloid leukemia, high-risk myelodysplastic syndrome, or blastic phase chronic myeloid leukemia. Drugs used in chemotherapy, such as cladribine, idarubicin, cytarabine, and venetoclax, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase II 試驗（招募中，n=508），評估 Cladribine + Idarubicin + ARAC 化療組合於 AML/高危 MDS，不含 Gilteritinib 或任何 FLT3 抑制劑。作為化療基準參考有其價值，但對 Gilteritinib 再利用評估的直接相關性有限。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33792628",
+            "title": "ETV6-FLT3-positive myeloid/lymphoid neoplasm with eosinophilia presenting in an infant: an entity distinct from JMML.",
+            "authors": [
+              "Spitzer Barbara",
+              "Dela Cruz Filemon S",
+              "Ibanez Sanchez Glorymar D",
+              "Zhang Yanming",
+              "Xiao Wenbin"
+            ],
+            "journal": "Blood advances",
+            "year": "2021",
+            "abstract": "Myeloid/lymphoid neoplasm with eosinophilia (MLN-Eo) is a World Health Organization (WHO) established category of hematologic malignancies primarily arising in adults. We discuss an 8-month-old infant who presented with clinical features similar to those of juvenile myelomonocytic leukemia (JMML) but who was diagnosed with MLN-Eo driven by an ETV6-FLT3 fusion. Results of patient-derived leukemia ex vivo studies demonstrated increased sensitivity to type I FLT3 inhibitors as compared with type II",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MDS/MPN 重疊症候群（含 CMML、MDS/MPN-U、aCML 等）中 FLT3 突變（FLT3-ITD、FLT3-TKD）及 FLT3 基因融合（如 ETV6-FLT3）為已知驅動事件。Gilteritinib 作為高選擇性 FLT3/AXL 雙重抑制劑，在 FLT3 陽性 MDS/MPN 中具強機轉基礎。有 4 項臨床試驗提供支持框架，其中 NCT04140487 直接包含 Gilteritinib 組合療法；PMID 33792628 個案報告進一步強化 FLT3 融合於此疾病群的治療靶點合理性。建議以 FLT3 突變狀態作為生物標記分層推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "bulbar polio"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "bulbar polio"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "bulbar polio"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "neuralgic amyotrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "neuralgic amyotrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "neuralgic amyotrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "amyotrophic neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "amyotrophic neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "amyotrophic neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "vertebral anomalies and variable endocrine and T-cell dysfunction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "ganglioneuroblastoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "retroperitoneal neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "myelodysplastic/myeloproliferative disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "myelodysplastic/myeloproliferative disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gilteritinib",
+        "disease": "myelodysplastic/myeloproliferative disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

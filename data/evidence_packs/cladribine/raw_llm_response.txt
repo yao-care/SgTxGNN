@@ -1,0 +1,186 @@
+## 藥物再利用證據分析：Cladribine (DB00242)
+
+> ⚠️ **資料品質警示**：輸入資料顯示「市場狀態：未上市」及「MOA：[Data Gap]」，但 Cladribine 實際上已上市（Leustatin® 用於毛細胞白血病；Mavenclad® 用於多發性硬化症），MOA 為嘌呤核苷類似物。以下分析以已知藥理為基礎補充機轉說明。
+
+---
+
+```json
+{
+  "drug_meta": {
+    "drug": "Cladribine",
+    "drugbank_id": "DB00242",
+    "data_quality_flags": [
+      "market_status 標記為『未上市』與實際不符（Leustatin/Mavenclad 均已上市）",
+      "original_moa 標記為 [Data Gap]，實際為嘌呤核苷類似物",
+      "PMID 15241520（肝臟肉瘤項目）內容為肥大細胞增多症，與適應症不相符"
+    ],
+    "true_moa": "Cladribine（2-CdA）為腺苷去胺酶抵抗型嘌呤核苷類似物，經 dCK 磷酸化後累積於細胞內，嵌入 DNA 造成鏈斷裂、抑制 DNA 修復酶，誘導淋巴球及特定腫瘤細胞凋亡。對 dCK 高表達 / 5'-核苷酸酶低表達細胞（主要為淋巴球）選擇性最強。"
+  },
+  "indications": [
+    {
+      "disease_name": "parameningeal embryonal rhabdomyosarcoma",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "橫紋肌肉瘤（RMS）為間葉源性實體腫瘤，dCK 表達量遠低於淋巴球，Cladribine 選擇性代謝活化條件不滿足。TxGNN 高分反映知識圖譜中抗腫瘤藥物的廣泛連結，而非直接機轉支持。目前無任何 RMS 亞型的臨床前或臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "腦膜旁型為 RMS 中預後最差亞型，標準治療為 VAC 化療±放療。Cladribine 未見任何 RMS 相關前期研究。"
+    },
+    {
+      "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "葡萄簇型陰道 RMS 為極罕見兒科婦科惡性腫瘤。同樣缺乏 dCK 高表達機轉支持，亦無任何臨床或臨床前資料。高 TxGNN 分數屬知識圖譜拓撲相似性而非機轉直接性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "本亞型發生率極低（<50例/年），單獨作為臨床試驗標靶在操作上難以可行。"
+    },
+    {
+      "disease_name": "embryonal extrahepatic bile duct rhabdomyosarcoma",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝外膽管 RMS 為兒童膽道腫瘤中特殊亞型（胚胎型）。Cladribine 對膽道上皮及間葉細胞的生物活性資料完全缺失。無支持性機轉或臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "此疾病若有臨床試驗，應優先考慮 RMS 傘式試驗（如 ARST 系列）而非單一藥物測試。"
+    },
+    {
+      "disease_name": "prostate embryonal rhabdomyosarcoma",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺 RMS（胚胎型）以兒科為主。無 Cladribine 對泌尿生殖道 RMS 的任何臨床前模型數據或案例報告。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "同類 RMS 適應症，建議與其他 RMS 亞型合併於傘式研究框架下考量，而非個別推進。"
+    },
+    {
+      "disease_name": "extrahepatic bile duct rhabdomyosarcoma",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與胚胎型肝外膽管 RMS 高度重疊，屬同一疾病群的廣義分類。無機轉連結或臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "此條目與 'embryonal extrahepatic bile duct rhabdomyosarcoma' 可能存在本體論（ontology）重複計算問題，建議資料層合併處理。"
+    },
+    {
+      "disease_name": "rhabdomyosarcoma (disease)",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "作為 RMS 廣義分類，此節點整合了上述所有亞型的知識圖譜訊號。Cladribine 對 RMS 缺乏任何級別的臨床證據。若要進行臨床前驗證，可考慮 RMS 細胞株（如 RD、Rh30）的 dCK 表達量測定及體外活性測試作為優先篩選步驟。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "RMS 廣義分類為後續研究規劃的合理切入點，但需先有體外 / 動物模型資料才可進入 S1。"
+    },
+    {
+      "disease_name": "liver sarcoma",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝臟肉瘤（包含血管肉瘤、平滑肌肉瘤等）為異質性實體腫瘤群。Cladribine 對肝臟間葉腫瘤無機轉支持。唯一文獻（PMID 15241520）內容為系統性肥大細胞增多症（systemic mastocytosis），與肝臟肉瘤完全無關，屬 PubMed 搜尋誤配。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "15241520",
+          "title": "Smoldering systemic mastocytosis - Successful therapy with cladribine",
+          "year": "2004",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "此文獻為肥大細胞增多症（mastocytosis）案例報告，與肝臟肉瘤適應症完全無關。Cladribine 用於肥大細胞增多症有其機轉基礎（肥大細胞高表達 dCK），但無法外推至肝臟肉瘤。文獻被誤歸類至本適應症，應從相關性分析中排除。"
+        }
+      ],
+      "analyst_note": "⚠️ 文獻誤配警示：literature_count=1 造成假性證據訊號，實際有效文獻數應為 0。建議資料管線修正疾病-文獻匹配邏輯。"
+    },
+    {
+      "disease_name": "skeletal muscle neoplasm",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨骼肌腫瘤廣義分類包含 RMS 及其他罕見肌源性腫瘤。無 Cladribine 對骨骼肌腫瘤的臨床前或臨床資料。此節點是 RMS 系列適應症在知識圖譜中的上層分類節點，分數反映結構性連結而非藥理依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "與 RMS 系列適應症屬同一知識圖譜子圖，建議統一規劃而非分散評估。"
+    },
+    {
+      "disease_name": "gestational trophoblastic neoplasm",
+      "txgnn_score": 0.9837,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "妊娠滋養細胞腫瘤（GTN，包含絨毛膜癌、葡萄胎等）對 MTX、放線菌素 D 高度敏感，治癒率已達 90% 以上。Cladribine 對 GTN 無機轉支持及臨床資料，且在高治癒率標準治療下，再利用驅動力低。TxGNN 分數可能反映嘌呤代謝干擾與快速增殖滋養細胞的廣泛連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "GTN 已有高效標準治療，Cladribine 再利用的醫療必要性（unmet need）甚低，除非針對難治性/鉑類抵抗病例。"
+    },
+    {
+      "disease_name": "pleural adenomatoid tumor",
+      "txgnn_score": 0.9807,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胸膜腺瘤樣腫瘤（adenomatoid tumor）為良性間皮源性腫瘤，通常手術切除即可治癒，無需系統性藥物治療。Cladribine 對此良性腫瘤使用的風險效益比極差（藥物免疫抑制毒性 >> 手術切除即可治癒）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "⚠️ 本適應症為良性腫瘤，系統性化療藥物（包含 Cladribine）的使用在倫理上難以辯護。TxGNN 分數不應作為良性腫瘤研究的驅動依據。"
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_distribution": {
+      "S0": 10,
+      "S1": 0,
+      "S2": 0,
+      "S3": 0
+    },
+    "all_recommendations": "Hold",
+    "critical_findings": [
+      "所有 10 個適應症均為 L5 等級（僅預測，無任何臨床證據）",
+      "唯一文獻（PMID 15241520）與對應適應症（肝臟肉瘤）完全無關，屬資料管線誤配",
+      "6 個適應症為 RMS 亞型，建議合併規劃而非分散評估",
+      "1 個適應症（胸膜腺瘤樣腫瘤）為良性病變，系統性藥物治療不適用",
+      "輸入資料的 market_status 及 original_moa 字段存在資料品質問題"
+    ],
+    "research_pathway_suggestion": "若要推進 Cladribine 對 RMS 的研究，建議路徑：(1) 測定 RMS 細胞株 dCK/5'-NT 比值 → (2) 體外 IC50 測定 → (3) 若有活性，考慮 RMS 小鼠模型 → (4) 進入 Phase 1 傘式試驗（兒科罕見腫瘤）。此路徑預計需 3-5 年才能到達 S1 評估點。"
+  }
+}
+```
+
+---
+
+## 分析摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|-----------|---------|---------|------|---------|
+| parameningeal embryonal RMS | 0.9977 | **L5** | S0 | 🔴 Hold | 零臨床/臨床前資料 |
+| botryoid-type vaginal RMS | 0.9977 | **L5** | S0 | 🔴 Hold | 極罕見，無資料 |
+| embryonal bile duct RMS | 0.9976 | **L5** | S0 | 🔴 Hold | 零資料 |
+| prostate embryonal RMS | 0.9975 | **L5** | S0 | 🔴 Hold | 零資料 |
+| extrahepatic bile duct RMS | 0.9975 | **L5** | S0 | 🔴 Hold | 可能與上條重複 |
+| rhabdomyosarcoma (disease) | 0.9974 | **L5** | S0 | 🔴 Hold | RMS 廣義分類，零資料 |
+| liver sarcoma | 0.9970 | **L5** | S0 | 🔴 Hold | ⚠️ 唯一文獻為肥大細胞增多症誤配 |
+| skeletal muscle neoplasm | 0.9896 | **L5** | S0 | 🔴 Hold | RMS 上層節點 |
+| gestational trophoblastic neoplasm | 0.9837 | **L5** | S0 | 🔴 Hold | 已有高治癒率標準療法 |
+| pleural adenomatoid tumor | 0.9807 | **L5** | S0 | 🔴 Hold | ⚠️ 良性腫瘤，不適用系統化療 |
+
+> 📌 **本研究結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用於臨床。**

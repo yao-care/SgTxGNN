@@ -1,0 +1,204 @@
+## Desflurane (DB01189) 藥物再利用證據分析
+
+> ⚠️ **注意**：Desflurane 為鹵化吸入性麻醉劑（Suprane），MoA 包含 GABA-A 受體增強、NMDA 受體抑制及多種離子通道調節。本資料集標註「未上市」，可能反映特定地區（如新加坡）的市場狀態，但全球已有核准使用。
+
+---
+
+```json
+{
+  "drug": "Desflurane",
+  "drugbank_id": "DB01189",
+  "analysis_date": "2026-04-04",
+  "drug_class": "Halogenated inhalational anesthetic",
+  "known_moa": "GABA-A potentiation / NMDA inhibition / K+ channel modulation / anesthetic preconditioning via adenosine & KATP channels",
+  "safety_flags": [
+    "Malignant hyperthermia trigger",
+    "High global warming potential (GWP 2540)",
+    "Cardiovascular depression at high concentrations",
+    "Airway irritation / laryngospasm risk"
+  ],
+  "overall_assessment": "全部 10 個適應症均無臨床試驗支持，唯一文獻與指定疾病不相關。所有適應症均為 L5/S0，建議全數 Hold。",
+  "indications": [
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis (NSIAD)",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2 功能增益突變引起，導致 V2 受體持續活化、ADH 非依賴性水滯留。Desflurane 透過手術應激可能短暫促進 AVP 分泌，方向反而可能加重低鈉血症，無治療性機轉。TxGNN 預測可能基於神經-腎臟共病網路連結，但生物學合理性低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "無任何臨床或體外研究探討 Desflurane 對 NSIAD 的效果",
+      "red_flags": ["AVPR2 gainof-function 突變疾病，吸入麻醉劑機轉無法直接作用於此靶點"]
+    },
+    {
+      "disease_name": "Prinzmetal angina",
+      "txgnn_score": 0.9874,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Desflurane 具有「麻醉預處理（anesthetic preconditioning）」心肌保護效應，透過腺苷受體與 mitoKATP 通道減少缺血再灌注損傷。然而 Prinzmetal 心絞痛核心病理為冠狀動脈痙攣，標準治療為鈣離子阻斷劑與硝酸鹽。Desflurane 的血管效應以全身血管阻力降低為主，對冠狀動脈痙攣是否有特異性緩解作用缺乏直接證據，且吸入給藥途徑不適用於門診心絞痛治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "無冠狀動脈痙攣特異性臨床研究；給藥模式（手術室吸入）與此適應症不兼容",
+      "red_flags": ["給藥可行性極低：需專用揮發器與密閉呼吸迴路"]
+    },
+    {
+      "disease_name": "manic bipolar affective disorder",
+      "txgnn_score": 0.9769,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "揮發性麻醉劑（特別是 Isoflurane）已有治療難治性抑鬱的案例報告，機轉推測涉及 GABA-A/NMDA 調節（類 Ketamine 效應）。然而躁狂發作的神經生物學與抑鬱症不同，多巴胺過度活化為核心，而 Desflurane 對 D2 受體的直接作用未有充分研究。全身麻醉誘導躁狂緩解的生理假說尚未建立。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "無揮發性麻醉劑治療躁狂的 RCT 或 cohort 研究；與同類藥物（Isoflurane）的抑鬱症研究也仍在早期階段"
+    },
+    {
+      "disease_name": "Tourette syndrome",
+      "txgnn_score": 0.9747,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Tourette 症候群涉及皮質-紋狀體-視丘-皮質迴路異常及多巴胺能失調。Desflurane 雖廣泛作用於 CNS，但無針對基底核多巴胺系統的選擇性機轉。TxGNN 可能從「神經/精神疾病共病網路」中推導此連結，缺乏生物合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "完全無文獻基礎；機轉假說不成立"
+    },
+    {
+      "disease_name": "myositis fibrosa",
+      "txgnn_score": 0.9702,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌肉纖維化性肌炎為罕見慢性炎症性肌病，病理機轉涉及 TGF-β、纖維母細胞活化。Desflurane 無已知的抗纖維化或免疫調節機轉，與此疾病無生物學合理連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "罕見疾病且無任何相關研究；機轉連結不明"
+    },
+    {
+      "disease_name": "idiopathic granulomatous myositis",
+      "txgnn_score": 0.9702,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性肉芽腫性肌炎為罕見自體免疫性肌肉疾病，病理為巨噬細胞肉芽腫形成。揮發性麻醉劑對免疫系統有短暫的免疫調節效應（NK cell、T cell 抑制），但此效應不能轉化為慢性自體免疫疾病的治療。與 myositis fibrosa 同分 TxGNN 分數，提示為知識圖譜的相鄰節點推論，非獨立預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "同 myositis fibrosa，無研究基礎；兩項適應症分數相同（0.9702）暗示 KG 節點重疊偽陽性"
+    },
+    {
+      "disease_name": "trichotillomania",
+      "txgnn_score": 0.9691,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "拔毛癖為強迫症譜系障礙（OCD-spectrum），涉及血清素與多巴胺系統失調。GABA-A 增強的 Desflurane 理論上可能短暫調節焦慮相關神經迴路，但無持久的行為改變機轉，也無任何 OCD 譜系疾病的臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "無研究支持；慢性精神行為疾病不適合以吸入麻醉劑治療"
+    },
+    {
+      "disease_name": "tendinitis",
+      "txgnn_score": 0.9690,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌腱炎為局部炎症性疾病，標準治療為 NSAIDs、物理治療、類固醇注射。Desflurane 無已知的抗炎或肌腱修復機轉。唯一文獻（PMID 18835973）主題為 Charcot-Marie-Tooth 患者的周邊神經阻斷麻醉選擇，與肌腱炎治療無關，係資料收集誤配。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18835973",
+          "title": "Peripheral nerve blockade in a patient with Charcot-Marie-Tooth disease",
+          "year": "2008",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "本文討論 CMT 病患麻醉方式選擇（周邊神經阻斷 vs 全身麻醉），Desflurane 可能作為全身麻醉選項被提及。文章主題為神經病變患者的麻醉安全性，與肌腱炎治療完全無關。此文獻為資料收集流程的噪音（false positive），不構成任何證據。"
+        }
+      ],
+      "critical_gap": "唯一文獻為誤配；局部炎症疾病與吸入麻醉劑無合理治療連結"
+    },
+    {
+      "disease_name": "fibromyalgia",
+      "txgnn_score": 0.9659,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "纖維肌痛症為中樞敏化症候群（central sensitization），涉及脊髓背角過度興奮及 GABA/Glutamate 失衡。Desflurane 的 GABA-A 增強與 NMDA 抑制理論上與此病理機轉有部分重疊，是所有適應症中機轉合理性相對最高者。然而，吸入給藥不適合慢性疼痛長期管理，且無臨床研究驗證此效應持久性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "雖有一定機轉合理性，但吸入途徑無法用於慢性疾病長期治療；若需探索 GABA/NMDA 機轉，口服/靜脈製劑更具可行性",
+      "relative_interest": "中等（機轉合理性優於其他適應症，但可行性極低）"
+    },
+    {
+      "disease_name": "myofascial pain syndrome",
+      "txgnn_score": 0.9649,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌筋膜疼痛症候群的核心為觸痛點（trigger points）與局部肌肉過度興奮，部分涉及中樞敏化。與纖維肌痛症機轉有重疊，Desflurane 的 CNS 效應可能短暫緩解疼痛，但同樣面臨給藥方式不可行的根本問題。觸痛點局部治療（注射、超音波）效果優於全身性藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_gap": "局部性疾病不適合全身性吸入麻醉劑；無任何臨床研究"
+    }
+  ],
+  "summary_statistics": {
+    "total_indications": 10,
+    "L1_count": 0,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 0,
+    "L5_count": 10,
+    "S0_count": 10,
+    "S1_count": 0,
+    "S2_count": 0,
+    "S3_count": 0,
+    "Hold_count": 10,
+    "total_clinical_trials": 0,
+    "total_literature": 1,
+    "valid_literature": 0
+  },
+  "cross_cutting_concerns": {
+    "delivery_route_barrier": "Desflurane 為吸入性麻醉劑，需專用揮發器（vaporizer）、密閉呼吸迴路及手術室環境。所有慢性疾病適應症均面臨給藥模式根本性不可行的問題。",
+    "environmental_concern": "GWP（全球暖化潛勢）= 2540（100年），多國已限制或禁止使用（英國 NHS 2024年停用）。即使有效，環境法規障礙將阻礙再利用開發。",
+    "txgnn_score_inflation": "所有 10 個適應症 TxGNN 分數均 > 0.96，但無一有臨床證據支持，提示此批次預測可能存在系統性偏高（score inflation），需以批判性視角審視高分結果。",
+    "kg_node_clustering": "myositis fibrosa 與 idiopathic granulomatous myositis 分數完全相同（0.9702），提示知識圖譜中兩節點距離藥物節點相等，為 KG 拓撲偽陽性特徵。",
+    "market_status_note": "Desflurane（Suprane）已於多國核准並上市，「未上市」狀態應確認是否為地區性資料或已全球撤市（部分國家因環保法規退出市場）。"
+  },
+  "priority_ranking_for_further_investigation": [
+    {
+      "rank": 1,
+      "disease": "fibromyalgia",
+      "rationale": "GABA-A/NMDA 機轉與中樞敏化病理有最高重疊性，若改用相同機轉的口服/靜脈製劑，此假說值得探索",
+      "next_step": "文獻探索 volatile anesthetics 於慢性疼痛的 systematic review"
+    },
+    {
+      "rank": 2,
+      "disease": "myofascial pain syndrome",
+      "rationale": "與纖維肌痛症機轉相近，但為局部疾病，可行性略低",
+      "next_step": "同上"
+    },
+    {
+      "rank": 3,
+      "disease": "Prinzmetal angina",
+      "rationale": "心臟預處理機轉有一定文獻基礎，但給藥方式障礙不可克服",
+      "next_step": "僅學術興趣，不建議開發"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合結論
+
+| 維度 | 評估 |
+|------|------|
+| **整體證據品質** | ⛔ 極低 — 10/10 適應症均為 L5/S0 |
+| **唯一文獻有效性** | ❌ PMID 18835973 為誤配文獻（CMT 麻醉安全性，非治療研究） |
+| **機轉合理性最高** | 纖維肌痛症 / 肌筋膜疼痛（GABA/NMDA 中樞敏化重疊） |
+| **根本性開發障礙** | 吸入給藥途徑、環境法規、無慢性疾病適用性 |
+| **TxGNN 分數可信度** | ⚠️ 需謹慎 — 高分叢集現象提示批次性偽陽性 |
+
+**建議**：本批次所有 10 項適應症均建議 **Hold**，優先排除因 Desflurane 給藥途徑造成的根本性不可行障礙。若對 GABA-A/NMDA 機轉在慢性疼痛的應用有興趣，應轉向同機轉的可口服/靜脈製劑（如 Propofol 衍生物或 Ketamine）進行平行分析。

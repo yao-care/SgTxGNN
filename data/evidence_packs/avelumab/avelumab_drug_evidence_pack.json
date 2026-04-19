@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11945-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Avelumab",
+    "drugbank_id": "DB11945",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "human herpesvirus 8-related tumor",
+      "txgnn": {
+        "score": 0.9997270703315736,
+        "rank": 749
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HHV-8（人類疱疹病毒第8型）主要引發 Kaposi sarcoma 及 Primary effusion lymphoma。病毒相關腫瘤透過 PD-L1 上調逃避免疫監控，Avelumab 阻斷 PD-L1 理論上可恢復 T 細胞毒殺功能。機轉關聯合理，但提供資料中無任何臨床試驗或文獻支持。注意：外部文獻存在 checkpoint inhibitor 用於 Kaposi sarcoma 的初步個案報告（資料庫未收錄，建議補充 PubMed 搜尋）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "middle ear neuroendocrine tumor",
+      "txgnn": {
+        "score": 0.9997223019599916,
+        "rank": 758
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "中耳神經內分泌瘤為極罕見腫瘤（全球文獻案例 <50 例）。神經內分泌腫瘤 PD-L1 表現因部位和分化程度差異極大；Merkel cell carcinoma（神經內分泌起源）為 Avelumab 核准適應症，提供間接類比，但中耳部位特殊性使外推可信度低。無任何直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "malignant cutaneous granular cell skin tumor",
+      "txgnn": {
+        "score": 0.9996886253356934,
+        "rank": 830
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性顆粒細胞瘤（Schwann cell 起源）極罕見且高度惡性。PD-L1 表現於惡性顆粒細胞瘤的數據缺乏；與 Avelumab 的機轉連結僅為「惡性腫瘤可能表現 PD-L1」的通用假設，特異性極低。無任何直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "ectomesenchymoma",
+      "txgnn": {
+        "score": 0.9996827840805054,
+        "rank": 847
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ectomesenchymoma 為含神經外胚層與間葉分化成分的極罕見混合型腫瘤，主要見於兒科。無 PD-L1 表現的相關研究，與 Avelumab 的連結僅為模型預測，生物合理性極低。兒科患者使用 checkpoint inhibitor 需額外安全性考量。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "adenosine deaminase deficiency",
+      "txgnn": {
+        "score": 0.999489426612854,
+        "rank": 1172
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ADA 缺乏症（ADA-SCID）為腺苷脫氨酶缺乏導致的免疫缺陷病。腺苷本身是免疫抑制分子，理論上 ADA 缺乏 → 腺苷累積 → 免疫抑制 → 可能影響 PD-1/PD-L1 軸。然而，ADA-SCID 患者缺乏成熟 T 細胞，Avelumab 的作用機轉依賴既有 T 細胞活化，療效基礎不存在。⚠️ 安全警示：在免疫缺陷患者使用 checkpoint inhibitor 可能引發不可預期的免疫重建炎症反應（IRIS）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "reticular dysgenesis",
+      "txgnn": {
+        "score": 0.9994344115257264,
+        "rank": 1249
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "網狀發育不全（AK2 基因突變）為最嚴重 SCID 變體，造血幹細胞分化完全失敗，患者幾乎無淋巴細胞及髓系細胞。Avelumab 需要功能性 T 細胞才能發揮作用，此病患者免疫系統發育完全缺失，治療基礎不存在。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Immunoerythromyeloid hypoplasia",
+      "txgnn": {
+        "score": 0.9994106292724608,
+        "rank": 1289
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "免疫紅系骨髓再生不良為涵蓋免疫、紅系及髓系細胞減少的罕見血液病。此類疾病的病理機轉與 PD-L1 無已知直接關聯；加之患者存在多系造血缺陷，使用 Avelumab 的安全性與療效基礎均不明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "non-severe combined immunodeficiency",
+      "txgnn": {
+        "score": 0.9991689920425416,
+        "rank": 1689
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非嚴重型聯合免疫缺陷（non-severe CID）患者具有部分 T 細胞功能，理論上 PD-L1 抑制劑有作用空間。然而，此為免疫缺陷狀態，使用 checkpoint inhibitor 可能引發失控的自體免疫反應或 IRIS，利害比不明確。無任何臨床支持數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "prostatic urethra urothelial carcinoma",
+      "txgnn": {
+        "score": 0.999157190322876,
+        "rank": 1709
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺尿道尿路上皮癌（PUUC）組織學上屬尿路上皮癌（TCC）範疇。Avelumab 已獲 FDA 核准用於尿路上皮癌（鉑金化療後一線維持治療），PD-L1 在 PUUC 的表現有理由推測與膀胱/尿路上皮癌相似。屬「相同組織學、特殊解剖亞型」的間接外推，機轉連結強度高，但 PUUC 具有局部侵犯前列腺的特殊性，可能影響治療反應。無直接 RCT 或觀察性研究數據（本地資料庫）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+      "txgnn": {
+        "score": 0.9991468191146852,
+        "rank": 1725
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05431777",
+            "title": "Retrospective, Multicenter, Observational Study to Evaluate Current Treatment Patterns and Outcomes in Japanese Patients With Locally Advanced or Metastatic Urothelial Carcinoma Treated With First-line Avelumab Maintenance",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 79,
+            "start_date": "2022-07-19",
+            "completion_date": "2023-01-16",
+            "brief_summary": "The purpose of this clinical trial is to learn about the current treatment patterns, safety, and effects of the study medicine (Avelumab) for the treatment of urothelial carcinoma.\n\nThis study is seeking Japanese participants who:\n\n* have urothelial cancer that has spread\n* are treated with Avelumab for maintenance\n\nWe will study the experiences of people receiving avelumab. This helps us learn the current treatment patterns, safety, and effects of avelumab. Participants will take part in this s",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "回顧性多中心觀察研究，評估「現有治療模式與結果」，並非直接測試 Avelumab 療效。完成狀態且有一定樣本量（n=79），可提供該疾病自然病史與標準治療現況背景資訊，有助於設計後續前瞻性試驗。直接相關性低（Grade C），但疾病模式數據具輔助價值。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎盂肉瘤樣移形細胞癌（sarcomatoid TCC）具有雙重機轉關聯：(1) 移形細胞/尿路上皮組織學為 Avelumab 核准適應症的直接外推；(2) 肉瘤樣分化（sarcomatoid transformation）已知與 PD-L1 高表現及 TMB 升高相關，文獻顯示肉瘤樣腫瘤對 checkpoint inhibitor 反應率可能更高。雖有 1 個相關試驗，但為回顧性觀察研究，評估治療模式而非 Avelumab 療效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "human herpesvirus 8-related tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "middle ear neuroendocrine tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "malignant cutaneous granular cell skin tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "ectomesenchymoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "ectomesenchymoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "ectomesenchymoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "adenosine deaminase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "reticular dysgenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "reticular dysgenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "reticular dysgenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "Immunoerythromyeloid hypoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "Immunoerythromyeloid hypoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "Immunoerythromyeloid hypoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "non-severe combined immunodeficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "non-severe combined immunodeficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "non-severe combined immunodeficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Avelumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

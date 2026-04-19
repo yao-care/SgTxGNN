@@ -1,0 +1,416 @@
+## 藥物再利用證據分析：Atovaquone (DB01117)
+
+**背景說明**：Atovaquone 為已上市之抗寄生蟲藥（全球已核准用於 PCP 預防與瘧疾，本區域標記未上市）。作用機轉為抑制寄生蟲粒線體電子傳遞鏈（Complex III / cytochrome bc1 complex），干擾 ATP 合成與嘧啶生合成。
+
+---
+
+```json
+{
+  "drug": "Atovaquone",
+  "drugbank_id": "DB01117",
+  "analysis_date": "2026-04-05",
+  "known_moa": "抑制粒線體電子傳遞鏈 Complex III（cytochrome bc1），干擾 ATP 合成與嘧啶生合成（已知適應症：PCP 預防、惡性瘧疾）",
+  "indications": [
+    {
+      "disease_name": "toxoplasmosis",
+      "txgnn_score": 0.8667,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Toxoplasma gondii 為頂複門寄生蟲，具功能性粒線體電子傳遞鏈；Atovaquone 直接抑制其 cytochrome bc1 複合體，作用機轉與 PCP 一致，生物合理性強。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00000794",
+          "title": "Phase II Randomized Open-Label Trial of Atovaquone Plus Pyrimethamine vs Atovaquone Plus Sulfadiazine",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 100,
+          "relevance_grade": "A",
+          "reasoning": "直接相關 Phase 2 隨機開放標籤試驗，比較兩種 Atovaquone 聯合療法治療弓漿蟲感染，100 名受試者，結果已完成，為本適應症最高等級試驗證據。"
+        },
+        {
+          "nct_id": "NCT00001994",
+          "title": "Pilot Study of 566C80 for Salvage Treatment of Toxoplasmic Encephalitis in HIV-infected patients",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": "N/A",
+          "relevance_grade": "B",
+          "reasoning": "針對 HIV 感染者弓漿蟲腦炎之拯救治療先導研究；雖無明確 phase 分類且樣本數不明，但直接測試目標適應症，為早期概念驗證證據。"
+        },
+        {
+          "nct_id": "NCT01479361",
+          "title": "Influence of Atazanavir-ritonavir and Efavirenz on Atovaquone Pharmacokinetics in HIV-infected Volunteers",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 36,
+          "relevance_grade": "C",
+          "reasoning": "本試驗為藥物動力學交互作用研究，非療效試驗；對弓漿蟲治療療效評估貢獻有限，但提供 HIV 族群之 PK 數據參考。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30209035",
+          "title": "Treatment of Toxoplasmosis: Historical Perspective, Animal Models, and Current Clinical Practice",
+          "year": "2018",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "系統性回顧弓漿蟲治療歷史，明確納入 Atovaquone 作為替代療法選項，提供臨床定位依據。"
+        },
+        {
+          "pmid": "25309522",
+          "title": "Toxoplasmosis complications and novel therapeutic synergism: diclazuril plus atovaquone",
+          "year": "2014",
+          "study_type": "Animal Study / In Vivo",
+          "tier": "2",
+          "note": "動物模型中 Atovaquone + Diclazuril 顯示協同療效，支持機轉假說。"
+        },
+        {
+          "pmid": "25210646",
+          "title": "Novel Synergistic Protective Efficacy of Atovaquone and Diclazuril on Fetal-Maternal Toxoplasmosis",
+          "year": "2014",
+          "study_type": "Animal Study / In Vivo",
+          "tier": "2",
+          "note": "妊娠弓漿蟲模型中聯合療法的保護效果，具潛在轉譯意義。"
+        },
+        {
+          "pmid": "34595988",
+          "title": "Histopathological and ultrastructural assessment of atovaquone-proguanil combination in toxoplasmosis",
+          "year": "2021",
+          "study_type": "Animal Study / In Vivo",
+          "tier": "2",
+          "note": "組織病理學評估 Atovaquone-Proguanil 聯合療法對弓漿蟲之效果，近年數據。"
+        },
+        {
+          "pmid": "29452213",
+          "title": "Nanoemulsion of atovaquone as a promising approach for treatment of acute and chronic toxoplasmosis",
+          "year": "2018",
+          "study_type": "Preclinical / Formulation Study",
+          "tier": "2",
+          "note": "新型奈米乳劑配方研究，顯示改善生物可用性後療效提升，為製劑優化方向。"
+        },
+        {
+          "pmid": "26392504",
+          "title": "Clinically Available Medicines Demonstrating Anti-Toxoplasma Activity",
+          "year": "2015",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "系統性綜述現有臨床藥物之抗弓漿蟲活性，Atovaquone 列為具活性藥物，提供藥物定位之高品質佐證。"
+        },
+        {
+          "pmid": "16282146",
+          "title": "Toxoplasmosis (2005 review)",
+          "year": "2005",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "較舊文獻，但確認 Atovaquone 之臨床使用歷史。"
+        },
+        {
+          "pmid": "17321812",
+          "title": "Toxoplasmosis (2007 review)",
+          "year": "2007",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "同上，早期臨床定位參考。"
+        },
+        {
+          "pmid": "10560606",
+          "title": "Antiparasitic agents",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "早期藥物分類綜述，歷史參考價值為主。"
+        },
+        {
+          "pmid": "27384853",
+          "title": "Early diagnosis and successful treatment of disseminated toxoplasmosis after cord blood transplantation",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "免疫抑制患者（臍血移植後）成功治療個案，支持特殊族群使用。"
+        }
+      ],
+      "evidence_summary": "具 Phase 2 RCT 直接證據（NCT00000794，n=100）、先導研究、多篇動物實驗及系統性回顧，機轉生物合理性極強。為本分析中證據等級最高之適應症。"
+    },
+    {
+      "disease_name": "ocular toxoplasmosis",
+      "txgnn_score": 0.8527,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "眼部弓漿蟲感染之病原體與全身性弓漿蟲病相同（T. gondii），Atovaquone 之抗弓漿蟲機轉同樣適用；眼部藥物穿透性為主要藥理學考量。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01479361",
+          "title": "Influence of Atazanavir-ritonavir and Efavirenz on Atovaquone Pharmacokinetics",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 36,
+          "relevance_grade": "C",
+          "reasoning": "PK 研究，非直接針對眼部弓漿蟲；與全身弓漿蟲分析中評級相同，間接提供 PK 背景。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "9917796",
+          "title": "Atovaquone for the treatment of toxoplasma retinochoroiditis in immunocompetent patients",
+          "year": "1999",
+          "study_type": "Case Series / Retrospective",
+          "tier": "2",
+          "note": "直接評估 Atovaquone 治療免疫功能正常者視網膜脈絡膜炎，為眼部適應症最直接臨床證據，雖年代較舊。"
+        },
+        {
+          "pmid": "7616727",
+          "title": "Treatment of toxoplasmosis retinochoroiditis with atovaquone in an AIDS patient",
+          "year": "1995",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "AIDS 患者眼部弓漿蟲個案報告，早期臨床觀察。"
+        },
+        {
+          "pmid": "19108794",
+          "title": "Adverse drug reactions to treatments for ocular toxoplasmosis: a retrospective chart review",
+          "year": "2008",
+          "study_type": "Retrospective Chart Review",
+          "tier": "2",
+          "note": "回顧性研究評估眼部弓漿蟲治療之副作用，Atovaquone 納入評估藥物之一，提供安全性數據。"
+        },
+        {
+          "pmid": "11921736",
+          "title": "New trends in ocular toxoplasmosis—the review",
+          "year": "2001",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "眼部弓漿蟲治療趨勢綜述，將 Atovaquone 列為治療選項之一。"
+        },
+        {
+          "pmid": "18576797",
+          "title": "Toxoplasmosis in wallabies: blindness, treatment with atovaquone",
+          "year": "2008",
+          "study_type": "Veterinary Case Report",
+          "tier": "3",
+          "note": "動物模型（有袋類）眼部弓漿蟲治療個案，機轉支持性但不可直接外推。"
+        },
+        {
+          "pmid": "40872723",
+          "title": "Review of Toxoplasmosis: What We Still Need to Do",
+          "year": "2025",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "最新 2025 年綜述，涵蓋眼部弓漿蟲治療缺口，近年臨床定位參考。"
+        },
+        {
+          "pmid": "30209035",
+          "title": "Treatment of Toxoplasmosis: Historical Perspective, Animal Models, and Current Clinical Practice",
+          "year": "2018",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "綜合弓漿蟲（含眼部）治療之歷史與現況。"
+        },
+        {
+          "pmid": "26392504",
+          "title": "Clinically Available Medicines Demonstrating Anti-Toxoplasma Activity",
+          "year": "2015",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "系統性綜述，為眼部/全身適應症共用之高品質佐證。"
+        }
+      ],
+      "evidence_summary": "無直接 RCT，但有案例系列（免疫功能正常者）、回顧性研究及多篇文獻支持 Atovaquone 用於眼部弓漿蟲。證據主體為觀察性研究（L3），需更大規模前瞻性研究確認。"
+    },
+    {
+      "disease_name": "nocardiosis",
+      "txgnn_score": 0.9090,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Nocardia 為需氧放線菌，理論上粒線體電子傳遞鏈抑制可能具抗菌活性，但 Nocardia 之細胞壁組成與真細菌結構使 Atovaquone 之機轉在此適應症中缺乏直接支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29555315",
+          "title": "Increased Incidence of Nocardial Infections in an Era of Atovaquone Prophylaxis in Allogeneic HCT",
+          "year": "2018",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "⚠️ 關鍵負向證據：回顧性研究顯示以 Atovaquone 取代 TMP-SMX 用於 PCP 預防後，Nocardia 感染率**上升**，提示 Atovaquone 對 Nocardia 缺乏預防效果。"
+        },
+        {
+          "pmid": "29879517",
+          "title": "Can We Kill Two Birds with This Stone? Anti-Pneumocystis Prophylaxis to Prevent Nocardia Infection",
+          "year": "2018",
+          "study_type": "Review / Commentary",
+          "tier": "2",
+          "note": "討論 PCP 預防藥物（含 Atovaquone）是否同時能預防 Nocardia；結論傾向 TMP-SMX 具雙重保護，Atovaquone 不具備。"
+        },
+        {
+          "pmid": "32894607",
+          "title": "Alternative pneumocystis prophylaxis in solid organ transplant recipients",
+          "year": "2021",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "器官移植受者替代 PCP 預防藥物研究，Atovaquone 作為 TMP-SMX 替代選項；間接顯示缺乏 Nocardia 保護活性。"
+        },
+        {
+          "pmid": "38670455",
+          "title": "Successful maintenance treatment of disseminated nocardiosis with cerebral abscess in severely immunocompromised patient",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "播散性腦部 Nocardia 成功治療個案，所用藥物為傳統抗生素（TMP-SMX 等），非 Atovaquone。"
+        },
+        {
+          "pmid": "40395122",
+          "title": "Premature Discontinuation of TMP-SMX Prophylaxis in Abdominal Transplant Recipients",
+          "year": "2025",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "note": "TMP-SMX 預防中斷與感染風險研究，未涉及 Atovaquone 治療 Nocardia。"
+        },
+        {
+          "pmid": "38235260",
+          "title": "Antibiotic prophylaxis in immunosuppressed patients—Missed opportunities from TMP-SMX",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "強調 TMP-SMX 預防的重要性，隱含 Atovaquone 等替代藥物無法提供同等 Nocardia 保護。"
+        },
+        {
+          "pmid": "39136148",
+          "title": "Sulfonamide allergy label and the risk of opportunistic infections in solid organ transplant recipients",
+          "year": "2024",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "磺胺過敏標記與機會性感染風險，間接涉及 Atovaquone 替代方案情境。"
+        },
+        {
+          "pmid": "39658933",
+          "title": "Evaluation of the Incidence of Nocardia Infection in SOT Recipients on TMP-SMX Prophylaxis",
+          "year": "2025",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "note": "評估 TMP-SMX 預防下 Nocardia 發生率，未顯示 Atovaquone 具治療潛力。"
+        },
+        {
+          "pmid": "35968520",
+          "title": "Sulphamethoxazole-trimethoprim induced fixed drug eruption in Chronic Granulomatous Disease",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "TMP-SMX 副作用個案，Atovaquone 作為替代選項之情境討論，與 Nocardia 治療無直接關聯。"
+        }
+      ],
+      "evidence_summary": "⚠️ 文獻主體提供**間接負向證據**：Atovaquone 用於 PCP 預防時，與 Nocardia 感染率上升相關（與 TMP-SMX 相比）。無任何臨床試驗或陽性案例支持 Atovaquone 治療或預防 Nocardia。高 TxGNN 分數可能反映與免疫抑制背景之特徵相關性，而非真實療效信號。"
+    },
+    {
+      "disease_name": "leprosy",
+      "txgnn_score": 0.9424,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Mycobacterium leprae 為細胞內細菌，理論上粒線體電子傳遞鏈抑制可能影響細菌生存，但 Atovaquone 對分枝桿菌之活性未有文獻支持；機轉高度推測性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32310272",
+          "title": "Clofazimine, a Promising Drug for the Treatment of Babesia microti Infection in Severely Immunocompromised",
+          "year": "2020",
+          "study_type": "Case Report / Review",
+          "tier": "3",
+          "note": "⚠️ 不相關：本文獻討論 Clofazimine（麻風病用藥）用於 Babesia 感染，並非 Atovaquone 用於麻風病。文獻相關性極低，僅因同時涉及機會性感染背景被收錄。"
+        }
+      ],
+      "evidence_summary": "唯一文獻與 Atovaquone 治療麻風病無直接關聯。TxGNN 高分（0.942）可能源於知識圖譜中麻風病與其他感染症之節點特徵相似性，而非真實臨床證據。無臨床試驗、無相關文獻、機轉推測性強。"
+    },
+    {
+      "disease_name": "facial nerve palsy due to herpes zoster infection",
+      "txgnn_score": 0.8916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "帶狀皰疹為 VZV（病毒）感染，Atovaquone 作用於真核寄生蟲粒線體電子傳遞鏈，對 DNA 病毒無已知直接活性；機轉缺乏生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。機轉生物合理性極低（抗原蟲藥 vs. 病毒感染）。TxGNN 評分可能反映圖譜中神經/感染相關特徵，而非療效信號。"
+    },
+    {
+      "disease_name": "acne (disease)",
+      "txgnn_score": 0.8800,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "痤瘡主要涉及 C. acnes 感染與皮脂腺炎症，Atovaquone 之抗寄生蟲機轉與痤瘡病理生理機轉無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。機轉缺乏合理性。"
+    },
+    {
+      "disease_name": "creeping myiasis",
+      "txgnn_score": 0.8507,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蠅蛆病為昆蟲幼蟲（雙翅目）感染，雖同屬寄生蟲範疇，但 Atovaquone 之靶點為頂複門原蟲粒線體，對多細胞節肢動物幼蟲之作用機轉及活性未有文獻支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。雖機轉上屬「寄生蟲感染」但作用靶點完全不同。"
+    },
+    {
+      "disease_name": "furuncular myiasis",
+      "txgnn_score": 0.8507,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同 creeping myiasis，昆蟲幼蟲感染與 Atovaquone 抗原蟲靶點不符。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。"
+    },
+    {
+      "disease_name": "wound myiasis",
+      "txgnn_score": 0.8507,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同 creeping myiasis。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。"
+    },
+    {
+      "disease_name": "myiasis",
+      "txgnn_score": 0.8288,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同 creeping myiasis。Myiasis 為母分類，與所有子類型共享相同評估結論。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。"
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要表
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵備註 |
+|--------|-----------|---------|---------|------|---------|
+| **toxoplasmosis** | 0.867 | **L2** | **S3** | ✅ Proceed w/ Guardrails | Phase 2 RCT (n=100)，機轉明確 |
+| **ocular toxoplasmosis** | 0.853 | **L3** | **S2** | ✅ Proceed w/ Guardrails | 案例系列+回顧性研究，缺 RCT |
+| nocardiosis | 0.909 | **L4** | **S1** | ⚠️ Hold | 間接**負向**證據，文獻顯示感染率上升 |
+| leprosy | 0.942 | **L5** | **S0** | 🚫 Hold | 唯一文獻不相關，高分為假陽性 |
+| herpes zoster facial palsy | 0.892 | **L5** | **S0** | 🚫 Hold | 病毒適應症，機轉不符 |
+| acne | 0.880 | **L5** | **S0** | 🚫 Hold | 無證據，機轉不符 |
+| myiasis（4類） | 0.829–0.851 | **L5** | **S0** | 🚫 Hold | 昆蟲幼蟲與原蟲靶點完全不同 |
+
+---
+
+### ⚠️ 重要方法論觀察
+
+1. **TxGNN 高分 ≠ 臨床證據**：Leprosy (0.942)、nocardiosis (0.909) 均獲高分，但臨床證據基礎薄弱甚至為負向，提示 KG 模型在感染症分類中存在**節點特徵混淆**問題（可能因共享「免疫抑制宿主」或「抗感染藥物」特徵節點）。
+
+2. **Nocardiosis 警示信號**：PMID 29555315 明確指出「Atovaquone 預防時代 Nocardia 感染率上升」，此適應症不僅缺乏支持性證據，更有**主動負向臨床信號**，應優先排除。
+
+3. **Toxoplasmosis 為核心優勢適應症**：本藥物已具備 Phase 2 RCT 直接證據，在本區域（標記未上市）可直接考量臨床可行性評估（S3），無需重複基礎概念驗證。

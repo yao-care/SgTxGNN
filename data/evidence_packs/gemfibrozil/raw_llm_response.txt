@@ -1,0 +1,438 @@
+# Gemfibrozil 藥物再利用證據分析
+
+## 前置資料品質說明
+
+在正式評估前，注意以下數據問題：
+- `original_moa: [Data Gap]` → Gemfibrozil 實為 **PPARα agonist（fibrate 類）**，降低 TG、升高 HDL，並具抗炎特性
+- `ddi_count: 0` 疑為資料缺漏，Gemfibrozil 與 statin 類藥物有已知嚴重 DDI（橫紋肌溶解）
+- `market_status: 未上市` 反映新加坡在地狀態，非全球上市狀態
+
+---
+
+```json
+{
+  "drug": "Gemfibrozil",
+  "drugbank_id": "DB01241",
+  "analysis_date": "2026-04-04",
+  "corrected_moa": "PPARα agonist；抑制 VLDL 合成，降低 TG，升高 HDL；具 NF-κB 抑制及抗炎特性",
+  "data_quality_flags": [
+    "original_moa 標記為 [Data Gap]，需人工補全",
+    "ddi_count=0 異常：Gemfibrozil 與 CYP2C8 受質（cerivastatin, repaglinide）有臨床重要 DDI",
+    "HIV 適應症之 literature_count=20，實際提供 10 筆，分析基於可見資料"
+  ],
+  "indications": [
+    {
+      "disease_name": "HIV infectious disease",
+      "txgnn_score": 0.998,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Gemfibrozil（PPARα agonist）可改善 HIV 蛋白酶抑制劑（PI）誘發的高三酸甘油酯血症及脂肪分布異常（lipodystrophy）。HIV 患者長期接受 HAART 治療後，VLDL 合成增加，PPARα 激活可上調脂蛋白脂解酶（LPL）活性，改善 PI 相關血脂異常。此為針對 HIV 代謝併發症之再利用，非抗病毒作用。",
+      "indication_clarification": "實際應用為「HIV 治療相關血脂異常／脂肪萎縮症」，而非直接治療 HIV 感染本身",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00474201",
+          "title": "Lopinavir/Ritonavir 對 Gemfibrozil 藥動學影響",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 15,
+          "relevance_grade": "B",
+          "reasoning": "DDI 研究，提供 Gemfibrozil 在 HIV 患者用藥安全性與 PK 數據，但非療效試驗"
+        },
+        {
+          "nct_id": "NCT00039663",
+          "title": "HIV 感染中內皮功能障礙作為風險因子研究",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 75,
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，評估 HIV 患者心血管風險因子，未直接評估 Gemfibrozil 療效"
+        },
+        {
+          "nct_id": "NCT01148004",
+          "title": "Ritonavir 對 Fenofibric Acid 藥動學影響",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 25,
+          "relevance_grade": "C",
+          "reasoning": "研究對象為 Fenofibrate（同類藥物），非 Gemfibrozil；間接提供 fibrate 類於 HIV 患者的 DDI 參考"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12409741",
+          "title": "A randomized, double-blind study of gemfibrozil for the treatment of protease inhibitor-associated hyperlipidemia",
+          "year": "2002",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "核心證據：直接針對 Gemfibrozil 治療 PI 相關高脂血症的隨機雙盲試驗，為本適應症最強直接證據"
+        },
+        {
+          "pmid": "14640387",
+          "title": "Effects of metformin or gemfibrozil on the lipodystrophy of HIV-infected patients receiving protease inhibitors",
+          "year": "2003",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "relevance": "直接比較 Gemfibrozil 與 Metformin 治療 HIV 脂肪萎縮症，具高度相關性"
+        },
+        {
+          "pmid": "23892238",
+          "title": "Comparative effectiveness of fish oil versus fenofibrate, gemfibrozil, and atorvastatin on lowering triglycerides",
+          "year": "2013",
+          "study_type": "Comparative Effectiveness Study",
+          "tier": "2",
+          "relevance": "頭對頭比較 Gemfibrozil 與其他降脂藥物在 HIV 患者中的療效"
+        },
+        {
+          "pmid": "12660532",
+          "title": "Statins and fibrates for the treatment of hyperlipidaemia in HIV-infected patients receiving HAART",
+          "year": "2003",
+          "study_type": "Review/Guideline",
+          "tier": "3",
+          "relevance": "臨床指引層級，支持 fibrate 類（含 Gemfibrozil）用於 HAART 相關高脂血症"
+        },
+        {
+          "pmid": "15535403",
+          "title": "Management of dyslipidaemia in HIV-infected patients receiving antiretroviral therapy",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "管理指引，Gemfibrozil 列為 HIV 相關血脂異常的標準治療選項之一"
+        },
+        {
+          "pmid": "14727985",
+          "title": "Management of protease inhibitor-associated hyperlipidemia",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "專注 PI 相關血脂異常管理，Gemfibrozil 為推薦藥物"
+        },
+        {
+          "pmid": "10826894",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "HIV PI 相關高脂血症病理生理與風險因子綜述，提供機轉背景"
+        },
+        {
+          "pmid": "19258558",
+          "year": "2009",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance": "比較 HIV 感染者與非感染者對降脂治療的反應，包含 fibrate 類藥物"
+        },
+        {
+          "pmid": "30526249",
+          "year": "2018",
+          "study_type": "Pharmacoepidemiology",
+          "tier": "2",
+          "relevance": "HIV 患者 statin 使用趨勢研究，間接反映 fibrate 替代需求"
+        },
+        {
+          "pmid": "10758016",
+          "year": "2000",
+          "study_type": "Commentary",
+          "tier": "3",
+          "relevance": "HIV 治療代謝併發症管理建議，Gemfibrozil 為推薦方案之一"
+        }
+      ],
+      "key_concerns": [
+        "DDI 風險：Gemfibrozil 抑制 CYP2C8，可能影響 PI 代謝；NCT00474201 提供 PK 安全數據",
+        "Gemfibrozil-statin 組合禁忌：HIV 患者可能同時使用 statin，需特別注意橫紋肌溶解風險",
+        "現代 HIV 治療中，Fenofibrate 常被優先選擇（較少 DDI）"
+      ]
+    },
+    {
+      "disease_name": "hypoalphalipoproteinemia",
+      "txgnn_score": 0.998,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Hypoalphalipoproteinemia（低 HDL 血症）為 Gemfibrozil 的核心藥理靶點。PPARα 激活上調 ApoA-I/ApoA-II 表達，促進 HDL 合成；同時激活 LPL 加速 VLDL 分解，間接升高 HDL。多項臨床研究直接驗證此機轉，為 fibrate 類最強的 HDL 提升適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2810673",
+          "title": "Comparison of lovastatin and gemfibrozil in normolipidemic patients with hypoalphalipoproteinemia",
+          "year": "1989",
+          "study_type": "Clinical Trial (RCT)",
+          "tier": "1",
+          "relevance": "直接比較 Gemfibrozil vs Lovastatin 治療低 HDL 血症，核心直接證據"
+        },
+        {
+          "pmid": "10716466",
+          "title": "Gemfibrozil, nicotinic acid and combination therapy in patients with isolated hypoalphalipoproteinemia",
+          "year": "2000",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "relevance": "直接評估 Gemfibrozil 單獨或聯合菸鹼酸治療低 HDL 血症"
+        },
+        {
+          "pmid": "8318063",
+          "title": "Effect of gemfibrozil and lovastatin on postprandial lipoprotein clearance in the hypoalphalipoproteinemia",
+          "year": "1993",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "relevance": "評估餐後血脂清除，直接藥效學研究"
+        },
+        {
+          "pmid": "8267492",
+          "title": "Lipoprotein responses to treatment with lovastatin, gemfibrozil, and nicotinic acid in normolipidemic patients",
+          "year": "1994",
+          "study_type": "Clinical Trial",
+          "tier": "1",
+          "relevance": "三藥頭對頭比較，Gemfibrozil 顯示最佳 HDL 提升效果"
+        },
+        {
+          "pmid": "8736620",
+          "title": "Gemfibrozil: a reappraisal of its pharmacological properties and place in the management of dyslipidaemia",
+          "year": "1996",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "relevance": "Gemfibrozil 全面藥理回顧，確立血脂異常治療地位"
+        },
+        {
+          "pmid": "3541525",
+          "year": "1986",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "家族性低 HDL 血症病理綜述，提供疾病背景"
+        },
+        {
+          "pmid": "7945562",
+          "year": "1994",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "Tangier 病（極端低 HDL）心血管影響，間接相關"
+        },
+        {
+          "pmid": "7942933",
+          "year": "1994",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "relevance": "菸鹼酸治療低 HDL 血症，作為 Gemfibrozil 的比較背景"
+        },
+        {
+          "pmid": "10929256",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "低 HDL 膽固醇管理綜述，Gemfibrozil 列為標準治療"
+        },
+        {
+          "pmid": "3887163",
+          "year": "1985",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "脂蛋白疾病病理與管理，歷史背景參考"
+        }
+      ],
+      "key_concerns": [
+        "多項研究為 1980-1990 年代，需考量現代治療標準（HDL 目標值爭議）",
+        "單純升高 HDL 的心血管事件減少效益仍有爭議（2010 年後 HDL 假說受質疑）",
+        "臨床試驗規模相對小，缺乏大型 RCT"
+      ]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.999,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PPARα 激活可抑制 NF-κB 信號，降低 TNF-α、IL-6、IL-1β 等促炎細胞激素。Gemfibrozil 作為 PPARα agonist，可能透過此免疫調節機轉減輕類風濕性關節炎的關節炎症。此外，PPARα 活化與 Foxp3+ Treg 細胞功能有關，可能調節自體免疫反應。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30074417",
+          "title": "Combined gemfibrozil (PPARα agonist) with reduced steroid",
+          "year": "2019",
+          "study_type": "Clinical Study（待確認類型）",
+          "tier": "2",
+          "relevance": "唯一直接涉及 Gemfibrozil 用於 RA 相關情境，標題顯示與 steroid 減量合用；證據強度待確認原始研究設計"
+        },
+        {
+          "pmid": "41207105",
+          "title": "Bezafibrate, a Pan PPAR agonist, attenuates experimental rheumatoid arthritis via PPAR dependent modulation",
+          "year": "2026",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance": "同類藥物（Bezafibrate）在動物模型中的 RA 療效，間接支持 PPAR agonist 的類效應假說"
+        },
+        {
+          "pmid": "20083653",
+          "title": "Myelin basic protein priming reduces the expression of Foxp3 in T cells via nitric oxide",
+          "year": "2010",
+          "study_type": "Mechanistic Study",
+          "tier": "3",
+          "relevance": "探討 Foxp3/Treg 在自體免疫中的角色，與 PPARα-Treg 機轉有間接連結，相關性較弱"
+        },
+        {
+          "pmid": "18039017",
+          "title": "Palmar erythema",
+          "year": "2007",
+          "study_type": "Review/Case",
+          "tier": "3",
+          "relevance": "掌紅斑為 RA 及其他疾病的皮膚表現，與 Gemfibrozil 的直接關聯不明確，可能為誤收錄"
+        }
+      ],
+      "key_concerns": [
+        "唯一直接 Gemfibrozil 臨床研究（PMID 30074417）詳情不明，需確認研究設計",
+        "PMID 41207105 研究對象為 Bezafibrate（Pan-PPAR agonist），非 Gemfibrozil（選擇性 PPARα）",
+        "PMID 18039017 相關性存疑，可能為文獻收集誤差",
+        "高 TxGNN 分數（0.999）可能反映圖譜中藥物-炎症節點的拓撲關聯，非療效預測",
+        "RA 有既有高效 DMARDs，需明確 Gemfibrozil 的加成價值"
+      ]
+    },
+    {
+      "disease_name": "sclerosing cholangitis",
+      "txgnn_score": 0.997,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "硬化性膽管炎（PSC/SSC）涉及膽道纖維化及膽汁淤積。PPARα 激活在膽道系統有抗炎及調節膽汁酸代謝作用，Fenofibrate（同類藥物）已有用於 PSC 的研究。然而，Gemfibrozil 在膽汁淤積疾病中的安全性是主要顧慮，因肝毒性風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33751787",
+          "title": "Safety of fibrates in cholestatic liver diseases",
+          "year": "2021",
+          "study_type": "Safety Review",
+          "tier": "2",
+          "relevance": "直接評估 fibrate 類（含 Gemfibrozil）在膽汁淤積疾病中的安全性，為 S1 階段關鍵參考"
+        },
+        {
+          "pmid": "36906733",
+          "title": "Evaluation of the Potential for CYP450 and Transporter-Mediated Drug-Drug Interactions",
+          "year": "2023",
+          "study_type": "DDI Study",
+          "tier": "2",
+          "relevance": "評估膽道相關 CYP/transporter DDI，Gemfibrozil 作為 CYP2C8 抑制劑的相互作用需在膽汁淤積患者中特別評估"
+        }
+      ],
+      "key_concerns": [
+        "Gemfibrozil 在膽汁淤積疾病中的安全性存疑（肝毒性、膽石症風險）",
+        "PMID 33751787 需進一步確認其對 Gemfibrozil 的具體結論（可能建議謹慎或禁用）",
+        "同類藥物 Fenofibrate 在 PSC 有更多研究，且安全性更優",
+        "無直接療效臨床試驗"
+      ]
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn_score": 0.997,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "家族性複合型高脂血症（FCH）特徵為 TG 升高、LDL 升高、HDL 降低。Gemfibrozil 透過 PPARα 激活可改善此三重血脂異常。注意：Helsinki Heart Study 已顯示 Gemfibrozil 在 FCH 患者中可降低心血管事件，但此本體論術語標記為「obsolete」，數據庫可能使用了廢棄的疾病術語，導致文獻映射缺失。",
+      "database_note": "disease_name 標記為 'obsolete'，表示此為廢棄疾病本體論術語（可能來自 OMIM/HPO），現代術語為 'familial combined hyperlipidemia (FCHL)'。文獻缺失（0 筆）極可能為術語映射問題，而非證據真正缺乏。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "疾病術語已廢棄，建議重新映射至現代術語 'familial combined hyperlipidemia' 進行再分析",
+        "基於已知藥理（Helsinki Heart Study），實際證據等級可能為 L1-L2",
+        "數據庫術語問題需修正後重新評估"
+      ]
+    },
+    {
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn_score": 0.998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "MEN（多發性內分泌腫瘤）為 MEN1/RET 基因突變相關的腫瘤症候群，與 PPARα 訊號通路無已知直接機轉關聯。高 TxGNN 分數可能反映知識圖譜中「藥物→代謝→腫瘤」的間接拓撲連結，而非真實機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "零臨床試驗、零文獻，純 AI 預測",
+        "MEN 為罕見遺傳性腫瘤症候群，標準治療為手術與荷爾蒙管理",
+        "無合理的 PPARα 相關機轉假說"
+      ]
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短指-並指症候群為先天性骨骼發育異常，與 PPARα 藥理作用無已知關聯。TxGNN 分數高可能為知識圖譜拓撲假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "先天性結構異常，非代謝或炎症適應症，不適用 fibrate 類藥物",
+        "零臨床與文獻證據"
+      ]
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見先天性症候群（眼缺損性小眼症合併根莖型發育不良），與 Gemfibrozil 的已知藥理完全無關。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "極罕見先天性疾病，無代謝治療邏輯",
+        "零臨床與文獻證據"
+      ]
+    },
+    {
+      "disease_name": "methemoglobinemia, alpha type",
+      "txgnn_score": 0.998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Alpha 型高鐵血紅素血症為 HbM 血紅蛋白變異所致，與 PPARα 機轉無關。Gemfibrozil 無已知影響血紅蛋白氧化狀態的作用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "遺傳性血紅蛋白病變，非代謝疾病",
+        "零臨床與文獻證據"
+      ]
+    },
+    {
+      "disease_name": "methemoglobin reductase deficiency",
+      "txgnn_score": 0.997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高鐵血紅蛋白還原酶缺乏症（NADH-cytochrome b5 reductase 缺乏）為遺傳性酵素缺乏，標準治療為亞甲藍（methylene blue）。與 Gemfibrozil 藥理無交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "有既有有效治療（methylene blue）",
+        "酵素缺乏症，PPARα 激活無法補償",
+        "零臨床與文獻證據"
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合決策矩陣
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 優先級 |
+|--------|---------|---------|------|--------|
+| HIV 相關血脂異常 | **L2** | **S2** | ✅ Proceed with Guardrails | ⭐⭐⭐ 高 |
+| 低 HDL 血症 | **L2** | **S2** | ✅ Proceed with Guardrails | ⭐⭐⭐ 高 |
+| 類風濕性關節炎 | **L4** | **S1** | 🔬 Research Question | ⭐⭐ 中 |
+| 硬化性膽管炎 | **L4** | **S1** | ⚠️ Research Question（安全性優先） | ⭐⭐ 中 |
+| 家族性複合高脂血症（廢棄術語） | **L3** | **S1** | 🔬 Research Question（術語問題）| ⭐⭐ 中 |
+| 多發性內分泌腫瘤 | **L5** | **S0** | 🚫 Hold | ⭐ 低 |
+| 短指-並指症候群 | **L5** | **S0** | 🚫 Hold | — |
+| 眼缺損小眼症-根莖型發育不良 | **L5** | **S0** | 🚫 Hold | — |
+| 高鐵血紅素血症 alpha 型 | **L5** | **S0** | 🚫 Hold | — |
+| 高鐵血紅蛋白還原酶缺乏症 | **L5** | **S0** | 🚫 Hold | — |
+
+---
+
+## 關鍵行動建議
+
+1. **立即行動（HIV 血脂異常 & 低 HDL 血症）**：已有 RCT 支持，建議進入 S2 臨床可行性評估，重點確認新加坡在地用藥指引及 DDI 監測規範
+
+2. **需要研究設計（類風濕性關節炎）**：PMID 30074417 為最具潛力的研究線索，建議取得全文確認研究設計與樣本數；考慮 Proof-of-Concept 小型試驗
+
+3. **術語修正（家族性複合高脂血症）**：立即將「obsolete familial combined hyperlipidemia」重映射至現代術語，可能發現 L1 級別的 Helsinki Heart Study 證據
+
+4. **安全性警示（硬化性膽管炎）**：PMID 33751787 顯示 fibrate 在膽汁淤積疾病中有安全疑慮，需在 S1 完整評估肝功能影響後方可考慮進一步研究

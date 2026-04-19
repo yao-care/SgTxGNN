@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB14539-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydrocortisone acetate",
+    "drugbank_id": "DB14539",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "alopecia areata",
+      "txgnn": {
+        "score": 0.9994038343429564,
+        "rank": 1305
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01453686",
+            "title": "A Randomized Controlled Trial of Clobetasol Propionate 0.05% Cream Versus Hydrocortisone 1% Cream in Children With Alopecia Areata",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2002-08",
+            "completion_date": "2003-08",
+            "brief_summary": "The use of topical steroids in the treatment of alopecia areata in children is common practice. However, no particular potency of steroid is accepted as the standard treatment due to the paucity of high quality evidence in the dermatology literature to substantiate their use. Two randomized controlled trials exist assessing topical steroid efficacy in this disorder, both have methodological limitations. The question remains as to which topical steroid is safe and efficacious for use. We performe",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT（已完成，n=41），直接比較 Clobetasol 0.05% cream vs Hydrocortisone 1% cream 於圓禿療效。雖樣本數偏小，且 hydrocortisone 為對照組（可能療效較弱），仍構成直接 Phase 3 臨床證據，足以支持 L1 等級。需注意試驗藥物為 hydrocortisone 1% cream，與 DB14539（acetate 酯式）存在配方差異，需核實是否為同一化合物或等效物。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4755919",
+            "title": "[Treatment of severe forms of alopecia areata by means of intralesional subcutaneous injections of hydrocortisone acetate suspension].",
+            "authors": [
+              "Machońko T"
+            ],
+            "journal": "Przeglad dermatologiczny",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study（Case Series/Pilot）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "153470",
+            "title": "[Advances in topical therapy of skin diseases (author's transl)].",
+            "authors": [
+              "Happle R"
+            ],
+            "journal": "MMW, Munchener medizinische Wochenschrift",
+            "year": "1979",
+            "abstract": "The anti-inflammatory effect of the new topical corticosteroid fluocortin butyl ester is approximately equal to that of hydrocortisone acetate but it has the advantage that systemic side-effects are lacking. Vitamin A acid and benzoyl peroxide have brought significant advances in the topical treatment of acne. For the treatment of chloasma and other hyperpigmentations the combination of vitamin A acid and hydroquinone with a corticoid is considerably more effective than any of the single compone",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "圓禿為 T 細胞介導的毛囊自體免疫攻擊；糖皮質激素透過抑制局部 IL-2、IFN-γ 及 NF-κB 通路壓制免疫微環境，恢復毛囊免疫赦免。局部或病灶內注射 hydrocortisone 為圓禿早期治療選項之一，機轉直接。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "telogen effluvium",
+      "txgnn": {
+        "score": 0.9993701577186584,
+        "rank": 1354
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "休止期脫髮主因為全身性壓力（手術、生產、營養缺乏、甲狀腺疾病）誘發毛囊週期停滯，非免疫介導疾病。糖皮質激素機轉與主要病理無直接對應；TxGNN 預測可能源於落髮疾病群的圖譜鄰近性（graph proximity），而非生物學機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "alopecia mucinosa",
+      "txgnn": {
+        "score": 0.99936443567276,
+        "rank": 1369
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛囊黏蛋白沉積症為罕見慢性炎症性皮膚病，部分病例與 T 細胞淋巴瘤相關。雖有炎症成分，但局部類固醇證據極為有限，且病因異質性高。無臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Quinquaud's folliculitis decalvans",
+      "txgnn": {
+        "score": 0.9993425011634828,
+        "rank": 1418
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "毛囊炎性禿髮（folliculitis decalvans）主要為細菌（金黃色葡萄球菌）觸發的中性球性炎症，標準治療以抗生素為主（rifampicin + clindamycin）。糖皮質激素單獨使用可能加重感染風險，機轉適配性差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+      "txgnn": {
+        "score": 0.9992790818214417,
+        "rank": 1537
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "遺傳性少毛症合併皮膚水皰為罕見基因缺陷疾病（如 LPAR6/LIPH 突變），本質為結構性/遺傳性缺陷，非炎症病理。糖皮質激素對基因缺陷無根本治療效果，機轉關聯性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "alopecia antibody deficiency",
+      "txgnn": {
+        "score": 0.9992708563804626,
+        "rank": 1549
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見免疫缺陷合併脫髮綜合症，疾病定義不明確，文獻極度稀少。糖皮質激素理論上可調節抗體相關免疫反應，但無任何臨床依據支持此特定疾病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "txgnn": {
+        "score": 0.9992144107818604,
+        "rank": 1621
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見基因症候群（多系統受累），脫髮為遺傳缺陷表現之一。糖皮質激素對基因症候群的多器官缺陷無治療依據，機轉關聯性幾乎不存在。TxGNN 預測為圖譜鄰近效應（alopecia 疾病群聚）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "atrichia with papular lesions",
+      "txgnn": {
+        "score": 0.9973969459533693,
+        "rank": 4138
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無毛症合併丘疹性病變（APL）由 VDR 或 HR 基因突變引起，為毛囊發育基因缺陷，非炎症性疾病。糖皮質激素對此類遺傳缺陷無治療價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "seborrheic keratosis",
+      "txgnn": {
+        "score": 0.9936315417289734,
+        "rank": 7705
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脂漏性角化症為表皮良性增生性病變，與老化及 FGFR3/PIK3CA 突變相關，非炎症病理。糖皮質激素對角化增生無治療機轉，應用反而可能導致皮膚萎縮。此預測可能為模型雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "idiopathic steroid-sensitive nephrotic syndrome",
+      "txgnn": {
+        "score": 0.9930920600891112,
+        "rank": 8161
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "疾病名稱本身即含「steroid-sensitive」，標準治療為全身性糖皮質激素（prednisolone/prednisone）。Hydrocortisone 為內源性糖皮質激素，具相同受體作用機轉（GR-α），理論上可達免疫抑制效果；然而腎病症候群需足夠全身暴露量，hydrocortisone acetate（局部/外用劑型為主）是否能達有效全身濃度存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "telogen effluvium"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "telogen effluvium"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "telogen effluvium"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia mucinosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia mucinosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia mucinosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "Quinquaud's folliculitis decalvans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "hereditary hypotrichosis with recurrent skin vesicles"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia antibody deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia antibody deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia antibody deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "atrichia with papular lesions"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "atrichia with papular lesions"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "atrichia with papular lesions"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "seborrheic keratosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydrocortisone acetate",
+        "disease": "idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

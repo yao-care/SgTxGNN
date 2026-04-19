@@ -1,0 +1,1903 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09214-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dexketoprofen",
+    "drugbank_id": "DB09214",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "tendinitis",
+      "txgnn": {
+        "score": 0.99895042181015,
+        "rank": 2078
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30744914",
+            "title": "Intravenous dexketoprofen versus paracetamol in non-traumatic musculoskeletal pain in the emergency department: A randomized clinical trial.",
+            "authors": [
+              "Demirozogul Ezgi",
+              "Yilmaz Atakan",
+              "Ozen Mert",
+              "Turkcuer Ibrahim",
+              "Seyit Murat"
+            ],
+            "journal": "The American journal of emergency medicine",
+            "year": "2019",
+            "abstract": "Although acute musculoskeletal pain has a wide range of causes from tendinitis, muscle spasm, to bone and joint injuries, it is a frequent occurrence in emergency services. Paracetamol and non-steroidal anti-inflammatory analgesics (NSAID) are common used in the treatment of musculoskeletal pain. This study sets out to compare the effectiveness of intravenous dexketoprofen and paracetamol in musculoskeletal pain relief.",
+            "classification": {
+              "study_type": "RCT/Comparative Study (IV Dexketoprofen vs Paracetamol，非創傷性肌肉骨骼痛，急診)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌腱炎核心病理為前列腺素 E2 介導的局部發炎反應，NSAID 抑制 COX-2 可減少肌腱局部 PGE2，改善疼痛與腫脹；機轉明確，Dexketoprofen 作為高效 NSAID 具合理理論基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "fibromyalgia",
+      "txgnn": {
+        "score": 0.998785436153412,
+        "rank": 2360
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "纖維肌痛症主要機轉為中樞敏感化（central sensitization），而非周邊前列腺素炎症；NSAIDs 對中樞敏感化效果有限，機轉關聯弱。相較之下，SNRIs、gabapentinoids 具更佳機轉匹配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "myositis fibrosa",
+      "txgnn": {
+        "score": 0.9987717270851136,
+        "rank": 2376
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌炎纖維化為慢性纖維化過程，NSAID 的前列腺素抑制機轉主要對急性炎症有效，對纖維化重塑（TGF-β 介導）效果有限，機轉關聯弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "idiopathic granulomatous myositis",
+      "txgnn": {
+        "score": 0.9987717270851136,
+        "rank": 2377
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肉芽腫性肌炎屬免疫介導疾病，治療主軸為免疫調節（類固醇、DMARDs）；COX 抑制的前列腺素路徑在肉芽腫形成中非主要驅動機轉，Dexketoprofen 機轉關聯極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9987512826919556,
+        "rank": 2401
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RA 的關節滑膜炎症與 COX-2 過度表現相關；NSAIDs（包含 Dexketoprofen）可抑制 PGE2 減輕關節疼痛與僵硬，為 RA 症狀管理輔助藥物。然此屬類別外推，無 Dexketoprofen 特定 RA 數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9986653327941896,
+        "rank": 2522
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05780671",
+            "title": "The Effectiveness of Supplemental Oxygen Therapy in Patients Receiving Acute Migraine Treatment in the Emergency Department",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2023-06-01",
+            "completion_date": "2025-04-09",
+            "brief_summary": "IIn this study, the investigators planned to investigate effectiveness of supplemental oxygen in patients (18-65 years) who were diagnosed as headache related to migraine without aura in the emergency department (ED).\n\nPatients who will be ordered standard migraine therapy (50 mg dexketoprofen and 10 mg metoclopramide HCl in 100 cc normal saline IV) by the physician blind to research, will be evaluated by the researchers before the treatment and patients met the study criteria will be included. ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "補充氧氣 vs 偏頭痛標準治療（含 Dexketoprofen），Dexketoprofen 作為背景標準治療出現。"
+            }
+          },
+          {
+            "nct_id": "NCT04533568",
+            "title": "A Randomized-controlled Study; Comparison of the Effectiveness of Intravenous Ibuprofen and Intravenous Dexketoprofen in the Treatment of Migraine-related Headache in the Emergency Department",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2020-09-01",
+            "completion_date": "2021-12-01",
+            "brief_summary": "In this study, the investigators planned to compare the effectiveness of an intravenous ibuprofen against an intravenous dexketoprofen among patients (18-65 years) who were admitted to the emergency department (ED) with acute migraine-related headaches and diagnosed migraine without aura.\n\nIn this study, patients who presented with migraine-related headache to emergency departments will be included in this study. Two different therapy option are created; first, 400mg intravenous ibuprofen with 1",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，IV Ibuprofen vs IV Dexketoprofen（標題暗示），160 例偏頭痛，已完成。"
+            }
+          },
+          {
+            "nct_id": "NCT01730326",
+            "title": "The Comparison of the Effectiveness of Intravenous Dexketoprofen and Paracetamol in the Treatment of Headache Caused by Acute Migraine Attack in Emergency Service",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2012-03",
+            "completion_date": "2012-11",
+            "brief_summary": "Patients with acute migraine attack make up the majority of patients consulting the emergency services due to headache. The aim of treatment in the emergency service is to achieve a minimum level of undesirable side effects and to quickly relieve the pain which will not repeat after discharge from the emergency service. Ideal drug treatment contraindication should be at a minimum level and not trigger migraine. Paracetamol and Nonsteroidal anti-inflammatory drugs are often used in the treatment ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，IV Dexketoprofen vs IV Paracetamol 治療偏頭痛，200 例，已完成，直接頭對頭比較。"
+            }
+          },
+          {
+            "nct_id": "NCT04519346",
+            "title": "Comparison of Intradermal Mesotherapy With Systemic Therapy in the Treatment of Migraine Headache: A Prospective Randomized Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2019-12-01",
+            "completion_date": "2020-05-01",
+            "brief_summary": "Introduction:Migraine is a prevalent disabling primary headache disorder which is classified in two major types; migraine without aura and migraine with aura. The aim of this study was to compare the efficiency of mesotherapy with systemic therapy in pain controlin patients with headache related tomigraine without aura.\n\nMethods: We conducted this prospective parallel randomized controlled trial with the patients admitted to the emergency department with headache related to migraine without aura",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Dexketoprofen 作為系統性治療對照組，非主要研究藥物，但提供間接療效資料。"
+            }
+          },
+          {
+            "nct_id": "NCT06061588",
+            "title": "Potential Effects of Virtual Reality Technology on the Treatment of Migraine-Type Headaches: Randomized Observational Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2023-09-15",
+            "completion_date": "2024-03-10",
+            "brief_summary": "The primary objective of this research is to investigate the effects of virtual reality technology on the treatment of migraine-type headaches and assess how this technology may impact the severity, frequency, and duration of headaches.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "VR 技術試驗，Dexketoprofen 僅作為標準對照，與藥物直接評估關聯性低。"
+            }
+          },
+          {
+            "nct_id": "NCT04372264",
+            "title": "Comparison of the Effect of Intravenous Paracetamol, Dexketoprofen and Ibuprofen on Visual Analogue Scale (VAS) in the Treatment of Acute Migraine Attack Headache in the Emergency Department: A Double-Blinded, Randomized, Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 210,
+            "start_date": "2018-10-15",
+            "completion_date": "2020-12-29",
+            "brief_summary": "* Currently, paracetamol and nonsteroidal antiinflammatory drugs are widely used by emergency physicians in Turkey for the treatment of patients with Acute Migraine Attack Headache\n* The objective of the study is compare the efficacy of intravenous dexketoprofen,ibuprofen with paracetamol in the treatment of acute Migraine Attack Headache",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，IV Paracetamol vs Dexketoprofen vs Ibuprofen，VAS 比較，210 例，狀態 UNKNOWN 需注意資料完整性。"
+            }
+          },
+          {
+            "nct_id": "NCT04252521",
+            "title": "Intravenous Metoclopramide Versus Dexketoprofen Trometamol Versus Metoclopramide+ Dexketoprofen Trometamol in Acute Migraine Attack in the Emergency Department: a Randomized Double-blind Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2019-07-03",
+            "completion_date": "2020-01-03",
+            "brief_summary": "Acute headache is one of the most common reasons for presentation to the emergency department (ED), accounting for 2-3% of all emergency visits. Migraine is a disorder of the central nervous system characterized by a moderate or severe headache, which is generally associated with nausea and/or sensitivity to light and sound, interfering with daily activities.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "NA Phase RCT，Metoclopramide vs Dexketoprofen Trometamol vs 合併組，150 例偏頭痛，直接評估 Dexketoprofen 效果。"
+            }
+          },
+          {
+            "nct_id": "NCT02159547",
+            "title": "Study of Comparing Dexketoprofen to Placebo in Migraine Attack",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 224,
+            "start_date": "2014-05",
+            "completion_date": "2014-08",
+            "brief_summary": "H0 hypothesis: IV dexketoprofen is equivalent to placebo in ceasing migraine attack in emergency department.\n\nH1 hypothesis: IV dexketoprofen is not equivalent (superior) to placebo in ceasing migraine attack in emergency department.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，Dexketoprofen vs Placebo，224 例偏頭痛患者，直接比較，已完成，屬最高相關性試驗。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31725614",
+            "title": "The efficacy of dexketoprofen for migraine attack: A meta-analysis of randomized controlled studies.",
+            "authors": [
+              "Yang Baohua",
+              "Xu Zhili",
+              "Chen Linglong",
+              "Chen Xinguo",
+              "Xie Yuequn"
+            ],
+            "journal": "Medicine",
+            "year": "2019",
+            "abstract": "The efficacy of dexketoprofen for migraine attack remains controversial. We conduct a systematic review and meta-analysis to explore the influence of dexketoprofen supplementation versus placebo on pain control in migraine attack patients.",
+            "classification": {
+              "study_type": "Meta-analysis of RCTs",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41321235",
+            "title": "2025 guideline update to acute treatment of migraine for adults in the emergency department: The American Headache Society evidence assessment of parenteral pharmacotherapies.",
+            "authors": [
+              "Robblee Jennifer",
+              "Minen Mia T",
+              "Friedman Benjamin W",
+              "Cortel-LeBlanc Miguel A",
+              "Cortel-LeBlanc Achelle"
+            ],
+            "journal": "Headache",
+            "year": "2026",
+            "abstract": "To update the 2016 American Headache Society (AHS) guideline on parenteral pharmacologic therapies for the management of migraine attacks in the emergency department (ED).",
+            "classification": {
+              "study_type": "Clinical Practice Guideline (2025 ACEP)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28129702",
+            "title": "Triptans and migraine: advances in use, administration, formulation, and development.",
+            "authors": [
+              "Macone Amanda E",
+              "Perloff Michael D"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2017",
+            "abstract": "Recent triptan development has focused on new administration methods and formulations, triptan combination therapies, treatment in menstrually related migraines, and novel serotonin receptor subtype agonists (5HTf). Areas covered: Clinical triptan research related to migraine was reviewed, analyzing EMBASE and PUBMED data bases from 01/01/2011 to 06/29/2016, with a focus on clinical trials of class 1 or 2 level of evidence. There have been advances in drug combination therapies, as well as admin",
+            "classification": {
+              "study_type": "Narrative Review (Triptans)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37291500",
+            "title": "The efficacy and safety of metoclopramide in relieving acute migraine attacks compared with other anti-migraine drugs: a systematic review and network meta-analysis of randomized controlled trials.",
+            "authors": [
+              "Abdelmonem Hanaa",
+              "Abdelhay Hebatallah Mohamed",
+              "Abdelwadoud Gehad Taha",
+              "Alhosini Amira Naser Mohammed",
+              "Ahmed Ahmed Eissa"
+            ],
+            "journal": "BMC neurology",
+            "year": "2023",
+            "abstract": "Many drugs are prescribed in relieving acute migraine attacks, we aim to compare metoclopramide with other antimigraine drugs.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25056381",
+            "title": "The efficacy and tolerability of frovatriptan and dexketoprofen for the treatment of acute migraine attacks.",
+            "authors": [
+              "Allais Gianni",
+              "Rolando Sara",
+              "De Lorenzo Cristina",
+              "Benedetto Chiara"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2014",
+            "abstract": "Frovatriptan is a triptan characterized by a high affinity for 5-HT1B/1D receptors and a long half-life contributing to a more sustained and prolonged action than other triptans. Dexketoprofen is a nonsteroidal anti-inflammatory drug with a relatively short half-life and rapid onset of action, blocking the action of cyclo-oxygenase, which is involved in prostaglandins' production, thus reducing inflammation and pain. Both drugs have been successfully employed as monotherapies for the treatment o",
+            "classification": {
+              "study_type": "RCT (Frovatriptan + Dexketoprofen)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32359776",
+            "title": "Intravenous metoclopramide versus dexketoprofen trometamol versus metoclopramide+ dexketoprofen trometamol in acute migraine attack in the emergency department: A randomized double-blind controlled trial.",
+            "authors": [
+              "Yavuz E",
+              "Gulacti U",
+              "Lok U",
+              "Turgut K"
+            ],
+            "journal": "The American journal of emergency medicine",
+            "year": "2020",
+            "abstract": "The objective of this study was to determine the analgesic efficacy and safety of intravenous, single-dose metoclopramide versus dexketoprofen trometamol versus metoclopramide+ dexketoprofen trometamol in patients presenting with acute migraine attack to the emergency department (ED).",
+            "classification": {
+              "study_type": "RCT (Metoclopramide vs Dexketoprofen)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34085549",
+            "title": "Intradermal mesotherapy versus intravenous dexketoprofen for the treatment of migraine headache without aura: a randomized controlled trial.",
+            "authors": [
+              "Akbas Ilker",
+              "Kocak Meryem Betos",
+              "Kocak Abdullah Osman",
+              "Gur Sultan Tuna Akgol",
+              "Dogruyol Sinem"
+            ],
+            "journal": "Annals of Saudi medicine",
+            "year": "2021",
+            "abstract": "Migraine is a prevalent disabling primary headache disorder that is classified into two major types: migraine without aura and migraine with aura. New therapeutic methods to reduce migraine headaches in the emergency department (ED) include intradermal mesotherapy.",
+            "classification": {
+              "study_type": "RCT (Mesotherapy vs IV Dexketoprofen)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25944813",
+            "title": "Intravenous dexketoprofen vs placebo for migraine attack in the emergency department: A randomized, placebo-controlled trial.",
+            "authors": [
+              "Gungor Faruk",
+              "Akyol Kamil Can",
+              "Kesapli Mustafa",
+              "Celik Ahmet",
+              "Karaca Adeviye"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2016",
+            "abstract": "Migraine is a leading headache etiology that frequently presents to the emergency department (ED). In the present study, we aimed to determine the efficacy of dexketoprofen in aborting migraine headaches in the ED.",
+            "classification": {
+              "study_type": "RCT (Dexketoprofen vs Placebo, ED)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27757013",
+            "title": "Spotlight on frovatriptan: a review of its efficacy in the treatment of migraine.",
+            "authors": [
+              "Allais Gianni",
+              "Benedetto Chiara"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "abstract": "Migraine is a common neurovascular disorder, affecting millions of people worldwide. Current guidelines recommend triptans as first-line treatment for moderate-to-severe migraine attacks. Frovatriptan is a second-generation triptan with a longer terminal elimination half-life in blood than other triptans (~26 hours). Three double-blind, randomized crossover preference studies have been recently conducted, assessing efficacy and safety of frovatriptan versus rizatriptan, zolmitriptan, and almotri",
+            "classification": {
+              "study_type": "Review (Frovatriptan, Dexketoprofen combo)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24394884",
+            "title": "Intravenous paracetamol versus dexketoprofen in acute migraine attack in the emergency department: a randomised clinical trial.",
+            "authors": [
+              "Turkcuer Ibrahim",
+              "Serinken Mustafa",
+              "Eken Cenker",
+              "Yilmaz Atakan",
+              "Akdag Ömer"
+            ],
+            "journal": "Emergency medicine journal : EMJ",
+            "year": "2014",
+            "abstract": "Migraine is a common form of headache that is a major burden for patients who often seek emergency care. The goal of this study was to compare the effectiveness of intravenous non-steroidal anti-inflammatory medication (dexketoprofen) with paracetamol (acetaminophen) in the treatment of an acute migraine attack.",
+            "classification": {
+              "study_type": "RCT (Dexketoprofen vs Paracetamol, ED)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24335849",
+            "title": "Adding NSAIDs to triptans: could less be more?",
+            "authors": [
+              "Loder Elizabeth",
+              "Weizenbaum Emma"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36163088",
+            "title": "Ubiquitin C-terminal hydrolase 1 is increased in migraine attack.",
+            "authors": [
+              "Atescelik M",
+              "Yilmaz M"
+            ],
+            "journal": "Revue neurologique",
+            "year": "2023",
+            "abstract": "This study aimed to determine the serum level of Ubiquitin C-terminal hydrolase 1 enzyme during a migraine attack and after its treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24412801",
+            "title": "Dexketoprofen trometamol in the acute treatment of migraine attack: a phase II, randomized, double-blind, crossover, placebo-controlled, dose optimization study.",
+            "authors": [
+              "Mainardi Federico",
+              "Maggioni Ferdinando",
+              "Pezzola Deborha",
+              "Zava Dario",
+              "Zanchin Giorgio"
+            ],
+            "journal": "The journal of pain",
+            "year": "2014",
+            "abstract": "Migraine is a disabling disease that can significantly affect a person's quality of life. This study assessed the efficacy and tolerability of the 2 doses of dexketoprofen trometamol (DKP) compared to placebo for migraine treatment. Ninety-three patients with at least 1 migraine attack per month in the preceding 6 months were enrolled and randomized to 25 mg DKP, 50 mg DKP, and placebo in a randomized, double-blind, single-center, crossover, placebo-controlled study. Primary endpoint was pain-fr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23695075",
+            "title": "Frovatriptan plus dexketoprofen in the treatment of menstrually related migraine: an open study.",
+            "authors": [
+              "Allais Gianni",
+              "Rolando Sara",
+              "Schiapparelli Paola",
+              "Airola Gisella",
+              "Borgogno Paola"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2013",
+            "abstract": "At least 50 % of female migraineurs experience migraine associated with the perimenstrual period, even though they may also suffer from attacks at other times of the cycle (menstrually related migraine, MRM). MRM attacks tend to be longer and more intense than those arising in other phases of the menstrual cycle, and are often aggravated by more pronounced vegetative phenomena. In this open preliminary trial, we tested the efficacy of associating frovatriptan and dexketoprofen for the treatment ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24277663",
+            "title": "WITHDRAWN: Single dose dipyrone for acute postoperative pain.",
+            "authors": [
+              "Derry Sheena",
+              "Faura Clara",
+              "Edwards Jayne",
+              "McQuay Henry J",
+              "Moore R Andrew"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2013",
+            "abstract": "Dipyrone (metamizole) is a non‐steroidal anti‐inflammatory drug used in some countries to treat pain (postoperative, colic, cancer, and migraine); it is banned in others because of an association with life‐threatening blood agranulocytosis. This review updates a 2001 Cochrane review, and no relevant new studies were identified, but additional outcomes were sought.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24867846",
+            "title": "Efficacy of early vs. late use of frovatriptan combined with dexketoprofen vs. frovatriptan alone in the acute treatment of migraine attacks with or without aura.",
+            "authors": [
+              "Allais Gianni",
+              "Tullo Vincenzo",
+              "Cortelli Pietro",
+              "Barbanti Piero",
+              "Valguarnera Fabio"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2014",
+            "abstract": "Early triptan use after headache onset may help improve the efficacy of acute migraine treatment. This may be particularly the case when triptan therapy is combined with a nonsteroidal anti-inflammatory drug (NSAID). The objective of this is to assess whether the combination of frovatriptan 2.5 mg + dexketoprofen 25 or 37.5 mg (FroDex25 and FroDex37.5) is superior to frovatriptan 2.5 mg alone (Frova) in the acute treatment of migraine attacks in patients who took the drug within 30 min from the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24363238",
+            "title": "Comparison of frovatriptan plus dexketoprofen (25 mg or 37.5 mg) with frovatriptan alone in the treatment of migraine attacks with or without aura: a randomized study.",
+            "authors": [
+              "Tullo Vincenzo",
+              "Valguarnera Fabio",
+              "Barbanti Piero",
+              "Cortelli Pietro",
+              "Sette Giuliano"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "Drugs for migraine attacks include triptans and NSAIDs; their combination could provide greater symptom relief.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25053749",
+            "title": "Frovatriptan 2.5 mg plus dexketoprofen (25 mg or 37.5 mg) in menstrually related migraine. Subanalysis from a double-blind, randomized trial.",
+            "authors": [
+              "Allais G",
+              "Bussone G",
+              "Tullo V",
+              "Cortelli P",
+              "Valguarnera F"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2015",
+            "abstract": "The purpose of this article is to investigate the efficacy and safety of frovatriptan plus dexketoprofen 25 or 37.5 mg (FroDex25 or FroDex37.5, respectively) compared to that of frovatriptan 2.5 mg (Frova) in menstrually related migraine (MRM).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34528122",
+            "title": "Intravenous lidocaine vs. NSAIDs for migraine attack in the ED: a prospective, randomized, double-blind study.",
+            "authors": [
+              "Gur Sultan Tuna Akgol",
+              "Ahiskalioglu Elif Oral",
+              "Aydin Muhammed Enes",
+              "Kocak Abdullah Osman",
+              "Aydin Pelin"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2022",
+            "abstract": "Although different forms of lidocaine are used for migraine attack headaches, the effect of intravenous lidocaine is still limited. This study aimed to investigate the effects of intravenous lidocaine infusion for the treatment of migraine attack headaches.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11155464",
+            "title": "[Dexketoprofen trometamol in the treatment of acute migraine attack].",
+            "authors": [
+              "Allais G",
+              "De Lorenzo C",
+              "Airola G",
+              "Peano S",
+              "Benedetto C"
+            ],
+            "journal": "Minerva medica",
+            "year": "2000",
+            "abstract": "Migraine is a common, very disabling pain condition: the occurrence of an acute attack often requires bedrest and prevents from participating in normal activities. Nonsteroidal anti-inflammatory drugs are widely used in the symptomatic treatment of migraine. Aim of this study was to evaluate the efficacy and safety of a potent new formulation, dexketoprofen trometamol (DT), in the treatment of migraine pain.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺素（特別是 PGE2）在偏頭痛發作中促進三叉神經敏感化與顱內血管擴張；Dexketoprofen 抑制 COX-1/COX-2 可中斷此發炎級聯，急性期鎮痛效果有明確藥理基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.998629093170166,
+        "rank": 2572
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06155669",
+            "title": "The Impact of Virtual Reality -Guided Visual and Auditory Therapy on Symptom Severity and Psychological Well-Being in Tension-Type Headache Patients: A Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2023-12-15",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The primary aim of this research is to objectively assess the impact of virtual reality (VR) technology on pain symptoms in tension-type headache patients. This study is designed to understand the potential of VR in the treatment of tension-type headaches, exploring its ability to reduce pain severity and improve patients' quality of life.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "VR 聽視覺療法試驗，Dexketoprofen 非主要評估標的。"
+            }
+          },
+          {
+            "nct_id": "NCT05780671",
+            "title": "The Effectiveness of Supplemental Oxygen Therapy in Patients Receiving Acute Migraine Treatment in the Emergency Department",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2023-06-01",
+            "completion_date": "2025-04-09",
+            "brief_summary": "IIn this study, the investigators planned to investigate effectiveness of supplemental oxygen in patients (18-65 years) who were diagnosed as headache related to migraine without aura in the emergency department (ED).\n\nPatients who will be ordered standard migraine therapy (50 mg dexketoprofen and 10 mg metoclopramide HCl in 100 cc normal saline IV) by the physician blind to research, will be evaluated by the researchers before the treatment and patients met the study criteria will be included. ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "補充氧氣試驗，Dexketoprofen 為標準照護背景。"
+            }
+          },
+          {
+            "nct_id": "NCT04193488",
+            "title": "Comparison of Analgesic Efficacy of Mid-Transverse Process to Pleural (MTP) Block and Erector Spinal Plan (ESP) Block in Spinal Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2019-10-23",
+            "completion_date": "2020-01-15",
+            "brief_summary": "Ethics committee approval was taken on October 22, 2019, numbered 19/342. 120 adult patients who will undergo spine stabilization surgery between October 2019 and January 2020 in \"Gülhane Training and Research Hospital\" were planned to be included in the study. Patients will be randomized to 30 patients with MTP block (Group MTP) and ESP block (Group ESP) and no block (Group K) in addition to patient-controlled analgesia (PCA). Postoperative pain scores, analgesic use, number of PCA button press",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "神經阻滯 vs 對照（Dexketoprofen 為可能對照藥物）治療頭痛，120 例。"
+            }
+          },
+          {
+            "nct_id": "NCT04533568",
+            "title": "A Randomized-controlled Study; Comparison of the Effectiveness of Intravenous Ibuprofen and Intravenous Dexketoprofen in the Treatment of Migraine-related Headache in the Emergency Department",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2020-09-01",
+            "completion_date": "2021-12-01",
+            "brief_summary": "In this study, the investigators planned to compare the effectiveness of an intravenous ibuprofen against an intravenous dexketoprofen among patients (18-65 years) who were admitted to the emergency department (ED) with acute migraine-related headaches and diagnosed migraine without aura.\n\nIn this study, patients who presented with migraine-related headache to emergency departments will be included in this study. Two different therapy option are created; first, 400mg intravenous ibuprofen with 1",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 頭對頭 RCT，160 例，急性頭痛場景。"
+            }
+          },
+          {
+            "nct_id": "NCT01730326",
+            "title": "The Comparison of the Effectiveness of Intravenous Dexketoprofen and Paracetamol in the Treatment of Headache Caused by Acute Migraine Attack in Emergency Service",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2012-03",
+            "completion_date": "2012-11",
+            "brief_summary": "Patients with acute migraine attack make up the majority of patients consulting the emergency services due to headache. The aim of treatment in the emergency service is to achieve a minimum level of undesirable side effects and to quickly relieve the pain which will not repeat after discharge from the emergency service. Ideal drug treatment contraindication should be at a minimum level and not trigger migraine. Paracetamol and Nonsteroidal anti-inflammatory drugs are often used in the treatment ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，偏頭痛（headache disorder 子集），Dexketoprofen 直接評估，已完成。"
+            }
+          },
+          {
+            "nct_id": "NCT04519346",
+            "title": "Comparison of Intradermal Mesotherapy With Systemic Therapy in the Treatment of Migraine Headache: A Prospective Randomized Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2019-12-01",
+            "completion_date": "2020-05-01",
+            "brief_summary": "Introduction:Migraine is a prevalent disabling primary headache disorder which is classified in two major types; migraine without aura and migraine with aura. The aim of this study was to compare the efficiency of mesotherapy with systemic therapy in pain controlin patients with headache related tomigraine without aura.\n\nMethods: We conducted this prospective parallel randomized controlled trial with the patients admitted to the emergency department with headache related to migraine without aura",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Dexketoprofen 作為系統性治療對照，150 例頭痛患者。"
+            }
+          },
+          {
+            "nct_id": "NCT06061588",
+            "title": "Potential Effects of Virtual Reality Technology on the Treatment of Migraine-Type Headaches: Randomized Observational Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2023-09-15",
+            "completion_date": "2024-03-10",
+            "brief_summary": "The primary objective of this research is to investigate the effects of virtual reality technology on the treatment of migraine-type headaches and assess how this technology may impact the severity, frequency, and duration of headaches.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "VR 試驗，Dexketoprofen 僅為對照治療組成。"
+            }
+          },
+          {
+            "nct_id": "NCT04372264",
+            "title": "Comparison of the Effect of Intravenous Paracetamol, Dexketoprofen and Ibuprofen on Visual Analogue Scale (VAS) in the Treatment of Acute Migraine Attack Headache in the Emergency Department: A Double-Blinded, Randomized, Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 210,
+            "start_date": "2018-10-15",
+            "completion_date": "2020-12-29",
+            "brief_summary": "* Currently, paracetamol and nonsteroidal antiinflammatory drugs are widely used by emergency physicians in Turkey for the treatment of patients with Acute Migraine Attack Headache\n* The objective of the study is compare the efficacy of intravenous dexketoprofen,ibuprofen with paracetamol in the treatment of acute Migraine Attack Headache",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "三臂 Phase 4，含 Dexketoprofen 治療頭痛的 VAS 直接測量。"
+            }
+          },
+          {
+            "nct_id": "NCT04252521",
+            "title": "Intravenous Metoclopramide Versus Dexketoprofen Trometamol Versus Metoclopramide+ Dexketoprofen Trometamol in Acute Migraine Attack in the Emergency Department: a Randomized Double-blind Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2019-07-03",
+            "completion_date": "2020-01-03",
+            "brief_summary": "Acute headache is one of the most common reasons for presentation to the emergency department (ED), accounting for 2-3% of all emergency visits. Migraine is a disorder of the central nervous system characterized by a moderate or severe headache, which is generally associated with nausea and/or sensitivity to light and sound, interfering with daily activities.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接評估 Dexketoprofen Trometamol 在急性頭痛治療的效果。"
+            }
+          },
+          {
+            "nct_id": "NCT04178252",
+            "title": "Effectiveness of Eye Mask and Noise Reduction Headset in Emergency Treatment of Primary Headache",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2020-01-08",
+            "completion_date": "2024-11-02",
+            "brief_summary": "Primary headache can be triggered by light or noise. Getting rest in a quiet and dark environment for the treatment of acute headache is recommended for relief of pain during an attack. It is hard to provide this kind of environment in a busy emergency department. We aimed to determine if eye masks and noise reduction head sets are effective in reducing pain scores, fastening pain relief when used together with standard care. We also aimed to see if these methods were preferred over standard car",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "眼罩/降噪對原發性頭痛的效果，Dexketoprofen 為背景治療，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT02159547",
+            "title": "Study of Comparing Dexketoprofen to Placebo in Migraine Attack",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 224,
+            "start_date": "2014-05",
+            "completion_date": "2014-08",
+            "brief_summary": "H0 hypothesis: IV dexketoprofen is equivalent to placebo in ceasing migraine attack in emergency department.\n\nH1 hypothesis: IV dexketoprofen is not equivalent (superior) to placebo in ceasing migraine attack in emergency department.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，Dexketoprofen vs Placebo，偏頭痛為 headache disorder 主體。"
+            }
+          },
+          {
+            "nct_id": "NCT03830398",
+            "title": "Comparison of Paracetamol and Dexketoprofen Trometamol on Headache Treatment After Electroconvulsive Treatment",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 225,
+            "start_date": "2018-11-20",
+            "completion_date": "2019-06",
+            "brief_summary": "Electroconvulsive treatment (ECT) is still actual for treatment of psychiatric symptoms. Headache is a very common symptom after this application. The investigators compare the effect of two different drugs for the treatment of headache after ECT.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41321235",
+            "title": "2025 guideline update to acute treatment of migraine for adults in the emergency department: The American Headache Society evidence assessment of parenteral pharmacotherapies.",
+            "authors": [
+              "Robblee Jennifer",
+              "Minen Mia T",
+              "Friedman Benjamin W",
+              "Cortel-LeBlanc Miguel A",
+              "Cortel-LeBlanc Achelle"
+            ],
+            "journal": "Headache",
+            "year": "2026",
+            "abstract": "To update the 2016 American Headache Society (AHS) guideline on parenteral pharmacologic therapies for the management of migraine attacks in the emergency department (ED).",
+            "classification": {
+              "study_type": "Clinical Practice Guideline (2025 ACEP)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25056381",
+            "title": "The efficacy and tolerability of frovatriptan and dexketoprofen for the treatment of acute migraine attacks.",
+            "authors": [
+              "Allais Gianni",
+              "Rolando Sara",
+              "De Lorenzo Cristina",
+              "Benedetto Chiara"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2014",
+            "abstract": "Frovatriptan is a triptan characterized by a high affinity for 5-HT1B/1D receptors and a long half-life contributing to a more sustained and prolonged action than other triptans. Dexketoprofen is a nonsteroidal anti-inflammatory drug with a relatively short half-life and rapid onset of action, blocking the action of cyclo-oxygenase, which is involved in prostaglandins' production, thus reducing inflammation and pain. Both drugs have been successfully employed as monotherapies for the treatment o",
+            "classification": {
+              "study_type": "RCT (Frovatriptan + Dexketoprofen)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40464717",
+            "title": "Analgesic and Anxiolytic Effects of Virtual Reality and Classical Music Therapy on Tension-Type Headache: A Randomized Controlled Trial.",
+            "authors": [
+              "Dönmez Safa",
+              "Şener Alp",
+              "Işık Nurullah İshak",
+              "Koca Senem",
+              "Akbaş İlker"
+            ],
+            "journal": "Annals of emergency medicine",
+            "year": "2026",
+            "abstract": "Tension-type headache is the most common primary headache worldwide, significantly reducing individuals' quality of life. Although nonsteroidal anti-inflammatory drugs are commonly used for the pharmacologic treatment of tension-type headache, complementary and alternative treatment methods are gaining increasing importance. In this context, virtual reality technology stands out as a noninvasive option, particularly in pain management. This study investigates the analgesic effects and acute mood",
+            "classification": {
+              "study_type": "RCT (VR vs Classical Music 緊張型頭痛，含 Dexketoprofen 對照)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37291500",
+            "title": "The efficacy and safety of metoclopramide in relieving acute migraine attacks compared with other anti-migraine drugs: a systematic review and network meta-analysis of randomized controlled trials.",
+            "authors": [
+              "Abdelmonem Hanaa",
+              "Abdelhay Hebatallah Mohamed",
+              "Abdelwadoud Gehad Taha",
+              "Alhosini Amira Naser Mohammed",
+              "Ahmed Ahmed Eissa"
+            ],
+            "journal": "BMC neurology",
+            "year": "2023",
+            "abstract": "Many drugs are prescribed in relieving acute migraine attacks, we aim to compare metoclopramide with other antimigraine drugs.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31725614",
+            "title": "The efficacy of dexketoprofen for migraine attack: A meta-analysis of randomized controlled studies.",
+            "authors": [
+              "Yang Baohua",
+              "Xu Zhili",
+              "Chen Linglong",
+              "Chen Xinguo",
+              "Xie Yuequn"
+            ],
+            "journal": "Medicine",
+            "year": "2019",
+            "abstract": "The efficacy of dexketoprofen for migraine attack remains controversial. We conduct a systematic review and meta-analysis to explore the influence of dexketoprofen supplementation versus placebo on pain control in migraine attack patients.",
+            "classification": {
+              "study_type": "Meta-analysis of RCTs",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39063663",
+            "title": "Acute and Preventive Treatment of COVID-19-Related Headache: A Series of 100 Patients.",
+            "authors": [
+              "García-Azorín David",
+              "García-Ruiz Claudia",
+              "Sierra-Mencía Álvaro",
+              "González-Osorio Yésica",
+              "Recio-García Andrea"
+            ],
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2024",
+            "abstract": "To describe the need and effectiveness of acute and preventive medications in a series of 100 consecutive patients referred due to COVID-19-related headaches. Patients were aged 48.0 (standard deviation (SD): 12.4), 84% were female, and 56% had a prior history of headache. The most common headache phenotype was holocranial (63%), frontal (48%), pressing (75%), of moderate intensity (7 out of 10), and accompanied by photophobia (58%). Acute medication was required by 93%, with paracetamol (46%) b",
+            "classification": {
+              "study_type": "Case Series (COVID-19 相關頭痛)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34085549",
+            "title": "Intradermal mesotherapy versus intravenous dexketoprofen for the treatment of migraine headache without aura: a randomized controlled trial.",
+            "authors": [
+              "Akbas Ilker",
+              "Kocak Meryem Betos",
+              "Kocak Abdullah Osman",
+              "Gur Sultan Tuna Akgol",
+              "Dogruyol Sinem"
+            ],
+            "journal": "Annals of Saudi medicine",
+            "year": "2021",
+            "abstract": "Migraine is a prevalent disabling primary headache disorder that is classified into two major types: migraine without aura and migraine with aura. New therapeutic methods to reduce migraine headaches in the emergency department (ED) include intradermal mesotherapy.",
+            "classification": {
+              "study_type": "RCT (IV Dexketoprofen vs Mesotherapy)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27757013",
+            "title": "Spotlight on frovatriptan: a review of its efficacy in the treatment of migraine.",
+            "authors": [
+              "Allais Gianni",
+              "Benedetto Chiara"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "abstract": "Migraine is a common neurovascular disorder, affecting millions of people worldwide. Current guidelines recommend triptans as first-line treatment for moderate-to-severe migraine attacks. Frovatriptan is a second-generation triptan with a longer terminal elimination half-life in blood than other triptans (~26 hours). Three double-blind, randomized crossover preference studies have been recently conducted, assessing efficacy and safety of frovatriptan versus rizatriptan, zolmitriptan, and almotri",
+            "classification": {
+              "study_type": "Review (Frovatriptan)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29616344",
+            "title": "Novel Pharmacological Nonopioid Therapies in Chronic Pain.",
+            "authors": [
+              "Kaye Alan David",
+              "Cornett Elyse M",
+              "Hart Brendon",
+              "Patil Shilpadevi",
+              "Pham Andrew"
+            ],
+            "journal": "Current pain and headache reports",
+            "year": "2018",
+            "abstract": "Opioid use and abuse has led to a worldwide opioid epidemic. And while opioids are clinically useful when appropriately indicated, they are associated with a wide range of dangerous side effects and whether they are effective at treating or eliminating chronic pain is controversial. There has long been a need for the development of nonopioid alternative treatments for patients that live in pain, and until recently, only a few effective treatments were available. Today, there are a wide range of ",
+            "classification": {
+              "study_type": "Narrative Review (慢性疼痛非類鴉片療法)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28129702",
+            "title": "Triptans and migraine: advances in use, administration, formulation, and development.",
+            "authors": [
+              "Macone Amanda E",
+              "Perloff Michael D"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2017",
+            "abstract": "Recent triptan development has focused on new administration methods and formulations, triptan combination therapies, treatment in menstrually related migraines, and novel serotonin receptor subtype agonists (5HTf). Areas covered: Clinical triptan research related to migraine was reviewed, analyzing EMBASE and PUBMED data bases from 01/01/2011 to 06/29/2016, with a focus on clinical trials of class 1 or 2 level of evidence. There have been advances in drug combination therapies, as well as admin",
+            "classification": {
+              "study_type": "Review (Triptans)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24335849",
+            "title": "Adding NSAIDs to triptans: could less be more?",
+            "authors": [
+              "Loder Elizabeth",
+              "Weizenbaum Emma"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32359776",
+            "title": "Intravenous metoclopramide versus dexketoprofen trometamol versus metoclopramide+ dexketoprofen trometamol in acute migraine attack in the emergency department: A randomized double-blind controlled trial.",
+            "authors": [
+              "Yavuz E",
+              "Gulacti U",
+              "Lok U",
+              "Turgut K"
+            ],
+            "journal": "The American journal of emergency medicine",
+            "year": "2020",
+            "abstract": "The objective of this study was to determine the analgesic efficacy and safety of intravenous, single-dose metoclopramide versus dexketoprofen trometamol versus metoclopramide+ dexketoprofen trometamol in patients presenting with acute migraine attack to the emergency department (ED).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33423013",
+            "title": "Lidocaine versus dexketoprofen in treatment of tension-type headache: A double-blind randomized controlled trial.",
+            "authors": [
+              "Akbas Ilker",
+              "Kocak Abdullah Osman",
+              "Akgol Gur Sultan Tuna",
+              "Oral Ahiskalioglu Elif",
+              "Dogruyol Sinem"
+            ],
+            "journal": "The American journal of emergency medicine",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36163088",
+            "title": "Ubiquitin C-terminal hydrolase 1 is increased in migraine attack.",
+            "authors": [
+              "Atescelik M",
+              "Yilmaz M"
+            ],
+            "journal": "Revue neurologique",
+            "year": "2023",
+            "abstract": "This study aimed to determine the serum level of Ubiquitin C-terminal hydrolase 1 enzyme during a migraine attack and after its treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34528122",
+            "title": "Intravenous lidocaine vs. NSAIDs for migraine attack in the ED: a prospective, randomized, double-blind study.",
+            "authors": [
+              "Gur Sultan Tuna Akgol",
+              "Ahiskalioglu Elif Oral",
+              "Aydin Muhammed Enes",
+              "Kocak Abdullah Osman",
+              "Aydin Pelin"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2022",
+            "abstract": "Although different forms of lidocaine are used for migraine attack headaches, the effect of intravenous lidocaine is still limited. This study aimed to investigate the effects of intravenous lidocaine infusion for the treatment of migraine attack headaches.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29744871",
+            "title": "The effectiveness of greater occipital nerve blockade in treating acute migraine-related headaches in emergency departments.",
+            "authors": [
+              "Korucu O",
+              "Dagar S",
+              "Çorbacioglu Ş K",
+              "Emektar E",
+              "Cevik Y"
+            ],
+            "journal": "Acta neurologica Scandinavica",
+            "year": "2018",
+            "abstract": "This study aimed to evaluate the effectiveness of a greater occipital nerve (GON) blockade against a placebo and classical treatments (non-steroidal anti-inflammatory drugs + metoclopramide) among patients who were admitted to the emergency department (ED) with acute migraine headaches.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24394884",
+            "title": "Intravenous paracetamol versus dexketoprofen in acute migraine attack in the emergency department: a randomised clinical trial.",
+            "authors": [
+              "Turkcuer Ibrahim",
+              "Serinken Mustafa",
+              "Eken Cenker",
+              "Yilmaz Atakan",
+              "Akdag Ömer"
+            ],
+            "journal": "Emergency medicine journal : EMJ",
+            "year": "2014",
+            "abstract": "Migraine is a common form of headache that is a major burden for patients who often seek emergency care. The goal of this study was to compare the effectiveness of intravenous non-steroidal anti-inflammatory medication (dexketoprofen) with paracetamol (acetaminophen) in the treatment of an acute migraine attack.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25944813",
+            "title": "Intravenous dexketoprofen vs placebo for migraine attack in the emergency department: A randomized, placebo-controlled trial.",
+            "authors": [
+              "Gungor Faruk",
+              "Akyol Kamil Can",
+              "Kesapli Mustafa",
+              "Celik Ahmet",
+              "Karaca Adeviye"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2016",
+            "abstract": "Migraine is a leading headache etiology that frequently presents to the emergency department (ED). In the present study, we aimed to determine the efficacy of dexketoprofen in aborting migraine headaches in the ED.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19967102",
+            "title": "Postmarketing cohort study to assess the safety profile of oral dexketoprofen trometamol for mild to moderate acute pain treatment in primary care.",
+            "authors": [
+              "Carne Xavier",
+              "Rios Jose",
+              "Torres Ferran"
+            ],
+            "journal": "Methods and findings in experimental and clinical pharmacology",
+            "year": "2009",
+            "abstract": "Recently, new concerns on the safety profile of nonsteroidal anti-inflammatory drugs (NSAIDs) have been raised by the European Medicines Agency (EMEA) and other regulatory authorities. The safety profile of oral dexketoprofen trometamol for the treatment of acute mild to moderate pain of different causes in actual conditions of use in the primary care setting was assessed. A prospective cohort study was designed to evaluate the tolerability of dexketoprofen compared with other commonly prescribe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23695075",
+            "title": "Frovatriptan plus dexketoprofen in the treatment of menstrually related migraine: an open study.",
+            "authors": [
+              "Allais Gianni",
+              "Rolando Sara",
+              "Schiapparelli Paola",
+              "Airola Gisella",
+              "Borgogno Paola"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2013",
+            "abstract": "At least 50 % of female migraineurs experience migraine associated with the perimenstrual period, even though they may also suffer from attacks at other times of the cycle (menstrually related migraine, MRM). MRM attacks tend to be longer and more intense than those arising in other phases of the menstrual cycle, and are often aggravated by more pronounced vegetative phenomena. In this open preliminary trial, we tested the efficacy of associating frovatriptan and dexketoprofen for the treatment ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與偏頭痛機轉相同，COX 抑制降低前列腺素介導的疼痛敏感化，適用於多類型原發性頭痛（偏頭痛、緊張型頭痛）的急性鎮痛。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9985670447349548,
+        "rank": 2657
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34085549",
+            "title": "Intradermal mesotherapy versus intravenous dexketoprofen for the treatment of migraine headache without aura: a randomized controlled trial.",
+            "authors": [
+              "Akbas Ilker",
+              "Kocak Meryem Betos",
+              "Kocak Abdullah Osman",
+              "Gur Sultan Tuna Akgol",
+              "Dogruyol Sinem"
+            ],
+            "journal": "Annals of Saudi medicine",
+            "year": "2021",
+            "abstract": "Migraine is a prevalent disabling primary headache disorder that is classified into two major types: migraine without aura and migraine with aura. New therapeutic methods to reduce migraine headaches in the emergency department (ED) include intradermal mesotherapy.",
+            "classification": {
+              "study_type": "RCT (IV Dexketoprofen vs Mesotherapy，含先兆型)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24363238",
+            "title": "Comparison of frovatriptan plus dexketoprofen (25 mg or 37.5 mg) with frovatriptan alone in the treatment of migraine attacks with or without aura: a randomized study.",
+            "authors": [
+              "Tullo Vincenzo",
+              "Valguarnera Fabio",
+              "Barbanti Piero",
+              "Cortelli Pietro",
+              "Sette Giuliano"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "Drugs for migraine attacks include triptans and NSAIDs; their combination could provide greater symptom relief.",
+            "classification": {
+              "study_type": "RCT (Frovatriptan + Dexketoprofen 25mg/37.5mg vs 單藥)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24867846",
+            "title": "Efficacy of early vs. late use of frovatriptan combined with dexketoprofen vs. frovatriptan alone in the acute treatment of migraine attacks with or without aura.",
+            "authors": [
+              "Allais Gianni",
+              "Tullo Vincenzo",
+              "Cortelli Pietro",
+              "Barbanti Piero",
+              "Valguarnera Fabio"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2014",
+            "abstract": "Early triptan use after headache onset may help improve the efficacy of acute migraine treatment. This may be particularly the case when triptan therapy is combined with a nonsteroidal anti-inflammatory drug (NSAID). The objective of this is to assess whether the combination of frovatriptan 2.5 mg + dexketoprofen 25 or 37.5 mg (FroDex25 and FroDex37.5) is superior to frovatriptan 2.5 mg alone (Frova) in the acute treatment of migraine attacks in patients who took the drug within 30 min from the ",
+            "classification": {
+              "study_type": "RCT (早期 vs 晚期使用 Frovatriptan + Dexketoprofen)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26017535",
+            "title": "Early (≤ 1-h) vs. late (>1-h) administration of frovatriptan plus dexketoprofen combination vs. frovatriptan monotherapy in the acute treatment of migraine attacks with or without aura: a post hoc analysis of a double-blind, randomized, parallel group study.",
+            "authors": [
+              "Allais Gianni",
+              "Bussone Gennaro",
+              "Tullo Vincenzo",
+              "Cortelli Pietro",
+              "Valguarnera Fabio"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2015",
+            "abstract": "The early use of triptan in combination with a nonsteroidal anti-inflammatory drug after headache onset may improve the efficacy of acute migraine treatment. In this retrospective analysis of a randomized, double-blind, parallel group study, we assessed the efficacy of early or late intake of frovatriptan 2.5 mg + dexketoprofen 25 or 37.5 mg (FroDex 25 and FroDex 37.5) vs. frovatriptan 2.5 mg alone (Frova) in the acute treatment of migraine attacks. In this double-blind, randomized parallel grou",
+            "classification": {
+              "study_type": "RCT (1h 前後用藥時機比較)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27757013",
+            "title": "Spotlight on frovatriptan: a review of its efficacy in the treatment of migraine.",
+            "authors": [
+              "Allais Gianni",
+              "Benedetto Chiara"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "abstract": "Migraine is a common neurovascular disorder, affecting millions of people worldwide. Current guidelines recommend triptans as first-line treatment for moderate-to-severe migraine attacks. Frovatriptan is a second-generation triptan with a longer terminal elimination half-life in blood than other triptans (~26 hours). Three double-blind, randomized crossover preference studies have been recently conducted, assessing efficacy and safety of frovatriptan versus rizatriptan, zolmitriptan, and almotri",
+            "classification": {
+              "study_type": "Review (Frovatriptan + Dexketoprofen 組合)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26705251",
+            "title": "Erratum to: Early (≤1-h) vs. late (>1-h) administration of frovatriptan plus dexketoprofen combination vs. frovatriptan monotherapy in the acute treatment of migraine attacks with or without aura: a post hoc analysis of a double-blind, randomized, parallel group study.",
+            "authors": [
+              "Allais Gianni",
+              "Bussone Gennaro",
+              "Tullo Vincenzo",
+              "Cortelli Pietro",
+              "Valguarnera Fabio"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "Erratum（勘誤，參考價值有限）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24412801",
+            "title": "Dexketoprofen trometamol in the acute treatment of migraine attack: a phase II, randomized, double-blind, crossover, placebo-controlled, dose optimization study.",
+            "authors": [
+              "Mainardi Federico",
+              "Maggioni Ferdinando",
+              "Pezzola Deborha",
+              "Zava Dario",
+              "Zanchin Giorgio"
+            ],
+            "journal": "The journal of pain",
+            "year": "2014",
+            "abstract": "Migraine is a disabling disease that can significantly affect a person's quality of life. This study assessed the efficacy and tolerability of the 2 doses of dexketoprofen trometamol (DKP) compared to placebo for migraine treatment. Ninety-three patients with at least 1 migraine attack per month in the preceding 6 months were enrolled and randomized to 25 mg DKP, 50 mg DKP, and placebo in a randomized, double-blind, single-center, crossover, placebo-controlled study. Primary endpoint was pain-fr",
+            "classification": {
+              "study_type": "Phase II RCT (Dexketoprofen 急性偏頭痛，雙盲)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11155464",
+            "title": "[Dexketoprofen trometamol in the treatment of acute migraine attack].",
+            "authors": [
+              "Allais G",
+              "De Lorenzo C",
+              "Airola G",
+              "Peano S",
+              "Benedetto C"
+            ],
+            "journal": "Minerva medica",
+            "year": "2000",
+            "abstract": "Migraine is a common, very disabling pain condition: the occurrence of an acute attack often requires bedrest and prevents from participating in normal activities. Nonsteroidal anti-inflammatory drugs are widely used in the symptomatic treatment of migraine. Aim of this study was to evaluate the efficacy and safety of a potent new formulation, dexketoprofen trometamol (DT), in the treatment of migraine pain.",
+            "classification": {
+              "study_type": "Clinical Study (早期急性偏頭痛，2000年)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹先兆型偏頭痛（前稱基底型偏頭痛）屬偏頭痛亞型，前列腺素介導的神經敏感化機轉仍適用；多項 Frovatriptan + Dexketoprofen 組合研究專針對此亞型或先兆型偏頭痛，且 Phase II RCT 存在。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "exostosis",
+      "txgnn": {
+        "score": 0.9985186457633972,
+        "rank": 2723
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨疣（exostosis）為骨性增生結構問題，NSAID 可緩解繼發性疼痛但無法影響骨質增生病理；Dexketoprofen 在此缺乏修飾疾病機轉，僅有症狀緩解潛力，且無臨床證據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9982632994651794,
+        "rank": 3075
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛症合併粟粒疹（congenital hypotrichosis milia）為遺傳性皮膚發育異常，與毛囊/皮膚附屬器發育基因相關；COX 抑制無已知的毛囊或囊腫發育修飾機轉，機轉關聯不明。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "exostosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "exostosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "exostosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dexketoprofen",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1676 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB03166-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Acetic acid",
+    "drugbank_id": "DB03166",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "post-bacterial disorder",
+      "txgnn": {
+        "score": 0.9998493194580078,
+        "rank": 509
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07386795",
+            "title": "The Efficacy and Safety of Microbiota Transplantation Combined With Prebiotics for Treatment of Functional Constipation",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 19,
+            "start_date": "2026-02-01",
+            "completion_date": "2026-12-31",
+            "brief_summary": "Chronic constipation is a common gastrointestinal disorder with a global prevalence of approximately 15%, severely impacting daily life and quality of life. It also increases the mortality rate from hypertension, cardiovascular diseases, and ischemic stroke, and is closely related to the incidence of colorectal cancer, making it a major chronic disease that seriously threatens people's health and quality of life. With the increasing aging population and lifestyle factors such as sedentary behavi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "微生物群移植+益生元研究，未涉及醋酸，主題相近（腸道微生物）但藥物不符。"
+            }
+          },
+          {
+            "nct_id": "NCT04120259",
+            "title": "Effect of Apple Cider Vinegar and Metformin Combination vs Metformin Alone in Type 2 Diabetics:A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 126,
+            "start_date": "2019-04-22",
+            "completion_date": "2019-08-26",
+            "brief_summary": "'This study aims to compare the effect of Metformin alone vs Metformin plus Apple Cider Vinegar in newly diagnosed Type 2 Diabetic Patients",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "蘋果醋（含醋酸）+二甲雙胍用於第2型糖尿病；研究藥物含醋酸成分，但適應症為代謝疾病而非post-bacterial disorder，與目標適應症無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT07048028",
+            "title": "Evaluation of the Antibacterial Efficacy of Chitosan as an Irrigation Solution: A Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 90,
+            "start_date": "2025-05-05",
+            "completion_date": "2025-12-12",
+            "brief_summary": "The goal of this clinical trial is to learn which of three common root-canal rinsing (irrigation) methods removes bacteria most effectively in adult patients who need root-canal treatment. The main questions it will answer are:\n\nHow much does a chitosan solution used alone lower the number of bacteria inside the root canal? Do the combinations sodium hypochlorite + chitosan or sodium hypochlorite + EDTA lower bacteria even more than chitosan alone? Researchers will compare the three irrigation m",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "殼聚糖灌洗液抗菌評估，非醋酸，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT04434365",
+            "title": "The Study of Berberine Affecting Metabolism, Inflammation Status, Endothelial Function and Thrombotic Events in Patients With Coronary Artery Disease by Remodeling Gut Microbiota",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 24,
+            "start_date": "2019-06-21",
+            "completion_date": "2020-12-30",
+            "brief_summary": "The purpose of this study is to conduct a single-center, randomized, open-label, controlled, dose-escalating, parallel-group study, evaluating the effects and change of endothelial function and gut microbiota after berberine administration in patients with stable coronary artery disease who are at \\> 8 but ≤ 40 weeks after elective percutaneous coronary intervention",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "小檗鹼代謝/發炎研究，與醋酸無關，適應症不符。"
+            }
+          },
+          {
+            "nct_id": "NCT04657757",
+            "title": "Investigation of Bacterial Adhesion and Bactericide Effect ex Vivo on Different Implant Restoration Materials",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2018-03-14",
+            "completion_date": "2020-03-31",
+            "brief_summary": "Investigation of bacterial adhesion and bactericide effect ex vivo on different implant restoration materials",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "植體修復細菌黏附研究，ex vivo設計，非醋酸介入。"
+            }
+          },
+          {
+            "nct_id": "NCT04036318",
+            "title": "Evaluation of Presumptive Periodic Treatment (PPT) of Sexually Transmitted Infections (STIs) Among High-risk Populations Including Men Who Have Sex With Men, Female Sex Workers (FSW) and Mining Populations in Tanzania.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3022,
+            "start_date": "2018-05-14",
+            "completion_date": "2019-08-13",
+            "brief_summary": "Sexually transmitted infections (STI) are important causes of reproductive health morbidity and mortality, and have long been implicated as major co-factors in the sexual transmission of HIV. Both ulcerative and non-ulcerative STI have been found to be strongly associated with HIV in cross-sectional and prospective studies and hence STI prevention and care are important aspects of HIV prevention.\n\nPeriodic Presumptive Treatment of STIS (PPT) where risk populations are presumptively treated with ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "性傳播感染推定定期治療評估，感染主題相關但未涉及醋酸，適應症不符。"
+            }
+          },
+          {
+            "nct_id": "NCT02872675",
+            "title": "The Effects of HOST-DM059 Prebiotic Supplementation on Gut Bacterial Metabolites, and Markers of Systemic Inflammation in Adults With and Without Hyperpnoea-Induced Bronchoconstriction: A Double-Blind, Placebo-Controlled, Crossover Trial.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2017-11-15",
+            "completion_date": "2019-04-30",
+            "brief_summary": "The current study aims to explore the role of prebiotic supplementation in adults with and without Asthma/Exercise-Induced Bronchoconstriction (A/EIB). All participants will be asked to consume a prebiotic supplement, and a placebo, each for a total duration of four weeks, separated by a two-week wash out period. The investigators hypothesise that improvements in pulmonary function observed in adults with Asthma following prebiotic supplementation. We hypothesise that improvements in pulmonary f",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HOST-DM059益生元補充研究，非醋酸。"
+            }
+          },
+          {
+            "nct_id": "NCT04824261",
+            "title": "Effectiveness of 4% Boric Acid in Distilled Water Versus Clotrimazole Solution in Otomycosis Patients.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2021-06-01",
+            "completion_date": "2023-06-01",
+            "brief_summary": "Otomycosis is a fungal infection that affects one, or occasionally both, of the ears. It mostly affects people who live in warm or tropical areas. It also often affects people who swim frequently, live with diabetes, or have other chronic medical and skin conditions. It is a pathologic entity, with candida and aspergillus the most common fungal species. \\]Various predisposing factors include a humid climate, presence of cerumen, instrumentation of the ear, increased use of topical antibiotics / ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "4%硼酸vs克霉唑治療耳黴菌症；硼酸非醋酸，雖同為酸性抗菌物質，但為不同化合物。"
+            }
+          },
+          {
+            "nct_id": "NCT03212729",
+            "title": "Antimicrobial Photodynamic Therapy Associated With the Conventional Endodontic Treatment: A Clinical and Molecular Microbiological Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2015-04",
+            "completion_date": "2015-06",
+            "brief_summary": "Microorganisms play a critical role in the etiology and pathogenesis of apical periodontitis. Enterococcus faecalis and Candida sp. are frequently associated with persistent infections. The aim of this study was evaluated the antimicrobial photodynamic therapy (aPDT) as an adjunct of the endodontic treatment. Ten uniradicular teeth \\[control group (CG)=4 and test group (TG)=6\\] with primary endodontic infections were analyzed. Microbiological samples were collected before and after the chemical-",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "抗菌光動力療法評估，物理治療方法，非醋酸。"
+            }
+          },
+          {
+            "nct_id": "NCT05275647",
+            "title": "Therapeutic Efficacy and Safety of Low Energy Shock Wave (LESW) Plus Botulinum Toxin A Instillation in Treatment of Patients With Interstitial Cystitis Refractory to Conventional Therapy - A Clinical and Immunohistochemistry Study",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 75,
+            "start_date": "2021-05-18",
+            "completion_date": "2024-09",
+            "brief_summary": "Low energy shock wave (LESW) is known to facilitate tissue regeneration with analgesic and anti-inflammatory effects. LESW treatment has been demonstrated effective in treatment of nonbacterial prostatitis and chronic pelvic pain syndrome. LESW reduced pain behavior and down-regulated the NGF expression, suppressed bladder overactivity by decreasing inflammation, IL-6 and COX2 expression and NGF expression. Previous rat interstitial cystitis (IC) models have shown LESW could increase urothelial ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "低能量衝擊波+肉毒桿菌毒素A膀胱灌注研究，與醋酸及目標適應症均無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT05965440",
+            "title": "Impact of Dapagliflozin on Intestinal Microbiota Composition and on the Metabolites Derived From the Intestinal Microbiota in Non-diabetic Chronic Renal Failure Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2023-11-20",
+            "completion_date": "2026-02-02",
+            "brief_summary": "Chronic kidney disease (CKD) is a common disease affecting 10-12% of the adult population and characterize with high-risk cardiovascular morbidity and mortality with progression of CKD. Treatment with sodium-glucose cotransporter 2 inhibitors (iSGLT2) not only improves hyperglycemia and type 2 diabetes (T2D) but also results in body-weight loss, a reduction in blood pressure, and a decrease of cardiovascular events and progression of renal failure in both diabetes and non-diabetes patients.(Heer",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06005506",
+            "title": "'sPATIALS3' - National Multicenter Randomized Controlled Interventional Study, Comparing an Active Symbiotic and a Passive Symbiotic Aimed at Evaluating the Effect on the Intestinal Microbiota and on the State of Health and Well-being of Various Types of Chronically Frail Patients United by Alterations of Intestinal Function.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2021-10-01",
+            "completion_date": "2023-03-31",
+            "brief_summary": "The objective of the study will be to understand whether a supplementation of the diet with an active symbiotic, i.e. characterized by a mix of probiotics and a specially selected fiber with prebiotic activity combined with a vegetable extract with beneficial activities on carbohydrate and lipid metabolism, can reduce the relative inflammatory potential and improve absorption, intestinal motility and bowel habit of patients with various pathological conditions, such as ALS, ADHD and bronchial as",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06612164",
+            "title": "Effects of Kefir Consumption on Health Outcomes: Gastrointestinal System, Immunity, Biochemical Parameters, Body Composition, Sleep Quality and Mental Well Being in Healthy Adults",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2023-02-01",
+            "completion_date": "2023-06-30",
+            "brief_summary": "The goal of this clinical trial is to evaluate the effects of the administration of kefir on gastrointestinal system, mental health, biochemical parameters, immunity and inflammation processes as well as the sleep quality, elucidating the possible health effects of kefir consumption in healthy adults. The main questions it aims to answer are:\n\n1. Will be better the gastrointestinal system symptoms severity of volunteers in the intervention group will be better compared to the control group?\n2. W",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05777863",
+            "title": "The Effects of a Multidomain Lifestyle Intervention on Brain Functioning and Its Relation With Immunometabolic Markers in Ageing: the HELI Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 102,
+            "start_date": "2022-05-10",
+            "completion_date": "2024-05-23",
+            "brief_summary": "HELI is a multicenter, randomised controlled trial in two Dutch research centres (Donders Centre for Cognitive Neuroimaging, Nijmegen, and the department of Human Nutrition \\& Health at Wageningen University) among 104 older adults aged 60-75 years who are at risk for cognitive decline with an intervention duration of 26 weeks (roughly 6 months). Participants are randomized in a 1:1 ratio to a multidomain lifestyle intervention characterized by group-sessions and guidance (high-intensity interve",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03619161",
+            "title": "Bleach vs. Bubbles: Assessing the Impact of the Bathroom Environment on Eczema",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 58,
+            "start_date": "2018-06-21",
+            "completion_date": "2019-12-18",
+            "brief_summary": "Purpose: Evaluate the impact of cleaning the bathroom environment on the severity of eczema. Determine if part of the efficacy of bleach baths may be in cleaning the bathroom. Record data on the process in order to improve future interventions.\n\nParticipants: Patients and families with eczema\n\nProcedures (methods):\n\n* Obtain baseline eczema severity scores and bacterial cultures from bathtubs\n* Randomize subjects to receive (1) a bathtub culture alone; (2) a culture and bathroom cleaning; and (3",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05710094",
+            "title": "Single-centre, Randomised, Double-blinded, Placebo-controlled Ascending Single Doses of SoftOx Biofilm Eradicator (SBE) and Open-label Once-, Twice-, and Thrice-daily Dosing of SBE for Five Days in Patients With Chronic Leg Wounds.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2021-10-19",
+            "completion_date": "2022-08-19",
+            "brief_summary": "Single-centre clinical study investigating the safety and tolerability of randomised, double-blinded, placebo-controlled ascending single doses of topically applied SoftOx Biofilm Eradicator (SBE) in patients with chronic leg wounds and of open-label once daily, twice daily, and thrice daily dosing of topically applied SBE for five days in patients with chronic leg wounds. The primary objective of the study is to assess the safety and tolerability of single and multiple doses of topically applie",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06135116",
+            "title": "CD4+CD25+High FOXp3+ Regulatory T Cell With Related Interleukins and Vitamin D-binding Protein in Periodontal Disease Progression : Synergy or Cocaphony",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2023-11-01",
+            "completion_date": "2024-01-01",
+            "brief_summary": "T Regulatory cells which suppressor subset of T cells and related cytokines remain in blood and infiltrates into the tissue under need. The role of Treg and related cytokines in succession of periodontal inflammation is recently a subject of research interest. Chronic gingivitis and periodontitis being chronic inflammatory diseases can upregulate various cytokines in the systemic circulation and gingival crevicular fluid. This study aimed to compare levels of Tregs with Interleukin-21, 22, 33, 3",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02817620",
+            "title": "Pilot Study to Assess Antioxidant Efficacy of a Spirulina Water Extract on Oxidized LDL Status and Lipids Metabolism on Subjects With Metabolic Syndrome",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2016-08-24",
+            "completion_date": "2017-09-14",
+            "brief_summary": "The purpose of this pilot study is to assess the beneficial effect of a spirulina water extract (product named Spirulysat®) compared to a placebo in the blood level ratio of oxidized LDL / total LDL cholesterol in subjects with metabolic syndrome after 12 weeks of consumption",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "醋酸具廣譜抗菌性（低pH破壞細菌細胞壁/膜），理論上可調控感染後微生物組，但「post-bacterial disorder」定義模糊，機轉鏈缺乏直接生物學基礎。僅有TxGNN圖神經網路預測，無支持性文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "postinfectious vasculitis",
+      "txgnn": {
+        "score": 0.99984872341156,
+        "rank": 512
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染後血管炎為免疫複合物介導之炎症反應。醋酸對血管炎免疫機制（補體活化、免疫複合物沉積）無已知作用，機轉鏈完全缺失。0臨床試驗、0文獻，僅有計算預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "post-infectious syndrome",
+      "txgnn": {
+        "score": 0.9998375177383424,
+        "rank": 537
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02873741",
+            "title": "New Strategies to Assess Anal Cancer Risk In Women",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 143,
+            "start_date": "2016-07",
+            "completion_date": "2017-02-27",
+            "brief_summary": "The purpose of this research is to study different strategies to identify women at highest risk for anal cancer. Primarily, investigators want to study a risk assessment called the Anal Cancer Risk Index; it gives women an overall number score based on risk factors that they may have for anal cancer, such as age, number of sexual partners, or smoking. Investigators seek to understand whether women with higher Anal Cancer Risk Index scores are more likely to have abnormal results on anal pap smea",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HIV陽性女性肛門癌風險評估（使用醋酸染色陰道鏡為診斷工具），醋酸作為診斷試劑而非治療介入，不構成再利用證據。"
+            }
+          },
+          {
+            "nct_id": "NCT07386795",
+            "title": "The Efficacy and Safety of Microbiota Transplantation Combined With Prebiotics for Treatment of Functional Constipation",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 19,
+            "start_date": "2026-02-01",
+            "completion_date": "2026-12-31",
+            "brief_summary": "Chronic constipation is a common gastrointestinal disorder with a global prevalence of approximately 15%, severely impacting daily life and quality of life. It also increases the mortality rate from hypertension, cardiovascular diseases, and ischemic stroke, and is closely related to the incidence of colorectal cancer, making it a major chronic disease that seriously threatens people's health and quality of life. With the increasing aging population and lifestyle factors such as sedentary behavi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "微生物群移植+益生元，未涉及醋酸。"
+            }
+          },
+          {
+            "nct_id": "NCT03749291",
+            "title": "Effect of a Motivational Intervention on the Gut Microbiota and the Components of the Metabolic Syndrome in a Population of Obese Children",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 219,
+            "start_date": "2019-01-01",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Animal models and studies on small samples of obese adults have shown that gut microbial diversity and certain types of bacteria could predict the efficacy of the dietetic treatment to improve body mass index (BMI) and the components of metabolic syndrome (MetS). Gut microbiota could distinguish the obese with metabolic syndrome patient than that metabolically healthy. Dietetic therapy could induce changes in the microbiota that could lead to improvement of BMI and the components of the MetS. Th",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "動機性介入對腸道微生物組及代謝症候群影響，行為介入研究，非醋酸。"
+            }
+          },
+          {
+            "nct_id": "NCT04036318",
+            "title": "Evaluation of Presumptive Periodic Treatment (PPT) of Sexually Transmitted Infections (STIs) Among High-risk Populations Including Men Who Have Sex With Men, Female Sex Workers (FSW) and Mining Populations in Tanzania.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3022,
+            "start_date": "2018-05-14",
+            "completion_date": "2019-08-13",
+            "brief_summary": "Sexually transmitted infections (STI) are important causes of reproductive health morbidity and mortality, and have long been implicated as major co-factors in the sexual transmission of HIV. Both ulcerative and non-ulcerative STI have been found to be strongly associated with HIV in cross-sectional and prospective studies and hence STI prevention and care are important aspects of HIV prevention.\n\nPeriodic Presumptive Treatment of STIS (PPT) where risk populations are presumptively treated with ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "性傳播感染PPT評估，非醋酸，適應症不符。"
+            }
+          },
+          {
+            "nct_id": "NCT04312841",
+            "title": "Letermovir for Cytomegalovirus Prophylaxis in Patients With Hematological Malignancies Treated With Alemtuzumab",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 6,
+            "start_date": "2020-09-15",
+            "completion_date": "2024-04-09",
+            "brief_summary": "This phase II trial studies how well letermovir works for the prevention of cytomegalovirus reactivation in patients with hematological malignancies treated with alemtuzumab. Patients receiving treatment with alemtuzumab may experience cytomegalovirus reactivation. Letermovir may block cytomegalovirus replication and prevent infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Letermovir用於血液惡性腫瘤CMV預防，抗病毒藥物研究，非醋酸，適應症不符。"
+            }
+          },
+          {
+            "nct_id": "NCT05256862",
+            "title": "Improving Cervical Cancer Screening in Women Living With HIV Attending Chronic Disease Clinics in Semi-rural Tanzania",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2974,
+            "start_date": "2021-07-27",
+            "completion_date": "2024-10-18",
+            "brief_summary": "This study is to analyse the effect of a bundle of measures on the proportion of females being screened for cervical cancer in the Kilombero and Ulanga Antiretroviral Cohort (KIULARCO), comparing the time period before implementation (01/2017-01/2020) and after implementation (02/2020-06/2022). It is to assess the performance of two novel diagnostic tests (QuantiGene-molecular profiling histology (QG-MPH) and PT Monitor® immunoassay) and established tests (Seegene Anyplex™ II 28 HPV Test and Pre",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HIV慢性病門診子宮頸癌篩查，與醋酸及post-infectious syndrome無直接治療關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT05275647",
+            "title": "Therapeutic Efficacy and Safety of Low Energy Shock Wave (LESW) Plus Botulinum Toxin A Instillation in Treatment of Patients With Interstitial Cystitis Refractory to Conventional Therapy - A Clinical and Immunohistochemistry Study",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 75,
+            "start_date": "2021-05-18",
+            "completion_date": "2024-09",
+            "brief_summary": "Low energy shock wave (LESW) is known to facilitate tissue regeneration with analgesic and anti-inflammatory effects. LESW treatment has been demonstrated effective in treatment of nonbacterial prostatitis and chronic pelvic pain syndrome. LESW reduced pain behavior and down-regulated the NGF expression, suppressed bladder overactivity by decreasing inflammation, IL-6 and COX2 expression and NGF expression. Previous rat interstitial cystitis (IC) models have shown LESW could increase urothelial ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "低能量衝擊波+肉毒桿菌毒素，非醋酸介入，主題不符。"
+            }
+          },
+          {
+            "nct_id": "NCT04060277",
+            "title": "A Phase II Randomized, Placebo-Controlled, Multicenter Trial to Evaluate the Protective Function of CMV-MVA Triplex Vaccine in Adult Recipients of Haploidentical Hematopoietic Stem Cell Transplant",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 7,
+            "start_date": "2019-11-27",
+            "completion_date": "2030-04-07",
+            "brief_summary": "This phase II trial studies how well Triplex vaccine works in preventing cytomegalovirus (CMV) infection in patients undergoing a hematopoietic stem cell transplantation. CMV is a virus that may be carried for life and does not cause illness in most healthy individuals. However, in people whose immune systems are lowered (such as those undergoing stem cell transplantation), CMV can reproduce and cause disease and even death. The Triplex vaccine is made up of 3 small pieces of CMV deoxyribonuclei",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2安慰劑對照試驗，保護功能評估，未見醋酸相關，需進一步核查全文。"
+            }
+          },
+          {
+            "nct_id": "NCT06612554",
+            "title": "Role of Zinc Supplementation in Immunological Non-responders HIV Individuals: Exploring Pathways for Persistent Inflammation",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 120,
+            "start_date": "2025-01-02",
+            "completion_date": "2026-12",
+            "brief_summary": "Zinc is an essential micronutrient crucial for the normal functioning of the human immune system. Zinc deficiency impairs immune function and increases infection risk, especially in vulnerable populations like people living with HIV. This project aims to study the role of zinc supplementation in improving immune response in HIV-infected individuals who are Immunological Non-Responders (INRs)-people who have not restored Cluster of differentiation 4 (CD4) T-cell counts despite receiving antiretro",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HIV免疫學無應答者鋅補充研究，非醋酸。"
+            }
+          },
+          {
+            "nct_id": "NCT02338141",
+            "title": "Evaluating the Accuracy of Portable Colposcopy and Prevalent HPV Genotypes Among HIV Positive Women in Haiti",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 132,
+            "start_date": "2015-08",
+            "completion_date": "2016-02",
+            "brief_summary": "This study will evaluate the effectiveness of portable colposcopy when compared to conventional colposcopy (25x magnification of the cervix, the gold standard) and Visualization Inspection with Acetic acid (VIA, with 1x magnification, the accepted low-resource method). Half the participants will be evaluated for cervical pathology by portable colposcopy after VIA assessment, while the other half will be evaluated by conventional colposcopy. This study also will use collected lab specimens for hu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "HIV陽性女性HPV基因型評估，醋酸染色（診斷工具）而非治療，已終止。"
+            }
+          },
+          {
+            "nct_id": "NCT03931083",
+            "title": "Screening Test Accuracy of a Gynocular™, HR-HPV Testing, and VIA for Detection of Cervical Intraepithelial Neoplasia, Grade Two and Above, in Women Living With HIV in Lusaka, Zambia",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 450,
+            "start_date": "2019-05-08",
+            "completion_date": "2022-12-01",
+            "brief_summary": "Cervical cancer in HIV-positive women is largely preventable through regular screening. The World Health Organization (WHO) recommends cervical screening for HIV-positive women every three years. Currently the least costly method for screening and the most viable option for many countries is visual inspection after application of acetic acid (VIA). Alternative testing methods are HPV testing and assessment with a portable magnification device. The investigators plan to assess and compare the scr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04828538",
+            "title": "Prevent and Treat Double-Blind Factorial Randomized Trials of Daily Oral Vitamin D, Omega 3, and Combination Vitamins B, C and Zinc Supplementation for the Treatment and Prevention of COVID-19",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2021-01-01",
+            "completion_date": "2021-12-31",
+            "brief_summary": "The NUTROVID Factorial Trials\n\nThe purpose of the NUTROVID-Prevent and NUTROVID-Treat Factorial Trials is to determine whether Vitamin B Complex, Vitamin C, and Zinc; Vitamin D; and Omega3, taken at dosages approximating recommended dosages, can reduce the risk of COVID-19 infection, hospitalization, mortality.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04998318",
+            "title": "Compare the Performance of the Pocket Colposcope to VIA/VILI for Triage of HPV+ Women in Kenya",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 434,
+            "start_date": "2022-11-28",
+            "completion_date": "2024-06-16",
+            "brief_summary": "The Pocket colposcope has 510k FDA clearance and has been successfully used in almost 1500 unique patients globally in Duke and non-Duke protocols to date. 400 women who are HPV-positive and planned to undergo treatment at 6 Ministry of Health-supported outpatient clinics in Kisumu County will be recruited to the study. After providing informed consent, participants will be randomized 1:1 to either standard-of-care visual inspection or colposcopy with the Pocket Colposcope",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04822090",
+            "title": "Acute Human Parvovirus B19 Infection Triggers Immune-Mediated Transient Bone Marrow Failure Syndrome, Extreme Direct Hyperbilirubinemia and Acute Hepatitis in Patients With Hereditary Hemolytic Anemias: Multicenter Pathophysiological Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 244,
+            "start_date": "2018-02-10",
+            "completion_date": "2024-02-10",
+            "brief_summary": "Although many studies investigated the prevalence and manifestations of HPV-B19 infection in patients with sickle cell anemia (SCA), thalassemia, and hereditary spherocytosis (HS) separately, there is limited information about the extent to which HPV-B19 infection leads to severe complications and chronic infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07020533",
+            "title": "A Phase 1b Trial of CMV-MVA Triplex Vaccine in Haploidentical Stem Cell Donors and Recipients to Enhance CMV-Specific Immunity and Prevent CMV Viremia in Recipients of Hematopoietic Stem Cell Transplant",
+            "phase": "PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 46,
+            "start_date": "2026-05-08",
+            "completion_date": "2027-06-01",
+            "brief_summary": "This phase Ib trial tests the safety, side effects, and how well cytomegalovirus (CMV)-modified vaccinia Ankara (MVA) Triplex vaccine works in enhancing CMV-specific immunity and preventing CMV viremia in patients undergoing haploidentical hematopoietic stem cell transplant. Haploidentical stem cell transplantation (haploHCT) has advanced to become the predominant procedure for patients lacking a matched donor. Compared to matched related donor transplants, the rate of significant CMV infection ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04401670",
+            "title": "Cervical Cancer Screening Strategies in Women Living With HIV and HIV Uninfected Women in Cameroon",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 873,
+            "start_date": "2017-04-25",
+            "completion_date": "2020-05-01",
+            "brief_summary": "Human immunodeficiency virus-infected (HIV\\[+\\]) women have a several-fold increased risk of invasive cervical cancer (ICC) as well as increased risk of cervical pre-cancer. In low- and middle-income countries (LMICs), ICC is the 1st or 2nd most common cause of cancer and cancer-related death in women. Rates of ICC and ICC-related mortality are particularly high in Sub-Saharan Africa, which also has the highest rates of HIV infection in the world. Although prophylactic HPV vaccines may be the op",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33492608",
+            "title": "Opsoclonus-myoclonus syndrome, a post-infectious neurologic complication of COVID-19: case series and review of literature.",
+            "authors": [
+              "Emamikhah Maziar",
+              "Babadi Mansoureh",
+              "Mehrabani Mehrnoush",
+              "Jalili Mehdi",
+              "Pouranian Maryam"
+            ],
+            "journal": "Journal of neurovirology",
+            "year": "2021",
+            "abstract": "Opsoclonus-myoclonus-ataxia syndrome is a heterogeneous constellation of symptoms ranging from full combination of these three neurological findings to varying degrees of isolated individual sign. Since the emergence of coronavirus disease 2019 (COVID-19), neurological symptoms, syndromes, and complications associated with this multi-organ viral infection have been reported and the various aspects of neurological involvement are increasingly uncovered. As a neuro-inflammatory disorder, one would",
+            "classification": {
+              "study_type": "Case series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20848144",
+            "title": "Systematic review of animal models of post-infectious/post-inflammatory irritable bowel syndrome.",
+            "authors": [
+              "Qin Hong-Yan",
+              "Wu Justin C Y",
+              "Tong Xu-Dong",
+              "Sung Joseph J Y",
+              "Xu Hong-Xi"
+            ],
+            "journal": "Journal of gastroenterology",
+            "year": "2011",
+            "abstract": "Post-infectious irritable bowel syndrome (PI-IBS) is a subset of IBS which occurs after an episode of acute gastrointestinal infections. The mechanisms of PI-IBS are not fully understood. Currently, numerous animal models have been used in the study of PI-IBS. This article reviews the strengths and weaknesses of these models.",
+            "classification": {
+              "study_type": "Systematic Review (animal models)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41327655",
+            "title": "Modulating the lung-gut axis: A randomized controlled trial of Xie Bai Zeng Ye decoction on intestinal flora and mucosal immunity in children with post-infectious cough.",
+            "authors": [
+              "Luo Jing",
+              "Zhang Dan",
+              "Zhan Guoping",
+              "Ding Yi"
+            ],
+            "journal": "Medicine",
+            "year": "2025",
+            "abstract": "This study aimed to evaluate the clinical efficacy of Xie Bai Zeng Ye Decoction (XBZY) in the treatment of post-infectious cough in children with lung heat and Yin deficiency, and to investigate its effects on gut microbiota composition and intestinal mucosal barrier function.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32464585",
+            "title": "Evolution and resolution of brain involvement associated with SARS- CoV2 infection: A close Clinical - Paraclinical follow up study of a case.",
+            "authors": [
+              "Afshar Hale",
+              "Yassin Zeynab",
+              "Kalantari Saeed",
+              "Aloosh Oldooz",
+              "Lotfi Tayebeh"
+            ],
+            "journal": "Multiple sclerosis and related disorders",
+            "year": "2020",
+            "abstract": "The new severe acute respiratory syndrome- coronavirus 2 is reported to affect the nervous system. Among the reports of the various neurological manifestations, there are a few documented specific processes to explain the neurological signs. We report a para-infectious encephalitis patient with clinical, laboratory, and imaging findings during evolution and convalescence phase of coronavirus infection. This comprehensive overview can illuminate the natural history of similar cases. As the two pr",
+            "classification": {
+              "study_type": "Case series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染後症候群（包括Long COVID、感染後IBS等）病理複雜，涉及神經免疫、腸道菌群失調等多重機制。醋酸透過調節腸道pH/微生物組在理論上有邊際相關性，但16項臨床試驗均非針對醋酸於此適應症之研究，4篇文獻亦與醋酸無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Chagas cardiomyopathy",
+      "txgnn": {
+        "score": 0.9998369216918944,
+        "rank": 539
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31172602",
+            "title": "Comparison of the amount and patterns of late enhancement in Chagas disease according to the presence and type of ventricular tachycardia.",
+            "authors": [
+              "Melendez-Ramirez Gabriela",
+              "Soto Maria Elena",
+              "Velasquez Alvarez Leyli Claribel",
+              "Meave Aloha",
+              "Juarez-Orozco Luis Eduardo"
+            ],
+            "journal": "Journal of cardiovascular electrophysiology",
+            "year": "2019",
+            "abstract": "Ventricular tachycardia (VT) is one of the main predictors of mortality in Chagas cardiomyopathy (CC). Although the substrate of sustained and nonsustained-VT (NS-VT) seems to be the same, little is known about the distribution of late enhancement (LE). Our aim was to compare the clinical findings and the amount and patterns of LE in Chagas disease according to the presence and type of VT.",
+            "classification": {
+              "study_type": "Observational/Imaging",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1662334",
+            "title": "Polymerase chain reaction amplification of Trypanosoma cruzi kinetoplast minicircle DNA isolated from whole blood lysates: diagnosis of chronic Chagas' disease.",
+            "authors": [
+              "Avila H A",
+              "Sigman D S",
+              "Cohen L M",
+              "Millikan R C",
+              "Simpson L"
+            ],
+            "journal": "Molecular and biochemical parasitology",
+            "year": "1991",
+            "abstract": "A 6 M guanidine-HCl/0.2 M EDTA solution was used to lyse and store whole blood specimens. DNA stored in guanidine-EDTA-blood (GEB) lysate was found to be undegraded after incubation at 37 degrees C for 1 month, suggesting that this represents an appropriate reagent for transport of blood samples from the field to a laboratory for analysis. Trypanosoma cruzi kinetoplast DNA in GEB lysate can be cleaved using the chemical nuclease, 1,10-phenanthroline-copper ion (OP-Cu2+). This procedure liberates",
+            "classification": {
+              "study_type": "Laboratory/Molecular",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "查加斯心肌病由克氏錐蟲（Trypanosoma cruzi）慢性感染引起，主要病理為心肌纖維化與炎症。醋酸對錐蟲無已知藥理作用，亦無抗心肌纖維化機制。2篇文獻均為診斷/影像學研究（非治療），與醋酸無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "infective urethral stricture",
+      "txgnn": {
+        "score": 0.9998337030410768,
+        "rank": 544
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2699313",
+            "title": "Direct radionuclide cystogram (DRCG) and urine flowmetry (UFMT) in the evaluation of patients with vesicoureteral reflux (VUR) and/or associated obstructive or neurogenic pathology of the lower urinary tract.",
+            "authors": [
+              "Padhy A K",
+              "Gopinath P G",
+              "Mitra D K",
+              "Bhatnagar V"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "Diagnostic/Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染性尿道狹窄主要由淋病/披衣菌感染引起的纖維化。醋酸局部抗菌性在理論上可防止感染進展，但缺乏穿透纖維化組織的藥代動力學依據。1篇文獻為放射性核素膀胱造影診斷研究（1989年），非治療，與醋酸無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "txgnn": {
+        "score": 0.9998202919960022,
+        "rank": 589
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染相關HUS主要由STEC（Shiga毒素產生性大腸桿菌）引起，病理為微血管血栓性溶血。醋酸無Shiga毒素中和或血栓微血管病理修正機制。0臨床試驗、0文獻，高風險適應症（急性腎損傷/溶血），Hold評級明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn": {
+        "score": 0.9967026114463806,
+        "rank": 4904
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "藥物性骨質疏鬆（如類固醇誘發）涉及成骨/破骨細胞失衡及骨密度下降。醋酸（高濃度）理論上可能影響礦物質吸收，但缺乏骨代謝調節的直接機轉依據，且酸性環境可能反而促進骨吸收。0臨床試驗、0文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pityriasis simplex",
+      "txgnn": {
+        "score": 0.9933360815048218,
+        "rank": 7976
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "單純糠疹（pityriasis simplex）為良性皮膚色素脫失，可能與馬拉色菌相關，理論上醋酸抗真菌性有邊際機轉相關性。然而0臨床試驗、0文獻，且市場上有更有效的既定治療選項。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "tinea corporis",
+      "txgnn": {
+        "score": 0.992458999156952,
+        "rank": 8661
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20983383",
+            "title": "Treatment of tinea capitia with special iodine and dilute acetic acid.",
+            "authors": [
+              "STRICKLER A"
+            ],
+            "journal": "Archives of dermatology and syphilology",
+            "year": "1946",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case series/Historical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20996178",
+            "title": "Tinea capitis; its treatment with special iodine and dilute acetic acid.",
+            "authors": [
+              "STRICKLER A"
+            ],
+            "journal": "Journal of the American Medical Association",
+            "year": "1946",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case series/Historical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20256868",
+            "title": "The treatment of tinea capitis with special iodine and dilute acetic acid; report of results in a larger series of patients.",
+            "authors": [
+              "STRICKLER A"
+            ],
+            "journal": "The Urologic and cutaneous review",
+            "year": "1947",
+            "abstract": "",
+            "classification": {
+              "study_type": "Retrospective case series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37256034",
+            "title": "An Etiology Report for Burns Caused by Korean Folk Remedies.",
+            "authors": [
+              "Joo Hong Sil",
+              "Kim Hyun Been"
+            ],
+            "journal": "Archives of plastic surgery",
+            "year": "2023",
+            "abstract": "Background  In this modern era of science-based medicine, some people still accept folk remedies as an alternative form of medicine. However, misinformation and misuse of folk medicines can result in dangerous complications. Among the possible complications of folk remedy use, this study focused on the clinical characteristics of burns caused by folk remedies. Methods  We retrospectively reviewed the clinical records of patients who had been treated for burns caused by folk remedies from May 201",
+            "classification": {
+              "study_type": "Retrospective/Safety",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14510876",
+            "title": "Cutaneous infections in the elderly: diagnosis and management.",
+            "authors": [
+              "Weinberg Jeffrey M",
+              "Scheinfeld Noah S"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2003",
+            "abstract": "Over the past several years there have been many advances in the diagnosis and treatment of cutaneous infectious diseases. This review focuses on the three major topics of interest in the geriatric population: herpes zoster and postherpetic neuralgia (PHN), onychomycosis, and recent advances in antibacterial therapy. Herpes zoster in adults is caused by reactivation of the varicella-zoster virus (VZV) that causes chickenpox in children. For many years acyclovir was the gold standard of antiviral",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37012894",
+            "title": "Evaluation of the efficacy of topical Terminalia chebula Retz. with vinegar in the treatment of tinea corporis: a non-inferiority randomized controlled trial.",
+            "authors": [
+              "Tasneem Parapur Sumayya",
+              "Husain Nazim",
+              "Khalid Mohd",
+              "Mamdapur Saba Abdul Razzaq",
+              "Kauser Khan Khan Ameer"
+            ],
+            "journal": "Drug metabolism and personalized therapy",
+            "year": "2023",
+            "abstract": "Unani physicians have suggested a wide range of anti-dermatophytic remedies, although the scientific evidence is scarce. Thus, the efficacy and safety of Terminalia chebula Retz. fruit powder mixed with vinegar was compared with terbinafine hydrochloride 1% cream in the treatment of tinea corporis in order to establish the non-inferiority of test drugs.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31049344",
+            "title": "Chemical Peeling as an Innovative Treatment Alternative to Oral Antifungals for Onychomycosis in Special Circumstances.",
+            "authors": [
+              "Sonthalia Sidharth",
+              "Jakhar Deepak",
+              "Yadav Pravesh",
+              "Kaur Ishmeet"
+            ],
+            "journal": "Skin appendage disorders",
+            "year": "2019",
+            "abstract": "Toe nail onychomycosis (ONM) is a common problem in elderly patients. Treatment in diabetic patients with associated comorbidities such as congestive heart failure becomes a challenge. Oral antifungals are best avoided owing to most of them being contraindicated or unsafe due to comorbidities and/or risk of drug interactions stemming from polypharmacy. Topical agents alone are not effective. Unlike isolated ONM in healthy and younger patients, ONM involving multiple nails in geriatric and diabet",
+            "classification": {
+              "study_type": "Review/Case series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28947288",
+            "title": "Vinegar sock soak for tinea pedis or onychomycosis.",
+            "authors": [
+              "Kelly Steven",
+              "Liu Deede",
+              "Wang Tang",
+              "Rajpara Anand",
+              "Franano Catherine"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review/Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33625606",
+            "title": "Lactobacillus plantarum strain HT-W104-B1: potential bacterium isolated from Malaysian fermented foods for control of the dermatophyte Trichophyton rubrum.",
+            "authors": [
+              "Danial Azlina Mohd",
+              "Medina Angel",
+              "Magan Naresh"
+            ],
+            "journal": "World journal of microbiology & biotechnology",
+            "year": "2021",
+            "abstract": "The objective was to screen and evaluate the anti-fungal activity of lactic acid bacteria (LABs) isolated from Malaysian fermented foods against two Trichophyton species. A total of 66 LAB strains were screened using dual culture assays. This showed that four LAB strains were very effective in inhibiting growth of T. rubrum but not T. interdigitale. More detailed studies with Lactobacillus plantarum strain HT-W104-B1 showed that the supernatant was mainly responsible for inhibiting the growth of",
+            "classification": {
+              "study_type": "Laboratory/Microbiological",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26857689",
+            "title": "Evaluation of topical antifungal products in an in vitro onychomycosis model.",
+            "authors": [
+              "Sleven Reindert",
+              "Lanckacker Ellen",
+              "Delputte Peter",
+              "Maes Louis",
+              "Cos Paul"
+            ],
+            "journal": "Mycoses",
+            "year": "2016",
+            "abstract": "Many topical commercial products are currently available for the treatment of onychomycosis. However, limited data are available concerning their antifungal activity. Using an in vitro onychomycosis model, the daily application of seven nail formulations was compared to the antifungal reference drug amorolfine (Loceryl(®) ) and evaluated for inhibitory activity against Trichophyton mentagrophytes using an agar diffusion test. Of all commercial nail formulations, only Excilor(®) and Nailner(®) de",
+            "classification": {
+              "study_type": "In vitro study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38214347",
+            "title": "Efficacy of topical trichloroacetic acid 100% either alone or combined with topical tioconazole 28% versus systemic itraconazole in the treatment of onychomycosis.",
+            "authors": [
+              "Ibrahim Al-Shimaa M",
+              "Ibrahim Nermeen Sabry",
+              "Elgharabawy Eman S",
+              "Morsi Hala Mohamed"
+            ],
+            "journal": "Mycoses",
+            "year": "2024",
+            "abstract": "Treatment of onychomycosis is still challenging and warrants the development of new treatment strategies. Different trials were conducted to increase the penetration and efficacy of topical antifungals aiming at finding an alternative treatment especially when systemic antifungals are contraindicated.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33862134",
+            "title": "Enhanced nail delivery of voriconazole-loaded nanomicelles by thioglycolic acid pretreatment: A study of protein dynamics and disulfide bond rupture.",
+            "authors": [
+              "Krawczyk-Santos Anna Paula",
+              "da Rocha Priscila B R",
+              "Kloppel Leandro L",
+              "Souza Bruno Dos S",
+              "Anjos Jorge Luiz V"
+            ],
+            "journal": "International journal of pharmaceutics",
+            "year": "2021",
+            "abstract": "This work aimed to select an effective penetration enhancer (PE) for nail pretreatment, develop voriconazole (VOR)-loaded nanomicelles, and evaluate their ability to deliver VOR to the nail. A complete analysis of nail protein dynamics, bond rupture, and microstructure was performed. Alternative methods as electron paramagnetic resonance (EPR) and the Ellman's reagent (DTNB) assay were also evaluated. Nanomicelles were produced and characterized. The PE hydrated the hooves, following the order: ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11837667",
+            "title": "Sex attractants for six clearwing and tineid species (Lepidoptera, Sesiidae and Tineidae) from Kazakhstan and Lithuania.",
+            "authors": [
+              "Karalius V",
+              "Mozuraitis R",
+              "Miatleuski J",
+              "Buda V",
+              "Ivinskis P"
+            ],
+            "journal": "Zeitschrift fur Naturforschung. C, Journal of biosciences",
+            "year": "2001",
+            "abstract": "Sex attractants for 3 Sesiidae and 3 Tineidae moth species in West-Kazakhstan and Lithuania were discovered by field screening tests of (3Z,13Z)-, (3E,13Z)- and (2E,13Z)-octadecadien-1-ols and their acetates as well as of some binary mixtures of these compounds. Total amount of chemicals was 0.3 mg/dispenser. Males of Synanthedon serica were attracted by a 5:5 mixture of 3E,13Z-18:OAc and 2E,13Z-18:OAc, Chamaesphecia bibioniformis by a 9:1 mixture of 3Z,13Z-18:OAc and 3E,13Z-18:OAc, Paranthrene ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16233325",
+            "title": "Antifungal activity of the fermentation product of herbs by lactic acid bacteria against tinea.",
+            "authors": [
+              "Kuwaki Shinsuke",
+              "Ohhira Iichiro",
+              "Takahata Masumi",
+              "Murata Yoshiyuki",
+              "Tada Mikiro"
+            ],
+            "journal": "Journal of bioscience and bioengineering",
+            "year": "2002",
+            "abstract": "The fermentation product of herbs by lactic acid bacteria (FHL), in which Enterococcus faecalis TH10 predominated, was assayed for antifungal activity against tinea. The antifungal activity of FHL was as high as that of a synthetic fungicide. Autoclaving FHL did not reduce its antifungal activity, whereas neutralizing it did. The results suggested that nonproteinaceous compounds or organic acids in FHL could inhibit the growth of the dermatophyte tinea under low-pH conditions, and that malonic a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "94467",
+            "title": "Control of exocellular proteases in dermatophytes and especially Trichophyton rubrum.",
+            "authors": [
+              "Meevootisom V",
+              "Niederpruem D J"
+            ],
+            "journal": "Sabouraudia",
+            "year": "1979",
+            "abstract": "The production of proteases was investigated during growth of dermatophytic fungi with special emphasis on Trichophyton rubrum. Exogenous glucose suppressed elastase production in all dermatophytes examined. The production of protease active guinea pig hair in keratin-salts broth by Microsporum gypseum. Trichophyton mentagrophytes and T. rubrum was also suppressed by glucose. Various carbohydrates added to keratin-salts broth curtailed protease production by T. rubrum as did individual amino aci",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30941788",
+            "title": "Two validated chromatographic determinations of an antifungal drug, its toxic impurities and degradation product: A comparative study.",
+            "authors": [
+              "Abdelaleem Eglal A",
+              "Abdelrahman Maha M",
+              "Ali Nouruddin W",
+              "Emam Raghda A"
+            ],
+            "journal": "Biomedical chromatography : BMC",
+            "year": "2019",
+            "abstract": "Tolnaftate, a thionoester anti-fungal drug, was subjected to alkaline hydrolysis to produce methyl(m-tolyl)carbamic acid and β-naphthol (tolnaftate impurity A). N-Methyl-m-toluidine, tolnaftate impurity D, was synthesized and structurally elucidated along with tolnaftate alkaline degradation products using IR, H1 NMR and MS. Two stability-indicating HPTLC and RP-HPLC methods were developed and validated, for the first time, for determination of tolnaftate, its alkaline degradation products and t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22871048",
+            "title": "Clinical efficacy and safety of a pharmacopial polyherbal Unani formulation in pityriasis versicolor: a comparative randomized single-blind study.",
+            "authors": [
+              "Lone Azad Hussain",
+              "Ahmad Tanzeel",
+              "Anwar Mohd",
+              "Sofi G"
+            ],
+            "journal": "Journal of alternative and complementary medicine (New York, N.Y.)",
+            "year": "2012",
+            "abstract": "Pityriasis versicolor (PV) is a common superficial fungal infection of skin caused by the fungus, Malassezia furfur. It can occur at any age but occurs mainly during adolescence and typically presents with hypopigmented or hyperpigmented scaling plaques, generally on the trunk and upper arms. It often poses a therapeutic challenge. In the Unani system of medicine, many herbal drugs are used empirically for its treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8169016",
+            "title": "Albert's solution versus potassium hydroxide solution in the diagnosis of tinea versicolor.",
+            "authors": [
+              "Payle B",
+              "Serrano L",
+              "Bieley H C",
+              "Reyes B A"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "1994",
+            "abstract": "The diagnosis of tinea versicolor can usually be made by clinical examination. Either potassium hydroxide (KOH) or Wood's light fluorescence are used to corroborate the diagnosis. Albert's solution has been reported as a method of visualizing dermatophytes. We compared Albert's solution to KOH in the diagnostic evaluation of tinea versicolor.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13616002",
+            "title": "[Treatment of epidermophytosis of the foot with increasing concentrations of acetic acid].",
+            "authors": [
+              "BEREZHNOI E G"
+            ],
+            "journal": "Vestnik dermatologii i venerologii",
+            "year": "1958",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "136628",
+            "title": "Fungal infections of the skin in children.",
+            "authors": [
+              "Watson W"
+            ],
+            "journal": "Pediatric annals",
+            "year": "1976",
+            "abstract": "Fungal infections of the skin in children are common and may mimic many other dermatoses. Diagnostic techniques are simple and inexpensive; Wood's light examination, KOH wet mounts, and preferably fungal culture should be performed on all suspected lesions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "體癬（tinea corporis）由皮癬菌（Trichophyton, Microsporum, Epidermophyton spp.）感染引起。醋酸透過以下機制具抗皮癬菌潛力：（1）低pH（<4.5）破壞真菌細胞膜完整性；（2）抑制真菌孢子萌發；（3）乙酸根離子直接毒性。歷史文獻（1946-1947）記載碘+稀醋酸治療頭癬有效，提供間接概念驗證。然而現有文獻主要針對tinea capitis/pedis而非tinea corporis，且多為組合療法，難以分離醋酸單獨效果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ulcerative blepharitis",
+      "txgnn": {
+        "score": 0.9894688129425048,
+        "rank": 10917
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "潰瘍性眼瞼炎（金黃色葡萄球菌感染為主）。醋酸局部抗菌性在理論上有應用可能，但眼周組織對酸性刺激高度敏感，安全性風險顯著。0臨床試驗、0文獻，Safety concerns > theoretical benefit，維持Hold。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "pityriasis simplex"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "pityriasis simplex"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "pityriasis simplex"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "tinea corporis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "tinea corporis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "tinea corporis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acetic acid",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

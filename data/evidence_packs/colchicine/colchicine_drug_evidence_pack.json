@@ -1,0 +1,1214 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01394-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Colchicine",
+    "drugbank_id": "DB01394",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Plasmodium falciparum malaria",
+      "txgnn": {
+        "score": 0.9959697723388672,
+        "rank": 5631
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23505424",
+            "title": "Cellular effects of curcumin on Plasmodium falciparum include disruption of microtubules.",
+            "authors": [
+              "Chakrabarti Rimi",
+              "Rawat Parkash S",
+              "Cooke Brian M",
+              "Coppel Ross L",
+              "Patankar Swati"
+            ],
+            "journal": "PloS one",
+            "year": "2013",
+            "abstract": "Curcumin has been widely investigated for its myriad cellular effects resulting in reduced proliferation of various eukaryotic cells including cancer cells and the human malaria parasite Plasmodium falciparum. Studies with human cancer cell lines HT-29, Caco-2, and MCF-7 suggest that curcumin can bind to tubulin and induce alterations in microtubule structure. Based on this finding, we investigated whether curcumin has any effect on P. falciparum microtubules, considering that mammalian and para",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6362934",
+            "title": "Antibody to intermediate filaments of the cytoskeleton in the sera of patients with acute malaria.",
+            "authors": [
+              "Mortazavi-Milani S M",
+              "Badakere S S",
+              "Holborow E J"
+            ],
+            "journal": "Clinical and experimental immunology",
+            "year": "1984",
+            "abstract": "Sera from 78 patients with acute malaria were tested for antibodies to intermediate filaments (IFs) by indirect immunofluorescence. Eighty-two per cent of the sera contained antibody which stained the IFs in human fetal skin fibroblasts and/or HEp2 cells. In contrast, only 8% of sera taken from blood donors gave weak positive staining of IFs and no staining was observed with 42 myeloma sera which were also tested as controls. In most cases autoantibodies were of the IgM class. Erythrocytes paras",
+            "classification": {
+              "study_type": "Serological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7511206",
+            "title": "Expression of the plasmodial pfmdr1 gene in mammalian cells is associated with increased susceptibility to chloroquine.",
+            "authors": [
+              "van Es H H",
+              "Karcz S",
+              "Chu F",
+              "Cowman A F",
+              "Vidal S"
+            ],
+            "journal": "Molecular and cellular biology",
+            "year": "1994",
+            "abstract": "Chloroquine (CQ)-resistant (CQR) Plasmodium falciparum malaria parasites show a strong decrease in CQ accumulation in comparison with chloroquine-sensitive parasites. Controversy exists over the role of the plasmodial pfmdr1 gene in the CQR phenotype. pfmdr1 is a member of the superfamily of ATP-binding cassette transporters. Other members of this family are the mammalian multidrug resistance genes and the CFTR gene. We have expressed the pfmdr1-encoded protein, Pgh1, in CHO cells and Xenopus oo",
+            "classification": {
+              "study_type": "In Vitro/Molecular",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2221861",
+            "title": "Mode of action of tubulozoles against Plasmodium falciparum in vitro.",
+            "authors": [
+              "Dieckmann-Schuppert A",
+              "Franklin R M"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1990",
+            "abstract": "The mode of action of the tubulozole isomers, recently recognized as a new class of potential antimalarial agents, was investigated. Whereas neither glycolysis, protease activity, or nucleic acid biosynthesis was primarily affected, protein biosynthesis decreased soon after addition of the drug. Inhibitors of protein biosynthesis, however, did not show synergistic activity with tubulozole. Colcemid, on the other hand, had an effect on protein synthesis similar to that seen with the tubulozoles. ",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2670249",
+            "title": "Compounds binding to cytoskeletal proteins are active against Plasmodium falciparum in vitro.",
+            "authors": [
+              "Dieckmann-Schuppert A",
+              "Franklin R M"
+            ],
+            "journal": "Cell biology international reports",
+            "year": "1989",
+            "abstract": "The effects of nine different tubulin-binding substances and of one actin-binding compound, cytochalasin B, upon the intraerythrocytic development of the malaria parasite Plasmodium falciparum were investigated in vitro. From the data obtained, plasmodial tubulins seem to be quite different from the mammalian proteins on the molecular level. Tubulozole-T, a substance which is inactive in mammalian systems, appears to be a promising novel antimalarial drug.",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2655935",
+            "title": "Compounds binding to cytoskeletal proteins are active against Plasmodium falciparum in vitro.",
+            "authors": [
+              "Dieckmann-Schuppert A",
+              "Franklin R M"
+            ],
+            "journal": "Cell biology international reports",
+            "year": "1989",
+            "abstract": "The effects of nine different tubulin-binding substances and of one actin-binding compound, cytochalasin B, upon the intraerythrocytic development of the malaria parasite Plasmodium falciparum were investigated in vitro. From the data obtained, plasmodial tubulins seem to be quite different from the mammalian proteins on the molecular level. Tubulozole-T, a substance which is inactive in mammalian systems, appears to be a promising novel antimalarial drug.",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Colchicine 與 β-tubulin 結合抑制微管聚合；P. falciparum 具 tubulin/微管系統用於配子母細胞形成與細胞分裂。細胞骨架結合化合物在體外顯示抗瘧活性，提供間接機轉支持，但選擇性與治療指數仍未知。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "familial Mediterranean fever, autosomal dominant",
+      "txgnn": {
+        "score": 0.9937877655029296,
+        "rank": 7548
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06838143",
+            "title": "Real Life Non-interventional Study on Safety and Effectiveness of Ilaris® (Canakinumab) 150 mg for Subcutaneous Injection in Hereditary Periodic Fever Syndrome (CAPS, crFMF, TRAPS and HIDS/MKD) Patients and sJIA Patients (REASSURE)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 25,
+            "start_date": "2025-03-29",
+            "completion_date": "2028-09-30",
+            "brief_summary": "This is a study to evaluate safety and effectiveness of Ilaris in adult and pediatric patients receiving the drug in a clinical setting for any of the following indications, Hereditary Periodic Fever Syndromes, Cryopyrin-associated periodic syndromes (CAPS), colchicine resistance familial Mediterranean fever (crFMF), TNF receptor associated periodic syndrome (TRAPS), Hyper-IgD syndrome / Mevalonate kinase deficiency (HIDS/MKD) or Systemic juvenile idiopathic arthritis (sJIA).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 canakinumab（IL-1β 單抗），非 colchicine；但確認 FMF 仍有未被 colchicine 滿足的需求族群（難治性），對再利用策略定位具參考意義"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37298536",
+            "title": "An Update on Familial Mediterranean Fever.",
+            "authors": [
+              "Lancieri Maddalena",
+              "Bustaffa Marta",
+              "Palmeri Serena",
+              "Prigione Ignazia",
+              "Penco Federica"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2023",
+            "abstract": "(1) Background: Familial Mediterranean Fever (FMF) is the prototypal autoinflammatory disease, characterized by recurrent bursts of neutrophilic inflammation. (2) Methods: In this study we look at the most recent literature on this condition and integrate it with novel information on treatment resistance and compliance. (3) Results: The canonical clinical presentation of FMF is in children with self-limited episodes of fever and polyserositis, associated with severe long-term complications, such",
+            "classification": {
+              "study_type": "Review/Update",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30686512",
+            "title": "Familial Mediterranean Fever.",
+            "authors": [
+              "Ozdogan Huri",
+              "Ugurlu Serdal"
+            ],
+            "journal": "Presse medicale (Paris, France : 1983)",
+            "year": "2019",
+            "abstract": "Familial Mediterranean Fever (FMF) is the oldest and the most frequent of all described hereditary periodic fever syndromes. The populations originating from Mediterranean basin carry the highest risk for FMF however it is being increasingly recognized in many parts of the world. It is an autoinflammatory disease with an autosomal recessive transmission. In the majority of the patients it is related with mutations in the MEFV gene that encodes a protein named pyrin. This protein has been shown t",
+            "classification": {
+              "study_type": "Review (NEJM)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25649364",
+            "title": "Familial Mediterranean Fever.",
+            "authors": [
+              "Kucuk Adem",
+              "Gezer Ilknur Albayrak",
+              "Ucar Ramazan",
+              "Karahan Ali Yavuz"
+            ],
+            "journal": "Acta medica (Hradec Kralove)",
+            "year": "2014",
+            "abstract": "Familial Mediterranean Fever is an autosomal recessive inherited disease with a course of autoinflammation, which is characterized by the episodes of fever and serositis. It affects the populations from Mediterranean basin. Genetic mutation of the disease is on MEFV gene located on short arm of Chromosome 16. The disease is diagnosed based on clinical evaluation. Amyloidosis is the most important complication. The only agent that decreases the development of amyloidosis and the frequency and sev",
+            "classification": {
+              "study_type": "Review (Lancet)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38354004",
+            "title": "[Familial mediterranean fever].",
+            "authors": [
+              "Vinit Caroline"
+            ],
+            "journal": "La Revue du praticien",
+            "year": "2023",
+            "abstract": "FAMILIAL MEDITERRANEAN FEVER. Familial mediterranean fever (FMF) is the most common monogenic auto-inflammatory disease worldwide. The recurrence of stereotyped febrile attacks lasting less than 3 days, associated with acute abdominal pain and a biological inflammatory syndrome in a child from the Mediterranean area, should raise its diagnosis. The detection of mutations in MEVF gene (exon 10 mainly) confirms the diagnosis. Long-term treatment with colchicine prevents the occurrence of attacks, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39786587",
+            "title": "Familial Mediterranean Fever (FMF): Emerging Concepts in Diagnosis, Pain Management, and Novel Treatment Options: A Narrative Review.",
+            "authors": [
+              "Kaye Alan D",
+              "Islam Rahib K",
+              "Nguyen Ivan D",
+              "Robin Connor J",
+              "Norwood Haley A"
+            ],
+            "journal": "Current pain and headache reports",
+            "year": "2025",
+            "abstract": "Familial Mediterranean Fever (FMF) is a hereditary autoinflammatory disorder predominantly affecting individuals of Mediterranean and Middle Eastern descent, including those with certain heritages including Sephardic Jewish, Armenian, Turkish, and Arab. The disorder affects up to 1 in 200 people making it a very common etiology for pain states worldwide, including serositis mediated painful states of the chest, joint, and abdomen.",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39404483",
+            "title": "2nd Familial Mediterranean Fever Meeting.",
+            "authors": [
+              "Özdoğan Huri",
+              "Ben-Chetrit Eldad",
+              "Uğurlu Serdal"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "Consensus Meeting Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29526329",
+            "title": "[Familial Mediterranean fever].",
+            "authors": [
+              "Georgin-Lavialle S",
+              "Hentgen V",
+              "Stankovic Stojanovic K",
+              "Bachmeyer C",
+              "Rodrigues F"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2018",
+            "abstract": "Familial Mediterranean Fever (FMF) is the most frequent monogenic auto-inflammatory disease. FMF is an autosomal recessive disease, which affects populations from Mediterranean origin and is associated with MEFV gene mutations encoding for the protein pyrin. Pyrin activation enhances the secretion of interleukin 1 by myelo-monocytic cells. Main features of the disease are acute attacks of serositis mainly located on the abdomen, less frequently on chest and joints, accompanied by fever and biolo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29773275",
+            "title": "Periodic fever syndromes.",
+            "authors": [
+              "Lachmann Helen J"
+            ],
+            "journal": "Best practice & research. Clinical rheumatology",
+            "year": "2017",
+            "abstract": "Periodic fever syndromes are autoinflammatory diseases. The majority present in infancy or childhood and are characterised by recurrent episodes of fever and systemic inflammation that occur in the absence of autoantibody production or identifiable infection. The best recognised disorders include CAPS, FMF, TRAPS and MKD. Understanding the molecular pathogenesis of these disorders provides unique insights into the regulation of innate immunity. Diagnosis relies on clinical acumen and is supporte",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31705200",
+            "title": "Familial Mediterranean fever and atherosclerosis in childhood and adolescence.",
+            "authors": [
+              "Vampertzi Olga",
+              "Papadopoulou-Legbelou Kyriaki",
+              "Triantafyllou Areti",
+              "Douma Stella",
+              "Papadopoulou-Alataki Efimia"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2020",
+            "abstract": "Familial Mediterranean fever is a chronic inflammatory disease characterized by periodic and self-limited episodes of fever and aseptic polyserositis. Although colchicine treatment has altered the course of the disease, it is believed that subclinical inflammation is still present, leading to endothelial dysfunction and atherosclerosis in the course of time. In this review, following the published recommendations, we queried online databases such as MEDLINE Pubmed, Scopus, and Web of science for",
+            "classification": {
+              "study_type": "Observational Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16283319",
+            "title": "Familial Mediterranean fever.",
+            "authors": [
+              "Onen Fatos"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2006",
+            "abstract": "Familial Mediterranean fever (FMF) is the most frequent hereditary inflammatory disease characterized by self-limited recurrent attacks of fever and serositis. It is transmitted in an autosomal recessive pattern and affects certain ethnic groups mainly Jews, Turks, Arabs, and Armenians. FMF is caused by mutations in MEFV gene, which encodes pyrin. This protein is expressed mainly in myeloid/monocytic cells and modulates IL-1beta processing, NF-kappaB activation, and apoptosis. A mutated pyrin pr",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15264584",
+            "title": "[Familial Mediterranean fever].",
+            "authors": [
+              "Leclercq P",
+              "Hermesse A",
+              "Malaise M G"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "2004",
+            "abstract": "Familial Mediterranean Fever (FMF) is an hereditary disease that especially affects people living around the Mediterranean sea. It is characterized by recurring fever and abdominal pain, eventually associated with localised pleuritis, synovitis or skin inflammation. The most serious complication is amyloidosis, which can lead to terminal renal failure. The attacks and complications can be avoided by life long administration of colchicine. Two independent French and American teams discovered the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7407479",
+            "title": "Familial Mediterranean fever.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39437379",
+            "title": "Familial Mediterranean Fever in Pregnancy.",
+            "authors": [
+              "Davidson Alana",
+              "Kuller Jeffrey A",
+              "Dotters-Katz Sarah K",
+              "Wood Rachel L"
+            ],
+            "journal": "Obstetrical & gynecological survey",
+            "year": "2024",
+            "abstract": "Though the incidence of familial Mediterranean fever (FMF) in pregnancy is rare, understanding the etiology and symptomatology of FMF is essential for obstetric treatment of patients with FMF.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33072117",
+            "title": "Familial Mediterranean Fever and COVID-19: Friends or Foes?",
+            "authors": [
+              "Stella Alessandro",
+              "Lamkanfi Mohamed",
+              "Portincasa Piero"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2020",
+            "abstract": "Familial Mediterranean Fever (FMF) and COVID-19 show a remarkable overlap of clinical symptoms and similar laboratory findings. Both are characterized by fever, abdominal/chest pain, elevation of C-reactive protein, and leukocytosis. In addition, colchicine and IL-1 inhibitors treatments that are effective in controlling inflammation in FMF patients have recently been proposed for off-label use in COVID-19 patients. Thus, FMF may resemble a milder recapitulation of the cytokine storm that is a h",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25761640",
+            "title": "Non-canonical manifestations of familial Mediterranean fever: a changing paradigm.",
+            "authors": [
+              "Rigante Donato",
+              "Lopalco Giuseppe",
+              "Tarantino Giusyda",
+              "Compagnone Adele",
+              "Fastiggi Michele"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2015",
+            "abstract": "Paroxysmal crises of fever and systemic inflammation herald familial Mediterranean fever (FMF), considered as the archetype of all inherited systemic autoinflammatory diseases. Inflammatory bouts are characterized by short-term and self-limited abdominal, thoracic, and/or articular symptoms which subside spontaneously. Erysipelas-like findings, orchitis, and different patterns of myalgia may appear in a minority of patients. In recent years, many non-classical manifestations have been reported i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19091621",
+            "title": "Familial Mediterranean Fever: a review for clinical management.",
+            "authors": [
+              "Fonnesu Claudia",
+              "Cerquaglia Claudia",
+              "Giovinale Maria",
+              "Curigliano Valentina",
+              "Verrecchia Elena"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2009",
+            "abstract": "Familial Mediterranean Fever (FMF) is a hereditary autosomal recessive, autoinflammatory disorder characterized by recurrent, self-limiting episodes of short duration (mean 24-72 h) of fever and serositis. FMF is the most frequent periodic febrile syndrome among the autoinflammatory syndromes (AS), a heterogeneous group of recently identified diseases clinically characterized by recurrent febrile attacks, in the absence of autoantibodies and antigen-specific T lymphocytes. In FMF, periodic attac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35789271",
+            "title": "Early predictors of colchicine resistance in familial Mediterranean fever.",
+            "authors": [
+              "Mosad Mosa Doaa",
+              "Shokry Doaa",
+              "Ahmed Dina B",
+              "Sobh Ali"
+            ],
+            "journal": "Modern rheumatology",
+            "year": "2023",
+            "abstract": "To explore early features that can predict colchicine resistance in familial Mediterranean fever (FMF) patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "68234",
+            "title": "Colchicine in familial Mediterranean fever.",
+            "authors": [],
+            "journal": "Lancet (London, England)",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28413100",
+            "title": "Colchicine resistance and intolerance in familial mediterranean fever: Definition, causes, and alternative treatments.",
+            "authors": [
+              "Ozen Seza",
+              "Kone-Paut Isabelle",
+              "Gül Ahmet"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2017",
+            "abstract": "Familial Mediterranean Fever (FMF) is a hereditary autoinflammatory syndrome characterized by recurrent serositis or arthritis attacks and, in some patients, chronic subclinical inflammation that predisposes to secondary amyloidosis. Colchicine is the gold standard of treatment, which reduces attack frequency and amyloidosis risk. However, up to 5% of patients are considered resistant or inadequately respond to colchicine, and some others cannot tolerate the side effects of effective doses of co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31127463",
+            "title": "Arterial stiffness in Familial Mediterranean Fever: correlations with disease-related parameters and colchicine treatment.",
+            "authors": [
+              "Sgouropoulou Vasiliki",
+              "Stabouli Stella",
+              "Trachana Maria"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2019",
+            "abstract": "Familial Mediterranean Fever is the most common autoinflammatory disease. As chronic inflammation may result in increased arterial stiffness, we aimed to investigate indices of arterial stiffness in patients with Familial Mediterranean Fever and their associations with disease-related factors and colchicine treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Colchicine 抑制微管聚合 → 阻斷嗜中性球趨化 → 抑制 NLRP3 inflammasome 激活 → 降低 IL-1β/IL-18 驅動的週期性發炎。FMF 病理核心 (MEFV 突變 → pyrin 失調) 正是此路徑的靶標，為國際第一線標準治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn": {
+        "score": 0.9936543703079224,
+        "rank": 7674
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DFSP 由 COL1A1-PDGFB 融合基因驅動 PDGFR 持續活化；colchicine 的抗微管機制可能抑制腫瘤細胞分裂，但無選擇性靶向 DFSP 的直接依據。TxGNN 預測可能源自炎症/增生通路的圖譜相似性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "primary immunodeficiency due to a genetic defect in innate immunity",
+      "txgnn": {
+        "score": 0.986681580543518,
+        "rank": 13077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Colchicine 調節先天免疫（嗜中性球、炎症小體），理論上可能緩解部分先天免疫失調；但原發性免疫缺乏的遺傳缺陷種類繁多（>430 種），colchicine 的抗炎機制對以免疫缺乏（而非過度活化）為特徵的病況可能無益甚至有害。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "sitosterolemia",
+      "txgnn": {
+        "score": 0.98587566614151,
+        "rank": 13659
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Sitosterolemia 由 ABCG5/ABCG8 突變導致植物固醇累積；colchicine 對脂質轉運無直接作用。TxGNN 預測可能源自 colchicine 對心血管炎症的已知保護效果（間接關聯），而非對此罕見病的特異性機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Smouldering systemic mastocytosis",
+      "txgnn": {
+        "score": 0.9824313521385192,
+        "rank": 15792
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Colchicine 可能抑制肥大細胞脫顆粒（體外數據），但 smouldering SM 的 KIT D816V 驅動的肥大細胞增生需靶向 KIT 抑制劑（midostaurin, avapritinib）。colchicine 缺乏對此亞型的特異性機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "systemic mastocytosis",
+      "txgnn": {
+        "score": 0.9819520115852356,
+        "rank": 16052
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37349205",
+            "title": "Histamine elevation in familial Mediterranean fever: A study from the Juvenile Inflammatory Rheumatism cohort.",
+            "authors": [
+              "Sbeih Nabiha",
+              "Bourguiba Rim",
+              "Hoyeau-Idrissi Nadia",
+              "Launay Jean-Marie",
+              "Callebert Jacques"
+            ],
+            "journal": "European journal of internal medicine",
+            "year": "2023",
+            "abstract": "Familial Mediterranean Fever (FMF) is the most frequent monogenic autoinflammatory disease (AID). Some patients have persistent symptoms despite colchicine intake. Mast cells (MC) are innate immune cells involved in inflammatory conditions including AID. Their activation is responsible for various symptoms such as abdominal pain, bloating and pruritus.",
+            "classification": {
+              "study_type": "Cross-sectional Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與 Smouldering SM 相同；唯一相關文獻（PMID 37349205）研究 FMF 患者組織胺升高，並非 colchicine 對系統性肥大細胞增生症的直接療效研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+      "txgnn": {
+        "score": 0.980799436569214,
+        "rank": 16667
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此罕見亞型（SM-AHN 中的嗜酸性球變異）由 KIT 突變與 FIP1L1-PDGFRA 融合驅動；colchicine 無靶向 PDGFRA 或 KIT 的依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hemoglobin H disease",
+      "txgnn": {
+        "score": 0.9805598258972168,
+        "rank": 16767
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03747107",
+            "title": "Pharmacist and Data Driven Quality Improvement in Primary Care",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2020-09-16",
+            "completion_date": "2021-06-30",
+            "brief_summary": "P-DQIP is an intervention to improve prescribing safety in primary care. The 'intervention' is a health board quality improvement programme that will be implemented across all practices in one National Health Service (NHS) board in Scotland (Tayside), and comprises the following components:\n\ni. Case finding of patients with drug therapy risks via the P-DQIP informatics tool ii. Decision support for clinicians when conducting medication reviews via the P-DQIP informatics tool iii. Support from pr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "N/A phase、19人、已完成的初級醫療品質改善研究；與 colchicine 或 Hgb H disease 無直接關聯，可能為 registry 誤配。完全不相關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hemoglobin H disease（α-地中海貧血，3個 α-globin 基因缺失）以慢性溶血性貧血為主；colchicine 抗炎機制對溶血或α-球蛋白缺乏無直接修正能力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "blepharo-cheilo-odontic syndrome",
+      "txgnn": {
+        "score": 0.9670958518981934,
+        "rank": 22193
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "BCO syndrome 為罕見先天發育異常（CDH1/CDH3 突變）；colchicine 無作用於鈣黏附素通路的機轉依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "Plasmodium falciparum malaria"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "familial Mediterranean fever, autosomal dominant"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "familial Mediterranean fever, autosomal dominant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "familial Mediterranean fever, autosomal dominant"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "dermatofibrosarcoma protuberans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "primary immunodeficiency due to a genetic defect in innate immunity"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "primary immunodeficiency due to a genetic defect in innate immunity"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "primary immunodeficiency due to a genetic defect in innate immunity"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "sitosterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "sitosterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "sitosterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "hemoglobin H disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "hemoglobin H disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "hemoglobin H disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "blepharo-cheilo-odontic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "blepharo-cheilo-odontic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Colchicine",
+        "disease": "blepharo-cheilo-odontic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

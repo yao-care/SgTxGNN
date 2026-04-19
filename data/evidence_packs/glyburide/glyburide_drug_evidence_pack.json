@@ -1,0 +1,1087 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01016-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Glyburide",
+    "drugbank_id": "DB01016",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.972436547279358,
+        "rank": 20358
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Opsismodysplasia 由 INPPL1（SHIP2 磷酸酶）基因突變引起，影響磷酸肌醇 3-磷酸信號傳導，導致軟骨發育異常。Glyburide 的 KATP 通道阻斷機轉與 INPPL1 磷酸酶途徑無直接藥理交集。高預測分數（0.972）可能來源於 KG 中「代謝信號—骨骼發育」的遠端節點嵌入，屬典型高分假陽性。無任何臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9690111875534058,
+        "rank": 21618
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Focal stiff limb syndrome 為 stiff person syndrome（SPS）的局限型，病理核心為抗 GAD65 自體抗體破壞 GABA 能抑制性神經元。GAD65 同時存在於胰島β細胞，SPS 患者有較高 T1D 共病率，此為 Glyburide 與 SPS 在 KG 中形成關聯的可能路徑，但不代表治療效益。KATP 通道在中樞 GABA 神經元的功能調節尚無充分研究，無臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9690111875534058,
+        "rank": 21619
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Classic SPS 與 focal stiff limb syndrome 共享相同評估。額外指出：約 30-40% SPS 患者同時患有 T1D，KG 中「Glyburide → 糖尿病 → GAD65 → SPS」的知識路徑可解釋高預測分數（0.969）。然而此為共病關聯非治療機轉，且磺醯脲類用於自體免疫神經疾病無任何支持性臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.9676542282104492,
+        "rank": 22022
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Thiamine-responsive megaloblastic anemia（TRMA；SLC19A2 突變）三聯症包含糖尿病，病因為硫胺素缺乏導致β細胞氧化損傷及凋亡。Glyburide 刺激殘餘β細胞分泌胰島素具理論可行性，但：(1) TRMA 的首要治療為硫胺素補充，早期介入可逆轉β細胞損傷；(2) 晚期患者β細胞已耗盡，KATP 靶點消失；(3) 無任何 TRMA 使用磺醯脲類的臨床報告。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9521806836128236,
+        "rank": 26202
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "藥物誘發局部脂肪萎縮最常見病因為胰島素注射部位反應（脂肪增生或萎縮）。間接假設：以口服 Glyburide 取代部分胰島素注射可減少注射部位脂肪異常。此假設缺乏任何研究支持，且 Glyburide 需功能性β細胞才有效，胰島素依賴型患者不適用。KG 預測可能來源於「降血糖藥物—胰島素—脂肪代謝」的知識鏈。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.94919353723526,
+        "rank": 26891
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Centrifugal lipodystrophy（又稱 lipodystrophia centrifugalis abdominalis infantilis）為好發於幼兒腹部的罕見皮膚病，病因不明，可能涉及局部免疫異常。Glyburide 與此疾病無已知藥理關聯。預測分數（0.949）可能反映 KG 中「脂肪組織代謝節點」的泛化連結，屬假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.9479154348373412,
+        "rank": 27174
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力性局部脂肪萎縮由持續機械壓力引起脂肪細胞物理性損傷，為純機械性病因。Glyburide 的 KATP 通道藥理機轉對機械性組織損傷無任何作用途徑。此預測可能為 KG 中脂肪組織相關節點的結構性假陽性，預測可信度最低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9447160363197328,
+        "rank": 27888
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性局部脂肪萎縮病因未明，可能涉及局部免疫介導的脂肪細胞凋亡。Glyburide 的抗炎特性（通過抑制巨噬細胞 SUR1 通道調節 NLRP3 炎症小體活化）具極弱理論基礎，但無任何針對此疾病的基礎或臨床研究。特發性質使藥物靶向研發優先級極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.9434437155723572,
+        "rank": 28127
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22252046",
+            "title": "Antioxidant activity and protection of pancreatic β-cells by embelin in streptozotocin-induced diabetes.",
+            "authors": [
+              "Gupta Rajnish",
+              "Sharma Anil K",
+              "Sharma Mahesh C",
+              "Gupta Radhey S"
+            ],
+            "journal": "Journal of diabetes",
+            "year": "2012",
+            "abstract": "The aim of the present study was to evaluate the antioxidant potential of embelin in streptozotocin-induced diabetes.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28549291",
+            "title": "Antidiabetogenic efficiency of menthol, improves glucose homeostasis and attenuates pancreatic β-cell apoptosis in streptozotocin-nicotinamide induced experimental rats through ameliorating glucose metabolic enzymes.",
+            "authors": [
+              "Muruganathan Udaiyar",
+              "Srinivasan Subramani",
+              "Vinothkumar Veerasamy"
+            ],
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2017",
+            "abstract": "The phytochemical, menthol, has been reported to play many beneficial roles. However, under diabetic conditions, there is no detail mechanism of its beneficial action in the glucose homeostasis. The present study, we investigated to explore the role of menthol, on the glucose metabolic enzymes and pancreatic islet cell apoptosis of streptozotocin-nicotinamide (STZ-NA) induced diabetes in rats. Diabetes was induced by single intraperitoneal (i.p.) injection of STZ (50mg/kg/b.w.) and NA (110mg/kg/",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27656398",
+            "title": "An ancestral role for the mitochondrial pyruvate carrier in glucose-stimulated insulin secretion.",
+            "authors": [
+              "McCommis Kyle S",
+              "Hodges Wesley T",
+              "Bricker Daniel K",
+              "Wisidagama Dona R",
+              "Compan Vincent"
+            ],
+            "journal": "Molecular metabolism",
+            "year": "2016",
+            "abstract": "Transport of pyruvate into the mitochondrial matrix by the Mitochondrial Pyruvate Carrier (MPC) is an important and rate-limiting step in its metabolism. In pancreatic β-cells, mitochondrial pyruvate metabolism is thought to be important for glucose sensing and glucose-stimulated insulin secretion.",
+            "classification": {
+              "study_type": "Basic Science (In vitro/In vivo)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9033963",
+            "title": "Effects of prolonged glucose stimulation on pancreatic beta cells: from increased sensitivity to desensitization.",
+            "authors": [
+              "Purrello F",
+              "Rabuazzo A M",
+              "Anello M",
+              "Patanè G"
+            ],
+            "journal": "Acta diabetologica",
+            "year": "1996",
+            "abstract": "The prolonged exposure of pancreatic islets and isolated beta cells to elevated glucose concentrations induces a state of unresponsiveness to glucose (desensitization). However, an increased sensitivity to glucose (detected by a shift to the left of the dose-response curve of glucose-induced insulin release) has been also reported after chronic exposure to glucose, making the overall response less comprehensible. In vitro models have many theoretical and practical advantages in better understand",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28943513",
+            "title": "Neonatal Diabetes: Two Cases with Isolated Pancreas Agenesis due to Homozygous PTF1A Enhancer Mutations and One with Developmental Delay, Epilepsy, and Neonatal Diabetes Syndrome due to KCNJ11 Mutation.",
+            "authors": [
+              "Evliyaoğlu Olcay",
+              "Ercan Oya",
+              "Ataoğlu Emel",
+              "Zübarioğlu Ümit",
+              "Özcabı Bahar"
+            ],
+            "journal": "Journal of clinical research in pediatric endocrinology",
+            "year": "2018",
+            "abstract": "Neonatal diabetes mellitus is a rare form of monogenic diabetes which is diagnosed in the first six months of life. Here we report three patients with neonatal diabetes; two with isolated pancreas agenesis due to mutations in the pancreas-specific transcription factor 1A (PTF1A) enhancer and one with developmental delay, epilepsy, and neonatal diabetes (DEND) syndrome, due to a KCNJ11 mutation. The two cases with mutations in the distal enhancer of PTF1A had a homozygous g.23508363A>G and a homo",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36873120",
+            "title": "In vitro and in vivo antidiabetic activity of bitter honey in streptozotocin-nicotinamide-induced diabetic Wistar rats.",
+            "authors": [
+              "Koodathil Joshna",
+              "Venkatachalam Gopal",
+              "Bhaskaran Kavitha"
+            ],
+            "journal": "Journal of medicine and life",
+            "year": "2023",
+            "abstract": "Diabetes mellitus is a metabolic syndrome considered one of the life-threatening diseases in the last two decades. This research aimed to investigate the anti-diabetic potential of bitter honey collected from Nilgiris using both in vitro and in vivo methods. The mineral content of bitter honey was also estimated using atomic absorption spectrophotometer. Bitter honey had a higher amount of zinc and copper, while heavy metals like lead, nickel, and cadmium were below the detection limit. The in v",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26132582",
+            "title": "The Possible Mechanisms of the Impaired Insulin Secretion in Hypothyroid Rats.",
+            "authors": [
+              "Godini Aliashraf",
+              "Ghasemi Asghar",
+              "Zahediasl Saleh"
+            ],
+            "journal": "PloS one",
+            "year": "2015",
+            "abstract": "Although the insulin secretion deficit in hypothyroid male rats has been documented, the underling mechanisms of the effect of hypothyroidism on insulin secretion are not clear. Isolated islets of the PTU-induced hypothyroid and control rats were exposed to glibenclamide, acetylcholine, and nifedipine in the presence of glucose concentrations of 2.8 or 8.3 and 16.7 mmol/L. Glucokinase and hexokinase specific activity, glucokinase content, and glucose transporter 2 protein expression were also de",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41693148",
+            "title": "Functional evaluation of pancreatic islets from patients with Beckwith-Wiedemann syndrome and congenital hyperinsulinism.",
+            "authors": [
+              "Juliana Christine A",
+              "Li Changhong",
+              "Chai Jinghua",
+              "Boodhansingh Kara",
+              "Mitteer Lauren M"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2026",
+            "abstract": "Beckwith-Wiedemann Syndrome (BWS) is an overgrowth syndrome caused by various genetic or epigenetic abnormalities in a cluster of imprinted genes on chromosome 11p15. Congenital hyperinsulinism (HI) is one of the cardinal features of BWS, but the pathophysiology of HI in BWS has not been clearly defined.",
+            "classification": {
+              "study_type": "Functional Study (ex vivo)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21573217",
+            "title": "ENPP1 affects insulin action and secretion: evidences from in vitro studies.",
+            "authors": [
+              "Di Paola Rosa",
+              "Caporarello Nunzia",
+              "Marucci Antonella",
+              "Dimatteo Claudia",
+              "Iadicicco Claudia"
+            ],
+            "journal": "PloS one",
+            "year": "2011",
+            "abstract": "The aim of this study was to deeper investigate the mechanisms through which ENPP1, a negative modulator of insulin receptor (IR) activation, plays a role on insulin signaling, insulin secretion and eventually glucose metabolism. ENPP1 cDNA (carrying either K121 or Q121 variant) was transfected in HepG2 liver-, L6 skeletal muscle- and INS1E beta-cells. Insulin-induced IR-autophosphorylation (HepG2, L6, INS1E), Akt-Ser(473), ERK1/2-Thr(202)/Tyr(204) and GSK3-beta Ser(9) phosphorylation (HepG2, L6",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29844959",
+            "title": "Evaluation of the glycemic effect of Ceratonia siliqua pods (Carob) on a streptozotocin-nicotinamide induced diabetic rat model.",
+            "authors": [
+              "Qasem Mousa A",
+              "Noordin Mohamed Ibrahim",
+              "Arya Aditya",
+              "Alsalahi Abdulsamad",
+              "Jayash Soher Nagi"
+            ],
+            "journal": "PeerJ",
+            "year": "2018",
+            "abstract": "Ceratonia siliqua pods (carob) have been nominated to control the high blood glucose of diabetics. In Yemen, however, its antihyperglycemic activity has not been yet assessed. Thus, this study evaluated the in vitro inhibitory effect of the methanolic extract of carob pods against α-amylase and α-glucosidase and the in vivo glycemic effect of such extract in streptozotocin-nicotinamide induced diabetic rats.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21235594",
+            "title": "Ameliorative effects of glycyrrhizin on streptozotocin-induced diabetes in rats.",
+            "authors": [
+              "Sen Subhrojit",
+              "Roy Moumita",
+              "Chakraborti Abhay Sankar"
+            ],
+            "journal": "The Journal of pharmacy and pharmacology",
+            "year": "2011",
+            "abstract": "Glycyrrhizin is the main water-soluble constituent of the root of liquorice (Glycyrrhiza glabra). The study investigates the effect of glycyrrhizin on streptozotocin (STZ)-induced diabetic changes and associated oxidative stress, including haemoglobin-induced free iron-mediated oxidative reactions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7937694",
+            "title": "Insulin secretion by the pancreatic beta cell of aged rats.",
+            "authors": [
+              "Aizawa T",
+              "Komatsu M",
+              "Sato Y",
+              "Ishihara F",
+              "Suzuki N"
+            ],
+            "journal": "Pancreas",
+            "year": "1994",
+            "abstract": "Insulin release by the pancreatic islets of 12-week- and 2-year-old male Wistar rats was compared using glucose and non-fuel secretagogues such as forskolin, phorbol ester (12-O-tetradecanoylphorbol-13-acetate) and glyburide acting on adenylyl cyclase, C kinase, and the ATP-sensitive K+ channel, respectively. Sensitivity of the voltage-dependent calcium channel to nifedipine was also examined. In the beta cell of aged rats, the following abnormalities were found: (a) right shift of the dose-resp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32714027",
+            "title": "The Effects of stingless bee (Tetragonula biroi) honey on streptozotocin-induced diabetes mellitus in rats.",
+            "authors": [
+              "Sahlan Muhamad",
+              "Rahmawati Oktavia",
+              "Pratami Diah Kartika",
+              "Raffiudin Rika",
+              "Mukti Rino Rakhmata"
+            ],
+            "journal": "Saudi journal of biological sciences",
+            "year": "2020",
+            "abstract": "Diabetes mellitus (DM) is a metabolic disease characterised by chronic hyperglycaemia with impaired carbohydrate, fat and protein metabolism caused by defects in insulin secretion or action. Based on our previous research, stingless bee honey (SLBH) from Tetragonula biroi and T. laeviceps can inhibit alpha-glucosidase activities. Therefore, the aim of the present study was to determine the effects of daily oral administration of SLBH on body weight (BW) and fasting blood glucose (FBG) levels of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23441481",
+            "title": "Pharmacological evaluation of hyperin for antihyperglycemic activity and effect on lipid profile in diabetic rats.",
+            "authors": [
+              "Verma Neeraj",
+              "Amresh G",
+              "Sahu P K",
+              "Mishra Neelam",
+              "Rao Ch V"
+            ],
+            "journal": "Indian journal of experimental biology",
+            "year": "2013",
+            "abstract": "Antihyperglycemic potential of hyperin at 25 and 50 mg/kg doses for 30 days to streptozotocin induced diabetic rats has been reported. In oral glucose tolerance test, hyperin treated rats showed a significant reduction in blood glucose level after 120 min. It was found that hyperin exhibited dose dependent and significant antihyperglycemic activity in streptozotocin induced diabetic rats which were nearly similar with standard drug glybenclamide. Activities of glucose-6-phosphatase, fructose-1,6",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37251668",
+            "title": "Case report: Better late than never, but sooner is better: switch from CSII to sulfonylureas in two patients with neonatal diabetes due to KCNJ11 variants.",
+            "authors": [
+              "Mancioppi Valentina",
+              "Pozzi Erica",
+              "Zanetta Sara",
+              "Missineo Anna",
+              "Savastio Silvia"
+            ],
+            "journal": "Frontiers in endocrinology",
+            "year": "2023",
+            "abstract": "Neonatal diabetes mellitus (NDM) is a rare genetic disease characterized by severe hyperglycemia requiring insulin therapy with onset mostly within the first 6 months and rarely between 6-12 months of age. The disease can be classified into transient (TNDM) or permanent neonatal diabetes mellitus (PNDM), or it can be a component of a syndrome. The most frequent genetic causes are abnormalities of the 6q24 chromosomal region and mutations of the ABCC8 or KCNJ11 genes coding for the pancreatic bet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29545864",
+            "title": "Glibenclamide exacerbates adriamycin-induced cardiotoxicity by activating oxidative stress-induced endoplasmic reticulum stress in rats.",
+            "authors": [
+              "Liu Meng-Lin",
+              "Wang Meng-Long",
+              "Lv Jing-Jun",
+              "Wei Jie",
+              "Wan Jun"
+            ],
+            "journal": "Experimental and therapeutic medicine",
+            "year": "2018",
+            "abstract": "Adriamycin (ADR) is a chemotherapeutic drug used to treat tumors in a clinical setting. However, its use is limited by a side effect of cardiotoxicity. Glibenclamide (Gli), an inhibitor of mitochondrial ATP-dependent potassium (K-ATP) channels, blocks the cardioprotective effects of mitochondrial K-ATP channel openers and induces apoptosis in rodent pancreatic islet β-cell lines. However, little is known about the role of Gli in ADR-induced cardiotoxicity. The present study was designed to inves",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15742701",
+            "title": "Diabetes mellitus in a domesticated Spanish mustang.",
+            "authors": [
+              "Johnson Philip J",
+              "Scotty Nicole C",
+              "Wiedmeyer Charles",
+              "Messer Nat T",
+              "Kreeger John M"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "2005",
+            "abstract": "An 18-year-old Spanish Mustang mare was referred for evaluation of progressive weight loss and persistent hyperglycemia. Clinicopathologic abnormalities included marked hyperglycemia and glycosuria. Serum cortisol concentration was appropriately decreased following administration of dexamethasone, indicating that the horse did not have pituitary pars intermedia dysfunction. Serum insulin and plasma C-peptide concentrations were low, suggesting that hyperglycemia was a result of decreased secreti",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8603773",
+            "title": "Fast reversibility of glucose-induced desensitization in rat pancreatic islets. Evidence for an involvement of ionic fluxes.",
+            "authors": [
+              "Anello M",
+              "Rabuazzo A M",
+              "Degano C",
+              "Caltabiano V",
+              "Patanè G"
+            ],
+            "journal": "Diabetes",
+            "year": "1996",
+            "abstract": "The present study was done to achieve a better understanding of the role of ionic flux alterations in glucose-induced desensitization of pancreatic beta-cells. Moreover, we investigated the reversibility of glucose-induced desensitization after different times of exposure to high glucose to ascertain the time necessary for desensitization reversal and to determine whether it depends on the length of high glucose exposure. Glucose desensitization was obtained by incubating rat pancreatic islets f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21079693",
+            "title": "Preliminary Study of the Clinical Hypoglycemic Effects of Allium cepa (Red Onion) in Type 1 and Type 2 Diabetic Patients.",
+            "authors": [
+              "Taj Eldin Imad M",
+              "Ahmed Elhadi M",
+              "Elwahab H M Abd"
+            ],
+            "journal": "Environmental health insights",
+            "year": "2010",
+            "abstract": "Diabetes mellitus is a heterogeneous group of disorders characterized by abnormalities of carbohydrate, protein and lipid metabolism. Type 1 diabetes mellitus is an autoimmune disease caused by destruction of pancreatic beta cells and characterized by defect in insulin secretion while type 2 diabetes mellitus results from abnormalities in insulin secretion and/or insulin action or both.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19957208",
+            "title": "Antidiabetic activity of ethanolic extract of Zaleya decandra in alloxan-induced diabetic rats.",
+            "authors": [
+              "Meenakshi Periasamy",
+              "Bhuvaneshwari Rajendran",
+              "Rathi Muthaiyan Ahalliya",
+              "Thirumoorthi Lakshmanan",
+              "Guravaiah Dugganaboyana Chinna"
+            ],
+            "journal": "Applied biochemistry and biotechnology",
+            "year": "2010",
+            "abstract": "Diabetes mellitus is a complex disorder that disturbs the metabolism of carbohydrates, fats, and proteins. Medicinal plants play an important role in the management of diabetes mellitus. The present study was aimed to evaluate the antidiabetic potential of Zaleya decandra roots on alloxan-induced diabetes in rats. Oral administration of ethanolic extract of the root (200 mg/kg body weight/day) for 15 days restored the levels of glucose, cholesterol, triglycerides, total proteins, urea, creatinin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此適應症需關鍵性分型辨別：(A) KATP 通道突變相關新生兒糖尿病（ABCC8/KCNJ11 突變，常伴胰腺發育不全）：磺醯脲類（含 glyburide/glibenclamide）為已建立的標準治療，機轉明確（突變型 KATP 通道對磺醯脲類仍保有結合能力），此為 L1-L2 等級證據，但疾病名稱應為「KATP channel neonatal diabetes」而非「pancreatic agenesis」。(B) 真性胰腺發育不全（如 PTF1A/PDX1 增強子突變）：β細胞完全缺失，KATP 通道靶點不存在，Glyburide 無效。現有 20 篇文獻以 STZ 誘發糖尿病動物模型及β細胞功能研究為主，無直接支持 glyburide 治療胰腺發育不全的證據。PMID 28943513 記錄 PTF1A 突變導致的孤立性胰腺發育不全（B 型），印證靶點缺失問題。整體評為 L4（間接/混淆機轉），建議進行分型研究以釐清是否存在 KATP 突變亞群。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.8221886157989502,
+        "rank": 40779
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫性卵巢炎以抗卵巢自體抗體破壞卵泡顆粒細胞為特徵。理論假設：Glyburide 通過抑制免疫細胞（巨噬細胞/T細胞）的 KATP 通道發揮抗炎效果，或通過 SUR1 通道調節 NLRP3 炎症小體。然而此機轉極弱且無任何針對卵巢自體免疫的研究，預測分數最低（0.822），建議不納入後續研究優先級。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "idiopathic localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glyburide",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

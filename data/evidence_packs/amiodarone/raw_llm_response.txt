@@ -1,0 +1,526 @@
+# Amiodarone (DB01118) 藥物再利用證據分析
+
+> ⚠️ **背景說明**：雖標記為「未上市」（本地市場），Amiodarone 為全球公認的 Class III 抗心律不整藥（多重通道阻斷劑），原適應症資料空缺屬資料庫缺漏，非藥物本身問題。
+
+---
+
+```json
+{
+  "drug": "Amiodarone",
+  "drugbank_id": "DB01118",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "市場標記為『未上市』，但 Amiodarone 為全球廣泛使用之 Class III 抗心律不整藥；original_moa 缺漏屬資料庫問題，實際機轉為多重離子通道阻斷（Na⁺/K⁺/Ca²⁺）兼具 β 阻斷效應。",
+  "indications": [
+    {
+      "disease_name": "ventricular tachycardia",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "guardrails": [
+        "本地市場上市狀態需確認（此為標準適應症）",
+        "監測肺毒性、甲狀腺功能異常、肝毒性",
+        "QT 延長監測（TdP 風險）",
+        "多重藥物交互作用評估（DDI count=0 疑似資料缺漏）"
+      ],
+      "mechanistic_link": "Class III 抗心律不整藥：阻斷 IKr/IKs 延長動作電位持續時間（APD）及有效不反應期（ERP），同時具 INa 阻斷（Class I）、β 受體阻斷（Class II）、ICa,L 阻斷（Class IV）等多重機轉，有效抑制折返性及觸發性室性心搏過速。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00000531",
+          "title": "AVID (Antiarrhythmics Versus Implantable Defibrillators)",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 已完成的里程碑試驗，直接比較 Amiodarone 與 ICD 治療危及生命的室性心律不整，確立 Amiodarone 在 VT/VF 管理中的標準角色"
+        },
+        {
+          "nct_id": "NCT00257959",
+          "title": "OPTIC (Optimal Pharmacological Therapy In ICD Patients)",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，n=400，已完成，直接評估 Amiodarone + β-blocker 在 ICD 植入患者中預防 VT/VF 誘發電擊的效果，高度相關"
+        },
+        {
+          "nct_id": "NCT00905853",
+          "title": "VANISH (VT Ablation or Escalated Antiarrhythmic Drugs)",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，n=260，已完成，Amiodarone 為藥物治療對照臂標準用藥，提供高品質療效對比數據"
+        },
+        {
+          "nct_id": "NCT04208997",
+          "title": "AFTER-VT (Continuation of Antiarrhythmics Following Catheter Ablation for VT)",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 但提前終止（n=5），因收案困難而中止，無法提供有效結論"
+        },
+        {
+          "nct_id": "NCT01097330",
+          "title": "Catheter Ablation vs Amiodarone for Shock Prophylaxis in ICD Patients with VT",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 但提前終止（n=12），樣本量過小，無統計效力"
+        },
+        {
+          "nct_id": "NCT01558830",
+          "title": "Safety of Amiodarone and Ranolazine Together in Stable Angina",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，n=50，提供 Amiodarone 安全性資料，但主要聚焦穩定型心絞痛，對 VT 療效的直接貢獻有限"
+        },
+        {
+          "nct_id": "NCT00920244",
+          "title": "Dynamics During Resuscitation in In-hospital Cardiac Arrest",
+          "relevance_grade": "B",
+          "reasoning": "觀察性研究，n=285，包含 VT/VF 心跳停止場景，提供 Amiodarone 在急救情境中的使用數據"
+        },
+        {
+          "nct_id": "NCT05852704",
+          "title": "SGLT2 Inhibitor in Patients Awaiting CABG (SENTRY)",
+          "relevance_grade": "C",
+          "reasoning": "研究目標為 SGLT2 抑制劑，Amiodarone 非主要研究藥物，與 VT 再利用評估無直接關聯"
+        },
+        {
+          "nct_id": "NCT07270848",
+          "title": "Dronedarone Study (Phase 4)",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Dronedarone（Amiodarone 衍生物），非 Amiodarone 本身，間接提供同類藥物比較參考"
+        },
+        {
+          "nct_id": "NCT03685149",
+          "title": "Flecainide in ARVC Patients (Pilot RCT)",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Flecainide，非 Amiodarone；ARVC 相關但不直接評估 Amiodarone"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39555820",
+          "title": "Catheter Ablation or Antiarrhythmic Drugs for Ventricular Tachycardia (2025)",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "最新 RCT，直接比較消融術與抗心律不整藥（含 Amiodarone）治療 VT，高度相關"
+        },
+        {
+          "pmid": "38649085",
+          "title": "Randomized clinical trial of catheter ablation and antiarrhythmic drug therapy (2024)",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "2024 年 RCT，評估 VT 抑制策略，提供當代最新證據"
+        },
+        {
+          "pmid": "27354046",
+          "title": "Randomized comparison of IV procainamide vs. IV amiodarone for acute VT (2017)",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "直接頭對頭比較 Amiodarone vs. Procainamide 急性治療 VT，直接關聯"
+        },
+        {
+          "pmid": "37380314",
+          "title": "VT and ICD Therapy Burden With Catheter Ablation vs Escalated Antiarrhythmic Drugs (2023)",
+          "study_type": "RCT Secondary Analysis",
+          "tier": "1",
+          "note": "VANISH 試驗延伸分析，提供 Amiodarone 長期 ICD 電擊負擔數據"
+        },
+        {
+          "pmid": "28978927",
+          "title": "Meta-analysis of amiodarone and nifekalant in shock-resistant VF/VT (2017)",
+          "study_type": "Meta-analysis",
+          "tier": "1",
+          "note": "系統性統合分析，強化 Amiodarone 在難治性 VF/VT 中的療效證據"
+        },
+        {
+          "pmid": "27149033",
+          "title": "VT Ablation versus Escalation of Antiarrhythmic Drugs (2016)",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "VANISH 主試驗結果，Amiodarone 為標準藥物對照"
+        },
+        {
+          "pmid": "20730062",
+          "title": "Amiodarone for the treatment and prevention of VF and VT (2010)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "全面性回顧，彙整 Amiodarone 在 VT/VF 所有臨床應用證據"
+        },
+        {
+          "pmid": "30084131",
+          "title": "Amiodarone for sustained stable VT in the prehospital setting (2018)",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "院前穩定型 VT 使用 Amiodarone 之觀察性研究"
+        },
+        {
+          "pmid": "33753276",
+          "title": "Amiodarone during VT ablation: A total eclipse of the heart? (2021)",
+          "study_type": "Review/Editorial",
+          "tier": "2",
+          "note": "探討 Amiodarone 在 VT 消融術中的角色，提供臨床決策參考"
+        },
+        {
+          "pmid": "28900864",
+          "title": "VT with ICD Shocks: When to Medicate and When to Ablate (2017)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "臨床決策指引性回顧，定位 Amiodarone 在 VT 管理流程"
+        }
+      ]
+    },
+    {
+      "disease_name": "incessant infant ventricular tachycardia",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "guardrails": [
+        "嬰幼兒族群藥物動力學差異大（分布容積、代謝）",
+        "需嚴格監測甲狀腺功能（碘負荷對新生兒影響嚴重）",
+        "肺毒性風險評估困難於嬰幼兒族群",
+        "建議優先確認是否有當地兒科罕見病醫療需求"
+      ],
+      "mechanistic_link": "Amiodarone 廣譜多重通道阻斷特性（Class I-IV 混合效應）使其成為一般抗心律不整藥無效時的救援療法。嬰幼兒頑固性 VT 常因結構性病因（心肌錯構瘤等）或離子通道異常所致，Amiodarone 的廣譜阻斷可提供橋接治療直至根本治療（手術消融等）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14508682",
+          "title": "Efficacy and safety of IV amiodarone for incessant tachycardias in infants (2003)",
+          "study_type": "Prospective Case Series",
+          "tier": "2",
+          "note": "最直接相關研究：前瞻性評估靜脈 Amiodarone 於嬰兒頑固性心搏過速，樣本量小但直接"
+        },
+        {
+          "pmid": "12086381",
+          "title": "Management of cardiomyopathy from incessant SVT in infants and children (2002)",
+          "study_type": "Retrospective",
+          "tier": "2",
+          "note": "回顧性研究，包含嬰兒期頑固性心搏過速治療策略，含 Amiodarone 使用資料"
+        },
+        {
+          "pmid": "3099560",
+          "title": "Newer antiarrhythmic drugs in children (1987)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "兒科 Amiodarone 使用早期回顧，歷史性參考價值"
+        },
+        {
+          "pmid": "14732753",
+          "title": "Amiodarone therapy for drug-refractory fetal tachycardia (2004)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "胎兒/新生兒難治性心搏過速個案系列，支持極早期使用的間接證據"
+        },
+        {
+          "pmid": "2387941",
+          "title": "New approaches to treatment of incessant VT in the very young (1990)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "早期個案系列，提供歷史背景但方法學限制多"
+        },
+        {
+          "pmid": "3624668",
+          "title": "Incessant VT in infants: myocardial hamartomas and surgical cure (1987)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "心肌錯構瘤相關嬰兒 VT 個案，Amiodarone 用於橋接手術的用法"
+        },
+        {
+          "pmid": "2114081",
+          "title": "Incessant idiopathic VT in infants (1990)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "特發性嬰兒 VT 個案系列"
+        },
+        {
+          "pmid": "9749214",
+          "title": "Neonatal ventricular tachycardia (1998)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "新生兒 VT 回顧，包含 Amiodarone 治療策略"
+        },
+        {
+          "pmid": "2184944",
+          "title": "Evolving concepts in congenital junctional ectopic tachycardia (1990)",
+          "study_type": "Multicenter Case Series",
+          "tier": "3",
+          "note": "多中心資料，雖主要討論 JET 但提供嬰兒期抗心律不整藥使用框架"
+        },
+        {
+          "pmid": "33254125",
+          "title": "Drug-induced ventricular dissynchrony and tachycardiomyopathy in a newborn (2020)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "注意：此案例為 Amiodarone 引起的不良反應報告，提示安全性顧慮"
+        }
+      ]
+    },
+    {
+      "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+      "txgnn_score": 0.9978,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "guardrails": [
+        "CPVT 第一線為 β 阻斷劑（Nadolol）+ Flecainide，Amiodarone 非指引建議用藥",
+        "有個案報告 Amiodarone 於 CPVT 效果不佳甚至誘發 ICD 風暴",
+        "若考慮使用需排除其他選項無效後的救援用途",
+        "需基因型分型（RYR2 vs CASQ2）以評估治療策略"
+      ],
+      "mechanistic_link": "CPVT 機轉為 RYR2 或 CASQ2 突變導致兒茶酚胺刺激下鈣離子過度釋放，引發延遲後去極化（DAD）觸發性心律不整。Amiodarone 雖具鈣通道阻斷效應，但對 RyR2 介導的 SR 鈣離子釋放無直接調控，且相比 Flecainide（已證明可直接阻斷 RyR2）機轉連結較弱。某些個案使用 Amiodarone 作為輔助或急性電風暴管理，但長期療效不確定。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35892906",
+          "title": "Clinical Characteristics, Genetic Findings and Arrhythmic Outcomes of CPVT Patients (2022)",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "CPVT 大型臨床特徵及治療結果研究，提供 Amiodarone 使用情境背景資料"
+        },
+        {
+          "pmid": "39076628",
+          "title": "Clinical Characteristics and Healthcare Resource Utilisation in CPVT Patients (2022)",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "CPVT 醫療資源利用分析，間接反映 Amiodarone 使用頻率"
+        },
+        {
+          "pmid": "26513538",
+          "title": "Advances in the pharmacologic treatment of ventricular arrhythmias (2015)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "系統性回顧，Amiodarone 在 CPVT 的角色被討論但非第一線推薦"
+        },
+        {
+          "pmid": "22553997",
+          "title": "Flecainide suppresses defibrillator-induced storming in CPVT (2012)",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "重要參考：顯示 Flecainide 而非 Amiodarone 為 CPVT ICD 風暴的關鍵救援藥物"
+        },
+        {
+          "pmid": "17125720",
+          "title": "Arrhythmic storm induced by AICD discharge in CPVT patient (2006)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "個案報告 ICD 電擊誘發 CPVT 電風暴，Amiodarone 作為急性期處置之一"
+        },
+        {
+          "pmid": "39735866",
+          "title": "Successful resolution of CPVT (Case Report 2024)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "2024 案例，顯示 CPVT 管理挑戰與多藥物策略"
+        },
+        {
+          "pmid": "37852665",
+          "title": "Survival in a young child with out-of-hospital cardiac arrest: CPVT diagnostic dilemma (2023)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒科 CPVT 個案，包含 Amiodarone 使用記錄"
+        },
+        {
+          "pmid": "29668588",
+          "title": "Delayed diagnosis of CPVT with RYR2 mutation (2018)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "RYR2 突變 CPVT 延遲診斷個案，治療過程中 Amiodarone 使用紀錄"
+        },
+        {
+          "pmid": "30116135",
+          "title": "A rare cause of sudden cardiac arrest: CPVT (2018)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "CPVT 致心跳驟停案例"
+        },
+        {
+          "pmid": "22218697",
+          "title": "A neonate with long QT syndrome, refractory ventricular arrhythmias, and lidocaine toxicity (2012)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "新生兒難治性心律不整，Amiodarone 作為救援藥物的間接相關案例"
+        }
+      ]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "文獻內容主要涉及 Amiodarone 副作用（肺毒性、瀰漫性肺泡出血）與 RA 的共病或交互作用，並非 Amiodarone 治療 RA 的證據。無任何療效機轉支持。",
+      "mechanistic_link": "Amiodarone 無已知抗類風濕機轉。文獻中 Amiodarone 與 RA 的關聯主要為：(1) 共同引起肺毒性（PMID 37649377：兩者協同誘發 DAH）；(2) RA 患者心律不整共病管理（PMID 32785936）；(3) 藥物性間質性肺病鑑別診斷。TxGNN 高分可能反映 RA 患者高心血管共病率導致的知識圖譜關聯，而非治療關係。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37649377",
+          "title": "Diffuse Alveolar Hemorrhage Synergistically Induced by Amiodarone and RA (2023)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 不利證據：Amiodarone 與 RA 協同加重肺毒性，提示聯用風險而非治療效益"
+        },
+        {
+          "pmid": "32785936",
+          "title": "Management of cardiac arrhythmias in patients with autoimmune disease (2020)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "探討 RA/自免疫病患者心律不整管理，Amiodarone 以抗心律不整藥角色出現，非治療 RA"
+        },
+        {
+          "pmid": "8174459",
+          "title": "Drug-induced pulmonary disease (1994)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Amiodarone 肺毒性鑑別，與 RA 肺病共存的診斷挑戰，非療效證據"
+        },
+        {
+          "pmid": "34386321",
+          "title": "Influence of gut microbiota on oral drug bioavailability (2021)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "藥物生物利用度一般性討論，與 RA 再利用無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.9919,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "所有文獻均為 Amiodarone 與痛風共病的藥物交互作用、副作用或甲狀腺干擾問題，無治療痛風的機轉或療效證據。",
+      "mechanistic_link": "Amiodarone 無已知降尿酸或抗痛風機轉。文獻關聯主要為：(1) 甲狀腺功能異常影響嘌呤代謝（PMID 26342297）；(2) 藥物交互作用如與 Colchicine/Atorvastatin 的 DDI 問題（PMID 21365557, 19734738）；(3) 藥物血清學異常鑑別（PMID 16138497）。高 TxGNN 分數可能源於 Amiodarone 使用族群（老年心臟病患）痛風共病率高，造成統計關聯偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40175395",
+          "title": "Simultaneous determination of lesinurad and co-administered drugs in gout (2025)",
+          "study_type": "Analytical Study",
+          "tier": "3",
+          "note": "藥物濃度測定方法學研究，Amiodarone 作為共用藥物，非治療痛風"
+        },
+        {
+          "pmid": "26342297",
+          "title": "TSH level increase in gout patients treated with xanthine oxidase inhibitors (2015)",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "痛風治療藥物影響甲狀腺（間接與 Amiodarone 相關），非療效證據"
+        },
+        {
+          "pmid": "21365557",
+          "title": "Rhabdomyolysis with atorvastatin combined with amiodarone and fluconazole (2011)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 安全性警示：三藥 DDI 引發橫紋肌溶解，與痛風治療無直接關聯"
+        },
+        {
+          "pmid": "16138497",
+          "title": "Three clinical problems: weird thyroid function tests, difficult gout, and dementia (2005)",
+          "study_type": "Case Discussion",
+          "tier": "3",
+          "note": "臨床案例討論，Amiodarone 導致甲狀腺異常使痛風管理複雜化，非治療關係"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete bundle branch block",
+      "txgnn_score": 0.9958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "疾病名稱標記為 'obsolete'（廢棄術語），臨床試驗數=0，文獻數=0。Amiodarone 對束支傳導阻滯無治療適應症，且可能延緩傳導而加重症狀。",
+      "mechanistic_link": "束支傳導阻滯為傳導系統解剖性或功能性受損，Amiodarone 的 INa 阻斷效應理論上可能延緩 His-Purkinje 傳導，對傳導阻滯為禁忌而非治療。高 TxGNN 分數可能反映知識圖譜中心臟電氣生理疾病的廣泛關聯偏差。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "遺傳性骨骼發育異常，臨床試驗數=0，文獻數=0，無任何機轉連結或臨床證據。TxGNN 高分屬誤報，需排除。",
+      "mechanistic_link": "短指-並指症候群為基因突變（HRAS 等）導致的先天性骨骼發育異常，與 Amiodarone 的離子通道藥理無任何已知連結。此高分預測為知識圖譜假陽性，不具藥物再利用價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "罕見遺傳性凝血缺陷，臨床試驗數=0，文獻數=0，Amiodarone 無已知抗凝或凝血因子相關機轉。",
+      "mechanistic_link": "肝素輔因子 II 缺乏症為 SERPIND1 基因突變導致的血栓傾向疾病。Amiodarone 具有可能增加出血風險（與 Warfarin 交互作用）的特性，但對凝血因子本身無直接治療效果，此預測為知識圖譜假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "trichotillomania",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "強迫症譜系障礙（拔毛症），臨床試驗數=0，文獻數=0，Amiodarone 無精神科機轉，且已知副作用包含神經毒性（震顫、步態異常），不適合精神科應用。",
+      "mechanistic_link": "拔毛症為 GABA/麩胺酸/血清素系統失調相關的衝動控制障礙，與 Amiodarone 之心臟電氣生理機轉無任何已知連結。此預測為知識圖譜嚴重假陽性，完全不具再利用潛力。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "hold_reason": "極罕見先天性發育異常症候群，臨床試驗數=0，文獻數=0，無任何已知連結。",
+      "mechanistic_link": "此症候群為先天性眼部缺損合併肢體短縮的罕見遺傳發育疾病，與 Amiodarone 抗心律不整機轉完全無關。此預測為知識圖譜假陽性，TxGNN 高分可能反映稀疏圖譜節點的過度關聯問題。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "actionable_indications": [
+      {
+        "disease_name": "ventricular tachycardia",
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "priority": "HIGH — 標準適應症，本地上市確認後可直接推進"
+      },
+      {
+        "disease_name": "incessant infant ventricular tachycardia",
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "priority": "MEDIUM — 兒科罕見難治性病例，需進一步安全性評估"
+      },
+      {
+        "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "priority": "LOW — 僅作為後線救援選項，需安全性初評"
+      }
+    ],
+    "hold_indications": [
+      "rheumatoid arthritis — 文獻反映副作用而非療效",
+      "gout — 僅藥物交互作用關聯",
+      "obsolete bundle branch block — 廢棄術語且可能有害",
+      "brachydactyly-syndactyly syndrome — 無機轉無證據",
+      "heparin cofactor 2 deficiency — 無機轉無證據",
+      "trichotillomania — 無機轉無證據",
+      "colobomatous microphthalmia-rhizomelic dysplasia syndrome — 無機轉無證據"
+    ],
+    "data_quality_alerts": [
+      "⚠️ original_moa = [Data Gap]：Amiodarone 為廣為人知之 Class III 抗心律不整藥，資料庫缺漏需修正",
+      "⚠️ ddi_count = 0：Amiodarone 為高 DDI 藥物（Warfarin, Digoxin, Statins 等），此欄位明顯有誤",
+      "⚠️ market_status = 未上市：需確認是否為本地市場特定狀況，與全球上市現狀不符",
+      "⚠️ 多個 L5 適應症 TxGNN 分數 > 0.99：顯示模型對罕見遺傳病可能存在系統性假陽性偏差"
+    ]
+  }
+}
+```
+
+---
+
+## 決策摘要表
+
+| 疾病 | TxGNN | 證據等級 | 決策階段 | 建議 |
+|------|-------|---------|---------|------|
+| 室性心搏過速 (VT) | 0.9964 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| 嬰兒頑固性 VT | 0.9965 | **L3** | **S2** | 🔬 Research Question |
+| CPVT | 0.9978 | **L4** | **S1** | 🔬 Research Question（後線） |
+| 類風濕關節炎 | 0.9940 | L5 | S0 | ❌ Hold |
+| 痛風 | 0.9919 | L5 | S0 | ❌ Hold |
+| 束支傳導阻滯 | 0.9958 | L5 | S0 | ❌ Hold |
+| 其他 4 項遺傳/精神疾病 | 0.99x | L5 | S0 | ❌ Hold（假陽性） |
+
+> **關鍵洞察**：TxGNN 分數對 Amiodarone 普遍偏高（>0.99），但反映真實療效的僅有 VT 相關適應症。7 項 L5 Hold 案例揭示模型對心臟電氣生理藥物可能存在**系統性假陽性偏差**，建議對此藥物加強人工校驗。

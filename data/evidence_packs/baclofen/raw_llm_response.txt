@@ -1,0 +1,350 @@
+## Baclofen (DB00181) 藥物再利用證據分析
+
+以下為完整評估結果：
+
+```json
+{
+  "drug": "Baclofen",
+  "drugbank_id": "DB00181",
+  "analysis_date": "2026-04-10",
+  "note": "Market status 標示為「未上市」，此分析基於所提供資料評估各適應症的再利用潛力。Baclofen 全球藥理機轉為 GABA-B receptor agonist（抑制突觸前鈣離子通道，減少神經傳導物質釋放），原適應症資料缺失。",
+  "indications": [
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GABA-B 促效作用理論上可調節前額葉皮質多巴胺/去甲腎上腺素訊號，間接影響注意力與抑制控制。然而，現有 10 篇文獻主要涉及妥瑞症（Tourette syndrome，常與 ADHD 共病）或動物模型衝動性研究，無一直接測試 baclofen 於 ADHD 患者族群，屬高度間接的橫向引用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26366961",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "自閉症情緒穩定劑回顧；與 ADHD+baclofen 無直接關聯"
+        },
+        {
+          "pmid": "11393328",
+          "study_type": "Clinical Review",
+          "tier": "3",
+          "note": "妥瑞症臨床特徵與管理，提及 ADHD 共病，無 baclofen 直接數據"
+        },
+        {
+          "pmid": "24295630",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "妥瑞症新興治療，提及 baclofen 作為抽動控制選項（間接）"
+        },
+        {
+          "pmid": "35345730",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "抽動症行為介入/抗精神病藥系統性回顧，未針對 ADHD+baclofen"
+        },
+        {
+          "pmid": "24062084",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "腹側海馬 α2A 受體與衝動決策（間接機轉，非 GABA-B）"
+        },
+        {
+          "pmid": "30122296",
+          "study_type": "Clinical Commentary",
+          "tier": "3",
+          "note": "成人 ADHD methylphenidate 仿單外使用，與 baclofen 無關"
+        },
+        {
+          "pmid": "21300040",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "SHR 大鼠（ADHD 動物模型）EEG 研究，神經傳導物質促效劑效果，間接機轉參考"
+        },
+        {
+          "pmid": "24496320",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "前扣帶皮質與基底外側杏仁核在成本效益決策中的貢獻，非 baclofen 研究"
+        },
+        {
+          "pmid": "24103016",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "韁核（habenula）完整性與社交玩耍行為，機轉甚遠"
+        },
+        {
+          "pmid": "10342599",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "妥瑞症治療新選項（1999），提及 baclofen，已過時"
+        }
+      ]
+    },
+    {
+      "disease_name": "nicotine dependence",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Baclofen 透過激活 GABA-B 受體，抑制中腦邊緣系統（VTA→nucleus accumbens）多巴胺神經元的突觸前電壓依賴鈣離子通道，顯著降低尼古丁誘發的多巴胺釋放，從而減弱獎賞效應、尼古丁渴望感及戒斷症狀。此機轉已在多個動物模型中穩健驗證（條件性位置偏好、自我給藥、消退後復發模型），並有 Phase 2 人體試驗支持。為本清單中機轉最明確、臨床證據最充分的適應症。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01821560",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 已完成（n=44），直接評估 baclofen 對吸菸者大腦活動（fMRI）與吸菸行為的影響，為最高等級直接臨床證據。樣本數雖小但設計嚴謹。"
+        },
+        {
+          "nct_id": "NCT00257894",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 已終止（n=41），研究 baclofen 對吸菸渴望與戒斷症狀的效果，方向直接相關，但提前終止降低結論可信度；招募人數尚可，終止原因需查明。"
+        },
+        {
+          "nct_id": "NCT01228994",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 已終止，僅招募 6 人（計畫 120 人），統計效力嚴重不足，幾乎無法提供有效臨床推論，屬事實上失敗的試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24553576",
+          "study_type": "Animal Study (Controlled)",
+          "tier": "3",
+          "note": "直接顯示 baclofen 系統性給藥減弱尼古丁獎賞特性及戒斷表現，機轉支持核心"
+        },
+        {
+          "pmid": "18682277",
+          "study_type": "Animal Study (Controlled)",
+          "tier": "3",
+          "note": "Baclofen 影響尼古丁條件性獎賞與辨別刺激效果，前臨床機轉強力支持"
+        },
+        {
+          "pmid": "19250803",
+          "study_type": "Animal Study (Controlled)",
+          "tier": "3",
+          "note": "Baclofen 防止消退後尼古丁尋求行為的再發，直接支持抗復發潛力"
+        },
+        {
+          "pmid": "25868070",
+          "study_type": "Conference Abstract",
+          "tier": "3",
+          "note": "Baclofen 同時治療酒精與尼古丁共病依賴之初探，人體臨床訊號"
+        },
+        {
+          "pmid": "34601742",
+          "study_type": "Clinical Guideline",
+          "tier": "2",
+          "note": "澳洲酒精問題治療指引，提及 baclofen 角色（間接，以酒精為主）"
+        },
+        {
+          "pmid": "37626562",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "酒精渴望藥物治療回顧，涵蓋 baclofen GABA-B 機轉，對尼古丁為間接參考"
+        },
+        {
+          "pmid": "38555115",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "藥物再利用於酒精使用障礙，提及 baclofen，間接背景支持"
+        },
+        {
+          "pmid": "17338593",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "雙重物質依賴藥物治療策略，提及 baclofen 潛力"
+        },
+        {
+          "pmid": "38555116",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "酒精依賴替代療法機轉，詳述 baclofen GABA-B 路徑"
+        },
+        {
+          "pmid": "30973369",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "酒精藥物治療選擇近期研究，間接支持 baclofen 在物質依賴的廣泛角色"
+        }
+      ]
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "為 ADHD 不專注型亞型。理論上 GABA-B 促效作用可調節前額葉注意力迴路，但目前完全無任何臨床試驗、觀察性研究或動物模型直接針對此亞型測試 baclofen，屬純模型預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myofascial pain syndrome",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Baclofen 的 GABA-B 促效作用可抑制脊髓 α 運動神經元活性，降低過度肌肉痙攣張力，理論上可緩解肌筋膜觸發點（trigger point）的持續活化所致疼痛。已有俄文臨床系列報告（baclosan = baclofen 俄文商品名）直接支持此用途。注意：配對試驗之一（NCT07442786）與此適應症無關，為資料錯配。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05617118",
+          "relevance_grade": "A",
+          "reasoning": "直接比較口服 baclofen vs 肉毒桿菌毒素 A 注射用於肌筋膜疼痛症候群（n=52，Phase N/A）。然而狀態標示為 UNKNOWN，需核實試驗是否實際執行及數據是否已產出，為本適應症最具潛力的直接臨床試驗。"
+        },
+        {
+          "nct_id": "NCT07442786",
+          "relevance_grade": "C",
+          "reasoning": "tDCS 用於非戒斷性酒精使用障礙患者的飲酒量（n=312，尚未招募），與肌筋膜疼痛症候群完全無關，判定為資料配對錯誤，應排除於此適應症分析。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "18577932",
+          "study_type": "Clinical Series / Before-After",
+          "tier": "2",
+          "note": "直接報告 baclosan（baclofen）用於肌肉張力性及肌筋膜疼痛症候群複合治療，為本適應症最相關文獻，但研究設計為觀察性"
+        },
+        {
+          "pmid": "3523670",
+          "study_type": "Case Review",
+          "tier": "3",
+          "note": "1986 年顏面疼痛回顧，提及肌肉鬆弛劑；時代久遠，無法反映現代治療標準"
+        },
+        {
+          "pmid": "32342054",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "低能量雷射 vs TENS 於肌筋膜疼痛，無 baclofen；提供比較治療基準，間接參考"
+        },
+        {
+          "pmid": "35904101",
+          "study_type": "Open-label Observational",
+          "tier": "2",
+          "note": "磁療用於非特異性背痛多中心開放研究，無 baclofen；疼痛結局測量方式可作參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "faciodigitogenital syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Faciodigitogenital syndrome（Aarskog-Scott 症候群）為 FGD1 基因（編碼 Rho GTPase 鳥嘌呤核苷酸交換因子）突變導致的罕見 X-染色體連鎖發育異常，表現為面部、指/趾及生殖器官形態異常。GABA-B 促效劑與此基因驅動的發育路徑無任何已知機轉交集，判定為 TxGNN 圖神經網絡的高可能假陽性預測（鄰近節點傳播效應）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "trigeminal nerve neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "關鍵辨析：現有兩篇文獻均描述「三叉神經痛（trigeminal neuralgia）」而非「三叉神經腫瘤（trigeminal nerve neoplasm）」。Baclofen 對三叉神經痛有一定文獻支持（GABA-B 受體活化可抑制三叉神經脊束核的異常高頻放電），但三叉神經腫瘤本身無已知 GABA-B 相關治療機轉。適應症分類可能存在 ICD 編碼混用問題。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17997704",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "三叉神經痛多種治療回顧，提及 baclofen 為藥物選項之一；適應症為神經痛非腫瘤"
+        },
+        {
+          "pmid": "28666502",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "橋前腦表皮樣瘤壓迫導致雙側三叉神經痛案例，以手術處理；腫瘤情境下無 baclofen 介入"
+        }
+      ]
+    },
+    {
+      "disease_name": "methemoglobinemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高鐵血紅蛋白血症的病理機轉為血紅蛋白 Fe²⁺ 被氧化為 Fe³⁺，失去攜氧能力，標準治療為亞甲藍（methylene blue，還原劑）。GABA-B 促效劑對血紅蛋白氧化還原狀態無任何已知影響，機轉完全不符。現有文獻（dapsone 誘發高鐵血紅蛋白血症案例）與 baclofen 無任何關聯，判定為 TxGNN 預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10327817",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Dapsone 意外過量導致持續性高鐵血紅蛋白血症案例學習，與 baclofen 完全無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "chondromyxoid fibroma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "軟骨黏液樣纖維瘤（CMF）為罕見良性骨腫瘤，病理特徵為富含黏液樣基質的軟骨樣組織增生，主要治療為病灶刮除加植骨術。無任何已知 GABA-B 受體表達於 CMF 腫瘤組織，亦無任何藥物治療文獻，判定為 TxGNN 預測假陽性（極可能為知識圖譜中肌肉骨骼疾病節點的非特異性近鄰效應）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "methemoglobinemia, alpha type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Alpha 型高鐵血紅蛋白血症為 HBA1/HBA2 基因突變導致的先天性血色素病變（Hb M disease），血紅蛋白α鏈結構異常使 Fe³⁺ 持續穩定，無法被亞甲藍還原。此遺傳性病變與 GABA-B 訊號路徑無任何交集，亦無任何支持證據，判定為 TxGNN 預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "specific developmental disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「特定發展障礙」為廣義分類，涵蓋語言、學習、運動協調等障礙。現有文獻指向兩個不同方向：(1) CMT1A（Charcot-Marie-Tooth type 1A）—PMP22 過表達的髓鞘病變，baclofen 無直接已知機轉；(2) 腦性麻痺痙攣型—baclofen 鞘內注射（ITB）已有核准，但口服 baclofen 用於一般「特定發展障礙」的直接證據不足。注意：NCT04618978 為脊髓損傷週期性腿部運動研究，與此適應症分類不符。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04618978",
+          "relevance_grade": "C",
+          "reasoning": "脊髓損傷患者週期性腿部運動之多導睡眠圖 vs 體動紀錄儀診斷比較研究（n=160），研究設計與特定發展障礙無關，屬誤配對。"
+        },
+        {
+          "nct_id": "NCT03682978",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 RCT 已完成（n=124），雙盲安慰劑對照設計，根據配對文獻推測目標適應症可能為 CMT1A 或類似神經發育疾病，但需確認主要終點與 baclofen 的具體關係。試驗完整性評分高，適應症對應需進一步核實。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36511878",
+          "study_type": "Basic Research (iPSC Model)",
+          "tier": "3",
+          "note": "CMT1A iPSC 類器官 PMP22 下調實驗，研究基因治療策略；與 baclofen 無直接關聯，提供疾病機轉背景"
+        },
+        {
+          "pmid": "31777043",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "腦性麻痺痙攣型兒童肌張力降低與物理治療，提及 baclofen 為肌張力管理夥伴，部分相關但非發展障礙核心治療"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|-------------|----------|----------|------|----------|
+| **nicotine dependence** | 0.992 | **L3** | **S2** | ✅ Proceed with Guardrails | 1 個完成的 Phase 2 + 3 個前臨床動物研究 + 機轉明確 |
+| **myofascial pain syndrome** | 0.989 | **L3** | **S1** | 🔍 Research Question | 1 個直接臨床試驗（狀態待確認）+ 1 篇臨床系列 |
+| **ADHD** | 0.993 | L4 | S0 | ⛔ Hold | 10 篇文獻全為妥瑞症/動物模型，無直接 ADHD 數據 |
+| **trigeminal nerve neoplasm** | 0.987 | L4 | S0 | ⛔ Hold | 文獻實為「三叉神經痛」非腫瘤；適應症分類疑誤 |
+| **specific developmental disorder** | 0.980 | L4 | S0 | ⛔ Hold | 試驗配對疑誤；文獻指向 CMT1A/CP 等不同亞型 |
+| **ADHD, inattentive type** | 0.989 | L5 | S0 | ⛔ Hold | 零臨床證據，純模型預測 |
+| **faciodigitogenital syndrome** | 0.988 | L5 | S0 | ⛔ Hold | 基因發育異常，無 GABA-B 機轉關聯 |
+| **methemoglobinemia** | 0.983 | L5 | S0 | ⛔ Hold | 血紅蛋白病變，機轉完全不符 |
+| **chondromyxoid fibroma** | 0.981 | L5 | S0 | ⛔ Hold | 良性骨腫瘤，無治療機轉關聯 |
+| **methemoglobinemia, alpha type** | 0.980 | L5 | S0 | ⛔ Hold | 遺傳性血色素病變，無任何支持證據 |
+
+---
+
+## ⚠️ 資料品質警示
+
+1. **NCT07442786 錯配**：此試驗（tDCS 用於酒精使用障礙）被配對至 `myofascial pain syndrome`，顯示證據收集管線存在噪音，建議審查 collector 邏輯
+2. **NCT04618978 錯配**：脊髓損傷腿部運動研究被配對至 `specific developmental disorder`，同上問題
+3. **適應症 ICD 混用**：`trigeminal nerve neoplasm` 的文獻實際討論三叉神經痛，可能為 UMLS/MeSH 術語映射問題
+4. **高分低證據陷阱**：TxGNN score 0.98+ 的 `faciodigitogenital syndrome`、`methemoglobinemia`、`chondromyxoid fibroma` 均為 L5，說明 GNN 預測分數與生物學合理性不完全相關，需機轉篩查層
+
+> ⚕️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經正式臨床試驗驗證後方可應用於臨床。

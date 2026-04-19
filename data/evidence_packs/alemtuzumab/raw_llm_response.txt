@@ -1,0 +1,341 @@
+## Alemtuzumab (DB00087) 藥物再利用證據分析
+
+**分析摘要**：Alemtuzumab 為 anti-CD52 人源化單株抗體，可快速清除 T/B 淋巴球、單核球及 NK 細胞（ADCC/CDC 機轉）。本資料集顯示強烈預測信號，但臨床證據分佈極不均衡——僅免疫缺乏症（HSCT 調處）具有 L2 等級多項 Phase 2/3 試驗支持；HLH 具 L3/L4 個案證據；其餘肝臟及尿路上皮惡性腫瘤適應症均無臨床資料，屬純 KG 拓撲預測（L5）。
+
+> ⚠️ 注意：`hepatic veno-occlusive disease` 的現有資料顯示 Alemtuzumab 可能為 VOD 的**致因**（調處相關不良事件），而非治療目標，應謹慎解讀。
+
+---
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "hepatic infarction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉支持。Alemtuzumab 靶向 CD52 進行淋巴球清除，對肝臟梗塞（缺血性壞死）無任何生物學關聯。高 TxGNN 分數（0.944）可能源自 KG 圖譜中肝臟相關節點的拓撲鄰近性，非真實機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "syndrome with combined immunodeficiency",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Alemtuzumab（anti-CD52）作為造血幹細胞移植（HSCT）減強度調處方案（RIC）的核心藥物，可有效清除宿主缺陷 T/B 淋巴球，降低移植排斥（host-versus-graft）與移植物抗宿主病（GvHD）風險，為供體細胞植入創造空間。在嚴重複合性免疫缺乏症（SCID）、XIAP 缺乏症、Hyper-IgM 症候群等原發性免疫缺乏症中，此機轉直接針對疾病根本（淋巴球功能缺陷），生物學合理性高。多中心 Phase 2/3 試驗（NCT01019876）已完成，證據基礎充足，但多數試驗規模小或已終止，需注意感染風暴（尤其 EBV/CMV 再活化）等安全性疑慮。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01019876",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3 風險適應性 allo-SCT 研究，已完成（n=38），涵蓋選擇性原發性免疫缺乏症患者，是本組中最高等級的完成試驗，直接提供 Alemtuzumab-based conditioning 的 efficacy 與安全性資料。"
+        },
+        {
+          "nct_id": "NCT00579137",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2，直接測試 Alemtuzumab + anti-CD45 mAb 作為 allo-SCT 調處方案，目標適應症即免疫缺乏症。雖已終止（n=3）且規模小，但提供 Alemtuzumab 在此適應症的直接劑量安全性資料。"
+        },
+        {
+          "nct_id": "NCT01962415",
+          "relevance_grade": "A",
+          "reasoning": "目前正在進行的 Phase 2 RIC 研究（招募中，目標 n=100），涵蓋兒童及年輕成人（≤55 歲）原發性免疫缺乏症，規模最大且進行中，將提供當前最強 efficacy 證據。"
+        },
+        {
+          "nct_id": "NCT01182675",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 SCID 兒童 HSCT 研究（n=7），已終止。Alemtuzumab 為調處方案成分之一，提供安全性資料，但早期終止限制結論強度。"
+        },
+        {
+          "nct_id": "NCT01652092",
+          "relevance_grade": "B",
+          "reasoning": "涵蓋原發性免疫缺乏症的 allo-HSCT 觀察性研究（n=57），Alemtuzumab 為可選調處方案之一，提供真實世界安全性資料。"
+        },
+        {
+          "nct_id": "NCT02512679",
+          "relevance_grade": "B",
+          "reasoning": "相關供體 HSCT Phase 2（n=20），已終止，適應症符合聯合免疫缺乏症範疇，提供安全性資料。"
+        },
+        {
+          "nct_id": "NCT07284641",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 HSCT 用於 CVID 及其他原發性免疫缺乏症（n=25，招募中），擴展 Alemtuzumab-based HSCT 至不同聯合免疫缺乏亞型，適應症相關性高。"
+        },
+        {
+          "nct_id": "NCT05463133",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 HSCT 用於慢性肉芽腫病（CGD，n=50，招募中），CGD 屬原發性免疫缺乏症範疇，Alemtuzumab 在調處方案中，機轉類似但疾病特異性稍窄。"
+        },
+        {
+          "nct_id": "NCT00152100",
+          "relevance_grade": "C",
+          "reasoning": "高度純化 CD133+ 幹細胞 HSCT Phase 1（n=4），主要研究細胞選擇策略而非 Alemtuzumab 本身，相關性有限。"
+        },
+        {
+          "nct_id": "NCT05600907",
+          "relevance_grade": "C",
+          "reasoning": "主要研究藥物為 JSP191（anti-CD117 conditioning），非 Alemtuzumab，相關性低，僅作為平行免疫調處策略的背景參考。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27543157",
+          "study_type": "Single-Center Cohort",
+          "tier": "1"
+        },
+        {
+          "pmid": "29155317",
+          "study_type": "Multicenter Cohort",
+          "tier": "1"
+        },
+        {
+          "pmid": "21325599",
+          "study_type": "Multicenter Cohort",
+          "tier": "1"
+        },
+        {
+          "pmid": "23131490",
+          "study_type": "International Retrospective Survey",
+          "tier": "1"
+        },
+        {
+          "pmid": "26073206",
+          "study_type": "Case Series",
+          "tier": "1"
+        },
+        {
+          "pmid": "19471859",
+          "study_type": "Case Report",
+          "tier": "2"
+        },
+        {
+          "pmid": "35065305",
+          "study_type": "Case Report / Diagnostic Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "15590388",
+          "study_type": "Case Report / Adverse Event Analysis",
+          "tier": "2"
+        },
+        {
+          "pmid": "18502831",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "25208591",
+          "study_type": "Case Report",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "hepatic veno-occlusive disease",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 關係方向警示：現有資料顯示 Alemtuzumab-containing HSCT 調處方案可能導致 VOD（肝靜脈閉塞性疾病/竇狀隙阻塞症候群）而非治療 VOD。PMID 22280517 明確描述「Alemtuzumab 調處後晚發型 VOD」，PMID 17502897 記錄需預防性使用 defibrotide 防範 VOD。此預測可能反映 KG 中藥物-肝臟不良事件節點的拓撲連結，而非治療效益。建議視為安全性訊號，而非再利用機會。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01596699",
+          "relevance_grade": "C",
+          "reasoning": "Clofarabine 加入 Bu/Flu/Alemtuzumab 調處方案 Phase 2（n=16，已終止），VOD 為安全性監測終點而非治療目標，無法支持 Alemtuzumab 治療 VOD 的論點。"
+        },
+        {
+          "nct_id": "NCT02165007",
+          "relevance_grade": "C",
+          "reasoning": "Haploidentical HSCT 用於鐮刀型貧血/海洋性貧血 Phase 1（n=7），Alemtuzumab 為調處成分，VOD 僅為安全性監測項目。"
+        },
+        {
+          "nct_id": "NCT02061800",
+          "relevance_grade": "C",
+          "reasoning": "CD34+ 幹細胞選擇 Phase 1/2（n=14），Alemtuzumab 非主要研究藥物，與 VOD 治療無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22280517",
+          "study_type": "Case Series / Clinicopathologic Analysis",
+          "tier": "2"
+        },
+        {
+          "pmid": "20919852",
+          "study_type": "Phase 1 Dose-escalation Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "17502897",
+          "study_type": "Prospective Cohort",
+          "tier": "2"
+        },
+        {
+          "pmid": "24923536",
+          "study_type": "Retrospective Cohort",
+          "tier": "2"
+        },
+        {
+          "pmid": "24119002",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "23131490",
+          "study_type": "International Retrospective Survey",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉推測：CD52 在尿路上皮腫瘤浸潤免疫細胞（TIL）上有表達，Alemtuzumab 免疫清除可能暫時重塑腫瘤微環境。然而腎盂肉瘤樣移行細胞癌（sarcomatoid TCC）為極罕見高度侵襲性亞型，腫瘤本身的 CD52 表達資料缺失，且無任何臨床試驗或文獻支持。屬純 KG 拓撲預測，無實驗或臨床基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "膀胱尿路上皮癌肉瘤樣變異型（sarcomatoid variant）具有雙向分化特徵，免疫治療反應複雜且不可預測。Alemtuzumab 對此罕見亞型無直接機轉支持，CD52 靶向在此腫瘤微環境的作用未知。與腎盂肉瘤樣癌預測同源，可能反映 KG 中尿路上皮腫瘤分類節點的系統性拓撲關聯，而非個別疾病特異性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "prostatic urethra urothelial carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前列腺尿道尿路上皮癌罕見，通常繼發於膀胱癌，治療策略多依賴膀胱原發病灶的管理。Alemtuzumab 無針對此適應症的任何已發表基礎研究、動物實驗或臨床資料。高 TxGNN 分數可能源自 KG 中尿路上皮癌相關節點群的系統性高分現象。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal pelvis papillary urothelial carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腎盂乳頭狀尿路上皮癌（UTUC）雖在上尿路尿路上皮癌中相對常見，但 Alemtuzumab 的 CD52 靶向對此腫瘤無已知生物學機轉。值得注意：同組四種尿路上皮相關腫瘤的 TxGNN 分數高度相似（0.929-0.931），提示 KG 預測可能為系統性過度泛化，而非真實個別適應症預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "peliosis hepatis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "紫斑性肝病（peliosis hepatis）為肝竇狀隙充血擴張的罕見血管性病變，病理機轉涉及內皮細胞損傷，部分病例與免疫抑制（如器官移植後）相關。雖然免疫調節成分存在，但 Alemtuzumab 的深度淋巴球清除可能加重感染易感性而惡化病情，機轉方向不明確。無任何臨床或前臨床資料支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "惡性腫瘤相關 HLH（M-HLH）的核心病理為 CD8+ 細胞毒性 T 細胞及 NK 細胞過度活化所形成的細胞激素風暴（高 IFN-γ、IL-6、IL-18）。Alemtuzumab 靶向 CD52（在 T 細胞和 NK 細胞高度表達）可快速清除致病效應淋巴球，從而打斷炎症回饋迴路。M-HLH 標準療法（HLH-2004 方案）效果有限，預後極差（死亡率 >50%），Alemtuzumab 作為 salvage 策略具生物學合理性，但僅有1篇2022年共識指南提及（PMID 34605776），尚無直接 RCT 或 Phase 2 試驗。建議優先完成安全性評估並設計探索性試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34605776",
+          "study_type": "Consensus Guidelines",
+          "tier": "2"
+        }
+      ]
+    },
+    {
+      "disease_name": "hemophagocytic syndrome associated with an infection",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "感染相關 HLH（reactive HLH / infection-associated HLH）中，病毒誘發（尤其 EBV/CMV）的 CD8+ T 細胞及 NK 細胞失控活化是核心機轉。Alemtuzumab 的 CD52 靶向可快速清除這些過度活化的效應淋巴球，理論上直接干預發病機轉。關鍵直接證據：PMID 22426581（2012）報告成功以 Alemtuzumab 治療 SLE 合併 HLH，提供重要概念驗證（proof-of-concept）。PMID 34173902 進一步描述 T/EBV 相關 HLH 在非亞裔族群的特徵，支持 CD52 清除策略的生物學基礎。然而現有臨床試驗（NCT02255656、NCT00368355）均非針對 HLH 設計，證據仍限於個案層級。相較於惡性腫瘤相關 HLH，感染相關 HLH 在快速控制炎症後預後相對較佳，探索性試驗設計可行性較高。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02255656",
+          "relevance_grade": "C",
+          "reasoning": "MS 患者 Alemtuzumab 長期追蹤研究（Phase 4，n=1062，已完成），主要目的非 HLH。唯大型隊列可提供 Alemtuzumab 深度淋巴球清除後的長期免疫重建資料，有助理解 HLH 治療後的免疫恢復軌跡，作為安全性背景資料有間接參考價值。"
+        },
+        {
+          "nct_id": "NCT00368355",
+          "relevance_grade": "C",
+          "reasoning": "CD34 選擇用於 HSCT Phase 2（n=46），主要研究移植細胞純化策略，與感染相關 HLH 治療無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22426581",
+          "study_type": "Case Report",
+          "tier": "1"
+        },
+        {
+          "pmid": "34605776",
+          "study_type": "Consensus Guidelines",
+          "tier": "1"
+        },
+        {
+          "pmid": "34173902",
+          "study_type": "Case Series / Retrospective Analysis",
+          "tier": "1"
+        },
+        {
+          "pmid": "28621800",
+          "study_type": "Consensus Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "31943120",
+          "study_type": "Narrative Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "20702104",
+          "study_type": "Review / Classification",
+          "tier": "2"
+        },
+        {
+          "pmid": "22359105",
+          "study_type": "Case Report",
+          "tier": "2"
+        },
+        {
+          "pmid": "18382856",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "29795419",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "25420811",
+          "study_type": "Retrospective Cohort",
+          "tier": "3"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 分析總覽
+
+| 疾病名稱 | 證據等級 | 決策階段 | 建議 |
+|---------|---------|---------|------|
+| Syndrome with combined immunodeficiency | **L2** | S2 | ✅ Proceed with Guardrails |
+| Hemophagocytic syndrome (infection) | **L3** | S1 | 🔬 Research Question |
+| Acquired HLH (malignancy) | **L4** | S1 | 🔬 Research Question |
+| Hepatic veno-occlusive disease | **L4** ⚠️ | S0 | ❌ Hold（可能為致因，非治療）|
+| Hepatic infarction | **L5** | S0 | ❌ Hold |
+| 4種尿路上皮腫瘤亞型 | **L5** | S0 | ❌ Hold（KG 系統性過度預測）|
+| Peliosis hepatis | **L5** | S0 | ❌ Hold |
+
+**關鍵發現**：
+1. **最強信號**：HSCT 調處用於聯合免疫缺乏症（L2），具多項 Phase 2+ 試驗支持，且有 Phase 2/3 完成試驗，建議在嚴謹臨床監控下推進。
+2. **值得探索**：HLH（感染相關）具有直接概念驗證案例（PMID 22426581）及強烈機轉合理性，可設計小型探索性試驗。
+3. **注意逆向關聯**：肝靜脈閉塞性疾病應視為 Alemtuzumab 的潛在不良事件訊號，而非再利用機會。
+4. **尿路上皮腫瘤群**：四種亞型分數高度聚集（0.928-0.931），提示 KG 拓撲泛化，臨床優先性低。

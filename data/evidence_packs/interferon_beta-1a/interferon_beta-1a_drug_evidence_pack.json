@@ -1,0 +1,1084 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00060-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Interferon beta-1a",
+    "drugbank_id": "DB00060",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn": {
+        "score": 0.9747265577316284,
+        "rank": 19440
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Jeune 綜合徵（非典型軟骨發育異常）合併內臟位置轉位屬罕見先天性骨骼結構畸形，無已知免疫或干擾素軸相關致病機轉。IFN beta-1a 之免疫調節及抗病毒機轉與本症病理生理無明確橋接依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+      "txgnn": {
+        "score": 0.9730677604675292,
+        "rank": 20101
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pierre Robin 序列（小下頜、舌後墜、腭裂）合併染色體異常為發育性結構缺陷，病因屬基因組層級，IFN beta-1a 之免疫調節作用無法改變先天結構表現型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "partial deletion of the long arm of chromosome 22",
+      "txgnn": {
+        "score": 0.9724865555763244,
+        "rank": 20327
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "22q 長臂部分缺失（含 22q11.2 DiGeorge 相關區段）可影響胸腺發育與 T 細胞免疫，理論上存在免疫失調背景，但尚無任何臨床或臨床前研究顯示 IFN beta-1a 可針對此染色體缺失之表現型產生治療效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "disorder of fucoglycosan synthesis",
+      "txgnn": {
+        "score": 0.9720926880836488,
+        "rank": 20467
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32912105",
+            "title": "Creatine and multiple sclerosis.",
+            "authors": [
+              "Ostojic Sergej M"
+            ],
+            "journal": "Nutritional neuroscience",
+            "year": "2022",
+            "abstract": "Multiple sclerosis (MS) is a complex and debilitating neurodegenerative disease, with unknown cause(s), unpredictable prognosis, and rather limited treatment options. MS is often accompanied by various metabolic disturbances, with impaired creatine metabolism may play a role in its pathogenesis and the clinical course of the disease. This review summarizes human trials describing alterations in creatine levels in the nervous system and other tissues during MS, affects how certain medications for",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36340300",
+            "title": "Pathogenesis of Alcohol-Associated Liver Disease.",
+            "authors": [
+              "Osna Natalia A",
+              "Rasineni Karuna",
+              "Ganesan Murali",
+              "Donohue Terrence M",
+              "Kharbanda Kusum K"
+            ],
+            "journal": "Journal of clinical and experimental hepatology",
+            "year": "2022",
+            "abstract": "Excessive alcohol consumption is a global healthcare problem with enormous social, economic, and clinical consequences. While chronic, heavy alcohol consumption causes structural damage and/or disrupts normal organ function in virtually every tissue of the body, the liver sustains the greatest damage. This is primarily because the liver is the first to see alcohol absorbed from the gastrointestinal tract via the portal circulation and second, because the liver is the principal site of ethanol me",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38174776",
+            "title": "Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis.",
+            "authors": [
+              "Gonzalez-Lorenzo Marien",
+              "Ridley Ben",
+              "Minozzi Silvia",
+              "Del Giovane Cinzia",
+              "Peryer Guy"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2024",
+            "abstract": "Different therapeutic strategies are available for the treatment of people with relapsing-remitting multiple sclerosis (RRMS), including immunomodulators, immunosuppressants and biological agents. Although each one of these therapies reduces relapse frequency and slows disability accumulation compared to no treatment, their relative benefit remains unclear. This is an update of a Cochrane review published in 2015.",
+            "classification": {
+              "study_type": "Network Meta-Analysis (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39254048",
+            "title": "Immunomodulators and immunosuppressants for progressive multiple sclerosis: a network meta-analysis.",
+            "authors": [
+              "Ridley Ben",
+              "Minozzi Silvia",
+              "Gonzalez-Lorenzo Marien",
+              "Del Giovane Cinzia",
+              "Piggott Thomas"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2024",
+            "abstract": "In recent years a broader range of immunomodulatory and immunosuppressive treatment options have emerged for people with progressive forms of multiple sclerosis (PMS). While consensus supports these options as reducing relapses, their relative benefit and safety profiles remain unclear due to a lack of direct comparison trials.",
+            "classification": {
+              "study_type": "Network Meta-Analysis (RCT)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36037202",
+            "title": "Intestinal phages interact with bacteria and are involved in human diseases.",
+            "authors": [
+              "Shuwen Han",
+              "Kefeng Ding"
+            ],
+            "journal": "Gut microbes",
+            "year": "2022",
+            "abstract": "EMBL-EBI The European Bioinformatics Institute; E. coli Escherichia coli; E. faecalis Enterobacter faecalis; B. fragilis Bacteroides fragilis; B. vulgatus Bacteroides vulgatus; SaPIs Staphylococcus aureus pathogenicity islands; ARGs Antibiotic resistance genes; STEC Shiga toxigenic E. coli; Stx Shiga toxin; BLAST Basic Local Alignment Search Tool; TSST-1 Toxic shock toxin 1; RBPs Receptor-binding proteins; LPS lipopolysaccharide; OMVs Outer membrane vesicles; PT Phosphorothioate; BREX Bacterioph",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36745138",
+            "title": "Genetic and Epigenetic Regulation of the Innate Immune Response to Gout.",
+            "authors": [
+              "de Lima Jordana Dinorá",
+              "de Paula André Guilherme Portela",
+              "Yuasa Bruna Sadae",
+              "de Souza Smanioto Caio Cesar",
+              "da Cruz Silva Maria Clara"
+            ],
+            "journal": "Immunological investigations",
+            "year": "2023",
+            "abstract": "Gout is a disease caused by uric acid (UA) accumulation in the joints, causing inflammation. Two UA forms - monosodium urate (MSU) and soluble uric acid (sUA) have been shown to interact physically with inflammasomes, especially with the nod-like receptor (NLR) family pyrin domain containing 3 (NLRP3), albeit the role of the immune response to UA is poorly understood, given that asymptomatic hyperuricemia does also exist. Macrophage phagocytosis of UA activate NLRP3, lead to cytokines release, a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38811970",
+            "title": "Nebulised interferon beta-1a (SNG001) in the treatment of viral exacerbations of COPD.",
+            "authors": [
+              "Monk Phillip D",
+              "Brookes Jody L",
+              "Tear Victoria J",
+              "Batten Toby N",
+              "Newall Clare"
+            ],
+            "journal": "Respiratory research",
+            "year": "2024",
+            "abstract": "Respiratory viral infections are major drivers of chronic obstructive pulmonary disease (COPD) exacerbations. Interferon-β is naturally produced in response to viral infection, limiting replication. This exploratory study aimed to demonstrate proof-of-mechanism, and evaluate the efficacy and safety of inhaled recombinant interferon-β1a (SNG001) in COPD. Part 1 assessed the effects of SNG001 on induced sputum antiviral interferon-stimulated gene expression, sputum differential cell count, and res",
+            "classification": {
+              "study_type": "RCT（吸入型 IFN beta-1a）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32544867",
+            "title": "Subcutaneous administration of interferon beta-1a for COVID-19: A non-controlled prospective trial.",
+            "authors": [
+              "Dastan Farzaneh",
+              "Nadji Seyed Alireza",
+              "Saffaei Ali",
+              "Marjani Majid",
+              "Moniri Afshin"
+            ],
+            "journal": "International immunopharmacology",
+            "year": "2020",
+            "abstract": "Recently, a new coronavirus spreads rapidly throughout the countries and resulted in a worldwide epidemic. Interferons have direct antiviral and immunomodulatory effects. Antiviral effects may include inhibition of viral replication, protein synthesis, virus maturation, or virus release from infected cells. Previous studies have shown that some coronaviruses are susceptible to interferons. The aim of this study was to evaluate the therapeutic effects of IFN-β-1a administration in COVID-19.",
+            "classification": {
+              "study_type": "非對照前瞻性試驗",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24965353",
+            "title": "Efficacy and safety of subcutaneous interferon-β-1a in patients with a first demyelinating event and early multiple sclerosis.",
+            "authors": [
+              "Freedman Mark S"
+            ],
+            "journal": "Expert opinion on biological therapy",
+            "year": "2014",
+            "abstract": "Multiple sclerosis (MS) is an inflammatory demyelinating disease of the CNS. Evidence suggests that MS should be treated as early as possible in order to maximize the benefit of treatment.",
+            "classification": {
+              "study_type": "RCT（Phase 3）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31331574",
+            "title": "Combination therapy with interferon beta-1a and sesame oil in multiple sclerosis.",
+            "authors": [
+              "Faraji Fardin",
+              "Hashemi Mahya",
+              "Ghiasabadi Atefeh",
+              "Davoudian Sadaf",
+              "Talaie Afsoon"
+            ],
+            "journal": "Complementary therapies in medicine",
+            "year": "2019",
+            "abstract": "Multiple sclerosis (MS) is an autoimmune disease of the central nervous system. Several effector mechanisms are involved in the immunopathology of MS and a variety of medications such as beta interferons are applied to treat the disease. This study was conducted to evaluate the anti-inflammatory and immunomodulatory effects of sesame oil in combination with interferon beta-1a in MS treatment.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35064248",
+            "title": "A guide to immunotherapy for COVID-19.",
+            "authors": [
+              "van de Veerdonk Frank L",
+              "Giamarellos-Bourboulis Evangelos",
+              "Pickkers Peter",
+              "Derde Lennie",
+              "Leavis Helen"
+            ],
+            "journal": "Nature medicine",
+            "year": "2022",
+            "abstract": "Immune dysregulation is an important component of the pathophysiology of COVID-19. A large body of literature has reported the effect of immune-based therapies in patients with COVID-19, with some remarkable successes such as the use of steroids or anti-cytokine therapies. However, challenges in clinical decision-making arise from the complexity of the disease phenotypes and patient heterogeneity, as well as the variable quality of evidence from immunotherapy studies. This Review aims to support",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25187030",
+            "title": "Pharmacokinetics, pharmacodynamics, and safety of peginterferon beta-1a in subjects with normal or impaired renal function.",
+            "authors": [
+              "Hu Xiao",
+              "Seddighzadeh Ali",
+              "Stecher Scott",
+              "Zhu Ying",
+              "Goyal Jaya"
+            ],
+            "journal": "Journal of clinical pharmacology",
+            "year": "2015",
+            "abstract": "Peginterferon beta-1a was efficacious in a Phase 3 relapsing multiple sclerosis trial, and its safety profile was consistent with other beta interferons. This study evaluated the impact of renal impairment on the pharmacokinetics and pharmacodynamics (neopterin elevation; a biomarker of pharmacological activity induced by interferon beta-1a) of peginterferon beta-1a following a single subcutaneous dose at 63 μg (n = 5) or 125 μg (n = 30). The results showed a fractional increase in area-under-th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26238463",
+            "title": "Effect of intramuscular interferon beta-1a on gray matter atrophy in relapsing-remitting multiple sclerosis: A retrospective analysis.",
+            "authors": [
+              "Fisher E",
+              "Nakamura K",
+              "Lee J-C",
+              "You X",
+              "Sperling B"
+            ],
+            "journal": "Multiple sclerosis (Houndmills, Basingstoke, England)",
+            "year": "2016",
+            "abstract": "Changes in gray matter (GM) volume may be a useful measure of tissue loss in multiple sclerosis (MS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40712003",
+            "title": "Emerging highly pathogenic H5N1 influenza triggers fibrotic remodeling in human airway organoids.",
+            "authors": [
+              "Rothan Hussin",
+              "Mostafa Ahmed",
+              "Bayoumi Mahmoud",
+              "Ye Chengjin",
+              "Barre Ramya S"
+            ],
+            "journal": "Emerging microbes & infections",
+            "year": "2025",
+            "abstract": "The ongoing outbreak of highly pathogenic avian influenza (HPAI) H5N1 clade 2.3.4.4b has affected at least 989 dairy herds across 17 states in the United States (U.S.) and resulted in 70 confirmed human infections, underscoring the urgent need to understand the pathogenesis and therapeutic interventions of emerging H5N1 viruses. In this study, we modelled infection with a highly pathogenic recombinant human A/Texas/37/2024 H5N1 (rHPh-TX H5N1) strain using human airway organoids (HAO) to investig",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16764858",
+            "title": "Effects of interferon-beta-1a on neuronal survival under autoimmune inflammatory conditions.",
+            "authors": [
+              "Sättler Muriel B",
+              "Demmer Iris",
+              "Williams Sarah K",
+              "Maier Katharina",
+              "Merkler Doron"
+            ],
+            "journal": "Experimental neurology",
+            "year": "2006",
+            "abstract": "Interferon-beta-1a (IFN-beta-1a) is an approved treatment for multiple sclerosis (MS). It improves the disease course by reducing the relapse rate as well as the persistent neurological deficits. Recent MRI and post-mortem studies revealed that neuronal and axonal damage are most relevant for chronic disability in MS patients. We have characterized previously time course and mechanisms of neuronal apoptosis in a rat model of myelin oligodendrocyte glycoprotein (MOG)-induced optic neuritis. In th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24503265",
+            "title": "The effect of intravenous interferon-beta-1a (FP-1201) on lung CD73 expression and on acute respiratory distress syndrome mortality: an open-label study.",
+            "authors": [
+              "Bellingan Geoff",
+              "Maksimow Mikael",
+              "Howell David C",
+              "Stotz Martin",
+              "Beale Richard"
+            ],
+            "journal": "The Lancet. Respiratory medicine",
+            "year": "2014",
+            "abstract": "Pulmonary vascular leakage occurs early in acute respiratory distress syndrome (ARDS). Mortality is high (35-45%), but no effective pharmacotherapy exists. Production of anti-inflammatory adenosine by ecto-5'-nucleotidase (CD73) helps maintain endothelial barrier function. We tested whether interferon-beta-1a (IFN-beta-1a), which increases CD73 synthesis, can reduce vascular leakage and mortality in patients with ARDS.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29311124",
+            "title": "Interferon β for Multiple Sclerosis.",
+            "authors": [
+              "Jakimovski Dejan",
+              "Kolb Channa",
+              "Ramanathan Murali",
+              "Zivadinov Robert",
+              "Weinstock-Guttman Bianca"
+            ],
+            "journal": "Cold Spring Harbor perspectives in medicine",
+            "year": "2018",
+            "abstract": "Despite that the availability of new therapeutic options has expanded the multiple sclerosis (MS) disease-modifying therapy arsenal, interferon β (IFN-β) remains an important therapy option in the current decision-making process. This review will summarize the present knowledge of IFN-β mechanism of action, the overall safety, and the short- and long-term efficacy of its use in relapsing remitting MS and clinically isolated syndromes. Data on secondary progressive MS is also provided, although n",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8069001",
+            "title": "Interferon beta for multiple sclerosis.",
+            "authors": [
+              "Connelly J F"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "1994",
+            "abstract": "To introduce readers to the use of a new agent, interferon beta-1b (IFN beta ser), in the treatment of relapsing-remitting multiple sclerosis (RRMS). Therapeutic and economic issues surrounding IFN beta ser are discussed, as are its pharmacology, clinical efficacy, adverse effects, and dosage guidelines.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34672949",
+            "title": "Efficacy of interferon beta-1a plus remdesivir compared with remdesivir alone in hospitalised adults with COVID-19: a double-bind, randomised, placebo-controlled, phase 3 trial.",
+            "authors": [
+              "Kalil Andre C",
+              "Mehta Aneesh K",
+              "Patterson Thomas F",
+              "Erdmann Nathaniel",
+              "Gomez Carlos A"
+            ],
+            "journal": "The Lancet. Respiratory medicine",
+            "year": "2021",
+            "abstract": "Functional impairment of interferon, a natural antiviral component of the immune system, is associated with the pathogenesis and severity of COVID-19. We aimed to compare the efficacy of interferon beta-1a in combination with remdesivir compared with remdesivir alone in hospitalised patients with COVID-19.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40406853",
+            "title": "Oligoadenylate synthetase 1a suppresses prion infection through binding to cellular prion protein.",
+            "authors": [
+              "Homma Takujiro",
+              "Nakagaki Takehiro",
+              "Nishinakagawa Takuya",
+              "Morita Yurie",
+              "Atarashi Ryuichiro"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2025",
+            "abstract": "Prion diseases are fatal neurodegenerative disorders caused by misfolding of the normal prion protein (PrPC) into its infectious β-sheet-rich isoform (PrPSc). Conventionally, prions were thought to be incapable of eliciting robust immune responses because PrPC and PrPSc share an identical primary structure. However, recent evidence highlights the critical involvement of type I interferon (I-IFN) signalling in host defence against prion propagation. Although we have previously shown that I-IFN, a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "岩藻醣苷合成障礙（如 CDG 相關糖蛋白合成缺陷）屬先天性代謝異常，核心缺陷為酵素功能喪失而非免疫失調。IFN beta-1a 的免疫調節作用（抑制 T 細胞活化、降低 BBB 通透性）與岩藻醣化途徑無明確藥理橋接。20 篇文獻經逐一比對，均為 IFN beta-1a 於 MS、COPD、COVID-19 之研究，與本症無直接關聯，屬文獻收集誤歸類。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Laubry-Pezzi syndrome",
+      "txgnn": {
+        "score": 0.97207111120224,
+        "rank": 20478
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Laubry-Pezzi 綜合徵（主動脈瓣下室間隔缺損合併主動脈瓣關閉不全）為先天性心臟結構異常，治療以外科或介入性修補為主，無已知免疫調節治療靶點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "partial deletion of the long arm of chromosome 7",
+      "txgnn": {
+        "score": 0.9717388153076172,
+        "rank": 20608
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "7q 長臂缺失表現多樣（視缺失區段而定），主要為發育遲緩、智能障礙等神經發育問題。無已知 IFN beta-1a 相關治療靶點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "orofacial clefting syndrome",
+      "txgnn": {
+        "score": 0.9713956713676452,
+        "rank": 20737
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "口顏面裂症候群為多因性先天結構缺陷（基因＋環境），治療以外科修補為主。無法透過免疫調節介入改變已形成之顏面結構。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "genetic syndromic Pierre Robin syndrome",
+      "txgnn": {
+        "score": 0.9713788032531738,
+        "rank": 20743
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與「Pierre Robin syndrome associated with a chromosomal anomaly」機轉評估相同，基因性症候群型 Pierre Robin 序列屬發育結構缺陷，IFN beta-1a 無治療合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "rete ovarii cystadenoma",
+      "txgnn": {
+        "score": 0.971091091632843,
+        "rank": 20834
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "卵巢網囊腺瘤為良性婦科腫瘤，通常手術切除即可治癒。干擾素類製劑雖曾用於某些卵巢惡性腫瘤，但針對良性囊腺瘤無任何治療依據，且無免疫調節需求。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "borderline ovarian serous tumor",
+      "txgnn": {
+        "score": 0.9707595705986024,
+        "rank": 20963
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "卵巢漿液性交界性腫瘤（LMP tumor）為低惡性潛能腫瘤，標準治療為保守性手術，5 年存活率 > 95%。干擾素類製劑在交界性卵巢腫瘤缺乏臨床研究支持，且益處/風險比不明。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "partial deletion of the long arm of chromosome 22"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "partial deletion of the long arm of chromosome 22"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "partial deletion of the long arm of chromosome 22"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "disorder of fucoglycosan synthesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "disorder of fucoglycosan synthesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "disorder of fucoglycosan synthesis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "partial deletion of the long arm of chromosome 7"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "partial deletion of the long arm of chromosome 7"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "partial deletion of the long arm of chromosome 7"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "genetic syndromic Pierre Robin syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "genetic syndromic Pierre Robin syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "genetic syndromic Pierre Robin syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "rete ovarii cystadenoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "rete ovarii cystadenoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "rete ovarii cystadenoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "borderline ovarian serous tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "borderline ovarian serous tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Interferon beta-1a",
+        "disease": "borderline ovarian serous tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

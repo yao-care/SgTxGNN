@@ -1,0 +1,351 @@
+## 藥物再利用證據分析：Glucagon (DB00040)
+
+**重要前置說明**：分析中發現關鍵資料混淆 — 多數文獻與試驗引用的是 **GLP-1 受體促效劑**（如 semaglutide、ROSE-010、dulaglutide），而非 Glucagon 本身。兩者雖均源自 proglucagon，但作用受體不同（GCGR vs GLP-1R），機轉有別。以下分析已將此差異納入降級考量。
+
+---
+
+```json
+{
+  "drug_context_warning": "DB00040 Glucagon 與多數文獻所引用之 GLP-1 RA 藥物存在機轉差異（GCGR vs GLP-1R），間接證據需降級處理",
+  "indications": [
+    {
+      "disease_name": "irritable bowel syndrome",
+      "txgnn_score": 0.9924,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Glucagon 與 GLP-1 均源自 proglucagon 基因，GLP-1 藉由腸道 GLP-1R 調節腸道蠕動、減緩胃排空、調節內臟痛覺；Glucagon 本身可鬆弛腸道平滑肌（臨床上用於 GI 影像前處置），此平滑肌鬆弛效應提供 IBS 症狀緩解的潛在機轉。核心證據來自 GLP-1 類似物 ROSE-010（NCT01056107）在 IBS-C 的 Phase 1/2 試驗，以及 2025 年 GLP-1 RA 系統性回顧（PMID 40134805）。惟現有臨床證據主體為 GLP-1 RA 而非 Glucagon 本身。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01056107",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 RCT，測試 GLP-1 受體促效劑 ROSE-010 對 IBS-C 女性患者之腸道運動功能影響（n=52，已完成）。屬同源肽類但非 Glucagon 直接測試；為本組最高相關性臨床試驗，提供 proglucagon 家族在 IBS 的概念驗證。"
+        },
+        {
+          "nct_id": "NCT02731664",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 機轉研究，比較 native GLP-1 與類似物對人類空腸蠕動的抑制效應。支持 proglucagon 衍生肽在腸道運動調節的生理角色，但未直接測試 Glucagon 或 IBS 適應症。"
+        },
+        {
+          "nct_id": "NCT00802971",
+          "relevance_grade": "C",
+          "reasoning": "探討 FOS 補充對特發性反應性低血糖的影響，Glucagon 為測量生物標記而非介入藥物，與 IBS 僅有間接連結。"
+        },
+        {
+          "nct_id": "NCT04111263",
+          "relevance_grade": "C",
+          "reasoning": "腸道微生物菌相介入研究，Glucagon/GLP-1 為次要代謝指標。與 Glucagon 作為治療 IBS 藥物無直接相關。"
+        },
+        {
+          "nct_id": "NCT06408610",
+          "relevance_grade": "C",
+          "reasoning": "運動訓練對腸道菌叢及 GLP-1 的影響研究，GLP-1 為測量指標，非治療介入。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40134805",
+          "title": "Improvement of IBS with GLP-1 receptor agonists: a systematic review",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "最高級別間接證據，針對 GLP-1 RA 類別，非 Glucagon 本身；但確立 proglucagon 路徑治療 IBS 之臨床可行性"
+        },
+        {
+          "pmid": "35234561",
+          "title": "Pain relief and pain intensity response to GLP-1 receptor agonist ROSE-010 in IBS",
+          "year": "2022",
+          "study_type": "RCT Secondary Analysis",
+          "tier": "2",
+          "note": "針對 NCT01056107 之疼痛結果詳細分析，顯示 GLP-1 RA 在 IBS 的鎮痛效應"
+        },
+        {
+          "pmid": "30444291",
+          "title": "Endocrine regulation of gut function - a role for GLP-1 in the pathophysiology of IBS",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "系統性闡述 GLP-1 在 IBS 病理生理的角色，提供機轉支撐"
+        },
+        {
+          "pmid": "25427821",
+          "title": "Aerosolized GLP-1 for treatment of diabetes mellitus and irritable bowel syndrome",
+          "year": "2015",
+          "study_type": "Experimental/Pilot",
+          "tier": "2",
+          "note": "直接提出 GLP-1 用於 IBS 的治療概念，但為小規模研究"
+        },
+        {
+          "pmid": "21694813",
+          "title": "Treatment of IBS: beyond fiber and antispasmodic agents",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "IBS 治療概觀，未聚焦 Glucagon"
+        },
+        {
+          "pmid": "26765585",
+          "title": "Novel investigational drugs for constipation-predominant IBS",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "IBS-C 新藥綜述，GLP-1 RA 在研究中"
+        }
+      ]
+    },
+    {
+      "disease_name": "cauda equina syndrome",
+      "txgnn_score": 0.9879,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉假說。馬尾症候群為馬尾神經根壓迫性疾病，主要治療為外科減壓。Glucagon 對神經壓迫病因無已知作用路徑，TxGNN 高分可能源自知識圖譜中的非特異性神經退化節點連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn_score": 0.9728,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經性膀胱為神經控制失調所致的膀胱功能障礙。雖有研究顯示 GLP-1R 存在於下泌尿道，但缺乏任何臨床前或臨床研究支持 Glucagon 對神經性膀胱的療效。疾病本體已標記為 'obsolete'，術語適用性存疑。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9448,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎為感染性炎症疾病，與 Glucagon 代謝路徑無合理機轉連結。TxGNN 預測可能透過免疫調節節點產生間接連結，但缺乏生物學合理性支持。無任何臨床或臨床前證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9431,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻腔疾病為廣義分類，包含多種病因。雖鼻腔黏膜表達某些肽類受體，但 Glucagon 用於鼻腔疾病的機轉假說缺乏文獻支撐。無任何臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pharyngitis",
+      "txgnn_score": 0.9378,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向證據警示：7 篇文獻中，多篇（PMID 27318907、26477324、26179754、17940229）記錄鼻咽炎（nasopharyngitis）為 GLP-1 RA 的常見不良反應（發生率 5-10%），而非治療目標。將此疾病作為 Glucagon/GLP-1 的再利用適應症，與現有安全性資料相悖。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27318907",
+          "title": "Impact of GLP-1 RA on nasopharyngitis and upper respiratory tract infections",
+          "year": "2016",
+          "study_type": "Safety Review",
+          "tier": "3",
+          "note": "⚠️ 記錄 GLP-1 RA 導致鼻咽炎之安全性問題，為反向（adverse effect）證據，不支持再利用"
+        },
+        {
+          "pmid": "17940229",
+          "title": "Adverse effects of incretin therapy for type 2 diabetes",
+          "year": "2007",
+          "study_type": "Safety Review",
+          "tier": "3",
+          "note": "⚠️ 鼻咽炎列為增量素治療的不良反應，再次確認反向證據"
+        },
+        {
+          "pmid": "26477324",
+          "title": "A 1-year safety study of dulaglutide in Japanese patients",
+          "year": "2015",
+          "study_type": "Safety RCT",
+          "tier": "2",
+          "note": "⚠️ 鼻咽炎為 dulaglutide 常見不良反應之報告"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.9102,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性遺傳性青光眼由特定基因突變（如 MYOC、OPTN）所致，屬遺傳性眼壓調節障礙。雖 GLP-1R 存在於視網膜節細胞（RGC），但針對遺傳性青光眼的特異性機轉假說尚未見文獻，且無任何臨床資料。與 open-angle glaucoma 的流行病學證據不應混同。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.9016,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "GLP-1R 在視網膜節細胞（RGC）、小梁網（trabecular meshwork）及睫狀體均有表達。GLP-1 RA 可能透過：(1) 降低眼壓（房水生成減少）；(2) RGC 神經保護效應（cAMP 上調，抗凋亡）；(3) 抗神經炎症路徑發揮保護作用。多項大型藥物流行病學研究（2023-2026）一致顯示 GLP-1 RA 使用者青光眼風險降低 20-40%。惟現有證據全部來自 GLP-1 RA（非 Glucagon 本身），且均為觀察性研究，尚無 RCT 設計以青光眼為主要終點。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34413054",
+          "title": "GLP-1 RA use is associated with reduced risk for glaucoma",
+          "year": "2023",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "首批大型藥物流行病學研究，確立 GLP-1 RA 與青光眼風險降低之關聯"
+        },
+        {
+          "pmid": "38250602",
+          "title": "Prescription of GLP-1 agonists and risk of subsequent open-angle glaucoma",
+          "year": "2024",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "大型資料庫研究，調整混淆因子後仍顯著降低 OAG 風險"
+        },
+        {
+          "pmid": "39182626",
+          "title": "Comparative effects of GLP-1 RA and metformin on glaucoma risk",
+          "year": "2025",
+          "study_type": "Comparative Cohort",
+          "tier": "2",
+          "note": "主動比較設計，GLP-1 RA 優於 metformin，支持非血糖控制的直接效應"
+        },
+        {
+          "pmid": "39978437",
+          "title": "Risk of Glaucoma in patients without diabetes using GLP-1 RA",
+          "year": "2025",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "排除糖尿病混淆後仍顯示保護效應，強化直接機轉假說"
+        },
+        {
+          "pmid": "41360342",
+          "title": "Tirzepatide associated with reduced risk of POAG and ocular hypertension",
+          "year": "2026",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "Dual GLP-1/GIP RA tirzepatide 的最新資料，進一步支持類別效應"
+        },
+        {
+          "pmid": "39863057",
+          "title": "GLP-1 RA impact on chronic ocular disease including AMD",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "眼科疾病全面綜述，機轉討論完整"
+        },
+        {
+          "pmid": "41074575",
+          "title": "Ocular Complications of SGLT-2i, GLP-1 RA, DPP-4i in T2DM",
+          "year": "2026",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "安全性與療效雙向評估，GLP-1 RA 眼科益處與潛在風險並陳"
+        }
+      ]
+    },
+    {
+      "disease_name": "filariasis",
+      "txgnn_score": 0.9001,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向因果警示：唯一文獻（PMID 36482987）研究絲蟲感染如何影響宿主系統性荷爾蒙水平（包括 Glucagon），為「疾病對藥物」的觀察，而非「藥物對疾病」的治療研究。無任何支持 Glucagon 治療絲蟲病的機轉假說或臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36482987",
+          "title": "Modulatory effect of filarial infection on systemic hormone levels in subjects with metabolic syndrome",
+          "year": "2022",
+          "study_type": "Observational (Inverse Direction)",
+          "tier": "3",
+          "note": "⚠️ 因果方向相反：研究疾病影響荷爾蒙，非藥物治療疾病"
+        }
+      ]
+    },
+    {
+      "disease_name": "large intestine disease",
+      "txgnn_score": 0.8986,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "大腸 L 型腸嗜鉻細胞分泌 GLP-1 和 GLP-2，調節腸道蠕動、屏障完整性及局部免疫。Glucagon 本身可作用於腸道平滑肌的 GCGR，產生鬆弛效應（此為目前臨床上 Glucagon 用於大腸鏡前處置的依據）。GLP-1 類似物被證實可調節腸道緊密連接蛋白（tight junction）、減少炎症反應（PMID 35584709）。現有 37 個相關臨床試驗均以 Glucagon/GLP-1 為生物標記，而非以 Glucagon 為治療介入。廣義的「大腸疾病」適應症需進一步聚焦至特定疾病亞型（如 IBD、結腸炎）才具研究意義。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02229500",
+          "relevance_grade": "C",
+          "reasoning": "研究腸道營養輸送對食慾的調節，測量 GLP-1/PYY 等腸道荷爾蒙，Glucagon 為觀測指標而非治療藥物。"
+        },
+        {
+          "nct_id": "NCT07019519",
+          "relevance_grade": "B",
+          "reasoning": "RECRUITING 狀態，研究腸道荷爾蒙（含 Glucagon）與自律神經在 POTS 患者餐後血流調節的交互作用，為機轉研究，提供 Glucagon 在自律神經/腸道疾病中的生理角色依據。"
+        },
+        {
+          "nct_id": "NCT04591782",
+          "relevance_grade": "C",
+          "reasoning": "食物生物利用度研究，測量代謝荷爾蒙反應，與大腸疾病治療無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35584709",
+          "title": "CCK and GLP-1 analogues regulate intestinal tight junction, inflammation",
+          "year": "2022",
+          "study_type": "Experimental Study",
+          "tier": "2",
+          "note": "最相關的機轉研究，顯示 GLP-1 類似物對腸道屏障完整性的直接調控效應"
+        },
+        {
+          "pmid": "37010838",
+          "title": "Paracrine relationship between incretin hormones and endogenous 5-HT in small and large intestine",
+          "year": "2023",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "闡述腸道荷爾蒙與血清素的旁分泌關係，支持 Glucagon 家族在大腸的生理角色"
+        },
+        {
+          "pmid": "9519708",
+          "title": "Glucagon-like peptides",
+          "year": "1998",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "奠基性綜述，描述 GLP-1/GLP-2 在腸道功能的角色"
+        },
+        {
+          "pmid": "10198911",
+          "title": "Effect of large bowel fermentation on insulin, glucose, free fatty acids, and GLP-1",
+          "year": "1999",
+          "study_type": "Clinical Physiology",
+          "tier": "3",
+          "note": "大腸發酵與 GLP-1 分泌的關聯研究"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 核心依據 |
+|--------|---------|---------|------|---------|
+| **Irritable Bowel Syndrome** | **L3** | **S1** | **Research Question** | Phase 1/2 RCT（ROSE-010）+ 系統性回顧 |
+| **Open-Angle Glaucoma** | **L4** | **S1** | **Research Question** | 5 項大型藥物流行病學觀察性研究（2023-2026）|
+| **Large Intestine Disease** | **L4** | **S1** | **Research Question** | 機轉文獻支持，但無治療性試驗 |
+| Pharyngitis | L5 | S0 | ⛔ Hold | 反向證據（藥物副作用） |
+| Filariasis | L5 | S0 | ⛔ Hold | 反向因果研究 |
+| Cauda Equina Syndrome | L5 | S0 | ⛔ Hold | 純預測，無任何臨床資料 |
+| Neurogenic Bladder | L5 | S0 | ⛔ Hold | 純預測，無任何臨床資料 |
+| Acute Laryngopharyngitis | L5 | S0 | ⛔ Hold | 純預測，無任何臨床資料 |
+| Nasal Cavity Disease | L5 | S0 | ⛔ Hold | 純預測，無任何臨床資料 |
+| Primary Hereditary Glaucoma | L5 | S0 | ⛔ Hold | 純預測，遺傳病因機轉不符 |
+
+### 關鍵研究缺口與建議行動
+
+1. **IBS（優先級最高）**：應設計直接以 Glucagon 為介入藥物的 Proof-of-Concept 試驗，比較 native glucagon 與 GLP-1 RA（ROSE-010）在腸道運動的效應差異
+2. **Open-Angle Glaucoma**：建議發起 investigator-initiated trial，以青光眼眼壓/VF 為主要終點；現有觀察性證據足以支持 IND-enabling 研究
+3. **Pharyngitis 警示**：此適應症應從再利用候選清單中移除，並在藥物安全性資料中標注鼻咽炎為不良反應風險

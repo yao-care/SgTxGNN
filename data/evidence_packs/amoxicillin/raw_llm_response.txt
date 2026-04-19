@@ -1,0 +1,357 @@
+```json
+{
+  "drug": "Amoxicillin",
+  "drugbank_id": "DB01060",
+  "analysis_date": "2026-04-05",
+  "notes": [
+    "MOA補充（資料缺口）：Amoxicillin 為 beta-lactam 類廣譜抗生素，藉由與細菌 PBP（青黴素結合蛋白）結合抑制肽聚糖交聯，破壞細胞壁合成。",
+    "市場狀態標記「未上市」疑為資料缺口，Amoxicillin 為全球最廣泛使用抗生素之一。",
+    "TxGNN 分數集中於 0.987–0.996 且多數為血液系統疾病，提示知識圖譜中血液腫瘤節點與抗生素之間存在非特異性高分情形，需審慎解讀。"
+  ],
+  "indications": [
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多克隆高黏滯綜合症由多種免疫球蛋白升高引起，常繼發於慢性感染、自體免疫或漿細胞病。若根本原因為細菌感染，抗生素可間接降低免疫刺激，但此為非常迂迴的理論路徑，無任何臨床或體外證據支持阿莫西林對本症有效。高 TxGNN 分數可能反映知識圖譜中感染→免疫→血液病的鏈式關聯，而非直接藥理機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hyperamylasemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高澱粉酶血症為實驗室異常值而非獨立疾病，成因包含胰腺炎、腮腺炎、腎衰竭等。細菌感染（如化膿性腮腺炎或膽道感染）可引起繼發性高澱粉酶，阿莫西林若能治療此類感染，理論上可間接正常化澱粉酶，但無任何臨床數據支持，且疾病定義本身排除了有意義的藥物再利用評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症為 ALB 基因突變導致肝臟無法合成白蛋白的罕見遺傳病。阿莫西林對基因缺陷本身無任何已知機轉，知識圖譜預測無生物學合理性。唯一可能的間接路徑是無白蛋白患者因藥物蛋白質結合改變，阿莫西林游離濃度升高，但這涉及藥動學改變而非治療適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blood group incompatibility",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血型不相容症為同種免疫介導的紅血球破壞，屬免疫問題，阿莫西林對抗體介導的溶血機轉無作用。唯一文獻（PMID 40350274）描述的是 ABO 不相容輸血後純紅血球再生不良患者合併彎曲桿菌敗血症，阿莫西林用於治療感染性併發症，而非治療血型不相容本身，文獻相關性完全不符。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40350274",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "描述 ABO 不相容後發生細菌感染（Campylobacter lari）之治療；阿莫西林用於治療感染性併發症，與本適應症無關，評分相關性：D（誤判）"
+        }
+      ]
+    },
+    {
+      "disease_name": "premalignant hematological system disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血液系統惡變前期疾病（如 MDS、MGUS、MBL 等）的疾病進展主要由基因組不穩定性、免疫逃逸及骨髓微環境異常驅動，阿莫西林無針對上述機轉的任何已知作用。0 篇文獻、0 項試驗，無法支持進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "monoclonal gammopathy",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "單克隆丙球蛋白病中，免疫增殖性小腸病（IPSID/Alpha 重鏈病，又稱地中海淋巴瘤）被確認為細菌抗原驅動型 B 細胞克隆增殖，主要病原體為 H. pylori 及空腸彎曲桿菌。三聯療法（阿莫西林 + 克拉黴素 + PPI）根除 H. pylori 後，多個病例系列記錄到 M 蛋白消退及組織學完全緩解。此機轉類比 MALT 淋巴瘤的抗 H. pylori 治療策略，具有明確生物學合理性，但：(1) 效應限於感染驅動型亞型，對 MGUS/MM 無效；(2) 阿莫西林須作為聯合方案組成使用，而非單藥。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00062231",
+          "relevance_grade": "C",
+          "reasoning": "研究主題為低風險發燒中性粒細胞減少癌症患者的口服經驗性抗生素療法（Phase NA，已終止，n=351），雖患者可能包含骨髓瘤等漿細胞病，但研究終點為抗感染療效而非單克隆丙球蛋白病治療，相關性僅為背景支持。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "9030995",
+          "study_type": "Case Series / Retrospective",
+          "tier": "3",
+          "relevance_note": "「Mediterranean lymphoma（IPSID）以抗生素治療」1996 年報告，為最早記錄抗生素治療單克隆 B 細胞增殖性疾病的關鍵文獻之一，直接支持機轉假說。相關性：A（次型特異性）"
+        },
+        {
+          "pmid": "20300878",
+          "study_type": "Case Series",
+          "tier": "2",
+          "relevance_note": "「H. pylori 根除後免疫增殖性小腸病消退」2010 年報告，顯示抗 H. pylori 三聯療法（含阿莫西林）可誘導 IPSID 完全組織學緩解，為本假說最強支持性文獻。相關性：A"
+        },
+        {
+          "pmid": "8988128",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "「H. pylori 根除後免疫增殖性小腸病消退」1997 年早期病例，概念驗證，相關性：B"
+        },
+        {
+          "pmid": "16253033",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "非分泌型 IPSID 病例，描述抗生素治療，相關性：B（次型擴展）"
+        },
+        {
+          "pmid": "35619805",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "巨球蛋白血症患者發生播散性奴卡菌病，阿莫西林非主要治療藥物，反映免疫抑制宿主抗感染議題，相關性：D"
+        },
+        {
+          "pmid": "21908119",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "肺炎與 Rothia dentocariosa，與單克隆丙球蛋白病直接關聯薄弱，相關性：D"
+        },
+        {
+          "pmid": "20513124",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "relevance_note": "多發性骨髓瘤中假陽性麴菌半乳甘露聚糖試驗，與阿莫西林無直接關聯，相關性：D"
+        },
+        {
+          "pmid": "18639371",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance_note": "雙磷酸鹽相關顎骨壞死（BRONJ）管理，阿莫西林作為支持性抗感染用藥，相關性：D（非再利用適應症）"
+        },
+        {
+          "pmid": "20015614",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance_note": "BRONJ 手術管理，阿莫西林預防性使用，相關性：D"
+        },
+        {
+          "pmid": "22092390",
+          "study_type": "Retrospective Comparative Study",
+          "tier": "3",
+          "relevance_note": "骨髓瘤 vs. 乳癌 BRONJ 比較分析，阿莫西林為術後預防，相關性：D"
+        }
+      ]
+    },
+    {
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "獲得性周圍神經病變相關血液病（如 POEMS 症候群、副蛋白相關神經病變、血管炎性神經病變）的機轉為免疫球蛋白沉積、VEGF 過量或血管炎，阿莫西林對此無直接機轉。若神經病變繼發於萊姆病（Borrelia）或其他細菌感染，需特定抗生素（如多西環素、頭孢曲松），而非阿莫西林口服。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "septicemic plague",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "敗血型鼠疫由 Yersinia pestis（革蘭氏陰性菌）引起。Beta-lactam 類（含阿莫西林）體外對 Y. pestis 具有部分活性，但存在多重限制：(1) Y. pestis 攜帶 beta-lactamase 基因（bla 基因），可對氨基青黴素產生耐藥性；(2) Y. pestis 具胞內存活能力，阿莫西林細胞內穿透性差（相較氟喹諾酮類）；(3) WHO 及 CDC 建議的一線治療為鏈黴素/慶大黴素，二線為多西環素或氟喹諾酮，阿莫西林不在推薦方案中；(4) 僅體外與動物模型數據，無人體臨床試驗。評估屬次要研究問題而非優先方向。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21628541",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "relevance_note": "評估多種抗生素對胞內 Y. pestis 的體外效力，顯示 beta-lactam 類因胞內穿透性差而效果受限，為直接相關但結果偏負面的證據。相關性：B"
+        },
+        {
+          "pmid": "8203841",
+          "study_type": "Comparative In vitro / Animal Study",
+          "tier": "3",
+          "relevance_note": "「評估氟喹諾酮、三種 beta-lactam、兩種氨基糖苷及四環素類治療鼠疫的效果」，為直接比較性研究，顯示 beta-lactam 在部分模型中有效但非最優選項。相關性：A（方法學相關）"
+        },
+        {
+          "pmid": "37126899",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "relevance_note": "工業用雞中 Yersinia enterocolitica（非 Y. pestis）抗藥性研究，相關性：C（屬屬關聯）"
+        },
+        {
+          "pmid": "3957763",
+          "study_type": "Case Report (Animal)",
+          "tier": "3",
+          "relevance_note": "貓氣泡鼠疫病例報告，含抗生素治療描述，間接相關。相關性：C"
+        },
+        {
+          "pmid": "30563467",
+          "study_type": "In vitro Study",
+          "tier": "3",
+          "relevance_note": "快速藥敏測試及 beta-lactam 誘導革蘭氏陰性菌形態變化研究，間接支持 beta-lactam 對革蘭氏陰性菌的機轉評估。相關性：C"
+        },
+        {
+          "pmid": "40772196",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Yersinia enterocolitica 引起的耶爾森菌病，非鼠疫，間接相關。相關性：C"
+        },
+        {
+          "pmid": "15086042",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "社區獲得性肺炎非典型病原體綜述，涵蓋抗生素選擇原則，背景性相關。相關性：D"
+        }
+      ]
+    },
+    {
+      "disease_name": "congenital hematological disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性血液疾病（G6PD缺乏症、丙酮酸激酶缺乏症、遺傳性球形紅血球增多症等）為基因性疾病，阿莫西林對原發缺陷無治療機轉。重要安全警示：PMID 20516363 明確報告阿莫西林在葡萄糖-6-磷酸異構酶（G6PI）缺乏兒童中誘發溶血性貧血，提示在特定先天性血液疾病中阿莫西林可能有害而非有益。其他文獻顯示阿莫西林僅用於此類患者的感染性併發症（如 Lemierre 症候群），屬支持性抗感染使用，非再利用場景。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00062231",
+          "relevance_grade": "C",
+          "reasoning": "針對發燒中性粒細胞減少癌症患者的口服抗生素療法（已終止），非針對先天性血液疾病，相關性僅為背景性。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "20516363",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "⚠️ 安全警示：「阿莫西林在 G6PI 缺乏兒童中引發溶血性貧血」，顯示在特定先天性血液疾病中阿莫西林可能造成傷害，為反向證據。相關性：A（安全性負面證據）"
+        },
+        {
+          "pmid": "34420414",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "丙酮酸激酶缺乏脾切除患者的 Lemierre 症候群，阿莫西林用於治療感染併發症，非再利用。相關性：C"
+        },
+        {
+          "pmid": "24947863",
+          "study_type": "Animal Study (Veterinary)",
+          "tier": "3",
+          "relevance_note": "獸醫新生幼犬疾病管理，與人類先天性血液疾病相關性極低。相關性：D"
+        },
+        {
+          "pmid": "12731605",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "relevance_note": "近親家族牙周狀態與中性粒細胞關係研究，背景性相關。相關性：D"
+        }
+      ]
+    },
+    {
+      "disease_name": "epiglottitis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "急性會厭炎（急性聲門上炎）主要由細菌性病原體引起，包含 Haemophilus influenzae type b（傳統首位病原體）、肺炎鏈球菌、金黃色葡萄球菌及 A 群鏈球菌。阿莫西林（尤其是阿莫西林-克拉維酸）對多數口咽及上呼吸道病原體有效，其 PBP 結合機轉直接針對細菌細胞壁，符合細菌性會厭炎的治療邏輯。多個臨床指南、系列病例及回顧性研究支持廣譜青黴素類作為一線或二線治療。注意事項：(1) 單純阿莫西林對產 beta-lactamase 的 H. influenzae 療效不足，臨床需使用阿莫西林-克拉維酸；(2) 重症病例需靜脈給藥（頭孢曲松/頭孢他啶）而非口服阿莫西林；(3) 兒童後 Hib 疫苗時代病原譜已改變，需考慮耐藥性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "37730165",
+          "study_type": "Clinical Guideline / Systematic Review",
+          "tier": "2",
+          "relevance_note": "2023年「ENT 感染抗微生物治療」指南，明確涵蓋會厭炎的抗生素選擇建議，高度相關。相關性：A"
+        },
+        {
+          "pmid": "29290238",
+          "study_type": "Clinical Guideline / Systematic Review",
+          "tier": "2",
+          "relevance_note": "2017年「ENT 感染抗微生物治療」前版指南，為上述指南的歷史比較基準，高度相關。相關性：A"
+        },
+        {
+          "pmid": "10893774",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "「H. influenzae 感染的臨床表現、診斷和治療」，H. influenzae 為會厭炎傳統主要病原體，抗生素選擇與阿莫西林直接相關。相關性：A"
+        },
+        {
+          "pmid": "3571053",
+          "study_type": "Case Series (Pediatric)",
+          "tier": "2",
+          "relevance_note": "「兒科住院序貫靜脈-口服阿莫西林/克拉維酸療法」1987年系列，直接描述 ENT 感染（含會厭炎）的阿莫西林用藥經驗。相關性：A"
+        },
+        {
+          "pmid": "8322095",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "「妊娠期急性會厭炎」1993年病例，含抗生素治療細節，直接相關。相關性：B"
+        },
+        {
+          "pmid": "31029301",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "咽喉痛與呼吸困難（診斷會厭炎），含診療描述。相關性：B"
+        },
+        {
+          "pmid": "26332822",
+          "study_type": "Clinical Guideline",
+          "tier": "2",
+          "relevance_note": "荷蘭全科醫師急性咽喉痛臨床指引修訂，包含對上呼吸道感染抗生素使用的整體框架建議。相關性：B（廣義 ENT 感染）"
+        },
+        {
+          "pmid": "17334726",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "relevance_note": "日本北海道兒童侵入性 H. influenzae 感染世代研究，間接支持 H. influenzae 在 ENT 感染的流行病學背景及抗生素療法選擇。相關性：B"
+        },
+        {
+          "pmid": "40269922",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "嬰兒壞死性扁桃體炎引發嚴重氣道感染，含廣譜抗生素治療描述，間接相關。相關性：C"
+        },
+        {
+          "pmid": "15960127",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "舌根放線菌病，阿莫西林為放線菌病一線治療，間接相關。相關性：C"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L5_no_evidence": ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"],
+      "L4_indirect_evidence": ["monoclonal gammopathy", "septicemic plague", "congenital hematological disorder"],
+      "L3_observational_evidence": ["epiglottitis"]
+    },
+    "priority_findings": [
+      {
+        "finding": "epiglottitis 為本批次中唯一具有臨床指南支持的適應症（L3/S2），阿莫西林-克拉維酸為已建立的治療選項，但注意單純阿莫西林受耐藥性限制。",
+        "action": "可納入臨床決策支援系統，標注需與克拉維酸合用及嚴重度分層。"
+      },
+      {
+        "finding": "monoclonal gammopathy 中的 IPSID/Alpha 重鏈病亞型具有 H. pylori 根除→M 蛋白消退的機轉合理性（L4/S1），2 篇直接相關系列病例。",
+        "action": "建議標記為「IPSID 特異性研究問題」，需進行正式亞型分析，不適用於廣義 MGUS/MM。"
+      },
+      {
+        "finding": "congenital hematological disorder 存在明確安全警示（PMID 20516363：G6PI 缺乏患者阿莫西林誘發溶血性貧血），需在系統中加入禁忌標記。",
+        "action": "應在 FHIR MedicationKnowledge 資源中標注 contraindication.diseaseConditionConcept for G6PI/G6PD deficiency。"
+      },
+      {
+        "finding": "6 個血液系統適應症（L5 組）的高 TxGNN 分數（>0.99）可能反映知識圖譜「感染→免疫→血液病」通路的系統性過預測偏差，建議審查 TxGNN 模型在血液系統疾病節點的特異性。",
+        "action": "針對此批次進行 TxGNN 分數校準（calibration）評估，避免 L5 高分假陽性誤導優先級排序。"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| polyclonal hyperviscosity syndrome | **L5** | S0 | ❌ Hold |
+| hyperamylasemia | **L5** | S0 | ❌ Hold |
+| congenital analbuminemia | **L5** | S0 | ❌ Hold |
+| blood group incompatibility | **L5** | S0 | ❌ Hold（文獻誤判） |
+| premalignant hematological system disease | **L5** | S0 | ❌ Hold |
+| hematological disease w/ peripheral neuropathy | **L5** | S0 | ❌ Hold |
+| monoclonal gammopathy | **L4** | S1 | 🔬 Research Question（IPSID 亞型） |
+| septicemic plague | **L4** | S1 | 🔬 Research Question（體外數據） |
+| congenital hematological disorder | **L4** | S0 | ⚠️ Hold（安全警示） |
+| epiglottitis | **L3** | S2 | ✅ Proceed with Guardrails |
+
+**關鍵洞察**：本批次預測整體 TxGNN 分數集中偏高（0.987–0.996），但 9/10 適應症無法從 L5 提升，反映阿莫西林作為純抗菌劑的再利用空間有限——其機轉特異性不支持非感染性血液疾病的直接再利用。唯一例外為細菌感染驅動的 IPSID 亞型（H. pylori 根除策略）及已建立的細菌性會厭炎適應症。

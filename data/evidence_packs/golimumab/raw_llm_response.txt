@@ -1,0 +1,458 @@
+```json
+{
+  "drug": "Golimumab",
+  "drugbank_id": "DB06674",
+  "analysis_date": "2026-04-04",
+  "notes": "Golimumab 為全人源抗 TNF-α 單株抗體，雖本地市場標記「未上市」，全球已核准用於 RA、AS、PsA、UC 及多關節型 JIA。以下依各適應症進行再利用證據評估。",
+  "indications": [
+    {
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "類風濕性血管炎病理核心為 TNF-α 驅動之血管壁慢性發炎與免疫複合體沉積。Golimumab 抑制 TNF-α 可理論上阻斷此下游炎症瀑布；但目前缺乏以 rheumatoid vasculitis 為主要終點之直接 RCT，現有證據多源自 RA 廣泛族群的觀察性數據及個案報告。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01579006",
+          "relevance_grade": "B",
+          "reasoning": "RA 患者真實世界觀察性研究（n=184，已完成），族群包含 RA 血管炎合併症可能性，但未以血管炎為主要評估終點；可提供安全性背景資料。"
+        },
+        {
+          "nct_id": "NCT05696106",
+          "relevance_grade": "C",
+          "reasoning": "大型免疫媒介炎症性疾病（IMID）流行病學研究（n=750,000），範圍過廣且狀態 UNKNOWN，與 rheumatoid vasculitis 特異性低。"
+        },
+        {
+          "nct_id": "NCT07138898",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 研究聚焦於接受肩關節置換術患者之免疫抑制劑管理，與血管炎病理無直接關聯，相關性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29075910",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "RA 患者合併壞疽性膿皮症個案，顯示 RA 複雜炎症表型，非直接血管炎證據。"
+        },
+        {
+          "pmid": "31491879",
+          "study_type": "Systematic Review / RCT analysis",
+          "tier": "1",
+          "note": "TNF 抑制劑（含 golimumab）在 RA 關節破壞抑制之系統性比較；為類別效應間接支持。"
+        },
+        {
+          "pmid": "27591827",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "RA 患者腎臟終點研究，顯示 RA 系統性炎症對器官損害之影響，與血管炎間接相關。"
+        },
+        {
+          "pmid": "23557513",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "生物製劑治療自體免疫疾病通論，Golimumab 作為 TNF 抑制劑被提及，非血管炎特異性。"
+        },
+        {
+          "pmid": "22999907",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "抗 TNF 治療中出現高安氏動脈炎病例，提示 TNF 抑制可能影響大血管炎症，需謹慎解讀。"
+        },
+        {
+          "pmid": "23252659",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Golimumab 成功治療 Behçet 葡萄膜炎個案，顯示其對 TNF 相關血管/眼部炎症之活性，具有間接支持意義。"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypermobility of coccyx",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尾骨過動症主要為機械性/結構性問題，與 TNF-α 炎症路徑無明確病理關聯。TxGNN 高分可能源自知識圖譜中脊椎相關節點的拓撲相似性，而非真實藥理機轉。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "炎症性脊椎病（含強直性脊椎炎/軸性脊椎關節炎）之核心病機為 IL-23/IL-17 軸及 TNF-α 驅動的脊椎附著點炎症。Golimumab 透過高親和力結合可溶性與跨膜 TNF-α，顯著抑制椎體炎症、延緩放射學進展。此為全球已核准適應症（GO-RAISE Phase 3 研究），具最高等級直接臨床證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00265096",
+          "relevance_grade": "A",
+          "reasoning": "GO-RAISE：Phase 3 多中心隨機雙盲安慰劑對照試驗（n=407），直接以強直性脊椎炎為目標，已完成；構成 Golimumab 此適應症核准基礎，直接最高相關性。"
+        },
+        {
+          "nct_id": "NCT02758782",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT 比較 Anti-TNF ± NSAIDs 在 AS 之效果（n=156，已完成），直接評估 golimumab 在炎症性脊椎病之臨床應用策略。"
+        },
+        {
+          "nct_id": "NCT05164198",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 多中心前瞻性研究優化 AS 患者 TNF 抑制劑劑量調整（n=448），直接與炎症性脊椎病管理相關。"
+        },
+        {
+          "nct_id": "NCT05115903",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 隨機生物製劑減量研究於軸性脊椎關節炎，評估 TNF 抑制劑長期管理，高度相關。"
+        },
+        {
+          "nct_id": "NCT02011386",
+          "relevance_grade": "B",
+          "reasoning": "Golimumab 治療監測與臨床反應預測研究（n=53），提供治療優化數據，間接支持炎症性脊椎病管理。"
+        },
+        {
+          "nct_id": "NCT02456363",
+          "relevance_grade": "B",
+          "reasoning": "AS 患者抗 TNF 治療登記研究（Phase 2，n=300，狀態 UNKNOWN），真實世界有效性數據。"
+        },
+        {
+          "nct_id": "NCT04152759",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 單劑量 PK/PD 比較研究（n=182），提供藥動學數據支持劑量合理性。"
+        },
+        {
+          "nct_id": "NCT00741793",
+          "relevance_grade": "B",
+          "reasoning": "加拿大生物製劑治療登記（n=2821，已完成），包含脊椎關節炎族群，提供真實世界安全性背景。"
+        },
+        {
+          "nct_id": "NCT01965132",
+          "relevance_grade": "B",
+          "reasoning": "韓國風濕科生物製劑登記（n=10,000，招募中），大規模真實世界數據，包含 SpA 族群。"
+        },
+        {
+          "nct_id": "NCT01692457",
+          "relevance_grade": "C",
+          "reasoning": "上市後安全監測研究（已撤回，enrollment=0），無有效數據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40621455",
+          "study_type": "Network Meta-Analysis",
+          "tier": "1",
+          "note": "2025年最新網絡薈萃分析：各生物製劑（含 golimumab）於 AS 葡萄膜炎風險比較，高品質間接比較證據。"
+        },
+        {
+          "pmid": "36270657",
+          "study_type": "Systematic Literature Review",
+          "tier": "1",
+          "note": "2022年 EULAR 更新指引之 bDMARDs 系統性文獻回顧，golimumab 被明確納入脊椎關節炎治療選項。"
+        },
+        {
+          "pmid": "38503473",
+          "study_type": "Systematic Literature Review",
+          "tier": "1",
+          "note": "PsA 藥物治療效益安全性系統性文獻回顧（2024），涵蓋炎症性脊椎病重疊族群之 golimumab 數據。"
+        },
+        {
+          "pmid": "28612180",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "生物製劑免疫原性系統性回顧，對 golimumab 長期療效維持有重要安全性意涵。"
+        },
+        {
+          "pmid": "31852268",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "炎症性關節炎生物製劑感染風險系統性回顧，為 Proceed with Guardrails 決策之安全監測依據。"
+        },
+        {
+          "pmid": "30499246",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "note": "2018 ACR/NPF 指引，golimumab 被列為炎症性脊椎關節炎治療選項之一。"
+        },
+        {
+          "pmid": "28530020",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "Golimumab 在炎症性關節炎（含 AS）之全面藥理與臨床試驗回顧，提供適應症支持基礎。"
+        },
+        {
+          "pmid": "20065639",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "Golimumab 早期藥物評論，描述核准適應症與初步試驗結果。"
+        },
+        {
+          "pmid": "22265264",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "脊椎關節炎疾病分類與治療通論，提供背景知識。"
+        },
+        {
+          "pmid": "38331098",
+          "study_type": "Expert Recommendation",
+          "tier": "3",
+          "note": "生物製劑使用者疫苗接種建議，為使用 golimumab 時之重要臨床管理指引。"
+        }
+      ]
+    },
+    {
+      "disease_name": "Kummell disease",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Kummell 病（延遲性椎體創傷後缺血性壞死）主要病機為創傷後血液供應中斷導致的骨質壞死，而非 TNF-α 驅動的炎症性疾病。TNF 抑制劑在此疾病無明確藥理基礎。無臨床試驗或文獻記錄。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "多關節型幼年型特發性關節炎（pJIA）之免疫病理與成人 RA 高度相似，TNF-α 為關節滑膜炎症之核心介質。Golimumab 靜脈注射劑型已有兩項 Phase 3 試驗（GO-KIDS），其中 NCT02277444 完成並取得全球核准（部分地區）；藥動學模型確認兒童體重基礎給藥方案（2mg/kg IV q8w）之安全性與有效性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02277444",
+          "relevance_grade": "A",
+          "reasoning": "GO-KIDS Phase 3 多中心開放標籤試驗（n=130，已完成）：IV golimumab 在兒童脊椎關節炎及多關節型 JIA 之主要研究，直接最高相關性，構成核准申請基礎。"
+        },
+        {
+          "nct_id": "NCT01230827",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機雙盲撤藥設計皮下注射 golimumab 研究（n=173，已終止）：雖因策略調整（轉向 IV 劑型）而終止，但提供重要的部分有效性安全性數據；終止原因非安全性問題。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33493312",
+          "study_type": "Phase 3 Clinical Trial",
+          "tier": "1",
+          "note": "IV golimumab Phase 3 開放標籤研究於 pJIA 之完整報告，直接最高等級支持證據。"
+        },
+        {
+          "pmid": "39089836",
+          "study_type": "Phase 3 Extension Study",
+          "tier": "1",
+          "note": "2024年 IV golimumab 在 pJIA 長期延伸研究，確認持續療效與長期安全性。"
+        },
+        {
+          "pmid": "28507219",
+          "study_type": "Phase 3 Trial Report",
+          "tier": "1",
+          "note": "SC golimumab 在 pJIA 的 Phase 3 資料（隨機撤藥研究），支持療效但因劑型策略轉向而被 IV 研究取代。"
+        },
+        {
+          "pmid": "39946290",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "2025年 pJIA 生物製劑安全性最新系統性回顧，提供 golimumab 安全監測之重要參考。"
+        },
+        {
+          "pmid": "36222562",
+          "study_type": "Systematic Review / Meta-Analysis",
+          "tier": "1",
+          "note": "pJIA 生物製劑合用或不合用 MTX 之系統性回顧，比較 golimumab 相對治療策略。"
+        },
+        {
+          "pmid": "36171515",
+          "study_type": "Clinical Trial Report",
+          "tier": "2",
+          "note": "IV golimumab 在 pJIA 及幼年型 PsA 患者之臨床報告（2022），擴展族群安全性數據。"
+        },
+        {
+          "pmid": "33626206",
+          "study_type": "Bridging/Modeling Study",
+          "tier": "2",
+          "note": "pJIA 與成人 RA 反應相似性評估，支持從成人數據橋接至兒童族群的藥理依據。"
+        },
+        {
+          "pmid": "37511975",
+          "study_type": "Pharmacology Review",
+          "tier": "3",
+          "note": "Golimumab 用於 pJIA 及 PsA 之藥理學與臨床數據綜合回顧（2023）。"
+        },
+        {
+          "pmid": "26147756",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "pJIA 治療進展回顧，將 golimumab 置於 TNF 抑制劑治療選項脈絡中。"
+        },
+        {
+          "pmid": "28530020",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "Golimumab 在炎症性關節炎（含 JIA）之全面回顧。"
+        }
+      ]
+    },
+    {
+      "disease_name": "vertebral disease",
+      "txgnn_score": 0.9876,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "「椎體病變」若屬炎症性（如軸性脊椎關節炎、非放射學性軸性 SpA），TNF-α 在附著點炎症及椎體骨侵蝕中扮演關鍵角色；Golimumab 抑制 TNF-α 可阻斷椎體結構破壞。然而「vertebral disease」為廣義術語，若涵蓋退化性/代謝性/感染性椎體病變，則機轉連結不成立。NCT02437162（Phase 3）已終止需進一步釐清原因。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02437162",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 多中心隨機雙盲安慰劑對照研究（n=347，已終止）：原設計直接評估 golimumab 療效，但終止降低了證據等級；需評估終止原因（效益不足、安全性或資金問題）以判斷再利用可行性。"
+        },
+        {
+          "nct_id": "NCT02011386",
+          "relevance_grade": "B",
+          "reasoning": "Golimumab 療效監測研究（n=53，已完成），聚焦於脊椎關節炎，與炎症性椎體病變高度相關，提供藥物濃度與臨床反應關聯數據。"
+        },
+        {
+          "nct_id": "NCT05115903",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 TNF 抑制劑減量研究（n=15，樣本極小，狀態 UNKNOWN），提供有限的軸性 SpA 管理策略數據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36633815",
+          "study_type": "Systematic Review / Meta-Analysis",
+          "tier": "1",
+          "note": "非放射學性軸性 SpA bDMARDs 比較效益分析，golimumab 作為 TNF 抑制劑類別被比較，直接支持炎症性椎體病變適應症。"
+        },
+        {
+          "pmid": "23686218",
+          "study_type": "Meta-Analysis",
+          "tier": "1",
+          "note": "AS 中 TNF 拮抗劑薈萃分析（2013），確認 TNF 抑制劑類別在炎症性脊椎病之療效。"
+        },
+        {
+          "pmid": "38503473",
+          "study_type": "Systematic Literature Review",
+          "tier": "1",
+          "note": "PsA 藥物治療系統性文獻回顧，涵蓋脊椎受影響之炎症性關節炎。"
+        },
+        {
+          "pmid": "31969328",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "note": "EULAR RA 管理指引 2019 更新，提供生物製劑使用之臨床脈絡與監測建議。"
+        },
+        {
+          "pmid": "26271141",
+          "study_type": "RCT / MRI Study",
+          "tier": "2",
+          "note": "Golimumab ± 帕米磷酸鹽對軸性 SpA 臨床效益及 MRI 炎症影響，直接影像學支持骨骼炎症抑制效果。"
+        },
+        {
+          "pmid": "37322274",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "note": "IV golimumab 對 PsA 患者疲勞症狀之影響（2023），顯示全身性炎症指標改善，間接反映椎體病變改善潛力。"
+        },
+        {
+          "pmid": "27796445",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "生物製劑治療對 RA 骨質流失之影響，顯示 TNF 抑制對椎體骨密度保護效益。"
+        },
+        {
+          "pmid": "27445459",
+          "study_type": "Clinical Trials Review",
+          "tier": "3",
+          "note": "Golimumab 在放射學性與非放射學性軸性 SpA 臨床試驗回顧（2016），涵蓋椎體病變評估結果。"
+        },
+        {
+          "pmid": "30959214",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "系統性風濕病由生物製劑到小分子藥物演進回顧，提供治療背景。"
+        },
+        {
+          "pmid": "27245419",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "免疫調節治療中帶狀疱疹風險回顧，為 Proceed with Guardrails 之安全監測重要依據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "congenital hypotrichosis with juvenile macular dystrophy",
+      "txgnn_score": 0.9616,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛症合併幼年型黃斑部退化症（HJMD）係 LPAR6 基因突變導致之遺傳性退化疾病，屬毛髮與視網膜光感受器退化機制，與 TNF-α 炎症路徑無已知關聯。TxGNN 高分可能為知識圖譜中眼部疾病節點的非特異性相似性所致。無任何支持性臨床或文獻數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polyp of vocal cord",
+      "txgnn_score": 0.9583,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "聲帶息肉主要由機械性損傷（用聲過度）或慢性刺激導致之局部黏膜組織增生，其形成與 TNF-α 系統性炎症無直接藥理關聯。無任何臨床試驗或文獻支持，建議排除此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polyp of middle ear",
+      "txgnn_score": 0.9583,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中耳息肉通常繼發於慢性化膿性中耳炎（感染/機械性因素），雖涉及局部炎症，但非 TNF-α 全身性免疫驅動的適應症類型。Anti-TNF 治療感染性病灶可能增加感染擴散風險。無任何臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency",
+      "txgnn_score": 0.9574,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全性警示：IL12B 完全缺乏症患者原已存在 Th1 免疫防禦缺損，無法有效對抗胞內菌（尤其分枝桿菌）。TNF-α 在肉芽腫形成及結核菌控制中不可或缺；施予 Golimumab 抑制 TNF-α 將進一步破壞本已脆弱的抗分枝桿菌免疫屏障，極可能導致播散性非典型分枝桿菌感染或結核病惡化——此為 Anti-TNF 藥物最嚴重已知安全性風險，在此族群中風險尤為極高。TxGNN 此預測結果應被判定為假陽性，不建議任何臨床探索。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": {
+    "L1_proceed": ["inflammatory spondylopathy", "polyarticular juvenile rheumatoid arthritis"],
+    "L2_research": ["vertebral disease"],
+    "L3_safety_eval": ["rheumatoid vasculitis"],
+    "L5_hold": [
+      "hypermobility of coccyx",
+      "Kummell disease",
+      "congenital hypotrichosis with juvenile macular dystrophy",
+      "polyp of vocal cord",
+      "polyp of middle ear",
+      "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"
+    ],
+    "safety_flag": "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency — 抗 TNF 療法在此疾病具理論上之嚴重致害風險，應列為禁忌考量。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 關鍵發現
+
+| 適應症 | 證據等級 | 決策 | 關鍵依據 |
+|--------|---------|------|---------|
+| inflammatory spondylopathy | **L1** | ✅ S3 Proceed | GO-RAISE Phase 3 RCT (NCT00265096, n=407) |
+| polyarticular JIA | **L1** | ✅ S3 Proceed | GO-KIDS Phase 3 IV golimumab (NCT02277444, n=130) |
+| vertebral disease | **L2** | 🔬 S2 Research | Phase 3 終止 (NCT02437162) + 多項觀察性研究 |
+| rheumatoid vasculitis | **L3** | 🔬 S1 Research | 間接 RA 試驗 + 個案報告 |
+| 其餘 6 項 | **L5** | ⏸️ S0 Hold | 純預測，無臨床/文獻支持 |
+
+### ⚠️ 重要安全警示
+
+**IL12B 完全缺乏症** — 雖 TxGNN 評分達 0.9574，此預測結果為**假陽性**。Anti-TNF 治療在分枝桿菌易感性疾病患者中具**理論禁忌**，不得推進任何臨床探索。
+
+> 本分析僅供研究參考，不構成醫療建議。所有再利用候選需經過嚴格臨床驗證方可應用。

@@ -1,0 +1,1827 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00458-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Imipramine",
+    "drugbank_id": "DB00458",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn": {
+        "score": 0.999010443687439,
+        "rank": 1974
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03220308",
+            "title": "Mindfulness Training for Children With ADHD and Mindful Parenting",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 103,
+            "start_date": "2016-02-18",
+            "completion_date": "2019-02-22",
+            "brief_summary": "This study evaluates the effectiveness of an 8-week mindfulness group training for children (8-16 years old) with ADHD in combination with a parallel mindful parenting training for their parents. Half of the participants will be randomly assigned to the mindfulness training in addition to care-as-usual (CAU); the other half to CAU-only.\n\nThe hypothesis is that compared to care-as-usual only, the addition of the mindfulness training will improve self-control of youth with ADHD.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "介入為正念訓練（非藥物），與 Imipramine 完全無關。雖涉及 ADHD 族群，對本藥之再利用評估無直接貢獻。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1974836",
+            "title": "Attention-deficit hyperactivity disorder.",
+            "authors": [
+              "Calis K A",
+              "Grothe D R",
+              "Elia J"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1990",
+            "abstract": "The epidemiology, etiology, pathogenesis, clinical presentation, diagnostic criteria, and clinical course of attention-deficit hyperactivity disorder (ADHD) are described and the role of pharmacotherapy in the management of this disorder is discussed. ADHD is a behavioral disorder of unknown etiology characterized by inattention, impulsiveness, and hyperactivity. The behavior, which may be manifest at home, at school, or in social situations, is generally worse in settings requiring sustained at",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10790990",
+            "title": "Treatment of attention-deficit/hyperactivity disorder.",
+            "authors": [
+              "Jadad A R",
+              "Boyle M",
+              "Cunningham C",
+              "Kim M",
+              "Schachar R"
+            ],
+            "journal": "Evidence report/technology assessment (Summary)",
+            "year": "1999",
+            "abstract": "To determine (a) the long-term and short-term effectiveness and safety of pharmacological and nonpharmacological interventions for attention-deficit/hyperactivity disorder (ADHD) in children and adults and (b) whether combined interventions are more effective than individual interventions.",
+            "classification": {
+              "study_type": "Treatment Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25295451",
+            "title": "Attention deficit and hyperactivity disorder: a therapeutic option.",
+            "authors": [
+              "Topczewski Abram"
+            ],
+            "journal": "Einstein (Sao Paulo, Brazil)",
+            "year": "2014",
+            "abstract": "To evaluate the use of a therapeutic regimen to treat attention deficit hyperactivity disorder patients.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32982805",
+            "title": "Antidepressants in Children and Adolescents: Meta-Review of Efficacy, Tolerability and Suicidality in Acute Treatment.",
+            "authors": [
+              "Boaden Katharine",
+              "Tomlinson Anneka",
+              "Cortese Samuele",
+              "Cipriani Andrea"
+            ],
+            "journal": "Frontiers in psychiatry",
+            "year": "2020",
+            "abstract": "Antidepressants are prescribed for the treatment of a number of psychiatric disorders in children and adolescents, however there is still controversy about whether they should be used in this population. This meta-review aimed to assess the effects of antidepressants for the acute treatment of attention-deficit/hyperactivity disorder (ADHD), anxiety disorders (ADs), autistic spectrum disorder (ASD), enuresis, major depressive disorder (MDD), obsessive-compulsive disorder (OCD), and posttraumatic",
+            "classification": {
+              "study_type": "Meta-Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1351794",
+            "title": "Attention-deficit hyperactivity disorder in adults.",
+            "authors": [
+              "Bellak L",
+              "Black R B"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "1992",
+            "abstract": "It has been estimated that 30% to 70% of children who are diagnosed as having attention-deficit hyperactivity disorder (ADHD) will continue to show symptoms of the condition as adults. Since the prevalence of ADHD among school children may be 3% or more, its prevalence among adults may be 1% or 2%. The third revised edition of the Diagnostic and Statistical Manual (1987) of the American Psychiatric Association lists three essential features for the diagnosis of ADHD: \"developmentally inappropria",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17078784",
+            "title": "Attention-deficit/hyperactivity disorder: using P300 topography to choose optimal treatment.",
+            "authors": [
+              "Sangal R Bart",
+              "Sangal JoAnne M"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2006",
+            "abstract": "Attention-deficit/hyperactivity disorder is the most prevalent behavioral disorder in children, and persists into adulthood. Stimulants (methylphenidate and amphetamines) with dopaminergic mechanisms are the most commonly used pharmacological treatment. Nonselective (desipramine and imipramine) and selective (atomoxetine) norepinephrine reuptake inhibitors can also be effective. What constitutes a sufficient response to treatment? Too often a partial response, leaving the patient symptomatic, is",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16450529",
+            "title": "Co-morbidity and treatment of attention deficit hyperactivity disorder in Saudi Arabia.",
+            "authors": [
+              "Al-Haidar F A"
+            ],
+            "journal": "Eastern Mediterranean health journal = La revue de sante de la Mediterranee orientale = al-Majallah al-sihhiyah li-sharq al-mutawassit",
+            "year": "2003",
+            "abstract": "To review the experience of a child psychiatric clinic regarding co-morbidity and treatment characteristics of children with attention deficit hyperactivity disorder (ADHD), a retrospective study was done on patients under 19 years who were attending the clinic and were diagnosed with ADHD. Co-morbidity and treatment characteristics were also studied. ADHD was diagnosed in 25.5% of the patients. Of these, 28.3% had coexistent expressive language disorder and 38.7% coexistent mild mental retardat",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20112604",
+            "title": "Pregnancy and delivery complications and treatment approach in attention deficit hyperactivity disorder.",
+            "authors": [
+              "Aktepe Evrim",
+              "Ozkorumak Evrim",
+              "Tanriöver-Kandil Sema"
+            ],
+            "journal": "The Turkish journal of pediatrics",
+            "year": "2009",
+            "abstract": "Pregnancy, delivery complications and treatment approach were evaluated in 153 cases diagnosed with attention deficit hyperactivity disorder in the State Hospital of Antalya in the Child and Adolescent Psychiatry Polyclinic. Most of the cases had been delivered vaginally (74.5%). The most frequent delivery complication was asphyxia/hypoxia (15.6%). The agent most frequently preferred in the treatment regimen was methylphenidate (82.4%), which is a psychostimulant. The other drugs used were rispe",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31776871",
+            "title": "Clinically Significant Drug-Drug Interactions with Agents for Attention-Deficit/Hyperactivity Disorder.",
+            "authors": [
+              "Schoretsanitis Georgios",
+              "de Leon Jose",
+              "Eap Chin B",
+              "Kane John M",
+              "Paulzen Michael"
+            ],
+            "journal": "CNS drugs",
+            "year": "2019",
+            "abstract": "This article provides an overview of the pharmacokinetic drug-drug interactions (DDIs) for agents prescribed for attention-deficit/hyperactivity disorder (ADHD). Polypharmacy in the treatment of patients with ADHD leads to high exposures to DDIs and possibly adverse safety outcomes. We performed a systematic search of DDI reports for ADHD agents in Embase and Medline. We also searched for agents in the pharmacological pipeline, which include (1) mazindol, molindone and viloxazine, which were pre",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14501767",
+            "title": "Management of urinary incontinence and nocturnal enuresis in attention-deficit hyperactivity disorder.",
+            "authors": [
+              "Crimmins C R",
+              "Rathbun S R",
+              "Husmann D A"
+            ],
+            "journal": "The Journal of urology",
+            "year": "2003",
+            "abstract": "We sought to determine whether attention-deficit hyperactivity disorder (ADHD) influences the resolution of urinary incontinence (UI, or diurnal and nocturnal wetness) and monosymptomatic nocturnal enuresis (NE).",
+            "classification": {
+              "study_type": "Clinical Guidance",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2830919",
+            "title": "Imipramine binding to platelets of children with attention deficit disorder with hyperactivity.",
+            "authors": [
+              "Weizman A",
+              "Bernhout E",
+              "Weitz R",
+              "Tyano S",
+              "Rehavi M"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1988",
+            "abstract": "High-affinity [3H]imipramine binding to platelets was investigated in 11 boys with attention deficit disorder and hyperactivity (ADDH) before and after 28 days of methylphenidate (MPH) treatment, and the results were compared to [3H]imipramine binding parameters (Kd, Bmax) of 10 age-matched normal boys. The binding parameters for imipramine binding sites did not differ between ADDH children and controls. Moreover, the beneficial therapeutic effect of MPH was not accompanied by any alteration in ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6849467",
+            "title": "Imipramine for attention deficit disorder.",
+            "authors": [
+              "Huessy H R"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2258453",
+            "title": "Possible influence of carbamazepine on plasma imipramine concentrations in children with attention deficit hyperactivity disorder.",
+            "authors": [
+              "Brown C S",
+              "Wells B G",
+              "Cold J A",
+              "Froemming J H",
+              "Self T H"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1990",
+            "abstract": "The effect of carbamazepine on the plasma concentration of imipramine and its metabolite desipramine was examined retrospectively in 36 sex- and age-matched children with attention deficit hyperactivity disorder. One-half of the children received imipramine and the other half received combined carbamazepine and imipramine for 1-6 months. The imipramine dosage was significantly higher in the combined treatment group than in the imipramine-only group. Despite receiving larger doses, the combined t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34002501",
+            "title": "Efficacy and acceptability of pharmacological, psychosocial, and brain stimulation interventions in children and adolescents with mental disorders: an umbrella review.",
+            "authors": [
+              "Correll Christoph U",
+              "Cortese Samuele",
+              "Croatto Giovanni",
+              "Monaco Francesco",
+              "Krinitski Damir"
+            ],
+            "journal": "World psychiatry : official journal of the World Psychiatric Association (WPA)",
+            "year": "2021",
+            "abstract": "Top-tier evidence on the safety/tolerability of 80 medications in children/adolescents with mental disorders has recently been reviewed in this jour-nal. To guide clinical practice, such data must be combined with evidence on efficacy and acceptability. Besides medications, psychosocial inter-ventions and brain stimulation techniques are treatment options for children/adolescents with mental disorders. For this umbrella review, we systematically searched network meta-analyses (NMAs) and meta-ana",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16222912",
+            "title": "Treatment of comorbidity in conduct disorder with attention-deficit hyperactivity disorder (ADHD).",
+            "authors": [
+              "Turgay Atilla"
+            ],
+            "journal": "Essential psychopharmacology",
+            "year": "2005",
+            "abstract": "Conduct disorder (CD) is one of the most common psychiatric disorders in childhood and adolescence. It is characterized by a variety of chronic antisocial behaviors, a repetitive and persistent pattern of behavior that violates the basic rights of others, major age-appropriate societal norms, or both. Aggressive behavior, lying, stealing, fire-setting, and running away from home and school are the most frequent manifestations of CD and are often accompanied by hyperactivity, impulsive behavior, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18304665",
+            "title": "Effects of imipramine hydrochloride on the EEG of children with Attention-Deficit/Hyperactivity Disorder who are non-responsive to stimulants.",
+            "authors": [
+              "Clarke Adam R",
+              "Barry Robert J",
+              "McCarthy Rory",
+              "Selikowitz Mark",
+              "Johnstone Stuart J"
+            ],
+            "journal": "International journal of psychophysiology : official journal of the International Organization of Psychophysiology",
+            "year": "2008",
+            "abstract": "Although stimulant medications are the most commonly-used treatments for Attention-Deficit/Hyperactivity Disorder (AD/HD), as many as 20% of treated children do not respond clinically to stimulants. One non-stimulant medication that has been widely used when the stimulants fail is a tricyclic antidepressant, imipramine hydrochloride. This study investigated the effects of imipramine on the EEG of children with AD/HD who were poor responders to dexamphetamine and ritalin, but who showed clinical ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11316683",
+            "title": "An auditable protocol for treating attention deficit/hyperactivity disorder.",
+            "authors": [
+              "Hill P",
+              "Taylor E"
+            ],
+            "journal": "Archives of disease in childhood",
+            "year": "2001",
+            "abstract": "We present an auditable protocol for attention deficit/hyperactivity disorder (ADHD) or hyperkinetic disorder. The protocol is derived from standard recommendations and evidence, and is intended for outpatient medical clinic practice in secondary care. Suggested side effect rating scales are included.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9465283",
+            "title": "Prolonged P300 latency in attention deficit hyperactivity disorder predicts poor response to imipramine.",
+            "authors": [
+              "Sangal J M",
+              "Sangal R B",
+              "Persky B"
+            ],
+            "journal": "Clinical EEG (electroencephalography)",
+            "year": "1996",
+            "abstract": "P300 is a cognitive evoked potential that evaluates attention and information processing. This study uses auditory and visual P300 topography to develop a classification of attention deficit hyperactivity disorder (ADHD), and find predictors of treatment response. Of 45 ADHD children ages 6 to 15 treated with pemoline in a previous study, 25 were poor responders. Of these 25, 17 participated in an imipramine treatment protocol. Auditory and visual P300 testing was performed before and after trea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15794722",
+            "title": "The safety of non-stimulant agents for the treatment of attention-deficit hyperactivity disorder.",
+            "authors": [
+              "Himpel Sunke",
+              "Banaschewski Tobias",
+              "Heise Cord-Alexander",
+              "Rothenberger Aribert"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2005",
+            "abstract": "Due to their well-established efficacy and safety, stimulants are the drugs of first choice if medication for attention-deficit hyperactivity disorder (ADHD) is required. Nevertheless, for some individuals other, non-stimulant treatments are needed for several reasons. If so, atomoxetine is recommended as a second-line treatment. In addition, several tricyclic antidepressants, such as desipramine or imipramine, as well as alpha-2 agonists, especially clonidine or bupropion, might be efficient in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8533716",
+            "title": "Attention-deficit hyperactivity disorder: the pharmacist's role.",
+            "authors": [
+              "Levin G M"
+            ],
+            "journal": "American pharmacy",
+            "year": "1995",
+            "abstract": "Included in the variety of options for treating ADHD are several classes of pharmacologic agents with various side effects and monitoring parameters. The pharmacist must understand the issues involved with the use of the agents in each class. The pharmacist is often the most accessible health care professional and can take advantage of this fact to counsel and support both patients and family members. Table 5 offers counseling tips and additional information for the pharmacist. Of the medication",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NET 抑制可提升前額葉皮質之兒茶酚胺訊號（尤其正腎上腺素），改善執行功能與注意力調控，機轉與 FDA 核准 ADHD 藥物 Atomoxetine 相似；SERT 抑制亦可輔助共病情緒症狀管理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn": {
+        "score": 0.9983041286468506,
+        "rank": 3030
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NET 抑制機轉理論上對注意力不足亞型具潛力（與混合型 ADHD 機轉相同），但此亞型專屬臨床數據完全缺失。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "faciodigitogenital syndrome",
+      "txgnn": {
+        "score": 0.9979740977287292,
+        "rank": 3439
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Aarskog-Scott 症候群為 FGD1 基因（Rho GEF）突變所致罕見 X 染色體遺傳疾病，影響 Rho GTPase 訊號，與 Imipramine 之單胺再攝取抑制機轉無已知關聯。TxGNN 預測可能反映知識圖譜拓撲假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "specific developmental disorder",
+      "txgnn": {
+        "score": 0.996702253818512,
+        "rank": 4906
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04815278",
+            "title": "NC Works4Health: Reducing Chronic Disease Risks in Socioeconomically Disadvantaged, Unemployed Populations",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 455,
+            "start_date": "2021-09-17",
+            "completion_date": "2025-11-30",
+            "brief_summary": "The proposed study, NC Works4Health (NCW4H), builds on the strengths of long-standing academic-community research partnerships between this UNC at Chapel Hill (UNC) team of investigators and key stakeholders across health, social service, employment, and economic development sectors. The overall goal of this study is to test the effectiveness of a multilevel intervention that can be readily adopted by communities to reduce chronic disease risks in socioeconomically disadvantaged populations by (",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "職業/社會介入研究，針對失業族群慢性病風險，與 Imipramine 治療特定發展障礙完全無關聯。疾病標籤匹配可能來自資料庫寬鬆對應。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「特定發展障礙」為異質性分類（含閱讀障礙、語言障礙、計算障礙等），各亞型神經病理差異顯著，無統一機轉支持 Imipramine 應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "chondromyxoid fibroma",
+      "txgnn": {
+        "score": 0.9966344237327576,
+        "rank": 4977
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "軟骨黏液纖維瘤為良性骨腫瘤，目前無任何抗腫瘤機轉支持 Imipramine 應用。部分文獻探討 TCA 類藥物對某些腫瘤的細胞毒性（粒線體途徑），但此類骨腫瘤缺乏任何基礎或臨床研究支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn": {
+        "score": 0.9920697212219238,
+        "rank": 8979
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "良性嬰兒陣發性斜頸被認為是偏頭痛譜系早期表現（CACNA1A/ATP1A2 基因關聯），Imipramine 歷史上雖用於偏頭痛預防，但無此特定嬰兒疾病之機轉或臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "obsessive-compulsive disorder",
+      "txgnn": {
+        "score": 0.9900617599487304,
+        "rank": 10495
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01944657",
+            "title": "Supplemental TMS vs. Standard Medication Monotherapy for Treating Major Depression: An Exploratory Field Study",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-09",
+            "completion_date": "2015-12",
+            "brief_summary": "A. Introduction to the Problem\n\nThis field experiment is intended to explore whether supplemental transcranial magnetic stimulation (TMS) is more effective than standard medication mono-therapy for the treatment of major depressive disorder. Transcranial magnetic stimulation (TMS) is now included in the practice guidelines of the American Psychiatric Association for the treatment of major depression.\n\nB. Importance of the Area of Study\n\nThe safety, efficacy and value of TMS treatment has been es",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究已撤案（enrolled 0），且適應症為重鬱症非 OCD，與本評估無關。"
+            }
+          },
+          {
+            "nct_id": "NCT06778824",
+            "title": "Esophageal Visceral Hypersensitivity and Hypervigilance in Disorders of Gut-brain Interaction: the Roles of Neuromodulators",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 610,
+            "start_date": "2024-04-02",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Gastroesophageal reflux disease (GERD) poses a challenging medical condition to manage, with up to 40% of patients showing refractory to standard medical intervention, which usually begins with a proton pump inhibitor (PPI). Among these cases, esophageal disorders of gut-brain interaction (DGBI), such as reflux hypersensitivity and functional heartburn, or GERD patients with concurrent occurrences of these conditions, constitute more than 90% of the patients who did not respond to twice-daily PP",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究焦點為腸-腦軸食道過敏，雖屬腸腦互動領域，但與 OCD 之精神科指標無關；可能因 Imipramine 抗膽鹼特性用於腸道症狀，與 OCD 再利用評估無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10775017",
+            "title": "History and evolution of the monoamine hypothesis of depression.",
+            "authors": [
+              "Hirschfeld R M"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2000",
+            "abstract": "The symptoms of depression can be improved by agents that act by various mechanisms to increase synaptic concentrations of monoamines. This finding led to the adoption of the monoamine hypothesis of depression, first put forward over 30 years ago, which proposes that the underlying biological or neuroanatomical basis for depression is a deficiency of central noradrenergic and/or serotonergic systems and that targeting this neuronal lesion with an antidepressant would tend to restore normal funct",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1281075",
+            "title": "Sertraline. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic potential in depression and obsessive-compulsive disorder.",
+            "authors": [
+              "Murdoch D",
+              "McTavish D"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "Sertraline is a selective inhibitor of central serotonin reuptake. Thus, it enhances serotoninergic transmission--a property which appears to explain its antidepressant activity. Its elimination half-life (approximately 26 hours) makes it suitable for once daily administration. Although clinical experience with sertraline is limited, it appears to possess antidepressant efficacy similar to that of amitriptyline and dothiepin, marginally better than imipramine, and significantly better than place",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32982805",
+            "title": "Antidepressants in Children and Adolescents: Meta-Review of Efficacy, Tolerability and Suicidality in Acute Treatment.",
+            "authors": [
+              "Boaden Katharine",
+              "Tomlinson Anneka",
+              "Cortese Samuele",
+              "Cipriani Andrea"
+            ],
+            "journal": "Frontiers in psychiatry",
+            "year": "2020",
+            "abstract": "Antidepressants are prescribed for the treatment of a number of psychiatric disorders in children and adolescents, however there is still controversy about whether they should be used in this population. This meta-review aimed to assess the effects of antidepressants for the acute treatment of attention-deficit/hyperactivity disorder (ADHD), anxiety disorders (ADs), autistic spectrum disorder (ASD), enuresis, major depressive disorder (MDD), obsessive-compulsive disorder (OCD), and posttraumatic",
+            "classification": {
+              "study_type": "Meta-Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7963449",
+            "title": "Obsessive-compulsive disorder: a new perspective in diagnosis and treatment.",
+            "authors": [
+              "Lydiard R B"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1994",
+            "abstract": "Once widely regarded as a rare psychodynamic illness, obsessive-compulsive disorder (OCD) is now recognized as a common neurobiological condition affecting 1 in 50 US citizens. The etiology of the illness is still not clearly understood, but the observed therapeutic response in OCD patients to the potent serotonin uptake inhibitor clomipramine hydrochloride (CMI), guided research in the direction of neuronal brain function, and abnormalities of postsynaptic serotonin receptors are currently the ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3887445",
+            "title": "Clomipramine and imipramine in obsessive-compulsive disorder.",
+            "authors": [
+              "Volavka J",
+              "Neziroglu F",
+              "Yaryura-Tobias J A"
+            ],
+            "journal": "Psychiatry research",
+            "year": "1985",
+            "abstract": "Twenty-three outpatients with primary obsessive-compulsive disorder (OCD) were started in a 12-week double-blind clinical trial of clomipramine (CLI) (n = 11) and imipramine (IMI) (n = 12). There was no placebo and no crossover. After 6 weeks of treatment, data on 19 subjects (9 CLI, 10 IMI) were available. After week 12, the sample was reduced to 16 patients (8 CLI, 8 IMI). At both time points, OCD symptoms showed modest reductions (in comparison with the pretreatment baseline) in both CLI and ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2878798",
+            "title": "Fluoxetine. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic efficacy in depressive illness.",
+            "authors": [
+              "Benfield P",
+              "Heel R C",
+              "Lewis S P"
+            ],
+            "journal": "Drugs",
+            "year": "1986",
+            "abstract": "Fluoxetine is a new antidepressant which enhances serotoninergic neurotransmission through potent and selective inhibition of neuronal reuptake of serotonin. Metabolism by N-desmethylation occurs in man yielding desmethylfluoxetine, which also inhibits serotonin reuptake. Both the parent compound and metabolite possess elimination half-lives of several days facilitating the maintenance of steady-state plasma concentrations during long term treatment. Fluoxetine has overall therapeutic efficacy c",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2413912",
+            "title": "Obsessive-compulsive disorder and serotonin: is there a connection?",
+            "authors": [
+              "Insel T R",
+              "Mueller E A",
+              "Alterman I",
+              "Linnoila M",
+              "Murphy D L"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1985",
+            "abstract": "Reports of the antiobsessional efficacy of clomipramine have led to a \"serotonin hypothesis\" of obsessive-compulsive disorder (OCD). To test this hypothesis, 16 outpatients with DSM-III OCD were studied using several measures of serotonergic function. Platelet 3H-imipramine binding and serotonin uptake were not significantly different between the OCD patients and a normal, age-matched control group. The level of the metabolite 5-hydroxyindoleacetic acid (5-HIAA) in cerebrospinal fluid (CSF) was ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3036259",
+            "title": "Obsessive-compulsive disorder: psychobiological approaches to diagnosis, treatment, and pathophysiology.",
+            "authors": [
+              "Zohar J",
+              "Insel T R"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1987",
+            "abstract": "The diagnosis, treatment, and pathophysiology of obsessive-compulsive disorder (OCD) were examined in a series of studies utilizing psychobiological approaches. Putative biological markers previously reported in depression were studied in this disorder and revealed that on some measures [Dexamethasone Suppression Test and rapid eye movement (REM) latency on sleep electroencephalogram (EEG)], OCD patients resemble those with major depressive disorder (MDD), whereas on others [REM density, platele",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10986730",
+            "title": "Hypochondriasis and its relationship to obsessive-compulsive disorder.",
+            "authors": [
+              "Fallon B A",
+              "Qureshi A I",
+              "Laje G",
+              "Klein B"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2000",
+            "abstract": "Hypochondriasis is a heterogeneous disorder. This was well demonstrated in the study by Kellner et al, which showed that patients with high levels of disease fear tended to be more anxious or phobic, whereas patients with high levels of disease conviction tended to have more and more severe somatic symptoms. Little comorbidity exists to support the statement that hypochondriasis is an obsessive-compulsive spectrum disorder. Although patients exist whose hypochondriac concerns are identical in qu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3615688",
+            "title": "Effects of imipramine on depression and obsessive-compulsive symptoms.",
+            "authors": [
+              "Foa E B",
+              "Steketee G",
+              "Kozak M J",
+              "Dugger D"
+            ],
+            "journal": "Psychiatry research",
+            "year": "1987",
+            "abstract": "Most of the controlled studies on the efficacy of medical treatments of obsessive-compulsive disorder (OCD) have involved clomipramine, a tricyclic antidepressant reputed to have anti-obsessional properties. To test the possibility that the drug's antidepressant action mediates the reduction of obsessive-compulsive symptoms, we treated 37 OCD patients with imipramine (mean dose = 233 mg/day) or placebo for 6 weeks and assessed improvement on both obsessive-compulsive and depressive symptoms. Imi",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2178909",
+            "title": "Clomipramine. An overview of its pharmacological properties and a review of its therapeutic use in obsessive compulsive disorder and panic disorder.",
+            "authors": [
+              "McTavish D",
+              "Benfield P"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "During the 20 years that have elapsed since clomipramine (chlorimipramine) was first marketed, it has become well established in the treatment of depressive illness, particularly treatment-resistant depression. However, in addition to its role as an antidepressant, attention is being focused on the use of clomipramine in 2 other areas of psychiatry: obsessive compulsive disorder and panic disorder. Short term clinical trials have shown that clomipramine is generally more effective than amitripty",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1603880",
+            "title": "Peripheral markers of serotonin and dopamine function in obsessive-compulsive disorder.",
+            "authors": [
+              "Marazziti D",
+              "Hollander E",
+              "Lensi P",
+              "Ravagli S",
+              "Cassano G B"
+            ],
+            "journal": "Psychiatry research",
+            "year": "1992",
+            "abstract": "In an attempt to clarify the possible role of a serotonergic and dopaminergic dysfunction in obsessive-compulsive disorder (OCD), we measured platelet 3H-imipramine (3H-IMI) binding, serotonin uptake, and platelet sulfotransferase activity in 17 drug-free OCD patients and an equal number of healthy controls. Serotonin uptake and 3H-IMI binding sites in platelets have been shown to constitute peripheral markers of those present in presynaptic serotonergic neurons. Sulfotransferase, an enzyme invo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1393157",
+            "title": "Treatment of depressive and obsessive-compulsive symptoms in OCD by imipramine and behaviour therapy.",
+            "authors": [
+              "Foa E B",
+              "Kozak M J",
+              "Steketee G S",
+              "McCarthy P R"
+            ],
+            "journal": "The British journal of clinical psychology",
+            "year": "1992",
+            "abstract": "The efficacy of behavioural treatment of obsessive-compulsive disorder (OCD) has been well documented. However, severely depressed OCD patients showed fewer short- and long-term benefits than less depressed patients. The present study tested the hypothesis that reduction of depression by imipramine prior to behaviour therapy would enhance the effects of behavioural therapy on depressed OC patients. Thirty-eight patients were divided into highly and mildly depressed groups according to their scor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34002501",
+            "title": "Efficacy and acceptability of pharmacological, psychosocial, and brain stimulation interventions in children and adolescents with mental disorders: an umbrella review.",
+            "authors": [
+              "Correll Christoph U",
+              "Cortese Samuele",
+              "Croatto Giovanni",
+              "Monaco Francesco",
+              "Krinitski Damir"
+            ],
+            "journal": "World psychiatry : official journal of the World Psychiatric Association (WPA)",
+            "year": "2021",
+            "abstract": "Top-tier evidence on the safety/tolerability of 80 medications in children/adolescents with mental disorders has recently been reviewed in this jour-nal. To guide clinical practice, such data must be combined with evidence on efficacy and acceptability. Besides medications, psychosocial inter-ventions and brain stimulation techniques are treatment options for children/adolescents with mental disorders. For this umbrella review, we systematically searched network meta-analyses (NMAs) and meta-ana",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2165423",
+            "title": "A test of the tridimensional personality theory: association with diagnosis and platelet imipramine binding in obsessive-compulsive disorder.",
+            "authors": [
+              "Pfohl B",
+              "Black D",
+              "Noyes R",
+              "Kelley M",
+              "Blum N"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1990",
+            "abstract": "We administered the Tridimensional Personality Questionnaire (TPQ) to a sample of 25 individuals with obsessive-compulsive disorder (OCD) and 35 normal controls. As predicted, OCD cases scored much higher on the harm avoidance dimension than normal controls. Findings for the novelty seeking and reward dependence dimensions were less dramatic, although compatible with the underlying theory. Despite a theoretical link between the harm avoidance dimension and serotonin-mediated neuropathways, we fa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16112691",
+            "title": "Serotonin transporter mutations associated with obsessive-compulsive disorder and phosphorylation alter binding affinity for inhibitors.",
+            "authors": [
+              "Zhang Yuan-Wei",
+              "Rudnick Gary"
+            ],
+            "journal": "Neuropharmacology",
+            "year": "2005",
+            "abstract": "Mutants of serotonin transporter that are altered in their regulation by cGMP were tested for the ability of cocaine and the antidepressant drugs imipramine, sertraline, citalopram and fluoxetine to inhibit serotonin transport. Mutation at Ile-425 to valine, found in some patients with obsessive-compulsive disorder, altered the response of SERT to cGMP (Kilic, F., Murphy, D.L., Rudnick, G., 2003. A human serotonin transporter mutation causes constitutive activation of transport activity. Mol. Ph",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8275900",
+            "title": "[Pharmacologic treatment of obsessive compulsive disorder in the child and adolescent].",
+            "authors": [
+              "Flament M F"
+            ],
+            "journal": "L'Encephale",
+            "year": "1993",
+            "abstract": "Although obsessive compulsive disorder (OCD) was considered as a rare and treatment-refractory syndrome, research findings from the past decade have focused new interest on the disorder. Epidemiological studies have shown that prevalence rate of OCD was much higher than previously thought (1% of the general adolescent population), and the discovery of a class of psychiatric drugs specific for OCD has brought new therapeutic options as well as pathophysiological hypotheses for the disorder. Rigor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8973072",
+            "title": "Platelet serotonin transporter in children and adolescents with obsessive-compulsive disorder or Tourette's syndrome.",
+            "authors": [
+              "Sallee F R",
+              "Richman H",
+              "Beach K",
+              "Sethuraman G",
+              "Nesbitt L"
+            ],
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "1996",
+            "abstract": "Previous studies of serotonin transporter protein (5HTPR) indexed in platelets by 3H-imipramine demonstrate reduction in children with comorbid obsessive-compulsive disorder (OCD) and Tourette's syndrome (TS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3076498",
+            "title": "Drugs and psychological treatments for agoraphobia/panic and obsessive-compulsive disorders: a review.",
+            "authors": [
+              "Marks I",
+              "O'Sullivan G"
+            ],
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "year": "1988",
+            "abstract": "In the short term, both antidepressants and exposure therapy usually improve agoraphobia/panic (AP) and obsessive-compulsive (OC) disorders and are accepted by most patients; psychological methods omitting exposure are not consistently helpful. Antidepressants have a broad-spectrum rather than specific anti-agoraphobia/panic or anti-obsessive-compulsive action. For long-term efficacy, there is good evidence for the value of exposure, but none for drugs. Because of relapse on ceasing drugs, and t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6347516",
+            "title": "Antidepressants in the treatment of agoraphobia and obsessive-compulsive disorder.",
+            "authors": [
+              "Mavissakalian M"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "OCD 與皮質-紋狀體-視丘-皮質迴路（CSTC）過度活化及血清素失調有關。SERT 抑制可增加突觸間隙 5-HT，理論上可減輕強迫症狀；然 Imipramine 之 SERT/NET 抑制比例不如 Clomipramine（SRI 選擇性較高）理想，臨床效果遜於 SSRI/Clomipramine。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "agoraphobia",
+      "txgnn": {
+        "score": 0.98973548412323,
+        "rank": 10724
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38014714",
+            "title": "Pharmacological treatments in panic disorder in adults: a network meta-analysis.",
+            "authors": [
+              "Guaiana Giuseppe",
+              "Meader Nicholas",
+              "Barbui Corrado",
+              "Davies Simon Jc",
+              "Furukawa Toshi A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2023",
+            "abstract": "A panic attack is a discrete period of fear or anxiety that has a rapid onset and reaches a peak within 10 minutes. The main symptoms involve bodily systems, such as racing heart, chest pain, sweating, shaking, dizziness, flushing, churning stomach, faintness and breathlessness. Other recognised panic attack symptoms involve fearful cognitions, such as the fear of collapse, going mad or dying, and derealisation (the sensation that the world is unreal). Panic disorder is common in the general pop",
+            "classification": {
+              "study_type": "Network Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2672069",
+            "title": "Differential effects of imipramine and behavior therapy on panic disorder with agoraphobia.",
+            "authors": [
+              "Mavissakalian M"
+            ],
+            "journal": "Psychopharmacology bulletin",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12006900",
+            "title": "Duration of imipramine therapy and relapse in panic disorder with agoraphobia.",
+            "authors": [
+              "Mavissakalian Matig R",
+              "Perel James M"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "2002",
+            "abstract": "It has been suggested that maintenance treatment of patients who have remitted panic disorder with agoraphobia beyond the six months of acute phase imipramine treatment may decrease the risk of relapse. This study further explores the relationship between relapse and duration of imipramine treatment in this population.Fifty-one patients, all in remission at the end of six months acute phase open trial with imipramine 2.25 mg/kg/day and randomized to double-blind maintenance or placebo substituti",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6101535",
+            "title": "Treatment of agoraphobia with group exposure in vivo and imipramine.",
+            "authors": [
+              "Zitrin C M",
+              "Klein D F",
+              "Woerner M G"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1980",
+            "abstract": "Seventy-six white agoraphobic women, 21 to 45 years old, were treated with combined group exposure in vivo and imipramine or placebo in a randomized double-blind study. A majority of the patients in both the placebo and imipramine groups showed moderate to marked improvement. However, imipramine therapy was significantly superior to placebo therapy on three of the four reported measures of improvement: primary phobia, spontaneous panic, and global improvement. There was a negative correlation be",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11534926",
+            "title": "2nd year maintenance and discontinuation of imipramine in panic disorder with agoraphobia.",
+            "authors": [
+              "Mavissakalian M R",
+              "Perel J M"
+            ],
+            "journal": "Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+            "year": "2001",
+            "abstract": "The results from our 1 year placebo-controlled maintenance/discontinuation study in remitted panic disorder with agoraphobia patients confirmed the significant prophylactic effectiveness of imipramine maintenance treatment but suggested that this may be necessary in only 37% of the patients who relapse following discontinuation of 6 months acute imipramine treatment. This paper presents pilot data from a second year extension of the above-mentioned study with the aim of exploring the putative pr",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12884888",
+            "title": "Long-term maintenance and discontinuation of imipramine therapy in panic disorder with agoraphobia.",
+            "authors": [
+              "Mavissakalian M R",
+              "Perel J M"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1999",
+            "abstract": "There has been little systematic work done regarding the long-term treatment of panic disorders. The aim of the present study was to assess the 12-month cumulative risk of relapse specifically due to discontinuation of imipramine and to test the hypothesis that maintenance treatment with imipramine protects patients with panic disorder and agoraphobia from such reversals.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3731774",
+            "title": "Imipramine in agoraphobia.",
+            "authors": [
+              "Mavissakalian M"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7133835",
+            "title": "Agoraphobia and imipramine withdrawal?",
+            "authors": [
+              "Shrand H"
+            ],
+            "journal": "Pediatrics",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case/Clinical Observation",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2293254",
+            "title": "Sleep studies and neurochemical correlates in panic disorder and agoraphobia.",
+            "authors": [
+              "Pecknold J C",
+              "Luthe L"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "1990",
+            "abstract": "Although panic disorder is classified by the DSM III among the anxiety disorders, there is evidence from epidemiological and neurochemical studies that links panic to the affective disorders. In addition several of the effective pharmacological treatments suggest, as in the depressive disorders, serotonergic involvement. As part of the evaluation of patients who would take part in the Cross National Collaborative Panic study, polysomnography, the dexamethasone suppression test and platelet imipr",
+            "classification": {
+              "study_type": "Mechanistic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2144315",
+            "title": "Treatment of panic and agoraphobia. An integrative review.",
+            "authors": [
+              "Mattick R P",
+              "Andrews G",
+              "Hadzi-Pavlovic D",
+              "Christensen H"
+            ],
+            "journal": "The Journal of nervous and mental disease",
+            "year": "1990",
+            "abstract": "There is now agreement about the clinical features of panic disorder and agoraphobia but less agreement about treatment because of controversy over whether the disorder is primarily biological or psychological. The authors were requested to produce an impartial review for continuing education and peer review. We chose to do this by using a quantitative review procedure, by providing a bibliography of studies, and by a literature review. We found that symptoms of panic and phobia did not change s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7726306",
+            "title": "Imipramine treatment of panic disorder with agoraphobia: dose ranging and plasma level-response relationships.",
+            "authors": [
+              "Mavissakalian M R",
+              "Perel J M"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1995",
+            "abstract": "The aim of this study was to characterize the specific effects of imipramine in the treatment of panic disorder with agoraphobia and to delineate dose-response and possibly plasma level-response relationships.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1558466",
+            "title": "Clinical experiments in maintenance and discontinuation of imipramine therapy in panic disorder with agoraphobia.",
+            "authors": [
+              "Mavissakalian M",
+              "Perel J M"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1992",
+            "abstract": "Several issues remain to be ascertained beyond the acute response to imipramine hydrochloride in patients with panic disorder. Study 1 consisted of a prospective, systematic characterization of half-dose 12-month maintenance in patients with panic disorder with agoraphobia who had shown marked and stable response to 6 months of acute-phase treatment with imipramine. Study 2 assessed the 6-month cumulative relapse rate following discontinuation of acute-phase imipramine treatment in a comparable ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3512534",
+            "title": "Agoraphobia: relative and combined effectiveness of therapist-assisted in vivo exposure and imipramine.",
+            "authors": [
+              "Mavissakalian M",
+              "Michelson L"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1986",
+            "abstract": "Sixty-two chronically agoraphobic patients completed a controlled study to assess the effects of 1) imipramine up to 200 mg/day (mean = 130 mg/day), 2) 12 weekly therapist-assisted in vivo exposure sessions (flooding), and 3) imipramine plus flooding. The control group received systematic therapeutic instructions for self-directed in vivo exposure (programmed practice). Clinical measures of global severity, phobia, panic, anxiety, depression, and behavioral performance tests were administered be",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8927663",
+            "title": "A double-blind placebo-controlled trial comparing fluvoxamine and imipramine in the treatment of panic disorder with or without agoraphobia.",
+            "authors": [
+              "Bakish D",
+              "Hooper C L",
+              "Filteau M J",
+              "Charbonneau Y",
+              "Fraser G"
+            ],
+            "journal": "Psychopharmacology bulletin",
+            "year": "1996",
+            "abstract": "This study compared the efficacy, tolerability, and safety of fluvoxamine, imipramine, and placebo in the treatment of panic disorder with or without agoraphobia. Fifty-four outpatients participated in the randomized, double-blind trial as part of a multicenter trial. After meeting inclusion criteria and completing screening requirements (e.g., laboratory testing, electrocardiogram, physical examination), patients were entered in a single-blind placebo washout phase. They were then randomized to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2873609",
+            "title": "A comparison of alprazolam and imipramine in the treatment of agoraphobia and panic disorder.",
+            "authors": [
+              "Rizley R",
+              "Kahn R J",
+              "McNair D M",
+              "Frankenthaler L M"
+            ],
+            "journal": "Psychopharmacology bulletin",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2902321",
+            "title": "Agoraphobia.",
+            "authors": [],
+            "journal": "Lancet (London, England)",
+            "year": "1988",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1487535",
+            "title": "A meta-analysis of treatments for panic disorder with agoraphobia: imipramine, alprazolam, and in vivo exposure.",
+            "authors": [
+              "Cox B J",
+              "Endler N S",
+              "Lee P S",
+              "Swinson R P"
+            ],
+            "journal": "Journal of behavior therapy and experimental psychiatry",
+            "year": "1992",
+            "abstract": "The most common pharmacological treatments for panic disorder with agoraphobia (PDA) include the use of imipramine and alprazolam while the most common behavior therapy is the use of graded in vivo exposure. Several studies have found these treatments to be superior to placebo in the treatment of PDA, but it has not been clear if there are differences among these three treatments. It has also not been clear for what aspects of PDA each treatment is the most effective. The purpose of this study w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6693582",
+            "title": "The relationship of plasma imipramine and N-desmethylimipramine to improvement in agoraphobia.",
+            "authors": [
+              "Mavissakalian M",
+              "Perel J M",
+              "Michelson L"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1984",
+            "abstract": "Plasma tricyclic concentrations were assessed in 15 agoraphobic patients receiving combined imipramine and behavioral treatments. Imipramine but not N-desmethylimipramine plasma levels were found to significantly correlate with improvement. The results suggest that imipramine's effect in agoraphobia might be mediated predominantly through the serotonergic action of the parent drug. There was also suggestive evidence for differential antipanic and antiphobic-antidepressant effects. Implications f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2335493",
+            "title": "Sequential combination of imipramine and self-directed exposure in the treatment of panic disorder with agoraphobia.",
+            "authors": [
+              "Mavissakalian M"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1990",
+            "abstract": "Thirty-eight patients who had panic disorder with agoraphobia completed 8 weeks of treatment with imipramine followed by 8 weeks of treatment with imipramine combined with behavior therapy consisting of self-directed exposure. Sixty-three percent (24) of the patients responded markedly to this cost-effective combined pharmacologic and behavioral approach. Results also revealed that most of the improvement in panic occurred during the first 8 weeks of treatment when imipramine treatment alone was",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "恐慌症/廣場恐懼症涉及藍斑核（Locus Coeruleus）正腎上腺素系統過度活化及 5-HT 失調。Imipramine 透過 NET+SERT 雙重抑制降低恐慌發作頻率，並可能透過下游受體適應性變化（β 受體下調）產生抗焦慮效果。此機轉已獲多項 RCT 直接驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "histrionic personality disorder (disease)",
+      "txgnn": {
+        "score": 0.9861102104187012,
+        "rank": 13504
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4799687",
+            "title": "[Demonstration of antidepressant activity on a neurophysiologic model].",
+            "authors": [
+              "Val'dman A V",
+              "Kozlovskaia M M"
+            ],
+            "journal": "Farmakologiia i toksikologiia",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Basic/Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "表演型人格障礙（HPD）目前無公認藥物療法；情緒調節困難可能與多巴胺/血清素訊號有關，但無特定機轉支持 Imipramine 應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "schizoid personality disorder",
+      "txgnn": {
+        "score": 0.9861102104187012,
+        "rank": 13505
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4572815",
+            "title": "Prediction of drug effect in personality disorders.",
+            "authors": [
+              "Klein D F",
+              "Honigfeld G",
+              "Feldman S"
+            ],
+            "journal": "The Journal of nervous and mental disease",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Predictive/Observational Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "分裂性人格障礙（SchPD）特徵為情感疏離，部分假說涉及多巴胺低活性，與 Imipramine 主要機轉（單胺再攝取抑制）有潛在反向效應，無充分機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "obsessive-compulsive disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipramine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

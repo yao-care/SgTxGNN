@@ -1,0 +1,473 @@
+## 藥物再利用證據分析：Alprostadil (DB00770)
+
+**藥物背景**：Alprostadil 為前列腺素 E1（PGE1），透過 EP2/EP4 受體 → 腺苷酸環化酶 → cAMP↑ → 血管平滑肌舒張，是維持動脈導管（PDA）開放的核心機轉。本地 `market_status: 未上市`，所有適應症均視為再利用候選。
+
+---
+
+```json
+{
+  "drug": "Alprostadil",
+  "drugbank_id": "DB00770",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "Alprostadil (PGE1) 在全球已廣泛用於導管依賴性先天性心臟病之術前穩定，但新加坡本地未正式上市，所有適應症均以再利用框架評估。endemic goiter 疑為 TxGNN 假陽性。",
+  "indications": [
+    {
+      "disease_name": "aortic malformation",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "主動脈畸形（如主動脈弓中斷、缺血性主動脈狹窄、主動脈瓣閉鎖）為導管依賴性病灶：動脈導管連接肺動脈與降主動脈，提供繞過阻塞段的體循環血流。PGE1 透過 EP2/EP4 → cAMP 上調，逆轉導管收縮，維持術前全身灌流，是新生兒手術前標準橋接策略。機轉鏈清晰，為本組最強連結。",
+      "clinical_context": "國際上 PGE1 維持 PDA 開放已是新生兒 CICU 標準治療（AAP/AHA 指引等級 I），但因倫理限制無法進行 RCT，故最高等級停留於 L3（多中心回顧性研究/病例系列）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02042092",
+          "title": "CDUS vs MRA Head-to-Head Comparison",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 39,
+          "relevance_grade": "C",
+          "reasoning": "影像學診斷比較研究，未測試 Alprostadil 療效。與藥物再利用評估無直接相關。"
+        },
+        {
+          "nct_id": "NCT04054115",
+          "title": "Acute Effects of Alprostadil on Cerebral and Pulmonary Flow After Bidirectional Glenn",
+          "phase": "PHASE1",
+          "status": "TERMINATED",
+          "enrollment": 10,
+          "relevance_grade": "B",
+          "reasoning": "直接測試 Alprostadil 對先天性心臟病術後血流動力學影響，機轉相關性高。但因 TERMINATED 且僅納入 10 人，無法提供療效結論。可作為安全性初步訊號參考。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6763200",
+          "title": "Evaluation of alprostadil (PGE1) in the management of congenital heart disease in infancy",
+          "year": "1982",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "最早期 Alprostadil 用於先天性心臟病的系統性病例系列，具歷史奠基意義"
+        },
+        {
+          "pmid": "7201134",
+          "title": "PGE1 infusion in newborns with hypoplastic left ventricle and aortic atresia",
+          "year": "1982",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "主動脈閉鎖（aortic atresia）屬主動脈畸形核心子類，直接支持再利用"
+        },
+        {
+          "pmid": "19080093",
+          "title": "Effects of alprostadil and ulinastatin on inflammatory response and lung injury after cardiopulmonary bypass",
+          "year": "2008",
+          "study_type": "Quasi-RCT / Controlled Study",
+          "tier": "2",
+          "relevance": "直接",
+          "note": "比較性研究，直接使用 Alprostadil，提供較高等級干預證據"
+        },
+        {
+          "pmid": "32184038",
+          "title": "Staged surgical repair for infants with interrupted aortic arch",
+          "year": "2020",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "間接",
+          "note": "主動脈弓中斷外科修復，術前 PGE1 為標準流程但非主要研究終點"
+        },
+        {
+          "pmid": "26686446",
+          "title": "Management of Interrupted Aortic Arch",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "間接",
+          "note": "臨床管理綜述，描述 PGE1 在術前穩定的角色"
+        },
+        {
+          "pmid": "16368373",
+          "title": "Closed transventricular aortic valvotomy for critical aortic stenosis in neonates",
+          "year": "2006",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "間接",
+          "note": "新生兒危重主動脈狹窄管理，PGE1 屬術前橋接部分"
+        },
+        {
+          "pmid": "25647388",
+          "title": "Preoperative management of the neonate with critical aortic valvar stenosis",
+          "year": "2014",
+          "study_type": "Review / Clinical Guideline",
+          "tier": "3",
+          "relevance": "間接",
+          "note": "術前管理指引，肯定 PGE1 使用但無獨立對照數據"
+        },
+        {
+          "pmid": "27358171",
+          "title": "New Developments in Platelet Cyclic Nucleotide Signalling: Therapeutic Implications",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "機轉",
+          "note": "PGE1/cAMP 訊號機轉綜述，支持機轉合理性但無臨床療效數據"
+        },
+        {
+          "pmid": "30347623",
+          "title": "Enteral feeding in duct-dependent congenital heart disease",
+          "year": "2019",
+          "study_type": "Cohort / Review",
+          "tier": "3",
+          "relevance": "間接",
+          "note": "描述導管依賴性 CHD 管理，間接支持 PGE1 使用情境"
+        },
+        {
+          "pmid": "26118445",
+          "title": "Right Aortic Arch Detected Prenatally: A Rare Case",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "間接",
+          "note": "個案報告，主動脈弓異常情境"
+        }
+      ],
+      "guardrails": [
+        "需新生兒 CICU 環境及 24 小時血氧監測",
+        "注意呼吸暫停（apnea）副作用，備妥插管設備",
+        "長期使用監測幽門狹窄（PMID 25263728）及骨膜增生"
+      ]
+    },
+    {
+      "disease_name": "congenital tricuspid stenosis",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "先天性三尖瓣狹窄導致右心輸出量下降，肺血流不足。PGE1 維持動脈導管開放，保留右向左分流通路（PDA → 降主動脈），作為肺循環的替代旁路。同時 PGE1 直接舒張肺血管，降低右心後負荷。此機轉為「導管依賴性右心病灶」共同路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10216540",
+          "title": "Prostaglandin E1 in infants with congenital heart disease: Indian experience",
+          "year": "1998",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "多種先天性心臟病亞型均包含三尖瓣相關病灶，PGE1 納入使用"
+        },
+        {
+          "pmid": "2624556",
+          "title": "Infusion of PGE1 in ductus-dependent congenital heart diseases: 47 cases",
+          "year": "1989",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "47 例導管依賴性 CHD，涵蓋右心阻塞性病灶，與三尖瓣狹窄生理類似"
+        },
+        {
+          "pmid": "6537955",
+          "title": "Long-term prostaglandin E1 therapy in congenital heart defects",
+          "year": "1984",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "長期 PGE1 使用安全性資料，支持橋接至手術的可行性"
+        },
+        {
+          "pmid": "1921438",
+          "title": "Pulmonary atresia and intact ventricular septum: definitive repair in the neonatal period",
+          "year": "1991",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "間接",
+          "note": "肺動脈閉鎖與三尖瓣狹窄有相似的右心低灌流生理，PGE1 角色類比"
+        }
+      ],
+      "evidence_gap": "目前文獻為三尖瓣狹窄亞型的間接推論，無針對此特定適應症的獨立臨床試驗。建議建立特定亞型的前瞻性登錄研究。"
+    },
+    {
+      "disease_name": "congenital valvular dysplasia",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性瓣膜發育不良為一廣泛診斷類別，視受影響瓣膜及血流動力學表現不同。部分亞型（如嚴重肺動脈瓣發育不良）可能呈導管依賴性，PGE1 機轉具合理性；但此類別本身過於異質，無法作為統一適應症評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床試驗、零文獻支持。TxGNN 預測分數高（0.9993）反映知識圖譜上與其他先天性心臟病的拓樸距離近，而非直接臨床證據。需依具體瓣膜病灶分類後重新評估。"
+    },
+    {
+      "disease_name": "straddling or overriding tricuspid valve",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "跨越或騎跨型三尖瓣與心室中隔缺損相關，屬複雜先天性心臟病。若合併肺動脈阻塞或導管依賴性體循環，PGE1 維持 PDA 的機轉具理論基礎；但此適應症本身的 PGE1 治療無直接文獻支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "944520",
+          "title": "Overriding tricuspid valve: echocardiographic and angiocardiographic features",
+          "year": "1976",
+          "study_type": "Diagnostic/Observational",
+          "tier": "3",
+          "relevance": "無（診斷分類研究）",
+          "note": "純粹解剖診斷論文，未涉及藥物治療"
+        },
+        {
+          "pmid": "33671890",
+          "title": "Atrioventricular Septal Defect: What Is in a Name?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "無",
+          "note": "命名與分類討論，與 Alprostadil 無關"
+        },
+        {
+          "pmid": "11390347",
+          "title": "Double-outlet right ventricle and overriding tricuspid valve reflect disturbances of looping",
+          "year": "2001",
+          "study_type": "Basic Science / Developmental Biology",
+          "tier": "3",
+          "relevance": "無",
+          "note": "心臟發育機制研究，非臨床治療證據"
+        }
+      ],
+      "note": "所有文獻均為解剖形態學或診斷性研究，無任何論文評估 Alprostadil 在此適應症的療效。文獻數量（20篇）反映疾病本身的研究量而非藥物-疾病交集證據。"
+    },
+    {
+      "disease_name": "tricuspid valve agenesis",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "三尖瓣缺如導致右心腔無法有效泵血至肺循環，生理上必須依賴 PDA 維持肺血流或系統性分流。PGE1 維持 PDA 開放的機轉直接適用，與三尖瓣閉鎖（tricuspid atresia）的 PGE1 使用情境高度類比。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6685153",
+          "title": "Transient neonatal tricuspid regurgitation: possible relation with premature closure of the ductus arteriosus",
+          "year": "1983",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "機轉間接",
+          "note": "PDA 關閉與三尖瓣功能異常的關聯，間接支持 PGE1 維持 PDA 的重要性"
+        },
+        {
+          "pmid": "1921438",
+          "title": "Pulmonary atresia and intact ventricular septum: definitive repair in neonatal period",
+          "year": "1991",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "間接",
+          "note": "生理機制類比，PGE1 在右心發育不良病灶中的使用"
+        },
+        {
+          "pmid": "1385009",
+          "title": "Results of right ventricular outflow patch for pulmonary atresia with intact ventricular septum",
+          "year": "1992",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "間接",
+          "note": "外科結果研究，術前 PGE1 使用為背景標準治療"
+        }
+      ],
+      "evidence_gap": "三尖瓣缺如極為罕見（孤兒疾病），難以開展獨立臨床試驗。建議透過先天性心臟病資料庫登錄（如 STS-CHSD）進行亞型分析。"
+    },
+    {
+      "disease_name": "tricuspid valve prolapse (disease)",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三尖瓣脫垂主要病理為反流而非阻塞，無導管依賴性生理；PGE1 對瓣葉組織無已知直接修復機轉。血管舒張效應對此適應症無明確益處，且可能惡化低血壓。機轉合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據，機轉連結薄弱。高 TxGNN 分數（0.9992）為圖譜鄰近效應偽陽性，非臨床相關性指標。不建議進一步評估。"
+    },
+    {
+      "disease_name": "anomaly of the tricuspid subvalvular apparatus",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三尖瓣下瓣器異常（腱索/乳頭肌異常）為結構性問題，PGE1 無法修正解剖異常。若合併嚴重三尖瓣功能障礙導致導管依賴性，則有間接機轉，但需視具體血流動力學而定。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據。此診斷過於廣泛，需依血流動力學表現個別化評估，不適合作為再利用獨立適應症。"
+    },
+    {
+      "disease_name": "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此複合型先天性心臟病（DORV + AVSD + PS + 異位症）常呈導管依賴性肺循環，PGE1 機轉具理論合理性（維持 PDA 提供肺血流）。然而此特定組合極為罕見，無任何針對性文獻或試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零直接臨床證據。若此病灶確認為導管依賴性，臨床上 PGE1 使用是合理的（外推自其他導管依賴性病灶），但需在個案基礎上評估，不構成再利用適應症認定標準。"
+    },
+    {
+      "disease_name": "heart septal defect",
+      "txgnn_score": 0.9939,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "心臟中隔缺損（VSD/ASD/AVSD）合併肺動脈阻塞或閉鎖時呈導管依賴性：PGE1 維持 PDA 開放，提供從體循環到肺循環的旁路（如 VSD + 肺動脈閉鎖）。另外 PGE1 可降低肺血管阻力，減輕右心室後負荷，適用於合併肺高壓的中隔缺損。雙重機轉（ductal patency + 肺血管舒張）為本適應症核心。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23521358",
+          "title": "Prolonged PGE1 therapy in a neonate with pulmonary atresia and ventricular septal defect",
+          "year": "2013",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "VSD + PA 的 PGE1 長期使用，直接支持此適應症"
+        },
+        {
+          "pmid": "9539587",
+          "title": "Preoperative PGE1 therapy in patient with atrial septal defect and predominant right-to-left shunt",
+          "year": "1998",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "ASD 合併右向左分流，PGE1 術前使用，直接相關"
+        },
+        {
+          "pmid": "10771966",
+          "title": "Prostaglandin E1: first stage palliation in neonates with congenital cardiac defects",
+          "year": "1998",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "新生兒先天性心臟病（含中隔缺損亞型）PGE1 第一階段緩解，案例量較大"
+        },
+        {
+          "pmid": "19080093",
+          "title": "Effects of alprostadil and ulinastatin on inflammatory response after cardiopulmonary bypass",
+          "year": "2008",
+          "study_type": "Quasi-RCT",
+          "tier": "2",
+          "relevance": "直接",
+          "note": "心肺繞路（常用於中隔缺損修復）術後 Alprostadil 比較性研究"
+        },
+        {
+          "pmid": "7990277",
+          "title": "Case of pulmonary hypertensive crisis treated with PGE1 and tolazoline after surgery",
+          "year": "1994",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "術後肺高壓危象，PGE1 救治使用"
+        },
+        {
+          "pmid": "6537955",
+          "title": "Long-term prostaglandin E1 therapy in congenital heart defects",
+          "year": "1984",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "直接",
+          "note": "含中隔缺損亞型的長期 PGE1 安全性資料"
+        },
+        {
+          "pmid": "30184041",
+          "title": "Surgical Repair of Complex Aortopulmonary Window: A Case Study",
+          "year": "2018",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "間接",
+          "note": "大動脈肺動脈窗（中隔缺損相關），圍手術期管理"
+        },
+        {
+          "pmid": "25263728",
+          "title": "Transient hypertrophic pyloric stenosis due to prostoglandin infusion",
+          "year": "2014",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "安全性",
+          "note": "重要副作用文獻：長期 PGE1 可致幽門狹窄，為 Guardrail 依據"
+        }
+      ],
+      "guardrails": [
+        "明確區分適應亞型：僅導管依賴性或肺高壓合併型受益，單純左向右分流之中隔缺損禁忌（加重充血）",
+        "監測幽門狹窄（長期使用 > 2 週風險）",
+        "謹慎用於早產兒（增加 IVH 風險）",
+        "建議多學科（心臟外科 + CICU）聯合決策"
+      ]
+    },
+    {
+      "disease_name": "endemic goiter",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "地方性甲狀腺腫為碘缺乏所致甲狀腺肥大，病理機轉為 TSH 持續刺激。PGE1 作用於血管平滑肌 EP 受體，與甲狀腺碘代謝無任何已知交集。查閱 DrugBank DB00770 及 PubMed 無任何 Alprostadil 用於甲狀腺疾病的文獻。機轉連結不存在。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 高度疑似 TxGNN 假陽性（False Positive）",
+      "note": "TxGNN 分數 0.9934 反映知識圖譜中『甲狀腺腫』與『先天性心臟病』節點在圖譜拓樸上的意外鄰近（可能經由新生兒代謝/內分泌節點），並非生物學合理性。建議從候選列表排除，並將此案例回報至 TxGNN 模型校正流程。"
+    }
+  ],
+  "summary_table": {
+    "L3_S2_ProceedWithGuardrails": [
+      "aortic malformation",
+      "heart septal defect"
+    ],
+    "L3_S1_ResearchQuestion": [
+      "congenital tricuspid stenosis"
+    ],
+    "L4_S1_ResearchQuestion": [
+      "tricuspid valve agenesis"
+    ],
+    "L5_S0_Hold": [
+      "congenital valvular dysplasia",
+      "straddling or overriding tricuspid valve",
+      "tricuspid valve prolapse (disease)",
+      "anomaly of the tricuspid subvalvular apparatus",
+      "double outlet right ventricle with AVSD, PS, heterotaxy",
+      "endemic goiter"
+    ]
+  },
+  "overall_assessment": {
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "aortic malformation",
+        "rationale": "最強證據（多篇直接文獻自1982年起）+ 國際標準治療外推 + 清晰機轉 + NCT04054115 Phase 1 試驗存在（即使終止）。建議優先在本地 CICU 建立使用規範。"
+      },
+      {
+        "rank": 2,
+        "disease": "heart septal defect",
+        "rationale": "多篇直接文獻支持，但需嚴格限定導管依賴性亞型。建議建立本地亞型選擇指引。"
+      },
+      {
+        "rank": 3,
+        "disease": "congenital tricuspid stenosis",
+        "rationale": "機轉合理，有有限但直接的病例系列支持。適合作為孤兒疾病登錄研究目標。"
+      }
+    ],
+    "false_positive_alert": "endemic goiter 強烈建議從候選列表移除並標記為 TxGNN 模型假陽性案例，以改善未來預測品質。",
+    "regulatory_pathway": "鑑於本地未上市（未上市），建議透過新加坡 HSA 特殊使用授權（Special Access Route, SAR）或醫院倫理委員會個案批准，在先天性心臟病術前穩定情境下使用。"
+  }
+}
+```
+
+---
+
+## 決策矩陣摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **aortic malformation** | 0.9998 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| **heart septal defect** | 0.9939 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| congenital tricuspid stenosis | 0.9994 | L3 | S1 | 🔬 Research Question |
+| tricuspid valve agenesis | 0.9993 | L4 | S1 | 🔬 Research Question |
+| congenital valvular dysplasia | 0.9993 | L5 | S0 | ⏸️ Hold |
+| straddling/overriding tricuspid valve | 0.9993 | L5 | S0 | ⏸️ Hold |
+| tricuspid valve prolapse | 0.9992 | L5 | S0 | ⏸️ Hold |
+| anomaly of tricuspid subvalvular apparatus | 0.9992 | L5 | S0 | ⏸️ Hold |
+| DORV + AVSD + PS + heterotaxy | 0.9991 | L5 | S0 | ⏸️ Hold |
+| **endemic goiter** | 0.9934 | **L5** | **S0** | 🚫 Hold（疑似假陽性） |
+
+> ⚠️ **關鍵觀察**：TxGNN 分數並不等同臨床證據等級——endemic goiter（分數 0.9934）與 tricuspid valve prolapse（0.9992）均為 L5，顯示知識圖譜拓樸距離需搭配臨床文獻驗證方能作為決策依據。

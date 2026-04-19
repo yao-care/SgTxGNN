@@ -1,0 +1,351 @@
+# Diltiazem (DB00343) 藥物再利用證據分析
+
+正在分析 10 個 TxGNN 預測適應症的多維度證據...
+
+---
+
+```json
+{
+  "drug": "Diltiazem",
+  "drugbank_id": "DB00343",
+  "analysis_date": "2026-04-04",
+  "data_notes": {
+    "market_status": "未上市（新加坡登記資料缺漏）",
+    "original_moa_note": "雖標記為 [Data Gap]，Diltiazem 為苯并硫氮卓類 L 型鈣離子通道阻斷劑（CCB），抑制心肌與平滑肌 Ca²⁺ 內流",
+    "known_approved_indications": ["心絞痛", "高血壓", "心房顫動/撲動", "陣發性室上性心動過速"]
+  },
+  "indications": [
+    {
+      "disease_name": "obsolete susceptibility to ischemic stroke",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Diltiazem 作為 CCB 理論上可透過降壓與抗血管痙攣機制降低缺血性腦卒中風險，但「obsolete」字首表示此為 MONDO/HPO 廢棄術語，不具臨床操作意義；且僅為計算預測，無任何實驗或臨床支撐。",
+      "safety_flags": ["obsolete 本體術語，不建議作為研究端點"],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "術語已廢棄；若需探索缺血性腦卒中應改用現行 MONDO 術語重新檢索"
+    },
+    {
+      "disease_name": "brain stem infarction",
+      "txgnn_score": 0.9822,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉：CCB 可舒張基底動脈及椎動脈平滑肌，減少血管痙攣，理論上可改善腦幹灌流不足。然而無任何臨床試驗或文獻直接支持此適應症。",
+      "safety_flags": ["腦幹梗塞急性期使用 CCB 可能降低腦灌注壓，需審慎"],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "高 TxGNN 分數反映知識圖譜中心血管疾病節點的拓撲鄰近性，非直接療效證據"
+    },
+    {
+      "disease_name": "obsolete bundle branch block",
+      "txgnn_score": 0.9788,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Diltiazem 減慢房室傳導（延長 PR 間期），理論上與束支傳導相關；但此為廢棄術語，且 Diltiazem 在高度 AV 傳導阻滯中為禁忌症，在完全性束支傳導阻滯中有加重傳導障礙風險。",
+      "safety_flags": [
+        "obsolete 術語",
+        "Diltiazem 在二/三度 AV block 為禁忌",
+        "完全性 LBBB/RBBB 可能加重傳導障礙"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "安全性考量超過潛在獲益；此方向不建議深入研究"
+    },
+    {
+      "disease_name": "cerebrovascular disorder",
+      "txgnn_score": 0.9763,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "多重間接機轉：(1) Diltiazem 用於心房顫動心率控制 → 減少心源性栓塞性腦血管事件；(2) 抑制腦血管平滑肌 L 型鈣通道 → 緩解腦血管痙攣（有 1985 年靈長類動物模型支持）；(3) CYP3A4 抑制劑特性影響 DOAC（如 rivaroxaban/apixaban）血中濃度，可能增加出血或抗凝不足風險。主要證據聚焦於 AF 相關腦血管保護，並非直接治療腦血管疾病。",
+      "safety_flags": [
+        "與 DOAC 合用增加出血風險（PMID 36149579, 35861836）",
+        "CYP3A4/P-gp 交互作用可能改變抗凝藥物濃度"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06175663",
+          "title": "Midlife Hypertension and Structural/Functional Brain MRI",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "觀察性 MRI 研究，評估中年高血壓患者腦結構變化；Diltiazem 非主要干預藥物，可能作為降壓用藥之一出現；與腦血管疾病相關但非直接療效試驗"
+        },
+        {
+          "nct_id": "NCT01176565",
+          "title": "ATACH-II: Antihypertensive Treatment of Acute Cerebral Hemorrhage",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 RCT 研究急性腦出血降壓治療，主要測試尼卡地平（nicardipine）而非 diltiazem；試驗已終止；僅間接支持 CCB 類在腦血管事件中的降壓角色"
+        },
+        {
+          "nct_id": "NCT02922452",
+          "title": "Effect of Diltiazem on Single-Dose Pharmacokinetics",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "藥物動力學 DDI 研究，評估 Diltiazem 對另一藥物（可能為 DOAC）的藥代動力學影響；非治療性試驗，但提供 Diltiazem 在腦血管患者（AF）用藥安全性數據"
+        },
+        {
+          "nct_id": "NCT06783868",
+          "title": "Neurological Outcomes After AF Ablation",
+          "phase": "N/A",
+          "status": "NOT_YET_RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "探索 AF 消融術後神經學結果；Diltiazem 可能作為術前心率控制藥物使用；尚未開始招募，目前無數據貢獻"
+        },
+        {
+          "nct_id": "NCT03529149",
+          "title": "TCD Monitoring for BP Control After EVT",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "血管內取栓術後血壓精確控制研究，使用 TCD 監測；Diltiazem 可能為候選降壓藥之一；與腦血管疾病管理相關，但非直接測試 diltiazem 療效"
+        },
+        {
+          "nct_id": "NCT05838664",
+          "title": "SIFNOS STUDY: AF Patients Exposed/Unexposed",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "大型回顧性研究（n≈214萬），比較 AF 患者暴露與未暴露於特定藥物（依題名推測可能為 diltiazem 或 CCB 類）的臨床結果；若主要暴露為 Diltiazem，這是目前最具規模的間接真實世界證據，但需原始論文確認藥物暴露定義"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36149579",
+          "title": "Association between concurrent use of diltiazem and DOACs and risk of bleeding in AF",
+          "year": "2023",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "直接評估 Diltiazem 在 AF 患者中的安全性，發現合用 DOAC 增加出血風險；與腦血管疾病之腦出血次要終點相關"
+        },
+        {
+          "pmid": "35861836",
+          "title": "Concomitant Use of Diltiazem With DOACs and Bleeding Risk in AF",
+          "year": "2022",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "與上篇互相印證；CYP3A4 抑制導致 DOAC 濃度升高是腦出血風險因子"
+        },
+        {
+          "pmid": "37791408",
+          "title": "Impact of P-glycoprotein and CYP3A4-interacting drugs on outcomes in AF patients",
+          "year": "2023",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance": "評估 Diltiazem（CYP3A4/P-gp 抑制劑）對 AF 患者臨床結果的影響，涉及腦血管事件終點"
+        },
+        {
+          "pmid": "2416213",
+          "title": "Experimental chronic cerebrovascular spasm in the monkey",
+          "year": "1985",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance": "最直接的腦血管機轉證據：靈長類動物模型顯示鈣通道阻斷劑可緩解慢性腦血管痙攣，但年代久遠（40年前）且為動物實驗"
+        },
+        {
+          "pmid": "39158905",
+          "title": "Bleeding in Patients With Atrial Fibrillation",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "最新綜述，討論 AF 出血風險，Diltiazem 作為藥物交互作用因子被提及；間接相關"
+        },
+        {
+          "pmid": "11975840",
+          "title": "Atrial fibrillation (review)",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "AF 治療綜述，Diltiazem 作為心率控制藥物被討論；背景文獻"
+        },
+        {
+          "pmid": "17309423",
+          "title": "Atrial fibrillation (review)",
+          "year": "2007",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "同上，稍新版本"
+        },
+        {
+          "pmid": "19299323",
+          "title": "Probable amlodipine-induced angioedema",
+          "year": "2009",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "其他 CCB（氨氯地平）副作用案例報告；與本適應症關聯性極低"
+        },
+        {
+          "pmid": "12198335",
+          "title": "Chronopharmacology of cardiovascular therapy",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "心血管藥物時間藥理學，包含 Diltiazem 給藥時機；間接相關"
+        },
+        {
+          "pmid": "2975926",
+          "title": "[Calcium inhibitors and anesthesia]",
+          "year": "1988",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "鈣拮抗劑與麻醉的相互作用；對腦血管疾病治療相關性極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9719,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "CCB（包括 Diltiazem）在 WHO Group 1 PAH 急性血管反應陽性患者有循證支持；但 WHO Group 3 PH（肺病/缺氧所致）中，CCB 透過抑制缺氧性肺血管收縮（HPV）反射，可能惡化通氣/血流比，加重低氧血症——此為安全性反禁忌證，非治療機會。",
+      "safety_flags": [
+        "WHO Group 3 PH 禁忌：CCB 可抑制 HPV，加重低氧血症",
+        "ESC/ERS 2022 肺動脈高壓指引明確不建議 Group 3 使用 CCB",
+        "20 篇文獻均為缺氧生物學基礎研究，無一直接測試 Diltiazem 療效"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "缺氧神經生物學，與肺動脈高壓治療無直接關聯"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "最新缺氧治療學綜述；背景概念文獻，非 Diltiazem 相關"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "缺氧免疫調節，與本適應症關聯性極低"
+        },
+        {
+          "pmid": "11172576",
+          "title": "Mechanisms of hypoxemia",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "低氧血症機制基礎文獻，無 Diltiazem 相關內容"
+        }
+      ],
+      "assessor_note": "20 篇文獻均為缺氧生物學基礎研究，無一直接評估 Diltiazem 用於 Group 3 PH；結合安全性禁忌，評估為不建議推進"
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9719,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與上一適應症共享 TxGNN 分數，機轉推論雷同（CCB→肺血管舒張），但此分型（WHO Group 5）病因複雜多樣（血液/代謝/系統性疾病），目前無任何 Diltiazem 直接證據；且 CCB 的整體療效在 Group 5 缺乏指引支持。",
+      "safety_flags": ["Group 5 PH 病因異質性高，CCB 使用需個別評估"],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9716,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Diltiazem 作為 CCB 可降低全身血壓並減少腎小球囊內壓，理論上具腎臟保護潛力；且研究顯示 CCB 在蛋白尿控制方面有輔助效果。但提供資料中無任何臨床試驗或文獻直接測試 Diltiazem 用於惡性高血壓腎病，評估僅基於藥理外推。",
+      "safety_flags": ["惡性高血壓為急症，需快速靜脈降壓；口服 Diltiazem 速度可能不足"],
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "assessor_note": "因機轉合理性（CCB+腎保護），評為 Research Question 而非 Hold；建議進行文獻系統性回顧確認"
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9716,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腎血管性高血壓（腎動脈狹窄所致）的一線治療為 ACEI/ARB + 血運重建；CCB 雖可輔助降壓，但在單側腎動脈狹窄使用 ACEI 時合用 CCB 的腎功能影響尚不明確。惡性型（急性靶器官損傷）優先靜脈降壓。",
+      "safety_flags": [
+        "雙側腎動脈狹窄合用 RAAS 阻斷劑時需監測腎功能",
+        "無提供資料支持此適應症"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ABri amyloidosis",
+      "txgnn_score": 0.9698,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ABri 澱粉樣變性為罕見遺傳性腦澱粉樣血管病（BRI2 基因突變），TxGNN 高分可能反映知識圖譜中「腦血管病變」節點的鄰近性。部分研究顯示鈣訊號在澱粉樣蛋白聚集中有角色，但無任何直接機轉或臨床證據連結 Diltiazem 與 ABri 澱粉樣變性。",
+      "safety_flags": ["極罕見疾病，臨床試驗可行性極低"],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9670,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群（OMIM: 619980）為極罕見多發性先天異常/智力障礙症候群（WAC 基因相關），與 Diltiazem 的鈣通道阻斷機轉無已知生物學關聯；TxGNN 高分可能為知識圖譜拓撲偽陽性。",
+      "safety_flags": ["極罕見症候群，發育遺傳疾病，藥物再利用可行性存疑"],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 1,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S0": 8,
+      "S1": 1,
+      "S2": 1,
+      "S3": 0
+    },
+    "priority_indication": "cerebrovascular disorder（L3/S2）",
+    "key_insight": "Diltiazem 的高 TxGNN 分數主要反映其在心血管知識圖譜中的核心地位，而非直接再利用療效。唯一具有實質間接證據的適應症為腦血管疾病（透過 AF 心率控制機轉）。肺動脈高壓（Group 3）雖有理論推測，但存在明確安全性禁忌。8 個適應症因零臨床證據停留於 L5/S0。",
+    "data_quality_concern": "original_moa 欄位為 [Data Gap]，但 Diltiazem 為成熟 CCB 藥物，建議補充 DrugBank 機轉資料以提升預測準確性"
+  }
+}
+```
+
+---
+
+## 決策摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| cerebrovascular disorder | 0.9763 | **L3** | **S2** | ⚠️ Research Question |
+| malignant hypertensive renal disease | 0.9716 | L5 | S0 | 🔍 Research Question* |
+| PH (lung disease/hypoxia) | 0.9719 | L4 | **S1** | 🚫 Hold（安全禁忌） |
+| obsolete ischemic stroke | 0.9908 | L5 | S0 | ⛔ Hold（廢棄術語） |
+| brain stem infarction | 0.9822 | L5 | S0 | ⛔ Hold |
+| obsolete bundle branch block | 0.9788 | L5 | S0 | ⛔ Hold（潛在禁忌） |
+| PH (multifactorial) | 0.9719 | L5 | S0 | ⛔ Hold |
+| malignant renovascular HTN | 0.9716 | L5 | S0 | ⛔ Hold |
+| ABri amyloidosis | 0.9698 | L5 | S0 | ⛔ Hold |
+| Braddock syndrome | 0.9670 | L5 | S0 | ⛔ Hold |
+
+> *malignant hypertensive renal disease 雖為 L5，因機轉合理性列為 Research Question，需先進行文獻系統回顧
+
+**核心結論**：Diltiazem 在此批預測中，`cerebrovascular disorder` 是唯一值得進一步研究的方向（主要透過 AF→腦血管保護路徑），但研究問題需聚焦在「Diltiazem 作為 AF 心率控制藥物是否優於其他藥物在腦血管事件的保護效果」，而非「Diltiazem 直接治療腦血管疾病」。

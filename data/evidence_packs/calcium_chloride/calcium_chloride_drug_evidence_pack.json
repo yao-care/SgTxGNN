@@ -1,0 +1,2995 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01164-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Calcium chloride",
+    "drugbank_id": "DB01164",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "dyspepsia",
+      "txgnn": {
+        "score": 0.9746607542037964,
+        "rank": 19458
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05346302",
+            "title": "Persistent Readiness Through Early Prediction Immunization Study",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 249,
+            "start_date": "2022-02-08",
+            "completion_date": "2022-12-21",
+            "brief_summary": "This study will enroll volunteers in an open-format (outside hospital) setting, to complete novel data collection/analysis of biomarkers, facial images, and audio-recording to establish an optimal set of parameters to predict emergent cases of infection via an early warning score, along with actionable personalized information.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "免疫研究（Immunization Study），與 CaCl₂ 或消化不良無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT05111912",
+            "title": "A Phase 2, Open-label, Randomised, Dose-Finding Study of XW003, Once-Weekly Human Glucagon-Like Peptide 1 Analogue, Compared With Once-Daily Liraglutide 3 mg in Adult Participants With Obesity",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 206,
+            "start_date": "2021-11-30",
+            "completion_date": "2022-12-20",
+            "brief_summary": "XW003 is an acylated human glucagon-like peptide 1 (GLP-1) analogue and is being developed for type 2 diabetes mellitus (T2DM) and obesity management.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "GLP-1 受體促進劑 XW003 的 Phase 2 試驗，非 CaCl₂"
+            }
+          },
+          {
+            "nct_id": "NCT05258513",
+            "title": "The Effects of Oral Supplementation With Geranylgeraniol (GG) Sourced From Annatto on Sexual Health in Males and Females",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 83,
+            "start_date": "2022-02-06",
+            "completion_date": "2022-12-09",
+            "brief_summary": "The purpose of this study will be to examine the effectiveness of Geranylgeraniol supplementation on sexual health function in males and females following an 8-week dose escalation intervention. The study will be carried out in a randomized, double-blind, placebo-controlled, parallel manner. Participants will be stratified into quartiles based on their scores on the Derogatis Interview for Sexual Functioning during screening and prior to baseline testing. Participants from each quartile will be ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Geranylgeraniol (GG) 補充劑研究，與 CaCl₂ 無關"
+            }
+          },
+          {
+            "nct_id": "NCT06320379",
+            "title": "Evaluating Changes in Quality of Life and Digestion in Functional Dyspepsia in Adults",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 64,
+            "start_date": "2023-03-15",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The purpose of this study is to determine the effects of a readily available dietary supplement on quality of life and digestion in adults with functional dyspepsia.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "功能性消化不良 QoL 評估試驗，疾病相關但受試藥非 CaCl₂"
+            }
+          },
+          {
+            "nct_id": "NCT01725126",
+            "title": "A Double-blind [Sponsor Unblinded], Randomized, Placebo-controlled, Staggered-parallel Study to Investigate the Safety, Tolerability, and Pharmacodynamics of GSK2890457 in Healthy Volunteers and Subjects With Type 2 Diabetes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2013-02-10",
+            "completion_date": "2013-09-12",
+            "brief_summary": "This study is the first administration of GSK2890457 in humans. The study will be conducted in 3 parts: - Part A (conducted at a single investigative site) will determine the safety and tolerability of GSK2890457 alone in healthy subjects during six weeks of dosing, as well as evaluating the potential for a pharmacokinetic interaction with metformin. Part A consists of Screening, Treatment (6 weeks) and Follow-up periods. - Part B (conducted at multiple sites) will determine safety, tolerability",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗名稱截斷，根據 Phase 2 double-blind 設計推測為其他 GI 藥物"
+            }
+          },
+          {
+            "nct_id": "NCT02202161",
+            "title": "A Randomized, Placebo Controlled, Repeat Dose, Double Blind (Sponsor Unblind) Study Investigating Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of GSK2330672 Administered With Metformin to Type 2 Diabetes Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2014-08-27",
+            "completion_date": "2015-01-30",
+            "brief_summary": "This study is being conducted to evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of GSK2330672 compared to sitagliptin when administered with metformin for 14 days to subjects with type 2 diabetes mellitus (T2DM). Approximately 72 male and female subjects aged 30-64 years with T2DM and currently taking metformin will be recruited for this study. Eligible subjects will begin a run-in period of 13-15 days to stabilize on metformin 850 milligram (mg) twice a day (BID). Sub",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗名稱截斷，無法確認為 CaCl₂ 試驗"
+            }
+          },
+          {
+            "nct_id": "NCT01929863",
+            "title": "A Randomized, Double-blind (Sponsor Unblinded), Placebo Controlled, Repeat Dose Study Investigating Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of GSK2330672 in Type 2 Diabetes Patients Taking Metformin",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2013-08-01",
+            "completion_date": "2013-11-21",
+            "brief_summary": "Metformin may have complex interactions in the gut and is generally first line therapy for type 2 diabetes mellitus (T2DM). It is important to understand whether there are significant pharmacokinetic or pharmacodynamic interactions when GSK2330672 is co-administered with metformin in subjects with T2DM. The purpose of this study is to investigate the safety and tolerability of GSK2330672 administered for 7 days to subjects with T2DM taking metformin. This will be a two-period crossover study; su",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗名稱截斷，無法確認為 CaCl₂ 試驗"
+            }
+          },
+          {
+            "nct_id": "NCT05813548",
+            "title": "The Effectiveness of an Application-Based Lifestyle Change Program on Body Composition, Health, Body Image, and Self-Esteem in Women 30 to 55 Years Old",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2023-02-28",
+            "completion_date": "2023-08-30",
+            "brief_summary": "The purpose of this study will be to examine the effectiveness of an application-based lifestyle change program on body composition, body shape, body, image, and self-esteem in females following a 6-week period. The study will be carried out in a randomized, placebo-controlled, parallel manner. Participants will be stratified into quartiles based on their body mass indices during screening and prior to baseline testing. Participants from each quartile will be randomly divided by into experimenta",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "App-based 生活型態改變計畫，與 CaCl₂ 無關"
+            }
+          },
+          {
+            "nct_id": "NCT03360435",
+            "title": "Absorption of Transdermal Vitamins in Post Bariatric Surgery Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 99,
+            "start_date": "2017-12-15",
+            "completion_date": "2021-07-07",
+            "brief_summary": "Patients undergoing bariatric surgery often develop new vitamin and/or mineral deficiencies or exacerbate prior deficiencies after surgery. Several bariatric supplement products exist including oral tablets and transdermal patches. The purpose of this study is to observe the concentrations of serum micronutrients and determine how many deficiencies develop in patients who use a transdermal patch.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "腸胃道手術後經皮維他命吸收研究，非 CaCl₂ 治療消化不良"
+            }
+          },
+          {
+            "nct_id": "NCT01149369",
+            "title": "Aprepitant for the Relief of Nausea in Patients With Chronic Nausea and Vomiting of Presumed Gastric Origin: A Multicenter, Randomized, Double-Masked, Placebo-Controlled Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 126,
+            "start_date": "2013-04",
+            "completion_date": "2015-09",
+            "brief_summary": "The principal objective of this multicenter, randomized, placebo-controlled trial is to evaluate whether 4 weeks of treatment with aprepitant will improve nausea as compared with placebo in patients with symptoms of chronic nausea and vomiting of presumed gastric origin.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Aprepitant 用於胃輕癱/慢性噁心的 Phase 2 試驗，疾病部分相關但藥物非 CaCl₂"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40317635",
+            "title": "Intervening Mechanisms of Amitriptyline Combined With Domperidone on Functional Dyspepsia Rats.",
+            "authors": [
+              "Pei Xinyao",
+              "Ma Yue",
+              "Gu Jingyan",
+              "He Xueyun",
+              "Lu Yanyu"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2025",
+            "abstract": "The long-term recurrent symptoms of functional dyspepsia (FD) and the prolonged course of the disease lead to varying degrees of psychological disorders in patients. The study focuses on investigating the effects of the psychological drug amitriptyline on FD rats, aiming to provide a basis for the mechanism of action in treating FD from a clinical psychological perspective.",
+            "classification": {
+              "study_type": "Animal/Mechanistic",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35319360",
+            "title": "Aceclofenac-Loaded Microspheres Prepared by Vesicular Ionotropic Gelation to Minimize Drug-induced Gastric Ulcers in Rats.",
+            "authors": [
+              "Yassin Heba A",
+              "Ibrahim Mohamed A",
+              "Abou-Taleb Heba A"
+            ],
+            "journal": "Current drug metabolism",
+            "year": "2022",
+            "abstract": "Aceclofenac is a non-steroidal anti-inflammatory drug and a potent analgesic. However, its oral ingestion may cause gastrointestinal problems, including dyspepsia, abnormal pain, nausea, diarrhea, and ulcerative colitis.",
+            "classification": {
+              "study_type": "Formulation study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31185476",
+            "title": "The Traditional Medicine Banhasasim-Tang Depolarizes Pacemaker Potentials of Cultured Interstitial Cells of Cajal through M3 Muscarinic and 5-HT3 Receptors in Murine Small Intestine.",
+            "authors": [
+              "Kim Jeong Nam",
+              "Nam Joo Hyun",
+              "Lee Jong Rok",
+              "Kim Sang Chan",
+              "Kim Byung Joo"
+            ],
+            "journal": "Digestion",
+            "year": "2020",
+            "abstract": "Banhasasim-tang (BHSST) is a classic herbal formulation in traditional Chinese medicine widely used for gastrointestinal (GI) tract motility disorder. We investigated the effects of BHSST on the pacemaker potentials of cultured interstitial cells of Cajal (ICCs) in small intestine in vitro and its effects on GI motor functions in vivo.",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5103465",
+            "title": "[Preparation and use of drug mixtures for dyspepsia].",
+            "authors": [
+              "Skvortsov T E"
+            ],
+            "journal": "Veterinariia",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case series/Historical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6012101",
+            "title": "[Locke-Ringer's solution in dyspepsia in calves].",
+            "authors": [
+              "Morozov A D"
+            ],
+            "journal": "Veterinariia",
+            "year": "1966",
+            "abstract": "",
+            "classification": {
+              "study_type": "Animal/Veterinary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CaCl₂ 在溶液中呈強酸性，高濃度具腐蝕性，與消化不良治療（如 PPI、制酸劑 CaCO₃）機轉不同。CaCO₃ 做為制酸劑有臨床使用，但 CaCl₂ 不具同等鹼性緩衝作用。機轉關聯極弱，且方向可能有害。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "calcium-alkali syndrome",
+      "txgnn": {
+        "score": 0.9605064392089844,
+        "rank": 24140
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02981602",
+            "title": "A Phase 2, Double-Blinded, Randomized, Placebo-Controlled, Dose-Escalation Study to Examine the Safety, Tolerability, Pharmacokinetics and Antiviral Activity of ISIS 505358 in Treatment-Naïve Patients With Chronic HBV Infection",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 31,
+            "start_date": "2017-02-24",
+            "completion_date": "2019-12-26",
+            "brief_summary": "To examine the safety and tolerability of IONIS-HBVRx administration to treatment-naive patients with chronic hepatitis B virus infection",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 安全性/劑量研究，試驗名稱截斷，無法確認與 CaCl₂ 或本症相關"
+            }
+          },
+          {
+            "nct_id": "NCT03095638",
+            "title": "A 2-Part, Phase I, Single Dose, Crossover Relative Bioavailability Study of Both TIVICAY 10 mg Conventional Tablets and 5 mg Dispersible Tablets Compared to Conventional TIVICAY Tablets in Fasted Healthy Adult Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2017-05-03",
+            "completion_date": "2017-06-23",
+            "brief_summary": "The aim of this cross-over study is to compare the relative bioavailability and pharmacokinetic parameters of both 10 mg conventional tablets and 5 mg dispersible tablets of dolutegravir (DTG) with that of 25 mg or 50 mg conventional DTG tablets. The study will be carried out in 2 parts. Part 1 of the study will be open-label, 2 period designs with a wash out period of at least 7 days between the dosing periods. Subjects will be randomized to receive either single dose of five 10 mg DTG tablets ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Dolutegravir（TIVICAY）生物可用性研究，與鈣鹼症候群無關"
+            }
+          },
+          {
+            "nct_id": "NCT04857892",
+            "title": "A Two-Part, Randomized, Open-Label, Single Dose, Crossover Clinical Study to Assess the Relative Bioavailability of Fixed-Dose Combinations of GSK3640254 and Dolutegravir and to Assess the Effect of Food on the Select Fixed Dose Combination of GSK3640254 and Dolutegravir in Healthy Participants",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2021-04-21",
+            "completion_date": "2021-09-10",
+            "brief_summary": "This is a two part study to compare the relative bioavailability (BA) of 2 fixed dose combinations (FDCs) of GSK3640254/DTG with GSK3640254 and DTG administered together as single agents (Part 1) and to assess the effect of food on the pharmacokinetic (PK) of the selected FDC of GSK3640254/DTG (Part 2).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "生物可用性交叉研究，非 CaCl₂ 治療鈣鹼症"
+            }
+          },
+          {
+            "nct_id": "NCT04263142",
+            "title": "A Two-Part, Randomized, Open-Label, Single Dose, Crossover Clinical Trial to Assess the Relative Bioavailability of a Tablet Compared to a Capsule of GSK3640254 and to Assess the Effect of Food on the GSK3640254 Tablet in Healthy Participants",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 39,
+            "start_date": "2020-01-27",
+            "completion_date": "2020-03-24",
+            "brief_summary": "This is an open-label, 2 part, single-dose and crossover study conducted to assess the relative bioavailability of a tablet compared to a capsule of GSK3640254 and to assess the effect of food on the GSK3640254 tablet in healthy participants. This study will also evaluate the effect of food (fasted, moderate fat meal, and high fat meal) on the pharmacokinetics of the GSK3640254 mesylate tablet formulation. In Part 1, participants will be randomly assigned to 1 of 2 treatment sequences (AB or BA)",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同上，生物可用性研究"
+            }
+          },
+          {
+            "nct_id": "NCT03784079",
+            "title": "A Randomized, Double-Blind (Sponsor-unblinded), Placebo-Controlled, Adaptive Trial to Investigate the Antiviral Effect, Safety, Tolerability and Pharmacokinetics of GSK3640254 in HIV-1 Infected Treatment-Naïve Adults",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2019-01-31",
+            "completion_date": "2020-02-06",
+            "brief_summary": "Infection with HIV-1 continues to be a serious health threat throughout the world. Chronic exposure to combination anti-retroviral therapy identified anti-retroviral associated long-term toxicities. Hence, there is a need to prevent these co-morbidities. GSK3640254 is a next-generation HIV-1 Maturation Inhibitor (MI) which may be effective for HIV-1 infection. This study will evaluate the antiviral effect, safety, tolerability and pharmacokinetics/ pharmacodynamics of GSK3640254 in HIV-1 infecte",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 Adaptive 試驗，試驗名稱截斷，非相關"
+            }
+          },
+          {
+            "nct_id": "NCT04563845",
+            "title": "A Study to Evaluate the Effect of Therapeutic and Supratherapeutic Oral Doses of GSK3640254 on Cardiac Conduction as Assessed by 12-Lead Electrocardiogram Compared to Placebo and a Single Oral Dose of Moxifloxacin in Healthy Adult Participants",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2020-11-09",
+            "completion_date": "2021-10-30",
+            "brief_summary": "This study will aim to evaluate the effect of therapeutic and supratherapeutic oral doses of GSK3640254 on cardiac conduction compared to placebo and a single oral dose of Moxifloxacin in healthy adult participants. The study has 2 parts: Part 1 will determine the supratherapeutic dose for Part 2, which will be the main corrected QT interval (QTc) study. Part 1 will evaluate once daily (QD) dosing of GSK3640254 or placebo and Part 2 will investigate the safety, tolerability and Pharmacokinetics ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "GSK3640254 心臟安全性評估，與本症無關"
+            }
+          },
+          {
+            "nct_id": "NCT01541891",
+            "title": "Fase II Comparative Study of the Efficacy and Safety of PRO-148 Ophthalmic Solution vs Systane in the Treatment of Mild-to-moderate Eye Syndrome.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2011-10",
+            "completion_date": "2012-05",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of PRO-148 ophthalmic solution compared with SYSTANE ® ophthalmic solution for the treatment of signs and symptoms of mild-to-moderate dry eye syndrome.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PRO-148 眼科溶液 Phase 2，完全無關"
+            }
+          },
+          {
+            "nct_id": "NCT04541095",
+            "title": "A Randomized, Multicenter, Controlled Clinical Trial to Assess Weight Gain of Preterm Infants Fed a New Infant Milk Formula Containing High Amounts of Beta-palmitate Versus a Standard Infant Milk Formula Containing Low Amounts of Beta-palmitate",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 150,
+            "start_date": "2023-01-16",
+            "completion_date": "2027-12",
+            "brief_summary": "The aim of this study is to assess weight gain of preterm infants (gestational age lower than 32 weeks) fed infant milk formula with about 60% beta-palmitate (EX\\_IMF) vs infant milk formula with similar macronutrient, mineral and fatty acid composition but lower amounts of beta-palmitate (ST\\_IMF). Own mother milk (OMM) fed infants will serve as reference group.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "早產兒配方奶粉體重增長研究，含鈣但非 CaCl₂ 治療鈣鹼症"
+            }
+          },
+          {
+            "nct_id": "NCT03836729",
+            "title": "An Open-Label One-way Interaction Clinical Trial to Evaluate the Pharmacokinetic Interactions Between GSK3640254 and Tenofovir Alafenamide/Emtricitabine in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2019-02-11",
+            "completion_date": "2019-04-30",
+            "brief_summary": "Human immunodeficiency virus (HIV) infection frequently involves combination drug therapy for its treatment; hence, it is important to understand their interactions and resulting changes in exposure which are associated with medications. This is a Phase-1, open-label, fixed-sequence 2-period, one-way drug interaction study to assess the pharmacokinetic (PK), safety, and tolerability of GSK3640254 and Tenofovir alafenamide/emtricitabine (TAF/FTC) when administered alone and in combination in heal",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "藥物動力學交互作用研究，非相關"
+            }
+          },
+          {
+            "nct_id": "NCT03020745",
+            "title": "A Double-Blind, Placebo-Controlled Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Single Ascending Dose and Multiple Doses of GSK3389404 in Chronic Hepatitis B Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2017-02-14",
+            "completion_date": "2019-11-06",
+            "brief_summary": "GSK3389404 is being developed for the treatment of CHB virus infection. The development goal for GSK3389404 is the establishment of a finite duration treatment that results in sustained suppression of hepatitis B virus (HBV) replication and viral antigen production after cessation of all treatments for CHB due to the restoration of a functional immune response in the absence of high antigen levels. This study is a multicenter, randomized double-Blind (sponsor un-blinded in Part 1), Placebo-contr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "安全性/耐受性/PK/PD 研究，試驗名稱截斷"
+            }
+          },
+          {
+            "nct_id": "NCT01839578",
+            "title": "Regional Citrate Versus Systemic Heparin Anticoagulation for Super High-flux Continuous Hemodialysis in Septic Shock: Effect on Middle Molecular Weight Molecules Clearances",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2013-05",
+            "completion_date": "2015-04",
+            "brief_summary": "Sepsis is responsible for 50% of all acute kidney injury (AKI) in intensive care units (ICUs), contributing greatly to multiple organ dysfunction syndrome (MODS). Special types of continuous renal replacement therapies (CRRT) have been proposed as adjuvant therapies for septic shock due to their ability to remove middle molecular weight molecules such as inflammatory mediators involved in MODS pathophysiology. These therapies are called extracorporeal \" blood purification \" therapies.\n\nWhen CRRT",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02202161",
+            "title": "A Randomized, Placebo Controlled, Repeat Dose, Double Blind (Sponsor Unblind) Study Investigating Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of GSK2330672 Administered With Metformin to Type 2 Diabetes Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2014-08-27",
+            "completion_date": "2015-01-30",
+            "brief_summary": "This study is being conducted to evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of GSK2330672 compared to sitagliptin when administered with metformin for 14 days to subjects with type 2 diabetes mellitus (T2DM). Approximately 72 male and female subjects aged 30-64 years with T2DM and currently taking metformin will be recruited for this study. Eligible subjects will begin a run-in period of 13-15 days to stabilize on metformin 850 milligram (mg) twice a day (BID). Sub",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04708340",
+            "title": "A Two-part, Two-cohort, Double-blind, Randomized, Placebo-controlled, Multicenter Phase 1/2 Study to Evaluate the Safety, Tolerability and Efficacy of REJUVEINIX (RJX) in Patients With COVID-19",
+            "phase": "PHASE1, PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 237,
+            "start_date": "2021-03-25",
+            "completion_date": "2023-02",
+            "brief_summary": "This study is designed as a 2-part, 2-cohort, double-blind, randomized, placebo controlled, multicenter Phase 1/2 study to evaluate the safety, tolerability and efficacy of RJX in patients with COVID-19.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04604795",
+            "title": "A Randomized, Placebo Controlled, Double Blind, Single and Repeat Dose Escalation Phase 1 Study to Evaluate Safety, Tolerability, and Pharmacokinetics of GSK3915393 in Healthy Participants and Open Label Assessment of Coadministration of GSK3915393 With Grapefruit Juice and Itraconazole on the Pharmacokinetics of GSK3915393",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2020-11-04",
+            "completion_date": "2021-06-29",
+            "brief_summary": "This is a 3-part first time into human study (FTIH) study for GSK3915393. Parts A and B of the study will evaluate the safety, tolerability and pharmacokinetics (PK) of single ascending and repeat oral doses of GSK3915393 in healthy adult participants. Part C will evaluate the impact of co-administration of GSK3915393 with grapefruit juice and itraconazole on the PK of GSK3915393.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03816696",
+            "title": "An Open-Label Two-way Interaction Clinical Trial to Evaluate the Pharmacokinetic Interactions Between GSK3640254 and Dolutegravir in Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2019-01-23",
+            "completion_date": "2019-04-10",
+            "brief_summary": "This is an open-label, single-sequence, two-way drug interaction study to investigate the PK, safety and tolerability of GSK3640254 and DTG when administered alone or in combination in healthy subjects. Treatment of human immunodeficiency virus (HIV) infection frequently involves combination therapy. Data from this study will contribute to dosing recommendations when GSK3640254 and DTG are given in combination. The study will consist of a Screening period and 3 sequential treatment periods. Subj",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01668654",
+            "title": "RTG113388, a Long-term, Open-label Safety Extension Study of Retigabine/Ezogabine in Pediatric Subjects With Partial Onset Seizures (>= 12 Years Old) and Subjects With Lennox-Gastaut Syndrome (>=12 Years Old)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2012-09-04",
+            "completion_date": "2013-06-18",
+            "brief_summary": "The purpose of this study is to evaluate the long-term safety and tolerability of retigabine/ezogabine as an adjunctive treatment in subjects with either partial onset seizures (12 to \\< 18 years old) or Lennox-Gastaut Syndrome (12 to \\<30 years old) who have participated in a previous (\"parent\") study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01943851",
+            "title": "A Phase I/II Open-label, Dose Escalation Study to Investigate the Safety, Pharmacokinetics, Pharmacodynamics and Clinical Activity of GSK525762 in Subjects With Relapsed, Refractory Hematologic Malignancies",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 111,
+            "start_date": "2014-05-14",
+            "completion_date": "2020-04-30",
+            "brief_summary": "This is an open-label repeat dose, multicenter, 2-part study to determine the maximum tolerated dose (MTD) and the recommended Phase 2 dose (RP2D) for GSK525762 given once-daily (QD) orally. Part 1 of the study is a dose escalation phase to select the recommended Part 2 dose (RP2D) based on the safety, PK, and PD profiles observed after oral administration of GSK525762. Eligible subjects with select relapsed refractory hematological malignancies (acute myeloid leukemia \\[AML\\], non-Hodgkin's Lym",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03984825",
+            "title": "The Effect of Coadministration of GSK3640254 on the Pharmacokinetics of a Combined Oral Contraceptive Containing Ethinyl Estradiol and Levonorgestrel in Healthy Female Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 23,
+            "start_date": "2019-06-13",
+            "completion_date": "2019-08-16",
+            "brief_summary": "This is an open-label, single-sequence, 1-way drug-drug interaction study to investigate the effect of GSK3640254 on the pharmacokinetics of a combination oral contraceptive containing ethinyl estradiol (EE) and levonorgestrel (LNG). Effective contraception for women infected with human immunodeficiency virus (HIV) is important in the prevention of unplanned pregnancies. The study will consist of a screening period of 28 days, check-in (Day -4), a run-in period and a treatment period. During the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00711009",
+            "title": "A Randomized, Open-label Study of Lopinavir/Ritonavir 400/100 mg Tablet Twice Daily + Co-formulated Emtricitabine/Tenofovir Disoproxil Fumarate 200/300 mg Once Daily Versus Lopinavir/Ritonavir 400/100 mg Tablet Twice Daily + Raltegravir 400 mg Twice Daily in Antiretroviral Naive, HIV-1 Infected Subjects",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 206,
+            "start_date": "2008-07",
+            "completion_date": "2010-10",
+            "brief_summary": "The purpose of this study is to compare the safety, tolerability, and antiviral activity of the lopinavir/ritonavir tablet when administered in combination with reverse transcriptase inhibitors to lopinavir/ritonavir tablets when administered in combination with a human immunodeficiency virus type 1 ( HIV-1) integrase inhibitor in antiretroviral naive HIV-1 infected subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04128293",
+            "title": "A Randomized, Open-Label, Single Dose, Four-Period Crossover Clinical Trial to Assess the Relative Bioavailability of a Tablet Compared to a Capsule of GSK3640254 and to Assess the Effect of Food on the GSK3640254 Tablet in Healthy Participants",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 16,
+            "start_date": "2019-10-08",
+            "completion_date": "2019-11-15",
+            "brief_summary": "This is an open-label, single-dose, four-period, four sequential, and crossover study conducted to assess the relative bioavailability of GSK3640254 mesylate tablets and GSK3640254 mesylate capsules (in the presence of a moderate fat meal). This study will also evaluate the effect of food (fasted, moderate fat meal, and high fat meal) on the pharmacokinetics of GSK3640254 mesylate tablet formulation. Participants will be randomized to receive a single dose of GSK3640254 200 milligram (mg) capsul",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31968342",
+            "title": "Calcium-Alkali Syndrome Associated with Hypoparathyroidism Following Total Thyroidectomy.",
+            "authors": [
+              "Kuroya Sayaka",
+              "Yazawa Masahiko",
+              "Shibagaki Yugo",
+              "Tominaga Naoto"
+            ],
+            "journal": "American journal of nephrology",
+            "year": "2020",
+            "abstract": "Patients with permanent postsurgical hypoparathyroidism, a complication of total thyroidectomy, often require high calcium supplementation with vitamin D to maintain serum calcium levels. The epidemiology of calcium-alkali syndrome (CAS) in patients with hypoparathyroidism after total thyroidectomy remains unclear. This study aimed to investigate the incidence of hypercalcemia, renal impairment, metabolic alkalosis, and CAS in patients treated for presumed hypoparathyroidism after total thyroide",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21954111",
+            "title": "Calcium-alkali syndrome in post-surgical hypoparathyroidism.",
+            "authors": [
+              "Fernández-García M",
+              "Vázquez L",
+              "Hernández J L"
+            ],
+            "journal": "QJM : monthly journal of the Association of Physicians",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22073517",
+            "title": "Multiple myeloma with hypercalcemia and chloride resistant metabolic alkalosis.",
+            "authors": [
+              "Alshayeb Hala",
+              "Patel Vikul",
+              "Naseer Adnan",
+              "Mangold Therese A",
+              "Wall Barry M"
+            ],
+            "journal": "Tennessee medicine : journal of the Tennessee Medical Association",
+            "year": "2011",
+            "abstract": "This report describes a novel presentation of chloride resistant metabolic alkalosis in a patient with hypercalcemia related to Multiple Myeloma (MM). A 51-year-old male with newly diagnosed MM presented with widespread skeletal involvement, calcium (Ca(+2)) of 18 mg/dL, phosphorous (PO4) of 6 mg/dL, serum bicarbonate (HCO3) of 37 mEq/L, and serum creatinine (Cr) of 2.6 mg/dL Other causes of metabolic alkalosis such as vomiting, diuretics, alkali ingestion, mineralocorticoid excess and hypokalem",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 方向性錯誤警示：CaCl₂ 是 calcium-alkali syndrome 的潛在病因（過量鈣攝取 + 鹼性物質 → 高血鈣、代謝性鹼中毒、腎功能損傷），而非治療劑。文獻記錄均為 CaCl₂/鈣補充劑引發該症候群的個案報告，非治療作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "primary bone dysplasia with defective bone mineralization",
+      "txgnn": {
+        "score": 0.9576530456542968,
+        "rank": 24817
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鈣是骨礦化的必需元素，CaCl₂ 作為可溶性鈣鹽具理論補鈣效果，但實際骨礦化障礙（如低磷酸酶症、XLH、維他命D抵抗性佝僂病等）有各自特定病因，單純補鈣效果有限且非標準治療。無任何直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gastroparesis (disease)",
+      "txgnn": {
+        "score": 0.938562512397766,
+        "rank": 29061
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03268941",
+            "title": "A 2-Part, Randomized, Double Blind and Open-Label, Placebo and Active-Comparator Controlled Trial to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics for TAK-906 in Subjects With Diabetes Mellitus and Gastroparesis or With Idiopathic Gastroparesis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 51,
+            "start_date": "2017-09-26",
+            "completion_date": "2018-03-09",
+            "brief_summary": "The purpose of this study is to evaluate the safety, PK and PD of TAK-906 in participants with Gastroparesis (GP).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02793154",
+            "title": "A Randomized, Open-label, Active-Controlled, Parallel-Group, Exploratory Study on the Effects of Repeated Doses of Albiglutide Compared to Exenatide on Gastric Myoelectrical Activity and Gastric Emptying in Subjects With Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2016-09-26",
+            "completion_date": "2017-03-16",
+            "brief_summary": "The primary objective of this study is to compare the effect of albiglutide and exenatide on gastric myoelectrical activity (GMA), gastric emptying (GE) and nausea (as measured by visual analogue scale \\[VAS\\]) in subjects with type 2 diabetes mellitus (T2DM). The study is divided in two parts. Part A will characterize the GMA, GE and nausea response to exenatide and confirm exenatide as a positive control for Part B. Part B will compare the effects of albiglutide and exenatide on GMA, GE and na",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01602549",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel Group, Dose Ranging Study to Assess the Effect of Repeat Doses of GSK962040 on the Pharmacokinetics of L-DOPA in Subjects With Parkinson's Disease Exhibiting Delayed Gastric Emptying",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 58,
+            "start_date": "2012-07",
+            "completion_date": "2014-05",
+            "brief_summary": "Gastric emptying is the end-result of a complex and carefully regulated series of events which follow the ingestion of a meal, each of which is dependent on the other and subject to neurohormonal control. Motilin is an endogenous peptide, produced mainly in the duodenum, whose physiological action is mediated by motilin receptors located on enteric neurons, peripheral terminals of the vagus, and on the smooth muscle of the gut. Motilin and non-peptide agonists at motilin receptors increases the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01262898",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Multicenter Phase II Study to Evaluate the Safety and Efficacy and Dose Response of 28 Days of Once-Daily Dosing of the Oral Motilin Receptor Agonist GSK962040, in Type I and II Diabetic Male and Female Subjects With Gastroparesis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 79,
+            "start_date": "2011-05-03",
+            "completion_date": "2013-02-26",
+            "brief_summary": "GSK962040 is a novel small molecule motilin agonist. The Phase I studies (MOT107043 and MOT109681) demonstrated that single doses of GSK962040 up to 150 mg and repeat dosing of up to 125 mg/day for 14 days were well tolerated with adverse events not occurring in greater prevalence than placebo, and no significant abnormal vital sign, ECG, or clinical laboratory findings. Pharmacokinetic parameters were linear and approximately dose proportional over the range of doses administered. Single doses ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01934192",
+            "title": "NUTRItional Adequacy Therapeutic Enhancement in the Critically Ill: A Randomized Double Blind, Placebo-controlled Trial of the Motilin Receptor Agonist GSK962040. The NUTRIATE Study",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 91,
+            "start_date": "2014-04-04",
+            "completion_date": "2016-07-08",
+            "brief_summary": "This is a multi-center, parallel group, placebo-controlled and active-compared, randomized study to assess the ability of GSK962040 to enhance the delivery of enteral feed to critically ill subjects that are predisposed to developing feeding intolerance (e.g., percentage of goal volume); enhance gastric emptying in this population; and provide preliminary evidence of the drug's effect on outcomes of therapy (length of stay in the Intensive Care Unit \\[ICU\\], time on ventilator, ICU acquired infe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01149369",
+            "title": "Aprepitant for the Relief of Nausea in Patients With Chronic Nausea and Vomiting of Presumed Gastric Origin: A Multicenter, Randomized, Double-Masked, Placebo-Controlled Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 126,
+            "start_date": "2013-04",
+            "completion_date": "2015-09",
+            "brief_summary": "The principal objective of this multicenter, randomized, placebo-controlled trial is to evaluate whether 4 weeks of treatment with aprepitant will improve nausea as compared with placebo in patients with symptoms of chronic nausea and vomiting of presumed gastric origin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gastroduodenitis",
+      "txgnn": {
+        "score": 0.9302324056625366,
+        "rank": 30612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34897144",
+            "title": "[A case of corrosive gastritis caused by accidental ingestion of calcium chloride that resulted in gastric stenosis and penetration].",
+            "authors": [
+              "Mori Hiroki",
+              "Hashimoto Akira",
+              "Owa Hirono",
+              "Hattori Aiji",
+              "Tanaka Takamitsu"
+            ],
+            "journal": "Nihon Shokakibyo Gakkai zasshi = The Japanese journal of gastro-enterology",
+            "year": "2021",
+            "abstract": "A Japanese woman in her 40s came to our emergency room with vomiting and upper abdominal pain after drinking a bottle of milk tea at home. She had a history of bipolar disorder. Blood tests revealed hypercalcemia (calcium level of 18.6mg/dl). Abdominal computed tomography depicted thickening of the gastric wall and hyperabsorbed material in the stomach. Upper gastroduodenal endoscopy showed extreme mucosal redness from the gastric body to the pylorus. The hypercalcemia improved with intravenous ",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1818437",
+            "title": "Effect of calcium on rat gastric carcinogenesis induced by N-methyl-N'-nitro-N-nitrosoguanidine.",
+            "authors": [
+              "Komatsu S",
+              "Masuda T",
+              "Hisamichi S"
+            ],
+            "journal": "The Tohoku journal of experimental medicine",
+            "year": "1991",
+            "abstract": "The effect of calcium carbonate (CaCO3) on the initiation of gastroduodenal carcinogenesis induced by N-methyl-N'-nitro-N-nitrosoguanidine (MNNG) was examined under the conditions with and without sodium chloride. Male Wistar rats were given drinking water containing MNNG (100 mg/liter) and one of the following diets during the first 20 weeks ad libitum. Group 1 was given basal diet; group 2, diet with 10% NaCl; group 3, diet with 10% NaCl and 2.5% CaCO3; group 4, diet with 10% NaCl and 7.5% CaC",
+            "classification": {
+              "study_type": "Animal study (rat)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全疑慮：現有文獻記錄 CaCl₂ 意外吞服導致腐蝕性胃炎（corrosive gastritis）。CaCl₂ 固態或高濃度液態形式具腐蝕性，不適合口服用於消化道炎症。動物實驗（1991）顯示鈣可能抑制胃部致癌過程，但此機轉不直接適用於胃十二指腸炎治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "stomach disease",
+      "txgnn": {
+        "score": 0.9153521060943604,
+        "rank": 33054
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03268941",
+            "title": "A 2-Part, Randomized, Double Blind and Open-Label, Placebo and Active-Comparator Controlled Trial to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics for TAK-906 in Subjects With Diabetes Mellitus and Gastroparesis or With Idiopathic Gastroparesis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 51,
+            "start_date": "2017-09-26",
+            "completion_date": "2018-03-09",
+            "brief_summary": "The purpose of this study is to evaluate the safety, PK and PD of TAK-906 in participants with Gastroparesis (GP).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "胃輕癱促動力試驗，與廣義胃部疾病相關，非 CaCl₂"
+            }
+          },
+          {
+            "nct_id": "NCT01470612",
+            "title": "A MULTI-CENTER, OPEN-LABEL STUDY OF CP-690,550 IN SUBJECTS WITH MODERATE TO SEVERE ULCERATIVE COLITIS",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 944,
+            "start_date": "2012-10-01",
+            "completion_date": "2020-08-06",
+            "brief_summary": "This study is an open label, long-term extension study for subjects with moderate to severe ulcerative colitis designed to evaluate long term therapy of CP-690,550.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Tofacitinib 用於潰瘍性結腸炎，非胃部疾病也非 CaCl₂"
+            }
+          },
+          {
+            "nct_id": "NCT05836402",
+            "title": "Low-Carbohydrate Dietary and Lifestyle Interventions for the Management of Long COVID-19 Syndrome: A Prospective and Interventional Randomized Controlled Pilot Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 14,
+            "start_date": "2023-09-14",
+            "completion_date": "2025-08-04",
+            "brief_summary": "Rationale: Hyper-inflammatory responses seen in acute COVID-19 are also a feature of long covid, a condition of long-term consequences that are persisting or appearing after initial infection and recovery from acute COVID-19. Long-standing, often disabling symptoms are common in long covid and can be highly varied. Common symptoms include fatigue, brain fog, muscle and chest pain, migraines, shortness of breath, anosmia, muscle weakness, and cognitive dysfunction. 35% of post-COVID patients were",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Long COVID 低碳水化合物飲食介入，非胃病治療研究"
+            }
+          },
+          {
+            "nct_id": "NCT06313801",
+            "title": "The Single-center Randomized Study \"Comparison of Safety and Effectiveness of the First Line of Polychemotherapy and Polychemotherapy in Combination With PIPAC Sessions in Primary Gastric Cancer With Isolated Peritoneal Carcinomatosis.",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 106,
+            "start_date": "2023-01-19",
+            "completion_date": "2027-09-01",
+            "brief_summary": "After the initial diagnostic laparoscopy the Control group patients undergo 6 courses of polychemotherapy according to the FLOT scheme; the examination is carried out every 3 courses (after the 3rd and the 6th courses) with the control diagnostic laparoscopy after 6 courses of polychemotherapy. In the event of the complete regression of foci along the peritoneum and receiving Cy- in the peritoneal lavage, the dynamic observation or cytoreductive surgery is considered (optionally); in case of the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04442737",
+            "title": "A Phase 4, Randomized, Active-Controlled, Open-label Study to Evaluate the Safety and Tolerability of Switching to Once-Daily Darunavir/Cobicistat/Emtricitabine/Tenofovir Alafenamide (D/C/F/TAF) Fixed-dose Combination (FDC) Regimen in Virologically-suppressed Human Immunodeficiency Virus Type 1 (HIV-1) Infected Participants Experiencing Rapid Weight Gain With an INI + TAF/FTC ARV Regimen",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 103,
+            "start_date": "2020-07-01",
+            "completion_date": "2023-08-30",
+            "brief_summary": "The purpose of this study is to assess the percent change in body weight when switching to darunavir/cobicistat/emtricitabine/tenofovir alafenamide (D/C/F/TAF) fixed-dose combination (FDC) (Immediate Switch Arm) compared to continuing the current integrase (INI) + tenofovir alafenamide/emtricitabine (TAF/FTC) antiretroviral (ARV) regimen (Delayed Switch Arm) in virologically-suppressed human immunodeficiency virus (HIV)-1 infected participants who have experienced rapid and significant body weig",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 安全性研究，試驗名稱截斷，相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT02793154",
+            "title": "A Randomized, Open-label, Active-Controlled, Parallel-Group, Exploratory Study on the Effects of Repeated Doses of Albiglutide Compared to Exenatide on Gastric Myoelectrical Activity and Gastric Emptying in Subjects With Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2016-09-26",
+            "completion_date": "2017-03-16",
+            "brief_summary": "The primary objective of this study is to compare the effect of albiglutide and exenatide on gastric myoelectrical activity (GMA), gastric emptying (GE) and nausea (as measured by visual analogue scale \\[VAS\\]) in subjects with type 2 diabetes mellitus (T2DM). The study is divided in two parts. Part A will characterize the GMA, GE and nausea response to exenatide and confirm exenatide as a positive control for Part B. Part B will compare the effects of albiglutide and exenatide on GMA, GE and na",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "胃輕癱 Phase 4 研究，非 CaCl₂"
+            }
+          },
+          {
+            "nct_id": "NCT00725712",
+            "title": "A Phase 2 Study of GSK1363089 (XL880) Administered Orally to Subjects With Metastatic Gastric Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 74,
+            "start_date": "2007-03-31",
+            "completion_date": "2009-11-30",
+            "brief_summary": "This clinical study is being conducted at multiple sites to determine the best confirmed response rate, safety, and tolerability of GSK1363089 treatment in metastatic gastric carcinoma.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "GSK1363089 用於轉移性胃癌 Phase 2，疾病相關但非 CaCl₂"
+            }
+          },
+          {
+            "nct_id": "NCT03479892",
+            "title": "A Randomised, Double-blinded, Multiple-dose, Dose-escalation Trial Investigating Safety, Tolerability and Pharmacokinetics of NNC0194-0499 in Subjects With Overweight or Obesity",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 57,
+            "start_date": "2018-03-13",
+            "completion_date": "2019-06-04",
+            "brief_summary": "This study looks at a new study medicine for weight control in people with overweight or obesity. The aim of this study is to see if the study medicine is safe for people to take. The study also looks at how fast the body removes the study medicine. The participants will either get NNC0194-0499 (the study medicine) or placebo (a formula that looks like the medicine but does not have active ingredients). Which treatment the participants get is decided by chance. The participants will get 1 or mor",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03875313",
+            "title": "A Phase 1b/2 Open Label, Dose Escalation and Expansion Study of the Glutaminase Inhibitor CB-839 in Combination With the PARP Inhibitor Talazoparib in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 33,
+            "start_date": "2019-05-20",
+            "completion_date": "2020-07-29",
+            "brief_summary": "This is a Phase 1b/2 study to determine the recommended phase 2 dose (RP2D), safety and tolerability, pharmacokinetics (PK) and clinical activity of the glutaminase inhibitor CB-839 with the poly adenosine diphosphate ribose polymerase (PARP) inhibitor talazoparib in participants with advanced/metastatic solid tumors.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06704724",
+            "title": "A PHASE 1 OPEN-LABEL STUDY OF PF-07985045 AS A SINGLE-AGENT AND IN COMBINATION WITH OTHER ANTI-CANCER AGENTS IN PARTICIPANTS WITH ADVANCED SOLID TUMORS",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 26,
+            "start_date": "2024-12-10",
+            "completion_date": "2029-03-11",
+            "brief_summary": "The purpose of this study is to learn about the safety and effects of the study medicine when given alone or together with other anti-cancer therapies. Anti-cancer therapy is a type of treatment to stop the growth of cancer.\n\nThis study also aims to find the best amount of study medication.\n\nThis study is seeking participants who have solid tumors (a mass of abnormal cells that forms a lump or growth in the body) that:\n\n* are advanced (cancer that doesn't disappear or stay away with treatment) a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01602549",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Parallel Group, Dose Ranging Study to Assess the Effect of Repeat Doses of GSK962040 on the Pharmacokinetics of L-DOPA in Subjects With Parkinson's Disease Exhibiting Delayed Gastric Emptying",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 58,
+            "start_date": "2012-07",
+            "completion_date": "2014-05",
+            "brief_summary": "Gastric emptying is the end-result of a complex and carefully regulated series of events which follow the ingestion of a meal, each of which is dependent on the other and subject to neurohormonal control. Motilin is an endogenous peptide, produced mainly in the duodenum, whose physiological action is mediated by motilin receptors located on enteric neurons, peripheral terminals of the vagus, and on the smooth muscle of the gut. Motilin and non-peptide agonists at motilin receptors increases the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01684215",
+            "title": "A PHASE 1/2 STUDY OF THE EFFICACY, SAFETY, AND PHARMACOKINETICS OF ORAL PD-0332991, A CYCLIN-DEPENDENT KINASE 4 AND 6 (CDK4/6) INHIBITOR, AS SINGLE AGENT IN JAPANESE PATIENTS WITH ADVANCED SOLID TUMORS OR IN COMBINATION WITH LETROZOLE FOR THE FIRST-LINE TREATMENT OF POSTMENOPAUSAL JAPANESE PATIENTS WITH ER (+) HER2 (-) ADVANCED BREAST CANCER",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 61,
+            "start_date": "2012-10-19",
+            "completion_date": "2018-10-25",
+            "brief_summary": "This study is comprised of two portions: a Phase 1 portion and a Phase 2 portion. The Phase 1 portion is a single-country, non-randomized, open label, clinical trial which will evaluate the safety, tolerability, preliminary efficacy, and PK profile of PD-0332991 as a single agent in Japanese patients with advanced solid tumors, and PD-0332991 in combination with letrozole in the first-line treatment of Japanese patients with ER(+) HER2(-) ABC. The Phase 2 portion is a single-country, non-randomi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05428761",
+            "title": "A Randomized, Placebo Controlled, Semi-Blind, Crossover Study to Evaluate the Effects of Two Novel Hydration Beverage Formulas on Rehydration in Healthy Adults",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2022-08-01",
+            "completion_date": "2023-01-01",
+            "brief_summary": "Dehydration lowers both physical and mental performance if it is severe enough. Performance declines are more pronounced in hot conditions or after prolonged strenuous activity such as exercise. Most individuals drink less than their sweat losses during activity, while some individuals overdrink and develop a sodium deficiency.\n\nWater and electrolyte balance must be restored as part of the recovery process after any activity that causes sweating. Plain water causes a decrease in plasma sodium co",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01265810",
+            "title": "Phase III Randomized Double-blind Cross-over Trial of Caphosol® Versus NaCl 0.9% in the Relief of Oral Mucositis in Renal Cell Carcinoma, Hepatocellular Carcinoma, and Gastrointestinal Stromal Tumor Patients Receiving Targeted Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2011-11",
+            "completion_date": "2015-10",
+            "brief_summary": "Targeted therapies such as multi-targeted tyrosine kinase inhibitors (TKI) and mammalian target of rapamycin inhibitors (mTORI) in renal cell carcinoma (RCC), demonstrate a high level of efficacy with acceptable tolerability. Currently, there are five approved targeted therapies available for RCC: sunitinib (Sutent®), sorafenib (Nexavar®), pazopanib (Votrient®), temsirolimus (Torisel®), and everolimus (Afinitor®). Hepatocellular carcinoma treated with sorafenib and gastro intestinal stromal tumo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07128888",
+            "title": "A Study to Evaluate the Effect of GZR18 Injection on Gastric Emptying and Its Drug-Drug Interactions With Digoxin, Rosuvastatin Calcium and Warfarin Sodium in Obese or Overweight Subjects",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2025-11-17",
+            "completion_date": "2026-07-05",
+            "brief_summary": "This is a single-center, open-label, fixed-sequence phase I clinical study to evaluate the effect of GZR18 Injection on gastric emptying and the effect of repeated SC injections of GZR18 Injection on the pharmacokinetics of oral digoxin tablets, rosuvastatin calcium tablets and warfarin sodium tablets.\n\nA total of 60 obese or overweight subjects are planned to be enrolled, with no less than one-quarter of the subjects from either gender.\n\nThe study duration for each subject in this study is appr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06566274",
+            "title": "Clinical Efficacy and Safety Evaluation of Thumbtack Needle in Nausea and Vomiting in Pregnancy: a Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 320,
+            "start_date": "2024-10-01",
+            "completion_date": "2028-12-31",
+            "brief_summary": "This project intends to use multi-center, large-sample, randomized, controlled, blinded clinical trials to observe the clinical efficacy and safety of thumbtack needle (TN) on nausea and vomiting in pregnancy (NVP).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06154291",
+            "title": "Phase I/II, Multi Center, Open Label, First-in-human, Dose Escalation and Expansion Study to Investigate the Safety, Pharmacokinetics, and Anti-tumors Efficacy of the Glyco-humanized Polyclonal Antibody XON7 in Patients With Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 255,
+            "start_date": "2023-11-14",
+            "completion_date": "2027-11",
+            "brief_summary": "This is a two-stage trial consisting of a Part I, dose escalation and dose-finding component to establish the Maximal Tolerated Dose (MTD), if any, and Recommended Part 2 Dose (RP2D) of XON7, followed by a Part II component to investigate anti-tumors efficacy in selected solid tumor types and to further evaluate safety and tolerability of XON7 at RP2D.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01070199",
+            "title": "Effects of Food Form and Fitness on Appetite and Digestion.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 81,
+            "start_date": "2009-01",
+            "completion_date": "2010-12",
+            "brief_summary": "Energy-yielding fluids induce weaker appetitive and compensatory dietary responses than energy-matched semi-solids or solids. This is problematic because the high and increasing contribution of energy from beverages in the diet may enhance positive energy balance and weight gain. The prevailing view of the overweight/obesity problem is that it stems from a small, sustained positive energy balance. It follows then that only small changes, perhaps manipulations in the rheological characteristics o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07451561",
+            "title": "Role of Combination Therapy of Glucose Insulin Potassium Infusion (GIK), Intravenous Hydrocortisone and Oral Sevelamer in Treatment of Acute Aluminum Phosphide Poisoned Cases Admitted to Intensive Care Unit (ICU) at Sohag University Hospitals.",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 74,
+            "start_date": "2026-03",
+            "completion_date": "2027-03",
+            "brief_summary": "Metal phosphides are commonly utilized for safeguarding stored grains due to their desirable characteristics. They have high potency and the ability to combat different pests and produce non-toxic residues in crops .\n\nIn countries like Iran, India, and Egypt, metal phosphides are extensively employed in agriculture. Some examples of metal phosphides are aluminum phosphide (ALP), zinc phosphide, magnesium phosphide, and calcium phosphide .\n\nALP poisoning is a prevalent method for suicide in most ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002783",
+            "title": "A PHASE II TRIAL OF NEOADJUVANT CISPLATIN-FLUOROURACIL CHEMOTHERAPY, SURGERY, AND INTRAPERITONEAL (IP) FLOXURIDINE (FUdR) PLUS LEUCOVORIN IN PATIENTS WITH GASTRIC CANCER",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "1996-05",
+            "completion_date": "2001-01",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug and giving them in different ways may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of chemotherapy before and after surgery in treating patients with high-risk stomach cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02924454",
+            "title": "An Investigation Into the Effects of Intravenous Lipid Emulsion (ILE) on the Pharmacokinetic and Pharmacodynamic Properties of Metoprolol.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2016-09",
+            "completion_date": "2017-03-10",
+            "brief_summary": "The aim of this study is to investigate whether intravenous lipid emulsion is effective in attenuating the clinical effects of a cardioactive drug, exemplified by the beta-blocking agent metoprolol. In addition, the investigators will clarify how intravenous lipid emulsion affects the pharmacokinetic parameters of metoprolol.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04882241",
+            "title": "A Phase III, Randomized, Double-Blind, Clinical Trial of Pembrolizumab (MK-3475) Plus Chemotherapy (XP or FP) Versus Placebo Plus Chemotherapy (XP or FP) as Neoadjuvant/Adjuvant Treatment for Subjects With Gastric and Gastroesophageal Junction (GEJ) Adenocarcinoma (KEYNOTE-585)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2020-07-29",
+            "completion_date": "2025-04-23",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of pembrolizumab (MK-3745) in the neoadjuvant (prior to surgery) or adjuvant (after surgery) treatment of previously untreated Chinese adults with gastric and gastroesophageal junction (GEJ) adenocarcinoma. No formal hypothesis testing will be done.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01262898",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled Multicenter Phase II Study to Evaluate the Safety and Efficacy and Dose Response of 28 Days of Once-Daily Dosing of the Oral Motilin Receptor Agonist GSK962040, in Type I and II Diabetic Male and Female Subjects With Gastroparesis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 79,
+            "start_date": "2011-05-03",
+            "completion_date": "2013-02-26",
+            "brief_summary": "GSK962040 is a novel small molecule motilin agonist. The Phase I studies (MOT107043 and MOT109681) demonstrated that single doses of GSK962040 up to 150 mg and repeat dosing of up to 125 mg/day for 14 days were well tolerated with adverse events not occurring in greater prevalence than placebo, and no significant abnormal vital sign, ECG, or clinical laboratory findings. Pharmacokinetic parameters were linear and approximately dose proportional over the range of doses administered. Single doses ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02315066",
+            "title": "A PHASE 1, OPEN-LABEL, DOSE ESCALATION STUDY OF PF-04518600 AS A SINGLE AGENT AND IN COMBINATION WITH PF-05082566 IN PATIENTS WITH SELECTED LOCALLY ADVANCED OR METASTATIC CANCERS",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 174,
+            "start_date": "2015-04-23",
+            "completion_date": "2020-11-12",
+            "brief_summary": "To assess the safety and tolerability at increasing dose levels of PF-04518600 alone or in combination wtih PF-05082566 in patients with select advanced or metastatic carcinoma in order to determine the maximum tolerated dose and select the recommended Phase 2 dose.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04228666",
+            "title": "A Clinical Trial to Determine the Safety and Efficacy of Hope Biosciences Autologous Mesenchymal Stem Cell Therapy (HB-adMSCs) for the Treatment of Alzheimer's Disease",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-03-01",
+            "completion_date": "2022-02-01",
+            "brief_summary": "Hope Biosciences is conducting a research study of an investigational product called autologous adipose-derived mesenchymal stem cells (abbreviated as HB-adMSCs) as a possible treatment for Alzheimer's disease (AD). The study purpose is to evaluate the safety profile of four IV infusions of HB-adMSCs in subjects with clinical diagnosis of AD.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04602689",
+            "title": "Effectiveness of Fibrin Glue to Prevent Bleeding in High-risk Patients After Endoscopic Submucosal Dissection in Gastric Neoplasm : A Prospective Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 134,
+            "start_date": "2020-10-30",
+            "completion_date": "2022-07-14",
+            "brief_summary": "It is a prospective randomized controlled study to look for effectiveness of fibrin glue to prevent bleeding in high-risk patients after endoscopic submucosal dissection in gastric neoplasm.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01717612",
+            "title": "A Prospective, Randomized Trial of Histoacryl Injection Versus Thrombin in the Control of Acute Gastric Variceal Bleeding",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 62,
+            "start_date": "2012-10",
+            "completion_date": "",
+            "brief_summary": "Though histoacryl injection is now regarded as treatment of choice in the control of gastric variceal hemorrhage, it may be associated with a lot of complications such as ulcers, ulcer bleeding, bacterial infections, distant site thrombosis and cerebral vascular accident. On the other hand, thrombin has been shown to be effective in acute hemostasis of bleeding gastric varices, ranging from 70% to 100% has been recorded. The rebleeding rates were between 7% and 50%. Moreover, the benefits of thr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02386553",
+            "title": "An Open-Label Study to Assess the Efficacy, Safety, Tolerability, and Pharmacokinetics of Multiple Doses of ISIS 396443 Delivered Intrathecally to Subjects With Genetically Diagnosed and Presymptomatic Spinal Muscular Atrophy",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2015-05-18",
+            "completion_date": "2024-12-17",
+            "brief_summary": "The primary objective of the study is to examine the efficacy of multiple doses of Nusinersen administered intrathecally in preventing or delaying the need for respiratory intervention or death in infants with genetically diagnosed and presymptomatic spinal muscular atrophy (SMA). Secondary objectives of this study are to examine the effects of Nusinersen in infants with genetically diagnosed and presymptomatic SMA.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03221426",
+            "title": "A Phase III, Randomized, Double-Blind, Clinical Trial of Pembrolizumab (MK-3475) Plus Chemotherapy (XP or FP) Versus Placebo Plus Chemotherapy (XP or FP) as Neoadjuvant/Adjuvant Treatment for Subjects With Gastric and Gastroesophageal Junction (GEJ) Adenocarcinoma (KEYNOTE-585)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1007,
+            "start_date": "2017-10-09",
+            "completion_date": "2025-04-23",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of pembrolizumab (MK-3745) in the neoadjuvant (prior to surgery) or adjuvant (after surgery) treatment of previously untreated adults with gastric and gastroesophageal junction (GEJ) adenocarcinoma.\n\nThe primary study hypotheses are that:\n\n* Neoadjuvant and adjuvant pembrolizumab plus chemotherapy, followed by adjuvant pembrolizumab is superior to neoadjuvant and adjuvant placebo plus chemotherapy, followed by adjuvant placebo in terms of Eve",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01360086",
+            "title": "Trial Evaluating the Efficacy and Tolerance of Perioperative Chemotherapy With 5FU-Cisplatin-Cetuximab in Adenocarcinomas of the Stomach and Gastroesophageal Junction. Phase II Single Arm, Multicenter.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2011-06",
+            "completion_date": "2013-03",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as fluorouracil, cisplatin, and leucovorin calcium, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as cetuximab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Giving more than one drug (combination chemotherapy) to",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00003862",
+            "title": "A Phase II Trial of Preoperative Chemotherapy and Chemoradiotherapy for Potentially Resectable Adenocarcinoma of the Stomach",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "1999-11",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Radiation therapy uses high-energy x-rays to damage tumor cells. Combining chemotherapy with radiation therapy may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of chemotherapy and radiation therapy in treating patients who have stomach cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06942195",
+            "title": "Effects of Intraduodenal Calcium on Plasma Glucose, Glucoregulatory Hormones and Gastric Emptying in Response to a Mixed-nutrient Drink in Humans With Type 2 Diabetes",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 8,
+            "start_date": "2025-05-22",
+            "completion_date": "2026-04-28",
+            "brief_summary": "The intervention in this study consists of a 75-min intraduodenal infusion of an isotonic solution containing either of calcium chloride (CaCl2) or control (saline).\n\nParticipants enrolled into the study will receive, in randomised, double-blind fashion (i) Saline (control), (ii) 500 mg CaCl2, or (iii) 1000 mg CaCl2 in three separate sessions, each of which will be separated by at least 4 (and up to 10) days. Each study session will be 4-6 hours. Studies will be carried out in the Clinical Resea",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05411835",
+            "title": "Safety and Tolerability of Oral Ketones and Exercise Among Patients With Long-chain Fatty Acid Oxidation Disorders",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 5,
+            "start_date": "2022-08-01",
+            "completion_date": "2024-01-22",
+            "brief_summary": "The purpose of the study is to determine if an oral ketone beverage is safe and well-tolerated during moderate intensity exercise in participants with long-chain fatty acid oxidation disorders and if it will raise blood ketones to levels similar to that reported among normal healthy subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06447662",
+            "title": "A Phase 1 Open-Label Study of PF-07934040 as a Single Agent and in Combination With Other Targeted Agents in Participants With Advanced Solid Tumors Harboring Mutations in the KRAS Gene",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 330,
+            "start_date": "2024-06-27",
+            "completion_date": "2028-09-09",
+            "brief_summary": "The purpose of this study is to learn about the safety and effects of the study medicine alone or when given together with other anti-cancer therapies. This study also aims to find the best dose.\n\nThis study is seeking participants who have solid tumors (a mass of abnormal cells that forms a lump or growth in the body) that:\n\n* are advanced (cancer that doesn't disappear or stay away with treatment) and\n* have a KRAS gene mutation (a change in the DNA of the KRAS gene that can cause cells to gro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05781243",
+            "title": "Normal Saline Versus Lactated Ringer's Solution for Acute Pancreatitis Resuscitation, an Open-label Multicenter Randomized Controlled Trial: the WATERLAND Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 792,
+            "start_date": "2023-06-19",
+            "completion_date": "2024-09-30",
+            "brief_summary": "Background: Some evidence suggests that fluid resuscitation with lactated Ringer's solution (LR) may have an anti-inflammatory effect on acute pancreatitis (AP) when compared to normal saline (NS), and may be associated with a decrease in severity, but existing single center randomized controlled trials showed conflicting results. The WATERLAND trial aims to investigate the efficacy and safety of fluid resuscitation using LR compared to NS in patients with AP.\n\nMethods: The WATERLAND trial is an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06189001",
+            "title": "The Role of Oxytocin-receptor Signalling in Physiological Regulation of Eating Behaviour in Individuals with Obesity",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2024-01-01",
+            "completion_date": "2024-09-04",
+            "brief_summary": "The present study evaluates appetite, glucose metabolism, gastrointestinal motility and energy expenditure in men and women with obesity (BMI 30-40 kg/m2) under oxytocin exposure compared to placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02658214",
+            "title": "A Phase Ib Study to Evaluate the Safety and Tolerability of Durvalumab and Tremelimumab in Combination With First-Line Chemotherapy in Patients With Advanced Solid Tumors.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 32,
+            "start_date": "2016-04-28",
+            "completion_date": "2019-11-14",
+            "brief_summary": "Durvalumab and Tremelimumab in combination with first-line chemotherapy in the following indications: Ovarian/peritoneal/fallopian tube cancer, SCCHN, TNBC, SCLC and gastric/GEJ cancer, PDAC, ESCC.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02563548",
+            "title": "A Phase 1B Open-Label Study of PEGylated Recombinant Human Hyaluronidase (PEGPH20) Combined With Pembrolizumab in Subjects With Selected Hyaluronan-High Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 56,
+            "start_date": "2015-10-22",
+            "completion_date": "2019-03-26",
+            "brief_summary": "This is a Phase 1b study evaluating a combination of PEGPH20 and pembrolizumab in hyaluronan-high (HA-high) participants with relapsed/refractory non-small cell lung cancer (NSCLC) and HA-high participants with relapsed/refractory gastric adenocarcinoma (GAC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03360435",
+            "title": "Absorption of Transdermal Vitamins in Post Bariatric Surgery Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 99,
+            "start_date": "2017-12-15",
+            "completion_date": "2021-07-07",
+            "brief_summary": "Patients undergoing bariatric surgery often develop new vitamin and/or mineral deficiencies or exacerbate prior deficiencies after surgery. Several bariatric supplement products exist including oral tablets and transdermal patches. The purpose of this study is to observe the concentrations of serum micronutrients and determine how many deficiencies develop in patients who use a transdermal patch.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05987072",
+            "title": "A PHASE 1, OPEN-LABEL, SINGLE-ARM STUDY TO EVALUATE THE PHARMACOKINETICS, SAFETY, AND TOLERABILITY FOLLOWING SINGLE AND MULTIPLE DOSES OF SISUNATOVIR IN CHINESE HEALTHY PARTICIPANTS",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2023-11-03",
+            "completion_date": "2023-12-31",
+            "brief_summary": "The purpose of the study is to learn about:\n\n* The activity of sisunotavir in the body over a period. It includes the processes by which sisunotavir is absorbed, distributed in the body, localized in the tissues, and removed from the body.\n* safety and tolerability of sisunatovir (PF-07923568) in Chinese healthy adult participants.\n\nThis information is being collected to support further clinical development as well as medicine registration in China.\n\nThis study is seeking for participants who:\n\n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07268508",
+            "title": "Randomised Controlled Trial Evaluating the Impact of a Pro-diversity Gut Microbiota Diet on Gut Microbiota, Eating Behaviour and Sensory Function in Patients Who Have Undergone Bariatric Surgery",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 60,
+            "start_date": "2025-12-01",
+            "completion_date": "2029-01-01",
+            "brief_summary": "Bariatric surgery is the most effective treatment for long-term weight loss and reducing obesity-related health risks. It alters the gastrointestinal tract as well as metabolic and hormonal functions, influencing eating behaviour. However, weight loss outcomes and long-term maintenance vary between patients, likely due to changes in the gut microbiota. Dietary recommendations aimed at improving microbiota diversity could help support sustained weight loss after surgery.\n\nThe BariaGut Taste study",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03769441",
+            "title": "Effect of Ferric Carboxymaltose on Exercise Capacity After Kidney Transplantation: a Multicenter Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 148,
+            "start_date": "2019-08-02",
+            "completion_date": "2024-08-19",
+            "brief_summary": "Iron deficiency is common in kidney transplant recipients and is associated with impaired exercise tolerance and an unfavourable prognosis.\n\nThis multicentre double-blind, placebo-controlled randomized controlled clinical trial will allow the investigators to analyse the effects of intravenous iron correction with ferric(III) carboxymaltose on exercise tolerance and other parameters, in comparison to a placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03649165",
+            "title": "A Phase I, Open-label, Single-center Relative Bioavailability and Food Effect Randomized Crossover Study of New Granule and Capsule Formulations of Selumetinib (AZD6244) in Healthy Male Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2018-09-05",
+            "completion_date": "2018-10-21",
+            "brief_summary": "This study will evaluate bioavailability and food effect of selumetinib (AZD6244) in healthy male participants. A total of 24 healthy male participants will be included to ensure at least 20 evaluable participants. The study is divided in 2 study parts; the same participants will participate in both parts of the study. Part 1 of the study is to investigate the pharmacokinetics (PK) of the selumetinib granule compared to the PK of selumetinib capsule, when administered with water under the fasted",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00004099",
+            "title": "Randomized Phase III Study of Preoperative Chemotherapy Followed by Surgery Versus Surgery Alone in Locally Advanced Gastric Cancer (cT3 and cT4NxM0)",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 144,
+            "start_date": "1999-07",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. It is not yet known if surgery alone or surgery combined with chemotherapy is more effective in treating stomach cancer.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of surgery with or without combination chemotherapy in treating patients who have stage II, stage III, or stage IV stomach cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00003298",
+            "title": "A Phase II Trial of Neoadjuvant Paclitaxel - Cisplatin Chemotherapy, Surgery and Adjuvant Radiation Therapy and 5-FU/Leucovorin for Gastric Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 39,
+            "start_date": "1999-06-01",
+            "completion_date": "2011-05",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Radiation therapy uses high-energy x-rays to damage tumor cells. Combining chemotherapy, radiation therapy, and surgery may kill more tumor cells. E7296 was conducted to study neoadjuvant chemotherapy and postoperative chemoradiation therapy in patients diagnosed with high-risk gastric cancer using a new neoadjuvant regimen: paclitaxel plus cisplatin. It was hypothesized that t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00006038",
+            "title": "A Phase II Trial of Neoadjuvant Cisplatin-Fluorouracil-Docetaxel Chemotherapy, Surgery, and Intraperitoneal (IP) Floxuridine (FUdR) Plus Leucovorin in Patients With Locally Advanced Gastric Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2000-02",
+            "completion_date": "2003-02",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Giving chemotherapy drugs in different ways may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combination chemotherapy followed by surgery and intraperitoneal chemotherapy in treating patients who have locally advanced stomach cancer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01934192",
+            "title": "NUTRItional Adequacy Therapeutic Enhancement in the Critically Ill: A Randomized Double Blind, Placebo-controlled Trial of the Motilin Receptor Agonist GSK962040. The NUTRIATE Study",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 91,
+            "start_date": "2014-04-04",
+            "completion_date": "2016-07-08",
+            "brief_summary": "This is a multi-center, parallel group, placebo-controlled and active-compared, randomized study to assess the ability of GSK962040 to enhance the delivery of enteral feed to critically ill subjects that are predisposed to developing feeding intolerance (e.g., percentage of goal volume); enhance gastric emptying in this population; and provide preliminary evidence of the drug's effect on outcomes of therapy (length of stay in the Intensive Care Unit \\[ICU\\], time on ventilator, ICU acquired infe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03085277",
+            "title": "Bovine Colostrum Versus Preterm Formula as the First Supplemental Nutrition for Very Preterm Infants, a Randomized, Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 350,
+            "start_date": "2017-07-01",
+            "completion_date": "2020-11-18",
+            "brief_summary": "Feeding intolerance is a common problem in very preterm infants due to their immature digestive system. This intolerance extends the time to full enteral feeding and thereby also prolongs the time on parenteral nutrition (PN). Prolonged time to full enteral feeding may predispose these infants to a higher risk of growth retardation, infections and organ dysfunctions (e.g. liver, brain). Mother's own milk (MM) is considered the optimal nutrition for preterm infants and is superior to infant formu",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00358449",
+            "title": "A Randomized, Double-blind, Parallel Group Clinical Trial to Assess Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intravenous Mepolizumab (SB240563)(0.55mg/kg, 2.5mg/kg or 10mg/kg) in Pediatric Subjects With Eosinophilic Esophagitis, Aged 2 to 17 Years (Study MEE103219)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 84,
+            "start_date": "2006-09-11",
+            "completion_date": "2008-11-25",
+            "brief_summary": "This study will evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of intravenous mepolizumab in pediatric subjects with eosinophilic esophagitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04614779",
+            "title": "Phase IIa Clinical Study to Assess the Safety and Efficacy of CN128 Tablets in the Treatment of Iron Overload in Transfusion Dependent Thalassemia Patients Aged 16 and Above",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2020-09-30",
+            "completion_date": "2022-08-18",
+            "brief_summary": "1. Primary objectives:\n\n   • To evaluate the safety and efficacy of long-term orally administration of CN128 in thalassaemia patients with blood transfusion dependent and aged 16 and above.\n2. Design:\n\n   * The study is designed as a single arm and opened phase IIa clinical trial, so as to investigate the safety and efficacy of CN128.\n   * A total of 50 eligible subjects are planned to be enrolled, and orally administration of CN128 for 24 weeks or 48 weeks according to the administration plan. ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22954692",
+            "title": "Gastric secretion.",
+            "authors": [
+              "Chu Shijian",
+              "Schubert Mitchell L"
+            ],
+            "journal": "Current opinion in gastroenterology",
+            "year": "2012",
+            "abstract": "This review summarizes the past year's literature regarding the regulation of gastric exocrine and endocrine secretion, both basic science and clinical.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6764730",
+            "title": "Iatrogenic nutritional deficiencies.",
+            "authors": [
+              "Young R C",
+              "Blass J P"
+            ],
+            "journal": "Annual review of nutrition",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6755653",
+            "title": "Antacids and hormones.",
+            "authors": [
+              "Holtermüller K H",
+              "Dehdaschti M"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1982",
+            "abstract": "Antacids are neutralizing compounds which have been shown to hasten ulcer healing and to prevent bleeding from stress ulcerations. Owing to gastric alkalinization, gastrin will be released following antacid ingestion, a condition similar to that following the ingestion of a meal. Gastrin release and, more important, acid rebound also occur when the gastric mucosa comes into contact with calcium chloride. These findings indicate that acid rebound is independent of antral neutralization. Acid rebo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15284223",
+            "title": "Molecular and functional analyses of two new calcium-activated chloride channel family members from mouse eye and intestine.",
+            "authors": [
+              "Evans Stella R",
+              "Thoreson Wallace B",
+              "Beck Carol L"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "2004",
+            "abstract": "Two new calcium-activated chloride channel (CLCA) family members, mCLCA5 and mCLCA6, have been cloned from mouse eye and intestine, respectively. mCLCA5 is highly homologous to hCLCA2, and mCLCA6 is highly homologous to hCLCA4. mCLCA5 is widely expressed with strong expression in eye and spleen, whereas mCLCA6 is primarily expressed in intestine and stomach. mCLCA6 is also expressed as a splice variant lacking exon 8 and part of exon 10 in intestine and stomach. Transfection of tsA201 cells with",
+            "classification": {
+              "study_type": "Basic science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31636470",
+            "title": "Role of ion channels in gastrointestinal cancer.",
+            "authors": [
+              "Anderson Kyle J",
+              "Cormier Robert T",
+              "Scott Patricia M"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2019",
+            "abstract": "In their seminal papers Hanahan and Weinberg described oncogenic processes a normal cell undergoes to be transformed into a cancer cell. The functions of ion channels in the gastrointestinal (GI) tract influence a variety of cellular processes, many of which overlap with these hallmarks of cancer. In this review we focus on the roles of the calcium (Ca2+), sodium (Na+), potassium (K+), chloride (Cl-) and zinc (Zn2+) transporters in GI cancer, with a special emphasis on the roles of the KCNQ1 K+ ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25481805",
+            "title": "Bone and metabolic complications of urinary diversions.",
+            "authors": [
+              "Cano Megías Marta",
+              "Muñoz Delgado Eva Golmayo"
+            ],
+            "journal": "Endocrinologia y nutricion : organo de la Sociedad Espanola de Endocrinologia y Nutricion",
+            "year": "2015",
+            "abstract": "Hyperchloremic metabolic acidosis is a complication of urinary diversion using ileum or colon. Its prevalence ranges from 25% and 46% depending on the procedure used and renal function of the patient. It is a consequence of intestinal fluid and electrolyte exchange between intestinal mucosa and urine. The main mechanism is absorption of ammonium and chloride from urine. Long-term chronic metabolic acidosis in these patients may lead to impaired bone metabolism and osteomalacia. Regular monitorin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9160778",
+            "title": "Salt--more adverse effects.",
+            "authors": [
+              "MacGregor G A"
+            ],
+            "journal": "American journal of hypertension",
+            "year": "1997",
+            "abstract": "Salt intake has been shown to be the most important determinant of blood pressure differences both between populations and within populations, as well as the main determinant of the rise in blood pressure with increasing age. In spite of this overwhelming evidence, the food industry for commercial reasons has sustained an artificial debate about the importance of salt intake. This has distracted attention from the other serious effects that a high salt intake may have. A high salt intake (a) exa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2562365",
+            "title": "Biological basis of omeprazole therapy.",
+            "authors": [
+              "Sachs G",
+              "Wallmark B"
+            ],
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "1989",
+            "abstract": "There are two means of reducing acid secretion. The best studied is inhibition of stimulation of the parietal cell. There are three major types of receptors that activate secretion by this cell and two classes of receptor antagonists, as well as at least two intracellular messenger pathways. The receptors are for histamine (H2 subtype), acetyl choline (M2 subtype) and gastrin. Antagonists of these receptors include the H2-antagonist class (Tagamet, Zantac and Pepcid), the M1 muscarinic antagonis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1638681",
+            "title": "Inhibitory effect of calcium chloride on gastric carcinogenesis in rats after treatment with N-methyl-N'-nitro-N-nitrosoguanidine and sodium chloride.",
+            "authors": [
+              "Nishikawa A",
+              "Furukawa F",
+              "Mitsui M",
+              "Enami T",
+              "Kawanishi T"
+            ],
+            "journal": "Carcinogenesis",
+            "year": "1992",
+            "abstract": "The effects of calcium chloride on glandular stomach carcinogenesis induced by N-methyl-N'-nitro-N-nitrosoguanidine (MNNG) and sodium chloride were investigated in male outbred Wistar rats. Animals were given MNNG solution (100 p.p.m.) as drinking water and simultaneously fed a diet supplemented with 5% sodium chloride for 8 weeks. Matched negative controls received neither MNNG nor sodium chloride. Rats were then fed basal diet and given calcium chloride solution (1 or 0.2%) or tap water for th",
+            "classification": {
+              "study_type": "Animal study (rat)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2805233",
+            "title": "Calcium chloride inhibits stimulation of replicative DNA synthesis by sodium chloride in the pyloric mucosa of rat stomach.",
+            "authors": [
+              "Furihata C",
+              "Sudo K",
+              "Matsushima T"
+            ],
+            "journal": "Carcinogenesis",
+            "year": "1989",
+            "abstract": "Calcium chloride (CaCl2) inhibits stimulation of replicative DNA synthesis (RDS) induced in the pyloric mucosa of male Fischer 344 rats by sodium chloride (NaCl), which is a tumor promoter in the glandular stomach. Administration of 1 ml of 3.3 M NaCl by gastric intubation induced a maximal 15-fold increase in RDS in the pyloric mucosa by 17 h; this had returned to the control level by 48 h. Administration of 1 ml of 20-400 mM CaCl2 1 h before administration of NaCl resulted in a 60-100% inhibit",
+            "classification": {
+              "study_type": "Animal study (rat)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28264681",
+            "title": "Ion channels or aquaporins as novel molecular targets in gastric cancer.",
+            "authors": [
+              "Xia Jianling",
+              "Wang Hongqiang",
+              "Li Shi",
+              "Wu Qinghui",
+              "Sun Li"
+            ],
+            "journal": "Molecular cancer",
+            "year": "2017",
+            "abstract": "Gastric cancer (GC) is a common disease with few effective treatment choices and poor prognosis, and has the second-highest mortality rates among all cancers worldwide. Dysregulation and/or malfunction of ion channels or aquaporins (AQPs) are common in various human cancers. Furthermore, ion channels are involved in numerous important aspects of the tumor aggressive phonotype, such as proliferation, cell cycle, apoptosis, motility, migration, and invasion. Indeed, by localizing in the plasma mem",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8647009",
+            "title": "[pH, sodium, potassium, magnesium, calcium, phosphate and chloride in the rumen and abomasal contents of cows with abomasal displacement].",
+            "authors": [
+              "Geishauser T",
+              "Reiche D",
+              "Seeh C",
+              "Thünker B",
+              "Verwohlt S"
+            ],
+            "journal": "DTW. Deutsche tierarztliche Wochenschrift",
+            "year": "1996",
+            "abstract": "Ruminal and abomasal contents were collected from cows with left abomasal displacement (L), right abomasal displacement (R-), or abomasal volvulus (R+), before the abomasum was corrected, as well as one and three days later, pH and concentrations of sodium (Na), potassium (K), magnesium (Mg), calcium (Ca), phosphate (P), and chloride (Cl) were determined. Results were compared with those from healthy control cattle fed a balanced diet. Ruminal concentrations of Na and Ca were reduced in cattle w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1949406",
+            "title": "Nutritional and gastrointestinal complications of the use of bowel segments in the lower urinary tract.",
+            "authors": [
+              "Steiner M S",
+              "Morton R A"
+            ],
+            "journal": "The Urologic clinics of North America",
+            "year": "1991",
+            "abstract": "Almost all segments of the gastrointestinal tract have been used as urinary tract substitutes. The specific nutritional and gastrointestinal complications depend on the particular portion of bowel that is removed from the alimentary tract. The use of stomach theoretically may predispose the patient to hypergastrinemia and peptic ulcer disease, hypocalcemia, and iron deficiency or megaloblastic anemia. Resection of a large amount of jejunum causes malabsorption. Limited use of colon segments usua",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16825030",
+            "title": "Novel dosage forms and regimens for sevelamer-based phosphate binders.",
+            "authors": [
+              "Duggal Ajay",
+              "Hanus Martin",
+              "Zhorov Eugene",
+              "Dagher Rafif",
+              "Plone Melissa A"
+            ],
+            "journal": "Journal of renal nutrition : the official journal of the Council on Renal Nutrition of the National Kidney Foundation",
+            "year": "2006",
+            "abstract": "Sevelamer, a nonabsorbed, calcium- and metal-free dietary phosphate binder, consists of a polyallylamine polymer backbone with a cationic charge that shows a high capacity for binding anionically charged compounds such as phosphate. The currently licensed form of sevelamer, Renagel, exists as sevelamer hydrochloride, which disassociates in the acidic environment of the stomach and early gastrointestinal tract, exchanging the chloride ions attached to the polymer backbone for phosphate ions. The ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8690517",
+            "title": "Tissue norepinephrine depletion as a mechanism for calcium chloride inhibition of gastric carcinogenesis in rats after treatment with N-methyl-N'-nitro-N-nitrosoguanidine and sodium chloride.",
+            "authors": [
+              "Ishi H",
+              "Tatsuta M",
+              "Baba M",
+              "Yano H",
+              "Uehara H"
+            ],
+            "journal": "International journal of cancer",
+            "year": "1996",
+            "abstract": "The effects of oral calcium chloride (CaCl2) on sodium chloride (NaCl)-enhanced induction of gastric carcinogenesis by the carcinogen N-methyl-N'-nitro-N-nitrosoguanidine, and the norepinephrine (NE) concentration in the gastric wall, were investigated in Wistar rats. Animals were given the carcinogen for 25 weeks and then chow pellets containing 10% NaCl with or without 8% or 4% CaCl2. In week 52, the incidence of gastric cancers, the NE concentration in the antral portion of gastric wall and t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8665511",
+            "title": "Chemopreventive effects of 24R,25-dihydroxyvitamin D3, a vitamin D3 derivative, on glandular stomach carcinogenesis induced in rats by N-methyl-N'-nitro-N-nitrosoguanidine and sodium chloride.",
+            "authors": [
+              "Ikezaki S",
+              "Nishikawa A",
+              "Furukawa F",
+              "Tanakamura Z",
+              "Kim H C"
+            ],
+            "journal": "Cancer research",
+            "year": "1996",
+            "abstract": "The modifying effects of 24R,25-dihydroxyvitamin D3 [24R,25(OH)2D3], a vitamin D3 derivative, on glandular stomach carcinogenesis were investigated in male Wistar rats by N-methyl-N'-nitro-N-nitrosoguanidine (MNNG) and sodium chloride exposure during the postinitiation phase. A total of 130 male 6-week-old rats was divided into five groups. Groups 1-3 (consisting of 30 rats/group) were given MNNG in drinking water at a concentration of 100 ppm and were simultaneously fed a diet supplemented with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37953386",
+            "title": "Determination of hematobiochemical and fore stomach fluid constituents of llama (Lama glama) living in Egypt.",
+            "authors": [
+              "Zaki Mariam Gamal",
+              "Baraka Taher Ahmad",
+              "Elkhiat Mohammed Awny",
+              "Younis Mohamed Ragaii",
+              "Tayeb Fatma Abd El-Fattah"
+            ],
+            "journal": "Tropical animal health and production",
+            "year": "2023",
+            "abstract": "There are no available data regarding the hematology, serum biochemistry, and fore stomach fluid constituents of llama (Lama glama) in Egypt. This study aimed to establish normal reference values for blood and fore stomach fluid constituents of llama and determine the influence of sex and season on these parameters under Egyptian conditions. The study was performed on (n = 38; 22 female, 16 male; 1-7 years) apparently healthy llamas located in the Giza Zoo and private zoo in the Ismailia Governo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10397069",
+            "title": "Effect of oral administration of a calcium chloride gel on blood mineral concentrations, parturient disorders, reproductive performance, and milk production of dairy cows with retained fetal membranes.",
+            "authors": [
+              "Hernandez J",
+              "Risco C A",
+              "Elliott J B"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1999",
+            "abstract": "To assess the effect of oral administration of CaCl2 gel on blood mineral concentrations, parturient disorders, reproductive performance, and milk production of dairy cows with retained fetal membranes (RFM).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1962399",
+            "title": "Bleeding abomasal ulcers in dairy cows.",
+            "authors": [
+              "Braun U",
+              "Bretscher R",
+              "Gerber D"
+            ],
+            "journal": "The Veterinary record",
+            "year": "1991",
+            "abstract": "The clinical signs and changes in blood and rumen fluid, and the results of therapy are described in 35 cows suffering from bleeding abomasal ulcer. The most important pathological findings were moderate to severe anaemia with pale mucous membranes and tachycardia, dark coloured to black faeces, a disturbed general condition and anorexia. Two of the cows were slaughtered immediately. The others were treated by the transfusion of several litres of blood and the intravenous administration of a sol",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15823700",
+            "title": "The chemical reactions in the human stomach and the relationship to metabolic disorders.",
+            "authors": [
+              "Robertson D S"
+            ],
+            "journal": "Medical hypotheses",
+            "year": "2005",
+            "abstract": "Acid hydrolysis of components from the diet in the stomach require the presence of an acid and a hydrolysing agent. The acid involved is hydrochloric acid. The present mechanism of hydrochloric acid production in the stomach is demonstrated to be incompatible with measured intracellular or intercellular concentrations of the relevant ions. An alternative set of chemical reactions whereby hydrochloric acid is formed in the stomach is presented. The hydrolysing agent is identified and a mechanism ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "兩項動物研究（1989、1992）具體顯示 CaCl₂ 可抑制 NaCl 誘導的幽門竇 DNA 複製合成，並減少 MNNG 誘發的大鼠胃癌形成。可能機轉：Ca²⁺ 調控細胞增生訊號傳導，抑制過度的上皮細胞複製。此為潛在化學預防（chemopreventive）而非治療性方向，且僅限於動物數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn": {
+        "score": 0.8598114848136902,
+        "rank": 38441
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03422172",
+            "title": "An Open Label, Phase 1 Study to Evaluate the PK, Safety, Tolerability and Acceptability of Long Acting Injections of the HIV Integrase Inhibitor, Cabotegravir (CAB; GSK1265744) in HIV Uninfected Chinese Men",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2018-04-10",
+            "completion_date": "2020-04-20",
+            "brief_summary": "The pre-exposure prophylaxis (PrEP) is an important component in the overall strategy for prevention of HIV infection. Cabotegravir (CAB) is an integrase strand transfer inhibitor currently in development for treatment and prevention of HIV infection. CAB possesses attributes that allow formulation and delivery as a LA parenteral product. CAB is being developed as both oral and long acting (LA) injectable formulations. This study is designed to evaluate the PK, safety, tolerability, and acceptab",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "長效製劑 PK 研究（試驗名稱截斷），非凝血酶原缺乏相關"
+            }
+          },
+          {
+            "nct_id": "NCT03020745",
+            "title": "A Double-Blind, Placebo-Controlled Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Single Ascending Dose and Multiple Doses of GSK3389404 in Chronic Hepatitis B Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2017-02-14",
+            "completion_date": "2019-11-06",
+            "brief_summary": "GSK3389404 is being developed for the treatment of CHB virus infection. The development goal for GSK3389404 is the establishment of a finite duration treatment that results in sustained suppression of hepatitis B virus (HBV) replication and viral antigen production after cessation of all treatments for CHB due to the restoration of a functional immune response in the absence of high antigen levels. This study is a multicenter, randomized double-Blind (sponsor un-blinded in Part 1), Placebo-contr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "安全性/PK/PD 研究（試驗名稱截斷），無法確認相關性"
+            }
+          },
+          {
+            "nct_id": "NCT02215096",
+            "title": "A Phase I, Open-label, Dose-finding Study of GSK2636771 Administered in Combination With Enzalutamide (Xtandi^TM ) in Male Subjects With Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 37,
+            "start_date": "2014-11-13",
+            "completion_date": "2019-10-03",
+            "brief_summary": "This Phase I, open-label, dose-finding, multicenter study is designed to determine the recommended Phase II dose (RP2D) for the combination of an orally administered Phosphatidylinositol-4,5-bisphosphate 3-kinase beta (PI3K-beta) inhibitor (GSK2636771) with enzalutamide. Subjects with phosphatase and tensin homolog (PTEN)-deficient metastatic castration-resistant prostate cancer (mCRPC) who are receiving a stable dose of enzalutamide with a recently demonstrated progression (either by RECIST \\[R",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "GSK2636771 + Enzalutamide 腫瘤學試驗，與凝血因子缺乏無關"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鈣離子（Ca²⁺，凝血因子 IV）是凝血瀑布的必需輔因子，包括凝血酶原（Factor II）→ 凝血酶（thrombin）的活化過程。先天性凝血酶原缺乏症（OMIM 613679）的核心缺陷在凝血酶原蛋白本身，單純補充 CaCl₂ 無法解決蛋白質缺乏問題。然而，在凝血功能嚴重受損時，最佳化 Ca²⁺ 濃度可能具輔助作用。此為間接機轉假說，非直接治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hypophosphatemia (disease)",
+      "txgnn": {
+        "score": 0.8393845558166504,
+        "rank": 39878
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04188964",
+            "title": "A Phase 1/2, Open-label, Multicenter, Non-randomized Study to Assess the Safety, Tolerability, Pharmacokinetics and Efficacy of Burosumab in Pediatric Patients From Birth to Less Than 1 Year of Age With X-linked Hypophosphatemia (XLH)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2020-02-26",
+            "completion_date": "2024-03-06",
+            "brief_summary": "A Phase 1/2, Open-label, Multicenter, Non-randomized Study to Assess the Safety, Tolerability, Pharmacokinetics and Efficacy of Burosumab in Paediatric Patients from Birth to Less than 1 Year of Age with X-linked Hypophosphatemia (XLH)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02954653",
+            "title": "A PHASE 1 DOSE ESCALATION STUDY TO EVALUATE THE SAFETY, PHARMACOKINETICS AND PHARMACODYNAMICS OF INTRAVENOUS PF-06747143, ADMINISTERED AS SINGLE AGENT OR IN COMBINATION WITH STANDARD CHEMOTHERAPY IN ADULT PATIENTS WITH ACUTE MYELOID LEUKEMIA",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 8,
+            "start_date": "2016-11-28",
+            "completion_date": "2017-12-05",
+            "brief_summary": "Two part, dose escalation and dose expansion study. Open label, multi center, non randomized, multiple dose, safety, pharmacokinetic and pharmacodynamic study of single agent PF-06747143 in sequential dose levels of adult patients with refractory or relapsed AML in order to establish maximum tolerated dose (MTD), recommended Phase 2 dose (RP2D) or maximally permitted dose (MPD) following by a 3 arm dose expansion with PF-06747143 in combination with standard of care chemotherapy in adult patient",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06525636",
+            "title": "A Multicenter, Open-label, Phase 1/2, Dose-escalation and Subsequent Safety Extension Study of Subcutaneous KK8123 in Adult Patients With X-linked Hypophosphatemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 24,
+            "start_date": "2024-10-09",
+            "completion_date": "2028-05-10",
+            "brief_summary": "A first-in-human study of KK8123 in adults with X-linked hypophosphatemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03422172",
+            "title": "An Open Label, Phase 1 Study to Evaluate the PK, Safety, Tolerability and Acceptability of Long Acting Injections of the HIV Integrase Inhibitor, Cabotegravir (CAB; GSK1265744) in HIV Uninfected Chinese Men",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2018-04-10",
+            "completion_date": "2020-04-20",
+            "brief_summary": "The pre-exposure prophylaxis (PrEP) is an important component in the overall strategy for prevention of HIV infection. Cabotegravir (CAB) is an integrase strand transfer inhibitor currently in development for treatment and prevention of HIV infection. CAB possesses attributes that allow formulation and delivery as a LA parenteral product. CAB is being developed as both oral and long acting (LA) injectable formulations. This study is designed to evaluate the PK, safety, tolerability, and acceptab",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02226172",
+            "title": "A Phase 2, Double-blind, Randomized Safety And Efficacy Study Of Glasdegib (Pf-04449913) Versus Placebo In Patients With Myelofibrosis Previously Treated With Ruxolitinib",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 21,
+            "start_date": "2014-10-06",
+            "completion_date": "2018-01-31",
+            "brief_summary": "A lead-in cohort of \\~20 patients with primary or secondary myelofibrosis previously treated with 1 or more Janus kinase inhibitors enrolled to single-agent glasdegib to evaluate safety and tolerability. Following the lead-in, a phase 2, double blind, 2-arm study, randomized 2:1 to oral single-agent glasdegib versus placebo in 201 patients resistant or intolerant to ruxolitinib.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01999335",
+            "title": "Phase 1b/3 Multicenter Study of Oprozomib, Pomalidomide, and Dexamethasone in Primary Refractory or Relapsed and Refractory Multiple Myeloma Subjects",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 33,
+            "start_date": "2014-07-30",
+            "completion_date": "2019-04-25",
+            "brief_summary": "The purpose of the Phase 1 part of the study is to determine the maximum tolerated dose and assess the safety, tolerability and activity of oprozomib in combination with pomalidomide and dexamethasone in adults with primary refractory or relapsed and refractory multiple myeloma.\n\nThe purpose of the Phase 3 part of the study is to compare the efficacy for adults with primary refractory or relapsed and refractory multiple myeloma who are randomized to either oprozomib or placebo in combination wit",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03238911",
+            "title": "A Randomized, Open-label, Comparative Trial Comparing the Incidence of Hypophosphatemia in Relation to Treatment With Iron Isomaltoside/Ferric Derisomaltose and Ferric Carboxymaltose in Subjects With Iron Deficiency Anaemia (Phosphare-IDA-04)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 123,
+            "start_date": "2017-10-24",
+            "completion_date": "2018-06-19",
+            "brief_summary": "The trial was designed to evaluate the incidence of unintended hypophosphatemia (low level of phosphate in the blood) in subjects with iron deficiency anaemia (IDA).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03237065",
+            "title": "A Randomized, Open-label, Comparative Trial Comparing the Incidence of Hypophosphatemia in Relation to Treatment With Iron Isomaltoside/Ferric Derisomaltose and Ferric Carboxymaltose in Subjects With Iron Deficiency Anaemia (Phosphare-IDA-05)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 122,
+            "start_date": "2017-10-30",
+            "completion_date": "2018-05-29",
+            "brief_summary": "The trial was designed to evaluate the incidence of unintended hypophosphatemia (low level of phosphate in the blood) in subjects with iron deficiency anaemia (IDA).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26813509",
+            "title": "[Renal hypophosphatemia:pathophysiology and treatment].",
+            "authors": [
+              "Sekine Takashi"
+            ],
+            "journal": "Clinical calcium",
+            "year": "2016",
+            "abstract": "Serum level of phosphate is regulated by the kidney, especially proximal tubule. The transcellular transport of phosphate in the proximal tubule is mediated via Na dependent transporters, i.e., NPT2a and NPT2b at the luminal membrane, and unknown channel at the basolateral side. The transport of phosphate via NPT2a and NPT2b is further regulated by factors, such as PTH, FGF23, and 1,25(OH)(2)D. Several hereditary diseases that cause hypophoshatemia specically are known. In addition, dysfunction ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27885969",
+            "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+            "authors": [
+              "Bateman R. M.",
+              "Sharpe M. D.",
+              "Jagger J. E.",
+              "Ellis C. G.",
+              "Solé-Violán J."
+            ],
+            "journal": "Critical care (London, England)",
+            "year": "2016",
+            "abstract": "P001 - Sepsis impairs the capillary response within hypoxic capillaries and decreases erythrocyte oxygen-dependent ATP efflux R. M. Bateman, M. D. Sharpe, J. E. Jagger, C. G. Ellis P002 - Lower serum immunoglobulin G2 level does not predispose to severe flu. J. Solé-Violán, M. López-Rodríguez, E. Herrera-Ramos, J. Ruíz-Hernández, L. Borderías, J. Horcajada, N. González-Quevedo, O. Rajas, M. Briones, F. Rodríguez de Castro, C. Rodríguez Gallego P003 - Brain protective effects of intravenous immun",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3731786",
+            "title": "Alterations in calcium, phosphorus and C-terminal parathyroid hormone levels in equine acute renal disease.",
+            "authors": [
+              "Elfers R S",
+              "Bayly W M",
+              "Brobst D F",
+              "Reed S M",
+              "Liggitt H D"
+            ],
+            "journal": "The Cornell veterinarian",
+            "year": "1986",
+            "abstract": "The changes in serum and urinary levels of calcium and phosphorus and serum parathyroid hormone (PTH) were studied during controlled, chemically induced, acute renal disease in 4 ponies. There was an initial rise in daily urinary calcium and hydroxyproline excretion in 2 ponies which may have indicated increased bone resorption. Mild hypercalcemia, hypophosphatemia and elevated C-terminal PTH levels were associated with oliguria. Total daily urinary excretion of calcium and phosphorus decreased ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18446382",
+            "title": "Genetic causes of hypercalciuric nephrolithiasis.",
+            "authors": [
+              "Stechman Michael J",
+              "Loh Nellie Y",
+              "Thakker Rajesh V"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2009",
+            "abstract": "Renal stone disease (nephrolithiasis) affects 3-5% of the population and is often associated with hypercalciuria. Hypercalciuric nephrolithiasis is a familial disorder in over 35% of patients and may occur as a monogenic disorder that is more likely to manifest itself in childhood. Studies of these monogenic forms of hypercalciuric nephrolithiasis in humans, e.g. Bartter syndrome, Dent's disease, autosomal dominant hypocalcemic hypercalciuria (ADHH), hypercalciuric nephrolithiasis with hypophosp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26138848",
+            "title": "Drugs Used in Paediatric Bone and Calcium Disorders.",
+            "authors": [
+              "Cheung Moira S"
+            ],
+            "journal": "Endocrine development",
+            "year": "2015",
+            "abstract": "Calcium and bone disorders in children and adolescents are treated with a wide variety of drugs. Several of these drugs have been used for many years on the basis of accepted practice, without being subjected to rigorous trials. Bisphosphonates are the mainstay treatment for children with osteoporosis, but newer, more potent compounds such as zoledronate and risedronate have begun to replace the older-generation bisphosphonates. Hypocalcaemia is managed with calcium and vitamin D and its metabol",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17872384",
+            "title": "Genetics of hypercalciuric nephrolithiasis: renal stone disease.",
+            "authors": [
+              "Stechman Michael J",
+              "Loh Nellie Y",
+              "Thakker Rajesh V"
+            ],
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "2007",
+            "abstract": "Renal stone disease (nephrolithiasis) affects 5% of adults and is often associated with hypercalciuria. Hypercalciuric nephrolithiasis is a familial disorder in more than 35% of patients, and may occur as a monogenic disorder, or as a polygenic trait involving 3 to 5 susceptibility loci in man and rat, respectively. Studies of monogenic forms of hypercalciuric nephrolithiasis in man, for example, Bartter syndrome, Dent's disease, autosomal dominant hypocalcemic hypercalciuria (ADHH), hypercalciu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10202170",
+            "title": "Genetic disorders of renal electrolyte transport.",
+            "authors": [
+              "Scheinman S J",
+              "Guay-Woodford L M",
+              "Thakker R V",
+              "Warnock D G"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38144470",
+            "title": "Evaluation of a novel dipotassium phosphate bolus for treatment of metabolic disorders in dairy cattle.",
+            "authors": [
+              "Verhoef Walter",
+              "Zuidhof Sjoert",
+              "Ross Joseph A",
+              "Beaugrand Kendall",
+              "Olson Merle"
+            ],
+            "journal": "Frontiers in veterinary science",
+            "year": "2023",
+            "abstract": "A dipotassium phosphate bolus (K Phos-Boost) has been developed to treat both hypophosphatemia and hypokalemia, as the clinical signs of both conditions are similar and occur in the early post-partum period. The objective of this research was to evaluate the efficacy and application of the bolus for prevention and treatment of metabolic diseases that are common in dairy production systems. Study 1 (Pharmacokinetic study): Healthy post-partum cows were either untreated or received two K Phos-Boos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28744758",
+            "title": "Gitelman syndrome: an analysis of the underlying pathophysiologic mechanisms of acid-base and electrolyte abnormalities.",
+            "authors": [
+              "Filippatos T D",
+              "Rizos C V",
+              "Tzavella E",
+              "Elisaf M S"
+            ],
+            "journal": "International urology and nephrology",
+            "year": "2018",
+            "abstract": "Gitelman syndrome is the most common inherited tubular disease resulting from mutations of the SLC12A3 gene that encodes the thiazide-sensitive sodium-chloride cotransporter in the early distal convoluted tubules. The review presents the underlying pathophysiologic mechanisms of acid-base and electrolyte abnormalities observed in patients with Gitelman syndrome. The syndrome is usually characterized by hypokalemic metabolic alkalosis in combination with hypomagnesemia and hypocalciuria. Addition",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15021200",
+            "title": "The molecular basis of kidney stones.",
+            "authors": [
+              "Langman Craig B"
+            ],
+            "journal": "Current opinion in pediatrics",
+            "year": "2004",
+            "abstract": "To emphasize an exploration of mechanisms of kidney stone disease based on a molecular understanding of excess urinary excretions of calcium, oxalate, cystine, and uric acid.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19449283",
+            "title": "Oral phosphate supplementation corrects hypophosphatemia and normalizes plasma FGF23 and 25-hydroxyvitamin D3 levels in women with chronic metabolic acidosis.",
+            "authors": [
+              "Domrongkitchaiporn S",
+              "Disthabanchong S",
+              "Cheawchanthanakij R",
+              "Niticharoenpong K",
+              "Stitchantrakul W"
+            ],
+            "journal": "Experimental and clinical endocrinology & diabetes : official journal, German Society of Endocrinology [and] German Diabetes Association",
+            "year": "2010",
+            "abstract": "Chronic metabolic acidosis (CMA) is known to induce renal phosphate wasting and hypophosphatemia by enhancing bone resorption and inhibiting renal phosphate reabsorption. However, nothing is known regarding changes in the plasma levels of phosphate-regulating hormones during CMA, especially in humans with normal kidney function.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "264790",
+            "title": "Electrolyte and acid-base disturbances in the management of leukemia.",
+            "authors": [
+              "O'Regan S",
+              "Carson S",
+              "Chesney R W",
+              "Drummond K N"
+            ],
+            "journal": "Blood",
+            "year": "1977",
+            "abstract": "Electrolyte disturbances in leukemia can be the result of the disease process or drug therapy. One group of electrolyte abnormalities is related to the stage of the leukemic process. Included in this group are newly diagnosed patients who may show elevated serum potassium, phosphorus, and magnesium--a result of their release from malignant cells after cytotoxic therapy or their accumulation due to urate nephropathy. Patients in remission usually have normal serum electrolyte concentrations, but ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15125028",
+            "title": "Molecular and clinical studies of Dent's disease in Japan: biochemical examination and renal ultrasonography do not predict carrier state.",
+            "authors": [
+              "Matsuyama T",
+              "Awazu M",
+              "Oikawa T",
+              "Inatomi J",
+              "Sekine T"
+            ],
+            "journal": "Clinical nephrology",
+            "year": "2004",
+            "abstract": "Dent's disease is an X-linked renal tubular disorder characterized by low-molecular-weight-proteinuria, hypercalciuria, nephrolithiasis and renal failure. The disease is due to inactivation of a renal chloride channel gene, CLCN5. We have investigated 3 unrelated Japanese families for CLCN5 mutations and assessed the carrier mothers biochemically and ultrasonogaraphically to ascertain whether these clinical examinations can predict the carrier state of the disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32967050",
+            "title": "Utility of blood tests in screening for metabolic disorders in kidney stone disease.",
+            "authors": [
+              "Eyre Katie S",
+              "Lewis Francesca",
+              "Cui Helen",
+              "Grout Emily",
+              "Mihai Radu"
+            ],
+            "journal": "BJU international",
+            "year": "2021",
+            "abstract": "To determine the clinical utility of blood tests as a screening tool for metabolic abnormalities in patients with kidney stone disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37512156",
+            "title": "A Case of Milk-Alkali Syndrome Caused by Diuretic-Induced Alkalosis and Polypharmacy.",
+            "authors": [
+              "Mizutani Naoya",
+              "Goda Ken",
+              "Kenzaka Tsuneaki"
+            ],
+            "journal": "Medicina (Kaunas, Lithuania)",
+            "year": "2023",
+            "abstract": "Milk-alkali syndrome, which is characterized by hypercalcemia, metabolic alkalosis, and renal dysfunction, typically results from the ingestion of large amounts of calcium and absorbable alkaline products. However, these symptoms can also manifest when alkalosis and calcium loading occur simultaneously, owing to other factors. We report a case of milk-alkali syndrome caused by loop-diuretic-induced alkaline load and polypharmacy in an 85-year-old Japanese woman with multiple comorbidities, inclu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35048353",
+            "title": "Atypical manifestations of infantile-onset nephropathic cystinosis: a diagnostic challenge.",
+            "authors": [
+              "Deepthi Bobbity",
+              "Krishnamurthy Sriram",
+              "Karunakar Pediredla",
+              "Barathidasan Gowrishankar",
+              "Rajavelu Thiagarajan Narayanasamy"
+            ],
+            "journal": "CEN case reports",
+            "year": "2022",
+            "abstract": "A 7-month-old male infant was referred to us for evaluation of hypercalcemia and failure to thrive. He was the second-born child to third-degree consanguineous parents with a birth weight of 3.5 kg. The index child was severely underweight. Initial laboratory investigations showed hypercalcemia (13.6 mg/dL), hypophosphatemia, hyponatremia, hypokalemia and hypochloremia. The initial serum bicarbonate level was 20.9 mEq/L. The urine calcium: creatinine ratio (0.05) was normal. He was noted to have",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19270320",
+            "title": "Effect of intravenous calcium borogluconate and sodium phosphate in cows with parturient paresis.",
+            "authors": [
+              "Braun U",
+              "Zulliger P",
+              "Liesegang A",
+              "Bleul U",
+              "Hässig M"
+            ],
+            "journal": "The Veterinary record",
+            "year": "2009",
+            "abstract": "Thirty cows with parturient paresis were divided into three groups of 10. All the cows were given 500 ml of a 40 per cent calcium borogluconate solution intravenously over a period of 10 minutes, and 20 were also given 500 ml of a 10 per cent solution of sodium phosphate intravenously; in 10 of the cows this solution was administered over a period of 10 minutes immediately after the calcium borogluconate solution, and in the other 10 cows 200 ml of the solution was administered rapidly and the r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31409727",
+            "title": "Pharmacological Npt2a Inhibition Causes Phosphaturia and Reduces Plasma Phosphate in Mice with Normal and Reduced Kidney Function.",
+            "authors": [
+              "Thomas Linto",
+              "Xue Jianxiang",
+              "Murali Sathish Kumar",
+              "Fenton Robert A",
+              "Dominguez Rieg Jessica A"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "2019",
+            "abstract": "The kidneys play an important role in phosphate homeostasis. Patients with CKD develop hyperphosphatemia in the later stages of the disease. Currently, treatment options are limited to dietary phosphate restriction and oral phosphate binders. The sodium-phosphate cotransporter Npt2a, which mediates a large proportion of phosphate reabsorption in the kidney, might be a good therapeutic target for new medications for hyperphosphatemia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9509684",
+            "title": "Primary hyperparathyroidism with cardiac abnormalities: a case report.",
+            "authors": [
+              "Yang C Y",
+              "Cheng C C",
+              "Chou C W",
+              "Cheng H M"
+            ],
+            "journal": "Zhonghua yi xue za zhi = Chinese medical journal; Free China ed",
+            "year": "1997",
+            "abstract": "Primary hyperparathyroidism, characterized by hypersecretion of parathyroid hormone (PTH) leading to hypercalcemia and relative hypophosphatemia, is quite common in the elderly. Most patients with primary hyperparathyroidism have only mild hypercalcemia and are symptomless. But others experience various other organ diseases. Primary hyperparathyroidism is also associated with cardiovascular abnormalities, including QT interval shortening, heart block, cardiac arrhythmias, hypertension, myocardia",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18714936",
+            "title": "[Efficacy of oral calcium and/or sodium phosphate in the prevention of parturient paresis in cows].",
+            "authors": [
+              "Braun U",
+              "Bryce B",
+              "Liesegang A",
+              "Hässig M",
+              "Bleul U"
+            ],
+            "journal": "Schweizer Archiv fur Tierheilkunde",
+            "year": "2008",
+            "abstract": "The goal of this study was to investigate the efficacy of calcium chloride, sodium phosphate or a combination of these two substances administered orally immediately postpartum for the prevention of parturient paresis in cows. Thirty-two cows that had had parturient paresis at the previous calving, and in which serum biochemistry had shown hypocalcaemia and hypophosphataemia, were used in the study. The cows were transferred to the Department of Farm Animals, University of Zurich, five days befo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "esophageal varices without bleeding",
+      "txgnn": {
+        "score": 0.7596752643585205,
+        "rank": 43464
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01717612",
+            "title": "A Prospective, Randomized Trial of Histoacryl Injection Versus Thrombin in the Control of Acute Gastric Variceal Bleeding",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 62,
+            "start_date": "2012-10",
+            "completion_date": "",
+            "brief_summary": "Though histoacryl injection is now regarded as treatment of choice in the control of gastric variceal hemorrhage, it may be associated with a lot of complications such as ulcers, ulcer bleeding, bacterial infections, distant site thrombosis and cerebral vascular accident. On the other hand, thrombin has been shown to be effective in acute hemostasis of bleeding gastric varices, ranging from 70% to 100% has been recorded. The rebleeding rates were between 7% and 50%. Moreover, the benefits of thr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Histoacryl 注射 vs Thrombin 控制急性胃靜脈曲張出血的 Phase 3 試驗，使用組織黏著劑，非 CaCl₂；狀態 UNKNOWN 亦降低可用性"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ca²⁺ 是凝血酶活化的輔因子，Histoacryl（氰丙烯酸酯）注射療法中的聚合過程亦有鈣參與，但 CaCl₂ 本身非食道靜脈曲張的治療劑。標準治療為 β-blocker 預防、內視鏡套扎術（EVL）、TIPS。無機轉合理性支持 CaCl₂ 作為直接治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "esophageal varices with bleeding",
+      "txgnn": {
+        "score": 0.7596752643585205,
+        "rank": 43465
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01717612",
+            "title": "A Prospective, Randomized Trial of Histoacryl Injection Versus Thrombin in the Control of Acute Gastric Variceal Bleeding",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 62,
+            "start_date": "2012-10",
+            "completion_date": "",
+            "brief_summary": "Though histoacryl injection is now regarded as treatment of choice in the control of gastric variceal hemorrhage, it may be associated with a lot of complications such as ulcers, ulcer bleeding, bacterial infections, distant site thrombosis and cerebral vascular accident. On the other hand, thrombin has been shown to be effective in acute hemostasis of bleeding gastric varices, ranging from 70% to 100% has been recorded. The rebleeding rates were between 7% and 50%. Moreover, the benefits of thr",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同上，Histoacryl vs Thrombin 急性靜脈曲張出血試驗，非 CaCl₂；兩個出血/非出血適應症共用此唯一試驗"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同「esophageal varices without bleeding」，急性食道靜脈曲張出血標準處理為血管活性藥物（terlipressin/somatostatin）+ 內視鏡套扎術 + 抗生素預防。CaCl₂ 靜脈注射在大量出血時可補充凝血輔因子，但此為支持性用途，非針對靜脈曲張的特定治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "calcium-alkali syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "calcium-alkali syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "calcium-alkali syndrome"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "primary bone dysplasia with defective bone mineralization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "primary bone dysplasia with defective bone mineralization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "primary bone dysplasia with defective bone mineralization"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "stomach disease"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "stomach disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "stomach disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "hypophosphatemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "hypophosphatemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "hypophosphatemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "esophageal varices without bleeding"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "esophageal varices without bleeding"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "esophageal varices without bleeding"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "esophageal varices with bleeding"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "esophageal varices with bleeding"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Calcium chloride",
+        "disease": "esophageal varices with bleeding"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

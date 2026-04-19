@@ -1,0 +1,192 @@
+## 藥物再利用證據分析：Choriogonadotropin alfa (DB00097)
+
+### 藥物背景分析
+
+**Choriogonadotropin alfa** 為重組人類絨毛促性腺激素（recombinant hCG），主要作用機轉：
+- 結合 LH/hCG 受體（LHCGR），激活 cAMP/PKA 訊號路徑
+- 促進類固醇生成（黃體素、雌激素、睪固酮）
+- 具血管新生（VEGF）、免疫調節及抗凋亡效果
+
+**⚠️ 關鍵觀察**：所有 10 個適應症均為 `clinical_trials_count: 0`、`literature_count: 0`，證據完全來自 TxGNN AI 預測分數（0.95–0.98），**無任何臨床或文獻支持**。
+
+---
+
+```json
+{
+  "drug": "Choriogonadotropin alfa",
+  "drugbank_id": "DB00097",
+  "analysis_date": "2026-04-04",
+  "overall_summary": {
+    "evidence_profile": "純AI預測，零臨床/文獻支持",
+    "dominant_level": "L5",
+    "dominant_stage": "S0",
+    "high_score_caveat": "TxGNN分數0.95-0.98反映圖譜結構相似性，非臨床效力",
+    "mechanistic_concern": "hCG在食道疾病中可能為致病因子（黃體素鬆弛LES→逆流），而非治療劑"
+  },
+  "indications": [
+    {
+      "disease_name": "peptic esophagitis",
+      "txgnn_score": 0.9844,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "無任何臨床或文獻證據。機轉上hCG透過促進黃體素分泌可能鬆弛食道下括約肌（LES），加重胃食道逆流，存在潛在反向效應（harm > benefit）",
+      "mechanistic_link": "hCG → 黃體素↑ → LES張力↓ → 胃酸逆流↑ → 食道炎惡化。妊娠期高hCG與GERD惡化正相關，提示hCG可能為食道炎促發因子而非治療劑。文獻亦記載妊娠劇吐（高hCG）與食道損傷相關",
+      "mechanistic_direction": "⚠️ 可能有害（逆向機轉）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["潛在反向機轉", "無安全性資料", "LES鬆弛副作用"]
+    },
+    {
+      "disease_name": "postural orthostatic tachycardia syndrome",
+      "txgnn_score": 0.9833,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "recommendation_rationale": "無直接臨床證據，但LHCGR自體抗體假說提供最具生物學合理性的間接機轉連結，值得進一步探索假說驗證",
+      "mechanistic_link": "部分POTS患者被發現具有抗LHCGR自體抗體（autoantibodies against LHCGR），干擾自主神經調節。理論上外源性hCG可能透過競爭性結合或免疫調節影響LHCGR訊號。此外，hCG具輕度TSH樣活性，可影響自主神經張力。需注意：部分POTS個案在妊娠後（hCG高峰）發生，因果方向不明",
+      "mechanistic_direction": "雙向不確定（自體免疫交互作用假說）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "research_hypothesis": "LHCGR autoantibody競爭/調節假說需體外及動物實驗驗證",
+      "risk_flags": ["無臨床證據", "機轉假說未驗證", "可能誘發心律不整"]
+    },
+    {
+      "disease_name": "esophageal disease",
+      "txgnn_score": 0.9761,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "廣義分類，與peptic esophagitis同樣面臨反向機轉問題，且臨床試驗及文獻均為零",
+      "mechanistic_link": "同peptic esophagitis：hCG透過黃體素路徑降低食道運動功能及LES壓力。妊娠期食道疾病（含運動障礙）發生率增加與hCG/黃體素升高平行，提示hCG為危險因子",
+      "mechanistic_direction": "⚠️ 可能有害（逆向機轉）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["潛在反向機轉", "廣義分類缺乏特異性"]
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9743,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "recommendation_rationale": "性激素對血管痙攣有調節作用，提供間接機轉基礎，但仍屬假說層次，需實驗驗證",
+      "mechanistic_link": "hCG促進雌激素合成→血管內皮一氧化氮（NO）生成↑→末梢血管擴張。雌激素已知對Raynaud現象有保護效果（停經後發生率增加、口服避孕藥可改善部分案例）。hCG亦可能直接作用於血管平滑肌LHCGR，但此受體表達量在血管組織中相對低",
+      "mechanistic_direction": "間接正向（雌激素中介）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "research_hypothesis": "hCG → 雌激素 → 血管舒張 → Raynaud症狀改善，需性別分層分析",
+      "risk_flags": ["無臨床證據", "雌激素路徑對男性患者不適用", "血栓風險"]
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9689,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "發育性結構畸形，藥物治療通常無效，hCG亦無任何發育矯正機轉支持",
+      "mechanistic_link": "食道先天性結構異常（如食道閉鎖）屬發育畸形，需外科矯正。hCG在胚胎發育初期有組織調節作用，但對已形成的結構異常無矯正機轉。KG圖譜可能因疾病分類樹結構（食道疾病群集）產生高分，為圖譜拓撲假陽性",
+      "mechanistic_direction": "❌ 無合理機轉",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["結構性疾病不適合藥物治療", "圖譜拓撲假陽性可能性高"]
+    },
+    {
+      "disease_name": "esophageal ulcer",
+      "txgnn_score": 0.9684,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "與peptic esophagitis類似，反向機轉風險存在，且食道潰瘍有成熟治療方案（PPI），無探索新機轉急迫性",
+      "mechanistic_link": "hCG → 黃體素↑ → LES功能↓ → 胃酸暴露↑ → 潰瘍惡化風險。食道潰瘍（包含GERD相關及藥物性）之標準治療（PPI, H2阻斷劑）已高度成熟，hCG的潛在使用場景極為受限",
+      "mechanistic_direction": "⚠️ 可能有害（逆向機轉）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["潛在反向機轉", "成熟替代療法存在"]
+    },
+    {
+      "disease_name": "His bundle tachycardia",
+      "txgnn_score": 0.9595,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "心臟傳導系統疾病，hCG雖在心臟有受體表達，但已知hCG可誘發妊娠相關心律不整，安全性存疑",
+      "mechanistic_link": "LHCGR在心臟組織（含傳導系統）有表達，hCG可能透過cAMP路徑影響離子通道（If, IKs）及自律性。然而，妊娠期高hCG與室上性心動過速、QT延長相關，表示hCG可能為心律不整促發因子。His束性心動過速為局部傳導異常，hCG對其特異性影響機轉不明",
+      "mechanistic_direction": "⚠️ 雙向不確定（可能致心律不整）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["潛在致心律不整", "無特異性機轉", "心臟安全性資料缺乏"]
+    },
+    {
+      "disease_name": "sinoatrial block",
+      "txgnn_score": 0.9588,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "竇房結傳導阻斷屬心臟電氣傳導疾病，hCG的促心律不整風險使此適應症開發風險高於潛在效益",
+      "mechanistic_link": "hCG透過LHCGR-cAMP路徑可能影響竇房結自律性（類似β-腎上腺素效果），理論上可加速竇房結功能。但妊娠相關研究顯示hCG高峰期間竇房結傳導異常案例，機轉複雜且雙向。竇房結疾病通常需起搏器，藥物治療窗窄",
+      "mechanistic_direction": "⚠️ 機轉複雜雙向，安全性不確定",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["竇房結抑制風險", "起搏器依賴患者禁忌", "無電生理學數據"]
+    },
+    {
+      "disease_name": "progressive familial heart block",
+      "txgnn_score": 0.9566,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "遺傳性心臟傳導疾病（SCN5A/HCN4等基因突變），屬基因缺陷導致的結構性傳導異常，hCG無基因修正機轉",
+      "mechanistic_link": "進行性家族性心臟阻斷為常染色體顯性遺傳病，由Nav1.5（SCN5A）、HCN4等離子通道基因突變引起。hCG的cAMP訊號雖可能短暫影響HCN4（If通道），但無法修正基因突變造成的結構缺陷。此KG高分可能反映疾病分類樹中「心臟傳導疾病」群集的圖譜效應，非真實治療機轉",
+      "mechanistic_direction": "❌ 無合理治療機轉（遺傳病）",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["遺傳病不適合荷爾蒙治療", "圖譜拓撲假陽性", "無基因修正機轉"]
+    },
+    {
+      "disease_name": "sinoatrial node disease",
+      "txgnn_score": 0.9547,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "recommendation_rationale": "與sinoatrial block類似，竇房結疾病譜系，hCG對竇房結的雙向效應使安全性評估困難，不宜推進",
+      "mechanistic_link": "竇房結疾病（Sick Sinus Syndrome）包含多種病生理機轉（纖維化、自律性降低、傳導異常）。hCG透過cAMP上調可能短暫改善自律性，但長期效果未知。妊娠期hCG與Sick Sinus Syndrome相互作用的臨床資料極其匱乏，且現有起搏器治療已為標準照護",
+      "mechanistic_direction": "⚠️ 理論上可能有部分自律性促進效果，但安全性資料完全缺乏",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": ["安全性資料完全缺乏", "起搏器為標準治療", "病因異質性高"]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 機轉方向 |
+|--------|----------|----------|------|----------|
+| Peptic esophagitis | L5 | S0 | **Hold** | ⚠️ 逆向可能有害 |
+| POTS | L5 | S0 | **Research Question** | LHCGR自抗體假說 |
+| Esophageal disease | L5 | S0 | **Hold** | ⚠️ 逆向可能有害 |
+| Raynaud disease | L5 | S0 | **Research Question** | 雌激素血管舒張（間接）|
+| Esophageal malformation | L5 | S0 | **Hold** | ❌ 無合理機轉 |
+| Esophageal ulcer | L5 | S0 | **Hold** | ⚠️ 逆向可能有害 |
+| His bundle tachycardia | L5 | S0 | **Hold** | ⚠️ 可能致心律不整 |
+| Sinoatrial block | L5 | S0 | **Hold** | ⚠️ 安全性存疑 |
+| Progressive familial HB | L5 | S0 | **Hold** | ❌ 遺傳病，無機轉 |
+| Sinoatrial node disease | L5 | S0 | **Hold** | ⚠️ 安全性資料缺乏 |
+
+### 關鍵發現
+
+> **⚠️ 重要警示**：本批次 10 個適應症均為純 AI 預測（L5），完全無臨床試驗或文獻支持。高 TxGNN 分數（0.95–0.98）反映**知識圖譜拓撲結構相似性**，並非治療效力預測。
+
+**三大問題群組**：
+1. **食道疾病群（4項）**：hCG 透過黃體素路徑可能**惡化**食道症狀，存在明確反向機轉風險，不建議推進
+2. **心臟傳導疾病群（4項）**：妊娠相關研究顯示 hCG 可能誘發心律不整，安全性疑慮高於潛在效益
+3. **相對較佳候選（2項）**：POTS（LHCGR 自抗體假說）與 Raynaud disease（雌激素血管舒張路徑）具備最低限度的生物學合理性，可列入**假說產生（hypothesis generation）**研究議程
+
+**下一步建議**：針對 POTS 進行 LHCGR 自體抗體表達的文獻系統性回顧，確認假說基礎後再考慮 S1 安全性評估。
+
+---
+*本分析僅供研究參考，不構成醫療建議。所有預測結果需經臨床驗證才能應用。*

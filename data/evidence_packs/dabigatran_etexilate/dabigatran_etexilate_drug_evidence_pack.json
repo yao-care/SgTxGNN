@@ -1,0 +1,1078 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06695-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dabigatran etexilate",
+    "drugbank_id": "DB06695",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "sclerosing cholangitis",
+      "txgnn": {
+        "score": 0.9982158541679382,
+        "rank": 3127
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36906733",
+            "title": "Evaluation of the Potential for Cytochrome P450 and Transporter-Mediated Drug-Drug Interactions for Cilofexor, a Selective Nonsteroidal Farnesoid X Receptor (FXR) Agonist.",
+            "authors": [
+              "Younis Islam",
+              "Weber Elijah",
+              "Nelson Cara",
+              "Kirby Brian J",
+              "Shen Gong"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2023",
+            "abstract": "Cilofexor is a selective farnesoid X receptor (FXR) agonist in development for the treatment of nonalcoholic steatohepatitis and primary sclerosing cholangitis. Our objective was to evaluate potential drug-drug interactions of cilofexor as a victim and as a perpetrator.",
+            "classification": {
+              "study_type": "DDI 評估研究（非臨床）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝纖維化研究顯示凝血酶可活化 PAR-2 促進肝星狀細胞增殖，理論上 thrombin 抑制或可減緩膽管周圍纖維化進展。然此機轉為高度推測性，目前無任何 PSC/SSC 動物模型或人體研究支持 dabigatran 應用於膽管硬化症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn": {
+        "score": 0.9963305592536926,
+        "rank": 5279
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "凝血酶抑制與脂質代謝（LDL/VLDL 升高、HDL 降低）無已知直接機轉關聯。此外疾病名稱標記「obsolete」代表 ontology 已棄用此分類，研究目標本身存在定義問題，不建議以廢棄疾病術語進行再利用評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "hypoalphalipoproteinemia",
+      "txgnn": {
+        "score": 0.9956687688827516,
+        "rank": 5906
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "低 HDL 血症主要由 ABCA1/APOA1 功能缺陷或 CETP 過活躍驅動，與凝血酶路徑無直接關聯。高 TxGNN 分數可能反映知識圖譜中脂質代謝節點與凝血節點的間接連結（如心血管共病），但缺乏直接生物學支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "homozygous familial hypercholesterolemia",
+      "txgnn": {
+        "score": 0.994872272014618,
+        "rank": 6586
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HoFH 由 LDL 受體雙等位基因功能喪失突變引起，治療核心為降低 LDL-C（statin/ezetimibe/PCSK9 抑制劑/lomitapide/lipoprotein apheresis）。雖 HoFH 患者心血管風險極高、可能合併抗凝需求，但此為「共病處置」而非以 dabigatran 治療 HoFH 本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9905551075935364,
+        "rank": 10153
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06101667",
+            "title": "Efficacy and Safety of Endovascular Recanalization for Acute Basilar Artery Occlusion With Extended Time Window -- A Multicenter, Prospective, Open-label, Blind Endpoint, Randomized Controlled Trial（ANGEL-BAO）",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 224,
+            "start_date": "2023-10-15",
+            "completion_date": "2025-12",
+            "brief_summary": "The aim of this study is to assess the efficacy and safety of endovascular treatment versus medical management in patients with acute basilar artery occlusion with extended time window of 24-72 hours from onset.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，RECRUITING；研究主題為急性基底動脈閉塞（Acute Basilar Artery Occlusion）的血管內再通治療，入組標準、干預措施與原發性血小板釋放障礙均無關聯；被誤收錄可能因試驗使用 dabigatran 作為對照藥物"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28646118",
+            "title": "Direct oral anticoagulants for treatment of HIT: update of Hamilton experience and literature review.",
+            "authors": [
+              "Warkentin Theodore E",
+              "Pai Menaka",
+              "Linkins Lori-Ann"
+            ],
+            "journal": "Blood",
+            "year": "2017",
+            "abstract": "Direct oral anticoagulants (DOACs) are attractive options for treatment of heparin-induced thrombocytopenia (HIT). We report our continuing experience in Hamilton, ON, Canada, since January 1, 2015 (when we completed our prospective study of rivaroxaban for HIT), using rivaroxaban for serologically confirmed HIT (4Ts score ≥4 points; positive platelet factor 4 [PF4]/heparin immunoassay, positive serotonin-release assay). We also performed a literature review of HIT treatment using DOACs (rivarox",
+            "classification": {
+              "study_type": "Case series + Literature Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31505555",
+            "title": "Antithrombotic therapy in patients with atrial fibrillation undergoing coronary artery stenting.",
+            "authors": [
+              "Lacoste Jordan L",
+              "Hansen Cory L"
+            ],
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2019",
+            "abstract": "Updates to the primary literature and clinical practice guidelines on use of antithrombotic combinations for patients with atrial fibrillation (AF) undergoing percutaneous coronary intervention (PCI) and stenting are reviewed.",
+            "classification": {
+              "study_type": "Clinical Study/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39133737",
+            "title": "Updated Assessment of Practice Patterns of Perioperative Management of Antiplatelet and Anticoagulant Therapy in Interventional Pain Management.",
+            "authors": [
+              "Manchikanti Laxmaiah",
+              "Sanapati Mahendra R",
+              "Pampati Vidyasagar",
+              "Soin Amol",
+              "Hirsch Joshua A"
+            ],
+            "journal": "Pain physician",
+            "year": "2024",
+            "abstract": "The role of antiplatelet/anticoagulant therapy is well known for its primary and secondary prevention of sequela from cardiovascular disease by decreasing the incidence of acute cerebral, cardiovascular, peripheral vascular, and other thrombo-embolicevents. The overwhelming data show that the risk of thrombotic events is significantly higher than that of bleeding during surgery after antiplatelet drug discontinuation. It has been assumed that discontinuing antiplatelet therapy prior to performin",
+            "classification": {
+              "study_type": "Practice Pattern Survey",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19875000",
+            "title": "[Dabigatran (Pradaxa): efficacy and safety].",
+            "authors": [
+              "Rosencher N",
+              "Bellamy L"
+            ],
+            "journal": "Annales francaises d'anesthesie et de reanimation",
+            "year": "2009",
+            "abstract": "There is considerable interest in developing new, orally available anticoagulants for the prevention and treatment of thrombotic disorders. In Europe, the low-molecular-weight heparins (LMWHs) are more commonly prescribed for thrombosis prevention, but require parenteral administration, platelets monitoring twice a week during the first month. Furthermore, LMWH are not synthetic. All of these characteristics can be an obstacle to optimal patient care, particularly when outpatient dosing is requi",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "凝血酶為強效血小板活化劑（PAR-1/PAR-4），理論上 DTI 可減少凝血酶誘發的血小板顆粒釋放刺激。然而：(1) 原發性血小板釋放障礙為出血性疾病，使用抗凝劑存在加重出血的明確安全疑慮；(2) 此類疾病本質為血小板顆粒缺陷，非凝血酶過度活化所致；機轉方向相悖，臨床應用邏輯不成立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9890256524086,
+        "rank": 11254
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34552732",
+            "title": "Glanzmann thrombasthenia complicated by frequent myeloproliferative neoplasm-related thromboembolism: thrombosis occurring regardless of αIIbβIII integrin deficiency.",
+            "authors": [
+              "Schutgens Roger E G",
+              "Urbanus Rolf T"
+            ],
+            "journal": "Clinical case reports",
+            "year": "2021",
+            "abstract": "A patient with Glanzmann Thrombasthenia developed recurrent venous thrombosis with a JAK2 positive myeloproliferative neoplasm. This indicates that the platelet aIIbβIII integrin has no role in venous thrombosis. We discuss the other potential mechanisms that are involved. In addition, we describe the successful use of dabigatran in this patient.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GT 為 GPIIb/IIIa（整合素 αIIbβ3）雙等位基因突變導致血小板聚集完全失能，為嚴重出血性疾病。Dabigatran 抑制凝血酶理論上可減少 PAR-1/PAR-4 誘發的血小板活化刺激，但此無法修正 GPIIb/IIIa 缺陷，且對已無法聚集的血小板使用抗凝劑將顯著加重出血風險。唯一例外情境：GT 患者發生血栓合併症時的抗凝管理（見 PMID 34552732），但此為「合併症治療」而非 GT 再利用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "gout",
+      "txgnn": {
+        "score": 0.987927258014679,
+        "rank": 12114
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31381100",
+            "title": "Reversal of dabigatran requiring hemodialysis, fresh frozen plasma, and 2 doses of idarucizumab in a patient with acute kidney injury.",
+            "authors": [
+              "Sheikh-Taha Marwan"
+            ],
+            "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+            "year": "2019",
+            "abstract": "A case report of dabigatran-associated coagulopathy that lasted for about 1 week after drug discontinuation despite use of several treatment measures is presented.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39709948",
+            "title": "Direct-Acting Oral Anticoagulant Dabigatran as a Bridging Therapy while Optimizing Warfarin Dosage for Cardioembolic Stroke.",
+            "authors": [
+              "Venketasubramanian Narayanaswamy",
+              "Kusuma Yohanna",
+              "Yeo Leonard Leong Litt",
+              "Chan Bernard"
+            ],
+            "journal": "Cerebrovascular diseases extra",
+            "year": "2025",
+            "abstract": "Parenteral heparin is widely used as bridging therapy while optimizing oral anticoagulation (OAC). Newer direct-acting OACs (DOACs) attain therapeutic effect very quickly. We report the use of dabigatran as bridging therapy during warfarin optimization for cardioembolic stroke in two patients who opted to receive warfarin for long-term anticoagulation for secondary stroke prevention.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "痛風由單鈉尿酸鹽（MSU）結晶引發 NLRP3 inflammasome 活化 → IL-1β 大量釋放 → 急性痛風性關節炎。雖凝血酶具促炎特性並可透過 PAR 受體影響炎症，但無任何證據顯示凝血酶抑制可影響尿酸代謝、MSU 結晶形成或 NLRP3 活化路徑。兩篇文獻均屬「痛風為合併症」情境，非治療機轉文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.9877635836601256,
+        "rank": 12236
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假性（血小板型）vWD 為 GPIbα 功能增益突變，導致血小板對 vWF 親和性異常升高 → 自發性血小板聚集 → 高分子量 vWF 耗竭 → 出血。DTI 無法修正 GPIbα-vWF 異常交互作用，且使用抗凝劑於此出血性疾病存在明確安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9870855212211608,
+        "rank": 12789
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33141212",
+            "title": "Diagnosis and Treatment of Lower Extremity Venous Thromboembolism: A Review.",
+            "authors": [
+              "Chopard Romain",
+              "Albertsen Ida Ehlers",
+              "Piazza Gregory"
+            ],
+            "journal": "JAMA",
+            "year": "2020",
+            "abstract": "Incidence rates for lower extremity deep vein thrombosis (DVT) range from 88 to 112 per 100 000 person-years and increase with age. Rates of recurrent VTE range from 20% to 36% during the 10 years after an initial event.",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36142208",
+            "title": "Ameliorative Effect of Dabigatran on CFA-Induced Rheumatoid Arthritis via Modulating Kallikrein-Kinin System in Rats.",
+            "authors": [
+              "Youssef Mahmoud E",
+              "Abdel-Reheim Mustafa A",
+              "Morsy Mohamed A",
+              "El-Daly Mahmoud",
+              "Atwa Gamal M K"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2022",
+            "abstract": "Rheumatoid arthritis is an autoimmune disease that affects joints, leading to swelling, inflammation, and dysfunction in the joints. Recently, research efforts have been focused on finding novel curative approaches for rheumatoid arthritis, as current therapies are associated with adverse effects. Here, we examined the effectiveness of dabigatran, the antithrombotic agent, in treating complete Freund's adjuvant (CFA)-induced arthritis in rats. Subcutaneous injection of a single 0.3 mL dosage of ",
+            "classification": {
+              "study_type": "Animal Study（臨床前）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27457374",
+            "title": "Tocilizumab and mesenteric arterial thrombosis: drug-drug interaction with anticoagulants metabolized by CYP 450 and/or by P-glycoprotein.",
+            "authors": [
+              "Clarivet B",
+              "Robin P",
+              "Pers Y M",
+              "Ferreira R",
+              "Lebrun J"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report + DDI Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "★ 本批次中機轉合理性最高的適應症 ★\n凝血酶透過多重路徑促進 RA 滑膜炎症：\n(1) PAR-1 活化 → 滑膜纖維母細胞 NF-κB → IL-6/TNF-α/MMP 釋放；\n(2) 凝血酶調節 kallikrein-kinin 系統（KKS）→ 緩激肽（bradykinin）累積 → B1/B2 受體活化 → 滑膜血管擴張與疼痛；\n(3) 關節腔內纖維蛋白沉積 → 局部炎症擴大。\nPMID 36142208 動物研究直接證實 dabigatran 透過調節 KKS 改善 CFA 誘發的大鼠關節炎，具明確機轉連結，但仍屬臨床前階段，需人體安全性與療效資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "HIV infectious disease",
+      "txgnn": {
+        "score": 0.987041711807251,
+        "rank": 12816
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01896622",
+            "title": "The Influence of Cobicistat or Ritonavir on Dabigatran Pharmacokinetics and Pharmacodynamics in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2013-06-18",
+            "completion_date": "2017-01-17",
+            "brief_summary": "Background:\n\n\\- People who have the human immunodeficiency virus (HIV) often take several medications to control their disease. They may also need to take medicine to prevent blood clots. Taking both kinds of medicine together can cause bleeding or other problems. But this might not happen if the medications are taken at different times. Researchers will study two particular HIV drugs (ritonavir and cobicistat) and how they interact with blood clot medications.\n\nObjectives:\n\n-To understand how H",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，已完成（COMPLETED），40 人健康受試者；評估 cobicistat 或 ritonavir 對 dabigatran 藥動學/藥效學影響——為 DDI 安全評估設計，非 HIV 治療療效試驗；反而提示 HIV 患者使用 dabigatran 的安全風險（暴露量增加）"
+            }
+          },
+          {
+            "nct_id": "NCT06533280",
+            "title": "A Multi-part Phase 1 Study Assessing the Safety, Tolerability, and PK of VH3739937 in Healthy Participants, by Conducting MAD and RBA Cohorts, With Optional Food Effect and Drug Interaction Cohorts",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2024-08-02",
+            "completion_date": "2024-08-14",
+            "brief_summary": "This study will assess safety, tolerability and pharmacokinetic (PK) of VH3739937 in healthy participants.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究已撤回（WITHDRAWN，0 人入組），且研究藥物為 VH3739937（非 dabigatran），與本藥再利用評估完全無關"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30924585",
+            "title": "Use of dabigatran with antiretrovirals.",
+            "authors": [
+              "Perram J",
+              "O'Dwyer E",
+              "Holloway C"
+            ],
+            "journal": "HIV medicine",
+            "year": "2019",
+            "abstract": "Theoretical and untested interactions between antiretrovirals and direct-acting oral anticoagulants have limited the use of this new class of anticoagulant in people with HIV infection. This case series, the first of its kind, reports on the successful concurrent use of the direct-acting oral anticoagulant dabigatran and antiretroviral therapy.",
+            "classification": {
+              "study_type": "Case report / Pharmacology Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37731164",
+            "title": "Mechanisms and Clinical Significance of Pharmacokinetic Drug Interactions Mediated by FDA and EMA-approved Hepatitis C Direct-Acting Antiviral Agents.",
+            "authors": [
+              "Murray Michael"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2023",
+            "abstract": "The treatment of patients infected with the hepatitis C virus (HCV) has been revolutionised by the development of direct-acting antiviral agents (DAAs) that target specific HCV proteins involved in viral replication. The first DAAs were associated with clinical problems such as adverse drug reactions and pharmacokinetic drug-drug interactions (DDIs). Current FDA/EMA-approved treatments are combinations of DAAs that simultaneously target the HCV N5A-protein, the HCV N5B-polymerase and the HCV NS3",
+            "classification": {
+              "study_type": "Systematic Review（DDI）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26590187",
+            "title": "Novel oral anticoagulants and HIV: dabigatran use with antiretrovirals.",
+            "authors": [
+              "Perram Jacinta",
+              "Joseph Joanne",
+              "Holloway Cameron"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2015",
+            "abstract": "Compatibility of novel oral anticoagulants in patients with HIV taking combined antiretroviral therapy has not been established, with no published reports of successful concurrent use. We present a case where chronic anticoagulation was indicated in a patient with treated HIV and non-valvular atrial fibrillation who refused warfarin therapy. The patient tolerated the combination, with dabigatran blood levels within the expected range at a standard dosing regimen, without evidence of bleeding or ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30575989",
+            "title": "Atrial fibrillation and human immunodeficiency virus type-1 infection: a systematic review. Implications for anticoagulant and antiarrhythmic therapy.",
+            "authors": [
+              "Pastori Daniele",
+              "Mezzaroma Ivano",
+              "Pignatelli Pasquale",
+              "Violi Francesco",
+              "Lip Gregory Y H"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2019",
+            "abstract": "The prevalence and incidence of atrial fibrillation/flutter (AF/AFL) in patients with human immunodeficiency virus type-1 (HIV-1) infection have been poorly investigated. We performed a systematic review using PubMed and Cochrane Database of Systematic Reviews, and screening of references, searching for clinical studies reporting on the association between HIV-1 infection and AF/AFL. We also summarized the main interactions of antiretroviral agents with antithrombotic and antiarrhythmic drugs. W",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35138967",
+            "title": "Use of Apixaban in Atrial Fibrillation With Ritonavir-Boosted Antiretroviral Therapy: A Case Report.",
+            "authors": [
+              "Lomakina Veronica",
+              "Sozio Stephen J",
+              "Tekle Jowana"
+            ],
+            "journal": "Journal of pharmacy practice",
+            "year": "2023",
+            "abstract": "Purpose: Direct oral anticoagulants (DOACs) pose a challenge when given with potent CYP3A4 and P-gp inhibitors, such as the commonly prescribed pharmacokinetic booster ritonavir. As per the manufacturer, apixaban offers a dose reduction when administered concurrently with ritonavir; thus, we explore the clinical indication and safety of apixaban when given with ritonavir-boosted highly active antiretroviral therapy (HAART) in an HIV patient. Summary: We describe a 73-year-old male with extensive",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30975070",
+            "title": "Ritonavir- or cobicistat-boosted antiretroviral therapy and direct oral anticoagulants: A case for apixaban.",
+            "authors": [
+              "Nisly Sarah A",
+              "Stevens Brooke N"
+            ],
+            "journal": "International journal of STD & AIDS",
+            "year": "2019",
+            "abstract": "The potential for drug-drug interactions (DDIs) between direct oral anticoagulants and antiretroviral therapy (ART) is vast. Ritonavir and cobicistat are used as pharmacokinetic enhancers with either concurrent protease inhibitors or the integrase strand transfer inhibitor, elvitegravir, to optimize therapeutic concentrations by cytochrome P450 (CYP) inhibition. To date, only rivaroxaban and dabigatran have reported cases of use with ritonavir-boosted ART. Apixaban is metabolized similarly to ri",
+            "classification": {
+              "study_type": "Case Series / Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29133562",
+            "title": "Ritonavir-Boosted Protease Inhibitors but Not Cobicistat Appear Safe in HIV-Positive Patients Ingesting Dabigatran.",
+            "authors": [
+              "Kakadiya Payal P",
+              "Higginson Robert T",
+              "Fulco Patricia Pecora"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Dabigatran 為 DTI，無任何已知抗病毒（抗 HIV）機轉。所有相關文獻的核心主題均為：HIV 患者服用 ritonavir/cobicistat 增強型 ART 時，P-gp 抑制導致 dabigatran 暴露量顯著上升（↑2-4 倍），造成出血風險增加的 DDI 安全問題。臨床試驗亦為 DDI 評估研究，非 HIV 抗病毒療效研究。高 TxGNN 分數可能源於 HIV-相關心血管合併症（AF、VTE）的知識圖譜連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "hypoalphalipoproteinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Dabigatran etexilate",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    }
+  ]
+}

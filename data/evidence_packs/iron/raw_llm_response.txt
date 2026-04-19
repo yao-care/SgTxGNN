@@ -1,0 +1,239 @@
+```json
+{
+  "drug": "Iron",
+  "drugbank_id": "DB01592",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "market_status『未上市』疑為特定市場或劑型登記問題，Iron 作為基礎補充劑在全球均有廣泛使用；original_indications 為空且 MoA 為 [Data Gap] 顯示資料庫登錄不完整，不影響證據評估。ddi_count=0 安全性顧慮低。",
+  "indications": [
+    {
+      "disease_name": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此型巨紅血球性貧血成因獨立於 B12/葉酸代謝缺陷，推測可能涉及鐵在 DNA 合成輔因子中的潛在功能，但機轉連結極為薄弱。鐵缺乏本身導致小球性低色素貧血（非巨紅血球），與此適應症生理機轉相悖。TxGNN 高分（0.999）可能源自知識圖譜貧血節點的過度泛化。無任何臨床或基礎研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Plummer-Vinson syndrome",
+      "evidence_level": "L3",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Plummer-Vinson 症候群（Paterson-Kelly 症候群）的核心病因即為慢性鐵缺乏：缺鐵導致食道黏膜萎縮及頸段食道蹼形成，表現為「缺鐵性貧血＋吞嚥困難＋食道蹼」三聯徵。鐵補充為目前國際公認的第一線治療，可促使食道蹼部分或完全消退，配合必要時食道擴張術。機轉連結直接且明確。因疾病罕見（無法進行 RCT），證據等級雖僅 L3（病例報告＋回顧性文獻），但臨床共識強烈（多份綜述一致支持），決策階段達 S3。注意點：確認鐵缺乏病因，排除腫瘤性食道狹窄，長期監測食道癌風險（Plummer-Vinson 為前驅因子）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "29089792", "study_type": "Comprehensive Review", "tier": "1"},
+        {"pmid": "38871147", "study_type": "Review", "tier": "1"},
+        {"pmid": "31417270", "study_type": "Multidisciplinary Review", "tier": "1"},
+        {"pmid": "31208220", "study_type": "Review", "tier": "1"},
+        {"pmid": "20890819", "study_type": "Review", "tier": "1"},
+        {"pmid": "16978405", "study_type": "Review", "tier": "1"},
+        {"pmid": "12823219", "study_type": "Review", "tier": "1"},
+        {"pmid": "7865729",  "study_type": "Historical Cohort Analysis", "tier": "2"},
+        {"pmid": "34651287", "study_type": "Case-based Review", "tier": "3"},
+        {"pmid": "38034443", "study_type": "Case Report (Pediatric)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非症候群型食道畸形為先天結構發育異常（如食道閉鎖、氣管食道瘻），病因涉及胚胎發育基因調控，與鐵代謝無已知直接機轉連結。TxGNN 預測可能源自與 Plummer-Vinson 症候群的食道相關節點鄰近性，造成知識圖譜預測偏差。無任何試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "biotin metabolic disease",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接機轉假說：鐵-硫簇（Fe-S cluster）為粒線體電子傳遞鏈及多種輔酶功能所必需，biotin 依賴性羧化酶（如丙酮酸羧化酶）需粒線體完整性，鐵缺乏可能間接影響 biotin 代謝酵素活性。然而此連結高度間接，無直接臨床研究支持。所有 9 項臨床試驗均非針對 biotin 代謝疾病的鐵治療（全部評級 C）。文獻亦以粒線體功能基礎研究為主，缺乏臨床轉化證據。建議維持 Hold，除非有機轉研究進一步明確鐵-biotin 代謝交互作用。",
+      "trials_analysis": [
+        {"nct_id": "NCT04586348", "relevance_grade": "C", "reasoning": "碘補充對神經發育的研究，干預為碘而非鐵，與 biotin 代謝疾病無直接關聯"},
+        {"nct_id": "NCT01304446", "relevance_grade": "C", "reasoning": "癌症兒童腸道營養支持，鐵為多成分混合補充劑之一，非特定 biotin 代謝疾病研究"},
+        {"nct_id": "NCT01302509", "relevance_grade": "C", "reasoning": "同 NCT01304446，重複研究設計，適應症不符"},
+        {"nct_id": "NCT07240246", "relevance_grade": "C", "reasoning": "飲食補充品（FitLine TopShape）對 incretin 反應，與 biotin 代謝疾病無關"},
+        {"nct_id": "NCT03360435", "relevance_grade": "C", "reasoning": "減重手術後患者經皮維生素吸收研究，非 biotin 代謝疾病鐵治療"},
+        {"nct_id": "NCT01426750", "relevance_grade": "C", "reasoning": "癌症兒童腸道營養，適應症不符"},
+        {"nct_id": "NCT01643187", "relevance_grade": "C", "reasoning": "Phase 2 營養不良兒童兩種治療比較（n=1000），非 biotin 代謝疾病特定研究"},
+        {"nct_id": "NCT02302729", "relevance_grade": "C", "reasoning": "兒科微量營養素研究（n=1730），非 biotin 代謝疾病針對性試驗"},
+        {"nct_id": "NCT01558193", "relevance_grade": "C", "reasoning": "多維生素/礦物質與 omega-3 對衝動性影響研究，與 biotin 代謝疾病無關"}
+      ],
+      "literature_analysis": [
+        {"pmid": "15231238", "study_type": "Review (Heme-Iron-Mitochondria)", "tier": "2"},
+        {"pmid": "28067471", "study_type": "Review (Mitochondrial Metabolism)", "tier": "2"},
+        {"pmid": "34201508", "study_type": "Review (Cysteine Desulfurase/Fe-S)", "tier": "2"},
+        {"pmid": "39941083", "study_type": "Basic Science (Biotin-X chromosome)", "tier": "3"},
+        {"pmid": "40563372", "study_type": "Basic Science (mtUPR)", "tier": "3"},
+        {"pmid": "29173522", "study_type": "Review (Vitamins/Minerals in IBD)", "tier": "2"},
+        {"pmid": "16268103", "study_type": "Animal RCT (Chromium vs Biotin)", "tier": "3"},
+        {"pmid": "3921931",  "study_type": "Clinical Review (TPN in Children)", "tier": "2"},
+        {"pmid": "2967591",  "study_type": "Review (Nutrient mediators)", "tier": "3"},
+        {"pmid": "6396715",  "study_type": "Review (Cell-mediated immunity)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "鐵缺乏本身即為最常見的微量元素缺乏症（全球貧血首因），且與多種維生素缺乏存在雙向代謝交互作用：（1）維生素 C 促進非血鐵素鐵吸收（協同）；（2）維生素 A 缺乏影響鐵動員及紅血球生成（交互依賴）；（3）維生素 D 不足與鐵缺乏共同影響肌肉骨骼及免疫功能。多項 Phase 3（NCT01758159）與 Phase 4（NCT04346004、NCT05702970）RCT 直接研究鐵補充在各種缺乏症場景中的效益。此適應症高度貼近鐵的核心臨床用途。注意：廣義分類需依具體缺乏症類型分層，靜脈鐵劑需監測低磷血症（PMID 34534708）。",
+      "trials_analysis": [
+        {"nct_id": "NCT07263529", "relevance_grade": "A", "reasoning": "直接研究非貧血性鐵缺乏女性的口服鐵療法風險與效果（n=60），高度切題，Phase NA（觀察性設計）"},
+        {"nct_id": "NCT04346004", "relevance_grade": "A", "reasoning": "Phase 4 RCT 評估術前鐵異麥芽糖苷 1000 對血紅素濃度影響（n=214），直接鐵補充研究"},
+        {"nct_id": "NCT01758159", "relevance_grade": "A", "reasoning": "Phase 3 RCT 研究食物基礎補充餵養配合鐵補充的效果（n=433），直接相關且最高等級設計"},
+        {"nct_id": "NCT05702970", "relevance_grade": "B", "reasoning": "Phase 4 研究維生素 D + 口服鐵在慢性心衰合併缺鐵患者的效益（n=258），混合干預但含直接鐵補充"},
+        {"nct_id": "NCT01617044", "relevance_grade": "B", "reasoning": "Phase 2 RCT 益生菌輔助治療兒童缺鐵（n=61），鐵缺乏為主要標的但干預為益生菌"},
+        {"nct_id": "NCT01418898", "relevance_grade": "B", "reasoning": "Phase 4 研究含鐵/鋅/維生素強化燕麥飲對學齡前兒童微量元素狀態（n=80），混合成分干預"},
+        {"nct_id": "NCT07195006", "relevance_grade": "C", "reasoning": "早期生命腹瀉與微生物組追蹤研究，鐵非主要研究標的"},
+        {"nct_id": "NCT06757582", "relevance_grade": "C", "reasoning": "超早產兒壞死性腸炎長期追蹤觀察研究，非鐵補充干預研究"},
+        {"nct_id": "NCT04768127", "relevance_grade": "C", "reasoning": "減重手術後肥胖護理計畫，鐵為多項監測指標之一，非主要干預"},
+        {"nct_id": "NCT03207308", "relevance_grade": "C", "reasoning": "穩定同位素追蹤評估兒童維生素 A 狀態研究，鐵非干預重點"}
+      ],
+      "literature_analysis": [
+        {"pmid": "28034892", "study_type": "Clinical Review / Guidelines (Anemia in Pregnancy)", "tier": "1"},
+        {"pmid": "1596590",  "study_type": "WHO Review (Nutritional Anaemias)", "tier": "1"},
+        {"pmid": "39667365", "study_type": "Historical Review (Vitamin A-Iron interaction)", "tier": "1"},
+        {"pmid": "35163110", "study_type": "Systems Review (Iron-Vitamin A)", "tier": "1"},
+        {"pmid": "34534708", "study_type": "Comprehensive Review (IV Iron Hypophosphatemia)", "tier": "1"},
+        {"pmid": "7442737",  "study_type": "Review (Vitamin C and Iron)", "tier": "2"},
+        {"pmid": "40944129", "study_type": "Cross-sectional Study (Vitamin D & Iron in ASD)", "tier": "2"},
+        {"pmid": "38042351", "study_type": "Cross-sectional Study (Iron & Vitamin D deficiency)", "tier": "2"},
+        {"pmid": "35807896", "study_type": "Narrative Review (Vitamin D & Iron in skeletal muscle)", "tier": "2"},
+        {"pmid": "1492154",  "study_type": "Clinical Study (Iron deficiency, rickets, zinc)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "esophageal disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鐵與食道疾病的關聯為雙向且複雜：（1）正向連結：鐵缺乏→ Plummer-Vinson 症候群（食道蹼）→鐵補充治療；（2）保護效應：薈萃分析（PMID 30442229）顯示總鐵與鋅攝取量高者食道鱗狀細胞癌風險降低；（3）潛在害處：過量血鐵素鐵（heme iron）攝取與食道腺癌風險上升相關（Umbrella Review PMID 34583608）；（4）間接關聯：長期 PPI 使用影響鐵吸收，可能加重鐵缺乏相關食道病理。現有 35 項臨床試驗均無直接以鐵補充治療廣義食道疾病，全部評級 C。適應症過廣，建議聚焦於 Plummer-Vinson 症候群子群及鐵缺乏相關食道病理，進入 S2 臨床可行性評估。",
+      "trials_analysis": [
+        {"nct_id": "NCT07260734", "relevance_grade": "C", "reasoning": "食道胃癌揮發性生物標記診斷研究（AROMA2），觀察性設計，非鐵補充治療試驗"},
+        {"nct_id": "NCT01498289", "relevance_grade": "C", "reasoning": "食道癌 Phase 2 試驗探討 ERCC1 基因型指導鉑類化療，干預為化療而非鐵"},
+        {"nct_id": "NCT06129474", "relevance_grade": "C", "reasoning": "群集 RCT 評估停用不適當 PPI，與鐵補充治療食道疾病無直接關聯"},
+        {"nct_id": "NCT00041808", "relevance_grade": "C", "reasoning": "Phase 1/2 安全性與藥動學研究，研究藥物非鐵"},
+        {"nct_id": "NCT07234825", "relevance_grade": "C", "reasoning": "嗜酸性食道炎飲食誘導緩解研究，干預為乳製品排除飲食"},
+        {"nct_id": "NCT04951999", "relevance_grade": "C", "reasoning": "機械輔助循環相關食道損傷觀察研究，與鐵補充無關"},
+        {"nct_id": "NCT03446612", "relevance_grade": "C", "reasoning": "Phase 2 食道疾病試驗，已終止且干預藥物非鐵（n=6）"},
+        {"nct_id": "NCT03280121", "relevance_grade": "C", "reasoning": "TIF 手術前疝氣復位 HEURISTIC 研究，外科干預非鐵補充"},
+        {"nct_id": "NCT02139813", "relevance_grade": "C", "reasoning": "腹腔鏡 Omega 環繞旁路手術 RCT，外科研究非鐵"},
+        {"nct_id": "NCT02253602", "relevance_grade": "C", "reasoning": "食道癌 MRI 技術改良研究，診斷研究非治療"}
+      ],
+      "literature_analysis": [
+        {"pmid": "30442229", "study_type": "Meta-analysis (Iron/Zinc intake & esophageal cancer)", "tier": "1"},
+        {"pmid": "34583608", "study_type": "Umbrella Review (Iron intake & multiple outcomes)", "tier": "1"},
+        {"pmid": "16978405", "study_type": "Review (Plummer-Vinson & esophageal disease)", "tier": "1"},
+        {"pmid": "38431946", "study_type": "Nested Case-Control (Hair Iron & esophageal cancer)", "tier": "2"},
+        {"pmid": "33015827", "study_type": "Review (GERD pathophysiology)", "tier": "2"},
+        {"pmid": "32821071", "study_type": "Review (H. pylori beyond gastric manifestations)", "tier": "2"},
+        {"pmid": "32718584", "study_type": "Review (Long-term PPI adverse effects)", "tier": "2"},
+        {"pmid": "35867728", "study_type": "Systematic Review (Nutrition in cerebral palsy)", "tier": "1"},
+        {"pmid": "18554241", "study_type": "Case Report (Cervical esophageal web & celiac)", "tier": "3"},
+        {"pmid": "39513503", "study_type": "Review (Reflux/EoE/celiac disease overlap)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "injury",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鐵在外傷中扮演複雜的雙重角色，需依損傷類型分層評估：【有益方向】出血性外傷後貧血（尤其骨科手術）→ 圍手術期鐵補充改善術後恢復，NCT05489952（Phase 4, n=444）提供初步支持；【潛在有害方向】創傷性腦損傷（TBI）、蜘蛛網膜下腔出血後，游離鐵釋放促進 ferroptosis（鐵依賴性氧化細胞死亡）加重神經損傷，此情境下鐵螯合劑而非補充劑可能更有益。文獻以機轉研究及動物實驗為主，臨床轉化證據薄弱。建議 S1 安全性評估時明確損傷類型，區分「外傷後貧血鐵補充」vs「神經創傷鐵代謝干預」兩個不同研究方向。",
+      "trials_analysis": [
+        {"nct_id": "NCT05489952", "relevance_grade": "A", "reasoning": "Phase 4 RCT 研究圍手術期鐵補充對老年骨科外傷患者術後康復效益（n=444），目前唯一直接相關試驗，結果未知（status: UNKNOWN）"},
+        {"nct_id": "NCT02452216", "relevance_grade": "B", "reasoning": "Early Phase 1 研究 Ferumoxytol 增強 MRI 評估 CNS 炎症，鐵作為影像劑（非治療劑），提供鐵在 CNS 損傷中的探索性數據"},
+        {"nct_id": "NCT07195006", "relevance_grade": "C", "reasoning": "早期生命腹瀉與微生物組研究，非外傷場景"},
+        {"nct_id": "NCT00672334", "relevance_grade": "C", "reasoning": "Phase 2/3 碳酸氫鈉對腎損傷保護研究，非鐵補充且已終止"},
+        {"nct_id": "NCT05510440", "relevance_grade": "C", "reasoning": "氨基酸衍生物對炎症指標影響研究，非鐵補充"},
+        {"nct_id": "NCT04903015", "relevance_grade": "C", "reasoning": "退役足球員腦認知觀察研究，非鐵治療研究"},
+        {"nct_id": "NCT03624296", "relevance_grade": "C", "reasoning": "早期 MS 患者 7T MRI 皮質損傷研究，非外傷鐵補充"},
+        {"nct_id": "NCT07050173", "relevance_grade": "C", "reasoning": "Phase 1 γ-谷氨酰半胱氨酸對重複頭部衝擊研究，干預為抗氧化劑非鐵"},
+        {"nct_id": "NCT03141398", "relevance_grade": "C", "reasoning": "CGM vs OGTT vs MRI 研究，已撤回（enrollment=0），不相關"},
+        {"nct_id": "NCT05731011", "relevance_grade": "C", "reasoning": "物理治療對氧化應激影響研究，非鐵補充治療"}
+      ],
+      "literature_analysis": [
+        {"pmid": "40488532", "study_type": "Prospective Observational (Iron homeostasis after orthopaedic trauma)", "tier": "2"},
+        {"pmid": "36506935", "study_type": "Review (Iron & ferroptosis in peripheral nerve injury)", "tier": "2"},
+        {"pmid": "38777982", "study_type": "Review (Iron & ferroptosis in brain injury after SAH)", "tier": "2"},
+        {"pmid": "36690222", "study_type": "Review (Hemolytic iron in TBI & alcohol)", "tier": "2"},
+        {"pmid": "24295521", "study_type": "Imaging Review (Iron in mild TBI)", "tier": "2"},
+        {"pmid": "31957605", "study_type": "Review (Oxidative damage & iron in TBI)", "tier": "2"},
+        {"pmid": "38907771", "study_type": "Animal Study (Ferroptosis inhibitor in spinal cord injury)", "tier": "3"},
+        {"pmid": "38556884", "study_type": "Basic Science (FOXO1 & iron in brain damage post-TBI)", "tier": "3"},
+        {"pmid": "35046648", "study_type": "Review (Lung injury & iron homeostasis)", "tier": "2"},
+        {"pmid": "40412729", "study_type": "Basic Science (STEAP3 & iron in ischemia-reperfusion)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "florid cemento-osseous dysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "花狀骨水泥-骨性發育不良（FCOD）為顎骨良性纖維骨性病變，可能與遺傳因素及局部骨代謝異常相關，與系統性鐵代謝無已知直接機轉連結。TxGNN 高分（0.980）可能源自知識圖譜中骨代謝、礦化異常節點的間接鄰近性，屬典型的預測過度泛化。無任何試驗或文獻支持，建議維持 Hold。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "segmental odontomaxillary dysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "節段性牙頜發育不良（SOD）為極罕見先天性顏面發育異常，推測與胚胎發育期局部組織缺陷相關（FGFR1 基因突變已被報告），與鐵代謝無已知關聯。TxGNN 預測評分雖達 0.980，但完全缺乏任何支持性臨床或基礎研究，建議不予推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "perinatal disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "鐵在圍產期的重要性有充分科學依據：（1）母體貧血（多為缺鐵性）與早產、低出生體重、圍產期死亡率升高直接相關；（2）鐵為胎兒腦神經髓鞘化、海馬迴發育及造血系統成熟所必需，缺鐵影響不可逆；（3）圍產期 CD71+ Treg 細胞透過 CD71 鐵捕捉機制維持新生兒免疫耐受（PMID 38954474）；（4）延遲斷臍可增加新生兒鐵儲存量；（5）鐵-葉酸補充為多數圍產期指引的標準建議。多項大規模 Phase 3/4 RCT（包括 n=44,567 孟加拉孕婦試驗 NCT00860470）提供強有力支持。注意點：過量補鐵對新生兒腸道微生物群可能有不良影響，需依血清鐵蛋白監測調整劑量；最佳劑型（口服 vs 靜脈）依貧血程度及孕期選擇。",
+      "trials_analysis": [
+        {"nct_id": "NCT00860470", "relevance_grade": "A", "reasoning": "Phase 3 RCT 研究孟加拉 44,567 名孕婦產前微量元素補充（含鐵）對嬰兒存活與健康的影響，最高等級證據且樣本量龐大"},
+        {"nct_id": "NCT05921968", "relevance_grade": "A", "reasoning": "Phase 4 RCT 比較乳鐵蛋白 vs 靜脈鐵蔗糖治療孕期缺鐵性貧血（n=100），直接針對圍產期鐵療法"},
+        {"nct_id": "NCT02300155", "relevance_grade": "A", "reasoning": "Phase 4 RCT 改善孕婦多維生素補充（含鐵）（n=1370），與圍產期健康直接相關"},
+        {"nct_id": "NCT05423249", "relevance_grade": "A", "reasoning": "RCT 研究孕期非貧血性鐵缺乏的治療（n=150），探討鐵補充介入時機，高度相關"},
+        {"nct_id": "NCT03310853", "relevance_grade": "B", "reasoning": "Phase 2 RCT 益生菌對孕期及嬰兒健康影響（n=180），鐵狀態為次要評估指標"},
+        {"nct_id": "NCT05612984", "relevance_grade": "B", "reasoning": "Phase 3 試驗比較 CAMMS vs 鐵-葉酸預防早產，已撤回（enrollment=0）但研究假設高度相關"},
+        {"nct_id": "NCT01581489", "relevance_grade": "B", "reasoning": "晚期 vs 早期斷臍對 4 歲神經發育影響（n=263），鐵狀態為斷臍時機影響新生兒健康的中介機轉"},
+        {"nct_id": "NCT01245296", "relevance_grade": "B", "reasoning": "早期 vs 晚期斷臍足月兒結局研究（n=392），鐵儲存量為重要次要終點"},
+        {"nct_id": "NCT05038462", "relevance_grade": "C", "reasoning": "胎兒生長受限腦部神經發育療法，鐵非主要干預措施"},
+        {"nct_id": "NCT05110521", "relevance_grade": "C", "reasoning": "護士指導與數位健康套裝對母嬰健康影響（n=10,992），鐵補充非主要研究標的"}
+      ],
+      "literature_analysis": [
+        {"pmid": "34860784", "study_type": "Clinical Review / Screening Guidelines (Anemia in Pregnancy)", "tier": "1"},
+        {"pmid": "32330927", "study_type": "Review (Prevention of IDA in infants & toddlers)", "tier": "1"},
+        {"pmid": "33373348", "study_type": "Review (Iron supplementation importance in pregnancy)", "tier": "1"},
+        {"pmid": "23613366", "study_type": "Review (IDA: common and curable)", "tier": "1"},
+        {"pmid": "36479498", "study_type": "Review (Main nutritional deficiencies)", "tier": "1"},
+        {"pmid": "37590852", "study_type": "Evidence-based Review (Prenatal Care)", "tier": "1"},
+        {"pmid": "32234002", "study_type": "Review (Lifestyle, Maternal Nutrition & Healthy Pregnancy)", "tier": "2"},
+        {"pmid": "37164495", "study_type": "Clinical Reference Review (Cord blood pH & gases)", "tier": "2"},
+        {"pmid": "38954474", "study_type": "Basic Science (CD71-Iron-Treg in perinatal immunity)", "tier": "3"},
+        {"pmid": "39570196", "study_type": "Animal Study (Perinatal iron deficiency & cardiac proteome)", "tier": "3"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 決策摘要表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| Plummer-Vinson syndrome | **L3** | **S3** | ✅ Proceed w/ Guardrails | 鐵缺乏為直接病因；19篇文獻一致支持；疾病罕見無法RCT |
+| vitamin deficiency disorder | **L1** | **S3** | ✅ Proceed w/ Guardrails | Phase 3 (n=433) + Phase 4 (n=214, 258) RCT直接支持 |
+| perinatal disease | **L1** | **S3** | ✅ Proceed w/ Guardrails | Phase 3 RCT n=44,567；全球圍產期指引已採納 |
+| esophageal disease | **L3** | **S2** | 🔬 Research Question | 間接經PVS；食道癌預防有meta-analysis，需子群聚焦 |
+| injury | **L4** | **S1** | 🔬 Research Question | 雙重角色：骨科術後貧血有利（Phase 4試驗）；TBI ferroptosis有害 |
+| biotin metabolic disease | **L4** | **S0** | ⛔ Hold | 全部9項試驗評級C；機轉連結高度間接 |
+| vitamin B12-independent megaloblastic anemia | **L5** | **S0** | ⛔ Hold | 無試驗/文獻；機轉相悖（缺鐵→小球性非巨球性） |
+| non-syndromic esophageal malformation | **L5** | **S0** | ⛔ Hold | 先天結構異常，無任何支持性證據 |
+| florid cemento-osseous dysplasia | **L5** | **S0** | ⛔ Hold | 顎骨局部病變，與鐵代謝無關 |
+| segmental odontomaxillary dysplasia | **L5** | **S0** | ⛔ Hold | 極罕見先天異常，完全無支持證據 |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有藥物再利用候選適應症需經過嚴格臨床驗證後方可應用於實際醫療情境。

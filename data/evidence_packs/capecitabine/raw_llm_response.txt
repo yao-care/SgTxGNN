@@ -1,0 +1,495 @@
+## Capecitabine (DB01101) 藥物再利用證據分析
+
+> ⚠️ **免責聲明**：以下分析僅供研究參考，不構成醫療建議。所有再利用候選藥物需經臨床驗證才能應用。
+
+---
+
+### 分析背景說明
+
+**重要背景**：Capecitabine（Xeloda）為口服氟嘧啶前驅藥，在腫瘤組織轉換為 5-FU，抑制胸苷酸合成酶（TS）阻斷 DNA 合成。全球已核准用於結直腸癌與乳癌。`未上市` 狀態反映**新加坡本地資料庫**特定適應症的核准缺口，非全球市場狀態。
+
+---
+
+```json
+{
+  "drug": "Capecitabine",
+  "drugbank_id": "DB01101",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "本地資料庫 MoA 欄位缺漏，但 Capecitabine 機轉明確（Prodrug → 5-FU → TS 抑制）。以下評估基於提供數據，結合全球臨床知識進行。",
+  "indications": [
+    {
+      "disease_name": "gastric adenocarcinoma and proximal polyposis of the stomach",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GAPPS（胃腺癌合併胃近端息肉病）為罕見遺傳性癌症症候群，由 APC 啟動子 1B 突變驅動，腫瘤微環境與散發性胃癌不同。Capecitabine 之 5-FU 機轉理論上可抑制腺癌細胞增殖，但尚無針對 GAPPS 的臨床前或臨床研究。TxGNN 預測分數（0.9994）極高，反映知識圖譜中胃癌類節點的強相關性，而非 GAPPS 特異性證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastric tubular adenocarcinoma",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胃管狀腺癌為最常見的胃癌組織學亞型（Lauren 腸型，佔約 50-60%）。Capecitabine 透過 5-FU 抑制 TS，阻礙 dTMP 合成，造成 DNA 損傷誘導凋亡；腸型胃癌細胞高表達 TP（Thymidine Phosphorylase），促進 capecitabine 在腫瘤局部活化，療效具組織學選擇性合理性。CLASSIC Phase 3 RCT 以 CAPOX 輔助化療在 D2 根治術後胃癌（主要為管狀腺癌）獲得顯著 DFS 改善（HR 0.56, p<0.0001），為最強直接支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22226517",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "CLASSIC 試驗，CAPOX 輔助化療 vs 觀察組，D2 切除術後胃癌，n=1035，DFS HR 0.56 — 最高等級直接證據"
+        },
+        {
+          "pmid": "34252374",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "S-1/oxaliplatin vs capecitabine/oxaliplatin 胃癌輔助化療頭對頭比較，直接確認 capecitabine 等效性"
+        },
+        {
+          "pmid": "37524953",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "GLOW 試驗，Zolbetuximab + CAPOX（n=507），CAPOX 作為標準骨幹方案，確認 capecitabine 在晚期胃癌的地位"
+        },
+        {
+          "pmid": "38806195",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "RATIONALE-305，Tislelizumab + CAPOX/mFOLFOX，晚期胃/GEJ 癌一線治療"
+        },
+        {
+          "pmid": "34102137",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "CheckMate 649，Nivolumab + CAPOX/FOLFOX，晚期胃癌，OS 改善顯著"
+        },
+        {
+          "pmid": "37875143",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "KEYNOTE-859，Pembrolizumab + CAPOX/FP，HER2 陰性晚期胃癌"
+        },
+        {
+          "pmid": "20728210",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "ToGA 試驗，Trastuzumab + capecitabine/cisplatin，HER2 陽性胃癌"
+        },
+        {
+          "pmid": "30982686",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "FLOT4 vs ECF/ECX，圍手術期化療比較，確立現代胃癌化療框架"
+        },
+        {
+          "pmid": "38051328",
+          "study_type": "Phase 3 RCT",
+          "tier": "2",
+          "note": "ORIENT-16，Sintilimab + CAPOX，晚期胃/GEJ 癌"
+        },
+        {
+          "pmid": "27776843",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "FLOT 新輔助後組織病理緩解評估，確認化療效果"
+        }
+      ]
+    },
+    {
+      "disease_name": "microinvasive gastric cancer",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "微浸潤胃癌（黏膜下層浸潤 ≤500μm）通常以內視鏡黏膜下剝離術（ESD）為根治性治療首選，5 年存活率超過 95%，全身性化療在此階段不列入標準治療。Capecitabine 的機轉雖理論適用，但臨床適應症不匹配，且化療毒性風險在此低危族群中無法合理化。無任何臨床試驗或文獻支持 capecitabine 用於微浸潤胃癌。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "signet ring cell gastric adenocarcinoma",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "印戒細胞癌（SRCA）具有瀰漫型生長模式，富含黏液素（MUC5AC/MUC6），腫瘤微環境呈免疫抑制性，且通常 CDH1 突變率較高。重要的是，SRCA 對氟嘧啶類化療的反應率普遍低於管狀腺癌（客觀緩解率差異約 15-20%），可能因 TP 低表達導致 capecitabine 局部活化效率降低。儘管 CAPOX 方案在胃癌整體框架下適用，但 SRCA 特異性療效數據有限，建議作為研究問題而非直接外推。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06238752",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，n=33，Apatinib + Tislelizumab + 化療（CAPOX）用於晚期胃/GEJ 癌（含印戒細胞成分）。樣本量過小，且非 SRCA 專屬設計，但確認 capecitabine 在此混合方案的可行性"
+        },
+        {
+          "nct_id": "NCT07091227",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 NOT_YET_RECRUITING，n=66，AK112（PD-1/VEGF 雙抗）+ 化療新輔助治療專門針對含印戒細胞成分的胃癌，capecitabine 為化療骨幹選項。設計直接相關，代表此亞型研究的前沿方向，但尚無結果"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29372626",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "Capecitabine/cisplatin vs 5-FU/cisplatin 在中國晚期/轉移性胃癌患者，非劣性設計，確認口服 capecitabine 等效性"
+        },
+        {
+          "pmid": "24175788",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "術後放化療中 capecitabine 替代 5-FU 的可行性分析，提供胃癌（含 SRCA）chemoradiation 數據"
+        },
+        {
+          "pmid": "35085931",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "局部晚期食道胃交界癌圍手術期化療方案對存活影響，包含 SRCA 亞組"
+        },
+        {
+          "pmid": "19690058",
+          "study_type": "Phase 1-2",
+          "tier": "2",
+          "note": "胃癌術後放化療 Phase I-II 試驗，capecitabine 放射增敏，安全性數據"
+        },
+        {
+          "pmid": "17848909",
+          "study_type": "Phase 1-2",
+          "tier": "2",
+          "note": "胃癌術後放化療劑量尋找研究，capecitabine 劑量學數據"
+        },
+        {
+          "pmid": "26324361",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "局部化胃腺癌手術後輔助選項綜述，capecitabine 方案包含在內"
+        },
+        {
+          "pmid": "20721843",
+          "study_type": "Review/Guideline",
+          "tier": "3",
+          "note": "胃癌診斷治療綜述，中文文獻，SRCA 管理提及 capecitabine 方案"
+        },
+        {
+          "pmid": "26848413",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "印戒細胞胃腺癌不尋常復發病例，治療含化療方案，背景參考"
+        },
+        {
+          "pmid": "20233566",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "SRCA 皮膚轉移首發表現病例，臨床特徵描述"
+        },
+        {
+          "pmid": "29202657",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "BRCA2 突變胃癌乳腺轉移病例，化療選擇背景資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastric cardia adenocarcinoma",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胃賁門腺癌（Siewert II-III）在分子特徵上介於食道腺癌與胃腺癌之間，HER2 擴增率約 10-15%，FGFR2 及 VEGFR 異常常見。CAPOX 方案的 capecitabine 組分透過 5-FU 機轉提供系統性抗腫瘤效果；NCT00374036（Phase 3，n=416）直接覆蓋胃/GEJ/賁門腺癌的轉移性及局部晚期治療，PMID 16303863 的 Phase 2 數據亦直接測試 Oxaliplatin + Capecitabine 在此部位腫瘤的療效（ORR 45%）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00374036",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED，n=416，針對轉移性或局部晚期胃/GEJ 癌化療策略（可能為 REAL-2 或類似試驗），直接涵蓋賁門腺癌。為本適應症最強臨床試驗證據"
+        },
+        {
+          "nct_id": "NCT00040859",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED，n=48，專門研究 Oxaliplatin + Capecitabine（CAPOX）在食道/GEJ/胃腺癌的療效，直接測試本適應症的核心方案，ORR 45%，PFS 6.1 個月"
+        },
+        {
+          "nct_id": "NCT00938470",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，n=73，局部晚期食道/賁門腺癌延伸新輔助治療隨機試驗，包含 capecitabine 的聯合方案，直接相關"
+        },
+        {
+          "nct_id": "NCT00414271",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，n=18，局部晚期胃癌新輔助化療（含賁門），樣本量偏小"
+        },
+        {
+          "nct_id": "NCT07000253",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 NOT_YET_RECRUITING，n=290，寡轉移性食道胃癌局部治療時機研究，capecitabine 為化療骨幹選項之一，間接支持"
+        },
+        {
+          "nct_id": "NCT01295086",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase COMPLETED，n=27，TEX（Taxotere/Eloxatin/Xeloda）+ Herceptin 劑量確定研究，賁門/GEJ 可能包含，僅提供安全性數據"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "16303863",
+          "study_type": "Phase 2",
+          "tier": "1",
+          "note": "Oxaliplatin + Capecitabine 在轉移性食道/GEJ/胃腺癌 Phase 2，ORR 45%，直接療效數據"
+        },
+        {
+          "pmid": "35895528",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "FLOT 新輔助治療對進展期胃食道腺癌手術管理的短期結果，包含賁門腫瘤"
+        },
+        {
+          "pmid": "38676903",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "XELOX + HIPEC + 免疫治療達 pCR，胃腺癌，個案但說明 XELOX 深度緩解可能性"
+        },
+        {
+          "pmid": "30692459",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "廣泛淋巴結轉移晚期胃癌術前化療達 pCR 病例"
+        },
+        {
+          "pmid": "38644313",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Stage IV 胃癌多發肝轉移化療後原發灶切除，背景參考"
+        },
+        {
+          "pmid": "28900996",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "胃肝樣腺癌臨床病理特徵，capecitabine 方案背景"
+        },
+        {
+          "pmid": "27123071",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "AFP 產生型胃癌病例報告，個案參考"
+        },
+        {
+          "pmid": "25731335",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "轉移性胃癌（結腸癌來源）病例，治療選擇背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastric pylorus carcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "胃幽門癌（胃竇/幽門區域腺癌）在組織學上多為管狀腺癌，Capecitabine 的 5-FU 機轉理論上適用。然而提供的 2 篇文獻均非直接研究 capecitabine 在幽門癌的療效：PMID 36051651 討論 AFP 產生型胃癌肝轉移（含 capecitabine 使用），PMID 25908045 為 Ampulla of Vater 癌病例系列（不同部位）。需依賴對「胃癌」整體試驗的間接外推，安全性初評（S1）尚屬合理起點。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36051651",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "AFP 產生型胃癌（幽門/胃竇）肝轉移，Capecitabine 使用有記錄，間接個案參考"
+        },
+        {
+          "pmid": "25908045",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "Ampulla of Vater 癌病例系列，非幽門癌，相關性低，僅作背景參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "carcinoma of stomach, salivary gland type",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "胃唾液腺型癌（含黏液表皮樣癌、腺樣囊性癌等亞型）為極罕見病理，其分子特徵與頭頸部唾液腺癌有重疊（MAML2 易位、MYB-NFIB 融合），化療敏感性不明確。兩項 Phase 1 試驗（NCT00021047: ECC；NCT00010023: Capecitabine/Cisplatin）提供 capecitabine 在廣泛腫瘤適應症的安全性框架，但無針對此特定亞型的療效數據。建議作為罕見癌症研究問題，考慮基於組織學類比（與頭頸部唾液腺癌）設計探索性研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00021047",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 COMPLETED，ECC（Epirubicin/Carboplatin/Capecitabine）廣泛成人癌症，確立 capecitabine 在此三藥組合的安全性與 MTD，但非胃唾液腺型癌專屬"
+        },
+        {
+          "nct_id": "NCT00010023",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 COMPLETED，口服 Capecitabine + 靜脈 Cisplatin 劑量爬坡研究，胃癌包含在適應症範疇，確認 XP 方案安全性基礎"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastric body carcinoma",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胃體部腺癌在組織學上涵蓋腸型與瀰漫型，MSI-H 比例相對較高（約 8-10%），EBV 陽性率約 10%。Capecitabine 的 5-FU 機轉在胃體腺癌中的療效已有數項試驗支持；PMID 18997184 直接比較口服氟嘧啶（Capecitabine/S-1）+ Cisplatin 在老年胃癌患者的療效，Phase 3 SPOTLIGHT 試驗（NCT03653507）以 CAPOX 作為標準骨幹確認了方案的有效性。雖然胃體癌非獨立試驗設計靶點，解剖部位外推具合理性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03653507",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 ACTIVE_NOT_RECRUITING（SPOTLIGHT 試驗），n=507，Zolbetuximab + CAPOX，CAPOX 作為標準化療骨幹，胃/GEJ 癌包含胃體部，確認 capecitabine 作為第三期試驗骨幹的角色"
+        },
+        {
+          "nct_id": "NCT06901531",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RECRUITING，n=500，Zolbetuximab + Pembrolizumab + 化療（含 capecitabine），持續確認 CAPOX 在晚期胃癌的現代治療地位"
+        },
+        {
+          "nct_id": "NCT06121700",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 RECRUITING，n=55，局部晚期胃癌放化療（含 capecitabine）+ 免疫治療後手術，反映當前術前新輔助實踐趨勢"
+        },
+        {
+          "nct_id": "NCT05007106",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 COMPLETED，n=613，MK-7684A 籃式研究，胃癌亞組包含在內，capecitabine 為化療選項之一"
+        },
+        {
+          "nct_id": "NCT05365581",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/1b RECRUITING，n=398，ASP2138（CLDN18.2×4-1BB）+ Pembrolizumab + CAPOX/FOLFOX，capecitabine 為可選化療骨幹"
+        },
+        {
+          "nct_id": "NCT06349044",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 籃式研究（NA），n=120，低分次放療 + Capecitabine（卡培他濱作為放射增敏劑），胃癌包含在內，提供替代機轉（放射增敏）的支持"
+        },
+        {
+          "nct_id": "NCT02892123",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 COMPLETED，n=279，ZW25（Zanidatamab）在 HER2 表達腫瘤（含胃癌），capecitabine 可能為組合用藥"
+        },
+        {
+          "nct_id": "NCT03775525",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/1b UNKNOWN，n=127，劑量爬坡，胃癌包含，capecitabine 組合的早期安全性數據"
+        },
+        {
+          "nct_id": "NCT07000253",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 NOT_YET_RECRUITING，n=290，寡轉移性食道胃癌局部治療時機研究，間接相關"
+        },
+        {
+          "nct_id": "NCT02831179",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 WITHDRAWN（n=0），Veliparib + Capecitabine + Temozolomide，試驗撤回無有效數據，不納入證據評估"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "18997184",
+          "study_type": "Retrospective Cohort",
+          "tier": "1",
+          "note": "口服氟嘧啶（Capecitabine 或 S-1）+ Cisplatin 在老年晚期胃癌（含胃體部）患者，直接比較 capecitabine 療效"
+        },
+        {
+          "pmid": "35922756",
+          "study_type": "Basic Science/Translational",
+          "tier": "2",
+          "note": "MALAT1-miRNA 網路調控胸苷酸合成酶（5-FU 主要靶點），闡明 capecitabine 耐藥機轉，轉化研究"
+        },
+        {
+          "pmid": "30161003",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "胃腸癌節拍化療（含 capecitabine）的理論基礎，替代給藥方式的證據綜述"
+        },
+        {
+          "pmid": "25823985",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "ECF/ECX（含 capecitabine）圍手術期化療後組織病理緩解率與預後相關性"
+        },
+        {
+          "pmid": "30666831",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "晚期食道胃癌（含 capecitabine 方案）患者體組成與存活/毒性的關聯，PK/PD 相關"
+        },
+        {
+          "pmid": "41555855",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "主動脈旁淋巴結轉移晚期胃癌化療後轉換手術（2026），capecitabine 方案使用"
+        },
+        {
+          "pmid": "30112333",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "發展中國家轉移性胃癌真實世界數據，capecitabine 為常用方案"
+        },
+        {
+          "pmid": "40360406",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "罕見胰腺鱗癌合併胃癌同時切除病例，背景參考"
+        },
+        {
+          "pmid": "24942210",
+          "study_type": "PK/PD Study",
+          "tier": "3",
+          "note": "Bevacizumab 在胃癌的 PK 研究，化療組合背景"
+        },
+        {
+          "pmid": "28900996",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "胃肝樣腺癌臨床病理特徵，capecitabine 方案的背景資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "Epstein-Barr virus-associated gastric carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "EBV 相關胃癌（約佔胃癌 10%）具有獨特分子特徵：高 CpG 島甲基化表現型（CIMP）、PIK3CA 突變率極高（80%）、PD-L1/PD-L2 高表達，對免疫檢查點抑制劑反應較佳。雖然 Capecitabine 的 5-FU 機轉在此亞型中理論上適用，但 EBV 陽性可能影響 TP 表達及 5-FU 代謝，且現有研究多傾向以免疫治療優先。目前無任何針對 EBV+ 胃癌專屬的 capecitabine 臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "malignant gastric granular cell tumor",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性胃顆粒細胞腫瘤（起源於 Schwann 細胞，S-100 陽性）為極罕見非上皮性間葉性腫瘤，全球報告病例不足 30 例。其化療敏感性根本不同於腺癌，氟嘧啶類藥物（5-FU/Capecitabine）針對 TS 的機轉對神經嵴來源腫瘤的效果高度不確定。TxGNN 高預測分數（0.9989）反映知識圖譜中「胃部惡性腫瘤」節點連結，並非特異性機轉預測，應謹慎解讀。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合摘要表
+
+| 疾病 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|------|-------------|----------|----------|------|
+| gastric tubular adenocarcinoma | 0.9994 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| gastric cardia adenocarcinoma | 0.9991 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| signet ring cell gastric adenocarcinoma | 0.9994 | **L2** | **S2** | 🔬 Research Question |
+| gastric body carcinoma | 0.9990 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| carcinoma of stomach, salivary gland type | 0.9991 | **L3** | **S1** | 🔬 Research Question |
+| gastric pylorus carcinoma | 0.9991 | **L4** | **S1** | ⏸️ Hold |
+| gastric adenocarcinoma and proximal polyposis | 0.9994 | **L5** | **S0** | ⏸️ Hold |
+| microinvasive gastric cancer | 0.9994 | **L5** | **S0** | ⏸️ Hold |
+| EBV-associated gastric carcinoma | 0.9990 | **L5** | **S0** | ⏸️ Hold |
+| malignant gastric granular cell tumor | 0.9989 | **L5** | **S0** | ⏸️ Hold |
+
+---
+
+## 🔑 關鍵發現
+
+### 高分但無實質差異化的預測問題
+所有適應症的 TxGNN 分數均集中於 **0.9989–0.9994**，差異僅在第四位小數，反映知識圖譜中「胃癌類疾病節點」的批次相關性，而非個別亞型的特異性預測能力。**TxGNN 分數不宜作為亞型間優先排序的依據。**
+
+### 證據不對等的根本原因
+| 層級 | 疾病類型 | 原因 |
+|------|----------|------|
+| L1（最強） | 管狀腺癌、賁門腺癌 | 大型 RCT 的主要納入族群 |
+| L2 | 印戒細胞癌、胃體癌 | 通常被納入但非分層設計 |
+| L5（最弱） | EBV+、GAPPS、顆粒細胞瘤 | 病理學定義不同、臨床試驗極罕見納入 |
+
+### 印戒細胞癌的特殊警示
+儘管 PMID 29372626（Phase 3）支持 capecitabine 在晚期胃癌的等效性，**印戒細胞癌對氟嘧啶類療效明確較差**（多項回顧性分析），建議在 S2 階段優先設計 SRCA 生物標記分層的前瞻性研究，而非直接外推一般胃癌數據。

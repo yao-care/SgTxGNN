@@ -1,0 +1,405 @@
+## 分析：Haloperidol (DB00502) 藥物再利用證據評估
+
+**關鍵背景說明**：Haloperidol 為第一代（典型）抗精神病藥，D2 受體拮抗劑。市場狀態標記為「未上市」，但在全球多數市場實為廣泛使用的成熟藥物，此數據差異需注意。
+
+---
+
+```json
+{
+  "drug": "Haloperidol",
+  "drugbank_id": "DB00502",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Haloperidol 為成熟典型抗精神病藥（D2拮抗劑），market_status='未上市' 可能反映特定市場登錄狀態而非全球現況。DDI_count=0 疑為資料缺漏，實際藥物交互作用風險極高（>200種）。",
+  "indications": [
+    {
+      "disease_name": "congenital disorder of glycosylation with defective fucosylation",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。岩藻糖基化缺陷型先天性糖基化疾病（CDG）為罕見遺傳代謝酶缺乏症，病理機制（GDP-岩藻糖合成/轉運異常）與 Haloperidol D2/D1 多巴胺受體拮抗作用無生物學連結。TxGNN 高分可能源於訓練集中知識圖譜的間接拓撲關聯，而非真實藥理學關係。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "罕見基因病（孤兒疾病），無任何臨床佐證",
+        "高 TxGNN 分數（0.999）在此類極罕見病中可能代表 KG 偽陽性",
+        "Haloperidol 已知具神經毒性，在此嬰幼兒代謝病族群中安全性顧慮極大"
+      ]
+    },
+    {
+      "disease_name": "retinal dystrophy with or without extraocular anomalies",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知支持性機轉。視網膜營養不良為遺傳性光感受器/RPE 退化疾病（如 RPGR、CRB1 突變），Haloperidol D2 拮抗機制無法解釋潛在治療效益。反而，Haloperidol 長期使用已有色素性視網膜病變（pigmentary retinopathy）副作用報告，構成潛在傷害風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9416661",
+          "title": "Orbital infections.",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無關聯 — 眼眶感染綜述，未提及 Haloperidol 治療視網膜疾病"
+        },
+        {
+          "pmid": "20127583",
+          "title": "Pearls: diplopia.",
+          "study_type": "Clinical Pearl/Case",
+          "tier": "3",
+          "relevance_to_drug": "無關聯 — 複視鑑別診斷，非藥物再利用研究"
+        },
+        {
+          "pmid": "22241537",
+          "title": "[Congenital ptosis].",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無關聯 — 先天性上瞼下垂，與 Haloperidol 無關"
+        },
+        {
+          "pmid": "38249493",
+          "title": "Congenital anomalies of lens shape.",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "無關聯 — 晶狀體先天畸形，未討論 Haloperidol"
+        },
+        {
+          "pmid": "33447730",
+          "title": "Eye involvement in inherited metabolic disorders.",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_drug": "部分相關 — 代謝疾病眼部表現，但未涉及 Haloperidol 治療"
+        }
+      ],
+      "literature_quality_note": "16 篇文獻均為眼科通論文章，無一研究 Haloperidol 對視網膜營養不良之治療效益。文獻可能因關鍵詞『extraocular anomalies』觸發收集，屬系統性偽陽性（false positive literature match）。",
+      "red_flags": [
+        "Haloperidol 已知副作用包含色素性視網膜病變，在視網膜疾病患者中可能加重病情",
+        "文獻16篇均與藥物再利用無關，構成誤導性數據"
+      ]
+    },
+    {
+      "disease_name": "hydranencephaly (disease)",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。積水無腦畸形為大腦半球缺失的嚴重先天結構異常（通常因頸內動脈梗塞所致），屬不可逆的解剖學缺陷，藥物干預（包括 D2 拮抗）無法修復腦組織缺失。此預測不具生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "不可逆先天結構缺陷，藥物治療無意義",
+        "患者通常為新生兒/嬰兒，抗精神病藥安全性無資料"
+      ]
+    },
+    {
+      "disease_name": "myopia X-linked",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。X 染色體連鎖近視為眼球軸長增長的遺傳性屈光疾病（PRSS56/GJD2 等基因），Haloperidol 的多巴胺拮抗雖理論上可能影響視網膜多巴胺訊號（多巴胺被認為具抑制軸長增長作用），但 D2 拮抗劑反而可能加重近視（與多巴胺假說相悖）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "從多巴胺/近視機轉角度，D2拮抗可能為有害方向",
+        "遺傳性疾病，缺乏藥物干預可行性證據"
+      ]
+    },
+    {
+      "disease_name": "Charcot-Marie-Tooth disease, demyelinating, type 1G",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。CMT1G 為 LRSAM1 基因突變導致的周邊神經髓鞘化缺陷，屬結構性遺傳神經病變，Haloperidol D2/多巴胺機轉與周邊神經髓鞘形成無直接關聯。此外，Haloperidol 本身可能因 EPS（錐體外症狀）加重神經肌肉症狀。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "Haloperidol EPS 副作用可能加重 CMT 運動症狀",
+        "純遺傳機轉疾病，無藥物再利用生物學依據"
+      ]
+    },
+    {
+      "disease_name": "myopia 26, X-linked, female-limited",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。女性限制性 X 連鎖近視（Myopia-26）為極罕見基因型，與前述 X 連鎖近視具有類似的多巴胺機轉悖論問題。無任何臨床或基礎研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "超罕見基因型，幾乎無臨床研究可行性",
+        "D2 拮抗可能不利於近視控制"
+      ]
+    },
+    {
+      "disease_name": "syndromic myopia",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。症候群性近視為多種遺傳症候群（如 Stickler、Marfan、Kniest 等）的眼部表現之一，其近視成因多樣（結締組織異常、玻璃體缺陷等），非單一藥物可處理的適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "診斷異質性高，藥物試驗設計極困難",
+        "主要問題為結構性異常，非藥理學可逆病理"
+      ]
+    },
+    {
+      "disease_name": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。此罕見複合先天性腦發育障礙（多腦回畸形+小腦發育不全+關節攣縮）為胚胎期神經遷移缺陷所致，屬不可逆解剖結構異常，藥物治療無法修復。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "不可逆先天腦結構異常",
+        "患者通常有嚴重神經損傷，抗精神病藥風險極高"
+      ]
+    },
+    {
+      "disease_name": "atypical glycine encephalopathy",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "微弱間接關聯，但方向不明確。非典型甘胺酸腦病（NKH 非酮性高甘胺酸血症）涉及 GCS（甘胺酸裂解系統）缺陷及 NMDA 受體過度激活（甘胺酸為 NMDA 共同促效劑），部分治療研究曾探索 NMDA 拮抗劑。Haloperidol 雖有輕度 NMDA 相關效應，但主要機轉（D2 拮抗）與甘胺酸代謝無直接關聯，歷史上治療 NKH 的嘗試（苯甲酸鈉、右旋甲芬他醇等）均未涉及 Haloperidol。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "red_flags": [
+        "主要治療目標為降低甘胺酸，非多巴胺調控",
+        "新生兒/嬰兒族群，Haloperidol 安全性資料極度缺乏"
+      ]
+    },
+    {
+      "disease_name": "manic bipolar affective disorder",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "機轉關聯強且已確立。Haloperidol 透過強效 D2 受體拮抗（Ki ~1nM）抑制中腦邊緣系統多巴胺過度活躍，此多巴胺過激假說為急性躁狂發作的核心病理機制之一。此外，D1、α1-腎上腺素、H1 組胺受體的阻斷作用提供額外鎮靜與抗躁效益。此機轉解釋了 Haloperidol 在急性躁狂的快速起效特性（通常24-48小時內可見臨床反應）。Haloperidol 在全球多個精神科指引中被列為急性躁狂的治療選項之一。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00253162",
+          "title": "Risperidone vs Placebo vs Haloperidol in Acute Mania",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 439,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 直接設計：Haloperidol 作為陽性對照組（Active Comparator），在大型多中心 RCT 中確認其在急性躁狂的有效性。使用為陽性對照而非實驗組，反映其「黃金標準」地位。"
+        },
+        {
+          "nct_id": "NCT00253149",
+          "title": "Risperidone vs Placebo vs Haloperidol as Add-On for Mania",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 158,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 輔助治療設計，Haloperidol 作為陽性對照，n=158，完成狀態。進一步支持 Haloperidol 在雙相躁狂輔助治療的標準地位。"
+        },
+        {
+          "nct_id": "NCT00129220",
+          "title": "Olanzapine vs Placebo vs Haloperidol in Manic/Mixed Episodes",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 224,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，混合發作設計，n=224，Haloperidol 三臂比較之陽性對照，提供直接療效數據（不只是安全性）。"
+        },
+        {
+          "nct_id": "NCT00097266",
+          "title": "Aripiprazole Monotherapy vs Haloperidol in Acute Mania",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 615,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，最大樣本量（n=615），頭對頭比較 Aripiprazole vs Haloperidol，為直接評估 Haloperidol 療效的最佳設計。此試驗提供 Haloperidol 在急性躁狂的直接有效性與耐受性數據。"
+        },
+        {
+          "nct_id": "NCT00126009",
+          "title": "Valproate-Amisulpride vs Haloperidol Combination for Mania",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 120,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，開放隨機設計（非雙盲），n=120，比較聯合療法與 Haloperidol 單藥，提供聯合治療策略參考，但方法學強度低於 A 級試驗。"
+        },
+        {
+          "nct_id": "NCT00767715",
+          "title": "Olanzapine vs Conventional Antipsychotics (incl. Haloperidol)",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 11,
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，過早終止（n=11，目標遠未達成），數據不完整，結論有限。Haloperidol 為常規抗精神病藥物組成員而非主要研究對象。"
+        },
+        {
+          "nct_id": "NCT03541031",
+          "title": "Micronutrients as Adjunctive Treatment for Bipolar Disorder",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 120,
+          "relevance_grade": "C",
+          "reasoning": "主要研究微量營養素輔助治療，Haloperidol 可能為背景用藥而非主要干預，與藥物再利用研究目標相關性低。"
+        },
+        {
+          "nct_id": "NCT04327843",
+          "title": "Reducing Burden of Chronic Psychotic Disorders in Tanzania",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 22,
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 但樣本量極小（n=22），坦尚尼亞資源有限環境研究，可外推性有限。主要著眼於精神病性疾患，躁狂症次要。"
+        },
+        {
+          "nct_id": "NCT06049953",
+          "title": "Developmental Effects of Antenatal Antipsychotic Exposure",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 200,
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，評估產前抗精神病藥暴露（包括 Haloperidol）對胎兒發育影響，屬安全性/流行病學研究而非療效研究。對懷孕用藥決策有重要參考價值。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34642461",
+          "title": "Pharmacological treatment for bipolar mania: a systematic review and network meta-analysis",
+          "year": "2022",
+          "study_type": "Systematic Review + Network Meta-Analysis",
+          "tier": "1",
+          "note": "最高等級證據。網絡 Meta 分析納入雙相躁狂 RCT，Haloperidol 在急性抗躁效果量（effect size）通常位居前列，但 EPS 副作用亦突出。"
+        },
+        {
+          "pmid": "36789916",
+          "title": "Comparison of antipsychotic dose equivalents for acute bipolar mania and schizophrenia",
+          "year": "2023",
+          "study_type": "Systematic Review / Dose-Equivalence Study",
+          "tier": "2",
+          "note": "建立不同抗精神病藥在躁狂治療的劑量等效標準，為臨床換藥提供依據。確認 Haloperidol 在躁狂治療的基準地位。"
+        },
+        {
+          "pmid": "19454110",
+          "title": "Bipolar disorder.",
+          "year": "2007",
+          "study_type": "Review / Disease Overview",
+          "tier": "2",
+          "note": "Lancet 疾病綜述，討論雙相障礙治療選項，包含 Haloperidol 歷史角色。"
+        },
+        {
+          "pmid": "33460070",
+          "title": "How to treat mania.",
+          "year": "2020",
+          "study_type": "Clinical Practice Review",
+          "tier": "2",
+          "note": "臨床實踐指南性文章，直接涉及躁狂治療策略，確認 Haloperidol 使用情境。"
+        },
+        {
+          "pmid": "22161387",
+          "title": "Oxcarbazepine for acute affective episodes in bipolar disorder.",
+          "year": "2011",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "2",
+          "note": "比較治療框架下間接涉及 Haloperidol 作為對照組標準。"
+        },
+        {
+          "pmid": "22070611",
+          "title": "Refractoriness in bipolar disorder: definitions and evidence-based treatment.",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "難治型雙相障礙定義與治療，討論 Haloperidol 在特殊情境下的應用。"
+        },
+        {
+          "pmid": "6384961",
+          "title": "Lithium.",
+          "year": "1984",
+          "study_type": "Review (Historical)",
+          "tier": "3",
+          "note": "歷史性鋰鹽綜述，年代久遠，Haloperidol 在此時期已為標準輔助用藥。"
+        },
+        {
+          "pmid": "15006016",
+          "title": "Focus on aripiprazole.",
+          "year": "2004",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "Aripiprazole 藥物綜述，Haloperidol 作為比較背景。"
+        },
+        {
+          "pmid": "17627670",
+          "title": "Ziprasidone for schizophrenia and bipolar disorder: a review.",
+          "year": "2007",
+          "study_type": "Drug Review",
+          "tier": "3",
+          "note": "Ziprasidone 綜述，Haloperidol 作為歷史對照背景。"
+        },
+        {
+          "pmid": "21074545",
+          "title": "Epigenetic GABAergic targets in schizophrenia and bipolar disorder.",
+          "year": "2011",
+          "study_type": "Basic Science Review",
+          "tier": "3",
+          "note": "基礎科學，探討 GABA 能表觀遺傳機轉，非直接臨床證據。"
+        }
+      ],
+      "clinical_guardrails": [
+        "EPS（錐體外症狀）：發生率高（30-70%），需常規監測並備妥抗膽鹼藥物（如苯海索）",
+        "遲發性運動障礙（Tardive Dyskinesia）：長期使用風險，不可逆風險",
+        "QTc 延長：需基線及追蹤 ECG，避免與其他 QTc 延長藥物合用",
+        "NMS（惡性症候群）：罕見但致命，需警惕發燒+肌肉僵直+意識改變三聯症",
+        "代謝副作用：相比第二代抗精神病藥較少，但仍需監測",
+        "懷孕安全性（NCT06049953 正在研究中）：FDA 歷史 C 類，需謹慎評估",
+        "適用族群：急性嚴重躁狂、資源有限場域、需要注射劑型時（Haloperidol 有 IM 劑型優勢）"
+      ]
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "by_evidence_level": {
+      "L1": 1,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 9
+    },
+    "by_decision_stage": {
+      "S3_可建議": 1,
+      "S2_臨床可行性": 0,
+      "S1_安全性初評": 0,
+      "S0_初篩不足": 9
+    },
+    "actionable_indication": "manic bipolar affective disorder（唯一 L1/S3 適應症）",
+    "key_insight": "TxGNN 模型對 Haloperidol 的高分預測（均 >0.998）在 9/10 個適應症中完全無臨床支持。這些預測對象多為罕見遺傳性疾病（CDG、CMT、視網膜營養不良等），與 Haloperidol 的藥理機轉（D2拮抗）無生物學關聯，反映模型可能存在系統性偏差（如訓練集中圖譜拓撲的偽關聯）。唯一有意義的適應症『躁狂型雙相情感障礙』已有 4 個 Phase 3 RCT（含 Haloperidol 作為陽性對照）及 Tier-1 網絡 Meta 分析支持，屬已確立用途而非再利用機會。",
+    "data_quality_concerns": [
+      "DDI_count=0 顯然不正確，Haloperidol 實際有超過200種藥物交互作用（CNS抑制劑、QTc延長藥、CYP3A4/CYP2D6 相關藥物）",
+      "original_moa=[Data Gap] 資料缺失，應補充：D2/D1 多巴胺受體拮抗劑、α1/H1 受體阻斷",
+      "文獻收集系統對『retinal dystrophy with or without extraocular anomalies』出現系統性偽陽性：16篇文獻無一與 Haloperidol 再利用相關",
+      "market_status=未上市 需確認市場範圍定義，Haloperidol 在全球絕大多數國家均為核准上市藥物"
+    ]
+  }
+}
+```
+
+---
+
+## 決策摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **躁狂型雙相情感障礙** | 0.998 | **L1** | **S3** | ✅ **Proceed with Guardrails** |
+| 先天性岩藻糖基化缺陷 | 0.999 | L5 | S0 | ❌ Hold |
+| 視網膜營養不良伴眼外異常 | 0.999 | L5 | S0 | ❌ Hold（另有潛在傷害） |
+| 積水無腦畸形 | 0.999 | L5 | S0 | ❌ Hold |
+| X 連鎖近視 | 0.999 | L5 | S0 | ❌ Hold（機轉方向可能有害） |
+| CMT 1G 型 | 0.999 | L5 | S0 | ❌ Hold（EPS 可能惡化症狀） |
+| X 連鎖近視 26 型（女性限制） | 0.999 | L5 | S0 | ❌ Hold |
+| 症候群性近視 | 0.999 | L5 | S0 | ❌ Hold |
+| 多腦回畸形複合症候群 | 0.999 | L5 | S0 | ❌ Hold |
+| 非典型甘胺酸腦病 | 0.999 | L5 | S0 | ❌ Hold |
+
+> ⚠️ **重要提醒**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經正式臨床驗證才能應用於臨床實踐。

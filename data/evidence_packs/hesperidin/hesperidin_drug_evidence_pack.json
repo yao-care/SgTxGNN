@@ -1,0 +1,1055 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB04703-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hesperidin",
+    "drugbank_id": "DB04703",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "myeloproliferative neoplasm",
+      "txgnn": {
+        "score": 0.9947035908699036,
+        "rank": 6730
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31759365",
+            "title": "Repurposing Drugs by In Silico Methods to Target BCR Kinase Domain in Chronic Myeloid Leukemia.",
+            "authors": [
+              "Natarajan Aparna",
+              "Thangarajan Rajkumar",
+              "Kesavan Sabitha"
+            ],
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2019",
+            "abstract": "Targeted therapy in the form of highly selective tyrosine kinase inhibitors (TKIs) has transformed the treatment of chronic myeloid leukemia (CML). However, mutations in the kinase domain contribute to drug resistance against TKIs which compromises the treatment response. Our aim is to explore regions outside the BCR-ABL oncoprotein to identify potential therapeutic targets to curb drug resistance by targeting growth factor receptor-bound protein-2 (Grb-2) which binds to BCR-ABL at the phosphory",
+            "classification": {
+              "study_type": "In Silico",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40751800",
+            "title": "Hesperetin increases membrane progesterone receptor expression in human myeloid leukemia cells and reduces ROS.",
+            "authors": [
+              "Hosseini Seyedeh Sindokht",
+              "Esmailzadeh Elyas",
+              "Zangooei Mohammad",
+              "Bagheri Vahid"
+            ],
+            "journal": "Medical oncology (Northwood, London, England)",
+            "year": "2025",
+            "abstract": "Chronic myeloid leukemia (CML) is characterized by high levels of reactive oxygen species (ROS), which contribute to disease progression and drug resistance. In addition, membrane progesterone receptors (mPRs) may play roles in the proliferation and differentiation of leukemia cells, although their significance in CML remains underexplored. Hesperetin (Hst), a citrus flavonoid, has shown anticancer and antioxidant properties. This study aimed to investigate whether Hst affects mPR expression and",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "分子對接預測 Hesperidin 可結合 BCR 激酶 ATP 結合口袋，與 imatinib 作用機制相似但化學結構迥異，具潛在成為天然 BCR 激酶抑制劑基礎。輔以骨髓性白血病研究中的一般抗增殖機制（Mcl-1調控、內源性凋亡激活），對 BCR-ABL 驅動的 MPN 具理論雙重效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "monocytic leukemia",
+      "txgnn": {
+        "score": 0.9939914345741272,
+        "rank": 7381
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "14505793",
+            "title": "Rutinoside at C7 attenuates the apoptosis-inducing activity of flavonoids.",
+            "authors": [
+              "Chen Yen-Chou",
+              "Shen Shing-Chuan",
+              "Lin Hui-Yi"
+            ],
+            "journal": "Biochemical pharmacology",
+            "year": "2003",
+            "abstract": "Rutinoside (rhamnoglucoside; rhamnose+glucose) addition has been examined extensively in the metabolism of flavonoids, however the effect of rutinoside on apoptosis-inducing activity of flavonoids is still unknown. In the present study, the two pairs of flavonoids of hesperetin (HT) and hesperidin (HD; HT-7-rutinose), and naringenin (NE) and naringin (NE-7-rutinose), were used to study their apoptosis-inducing activities in HL-60 cells. Both HD and NI are flavonoids which contain a rutinoside at",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hesperidin 的 C7 位芸香糖苷結構顯著降低其凋亡誘導能力；腸道菌群將 Hesperidin 去醣基化為 Hesperetin 後，凋亡活性增強，暗示體內活性可能主要由代謝物 Hesperetin 承擔。此機轉在 AML-M5（單核細胞白血病）中的特異性尚未建立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "spermatocytic seminoma",
+      "txgnn": {
+        "score": 0.9933738708496094,
+        "rank": 7938
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知，為純計算預測。知識圖譜可能基於黃酮類化合物的一般抗腫瘤節點關聯，缺乏生殖腺腫瘤特異性機轉研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "tubular variant testicular seminoma",
+      "txgnn": {
+        "score": 0.9930791258811952,
+        "rank": 8172
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知，為純計算預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gestational trophoblastic neoplasm",
+      "txgnn": {
+        "score": 0.9903160929679872,
+        "rank": 10319
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知，為純計算預測。GTN 的 β-hCG 驅動增殖機轉與 Hesperidin 已知活性無明確連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "primary peritoneal carcinoma (disease)",
+      "txgnn": {
+        "score": 0.9878893494606018,
+        "rank": 12139
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知，為純計算預測。理論上 Hesperidin 的抗氧化/抗炎特性可能影響腹膜微環境，但缺乏實驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acute lymphoblastic leukemia (disease)",
+      "txgnn": {
+        "score": 0.987406313419342,
+        "rank": 12535
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知，為純計算預測。知識圖譜可能基於 Hesperidin 一般抗腫瘤活性連結至淋巴性白血病，但 ALL 的驅動機制（BCR-ABL, ETV6-RUNX1 等）與 Hesperidin 已知靶點無明確交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "myeloid leukemia",
+      "txgnn": {
+        "score": 0.987300455570221,
+        "rank": 12616
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36522514",
+            "title": "Amentoflavone and methyl hesperidin, novel lead molecules targeting epitranscriptomic modulator in acute myeloid leukemia: in silico drug screening and molecular dynamics simulation approach.",
+            "authors": [
+              "Manna Shibambika",
+              "Samal Pragati",
+              "Basak Rohini",
+              "Mitra Anushka",
+              "Roy Arijit Kumar"
+            ],
+            "journal": "Journal of molecular modeling",
+            "year": "2022",
+            "abstract": "M6A modification in transcriptome is critical in regulating different cellular processes, including cancer. In human beings, METTL3 is the major m6A writer that works in association with METTL14, an accessory protein. Extensive study revealed that cancer progression for acute myeloid leukemia, gastric cancer, colorectal cancer, hepatocellular carcinoma, and lung cancer is directly contributed by irregular expression of METTL3.",
+            "classification": {
+              "study_type": "In Silico/In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40581950",
+            "title": "Targeting CD33 With Hesperidin: A Natural Strategy for Acute Myeloid Leukemia Treatment.",
+            "authors": [
+              "Alenad Amal",
+              "Khan Mohd Shahnawaz",
+              "Alokail Majed S",
+              "Malik Ajamaluddin",
+              "Odeibat Hamza"
+            ],
+            "journal": "Chemistry & biodiversity",
+            "year": "2025",
+            "abstract": "CD33 is widely expressed on blasts in most acute myeloid leukemia (AML) patients, serving as a marker of myeloid differentiation. The broad expression of CD33 on AML blasts has made it an attractive drug target so that therapies could be developed to eliminate malignant cells while sparing normal hematopoietic stem cells. Targeting CD33 by natural compounds can be an attractive therapeutic strategy to identify and develop small natural molecule inhibitors. Molecular docking was performed to anal",
+            "classification": {
+              "study_type": "In Silico/In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30224905",
+            "title": "7-Isopenthenyloxycoumarin, Arctigenin, and Hesperidin Modify Myeloid Cell Leukemia Type-1 (Mcl-1) Gene Expression by Hormesis in K562 Cell Line.",
+            "authors": [
+              "Kafi Zahra",
+              "Cheshomi Hamid",
+              "Gholami Omid"
+            ],
+            "journal": "Dose-response : a publication of International Hormesis Society",
+            "year": "2018",
+            "abstract": "Hormesis is a new concept in dose-response relationship. Despite of traditional dose-response curves, there is a low-dose stimulation and a high-dose inhibition in this case. Hormesis effect in apoptosis induction/inhibition by natural compounds is reported previously. Here, we searched this effect for myeloid cell leukemia type-1 (Mcl-1) gene expression by phytochemicals 7-isopenthenyloxycoumarin (7-IP), arctigenin (Arg), and hesperidin (Hsp). For this purpose, first we tested the cytotoxicity ",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40751800",
+            "title": "Hesperetin increases membrane progesterone receptor expression in human myeloid leukemia cells and reduces ROS.",
+            "authors": [
+              "Hosseini Seyedeh Sindokht",
+              "Esmailzadeh Elyas",
+              "Zangooei Mohammad",
+              "Bagheri Vahid"
+            ],
+            "journal": "Medical oncology (Northwood, London, England)",
+            "year": "2025",
+            "abstract": "Chronic myeloid leukemia (CML) is characterized by high levels of reactive oxygen species (ROS), which contribute to disease progression and drug resistance. In addition, membrane progesterone receptors (mPRs) may play roles in the proliferation and differentiation of leukemia cells, although their significance in CML remains underexplored. Hesperetin (Hst), a citrus flavonoid, has shown anticancer and antioxidant properties. This study aimed to investigate whether Hst affects mPR expression and",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26148599",
+            "title": "Enhancement of the cytotoxic effects of Cytarabine in synergism with Hesperidine and Silibinin in Acute Myeloid Leukemia: An in-vitro approach.",
+            "authors": [
+              "Desai Urja N",
+              "Shah Krupa P",
+              "Mirza Sheefa H",
+              "Panchal Darshil K",
+              "Parikh Sonia K"
+            ],
+            "journal": "Journal of cancer research and therapeutics",
+            "year": "2015",
+            "abstract": "Acute Myeloid Leukemia (AML) therapy continues to be a daunting challenge. Cytosine Arabinoside (Ara-C) is widely used to treat hematological malignancy in humans, but often becomes ineffective because of increased resistance to the drug which may lead to a worse prognosis. Therefore new strategies are needed to understand the mechanism responsible for drug resistance and to develop new therapies to overcome it. Research evidence based on natural compounds used alone or in combination with curre",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26408178",
+            "title": "Fisetin and hesperetin induced apoptosis and cell cycle arrest in chronic myeloid leukemia cells accompanied by modulation of cellular signaling.",
+            "authors": [
+              "Adan Aysun",
+              "Baran Yusuf"
+            ],
+            "journal": "Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine",
+            "year": "2016",
+            "abstract": "Fisetin and hesperetin, naturally occurring flavonoids, have been reported as novel antioxidants with chemopreventive/chemotherapeutic potential against various types of cancer. However, their mechanism of action in CML is still unknown. This particular study aims to evaluate the therapeutic potentials of fisetin and hesperetin and their effects on cell proliferation, apoptosis, and cell cycle progression in human K562 CML cells. The results indicated that fisetin and hesperetin inhibited cell p",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36534417",
+            "title": "Evidence for Hesperidin as an Effective Factor in Initiating the Intrinsic Pathway of Apoptosis in KG1a Leukemia Cells.",
+            "authors": [
+              "Novinbahador Tannaz",
+              "Araj-Khodaei Mostafa",
+              "Mahdavi Majid"
+            ],
+            "journal": "International journal of toxicology",
+            "year": "2023",
+            "abstract": "Acute myeloid leukemia (AML) is the most common subtype of leukemia, accounting for 62% of all leukemia fatalities. As a polyphenol glycoside, hesperidin triggers the apoptotic pathway, which might positively affect combating cancer cells. In this study, we investigated the pro-apoptotic effects of hesperidin in KG1a cells. The MTT assay was used to determine the IC50 of hesperidin in KG1a cell lines. For the apoptotic cell morphology study, we used Hoechst 33 258 staining. Activation of the cas",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38423637",
+            "title": "Azacitidine-Hesperetin Combination Induces S-phase Cell Cycle Arrest and Apoptosis in Human Leukemia Cells.",
+            "authors": [
+              "Lai Kuan-Ming",
+              "Tseng Ruo-Han",
+              "Shih Yu-Hung",
+              "Huang Ying-Chih"
+            ],
+            "journal": "Anticancer research",
+            "year": "2024",
+            "abstract": "Chemotherapy drugs for leukemia, such as 5-azacytidine (Aza), have often various adverse effects. Hesperetin (Hes), a naturally occurring compound, is a potential adjuvant agent for anticancer therapy. This study aimed to investigate the effect of an Aza-Hes combination on acute leukemia cell lines, which elucidates the role of combination treatment in leukemia progression.",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2207000",
+            "title": "Type II oestrogen binding sites in acute lymphoid and myeloid leukaemias: growth inhibitory effect of oestrogen and flavonoids.",
+            "authors": [
+              "Larocca L M",
+              "Piantelli M",
+              "Leone G",
+              "Sica S",
+              "Teofili L"
+            ],
+            "journal": "British journal of haematology",
+            "year": "1990",
+            "abstract": "The presence of oestrogen receptors (ER) and type II oestrogen binding sites (type II EBS) have been investigated by a whole cell assay in seven cases of acute lymphoid leukaemia (ALL) and 16 cases of acute myeloid leukaemia (AML). ER were detected in 6/7 ALL patients with values ranging between 133 and 2268 sites/cell and in 12/16 AML patients with values ranging between 274 and 4197 sites/cell. The apparent dissociation constant (KD) for ER was 0.6 +/- 0.3 nM (mean + SD of 20 cases). All blast",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26081618",
+            "title": "The pleiotropic effects of fisetin and hesperetin on human acute promyelocytic leukemia cells are mediated through apoptosis, cell cycle arrest, and alterations in signaling networks.",
+            "authors": [
+              "Adan Aysun",
+              "Baran Yusuf"
+            ],
+            "journal": "Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine",
+            "year": "2015",
+            "abstract": "Fisetin and hesperetin, flavonoids from various plants, have several pharmaceutical activities including antioxidative, anti-inflammatory, and anticancer effects. However, studies elucidating the role and the mechanism(s) of action of fisetin and hesperetin in acute promyelocytic leukemia are absent. In this study, we investigated the mechanism of the antiproliferative and apoptotic actions exerted by fisetin and hesperetin on human HL60 acute promyelocytic leukemia cells. The viability of HL60 ",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31759365",
+            "title": "Repurposing Drugs by In Silico Methods to Target BCR Kinase Domain in Chronic Myeloid Leukemia.",
+            "authors": [
+              "Natarajan Aparna",
+              "Thangarajan Rajkumar",
+              "Kesavan Sabitha"
+            ],
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2019",
+            "abstract": "Targeted therapy in the form of highly selective tyrosine kinase inhibitors (TKIs) has transformed the treatment of chronic myeloid leukemia (CML). However, mutations in the kinase domain contribute to drug resistance against TKIs which compromises the treatment response. Our aim is to explore regions outside the BCR-ABL oncoprotein to identify potential therapeutic targets to curb drug resistance by targeting growth factor receptor-bound protein-2 (Grb-2) which binds to BCR-ABL at the phosphory",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38916633",
+            "title": "Hesperidin/Salinomycin Combination; a Natural Product for Deactivation of the PI3K/Akt Signaling Pathway and Anti-Apoptotic Factors in KG1a Cells.",
+            "authors": [
+              "Abroon Sina",
+              "Nouri Mohammad",
+              "Mahdavi Majid"
+            ],
+            "journal": "Journal of fluorescence",
+            "year": "2025",
+            "abstract": "AML is a highly aggressive malignant clonal disease of hematopoietic origin. Hesperidin as a polyphenol glycoside, Activates the apoptotic pathway and salinomycin as a k + selective ionophore. We examined how hesperidin and salinomycin induce pro-apoptotic effects in KG1a cells. Cells were divided into four groups; 1) control cells (CRTL), 2) cells treated with hesperidin 85 μM, 3) cells treated with 2 μM salinomycin, 4) cells treated with combination of salinomycin and hesperidin. The MTT assay",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35536789",
+            "title": "Experimental, molecular docking and molecular dynamic studies of natural products targeting overexpressed receptors in breast cancer.",
+            "authors": [
+              "Taghizadeh Mohammad Sadegh",
+              "Niazi Ali",
+              "Moghadam Ali",
+              "Afsharifar Alireza"
+            ],
+            "journal": "PloS one",
+            "year": "2022",
+            "abstract": "Natural compounds are proper tools for inhibiting cancer cell proliferation. Hence, the search for these ligands of overexpressed receptors in breast cancer has been a competitive challenge recently and opens new avenues for drug discovery. In this research, we have investigated molecular interactions between natural products and overexpressed receptors in breast cancer using molecular docking and dynamic simulation approaches followed by extraction of the best ligand from Citrus limetta and dev",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27465424",
+            "title": "Pure total flavonoids from Citrus paradisi Macfad induce leukemia cell apoptosis in vitro.",
+            "authors": [
+              "Dai Tie-Ying",
+              "Wang Bo",
+              "Lin Sheng-Yun",
+              "Jiang Jian-Ping",
+              "Wu Li-Qiang"
+            ],
+            "journal": "Chinese journal of integrative medicine",
+            "year": "2017",
+            "abstract": "To investigate the potential effect of pure total flavonoids from Citrus paradisi Macfad peel (PTFC) on the proliferation of human myeloid leukemia cells Kasumi-1, HL-60 and K562, and the underlying mechanisms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14505793",
+            "title": "Rutinoside at C7 attenuates the apoptosis-inducing activity of flavonoids.",
+            "authors": [
+              "Chen Yen-Chou",
+              "Shen Shing-Chuan",
+              "Lin Hui-Yi"
+            ],
+            "journal": "Biochemical pharmacology",
+            "year": "2003",
+            "abstract": "Rutinoside (rhamnoglucoside; rhamnose+glucose) addition has been examined extensively in the metabolism of flavonoids, however the effect of rutinoside on apoptosis-inducing activity of flavonoids is still unknown. In the present study, the two pairs of flavonoids of hesperetin (HT) and hesperidin (HD; HT-7-rutinose), and naringenin (NE) and naringin (NE-7-rutinose), were used to study their apoptosis-inducing activities in HL-60 cells. Both HD and NI are flavonoids which contain a rutinoside at",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16465400",
+            "title": "Evaluation of the anti-allergic activity of Citrus unshiu using rat basophilic leukemia RBL-2H3 cells as well as basophils of patients with seasonal allergic rhinitis to pollen.",
+            "authors": [
+              "Kobayashi Shoko",
+              "Tanabe Soichi"
+            ],
+            "journal": "International journal of molecular medicine",
+            "year": "2006",
+            "abstract": "The anti-allergic activity of the 50% methanol extract of Citrus unshiu powder (MEC) was examined. Fifty percent methanol extract of MEC powder showed potent inhibitory activity against histamine release from basophils of patients suffering from seasonal allergic rhinitis to ceder pollen. To examine this anti-allergic mechanism in detail, we next used rat basophlilic leukemia RBL-2H3 cells. MEC significantly inhibited IgE-induced histamine and beta-hexosaminidase release from RBL-2H3 cells. Sinc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多重機制：① 下調 Mcl-1 抗凋亡蛋白（BCL-2 家族，AML 中高度表現），解除凋亡抑制；② 分子對接顯示可結合 CD33（骨髓特異性抗原，已驗證靶點：gemtuzumab ozogamicin）；③ 激活線粒體內源性凋亡途徑（細胞色素c釋放、caspase-3/9活化）；④ 細胞週期阻滯（G0/G1 及 S 期）；⑤ 與阿糖胞苷及阿扎胞苷具協同抗白血病活性；⑥ Type II 雌激素受體結合介導生長抑制；⑦ 表觀轉錄組調控（AML）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "Seckel syndrome",
+      "txgnn": {
+        "score": 0.9870902895927428,
+        "rank": 12782
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知，為純計算預測。Hesperidin 的抗氧化特性理論上可緩解 DNA 損傷相關氧化應激，但無法恢復 ATR 激酶或 Pericentrin 功能；治療路徑不合理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myeloproliferative neoplasm, unclassifiable",
+      "txgnn": {
+        "score": 0.9867745637893676,
+        "rank": 12989
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與 myeloproliferative neoplasm 適應症相同，BCR 激酶抑制及一般抗骨髓增殖活性為推測機轉，缺乏 MPN-U 特異性研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloproliferative neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloproliferative neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloproliferative neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "monocytic leukemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "monocytic leukemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "monocytic leukemia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "spermatocytic seminoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "spermatocytic seminoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "spermatocytic seminoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "tubular variant testicular seminoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "tubular variant testicular seminoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "tubular variant testicular seminoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "gestational trophoblastic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "gestational trophoblastic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "gestational trophoblastic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "primary peritoneal carcinoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "primary peritoneal carcinoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "primary peritoneal carcinoma (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "acute lymphoblastic leukemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "acute lymphoblastic leukemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "acute lymphoblastic leukemia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloid leukemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloid leukemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloid leukemia"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "Seckel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "Seckel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "Seckel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloproliferative neoplasm, unclassifiable"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloproliferative neoplasm, unclassifiable"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hesperidin",
+        "disease": "myeloproliferative neoplasm, unclassifiable"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

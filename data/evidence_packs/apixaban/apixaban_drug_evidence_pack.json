@@ -1,0 +1,1822 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06605-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Apixaban",
+    "drugbank_id": "DB06605",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9901751279830932,
+        "rank": 10418
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00562289",
+            "title": "Closure of Patent Foramen Ovale or Anticoagulants Versus Antiplatelet Therapy to Prevent Stroke Recurrence",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 664,
+            "start_date": "2007-12",
+            "completion_date": "2016-12",
+            "brief_summary": "A patent foramen ovale (PFO) is found more frequently in patients with an ischemic stroke than in control subjects.\n\nTherapeutic options to prevent stroke recurrence include antiplatelet drugs, oral anticoagulants, and transcatheter closure of the foramen. However, there are no published studies showing convincingly the superiority of any one of these strategies in preventing stroke recurrence.\n\nThe aim of this randomized clinical trial is to assess whether chronic anticoagulation on the one han",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要終點為中風預防，非偏頭痛治療；PFO 封堵術 vs. 抗凝劑 vs. 抗血小板比較。偏頭痛為次要觀察項目，且試驗藥物並非特定為 Apixaban，相關性低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37582651",
+            "title": "A Case Report of Migraine With Aura Worsened After Starting Apixaban and Literature Review.",
+            "authors": [
+              "Alhayek Nour",
+              "Harahsheh Ehab",
+              "Dumitrascu Oana",
+              "Green Anthony L"
+            ],
+            "journal": "The neurologist",
+            "year": "2023",
+            "abstract": "Multiple medications have been related to triggering headache attacks or worsening headache frequency or severity in patients with migraine disease. However, the impact of direct oral anticoagulants on headache frequency and severity in patients with migraine disease is unclear. Current literature is scarce and controversial.",
+            "classification": {
+              "study_type": "Case Report + Literature Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28960288",
+            "title": "A Case of Migraine With Aura Resolving on Warfarin But Not on Apixaban.",
+            "authors": [
+              "Nilsson Benjamin G",
+              "Bungard Tammy J"
+            ],
+            "journal": "Headache",
+            "year": "2017",
+            "abstract": "Several case reports have associated anticoagulants such as heparin and vitamin K antagonists with reduced symptoms in migraine, but no data exist for direct acting oral factor Xa inhibitors. We report the case of a 55-year-old female who experienced complete remission of migraine with aura for 12 years while on warfarin, with return of symptoms within 3 weeks of switching to apixaban, and resolution of symptoms once again within days of warfarin resumption. Our case suggests that anticoagulatio",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33402037",
+            "title": "A trial of antithrombotic therapy in patients with refractory migraine and antiphospholipid antibodies: A retrospective study of 75 patients.",
+            "authors": [
+              "Schofield Jill R",
+              "Hughes Hannah N",
+              "Birlea Marius",
+              "Hassell Kathryn L"
+            ],
+            "journal": "Lupus",
+            "year": "2021",
+            "abstract": "It has been reported that patients with antiphospholipid antibodies (aPL) and refractory migraine may experience symptomatic improvement with antithrombotic therapy, but this phenomenon has not been well studied. This study was undertaken to detail the response to trials of antithrombotic therapy in these patients.",
+            "classification": {
+              "study_type": "Small Trial / Pilot",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29611190",
+            "title": "A Case of Vestibular Migraine Resolving on Warfarin and Topiramate.",
+            "authors": [
+              "Beh Shin C"
+            ],
+            "journal": "Headache",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Apixaban 作為 FXa 抑制劑，理論上可減少 PFO 相關矛盾性栓塞觸發皮質擴散抑制（CSD），進而預防偏頭痛發作。然而，案例報告顯示 Warfarin 效果優於 Apixaban，可能因 VKA 額外的抗炎機制（維生素 K 依賴性 protein S/C 路徑）或對特定亞型血栓更廣泛的抑制效果。目前無直接 RCT 針對偏頭痛治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.9892250895500184,
+        "rank": 11092
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37582651",
+            "title": "A Case Report of Migraine With Aura Worsened After Starting Apixaban and Literature Review.",
+            "authors": [
+              "Alhayek Nour",
+              "Harahsheh Ehab",
+              "Dumitrascu Oana",
+              "Green Anthony L"
+            ],
+            "journal": "The neurologist",
+            "year": "2023",
+            "abstract": "Multiple medications have been related to triggering headache attacks or worsening headache frequency or severity in patients with migraine disease. However, the impact of direct oral anticoagulants on headache frequency and severity in patients with migraine disease is unclear. Current literature is scarce and controversial.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 透過偏頭痛與癲癇共享的遺傳通路（MTHFR、離子通道、神經炎症）進行預測，但此為間接基因關聯，與 Apixaban FXa 抑制機轉無直接連結。20 篇文獻中絕大多數討論癲癇遺傳學，非 Apixaban 臨床應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.9889788031578064,
+        "rank": 11292
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38149553",
+            "title": "Co-infection of Mycobacterium tuberculosis and Mycobacterium leprae Complicated by pulmonary embolism: A rare case report.",
+            "authors": [
+              "Ruthramoorthy Prasana",
+              "Jose Jince Ann",
+              "Revendran Jayamol",
+              "Elango Ragavi"
+            ],
+            "journal": "International journal of mycobacteriology",
+            "year": "2023",
+            "abstract": "A 35-year-old male patient with lepromatous leprosy came to the emergency room (ER) due to breathlessness and chest pain. The patient was diagnosed with pulmonary tuberculosis (TB) after a bronchoscopy and started on antitubercular therapy. However, the patient continued to experience tachycardia and desaturation, and on further evaluation, Computed tomography pulmonary angiography revealed an embolus in the right descending pulmonary artery. The patient was found to have an elevated d-dimer. Fu",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Apixaban 無已知抗分枝桿菌活性。唯一文獻（PMID 38149553）為麻瘋病合併肺栓塞案例，Apixaban 用於 PE 治療而非麻瘋病本身。TxGNN 預測可能基於知識圖譜中的共病關係，無實際再利用意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.988937497138977,
+        "rank": 11319
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33141212",
+            "title": "Diagnosis and Treatment of Lower Extremity Venous Thromboembolism: A Review.",
+            "authors": [
+              "Chopard Romain",
+              "Albertsen Ida Ehlers",
+              "Piazza Gregory"
+            ],
+            "journal": "JAMA",
+            "year": "2020",
+            "abstract": "Incidence rates for lower extremity deep vein thrombosis (DVT) range from 88 to 112 per 100 000 person-years and increase with age. Rates of recurrent VTE range from 20% to 36% during the 10 years after an initial event.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32141012",
+            "title": "Apixaban exhibits anti-arthritic effects by inhibiting activated factor X-mediated JAK2/STAT3 and MAPK phosphorylation pathways.",
+            "authors": [
+              "El-Ghafar Omnia Ahmed Mohamed Abd",
+              "Helal Gouda Kamel",
+              "Abo-Youssef Amira M"
+            ],
+            "journal": "Inflammopharmacology",
+            "year": "2020",
+            "abstract": "Activated factor X (FXa) is strongly linked to various inflammatory events. This study aimed to investigate the effect of FXa on janus kinase2/signal transducers and activators of transcription3 (JAK2/STAT3) and mitogen-activated protein kinase (MAPK) phosphorylation in relation to rheumatoid arthritis (RA). It also extends its scope to explore the possible anti-arthritic effects of apixaban, a selective FXa inhibitor. Rats were allocated into normal control; complete Freund's adjuvant (CFA, 0.4",
+            "classification": {
+              "study_type": "Preclinical / Mechanistic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29621248",
+            "title": "Adherence to rivaroxaban versus apixaban among patients with non-valvular atrial fibrillation: Analysis of overall population and subgroups of prior oral anticoagulant users.",
+            "authors": [
+              "McHorney Colleen A",
+              "Crivera Concetta",
+              "Laliberté François",
+              "Germain Guillaume",
+              "Wynant Willy"
+            ],
+            "journal": "PloS one",
+            "year": "2018",
+            "abstract": "Medication non-adherence can result in poor health outcomes. Understanding differences in adherence rates to non-vitamin K oral anticoagulants (NOACs) could guide treatment decisions and improve clinical outcomes among patients with non-valvular atrial fibrillation (NVAF).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37753049",
+            "title": "A Rare Case of Acquired Factor VIII Deficiency in an Elderly Male With a History of Rheumatoid Arthritis.",
+            "authors": [
+              "Shah Shubhangi",
+              "Tseng Michael",
+              "Durojaiye Ashimiyu"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Acquired hemophilia A (AHA) or factor VIII (FVIII) deficiency is caused by autoantibodies targeting FVIII in the blood coagulation pathway; it is a rare condition making it challenging to diagnose. A timely diagnosis is crucial, without which there is a risk of catastrophic bleeding. We report a case of a patient with a history of duodenal arteriovenous malformations, previously on apixaban, who presented with four days of melena. On admission he was found to have a hemoglobin of 5.7 and elevate",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36890459",
+            "title": "Elderly onset atypical Lemierre's syndrome concurrent with a rheumatoid vasculitis sacral ulcer infection: a case report.",
+            "authors": [
+              "Mishima Koji",
+              "Aoki Kazunobu",
+              "Shirai Yusuke",
+              "Aritomo Hiroshi",
+              "Iwasaka Maiko"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2023",
+            "abstract": "Typical Lemierre's syndrome is usually secondary to an oropharyngeal infection. Recently, several cases following a primary infection site other than the oropharynx have been reported as atypical Lemierre's syndrome; although, these primary lesions are limited to the head and neck. This is the first case potentially sequential to infectious foci outside the head and neck.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29951322",
+            "title": "Staphylococcus aureus Myocarditis with Associated Left Ventricular Apical Thrombus.",
+            "authors": [
+              "McGee Michael",
+              "Shiel Emily",
+              "Brienesse Stephen",
+              "Murch Stuart",
+              "Pickles Robert"
+            ],
+            "journal": "Case reports in cardiology",
+            "year": "2018",
+            "abstract": "Staphylococcus aureus myocarditis is a rare diagnosis with a high mortality rate, usually seen in people who are immunocompromised. Here, we report a case of a 44-year-old man on methotrexate for rheumatoid arthritis who presented in septic shock and was diagnosed with staphylococcus aureus myocarditis. The myocarditis was associated with a left ventricular apical thrombus, with normal systolic function. The myocarditis and associated thrombus were characterised on transthoracic echocardiogram a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36283016",
+            "title": "Native heart valve thrombosis associated with COVID-19 - a report of 4 cases.",
+            "authors": [
+              "Elikowski Waldemar",
+              "Fertała Natalia",
+              "Zawodna-Marszałek Magdalena",
+              "Skrzywanek Paweł",
+              "Łazowski Stanisław"
+            ],
+            "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
+            "year": "2022",
+            "abstract": "Native heart valve thrombosis (NHVT) is a rare valvular pathology, usually associated with prothrombotic state or disturbed intracardiac blood flow related to structural valve abnormalities. While different venous and arterial thromboembolic complications of COVID-19 have been widely described, so far NHVT has not been reported in the context of the disease. The authors describe 4 cases of NHVT associated with COVID-19, revealed on aortic, mitral (2 patients) and tricuspid valve. In a 29-yearold",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27608800",
+            "title": "Possible relationship between certolizumab pegol and arrhythmias: report of two cases.",
+            "authors": [
+              "Talotta R",
+              "Atzeni F",
+              "Batticciotto A",
+              "Ventura D",
+              "Sarzi-Puttini P"
+            ],
+            "journal": "Reumatismo",
+            "year": "2016",
+            "abstract": "It is still unknown whether there is an association between the use of certolizumab pegol (CZP) in rheumatic patients and the onset of cardiac arrhythmias. We describe the cases of two patients with rheumatoid arthritis (RA) treated with CZP as the first-line biological drug and methotrexate (MTX), who developed an arrhythmic event. The first was a 60-year-old, hypertensive male smoker, the second a 66-year-old dyslipidemic female non-smoker. Both were diagnosed as having RA in 2010, and started",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FXa 可透過 PAR-1/PAR-2 受體激活滑膜纖維母細胞和巨噬細胞中的 JAK2/STAT3 和 MAPK 信號通路，促進 IL-6、TNF-α 等炎症因子分泌。PMID 32141012 前臨床研究證實 Apixaban 在 RA 動物模型中具抗關節炎效果，為目前最重要的機轉依據。需進行 Phase 1/2 臨床試驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9882670044898988,
+        "rank": 11855
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37582651",
+            "title": "A Case Report of Migraine With Aura Worsened After Starting Apixaban and Literature Review.",
+            "authors": [
+              "Alhayek Nour",
+              "Harahsheh Ehab",
+              "Dumitrascu Oana",
+              "Green Anthony L"
+            ],
+            "journal": "The neurologist",
+            "year": "2023",
+            "abstract": "Multiple medications have been related to triggering headache attacks or worsening headache frequency or severity in patients with migraine disease. However, the impact of direct oral anticoagulants on headache frequency and severity in patients with migraine disease is unclear. Current literature is scarce and controversial.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28960288",
+            "title": "A Case of Migraine With Aura Resolving on Warfarin But Not on Apixaban.",
+            "authors": [
+              "Nilsson Benjamin G",
+              "Bungard Tammy J"
+            ],
+            "journal": "Headache",
+            "year": "2017",
+            "abstract": "Several case reports have associated anticoagulants such as heparin and vitamin K antagonists with reduced symptoms in migraine, but no data exist for direct acting oral factor Xa inhibitors. We report the case of a 55-year-old female who experienced complete remission of migraine with aura for 12 years while on warfarin, with return of symptoms within 3 weeks of switching to apixaban, and resolution of symptoms once again within days of warfarin resumption. Our case suggests that anticoagulatio",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29611190",
+            "title": "A Case of Vestibular Migraine Resolving on Warfarin and Topiramate.",
+            "authors": [
+              "Beh Shin C"
+            ],
+            "journal": "Headache",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹先兆型偏頭痛（舊稱基底型偏頭痛）可能與後顱窩血管事件有關。抗凝劑理論上可預防椎基底動脈系統栓塞事件，但現有案例報告顯示 Apixaban 在此亞型效果不明確甚至有害。三篇文獻均為案例報告且包含負面訊號，安全性存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Prinzmetal angina",
+      "txgnn": {
+        "score": 0.9838711023330688,
+        "rank": 14891
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Prinzmetal（變異型）心絞痛由冠狀動脈痙攣引起，主要病生理為血管平滑肌過度收縮，而非血栓形成。Apixaban 的 FXa 抑制機轉與血管痙攣無直接藥理連結，無臨床或前臨床支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.981790006160736,
+        "rank": 16148
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見遺傳性肢端發育異常（先天性骨骼畸形），發病機制為發育基因突變（如 HOXD、GJA1），與凝血級聯無任何機轉關聯。TxGNN 預測可能為知識圖譜雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.981297492980957,
+        "rank": 16400
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02942407",
+            "title": "RENal Hemodialysis Patients ALlocated Apixaban Versus Warfarin in Atrial Fibrillation (RENAL-AF) Randomized Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 154,
+            "start_date": "2016-12",
+            "completion_date": "2019-08-12",
+            "brief_summary": "This is a prospective, randomized, open-label, blinded end-point evaluation trial. The patient population consists of patients on hemodialysis who have atrial fibrillation (AF) and end-stage renal disease (ESRD) .",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "透析患者 AF 研究，與 PH 無直接關聯，但提供腎功能不全患者 Apixaban 安全性數據"
+            }
+          },
+          {
+            "nct_id": "NCT03804125",
+            "title": "A PHASE IV NON-INTERVENTIONAL STUDY. ADVERSE EVENTS (AES)/SUSPECTED ADVERSE DRUG REACTIONS (SADRS) ON THE PREVENTION OF STROKE AND SYSTEMIC EMBOLISM IN ADULT PATIENTS WITH NON-VALVULAR ATRIAL FIBRILLATION WITH ONE OR MORE RISK FACTORS AS PRIOR STOKE OR TRANSIENT ISCHAEMIC ATTACK; AGE >75; HYPERTENSION; DIABETES MELLITUS; SYMPTOMATIC HEART FAILURE (NYHA CLASS >II) AND PREVENTION OF VENOUS THROMBOEMBOLIC EVENTS (VTE) IN ADULT PATIENTS WHO HAVE UNDERGONE ELECTIVE HIP OR KNEE REPLACEMENT SURGERY UNDER TREATMENT WITH ELICUIS (REGISTERED) (APIXABAN)",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2021-09-01",
+            "completion_date": "2024-03-01",
+            "brief_summary": "To characterize and analyze the number, type and incidence of adverse events/suspected adverse drug reactions in patients treated with Apixaban, according to therapeutic indications approved in Mexico.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已撤回，無貢獻"
+            }
+          },
+          {
+            "nct_id": "NCT05838664",
+            "title": "SIFNOS STUDY: RETROSPECTIVE STUDY IN PATIENTS WITH ATRIAL FIBRILLATION (AF) EXPOSED AND UNEXPOSED TO AN ORAL ANTICOAGULANT THERAPY BETWEEN 2016-2020 IN FRANCE",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2140403,
+            "start_date": "2023-07-07",
+            "completion_date": "2024-09-30",
+            "brief_summary": "The purpose of this study is to look at how many patients with AF had strokes, major bleeding and death in both people who had and had not taken any oral anticoagulant. Atrial fibrillation (AF) is an irregular and often very rapid heart rhythm (arrhythmia) that can lead to blood clots in the heart.\n\nThis increases the risk of stroke. Anticoagulants are medicines, also called blood thinners, which help prevent blood clots from forming or getting bigger.\n\nThis study includes patient's data from th",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型觀察性 AF 研究，與 PH 無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT03993119",
+            "title": "Non-Interventional, Cross-sectional Study to Describe NOACs Management in Elderly Patients With Non-valvular Atrial Fibrillation (NVAF) in Spain.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 500,
+            "start_date": "2019-07-30",
+            "completion_date": "2020-08-20",
+            "brief_summary": "This is an observational, multicenter and cross-sectional study in Non-valvular atrial fibrillation (NVAF) elderly patients currently on Non-vitamin K antagonist oral anticoagulant (NOAC) treatment for their stroke prevention.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03610217",
+            "title": "Pragmatic Clinical Trials in Scleroderma",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 400,
+            "start_date": "2018-10",
+            "completion_date": "2021-10",
+            "brief_summary": "Systemic Sclerosis (SSc) is an autoimmune connective tissue disease characterized by autoantibodies, fibrosis and microvascular injury and endothelial cell activation that results in vascular damage. Vascular injury induces both innate and acquired immune responses resulting in fibroblast activation and organ fibrosis. SSc may target multiple organs, including: skin, lungs, heart, vascularization, kidneys, the gastrointestinal tract and musculoskeletal structures. Mortality among scleroderma pat",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "硬皮症（最常見 PAH 繼發原因）的實用臨床試驗，Apixaban 為研究藥物之一，間接涉及 PH 適應症"
+            }
+          },
+          {
+            "nct_id": "NCT06370273",
+            "title": "Thromboprophylaxis in Lower Limb Immobilisation (TiLLI): a Multicentre Study Comprising Two Linked Open Label Phase III Randomised Controlled Trials Evaluating the Effectiveness and Cost Effectiveness of Different Methods of Pharmacological Prophylaxis for Patients With Temporary Lower Limb Immobilisation.",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 10044,
+            "start_date": "2024-11-12",
+            "completion_date": "2028-08-31",
+            "brief_summary": "The goal of this clinical trial is to find out the clinical and cost effectiveness of Thromboprophylaxis in participants who have been placed in a plaster cast or splint after injury.\n\nThe main questions it aims to answer are:\n\n* whether giving tablets to people at high risks of clots after a leg injury is as good as injections (standard care)\n* whether giving any medication after a leg injury is better than standard care (advice only) for people at low risk of clots.\n\nParticipants will be asses",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "VTE 預防研究，與 PH 無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT04234698",
+            "title": "Patient Characteristics, Treatment Patterns and Incidence of Events (Discontinuation, Persistence, Key Primary Clinical Outcomes) in NVAF Patients Initiating OAC Therapy in Colombia",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2076,
+            "start_date": "2021-03-22",
+            "completion_date": "2021-10-31",
+            "brief_summary": "The study aim to assess demographic and clinical characteristics , treatment patterns and as exploratory analysis will descriptively assess the time to clinical events of NVAF patients treated with oral anticoagulants (OACs) in Colombia through observational, descriptive study of a retrospective cohort of adult patients diagnosed with NVAF in selected Health Maintenance Organizations (HMO) of Colombia. The information will be used in the study comes exclusively form secondary sources: claim data",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02706080",
+            "title": "Registry of Patient With Antithrombotic Agents Admitted to an Emergency",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 10,
+            "start_date": "2014-01",
+            "completion_date": "2024-02",
+            "brief_summary": "Antithrombotics with antiplatelet agents, vitamin K antagonist (VKA), heparin and related substances, and new oral anticoagulants are prescribed for arterial diseases, especially in secondary prevention of embolic disease in carrier patients of heart valves and in patients with fibrillation atrial, and venous diseases, in prevention and treatment.\n\nThe prescription of these treatments is increasing especially in older patients associated with many comorbidities. Today, an estimated number of 900",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38033089",
+            "title": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+            "authors": [
+              "Joglar José A",
+              "Chung Mina K",
+              "Armbruster Anastasia L",
+              "Benjamin Emelia J",
+              "Chyou Janice Y"
+            ],
+            "journal": "Circulation",
+            "year": "2024",
+            "abstract": "The \"2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation\" provides recommendations to guide clinicians in the treatment of patients with atrial fibrillation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38043043",
+            "title": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+            "authors": [
+              "Joglar José A",
+              "Chung Mina K",
+              "Armbruster Anastasia L",
+              "Benjamin Emelia J"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2024",
+            "abstract": "The \"2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Patients With Atrial Fibrillation\" provides recommendations to guide clinicians in the treatment of patients with atrial fibrillation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40023651",
+            "title": "Extended treatment of venous thromboembolism with reduced-dose versus full-dose direct oral anticoagulants in patients at high risk of recurrence: a non-inferiority, multicentre, randomised, open-label, blinded endpoint trial.",
+            "authors": [
+              "Couturaud Francis",
+              "Schmidt Jeannot",
+              "Sanchez Olivier",
+              "Ballerie Alice",
+              "Sevestre Marie-Antoinette"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2025",
+            "abstract": "In patients with venous thromboembolism at high risk of recurrence for whom extended treatment with direct oral anticoagulants has been indicated, the optimal dose is unknown. We aimed to assess efficacy and safety of reduced-dose versus full-dose direct oral anticoagulants in patients in whom extended anticoagulation has been indicated.",
+            "classification": {
+              "study_type": "RCT / Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36335915",
+            "title": "A Randomized Controlled Trial Comparing Apixaban With the Vitamin K Antagonist Phenprocoumon in Patients on Chronic Hemodialysis: The AXADIA-AFNET 8 Study.",
+            "authors": [
+              "Reinecke Holger",
+              "Engelbertz Christiane",
+              "Bauersachs Rupert",
+              "Breithardt Günter",
+              "Echterhoff Hans-Herbert"
+            ],
+            "journal": "Circulation",
+            "year": "2023",
+            "abstract": "Non-vitamin K oral anticoagulants have become the standard therapy for preventing stroke and ischemic thromboembolism in most patients with atrial fibrillation (AF). The effectiveness and safety of non-vitamin K oral anticoagulants in patients on hemodialysis is not well known.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36035947",
+            "title": "Effects of oral anticoagulant therapy in patients with pulmonary diseases.",
+            "authors": [
+              "Lai Jiying",
+              "Feng Shenghui",
+              "Xu Shuo",
+              "Liu Xin"
+            ],
+            "journal": "Frontiers in cardiovascular medicine",
+            "year": "2022",
+            "abstract": "To evaluate the effect of oral anticoagulants (OACs) therapy, including vitamin K antagonist (VKA) and direct oral anticoagulants (DOAC) in patients with pulmonary diseases.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38910594",
+            "title": "Is anticoagulative therapy in systemic sclerosis to be reconsidered?",
+            "authors": [
+              "Marongiu Francesco",
+              "Ruberto Maria Filomena",
+              "Barcellona Doris"
+            ],
+            "journal": "Journal of scleroderma and related disorders",
+            "year": "2024",
+            "abstract": "Systemic sclerosis is a rare disease with a high mortality rate. It is a multisystem connective tissue disease due to endothelial autoimmune activation along with tissue and vascular fibrosis, inducing vasculopathy, with an angiogenesis wasting. The endothelial damage provokes platelet activation and immune cell adhesion. The detachment of endothelial cells leads to the interaction of platelets and collagen present in the exposed subendothelial layer. This provokes the activation of several coag",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35648447",
+            "title": "Trousseau Syndrome in a 25-Year-Old Woman with Occult Colon Malignancy, Lynch Syndrome, and Chronic Thromboembolic Pulmonary Hypertension.",
+            "authors": [
+              "Matthews Caleb R",
+              "Madison Mackenzie",
+              "Zhang Chen",
+              "Waters Joshua",
+              "Garcia Jose P"
+            ],
+            "journal": "Texas Heart Institute journal",
+            "year": "2022",
+            "abstract": "We present a rare case of thrombosis associated with an occult colon malignancy (Trousseau syndrome) in a 25-year-old woman who also presented with previously unidentified Lynch syndrome and acute-on-chronic thromboembolic pulmonary hypertension. Staged treatment included bilateral pulmonary endarterectomy under deep hypothermic circulatory arrest, followed 11 days later by laparoscopic subtotal colectomy and creation of a primary anastomosis. The patient tolerated both procedures well and recov",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27932335",
+            "title": "Multicentre randomised placebo-controlled trial of oral anticoagulation with apixaban in systemic sclerosis-related pulmonary arterial hypertension: the SPHInX study protocol.",
+            "authors": [
+              "Calderone Alicia",
+              "Stevens Wendy",
+              "Prior David",
+              "Nandurkar Harshal",
+              "Gabbay Eli"
+            ],
+            "journal": "BMJ open",
+            "year": "2016",
+            "abstract": "Systemic sclerosis (SSc) is a severe and costly multiorgan autoimmune connective tissue disease characterised by vasculopathy and fibrosis. One of the major causes of SSc-related death is pulmonary arterial hypertension (PAH), which develops in 12-15% of patients with SSc and accounts for 30-40% of deaths. In situ thrombosis in the small calibre peripheral pulmonary vessels resulting from endothelial dysfunction and an imbalance of anticoagulant and prothrombotic mediators has been implicated in",
+            "classification": {
+              "study_type": "RCT (Phase 2)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40959672",
+            "title": "Resolution of Ascending Aorta and Pulmonary Vein Thrombi With Apixaban Therapy: A Case Study.",
+            "authors": [
+              "Takeuchi Hidekazu"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "This study aimed to investigate ascending aorta (AAo) thrombi and the effects of apixaban using transesophageal echocardiography (TEE) and cardiac computed tomography (CT).",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24875390",
+            "title": "Treatment of patients with acute deep vein thrombosis and/or pulmonary embolism: efficacy and safety of non-VKA oral anticoagulants in selected populations.",
+            "authors": [
+              "Prandoni Paolo"
+            ],
+            "journal": "Thrombosis research",
+            "year": "2014",
+            "abstract": "Venous thromboembolism (VTE), comprising deep vein thrombosis (DVT) and pulmonary embolism (PE), presents a large clinical burden. Prompt, effective and sustained anticoagulation is vital because of the risk of recurrent events, including life-threatening PE, and complications such as post-thrombotic syndrome and chronic thromboembolic pulmonary hypertension. Dual-drug standard therapy is effective; however, parenteral low molecular weight heparin, coupled with routine coagulation monitoring and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24182642",
+            "title": "Managing pulmonary embolism from presentation to extended treatment.",
+            "authors": [
+              "Cohen Alexander T",
+              "Dobromirski Mark",
+              "Gurwith Meredith M P"
+            ],
+            "journal": "Thrombosis research",
+            "year": "2014",
+            "abstract": "Pulmonary embolism (PE) remains a major healthcare problem. PE presents with a variety of non-specific symptoms, and confirmation of diagnosis involves the use of clinical risk scores, scanning techniques and laboratory tests. Treatment choice is informed by the risk of sudden death, with high-risk patients recommended to receive thrombolytic therapy or thrombectomy. Patients with less severe presentations are given anticoagulant therapy, traditionally with parenteral heparins in the acute phase",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25033002",
+            "title": "Anticoagulation: choosing the optimal anticoagulant.",
+            "authors": [
+              "Hawes Emily M",
+              "Viera Anthony J"
+            ],
+            "journal": "FP essentials",
+            "year": "2014",
+            "abstract": "The risks of bleeding and thrombosis should be considered in decisions on whether to initiate anticoagulation therapy. Oral anticoagulation is indicated for patients with nonvalvular atrial fibrillation who are at intermediate or high risk of stroke (CHADS2 [Congestive heart failure, Hypertension, Age at least 75 years, Diabetes, previous Stroke or transient ischemic attack] score of 1 or higher). Apixaban, dabigatran, rivaroxaban, or warfarin can be considered for the prevention of stroke and s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30345825",
+            "title": "Update on extended treatment for venous thromboembolism.",
+            "authors": [
+              "Peñaloza-Martínez Eduardo",
+              "Demelo-Rodríguez Pablo",
+              "Proietti Marco",
+              "Soria Fernández-Llamazares Guillermo",
+              "Llamazares-Mendo Cristina"
+            ],
+            "journal": "Annals of medicine",
+            "year": "2018",
+            "abstract": "The importance of assessing the probability of venous thromboembolism recurrence, a condition that includes deep vein thrombosis and pulmonary embolism, lies in the fact that it is the most important factor in deciding the duration of anticoagulant treatment. Risk of recurrence depends mostly on the presence of a risk factor for developing venous thromboembolism, with patients with unprovoked events being at the higher risk of recurrence. The risk of recurrence needs to be balanced with the risk",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29791520",
+            "title": "Use of direct oral anticoagulants for chronic thromboembolic pulmonary hypertension.",
+            "authors": [
+              "Gavilanes-Oleas Francisca Alexandra",
+              "Alves Jose Leonidas",
+              "Fernandes Caio Julio Cesar",
+              "Prada Luis Felipe Lopes",
+              "Salibe Filho William"
+            ],
+            "journal": "Clinics (Sao Paulo, Brazil)",
+            "year": "2018",
+            "abstract": "Chronic thromboembolic pulmonary hypertension is one of the most prevalent forms of pulmonary hypertension and is a major complication of acute pulmonary embolism. One mainstay of chronic thromboembolic pulmonary hypertension treatment is lifelong anticoagulation. The recent advent of direct oral anticoagulants for acute pulmonary embolism treatment has provided a viable and effective alternative for treating this condition. However, little is known about the efficacy of this new class of drugs ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38045860",
+            "title": "Prescribing patterns in patients with chronic obstructive pulmonary disease and atrial fibrillation.",
+            "authors": [
+              "Liao Kuang-Ming",
+              "Chen Pei-Jun",
+              "Chen Chung-Yu"
+            ],
+            "journal": "Open medicine (Warsaw, Poland)",
+            "year": "2023",
+            "abstract": "Patients with chronic obstructive pulmonary disease (COPD) had higher risk of atrial fibrillation (AF). The treatment of AF includes medicines to control heart rate and reduce the risk of stroke, and procedures such as cardioversion to restore normal heart rhythm. To reduce the stroke, patients with AF may prescribe some type of antithrombotic medication (such as warfarin, one of the new non-vitamin K antagonist oral anticoagulants [NOACs] - dabigitran, apixaban, rivoraxaban, or edoxaban) or may",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39398803",
+            "title": "Adult-Onset Still's Disease and Pulmonary Embolism: A Case Report.",
+            "authors": [
+              "Alotaibie May A",
+              "Alqahtani Mohammed",
+              "Rajendram Siraj"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Adult-onset Still's disease (AOSD) is a rare systemic inflammatory disorder characterized by fever, rash, arthralgia, and systemic inflammation. Pulmonary embolism (PE), a potentially life-threatening complication, is infrequently associated with AOSD. This report presents a unique case that highlights the importance of considering atypical presentations of PE in this patient population despite the absence of classical risk factors. An 84-year-old male with hypertension, benign prostatic hypertr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36833871",
+            "title": "Economic Evaluation of Direct Oral Anticoagulants Compared to Warfarin for Venous Thromboembolism in Thailand: A Cost-Utility Analysis.",
+            "authors": [
+              "Niyomsri Siwaporn",
+              "Nimworapan Mantiwee",
+              "Wongcharoen Wanwarang",
+              "Dilokthornsakul Piyameth"
+            ],
+            "journal": "International journal of environmental research and public health",
+            "year": "2023",
+            "abstract": "Direct oral anticoagulants (DOACs) have been used for venous thromboembolism (VTE) in Thailand. However, they have not been listed in the National List of Essential Medicines (NLEM). A cost-effectiveness analysis is needed to aid policymakers in deciding whether DOACs should be listed in the NLEM. This study aimed to assess the cost-effectiveness of DOACs for patients with VTE in Thailand.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26851983",
+            "title": "First data from Latvian chronic thromboembolic pulmonary hypertension registry.",
+            "authors": [
+              "Skride Andris",
+              "Sablinskis Kristaps",
+              "Rudzitis Ainars",
+              "Lesina Krista",
+              "Lejnieks Aivars"
+            ],
+            "journal": "European journal of internal medicine",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39468095",
+            "title": "Monitoring anti-factor Xa activity in patients with chronic thromboembolic pulmonary hypertension treated with factor Xa inhibitors.",
+            "authors": [
+              "Nakano Yoshihisa",
+              "Adachi Shiro",
+              "Hirose Miku",
+              "Adachi Takeshi",
+              "Nishiyama Itsumure"
+            ],
+            "journal": "Scientific reports",
+            "year": "2024",
+            "abstract": "Direct oral anticoagulants (DOACs) have been used clinically in patients with chronic thromboembolic pulmonary hypertension (CTEPH) for secondary prevention after acute venous thromboembolism, although the data are limited. We evaluated the effects of DOACs-especially factor Xa (FXa) inhibitors-by measuring anti-factor Xa activity (AXA). Fifty consecutive CTEPH patients treated with rivaroxaban, apixaban, or edoxaban were enrolled. Heparin-calibrated AXA was measured at peak and trough. The medi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺動脈高壓（尤其硬皮症相關和 CTEPH）涉及肺小血管原位血栓形成、內皮細胞功能障礙及血管重塑。FXa 除凝血功能外，尚可透過 PAR-1/PAR-2 直接影響肺血管平滑肌增殖和內皮功能。硬皮症相關 PAH 患者有抗磷脂抗體傾向，支持抗凝治療。注意：RCT PMID 27932335 未達顯著效益；現行 ESC/ERS 指引已不建議 PAH 常規抗凝。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9799817204475404,
+        "rank": 17036
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見遺傳性發育症候群，涉及眼球發育不全與肢端骨骼異常，由 STRA6 等基因突變導致。與 FXa 抑制機轉無任何生物學交集，無臨床或前臨床數據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9787427186965942,
+        "rank": 17611
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱後側彎相關心臟病（限制性心肺疾病繼發的心臟併發症），雖然嚴重患者可能繼發肺心病和 VTE 風險升高，但無針對此特定疾病實體的 Apixaban 再利用研究。若有 VTE 適應症則屬標準使用，非再利用範疇。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Apixaban",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

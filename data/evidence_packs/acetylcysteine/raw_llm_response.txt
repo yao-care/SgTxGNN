@@ -1,0 +1,347 @@
+```json
+{
+  "drug": "Acetylcysteine",
+  "drugbank_id": "DB06151",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "原始適應症空白、MOA 欄位為 [Data Gap]；惟 Acetylcysteine 為全球廣泛上市藥物（黏液溶解劑 / GSH 前驅物 / 解毒劑），機轉為已知事實，以下分析以此為基礎。'closed-angle glaucoma' 與 'angle-closure glaucoma' 為同一疾病之不同命名，已分別評估並於備註說明。",
+  "indications": [
+    {
+      "disease_name": "thrombotic disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "NAC 透過裂解 ULVWF（超大型 von Willebrand 因子）多聚體的雙硫鍵，抑制病理性血小板聚集與微血栓形成；同時作為 GSH 前驅物補充抗氧化能力，減少內皮細胞氧化損傷。此機轉對 TA-TMA（移植相關血栓性微血管病）及 TTP（血栓性血小板減少性紫癜）具有直接藥理學基礎，動物模型（PMID 28011677）已在鼠及狒狒模型驗證。⚠️ L1 等級證據明確對應 TA-TMA 亞型（NCT03252925 Phase 3 完成），廣義「thrombotic disease」需審慎外推至其他亞型。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03252925",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，已完成，170 名 TA-TMA 患者，直接評估 NAC 安全性與療效，為本清單最高等級直接臨床證據，構成 L1 評分主要依據"
+        },
+        {
+          "nct_id": "NCT07279610",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3，積極進行中（44 名 TA-TMA 患者），與 NCT03252925 同適應症，持續補充 L1/L2 等級證據"
+        },
+        {
+          "nct_id": "NCT05907486",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3（260 名患者），評估 NAC 預防異體造血幹細胞移植後血栓事件，樣本量最大，狀態不明需追蹤；完成後將強化 L1 證據基礎"
+        },
+        {
+          "nct_id": "NCT03636932",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，已完成（RENACTIF，40 名腎功能不全患者），隨機對照設計評估 NAC 對血栓表型的影響，直接相關且設計嚴謹"
+        },
+        {
+          "nct_id": "NCT03460808",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2（200 名患者，狀態不明），NAC 為三藥組合之一（＋Atorvastatin＋Danazol），主要適應症為 ITP；與血栓性疾病機轉相關，但無法獨立評估 NAC 貢獻"
+        },
+        {
+          "nct_id": "NCT04368598",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2（44 名新診斷 ITP 患者，狀態不明），NAC 與高劑量地塞米松聯合使用，ITP 屬血小板相關疾病，與血栓性疾病間接相關"
+        },
+        {
+          "nct_id": "NCT01808521",
+          "relevance_grade": "B",
+          "reasoning": "Early Phase 1 先導研究，已完成，僅 3 名 TTP 患者，適應症直接相關，惟樣本量極小僅供初步可行性參考"
+        },
+        {
+          "nct_id": "NCT05551624",
+          "relevance_grade": "C",
+          "reasoning": "Early Phase 1（15 名 PRP 患者，已完成），評估 Atorvastatin＋NAC 對血小板計數影響，樣本極小且為組合藥物，證據效力低"
+        },
+        {
+          "nct_id": "NCT06518044",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2（30 名重症再生障礙性貧血患者，未開始招募），評估 NAC 促進造血恢復，與血栓性疾病屬間接相關，結果尚待觀察"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "37311880", "study_type": "Retrospective Cohort", "tier": "2"},
+        {"pmid": "33540569", "study_type": "Review", "tier": "2"},
+        {"pmid": "28645643", "study_type": "Review/Guideline", "tier": "2"},
+        {"pmid": "32243196", "study_type": "Review (Drug Repurposing)", "tier": "2"},
+        {"pmid": "28416507", "study_type": "Review", "tier": "2"},
+        {"pmid": "28382967", "study_type": "Review", "tier": "2"},
+        {"pmid": "28011677", "study_type": "Animal Study (Mouse/Baboon)", "tier": "3"},
+        {"pmid": "36410267", "study_type": "Review (COVID-19，間接)", "tier": "3"},
+        {"pmid": "39742223", "study_type": "Review (心血管/停經，間接)", "tier": "3"},
+        {"pmid": "30324814", "study_type": "Review (CKD/PCI，間接)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "dry eye syndrome",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Chitosan-NAC 共軛物（Lacrimera®）透過 chitosan 的黏附性延長眼表面藥物停留時間；NAC 的黏液溶解活性改善淚液薄膜穩定性及黏蛋白層品質；其抗氧化（GSH 前驅）作用保護角膜上皮免受 ROS 損傷（亦見於 Fuchs 角膜內皮失養症研究 NCT04440280）。近期 2024 年 RCT（PMID 39360368）在 Sjögren's 乾眼症中驗證療效。⚠️ 注意：現有臨床證據主要針對 Chitosan-NAC 結合製劑，非游離 NAC，製劑差異應納入臨床決策考量。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01015209",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，已完成（30 名受試者），Chitosan-NAC 眼藥水安全性與耐受性奠基研究"
+        },
+        {
+          "nct_id": "NCT01278784",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，已完成（24 名健康受試者），Chitosan-NAC 局部耐受性確認，提供監管安全資料"
+        },
+        {
+          "nct_id": "NCT01747616",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，已完成（48 名隱形眼鏡使用者），擴大安全性族群，支持廣泛臨床應用"
+        },
+        {
+          "nct_id": "NCT01753752",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，已完成（32 名乾眼症患者），直接評估 Chitosan-NAC 角膜停留時間與療效前期指標，核心療效數據"
+        },
+        {
+          "nct_id": "NCT04793646",
+          "relevance_grade": "A",
+          "reasoning": "前瞻性隨機雙盲對照研究，已完成（60 名患者），直接評估 NAC 治療乾眼症療效，最高相關性之完成試驗"
+        },
+        {
+          "nct_id": "NCT04440280",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，招募中（45 名 Fuchs 角膜內皮失養症患者），以 ROS 為治療靶點，機轉與乾眼症高度重疊，但為不同適應症"
+        },
+        {
+          "nct_id": "NCT06095258",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2（162 名患者，狀態不明），中醫組合治療乾眼症，NAC 為組合成分之一，無法獨立評估 NAC 效果"
+        },
+        {
+          "nct_id": "NCT05053789",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase（48 名患者），Lacrimera® 中重度乾眼症治療方案評估，已終止，缺乏完整結果，證據效力受限"
+        },
+        {
+          "nct_id": "NCT05049629",
+          "relevance_grade": "C",
+          "reasoning": "NA Phase（30 名患者，已終止），評估 Lacrimera® 對 IOL 度數精確性的影響，研究目的與乾眼症療效僅間接相關"
+        },
+        {
+          "nct_id": "NCT01424033",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3（5 名患者，已終止），CTD-ILD 口服治療，適應症與乾眼症差距大，樣本量極小且終止，不納入主要證據"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "39360368", "study_type": "RCT (Sjögren's 乾眼，2024)", "tier": "1"},
+        {"pmid": "28441068", "study_type": "RCT (Chitosan-NAC，2017)", "tier": "1"},
+        {"pmid": "39450216", "study_type": "Review (NAC Clinical Applications)", "tier": "2"},
+        {"pmid": "37797590", "study_type": "Clinical Observational", "tier": "2"},
+        {"pmid": "32124131", "study_type": "Cohort/Observational (Lacrimera®)", "tier": "2"},
+        {"pmid": "16334742", "study_type": "Comparative Trial (小型)", "tier": "2"},
+        {"pmid": "39842600", "study_type": "Formulation Study (NAC-NLC)", "tier": "3"},
+        {"pmid": "39359484", "study_type": "Formulation Study", "tier": "3"},
+        {"pmid": "4599197", "study_type": "Case Series (1973，歷史參考)", "tier": "3"},
+        {"pmid": "3898475", "study_type": "Clinical Study (1985，歷史參考)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "pharyngitis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "NAC 對咽炎的潛在機轉包含：(1) 黏液溶解作用降低咽部分泌物黏度；(2) 透過巰基（thiol）破壞細菌生物膜（PMID 25535147 扁桃體生物膜體外研究）；(3) 抗炎作用抑制 NF-κB 降低局部炎症。術後咽喉疼痛的臨床應用（PMID 24258468）提供間接臨床佐證。一項 Phase 3 RCT（NCT06379542，252 名患者）正在招募，完成後將升至 L1 等級；現階段應密切追蹤該試驗結果。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06379542",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，雙盲、安慰劑對照、多中心，正在招募（252 名患者），直接評估 NAC 對咽炎的療效與安全性；試驗完成後將提供 L1 等級直接證據，為本適應症最關鍵試驗"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "25085034", "study_type": "Systematic Review (術後咽痛，間接)", "tier": "2"},
+        {"pmid": "18831930", "study_type": "Clinical Trial (兒童急性鼻咽炎)", "tier": "2"},
+        {"pmid": "24258468", "study_type": "Clinical Trial (術後咽痛，間接)", "tier": "2"},
+        {"pmid": "19505384", "study_type": "Clinical Study (兒童慢性上呼吸道感染)", "tier": "2"},
+        {"pmid": "25535147", "study_type": "Ex Vivo Study (扁桃體生物膜)", "tier": "3"},
+        {"pmid": "5478914", "study_type": "Case Report (1970，歷史參考)", "tier": "3"},
+        {"pmid": "5515424", "study_type": "Case Series (1970，歷史參考)", "tier": "3"},
+        {"pmid": "23880443", "study_type": "Case Report (不相關)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "tracheal disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "NAC 作為黏液溶解劑，裂解氣道分泌物中黏蛋白的雙硫鍵，降低痰液黏度，改善黏液纖毛清除效率（PMID 23113953 體外模型）；同時補充 GSH 儲備提供抗氧化保護，對吸入性損傷（硫芥子氣，PMID 25055840）及矽肺（PMID 35878501）動物模型有緩解效果。NCT02159196 為最相關試驗（950 名機械通氣患者），惟 NAC 僅為霧化黏液溶解劑之一，缺乏單藥直接對照設計。現有文獻以動物及體外研究為主，臨床試驗相關性偏低。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02159196",
+          "relevance_grade": "B",
+          "reasoning": "大型試驗（950 名機械通氣患者，已完成），評估常規霧化黏液溶解劑及支氣管擴張劑療效，NAC 為評估藥物之一，與氣管疾病直接相關，但非單藥試驗"
+        },
+        {
+          "nct_id": "NCT02982876",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA（50 名患者，已完成），評估氣道支架用於過度動態氣道塌陷，為器械干預研究，NAC 角色不明確，相關性低"
+        },
+        {
+          "nct_id": "NCT02718079",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA（40 名急性肝衰竭患者），主要評估血漿交換，NAC 可能作為護肝輔助，與氣管疾病關聯性極弱"
+        },
+        {
+          "nct_id": "NCT04569851",
+          "relevance_grade": "C",
+          "reasoning": "COVID-19 大數據預後因子分析（100,000 名患者，觀察性），NAC 非主要研究藥物，氣管疾病相關性係間接推斷"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "25055840", "study_type": "Clinical Review (硫芥子氣肺損傷)", "tier": "2"},
+        {"pmid": "10576438", "study_type": "Review (Mucolytics)", "tier": "2"},
+        {"pmid": "40094443", "study_type": "Animal Study (過敏性哮喘)", "tier": "3"},
+        {"pmid": "23113953", "study_type": "In Vitro Study (MUC5AC/纖毛)", "tier": "3"},
+        {"pmid": "35272139", "study_type": "Ex Vivo Study (COVID-19 氣管抽吸物)", "tier": "3"},
+        {"pmid": "35878501", "study_type": "Animal Study (矽肺)", "tier": "3"},
+        {"pmid": "35624744", "study_type": "Animal Study (LPS 呼吸道炎症)", "tier": "3"},
+        {"pmid": "40195407", "study_type": "In Vitro Study (SARS-CoV-2 Omicron)", "tier": "3"},
+        {"pmid": "25300685", "study_type": "Animal Study (胎糞吸入)", "tier": "3"},
+        {"pmid": "1606395", "study_type": "Case Series (1992，嬰兒慢性肺病)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "NAC 黏液溶解機制（裂解黏蛋白雙硫鍵）可降低鼻腔及鼻竇分泌物黏度，改善黏膜纖毛清除功能；局部抗氧化作用可緩解炎症性黏膜損傷。1970-1990 年代文獻記錄 NAC 用於 Proetz 鼻竇沖洗（PMID 664410）及鼻阻力降低（PMID 8740084），提供早期概念驗證，惟研究設計陳舊，缺乏現代 RCT 驗證。建議以現代方法重新評估，特別是慢性鼻竇炎或黏液纖毛運動障礙亞族群。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "36107185", "study_type": "Review (鼻腔局部治療，2022)", "tier": "2"},
+        {"pmid": "8740084", "study_type": "Small RCT (鼻阻力，1996)", "tier": "2"},
+        {"pmid": "664410", "study_type": "Case Series (Proetz 沖洗，1978)", "tier": "3"},
+        {"pmid": "29440671", "study_type": "Basic Science (黏膜纖毛/IgA)", "tier": "3"},
+        {"pmid": "8631012", "study_type": "Animal Study (肺腫瘤預防，間接)", "tier": "3"},
+        {"pmid": "7861299", "study_type": "Safety Study (最大允許濃度，1994)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "transient ischemic attack (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NAC 的神經保護潛在機轉：(1) 補充 GSH 抵抗缺血再灌注 ROS 損傷；(2) 抑制 MMP（基質金屬蛋白酶）減少血腦障壁破壞（PMID 31722253）；(3) 抑制 TRPM2 通道減少神經細胞死亡（PMID 32825703）；(4) 抑制 NF-κB 減少缺血後炎症。所有支持文獻均為動物缺血模型（鼠），尚無人體臨床試驗直接測試 NAC 用於 TIA 或腦缺血。現階段不建議臨床應用，需先完成概念驗證臨床研究（PoC）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "32825703", "study_type": "Animal Study (TRPM2/腦缺血)", "tier": "3"},
+        {"pmid": "31722253", "study_type": "Animal Study (MMP/腦缺血)", "tier": "3"},
+        {"pmid": "15114624", "study_type": "Animal Study (局部腦缺血)", "tier": "3"},
+        {"pmid": "25350110", "study_type": "Animal Study (EAAC1/腦缺血)", "tier": "3"},
+        {"pmid": "21084597", "study_type": "Animal Study (EAAC1/鋅/腦缺血)", "tier": "3"},
+        {"pmid": "21865497", "study_type": "Animal Study (遠端後處理/再灌注)", "tier": "3"},
+        {"pmid": "37776659", "study_type": "Case Series (兒童腦血管疾病)", "tier": "3"},
+        {"pmid": "18626887", "study_type": "Review (藥物引起粒線體損傷，間接)", "tier": "3"},
+        {"pmid": "10884474", "study_type": "Animal Study (蛋白酶體抑制/梗塞，間接)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "closed-angle glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉文獻支持。理論上 NAC 的抗氧化活性可能保護小梁網（trabecular meshwork）免受氧化壓力累積性損傷，間接改善房水引流；然此假說尚未有任何臨床或動物模型研究驗證。TxGNN 高預測分數（0.9995）完全源自知識圖譜拓撲推斷，非臨床事實。⚠️ 此疾病與清單中「angle-closure glaucoma」為相同疾病的不同 ICD 術語，應合併為單一適應症評估，避免資源重複投入。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉層面與咽炎（本清單中已評估）高度重疊，包含黏液溶解、抗生物膜及抗炎活性；急性期亦可能受益於 NAC 的抗氧化保護。然而，目前無任何針對急性喉咽炎的臨床試驗或文獻。現行急性喉咽炎治療標準（支持性療法、必要時抗生素）已足夠，NAC 的再利用優先級應低於咽炎。建議待 NCT06379542（咽炎 Phase 3）完成後，評估是否延伸研究至急性喉咽炎亞型。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "laryngotracheitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NAC 黏液溶解特性理論上可稀化喉氣管炎（哮吼，croup）時的氣道分泌物，然而哮吼標準治療（吸入型腎上腺素、全身性糖皮質激素）療效確立，NAC 的附加價值不明。目前無任何臨床試驗或文獻支持此適應症。TxGNN 預測（0.9934）完全基於模型推斷，缺乏臨床依據。建議從基礎研究（兒童氣道分泌物體外模型）開始驗證，再考量臨床試驗設計。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "angle-closure glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與「closed-angle glaucoma」為相同疾病之同義命名（ICD-10 術語差異：H40.2x vs. H40.0x 分類細分），評估結果與該條目完全相同。建議在資料管理層面合併此兩適應症，以 angle-closure glaucoma（更通用術語）為主，避免重複計算 TxGNN 預測分數。目前仍屬 L5 等級，無任何臨床或動物模型直接支持 NAC 用於此疾病。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": ["thrombotic disease"],
+      "L2": ["dry eye syndrome"],
+      "L3": ["pharyngitis", "tracheal disease"],
+      "L4": ["nasal cavity disease", "transient ischemic attack (disease)"],
+      "L5": ["closed-angle glaucoma", "acute laryngopharyngitis", "laryngotracheitis", "angle-closure glaucoma"]
+    },
+    "priority_recommendations": [
+      {
+        "rank": 1,
+        "disease": "thrombotic disease (TA-TMA)",
+        "action": "可直接進入 S3 臨床建議階段（TA-TMA 亞型）；追蹤 NCT05907486 及 NCT07279610 結果以強化廣義血栓性疾病的適應症範疇"
+      },
+      {
+        "rank": 2,
+        "disease": "dry eye syndrome",
+        "action": "進入 S2 臨床可行性評估；需確認 Chitosan-NAC 製劑（Lacrimera®）的在地可及性；可考慮直接觀察性研究"
+      },
+      {
+        "rank": 3,
+        "disease": "pharyngitis",
+        "action": "密切追蹤 NCT06379542 Phase 3 結果（完成後升至 L1/S3）；現階段以 Research Question 狀態進行文獻監測"
+      },
+      {
+        "rank": 4,
+        "disease": "tracheal disease",
+        "action": "黏液溶解機轉清楚，但需設計單藥直接對照試驗；建議先發起系統性回顧統整現有間接證據"
+      }
+    ],
+    "data_quality_flags": [
+      "多個試驗狀態為 UNKNOWN，需至 ClinicalTrials.gov 確認最新狀態",
+      "'closed-angle glaucoma' 與 'angle-closure glaucoma' 為重複適應症，建議資料清洗時合併",
+      "原始 MOA 欄位為 [Data Gap]，已根據藥物已知藥理補全；正式分析應從 DrugBank DB06151 擷取正式 MOA",
+      "dry eye syndrome 主要證據來自 Chitosan-NAC 結合製劑，非游離 NAC，評估時應區分製劑"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| thrombotic disease | **L1** ⭐ | S3 | Proceed with Guardrails |
+| dry eye syndrome | **L2** | S2 | Proceed with Guardrails |
+| pharyngitis | L3 | S2 | Research Question |
+| tracheal disease | L3 | S1 | Research Question |
+| nasal cavity disease | L4 | S1 | Research Question |
+| transient ischemic attack | L4 | S0 | Hold |
+| closed-angle glaucoma | L5 | S0 | Hold |
+| acute laryngopharyngitis | L5 | S0 | Hold |
+| laryngotracheitis | L5 | S0 | Hold |
+| angle-closure glaucoma | L5 | S0 | Hold |
+
+### 關鍵發現
+
+1. **血栓性疾病（TA-TMA）** 是最強適應症——NCT03252925 Phase 3 已完成（170 名患者），機轉清楚（ULVWF 雙硫鍵裂解），多個後續 Phase 3 試驗正在進行，達 L1/S3 標準。
+
+2. **乾眼症** 具備完整的 Phase 1→2 發展路徑及 2 篇已發表 RCT（PMID 28441068、39360368），但需注意主要製劑為 Chitosan-NAC 結合物（非游離 NAC）。
+
+3. **咽炎** 具有一項關鍵 Phase 3 RCT 正在招募（NCT06379542），完成後可能直接升至 L1，值得優先追蹤。
+
+4. **閉角型青光眼重複計算**：`closed-angle glaucoma` 與 `angle-closure glaucoma` 為同一疾病，建議進行資料清洗合併，以免扭曲適應症優先順序排名。

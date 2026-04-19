@@ -1,0 +1,3717 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00065-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Infliximab",
+    "drugbank_id": "DB00065",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9022052884101868,
+        "rank": 34586
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症候群為罕見遺傳發育異常（ALDH18A1/PAX6等基因缺陷），屬結構性發育障礙，與 TNF-α 驅動之炎症路徑無已知直接關聯。TxGNN 高分可能反映圖譜拓撲相似性而非真實生物學機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.8987875580787659,
+        "rank": 34935
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性骨骼發育異常（HOXD/GDF5等基因相關），為胚胎期肢體成形缺陷，非炎症性疾病。TNF-α 阻斷無預期治療作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn": {
+        "score": 0.853222668170929,
+        "rank": 38974
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07138898",
+            "title": "Immunosuppressant Management in Rheumatology Patients Undergoing Elective Total Shoulder Arthroplasty",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-09",
+            "completion_date": "2027-09",
+            "brief_summary": "The purpose of this study is to assess the incidence of rheumatologic flares, changes in pain scores (VAS), changes in functional outcomes (PROMIS), wound complications, surgical site infections, and return trips to the operating room for rheumatology patients following shoulder replacements, comparing those who stop their immunosuppressants preoperatively for the same amount of time as suggested in the literature for hip and knee arthroplasty versus those who hold the medications for a shorter ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "聚焦手術前免疫抑制劑管理，與血管炎治療無直接相關性"
+            }
+          },
+          {
+            "nct_id": "NCT05696106",
+            "title": "Risk of Incident Immune-mediated Inflammatory Diseases (IMID) in Patients Treated With Biologics and Immunosuppressive Drugs for a Single IMID",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 750000,
+            "start_date": "2023-04-02",
+            "completion_date": "2024-01-15",
+            "brief_summary": "Individuals with immune-mediated inflammatory diseases (IMIDs) are at increased risk of developing other IMIDs, possibly through shared pathogenic inflammatory pathways, and up to 25% of patients with IMIDs have at least one other IMID. Additionally, a concomitant diagnosis of a second IMID is associated with a higher burden of disease, which usually requires therapeutic escalation. Thus, this risk should be taken into account in the benefit-risk balance of IMIDs-related treatment. While the ris",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型真實世界研究（N=750,000），追蹤生物製劑使用者發生免疫介導炎症疾病（IMID）風險，可提供血管炎事件發生率的間接佐證，但非治療性試驗"
+            }
+          },
+          {
+            "nct_id": "NCT02590562",
+            "title": "A Multi-center Cross-sectional Study on Treatment Patterns and Patient Characteristics in Rheumatoid Arthritis (RA) Patients Treated by Biological DMARDs in China",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 808,
+            "start_date": "2013-12-31",
+            "completion_date": "2014-08-31",
+            "brief_summary": "This observational study will describe the treatment patterns of usage of biological DMARDs in routine clinical practice and the demographics and RA disease characteristics in patients suffering from rheumatoid arthritis. Patients will be recruited and examined the same day when recruited. There will be no follow up visit or treatment period only one visit in this study.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "橫斷面觀察研究，聚焦 RA 整體治療模式，未針對血管炎亞群設計獨立分析終點"
+            }
+          },
+          {
+            "nct_id": "NCT01579006",
+            "title": "A Multi National, Multi-center Non-interventional Study in Rheumatoid Arthritis (RA) Patients Treated With Tocilizumab (Actemra)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2012-05",
+            "completion_date": "2014-03",
+            "brief_summary": "This multi-center, observational study will evaluate the clinical practice patterns, efficacy and safety of RoActemra/Actemra in patients with rheumatoid arthritis who have had an inadequate response (or were intolerant to) treatment with non-biological DMARDs or with one biological agent. Data will be collected from each eligible patient initiated on RoActemra/Actemra treatment by their treating physician according to approved label for 6 months from start of treatment.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "非介入性多國 RA 研究，小樣本（N=184），無血管炎特定結果指標"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34068884",
+            "title": "Rheumatoid Arthritis Associated Episcleritis and Scleritis: An Update on Treatment Perspectives.",
+            "authors": [
+              "Promelle Veronique",
+              "Goeb Vincent",
+              "Gueudry Julie"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2021",
+            "abstract": "Episcleritis and scleritis are the most common ocular inflammatory manifestation of rheumatoid arthritis. Rheumatoid arthritis (RA) accounts for 8% to 15% of the cases of scleritis, and 2% of patients with RA will develop scleritis. These patients are more likely to present with diffuse or necrotizing forms of scleritis and have an increased risk of ocular complications and refractory scleral inflammation. In this review we provide an overview of diagnosis and management of rheumatoid arthritis-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33058033",
+            "title": "Biological therapy in rheumatoid vasculitis: a systematic review.",
+            "authors": [
+              "de Cerqueira Débora Patrícia Alves",
+              "Pedreira Ana Luisa Souza",
+              "de Cerqueira Marcelo Gomes",
+              "Santiago Mittermayer Barreto"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2021",
+            "abstract": "Rheumatoid vasculitis (RV) is one of the most severe extra-articular manifestations of rheumatoid arthritis, with significant morbidity and mortality, requiring aggressive treatment with corticosteroids and/or immunosuppressants. Recently, biological drugs were included in its therapeutic armamentarium. The objective of this study was to perform a systematic review on the use of biological drugs in the treatment of RV. A systematic literature review was performed based on PRISMA (Preferred Repor",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16966021",
+            "title": "Cutaneous vasculitis: diagnosis and management.",
+            "authors": [
+              "Carlson J Andrew",
+              "Cavaliere L Frank",
+              "Grant-Kels Jane M"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2006",
+            "abstract": "Vasculitis is histologically defined as inflammatory cell infiltration and destruction of blood vessels. Vasculitis is classified as primary (idiopathic, eg, cutaneous leukocytoclastic angiitis, Wegener's granulomatosis) or secondary, a manifestation of connective tissue diseases, infections, adverse drug eruptions, or a paraneoplastic phenomenon. Cutaneous vasculitis, manifested as urticaria, purpura, hemorrhagic vesicles, ulcers, nodules, livedo, infarcts, or digital gangrene, is a frequent an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19951375",
+            "title": "Anti-infliximab IgE and non-IgE antibodies and induction of infusion-related severe anaphylactic reactions.",
+            "authors": [
+              "Vultaggio A",
+              "Matucci A",
+              "Nencini F",
+              "Pratesi S",
+              "Parronchi P"
+            ],
+            "journal": "Allergy",
+            "year": "2010",
+            "abstract": "Infliximab is a chimeric monoclonal antibody against TNF-alpha useful in the treatment of many chronic inflammatory diseases. Severe anaphylaxis has been reported during therapy, although the exact mechanism has not been fully defined. The reactions have been related to the infliximab immunogenicity and development of specific antibodies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40385904",
+            "title": "Infliximab-Induced Vasculitis in a Rheumatoid Arthritis Patient: A Comprehensive Case Report.",
+            "authors": [
+              "Aung Thanda",
+              "Celestin Mia"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Tumor necrosis factor (TNF) inhibitors are widely used biologics in the management of rheumatoid arthritis (RA), but they can occasionally induce paradoxical inflammatory manifestations. We present a case of a 28-year-old female patient with well-controlled rheumatoid arthritis who developed leukocytoclastic vasculitis (LCV) secondary to infliximab therapy. Despite initial treatment with alternative biologics and corticosteroids, her condition required escalation to rituximab therapy. Histopatho",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16078342",
+            "title": "Rheumatoid vasculitis treated with infliximab.",
+            "authors": [
+              "van der Bijl A Egon",
+              "Allaart Cornelia F",
+              "Van Vugt Jeroen",
+              "Van Duinen Sjoerd",
+              "Breedveld Ferdinand C"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2005",
+            "abstract": "We describe a patient with rheumatoid vasculitis (RV) who showed a good response to anti-tumor necrosis factor-a therapy. TNF-a antagonists should be considered as treatment in systemic RV, especially in patients who do not respond to immunosuppressive drugs or who have contraindication for such treatment.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35650123",
+            "title": "Endothelial Damage-dominant Nephritis Related to IgA Vasculitis after 11 Years' Use of Infliximab for Rheumatoid Arthritis.",
+            "authors": [
+              "Fukuda Makoto",
+              "Sawa Naoki",
+              "Ikuma Daisuke",
+              "Oba Yuki",
+              "Mizuno Hiroki"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2023",
+            "abstract": "A 43-year-old Japanese woman with rheumatoid arthritis treated by infliximab and methotrexate for 11 years was admitted for proteinuria and purpura. A kidney biopsy revealed endothelial damage-dominant nephritis with IgA deposition. Infliximab and methotrexate were discontinued, and tocilizumab was started; however, proteinuria persisted. Therefore, tocilizumab was discontinued, and oral prednisolone and methylprednisolone pulse therapy were administered. After 6 months, urinary protein was less",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15853915",
+            "title": "Immunology of cutaneous vasculitis associated with both etanercept and infliximab.",
+            "authors": [
+              "Srivastava M D",
+              "Alexander F",
+              "Tuthill R J"
+            ],
+            "journal": "Scandinavian journal of immunology",
+            "year": "2005",
+            "abstract": "Targeted inhibition of tumour necrosis factor-alpha (TNF-alpha) is an effective therapy in rheumatoid arthritis and Crohn's disease (CD). Infliximab, a monoclonal murine-human chimeric antibody to TNF-alpha, and etanercept, a fusion protein of two p75 chains of the TNF receptor II and the Fc portion of IgG1, are generally well tolerated. Rarely does clinically significant autoimmunity, including drug-induced lupus and vasculitis occur. Immunologic mechanisms underlying the development of autoimm",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11792895",
+            "title": "Etanercept and infliximab associated with cutaneous vasculitis.",
+            "authors": [
+              "McCain M E",
+              "Quinet R J",
+              "Davis W E"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28123776",
+            "title": "Drug-specific risk and characteristics of lupus and vasculitis-like events in patients with rheumatoid arthritis treated with TNFi: results from BSRBR-RA.",
+            "authors": [
+              "Jani Meghna",
+              "Dixon William G",
+              "Kersley-Fleet Lianne",
+              "Bruce Ian N",
+              "Chinoy Hector"
+            ],
+            "journal": "RMD open",
+            "year": "2017",
+            "abstract": "To compare the risk of lupus-like events (LLEs) and vasculitis-like events (VLEs) in tumour necrosis factor-α inhibitor (TNFi)-treated patients with rheumatoid arthritis (RA) to those receiving non-biological disease-modifying antirheumatic drugs (nbDMARDs).",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17712519",
+            "title": "C-ANCA positive systemic vasculitis in a patient with rheumatoid arthritis treated with infliximab.",
+            "authors": [
+              "Ashok Dayavathi",
+              "Dubey Shirish",
+              "Tomlinson Ian"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2008",
+            "abstract": "The advent of anti-tumour necrosis factor (TNF) agents to treat inflammatory arthritis has dramatically changed the management of patients in the last few years. Other possible indications for these agents are currently being explored in preliminary studies. However, whether this therapy can be safely and efficaciously applied to other inflammatory disorders requires further case-controlled studies. Since these agents are increasingly used in the last 7 years, there has been the expected emergen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24854356",
+            "title": "What is the utility of routine ANA testing in predicting development of biological DMARD-induced lupus and vasculitis in patients with rheumatoid arthritis? Data from a single-centre cohort.",
+            "authors": [
+              "Takase K",
+              "Horton S C",
+              "Ganesha A",
+              "Das S",
+              "McHugh A"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2014",
+            "abstract": "To determine whether serial ANA testing predicts biological disease modifying antirheumatic drugs (bDMARD)-associated ANA/dsDNA production in patients with rheumatoid arthritis (RA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35110182",
+            "title": "Central nervous system vasculitis in a patient with axial spondyloarthritis treated with infliximab: A case report and literature review.",
+            "authors": [
+              "Panagopoulos Panagiotis",
+              "Katsifis Gkikas"
+            ],
+            "journal": "European journal of rheumatology",
+            "year": "2021",
+            "abstract": "Central nervous system (CNS) vasculitis is a rare form of vasculitis involving the blood vessels of the brain. It may be primary when it is confined to the CNS or secondary in the context of systemic inflammatory conditions such as systemic lupus erythematosus, rheumatoid arthritis, or infections. However, there is no known association with axial spondyloarthritis. Herein, we present the case of a 37-year-old man, with axial spondyloarthritis treated with infliximab for 9 years, who presented wi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18284262",
+            "title": "Clinical approach to cutaneous vasculitis.",
+            "authors": [
+              "Chen Ko-Ron",
+              "Carlson J Andrew"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2008",
+            "abstract": "Vasculitis is an inflammatory process affecting the vessel wall and leading to its compromise or destruction and subsequent hemorrhagic and ischemic events. Vasculitis can be classified as a primary phenomenon (e.g. idiopathic cutaneous leukocytoclastic angiitis or Wegener granulomatosis) or as a secondary disorder (connective tissue disease [CTD], infection, or adverse drug eruption-associated vasculitis). Cutaneous vasculitis may present as a significant component of many systemic vasculitic s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15823500",
+            "title": "Potential off-label use of infliximab in autoimmune and non-autoimmune diseases: a review.",
+            "authors": [
+              "Atzeni Fabiola",
+              "Sarzi-Puttini Piercarlo",
+              "Doria Andrea",
+              "Iaccarino Luca",
+              "Capsoni Franco"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2005",
+            "abstract": "TNF-alpha is a crucial cytokine in the establishment and maintenance of inflammation in multiple autoimmune and non-autoimmune disorders. A number of large placebo-controlled trials have shown that infliximab, a chimeric monoclonal antibody against TNF-alpha, is effective and well-tolerated in patients with Crohn's disease and rheumatoid arthritis (RA) and has become a widely used treatment for these diseases. More recent controlled trials have also shown the effectiveness of TNF-alpha blockers ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16207269",
+            "title": "Cutaneous vasculitis associated with infliximab in the treatment of rheumatoid arthritis.",
+            "authors": [
+              "Anandacoomarasamy A",
+              "Kannangara S",
+              "Barnsley L"
+            ],
+            "journal": "Internal medicine journal",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17854744",
+            "title": "Potential target of infliximab in autoimmune and inflammatory diseases.",
+            "authors": [
+              "Atzeni Fabiola",
+              "Doria Andrea",
+              "Carrabba Mario",
+              "Turiel Maurizio",
+              "Sarzi-Puttini Piercarlo"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2007",
+            "abstract": "Tumour necrosis factor-alpha (TNF-alpha) is a pro-inflammatory cytokine produced by many cell types (blood monocytes, macrophages, mast cells and endothelial cells), that play a key role in the pathogenesis of multiple autoimmune and nonautoimmune disorders. A number of large placebo-controlled trials have shown that infliximab, a chimeric monoclonal antibody against TNF-alpha, is effective and well tolerated in patients with Crohn's disease, rheumatoid arthritis and spondiloarthritides and has ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15468348",
+            "title": "Tumor necrosis factor-alpha blockade and the risk of vasculitis.",
+            "authors": [
+              "Guillevin Loïc",
+              "Mouthon Luc"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15627197",
+            "title": "Anti-TNFalpha therapy in rheumatoid arthritis and autoimmunity.",
+            "authors": [
+              "Caramaschi Paola",
+              "Biasi Domenico",
+              "Colombatti Marco",
+              "Pieropan Sara",
+              "Martinelli Nicola"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2006",
+            "abstract": "The aim of the study was to evaluate a panel of autoantibodies in patients affected by rheumatoid arthritis (RA) treated with anti-TNFalpha blockers, and to consider a different autoantibody induction effect by infliximab and etanercept; and in addition to evaluate in these cases a relationship between antinuclear antibody (ANA) titre and both C-reactive protein (CRP) and Blys levels. Fifty-four patients (8 men, 46 women, mean age 51.4 years, mean duration of disease 13.6 years) affected by refr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15801041",
+            "title": "Successful treatment of rheumatoid vasculitis-associated foot-drop with infliximab.",
+            "authors": [
+              "Armstrong David J",
+              "McCarron Maura T",
+              "Wright Gary D"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2005",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類風濕性血管炎為晚期 RA 的嚴重全身性表現，TNF-α 在血管壁炎症及免疫複合體沉積中具有病理角色，理論上 TNF 抑制有助控制血管炎。然而，矛盾現象（paradoxical vasculitis）已見於多篇文獻：Infliximab 本身可誘發皮膚性血管炎及 IgA 血管炎，機轉可能涉及免疫複合體積累及 B 細胞失調。此雙向性使安全評估極為關鍵。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hypermobility of coccyx",
+      "txgnn": {
+        "score": 0.8249481916427612,
+        "rank": 40639
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "尾骨過度活動性為骨骼結構穩定性問題，主要機轉為韌帶鬆弛及關節不穩定，非炎症性或免疫介導。TNF-α 抑制對此病理機轉無合理作用假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "anus disease",
+      "txgnn": {
+        "score": 0.8121073842048645,
+        "rank": 41274
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05330416",
+            "title": "Randomized Comparison of Quality of Life With or Without Automatic Seton Placement in Perianal Crohn's Fistula",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 108,
+            "start_date": "2022-05-25",
+            "completion_date": "2025-05-24",
+            "brief_summary": "In patients with Crohn's disease, anal fistulas are usually treated in three stages: 1) close examination of the fistula and drainage with a seton, 2) pharmacological treatment of the inflammatory component, and 3) closure of the fistulous tract by a sphincter-sparing technique. Setons are used to ensure the permeability of the fistulous tract, to decrease the rate of re-intervention due to the formation of new abscesses or tracts. A seton is a small, often elastic, thread used for drainage. It ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "肛周 Crohn 病手術（seton）聯合治療 QoL 研究，評估綜合管理策略"
+            }
+          },
+          {
+            "nct_id": "NCT02883296",
+            "title": "Long-term Follow-up of Anal Fistulae in Crohn's Disease Treated With Anti-TNFalpha and Interest of New MRI Sequences",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2011-04",
+            "completion_date": "2014-06",
+            "brief_summary": "Main purposes of this study are :\n\n* Analysis of relapse risk of anal fistulae with prospective follow-up of patients undergoing pelvic MRI every 6 months for one year. This monitoring also determines if the presence of path of fistulae visible on MRI during inclusion visit is associated to increased risk of perianal abscess under infliximab or adalimumab treatment.\n* Evaluation of interest of new magnetic resonance imaging sequences for detection of persistent anal fistulae under infliximab or ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接相關：Crohn 病肛周瘻管接受抗 TNF-α 治療之長期追蹤，N=15，完成，提供真實世界長期療效數據"
+            }
+          },
+          {
+            "nct_id": "NCT02925338",
+            "title": "OBSERVATOIRE NATIONAL D'UTILISATION D'INFLECTRA™ EN VIE RÉELLE.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1431,
+            "start_date": "2016-10-19",
+            "completion_date": "2021-04-12",
+            "brief_summary": "National, prospective, multicentre observational study designed for eligible patients treated with Inflectra.\n\nIts objectives are to describe under real conditions of use, the profile of patients treated with Inflectra and the response to treatment.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Inflectra（Infliximab 生物相似藥）真實世界使用觀察，N=1,431，完成，支持 Infliximab 於 IBD（含肛門病變）之安全性與療效"
+            }
+          },
+          {
+            "nct_id": "NCT03917303",
+            "title": "Control Crohn Safe With Episodic Adalimumab Monotherapy as First Line Treatment Study.",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 158,
+            "start_date": "2019-12-23",
+            "completion_date": "2026-09",
+            "brief_summary": "Crohn's disease (CD) is a chronic disease with a heterogeneous clinical presentation, relapse rate and treatment response. Insufficient control of mucosal inflammation results in irreversible bowel damage and complications and at present no markers are available to predict such a complicated disease course at diagnosis. Therefore, to prevent overtreatment of low risk patients, step-up treatment with subsequent introduction of corticosteroids, thiopurines maintenance and TNF-blockers if a previou",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，Crohn 病 adalimumab（同類 TNF 抑制劑）研究，間接支持抗 TNF 策略，正招募中"
+            }
+          },
+          {
+            "nct_id": "NCT02619552",
+            "title": "Impact of Medical Treatment on Sexual Function in Patients With Crohn's Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2011-08",
+            "completion_date": "2019-07-01",
+            "brief_summary": "Crohn's disease is a chronic inflammatory condition of the intestines that causes abdominal pain, diarrhea, tunnels around the anus (fistulas), and extraintestinal symptoms. Effective medical treatments exist to treat the disease; however they can have significant side effects.\n\nPrevious studies have shown that sexual function is impaired in patients with Crohn's disease. It is likely that both the symptoms related to the disease, medications used to treat the disease, and surgery all impair sex",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01860963",
+            "title": "Prevalence of Anal Dysplasia in Patients With Inflammatory Bowel Disease and Healthy Controls",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 310,
+            "start_date": "2010-01",
+            "completion_date": "2013-06",
+            "brief_summary": "This study is designed to establish the prevalence of anal squamous intraepithelial lesion (ASIL) in patients with inflammatory bowel disease (IBD) and healthy controls.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "IBD 患者肛門發育不良盛行率研究，非治療性試驗"
+            }
+          },
+          {
+            "nct_id": "NCT05912712",
+            "title": "Safety And Efficacy Study of Autologous Platelet-rich Plasma (PRP) and Thrombin Coagulum for the Topical Treatment of Rectal Mucosal Ulcers",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2023-07-01",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Ulcerative colitis (UC) is a chronic persistent inflammatory disease. The lesions are mainly confined to the large intestine and continuously affect the rectum and part or all of the colon. Its histological characteristics are diffuse neutrophil infiltration in the lamina propria of the colon mucosa, mucosal erosion, ulcer, cryptitis, and crypt abscess. The most common clinical manifestations are abdominal pain, diarrhea, and bloody mucopurulent stool, accompanied by extraintestinal manifestatio",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PRP 治療肛周瘻管之 Phase 1 研究，替代療法，非直接相關"
+            }
+          },
+          {
+            "nct_id": "NCT03801928",
+            "title": "OBSERVATIONAL, REAL WORLD STUDY OF INFLECTRA IN PATIENTS WITH INFLAMMATORY BOWEL DISEASE (IBD) IN THE UNITED STATES AND CANADA",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 118,
+            "start_date": "2018-02-23",
+            "completion_date": "2020-02-07",
+            "brief_summary": "This is a prospective, observational, multicenter study conducted in adult patients with ulcerative colitis (UC) or Crohn's disease (CD). The study plans to recruit 300 subjects in the United States and Canada in which the participating physician has decided to treat with INFLECTRA. The study will evaluate treatment patterns, adherence, disease activity, remission status, relapse status, treatment satisfaction, and healthcare resource utilization. Patient outcomes will be assessed at four time p",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Inflectra 於 IBD 患者的觀察性研究，N=118，完成"
+            }
+          },
+          {
+            "nct_id": "NCT05523050",
+            "title": "Effect of Active Surgical Intervention on Disease Remission in Patients With Crohn's Disease: A Single-Arm Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2022-09-16",
+            "completion_date": "2024-05-16",
+            "brief_summary": "The study is to determine whether active surgical intervention promotes disease remission in patients with Crohn's Disease (CD).The management of CD involves both maintenance medication and medication used to control flares of the disease. The goal of maintenance therapy in CD is to maintain steroid- free remission, clinically and endoscopically. This requires regular clinical assessment including history, physical examination and at times colonoscopic examination. Other tools of assessment incl",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03747068",
+            "title": "Preoperative Use of ANTI-Tumor Necrosis Factor Therapy in Ulcerative Colitis Patients Who Underwent Ileal Pouch-Anal Anastomosis (IPAA) is Not Associated With Histological Fibrosis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 130,
+            "start_date": "2009-10-09",
+            "completion_date": "2015-10-09",
+            "brief_summary": "BACKGROUND: Previous studies of short-term surgical outcomes after preoperative exposure to anti-TNF therapy in ulcerative colitis (UC) patients who have undergone IPAA have been conflicting. We sought to determine whether preoperative exposure to anti-TNF therapy affects histological measures of fibrosis in the colorectum, which may be a potential factor in adverse anastomosis complications following IPAA surgery.\n\nMETHODS: Individuals who received infliximab as maintenance therapy and who rece",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02847884",
+            "title": "IDeaL Pilot Study - Infliximab Dose to Level: Pilot Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2015-10",
+            "completion_date": "2018-06",
+            "brief_summary": "Crohn's disease (CD) is a lifelong condition of inflammation in the bowel. CD can affect any part of the gastrointestinal tract from mouth to anus. Symptoms can include: tiredness, stomach pain, diarrhea (which may be bloody if the disease is severe), fever, weight loss, skin rashes, arthritis and inflammation of the eye.\n\nInfliximab-IFX (Remicade®) is a medication that is used to treat CD in adults and children. In adults it has been shown that the amount of this drug a person has in their bloo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02539368",
+            "title": "POST-MARKETING OBSERVATIONAL COHORT STUDY OF PATIENTS WITH INFLAMMATORY BOWEL DISEASE (IBD) TREATED WITH CT-P13 IN USUAL CLINICAL PRACTICE (CONNECT-IBD)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2565,
+            "start_date": "2015-04-22",
+            "completion_date": "2018-10-31",
+            "brief_summary": "This is a post-marketing observational study of patients with Inflammatory Bowel Disease (specifically, Crohn's disease or Ulcerative Colitis) who have been prescribed CT-P13 (infliximab) or Remicade (infliximab) for treatment. CT-P13 (brand names Inflectra and Remsima) is a biosimilar medicine to Remicade, meaning it is a biologic medicine that contains the same active substance as Remicade (infliximab). The key study objectives are as follows:\n\n* To characterize the population and drug utiliza",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02674308",
+            "title": "Entyvio (Vedolizumab) Long-term Safety Study: An International Observational Prospective Cohort Study Comparing Vedolizumab to Other Biologic Agents in Patients With Ulcerative Colitis or Crohn's Disease",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 5302,
+            "start_date": "2015-03-24",
+            "completion_date": "2021-07-30",
+            "brief_summary": "The purpose of this study is to assess the long-term safety of vedolizumab versus other biologic agents in participants with Ulcerative Colitis (UC) or Crohn's Disease (CD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02403232",
+            "title": "Autologous Adipose-derived Stem Cells (ASCs) for the Treatment of Perianal Fistula in Crohn Disease: A Pilot Study",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 10,
+            "start_date": "2014-12",
+            "completion_date": "2018-12",
+            "brief_summary": "Crohn's disease is an immunologically mediated inflammatory bowel disease with a reported incidence of 4.0-7.0, 7.1, and 1.34 per 100,000 persons in Europe, the U.S., and Korea, respectively. Uncontrolled chronic inflammation finally causes various complications in intestine such as bowel obstruction, fistulas, abscesses, and anal fissures.\n\nThe incidence of perianal fistula was reported in 13%- 39% of patients with Crohn's disease. Medical treatment for Crohn's fistulae initially focused on sur",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02177071",
+            "title": "A proSpective Randomized Controlled Trial comParing infliximAb-antimetabolites Combination Therapy to Anti-metabolites monotheRapy and Infliximab monothErapy in Crohn's Disease Patients in Sustained Steroid-free Remission on Combination Therapy",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 211,
+            "start_date": "2015-10-09",
+            "completion_date": "2021-10",
+            "brief_summary": "Phase IV\n\nDesign : Prospective, open-label, randomized three-arms study\n\nMain Inclusion criteria Luminal Crohn's disease patients with steroid free remission for at least 6 months and a combination therapy with infliximab and anti-metabolites for at least 8 months\n\nPrimary objective To demonstrate that Infliximab scheduled maintenance with or without antimetabolites is superior to antimetabolites alone to maintain sustained steroid-free remission over 2 years, while the latter is non inferior wi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00688636",
+            "title": "Infliximab for the Prevention of Recurrent Crohn's Disease After Surgery",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2005-01",
+            "completion_date": "2009-01",
+            "brief_summary": "A randomized, placebo-controlled pilot study to determine endoscopic recurrence of Crohn's disease 12 months after curative, resective ileal or ileocolonic surgery in patients receiving post-operative infliximab or placebo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11429666",
+            "title": "Infliximab for the treatment of Crohn's disease: review and indications for clinical use in Canada.",
+            "authors": [
+              "Panaccione R"
+            ],
+            "journal": "Canadian journal of gastroenterology = Journal canadien de gastroenterologie",
+            "year": "2001",
+            "abstract": "Crohn's disease is a chronic inflammatory disorder of the gastrointestinal tract. It may affect any portion of the gastrointestinal tract from the mouth to the anus. Symptoms typically include cramping abdominal pain, diarrhea (which may be bloody) and nausea. As the severity of the illness worsens, patients may experience constant abdominal pain, vomiting, weight loss and fever. From the perspective of the patient, disease symptoms significantly impair quality of life, and interfere with their ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20109634",
+            "title": "Anorectal Crohn's disease.",
+            "authors": [
+              "Lewis Robert T",
+              "Maron David J"
+            ],
+            "journal": "The Surgical clinics of North America",
+            "year": "2010",
+            "abstract": "Crohn's disease manifests with perianal or rectal symptoms in approximately one-third of patients, and is associated with a more aggressive natural history. Due to the chronic relapsing nature of the disease, surgery has been traditionally avoided. However, combined medical and surgical intervention when treating perianal fistulae has been shown to offer the best chance for success. Endoanal ultrasound examination or pelvic magnetic resonance imaging should be done in conjunction with an examina",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39664232",
+            "title": "Infliximab monitoring in Crohn's disease: a neural network approach for evaluating disease activity and immunogenicity.",
+            "authors": [
+              "Gomes Luis Eduardo Miani",
+              "Genaro Livia Moreira",
+              "de Castro Marina Moreira",
+              "Ricci Renato Lazarin",
+              "Pascoal Livia Bitencourt"
+            ],
+            "journal": "Therapeutic advances in gastroenterology",
+            "year": "2024",
+            "abstract": "The treatment for Crohn's disease (CD) has increasingly required the use of biological agents. Safe and affordable tests have led to the active implementation of therapeutic drug monitoring (TDM) in clinical practice, which, although not yet widely available across all health services, has been proven effective.",
+            "classification": {
+              "study_type": "Retrospective/ML Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17402327",
+            "title": "Perianal Crohn's disease.",
+            "authors": [
+              "Khaikin Marat",
+              "Chowers Yehuda",
+              "Zmora Oded"
+            ],
+            "journal": "The Israel Medical Association journal : IMAJ",
+            "year": "2007",
+            "abstract": "Perianal Crohn's disease refers to the involvement of the anal region in this chronic inflammatory bowel disease. It most commonly presents with the formation of perianal abscesses and fistulas, although other forms of presentations such as fissures and skin tags may also be present. Perianal activity often parallels abdominal disease activity, but may occasionally be the primary site of active disease, and significantly compromises the quality of life in affected patients. The primary treatment",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26878185",
+            "title": "Recurrent Pediatric Perianal Swelling.",
+            "authors": [
+              "Cordova Jonathan",
+              "Chugh Ankur",
+              "Rivera Rivera Edgardo D",
+              "Young Sona"
+            ],
+            "journal": "Pediatric annals",
+            "year": "2016",
+            "abstract": "Pediatric inflammatory bowel disease is a chronic gastrointestinal disease consisting of Crohn's disease (CD) and ulcerative colitis (UC). Both disease processes can share similar clinical symptoms including abdominal pain, diarrhea, hematochezia, and weight loss; CD can also be complicated by penetrating and fistulizing disease. Perianal skin tags, perianal abscesses, recto-cutaneous fistulae, and rectal stenosis are among the phenotypic characteristics of perianal CD. Current treatment strateg",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20623697",
+            "title": "Combined approach with infliximab, surgery, and methotrexate in severe fistulizing anoperineal Crohn's disease: results from a prospective study.",
+            "authors": [
+              "Roumeguère Pauline",
+              "Bouchard Dominique",
+              "Pigot François",
+              "Castinel Alain",
+              "Juguet Frederic"
+            ],
+            "journal": "Inflammatory bowel diseases",
+            "year": "2011",
+            "abstract": "Infliximab is the only medical therapy that has been proven to be effective in fistulizing Crohn's disease (CD), but the recurrence rate of fistulas is high despite maintenance therapy. The aim of this prospective study was to evaluate the short- and long-term efficacy of a combined schedule with infliximab, methotrexate, and sphincter-sparing surgery in patients with severe fistulizing anoperineal CD.",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12641520",
+            "title": "Response, relapse and mucosal immune regulation after infliximab treatment in fistulating Crohn's disease.",
+            "authors": [
+              "Agnholt J",
+              "Dahlerup J F",
+              "Buntzen S",
+              "Tøttrup A",
+              "Nielsen S Lyhne"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2003",
+            "abstract": "Infliximab reduces mucosal inflammation in some, but not all, patients with Crohn's disease.",
+            "classification": {
+              "study_type": "RCT/Clinical Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41125462",
+            "title": "Clinical features and outcomes of perianal disease in pediatric onset Crohn's disease.",
+            "authors": [
+              "Wang Lin",
+              "Wang Yuhuan",
+              "Li Ping",
+              "Wang Shengnan",
+              "Zheng Cuifang"
+            ],
+            "journal": "Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver",
+            "year": "2025",
+            "abstract": "Limited data have explored perianal involvement in pediatric Crohn's disease (CD). We aimed to investigate the characteristics and clinical outcomes of pediatric onset CD with perianal disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29126509",
+            "title": "Treatment of perianal Crohn's disease.",
+            "authors": [
+              "Zalieckas Jill M"
+            ],
+            "journal": "Seminars in pediatric surgery",
+            "year": "2017",
+            "abstract": "Perianal Crohn's is a common manifestation of Crohn's disease. Primary manifestations of perianal disease mirror common anorectal conditions, however treatment is less successful than in those patients without Crohn's related perianal disease. A multimodal approach to therapy including medical and surgical modalities is often necessary. The goal of treatment is to manage symptoms while maintaining continence.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39882221",
+            "title": "Management of Anal Fistula with Crohn's Disease.",
+            "authors": [
+              "Takano Shota",
+              "Nakamura Yasushi",
+              "Tamaoka Kohei",
+              "Yoshimoto Takafumi",
+              "Irei Yasue"
+            ],
+            "journal": "Journal of the anus, rectum and colon",
+            "year": "2025",
+            "abstract": "Crohn's disease (CD) causes gastrointestinal symptoms (i.e., diarrhea and abdominal pain), systemic symptoms (i.e., fatigue, anemia, weight loss, and fever), and perianal fistulas that produce anal pain. Because of the frequent occurrence of diarrhea and ulcers in the rectum, CD is often exacerbated by perianal abscesses and/or fistulas. Perianal fistulizing CD (PFCD) has an unknown etiology and recurring symptoms such as pain and discharge, which seriously affects the patient's quality of life ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31425641",
+            "title": "Infliximab for very early-onset inflammatory bowel disease: A tertiary center experience in Japan.",
+            "authors": [
+              "Takeuchi Ichiro",
+              "Kaburaki Yoichiro",
+              "Arai Katsuhiro",
+              "Shimizu Hirotaka",
+              "Hirano Yuri"
+            ],
+            "journal": "Journal of gastroenterology and hepatology",
+            "year": "2020",
+            "abstract": "Very early-onset inflammatory bowel disease (VEO-IBD), defined as IBD diagnosed before 6 years of age, tends to be refractory to conventional treatment for IBD. However, there have been a few reports about the usage of infliximab for VEO-IBD. This study aimed to evaluate the efficacy and safety of infliximab for VEO-IBD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20670073",
+            "title": "Adenocarcinoma of the rectum and anus in a patient with Crohn's disease treated with infliximab.",
+            "authors": [
+              "Egea-Valenzuela J",
+              "Belchí-Segura E",
+              "Essouri N",
+              "Sánchez-Torres A",
+              "Carballo-Alvarez F"
+            ],
+            "journal": "Revista espanola de enfermedades digestivas",
+            "year": "2010",
+            "abstract": "In the present paper, we report the case of a patient with long-standing Crohn s disease and multiple complications that, after receiving treatment with infliximab, was diagnosed with an adenocarcinoma of the rectum and anus that required radical surgery, later presenting multiple metastases. In the discussion, characteristics and major risk factors for colorectal cancer in patients with inflammatory bowel disease will be largely reviewed, and current studies will be analyzed in connection with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19023863",
+            "title": "Course and treatment of perianal disease in children newly diagnosed with Crohn's disease.",
+            "authors": [
+              "Keljo David J",
+              "Markowitz James",
+              "Langton Christine",
+              "Lerer Trudy",
+              "Bousvaros Athos"
+            ],
+            "journal": "Inflammatory bowel diseases",
+            "year": "2009",
+            "abstract": "We sought to characterize perianal disease and its treatment in pediatric patients newly diagnosed with Crohn's disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20310013",
+            "title": "Nonfistulizing perianal Crohn's disease: clinical features, epidemiology, and treatment.",
+            "authors": [
+              "Bouguen Guillaume",
+              "Siproudhis Laurent",
+              "Bretagne Jean-François",
+              "Bigard Marc-André",
+              "Peyrin-Biroulet Laurent"
+            ],
+            "journal": "Inflammatory bowel diseases",
+            "year": "2010",
+            "abstract": "Nonfistulizing perianal lesions, including ulcerations, strictures, and anal carcinoma, are frequently observed in Crohn's disease. Their clinical course remains poorly known. The management of these lesions is difficult because none of the treatments used is evidence-based. Ulcerations may be symptomatic in up to 85% of patients. Most ulcerations heal spontaneously but may also progress to anal stenosis or fistula/abscess. Topical treatments only improve symptoms, while complete healing can occ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25349566",
+            "title": "Refractory duodenal Crohn's disease successfully treated with infliximab.",
+            "authors": [
+              "Kim You Lim",
+              "Park Young Sook",
+              "Park Eun Kyoung",
+              "Park Dae Rim",
+              "Choi Gyu Sik"
+            ],
+            "journal": "Intestinal research",
+            "year": "2014",
+            "abstract": "Crohn's disease (CD) may involve any part of the gastrointestinal tract, from the mouth to the anus. Approximately >90% of cases occur in the small bowel and colon. Upper gastrointestinal involvement, especially duodenal manifestation, is relatively rare. Therefore, adequate medical treatment for duodenal CD has not yet been established. We report a case of CD with duodenal involvement. A 46-year-old man with Crohn's ileocolitis presented to our hospital with right upper quadrant pain. An endosc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25746229",
+            "title": "Perianal Crohn's disease: a review.",
+            "authors": [
+              "Juncadella Anna C",
+              "Alame Amer M",
+              "Sands Laurence R",
+              "Deshpande Amar R"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "2015",
+            "abstract": "Perianal involvement in Crohn's disease (CD), which encompasses fistulas, ulcers, abscesses, strictures and cancer, can lead to significant impairment in quality of life. The objective of this article is to review the major perianal complications of CD and the current medical and surgical modalities used to treat them. Antibiotics are commonly used despite a lack of controlled trials to validate their use and should be used as a bridge to maintenance therapy. The anti-metabolites azathioprine an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29792734",
+            "title": "Clinical updates on perianal fistulas in Crohn's disease.",
+            "authors": [
+              "Rackovsky Ori",
+              "Hirten Robert",
+              "Ungaro Ryan",
+              "Colombel Jean-Frederic"
+            ],
+            "journal": "Expert review of gastroenterology & hepatology",
+            "year": "2018",
+            "abstract": "Perianal fistulizing disease is an aggressive and debilitating phenotype of Crohn's disease (CD), representing a significant therapeutic challenge. New work has led to advancement in epidemiology and long-term outcomes of perianal disease. The range of therapeutic options continues to expand, including new biologic agents, biosimilars, and stem cell therapy. Areas covered: We discuss updates to all aspects of management of perianal disease, with a focus on the last 3 years of published data. Are",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25433368",
+            "title": "Buccal localization of Crohn's disease with long-term infliximab therapy: a case report.",
+            "authors": [
+              "Ciacci Carolina",
+              "Bucci Cristina",
+              "Zingone Fabiana",
+              "Iovino Paola",
+              "Amato Massimo"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2014",
+            "abstract": "Cheilitis granulomatosa causes persistent idiopathic lip swelling and ulceration and it can sometimes be recognized as a unique or early manifestation of Crohn's disease. Spontaneous remission is rare and with the lack of controlled trials, different therapeutic approaches have been used. Some cases have been treated with an exclusion diet in the attempt to rule out diet allergens, while the most popular treatments include antibiotics such as tetracycline and clofazimine tranilast, benzocaine to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15352905",
+            "title": "Review article: treatment of perianal fistulizing Crohn's disease.",
+            "authors": [
+              "Rutgeerts P"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2004",
+            "abstract": "Fistulizing Crohn's disease can involve the bowel, but is more commonly seen in the perianal region. In acute perianal Crohn's disease, perianal lesions are manifestations of disease activity and are frequently treated concomitantly with bowel lesions. Spontaneous resolution occurs in up to 50% of patients. Fistulae are secondary lesions that may progress to destruction of the sphincter apparatus necessitating proctectomy after years of suffering. The control of sepsis is the first objective. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11845044",
+            "title": "[Infliximab therapy for Crohn's disease anoperineal lesions].",
+            "authors": [
+              "Ouraghi A",
+              "Nieuviarts S",
+              "Mougenel J L",
+              "Allez M",
+              "Barthet M"
+            ],
+            "journal": "Gastroenterologie clinique et biologique",
+            "year": "2001",
+            "abstract": "To retrospectively evaluate the efficacy, the duration of response, and the tolerance of Remicade in anoperineal Crohn's disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肛門直腸疾病於此情境主要指 Crohn 病肛周瘻管（perianal fistulizing Crohn's disease）。Infliximab 對 TNF-α 的阻斷可抑制腸道黏膜固有層的病理性炎症反應，促進瘻管癒合。ACCENT II 試驗（Phase 3 RCT）已確立 Infliximab 於瘻管性 Crohn 病的療效，此為其全球核准適應症之一。相關臨床試驗及文獻均高度支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Kummell disease",
+      "txgnn": {
+        "score": 0.8115029335021973,
+        "rank": 41294
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Kummell 病（遲發性外傷後椎體塌陷）為缺血性骨壞死機轉，與微血管損傷和骨組織修復失敗相關，非炎症性免疫介導疾病。TNF-α 抑制對骨壞死機轉無已知療效，且理論上可能影響骨骼修復。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn": {
+        "score": 0.8091611862182617,
+        "rank": 41387
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05164198",
+            "title": "Multicenter, Prospective Clinical Trial for Optimizing TNF Inhibitor Dose Adjustment in Ankylosing Spondylitis Patients With Stable Disease Activity",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 448,
+            "start_date": "2022-01-15",
+            "completion_date": "2024-10-31",
+            "brief_summary": "Participants maintaining stable disease activity of Ankylosing Spondylitis (AS) with standard-dose tumor necrosis factor inhibitor (TNFi) treatment will randomly split into two groups: maintaining standard-dose TNFi, versus reduced-dose TNFi. The proportion of participants not underwent flare between the two groups will be analyzed.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，多中心前瞻性試驗，優化 AS 患者 TNF 抑制劑劑量調整策略，N=448，真實世界劑量管理證據"
+            }
+          },
+          {
+            "nct_id": "NCT00768950",
+            "title": "The Characterization of Small Bowel and Colonic Involvement in Patients With Seronegative Spondyloarthritides",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2008-01",
+            "completion_date": "2013-08",
+            "brief_summary": "Up to 60% of patients with Seronegative Spondyloarthritides have inflammation in the colon or ileum. This is usually asymptomatic, but in 5 to 10% of patients with SA, Frank IBD will develop. Lesions of the bowel could also be present in the SA patients because of the potential injury posed by the NSAIDS, a common used medication in this setting.\n\nIt is the bowel involvement in patients with SA that we propose to characterize, partly because there are scant communicated data in the medical liter",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00051623",
+            "title": "A Multicenter, Randomized, Double-blind Trial of Anti-TNFa Chimeric Monoclonal Antibody (Infliximab) for the Treatment of Patients With Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2003-05",
+            "completion_date": "2004-06",
+            "brief_summary": "The purpose of this study is to determine if Infliximab is safe and effective in the treatment of psoriatic arthritis. Infliximab (Remicade) targets specific proteins in the body's immune system to help control the development of inflammation to help reduce painful disease.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "核心關鍵試驗：Phase 3 RCT，抗 TNF 嵌合單株抗體（Infliximab）於 AS，N=70，已完成。即 ASSERT 試驗，確立本適應症核准依據"
+            }
+          },
+          {
+            "nct_id": "NCT00439283",
+            "title": "Study of Two Schedules of Infliximab Maintenance Therapy in Ankylosing Spondylitis: Comparison of Infusion Every 6 Weeks Versus Infusion on Demand",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 240,
+            "start_date": "2003-04",
+            "completion_date": "2004-12",
+            "brief_summary": "Continuous treatment with the anti-tumor necrosis factor alpha monoclonal antibody infliximab is efficacious in ankylosing spondylitis (AS), whereas treatment discontinuation results in disease relapse, with variable delay. Objective of this study was to compare efficacy between a continuous treatment with infliximab, and a treatment adapted to symptoms recurrence. Addition of methotrexate (MTX)to infliximab was also tested.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT，比較 AS 中不同 Infliximab 維持治療方案，N=240，已完成。支持最佳給藥策略制定"
+            }
+          },
+          {
+            "nct_id": "NCT03445845",
+            "title": "Rotation or Change of Biotherapy After TNF Blocker Treatment Failure for Axial Spondyloarthritis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2018-12-14",
+            "completion_date": "2024-10-01",
+            "brief_summary": "Axial spondyloarthritis (axSpA) is a chronic inflammatory disease characterized by inflammatory arthritis and enthesitis involving the spine. AxSpA prevalence is around 0.17% of the French population. Tumor necrosis factor (TNF) was the first target defined in axSpA. Since one third of axSpA patients failed to the first TNF blocker, many axSpA patients received a second biological Disease-Modifying AntiRheumatic Drugs (bDMARDs). Until few months, the only choice was to use a second TNF blocker.S",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，TNF 阻斷劑失敗後軸性脊椎關節炎之輪替或更換策略，N=300，已完成，提供治療序列決策依據"
+            }
+          },
+          {
+            "nct_id": "NCT00244179",
+            "title": "New Immunomodulatory Therapy Strategies in Chronic Reactive Arthritis: Immunostimulation Plus Antibiotic Versus Immunosuppression Plus Antibiotic Versus Conventional Standardtherapy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2003-01",
+            "completion_date": "",
+            "brief_summary": "1. to investigate, whether one of the two alternative therapy strategies (antibiotic plus immunostimulation versus antibiotic plus immunosuppression) in chronic reactive arthritis is therapeutical superior to conventionel standardtherapy (DMARD).\n2. to investigate, whether one or more of the different therapy strategies cause an altered detection of bacterial DNA in the joint or colon.\n3. to measure the antigen-specific and -unspecific immune response (predominantly t-cell response) during thera",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03496831",
+            "title": "Development of a Prediction Model for the Risk of Hospitalized Infection in Patients With Chronic Inflammatory Arthritis Treated With Biological Drugs",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 7500,
+            "start_date": "2006-01-01",
+            "completion_date": "2017-12-31",
+            "brief_summary": "Background The risk for hospitalized infection (i.e. infection leading to hospitalization) in patients with inflammatory arthritis (rheumatoid arthritis (RA), psoriatic arthritis (PsA) or axial spondyloarthritis (axSpA) treated with biological drugs is known to be increased compared to the background population. In daily clinical practice, there is a need for a simple way to assess the absolute risk for hospitalized infection in individual patients based on easily available information such as a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "慢性炎症性疾病住院感染風險預測模型，N=7,500，安全性背景參考"
+            }
+          },
+          {
+            "nct_id": "NCT07138898",
+            "title": "Immunosuppressant Management in Rheumatology Patients Undergoing Elective Total Shoulder Arthroplasty",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-09",
+            "completion_date": "2027-09",
+            "brief_summary": "The purpose of this study is to assess the incidence of rheumatologic flares, changes in pain scores (VAS), changes in functional outcomes (PROMIS), wound complications, surgical site infections, and return trips to the operating room for rheumatology patients following shoulder replacements, comparing those who stop their immunosuppressants preoperatively for the same amount of time as suggested in the literature for hip and knee arthroplasty versus those who hold the medications for a shorter ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00741793",
+            "title": "BioTRAC (BIOLOGIC TREATMENT REGISTRY ACROSS CANADA)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2821,
+            "start_date": "2002-02-12",
+            "completion_date": "2018-06-29",
+            "brief_summary": "This registry is a multi-center, prospective, longitudinal, observational program that will gather and analyse data on participants treated with infliximab, golimumab, golimumab Intravenous (I.V) or ustekinumab. Treatment will be prescribed by the physician according to actual clinical practice or standard of care for Rheumatoid Arthritis (RA), Axial Spondyloarthritis (AxSpA) , Psoriatic Arthritis (PsA); there will be no randomized assignments to treatment. At baseline and approximately every 6 ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "加拿大大型生物製劑登記研究，N=2,821，含 AS 患者，提供長期安全性及療效真實世界數據"
+            }
+          },
+          {
+            "nct_id": "NCT02557308",
+            "title": "An Observational, Prospective, Cohort Study to Evaluate Safety and Efficacy of Remsima™ in Patients With Ankylosing Spondylitis",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 329,
+            "start_date": "2015-05-26",
+            "completion_date": "2021-02-28",
+            "brief_summary": "An Observational, Prospective Cohort Study to Evaluate Safety and Efficacy of RemsimaTM in Patients with Ankylosing Spondylitis",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Remsima（Infliximab 生物相似藥）前瞻性隊列，N=329，雖已中止，但提供生物相似藥應用數據"
+            }
+          },
+          {
+            "nct_id": "NCT00478660",
+            "title": "Review of Safety and Efficacy With Adalimumab in Patients With Active Ankylosing Spondylitis - An Open-Label Study to Evaluate the Response to Adalimumab in Patients Who Have Failed Standard Therapy or TNF-Alpha Inhibitors (RHAPSODY)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1250,
+            "start_date": "2006-02",
+            "completion_date": "",
+            "brief_summary": "Due to the rigor of the clinical development program of adalimumab for the indication of AS, the population of subjects with active AS that could enroll in previous phase 3 studies was limited. Therefore, it is necessary to further evaluate the use of adalimumab in a setting that mimics day-to-day clinical practice to obtain further safety and efficacy data by allowing subjects meeting the characteristics noted below to enter this study:\n\n* Subjects who failed another TNF inhibitor (etanercept, ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00507403",
+            "title": "Effect of Methotrexate on the Relation Dose-effect of Infliximab in Ankylosing Spondylitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2007-10",
+            "completion_date": "2009-12",
+            "brief_summary": "There is a great individual variability of pharmacokinetic of infliximab in patients treated for ankylosing spondylitis (AS). Moreover, some patients have a treatment with methotrexate (MTX), others have not.\n\nThus, the aim of this study is to assess the effect of MTX on the pharmacokinetic properties of infliximab in 30 patients treated for AS, 15 with MTX, 15 without.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00779935",
+            "title": "Baseline Serum Vascular Endothelial Growth Factor (VEGF) Concentration as Predictive Factor of Response to Infliximab (Remicade) Therapy in Patients With Active Ankylosing Spondylitis Despite Conventional Treatment: a Multicenter Pilot Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 44,
+            "start_date": "2004-10-01",
+            "completion_date": "2007-02-01",
+            "brief_summary": "This is a Phase 4, multi-center, open-label, one-arm, pilot study in patients with active ankylosing spondylitis refractory to conventional treatment. Remicade will be given at Weeks 0, 2, and 6 and then every 8 weeks up to Week 54. The number of patients showing ASAS-20 clinical response at Week 14 will be evaluated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00133315",
+            "title": "TNFalfa Blocking Treatment of Spondylarthropathies - A Danish Multicenter Study of New Methods for Better Monitoring and Prognostifying Patients With Spondylarthropathies",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2004-09",
+            "completion_date": "2007-04",
+            "brief_summary": "The purpose of the study is to establish a Danish cohort of spondylarthropathy (SpA) patients who are being treated with TNFalfa blockers. By following the TNFalfa blocking treated patients the researchers want to identify better biomarkers for disease activity and disease progression. In addition, the researchers want to identify predictors for disease progression.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01856569",
+            "title": "Assial - Anti Tnf Treatment In Ankylosing Spondylitis: An Observational Cohort Study In Italy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 152,
+            "start_date": "2013-07",
+            "completion_date": "2015-11",
+            "brief_summary": "Observe in real life adherence therapy and time to switch in ankylosing spondylitis patients with predominant assial involvement with 4 anti-TNF.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02132234",
+            "title": "Effects of Biological Treatment on Blood Pressure and Endothelial Function in Patients With Rheumatoid Arthritis, Psoriatic Arthritis and Ankylosing Spondylitis",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2013-06",
+            "completion_date": "",
+            "brief_summary": "The aim of this study is to evaluate the influence of anti tumor necrosis factor-alpha (TNF-α) treatment on blood pressure, endothelial function and immune cell phenotype in patients with rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00367237",
+            "title": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 115,
+            "start_date": "2006-05",
+            "completion_date": "2008-03",
+            "brief_summary": "This study is undertaken to compare the efficacy and onset of action of infliximab plus methotrexate (IFX + MTX) versus methotrexate alone (MTX) in methotrexate naïve active psoriatic arthritis patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01971918",
+            "title": "Comparative Analysis of Two Therapeutic Strategies: \"Early Switch\" Versus \"Therapeutic Intensification\" in Patients With Spondyloarthritis Treated With Anti-tnf Biologics, in Case of Secondary Treatment Failure Suspicion.",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 8,
+            "start_date": "2014-05",
+            "completion_date": "2017-04",
+            "brief_summary": "The objective of the study is to evaluate two therapeutic strategies: \"early switch\" or \"therapeutic intensification\" in patients with spondyloarthritis in case of secondary treatment failure suspicion to a first monoclonal antibodies anti-TNF definite by increase of ASDAS and positivity to ADAb.\n\nPatients and Methods:\n\nMulticentric randomized prospective study. Duration of inclusion 30 months. Duration of follow-up 24 months. 104 patients with spondyloarthritis treated with infliximab or adalim",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02925338",
+            "title": "OBSERVATOIRE NATIONAL D'UTILISATION D'INFLECTRA™ EN VIE RÉELLE.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1431,
+            "start_date": "2016-10-19",
+            "completion_date": "2021-04-12",
+            "brief_summary": "National, prospective, multicentre observational study designed for eligible patients treated with Inflectra.\n\nIts objectives are to describe under real conditions of use, the profile of patients treated with Inflectra and the response to treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01286545",
+            "title": "European Ankylosing Spondylitis Infliximab Cohort (EASIC) Follow up Registration Study",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2011-02",
+            "completion_date": "2013-10",
+            "brief_summary": "Long term data on efficacy and safety of anti-TNF treatment with infliximab in patients with ankylosing spondylitis (AS) beyond 5 years is lacking. These data are important because patients with AS usually are younger and withdrawal of anti-TNF therapy in these patients almost always leads to a disease relapse. Furthermore it is still unclear whether long term anti-TNF treatment in AS patients can inhibit radiographic progression. Patients who participated in the EASIC and the DIKAS trial respec",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06715254",
+            "title": "TuBerculosis Incidence in AS, PsA or Pso Patients Treated With Secukinumab: Real World Evidence in Brazilian Environment (ToBeReal)",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 152,
+            "start_date": "2021-07-23",
+            "completion_date": "2023-11-30",
+            "brief_summary": "This was a retrospective observational study that relied on data extracted from patient's chart review at the participating centers. Data was entered into an electronic Case Report Form (eCRF) designed to capture all relevant information to achieve the study objectives.\n\nAfter the ethical approval for each participating site, the respective Investigator and/or designated qualified study staff were responsible for including all eligible patients in a consecutive manner and entering their informat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04891640",
+            "title": "Biologic Abatement and Capturing Kids' Outcomes and Flare Frequency in Juvenile Spondyloarthritis (BACK-OFF JSpA)",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 164,
+            "start_date": "2021-11-11",
+            "completion_date": "2026-07-01",
+            "brief_summary": "This randomized pragmatic trial will generate knowledge about strategies used to de-escalate tumor necrosis factor inhibitor (TNFi) therapy in patients with juvenile spondyloarthritis with sustained inactive disease and are treated at one of the 29 participating pediatric healthcare systems. This open label study will be conducted in the setting of routine clinical care and will compare the risk and timing of flare (Aim 1) and patients' lived experiences (Aim 2) across three arms.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00432432",
+            "title": "The Efficacy of Combination Methotrexate and Infliximab in Patients With Ankylosing Spondylitis:A Clinical and Magnetic Resonance Imaging Correlation",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2005-02",
+            "completion_date": "2006-10",
+            "brief_summary": "Combination Methotrexate and Infliximab:Influence of immunogenicity on the efficacy of infliximab in patients with Ankylosing Spondylitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00207701",
+            "title": "A Randomized, Double-blind Trial of the Efficacy of REMICADE (Infliximab) Compared With Placebo in Subjects With Ankylosing Spondylitis Receiving Standard Anti-inflammatory Drug Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 279,
+            "start_date": "2002-09",
+            "completion_date": "2005-02",
+            "brief_summary": "A study of the safety and efficacy of Infliximab (Remicade) versus placebo in subjects with Ankylosing Spondylitis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00224562",
+            "title": "The RATIO Registry: French Registry on Opportunistic and Severe Bacterial Infections and Lymphoma in Patients Treated With TNF-a Antagonists",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": "N/A",
+            "start_date": "2004-02",
+            "completion_date": "",
+            "brief_summary": "The RATIO registry is a French registry designed by a multidisciplinary group to collect data on opportunistic and severe bacterial infections and lymphoma in patients treated with TNF-a antagonists ( infliximab, etanercept and adalimumab). A total of 486 medical units in metropolitan France participate in the RATIO registry. All diagnosis are retained after validation by 2 qualified infectious disease or haematologist physicians (on the basis of the standardized case report form, the hospitalis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00725296",
+            "title": "Remicade Therapy in Psoriatic Arthritis: Investigation of Real Life Regimen in Austria Over 9 Consecutive Infusions",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 178,
+            "start_date": "2004-12",
+            "completion_date": "2010-07",
+            "brief_summary": "This is a prospective, open-label, 1-arm, multicenter observational study to determine the dose and time interval of Remicade (Infliximab) infusions in psoriatic arthritis (PsA).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00237419",
+            "title": "An Open Label Extension, Investigator Initiated Trial to Examine Radiographic Progression , Efficacy and Safety of Long-Term Treatment With Infliximab in Patients With Ankylosing Spondylitis. EASIC (European Ankylosing Spondylitis Infliximab Cohort)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 149,
+            "start_date": "2005-12",
+            "completion_date": "2011-04",
+            "brief_summary": "Ankylosing spondylitis (AS) is a chronic inflammatory disease that involves the sacroiliac joints, axial skeleton, entheses and peripheral joints. Current therapy for AS is mainly NSAIDs and physiotherapy which are oft insufficient. Treatment with the TNF-alpha blocking agent infliximab was shown to have definite clinical efficacy in patients with active AS on a short- and a long-term-basis over 2 years. We want to show that treatment with infliximab on a long-term basis over 4 years is safe and",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01219257",
+            "title": "Longitudinal ULtrasonographic Study of Patients With Spondylarthritis Starting First Time or Switching to a New Biological Therapy; the ULSpABiT Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2011-09",
+            "completion_date": "2016-01",
+            "brief_summary": "Patients with spondylarthritis (SpA) (including ankylosing spondylitis, psoriatic arthritis, arthritis as part of inflammatory bowel disease and reactive arthritis) have axial involvement (the spine) as well as peripheral inflammation in joints and entheses (where the tendons and ligaments are anchored to the bone). Patients with high disease activity of SpA may need biological treatment (anti-TNF alpha), which are very expensive medications. Thus it is necessary to have a sensitive method for a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03885089",
+            "title": "Infliximab BS for Intravenous Drip Infusion 100 mg \"Pfizer\" General Investigation (Psoriasis Vulgaris, Psoriasis Arthropathica, Pustular Psoriasis, or Erythrodermic Psoriasis)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2019-10-21",
+            "completion_date": "2024-03-08",
+            "brief_summary": "To collect information on the safety and effectiveness of Infliximab BS for Intravenous Drip Infusion 100 mg \"Pfizer\" against psoriasis vulgaris, psoriasis arthropathica, pustular psoriasis, or erythrodermic psoriasis under actual status of use.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00658827",
+            "title": "Exposure to Remicade (Infliximab) During Pregnancy in Patients With Inflammatory Bowel Disease, Rheumatoid Arthritis, Psoriatic Arthritis, Ankylosing Spondylitis and Psoriasis: a Review and Analysis of Birth Outcomes From the Swedish, Danish and Finnish Medical Birth Registers",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 370,
+            "start_date": "2007-01-01",
+            "completion_date": "2016-09-30",
+            "brief_summary": "The purpose of this study is collection and analysis of information pertaining to pregnancy outcomes in women exposed to infliximab during pregnancy, relative to the background risk in similar but non-biologic exposed patients; and information pertaining to health status, during the first year following delivery, of infants born to women following prenatal exposure to infliximab and their unexposed counterparts.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01216631",
+            "title": "Intra-articular and Intravenous Infliximab in the Treatment of Resistant Seronegative Oligoarthritis of the Knee",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2010-09",
+            "completion_date": "2011-08",
+            "brief_summary": "The aim of this study is to establish the efficacy and duration of effect of intra-articular (IA) infliximab vs intravenous infliximab vs current standard care (IA steroid injections) in seronegative oligoarthritis. All patients will have seronegative arthritis affecting less than 5 joints but including at least one knee. 10 patients will receive IA infliximab injections to the affected knee, 10 will receive IA steroid injections to the affected knee and 10 will receive a course of intravenous i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07041112",
+            "title": "Pharmacogenetic Observational Study Evaluating the Influence of Genetic Variants and Cardiometabolic Risk Factors on 10-Year Survival of Biologic Therapies in Patients With Cutaneous Psoriasis With or Without Psoriatic Arthritis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1000,
+            "start_date": "2012-01-01",
+            "completion_date": "2024-06-01",
+            "brief_summary": "This retrospective observational study aims to evaluate the long-term survival of biologic therapies in adult patients with moderate-to-severe cutaneous psoriasis, with or without psoriatic arthritis, over a period of up to 10 years. The study investigates the influence of clinical, metabolic, and genetic factors, including SNPs and metabolic syndrome components, on treatment durability. Data were obtained from a single-centre cohort treated in routine clinical practice. This analysis seeks to i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05696106",
+            "title": "Risk of Incident Immune-mediated Inflammatory Diseases (IMID) in Patients Treated With Biologics and Immunosuppressive Drugs for a Single IMID",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 750000,
+            "start_date": "2023-04-02",
+            "completion_date": "2024-01-15",
+            "brief_summary": "Individuals with immune-mediated inflammatory diseases (IMIDs) are at increased risk of developing other IMIDs, possibly through shared pathogenic inflammatory pathways, and up to 25% of patients with IMIDs have at least one other IMID. Additionally, a concomitant diagnosis of a second IMID is associated with a higher burden of disease, which usually requires therapeutic escalation. Thus, this risk should be taken into account in the benefit-risk balance of IMIDs-related treatment. While the ris",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06601595",
+            "title": "Spondyloarthropathy in Inflammatory Bowel Disease Patients and Evaluation of Its Response to TNF Inhibitors in Assiut University Hospital",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2024-10",
+            "completion_date": "2026-03",
+            "brief_summary": "Prevelance of axial spondylosis arthritis in inflammatory bowel disease and its RESPONSE to tumour necrosis factor (TNF) inhibitors TREATMENT",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01220518",
+            "title": "Randomized, Double-blind, Parallel-group, Phase 1 Study",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 257,
+            "start_date": "2010-10",
+            "completion_date": "2012-06",
+            "brief_summary": "This study is the trial to demonstrate how our product is similar to remicade by comparing the results of blood samples in active Ankylosing Spondylitis patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05424926",
+            "title": "Switch From Intravenous to Subcutaneous Infliximab (REMSIMA®) in Clinical Practice in the Rheumatology Department of Cochin Hospital",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2023-02-24",
+            "completion_date": "2024-12-16",
+            "brief_summary": "TNFα inhibitors have revolutionized the management of patients suffering from inflammatory diseases in the field of rheumatology. Infliximab remains widely used in France, and infliximab biosimilars have been routinely used since 2015 in Cochin Hospital with an interchangeability strategy validated by two real life studies. REMSIMA® 120 mg is the first authorized subcutaneous (SC) form of infliximab to be administered at a fixed dose of 120 mg every 2 weeks. Scarce information is available regar",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00432406",
+            "title": "TNF-α Blockade for Psoriatic Arthritis - A Clinical and MRI Study, and the Effects on Cytokine and Cardiovascular Risk Profile",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2006-05",
+            "completion_date": "2009-03",
+            "brief_summary": "The purpose of this study is:\n\n* To elucidate the immunomodulating properties of anti-TNF-α therapy in patients with psoriatic arthritis (PsA).\n* To ascertain whether magnetic resonance imaging (MRI) is a sensitive tool in measuring early response after therapy with anti-TNF-α in the PsA wrist using the Outcome Measures in Rheumatoid Arthritis Clinical Trials (OMERACT) guidelines for rheumatoid arthritis (RA).\n* To assess whether the lipid and other cardiovascular risk profiles would improve aft",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00760669",
+            "title": "Post Marketing Surveillance of Remicade in Ankylosing Spondylitis, Rheumatoid Arthritis, Psoriatic Arthritis and Psoriasis Patients",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1061,
+            "start_date": "2007-05",
+            "completion_date": "2011-04",
+            "brief_summary": "The purpose of this observational study is to evaluate the safety and effectiveness of infliximab injection under actual conditions of use in participants, and to learn more about its adverse events.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00508547",
+            "title": "A Multicenter, Open Registry of Patients With Plaque Psoriasis Who Are Candidates for Systemic Therapy Including Biologics",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 15842,
+            "start_date": "2007-06-21",
+            "completion_date": "2030-12-31",
+            "brief_summary": "The purpose of this study is to further evaluate the safety of infliximab, ustekinumab, and guselkumab in patients with plaque and other forms of psoriasis. The study also includes patients receiving other therapies, such as non-biologic and other biologic agents. The registry also evaluates patient and disease characteristics, including patient-reported assessment of psoriatic arthritis (PsA); and clinical and quality of life outcomes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00686894",
+            "title": "Study of Peripheral Enthesitis With Ultra Sonography Doppler in Spondyloarthropathies Treated With Infliximab",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2008-01",
+            "completion_date": "2008-11",
+            "brief_summary": "Subjects will be given 3 infusions of infliximab according to the label at week 0, 2, and 6. Subjects will be followed for a maximum of 18 weeks or until relapse. This study will assess the ability of the Power Doppler Ultrasonography (PDUS) to be a reliable marker of enthesitis response and relapse in subjects treated with infliximab.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04399382",
+            "title": "A Clinical Study Using Damage-associated Molecular Pattern and Apparent Diffusion Coefficient to Evaluate the Efficacy of Biologics for Treating Spondyloarthritis",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2022-01-12",
+            "completion_date": "2022-12",
+            "brief_summary": "Spondyloarthritis (SpA) is one of the potentially debilitating inflammatory diseases that affect the whole body, primarily burdening the sacroiliac joints and the spine. It mostly affects young and middle aged adults. SpA can be classified to non-radiographic axial SpA (nr-axSpA) and radiographic axSpA (r-axSpA). The latter is ankylosing spondylitis (AS). The key to its early treatment is the radiological detection and management of sacroiliitis. To date, biologics is the most powerful anti-infl",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06085079",
+            "title": "A 24-week Two-armed Proof-of-concept Exploratory Analysis of Subcutaneous Ixekizumab Administration in Patients With Recalcitrant Non-infectious Intermediate, Posterior, Panuveitis, or Chronic Steroid-dependent Anterior Uveitis.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2022-06-01",
+            "completion_date": "2024-12-30",
+            "brief_summary": "The objective of this study is to explore the efficacy of ixekizumab in treating patients with a diagnosis of non-infectious intermediate, posterior, panuveitis, or chronic steroid-dependent anterior uveitis who had failed treatment with a classic synthetic DMARD including methotrexate, mycophenolate, cyclosporin, azathioprine, cyclophosphamide and/or at least one anti-TNF agent including adalimumab, infliximab, etanercept, golimumab or certolizumab.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00725543",
+            "title": "Remicade Therapy in Ankylosing Spondylitis: Investigation of Real Life Regimen in Austria Over 9 Consecutive Infusions",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 358,
+            "start_date": "2004-06",
+            "completion_date": "2010-06",
+            "brief_summary": "This is a prospective, open-label, 1-arm, multicenter observational study to determine the dose and time span of Remicade between infusions for ankylosing spondylitis (AS).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03074656",
+            "title": "A NORwegian Multicentre Randomised Controlled Trial Assessing the Effectiveness of Tailoring Infliximab Treatment by Therapeutic DRUg Monitoring - The NOR-DRUM Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 611,
+            "start_date": "2017-03-01",
+            "completion_date": "2020-12-14",
+            "brief_summary": "Infliximab and other TNF-inhibitors have revolutionised the treatment of several immunological inflammatory diseases. Still, more than half of the patients either do not respond sufficiently to infliximab therapy or loose efficacy over time. The large individual variation in the serum drug concentrations on standard doses and the development of anti-drug antibodies are thought to be main reasons for these treatment failures. An individualised treatment strategy based on systematic assessments of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00591201",
+            "title": "Efficacy, Safety, and Tolerability of Infliximab (Remicade; Schering-Plough) in Juvenile Spondyloarthropathies: a Three-Month, Randomized, Double-Blind, Placebo-Controlled Trial and 52-Week Open Extension.",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2002-06",
+            "completion_date": "2007-09",
+            "brief_summary": "Tumor necrosis factor (TNF) alpha is a pro-inflammatory cytokine playing a significant role in the pathogenesis of the spondyloarthropathies (SpA). Infliximab is a TNF alpha blocking monoclonal antibody efficacious and safe as treatment of adult-onset SpA.\n\nIn this study we will try to demonstrate that infliximab administered at 5mg/kg to patients with juvenile onset SpA over a period of 12 weeks will have more efficacy than placebo and that it will be well tolerated. At the end of this phase, p",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00779012",
+            "title": "Post-Registration Open-Label, Non-Comparative, Multicenter Study of Rate of Efficacy and Tolerance of the Use of Anti-TNF Chimeric Monoclonal Antibodies (Remicade) in Treatment of Patients With Active Ankylosing Spondylitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2004-10-01",
+            "completion_date": "2007-06-01",
+            "brief_summary": "The objective of this study is to prove reasonability of registration in Russian federation this new indication (ankylosing spondylitis \\[AS\\]) through evaluation of safety and efficacy rate of Remicade 5mg/kg, given as an intravenous infusion over a 2-hour period followed by additional 5 mg/kg infusion doses at 2 and 6 weeks after the first infusion, then every 6 to 8 weeks (maximum 9 infusions).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01361542",
+            "title": "Effect Of Anti TNF Alpha Therapy On Disease Activity And Bone Health, And Their Adverse Effects In Ankylosing Spondylitis In A North Indian Population",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2011-02",
+            "completion_date": "2012-01",
+            "brief_summary": "Ankylosing Spondylitis (AS) is a chronic painful progressive inflammatory arthritis of unknown etiology primarily affecting the spine and sacroiliac joints. In addition to formation of new bone leading to syndesmophytes and ankylosis; osteoporosis is also a prominent feature in AS-thus showing the paradox of new bone formation at abnormal sites coexisting with reduced bone mass \\& increased fracture risk. Osteoporosis is a common complication of AS, with an incidence between 18.7% and 62%. TNF a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01604629",
+            "title": "Evaluation of Clinical Value of Standardized Protocol for Dose-reduction in Patients With Spondylarthropathies and Clinical Remission With Anti-TNF Therapy: Open-label, Controlled, Randomized, Multicenter Trial.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2012-07",
+            "completion_date": "2015-09",
+            "brief_summary": "The purpose of this study is to demonstrate that patients with Spondylarthropathies in remission under antiTNF therapy, can maintain the remission with a maintenance dose inferior to the currently recommended dose schedule.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05115903",
+            "title": "A Prospective, Randomized Biologic Tapering Study of TNF Inhibitors in Axial Spondyloarthritis",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 15,
+            "start_date": "2021-12-01",
+            "completion_date": "2024-08-01",
+            "brief_summary": "Current evidence on tapering of tumor necrosis factor inhibitors (TNFi) in axial spondyloarthritis (axSpA) is still hampered by heterogeneity in tapering regimens, selection and performance biases, and lack of data on optimized treatment dosing strategies especially in real-world clinical settings. This study aims to contribute to the ongoing investigation of disease-activity-guided tapering of TNFi in axSpA in the form of a prospective, randomized controlled trial.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00727298",
+            "title": "Post Marketing Surveillance Study of the Labeled Use of Remicade® (Infliximab) in Patients With Chronic Inflammatory Diseases",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 4485,
+            "start_date": "2006-02",
+            "completion_date": "2011-08",
+            "brief_summary": "This study will be performed to evaluate and document the safety and efficacy of infliximab (Remicade®) in the treatment of chronic inflammatory diseases in big cohorts in the daily routine practice of rheumatologists, gastroenterologists, and dermatologists.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27650650",
+            "title": "Infliximab Biosimilar (CT-P13; Infliximab-dyyb): A Review in Autoimmune Inflammatory Diseases.",
+            "authors": [
+              "Blair Hannah A",
+              "Deeks Emma D"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2016",
+            "abstract": "Infliximab biosimilar (CT-P13/infliximab-dyyb; Remsima®, Inflectra®) is approved in several countries for use in all indications for which reference infliximab (Remicade®) is approved, including rheumatoid arthritis (RA), ankylosing spondylitis (AS), psoriatic arthritis, psoriasis, Crohn's disease, and ulcerative colitis. Clinical data contributing to the EU approval of infliximab biosimilar were obtained from two pivotal double-blind clinical trials in patients with AS (PLANETAS) or RA (PLANETR",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27438197",
+            "title": "Infliximab in patients with psoriasis and other inflammatory diseases: evaluation of adverse events in the treatment of 168 patients.",
+            "authors": [
+              "Antonio João Roberto",
+              "Sanmiguel Jessica",
+              "Cagnon Giovana Viotto",
+              "Augusto Marília Silveira Faeda",
+              "Godoy Moacir Fernandes de"
+            ],
+            "journal": "Anais brasileiros de dermatologia",
+            "year": "2016",
+            "abstract": "Psoriasis is immune-mediated chronic inflammatory disease with preference for skin and joints. The skin involvement occurs by hyperproliferation and abnormal differentiation of keratinocytes. It is associated with comorbidities, mainly related to the clinical manifestations of the metabolic syndrome. Increased TNF-alpha expression (TNF-α) is related to its pathophysiology. Infliximab is an intravenous drug that acts neutralizing the biological activity of TNF-α and prevents the binding of the mo",
+            "classification": {
+              "study_type": "Safety Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36624354",
+            "title": "Safety and Effectiveness of SB2 (Infliximab Biosimilar) in Adult Patients with Immune-Mediated Inflammatory Diseases: A Post-Marketing Surveillance in Korea.",
+            "authors": [
+              "Kim Dong W",
+              "Lee Yousun",
+              "Kim Geuntae",
+              "Kim Sang H",
+              "Cho Dae H"
+            ],
+            "journal": "Advances in therapy",
+            "year": "2023",
+            "abstract": "SB2 is a biosimilar of infliximab (IFX), which is approved for rheumatoid arthritis (RA), ankylosing spondylitis (AS), adult and pediatric Crohn's disease (CD), adult and pediatric ulcerative colitis (UC), psoriatic arthritis (PsA), and plaque psoriasis (PsO). The drug approval process in Korea includes post-marketing surveillance (PMS) studies to re-examine the safety and effectiveness of approved new medications.",
+            "classification": {
+              "study_type": "Observational/Real-world",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39734351",
+            "title": "The relationship between drug-induced immunogenicity and hypersensitivity reactions and skin tests related to infliximab, etanercept and adalimumab in patients with rheumatoid arthritis and ankylosing spondylitis.",
+            "authors": [
+              "Doğanci Alper",
+              "Ataman Şebnem",
+              "Özdemirel Ali Erhan",
+              "Seçkin Recep Bülent",
+              "Yalçin Ayşe Peyman"
+            ],
+            "journal": "Turkish journal of medical sciences",
+            "year": "2024",
+            "abstract": "We aimed to investigate the relationship between serum antidrug antibodies (ADAbs), systemic hypersensitivity, or local injection site reactions to tumor necrosis factor (anti-TNF) drugs and to detect the role of skin tests in the diagnosis of hypersensitivity reactions (HSRs) against anti-TNFs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35168933",
+            "title": "Mandatory nonmedical switching from originator to biosimilar infliximab in patients with inflammatory arthritis and psoriasis in British Columbia: a cohort study.",
+            "authors": [
+              "Fisher Anat",
+              "Kim Jason D",
+              "Dormuth Colin R"
+            ],
+            "journal": "CMAJ open",
+            "year": "2022",
+            "abstract": "In 2019, British Columbia's public drug plan, PharmaCare, was the first in Canada to implement a nonmedical switching policy from originator infliximab to its biosimilar, for patients with inflammatory arthritis or psoriasis. We aimed to detect signals of impact on health services utilization during the first year of policy implementation and to provide early data to policy-makers.",
+            "classification": {
+              "study_type": "Real-world Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36752358",
+            "title": "Uptake and Spending on Biosimilar Infliximab and Etanercept After New Start and Switching Policies in Canada: An Interrupted Time Series Analysis.",
+            "authors": [
+              "McClean Alison R",
+              "Cheng Lucy",
+              "Bansback Nick",
+              "Clement Fiona",
+              "Tadrous Mina"
+            ],
+            "journal": "Arthritis care & research",
+            "year": "2023",
+            "abstract": "Uptake of biosimilars has been suboptimal in North America. This study was undertaken to quantify the impact of various policy interventions (namely, new start and switching policies) on uptake and spending on biosimilar infliximab and etanercept in British Columbia (BC), Canada.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28110580",
+            "title": "Calprotectin and spondyloarthritis.",
+            "authors": [
+              "Wendling Daniel",
+              "Verhoeven Frank",
+              "Prati Clément"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17644552",
+            "title": "Inflammatory biomarkers, disease activity and spinal disease measures in patients with ankylosing spondylitis after treatment with infliximab.",
+            "authors": [
+              "Visvanathan S",
+              "Wagner C",
+              "Marini J C",
+              "Baker D",
+              "Gathany T"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2008",
+            "abstract": "To evaluate the relationship between biomarker levels and disease activity and the spinal inflammation detected by magnetic resonance imaging (MRI) in patients with ankylosing spondylitis (AS).",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28752242",
+            "title": "Patients' Understanding and Attitudes Towards Infliximab and Etanercept Biosimilars: Result of a UK Web-Based Survey.",
+            "authors": [
+              "Aladul Mohammed I",
+              "Fitzpatrick Raymond W",
+              "Chapman Stephen R"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2017",
+            "abstract": "Infliximab and etanercept biosimilars present significant potential cost savings to the NHS. Patients need to be involved in the decision to use these medicines but there is limited published literature on their knowledge and attitudes about these biosimilars.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25081573",
+            "title": "The risk of herpes zoster during biological therapy for psoriasis and other inflammatory conditions.",
+            "authors": [
+              "Adelzadeh L",
+              "Jourabchi N",
+              "Wu J J"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2014",
+            "abstract": "Recent advances in biological therapies have proved highly effective in treating psoriasis and other inflammatory conditions, including psoriatic arthritis, rheumatoid arthritis, inflammatory bowel disease and ankylosing spondylitis. However, adverse effects related to their immunosuppression have been observed, including an increased propensity to viral infections. This review evaluates the evidence of herpes zoster (HZ) risk from biologics based on clinical reports, cohort studies and randomiz",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32462255",
+            "title": "Lower concentration of vitamin D is associated with lower DAS28 and VAS-pain scores in patients with inflammatory rheumatic diseases treated with infliximab: a pilot study.",
+            "authors": [
+              "Miler Marijana",
+              "Nikolac Gabaj Nora",
+              "Grazio Simeon",
+              "Vahtarić Antonio",
+              "Vrtarić Alen"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2020",
+            "abstract": "Vitamin D is beneficial in patients with immune-mediated rheumatic diseases as it has been shown that it lowers the incidence risk and the level of inflammation. To examine the association between clinical outcomes and initial 25-hydroxyvitamin D [25(OH)D] concentrations in patients with the immune-mediated rheumatic diseases treated with infliximab for 9 months. This study was performed in patients with rheumatoid arthritis (RA), ankylosing spondylitis (AS) and psoriatic arthritis (PsA) treated",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23010850",
+            "title": "Acute and long-term effect of infliximab on humoral and echocardiographic parameters in patients with chronic inflammatory diseases.",
+            "authors": [
+              "Tomáš L'ubomír",
+              "Lazúrová Ivica",
+              "Pundová Lýdia",
+              "Oetterová Mária",
+              "Zakuciová Mária"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2013",
+            "abstract": "Tumor necrosis factor alpha (TNF-alpha) plays an important role in the pathogenesis of chronic inflammatory diseases, i.e., rheumatoid arthritis (RA), ankylosing spondylitis (AS), Crohn's disease (CD), and ulcerative colitis (UC). Anti-TNF-alpha strategies are successfully used in their treatment. However, their effect on heart function is still uncertain. The objectives of the study were to examine the acute and long-term effect of infliximab on the heart morphology and function in patients wit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24832835",
+            "title": "Comparative efficacy and safety of biosimilar infliximab and other biological treatments in ankylosing spondylitis: systematic literature review and meta-analysis.",
+            "authors": [
+              "Baji Petra",
+              "Péntek Márta",
+              "Szántó Sándor",
+              "Géher Pál",
+              "Gulácsi László"
+            ],
+            "journal": "The European journal of health economics : HEPAC : health economics in prevention and care",
+            "year": "2014",
+            "abstract": "To compare the efficacy and safety of infliximab-biosimilar with other biological drugs for the treatment of active ankylosing spondylitis (AS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12379627",
+            "title": "Infliximab treatment for rheumatic disease: clinical and radiological efficacy.",
+            "authors": [
+              "St Clair E W"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2002",
+            "abstract": "Infliximab is a chimeric anti-tumour necrosis factor alpha (TNFalpha) monoclonal antibody with high affinity and binding specificity for human TNFalpha. Results from several well designed, controlled clinical trials show repeated infusions of infliximab with concomitant methotrexate (MTX) treatment can reduce the signs and symptoms of rheumatoid arthritis (RA). This combination of infliximab and MTX also slows the radiological progression of joint damage, decreases functional disability, and imp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17651658",
+            "title": "Adalimumab, etanercept and infliximab for the treatment of ankylosing spondylitis: a systematic review and economic evaluation.",
+            "authors": [
+              "McLeod C",
+              "Bagust A",
+              "Boland A",
+              "Dagenais P",
+              "Dickson R"
+            ],
+            "journal": "Health technology assessment (Winchester, England)",
+            "year": "2007",
+            "abstract": "To assess the comparative clinical effectiveness and cost-effectiveness of adalimumab, etanercept and infliximab for the treatment of ankylosing spondylitis (AS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27638739",
+            "title": "Biosimilar Monoclonal Antibodies for Inflammatory Bowel Disease: Current Comfort and Future Prospects.",
+            "authors": [
+              "Gecse Krisztina B",
+              "Lakatos Péter L"
+            ],
+            "journal": "Drugs",
+            "year": "2016",
+            "abstract": "Biosimilars are biologic medicines that enter the market after a patent for an original reference product expires. The European Medicines Agency (EMA) developed a stringent legislation process for biosimilar monoclonal antibodies, whereby similarity to the reference medicinal product in terms of quality characteristics, biological activity, clinical safety and efficacy must be demonstrated. Biosimilar infliximab CT-P13 was the first biosimilar monoclonal antibody to receive EMA marketing authori",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34250583",
+            "title": "Infliximab Biosimilar CT-P13 Observational Studies for Rheumatoid Arthritis, Inflammatory Bowel Diseases, and Ankylosing Spondylitis: Pooled Analysis of Long-Term Safety and Effectiveness.",
+            "authors": [
+              "Cheon Jae Hee",
+              "Nah Seongsu",
+              "Kang Hyoun Woo",
+              "Lim Yun Jeong",
+              "Lee Sang-Hoon"
+            ],
+            "journal": "Advances in therapy",
+            "year": "2021",
+            "abstract": "Long-term, real-world safety and effectiveness data are required to support biosimilar use. This analysis pooled 5-year findings from observational studies of infliximab biosimilar CT-P13 treatment in patients with rheumatoid arthritis (RA), inflammatory bowel disease (IBD), and ankylosing spondylitis (AS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37230746",
+            "title": "Axial spondylarthritis following COVID-19 infection.",
+            "authors": [
+              "Gopalarathinam Rajesh",
+              "Nawimana Shainy",
+              "Nune Arvind"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2023",
+            "abstract": "Although SARS-CoV-2 syndrome primarily affects the lungs, systemic manifestations have been reported. New rheumatic immune-mediated inflammatory diseases have been reported following SARS-CoV-2 infection. We present a case of a woman in her mid-30s who developed inflammatory back pain due to bilateral sacroiliitis with erosions after contracting SARS-CoV-2 infection. Her inflammatory markers on presentation were normal. MRI of the sacroiliac joints demonstrated bone marrow oedema and erosive cha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24034373",
+            "title": "Systematic review of the efficacy and adverse events associated with infliximab treatment of hidradenitis suppurativa in patients with coexistent inflammatory diseases.",
+            "authors": [
+              "Machet Laurent",
+              "Samimi Mahtab",
+              "Delage Maïa",
+              "Paintaud Gilles",
+              "Maruani Annabel"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32517574",
+            "title": "An updated review of infliximab biosimilar, CT-P13, in the treatment of immune-mediated inflammatory diseases.",
+            "authors": [
+              "Wook Hong Seung",
+              "Kim Yong-Gil",
+              "Ye Byong Duk"
+            ],
+            "journal": "Immunotherapy",
+            "year": "2020",
+            "abstract": "The introduction of anti-TNFs, such as infliximab (IFX), has revolutionized the treatment of immune-mediated inflammatory diseases. Anti-TNF agents have shown outstanding efficacy and long-term improvement of clinical outcomes, but the cost has been relatively high. Out of this concern, several 'biosimilar' drugs of anti-TNF agents have been developed. CT-P13, the first biosimilar of reference IFX, was approved by the European Medicines Agency and licensed by the US FDA for use in all indication",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "炎症性脊椎病（主要為強直性脊椎炎，AS）的核心病理為骶髂關節及椎體的 TNF-α 驅動慢性炎症，導致新骨生成及脊椎融合。Infliximab 為最早確立療效的抗 TNF 療法之一，ASSERT 試驗（Phase 3 RCT，NCT00051623）及 Phase 3 維持治療試驗（NCT00439283）均顯示 BASDAI/ASAS 顯著改善。此為全球核准適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.8014169931411743,
+        "rank": 41783
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01015547",
+            "title": "Comparison of Anti-TNF Therapy Plus Methotrexate, Combination Therapy of DMARDs, and Methotrexate Alone in Very Early Polyarticular Juvenile Idiopathic Arthritis. A National Randomized Multicenter Clinical Trial.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2003-05",
+            "completion_date": "2013-12",
+            "brief_summary": "The objective of this study is to compare in very early polyarticular juvenile idiopathic arthritis (JIA) the efficacy, safety, and cost-benefit-ratio of three treatment strategies: biologic combination, combination of conventional disease-modifying drugs (DMARDs), and methotrexate alone.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，比較抗 TNF + MTX、DMARDs 組合及 MTX 單藥於 JIA，N=60，已完成，提供治療策略比較數據"
+            }
+          },
+          {
+            "nct_id": "NCT00036374",
+            "title": "A Randomized, Double-Blind Trial of Anti-TNF Chimeric Monoclonal Antibody (Infliximab) in Combination With Methotrexate for the Treatment of Patients With Polyarticular Juvenile Rheumatoid Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 123,
+            "start_date": "2001-10",
+            "completion_date": "2006-12",
+            "brief_summary": "The purpose of this study is to evaluate the effectiveness and safety of infliximab (Remicade) in patients with Juvenile Rheumatoid Arthritis (JRA).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "核心 Phase 3 RCT：Infliximab + MTX 於 pJIA（多關節型幼年型特發性關節炎），N=123，雙盲隨機對照，已完成。為本適應症最強直接證據"
+            }
+          },
+          {
+            "nct_id": "NCT06413563",
+            "title": "Analysis of Peripheral Blood Lymphocytes in Patients With Juvenile Idiopathic Arthritis With Respect to Disease Subtypes and Therapy",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 75,
+            "start_date": "2024-07-15",
+            "completion_date": "2026-11-30",
+            "brief_summary": "Juvenile idiopathic arthritis (JIA) is the most common chronic rheumatic disease in children.\n\nJIA is an umbrella term defining several forms of chronic arthritis with an onset before the age of 16 years, persisting for more than six weeks and with an unknown cause.\n\nBased on the current International League of Associations in Rheumatology classification criteria (ILAR 2003) , different subtypes of JIA can be distinguished, essentially by a very limited set of clinical features (number of affect",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性研究，分析 JIA 患者周邊血液淋巴球亞群，屬機轉探索性研究，非療效試驗"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28418334",
+            "title": "Juvenile Idiopathic Arthritis.",
+            "authors": [
+              "Barut Kenan",
+              "Adrovic Amra",
+              "Şahin Sezgin",
+              "Kasapçopur Özgür"
+            ],
+            "journal": "Balkan medical journal",
+            "year": "2017",
+            "abstract": "Juvenile idiopathic arthritis is the most common chronic rheumatic disease of unknown aetiology in childhood and predominantly presents with peripheral arthritis. The disease is divided into several subgroups, according to demographic characteristics, clinical features, treatment modalities and disease prognosis. Systemic juvenile idiopathic arthritis, which is one of the most frequent disease subtypes, is characterized by recurrent fever and rash. Oligoarticular juvenile idiopathic arthritis, c",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26233720",
+            "title": "Enthesitis-related arthritis.",
+            "authors": [
+              "Aggarwal Amita",
+              "Misra Durga Prasanna"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2015",
+            "abstract": "Juvenile idiopathic arthritis (JIA) is the most common chronic arthritis of childhood. Currently, it is characterized by seven categories. The enthesitis-related arthritis (ERA) category usually affects boys older than 6 years and presents with lower limb asymmetrical arthritis associated with enthesitis. Later, these children can develop inflammatory lumbosacral pain (IBP). These children are at risk of developing acute anterior uveitis. A recently devised disease activity index, Juvenile Spond",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31612428",
+            "title": "Infliximab therapy and outcomes in patients with polyarticular juvenile idiopathic arthritis: a single-center study in China.",
+            "authors": [
+              "Liu Da-Wei",
+              "Chen Jiao-Jiao",
+              "Tang Xue-Mei",
+              "Zhang Yu",
+              "Zhou Juan"
+            ],
+            "journal": "World journal of pediatrics : WJP",
+            "year": "2020",
+            "abstract": "Juvenile idiopathic arthritis (JIA) is a chronic inflammatory disease that includes seven heterogeneous subgroups with different prognoses. In particular, polyarticular JIA (pJIA) has a longer period of active disease and a poorer prognosis. Tumor necrosis factor (TNF)-alpha inhibitors are effective in patients with pJIA, but the therapeutic regimen remains controversial. Here, we performed a single-center study to determine the potential correlation between TNF-alpha inhibitor (infliximab) ther",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33626206",
+            "title": "Response Similarity Assessment Between Polyarticular Juvenile Idiopathic Arthritis and Adult Rheumatoid Arthritis for Biologics.",
+            "authors": [
+              "Singh Renu",
+              "Ivaturi Vijay D",
+              "Penzenstadler Justin",
+              "Liu Tao",
+              "Chen Jianmeng"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2021",
+            "abstract": "Polyarticular juvenile idiopathic arthritis (pJIA) is a pediatric chronic inflammatory arthritis, much like rheumatoid arthritis (RA) in adults. Drug development for pJIA can potentially be expedited by using extrapolation of efficacy from adult RA; however, the lack of understanding of the response and exposure relationship between pJIA and RA to therapeutic interventions has been a major roadblock. To address this, the objective of our analysis was to conduct a systematic response and exposure",
+            "classification": {
+              "study_type": "Comparative Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11583059",
+            "title": "The treatment of juvenile arthritis.",
+            "authors": [
+              "Hamilton J",
+              "Capell H"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2001",
+            "abstract": "Until recently, two different classification systems for juvenile arthritis (JA) were utilised, each with its own terminology and subclassification. It has been recognised that particularly within the polyarticular and pauciarticular groups, many distinct subsets exist each with a different prognosis. As a result, a new classification system for JA has been developed. It is hoped that this will allow more accurate assessment of incidence and aetiology of the various subtypes in future generation",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16327716",
+            "title": "[Etanercept].",
+            "authors": [
+              "Sparsa A"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2005",
+            "abstract": "Etanercept (Enbrel, Wyeth Pharmaceuticals) is a fusion protein composed of a soluble TNF alpha receptor issued from bio-technology. It is a member of TNF alpha's family with two others marked infliximab (Remicade, Scheringh Plough Laboratory), chimeric monoclonal antibody (25 p. 100 mouse) and adalimumab (Humira, Abbott France Laboratory), humanized monoclonal antibody (100 p. 100 human). In United States, etanercept is approved by Food and Drug Administration, since 1998, to treat rheumatoid ar",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17763439",
+            "title": "A randomized, placebo-controlled trial of infliximab plus methotrexate for the treatment of polyarticular-course juvenile rheumatoid arthritis.",
+            "authors": [
+              "Ruperto Nicolino",
+              "Lovell Daniel J",
+              "Cuttica Ruben",
+              "Wilkinson Nick",
+              "Woo Patricia"
+            ],
+            "journal": "Arthritis and rheumatism",
+            "year": "2007",
+            "abstract": "To evaluate the safety and efficacy of infliximab in the treatment of juvenile rheumatoid arthritis (JRA).",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11773549",
+            "title": "Current treatment of juvenile rheumatoid arthritis.",
+            "authors": [
+              "Ilowite Norman T"
+            ],
+            "journal": "Pediatrics",
+            "year": "2002",
+            "abstract": "Prognostic factors in juvenile rheumatoid arthritis (JRA) include polyarticular onset, polyarticular disease course, and rheumatoid factor positivity; in the systemic onset subtype, persistence of systemic features at 6 months after onset confers a worse prognosis. Timely diagnosis and appropriate aggressive treatment of patients with poor prognostic features improve quality of life and outcome. After nonsteroidal anti-inflammatory drugs, methotrexate is the most commonly used second-line agent.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20506561",
+            "title": "Performance of rheumatoid arthritis disease activity measures and juvenile arthritis disease activity scores in polyarticular-course juvenile idiopathic arthritis: Analysis of their ability to classify the American College of Rheumatology pediatric measures of response and the preliminary criteria for flare and inactive disease.",
+            "authors": [
+              "Ringold Sarah",
+              "Bittner Rachel",
+              "Neogi Tuhina",
+              "Wallace Carol A",
+              "Singer Nora G"
+            ],
+            "journal": "Arthritis care & research",
+            "year": "2010",
+            "abstract": "To measure the abilities of the continuous measures of disease activity used in rheumatoid arthritis (RA) and the 3 versions of the Juvenile Arthritis Disease Activity Score (JADAS; based upon 10-, 27-, and 71-joint counts) to accurately classify the American College of Rheumatology (ACR) pediatric measures of response, flare, and inactive disease in polyarticular-course juvenile idiopathic arthritis (JIA).",
+            "classification": {
+              "study_type": "Validation Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20237125",
+            "title": "Long-term efficacy and safety of infliximab plus methotrexate for the treatment of polyarticular-course juvenile rheumatoid arthritis: findings from an open-label treatment extension.",
+            "authors": [
+              "Ruperto Nicolino",
+              "Lovell Daniel J",
+              "Cuttica Ruben",
+              "Woo Patricia",
+              "Meiorin Silvia"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2010",
+            "abstract": "To assess the long-term efficacy and safety of infliximab plus methotrexate in juvenile rheumatoid arthritis (JRA).",
+            "classification": {
+              "study_type": "Long-term Follow-up Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36384562",
+            "title": "Economic evaluation of infliximab, synthetic triple therapy and methotrexate in the treatment of newly diagnosed juvenile idiopathic arthritis.",
+            "authors": [
+              "Tarkiainen Maarit",
+              "Tynjälä Pirjo",
+              "Vähäsalo Paula",
+              "Aalto Kristiina",
+              "Kröger Liisa"
+            ],
+            "journal": "Pediatric rheumatology online journal",
+            "year": "2022",
+            "abstract": "Evaluation of costs and short-term cost-effectiveness of infliximab plus methotrexate (IFX + MTX); triple therapy of hydroxychloquine, sulphasalazine, and methotrexate (TRIPLE); or methotrexate monotherapy (MTX) in patients with new-onset polyarticular juvenile idiopathic arthritis (JIA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12687288",
+            "title": "Therapeutic experience with infliximab in a patient with polyarticular juvenile idiopathic arthritis and uveitis.",
+            "authors": [
+              "Mangge Harald",
+              "Heinzl Bernd",
+              "Grubbauer Hans-Michael",
+              "El-Shabrawi Yosuf",
+              "Schauenstein Konrad"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2003",
+            "abstract": "A pediatric patient with prolonged seronegative polyarticular juvenile idiopathic arthritis (JIA) and concomitant aggressive, anterior uveitis refractory to any conventional antirheumatic therapy was treated with infliximab. Arthritis and C-reactive protein (CRP) values showed prompt positive effects but, after 6 weeks, returned gradually to initial values despite ongoing therapy. In contrast, a more sustained therapeutic effect was observed on the uveitis, with increased visual acuity and reduc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18698187",
+            "title": "Update on biologics in juvenile idiopathic arthritis.",
+            "authors": [
+              "Ilowite Norman T"
+            ],
+            "journal": "Current opinion in rheumatology",
+            "year": "2008",
+            "abstract": "The purpose of this review is to summarize the recent data on biologic therapies in juvenile rheumatoid arthritis. The armamentarium for treatment of juvenile idiopathic arthritis is expanding at a rapid rate, and improved physical and functional outcomes are anticipated. New data from large prospective randomized trials have demonstrated efficacy of anti-tumor necrosis factor agents and a costimulator signal inhibitor.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23337074",
+            "title": "The use of biologic response modifiers in polyarticular-course juvenile idiopathic arthritis: a systematic review.",
+            "authors": [
+              "Ungar Wendy J",
+              "Costa Vania",
+              "Burnett Heather F",
+              "Feldman Brian M",
+              "Laxer Ronald M"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2013",
+            "abstract": "To systematically review the clinical efficacy and safety evidence of biologic drugs used to treat the polyarticular category of juvenile idiopathic arthritis (JIA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21345300",
+            "title": "The 'head-to-head' comparison of etanercept and infliximab in treating children with juvenile idiopathic arthritis.",
+            "authors": [
+              "Lamot Lovro",
+              "Bukovac Lana T",
+              "Vidovic Mandica",
+              "Frleta Marina",
+              "Harjacek Miroslav"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "2011",
+            "abstract": "Our aim was to assess long-term efficacy and tolerability of etanercept and infliximab in patients with JIA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11298065",
+            "title": "Anti-TNF agents for rheumatoid arthritis.",
+            "authors": [
+              "Seymour H E",
+              "Worsley A",
+              "Smith J M",
+              "Thomas S H"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2001",
+            "abstract": "Rheumatoid arthritis (RA) is a chronic inflammatory, autoimmune disease with a prevalence of approximately 1% and an annual incidence of 0.04%. Up to 50% of patients with RA are unable to work 10 years after diagnosis. The disease is associated with significant morbidity and mortality with associated medical costs to the UK of between £240 m and £600 m per year. Non steroidal anti-inflammatory drugs (NSAIDs) have little effect on the underlying course of RA, but they have some anti-inflammatory ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15170361",
+            "title": "Biologic agents for the treatment of juvenile rheumatoid arthritis: current status.",
+            "authors": [
+              "Carrasco Ruy",
+              "Smith Judith A",
+              "Lovell Daniel"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2004",
+            "abstract": "Biologic therapies, primarily anticytokine therapies, are being increasingly used in patients with juvenile rheumatoid arthritis (JRA). Levels of a variety of proinflammatory cytokines have been shown to be elevated in the peripheral blood and synovial fluid and tissue in children with JRA. In a blinded, randomized, controlled trial in children with severe, long-standing, polyarticular-course JRA not responsive to standard therapies, etanercept showed a statistically significantly greater respon",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25868948",
+            "title": "Radiological improvement by tocilizumab in polyarticular juvenile idiopathic arthritis.",
+            "authors": [
+              "Tozawa Yusuke",
+              "Fujita Shouji",
+              "Abe Shuji",
+              "Kitamura Koichi",
+              "Kobayashi Ichiro"
+            ],
+            "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+            "year": "2015",
+            "abstract": "Recent advances in biologic therapy have enabled reduction of the progression of destructive arthritis in rheumatoid arthritis. Once destroyed, however, the affected bones and cartilage are not fully repaired. We describe the case of an 8-year-old girl with anti-citrullinated peptide antibody (ACPA)-positive polyarticular juvenile idiopathic arthritis (p-JIA). Destructive arthritis progressed during combination therapy with infliximab, methotrexate, mizoribine and prednisolone. Clinical remissio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12594111",
+            "title": "Infliximab or etanercept in the treatment of children with refractory juvenile idiopathic arthritis: an open label study.",
+            "authors": [
+              "Lahdenne P",
+              "Vähäsalo P",
+              "Honkanen V"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2003",
+            "abstract": "To study infliximab and etanercept in the treatment of refractory juvenile idiopathic arthritis (JIA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多關節型幼年型特發性關節炎（pJIA）中，TNF-α 介導持續性滑膜炎及軟骨侵蝕，與成人 RA 病理機轉高度相似。NCT00036374（Phase 3 RCT）直接評估 Infliximab + MTX 於 pJIA 的療效，PMID 17763439 為其關鍵發表（N=122，16 週反應率顯著優於安慰劑）。長期數據（PMID 20237125）支持持續療效與可接受安全性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "bronchitis",
+      "txgnn": {
+        "score": 0.778705358505249,
+        "rank": 42738
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00244179",
+            "title": "New Immunomodulatory Therapy Strategies in Chronic Reactive Arthritis: Immunostimulation Plus Antibiotic Versus Immunosuppression Plus Antibiotic Versus Conventional Standardtherapy",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2003-01",
+            "completion_date": "",
+            "brief_summary": "1. to investigate, whether one of the two alternative therapy strategies (antibiotic plus immunostimulation versus antibiotic plus immunosuppression) in chronic reactive arthritis is therapeutical superior to conventionel standardtherapy (DMARD).\n2. to investigate, whether one or more of the different therapy strategies cause an altered detection of bacterial DNA in the joint or colon.\n3. to measure the antigen-specific and -unspecific immune response (predominantly t-cell response) during thera",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，慢性反應性關節炎的免疫調節策略，氣道疾病非主要研究終點"
+            }
+          },
+          {
+            "nct_id": "NCT01862965",
+            "title": "Treatment of Newly Diagnosed Moderate or Severe Chronic Graft-versus-host Disease With Prednisone and Everolimus (PredEver First) - A Prospective Multicenter Phase IIA Study -",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2013-03-06",
+            "completion_date": "2019-03",
+            "brief_summary": "In this study patients with moderate to severe chronic graft-versus-host disease will be treated with a combination of prednisone and everolimus. Patients will be treated on the study for a maximum of 12 months and followed up for another 12 months.\n\nThe primary hypothesis of this study is that the addition of everolimus to prednisone increases response rates without increasing treatment related mortality or mortality due to relapse of underlying disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，GvHD 患者接受 Prednisone + Infliximab 治療，N=38，完成。閉塞性支氣管炎為 GvHD 常見肺部表現，提供特定情境下的間接支氣管相關證據"
+            }
+          },
+          {
+            "nct_id": "NCT06085079",
+            "title": "A 24-week Two-armed Proof-of-concept Exploratory Analysis of Subcutaneous Ixekizumab Administration in Patients With Recalcitrant Non-infectious Intermediate, Posterior, Panuveitis, or Chronic Steroid-dependent Anterior Uveitis.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2022-06-01",
+            "completion_date": "2024-12-30",
+            "brief_summary": "The objective of this study is to explore the efficacy of ixekizumab in treating patients with a diagnosis of non-infectious intermediate, posterior, panuveitis, or chronic steroid-dependent anterior uveitis who had failed treatment with a classic synthetic DMARD including methotrexate, mycophenolate, cyclosporin, azathioprine, cyclophosphamide and/or at least one anti-TNF agent including adalimumab, infliximab, etanercept, golimumab or certolizumab.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，Ixekizumab（抗 IL-17）於呼吸道疾病，不同抗體，機轉不同"
+            }
+          },
+          {
+            "nct_id": "NCT03112603",
+            "title": "A Phase III Randomized Open-label Multi-center Study of Ruxolitinib vs. Best Available Therapy in Patients With Corticosteroid-refractory Chronic Graft vs Host Disease After Allogeneic Stem Cell Transplantation (REACH3)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 330,
+            "start_date": "2017-06-29",
+            "completion_date": "2022-12-15",
+            "brief_summary": "The purpose of this study is to assess the efficacy of ruxolitinib against best available therapy in participants with steroid-refractory chronic graft-versus-host disease (SR cGvHD).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3，Ruxolitinib vs BAT 於 GvHD，非 Infliximab 試驗，不同藥物機轉"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31675916",
+            "title": "Tracheobronchitis in ulcerative colitis: a case report of therapeutic response with infliximab and review of the literature.",
+            "authors": [
+              "Horgan Lisa",
+              "Mulrennan Siobhain",
+              "D'Orsogna Lloyd",
+              "McLean-Tooke Andrew"
+            ],
+            "journal": "BMC gastroenterology",
+            "year": "2019",
+            "abstract": "The extra-intestinal manifestation of tracheobronchitis is a rare complication of ulcerative colitis (UC). Here, we present a case of UC-related tracheobronchitis wherein the positive clinical effects of infliximab are demonstrated.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37493790",
+            "title": "Fulminant organizing pneumonia in a patient with ulcerative colitis on mesalamine and infliximab: striving to identify the cause!",
+            "authors": [
+              "Gomes Lídia",
+              "Marques Maria Alcide",
+              "Ferreira Pedro Gonçalo"
+            ],
+            "journal": "Jornal brasileiro de pneumologia : publicacao oficial da Sociedade Brasileira de Pneumologia e Tisilogia",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20166813",
+            "title": "Extraintestinal manifestations of inflammatory bowel disease: epidemiology, diagnosis, and management.",
+            "authors": [
+              "Larsen Signe",
+              "Bendtzen Klaus",
+              "Nielsen Ole Haagen"
+            ],
+            "journal": "Annals of medicine",
+            "year": "2010",
+            "abstract": "Abstract Extraintestinal manifestations occur rather frequently in inflammatory bowel disease (IBD), e.g. ulcerative colitis (UC) and Crohn's disease (CD). The present paper provides an overview of the epidemiology, clinical characteristics, diagnostic process, and management of rheumatic, metabolic, dermatologic (mucocutaneous), ophthalmologic, hepatobiliary, hematologic, thromboembolic, urinary tract, pulmonary, and pancreatic extraintestinal manifestations related to IBD. Articles were identi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12428187",
+            "title": "Inhibition of the TNF-pathway: use of infliximab and etanercept as remission-inducing agents in cases of therapy-resistant chronic inflammatory disorders.",
+            "authors": [
+              "Aeberli Daniel",
+              "Oertle Stefan",
+              "Mauron Heribert",
+              "Reichenbach Stephan",
+              "Jordi Beat"
+            ],
+            "journal": "Swiss medical weekly",
+            "year": "2002",
+            "abstract": "To examine the potential of the two tumour necrosis factor (TNF) inhibitors infliximab and etanercept as remission-inducing agents in chronic therapy-resistant inflammatory disorders of immune or non-immune pathogenesis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25268663",
+            "title": "Tocilizumab in severe and refractory non-infectious uveitis.",
+            "authors": [
+              "Papo Matthias",
+              "Bielefeld Philip",
+              "Vallet Hélène",
+              "Seve Pascal",
+              "Wechsler Bertrand"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "2014",
+            "abstract": "To report the safety and efficacy of tocilizumab in patients with severe and refractory non-infectious uveitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33272197",
+            "title": "Bordetella bronchiseptica: a rare cause of meningitis.",
+            "authors": [
+              "Radcliffe Christopher",
+              "Lier Audun",
+              "Doilicho Natnael",
+              "Parikh Sunil",
+              "Kaddouh Firas"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2020",
+            "abstract": "Bordetella bronchiseptica is a gram-negative, obligate aerobic coccobacillus known to cause disease in domesticated animals and pets. In humans, B. bronchiseptica commonly leads to respiratory infections like pneumonia or bronchitis, and animal contact usually precedes the onset of symptoms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12548168",
+            "title": "Noninfectious lung pathology in patients with Crohn's disease.",
+            "authors": [
+              "Casey Mary B",
+              "Tazelaar Henry D",
+              "Myers Jeffrey L",
+              "Hunninghake Gary W",
+              "Kakar Sanjay"
+            ],
+            "journal": "The American journal of surgical pathology",
+            "year": "2003",
+            "abstract": "Lung involvement in Crohn's disease is not well characterized. We reviewed our experience with 11 lung biopsies (seven wedge and four transbronchial) from patients with Crohn's disease to study this association further. Negative cultures, special stains for organisms Gomori-methenamine-silver [GMS], acid fast), and polymerase chain reaction for (four cases) were required for inclusion. The group included five women and six men with a mean age of 47 years (range 13-84 years). A diagnosis of Crohn",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23332019",
+            "title": "TNFα, TGFβ, pseudomonas and classically activated macrophages conspire to reprogram the airways in obliterative bronchiolitis.",
+            "authors": [
+              "Neujahr D C"
+            ],
+            "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "Experimental Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38409751",
+            "title": "Bronchiolitis after Combination Immunotherapy With Ipilimumab and Nivolumab in a Melanoma Patient.",
+            "authors": [
+              "Basir Shahir",
+              "Bosiers Jana",
+              "Westgeest Hans M",
+              "Yick David C Y",
+              "van Werven Jochem R"
+            ],
+            "journal": "Journal of immunotherapy (Hagerstown, Md. : 1997)",
+            "year": "2024",
+            "abstract": "Therapy with immune checkpoint inhibitors (ICIs) has significantly improved the prognosis of metastatic melanoma but is also associated with various immune-related adverse events (AE), including pulmonary toxicity. Herein, we describe the case of a 60-year-old female with metastasized melanoma with BRAF mutation under combination immunotherapy with ipilimumab and nivolumab, who presented with a persistent, nonproductive cough for the last two months. Her CT-scan showed de novo bronchial inflamma",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12923437",
+            "title": "Tumor necrosis factor-alpha in a porcine bronchial model of obliterative bronchiolitis.",
+            "authors": [
+              "Alho Hanni S",
+              "Maasilta Paula K",
+              "Harjula Ari L J",
+              "Hämmäinen Pekka",
+              "Salminen Jukka"
+            ],
+            "journal": "Transplantation",
+            "year": "2003",
+            "abstract": "In posttransplant obliterative bronchiolitis (OB), the major pathologic features are inflammation, epithelial cell injury, fibrosis, and obliteration of the small airways. Tumor necrosis factor (TNF)-alpha is a cytokine known to mediate and augment the inflammatory reaction and to enhance fibroblast proliferation. We assessed the role of TNF-alpha in the development of OB in our heterotopic porcine bronchial transplantation model.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34377890",
+            "title": "Real-life drug persistence in patients with rheumatic diseases treated with CT-P13: a prospective observational cohort study (PERSIST).",
+            "authors": [
+              "Taylor Peter C",
+              "Christensen Robin",
+              "Moosavi Shahrzad",
+              "Selema Pamela",
+              "Guilatco Ruffy"
+            ],
+            "journal": "Rheumatology advances in practice",
+            "year": "2021",
+            "abstract": "The aim was to report results from PERSIST, a real-life, observational, prospective cohort study of CT-P13, an infliximab (IFX) biosimilar, for treatment of patients with RA, AS or PsA who were biologic naïve or switched from an IFX reference product (IFX-RP; Remicade).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26236612",
+            "title": "Inflammatory bowel disease of the lung: The role of infliximab?",
+            "authors": [
+              "Hayek Adam J",
+              "Pfanner Timothy P",
+              "White Heath D"
+            ],
+            "journal": "Respiratory medicine case reports",
+            "year": "2015",
+            "abstract": "Pulmonary extra-intestinal manifestations (EIM) of inflammatory bowel disease are well described with a variable incidence. We present a case of Crohn's disease with pulmonary EIM including chronic bronchitis with non-resolving bilateral cavitary pulmonary nodules and mediastinal lymphadenopathy successfully treated with infliximab. Additionally, we present a case summary from a literature review on pulmonary EIM successfully treated with infliximab. Current treatment recommendations include an ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25875401",
+            "title": "Purulent Bronchitis Caused by Staphylococcus aureus in an Adolescent Receiving Infliximab for Crohn's Disease.",
+            "authors": [
+              "Schöndorf D",
+              "Hennes P",
+              "Rentz K",
+              "Becker S L",
+              "Schneider G"
+            ],
+            "journal": "Klinische Padiatrie",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17216703",
+            "title": "Interstitial pneumonitis and anti-tumor necrosis factor-alpha therapy.",
+            "authors": [
+              "Roos Jonathan C P",
+              "Chilvers Edwin R",
+              "Ostor Andrew J K"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21358439",
+            "title": "TNF-α antagonist use and risk of hospitalization for infection in a national cohort of veterans with rheumatoid arthritis.",
+            "authors": [
+              "Lane Michael A",
+              "McDonald Jay R",
+              "Zeringue Angelique L",
+              "Caplan Liron",
+              "Curtis Jeffrey R"
+            ],
+            "journal": "Medicine",
+            "year": "2011",
+            "abstract": "Medications used to treat rheumatoid arthritis (RA) may confer an increased risk of infection. We conducted a retrospective cohort study of veterans with RA followed in the United States Department of Veterans Affairs health care system from October 1998 through September 2005. Risk of hospitalization for infection associated with tumor necrosis factor (TNF)-α antagonists therapy was measured using an extension of Cox proportional hazards regression, adjusting for demographic characteristics, co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23331923",
+            "title": "TNFα from classically activated macrophages accentuates epithelial to mesenchymal transition in obliterative bronchiolitis.",
+            "authors": [
+              "Borthwick L A",
+              "Corris P A",
+              "Mahida R",
+              "Walker A",
+              "Gardner A"
+            ],
+            "journal": "American journal of transplantation : official journal of the American Society of Transplantation and the American Society of Transplant Surgeons",
+            "year": "2013",
+            "abstract": "Bronchiolitis obliterans syndrome is characterized by fibrotic obliteration of small airways which severely impairs graft function and survival after lung transplantation. Bronchial epithelial cells from the transplanted lung can undergo epithelial to mesenchymal transition and this can be accentuated by activated macrophages. Macrophages demonstrate significant plasticity and change phenotype in response to their microenvironment. In this study we aimed to identify secretory products from macro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15565210",
+            "title": "Granulomatous bronchiolitis with necrobiotic pulmonary nodules in Crohn's disease.",
+            "authors": [
+              "Freeman Hugh J",
+              "Davis Jennifer E",
+              "Prest Marcia E",
+              "Lawson Edward J"
+            ],
+            "journal": "Canadian journal of gastroenterology = Journal canadien de gastroenterologie",
+            "year": "2004",
+            "abstract": "A 37-year-old man with extensive Crohn's disease of the stomach, small and large intestine for almost a decade developed respiratory symptoms and radiological findings suggestive of pneumonia that failed to resolve with antibiotic treatment. Computed tomography scanning of his lungs showed extensive changes with cavitated parenchymal nodules. Histological evaluation of an open lung biopsy showed granulomatous bronchiolitis and pulmonary necrobiosis. Treatment with steroids and immunosuppression ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19478123",
+            "title": "Granulomatous bronchiolitis of Crohn's disease successfully treated with inhaled budesonide.",
+            "authors": [
+              "Trow T K",
+              "Morris D G",
+              "Miller C R",
+              "Homer R J"
+            ],
+            "journal": "Thorax",
+            "year": "2009",
+            "abstract": "A 39-year-old white woman with longstanding Crohn's disease presented with the rare complication of granulomatous bronchiolitis. Rapid resolution after inhaled budesonide is highlighted, as this is the first case described in the literature successfully treated without the need for systemic therapy. This less toxic approach to therapy is warranted in granulomatous bronchiolitis of Crohn's disease to avoid unwanted side effects of steroids and infliximab.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16140721",
+            "title": "Successful treatment of bronchiolitis obliterans in a bone marrow transplant patient with tumor necrosis factor-alpha blockade.",
+            "authors": [
+              "Fullmer Jason J",
+              "Fan Leland L",
+              "Dishop Megan K",
+              "Rodgers Cheryl",
+              "Krance Robert"
+            ],
+            "journal": "Pediatrics",
+            "year": "2005",
+            "abstract": "Bronchiolitis obliterans (BO) in children is a rare, inflammatory/fibrosing process involving the small airways that often results in progressive, irreversible obstructive pulmonary disease. Because treatment has focused mainly on supportive care and generally unsuccessful immunosuppression, children with BO experience significant morbidity and mortality. We report a case of biopsy-proven BO after bone marrow transplantation in a child who, after failed corticosteroid therapy, was treated with i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22830223",
+            "title": "[Isolation of antibodies to Chlamydia and Mycoplasma pneumoniae during the immunosuppressive therapy of patients with inflammatory bowel disease].",
+            "authors": [
+              "Sagynbaeva V E",
+              "Lazebnik L B",
+              "Kniazev O V",
+              "Parfenov A I",
+              "Efremov L I"
+            ],
+            "journal": "Eksperimental'naia i klinicheskaia gastroenterologiia = Experimental & clinical gastroenterology",
+            "year": "2012",
+            "abstract": "Detection of IgM and IgG Chlamydia and Mycoplasma pneumoniae indicates an aggravation of intracellular infections, including, possibly, due to immunosuppressive therapy. It is possible that the intracellular infection may mediate the occurrence of certain extraintestinal manifestations of inflammatory bowel disease (IBD), such as bronchitis, pneumonia, etc. Chronic persistent chlamydial and mycoplasmal infections lead to disruption of both cellular and humoral immunity, resulting in the formatio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TNF-α 在氣道炎症中具有調節作用：急性支氣管炎多為感染性（病毒/細菌），TNF-α 阻斷可能延誤感染清除。慢性支氣管炎（COPD相關）或特殊情境（如 IBD 相關氣道受累的氣管支氣管炎）則有間接理論依據。現有文獻主要為 IBD 腸外表現累及氣道的個案報告，非原發性支氣管炎的直接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Crohn disease of the esophagus",
+      "txgnn": {
+        "score": 0.7758358716964722,
+        "rank": 42874
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17298766",
+            "title": "Crohn's disease of the esophagus.",
+            "authors": [
+              "Isaacs Kim L"
+            ],
+            "journal": "Current treatment options in gastroenterology",
+            "year": "2007",
+            "abstract": "Esophageal damage is an uncommon manifestation of Crohn's disease. The diagnosis should be considered in patients who have other intestinal manifestations of Crohn's disease and present with esophageal symptoms. Diagnosis should be based on history, known extraesophageal Crohn's disease, endoscopic evaluation with biopsy, and exclusion of gastroesophageal reflux disease. Mild disease should be treated with acid suppression and a short course of steroids. 5-aminosalicylates are not likely to be e",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18377798",
+            "title": "Esophageal, gastric, and duodenal manifestations of IBD and the role of upper endoscopy in IBD diagnosis.",
+            "authors": [
+              "Turner Dan",
+              "Griffiths Anne M"
+            ],
+            "journal": "Current gastroenterology reports",
+            "year": "2007",
+            "abstract": "Upper gastrointestinal (GI) tract inflammation in inflammatory bowel disease has become increasingly recognized, even in the absence of specific localizing symptoms, as patients more frequently undergo upper endoscopy. Although the recent Montreal classification system allowed classification of upper GI involvement in Crohn's disease (CD), independent of other locations, a consensus regarding the definition of what qualifies as significant \"involvement\" is still lacking. Reported incidence data ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11907371",
+            "title": "Infliximab treatment of an esophagobronchial fistula in a patient with extensive Crohn's disease of the esophagus.",
+            "authors": [
+              "Ho Immanuel K",
+              "Guarino Denise P",
+              "Pertsovskiy Yuriy",
+              "Cerulli Maurice A"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41622053",
+            "title": "Esophageal, gastric and duodenal Crohn's disease in the biologic era: Results from a retrospective observational nationwide study of GETECCU.",
+            "authors": [
+              "López-García Alicia",
+              "Suárez Ferrer Cristina",
+              "Maroto-Martín Carlos",
+              "Fernandez-Prada Samuel Juan",
+              "Marquina Victoria"
+            ],
+            "journal": "Digestive and liver disease : official journal of the Italian Society of Gastroenterology and the Italian Association for the Study of the Liver",
+            "year": "2026",
+            "abstract": "Crohn's disease (CD) affecting the esophagus, stomach, and duodenum (upper CD [UCD]) is a rare phenotype, and data on its outcomes and treatment response are limited.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15625646",
+            "title": "GIH clinical research 2003-2004: the year in review.",
+            "authors": [
+              "Camilleri Michael"
+            ],
+            "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "year": "2004",
+            "abstract": "This article summarizes the clinical research advances in gastroenterology and hepatology that were reviewed during the Plenary Session of the American Gastroenterological Association's Annual Meeting in May 2004 in New Orleans, Louisiana. The clinical research advances included the efficacy of infliximab in the treatment of fistulizing Crohn's disease, survival after isolated intestinal transplantation, the role of endoscopic treatment of bleeding peptic ulcers and Barrett's esophagus, the recu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16954965",
+            "title": "Infliximab as first-line therapy in severe pediatric Crohn disease.",
+            "authors": [
+              "de Ridder Lissy",
+              "Benninga Marc A",
+              "Taminiau Jan A J M",
+              "Hommes Daniël W"
+            ],
+            "journal": "Journal of pediatric gastroenterology and nutrition",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18618629",
+            "title": "Short-term response to adalimumab in childhood inflammatory bowel disease.",
+            "authors": [
+              "Noe Joshua D",
+              "Pfefferkorn Marian"
+            ],
+            "journal": "Inflammatory bowel diseases",
+            "year": "2008",
+            "abstract": "Adalimumab is effective for adults with moderate to severe Crohn's disease (CD). Data in children with inflammatory bowel disease (IBD) is sparse. We aim to evaluate pediatric IBD response to adalimumab.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40386539",
+            "title": "Antitumor Necrosis Factor-Refractory Esophageal Lesions in Crohn's Disease Successfully Treated With Upadacitinib.",
+            "authors": [
+              "Nakamura Naohiro",
+              "Honzawa Yusuke",
+              "Ito Yuka",
+              "Sano Yasuki",
+              "Yagi Naoto"
+            ],
+            "journal": "ACG case reports journal",
+            "year": "2025",
+            "abstract": "A 39-year-old man with a 5-year history of ileocolonic Crohn's disease received treatment with 6-mercaptopurine and adalimumab. A computed tomography scan was performed due to a persistent cough, revealing esophageal wall thickening. Esophagogastroduodenoscopy identified multiple longitudinal ulcers throughout the esophagus. Despite infliximab treatment, the esophageal lesions deteriorated, leading to the initiation of upadacitinib for antitumor necrosis factor-refractory esophageal lesions. Con",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "食道 Crohn 病為 CD 的罕見上消化道表現（上消化道 CD 發生率約 0.2-11%），TNF-α 驅動的透壁性肉芽腫性炎症機轉與小腸/結腸 CD 相同。Infliximab 已核准用於廣義 Crohn 病，食道受累理論上適用相同治療策略，但缺乏專門針對食道部位的 RCT 數據。現有證據主要來自個案報告與回顧性研究，並有一項 2026 年生物製劑時代回顧性研究（PMID 41622053）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "anus disease"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "anus disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "anus disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "bronchitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "Crohn disease of the esophagus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "Crohn disease of the esophagus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Infliximab",
+        "disease": "Crohn disease of the esophagus"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    }
+  ]
+}

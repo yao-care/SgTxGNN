@@ -1,0 +1,1977 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00035-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Desmopressin",
+    "drugbank_id": "DB00035",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn": {
+        "score": 0.9969947338104248,
+        "rank": 4604
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04567511",
+            "title": "Prospective, Single-Arm, Open-Label Use of Hemlibra (Emicizumab) in the Treatment of Mild Hemophilia A",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 20,
+            "start_date": "2022-07-25",
+            "completion_date": "2027-07",
+            "brief_summary": "This is a single arm, phase 4, prospective, open-label, United States single-center study to determine the hemostatic characteristics of Hemlibra (emicizumab) as measured by coagulation laboratory parameters in the mild hemophilia A male patient population with endogenous altered FVIII (baseline FVIII activity of \\>5% to 30%). The safety and hemostatic efficacy of Hemlibra (emicizumab) in this patient population will be investigated. Secondary outcomes will assess changes in joint health and qua",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "完全不相關：(1)研究藥物為Emicizumab（雙特異性抗體），非Desmopressin；(2)適應症為輕型血友病A（FVIII缺乏），非prothrombin缺乏症；(3)研究方向無法外推至本適應症"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7684674",
+            "title": "Congenital bleeding disorders. Rational treatment options.",
+            "authors": [
+              "Seremetis S V",
+              "Aledort L M"
+            ],
+            "journal": "Drugs",
+            "year": "1993",
+            "abstract": "There are rational, effective choices available for the treatment of common inherited bleeding disorders, according to assessment of safety, efficacy and cost. All currently available products for patients with haemophilia A (factor VIII deficiency) are comparable in terms of efficacy and viral safety. However, high purity products are recommended for those with coexisting human immunodeficiency virus (HIV) infection. Many patients with mild haemophilia A and most with von Willebrand's disease c",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21115138",
+            "title": "Acquired hemophilia a: diagnosis, aetiology, clinical spectrum and treatment options.",
+            "authors": [
+              "Shetty Shrimati",
+              "Bhave Manali",
+              "Ghosh Kanjaksha"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2011",
+            "abstract": "Acquired hemophilia A (AHA) is a rare disorder with an incidence of approximately 1 per million/year with a high mortality rate of more than 20%. The disease occurs due to autoantibodies against coagulation factor VIII (FVIII) which neutralize its procoagulant function and result in severe, often life-threatening bleeding. The antibodies arise in individuals with no prior history of hemophilia A. AHA may be associated with pregnancy, autoimmune diseases, malignancy, infections or medication and ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2607619",
+            "title": "[DDAVP administration in a case of congenital combined factor V and factor VIII deficiency].",
+            "authors": [
+              "Takai Y",
+              "Hayashi H",
+              "Ishimaru F",
+              "Fujita T",
+              "Tsurumi N"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "1989",
+            "abstract": "Combined deficiency of factor V and factor VIII, a rare bleeding disorder, was found in a 43 year-old male. He had often presented manifestations of easy bruising since childhood, but none of his family had shown evidence of a bleeding tendency. We examined him and his family as far as we could and his abnormality of blood coagulation was apparent, but the members of his family were normal. The prothrombin time and activated partial thromboplastin time of this patient were prolonged, but his thr",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1942544",
+            "title": "[Management of cesarean section under replacement therapy with factor VIII concentrates in a pregnant case with congenital combined deficiency of factor V and factor VIII].",
+            "authors": [
+              "Ueno H",
+              "Asami M",
+              "Yoneda R",
+              "Muraoka A",
+              "Oribe T"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "1991",
+            "abstract": "The congenital combined deficiency of Factor V and Factor VIII, a rare bleeding disorder, was identified in a 25-year-old woman. She was admitted to our hospital with a complaint of genital bleeding. Her prothrombin time and activated partial thromboplastin time were prolonged. She had low levels of Factor V coagulant activity (F. V:C) 14%, and Factor VIII coagulant activity (F. VIII:C), 12%, and normal levels of von Willebrand factor antigen (vWF:Ag), ristocetin cofactor (Rcof) and Protein C an",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Desmopressin釋放vWF/FVIII，對凝血因子II（prothrombin）缺乏無直接補充作用。機轉連結為間接性——可改善同時存在的vWF/FVIII相關初級止血，但不影響凝血酶原路徑。文獻2607619記錄一例DDAVP用於合併Factor V + VIII缺乏症，顯示在混合凝血病變中的輔助價值，但對單純prothrombin缺乏症的直接證據缺乏。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "inherited thrombophilia",
+      "txgnn": {
+        "score": 0.9944062232971193,
+        "rank": 7013
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16460464",
+            "title": "Desmopressin, an unexpected link between nocturnal enuresis and inherited thrombotic thrombocytopenic purpura (Upshaw-Schulman syndrome).",
+            "authors": [
+              "Veyradier A",
+              "Meyer D",
+              "Loirat C"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Safety Signal",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2657893",
+            "title": "Bleeding disorders in pregnant patients with rheumatic diseases.",
+            "authors": [
+              "Rick M E"
+            ],
+            "journal": "Rheumatic diseases clinics of North America",
+            "year": "1989",
+            "abstract": "Although the bleeding disorders that occur in patients with rheumatic diseases are not different during pregnancy than at other times, their diagnosis and management are often different during pregnancy. In idiopathic thrombocytopenic purpura, for instance, antiplatelet antibodies may cross the placenta and cause life-threatening thrombocytopenia in the fetus while the mother is asymptomatic. Management of this disease has changed significantly in the past 5 years with the use of intravenous gam",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17973844",
+            "title": "Multiple congenital coagulopathies co-expressed with Von Willebrand's disease: the experience of Hemophilia Region III Treatment Centers over 25 years and review of the literature.",
+            "authors": [
+              "Asatiani E",
+              "Kessler C M"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2007",
+            "abstract": "The haematologist medical directors of the Hemophilia Region III Treatment Centers in the mid-Atlantic Region III of the United States identified individuals in their databases diagnosed with additional congenital coagulopathies co-expressing with Von Willebrand's disease (VWD) and its variants. Sixteen individuals from 14 unrelated families, originating from five institutions, had been evaluated comprehensively. They represented approximately 1.5% of the calculated VWD population (n=986) regist",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【安全性警示】Desmopressin釋放大量超大型vWF多聚體（ULVWF），可促進血小板聚集與血栓形成。遺傳性血栓傾向患者（如Factor V Leiden、蛋白C/S缺乏）本已有血栓風險，給予Desmopressin可能顯著加劇凝血活化。文獻16460464即描述Desmopressin與遺傳性血栓性血小板減少性紫癜的意外關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9930167198181152,
+        "rank": 8220
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16722529",
+            "title": "Glanzmann thrombasthenia.",
+            "authors": [
+              "Nurden Alan T"
+            ],
+            "journal": "Orphanet journal of rare diseases",
+            "year": "2006",
+            "abstract": "Glanzmann thrombasthenia (GT) is a rare autosomal recessive bleeding syndrome affecting the megakaryocyte lineage and characterized by lack of platelet aggregation. The molecular basis is linked to quantitative and/or qualitative abnormalities of alphaIIb beta3 integrin. This receptor mediates the binding of adhesive proteins that attach aggregating platelets and ensure thrombus formation at sites of injury in blood vessels. GT is associated with clinical variability: some patients have only min",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19967146",
+            "title": "Glanzmann's thrombasthenia (defective platelet integrin alphaIIb-beta3): proposals for management between evidence and open issues.",
+            "authors": [
+              "Di Minno Giovanni",
+              "Coppola Antonio",
+              "Di Minno Matteo N D",
+              "Poon Man-Chiu"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2009",
+            "abstract": "Glanzmann's Thrombasthenia (GT) is a rare autosomal recessive bleeding disorder, characterized by a quantitative or qualitative defect of platelet surface alpha(IIb)-beta(3) integrin. Presently, no specific guideline/algorithm for clinical management for GT is available. Due to the rarity and heterogeneity of inherited platelet abnormalities, recommendations and guidelines are based on reports from opinions and clinical experience of panel of experts, and refer to the general management of plate",
+            "classification": {
+              "study_type": "Expert Consensus / Guidelines",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22726100",
+            "title": "Inherited platelet disorders.",
+            "authors": [
+              "Nurden A T",
+              "Freson K",
+              "Seligsohn U"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2012",
+            "abstract": "Inherited diseases of the megakaryocyte lineage give rise to bleeding when platelets fail to fulfill their hemostatic function upon vessel injury. Platelet defects extend from the absence or malfunctioning of adhesion (GPIb-IX-V, Bernard-Soulier syndrome) or aggregation receptors (integrin αIIbβ3, Glanzmann thrombasthenia) to defects of primary receptors for soluble agonists, secretion from storage organelles, activation pathways and the generation of procoagulant activity. In disorders such as ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26000186",
+            "title": "Glanzmann's Thrombasthenia Diagnosed following Knee Arthroscopy.",
+            "authors": [
+              "Zvijac John E",
+              "Ammus Sharhabil S",
+              "Aran Fernando",
+              "Kiebzak Gary M"
+            ],
+            "journal": "Case reports in orthopedics",
+            "year": "2015",
+            "abstract": "A 41-year-old man with an unremarkable medical history presented with a painful knee after a sports injury. He was diagnosed with a medial meniscal tear. Symptoms did not abate after 6 months of physical therapy, and he underwent arthroscopic partial medial meniscectomy. A week after beginning physical therapy he experienced a knee effusion, decreased ROM, and inability to flex his quadriceps. His knee was aspirated. Blood tests were ordered and his complete blood count, liver functions tests, a",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41301446",
+            "title": "Molecular Pathogenesis of Inherited Platelet Dysfunction.",
+            "authors": [
+              "Rodríguez-Alén Agustín",
+              "Moscardó Antonio",
+              "Bastida José M",
+              "Rivera José"
+            ],
+            "journal": "Biomolecules",
+            "year": "2025",
+            "abstract": "Inherited platelet function disorders (IPFD) are characterized by normal platelet count and morphology but impaired function due to pathogenic variants in genes encoding membrane receptors, granule constituents, or intracellular signaling proteins. Glanzmann's thrombasthenia, the most representative IPFD, results from ITGA2B or ITGB3 mutations that disrupt the αIIbβ3 integrin complex, producing severe mucocutaneous bleeding. Advances in molecular genetics have expanded the IPFDs landscape to inc",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1321709",
+            "title": "Disorders of platelet function.",
+            "authors": [
+              "Bennett J S",
+              "Kolodziej M A"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1992",
+            "abstract": "Platelets provide for primary hemostasis by forming a hemostatic plug at sites of vascular damage. They also provide a surface for the assembly of the coagulation protein complexes that generate thrombin, serve as a nidus for fibrin clots, and secrete factors involved in wound repair. Normal platelet function can be divided into four phases: adhesion, aggregation, secretion, and expression of procoagulant activity. Platelet adhesion initiates plug formation as platelets adhere to the connective ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30097224",
+            "title": "Inherited Bleeding Disorders in the Obstetric Patient.",
+            "authors": [
+              "Bannow Bethany Samuelson",
+              "Konkle Barbara A"
+            ],
+            "journal": "Transfusion medicine reviews",
+            "year": "2018",
+            "abstract": "Inherited bleeding disorders increase the risk of bleeding in the obstetric patient. Randomized controlled trials to compare prophylactic or therapeutic interventions are rare, and guidance documents rely heavily on expert opinion. Here we report the results of a systematic review of the literature for the treatment and prevention of peripartum bleeding in women with an inherited bleeding disorder. The highest-quality evidence is for the use of tranexamic acid in postpartum hemorrhage, which has",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22726101",
+            "title": "Treatment of inherited platelet disorders.",
+            "authors": [
+              "Seligsohn U"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2012",
+            "abstract": "For patients affected by severe inherited platelet dysfunctions, e.g. Glanzmann thrombasthenia (GT) or Bernard-Soulier syndrome (BSS), platelet transfusion is frequently needed for controlling spontaneous bleeding, and is always needed when trauma occurs or surgery is performed. For the mild-to-moderate bleeding entities, e.g. storage pool disease, thrombaxane A2 receptor defect, platelet transfusion is usually unnecessary. Transfusion of platelets should be used selectively and sparingly becaus",
+            "classification": {
+              "study_type": "Systematic Review / Guidelines",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41265828",
+            "title": "Management of Severe Menorrhagia in an Adolescent with Glanzmann Thrombasthenia: A Case Report and Treatment Approach.",
+            "authors": [
+              "Tiwari Surya Kant",
+              "Sonowal Rimjhim",
+              "Bhowmick Rohit",
+              "Joshi Poonam"
+            ],
+            "journal": "Journal of pediatric and adolescent gynecology",
+            "year": "2025",
+            "abstract": "This case report describes the management of severe menorrhagia in a 13-year-old girl diagnosed with Glanzmann thrombasthenia (GT), a rare inherited platelet disorder. The patient presented with excessive menstrual bleeding, leading to hypovolemic shock. Diagnosis was confirmed by flow cytometry and genetic testing. Treatment included blood product transfusions, tranexamic acid, and ormeloxifene administration. This case required complex management beyond typical hypovolemic shock protocols beca",
+            "classification": {
+              "study_type": "Case Report + Mini-Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22583386",
+            "title": "Inherited platelet disorders and oral health.",
+            "authors": [
+              "Valera Marie-Cécile",
+              "Kemoun Philippe",
+              "Cousty Sarah",
+              "Sie Pierre",
+              "Payrastre Bernard"
+            ],
+            "journal": "Journal of oral pathology & medicine : official publication of the International Association of Oral Pathologists and the American Academy of Oral Pathology",
+            "year": "2013",
+            "abstract": "Platelets play a key role in thrombosis and hemostasis. Accumulation of platelets at the site of vascular injury is the first step in the formation of hemostatic plugs, which play a pivotal role in preventing blood loss after injury. Platelet adhesion at sites of injury results in spreading, secretion, recruitment of additional platelets, and formation of platelet aggregates. Inherited platelet disorders are rare causes of bleeding syndromes, ranging from mild bruising to severe hemorrhage. The ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18278172",
+            "title": "Congenital disorders associated with platelet dysfunctions.",
+            "authors": [
+              "Nurden Paquita",
+              "Nurden Alan T"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2008",
+            "abstract": "Genetic defects of the megakaryocyte lineage give rise to bleeding syndromes of varying severity. Blood platelets are unable to fulfill their hemostatic function of preventing blood loss on vessel injury. Spontaneous bleeding is mostly mucocutaneous in nature. Most studied are deficiencies of glycoprotein (GP) mediators of adhesion (Bernard-Soulier syndrome) and aggregation (Glanzmann thrombasthenia) which concern the GPIb-IX-V complex and the integrin alphaIIbbeta3, respectively. Defects of pri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10509036",
+            "title": "In vitro and in vivo effects of desmopressin on platelet function.",
+            "authors": [
+              "Balduini C L",
+              "Noris P",
+              "Belletti S",
+              "Spedini P",
+              "Gamba G"
+            ],
+            "journal": "Haematologica",
+            "year": "1999",
+            "abstract": "Desmopressin (DDAVP) may shorten bleeding time in patients with disorders of platelet function, but its mechanism of action in these conditions is still a matter of debate. In particular, contrasting results have been obtained concerning the ability of DDAVP to interact with platelets and to activate them directly. To gain further information on the DDAVP-platelet interaction, we studied the in vitro and ex vivo effects of DDAVP on platelet function.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30031712",
+            "title": "Inherited platelet functional disorders: General principles and practical aspects of management.",
+            "authors": [
+              "Lee Adrienne",
+              "Poon Man-Chiu"
+            ],
+            "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+            "year": "2018",
+            "abstract": "Platelets are a critical component for effecting hemostasis and wound healing. Disorders affecting any platelet pathway mediating adhesion, activation, aggregation and procoagulant surface exposure can result in a bleeding diathesis. Specific diagnosis even with advanced techniques which are unavailable to most centers is often difficult. Inherited platelet function disorders therefore represent a heterogeneous and complex collection of disorders with a spectrum of bleeding severity, from relati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1785670",
+            "title": "Synergistic shortening of the bleeding time by desmopressin and ethamsylate in patients with various constitutional bleeding disorders.",
+            "authors": [
+              "Kobrinsky N L",
+              "Israels E D",
+              "Bickis M G"
+            ],
+            "journal": "The American journal of pediatric hematology/oncology",
+            "year": "1991",
+            "abstract": "Desmopressin and ethamsylate were evaluated for possible synergistic effects on the bleeding time. The drugs were administered individually and together to 12 patients with markedly prolonged bleeding times known to be relatively or absolutely unresponsive to desmopressin alone. The bleeding disorders studied included Glanzmann's thrombasthenia (one), other disorders of platelet function (four), pseudo-von Willebrand disease (one), and von Willebrand disease type I (three), type II (two), and ty",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16444446",
+            "title": "Recombinant activated factor VII combined with desmopressin in preventing bleeding from dental extraction in a patient with Glanzmann's thrombasthenia.",
+            "authors": [
+              "Lombardo Vincenzo Trapani",
+              "Sottilotta Gianluca"
+            ],
+            "journal": "Clinical and applied thrombosis/hemostasis : official journal of the International Academy of Clinical and Applied Thrombosis/Hemostasis",
+            "year": "2006",
+            "abstract": "The case of a 41-year-old woman with Glanzmann's thrombasthenia who underwent double dental extraction is presented. In the past, treatments with desmopressin (DDAVP) and tranexamic acid had often unsuccessful efficacy to stop or decrease bleeding. After ineffective DDAVP administration, the removal was performed successfully with recombinant activated factor VII (rFVIIa) infusion. rFVIIa infusion after DDAVP administration could be useful in patients with Glanzmann's thrombasthenia in which DDA",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1415176",
+            "title": "Hand surgery in Glanzmann's thrombasthenia.",
+            "authors": [
+              "Sweeney J D",
+              "Hoernig L A",
+              "Behrens A A",
+              "Bloom M L"
+            ],
+            "journal": "American journal of hematology",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25370176",
+            "title": "[Therapy of inherited diseases of platelet function. Interdisciplinary S2K guideline of the Permanent Paediatric Committee of the Society of Thrombosis and Haemostasis Research (GTH e. V.)].",
+            "authors": [
+              "Streif W",
+              "Knöfler R",
+              "Eberl W",
+              "Andres O",
+              "Bakchoul T"
+            ],
+            "journal": "Hamostaseologie",
+            "year": "2014",
+            "abstract": "Inherited disorders of platelet function are a heterogeneous group. For optimal prevention and management of bleeding, classification and diagnosis of the underlying defect are highly recommended. An interdisciplinary guideline for a diagnostic approach has been published (AWMF # 086-003 S2K; Hämostaseologie 2014; 34: 201-212). Underlying platelet disorder, platelet count, age and clinical situation modify treatment. Exclusive transfusion of platelet concentrates may be inappropriate as potentia",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32610148",
+            "title": "Outpatient Management of Heavy Menstrual Bleeding in Adolescent and Young Women with Inherited Platelet Function Disorders.",
+            "authors": [
+              "Pennesi Christine M",
+              "Quint Elisabeth H",
+              "Rosen Monica W",
+              "Compton Sarah D",
+              "Odukoya Erica J"
+            ],
+            "journal": "Journal of pediatric and adolescent gynecology",
+            "year": "2020",
+            "abstract": "To assess the treatment patterns and efficacy of hormonal (HM) and non-HM (NHM) management of heavy menstrual bleeding (HMB) in young women with inherited platelet function disorders (IPFDs).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8735808",
+            "title": "Studies of the platelet filter test (shear dependent platelet aggregation) in patients with uncommon haemorrhagic disorders.",
+            "authors": [
+              "Boda Z",
+              "Tornai I",
+              "Rak K"
+            ],
+            "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+            "year": "1996",
+            "abstract": "Platelets of anticoagulated whole blood forced at 40 mmHg through a fine filter are activated, aggregated and retained, so block the filter (platelet filter test, O'Brien JR, Salmon GP. Blood 1987; 1354-1361). Our clinical experiences with this simple and quick haemostasis test are summarized. Patients were investigated with different types of vWD (type-1 = 35, type-2A = 7, type-2B = 7, type-3 = 1), Glanzmann's thrombasthenia, congenital deficiency of cyclo-oxygenase, acquired Bernard-Soulier sy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17973844",
+            "title": "Multiple congenital coagulopathies co-expressed with Von Willebrand's disease: the experience of Hemophilia Region III Treatment Centers over 25 years and review of the literature.",
+            "authors": [
+              "Asatiani E",
+              "Kessler C M"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2007",
+            "abstract": "The haematologist medical directors of the Hemophilia Region III Treatment Centers in the mid-Atlantic Region III of the United States identified individuals in their databases diagnosed with additional congenital coagulopathies co-expressing with Von Willebrand's disease (VWD) and its variants. Sixteen individuals from 14 unrelated families, originating from five institutions, had been evaluated comprehensively. They represented approximately 1.5% of the calculated VWD population (n=986) regist",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glanzmann血小板功能不全症（GT）為GPIIb/IIIa缺乏或功能異常，影響纖維蛋白原依賴性血小板聚集。Desmopressin釋放vWF可增強vWF-GP1b軸介導的血小板黏附，在一定程度補償GPIIb/IIIa缺失，但無法修復原發缺陷。文獻19967146（2009管理共識）及22726101（2012治療指南）均將DDAVP列為GT的輔助治療選項，特別於輕中度出血事件或手術前。臨床使用需先行DDAVP試驗（test dose）評估個體反應性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9926204681396484,
+        "rank": 8534
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30986390",
+            "title": "AGA Clinical Practice Update: Coagulation in Cirrhosis.",
+            "authors": [
+              "O'Leary Jacqueline G",
+              "Greenberg Charles S",
+              "Patton Heather M",
+              "Caldwell Stephen H"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2019",
+            "abstract": "This expert review was commissioned and approved by the AGA Institute Clinical Practice Updates Committee and the AGA Governing Board to provide timely guidance on a topic of high clinical importance to the AGA membership. The intent is to evaluate the current data on mechanism of altered coagulation in patients with cirrhosis, provide guidance on the use of currently available testing of the coagulation cascade, and help practitioners use anticoagulation and pro-coagulants appropriately in pati",
+            "classification": {
+              "study_type": "Clinical Practice Update",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22726100",
+            "title": "Inherited platelet disorders.",
+            "authors": [
+              "Nurden A T",
+              "Freson K",
+              "Seligsohn U"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2012",
+            "abstract": "Inherited diseases of the megakaryocyte lineage give rise to bleeding when platelets fail to fulfill their hemostatic function upon vessel injury. Platelet defects extend from the absence or malfunctioning of adhesion (GPIb-IX-V, Bernard-Soulier syndrome) or aggregation receptors (integrin αIIbβ3, Glanzmann thrombasthenia) to defects of primary receptors for soluble agonists, secretion from storage organelles, activation pathways and the generation of procoagulant activity. In disorders such as ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1321709",
+            "title": "Disorders of platelet function.",
+            "authors": [
+              "Bennett J S",
+              "Kolodziej M A"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1992",
+            "abstract": "Platelets provide for primary hemostasis by forming a hemostatic plug at sites of vascular damage. They also provide a surface for the assembly of the coagulation protein complexes that generate thrombin, serve as a nidus for fibrin clots, and secrete factors involved in wound repair. Normal platelet function can be divided into four phases: adhesion, aggregation, secretion, and expression of procoagulant activity. Platelet adhesion initiates plug formation as platelets adhere to the connective ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23051555",
+            "title": "Increased amounts of von Willebrand factor are bound to microparticles after infusion of desmopressin.",
+            "authors": [
+              "Trummer A",
+              "Haarmeijer B",
+              "Werwitzke S",
+              "Wermes C",
+              "Ganser A"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2013",
+            "abstract": "Effects of desmopressin (DDAVP) in platelet disorders and primary haemostasis cannot be attributed solely to the increase in FVIII/VWF (von Willebrand factor), as VWF/FVIII concentrates have no effect in these circumstances. Microparticles (MP) can support haemostasis by expression of phospholipids, tissue factor and VWF on their surface. We hypothesized that significant amounts of VWF are bound to MP after DDAVP administration and that consequently depletion of MP should influence VWF:Ag and VW",
+            "classification": {
+              "study_type": "Prospective Mechanistic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36656570",
+            "title": "Desmopressin as a hemostatic and blood sparing agent in bleeding disorders.",
+            "authors": [
+              "Mohinani Ajay",
+              "Patel Sarah",
+              "Tan Virginia",
+              "Kartika Thomas",
+              "Olson Sven"
+            ],
+            "journal": "European journal of haematology",
+            "year": "2023",
+            "abstract": "Intranasal, subcutaneous, or intravenous desmopressin can be utilized to release von Willebrand Factor and Factor VIII into circulation, enhance platelet adhesion and shorten bleeding time. Due to these properties, desmopressin can be effective in controlling bleeding in mild hemophilia A, certain subtypes of von Willebrand disease and in acute bleeding from uremia, end stage renal disease, and liver disease. Its use, however, can be complicated by hyponatremia and rarely arterial thrombotic eve",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18278172",
+            "title": "Congenital disorders associated with platelet dysfunctions.",
+            "authors": [
+              "Nurden Paquita",
+              "Nurden Alan T"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2008",
+            "abstract": "Genetic defects of the megakaryocyte lineage give rise to bleeding syndromes of varying severity. Blood platelets are unable to fulfill their hemostatic function of preventing blood loss on vessel injury. Spontaneous bleeding is mostly mucocutaneous in nature. Most studied are deficiencies of glycoprotein (GP) mediators of adhesion (Bernard-Soulier syndrome) and aggregation (Glanzmann thrombasthenia) which concern the GPIb-IX-V complex and the integrin alphaIIbbeta3, respectively. Defects of pri",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21509710",
+            "title": "Evaluation of desmopressin effect on primary haemostasis in pediatric patients with aspirin-like defect as hereditary thrombocytopathy.",
+            "authors": [
+              "Tauer J T",
+              "Gneuss A",
+              "Lohse J E",
+              "Jürgens T",
+              "Knöfler R"
+            ],
+            "journal": "Klinische Padiatrie",
+            "year": "2011",
+            "abstract": "Despite about 3 decades of clinical experience with the therapy of inherited thrombocytopathies (HTP) with desmopressin (DDAVP) the mechanisms of haemostatic effects of DDAVP in these diseases remain unclear. Therefore platelet function diagnostics was carried out in whole blood (WB) from children with aspirin-like defect as one of the clinically mild forms of HTP after DDAVP administration.",
+            "classification": {
+              "study_type": "Prospective Observational Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2514817",
+            "title": "von Willebrand factor and its disorders: an overview of recent molecular studies.",
+            "authors": [
+              "Tuddenham E G"
+            ],
+            "journal": "Blood reviews",
+            "year": "1989",
+            "abstract": "von Willebrand factor (vWF) is a plasma protein with multiple functions in haemostasis. The vWF gene, located on chromosome 12p2.1, encodes a primary gene product of 2813 amino acids. Post-translational modification, assembly and secretion of vWF are highly complex. The pro vWF promoter is covalently linked by intermolecular disulphide bonds to form a dimer of MW approximately 440 kDa. This then polymerises to form multimers ranging in MW from 1-20 x 10(6). Simultaneously the pro piece of vWF is",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16580053",
+            "title": "Prophylaxis and von Willebrand's disease (vWD).",
+            "authors": [
+              "Abshire Thomas C"
+            ],
+            "journal": "Thrombosis research",
+            "year": "2006",
+            "abstract": "Von Willebrand disease (vWD) is an inherited bleeding disorder with a prevalence of approximately 1% in the general population. The bleeding occurs in this disorder primarily because of abnormalities in platelet adhesion, due to a primary deficiency or defect in the von Willebrand factor (vWF) often with a concomitant decrease in factor VIII (FVIII) levels. The mainstay of treatment for the majority of patients with vWD is desmopressin, which releases vWF from endothelial cells. For patients in ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26637729",
+            "title": "Coagulopathy in liver disease: a balancing act.",
+            "authors": [
+              "Kujovich Jody L"
+            ],
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2015",
+            "abstract": "Liver disease results in complex alterations of all 3 phases of hemostasis. It is now recognized that hemostasis is rebalanced in chronic liver disease. The fall in clotting factor levels is accompanied by a parallel fall in anticoagulant proteins. High von Willebrand factor levels counteract defects in primary hemostasis. Conventional coagulation tests do not fully reflect the derangement in hemostasis and do not accurately predict the risk of bleeding. Global coagulation assays (thrombin gener",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34818873",
+            "title": "The von Willebrand factor A-1 domain binding aptamer BT200 elevates plasma levels of von Willebrand factor and factor VIII: a first-in-human trial.",
+            "authors": [
+              "Kovacevic Katarina D",
+              "Grafeneder Jürgen",
+              "Schörgenhofer Christian",
+              "Gelbenegger Georg",
+              "Gager Gloria"
+            ],
+            "journal": "Haematologica",
+            "year": "2022",
+            "abstract": "Von Willebrand factor (VWF) and factor VIII (FVIII) circulate in a noncovalent complex in blood and promote primary hemostasis and clotting, respectively. A new VWF A1-domain binding aptamer, BT200, demonstrated good subcutaneous bioavailability and a long half-life in non-human primates. This first-in-human, randomized, placebo-controlled, doubleblind trial tested the hypothesis that BT200 is well tolerated and has favorable pharmacokinetic and pharmacodynamic effects in 112 volunteers. Partici",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22057877",
+            "title": "Therapy refractory menorrhagia as first manifestation of Hermansky-Pudlak syndrome.",
+            "authors": [
+              "Lohse J",
+              "Gehrisch S",
+              "Tauer J T",
+              "Knöfler R"
+            ],
+            "journal": "Hamostaseologie",
+            "year": "2011",
+            "abstract": "Oculocutaneous albinism (OCA) in combination with a platelet function defect caused by a disturbed release reaction from platelet δ-granules (storage pool defect - SPD) is typical for the autosomal recessive inherited Hermansky-Pudlak syndrome (HPS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2508791",
+            "title": "DDAVP shortens the prolonged bleeding times of patients with severe von Willebrand disease treated with cryoprecipitate. Evidence for a mechanism of action independent of released von Willebrand factor.",
+            "authors": [
+              "Cattaneo M",
+              "Moia M",
+              "Delle Valle P",
+              "Castellana P",
+              "Mannucci P M"
+            ],
+            "journal": "Blood",
+            "year": "1989",
+            "abstract": "After infusion of cryoprecipitate, the very prolonged bleeding time of patients with severe von Willebrand disease (vWD) is shortened but not always normalized in spite of normalization of plasma von Willebrand factor (vWF) levels. Therefore treatments that further improve primary hemostasis in severe vWD patients are needed. Since DDAVP shortens the bleeding time in a variety of bleeding disorders, we investigated in a double-blind, placebo-controlled crossover study the effects of the intraven",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7819105",
+            "title": "Role of ADP in platelet aggregation at high shear: studies in a patient with congenital defect of platelet responses to ADP.",
+            "authors": [
+              "Cattaneo M",
+              "Zighetti M L",
+              "Lombardi R",
+              "Mannucci P M"
+            ],
+            "journal": "British journal of haematology",
+            "year": "1994",
+            "abstract": "The in vitro measurement of platelet aggregation (PA) at the high shear levels that can be found in the microcirculation may provide useful informations on primary haemostasis, which is usually explored in vivo with the skin bleeding time (BT). PA at high shear requires von Willebrand factor (vWf) and the platelet glycoprotein (GP) complexes Ib/IX/V and IIb/IIIa; controversial results have been reported on its requirement of released adenosine diphosphate (ADP). Due to its dependence on vWf, PA ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1613990",
+            "title": "[Hemostatic control in platelet dysfunction and abnormality by DDAVP].",
+            "authors": [
+              "Mito M",
+              "Higuchi W",
+              "Fuse I",
+              "Hattori A",
+              "Shibata A"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1992",
+            "abstract": "DDAVP infusion shortens the bleeding time in patients with some types of platelet dysfunction and may be useful for hemostatic control. In order to clarify the mechanism of DDAVP to correct or bypass the release defect, we examined the effect in 17 patients with prolonged bleeding time, i.e., 11 with various kinds of platelet dysfunction, 4 with idiopathic thrombocytopenic purpura (ITP), 1 with chronic myelocytic leukemia (CML), and in an aspirin-ingested volunteer. DDAVP shortened the bleeding ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血小板初級釋放缺陷（如dense granule缺乏症、αδ storage pool disease、aspirin-like defects）影響ADP/TXA2釋放路徑。Desmopressin通過：(1)釋放大量vWF多聚體增強血小板-血管壁黏附；(2)增加循環FVIII改善繼發止血；(3)促進血小板微粒形成（文獻23051555）來部分補償釋放缺陷。文獻21509710（2011前瞻性兒科研究）為直接臨床證據，文獻36656570（2023系統性回顧）確認其在出血疾病中的廣泛有效性。此為現有最強證據的適應症之一。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.991613268852234,
+        "rank": 9310
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30655369",
+            "title": "Mechanisms of thrombocytopenia in platelet-type von Willebrand disease.",
+            "authors": [
+              "Bury Loredana",
+              "Malara Alessandro",
+              "Momi Stefania",
+              "Petito Eleonora",
+              "Balduini Alessandra"
+            ],
+            "journal": "Haematologica",
+            "year": "2019",
+            "abstract": "Platelet-type von Willebrand disease is an inherited platelet disorder characterized by thrombocytopenia with large platelets caused by gain-of-function variants in GP1BA leading to enhanced GPIbα-von Willebrand factor (vWF) interaction. GPIbα and vWF play a role in megakaryocytopoiesis, thus we aimed to investigate megakaryocyte differentiation and proplatelet-formation in platelet-type von Willebrand disease using megakaryocytes from a patient carrying the Met239Val variant and from mice carry",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20012256",
+            "title": "[Von Willebrand disease : diagnosis and management].",
+            "authors": [
+              "Antony C",
+              "Rossaint R",
+              "Schaelte G"
+            ],
+            "journal": "Der Internist",
+            "year": "2010",
+            "abstract": "Von Willebrand's disease is an inherited bleeding disorder with a prevalence as high as 1% in the general population. The disease is caused by the quantitative deficiency or dysfunction of von Willebrand factor (VWF), a large multimeric glycoprotein. VWF has two main functions in hemostasis: it is essential for platelet-plug formation as an adhesion protein and it forms a non-covalent complex with coagulation factor VIII in plasma, thereby protecting it from inactivation and clearance. Inherited",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27819553",
+            "title": "PT-VWD posing diagnostic and therapeutic challenges - small case series.",
+            "authors": [
+              "Sánchez-Luceros Analía",
+              "Woods Adriana I",
+              "Bermejo Emilse",
+              "Shukla Shilpa",
+              "Acharya Suchitra"
+            ],
+            "journal": "Platelets",
+            "year": "2017",
+            "abstract": "Despite the increased worldwide awareness, over the last decade, of the platelet-type von Willebrand Disease (PT-VWD), many uncertainties remain around this rare platelet bleeding disorder. This report aims to correctly identify and study the phenotype of new patients and highlights the diagnostic and therapeutic challenges this disease remains to pose. We describe four PT-VWD cases confirmed by genetic analysis in which either the diagnosis and/or the treatment posed challenge. We provide the d",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1785670",
+            "title": "Synergistic shortening of the bleeding time by desmopressin and ethamsylate in patients with various constitutional bleeding disorders.",
+            "authors": [
+              "Kobrinsky N L",
+              "Israels E D",
+              "Bickis M G"
+            ],
+            "journal": "The American journal of pediatric hematology/oncology",
+            "year": "1991",
+            "abstract": "Desmopressin and ethamsylate were evaluated for possible synergistic effects on the bleeding time. The drugs were administered individually and together to 12 patients with markedly prolonged bleeding times known to be relatively or absolutely unresponsive to desmopressin alone. The bleeding disorders studied included Glanzmann's thrombasthenia (one), other disorders of platelet function (four), pseudo-von Willebrand disease (one), and von Willebrand disease type I (three), type II (two), and ty",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【安全性警示】假性VWD（PT-VWD / Platelet-type VWD）為GP1bα功能增益突變，導致血小板過度結合vWF超大多聚體。Desmopressin大量釋放ULVWF多聚體，將促進異常血小板-vWF交聯，可能誘發或加重血小板消耗性血栓（thrombocytopenia加劇）。文獻27819553明確指出PT-VWD在診療上為禁忌或需極度謹慎使用DDAVP。此與Type 2B VWD禁忌同理，且文獻30655369詳述其血栓機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Scott syndrome",
+      "txgnn": {
+        "score": 0.9916057586669922,
+        "rank": 9321
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36074709",
+            "title": "Update on platelet procoagulant mechanisms in health and in bleeding disorders.",
+            "authors": [
+              "Bourguignon Alex",
+              "Tasneem Subia",
+              "Hayward Catherine P M"
+            ],
+            "journal": "International journal of laboratory hematology",
+            "year": "2022",
+            "abstract": "Platelet procoagulant mechanisms are emerging to be complex and important to achieving haemostasis. The mechanisms include the release of procoagulant molecules from platelet storage granules, and strong agonist-induced expression of procoagulant phospholipids on the outer platelet membrane for tenase and prothrombinase assembly. The release of dense granule polyphosphate is important to platelet procoagulant function as it promotes the activation of factors XII, XI and V, inhibits tissue factor",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Scott症候群為TMEM16F（ANO6）功能缺失突變，導致磷脂醯絲胺酸（PS）外化障礙，影響凝血酶原酶複合體組裝（因子Xa/Va/Ca²⁺/PS）。Desmopressin的vWF/FVIII釋放機轉完全不針對PS外化缺陷，無法修復Scott症候群的核心病理。僅有一篇機轉回顧文獻（36074709）間接提及，無任何臨床試驗或治療案例支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "flood factor deficiency",
+      "txgnn": {
+        "score": 0.9915144443511964,
+        "rank": 9394
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39054329",
+            "title": "von Willebrand disease.",
+            "authors": [
+              "Seidizadeh Omid",
+              "Eikenboom Jeroen C J",
+              "Denis Cécile V",
+              "Flood Veronica H",
+              "James Paula"
+            ],
+            "journal": "Nature reviews. Disease primers",
+            "year": "2024",
+            "abstract": "von Willebrand disease (VWD) is the most common inherited bleeding disorder. The disorder is characterized by excessive mucocutaneous bleeding. The most common bleeding manifestations of this condition include nosebleeds, bruising, bleeding from minor wounds, menorrhagia or postpartum bleeding in women as well as bleeding after surgery. Other less frequent symptoms include gastrointestinal bleeding, haematomas or haemarthroses. VWD pathophysiology is complex and results from defects in von Wille",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【疾病分類存疑】'Flood factor deficiency'非標準醫學術語，可能為罕見凝血因子缺乏症的非正式命名或資料庫分類錯誤。唯一相關文獻（39054329）為2024年VWD回顧，提示TxGNN可能將此疾病誤分類至vWF相關疾病群組。在疾病身份確認前，無法評估Desmopressin的治療潛力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "thrombocytopenic purpura",
+      "txgnn": {
+        "score": 0.989537477493286,
+        "rank": 10864
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00632242",
+            "title": "A Phase 2 Pilot Study of the Safety, Pharmacokinetics, and Pharmacodynamics of ARC1779 Injection in Patients With Von Willebrand Factor-Related Platelet Function Disorders",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2008-01",
+            "completion_date": "2008-12",
+            "brief_summary": "To evaluate the overall safety and tolerability of ARC1779, a therapeutic oligonucleotide (\"aptamer\") in patients with three types of von Willebrand Factor related platelet disorders.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "反向證據：(1)研究藥物為ARC1779（抗vWF適體），非Desmopressin；(2)該試驗藉由阻斷vWF治療TTP，間接論證DDAVP（釋放vWF）在TTP中的危險性；(3)機轉完全相反，不支持Desmopressin用於此適應症"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16416683",
+            "title": "Unique case of thrombotic thrombocytopenic purpura and diabetes insipidus.",
+            "authors": [
+              "Qureshi Mahpara",
+              "Pathak Naveen",
+              "Pinsker Richard W",
+              "Gintautas Jonas",
+              "Santucci Thomas"
+            ],
+            "journal": "Proceedings of the Western Pharmacology Society",
+            "year": "2005",
+            "abstract": "Thrombotic thrombocytopenic purpura (TTP) is a rare and often fatal disorder characterized by thrombocytopenia, microangiopathic hemolytic anemia, mental status changes, and renal dysfunction. Central diabetes insipidus (CDI) is a rare disease due to anatomic lesions of the hypothalamicpituitary system associated with various underlying diseases, or trauma. We present an unusual case of TTP and CDI in a 47 year-old African American female who was admitted to our hospital with crampy abdominal pa",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16460464",
+            "title": "Desmopressin, an unexpected link between nocturnal enuresis and inherited thrombotic thrombocytopenic purpura (Upshaw-Schulman syndrome).",
+            "authors": [
+              "Veyradier A",
+              "Meyer D",
+              "Loirat C"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8828561",
+            "title": "Screening and diagnosis of coagulation disorders.",
+            "authors": [
+              "Lusher J M"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1996",
+            "abstract": "After clinical assessment, pertinent history, and family history, the clinician often has a good idea concerning the cause of a patient's bleeding. The most appropriate laboratory tests can then be ordered. Routine screening tests include a complete blood cell count, platelet count, and evaluation of a peripheral blood sample, a prothrombin time, and an activated partial thromboplastin time. Thrombocytopenia may result from idiopathic thrombocytopenic purpura, disseminated intravascular coagulat",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36807283",
+            "title": "The Role of the von Willebrand Factor Collagen-Binding Assay (VWF:CB) in the Diagnosis and Treatment of von Willebrand Disease (VWD) and Way Beyond: A Comprehensive 36-Year History.",
+            "authors": [
+              "Favaloro Emmanuel J"
+            ],
+            "journal": "Seminars in thrombosis and hemostasis",
+            "year": "2024",
+            "abstract": "The von Willebrand factor (VWF) collagen binding (VWF:CB) assay was first reported for use in von Willebrand diagnostics in 1986, by Brown and Bosak. Since then, the VWF:CB has continued to be used to help diagnose von Willebrand disease (VWD) (correctly) and also to help assign the correct subtype, as well as to assist in the monitoring of VWD therapy, especially desmopressin (DDAVP). However, it is important to recognize that the specific value of any VWF:CB is predicated on the use of an opti",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15499705",
+            "title": "Worsening of thrombotic thromboctyopenic purpura symptoms associated with desmopressin administration.",
+            "authors": [
+              "Overman Michael",
+              "Brass Eric"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Safety Signal",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27819553",
+            "title": "PT-VWD posing diagnostic and therapeutic challenges - small case series.",
+            "authors": [
+              "Sánchez-Luceros Analía",
+              "Woods Adriana I",
+              "Bermejo Emilse",
+              "Shukla Shilpa",
+              "Acharya Suchitra"
+            ],
+            "journal": "Platelets",
+            "year": "2017",
+            "abstract": "Despite the increased worldwide awareness, over the last decade, of the platelet-type von Willebrand Disease (PT-VWD), many uncertainties remain around this rare platelet bleeding disorder. This report aims to correctly identify and study the phenotype of new patients and highlights the diagnostic and therapeutic challenges this disease remains to pose. We describe four PT-VWD cases confirmed by genetic analysis in which either the diagnosis and/or the treatment posed challenge. We provide the d",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21921792",
+            "title": "Desmopressin-induced Moschcowitz-like syndrome after treatment of uterine atonic bleeding in a 28-year-old pregnant woman: case report and overview of the literature.",
+            "authors": [
+              "Dieterich Max",
+              "Mann Ellen",
+              "Wagner Klaus F",
+              "Kramer-Steiner Beate",
+              "Reimer Toralf"
+            ],
+            "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+            "year": "2011",
+            "abstract": "Here we report of a patient who developed a Moschcowitz-like syndrome following a desmopressin treatment of severe postpartum hemorrhage. The patient got an anaphylactic reaction after cervical ripening with dinoproston, leading to an emergency cesarean. A postpartum uterine atony with a blood loss more than 1500 ml resulted in a disseminated intravascular coagulation that was treated with mass transfusion of blood products, including platelets and factor VII. Desmopressin is used as rescue medi",
+            "classification": {
+              "study_type": "Case Report / Safety Signal",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2657893",
+            "title": "Bleeding disorders in pregnant patients with rheumatic diseases.",
+            "authors": [
+              "Rick M E"
+            ],
+            "journal": "Rheumatic diseases clinics of North America",
+            "year": "1989",
+            "abstract": "Although the bleeding disorders that occur in patients with rheumatic diseases are not different during pregnancy than at other times, their diagnosis and management are often different during pregnancy. In idiopathic thrombocytopenic purpura, for instance, antiplatelet antibodies may cross the placenta and cause life-threatening thrombocytopenia in the fetus while the mother is asymptomatic. Management of this disease has changed significantly in the past 5 years with the use of intravenous gam",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9423814",
+            "title": "Platelet aggregates as markers of platelet activation: characterization of flow cytometric method suitable for clinical applications.",
+            "authors": [
+              "Jy W",
+              "Horstman L L",
+              "Park H",
+              "Mao W W",
+              "Valant P"
+            ],
+            "journal": "American journal of hematology",
+            "year": "1998",
+            "abstract": "The present paper describes a flow cytometric method for assay of platelet aggregates (PAg) in blood. This method combines and simplifies previously reported techniques, simultaneously enumerating PAg formed upon platelet activation, their expression of activation marker CD62P (P-selectin), and their content of bound leukocytes (LPAg). The sensitivity of this method to low levels of agonists (ADP, collagen) is compared to conventional aggregometry and some features of platelet-leukocyte interact",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10381511",
+            "title": "von Willebrand factor propeptide in vascular disorders: A tool to distinguish between acute and chronic endothelial cell perturbation.",
+            "authors": [
+              "van Mourik J A",
+              "Boertjes R",
+              "Huisveld I A",
+              "Fijnvandraat K",
+              "Pajkrt D"
+            ],
+            "journal": "Blood",
+            "year": "1999",
+            "abstract": "Before de novo synthesized von Willebrand factor (vWF) leaves the endothelial cell, it undergoes endoproteolytic cleavage of its propeptide (vW antigen II). The processed vWF and propeptide are either released constitutively or, following activation of the endothelium, released through the regulated pathway. In a recent study (Borchiellini et al, Blood 88:2951, 1996), we showed that the half-life of mature vWF and of its propeptide differ fourfold to fivefold. We postulated that the molar ratio ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30349898",
+            "title": "Evaluation of a semi-automated von Willebrand factor multimer assay, the Hydragel 5 von Willebrand multimer, by two European Centers.",
+            "authors": [
+              "Bowyer Annette E",
+              "Goodfellow Karen J",
+              "Seidel Holger",
+              "Westhofen Philipp",
+              "Stufano Francesca"
+            ],
+            "journal": "Research and practice in thrombosis and haemostasis",
+            "year": "2018",
+            "abstract": "The phenotypic diagnosis of von Willebrand disease (VWD) is a multistep process with classification dependent on the quantification of von Willebrand factor (VWF) multimeric structure. VWF multimer analysis is a technically challenging, lengthy and non-standardised assay, usually performed in specialist laboratories. Recently, a new semi-automated multimer assay, the Hydragel 5 von Willebrand multimers (H5VWM) has become available.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3511534",
+            "title": "Blood component therapy in the treatment of platelet disorders.",
+            "authors": [
+              "Eisenstaedt R"
+            ],
+            "journal": "Seminars in hematology",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1613990",
+            "title": "[Hemostatic control in platelet dysfunction and abnormality by DDAVP].",
+            "authors": [
+              "Mito M",
+              "Higuchi W",
+              "Fuse I",
+              "Hattori A",
+              "Shibata A"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1992",
+            "abstract": "DDAVP infusion shortens the bleeding time in patients with some types of platelet dysfunction and may be useful for hemostatic control. In order to clarify the mechanism of DDAVP to correct or bypass the release defect, we examined the effect in 17 patients with prolonged bleeding time, i.e., 11 with various kinds of platelet dysfunction, 4 with idiopathic thrombocytopenic purpura (ITP), 1 with chronic myelocytic leukemia (CML), and in an aspirin-ingested volunteer. DDAVP shortened the bleeding ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16933245",
+            "title": "Studies of chronic ITP in children and adolescents.",
+            "authors": [
+              "Nilsson Cecilia",
+              "Tedgård Ulf",
+              "Ljung Rolf"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2006",
+            "abstract": "This paper presents an ongoing study of children with chronic ITP in Sweden that addresses four specific questions: is there a subgroup of children with chronic ITP that have impaired platelet function? Do children in this subgroup have antibodies directed against surface glycoproteins that are crucial for platelet function? Can desmopressin improve the impaired platelet function in this subgroup? Do children with chronic ITP show signs of cell-mediated cytotoxicity?",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10650862",
+            "title": "A 2-year-old boy with recurrent severe bleeding: von Willebrand type 2B and ITP--or von Willebrand type 2B alone?",
+            "authors": [
+              "Rauch R",
+              "Budde U",
+              "Schneppenheim R",
+              "Ries M",
+              "Girisch M"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12109311",
+            "title": "[Intermittent thrombocytopenia as a manifestation of Von Willebrand's disease].",
+            "authors": [
+              "Gómez García E B",
+              "Brouwers G J",
+              "Kappers-Klunne M C",
+              "Leebeek F W G",
+              "van Vliet H H D M"
+            ],
+            "journal": "Nederlands tijdschrift voor geneeskunde",
+            "year": "2002",
+            "abstract": "A 38-year-old man with Von Willebrand's disease type 2 came to us for treatment advice in relation to a trip abroad, and also a 53-year-old woman with bleeding treated as idiopathic thrombocytopenic purpura (ITP). In the man, a trial dose of desmopressin led to severe thrombopenia, and in the woman, treatments, such as splenectomy and prednisone in the past, had been ineffective. In both patients further investigations led to the diagnosis 'Von Willebrand-disease type 2B'. Despite the fact that ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【重要安全禁忌】血栓性血小板減少性紫癜（TTP）的核心病理為ADAMTS13缺乏導致ULVWF多聚體累積，誘發微血管血栓。Desmopressin大量釋放ULVWF多聚體，將直接加劇TTP病理機轉。文獻15499705（2004）記錄DDAVP導致TTP症狀惡化的病例，文獻21921792（2011）記錄Desmopressin誘發Moschcowitz-like syndrome（TTP等效）。此為明確臨床禁忌，而非研究機會。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "bleeding diathesis due to a collagen receptor defect",
+      "txgnn": {
+        "score": 0.9895227551460266,
+        "rank": 10874
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18278172",
+            "title": "Congenital disorders associated with platelet dysfunctions.",
+            "authors": [
+              "Nurden Paquita",
+              "Nurden Alan T"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2008",
+            "abstract": "Genetic defects of the megakaryocyte lineage give rise to bleeding syndromes of varying severity. Blood platelets are unable to fulfill their hemostatic function of preventing blood loss on vessel injury. Spontaneous bleeding is mostly mucocutaneous in nature. Most studied are deficiencies of glycoprotein (GP) mediators of adhesion (Bernard-Soulier syndrome) and aggregation (Glanzmann thrombasthenia) which concern the GPIb-IX-V complex and the integrin alphaIIbbeta3, respectively. Defects of pri",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30655369",
+            "title": "Mechanisms of thrombocytopenia in platelet-type von Willebrand disease.",
+            "authors": [
+              "Bury Loredana",
+              "Malara Alessandro",
+              "Momi Stefania",
+              "Petito Eleonora",
+              "Balduini Alessandra"
+            ],
+            "journal": "Haematologica",
+            "year": "2019",
+            "abstract": "Platelet-type von Willebrand disease is an inherited platelet disorder characterized by thrombocytopenia with large platelets caused by gain-of-function variants in GP1BA leading to enhanced GPIbα-von Willebrand factor (vWF) interaction. GPIbα and vWF play a role in megakaryocytopoiesis, thus we aimed to investigate megakaryocyte differentiation and proplatelet-formation in platelet-type von Willebrand disease using megakaryocytes from a patient carrying the Met239Val variant and from mice carry",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8652143",
+            "title": "Pathogenesis, clinical picture and treatment of von Willebrand's disease.",
+            "authors": [
+              "Lethagen S R"
+            ],
+            "journal": "Annals of medicine",
+            "year": "1995",
+            "abstract": "Von Willebrand's disease is probably the most common congenital bleeding disorder, with a prevalence close to 1% in some epidemiological studies. The disease is caused by a quantitative deficiency or a qualitative defect of the von Willebrand factor, which is a multimeric glycoprotein consisting of subunits of 2050 amino acids. The size of multimers ranges from approximately 500 kDa to 20 MDa. Each subunit consist of repeated domain structures. Several functional domains have been identified whi",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27443694",
+            "title": "Diagnostic Differentiation of von Willebrand Disease Types 1 and 2 by von Willebrand Factor Multimer Analysis and DDAVP Challenge Test.",
+            "authors": [
+              "Michiels Jan Jacques",
+              "Smejkal Petr",
+              "Penka Miroslav",
+              "Batorova Angelika",
+              "Pricangova Tatiana"
+            ],
+            "journal": "Clinical and applied thrombosis/hemostasis : official journal of the International Academy of Clinical and Applied Thrombosis/Hemostasis",
+            "year": "2017",
+            "abstract": "The European Clinical Laboratory and Molecular (ECLM) classification of von Willebrand disease (vWD) is based on the splitting approach which uses sensitive and specific von Willebrand factor (vWF) assays with regard to the updated molecular data on structure and function of vWF gene and protein defects. A complete set of FVIII:C and vWF ristocetine cofactor, collagen binding, and antigen, vWF multimeric analysis in low- and medium-resolution gels, and responses to desmopressin (DDAVP) of FVIII:",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17155947",
+            "title": "Biochemical characterization of a recombinant von Willebrand factor (VWF) with combined type 2B and type 1 defects in the VWF gene in two patients with a type 2A phenotype of von Willebrand disease.",
+            "authors": [
+              "Baronciani L",
+              "Federici A B",
+              "Cozzi G",
+              "Canciani M T",
+              "Mannucci P M"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2007",
+            "abstract": "In a patient previously diagnosed with type 2A von Willebrand disease (VWD) [absence of high and intermediate molecular weight von Willebrand factor (VWF) multimers and markedly reduced ristocetin-induced platelet aggregation (RIPA)], an infusion test of desmopressin was followed by mild thrombocytopenia. This led to further laboratory investigations of his affected brother and of family members, who showed different phenotypic patterns compatible with type 1, 2A, 2B and an uncertain classificat",
+            "classification": {
+              "study_type": "Laboratory Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22185369",
+            "title": "Evaluation of the new INNOVANCE® PFA P2Y cartridge in patients with impaired primary haemostasis.",
+            "authors": [
+              "Koessler Juergen",
+              "Ehrenschwender Martin",
+              "Kobsar Anna",
+              "Brunner Kirsten"
+            ],
+            "journal": "Platelets",
+            "year": "2012",
+            "abstract": "Recently, the INNOVANCE® PFA P2Y (P2Y) cartridge of the PFA-100® system (Siemens Healthcare Diagnostics, Marburg, Germany) has been developed for the monitoring of adenosine diphosphate (ADP) P2Y(12) receptor inhibition in patients under dual antiplatelet therapy. The aim of this study was to evaluate the influence of pre-existing defects in primary haemostasis on the P2Y cartridge independent from specific antiplatelet medication. Therefore, the closure time (CT) of the P2Y cartridge was measur",
+            "classification": {
+              "study_type": "Clinical Diagnostic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膠原受體缺陷（主要為GPVI缺乏、GP1b-IX-V複合體異常，即Bernard-Soulier syndrome）影響血小板-膠原蛋白初始黏附。Desmopressin釋放大量vWF多聚體可部分補償GP1b依賴路徑（因vWF作為橋接分子連結GP1b與受損血管壁），但對GPVI-膠原直接結合缺陷的補償有限。文獻8652143及27443694提供vWF在血管-血小板互動的機轉背景，但針對膠原受體缺陷的直接DDAVP臨床研究付之闕如。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hereditary thrombocytosis with transverse limb defect",
+      "txgnn": {
+        "score": 0.9895153045654296,
+        "rank": 10879
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "【疾病分類存疑】'Hereditary thrombocytosis with transverse limb defect'可能指Poland syndrome或TAR syndrome（Thrombocytopenia-Absent Radius）的相關疾病，或為罕見基因症候群。無任何文獻或臨床試驗支持。Desmopressin的vWF/FVIII機轉對骨骼發育缺陷-血小板減少症候群無明確治療連結。此預測可能源於TxGNN對罕見骨骼-血液複合症候群的模式匹配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "inherited thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "inherited thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "inherited thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 15,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "Scott syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "flood factor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "flood factor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "flood factor deficiency"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "thrombocytopenic purpura"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "bleeding diathesis due to a collagen receptor defect"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "hereditary thrombocytosis with transverse limb defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "hereditary thrombocytosis with transverse limb defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Desmopressin",
+        "disease": "hereditary thrombocytosis with transverse limb defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

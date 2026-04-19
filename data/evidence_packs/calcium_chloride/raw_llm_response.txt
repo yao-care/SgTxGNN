@@ -1,0 +1,268 @@
+```json
+{
+  "drug": "Calcium chloride (DB01164)",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "多數臨床試驗為其他藥物（GLP-1受體促進劑、aprepitant、tofacitinib等）針對相同疾病的試驗，並非測試 CaCl₂ 本身，需逐一排除干擾。原始適應症欄位為空，市場狀態標記「未上市」與 CaCl₂ 為已知 IV 急救用藥之事實存在資料缺口，應審慎解讀所有評分。",
+  "indications": [
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9747,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CaCl₂ 在溶液中呈強酸性，高濃度具腐蝕性，與消化不良治療（如 PPI、制酸劑 CaCO₃）機轉不同。CaCO₃ 做為制酸劑有臨床使用，但 CaCl₂ 不具同等鹼性緩衝作用。機轉關聯極弱，且方向可能有害。",
+      "trials_analysis": [
+        {"nct_id": "NCT05346302", "relevance_grade": "C", "reasoning": "免疫研究（Immunization Study），與 CaCl₂ 或消化不良無直接關聯"},
+        {"nct_id": "NCT05111912", "relevance_grade": "C", "reasoning": "GLP-1 受體促進劑 XW003 的 Phase 2 試驗，非 CaCl₂"},
+        {"nct_id": "NCT05258513", "relevance_grade": "C", "reasoning": "Geranylgeraniol (GG) 補充劑研究，與 CaCl₂ 無關"},
+        {"nct_id": "NCT06320379", "relevance_grade": "B", "reasoning": "功能性消化不良 QoL 評估試驗，疾病相關但受試藥非 CaCl₂"},
+        {"nct_id": "NCT01725126", "relevance_grade": "C", "reasoning": "試驗名稱截斷，根據 Phase 2 double-blind 設計推測為其他 GI 藥物"},
+        {"nct_id": "NCT02202161", "relevance_grade": "C", "reasoning": "試驗名稱截斷，無法確認為 CaCl₂ 試驗"},
+        {"nct_id": "NCT01929863", "relevance_grade": "C", "reasoning": "試驗名稱截斷，無法確認為 CaCl₂ 試驗"},
+        {"nct_id": "NCT05813548", "relevance_grade": "C", "reasoning": "App-based 生活型態改變計畫，與 CaCl₂ 無關"},
+        {"nct_id": "NCT03360435", "relevance_grade": "C", "reasoning": "腸胃道手術後經皮維他命吸收研究，非 CaCl₂ 治療消化不良"},
+        {"nct_id": "NCT01149369", "relevance_grade": "B", "reasoning": "Aprepitant 用於胃輕癱/慢性噁心的 Phase 2 試驗，疾病部分相關但藥物非 CaCl₂"}
+      ],
+      "literature_analysis": [
+        {"pmid": "40317635", "study_type": "Animal/Mechanistic", "tier": "3", "note": "Amitriptyline + Domperidone 機轉研究，非 CaCl₂"},
+        {"pmid": "35319360", "study_type": "Formulation study", "tier": "3", "note": "Aceclofenac 微球製劑，非 CaCl₂"},
+        {"pmid": "31185476", "study_type": "In vitro", "tier": "3", "note": "韓藥 Banhasasim-Tang 機轉，非 CaCl₂"},
+        {"pmid": "5103465", "study_type": "Case series/Historical", "tier": "3", "note": "1971年消化不良藥物混合製劑文章，可能包含鈣鹽但年代久遠且語境不明"},
+        {"pmid": "6012101", "study_type": "Animal/Veterinary", "tier": "3", "note": "1966年犢牛消化不良使用 Ringer-Locke 液（含少量 CaCl₂），獸醫文獻、非人體研究"}
+      ],
+      "critical_finding": "10 篇臨床試驗中 0 篇測試 CaCl₂；文獻最相關者為 1966 年獸醫研究。高 TxGNN 分數屬純計算預測，無臨床支撐。"
+    },
+    {
+      "disease_name": "calcium-alkali syndrome",
+      "txgnn_score": 0.9605,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 方向性錯誤警示：CaCl₂ 是 calcium-alkali syndrome 的潛在病因（過量鈣攝取 + 鹼性物質 → 高血鈣、代謝性鹼中毒、腎功能損傷），而非治療劑。文獻記錄均為 CaCl₂/鈣補充劑引發該症候群的個案報告，非治療作用。",
+      "trials_analysis": [
+        {"nct_id": "NCT02981602", "relevance_grade": "C", "reasoning": "Phase 2 安全性/劑量研究，試驗名稱截斷，無法確認與 CaCl₂ 或本症相關"},
+        {"nct_id": "NCT03095638", "relevance_grade": "C", "reasoning": "Dolutegravir（TIVICAY）生物可用性研究，與鈣鹼症候群無關"},
+        {"nct_id": "NCT04857892", "relevance_grade": "C", "reasoning": "生物可用性交叉研究，非 CaCl₂ 治療鈣鹼症"},
+        {"nct_id": "NCT04263142", "relevance_grade": "C", "reasoning": "同上，生物可用性研究"},
+        {"nct_id": "NCT03784079", "relevance_grade": "C", "reasoning": "Phase 2 Adaptive 試驗，試驗名稱截斷，非相關"},
+        {"nct_id": "NCT04563845", "relevance_grade": "C", "reasoning": "GSK3640254 心臟安全性評估，與本症無關"},
+        {"nct_id": "NCT01541891", "relevance_grade": "C", "reasoning": "PRO-148 眼科溶液 Phase 2，完全無關"},
+        {"nct_id": "NCT04541095", "relevance_grade": "C", "reasoning": "早產兒配方奶粉體重增長研究，含鈣但非 CaCl₂ 治療鈣鹼症"},
+        {"nct_id": "NCT03836729", "relevance_grade": "C", "reasoning": "藥物動力學交互作用研究，非相關"},
+        {"nct_id": "NCT03020745", "relevance_grade": "C", "reasoning": "安全性/耐受性/PK/PD 研究，試驗名稱截斷"}
+      ],
+      "literature_analysis": [
+        {"pmid": "31968342", "study_type": "Case report", "tier": "3", "note": "⚠️ 甲狀腺全切術後副甲狀腺低功能症患者補充鈣劑導致 calcium-alkali syndrome，記錄 CaCl₂ 為致病因素"},
+        {"pmid": "21954111", "study_type": "Case report", "tier": "3", "note": "⚠️ 術後副甲狀腺低功能症使用鈣補充劑引發本症，CaCl₂ 為病因非療法"},
+        {"pmid": "22073517", "study_type": "Case report", "tier": "3", "note": "多發性骨髓瘤合併高血鈣及代謝性鹼中毒，間接機轉說明"}
+      ],
+      "critical_finding": "所有文獻均顯示 CaCl₂ 是 calcium-alkali syndrome 的病因，非治療方向。此適應症為 TxGNN 演算法誤判，應標記為「已知不良反應關聯」而非再利用候選。"
+    },
+    {
+      "disease_name": "primary bone dysplasia with defective bone mineralization",
+      "txgnn_score": 0.9577,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鈣是骨礦化的必需元素，CaCl₂ 作為可溶性鈣鹽具理論補鈣效果，但實際骨礦化障礙（如低磷酸酶症、XLH、維他命D抵抗性佝僂病等）有各自特定病因，單純補鈣效果有限且非標準治療。無任何直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_finding": "零臨床試驗、零文獻。純粹圖神經網路預測，不具再利用可行性基礎。"
+    },
+    {
+      "disease_name": "gastroparesis",
+      "txgnn_score": 0.9386,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鈣離子通道參與胃腸道平滑肌收縮，但 CaCl₂ 在胃腸道動力上的角色複雜——細胞內 Ca²⁺ 升高可促進收縮（理論上有利），但口服 CaCl₂ 的腸道效應不可預測且可能有害。目前胃輕癱的促動力藥（metoclopramide、domperidone）透過不同機轉作用。",
+      "trials_analysis": [
+        {"nct_id": "NCT03268941", "relevance_grade": "B", "reasoning": "Phase 2 胃輕癱試驗（促動力劑），疾病相關但藥物非 CaCl₂"},
+        {"nct_id": "NCT02793154", "relevance_grade": "B", "reasoning": "Phase 4 胃輕癱開放標籤研究，已終止，非 CaCl₂"},
+        {"nct_id": "NCT01602549", "relevance_grade": "B", "reasoning": "劑量範圍研究，針對胃輕癱但非 CaCl₂"},
+        {"nct_id": "NCT01262898", "relevance_grade": "B", "reasoning": "Phase 2 胃輕癱安全性/療效研究，非 CaCl₂"},
+        {"nct_id": "NCT01934192", "relevance_grade": "C", "reasoning": "危重症患者營養充足性研究（NUTRITE），已終止，非直接胃輕癱治療研究"},
+        {"nct_id": "NCT01149369", "relevance_grade": "B", "reasoning": "Aprepitant 用於胃輕癱/噁心的 Phase 2 試驗，非 CaCl₂"}
+      ],
+      "literature_analysis": [],
+      "critical_finding": "6 篇試驗均為其他促動力或止吐藥物的胃輕癱研究，無 CaCl₂ 相關文獻。"
+    },
+    {
+      "disease_name": "gastroduodenitis",
+      "txgnn_score": 0.9302,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全疑慮：現有文獻記錄 CaCl₂ 意外吞服導致腐蝕性胃炎（corrosive gastritis）。CaCl₂ 固態或高濃度液態形式具腐蝕性，不適合口服用於消化道炎症。動物實驗（1991）顯示鈣可能抑制胃部致癌過程，但此機轉不直接適用於胃十二指腸炎治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "34897144", "study_type": "Case report", "tier": "3", "note": "⚠️ 2021年個案：意外吞服 CaCl₂ 導致腐蝕性胃炎，此為不良事件紀錄，非治療效益"},
+        {"pmid": "1818437", "study_type": "Animal study (rat)", "tier": "3", "note": "1991年大鼠實驗：鈣可能抑制 MNNG 誘導的胃部致癌，屬間接機制研究"}
+      ],
+      "critical_finding": "唯一直接提及 CaCl₂ 的人體相關文獻記錄的是腐蝕性傷害（adverse event），不支持治療用途，建議標記為安全禁忌。"
+    },
+    {
+      "disease_name": "stomach disease",
+      "txgnn_score": 0.9154,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "兩項動物研究（1989、1992）具體顯示 CaCl₂ 可抑制 NaCl 誘導的幽門竇 DNA 複製合成，並減少 MNNG 誘發的大鼠胃癌形成。可能機轉：Ca²⁺ 調控細胞增生訊號傳導，抑制過度的上皮細胞複製。此為潛在化學預防（chemopreventive）而非治療性方向，且僅限於動物數據。",
+      "trials_analysis": [
+        {"nct_id": "NCT03268941", "relevance_grade": "B", "reasoning": "胃輕癱促動力試驗，與廣義胃部疾病相關，非 CaCl₂"},
+        {"nct_id": "NCT01470612", "relevance_grade": "C", "reasoning": "Tofacitinib 用於潰瘍性結腸炎，非胃部疾病也非 CaCl₂"},
+        {"nct_id": "NCT00725712", "relevance_grade": "B", "reasoning": "GSK1363089 用於轉移性胃癌 Phase 2，疾病相關但非 CaCl₂"},
+        {"nct_id": "NCT02793154", "relevance_grade": "B", "reasoning": "胃輕癱 Phase 4 研究，非 CaCl₂"},
+        {"nct_id": "NCT04442737", "relevance_grade": "C", "reasoning": "Phase 4 安全性研究，試驗名稱截斷，相關性低"},
+        {"nct_id": "NCT05836402", "relevance_grade": "C", "reasoning": "Long COVID 低碳水化合物飲食介入，非胃病治療研究"}
+      ],
+      "literature_analysis": [
+        {"pmid": "1638681", "study_type": "Animal study (rat)", "tier": "3", "note": "⭐ 關鍵：1992年大鼠實驗，CaCl₂ 抑制 MNNG 誘導胃致癌，直接相關"},
+        {"pmid": "2805233", "study_type": "Animal study (rat)", "tier": "3", "note": "⭐ 關鍵：1989年大鼠實驗，CaCl₂ 抑制 NaCl 誘導的幽門竇 DNA 合成，直接相關"},
+        {"pmid": "31636470", "study_type": "Review", "tier": "3", "note": "2019年綜述：離子通道在胃腸道癌症中的角色，間接機轉說明"},
+        {"pmid": "22954692", "study_type": "Review", "tier": "3", "note": "胃液分泌生理學綜述，背景知識"},
+        {"pmid": "15284223", "study_type": "Basic science", "tier": "3", "note": "鈣活化氯離子通道分子功能分析，機轉研究"},
+        {"pmid": "6764730", "study_type": "Review", "tier": "3", "note": "1982年醫源性營養缺乏，間接相關"},
+        {"pmid": "6755653", "study_type": "Review", "tier": "3", "note": "1982年制酸劑與荷爾蒙，背景知識"}
+      ],
+      "critical_finding": "存在2篇動物實驗直接測試 CaCl₂ 對胃部的效應（化學預防方向），提供初步機轉假說，但需 in vitro → Phase 1 人體安全性研究的完整研究路徑。廣義「胃部疾病」定義過於寬泛，建議聚焦胃癌化學預防次問題。"
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.8598,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鈣離子（Ca²⁺，凝血因子 IV）是凝血瀑布的必需輔因子，包括凝血酶原（Factor II）→ 凝血酶（thrombin）的活化過程。先天性凝血酶原缺乏症（OMIM 613679）的核心缺陷在凝血酶原蛋白本身，單純補充 CaCl₂ 無法解決蛋白質缺乏問題。然而，在凝血功能嚴重受損時，最佳化 Ca²⁺ 濃度可能具輔助作用。此為間接機轉假說，非直接治療。",
+      "trials_analysis": [
+        {"nct_id": "NCT03422172", "relevance_grade": "C", "reasoning": "長效製劑 PK 研究（試驗名稱截斷），非凝血酶原缺乏相關"},
+        {"nct_id": "NCT03020745", "relevance_grade": "C", "reasoning": "安全性/PK/PD 研究（試驗名稱截斷），無法確認相關性"},
+        {"nct_id": "NCT02215096", "relevance_grade": "C", "reasoning": "GSK2636771 + Enzalutamide 腫瘤學試驗，與凝血因子缺乏無關"}
+      ],
+      "literature_analysis": [],
+      "critical_finding": "無任何文獻或試驗直接評估 CaCl₂ 於先天性凝血酶原缺乏症。機轉連結存在但為補充性（輔因子）而非根治性。凝血酶原濃縮物（PCC）或 FFP 為現行標準治療。"
+    },
+    {
+      "disease_name": "hypophosphatemia",
+      "txgnn_score": 0.8394,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 方向性矛盾：CaCl₂ 與低磷血症的關係複雜且可能有害。鈣離子抑制 PTH 分泌（Ca²⁺ 升高 → PTH 下降 → 腎臟磷再吸收增加，理論上改善低磷），但 CaCl₂ 本身可能加重電解質失衡。低磷血症的標準治療為磷酸鹽補充劑，非 CaCl₂。文獻中的人體試驗均關注鐵注射誘發低磷血症（與 CaCl₂ 無關）。",
+      "trials_analysis": [
+        {"nct_id": "NCT03238911", "relevance_grade": "B", "reasoning": "Phase 3 試驗比較靜脈鐵劑誘發低磷血症發生率，疾病相關但非 CaCl₂"},
+        {"nct_id": "NCT03237065", "relevance_grade": "B", "reasoning": "同上，Phase 3 比較試驗，非 CaCl₂"},
+        {"nct_id": "NCT04188964", "relevance_grade": "C", "reasoning": "Phase 1/2 腫瘤學試驗，非低磷血症治療"},
+        {"nct_id": "NCT02954653", "relevance_grade": "C", "reasoning": "已終止的 Phase 1 安全性研究，非低磷血症治療"},
+        {"nct_id": "NCT06525636", "relevance_grade": "C", "reasoning": "Phase 1/2 皮下注射研究，非 CaCl₂"}
+      ],
+      "literature_analysis": [
+        {"pmid": "26813509", "study_type": "Review", "tier": "3", "note": "腎性低磷血症病理生理與治療綜述，CaCl₂ 非標準治療選項"},
+        {"pmid": "26138848", "study_type": "Review", "tier": "3", "note": "兒科骨骼和鈣代謝障礙用藥，可能間接提及鈣鹽，非直接低磷血症治療"},
+        {"pmid": "18446382", "study_type": "Review", "tier": "3", "note": "高鈣尿性腎結石遺傳學，間接鈣-磷代謝背景"},
+        {"pmid": "28744758", "study_type": "Review", "tier": "3", "note": "Gitelman 症候群酸鹼電解質失調分析，間接背景"},
+        {"pmid": "38144470", "study_type": "Animal/Veterinary", "tier": "3", "note": "乳牛代謝疾病磷酸二鉀栓劑評估，獸醫研究"}
+      ],
+      "critical_finding": "無任何試驗測試 CaCl₂ 治療低磷血症；文獻全為其他藥物或機轉的背景資料。臨床上低磷血症以磷酸鹽補充為主，CaCl₂ 介入可能干擾正常鈣磷平衡。"
+    },
+    {
+      "disease_name": "esophageal varices without bleeding",
+      "txgnn_score": 0.7597,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ca²⁺ 是凝血酶活化的輔因子，Histoacryl（氰丙烯酸酯）注射療法中的聚合過程亦有鈣參與，但 CaCl₂ 本身非食道靜脈曲張的治療劑。標準治療為 β-blocker 預防、內視鏡套扎術（EVL）、TIPS。無機轉合理性支持 CaCl₂ 作為直接治療。",
+      "trials_analysis": [
+        {"nct_id": "NCT01717612", "relevance_grade": "C", "reasoning": "Histoacryl 注射 vs Thrombin 控制急性胃靜脈曲張出血的 Phase 3 試驗，使用組織黏著劑，非 CaCl₂；狀態 UNKNOWN 亦降低可用性"}
+      ],
+      "literature_analysis": [],
+      "critical_finding": "單一試驗測試組織黏著劑（非 CaCl₂），且狀態為 UNKNOWN。無文獻支持。"
+    },
+    {
+      "disease_name": "esophageal varices with bleeding",
+      "txgnn_score": 0.7597,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同「esophageal varices without bleeding」，急性食道靜脈曲張出血標準處理為血管活性藥物（terlipressin/somatostatin）+ 內視鏡套扎術 + 抗生素預防。CaCl₂ 靜脈注射在大量出血時可補充凝血輔因子，但此為支持性用途，非針對靜脈曲張的特定治療。",
+      "trials_analysis": [
+        {"nct_id": "NCT01717612", "relevance_grade": "C", "reasoning": "同上，Histoacryl vs Thrombin 急性靜脈曲張出血試驗，非 CaCl₂；兩個出血/非出血適應症共用此唯一試驗"}
+      ],
+      "literature_analysis": [],
+      "critical_finding": "與前一適應症共用同一無關試驗（NCT01717612），兩者評分相同（0.7597）為演算法人工製品（artifact）。"
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "by_evidence_level": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 5,
+      "L5": 5
+    },
+    "by_decision_stage": {
+      "S0": 8,
+      "S1": 2,
+      "S2": 0,
+      "S3": 0
+    },
+    "by_recommendation": {
+      "Hold": 8,
+      "Research Question": 2,
+      "Proceed with Guardrails": 0
+    },
+    "priority_research_questions": [
+      {
+        "rank": 1,
+        "indication": "stomach disease（胃癌化學預防）",
+        "rationale": "唯一具有直接 CaCl₂ 動物實驗數據（1989、1992）的次問題，機轉合理（抑制 DNA 合成/致癌過程），建議縮窄至「胃癌化學預防」並設計 in vitro → Phase 1 研究路徑"
+      },
+      {
+        "rank": 2,
+        "indication": "congenital prothrombin deficiency",
+        "rationale": "Ca²⁺ 作為凝血輔因子的機轉連結具生物學合理性，但需先確認臨床補充 Ca²⁺ 是否改善此特定基因缺陷患者的凝血指標，建議以電解質監測研究切入"
+      }
+    ],
+    "safety_flags": [
+      {
+        "indication": "calcium-alkali syndrome",
+        "flag": "CONTRAINDICATION_RISK",
+        "detail": "CaCl₂ 為該症候群的致病因素，TxGNN 預測為假陽性，應從再利用候選清單移除並標記為不良反應關聯"
+      },
+      {
+        "indication": "gastroduodenitis",
+        "flag": "CORROSIVE_HAZARD",
+        "detail": "文獻記錄 CaCl₂ 吞服導致腐蝕性胃炎（2021年個案），口服途徑有明確安全疑慮"
+      }
+    ],
+    "data_quality_note": "本批次臨床試驗匹配品質偏低，估計 >85% 的試驗為非 CaCl₂ 相關試驗（以疾病關鍵字匹配而非藥物匹配），建議在證據收集階段強化試驗-藥物對應篩選邏輯"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 立即排除（Hold）
+
+| 適應症 | 原因 |
+|--------|------|
+| **calcium-alkali syndrome** | CaCl₂ 是病因，非治療劑；需標記為已知不良反應 |
+| **gastroduodenitis** | 文獻記錄口服 CaCl₂ 導致腐蝕性胃炎 |
+| **dyspepsia** | 10篇試驗0篇測試 CaCl₂，文獻最新為1966年獸醫研究 |
+| **gastroparesis** | 全為其他促動力藥試驗，零 CaCl₂ 文獻 |
+| **bone dysplasia** | 零試驗、零文獻 |
+| **hypophosphatemia** | 機轉方向矛盾，標準治療為磷酸鹽補充 |
+| **esophageal varices ×2** | 同一無關試驗（非 CaCl₂），評分相同疑為演算法 artifact |
+
+### 🟡 值得研究（Research Question）
+
+| 適應症 | 理由 |
+|--------|------|
+| **stomach disease → 胃癌化學預防** | 2篇直接動物實驗，機轉合理，需縮窄研究問題 |
+| **congenital prothrombin deficiency** | Ca²⁺ 凝血輔因子機轉合理，但需人體安全性數據 |
+
+### 核心方法論問題
+TxGNN 評分高（最高 0.9747）但實際臨床試驗關聯性極低，顯示**圖神經網路預測與臨床試驗現實之間存在顯著落差**，本批次不宜依賴預測分數作為優先排序依據。

@@ -1,0 +1,1754 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01309-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Insulin glulisine",
+    "drugbank_id": "DB01309",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn": {
+        "score": 0.9955461025238036,
+        "rank": 6013
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03328845",
+            "title": "Impact on the Oxidative Stress of the Different Analogues of Insulin in People With Type 1 Diabetes. Clinical Trial of Low Level of Intervention. (Ineox Study)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2017-01-20",
+            "completion_date": "2021-11-20",
+            "brief_summary": "This study evaluates in a group of people with DM 1 the influence in parameters of oxidative stress of the treatments with the different current analogs of insulin",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較 glulisine 與其他速效胰島素類似物在 T1DM 氧化壓力之影響，樣本數300，完成，高相關性"
+            }
+          },
+          {
+            "nct_id": "NCT01081938",
+            "title": "National, Phase IV, Multicentric, Open Label, Comparative Study to Evaluate the Efficacy and Safety of Insulin Glargine Plus Glulisine and Sliding Scale Plus Glulisine in Hospitalized Patients With Diabetes Metabolism Type II Under Enteral Nutrition.",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 15,
+            "start_date": "2010-02",
+            "completion_date": "2011-02",
+            "brief_summary": "Primary Objective:\n\n1- Proportion of patients with mean daily glycemia \\<140mg/dL during the period of 7 days of treatment with glargine plus supplemental glulisine versus patients with glulisine sliding scale.\n\nSecondary Objective:\n\n1. Incidence of moderate hyperglycemia (\\>140mg/dL) during the treatment period.\n2. Incidence of hypoglycemia (\\<60mg/dL and \\< 40mg/dL) during the treatment period.\n3. Incidence of severe hyperglycemia (\\>400mg/dL) during the treatment period.\n4. Total dose of insu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "提前終止且樣本數僅15，無法提供有效性結論"
+            }
+          },
+          {
+            "nct_id": "NCT02846857",
+            "title": "An Open-label, Randomized, Multicenter Study to Assess the Efficacy of Single-hormone Closed-loop Strategy, Dual-hormone Closed-loop Strategy and Sensor-augmented Pump Therapy in Regulating Glucose Levels for 15 Weeks in Free-living Outpatient Conditions in Adolescents and Adults With Type 1 Diabetes",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "Closed-loop strategy is composed of three components: glucose sensor to read glucose levels, insulin pump to infuse insulin and a dosing mathematical algorithm to decide on the required insulin dosages based on the sensor's readings. A dual-hormone closed loop strategy regulates glucose levels through the infusion of two hormones: insulin and glucagon.\n\nThe objective of this study is to compare, in a randomized multicenter trial, the effectiveness of single-hormone closed-loop, dual-hormone clos",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "撤回前未招募任何受試者，無實質資料"
+            }
+          },
+          {
+            "nct_id": "NCT04196231",
+            "title": "Durability of Combination of Insulin and GLP-1 Receptor Agonist or SGLT-2 Inhibitors Versus Basal Bolus Insulin Regimen in Type 2 Diabetes: a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 258,
+            "start_date": "2019-11-27",
+            "completion_date": "2020-10-20",
+            "brief_summary": "BEYOND represents an open-label, parallel, three-arm randomized controlled trial, aimed at evaluating the effects of combination therapy of fixed ratio basal insulin/GLP-1 receptor agonist (GLP-1RA) or basal insulin/SGLT-2 inhibitors (SGLT-2i) on the durability of the glycemic control, as compared with the basal bolus insulin regimen, in people with type 2 diabetes failing to achieve glycemic targets with injective therapy. The potential benefits for participants in the study include the possibi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估胰島素與 GLP-1 RA 或 SGLT-2 抑制劑組合之持久性，包含 basal-bolus 方案，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT02004366",
+            "title": "Linagliptin Inpatient Trial: A Randomized Controlled Trial on the Safety and Efficacy of Linagliptin (Tradjenta®) Therapy for the Inpatient Management of General Surgery Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 295,
+            "start_date": "2014-01",
+            "completion_date": "2017-03",
+            "brief_summary": "This study is a prospective, randomized, open label trial to compare the safety and efficacy of linagliptin (an oral anti diabetic medication) given orally once daily to an insulin regimen of glargine once daily plus rapid-acting insulin before meals. Both of these treatment groups will be given corrective doses of rapid-acting insulin analogs (aspart, lispro or glulisine) before meals if their blood sugars are \\> 140 mg/dl.\n\nThe patients will be monitored for their blood sugars while the hospit",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要研究 linagliptin 住院療效，胰島素為背景治療，對 glulisine 特異性低"
+            }
+          },
+          {
+            "nct_id": "NCT04124302",
+            "title": "The Impact of Two Different Insulin Dose Calculation on Postprandial Glycemia After Mixed Meal in Children With Type 1 Diabetes Mellitus- Randomized Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 76,
+            "start_date": "2019-10-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The aim of the study is to compare the impact of two different insulin dose calculation on postprandial glycemia after mixed meal in children with type 1 diabetes mellitus.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "兒童混合餐後血糖之胰島素劑量計算研究，涉及速效胰島素使用，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT04965051",
+            "title": "A Prospective, Randomized, Open-label, Parallel Group Study to Evaluate Safety and Efficacy of Insulin Degludec/Insulin Aspart in Patients With Type 1 Diabetes Mellitus",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2021-08",
+            "completion_date": "2023-12",
+            "brief_summary": "In this prospective, randomized, open-label, parallel group trial, the safety and efficacy of insulin degludec/insulin aspart (IDegAsp) twice daily will be compared with basal insulin once or twice daily plus pre-prandial insulin after 16 weeks of treatment in patients with type 1 diabetes. This trial will enable assessment of the clinically relevant endpoint of a change in HbA1c and Time in Range (TIR).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase N/A，狀態不明，資料不完整，可參考性低"
+            }
+          },
+          {
+            "nct_id": "NCT02518945",
+            "title": "Dapagliflozin As Additional Treatment To Liraglutide And Insulin In Patients With Type 1 Diabetes. A Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2015-08",
+            "completion_date": "2016-04",
+            "brief_summary": "This is a single center, prospective, randomized, double blinded placebo controlled study conducted I patients with type 1 diabetes.The aim of this study is to examine the additive effects of GLP-1 agonist and SGLT2 inhibitor in patients with type 1 diabetes in terms of possible improved glycemic control, reduced glycemic variability, reduced insulin dosages, additional effects of weight loss and blood pressure reduction.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "T1DM 中 dapagliflozin 作為胰島素輔助治療之 Phase 3 研究，樣本數偏小，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT02685449",
+            "title": "Insulin Requirement for Pure- Protein Meal in Children With Type 1 Diabetes Treated With Continuous Subcutaneous Insulin Infusion - a Cross-over, Randomized Trial.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 70,
+            "start_date": "2016-02",
+            "completion_date": "2018-08",
+            "brief_summary": "This is a randomized, cross-over study. The aim of this study is to compare the post-prandial glycaemic variability after pure protein meal following with an administration of square-wave bolus of meal-insulin or without any meal-insulin bolus on the other day.\n\nProlonged post-prandial glycaemic variability will be identified using the self-monitoring of blood glucose (10-point curve) and CGMS.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "T1DM 兒童使用 CSII 時純蛋白質餐後胰島素需求，與 glulisine pump 使用相關"
+            }
+          },
+          {
+            "nct_id": "NCT00964574",
+            "title": "Multicentre, Open, Non-randomised Controlled Phase IV Clinical Trial of Efficacy and Safety for Insulin Glulisine Injected Subcutaneously in Patients With Type 1 Diabetes Mellitus Using Also Insulin Glargine",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 68,
+            "start_date": "2009-07",
+            "completion_date": "2010-07",
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy and the safety of insulin glulisine in type I Diabetes Melittus (DM) patients\n\nSecondary Objective:\n\nTo evaluate the insulin glulisine doses To assess the patient satisfaction",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "多中心 Phase IV 直接評估 insulin glulisine 之療效與安全性，完成試驗，直接相關"
+            }
+          },
+          {
+            "nct_id": "NCT00174642",
+            "title": "Comparison of Three Therapeutic Strategies for Treating Type 2 Diabetes Mellitus Patients Poorly Controlled With Basal Insulin Associated With Oral Antidiabetic Drugs",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 811,
+            "start_date": "2004-12",
+            "completion_date": "",
+            "brief_summary": "Primary objectives :\n\n* To show the non inferiority in terms of efficacy (HbA1c) of insulin glargine plus metformin combined with 1 to 3 bolus of insulin glulisine introduced progressively (Arm 2) compared with insulin glargine plus metformin combined with 3 bolus of insulin glulisine (Arm 1), in type 2 diabetes mellitus patients poorly controlled on basal insulin therapy with oral antidiabetic drugs.\n* To show the non inferiority in terms of efficacy (HbA1c) of insulin glargine plus metformin c",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03112538",
+            "title": "Improving Glycaemic Control in Malaysian Patients With Type 2 Diabetes Mellitus With Insulin Pump Therapy",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 118,
+            "start_date": "2016-01",
+            "completion_date": "2018-12",
+            "brief_summary": "The purpose of this study is to evaluate the comparative efficacy of insulin pump therapy versus multiple daily injections in insulin-taking type 2 diabetes mellitus who are sub-optimally controlled with premixed insulin regimen. This research is necessary because many patients with type 2 diabetes mellitus do not meet their glucose targets.\n\nIn advanced Type 2 diabetes mellitus, many patients develop worsening diabetes control and unable to reach the glucose targets despite intensive insulin re",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02871089",
+            "title": "An Open-label, Multicentre, Randomised, Single-period, Parallel Design Study to Assess the Effect of Closed Loop Insulin Delivery From Onset of Type 1 Diabetes in Youth on Residual Beta Cell Function Compared to Standard Insulin Therapy",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 96,
+            "start_date": "2017-01",
+            "completion_date": "2024-07-31",
+            "brief_summary": "The purpose of the study is to use a novel treatment approach, the artificial pancreas, after diagnosis of type 1 diabetes (T1D) to improve glucose control with the anticipated improvements of residual C-peptide secretion.\n\nThis is an open-label, multicentre, single-period, randomised, parallel group design study. It is expected that a total of up to 190 subjects (aiming for 96 randomised subjects) will be recruited within ten working days of diagnosis of type 1 diabetes through paediatric diabe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00562133",
+            "title": "Effect of Prandial Treatment With Insulin Glulisine Compared to Regular Human Insulin on Postprandial Endothelial Function and Microvascular Stress in Type 2 Diabetic Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2006-12",
+            "completion_date": "2007-03",
+            "brief_summary": "The primary objective of the study is to evaluate the postprandial time course of nitrotyrosine after injection of insulin glulisine compared with regular human insulin.\n\nThe secondary objectives are to evaluate the postprandial time course of the following efficacy parameters after injection of insulin glulisine compared with regular insulin on\n\n* Blood Glucose\n* Insulin\n* Intact proinsulin\n* Asymmetric dimethylarginine (ADMA)\n* Metal matrix proteasis (MMP-9)\n* Oxidative status (per ox)\n* Inter",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01524705",
+            "title": "FLAT-SUGAR: FLuctuATion Reduction With inSULin and Glp-1 Added togetheR",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 102,
+            "start_date": "2012-08",
+            "completion_date": "2014-07",
+            "brief_summary": "Results of recent studies using standard long and short acting insulin therapy (Basal - Bolus or BBI) in type 2 diabetes mellitus (T2DM) have not shown benefits to lower risks for heart attacks, strokes, or eye, nerve and kidney problems. Some studies also show a long time between the start of treatment and signs of benefit. This has led to a review of current ways to normalize blood glucose control with basal bolus insulin and how to make blood glucose better. Improving blood sugar with insulin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02814123",
+            "title": "A Randomized, Three-way, Crossover Study to Assess the Efficacy of Fast-acting Insulin-plus-pramlintide Closed-loop Co-administration, Regular Insulin-plus-pramlintide Closed-loop Co-administration, and Fast-acting Insulin-alone Closed-loop Infusion in Regulating Glucose Levels Over a 24-hour Period in Adults With Type 1 Diabetes in Inpatient Settings.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2017-01-13",
+            "completion_date": "2018-07-08",
+            "brief_summary": "The closed-loop delivery system is composed of an insulin pump, a continuous glucose sensor and a dosing algorithm that calculates the insulin dose to infuse based on sensor readings. Pramlintide is a drug and an analog of amylin, a hormone that is co-secreted with insulin in healthy individuals, and is deficient in people with type 1 diabetes. Co-injection of pramlintide with insulin at meal times improves glucose control in type 1 diabetes. Literature data suggests that regular insulin may bet",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00384085",
+            "title": "All to Target Trial Lantus® (Insulin Glargine) With Stepwise Addition of APIDRA® (Insulin Glulisine) or Lantus With One Injection of Apidra vs a Twice-Daily Premixed Insulin Regimen (Novolog® Mix 70/30) in Adult Subjects With Type 2 Diabetes Failing Dual or Triple Therapy With Oral Agents: a 64-week, Multi-center, Randomized, Parallel, Open-label Clinical Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 588,
+            "start_date": "2006-05",
+            "completion_date": "2010-03",
+            "brief_summary": "The primary objectives were:\n\n* To demonstrate the superiority of Lantus plus stepwise addition of mealtime Apidra® (Lantus/Apidra-3) versus twice-daily Premixed insulin based on the proportion of patients achieving target glycemic control (as measured by hemoglobin A1c \\[HbA1c\\] \\<7.0%) at Week 60\n* To demonstrate the noninferiority of Lantus plus addition of 1 mealtime Apidra injection (Lantus/Apidra-1) versus twice-daily Premixed insulin based on the reduction from Baseline to Week 60 in HbA1",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01855243",
+            "title": "Premix 70/30 Insulin Plus Supplemental Lunch Insulin in Comparison to Basal Plus Prandial Supplemental Scale and Sliding Scale Insulin in Hospitalized Patients With Type 2 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 63,
+            "start_date": "2010-03",
+            "completion_date": "2014-06",
+            "brief_summary": "Purpose: To compare efficacy and safety of traditional sliding scale insulin (SSI) versus modified 70/30 insulin versus modified basal plus supplemental scale /bolus insulin regimens for glycemic control in hospitalized diabetic patients with diabetes.\n\nMethods: In a prospective trial, patients with diabetes will be randomized to receive either traditional hospital SSI , or twice daily 70/30 insulin plus supplemental lunchtime insulin for BG ≥ 150 mg/dL or once every night glargine plus three ti",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02276859",
+            "title": "The Optimal Type of Bolus Following a High-protein Meal in Type 1 Diabetic Children Treated With Insulin Pumps",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2014-10",
+            "completion_date": "2015-09",
+            "brief_summary": "Patients receive a standardized high-protein test meal at breakfast time. Insulin is given as bolus (normal or dual-wave (normal plus square) and basal rate using an insulin pump. The 3h post-meal glucose excursions will be recorded by self-blood glucose measurements (SMBG) (every 1 hour) and continuous glucose monitoring system (CGMS). The intervention is taking part under in-patient clinical conditions.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01889914",
+            "title": "Treatment by Subcutaneous Continuous Infusion of Insulin by Portable Pump Versus Discontinuous Infusion of Insulin by Multi-injections in the Type 2 Diabetes: Study of the Insulinosensibility in the 2 Types of Treatments",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2012-01",
+            "completion_date": "2015-09",
+            "brief_summary": "The aim of the TRICIDIA2 study is to compare two modalities of administration of insulin.\n\nIn our future study, the investigators wish to study if the treatment by continuous infusion of insulin improves the insulinosensitivity of type 2 diabetic patients; the investigators indeed expect that the insulin delivered in a continuous way decreases the insulino-resistance of these patients compared with the intermittent delivering of insulin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01013571",
+            "title": "A Canadian, Phase IV, Multicenter, Comparative, Open-label Study Evaluating 2 Approaches of Blood Glucose Monitoring and Insulin Titration (Patient-managed vs Health Care Professional) in T2DM Patients While Receiving the Addition of 1 Injection of Insulin Glulisine at Breakfast Following Optimization of Insulin Glargine",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 493,
+            "start_date": "2009-10",
+            "completion_date": "2012-01",
+            "brief_summary": "Primary Objective:\n\nThe primary objective of this study is to demonstrate non-inferiority of a patient-managed titration algorithm (including blood glucose monitoring) for the addition of a single dose of insulin glulisine at breakfast in Canadian patients with inadequately controlled T2DM after optimization of basal insulin, compared with an HCP-managed titration algorithm. The primary endpoint for assessment of this objective is the percent of patients reaching a target HbA1c \\<=7.0% without s",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02846831",
+            "title": "An Open-label, Randomized, Two-way, Cross-over Study to Assess the Efficacy of Single-hormone Closed-loop Strategy and Sensor-augmented Pump Therapy in Regulating Glucose Levels for 12 Days in Free-living Outpatient Conditions in Patients With Type 1 Diabetes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 36,
+            "start_date": "2019-01-24",
+            "completion_date": "2020-01-27",
+            "brief_summary": "Closed-loop strategy is composed of three components: glucose sensor to read glucose levels, insulin pump to infuse insulin and a dosing mathematical algorithm to decide on the required insulin dosages based on the sensor's readings.\n\nThe objective of this study is to compare the effectiveness of single-hormone closed-loop and sensor-augmented pump therapy in regulating day-and-night glucose levels in adults with T1D for 12 days in outpatient settings.\n\nThe investigators hypothesize that dual-ho",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05726461",
+            "title": "Efficacy and Safety of Android Artificial Pancreas System Use at Home Among Type 1 Diabetes Mellitus Adults in China: Protocol of a 26-Week, Free-Living, Randomized, Open-Label, Two-Arm, Two-Phase, Crossover Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 25,
+            "start_date": "2023-02-11",
+            "completion_date": "2024-09-30",
+            "brief_summary": "This is a 26-week randomized, free-living, open-label, two-arm, two-phase, crossover trial. Participants will receive two interventions at different phases, including the Android artificial pancreas system(AndroidAPS-rt-CGM) and sensor-augment pump(SAP), and use marketed rapid-acting insulin analogs (insulin Aspart, insulin Lispro, or insulin Glulisine) normally used in their usual clinical care. The safety and efficacy of AndroidAPS-rt-CGM and SAP in adult T1DM with suboptimal glycemic control ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01122979",
+            "title": "National (Brazil), Phase IV, Multicentric, Open Label, Parallel, Comparative Study of the Use of Insulin Glargine + Glulisine or Insulin Regular + NPH Insulin (Isophane Insulin) in Type 2 Diabetes Mellitus Patients With Moderate Renal Failure.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2010-07",
+            "completion_date": "2013-10",
+            "brief_summary": "Primary Objective:\n\n\\>To obtain an estimation for both treatment groups of the proportion of patients that reach the target of HbA1c \\<= 7% without confirmed nocturnal hypoglycaemia in each treatment group.\n\nSecondary Objectives:\n\n* Glycemic control, measured by HbA1c and FPG (fasting plasma glucose) at baseline and after each period of treatment.\n* Incidence of confirmed symptomatic and nocturnal hypoglycemia.\n* Incidence of confirmed severe hypoglycemia (\\< 36mg/dL or need of help to recover).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00360698",
+            "title": "Comparison of Two Therapeutic Strategies for Treating Type 2 Diabetic Patients Poorly Controlled With Basal Insulin Associated With Oral Antidiabetic Drugs : 6-month Proof of Concept Study.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 106,
+            "start_date": "2006-07",
+            "completion_date": "2008-08",
+            "brief_summary": "To evaluate the efficacy of a single injection of glulisine before the main meal added to insulin glargine plus oral antidiabetic drugs (OADs) compared to insulin glargine plus OADs in Type 2 diabetic patients poorly controlled with basal insulin plus OADs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03495908",
+            "title": "Efficacy and Safety Comparison Between U-100 Regular Human Insulin and Rapid Acting Insulin When Delivered by VGo Wearable Insulin Delivery in Type 2 Diabetes",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 136,
+            "start_date": "2018-04-09",
+            "completion_date": "2019-08-12",
+            "brief_summary": "The purpose of the study is to collect data about how well U-100 Regular Human Insulin can be used in the V-Go Insulin Delivery Device compared to U-100 Rapid Acting Insulin in the V-Go Insulin Delivery Device. The data collected will be used to see how much subjects' blood sugar levels change over time after they switch from using U-100 Rapid Acting Insulin to U-100 Regular Human Insulin within their V-Go Insulin Delivery Device.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02276196",
+            "title": "A Phase 4, Mono-center, Randomized, Open Label, Comparator-controlled, Parallel-group, Mechanistic Intervention Trial to Assess the Effect of 8-week Treatment With the Glucagon-like Peptide-1 Receptor Agonist Lixisenatide Versus Insulin Glulisine on Renal Physiology and Biomarkers in Insulin Glargine-treated Patients With Type 2 Diabetes Mellitus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2014-09",
+            "completion_date": "2016-04",
+            "brief_summary": "Based on preclinical and small-sized studies in non-diabetic individuals, incretin-based therapies, i.e. glucagon-like peptide (GLP)-1 receptor agonists and dipeptidyl peptidase-4 inhibitors, may hold promise in preventing the onset and progression of diabetic kidney disease. However, the potential renoprotective effects of these agents, that are believed to be effectuated \"beyond glucose control\", have not been sufficiently detailed in human diabetes.\n\nTherefore, the present study aims to explo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00528918",
+            "title": "Comparison of Apidra to Regular Insulin in Hospitalized Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2007-06",
+            "completion_date": "2011-05",
+            "brief_summary": "The purpose of this study is to compare Apidra (a rapid acting insulin analogue) with Regular insulin (fast acting) in addition to the use of long acting insulin Glargine in hospitalized patients in terms of efficacy and safety in blood glucose control and frequency of low blood glucose. Blood glucose control along with incidence and rate of low blood glucose during the hospitalization shall be of primary interest; length of hospital stay comparing the short acting insulin used shall be the seco",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01594060",
+            "title": "A Randomized, Comparative Study of Basal-bolus Insulin Versus Conventional Sliding-scale Regular Insulin Therapy in Management of Non-critically Ill Patients Hospitalized in the Medical Ward.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 36,
+            "start_date": "2012-06",
+            "completion_date": "2014-10",
+            "brief_summary": "A comparison of two treatment approaches for hyperglycemia in diabetic patients hospitalized in the medical department. The first approach is called basal-bolus in which 4 insulin shots are given daily ( 3 short acting before meals and one long acting before bed time). The second approach is called sliding scale in which short acting insulin alone is given before meals and before bed time according to the patient's glucose values. The aim is to keep fasting glucose between 140-180 mg/dl.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00174668",
+            "title": "52-week, Open, Randomized, Multinational, Multicenter Clinical Trial Comparing Insulin Glulisine in Combination With Insulin Glargine in an Intensified Insulin Regimen to a Two-injection Conventional Insulin Regimen in Type 2 Diabetes Mellitus Patients With Poor Glycemic Control Pretreated With a Two-injection Conventional Insulin Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 311,
+            "start_date": "2004-11",
+            "completion_date": "",
+            "brief_summary": "Primary objective:\n\nThe primary study objective is to demonstrate superior efficacy of an intensified insulin regimen with insulin glulisine and insulin glargine to a two-injection conventional insulin regimen in terms of change in glycated hemoglobin A1c (HbA1c), from baseline to endpoint.\n\nSecondary objectives:\n\nSecondary study objectives are to compare the intensified insulin regimen with insulin glulisine and insulin glargine to a two-injection conventional insulin regimen in terms of blood ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01204593",
+            "title": "Phase IV, Multicenter, International, Non-comparative, Open Label Study of Efficacy and Safety of Basal Bolus Therapy (Insulin Glargine + Insulin Glulisine) in Patients With T1 Diabetes Previously Uncontrolled on Any Insulin Regimen.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 206,
+            "start_date": "2010-11",
+            "completion_date": "2013-01",
+            "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of the association Lantus (once-a-day, od) Apidra (thrice-a-day, tid) in terms of change HbA1c from baseline to end of study (week 24), in patients with Type 1 Diabetes Mellitus (T1DM).\n\nSecondary Objectives:\n\nTo evaluate:\n\n* The change of hemoglobin A1c (HbA1c) from baseline to week 12\n* The percentage of patients with HbA1c \\< 7% at week 12 and week 24\n* The FBG and the 7-point self monitoring of blood glucose (SMBG) at baseline, week 12 and week 24",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04974528",
+            "title": "INHALE-1: A 26-week Primary Treatment Phase, With 26-week Extension, Open-label, Randomized Clinical Trial Evaluating the Efficacy and Safety of Afrezza® Versus Rapid-acting Insulin Analog Injections, Both in Combination With a Basal Insulin, in Pediatric Subjects With Type 1 or Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 319,
+            "start_date": "2021-09-29",
+            "completion_date": "2025-04-29",
+            "brief_summary": "INHALE-1 is a Phase 3, open-label, randomized clinical study evaluating the efficacy and safety of Afrezza in combination with a basal insulin (i.e., the Afrezza group) versus insulin aspart, insulin lispro or insulin glulisine in combination with a basal insulin (i.e., the Rapid-acting Insulin Analog \\[RAA\\] injection group) in pediatric subjects with type 1 or type 2 diabetes mellitus. Following 26 weeks of randomized treatment (i.e., Afrezza or RAA injection combined with a basal insulin), al",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00489190",
+            "title": "Local, Open, Non-Randomized, Phase IV Clinical Study for the Collection of Data Regarding the Drug Portability Received During the Treatment With Subcutaneous Injection of Apidra Glulisine (HMR1964) to Patients With Diabetes Mellitus 1st Type",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2005-08",
+            "completion_date": "",
+            "brief_summary": "To collect effectiveness and safety data during the treatment with Apidra glulisine (HMR1964) by means of subcutaneous injections to patients with Diabetes Mellitus 1st type during 12 weeks-active phase.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00135941",
+            "title": "Insulin Glargine Plus Insulin Glulisine MDI Versus Premix Insulin Treatment in Subjects With Diabetes Mellitus (Type 1 or Type 2) Evaluating Differences in Patient Reported Outcomes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 582,
+            "start_date": "2005-08",
+            "completion_date": "2007-09",
+            "brief_summary": "The purpose of this study is to test for superiority in improvements from baseline in patient reported outcomes in subjects with type 1 or type 2 diabetes when treated with insulin glargine plus rapid acting insulin glulisine MDI versus treatment with premix insulin.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01159353",
+            "title": "A Randomized, Double Blind Study to Assess the Pharmacodynamic and Pharmacokinetic Effects of Insulin Glulisine in Obese Subjects With Type 2 Diabetes After a Standard Meal in Comparison to Insulin Aspart",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 37,
+            "start_date": "2007-09",
+            "completion_date": "2008-04",
+            "brief_summary": "Primary Objective:\n\n* To assess the effect of insulin glulisine on the post-prandial plasma glucose excursion during the first hour after a standard meal in comparison to insulin aspart in obese subjects with type 2 diabetes.\n\nSecondary Objectives:\n\nPharmacodynamic objectives:\n\n* To assess the effect of insulin glulisine on the postprandial plasma glucose excursion during 6 hours after a standard meal in comparison to insulin aspart.\n\nPharmacokinetic objective:\n\n* To assess post-prandial plasma ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00290043",
+            "title": "Glucodynamic Response to Pre- and Postmeal Subcutaneous Injection of 0.15 IU/kg HMR1964 Insulin and RHI in Type 1 Diabetic Subjects in an Open, Randomized, Four-way Crossover Study",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2001-12",
+            "completion_date": "2002-03",
+            "brief_summary": "To investigate in type 1 diabetic patients the glucodynamic response to HMR1964 insulin and RHI (HOE31HPR100) injected subcutaneously before and after a standard meal",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01848990",
+            "title": "CONtinuous Subcutaneous Insulin Infusion STudy ENrolling Type 1 (CONSISTENT 1): Evaluation of Metabolic Outcomes and Safety of Hylenex Recombinant (Hyaluronidase Human Injection) Used as a Preadministration Infusion Site Treatment in Subjects With Type 1 Diabetes (T1DM) Using Continuous Subcutaneous Insulin Infusion (CSII)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 456,
+            "start_date": "2013-03",
+            "completion_date": "2014-09",
+            "brief_summary": "The primary objectives of this study are to compare the difference in glycosylated hemoglobin (HbA1c) from baseline to Month 6 using Hylenex recombinant preadministration in continuous subcutaneous insulin infusion (CSII) versus standard CSII and to evaluate the safety of Hylenex recombinant preadministration, including local tolerability, adverse events, and hypo- and hyperglycemia rates.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00135083",
+            "title": "One Versus Two Versus Three Daily Rapid-acting Insulin Injections of APIDRA (Insulin Glulisine) as add-on to Lantus® and Oral Sensitizer Basal Therapy in Type 2 Diabetes: a Multicenter, Randomized, Parallel, Open-label Clinical Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 347,
+            "start_date": "2004-08",
+            "completion_date": "2007-11",
+            "brief_summary": "The purpose of this study is to show the non-inferiority of insulin glulisine administered with 1 meal versus 2 meals versus 3 daily meals, as measured by the change in hemoglobin A1c (HbA1c), from baseline to study week 24.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01087567",
+            "title": "A Pilot Study of Intensive Insulin Regimen as a Primary Treatment of New Onset of Type 2 DM",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 23,
+            "start_date": "2010-07",
+            "completion_date": "2014-01",
+            "brief_summary": "T2DM has become an American Epidemic. Currently 8% of the US population has diabetes and rates may be as high as 33% by the year 2050 (1). Although there are many treatment options for people with T2DM, none have been proven in humans to prevent the defects in insulin secretion (2) and insulin action (3) and beta cell dysfunction (4) that result with very high glucose levels and typically worsen as the disease progresses. Any treatment that could delay the progression of pancreatic beta cell fai",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00046150",
+            "title": "12-Week, Multinational, Multicenter, Controlled, Open, 1:1 Randomized, Parallel Clinical Trial Comparing the Safety of HMR1964 and Insulin Aspart Used in Continuous Subcutaneous Insulin Infusion (CSII) in Subjects With Type 1 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2002-05",
+            "completion_date": "2002-12",
+            "brief_summary": "The purpose of this study is to compare the safety of HMR 1964 and insulin aspart when used in external pumps with respect to catheter occlusions, GHb assessment, insulin doses, blood glucose parameters, hypoglycemic episodes, unexplained hyperglycemia, adverse events, laboratory data, and vital signs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00467376",
+            "title": "12-week, Multicenter, Controlled, Open, 3:1 Randomized, Parallel Clinical Trial Comparing Insulin Glulisine With Regular Human Insulin (Insulin Lispro) Injected Subcutaneously in Subjects With Type 1 or 2 Diabetes Mellitus Also Using Lantus (Insulin Glargine)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 485,
+            "start_date": "2007-01",
+            "completion_date": "",
+            "brief_summary": "Primary:\n\n* To compare the efficacy and safety of Insulin Glulisine to Insulin Lispro in subjects with type 1 or type 2 diabetes mellitus.\n* To compare the frequency of hypoglycemia of Insulin Glulisine to Insulin Lispro.\n\nSecondary:\n\n* To compare Insulin Glulisine to Insulin Lispro in terms of the change in HbA1c at weeks 12, blood glucose parameters, insulin doses and treatment satisfaction in subjects with type 1 or type 2 diabetes mellitus",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00467649",
+            "title": "A Phase 4, Randomized, Open Label, Parallel Group, Multicenter Study to Characterize Regimens of Basal Insulin Intensified With Either Symlin® or Rapid Acting Insulin in Patients With Type 2 Diabetes",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 112,
+            "start_date": "2007-05",
+            "completion_date": "2008-04",
+            "brief_summary": "This will be a randomized, open label, parallel group, multicenter study. There will be two phases in the study. Phase 1 (Baseline to Week 24) will compare the efficacy and safety of regimens of basal insulin intensified with either Symlin or rapid acting insulin in patients with type 2 diabetes who have either been on a prior regimen of insulin for less than 6 months and were taking less than 50 U total of insulin per day OR are candidates for the initiation of insulin therapy. The purpose of P",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02910518",
+            "title": "A Randomized, Double-blind, Single-dose, 2-Treatment, 2-Period, 2-Sequence Crossover Bioequivalence Study Comparing Two Formulations of Insulin Glulisine (Insulin Glulisine 300 Units/mL Versus Insulin Glulisine 100 Units/mL Marketed as Apidra® 100 Units/mL) Using the Euglycemic Clamp Technique, in Patients With Type 1 Diabetes Mellitus",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 44,
+            "start_date": "2017-02-17",
+            "completion_date": "2017-05-03",
+            "brief_summary": "Primary Objective:\n\nTo demonstrate bioequivalence between insulin glulisine given as 300 Units/mL test formulation and insulin glulisine 100 Units/mL reference formulation after a single subcutaneous (SC) dose.\n\nSecondary Objectives:\n\n* To assess the pharmacodynamic (PD) profiles and further pharmacokinetic (PK) characteristics of insulin glulisine U300 in comparison to insulin glulisine U100 after a single SC dose.\n* To assess safety and tolerability of the test and the reference formulation of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01192711",
+            "title": "An Open Label, Multicentre, Randomized Study of Insulin Glargine + Prandial Insulin Glulisine Associated With a Telemedicine System for Carbohydrates Counting vs. Insulin Glargine + Prandial Insulin Glulisine Associated With Common Practice",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 130,
+            "start_date": "2009-05",
+            "completion_date": "",
+            "brief_summary": "The Diabetes Interactive Diary (DID) is both a CHO (carbohydrates )/insulin bolus calculator, an information technology and a telemedicine system based on the communication between health care professional and patient by SMS messages.\n\nAim of the study is to compare an insulin regimen of insulin glargine + prandial insulin glulisine associated with a telemedicine system to teach CHO counting (DID) with the same insulin regimen administered according to usual practice.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03051243",
+            "title": "Safety and Efficacy of Linagliptin Therapy in the Setting of Internal Medicine Department Type 2 Diabetes Mellitus",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2017-10-01",
+            "completion_date": "2019-11-01",
+            "brief_summary": "Prospective, open labels, randomized study. A total of 60 admitted patient between 18 and 85 years old with known with history of DM for more than 3 months and an average of two consecutive blood glucose levels above 180 mg/dl (after stopping all previous oral antidiabetic and insulin on admission) will be enrolled Patient will be randomized to a 1:1 ratio in two treatment groups regimens- linagliptin (trajenta) once daily combined with basal insulin at bed time (glargine Lantus; sanofi) and bas",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01792830",
+            "title": "Prospective Study Aim to Determine the Efficacy and Safety of a Glargine-based Hospital Discharge Algorithm in Cardiac Surgery Patients With Perioperative Hyperglycemia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 175,
+            "start_date": "2012-10",
+            "completion_date": "2014-02",
+            "brief_summary": "Most coronary artery bypass graft surgery (CABG) patients develop high blood sugar while they are in the hospital. No studies have shown what the best insulin regimen is for CABG patients with type 2 diabetes is after going home from the hospital. Patients with high blood sugar and diabetes after cardiac bypass surgery will be followed for 3 months to look at how well their treatment(s) for diabetes work after discharge. Patients with diabetes will be discharged on oral antidiabetic drugs or wit",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01684943",
+            "title": "Selecting Insulin Analogs for Closed-Loop Control Using Multiplex Pharmacokinetic Profiling",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2010-07",
+            "completion_date": "2017-12",
+            "brief_summary": "The investigators are doing this research study to compare the pharmacokinetics (PK) (rate of absorption) of insulin lispro (Humalog), insulin aspart (Novolog), and insulin glulisine (Apidra) within individual subjects.\n\nAdditionally, the investigators will perform a preliminary feasibility evaluation of a minimally invasive continuous insulin monitoring (CIM) device and its use to derive PK parameters in human subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00546702",
+            "title": "Multicenter, Open, Non-Randomised Phase III Clinical Study of Efficacy and Safety of Insulin Glulisine (HMR1964) Injected Subcutaneously in Patients With Type 1 Diabetes Mellitus Using Also Insulin Glargine During 26 Weeks of Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 142,
+            "start_date": "2004-09",
+            "completion_date": "2005-02",
+            "brief_summary": "To evaluate the efficacy (in terms of change HbA1c from baseline to endpoint) and safety (in terms of adverse events, clinical chemistry, lipids, hematology) of insulin glulisine (HMR 1964) in subjects with type I diabetes mellitus To evaluate the change in HbA1c at week 26, blood/glucose parameters, hypoglycemia, insulin dose in subjects with type I diabetes mellitus receiving HMR 1964 and insulin glargine.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02278913",
+            "title": "Basal Bolus Regimen With Insulin Analogs Versus Human Insulin in Medical Patients With Type 2 Diabetes: A Randomized Controlled Trial in Paraguay",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 134,
+            "start_date": "2009-04",
+            "completion_date": "2011-03",
+            "brief_summary": "Few randomized studies have focused on the optimal management of non-ICU patients with type 2 diabetes in Latin America. Objective: Compare safety and efficacy of a basal bolus regimen with analogs and human insulins in general medicine patients admitted to a University Hospital in Asuncion, Paraguay.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00925977",
+            "title": "Treatment Satisfaction of Insulin Glargine Plus Insulin Apidra Compared With NPH Insulin Plus Insulin Apidra in Recently Diagnosed Type 1 Diabetes Children and Adolescents",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 44,
+            "start_date": "2009-07",
+            "completion_date": "2012-02",
+            "brief_summary": "A randomized, crossover, open study in order to compare treatment satisfaction with insulin Glargine plus insulin Apidra Vs NPH insulin plus insulin Apidra in newly diagnosed children and adolescents with type 1 diabetes.\n\nThe study will include two consecutive periods: 2 weeks run in period and 24 weeks intervention period, divided into two separate treatment periods of 12 weeks. According to randomization, each patient will be treated consecutively with both treatment arms: 12 weeks with insul",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35933650",
+            "title": "A comparison of the rapid-acting insulin analogue glulisine with lispro and aspart for the pump treatment of patients with type 1 diabetes.",
+            "authors": [
+              "Bramlage Peter",
+              "Tittel Sascha R",
+              "Müther Silvia",
+              "Reinhart-Steininger Birgit",
+              "Haberland Holger"
+            ],
+            "journal": "Acta diabetologica",
+            "year": "2022",
+            "abstract": "(1) To describe the population of patients with type 1 diabetes (T1DM) using the rapid-acting insulin analogue glulisine versus lispro and aspart during continuous subcutaneous insulin infusion (CSII); (2) to describe insulin relative effectiveness based on hemoglobin A1c (HbA1c), fasting blood glucose (FBG) and dose; (3) to determine rates of hyperglycemia, hypoglycemia, and diabetic ketoacidosis (DKA).",
+            "classification": {
+              "study_type": "Comparative RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16308840",
+            "title": "Efficacy and safety of insulin glulisine in patients with type 1 diabetes.",
+            "authors": [
+              "Dreyer M",
+              "Prager R",
+              "Robinson A",
+              "Busch K",
+              "Ellis G"
+            ],
+            "journal": "Hormone and metabolic research = Hormon- und Stoffwechselforschung = Hormones et metabolisme",
+            "year": "2005",
+            "abstract": "Insulin glulisine (glulisine), a human insulin analogue with a rapid-acting time-action profile, has been developed to fulfil the mealtime (bolus) insulin requirement in patients with diabetes. The aim of this multinational, multi-centre, controlled, open-label, randomized, parallel-group study was to compare the efficacy and safety of insulin glulisine (glulisine) to that of insulin lispro (lispro) in adults diagnosed with Type 1 diabetes. Of the 683 patients randomized, 672 received treatment ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19496630",
+            "title": "Insulin glulisine: a review of its use in the management of diabetes mellitus.",
+            "authors": [
+              "Garnock-Jones Karly P",
+              "Plosker Greg L"
+            ],
+            "journal": "Drugs",
+            "year": "2009",
+            "abstract": "Insulin glulisine (Apidra) is a human insulin analogue approved for the improvement of glycaemic control in adults, adolescents and children with diabetes mellitus. It has similar binding properties, and is associated with a faster onset but similar level of glucose disposal, to regular human insulin (RHI). Insulin glulisine and insulin lispro have similar effects on glucose levels. Insulin glulisine is effective when compared to other short- and rapid-acting insulins, demonstrating either nonin",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19216625",
+            "title": "Insulin glulisine: aspects of basal/bolus therapy for optimized treatment of diabetes mellitus.",
+            "authors": [
+              "Iltz Jason L"
+            ],
+            "journal": "Expert opinion on biological therapy",
+            "year": "2009",
+            "abstract": "The prevalence of diabetes mellitus continues to increase throughout the world with an expected doubling of documented cases between 2006 and 2030, diabetes deaths are expected to increase by more than 50% from 2006 to 2015. Therapeutic interventions should be based on scientific evidence, including earlier insulin initiation and use of a basal-bolus approach that better mimics normal physiology.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16193096",
+            "title": "Insulin glulisine.",
+            "authors": [
+              "Cox Sandra L"
+            ],
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2005",
+            "abstract": "In patients with diabetes, the benefit of conventional insulin therapy can be limited due to difficulty in achieving tight glycemic control, which is critical to reducing the risk of long-term diabetes-related complications. The recent development of recombinant analogs of regular human insulin is changing the clinical management of diabetes. One of the newest members of this class of hypoglycemic agents is insulin glulisine, a rapid-acting insulin analog with a pharmacokinetic profile that more",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18076215",
+            "title": "Clinical pharmacokinetics and pharmacodynamics of insulin glulisine.",
+            "authors": [
+              "Becker Reinhard H A",
+              "Frick Annke D"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2008",
+            "abstract": "Insulin glulisine injection [3(B)-Lys, 29(B)-Glu-human insulin] is the newest human insulin analogue product for the control of mealtime blood sugar. As with insulin aspart and insulin lispro products, the insulin glulisine product displays faster absorption and onset of action, with a shorter duration of action than that of regular human insulin. The modifications of the amino acid sequence at positions 3 and 29 in the B chain of human insulin simultaneously provide stability to the molecular s",
+            "classification": {
+              "study_type": "PK/PD study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17703632",
+            "title": "Combining insulins for optimal blood glucose control in type I and 2 diabetes: focus on insulin glulisine.",
+            "authors": [
+              "Ulrich Heather",
+              "Snyder Benjamin",
+              "Garg Satish K"
+            ],
+            "journal": "Vascular health and risk management",
+            "year": "2007",
+            "abstract": "Normalization of blood glucose is essential for the prevention of diabetes mellitus (DM)-related microvascular and macrovascular complications. Despite substantial literature to support the benefits of glucose lowering and clear treatment targets, glycemic control remains suboptimal for most people with DM in the United States. Pharmacokinetic limitations of conventional insulins have been a barrier to achieving treatment targets secondary to adverse effects such as hypoglycemia and weight gain.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23243636",
+            "title": "Insulin analogues for type 1 diabetes in children and adolescents.",
+            "authors": [
+              "Galli-Tsinopoulou A",
+              "Stergidou D"
+            ],
+            "journal": "Drugs of today (Barcelona, Spain : 1998)",
+            "year": "2012",
+            "abstract": "Since insulin is the unique and life-long therapy in type 1 diabetes and classical insulin preparations have certain limitations due to their pharmacokinetic and pharmacodynamic properties, the new insulin analogues aim to eliminate these limitations. Five insulin analogues are commercially available and approved for individuals with type 1 diabetes: three rapid-acting (insulin lispro, insulin aspart and insulin glulisine) and two long-acting insulin analogues (insulin glargine and insulin detem",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28544684",
+            "title": "Insulin glulisine for continuous subcutaneous insulin infusion in pediatric type 1 diabetes.",
+            "authors": [
+              "Urakami Tatsuhiko",
+              "Mine Yusuke",
+              "Aoki Masako",
+              "Okuno Misako",
+              "Suzuki Junichi"
+            ],
+            "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+            "year": "2017",
+            "abstract": "We evaluated the efficacy and safety of insulin glulisine (GLU) used for continuous s.c. insulin infusion (CSII) in 20 children with type 1 diabetes after 1 year of GLU treatment. There were no significant differences in mean plasma glucose before breakfast and before dinner between before and after using GLU, but the levels after breakfast and after dinner significantly improved, from 192.5 ± 31.7 to 162.0 ± 27.3 mg/dL for breakfast, and from 191.1 ± 33.3 to 161.1 ± 24.5 mg/dL for dinner (P < 0",
+            "classification": {
+              "study_type": "Clinical study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35650058",
+            "title": "[Switching insulin degludec to insulin glulisine improved nocturnal hypoglycemia and ventricular arrythmia in an elderly type 1 diabetes patient with chronic heart failure: A case report].",
+            "authors": [
+              "Hajika Yuriko",
+              "Kawaguchi Yuji",
+              "Tanaka Takako",
+              "Hamazaki Kenji",
+              "Kumeda Yasuro"
+            ],
+            "journal": "Nihon Ronen Igakkai zasshi. Japanese journal of geriatrics",
+            "year": "2022",
+            "abstract": "The patient was 82-year-old man with type 1 diabetes mellitus. He had been using insulin degludec (IDeg) and insulin glulisine (IGlu) for treatment. He was admitted to our hospital due to diabetic ketoacidosis. As he started eating after recovery, we restarted intensive insulin therapy for glycemic control. Although he had eaten almost whole meals, his fasting blood glucose was extremely low, and the existence of nocturnal hypoglycemia was apparent. We reduced the dose and changed the injection ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16123473",
+            "title": "Pharmacokinetics, prandial glucose control, and safety of insulin glulisine in children and adolescents with type 1 diabetes.",
+            "authors": [
+              "Danne Thomas",
+              "Becker Reinhard H A",
+              "Heise Tim",
+              "Bittner Claudia",
+              "Frick Annke D"
+            ],
+            "journal": "Diabetes care",
+            "year": "2005",
+            "abstract": "The aim of this study was to investigate the pharmacokinetics, postprandial blood glucose excursions, and safety of insulin glulisine as compared with regular human insulin (RHI), both administered immediately before meals in pediatric patients with type 1 diabetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15934890",
+            "title": "Insulin glulisine: a new rapid-acting insulin analogue for the treatment of diabetes.",
+            "authors": [
+              "Garg Satish K",
+              "Ellis Samuel L",
+              "Ulrich Heather"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2005",
+            "abstract": "Insulin glulisine (Apidra, Sanofi-Aventis), a new and recently approved rapid-acting insulin analogue, mimics the pharmacokinetic and pharmacodynamic profiles of physiological human insulin, but has a rapid onset, peak effect at 1h, and a shorter duration of action (approximately 4 h). Its rapid-action properties are maintained across subject types. Formal clinical evaluations show that insulin glulisine can be administered safely and effectively pre- and postmeal. When injected immediately prem",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19614947",
+            "title": "Efficacy and safety of insulin glulisine in Japanese patients with type 1 diabetes mellitus.",
+            "authors": [
+              "Kawamori R",
+              "Kadowaki T",
+              "Ishii H",
+              "Iwasaki M",
+              "Iwamoto Y"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2009",
+            "abstract": "The rapid-acting insulin analogue insulin glulisine (glulisine) was compared with insulin lispro (lispro) for efficacy and safety in Japanese patients with type 1 diabetes mellitus (T1DM), using insulin glargine (glargine) as basal insulin.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24412929",
+            "title": "Impact of insulins glulisine and aspart on postprandial glycemia after a high-glycemic index meal in children with type 1 diabetes.",
+            "authors": [
+              "Dzygalo Katarzyna",
+              "Szypowska Agnieszka"
+            ],
+            "journal": "European journal of endocrinology",
+            "year": "2014",
+            "abstract": "According to current knowledge, glulisine insulin (GLU) has a slightly faster onset of action than aspart (ASP) insulin. Therefore, GLU might lead to a better postprandial profile than ASP following the consumption of high-glycemic index (H-GI) meals. The aim of this study was to assess differences in the action of GLU and ASP after the consumption of a H-GI meal in type 1 diabetic children treated with insulin pumps.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26838553",
+            "title": "A case of type 1 diabetes mellitus with which localized insulin allergy was markedly alleviated by switching to insulin glulisine.",
+            "authors": [
+              "Watanabe Kahori",
+              "Kusunoki Yoshiki",
+              "Katsuno Tomoyuki",
+              "Nakae Rie",
+              "Matsuo Toshihiro"
+            ],
+            "journal": "Acta diabetologica",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21291333",
+            "title": "Comparable efficacy and safety of insulin glulisine and insulin lispro when given as part of a Basal-bolus insulin regimen in a 26-week trial in pediatric patients with type 1 diabetes.",
+            "authors": [
+              "Philotheou Areti",
+              "Arslanian Silva",
+              "Blatniczky László",
+              "Peterkova Valentina",
+              "Souhami Elisabeth"
+            ],
+            "journal": "Diabetes technology & therapeutics",
+            "year": "2011",
+            "abstract": "We compared the efficacy and safety of insulin glulisine with insulin lispro as part of a basal-bolus regimen in children and adolescents with type 1 diabetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21457066",
+            "title": "Insulin glulisine compared to insulin aspart and to insulin lispro administered by continuous subcutaneous insulin infusion in patients with type 1 diabetes: a randomized controlled trial.",
+            "authors": [
+              "van Bon Arianne C",
+              "Bode Bruce W",
+              "Sert-Langeron Caroline",
+              "DeVries J Hans",
+              "Charpentier Guillaume"
+            ],
+            "journal": "Diabetes technology & therapeutics",
+            "year": "2011",
+            "abstract": "In a previous pilot study comparing insulin glulisine (GLU) with insulin aspart (ASP) administered by continuous subcutaneous insulin infusion (CSII), GLU-treated patients did show a trend toward fewer catheter occlusions compared with ASP-treated patients. Here we performed a randomized open-label, three-way crossover, controlled multicenter study comparing GLU with ASP and insulin lispro (LIS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29159123",
+            "title": "Pharmacokinetics and pharmacodynamics of insulin glargine-insulin glulisine basal-bolus and twice-daily premixed analog insulin in type 1 diabetes mellitus patients during three standardized meals.",
+            "authors": [
+              "Lamos Elizabeth Mary",
+              "Younk Lisa M",
+              "Tate Donna B",
+              "Davis Stephen N"
+            ],
+            "journal": "Journal of clinical & translational endocrinology",
+            "year": "2016",
+            "abstract": "To evaluate the pharmacokinetics and pharmacodynamics of basal insulin glargine with mealtime insulin glulisine or twice daily 75/25 premixed neutral protamine insulin lispro and insulin lispro in individuals with type 1 diabetes during three standardized meals over a 24 hour duration and compare to physiologic insulin and glucose responses in healthy non-diabetic individuals.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16706558",
+            "title": "Insulin glulisine.",
+            "authors": [
+              "Robinson Dean M",
+              "Wellington Keri"
+            ],
+            "journal": "Drugs",
+            "year": "2006",
+            "abstract": "Insulin glulisine is a rapid-acting human insulin analogue that has a faster onset of action and shorter duration of action than regular human insulin (RHI) in patients with type 1 or 2 diabetes mellitus and is efficacious in controlling prandial blood glucose levels in these patients. In large, well designed trials in patients with type 1 diabetes, insulin glulisine demonstrated a similar degree of glycaemic control, as measured by glycosylated haemoglobin (HbA(1c)) levels, to RHI after 12 week",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Insulin glulisine 為速效胰島素類似物，透過 Lys3→Glu 及 Asn29→Lys 胺基酸置換，加速皮下吸收，精確模擬生理餐時胰島素分泌（prandial insulin）。T1DM 之胰島 β 細胞被自體免疫破壞，導致絕對胰島素缺乏，外源性胰島素補充為核心治療機制，生物合理性極高。此為原始核准適應症，非再利用候選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn": {
+        "score": 0.994702398777008,
+        "rank": 6732
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硫胺素反應性功能障礙症候群（Rogers syndrome，SLC19A2 突變）表現為三聯症：糖尿病、巨球細胞貧血、聽力喪失。其糖尿病組分源自硫胺素轉運缺陷導致 β 細胞氧化損傷，部分患者可能發展至胰島素依賴狀態。TxGNN 分數偏高可能反映知識圖譜中「糖尿病 → 胰島素」的節點關聯，而非疾病特異性機轉。目前無任何臨床試驗或文獻直接支持 glulisine 用於此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "opsismodysplasia",
+      "txgnn": {
+        "score": 0.9946334362030028,
+        "rank": 6794
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨骼發育不全症（INPPL1/SHIP2 基因突變）影響磷肌醇信號通路（PIP3 調節），SHIP2 亦參與胰島素信號傳遞（PI3K/Akt 路徑的負調控子）。理論上 SHIP2 缺失可能改變胰島素信號敏感性，但此為高度間接、預測性機制連結。骨骼表型（短肢侏儒）與胰島素治療之關聯性缺乏生物合理性支持。無任何臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn": {
+        "score": 0.9946146607398988,
+        "rank": 6806
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "局灶性僵肢症候群為僵人症候群之局部變型，共享 anti-GAD65 抗體機制（部分病例），與 T1DM 之共病關聯性同上。Glulisine 對此症候群之 α-運動神經元持續過度興奮並無直接抑制效果。無臨床試驗或文獻支持，TxGNN 評分很可能為間接知識圖譜誤導。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "classic stiff person syndrome",
+      "txgnn": {
+        "score": 0.9946146607398988,
+        "rank": 6807
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "典型僵人症候群（anti-GAD65 自身抗體介導）與 T1DM 共享自體免疫病理機制（anti-GAD65 抗體在兩者均可出現），約 20-30% 僵人症候群患者合併 T1DM。TxGNN 可能透過「共同抗原 GAD65 → 自體免疫 → 胰島素相關性」形成知識圖譜連結，但 glulisine 對僵人症候群本身（GABA 神經傳遞障礙）無直接治療機制。無臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "autoimmune oophoritis",
+      "txgnn": {
+        "score": 0.993693232536316,
+        "rank": 7636
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "自體免疫性卵巢炎為自體免疫多腺體症候群（APS type 1/2）之組成部分。APS type 2 常合併 T1DM（抗胰島素受體或抗 GAD 抗體），TxGNN 可能透過「APS → T1DM → 胰島素」路徑建立連結。Glulisine 對卵巢自體免疫發炎過程無已知治療機轉。無任何臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pancreatic agenesis",
+      "txgnn": {
+        "score": 0.9916749596595764,
+        "rank": 9265
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰臟發育不全（PTFL1/PDX1/PTF1A 等基因突變）導致胰臟完全缺失，胰島 β 細胞不存在，造成絕對胰島素缺乏症（類似極重度 T1DM）。理論上速效胰島素類似物用於餐時血糖控制之機制完全適用，但目前無針對此特定族群之臨床試驗或個案系列報告。疾病極罕見（全球數百例），標準胰島素替代治療文獻多以短效或常規胰島素記錄。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn": {
+        "score": 0.9914751052856444,
+        "rank": 9425
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 警示：胰島素注射本身為藥物誘發局部脂肪萎縮/脂肪增生之已知原因（注射部位反覆刺激）。TxGNN 高分很可能反映知識圖譜中「胰島素 ↔ 局部脂肪萎縮」的因果關係，而非治療關係。Glulisine 不是此症之治療藥物，反而是潛在病因之一。此候選應排除，評為 L5。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn": {
+        "score": 0.9911473393440248,
+        "rank": 9695
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "向心性脂肪萎縮症（Lipodystrophia centrifugalis abdominalis infantilis）為罕見兒科皮膚疾病，病因不明，可能涉及局部炎症或生長因子異常。目前無已知胰島素治療機轉，且 glulisine 用於此疾病之文獻與試驗均為零。TxGNN 分數可能為知識圖譜雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn": {
+        "score": 0.9909949898719788,
+        "rank": 9805
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "壓力性局部脂肪萎縮為機械性壓力（義肢、注射、壓迫）導致局部脂肪組織消失。同「drug-induced localized lipodystrophy」，胰島素注射為此類脂肪萎縮之誘因之一，而非治療手段。TxGNN 高分疑為注射相關共現性之誤導，缺乏治療機轉支持與任何臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "type 1 diabetes mellitus"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "thiamine-responsive dysfunction syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "opsismodysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "focal stiff limb syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "classic stiff person syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "autoimmune oophoritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "pancreatic agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "drug-induced localized lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "centrifugal lipodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Insulin glulisine",
+        "disease": "pressure-induced localized lipoatrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

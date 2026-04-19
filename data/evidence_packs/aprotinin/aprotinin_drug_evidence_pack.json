@@ -1,0 +1,801 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06692-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Aprotinin",
+    "drugbank_id": "DB06692",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9270852208137512,
+        "rank": 31170
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01596738",
+            "title": "Tranexamic Acid in Patients Receiving Primary and Isolated On-pump CABG With Premature Clopidogrel Cessation to Reduce Postoperative Bleeding and Transfusion",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2008-10",
+            "completion_date": "2012-03",
+            "brief_summary": "The use of platelet aggregation inhibitors, including aspirin and clopidogrel, has become a standard management strategy for patients with acute coronary syndrome. On this background, an increasing percentage of patients presenting for surgical coronary revascularization is the subject to irreversible platelet inhibition.\n\nTranexamic acid is a widely used antifibrinolytic agent, and is a promising substitute for aprotinin when the latter has been suspended in 2007.The release of plasmin during C",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "測試藥物為 Tranexamic Acid（非 Aprotinin），研究情境為 CABG 術後出血（涉及血小板功能），與目標適應症有間接情境關聯，但無法作為 Aprotinin 用於血小板釋放障礙的直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00724880",
+            "title": "Effect of Clopidogrel (Plavix) on Postoperative Bleeding in Patients Undergoing Coronary Artery Bypass Surgery. A Prospective Randomized Controlled Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 135,
+            "start_date": "2006-06",
+            "completion_date": "2007-12",
+            "brief_summary": "* Running title: Effect of Clopidogrel on Postoperative Bleeding in Patients undergoing Coronary Artery Bypass Surgery\n* Title: Clopidogrel and bleeding in patients undergoing coronary artery bypass grafting. Is surgical delay necessary in patients using clopidogrel? And if so, which is the safety time interval when clopidogrel should be stopped before surgery in order to avoid bleeding and other related complications.\n* Background: By blockade of the platelet ADP receptor, clopidogrel inhibits ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "測試藥物為 Clopidogrel（非 Aprotinin），研究情境相關但目標藥物不符。僅提供心臟手術中血小板功能干預的間接背景，不構成 Aprotinin 直接證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Aprotinin 透過抑制 Plasmin 保護血小板 GP Ib-IX 複合體免受降解，並抑制 Kallikrein 減少接觸活化誘導的血小板激活，可間接調節血小板顆粒釋放路徑。然而，原發性血小板釋放障礙（δ/α 顆粒分泌缺陷）的核心機轉與蛋白酶抑制並非直接因果關係，機轉連結屬間接推論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9248594045639038,
+        "rank": 31484
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glanzmann 血小板無力症為 GP IIb/IIIa（αIIbβ3 整合素）缺乏/功能異常，核心為血小板聚集缺陷。Aprotinin 抑制 Plasmin/Kallikrein 可保護 GP Ib（不同受體），對 GP IIb/IIIa 缺陷無直接補救機轉。儘管歷史上偶有將 Aprotinin 用於 Glanzmann 患者手術止血管理的案例報告，本資料集中無任何支持性文獻或試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9149697422981262,
+        "rank": 33105
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "基底動脈型偏頭痛（MBA）涉及後循環/腦幹特定先兆症狀，病理機轉包含皮質擴散性抑制及三叉神經血管激活。Kallikrein-Kinin 系統可能參與神經源性炎症，Aprotinin 抑制 Kallikrein 在理論上可減少 Bradykinin 生成，但此連結高度推測，且無任何支持性臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn": {
+        "score": 0.911979079246521,
+        "rank": 33470
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pseudo-vWD（血小板型 vWD）為 GP Ibα 功能增益突變，導致 vWF 高分子量多聚體過度結合血小板。Aprotinin 抑制 Plasmin 可理論上保護 vWF 多聚體不被降解，間接維持 vWF 水平，但對 GP Ibα 突變的根本缺陷無直接作用。推測性連結，無臨床數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9115726947784424,
+        "rank": 33512
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6181894",
+            "title": "Enkephalinase inhibition relieves pain syndromes of central dysnociception (migraine and related headache).",
+            "authors": [
+              "Sicuteri F"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1981",
+            "abstract": "Normotensive and hypertensive headache sufferers were treated with D-phenylalanine, aprotinin or captopril--all inhibitors of endogenous opioid degradation. Inconsistent results were obtained using D-phenylalanine and aprotinin (acute administration at the start of a migraine attack). Satisfactory results were obtained by prophylactic treatment with captopril (an inhibitor of the angiotensin converting enzyme and of the dipeptidyl carboxypeptidase--an enkephalin inactivating enzyme) compared wit",
+            "classification": {
+              "study_type": "Clinical observation/case series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Kallikrein-Kinin 系統在偏頭痛神經源性炎症中扮演角色：Kallikrein 催化 Bradykinin 生成 → 三叉神經末梢 CGRP 釋放 → 血管擴張與疼痛敏化。Aprotinin 抑制 Kallikrein 在理論上可中斷此路徑。然而，現有文獻（PMID 6181894）討論的是 Enkephalinase（Neprilysin，金屬蛋白酶）抑制，與 Aprotinin 作用的絲氨酸蛋白酶屬不同酶類，不能直接互證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn": {
+        "score": 0.9087183475494384,
+        "rank": 33873
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "食道非症候群性畸形為先天性結構異常（如食道閉鎖、氣管食道瘻管），病因涉及胚胎發育基因程序，非蛋白酶失調。Aprotinin 的絲氨酸蛋白酶抑制機轉對先天性結構缺陷無合理治療連結。TxGNN 評分偏高可能為知識圖譜非特異性連結偽影。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn": {
+        "score": 0.9029017090797424,
+        "rank": 34512
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1780806",
+            "title": "Influence of anticoagulants used for blood collection on plasma prothrombin fragment F1 + 2 measurements.",
+            "authors": [
+              "Bauer K A",
+              "Barzegar S",
+              "Rosenberg R D"
+            ],
+            "journal": "Thrombosis research",
+            "year": "1991",
+            "abstract": "The levels of prothrombin fragment F1 + 2 were measured by a double antibody radioimmunoassay in blood samples collected into different anticoagulant solutions. We evaluated healthy males between the ages of 42 and 77, asymptomatic patients with hereditary deficiencies of protein C or protein S, and persons receiving tumor necrosis factor infusions. The results in specimens collected in an anticoagulant containing ACD, EDTA, adenosine, and 25 U/ml of heparin (a) were highly correlated with those",
+            "classification": {
+              "study_type": "Laboratory methodology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性凝血酶原缺乏症需要因子替代療法（FFP 或 PCC）。Aprotinin 抑制絲氨酸蛋白酶（包括 Thrombin 下游效應），無法補償凝血酶原本身的缺乏，機轉根本不匹配——抑制蛋白酶無法彌補凝血因子缺乏症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "filariasis",
+      "txgnn": {
+        "score": 0.866580069065094,
+        "rank": 37868
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9491098",
+            "title": "The effects of protease inhibitors and sugars on the survival and development of the parasite Onchocerca ochengi in its natural intermediate host Simulium damnosum s.l.",
+            "authors": [
+              "Hagen H E",
+              "Kläger S L",
+              "Barrault D V",
+              "Ham P J"
+            ],
+            "journal": "Tropical medicine & international health : TM & IH",
+            "year": "1997",
+            "abstract": "A range of protease inhibitors and carbohydrates were administered to the haemolymph of the vector Simulium damnosum s.l. to test for their effects on the success of an Onchocerca ochengi infection in vivo. We found that serine protease inhibitors led to a significant increase of parasite survival. Two sugars, D(+)-galactose and methyl-alpha-D-mannopyranoside, had the same effect. These effects are possibly due to the successful in vivo blocking of the two respective types of inducible immune mo",
+            "classification": {
+              "study_type": "In vitro / Ex vivo preclinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "絲蟲（Onchocerca, Wuchereria bancrofti, Brugia spp.）依賴絲氨酸蛋白酶執行關鍵生物功能：蛻皮（molting）、消化宿主組織、逃避宿主免疫反應。Aprotinin 作為廣效絲氨酸蛋白酶抑制劑，在理論上可干擾寄生蟲蛋白酶功能，阻礙其發育存活。PMID 9491098 提供了此假說的直接前臨床支持（Onchocerca 模型）。此為所有候選適應症中最具生物合理性的機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn": {
+        "score": 0.8649410009384155,
+        "rank": 38028
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嚴重非增殖性糖尿病視網膜病變的核心病理涉及微血管損傷、基底膜增厚、週細胞喪失及 VEGF 驅動的血管通透性增加，主要效應蛋白酶為基質金屬蛋白酶（MMPs）和 VEGF 路徑酶，非 Aprotinin 的靶標（絲氨酸蛋白酶）。Kallikrein-Kinin 系統確實參與糖尿病眼部血管通透性，但無數據支持此推論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "esotropia",
+      "txgnn": {
+        "score": 0.855962872505188,
+        "rank": 38733
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "內斜視為眼外肌平衡失調所致（神經源性、屈光性或限制性），治療手段為屈光矯正、Botox 注射或手術。絲氨酸蛋白酶抑制與眼球對位異常無任何已知治療機轉。TxGNN 評分可能反映知識圖譜中眼部血管/炎症節點的非特異性關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "pseudo-von Willebrand disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "non-syndromic esophageal malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "filariasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "filariasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "filariasis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aprotinin",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

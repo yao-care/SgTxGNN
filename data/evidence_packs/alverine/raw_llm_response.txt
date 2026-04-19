@@ -1,0 +1,190 @@
+## Alverine (DB01616) 藥物再利用證據分析
+
+以下為基於提供資料的系統性評估：
+
+```json
+{
+  "drug": "Alverine",
+  "drugbank_id": "DB01616",
+  "analysis_date": "2026-04-05",
+  "data_quality_notes": {
+    "moa_gap": "原始 MOA 欄位為 [Data Gap]；Alverine 為已知平滑肌鬆弛劑（抗痙攣劑），文獻顯示可能涉及 5-HT1A 受體及平滑肌鈣離子通道",
+    "market_status_note": "標記為「未上市」，然 Alverine citrate（Spasmonal®）實際在歐洲/亞洲多國上市用於 IBS；此欄位可能指特定管轄區域未上市",
+    "ddi_count": "DDI=0 可能為資料庫收錄不完整，非無交互作用"
+  },
+  "indications": [
+    {
+      "disease_name": "anxiety disorder",
+      "txgnn_score": 0.9945,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Alverine 在動物實驗中顯示 5-HT1A 部分激動/拮抗活性；5-HT1A 受體為焦慮症一線藥物（buspirone）作用靶點。IBS 與焦慮症高度共病（腸腦軸），但現有臨床試驗 NCT00934973 以 IBS 為主要終點，焦慮僅為次要觀察，尚無以焦慮為主要終點之 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00934973",
+          "title": "Management of Irritable Bowel Syndrome in Primary Care: Feasibility RCT",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 135,
+          "relevance_grade": "C",
+          "reasoning": "試驗主要適應症為 IBS，非焦慮症；焦慮評估（若有）屬次要終點或共病觀察。證據屬間接相關，IBS-焦慮共病機制可作為假說基礎，但無法直接支持焦慮症適應症。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25199966",
+          "title": "Anxiolytic-like effects of alverine citrate in experimental mouse models of anxiety.",
+          "year": "2014",
+          "study_type": "動物實驗（preclinical）",
+          "tier": 3,
+          "notes": "使用標準化焦慮小鼠模型（高架十字迷宮/明暗箱）；提供機轉假說支持，但 tier 3 無法單獨支撐臨床決策，需人體 PK/PD 及 Phase 1 安全性資料。"
+        }
+      ]
+    },
+    {
+      "disease_name": "neurotic depression",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PMID 30087074 為網路藥理學計算預測研究，以蛋白質交互作用網路推算潛在抗憂鬱候選藥；Alverine 列入候選係基於網路拓撲相似性，非直接生物學驗證。機轉假說：可能透過共享 serotonergic/noradrenergic 網路節點與憂鬱症路徑交集，但尚無體外/體內實驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30087074",
+          "title": "Network-based drug repositioning: A novel strategy for discovering potential antidepressants and their mechanisms of action.",
+          "year": "2018",
+          "study_type": "計算生物學/網路分析",
+          "tier": 3,
+          "notes": "純計算預測，屬 in silico 研究；無濕實驗驗證。對於 L5 定義（僅有預測，無臨床證據），此類文獻略優於 TxGNN 單一預測，但仍屬 L5 範疇。"
+        }
+      ]
+    },
+    {
+      "disease_name": "melancholia",
+      "txgnn_score": 0.9914,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 neurotic depression 共享同一計算預測來源（PMID 30087074）。憂鬱症亞型，缺乏 Alverine 特異性機轉連結。憂鬱症網路節點重疊為假說基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30087074",
+          "title": "Network-based drug repositioning: A novel strategy for discovering potential antidepressants and their mechanisms of action.",
+          "year": "2018",
+          "study_type": "計算生物學/網路分析",
+          "tier": 3,
+          "notes": "同 neurotic depression 條目；melancholia 與 neurotic depression 在本分析中共享相同文獻支持，無獨立證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "dysthymic disorder",
+      "txgnn_score": 0.9983,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "持續性憂鬱症（輕鬱症）。TxGNN 評分最高（0.998），推測為知識圖譜中憂鬱症/焦慮症相關節點高度連結所致。無任何臨床或前臨床直接證據。機轉推測：若 Alverine 確有 serotonergic 活性，理論上與輕鬱症路徑有交集，但尚屬純假說。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neurotic disorder",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "廣義神經症分類（含焦慮、輕鬱、強迫等亞型）。無直接臨床或前臨床證據。與 anxiety disorder 條目之機轉假說部分重疊（5-HT1A），但精神科診斷分類過於廣泛，難以作為單一適應症開發目標。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "agoraphobia",
+      "txgnn_score": 0.9906,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "廣場恐懼症屬焦慮症光譜。若 Alverine 之焦慮症假說成立（PMID 25199966），廣場恐懼症在理論上可能受益，但無任何特定研究。需先於一般焦慮症獲得 L2 以上證據，方可評估此亞型。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偏頭痛涉及三叉神經血管機制及 5-HT 受體（特別是 5-HT1B/1D）。Alverine 若具 5-HT 活性，理論上可能有部分交集，但作用靶點與 triptan 類藥物不同。平滑肌鬆弛作用對腦血管可能有輕微效應，但機轉假說極為薄弱，且無任何臨床或前臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛亞型，涉及腦幹血流調控。較一般偏頭痛更為複雜，且 triptan 類在此亞型為相對禁忌。無任何 Alverine 相關臨床或前臨床證據。TxGNN 評分可能源於偏頭痛節點網路連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嬰兒良性陣發性斜頸為偏頭痛等效症候群，與 CACNA1A 基因相關。Alverine 平滑肌鬆弛作用理論上與此無直接關聯；知識圖譜可能因偏頭痛節點而產生此預測。兒科族群安全性資料完全缺乏，研究優先順序極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+      "txgnn_score": 0.9902,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性孤立性 ACTH 缺乏症為罕見下視丘-腦下垂體軸疾病（通常與 POMC 或 TPIT 基因突變相關）。Alverine 已知藥理（平滑肌鬆弛/抗痙攣）與 HPA 軸內分泌調控無明確機轉連結。此預測最可能為 KG 網路拓撲假陽性。研究價值最低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要
+
+| 疾病 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|------|---------|---------|------|---------|
+| **anxiety disorder** | **L4** | **S1** | **Research Question** | 動物實驗 + 間接 PHASE4 試驗 |
+| neurotic depression | L5 | S0 | Hold | 計算預測文獻 |
+| melancholia | L5 | S0 | Hold | 計算預測文獻（同上） |
+| dysthymic disorder | L5 | S0 | Hold | 純 TxGNN 預測 |
+| neurotic disorder | L5 | S0 | Hold | 純 TxGNN 預測 |
+| agoraphobia | L5 | S0 | Hold | 純 TxGNN 預測 |
+| migraine disorder | L5 | S0 | Hold | 純 TxGNN 預測 |
+| migraine with brainstem aura | L5 | S0 | Hold | 純 TxGNN 預測 |
+| benign paroxysmal torticollis | L5 | S0 | Hold | 純 TxGNN 預測 |
+| ACTH deficiency | L5 | S0 | Hold | 純 TxGNN 預測（機轉無關聯） |
+
+---
+
+## ⚠️ 整體風險評估
+
+### 優先推進：`anxiety disorder`（唯一 L4 候選）
+- **強項**：有前臨床動物實驗直接支持（PMID 25199966）；與 Alverine 在 IBS 之已知作用部分呼應（腸腦軸/5-HT 假說）
+- **弱項**：僅動物實驗；臨床試驗（NCT00934973）非焦慮症設計；Alverine MOA 資料庫記錄不完整
+- **建議下一步**：
+  1. 確認 Alverine 的 5-HT1A 受體親和力（放射配體結合實驗文獻回顧）
+  2. 系統性 PubMed 擴展搜索（IBS 患者焦慮共病改善之次要終點資料）
+  3. 評估 NCT00934973 完整報告中是否有焦慮量表次要結果
+
+### 低優先：憂鬱症光譜（neurotic depression/melancholia/dysthymia）
+- 共享同一計算預測來源，彼此高度相關，但缺乏獨立濕實驗驗證
+
+### 不建議推進：偏頭痛、ACTH 缺乏症、嬰兒斜頸
+- 機轉連結最弱，或為特殊族群（兒科、罕病），優先順序極低

@@ -1,0 +1,1519 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00349-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clobazam",
+    "drugbank_id": "DB00349",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "febrile infection-related epilepsy syndrome",
+      "txgnn": {
+        "score": 0.9981793165206908,
+        "rank": 3173
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35770765",
+            "title": "Enteral lorazepam is a promising weaning strategy for midazolam-responsive febrile infection-related epilepsy syndrome (FIRES): a case series.",
+            "authors": [
+              "Jain Vivek",
+              "Konanki Ramesh",
+              "Chaitra Raghuvamshi",
+              "Srivastava Kavita",
+              "Sharma Ravi"
+            ],
+            "journal": "Epileptic disorders : international epilepsy journal with videotape",
+            "year": "2022",
+            "abstract": "Prolonged and repetitive cycles of pharmacological coma, with midazolam or other general anaesthetics, is often the mainstay for seizure control in febrile infection-related epilepsy syndrome (FIRES). Here we present our experience of enteral lorazepam as an effective weaning substitute in midazolam-dependent patients.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39958143",
+            "title": "Potential Role of Perampanel in Reducing Barbiturate Dependency in Febrile Infection-Related Epilepsy Syndrome: A Case Report.",
+            "authors": [
+              "Ochiai Kenta",
+              "Omata Taku",
+              "Sano Kentaro",
+              "Sakuma Hiroshi",
+              "Takanashi Jun-Ichi"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Febrile infection-related epilepsy syndrome (FIRES) is a type of new-onset refractory status epilepticus (NORSE) that occurs in previously healthy children. Conventional antiepileptic drugs (AEDs) often fail to control seizures, necessitating the use of high-dose anesthetics, which can lead to severe complications and poor outcomes. Perampanel has shown promise in the treatment of refractory epilepsy; however, its role in FIRES remains underexplored. We report the case of a 13-year-old boy with ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FIRES 為新發難治性癲癇持續狀態，目前以高劑量鎮靜藥物（midazolam、barbiturate）控制。Clobazam 作為 1,5-BZD，理論上可透過 GABA-A 增強提供口服替代選擇，用於脫離靜脈鎮靜劑。PMID 39958143 直接呈現一例 13 歲 FIRES 患者，經 perampanel 脫離 thiopental 後，最終以 clobazam + levetiracetam 達無發作狀態。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "perioral myoclonia with absences",
+      "txgnn": {
+        "score": 0.9979487061500548,
+        "rank": 3484
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Perioral myoclonia with absences 為廣泛性癲癇症候群，以 3Hz 棘慢複合波及口周肌陣攣為特徵。苯二氮平類藥物（含 clobazam）對廣泛性發作有 GABA-A 理論基礎，但缺乏任何臨床文獻支持 clobazam 於此特定症候群之應用。TxGNN 高分（0.998）反映知識圖譜預測，非臨床驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "cryptogenic late-onset epileptic spasms",
+      "txgnn": {
+        "score": 0.9977388381958008,
+        "rank": 3733
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "隱源性晚發性癲癇性痙攣（>18 個月）通常對 ACTH/vigabatrin 反應較差。Clobazam 對嬰兒痙攣缺乏直接臨床文獻，GABA-A 正向調控機轉雖合理，但此特定子型無任何發表數據支持。需注意 BZD 類藥物在嬰兒癲癇之鎮靜副作用風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "atypical childhood epilepsy with centrotemporal spikes",
+      "txgnn": {
+        "score": 0.9977388381958008,
+        "rank": 3734
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21982812",
+            "title": "Atonic variant of benign childhood epilepsy with centrotemporal spikes (atonic-BECTS): a distinct electro-clinical syndrome.",
+            "authors": [
+              "Cherian Ajith",
+              "Baheti Neeraj N",
+              "Menon Ramshekhar N",
+              "Iyer Rajesh S",
+              "Rathore Chaturbhuj"
+            ],
+            "journal": "Brain & development",
+            "year": "2012",
+            "abstract": "To describe the clinical and electroencephalographic features, treatment strategies and outcome in a series of children with the atonic variant of benign childhood epilepsy with centrotemporal spikes (atonic-BECTS).",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21095081",
+            "title": "Treatment of benign focal epilepsies in children: when and how should be treated?",
+            "authors": [
+              "Oguni Hirokazu"
+            ],
+            "journal": "Brain & development",
+            "year": "2011",
+            "abstract": "Benign focal epilepsies represent almost one-fourth of all childhood epilepsies and are a frequent occurrence in clinical practice. They include benign infantile seizures (BIS), Panayiotopoulos syndrome (PS), and benign childhood epilepsy with centrotemporal spikes (BCECTS) in this order of the onset age. Because the prognosis is always excellent in patients with benign focal epilepsies, we must consider the risks and benefits of chronic antiepileptic drug (AED) administration. AED treatment is ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34041163",
+            "title": "Clinical profile of patients with rolandic epilepsy at a clinic in rural Maharashtra.",
+            "authors": [
+              "Sable Sunil",
+              "Sable Rachna",
+              "Tamhankar Parag",
+              "Tamhankar Vasundhara"
+            ],
+            "journal": "Journal of family medicine and primary care",
+            "year": "2021",
+            "abstract": "To describe the seizure pattern, treatment strategies and outcome in a series of children with Rolandic seizures or childhood epilepsy with centrotemporal spikes.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非典型 BECTS（含 Panayiotopoulos 症候群）為良性局灶性癲癇譜系，Clobazam 透過 GABA-A 調控對局灶發作有效。PMID 21095081（2011 年 Brain & Development 綜述）明確指出 clobazam 為 Panayiotopoulos 症候群之一線 AED 選項，與典型 atypical BECTS 高度重疊。PMID 34041163 提供 rolandic 癲癇（BECTS）實際治療數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "photosensitive occipital lobe epilepsy",
+      "txgnn": {
+        "score": 0.9977388381958008,
+        "rank": 3735
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7923453",
+            "title": "Reflex epilepsies: experience in Sri Lanka.",
+            "authors": [
+              "Senanayake N"
+            ],
+            "journal": "The Ceylon medical journal",
+            "year": "1994",
+            "abstract": "Reflex epilepsy (RE) is characterised by seizures that are regularly elicited by some specific stimulus or event mediated by neural pathways. In a prospective study of 1287 epileptic patients seen at Peradeniya, 223 (17.3%) were found to have RE, eating being the commonest stimulus (191 patients, 85.7%). Photosensitive epilepsy (PSE) was relatively rare. Intermittent photic stimulation on 874 unselected epileptic patients produced a positive photoconvulsive response in 60 (6.9%). None had photos",
+            "classification": {
+              "study_type": "Retrospective Case Series / Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "光敏性枕葉癲癇屬反射性癲癇，視覺皮質過度興奮所致。Clobazam 之 GABA-A 調控理論上可提升癲癇閾值，但現有文獻（PMID 7923453，1994 年斯里蘭卡回顧研究）討論光敏性癲癇流行病學，並未針對 clobazam 療效提供數據。間接機轉連結存在，但臨床證據缺乏。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "childhood onset epileptic encephalopathy",
+      "txgnn": {
+        "score": 0.9959487915039062,
+        "rank": 5644
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39700524",
+            "title": "Refining management strategies for Lennox-Gastaut syndrome: Updated algorithms and practical approaches.",
+            "authors": [
+              "Auvin Stéphane",
+              "Arzimanoglou Alexis",
+              "Falip Mercè",
+              "Striano Pasquale",
+              "Cross J Helen"
+            ],
+            "journal": "Epilepsia open",
+            "year": "2025",
+            "abstract": "Lennox-Gastaut syndrome (LGS) is a severe developmental and epileptic encephalopathy (DEE) characterized by multiple types of drug-resistant seizures (which must include tonic seizures) with classical onset before 8 years (although some cases with later onset have also been described), abnormal electroencephalographic features, and cognitive and behavioral impairments. Management and treatment of LGS are challenging, due to associated comorbidities and the treatment resistance of seizures. A pan",
+            "classification": {
+              "study_type": "Expert Consensus / Algorithm",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36194365",
+            "title": "Psychobehavioural and Cognitive Adverse Events of Anti-Seizure Medications for the Treatment of Developmental and Epileptic Encephalopathies.",
+            "authors": [
+              "Strzelczyk Adam",
+              "Schubert-Bast Susanne"
+            ],
+            "journal": "CNS drugs",
+            "year": "2022",
+            "abstract": "The developmental and epileptic encephalopathies encompass a group of rare syndromes characterised by severe drug-resistant epilepsy with onset in childhood and significant neurodevelopmental comorbidities. The latter include intellectual disability, developmental delay, behavioural problems including attention-deficit hyperactivity disorder and autism spectrum disorder, psychiatric problems including anxiety and depression, speech impairment and sleep problems. Classical examples of development",
+            "classification": {
+              "study_type": "Targeted Literature Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32893075",
+            "title": "Epilepsy in Angelman syndrome: A scoping review.",
+            "authors": [
+              "Samanta Debopam"
+            ],
+            "journal": "Brain & development",
+            "year": "2021",
+            "abstract": "Angelman Syndrome (AS) is characterized by severe developmental delays including marked speech impairment, movement abnormalities(ataxia, tremor), and unique behaviors such as frequent laughter and is caused by dysfunctional maternal UBE3A gene (maternal 15q11-13 deletions, maternal specific UBE3A mutation, uniparental disomy, and imprinting defect). Intractable epileptic seizures since early childhood with characteristic EEG abnormalities are present in 80-90% patients with AS. Underlying patho",
+            "classification": {
+              "study_type": "Scoping Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33479851",
+            "title": "Expanding the Treatment Landscape for Lennox-Gastaut Syndrome: Current and Future Strategies.",
+            "authors": [
+              "Strzelczyk Adam",
+              "Schubert-Bast Susanne"
+            ],
+            "journal": "CNS drugs",
+            "year": "2021",
+            "abstract": "Lennox-Gastaut syndrome (LGS), a childhood-onset severe developmental and epileptic encephalopathy (DEE), is an entity that encompasses a heterogenous group of aetiologies, with no single genetic cause. It is characterised by multiple seizure types, an abnormal EEG with generalised slow spike and wave discharges and cognitive impairment, associated with high morbidity and profound effects on the quality of life of patients and their families. Drug-refractory seizures are a hallmark and treatment",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39854828",
+            "title": "Antiseizure medications for Lennox-Gastaut Syndrome: Comprehensive review and proposed consensus treatment algorithm.",
+            "authors": [
+              "Samanta Debopam",
+              "Bhalla Sonam",
+              "Bhatia Sonal",
+              "Fine Anthony L",
+              "Haridas Babitha"
+            ],
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2025",
+            "abstract": "Lennox-Gastaut syndrome (LGS) is a severe, childhood-onset developmental and epileptic encephalopathy characterized by multiple drug-resistant seizure types, specific electroencephalogram (EEG) patterns, and significant cognitive and behavioral impairments. To date, eight anti-seizure medications (ASMs) have been specifically approved by the U.S. Food and Drug Administration (FDA) for the treatment of LGS: clonazepam, felbamate, lamotrigine, topiramate, rufinamide, clobazam, cannabidiol, and fen",
+            "classification": {
+              "study_type": "Comprehensive Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26122601",
+            "title": "Summary of recommendations for the management of infantile seizures: Task Force Report for the ILAE Commission of Pediatrics.",
+            "authors": [
+              "Wilmshurst Jo M",
+              "Gaillard William D",
+              "Vinayan Kollencheri Puthenveettil",
+              "Tsuchida Tammy N",
+              "Plouin Perrine"
+            ],
+            "journal": "Epilepsia",
+            "year": "2015",
+            "abstract": "Evidence-based guidelines, or recommendations, for the management of infants with seizures are lacking. A Task Force of the Commission of Pediatrics developed a consensus document addressing diagnostic markers, management interventions, and outcome measures for infants with seizures. Levels of evidence to support recommendations and statements were assessed using the American Academy of Neurology Guidelines and the Grading of Recommendations Assessment, Development and Evaluation (GRADE) system.",
+            "classification": {
+              "study_type": "ILAE Task Force Report",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29898971",
+            "title": "Practice guideline update summary: Efficacy and tolerability of the new antiepileptic drugs I: Treatment of new-onset epilepsy: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Epilepsy Society.",
+            "authors": [
+              "Kanner Andres M",
+              "Ashman Eric",
+              "Gloss David",
+              "Harden Cynthia",
+              "Bourgeois Blaise"
+            ],
+            "journal": "Neurology",
+            "year": "2018",
+            "abstract": "To update the 2004 American Academy of Neurology (AAN) guideline for treating new-onset focal or generalized epilepsy with second- and third-generation antiepileptic drugs (AEDs).",
+            "classification": {
+              "study_type": "Practice Guideline (AAN/AES)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38015929",
+            "title": "Delineating clinical and developmental outcomes in STXBP1-related disorders.",
+            "authors": [
+              "Xian Julie",
+              "Thalwitzer Kim Marie",
+              "McKee Jillian",
+              "Sullivan Katie Rose",
+              "Brimble Elise"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2023",
+            "abstract": "STXBP1-related disorders are among the most common genetic epilepsies and neurodevelopmental disorders. However, the longitudinal epilepsy course and developmental end points, have not yet been described in detail, which is a critical prerequisite for clinical trial readiness. Here, we assessed 1281 cumulative patient-years of seizure and developmental histories in 162 individuals with STXBP1-related disorders and established a natural history framework. STXBP1-related disorders are characterize",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40468679",
+            "title": "Current and emerging pharmacotherapies in Lennox-Gastaut syndrome.",
+            "authors": [
+              "Samanta Debopam",
+              "Nath Manan"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2025",
+            "abstract": "Lennox-Gastaut syndrome (LGS) is a severe childhood-onset developmental and epileptic encephalopathy characterized by multiple drug-resistant seizures, cognitive impairments, and distinctive EEG patterns. Given its profound impact on patients' quality of life, developing effective pharmacotherapies remains a critical clinical challenge.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29594870",
+            "title": "Treatment Strategies for Dravet Syndrome.",
+            "authors": [
+              "Knupp Kelly G",
+              "Wirrell Elaine C"
+            ],
+            "journal": "CNS drugs",
+            "year": "2018",
+            "abstract": "Dravet syndrome (DS) is a medically refractory epilepsy that onsets in the first year of life with prolonged seizures, often triggered by fever. Over time, patients develop other seizure types (myoclonic, atypical absences, drops), intellectual disability, crouch gait and other co-morbidities (sleep problems, autonomic dysfunction). Complete seizure control is generally not achievable with current therapies, and the goals of treatment are to balance reduction of seizure burden with adverse effec",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39679854",
+            "title": "Successful management of refractory epilepsy in creatine transporter deficiency with cannabidiol and clobazam: A case report.",
+            "authors": [
+              "Borrell-Pichot Maria",
+              "Fons Carmen",
+              "Boronat Susana",
+              "Sierra-Marcos Alba"
+            ],
+            "journal": "Epilepsia open",
+            "year": "2025",
+            "abstract": "Creatine transporter deficiency (CRTR-D) is a rare X-linked inherited disease belonging to the group of cerebral creatine deficiency disorders. Major clinical features include developmental delay and epilepsy. To date, fewer than 200 individuals with CRTR-D have been reported. As a result, there is little evidence for effective treatment. Available therapies are creatine precursors, with a mild effect on disease progression. Concerning epilepsy, standard management is recommended and no specific",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37212330",
+            "title": "Current and emerging pharmacotherapy for the treatment of Lennox-Gastaut syndrome.",
+            "authors": [
+              "Besag Frank M C",
+              "Vasey Michael J",
+              "Chin Richard F M"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2023",
+            "abstract": "Lennox-Gastaut syndrome (LGS) is a severe childhood-onset epileptic encephalopathy, characterized by multiple seizure types, generalized slow spike-and-wave complexes in the EEG, and cognitive impairment. Seizures in LGS are typically resistant to treatment with antiseizure medications (ASMs). Tonic/atonic ('drop') seizures are of particular concern, due to their liability to cause physical injury.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33243685",
+            "title": "Management of Lennox-Gastaut syndrome beyond childhood: A comprehensive review.",
+            "authors": [
+              "Samanta Debopam"
+            ],
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2021",
+            "abstract": "Lennox-Gastaut syndrome (LGS) is a childhood-onset epileptic encephalopathy characterized by multiple types of medically intractable seizures, cognitive impairment, and generalized slow spike-wave discharges in electroencephalography (EEG). Although the onset of this epileptic syndrome occurs typically before eight years of age with a peak age between 3 and 5 years, lifelong persistence of the syndrome is usual. The evolution of clinical features, EEG findings, and paucity of knowledge about LGS",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30900478",
+            "title": "Stiripentol for the treatment of seizures associated with Dravet syndrome.",
+            "authors": [
+              "Chiron Catherine"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2019",
+            "abstract": "Stiripentol is an orphan drug approved for the treatment of seizures associated with Dravet syndrome (since 2007 in Europe). Therapeutic options recently grew in this rare and severe early-onset epilepsy with the approval of stiripentol and cannabidiol in 2018 in the US and the positive trials just completed with fenfluramine. Areas covered: First, the short-term efficacy of stiripentol as adjunctive therapy to clobazam and valproate, which was discovered by serendipity thanks to a basket study ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31017478",
+            "title": "Stiripentol for the treatment of seizures in Dravet syndrome.",
+            "authors": [
+              "Eschbach Krista",
+              "Knupp Kelly G"
+            ],
+            "journal": "Expert review of clinical pharmacology",
+            "year": "2019",
+            "abstract": "Dravet syndrome is an early childhood-onset epilepsy syndrome characterized by drug-resistant seizures, frequent episodes of status epilepticus, and the development of neurocognitive impairment. Seizure freedom in this condition is rare and there is a higher rate of sudden unexplained death in epilepsy patients (SUDEP) than other epilepsy syndromes. Stiripentol is a recently approved medication with an indication specifically for the treatment of seizures in children with Dravet syndrome. Areas ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28461749",
+            "title": "Treatment-resistant Lennox-Gastaut syndrome: therapeutic trends, challenges and future directions.",
+            "authors": [
+              "Ostendorf Adam P",
+              "Ng Yu-Tze"
+            ],
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2017",
+            "abstract": "Lennox-Gastaut syndrome is a severe, childhood-onset electroclinical syndrome comprised of multiple seizure types, intellectual and behavioral disturbances and characteristic findings on electroencephalogram of slow spike and wave complexes and paroxysmal fast frequency activity. Profound morbidity often accompanies a common and severe seizure type, the drop attack. Seizures often remain refractory, or initial treatment efficacy fades. Few individuals are seizure free despite the development of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35243670",
+            "title": "Delineating the epilepsy phenotype of NGLY1 deficiency.",
+            "authors": [
+              "Levy Rebecca J",
+              "Frater Christina H",
+              "Gallentine William B",
+              "Phillips Jennifer M",
+              "Ruzhnikov Maura R"
+            ],
+            "journal": "Journal of inherited metabolic disease",
+            "year": "2022",
+            "abstract": "We delineated the phenotypic spectrum of epilepsy in individuals with NGLY1 deficiency from an international cohort. We collected detailed clinical and electroencephalographic data from 29 individuals with bi-allelic (likely) pathogenic variants in NGLY1 as part of an ongoing prospective natural history study. Participants were evaluated in-person at a single center and/or remotely. Historical medical records were reviewed. Published cases were included for comprehensive phenotyping. Of 29 indiv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22883278",
+            "title": "Update on the management of Lennox-Gastaut syndrome.",
+            "authors": [
+              "VanStraten Amanda F",
+              "Ng Yu-Tze"
+            ],
+            "journal": "Pediatric neurology",
+            "year": "2012",
+            "abstract": "Lennox-Gastaut syndrome is a severe childhood epilepsy disorder characterized by encephalopathy and multiple, often intractable, seizure types. The drop attack is the most frequently recognizable seizure type in this patient population, and is also the most dangerous physically, thus severely limiting quality of life. The diagnosis is confirmed by electroencephalography, for which the classic pattern is a slow 2.5 Hz generalized spike-and-wave. Newer pharmacologic treatments include rufinimide a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37215006",
+            "title": "Delineating clinical and developmental outcomes in STXBP1-related disorders.",
+            "authors": [
+              "Xian Julie",
+              "Thalwitzer Kim Marie",
+              "McKee Jillian",
+              "Sullivan Katie Rose",
+              "Brimble Elise"
+            ],
+            "journal": "medRxiv : the preprint server for health sciences",
+            "year": "2023",
+            "abstract": "STXBP1-related disorders are among the most common genetic epilepsies and neurodevelopmental disorders. However, the longitudinal epilepsy course and developmental endpoints have not yet been described in detail, which is a critical prerequisite for clinical trial readiness. Here, we assessed 1,281 cumulative patient-years of seizure and developmental histories in 162 individuals with STXBP1-related disorders and established a natural history framework. STXBP1-related disorders are characterized",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35749975",
+            "title": "The effectiveness and tolerability of clobazam in the pediatric population: Adjunctive therapy and monotherapy in a large-cohort multicenter study.",
+            "authors": [
+              "Kamaşak Tülay",
+              "Serdaroğlu Esra",
+              "Yılmaz Özlem",
+              "Kılıç Betül Aydın",
+              "Polat Burçin G"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2022",
+            "abstract": "To evaluate the effectiveness and tolerability of clobazam therapy in the pediatric population in terms of seizure semiology, epileptic syndromes, and etiological subgroups.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clobazam 透過增強 GABA-A 受體氯離子通道開放頻率，廣泛抑制各類癲癇放電。LGS（最具代表性之兒童癲癇性腦病）已有 Phase 3 RCT（CONTAIN trial，OV-1012）證明 clobazam 顯著減少跌倒發作頻率，FDA 於 2011 年正式核准。文獻亦涵蓋 Dravet 症候群（stiripentol 三聯療法）及其他 DEE（STXBP1、Angelman 等）之使用經驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "benign occipital epilepsy",
+      "txgnn": {
+        "score": 0.995750904083252,
+        "rank": 5825
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29898971",
+            "title": "Practice guideline update summary: Efficacy and tolerability of the new antiepileptic drugs I: Treatment of new-onset epilepsy: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Epilepsy Society.",
+            "authors": [
+              "Kanner Andres M",
+              "Ashman Eric",
+              "Gloss David",
+              "Harden Cynthia",
+              "Bourgeois Blaise"
+            ],
+            "journal": "Neurology",
+            "year": "2018",
+            "abstract": "To update the 2004 American Academy of Neurology (AAN) guideline for treating new-onset focal or generalized epilepsy with second- and third-generation antiepileptic drugs (AEDs).",
+            "classification": {
+              "study_type": "Practice Guideline (AAN/AES)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33993416",
+            "title": "Pharmacology of Cenobamate: Mechanism of Action, Pharmacokinetics, Drug-Drug Interactions and Tolerability.",
+            "authors": [
+              "Roberti Roberta",
+              "De Caro Carmen",
+              "Iannone Luigi Francesco",
+              "Zaccara Gaetano",
+              "Lattanzi Simona"
+            ],
+            "journal": "CNS drugs",
+            "year": "2021",
+            "abstract": "Cenobamate is one of the latest antiseizure medications (ASMs) developed for the treatment of focal onset seizures in adult patients. The recommended starting dose is 12.5 mg/day, titrated gradually to the target daily dose of 200 mg, which may be increased to a maximum of 400 mg/day based on clinical response. Although the high rate of seizure freedom observed in randomized, placebo-controlled clinical trials has resulted in exciting expectations, further clinical studies are needed to better d",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11520318",
+            "title": "Epileptic encephalopathy.",
+            "authors": [
+              "Dulac O"
+            ],
+            "journal": "Epilepsia",
+            "year": "2001",
+            "abstract": "Epileptic encephalopathies are conditions in which neurologic deterioration results mainly from epileptic activity. It can be due to very frequent or severe seizures, or to subcontinuous paroxysmal interictal activity. The former consists mainly of severe myoclonic epilepsy in infancy (SMEN), in which patients exhibit seizures from the middle of the first year of life with repeated episodes of status epilepticus, and migrating partial epilepsy in infancy, in which, from the first trimester of li",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11129898",
+            "title": "Clobazam in epilepsy.",
+            "authors": [
+              "Anandam R"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "2000",
+            "abstract": "Clobazam, an anxiolytic agent has proved to be a broad spectrum antiepileptic. It is effective and well tolerated. It has been mainly used as an adjunctive therapy with other antiepileptic agents without much side effects. It is also recommended as monotherapy for partial and selected epilepsies in childhood.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3527689",
+            "title": "Current status of the 1,4- and 1,5-benzodiazepines in the treatment of epilepsy: the place of clobazam.",
+            "authors": [
+              "Robertson M M"
+            ],
+            "journal": "Epilepsia",
+            "year": "1986",
+            "abstract": "The 1,4-benzodiazepines have a recognised place in the treatment of epilepsy. Thus, diazepam, clonazepam, and, more recently, lorazepam are used intravenously for status epilepticus. Oral clonazepam has proved useful as adjunctive therapy in generalised absence seizures, myoclonic seizures, and partial seizures. Oral nitrazepam is well known for its use in the treatment of infantile spasms with hypsarrhythmia and in the myoclonic epilepsies of childhood. Clobazam, a 1,5-benzodiazepine, has been ",
+            "classification": {
+              "study_type": "Clinical Trial + Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15825553",
+            "title": "Clobazam as add-on therapy for temporal lobe epilepsy and hippocampal sclerosis.",
+            "authors": [
+              "Montenegro Maria Augusta",
+              "Ferreira Claudio Meilman",
+              "Cendes Fernando",
+              "Li Li M",
+              "Guerreiro Carlos A M"
+            ],
+            "journal": "The Canadian journal of neurological sciences. Le journal canadien des sciences neurologiques",
+            "year": "2005",
+            "abstract": "Clobazam is a benzodiazepine with known antiepileptic action; however, it is not considered first line therapy in the treatment of epilepsy. The objective of this study was to evaluate the efficacy of clobazam as add-on therapy in adults with temporal lobe epilepsy associated with MRI evidence of hippocampal sclerosis (HS).",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10604819",
+            "title": "Effect of felbamate on clobazam and its metabolite kinetics in patients with epilepsy.",
+            "authors": [
+              "Contin M",
+              "Riva R",
+              "Albani F",
+              "Baruzzi A A"
+            ],
+            "journal": "Therapeutic drug monitoring",
+            "year": "1999",
+            "abstract": "The authors report preliminary findings on the effect of the new generation antiepileptic drug (AED) felbamate (FBM) on steady state plasma concentrations of clobazam (CLB), a benzodiazepine (frequently used as add-on therapy in patients with refractory epilepsy) and its active metabolite n-desmethyl-clobazam (N-CLB). The authors prospectively collected plasma samples from 66 children and adults with epilepsy receiving chronic CLB therapy. On the basis of concomitant AEDs, patients were divided ",
+            "classification": {
+              "study_type": "Prospective Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26488459",
+            "title": "Stiripentol for focal refractory epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Storti Monica",
+              "Igwe Stanley C"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "abstract": "This is an updated version of the original Cochrane review published in 2014 (Issue 1). For nearly 30% of people with epilepsy, seizures are not controlled by current treatments. Stiripentol is a new antiepileptic drug (AED) that was developed in France and was approved by the European Medicines Agency (EMA) in 2007 for the treatment of Dravet syndrome as adjunctive therapy with valproate and clobazam, with promising effects.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24488598",
+            "title": "Stiripentol for focal refractory epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Storti Monica"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2014",
+            "abstract": "Nearly 30%of people with epilepsy do not have their seizures controlled with current treatments. Stiripentol is a new antiepileptic drug(AED) developed in France and recently approved by the European Medicines Agency (EMA) for the treatment of Dravet syndrome as an adjunctive therapy with valproate and clobazam, with a promising effect.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29995989",
+            "title": "Clobazam monotherapy for focal or generalized seizures.",
+            "authors": [
+              "Arya Ravindra",
+              "Giridharan Nisha",
+              "Anand Vidhu",
+              "Garg Sushil K"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "This is an updated version of the original Cochrane Review published in Issue 10, 2014. There is a need to expand monotherapy options available to a clinician for the treatment of new focal or generalized seizures. A Cochrane systematic review for clobazam monotherapy is expected to define its place in the treatment of new-onset or untreated seizures and highlight gaps in evidence.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21095081",
+            "title": "Treatment of benign focal epilepsies in children: when and how should be treated?",
+            "authors": [
+              "Oguni Hirokazu"
+            ],
+            "journal": "Brain & development",
+            "year": "2011",
+            "abstract": "Benign focal epilepsies represent almost one-fourth of all childhood epilepsies and are a frequent occurrence in clinical practice. They include benign infantile seizures (BIS), Panayiotopoulos syndrome (PS), and benign childhood epilepsy with centrotemporal spikes (BCECTS) in this order of the onset age. Because the prognosis is always excellent in patients with benign focal epilepsies, we must consider the risks and benefits of chronic antiepileptic drug (AED) administration. AED treatment is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36066395",
+            "title": "Stiripentol add-on therapy for drug-resistant focal epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Igwe Stanley C",
+              "Bragazzi Nicola Luigi"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "This is an updated version of the Cochrane Review first published in 2014 and last updated in 2020. For nearly 30% of people with epilepsy, current treatments do not control seizures. Stiripentol is an antiepileptic drug (AED) that was developed in France and was approved by the European Medicines Agency (EMA) in 2007 as an adjunctive therapy with valproate and clobazam for the treatment of Dravet syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25280512",
+            "title": "Clobazam monotherapy for partial-onset or generalized-onset seizures.",
+            "authors": [
+              "Arya Ravindra",
+              "Anand Vidhu",
+              "Garg Sushil K",
+              "Michael Benedict D"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2014",
+            "abstract": "There is a need to expand monotherapy options available to a clinician for the treatment of new partial-onset or generalized-onset seizures. A Cochrane systematic review for clobazam monotherapy is expected to define its place in the treatment of new-onset or untreated seizures and highlight gaps in evidence.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29747241",
+            "title": "Stiripentol add-on therapy for focal refractory epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Igwe Stanley C",
+              "Bragazzi Nicola Luigi"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "This is an updated version of the Cochrane review last published in 2015 (Issue 10). For nearly 30% of people with epilepsy, seizures are not controlled by current treatments. Stiripentol is a new antiepileptic drug (AED) that was developed in France and was approved by the European Medicines Agency (EMA) in 2007 for the treatment of Dravet syndrome as an adjunctive therapy with valproate and clobazam, with promising effects.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10672427",
+            "title": "Stormy onset of benign childhood epilepsy with occipital paroxysmal discharges.",
+            "authors": [
+              "Verrotti A",
+              "Domizio S",
+              "Melchionda D",
+              "Guerra M",
+              "Mucedola T"
+            ],
+            "journal": "Child's nervous system : ChNS : official journal of the International Society for Pediatric Neurosurgery",
+            "year": "2000",
+            "abstract": "We studied six children with ages ranging from 4 to 10 years who were affected by childhood epilepsy with occipital paroxysms and presented after a stormy onset with prolonged loss of consciousness for 6-14 h. In all these patients, seizures were preceded by visual symptoms in the form of colored circular disks. A CT scan was performed immediately after the onset of symptoms and was normal in all patients. Routine laboratory and cerebrospinal fluid examinations were normal in all patients. The i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27779771",
+            "title": "Efficacy and Tolerability of Antiepileptic Drugs in Patients with Focal Epilepsy: Systematic Review and Network Meta-analyses.",
+            "authors": [
+              "Campos Marília Silveira de Almeida",
+              "Ayres Lorena Rocha",
+              "Morelo Manuela Roque Siane",
+              "Marques Fabiana Angelo",
+              "Pereira Leonardo Régis Leira"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2016",
+            "abstract": "Several newer antiepileptic drugs (AEDs) have been introduced into clinical practice, offering choices for individualizing the treatment of epilepsy since AEDs have different efficacy and tolerability profiles. In particular, questions exist regarding which AEDs are the best options for the monotherapy of focal epilepsy. Is carbamazepine (CBZ), which is considered the standard treatment for focal epilepsy, still the best option for monotherapy of focal epilepsy, despite the emergence of new AEDs",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39140704",
+            "title": "Adjunctive cenobamate in people with focal onset seizures: Insights from the Italian Expanded Access Program.",
+            "authors": [
+              "Roberti Roberta",
+              "Assenza Giovanni",
+              "Bisulli Francesca",
+              "Boero Giovanni",
+              "Canafoglia Laura"
+            ],
+            "journal": "Epilepsia",
+            "year": "2024",
+            "abstract": "This study was undertaken to assess the effectiveness/tolerability of adjunctive cenobamate, variations in the load of concomitant antiseizure medications (ASMs) and predictors of clinical response in people with focal epilepsy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39932255",
+            "title": "Real-world use of cenobamate in adults: Efficacy and predictors of treatment response.",
+            "authors": [
+              "Loushy Itai",
+              "Goldstein Lilach",
+              "Devlin Kathryn",
+              "Volski Anna",
+              "Fletman Elizabeth"
+            ],
+            "journal": "Epilepsia",
+            "year": "2025",
+            "abstract": "This study assesses the efficacy, safety, and tolerability of cenobamate using long-term real-world data, incorporating both seizure reduction and seizure-freedom periods, and examines baseline clinical variables to determine predictors of response.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32468572",
+            "title": "Stiripentol add-on therapy for drug-resistant focal epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Igwe Stanley C",
+              "Bragazzi Nicola Luigi"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2020",
+            "abstract": "This is an updated version of the Cochrane Review first published in 2014, and last updated in 2018. For nearly 30% of people with epilepsy, seizures are not controlled by current treatments. Stiripentol is an antiepileptic drug (AED) that was developed in France and was approved by the European Medicines Agency (EMA) in 2007 for the treatment of Dravet syndrome as an adjunctive therapy with valproate and clobazam.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8741124",
+            "title": "Effectiveness and tolerance of clobazam in temporal lobe epilepsy.",
+            "authors": [
+              "Barcs G",
+              "Halász P"
+            ],
+            "journal": "Acta neurologica Scandinavica",
+            "year": "1996",
+            "abstract": "The main objective of this retrospective study was the further exploration of the loss of efficiency of the clobazam therapy (CLOB tolerance) in resistant temporal lobe epilepsy (TLE).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clobazam 對局灶性癲癇（包含枕葉來源）有效，機轉為 GABA-A 正向調控；文獻顯示其對難治性局灶癲癇具明確療效（65% 發作頻率減少），且有單藥療法研究與顳葉癲癇附加療法前瞻性數據。良性枕葉癲癇雖無專屬 RCT，但廣泛局灶癲癇 Phase 2/3 數據可外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation",
+      "txgnn": {
+        "score": 0.9939790964126588,
+        "rank": 7392
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GRIN2A 編碼 NMDA 受體 GluN2A 次單元，功能增益突變導致谷氨酸過度活化。Clobazam 靶向 GABA-A 受體，與 NMDA 機轉截然不同，兩者交互作用僅為間接（GABA/谷氨酸系統平衡）。此罕見基因型癲癇性腦病無任何 clobazam 相關發表文獻，機轉連結薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "restless legs syndrome",
+      "txgnn": {
+        "score": 0.992973566055298,
+        "rank": 8256
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "不寧腿症候群主要涉及多巴胺功能障礙與鐵代謝，一線治療為多巴胺促效劑、gabapentinoids。雖有報告指 clonazepam（1,4-BZD）可改善 RLS 症狀，但 clobazam（1,5-BZD）在 RLS 幾乎無發表文獻。機轉連結不明確，且鎮靜副作用可能干擾症狀評估。此預測高分可能反映 KG 對 BZD 類藥物的廣泛關聯，非特異性臨床信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "polymicrogyria with optic nerve hypoplasia",
+      "txgnn": {
+        "score": 0.990858256816864,
+        "rank": 9910
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多微腦迴合併視神經發育不全為腦結構畸形，繼發性癲癇常見。Clobazam 可用於症狀性（結構性）癲癇之症狀控制，但對底層結構病因無療效。此疾病定義不含特異性神經化學靶點，clobazam 之應用僅屬非特異性對症治療，與「再利用」概念（針對新適應症之疾病修飾效果）有所偏差。無任何發表文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "febrile infection-related epilepsy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "febrile infection-related epilepsy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "febrile infection-related epilepsy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "perioral myoclonia with absences"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "perioral myoclonia with absences"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "perioral myoclonia with absences"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "cryptogenic late-onset epileptic spasms"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "cryptogenic late-onset epileptic spasms"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "cryptogenic late-onset epileptic spasms"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "atypical childhood epilepsy with centrotemporal spikes"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "atypical childhood epilepsy with centrotemporal spikes"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "atypical childhood epilepsy with centrotemporal spikes"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "photosensitive occipital lobe epilepsy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "photosensitive occipital lobe epilepsy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "photosensitive occipital lobe epilepsy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "childhood onset epileptic encephalopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "childhood onset epileptic encephalopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "childhood onset epileptic encephalopathy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "benign occipital epilepsy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "benign occipital epilepsy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "benign occipital epilepsy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "restless legs syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "restless legs syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "restless legs syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "polymicrogyria with optic nerve hypoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "polymicrogyria with optic nerve hypoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clobazam",
+        "disease": "polymicrogyria with optic nerve hypoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

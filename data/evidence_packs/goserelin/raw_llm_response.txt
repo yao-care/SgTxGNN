@@ -1,0 +1,361 @@
+```json
+{
+  "drug": "Goserelin",
+  "drugbank_id": "DB00014",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Goserelin 為合成型 GnRH 促效劑（長效型），持續刺激導致腦下垂體脫敏，進而抑制 LH/FSH 分泌，最終降低性腺固醇（雌激素/睾固酮）。市場狀態標記為「未上市」（推測為本地未登記，非全球未核准）。",
+  "indications": [
+    {
+      "disease_name": "amenorrhea (disease)",
+      "txgnn_score": 0.9999,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "guardrails": [
+        "需標明：閉經為 GnRH 促效劑的藥理副作用，並非終點疾病治療",
+        "停藥後卵巢功能通常可恢復，需告知患者",
+        "長期使用需監測骨密度（低雌激素風險）",
+        "本地未登記需取得特殊使用許可"
+      ],
+      "mechanistic_link": "GnRH 促效劑持續給藥 → 腦下垂體 GnRH 受體下調 → LH/FSH 急劇下降 → 卵巢雌激素/黃體素分泌受抑 → 子宮內膜萎縮 → 醫療性閉經。此為直接、已確立之藥理機轉，廣泛用於化療期間卵巢保護及乳癌輔助治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00427245",
+          "title": "OPTION Trial - Ovarian Protection in Premenopausal Breast Cancer Patients",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 400,
+          "relevance_grade": "A",
+          "reasoning": "最大型 Phase 3 RCT（n=400），直接評估 Goserelin 在化療期間誘導閉經以保護卵巢功能，完成狀態，高相關性。"
+        },
+        {
+          "nct_id": "NCT00068601",
+          "title": "LHRH Analog During Chemotherapy to Reduce Ovarian Failure",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 257,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（n=257），直接測試 LHRH 類似物（包含 Goserelin）減少化療後卵巢衰竭，完成且已發表結果，高相關性。"
+        },
+        {
+          "nct_id": "NCT02483767",
+          "title": "GnRH Agonist for Preservation of Ovarian Function During Chemotherapy",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 98,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（n=98），完成，直接評估 GnRH 促效劑保護卵巢功能（以閉經誘導為指標），高相關性。"
+        },
+        {
+          "nct_id": "NCT01218581",
+          "title": "Aromatase Inhibitors or GnRH Agonists for Uterine Adenomyosis",
+          "phase": "PHASE2/3",
+          "status": "COMPLETED",
+          "enrollment": 32,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3（n=32），評估對象為子宮腺肌症，閉經為次要終點，樣本數較小，中等相關性。"
+        },
+        {
+          "nct_id": "NCT03475758",
+          "title": "Phase II Study of Goserelin for Ovarian Protection",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 100,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2（n=100），狀態不明，結果未確認，中等相關性。"
+        },
+        {
+          "nct_id": "NCT02132390",
+          "title": "Adjuvant Toremifene With or Without Goserelin in Premenopausal Women",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 300,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3（n=300），閉經為卵巢抑制的確認指標，狀態不明，間接相關性。"
+        },
+        {
+          "nct_id": "NCT00488722",
+          "title": "Zoladex 3.6mg Combined Study",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": "N/A",
+          "relevance_grade": "C",
+          "reasoning": "Phase 不明、狀態不明、樣本數未知，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28472240",
+          "title": "GnRH agonist for protection against ovarian toxicity during chemotherapy for early breast cancer",
+          "year": "2017",
+          "study_type": "Meta-analysis/RCT",
+          "tier": "1",
+          "note": "最新且最高品質的系統性綜述，確立 GnRH 促效劑誘導閉經之療效證據。"
+        },
+        {
+          "pmid": "17159194",
+          "title": "Adjuvant chemotherapy followed by goserelin: impact on amenorrhea",
+          "year": "2007",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "直接評估 Goserelin 對閉經影響的 RCT，高品質證據。"
+        },
+        {
+          "pmid": "12488406",
+          "title": "Goserelin versus CMF as adjuvant therapy in premenopausal patients",
+          "year": "2002",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "頭對頭比較 RCT，Goserelin 誘導閉經作為主要機轉之一。"
+        },
+        {
+          "pmid": "14679153",
+          "title": "Adjuvant chemotherapy followed by goserelin versus either modality alone",
+          "year": "2003",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Phase 3 RCT，評估聯合治療中 Goserelin 閉經誘導效果。"
+        },
+        {
+          "pmid": "25187267",
+          "title": "Ovarian Ablation Using Goserelin Improves Survival in Premenopausal Patients",
+          "year": "2015",
+          "study_type": "Cohort",
+          "tier": "1",
+          "note": "大型前瞻性研究，卵巢抑制（閉經）與預後改善相關。"
+        },
+        {
+          "pmid": "12353820",
+          "title": "Overview of LHRH agonists in early breast cancer",
+          "year": "2002",
+          "study_type": "Review/Meta-analysis",
+          "tier": "2",
+          "note": "系統性回顧，匯整 LHRH 促效劑誘導可逆性閉經之綜合證據。"
+        },
+        {
+          "pmid": "12734855",
+          "title": "Ovarian ablation in the adjuvant treatment of premenopausal breast cancer",
+          "year": "2003",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "卵巢去除（含藥物性閉經）的系統性回顧。"
+        },
+        {
+          "pmid": "26951320",
+          "title": "Is Estradiol Monitoring Necessary in Women Receiving Ovarian Suppression?",
+          "year": "2016",
+          "study_type": "Observational",
+          "tier": "2",
+          "note": "探討閉經期間雌二醇監測的臨床研究，支持 Goserelin 卵巢抑制效果。"
+        },
+        {
+          "pmid": "8513962",
+          "title": "GnRH agonist versus low-dose OCP for pelvic pain associated with endometriosis",
+          "year": "1993",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "早期 RCT，確立 GnRH 促效劑誘導閉經治療子宮內膜異位症相關骨盆疼痛。"
+        },
+        {
+          "pmid": "1533675",
+          "title": "The induction of amenorrhoea",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期機轉性回顧，奠定 GnRH 促效劑誘導閉經的理論基礎。"
+        }
+      ],
+      "evidence_summary": "具備多項 Phase 3 RCT 直接證據（總 n > 750），文獻品質高（Tier 1 佔多數），機轉明確且已確立。Goserelin 誘導醫療性閉經為其核心藥理作用之一，廣泛應用於乳癌輔助治療及卵巢保護。"
+    },
+    {
+      "disease_name": "renal hypoplasia (disease)",
+      "txgnn_score": 0.9906,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。Goserelin 透過抑制性腺軸發揮作用，與腎臟發育（低形成症為先天性結構異常）無直接生物學連結。TxGNN 高分可能源於知識圖譜中性腺-腎臟內分泌交互路徑的間接關聯，缺乏生物合理性支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻，無機轉依據。評分可能為模型假陽性。建議不予推進。"
+    },
+    {
+      "disease_name": "renal hypoplasia, bilateral",
+      "txgnn_score": 0.9906,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與單側腎臟低形成症相同，雙側型態同樣為先天性結構異常，GnRH 促效劑無任何已知干預腎臟發育的機轉。性腺軸抑制與腎臟形成無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻，無機轉依據。與上一項同為模型假陽性。建議不予推進。"
+    },
+    {
+      "disease_name": "cervix endometriosis",
+      "txgnn_score": 0.9875,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "GnRH 促效劑標準機轉：抑制雌激素分泌 → 子宮內膜異位組織去除增殖刺激 → 病灶縮小。子宮頸子宮內膜異位症（cervix endometriosis）為子宮內膜異位症的特殊解剖部位亞型，理論上應對 GnRH 促效劑有相似反應，但缺乏該特定部位的系統性臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21844977",
+          "title": "Diagnosis and treatment of complicated deep infiltrated endometriosis: a case report",
+          "year": "2011",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "複雜性深部浸潤性子宮內膜異位症個案報告，提及 GnRH 促效劑作為治療選項之一，非專針對子宮頸部位。"
+        },
+        {
+          "pmid": "8798320",
+          "title": "Multiple polypoid endometriosis after withdrawal of GnRH agonist",
+          "year": "1996",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "GnRH 促效劑停藥後多發性息肉狀子宮內膜異位症的罕見合併症報告，為負向事件描述，間接提示用藥史。"
+        }
+      ],
+      "evidence_summary": "僅有 2 篇個案報告（均為 Tier 3），無臨床試驗，無前瞻性研究。機轉上合理（為一般子宮內膜異位症治療的外推），但子宮頸特定亞型缺乏系統性驗證。建議作為研究問題，考慮納入子宮內膜異位症亞型分析的臨床研究。"
+    },
+    {
+      "disease_name": "gelatinous drop-like corneal dystrophy",
+      "txgnn_score": 0.9866,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "膠樣滴狀角膜失養症（GDLD）為 TACSTD2 基因突變所致的罕見遺傳性角膜疾病，以澱粉樣蛋白沉積為特徵。GnRH 促效劑的性腺軸抑制機轉與此遺傳性蛋白質沉積疾病無已知生物學交集。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻，機轉無關聯性。高度疑似模型假陽性（可能源於知識圖譜中稀有疾病節點的連結偏差）。建議不予推進。"
+    },
+    {
+      "disease_name": "duodenogastric reflux",
+      "txgnn_score": 0.9854,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸胃逆流為膽汁/胰液逆流至胃的機械性/動力學問題。雖然性激素對消化道動力有部分調節作用，但 GnRH 促效劑治療此疾病無已知臨床意義的機轉路徑，現有文獻中無任何相關報導。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻，機轉缺乏支撐。建議不予推進。"
+    },
+    {
+      "disease_name": "endometriosis of rectovaginal septum and vagina",
+      "txgnn_score": 0.9846,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "直腸陰道隔/陰道子宮內膜異位症為深部浸潤性子宮內膜異位症（DIE）中最難治療的亞型之一。GnRH 促效劑透過低雌激素狀態可抑制病灶活性、減緩疼痛，通常用於手術前後輔助治療。機轉與一般子宮內膜異位症相同，具生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21844977",
+          "title": "Diagnosis and treatment of complicated deep infiltrated endometriosis: a case report",
+          "year": "2011",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "深部浸潤性子宮內膜異位症個案報告，涵蓋直腸陰道隔部位，GnRH 促效劑作為多模態治療一部分，Tier 3 弱證據。"
+        }
+      ],
+      "evidence_summary": "僅 1 篇個案報告，無臨床試驗。機轉合理性較強（DIE 標準治療方案涵蓋 GnRH 促效劑），但特定部位缺乏高品質證據。可歸納於一般子宮內膜異位症治療的亞型外推研究問題。"
+    },
+    {
+      "disease_name": "endometriosis in cutaneous scar",
+      "txgnn_score": 0.9846,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "皮膚瘢痕子宮內膜異位症（多見於手術後切口種植）具有相同的雌激素依賴性增殖特性。GnRH 促效劑誘導低雌激素環境可理論上抑制病灶活動，但此亞型通常以手術切除為主，藥物治療作為輔助角色，機轉合理但臨床重要性有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19753740",
+          "title": "Cutaneous endometriosis: a combination of medical and surgical treatment",
+          "year": "2002",
+          "study_type": "Case Report/Small Series",
+          "tier": "3",
+          "note": "皮膚子宮內膜異位症聯合藥物（含 GnRH 促效劑）與手術治療的小型系列報告，Tier 3 弱證據。"
+        }
+      ],
+      "evidence_summary": "僅 1 篇小型系列報告（2002），無臨床試驗。機轉上可行，但此罕見亞型通常以手術為主要治療，GnRH 促效劑僅為輔助選項。可作為案例系列研究的問題提出。"
+    },
+    {
+      "disease_name": "duodenal obstruction",
+      "txgnn_score": 0.9845,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸梗阻為解剖性/機械性問題（先天性閉鎖、腫瘤壓迫、粘連等），GnRH 促效劑的性腺軸抑制機轉與此無任何已知關聯。TxGNN 高分疑為知識圖譜中消化道疾病節點群集效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻，無機轉關聯。建議不予推進。"
+    },
+    {
+      "disease_name": "duodenal ulcer (disease)",
+      "txgnn_score": 0.9824,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸潰瘍主要由 H. pylori 感染或 NSAID 使用引起，其發病機轉（胃酸/黏膜防護失衡）與 GnRH 促效劑的性腺軸作用無直接關聯。部分研究顯示性激素對胃腸黏膜有保護作用，但 GnRH 促效劑降低雌激素理論上可能不利，無正向機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗，零文獻，機轉不支持。建議不予推進。"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority": [
+      {
+        "disease_name": "amenorrhea (disease)",
+        "rationale": "L1 證據，多項 Phase 3 RCT，機轉明確，S3 可建議推進（需處理本地登記問題）"
+      }
+    ],
+    "research_candidates": [
+      {
+        "disease_name": "cervix endometriosis",
+        "rationale": "L4 + 機轉外推合理，建議納入子宮內膜異位症亞型研究"
+      },
+      {
+        "disease_name": "endometriosis of rectovaginal septum and vagina",
+        "rationale": "L4 + 機轉外推合理，深部浸潤性子宮內膜異位症有臨床未滿足需求"
+      },
+      {
+        "disease_name": "endometriosis in cutaneous scar",
+        "rationale": "L4 + 機轉外推，罕見亞型，手術輔助治療潛力"
+      }
+    ],
+    "hold_no_evidence": [
+      "renal hypoplasia (disease)",
+      "renal hypoplasia, bilateral",
+      "gelatinous drop-like corneal dystrophy",
+      "duodenogastric reflux",
+      "duodenal obstruction",
+      "duodenal ulcer (disease)"
+    ],
+    "model_artifact_warning": "6 項 Hold 適應症的 TxGNN 高分（0.98+）高度疑似知識圖譜節點群集假陽性（renal/duodenal 疾病群），建議在模型校準時降低此類型節點的推薦權重。"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 決策矩陣
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|----------|----------|------|
+| **閉經** | 0.9999 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| 子宮頸子宮內膜異位症 | 0.9875 | L4 | S1 | 🔬 Research Question |
+| 直腸陰道隔子宮內膜異位症 | 0.9846 | L4 | S1 | 🔬 Research Question |
+| 皮膚瘢痕子宮內膜異位症 | 0.9846 | L4 | S1 | 🔬 Research Question |
+| 腎臟低形成症（單/雙側） | 0.9906 | L5 | S0 | ❌ Hold |
+| 膠樣滴狀角膜失養症 | 0.9866 | L5 | S0 | ❌ Hold |
+| 十二指腸胃逆流/梗阻/潰瘍 | 0.985-0.982 | L5 | S0 | ❌ Hold |
+
+### 🚨 關鍵發現
+
+1. **閉經（L1/S3）**：Goserelin 誘導醫療性閉經具備最強等級臨床證據，3 項 Phase 3 RCT（總 n > 750），應優先推進本地登記申請
+
+2. **子宮內膜異位症三亞型**：機轉外推合理（均為雌激素依賴性病灶），但缺乏特定部位 RCT，建議合併為「子宮內膜異位症亞型」研究問題
+
+3. **模型假陽性警告**：腎臟低形成症與十二指腸疾病群（共 5 項 L5）為典型知識圖譜節點群集效應，TxGNN 高分無實際臨床意義，建議反饋至模型校準流程

@@ -1,0 +1,294 @@
+## Acebutolol (DB01193) 藥物再利用證據分析
+
+以下是基於所提供資料的完整分析：
+
+---
+
+### 🔬 藥物背景評估
+
+| 項目 | 評估 |
+|------|------|
+| 藥物類別 | 心臟選擇性 β1 阻斷劑（具內在交感活性 ISA） |
+| 市場狀態 | 本地未上市（全球其他市場有高血壓/心律不整適應症） |
+| 原始 MoA | Data Gap（實際為 β1 adrenergic antagonist + ISA） |
+| 資料完整性警示 | original_indications = [] 可能為資料缺漏，非真正無核准適應症 |
+
+---
+
+### 📊 完整 JSON 分析結果
+
+```json
+{
+  "drug": "Acebutolol",
+  "drugbank_id": "DB01193",
+  "analysis_date": "2026-04-03",
+  "drug_class": "Cardioselective β1-adrenergic blocker with intrinsic sympathomimetic activity (ISA)",
+  "global_note": "Acebutolol 在多國已核准用於高血壓及室上性心律不整，本地未上市狀態使部分分析具再利用意義",
+  "indications": [
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Acebutolol 透過 β1 阻斷降低腎素分泌及心輸出量，具降壓機轉。惡性腎血管性高血壓（RAS 相關）中，beta-blocker 可能掩蓋代償機制並加重腎功能惡化（雙側 RAS 禁忌），安全性需優先評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "768911",
+          "title": "Acebutolol in the treatment of arterial hypertension. Clinical study",
+          "year": "1975",
+          "study_type": "Non-randomized Clinical Study",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "研究對象為一般動脈高血壓，非惡性腎血管性高血壓，相關性低。年代久遠（1975年），方法學標準有限，且未分層分析腎血管亞型。"
+        }
+      ]
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性高血壓性腎病（加速性高血壓伴腎損害）需快速降壓，通常以靜脈注射藥物為主。口服 beta-blocker 非此急症情境的標準處置，且腎功能惡化時 β1 阻斷的反射性腎素代償抑制可能有害。無任何直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全性警示：Beta-blocker 在合併肺疾病的肺動脈高壓中有潛在危害——可能誘發支氣管痙攣、降低右心室代償能力及減少心輸出量。20 篇文獻經審閱均為缺氧生理機制或基礎研究，與 acebutolol 治療此病無直接關聯，屬文獻匹配假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧與腦老化神經保護回顧——與 acebutolol 無關，為 TxGNN 關鍵詞匹配假陽性"
+        },
+        {
+          "pmid": "39841808",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧作為治療工具回顧——與 acebutolol 無關"
+        },
+        {
+          "pmid": "28972206",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧免疫調節回顧——與 acebutolol 無關"
+        },
+        {
+          "pmid": "37328448",
+          "study_type": "Laboratory/Molecular Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "胃癌 NAT10/HIF-1α 訊號研究——與 acebutolol 完全無關"
+        },
+        {
+          "pmid": "34618295",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧認知損害機制回顧——與 acebutolol 無關"
+        },
+        {
+          "pmid": "21328446",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧生物控制機制——與 acebutolol 無關"
+        },
+        {
+          "pmid": "8817697",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧與腦發育——與 acebutolol 無關"
+        },
+        {
+          "pmid": "31706510",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "DUB 酶、缺氧與癌症——與 acebutolol 無關"
+        },
+        {
+          "pmid": "34535359",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧治療調控策略——與 acebutolol 無關"
+        },
+        {
+          "pmid": "11172576",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "缺氧血症機制——與 acebutolol 無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多因子機轉肺高壓定義模糊，Beta-blocker 在肺動脈高壓整體缺乏支持性證據，且存在降低右心功能的安全疑慮。無臨床或文獻證據。TxGNN 高分（0.990）可能源於與前一適應症節點共享高分。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock syndrome 為極罕見遺傳疾病（EOGT 基因突變，表現短指症與周邊神經病變），與 beta-blocker 藥理機轉無任何生理關聯。TxGNN 高分（0.987）可能為知識圖譜中鄰近心血管疾病節點的過度推論（graph proximity artifact）。無任何臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性肺原性心臟病（cor pulmonale）中 beta-blocker 角色高度爭議——理論上可降低心率改善右心功能，但可能誘發支氣管痙攣並惡化低氧狀況。3 篇文獻為心臟選擇性 beta-blocker 在氣道疾病安全性評估，屬間接安全性資料，非治療 cor pulmonale 的療效證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11869646",
+          "title": "Cardioselective beta-blockers for reversible airway disease",
+          "year": "2002",
+          "study_type": "Systematic Review (Cochrane)",
+          "tier": "1",
+          "relevance_grade": "B",
+          "reasoning": "Cochrane 系統性回顧評估心臟選擇性 beta-blocker 在可逆性氣道疾病中的安全性，提供間接安全性框架，但研究目的為安全監測而非治療慢性肺心病。"
+        },
+        {
+          "pmid": "11406056",
+          "title": "Cardioselective beta-blocker use in patients with reversible airway disease",
+          "year": "2001",
+          "study_type": "Cohort/Clinical Study",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "探討心臟選擇性 beta-blocker 在氣道疾病患者的實際使用，提供 acebutolol 類藥物在肺部疾病患者的間接安全性資料。"
+        },
+        {
+          "pmid": "365429",
+          "title": "Acebutolol in supraventricular arrhythmias",
+          "year": "1979",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "Acebutolol 用於室上性心律不整研究，與慢性肺心病適應症相關性低，屬間接參考資料。"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Beta-blocker（局部製劑）為青光眼標準降眼壓用藥，透過抑制睫狀體房水分泌降低眼內壓。然而：(1) 遺傳性青光眼（如 MYOC/CYP1B1 基因缺陷）的病理機轉不同，降眼壓治療可能不足；(2) 全身性 acebutolol 的眼部效果、適當劑量及安全性與局部製劑差異顯著；(3) 無任何臨床研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "局部 beta-blocker（timolol、betaxolol 等）已為開角型青光眼一線用藥，機轉為抑制睫狀體 β2 受體降低房水生成。Acebutolol 以 β1 選擇性為主，理論上眼壓降低效果弱於非選擇性 beta-blocker。全身性給藥的眼部藥效動力學未知，但機轉假說合理，可設計為研究問題（眼壓測量次要終點）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "closed-angle glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "閉角型青光眼根本原因為房角解剖結構異常（虹膜前移），標準治療為雷射周邊虹膜切開術。全身性 beta-blocker 無法解決結構問題，且急性閉角型青光眼為急症，口服 acebutolol 不適用。無任何臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "atrial flutter (disease)",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Acebutolol 透過 β1 阻斷降低 AV 結傳導速度（Class II 抗心律不整效果），有效控制心房撲動的心室率，並可預防術後心律不整。3 篇文獻均直接涉及 acebutolol 用於心房撲動/纖維顫動，具備合理機轉與歷史臨床證據。注意：在部分國家 acebutolol 已核准用於室上性心律不整，此分析在本地未上市背景下具再利用價值。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3535474",
+          "title": "Prevention of atrial fibrillation or flutter by acebutolol after coronary bypass grafting",
+          "year": "1986",
+          "study_type": "Randomized Clinical Trial",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "最高相關性：直接研究 acebutolol 預防冠狀動脈繞道術後心房顫動/撲動。早期 RCT 設計（1986年），為此適應症最直接的臨床試驗證據，提供 L3 支持。"
+        },
+        {
+          "pmid": "365429",
+          "title": "Acebutolol in supraventricular arrhythmias",
+          "year": "1979",
+          "study_type": "Prospective Clinical Study",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接研究 acebutolol 用於室上性心律不整（包含心房撲動），為藥物功效的早期直接臨床證據。"
+        },
+        {
+          "pmid": "3894250",
+          "title": "Prevention by acebutolol of rhythm disorders following coronary bypass surgery",
+          "year": "1985",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "Acebutolol 預防術後心律失常（含心房撲動），與 PMID 3535474 互為佐證，強化此適應症的臨床基礎。"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+### 📈 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **atrial flutter** | 0.591 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| malignant renovascular HTN | 0.991 | L4 | S1 | 🔬 Research Question |
+| open-angle glaucoma | 0.757 | L5 | S0 | 🔬 Research Question |
+| chronic pulmonary heart disease | 0.886 | L4 | S1 | ⛔ Hold |
+| malignant hypertensive renal disease | 0.991 | L5 | S0 | ⛔ Hold |
+| PH owing to lung disease/hypoxia | 0.990 | L5 | S0 | ⛔ Hold |
+| PH multifactorial | 0.990 | L5 | S0 | ⛔ Hold |
+| Braddock syndrome | 0.987 | L5 | S0 | ⛔ Hold |
+| primary hereditary glaucoma | 0.850 | L5 | S0 | ⛔ Hold |
+| closed-angle glaucoma | 0.653 | L5 | S0 | ⛔ Hold |
+
+---
+
+### ⚠️ 關鍵發現與品質警示
+
+**1. TxGNN 分數與臨床證據嚴重倒置**
+> 分數最高的適應症（malignant renovascular HTN, 0.991）僅有 L4 證據；分數最低的適應症（atrial flutter, 0.591）反而有最強的 L3 直接臨床證據。**TxGNN 分數不可作為臨床優先性的代理指標。**
+
+**2. 文獻假陽性問題（PH owing to hypoxia）**
+> 20 篇文獻中，**全部均為缺氧生理機制研究**，無一涉及 acebutolol 治療。文獻計數 = 20 造成誤導性高印象分，需逐篇審閱。
+
+**3. Braddock syndrome 的圖譜近鄰效應**
+> 極高 TxGNN 分數（0.987）但完全無生理關聯，為知識圖譜中心血管節點密集區域的「鄰居效應」偽陽性，應建立自動過濾機制。
+
+**4. 最具潛力的再利用路徑**
+> **心房撲動（atrial flutter）** 是最具臨床可行性的適應症：
+> - 直接機轉合理（AV 結傳導抑制）
+> - 3 篇 acebutolol 直接研究（1979-1986）
+> - 在其他市場已有先例
+> - 本地未上市創造了真實的再利用機會窗口

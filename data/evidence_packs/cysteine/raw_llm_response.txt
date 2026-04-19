@@ -1,0 +1,244 @@
+```json
+{
+  "indications": [
+    {
+      "disease_name": "dry eye syndrome",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "L-Cysteine 含游離硫基（-SH），為 N-乙醯半胱氨酸（NAC）之直接前驅物與結構類似物，機制包括：(1) 抗氧化途徑：促進麩胱甘肽（GSH）合成，清除角膜上皮細胞 ROS；(2) 黏液溶解：硫基斷裂黏蛋白二硫鍵，改善淚膜穩定性；(3) 載體平台：L-Cysteine 可與幾丁聚醣形成硫醇化聚合物（Thiolated chitosan），增強眼表黏附與角膜滲透（PMID 36581034）。現有 Phase 2 RCT 主要針對 NAC，非 Cysteine 本身，此為主要轉化缺口。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04793646",
+          "relevance_grade": "A",
+          "reasoning": "前瞻性隨機雙盲對照設計，直接研究 N-乙醯半胱氨酸治療乾眼症，60名受試者，已完成。NAC 為 Cysteine 的 N-乙醯衍生物，具相同功能性硫基，此試驗提供最直接的機制轉化與臨床可行性依據。"
+        },
+        {
+          "nct_id": "NCT04440280",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 RCT，以 ROS 靶向治療 Fuchs 角膜內皮細胞病（45名受試者，正在招募）。與 Cysteine 抗氧化機制高度一致，但尚未完成，且適應症為 Fuchs 病而非廣義乾眼症。"
+        },
+        {
+          "nct_id": "NCT03525678",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 隨機兩組設計，研究乾眼症藥物療效與安全性，221名受試者，已完成。標題截斷，藥物身份未明，但試驗規模與設計支持該適應症的臨床可行性。"
+        },
+        {
+          "nct_id": "NCT03544281",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 劑量遞增擴展研究，153名受試者，已完成。提供安全性與耐受性資料，與 Cysteine 早期臨床評估相關，但藥物身份未能確認。"
+        },
+        {
+          "nct_id": "NCT01064830",
+          "relevance_grade": "C",
+          "reasoning": "研究環孢素 0.05%（Cyclosporine）治療乾眼症，21名受試者。免疫調節機制與 Cysteine 抗氧化途徑不同，相關性低。"
+        },
+        {
+          "nct_id": "NCT01424033",
+          "relevance_grade": "C",
+          "reasoning": "研究 CTD-ILD（結締組織病相關間質性肺病）口服治療，僅5名受試者即終止。適應症不符，雖 CTD 可合併乾眼症（Sjögren），但本試驗主軸為肺纖維化，相關性低。"
+        },
+        {
+          "nct_id": "NCT04162210",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 研究 Belantamab mafodotin（抗多發性骨髓瘤抗體藥物複合體），325名受試者。乾眼症可能為其眼部毒性副作用監測端點，與 Cysteine 再利用無關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "28441068", "study_type": "RCT", "tier": "1"},
+        {"pmid": "39360368", "study_type": "RCT", "tier": "1"},
+        {"pmid": "34339721", "study_type": "Review", "tier": "2"},
+        {"pmid": "24993428", "study_type": "Review", "tier": "2"},
+        {"pmid": "3898475", "study_type": "Clinical Study", "tier": "2"},
+        {"pmid": "4599197", "study_type": "Clinical Report", "tier": "2"},
+        {"pmid": "36581034", "study_type": "Preclinical (Formulation)", "tier": "3"},
+        {"pmid": "40123221", "study_type": "Preclinical (Nano-formulation)", "tier": "3"},
+        {"pmid": "39842600", "study_type": "Preclinical (NLC)", "tier": "3"},
+        {"pmid": "39359484", "study_type": "Preclinical (Polymer)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "closed-angle glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻均圍繞 SPARC（Secreted Protein Acidic and Rich in Cysteine）蛋白在隅角閉鎖型青光眼虹膜及小梁網的過度表現，以及房水中 ECM 重塑異常。SPARC 命名源自其富含半胱氨酸殘基（形成二硫鍵）的蛋白質結構特性，TxGNN 模型可能捕捉到此蛋白質層面關聯，誤認 Cysteine 與 SPARC 的「名稱關聯」。此機制為蛋白質結構關聯而非治療性機制，無任何臨床試驗支持，屬模型預測偽陽性風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "18949063", "study_type": "Observational", "tier": "3"},
+        {"pmid": "37225012", "study_type": "Preclinical", "tier": "3"},
+        {"pmid": "30073351", "study_type": "Cohort", "tier": "2"},
+        {"pmid": "31725165", "study_type": "Cohort", "tier": "2"},
+        {"pmid": "28356709", "study_type": "Case-control", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "NAC（Fluimucil）作為黏液溶解劑在鼻竇炎/鼻腔疾病中有早期臨床應用：(1) 硫基斷裂黏液二硫鍵，降低鼻腔分泌物黏稠度；(2) NAC + 去氨羥基苯丙酸（tuaminoheptane）複方鼻噴已在 RCT 中顯示降低鼻腔阻力（PMID 8740084）；(3) Fluimucil 灌洗技術於鼻竇炎有早期臨床使用記錄（PMID 664410）。L-Cysteine 具相同硫基功能，但無獨立臨床試驗，現有證據為舊研究（1978–1996年），需現代化臨床設計驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03996044",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 試驗研究光動力療法（PDT）合併益生菌對口臭（Halitosis）的效果，52名受試者，已完成。適應症為口腔口臭，非鼻腔疾病，試驗中無 Cysteine 相關介入，相關性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "8740084", "study_type": "RCT", "tier": "1"},
+        {"pmid": "664410", "study_type": "Clinical Series", "tier": "2"},
+        {"pmid": "36107185", "study_type": "Review", "tier": "2"},
+        {"pmid": "39797944", "study_type": "Observational (Microbiome)", "tier": "3"},
+        {"pmid": "31810134", "study_type": "Preclinical", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎通常為病毒或細菌急性感染，以對症支持治療為主。Cysteine 的抗氧化與潛在黏液溶解機制雖具理論緩解炎症的可能，但完全缺乏文獻支持（0篇文獻，0項試驗）。此預測為純 TxGNN 知識圖譜計算輸出，無任何臨床轉化依據，建議不進入後續評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pharyngitis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "機制關聯主要來自 NAC：(1) 硫基干擾鏈球菌（Streptococcus pyogenes）等細菌生物膜形成（PMID 25535147）；(2) NAC 噴霧製劑（Siccoral®）在術後咽喉疼痛 RCT 中顯示初步效益（PMID 24258468）；(3) 系統性回顧顯示多種局部製劑有術後咽喉疼痛緩解效果（PMID 25085034）。L-Cysteine 具相同活性基團，但現有臨床試驗僅收錄氧療對照研究（NCT05784636，不相關），缺乏直接藥物試驗。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05784636",
+          "relevance_grade": "C",
+          "reasoning": "比較高流量鼻氧療（HFNO）與標準治療的呼吸管理研究，243名受試者，狀態未知（UNKNOWN）。研究聚焦在氧療方式，與 Cysteine 或咽喉炎的藥物治療無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "25085034", "study_type": "Systematic Review", "tier": "1"},
+        {"pmid": "24258468", "study_type": "RCT", "tier": "1"},
+        {"pmid": "25535147", "study_type": "In vitro", "tier": "3"},
+        {"pmid": "22050223", "study_type": "Basic Science", "tier": "3"},
+        {"pmid": "38889492", "study_type": "Pharmacology Study", "tier": "3"},
+        {"pmid": "38043864", "study_type": "Preclinical", "tier": "3"},
+        {"pmid": "36876221", "study_type": "Review (Dermatology/Autoinflammatory)", "tier": "2"},
+        {"pmid": "21225694", "study_type": "Cohort", "tier": "2"},
+        {"pmid": "9690217", "study_type": "Multi-center Study", "tier": "2"},
+        {"pmid": "5478914", "study_type": "Clinical Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "exercise-induced malignant hyperthermia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "運動誘發性惡性高熱與骨骼肌 Ryanodine receptor（RYR1）突變導致鈣離子失調及繼發性氧化應激有關。Cysteine 作為穀胱甘肽前驅物，理論上可能緩解肌肉氧化損傷，但現有唯一文獻（PMID 12066726）僅描述惡性高熱與橫紋肌溶解症的疾病關聯，完全未涉及 Cysteine 的治療角色。此高罕見性疾病（急症）的治療以 Dantrolene 為標準，Cysteine 的定位需重新評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "12066726", "study_type": "Case Report/Series", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "angle-closure glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 closed-angle glaucoma 高度重疊（共享所有5篇文獻），均反映 SPARC 蛋白與 ECM 重塑在房水及小梁網的病理角色。Cysteine 與 SPARC 蛋白之關聯為命名性關聯（SPARC 富含半胱氨酸），非治療性機制。兩個相近診斷項目同時出現且文獻完全重疊，顯示 TxGNN 模型可能在此疾病群集中存在系統性偏誤。無臨床試驗，建議 Hold 並排除重複適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "18949063", "study_type": "Observational", "tier": "3"},
+        {"pmid": "37225012", "study_type": "Preclinical", "tier": "3"},
+        {"pmid": "30073351", "study_type": "Cohort", "tier": "2"},
+        {"pmid": "31725165", "study_type": "Cohort", "tier": "2"},
+        {"pmid": "28356709", "study_type": "Case-control", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "excretory apparatus of the lacrimal system anomaly",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淚道排泄系統異常（如先天性鼻淚管阻塞）屬解剖構造異常，標準治療為淚道探通術或淚囊鼻腔吻合術（DCR）。Cysteine 的藥理機制（抗氧化、黏液溶解）與解剖性阻塞病理機制不符；唯一可想像的應用場景為慢性炎症性狹窄的輔助局部治療，但完全缺乏文獻支持（0篇文獻，0項試驗）。此預測為 TxGNN 模型誤判，不建議資源投入。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tracheal disease",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "NAC（乙醯半胱氨酸）作為氣道黏液溶解劑擁有完整的臨床轉化鏈：(1) 硫基直接斷裂黏液醣蛋白二硫鍵，降低痰液黏彈性（PMID 10576438）；(2) 促進纖毛擺動，改善黏液纖毛清除效率（PMID 23113953）；(3) 抑制 NLRP3 炎症體活化，減少氣道炎症（PMID 36498845）；(4) 在機械通氣 ICU 患者（950名）中霧化給藥研究已完成（NCT02159196）。L-Cysteine 本身具相同硫基且為 NAC 前驅物，藥理轉化合理，但需注意 NAC 在多國已有核准適應症，獨立開發 L-Cysteine 的差異化定位需進一步釐清。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02159196",
+          "relevance_grade": "B",
+          "reasoning": "在機械通氣 ICU 患者中評估常規霧化黏液溶解劑（含 NAC）的效益，950名受試者，已完成。此為最大規模且最直接相關的試驗，支持黏液溶解介入在氣管疾病管理的臨床可行性。"
+        },
+        {
+          "nct_id": "NCT04872816",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 研究阻塞性睡眠呼吸中止症對端粒長度的影響，46名受試者，已完成。為氧化應激機制研究，與 Cysteine 治療氣管疾病無直接介入關聯。"
+        },
+        {
+          "nct_id": "NCT05784636",
+          "relevance_grade": "C",
+          "reasoning": "高流量鼻氧療與標準治療的呼吸管理比較研究，243名受試者，狀態未知。聚焦氧療方式，非藥物治療介入。"
+        },
+        {
+          "nct_id": "NCT02718079",
+          "relevance_grade": "C",
+          "reasoning": "急性肝衰竭的大容量血漿置換 RCT，40名受試者，已完成。適應症為肝臟疾病，氣管插管可能為次要安全管理端點，與 Cysteine 無關。"
+        },
+        {
+          "nct_id": "NCT01793168",
+          "relevance_grade": "C",
+          "reasoning": "罕見疾病協調登記研究（Sanford 研究），20000名受試者。為觀察性登記研究而非干預性 RCT，不提供療效依據。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "10576438", "study_type": "Review", "tier": "2"},
+        {"pmid": "34552650", "study_type": "Review", "tier": "2"},
+        {"pmid": "35272139", "study_type": "Ex-vivo Study", "tier": "3"},
+        {"pmid": "23113953", "study_type": "In vitro", "tier": "3"},
+        {"pmid": "36498845", "study_type": "In vitro", "tier": "3"},
+        {"pmid": "40094443", "study_type": "Animal Study", "tier": "3"},
+        {"pmid": "40195407", "study_type": "Preclinical", "tier": "3"},
+        {"pmid": "25300685", "study_type": "Animal Study", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "nasolacrimal duct disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼻淚管疾病（阻塞、狹窄、炎症）的標準治療為淚道探通術或手術重建。Cysteine 的黏液溶解機制理論上可能緩解因黏液栓或炎症性滲出物造成的輕度功能性鼻淚管阻塞，但此假設完全缺乏臨床文獻支持（0篇文獻，0項試驗）。與 'excretory apparatus of the lacrimal system anomaly' 相似，為計算預測誤判，建議不進入後續評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **dry eye syndrome** | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 2 RCT (NAC, 60人) + 2篇已發表 RCT |
+| **tracheal disease** | **L2** | **S2** | ✅ Proceed with Guardrails | 950人 ICU 黏液溶解劑試驗 + 機制完整 |
+| nasal cavity disease | L3 | S1 | 🔬 Research Question | NAC RCT (1996) + Fluimucil 臨床應用 |
+| pharyngitis | L3 | S1 | 🔬 Research Question | Siccoral® RCT + 系統性回顧 |
+| closed-angle glaucoma | L5 | S0 | ❌ Hold | SPARC 命名偽關聯，無試驗 |
+| angle-closure glaucoma | L5 | S0 | ❌ Hold | 與上項完全重疊，疑模型偏誤 |
+| exercise-induced malignant hyperthermia | L5 | S0 | ❌ Hold | 單一疾病描述性個案報告 |
+| excretory apparatus anomaly | L5 | S0 | ❌ Hold | 解剖性異常，機制不符 |
+| nasolacrimal duct disease | L5 | S0 | ❌ Hold | 零文獻，純計算預測 |
+| acute laryngopharyngitis | L5 | S0 | ❌ Hold | 零文獻，零試驗 |
+
+### ⚠️ 重要注意事項
+
+1. **NAC vs. Cysteine 轉化缺口**：所有 L2/L3 適應症的臨床證據均來自 N-乙醯半胱氨酸（NAC, DB09461），非 L-Cysteine（DB00151）本身。進行 Phase 1 安全性研究時，需額外評估 L-Cysteine 的藥代動力學差異（口服生物利用度、代謝轉化率）。
+2. **市場定位競爭**：NAC 於多國已有核准的呼吸道及解毒適應症，L-Cysteine 開發需明確差異化切入點（如局部眼用製劑、硫醇化聚合物載體）。
+3. **青光眼群集偽陽性**：`closed-angle glaucoma` 與 `angle-closure glaucoma` 共享完全相同的5篇文獻，且均為 SPARC 蛋白命名性關聯，建議作為 TxGNN 模型偽陽性案例記錄，供模型優化參考。

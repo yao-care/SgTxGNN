@@ -1,0 +1,1939 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00434-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cyproheptadine",
+    "drugbank_id": "DB00434",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.9995675683021544,
+        "rank": 1044
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00762983",
+            "title": "Claritin® Tablet 10 mg, Claritin® RediTabs® 10 mg, Claritin® Dry Syrup 1% Drug Use Investigation (Pediatrics)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1003,
+            "start_date": "2008-03",
+            "completion_date": "2009-02",
+            "brief_summary": "The purpose of this study is to collect information on unexpected adverse reactions (ADRs), how often ADRs occur, and factors that can affect the safety and effectiveness of Claritin (loratadine) when used in children. Patients will be observed while they are taking Claritin, and ADRs and symptom scores will be recorded. At the end of treatment, improvement in symptoms will be recorded.\n\nPost-marketing surveys are not considered applicable clinical trials and thus the results of this survey will",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "本試驗為 Loratadine（第二代抗組織胺）的藥物使用調查，非 Cyproheptadine 研究。雖同屬 H1 拮抗劑，但藥物特異性缺乏，僅提供間接的適應症背景，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT07101445",
+            "title": "Prevent Allergic Reactions to Aphexda With Dexamethasone (PARADE)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 94,
+            "start_date": "2025-09-24",
+            "completion_date": "2027-12-31",
+            "brief_summary": "This phase IV trial compares the effect of premedication regimens with methylprednisolone versus dexamethasone for the prevention of allergic reaction to motixafortide in patients with multiple myeloma (MM) undergoing stem cell mobilization. MM patients that receive an autologous stem cell transplantation (ASCT) have better outcomes. However, not all MM patients are able to have a successful stem cell mobilization and collection which is needed to proceed to ASCT. The addition of motixafortide p",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PARADE 試驗研究 Dexamethasone 預防化療相關過敏反應，試驗藥物與適應症情境均與 Cyproheptadine 用於過敏性蕁麻疹無直接對應關係。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35396016",
+            "title": "Loratadine.",
+            "authors": [
+              "AlMasoud Najla",
+              "Bakheit Ahmed H",
+              "Alshammari Munif Farhan M",
+              "Abdel-Aziz Hatem A",
+              "AlRabiah Haitham"
+            ],
+            "journal": "Profiles of drug substances, excipients, and related methodology",
+            "year": "2022",
+            "abstract": "Loratadine, 4-(8-Chloro-5,6-dihydro-11H-benzo[5,6]cyclohepta[1,2-b]pyridin-11-ylidene)-1-piperidinecarboxylic acid ethyl ester, is an antihistamine drug with long-acting effects and has limited selectivity for peripheral H1 receptors. It is widely used for the prevention of allergic diseases such as rhinitis chronic urticaria, and asthma. This chapter discusses, by a critical extensive review of the literature, the description of loratadine in terms of its names, formulae, elemental composition,",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22686617",
+            "title": "Bilastine: in allergic rhinitis and urticaria.",
+            "authors": [
+              "Carter Natalie J"
+            ],
+            "journal": "Drugs",
+            "year": "2012",
+            "abstract": "Bilastine is an orally administered, second-generation antihistamine used in the symptomatic treatment of seasonal or perennial allergic rhinoconjunctivitis and urticaria. In two well designed phase III trials, 14 days' treatment with bilastine was associated with a significantly lower area under the effect curve (AUEC) for the reflective total symptom score (TSS) than placebo in patients with symptomatic seasonal allergic rhinitis. Additionally, reflective nasal symptom scores were significantl",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27500993",
+            "title": "Rupatadine: global safety evaluation in allergic rhinitis and urticaria.",
+            "authors": [
+              "González-Núñez Vanesa",
+              "Bachert Claus",
+              "Mullol Joaquim"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2016",
+            "abstract": "Rupatadine is a second-generation H1-antihistamine with dual affinity for histamine H1 and PAF receptors. Rupatadine is indicated for the treatment of allergic rhinitis and urticaria.",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18336052",
+            "title": "Clinical pharmacokinetics and pharmacodynamics of desloratadine, fexofenadine and levocetirizine : a comparative review.",
+            "authors": [
+              "Devillier Philippe",
+              "Roche Nicolas",
+              "Faisy Christophe"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2008",
+            "abstract": "Second-generation histamine H(1) receptor antagonists were developed to provide efficacious treatment of allergic rhinitis (AR) and chronic idiopathic urticaria (CIU) while decreasing adverse effects associated with first-generation agents. When comparing the efficacy and safety profiles of the newest second-generation antihistamines - desloratadine, fexofenadine and levocetirizine - many pharmacological and clinical criteria must be considered. Most importantly, these elements should not be eva",
+            "classification": {
+              "study_type": "PK/PD Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18339040",
+            "title": "Rupatadine in allergic rhinitis and chronic urticaria.",
+            "authors": [
+              "Mullol J",
+              "Bousquet J",
+              "Bachert C",
+              "Canonica W G",
+              "Gimenez-Arnau A"
+            ],
+            "journal": "Allergy",
+            "year": "2008",
+            "abstract": "Histamine is the primary mediator involved the pathophysiology of allergic rhinitis and chronic urticaria, and this explains the prominent role that histamine H(1)-receptor antagonists have in the treatment of these disorders. However, histamine is clearly not the only mediator involved in the inflammatory cascade. There is an emerging view that drugs which can inhibit a broader range of inflammatory processes may prove to be more effective in providing symptomatic relief in both allergic rhinit",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39549290",
+            "title": "Comparative Efficacy of Mometasone Nasal Spray Combined with Different Doses of Desloratadine, and Montelukast in Childhood Allergic Rhinitis: A Randomized Clinical Trial.",
+            "authors": [
+              "Ghanbari Niloufar",
+              "Eftekhari Kambiz",
+              "Samadzadeh-Mamaghani Mohammadreza",
+              "Sedighiyan Mohsen",
+              "Diaz Diana Noemi"
+            ],
+            "journal": "Iranian journal of allergy, asthma, and immunology",
+            "year": "2024",
+            "abstract": "Allergic rhinitis is a common childhood disease. Although various drugs have been used to treat allergic rhinitis, including nasal corticosteroids, antileukotrienes, and antihistamines, there is still controversy about the optimal dose and the best combination with the highest efficacy. Higher doses of antihistamines are recommended for better control of urticaria, but there is insufficient evidence regarding the efficacy of increased doses of antihistamines in allergic rhinitis. The aim of the ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21162645",
+            "title": "Rupatadine for the treatment of allergic rhinitis and urticaria.",
+            "authors": [
+              "Metz Martin",
+              "Maurer Marcus"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2011",
+            "abstract": "Allergies are a widespread group of diseases of civilization and most patients are still undertreated. Since histamine is considered to be the most important mediator in allergies such as allergic rhinitis and urticaria, the most commonly used drugs to treat these disorders are antihistamines acting on the histamine 1 (H1) receptor. The currently available antihistamines, however, have significant differences in their effects and safety profiles. Furthermore, the Allergic Rhinitis and its Impact",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11398910",
+            "title": "Desloratadine.",
+            "authors": [
+              "McClellan K",
+              "Jarvis B"
+            ],
+            "journal": "Drugs",
+            "year": "2001",
+            "abstract": "Desloratadine is the orally active major metabolite of the nonsedating H1-antihistamine loratadine. The drug had no adverse cardiovascular effects in various animal models or when administered at 9 times the recommended adult dosage for 10 days in volunteers. Therapeutic dosages had no effects on wakefulness or psychomotor performance in healthy volunteers. No clinically significant interactions have been reported between desloratadine and drugs that inhibit the cytochrome P450 system, nor does ",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33198523",
+            "title": "The clinical evidence of second-generation H1-antihistamines in the treatment of allergic rhinitis and urticaria in children over 2 years with a special focus on rupatadine.",
+            "authors": [
+              "Nieto Antonio",
+              "Nieto María",
+              "Mazón Ángel"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2021",
+            "abstract": "Many obstacles limit the development of pharmacologic studies in children, in particular ethical and practical issues. Therefore, although second-generation H1-antihistamines (sgAH) are recommended by international guidelines as first-line therapy in childhood allergies, most data on the efficacy of antihistamines in children has been extrapolated from studies in adult patients.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16259582",
+            "title": "Review of desloratadine for the treatment of allergic rhinitis, chronic idiopathic urticaria and allergic inflammatory disorders.",
+            "authors": [
+              "DuBuske Lawrence M"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2005",
+            "abstract": "Desloratadine is a once-daily, non-sedating, non-impairing, selective histamine H1-receptor antagonist. It relieves the symptoms of seasonal allergic rhinitis (including nasal obstruction and congestion, and morning symptoms), perennial allergic rhinitis and chronic idiopathic urticaria by blocking multiple critical steps in the systemic allergic cascade and downregulating key allergy-induced inflammatory mediators. It also relieves asthma symptoms and decreases rescue medication use in patients",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7488341",
+            "title": "Cold urticaria in Thai children: comparison between cyproheptadine and ketotifen in the treatment.",
+            "authors": [
+              "Visitsunthorn N",
+              "Tuchinda M",
+              "Vichyanond P"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1995",
+            "abstract": "The study was performed in 6 Thai children with primary acquired cold urticaria. They all suffered from generalized urticaria and two of them also had angioedema. All of them had normal erythrocyte sedimentation rate, complement 3 and negative VDRL, TPHA, hepatitis B screen and cold agglutinin titer. Cryoglobulin was checked in 3 cases and showed negative results A double-blind cross-over study to compare the effectiveness of cyproheptadine and ketotifen demonstrated that the efficacy of cyprohe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16329713",
+            "title": "The safety and efficacy of desloratadine for the management of allergic disease.",
+            "authors": [
+              "Berger William E"
+            ],
+            "journal": "Drug safety",
+            "year": "2005",
+            "abstract": "Allergic disease is an increasing problem worldwide. Allergic rhinitis, an inflammatory response to an allergen, affects an estimated 20-40 million people in the US, while chronic idiopathic urticaria is a dermatoallergic condition that affects 0.1-3% of people in the US and Europe. The primary goals of treatment for allergic rhinitis are to reduce symptoms, which include sneezing, rhinorrhoea and nasal congestion, improve quality of life and prevent the sequelae associated with this disease, wh",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20067329",
+            "title": "Safety and efficacy of desloratadine in subjects with seasonal allergic rhinitis or chronic urticaria: results of four postmarketing surveillance studies.",
+            "authors": [
+              "Bachert Claus",
+              "Maurer Marcus"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2010",
+            "abstract": "Allergic rhinitis (AR) and chronic urticaria (CU) are common diseases with symptoms that impair quality of life. Second-generation antihistamines (e.g. cetirizine, desloratadine, fexofenadine, loratadine and mizolastine) are recommended first-line treatment for both conditions; however, studies of clinically relevant differences among these agents are lacking. The aim of this investigation was to evaluate the safety, tolerability and efficacy of desloratadine 5 mg once daily in four postmarketin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11424898",
+            "title": "Pharmacology and clinical efficacy of desloratadine as an anti-allergic and anti-inflammatory drug.",
+            "authors": [
+              "Agrawal D K"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2001",
+            "abstract": "Desloratadine is a biologically active metabolite of the second-generation antihistamine loratadine. Desloratadine is a highly selective peripheral H1 receptor antagonist that is significantly more potent than loratadine. Results of in vitro and in vivo studies have suggested that desloratadine has anti-allergic effects that are unrelated to its ability to antagonise the effects of histamine. Desloratadine inhibits the expression of cell adhesion molecules, inhibits the generation and release of",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1715267",
+            "title": "Acrivastine. A review of its pharmacological properties and therapeutic efficacy in allergic rhinitis, urticaria and related disorders.",
+            "authors": [
+              "Brogden R N",
+              "McTavish D"
+            ],
+            "journal": "Drugs",
+            "year": "1991",
+            "abstract": "Acrivastine is a short acting histamine H1-receptor antagonist with a rapid onset of action. Double-blind clinical trials have shown acrivastine (usually 8mg three times daily) to be an effective and well tolerated antihistamine in the treatment of chronic urticaria and allergic rhinitis. Acrivastine was more effective than placebo and similar in efficacy to clemastine or terfenadine in the treatment of seasonal allergic rhinitis. In the treatment of dermatoses in which histamine has a pathogene",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22994340",
+            "title": "H(1)-antihistamines and urticaria: how can we predict the best drug for our patient?",
+            "authors": [
+              "Church M K",
+              "Maurer M"
+            ],
+            "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+            "year": "2012",
+            "abstract": "Urticaria, and especially chronic spontaneous urticaria (CSU), is a difficult condition to treat. Consequently, clinicians need to use the best H(1)-antihistamines currently available and the pharmaceutical industries need to keep developing H(1)-antihistamines that are more effective than the ones we have today. To do this we need to be able to compare the clinical efficacy of both established and new drugs. Obviously, the ideal way to do this is to use head-to-head studies in CSU. However, suc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11941265",
+            "title": "Desloratadine (Clarinex).",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16154477",
+            "title": "A review of the evidence from comparative studies of levocetirizine and desloratadine for the symptoms of allergic rhinitis.",
+            "authors": [
+              "Passalacqua Giovanni",
+              "Canonica Giorgio Walter"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2005",
+            "abstract": "Levocetirizine and desloratadine are newer antihistamines indicated for the treatment of allergic rhinitis and chronic idiopathic urticaria.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12549956",
+            "title": "Desloratadine: a nonsedating antihistamine.",
+            "authors": [
+              "Limon Lynn",
+              "Kockler Denise R"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2003",
+            "abstract": "To review information on desloratadine, a nonsedating antihistamine.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cyproheptadine 作為第一代 H1 拮抗劑，直接阻斷肥大細胞脫顆粒後釋放的組織胺與 H1 受體結合，抑制風團（wheal）與潮紅（flare）反應。5-HT2 拮抗作用可能協同抑制血管滲透性。此為抗組織胺藥物最核心的使用情境，具強力的類別機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cold urticaria",
+      "txgnn": {
+        "score": 0.9975553154945374,
+        "rank": 3963
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7488341",
+            "title": "Cold urticaria in Thai children: comparison between cyproheptadine and ketotifen in the treatment.",
+            "authors": [
+              "Visitsunthorn N",
+              "Tuchinda M",
+              "Vichyanond P"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1995",
+            "abstract": "The study was performed in 6 Thai children with primary acquired cold urticaria. They all suffered from generalized urticaria and two of them also had angioedema. All of them had normal erythrocyte sedimentation rate, complement 3 and negative VDRL, TPHA, hepatitis B screen and cold agglutinin titer. Cryoglobulin was checked in 3 cases and showed negative results A double-blind cross-over study to compare the effectiveness of cyproheptadine and ketotifen demonstrated that the efficacy of cyprohe",
+            "classification": {
+              "study_type": "Comparative RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5287036",
+            "title": "Treatment of cold urticaria with cyproheptadine.",
+            "authors": [
+              "Wanderer A A",
+              "Ellis E F"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26038847",
+            "title": "Rupatadine 20 mg and 40 mg are Effective in Reducing the Symptoms of Chronic Cold Urticaria.",
+            "authors": [
+              "Abajian Marina",
+              "Curto-Barredo Laia",
+              "Krause Karoline",
+              "Santamaria Eva",
+              "Izquierdo Iñaki"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "2016",
+            "abstract": "Chronic cold urticaria (ColdU) is a rare disease characterized by mast cell-mediated wheals and angioedema following cold exposure. Second-generation H1-antihistamines, such as rupatadine, are the recommended first-line therapy. As of yet, the effects of rupatadine up-dosing on development of ColdU symptom have only been partially characterized. Two-centre, randomized, double-blind, 3-way crossover, placebo-controlled study in patients with a confirmed ColdU was designed to assess the effects of",
+            "classification": {
+              "study_type": "RCT (Comparator)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8447871",
+            "title": "Cold-induced urticaria and angioedema: diagnosis and management.",
+            "authors": [
+              "Bentley B"
+            ],
+            "journal": "The American journal of emergency medicine",
+            "year": "1993",
+            "abstract": "The physical urticarias compromise a heterogeneous group of disorders characterized by their propensity to form urticarial lesions after exposure to certain physical stimuli, such as heat, vibration, or cold. Although generally benign, systemic hypotension and angioedematous airway compromise are known life-threatening complications. We present the case of a man who experienced benign angioedematous changes in response to cold exposure, and discuss the clinical course, diagnosis, and management ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6102102",
+            "title": "The role of cyproheptadine in the treatment of cold urticaria.",
+            "authors": [
+              "Sigler R W",
+              "Evans R",
+              "Horakova Z",
+              "Ottesen E",
+              "Kaplan A P"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1980",
+            "abstract": "Histamine release in cold urticaria was studied before and after therapy with cyproheptadine to determine whether any effect upon histamine release could be distinguished from end-organ receptor-site blockade. Patients were asymptomatic while taking cyproheptadine, their ice cube test reverted to normal, and only one of six patients had any swelling upon ice-water submersion of one hand for 5 min. Histamine-release curves were obtained following ice-water submersion before and after cyproheptadi",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6480953",
+            "title": "Comparison of cinnarizine, cyproheptadine, doxepin, and hydroxyzine in treatment of idiopathic cold urticaria: usefulness of doxepin.",
+            "authors": [
+              "Neittaanmäki H",
+              "Myöhänen T",
+              "Fräki J E"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1984",
+            "abstract": "Randomized double-blind trials using doxepin and several conventional antihistamines were carried out for treatment of patients with idiopathic cold urticaria. In the first double-blind trial, eight of nine patients preferred doxepin (10 mg three times daily) to cinnarizine (10 mg three times daily). In the second double-blind trial, the results of ice cube tests suppressing the effect of cyproheptadine (4 mg three times daily), doxepin (10 mg three times daily), and hydroxyzine (10 mg three tim",
+            "classification": {
+              "study_type": "Comparative Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "334082",
+            "title": "Primary acquired cold urticaria. Double-blind comparative study of treatment with cyproheptadine, chlorpheniramine, and placebo.",
+            "authors": [
+              "Wanderer A A",
+              "St Pierre J P",
+              "Ellis E F"
+            ],
+            "journal": "Archives of dermatology",
+            "year": "1977",
+            "abstract": "Eight subjects with primary-acquired cold urticaria were treated with chlorpheniramine maleate, cyproheptadine hydrochloride, and placebo in a double-blind clinical trial. During three separate seven-day treatment periods, each patient took 4 mg of either active drug or lactose placebo three times a day. Objective measurements were made at the beginning and end of each treatment period by establishing the minimum time (MT) of cold stimulus application required to provoke urtication. In addition,",
+            "classification": {
+              "study_type": "Double-blind RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6209972",
+            "title": "Clinical and therapeutical aspects of cold urticaria (urticaria a frigore).",
+            "authors": [
+              "Seropian E",
+              "Iamandescu I B",
+              "Filip V"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "1984",
+            "abstract": "A new drug with inhibitory properties on the Mast Cell degranulation, Ketotifen, was administered in 87 patients suffering from idiopathic urticaria a frigore (iUF). The first group (A), with 52 patients effectuated prophylactic management for 4 months with Ketotifen (K) (2 mg/day) and Clemastine (C) (2 mg/day) according to the double blind crossover method. Both the drugs were administrated in stages of 2 months each. The second group (B), with 35 patients (having previously failed a prophylact",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20609144",
+            "title": "Localized cold urticaria to the face in a pediatric patient: a case report and literature review.",
+            "authors": [
+              "Sciallis Gabriel F",
+              "Krych Esther H"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2010",
+            "abstract": "We present a curious case of localized cold urticaria restricted to the face in a 10-year-old girl. Testing for the condition using an ice cube was positive only in the facial area. After 2 years, the patient continues to experience localized urticaria only on her face on cold exposure. A review of the available published medical literature on cold urticaria was performed using Ovid and PubMed databases. The literature search was not limited to the English language. Only three other cases of col",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20143651",
+            "title": "Rupatadine and its effects on symptom control, stimulation time, and temperature thresholds in patients with acquired cold urticaria.",
+            "authors": [
+              "Metz Martin",
+              "Scholz Elisabeth",
+              "Ferrán Marta",
+              "Izquierdo Iñaki",
+              "Giménez-Arnau Ana"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "2010",
+            "abstract": "Patients with acquired cold urticaria (ACU) show itchy wheals during cold exposure. This disturbing condition involves histamine and platelet-activating factor in its pathogenesis. Rupatadine is a dual antagonist of both histamine and platelet-activating factor.",
+            "classification": {
+              "study_type": "RCT (Comparator)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30708143",
+            "title": "H1-antihistamine inhibition of histamine- and codeine-induced wheals does not predict response in chronic cold urticaria.",
+            "authors": [
+              "Gorczyza Marina",
+              "Curto-Barredo Laia",
+              "Krause Karoline",
+              "Church Martin K",
+              "Hawro Tomasz"
+            ],
+            "journal": "The journal of allergy and clinical immunology. In practice",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19201016",
+            "title": "High-dose desloratadine decreases wheal volume and improves cold provocation thresholds compared with standard-dose treatment in patients with acquired cold urticaria: a randomized, placebo-controlled, crossover study.",
+            "authors": [
+              "Siebenhaar Frank",
+              "Degener Franziska",
+              "Zuberbier Torsten",
+              "Martus Peter",
+              "Maurer Marcus"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2009",
+            "abstract": "Increased dosing of nonsedating antihistamines is recommended by the current European Academy of Allergology and Clinical Immunology/Global Allergy and Asthma European Network/European Dermatology Forum guidelines on patients with acquired cold urticaria (ACU) who do not respond satisfactorily to the standard dose. Prospective data supporting this recommendation are scant.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6199393",
+            "title": "Acquired cold urticaria: H1 and H2 antagonists versus cold induced histamine release.",
+            "authors": [
+              "Katayama I",
+              "Doi T",
+              "Nishioka K",
+              "Maeyama K",
+              "Yamatodani A"
+            ],
+            "journal": "The Journal of dermatology",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14754651",
+            "title": "Inhibition of cold urticaria by desloratadine.",
+            "authors": [
+              "Juhlin L"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2004",
+            "abstract": "The effect of 5 mg desloratadine for 4 days was tested with ice-cubes before and after 4 days of treatment in 12 patients with cold urticaria. They had been asked not to take any antihistamine for at least 4 days.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23806068",
+            "title": "Rupatadine for the treatment of urticaria.",
+            "authors": [
+              "Nettis Eustachio",
+              "Delle Donne Pantalea",
+              "Di Leo Elisabetta",
+              "Calogiuri Gian Franco",
+              "Ferrannini Antonio"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2013",
+            "abstract": "Rupatadine fumarate is a second-generation antihistamine provided with a potent, long-lasting and balanced in vivo dual platelet-activating factor (PAF) and histamine antagonist activity and it uniquely combines both activities at a high level of potency. Rupatadine has a rapid onset of action and a long-lasting effect, so a once-daily dosing is permitted, moreover is well tolerated by young adults and the elders. Rupatadine does not present the side effects of first-generation H1-antihistamines",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3760401",
+            "title": "Clinical characteristics of cold-induced systemic reactions in acquired cold urticaria syndromes: recommendations for prevention of this complication and a proposal for a diagnostic classification of cold urticaria.",
+            "authors": [
+              "Wanderer A A",
+              "Grandel K E",
+              "Wasserman S I",
+              "Farr R S"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1986",
+            "abstract": "The acquired cold urticaria (ACU) syndromes consists of nonfamilial heterogeneous disorders characterized by urticaria, angioedema, and occasionally symptoms of hypotension after cold exposure. In a study of 50 consecutive patients with ACU syndromes, it was observed that 70% experienced cold-induced systemic reactions, most frequently with aquatic activities. Patients with ACU syndromes were categorized by their response to an experimental cold-stimulation time test (CSTT) i.e., minimum time th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4387996",
+            "title": "Treatment of urticaria and physical allergy.",
+            "authors": [
+              "Fink J N"
+            ],
+            "journal": "Modern treatment",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8721514",
+            "title": "Cold urticaria and delayed pressure urticaria in the same patient.",
+            "authors": [
+              "Valsecchi R",
+              "Rozzoni M",
+              "Sena P",
+              "Pansera B"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "1996",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1364168",
+            "title": "A comparison of new nonsedating and classical antihistamines in the treatment of primary acquired cold urticaria (ACU).",
+            "authors": [
+              "Villas Martínez F",
+              "Contreras F J",
+              "López Cazaña J M",
+              "López Serrano M C",
+              "Martínez Alzamora F"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "1992",
+            "abstract": "The efficacy of the new nonsedating antihistamines loratadine and cetirizine was compared in a randomized, single-blind, crossover, controlled study with that of the classical antihistamines cyproheptadine and ketotifen in seven patients with primary acquired cold urticaria (ACU). The patients received each of the four drugs for 14 consecutive days with a 7-day interval between drugs. We evaluated clinical symptomatology, adverse effects, minimum time of cold contact stimulation required to indu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "465334",
+            "title": "Cold urticaria and complement C2 deficiency.",
+            "authors": [
+              "Sibbald R G",
+              "Eady R A",
+              "Kobza-Black A",
+              "Greaves M W"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "冷性蕁麻疹的病理機制涉及寒冷刺激誘發皮膚肥大細胞脫顆粒，大量釋放組織胺。Cyproheptadine 的 H1 拮抗作用直接阻斷此反應；5-HT2 拮抗特性可能進一步抑制血管擴張與滲透性增加。文獻中有 5 篇直接針對 Cyproheptadine 的臨床研究，包含 1 篇雙盲對照試驗（PMID:334082），是所有適應症中最強的直接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9921133518218994,
+        "rank": 8941
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03640273",
+            "title": "The Study of Efficacy and Adverse Effects of Prapchompoothaweep Remedy Crude Drug and Loratadine for Treatment in Allergic Rhinitis Patients (Clinical Trials Phase II)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2017-11-23",
+            "completion_date": "2018-06-24",
+            "brief_summary": "1. To compare the effectiveness of Prapchompoothaweep crude drug at 3,000 mg per day and Loratadine 10 mg per day for treatment in Allergic Rhinitis patients. (Clinical Trial Phase II)\n2. To evaluate the safety and adverse effect of Prapchompoothaweep crude drug at 3,000 mg and Loratadine 10 mg for Allergic Rhinitis patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "泰國草藥 Prapchompoothaweep 對比 Loratadine 治療過敏性鼻炎的 Phase 2 試驗，與 Cyproheptadine 無直接相關，僅提供過敏性鼻炎治療的背景脈絡。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32312261",
+            "title": "Ginger extract versus Loratadine in the treatment of allergic rhinitis: a randomized controlled trial.",
+            "authors": [
+              "Yamprasert Rodsarin",
+              "Chanvimalueng Waipoj",
+              "Mukkasombut Nichamon",
+              "Itharat Arunporn"
+            ],
+            "journal": "BMC complementary medicine and therapies",
+            "year": "2020",
+            "abstract": "Allergic rhinitis (AR) is a non-infectious immune disease and incidents of the disease has continuously increased in Thailand. Ginger, a Thai herb, is used in food and Thai traditional medicine. This study was designed to assess efficacy and safety of ginger extract in comparison with loratadine for AR treatment.",
+            "classification": {
+              "study_type": "RCT (Other Drug)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19769798",
+            "title": "Loratadine and montelukast administered in combination produce decongestion in an experimental feline model of nasal congestion.",
+            "authors": [
+              "McLeod Robbie L",
+              "Mingo Garfield G",
+              "Xu Xiaoying",
+              "Palamanda Jairam",
+              "Hunter John C"
+            ],
+            "journal": "American journal of rhinology & allergy",
+            "year": "2009",
+            "abstract": "Histamine and leukotrienes act to exert numerous local and systemic effects that contribute to the pathophysiology of allergic rhinitis. The aim of these experiments was to evaluate the nasal decongestant effects of loratadine and montelukast alone and in combination in a feline model of nasal congestion. We also studied the decongestant actions of the alpha-agonist adrenergic agonist D-pseudoephedrine with and without desloratadine.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20128424",
+            "title": "Reduction of nasal volume after allergen-induced rhinitis in patients treated with rupatadine: a randomized, cross-over, double-blind, placebo-controlled study.",
+            "authors": [
+              "Valero A",
+              "Serrano C",
+              "Bartrá J",
+              "Izquierdo I",
+              "Muñoz-Cano R"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2009",
+            "abstract": "To measure the reduction in nasal obstruction using acoustic rhinometry in patients with allergic rhinitis treated with rupatadine.",
+            "classification": {
+              "study_type": "RCT (Other Drug)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過敏性鼻炎（鼻腔疾病主要類型）的症狀由組織胺 H1 受體介導，包括鼻癢、噴嚏、水樣分泌物。Cyproheptadine 的 H1 拮抗作用理論上可緩解上述症狀；抗膽鹼效應可能減少鼻腺體分泌。然而，第一代抗組織胺的嗜睡副作用限制其日常使用，現代指引已以第二代藥物取代。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.991275191307068,
+        "rank": 9598
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性喉咽炎主要由病毒（Rhinovirus, Coronavirus 等）或細菌（A 型鏈球菌）感染引起，炎症介質以細胞激素（IL-1β, TNF-α）為主，組織胺並非核心病理介質。Cyproheptadine 的抗組織胺和 5-HT2 拮抗機轉與感染性喉咽炎的病理生理聯繫極為薄弱，無合理的藥理學支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn": {
+        "score": 0.9891553521156312,
+        "rank": 11145
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "異位性皮膚炎的瘙癢部分由組織胺和 5-HT 介導，Cyproheptadine 的雙重拮抗在機轉上具潛在相關性。然而「難治性」異位性皮膚炎涉及複雜的 Th2/Th17 免疫失調（IL-4, IL-13, IL-31 軸），已有靶向生物製劑（Dupilumab, Tralokinumab）為標準治療，第一代抗組織胺的鎮靜效應可短暫緩解瘙癢但無疾病修飾作用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn": {
+        "score": 0.9852553606033324,
+        "rank": 14037
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cyproheptadine 作用於 IgE 介導反應的下游（H1 受體層級），並非直接干預 IgE 產生、FcεRI 訊號或 Th2 分化等上游過敏致敏機轉。抗組織胺藥物不能降低 IgE 敏感性（atopy），機轉聯繫為間接且薄弱的推斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "nasopharyngitis",
+      "txgnn": {
+        "score": 0.983449161052704,
+        "rank": 15147
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鼻咽炎（普通感冒）主要為病毒性感染，組織胺在其病理中的角色有限（急性期可能有少量肥大細胞反應）。現有 Cochrane 系統回顧顯示，抗組織胺藥物對普通感冒症狀的整體效益不顯著。機轉聯繫薄弱，且感冒使用第一代抗組織胺的嗜睡風險高於其效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.965531051158905,
+        "rank": 22694
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "玫瑰痤瘡相關結膜炎涉及神經血管功能失調、先天免疫激活（Toll-like receptor 信號），以及 cathelicidin（LL-37）的異常剪切。組織胺和血清素在此病理中的角色尚未建立，Cyproheptadine 的雙重拮抗機轉與此適應症的關聯性極弱，屬高度推測性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9578120708465576,
+        "rank": 24778
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06531707",
+            "title": "Efficacy and Safety of Ibuprofen/Loratadine Fixed-dose Combination Versus the Fixed-dose Administration of Monotherapy as Symptomatic Treatment for Patients With the Common Cold",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 177,
+            "start_date": "2024-05-20",
+            "completion_date": "2025-02-20",
+            "brief_summary": "Phase III longitudinal, multicenter, randomized, double-blind clinical trial. The aim of this study is to evaluate the efficacy and safety of the drug combination of Ibuprofen/Loratadine versus Ibuprofen versus Loratadine as monotherapy for the symptomatic treatment of the common cold.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Ibuprofen/Loratadine 固定劑量組合治療頭痛的 Phase 3 試驗。Loratadine 屬第二代抗組織胺，不具 5-HT2 拮抗作用，與 Cyproheptadine 的頭痛預防機轉不同，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT05190627",
+            "title": "Phase II Clinical Trial Evaluating the Effect of Loratadine Associated to Rapamicyn in Patients With Lymphangioleiomyomatosis",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 62,
+            "start_date": "2021-11-01",
+            "completion_date": "2023-12-30",
+            "brief_summary": "INTRODUCTION: LAM is a rare and lethal disease characterized by progressive cystic lung destruction. Inhibition of mTOR with rapamycin is the current standard of care (SOC), which can slow-down disease. Plasma major histamine metabolite (Methylimidazoleacetic acid \\[MIAA\\]) is increased in LAM. Loratadine is a histamine receptor antagonist (HR1), which inhibits LAM cell proliferation. Therefore, a novel phase-II clinical trial for assessing safety and potential benefits of loratadine in LAM has ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Loratadine + Rapamycin 治療頭痛的 Phase 2 試驗，著重 mTOR 信號通路，與 Cyproheptadine 的 5-HT2/H1 機轉無關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT07101445",
+            "title": "Prevent Allergic Reactions to Aphexda With Dexamethasone (PARADE)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 94,
+            "start_date": "2025-09-24",
+            "completion_date": "2027-12-31",
+            "brief_summary": "This phase IV trial compares the effect of premedication regimens with methylprednisolone versus dexamethasone for the prevention of allergic reaction to motixafortide in patients with multiple myeloma (MM) undergoing stem cell mobilization. MM patients that receive an autologous stem cell transplantation (ASCT) have better outcomes. However, not all MM patients are able to have a successful stem cell mobilization and collection which is needed to proceed to ASCT. The addition of motixafortide p",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Dexamethasone 預防化療過敏反應試驗，與頭痛治療適應症及 Cyproheptadine 均無關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9951205",
+            "title": "Cyproheptadine and SSRIs.",
+            "authors": [
+              "Boon F"
+            ],
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report/Commentary",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6398056",
+            "title": "Serotonin antagonists.",
+            "authors": [
+              "Anthony M"
+            ],
+            "journal": "Australian and New Zealand journal of medicine",
+            "year": "1984",
+            "abstract": "The realisation that serotonin plays a role not only in the carcinoid syndrome but also in migraine, nociception, dumping syndrome, vascular disease and hypertension, has led to an enormous amount of activity in search of serotonin antagonists. Numerous such pharmacological agents have been identified but only few have found their way into clinical use. All of them are competitive serotonin inhibitors, in that they vie for the same receptor as the amine itself and are thus able to block its acti",
+            "classification": {
+              "study_type": "Pharmacology Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20447666",
+            "title": "[Childhood periodic syndromes].",
+            "authors": [
+              "Cuvellier J-C",
+              "Lépine A"
+            ],
+            "journal": "Revue neurologique",
+            "year": "2010",
+            "abstract": "This review focuses on the so-called \"periodic syndromes of childhood that are precursors to migraine\", as included in the Second Edition of the International Classification of Headache Disorders. Three periodic syndromes of childhood are included in the Second Edition of the International Classification of Headache Disorders: abdominal migraine, cyclic vomiting syndrome and benign paroxysmal vertigo, and a fourth, benign paroxysmal torticollis is presented in the Appendix. The key clinical feat",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41719916",
+            "title": "Cyclic vomiting syndrome.",
+            "authors": [
+              "Hikita Toshiyuki"
+            ],
+            "journal": "Brain & development",
+            "year": "2026",
+            "abstract": "Cyclic vomiting syndrome (CVS) is characterized by recurrent vomiting episodes. In this study, the mean ages at the onset of symptoms and at the diagnosis of children with cyclic vomiting pattern were 5.7 and 8.0 years, respectively. On average 2.3 years elapsed between the onset and diagnosis, suggesting the difficulty of diagnosing CVS. However, the prevalence of CVS ranges from approximately 0.3% to 2%. Its pathophysiology, prognosis, and natural history need to be further investigated. Vario",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25217187",
+            "title": "Breastfeeding and migraine drugs.",
+            "authors": [
+              "Davanzo Riccardo",
+              "Bua Jenny",
+              "Paloni Giulia",
+              "Facchina Giulia"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "2014",
+            "abstract": "Breastfeeding women may suffer from migraine. While we have many drugs for its treatment and prophylaxis, the majority are poorly studied in breastfeeding women. We conducted a review of the most common anti-migraine drugs (AMDs) and we determined their lactation risk.",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39585058",
+            "title": "Cyproheptadine Treatment in Children and Adolescents with Migraine: A Retrospective Study in Japan.",
+            "authors": [
+              "Shimomura Hideki",
+              "Tokunaga Sachi",
+              "Terasaki Eisuke",
+              "Taniguchi Naoko",
+              "Taniguchi Yohei"
+            ],
+            "journal": "Neurology international",
+            "year": "2024",
+            "abstract": "Evidence on prophylactic drugs for pediatric migraine is limited, especially when comorbid conditions contribute to treatment resistance. This study evaluated the efficacy of cyproheptadine in children with migraine and explored the impact of comorbid neurodevelopmental disorders and orthostatic intolerance (OI).",
+            "classification": {
+              "study_type": "Retrospective Cohort Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40614698",
+            "title": "Cyclical Vomiting Syndrome in Individuals With BPTF Haploinsufficiency.",
+            "authors": [
+              "Ferretti Alessandro",
+              "Furlan Margherita",
+              "Glinton Kevin E",
+              "Fenger Christina D",
+              "Boschann Felix"
+            ],
+            "journal": "Pediatric neurology",
+            "year": "2025",
+            "abstract": "Haploinsufficiency of the bromodomain PHD finger transcription factor (BPTF) gene, essential in chromatin remodeling, leads to a neurodevelopmental disorder characterized by dysmorphic facies, distal limb anomalies, neurological disturbances, epilepsy, and gastrointestinal symptoms.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29556858",
+            "title": "Cyclic Vomiting Syndrome in Children.",
+            "authors": [
+              "Donnet Anne",
+              "Redon Sylvain"
+            ],
+            "journal": "Current pain and headache reports",
+            "year": "2018",
+            "abstract": "Cyclic vomiting syndrome (CVS) is a misrecognized and probably underdiagnosed episodic syndrome associated with migraine, occurring preferentially in childhood. Attacks are stereotyped for each individual, with predictable periodicity. This review summarizes recent clinical and paraclinical observations in this syndrome, and current approaches in explorations and therapeutics.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15548924",
+            "title": "Toward the definition of childhood migraine.",
+            "authors": [
+              "Lewis Donald W"
+            ],
+            "journal": "Current opinion in pediatrics",
+            "year": "2004",
+            "abstract": "The intent of this review is to provide an update on the current understanding of the diagnostic criteria, classification, pathophysiology, evaluation, and management of pediatric migraine.",
+            "classification": {
+              "study_type": "Consensus Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24433203",
+            "title": "Histamine in migraine and brain.",
+            "authors": [
+              "Alstadhaug Karl B"
+            ],
+            "journal": "Headache",
+            "year": "2014",
+            "abstract": "Histamine has been studied in both health and disease since the initial description a century ago. With its vasodilative effect, it was suggested early on to be involved in the pathophysiology of migraine. Over the past 25 years, much has been learned about histamine as a neurotransmitter in the central nervous system. The role of this neurotransmitter system in migraine has not been previously reviewed.",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3607869",
+            "title": "Cluster-tic syndrome.",
+            "authors": [
+              "Klimek A"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1987",
+            "abstract": "A case of cluster-tic syndrome is presented. A 51-year-old man developed pain attacks corresponding to the second branch of the trigeminal nerve. After treatment with 1200 mg carbamazepine daily, the attacks disappeared. Full remission was achieved, and carbamazepine therapy was continued. Pain attacks of a quite different character then appeared; their clinical picture corresponded to cluster headache. After treatment with cyproheptadine, the cluster headache attacks ceased, but 2 days later, b",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16018227",
+            "title": "The treatment of pediatric migraine.",
+            "authors": [
+              "Lewis Donald W",
+              "Yonker Marcy",
+              "Winner Paul",
+              "Sowell Michael"
+            ],
+            "journal": "Pediatric annals",
+            "year": "2005",
+            "abstract": "The management of pediatric migraine requires a balance of biobehavioral measures coupled with agents for acute treatment and, if needed, daily preventive medicines. A recent American Academy of Neurology practice parameter has critically reviewed the limited data regarding the efficacy and safety of medicines for the acute and preventive therapy of pediatric migraine. The first step is to establish the headache frequency and degree to which the migraines impact upon lifestyle and performance. T",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2045831",
+            "title": "5-HT2 receptor antagonists and migraine therapy.",
+            "authors": [
+              "Mylecharane E J"
+            ],
+            "journal": "Journal of neurology",
+            "year": "1991",
+            "abstract": "5-Hydroxytryptamine (5-HT; serotonin) has been implicated in the pathophysiology of migraine, and several drugs with potent 5-HT2 receptor blocking activity (methysergide, pizotifen, cyproheptadine and mianserin) have been recognized as being clinically effective in migraine prophylaxis, although the selective 5-HT2 receptor antagonist ketanserin (the principal agent used to identify 5-HT2 receptor-mediated actions) seems to be ineffective in migraine. Pizotifen is the most widely used 5-HT2 rec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1552410",
+            "title": "Pharmacologic treatment of childhood migraine.",
+            "authors": [
+              "Igarashi M",
+              "May W N",
+              "Golden G S"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1992",
+            "abstract": "This review of pharmacologic treatment of childhood migraine shows that no agent for abortive treatment has been proved effective in controlled studies and that most commonly used prophylactic agents (e.g., propranolol and cyproheptadine) lack proof of their effectiveness. Flunarizine seems to be the only agent with positive results in controlled studies. This drug, although well tolerated, is slow to act. For the treatment of an acute attack, aspirin or acetaminophen may be chosen. Two of us cu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "494146",
+            "title": "Cyproheptadine (Peritol) in the treatment of migraine and related headache.",
+            "authors": [
+              "Klimek A"
+            ],
+            "journal": "Therapia Hungarica (English edition)",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5966206",
+            "title": "Studies in migraine.",
+            "authors": [
+              "Lance J W"
+            ],
+            "journal": "Proceedings of the Australian Association of Neurologists",
+            "year": "1966",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12387689",
+            "title": "Treatment of paediatric headache.",
+            "authors": [
+              "Lewis Donald W",
+              "Scott David",
+              "Rendin Valerie"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2002",
+            "abstract": "Headaches are very common during childhood and become increasingly frequent during adolescence. The diagnosis of primary headache disorders (e.g., migraine and tension-type headache) rests principally on clinical criteria as set forth by the International Headache Society. Treatment options include acute or episodic measures, prophylactic agents and non-pharmacological or behavioural interventions. From review of available evidence, the most efficacious acute treatments of paediatric migraine in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15623677",
+            "title": "Practice parameter: pharmacological treatment of migraine headache in children and adolescents [RETIRED]: report of the American Academy of Neurology Quality Standards Subcommittee and the Practice Committee of the Child Neurology Society.",
+            "authors": [
+              "Lewis D",
+              "Ashwal S",
+              "Hershey A",
+              "Hirtz D",
+              "Yonker M"
+            ],
+            "journal": "Neurology",
+            "year": "2004",
+            "abstract": "To review evidence on the pharmacologic treatment of the child with migraine headache.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11817981",
+            "title": "Abdominal migraine: evidence for existence and treatment options.",
+            "authors": [
+              "Russell George",
+              "Abu-Arafeh Ishaq",
+              "Symon David N K"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2002",
+            "abstract": "There is evidence to suggest that, in children, episodic abdominal pain occurring in the absence of headache may be a migrainous phenomenon. There are four separate strands of evidence for this: the common co-existence of abdominal pain and migraine headaches; the similarity between children with episodic abdominal pain and children with migraine headaches, with respect to social and demographic factors, precipitating and relieving factors, and accompanying gastrointestinal, neurological and vas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27993427",
+            "title": "Reconsideration of the diagnosis and treatment of childhood migraine: A practical review of clinical experiences.",
+            "authors": [
+              "Saito Yoshiaki",
+              "Yamanaka Gaku",
+              "Shimomura Hideki",
+              "Shiraishi Kazuhiro",
+              "Nakazawa Tomoyuki"
+            ],
+            "journal": "Brain & development",
+            "year": "2017",
+            "abstract": "To provide insight into the wide spectrum of migraine during childhood to establish practical and comprehensive treatment strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "5-HT2 拮抗是 Cyproheptadine 用於偏頭痛預防的核心機轉：5-HT2B/2C 受體在三叉神經血管系統的致敏化及皮質擴散性抑制（cortical spreading depression）中發揮關鍵作用，拮抗此受體可降低發作頻率。H1 拮抗作用透過「組織胺-偏頭痛軸」（histamine-migraine axis）提供輔助效益。Cyproheptadine 目前已為兒科偏頭痛預防的 off-label 標準選項之一。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.955641508102417,
+        "rank": 25307
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3607869",
+            "title": "Cluster-tic syndrome.",
+            "authors": [
+              "Klimek A"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1987",
+            "abstract": "A case of cluster-tic syndrome is presented. A 51-year-old man developed pain attacks corresponding to the second branch of the trigeminal nerve. After treatment with 1200 mg carbamazepine daily, the attacks disappeared. Full remission was achieved, and carbamazepine therapy was continued. Pain attacks of a quite different character then appeared; their clinical picture corresponded to cluster headache. After treatment with cyproheptadine, the cluster headache attacks ceased, but 2 days later, b",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39434953",
+            "title": "Prophylactic Cyproheptadine to Control Paroxysmal Hemicrania Attacks: A Preliminary Investigation.",
+            "authors": [
+              "Nasiri Jafar",
+              "Zolfaghari Mohammad R",
+              "Yaghini Omid",
+              "Khorasgani Mohammad R G",
+              "Moshkenani Neda H"
+            ],
+            "journal": "Advanced biomedical research",
+            "year": "2024",
+            "abstract": "Paroxysmal hemicrania (PH) is a severe short-lasting headache usually localized around the eye. It might occur in conjunction with ipsilateral autonomic manifestations of trigeminal nerve stimulation. PH responds well to indomethacin treatment; however, considering the adverse effects of indomethacin, its long-term use is a matter of question and investigations about other prophylactic medications are going on, but they are inconclusive. The current study aims to investigate the efficacy of prop",
+            "classification": {
+              "study_type": "Preliminary Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9195770",
+            "title": "Antihistamine responsive cluster headache in a teenaged girl.",
+            "authors": [
+              "Neubauer D",
+              "Kuhar M",
+              "Ravnik I M"
+            ],
+            "journal": "Headache",
+            "year": "1997",
+            "abstract": "Episodic cluster headache is a well-recognized entity usually starting in the second decade of life. Uncommonly, the first typical symptoms may present in the first decade of life, but are rarely recognized as such during childhood. We report a 12-year-old girl who presented with a 1-year history of bouts of right-sided hemicrania with ipsilateral, clearly demarcated, redness and itching of the skin of the face, lasting from 15 minutes to 2 hours per day. The episodes recurred up to several time",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6440873",
+            "title": "Drug management of adult vascular headaches (migraine and cluster headache): Part II--Prevention and attacks.",
+            "authors": [
+              "Damasio H"
+            ],
+            "journal": "Iowa medicine : journal of the Iowa Medical Society",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "494146",
+            "title": "Cyproheptadine (Peritol) in the treatment of migraine and related headache.",
+            "authors": [
+              "Klimek A"
+            ],
+            "journal": "Therapia Hungarica (English edition)",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "Open-label Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉自律神經頭痛（TACs，包括陣發性偏側頭痛、叢集性頭痛）的病理涉及三叉-副交感神經反射弓激活及下視丘功能異常。5-HT2 拮抗作用可能調節三叉神經痛覺敏感化；組織胺作為神經傳導物質在叢集性頭痛中的角色已被確認（H1 受體位於三叉神經節），使 Cyproheptadine 的雙重機轉具合理的病理生理基礎。PMID:39434953（2024）提供了陣發性偏側頭痛的首個初步直接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "nasopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "nasopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "nasopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cyproheptadine",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    }
+  ]
+}

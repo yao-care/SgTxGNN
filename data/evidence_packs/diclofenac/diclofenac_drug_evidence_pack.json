@@ -1,0 +1,1059 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00586-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Diclofenac",
+    "drugbank_id": "DB00586",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.996891438961029,
+        "rank": 4717
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上：PGD2 抑制毛囊生長；Diclofenac 抑制 COX-2 可降低 PGD2 水平，或具微弱促毛髮生長作用。但 Hypotrichosis simplex 為 LPAR6/LIPH/KRT 等基因突變所致之遺傳性脫髮，與前列腺素途徑關聯極弱，無臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9966583251953124,
+        "rank": 4957
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hunter-Thompson 型肢端中肢發育不良為 CDMP1（GDF5）基因突變，導致軟骨形成異常。Diclofenac 抑制 COX 無法修正 BMP 信號缺陷，僅可能提供疼痛症狀緩解，不具疾病修飾潛力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.9965839385986328,
+        "rank": 5034
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pseudoachondroplasia 為 COMP 基因突變導致軟骨寡聚體基質蛋白異常堆積，引發 ER 壓力與軟骨細胞凋亡。COX 抑制無法修正 COMP 蛋白錯誤折疊，缺乏疾病相關機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9964518547058104,
+        "rank": 5161
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Brachyolmia（短軀型侏儒症）涉及 TRPV4、PAPSS2 或 SOX9 相關基因突變，脊椎椎體扁平為主要特徵。NSAIDs 可緩解背痛症狀，但對骨骼結構異常無疾病修飾作用，機轉關聯極為間接。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.9963487386703492,
+        "rank": 5262
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症候群結合脊椎骨骼發育異常與釉質發育不全，目前致病基因尚未完全釐清（部分與 FAM20A 相關）。無已知機轉連結 COX 抑制與牙齒釉質或脊椎骨骼發育。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9960057139396667,
+        "rank": 5597
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛症合併粟粒疹為遺傳性皮膚附件發育異常，涉及 KRT 或 HR 基因突變。與前列腺素代謝途徑無已知關聯，COX 抑制缺乏理論機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "myosclerosis",
+      "txgnn": {
+        "score": 0.9959635734558104,
+        "rank": 5635
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌肉硬化症為進展性肌纖維化疾病，部分與 SEPN1/RYR1 相關。COX-2 在纖維化過程中具調節作用，理論上 NSAIDs 可能減緩纖維化進程，但此機轉高度推測，無任何肌肉硬化症相關臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "diffuse alopecia areata",
+      "txgnn": {
+        "score": 0.9956696033477784,
+        "rank": 5905
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "瀰漫性圓禿為 CD8+ T 細胞攻擊毛囊免疫豁免區所致。PGD2（COX-2 產物）已知抑制毛囊生長，理論上 COX 抑制劑可降低 PGD2 促進毛髮再生；但此機轉在雄性禿研究較有支持，圓禿的免疫機轉以 JAK-STAT 途徑為主，NSAIDs 介入效益未知且無任何臨床紀錄。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "juvenile idiopathic arthritis",
+      "txgnn": {
+        "score": 0.992452085018158,
+        "rank": 8673
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00688545",
+            "title": "SINCERE™: Safety in Idiopathic Arthritis: NSAIDs and Celebrex Evaluation Registry A Prospective Observational Registry Of Patients With Juvenile Idiopathic Arthritis (JIA) Treated With NSAIDs",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 275,
+            "start_date": "2009-04",
+            "completion_date": "2012-01",
+            "brief_summary": "This multi-center observational Registry will collect long-term safety data on patients treated with celecoxib or non-selective nonsteroidal anti-inflammatory drugs (nsNSAIDs) as used in clinical practice for the treatment of Juvenile Idiopathic Arthritis (JIA).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "SINCERE 登記研究（觀察性），涵蓋 NSAIDs（含 Diclofenac）於特發性關節炎之安全性，雖已終止（TERMINATED），但提供 NSAID 類別在此族群的真實世界安全訊號；非 Diclofenac 單獨介入，降低直接性"
+            }
+          },
+          {
+            "nct_id": "NCT05871086",
+            "title": "The Effect of Coenzyme Q10 Supplementation on the Clinical Outcome of Juvenile Idiopathic Arthritis Patients",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2023-05-01",
+            "completion_date": "2023-12",
+            "brief_summary": "Juvenile idiopathic arthritis (JIA) is the most common chronic rheumatological disorder in childhood of unknown cause and a major cause of functional disability. Standard JIA treatment including nonsteroidal anti-inflammatory drugs (NSAIDs), corticosteroids, methotrexate, and biological agents have considerable adverse effects in addition to their high cost. Despite the success of these treatment approaches, patients may still have active disease with other sequelae from chronic inflammation and",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "探討輔酶 Q10 補充對 JIA 臨床結果的影響，Diclofenac 非主要介入藥物；狀態 UNKNOWN，資料可信度存疑；僅提供 JIA 族群背景資訊，不具直接證據價值"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37144854",
+            "title": "Juvenile idiopathic arthritis presenting as diffuse alveolar hemorrhage at onset: A case series.",
+            "authors": [
+              "Guo Siyuan",
+              "Yin Ju",
+              "Yao Yao",
+              "Chen Lanqin",
+              "Wang Hao"
+            ],
+            "journal": "Pediatric pulmonology",
+            "year": "2023",
+            "abstract": "The etiology of diffuse alveolar hemorrhage (DAH) in childhood is often unknown, and it may be an early manifestation of rheumatic disease. Juvenile idiopathic arthritis (JIA) is one of the most common rheumatic diseases in children, but DAH as an onset manifestation of JIA is rare. This study summarizes the clinical characteristics of patients with JIA presenting as DAH.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3052965",
+            "title": "A crossover study of naproxen, diclofenac and tolmetin in seronegative juvenile chronic arthritis.",
+            "authors": [
+              "Leak A M",
+              "Richter M R",
+              "Clemens L E",
+              "Hall M A",
+              "Ansell B M"
+            ],
+            "journal": "Clinical and experimental rheumatology",
+            "year": "1988",
+            "abstract": "Nonsteroidal anti-inflammatory drugs (NSAID) are useful in the management of juvenile chronic arthritis (JCA) and efficacy has usually been compared with aspirin. The disadvantages of aspirin include the frequency of dosage, monitoring of salicylate levels and concern about Reye's syndrome. We have performed a single blind crossover study comparing naproxen 10 mg/kg/day, tolmetin 25 mg/kg/day and diclofenac 2 mg/kg/day in 28 children with seronegative JCA over 12 weeks. Clinical and laboratory a",
+            "classification": {
+              "study_type": "Crossover RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6361986",
+            "title": "Treatment of juvenile rheumatoid arthritis with diclofenac sodium.",
+            "authors": [
+              "Haapasaari J",
+              "Wuolijoki E",
+              "Ylijoki H"
+            ],
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "1983",
+            "abstract": "Diclofenac sodium was investigated in the treatment of juvenile rheumatoid arthritis (JRA). The pharmacokinetics of diclofenac in children aged 2-7 was assessed. Seven patients were included in a single-dose trial to determine plasma levels and renal elimination of diclofenac sodium. Venous blood samples were taken at 0, 0.5, 1, 2, 4 and 6 hours after administration of a 25 mg enteric-coated Voltaren tablet. Urine was collected before and 0-6 and 6-12 hours after tablet ingestion. Maximum concen",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15456329",
+            "title": "Nabumetone: therapeutic use and safety profile in the management of osteoarthritis and rheumatoid arthritis.",
+            "authors": [
+              "Hedner Thomas",
+              "Samulesson Ola",
+              "Währborg Peter",
+              "Wadenvik Hans",
+              "Ung Kjell-Arne"
+            ],
+            "journal": "Drugs",
+            "year": "2004",
+            "abstract": "Nabumetone is a nonsteroidal anti-inflammatory prodrug, which exerts its pharmacological effects via the metabolite 6-methoxy-2-naphthylacetic acid (6-MNA). Nabumetone itself is non-acidic and, following absorption, it undergoes extensive first-pass metabolism to form the main circulating active metabolite (6-MNA) which is a much more potent inhibitor of preferentially cyclo-oxygenase (COX)-2. The three major metabolic pathways of nabumetone are O-demethylation, reduction of the ketone to an alc",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1884567",
+            "title": "Clinical pharmacokinetics of drugs used in juvenile arthritis.",
+            "authors": [
+              "Skeith K J",
+              "Jamali F"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1991",
+            "abstract": "Juvenile arthritis is defined as the occurrence of objective evidence of arthritis for a minimum of 6 weeks, in a child 16 years of age or younger. With a reported incidence of 9 to 19.6 per 100,000 children, juvenile arthritis is considered to be a rare disease. There is no known cure; however, up to 75% of patients will undergo remission by late adolescence. Drugs used in the treatment of juvenile arthritis are divided into 2 major classes: (a) the nonsteroidal anti-inflammatory drugs (NSAIDs)",
+            "classification": {
+              "study_type": "PK/PD Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8422565",
+            "title": "The use of non-steroidal anti-inflammatory drugs in paediatric rheumatic diseases.",
+            "authors": [
+              "Hollingworth P"
+            ],
+            "journal": "British journal of rheumatology",
+            "year": "1993",
+            "abstract": "The use of NSAIDs for arthritis differs in children from adults in their indications, uses and pharmacokinetics, and fewer are available. Children with arthritis are assessed differently, as they complain less of pain. Salicylates, indomethacin and ibuprofen are used for the fever of systemic JCA. For control of joint symptoms, diclofenac, ibuprofen, tolmetin and naproxen are equal in their efficacy and tolerance:salicylates and indomethacin are no more effective but more toxic. Children tolerat",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21175420",
+            "title": "Microencapsulation: an acclaimed novel drug-delivery system for NSAIDs in arthritis.",
+            "authors": [
+              "Manjanna K M",
+              "Shivakumar B",
+              "Pramod Kumar T M"
+            ],
+            "journal": "Critical reviews in therapeutic drug carrier systems",
+            "year": "2010",
+            "abstract": "Arthritis refers to different medical conditions associated with disorders of the primary structures that determine joint functioning, such as bones, cartilage, and synovial membranes. Drug discovery and delivery to retard the degeneration of joint tissues are challenging. Current treatment of different types of arthritis such as osteoarthritis, rheumatoid arthritis, septic arthritis, juvenile idiopathic arthritis, and ankylosing spondylitis involves the administration of nonsteroidal anti-infla",
+            "classification": {
+              "study_type": "Technical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11735667",
+            "title": "Risks and benefits of nonsteroidal anti-inflammatory drugs in children: a comparison with paracetamol.",
+            "authors": [
+              "Litalien C",
+              "Jacqz-Aigrain E"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2001",
+            "abstract": "Nonsteroidal anti-inflammatory drugs (NSAIDs) possess antipyretic, analgesic and anti-inflammatory effects. They are frequently used in children and have numerous therapeutic indications, the most common ones being fever, postoperative pain and inflammatory disorders, such as juvenile idiopathic arthritis (JIA) and Kawasaki disease. Their major mechanism of action is through inhibition of prostaglandin biosynthesis by blockade of cyclo-oxygenase (COX). The disposition of most NSAIDs has been mai",
+            "classification": {
+              "study_type": "Comparative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "387372",
+            "title": "Naproxen up to date: a review of its pharmacological properties and therapeutic efficacy and use in rheumatic diseases and pain states.",
+            "authors": [
+              "Brogden R N",
+              "Heel R C",
+              "Speight T M",
+              "Avery G S"
+            ],
+            "journal": "Drugs",
+            "year": "1979",
+            "abstract": "Naproxen is a propionic acid derivative with analgesic and anti-inflammatory activity which has been widely used in the treatment of rheumatic diseases. Naproxen has been well studied in rheumatoid arthritis and is as effective as aspirin but better tolerated, thus enabling more patients to continue with treatment. For this reason some clinicians now prefer to try propionic acid derivatives, such as naproxen, before aspirin in arthritic patients. In comparative studies with other non-steroidal a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10756785",
+            "title": "Antirheumatic effects of first-line agents in the treatment of juvenile chronic arthritis.",
+            "authors": [
+              "Ailioaie C",
+              "Lupuşoru-Ailioaie L M"
+            ],
+            "journal": "Revista medico-chirurgicala a Societatii de Medici si Naturalisti din Iasi",
+            "year": "1997",
+            "abstract": "The main goal of the present study was to investigate comparatively (in the last 8 years) the effects of nonsteroidal antiinflammatory drugs (NSAIDs) on a sample of 100 children diagnosed with juvenile chronic arthritis (JCA). The patients were divided in 3 smaller groups, as follows: group 1--prescribed diclofenac, group 2--paduden and group 3--aspirin. Clinical features and laboratory findings were evaluated after: a 2 months trial, 4 months trial, 6 months trial, 2 years trial, 3 years trial ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2235663",
+            "title": "[Clinical efficacy of sodium diclofenac in chronic juvenile polyarthritis].",
+            "authors": [
+              "Minisola G",
+              "Dardano B",
+              "Calderazzo L",
+              "Avola E"
+            ],
+            "journal": "La Pediatria medica e chirurgica : Medical and surgical pediatrics",
+            "year": "1990",
+            "abstract": "We refer the results of an open non-comparative study aimed to evaluate the clinical efficacy of Diclofenac sodium in the treatment of Polyarticular Juvenile Chronic Arthritis. We decided to use this drug to investigate if it exerts also in younger patients the anti-inflammatory and analgesic effects known in adults. We treated 26 patients (14 girls and 12 boys) aged 2-16 years; the disease duration ranged between 3 months and 14 years. Treatment was started only if previous anti-inflammatory dr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3174483",
+            "title": "[Long-term remission induced by measles infection and followed by immunosuppressive therapy in a case of refractory juvenile rheumatoid arthritis].",
+            "authors": [
+              "Lepore L",
+              "Agosti E",
+              "Pennesi M",
+              "Barbi E",
+              "De Manzini A"
+            ],
+            "journal": "La Pediatria medica e chirurgica : Medical and surgical pediatrics",
+            "year": "1988",
+            "abstract": "A case of severe juvenile rheumatoid arthritis, polyarticular type, refractory to FANS and long acting therapy which showed a quick remission after measles is described. An immunosuppressive therapy to strengthen the immunosuppression induced by virus infection was performed for six months. The remission has been maintained for 4 years and appears up to now to be stable with no therapy. On the basis of this observation, the possibility of a vaccination therapy with measles virus, which equally g",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6753142",
+            "title": "[The introduction of non-steroidal antirheumatics: is there a rational therapy].",
+            "authors": [
+              "Schlumpf U"
+            ],
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1982",
+            "abstract": "The pharmacologic properties, clinical efficacy and tolerability of the newer non-steroidal anti-rheumatic drugs are compared. Guidelines for a prescribing policy are given in which a safety-first approach is adopted. Propionic acid derivatives or newer drugs with similar properties are proposed as initial therapy to control symptoms of rheumatoid arthritis or osteoarthrosis. Special problems such as compliance in chronic disease, treatment of ulcer patients with anti-rheumatic drugs, therapy in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17474954",
+            "title": "Use of nonsteroidal anti-inflammatory drugs in infants. A survey of members of the Association of Paediatric Anaesthetists of Great Britain and Ireland.",
+            "authors": [
+              "Eustace Nicholas",
+              "O'Hare Brendan"
+            ],
+            "journal": "Paediatric anaesthesia",
+            "year": "2007",
+            "abstract": "Nonsteroidal anti-inflammatory drugs (NSAIDs) are commonly used as perioperative analgesics. Many are currently used off label. Diclofenac is currently licensed for use in children over 1 year of age for the treatment of juvenile rheumatoid arthritis, while ibuprofen is licensed for use in children weighing over 7 kg. The dose and interval in children is currently extrapolated from adult studies, as the pharmacokinetic (PK) and pharmacodynamic (PD) data are lacking in infants.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4057203",
+            "title": "Adult onset Still's disease in the elderly: a report of two cases.",
+            "authors": [
+              "Wouters J M",
+              "van Rijswijk M H",
+              "van de Putte L B"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1985",
+            "abstract": "Two patients with the first symptoms of adult onset Still's disease in their 7th decade are reported. In both cases their advanced age was a main reason for a prolonged delay in diagnosis. Besides the characteristic fever pattern, rash and arthritis, our patients showed other typical features of Still's disease such as splenomegaly, pleuritis, pneumonitis, carpal ankylosis and leukocytosis. In addition both showed marked hepatic abnormalities which seemed to be due to the disease itself in one c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6865883",
+            "title": "[Gold salts in the therapy of juvenile rheumatoid arthritis].",
+            "authors": [
+              "Saggese G",
+              "Biver P",
+              "Terrosi F",
+              "Bottone E"
+            ],
+            "journal": "Minerva pediatrica",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "723822",
+            "title": "[Sodium diclofenac in the treatment of infantile rheumatoid arthritis].",
+            "authors": [
+              "Chiappo G F",
+              "Mignone F",
+              "Oggero R",
+              "Licata D",
+              "Bo C"
+            ],
+            "journal": "Minerva pediatrica",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6761640",
+            "title": "[Voltaren in the treatment of children with rheumatoid arthritis].",
+            "authors": [
+              "Krasnova K N",
+              "Chenchikova E P"
+            ],
+            "journal": "Pediatriia",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Diclofenac 抑制 COX-1/COX-2 → 前列腺素（PGE2）合成下降 → 減少滑膜炎症介質釋放 → 緩解關節腫痛。JIA 病理核心為持續性滑膜炎，NSAID 抗炎機轉與適應症直接相符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "WHIM syndrome",
+      "txgnn": {
+        "score": 0.9915558099746704,
+        "rank": 9364
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "WHIM 症候群（疣-低丙球蛋白血症-感染-Myelokathexis）為 CXCR4 gain-of-function 突變，導致嗜中性球骨髓滯留與免疫缺陷。COX 抑制與 CXCR4 信號通路無直接關聯，機轉連結極度薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "WHIM syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "WHIM syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diclofenac",
+        "disease": "WHIM syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

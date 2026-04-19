@@ -1,0 +1,735 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB14538-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydrocortisone aceponate",
+    "drugbank_id": "DB14538",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "gout",
+      "txgnn": {
+        "score": 0.9758043885231018,
+        "rank": 18965
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮質類固醇作為藥物類別（口服/注射 prednisolone、triamcinolone 關節內注射）已有 RCT 支持用於急性痛風發作，類別效應明確（L1 級）。然而 Hydrocortisone aceponate 為**皮膚外用製劑**，無法系統性到達關節腔，給藥途徑根本不符。高 TxGNN 分數反映的是皮質類固醇類別節點在知識圖譜中與痛風的關聯，而非此特定製劑的可行性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "allergic asthma",
+      "txgnn": {
+        "score": 0.9718350172042848,
+        "rank": 20578
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11817968",
+            "title": "New and established topical corticosteroids in dermatology: clinical pharmacology and therapeutic use.",
+            "authors": [
+              "Brazzini Benedetta",
+              "Pimpinelli Nicola"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2002",
+            "abstract": "Currently, topical glucocorticosteroids are the most frequently used drugs in dermatologic practice. Over the years, research has focused on strategies to optimize potency and, in particular, the anti-inflammatory and immunosuppressive capacity of these drugs, while minimizing adverse effects. However, 'ideal' topical corticosteroids have not yet been synthesized. They should be able to permeate the stratum corneum and reach adequate concentrations in the skin without reaching high serum concent",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "吸入型皮質類固醇（ICS，如 budesonide、fluticasone）為過敏性氣喘第一線治療，機轉為直接作用於支氣管上皮 GR 受體。Hydrocortisone aceponate 為**外用皮膚製劑**，給藥途徑與肺部靶組織完全不符，且無吸入製劑。唯一關聯文獻（PMID 11817968）為皮膚科外用皮質類固醇綜述，與過敏性氣喘**毫無關聯**，不應計入證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "exostosis",
+      "txgnn": {
+        "score": 0.9706004858016968,
+        "rank": 21031
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外骨疣（骨性增生）為良性骨腫瘤，與皮質類固醇抗炎機轉無直接治療關聯。值得注意的是，**長期皮質類固醇使用反而可能誘發骨質疏鬆**，治療方向邏輯上相悖。TxGNN 高分可能反映知識圖譜中骨骼疾病節點與皮質類固醇的非特異性連結，屬偽陽性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "intrinsic asthma",
+      "txgnn": {
+        "score": 0.9690915942192078,
+        "rank": 21596
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "內因性（非過敏性）氣喘同樣以吸入型皮質類固醇為核心治療。與過敏性氣喘分析相同，Hydrocortisone aceponate 外用製劑無法到達氣道靶組織，給藥途徑根本不符，且無任何支持文獻或臨床試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "iris disease",
+      "txgnn": {
+        "score": 0.9662204384803772,
+        "rank": 22486
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼科皮質類固醇（如 prednisolone acetate 眼藥水、dexamethasone）用於虹膜炎/葡萄膜炎具有成熟臨床證據（L2-L3 級類別效應）。皮質類固醇抑制眼內炎症的機轉合理。然而 Hydrocortisone aceponate **為皮膚外用製劑，不具眼科配方**，且皮膚科外用藥直接接觸眼部具有安全疑慮（角膜損傷風險）。需眼科專用配方研發才可評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Crohn's colitis",
+      "txgnn": {
+        "score": 0.9624375700950624,
+        "rank": 23622
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮質類固醇類別（口服 prednisolone、budesonide 腸釋劑、hydrocortisone 灌腸劑）在克隆氏腸炎有 RCT 支持，類別效應為 L1 級。Hydrocortisone 灌腸劑已用於潰瘍性結腸炎，提供間接關聯。然而 Hydrocortisone aceponate 為皮膚外用製劑，尚無腸道適用配方，口服生體利用率低，腸道靶向性未被確立，無直接臨床前或臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "primary cutaneous T-cell lymphoma",
+      "txgnn": {
+        "score": 0.961247742176056,
+        "rank": 23959
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性皮膚 T 細胞淋巴瘤（CTCL），尤其是早期蕈狀肉芽腫（Mycosis Fungoides, MF Stage IA-IIA），皮膚導向治療（skin-directed therapy）為第一線選擇。**外用強效皮質類固醇已被 NCCN 指引列為早期 MF 的治療選項之一**，機轉包含：(1) 誘導腫瘤性 T 細胞凋亡、(2) 抑制 Th2/Th17 促腫瘤微環境、(3) 減少皮膚炎症浸潤。Hydrocortisone aceponate 作為中高效價外用皮質類固醇，**給藥途徑（皮膚外用）與適應症完全匹配**，為本分析中機轉最合理的候選適應症。目前類別藥物（clobetasol propionate、betamethasone）的回顧性研究支持外用皮質類固醇在早期 MF 中可達完全緩解率（CR）約 63-65%（T1 期），但針對 HCA 特定的 RCT 尚無。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "seborrheic dermatitis",
+      "txgnn": {
+        "score": 0.9569335579872132,
+        "rank": 24988
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脂漏性皮膚炎的治療指引（AAD、EDF）中，**外用皮質類固醇為短期控制炎症的標準選項**，推薦用於急性期皮膚發炎（特別是頭皮、顏面、軀幹）。機轉：抑制皮脂腺周圍炎症浸潤及 IL-1β、TNF-α 等促炎細胞因子。Hydrocortisone aceponate 給藥途徑（皮膚外用）與適應症完全匹配，同類藥物（hydrocortisone 17-butyrate、mometasone）有臨床使用記錄。HCA 因其皮膚選擇性高（前驅藥機轉降低全身副作用），理論上適合顏面等薄皮膚部位的脂漏性皮膚炎，但需確認 HCA 特定效價是否適合面部長期使用（萎縮風險）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "benign neoplasm of iris",
+      "txgnn": {
+        "score": 0.9553222060203552,
+        "rank": 25385
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "虹膜良性腫瘤（如虹膜痣、囊腫）與皮質類固醇抗炎機轉無明確治療關聯；良性腫瘤通常採觀察等待或手術切除。外用皮膚製劑無法有效到達眼內靶組織，且皮質類固醇反而是**已知的眼壓升高（開角型青光眼）和白內障風險藥物**，用於眼部腫瘤的安全性疑慮大。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "iris cancer",
+      "txgnn": {
+        "score": 0.9543644785881042,
+        "rank": 25634
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "虹膜癌（葡萄膜黑色素瘤等）無皮質類固醇治療的既有證據；**皮質類固醇的免疫抑制作用在腫瘤學中可能有害**（抑制抗腫瘤免疫反應）。外用皮膚製劑無法穿透至眼內腫瘤靶組織。TxGNN 預測可能反映知識圖譜中「iris disease」節點簇的非特異性擴散，屬低可信度預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "allergic asthma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "allergic asthma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "allergic asthma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "exostosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "exostosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "exostosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "intrinsic asthma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "intrinsic asthma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "intrinsic asthma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "Crohn's colitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "Crohn's colitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "Crohn's colitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "primary cutaneous T-cell lymphoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "benign neoplasm of iris"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "benign neoplasm of iris"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "benign neoplasm of iris"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydrocortisone aceponate",
+        "disease": "iris cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+# Labetalol (DB00598) 藥物再利用證據分析
+
+**分析摘要**：Labetalol 為 α1 + β 雙重腎上腺素受體阻斷劑，具強效降壓與心率調控機制，但在 Singapore（未上市）。以下針對 10 個預測適應症進行系統性評估。
+
+---
+
+```json
+{
+  "drug": "Labetalol",
+  "drugbank_id": "DB00598",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "市場狀態：新加坡未上市。MOA：α1/β 雙重腎上腺素受體阻斷劑，降低外周血管阻力、心輸出量與眼壓。注意：beta-blocker 於部分肺部疾病有潛在禁忌。",
+  "indications": [
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Labetalol 透過 α1+β 阻斷降低外周血管阻力與心輸出量，對惡性高血壓具直接降壓機轉；腎血管性高血壓常伴有 RAAS 過度活化，β-blockade 可抑制腎素釋放，具雙重機轉潛力。惟腎功能不全時 labetalol 清除率可能受影響，需謹慎劑量調整。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7242419",
+          "title": "Hallucinogenic drug induced vasculitis",
+          "year": "1981",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "間接相關：描述藥物誘發性血管炎，提及高血壓背景，未直接評估 labetalol 於惡性腎血管性高血壓之療效"
+        },
+        {
+          "pmid": "15113447",
+          "title": "Hyponatremic hypertensive syndrome in an 18-month old child presenting as malignant hypertension",
+          "year": "2004",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "部分相關：描述兒童惡性高血壓病例（含腎血管性成因），可能涉及 labetalol 使用，但未作為主要治療評估"
+        }
+      ],
+      "safety_flags": ["腎功能不全患者需調整劑量", "監測腎灌流壓下降風險"],
+      "evidence_gaps": ["缺乏直接 RCT 或前瞻性研究", "現有 2 篇文獻均非主題性研究", "無 NCT 登記試驗"]
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "α1+β 阻斷劑理論上可降低惡性高血壓對腎臟的血流動力學損傷，但惡性高血壓性腎病需快速且精準的血壓控制，labetalol IV 型態雖用於高血壓急症，但特定針對此亞型的腎臟保護證據完全缺失。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": ["腎功能惡化時 labetalol 代謝物蓄積風險", "過度降壓可能加速腎損傷"],
+      "evidence_gaps": ["零文獻、零臨床試驗", "僅憑 TxGNN 知識圖譜預測", "需先確立基礎臨床紀錄"]
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【安全警示】Beta-blocker 在低氧性肺動脈高壓中存在潛在危害：β2 阻斷可誘發支氣管痙攣、加重肺血管阻力；α1 阻斷雖有輕度肺血管擴張效果，但整體對右心室後負荷的影響難以預測。現有 20 篇文獻均為一般性缺氧生物學研究，與 labetalol 治療此適應症無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "無關：缺氧對腦老化影響之綜述，與 labetalol 治療肺高壓無連結"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "無關：探討缺氧作為治療手段，非藥物評估"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia in immunological niches",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "無關：缺氧免疫調控基礎研究"
+        },
+        {
+          "pmid": "34535359",
+          "title": "Therapeutic Modification of Hypoxia",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "無關：缺氧治療調控的廣泛性綜述，未提及 labetalol"
+        }
+      ],
+      "safety_flags": [
+        "【重大安全疑慮】Beta-blocker 可能加重低氧性肺動脈高壓",
+        "支氣管痙攣風險（尤其在 COPD/慢性肺病背景下）",
+        "右心室衰竭惡化風險"
+      ],
+      "evidence_gaps": ["所有文獻均為缺氧生物學，非 labetalol 療效研究", "無任何臨床試驗登記", "存在機轉性安全疑慮"]
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9908,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【安全警示】多因性肺動脈高壓病因異質，beta-blocker 在大多數 PAH 亞型中被視為相對禁忌（尤其 Group 1 PAH）；α1 阻斷的輕度肺血管擴張不足以抵消 β-阻斷對心臟輸出與肺循環的負面影響。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [
+        "Beta-blocker 在特發性 PAH 中為相對禁忌",
+        "可能掩蓋右心衰竭代償症狀"
+      ],
+      "evidence_gaps": ["零證據", "TxGNN 圖譜評分高可能源於高血壓疾病節點相似性，非直接治療關聯"]
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9880,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群為 FOXF2 基因突變所致罕見先天性發育障礙（特徵：腦-肺-腸道異常），與 labetalol 之 α1/β 腎上腺素阻斷機轉無明確藥理連結。TxGNN 高分可能為圖譜拓撲相似性假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": ["機轉關聯性極低", "罕見病，臨床試驗設計困難度極高"],
+      "evidence_gaps": ["零證據", "無合理藥理機轉假說", "需排除圖譜假陽性"]
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.9492,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "慢性肺心病（Cor Pulmonale）常繼發於慢性肺病，以右心室肥大/衰竭為特徵。Labetalol 的 α1 阻斷可降低系統性血管阻力，理論上減輕右心後負荷；然而 β-阻斷可能惡化支氣管痙攣並抑制代償性心輸出量。現有 3 個 Phase 4 試驗均為妊娠高血壓或兒童 PK 研究，並非直接針對慢性肺心病。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02531490",
+          "title": "Personalized Hemodynamically Guided Antihypertensive Treatment in Pregnant Women",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 368,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 高品質血流動力學引導降壓試驗，雖針對妊娠高血壓而非肺心病，但 labetalol 作為試驗用藥的血流動力學資料可提供間接安全性資訊；狀態 UNKNOWN 降低可用性"
+        },
+        {
+          "nct_id": "NCT01431326",
+          "title": "Pharmacokinetics of Understudied Drugs Administered to Children Per Standard of Care",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 3520,
+          "relevance_grade": "C",
+          "reasoning": "兒童 PK 觀察性研究，提供藥物動力學資料但無療效終點，與慢性肺心病適應症相關性低"
+        },
+        {
+          "nct_id": "NCT02299414",
+          "title": "A Pragmatic Multicenter RCT of Antihypertensive Therapy for Mild Chronic Hypertension",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 2408,
+          "relevance_grade": "B",
+          "reasoning": "大型 Phase 4 RCT（n=2408，COMPLETED），評估妊娠期輕度慢性高血壓之抗高血壓治療；labetalol 為對照組主要用藥之一，提供長期安全性與有效性間接證據，但研究人群與慢性肺心病不同"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "9673832",
+          "title": "Clinical pharmacokinetics of vasodilators. Part II",
+          "year": "1998",
+          "study_type": "Review/PK",
+          "tier": 2,
+          "relevance_to_indication": "提供 labetalol 詳細 PK 資料（分布、代謝、消除），對劑量設計有參考價值，但非療效研究"
+        },
+        {
+          "pmid": "32951311",
+          "title": "Epidemiology of hypertensive crisis in the Buea Regional Hospital, Cameroon",
+          "year": "2020",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance_to_indication": "描述高血壓危象流行病學，含慢性心肺疾病背景患者，間接支持 labetalol 在此類族群中的使用模式"
+        },
+        {
+          "pmid": "31205435",
+          "title": "Blood Loss and Visibility with Esmolol vs Labetalol in Endoscopic Sinus Surgery: A Randomized Clinical Trial",
+          "year": "2019",
+          "study_type": "RCT",
+          "tier": 2,
+          "relevance_to_indication": "低相關：術中控制性低血壓 RCT，比較 esmolol vs labetalol，適應症與慢性肺心病無直接關聯，但提供 labetalol 與 beta-selectivity 的比較資料"
+        }
+      ],
+      "safety_flags": [
+        "慢性肺病背景下 beta-blockade 支氣管痙攣風險",
+        "右心衰竭可能因負性肌力效應惡化",
+        "若使用需優先選擇心選擇性 β1-blocker（如 metoprolol）"
+      ],
+      "evidence_gaps": ["無直接針對慢性肺心病的 labetalol 試驗", "安全性疑慮需先於療效研究評估", "需與心選擇性 beta-blocker 頭對頭比較"]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.7360,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Beta-blocker 類藥物（如 timolol）為青光眼標準治療，透過抑制睫狀體 β 受體降低房水生成；labetalol 具相同 β-阻斷機轉，理論上可降低眼壓。然而原發性遺傳性青光眼（如 MYOC/CYP1B1 突變）通常對傳統房水生成抑制劑反應不佳，且 α1 阻斷成分的眼部效應尚不明確。無任何直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": ["α1 阻斷對眼部血流的影響不確定"],
+      "evidence_gaps": ["零臨床證據", "遺傳型青光眼機轉與一般 IOP 降低治療不同", "需先有開角型青光眼的直接 labetalol 數據"]
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.6354,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Labetalol 的 β 受體阻斷成分可抑制睫狀體房水分泌（β2 阻斷），降低眼內壓；α1 阻斷則可能影響眼部血管張力。1981 年兔與人類眼部試驗（PMID 6914126）顯示 labetalol 具眼壓降低效果，但後續 40 年未見進一步臨床開發，推測因眼部專用 beta-blocker（timolol 滴眼液）已成標準而失去開發誘因。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31862675",
+          "title": "Development and validation of a bio-analytical method for simultaneous quantification of nebivolol and labetalol",
+          "year": "2020",
+          "study_type": "Analytical Method",
+          "tier": 3,
+          "relevance_to_indication": "低相關：建立 nebivolol 與 labetalol 同步定量分析方法，無臨床療效資訊"
+        },
+        {
+          "pmid": "6914126",
+          "title": "Ocular hypotensive action of labetalol in rabbit and human eyes",
+          "year": "1981",
+          "study_type": "Early Phase Human Study (Translational)",
+          "tier": 2,
+          "relevance_to_indication": "【核心文獻】直接評估 labetalol 眼壓降低作用於兔模型及人類眼部，為唯一直接支持此適應症的臨床前/早期人類證據；1981 年數據，需現代化重新評估"
+        }
+      ],
+      "safety_flags": ["全身性 beta-blockade 可能掩蓋低血糖症狀", "支氣管痙攣風險（若用眼部製劑全身吸收）"],
+      "evidence_gaps": ["1981 年後無後續研究", "無正式 Phase 1/2 試驗", "需現代化眼部製劑開發（滴眼液）與全身性 labetalol 之比較"]
+    },
+    {
+      "disease_name": "atrial flutter (disease)",
+      "txgnn_score": 0.5973,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Beta-blocker 類藥物為心房撲動心率控制的標準治療之一（ESC/ACC 指引），透過抑制 AV 結傳導降低心室率。Labetalol 的 β 阻斷效果可達心率控制目的；α1 阻斷在抗心律不整情境中的角色較不確定，但不影響 AV 結阻斷效果。現有文獻為 1984 年綜述，描述 beta-blocker 類在心律不整的廣泛應用，未具體評估 labetalol。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6145367",
+          "title": "Beta-blocking drugs for arrhythmias, hypertension, and ischemic heart disease",
+          "year": "1984",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "間接相關：1984 年 beta-blocker 類藥物在心律不整、高血壓與缺血性心臟病的廣泛綜述，提供 labetalol 作為 beta-blocker 在此類適應症的類別效應支持，但並非 labetalol 特異性試驗"
+        }
+      ],
+      "safety_flags": ["不應用於預激症候群（WPW）伴心房撲動", "低血壓風險（α1+β 雙重阻斷）", "需排除急性失代償心衰竭"],
+      "evidence_gaps": ["無 labetalol 特異性心房撲動試驗", "心選擇性 beta-blocker（metoprolol）已有充分證據，labetalol 的額外價值不明確", "α1 阻斷成分在心律不整情境的影響需釐清"]
+    },
+    {
+      "disease_name": "ocular tuberculosis",
+      "txgnn_score": 0.5947,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼部結核由 Mycobacterium tuberculosis 感染所致，需抗結核藥物治療（isoniazid、rifampicin 等）。Labetalol 無任何已知抗分枝桿菌活性，亦無免疫調節機轉可解釋其對眼部結核的可能療效。TxGNN 評分可能源於眼部疾病節點的圖譜相似性（與青光眼節點相鄰），為假陽性預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": ["無藥理機轉支持"],
+      "evidence_gaps": ["零證據", "無合理機轉假說", "強烈建議視為圖譜假陽性排除"]
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "by_evidence_level": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 3,
+      "L5": 6
+    },
+    "by_decision_stage": {
+      "S0": 6,
+      "S1": 4,
+      "S2": 0,
+      "S3": 0
+    },
+    "by_recommendation": {
+      "Hold": 6,
+      "Research Question": 4,
+      "Proceed with Guardrails": 0
+    },
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease_name": "open-angle glaucoma",
+        "rationale": "唯一有 labetalol 直接眼壓降低人體試驗（1981），機轉明確，開發缺口清晰（眼部製劑）"
+      },
+      {
+        "rank": 2,
+        "disease_name": "malignant renovascular hypertension",
+        "rationale": "機轉最強（α1+β 阻斷直接針對 RAAS 過度活化），已有高血壓急症臨床使用先例"
+      },
+      {
+        "rank": 3,
+        "disease_name": "atrial flutter",
+        "rationale": "Beta-blocker 類效應明確，labetalol 特異性數據缺乏但可作為研究切入點"
+      }
+    ],
+    "safety_exclusions": [
+      {
+        "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "reason": "Beta-blocker 於低氧性肺高壓有加重支氣管痙攣與右心負荷的安全疑慮"
+      },
+      {
+        "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+        "reason": "Beta-blocker 在大多數 PAH 亞型中為相對禁忌"
+      },
+      {
+        "disease_name": "ocular tuberculosis",
+        "reason": "無藥理機轉，視為圖譜假陽性"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣總結
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策 | 建議 | 關鍵備注 |
+|--------|-----------|---------|------|------|---------|
+| 惡性腎血管性高血壓 | 0.9908 | **L4** | S1 | Research Question | 機轉強，但文獻為個案報告 |
+| 惡性高血壓性腎病 | 0.9908 | **L5** | S0 | Hold | 零證據 |
+| 低氧性肺動脈高壓 | 0.9908 | **L5** | S0 | ⚠️ **Hold** | **安全疑慮：可能有害** |
+| 多因性肺動脈高壓 | 0.9908 | **L5** | S0 | ⚠️ **Hold** | **Beta-blocker 相對禁忌** |
+| Braddock 症候群 | 0.9880 | **L5** | S0 | Hold | 機轉無關 |
+| 慢性肺心病 | 0.9492 | **L3** | S1 | Research Question | 3 個 Phase 4 試驗（間接） |
+| 原發性遺傳性青光眼 | 0.7360 | **L5** | S0 | Hold | 遺傳型機轉特殊 |
+| **開角型青光眼** | 0.6354 | **L4** | S1 | **Research Question** ⭐ | 1981 直接人體試驗 |
+| 心房撲動 | 0.5973 | **L4** | S1 | Research Question | 類別效應支持 |
+| 眼部結核 | 0.5947 | **L5** | S0 | Hold | 圖譜假陽性 |
+
+> ⚠️ **重要警示**：低氧性/多因性肺動脈高壓建議主動排除，因 beta-blocker 在此類適應症可能有害，不應作為再利用研究候選。

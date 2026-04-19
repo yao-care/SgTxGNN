@@ -1,0 +1,2167 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00758-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clopidogrel",
+    "drugbank_id": "DB00758",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9944366216659546,
+        "rank": 6971
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39989443",
+            "title": "Do antithrombotic drugs have a role in migraine prevention? A systematic review.",
+            "authors": [
+              "De Santis Federico",
+              "Foschi Matteo",
+              "Romoli Michele",
+              "Mastrangelo Vincenzo",
+              "Rosignoli Chiara"
+            ],
+            "journal": "Headache",
+            "year": "2025",
+            "abstract": "To explore the available evidence on the role of antithrombotics as migraine preventive medication.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16103551",
+            "title": "Clopidogrel reduces migraine with aura after transcatheter closure of persistent foramen ovale and atrial septal defects.",
+            "authors": [
+              "Wilmshurst P T",
+              "Nightingale S",
+              "Walsh K P",
+              "Morrison W L"
+            ],
+            "journal": "Heart (British Cardiac Society)",
+            "year": "2005",
+            "abstract": "To report the clinical events leading to alteration of an anticoagulation regimen for patients undergoing transcatheter closure of an atrial shunt and how this affected migraine symptoms after the closure procedure.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32848048",
+            "title": "Clopidogrel can be an effective complementary prophylactic for drug-refractory migraine with patent foramen ovale.",
+            "authors": [
+              "Guo Yichen",
+              "Shi Yujie",
+              "Zhu Dan",
+              "Liu Rui",
+              "Qi Yi"
+            ],
+            "journal": "Journal of investigative medicine : the official publication of the American Federation for Clinical Research",
+            "year": "2020",
+            "abstract": "The present study aims to determine the potential prophylactic effect of clopidogrel for migraine with patent foramen ovale (PFO) in patients who are poor responders to two or more common preventive medications. Migraineurs underwent contrast-enhanced transcranial doppler examination to confirm the presence of PFO and determine the right-to-left shunt degree. Clopidogrel 75 mg/day was added to the existing prophylactic regimen for 3 months and 6 months. The presence of PFO was found in 56.8% (15",
+            "classification": {
+              "study_type": "Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26908949",
+            "title": "Percutaneous closure of patent foramen ovale in migraine with aura, a randomized controlled trial.",
+            "authors": [
+              "Mattle Heinrich P",
+              "Evers Stefan",
+              "Hildick-Smith David",
+              "Becker Werner J",
+              "Baumgartner Helmut"
+            ],
+            "journal": "European heart journal",
+            "year": "2016",
+            "abstract": "Migraine with aura and patent foramen ovale (PFO) are associated. The Percutaneous Closure of PFO in Migraine with Aura (PRIMA) trial is a multicentre, randomized trial to investigate the effect of percutaneous PFO closure in patients refractory to medical treatment.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30478067",
+            "title": "Ticagrelor for Refractory Migraine/Patent Foramen Ovale (TRACTOR): An open-label pilot study.",
+            "authors": [
+              "Reisman Adam M",
+              "Robbins Barbara T",
+              "Chou Denise E",
+              "Yugrakh Marianna Shnayderman",
+              "Gross Giti J"
+            ],
+            "journal": "Neurology",
+            "year": "2018",
+            "abstract": "After finding that the thienopyridines clopidogrel and prasugrel reduced migraine headache (MHA) symptoms in some patients with patent foramen ovale (PFO), this small pilot study was undertaken to determine whether ticagrelor, a nonthienopyridine P2Y12 inhibitor, would have similar MHA effects and might be better suited for a future randomized trial.",
+            "classification": {
+              "study_type": "Open-label Pilot",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33815258",
+            "title": "Case Report: Migraine-Like Headache With Visual Aura Initiated by Endovascular Coiling Treatment for a Posterior Cerebral Artery Aneurysm.",
+            "authors": [
+              "Chen Xin",
+              "Zhang Juan",
+              "Li Han-Li",
+              "Deng Zi-Ru",
+              "Wang Long"
+            ],
+            "journal": "Frontiers in neurology",
+            "year": "2021",
+            "abstract": "Cervical, anterior, and middle cerebral artery aneurysm is a causative factor for migraine, and endovascular treatment usually improves migraine headache. Posterior cerebral artery (PCA) aneurysm is a rare condition, and its association with migraine is very rarely reported. In addition, endovascular coiling treatment causing migraine-like headache has never been reported. Here, we describe a newly developed migraine-like headache with visual aura after endovascular coiling treatment for PCA ane",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36588875",
+            "title": "Can aura migraine be elicited by isolated pulmonary arteriovenous fistula?-A case report.",
+            "authors": [
+              "Onorato Eustaquio Maria",
+              "Salvia Josephal",
+              "Becchina Mariano",
+              "Cipolla Tommaso",
+              "Anzola Gian Paolo"
+            ],
+            "journal": "Frontiers in neurology",
+            "year": "2022",
+            "abstract": "A pulmonary arteriovenous fistula (PAVM) is an abnormal blood vessel that creates a direct connection between a pulmonary artery and its tributary vein bypassing capillary filter, establishing as a consequence of a low-resistance right-to-left shunting (RLS). The vast majority of PAVMs are congenital appearing more often in females than in males. A great number of patients with PAVMs is suffering concurrently from hereditary hemorrhagic telangiectasia (HHT) whose incidence is around 1 in 5,000. ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24836213",
+            "title": "Clopidogrel as prophylactic treatment for migraine: a pilot randomised, controlled study.",
+            "authors": [
+              "Chambers John B",
+              "Seed Paul T",
+              "Ridsdale Leone"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "Anecdotal reports suggest that clopidogrel may prevent migraine attacks. We undertook a pilot randomised trial.",
+            "classification": {
+              "study_type": "Pilot RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30478066",
+            "title": "Retrospective review of thienopyridine therapy in migraineurs with patent foramen ovale.",
+            "authors": [
+              "Sommer Robert J",
+              "Nazif Tamim",
+              "Privitera Lauren",
+              "Robbins Barbara T"
+            ],
+            "journal": "Neurology",
+            "year": "2018",
+            "abstract": "We retrospectively reviewed our clinical experience using off-label thienopyridine agents in patients with migraine headache (MHA) and patent foramen ovale (PFO).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24770421",
+            "title": "A retrospective review of clopidogrel as primary therapy for migraineurs with right to left shunt lesions.",
+            "authors": [
+              "Spencer Barbara T",
+              "Qureshi Yasir",
+              "Sommer Robert J"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "The association of patient foramen ovale (PFO) and migraine headache (migraine) with aura (MA) is well established. Current research suggests a mechanistic link between platelet activation, paradoxical embolization and migraine in some patients.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17689408",
+            "title": "Fibromuscular dysplasia with carotid artery dissection presenting as an isolated hemianopsia.",
+            "authors": [
+              "Poppe Alexandre Y",
+              "Minuk Jeffrey",
+              "Glikstein Raphael",
+              "Leventhal Mark"
+            ],
+            "journal": "Journal of stroke and cerebrovascular diseases : the official journal of National Stroke Association",
+            "year": "2007",
+            "abstract": "Internal carotid artery (ICA) dissection is a well-known cause of anterior circulation stroke, but its association with posterior circulation stroke has been less commonly reported. The latter situation can arise when there is persistent fetal circulation of the posterior cerebral artery and has, to our knowledge, never been reported in the setting of fibromuscular dysplasia (FMD) involving the ICA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22992406",
+            "title": "Atrial septal defect closure and de novo migraine: Exclusive ticlopidine efficacy.",
+            "authors": [
+              "Benemei Silvia",
+              "Rossi Eleonora",
+              "Marcucci Rossella",
+              "Giusti Betti",
+              "Geppetti Pierangelo"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2012",
+            "abstract": "De novo onset or aggravation of migraine has been observed after atrial septal defect closure (ASDC), whereas antiplatelet drugs, such as clopidogrel, used to prevent post-ASDC thromboembolic events, have been associated with migraine amelioration.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31375081",
+            "title": "Sudden onset of sleep caused by hypothalamic infarction: a case report.",
+            "authors": [
+              "Matsubara Takeo",
+              "Suzuki Keisuke",
+              "Kawasaki Akiko",
+              "Miyamoto Masayuki",
+              "Okamura Madoka"
+            ],
+            "journal": "BMC neurology",
+            "year": "2019",
+            "abstract": "Hypothalamic lesions, such as tumors and demyelinating diseases, reportedly cause abnormal sleepiness. However, stroke involving the hypothalamus has rarely been described. Here, we report a patient with infarction restricted to the hypothalamus who presented with sudden onset of sleep.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15966922",
+            "title": "Intense migraines secondary to percutaneous closure of atrial septal defects.",
+            "authors": [
+              "Sharifi Mohsen",
+              "Dehghani Majid",
+              "Mehdipour Mahshid",
+              "Al-Bustami Omar",
+              "Emrani Farnaz"
+            ],
+            "journal": "Journal of interventional cardiology",
+            "year": "2005",
+            "abstract": "In this study we evaluated the development of migraine after percutaneous closure of atrial septal defect. An abrupt and excruciating form of migraine developed shortly after shunt closure in 5 of 13 consecutive patients undergoing this procedure. A dramatic relief of pain was achieved almost instantaneously after administration of 300 mg of clopidogrel.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17459082",
+            "title": "Migraine symptoms related to the percutaneous closure of an ostium secundum atrial septal defect: report of four paediatric cases and review of the literature.",
+            "authors": [
+              "Fernández-Mayoralas D M",
+              "Fernández-Jaén A",
+              "Muñoz-Jareño N",
+              "Gutiérrez-Larraya F",
+              "Calleja-Pérez B"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2007",
+            "abstract": "Several publications have recently suggested that atrial septal defect may be associated with the physiopathology of headache with migraine-type characteristics. We describe four previously asymptomatic paediatric patients with atrial septal defect who underwent percutaneous Amplatzer septal occluder device implantation and who subsequently developed symptoms compatible with migraine headache. The cases had normal echocardiograms after the intervention and a benign course with headache improveme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17633574",
+            "title": "Efficacy of ticlopidine for preventing migraine after transcatheter closure of atrial septal defect with Amplatzer septal occluder: a case report.",
+            "authors": [
+              "Tomita Hideshi",
+              "Hatakeyama Kinya",
+              "Soda Wataru",
+              "Kobayashi Toshiki"
+            ],
+            "journal": "Journal of cardiology",
+            "year": "2007",
+            "abstract": "Transcatheter closure of an atrial septal defect using the Amplatzer septal occluder is a current treatment option in Japan, but is occasionally associated with transient exacerbation or new onset migraine. Clopidogrel is effective in such a situation, but the efficacy of ticlopidine, an analog of clopidogrel, on migraine remains unclear. A 15-year-old girl presented with typical migraine attacks with aura 11 days after transcatheter closure of an atrial septal defect with an Amplatzer septal oc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹先兆型偏頭痛（原稱基底型偏頭痛）與後循環微栓子、PFO 相關性高於一般偏頭痛。Clopidogrel 抑制血小板栓子形成，可減少後循環微栓子負荷，阻斷腦幹先兆觸發機制。文獻（PMID 16103551, 30478066, 24770421）均集中於 PFO/RLS 合併有先兆偏頭痛之亞群，與腦幹先兆型偏頭痛病理生理學高度吻合。然而目前無針對「migraine with brainstem aura」之專屬臨床試驗，多數研究以「migraine with aura + PFO」為納入標準。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9943640232086182,
+        "rank": 7045
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04100135",
+            "title": "GORE® CARDIOFORM Septal Occluder Migraine Clinical Study: A Study to Evaluate the Safety and Efficacy of Transcatheter Closure of Patent Foramen Ovale for Relief of Migraine Headaches",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2021-02-05",
+            "completion_date": "2024-08-15",
+            "brief_summary": "Multi-center, prospective, randomized, placebo- and sham-controlled study to evaluate the GORE® CARDIOFORM Septal Occluder for migraine headache relief",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已提前終止，僅 7 名受試者，為裝置研究而非藥物研究。Clopidogrel 僅為伴隨用藥，相關性極低。"
+            }
+          },
+          {
+            "nct_id": "NCT00562289",
+            "title": "Closure of Patent Foramen Ovale or Anticoagulants Versus Antiplatelet Therapy to Prevent Stroke Recurrence",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 664,
+            "start_date": "2007-12",
+            "completion_date": "2016-12",
+            "brief_summary": "A patent foramen ovale (PFO) is found more frequently in patients with an ischemic stroke than in control subjects.\n\nTherapeutic options to prevent stroke recurrence include antiplatelet drugs, oral anticoagulants, and transcatheter closure of the foramen. However, there are no published studies showing convincingly the superiority of any one of these strategies in preventing stroke recurrence.\n\nThe aim of this randomized clinical trial is to assess whether chronic anticoagulation on the one han",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 完成，主要終點為中風預防，含偏頭痛作為次要/安全性終點。Clopidogrel 為抗血小板組，提供間接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00799045",
+            "title": "Clopidogrel On Top of Aspirin For the Prevention of New Onset Migraine Headache Occurrence Following Transcatheter Closure of Atrial Septal Defects: A Prospective Randomized Trial (the CANOA Study)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 220,
+            "start_date": "2008-10",
+            "completion_date": "2016-12",
+            "brief_summary": "The addition of clopidogrel on top of aspirin may reduce the occurrence of new-onset migraine headache episodes following transcatheter ASD closure.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接研究 Clopidogrel 用於術後偏頭痛預防，Phase 4 完成，220 名受試者，具最高直接相關性。關聯文獻 PMID 32965476 與 PMID 26551304 均為此試驗衍生發表。"
+            }
+          },
+          {
+            "nct_id": "NCT05546320",
+            "title": "COMParison of the EffecT of mEdication Therapy: Anticoagulation Versus Anti-platelet Versus Migraine Therapy in Alleviating Migraine With Patent Foramen Ovale",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 1000,
+            "start_date": "2022-10-15",
+            "completion_date": "2025-06-01",
+            "brief_summary": "Migraine attack is an episodic disorder that affects approximately 12% of the population. Previous studies have shown that 41-48% of migraineur have a combination of patent foramen ovale (PFO). Clinical observational studies have been linking medication therapies which include anticoagulation and anti-platelet therapy with the effectiveness in improving migraine symptoms and reducing the frequency of attacks in patients combined with a PFO. However, it has been unclear whether the effectiveness ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型 Phase 4 頭對頭比較試驗（n=1000），比較抗凝、抗血小板、偏頭痛專用藥三組。設計合理且規模大，但狀態不明，研究設計見 PMID 38109984。"
+            }
+          },
+          {
+            "nct_id": "NCT04946734",
+            "title": "Effectivity and Safety of PFO Closure vs Medicine in Alleviating Migraine （SPRING）: a Multicenter, Random, Case Control Study",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 440,
+            "start_date": "2021-08-12",
+            "completion_date": "2025-09-06",
+            "brief_summary": "Effectivity and safety of PFO closure vs medicine in alleviating migraine （SPRING）: a multicenter, random, case control study",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 多中心 RCT，比較 PFO 封閉術與藥物治療（含抗血小板）於偏頭痛之療效。Clopidogrel 為藥物組成分之一，非單一比較對象。結果預計將提升本適應症證據至 L1/L2。"
+            }
+          },
+          {
+            "nct_id": "NCT02670161",
+            "title": "Quality Improvement and Practice Based Research in Neurology Using the Electronic Medical Record",
+            "phase": "PHASE4",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 3300,
+            "start_date": "2016-05",
+            "completion_date": "2027-12",
+            "brief_summary": "The investigators will conduct at NorthShore University HealthSystem pragmatic trials using the EMR for 10 common neurological disorders. They will demonstrate the feasibility of subgroup based adaptive assignment of treatments, electronic consenting, and outcomes data capture at the point of care using the EMR. They will identify the most effective treatments for common neurological disorders and seek replication by the NPBRN.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性電子病歷研究，非 Clopidogrel 偏頭痛介入試驗，僅具真實世界資料參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT02938182",
+            "title": "A Prospective Trial to Evaluate the Effectiveness of Clopidogrel to Relieve Migraine With Right-to-left Shunt",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2016-10",
+            "completion_date": "2023-10",
+            "brief_summary": "The underlying mechanisms of association between the right-to-left shunts (RLS) and migraine may concern with platelet aggregation and paradoxical embolization. The aim of the study is to evaluate the prophylactic effectiveness of clopidogrel for migraineurs with RLS.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接評估 Clopidogrel 於右向左分流偏頭痛患者之療效，Phase 4 前瞻性設計。狀態不明（UNKNOWN）降低結果可用性。樣本數偏小（n=50）。"
+            }
+          },
+          {
+            "nct_id": "NCT02777359",
+            "title": "Precutaneous High Risk Patent Foramen Ovale to Treat Migraine Headaches:A Prospective,Multicenter,Randomized,Controlled Trial",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2017-01",
+            "completion_date": "2018-06",
+            "brief_summary": "The foramen ovale, a kind of physiologic channel in the interatrial septum in the heart at embryonic stage, is closed normally at 5-7 months after birth. When it is not closed, it is referred to as the patent foramen ovale (PFO), which is found in approximately 1/4 of general population. It was shown in the studies in recent years that the risks of cryptogenic stroke, migraine, peripheral arterial embolism and decompression sickness in the patients with PFO were several times higher than those i",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，聚焦高風險 PFO 封閉術治療偏頭痛，Clopidogrel 為術後標準抗血小板方案，非獨立研究對象。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39989443",
+            "title": "Do antithrombotic drugs have a role in migraine prevention? A systematic review.",
+            "authors": [
+              "De Santis Federico",
+              "Foschi Matteo",
+              "Romoli Michele",
+              "Mastrangelo Vincenzo",
+              "Rosignoli Chiara"
+            ],
+            "journal": "Headache",
+            "year": "2025",
+            "abstract": "To explore the available evidence on the role of antithrombotics as migraine preventive medication.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31722730",
+            "title": "P2Y12 receptor mediates microglial activation via RhoA/ROCK pathway in the trigeminal nucleus caudalis in a mouse model of chronic migraine.",
+            "authors": [
+              "Jing Feng",
+              "Zhang Yixin",
+              "Long Ting",
+              "He Wei",
+              "Qin Guangcheng"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2019",
+            "abstract": "Microglial activation contributes to the development of chronic migraine (CM). The P2Y12 receptor (P2Y12R), a metabolic purinoceptor that is expressed on microglia in the central nervous system (CNS), has been indicated to play a critical role in the pathogenesis of chronic pain. However, whether it contributes to the mechanism of CM remains unknown. Thus, the present study investigated the precise details of microglial P2Y12R involvement in CM.",
+            "classification": {
+              "study_type": "Mechanistic/Basic Science",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32965476",
+            "title": "Effect of Clopidogrel and Aspirin vs Aspirin Alone on Migraine Headaches After Transcatheter Atrial Septal Defect Closure: One-Year Results of the CANOA Randomized Clinical Trial.",
+            "authors": [
+              "Wintzer-Wehekind Jérôme",
+              "Horlick Eric",
+              "Ibrahim Reda",
+              "Cheema Asim N",
+              "Labinaz Marino"
+            ],
+            "journal": "JAMA cardiology",
+            "year": "2021",
+            "abstract": "Adding clopidogrel to aspirin for 3 months after transcatheter atrial septal defect (ASD) closure results in a lower incidence of new-onset migraine attacks. However, the outcomes at 6- to 12-month follow-up (after clopidogrel cessation at 3 months) remain largely unknown.",
+            "classification": {
+              "study_type": "RCT secondary analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26551304",
+            "title": "Effect of Clopidogrel and Aspirin vs Aspirin Alone on Migraine Headaches After Transcatheter Atrial Septal Defect Closure: The CANOA Randomized Clinical Trial.",
+            "authors": [
+              "Rodés-Cabau Josep",
+              "Horlick Eric",
+              "Ibrahim Reda",
+              "Cheema Asim N",
+              "Labinaz Marino"
+            ],
+            "journal": "JAMA",
+            "year": "2015",
+            "abstract": "The occurrence of new-onset migraine attacks is a complication of transcatheter atrial septal defect (ASD) closure. It has been suggested that clopidogrel may reduce migraine attacks after ASD closure.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38109984",
+            "title": "Study design and rationale of COMPETE: Comparison of the effect of medication therapy in alleviating migraine with patent foramen ovale.",
+            "authors": [
+              "Li Ziping",
+              "Dong Jie",
+              "Yan Yiming",
+              "Fang Fang",
+              "Wang Chuangshi"
+            ],
+            "journal": "American heart journal",
+            "year": "2024",
+            "abstract": "Previous studies have examined the impact of antithrombotic agents on Patent Foramen Ovale (PFO) in relation to migraine. However, differences in effectiveness of different antithrombotic agents and traditional migraine medications are not known.",
+            "classification": {
+              "study_type": "Study Protocol",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16103551",
+            "title": "Clopidogrel reduces migraine with aura after transcatheter closure of persistent foramen ovale and atrial septal defects.",
+            "authors": [
+              "Wilmshurst P T",
+              "Nightingale S",
+              "Walsh K P",
+              "Morrison W L"
+            ],
+            "journal": "Heart (British Cardiac Society)",
+            "year": "2005",
+            "abstract": "To report the clinical events leading to alteration of an anticoagulation regimen for patients undergoing transcatheter closure of an atrial shunt and how this affected migraine symptoms after the closure procedure.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32848048",
+            "title": "Clopidogrel can be an effective complementary prophylactic for drug-refractory migraine with patent foramen ovale.",
+            "authors": [
+              "Guo Yichen",
+              "Shi Yujie",
+              "Zhu Dan",
+              "Liu Rui",
+              "Qi Yi"
+            ],
+            "journal": "Journal of investigative medicine : the official publication of the American Federation for Clinical Research",
+            "year": "2020",
+            "abstract": "The present study aims to determine the potential prophylactic effect of clopidogrel for migraine with patent foramen ovale (PFO) in patients who are poor responders to two or more common preventive medications. Migraineurs underwent contrast-enhanced transcranial doppler examination to confirm the presence of PFO and determine the right-to-left shunt degree. Clopidogrel 75 mg/day was added to the existing prophylactic regimen for 3 months and 6 months. The presence of PFO was found in 56.8% (15",
+            "classification": {
+              "study_type": "Cohort/Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24836213",
+            "title": "Clopidogrel as prophylactic treatment for migraine: a pilot randomised, controlled study.",
+            "authors": [
+              "Chambers John B",
+              "Seed Paul T",
+              "Ridsdale Leone"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "Anecdotal reports suggest that clopidogrel may prevent migraine attacks. We undertook a pilot randomised trial.",
+            "classification": {
+              "study_type": "Pilot RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40144614",
+            "title": "New-onset headache after transcatheter atrial septal defect closure: a systematic review.",
+            "authors": [
+              "Ahmed H Shafeeq",
+              "Pulkurthi Sneha Reddy",
+              "Dias Akhil Fravis",
+              "Zahid Maryam",
+              "Vishwanatham Varshini"
+            ],
+            "journal": "Indian journal of thoracic and cardiovascular surgery",
+            "year": "2025",
+            "abstract": "Migraine is a complex neurological disorder marked by severe headache and associated with various systemic symptoms. Atrial septal defect (ASD) closure, a common cardiac procedure, has been linked to the onset of new migraine episodes. This systematic review explores the incidence and management of migraine following transcatheter ASD closure.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33402037",
+            "title": "A trial of antithrombotic therapy in patients with refractory migraine and antiphospholipid antibodies: A retrospective study of 75 patients.",
+            "authors": [
+              "Schofield Jill R",
+              "Hughes Hannah N",
+              "Birlea Marius",
+              "Hassell Kathryn L"
+            ],
+            "journal": "Lupus",
+            "year": "2021",
+            "abstract": "It has been reported that patients with antiphospholipid antibodies (aPL) and refractory migraine may experience symptomatic improvement with antithrombotic therapy, but this phenomenon has not been well studied. This study was undertaken to detail the response to trials of antithrombotic therapy in these patients.",
+            "classification": {
+              "study_type": "Clinical Trial (uncontrolled)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36554618",
+            "title": "Burden of Neurological Diseases in the Philippines as Revealed by Web Searches: An Infodemiological Study.",
+            "authors": [
+              "Alonto Anisah Hayaminnah D",
+              "Apor Almira Doreen Abigail O",
+              "Jamora Roland Dominic G"
+            ],
+            "journal": "International journal of environmental research and public health",
+            "year": "2022",
+            "abstract": "Due to the real-time acquisition of big data from the Internet, analysis of Google queries is now recognized as a valuable tool to explore and predict human behavior and interests. It was suggested that online data can be correlated with actual health data. Although the data are not structured nor systematic, the huge data from search engines can easily identify trends concerning diseases and other health concepts from a population perspective. Moreover, Internet data with the use of web search ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30478067",
+            "title": "Ticagrelor for Refractory Migraine/Patent Foramen Ovale (TRACTOR): An open-label pilot study.",
+            "authors": [
+              "Reisman Adam M",
+              "Robbins Barbara T",
+              "Chou Denise E",
+              "Yugrakh Marianna Shnayderman",
+              "Gross Giti J"
+            ],
+            "journal": "Neurology",
+            "year": "2018",
+            "abstract": "After finding that the thienopyridines clopidogrel and prasugrel reduced migraine headache (MHA) symptoms in some patients with patent foramen ovale (PFO), this small pilot study was undertaken to determine whether ticagrelor, a nonthienopyridine P2Y12 inhibitor, would have similar MHA effects and might be better suited for a future randomized trial.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33443050",
+            "title": "Comment on 'Clopidogrel can be an effective complementary prophylactic for drug-refractory migraine with patent foramen ovale'.",
+            "authors": [
+              "Haghdoost Faraidoon",
+              "Sacco Simona"
+            ],
+            "journal": "Journal of investigative medicine : the official publication of the American Federation for Clinical Research",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30478066",
+            "title": "Retrospective review of thienopyridine therapy in migraineurs with patent foramen ovale.",
+            "authors": [
+              "Sommer Robert J",
+              "Nazif Tamim",
+              "Privitera Lauren",
+              "Robbins Barbara T"
+            ],
+            "journal": "Neurology",
+            "year": "2018",
+            "abstract": "We retrospectively reviewed our clinical experience using off-label thienopyridine agents in patients with migraine headache (MHA) and patent foramen ovale (PFO).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22992406",
+            "title": "Atrial septal defect closure and de novo migraine: Exclusive ticlopidine efficacy.",
+            "authors": [
+              "Benemei Silvia",
+              "Rossi Eleonora",
+              "Marcucci Rossella",
+              "Giusti Betti",
+              "Geppetti Pierangelo"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2012",
+            "abstract": "De novo onset or aggravation of migraine has been observed after atrial septal defect closure (ASDC), whereas antiplatelet drugs, such as clopidogrel, used to prevent post-ASDC thromboembolic events, have been associated with migraine amelioration.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26908949",
+            "title": "Percutaneous closure of patent foramen ovale in migraine with aura, a randomized controlled trial.",
+            "authors": [
+              "Mattle Heinrich P",
+              "Evers Stefan",
+              "Hildick-Smith David",
+              "Becker Werner J",
+              "Baumgartner Helmut"
+            ],
+            "journal": "European heart journal",
+            "year": "2016",
+            "abstract": "Migraine with aura and patent foramen ovale (PFO) are associated. The Percutaneous Closure of PFO in Migraine with Aura (PRIMA) trial is a multicentre, randomized trial to investigate the effect of percutaneous PFO closure in patients refractory to medical treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34363208",
+            "title": "Involvement of P2Y12 receptors in a nitroglycerin-induced model of migraine in male mice.",
+            "authors": [
+              "Gölöncsér Flóra",
+              "Baranyi Mária",
+              "Iring András",
+              "Hricisák László",
+              "Otrokocsi Lilla"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "2021",
+            "abstract": "P2Y12 receptors regulate different forms of pain and inflammation. In this study, we investigated the participation of P2Y12 receptors in an animal model of migraine.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24770421",
+            "title": "A retrospective review of clopidogrel as primary therapy for migraineurs with right to left shunt lesions.",
+            "authors": [
+              "Spencer Barbara T",
+              "Qureshi Yasir",
+              "Sommer Robert J"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2014",
+            "abstract": "The association of patient foramen ovale (PFO) and migraine headache (migraine) with aura (MA) is well established. Current research suggests a mechanistic link between platelet activation, paradoxical embolization and migraine in some patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33849951",
+            "title": "Response to \"Comment on 'Clopidogrel can be an effective complementary prophylactic for drug-refractory migraine with patent foramen ovale'\".",
+            "authors": [
+              "Guo Yichen"
+            ],
+            "journal": "Journal of investigative medicine : the official publication of the American Federation for Clinical Research",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23720500",
+            "title": "Migraine attacks after transcatheter closure of atrial septal defect.",
+            "authors": [
+              "Kato Yuji",
+              "Kobayashi Toshiki",
+              "Ishido Hirotaka",
+              "Hayashi Takeshi",
+              "Furuya Daisuke"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2013",
+            "abstract": "The purpose of our study was to evaluate the effect of atrial septal defect (ASD) closure on migraine headache attacks (MHA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clopidogrel 透過抑制 P2Y12 ADP 受體阻斷血小板聚集，減少微栓子經卵圓孔未閉（PFO）或右向左分流（RLS）進入腦循環，從而降低微栓子誘發之皮質擴散性抑制（CSD）及偏頭痛觸發。此外，PMID 31722730 顯示三叉神經尾核（trigeminal nucleus caudalis）神經膠質細胞表達 P2Y12 受體，透過 RhoA/ROCK 路徑介導中樞敏感化，提供非血管機轉支持。關鍵限制：現有 RCT 主要針對 PFO 相關或術後偏頭痛亞群，非一般性偏頭痛人群。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "osteoarthritis",
+      "txgnn": {
+        "score": 0.9924778938293456,
+        "rank": 8651
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01511939",
+            "title": "Single Center, Open-label Study of Effect of PENNSAID (Diclofenac Sodium Solution Topical) on Coagulation Parameters (PT, PTT, INR and Platelet Function) in Patients With Moderate to Severe Osteoarthritis Pain of the Knee Taking Anticoagulant Medication",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2012-02",
+            "completion_date": "2013-05",
+            "brief_summary": "The purpose of this study is to see if using a topical nonsteroidal antiinflammatory drug (Pennsaid) to treat osteoarthritis knee pain will affect coagulation values in patients who are also taking anticoagulant or antithrombotic medications.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究目的為評估外用 Diclofenac（PENNSAID）對接受 Clopidogrel+Aspirin 患者之凝血影響，即 DDI 安全性研究。並非評估 Clopidogrel 治療 OA 之療效試驗，相關性極低（C 級）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32564514",
+            "title": "Reduction in Osteoarthritis Risk After Treatment With Ticagrelor Compared to Clopidogrel: A Propensity Score-Matching Analysis.",
+            "authors": [
+              "Baker Matthew C",
+              "Weng Yingjie",
+              "Robinson William H",
+              "Ahuja Neera",
+              "Rohatgi Nidhi"
+            ],
+            "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+            "year": "2020",
+            "abstract": "Osteoarthritis (OA) is a common cause of joint pain and disability, and effective treatments are lacking. Extracellular adenosine has antiinflammatory effects and can prevent and treat OA in animal models. Ticagrelor and clopidogrel are both used in patients with coronary artery disease, but only ticagrelor increases extracellular adenosine levels. This study was undertaken to determine whether treatment with ticagrelor was associated with a lower risk of OA.",
+            "classification": {
+              "study_type": "Propensity-matched Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28082817",
+            "title": "Prevalence of upper gastrointestinal bleeding risk factors among the general population and osteoarthritis patients.",
+            "authors": [
+              "Kim Sang Hyuck",
+              "Yun Jae Moon",
+              "Chang Chong Bum",
+              "Piao Heng",
+              "Yu Su Jong"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2016",
+            "abstract": "To assess the prevalence of possible risk factors of upper gastrointestinal bleeding (UGIB) and their age-group specific trend among the general population and osteoarthritis patients.",
+            "classification": {
+              "study_type": "Epidemiological Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11793622",
+            "title": "Intracerebral hemorrhage following possible interaction between celecoxib and clopidogrel.",
+            "authors": [
+              "Fisher A A",
+              "Le Couteur D G"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2001",
+            "abstract": "To report a case of intracerebral hemorrhage following short-term, concomitant use of celecoxib and clopidogrel.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20435227",
+            "title": "Clinical assessment incorporating a personal genome.",
+            "authors": [
+              "Ashley Euan A",
+              "Butte Atul J",
+              "Wheeler Matthew T",
+              "Chen Rong",
+              "Klein Teri E"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2010",
+            "abstract": "The cost of genomic information has fallen steeply, but the clinical translation of genetic risk estimates remains unclear. We aimed to undertake an integrated analysis of a complete human genome in a clinical context.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12624808",
+            "title": "Spontaneous hemarthrosis of the knee associated with clopidogrel and aspirin treatment.",
+            "authors": [
+              "Gille J",
+              "Bernotat J",
+              "Böhm S",
+              "Behrens P",
+              "Löhr J F"
+            ],
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2003",
+            "abstract": "We report a case of a 76-year-old-man who developed spontaneous hemarthrosis of his right knee following clopidogrel-aspirin treatment. Clopidogrel is an ADP receptor antagonist and in combination with aspirin widely used in patients with atherosclerotic vascular disease to reduce the incidence of ischemic events. To date, no case of spontaneous hemarthrosis following clopidogrel-aspirin therapy has been reported. Prompt aspiration after discontinuing the ADP receptor antagonist-aspirin combinat",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19543536",
+            "title": "Discrepancy among observational studies: example of naproxen-associated adverse events.",
+            "authors": [
+              "Rahme Elham",
+              "Lafrance Jean-Philippe",
+              "Nedjar Hacene",
+              "Rahme Gilbert",
+              "Morin Suzanne"
+            ],
+            "journal": "The open rheumatology journal",
+            "year": "2009",
+            "abstract": "Observational studies assessing the cardiovascular adverse effect of naproxen have had conflicting results. It is not clear whether variation in population characteristics between studies may explain some of this discrepancy.",
+            "classification": {
+              "study_type": "Methodological Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39434905",
+            "title": "Diacerein reduces inflammasome activation and SARS-CoV-2 virus replication: a proof-of-concept translational study.",
+            "authors": [
+              "Carmo Helison R P",
+              "Castillo Alejandro Rossel",
+              "Bonilha Isabella",
+              "Gomes Erica I L",
+              "Barreto Joaquim"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2024",
+            "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is linked to high mortality, primarily through an intense inflammatory response. Diacerein has emerged as a potential therapy for COVID-19 due to its potential impact in decreasing the inflammasome activation and coronavirus replication. This study aims to explore diacerein's influence in inhibiting both viral replication and the inflammatory response after SARS-CoV-2 infection.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33252548",
+            "title": "HIV-Positive Patients Are at Increased Risk of Venous Thromboembolism After Total Joint Replacement.",
+            "authors": [
+              "Olson Jeffrey J",
+              "Schwab Pierre-Emmanuel",
+              "Jackson Jonathan",
+              "Lange Jeffrey K",
+              "Bedair Hany S"
+            ],
+            "journal": "The Journal of the American Academy of Orthopaedic Surgeons",
+            "year": "2021",
+            "abstract": "Antiretroviral therapy has improved the life expectancy of HIV patients, leading to an increase in total joint replacement for age-related osteoarthritis. HIV patients are inherently hypercoagulable at baseline. The goal of our study was to compare the incidence of venous thromboembolism (VTE) in HIV patients with HIV-negative controls after total joint replacement.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36949558",
+            "title": "Geriatric Pharmacotherapy Case Series: Potential Drug Interactions With Antiplatelet Medications and Cannabidiol-A Focus on P2Y12 Inhibitors.",
+            "authors": [
+              "Brown Stephen A",
+              "Boyd Katie",
+              "Thomason Angela R"
+            ],
+            "journal": "The Senior care pharmacist",
+            "year": "2023",
+            "abstract": "Background A 76-year-old man was admitted to a local rehabilitation inpatient facility following an acute myocardial infarction. Patient history included hypertension and previous stroke. The patient was being treated with clopidogrel and aspirin for secondary stroke prevention along with other medications to treat hypertension. The patient admitted to using cannabidiol (CBD) oil up to three times a day for knee pain prior to acute myocardial infarction and requested to continue its use in the f",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17205929",
+            "title": "[Agranulocytosis in a patient treated with metamizole and clopidogrel].",
+            "authors": [
+              "Kummer O",
+              "Haschke M",
+              "Tuchscherer D",
+              "Lampert M",
+              "Martius F"
+            ],
+            "journal": "Praxis",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30070343",
+            "title": "Interaction study between antiplatelet agents, anticoagulants, thyroid replacement therapy and a bioavailable formulation of curcumin (Meriva®).",
+            "authors": [
+              "Hu S",
+              "Belcaro G",
+              "Dugall M",
+              "Peterzan P",
+              "Hosoi M"
+            ],
+            "journal": "European review for medical and pharmacological sciences",
+            "year": "2018",
+            "abstract": "The objective of this clinical study is to evaluate possible interactions between antiplatelet agents, anticoagulants, thyroid hormone replacement therapy and a formulation of curcumin (Meriva®) that resulted effective for the complementary treatment of osteoarthritis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25015164",
+            "title": "Left main stem/LCA arising from right coronary sinus with an interarterial course.",
+            "authors": [
+              "Waleed Mohammad",
+              "Raza Ali",
+              "Minhaj Tariq",
+              "Houghton Timothy"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2014",
+            "abstract": "A 67-year-old woman presented to the accident and emergency department with central chest pain for the past 4 months. She described the pain as severe, retrosternal, intermittent, indigestion/burning type, with radiations to the left arm. She had used antacids with no relief. Her medical history included hypertension, chronic obstructive pulmonary disease, pulmonary fibrosis, left mastectomy for breast cancer, hypercholesterolaemia and osteoarthritis. Her medications included anastrazole, indapa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25122100",
+            "title": "Lower gastrointestinal bleeding associated with diclofenac topical patch in a patient with colonic mass and on antiplatelet therapy for atrial fibrillation.",
+            "authors": [
+              "Lee Jacob",
+              "Burke David T"
+            ],
+            "journal": "American journal of physical medicine & rehabilitation",
+            "year": "2014",
+            "abstract": "Topical formulations of diclofenac, a nonsteroidal anti-inflammatory drug commonly prescribed to treat musculoskeletal complaints such as osteoarthritis, low back pain, and myofascial pain, are available in the form of a solution, gel, and patch. The topical application of diclofenac results in substantially lower systemic exposure to diclofenac compared with oral diclofenac, resulting in a more favorable side effect profile. To the authors' knowledge, this is the first case report of a lower ga",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無明確治療 OA 之機轉支持。P2Y12 受體雖在軟骨細胞及滑膜細胞有表達，ADP 信號理論上可影響軟骨降解，但缺乏功能性動物模型驗證。關鍵負面信號：PMID 32564514 顯示 Ticagrelor（同為 P2Y12 拮抗劑）相較 Clopidogrel 可顯著降低 OA 風險（HR 差異顯著），暗示 Clopidogrel 於 OA 保護方面可能劣於 Ticagrelor，甚至中性或有害。此外 PMID 12624808 報告 Clopidogrel+Aspirin 引發自發性膝關節積血（hemarthrosis），為關節健康之不良信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "tendinitis",
+      "txgnn": {
+        "score": 0.9917096495628356,
+        "rank": 9244
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20631409",
+            "title": "Vane's blood-bathed organ technique adapted to examine the endothelial effects of cardiovascular drugs in vivo.",
+            "authors": [
+              "Gryglewski Ryszard J",
+              "Mackiewicz Zygmunt"
+            ],
+            "journal": "Pharmacological reports : PR",
+            "year": "2010",
+            "abstract": "This study describes a modification of Vane's blood-bathed organ technique (BBOT). This new technique consisted of replacing the cascade of contractile smooth muscle organs within the traditional BBOT by a single collagen strip cut from a rabbit's hind leg tendon. Utilizing the extracorporeal circulation of an anesthetized heparinized mongrel cat or Wistar rat, arterial blood was dripped (1-3 ml min(-1)) over a collagen strip. This resulted in a gain in weight of the strip, which was due to the ",
+            "classification": {
+              "study_type": "In vitro / Pharmacological Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28104092",
+            "title": "The use of indomethacin in the prevention of postoperative radioulnar synostosis after distal biceps repair.",
+            "authors": [
+              "Costopoulos Callista L",
+              "Abboud Joseph A",
+              "Ramsey Matthew L",
+              "Getz Charles L",
+              "Sholder Daniel S"
+            ],
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2017",
+            "abstract": "This study evaluated the incidence of symptomatic radioulnar synostosis/heterotopic ossification after distal biceps tendon repair in patients receiving indomethacin prophylaxis. We hypothesized that indomethacin use postoperatively would decrease the occurrence of symptomatic synostosis.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血小板釋放 PDGF、TGF-β 等生長因子參與肌腱修復，抗血小板治療理論上可調節肌腱炎症反應，但此機制高度推測性。現有 2 篇文獻均無直接相關性：PMID 20631409 為體外心血管藥物內皮效應研究；PMID 28104092 為 Indomethacin 預防橈尺骨骨化性肌炎研究，均與 Clopidogrel 治療肌腱炎無直接關聯。TxGNN 高分可能源自藥物-組織共現偏差而非真實治療信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "myositis fibrosa",
+      "txgnn": {
+        "score": 0.9912944436073304,
+        "rank": 9582
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌炎伴纖維化（myositis fibrosa）為罕見炎症性肌肉病變，其病理機制以免疫介導纖維化為主，非血小板依賴路徑。無合理機轉支持 P2Y12 拮抗劑在此適應症之治療作用。文獻與試驗數量均為零，評估依據完全來自 TxGNN 知識圖譜預測，可靠性有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "idiopathic granulomatous myositis",
+      "txgnn": {
+        "score": 0.9912944436073304,
+        "rank": 9583
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "特發性肉芽腫性肌炎為罕見免疫介導疾病，病理以 CD68+ 巨噬細胞肉芽腫浸潤為特徵。P2Y12 受體在巨噬細胞上有表達，ADP 信號可調節巨噬細胞活化，但此機轉極為間接且缺乏實驗驗證。本病極罕見（estimated prevalence <1/100,000），即便有機轉假說，開展臨床試驗的可行性極低。文獻及試驗數量均為零。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9903150200843812,
+        "rank": 10320
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36600185",
+            "title": "Malignancy risk with tofacitinib versus TNF inhibitors in rheumatoid arthritis: results from the open-label, randomised controlled ORAL Surveillance trial.",
+            "authors": [
+              "Curtis Jeffrey R",
+              "Yamaoka Kunihiro",
+              "Chen Yi-Hsing",
+              "Bhatt Deepak L",
+              "Gunay Levent M"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2023",
+            "abstract": "To evaluate malignancies and their associations with baseline risk factors and cardiovascular risk scores with tofacitinib versus tumour necrosis factor inhibitors (TNFi) in patients with rheumatoid arthritis (RA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36137735",
+            "title": "Risk of major adverse cardiovascular events with tofacitinib versus tumour necrosis factor inhibitors in patients with rheumatoid arthritis with or without a history of atherosclerotic cardiovascular disease: a post hoc analysis from ORAL Surveillance.",
+            "authors": [
+              "Charles-Schoeman Christina",
+              "Buch Maya H",
+              "Dougados Maxime",
+              "Bhatt Deepak L",
+              "Giles Jon T"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2023",
+            "abstract": "Evaluate risk of major adverse cardiovascular events (MACE) with tofacitinib versus tumour necrosis factor inhibitors (TNFi) in patients with rheumatoid arthritis (RA) with or without a history of atherosclerotic cardiovascular disease (ASCVD) in ORAL Surveillance.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37942277",
+            "title": "Rheumatoid arthritis disease activity and adverse events in patients receiving tofacitinib or tumor necrosis factor inhibitors: a post hoc analysis of ORAL Surveillance.",
+            "authors": [
+              "Karpouzas George A",
+              "Szekanecz Zoltán",
+              "Baecklund Eva",
+              "Mikuls Ted R",
+              "Bhatt Deepak L"
+            ],
+            "journal": "Therapeutic advances in musculoskeletal disease",
+            "year": "2023",
+            "abstract": "In patients with rheumatoid arthritis (RA), persistent inflammation and increasing disease activity are associated with increased risk of adverse events (AEs).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40992967",
+            "title": "Use of statins and its association with major adverse cardiovascular events with tofacitinib vs TNF inhibitors in patients with rheumatoid arthritis with and without atherosclerotic cardiovascular disease.",
+            "authors": [
+              "Giles Jon T",
+              "Charles-Schoeman Christina",
+              "Buch Maya H",
+              "Dougados Maxime",
+              "Szekanecz Zoltán"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2026",
+            "abstract": "This study aims to assess statin usage and its association with incident major adverse cardiovascular (CV) events (MACE) in patients with rheumatoid arthritis (RA) treated with tofacitinib vs tumour necrosis factor inhibitors (TNFi) in ORAL Surveillance.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38609322",
+            "title": "Risk of extended major adverse cardiovascular event endpoints with tofacitinib versus TNF inhibitors in patients with rheumatoid arthritis: a post hoc analysis of a phase 3b/4 randomised safety study.",
+            "authors": [
+              "Buch Maya H",
+              "Bhatt Deepak L",
+              "Charles-Schoeman Christina",
+              "Giles Jon T",
+              "Mikuls Ted"
+            ],
+            "journal": "RMD open",
+            "year": "2024",
+            "abstract": "Compare the risk of extended major adverse cardiovascular (CV) event (MACE) composite outcomes and component events in patients with rheumatoid arthritis (RA) treated with tofacitinib versus tumour necrosis factor inhibitors (TNFi) in Oral Rheumatoid Arthritis Trial (ORAL) Surveillance.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38107217",
+            "title": "The Mystery of Clopidogrel-Associated Inflammatory Arthritis.",
+            "authors": [
+              "Javed Faiza",
+              "Champaneria Shivam U"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Clopidogrel is an antiplatelet medication that plays an important role in the management and prevention of thrombotic vascular events in patients with acute coronary syndrome (ACS) and ischemic stroke. We report a case of a male patient who received a maintenance dose of clopidogrel as part of stroke treatment and developed inflammatory arthritis after five days of starting the medication. He underwent extensive evaluation and testing to explore other common causes of inflammatory arthritis, inc",
+            "classification": {
+              "study_type": "Case Series / Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34840926",
+            "title": "Nucleotides modulate synoviocyte proliferation and osteoclast differentiation in macrophages with potential implications for rheumatoid arthritis.",
+            "authors": [
+              "Bhagavatham Sai Krishna Srimadh",
+              "Kannan Vishnu",
+              "Darshan V M Datta",
+              "Sivaramakrishnan Venketesh"
+            ],
+            "journal": "3 Biotech",
+            "year": "2021",
+            "abstract": "P2 receptors are nucleotide-activated receptors involved in inflammation, cell proliferation osteoblastogenesis, osteoclastogenesis and their function. They can be potential role players in the pathophysiology of rheumatoid arthritis (RA). Our analysis of gene expression datasets of synovial tissue biopsy from the GEO database shows changes in the expression levels of P2 receptors. HIG-82, a synovial fibroblast cell line and RAW 264.7, a macrophage cell line are good in vitro models to study RA.",
+            "classification": {
+              "study_type": "Basic Science / In vitro",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16729012",
+            "title": "Lupus anticoagulant and ischemic myocardial microangiopathy in rheumatoid arthritis.",
+            "authors": [
+              "Ferraccioli Gianfranco",
+              "Zoli Angelo",
+              "Alivernini Stefano",
+              "De Santis Maria",
+              "Verrillo Alfonso"
+            ],
+            "journal": "Nature clinical practice. Cardiovascular medicine",
+            "year": "2006",
+            "abstract": "A 49-year-old man presented at a hospital with an arthritic flare-up and stress dyspnea with a cough. He had a 5-year history of symmetrical polyarthritis, for which he was prescribed 5-15 mg prednisolone daily. He was subsequently diagnosed with rheumatoid arthritis and prescribed 20 mg methotrexate weekly, 3 mg/kg ciclosporin daily and 5 mg prednisolone daily. Infliximab therapy was initiated after 3 months because of persistent joint pain and inflammation. Six months later, however, the patie",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22402144",
+            "title": "Initiation and adherence to secondary prevention pharmacotherapy after myocardial infarction in patients with rheumatoid arthritis: a nationwide cohort study.",
+            "authors": [
+              "Lindhardsen Jesper",
+              "Ahlehoff Ole",
+              "Gislason Gunnar Hilmar",
+              "Madsen Ole Rintek",
+              "Olesen Jonas Bjerring"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2012",
+            "abstract": "To examine whether rheumatoid arthritis (RA) is associated with less optimal secondary prevention pharmacotherapy after first-time myocardial infarction (MI).",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35922124",
+            "title": "Infections in patients with rheumatoid arthritis receiving tofacitinib versus tumour necrosis factor inhibitors: results from the open-label, randomised controlled ORAL Surveillance trial.",
+            "authors": [
+              "Balanescu Andra-Rodica",
+              "Citera Gustavo",
+              "Pascual-Ramos Virginia",
+              "Bhatt Deepak L",
+              "Connell Carol A"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2022",
+            "abstract": "To characterise infections in patients with rheumatoid arthritis (RA) in ORAL Surveillance.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22364132",
+            "title": "Inflammation-induced thrombosis: mechanisms, disease associations and management.",
+            "authors": [
+              "Aksu Kenan",
+              "Donmez Ayhan",
+              "Keser Gokhan"
+            ],
+            "journal": "Current pharmaceutical design",
+            "year": "2012",
+            "abstract": "Although inflammation-induced thrombosis is a well-known entity, its pathogenesis remains complicated. There are complex interactions between inflammation and hemostasis, involving proinflammatory cytokines, chemokines, adhesion molecules, tissue factor expression, platelet and endothelial activation, and microparticles. Inflammation increases procoagulant factors, and also inhibits natural anticoagulant pathways and fibrinolytic activity, causing a thrombotic tendency. Besides, chronic inflamma",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25446727",
+            "title": "Epidemiology, risk factors and management of cardiovascular diseases in IBD.",
+            "authors": [
+              "Singh Siddharth",
+              "Kullo Iftikhar J",
+              "Pardi Darrell S",
+              "Loftus Edward V"
+            ],
+            "journal": "Nature reviews. Gastroenterology & hepatology",
+            "year": "2015",
+            "abstract": "IBD is an established risk factor for venous thromboembolism. In the past few years, studies have suggested that patients with IBD might also be at an increased risk of coronary heart disease and stroke. The increased risk is thought to be similar to the level of risk seen in patients with other chronic systemic inflammatory diseases such as rheumatoid arthritis. The risk of developing these conditions is particularly increased in young adults with IBD, and more so in women than in men. Conventi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27188755",
+            "title": "Clopidogrel treatment may associate with worsening of endothelial function and development of new digital ulcers in patients with systemic sclerosis: results from an open label, proof of concept study.",
+            "authors": [
+              "Ntelis Konstantinos",
+              "Gkizas Vasileios",
+              "Filippopoulou Alexandra",
+              "Davlouros Periclis",
+              "Alexopoulos Dimitrios"
+            ],
+            "journal": "BMC musculoskeletal disorders",
+            "year": "2016",
+            "abstract": "Activated platelets release serotonin that binds 5-HT2B receptor on fibroblasts leading to fibroblast activation. Clopidogrel, an inhibitor of ADP-dependent platelet activation prevents fibrosis in animal models of systemic sclerosis (SSc). We aimed at assessing whether i) ADP-dependent platelet activation is increased in patients with SSc compared to healthy subjects and patients with rheumatoid arthritis (RA) and ii) whether clopidogrel can effectively suppress ADP-dependent activation, reduce",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36720582",
+            "title": "Impact of cardiovascular risk enrichment on incidence of major adverse cardiovascular events in the tofacitinib rheumatoid arthritis clinical programme.",
+            "authors": [
+              "Dougados Maxime",
+              "Charles-Schoeman Christina",
+              "Szekanecz Zoltán",
+              "Giles Jon T",
+              "Ytterberg Steven R"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41689871",
+            "title": "Mechanism-based inactivation of CYP2C19 by bicuculline and related alteration in pharmacokinetics of clopidogrel.",
+            "authors": [
+              "Zhang Yan",
+              "Cheng Zihao",
+              "Dai Jie",
+              "Zhang Chunlei",
+              "Cheng Xueqian"
+            ],
+            "journal": "Drug metabolism and disposition: the biological fate of chemicals",
+            "year": "2026",
+            "abstract": "Corydalis Decumbentis Rhizoma (CDR) is a traditional Chinese herbal medicine, which has been clinically used for treating migraine, relieving the symptoms of rheumatoid arthritis, and reversing osteoporosis. Bicuculline (BIC) is one of the main bioactive ingredients present in CDR. The purpose of this study was to comprehensively investigate the interaction of BIC with cytochrome P450 enzymes and the alteration of the pharmacokinetic properties of the active thiol metabolite 4 of clopidogrel whe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24878863",
+            "title": "Severe leukopenia in a rheumatoid arthritis patient treated with a methotrexate/leflunomide combination.",
+            "authors": [
+              "Toth Paola",
+              "Bernd Roberto"
+            ],
+            "journal": "Revista brasileira de reumatologia",
+            "year": "2014",
+            "abstract": "A rheumatoid arthritis patient was treated for two years with methotrexate and leflunomide combination therapy. The evolution was uneventful until she had clopidogrel, simvastatin, isosorbide, aspirin and omeprazole added to medication due to acute myocardial infarction. Four weeks after this, she was hospitalized with severe leukopenia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20486727",
+            "title": "Identification of NSAID users at risk for gastrointestinal complications: a systematic review of current guidelines and consensus agreements.",
+            "authors": [
+              "Tielemans Merel M",
+              "Eikendal Ties",
+              "Jansen Jan B M J",
+              "van Oijen Martijn G H"
+            ],
+            "journal": "Drug safety",
+            "year": "2010",
+            "abstract": "NSAIDs are among the most often used drugs worldwide. Numerous NSAID users are at risk for developing gastrointestinal complications. The purpose of this review was to identify and stratify risk factors for gastrointestinal complications in NSAID users documented in guidelines and consensus agreements, and to collect recommendations regarding over-the-counter (OTC) NSAID use. To facilitate this, a PubMed search from 1 January 1999 until 1 March 2009 was performed, resulting in the inclusion of n",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39401667",
+            "title": "Impact of antiplatelet and anticoagulant drugs on postoperative bleeding in reverse total shoulder arthroplasty.",
+            "authors": [
+              "Yamakado Kotaro"
+            ],
+            "journal": "Journal of shoulder and elbow surgery",
+            "year": "2025",
+            "abstract": "The decision to withdraw or continue antiplatelet and anticoagulant drugs would be balanced on the bleeding risk and the cardiovascular risk. The purpose of this study was to investigate perioperative bleeding in reverse shoulder arthroplasty (RSA) to determine the impact of oral antiplatelet and anticoagulant medications in the absence of drug withdrawal. The hypothesis was that the continuation of antiplatelet and anticoagulant drugs would increase postoperative bleeding but to a limited exten",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19765672",
+            "title": "Diseases and drugs that increase risk of acute large bowel ischemia.",
+            "authors": [
+              "Longstreth George F",
+              "Yao Janis F"
+            ],
+            "journal": "Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association",
+            "year": "2010",
+            "abstract": "Information is limited on risk factors for acute large bowel ischemia (ALBI). We investigated diseases and drugs associated with ALBI.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22422500",
+            "title": "Risk of gastrointestinal events in patients with rheumatoid arthritis after withdrawal of rofecoxib.",
+            "authors": [
+              "Marra Carlo A",
+              "Lynd Larry D",
+              "Colley Lindsey",
+              "Harvard Stephanie S",
+              "Lacaille Diane"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2012",
+            "abstract": "To examine the incidence of gastrointestinal (GI) events in patients with rheumatoid arthritis (RA) after the removal of rofecoxib from the market.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "P2Y12 受體在滑膜細胞（synoviocytes）及破骨細胞前驅細胞上有功能性表達（PMID 34840926），核苷酸信號調節滑膜細胞增殖及破骨細胞分化，提供間接理論基礎。然而，關鍵不良信號：PMID 38107217（2023）記錄「Clopidogrel-Associated Inflammatory Arthritis」個案，顯示 Clopidogrel 本身可誘發炎症性關節炎，為重大安全性警訊。20 篇文獻中大多數（>15篇）討論 tofacitinib vs TNF 抑制劑比較，Clopidogrel 僅以共病用藥或不良事件角色出現，無治療性使用證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn": {
+        "score": 0.9900800585746764,
+        "rank": 10478
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20435227",
+            "title": "Clinical assessment incorporating a personal genome.",
+            "authors": [
+              "Ashley Euan A",
+              "Butte Atul J",
+              "Wheeler Matthew T",
+              "Chen Rong",
+              "Klein Teri E"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2010",
+            "abstract": "The cost of genomic information has fallen steeply, but the clinical translation of genetic risk estimates remains unclear. We aimed to undertake an integrated analysis of a complete human genome in a clinical context.",
+            "classification": {
+              "study_type": "Case Study / Genomics",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「OA 易感性」為遺傳/風險因子研究範疇，而非直接治療適應症。唯一文獻（PMID 20435227）為個人基因組臨床評估案例報告，提及 Clopidogrel 相關 CYP2C19 基因型，與 OA 易感性無直接關聯。此適應症分類可能為 TxGNN 知識圖譜本體論擴散（ontology propagation）產物，不具獨立臨床意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.9893373250961304,
+        "rank": 11009
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假性軟骨發育不全症（pseudoachondroplasia）為 COMP 基因突變導致之遺傳性骨骼發育不全症，屬單基因遺傳病，病理機制為 COMP 蛋白異常折疊及 ER stress，與血小板聚集/P2Y12 信號路徑無任何已知關聯。TxGNN 預測可能源於骨關節疾病節點間的知識圖譜路徑擴散，無臨床意義。文獻及試驗數量均為零。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "fibromyalgia",
+      "txgnn": {
+        "score": 0.9893024563789368,
+        "rank": 11042
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "纖維肌痛症之核心機制為中樞敏感化（central sensitization）及下行疼痛調節失常，非周邊血小板或血管機制主導。雖然部分研究顯示纖維肌痛患者有血小板功能異常（過度激活），理論上 P2Y12 拮抗劑可能改善此現象，但此假說尚未進入任何臨床研究階段。文獻及試驗數量均為零，TxGNN 高分為純計算預測，無任何臨床佐證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "tendinitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "idiopathic granulomatous myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clopidogrel",
+        "disease": "fibromyalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,3373 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01068-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clonazepam",
+    "drugbank_id": "DB01068",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "restless legs syndrome",
+      "txgnn": {
+        "score": 0.99654358625412,
+        "rank": 5061
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39324694",
+            "title": "Treatment of restless legs syndrome and periodic limb movement disorder: an American Academy of Sleep Medicine clinical practice guideline.",
+            "authors": [
+              "Winkelman John W",
+              "Berkowski J Andrew",
+              "DelRosso Lourdes M",
+              "Koo Brian B",
+              "Scharf Matthew T"
+            ],
+            "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+            "year": "2025",
+            "abstract": "This guideline establishes clinical practice recommendations for treatment of restless legs syndrome (RLS) and periodic limb movement disorder (PLMD) in adults and pediatric patients.",
+            "classification": {
+              "study_type": "Clinical Practice Guideline (AASM 2025)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38708125",
+            "title": "A Historical Overview of the Role of Benzodiazepines including Clonazepam in the Treatment of Adult Restless Legs Syndrome and Periodic Limb Movements in Sleep.",
+            "authors": [
+              "Walters Arthur S",
+              "Spruyt Karen",
+              "Ba Djibril M",
+              "Gao Xiang"
+            ],
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2024",
+            "abstract": "In a recent survey of 16,694 people receiving treatment for Restless Legs Syndrome (RLS), approximately 25% were treated with benzodiazepines either singly or in combination with other RLS treatments. Because of the large number of people receiving benzodiazepines for treatment of RLS, we conducted a historical overview of the therapeutic role of benzodiazepines in RLS and its associated condition Periodic Limb Movements in Sleep (PLMS). We found 17 articles on the use of clonazepam in RLS, PLMS",
+            "classification": {
+              "study_type": "Historical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35426627",
+            "title": "Common Sleep Disorders in Adults: Diagnosis and Management.",
+            "authors": [
+              "Holder Sarah",
+              "Narula Navjot S"
+            ],
+            "journal": "American family physician",
+            "year": "2022",
+            "abstract": "Sleep disorders are common in the general adult population and are associated with adverse effects such as motor vehicle collisions, decreased quality of life, and increased mortality. Patients with sleep disorders can be categorized into three groups: people with problems falling asleep, people with behavior and movement disturbances during sleep, and people with excessive daytime sleepiness. Insomnia, the most common sleep disorder, is defined by difficulty initiating sleep, maintaining sleep,",
+            "classification": {
+              "study_type": "Clinical Review (Sleep Disorders)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28319266",
+            "title": "Benzodiazepines for restless legs syndrome.",
+            "authors": [
+              "Carlos Karla",
+              "Prado Gilmar F",
+              "Teixeira Camila Dm",
+              "Conti Cristiane",
+              "de Oliveira Marcio M"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2017",
+            "abstract": "Restless legs syndrome (RLS) is a common disease affecting about 5% to 15% of the population. Symptoms of RLS can be severe in a minority of and can have a major impact on sleep, mostly sleep initiation, and quality of life. Benzodiazepines are drugs that can induce and maintain sleep and, hence, intuitively are thought to be beneficial to people with RLS. Altough benzodiazepines, particularly clonazepam, are used to treat RLS symptoms, a systematic review done by the American Academy of Sleep M",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24363103",
+            "title": "Treatment of restless legs syndrome.",
+            "authors": [
+              "Comella Cynthia L"
+            ],
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2014",
+            "abstract": "Restless legs syndrome (RLS) is a common disorder diagnosed by the clinical characteristics of restlessness in the legs associated often with abnormal sensations that start at rest and are improved by activity, occurring with a diurnal pattern of worsened symptoms at night and improvement in the morning. RLS is the cause of impaired quality of life in those more severely afflicted. Treatment of RLS has undergone considerable change over the last few years. Several classes of medications have dem",
+            "classification": {
+              "study_type": "Treatment Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3510520",
+            "title": "Restless legs syndrome.",
+            "authors": [
+              "Fox G N"
+            ],
+            "journal": "American family physician",
+            "year": "1986",
+            "abstract": "Patients with restless legs syndrome often have difficulty describing their symptoms. Three features characterize the classic syndrome: an unusual, almost indescribable sensation in the lower extremities; an irresistible urge to move the legs, and the exclusive occurrence of the symptoms at rest, with their relief by movement. Restless legs syndrome may cause severe insomnia. Variants of the syndrome, as well as numerous associated conditions, have been described. The etiology is unknown. Clonaz",
+            "classification": {
+              "study_type": "Historical Review (1986)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874697",
+            "title": "Olanzapine-induced restless legs syndrome.",
+            "authors": [
+              "Zhao Mangsuo",
+              "Geng Tongchao",
+              "Qiao Liyan",
+              "Zhang Mingjie",
+              "Shi Jie"
+            ],
+            "journal": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia",
+            "year": "2014",
+            "abstract": "Only nine patients with olanzapine-induced restless legs syndrome (RLS) have been reported in the literature to our knowledge. We describe two patients with olanzapine-induced RLS treated at our hospital and review the nine reported patients. There were five women and six men aged between 28 and 62 years in the overall group. RLS symptoms emerged at olanzapine doses between 2.5 and 20mg. The symptoms improved in all patients when the dose was reduced and immediately disappeared when the medicati",
+            "classification": {
+              "study_type": "Case Report (Drug-Induced RLS)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40724952",
+            "title": "MDGA1 Gene Variants and Risk for Restless Legs Syndrome.",
+            "authors": [
+              "Jiménez-Jiménez Félix Javier",
+              "Ladera-Navarro Sofía",
+              "Alonso-Navarro Hortensia",
+              "Ayuso Pedro",
+              "Turpín-Fenoll Laura"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2025",
+            "abstract": "The MAM domain-containing glycosylphosphatidylinositol anchor 1 (MDGA1) gene, which encodes a protein involved in synaptic inhibition, has been identified as a potential risk gene for restless legs syndrome. A recent study in the Chinese population described increased MDGA1 methylation levels in patients with idiopathic RLS (iRLS) compared to healthy controls. In this study, we investigated the possible association between the most common variants in the MDGA1 gene and the risk for iRLS in a Cau",
+            "classification": {
+              "study_type": "Genetic Association Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17876423",
+            "title": "[Restless legs syndrome: diagnosis and treatment. Opinion of Brazilian experts].",
+            "authors": [],
+            "journal": "Arquivos de neuro-psiquiatria",
+            "year": "2007",
+            "abstract": "This article contains the conclusions of the November 17-18, 2006 meeting of the Brazilian Study Group of Restless Legs Syndrome (GBE-SPI) about diagnosis and management of restless legs syndrome (RLS). RLS is characterized by abnormal sensations mostly but not exclusively in the legs which worsen in the evening and are improved by motion of the affected body part. Its diagnosis is solely based on clinical findings. Therapeutic agents with efficacy supported by Class I studies are dopamine agoni",
+            "classification": {
+              "study_type": "Expert Consensus (Brazilian)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11313161",
+            "title": "Restless legs syndrome (RLS) and periodic limb movement disorder (PLMD): acute placebo-controlled sleep laboratory studies with clonazepam.",
+            "authors": [
+              "Saletu M",
+              "Anderer P",
+              "Saletu-Zyhlarz G",
+              "Prause W",
+              "Semler B"
+            ],
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2001",
+            "abstract": "Restless legs syndrome (RLS) - a common sensorimotor disorder - and periodic limb movement disorder (PLMD) are currently treated with substances of four classes: dopaminergic agents, which are considered the drugs of choice, benzodiazepines, opioids and anticonvulsants. As their effects on sleep variables differ considerably, the aim of the present placebo-controlled sleep laboratory study was to measure the acute effects of 1 mg clonazepam on objective and subjective sleep and awakening quality",
+            "classification": {
+              "study_type": "Placebo-Controlled Acute Sleep Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36692194",
+            "title": "Pharmacological responsiveness of periodic limb movements in patients with restless legs syndrome: a systematic review and meta-analysis.",
+            "authors": [
+              "Riccardi Silvia",
+              "Ferri Raffaele",
+              "Garbazza Corrado",
+              "Miano Silvia",
+              "Manconi Mauro"
+            ],
+            "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+            "year": "2023",
+            "abstract": "Periodic limb movements during sleep (PLMS) are a frequent finding in restless legs syndrome, but their impact on sleep is still debated, as well the indication for treatment. We systematically reviewed the available literature to describe which drug categories are effective in suppressing PLMS, assessing their efficacy through a meta-analysis, when this was possible.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12531130",
+            "title": "Restless legs syndrome and periodic limb movements of sleep: global therapeutic considerations.",
+            "authors": [
+              "Schenck Carlos H"
+            ],
+            "journal": "Sleep medicine reviews",
+            "year": "2002",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18925578",
+            "title": "Treatment of restless legs syndrome: an evidence-based review and implications for clinical practice.",
+            "authors": [
+              "Trenkwalder Claudia",
+              "Hening Wayne A",
+              "Montagna Pasquale",
+              "Oertel Wolfgang H",
+              "Allen Richard P"
+            ],
+            "journal": "Movement disorders : official journal of the Movement Disorder Society",
+            "year": "2008",
+            "abstract": "Only in the last three decades, the restless legs syndrome (RLS) has been examined in randomized controlled trials. The Movement Disorder Society (MDS) commissioned a task force to perform an evidence-based review of the medical literature on treatment modalities used to manage patients with RLS. The task force performed a search of the published literature using electronic databases. The therapeutic efficacy of each drug was classified as being either efficacious, likely efficacious, investigat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11471763",
+            "title": "Sleep disorders.",
+            "authors": [
+              "Silber M H"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2001",
+            "abstract": "Many pharmacologic and nonpharmacologic strategies are available to treat sleep disorders successfully. Conventional stimulants and the new stimulant modafinil have roles to play in the management of narcolepsy and idiopathic hypersomnia. Knowledge of the properties and clinical effects of these drugs allows adequate doses of medications to be used with the goal of attaining as maximal alertness as possible. A range of dopaminergic agents is available to treat restless legs syndrome; other medic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6380197",
+            "title": "Clonazepam and vibration in restless legs syndrome.",
+            "authors": [
+              "Montagna P",
+              "Sassoli de Bianchi L",
+              "Zucconi M",
+              "Cirignotta F",
+              "Lugaresi E"
+            ],
+            "journal": "Acta neurologica Scandinavica",
+            "year": "1984",
+            "abstract": "There have been no controlled therapeutic trials in Restless Legs Syndrome (RLS). In 6 patients with RLS, a randomized double-blind cross-over trial vs placebo showed a significant efficacy of clonazepam in improving subjective quality of sleep and leg dysaesthesia. Vibratory stimulation of the leg showed a less pronounced and non-significant effect. Clonazepam is a safe and effective drug for treatment of RLS; however its long-term efficacy needs confirmation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15461542",
+            "title": "Somnambulism (sleepwalking).",
+            "authors": [
+              "Remulla Agnes",
+              "Guilleminault Christian"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2004",
+            "abstract": "Somnambulism is an arousal parasomnia consisting of a series of complex behaviours that result in large movements in bed or walking during sleep. It occurs in 2-14% of children and 1.6-2.4% of adults. Occasional benign episodes are managed conservatively. However, recurrent sleepwalking with a risk of injury to self or others mandates immediate treatment with pharmacotherapy while awaiting work-up. The most commonly used medications are benzodiazepines, particularly clonazepam, with tricyclic an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17848868",
+            "title": "Restless legs syndrome and periodic limb movements during sleep: diagnosis and treatment.",
+            "authors": [
+              "Karatas Mehmet"
+            ],
+            "journal": "The neurologist",
+            "year": "2007",
+            "abstract": "Restless legs syndrome (RLS) and periodic limb movements during sleep (PLMS) have been known for over 300 years, and they may be present in as many as 25% of patients who have sleep disorders. These patients generally present with insomnia. These disorders often remain undiagnosed for an average of 16 years and patients have seen an average of 13 physicians for their symptoms. Therefore, these disorders merit the attention and interest of the practitioner, so that such patients can be evaluated ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8572833",
+            "title": "Restless legs syndrome. A review.",
+            "authors": [
+              "O'Keeffe S T"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1996",
+            "abstract": "Restless legs syndrome is characterized by unpleasant, deep-seated paresthesias in the legs and sometimes the arms. These sensations occur at rest and are relieved by movement. Sleep disturbance is common. Many patients also have periodic movements of sleep. Mild symptoms of restless legs occur in up to 5% of the population. Restless legs syndrome is idiopathic in most patients, but it may be the presenting feature of iron deficiency and is also common in uremia, pregnancy, diabetes mellitus, rh",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9244961",
+            "title": "[Restless legs syndrome--current aspects].",
+            "authors": [
+              "Grandjean P"
+            ],
+            "journal": "Praxis",
+            "year": "1997",
+            "abstract": "Although the Restless-Legs-Syndrome (RLS) is harmless, it can be considerably bothersome on occasions. It seems to affect 1-5% of the population. The minimal criteria for diagnosis are: Symmetric or asymmetric dysesthesias of the lower, sometimes also of the upper extremities, present at rest, especially at night. This induces a need to move. Moving gives always relief, but only for a few seconds. Occasionally, dysesthesia can be painful. Additional features are: Involuntary, rhythmic retraction",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31942156",
+            "title": "Comparative Efficacy and Safety of Clonazepam versus Nortriptyline in Restless Leg Syndrome among Forty Plus Women: A Prospective, Open-Label Randomized Study.",
+            "authors": [
+              "Roshi",
+              "Tandon Vishal R",
+              "Mahajan Annil",
+              "Sharma Sudhaa",
+              "Khajuria Vijay"
+            ],
+            "journal": "Journal of mid-life health",
+            "year": "2019",
+            "abstract": "The aim of this study is to compare the effect of clonazepam and nortriptyline on rate, frequency, and severity of restless leg syndrome (RLS) in above 40 years women suffering from RLS.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clonazepam 透過 GABA-A 正向調節，抑制週期性肢體運動（PLMD）頻率，降低皮質脊髓興奮性，改善 RLS 相關夜間不適感及睡眠連續性。有安慰劑對照急性睡眠研究支持（2001），Cochrane 綜述確認有限但存在的臨床效益。非一線用藥（一線為 dopamine agonists），適用於 PLMD 共病或其他藥物無效者。Guardrails：長期依賴風險評估、與 dopaminergic 藥物並用評估、不推薦 augmentation 高風險族群。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "insomnia (disease)",
+      "txgnn": {
+        "score": 0.99322247505188,
+        "rank": 8056
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00025740",
+            "title": "Combined Treatment With a Benzodiazepine (Clonazepam) and a Selective Serotonin Reuptake Inhibitor (Paroxetine) for Rapid Treatment of Posttraumatic Stress Disorder (PTSD)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2001-10",
+            "completion_date": "2004-08",
+            "brief_summary": "Post-Traumatic Stress Disorder (PTSD) is an anxiety disorder that follows exposure to an extremely traumatic stressors. PTSD is associated with serious symptoms. While numerous approaches have been used to treat PTSD, these treatments have several limiting factors. This study will evaluate a combination of the drugs clonazepam and paroxetine for the treatment of PTSD symptoms.\n\nThe main goal of treatment in patients with PTSD is to significantly reduce symptom severity and improve functioning. W",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 完成（n=78），Clonazepam+SSRI 聯合治療，主要適應症為恐慌症但含睡眠次要終點，間接支持失眠症狀改善"
+            }
+          },
+          {
+            "nct_id": "NCT01893632",
+            "title": "Gabapentin Treatment of Benzodiazepine Dependence",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2013-07",
+            "completion_date": "2016-04-01",
+            "brief_summary": "Benzodiazepine dependence is a growing public health problem for which very few evidenced-based treatment approaches are available. Approximately 683,000 individuals met past year criteria for sedative-hypnotic use disorders in the US during 2010, a prevalence greater than heroin or methamphetamine dependence. The most commonly prescribed sedative-hypnotic agents are the benzodiazepines. Chronic use induces pharmacodynamic tolerance in the GABA neurotransmitter system and individuals with physio",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Gabapentin 治療苯二氮䓬依賴（n=2，終止），招募人數極少，無參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT04364321",
+            "title": "The Efficacy of A Single Dose Clonazepam Compared With the Intermittent Diazepam to Prevent Recurrent Febrile Seizures in Queen Sirikit National Institute of Child Health",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 74,
+            "start_date": "2020-05-13",
+            "completion_date": "2023-06",
+            "brief_summary": "To study the efficacy and safety of single dose clonazepam compared with intermittent oral diazepam for prevention of recurrent febrile seizures in children who had three or more febrile seizures.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "熱性痙攣預防研究，與失眠無直接相關"
+            }
+          },
+          {
+            "nct_id": "NCT04109118",
+            "title": "Distress Tolerance and Benzodiazepine Discontinuation in Opioid Agonist Therapy, Phase 2",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 4,
+            "start_date": "2021-03-18",
+            "completion_date": "2021-07-08",
+            "brief_summary": "The proposed study is a clinical trial, designed to pilot test a Distress Tolerance-Benzodiazepine Discontinuation (DT-BD) intervention for patients on opioid agonist therapy who currently use benzodiazepines. The DT-BD intervention is an adjunctive psychosocial intervention in people seeking to discontinue (BZD) use. The goal of the study is to assess the applicability and feasibility of this intervention through treatment retention and qualitative interviews with four participants who are rece",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "苯二氮䓬類停藥研究（n=4），非失眠治療主要研究"
+            }
+          },
+          {
+            "nct_id": "NCT03977441",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Study: Evaluation of the Efficacy and Safety of Agomelatine in the Treatment of Sleep Disorders and Depression in Patients With Parkinson's Disease",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 240,
+            "start_date": "2019-07",
+            "completion_date": "2020-12",
+            "brief_summary": "Among the patients with Parkinson's disease, about 40%\\~50% will suffer from depression, 40% will suffer from anxiety, and 40%\\~60% will suffer from sleep disorder. These non-motor symptoms of Parkinson's disease will cause great physical and psychological pain and affect the quality of life seriously. Commonly used therapeutic drugs, such as selective serotonin reuptake inhibitor (SSRI) and clonazepam, can cause a variety of side effects, including serotonin syndrome, sexual dysfunction, daytim",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 多中心 RCT（n=240），狀態不明，設計可能評估催眠藥療效，待資料公開確認"
+            }
+          },
+          {
+            "nct_id": "NCT03255642",
+            "title": "Efficacy and Safety of Melatonin and Rivotril Treatment for Idiopathic Rapid Eye Movement Sleep Disorder: Prospective Randomized Study.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 34,
+            "start_date": "2017-11-09",
+            "completion_date": "2020-12-01",
+            "brief_summary": "This study aimed to evaluate influence of melatonin or clonazepam treatment on symptom and polysomnographic parameters in patients with idiopathic REM sleep behavior disorder.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Melatonin vs Clonazepam 治療 REM 睡眠行為障礙（n=34，完成），與睡眠障礙直接相關，clonazepam 為對照藥"
+            }
+          },
+          {
+            "nct_id": "NCT00812851",
+            "title": "Randomized Placebo-Controlled Crossover Trial With THC (Delta 9-Tetrahydrocannabinol) for the Treatment of Cramps in Amyotrophic Lateral Sclerosis (ALS)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2005-04",
+            "completion_date": "2008-04",
+            "brief_summary": "Many patients with ALS experience cramps during the course of the disease. Frequently, cramps occur as the first symptom of the disease, months before the patients notice weakness and wasting. Cramp severity varies from mild, without affecting daily activities and sleep, to disabling, where almost any voluntary muscle activity induces long standing, severely painful cramping. ALS patients who smoke herbal cannabis (marijuana) or drink hemp tea report lessening of cramps and fasciculations. Altho",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "THC 治療研究，Clonazepam 為對照組，失眠不是主要終點"
+            }
+          },
+          {
+            "nct_id": "NCT06258512",
+            "title": "Impact of an Intervention with a Narrative Approach in Overusers in Primary Health Care: a Controlled and Randomized Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 264,
+            "start_date": "2023-10-18",
+            "completion_date": "2025-12",
+            "brief_summary": "The goal of this clinical trial is to compare an intervention with a narrative therapy-based approach with standard care in overusers in general practice . The main question it aims to answer are:\n\n• An intervention with an approach based on narrative therapy can improve the perception of emotional support, and reduce the probability of suffering from anxiety and/or depression, the number of consultations, and the number of medications in primary care overusers.\n\nParticipants will 10 individual ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "敘事介入戒除苯二氮䓬過度使用，非療效主要研究"
+            }
+          },
+          {
+            "nct_id": "NCT00745030",
+            "title": "Efficacy and Tolerability of Ramelteon in Patients With REM Behavior Disorder and Parkinsonism: A Placebo Controlled, Double Blind, Randomized, Prospective Pilot Study",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2008-06",
+            "completion_date": "2009-12",
+            "brief_summary": "Parkinson's disease (PD) is the second most common neurodegenerative disorder of the elderly that affects a million patients in US. Sleep dysfunction impacts up to 90% of PD patients. PD patients experience a variety of sleep disorders including parasomnias, specifically REM behavior disorder (RBD) that can precede the onset of motor manifestations of PD. RBD has negative consequences on patients' and their bed partners' quality of life mainly due to its impact on the sleep quality and day time ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Ramelteon 治療帕金森 RBD，clonazepam 為對照，招募3人即終止"
+            }
+          },
+          {
+            "nct_id": "NCT06606418",
+            "title": "Effect of Acupuncture for Rapid Eye Movement Sleep Behavior Disorder : a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 30,
+            "start_date": "2024-09-25",
+            "completion_date": "2025-04-30",
+            "brief_summary": "Rapid eye movement (REM) sleep behaviour disorder (RBD) is a parasomnia that is characterized by abnormal behaviours occurring during REM sleep（a sleep stage）, often as dream enactments that can cause injury. Treatment options are limited. Pharmacological treatments include melatonin and clonazepam, but they have varying degrees of adverse reactions. Acupuncture is a green and safe means of treatment and has therapeutic value in sleep disorders. Using the theory of traditional Chinese medicine, ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針灸治療 RBD，clonazepam 為參考藥，非失眠主要研究"
+            }
+          },
+          {
+            "nct_id": "NCT04884503",
+            "title": "Assessment of the Effectiveness of the Selected Treatment Method and Psychological Disorders of Primary Burning Mouth Syndrome",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 58,
+            "start_date": "2019-01-12",
+            "completion_date": "2020-09-06",
+            "brief_summary": "The burning mouth syndrome (BMS) is a chronic pain syndrome of the oral mucosa. Feels like experiencing a burning sensation, pain, stinging, or numbness in the mouth along with a feeling of dryness, paraesthesia, taste disturbance or hypersensitivity.The complaints are usually bilateral, of moderate intensity, they persist for a minimum of 4-6 months and concern the clinically unchanged membrane mucous.The psychiatric aspect of BMS is very important. The presence of BMS has been shown to be asso",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02346682",
+            "title": "Neurochemical,Metabonomics and Neuroimaging Characterization of TCM Diagnostic Subtypes of Major Depression Disorder",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 75,
+            "start_date": "2015-02",
+            "completion_date": "2017-12",
+            "brief_summary": "There is heterogeneity in patients with depression. Many scholars propose that individualization of antidepressant achieves better outcomes. However, the scientific theoretical basis of individualized treatment is still quite weak. Different clinical subtypes of depression and their possible biomarkers are critically needed to provide the individualization with theoretical base. Diagnostic types of major depression disorder (MDD) based on the Theory of Traditional Chinese Medicine (TCM) and poss",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39535843",
+            "title": "Pharmacological and non-pharmacological management of sleep disturbances in Parkinson's disease: if when and how.",
+            "authors": [
+              "Falup-Pecurariu Cristian",
+              "Muntean Maria-Lucia",
+              "Ungureanu Larisa",
+              "Murasan Iulia",
+              "Popławska-Domaszewicz Karolina"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2024",
+            "abstract": "Sleep dysfunction occurs in various forms and is a bothersome and intrusive non-motor symptom of Parkinson's disease (PD). Frequently undiagnosed, their poor management can have a great impact on the quality of life of PD patients and their caregivers.",
+            "classification": {
+              "study_type": "Clinical Review (PD Sleep)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39297769",
+            "title": "Pharmacological Management of Acute and Chronic Insomnia: A Cross-Sectional Study.",
+            "authors": [
+              "Valladales-Restrepo Luis Fernando",
+              "Sánchez-Ramírez Nicolás",
+              "Ospina-Sánchez Santiago",
+              "Usma-Valencia Andrés Felipe",
+              "Gaviria-Mendoza Andrés"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "2024",
+            "abstract": "Insomnia is a frequent and difficult disease to treat. The objective was to determine the pharmacological management of a group of patients diagnosed with acute and chronic insomnia.",
+            "classification": {
+              "study_type": "Cross-Sectional Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7484706",
+            "title": "Panic disorder.",
+            "authors": [
+              "Weinstein R S"
+            ],
+            "journal": "American family physician",
+            "year": "1995",
+            "abstract": "Panic disorder is a chronic illness that affects at least 3 percent of the population. Panic disorder is associated with significant morbidity and an increased risk of suicide. Patients generally present with multiple somatic and psychologic complaints, including heart palpitations, chest pain, tremor, shortness of breath, choking, nausea or abdominal distress, dizziness, derealization, fear of losing control or going crazy, fear of dying, paresthesias, chills or hot flushes, headache, diarrhea,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24532378",
+            "title": "Anxiety and depression in Parkinson's disease.",
+            "authors": [
+              "Djamshidian Atbin",
+              "Friedman Joseph H"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2014",
+            "abstract": "Anxiety and depression, while very common problems in Parkinson's disease (PD), have not been subject to adequate treatment trials. While a handful of double blind placebo-controlled trials of depression have been published, only a small number of subjects have been enrolled in most of these. There have been no adequate treatment trials of anxiety. Thus, most practitioners base their treatments on what has been published in the general population and their own personal experience. The data sugge",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11463132",
+            "title": "Sleep disorders in patients with Parkinson's disease: epidemiology and management.",
+            "authors": [
+              "Larsen J P",
+              "Tandberg E"
+            ],
+            "journal": "CNS drugs",
+            "year": "2001",
+            "abstract": "Patients with Parkinson's disease can experience a number of sleep disorders, including insomnia, parasomnias and daytime somnolence [specifically, excessive daytime sleepiness (EDS) and sleep attacks]. Insomnia is a frequent and important complaint of patients with the disease. Both the pathology of Parkinson's disease and dopaminergic drugs may contribute to the much higher than expected frequency of sleep fragmentation and disrupted sleep among these patients. In addition, coexisting depressi",
+            "classification": {
+              "study_type": "Review (PD Sleep Epidemiology)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28567500",
+            "title": "Treatment of Sleep Dysfunction in Parkinson's Disease.",
+            "authors": [
+              "Amara Amy W",
+              "Chahine Lana M",
+              "Videnovic Aleksandar"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2017",
+            "abstract": "Impaired sleep and alertness affect the majority of Parkinson's disease (PD) patients, negatively impacting safety and quality of life. The etiology of impaired sleep-wake cycle in PD is multifactorial and encompasses medication side effects, nocturnal PD motor symptoms, and presence of co-existent sleep and neuropsychiatric disorders. The primary neurodegenerative process of PD involves brain regions that regulate the sleep-wake cycle, such as brainstem and hypothalamic nuclei. Sleep disorders ",
+            "classification": {
+              "study_type": "Clinical Review (PD Sleep)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40588412",
+            "title": "The Effectiveness of Melatonin for Sleep Disturbances in Parkinson' Disease: Systematic Review and Meta-Analysis.",
+            "authors": [
+              "Yousef Obai",
+              "Abouelmagd Moaz Elsayed",
+              "Khaddam Hala",
+              "Shbani Abdulrahman",
+              "Yousef Raneem"
+            ],
+            "journal": "Journal of sleep research",
+            "year": "2026",
+            "abstract": "Sleep disturbances in Parkinson's disease (PD) reduce quality of life. Melatonin, a sleep-wake hormone, shows treatment potential. However, its efficacy in PD remains unclear due to inconclusive findings across studies, warranting a systematic review to synthesise the available evidence. We searched PubMed, Cochrane, Web of Science, and Scopus for RCTs up to May 2025. Study quality was evaluated using the Cochrane Rob-2 tool. Statistical analysis was conducted using Review Manager version 5.4.1 ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37940498",
+            "title": "Effectiveness of High-dose Clonazepam Versus Low-Dose Clonazepam With Cognitive Behavioral Therapy in Older Adults With Moderately Severe Insomnia: A Prospective Cohort Study.",
+            "authors": [
+              "Sankar Karthik",
+              "Shanmugasundram Natrajan",
+              "Baskaran Balaswetha",
+              "Anabalagan Deepika",
+              "Sivaraman Varadharajan"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2024",
+            "abstract": "To evaluate the effectiveness of high-dose clonazepam (1 mg) versus low-dose clonazepam (0.5 mg) with cognitive behavioral therapy for insomnia (CBT-i) in older adults with moderately severe insomnia.",
+            "classification": {
+              "study_type": "RCT (High vs Low Dose + CBT, 2024)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32921425",
+            "title": "Melatonin (MEL) and its use in neurological diseases and insomnia: Recommendations of the French Medical and Research Sleep Society (SFRMS).",
+            "authors": [
+              "Vecchierini M F",
+              "Kilic-Huck U",
+              "Quera-Salva M A"
+            ],
+            "journal": "Revue neurologique",
+            "year": "2021",
+            "abstract": "The French Medicine and Research Sleep Society had organized a consensus conference about sleep/wake circadian rhythms and their disorders. During this conference a subgroup of 11 sleep doctors/researchers looked specifically at the use of MEL in different pathologies. This article gives a summary of the main results of MEL therapy in some neurological diseases and insomnia approved by this consensus group. Exogenous MEL, which crosses the blood-brain barrier, has been used as a treatment in its",
+            "classification": {
+              "study_type": "Clinical Guidelines (French Medical Academy)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23330992",
+            "title": "Understanding the pharmacokinetics of anxiolytic drugs.",
+            "authors": [
+              "Altamura Alfredo Carlo",
+              "Moliterno Donatella",
+              "Paletta Silvia",
+              "Maffini Michele",
+              "Mauri Massimo Carlo"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2013",
+            "abstract": "Anxiety disorders are considered the most common mental disorders and they can increase the risk for comorbid mood and substance use disorders, significantly contributing to the global burden of disease. For this reason, anxiolytics are the most prescribed psychoactive drugs, particularly in the Western world.",
+            "classification": {
+              "study_type": "PK Review (Anxiolytics)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27886007",
+            "title": "Sleep-Wake Profile in Dementia with Lewy Bodies, Alzheimer's Disease, and Normal Aging.",
+            "authors": [
+              "Cagnin Annachiara",
+              "Fragiacomo Federica",
+              "Camporese Giulia",
+              "Turco Matteo",
+              "Bussè Cinzia"
+            ],
+            "journal": "Journal of Alzheimer's disease : JAD",
+            "year": "2017",
+            "abstract": "Alterations of the sleep-wake cycle are common features of neurodegenerative dementia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11123856",
+            "title": "Sleep Disorders in the Elderly.",
+            "authors": [
+              "Shochat T",
+              "Loredo J",
+              "Ancoli-Israel S"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2001",
+            "abstract": "Sleep disturbances in the elderly may not be a result of the aging process per se, but rather are likely caused by many factors that are amenable to treatment. These factors include medical and psychiatric problems, medications, and circadian rhythm changes, all of which can cause difficulties during sleep at night, and can lead to complaints of insomnia. Other factors that cause disturbances include a high prevalence of specific sleep disorders such as sleep disordered breathing (SDB), periodic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12670415",
+            "title": "Sleep Dysfunction in Alzheimer's Disease and Other Dementias.",
+            "authors": [
+              "McCurry Susan M.",
+              "Ancoli-Israel Sonia"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2003",
+            "abstract": "Changes in sleep architecture and circadian rhythms, including increased sleep latency and nighttime awakenings, decreased slow-wave sleep, rapid eye movement sleep, and total sleep time, and increased daytime napping are widespread in people with dementia. In addition, cyclic agitation episodes (\"sundowning\"), nightmares or hallucinations, sleep attacks, and nocturnal behavioral outbursts are associated with specific dementia syndromes. Sleep hygiene recommendations, particularly those aimed at",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34916075",
+            "title": "[Sleep disorders in patients with a neurocognitive disorder].",
+            "authors": [
+              "Moderie C",
+              "Carrier J",
+              "Dang-Vu T T"
+            ],
+            "journal": "L'Encephale",
+            "year": "2022",
+            "abstract": "Sleep disorders are prevalent in patients with a neurocognitive disorder, and diagnosis and treatment in these patients remain challenging in clinical practice.",
+            "classification": {
+              "study_type": "Review (Neurocognitive Disorders Sleep)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24272458",
+            "title": "Treatment of the sleep disorders associated with Parkinson's disease.",
+            "authors": [
+              "Trotti Lynn Marie",
+              "Bliwise Donald L"
+            ],
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2014",
+            "abstract": "Sleep disorders are common in patients with Parkinson's disease (PD), and preliminary work has suggested viable treatment options for many of these disorders. For rapid eye movement sleep behavior disorder, melatonin and clonazepam are most commonly used, while rivastigmine might be a useful option in patients whose behaviors are refractory to the former. Optimal treatments for insomnia in PD have yet to be determined, but preliminary evidence suggests that cognitive-behavioral therapy, light th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28697489",
+            "title": "Subjective sleep disturbance in Chinese adults with epilepsy: Associations with affective symptoms.",
+            "authors": [
+              "Shen Yeru",
+              "Zhang Mengmeng",
+              "Wang Yu",
+              "Wang Lanlan",
+              "Xu Xiangjun"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2017",
+            "abstract": "As well as being a very common neurological disease worldwide, epilepsy significantly impairs patients' emotional, behavioral, and cognitive functioning. Sleep disturbances are the most frequent complaint in patients with epilepsy. The present study assesses the impact of a range of affective symptoms on subjective sleep quality and sleep disturbances in Chinese adults with epilepsy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38700147",
+            "title": "A case of Pitt-Hopkins syndrome: psychopharmacological approach for anxiety, insomnia, and agitation.",
+            "authors": [
+              "Istanbullu Cemre",
+              "Kayan Ocakoglu Binay",
+              "Karacetin Gul"
+            ],
+            "journal": "Neurocase",
+            "year": "2023",
+            "abstract": "Pitt-Hopkins syndrome (PTHS) is a rare genetic disorder resulting from TCF4 gene mutations which is characterized by dysmorphic facial features, psychomotor delay, intellectual disability, breathing anomalies, and seizures. Psychiatric conditions are occasionally seen. We present the case report of a seven-year-old PTHS patient with anxiety, insomnia, and agitation. We discuss the psychopharmacological intervention options for this patient. The present case study reports on a 7-year-old female w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26923575",
+            "title": "Executive dysfunction in patients with chronic primary insomnia treated with clonazepam.",
+            "authors": [
+              "Contreras-González Noé",
+              "Téllez-Alanís Bernarda",
+              "Haro Reyes",
+              "Jiménez-Correa Ulises",
+              "Poblano Adrián"
+            ],
+            "journal": "Neurological research",
+            "year": "2015",
+            "abstract": "Clonazepam (CNZ) is a drug used for insomnia treatment. Our objective was to search CNZ effects on executive functions (EF) in patients with chronic primary insomnia (CPI)-CNZ treated. Ninety participants were studied divided into three groups: a group of patients with CPI only (n = 30), a group of patients with CPI-CNZ treated (n = 30) and a healthy control drug-free subjects group (n = 30). EF were examined by means of E-Prime and by the Tower of London tests. Data of the EF were compared betw",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clonazepam 增強 GABA-A 受體活性，延長 Cl⁻ 通道開放時間，產生鎮靜催眠效果；縮短睡眠潛伏期、增加總睡眠時間，但會抑制 REM 睡眠及 N3 深睡期。有直接睡眠實驗室研究（1991）及 Clonazepam vs Zolpidem 頭對頭比較 RCT（2011）。主要關注點：耐受性（2-4 週後療效下降）、依賴性及停藥反彈性失眠。Guardrails：建議短期使用（≤4 週）、與 CBT-I 合併、避免老年族群長期使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "trigeminal nerve neoplasm",
+      "txgnn": {
+        "score": 0.9929959177970886,
+        "rank": 8238
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29589986",
+            "title": "Burning Mouth Pain: A Case Report.",
+            "authors": [
+              "Oberoi-Jassal Ritika",
+              "Portman Diane",
+              "Smith Joshua",
+              "Rajasekhara Sahana",
+              "Desai Vijay V"
+            ],
+            "journal": "Journal of oncology practice",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (Burning Mouth Pain, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16717232",
+            "title": "Ocular neuromyotonia secondary to a cavernous sinus meningioma.",
+            "authors": [
+              "Jacob Maud",
+              "Vighetto Alain",
+              "Bernard Martine",
+              "Tilikete Caroline"
+            ],
+            "journal": "Neurology",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report (Cavernous Sinus Meningioma/Ocular Neuromyotonia, indirect)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clonazepam 為 GABA-A 調節劑，無已知抗腫瘤活性，亦無合理的三叉神經腫瘤治療藥理假說。TxGNN 此預測可能源於：三叉神經痛→苯二氮䓬類→三叉神經→腫瘤的間接知識圖譜路徑，屬機轉不合理的假陽性預測。現有兩篇文獻均為個案報告，且均非直接針對三叉神經腫瘤的 Clonazepam 治療研究（PMID 29589986 為灼口症疼痛；PMID 16717232 為腦膜瘤繼發眼肌強直）。TxGNN 評分高（0.993）很可能為圖結構偽影（graph artifact）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "sleep disorder, initiating and maintaining sleep",
+      "txgnn": {
+        "score": 0.9875394105911256,
+        "rank": 12407
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35426627",
+            "title": "Common Sleep Disorders in Adults: Diagnosis and Management.",
+            "authors": [
+              "Holder Sarah",
+              "Narula Navjot S"
+            ],
+            "journal": "American family physician",
+            "year": "2022",
+            "abstract": "Sleep disorders are common in the general adult population and are associated with adverse effects such as motor vehicle collisions, decreased quality of life, and increased mortality. Patients with sleep disorders can be categorized into three groups: people with problems falling asleep, people with behavior and movement disturbances during sleep, and people with excessive daytime sleepiness. Insomnia, the most common sleep disorder, is defined by difficulty initiating sleep, maintaining sleep,",
+            "classification": {
+              "study_type": "Clinical Review (Sleep Disorders)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39374004",
+            "title": "Masked Taper With Behavioral Intervention for Discontinuation of Benzodiazepine Receptor Agonists: A Randomized Clinical Trial.",
+            "authors": [
+              "Fung Constance H",
+              "Alessi Cathy",
+              "Martin Jennifer L",
+              "Josephson Karen",
+              "Kierlin Lara"
+            ],
+            "journal": "JAMA internal medicine",
+            "year": "2024",
+            "abstract": "Placebo effects are commonly observed in benzodiazepine receptor agonist hypnotic clinical trials. Clinical guidelines recommend discontinuing benzodiazepine receptor agonist hypnotics (particularly in older adults) and administering cognitive behavioral therapy for insomnia (CBTI) as first-line therapy for insomnia. It is unknown whether a novel intervention that masks the daily dose of benzodiazepine receptor agonist during tapering and augments CBTI with novel cognitive and behavioral exercis",
+            "classification": {
+              "study_type": "RCT (Masked Taper + Behavioral Intervention)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29991425",
+            "title": "Sleep-Related Eating Disorder (SRED): Paradoxical Effect of Clonazepam.",
+            "authors": [
+              "Ghosh Debabrata",
+              "Petrecca Abigail M",
+              "Khuhro Abdul Latif"
+            ],
+            "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+            "year": "2018",
+            "abstract": "A 9-year-old boy with primary myoclonus dystonia with comorbid severe attention deficit hyperactive disorder (ADHD) also had sleep onset and maintenance insomnia. Polysomnography showed features of non-rapid eye movement parasomnia. Daily bedtime clonidine helped sleep and hyperactivity. ADHD symptoms improved with 40 mg daily lisdexamphetamine mesylate. As the myoclonus and dystonia symptoms progressed, clonazepam was initiated at a dose of 0.5 mg daily at bedtime. It was anticipated that clona",
+            "classification": {
+              "study_type": "Case Report (Paradoxical Effect/SRED)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28319266",
+            "title": "Benzodiazepines for restless legs syndrome.",
+            "authors": [
+              "Carlos Karla",
+              "Prado Gilmar F",
+              "Teixeira Camila Dm",
+              "Conti Cristiane",
+              "de Oliveira Marcio M"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2017",
+            "abstract": "Restless legs syndrome (RLS) is a common disease affecting about 5% to 15% of the population. Symptoms of RLS can be severe in a minority of and can have a major impact on sleep, mostly sleep initiation, and quality of life. Benzodiazepines are drugs that can induce and maintain sleep and, hence, intuitively are thought to be beneficial to people with RLS. Altough benzodiazepines, particularly clonazepam, are used to treat RLS symptoms, a systematic review done by the American Academy of Sleep M",
+            "classification": {
+              "study_type": "Cochrane Systematic Review (BZD/RLS, partial)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39297769",
+            "title": "Pharmacological Management of Acute and Chronic Insomnia: A Cross-Sectional Study.",
+            "authors": [
+              "Valladales-Restrepo Luis Fernando",
+              "Sánchez-Ramírez Nicolás",
+              "Ospina-Sánchez Santiago",
+              "Usma-Valencia Andrés Felipe",
+              "Gaviria-Mendoza Andrés"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "2024",
+            "abstract": "Insomnia is a frequent and difficult disease to treat. The objective was to determine the pharmacological management of a group of patients diagnosed with acute and chronic insomnia.",
+            "classification": {
+              "study_type": "Cross-Sectional Study (Insomnia Management)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23944726",
+            "title": "Management of common sleep disorders.",
+            "authors": [
+              "Ramar Kannan",
+              "Olson Eric J"
+            ],
+            "journal": "American family physician",
+            "year": "2013",
+            "abstract": "Sleep disorders are common and affect sleep quality and quantity, leading to increased morbidity. Patients with sleep disorders can be categorized as those who cannot sleep, those who will not sleep, those with excessive daytime sleepiness, and those with increased movements during sleep. Insomnia, defined as difficulty initiating or maintaining sleep that results in daytime impairment, is diagnosed using history findings and treated with cognitive behavior therapy, with or without sleep hypnoti",
+            "classification": {
+              "study_type": "Clinical Review (Common Sleep Disorders)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22057073",
+            "title": "Comparing effects of clonazepam and zolpidem on sleep quality of patients on maintenance hemodialysis.",
+            "authors": [
+              "Dashti-Khavidaki Simin",
+              "Chamani Nastaran",
+              "Khalili Hossein",
+              "Hajhossein Talasaz Azita",
+              "Ahmadi Farokhlegha"
+            ],
+            "journal": "Iranian journal of kidney diseases",
+            "year": "2011",
+            "abstract": "Poor sleep quality is very common among maintenance hemodialysis patients and has negative impacts on patients' quality of life. Benzodiazepines have traditionally been used in this population; however, they may induce physical dependence and sleep apnea. Nonbenzodiazepine hypnotic medications with less side effects are introduced as alternatives. This study was designed to compare the effect of zolpidem and clonazepam on sleep quality of hemodialysis patients.",
+            "classification": {
+              "study_type": "RCT (Clonazepam vs Zolpidem, DIMS in hemodialysis)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2066457",
+            "title": "Clonazepam: sleep laboratory study of efficacy and withdrawal.",
+            "authors": [
+              "Kales A",
+              "Manfredi R L",
+              "Vgontzas A N",
+              "Baldassano C F",
+              "Kostakos K"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1991",
+            "abstract": "Clonazepam 0.5 mg was evaluated in a sleep laboratory study of 6 insomniac patients. The 16-night protocol consisted of 4 placebo-baseline nights, 7 nights of drug administration and 5 placebo-withdrawal nights. Clonazepam produced a significant decrease in total wake time initially (nights 5-7), as well as with continued administration (nights 9-11). With later but not immediate withdrawal, significant rebound insomnia occurred, on the 3rd withdrawal night, both wake time after sleep onset and ",
+            "classification": {
+              "study_type": "Sleep Laboratory Study (Efficacy + Withdrawal)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34916075",
+            "title": "[Sleep disorders in patients with a neurocognitive disorder].",
+            "authors": [
+              "Moderie C",
+              "Carrier J",
+              "Dang-Vu T T"
+            ],
+            "journal": "L'Encephale",
+            "year": "2022",
+            "abstract": "Sleep disorders are prevalent in patients with a neurocognitive disorder, and diagnosis and treatment in these patients remain challenging in clinical practice.",
+            "classification": {
+              "study_type": "Review (Neurocognitive Disorders Sleep)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11463132",
+            "title": "Sleep disorders in patients with Parkinson's disease: epidemiology and management.",
+            "authors": [
+              "Larsen J P",
+              "Tandberg E"
+            ],
+            "journal": "CNS drugs",
+            "year": "2001",
+            "abstract": "Patients with Parkinson's disease can experience a number of sleep disorders, including insomnia, parasomnias and daytime somnolence [specifically, excessive daytime sleepiness (EDS) and sleep attacks]. Insomnia is a frequent and important complaint of patients with the disease. Both the pathology of Parkinson's disease and dopaminergic drugs may contribute to the much higher than expected frequency of sleep fragmentation and disrupted sleep among these patients. In addition, coexisting depressi",
+            "classification": {
+              "study_type": "Review (PD Sleep)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23330992",
+            "title": "Understanding the pharmacokinetics of anxiolytic drugs.",
+            "authors": [
+              "Altamura Alfredo Carlo",
+              "Moliterno Donatella",
+              "Paletta Silvia",
+              "Maffini Michele",
+              "Mauri Massimo Carlo"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2013",
+            "abstract": "Anxiety disorders are considered the most common mental disorders and they can increase the risk for comorbid mood and substance use disorders, significantly contributing to the global burden of disease. For this reason, anxiolytics are the most prescribed psychoactive drugs, particularly in the Western world.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40784707",
+            "title": "A 67-Year-Old Woman With Unexplained Nocturnal Hypoxemia.",
+            "authors": [
+              "Gaynor-Sodeifi Kaveh",
+              "Eschbach Erin",
+              "Rapoport David M",
+              "Kundel Vaishnavi"
+            ],
+            "journal": "Chest",
+            "year": "2025",
+            "abstract": "A 67-year-old woman presents for a second opinion for insomnia. She reports falling asleep with ease but difficulty maintaining sleep, with several nighttime awakenings. She has previously undergone cognitive behavioral therapy for insomnia without any improvement in her symptoms. She denies snoring and witnessed apneas but reports occasional daytime sleepiness, with an Epworth Sleepiness Score of 11 out of 24, indicating significant sleepiness. The remainder of her sleep history is unremarkable",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24082312",
+            "title": "Cognitive performances and mild cognitive impairment in idiopathic rapid eye movement sleep behavior disorder: results of a longitudinal follow-up study.",
+            "authors": [
+              "Terzaghi Michele",
+              "Zucchella Chiara",
+              "Rustioni Valter",
+              "Sinforiani Elena",
+              "Manni Raffaele"
+            ],
+            "journal": "Sleep",
+            "year": "2013",
+            "abstract": "To investigate the capacity of neuropsychological deficits in idiopathic rapid eye movement sleep behavior disorder (iRBD) to predict the development of dementia and/or parkinsonism.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28697489",
+            "title": "Subjective sleep disturbance in Chinese adults with epilepsy: Associations with affective symptoms.",
+            "authors": [
+              "Shen Yeru",
+              "Zhang Mengmeng",
+              "Wang Yu",
+              "Wang Lanlan",
+              "Xu Xiangjun"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2017",
+            "abstract": "As well as being a very common neurological disease worldwide, epilepsy significantly impairs patients' emotional, behavioral, and cognitive functioning. Sleep disturbances are the most frequent complaint in patients with epilepsy. The present study assesses the impact of a range of affective symptoms on subjective sleep quality and sleep disturbances in Chinese adults with epilepsy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22886854",
+            "title": "Sleep dysfunction in multiple system atrophy.",
+            "authors": [
+              "Ferini-Strambi Luigi",
+              "Marelli Sara"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2012",
+            "abstract": "Sleep disorders in multiple system atrophy (MSA) are common manifestation and include reduced and fragmented sleep, excessive daytime sleepiness, REM sleep behaviour disorder (RBD), and sleep-disordered breathing. Of these, RBD is the most common (affecting 90 %-100 % of patients with MSA) and is regarded as a red flag for MSA. RBD, as well as stridor during sleep, may be the initial manifestation of the disease, occurring several years before the waking motor and dysautonomic onset. Sleep disor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15078112",
+            "title": "Issues in the clinical use of benzodiazepines: potency, withdrawal, and rebound.",
+            "authors": [
+              "Chouinard Guy"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2004",
+            "abstract": "Low and medium potency benzodiazepines were initially introduced for the treatment of insomnia and anxiety. Their therapeutic actions as anxiolytics, sedative hypnotics, anticonvulsants, and muscle relaxants (with their low toxicity) have led to their use as first-line treatments, and they have become one of the most prescribed classes of drugs. Novel therapeutic uses of benzodiazepines were discovered with the introduction of the high-potency benzodiazepines (e.g., alprazolam, clonazepam, and l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35897370",
+            "title": "Comparison of Clonazepam and Tongue Protector in the Treatment of Burning Mouth Syndrome.",
+            "authors": [
+              "Zborowski Jacek",
+              "Konopka Tomasz"
+            ],
+            "journal": "International journal of environmental research and public health",
+            "year": "2022",
+            "abstract": "BMS is a chronic pain syndrome affecting the oral mucosa. It consists of experiencing a burning or dysesthetic sensation. BMS prevalence varies, with up to 15% among women. An effective treatment is still unattainable.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37934733",
+            "title": "[Factors associated with benzodiazepines dependence in insomnia patients].",
+            "authors": [
+              "Maravillas-Estrada Angélica",
+              "Roy-García Ivonne Analí",
+              "Rivas-Ruiz Rodolfo",
+              "Vilchis-Chaparro Eduardo"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2023",
+            "abstract": "The use of benzodiazepines as a treatment for insomnia can have side effects such as impaired coordination causing falls in adults and even dependence.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40157395",
+            "title": "Agomelatine with cognitive behavioral therapy reduces insomnia severity index and subjective units of distress scores than initial-dose clonazepam in moderate to severe insomnia patients: A quasi-experimental study.",
+            "authors": [
+              "Prabahar Kousalya",
+              "Ravikumar Abinaya",
+              "Jeyabalan Anu Priya",
+              "Ravi Bharath",
+              "Ravikumar Chandini"
+            ],
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "2025",
+            "abstract": "Insomnia can be caused by various factors including lack of sleep, stress, sadness, hormonal changes, excessive caffeine, anxiety, mental health disorders, and medications. Treatments include finding the cause, improving sleep patterns, using behavioral therapy, and taking sleeping pills in most cases. However, the drugs often cause worse side effects than insomnia. This study compared the efficacy of initial agomelatine and clonazepam doses with cognitive behavioral therapy for insomnia (CBT-i)",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23011807",
+            "title": "Treatment of dyssomnias and parasomnias in childhood.",
+            "authors": [
+              "Kotagal Suresh"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2012",
+            "abstract": "Dyssomnias are sleep disorders associated with complaints of insomnia or hypersomnia. The daytime sleepiness of narcolepsy is treated by a combination of planned daytime naps, regular exercise medications such as modafinil, or salts of methylphenidate, or amphetamine. Cataplexy that accompanies narcolepsy is treated with anticholinergic agents, selective serotonin reuptake inhibitors, or sodium oxybate. Children with neurodevelopmental disabilities such as autism have sleep initiation and mainte",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與失眠機轉相同（GABA-A 正向調節），針對入睡困難及睡眠維持困難均有作用。PMID 22057073 直接比較 Clonazepam vs Zolpidem 於慢性腎病/透析患者之 DIMS，顯示相當療效。PMID 2066457 睡眠實驗室研究確認短期療效及停藥反彈現象。此適應症與「insomnia (disease)」高度重疊，證據基礎共用。Guardrails：與失眠相同，老年族群跌倒風險特別注意。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "acute encephalopathy with biphasic seizures and late reduced diffusion",
+      "txgnn": {
+        "score": 0.985962212085724,
+        "rank": 13594
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22982002",
+            "title": "Late-onset epilepsy in children with acute febrile encephalopathy with prolonged convulsions: A clinical and encephalographic study.",
+            "authors": [
+              "Saito Takashi",
+              "Saito Yoshiaki",
+              "Sugai Kenji",
+              "Nakagawa Eiji",
+              "Komaki Hirofumi"
+            ],
+            "journal": "Brain & development",
+            "year": "2013",
+            "abstract": "The aim of this study is to analyze the characteristics of epilepsies as the sequelae of acute febrile encephalopathy with prolonged convulsions during childhood. Sixteen patients (M:F=9:7) aged 2-13years (mean 6.1years) with history of febrile acute encephalopathy were retrospectively reviewed. These patients experienced febrile encephalopathy at the age of 11months to 4years, with 11 individuals presenting with findings of a biphasic clinical course (n=5), frontal predominant (n=8) lesions, an",
+            "classification": {
+              "study_type": "Retrospective Clinical Series (Febrile Encephalopathy/Late Epilepsy)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "AESD 為兒科急性腦病特殊表現型，病理機轉涉及細胞毒性水腫（DWI 改變）及雙相痙攣。Clonazepam 作為苯二氮䓬類可控制急性癲癇發作（共病性使用），但對 AESD 特有病理進程無直接治療機轉。唯一文獻（PMID 22982002）為兒科腦病後遲發型癲癇回顧，間接且非針對 AESD 的 Clonazepam 研究。此預測可能源於 TxGNN 在苯二氮䓬→癲癇→腦病路徑上的圖推斷，屬假陽性風險高的預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "trigeminal neuralgia",
+      "txgnn": {
+        "score": 0.976579487323761,
+        "rank": 18612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19445753",
+            "title": "Trigeminal neuralgia.",
+            "authors": [
+              "Zakrzewska Joanna M",
+              "Linskey Mark E"
+            ],
+            "journal": "BMJ clinical evidence",
+            "year": "2009",
+            "abstract": "Trigeminal neuralgia is a sudden, unilateral, brief, stabbing, recurrent pain in the distribution of one or more branches of the fifth cranial nerve. Pain occurs in paroxysms which last from a few seconds to 2 minutes. The frequency of the paroxysms ranges from a few to hundreds of attacks a day. Periods of remission can last for months to years, but tend to shorten over time.",
+            "classification": {
+              "study_type": "Review (TN, mentions clonazepam)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7775611",
+            "title": "The medical and surgical management of trigeminal neuralgia.",
+            "authors": [
+              "Sidebottom A",
+              "Maxwell S"
+            ],
+            "journal": "Journal of clinical pharmacy and therapeutics",
+            "year": "1995",
+            "abstract": "Trigeminal neuralgia is a paroxysmal and severely disabling facial pain. The diagnosis is usually made on the basis of a typical history and the exclusion of secondary causes. Initial management of the pain is medical. Carbamazepine is the drug of choice although some patients respond to other drugs including phenytoin, baclofen, sodium valproate and clonazepam. Surgical therapy should be considered if medical treatment fails or cannot be tolerated. Surgical options include peripheral or central",
+            "classification": {
+              "study_type": "Review (Medical/Surgical Management)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11096730",
+            "title": "Trigeminal Neuralgia.",
+            "authors": [
+              "Perkin GD"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "1999",
+            "abstract": "The initial treatment for trigeminal neuralgia is medical. Carbamazepine is the drug of choice. If the patient proves to be intolerant of carbamazepine, a number of second-line drugs are available, though data on their relative efficacy are nonexistent. Phenytoin, baclofen, clonazepam, and sodium valproate are all worthy of consideration. Oxcarbazepine may be as effective as carbamazepine, but its availability is limited. Newer agents being tried in this condition include lamotrigine and gabapen",
+            "classification": {
+              "study_type": "Review (TN, 1999)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20426709",
+            "title": "Medical management of trigeminal neuropathic pains.",
+            "authors": [
+              "Zakrzewska Joanna M"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2010",
+            "abstract": "Although trigeminal neuralgia has traditionally been considered the prime neuralgic condition in the face region, other forms of neuropathic pain are now being more frequently recognized and require recognition and a different management approach.",
+            "classification": {
+              "study_type": "Review (Trigeminal Neuropathic Pain Management)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11803299",
+            "title": "Pharmacotherapy of trigeminal neuralgia.",
+            "authors": [
+              "Sindrup Søren H",
+              "Jensen Troels S"
+            ],
+            "journal": "The Clinical journal of pain",
+            "year": "2002",
+            "abstract": "The efficacy of the anticonvulsant drug carbamazepine in the management of trigeminal neuralgia is evidenced in several controlled trials, and the numbers needed to treat to obtain one patient with at least 50% pain relief (NNT) is 1.7. Single small trials have shown that baclofen alone provides pain relief (NNT = 1.4) and that lamotrigine has an additional effect in patients with insufficient relief using carbamazepine or phenytoin (NNT = 2.1). Uncontrolled observations and clinical practice in",
+            "classification": {
+              "study_type": "Review (TN Pharmacotherapy)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27586175",
+            "title": "Is There a Safe and Effective Way to Treat Trigeminal Neuralgia Associated with Vertebrobasilar Dolichoectasia? Presentation of 8 Cases and Literature Review.",
+            "authors": [
+              "Vanaclocha Vicente",
+              "Herrera Juan Manuel",
+              "Martínez-Gómez Deborah",
+              "Rivera-Paz Marlon",
+              "Calabuig-Bayo Cristina"
+            ],
+            "journal": "World neurosurgery",
+            "year": "2016",
+            "abstract": "Surgical treatment of trigeminal neuralgia (TN) associated with vertebrobasilar dolichoectasia is challenging. We analyze the treatments for this disease, discussing the advantages and drawbacks, and present our own technique and series.",
+            "classification": {
+              "study_type": "Case Series/Review (VBD-related TN)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1104361",
+            "title": "Clonazepam in facial neuralgia and cluster headache. Clinical and electrophysiological study.",
+            "authors": [
+              "Caccia M R"
+            ],
+            "journal": "European neurology",
+            "year": "1975",
+            "abstract": "Clonazepam seems to be an effective drug in idiopathic trigeminal neuralgia. Electrophysiological investigations support the idea that this neuralgia is due to a loss of central inhibition. During the first 1-2 weeks of treatment marked drowsiness is observed in the majority of cases. In one case, presence of a synergism between Clonazepam and L-dopa+ inhibitor was also observed.",
+            "classification": {
+              "study_type": "Clinical Study with Electrophysiology (1975, direct)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1408017",
+            "title": "Drugs used in the management of trigeminal neuralgia.",
+            "authors": [
+              "Zakrzewska J M",
+              "Patsalos P N"
+            ],
+            "journal": "Oral surgery, oral medicine, and oral pathology",
+            "year": "1992",
+            "abstract": "Management of trigeminal neuralgia, a severe facial pain, remains difficult. All patients are initially treated with drugs. Since the seventeenth century more than 40 different preparations have been used; some of these, although effective, had toxic side effects. The most useful drugs at present are carbamazepine, phenytoin, baclofen, and clonazepam. A new drug, oxcarbazepine, is showing therapeutic promise. The most common reason for therapeutic failure with antineuralgic drugs is inadequate d",
+            "classification": {
+              "study_type": "Review (TN Drug Management, 1992)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4480638",
+            "title": "[Trigeminal neuralgia. Treatment with clonazepam].",
+            "authors": [
+              "de Negrotto O V",
+              "Dalmás J F",
+              "Negrotto A"
+            ],
+            "journal": "Acta neurologica latinoamericana",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (1974, direct, Portuguese)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1774173",
+            "title": "Review article: the medical management of trigeminal neuralgia.",
+            "authors": [
+              "Green M W",
+              "Selman J E"
+            ],
+            "journal": "Headache",
+            "year": "1991",
+            "abstract": "Trigeminal neuralgia results from disturbances in the trigeminal root entry zone which generate repetitive action potentials. Drugs which relieve the pain of trigeminal neuralgia depressed these potentials. Anticonvulsants which exert this or related effects, and which have been demonstrated to be efficacious in trigeminal neuralgia, include carbamazepine, phenytoin, clonazepam, and valproic acid. Baclofen may act by facilitating segmental inhibition of the trigeminal complex. The mechanism of a",
+            "classification": {
+              "study_type": "Review Article (Medical Management, 1991)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8326165",
+            "title": "Trigeminal neuralgia (tic douloureux).",
+            "authors": [
+              "Mauskop A"
+            ],
+            "journal": "Journal of pain and symptom management",
+            "year": "1993",
+            "abstract": "Trigeminal neuralgia is not common, but is a debilitating pain syndrome. After the diagnosis is established, a stepwise approach to treatment is recommended. Carbamazepine is the drug of choice. When carbamazepine fails to relieve pain, baclofen and then phenytoin are used. A number of second-line drugs, such as clonazepam, divalproex sodium, chlorphenesine carbamate, and pimozide can also be tried. A large number of patients will respond to one or another drug or to a combination of two drugs. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2189471",
+            "title": "Medical management of trigeminal neuralgia.",
+            "authors": [
+              "Zakrzewska J M"
+            ],
+            "journal": "British dental journal",
+            "year": "1990",
+            "abstract": "Trigeminal neuralgia is a sudden, severe, brief, recurrent stabbing pain in the distribution of the trigeminal nerve whose aetiology remains unknown. Medical management is the first line of treatment and when this fails, surgical treatment needs to be undertaken. Carbamazepine is the best anti-neuralgic drug available at present, but may cause unacceptable side-effects. Phenytoin, baclofen and clonazepam are other drugs used, either as monotherapy or together with carbamazepine, but they are not",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4089136",
+            "title": "Medical treatment of trigeminal neuralgia and cluster headache.",
+            "authors": [
+              "Green M W"
+            ],
+            "journal": "Psychosomatics",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37953213",
+            "title": "Tapentadol helps in trigeminal neuralgia: a case report.",
+            "authors": [
+              "Kiedrowski Mirosław"
+            ],
+            "journal": "Annals of palliative medicine",
+            "year": "2024",
+            "abstract": "Trigeminal neuralgia (TN) usually affects people over 50 years old. TN-related pains are short-lived, and the disease course is characterized by exacerbations and remissions. Sometimes chronic pain develops due to central sensitization. This is the first case report on the effectiveness of tapentadol in pain control in TN.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23338129",
+            "title": "Trigeminal neuralgia : a guide to drug choice.",
+            "authors": [
+              "Cheshire W P"
+            ],
+            "journal": "CNS drugs",
+            "year": "1997",
+            "abstract": "Trigeminal neuralgia, also known as tic douloureux, is an idiopathic condition of severe, unilateral, paroxysmal facial pain. The abrupt nature of the painful attacks (a temporal profile that is similar to that of seizures) led to the discovery that some anticonvulsant drugs are effective against neuralgia.Carbamazepine is the drug of choice, and treatment requires careful dosage titration. Baclofen, phenytoin and sodium valproate are also effective. Transient relief is sometimes possible with l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10908487",
+            "title": "Anticonvulsant drugs for acute and chronic pain.",
+            "authors": [
+              "Wiffen P",
+              "Collins S",
+              "McQuay H",
+              "Carroll D",
+              "Jadad A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2000",
+            "abstract": "Anticonvulsant drugs have been used in the management of pain since the 1960s. The clinical impression is that they are useful for chronic neuropathic pain, especially when the pain is lancinating or burning.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7580659",
+            "title": "Anticonvulsant drugs for management of pain: a systematic review.",
+            "authors": [
+              "McQuay H",
+              "Carroll D",
+              "Jadad A R",
+              "Wiffen P",
+              "Moore A"
+            ],
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "1995",
+            "abstract": "To determine effectiveness and adverse effects of anticonvulsant drugs in management of pain.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16034857",
+            "title": "Anticonvulsant drugs for acute and chronic pain.",
+            "authors": [
+              "Wiffen P",
+              "Collins S",
+              "McQuay H",
+              "Carroll D",
+              "Jadad A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2005",
+            "abstract": "Anticonvulsant drugs have been used in the management of pain since the 1960s. The clinical impression is that they are useful for chronic neuropathic pain, especially when the pain is lancinating or burning. Readers are referred to reviews of carbamazepine and gabapentin in the Cochrane Library which replace the information on those drugs in this review. Other drugs remain unchanged at present in this review",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10796752",
+            "title": "Anticonvulsant drugs for acute and chronic pain.",
+            "authors": [
+              "Wiffen P",
+              "McQuay H",
+              "Carroll D",
+              "Jadad A",
+              "Moore A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2000",
+            "abstract": "Anticonvulsant drugs have been used in the management of pain since the 1960s. The clinical impression is that they are useful for neuropathic pain, especially when the pain is lancinating or burning.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20091515",
+            "title": "WITHDRAWN. Anticonvulsant drugs for acute and chronic pain.",
+            "authors": [
+              "Wiffen Philip J",
+              "Collins Sally",
+              "McQuay Henry J",
+              "Carroll Dawn",
+              "Jadad Alejandro"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2010",
+            "abstract": "Anticonvulsant drugs have been used in the management of pain since the 1960s. The clinical impression is that they are useful for chronic neuropathic pain, especially when the pain is lancinating or burning. Readers are referred to reviews of carbamazepine and gabapentin in T he Cochrane Library which replace the information on those drugs in this review. Other drugs remain unchanged at present in this review",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉神經痛涉及三叉神經根異位放電（ectopic discharge），Clonazepam 透過 GABA-A 強化抑制性傳遞及穩定神經元膜電位，可能抑制此異位放電。有 1974-1975 年兩篇直接小型臨床研究，多個治療指引將其列為二線選項。然而，現代缺乏設計嚴謹的 RCT；Carbamazepine/Oxcarbazepine 為公認一線標準治療，Clonazepam 的確切定位需現代對照試驗釐清。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "status epilepticus",
+      "txgnn": {
+        "score": 0.9697204828262328,
+        "rank": 21381
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04287361",
+            "title": "Efficacy of Intravenous Clonazepam According to the Dosage in Children Status Epilepticus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 310,
+            "start_date": "2019-08-30",
+            "completion_date": "2020-01-31",
+            "brief_summary": "•Background: Intravenous clonazepam is the most widely used first-line benzodiazepine in Europe for the initial management of status epilepticus in children.\n\nThe guidelines of the \"Société de reanimation de langue francaise\" (SRLF) and the \"société française de médecine d'urgence\" (SFMU) published in 2018 recommend an initial loading dose of 0.015 mg / kg of clonazepam in this situation (maximum 1.5 mg).\n\nTo our knowledge, there is no specific study of the efficacy of clonazepam according to th",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "兒童癲癇持續狀態 IV Clonazepam 劑量研究（n=310），完成，直接評估兒科族群劑量安全性，高度相關"
+            }
+          },
+          {
+            "nct_id": "NCT00362141",
+            "title": "Safety and Tolerability of Add-on Levetiracetam in Status Epilepticus",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 12,
+            "start_date": "2006-10",
+            "completion_date": "2008-04",
+            "brief_summary": "The purpose of this study is to determine whether levetiracetam is safe and well tolerated by patients while suffering a status epilepticus. Levetiracetam is added to the standard treatment of patients with this disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 Levetiracetam 附加治療 SE（n=12），clonazepam 為背景標準治療，間接確認其標準照護地位"
+            }
+          },
+          {
+            "nct_id": "NCT01150331",
+            "title": "Efficiency of Levetiracetam Intravenous in Association With Clonazepam Versus Clonazepam Alone in Prehospital Care of Generalised Tonicoclonic Status Epilepticus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 203,
+            "start_date": "2009-07",
+            "completion_date": "2013-10",
+            "brief_summary": "Compare the efficiency of the association, first line, the intravenous levetiracetam and the intravenous clonazepam, in that of a monotherapy of clonazepam intravenous in the pre-hospital treatment of tonicoclonic generalised status epilepticus.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 完成 RCT（n=203），Levetiracetam+Clonazepam vs Clonazepam 單藥治療癲癇持續狀態，直接評估 clonazepam 療效，高度相關"
+            }
+          },
+          {
+            "nct_id": "NCT07443241",
+            "title": "Gender-specific Differences in the Etiology, Diagnosis, Treatment and Outcome of Status Epilepticus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 779,
+            "start_date": "2010-12-16",
+            "completion_date": "2024-03-27",
+            "brief_summary": "Sex-specific differences in neurological emergencies such as Status epilepticus (SE) remain understudied despite growing recognition of gender disparities in medicine. This study aimes to investigate sex-related differences in etiology, diagnostics, treatment, and outcomes among patients with SE. The investigators conducted a retrospective analysis of 779 patients treated with SE at Marburg University Hospital between 2011 and 2023.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型觀察性研究（n=779），評估性別差異於 SE 病因/治療/預後，含 clonazepam 真實世界使用資料，間接支持"
+            }
+          },
+          {
+            "nct_id": "NCT02134366",
+            "title": "A Phase III, Randomized, Open Label, Single Center, Study on the Effects of Treatment of Epilepsia Partialis Continua With Clobazam Compared to Treatment With or in Addition to Lorazepam and/or Clonazepam",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2014-07",
+            "completion_date": "2017-07",
+            "brief_summary": "The purpose of this study is to evaluate whether clobazam, brand name Onf®, is more effective as an adjunctive or monotherapy in terminating Epilepsia Partialis Continua (EPC) than either lorazepam and/or clonazepam.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 設計但早期終止（n=7），統計力嚴重不足，僅提供設計參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT01870024",
+            "title": "Comparison Between Lorazepam, Clonazepam and Clonazepam + Fosphenytoin for the Treatment of Out-of-hospital Generalized Status Epilepticus in Adults Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 434,
+            "start_date": "2013-06-26",
+            "completion_date": "2018-02-23",
+            "brief_summary": "The main purpose of this study is to know on one hand if lorazepam is more (effective) than clonazepam and on the other hand if lorazepam is also effective as the association clonazepam + fosphenytoin in out-of-hospital treatment of the generalized convulsive status epilepticus in adult patients.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 完成 RCT（n=434），直接比較院外癲癇持續狀態 Lorazepam vs Clonazepam vs Clonazepam+Fosphenytoin，為 SE 核心 RCT 證據，與此適應症高度直接相關"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35971024",
+            "title": "Benzodiazepines in the Management of Seizures and Status Epilepticus: A Review of Routes of Delivery, Pharmacokinetics, Efficacy, and Tolerability.",
+            "authors": [
+              "Kienitz Ricardo",
+              "Kay Lara",
+              "Beuchat Isabelle",
+              "Gelhard Sarah",
+              "von Brauchitsch Sophie"
+            ],
+            "journal": "CNS drugs",
+            "year": "2022",
+            "abstract": "Status epilepticus (SE) is an acute, life-threatening medical condition that requires immediate, effective therapy. Therefore, the acute care of prolonged seizures and SE is a constant challenge for healthcare professionals, in both the pre-hospital and the in-hospital settings. Benzodiazepines (BZDs) are the first-line treatment for SE worldwide due to their efficacy, tolerability, and rapid onset of action. Although all BZDs act as allosteric modulators at the inhibitory gamma-aminobutyric aci",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35333156",
+            "title": "Pre-hospital and emergency department treatment of convulsive status epilepticus in adults: an evidence synthesis.",
+            "authors": [
+              "Cruickshank Moira",
+              "Imamura Mari",
+              "Booth Corinne",
+              "Aucott Lorna",
+              "Counsell Carl"
+            ],
+            "journal": "Health technology assessment (Winchester, England)",
+            "year": "2022",
+            "abstract": "Convulsive status epilepticus is defined as ≥ 5 minutes of either continuous seizure activity or repetitive seizures without regaining consciousness. It is regarded as an emergency condition that requires prompt treatment to avoid hospitalisation and to reduce morbidity and mortality. Rapid pre-hospital first-line treatment of convulsive status epilepticus is currently benzodiazepines, administered either by trained caregivers in the community (e.g. buccal midazolam, rectal diazepam) or by train",
+            "classification": {
+              "study_type": "Evidence-Based Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36158897",
+            "title": "Optimal Management of Status Epilepticus in Children in the Emergency Setting: A Review of Recent Advances.",
+            "authors": [
+              "Messahel Shrouk",
+              "Bracken Louise",
+              "Appleton Richard"
+            ],
+            "journal": "Open access emergency medicine : OAEM",
+            "year": "2022",
+            "abstract": "Convulsive status epilepticus (CSE) is the most common neurological emergency in children and the second most common neurological emergency in adults. Mortality is low, but morbidity, including neuro-disability, learning difficulties, and a de-novo epilepsy, may be as high as 22%. The longer the duration of CSE, the more difficult it is to terminate, and the greater the risk of morbidity. Convulsive status epilepticus is usually managed using specific national or local algorithms. The first-line",
+            "classification": {
+              "study_type": "Pediatric Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32893075",
+            "title": "Epilepsy in Angelman syndrome: A scoping review.",
+            "authors": [
+              "Samanta Debopam"
+            ],
+            "journal": "Brain & development",
+            "year": "2021",
+            "abstract": "Angelman Syndrome (AS) is characterized by severe developmental delays including marked speech impairment, movement abnormalities(ataxia, tremor), and unique behaviors such as frequent laughter and is caused by dysfunctional maternal UBE3A gene (maternal 15q11-13 deletions, maternal specific UBE3A mutation, uniparental disomy, and imprinting defect). Intractable epileptic seizures since early childhood with characteristic EEG abnormalities are present in 80-90% patients with AS. Underlying patho",
+            "classification": {
+              "study_type": "Scoping Review (Angelman/SE)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37291410",
+            "title": "Clonazepam Loading Dose in Status Epilepticus: Is More Always Better?",
+            "authors": [
+              "D'Anto Jennifer",
+              "Beuchat Isabelle",
+              "Rossetti Andrea O",
+              "Novy Jan"
+            ],
+            "journal": "CNS drugs",
+            "year": "2023",
+            "abstract": "Benzodiazepines are the first treatment line in status epilepticus (SE). Despite their well-established benefit, benzodiazepines are frequently underdosed with potential detrimental consequences. In some European countries, clonazepam (CLZ) is commonly used as the first line treatment. The aim of this study was to explore the correlation between CLZ loading doses and SE outcome.",
+            "classification": {
+              "study_type": "Clinical Study (Dose Analysis)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38358613",
+            "title": "Benzodiazepines for the Treatment of Seizure Clusters.",
+            "authors": [
+              "Penovich Patricia E",
+              "Rao Vikram R",
+              "Long Lucretia",
+              "Carrazana Enrique",
+              "Rabinowicz Adrian L"
+            ],
+            "journal": "CNS drugs",
+            "year": "2024",
+            "abstract": "Patients with epilepsy may experience seizure clusters, which are described by the US Food and Drug Administration (FDA) as intermittent, stereotypic episodes of frequent seizure activity that are distinct from a patient's usual seizure pattern. Untreated seizure clusters may increase the risk for status epilepticus, as well as decrease quality of life and increase burden on patients and care partners. Benzodiazepine therapies are the mainstay for acute treatment of seizure clusters and are ofte",
+            "classification": {
+              "study_type": "Review (Seizure Clusters)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2670537",
+            "title": "Pharmacokinetics and clinical use of benzodiazepines in the management of status epilepticus.",
+            "authors": [
+              "Treiman D M"
+            ],
+            "journal": "Epilepsia",
+            "year": "1989",
+            "abstract": "Benzodiazepines are potent and effective drugs for the management of acute seizures and status epilepticus. Lorazepam, diazepam, and clonazepam have been the most widely studied of the benzodiazepines in the treatment of status epilepticus. In 47 studies of these drugs involving 1,455 patients, lasting control of status epilepticus was achieved in 79% of the patients. None of these benzodiazepines is clearly superior to another for the effective control of status epilepticus. Differences in phar",
+            "classification": {
+              "study_type": "PK Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26109227",
+            "title": "Clonazepam in the treatment of status epilepticus.",
+            "authors": [
+              "Shangguan Yafei",
+              "Liao Huan",
+              "Wang Xuefeng"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2015",
+            "abstract": "Status epilepticus (SE) is a common and serious neurological disorder. The prognosis of SE may be improved by effectively treating the disorder as early as possible. Clonazepam (CZP) has rarely been included in treatment guidelines for SE; however, this drug has been widely used in the treatment of SE patients and has unique advantages. Here, we elaborate on the clinical application of CZP in the treatment of SE and provide an effective and alternative treatment method for this disorder. We revi",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32890066",
+            "title": "Drug Trials in Status Epilepticus: Current Evidence and Future Concepts.",
+            "authors": [
+              "Mandge Vishal",
+              "Husain Aatif M"
+            ],
+            "journal": "Journal of clinical neurophysiology : official publication of the American Electroencephalographic Society",
+            "year": "2020",
+            "abstract": "Status epilepticus (SE) is a neurologic emergency with high morbidity and mortality. After many advances in the field, several unanswered questions remain for optimal treatment after the early stage of SE. This narrative review describes some of the important drug trials for SE treatment that have shaped the understanding of the treatment of SE. The authors also propose possible clinical trial designs for the later stages of SE that may allow assessment of currently available and new treatment o",
+            "classification": {
+              "study_type": "Review (Drug Trials in SE)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35791584",
+            "title": "Clinical efficacy of clonazepam in the treatment of status epilepticus.",
+            "authors": [
+              "Zhou Xiaomeng",
+              "Fang Liang",
+              "Tong Xuefei",
+              "Xu Ying",
+              "Wu Xue"
+            ],
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2022",
+            "abstract": "To explore the clinical efficacy of clonazepam in the treatment of status epilepticus. Totally 60 patients with status epilepticus were identified as research subjects and assigned (1:1) via the randomized double-blind method to receive either diazepam (Valium) comparison group) or clonazepam (observation group). After treatment and follow-up visits, the treatment efficacy, incidence of adverse reactions, quality of life, and recurrence were evaluated and compared between the two groups. The tot",
+            "classification": {
+              "study_type": "Clinical Efficacy Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19264335",
+            "title": "[Management of convulsive status epilepticus in infants and children].",
+            "authors": [
+              "Hubert P",
+              "Parain D",
+              "Vallée L"
+            ],
+            "journal": "Revue neurologique",
+            "year": "2009",
+            "abstract": "Convulsive status epilepticus in childhood is a life threatening condition with serious risk of neurological sequelae which constitutes a medical emergency. Clinical and experimental data suggest that prolonged seizures can have immediate and long-term adverse consequences on the immature and developing brain. So the child who presents with a continuous generalized convulsive seizure lasting greater than five minutes should be promptly treated. The outcome is mainly determined by the underlying ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27073337",
+            "title": "Intravenous Clonazepam in Status Epilepticus.",
+            "authors": [
+              "Koubeissi Mohamad"
+            ],
+            "journal": "Epilepsy currents",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38263722",
+            "title": "Efficacy of intravenous clonazepam for paediatric convulsive status epilepticus.",
+            "authors": [
+              "Colmard Maxime",
+              "Rivier François",
+              "de Barry Gaëlle",
+              "Roubertie Agathe",
+              "Urtiaga-Valle Sarai"
+            ],
+            "journal": "Developmental medicine and child neurology",
+            "year": "2024",
+            "abstract": "To compare the efficacy of intravenous clonazepam (CLZ) for the initial management of convulsive status epilepticus (CSE) in children as a function of the first-line in-hospital dose used.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41486219",
+            "title": "Prehospital rescue treatment of cluster epileptic seizures and status epilepticus.",
+            "authors": [
+              "Jensen Stella",
+              "Roberti Roberta",
+              "Napolitano Alessandro",
+              "Bosco Vincenzo",
+              "Russo Emilio"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2026",
+            "abstract": "Benzodiazepines play a crucial role in the management of cluster epileptic seizures and status epilepticus (SE), particularly in prehospital settings where timely intervention is essential to prevent prolonged seizures and minimize neurological damage. This review focuses on the efficacy, safety, and practical considerations of benzodiazepines use in these critical situations, with an emphasis on prehospital administration. Benzodiazepines, such as diazepam, lorazepam, and midazolam, are first-l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38415847",
+            "title": "Managing paediatric convulsive status epilepticus: How useful is intravenous clonazepam?",
+            "authors": [
+              "Mifsud Janet"
+            ],
+            "journal": "Developmental medicine and child neurology",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30159881",
+            "title": "Status epilepticus in the elderly.",
+            "authors": [
+              "Leppik Ilo E"
+            ],
+            "journal": "Epilepsia",
+            "year": "2018",
+            "abstract": "Children and the elderly (≥60 years of age) have the highest incidence of status epilepticus (SE). Because of their general health, elderly individuals are much more likely than younger (<60 years of age) persons to have more severe consequences from seizures. The incidence of SE is 15.5/100 000 in the 60-69 age group, 21.5/100 000 in the 70-79 age group and 25.9/100 000 in persons 80 and older. The most common cause in the elderly is acute symptomatic, with stroke and hypoxia the most frequent.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31830677",
+            "title": "Therapeutic effect of intravenous levetiracetam in status epilepticus: A meta-analysis and systematic review.",
+            "authors": [
+              "Chu Shan-Shan",
+              "Wang Hai-Jiao",
+              "Zhu Li-Na",
+              "Xu Da",
+              "Wang Xue-Ping"
+            ],
+            "journal": "Seizure",
+            "year": "2020",
+            "abstract": "We performed this analysis to evaluate the efficacy and safety of intravenous levetiracetam (IV LEV) in patients with status epilepticus.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27890484",
+            "title": "25 years of advances in the definition, classification and treatment of status epilepticus.",
+            "authors": [
+              "Trinka Eugen",
+              "Kälviäinen Reetta"
+            ],
+            "journal": "Seizure",
+            "year": "2017",
+            "abstract": "Status epilepticus (SE) requires not only urgent symptomatic treatment with antiepileptic drugs but also rapid identification and treatment of its cause. This narrative review summarizes the most important advances in classification and treatment of SE.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clonazepam 為長效苯二氮䓬類（t½ 20-60h），透過 GABA-A 受體正向調節，快速終止全腦持續性異常放電。其較長半衰期使其在癲癇持續狀態的復發預防上優於 diazepam。多項 Phase 3 RCT 直接於此適應症完成，包含院外及院內場景。Guardrails：呼吸抑制監測、劑量依體重調整（兒科）、與其他 CNS 抑制劑交互作用評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "adolescent/adult onset autosomal dominant epilepsy with auditory features",
+      "txgnn": {
+        "score": 0.9682164788246156,
+        "rank": 21856
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ADPEAF（LGI1 基因突變，KCNQ5/DEPDC5 相關）為局灶性聽覺先兆癲癇，一線治療為 carbamazepine/lacosamide。Clonazepam 作為廣效苯二氮䓬類在理論上可作為附加治療，但無任何針對此特定基因型癲癇症候群的臨床或基礎研究。文獻計數為 0，試驗計數為 0。此評分純屬 TxGNN 圖神經網路的知識圖譜推斷，建議在取得基礎機轉研究前暫不推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "reading seizures",
+      "txgnn": {
+        "score": 0.96567040681839,
+        "rank": 22644
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7640741",
+            "title": "[Hyperexplexia].",
+            "authors": [
+              "Chevrel J",
+              "Berthier M",
+              "Bonneau D",
+              "Cardona J",
+              "Oriot D"
+            ],
+            "journal": "Archives de pediatrie : organe officiel de la Societe francaise de pediatrie",
+            "year": "1995",
+            "abstract": "Hyperexplexia is a disease of neonatal onset characterized by an exaggerated startle reflex. Early diagnosis is important to rule out epilepsy. Clinical findings are mainly hypertony and generalized startle reflex which is exaggerated by tiredness and some exogenous stimuli. Electroencephalogram is normal. The expression of the disease is variable including minor forms that may be unnoticed and major forms with arthrogryposis-like symptoms, orthopedic complications, false passages, apnea and eve",
+            "classification": {
+              "study_type": "Review (Hyperexplexia/BZD effective)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6510379",
+            "title": "Startle-induced epileptic seizures.",
+            "authors": [
+              "Aguglia U",
+              "Tinuper P",
+              "Gastaut H"
+            ],
+            "journal": "Epilepsia",
+            "year": "1984",
+            "abstract": "The present study was undertaken in order to describe 16 more patients suffering from startle-induced epileptic seizures and to clarify further the possible therapeutic activity of benzodiazepines in this rare reflex epilepsy. The interictal and ictal electroclinical data of 16 epileptic children or adolescents have been detailed. A CT-scan was performed in 10 patients; six of them showed an atrophy of the mesial surface of one or both hemispheres (\"mesial hypodensity\"). Benzodiazepine was assoc",
+            "classification": {
+              "study_type": "Clinical Study (Startle Seizures, 1984)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32283447",
+            "title": "Recurrent seizures cause immature brain injury and changes in GABA a receptor α1 and γ2 subunits.",
+            "authors": [
+              "Xi Xiao-Jun",
+              "Tang Ji-Hong",
+              "Zhang Bing-Bing",
+              "Shi Xiao-Yan",
+              "Feng Jun"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2020",
+            "abstract": "Recurrent seizures can cause brain damage and affect the cognitive outcome, particularly in developing children. We aimed to determine the effects of recurrent seizures on the expression of gamma-aminobutyric acid A receptor (GABAAR) α1 and γ2 subunit and neurodevelopment in immature rats. The role of the GABAAR agonist clonazepam and antagonist/partial agonist flumazenil in seizure-induced brain injury was also studied.",
+            "classification": {
+              "study_type": "Animal/Basic Study (GABA-A Subunit Changes)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14646614",
+            "title": "Carbamazepine, clonazepam and focal reflex proprioceptive seizures.",
+            "authors": [
+              "Sechi GianPietro",
+              "Corda Davide",
+              "Deiana Giovanni A",
+              "Contu Sabrina",
+              "Rosati Giulio"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "2003",
+            "abstract": "We studied a 34-year-old man with focal tonic-clonic seizures sometimes elicited by some active postures of the right hand and evolving at times to secondary generalization. Treatment with carbamazepine (CBZ) in combination with parenteral diazepam induced both a dramatic increase of focal reflex proprioceptive seizures and choreoathetoid dyskinesias in the affected hand. CBZ was withdrawn and clonazepam (CZP) given 2 mg daily, with complete relief of seizures and choreoathetoid dyskinesias. CZP",
+            "classification": {
+              "study_type": "Case Report (Proprioceptive Reflex Seizures, 2003)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34198356",
+            "title": "[Self-induced epileptic seizures: Prevalence, Causes and Treatment].",
+            "authors": [
+              "Rösche Johannes",
+              "Dudek Maria Iracema Rocha",
+              "Kohnen Oona"
+            ],
+            "journal": "Fortschritte der Neurologie-Psychiatrie",
+            "year": "2022",
+            "abstract": "Self-induced seizures were first described in 1827. A majority of authors found that in unselected patients with epilepsy, the prevalence rate of these seizures was 1%. In patients with photosensitive epilepsy, there was roughly a 25% prevalence. Apart from visual stimulation, many other mechanisms of self-induction have been described. A feeling of pleasure or relaxation during seizures may be a reason for self-inductive behaviour. But often the procedure of self-induction is experienced as inv",
+            "classification": {
+              "study_type": "Review (Self-Induced Seizures)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8891399",
+            "title": "Therapy of myoclonus.",
+            "authors": [
+              "Obeso J A"
+            ],
+            "journal": "Clinical neuroscience (New York, N.Y.)",
+            "year": "1995",
+            "abstract": "The treatment of myoclonus is mainly based on the pathophysiological origin of the neuronal discharges producing the jerks. Myoclonus of cortical origin responds best to treatment. Drugs commonly used to treat epilepsy are usually capable of controlling action and stimuli-sensitive cortical myoclonus. Piracetam (6-20 g/day), clonazepam (2-12 mg/day), sodium valproate (1,200-3,000 mg/day), and primidone (500-1,000 mg/day) are the most useful ones, often given in combination. Myoclonus of non-cort",
+            "classification": {
+              "study_type": "Review (Therapy of Myoclonus)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6768006",
+            "title": "Clonazepam therapy in reading epilepsy.",
+            "authors": [
+              "Hall J H",
+              "Marshall P C"
+            ],
+            "journal": "Neurology",
+            "year": "1980",
+            "abstract": "A 19-year-old man had reading-induced epilepsy; generalized seizures were preceded by myoclonus of the jaw. Although reading epilepsy is usually refractory to anticonvulsant therapy, treatment with clonazepam resulted in complete control of the involuntary movements precipitated by reading.",
+            "classification": {
+              "study_type": "Case Series/Clinical Report (1980, direct)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15036433",
+            "title": "Startle epilepsy complicating aspartylglucosaminuria.",
+            "authors": [
+              "Labate Angelo",
+              "Barone Rita",
+              "Gambardella Antonio",
+              "Civitelli Donata",
+              "Fiumara Agata"
+            ],
+            "journal": "Brain & development",
+            "year": "2004",
+            "abstract": "A 21-year-old right-handed man with definite diagnosis of aspartylglucosaminuria (AGU) presented with a 5-year history of progressive severe gait disturbance with frequent falls and generalized epileptic seizures triggered by unexpected stimuli. At one time, he was confined to a wheelchair because of the frequent falls. Electromyogram recording showed a large, excessive and not habituating motor startle response, with the classical and stereotyped order of muscle recruitment. During video-polygr",
+            "classification": {
+              "study_type": "Case Report (Startle Epilepsy + AGU)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22675038",
+            "title": "Adult onset startle epilepsy.",
+            "authors": [
+              "Moseley Brian Darryl",
+              "Shin Cheolsu"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2011",
+            "abstract": "A 45-year-old gentleman presented for classification of spells precipitated by startle. During these spells, he would briefly lose awareness, develop tonic stiffening of his extremities and fall. He had previously been diagnosed with paroxysmal kinesogenic dyskinesia and treated unsuccessfully with clonazepam, levetiracetam and carbamazepine. The patient was admitted for prolonged video EEG monitoring, during which numerous spells induced by startle were captured. His EEG revealed brief, fast be",
+            "classification": {
+              "study_type": "Case Report (Adult Onset Startle Epilepsy)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6141619",
+            "title": "Pharmacology of beta-phenylethylamine-induced seizures in mice.",
+            "authors": [
+              "Dourish C T",
+              "Cooper S J"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "1983",
+            "abstract": "The endogenous trace amine beta-phenylethylamine (PE) produced tonic-clonic seizures in male Swiss mice when administered in doses of 125-200 mg/kg. The number of mice exhibiting PE-induced seizures, the latency to onset of first seizure and the latency to loss of the righting reflex were dose dependent. Pretreatment with the benzodiazepines diazepam, chlordiazepoxide, midazolam and clonazepam significantly reduced the incidence of PE-induced seizures. Similarly, increasing brain gamma-aminobuty",
+            "classification": {
+              "study_type": "Animal Study (Seizure Pharmacology)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29416935",
+            "title": "Familial Cortical Myoclonic Tremor and Epilepsy, an Enigmatic Disorder: From Phenotypes to Pathophysiology and Genetics. A Systematic Review.",
+            "authors": [
+              "van den Ende Tom",
+              "Sharifi Sarvi",
+              "van der Salm Sandra M A",
+              "van Rootselaar Anne-Fleur"
+            ],
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2018",
+            "abstract": "Autosomal dominant familial cortical myoclonic tremor and epilepsy (FCMTE) is characterized by distal tremulous myoclonus, generalized seizures, and signs of cortical reflex myoclonus. FCMTE has been described in over 100 pedigrees worldwide, under several different names and acronyms. Pathological changes have been located in the cerebellum. This systematic review discusses the clinical spectrum, treatment, pathophysiology, and genetic findings.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3080851",
+            "title": "Action myoclonus, Ramsay Hunt syndrome, and other cerebellar myoclonic syndromes.",
+            "authors": [
+              "Lance J W"
+            ],
+            "journal": "Advances in neurology",
+            "year": "1986",
+            "abstract": "Action myoclonus, reviewed in this chapter, is the term applied to arrhythmic muscular jerking induced by voluntary movement. It is made worse by attempts at precise or coordinated movement (intention myoclonus) and may also be provoked by certain sensory stimuli. The effective stimuli for action myoclonus is probably feedback from muscle afferents, although it may be initiated by corollary discharge from motor cortex to reticular formation before or at the onset of voluntary movement. The condi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35263902",
+            "title": "Hyperekplexia: A Frequent Near Miss in Infants and Young Children.",
+            "authors": [
+              "Gupta Juhi",
+              "Badal Sachendra",
+              "Anand Vaishakh",
+              "Jauhari Prashant",
+              "Chakrabarty Biswaroop"
+            ],
+            "journal": "Neurology India",
+            "year": "2022",
+            "abstract": "Hyperekplexia, an underdiagnosed motor paroxysm of infancy, mimics epilepsy closely. It is hallmarked by episodic and excessive startle response, brief episodes of intense, generalized hypertonia, or stiffness in response to unexpected auditory and/or tactile stimuli right from birth. Though a seemingly benign entity with an excellent prognosis, hyperekplexia has been occasionally associated with recurrent apneas, feeding difficulties, and sudden infant death syndrome (SIDS). We describe three u",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15504715",
+            "title": "Late onset hyperekplexia.",
+            "authors": [
+              "Hamelin Sophie",
+              "Rohr Pascale",
+              "Kahane Philippe",
+              "Minotti Lorella",
+              "Vercueil Laurent"
+            ],
+            "journal": "Epileptic disorders : international epilepsy journal with videotape",
+            "year": "2004",
+            "abstract": "We report on the case of an 86-year-old woman who rapidly became unable to stand and walk because of jerky movements, suggesting a clinical diagnosis of myoclonus. It was observed that both unexpected and expected stimuli (audiogenic, tactile, or visual) triggered the myoclonic jerks. Electrophysiological exploration, including a coupled EEG-EMG study, showed the occurrence of a patterned motor response to each stimulation (whatever the modality), consisting of eye blinking, head flexion, abduct",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37252475",
+            "title": "Hyperekplexia: A Treatable Seizure Mimicker in Infants.",
+            "authors": [
+              "Dudipala Sai Chandar",
+              "Reddy Raja Vijendra",
+              "Shankar Roop"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Hyperekplexia (HK) or startle disease is an uncommon, early infantile onset, potentially treatable neurogenetic disorder. It is characterized by an exaggerated startle reflex in response to tactile or acoustic or visual stimuli followed by generalized hypertonia. It is caused by genetic mutations in a number of different genes such as GLRA1, SLC6A5, GLRB, GPHN, and ARHGEF9. HK is frequently misdiagnosed as a form of epilepsy and is advised for prolonged antiseizure medications. Here, we report a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16406611",
+            "title": "Game-related seizures presenting with two types of clinical features.",
+            "authors": [
+              "Chuang Yao-Chung",
+              "Chang Wen-Neng",
+              "Lin Tsu-Kung",
+              "Lu Cheng-Hsien",
+              "Chen Shang-Der"
+            ],
+            "journal": "Seizure",
+            "year": "2006",
+            "abstract": "We evaluated 22 patients with epileptic seizures in which the seizures were triggered by various games or game-related materials. Based on whether spontaneous seizure coexisted or not, these 22 patients were divided into two groups. Ten patients who experienced seizures exclusively while playing or watching specific games were referred to as Group I, while 12 patients that had both game-induced and spontaneous seizures were classified as Group II. The patients in Group I had a middle-age onset (",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27343727",
+            "title": "Cognitive performance in juvenile myoclonic epilepsy patients with specific endophenotypes.",
+            "authors": [
+              "Carvalho Kelly Cristina de",
+              "Uchida Carina Gonçalves Pedroso",
+              "Guaranha Mirian Salvadori Bittar",
+              "Guilhoto Laura Maria F F",
+              "Wolf Peter"
+            ],
+            "journal": "Seizure",
+            "year": "2016",
+            "abstract": "Juvenile myoclonic epilepsy (JME) is a heterogeneous syndrome in which seizures can be precipitated not only by non-specific factors, such as sleep deprivation and stress, but also by specific stimuli, such as photic stimuli, eye-closure, praxis, and language. The presence of these reflex traits may indicate the hyperexcitability of different cortical areas, which may be reflected in patients' neuropsychological deficit profile. The objective of our study is to investigate the possible relations",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14999495",
+            "title": "Frontal lobe dysfunction in sporadic hyperekplexia--case study and literature review.",
+            "authors": [
+              "Gaitatzis Athanasios",
+              "Kartsounis Luke D",
+              "Gacinovic Svetislav",
+              "Costa Durval C",
+              "Harvey Kirsten"
+            ],
+            "journal": "Journal of neurology",
+            "year": "2004",
+            "abstract": "Hyperekplexia (HE), or startle disease, is usually a familial disorder associated with mutations in the glycine receptor alpha1 subunit gene (GLRA1), characterised by exaggerated startle reactions to unexpected auditory, somaesthetic and visual stimuli. Non-familial cases may be idiopathic, or associated with pathology usually in the brainstem or rarely in the supratentorial compartment. The pathophysiological basis of HE is unclear. We report the case of a 40-year-old woman presenting with exce",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6465864",
+            "title": "Startle epilepsy: a clinical study.",
+            "authors": [
+              "Sáenz-Lope E",
+              "Herranz F J",
+              "Masdeu J C"
+            ],
+            "journal": "Annals of neurology",
+            "year": "1984",
+            "abstract": "Twelve patients with perinatal anoxic encephalopathy, 1 with encephalitis, and 1 with Down's syndrome had startle epilepsy. Hemiparesis, startle-induced seizures involving the hemiparetic side, focal electroencephalographic abnormalities, and unilateral lesions evident on computed tomographic scan were found in 6 patients, all of whom responded favorably to carbamazepine. The remaining 8 patients had severe intellectual impairment, bilateral motor deficits, generalized startle-induced seizures, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4076068",
+            "title": "Primary reading epilepsy.",
+            "authors": [
+              "Sáenz-Lope E",
+              "Herranz-Tanarro F J",
+              "Masdeu J C"
+            ],
+            "journal": "Epilepsia",
+            "year": "1985",
+            "abstract": "In six cases of reflex epilepsy, the seizures were triggered by reading or elaborating a verbal utterance, and were accompanied on EEG by focal or generalized epileptiform activity. The seizures were controlled with clonazepam in four cases and by sodium valproate in two cases. We speculate that the disturbance has a cortical origin and is triggered by neural processes involved in the elaboration of language.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "閱讀性癲癇（reading epilepsy）為反射性癲癇，閱讀觸發下頷肌陣攣繼而泛化。Clonazepam 的廣效抗肌陣攣特性（GABA 強化）理論上可抑制此類反射性閾值。1980 年有一份直接臨床報告（PMID 6768006）支持此用法，但樣本極小。驚嚇性癲癇相關文獻（苯二氮䓬類有效）提供旁證。需現代設計的前瞻性研究確認。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "epilepsy with generalized tonic-clonic seizures",
+      "txgnn": {
+        "score": 0.9653216004371644,
+        "rank": 22742
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01150331",
+            "title": "Efficiency of Levetiracetam Intravenous in Association With Clonazepam Versus Clonazepam Alone in Prehospital Care of Generalised Tonicoclonic Status Epilepticus",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 203,
+            "start_date": "2009-07",
+            "completion_date": "2013-10",
+            "brief_summary": "Compare the efficiency of the association, first line, the intravenous levetiracetam and the intravenous clonazepam, in that of a monotherapy of clonazepam intravenous in the pre-hospital treatment of tonicoclonic generalised status epilepticus.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 完成（n=203），主要評估 SE，但 convulsive GTCS 為常見表現型，提供 clonazepam 在 GTCS 型 SE 的直接療效資料"
+            }
+          },
+          {
+            "nct_id": "NCT07443241",
+            "title": "Gender-specific Differences in the Etiology, Diagnosis, Treatment and Outcome of Status Epilepticus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 779,
+            "start_date": "2010-12-16",
+            "completion_date": "2024-03-27",
+            "brief_summary": "Sex-specific differences in neurological emergencies such as Status epilepticus (SE) remain understudied despite growing recognition of gender disparities in medicine. This study aimes to investigate sex-related differences in etiology, diagnostics, treatment, and outcomes among patients with SE. The investigators conducted a retrospective analysis of 779 patients treated with SE at Marburg University Hospital between 2011 and 2023.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "觀察性研究（n=779），真實世界 GTCS 治療模式，含 clonazepam 使用分析"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32893075",
+            "title": "Epilepsy in Angelman syndrome: A scoping review.",
+            "authors": [
+              "Samanta Debopam"
+            ],
+            "journal": "Brain & development",
+            "year": "2021",
+            "abstract": "Angelman Syndrome (AS) is characterized by severe developmental delays including marked speech impairment, movement abnormalities(ataxia, tremor), and unique behaviors such as frequent laughter and is caused by dysfunctional maternal UBE3A gene (maternal 15q11-13 deletions, maternal specific UBE3A mutation, uniparental disomy, and imprinting defect). Intractable epileptic seizures since early childhood with characteristic EEG abnormalities are present in 80-90% patients with AS. Underlying patho",
+            "classification": {
+              "study_type": "Scoping Review (Angelman/GTCS)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38358613",
+            "title": "Benzodiazepines for the Treatment of Seizure Clusters.",
+            "authors": [
+              "Penovich Patricia E",
+              "Rao Vikram R",
+              "Long Lucretia",
+              "Carrazana Enrique",
+              "Rabinowicz Adrian L"
+            ],
+            "journal": "CNS drugs",
+            "year": "2024",
+            "abstract": "Patients with epilepsy may experience seizure clusters, which are described by the US Food and Drug Administration (FDA) as intermittent, stereotypic episodes of frequent seizure activity that are distinct from a patient's usual seizure pattern. Untreated seizure clusters may increase the risk for status epilepticus, as well as decrease quality of life and increase burden on patients and care partners. Benzodiazepine therapies are the mainstay for acute treatment of seizure clusters and are ofte",
+            "classification": {
+              "study_type": "Review (Benzodiazepines/Seizure Clusters)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35971024",
+            "title": "Benzodiazepines in the Management of Seizures and Status Epilepticus: A Review of Routes of Delivery, Pharmacokinetics, Efficacy, and Tolerability.",
+            "authors": [
+              "Kienitz Ricardo",
+              "Kay Lara",
+              "Beuchat Isabelle",
+              "Gelhard Sarah",
+              "von Brauchitsch Sophie"
+            ],
+            "journal": "CNS drugs",
+            "year": "2022",
+            "abstract": "Status epilepticus (SE) is an acute, life-threatening medical condition that requires immediate, effective therapy. Therefore, the acute care of prolonged seizures and SE is a constant challenge for healthcare professionals, in both the pre-hospital and the in-hospital settings. Benzodiazepines (BZDs) are the first-line treatment for SE worldwide due to their efficacy, tolerability, and rapid onset of action. Although all BZDs act as allosteric modulators at the inhibitory gamma-aminobutyric aci",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35333156",
+            "title": "Pre-hospital and emergency department treatment of convulsive status epilepticus in adults: an evidence synthesis.",
+            "authors": [
+              "Cruickshank Moira",
+              "Imamura Mari",
+              "Booth Corinne",
+              "Aucott Lorna",
+              "Counsell Carl"
+            ],
+            "journal": "Health technology assessment (Winchester, England)",
+            "year": "2022",
+            "abstract": "Convulsive status epilepticus is defined as ≥ 5 minutes of either continuous seizure activity or repetitive seizures without regaining consciousness. It is regarded as an emergency condition that requires prompt treatment to avoid hospitalisation and to reduce morbidity and mortality. Rapid pre-hospital first-line treatment of convulsive status epilepticus is currently benzodiazepines, administered either by trained caregivers in the community (e.g. buccal midazolam, rectal diazepam) or by train",
+            "classification": {
+              "study_type": "Evidence-Based Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "99652",
+            "title": "Clonazepam.",
+            "authors": [
+              "Browne T R"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (1978)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "352972",
+            "title": "Clonazepam: its efficacy in association with phenytoin and phenobarbital in mental patients with generalized major motor seizures.",
+            "authors": [
+              "Bielmann P",
+              "Levac T",
+              "Gagnon M A"
+            ],
+            "journal": "International journal of clinical pharmacology and biopharmacy",
+            "year": "1978",
+            "abstract": "In a 36-week controlled study, the efficacy of clonazepam administered with phenytoin and phenobarbital was evaluated in twenty-four epileptic mental patients suffering from major motor seizures. The patients were distributed in two strata according to the presence or the absence of chlorpromazine. As compared with placebo treatment in the chlorpromazine-free patients, a significant reduction in the frequency of the tonic-clonic seizures was observed during the 24-week clonazepam treatment. This",
+            "classification": {
+              "study_type": "RCT (1978, direct)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22386832",
+            "title": "Benign myoclonic epilepsy in infancy with preceding afebrile generalized tonic-clonic seizures in Japan.",
+            "authors": [
+              "Ito Susumu",
+              "Oguni Hirokazu",
+              "Osawa Makiko"
+            ],
+            "journal": "Brain & development",
+            "year": "2012",
+            "abstract": "Benign myoclonic epilepsy in infancy (BMEI) is the youngest form of idiopathic generalized epilepsy, characterized by myoclonic seizures (MS) in the first three years of life in otherwise normal infants, and the lack of other seizure types except for rare simple febrile seizures. Although afebrile generalized tonic-clonic seizures (GTCS) have been described to develop later in the clinical course of BMEI, mostly during adolescence, an association with GTCS in the early stage of BMEI has never be",
+            "classification": {
+              "study_type": "Clinical Study (Benign Myoclonic/GTCS)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32309880",
+            "title": "Clonazepam add-on therapy for drug-resistant epilepsy.",
+            "authors": [
+              "Song Lin",
+              "Liu Fang",
+              "Liu Yao",
+              "Zhang Ruoqi",
+              "Ji Huanhuan"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2020",
+            "abstract": "This is an updated version of the original Cochrane Review published in 2018, Issue 5. Epilepsy affects over 70 million people worldwide, and nearly a quarter of patients with seizures have drug-resistant epilepsy. People with drug-resistant epilepsy have increased risks of premature death, injuries, psychosocial dysfunction, and a reduced quality of life.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review (2020)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2550216",
+            "title": "Antiepileptic drug actions.",
+            "authors": [
+              "Macdonald R L"
+            ],
+            "journal": "Epilepsia",
+            "year": "1989",
+            "abstract": "Antiepileptic drugs (AEDs) vary in their efficacy against generalized tonic-clonic, myoclonic, and absence seizures, suggesting different mechanisms of action. Phenytoin (PHT), carbamazepine (CBZ), and valproate (VPA) reduced the ability of mouse central neurons to sustain high-frequency repetitive firing of action potentials (SRF) at therapeutic free serum concentrations. Phenobarbital (PB) and the benzodiazepines (BZDs), diazepam (DZP), clonazepam (CZP), and lorazepam (LZP), also reduced SRF, ",
+            "classification": {
+              "study_type": "Review (AED Mechanisms)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29717488",
+            "title": "Clonazepam add-on therapy for refractory epilepsy in adults and children.",
+            "authors": [
+              "Song Lin",
+              "Liu Fang",
+              "Liu Yao",
+              "Zhang Ruoqi",
+              "Ji Huanhuan"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2018",
+            "abstract": "Epilepsy affects about 50 million people worldwide, nearly a quarter of whom have drug-refractory epilepsy. People with drug-refractory epilepsy have increased risks of premature death, injuries, psychosocial dysfunction, and a reduced quality of life.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review (2018)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36533757",
+            "title": "Efficacy of the anti-seizure medications in acute symptomatic neonatal seizures caused by stroke. A systematic review.",
+            "authors": [
+              "Sortino Vincenzo",
+              "Praticò Andrea",
+              "Marino Silvia",
+              "Criscione Roberta",
+              "Ruggieri Martino"
+            ],
+            "journal": "Acta bio-medica : Atenei Parmensis",
+            "year": "2022",
+            "abstract": "Neonatal stroke is the second cause of acute symptomatic neonatal seizures after hypoxic-ischemic encephalopathy. The aim of this systematic review is to determine which drug among those available represents the best therapeutic choice for treatment of secondary seizures due to neonatal stroke.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35187637",
+            "title": "Clonazepam monotherapy for treating people with newly diagnosed epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Igwe Stanley C",
+              "Bragazzi Nicola Luigi",
+              "Lattanzi Simona"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Epilepsy is one of the most common neurological disorders worldwide, with an age-adjusted prevalence of 4 to 8 per 1000 population and an age-adjusted incidence of 44 per 100,000 person-years in developed countries. Monotherapy represents the best therapeutic option in people with newly diagnosed epilepsy. This is an updated version of the original Cochrane Review published in 2019, Issue 11.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11096777",
+            "title": "Primary Generalized Epilepsies.",
+            "authors": [
+              "Murphy K",
+              "Delanty N"
+            ],
+            "journal": "Current treatment options in neurology",
+            "year": "2000",
+            "abstract": "For pure childhood absence epilepsy (CAE), ethosuximide (ESM) remains the drug of first choice. Although valproic acid (VPA) is of equal efficacy, it is more toxic, and is reserved for those patients with accompanying convulsions. Lamotrigine (LTG) is effective as both add-on and monotherapy for CAE. If any of these three drugs fails, one of the other two can be used as monotherapy. Rarely, when ESM, VPA, or LTG does not effectively control CAE, phenytoin (PHT), primidone (PRM), and phenobarbita",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6510379",
+            "title": "Startle-induced epileptic seizures.",
+            "authors": [
+              "Aguglia U",
+              "Tinuper P",
+              "Gastaut H"
+            ],
+            "journal": "Epilepsia",
+            "year": "1984",
+            "abstract": "The present study was undertaken in order to describe 16 more patients suffering from startle-induced epileptic seizures and to clarify further the possible therapeutic activity of benzodiazepines in this rare reflex epilepsy. The interictal and ictal electroclinical data of 16 epileptic children or adolescents have been detailed. A CT-scan was performed in 10 patients; six of them showed an atrophy of the mesial surface of one or both hemispheres (\"mesial hypodensity\"). Benzodiazepine was assoc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2418650",
+            "title": "Baltic myoclonus.",
+            "authors": [
+              "Koskiniemi M L"
+            ],
+            "journal": "Advances in neurology",
+            "year": "1986",
+            "abstract": "It has been found that PME without Lafora bodies is more common in Finland than elsewhere. The incidence is 1:20,000. The mode of inheritance is autosomal recessive. At first the children are healthy. Stimulus-sensitive myoclonic jerks and grand mal seizures appear at the age of 6 to 15 years. The EEG shows a generalized disturbance with spike-wave or polyspike-wave paroxysms which increase during photic stimulation. Myoclonic jerks incapacitate the patient. Within 5 years after the onset of the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31742671",
+            "title": "Clonazepam monotherapy for treating people with newly diagnosed epilepsy.",
+            "authors": [
+              "Brigo Francesco",
+              "Igwe Stanley C",
+              "Bragazzi Nicola Luigi",
+              "Lattanzi Simona"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2019",
+            "abstract": "Epilepsy is one of the most common neurological disorders worldwide, with an age-adjusted prevalence of 4 to 8 per 1000 population and an age-adjusted incidence of 44 per 100,000 person-years in developed countries. Monotherapy represents the best therapeutic option in people with newly diagnosed epilepsy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40468679",
+            "title": "Current and emerging pharmacotherapies in Lennox-Gastaut syndrome.",
+            "authors": [
+              "Samanta Debopam",
+              "Nath Manan"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2025",
+            "abstract": "Lennox-Gastaut syndrome (LGS) is a severe childhood-onset developmental and epileptic encephalopathy characterized by multiple drug-resistant seizures, cognitive impairments, and distinctive EEG patterns. Given its profound impact on patients' quality of life, developing effective pharmacotherapies remains a critical clinical challenge.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24351614",
+            "title": "Absence seizures in children.",
+            "authors": [
+              "Posner Ewa"
+            ],
+            "journal": "BMJ clinical evidence",
+            "year": "2013",
+            "abstract": "About 10% of seizures in children with epilepsy are typical absence seizures. Absence seizures have a significant impact on quality of life.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GTCS 為全腦同步異常放電，Clonazepam 透過 GABA-A 正向調節提升全腦癲癇閾值，抑制異常放電傳播。有 1978 年直接 RCT 資料（Clonazepam 附加 phenytoin/phenobarbital），且兩篇 Cochrane 系統性綜述支持其作為附加治療（add-on）於藥物難治性癲癇的療效。現代大型 Phase 3 RCT 設計多聚焦 SE，GTCS 次級分析資料仍支持。Guardrails：依賴性評估、與其他 AED 交互作用、長期耐受性監測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "restless legs syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "restless legs syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "restless legs syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "insomnia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "insomnia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "insomnia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "trigeminal nerve neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "trigeminal nerve neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "trigeminal nerve neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "acute encephalopathy with biphasic seizures and late reduced diffusion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "acute encephalopathy with biphasic seizures and late reduced diffusion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "acute encephalopathy with biphasic seizures and late reduced diffusion"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "trigeminal neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "trigeminal neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "trigeminal neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "status epilepticus"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "status epilepticus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "status epilepticus"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "adolescent/adult onset autosomal dominant epilepsy with auditory features"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "adolescent/adult onset autosomal dominant epilepsy with auditory features"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "adolescent/adult onset autosomal dominant epilepsy with auditory features"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "reading seizures"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "reading seizures"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "reading seizures"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "epilepsy with generalized tonic-clonic seizures"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "epilepsy with generalized tonic-clonic seizures"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clonazepam",
+        "disease": "epilepsy with generalized tonic-clonic seizures"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+分析 Adapalene (DB00210) 的藥物再利用證據，根據提供的資料（TxGNN 預測分數、臨床試驗與文獻資料）進行系統性評估。
+
+---
+
+```json
+{
+  "drug": "Adapalene",
+  "drugbank_id": "DB00210",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Adapalene 為第三代合成類視黃素（retinoid），雖系統 MOA 標記為 [Data Gap]，但其藥理機轉為結合核內 RAR-β/γ 受體，調節角質細胞分化、具溶粉刺與抗炎特性。市場狀態「未上市」可能指新加坡在地情形；全球已核准用於痤瘡。",
+  "indications": [
+    {
+      "disease_name": "zinc, elevated plasma",
+      "txgnn_score": 0.9951,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Adapalene 透過 RAR 路徑調控鋅指轉錄因子，鋅與視黃素訊號存在間接交互作用；但「治療血漿鋅升高」此方向無任何生物合理性文獻支持，高分為 KG 訓練偏差所致。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "純計算預測", "疾病表型與藥物作用機轉不符"]
+    },
+    {
+      "disease_name": "isolated congenital adermatoglyphia",
+      "txgnn_score": 0.9880,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無指紋症由 SMARCAD1 突變引起，屬發育性遺傳疾病。視黃素訊號影響胚胎皮膚形態發生，但 Adapalene 為局部外用藥且無產前治療數據，機轉關聯極為薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["罕見遺傳病", "無任何臨床或文獻證據", "純計算預測"]
+    },
+    {
+      "disease_name": "Beare-Stevenson cutis gyrata syndrome",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症由 FGFR2 功能獲得性突變引起（皮膚腦回狀皺褶 + 顱縫早閉）。部分視黃素可調節 FGFR 訊號，但 Adapalene 對此遺傳症候群無任何已知治療效果，屬純計算推斷。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["超罕見遺傳症候群", "無臨床試驗", "無文獻", "純計算預測"]
+    },
+    {
+      "disease_name": "demodicidosis of sebaceous gland",
+      "txgnn_score": 0.9545,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Adapalene 正規化皮脂腺角質細胞分化、減少粉刺形成，可能改變毛囊皮脂腺單位微環境，間接不利於蠕形螨寄生。抗炎特性亦可緩解螨蟲引發的局部炎症。雖有生物合理性，仍無任何直接臨床試驗或文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["生物合理性存在但未驗證", "無臨床試驗", "無文獻", "值得設計 Pilot 研究"]
+    },
+    {
+      "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+      "txgnn_score": 0.9530,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PAPA 症候群（PSTPIP1 突變）三聯徵中，Adapalene 對「痤瘡（Acne）」成分具直接藥理作用，可能部分緩解皮膚症狀；但對化膿性關節炎與壞疽性膿皮病（炎症體通路）無直接機轉，屬局部對症處理而非疾病修飾。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["超罕見自發炎疾病", "僅對三聯徵之一有效", "無直接臨床證據"]
+    },
+    {
+      "disease_name": "prolidase deficiency",
+      "txgnn_score": 0.8933,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脯氨酸酶缺乏症導致膠原蛋白代謝障礙與皮膚潰瘍。視黃素可促進傷口癒合與皮膚屏障修復，但 Adapalene 局部作用機轉與此症的代謝酶缺陷無直接相關，KG 預測可能基於皮膚症狀共現節點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["罕見代謝疾病", "無臨床試驗", "無文獻", "機轉連結薄弱"]
+    },
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn_score": 0.8721,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "全身性視黃素（如異維A酸）確實影響骨代謝（抑制成骨細胞、加速骨吸收），但 Adapalene 為外用製劑，全身吸收極低（< 1 ng/mL），無法產生足夠的全身性骨代謝效應。此預測方向反而揭示潛在骨安全性疑慮，而非治療用途。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["預測方向可能為藥物副作用而非適應症", "無臨床試驗", "無文獻", "局部吸收限制全身效應"]
+    },
+    {
+      "disease_name": "seborrheic dermatitis",
+      "txgnn_score": 0.8628,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Adapalene 正規化角質細胞分化、抗炎（抑制 TLR 訊號、IL-6/IL-8），可能改善脂漏性皮膚炎的角質化異常與炎症；亦可能間接影響 Malassezia 寄生環境（皮脂調節）。惟此為機轉推斷，現有 3 篇試驗均為痤瘡研究，並非直接研究 SD，文獻亦不直接支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05497323",
+          "title": "Salicylic Acid + APF + Niacinamide 複合乳霜效果研究",
+          "phase": "PHASE1",
+          "status": "UNKNOWN",
+          "enrollment": 284,
+          "relevance_grade": "C",
+          "reasoning": "研究複合乳霜配方，成分中不含 Adapalene；且適應症為痤瘡相關皮膚，非脂漏性皮膚炎。收錄原因可能為研究皮膚狀況關鍵字重疊，與本適應症關聯性極低。"
+        },
+        {
+          "nct_id": "NCT06281782",
+          "title": "PRP 合併外用視黃素 vs 單純外用視黃素治療痤瘡",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 40,
+          "relevance_grade": "C",
+          "reasoning": "研究外用視黃素（可能包含 Adapalene）用於痤瘡，非脂漏性皮膚炎。提供視黃素類藥物皮膚安全性資料，但對 SD 無直接證據。"
+        },
+        {
+          "nct_id": "NCT03076320",
+          "title": "Zaxcell vs Effezel（Adapalene+BPO）治療炎症性與疤痕性病變",
+          "phase": "PHASE1_PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 82,
+          "relevance_grade": "B",
+          "reasoning": "Effezel 含 Adapalene 0.1% + BPO，研究炎症性皮膚病變，雖非 SD，但提供 Adapalene 對炎症性皮膚疾病的 Phase 1/2 安全性數據，間接支持作用機轉。相關性中等。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39069843",
+          "title": "Adapalene 0.3%/BPO 2.5% 在韓國痤瘡患者的效果",
+          "year": "2024",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_note": "研究 Adapalene 在痤瘡的效果，非 SD 直接證據，但支持皮脂腺炎症機轉。"
+        },
+        {
+          "pmid": "36102580",
+          "title": "含 Licochalcone A 等保濕劑對痤瘡皮膚的影響",
+          "year": "2022",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_note": "複合保濕劑研究，主要針對痤瘡，與 SD 關聯甚低。"
+        },
+        {
+          "pmid": "27504089",
+          "title": "乳房下皮膚炎：局部晚發性 Darier 氏病個案報告",
+          "year": "2016",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Darier 氏病（角化不全）個案，非 SD，但顯示視黃素類藥物對角化異常皮膚疾病的應用潛力。"
+        }
+      ]
+    },
+    {
+      "disease_name": "sebaceous gland anomaly",
+      "txgnn_score": 0.8516,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Adapalene 核心機轉即作用於毛囊皮脂腺單位：結合 RAR-β/γ 使皮脂腺導管角質細胞分化正常化、減少微粉刺形成、降低皮脂腺腺管阻塞。「皮脂腺異常」此分類在臨床編碼上高度重疊於粉刺性/痤瘡性皮脂腺病變，與 Adapalene 既有核准適應症直接對應。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00446043",
+          "title": "Adapalene 0.1% + BPO 固定劑型長期安全性與療效研究",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 452,
+          "relevance_grade": "A",
+          "reasoning": "直接研究 Adapalene 0.1% 複方製劑，Phase 3 完成，樣本數 452 人，長期安全性數據完整。皮脂腺異常是痤瘡的核心病理，此試驗為最強直接證據。"
+        },
+        {
+          "nct_id": "NCT02557399",
+          "title": "Duac（Clindamycin+BPO）治療面部痤瘡",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 350,
+          "relevance_grade": "B",
+          "reasoning": "研究 BPO 複方治療同類皮脂腺病變，提供同適應症的活性對照數據，但不含 Adapalene，為間接比較依據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25217865",
+          "title": "0.1% Adapalene 在非炎症性京都犀牛鼠痤瘡模型的效果",
+          "year": "2014",
+          "study_type": "Animal Study",
+          "tier": "2",
+          "relevance_note": "直接研究 Adapalene 對皮脂腺/毛囊異常的動物模型，支持機轉並提供臨床前劑量反應數據。"
+        }
+      ],
+      "guardrails": [
+        "需確認在新加坡的法規申請路徑（現為未上市狀態）",
+        "應與已有全球核准之痤瘡適應症區分臨床定義，避免適應症過度擴張",
+        "長期使用需監測皮膚刺激性（紅斑、脫屑）",
+        "孕婦禁用（全身性視黃素致畸性，局部雖低吸收，仍建議避免）"
+      ]
+    },
+    {
+      "disease_name": "inherited skin tumor",
+      "txgnn_score": 0.8292,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "視黃素類藥物在皮膚腫瘤化學預防有既有理論基礎（如基底細胞癌、皮膚鱗狀細胞癌的化學預防），透過調節腫瘤抑制基因表達、細胞週期調控（CDK 抑制）與促凋亡路徑。遺傳性皮膚腫瘤（如 Gorlin 症候群）中全身性視黃素有探索性用途，但 Adapalene 外用形式對遺傳性腫瘤無直接臨床試驗或文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["視黃素化學預防理論合理", "無 Adapalene 直接臨床試驗", "全身性 vs 局部途徑差異顯著", "值得追蹤文獻"]
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 1,
+      "L5": 8
+    },
+    "stage_distribution": {
+      "S0": 8,
+      "S1": 1,
+      "S2": 1,
+      "S3": 0
+    },
+    "priority_recommendations": [
+      {
+        "rank": 1,
+        "disease": "sebaceous gland anomaly",
+        "rationale": "Phase 3 RCT（NCT00446043）直接含 Adapalene，動物模型支持，機轉最直接，L2→可行性評估"
+      },
+      {
+        "rank": 2,
+        "disease": "seborrheic dermatitis",
+        "rationale": "角質細胞調節機轉合理，Phase 1/2 間接安全性資料存在，值得設計 Pilot RCT"
+      },
+      {
+        "rank": 3,
+        "disease": "demodicidosis of sebaceous gland",
+        "rationale": "皮脂腺微環境改變可抑制蠕形螨，需設計概念驗證研究"
+      }
+    ],
+    "data_quality_concerns": [
+      "original_moa 標記為 [Data Gap]，Adapalene 實際 MOA 文獻充分，建議補全資料庫欄位",
+      "多數試驗為痤瘡研究，因 ICD 編碼重疊被納入非痤瘡適應症分析，造成 S/N ratio 偏低",
+      "8/10 適應症為純計算預測（L5），建議設定 TxGNN Score 閾值過濾或要求至少 L4 文獻佐證才進入分析管線"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 疾病 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|---|---|---|---|---|
+| 🔴 zinc, elevated plasma | 0.9951 | L5 | S0 | Hold |
+| 🔴 isolated congenital adermatoglyphia | 0.9880 | L5 | S0 | Hold |
+| 🔴 Beare-Stevenson cutis gyrata | 0.9878 | L5 | S0 | Hold |
+| 🟡 demodicidosis of sebaceous gland | 0.9545 | L5 | S0 | Research Question |
+| 🟡 PAPA syndrome | 0.9530 | L5 | S0 | Research Question |
+| 🔴 prolidase deficiency | 0.8933 | L5 | S0 | Hold |
+| 🔴 drug-induced osteoporosis | 0.8721 | L5 | S0 | **Hold ⚠️** |
+| 🟡 **seborrheic dermatitis** | 0.8628 | **L4** | **S1** | Research Question |
+| 🟢 **sebaceous gland anomaly** | 0.8516 | **L2** | **S2** | **Proceed with Guardrails** |
+| 🟡 inherited skin tumor | 0.8292 | L5 | S0 | Research Question |
+
+### 關鍵洞察
+
+1. **TxGNN 高分 ≠ 高證據**：前 3 名預測分數（0.99+）均為 L5，顯示 KG 圖嵌入可能因「皮膚相關節點密集連結」產生系統性偏差。
+
+2. **drug-induced osteoporosis 特別警示**：此預測方向實際上可能反映視黃素類藥物的**骨安全性副作用**，而非治療適應症，需標記為反向安全信號。
+
+3. **sebaceous gland anomaly 最具潛力**：具 Phase 3 Adapalene 直接試驗數據，機轉完全吻合，建議在新加坡市場進行法規路徑評估（MAA/NDA）。

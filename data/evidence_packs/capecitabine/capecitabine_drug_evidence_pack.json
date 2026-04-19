@@ -1,0 +1,2339 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01101-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Capecitabine",
+    "drugbank_id": "DB01101",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "gastric adenocarcinoma and proximal polyposis of the stomach",
+      "txgnn": {
+        "score": 0.9993860721588136,
+        "rank": 1322
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GAPPS（胃腺癌合併胃近端息肉病）為罕見遺傳性癌症症候群，由 APC 啟動子 1B 突變驅動，腫瘤微環境與散發性胃癌不同。Capecitabine 之 5-FU 機轉理論上可抑制腺癌細胞增殖，但尚無針對 GAPPS 的臨床前或臨床研究。TxGNN 預測分數（0.9994）極高，反映知識圖譜中胃癌類節點的強相關性，而非 GAPPS 特異性證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "gastric tubular adenocarcinoma",
+      "txgnn": {
+        "score": 0.9993752837181092,
+        "rank": 1339
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34102137",
+            "title": "First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649): a randomised, open-label, phase 3 trial.",
+            "authors": [
+              "Janjigian Yelena Y",
+              "Shitara Kohei",
+              "Moehler Markus",
+              "Garrido Marcelo",
+              "Salman Pamela"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2021",
+            "abstract": "First-line chemotherapy for advanced or metastatic human epidermal growth factor receptor 2 (HER2)-negative gastric or gastro-oesophageal junction adenocarcinoma has a median overall survival (OS) of less than 1 year. We aimed to evaluate first-line programmed cell death (PD)-1 inhibitor-based therapies in gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma. We report the first results for nivolumab plus chemotherapy versus chemotherapy alone.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30982686",
+            "title": "Perioperative chemotherapy with fluorouracil plus leucovorin, oxaliplatin, and docetaxel versus fluorouracil or capecitabine plus cisplatin and epirubicin for locally advanced, resectable gastric or gastro-oesophageal junction adenocarcinoma (FLOT4): a randomised, phase 2/3 trial.",
+            "authors": [
+              "Al-Batran Salah-Eddin",
+              "Homann Nils",
+              "Pauligk Claudia",
+              "Goetze Thorsten O",
+              "Meiler Johannes"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2019",
+            "abstract": "Docetaxel-based chemotherapy is effective in metastatic gastric and gastro-oesophageal junction adenocarcinoma. This study reports on the safety and efficacy of the docetaxel-based triplet FLOT (fluorouracil plus leucovorin, oxaliplatin and docetaxel) as a perioperative therapy for patients with locally advanced, resectable tumours.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37524953",
+            "title": "Zolbetuximab plus CAPOX in CLDN18.2-positive gastric or gastroesophageal junction adenocarcinoma: the randomized, phase 3 GLOW trial.",
+            "authors": [
+              "Shah Manish A",
+              "Shitara Kohei",
+              "Ajani Jaffer A",
+              "Bang Yung-Jue",
+              "Enzinger Peter"
+            ],
+            "journal": "Nature medicine",
+            "year": "2023",
+            "abstract": "There is an urgent need for first-line treatment options for patients with human epidermal growth factor receptor 2 (HER2)-negative, locally advanced unresectable or metastatic gastric or gastroesophageal junction (mG/GEJ) adenocarcinoma. Claudin-18 isoform 2 (CLDN18.2) is expressed in normal gastric cells and maintained in malignant G/GEJ adenocarcinoma cells. GLOW (closed enrollment), a global, double-blind, phase 3 study, examined zolbetuximab, a monoclonal antibody that targets CLDN18.2, plu",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38806195",
+            "title": "Tislelizumab plus chemotherapy versus placebo plus chemotherapy as first line treatment for advanced gastric or gastro-oesophageal junction adenocarcinoma: RATIONALE-305 randomised, double blind, phase 3 trial.",
+            "authors": [
+              "Qiu Miao-Zhen",
+              "Oh Do-Youn",
+              "Kato Ken",
+              "Arkenau Tobias",
+              "Tabernero Josep"
+            ],
+            "journal": "BMJ (Clinical research ed.)",
+            "year": "2024",
+            "abstract": "To evaluate the efficacy and safety of tislelizumab added to chemotherapy as first line (primary) treatment for advanced gastric or gastro-oesophageal junction adenocarcinoma compared with placebo plus chemotherapy.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34252374",
+            "title": "Perioperative or postoperative adjuvant oxaliplatin with S-1 versus adjuvant oxaliplatin with capecitabine in patients with locally advanced gastric or gastro-oesophageal junction adenocarcinoma undergoing D2 gastrectomy (RESOLVE): an open-label, superiority and non-inferiority, phase 3 randomised controlled trial.",
+            "authors": [
+              "Zhang Xiaotian",
+              "Liang Han",
+              "Li Ziyu",
+              "Xue Yingwei",
+              "Wang Yanong"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2021",
+            "abstract": "The optimal perioperative chemotherapeutic regimen for locally advanced gastric cancer remains undefined. We evaluated the efficacy and safety of perioperative and postoperative S-1 and oxaliplatin (SOX) compared with postoperative capecitabine and oxaliplatin (CapOx) in patients with locally advanced gastric cancer undergoing D2 gastrectomy.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22226517",
+            "title": "Adjuvant capecitabine and oxaliplatin for gastric cancer after D2 gastrectomy (CLASSIC): a phase 3 open-label, randomised controlled trial.",
+            "authors": [
+              "Bang Yung-Jue",
+              "Kim Young-Woo",
+              "Yang Han-Kwang",
+              "Chung Hyun Cheol",
+              "Park Young-Kyu"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2012",
+            "abstract": "D2 gastrectomy is recommended in US and European guidelines, and is preferred in east Asia, for patients with resectable gastric cancer. Adjuvant chemotherapy improves patient outcomes after surgery, but the benefits after a D2 resection have not been extensively investigated in large-scale trials. We investigated the effect on disease-free survival of adjuvant chemotherapy with capecitabine plus oxaliplatin after D2 gastrectomy compared with D2 gastrectomy only in patients with stage II-IIIB ga",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37875143",
+            "title": "Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for HER2-negative advanced gastric cancer (KEYNOTE-859): a multicentre, randomised, double-blind, phase 3 trial.",
+            "authors": [
+              "Rha Sun Young",
+              "Oh Do-Youn",
+              "Yañez Patricio",
+              "Bai Yuxian",
+              "Ryu Min-Hee"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2023",
+            "abstract": "PD-1 inhibitors combined with chemotherapy have shown efficacy in gastric or gastro-esophageal junction cancer. We compared the efficacy and safety of pembrolizumab plus chemotherapy with placebo plus chemotherapy in participants with locally advanced or metastatic HER2-negative gastric or gastro-esophageal junction adenocarcinoma.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38051328",
+            "title": "Sintilimab Plus Chemotherapy for Unresectable Gastric or Gastroesophageal Junction Cancer: The ORIENT-16 Randomized Clinical Trial.",
+            "authors": [
+              "Xu Jianming",
+              "Jiang Haiping",
+              "Pan Yueyin",
+              "Gu Kangsheng",
+              "Cang Shundong"
+            ],
+            "journal": "JAMA",
+            "year": "2023",
+            "abstract": "Gastric and gastroesophageal junction cancers are diagnosed in more than 1 million people worldwide annually, and few effective treatments are available. Sintilimab, a recombinant human IgG4 monoclonal antibody that binds to programmed cell death 1 (PD-1), in combination with chemotherapy, has demonstrated promising efficacy.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20728210",
+            "title": "Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial.",
+            "authors": [
+              "Bang Yung-Jue",
+              "Van Cutsem Eric",
+              "Feyereislova Andrea",
+              "Chung Hyun C",
+              "Shen Lin"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2010",
+            "abstract": "Trastuzumab, a monoclonal antibody against human epidermal growth factor receptor 2 (HER2; also known as ERBB2), was investigated in combination with chemotherapy for first-line treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27776843",
+            "title": "Histopathological regression after neoadjuvant docetaxel, oxaliplatin, fluorouracil, and leucovorin versus epirubicin, cisplatin, and fluorouracil or capecitabine in patients with resectable gastric or gastro-oesophageal junction adenocarcinoma (FLOT4-AIO): results from the phase 2 part of a multicentre, open-label, randomised phase 2/3 trial.",
+            "authors": [
+              "Al-Batran Salah-Eddin",
+              "Hofheinz Ralf D",
+              "Pauligk Claudia",
+              "Kopp Hans-Georg",
+              "Haag Georg Martin"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2016",
+            "abstract": "Docetaxel-based chemotherapy is effective in metastatic gastric and gastro-oesophageal junction adenocarcinoma, but has not yet been evaluated in the context of resectable patients. Here we report findings from the phase 2 part of the phase 2/3 FLOT4 trial, which compared histopathological regression in patients treated with a docetaxel-based triplet chemotherapy versus an anthracycline-based triplet chemotherapy before surgical resection.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33610734",
+            "title": "FAST: a randomised phase II study of zolbetuximab (IMAB362) plus EOX versus EOX alone for first-line treatment of advanced CLDN18.2-positive gastric and gastro-oesophageal adenocarcinoma.",
+            "authors": [
+              "Sahin U",
+              "Türeci Ö",
+              "Manikhas G",
+              "Lordick F",
+              "Rusyn A"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2021",
+            "abstract": "Claudin 18.2 (CLDN18.2) is contained within normal gastric mucosa epithelial tight junctions; upon malignant transformation, CLDN18.2 epitopes become exposed. Zolbetuximab, a chimeric monoclonal antibody, mediates specific killing of CLDN18.2-positive cells through immune effector mechanisms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38191613",
+            "title": "Neoadjuvant atezolizumab plus chemotherapy in gastric and gastroesophageal junction adenocarcinoma: the phase 2 PANDA trial.",
+            "authors": [
+              "Verschoor Yara L",
+              "van de Haar Joris",
+              "van den Berg José G",
+              "van Sandick Johanna W",
+              "Kodach Liudmila L"
+            ],
+            "journal": "Nature medicine",
+            "year": "2024",
+            "abstract": "Gastric and gastroesophageal junction (G/GEJ) cancers carry a poor prognosis, and despite recent advancements, most patients die of their disease. Although immune checkpoint blockade became part of the standard-of-care for patients with metastatic G/GEJ cancers, its efficacy and impact on the tumor microenvironment (TME) in early disease remain largely unknown. We hypothesized higher efficacy of neoadjuvant immunotherapy plus chemotherapy in patients with nonmetastatic G/GEJ cancer. In the phase",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39952264",
+            "title": "Perioperative or postoperative adjuvant oxaliplatin with S-1 versus adjuvant oxaliplatin with capecitabine in patients with locally advanced gastric or gastro-oesophageal junction adenocarcinoma undergoing D2 gastrectomy (RESOLVE): final report of a randomised, open-label, phase 3 trial.",
+            "authors": [
+              "Zhang Xiaotian",
+              "Liang Han",
+              "Li Ziyu",
+              "Xue Yingwei",
+              "Wang Yanong"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2025",
+            "abstract": "The multicentre RESOLVE trial examined the efficacy of perioperative and postoperative S-1 and oxaliplatin (SOX) compared with postoperative capecitabine and oxaliplatin (CapOx) in gastric or gastro-oesophageal junction cancer. Initial analyses did not encompass overall survival owing to the immature data. This paper provides an updated analysis of the survival data from the RESOLVE trial.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39992668",
+            "title": "First-Line Sugemalimab Plus Chemotherapy for Advanced Gastric Cancer: The GEMSTONE-303 Randomized Clinical Trial.",
+            "authors": [
+              "Zhang Xiaotian",
+              "Wang Jufeng",
+              "Wang Gang",
+              "Zhang Yanqiao",
+              "Fan Qingxia"
+            ],
+            "journal": "JAMA",
+            "year": "2025",
+            "abstract": "Gastric cancer, including gastroesophageal junction cancer, is one of the most commonly diagnosed cancers worldwide, with high mortality. Sugemalimab is a fully human anti-programmed death-ligand 1 (PD-L1) antibody. The combination of sugemalimab and chemotherapy showed promising antitumor activity and safety in a phase 1b study among patients with treatment-naive, unresectable, locally advanced or metastatic gastric or gastroesophageal junction adenocarcinoma. This combination was further evalu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37856106",
+            "title": "Chemotherapy and Immune Checkpoint Blockade for Gastric and Gastroesophageal Junction Adenocarcinoma.",
+            "authors": [
+              "Manji Gulam A",
+              "Lee Shing",
+              "Del Portillo Armando",
+              "May Michael",
+              "Ana Sarah Sta"
+            ],
+            "journal": "JAMA oncology",
+            "year": "2023",
+            "abstract": "Combining immune checkpoint blockade (ICB) with chemotherapy improves outcomes in patients with metastatic gastric and gastroesophageal junction (G/GEJ) adenocarcinoma; however, whether this combination has activity in the perioperative setting remains unknown.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36121651",
+            "title": "First-line nivolumab plus chemotherapy vs chemotherapy in patients with advanced gastric, gastroesophageal junction and esophageal adenocarcinoma: CheckMate 649 Chinese subgroup analysis.",
+            "authors": [
+              "Liu Tianshu",
+              "Bai Yuxian",
+              "Lin Xiaoyan",
+              "Li Wei",
+              "Wang Jufeng"
+            ],
+            "journal": "International journal of cancer",
+            "year": "2023",
+            "abstract": "First-line chemotherapy for advanced/metastatic human epidermal growth factor receptor 2 (HER2)-negative gastric/gastroesophageal junction cancer (GC/GEJC) has poor median overall survival (OS; <1 year). We report efficacy and safety results from Chinese patients in the phase III global CheckMate 649 study of nivolumab plus chemotherapy vs chemotherapy for the first-line treatment of GC/GEJC/esophageal adenocarcinoma (EAC). Chinese patients with previously untreated advanced or metastatic GC/GEJ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25744576",
+            "title": "Efficacy and safety of trastuzumab in combination with oxaliplatin and fluorouracil-based chemotherapy for patients with HER2-positive metastatic gastric and gastro-oesophageal junction adenocarcinoma patients: a retrospective study.",
+            "authors": [
+              "Soularue Émilie",
+              "Cohen Romain",
+              "Tournigand Christophe",
+              "Zaanan Aziz",
+              "Louvet Christophe"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2015",
+            "abstract": "Trastuzumab with 5-fluorouracil (5-FU) and cisplatin offers prolonged survival in patients with HER2-overexpressing advanced gastric cancer (AGC) and advanced gastro-oesophageal junction cancer (AGOJ). Oxaliplatin in combination with intravenous 5-FU plus leucovorin (LV; modified [m]FOLFOX6) or capecitabine (XELOX) improves tolerability compared with 5-FU/cisplatin regimen. There are few data available on the efficacy and safety of trastuzumab-oxaliplatin-based chemotherapy in previously untreat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33975465",
+            "title": "KEYNOTE-859: a Phase III study of pembrolizumab plus chemotherapy in gastric/gastroesophageal junction adenocarcinoma.",
+            "authors": [
+              "Tabernero Josep",
+              "Bang Yung-Jue",
+              "Van Cutsem Eric",
+              "Fuchs Charles S",
+              "Janjigian Yelena Yuriy"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2021",
+            "abstract": "Current guidelines recommend two-drug cytotoxic chemotherapy with a fluoropyrimidine (fluorouracil or capecitabine) and a platinum-based agent (oxaliplatin or cisplatin) as first-line treatment for advanced gastric cancer. Pembrolizumab monotherapy has demonstrated durable antitumor activity in patients with advanced programmed death ligand 1-positive (combined positive score ≥1) gastric/gastroesophageal junction adenocarcinoma. Accumulating evidence indicates that combining pembrolizumab with s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30718072",
+            "title": "Ramucirumab with cisplatin and fluoropyrimidine as first-line therapy in patients with metastatic gastric or junctional adenocarcinoma (RAINFALL): a double-blind, randomised, placebo-controlled, phase 3 trial.",
+            "authors": [
+              "Fuchs Charles S",
+              "Shitara Kohei",
+              "Di Bartolomeo Maria",
+              "Lonardi Sara",
+              "Al-Batran Salah-Eddin"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2019",
+            "abstract": "VEGF and VEGF receptor 2 (VEGFR-2)-mediated signalling and angiogenesis can contribute to the pathogenesis and progression of gastric cancer. We aimed to assess whether the addition of ramucirumab, a VEGFR-2 antagonist monoclonal antibody, to first-line chemotherapy improves outcomes in patients with metastatic gastric or gastro-oesophageal junction adenocarcinoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39122726",
+            "title": "Clinical outcomes and ctDNA correlates for CAPOX BETR: a phase II trial of capecitabine, oxaliplatin, bevacizumab, trastuzumab in previously untreated advanced HER2+ gastroesophageal adenocarcinoma.",
+            "authors": [
+              "Singh Harshabad",
+              "Lowder Kristen E",
+              "Kapner Kevin",
+              "Kelly Ronan J",
+              "Zheng Hui"
+            ],
+            "journal": "Nature communications",
+            "year": "2024",
+            "abstract": "Preclinical studies suggest that simultaneous HER2/VEGF blockade may have cooperative effects in gastroesophageal adenocarcinomas. In a single-arm investigator initiated clinical trial for patients with untreated advanced HER2+ gastroesophageal adenocarcinoma, bevacizumab was added to standard of care capecitabine, oxaliplatin, and trastuzumab in 36 patients (NCT01191697). Primary endpoint was objective response rate and secondary endpoints included safety, duration of response, progression free",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃管狀腺癌為最常見的胃癌組織學亞型（Lauren 腸型，佔約 50-60%）。Capecitabine 透過 5-FU 抑制 TS，阻礙 dTMP 合成，造成 DNA 損傷誘導凋亡；腸型胃癌細胞高表達 TP（Thymidine Phosphorylase），促進 capecitabine 在腫瘤局部活化，療效具組織學選擇性合理性。CLASSIC Phase 3 RCT 以 CAPOX 輔助化療在 D2 根治術後胃癌（主要為管狀腺癌）獲得顯著 DFS 改善（HR 0.56, p<0.0001），為最強直接支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "microinvasive gastric cancer",
+      "txgnn": {
+        "score": 0.9993752837181092,
+        "rank": 1340
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "微浸潤胃癌（黏膜下層浸潤 ≤500μm）通常以內視鏡黏膜下剝離術（ESD）為根治性治療首選，5 年存活率超過 95%，全身性化療在此階段不列入標準治療。Capecitabine 的機轉雖理論適用，但臨床適應症不匹配，且化療毒性風險在此低危族群中無法合理化。無任何臨床試驗或文獻支持 capecitabine 用於微浸潤胃癌。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "signet ring cell gastric adenocarcinoma",
+      "txgnn": {
+        "score": 0.9993752837181092,
+        "rank": 1341
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06238752",
+            "title": "First-line Apatinib Combined With Tislelizumab and Chemotherapy for Advanced Gastric and Gastroesophageal Junction(G/GEJ) Adenocarcinoma Patients With Poor Prognosis: A Prospective Exploratory Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2021-03-01",
+            "completion_date": "2024-01-01",
+            "brief_summary": "In this clinical study, investigators explore the efficacy and safety of a combination therapy regimen with antiangiogenic agent (apatinib), ICI (tislelizumab), and chemotherapy (capecitabine+ Oxaliplatin, XELOX) as first-line treatment for HER2-negative, advanced G/GEJ cancer patients with signet ring cell carcinoma or peritoneal metastasis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，n=33，Apatinib + Tislelizumab + 化療（CAPOX）用於晚期胃/GEJ 癌（含印戒細胞成分）。樣本量過小，且非 SRCA 專屬設計，但確認 capecitabine 在此混合方案的可行性"
+            }
+          },
+          {
+            "nct_id": "NCT07091227",
+            "title": "Efficacy and Safety of AK112 Combined Chemotherapy as Neoadjuvant Treatment for Signet Ring Cell-containing Gastric or Gastroesophageal Junction Adenocarcinoma",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 66,
+            "start_date": "2025-07-20",
+            "completion_date": "2029-07-20",
+            "brief_summary": "Study Overview\n\nThe primary objective of this clinical trial is to evaluate the efficacy and safety of AK112 in combination with chemotherapy as a neoadjuvant treatment for patients with locally advanced, resectable gastric or gastroesophageal junction (G/GEJ) adenocarcinoma containing signet ring cells.\n\nKey Research Questions\n\n1. Does neoadjuvant treatment with AK112 plus chemotherapy improve the pathological complete response (pCR) rate compared to chemotherapy alone in patients with locally ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 NOT_YET_RECRUITING，n=66，AK112（PD-1/VEGF 雙抗）+ 化療新輔助治療專門針對含印戒細胞成分的胃癌，capecitabine 為化療骨幹選項。設計直接相關，代表此亞型研究的前沿方向，但尚無結果"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26848413",
+            "title": "An Unusual Recurrence of Signet Ring Cell Gastric Adenocarcinoma Treated by Right Hemicolectomy, Pancreaticoduodenectomy, and IVC Resection: Controversies and Dilemmas of Following Standard Treatment Pathways.",
+            "authors": [
+              "Sodergren Mikael",
+              "Brammer Kirsty",
+              "Zentler-Munro Patrick L",
+              "Cunningham David",
+              "Mudan Satvinder"
+            ],
+            "journal": "Cureus",
+            "year": "2015",
+            "abstract": "We present the case of a 67-year-old male patient with a past history of previously resected T3 right adrenocortical carcinoma and T3N1 signet ring cell adenocarcinoma of the stomach who presented with recurrence of gastric cancer in the form of a large solitary mass in the right abdomen. He was treated with ECX (epirubicin, cisplatin and capecitabine) chemotherapy and multivisceral resection. This recurrence pattern is the first such description in the literature, and we discuss the controversi",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20233566",
+            "title": "Cutaneous metastasis as first clinical manifestation of signet ring cell gastric carcinoma.",
+            "authors": [
+              "Aneiros-Fernandez J",
+              "Husein-ElAhmed H",
+              "Arias-Santiago S",
+              "Escobar Gómez-Villalva F",
+              "Nicolae Alina"
+            ],
+            "journal": "Dermatology online journal",
+            "year": "2010",
+            "abstract": "Cutaneous metastases from signet ring cell gastric carcinoma are uncommon. A 69-year-old man presented with a 15-day history of an asymptomatic indurated scar-like lesion. The biopsy revealed an infiltrating signet ring cell carcinoma consistent with gastric metastasis. Gastroscopy and biopsy showed gastric carcinoma with signet ring cells; subsequent computed tomography revealed metastatic nodules in the liver, mesentery, and retroperitoneal and peripancreatic lymph nodes. A review of the 10 ca",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35085931",
+            "title": "Effect of peri-operative chemotherapy regimen on survival in the treatment of locally advanced oesophago-gastric adenocarcinoma - A comparison of the FLOT and 'MAGIC' regimens.",
+            "authors": [
+              "Moore Jonathan L",
+              "Kumar Sacheen",
+              "Santaolalla Aida",
+              "Patel Pranav H",
+              "Kapiris Matthaios"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2022",
+            "abstract": "Peri-operative chemotherapy improves survival in patients with locally advanced oesophago-gastric adenocarcinoma. Two regimens with proven survival benefits are epirubicin, cisplatin plus capecitabine or fluorouracil (Medical Research Council Adjuvant Gastric Infusional Chemotherapy, MAGIC) and fluorouracil plus leucovorin, oxaliplatin, and docetaxel (FLOT). This study aimed to compare the effect of these regimens on survival (primary aim) and pathological response, surgical complications, adver",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20721843",
+            "title": "[Diagnosis and treatment of gastric cancer].",
+            "authors": [
+              "Lordick F",
+              "Grenacher L",
+              "Röcken C",
+              "Ebert M",
+              "Moehler M"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "2010",
+            "abstract": "From a global perspective, gastric cancer including cancer of the esophago-gastric junction is the fourth most common malignant tumor and the second-most common cause of cancer-related death. Due to the lack of screening programs in Western countries, most gastric cancers are diagnosed in advanced stages. A sophisticated staging should include high-resolution computed tomography of the thorax, abdomen and pelvis and video-documented endoscopy and endoscopic ultrasound. In mucosal gastric cancer,",
+            "classification": {
+              "study_type": "Review/Guideline",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26324361",
+            "title": "Surgical Resection First for Localized Gastric Adenocarcinoma: Are There Adjuvant Options?",
+            "authors": [
+              "Elimova Elena",
+              "Ajani Jaffer A"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2015",
+            "abstract": "A 55-year-old male presented with upper abdominal bloating followed by modest hematemesis that led to the diagnosis of an ulcerated poorly differentiated (with signet ring cells) adenocarcinoma in the angularis of the stomach. A contrast-enhanced positron emission tomography (PET) with computed tomography (CT) scan showed higher-than-normal physiologic avidity (standardized uptake value, 4.3) in the proximal stomach but not in the lower stomach, and the CT scan vaguely suggested a polypoid lesio",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24175788",
+            "title": "Can capecitabine be used instead of concurrent bolus 5-FU in postoperative chemoradiotherapy for gastric adenocarcinoma?",
+            "authors": [
+              "Yoney Adnan",
+              "Isikli Levent"
+            ],
+            "journal": "Asian Pacific journal of cancer prevention : APJCP",
+            "year": "2013",
+            "abstract": "5-fluoro-uracil (FU) is a common agent in postoperative chemoradiation in gastric adenocarcinoma. However, FU is not well tolerated in a significant proportion of patients. Capecitabine (CA) is an orally administered fluoropyrimidine carbamate which is preferentially converted to active 5-FU and is one of the agents used instead of FU in such cases. We compared the toxicity, local and distant control and survival rates with FU or oral CA during the course of concurrent radiotherapy to assess the",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29202657",
+            "title": "A case of gastric cancer metastasis to the breast in a female with BRCA2 germline mutation and literature review.",
+            "authors": [
+              "Dulskas Audrius",
+              "Al Bandar Mahdi",
+              "Choi Yoon Young",
+              "Shin Su-Jin",
+              "Beom Seung-Hoon"
+            ],
+            "journal": "Acta chirurgica Belgica",
+            "year": "2019",
+            "abstract": "Gastric cancer is a deadly disease. Common sites of distant metastasis of gastric cancer are the peritoneum, liver, lymph nodes, and lung. The breast is a rare site of metastasis in gastric cancer which occurs in males dominantly.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19690058",
+            "title": "Postoperative chemoradiotherapy in gastric cancer--a phase I-II study of radiotherapy with dose escalation of weekly cisplatin and daily capecitabine chemotherapy.",
+            "authors": [
+              "Jansen E P M",
+              "Boot H",
+              "Dubbelman R",
+              "Verheij M",
+              "Cats A"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2010",
+            "abstract": "Postoperative chemoradiotherapy with concurrent 5-fluorouracil improves gastric cancer outcome. We previously demonstrated that chemoradiotherapy with a more intensified--and therefore potentially more effective--schedule with daily cisplatin and oral capecitabine is feasible. Because such an intensive schedule requires an extensive logistic infrastructure which is not available in every hospital, we additionally investigated the tolerability of this combined regimen with weekly instead of daily",
+            "classification": {
+              "study_type": "Phase 1-2",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17848909",
+            "title": "Postoperative chemoradiotherapy in gastric cancer -- a Phase I/II dose-finding study of radiotherapy with dose escalation of cisplatin and capecitabine chemotherapy.",
+            "authors": [
+              "Jansen E P M",
+              "Boot H",
+              "Dubbelman R",
+              "Bartelink H",
+              "Cats A"
+            ],
+            "journal": "British journal of cancer",
+            "year": "2007",
+            "abstract": "We hypothesised that gastric cancer outcome could be improved with more effective and intensified postoperative chemoradiotherapy. This phase I/II study was performed to determine the maximal tolerated dose (MTD) and toxicity profile of postoperative radiotherapy with concurrent daily cisplatin and capecitabine. Patients were treated with capecitabine 1000 mg m(-2) twice a day (b.i.d.) for 2 weeks. Subsequently, patients received capecitabine (250-650 mg m(-2) orally b.i.d., 5 days week(-1)) and",
+            "classification": {
+              "study_type": "Phase 1-2",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29372626",
+            "title": "Capecitabine/cisplatin versus 5-fluorouracil/cisplatin in Chinese patients with advanced and metastatic gastric cancer: Re-analysis of efficacy and safety data from the ML17032 phase III clinical trial.",
+            "authors": [
+              "Chen Jia",
+              "Xiong Jianping",
+              "Wang Jiejun",
+              "Zheng Leizhen",
+              "Gao YanFei"
+            ],
+            "journal": "Asia-Pacific journal of clinical oncology",
+            "year": "2018",
+            "abstract": "To confirm non-inferiority and test potential superiority of capecitabine/cisplatin (XP) over 5-fluorouracil (5-FU)/cisplatin (FP) as first-line treatment for advanced gastric cancer (AGC) in Chinese patients.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33021243",
+            "title": "A case of segmental hepatic necrosis complicating oxaliplatin and capecitabine chemotherapy A case report and review of the literature.",
+            "authors": [
+              "Di Sibio Alessandra",
+              "Varrassi Marco",
+              "Venditti Olga",
+              "Di Cesare Ernesto",
+              "Romano Lucia"
+            ],
+            "journal": "Annali italiani di chirurgia",
+            "year": "2020",
+            "abstract": "Chemotherapy is associated with different patterns of histopathological changes of the non-tumor-bearing liver. Hepatic infarction represents a relatively rare condition; the prevalence in several series of consecutive autopsies is 1.1%. To the best of our knowledge, no cases of liver infarction secondary to chemotherapy have been reported to date. We report a case of segmental hepatic infarction following the adjuvant chemotherapy with Oxaliplatin and Capecitabine in a patient who had undergone",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38449404",
+            "title": "[A Case of Late Recurrence of Gastric Cancer Over Ten Years Post Gastrectomy].",
+            "authors": [
+              "Tsuchihashi Hiroshi",
+              "Okumura Satoru",
+              "Toyoda Sho",
+              "Hamano Genya",
+              "Yamamoto Kansuke"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2024",
+            "abstract": "A 72-year-old woman underwent a low anterior resection of the rectum and a total hysterectomy with a bilateral salpingo- oophorectomy simultaneously for rectal and ovarian cancer, respectively. The pathological diagnosis was a moderately differentiated adenocarcinoma of the rectum with some poorly differentiated components signet-ring cell components. A mucinous adenocarcinoma, with similar characteristics as that in the rectum, was found in the ovary. Intraoperative findings revealed no direct ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19615292",
+            "title": "[Retrospective study on regimens of capecitabine-based chemotherapy in the treatment for advanced gastric cancer].",
+            "authors": [
+              "Zhang Jie",
+              "Xiao Ya",
+              "Lu Ming",
+              "Li Jie",
+              "Zhang Xiao-dong"
+            ],
+            "journal": "Zhonghua zhong liu za zhi [Chinese journal of oncology]",
+            "year": "2009",
+            "abstract": "To evaluate the toxicity and efficacy of capecitabine-based chemotherapy in the treatment of advanced gastric cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30911859",
+            "title": "Pembrolizumab alone or in combination with chemotherapy as first-line therapy for patients with advanced gastric or gastroesophageal junction adenocarcinoma: results from the phase II nonrandomized KEYNOTE-059 study.",
+            "authors": [
+              "Bang Yung-Jue",
+              "Kang Yoon-Koo",
+              "Catenacci Daniel V",
+              "Muro Kei",
+              "Fuchs Charles S"
+            ],
+            "journal": "Gastric cancer : official journal of the International Gastric Cancer Association and the Japanese Gastric Cancer Association",
+            "year": "2019",
+            "abstract": "The multicohort, phase II, nonrandomized KEYNOTE-059 study evaluated pembrolizumab ± chemotherapy in advanced gastric/gastroesophageal junction cancer. Results from cohorts 2 and 3, evaluating first-line therapy, are presented.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26126412",
+            "title": "Gastrectomy in comprehensive treatment of advanced gastric cancer with synchronous liver metastasis: a prospectively comparative study.",
+            "authors": [
+              "Li Ziyu",
+              "Fan Biao",
+              "Shan Fei",
+              "Tang Lei",
+              "Bu Zhaode"
+            ],
+            "journal": "World journal of surgical oncology",
+            "year": "2015",
+            "abstract": "Systemic chemotherapy is the key treatment for advanced gastric cancer. The benefit of adjuvant surgery following preoperative chemotherapy in gastric cancer with liver metastasis has not been well established.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39237045",
+            "title": "Phase 1 Trial of Total Neoadjuvant Therapy With Short-Course Chemoradiotherapy Followed by Chemotherapy for Patients With Potentially Resectable Gastric Cancer.",
+            "authors": [
+              "Badgwell Brian",
+              "Ikoma Naruhiko",
+              "Murphy Mariela Blum",
+              "Li Jenny",
+              "Wang Xuemei"
+            ],
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2025",
+            "abstract": "The purpose of this phase 1 trial was to evaluate the safety and toxicity of preoperative short-course chemoradiotherapy (CRT) as part of total neoadjuvant therapy (TNT) for patients with potentially resectable gastric or gastroesophageal adenocarcinoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40837582",
+            "title": "Case Report: Successful treatment of triple primary cancers (lung, stomach, and intestine) using sintilimab combined with chemotherapy and targeted therapy.",
+            "authors": [
+              "Zhang Qi-Qing",
+              "Luo Xin-Xin",
+              "Chen Hua",
+              "Wang Wei",
+              "Xie Yi-Fan"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "This case report presents a rare instance of synchronous multiple primary cancers involving lung adenocarcinoma with bone metastasis, gastric signet-ring cell carcinoma, and rectal cancer. The 64-year-old male patient was treated with a combination of sintilimab, chemotherapy, and targeted therapy. Following a multidisciplinary team consultation, systemic treatment with sintilimab, oxaliplatin, and capecitabine was initiated concurrently while furmonertinib targeted therapy continued. After six ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32381891",
+            "title": "[A Case of Superficial-Type Gastric Cancer with Metastatic Ovarian Cancer Diagnosed by Exploratory Laparotomy].",
+            "authors": [
+              "Kawada Junji",
+              "Hata Tomoki",
+              "Tanizaki Keiko",
+              "Tokuda Takaaki",
+              "Kimura Shinya"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2020",
+            "abstract": "Here, we report a case of superficial-type gastric cancer with metastatic ovarian cancer(Krukenberg tumor)diagnosed by exploratory laparotomy. Chemotherapy was initiated at an early stage in this patient. A 43-year-old woman with superficialtype gastric cancer(0-Ⅱb plusⅡa), an ovarian tumor, and a solitary sclerotic bone lesion underwent exploratory laparotomy and bilateral salpingo-oophorectomy. Pathological findings showed that the resected ovarian tumor specimen contained the same type of sig",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34000769",
+            "title": "[A multi-center retrospective study of perioperative chemotherapy for gastric cancer based on real-world data].",
+            "authors": [
+              "Ding X W",
+              "Zheng Z C",
+              "Zhao Q",
+              "Zhai G",
+              "Liang H"
+            ],
+            "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+            "year": "2021",
+            "abstract": "Objective: To explore the effect of perioperative chemotherapy on the prognosis of gastric cancer patients under real-world condition. Methods: A retrospective cohort study was carried out. Real world data of gastric cancer patients receiving perioperative chemotherapy and surgery + adjuvant chemotherapy in 33 domestic hospitals from January 1, 2014 to January 31, 2016 were collected. Inclusion criteria: (1) gastric adenocarcinoma was confirmed by histopathology, and clinical stage was cT2-4aN0-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31230156",
+            "title": "Is pathologic tumor regression grade after neo-adjuvant chemotherapy a promising prognostic indicator for patients with locally advanced gastric cancer? A cohort study evaluating tumor regression response.",
+            "authors": [
+              "Xu Xing",
+              "Zheng Guoliang",
+              "Zhang Tao",
+              "Zhao Yan",
+              "Zheng Zhichao"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2019",
+            "abstract": "The MAGIC trial has shown perioperative chemotherapy does significantly improve overall survival of patients with gastric and esophagogastric junction carcinoma. The approach to evaluate the effectiveness of adjuvant chemotherapy is urgent in clinical practice.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "印戒細胞癌（SRCA）具有瀰漫型生長模式，富含黏液素（MUC5AC/MUC6），腫瘤微環境呈免疫抑制性，且通常 CDH1 突變率較高。重要的是，SRCA 對氟嘧啶類化療的反應率普遍低於管狀腺癌（客觀緩解率差異約 15-20%），可能因 TP 低表達導致 capecitabine 局部活化效率降低。儘管 CAPOX 方案在胃癌整體框架下適用，但 SRCA 特異性療效數據有限，建議作為研究問題而非直接外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gastric cardia adenocarcinoma",
+      "txgnn": {
+        "score": 0.999129354953766,
+        "rank": 1759
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01295086",
+            "title": "Dose Determination of Taxotere®, Eloxatin® and Xeloda® (TEX)in Combination With Herceptin® as First-line Treatment for Patients With HER2 Positive Non-resectable Oesophagus, Cardia or Gastric Cancer (ECV)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2011-03",
+            "completion_date": "2018-01",
+            "brief_summary": "The primary aim of this dose-finding study is to determine the maximum tolerated dose of taxotere, eloxatin and capecitabine (TEX) in combination with herceptin given every third week as first-line treatment in patients with HER2-positive advanced gastro-esophageal cancer. Secondary end points are to evaluate progression-free survival and overall survival.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "NA Phase COMPLETED，n=27，TEX（Taxotere/Eloxatin/Xeloda）+ Herceptin 劑量確定研究，賁門/GEJ 可能包含，僅提供安全性數據"
+            }
+          },
+          {
+            "nct_id": "NCT00040859",
+            "title": "A Phase II Study of Oxaliplatin and Capecitabine in Patients With Measurable Metastatic Adenocarcinoma of the Esophagus, Gastroesophageal Junction, and Gastric Cardia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2002-09",
+            "completion_date": "2008-04",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combining oxaliplatin with capecitabine in treating patients who have advanced esophageal cancer or stomach cancer.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 COMPLETED，n=48，專門研究 Oxaliplatin + Capecitabine（CAPOX）在食道/GEJ/胃腺癌的療效，直接測試本適應症的核心方案，ORR 45%，PFS 6.1 個月"
+            }
+          },
+          {
+            "nct_id": "NCT07000253",
+            "title": "Timing of Minimally Invasive Local Treatment After First-Line Systemic Therapy in Oligometastatic Esophageal or Gastric Adenocarcinoma: A Randomized Prospective Clinical Study (OMEC-5)",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 290,
+            "start_date": "2026-01",
+            "completion_date": "2034-01",
+            "brief_summary": "Purpose of the Study:\n\nThis clinical study investigates whether a shorter or longer duration of systemic therapy before local treatment (surgery or radiation) results in better disease control in patients with esophageal or gastric cancer with a limited number of metastases, also known as oligometastases.\n\nBackground:\n\nIn about 25% of patients with advanced esophageal or gastric cancer, the disease spreads to only a few sites (oligometastatic disease). Prior studies suggest that local treatment ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3 NOT_YET_RECRUITING，n=290，寡轉移性食道胃癌局部治療時機研究，capecitabine 為化療骨幹選項之一，間接支持"
+            }
+          },
+          {
+            "nct_id": "NCT00414271",
+            "title": "A Phase II Study of Neo-adjuvant Chemotherapy in Locally Advanced Gastric Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2006-01",
+            "completion_date": "2015-10",
+            "brief_summary": "Thymidylate Synthase (TS) is a key enzyme in the synthesis of DNA and the target enzyme inhibited by 5-fluorouracil (5-FU). TS level in the tumour cells has been reported as predictive to response to 5-FU and a prognostic factor in colorectal and gastric cancer patients. We plan to study TS by immunohistochemistry (IHC) in the paraffin blocks of tumour tissue.\n\nA combined comparative genomic hybridization (CGH) and expression microarray analysis of gastric cancer specimens before and after neoad",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，n=18，局部晚期胃癌新輔助化療（含賁門），樣本量偏小"
+            }
+          },
+          {
+            "nct_id": "NCT00374036",
+            "title": "Strategy Phase III Intergroup Study for Chemotherapy of the Metastatic or Locally Advanced Cancers of the Stomach",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 416,
+            "start_date": "2005-06",
+            "completion_date": "2009-12",
+            "brief_summary": "The purpose of this study is to compare the effectiveness of 2 different sequences of polychemotherapy among carrying patients of a adenocarcinoma of the stomach or cardia locally advanced or metastatic.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 COMPLETED，n=416，針對轉移性或局部晚期胃/GEJ 癌化療策略（可能為 REAL-2 或類似試驗），直接涵蓋賁門腺癌。為本適應症最強臨床試驗證據"
+            }
+          },
+          {
+            "nct_id": "NCT00938470",
+            "title": "Randomized Phase II Trial of Extended Neoadjuvant Therapy for Locally Advanced Adenocarcinoma of the Esophagus, Gastroesophageal Junction, and Gastric Cardia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 73,
+            "start_date": "2010-01",
+            "completion_date": "2018-03",
+            "brief_summary": "This randomized phase II trial studies how well docetaxel, oxaliplatin, capecitabine, fluorouracil, and radiation therapy works compared with fluorouracil when given together with oxaliplatin and radiation therapy in treating patients with cancer of the esophagus or gastroesophageal junction that has spread from where it started to nearby tissue or lymph nodes. Drugs used in chemotherapy, such as docetaxel, oxaliplatin, capecitabine, and fluorouracil, work in different ways to stop the growth of",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，n=73，局部晚期食道/賁門腺癌延伸新輔助治療隨機試驗，包含 capecitabine 的聯合方案，直接相關"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28900996",
+            "title": "[Clinicopathologic characteristics and prognosis of gastric hepatoid adenocarcinoma].",
+            "authors": [
+              "Zhao Rongfei",
+              "Wang Xinxin",
+              "Lan Xin",
+              "Li Mingsen"
+            ],
+            "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+            "year": "2017",
+            "abstract": "To investigate the clinicopathological characteristics, diagnosis, treatment and prognosis of gastric hepatoid adenocarcinoma(HAS).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16303863",
+            "title": "Oxaliplatin and capecitabine in patients with metastatic adenocarcinoma of the esophagus, gastroesophageal junction and gastric cardia: a phase II study from the North Central Cancer Treatment Group.",
+            "authors": [
+              "Jatoi A",
+              "Murphy B R",
+              "Foster N R",
+              "Nikcevich D A",
+              "Alberts S R"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2006",
+            "abstract": "The synergic combination of oxaliplatin and capecitabine has demonstrated activity against various gastrointestinal cancers, including colon cancer. We therefore undertook this phase II study to test this first-line combination in patients with metastatic adenocarcinoma of the esophagus, gastroesophageal junction and gastric cardia.",
+            "classification": {
+              "study_type": "Phase 2",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38676903",
+            "title": "Pathological Complete Response Achieved with XELOX Chemotherapy, HIPEC, and Anti-PD-1 Immunotherapy in Stage IV Gastric Adenocarcinoma with Peritoneal Metastasis: A Case Report and Review of the Literature.",
+            "authors": [
+              "Zhou Jiajie",
+              "Wang Jie",
+              "Wang Wei",
+              "Sun Longhe",
+              "Zhao Shuai"
+            ],
+            "journal": "Journal of gastrointestinal cancer",
+            "year": "2024",
+            "abstract": "The detection rates of early gastric cancer (GC) in China are approximately 20%; upon diagnosis, the majority of patients with GC are identified as having advanced stage disease, and in some cases, even metastatic advanced GC. Currently, the optimal treatment strategy for peritoneal metastasis (PM) in GC remains uncertain, and pathological complete response (pCR) is rare following conversion therapy.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27123071",
+            "title": "α-fetoprotein-producing gastric carcinoma: A case report of a rare subtype and literature review.",
+            "authors": [
+              "Sun Ningbo",
+              "Sun Qing",
+              "Liu Qun",
+              "Zhang Tianxiao",
+              "Zhu Qiang"
+            ],
+            "journal": "Oncology letters",
+            "year": "2016",
+            "abstract": "α-fetoprotein (AFP)-producing gastric carcinoma is a rare type of gastric cancer, and the characteristics have not yet been fully elucidated. The present study reports the case of a patient with this type of gastric cancer. A 66-year-old male was referred to the Department of Gastrointestinal Surgery, Qianfoshan Hospital, Shandong University (Jinan, China) with a 20-day history of retrosternal pain. A computed tomography (CT) scan revealed a thickening of the wall of the cardia and massive lymph",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38644313",
+            "title": "[A Case of Stage Ⅳ Gastric Cancer with Multiple Liver Metastases, Resected Primary Tumor after Chemotherapy, and Alive for 3.5 Years without Recurrence].",
+            "authors": [
+              "Nakagawa Tetsushi",
+              "Yamamoto Yuji",
+              "Yanagawa Senichiro",
+              "Shiozaki Shohei",
+              "Kaneko Yuuki"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2024",
+            "abstract": "A 67-year-old man visited our hospital for epigastric pain. Esophagogastroduodenoscopy(EGD)revealed type 2 gastric cancer from the cardia to the gastric angle, and histopathological examination revealed papillary adenocarcinoma(pap), HER2-positive. Contrast-enhanced CT showed wall thickening mainly in the posterior wall of the gastric body, enlarged lymph nodes that were lumped together with the main lesion, and 8 low-absorption areas with ring shaped contrast effects in both lobes of the liver.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35895528",
+            "title": "[Short term results of the FLOT neoadjuvant therapy on the surgical management of advanced gastro-oesophageal junction adenocarcinoma].",
+            "authors": [
+              "Paszt Attila",
+              "Simonka Zsolt",
+              "Budai Krisztina",
+              "Erdős Márton",
+              "Vas Márton"
+            ],
+            "journal": "Magyar sebeszet",
+            "year": "2022",
+            "abstract": "Introduction. Recently the therapeutic treatment for advanced, stage T2-T4 gastro-oesophageal junction cancer and those adjacent to the regional lymph nodes involves neoadjuvant chemotherapy with subsequent surgical intervention. Method. Neoadjuvant oncological treatment for gastro-oesophageal junction cancer previously consisted of the intravenous administration of epirubicin, cisplatin and fluorouracil (ECF) or epirubicin, cisplatin and capecitabine (ECX) combination (Group I). In the course o",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25731335",
+            "title": "[A case of metastatic gastric cancer originating from transverse colon cancer].",
+            "authors": [
+              "Nushijima Youichirou",
+              "Nakano Katsutoshi",
+              "Sugimoto Keishi",
+              "Nakaguchi Kazunori",
+              "Kan Kazuomi"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2014",
+            "abstract": "Metastatic gastric cancer is uncommon, and metastasis of colorectal cancer to the stomach is extremely rare. We report a case of metastatic gastric cancer that originated from transverse colon cancer. A 52-year-old woman underwent a left hemicolectomy and D3 lymph node dissection based on a diagnosis of transverse colon cancer. The pathology results were as follows: mucinous adenocarcinoma, type 2, 6 × 11 cm, ss, ly1 v1, pm (-), dm (-), n1 (+), P0, H0, M0, Stage IIIa. The patient received XELOX ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30692459",
+            "title": "[A Case of Advanced Gastric Cancer with Extensive Lymph Node Metastasis That Showed pCR to Preoperative Chemotherapy ContainingXP].",
+            "authors": [
+              "Nanishi Kenji",
+              "Kosuga Toshiyuki",
+              "Kubota Takeshi",
+              "Okamoto Kazuma",
+              "Konishi Hirotaka"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2018",
+            "abstract": "A 67-year-old man was admitted to our hospital because of a type 2 tumor on the posterior wall of the cardia, and a biopsy resulted in a diagnosis of moderately differentiated tubular adenocarcinoma. Abdominal CT revealed swelling of the No. 1, 3, 11p(bulky N), and No.16a2lat lymph nodes. He was diagnosed with gastric cancer, T4aN2M1(LYM), cStage ⅣB, and was administered chemotherapy. After 2 courses of chemotherapy containing capecitabine plus cisplatin(XP), both the primary tumor and lymph nod",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃賁門腺癌（Siewert II-III）在分子特徵上介於食道腺癌與胃腺癌之間，HER2 擴增率約 10-15%，FGFR2 及 VEGFR 異常常見。CAPOX 方案的 capecitabine 組分透過 5-FU 機轉提供系統性抗腫瘤效果；NCT00374036（Phase 3，n=416）直接覆蓋胃/GEJ/賁門腺癌的轉移性及局部晚期治療，PMID 16303863 的 Phase 2 數據亦直接測試 Oxaliplatin + Capecitabine 在此部位腫瘤的療效（ORR 45%）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "gastric pylorus carcinoma",
+      "txgnn": {
+        "score": 0.9990761280059814,
+        "rank": 1859
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36051651",
+            "title": "Metachronous Liver Metastasis from Alpha-Fetoprotein-Producing Gastric Cancer Successfully Treated with Capecitabine/Oxaliplatin Combination Chemotherapy.",
+            "authors": [
+              "Furukawa Soichi",
+              "Kobayashi Takashi",
+              "Shiono Saori",
+              "Nishinakagawa Shuta"
+            ],
+            "journal": "Case reports in surgery",
+            "year": "2022",
+            "abstract": "A consensus regarding the treatment of recurrent alpha-fetoprotein-producing gastric carcinoma due to its rarity is lacking. We herein describe a case of such a carcinoma that was associated with metachronous liver metastasis. A 73-year-old man was referred for the surgical treatment of a type 2 gastric tumor that extended from the greater curvature of the gastric corpus to the pylorus. As no remote metastases were detected, the patient underwent open total gastrectomy with lymphadenectomy and R",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25908045",
+            "title": "Ampulla of Vater carcinoma in real-world clinical practice: a case series.",
+            "authors": [
+              "Giuliani Jacopo",
+              "Piacentini Paolo",
+              "Bonetti Andrea"
+            ],
+            "journal": "Tumori",
+            "year": "2015",
+            "abstract": "The aim of this report was to describe the way in which a rare and niche disease like ampulla of Vater carcinoma (AVC) was treated in real-world clinical practice.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃幽門癌（胃竇/幽門區域腺癌）在組織學上多為管狀腺癌，Capecitabine 的 5-FU 機轉理論上適用。然而提供的 2 篇文獻均非直接研究 capecitabine 在幽門癌的療效：PMID 36051651 討論 AFP 產生型胃癌肝轉移（含 capecitabine 使用），PMID 25908045 為 Ampulla of Vater 癌病例系列（不同部位）。需依賴對「胃癌」整體試驗的間接外推，安全性初評（S1）尚屬合理起點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "carcinoma of stomach, salivary gland type",
+      "txgnn": {
+        "score": 0.9990761280059814,
+        "rank": 1860
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00021047",
+            "title": "A Phase I/II Trial of Epirubicin, Carboplatin & Capecitabine in Adult Cancer Patients",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2001-07",
+            "completion_date": "2004-06",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase I/II trial to study the effectiveness of combining epirubicin, carboplatin, and capecitabine in treating patients who have unresectable locally advanced, metastatic, or recurrent solid tumor.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1/2 COMPLETED，ECC（Epirubicin/Carboplatin/Capecitabine）廣泛成人癌症，確立 capecitabine 在此三藥組合的安全性與 MTD，但非胃唾液腺型癌專屬"
+            }
+          },
+          {
+            "nct_id": "NCT00010023",
+            "title": "A Phase I Study of Oral Fluoropyrimidine Capecitabine (Xeloda Roche) Combined With Intravenous Cisplatin in Patients With Advanced Cancer of the Digestive System",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2000-08",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one chemotherapy drug may kill more tumor cells.\n\nPURPOSE: Phase I trial to study the effectiveness of capecitabine combined with cisplatin in treating patients who have locally advanced or metastatic solid tumors .",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 COMPLETED，口服 Capecitabine + 靜脈 Cisplatin 劑量爬坡研究，胃癌包含在適應症範疇，確認 XP 方案安全性基礎"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃唾液腺型癌（含黏液表皮樣癌、腺樣囊性癌等亞型）為極罕見病理，其分子特徵與頭頸部唾液腺癌有重疊（MAML2 易位、MYB-NFIB 融合），化療敏感性不明確。兩項 Phase 1 試驗（NCT00021047: ECC；NCT00010023: Capecitabine/Cisplatin）提供 capecitabine 在廣泛腫瘤適應症的安全性框架，但無針對此特定亞型的療效數據。建議作為罕見癌症研究問題，考慮基於組織學類比（與頭頸部唾液腺癌）設計探索性研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "gastric body carcinoma",
+      "txgnn": {
+        "score": 0.99898761510849,
+        "rank": 2006
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03775525",
+            "title": "A Phase I/Ib, Multicenter, Open-label, Dose-Escalation, Safety, Pharmacodynamic and Pharmacokinetic Study of GZ17-6.02 Monotherapy and in Combination With Capecitabine, Given Orally on a Daily Schedule in Patients With Advanced Solid Tumors or Lymphoma",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 127,
+            "start_date": "2019-03-01",
+            "completion_date": "2023-12",
+            "brief_summary": "This Phase I/Ib study is a Multicenter, Open-label, Dose-Escalation, Safety, Pharmacodynamic and Pharmacokinetic Study of GZ17-6.02 Monotherapy and in Combination with Capecitabine, Given Orally on a Daily Schedule in Patients with Advanced Solid Tumors or Lymphoma",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1/1b UNKNOWN，n=127，劑量爬坡，胃癌包含，capecitabine 組合的早期安全性數據"
+            }
+          },
+          {
+            "nct_id": "NCT02892123",
+            "title": "Phase I Trial of ZW25 in Patients With Locally Advanced (Unresectable) and/or Metastatic HER2-expressing Cancers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 279,
+            "start_date": "2016-09-30",
+            "completion_date": "2024-10-31",
+            "brief_summary": "This is a first-in-human, 3-part study to investigate the safety, tolerability, and effectiveness of ZW25 (zanidatamab) by itself and combined with selected chemotherapy agents in patients with locally advanced (unresectable) and/or metastatic human epidermal growth factor receptor 2 (HER2)-expressing cancers. This study will also the evaluate the way the body absorbs, distributes, and eliminates ZW25 (pharmacokinetics or PK).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 COMPLETED，n=279，ZW25（Zanidatamab）在 HER2 表達腫瘤（含胃癌），capecitabine 可能為組合用藥"
+            }
+          },
+          {
+            "nct_id": "NCT06121700",
+            "title": "Radiotherapy, Chemotherapy and Anti-PD-1 Immunotherapy Followed by Surgical Resection in Patients With Limited Metastatic Gastric or Gastroesophageal Junction Adenocarcinoma: A Prospective, Single Arm, Phase II Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 55,
+            "start_date": "2023-01-01",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The goal of this clinical trial is to evaluate the efficacy and safety of radiotherapy combined with chemotherapy and anti-PD-1 immunotherapy followed by surgery for the primary and metastatic lesions in patients with limited metastatic gastric or gastroesophageal junction adenocarcinoma. The main questions it aims to answer are: 1) If the multimodal treatment which includes anti-PD-1 immunotherapy and local therapies will improve the survival of this group of patients. 2) If the multimodal trea",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 RECRUITING，n=55，局部晚期胃癌放化療（含 capecitabine）+ 免疫治療後手術，反映當前術前新輔助實踐趨勢"
+            }
+          },
+          {
+            "nct_id": "NCT05365581",
+            "title": "A Phase 1/1b Study of ASP2138 as Monotherapy and in Combination With Pembrolizumab and mFOLFOX6 or Ramucirumab and Paclitaxel in Participants With Metastatic or Locally Advanced Unresectable Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma and in Combination With mFOLFIRINOX in Participants With Metastatic or Locally Advanced Unresectable Pancreatic Adenocarcinoma Whose Tumors Have Claudin (CLDN) 18.2 Expression",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 398,
+            "start_date": "2022-06-07",
+            "completion_date": "2027-05-31",
+            "brief_summary": "Claudin 18.2 protein, or CLDN18.2 is a protein found on cells in the digestive system. It is also found on some tumors. Researchers are looking at ways to attack CLDN18.2 to help control tumors. ASP2138 is thought to bind to CLDN18.2 and a protein on a type of immune cell called a T-cell. This \"tells\" the immune system to attack the tumor. ASP2138 is a potential treatment for people with stomach cancer, gastroesophageal junction cancer (GEJ cancer) or pancreatic cancer. GEJ is where the tube tha",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1/1b RECRUITING，n=398，ASP2138（CLDN18.2×4-1BB）+ Pembrolizumab + CAPOX/FOLFOX，capecitabine 為可選化療骨幹"
+            }
+          },
+          {
+            "nct_id": "NCT06349044",
+            "title": "A Randomized, Multicenter Phase II Basket Study of Hypofractionated Radiotherapy/Stereotactic Body Radiotherapy Followed by Immunotherapy-Based Systemic Therapy +/- L. Rhamnosus M9 for the First-Line Treatment of Advanced Digestive System Malignancies",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 120,
+            "start_date": "2024-03-20",
+            "completion_date": "2025-12-31",
+            "brief_summary": "Based on the interaction between radiation therapy and immunotherapy and the potential potentiation of Probio-M9 for the treatment of ICIs, this study is planned to design an integrated treatment protocol for the first-line treatment of advanced gastrointestinal tumors through the use of macrofractionated radiotherapy as a means of immune activation, combined with the synergistic effect of Probio-M9 microbial agents and PD-1 inhibitors.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 籃式研究（NA），n=120，低分次放療 + Capecitabine（卡培他濱作為放射增敏劑），胃癌包含在內，提供替代機轉（放射增敏）的支持"
+            }
+          },
+          {
+            "nct_id": "NCT05007106",
+            "title": "A Multicenter, Open-label, Phase 2 Basket Study of MK-7684A, a Co-formation of Vibostolimab (MK-7684) With Pembrolizumab (MK-3475), With or Without Other Anticancer Therapies in Participants With Selected Solid Tumors",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 613,
+            "start_date": "2021-09-16",
+            "completion_date": "2025-08-05",
+            "brief_summary": "The purpose of this study is to determine the safety, tolerability, and preliminary efficacy of pembrolizumab/vibostolimab co-formulation (MK-7684A) with or without other anticancer therapies in participants with selected advanced solid tumors. The primary hypothesis is that pembrolizumab/vibostolimab co-formulation is superior to pembrolizumab alone in terms of objective response rate or progression-free survival in participants with cervical cancer.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 COMPLETED，n=613，MK-7684A 籃式研究，胃癌亞組包含在內，capecitabine 為化療選項之一"
+            }
+          },
+          {
+            "nct_id": "NCT03653507",
+            "title": "A Phase 3, Global, Multi-Center, Double-Blind, Randomized, Efficacy Study of Zolbetuximab (IMAB362) Plus CAPOX Compared With Placebo Plus CAPOX as First-line Treatment of Subjects With Claudin (CLDN) 18.2-Positive, HER2-Negative, Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 507,
+            "start_date": "2018-11-28",
+            "completion_date": "2026-09-30",
+            "brief_summary": "Zolbetuximab is being studied in people with cancer in and around the stomach or where the food pipe (esophagus) joins the stomach, called GEJ cancer. Most people with this type of cancer have a protein called Claudin 18.2 in their tumor. Zolbetuximab is thought to work by attaching to the Claudin 18.2 protein in their tumor, which switches on the body's immune system to attack the tumor.\n\nThere is an unmet medical need to treat people with advanced stomach cancer or GEJ cancer. This study will ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 ACTIVE_NOT_RECRUITING（SPOTLIGHT 試驗），n=507，Zolbetuximab + CAPOX，CAPOX 作為標準化療骨幹，胃/GEJ 癌包含胃體部，確認 capecitabine 作為第三期試驗骨幹的角色"
+            }
+          },
+          {
+            "nct_id": "NCT02831179",
+            "title": "A Phase 1 Study of Veliparib (ABT-888) in Combination With Capecitabine and Temozolomide in Advanced Well-Differentiated Neuroendocrine Tumors",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2017-12",
+            "completion_date": "2020-02",
+            "brief_summary": "This phase I trial studies the side effects and best dose of veliparib when given together with capecitabine and temozolomide in treating patients with neuroendocrine tumor that has spread to other places in the body and usually cannot be cured or controlled with treatment, has returned after a period of improvement, and cannot be removed by surgery. Veliparib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as capecitabi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 WITHDRAWN（n=0），Veliparib + Capecitabine + Temozolomide，試驗撤回無有效數據，不納入證據評估"
+            }
+          },
+          {
+            "nct_id": "NCT06901531",
+            "title": "A Phase 3, Double-blind, Randomized Study of Zolbetuximab in Combination With Pembrolizumab and Chemotherapy (CAPOX or mFOLFOX6) in First-line Treatment of Locally Advanced Unresectable or Metastatic Gastric or Gastroesophageal Junction Adenocarcinoma in Participants Whose Tumors Are HER2-negative, Claudin (CLDN) 18.2-positive and Programmed Death-ligand 1 (PD-L1)-Positive",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 500,
+            "start_date": "2025-05-22",
+            "completion_date": "2028-09-30",
+            "brief_summary": "Zolbetuximab is being studied in people with cancer in and around the stomach or where the food pipe (esophagus) joins the stomach, called gastroesophageal junction (GEJ) cancer. Zolbetuximab with chemotherapy may be used to treat stomach and GEJ cancer when the cancer cells do not have a protein called HER2 (human epidermal growth factor receptor 2) on their surface (HER2-negative) but do have a protein called Claudin 18.2 (Claudin 18.2-positive). Zolbetuximab is thought to work by attaching to",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 RECRUITING，n=500，Zolbetuximab + Pembrolizumab + 化療（含 capecitabine），持續確認 CAPOX 在晚期胃癌的現代治療地位"
+            }
+          },
+          {
+            "nct_id": "NCT07000253",
+            "title": "Timing of Minimally Invasive Local Treatment After First-Line Systemic Therapy in Oligometastatic Esophageal or Gastric Adenocarcinoma: A Randomized Prospective Clinical Study (OMEC-5)",
+            "phase": "PHASE2, PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 290,
+            "start_date": "2026-01",
+            "completion_date": "2034-01",
+            "brief_summary": "Purpose of the Study:\n\nThis clinical study investigates whether a shorter or longer duration of systemic therapy before local treatment (surgery or radiation) results in better disease control in patients with esophageal or gastric cancer with a limited number of metastases, also known as oligometastases.\n\nBackground:\n\nIn about 25% of patients with advanced esophageal or gastric cancer, the disease spreads to only a few sites (oligometastatic disease). Prior studies suggest that local treatment ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2/3 NOT_YET_RECRUITING，n=290，寡轉移性食道胃癌局部治療時機研究，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT04802980",
+            "title": "A Phase Ib, Multicenter, Open-label, Dose-escalation and Dose-expansion Study of the Safety, Tolerability and Pharmacokinetics of HB002.1T in Combination With Chemotherapy in Patients With Advanced Solid Tumors.",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 72,
+            "start_date": "2020-04-28",
+            "completion_date": "2023-09",
+            "brief_summary": "The objectives of this study are to evaluate the safety, tolerability, and pharmacokinetic profile of HB002.1T in combination with different chemotherapy regimens administered to patients with advanced solid tumors.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04379596",
+            "title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer (DESTINY-Gastric-03)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 450,
+            "start_date": "2020-06-03",
+            "completion_date": "2027-06-01",
+            "brief_summary": "DESTINY-Gastric03 will investigate the safety, tolerability, pharmacokinetics, immunogenicity, and preliminary antitumor activity of trastuzumab deruxtecan (T-DXd) alone or in combination with chemotherapy and/or immunotherapy in HER2-expressing advanced/metastatic gastric/gastroesophageal junction (GEJ) and esophageal adenocarcinoma patients.\n\nStudy hypotheses: Combination of T-DXd with cytotoxic chemotherapy and/or immunotherapy administered to subjects at the recommended phase 2 dose will sho",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02595424",
+            "title": "Randomized Phase II Study of Cisplatin and Etoposide Versus Temozolomide and Capecitabine in Patients With Advanced Poorly Differentiated (G3) Non-Small Cell Gastrointestinal Neuroendocrine Carcinomas",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 67,
+            "start_date": "2016-04-06",
+            "completion_date": "2029-01-01",
+            "brief_summary": "This randomized phase II trial studies how well temozolomide and capecitabine work compared to standard treatment with cisplatin or carboplatin and etoposide in treating patients with neuroendocrine carcinoma of the gastrointestinal tract or pancreas that has spread to other parts of the body (metastatic) or cannot be removed by surgery. Drugs used in chemotherapy, such as temozolomide, capecitabine, cisplatin, carboplatin and etoposide, work in different ways to stop the growth of tumor cells, ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02494583",
+            "title": "A Randomized, Active-Controlled, Partially Blinded, Biomarker Select, Phase III Clinical Trial of Pembrolizumab as Monotherapy and in Combination With Cisplatin+5-Fluorouracil Versus Placebo+Cisplatin+5-Fluorouracil as First-Line Treatment in Subjects With Advanced Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 763,
+            "start_date": "2015-07-31",
+            "completion_date": "2022-06-06",
+            "brief_summary": "This is a study of pembrolizumab (MK-3475) as first-line treatment for participants with advanced gastric or gastroesophageal junction (GEJ) adenocarcinoma. Participants whose tumors express programmed death-ligand 1 (PD-L1) will be randomly assigned to one of the three treatment arms of the study: pembrolizumab as monotherapy \\[pembro mono\\], pembrolizumab plus standard of care (SOC) chemotherapy with cisplatin plus 5-fluorouracil (5-FU) or capecitabine \\[pembro combo\\], or placebo plus SOC che",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18997184",
+            "title": "Oral fluoropyrimidines (capecitabine or S-1) and cisplatin as first line treatment in elderly patients with advanced gastric cancer: a retrospective study.",
+            "authors": [
+              "Seol Young Mi",
+              "Song Moo Kon",
+              "Choi Young Jin",
+              "Kim Gwang Ha",
+              "Shin Ho Jin"
+            ],
+            "journal": "Japanese journal of clinical oncology",
+            "year": "2009",
+            "abstract": "This study aimed to evaluate the safety and efficacy of oral fluoropyrimidines and cisplatin therapy in elderly patients with untreated advanced gastric cancer (AGC) retrospectively. In addition, we evaluated the relative activity and toxicity of these agents in this patient population.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35922756",
+            "title": "MALAT1-miRNAs network regulate thymidylate synthase and affect 5FU-based chemotherapy.",
+            "authors": [
+              "Matuszyk Janusz"
+            ],
+            "journal": "Molecular medicine (Cambridge, Mass.)",
+            "year": "2022",
+            "abstract": "The active metabolite of 5-Fluorouracil (5FU), used in the treatment of several types of cancer, acts by inhibiting the thymidylate synthase encoded by the TYMS gene, which catalyzes the rate-limiting step in DNA replication. The major failure of 5FU-based cancer therapy is the development of drug resistance. High levels of TYMS-encoded protein in cancerous tissues are predictive of poor response to 5FU treatment. Expression of TYMS is regulated by various mechanisms, including involving non-cod",
+            "classification": {
+              "study_type": "Basic Science/Translational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30161003",
+            "title": "Rationale for the use of metronomic chemotherapy in gastrointestinal cancer.",
+            "authors": [
+              "Filippi Roberto",
+              "Lombardi Pasquale",
+              "Depetris Ilaria",
+              "Fenocchio Elisabetta",
+              "Quarà Virginia"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2018",
+            "abstract": "Metronomic chemotherapy (mCT) is endowed with various properties, ranging from antiangiogenic to immunomodulation, and may revert tumor resistance to conventional drug administration. A variety of antineoplastic agents displayed activity when administered with metronomic schedules in preclinical models of gastrointestinal cancers. However, most of the field is still unexplored.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28900996",
+            "title": "[Clinicopathologic characteristics and prognosis of gastric hepatoid adenocarcinoma].",
+            "authors": [
+              "Zhao Rongfei",
+              "Wang Xinxin",
+              "Lan Xin",
+              "Li Mingsen"
+            ],
+            "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+            "year": "2017",
+            "abstract": "To investigate the clinicopathological characteristics, diagnosis, treatment and prognosis of gastric hepatoid adenocarcinoma(HAS).",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30666831",
+            "title": "Association between body composition, survival, and toxicity in advanced esophagogastric cancer patients receiving palliative chemotherapy.",
+            "authors": [
+              "Dijksterhuis Willemieke P M",
+              "Pruijt Maarten J",
+              "van der Woude Stephanie O",
+              "Klaassen Remy",
+              "Kurk Sophie A"
+            ],
+            "journal": "Journal of cachexia, sarcopenia and muscle",
+            "year": "2019",
+            "abstract": "Palliative systemic treatment in patients with advanced or metastatic esophagogastric cancer may result in improved overall survival and quality of life but can also lead to considerable toxicity. In various cancer types, severe muscle mass depletion (sarcopenia) and poor muscle strength are associated with decreased survival and increased chemotherapy-related toxicity. The aim of this study is to determine the impact of body composition on survival and chemotherapy toxicity in esophagogastric c",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41555855",
+            "title": "Conversion Surgery for Advanced Gastric Cancer with Para-Aortic Lymph Node Metastases Following Treatment with Capecitabine, Oxaliplatin, and Pembrolizumab: A Case Report.",
+            "authors": [
+              "Ono Takuya",
+              "Waki Yuhei",
+              "Takamoto Masumi",
+              "Tokuda Kazunori",
+              "Sato Koichi"
+            ],
+            "journal": "Surgical case reports",
+            "year": "2026",
+            "abstract": "Immune checkpoint inhibitors (ICIs) have recently emerged as an important treatment option for various cancers. In 2024, pembrolizumab was approved as a first-line treatment for unresectable or recurrent gastric cancer. Conversion surgery following ICI-based chemotherapy has been reported; however, cases involving pembrolizumab-based first-line therapy remain rare. Here, we report a case of conversion surgery after treatment with capecitabine plus oxaliplatin (CAPOX), combined with pembrolizumab",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30112333",
+            "title": "Metastatic Gastric cancer: Real world scenario from a developing country.",
+            "authors": [
+              "Ganguly Sandip",
+              "Biswas Bivas",
+              "Ghosh Joydeep",
+              "Dabkara Deepak"
+            ],
+            "journal": "South Asian journal of cancer",
+            "year": "2018",
+            "abstract": "Data on epidemiology and outcome in metastatic stomach carcinoma patients from India are scarce. We aimed to evaluate clinical features and treatment outcome in patients treated at our center.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40360406",
+            "title": "[A Rare Case of Radical Resection for the Synchronous Double Cancer of Primary Pancreatic Squamous Cell Carcinoma and Primary HER2-Positive Gastric Cancer after Multidisciplinary Treatment].",
+            "authors": [
+              "Hara Takeo",
+              "Yasuyama Akinobu",
+              "Hata Tomoki",
+              "Okano Miho",
+              "Takayama Osamu"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2025",
+            "abstract": "A 69-year-old man was referred to our hospital due to a rapid increase of HbA1c. Computed tomography(CT)showed a 40 mm hypo vascular tumor in the body of the pancreas, which was diagnosed as pancreatic squamous cell carcinoma by endoscopic ultrasound-fine needle aspiration. Also, esophagogastroduodenoscopy(EGD)revealed a type 2 tumor in the body of the stomach, which was diagnosed as well differentiated gastric cancer. Gemcitabine and S-1(GS)was performed for pancreatic cancer as neoadjuvant che",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24942210",
+            "title": "Lower exposure and faster clearance of bevacizumab in gastric cancer and the impact of patient variables: analysis of individual data from AVAGAST phase III trial.",
+            "authors": [
+              "Han Kelong",
+              "Jin Jin",
+              "Maia Mauricio",
+              "Lowe John",
+              "Sersch Martina A"
+            ],
+            "journal": "The AAPS journal",
+            "year": "2014",
+            "abstract": "Altered pharmacokinetics of antibody drugs has been reported in advanced gastric cancer (AGC). We aim to evaluate bevacizumab pharmacokinetics in AGC from the Phase III trial (AVAGAST), and explore the influence of patient variables. Bevacizumab concentrations (Cp) were measured in plasma samples taken following disease progression from 162 patients (7.5 mg/kg every 3 weeks). Predicted Cp [median and 90% prediction interval] was simulated using the population pharmacokinetic model established fo",
+            "classification": {
+              "study_type": "PK/PD Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25823985",
+            "title": "High Impact of Histopathological Remission for Prognosis after Perioperative Chemotherapy with ECF and ECF-Like Regimens for Gastric and Gastroesophageal Adenocarcinoma.",
+            "authors": [
+              "Bichev Dmitry",
+              "Treese Christoph",
+              "von Winterfeld Moritz",
+              "Breithaupt Kirstin",
+              "Dogan Yasemin"
+            ],
+            "journal": "Oncology",
+            "year": "2015",
+            "abstract": "Perioperative chemotherapy with epirubicin, cisplatin and 5-fluorouracil (5-FU) (ECF)-like regimens is the European standard for patients with adenocarcinoma of the gastroesophageal junction (GEJ) or gastric body (GaCa) stage UICC II/III (staged according to the Union for International Cancer Control). However, limited data exist on the histopathological response and relevance of prognosis for patients homogeneously treated with ECF(-like) therapies.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29696066",
+            "title": "Metastatic neuroendocrine pancreatic tumor - Case report.",
+            "authors": [
+              "Radu E C",
+              "Saizu A I",
+              "Grigorescu R R",
+              "Croitoru A E",
+              "Gheorghe C"
+            ],
+            "journal": "Journal of medicine and life",
+            "year": "2018",
+            "abstract": "Rationale.Pancreatic neuroendocrine tumors (NETs) are rare neoplasms that develop from the endocrine tissues of the pancreas. They have a better overall prognosis than pancreatic adenocarcinoma. However, all commonly used classification systems reflect a separation between more indolent, well-differentiated tumors and far more aggressive poorly differentiated types that behave clinically more like small-cell carcinoma of the lung. Objective.To present the case of a 62-year-old man with an aggres",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32735752",
+            "title": "Venous thromboembolism during preoperative chemotherapy in the CRITICS gastric cancer trial.",
+            "authors": [
+              "Slagter Astrid E",
+              "Sikorska Karolina",
+              "Grootscholten Cecile",
+              "van Laarhoven Hanneke W M",
+              "Lind Pehr"
+            ],
+            "journal": "Cancer medicine",
+            "year": "2020",
+            "abstract": "The occurrence of a venous thromboembolism (VTE) is common in patients with cancer. Gastric cancer has been associated with one of the highest risks for VTE. Chemotherapy, especially cisplatin has been associated with a high VTE risk. In this study, risk factors for VTE occurrence and their potential impact on subsequent therapeutic interventions were investigated in patients who underwent preoperative chemotherapy, in the CRITICS gastric cancer trial.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23477361",
+            "title": "Proton therapy with concomitant capecitabine for pancreatic and ampullary cancers is associated with a low incidence of gastrointestinal toxicity.",
+            "authors": [
+              "Nichols R Charles",
+              "George Thomas J",
+              "Zaiden Robert A",
+              "Awad Ziad T",
+              "Asbun Horacio J"
+            ],
+            "journal": "Acta oncologica (Stockholm, Sweden)",
+            "year": "2013",
+            "abstract": "To review treatment toxicity for patients with pancreatic and ampullary cancer treated with proton therapy at our institution.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34877306",
+            "title": "Metachronous squamous cell carcinoma of pancreas and stomach in an elderly female patient: A case report.",
+            "authors": [
+              "Kim Ji Hyun",
+              "Kang Chang Don",
+              "Lee Kyungyul",
+              "Lim Kyu-Hyoung"
+            ],
+            "journal": "World journal of clinical cases",
+            "year": "2021",
+            "abstract": "Squamous cell carcinoma (SCC) in pancreas and stomach is a rare histologic subtype with aggressive behavior, poor prognosis, and no standardized therapy. Pancreatic SCC or gastric SCC has been previously reported. However, case of SCC occurring in both the pancreas and the stomach has not been reported yet.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18665164",
+            "title": "A randomised multicentre phase II trial of capecitabine vs S-1 as first-line treatment in elderly patients with metastatic or recurrent unresectable gastric cancer.",
+            "authors": [
+              "Lee J-L",
+              "Kang Y-K",
+              "Kang H J",
+              "Lee K-H",
+              "Zang D Y"
+            ],
+            "journal": "British journal of cancer",
+            "year": "2008",
+            "abstract": "This randomised multicentre phase II study was conducted to investigate the activity and safety of two oral fluoropyrimidines, capecitabine or S-1, in elderly patients with advanced gastric cancer (AGC). Elderly (>or=65 years) chemo-naive patients with AGC were randomly assigned to receive capecitabine 1250 mg m(-2) two times daily on days 1-14 every 3 weeks or S-1 40-60 mg two times daily according to body surface area on days 1-28 every 6 weeks. Ninety-six patients were enrolled and 91 patient",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34000769",
+            "title": "[A multi-center retrospective study of perioperative chemotherapy for gastric cancer based on real-world data].",
+            "authors": [
+              "Ding X W",
+              "Zheng Z C",
+              "Zhao Q",
+              "Zhai G",
+              "Liang H"
+            ],
+            "journal": "Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery",
+            "year": "2021",
+            "abstract": "Objective: To explore the effect of perioperative chemotherapy on the prognosis of gastric cancer patients under real-world condition. Methods: A retrospective cohort study was carried out. Real world data of gastric cancer patients receiving perioperative chemotherapy and surgery + adjuvant chemotherapy in 33 domestic hospitals from January 1, 2014 to January 31, 2016 were collected. Inclusion criteria: (1) gastric adenocarcinoma was confirmed by histopathology, and clinical stage was cT2-4aN0-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25498359",
+            "title": "Sarcopenia is associated with toxicity in patients undergoing neo-adjuvant chemotherapy for oesophago-gastric cancer.",
+            "authors": [
+              "Tan B H L",
+              "Brammer K",
+              "Randhawa N",
+              "Welch N T",
+              "Parsons S L"
+            ],
+            "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+            "year": "2015",
+            "abstract": "Patients with potentially curative oesophago-gastric cancer typically undergo neo-adjuvant chemotherapy prior to surgery. The majority of anti-cancer drugs have a narrow therapeutic index. The aim of this study was to determine if features of body composition, assessed using computed tomography (CT) scans, may be predictive of dose-limiting toxicity (DLT) in patients undergoing neo-adjuvant chemotherapy for oesophago-gastric cancer. The influence of sarcopenia and DLT on overall survival was als",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25731335",
+            "title": "[A case of metastatic gastric cancer originating from transverse colon cancer].",
+            "authors": [
+              "Nushijima Youichirou",
+              "Nakano Katsutoshi",
+              "Sugimoto Keishi",
+              "Nakaguchi Kazunori",
+              "Kan Kazuomi"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2014",
+            "abstract": "Metastatic gastric cancer is uncommon, and metastasis of colorectal cancer to the stomach is extremely rare. We report a case of metastatic gastric cancer that originated from transverse colon cancer. A 52-year-old woman underwent a left hemicolectomy and D3 lymph node dissection based on a diagnosis of transverse colon cancer. The pathology results were as follows: mucinous adenocarcinoma, type 2, 6 × 11 cm, ss, ly1 v1, pm (-), dm (-), n1 (+), P0, H0, M0, Stage IIIa. The patient received XELOX ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃體部腺癌在組織學上涵蓋腸型與瀰漫型，MSI-H 比例相對較高（約 8-10%），EBV 陽性率約 10%。Capecitabine 的 5-FU 機轉在胃體腺癌中的療效已有數項試驗支持；PMID 18997184 直接比較口服氟嘧啶（Capecitabine/S-1）+ Cisplatin 在老年胃癌患者的療效，Phase 3 SPOTLIGHT 試驗（NCT03653507）以 CAPOX 作為標準骨幹確認了方案的有效性。雖然胃體癌非獨立試驗設計靶點，解剖部位外推具合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "Epstein-Barr virus-associated gastric carcinoma",
+      "txgnn": {
+        "score": 0.9989715814590454,
+        "rank": 2037
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "EBV 相關胃癌（約佔胃癌 10%）具有獨特分子特徵：高 CpG 島甲基化表現型（CIMP）、PIK3CA 突變率極高（80%）、PD-L1/PD-L2 高表達，對免疫檢查點抑制劑反應較佳。雖然 Capecitabine 的 5-FU 機轉在此亞型中理論上適用，但 EBV 陽性可能影響 TP 表達及 5-FU 代謝，且現有研究多傾向以免疫治療優先。目前無任何針對 EBV+ 胃癌專屬的 capecitabine 臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "malignant gastric granular cell tumor",
+      "txgnn": {
+        "score": 0.9989290833473206,
+        "rank": 2113
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性胃顆粒細胞腫瘤（起源於 Schwann 細胞，S-100 陽性）為極罕見非上皮性間葉性腫瘤，全球報告病例不足 30 例。其化療敏感性根本不同於腺癌，氟嘧啶類藥物（5-FU/Capecitabine）針對 TS 的機轉對神經嵴來源腫瘤的效果高度不確定。TxGNN 高預測分數（0.9989）反映知識圖譜中「胃部惡性腫瘤」節點連結，並非特異性機轉預測，應謹慎解讀。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric adenocarcinoma and proximal polyposis of the stomach"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric adenocarcinoma and proximal polyposis of the stomach"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric adenocarcinoma and proximal polyposis of the stomach"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric tubular adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric tubular adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric tubular adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "microinvasive gastric cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "microinvasive gastric cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "microinvasive gastric cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "signet ring cell gastric adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "signet ring cell gastric adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "signet ring cell gastric adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric cardia adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric cardia adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric cardia adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric pylorus carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric pylorus carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric pylorus carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "carcinoma of stomach, salivary gland type"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "carcinoma of stomach, salivary gland type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "carcinoma of stomach, salivary gland type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric body carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric body carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "gastric body carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "Epstein-Barr virus-associated gastric carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "Epstein-Barr virus-associated gastric carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "Epstein-Barr virus-associated gastric carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "malignant gastric granular cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "malignant gastric granular cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Capecitabine",
+        "disease": "malignant gastric granular cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

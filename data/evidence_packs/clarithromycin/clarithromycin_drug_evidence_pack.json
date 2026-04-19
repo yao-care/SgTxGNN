@@ -1,0 +1,1214 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01211-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clarithromycin",
+    "drugbank_id": "DB01211",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn": {
+        "score": 0.9934861063957214,
+        "rank": 7842
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無可識別機轉連結。多株性高黏滯度症候群主因免疫球蛋白過度增生，Clarithromycin 的抗菌或免疫調節機轉與此無直接關聯。TxGNN 高分可能源自鄰近節點（如 monoclonal gammopathy）的圖譜傳播效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hyperamylasemia",
+      "txgnn": {
+        "score": 0.9934861063957214,
+        "rank": 7843
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15228140",
+            "title": "[A case of lung infection due to Mycobacterium abscessus (M. abscessus) complicated with primary macroamylasemia].",
+            "authors": [
+              "Matsuzawa Kuniaki",
+              "Tsukaguchi Katsuhiko",
+              "Okamura Hideo",
+              "Kasahara Reiko",
+              "Tamura Mouka"
+            ],
+            "journal": "Nihon Kokyuki Gakkai zasshi = the journal of the Japanese Respiratory Society",
+            "year": "2004",
+            "abstract": "We report a case of lung infection due to Mycobacterium abscessus (M. abscessus), complicated with primary macroamylasemia. A 76-year-old man was admitted to our hospital in August 2002 because of bloody sputum and an abnormal shadow found on chest radiography. The patient had had pulmonary tuberculosis from 1998 to 2000. He was found to be antacid bacillus-positive (Gaffky 5) on examination of the sputum in August 2002, but after hospitalization was negative for tuberculosis bacillus on sputum ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉連結。Clarithromycin 已知可能引起肝酵素升高，但與澱粉酶升高的因果關係為副作用而非治療用途。唯一文獻為 MAC 肺部感染個案，與 hyperamylasemia 無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital analbuminemia",
+      "txgnn": {
+        "score": 0.992138683795929,
+        "rank": 8922
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無白蛋白血症為罕見遺傳性疾病（ALB 基因缺陷），無任何生物學機制支持 Clarithromycin 的治療效益。0 trials, 0 literature。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9911155700683594,
+        "rank": 9718
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38472959",
+            "title": "The Features and Treatment Effects on Keratoepitheliopathy for Meibomitis-Related Keratoconjunctivitis.",
+            "authors": [
+              "Sonomura Yukiko",
+              "Yokoi Norihiko",
+              "Komuro Aoi",
+              "Kato Hiroaki",
+              "Sotozono Chie"
+            ],
+            "journal": "Diagnostics (Basel, Switzerland)",
+            "year": "2024",
+            "abstract": "Meibomitis-related keratoconjunctivitis (MRKC) is characterized by meibomitis with corneal epithelial abnormalities, and can be divided into two types: MRKC accompanied with phlyctenular keratitis, and MRKC accompanied with keratoepitheliopathy that is similar to superficial punctate keratopathy (SPK). The purpose of this retrospective study was to investigate the characteristic features of keratoepitheliopathy and treatment outcomes for MRKC. This study involved 27 eyes of 18 MRKC patients (3 m",
+            "classification": {
+              "study_type": "Observational/Case Series（待驗證）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "弱度間接機轉：大環內酯類（包含 Clarithromycin）具抗菌及抗炎特性，可用於治療瞼板腺功能障礙（MGD）及後眼瞼炎，而 meibomitis 為 punctate epithelial keratoconjunctivitis（MRKC）的重要病因。唯文獻僅1篇，且研究設計不明，需進一步評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "blood group incompatibility",
+      "txgnn": {
+        "score": 0.9907333850860596,
+        "rank": 10005
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血型不相容性為免疫介導的紅血球破壞機制，抗生素類藥物無任何已知治療價值。可能為 KG 中免疫相關節點的非特異性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "premalignant hematological system disease",
+      "txgnn": {
+        "score": 0.9892024397850036,
+        "rank": 11107
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "廣泛分類，缺乏具體疾病定義。0 trials, 0 literature。雖然 Clarithromycin 在多發性骨髓瘤（相鄰節點）有明確證據，但「前惡性血液疾病」的預防應用缺乏任何直接依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "monoclonal gammopathy",
+      "txgnn": {
+        "score": 0.9880527257919312,
+        "rank": 12027
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00006219",
+            "title": "A Phase II Clinical Trial of Dehydroepiandrosterone and Biaxin in Monoclonal Gammopathy of Undetermined and Borderline Significance",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2000-08",
+            "completion_date": "2006-12",
+            "brief_summary": "RATIONALE: Chemoprevention therapy is the use of certain drugs to try to prevent the development or recurrence of cancer. Dehydroepiandrosterone and clarithromycin may be effective in preventing multiple myeloma.\n\nPURPOSE: Randomized phase II trial to compare the effectiveness of dehydroepiandrosterone with that of clarithromycin in treating patients who may be at a high risk of developing multiple myeloma.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接相關：Phase 2 完成試驗，以 Clarithromycin 為核心治療成分，且針對 MGUS（monoclonal gammopathy 的主要亞型）。完成狀態代表有可分析結果，需查閱結果報告。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34424561",
+            "title": "Carfilzomib and dexamethasone induction with lenalidomide, clarithromycin and dexamethasone consolidation and lenalidomide maintenance for newly diagnosed multiple myeloma.",
+            "authors": [
+              "Forsberg Peter A",
+              "Rossi Adriana C",
+              "Boyer Angelique",
+              "Pearse Roger N",
+              "Pekle Karen A"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2021",
+            "abstract": "Combination treatment regimens including a proteasome inhibitor (PI), an immunomodulatory agent (IMiD) and a corticosteroid are standards of care for initial treatment of multiple myeloma (MM). We aimed to evaluate if a sequential treatment program using PI induction followed by IMiD based consolidation and maintenance could achieve similar outcomes with reduced toxicities. This phase 2 study was designed to assess the safety and efficacy of the Car-BiRd regimen: carfilzomib and dexamethasone (K",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24723438",
+            "title": "Clarithromycin overcomes resistance to lenalidomide and dexamethasone in multiple myeloma.",
+            "authors": [
+              "Ghosh Nilanjan",
+              "Tucker Noah",
+              "Zahurak Marianna",
+              "Wozney Jocelyn",
+              "Borrello Ivan"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2014",
+            "abstract": "The combination of clarithromycin, lenalidomide and dexamethasone (BiRd) has led to highly durable responses in newly diagnosed myeloma. However, the ability of clarithromycin to overcome resistance to lenalidomide and dexamethasone (Rd) is not known. To study this, we performed a retrospective analysis of 24 patients with myeloma for which clarithromycin was added to Rd at the time of progression on Rd. The median number of prior therapies was 3 (range 1-8). The best response was complete respo",
+            "classification": {
+              "study_type": "Clinical Study（耐藥性逆轉）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24576165",
+            "title": "Thalidomide, clarithromycin, lenalidomide and dexamethasone therapy in newly diagnosed, symptomatic multiple myeloma.",
+            "authors": [
+              "Mark Tomer M",
+              "Bowman Isaac A",
+              "Rossi Adriana C",
+              "Shah Manan",
+              "Rodriguez Melissa"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2014",
+            "abstract": "We studied T-BiRD (thalidomide [Thalomid(®)], clarithromycin [Biaxin(®)], lenalidomide [Revlimid(®)] and dexamethasone) in symptomatic, newly diagnosed multiple myeloma. In 28-day cycles, patients received dexamethasone 40 mg/day on days 1, 8, 15, 22, clarithromycin 500 mg twice daily on days 1-28; lenalidomide 25 mg/day on days 1-21; and thalidomide 100 mg/day (50 mg/day on days 1-7 of cycle 1 only) on days 1-28. Twenty-six patients received a median of 6 cycles (range 0-41). Overall response r",
+            "classification": {
+              "study_type": "Phase 2 Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26505646",
+            "title": "Clarithromycin Synergistically Enhances Thalidomide Cytotoxicity in Myeloma Cells.",
+            "authors": [
+              "Qiu Xu-Hua",
+              "Shao Jing-Jing",
+              "Mei Jian-Gang",
+              "Li Han-Qing",
+              "Cao Hong-Qin"
+            ],
+            "journal": "Acta haematologica",
+            "year": "2016",
+            "abstract": "Clarithromycin (CAM) is a macrolide antibiotic that is widely used in the treatment of respiratory tract infections, sexually transmitted diseases and infections caused by the Helicobacter pylori and Mycobacterium avium complex. Recent studies showed that CAM was highly effective against multiple myeloma (MM) when used in combination with immunomodulatory drugs and dexamethasone. However, the related mechanism is still unknown. As 3 immunomodulatory agents are all effective in the respective reg",
+            "classification": {
+              "study_type": "Preclinical/Translational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30792190",
+            "title": "Phase 2 study of clarithromycin, pomalidomide, and dexamethasone in relapsed or refractory multiple myeloma.",
+            "authors": [
+              "Mark Tomer M",
+              "Forsberg Peter A",
+              "Rossi Adriana C",
+              "Pearse Roger N",
+              "Pekle Karen A"
+            ],
+            "journal": "Blood advances",
+            "year": "2019",
+            "abstract": "The addition of clarithromycin enhances the efficacy of lenalidomide plus dexamethasone in treatment-naive multiple myeloma (MM). We conducted a phase 2 trial to evaluate the safety and efficacy of clarithromycin, pomalidomide, and dexamethasone (ClaPd) in relapsed or refractory multiple myeloma (RRMM) with prior lenalidomide exposure. One hundred twenty patients with a median of 5 prior lines of therapy received clarithromycin 500 mg orally twice daily, pomalidomide 4 mg orally on days 1 to 21,",
+            "classification": {
+              "study_type": "Phase 2 Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34021118",
+            "title": "Lenalidomide and dexamethasone with or without clarithromycin in patients with multiple myeloma ineligible for autologous transplant: a randomized trial.",
+            "authors": [
+              "Puig Noemi",
+              "Hernández Miguel T",
+              "Rosiñol Laura",
+              "González Esther",
+              "de Arriba Felipe"
+            ],
+            "journal": "Blood cancer journal",
+            "year": "2021",
+            "abstract": "Although case-control analyses have suggested an additive value with the association of clarithromycin to continuous lenalidomide and dexamethasone (Rd), there are not phase III trials confirming these results. In this phase III trial, 286 patients with MM ineligible for ASCT received Rd with or without clarithromycin until disease progression or unacceptable toxicity. The primary endpoint was progression-free survival (PFS). With a median follow-up of 19 months (range, 0-54), no significant dif",
+            "classification": {
+              "study_type": "Randomized Clinical Trial",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12685831",
+            "title": "BLT-D (clarithromycin [Biaxin], low-dose thalidomide, and dexamethasone) for the treatment of myeloma and Waldenström's macroglobulinemia.",
+            "authors": [
+              "Coleman Morton",
+              "Leonard John",
+              "Lyons Larry",
+              "Pekle Karen",
+              "Nahum Kenneth"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2002",
+            "abstract": "Multiple myeloma remains incurable. Despite the pursuit of various chemotherapeutic approaches, little improvement in outcome has been made in the last 30 years. Thalidomide, dexamethasone, and clarithromycin are oral, nonmyelosuppressive agents, each with reported single agent activity against myeloma. We evaluated a regimen of clarithromycin (Biaxin), low-dose thalidomide and dexamethasone (BLT-D) in patients with previously untreated or treated multiple myeloma or Waldenström's macroglobuline",
+            "classification": {
+              "study_type": "Phase 2 Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28355602",
+            "title": "Results from Two Consecutive Studies of Consolidation Therapy after Autologous Transplant for Multiple Myeloma: Thalidomide, Dexamethasone, and Clarithromycin or Lenalidomide, Dexamethasone, and Clarithromycin.",
+            "authors": [
+              "Holmberg Leona A",
+              "Becker Pamela S",
+              "Bensinger William"
+            ],
+            "journal": "Acta haematologica",
+            "year": "2017",
+            "abstract": "In multiple myeloma (MM), relapse is a problem after autologous hematopoietic stem cell transplantation (ASCT). In the nontransplant setting, thalidomide/dexamethasone/clarithromycin (BLT-D) and lenalidomide/dexamethasone/clarithromycin (BiRd) achieve responses with acceptable toxicity. Both regimens are reasonable objects of study in the post-ASCT setting.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12720150",
+            "title": "Treatment of Waldenstrom's macroglobulinemia with single-agent thalidomide or with the combination of clarithromycin, thalidomide and dexamethasone.",
+            "authors": [
+              "Dimopoulos M A",
+              "Tsatalas C",
+              "Zomas A",
+              "Hamilos G",
+              "Panayiotidis P"
+            ],
+            "journal": "Seminars in oncology",
+            "year": "2003",
+            "abstract": "To evaluate the activity of thalidomide in Waldenstrom's macroglobulinemia (WM), 20 patients were treated on a dose schedule that escalated from 200 mg/d to 600 mg/d. On an intention-to-treat basis, five (25%) patients achieved a partial response, which was noted within 3 months of treatment. Adverse effects were common and prevented dose escalation of thalidomide in 75% of patients and led to premature discontinuation of treatment in 35%. We subsequently evaluated the oral combination of clarit",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36394758",
+            "title": "The efficacy and safety of triplet regimens based on pomalidomide and dexamethasone for treatment of relapsed/refractory multiple myeloma: a systematic review and meta-analysis.",
+            "authors": [
+              "Liao K-Y",
+              "Liu Y",
+              "Xiong H",
+              "Chen X-M",
+              "Zhang X-W"
+            ],
+            "journal": "European review for medical and pharmacological sciences",
+            "year": "2022",
+            "abstract": "Triplet regimens based on pomalidomide and dexamethasone have been applied to treat relapsed/refractory multiple myeloma, but the safety and efficacy are not yet very clear. This meta-analysis aimed at comparing the safety and efficacy of different triplet therapies and analyzing the best therapy regimen.",
+            "classification": {
+              "study_type": "Systematic Review/Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26505907",
+            "title": "It's Time to Take Clarithromycin Seriously in Multiple Myeloma.",
+            "authors": [
+              "Mark Tomer M",
+              "Coleman Morton"
+            ],
+            "journal": "Acta haematologica",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17989313",
+            "title": "BiRD (Biaxin [clarithromycin]/Revlimid [lenalidomide]/dexamethasone) combination therapy results in high complete- and overall-response rates in treatment-naive symptomatic multiple myeloma.",
+            "authors": [
+              "Niesvizky Ruben",
+              "Jayabalan David S",
+              "Christos Paul J",
+              "Furst Jessica R",
+              "Naib Tara"
+            ],
+            "journal": "Blood",
+            "year": "2008",
+            "abstract": "This trial determined the safety and efficacy of the combination regimen clarithromycin (Biaxin), lenalidomide (Revlimid), and dexamethasone (BiRD) as first-line therapy for multiple myeloma. Patients received BiRD in 28-day cycles. Dexamethasone (40 mg) was given orally once weekly, clarithromycin (500 mg) was given orally twice daily, and lenalidomide (25 mg) was given orally daily on days 1 to 21. Objective response was defined by standard criteria (ie, decrease in serum monoclonal protein [M",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15636690",
+            "title": "Treatment options in Waldenstrom's macroglobulinemia.",
+            "authors": [
+              "Björkholm Magnus"
+            ],
+            "journal": "Clinical lymphoma",
+            "year": "2004",
+            "abstract": "Waldenstrom's macroglobulinemia (WM) is a rare chronic B-cell lymphoproliferative disorder characterized by macroglobulin (immunoglobulin M; IgM) paraproteinemia. The clinical manifestations associated with WM can be related to those of direct organ tumor infiltration, hyperviscosity and tissue deposition of IgM. Treatment must be individualized according to the nature of the clinical manifestations. Plasmapheresis has a role in patients whose symptoms are caused by increased serum viscosity. Ch",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27804150",
+            "title": "Progressive refractory light chain amyloidosis and multiple myeloma patients are responsive to the addition of clarithromycin to IMiD based therapy.",
+            "authors": [
+              "Shaulov Adir",
+              "Ganzel Chezi",
+              "Benyamini Noam",
+              "Barshay Yossef",
+              "Goldschmidt Neta"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2017",
+            "abstract": "Multiple myeloma (MM) and primary systemic light chain amyloidosis (AL) are both chronic plasma cell dyscrasias with different clinical expression but limited treatment options for relapsed refractory disease. We report the effect of the addition of clarithromycin on 31 MM and 17 AL with relapsed or refractory disease who had an insufficient response or disease progression while on an IMiD based therapy. In this high risk population, hematological response was reported in 48% of MM patients and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18759764",
+            "title": "Clarithromycin with low dose dexamethasone and thalidomide is effective therapy in relapsed/refractory myeloma.",
+            "authors": [
+              "Morris T C M",
+              "Kettle P J",
+              "Drake M",
+              "Jones F C G",
+              "Hull D R"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2008",
+            "abstract": "A combination of clarithromycin, low dose of thalidomide and low dose dexamethasone was used in a phase II study to treat patients with relapsed and refractory myeloma. Thirty patients received clarithromycin 250 mg twice daily and thalidomide 50 mg at night on an ongoing basis with 4-d pulses of 10 mg dexamethasone given monthly. Eight patients had permitted escalation of thalidomide dosage up to 200 mg daily. The combination was well tolerated and could be given to elderly, infirm and severely",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11778973",
+            "title": "Phase II trial of clarithromycin and pamidronate therapy in myeloma.",
+            "authors": [
+              "Morris T C",
+              "Ranaghan L",
+              "Morrison J"
+            ],
+            "journal": "Medical oncology (Northwood, London, England)",
+            "year": "2001",
+            "abstract": "A phase II study to further evaluate any possible antimyeloma activity of clarithromycin was conducted following a report of possible clinical efficacy. Twenty patients, 11 male and 9 female with a median age of 73 yr, received clarithromycin 500 mg twice daily with monthly intravenous infusions of disodium pamidronate. None of the study patients received concomitant cytotoxic or steroid therapy. Ten patients had relapsed disease, five had refractory disease, four were previously untreated, and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33138750",
+            "title": "Drug Repositioning for the Treatment of Hematologic Disease: Limits, Challenges and Future Perspectives.",
+            "authors": [
+              "Allegra Alessandro",
+              "Imbesi Chiara",
+              "Bitto Alessandra",
+              "Ettari Roberta"
+            ],
+            "journal": "Current medicinal chemistry",
+            "year": "2021",
+            "abstract": "Drug repositioning is a strategy to identify new uses for approved or investigational drugs that are used off-label outside the scope of the original medical indication. In this review, we report the most relevant studies about drug repositioning in hematology, reporting the signalling pathways and molecular targets of these drugs, and describing the biological mechanisms which are responsible for their anticancer effects. Although the majority of studies on drug repositioning in hematology conc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37046991",
+            "title": "Autophagy: A Potential Therapeutic Target to Tackle Drug Resistance in Multiple Myeloma.",
+            "authors": [
+              "Bashiri Hamed",
+              "Tabatabaeian Hossein"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2023",
+            "abstract": "Multiple myeloma (MM) is the second most prevalent hematologic malignancy. In the past few years, the survival of MM patients has increased due to the emergence of novel drugs and combination therapies. Nevertheless, one of the significant obstacles in treating most MM patients is drug resistance, especially for individuals who have experienced relapses or developed resistance to such cutting-edge treatments. One of the critical processes in developing drug resistance in MM is autophagic activit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25981655",
+            "title": "[Successful treatment of relapsed and refractory multiple myeloma by using clarithromycin-lenalidomide, low-dose dexamethasone(BiRd), and melphalan-prednisolone(MP)].",
+            "authors": [
+              "Tsunemine Hiroko",
+              "Yoshioka Satoshi",
+              "Sakane Emiko",
+              "Akasaka Hiroshi",
+              "Ito Kiminari"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2015",
+            "abstract": "The development of novel agents has markedly improved the prognosis of multiple myeloma(MM). However, salvage therapies for patients with MM that is refractory to novel agents and conventional chemotherapies have not been established. Herein, we describe successful treatments for such patients with the combination of clarithromycin, lenalidomide, and lowdose dexamethasone(BiRd)with or without melphalan and prednisolone(MP). Although its duration was relatively short, the remission is important i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29454372",
+            "title": "A novel combination of bortezomib, lenalidomide, and clarithromycin produced stringent complete response in refractory multiple myeloma complicated with diabetes mellitus - clinical significance and possible mechanisms: a case report.",
+            "authors": [
+              "Takemori Nobuo",
+              "Imai Goro",
+              "Hoshino Kazuo",
+              "Ooi Akishi",
+              "Kojima Masaru"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2018",
+            "abstract": "In general, dexamethasone is a required component drug in various combination chemotherapies for treating multiple myeloma, and its efficacy has been widely recognized. However, administration of dexamethasone is known to cause various adverse effects including hyperglycemia which requires insulin therapy. During the course of treatment, we developed a novel effective dexamethasone-free combination regimen and evaluated it for its effect in multiple myeloma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多重機轉支持：(1) CYP3A4 強效抑制 → 提高 thalidomide/lenalidomide/pomalidomide 及 dexamethasone 系統暴露量；(2) NF-κB 抑制及 TNF-α 下調 → 直接免疫調節及抗骨髓瘤效應；(3) 可能直接誘導漿細胞凋亡；(4) 協同增強免疫調節藥物對骨髓瘤細胞的細胞毒性（PMID 26505646）。BiaxinBLT-D（Clarithromycin + thalidomide + dexamethasone）為已建立的治療方案。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "septicemic plague",
+      "txgnn": {
+        "score": 0.9869877099990844,
+        "rank": 12844
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23463743",
+            "title": "Cethromycin: a new ketolide antibiotic.",
+            "authors": [
+              "Mansour Hanine",
+              "Chahine Elias B",
+              "Karaoui Lamis R",
+              "El-Lababidi Rania M"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2013",
+            "abstract": "To review the pharmacology, chemistry, microbiology, in vitro susceptibility, mechanism of resistance, pharmacokinetics, pharmacodynamics, clinical efficacy, safety, drug interactions, dosage, and administration of cethromycin, a new ketolide antibiotic.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36284359",
+            "title": "Assessment of Helicobacter pylori positive infected patients according to Clarithromycin resistant 23S rRNA, rpl22 associated mutations and cyp2c19*1, *2, *3 genes pattern in the Early stage of Gastritis.",
+            "authors": [
+              "Maghami Atena Abedi",
+              "Mobarez Ashraf Mohabati",
+              "Yadegar Abbas",
+              "Nikkhah Maryam",
+              "Sadeghi Amir"
+            ],
+            "journal": "BMC research notes",
+            "year": "2022",
+            "abstract": "Clarithromycin resistant Helicobacter pylori (CAM-R) is the main cause of standard triple therapy eradicating failure. Proton pump inhibitors (PPIs) directly pose bacteriocidic activity and prepare the optimum condition for Clarithromycin's best function. In counter with Poor metabolizer subjects, Homozygote Extensive Metabolizers have well characterized by treatment failure. Eventually, determination of CAM-R profile and estimation of PPIs metabolization rate support clinicians in better prescr",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28133585",
+            "title": "Helicobacter pylori Therapy in the West.",
+            "authors": [
+              "Graham David Y",
+              "Rimbara Emiko"
+            ],
+            "journal": "Japanese journal of helicobacter research",
+            "year": "2012",
+            "abstract": "Increasing antimicrobial resistance has continued to plague successful anti-Helicobacter pylori eradication therapy. With rare exception, clarithromycin-containing triple therapy now provides unacceptably low treatment success. Here we discuss the factors that influence treatment outcome, how to predict outcome with new regimens, the 4-drug regimens that are currently effective in the West and their limitations, considerations about the approach to treatment failures and finally, based on the ex",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鼠疫（Yersinia pestis）標準治療為 aminoglycosides、fluoroquinolones 或 tetracyclines。大環內酯類對鼠疫的體外活性有限，且3篇文獻均與敗血性鼠疫無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn": {
+        "score": 0.9869267344474792,
+        "rank": 12893
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "複合型疾病分類。雖然 Clarithromycin 在骨髓瘤（常合併周邊神經病變）有應用，但「血液病合併獲得性周邊神經病變」作為再利用目標缺乏獨立機轉支持。0 trials, 0 literature。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital hematological disorder",
+      "txgnn": {
+        "score": 0.983169436454773,
+        "rank": 15346
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10781200",
+            "title": "HAART and Mycobacterium avium complex in an HIV infected patient with severe factor VII deficiency.",
+            "authors": [
+              "Girmenia C",
+              "Martino P",
+              "Mazzucconi M G",
+              "Bizzoni L",
+              "Cassone A"
+            ],
+            "journal": "Haemophilia : the official journal of the World Federation of Hemophilia",
+            "year": "2000",
+            "abstract": "A clinical syndrome represented by the association of Mycobacterium avium complex (MAC) infection with initiation of highly active antiretroviral therapy (HAART) has been recently described in patients with advanced HIV disease. HAART-associated improvement of the immune status might convert a clinically silent MAC infection into an active mycobacterial disease. A 40-year-old man with severe factor VII deficiency, advanced HIV-1 disease, a CD4 + lymphocyte count of 15 cells microL-1 (CDC stage A",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性血液疾病（如鐮刀型細胞貧血症、地中海貧血）與 Clarithromycin 無已知治療機轉關聯。唯一文獻為 HIV 合併 Factor VII 缺乏症患者的 MAC 感染治療案例，顯示 Clarithromycin 用於治療合併感染而非先天性血液疾病本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Clarithromycin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

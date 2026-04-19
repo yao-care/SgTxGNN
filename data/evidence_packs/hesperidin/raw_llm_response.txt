@@ -1,0 +1,269 @@
+## Hesperidin (DB04703) 藥物再利用證據分析
+
+以下為完整評估結果：
+
+```json
+{
+  "drug": "Hesperidin",
+  "drugbank_id": "DB04703",
+  "analysis_date": "2026-04-04",
+  "overall_note": "Hesperidin 為天然柑橘類黃酮苷，市場狀態為未上市藥物（非批准藥物再利用，而是天然物開發）。整體證據集中於骨髓性白血病的體外研究，無任何人體臨床試驗資料。主要侷限：(1) 所有臨床前證據均為體外細胞株或計算研究；(2) 多篇文獻實際使用 Hesperetin（Hesperidin 的去醣基代謝物）而非原型化合物，需區分化合物身份；(3) Hesperidin 口服生物利用度低，藥代動力學挑戰待克服；(4) 原始 MoA 為 [Data Gap]，安全性資料庫不完整。",
+  "indications": [
+    {
+      "disease_name": "myeloid leukemia",
+      "txgnn_score": 0.9873,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "rationale": "擁有本批次最豐富的臨床前證據（16篇，本次提供10篇），跨越1990–2025年多個獨立研究組，證實在 AML/CML/APL 細胞株中的抗腫瘤活性；具備與臨床批准藥物（阿糖胞苷、阿扎胞苷）的協同研究基礎。但全部為體外/計算研究，尚無動物實驗或 Phase 1 臨床試驗。建議下一步：(1) 系統性動物體內實驗（AML 小鼠模型）；(2) 釐清 Hesperidin vs Hesperetin 的有效形式；(3) 制劑改良提升生物利用度。",
+      "mechanistic_link": "多重機制：① 下調 Mcl-1 抗凋亡蛋白（BCL-2 家族，AML 中高度表現），解除凋亡抑制；② 分子對接顯示可結合 CD33（骨髓特異性抗原，已驗證靶點：gemtuzumab ozogamicin）；③ 激活線粒體內源性凋亡途徑（細胞色素c釋放、caspase-3/9活化）；④ 細胞週期阻滯（G0/G1 及 S 期）；⑤ 與阿糖胞苷及阿扎胞苷具協同抗白血病活性；⑥ Type II 雌激素受體結合介導生長抑制；⑦ 表觀轉錄組調控（AML）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40581950",
+          "title": "Targeting CD33 With Hesperidin: A Natural Strategy for AML Treatment",
+          "year": "2025",
+          "study_type": "In Silico/In Vitro",
+          "tier": 3,
+          "relevance_grade": "A",
+          "reasoning": "直接以 Hesperidin 針對 AML 臨床驗證靶點 CD33，與已批准療法（gemtuzumab）靶點一致，機轉連結強，最新發表。"
+        },
+        {
+          "pmid": "38423637",
+          "title": "Azacitidine-Hesperetin Combination Induces S-phase Cell Cycle Arrest and Apoptosis in Human Leukemia",
+          "year": "2024",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "使用 Hesperetin（代謝物非原型），與 DNA 甲基化轉移酶抑制劑阿扎胞苷協同作用具臨床轉化意義；需解決代謝物身份問題。"
+        },
+        {
+          "pmid": "36534417",
+          "title": "Evidence for Hesperidin as an Effective Factor in Initiating the Intrinsic Pathway of Apoptosis in K562 cells",
+          "year": "2023",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "A",
+          "reasoning": "直接使用 Hesperidin 原型化合物，在 K562（CML）細胞株中明確展示線粒體凋亡途徑激活，機轉清晰可靠。"
+        },
+        {
+          "pmid": "36522514",
+          "title": "Amentoflavone and methyl hesperidin targeting epitranscriptomic modulator in AML",
+          "year": "2022",
+          "study_type": "In Silico/In Vitro",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "使用 methyl hesperidin 衍生物針對 AML 表觀轉錄組靶點，提供新穎機轉視角，但非 Hesperidin 原型；計算預測為主。"
+        },
+        {
+          "pmid": "30224905",
+          "title": "Hesperidin Modifies Myeloid Cell Leukemia Type-1 (Mcl-1) Gene Expression",
+          "year": "2018",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "A",
+          "reasoning": "直接研究 Hesperidin 對 Mcl-1 基因表達的調控，Mcl-1 是 AML 治療的重要靶點（venetoclax 聯合策略核心），臨床轉化相關性高。"
+        },
+        {
+          "pmid": "26408178",
+          "title": "Fisetin and hesperetin induced apoptosis and cell cycle arrest in CML cells",
+          "year": "2016",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "Hesperetin（代謝物）在 CML 細胞中誘導凋亡及細胞週期阻滯，與 imatinib 耐藥方案潛在互補，但需確認 Hesperidin 轉化動力學。"
+        },
+        {
+          "pmid": "26148599",
+          "title": "Enhancement of cytotoxic effects of Cytarabine in synergism with Hesperidine and Silibinin in AML",
+          "year": "2015",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "A",
+          "reasoning": "Hesperidin 與阿糖胞苷（AML 骨幹化療藥）協同增效，提供直接聯合用藥假說，臨床轉化路徑清晰。"
+        },
+        {
+          "pmid": "26081618",
+          "title": "Pleiotropic effects of fisetin and hesperetin on human acute promyelocytic leukemia cells",
+          "year": "2015",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "Hesperetin 在 APL（AML-M3）細胞株中展示多效性抗腫瘤活性，屬代謝物研究。"
+        },
+        {
+          "pmid": "40751800",
+          "title": "Hesperetin increases membrane progesterone receptor expression in human myeloid leukemia cells",
+          "year": "2025",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "探討孕酮受體調控，機轉對 AML 治療的臨床意義尚不明確；使用 Hesperetin 而非 Hesperidin。"
+        },
+        {
+          "pmid": "2207000",
+          "title": "Type II oestrogen binding sites in AML and ALL: growth inhibitory effect",
+          "year": "1990",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "1990 年早期研究，描述 II 型雌激素結合位點的生長抑制效果，科學背景已過時，需現代技術重新驗證。"
+        }
+      ]
+    },
+    {
+      "disease_name": "myeloproliferative neoplasm",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "rationale": "TxGNN 評分本批次最高（0.9947），有2篇文獻提供間接支持。PMID 31759365 計算研究顯示 Hesperidin 可能結合 BCR 激酶域（CML/Ph+ MPN 的驅動因素），提供可驗證的機轉假說。建議與骨髓性白血病適應症合併探索，尤其針對 CML/BCR-ABL 陽性亞型；需體外 BCR 激酶抑制實驗驗證計算預測。",
+      "mechanistic_link": "分子對接預測 Hesperidin 可結合 BCR 激酶 ATP 結合口袋，與 imatinib 作用機制相似但化學結構迥異，具潛在成為天然 BCR 激酶抑制劑基礎。輔以骨髓性白血病研究中的一般抗增殖機制（Mcl-1調控、內源性凋亡激活），對 BCR-ABL 驅動的 MPN 具理論雙重效益。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31759365",
+          "title": "Repurposing Drugs by In Silico Methods to Target BCR Kinase Domain in CML",
+          "year": "2019",
+          "study_type": "In Silico",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "計算對接研究，CML（MPN 最常見亞型）的核心靶點 BCR 激酶，提供可驗證的機轉假說；純計算研究，缺乏體外/體內驗證。"
+        },
+        {
+          "pmid": "40751800",
+          "title": "Hesperetin increases membrane progesterone receptor expression in human myeloid leukemia cells",
+          "year": "2025",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "骨髓細胞研究提供間接相關性，但孕酮受體調控與 MPN 治療的機轉連結較弱；代謝物研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "monocytic leukemia",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "僅1篇2003年機轉研究，主題為 Hesperidin C7 位芸香糖苷對黃酮類化合物凋亡活性的影響（結論：糖基化使凋亡活性衰減），本質為結構-活性關係研究而非針對單核細胞白血病的治療研究。無後續複製研究，不足以支持優先投入。",
+      "mechanistic_link": "Hesperidin 的 C7 位芸香糖苷結構顯著降低其凋亡誘導能力；腸道菌群將 Hesperidin 去醣基化為 Hesperetin 後，凋亡活性增強，暗示體內活性可能主要由代謝物 Hesperetin 承擔。此機轉在 AML-M5（單核細胞白血病）中的特異性尚未建立。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14505793",
+          "title": "Rutinoside at C7 attenuates the apoptosis-inducing activity of flavonoids",
+          "year": "2003",
+          "study_type": "In Vitro",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "2003年早期結構-活性關係研究，描述糖基化對 Hesperidin 凋亡活性的負面影響，非針對單核細胞白血病的治療研究；臨床相關性低，但對理解 Hesperidin vs Hesperetin 的活性差異有參考價值。"
+        }
+      ]
+    },
+    {
+      "disease_name": "spermatocytic seminoma",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無任何臨床試驗或文獻支持，純 TxGNN 知識圖譜預測。精母細胞型精原細胞瘤預後良好、惰性發展，現有放療/觀察策略有效，再利用動機與證據基礎均不足。",
+      "mechanistic_link": "未知，為純計算預測。知識圖譜可能基於黃酮類化合物的一般抗腫瘤節點關聯，缺乏生殖腺腫瘤特異性機轉研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tubular variant testicular seminoma",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無任何臨床試驗或文獻支持，純 TxGNN 知識圖譜預測。管狀型睾丸精原細胞瘤為極罕見亞型，對鉑類化療高度敏感，缺乏任何相關研究基礎及臨床未滿足需求。",
+      "mechanistic_link": "未知，為純計算預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gestational trophoblastic neoplasm",
+      "txgnn_score": 0.9903,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無任何臨床試驗或文獻支持，純 TxGNN 知識圖譜預測。妊娠滋養細胞腫瘤（GTN）對化療（MTX、放線菌素D）高度敏感，治癒率極高，臨床未滿足需求低。",
+      "mechanistic_link": "未知，為純計算預測。GTN 的 β-hCG 驅動增殖機轉與 Hesperidin 已知活性無明確連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "primary peritoneal carcinoma (disease)",
+      "txgnn_score": 0.9879,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無任何臨床試驗或文獻支持，純 TxGNN 知識圖譜預測。原發性腹膜癌與高級別漿液性卵巢癌分子特徵相似，若 Hesperidin 在卵巢癌有研究，可藉類比推論，但目前缺乏直接及間接證據。",
+      "mechanistic_link": "未知，為純計算預測。理論上 Hesperidin 的抗氧化/抗炎特性可能影響腹膜微環境，但缺乏實驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute lymphoblastic leukemia (disease)",
+      "txgnn_score": 0.9874,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無任何直接文獻支持，純 TxGNN 預測。雖 PMID 2207000 提及 ALL 細胞中的 II 型雌激素結合，但該研究重點在骨髓性白血病，ALL 僅作為對照組；不足以建立 Hesperidin 在 ALL 中的治療假說。",
+      "mechanistic_link": "未知，為純計算預測。知識圖譜可能基於 Hesperidin 一般抗腫瘤活性連結至淋巴性白血病，但 ALL 的驅動機制（BCR-ABL, ETV6-RUNX1 等）與 Hesperidin 已知靶點無明確交集。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Seckel syndrome",
+      "txgnn_score": 0.9871,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無任何臨床試驗或文獻支持，純 TxGNN 知識圖譜預測。Seckel 症候群為 DNA 修復基因（ATR/PCNT）突變導致的罕見遺傳性疾病，Hesperidin 無法修正基因缺陷，機轉連結薄弱且不合理。",
+      "mechanistic_link": "未知，為純計算預測。Hesperidin 的抗氧化特性理論上可緩解 DNA 損傷相關氧化應激，但無法恢復 ATR 激酶或 Pericentrin 功能；治療路徑不合理。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "myeloproliferative neoplasm, unclassifiable",
+      "txgnn_score": 0.9868,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "無文獻支持，純 TxGNN 預測。此疾病分類（MPN-U）為排除診斷，與 'myeloproliferative neoplasm' 主適應症高度重疊，建議合併考量而非獨立分析；不單獨投入資源。",
+      "mechanistic_link": "與 myeloproliferative neoplasm 適應症相同，BCR 激酶抑制及一般抗骨髓增殖活性為推測機轉，缺乏 MPN-U 特異性研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 優先級矩陣
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **myeloid leukemia** | 0.9873 | **L4** | **S1** | ✅ Research Question |
+| **myeloproliferative neoplasm** | 0.9947 | **L4** | **S1** | ✅ Research Question |
+| monocytic leukemia | 0.9940 | L4 | S0 | ⏸️ Hold |
+| 其餘7項 | 0.987–0.993 | **L5** | **S0** | 🚫 Hold |
+
+---
+
+### 🔑 關鍵發現
+
+1. **TxGNN 分數 ≠ 證據強度**：本批次所有適應症 TxGNN 分數均 > 0.986，但實際臨床證據差距懸殊（0 至 16 篇文獻），顯示高分需謹慎解讀
+
+2. **Hesperidin vs Hesperetin 身份混淆**：多篇高評級文獻（PMID 38423637, 26408178, 40751800 等）實際使用 **Hesperetin**（去醣基代謝物），而非 Hesperidin 本身。此區別對製劑設計至關重要
+
+3. **骨髓惡性腫瘤集群效應**：myeloid leukemia（L4/S1）與 myeloproliferative neoplasm（L4/S1）具共同機轉基礎，建議整合為單一研究方向，以 **CML/AML 為優先適應症**
+
+4. **協同用藥信號**：與阿糖胞苷（PMID 26148599）及阿扎胞苷（PMID 38423637）的協同研究，提供低風險的 **附加用藥（add-on）** 臨床策略，可縮短臨床轉化路徑

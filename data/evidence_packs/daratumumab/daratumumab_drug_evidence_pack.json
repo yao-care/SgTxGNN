@@ -1,0 +1,827 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09331-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Daratumumab",
+    "drugbank_id": "DB09331",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn": {
+        "score": 0.9813428521156312,
+        "rank": 16371
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04136756",
+            "title": "A Phase 1, Open-label, Multi-center, Dose Escalation and Dose Expansion Study of NKTR-255 in Relapsed or Refractory Hematological Malignancies",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2019-10-07",
+            "completion_date": "2023-04-24",
+            "brief_summary": "Patients will receive intravenous (IV) NKTR-255 in 21 or 28 day treatment cycles. During the Part 1 dose escalation portion of the trial, patients will either receive NKTR-255 as monotherapy, NKTR-255 administered as a doublet with daratumumab subcutaneous (DARZALEX FASPRO TM), or NKTR-255 administered as a doublet with rituximab. After determination of the recommended Phase 2 dose (RP2D) of NKTR-255, NKTR-255 will be evaluated in Part 2. During the Part 2 dose expansion portion of the trial, pa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41571958",
+            "title": "Diagnosis, risk stratification and management of smouldering multiple myeloma.",
+            "authors": [
+              "Zanwar Saurabh",
+              "Kumar Shaji",
+              "Rajkumar S Vincent"
+            ],
+            "journal": "Nature reviews. Clinical oncology",
+            "year": "2026",
+            "abstract": "New therapies have markedly improved survival outcomes for patients with multiple myeloma (MM). However, the onset of active disease, as defined by the 2014 International Myeloma Working Group SLiM-CRAB criteria, is often linked to substantial and irreversible morbidity. MM always develops from an asymptomatic precursor state called smouldering multiple myeloma (SMM). The clinical trajectory of SMM varies considerably; low-risk SMM often has an indolent course, similar to monoclonal gammopathy o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40257478",
+            "title": "Paraneoplastic leukocytoclastic vasculitis mimicking ulcus cruris as rare initial manifestation of smoldering myeloma IgG kappa.",
+            "authors": [
+              "Brummer Christina",
+              "Utpatel Kirsten",
+              "Geis Sebastian",
+              "Haferkamp Sebastian",
+              "Brosig Andreas"
+            ],
+            "journal": "Annals of hematology",
+            "year": "2025",
+            "abstract": "Leukocytoclastic vasculitis (LCV) has been reported as a rare paraneoplastic phenomenon associated with several hematologic disorders, including indolent lymphomas such as Waldenström macroglobulinemia. However, there are very few cases of LCV in the context of plasma cell disorders. We present the case of a 58-year-old female who developed a rapidly progressive, ulceronecrotic skin lesion on her left lower leg due to leukocytoclastic vasculitis. The lesion was initially suspected to be an ulcer",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32736600",
+            "title": "A colonic mass revealing a disseminated crystal storing histiocytosis secondary to indolent multiple myeloma: a case report with literature review.",
+            "authors": [
+              "Contejean Adrien",
+              "Larousserie Frédérique",
+              "Bouscary Didier",
+              "Dohan Anthony",
+              "Deau-Fischer Bénédicte"
+            ],
+            "journal": "BMC gastroenterology",
+            "year": "2020",
+            "abstract": "Crystal storing histiocytosis is a rare disorder associated with monoclonal gammopathy. In this disease, monoclonal heavy and light chains accumulate in the lysosome of macrophages, leading to histiocytic reaction in different organs. It is secondary to the presence of a small B-cell clone, responsible for monoclonal immunoglobulin production. Histological diagnosis is a challenge and differential diagnoses include fibroblastic and histiocytic neoplasm. Clinical manifestations depend on the invo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28915615",
+            "title": "Expression of CD38 in myeloma bone niche: A rational basis for the use of anti-CD38 immunotherapy to inhibit osteoclast formation.",
+            "authors": [
+              "Costa Federica",
+              "Toscani Denise",
+              "Chillemi Antonella",
+              "Quarona Valeria",
+              "Bolzoni Marina"
+            ],
+            "journal": "Oncotarget",
+            "year": "2017",
+            "abstract": "It is known that multiple myeloma (MM) cells express CD38 and that a recently developed human anti-CD38 monoclonal antibody Daratumumab mediates myeloma killing. However, the expression of CD38 and other functionally related ectoenzymes within the MM bone niche and the potential effects of Daratumumab on bone cells are still unknown. This study firstly defines by flow cytometry and immunohistochemistry the expression of CD38 by bone marrow cells in a cohort of patients with MM and indolent monoc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34514307",
+            "title": "Role of imaging for diagnosis and management of aortic valve papillary fibroelastoma and cardiac amyloid light chain amyloidosis: a case report.",
+            "authors": [
+              "Dimov Ivan",
+              "Meuleman Nathalie",
+              "de Cannière Didier",
+              "Unger Philippe"
+            ],
+            "journal": "European heart journal. Case reports",
+            "year": "2021",
+            "abstract": "We report the case of a patient who presented with concomitant aortic valve papillary fibroelastoma (PFE) and cardiac amyloidosis. Although histologically benign, PFE confers an increased thromboembolic risk, and surgical excision is often indicated. However, outcomes of cardiac surgery are poor in patients with cardiac amyloidosis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cholangiocarcinoma, susceptibility to",
+      "txgnn": {
+        "score": 0.6506474614143372,
+        "rank": 46655
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CD38 在膽管癌中的表現數據極為稀少。部分實體腫瘤的腫瘤微環境含有 CD38⁺ 免疫抑制細胞，理論上 Daratumumab 可能具有免疫調節效果，但此機轉高度推測性，缺乏實驗驗證。此外，適應症名稱為「susceptibility to」而非確診疾病，指遺傳易感性而非治療靶點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "placenta disease",
+      "txgnn": {
+        "score": 0.6282250285148621,
+        "rank": 47301
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CD38 在胎盤中有一定表現，參與 cADPR 介導的 Ca²⁺ 訊號調節，但將 Daratumumab 用於胎盤疾病的概念極為新穎且缺乏任何臨床前驗證。此外，孕期使用單株抗體存在重大安全疑慮（胎兒 IgG 轉移），屬於高風險適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "minimally invasive lung adenocarcinoma",
+      "txgnn": {
+        "score": 0.627463698387146,
+        "rank": 47327
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺腺癌中 CD38 表現有限。已有少數研究探討 CD38 在肺癌腫瘤微環境中的角色，但均屬早期探索性研究。「Minimally invasive」分類指手術病理分期，而非系統治療適應症，邏輯層面也不匹配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "GCGR-related hyperglucagonemia",
+      "txgnn": {
+        "score": 0.6181472539901733,
+        "rank": 47595
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胰升糖素受體（GCGR）相關高胰升糖素血症為代謝/內分泌疾病，與 CD38/抗體靶向治療的機轉連結極為薄弱。TxGNN 預測可能來自知識圖譜中遠端基因本體（GO）連結，缺乏臨床合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hemoglobin C-beta-thalassemia syndrome",
+      "txgnn": {
+        "score": 0.6148685216903687,
+        "rank": 47691
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "地中海貧血為血紅蛋白基因缺陷疾病。雖然部分地中海貧血患者會出現繼發性漿細胞異常（如長期輸血導致的免疫活化），但直接將 Daratumumab 用於此疾病缺乏合理機轉依據。知識圖譜可能透過「anemia → bone marrow → plasma cells → CD38」的間接路徑生成此預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "giant cell reparative granuloma",
+      "txgnn": {
+        "score": 0.594037652015686,
+        "rank": 48421
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "巨細胞修復性肉芽腫為骨骼的局部良性反應性病灶，主要涉及破骨細胞樣多核巨細胞。雖然 CD38 在骨髓瘤骨病中有研究，但此疾病的機轉完全不同，缺乏任何可信的靶向依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "colon inflammatory polyp",
+      "txgnn": {
+        "score": 0.5872949361801147,
+        "rank": 48719
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "大腸炎性息肉為黏膜慢性發炎反應，主要由 T 細胞/黏膜免疫介導。CD38 在腸道免疫細胞中有表現，但以 Daratumumab 靶向治療此疾病缺乏臨床前數據支持，且 TxGNN 分數已接近閾值（0.587）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "dental caries",
+      "txgnn": {
+        "score": 0.5869449377059937,
+        "rank": 48734
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "齲齒為口腔細菌（主要為 Streptococcus mutans）代謝酸性產物導致的牙齒硬組織脫礦疾病，與 CD38 免疫靶向治療毫無機轉關聯。此預測極可能為知識圖譜雜訊（noise）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "epidural abscess",
+      "txgnn": {
+        "score": 0.5807605981826782,
+        "rank": 49016
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硬膜外膿瘍為細菌感染性急症（主要為金黃色葡萄球菌），需要抗生素及手術引流治療。以免疫抑制性單株抗體 Daratumumab 治療此疾病不但無機轉依據，且可能加重感染風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "placenta disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "placenta disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "placenta disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "colon inflammatory polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "colon inflammatory polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "colon inflammatory polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "dental caries"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "dental caries"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "dental caries"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "epidural abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "epidural abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Daratumumab",
+        "disease": "epidural abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

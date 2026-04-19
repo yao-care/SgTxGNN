@@ -1,0 +1,192 @@
+```json
+{
+  "drug": "Atezolizumab",
+  "drugbank_id": "DB11595",
+  "analysis_date": "2026-04-05",
+  "background_note": "Atezolizumab 為 anti-PD-L1 單株抗體（checkpoint inhibitor），全球已獲 FDA/EMA 核准用於尿路上皮癌、NSCLC、TNBC、HCC、SCLC 等。本資料集顯示『未上市』係指該國藥監局未登錄，並非無全球臨床證據。original_moa [Data Gap] 為資料庫缺漏，實際 MOA 明確。",
+  "indications": [
+    {
+      "disease_name": "prostatic urethra urothelial carcinoma",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "前列腺尿道尿路上皮癌屬尿路上皮系統腫瘤，與膀胱癌共享 PD-L1 高表現及高腫瘤突變負荷（TMB）特性。Atezolizumab 阻斷 PD-L1/PD-1 及 PD-L1/B7.1 互動，解除 T 細胞抑制，機轉連結直接。全球已核准用於尿路上皮癌（cisplatin 不適用一線 + 二線），解剖位置鄰近膀胱，生物學相似度高。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02844816",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 已完成，N=172，BCG 無效之非肌肉浸潤性膀胱癌（NMIBC）。NMIBC 中前列腺尿道受累（prostatic urethral involvement）為常見評估項目，研究族群高度重疊。樣本數足，已完成，為本適應症最強直接證據。降一級（A→B）因試驗名稱指向膀胱，非前列腺尿道之獨立子分析。"
+        },
+        {
+          "nct_id": "NCT03170960",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1b，Cabozantinib + Atezolizumab 聯合劑量遞增，N=914（廣泛實體瘤）。屬安全性/劑量探索性質，尿路上皮癌可能含於研究族群中，但無前列腺尿道獨立數據。作為支持性安全證據可用，直接療效相關性低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腎盂肉瘤樣移行細胞癌為極罕見病理亞型，同時具備兩種機轉連結：(1) 尿路上皮癌組件 → PD-L1 高表現；(2) 肉瘤樣分化 → 常與免疫抑制微環境及更高 TMB 相關，理論上對 checkpoint 抑制劑更敏感。然而目前無直接臨床試驗或文獻數據，證據僅屬間接推論層級。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "浸潤性膀胱尿路上皮癌肉瘤樣變體同時具備膀胱尿路上皮癌（Atezolizumab 全球核准適應症）及肉瘤樣分化（高 PD-L1 表現傾向）兩項機轉優勢。雖無此亞型之獨立試驗，膀胱尿路上皮癌的全球核准背景使其相較純預測型適應症具更強機轉基礎，建議進入安全性初評階段。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal pelvis papillary urothelial carcinoma",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎盂乳頭狀尿路上皮癌為上尿路尿路上皮癌（UTUC）之常見病理型態，PD-L1 表現率與膀胱尿路上皮癌相當（25-60%）。Atezolizumab 在尿路上皮癌之全球核准涵蓋上尿路（輸尿管、腎盂），提供強機轉背景。現有 Phase 1b 數據（NCT03170960）提供初步安全性依據，建議設計 UTUC 特異性 Phase 2 試驗。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03170960",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1b，N=914，廣泛尿路上皮/泌尿腫瘤族群。腎盂尿路上皮癌極可能含於研究族群，雖為聯合治療（+Cabozantinib）且無腎盂乳頭狀之獨立分層，仍為現有最直接之臨床數據。State: ACTIVE_NOT_RECRUITING 表示數據仍在累積中。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "uterine ligament adenocarcinoma",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮韌帶腺癌為極罕見婦科惡性腫瘤，PD-L1 表現及免疫微環境特性缺乏文獻描述。Atezolizumab 在婦科腫瘤中無直接核准適應症（Pembrolizumab 有子宮內膜癌及 MSI-H 腫瘤之核准，提供間接路徑假設）。目前預測純為 TxGNN 模型推論，無任何臨床佐證，需基礎研究確認 PD-L1 表現後方可進入臨床。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "endocervical carcinoma",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "子宮頸管癌（Endocervical carcinoma）多與 HPV 感染相關，HPV 驅動腫瘤透過上調 PD-L1 逃逸免疫監控。Pembrolizumab（PD-1 抑制劑）已核准用於復發/轉移性子宮頸癌，確立 PD-(L)1 軸作為治療靶點。Atezolizumab（PD-L1）阻斷相同訊號軸，機轉高度相關。現有兩項已完成試驗提供初步臨床可行性證據，但 Phase 2 樣本數極小（N=11），需更大規模試驗確認療效。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02921269",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 已完成，N=11，Atezolizumab + Bevacizumab 用於復發性子宮頸癌。直接研究 Atezolizumab 於子宮頸癌中的療效，適應症高度匹配（endocervical 為子宮頸癌亞型）。主要缺點：樣本數極小（N=11），統計效力不足，結果需謹慎詮釋。評級 A 因直接相關性，但需附加樣本量不足警示。"
+        },
+        {
+          "nct_id": "NCT03738228",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 已完成，N=40，Atezolizumab 作為免疫啟動劑併用延伸野放化療。研究設計著重免疫啟動（priming）機制，N=40 提供較 NCT02921269 更充足之安全性數據。屬 Phase 1 劑量/機制探索，療效為次要終點，評為 B 級支持性證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37467967",
+          "title": "Small cell neuroendocrine carcinoma of the cervix: From molecular basis to therapeutic advances.",
+          "year": "2023",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "系統性回顧子宮頸小細胞神經內分泌癌之分子機轉及治療進展，涵蓋免疫治療於此罕見亞型之應用。Tier 2（非 RCT，為綜述文獻），提供治療框架背景，直接針對 endocervical carcinoma 廣義族群，與 Atezolizumab 相關性需進一步確認。"
+        }
+      ]
+    },
+    {
+      "disease_name": "adenoid cystic carcinoma of the cervix uteri",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮頸腺樣囊性癌（ACCC）為極罕見子宮頸惡性腫瘤，組織學上類似唾液腺腺樣囊性癌，後者對 checkpoint 抑制劑反應率普遍偏低（PD-L1 陽性率低、免疫冷腫瘤傾向）。子宮頸位置雖具 HPV 相關免疫背景，但 ACCC 之 HPV 關聯性低，削弱 PD-L1 軸的機轉假設。目前完全無臨床試驗或文獻支持，列為純預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "uterine ligament serous adenocarcinoma",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮韌帶漿液性腺癌為罕見婦科腫瘤，漿液性腺癌通常呈現 TP53 突變驅動模式而非 MSI-H/TMB-H，PD-L1 表現率相對低（20-30%）。Pembrolizumab 在子宮內膜漿液性癌中的效果有限，類推 Atezolizumab 療效不確定性高。目前無任何臨床數據，需先確認此亞型之免疫微環境特性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "signet ring cell variant cervical mucinous adenocarcinoma",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮頸黏液性腺癌印戒細胞變體為極罕見病理亞型，印戒細胞型態與胃腸道原發性印戒細胞癌相似，後者對 checkpoint 抑制劑反應有限（除非 MSI-H 或 EBV 陽性）。此亞型可能為子宮頸原發或繼發性，需先排除轉移性胃腸道腫瘤。無任何臨床證據，機轉推測依賴度高，建議先進行生物標記（PD-L1、MSI、TMB）評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "intestinal variant cervical mucinous adenocarcinoma",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮頸黏液性腺癌腸型變體形態上模仿腸道腺癌，HPV 關聯性低（Gastric type 或 Intestinal type 常為 HPV 陰性），削弱 PD-L1 通路的核心機轉假設。HPV 陰性子宮頸腺癌整體預後差且對免疫治療反應不確定。目前無臨床數據，屬最低優先考慮的再利用候選，建議先確認 HPV 狀態及 PD-L1 表現。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L2": ["prostatic urethra urothelial carcinoma", "endocervical carcinoma"],
+      "L3": ["renal pelvis papillary urothelial carcinoma"],
+      "L4": ["kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"],
+      "L5": ["uterine ligament adenocarcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
+    },
+    "priority_recommendations": [
+      {
+        "rank": 1,
+        "disease": "prostatic urethra urothelial carcinoma",
+        "rationale": "L2 + S2，Phase 2 完成試驗（N=172），尿路上皮系統全球核准背景，建議可在臨床監控下進入 Phase 2 子族群試驗，需納入前列腺尿道受累之獨立分層分析。"
+      },
+      {
+        "rank": 2,
+        "disease": "endocervical carcinoma",
+        "rationale": "L2 + S2，有兩項已完成試驗，但 Phase 2 樣本量不足（N=11）。PD-(L)1 路徑在子宮頸癌已被 Pembrolizumab 驗證，建議設計足夠樣本數（N≥80）的 Phase 2 試驗，聚焦 endocervical 亞型並進行 PD-L1/HPV 狀態分層。"
+      },
+      {
+        "rank": 3,
+        "disease": "renal pelvis papillary urothelial carcinoma",
+        "rationale": "L3 + S1，Phase 1 數據可用，上尿路尿路上皮癌為 Atezolizumab 核准範圍，建議納入現有尿路上皮癌試驗之 UTUC 亞組分析。"
+      }
+    ],
+    "data_quality_flags": [
+      "original_moa 標記為 [Data Gap]：Atezolizumab 為知名 anti-PD-L1，非真實數據缺口，建議修正資料庫記錄",
+      "market_status 未上市：反映當地藥監局未登錄，非全球無核准，分析需納入全球核准背景",
+      "5 個適應症（L5 群組）文獻量與試驗量均為零，TxGNN 高分（>0.999）反映模型特徵相似性而非臨床驗證，不應等同於臨床可行性"
+    ]
+  }
+}
+```
+
+---
+
+### 📊 決策矩陣摘要
+
+| 疾病 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|------|---------|---------|------|---------|
+| prostatic urethra urothelial carcinoma | **L2** | S2 | ✅ Proceed w/ Guardrails | Phase 2 完成（N=172）+ 全球尿路上皮核准背景 |
+| endocervical carcinoma | **L2** | S2 | 🔬 Research Question | Phase 2（N=11, 偏小）+ Phase 1（N=40）+ PD-L1軸已驗證 |
+| renal pelvis papillary urothelial carcinoma | **L3** | S1 | 🔬 Research Question | Phase 1b + UTUC 機轉連結 |
+| infiltrating bladder urothelial CA sarcomatoid | **L4** | S1 | ⏸ Hold | 機轉推論，無獨立試驗 |
+| kidney pelvis sarcomatoid TCC | **L4** | S0 | ⏸ Hold | 雙重機轉假設但無數據 |
+| 其餘 5 項（L5 群組） | **L5** | S0 | ⏸ Hold | 純模型預測，需基礎研究先行 |
+
+> ⚠️ **YMYL 聲明**：以上分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用於患者。

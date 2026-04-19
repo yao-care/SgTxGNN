@@ -1,0 +1,182 @@
+以下是針對 Fusidic acid（DB02703）各適應症的完整證據評估分析：
+
+**藥物背景**：Fusidic acid 為甾族類抗生素，透過抑制細菌延伸因子 G（EF-G）阻斷蛋白質合成，對革蘭氏陽性菌（尤其 *S. aureus* 含 MRSA）具強效活性。市場狀態標記為「未上市」，但實際上於多國已有局部眼用製劑（Fucithalmic）及皮膚製劑上市。
+
+---
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "exposure keratitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Fusidic acid 局部眼用製劑（Fucithalmic gel 1%）已於歐洲多國核准用於細菌性結膜炎，對 S. aureus 具強效活性。暴露性角膜炎因角膜暴露易繼發葡萄球菌感染，理論上局部 fusidic acid 可用於預防或治療此類繼發性細菌感染，但針對暴露性角膜炎本身的直接再利用證據缺乏。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31246677",
+          "study_type": "Case Series",
+          "tier": "3",
+          "reasoning": "2019 年 Tsukamurella spp. 眼部感染個案系列（含眼內植入物感染首例），並非直接針對 fusidic acid 治療暴露性角膜炎。文章討論稀有菌眼部感染的抗菌治療選項，與 fusidic acid 眼部應用僅有間接背景關聯，直接證據等級極低。"
+        }
+      ]
+    },
+    {
+      "disease_name": "non-human animal disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此 TxGNN 疾病類別過於廣泛且無法對應具體人類疾病實體，缺乏機轉連結基礎。雖然 fusidic acid 有獸醫局部製劑用途，但「non-human animal disease」作為再利用目標疾病無任何臨床意義，不具評估價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "otitis externa",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Fusidic acid 對 S. aureus（含 MRSA）具強效抗菌活性，而葡萄球菌為外耳炎主要致病菌之一。局部 fusidic acid 製劑在部分國家已有皮膚/耳部葡萄球菌感染的臨床應用經驗，對 MRSA 相關外耳炎（文獻顯示盛行率上升）具潛在優勢。然而現有文獻多為獸醫研究，人體直接干預證據欠缺。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "41148721",
+          "study_type": "Cross-sectional Resistance Study",
+          "tier": "3",
+          "reasoning": "2025 年犬隻外耳炎 S. pseudintermedius 抗藥性研究，純獸醫文獻，無法直接外推至人體，但提供 fusidic acid 在外耳炎致病菌中抗菌活性的背景資料。"
+        },
+        {
+          "pmid": "807907",
+          "study_type": "Clinical-Microbiological Study",
+          "tier": "3",
+          "reasoning": "1975 年犬隻外耳炎臨床微生物研究，資料嚴重過時（50 年前）且為獸醫文獻，直接參考價值極低。"
+        },
+        {
+          "pmid": "20434850",
+          "study_type": "Microbiological Study",
+          "tier": "3",
+          "reasoning": "2010 年犬隻外耳炎棒狀桿菌研究，獸醫文獻，提供外耳道菌相多樣性的間接背景，對人體應用無直接證據支持。"
+        },
+        {
+          "pmid": "12542200",
+          "study_type": "Retrospective Microbiological Study",
+          "tier": "2",
+          "reasoning": "2002 年人類研究，探討 CA-MRSA 於耳道分泌物中的盛行率，直接相關性較高。提示 fusidic acid 在 MRSA 相關外耳炎管理中的潛在角色，但非介入性研究，未評估 fusidic acid 療效。"
+        },
+        {
+          "pmid": "41594059",
+          "study_type": "Cross-sectional Resistance Study",
+          "tier": "3",
+          "reasoning": "2025 年塞爾維亞犬隻皮膚及耳部感染抗藥性研究，獸醫文獻，提供 fusidic acid 對外耳炎致病菌抗菌活性的間接背景。"
+        },
+        {
+          "pmid": "12437801",
+          "study_type": "Retrospective Microbiological Study",
+          "tier": "2",
+          "reasoning": "2002 年人類耳道分泌物細菌學變遷研究，記錄抗藥性菌株（包含對 fusidic acid 敏感菌種）的盛行率變化，提供間接流行病學背景，但非干預性研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "postinfectious vasculitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後血管炎的發病機制主要為免疫媒介過程（免疫複合物沉積、T 細胞自體免疫反應），致病菌已清除為前提。Fusidic acid 為純抗菌藥物，缺乏抗炎、免疫調節或免疫複合物清除機轉，無合理再利用機轉基礎，且無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "post-bacterial disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Fusidic acid 透過不可逆結合細菌延伸因子 G（EF-G）-GDP 複合物，阻斷核糖體易位步驟，抑制蛋白質合成，對 S. aureus（含 MRSA 及 MRSE）具殺菌或制菌活性（MIC₉₀ < 0.5 μg/mL）。NCT02570490 為完成的 Phase 3 雙盲多中心 RCT（n=716），直接評估口服 sodium fusidic acid 的安全性與有效性，提供最高等級臨床證據，推測為急性細菌性皮膚軟組織感染（ABSSSI）或骨關節感染適應症。⚠️ 注意：「post-bacterial disorder」為 TxGNN 疾病本體映射類別，需回溯原始試驗紀錄確認精確適應症定義。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03173053",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，針對居家靜脈營養患者長期 S. aureus 去定植的 RCT，因提前終止（實際收案 63 人）導致統計效力不足，主要結局未能達到預設信賴度。試驗設計本身支持 fusidic acid 在葡萄球菌去定植/預防領域的應用方向，但終止狀態大幅削減證據強度。相關性評級為 B。"
+        },
+        {
+          "nct_id": "NCT02570490",
+          "relevance_grade": "A",
+          "reasoning": "已完成的 Phase 3 雙盲多中心 RCT（n=716），直接評估口服 sodium fusidic acid 的療效與安全性，為本藥物最高等級臨床試驗證據，支持 L1 評定。收案規模充足，雙盲設計確保偏誤控制。需確認主要結局、非劣效/優效設計及具體適應症以完整解讀。相關性評級為 A。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "post-infectious syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染後症候群（如感染後疲勞、長新冠類似症候群）的核心病理為持續性免疫失調、神經炎症及自主神經功能障礙，而非持續性細菌感染。Fusidic acid 作為抗菌藥物在致病原已清除的感染後狀態缺乏合理作用機轉，無文獻或試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "infective urethral stricture",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染性尿道狹窄主要由淋病奈瑟菌（Gram 陰性）或沙眼披衣菌感染後纖維增生所致。Fusidic acid 對革蘭氏陰性菌（包含 N. gonorrhoeae）活性極弱，且無抗纖維化機轉，對既成尿道纖維化狹窄缺乏治療基礎。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Chagas cardiomyopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "恰加斯心肌病由原蟲 Trypanosoma cruzi 感染引起，為寄生蟲性疾病。Fusidic acid 的作用靶點為細菌 EF-G，對真核生物（包含原蟲）的對應延伸因子（EF-2）無顯著活性，缺乏任何抗錐蟲機轉基礎。無文獻或試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "感染相關 HUS 主要由 Shiga 毒素產生大腸桿菌（STEC O157:H7 等，革蘭氏陰性菌）誘發的微血管溶血性貧血及急性腎損傷。Fusidic acid 對革蘭氏陰性菌活性極低，且⚠️抗生素使用於 STEC 感染中可能促進 Shiga 毒素過度釋放，存在潛在臨床危害（ACC/AHA 與多項指引不建議抗生素治療典型 HUS）。此適應症不僅缺乏證據，且存在安全性疑慮，建議明確排除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "parasitic eyelid infestation",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "寄生蟲性眼瞼感染（如毛囊蠕形蟎 Demodex、蝨子 Phthirus pubis、疥瘡）屬外寄生蟲疾病，需抗寄生蟲藥物（如 ivermectin、permethrin、tea tree oil）治療。Fusidic acid 為純抗菌藥物，對外寄生蟲無任何殺蟲或驅蟲活性，無機轉連結，無文獻或試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| post-bacterial disorder | **L1** | **S3** | ✅ Proceed with Guardrails |
+| otitis externa | L4 | S1 | 🔬 Research Question |
+| exposure keratitis | L4 | S1 | 🔬 Research Question |
+| non-human animal disease | L5 | S0 | ❌ Hold |
+| postinfectious vasculitis | L5 | S0 | ❌ Hold |
+| post-infectious syndrome | L5 | S0 | ❌ Hold |
+| infective urethral stricture | L5 | S0 | ❌ Hold |
+| Chagas cardiomyopathy | L5 | S0 | ❌ Hold |
+| infection-related HUS | L5 | S0 | ❌ Hold ⚠️ 安全疑慮 |
+| parasitic eyelid infestation | L5 | S0 | ❌ Hold |
+
+### 關鍵發現
+
+1. **NCT02570490（Phase 3，n=716，已完成）** 是本批適應症中唯一具最高等級臨床證據的試驗，對應 "post-bacterial disorder" 類別，建議優先追蹤其完整發表結果確認具體適應症定義。
+
+2. **感染相關 HUS** 需特別標注安全性警示（⚠️），因使用抗生素可能加重 STEC 誘發的毒素釋放。
+
+3. **9/10 適應症**（除 post-bacterial disorder）因 TxGNN 評分高（>0.996）但臨床證據極度匱乏，呈現典型的 KG 預測過度泛化現象，建議強化疾病本體映射的特異性篩選。

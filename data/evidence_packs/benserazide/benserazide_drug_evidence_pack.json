@@ -1,0 +1,829 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB12783-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Benserazide",
+    "drugbank_id": "DB12783",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9843900799751282,
+        "rank": 14573
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極度推測性。兒茶酚胺/多巴胺通路對毛囊生物學有極微弱的間接調節作用，AADC 抑制是否影響毛囊發育完全未知。先天性毛髮稀少症屬於基因結構異常，酶抑制劑策略缺乏合理靶向性。TxGNN 高分可能源於知識圖譜中毛髮疾病間的拓撲相關性，而非真實藥理連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.9839067459106444,
+        "rank": 14873
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hypotrichosis simplex 為單基因遺傳性毛髮疾病，致病基因包括 LPAR6、LIPH、LSS 等，與 AADC 路徑無直接關聯。Benserazide 的周邊 AADC 抑制對此類遺傳性結構性毛囊異常無理論治療基礎。TxGNN 得分與先天性毛髮缺乏症（congenital hypotrichosis milia）高度相近，顯示模型可能在此疾病群中存在系統性過預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "diffuse alopecia areata",
+      "txgnn": {
+        "score": 0.9811863899230956,
+        "rank": 16455
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "瀰漫性斑禿的主要病理機制為自體免疫（CD8+ T細胞攻擊毛囊），JAK 抑制劑（如 Baricitinib, Ritlecitinib）已獲 FDA 核准。Benserazide 作為 AADC 抑制劑，與免疫調節路徑無明確關聯。值得注意的是，Levodopa/Benserazide 合用療法的已知副作用之一即為脫髮，顯示藥物本身可能對毛囊有負向影響，與此適應症的治療方向相悖。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "alopecia",
+      "txgnn": {
+        "score": 0.9776328206062316,
+        "rank": 18146
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34900390",
+            "title": "Tremor Drugs in the Crosshairs.",
+            "authors": [
+              "Lagrand Tjerk J",
+              "Lehn Alexander C"
+            ],
+            "journal": "Tremor and other hyperkinetic movements (New York, N.Y.)",
+            "year": "2021",
+            "abstract": "Alopecia areata is a rare but debilitating adverse effect of drugs used in the treatment of tremors. Recurrent hair loss after different types of tremor medications has never been described before.",
+            "classification": {
+              "study_type": "Review/Commentary",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 34900390）標題為「Tremor Drugs in the Crosshairs」，為震顫藥物副作用評論文章，極可能將脫髮列為 Levodopa/Benserazide 療法之不良反應，而非治療適應症。此文獻為反向佐證（藥物可能加重脫髮），不支持治療使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "small intestine cancer",
+      "txgnn": {
+        "score": 0.968474805355072,
+        "rank": 21794
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "具潛在機轉合理性但缺乏直接證據。外部文獻（未在提供資料中）顯示 Benserazide 可能透過抑制 DHODH（二氫乳清酸去氫酶）影響嘧啶生合成路徑，進而抑制腫瘤細胞增殖（Li et al., 2019, Nature Communications 相關報告針對大腸直腸癌）。然而，此機轉是否延伸至小腸癌（腺癌為主）尚無數據。AADC 本身在胃腸道腫瘤中的表達尚未充分研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "duodenum cancer",
+      "txgnn": {
+        "score": 0.965984344482422,
+        "rank": 22555
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸癌（多為腺癌）與小腸癌生物學相近。同樣援引 Benserazide 潛在抗腫瘤機制（DHODH 抑制/嘧啶合成路徑），但缺乏十二指腸癌特異性前臨床或臨床數據。十二指腸具有豐富的 AADC 活性（腸嗜鉻細胞），理論上 AADC 抑制可能影響局部腸道激素環境，但此效應是否具抗腫瘤意義未知。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "headache disorder",
+      "txgnn": {
+        "score": 0.9654092788696288,
+        "rank": 22724
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38743163",
+            "title": "CACNA1A variant associated with generalized dystonia.",
+            "authors": [
+              "Rinaldi Domiziana",
+              "Tangari Marta Maria",
+              "Ledda Claudia",
+              "Dematteis Francesca",
+              "Rizzone Mario Giorgio"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2024",
+            "abstract": "CACNA1A gene variants are correlated with different disorders, including episodic ataxia type 2, spinocerebellar ataxia type 6, and familial hemiplegic migraine type 1. Despite dystonia not being a typical manifestation of CACNA1A variants, there are reports indicating a link between this gene mutation and dystonic features.",
+            "classification": {
+              "study_type": "Case Report/Genetic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30856265",
+            "title": "Hypnic Headache with Dopaminergic Neuron Dysfunction: New Insight from a Rare Case.",
+            "authors": [
+              "Zhang Yi",
+              "Wang Chengze",
+              "Chen Yuan",
+              "Wang Ruifang",
+              "Lian Yajun"
+            ],
+            "journal": "Pain medicine (Malden, Mass.)",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "554794",
+            "title": "Benserazide induces migraine attacks. Irrelevance of concomitant hyperprolactinemia.",
+            "authors": [
+              "Polleri A",
+              "Murialdo G",
+              "Martignoni E",
+              "Nappi G",
+              "Savoldi F"
+            ],
+            "journal": "Il Farmaco; edizione scientifica",
+            "year": "1979",
+            "abstract": "Migrainous women underwent acute administration of sulpiride (25 mg i.v.) and benserazide (125 mg per os), both drugs increasing prolactin secretion. A similar increase in prolactin levels was found following the administration of the two drugs. A typical migraine attack was observed only in the 4 women given benserazide. These data, though being preliminary, stress the scarce or irrelevant role of prolactin in the pathogenesis of the migraine attack.",
+            "classification": {
+              "study_type": "Clinical Observation",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "存在明確負向訊號。PMID 554794（1979）直接記載「Benserazide induces migraine attacks」，即 Benserazide 可誘發偏頭痛發作，與高泌乳素血症無關，顯示周邊 DOPA 脫羧酶抑制可能干擾血清素/多巴胺平衡而觸發頭痛。其餘兩篇文獻（PMID 38743163 關於 CACNA1A 肌張力障礙；PMID 30856265 關於低張力頭痛與多巴胺功能障礙）均為旁證，且後者顯示多巴胺神經功能異常與頭痛相關，但方向性不支持 Benserazide 治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "phaeochromocytoma",
+      "txgnn": {
+        "score": 0.9650936126708984,
+        "rank": 22818
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3769207",
+            "title": "Determination of aromatic-L-amino acid decarboxylase in human plasma.",
+            "authors": [
+              "Boomsma F",
+              "van der Hoorn F A",
+              "Schalekamp M A"
+            ],
+            "journal": "Clinica chimica acta; international journal of clinical chemistry",
+            "year": "1986",
+            "abstract": "Aromatic-L-aminoacid (dopa) decarboxylase (ALAAD) was determined in human plasma by its ability to form dopamine from the substrate 3,4-dihydroxyphenylalanine in the presence of pyridoxal-5-phosphate as cofactor. Dopamine formed was quantitated by high performance liquid chromatography with electrochemical detection. A preincubation step of plasma with the cofactor and dithioerythritol was necessary to obtain optimal reaction conditions. The assay method showed good linearity and reproducibility",
+            "classification": {
+              "study_type": "Biochemical/Diagnostic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "具有合理但未驗證的機轉假說。嗜鉻細胞瘤（PHEO）因腫瘤自主分泌大量兒茶酚胺（腎上腺素、正腎上腺素）導致危及生命的高血壓危象。AADC（芳香族 L-胺基酸脫羧酶）在多巴胺→去甲腎上腺素合成路徑的上游參與 L-DOPA→多巴胺的轉化。理論上，AADC 抑制可能減少腫瘤內兒茶酚胺的局部合成。PMID 3769207（1986）測定嗜鉻細胞瘤患者血漿中 AADC 活性，確認此酶在診斷標記研究中的相關性，但未涉及治療應用。現有標準治療為手術切除，α/β 受體阻斷劑為術前準備藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn": {
+        "score": 0.964544713497162,
+        "rank": 22976
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三叉自主神經頭痛群（TAC）包括群發性頭痛、陣發性半身頭痛等，病理涉及三叉神經血管路徑及下視丘多巴胺調節。然而考慮到 Benserazide 有誘發偏頭痛的直接臨床記錄（PMID 554794），其在任何頭痛相關適應症中的安全性均存疑。零文獻支持更強化了 Hold 的決定。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "adrenal gland pheochromocytoma",
+      "txgnn": {
+        "score": 0.9626049399375916,
+        "rank": 23567
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3769207",
+            "title": "Determination of aromatic-L-amino acid decarboxylase in human plasma.",
+            "authors": [
+              "Boomsma F",
+              "van der Hoorn F A",
+              "Schalekamp M A"
+            ],
+            "journal": "Clinica chimica acta; international journal of clinical chemistry",
+            "year": "1986",
+            "abstract": "Aromatic-L-aminoacid (dopa) decarboxylase (ALAAD) was determined in human plasma by its ability to form dopamine from the substrate 3,4-dihydroxyphenylalanine in the presence of pyridoxal-5-phosphate as cofactor. Dopamine formed was quantitated by high performance liquid chromatography with electrochemical detection. A preincubation step of plasma with the cofactor and dithioerythritol was necessary to obtain optimal reaction conditions. The assay method showed good linearity and reproducibility",
+            "classification": {
+              "study_type": "Biochemical/Diagnostic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎上腺嗜鉻細胞瘤為嗜鉻細胞瘤的解剖位置特定亞型（約 80-85% 位於腎上腺），分析與 phaeochromocytoma 相同。腎上腺髓質富含 AADC 活性，是兒茶酚胺生合成的關鍵部位；PMID 3769207 測定的 AADC 血漿活性在嗜鉻細胞瘤患者中顯著升高，提供了酶活性與疾病的相關性數據。腫瘤特異性 AADC 高表達是否構成可利用的治療靶點，需分子病理學研究確認。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "small intestine cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "small intestine cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "small intestine cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "duodenum cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "duodenum cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "duodenum cancer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "headache disorder"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "phaeochromocytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "phaeochromocytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "phaeochromocytoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "trigeminal autonomic cephalalgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "adrenal gland pheochromocytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "adrenal gland pheochromocytoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Benserazide",
+        "disease": "adrenal gland pheochromocytoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    }
+  ]
+}

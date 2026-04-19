@@ -1,0 +1,2849 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01197-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Captopril",
+    "drugbank_id": "DB01197",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9927858114242554,
+        "rank": 8393
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28902735",
+            "title": "Positive Captopril Renography Without Renal Artery Stenosis but a Renal Cell Carcinoma.",
+            "authors": [
+              "Hsieh Ping-Ju",
+              "Kuo Yen-Shu",
+              "Chen Meng-Lin",
+              "Lin Ching-Ling",
+              "Su Hung-Yi"
+            ],
+            "journal": "Clinical nuclear medicine",
+            "year": "2017",
+            "abstract": "A positive captopril renography indicates that patient's hypertension is renin dependent, most commonly caused by renal artery stenosis. The authors reported a case of positive captopril renography; however, CT demonstrated that renal arteries were intact, but there was a huge chromophobe renal cell carcinoma. Renin-dependent hypertension was relieved soon after nephrectomy. It is an uncommon cause of positive captopril renography.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACEI抑制腎素-血管緊張素系統（RAAS），降低腎小球內壓，理論上可保護惡性高血壓引起的腎損傷；然而惡性高血壓型腎病在雙側腎動脈狹窄時使用ACEI有急性腎衰竭風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9927858114242554,
+        "rank": 8394
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8070421",
+            "title": "Renin-secreting tumors.",
+            "authors": [
+              "Corvol P",
+              "Pinet F",
+              "Plouin P F",
+              "Bruneval P",
+              "Menard J"
+            ],
+            "journal": "Endocrinology and metabolism clinics of North America",
+            "year": "1994",
+            "abstract": "An analysis of the renin-secreting tumors published in the literature suggests the diagnosis of JGC tumor should be evoked systematically in a young patient with severe hypertension and hypokalemia in whom a renovascular lesion has been eliminated by arteriography. A very high PRA usually is observed and blood pressure drops during converting enzyme treatment. Under acute administration of captopril, plasma renin may or may not increase, showing the inconsistency of the secretory autonomy of the",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10955932",
+            "title": "Renovascular disease and hypertension in children with neurofibromatosis.",
+            "authors": [
+              "Fossali E",
+              "Signorini E",
+              "Intermite R C",
+              "Casalini E",
+              "Lovaria A"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2000",
+            "abstract": "Neurofibromatosis type 1 (NF1) is associated with vascular lesions, such as renal artery stenosis, and secondary hypertension. The real prevalence is largely unknown, particularly in children. We observed 27 patients with NF1, mean age 12.8 years (range 4.2-24 years), for 2-10 years to assess the association of NF1 with vascular abnormalities and secondary hypertension. Patients were studied with angiography, 24-h blood pressure monitoring, a captopril test, and Doppler ultrasonography of aorta ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6145432",
+            "title": "[Use of captopril in arterial hypertension with a stable and malignant course].",
+            "authors": [
+              "Lordkipanidze N L"
+            ],
+            "journal": "Biulleten' Vsesoiuznogo kardiologicheskogo nauchnogo tsentra AMN SSSR",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (非RCT)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10624394",
+            "title": "[Nuclear medicine today].",
+            "authors": [
+              "Dujmović F"
+            ],
+            "journal": "Medicinski pregled",
+            "year": "1999",
+            "abstract": "This paper deals with those nuclear medicine investigations, which, in spite of development of other diagnostic methods and imaging procedures, remain important and in some cases, exclusive diagnostic tool in differential diagnostics of certain disorders and diseases.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2040938",
+            "title": "Malignant hypertension.",
+            "authors": [
+              "Cetta F",
+              "Hurley R M",
+              "Hatch D",
+              "Castelli M"
+            ],
+            "journal": "The Journal of pediatrics",
+            "year": "1991",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11334320",
+            "title": "Renovascular hypertension associated with neurofibromatosis: two cases and review of the literature.",
+            "authors": [
+              "Nakhoul F",
+              "Green J",
+              "Angel A",
+              "Ofer A",
+              "Ben-Izhak O"
+            ],
+            "journal": "Clinical nephrology",
+            "year": "2001",
+            "abstract": "The authors report two cases of renovascular hypertension associated with neurofibromatosis. A 19-year-old woman was admitted to our hospital with a complaint of abdominal pain and blood pressure of 180/120 mmHg. Examination revealed café-au-lait spots over her chest and extremities. Peripheral plasma renin activity (PRA) under basal conditions was 2.8 ng/ml/h and increased to 12.6 ng/ml/h after administration of 50 mg captopril. Plasma and urinary catecholamines were normal. Selective renal ang",
+            "classification": {
+              "study_type": "Case Report / Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17008836",
+            "title": "Renovascular hypertension: clinical concepts.",
+            "authors": [
+              "Fenves A Z",
+              "Ram C V S"
+            ],
+            "journal": "Minerva medica",
+            "year": "2006",
+            "abstract": "Systemic hypertension is a common disorder in clinical practice and causes significant morbidity and premature death. A small percentage (< 5%) of patients with hypertension may have renovascular hypertension. Strictly speaking, the term renovascular hypertension should be applied only when the blood pressure rises as a consequence of renal ischemia. Thus, the mere presence of renal artery stenosis is not synonymous with renovascular hypertension. Treatment strategies should be directed at ''ren",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2887673",
+            "title": "Characterization of neurohormonal changes following the production of the benign and malignant phases of two-kidney, two-clip Goldblatt hypertension.",
+            "authors": [
+              "Suzuki H",
+              "Saruta T",
+              "Ferrario C M",
+              "Brosnihan K B"
+            ],
+            "journal": "Japanese heart journal",
+            "year": "1987",
+            "abstract": "The neurohormonal contribution to high blood pressure was investigated in 9 conscious two-kidney, two-clip Goldblatt (2K2C) hypertensive dogs during evolution of the benign and malignant phases after application of bilateral renal clips (BRC). Serial measurements were taken of the plasma renin activity (PRA), plasma angiotensin I-immunoreactivity (Ang I-ir), plasma angiotensin II-ir (Ang II-ir), renin substrate (RS) catecholamines [epinephrine (Epi) and norepinephrine (NE)] and vasopressin (AVP)",
+            "classification": {
+              "study_type": "Animal/Mechanistic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1572120",
+            "title": "Abnormal captopril renogram in a patient without renovascular hypertension.",
+            "authors": [
+              "Pelsang R E",
+              "Rezai K"
+            ],
+            "journal": "Clinical nuclear medicine",
+            "year": "1992",
+            "abstract": "Captopril renal scintigraphy is a well-known noninvasive tool in the diagnosis of renovascular hypertension. The authors present a case of a patient with malignant hypertension whose captopril renal scintigraphy suggested bilateral and equal renovascular hypertension. His renal angiogram, however, demonstrated no renal artery stenosis or abdominal aortic atherosclerotic disease. False-positive captopril renal scintigraphy has been reported but can usually be attributed to the patient's hypotensi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12424682",
+            "title": "[Case report: neonatal hypertension].",
+            "authors": [
+              "Von Schnakenburg C",
+              "Breme K",
+              "Fink C",
+              "Meller J",
+              "Zappel H F"
+            ],
+            "journal": "Klinische Padiatrie",
+            "year": "2002",
+            "abstract": "Neonatal arterial hypertension is rare with an incidence between 0.2 - 3 %. Clinical presentation varies widely and is in some cases dramatic.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3894732",
+            "title": "Pathophysiology and outcome of hypertensive subjects.",
+            "authors": [
+              "Omae T"
+            ],
+            "journal": "Japanese journal of medicine",
+            "year": "1985",
+            "abstract": "Pathophysiology, outcome and some therapeutic problems of hypertension were described. Frequency of secondary hypertension and its underlying diseases in a hypertensive population greatly varied by study population. In the adult general population (Hisayama study) it was estimated to be 3.8%. Significance of various tests was evaluated in the diagnosis of renovascular hypertension and primary aldosteronism. Consideration of sodium balance in the evaluation was very necessary. The usefulness of c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7955304",
+            "title": "Advances in noninvasive screening for renovascular disease.",
+            "authors": [
+              "Nally J V",
+              "Olin J W",
+              "Lammert G K"
+            ],
+            "journal": "Cleveland Clinic journal of medicine",
+            "year": "1994",
+            "abstract": "Nearly 50 million Americans have hypertension, and renovascular hypertension accounts for perhaps 1% of them.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10477101",
+            "title": "Negative captopril renography on patients with renin mediated hypertension due to page kidney and reninoma.",
+            "authors": [
+              "Yung B C",
+              "Wong K W",
+              "Fan W C",
+              "Chan J C",
+              "Lo S S"
+            ],
+            "journal": "European journal of radiology",
+            "year": "1999",
+            "abstract": "Through a mechanism similar to renal artery stenosis, patients with reninoma and page kidney also suffered from renin mediated hypertension. Captopril renograms performed on our patients with the latter two conditions, however, did not yield diagnostic findings. Therefore, equivocal or negative captopril renography cannot serve to rule out conditions with elevated renin other than renal artery stenosis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "392136",
+            "title": "[Angiotensin converting enzyme--captopril].",
+            "authors": [
+              "Kaneko Y",
+              "Shionoiri H",
+              "Uneda S",
+              "Fujishima S"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3904655",
+            "title": "Captopril in the treatment of the elderly hypertensive patient.",
+            "authors": [
+              "Jenkins A C",
+              "Knill J R",
+              "Dreslinski G R"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1985",
+            "abstract": "As part of a large multicenter surveillance study of captopril, 975 hypertensive patients aged 65 years or older were treated, 418 of whom received the drug for at least 12 months. Blood pressure was lowered from an entry level of 193/105 +/- 30/16 (mean +/- SD) to 159/88 +/- 25/12 mm Hg, and side effects were infrequent. During treatment, renal function was undisturbed in the majority of patients. The frequency of clinically evident hypotensive episodes did not differ from that found in the tot",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14692134",
+            "title": "[Renovascular hypertension in a child with type 1 neurofibromatosis].",
+            "authors": [
+              "Peco-Antić Amira",
+              "Krstić Zoran",
+              "Borić Zivko",
+              "Sagić Dragan",
+              "Kostić Mirjana"
+            ],
+            "journal": "Srpski arhiv za celokupno lekarstvo",
+            "year": "2003",
+            "abstract": "Arterial hypertension in pediatric patients with neurofibromatosis type 1 (NF 1) is usually due to renal artery stenosis (RAS) mainly involving the proximal part of the vessel. The treatment modalities are highly individualized. In severe and/or bilateral RAS, antihypertensive drugs are either ineffective or have the potential risk for acute renal failure, while percutaneous transluminal angioplasty (PTA) has limited success due to the ostial localization of RAS and the tough fibrotic tissue inv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15080378",
+            "title": "Prospective study on the prevalence of secondary hypertension among hypertensive patients visiting a general outpatient clinic in Japan.",
+            "authors": [
+              "Omura Masao",
+              "Saito Jun",
+              "Yamaguchi Kunio",
+              "Kakuta Yukio",
+              "Nishikawa Tetsuo"
+            ],
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2004",
+            "abstract": "Secondary hypertension (SH) including endocrine hypertension has been reported to be uncommon. We estimated the prevalence of SH among hypertensive patients. We prospectively studied 1,020 hypertensive patients. As an initial screening, we measured plasma aldosterone concentration, plasma renin activity, serum cortisol concentration and plasma catecholamine concentration and conducted abdominal ultrasonography (US). As a secondary screening, we performed furosemide plus upright test, captopril r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30401909",
+            "title": "Predictors of confirmatory test results for the diagnosis of primary hyperaldosteronism in hypertensive patients with an aldosterone-to-renin ratio greater than 20. The SHRIMP study.",
+            "authors": [
+              "Okamoto Ryuji",
+              "Taniguchi Masaya",
+              "Onishi Yuki",
+              "Kumagai Naoto",
+              "Uraki Junji"
+            ],
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2019",
+            "abstract": "It remains unknown which surrogate markers can predict diagnostic test results for primary hyperaldosteronism (PA). The Secondary Hypertension Registry Investigation in Mie Prefecture (SHRIMP) study has sequentially and prospectively recruited 128 patients with hypertension with an aldosterone-to-renin ratio (ARR) greater than 20, evaluated the differences among essential hypertension (EHT), idiopathic hyperaldosteronism (IHA), and aldosterone-producing adenoma (APA), and analyzed the predictors",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "232024",
+            "title": "Reactive hyper-reninaemia to angiotensin blockade identifies renovascular hypertension.",
+            "authors": [
+              "Case D B",
+              "Atlas S A",
+              "Laragh J H"
+            ],
+            "journal": "Clinical science (London, England : 1979)",
+            "year": "1979",
+            "abstract": "1. Saralasin and converting enzyme inhibitors SQ 20881 and captopril induced increases in plasma renin activity to greater than 14 ng h-1 ml-1 in 43 out of 44 patients with untreated renovascular hypertension when studied in the seated position and on normal sodium intake. This degree of response was absent in patients with normal-renin essential hypertension and present in only three out of 26 with high-renin essential hypertension. 2. Reductions of greater than approximately 9% in diastolic pr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3928961",
+            "title": "Secondary hypertension and neurofibromatosis: bilateral renal artery stenosis and coarctation of the abdominal aorta.",
+            "authors": [
+              "Tenschert W",
+              "Holdener E E",
+              "Haertel M M",
+              "Senn H",
+              "Vetter W"
+            ],
+            "journal": "Klinische Wochenschrift",
+            "year": "1985",
+            "abstract": "A 34-year-old white man with generalized neurofibromatosis was found to have severe renal vascular hypertension due to a coarctation of the abdominal aorta and bilateral renal artery stenosis with saccular aneurysms. Increased renal venous renin activity showed the active involvement of the renin-angiotensin system in maintaining the hypertension. Because the patient refused surgical treatment, antihypertensive treatment with Captopril, a specific inhibitor of the angiotensin converting enzyme w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎血管性高血壓主要由腎動脈狹窄導致腎素過度分泌，RAAS過度活化；ACEI直接抑制ACE、降低Ang II生成，為此病生理的精準靶向。惡性期（快速進展、靶器官損傷）需特別監控腎功能。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9914544820785522,
+        "rank": 9435
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15192444",
+            "title": "Chronic hypoxia: common traits between chronic obstructive pulmonary disease and altitude.",
+            "authors": [
+              "Raguso Comasia A",
+              "Guinot Sofia L",
+              "Janssens Jean-Paul",
+              "Kayser Bengt",
+              "Pichard Claude"
+            ],
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "year": "2004",
+            "abstract": "Loss of body mass and exercise intolerance are common findings in chronic obstructive pulmonary disease and are often difficult to reverse despite optimal nutritional intake. Similar findings have been reported in healthy individuals during high-altitude exposure. The role of hypoxia in modulating metabolism has been largely investigated in vitro and in animal studies. More fragmentary is the knowledge regarding hypoxia effects on in-vivo human metabolism. This paper reviews recent literature re",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "低氧性肺動脈高壓涉及RAAS活化與血管收縮；ACEI理論上可緩解，但臨床效果與PAH專用藥（如prostacyclin、ERA）有差距。低氧環境下ACEI降低全身血壓可能加劇低灌注。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9914544820785522,
+        "rank": 9436
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多因素肺動脈高壓機轉不明確，ACEI的RAAS抑制作用僅為眾多可能路徑之一；缺乏針對性證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9885882139205932,
+        "rank": 11615
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock syndrome（罕見先天性多器官畸形綜合症）病理機轉與RAAS關聯尚無文獻支持；TxGNN高分可能反映KG中疾病節點的拓撲鄰近性，非真實機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn": {
+        "score": 0.9849595427513124,
+        "rank": 14213
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為遺傳性單基因疾病（視網膜小動脈迂曲、血尿、攣縮），主要為COL4A基因變異所致；ACEI的RAAS抑制與其基本病生理無直接關聯，僅理論上可能部分緩解血壓相關血管損傷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn": {
+        "score": 0.984183430671692,
+        "rank": 14688
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35882526",
+            "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+            "authors": [
+              "Reis Linda M",
+              "Maheshwari Mohit",
+              "Capasso Jenina",
+              "Atilla Huban",
+              "Dudakova Lubica"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "2023",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is characterised by typical anterior segment anomalies, with or without systemic features. The discovery of causative genes identified ARS subtypes with distinct phenotypes, but our understanding is incomplete, complicated by the rarity of the condition.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6782689",
+            "title": "Ocular coloboma.",
+            "authors": [
+              "Pagon R A"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1981",
+            "abstract": "Ocular coloboma is common malformation which includes a spectrum of anomalies that ranges from iris coloboma to clinical anophthalmos. Coloboma is etiologically heterogeneous. As an isolated defect, it is usually inherited as an autosomal dominant disorder, although autosomal recessive inheritance also occurs. Patients with multiple malformations and coloboma may have a recognized malformation syndrome of unknown etiology, a single gene disorder, or chromosomal abnormality. Prognosis and recurre",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30182440",
+            "title": "Neuropathology of holoprosencephaly.",
+            "authors": [
+              "Fallet-Bianco Catherine"
+            ],
+            "journal": "American journal of medical genetics. Part C, Seminars in medical genetics",
+            "year": "2018",
+            "abstract": "Holoprosencephaly (HPE) is a primary disorder of neural induction and patterning of the rostral neural tube resulting in noncleavage of the forebrain with failure to form two separate distinct hemispheres. The spectrum of HPE is very broad and encompasses various neuropathological phenotypes of different severity. The recent literature has demonstrated that the phenotypic variability of HPE ranges from aprosencephaly-atelencephaly, at the most severe end, to milder forms such as the \"middle inte",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33870948",
+            "title": "Optic Nerve Aplasia.",
+            "authors": [
+              "Saffren Brooke D",
+              "Yassin Shaden H",
+              "Geddie Brooke E",
+              "de Faber Jan Tjeerd H N",
+              "Blieden Lauren S"
+            ],
+            "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+            "year": "2022",
+            "abstract": "Optic nerve aplasia (ONA) is a rare ocular anomaly. We report ophthalmologic, systemic, and genetic findings in ONA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11941259",
+            "title": "[Congenital megalocornea].",
+            "authors": [
+              "Roche O",
+              "Dureau P",
+              "Uteza Y",
+              "Dufier J L"
+            ],
+            "journal": "Journal francais d'ophtalmologie",
+            "year": "2002",
+            "abstract": "Congenital megalocornea is a bilateral enlargement of the cornea's diameter that can be associated with trabecula and/or iris dysgenesis. This condition predisposes the patient to glaucoma. The physiopathology is poorly understood and may be related to lens induction during embryological development of the anterior of the eye. X-linked genetic transmission is found in 50% of cases, autosomal transmission in 40%, and sporadic transmission in the remaining 10%. Diagnosis is based on a thorough exa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10498002",
+            "title": "Tilted disc syndrome.",
+            "authors": [
+              "Sowka J",
+              "Aoun P"
+            ],
+            "journal": "Optometry and vision science : official publication of the American Academy of Optometry",
+            "year": "1999",
+            "abstract": "Tilted disc syndrome (TDS) has a varied morphological appearance which can be difficult to differentiate from acquired optic nerve pathology. In addition, there are visual deficits and potential complications associated with this syndrome. Failure to recognize features of the TDS frequently leads to unnecessary medical evaluation or improper examination for possible associated ocular complications.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6390155",
+            "title": "Optic disk abnormalities.",
+            "authors": [
+              "Savino P J"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "1983",
+            "abstract": "Ophthalmoscopic abnormalities of the optic disk may signal the presence of acquired intracranial disease; or the disk anomaly may be congenital and only mimic an acquired disk change; or the disk anomaly may be acquired but caused by a purely ocular disease. The abnormal disk may be elevated, excavated, or flat and may be abnormal in color, contour, or size.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1458324",
+            "title": "Congenital ocular anomalies.",
+            "authors": [
+              "Roberts S M"
+            ],
+            "journal": "The Veterinary clinics of North America. Equine practice",
+            "year": "1992",
+            "abstract": "This discussion provides an idea of the diversity and relative prevalence of certain congenital ocular conditions of horses. Many are not difficult to diagnose, yet curative treatment may be impossible. When dealing with owners of horses affected with unusual anomalies, responsible client service requires veterinarians to provide accurate information and to know where answers to unusual questions can be found. Again, most veterinarians never encounter all of the diverse congenital defects. As a ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16848213",
+            "title": "[Distichiasis].",
+            "authors": [
+              "Skunca Jelena",
+              "Petric Ivanka",
+              "Doko-Mandić Blanka",
+              "Lacmanović-Loncar Valentina",
+              "Ivekovic Renata"
+            ],
+            "journal": "Acta medica Croatica : casopis Hravatske akademije medicinskih znanosti",
+            "year": "2006",
+            "abstract": "Distichiasis is a rare congenital or acquired eyelid anomaly in which an accessory row of eyelashes arises from the openings of meibomian glands or near them. The abnormal cilia are posterior to the normal row of cilia and may abrade the eye causing ocular irritation and corneal damage. We describe a 9-year-old Caucasian girl with bilateral and symmetric distichiasis. This condition was treated with lid splitting followed by cryotherapy to the posterior lid lamella. The technique has been used i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22963965",
+            "title": "[Branchio-oculo-facial syndrome].",
+            "authors": [
+              "Frascari F",
+              "Bieth E",
+              "Galinier P",
+              "Just W",
+              "Mazereeuw-Hautier J"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2012",
+            "abstract": "Branchio-Oculo-Facial Syndrome (BOFS, MIM#113620) is a rare, polymalformational disorder with cutaneous and ocular abnormalities and characteristic facial anomalies. It is an autosomal dominant developmental disorder caused by mutations or deletions in the transcription factor AP-2 alpha gene (TFAP2A, 6p24). We report a new case of atypical BOFS with a unilateral cervical cutaneous defect.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2237761",
+            "title": "Congenital craniofacial anomalies of ophthalmic importance.",
+            "authors": [
+              "Fries P D",
+              "Katowitz J A"
+            ],
+            "journal": "Survey of ophthalmology",
+            "year": "1990",
+            "abstract": "Congenital craniofacial abnormalities frequently require ophthalmic evaluation and surgical management. Called upon to perform as part of the craniofacial team managing the often severely deformed craniofacial patient, the ophthalmologist must bring a basic knowledge of craniofacial syndromes and developmental anatomy, as well as clinical acumen to help preserve or improve ocular and adnexal function. As an introduction to this area of ophthalmology, the clinical features, classification, approp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36636984",
+            "title": "Congenital inner eyelid folds.",
+            "authors": [
+              "Millett Matt",
+              "Hyasat Jamila G",
+              "Lueder Gregg T"
+            ],
+            "journal": "Ophthalmic genetics",
+            "year": "2023",
+            "abstract": "We describe the ocular findings in two infants who were found to have unusual internal eyelid folds during routine probing for nasolacrimal duct (NLD) obstruction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35791156",
+            "title": "Clinical features and orbital anomalies in Fraser syndrome and a review of management options.",
+            "authors": [
+              "Das Deepsekhar",
+              "Modaboyina Sujeeth",
+              "Raj Sandton",
+              "Agrawal Sahil",
+              "Bajaj Mandeep Singh"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2022",
+            "abstract": "Fraser syndrome is a rare congenital disorder comprising cryptophthalmos, syndactyly, and many times, urogenital anomalies. Herein, the authors aimed to study and report the clinical features and orbital anomalies in cases diagnosed with Fraser syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11581073",
+            "title": "Renal coloboma syndrome.",
+            "authors": [
+              "Dureau P",
+              "Attie-Bitach T",
+              "Salomon R",
+              "Bettembourg O",
+              "Amiel J"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2001",
+            "abstract": "To characterize the ocular features of renal coloboma syndrome.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37468646",
+            "title": "Ocular manifestations of congenital anomalies of the kidney and urinary tract (CAKUT).",
+            "authors": [
+              "Virth James",
+              "Mack Heather G",
+              "Colville Deb",
+              "Crockett Emma",
+              "Savige Judy"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "2024",
+            "abstract": "Congenital anomalies of the kidney and urinary tract (CAKUT) are among the most common birth defects worldwide and a major cause of kidney failure in children. Extra-renal manifestations are also common. This study reviewed diseases associated with the Genomics England CAKUT-associated gene panel for ocular anomalies. In addition, each gene was examined for expression in the human retina and an ocular phenotype in mouse models using the Human Protein Atlas and Mouse Genome Informatics databases,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3050099",
+            "title": "The telecanthus-hypospadias syndrome.",
+            "authors": [
+              "Stevens C A",
+              "Wilroy R S"
+            ],
+            "journal": "Journal of medical genetics",
+            "year": "1988",
+            "abstract": "The telecanthus-hypospadias (BBB) syndrome is characterised by widely spaced inner ocular canthi and hypospadias of variable degree. Heterozygous females have telecanthus. We have summarised the historical and phenotypic findings of 21 patients in seven previous publications. We have also had the opportunity to evaluate personally 12 families with a total of 18 affected males. The most frequent anomalies in patients previously reported are telecanthus 21/21, hypospadias 19/21, cleft lip/palate o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36926528",
+            "title": "Ophthalmological Manifestations of Axenfeld-Rieger Syndrome: Current Perspectives.",
+            "authors": [
+              "Michels Kristi",
+              "Bohnsack Brenda L"
+            ],
+            "journal": "Clinical ophthalmology (Auckland, N.Z.)",
+            "year": "2023",
+            "abstract": "Axenfeld-Rieger syndrome (ARS) is a rare congenital disease that is primarily characterized by ocular anterior segment anomalies but is also associated with craniofacial, dental, cardiac, and neurologic abnormalities. Over half of cases are linked with autosomal dominant mutations in either FOXC1 or PITX2, which reflects the molecular role of these genes in regulating neural crest cell contributions to the eye, face, and heart. Within the eye, ARS is classically defined as the combination of pos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2036354",
+            "title": "Ablepharon macrostomia syndrome.",
+            "authors": [
+              "Price N J",
+              "Pugh R E",
+              "Farndon P A",
+              "Willshaw H E"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "1991",
+            "abstract": "The association of congenital ablepharon with the absence of eyelashes and eyebrows, a wide mouth (macrostomia), and auricular, nasal, genital, and other systemic anomalies has been termed the ablepharon macrostomia syndrome. One such case is reported which illustrates the importance of immediate postnatal ocular management to minimise severe visual loss.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦小血管病變（CSVD）與高血壓密切相關；ACEI長期控壓可間接保護腦小血管，但針對CSVD1（COL4A1/A2突變型）的特異性治療證據尚無。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.9708065390586852,
+        "rank": 20941
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00292162",
+            "title": "Radiofrequency Ablation for Atrial Fibrillation in Advanced Chronic Heart Failure",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2007-01",
+            "completion_date": "2009-07",
+            "brief_summary": "Heart failure is a condition that occurs when the heart muscle weakens and no longer contracts normally. Half of these patients have an irregularity of heart rhythm called atrial fibrillation (AF). Patients with both heart failure and AF spend more time in hospital, and die earlier than those with heart failure alone. AF is difficult to treat with conventional methods in patients with heart failure. Radiofrequency ablation is a new technique used to cure AF. The investigators aim to establish if",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04835233",
+            "title": "Management of Hypertension in the Early Postpartum Period: Randomized Clinical Trial Comparing Two Antihypertensive Medications",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "2021-05-01",
+            "completion_date": "2022-12-31",
+            "brief_summary": "In hypertensive mothers, it is common in clinical practice to substitute methyldopa for another medication, such as captopril, immediately after delivery, which may, as a consequence, cause a rebound effect or an initial lack of blood pressure control until the new medication had a more complete action. Thus, the treatment of hypertension in the puerperium is generally guided by expert opinion and recommendations for guidelines, based on non-robust evidence. OBJECTIVE: To evaluate the control of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3050941",
+            "title": "Effects of captopril in patients with chronic obstructive pulmonary disease and secondary pulmonary hypertension.",
+            "authors": [
+              "Patakas D",
+              "Georgopoulos D",
+              "Rodini H",
+              "Christaki P"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1988",
+            "abstract": "Ten patients with chronic obstructive pulmonary disease (COPD) with normal left ventricular function were given a single dose of captopril (0.25 mg/kg). Mean systemic arterial pressure, heart rate and coronary flow to the right ventricle were reduced significantly after captopril. In contrast captopril did not cause a significant fall in pulmonary arterial pressure or pulmonary vascular resistance. We conclude that captopril fails to produce haemodynamic benefits in such hypoxic patients and tha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3520734",
+            "title": "Effects of captopril on hemodynamics and blood gases in chronic obstructive lung disease with pulmonary hypertension.",
+            "authors": [
+              "Bertoli L",
+              "Lo Cicero S",
+              "Busnardo I",
+              "Rizzato G",
+              "Montanari G"
+            ],
+            "journal": "Respiration; international review of thoracic diseases",
+            "year": "1986",
+            "abstract": "The effects of Captopril, an angiotensin-converting enzyme inhibitor, on pulmonary hemodynamics and blood gases were studied in 9 patients with chronic obstructive lung disease (COLD) and pulmonary hypertension (PA-P greater than 20 mm Hg). Hemodynamic data were recorded prior to Captopril administration (50 mg per os) and for the next 60 min. Following Captopril administration, significant reductions in mean pulmonary artery pressure (PA-P) (p less than 0.05), in mean pulmonary wedge pressure (",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2688602",
+            "title": "[Effects of captopril on hemodynamics, gas exchange and exercise capacity in patients with pulmonary hypertension secondary to chronic obstructive pulmonary disease].",
+            "authors": [
+              "Paitl C E",
+              "Nery L E",
+              "Romaldini H",
+              "Herrmann J L",
+              "Portugal O P"
+            ],
+            "journal": "Arquivos brasileiros de cardiologia",
+            "year": "1989",
+            "abstract": "Captopril, a potent inhibitor of angiotensin converting enzyme, was tested in patients with COPD (means forced expired volume in the first second--FEV1 = 0.73 l) and pulmonary hypertension (PAP = 41.3 mmHg). In the first phase of the experiment, patients underwent and incremental exercise test to the limit of tolerance. These were double blind, randomized, cross-over studies, where the patients received oral placebo (Pl) or captopril (Cp) 25 mg, on different days. In a second phase, the patients",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3530649",
+            "title": "Captopril effects on pulmonary and systemic hemodynamics in chronic cor pulmonale.",
+            "authors": [
+              "Zieliński J",
+              "Hawrylkiewicz I",
+              "Górecka D",
+              "Gluskowski J",
+              "Kościńska M"
+            ],
+            "journal": "Chest",
+            "year": "1986",
+            "abstract": "A placebo-controlled single-blind study on acute effects of captopril on hypoxic pulmonary hypertension was performed in 15 patients with severe chronic obstructive lung disease recovering from right heart failure. Ten patients received active drug (25 mg captopril orally), five patients received placebo and served as control subjects. Before drug administration, there was no difference in lung function data and pulmonary hemodynamics between patients in both groups. Captopril produced highly si",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6758746",
+            "title": "Prazosin and captopril in chronic heart failure: comparison of acute haemodynamic and hormonal effects.",
+            "authors": [
+              "Sharpe D N",
+              "Coxon R"
+            ],
+            "journal": "Australian and New Zealand journal of medicine",
+            "year": "1982",
+            "abstract": "Ten patients with severe chronic heart failure were given prazosin 5 mg and captopril 25 mg in random order on consecutive days. Small increases in cardiac index and reductions in heart rate were effected by both drugs, but these alterations and the accompanying increases in stroke volume index were significant only following captopril. Both drugs significantly reduced mean pulmonary capillary wedge pressure and mean right atrial pressure and also systemic vascular resistance and blood pressure,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9738162",
+            "title": "Captopril and angiotensin II receptor antagonist therapy in a pacing model of heart failure.",
+            "authors": [
+              "Ogilvie R I",
+              "Zborowska-Sluis D"
+            ],
+            "journal": "The Canadian journal of cardiology",
+            "year": "1998",
+            "abstract": "Twenty-four splenectomized dogs were subjected to rapid right ventricular pacing (RRVP) at 250 beats/min for five weeks. During the final three weeks, four groups six dogs were untreated or treated with captopril alone, with the angiotensin II type 1 (AT1) receptor antagonist L158,809 alone or with the two drugs combined by constant intravenous infusion. Hemodynamic studies were carried out during light anesthesia at baseline, and after two and five weeks of pacing. Total vascular capacitance an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6107767",
+            "title": "Low-dose captopril in chronic heart failure: acute haemodynamic effects and long-term treatment.",
+            "authors": [
+              "Sharpe D N",
+              "Douglas J E",
+              "Coxon R J",
+              "Long B"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1980",
+            "abstract": "The acute haemodynamic effects of low doses of the oral converting-enzyme inhibitor, captopril, were studied in 18 patients with severe chronic heart failure. The effects of long-term therapy were also evaluated. Increasing doses (1 mg, 2.5 mg, 6.25 mg, 12.5 mg, and 25 mg) of captopril were given at 2 h intervals with haemodynamic monitoring. Graded haemodynamic improvement (increased stroke-volume index and reduced mean pulmonary capillary wedge pressure) was noted from 1 hand was closely assoc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7037025",
+            "title": "Haemodynamic and myocardial metabolic effects of captopril in chronic heart failure.",
+            "authors": [
+              "Chatterjee K",
+              "Rouleau J L",
+              "Parmley W W"
+            ],
+            "journal": "British heart journal",
+            "year": "1982",
+            "abstract": "In 15 patients with chronic left ventricular failure caused by ischaemic heart disease, cardiac output and right heart pressures were measured before and after the oral angiotensin-converting enzyme inhibitor, captopril, which was administered in increasing doses. In 12 of 15 patients, coronary blood flow, and in 11 patients myocardial oxygen extraction and consumption and lactate extraction were also determined before and after captopril therapy. Cardiac index and stroke volume index increased ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6336940",
+            "title": "Effects of captopril in acute and chronic heart failure. Correlations with plasma levels of noradrenaline, renin, and aldosterone.",
+            "authors": [
+              "Wenting G J",
+              "Man in't veld A J",
+              "Woittiez A J",
+              "Boomsma F",
+              "Laird-Meeter K"
+            ],
+            "journal": "British heart journal",
+            "year": "1983",
+            "abstract": "The angiotensin-converting enzyme inhibitor, captopril, was given to 19 patients with severe heart failure. Seven patients had acute myocardial infarction and the remainder had chronic myocardial damage caused by ischaemia or valvular disease. Cardiac filling pressures were raised in all, the pulmonary capillary \"wedge\" pressure being 17 mmHg or more. Captopril, 50 mg orally, raised stroke volume and cardiac output, and reduced heart rate, cardiac filling pressures, systemic arterial pressure, a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6753897",
+            "title": "Clinical and haemodynamic effects of low dose captopril in severe chronic heart failure.",
+            "authors": [
+              "Sharpe D N",
+              "Coxon R J"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "1982",
+            "abstract": "1 The clinical and haemodynamic effects of low doses of the oral converting-enzyme inhibitor captopril were studied in 18 patients with severe chronic heart failure. Increasing doses of 1 mg, 2.5 mg, 6.25 mg, 12.5 mg, and 25 mg captopril were given at two hour intervals with haemodynamic monitoring. Graded haemodynamic improvement (increased stroke volume index and reduced mean pulmonary capillary wedge pressure) occurred from one hour with reduction of blood pressure closely associated. 2 Maxim",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "221810",
+            "title": "Treatment of chronic congestive heart failure with captopril, an oral inhibitor of angiotensin-converting enzyme.",
+            "authors": [
+              "Davis R",
+              "Ribner H S",
+              "Keung E",
+              "Sonnenblick E H",
+              "LeJemtel T H"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1979",
+            "abstract": "The renin-angiotensin system is thought to maintain elevated systemic vascular resistance in heart failure. The hemodynamic effects of captopril (SQ 14225), an oral inhibitor of angiotensin-converting enzyme, were measured in 10 patients with stable congestive heart failure poorly controlled by digitalis and diuretics. At single daily doses of 25 to 150 mg, the cardiac index rose from 1.75 +/- 0.18 to 2.27 +/- 0.39 (mean +/- S.D.) liters per minute per square meter (P less than 0.001), and pulmo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3910774",
+            "title": "Treatment of essential hypertension with captopril in patients with chronic obstructive pulmonary disease.",
+            "authors": [
+              "Bertoli L",
+              "Fusco M",
+              "Micallef E",
+              "Busnardo I"
+            ],
+            "journal": "Journal of hypertension. Supplement : official journal of the International Society of Hypertension",
+            "year": "1985",
+            "abstract": "The effects of captopril have been studied in 10 patients suffering from chronic obstructive pulmonary disease (COPD) with moderate essential hypertension. Captopril was given as monotherapy (75-100 mg/day) over a period of 60 days. The following effects of captopril were seen in these patients: a significant reduction of systolic blood pressure (P less than 0.01) and of diastolic blood pressure (P less than 0.001), both in the supine and in the standing position; a significant increase of the v",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1565813",
+            "title": "Transpulmonary angiotensin II formation and pulmonary haemodynamics in stable hypoxic lung disease: the effect of captopril.",
+            "authors": [
+              "Peacock A J",
+              "Matthews A"
+            ],
+            "journal": "Respiratory medicine",
+            "year": "1992",
+            "abstract": "The effect of chronic hypoxic lung disease on the activity of the renin-angiotensin (RA) system and the role the RA system plays in the pulmonary vascular changes that accompany hypoxia remain controversial. We have measured transpulmonary generation of angiotensin II (A II) and pulmonary haemodynamics in nine patients with airflow obstruction (mean FEV1 = 0.741) and arterial hypoxaemia (mean PaO2 = 8.4 Pa) before and after captopril. In each patient pulmonary artery pressure, cardiac output, sy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2669225",
+            "title": "Renal and pulmonary effects of angiotensin converting enzyme inhibition in chronic hypoxic lung disease.",
+            "authors": [
+              "Oliver R M",
+              "Peacock A J",
+              "Fleming J S",
+              "Waller D G"
+            ],
+            "journal": "Thorax",
+            "year": "1989",
+            "abstract": "The effects of 28 days' treatment with captopril or with placebo on renal and pulmonary function were evaluated in nine patients with stable pulmonary heart disease. Captopril (25 mg twice daily) caused a 17% rise in effective renal plasma flow but no change in glomerular filtration rate, resulting in a fall in filtration fraction likely to favour natriuresis. Captopril did not alter FEV1, lung volumes, or arterial oxygen or carbon dioxide tension.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12832683",
+            "title": "Effects of captopril administration on pulmonary haemodynamics and tissue oxygenation during exercise in ACE gene subtypes in patients with COPD: a preliminary study.",
+            "authors": [
+              "Kanazawa H",
+              "Hirata K",
+              "Yoshikawa J"
+            ],
+            "journal": "Thorax",
+            "year": "2003",
+            "abstract": "We have previously shown that angiotensin converting enzyme (ACE) DD genotype is associated with exaggerated pulmonary hypertension and disturbance of tissue oxygenation during exercise in patients with chronic obstructive pulmonary disease (COPD). A pilot study was designed to examine the effects of captopril on these exercise related variables in COPD patients categorised according to ACE gene polymorphisms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11579363",
+            "title": "Regression of left ventricular remodeling in chronic heart failure: Comparative and combined effects of captopril and carvedilol.",
+            "authors": [
+              "Khattar R S",
+              "Senior R",
+              "Soman P",
+              "van der Does R",
+              "Lahiri A"
+            ],
+            "journal": "American heart journal",
+            "year": "2001",
+            "abstract": "This study evaluated the independent and combined effects of captopril and carvedilol on left ventricular remodeling in chronic heart failure. Although angiotensin-converting enzyme inhibitors and b-blockers are known to attenuate the remodeling process in chronic heart failure, a direct comparison of these agents has not been performed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9673832",
+            "title": "Clinical pharmacokinetics of vasodilators. Part II.",
+            "authors": [
+              "Kirsten R",
+              "Nelson K",
+              "Kirsten D",
+              "Heintz B"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "abstract": "Stimulating cardiac beta 1-adrenoceptors with oxyfedrine causes dilatation of coronary vessels and positive inotropic effects on the myocardium. beta 1-adrenergic agonists increase coronary blood flow in nonstenotic and stenotic vessels. The main indication for the use of the phosphodiesterase inhibitors pamrinone, mirinone, enoximone and piroximone is acute treatment of severe congestive heart failure. Theophylline is indicated for the treatment of asthma, chronic obstructive pulmonary disease,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6244906",
+            "title": "Immediate and sustained hemodynamic and clinical improvement in chronic heart failure by an oral angiotensin-converting enzyme inhibitor.",
+            "authors": [
+              "Ader R",
+              "Chatterjee K",
+              "Ports T",
+              "Brundage B",
+              "Hiramatsu B"
+            ],
+            "journal": "Circulation",
+            "year": "1980",
+            "abstract": "The hemodynamic effects of an oral angiotensin-converting enzyme inhibitor, captopril, were evaluated in 10 symptomatic patients with chronic congestive heart failure. In all patients there was a significant increase in cardiac output (average 28%), stroke volume (49%), and stroke work index (26%), along with a decrease in pulmonary capillary wedge pressure (48%), indicating improved left ventricular function. Modest decreases in heart rate and arterial pressure were also observed. In seven pati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2441202",
+            "title": "Long-term treatment of severe chronic heart failure with captopril: a double-blind, randomized, placebo-controlled, long-term study.",
+            "authors": [
+              "Bussmann W D",
+              "Störger H",
+              "Hadler D",
+              "Reifart N",
+              "Fassbinder W"
+            ],
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "1987",
+            "abstract": "Twenty-three patients with severe heart failure (NYHA classes III and IV) on treatment with digitalis and diuretics were additionally treated in a randomized double-blind study over a 6-month period with captopril (n = 12; mean daily dose 84 mg) or a placebo (n = 11) and were then reexamined. In the captopril group, the left-ventricular filling pressure decreased by 9 mm Hg (from 23 to 14) at rest and 6 mm Hg (from 35 to 29) during exercise. In the placebo group, there was an increase of 4 mm Hg",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2676169",
+            "title": "Hemodynamic and clinical effects of captopril in patients with severe congestive heart failure.",
+            "authors": [
+              "Nigri A",
+              "Mangieri E",
+              "Martuscelli E",
+              "Danesi A",
+              "Sardella G"
+            ],
+            "journal": "Cardiologia (Rome, Italy)",
+            "year": "1989",
+            "abstract": "In a group of 10 patients (9 male, 1 female, aged 16 to 56, mean 43 years) with severe congestive heart failure (CHF), due to ischemic heart disease (8 cases) or dilatative cardiomyopathy (2 cases), the acute hemodynamic response to captopril (CPT) (90 min after 50 mg po) was evaluated. CPT was then given starting with 15 mg q 8 hr, gradually increased within 2 or 3 days to 50 or 75 mg q 8 hr. A hemodynamic re-evaluation was performed after 20 days, and, in 5 patients, after 1 year of CPT treatm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn": {
+        "score": 0.8985773921012878,
+        "rank": 34962
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30114508",
+            "title": "Post-stroke losartan and captopril treatments arrest hemorrhagic expansion in SHRsp without lowering blood pressure.",
+            "authors": [
+              "Smeda John S",
+              "Watson Danielle",
+              "Stuckless Jennifer",
+              "Negandhi Amit"
+            ],
+            "journal": "Vascular pharmacology",
+            "year": "2018",
+            "abstract": "We assessed the ability of poststroke losartan and captopril treatment to attenuate hematoma expansion and plasma extravasation after intracerebral hemorrhagic stroke in Kyoto-Wistar stroke-prone hypertensive rats (SHRsp). Cerebrum volume, herniation and surface areas exhibiting new and old hemorrhages and albumin extravasation were measured prior to and after stroke and following 30 and 60 days of post-stroke losartan or captopril treatment in Evans Blue dye perfused brains. Lesion morphology w",
+            "classification": {
+              "study_type": "Animal Study (SHRsp rat)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20648036",
+            "title": "The effects of poststroke captopril and losartan treatment on cerebral blood flow autoregulation in SHRsp with hemorrhagic stroke.",
+            "authors": [
+              "Smeda John S",
+              "Daneshtalab Noriko"
+            ],
+            "journal": "Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism",
+            "year": "2011",
+            "abstract": "The ability of captopril and losartan treatment to restore cerebral blood flow (CBF) autoregulation after intracerebral hemorrhagic stroke (HS) was assessed in Kyoto-Wistar stroke-prone hypertensive rats (SHRsp). Laser Doppler techniques assessed CBF autoregulation in the middle cerebral artery (MCA) perfusion domain and a pressure myograph was used to measure pressure-dependent constriction (PDC) in isolated MCAs before and after stroke and after 13, 33, and 63 days of poststroke captopril or l",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7032806",
+            "title": "Effects of meclofenamate and captopril on renal and other regional vascular beds after mild haemorrhage in conscious rabbits.",
+            "authors": [
+              "Banks R A",
+              "Beilin L J",
+              "Soltys J",
+              "Davidson L"
+            ],
+            "journal": "Clinical science (London, England : 1979)",
+            "year": "1982",
+            "abstract": "1. The role of prostaglandins and angiotensin II in blood flow regulation was studied in conscious rabbits subjected to mild haemorrhage. 2. Haemorrhage caused a 13% fall in arterial pressure and a 21% fall in cardiac output, responses which were unchanged by sodium meclofenamate, an inhibitor of prostaglandin synthesis, or captopril, an inhibitor of the angiotensin converting enzyme. 3. Haemorrhage doubled plasma adrenaline and noradrenaline levels. Plasma renin activity trebled after haemorrha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7035041",
+            "title": "Effects of meclofenamate and captopril on blood flow to the kidney and spleen in conscious rabbits subjected to mild haemorrhage.",
+            "authors": [
+              "Banks R A",
+              "Beilin L J",
+              "Soltys J",
+              "Davidson L"
+            ],
+            "journal": "Clinical and experimental pharmacology & physiology",
+            "year": "1981",
+            "abstract": "1. Regional haemodynamic responses to mild haemorrhage were studied in three groups each of seven conscious rabbits, in the presence of either buffer, the prostaglandin cyclo-oxygenase inhibitor meclofenamate, or the kininase II inhibitor captopril. 2. Renal and splenic vasoconstriction occurred with meclofenamate in haemorrhaged animals, and were accentuated by the subsequent administration of captopril. 3. Captopril alone caused mild renal vasodilatation, but subsequent administration of meclo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15655534",
+            "title": "Captopril improves cerebrovascular structure and function in old hypertensive rats.",
+            "authors": [
+              "Dupuis François",
+              "Atkinson Jeffrey",
+              "Limiñana Patrick",
+              "Chillon Jean-Marc"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "2005",
+            "abstract": "We examined the effects of an angiotensin-converting enzyme inhibitor (ACEI), captopril, on cerebral arterioles in young and old spontaneously hypertensive rats (SHR). Animals were anesthetized with sodium pentobarbitone (60 mg kg(-1) day(-1)). We measured cerebral blood flow (CBF, arbitrary units) and cerebral arteriolar internal diameter (ID, mum) prior to and during stepwise hypotension (SH) in 6- (WKY-6) and 15-month-old (WKY-15) Wistar Kyoto rats and in age-matched SHR that were untreated (",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31300722",
+            "title": "Oral short-acting antihypertensive medications and the occurrence of stroke: a nationwide case-crossover study.",
+            "authors": [
+              "Hsu Chia-Yu",
+              "Huang Ling-Ya",
+              "Saver Jeffrey L",
+              "Wu Yi-Ling",
+              "Lee Jiann-Der"
+            ],
+            "journal": "Hypertension research : official journal of the Japanese Society of Hypertension",
+            "year": "2019",
+            "abstract": "The purpose of the study was to clarify whether short-acting antihypertensives are associated with the occurrence of ischemic stroke and intracerebral hemorrhage (ICH). This was a retrospective case-crossover study using the Taiwan National Health Insurance Research Database. We identified all adult patients hospitalized with a primary diagnosis of ischemic stroke or ICH between January 2005 and December 2013. For each case, short-term and long-term exposure to short-acting antihypertensives, in",
+            "classification": {
+              "study_type": "Case-Crossover Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9704248",
+            "title": "Comparative tolerability profile of hypertensive crisis treatments.",
+            "authors": [
+              "Grossman E",
+              "Ironi A N",
+              "Messerli F H"
+            ],
+            "journal": "Drug safety",
+            "year": "1998",
+            "abstract": "Hypertensive crisis is defined as a severe elevation in BP and is classified as either urgency or emergency. In hypertensive urgency there is no end-organ injury and no evidence that acute BP lowering is beneficial. Indeed, rapid uncontrolled pressure reduction may be harmful. Therefore, in hypertensive urgencies BP should be lowered gradually over 24 to 48 hours using oral antihypertensives. When the cause of transient BP elevations is easily identified, appropriate treatment should be given. W",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9303031",
+            "title": "The role of blood pressure and aldosterone in the production of hemorrhagic stroke in captopril-treated hypertensive rats.",
+            "authors": [
+              "MacLeod A B",
+              "Vasdev S",
+              "Smeda J S"
+            ],
+            "journal": "Stroke",
+            "year": "1997",
+            "abstract": "We tested the hypothesis that the lowering of plasma aldosterone levels contributed to the antistroke effects of captopril treatment in Wistar Kyoto stroke-prone spontaneously hypertensive rats (SHRSP).",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20531216",
+            "title": "Captopril treatment temporarily restores cerebral blood flow autoregulation in spontaneously hypertensive rats after hemorrhagic stroke.",
+            "authors": [
+              "Davis Laura A",
+              "Smeda John S"
+            ],
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "2010",
+            "abstract": "Hemorrhagic stroke development in stroke-prone spontaneously hypertensive Kyoto Wistar rats (SHRsp) is associated with a loss of cerebral blood flow (CBF) autoregulation and death. We assessed the ability of poststroke captopril treatment to retard death and restore CBF autoregulation in SHRsp. Laser Doppler techniques were used to measure alterations in CBF with varying mean arterial pressure (MAP) in anesthetized SHRsp. Three weeks before stroke, all SHRsp autoregulated near constant CBF to an",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14717927",
+            "title": "Temporary losartan or captopril in young SHR induces malignant hypertension despite initial normotension.",
+            "authors": [
+              "Racasan Simona",
+              "Hahnel Bruni",
+              "van der Giezen Dionne M",
+              "Blezer Erwin L",
+              "Goldschmeding Roel"
+            ],
+            "journal": "Kidney international",
+            "year": "2004",
+            "abstract": "Exposure of normotensive rats to angiotensin-converting enzyme (ACE) inhibitors in early life causes hypertrophy of intrarenal arteries. Similar defects have been found in knockout mice lacking angiotensinogen, ACE, or angiotensin II type 1 (AT1) receptors. On the other hand, transient inhibition of the renin-angiotensin system from 2 weeks of age in spontaneously hypertensive rats (SHR), either with ACE inhibitors or with AT1 receptor antagonists partially prevents the increase in blood pressur",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3003485",
+            "title": "Intra-cerebroventricular captopril reduces plasma ACTH and vasopressin responses to hemorrhagic stress.",
+            "authors": [
+              "Cameron V A",
+              "Espiner E A",
+              "Nicholls M G",
+              "MacFarlane M R",
+              "Sadler W A"
+            ],
+            "journal": "Life sciences",
+            "year": "1986",
+            "abstract": "The role of the brain renin-angiotensin system in mediating the peripheral hormone response to acute hemorrhagic stress (15 ml/kg over 10 min) was studied in 6 sheep during an intracerebroventricular infusion (2.8 micrograms/min) of the angiotensin-converting enzyme inhibitor, captopril. When compared with control experiments the plasma ACTH and vasopressin (AVP) response to hemorrhage was markedly reduced and delayed during icv captopril, which did not affect the response of plasma angiotensin ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6350401",
+            "title": "A placebo-controlled trial of captopril in refractory chronic congestive heart failure. Captopril Multicenter Research Group.",
+            "authors": [],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1983",
+            "abstract": "Ninety-two patients with heart failure refractory to digitalis and diuretic therapy had captopril (n = 50) or placebo (n = 42) added to their therapeutic regimen in a randomized, double-blind trial. During a 2 week dosage titration period, one captopril-treated patient died of an intracerebral hemorrhage. Over the remaining 10 week evaluation period, 1 captopril-treated patient (2%) was excluded from the study because of treatment failure as compared with 12 discontinuations (4 deaths and 8 fail",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10525073",
+            "title": "Effect of poststroke captopril treatment on mortality associated with hemorrhagic stroke in stroke-prone rats.",
+            "authors": [
+              "Smeda J",
+              "Vasdev S",
+              "King S R"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "1999",
+            "abstract": "We tested the ability of captopril treatment (50 mg/kg/day p.o.), initiated 2 weeks before stroke or up to 5 days after stroke, to alter the onset of stroke and death after stroke in Kyoto Wistar stroke-prone spontaneously hypertensive rats (SHRsp). The benefits of blood pressure and aldosterone suppression during captopril treatment were assessed. SHRsp developed a 100% mortality rate with intracerebral hemorrhage by 16 weeks of age. Captopril treatment, started 2 weeks before or at the initiat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12434178",
+            "title": "Effect of endothelin-converting enzyme inhibitors on big endothelin-1 induced contraction in isolated rat basilar artery.",
+            "authors": [
+              "Zimmermann M",
+              "Jung C S",
+              "Vatter H",
+              "Raabe A",
+              "Seifert V"
+            ],
+            "journal": "Acta neurochirurgica",
+            "year": "2002",
+            "abstract": "The aim of this study was to investigate whether blocking functional endothelin-converting enzyme (ECE) activity may offer a new approach to inhibit the development of cerebral vasopasm after subarachnoid hemorrhage (SAH) by preventing transformation of big Endothelin-1 (big ET-1) to vasoactive Endothelin-1 (ET-1).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39044991",
+            "title": "Successful treatment of resistant hypertension and severe complications in a 63-year-old man with primary aldosteronism without adrenalectomy: A case report.",
+            "authors": [
+              "Wang Ai",
+              "Ma Qun",
+              "Mbikyo Muisha B",
+              "Miao Linlin",
+              "Cui Nan"
+            ],
+            "journal": "Heliyon",
+            "year": "2024",
+            "abstract": "Primary aldosteronism (PA), often due to aldosteronoma, commonly causes secondary hypertension and typically requires surgery. We present a case of an elderly man with longstanding hypertension, complicated by cerebral hemorrhage and myocardial infarction. Enhanced CT imaging identified a right-sided aldosteronoma and left adrenal gland fullness. Combined with upright supine aldosterone ratio, captopril challenge test, bilateral adrenal venous sampling, and CYP11B1/CYP11B2 fusion gene testing, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16984929",
+            "title": "Predictors of stroke in high-risk patients after acute myocardial infarction: insights from the VALIANT Trial.",
+            "authors": [
+              "Sampson Uchechukwu K",
+              "Pfeffer Marc A",
+              "McMurray John J V",
+              "Lokhnygina Yuliya",
+              "White Harvey D"
+            ],
+            "journal": "European heart journal",
+            "year": "2007",
+            "abstract": "We sought to determine risk models for predicting early and late stroke in a large cohort of high-risk post-myocardial infarction (MI) patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26698202",
+            "title": "Posterior reversible encephalopathy syndrome (PRES) after bariatric surgery--a potential consequence associated with rapid withdrawal of antihypertensive medications.",
+            "authors": [
+              "Stanford Fatima Cody",
+              "Pratt Janey S",
+              "Meireles Ozanan R",
+              "Bredella Miriam A"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2015",
+            "abstract": "A 61-year-old woman with a medical history of intracerebral haemorrhage, hypertension, hyperlipidaemia and carotid stenosis presented to the emergency department with altered mental status 3 weeks after undergoing a vertical sleeve gastrectomy for severe obesity. She presented with a hypertensive emergency and a National Institutes of Health Stroke Scale of 4. CT of the head was unrevealing. MRI showed an abnormal signal within the bilateral posterior border-zone areas, with several foci in the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32726045",
+            "title": "[Effect of Xingnaojing Injection in treatment of cerebral hemorrhage based on Tabu search algorithm:a real world study].",
+            "authors": [
+              "Geng Hong-Jiao",
+              "Xie Yan-Ming",
+              "Zhang Min"
+            ],
+            "journal": "Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica",
+            "year": "2020",
+            "abstract": "In this study, Tabu search algorithm was used to analyze the effect of Xingnaojing Injection in the treatment of cerebral hemorrhage in the real world. Through the analysis of the results, the therapies based on the pathogeny of cerebral hemorrhage were screened out: Xingnaojing Injection+hemostatic drugs for promoting blood circulation and removing stasis. Cerebral hemorrhage complicated with brain edema: combined with mannitol or mannitol+aescin. The patients with relevant complications in the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10416234",
+            "title": "[Intraventricular hemorrhage due to the rupture of atherosclerotic dissecting aneurysm of the middle cerebral artery].",
+            "authors": [
+              "Bosch J",
+              "Mauleón A",
+              "Coscojuela P",
+              "Porta I",
+              "Grivé E"
+            ],
+            "journal": "Revista de neurologia",
+            "year": "1999",
+            "abstract": "We present a case of fusiform intracranial aneurysm where, apart from the unusual site, we draw attention to the form of clinical presentation, namely intraventricular haemorrhage. Clinical case. A 68 year-old-man with a history of smoking, hyperuricemia with seizures of gout treated with colchicine and allopurinol, and hypertension treated with captopril. Nine years previously he had a right capsulothalamic haematoma and presented (as a sequela of this) a left sensomotor deficit, with a good fu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2676039",
+            "title": "Hypertonic saline resuscitation is prevented by intracerebroventricular saralasin but not by captopril.",
+            "authors": [
+              "Velasco I T",
+              "Rocha-e-Silva M"
+            ],
+            "journal": "Brazilian journal of medical and biological research = Revista brasileira de pesquisas medicas e biologicas",
+            "year": "1989",
+            "abstract": "Hypertonic saline resuscitation (HR, 7.5% NaCl, 4 ml/kg) effectively reverts severe hemorrhage, but a central neural component is probably involved in the survival response. This experiment examines the role of central angiotensinergic pathways in hemorrhage-hypertonic resuscitation interaction. Severely bled (43 +/- 2 ml/kg) pentobarbital-anesthetized dogs with chronically implanted cerebral ventricular cannulae were resuscitated with 4 ml/kg 7.5% NaCl, iv 10 min after intracerebroventricular i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACEI可改善腦血流自動調節（cerebral blood flow autoregulation）、減少腦血管重塑；動物模型顯示Captopril可抑制出血性擴展（hemorrhagic expansion）並保護腦血管結構；但臨床轉化尚未確立，且急性期降壓過快有腦缺血風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "chronic renal failure syndrome",
+      "txgnn": {
+        "score": 0.8132532238960266,
+        "rank": 41224
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01669434",
+            "title": "Chronic Angiotensin Converting Enzyme Inhibitors in Intermediate Risk Surgery: A Randomized, Single-Blinded Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 291,
+            "start_date": "2015-06-01",
+            "completion_date": "2016-12-01",
+            "brief_summary": "Primary research hypothesis: Patients who continue their chronic ACEI therapy up to and including the morning of a non-cardiac, non-vascular surgery will experience more intraoperative hypotension than those who transiently hold their chronic ACEI preoperatively.\n\nSecondary research hypothesis #1: Patients who continue their chronic ACEI up to and including the morning of a non-cardiac, non-vascular surgery will experience better postoperative control of hypertension than those who transiently h",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "研究ACEI在手術期間的安全性，受試者包含慢性腎衰竭患者，探討圍手術期ACEI管理；與CRF直接相關，但研究問題聚焦手術安全性而非腎保護療效"
+            }
+          },
+          {
+            "nct_id": "NCT04835233",
+            "title": "Management of Hypertension in the Early Postpartum Period: Randomized Clinical Trial Comparing Two Antihypertensive Medications",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "2021-05-01",
+            "completion_date": "2022-12-31",
+            "brief_summary": "In hypertensive mothers, it is common in clinical practice to substitute methyldopa for another medication, such as captopril, immediately after delivery, which may, as a consequence, cause a rebound effect or an initial lack of blood pressure control until the new medication had a more complete action. Thus, the treatment of hypertension in the puerperium is generally guided by expert opinion and recommendations for guidelines, based on non-robust evidence. OBJECTIVE: To evaluate the control of",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "產後高血壓管理，不涉及慢性腎衰竭；相關性低"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33886735",
+            "title": "Dysautonomia: A Forgotten Condition - Part 1.",
+            "authors": [
+              "Rocha Eduardo Arrais",
+              "Mehta Niraj",
+              "Távora-Mehta Maria Zildany Pinheiro",
+              "Roncari Camila Ferreira",
+              "Cidrão Alan Alves de Lima"
+            ],
+            "journal": "Arquivos brasileiros de cardiologia",
+            "year": "2021",
+            "abstract": "Dysautonomia covers a range of clinical conditions with different characteristics and prognoses. They are classified as Reflex Syndromes, Postural Orthostatic Tachycardia Syndrome (POTS), Chronic Fatigue Syndrome, Neurogenic Orthostatic Hypotension (nOH) and Carotid Sinus Hypersensitivity Syndrome. Reflex (vasovagal) syndromes will not be discussed in this article. Reflex (vasovagal) syndromes are mostly benign and usually occur in patients without an intrinsic autonomic nervous system (ANS) or ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38851985",
+            "title": "Mechanism of Zhenwu Decoction modulating TLR4/NF-κB/HIF-1α loop through miR-451 to delay renal fibrosis in type 2 CRS.",
+            "authors": [
+              "Xu Xia",
+              "Wang Yajiao",
+              "Song Qingqiao",
+              "Zheng Haoran",
+              "Lv Jiayu"
+            ],
+            "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "year": "2024",
+            "abstract": "Type 2 cardiorenal syndrome (CRS) is a progressive renal insufficiency in patients with chronic heart failure, but its pathophysiology is still unclear. The Chinese medicine Zhenwu Decoction plays an important role in the prevention and treatment of 2-CRS, however, its mechanism of action remains unknown.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7922218",
+            "title": "Renovascular hypertension.",
+            "authors": [
+              "Textor S C"
+            ],
+            "journal": "Current opinion in nephrology and hypertension",
+            "year": "1993",
+            "abstract": "Renovascular disease, particularly when associated with atherosclerosis, is a common cofactor in accelerating hypertension and deteriorating renal function. With increased longevity and effective antihypertensive medications, the prevalence of vascular lesions affecting renal viability is increasing, possibly accounting for 15% of end-stage renal disease. Renal vascular lesions alter renin release and multiple associated mechanisms related to adrenergic and vascular regulation. Several new diagn",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7596934",
+            "title": "Effects of captopril and enalapril on renal function in elderly patients with chronic heart failure.",
+            "authors": [
+              "Haffner C A",
+              "Kendall M J",
+              "Struthers A D",
+              "Bridges A",
+              "Stott D J"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1995",
+            "abstract": "To compare the effects on renal function of captopril and enalapril in elderly patients with chronic heart failure.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8294993",
+            "title": "Captopril renal scintigraphy in patients with hypertension and chronic renal failure.",
+            "authors": [
+              "Datseris I E",
+              "Bomanji J B",
+              "Brown E A",
+              "Nijran K S",
+              "Padhy A K"
+            ],
+            "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+            "year": "1994",
+            "abstract": "The aim of this prospective study was to determine the ability of the captopril renogram to reveal the presence of angiotensin II-dependent renovascular disorder in hypertensive patients with chronic renal failure and to assess the possibility of predicting beneficial effect of angiotensin-converting enzyme (ACE) inhibitors on renal function.",
+            "classification": {
+              "study_type": "Diagnostic Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20689276",
+            "title": "Myocardial calcification and hypertension following chronic renal failure and ameliorative effects of furosemide and captopril.",
+            "authors": [
+              "Rahman Mizanur",
+              "Kim Shang-Jin",
+              "Kim Jin-Shang",
+              "Kim Sung-Zoo",
+              "Lee Young-Up"
+            ],
+            "journal": "Cardiology",
+            "year": "2010",
+            "abstract": "The aim of this study was to prevent metastatic myocardial calcification and hypertension following chronic renal failure (CRF).",
+            "classification": {
+              "study_type": "Animal/Clinical Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6095887",
+            "title": "Influence of chronic renal failure on captopril pharmacokinetics and clinical and biological effects in hypertensive patients.",
+            "authors": [
+              "Giudicelli J F",
+              "Chaignon M",
+              "Richer C",
+              "Giroux B",
+              "Guedon J"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "1984",
+            "abstract": "The pharmacokinetic parameters of unchanged plasma captopril and the kinetics of the drug effects on plasma converting enzyme activity (PCEA), plasma renin activity (PRA), plasma aldosterone (PA) and mean blood pressure (MBP) were studied over 24 h after oral administration in three groups of hypertensive patients: with normal renal function (group 1, plasma creatinine less than 110 mumol/l, n = 10), with moderate chronic renal failure (group 2, 135 less than plasma creatinine less than 450 mumo",
+            "classification": {
+              "study_type": "PK/PD Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3530558",
+            "title": "Long-term treatment with captopril in pediatric patients with severe hypertension and chronic renal failure.",
+            "authors": [
+              "Callis L",
+              "Vila A",
+              "Catalá J",
+              "Gras X"
+            ],
+            "journal": "Clinical and experimental hypertension. Part A, Theory and practice",
+            "year": "1986",
+            "abstract": "Captopril was given to 42 hypertensive patients aged 1 to 17 years who were treated by regular haemodialysis because of terminal renal failure. Initially all patients were on antihypertensive treatment without sufficient control of blood pressure. Under captopril all patients presented a significant decrease of both systolic and diastolic blood pressures. The mean decrease of systolic blood pressure was from 162 to 114 and that of diastolic blood pressure from 106 to 86 mmHg. Plasma renin activi",
+            "classification": {
+              "study_type": "Clinical Study (Longitudinal)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8723806",
+            "title": "Pediatric renovascular hypertension.",
+            "authors": [
+              "Wells T G",
+              "Belsha C W"
+            ],
+            "journal": "Current opinion in pediatrics",
+            "year": "1996",
+            "abstract": "Renovascular disease is a frequent cause of severe hypertension in children and may result in significant morbidity or mortality. Most children presenting with renovascular hypertension have few if any symptoms, but devastating neurologic injury and congestive heart failure are still too often observed. Several new radiographic techniques have been used to detect renovascular lesions, but none has yet demonstrated consistently superior results when compared with intra-arterial digital subtractio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9175047",
+            "title": "ACE inhibitors captopril and enalapril induce regression of left ventricular hypertrophy in hypertensive patients with chronic renal failure.",
+            "authors": [
+              "Dyadyk A I",
+              "Bagriy A E",
+              "Lebed I A",
+              "Yarovaya N F",
+              "Schukina E V"
+            ],
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "1997",
+            "abstract": "Left ventricular hypertrophy is frequently noted in patients with moderate to severe chronic renal failure not requiring dialysis. Recently, several studies have shown reversal of myocardial hypertrophy in end-stage renal disease with long-term pharmacological control of blood pressure, but it is unclear whether left ventricular mass regresses or normalizes with antihypertensive treatment of patients with earlier stages of chronic renal failure.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29620605",
+            "title": "Captopril Attenuates Cardiovascular and Renal Disease in a Rat Model of Heart Failure With Preserved Ejection Fraction.",
+            "authors": [
+              "Salah Eman M",
+              "Bastacky Sheldon I",
+              "Jackson Edwin K",
+              "Tofovic Stevan P"
+            ],
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "2018",
+            "abstract": "Heart failure with preserved ejection fraction (HFpEF), a prevalent form of heart failure, is frequently accompanied by the metabolic syndrome and kidney disease. Because current treatment options of HFpEF are limited, evaluation of therapies in experimental models of HFpEF with the metabolic syndrome and kidney disease is needed. In this study, we evaluated the effects of captopril, furosemide, and their combination in aged, obese ZSF1 rats, an animal model of HFpEF with the metabolic syndrome ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3028221",
+            "title": "Functional renal insufficiency during long-term therapy with captopril and enalapril in severe chronic heart failure.",
+            "authors": [
+              "Packer M",
+              "Lee W H",
+              "Medina N",
+              "Yushak M",
+              "Kessler P D"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1987",
+            "abstract": "Renal function was evaluated in 104 patients with severe chronic heart failure whom we treated with captopril or enalapril. Seventy patients showed no change or an improvement in renal function (group A), and 34 patients developed functional renal insufficiency (group B). Before converting-enzyme inhibition, group B patients received higher doses of furosemide (p less than 0.02) and had lower central venous pressures (p less than 0.05) than group A patients. After 1 to 3 months of converting-enz",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2523870",
+            "title": "Acute and chronic effects of ramipril and captopril in congestive heart failure.",
+            "authors": [
+              "de Graeff P A",
+              "Kingma J H",
+              "Viersma J W",
+              "Wesseling H",
+              "Lie K I"
+            ],
+            "journal": "International journal of cardiology",
+            "year": "1989",
+            "abstract": "We studied the acute and long-term effects of ramipril and captopril in 12 patients with moderate to severe congestive heart failure using an open, parallel design. Drug doses were titrated. Compared with baseline values, maximal haemodynamic and humoral effects after the first dose of both angiotensin converting enzyme inhibitors were similar, but the effects of ramipril (5 mg) demonstrated a slower onset of action and a significantly longer duration than captopril (12.5 mg). After 3 months of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3539615",
+            "title": "The renal response to neuroendocrine inhibition in chronic heart failure: double-blind comparison of captopril and prazosin.",
+            "authors": [
+              "Bayliss J",
+              "Canepa-Anson R",
+              "Norell M",
+              "Poole-Wilson P",
+              "Sutton G"
+            ],
+            "journal": "European heart journal",
+            "year": "1986",
+            "abstract": "Activation of the renin-angiotensin and sympathetic systems in chronic heart failure causes important renal vasoconstriction. In a double-blind cross-over study, treatment with captopril for one month reduced systemic and renal vascular resistance by 14% and 25%, increased renal blood flow by 12%, and increased the percentage of the cardiac output perfusion to the kidney by 13%. Treatment with prazosin for one month also reduced systemic vascular resistance by 8%, renal vascular resistance incre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18029109",
+            "title": "Captopril to mitigate chronic renal failure after hematopoietic stem cell transplantation: a randomized controlled trial.",
+            "authors": [
+              "Cohen Eric P",
+              "Irving Amy A",
+              "Drobyski William R",
+              "Klein John P",
+              "Passweg Jakob"
+            ],
+            "journal": "International journal of radiation oncology, biology, physics",
+            "year": "2008",
+            "abstract": "To test whether the angiotensin-converting enzyme inhibitor captopril was effective in mitigating chronic renal failure after hematopoietic stem cell transplantation (HSCT).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7030952",
+            "title": "Blood concentration and urinary excretion of captopril (SQ 14,225) in patients with chronic renal failure.",
+            "authors": [
+              "Onoyama K",
+              "Hirakata H",
+              "Iseki K",
+              "Fujimi S",
+              "Omae T"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "1981",
+            "abstract": "Blood concentration and urinary excretion of captopril following 50 mg oral administration were determined by high-performance liquid chromatography in normal subjects and patients with chronic renal failure. In normal subjects, the maximum blood concentration of the free form of captopril was obtained within 1 hour and was not detectable after 6 hours; 41% of administered captopril was excreted into the urine as free form and metabolites within 2 hours, and 58% within 6 hours. In chronic renal ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8102931",
+            "title": "Comparison between carvedilol and captopril in rats with partial ablation-induced chronic renal failure.",
+            "authors": [
+              "Brooks D P",
+              "Short B G",
+              "Cyronak M J",
+              "Contino L C",
+              "DiCristo M"
+            ],
+            "journal": "British journal of pharmacology",
+            "year": "1993",
+            "abstract": "1. The effect of the novel beta-adrenoceptor antagonist and vasodilator, carvedilol (SK&F 105517, approximately 70 mg kg-1 daily in the food), and captopril (approximately 38 mg kg-1 daily in the drinking fluid) on the progression of chronic renal failure in rats was studied. 2. Six weeks following partial renal ablation, the urinary protein excretion of the carvediol- (60 +/- 21 mg day-1) and captopril-treated (35 +/- 9 mg day-1) animals was less than 50% that of control rats (133 +/- 27 mg d-1",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37675925",
+            "title": "Natural angiotensin converting enzyme inhibitors: A safeguard against hypertension, respiratory distress syndrome, and chronic kidney diseases.",
+            "authors": [
+              "Khaled Aya",
+              "Ahmed Esraa",
+              "Mamdouh Mohamed",
+              "Saad Hager",
+              "Mohamed Aya"
+            ],
+            "journal": "Phytotherapy research : PTR",
+            "year": "2023",
+            "abstract": "Hypertension is a serious concern as it is one of the causes of kideny failure and pulmonary fibrosis. An important therapeutic strategy for treating chronic hypertension is to inhibit the angiotensin converting enzyme (ACE). ACE inhibition reduces kidney damage, pulmonary artery pressure, and high blood pressure. Due to their high efficacy and low risk of side effects, natural renin-angiotensin system inhibitors have drawn increasing attention over the past decades. Alkaloids, amino acids, anth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACEI在慢性腎衰竭的機轉：(1) 降低腎小球內壓（efferent arteriole擴張）→減少蛋白尿；(2) 抑制TGF-β介導的腎纖維化；(3) 逆轉腎臟RAAS局部過度活化。腎保護作用為ACEI的核心適應症之一，大量RCT支持（但本資料中未直接捕獲）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "brain small vessel disease 1 with or without ocular anomalies"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "chronic renal failure syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "chronic renal failure syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Captopril",
+        "disease": "chronic renal failure syndrome"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    }
+  ]
+}

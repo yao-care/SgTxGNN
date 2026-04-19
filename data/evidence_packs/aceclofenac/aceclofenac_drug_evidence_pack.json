@@ -1,0 +1,1059 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06736-multi",
+    "version": "v4",
+    "created_at": "2026-04-03",
+    "data_cutoff": "2026-04-03",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Aceclofenac",
+    "drugbank_id": "DB06736",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.9989176988601683,
+        "rank": 2129
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症為 XYLT2 基因突變所致骨骼發育不全合併釉質缺陷的遺傳性疾病；Aceclofenac 作為 COX 抑制劑僅具潛在症狀性鎮痛作用，無任何針對病因的機轉支持。TxGNN 高分可能源於共享肌肉骨骼疾病節點的模型偏差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9988610744476318,
+        "rank": 2248
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GDF5/CDMP1 基因突變導致的體染色體隱性遺傳骨骼發育不全；NSAID 無針對性機轉，僅可能提供輔助鎮痛。KG 高分反映疾病分類鄰近性而非藥物機轉關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "myosclerosis",
+      "txgnn": {
+        "score": 0.9988162517547609,
+        "rank": 2302
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "以肌肉纖維化和硬化為主要病理特徵；Aceclofenac 雖具抗炎作用，但對肌肉纖維化進程無已知修飾效果，缺乏機轉合理性支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9987140893936156,
+        "rank": 2450
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "椎體高度異常減少的遺傳性疾病（多為 TRPV4、PAPSS2 等基因突變）；NSAID 無法影響椎體形態，僅有症狀緩解潛力，機轉關聯極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.998515784740448,
+        "rank": 2727
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "COMP 基因突變導致軟骨寡聚基質蛋白異常累積；為結構性/代謝性疾病，非炎症主導，COX 抑制無法改變病程。可能有輔助鎮痛作用但無再利用價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hypermobility of coccyx",
+      "txgnn": {
+        "score": 0.9968648552894592,
+        "rank": 4739
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "尾骨過度活動引起的局部疼痛；雖然 NSAID 類藥物常用於此症的症狀性鎮痛，但此屬 Aceclofenac 既有適應症的延伸使用而非真正的藥物再利用，且無特定臨床研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn": {
+        "score": 0.9963950514793396,
+        "rank": 5219
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類風濕性關節炎合併系統性血管炎；標準治療為皮質類固醇及 DMARDs/生物製劑。NSAID 在血管炎治療中效果有限且可能加重腎臟和心血管風險，機轉支持薄弱，臨床資料缺失。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn": {
+        "score": 0.996309220790863,
+        "rank": 5302
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05164198",
+            "title": "Multicenter, Prospective Clinical Trial for Optimizing TNF Inhibitor Dose Adjustment in Ankylosing Spondylitis Patients With Stable Disease Activity",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 448,
+            "start_date": "2022-01-15",
+            "completion_date": "2024-10-31",
+            "brief_summary": "Participants maintaining stable disease activity of Ankylosing Spondylitis (AS) with standard-dose tumor necrosis factor inhibitor (TNFi) treatment will randomly split into two groups: maintaining standard-dose TNFi, versus reduced-dose TNFi. The proportion of participants not underwent flare between the two groups will be analyzed.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗主題為 TNF 抑制劑劑量調整，非 Aceclofenac 研究，但確認強直性脊椎炎（屬炎症性脊椎病）的活躍研究環境，間接支持疾病重要性。與藥物再利用目標不直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT02883569",
+            "title": "Randomized Control Trial. Comparative Effectiveness Study for Surgery vs. Non-Surgery in Patients With Low Back Pain",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 1102,
+            "start_date": "2016-09",
+            "completion_date": "2021-12",
+            "brief_summary": "Purpose: Comparative effectiveness research (CER) between surgical and non-surgical treatment for patients with low back pain Hypothesis: There will be significant differences in surgical and non-surgical treatment effect in patients who need operation for herniated intervertebral disc and spinal stenosis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "手術與非手術治療比較研究，規模大（1102人），但研究設計為干預比較，非藥物療效評估，對 Aceclofenac 再利用的直接相關性有限。"
+            }
+          },
+          {
+            "nct_id": "NCT00647517",
+            "title": "Chung Shan Medical University Hospital, Taiwan",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2008-03",
+            "completion_date": "2009-07",
+            "brief_summary": "Tramadol 37.5 mg/APAP 325 mg combination tablets (ULTRACET®) were effective and safe as addon therapy with COX-2 NSAID for treatment of osteoarthritis (5) and chronic low back pain (6).There is no clinical trial regarding tramadol usage in chronic inflammatory arthritis such as rheumatoid arthritis (RA) or ankylosing spondylitis. It would be important to do a pilot clinical trial on add-on effect of tramadol to NSAID in patients with AS or RA.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 已完成試驗，規模雖小（60人），但為台灣機構的完成試驗，可能涉及 Aceclofenac 在炎症性脊椎病的實際臨床評估。完整試驗資料需進一步查閱以確認主要終點和藥物使用情況。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34876850",
+            "title": "A Review of Aceclofenac: Analgesic and Anti-Inflammatory Effects on Musculoskeletal Disorders.",
+            "authors": [
+              "Iolascon Giovanni",
+              "Giménez Sergio",
+              "Mogyorósi Dorottya"
+            ],
+            "journal": "Journal of pain research",
+            "year": "2021",
+            "abstract": "Aceclofenac is an oral non-steroidal anti-inflammatory drug (NSAID) with anti-inflammatory and analgesic properties. Although there are some differences in the authorized indications between countries, aceclofenac is mainly recommended for the treatment of inflammatory and painful processes, such as low back pain (LBP), scapulohumeral periarthritis, extraarticular rheumatism, odontalgia, and osteoarthritis (OA), rheumatoid arthritis (RA), and ankylosing spondylitis (AS). The analgesic properties",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15163279",
+            "title": "Aceclofenac in the management of inflammatory pain.",
+            "authors": [
+              "Legrand Erik"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2004",
+            "abstract": "Aceclofenac (Almirall Prodesfarma SA) is an oral NSAID that is effective in the treatment of painful inflammatory diseases and has been used to treat > 75 million patients worldwide. It has proved as effective as diclofenac, naproxen and piroxicam in patients with osteoarthritis, diclofenac, ketorolac, tenoxicam and indomethacin in patients with rheumatoid arthritis and tenoxicam, naproxen and indomethacin in patients with ankylosing spondylitis. It also provides effective analgesia in other ind",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11511027",
+            "title": "Aceclofenac: a reappraisal of its use in the management of pain and rheumatic disease.",
+            "authors": [
+              "Dooley M",
+              "Spencer C M",
+              "Dunn C J"
+            ],
+            "journal": "Drugs",
+            "year": "2001",
+            "abstract": "Aceclofenac is an orally administered phenylacetic acid derivative with effects on a variety of inflammatory mediators. Through its analgesic and anti-inflammatory properties, aceclofenac provides symptomatic relief in a variety of painful conditions. In patients with osteoarthritis of the knee, the drug decreases pain, reduces disease severity and improves the functional capacity of the knee to a similar extent to diclofenac, piroxicam and naproxen. Aceclofenac reduces joint inflammation, pain ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8799688",
+            "title": "Aceclofenac. A review of its pharmacodynamic properties and therapeutic potential in the treatment of rheumatic disorders and in pain management.",
+            "authors": [
+              "Brogden R N",
+              "Wiseman L R"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "Aceclofenac is a phenylacetic acid derivative with anti-inflammatory and analgesic properties similar to those of diclofenac. However, preclinical studies suggest that the potential of aceclofenac to cause gastrointestinal damage is less than that of diclofenac. Double-blind comparative trials indicate that the efficacy of aceclofenac is at least equivalent to that of ketoprofen and similar to that of indomethacin and diclofenac in patients with rheumatoid arthritis, similar to that of diclofena",
+            "classification": {
+              "study_type": "Pharmacological Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11523298",
+            "title": "[What is the role of aceclofenac in the therapeutic arsenal against chronic osteoarthritis pathologies?].",
+            "authors": [
+              "Reginster J Y",
+              "Paul I",
+              "Henrotin Y"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "2001",
+            "abstract": "The aim of this article is to critically review the potential role of aceclofenac in the treatment of inflammatory pain and chronic osteoarticular disorder, based on its activity on the mediators of inflammation, its effect on cartilage remodeling and on the results of clinical studies comparing aceclofenac with other NSAIDs in these disorders. Aceclofenac has an outstanding anti-inflammatory profile, involving besides a classical inhibition of prostaglandins E2, a decrease in the expression of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22350497",
+            "title": "Non-steroidal anti-inflammatory drugs and gastroprotection with proton pump inhibitors: a focus on ketoprofen/omeprazole.",
+            "authors": [
+              "Gigante Antonio",
+              "Tagarro Ignacio"
+            ],
+            "journal": "Clinical drug investigation",
+            "year": "2012",
+            "abstract": "Non-steroidal anti-inflammatory drugs (NSAIDs) are among the most commonly prescribed agents for rheumatic disorders such as osteoarthritis (OA), rheumatoid arthritis (RA) and ankylosing spondylitis (AS). Despite the known association between NSAID use and gastropathy, however, only around one-third of patients at risk of NSAID-induced gastrointestinal toxicity receive adequate gastroprotection, and as many as 44% of these patients are non-adherent. We review the co-prescription of proton pump i",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8823693",
+            "title": "The efficacy and tolerability of aceclofenac in the treatment of patients with ankylosing spondylitis: a multicenter controlled clinical trial. Aceclofenac Indomethacin Study Group.",
+            "authors": [
+              "Batlle-Gualda E",
+              "Figueroa M",
+              "Ivorra J",
+              "Raber A"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1996",
+            "abstract": "To evaluate the efficacy and tolerability of aceclofenac, a new nonsteroidal antiinflammatory drug, in patients with active ankylosing spondylitis (AS).",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8823692",
+            "title": "Aceclofenac is as safe and effective as tenoxicam in the treatment of ankylosing spondylitis: a 3 month multicenter comparative trial. Spanish Study Group on Aceclofenac in Ankylosing Spondylitis.",
+            "authors": [
+              "Villa Alcázar L F",
+              "de Buergo M",
+              "Rico Lenza H",
+              "Montull Fruitós E"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1996",
+            "abstract": "To compare in a 3 month, multicenter, double blind, parallel study the efficacy and safety of a nonsteroidal antiinflammatory drug, aceclofenac, 100 mg bid orally, with that of tenoxicam, 20 mg orally at bedtime, in the treatment of adult patients with active ankylosing spondylitis (AS).",
+            "classification": {
+              "study_type": "RCT（comparative trial）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31323799",
+            "title": "Optimization of Aceclofenac Proniosomes by Using Different Carriers, Part 1: Development and Characterization.",
+            "authors": [
+              "Sammour Rana M F",
+              "Taher Muhammad",
+              "Chatterjee Bappaditya",
+              "Shahiwala Aliasgar",
+              "Mahmood Syed"
+            ],
+            "journal": "Pharmaceutics",
+            "year": "2019",
+            "abstract": "In the contemporary medical model world, the proniosomal system has been serving as a new drug delivery system that is considered to significantly enhance the bioavailability of drugs with low water solubility. The application of this system can improve the bioavailability of aceclofenac that is used for the relief of pain and inflammation in osteoarthritis, rheumatoid arthritis, and ankylosing spondylitis. The present study is intended to develop an optimized proniosomal aceclofenac formula by ",
+            "classification": {
+              "study_type": "Drug Delivery Research",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11548913",
+            "title": "Iatrogenic cost factors incorporating mild and moderate adverse events in the economic comparison of aceclofenac and other NSAIDs.",
+            "authors": [
+              "Peris F",
+              "Martínez E",
+              "Badia X",
+              "Brosa M"
+            ],
+            "journal": "PharmacoEconomics",
+            "year": "2001",
+            "abstract": "To perform a modelled economic analysis of the efficacy and tolerability of aceclofenac in comparison with those of other nonsteroidal antiinflammatory drugs (NSAIDs) used in the treatment of common arthritic disorders including osteoarthritis, rheumatoid arthritis and ankylosing spondylitis.",
+            "classification": {
+              "study_type": "Health Economics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32598194",
+            "title": "Effect of lipid and edge activator concentration on development of aceclofenac-loaded transfersomes gel for transdermal application: in vitro and ex vivo skin permeation.",
+            "authors": [
+              "Dudhipala Narendar",
+              "Phasha Mohammed Riyaz",
+              "Adel Ali Youssef Ahmed",
+              "Banala Nagaraj"
+            ],
+            "journal": "Drug development and industrial pharmacy",
+            "year": "2020",
+            "abstract": "The present investigation focused mainly on the development of aceclofenac (AF) loaded transfersomal gel (AF-TG) to minimize the frequency of oral dosing during the treatment of osteoarthritis, rheumatoid arthritis and ankylosing spondylitis. AF-loaded transfersomes (AF-TS) were prepared by using the film hydration method. The effect of drug loading, pH of hydration medium, edge activator (EA) and lipid concentration on the properties of the AF-TS were studied and optimized. Optimized AF-TS conv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21175420",
+            "title": "Microencapsulation: an acclaimed novel drug-delivery system for NSAIDs in arthritis.",
+            "authors": [
+              "Manjanna K M",
+              "Shivakumar B",
+              "Pramod Kumar T M"
+            ],
+            "journal": "Critical reviews in therapeutic drug carrier systems",
+            "year": "2010",
+            "abstract": "Arthritis refers to different medical conditions associated with disorders of the primary structures that determine joint functioning, such as bones, cartilage, and synovial membranes. Drug discovery and delivery to retard the degeneration of joint tissues are challenging. Current treatment of different types of arthritis such as osteoarthritis, rheumatoid arthritis, septic arthritis, juvenile idiopathic arthritis, and ankylosing spondylitis involves the administration of nonsteroidal anti-infla",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23192419",
+            "title": "Tramadol/acetaminophen combination as add-on therapy in the treatment of patients with ankylosing spondylitis.",
+            "authors": [
+              "Chang Jhi-Kai",
+              "Yu Chen-Tung",
+              "Lee Ming-Yung",
+              "Yeo Kj",
+              "Chang I-Chang"
+            ],
+            "journal": "Clinical rheumatology",
+            "year": "2013",
+            "abstract": "This study aimed to determine the safety and efficacy of tramadol 37.5 mg/acetaminophen 325 mg combination tablets (Ultracet®) in patients with ankylosing spondylitis (AS). This was a 12-week, randomized, double-blind, placebo-controlled study. Sixty patients with active AS according to the Modified New York Criteria were enrolled. Active disease was defined by Bath Ankylosing Spondylitis Disease Activity Index (BASDAI) for more than 3 at randomization. Subjects were randomized equally into two ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20829199",
+            "title": "ASAS recommendations for collecting, analysing and reporting NSAID intake in clinical trials/epidemiological studies in axial spondyloarthritis.",
+            "authors": [
+              "Dougados Maxime",
+              "Simon Paternotte",
+              "Braun Juergen",
+              "Burgos-Vargas Ruben",
+              "Maksymowych Walter P"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2011",
+            "abstract": "The amount of NSAID intake could be considered as a clinically relevant outcome measure in ankylosing spondylitis. The information should include at least the following: (1) the type of NSAID; (2) the dose; (3) the number of days taking NSAID during the period of interest. The objectives of this initiative were to propose both an NSAID equivalent score and a way of collecting and analysing this information in longitudinal clinical studies/trials. For the NSAID equivalent scoring system, the reco",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10081315",
+            "title": "[Pharma-clinics. The drug of the month. Aceclofenac (Biofenac)].",
+            "authors": [
+              "Scheen A J"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "1999",
+            "abstract": "Aceclofenac, a phenylacetic acid derivative, is a new nonsteroidal anti-inflammatory drug (NSAID). It is indicated in the symptomatic treatment of pain and inflammatory or degenerative arthropathies: osteoarthritis, rheumatoid arthritis, ankylosing spondylitis, abarticular inflammations, posttrauma or postoperative inflammations. The usual oral dosage of aceclofenac is 100 mg twice daily in adults. Its clinical efficacy seems to be similar to that of other NSAIDs, but its safety profile, especia",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32122870",
+            "title": "Efficiency of proteolytic enzymes in treating lumbar spine osteoarthritis (low back pain) patients and its effects on liver and kidney enzymes.",
+            "authors": [
+              "Naeem Hira",
+              "Naqvi Syed Naim-Ul-Hassan",
+              "Perveen Rehana",
+              "Ishaque Farhan",
+              "Bano Raheela"
+            ],
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2020",
+            "abstract": "Lumbar spine osteoarthritis with 40-85% prevalence, degeneration of spine with remarkable narrowing of disc space and osteophytes formation trigger pain in lower back. Pain in lower portion of back is now considered to be the second most commonly treated health issue in primary health care setups. This pain causes disability, functional loss and job absentees. Commonly pain is managed pharmacologically by NSAIDS but resulted in severe gastric side effects. The purpose of this trial was to apprai",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16922973",
+            "title": "Generalized pustular psoriasis precipitated by aceclofenac.",
+            "authors": [
+              "Vergara A",
+              "Arrue I",
+              "Dominuez J D",
+              "Vanaclocha F"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "炎症性脊椎病（含強直性脊椎炎）的核心病理為 COX 介導的前列腺素過度產生，導致脊椎關節炎症和疼痛。Aceclofenac 通過選擇性 COX-2 抑制降低 PGE2 合成，直接對應疾病機轉；其代謝物 4'-hydroxyaceclofenac 額外抑制 IL-1β 和 TNF-α 生成，具有多重抗炎機轉優勢。此為 Aceclofenac 在多國已建立的適應症範疇。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9962912797927856,
+        "rank": 5328
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多關節型幼年型類風濕性關節炎雖具 COX 介導炎症成分，NSAID 類藥物（如 Naproxen、Ibuprofen）確有在 JIA 使用，但 Aceclofenac 在兒科族群無安全性或療效資料。兒科藥物開發需專屬資料支持，不能直接外推成人數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Kummell disease",
+      "txgnn": {
+        "score": 0.9962278604507446,
+        "rank": 5397
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Kummell 病為遲發性椎體壓縮性骨折後骨壞死，病因以血管缺血為主而非炎症。NSAID 可提供症狀性鎮痛，但無任何針對骨壞死機轉的理論基礎，且有研究指出 NSAID 可能抑制骨癒合，使此適應症存在潛在風險疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 17,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aceclofenac",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

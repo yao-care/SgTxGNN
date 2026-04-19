@@ -1,0 +1,576 @@
+```json
+{
+  "drug": "Daunorubicin",
+  "drugbank_id": "DB00694",
+  "analysis_date": "2026-04-04",
+  "global_context": {
+    "drug_class": "Anthracycline抗生素/拓撲異構酶II抑制劑",
+    "known_moa": "DNA嵌入（intercalation）+ 拓撲異構酶II抑制 → DNA雙股斷裂 → 快速增殖細胞凋亡",
+    "known_approved_indications": ["AML（急性骨髓性白血病）", "ALL（急性淋巴性白血病）"],
+    "data_gap_note": "original_indications:[] 及 original_moa:[Data Gap] 為本地資料缺失，非藥物本身無適應症；需特別注意daunorubicin ≠ doxorubicin，雖同為anthracycline但不可直接等同",
+    "market_status_note": "未上市（新加坡）：所有再利用建議須考量藥品引進程序"
+  },
+  "indications": [
+    {
+      "disease_name": "Hodgkins lymphoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "霍奇金淋巴瘤惡性Reed-Sternberg細胞具高增殖活性，對拓撲異構酶II抑制高度敏感。雖標準ABVD方案使用doxorubicin，脂質體daunorubicin（DaunoXome）已在1997年早期臨床評估（PMID 9387047）中用於復發難治性淋巴瘤，提供同類別的直接橋接證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00025064",
+          "relevance_grade": "B",
+          "reasoning": "兒童及青少年霍奇金病Phase 2治療方案，enrollment 260人，化療骨架可能含anthracycline類藥物，適應症直接相關"
+        },
+        {
+          "nct_id": "NCT00736320",
+          "relevance_grade": "B",
+          "reasoning": "HD16 Phase 3早期霍奇金淋巴瘤一線優化試驗，enrollment 1150人，ABVD骨架使用doxorubicin而非daunorubicin，為anthracycline class effect的大型間接證據"
+        },
+        {
+          "nct_id": "NCT01777152",
+          "relevance_grade": "C",
+          "reasoning": "Brentuximab vedotin+CHP vs CHOP Phase 3，enrollment 452人已完成，CHOP含doxorubicin；daunorubicin相關性為間接class推斷"
+        },
+        {
+          "nct_id": "NCT00933985",
+          "relevance_grade": "C",
+          "reasoning": "Obatoclax+anthracycline Phase 1 BCL-2抑制探索，terminated（n=22），規模小且提早終止"
+        },
+        {
+          "nct_id": "NCT03467373",
+          "relevance_grade": "C",
+          "reasoning": "Glofitamab+R/G Phase 1淋巴瘤試驗，enrollment 111人，雙特異性抗體機轉，daunorubicin相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "9387047",
+          "study_type": "Phase 1 / Early Phase 2",
+          "tier": "2",
+          "note": "【關鍵直接證據】脂質體daunorubicin（DaunoXome）評估復發難治性淋巴瘤早期臨床結果（1997），daunorubicin在淋巴瘤的唯一直接臨床數據"
+        },
+        {
+          "pmid": "39413375",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "Nivolumab+AVD vs ABVD Phase 3（2024），確立進展期HL治療格局，doxorubicin骨架，daunorubicin相關性間接"
+        },
+        {
+          "pmid": "29224502",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "Brentuximab+ABVD/AVD Phase 3（2018），最重要HL現代標準試驗，doxorubicin基礎"
+        },
+        {
+          "pmid": "35830649",
+          "study_type": "Phase 3 RCT Follow-up",
+          "tier": "1",
+          "note": "前述ECHELON-1試驗整體存活率長期追蹤（2022），doxorubicin基礎，確立HL治療benchmark"
+        },
+        {
+          "pmid": "28365830",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期霍奇金淋巴瘤最佳治療綜述（2017），提供風險適應、反應適應治療框架背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉關聯。此病症屬罕見遺傳/發育綜合症（可能與VATER/VACTERL或免疫功能異常相關），無化療應用的生物學基礎。TxGNN高分（0.998）可能源於知識圖譜中間接多跳路徑（e.g., 免疫抑制→T細胞→淋巴瘤→daunorubicin）造成的假陽性，建議視為雜訊排除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "神經節神經母細胞瘤為神經母細胞瘤疾病譜系中分化中等的腫瘤，源自神經嵴前驅細胞，具有一定增殖活性。標準神經母細胞瘤化療方案含anthracyclines（doxorubicin），daunorubicin的class effect外推合理。PMID 8255850記錄脊椎神經節神經母細胞瘤對單純化療完全緩解，提供最直接的疾病特異性證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03126916",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3研究131I-MIBG/ALK抑制劑加入神經母細胞瘤強化治療，enrollment 750人，疾病譜相關，化療骨架含anthracyclines"
+        },
+        {
+          "nct_id": "NCT06172296",
+          "relevance_grade": "B",
+          "reasoning": "Dinutuximab加入強化多模式治療Phase 3，enrollment 478人，標準化療骨架含anthracycline，新診斷神經母細胞瘤"
+        },
+        {
+          "nct_id": "NCT02176967",
+          "relevance_grade": "B",
+          "reasoning": "非高危神經母細胞瘤生物學風險因子引導治療Phase 3，enrollment 621人，疾病分類涵蓋ganglioneuroblastoma"
+        },
+        {
+          "nct_id": "NCT01798004",
+          "relevance_grade": "C",
+          "reasoning": "BuMel清髓鞏固治療Pilot Phase 1，enrollment 150人，為誘導化療後鞏固研究，anthracycline應用在前序誘導期"
+        },
+        {
+          "nct_id": "NCT03786783",
+          "relevance_grade": "C",
+          "reasoning": "Ch14.18（Dinutuximab）導入方案Phase 2，n=42，小規模免疫治療研究，化療骨架間接相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8255850",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "【最直接疾病證據】脊椎神經節神經母細胞瘤單純化療完全緩解（1993），確認此腫瘤對化療敏感性"
+        },
+        {
+          "pmid": "31342649",
+          "study_type": "Prospective Clinical Trial",
+          "tier": "2",
+          "note": "JN-L-10前瞻試驗使用影像定義風險因素指導神經節神經母細胞瘤手術（2019），n=相當，治療決策框架相關"
+        },
+        {
+          "pmid": "9396540",
+          "study_type": "Cohort/Pathological Study",
+          "tier": "2",
+          "note": "強化誘導化療後晚期神經母細胞瘤組織病理學結果（1997），化療反應評估提供anthracycline含方案的間接佐證"
+        },
+        {
+          "pmid": "15701990",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "以阻塞性黃疸為表現的神經節神經母細胞瘤（2005），臨床描述，化療相關性間接"
+        }
+      ]
+    },
+    {
+      "disease_name": "neuroblastoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "神經母細胞瘤標準誘導化療（COG方案）含doxorubicin等anthracyclines，daunorubicin的class effect具合理外推基礎。PMID 31239668（2019）直接測試靶向daunorubicin脂質體（pep42靶向修飾）的抗腫瘤轉移效果，提供轉化醫學橋接。多個Phase 3大型試驗確立anthracyclines在神經母細胞瘤中的核心地位。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00567567",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3隨機試驗比較單次vs串聯清髓鞏固用於高危神經母細胞瘤，enrollment 665人（已完成），奠定高危NB標準治療框架"
+        },
+        {
+          "nct_id": "NCT00004188",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3隨機研究純化vs未純化PBSCT用於強化化療後高危NB，enrollment 495人（已完成），重要骨幹試驗"
+        },
+        {
+          "nct_id": "NCT03126916",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 131I-MIBG+ALK抑制劑強化治療NB，enrollment 750人，最大型相關進行中試驗"
+        },
+        {
+          "nct_id": "NCT04947501",
+          "relevance_grade": "B",
+          "reasoning": "N9 Pilot縮短新型誘導化療方案高危NB（早期Phase 1），enrollment 26人，直接針對新藥物組合進入NB誘導治療"
+        },
+        {
+          "nct_id": "NCT00070200",
+          "relevance_grade": "B",
+          "reasoning": "Topotecan加入誘導治療高危NB Phase 1，enrollment 31人，為新藥整合入NB標準方案的設計範本"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31239668",
+          "study_type": "Preclinical / Translational",
+          "tier": "2",
+          "note": "【關鍵直接證據】靶向daunorubicin+dioscin共遞送脂質體抑制腫瘤轉移（2019），直接測試daunorubicin在腫瘤模型的抗轉移效果"
+        },
+        {
+          "pmid": "26276694",
+          "study_type": "Preclinical",
+          "tier": "2",
+          "note": "神經母細胞瘤靶向奈米載體改善anthracycline藥物遞送（2015），技術平台與daunorubicin遞送直接相關"
+        },
+        {
+          "pmid": "25551355",
+          "study_type": "Phase 2 Trial",
+          "tier": "2",
+          "note": "Oxaliplatin+Doxorubicin用於復發/難治性高危NB（2015），確立doxorubicin在復發NB中的臨床活性"
+        },
+        {
+          "pmid": "11573111",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "神經母細胞瘤治療綜述（2001），包含anthracycline-based方案標準介紹，提供歷史框架"
+        },
+        {
+          "pmid": "34998954",
+          "study_type": "Translational",
+          "tier": "2",
+          "note": "miRNA化學增敏研究（miR-99b-5p等）用於高危NB（2022），揭示anthracycline耐藥機制，有助設計聯合方案"
+        }
+      ]
+    },
+    {
+      "disease_name": "ALK-positive large B-cell lymphoma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ALK+大B細胞淋巴瘤（ALK+LBCL）為罕見侵襲性淋巴瘤，由clathrin-ALK、NPM-ALK等融合蛋白驅動，STAT3/JAK3路徑高度活化。標準治療沿用R-CHOP（含doxorubicin），daunorubicin因同類機轉具合理替代性。ALK抑制劑（crizotinib）在此腫瘤已進入臨床評估，與anthracycline聯用具理論基礎（PMID 18755494，16871283）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01606878",
+          "relevance_grade": "B",
+          "reasoning": "Crizotinib+傳統化療用於復發難治性實體腫瘤和NHL Phase 1，enrollment 46人（已完成），直接評估ALK抑制劑在ALK+淋巴瘤的可行性"
+        },
+        {
+          "nct_id": "NCT01979536",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2隨機試驗brentuximab vedotin vs crizotinib用於ALK+ALCL，enrollment 137人（已完成），ALK+淋巴瘤靶向治療重要試驗"
+        },
+        {
+          "nct_id": "NCT00069238",
+          "relevance_grade": "C",
+          "reasoning": "Alemtuzumab+DA-EPOCH用於T/NK細胞淋巴瘤Phase 2，enrollment 31人（已完成），EPOCH含doxorubicin；適應症略有偏差"
+        },
+        {
+          "nct_id": "NCT04231877",
+          "relevance_grade": "C",
+          "reasoning": "Polatuzumab vedotin+化療Phase 1 Pilot，enrollment 56人，化療骨架含anthracycline但非直接daunorubicin，招募中"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "19636007",
+          "study_type": "Case Series / Review",
+          "tier": "2",
+          "note": "ALK+DLBCL臨床病理特徵分析（2009），包含CHOP-based化療反應數據，確立anthracycline在此適應症的基礎使用"
+        },
+        {
+          "pmid": "18755494",
+          "study_type": "Translational",
+          "tier": "2",
+          "note": "Clathrin-ALK融合相關STAT3高度活化機轉（2009），闡明此腫瘤的關鍵訊號路徑，支持化療+ALK抑制劑聯用"
+        },
+        {
+          "pmid": "16871283",
+          "study_type": "Translational",
+          "tier": "2",
+          "note": "5-AZA恢復SHP1表現並下調JAK3/STAT路徑（2006），表觀遺傳修飾與化療協同機轉基礎"
+        },
+        {
+          "pmid": "15921012",
+          "study_type": "Case Report / Review",
+          "tier": "3",
+          "note": "ALK+DLBCL病例報告及文獻複習（2005），化療方案含anthracycline，此罕見適應症的早期文獻證據"
+        },
+        {
+          "pmid": "27012928",
+          "study_type": "Retrospective",
+          "tier": "2",
+          "note": "ALK+ALCL在第一次完全緩解後自體幹細胞移植回顧性研究（2016），提供treatment trajectory與預後背景"
+        }
+      ]
+    },
+    {
+      "disease_name": "adenosarcoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腺肉瘤（Müllerian adenosarcoma）為罕見婦科腫瘤，屬低度惡性混合型腫瘤，去分化後侵襲性增加。文獻支持脂質體doxorubicin（PLD）用於此適應症（PMID 22053671、12648604），CYVADIC方案含doxorubicin用於子宮肉瘤（PMID 15304162）。然而daunorubicin本身無直接臨床數據，且本類腫瘤標準治療尚未確立，evidence base極為薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22053671",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "脂質體doxorubicin（PLD）用於子宮外Müllerian腺肉瘤伴肉瘤性過生長（2011），doxorubicin非daunorubicin，間接class evidence"
+        },
+        {
+          "pmid": "15304162",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "早期子宮肉瘤輔助CYVADIC方案長期隨訪（2004），含doxorubicin為骨架，為anthracycline class effect在子宮肉瘤最強的間接支持"
+        },
+        {
+          "pmid": "12648604",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Müllerian腺肉瘤使用脂質體doxorubicin治療病例（2003），個案報告，相關性間接"
+        },
+        {
+          "pmid": "32546554",
+          "study_type": "Phase 2 RCT",
+          "tier": "1",
+          "note": "Cabozantinib維持治療腺肉瘤Phase 2雙盲隨機研究（2020），非anthracycline，但確立腺肉瘤臨床試驗可行性先例"
+        },
+        {
+          "pmid": "8390963",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "去分化子宮外腺肉瘤對化療有反應（1993），化療方案細節不明，歷史案例"
+        }
+      ]
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腹膜後腫瘤為異質性群體（軟組織肉瘤佔多數，另含淋巴瘤、腎上腺腫瘤等）。Doxorubicin為軟組織肉瘤一線標準（MAID/AI方案），daunorubicin因anthracycline class effect具機轉外推合理性。腹膜後淋巴瘤則直接屬daunorubicin已知適應症譜系（淋巴瘤/白血病）。此適應症的廣泛定義使evidence異質性高，需按病理亞型分層解讀。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00304070",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3腎上腺皮質腫瘤手術+多藥化療，enrollment 78人（已完成），直接針對腹膜後腫瘤的Phase 3試驗"
+        },
+        {
+          "nct_id": "NCT00004123",
+          "relevance_grade": "B",
+          "reasoning": "腹膜後肉瘤術前化放療+術中放療Phase 1，enrollment 36人（已完成），直接針對腹膜後腫瘤"
+        },
+        {
+          "nct_id": "NCT02587169",
+          "relevance_grade": "B",
+          "reasoning": "Nilotinib+Adriamycin（doxorubicin）新輔助治療腹膜後肉瘤Phase 1/2，enrollment 40人，doxorubicin骨架為daunorubicin class的間接支持"
+        },
+        {
+          "nct_id": "NCT00017160",
+          "relevance_grade": "C",
+          "reasoning": "Doxorubicin+ifosfamide新輔助腹膜後肉瘤Phase 2（已撤回），enrollment 0，撤回原因未知但設計仍反映治療思路"
+        },
+        {
+          "nct_id": "NCT03792867",
+          "relevance_grade": "C",
+          "reasoning": "高危腹膜後肉瘤根治切除+HIPEC，n=5，規模極小，相關性有限"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38925814",
+          "study_type": "Retrospective / Case Series",
+          "tier": "2",
+          "note": "MAID方案（含doxorubicin）用於腹膜後肉瘤（2024），最新組合化療數據，doxorubicin作為anthracycline代表"
+        },
+        {
+          "pmid": "12095968",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "局限性肉瘤術前化放療策略綜述（2002），提供腹膜後腫瘤化療整合框架"
+        },
+        {
+          "pmid": "28515258",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "軟組織肉瘤治療演進（2017），doxorubicin在肉瘤中一線地位的完整背景"
+        },
+        {
+          "pmid": "22525406",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "兒童及青少年胰母細胞瘤管理（2012），腹膜後腫瘤亞型之一，化療方案含anthracyclines"
+        },
+        {
+          "pmid": "2288314",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "腹膜後霍奇金病（1990），淋巴瘤型腹膜後腫瘤化療治療案例，相關性間接"
+        }
+      ]
+    },
+    {
+      "disease_name": "small cell lung carcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "小細胞肺癌（SCLC）為高度增殖性神經內分泌腫瘤，對化療敏感。歷史上CAE/CAV方案（含doxorubicin）曾用於SCLC一線治療。PMID 31239668直接報告靶向daunorubicin脂質體的抗腫瘤轉移效果；PMID 20416058確立doxorubicin在SCLC中的caspase-8/TRAIL凋亡機轉。多個Phase 3試驗確立anthracycline在SCLC中的歷史地位，形成較強的間接+部分直接證據基礎。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00003696",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 CAE vs carboplatin/taxol用於SCLC，enrollment 250人，直接確立anthracycline（含doxorubicin）在SCLC一線的歷史地位，為最相關的class evidence"
+        },
+        {
+          "nct_id": "NCT00002822",
+          "relevance_grade": "B",
+          "reasoning": "VICE vs CE Phase 3 SCLC，enrollment 400人（已完成），包含vincristine的完整SCLC標準方案比較"
+        },
+        {
+          "nct_id": "NCT00003606",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 cisplatin+etoposide ± epirubicin+cyclophosphamide用於SCLC，enrollment 216人（已完成），直接比較加入anthracycline的療效"
+        },
+        {
+          "nct_id": "NCT00856037",
+          "relevance_grade": "B",
+          "reasoning": "每週doxorubicin+口服topotecan治療復發/難治性SCLC Phase 1，enrollment 22人（已完成），doxorubicin在SCLC的直接臨床評估"
+        },
+        {
+          "nct_id": "NCT01970540",
+          "relevance_grade": "C",
+          "reasoning": "PM01183+doxorubicin Phase 1多中心試驗，enrollment 122人，doxorubicin骨架，class相關但非直接daunorubicin"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31239668",
+          "study_type": "Preclinical / Translational",
+          "tier": "2",
+          "note": "【關鍵直接證據】靶向daunorubicin+dioscin共遞送脂質體（pep42修飾）抑制腫瘤轉移（2019），daunorubicin在腫瘤模型的直接體外/體內測試"
+        },
+        {
+          "pmid": "20416058",
+          "study_type": "Preclinical",
+          "tier": "2",
+          "note": "Doxorubicin+etoposide sensitize表達caspase-8的SCLC細胞對TRAIL敏感性（2010），確立anthracycline在SCLC的凋亡機轉"
+        },
+        {
+          "pmid": "205153",
+          "study_type": "Historical Clinical Study",
+          "tier": "2",
+          "note": "SCLC治療管理早期研究（1978），含anthracycline化療方案的歷史記錄"
+        },
+        {
+          "pmid": "32224306",
+          "study_type": "Phase 2 Single-arm",
+          "tier": "1",
+          "note": "Lurbinectedin二線治療SCLC開放標籤Phase 2（2020），確立SCLC二線化療可行性，提供治療格局背景"
+        },
+        {
+          "pmid": "12767102",
+          "study_type": "Retrospective",
+          "tier": "2",
+          "note": "【安全性警示】Doxorubicin治療後充血性心衰的回顧性分析（2003），anthracycline心毒性警示，直接影響daunorubicin安全性評估"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary pulmonary lymphoma",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "原發性肺淋巴瘤（PPL）包含MALT淋巴瘤（惰性，多不需化療）和侵襲性B細胞淋巴瘤亞型（R-CHOP/DA-EPOCH為主）。侵襲性PPL化療骨架含doxorubicin，daunorubicin具class effect外推基礎。然而MALT淋巴瘤比例較高（~70%），使整體化療需求降低，限制此適應症的臨床開發優先級。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02911142",
+          "relevance_grade": "B",
+          "reasoning": "Lenalidomide+DA-EPOCH+Rituximab用於原發性CNS/眼淋巴瘤Phase 1/2，enrollment 17人，EPOCH含doxorubicin，與PPL侵襲性亞型治療原則直接相關"
+        },
+        {
+          "nct_id": "NCT01092182",
+          "relevance_grade": "B",
+          "reasoning": "DA-EPOCH±rituximab用於Burkitt淋巴瘤/c-MYC+淋巴瘤Phase 2，enrollment 194人（已完成），EPOCH方案對侵襲性肺淋巴瘤有treatment principle相關性"
+        },
+        {
+          "nct_id": "NCT03226249",
+          "relevance_grade": "B",
+          "reasoning": "PET引導前線pembrolizumab+AVD用於霍奇金淋巴瘤Phase 2，enrollment 30人，PET-adapted方案在肺部淋巴瘤的應用背景"
+        },
+        {
+          "nct_id": "NCT02181738",
+          "relevance_grade": "C",
+          "reasoning": "Nivolumab多隊列Phase 2，enrollment 294人（已完成），免疫治療機轉與daunorubicin不直接相關"
+        },
+        {
+          "nct_id": "NCT00005780",
+          "relevance_grade": "B",
+          "reasoning": "套細胞淋巴瘤idiotype疫苗+EPOCH-rituximab Pilot Phase 2，enrollment 26人，EPOCH骨架相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17934256",
+          "study_type": "Case Report / Literature Review",
+          "tier": "3",
+          "note": "原發性肺部ALCL兩例病例報告（2007），化療（含anthracycline）治療反應的直接適應症記錄"
+        },
+        {
+          "pmid": "22278757",
+          "study_type": "Retrospective / Case Series",
+          "tier": "2",
+          "note": "原發性肺MALT淋巴瘤臨床表現分析（2013），描述PPL最常見類型，確立疾病定義與治療背景"
+        },
+        {
+          "pmid": "30348538",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "VR-CAP vs R-CHOP Phase 3（2018），確立doxorubicin骨架R-CHOP在B細胞淋巴瘤的一線地位"
+        },
+        {
+          "pmid": "16129500",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "原發性心臟淋巴瘤伴肺部腫瘤栓塞化療成功治療（2006），淋巴瘤化療（含anthracycline）在胸腔相關適應症的案例"
+        },
+        {
+          "pmid": "28410600",
+          "study_type": "Case Report / Review",
+          "tier": "3",
+          "note": "原發性腎上腺NHL病例報告（2017），CHOP方案含doxorubicin，結外淋巴瘤anthracycline應用的補充證據"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary blastoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺母細胞瘤（pulmonary blastoma）包含成人型雙相型（罕見，<1% 肺惡性腫瘤）和兒童型胸膜肺母細胞瘤（PPB）。PPB標準化療含vincristine+actinomycin D+cyclophosphamide（VAC），某些協議含anthracyclines。文獻集中無任何daunorubicin直接數據；2個試驗（1個登記研究+1個Phase 3）為PPB整體研究，不特異測試daunorubicin。證據等級極低，不建議優先開發。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01464606",
+          "relevance_grade": "B",
+          "reasoning": "國際PPB治療和生物學登記Protocol，enrollment 156人，此罕見病最重要的自然史與治療資料來源，化療方案含anthracyclines"
+        },
+        {
+          "nct_id": "NCT06647953",
+          "relevance_grade": "B",
+          "reasoning": "I/II/III型PPB前瞻性治療Phase 3，enrollment 110人（招募中），為此適應症進行中最重要的干預性試驗"
+        }
+      ],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": {
+    "priority_tier_1_proceed": [],
+    "priority_tier_2_research_question": [
+      {"disease": "Hodgkins lymphoma", "level": "L3", "stage": "S2", "key_evidence": "PMID 9387047（脂質體daunorubicin Phase 1/2）"},
+      {"disease": "neuroblastoma", "level": "L3", "stage": "S2", "key_evidence": "PMID 31239668（靶向daunorubicin直接測試）+ 多個Phase 3試驗框架"},
+      {"disease": "small cell lung carcinoma", "level": "L3", "stage": "S2", "key_evidence": "PMID 31239668 + NCT00003696 Phase 3 CAE歷史"}
+    ],
+    "priority_tier_3_early_research": [
+      {"disease": "ganglioneuroblastoma", "level": "L3", "stage": "S1", "key_evidence": "PMID 8255850（化療完全緩解案例）"},
+      {"disease": "ALK-positive large B-cell lymphoma", "level": "L3", "stage": "S1", "key_evidence": "NCT01606878 ALK抑制劑+化療試驗"},
+      {"disease": "retroperitoneal neoplasm", "level": "L3", "stage": "S1", "key_evidence": "多個Phase 1/2 doxorubicin骨架試驗"},
+      {"disease": "primary pulmonary lymphoma", "level": "L3", "stage": "S1", "key_evidence": "EPOCH方案相關試驗"}
+    ],
+    "priority_tier_4_hold": [
+      {"disease": "adenosarcoma", "level": "L4", "stage": "S0", "reason": "無daunorubicin直接數據，僅doxorubicin case reports"},
+      {"disease": "pulmonary blastoma", "level": "L4", "stage": "S0", "reason": "無文獻，僅2個PPB一般試驗"},
+      {"disease": "vertebral anomalies and variable endocrine and T-cell dysfunction", "level": "L5", "stage": "S0", "reason": "無任何臨床證據，KG路徑假陽性"}
+    ]
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 核心發現
+
+**Daunorubicin 的關鍵侷限**：本資料集列出的大多數臨床試驗使用的是 **doxorubicin**（ABVD/CHOP/EPOCH 方案），而非 daunorubicin。兩者雖同屬 anthracycline class，但不可直接等同。**直接 daunorubicin 證據**僅有：
+- `PMID 9387047`：脂質體 DaunoXome 評估淋巴瘤（1997）
+- `PMID 31239668`：靶向 daunorubicin 脂質體研究（2019）
+
+### 三個優先研究問題
+
+| 排序 | 適應症 | 建議下一步 |
+|------|--------|-----------|
+| ①  | **神經母細胞瘤** | 在現有 COG 方案中評估 daunorubicin 替代 doxorubicin 的 PK/毒性 Phase 1 |
+| ② | **霍奇金淋巴瘤** | 更新脂質體 daunorubicin 在復發/難治性 HL 的 Phase 2 試驗 |
+| ③ | **小細胞肺癌** | 歷史 CAE 方案現代化評估，結合靶向遞送技術 |
+
+### ⚠️ 安全性共同警示
+所有 anthracycline 適應症均需關注 **PMID 12767102** 所揭示的累積性心毒性風險，建議每個適應症開發計劃中嵌入心毒性監測方案（EF 監測 + 累積劑量上限）。

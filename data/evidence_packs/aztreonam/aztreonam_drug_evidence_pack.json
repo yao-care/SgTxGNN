@@ -1,0 +1,918 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00355-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Aztreonam",
+    "drugbank_id": "DB00355",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hyperamylasemia",
+      "txgnn": {
+        "score": 0.997265100479126,
+        "rank": 4281
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高澱粉酶血症為胰腺或腮腺酵素代謝異常（或腎功能障礙），與 Aztreonam 抗菌機轉無任何生物學合理性關聯。TxGNN 最高分（0.997）可能反映圖譜中非特異性拓撲結構。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn": {
+        "score": 0.997265100479126,
+        "rank": 4282
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多株性高黏滯度症候群因多克隆免疫球蛋白異常增生所致，病理機轉為漿細胞反應性過度活化（如慢性感染、自體免疫），與 Aztreonam 抗菌作用無直接關聯。如伴隨細菌感染，Aztreonam 可能為支持性治療，但不針對此症候群本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital analbuminemia",
+      "txgnn": {
+        "score": 0.9968896508216858,
+        "rank": 4718
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無白蛋白血症為 ALB 基因突變所致的遺傳性蛋白質合成缺陷，與 Aztreonam 抗菌機轉完全無關。注意：Aztreonam 高度蛋白結合率（~56%）在無白蛋白狀態下藥物動力學可能異常，反而增加安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Ureaplasma urethritis",
+      "txgnn": {
+        "score": 0.9959480166435242,
+        "rank": 5646
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 機轉衝突：Ureaplasma spp. 為非典型病原體，缺乏細胞壁肽聚糖（為 β-內醯胺類藥物的作用標靶），對所有 β-內醯胺類抗生素（含 Aztreonam）天然耐藥。TxGNN 高分（0.9959）反映圖譜推論的系統性偏誤，不具臨床意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gonococcal urethritis",
+      "txgnn": {
+        "score": 0.9959480166435242,
+        "rank": 5647
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03867734",
+            "title": "Aztreonam for Pharyngeal Gonorrhea: A Demonstration Study",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 32,
+            "start_date": "2019-04-05",
+            "completion_date": "2019-09-30",
+            "brief_summary": "The Centers for Disease Control and Prevention has identified antimicrobial-resistant (AMR) Neisseria gonorrhoeae (NG) as one of the nation's top three urgent AMR threats. Since the advent of antibiotics in the 1930s, NG has developed resistance to every first-line antibiotic. Parenteral third-generation cephalosporins are now the only class of drug with consistent efficacy against NG. New therapies are urgently needed. Although some novel antimicrobials are under development, reevaluating older",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接針對淋球菌感染的 Phase 2/3 已完成試驗（咽喉型），研究 2g 單劑療法。雖樣本數偏小（n=32），但為直接證據，且已有對應正式發表（PMID 33077658）。設計為 Phase 2/3 合併，統計效力較 Phase 2 單獨設計強。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11406757",
+            "title": "Emergence of cephem- and aztreonam-high-resistant Neisseria gonorrhoeae that does not produce beta-lactamase.",
+            "authors": [
+              "Akasaka S",
+              "Muratani T",
+              "Yamada Y",
+              "Inatomi H",
+              "Takahashi K"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2001",
+            "abstract": "Regarding Neisseria gonorrhoeae, the National Committee for Clinical Laboratory Standards (NCCLS) has not defined the breakpoint minimum inhibitory concentration (MIC) for expanded spectrum cephems such as cefpodoxime and ceftizoxime, because of the absence of resistant strains to these antibiotics. To date, in gonococcal urethritis, after treatment with third generation cephems and aztreonam, clinical failures caused by resistant N. gonorrhoeae strains have not been reported. However, we experi",
+            "classification": {
+              "study_type": "Resistance Surveillance Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33077658",
+            "title": "Single-Arm Open-Label Clinical Trial of Two Grams of Aztreonam for the Treatment of Neisseria gonorrhoeae.",
+            "authors": [
+              "Barbee Lindley A",
+              "Soge Olusegun O",
+              "Ocbamichael Negusse",
+              "LeClair Angela",
+              "Golden Matthew R"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2020",
+            "abstract": "The threat of ceftriaxone-resistant Neisseria gonorrhoeae necessitates new gonorrhea treatment regimens. Repurposing older antibiotics not routinely used for N. gonorrhoeae may expeditiously identify new therapies. Ideally, all recommended therapies should eradicate gonorrhea at the pharynx. Between April and September 2019, we enrolled men in an open-label, one-arm clinical trial of single-dose intramuscular aztreonam (2 g). Enrollment criterion included (i) nucleic acid amplification test (NAA",
+            "classification": {
+              "study_type": "Single-arm Phase 2/3 Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6225808",
+            "title": "Effectiveness of aztreonam, a new monobactam antibiotic, against penicillin-resistant gonococci.",
+            "authors": [
+              "Miller L K",
+              "Sanchez P L",
+              "Berg S W",
+              "Kerbs S B",
+              "Harrison W O"
+            ],
+            "journal": "The Journal of infectious diseases",
+            "year": "1983",
+            "abstract": "Since the recognition of penicillinase-producing strains of N gonorrhoeae (PPNG) in 1976, these organisms have attained a worldwide distribution. The treatment of choice for infection due to PPNG has generally been spectinomycin administered im. In 1981, however, an infection from California was reported to be due to a strain of PPNG that was also resistant to spectinomycin (MIC, greater than 2,048 micrograms/ml) [1]. Throughout 1982, seven such isolates were reported worldwide [2], and in Janua",
+            "classification": {
+              "study_type": "Prospective Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6438364",
+            "title": "[Bacteriological and clinical evaluation of the effect of azthreonam on gonorrheal urethritis in man].",
+            "authors": [
+              "Okazaki T"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1984",
+            "abstract": "Thirty male patients with gonorrheal urethritis were treated with azthreonam at the urological ward of Tokyo Metropolitan Taito Hospital during the period from January to March, 1984, and clinically evaluated. Sixty-one strains of Neisseria gonorrhoeae isolated from the clinical specimens including those of the patients were bacteriologically studied. Of the 61 strains, 9 (15%) were PPNG strains and the other 52 strains were non-PPNG strains. MICs of PCG to the 9 PPNG strains were 3.13--50 micro",
+            "classification": {
+              "study_type": "Clinical Evaluation (RCT-like)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3937450",
+            "title": "[Epidemiologic and therapeutic study on gonorrheal infections--one shot therapy by aztreonam].",
+            "authors": [
+              "Kumamoto Y",
+              "Sakai S",
+              "Tamate H",
+              "Gohro T",
+              "Inoke T"
+            ],
+            "journal": "Hinyokika kiyo. Acta urologica Japonica",
+            "year": "1985",
+            "abstract": "A clinical study of a new monocyclic beta-lactam antibiotic, AZTREONAM (hereafter referred to as AZT) for gonorrheal infections as well as epidemiologic study of gonorrheal infections were made Epidemiology: There was a reflection of the increasing sexual activity of the younger generation; both male and female patients in their twenties were most frequent (male 49.5%, female 43.7%) and the percent of teen age patients was 15.1% (male) and 34.4% (female). Forty two strains (17.2%) out of 244 cli",
+            "classification": {
+              "study_type": "Epidemiological/Therapeutic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3157346",
+            "title": "Effectiveness of aztreonam for the treatment of gonorrhea.",
+            "authors": [
+              "Gottlieb A",
+              "Mills J"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1985",
+            "abstract": "Aztreonam, 1 g intramuscularly, was compared with spectinomycin, 2 g intramuscularly, for uncomplicated gonorrhea. There were no failures with either drug. For aztreonam, there were 26 urethral, 3 rectal, and 3 endocervical sites that were infected. Aztreonam in a single dose of 1 g intramuscularly is satisfactory therapy for uncomplicated urethral gonorrhea in men and may be effective for rectal and endocervical infection as well.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3095216",
+            "title": "Treatment of uncomplicated gonorrhoea with single dose aztreonam.",
+            "authors": [
+              "Evans D T",
+              "Crooks A J",
+              "Jones C",
+              "Holman R A",
+              "Price S W"
+            ],
+            "journal": "Genitourinary medicine",
+            "year": "1986",
+            "abstract": "Infection with Neisseria gonorrhoeae was cleared in 61 men and 26 women at all sites (except in the pharynx of one male bisexual patient with urethral and pharyngeal gonorrhoea) after treatment with aztreonam as a single 1 g intramuscular injection. Aztreonam was well tolerated with no adverse effects. This monobactam antibiotic was effective against both penicillin sensitive and resistant strains.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6226596",
+            "title": "[Study with azthreonam in patients with acute gonococcal urethritis].",
+            "authors": [
+              "Negosanti M",
+              "Patrone P",
+              "Ghetti P"
+            ],
+            "journal": "Giornale italiano di dermatologia e venereologia : organo ufficiale, Societa italiana di dermatologia e sifilografia",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Neisseria gonorrhoeae 為革蘭氏陰性菌，Aztreonam 對其具直接抗菌活性，機轉高度合理。在頭孢菌素耐藥淋球菌（ESBL/MDR）盛行背景下，Aztreonam 作為替代療法具臨床意義。注意：部分菌株已出現 Aztreonam 高度耐藥，需結合當地抗藥性監測數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "blood group incompatibility",
+      "txgnn": {
+        "score": 0.9959185719490052,
+        "rank": 5676
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34956120",
+            "title": "Co-occurrence of bla NDM-1 and mcr-9 in a Conjugative IncHI2/HI2A Plasmid From a Bloodstream Infection-Causing Carbapenem-Resistant Klebsiella pneumoniae.",
+            "authors": [
+              "Liu Zhou",
+              "Hang Xiubing",
+              "Xiao Xiao",
+              "Chu Wenwen",
+              "Li Xin"
+            ],
+            "journal": "Frontiers in microbiology",
+            "year": "2021",
+            "abstract": "Spread of the carbapenemase-encoding and mobilized colistin resistance (mcr) genes among Enterobacteriales poses a great threat to global public health, especially when the both genes are transferred by a single plasmid. Here, we identified a bla NDM-1- and mcr-9-co-encoding plasmid harbored by a clinical isolate of Klebsiella pneumoniae (KPN710429). KPN710429 was recovered from a blood sample from an inpatient in a tertiary hospital in China, and antimicrobial susceptibility testing showed that",
+            "classification": {
+              "study_type": "Observational / Resistance Genomics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血型不相容為抗原-抗體免疫反應，與 Aztreonam 抗菌機轉完全無生物學關聯。唯一文獻（PMID 34956120）為 NDM-1/mcr-9 共存耐藥質體研究，與此適應症無關，屬系統性文獻誤配（false association）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "premalignant hematological system disease",
+      "txgnn": {
+        "score": 0.9954219460487366,
+        "rank": 6142
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血液系統癌前病變（如 MDS、MGUS）為細胞增殖與分化異常，與 Aztreonam 抗菌機轉無已知關聯。需注意：免疫抑制患者使用 Aztreonam 預防性治療有相關文獻，但這屬於原有適應症（機會性感染），而非針對癌前病變本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "epiglottitis",
+      "txgnn": {
+        "score": 0.9953226447105408,
+        "rank": 6219
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3766490",
+            "title": "Aztreonam therapy for serious gram-negative infections in children.",
+            "authors": [
+              "Stutman H R",
+              "Chartrand S A",
+              "Tolentino T",
+              "Friedhoff L",
+              "Marks M I"
+            ],
+            "journal": "American journal of diseases of children (1960)",
+            "year": "1986",
+            "abstract": "Fifty-nine children were enrolled in an open trial of aztreonam, a monocyclic beta-lactam, therapy for serious gram-negative infections. Thirty-six infections were microbiologically evaluable and received five or more days of therapy. Patients' ages ranged from 3 days to 12 years, and diagnoses included pyelonephritis or cystitis (20), deep soft tissue or joint infection (seven), septicemia (four), pneumonia (three), peritonitis, and epiglottitis. Causative bacteria included Escherichia coli and",
+            "classification": {
+              "study_type": "Pediatric Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性會厭炎病原體以 Haemophilus influenzae（革蘭氏陰性）為主，Aztreonam 機轉上可覆蓋 H. influenzae，具部分合理性。然而：(1) 會厭炎亦可由 Streptococcus spp.（革蘭氏陽性）引起，Aztreonam 完全無效；(2) 現行標準治療為第三代頭孢菌素，單用 Aztreonam 覆蓋不完整；(3) 唯一文獻為兒科廣泛革蘭氏陰性菌感染系列，非會厭炎專項研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "monoclonal gammopathy",
+      "txgnn": {
+        "score": 0.9950352907180786,
+        "rank": 6458
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "單株球蛋白症（MGUS）為漿細胞克隆性異常增生，與 Aztreonam 抗菌機轉完全無關。無任何臨床研究或生物學假說支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "xanthogranulomatous pyelonephritis",
+      "txgnn": {
+        "score": 0.9948765635490416,
+        "rank": 6580
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "黃色肉芽腫性腎盂腎炎雖常與革蘭氏陰性菌（E. coli、Proteus mirabilis）慢性感染相關，機轉上 Aztreonam 可覆蓋致病菌，但此疾病以外科治療（腎切除術）為主，抗生素僅輔助角色，且完全缺乏 Aztreonam 於此罕見適應症的任何臨床研究或文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "Ureaplasma urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "gonococcal urethritis"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "epiglottitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Aztreonam",
+        "disease": "xanthogranulomatous pyelonephritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

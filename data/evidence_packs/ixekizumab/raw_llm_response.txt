@@ -1,0 +1,305 @@
+## Ixekizumab (DB11569) 藥物再利用證據分析
+
+**藥物背景說明：** Ixekizumab（Taltz®，Eli Lilly）為高選擇性 IL-17A 單株抗體（Kd ~3 pM），全球已核准用於斑塊型銀屑病、銀屑病性關節炎、強直性脊椎炎及非放射線影像學軸性脊椎關節炎。資料集標記「未上市 / original_indications: []」，可能為當地（新加坡）藥監資料庫缺口，非全球實際狀態。
+
+---
+
+```json
+{
+  "drug": "Ixekizumab",
+  "drugbank_id": "DB11569",
+  "analysis_date": "2026-04-04",
+  "drug_class": "IL-17A monoclonal antibody antagonist",
+  "data_note": "市場狀態標記『未上市』疑為當地藥監資料缺口；Ixekizumab 全球已有多項核准適應症，分析時並入全球臨床證據",
+  "indications": [
+    {
+      "disease_name": "rheumatoid vasculitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "IL-17A 可促進血管內皮細胞活化、嗜中性白血球浸潤及血管壁重塑，在 ANCA 相關血管炎與 RA 相關血管炎中有炎症貢獻。理論上 IL-17A 抑制可減輕血管壁 Th17 驅動的損傷，但此機轉尚屬推測層次，無直接臨床試驗針對 rheumatoid vasculitis 設計。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07138898",
+          "relevance_grade": "C",
+          "reasoning": "試驗主題為類風濕病患全肩關節置換術前後的免疫抑制劑管理，並非評估 Ixekizumab 對 rheumatoid vasculitis 的治療效果；入組族群為廣泛類風濕病患，與本適應症相關性極低。Phase 2，尚未招募，n=80。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IL-17A 在造血微環境中具部分免疫調節角色，理論上可能影響白血病細胞與骨髓基質細胞互動，但此為高度間接推測。目前無任何臨床前模型或臨床數據支持 IL-17A 抑制於 ALL 的療效；TxGNN 高分可能反映淋巴系疾病節點的圖譜拓撲相似性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為 CLL/SLL 特定分子亞型（具 IGHV 體細胞超突變，預後較佳亞群），與 IL-17A 抑制之間無已知生物學關聯。預測分數可能源於 KG 中淋巴腫瘤節點群集效應，不具再利用機轉合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前生發中心 CLL/SLL 亞型（IGHV 未突變，侵襲性較高），與上一 CLL 亞型共享相同 TxGNN 分數（0.9707），顯示預測來自相同圖譜節點聚合，而非個別生物學關聯。IL-17A 抑制於此亞型無機轉基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypermobility of coccyx",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尾骨過度活動為機械性關節不穩定疾患，病理以韌帶鬆弛與骨性結構異常為主，非 IL-17A 驅動的炎症過程。TxGNN 高預測分數（0.969）可能源於脊椎解剖部位節點與炎症性脊椎病節點在 KG 中的鄰近效應，屬圖譜噪訊。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "inflammatory spondylopathy",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "IL-17A 在脊椎關節炎（SpA）發病機制中扮演核心角色：Th17 細胞及 ILC3 於骶髂關節與附著點（enthesis）分泌 IL-17A，驅動 NF-κB 及 MAPK 路徑，造成關節炎症、軟骨損傷與病理性新骨形成（via BMP/Wnt）。Ixekizumab 以高親和力選擇性中和 IL-17A，已在 SPIRIT-P1（PsA）、SPIRIT-P2（PsA）、COAST-V/W（放射線影像學 axial SpA）等多項 Phase 3 RCT 中確立療效。此適應症在全球多國已獲核准，屬已知療效領域。⚠️ 注意：當地核准狀態需另行確認。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07149792",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 多中心 RCT，針對銀屑病合併炎症性脊椎病患者進行個人化精準醫療研究，招募中，n=50。直接相關但規模偏小，結果尚未產出。"
+        },
+        {
+          "nct_id": "NCT04285229",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心隨機雙盲安慰劑對照 16 週試驗，已完成，n=147。直接評估 Ixekizumab 於炎症性脊椎疾病療效，屬核心 pivotal 試驗，具高相關性。"
+        },
+        {
+          "nct_id": "NCT07138898",
+          "relevance_grade": "C",
+          "reasoning": "關節置換術前免疫抑制劑管理研究，非針對炎症性脊椎病治療設計，僅間接反映 Ixekizumab 在風濕病管理中的角色。"
+        },
+        {
+          "nct_id": "NCT02696798",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機雙盲安慰劑對照研究，已完成，n=316。COAST-W 試驗（生物製劑治療失敗的放射線影像學 axial SpA），為核准依據的核心試驗。"
+        },
+        {
+          "nct_id": "NCT02584855",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心研究，36 週開放標籤後接隨機雙盲，已完成，n=394。提供長期安全性與療效維持的重要數據，支持長期用藥。"
+        },
+        {
+          "nct_id": "NCT04527380",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 開放標籤研究，主動招募中，n=101。評估 Ixekizumab 皮下注射劑型的療效、安全性及藥動學，擴展特殊族群（如兒童或不同體重族群）的數據基礎。"
+        },
+        {
+          "nct_id": "NCT07386717",
+          "relevance_grade": "B",
+          "reasoning": "銀屑病性關節炎患者中 Upadacitinib vs IL-17 抑制劑（含 Ixekizumab）的真實世界隊列比較，已完成，n=70。間接支持 IL-17 抑制在 PsA（炎症性脊椎病亞型）中的定位，但非單藥 RCT。"
+        },
+        {
+          "nct_id": "NCT01870284",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 試驗，已撤回且零招募（n=0），無有效數據貢獻，不計入證據評估。"
+        },
+        {
+          "nct_id": "NCT07443956",
+          "relevance_grade": "B",
+          "reasoning": "PsA 中生物製劑合併抗肥胖療法探索性研究，尚未招募，n=45。探索 Ixekizumab 在合併代謝症候群患者中的應用，具臨床意義，但尚屬方案階段。"
+        },
+        {
+          "nct_id": "NCT01695239",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機雙盲主動藥物（adalimumab）及安慰劑對照 24 週研究，已完成，n=417。SPIRIT-H2H 頭對頭試驗，提供 Ixekizumab 相較於現有療法的直接比較證據，為最高層次證據之一。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35791876",
+          "study_type": "Registry Cohort",
+          "tier": "2"
+        },
+        {
+          "pmid": "36847624",
+          "study_type": "Narrative Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "32719044",
+          "study_type": "Review (safety signal)",
+          "tier": "2"
+        },
+        {
+          "pmid": "39875232",
+          "study_type": "Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "38503473",
+          "study_type": "Systematic Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "28551073",
+          "study_type": "RCT Phase 3 (SPIRIT-P2)",
+          "tier": "1"
+        },
+        {
+          "pmid": "30360964",
+          "study_type": "RCT Phase 3 (COAST-V/W)",
+          "tier": "1"
+        },
+        {
+          "pmid": "31563894",
+          "study_type": "RCT Phase 3 Head-to-head (SPIRIT-H2H)",
+          "tier": "1"
+        },
+        {
+          "pmid": "31685553",
+          "study_type": "RCT Phase 3 Pooled 52-week Analysis",
+          "tier": "1"
+        },
+        {
+          "pmid": "31436026",
+          "study_type": "Clinical Practice Guidelines (ACR/SAA/SPARTAN)",
+          "tier": "1"
+        }
+      ]
+    },
+    {
+      "disease_name": "Kummell disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Kummell 病（創傷後椎體骨壞死/延遲性椎體塌陷）為缺血性機械性病因，涉及微血管損傷後的骨壞死，而非 IL-17A 驅動的免疫炎症過程。Ixekizumab 的 IL-17A 抑制機轉與此疾病病理生理學無合理關聯，TxGNN 預測屬脊椎部位節點鄰近效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多關節型幼年特發性關節炎（polyJIA）中 Th17/IL-17A 軸有一定炎症貢獻，機轉上具合理性（同類藥物 Secukinumab 已在附著點炎相關關節炎 ERA 型 JIA 取得 Phase 3 數據）。然而 Ixekizumab 目前無任何 polyJIA 的臨床試驗登錄或文獻，分數雖高（0.964）但缺乏臨床證據支持，需與有據可查的競品策略區分。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "軸性脊椎關節炎（axial SpA）為椎體炎症疾患的核心代表，IL-17A 由 Th17 細胞及 ILC3 在骶髂關節與脊椎附著點局部分泌，驅動椎間盤炎、骨炎及結構損傷（bamboo spine）。COAST 系列完整 Phase 3 RCT（COAST-V n=341 放射線影像學初治；COAST-W n=316 生物製劑治療失敗；COAST-X n=303 非放射線影像學 axial SpA）已建立完整療效與安全性數據。2025 年真實世界研究（n=709，PMID 40701624）進一步驗證臨床有效性。⚠️ 注意：當地核准狀態需另行確認；若已核准，此屬已知適應症而非再利用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04285229",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心隨機雙盲安慰劑對照試驗，已完成，n=147。對應 COAST-X 延伸或非放射線影像學 axial SpA 族群，高度直接相關。"
+        },
+        {
+          "nct_id": "NCT02696798",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機雙盲安慰劑對照研究，已完成，n=316。COAST-W 試驗（生物製劑治療失敗的放射線影像學 axial SpA），為核准依據核心試驗，直接評估椎體炎症治療。"
+        },
+        {
+          "nct_id": "NCT02696785",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機雙盲含主動對照組研究，已完成，n=341。COAST-V 試驗（生物製劑初治放射線影像學 axial SpA），最重要的核准支持 pivotal 試驗之一，直接評估 Ixekizumab 對椎體炎症的療效。"
+        },
+        {
+          "nct_id": "NCT03129100",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 長期延伸研究（104 週），已完成，n=773。整合 COAST-V/W 患者，提供 Ixekizumab 長達兩年的安全性與療效維持數據，為支持長期用藥策略的關鍵依據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38503473",
+          "study_type": "Systematic Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "31436026",
+          "study_type": "Clinical Practice Guidelines (ACR/SAA/SPARTAN 2019)",
+          "tier": "1"
+        },
+        {
+          "pmid": "31436036",
+          "study_type": "Clinical Practice Guidelines (ACR/SAA/SPARTAN 2019 update)",
+          "tier": "1"
+        },
+        {
+          "pmid": "31813637",
+          "study_type": "RCT Phase 3 (COAST-X)",
+          "tier": "1"
+        },
+        {
+          "pmid": "40694276",
+          "study_type": "Clinical Study 2025",
+          "tier": "1"
+        },
+        {
+          "pmid": "36813538",
+          "study_type": "Registry/Cohort Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "40701624",
+          "study_type": "Real-world Cohort Study (n=709)",
+          "tier": "2"
+        },
+        {
+          "pmid": "34407705",
+          "study_type": "Narrative Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "31302784",
+          "study_type": "Review/Expert Opinion",
+          "tier": "3"
+        },
+        {
+          "pmid": "30343531",
+          "study_type": "RCT Phase 3 (16-week radiographic axial SpA)",
+          "tier": "1"
+        }
+      ]
+    },
+    {
+      "disease_name": "fibromatosis, gingival",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牙齦纖維瘤病為遺傳性纖維增生疾患（主要與 SOS1、HRas、REST 等基因突變相關），病理為非炎症性間葉組織過度增殖（膠原沉積）。IL-17A 炎症路徑與此疾病發病機制無已知關聯。TxGNN 預測分數（0.922）可能源於 KG 中結締組織疾病節點群集效應，屬圖譜拓撲噪訊，無生物學合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 總結分析表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **inflammatory spondylopathy** | **L1** | **S3** | ✅ Proceed with Guardrails | 6+ Phase 3 RCT 完成；SPIRIT/COAST 系列；10 篇 Tier 1 文獻 |
+| **vertebral disease** | **L1** | **S3** | ✅ Proceed with Guardrails | 4 項 Phase 3 完成 RCT（n=773 長期延伸）；2025 真實世界 n=709 |
+| **rheumatoid vasculitis** | **L4** | **S1** | 🔬 Research Question | 僅 1 項間接 Phase 2 試驗（Grade C）；機轉合理但無直接證據 |
+| **polyarticular JIA** | **L5** | **S0** | ⛔ Hold | 機轉有理論基礎但零臨床數據；競品已先行 |
+| **acute ALL** | **L5** | **S0** | ⛔ Hold | 無臨床或臨床前證據；機轉高度推測 |
+| **CLL/SLL（兩亞型）** | **L5** | **S0** | ⛔ Hold | 無關聯機轉；KG 圖譜噪訊 |
+| **hypermobility of coccyx** | **L5** | **S0** | ⛔ Hold | 機械性疾患，非炎症病因 |
+| **Kummell disease** | **L5** | **S0** | ⛔ Hold | 缺血性骨壞死，與 IL-17A 無關 |
+| **fibromatosis, gingival** | **L5** | **S0** | ⛔ Hold | 遺傳性纖維增生，非免疫炎症 |
+
+> ⚠️ **重要提示**：`inflammatory spondylopathy` 與 `vertebral disease`（axial SpA）在全球已為 Ixekizumab 核准適應症，S3 建議應優先確認當地（新加坡）藥監核准狀態，再評估是否屬「再利用」或「已核准適應症的應用擴展」。

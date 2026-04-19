@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00565-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cisatracurium",
+    "drugbank_id": "DB00565",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.9999336004257202,
+        "rank": 247
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "馬尾症候群由馬尾神經根受壓所致，需手術減壓治療。Cisatracurium 作為 nAChR 阻斷劑，無已知機制可改善神經根壓迫、髓核突出或椎管狹窄等病因。TxGNN 高分可能反映知識圖譜中脊椎手術場景下的麻醉共現關係，而非治療機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "preeclampsia",
+      "txgnn": {
+        "score": 0.9999206066131592,
+        "rank": 279
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04645719",
+            "title": "Best Dose of Magnesium Sulfate Infusion in Obese. A Blind and Randomized Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 75,
+            "start_date": "2022-04-01",
+            "completion_date": "2025-12-01",
+            "brief_summary": "Magnesium sulfate has been shown to be a successful tool in a large number of clinical areas. Its benefits include neuroprotection, control of eclampsia / pre-eclampsia, control of intraoperative blood pressure, decreased neuroendocrine response during laryngoscopy and tracheal intubation and reduced levels of postoperative pain and consumption of analgesic.\n\nObese patients have become more and more frequent in the operating rooms, due to the increasing prevalence of this population worldwide. H",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究主體為肥胖患者的硫酸鎂劑量優化，非 Cisatracurium 介入。子癲前症為背景疾病，Cisatracurium 可能僅作為麻醉方案的一部分，與目標適應症無直接相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT04003688",
+            "title": "Strategy to Calculate Magnesium Sulfate Dose in Obese Patients. A Randomized and Blind Trial.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 74,
+            "start_date": "2019-08-26",
+            "completion_date": "2020-11-12",
+            "brief_summary": "Magnesium sulfate has been applied in various situations due to actual or potential benefits related to neuroprotection, treatment of eclampsia/pre-eclampsia, arterial hypertension, adrenergic reflex under laryngoscopy/intubation and, shivering, nausea and vomiting, among others. In anesthesia it has been useful as an analgesic adjuvant; however, the method to calculate the dose of magnesium sulfate in obese population is unclear. The objective of this project is to compare two methods of dose c",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已完成試驗，同樣聚焦硫酸鎂劑量計算，與 Cisatracurium 再利用無直接關聯。Cisatracurium 若出現於此研究，僅為麻醉背景用藥。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41103680",
+            "title": "Comparison of Serum Interleukin 6, Leptin, and Adiponectin Levels after Cesarean Section Under General Versus Spinal Anesthesia.",
+            "authors": [
+              "Kareem Oleiwi Atabi Thaer",
+              "Jabbari Ali",
+              "Ebrahimzadeh Parvaneh",
+              "Bader Gazal Hamzeh",
+              "Ghorbani Gholiabad Somayeh"
+            ],
+            "journal": "Anesthesiology and pain medicine",
+            "year": "2025",
+            "abstract": "Inflammatory cytokines negatively impact postoperative reactions and outcomes in abdominal surgeries.",
+            "classification": {
+              "study_type": "Observational/Comparative",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18383970",
+            "title": "[Remifentanil bolus for cesarean section in high-risk patients: study of 12 cases].",
+            "authors": [
+              "Palacio F J",
+              "Ortiz-Gómez J R",
+              "Fornet I",
+              "López M A",
+              "Morillas P"
+            ],
+            "journal": "Revista espanola de anestesiologia y reanimacion",
+            "year": "2008",
+            "abstract": "To evaluate the utility and safety of remifentanil for hemodynamic control during cesarean section in high-risk patients ineligible for spinal anesthesia.",
+            "classification": {
+              "study_type": "Case Series (n=12)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cisatracurium 在子癲前症剖腹產快速序列誘導（RSI）中具合理使用基礎：（1）子癲前症常伴腎功能損害，Hofmann 消除特性使其不受腎功能影響；（2）相較於 succinylcholine，心血管刺激較少，適合血壓不穩的子癲前症患者。然而此為麻醉輔助用途，並非治療子癲前症本身，不屬於再利用範疇。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.9998748302459716,
+        "rank": 414
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經性膀胱涉及自主神經（毒蕈鹼受體 M2/M3）與體神經失調。Cisatracurium 選擇性阻斷神經肌肉接頭 nAChR，理論上可能影響外括約肌張力，但目前無任何臨床或臨床前研究支持此假說。此外，「obsolete」前綴可能代表此疾病概念已被更新的分類取代，研究價值存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9997918009757996,
+        "rank": 636
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偏頭痛病理機制涉及 CGRP 釋放、三叉神經血管系統活化、皮質擴散性抑制等。Cisatracurium 作用位點為周邊神經肌肉接頭，不穿透血腦屏障，無已知機制影響偏頭痛核心病理。TxGNN 預測可能源於麻醉知識圖譜中的間接路徑，屬假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "thrombotic disease",
+      "txgnn": {
+        "score": 0.9997467398643494,
+        "rank": 711
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03902470",
+            "title": "Comparative Study Between Awake Thoracic Epidural Anaesthesia and General Anesthesia for Video Assisted Thoracoscopic Surgery",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2019-05-01",
+            "completion_date": "2021-07",
+            "brief_summary": "Thoracic procedures are routinely performed under general anesthesia (GA), with one lung ventilation (OLV)by double lumen tube or (GA) in spontaneously breathing patient by TIVA or LMA are usually combined with thoracic epidural analgesia.\n\nHowever, GA whether mechanically ventilated or spontaneously breathing may have adverse effects including peri-intubation hypoxia, trauma to the upper airway, mechanical ventilation-induced injuries, impaired cardiac performance, neuromuscular problems in OLV",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "比較胸腔鏡手術麻醉方式（硬膜外 vs. 全身麻醉）的安全性，血栓事件為術後監測指標，非 Cisatracurium 治療血栓的試驗設計。相關性極低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12565113",
+            "title": "Anesthesia care for living-related liver transplantation for infants and children with end-stage liver disease: report of our initial experience.",
+            "authors": [
+              "Djurberg Hans",
+              "Pothmann Facharzt Werner",
+              "Joseph Damien",
+              "Tjan David",
+              "Zuleika Mehrun"
+            ],
+            "journal": "Journal of clinical anesthesia",
+            "year": "2002",
+            "abstract": "To describe our initial experience of the perioperative anesthetic care provided to pediatric recipients during living-related liver transplantation.",
+            "classification": {
+              "study_type": "Retrospective Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血栓性疾病涉及凝血瀑布、血小板活化、纖溶系統等機制。Cisatracurium 無已知抗凝或抗血栓活性。目前有限的間接文獻僅反映外科手術（VATS、肝移植）麻醉場景，而手術後血栓事件是麻醉評估的重要指標，並非藥物治療血栓的證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "irritable bowel syndrome",
+      "txgnn": {
+        "score": 0.9996944665908812,
+        "rank": 812
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IBS 涉及腸道運動異常、內臟過敏、腸-腦軸失調（5-HT、motilin 等途徑）。Cisatracurium 雖可阻斷腸道平滑肌前的神經訊號（理論上），但其高度選擇性針對骨骼肌 nAChR，且系統性應用將導致全身肌肉癱瘓，不適合 IBS 這類慢性非緻命疾病的治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9996938705444336,
+        "rank": 814
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "基底型偏頭痛（現稱腦幹先兆偏頭痛）涉及後循環缺血與腦幹功能異常，屬中樞神經系統病理。Cisatracurium 不穿透血腦屏障，且腦幹受抑制時使用肌鬆劑有加重呼吸抑制的潛在風險。機轉不支持，安全性有顧慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "mild pre-eclampsia",
+      "txgnn": {
+        "score": 0.9995753169059752,
+        "rank": 1031
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "輕度子癲前症通常以藥物控制血壓和監測為主，Cisatracurium 無降壓、抗血管痙攣或胎盤保護機制。輕度患者更不適合使用需要機械通氣支持的 NMBA。與 preeclampsia 母條目相同，此處無獨立臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "severe pre-eclampsia",
+      "txgnn": {
+        "score": 0.9995385408401488,
+        "rank": 1093
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "重度子癲前症的麻醉管理中，Cisatracurium 確有輔助插管使用的臨床基礎（類似 preeclampsia 母條目的分析）。但作為「治療」重度子癲前症的再利用藥物，缺乏機轉支持——重度子癲前症需要的是降壓（labetalol、hydralazine）、預防癲癇（MgSO4）及分娩，而非 NMBA。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "neurocirculatory asthenia",
+      "txgnn": {
+        "score": 0.9994707703590392,
+        "rank": 1198
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經循環性衰弱（Da Costa 症候群）為功能性心血管症候群，症狀包括心悸、呼吸困難、疲勞感，目前認為與自主神經失調有關。Cisatracurium 無心臟自主神經調節機制，且其組織胺釋放作用可能加重心悸等症狀。無機轉合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "preeclampsia"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "preeclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "preeclampsia"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "mild pre-eclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "mild pre-eclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "mild pre-eclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "severe pre-eclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "severe pre-eclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "severe pre-eclampsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cisatracurium",
+        "disease": "neurocirculatory asthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

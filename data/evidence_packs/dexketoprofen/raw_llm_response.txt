@@ -1,0 +1,286 @@
+```json
+{
+  "drug": "Dexketoprofen",
+  "drugbank_id": "DB09214",
+  "analysis_date": "2026-04-04",
+  "drug_class_note": "Dexketoprofen 為 Ketoprofen 的 S(+) 對映異構體，屬 NSAID 類藥物，機轉為抑制 COX-1/COX-2 → 減少前列腺素合成 → 抗炎、鎮痛、解熱。雖 original_moa 標記 [Data Gap]，藥理機轉文獻明確。",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "前列腺素（特別是 PGE2）在偏頭痛發作中促進三叉神經敏感化與顱內血管擴張；Dexketoprofen 抑制 COX-1/COX-2 可中斷此發炎級聯，急性期鎮痛效果有明確藥理基礎。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02159547",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，Dexketoprofen vs Placebo，224 例偏頭痛患者，直接比較，已完成，屬最高相關性試驗。"
+        },
+        {
+          "nct_id": "NCT01730326",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，IV Dexketoprofen vs IV Paracetamol 治療偏頭痛，200 例，已完成，直接頭對頭比較。"
+        },
+        {
+          "nct_id": "NCT04252521",
+          "relevance_grade": "A",
+          "reasoning": "NA Phase RCT，Metoclopramide vs Dexketoprofen Trometamol vs 合併組，150 例偏頭痛，直接評估 Dexketoprofen 效果。"
+        },
+        {
+          "nct_id": "NCT04533568",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，IV Ibuprofen vs IV Dexketoprofen（標題暗示），160 例偏頭痛，已完成。"
+        },
+        {
+          "nct_id": "NCT04372264",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，IV Paracetamol vs Dexketoprofen vs Ibuprofen，VAS 比較，210 例，狀態 UNKNOWN 需注意資料完整性。"
+        },
+        {
+          "nct_id": "NCT04519346",
+          "relevance_grade": "B",
+          "reasoning": "Dexketoprofen 作為系統性治療對照組，非主要研究藥物，但提供間接療效資料。"
+        },
+        {
+          "nct_id": "NCT05780671",
+          "relevance_grade": "B",
+          "reasoning": "補充氧氣 vs 偏頭痛標準治療（含 Dexketoprofen），Dexketoprofen 作為背景標準治療出現。"
+        },
+        {
+          "nct_id": "NCT06061588",
+          "relevance_grade": "C",
+          "reasoning": "VR 技術試驗，Dexketoprofen 僅作為標準對照，與藥物直接評估關聯性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "31725614", "study_type": "Meta-analysis of RCTs", "tier": 1},
+        {"pmid": "41321235", "study_type": "Clinical Practice Guideline (2025 ACEP)", "tier": 1},
+        {"pmid": "25944813", "study_type": "RCT (Dexketoprofen vs Placebo, ED)", "tier": 1},
+        {"pmid": "24394884", "study_type": "RCT (Dexketoprofen vs Paracetamol, ED)", "tier": 1},
+        {"pmid": "32359776", "study_type": "RCT (Metoclopramide vs Dexketoprofen)", "tier": 1},
+        {"pmid": "37291500", "study_type": "Systematic Review / Meta-analysis", "tier": 1},
+        {"pmid": "34085549", "study_type": "RCT (Mesotherapy vs IV Dexketoprofen)", "tier": 2},
+        {"pmid": "25056381", "study_type": "RCT (Frovatriptan + Dexketoprofen)", "tier": 2},
+        {"pmid": "28129702", "study_type": "Narrative Review (Triptans)", "tier": 3},
+        {"pmid": "27757013", "study_type": "Review (Frovatriptan, Dexketoprofen combo)", "tier": 3}
+      ],
+      "evidence_summary": "多項已完成 Phase 4 RCT（n=150-224）、一篇 Meta-analysis、2025 ACEP 急診頭痛治療指引均納入 Dexketoprofen；在急診急性偏頭痛治療中具最高等級臨床證據。"
+    },
+    {
+      "disease_name": "headache disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "與偏頭痛機轉相同，COX 抑制降低前列腺素介導的疼痛敏感化，適用於多類型原發性頭痛（偏頭痛、緊張型頭痛）的急性鎮痛。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01730326",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，偏頭痛（headache disorder 子集），Dexketoprofen 直接評估，已完成。"
+        },
+        {
+          "nct_id": "NCT04252521",
+          "relevance_grade": "A",
+          "reasoning": "直接評估 Dexketoprofen Trometamol 在急性頭痛治療的效果。"
+        },
+        {
+          "nct_id": "NCT04533568",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 頭對頭 RCT，160 例，急性頭痛場景。"
+        },
+        {
+          "nct_id": "NCT04372264",
+          "relevance_grade": "A",
+          "reasoning": "三臂 Phase 4，含 Dexketoprofen 治療頭痛的 VAS 直接測量。"
+        },
+        {
+          "nct_id": "NCT02159547",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，Dexketoprofen vs Placebo，偏頭痛為 headache disorder 主體。"
+        },
+        {
+          "nct_id": "NCT04519346",
+          "relevance_grade": "B",
+          "reasoning": "Dexketoprofen 作為系統性治療對照，150 例頭痛患者。"
+        },
+        {
+          "nct_id": "NCT04193488",
+          "relevance_grade": "B",
+          "reasoning": "神經阻滯 vs 對照（Dexketoprofen 為可能對照藥物）治療頭痛，120 例。"
+        },
+        {
+          "nct_id": "NCT04178252",
+          "relevance_grade": "C",
+          "reasoning": "眼罩/降噪對原發性頭痛的效果，Dexketoprofen 為背景治療，相關性低。"
+        },
+        {
+          "nct_id": "NCT05780671",
+          "relevance_grade": "C",
+          "reasoning": "補充氧氣試驗，Dexketoprofen 為標準照護背景。"
+        },
+        {
+          "nct_id": "NCT06061588",
+          "relevance_grade": "C",
+          "reasoning": "VR 試驗，Dexketoprofen 僅為對照治療組成。"
+        },
+        {
+          "nct_id": "NCT06155669",
+          "relevance_grade": "C",
+          "reasoning": "VR 聽視覺療法試驗，Dexketoprofen 非主要評估標的。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "41321235", "study_type": "Clinical Practice Guideline (2025 ACEP)", "tier": 1},
+        {"pmid": "31725614", "study_type": "Meta-analysis of RCTs", "tier": 1},
+        {"pmid": "37291500", "study_type": "Systematic Review / Meta-analysis", "tier": 1},
+        {"pmid": "25056381", "study_type": "RCT (Frovatriptan + Dexketoprofen)", "tier": 2},
+        {"pmid": "34085549", "study_type": "RCT (IV Dexketoprofen vs Mesotherapy)", "tier": 2},
+        {"pmid": "39063663", "study_type": "Case Series (COVID-19 相關頭痛)", "tier": 3},
+        {"pmid": "40464717", "study_type": "RCT (VR vs Classical Music 緊張型頭痛，含 Dexketoprofen 對照)", "tier": 3},
+        {"pmid": "29616344", "study_type": "Narrative Review (慢性疼痛非類鴉片療法)", "tier": 3},
+        {"pmid": "28129702", "study_type": "Review (Triptans)", "tier": 3},
+        {"pmid": "27757013", "study_type": "Review (Frovatriptan)", "tier": 3}
+      ],
+      "evidence_summary": "headache disorder 涵蓋偏頭痛與緊張型頭痛；偏頭痛部分具 L1 級證據，整體族群因含緊張型頭痛等尚缺乏 Dexketoprofen 專一 RCT，但指引與 meta-analysis 均涵蓋，整體維持 L1，臨床應用需區分頭痛亞型。"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "腦幹先兆型偏頭痛（前稱基底型偏頭痛）屬偏頭痛亞型，前列腺素介導的神經敏感化機轉仍適用；多項 Frovatriptan + Dexketoprofen 組合研究專針對此亞型或先兆型偏頭痛，且 Phase II RCT 存在。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "24412801", "study_type": "Phase II RCT (Dexketoprofen 急性偏頭痛，雙盲)", "tier": 1},
+        {"pmid": "24363238", "study_type": "RCT (Frovatriptan + Dexketoprofen 25mg/37.5mg vs 單藥)", "tier": 1},
+        {"pmid": "24867846", "study_type": "RCT (早期 vs 晚期使用 Frovatriptan + Dexketoprofen)", "tier": 1},
+        {"pmid": "26017535", "study_type": "RCT (1h 前後用藥時機比較)", "tier": 1},
+        {"pmid": "34085549", "study_type": "RCT (IV Dexketoprofen vs Mesotherapy，含先兆型)", "tier": 2},
+        {"pmid": "11155464", "study_type": "Clinical Study (早期急性偏頭痛，2000年)", "tier": 2},
+        {"pmid": "27757013", "study_type": "Review (Frovatriptan + Dexketoprofen 組合)", "tier": 3},
+        {"pmid": "26705251", "study_type": "Erratum（勘誤，參考價值有限）", "tier": 3}
+      ],
+      "evidence_summary": "具 Phase II 雙盲 RCT（PMID 24412801）及多項 Frovatriptan 組合 RCT；腦幹先兆型為罕見亞型，大型 Phase 3 RCT 缺乏，但組合療法（Frovatriptan + Dexketoprofen）有專屬 RCT 支持，定為 L2。"
+    },
+    {
+      "disease_name": "tendinitis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肌腱炎核心病理為前列腺素 E2 介導的局部發炎反應，NSAID 抑制 COX-2 可減少肌腱局部 PGE2，改善疼痛與腫脹；機轉明確，Dexketoprofen 作為高效 NSAID 具合理理論基礎。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "30744914", "study_type": "RCT/Comparative Study (IV Dexketoprofen vs Paracetamol，非創傷性肌肉骨骼痛，急診)", "tier": 2}
+      ],
+      "evidence_summary": "僅 1 篇針對廣義肌肉骨骼痛（包含肌腱炎）的急診比較研究，缺乏肌腱炎專屬臨床試驗；NSAID 類藥物用於肌腱炎屬臨床常規，但 Dexketoprofen 特定的肌腱炎 RCT 缺如，定為 L3。建議設計針對肌腱炎的 Dexketoprofen vs 標準 NSAID RCT。"
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "RA 的關節滑膜炎症與 COX-2 過度表現相關；NSAIDs（包含 Dexketoprofen）可抑制 PGE2 減輕關節疼痛與僵硬，為 RA 症狀管理輔助藥物。然此屬類別外推，無 Dexketoprofen 特定 RA 數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "提供資料中無 Dexketoprofen 治療 RA 的臨床試驗或文獻；類別外推（NSAID class effect）可支持症狀性應用，但作為老藥新用需提供直接臨床證據。需注意長期 NSAID 使用的 GI/CV 風險在 RA 族群尤為重要。"
+    },
+    {
+      "disease_name": "fibromyalgia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "纖維肌痛症主要機轉為中樞敏感化（central sensitization），而非周邊前列腺素炎症；NSAIDs 對中樞敏感化效果有限，機轉關聯弱。相較之下，SNRIs、gabapentinoids 具更佳機轉匹配。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻，且機轉匹配度低。TxGNN 預測分數雖高（0.9988），可能反映廣義肌肉骨骼疼痛的知識圖譜近鄰關係，而非直接生物學機轉。建議維持 Hold 狀態。"
+    },
+    {
+      "disease_name": "myositis fibrosa",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌炎纖維化為慢性纖維化過程，NSAID 的前列腺素抑制機轉主要對急性炎症有效，對纖維化重塑（TGF-β 介導）效果有限，機轉關聯弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻；罕見疾病，缺乏任何 Dexketoprofen 直接臨床證據。TxGNN 評分反映與肌肉骨骼疾病的圖譜相關性，非臨床驗證。"
+    },
+    {
+      "disease_name": "idiopathic granulomatous myositis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肉芽腫性肌炎屬免疫介導疾病，治療主軸為免疫調節（類固醇、DMARDs）；COX 抑制的前列腺素路徑在肉芽腫形成中非主要驅動機轉，Dexketoprofen 機轉關聯極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "極罕見疾病，零臨床試驗、零文獻；TxGNN 評分與 myositis fibrosa 相同（0.998772），疑為共同知識圖譜節點推斷，非獨立臨床信號。"
+    },
+    {
+      "disease_name": "exostosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨疣（exostosis）為骨性增生結構問題，NSAID 可緩解繼發性疼痛但無法影響骨質增生病理；Dexketoprofen 在此缺乏修飾疾病機轉，僅有症狀緩解潛力，且無臨床證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻；機轉為間接症狀緩解（非疾病修飾）。建議 Hold，如需鎮痛應用可作為一般 NSAID 類別使用，無需老藥新用研究架構。"
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛症合併粟粒疹（congenital hypotrichosis milia）為遺傳性皮膚發育異常，與毛囊/皮膚附屬器發育基因相關；COX 抑制無已知的毛囊或囊腫發育修飾機轉，機轉關聯不明。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻；疾病機轉與 NSAID 藥理作用無合理交集。TxGNN 高分（0.998）可能為圖譜中皮膚疾病節點的誤導性聚類。強烈建議 Hold，排除為假陽性預測。"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "disease_name": "migraine disorder",
+        "rationale": "L1 級最高證據，多項已完成 Phase 4 RCT + Meta-analysis + 2025 ACEP 指引納入，急診急性偏頭痛治療具強力臨床支持。"
+      },
+      {
+        "disease_name": "headache disorder",
+        "rationale": "與偏頭痛高度重疊，L1 級，急診應用廣泛，需注意亞型區分（偏頭痛 vs 緊張型頭痛）。"
+      },
+      {
+        "disease_name": "migraine with brainstem aura",
+        "rationale": "L2 級，Phase II RCT + 多項 Frovatriptan 組合 RCT，亞型特異性藥物組合應用有潛力。"
+      }
+    ],
+    "research_candidates": [
+      "tendinitis（L3，需設計肌腱炎專屬 RCT）",
+      "rheumatoid arthritis（L4，需 Dexketoprofen 特定 RA 輔助治療研究）"
+    ],
+    "low_priority_hold": [
+      "fibromyalgia（機轉不匹配）",
+      "myositis fibrosa（罕見，零證據）",
+      "idiopathic granulomatous myositis（極罕見，零證據）",
+      "exostosis（症狀緩解非疾病修飾）",
+      "congenital hypotrichosis milia（機轉無關聯，疑假陽性）"
+    ],
+    "safety_considerations": "Dexketoprofen 為 NSAID，高優先指標應用時需注意：GI 出血風險（特別是急診靜脈給藥）、腎功能影響、心血管風險（長期使用）；急性偏頭痛急診使用通常為短期單次給藥，安全性輪廓相對可接受。",
+    "disclaimer": "⚠️ 本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經正式臨床驗證後方可應用於臨床實務。"
+  }
+}
+```
+
+---
+
+## 摘要說明
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|---------|---------|------|---------|
+| **migraine disorder** | **L1** | **S3** | **Proceed** | 8個Phase 4 RCT + Meta-analysis + 2025 ACEP指引 |
+| **headache disorder** | **L1** | **S3** | **Proceed** | 12個試驗，與偏頭痛高度重疊，指引支持 |
+| **migraine with brainstem aura** | **L2** | **S2** | **Proceed** | Phase II RCT + 4項Frovatriptan組合RCT |
+| **tendinitis** | L3 | S1 | Research Question | 1篇肌肉骨骼痛RCT（間接證據） |
+| **rheumatoid arthritis** | L4 | S1 | Research Question | 類別外推，無特定Dexketoprofen+RA數據 |
+| **fibromyalgia** | L5 | S0 | Hold | 機轉不匹配（中樞敏感化非COX路徑） |
+| **myositis fibrosa** | L5 | S0 | Hold | 零臨床證據 |
+| **idiopathic granulomatous myositis** | L5 | S0 | Hold | 零臨床證據，免疫調節為治療主軸 |
+| **exostosis** | L5 | S0 | Hold | 結構性問題，NSAID無疾病修飾效果 |
+| **congenital hypotrichosis milia** | L5 | S0 | Hold | 無機轉關聯，疑假陽性預測 |

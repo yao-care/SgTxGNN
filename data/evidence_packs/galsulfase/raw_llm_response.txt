@@ -1,0 +1,160 @@
+## Galsulfase (DB01279) 藥物再利用證據分析
+
+### 背景說明
+
+**Galsulfase** 為重組人類 N-acetylgalactosamine-4-sulfatase（芳基硫酸酯酶 B, ARSB），FDA 已核准用於 **MPS VI（Maroteaux-Lamy syndrome）**，透過降解 dermatan sulfate 達到治療效果。本資料顯示 `original_indications: []` 為資料缺口——其真實適應症應為 MPS VI。
+
+---
+
+⚠️ **模型預測品質警示**：前 9 項眼科相關預測分數高度聚集（0.9748–0.9789），差距僅 0.004，且全數為零臨床試驗與零文獻，高度懷疑為 TxGNN 知識圖譜拓撲效應（MPS VI 患者存在眼部症狀 → 圖譜中與各眼科節點統計連結，非真實因果機轉）。
+
+---
+
+```json
+{
+  "drug": "Galsulfase",
+  "drugbank_id": "DB01279",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "original_indications 欄位為空，實際 FDA 核准適應症為 MPS VI，屬資料缺口",
+    "前 9 項預測分數極度聚集（range=0.0041），疑為知識圖譜拓撲產生的 cluster artifact",
+    "市場狀態「未上市」可能影響本地法規可行性評估"
+  ],
+  "indications": [
+    {
+      "disease_name": "ptosis-strabismus-ectopic pupils syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼瞼下垂、斜視與瞳孔異位為先天性神經肌肉或結構性缺陷，非 GAG 積累所致。Galsulfase 降解 dermatan sulfate 的機轉無法解決神經發育性結構問題。高 TxGNN 分數（0.979）可能反映 MPS VI 患者有眼部症狀而在知識圖譜中形成統計關聯，非因果機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼直肌纖維化屬先天性肌肉發育異常，病因非 dermatan sulfate 積累。雖 GAG 可影響結締組織，但此症候群的纖維化機轉與 ARSB 缺乏無關，無可行機轉基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital Horner syndrome (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性 Horner 症候群因交感神經通路先天性損傷（頸動脈異常、臂叢損傷等）所致，為神經解剖學問題。Galsulfase 為酵素替代療法，無法修復神經結構損傷，機轉連結不成立。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ptosis-vocal cord paralysis syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此症候群涉及神經肌肉功能障礙（聲帶麻痺合併眼瞼下垂），為神經性病因。與 Galsulfase 的 GAG 代謝矯正機轉無關聯，無任何臨床或前臨床支持數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "複合先天性眼眶與淚道發育缺陷，屬胚胎發育異常所致的解剖結構問題。Galsulfase 無法矯正先天性器官發育缺失（淚點缺如），機轉連結不存在。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "jaw-winking syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Marcus Gunn jaw-winking syndrome 為先天性三叉神經-動眼神經異常突觸連接（synkinesis），屬神經發育異常。Galsulfase 的酵素替代機轉無法解決神經連接錯誤，兩者無生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital entropion",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性睫毛內翻為眼瞼結構異常，通常需手術矯正。雖 MPS 患者可因 GAG 積累間接影響眼眶軟組織，但先天性睫毛內翻為非代謝性結構缺陷，ERT 介入無合理依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "epiblepharon",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眼瞼重褶（epiblepharon）為眼瞼皮膚與眼輪匝肌過多所致的先天性解剖問題，好發於東亞兒童，與代謝性酵素缺乏無關。Galsulfase 無任何機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital ectropion",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性睫毛外翻屬眼瞼結構性缺陷，常與染色體異常（如 Down syndrome）或眼瞼發育不良相關。與 dermatan sulfate 代謝障礙無因果關係，Galsulfase 介入無機轉基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Scheie syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Scheie 症候群為 MPS I 輕型（alpha-L-iduronidase 缺乏，dermatan/heparan sulfate 積累）；Galsulfase 針對 MPS VI（N-acetylgalactosamine-4-sulfatase 缺乏）。兩者同屬黏多醣症（MPS）、均為 GAG 積累性溶酶體儲積症，具同類藥物（ERT）概念類比價值，但酵素基質特異性不同，MPS I 標準治療為 Laronidase（Aldurazyme）而非 Galsulfase。現有文獻為 MPS 類 ERT 整體綜述，不支持 Galsulfase 跨亞型應用於 MPS I。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22210671",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "MPS 整體治療綜述，涵蓋各亞型 ERT 原理；提及 MPS I（Laronidase）與 MPS VI（Galsulfase）各有特定 ERT，不支持跨亞型使用"
+        },
+        {
+          "pmid": "21211680",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "溶酶體儲積症 ERT 德語綜述，間接提供 MPS 類 ERT 概念框架，非 Galsulfase 用於 Scheie 之直接證據"
+        },
+        {
+          "pmid": "20040314",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "MPS ERT 管理綜述，明確區分各亞型應使用對應酵素；隱含 Galsulfase 不適用於 MPS I"
+        },
+        {
+          "pmid": "20040319",
+          "study_type": "Cohort",
+          "tier": "2",
+          "relevance_note": "ERT 輸注反應管理佇列研究，納入多種 MPS 亞型患者；提供 Galsulfase 安全性側寫，但無 MPS I/Scheie 使用 Galsulfase 之數據"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+### 綜合評估摘要
+
+| 適應症群組 | 數量 | 證據等級 | 決策階段 | 建議 |
+|-----------|:----:|:-------:|:-------:|:----:|
+| 先天性眼科結構/神經性疾病（群聚預測） | 9 | **L5** | S0 | ❌ Hold |
+| Scheie syndrome（MPS I 輕型） | 1 | **L4** | S0 | ⚠️ Hold |
+
+### 關鍵發現
+
+1. **模型 artifact 識別**：前 9 項眼科預測呈現罕見的高度分數聚集現象（σ < 0.002），且全為零證據，強烈提示為 KG 圖譜中 MPS VI 眼部表現節點的統計溢出，**非真實再利用信號**，建議從候選清單移除。
+
+2. **Scheie syndrome 的特殊性**：雖同屬 MPS 家族，但 **酵素基質特異性**是 ERT 的核心原則——Galsulfase 不能替代 Laronidase。若未來研究顯示 dermatan sulfate 降解對 MPS I 有輔助療效（dual substrate overlap），可作為研究假說，但現階段無支持證據。
+
+3. **資料缺口警示**：`original_indications: []` 及 `original_moa: "[Data Gap]"` 為顯著資料品質問題，建議在預測管線中補全 Galsulfase 的已知 MPS VI 適應症，以改善模型校準。
+
+> ⚕️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴格臨床驗證方可應用於患者。

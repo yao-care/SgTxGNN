@@ -1,0 +1,191 @@
+## 🔬 Gadoteric acid (DB09132) 藥物再利用證據分析
+
+在輸出 JSON 分析前，有一個**關鍵發現**需要先說明：
+
+---
+
+### ⚠️ 重要前置判斷
+
+**Gadoteric acid（Gd-DOTA，Dotarem/Clariscan）是核磁共振（MRI）釓基顯影劑（GBCA），而非治療性藥物。**
+
+| 項目 | 說明 |
+|------|------|
+| **藥理機轉** | 順磁性 Gd³⁺ 縮短 T1/T2 弛豫時間 → 增強 MRI 影像對比 |
+| **實際上市狀態** | 在美（2013 FDA）、EU、台灣等多國已核准，「未上市」應為新加坡/當地資料庫缺漏 |
+| **TxGNN 預測偏差來源** | 知識圖譜中大量「Gd-DOTA 用於診斷骨關節/肌肉骼疾病」的 MRI 研究，導致模型誤將診斷共現視為治療關聯 |
+| **安全性顧慮** | 腎源性全身纖維化（NSF）、組織釓沉積 |
+
+---
+
+```json
+{
+  "drug_summary": {
+    "drug": "Gadoteric acid",
+    "drugbank_id": "DB09132",
+    "drug_class": "MRI 釓基顯影劑 (GBCA)",
+    "critical_note": "本藥為診斷性顯影劑，非治療藥物。TxGNN 高分預測極可能源於知識圖譜中診斷性共現關係，建議全面審慎對待所有預測結果。"
+  },
+  "indications": [
+    {
+      "disease_name": "osteoarthritis",
+      "txgnn_score": 0.9857,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理治療機轉。Gd-DOTA 用於 MRI 評估骨關節炎軟骨/滑膜損傷（dGEMRIC 技術），為診斷應用，非治療。TxGNN 高分係診斷共現偽信號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn_score": 0.9839,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "遺傳易感性研究領域，顯影劑無治療角色。純屬計算預測偽信號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9821,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有2篇文獻（1990, 1992）均為【診斷性影像研究】，記錄 Gd-DOTA 在 RA 發炎滑膜的攝取特性以評估疾病活動度，並非治療目的。滑膜對 Gd-DOTA 的高攝取雖間接顯示藥物可到達炎症部位，但無任何治療效益數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1727317",
+          "title": "Juvenile rheumatoid arthritis of the knee: MR evaluation with Gd-DOTA.",
+          "year": "1992",
+          "study_type": "Diagnostic Imaging Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "本研究為診斷性影像評估，記錄 Gd-DOTA 增強 MRI 用於幼年型 RA 評估。與治療性再利用無關，屬診斷工具驗證研究，不構成治療證據。"
+        },
+        {
+          "pmid": "2115261",
+          "title": "MR imaging of the knee in acute rheumatoid arthritis: synovial uptake of gadolinium-DOTA.",
+          "year": "1990",
+          "study_type": "Diagnostic Imaging Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "記錄急性 RA 膝關節滑膜攝取 Gd-DOTA 的 MRI 特徵，目的為影像診斷生物標記研究，非治療研究。無法作為再利用證據。"
+        }
+      ],
+      "confidence_flag": "LITERATURE_MISCLASSIFIED_DIAGNOSTIC"
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9779,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偽軟骨發育不全為 COMP 基因突變所致骨骼發育異常，顯影劑無治療機轉。純計算預測，無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "hepatic porphyria",
+      "txgnn_score": 0.9772,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝性紫質症為血紅素合成酶缺陷疾病。Gd-DOTA 無相關治療機轉，且有報告指出重金屬螯合物可能誘發卟啉危象，存在潛在安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "POTENTIAL_SAFETY_CONCERN"
+    },
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.9765,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "痛風為尿酸代謝疾病，Gd-DOTA 用於 MRI 評估痛風石沉積（診斷工具），無治療尿酸路徑機轉。典型診斷共現偽信號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9762,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短脊症為罕見遺傳性骨骼發育異常，無已知顯影劑治療機轉。預測可信度極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9748,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "GDF5 基因突變導致的骨骼發育不全，為遺傳性疾病，顯影劑無合理治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9738,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌肉硬化症為肌肉/結締組織纖維化疾病，MRI 為標準評估工具（故有診斷共現），但顯影劑本身無抗纖維化治療作用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9737,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "複合遺傳症候群（骨骼+牙釉質發育異常），無已知顯影劑治療路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "confidence_flag": "FALSE_POSITIVE_RISK_HIGH"
+    }
+  ],
+  "overall_assessment": {
+    "summary": "Gadoteric acid 作為 MRI 顯影劑，其所有 10 項 TxGNN 預測適應症均評定為 L5/S0/Hold。",
+    "root_cause_of_high_scores": "TxGNN 知識圖譜中存在大量『Gd-DOTA 用於診斷骨骼/關節/肌肉疾病的 MRI 影像研究』，模型誤將診斷性共現關係轉化為治療性關聯信號，屬系統性假陽性偏差。",
+    "safety_considerations": [
+      "釓沉積症（Gadolinium Deposition Disease）：長期腦部/骨骼釓沉積",
+      "腎源性全身纖維化（NSF）：腎功能不全患者禁用",
+      "過敏反應：急性過敏反應風險",
+      "肝性紫質症患者額外安全顧慮"
+    ],
+    "recommendation_for_pipeline": "建議將此案列為 TxGNN 診斷藥物誤判的標準案例，用於模型校正。顯影劑類藥物（GBCAs、碘造影劑等）應考慮在再利用預測管線中單獨處理或排除，避免診斷共現偏差污染治療性預測結果。",
+    "exception_note": "唯一潛在非常規研究方向：Gd-DOTA 靶向遞送（theranostics）概念，但此屬全新開發而非再利用，且目前無 Gadoteric acid 相關的治療性臨床前研究。"
+  }
+}
+```
+
+---
+
+### 📊 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 主要問題 |
+|--------|----------|----------|------|----------|
+| Osteoarthritis | L5 | S0 | ❌ Hold | 診斷共現偽信號 |
+| OA Susceptibility | L5 | S0 | ❌ Hold | 純預測 |
+| **Rheumatoid Arthritis** | **L5** | **S0** | **❌ Hold** | **文獻為診斷影像研究** |
+| Pseudoachondroplasia | L5 | S0 | ❌ Hold | 遺傳病，無機轉 |
+| Hepatic Porphyria | L5 | S0 | ❌ Hold | 潛在安全顧慮 |
+| Gout | L5 | S0 | ❌ Hold | 診斷共現偽信號 |
+| Brachyolmia | L5 | S0 | ❌ Hold | 罕見遺傳病 |
+| AMD Hunter-Thompson | L5 | S0 | ❌ Hold | 遺傳病，無機轉 |
+| Myosclerosis | L5 | S0 | ❌ Hold | 診斷共現偽信號 |
+| Brachyolmia-AI Synd. | L5 | S0 | ❌ Hold | 複合遺傳症候群 |
+
+> **⚠️ 本案核心結論**：Gadoteric acid 的所有高分預測為**系統性假陽性**，根本原因在於 KG 中診斷性影像應用與疾病的強關聯。建議將顯影劑類藥物加入再利用管線的**排除清單或特殊分類**，以防止此類偏差污染後續臨床決策。

@@ -1,0 +1,919 @@
+```json
+{
+  "drug": "Cyclophosphamide",
+  "drugbank_id": "DB00531",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Cyclophosphamide 為經典烷化劑，雖原始 MoA 標記為 [Data Gap]，其藥理機制明確：由肝臟 CYP2B6/CYP3A4 活化為磷醯胺氮芥（phosphoramide mustard），形成 DNA 鏈內與鏈間交聯，抑制 DNA 複製，並具劑量依賴性免疫抑制效果。本品在目標市場標示為「未上市」，以下所有適應症均作為再利用候選評估。",
+  "indications": [
+    {
+      "disease_name": "myeloid leukemia",
+      "txgnn_score": 0.9947,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclophosphamide 活化後之磷醯胺氮芥對快速增殖的骨髓母細胞具強力細胞毒性（DNA 雙鏈交聯），並作為移植前骨髓清除性預處理（Bu-Cy / BUCY 方案）核心藥物，兼具免疫抑制預防移植排斥與 GvHD。",
+      "guardrails": [
+        "監測膀胱毒性（出血性膀胱炎，需 Mesna 保護）",
+        "長期使用需追蹤繼發性 MDS/AML 風險",
+        "生育功能影響需提前諮詢"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00002549",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT 直接比較 AML 誘導方案（ICE vs MICE vs DCE），入組 1520 人，為骨髓白血病最直接之 Phase 3 證據，Cyclophosphamide 為 MCE/MICE 方案核心成分"
+        },
+        {
+          "nct_id": "NCT05823714",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 研究探討 Venetoclax+Azacytidine 序貫 Modified BUCY（Busulfan-Cyclophosphamide）預處理用於高危 MDS/AML，70 人入組，直接驗證 Cy 在骨髓性惡性腫瘤移植預處理中的角色"
+        },
+        {
+          "nct_id": "NCT05126849",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 研究移植後 Cyclophosphamide（PTCy）於單倍相合 HSCT 用於血液腫瘤（含 AML），正在招募中，31 人，代表 PTCy 作為新型 GvHD 預防策略的前沿應用"
+        },
+        {
+          "nct_id": "NCT00005892",
+          "relevance_grade": "B",
+          "reasoning": "已完成之非分期研究，直接以 Cyclophosphamide 加放療作為同種異體骨髓移植預處理，支持 Cy 在骨髓移植前處理的歷史證據基礎"
+        },
+        {
+          "nct_id": "NCT06786533",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 Anti-FLT3 CAR-T 研究（FLT3 突變常見於 AML），使用 Cy 作為淋巴清除預處理，間接支持 Cy 在 AML 細胞治療輔助中的應用"
+        },
+        {
+          "nct_id": "NCT03007147",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 針對 Ph+ 急性淋巴母細胞白血病（非骨髓性），方案中雖含 Cy 但主要疾病類型不符"
+        },
+        {
+          "nct_id": "NCT03152526",
+          "relevance_grade": "C",
+          "reasoning": "已終止，實際入組僅 1 人，證據效力極低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40434956",
+          "study_type": "Head-to-head 比較研究（Bu-Cy vs Flu-Bu）",
+          "tier": "1",
+          "year": "2025"
+        },
+        {
+          "pmid": "38499049",
+          "study_type": "Phase 2 Clinical Trial（Cladribine+Bu+Cy 強化療法）",
+          "tier": "1",
+          "year": "2024"
+        },
+        {
+          "pmid": "40437709",
+          "study_type": "Retrospective Cohort（預處理強度對 AML 存活影響）",
+          "tier": "2",
+          "year": "2025"
+        },
+        {
+          "pmid": "35955881",
+          "study_type": "Retrospective Cohort（PTCy 後 matched/unrelated donor HSCT）",
+          "tier": "2",
+          "year": "2022"
+        },
+        {
+          "pmid": "38466265",
+          "study_type": "Retrospective Cohort（單倍相合移植 PTCy 預後因子）",
+          "tier": "2",
+          "year": "2024"
+        },
+        {
+          "pmid": "39939431",
+          "study_type": "Retrospective Cohort（細胞遺傳學風險驅動預處理強度）",
+          "tier": "2",
+          "year": "2025"
+        },
+        {
+          "pmid": "40905088",
+          "study_type": "Retrospective Cohort（AML 基因風險分類與 HCT）",
+          "tier": "2",
+          "year": "2026"
+        },
+        {
+          "pmid": "25345651",
+          "study_type": "Cohort Study（Cy/Flu 非骨髓清除性移植）",
+          "tier": "2",
+          "year": "2015"
+        },
+        {
+          "pmid": "32857869",
+          "study_type": "Review/Cohort（PTCy 時代 NK 細胞異體反應性）",
+          "tier": "2",
+          "year": "2020"
+        },
+        {
+          "pmid": "5274229",
+          "study_type": "Early Review（1970 年代歷史文獻）",
+          "tier": "3",
+          "year": "1970"
+        }
+      ]
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.9943,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ganglioneuroblastoma 為介於神經母細胞瘤（neuroblastoma）與神經節瘤（ganglioneuroma）之間的神經嵴衍生腫瘤。Cyclophosphamide 之 DNA 烷化機制對 MYCN 擴增驅動的快速增殖神經芽細胞具細胞毒性，在神經母細胞瘤標準化療方案（含 Cy+Topotecan 組合）中具重要角色，機制外推至 ganglioneuroblastoma 具合理性。",
+      "key_concern": "Ganglioneuroblastoma 與 neuroblastoma 雖有病理連續性，但現有 Phase 3 試驗主要針對高危神經母細胞瘤，直接 ganglioneuroblastoma 之 RCT 缺乏；現有文獻多為個案報告或小型系列。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07437963",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2 研究直接採用 Dinutuximab + Cyclophosphamide + Topotecan + GM-CSF 組合，76 人入組計畫，最高直接相關性——Cy 作為方案核心成分"
+        },
+        {
+          "nct_id": "NCT03126916",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT 針對高危神經母細胞瘤（750 人招募中），Cy 為誘導化療骨幹，病理連續性支持外推至 ganglioneuroblastoma"
+        },
+        {
+          "nct_id": "NCT06172296",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 研究新診斷高危神經母細胞瘤加入 Dinutuximab（478 人），提供最新神經芽細胞腫瘤治療框架，Cy 為標準骨幹"
+        },
+        {
+          "nct_id": "NCT03786783",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 先導誘導方案含 ch14.18（dinutuximab）用於神經母細胞瘤（42 人），間接支持 Cy 在此腫瘤群的組合治療"
+        },
+        {
+          "nct_id": "NCT01798004",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 研究 BuMel 鞏固方案後接誘導化療（150 人完成），Cy 為誘導階段成分之一，未直接指定 ganglioneuroblastoma"
+        },
+        {
+          "nct_id": "NCT02176967",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 非高危神經母細胞瘤（621 人），涵蓋 intermediate-risk 群體，可能包含部分 ganglioneuroblastoma 患者"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31342649",
+          "study_type": "Prospective Clinical Trial（JN-L-10 手術時機研究）",
+          "tier": "1",
+          "year": "2019"
+        },
+        {
+          "pmid": "8255850",
+          "study_type": "Case Report（脊椎 ganglioneuroblastoma 化療完全反應）",
+          "tier": "3",
+          "year": "1993"
+        },
+        {
+          "pmid": "9396540",
+          "study_type": "Case Series（強化誘導化療後神經母細胞瘤組織病理）",
+          "tier": "2",
+          "year": "1997"
+        },
+        {
+          "pmid": "3071124",
+          "study_type": "Case Report（腎上腺 ganglioneuroblastoma 多模式治療）",
+          "tier": "3",
+          "year": "1988"
+        },
+        {
+          "pmid": "8888754",
+          "study_type": "Case Report（嬰兒多灶性 ganglioneuroblastoma）",
+          "tier": "3",
+          "year": "1996"
+        },
+        {
+          "pmid": "7421294",
+          "study_type": "Case Series（胸腔內 ganglioneuroblastoma）",
+          "tier": "3",
+          "year": "1980"
+        },
+        {
+          "pmid": "10689712",
+          "study_type": "Prospective Cohort（兒童癌症存活者長期精子生成影響）",
+          "tier": "2",
+          "year": "2000"
+        },
+        {
+          "pmid": "15701990",
+          "study_type": "Case Report（Ganglioneuroblastoma 以阻塞性黃疸表現）",
+          "tier": "3",
+          "year": "2005"
+        }
+      ]
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.9938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "目前無任何已知機轉連結。此症候群（可能為 VATER/VACTERL 相關或罕見免疫缺乏症）與 Cyclophosphamide 之免疫抑制特性存在理論上的連結（T 細胞功能障礙可能需要免疫調節治療），但完全缺乏臨床前與臨床驗證。",
+      "critical_gap": "臨床試驗數量：0，文獻數量：0。此為純 TxGNN 模型預測，高 txgnn_score（0.9938）可能反映知識圖譜結構相似性而非臨床可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_steps": [
+        "查詢 Orphanet 確認疾病定義與患病率",
+        "評估是否有相似免疫缺乏症候群使用 Cy 的文獻",
+        "考慮 in vitro 模型驗證可行性"
+      ]
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "後腹腔腫瘤涵蓋多種組織類型（軟組織肉瘤、淋巴瘤、生殖細胞瘤、副神經節瘤等），Cyclophosphamide 作為廣效烷化劑對多種組織來源之腫瘤具細胞毒性，機轉具合理性但因腫瘤異質性高，需依病理類型分層評估。",
+      "key_concern": "唯一臨床試驗（NCT00017160）已 WITHDRAWN 且入組 0 人；文獻證據碎片化，涵蓋 MAID 化療（含 Cy）用於肉瘤、副神經節瘤等，但缺乏針對後腹腔腫瘤整體的高品質研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00017160",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 研究（Doxorubicin+Ifosfamide 新輔助治療+放療+手術切除後腹腔軟組織肉瘤），已 WITHDRAWN，入組 0 人，本試驗不含 Cyclophosphamide 且從未執行，證據效力為零"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38925814",
+          "study_type": "Case Series/Retrospective（MAID 化療用於後腹腔肉瘤）",
+          "tier": "2",
+          "year": "2024"
+        },
+        {
+          "pmid": "33973551",
+          "study_type": "Review（局部軟組織肉瘤輔助/新輔助化療適應症）",
+          "tier": "2",
+          "year": "2021"
+        },
+        {
+          "pmid": "9058098",
+          "study_type": "Case Series（惡性副神經節瘤組合化療）",
+          "tier": "2",
+          "year": "1997"
+        },
+        {
+          "pmid": "10656434",
+          "study_type": "Clinical Trial（Cy+Carboplatin 用於晚期精原細胞瘤）",
+          "tier": "2",
+          "year": "2000"
+        },
+        {
+          "pmid": "4361239",
+          "study_type": "Case Series（兒童後腹腔腫瘤歷史系列）",
+          "tier": "3",
+          "year": "1973"
+        },
+        {
+          "pmid": "2288314",
+          "study_type": "Case Report（後腹腔霍奇金病）",
+          "tier": "3",
+          "year": "1990"
+        },
+        {
+          "pmid": "7544256",
+          "study_type": "Case Report（卵巢內胚竇瘤組合化療）",
+          "tier": "3",
+          "year": "1995"
+        },
+        {
+          "pmid": "9673857",
+          "study_type": "Review（藥物誘發膀胱毒性—安全性相關）",
+          "tier": "2",
+          "year": "1998"
+        },
+        {
+          "pmid": "2683053",
+          "study_type": "Case Report（頑固性水腫，間接相關）",
+          "tier": "3",
+          "year": "1989"
+        },
+        {
+          "pmid": "40099632",
+          "study_type": "Case Report（副腫瘤症候群多發性根神經病，間接相關）",
+          "tier": "3",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_name": "lymph node cancer",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "「淋巴結癌」涵蓋原發淋巴瘤（DLBCL、CLL、濾泡性淋巴瘤）及轉移性疾病。Cyclophosphamide 為 CHOP 方案（NHL 標準一線）及 FCR 方案（CLL 標準）核心成分，DNA 烷化毒性對快速增殖之淋巴樣細胞尤為有效，並兼具免疫調節與抗腫瘤雙重機制。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00054587",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED，入組 3010 人，比較含 Cyclophosphamide 方案（AC→Taxane）用於乳癌含淋巴結轉移，為最大規模直接相關 Phase 3 試驗"
+        },
+        {
+          "nct_id": "NCT00254163",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED，184 人，FCR（Fludarabine+Cyclophosphamide+Rituximab）用於 CLL（淋巴結受累），直接驗證 Cy 在淋巴結相關淋巴系統惡性腫瘤的療效"
+        },
+        {
+          "nct_id": "NCT04293393",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 ACTIVE，200 人，比較標準化療方案用於 NHL（廣泛淋巴結受累），進行中之現代高品質研究"
+        },
+        {
+          "nct_id": "NCT00381004",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED，60 人，FCR+GM-CSF 作為 CLL 一線治療，直接含 Cy，驗證其在淋巴結惡性腫瘤中的療效"
+        },
+        {
+          "nct_id": "NCT05569811",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 ACTIVE，120 人，新輔助化療用於乳癌（含淋巴結），Cy 為化療骨幹成分"
+        },
+        {
+          "nct_id": "NCT00002772",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 TERMINATED（602 人），比較含 Cy 密集序貫化療，因終止部分削弱證據效力"
+        },
+        {
+          "nct_id": "NCT00003715",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 針對術後黑色素瘤（非淋巴結原發腫瘤），已終止，相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36826820",
+          "study_type": "RCT 子分析（Epirubicin+Paclitaxel vs EC+Taxane）",
+          "tier": "1",
+          "year": "2023"
+        },
+        {
+          "pmid": "29501363",
+          "study_type": "RCT（PARP 抑制劑加入標準新輔助化療含 Cy）",
+          "tier": "1",
+          "year": "2018"
+        },
+        {
+          "pmid": "32861882",
+          "study_type": "Retrospective Analysis（TC 輔助化療用於淋巴結陰性乳癌）",
+          "tier": "2",
+          "year": "2020"
+        },
+        {
+          "pmid": "20459744",
+          "study_type": "Pharmacogenomics Cohort（Cy 代謝酶多型性與存活）",
+          "tier": "2",
+          "year": "2010"
+        },
+        {
+          "pmid": "23032615",
+          "study_type": "Pooled Analysis（新輔助化療後局部區域復發預測因子）",
+          "tier": "1",
+          "year": "2012"
+        },
+        {
+          "pmid": "24596377",
+          "study_type": "Retrospective Cohort（三陰性乳癌淋巴結陰性患者輔助化療獲益）",
+          "tier": "2",
+          "year": "2014"
+        },
+        {
+          "pmid": "28081304",
+          "study_type": "Retrospective Comparative（AC-taxane vs AC-free regimen）",
+          "tier": "2",
+          "year": "2017"
+        },
+        {
+          "pmid": "32460816",
+          "study_type": "Retrospective Comparative（新輔助內分泌 vs 化療）",
+          "tier": "2",
+          "year": "2020"
+        },
+        {
+          "pmid": "12860165",
+          "study_type": "Clinical Trial（頭頸癌淋巴結組織學與免疫治療）",
+          "tier": "2",
+          "year": "2003"
+        },
+        {
+          "pmid": "37696645",
+          "study_type": "Prospective Cohort（宮頸癌保留生育力治療）",
+          "tier": "2",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_name": "lymphoma, non-Hodgkin, familial",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclophosphamide 為 CHOP 方案（Cyclophosphamide-Doxorubicin-Vincristine-Prednisone）核心成分，此方案為 NHL 全球標準一線治療超過 40 年。DNA 烷化機制對 B 細胞淋巴瘤（最常見 NHL 類型）細胞具高度細胞毒性。「家族性」NHL 雖有遺傳素因（如 BRCA2、ATM 突變相關性），其治療方案與散發性 NHL 無本質差異。",
+      "guardrails": [
+        "家族性 NHL 可能合併遺傳性 DNA 修復缺陷，Cyclophosphamide 劑量毒性風險可能升高，需個別化評估",
+        "考慮基因檢測排除遺傳性免疫缺乏症（如 X-linked lymphoproliferative disease）",
+        "長期監測繼發性惡性腫瘤風險（Cy 本身具致突變性）"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06097364",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 ACTIVE，733 人，比較 Odronextamab vs 標準化療用於 R/R follicular lymphoma/DLBCL（Cy 為對照組 R-CHOP 核心），代表當前 NHL Phase 3 金標準"
+        },
+        {
+          "nct_id": "NCT02918747",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，100 人，P-CHOP（含 Cy）vs P-Gemoxd 用於 ENKTL，支持 Cy 在特殊類型 NHL 中的比較研究"
+        },
+        {
+          "nct_id": "NCT00536601",
+          "relevance_grade": "B",
+          "reasoning": "已完成，174 人，自體 BMT 用於血液惡性腫瘤（含 NHL），支持 Cy 在大劑量化療背景下的角色"
+        },
+        {
+          "nct_id": "NCT00520130",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 COMPLETED，92 人，targeted 免疫清除化療（含 Cy）後接減毒預處理異體 HSCT 用於 NHL"
+        },
+        {
+          "nct_id": "NCT07022964",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 RECRUITING，36 人，自體/異體 CAR-T 研究，Cy 作為橋接化療成分"
+        },
+        {
+          "nct_id": "NCT01746173",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 TERMINATED，僅 5 人入組，CHOEP 誘導後接 GBM-ASCT，終止原因未明，證據效力低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "10509145",
+          "study_type": "Review（強化 CHOP 方案在 NHL 之應用）",
+          "tier": "2",
+          "year": "1999"
+        },
+        {
+          "pmid": "27093518",
+          "study_type": "Retrospective Analysis（CVP/CHOP 化療方案回顧性分析）",
+          "tier": "2",
+          "year": "2016"
+        },
+        {
+          "pmid": "37229818",
+          "study_type": "Pharmacokinetics Study（CHOP 成分 PK 同步定量）",
+          "tier": "2",
+          "year": "2023"
+        },
+        {
+          "pmid": "12370624",
+          "study_type": "Clinical Review（NHL 綜合評述）",
+          "tier": "2",
+          "year": "2002"
+        },
+        {
+          "pmid": "6205233",
+          "study_type": "Review（早期 NHL 分類與治療）",
+          "tier": "3",
+          "year": "1984"
+        },
+        {
+          "pmid": "19695926",
+          "study_type": "Review（NHL 放療適應症）",
+          "tier": "2",
+          "year": "2009"
+        },
+        {
+          "pmid": "7694694",
+          "study_type": "Case Series（多發性肌炎/皮肌炎合併 NHL）",
+          "tier": "3",
+          "year": "1993"
+        },
+        {
+          "pmid": "6161589",
+          "study_type": "Review（成人 NHL 分類、診斷與治療進展）",
+          "tier": "3",
+          "year": "1980"
+        },
+        {
+          "pmid": "2479964",
+          "study_type": "Case Report（支氣管內 NHL）",
+          "tier": "3",
+          "year": "1989"
+        },
+        {
+          "pmid": "2332863",
+          "study_type": "Case Report（結節性紅斑合併 NHL）",
+          "tier": "3",
+          "year": "1990"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute lymphoblastic leukemia (disease)",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclophosphamide 為 ALL 多藥化療骨幹成分，尤以 Hyper-CVAD 方案（Hyper-fractionated Cyclophosphamide-Vincristine-Adriamycin-Dexamethasone）之核心成分聞名，用於 ALL 誘導及鞏固治療。DNA 交聯機制對快速增殖之原始淋巴母細胞具高效殺傷力，並可穿越血腦屏障預防 CNS 復發。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03007147",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 ACTIVE，475 人，國際多中心 Ph+ ALL 試驗，Cy 為化療骨幹，代表當前 ALL 最高等級前瞻性證據"
+        },
+        {
+          "nct_id": "NCT00003815",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3（狀態 UNKNOWN），高劑量化療/放療後自體骨髓移植用於 ALL，含 Cy 預處理，歷史性 Phase 3 設計"
+        },
+        {
+          "nct_id": "NCT01219816",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED，57 人，化療免疫聯合方案用於 ALL（評估療效與耐受性），直接適應症高品質研究"
+        },
+        {
+          "nct_id": "NCT00005892",
+          "relevance_grade": "B",
+          "reasoning": "已完成，Cy 加放療後同種異體 BMT 用於 ALL，支持移植前 Cy 預處理歷史基礎"
+        },
+        {
+          "nct_id": "NCT05598593",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，70 人，Modified TBF 預處理用於 HSCT，適用於包含 ALL 在內之血液惡性腫瘤"
+        },
+        {
+          "nct_id": "NCT06227026",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 RECRUITING，10 人，Anti-CD19 CAR-T 用於 R/R B-ALL，Cy 為淋巴清除預處理"
+        },
+        {
+          "nct_id": "NCT06336395",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 RNA-Seq 生物標記研究（診斷/風險分層用途，非治療性干預），與 Cy 療效無直接相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39757533",
+          "study_type": "Phase 2 Clinical Trial（Hyper-CVAD + Blinatumomab +/- Inotuzumab）",
+          "tier": "1",
+          "year": "2025"
+        },
+        {
+          "pmid": "29863974",
+          "study_type": "RCT（GRAALL-2005 強化成人 ALL 治療）",
+          "tier": "1",
+          "year": "2018"
+        },
+        {
+          "pmid": "15481055",
+          "study_type": "Long-term Follow-up（Hyper-CVAD 長期追蹤）",
+          "tier": "1",
+          "year": "2004"
+        },
+        {
+          "pmid": "35989458",
+          "study_type": "Clinical Trial（Nelarabine+Etoposide+Cy 用於復發 T-ALL）",
+          "tier": "1",
+          "year": "2022"
+        },
+        {
+          "pmid": "36600670",
+          "study_type": "Prospective Study（Ponatinib + Hyper-CVAD 用於 Ph+ ALL）",
+          "tier": "1",
+          "year": "2023"
+        },
+        {
+          "pmid": "16502413",
+          "study_type": "Clinical Trial（Hyper-CVAD + Rituximab 用於 Burkitt/Burkitt-like ALL）",
+          "tier": "1",
+          "year": "2006"
+        },
+        {
+          "pmid": "39546748",
+          "study_type": "Clinical Trial（Venetoclax + 低強度化療用於成人 ALL）",
+          "tier": "1",
+          "year": "2025"
+        },
+        {
+          "pmid": "37665303",
+          "study_type": "Clinical Trial（中劑量 Etoposide+Cy+TBI 預處理增強 CAR-T 療效）",
+          "tier": "1",
+          "year": "2023"
+        },
+        {
+          "pmid": "34031876",
+          "study_type": "Review（兒童/青少年 ALL 睪丸受累診斷與治療）",
+          "tier": "2",
+          "year": "2021"
+        },
+        {
+          "pmid": "32035785",
+          "study_type": "Retrospective Case Series（Venetoclax+化療用於 R/R T-ALL）",
+          "tier": "2",
+          "year": "2020"
+        }
+      ]
+    },
+    {
+      "disease_name": "myelodysplastic syndrome",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cyclophosphamide 主要用於 MDS 患者之 HSCT 前骨髓清除性預處理（如 Bu-Cy、BUCY 方案），透過清除殘餘異常造血克隆並提供足夠免疫抑制以利幹細胞植入。另 PTCy 作為 GVHD 預防策略（移植後 +3/+4 天）在 MDS HSCT 中廣泛應用。",
+      "critical_warning": "⚠️ 雙向風險：Cyclophosphamide 本身為潛在致白血病物質，長期使用可誘發繼發性 MDS（PMID 10073148, 29236294）。在 MDS 非移植情境下使用需極謹慎評估獲益/風險比。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02345850",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED，346 人，無鈣調磷酸酶抑制劑的 GVHD 預防策略（含 PTCy）用於 HSCT（含 MDS 患者），為最高等級 Phase 3 證據"
+        },
+        {
+          "nct_id": "NCT05823714",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，70 人，Venetoclax+Azacytidine 序貫 Modified BUCY 預處理用於高危 MDS 移植，直接針對 MDS 適應症"
+        },
+        {
+          "nct_id": "NCT05126849",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RECRUITING，31 人，PTCy 單倍相合 HSCT 用於血液惡性腫瘤（含 MDS），代表 PTCy 在 MDS 移植中的前瞻性應用"
+        },
+        {
+          "nct_id": "NCT02208037",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED，279 人，多中心 GVHD 預防新策略研究（含 PTCy 方案），用於 AML/MDS HSCT"
+        },
+        {
+          "nct_id": "NCT03412409",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 RECRUITING，50 人，減低強度預處理用於高齡/高合併症 MDS 患者，Cy 為預處理方案成分"
+        },
+        {
+          "nct_id": "NCT03259516",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 TERMINATED，僅 2 人入組，Nivolumab+化療用於難治性 MDS，終止且樣本極小"
+        },
+        {
+          "nct_id": "NCT00176839",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 TERMINATED，11 人，Bu+Cy+Melphalan 後接 allo-HCT 用於 MDS，終止後證據效力有限"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40901473",
+          "study_type": "Clinical Study（Ruxolitinib+Decitabine+Bu-Cy 預處理用於 MDS 復發預防）",
+          "tier": "1",
+          "year": "2025"
+        },
+        {
+          "pmid": "36702138",
+          "study_type": "Comparative Study（G-CSF+Decitabine+Bu-Cy vs 標準方案）",
+          "tier": "1",
+          "year": "2023"
+        },
+        {
+          "pmid": "34174469",
+          "study_type": "Retrospective Comparative（PTCy vs Thymoglobulin 用於 HLA 不合無關供者 MDS 移植）",
+          "tier": "2",
+          "year": "2021"
+        },
+        {
+          "pmid": "36427418",
+          "study_type": "Retrospective Cohort（Flu+ATG+PTCy 預處理用於 MDS HSCT）",
+          "tier": "2",
+          "year": "2023"
+        },
+        {
+          "pmid": "18489989",
+          "study_type": "Clinical Trial（非骨髓清除性 HLA 單倍相合 BMT 用於血液惡性腫瘤含 MDS）",
+          "tier": "2",
+          "year": "2008"
+        },
+        {
+          "pmid": "34587551",
+          "study_type": "Retrospective Cohort（PTCy 相關非 CMV 皰疹病毒感染增加—安全性警示）",
+          "tier": "2",
+          "year": "2022"
+        },
+        {
+          "pmid": "10073148",
+          "study_type": "Population-based Study（⚠️ Cy 引發繼發性白血病/MDS 風險）",
+          "tier": "1",
+          "year": "1999"
+        },
+        {
+          "pmid": "29236294",
+          "study_type": "Population-based Study（⚠️ 輔助化療後繼發性 AML/MDS 風險）",
+          "tier": "1",
+          "year": "2018"
+        },
+        {
+          "pmid": "29752743",
+          "study_type": "Cohort Study（⚠️ 生殖細胞瘤化療後繼發性 AML/MDS）",
+          "tier": "2",
+          "year": "2018"
+        },
+        {
+          "pmid": "37236870",
+          "study_type": "Clinical Guidelines（複發性多軟骨炎診療指引，間接涉及 Cy 免疫抑制應用）",
+          "tier": "2",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "txgnn_score": 0.9864,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "未分類 MDS（MDS-U）為 WHO 分類中殘餘類別，含難以分型之原始細胞增生或細胞減少情況。機轉連結同 MDS（Cy 作為 HSCT 前預處理骨髓清除），但因病例數少、疾病定義不精確，缺乏直接 RCT 或大型回顧研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7812196",
+          "study_type": "Retrospective Case Series（MDS 患者異體 BMT，含 Cy 預處理）",
+          "tier": "2",
+          "year": "1994"
+        },
+        {
+          "pmid": "36711008",
+          "study_type": "Case Report（周邊血幹細胞移植排斥後臍帶血救援移植）",
+          "tier": "3",
+          "year": "2020"
+        }
+      ],
+      "next_steps": [
+        "確認 MDS-U 的當地病理診斷標準（WHO 2022 分類）",
+        "將此類別與 MDS 主要類別證據合併評估",
+        "考慮患者登記研究蒐集真實世界數據"
+      ]
+    },
+    {
+      "disease_name": "refractory cytopenia of childhood",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "兒童難治性血球減少症（RCC）屬低危兒童 MDS，標準治療為 HSCT。Cyclophosphamide 作為 HSCT 前骨髓清除性預處理（Cy+Flu+TBI 方案）核心成分，透過清除殘餘異常造血克隆並避免移植排斥。低劑量 Cy 亦具免疫抑制效果，可治療非移植患者（類似再生不良性貧血治療邏輯）。",
+      "key_concern": "現有 Phase 2 試驗多屬移植配套研究（非 Cy 單獨針對 RCC 的 RCT），且多已完成或終止；兒童族群用藥安全性（性腺毒性、繼發性惡性腫瘤）需特別監測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00290641",
+          "relevance_grade": "A",
+          "reasoning": "已完成，68 人，直接採用 Cyclophosphamide/Fludarabine/TBI 預處理方案用於血液疾病（含 RCC）之 HSCT，Cy 為方案核心成分，相關性最高"
+        },
+        {
+          "nct_id": "NCT00005797",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 COMPLETED，125 人，依殘留疾病量身訂做的 BMT 方案用於血液惡性腫瘤（含 RCC），Cy 含在預處理方案中"
+        },
+        {
+          "nct_id": "NCT00365287",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2 COMPLETED，148 人，非相關供者臍帶血移植用於血液疾病（含 RCC），Cy 為預處理成分之一"
+        },
+        {
+          "nct_id": "NCT00005622",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，72 人，相關/非相關供者 BMT 用於血液惡性腫瘤，Cy 預處理方案"
+        },
+        {
+          "nct_id": "NCT00054327",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，34 人，同種異體 HSCT（骨髓或 PBSC）用於血液疾病，包含 RCC 亞型"
+        },
+        {
+          "nct_id": "NCT00005988",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 COMPLETED，5 人，體外 T 細胞去除後單倍相合 BMT 用於兒童血液惡性腫瘤"
+        },
+        {
+          "nct_id": "NCT00003597",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，16 人，TPO+G-CSF 用於接受 ICE 化療兒童（非直接 RCC 研究），相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "25498905",
+          "study_type": "Single-center Clinical Study（RCC 兒童 HSCT 預後）",
+          "tier": "1",
+          "year": "2015"
+        },
+        {
+          "pmid": "35395989",
+          "study_type": "Clinical Study（Haplo-HSCT ATG+PTCy 用於兒童 MDS/RCC）",
+          "tier": "1",
+          "year": "2022"
+        },
+        {
+          "pmid": "32444864",
+          "study_type": "Clinical Study（兒童再生不良性貧血同種異體 BMT 預處理方案）",
+          "tier": "2",
+          "year": "2020"
+        },
+        {
+          "pmid": "23790006",
+          "study_type": "Retrospective Cohort（重型再生不良性貧血及 RCC 接受 HSCT 後性腺功能）",
+          "tier": "2",
+          "year": "2013"
+        },
+        {
+          "pmid": "14962970",
+          "study_type": "Clinical Study（IV Methotrexate+Cy 用於兒童難治性狼瘡腎炎）",
+          "tier": "2",
+          "year": "2004"
+        },
+        {
+          "pmid": "28416507",
+          "study_type": "Review（血栓性血小板減少性紫癜—鑑別診斷參考）",
+          "tier": "2",
+          "year": "2017"
+        },
+        {
+          "pmid": "14658921",
+          "study_type": "Review（兒童難治性免疫性血小板減少症治療選項）",
+          "tier": "2",
+          "year": "2003"
+        },
+        {
+          "pmid": "3071168",
+          "study_type": "Case Series（Evans 症候群兒童病理生理與治療）",
+          "tier": "3",
+          "year": "1988"
+        },
+        {
+          "pmid": "8348510",
+          "study_type": "Clinical Trial（Ifosfamide+Mesna+Etoposide 用於復發/難治兒童急性白血病）",
+          "tier": "2",
+          "year": "1993"
+        },
+        {
+          "pmid": "287856",
+          "study_type": "Case Series（難治兒童 ALL 的 L-asparaginase+Ara-C 歷史報告）",
+          "tier": "3",
+          "year": "1979"
+        }
+      ]
+    }
+  ],
+  "summary_matrix": {
+    "L1_S3_Proceed": ["myeloid leukemia", "lymph node cancer", "lymphoma, non-Hodgkin, familial", "acute lymphoblastic leukemia (disease)"],
+    "L2_S2_Research": ["ganglioneuroblastoma (disease)", "myelodysplastic syndrome", "refractory cytopenia of childhood"],
+    "L3_S1_Research": ["retroperitoneal neoplasm", "unclassified myelodysplastic syndrome"],
+    "L5_S0_Hold": ["vertebral anomalies and variable endocrine and T-cell dysfunction"]
+  },
+  "cross_cutting_safety_alerts": [
+    {
+      "alert": "繼發性 MDS/AML 風險",
+      "affected_indications": ["retroperitoneal neoplasm", "lymph node cancer", "myelodysplastic syndrome"],
+      "references": ["PMID:10073148", "PMID:29236294", "PMID:29752743"],
+      "recommendation": "所有長期 Cy 治療計畫需建立繼發性血液惡性腫瘤監測方案"
+    },
+    {
+      "alert": "出血性膀胱炎",
+      "affected_indications": "all",
+      "mitigation": "同步使用 Mesna（2-mercaptoethane sulfonate Na）uroprotection",
+      "references": ["PMID:9673857"]
+    },
+    {
+      "alert": "性腺毒性",
+      "affected_indications": ["refractory cytopenia of childhood", "ganglioneuroblastoma (disease)"],
+      "references": ["PMID:10689712", "PMID:23790006"],
+      "recommendation": "治療前應提供生殖力保存諮詢，兒童患者尤需長期追蹤"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 證據等級分佈
+
+| 等級 | 適應症 | 建議 |
+|------|--------|------|
+| **L1 / S3** | 骨髓白血病、淋巴結癌、家族性 NHL、ALL | ✅ Proceed with Guardrails |
+| **L2 / S2** | 神經節神經母細胞瘤、MDS、兒童難治性血球減少 | 🔬 Research Question |
+| **L3 / S1** | 後腹腔腫瘤、未分類 MDS | 🔍 Research Question（安全性初評） |
+| **L5 / S0** | 椎體異常合併內分泌/T細胞功能障礙 | ⛔ Hold |
+
+### 關鍵發現
+
+1. **最強證據群**（L1/S3）：Cyclophosphamide 在血液惡性腫瘤（AML/ALL/NHL）已有多項 Phase 3 RCT 直接支持，是 CHOP、Hyper-CVAD、Bu-Cy 等標準方案的不可或缺成分。
+
+2. **MDS 雙向警示**：Cy 既是 MDS 移植預處理的核心（治療），也是引發繼發性 MDS 的已知風險因素，評估時需極謹慎區分患者族群。
+
+3. **資料缺口最大**：`vertebral anomalies and variable endocrine and T-cell dysfunction` 完全無臨床證據，高 TxGNN 分數反映知識圖譜結構相似性，不代表臨床可行性。

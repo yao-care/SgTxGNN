@@ -1,0 +1,523 @@
+## 藥物再利用證據分析：Calcium Gluconate (DB11126)
+
+分析前注意：本次資料中**臨床試驗列表為疾病相關試驗，非 Calcium Gluconate 直接試驗**，需逐一評估關聯性；且多數文獻為機轉研究或動物研究。以下為完整評估結果：
+
+---
+
+```json
+{
+  "drug": "Calcium gluconate",
+  "drugbank_id": "DB11126",
+  "analysis_date": "2026-04-05",
+  "analyst_note": "市場狀態：未上市（新加坡）。原始適應症空白，MoA 資料缺口。大量臨床試驗為疾病相關搜尋結果，非直接測試 Calcium gluconate 之試驗，各試驗關聯性評級已個別標示。",
+  "indications": [
+    {
+      "disease_name": "calcium-alkali syndrome",
+      "txgnn_score": 0.9889,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Calcium-alkali syndrome（前稱 milk-alkali syndrome）是由過量鈣與鹼性物質攝入所引起的代謝症候群，特徵為高鈣血症、代謝性鹼中毒與腎功能損傷。Calcium gluconate 本身即為鈣補充劑，在此適應症中為致病原因而非治療選項，不具備再利用潛力，TxGNN 高分可能來自知識圖譜中「鈣」節點共現，存在方向性錯誤。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05169411",
+          "title": "PRESERVE - Preserving Kidney Function in CKD Children",
+          "relevance_grade": "C",
+          "reasoning": "慢性腎病腎功能保護試驗，納入 20,240 人，測試對象非 calcium gluconate，與 calcium-alkali syndrome 治療無關聯"
+        },
+        {
+          "nct_id": "NCT02981602",
+          "title": "Phase 2 Double-Blind Dose-Escalation Study",
+          "relevance_grade": "C",
+          "reasoning": "試驗標題截斷，納入 31 人 Phase 2 試驗，無法確認藥物，但依上下文推測為其他藥物，與本適應症無關"
+        },
+        {
+          "nct_id": "NCT03095638",
+          "title": "TIVICAY (dolutegravir) Bioavailability Study",
+          "relevance_grade": "C",
+          "reasoning": "HIV 整合酶抑制劑 dolutegravir 的生物可用性研究，與 calcium-alkali syndrome 或 calcium gluconate 無關"
+        },
+        {
+          "nct_id": "NCT05393362",
+          "title": "Cardiac Rehabilitation Biomarkers Study",
+          "relevance_grade": "C",
+          "reasoning": "心臟復健生物標記研究，與適應症完全無關"
+        },
+        {
+          "nct_id": "NCT02505451",
+          "title": "Myocardial Function in Metabolic Syndrome",
+          "relevance_grade": "C",
+          "reasoning": "代謝症候群心肌功能研究，與 calcium-alkali syndrome 無關"
+        }
+      ],
+      "literature_analysis": [],
+      "critical_finding": "⚠️ 安全警示：Calcium gluconate 為此症之潛在致病因子，不應作為再利用候選"
+    },
+    {
+      "disease_name": "primary bone dysplasia with defective bone mineralization",
+      "txgnn_score": 0.9870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨礦化缺陷疾病（如低磷酸酶症、佝僂病亞型）在病理上涉及礦化所需礦物質不足。Calcium gluconate 提供鈣離子，理論上可支持羥磷灰石沉積，然而大多數此類疾病的主因並非鈣缺乏，而是 alkaline phosphatase 缺乏或維生素 D 代謝異常，單純補鈣的機轉連結薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_finding": "零臨床試驗、零文獻。TxGNN 高分（0.987）反映知識圖譜中鈣與骨礦化的密切連結，但缺乏任何臨床證據支持再利用價值"
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9012,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Calcium 可刺激 G 細胞分泌 gastrin，gastrin 進而促進壁細胞分泌胃酸，此機轉在 Zollinger-Ellison syndrome 診斷（靜脈注射鈣激發試驗）中早有描述。理論上，calcium gluconate 可能加重非潰瘍性消化不良的胃酸相關症狀，而非改善。文獻支持的是診斷性用途而非治療性再利用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04713969",
+          "title": "Duodenal Neuro-immune Interactions and PPI in Functional Dyspepsia",
+          "relevance_grade": "B",
+          "reasoning": "功能性消化不良 Phase 4 試驗，研究 PPI 與腸神經免疫交互作用，疾病相關但非測試 calcium gluconate"
+        },
+        {
+          "nct_id": "NCT03548363",
+          "title": "Gingest for Dyspepsia",
+          "relevance_grade": "B",
+          "reasoning": "消化不良 RCT，測試薑萃取物 Gingest，疾病匹配但藥物不符"
+        },
+        {
+          "nct_id": "NCT04437017",
+          "title": "Olanzapine/Dexamethasone for Chemotherapy-induced CINV",
+          "relevance_grade": "C",
+          "reasoning": "化療誘發噁心嘔吐的止吐研究，與消化不良適應症無直接關聯"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7125738",
+          "title": "The early diagnosis of gastrinoma",
+          "year": "1982",
+          "study_type": "Clinical study / Diagnostic",
+          "tier": "3",
+          "relevance_note": "描述靜脈鈣激發試驗用於 gastrinoma 診斷，為診斷性用途而非 dyspepsia 治療，間接相關"
+        },
+        {
+          "pmid": "37501199",
+          "title": "Hypocalcemic tetany with cimetidine and nifedipine",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "個案報告描述藥物交互作用造成低鈣血症，以 calcium gluconate 補充治療，與 dyspepsia 再利用無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypophosphatemia (disease)",
+      "txgnn_score": 0.8998,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "低磷血症常與低鈣血症並存，特別是在 hungry bone syndrome（副甲狀腺切除術後）、去諾單抗（denosumab）誘導的礦物質代謝失衡、以及 X-linked hypophosphatemia (XLH) 的管理過程中。Calcium gluconate 靜脈注射為處理伴隨低鈣血症的標準支持療法，文獻中有多個人類個案報告記錄此用法。然而，針對「低磷血症本身」的再利用（而非伴隨低鈣的輔助補充）缺乏直接試驗。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04188964",
+          "title": "Phase 1/2 Safety Study (unspecified drug)",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 試驗，納入 16 人，標題截斷無法確認藥物，疾病相關但藥物關聯不明確"
+        },
+        {
+          "nct_id": "NCT04419363",
+          "title": "Burosumab in XLH Children",
+          "relevance_grade": "B",
+          "reasoning": "X-linked hypophosphatemia Phase 4 試驗，研究 burosumab（FGF23 抑制劑），為疾病相關但測試不同藥物；但臨床情境中 calcium gluconate 常作為輔助支持使用"
+        },
+        {
+          "nct_id": "NCT00830674",
+          "title": "Phase I KRN23 (anti-FGF23) in XLH",
+          "relevance_grade": "B",
+          "reasoning": "XLH Phase 1 試驗，測試 anti-FGF23 抗體，疾病相關，calcium gluconate 在此類試驗中可能作為安全管理輔助藥物"
+        },
+        {
+          "nct_id": "NCT00195936",
+          "title": "Cinacalcet for Phosphate-induced Hyperparathyroidism in Hypophosphatemia",
+          "relevance_grade": "B",
+          "reasoning": "直接針對低磷血症相關繼發性副甲狀腺機能亢進，Phase 1，納入 8 人，具疾病相關性"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39839473",
+          "title": "Prolonged hungry bone syndrome after parathyroidectomy in X-linked hypophosphatemia",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "人類個案：XLH 患者副甲狀腺切除術後嚴重 hungry bone syndrome，使用 calcium gluconate 靜脈補充作為核心治療，直接相關"
+        },
+        {
+          "pmid": "36859300",
+          "title": "Denosumab-induced hypocalcemia post bariatric surgery",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "去諾單抗誘導嚴重低鈣血症（伴隨磷代謝失衡）的個案，calcium gluconate 為主要治療藥物，疾病情境相關"
+        },
+        {
+          "pmid": "188433",
+          "title": "Hypocalcemic vitamin D-dependent renal rickets",
+          "year": "1976",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance_note": "腎性佝僂病（低磷血症/低鈣血症）管理，鈣補充為核心，間接相關"
+        },
+        {
+          "pmid": "17645035",
+          "title": "Intravenous calcium in cows with parturient paresis",
+          "year": "2007",
+          "study_type": "Animal Study (bovine)",
+          "tier": "3",
+          "relevance_note": "動物研究（牛），IV calcium 與口服磷酸鈉交互作用，翻譯至人類需謹慎"
+        },
+        {
+          "pmid": "6464298",
+          "title": "Primary hyperparathyroidism in German shepherd dogs",
+          "year": "1984",
+          "study_type": "Animal Study (canine)",
+          "tier": "3",
+          "relevance_note": "犬類動物研究，與人類低磷血症管理關聯極弱"
+        },
+        {
+          "pmid": "27885969",
+          "title": "36th ISICEM Symposium Proceedings",
+          "year": "2016",
+          "study_type": "Conference Abstract / Review",
+          "tier": "3",
+          "relevance_note": "重症醫學會議摘要集，需確認是否包含 calcium gluconate 在電解質失衡的具體資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "potassium deficiency disease",
+      "txgnn_score": 0.8452,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 方向性錯誤警示：Calcium gluconate 的電解質相關已知適應症為**高鉀血症（hyperkalemia）**的心臟保護（穩定心肌細胞膜電位），而非低鉀血症（hypokalemia）的治療。PMID 6987815 即為高鉀血症管理文獻，確認此方向性偏誤。TxGNN 可能因電解質知識圖譜中鈣與鉀的廣泛共現而產生錯誤預測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02715284",
+          "title": "TSR-042 (anti-PD-1) Phase 1 Dose Escalation",
+          "relevance_grade": "C",
+          "reasoning": "免疫檢查點抑制劑腫瘤學試驗，與低鉀血症或 calcium gluconate 完全無關"
+        },
+        {
+          "nct_id": "NCT06656871",
+          "title": "Biostimulants Application to Vegetables",
+          "relevance_grade": "C",
+          "reasoning": "農業生物刺激素研究（蔬菜），誤收入臨床試驗資料庫，與醫療適應症無任何關聯"
+        },
+        {
+          "nct_id": "NCT04021381",
+          "title": "Citrate Salts for Stone-free Result After Ureterorenoscopy",
+          "relevance_grade": "C",
+          "reasoning": "輸尿管鏡術後預防結石的 Phase 3 試驗，與低鉀血症無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6987815",
+          "title": "Hyperkalemia: pathophysiology and management",
+          "year": "1980",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "高鉀血症管理綜述，描述 calcium gluconate 用於心臟保護，確認適應症方向為高鉀而非低鉀，顯示 TxGNN 預測存在方向性錯誤"
+        },
+        {
+          "pmid": "3937812",
+          "title": "Imbalances of water and electrolyte status",
+          "year": "1985",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "電解質失衡綜述，鈣與鉀的相互作用為間接背景資訊"
+        },
+        {
+          "pmid": "7224794",
+          "title": "Blood mineral levels and enzyme activities",
+          "year": "1981",
+          "study_type": "Observational",
+          "tier": "3",
+          "relevance_note": "血液礦物質（含 Ca、K）與酵素活性的觀察性研究，與再利用無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenal ulcer (disease)",
+      "txgnn_score": 0.7394,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "歷史文獻（1974-1984）清楚描述靜脈注射鈣可刺激 G 細胞分泌 gastrin，進而增加胃酸分泌，此機轉在 Zollinger-Ellison syndrome 鑑別診斷（calcium infusion provocative test）中廣泛應用。對十二指腸潰瘍患者而言，此機轉意味著 calcium gluconate 可能加重潰瘍病情而非治療，再利用方向存在安全疑慮。一項 Phase 3 試驗（NCT03812380）已終止，另一進行中試驗（NCT05998863）測試的是 calcium magnesium citrate 預防長期 PPI 使用的礦物質代謝併發症，非治療十二指腸潰瘍本身。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03812380",
+          "title": "Effervescent Calcium Magnesium Citrate to Avert PPI Complications",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，測試含鈣製劑與 PPI 合用預防副作用，已終止（enrolled 62/目標），疾病背景相關但研究問題為 PPI 保護而非 DU 治療，且製劑非 calcium gluconate"
+        },
+        {
+          "nct_id": "NCT05998863",
+          "title": "Calcium Magnesium Citrate for PPI-related Mineral Metabolism Complications",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，正在招募（56 人），研究長期 PPI 使用的礦物質代謝保護，疾病情境有重疊但不直接測試 DU 治療"
+        },
+        {
+          "nct_id": "NCT04614779",
+          "title": "CN128 for Iron Deficiency (Phase 2a)",
+          "relevance_grade": "C",
+          "reasoning": "CN128 鐵缺乏治療 Phase 2 試驗，與 DU 或 calcium gluconate 無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6693045",
+          "title": "Interaction of calcium and gastrin on gastric acid secretion in duodenal ulcer patients",
+          "year": "1984",
+          "study_type": "Clinical Study / Mechanistic",
+          "tier": "2",
+          "relevance_note": "直接研究 DU 患者的鈣-胃泌素-胃酸分泌交互作用，顯示鈣刺激胃酸分泌，對 DU 患者為潛在有害機轉"
+        },
+        {
+          "pmid": "6971402",
+          "title": "Effect of IV calcium on gastric secretion and gastrin in humans",
+          "year": "1981",
+          "study_type": "Clinical Study / Mechanistic",
+          "tier": "2",
+          "relevance_note": "人類試驗確認 IV 鈣刺激 gastrin 及胃酸分泌，強化安全性疑慮"
+        },
+        {
+          "pmid": "627316",
+          "title": "Calcium and secretin as provocative stimuli in Zollinger-Ellison syndrome",
+          "year": "1978",
+          "study_type": "Clinical Study / Diagnostic",
+          "tier": "2",
+          "relevance_note": "ZE 症候群鈣激發試驗的診斷性研究，確認鈣為胃酸促分泌刺激物"
+        },
+        {
+          "pmid": "37042078",
+          "title": "Gastrinoma and Zollinger-Ellison syndrome: thorough review",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "現代 gastrinoma 綜合評述，包含鈣激發試驗的歷史角色討論"
+        },
+        {
+          "pmid": "858470",
+          "title": "Basal and calcium-stimulated gastroesophageal sphincter pressure in ZE patients",
+          "year": "1977",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_note": "鈣對食道括約肌壓力的影響研究，間接相關"
+        },
+        {
+          "pmid": "4419523",
+          "title": "Effect of calcium on gastric acid and gastrin in antrectomized subjects",
+          "year": "1974",
+          "study_type": "Clinical Study / Mechanistic",
+          "tier": "2",
+          "relevance_note": "胃竇切除術患者的鈣-胃泌素研究，機轉驗證資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenal obstruction",
+      "txgnn_score": 0.7296,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸阻塞（先天性狹窄、腫瘤壓迫、環狀胰腺等）主要為機械性病因，手術為標準治療。Calcium gluconate 無任何已知機轉可解除十二指腸阻塞，KG 預測的高分可能來自於胃腸道疾病節點的廣泛共現，不具臨床意義。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07406945",
+          "title": "SpydrBlade Flex Radiofrequency/Microwave Ablation for GI",
+          "relevance_grade": "C",
+          "reasoning": "消融裝置安全性試驗，與 calcium gluconate 或十二指腸阻塞的藥物治療完全無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37042078",
+          "title": "Gastrinoma and ZE syndrome review",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "胃泌素瘤綜述，提及十二指腸作為好發部位，但與 calcium gluconate 治療十二指腸阻塞無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "hyperlipidemia",
+      "txgnn_score": 0.7294,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉連結 calcium gluconate 與血脂調控。一篇 1995 年動物研究（PMID 7787690）探討飲食礦物質組成對膽固醇代謝的影響，但為高度間接的動物模型資料。臨床試驗均為 statin/ezetimibe 試驗，與 calcium gluconate 無關。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00462748",
+          "title": "Eze/Simva vs Atorvastatin Phase 3",
+          "relevance_grade": "C",
+          "reasoning": "Statin + ezetimibe 的高血脂治療 Phase 3 RCT，與 calcium gluconate 完全無關"
+        },
+        {
+          "nct_id": "NCT03288038",
+          "title": "Phase III Statin Combination Trial",
+          "relevance_grade": "C",
+          "reasoning": "他汀類藥物組合 Phase 3，與適應症目標藥物無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7787690",
+          "title": "Mineral composition of diet, cholesterol metabolic indices and experimental model",
+          "year": "1995",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_note": "動物實驗研究飲食礦物質（含鈣）與膽固醇指標的關係，為極間接的背景資料，不足以支持再利用"
+        },
+        {
+          "pmid": "17111419",
+          "title": "Severe citrate toxicity complicating apheresis donation",
+          "year": "2007",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "Citrate 毒性個案，以 calcium gluconate 拮抗低鈣血症，與高血脂治療無關"
+        },
+        {
+          "pmid": "10977780",
+          "title": "Heparin anticoagulation and protamine neutralization in extracorporeal circuit",
+          "year": "2000",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_note": "體外循環抗凝管理研究，與高血脂無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "urolithiasis",
+      "txgnn_score": 0.7290,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向安全警示：文獻顯示 calcium gluconate 可能「導致或加重」尿路結石而非治療。PMID 6786090 明確記錄新生兒使用 calcium gluconate 治療後出現高鈣尿症（hypercalciuria）；PMID 31449775 顯示鈣+維生素 D 補充加速 Randall's plaque（鈣沉積）形成；PMID 38732005 說明高鈣尿症升高腎小管 pH 加劇結石形成。以鈣補充劑再利用於結石治療在病理生理上不合理，存在明顯安全顧慮。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04633811",
+          "title": "Weight Loss Effect on Urinary Oxalate in Calcium Oxalate Stone Patients",
+          "relevance_grade": "B",
+          "reasoning": "鈣草酸結石患者的減重介入研究，疾病相關但測試減重而非 calcium gluconate，有助理解病理生理背景"
+        },
+        {
+          "nct_id": "NCT04095975",
+          "title": "Prescription vs Non-prescription Urinary Alkalinizing Agents for Stone Risk",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，尿液鹼化劑（含鈣鹽製劑）預防結石研究，有一定疾病和藥物類別相關性"
+        },
+        {
+          "nct_id": "NCT04603898",
+          "title": "Oxalate Formation From Ascorbic Acid",
+          "relevance_grade": "B",
+          "reasoning": "草酸生成機轉研究，與鈣草酸結石病理生理相關，但非測試 calcium gluconate"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6786090",
+          "title": "Gluconate calcium therapy and neonatal hypercalciuria",
+          "year": "1981",
+          "study_type": "Clinical Observation",
+          "tier": "3",
+          "relevance_note": "⭐ 最直接相關：明確記錄 calcium gluconate 療法導致新生兒高鈣尿症，為結石形成的危險因子，顯示安全疑慮而非治療潛力"
+        },
+        {
+          "pmid": "31449775",
+          "title": "Vitamin D and Calcium Supplementation Accelerates Randall's Plaque Formation",
+          "year": "2019",
+          "study_type": "Animal Study (murine)",
+          "tier": "3",
+          "relevance_note": "小鼠模型：鈣補充加速腎臟 Randall's plaque 形成，為結石前驅病變，支持安全警示"
+        },
+        {
+          "pmid": "38732005",
+          "title": "Rise in Tubular pH during Hypercalciuria Exacerbates Calcium Stone Formation",
+          "year": "2024",
+          "study_type": "Mechanistic Study",
+          "tier": "2",
+          "relevance_note": "2024 年機轉研究，高鈣尿症與腎小管 pH 升高協同促進結石，強化鈣補充的潛在危害"
+        },
+        {
+          "pmid": "10424248",
+          "title": "Acute effects of calcium sodium citrate on mineral homeostasis and oxalate",
+          "year": "1999",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_note": "含鈣製劑對草酸及礦物質平衡的急性效應研究，結果顯示鈣與草酸結石的複雜關係"
+        },
+        {
+          "pmid": "38452902",
+          "title": "Sex-specific Stone-forming Phenotype During Hypercalciuria/Urine Alkalinization",
+          "year": "2024",
+          "study_type": "Mechanistic Study",
+          "tier": "2",
+          "relevance_note": "2024 年性別差異結石形成研究，高鈣尿症情境，與 calcium gluconate 潛在副作用相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenogastric reflux",
+      "txgnn_score": 0.7051,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸胃反流（膽汁反流性胃炎）涉及幽門功能失常導致十二指腸內容物逆流至胃。Calcium gluconate 無任何已知機轉可影響幽門括約肌張力或十二指腸運動功能，KG 預測結果可能為胃腸道疾病節點間的廣泛共現假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "critical_finding": "零臨床試驗、零文獻，最低優先級適應症"
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "distribution": {
+      "L3": ["hypophosphatemia", "duodenal ulcer"],
+      "L4": ["dyspepsia", "potassium deficiency disease", "urolithiasis"],
+      "L5": ["calcium-alkali syndrome", "primary bone dysplasia", "duodenal obstruction", "hyperlipidemia", "duodenogastric reflux"]
+    },
+    "decision_summary": {
+      "S1_Research_Question": ["hypophosphatemia"],
+      "S1_Hold_Safety_Concern": ["duodenal ulcer"],
+      "S0_Hold": ["calcium-alkali syndrome", "primary bone dysplasia", "dyspepsia", "potassium deficiency disease", "duodenal obstruction", "hyperlipidemia", "urolithiasis", "duodenogastric reflux"]
+    },
+    "priority_indication": "hypophosphatemia",
+    "priority_rationale": "唯一達到 L3 且具正向機轉方向的適應症。Calcium gluconate IV 在低磷血症伴隨低鈣血症情境（hungry bone syndrome、XLH 術後、denosumab 相關礦物質失衡）中已有臨床實踐，具體人類個案報告支持，可進一步評估作為輔助支持療法的規範化研究。",
+    "safety_flags": [
+      "calcium-alkali syndrome：Calcium gluconate 為致病原因，絕對禁忌",
+      "urolithiasis：文獻顯示 calcium gluconate 可誘發高鈣尿症，增加結石風險",
+      "duodenal ulcer：鈣刺激胃酸分泌機轉，潛在加重病情",
+      "potassium deficiency disease：TxGNN 預測方向性錯誤（鈣用於高鉀，非低鉀）"
+    ],
+    "data_quality_note": "⚠️ 重要方法論提示：本次資料中所有臨床試驗係依疾病名稱匹配收集，並非直接測試 Calcium gluconate 的試驗。建議重新以 Calcium gluconate / calcium supplementation / IV calcium 為藥物關鍵字進行試驗搜尋，以獲得更精準的證據基礎。"
+  }
+}
+```
+
+---
+
+## 關鍵決策摘要
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策 | 主要疑慮 |
+|--------|-----------|---------|------|---------|
+| **低磷血症** | 0.900 | **L3** | ✅ Research Question | 個案報告支持，需系統性研究 |
+| 十二指腸潰瘍 | 0.739 | L3 | ⛔ Hold | 機轉顯示加重胃酸分泌 |
+| 消化不良 | 0.901 | L4 | ⛔ Hold | 無直接證據，機轉不支持 |
+| **鈣-鹼症候群** | 0.989 | L5 | 🚫 **禁忌** | Calcium gluconate 為致病因子 |
+| 尿路結石 | 0.729 | L4 | 🚫 安全警示 | 文獻顯示可能加重病情 |
+| 其餘 5 項 | <0.85 | L5 | ⛔ Hold | 零直接證據 |
+
+> 📌 **本分析僅供研究參考，不構成醫療建議。所有再利用候選需經完整臨床驗證方可應用。**

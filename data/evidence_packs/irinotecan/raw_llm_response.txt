@@ -1,0 +1,401 @@
+以下是 **Irinotecan（DB00762）** 完整的藥物再利用證據評估報告。
+
+> ⚠️ **資料庫品質注意事項**
+> - `original_moa: "[Data Gap]"` 為資料庫缺失，Irinotecan 機轉明確：前驅藥物→ SN-38（Topoisomerase I 抑制劑）→ DNA 單股斷裂→凋亡
+> - `market_status: "未上市"` 與 `original_indications: []` 疑為在地資料庫缺漏，Irinotecan 全球已核准用於結直腸癌、胰臟癌（FOLFIRINOX 組合）
+> - 乳癌文獻中 PMID 28632865（結直腸癌研究）及 PMID 40513578（GBM研究）疑為資料收集誤納，已在分析中標注
+
+---
+
+```json
+{
+  "drug": "Irinotecan",
+  "drugbank_id": "DB00762",
+  "known_moa": "Topoisomerase I 抑制劑（SN-38 活性代謝物）",
+  "indications": [
+    {
+      "disease_name": "female breast carcinoma",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Irinotecan 代謝為 SN-38，後者抑制 Topoisomerase I，阻斷 DNA 複製叉→雙股斷裂→凋亡。乳癌中 TROP-2 高度表現，sacituzumab govitecan（抗 TROP-2 ADC，負載 SN-38）已獲 FDA 核准用於 TNBC（ASCENT, Phase 3）及 HR+/HER2-（TROPiCS-02, Phase 3），直接驗證 SN-38 在乳癌中的臨床療效。Nanoliposomal Irinotecan（Nal-IRI/MM-398）的 Phase 1 及 Phase 2 研究亦直接評估 Irinotecan 本體於乳癌患者的安全性與藥動學。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01770353",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，直接測試 MM-398（Nanoliposomal Irinotecan）於乳癌患者，COMPLETED，n=45；提供 PK/PD、腫瘤攝取及安全性直接數據，為 Irinotecan 本體在乳癌最直接的 Phase 1 證據。"
+        },
+        {
+          "nct_id": "NCT03562390",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，直接測試 Irinotecan 單藥用於蒽環類及紫杉類治療後的晚期/轉移性乳癌，n=124；為 Irinotecan 再利用最核心的 Phase 2 試驗，狀態 UNKNOWN（疑已完成未更新）。"
+        },
+        {
+          "nct_id": "NCT02033551",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 延伸研究，Veliparib（PARP抑制劑）聯合 Irinotecan 及其他化療於乳癌，COMPLETED，n=47；支持 Irinotecan 組合策略在乳癌中的安全性。"
+        },
+        {
+          "nct_id": "NCT05453825",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 籃式研究，Navicixizumab（anti-DLL4/VEGF）聯合含 Irinotecan 化療方案於乳癌，UNKNOWN，n=180；支持 Irinotecan 在乳癌持續組合治療的評估脈絡。"
+        },
+        {
+          "nct_id": "NCT02419495",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，Selinexor（XPO1 抑制劑）聯合多種標準化療（含 Irinotecan arm）於乳癌，TERMINATED，n=221；提供 Irinotecan 乳癌組合的耐受性參考，但終止限制解讀。"
+        },
+        {
+          "nct_id": "NCT04579224",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，Eribulin+Gemcitabine vs 醫師選擇方案（SOC），Irinotecan 可能包含於 SOC 選項之一，非主要研究藥物，相關性間接。"
+        },
+        {
+          "nct_id": "NCT03875313",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2，CB-839（Glutaminase 抑制劑）聯合化療（含 Irinotecan arm）於乳癌，TERMINATED，n=33；早期終止且樣本小，Irinotecan 非主要研究藥物。"
+        },
+        {
+          "nct_id": "NCT04279509",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，患者來源類器官（PDO）篩選化療方案，Irinotecan 可作為測試藥物之一；方法學上為藥物選擇平台研究，非 Irinotecan 特定療效評估。"
+        },
+        {
+          "nct_id": "NCT06047379",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2，NEO212（口服 TMZ-PA 結合物）於星形細胞瘤，與乳癌適應症不符；疑為資料庫收集誤差，相關性極低。"
+        },
+        {
+          "nct_id": "NCT03253575",
+          "relevance_grade": "C",
+          "reasoning": "CANscript 多中心觀察性研究（真實世界化療結果），SUSPENDED，n=800；提供背景療效參考，非 Irinotecan 乳癌特定試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30786188",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "ASCENT 試驗：Sacituzumab govitecan（SN-38 ADC）於難治性轉移性 TNBC，ORR 35% vs 5%，mPFS 5.6 vs 1.7 個月；SN-38 為 Irinotecan 活性代謝物，直接驗證 SN-38 在乳癌的 Phase 3 療效。"
+        },
+        {
+          "pmid": "36027558",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "TROPiCS-02：Sacituzumab govitecan 於 HR+/HER2- 轉移性乳癌，OS 延長（14.4 vs 11.2 個月），FDA 2023 年核准；確認 SN-38 payload 在 HR+ 乳癌的療效。"
+        },
+        {
+          "pmid": "32223649",
+          "study_type": "Phase 3 Protocol",
+          "tier": "1",
+          "note": "TROPiCS-02 研究設計報告，確立 HR+/HER2- 轉移性乳癌中 SN-38 ADC 的 Phase 3 研究框架與主要終點。"
+        },
+        {
+          "pmid": "36302269",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "TROP-2 靶向 ADC 在轉移性乳癌臨床發展的全面綜述，確認 SN-38 為乳癌中最有效的 ADC payload 之一。"
+        },
+        {
+          "pmid": "31208270",
+          "study_type": "Review/Case Study",
+          "tier": "2",
+          "note": "Anti-TROP-2 sacituzumab govitecan 案例研究，詳述 SN-38 機轉、PK 特性及乳癌臨床反應相關性。"
+        },
+        {
+          "pmid": "26101915",
+          "study_type": "Phase 1/2",
+          "tier": "2",
+          "note": "TROP-2/SN-38 ADC（IMMU-132）在多種實體腫瘤（含乳癌）的原始驗證研究，ORR 30%；建立乳癌中 SN-38 療效基礎。"
+        },
+        {
+          "pmid": "28558150",
+          "study_type": "Phase 2",
+          "tier": "2",
+          "note": "Sacituzumab govitecan 治療轉移性 TNBC，ORR ~30%，中位 PFS 5.5 個月；支持 SN-38 在難治性乳癌中的活性。"
+        },
+        {
+          "pmid": "25915780",
+          "study_type": "Phase 1/2",
+          "tier": "2",
+          "note": "Sacituzumab govitecan 特性分析研究，建立 SN-38 在乳癌中的 PK/PD 及抗腫瘤活性基礎數據。"
+        },
+        {
+          "pmid": "28632865",
+          "study_type": "RCT",
+          "tier": "3",
+          "note": "⚠️ 資料誤納：第一線化療+Cetuximab/Bevacizumab（疑為結直腸癌研究），與乳癌適應症不符；相關性極低，不應計入乳癌證據。"
+        },
+        {
+          "pmid": "40513578",
+          "study_type": "Preclinical/Translational",
+          "tier": "3",
+          "note": "⚠️ 資料誤納：Cisplatin+Temozolomide 觸發超突變性研究（GBM 背景），與乳癌適應症不符；不應計入乳癌證據。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "pancreatic carcinoma with mixed differentiation",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "混合分化胰臟癌（Mixed Adenoneuroendocrine Carcinoma, MANEC）兼具腺癌及神經內分泌癌（NEC）成分。腺癌成分對 Irinotecan 的 Topo I 抑制敏感；NEC 成分則可參考高級別 NEC 的 FOLFIRINOX/NALIRIFOX 標準方案。NALIRIFOX（含 Nal-IRI = nanoliposomal irinotecan）目前在肺外高級別神經內分泌腫瘤中有 Phase 2 進行中，提供直接臨床評估依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07077551",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，NALIRIFOX（Nal-IRI + 5-FU/LV + Oxaliplatin）作為肺外高級別神經內分泌腫瘤（含胰臟 NEC/MANEC）的二線化療，RECRUITING，n=28；最直接評估 Irinotecan 製劑在此混合分化亞型相關腫瘤中療效的試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38744314",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "mFOLFIRINOX（含 Irinotecan）於高級別胃腸胰 NEN（G3/NEC）的療效與毒性分析，ORR 及 PFS 數據支持 Irinotecan 在混合分化胰臟癌 NEC 成分中的治療價值。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "osteoclastic giant cell tumor of pancreas",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "破骨細胞樣巨細胞腫瘤（Undifferentiated Carcinoma with Osteoclast-like Giant Cells）為極罕見胰臟腫瘤（全球文獻報告 < 300 例），腫瘤微環境中含大量 CD68+ 非腫瘤性破骨細胞樣細胞。目前無任何 Irinotecan 相關臨床前或臨床數據；TxGNN 預測推測基於與胰臟腺癌的拓撲學相似性，尚缺乏直接驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+
+    {
+      "disease_name": "solid pseudopapillary carcinoma of pancreas",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "固體假乳頭狀腫瘤（SPN/Frantz 腫瘤）以 β-catenin 突變（CTNNB1 exon 3）為特徵，主要為手術治療，5 年存活率 > 95%。轉移性/無法切除病例罕見，化療方案無標準。Irinotecan 的 SN-38 對增殖活躍細胞有效，但 SPN 分裂指數通常較低（Ki-67 < 10%），理論上敏感性存疑。目前僅有個案報告描述化療用於轉移性 SPN，Irinotecan 是否包含於方案中尚不明確。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22399634",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "腹膜癌化症（來自 SPN/Frantz 腫瘤）的化療治療案例（2012），疑包含含 Irinotecan 方案，提供極有限的個案層次治療參考。"
+        },
+        {
+          "pmid": "36505136",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "SPN 晚期復發伴腹膜癌化症的化療處置案例（2022），描述多線治療選擇，疑含 Irinotecan 基礎方案，為個案層次。"
+        },
+        {
+          "pmid": "40038436",
+          "study_type": "Genomic/Translational",
+          "tier": "3",
+          "note": "侵襲性轉移性 SPN 全基因組分析（2025），揭示潛在治療靶點與突變特徵，無直接 Irinotecan 療效數據，提供分子背景依據。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "pancreatic intraductal papillary-mucinous carcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "IPMC（導管內乳頭狀黏液癌）為 IPMN 惡性侵襲轉化後的形態，分子特徵（KRAS、GNAS、CDKN2A 突變）與胰臟導管腺癌（PDAC）高度重疊。侵襲性 IPMC 原則上依循 PDAC 化療方案（含 FOLFIRINOX），但直接評估 Irinotecan 於 IPMC 的臨床試驗缺如；目前僅有個案報告支持 mFOLFIRINOX 在復發性 IPMC 肝轉移中的顯著療效。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40189770",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "mFOLFIRINOX 於 IPMC 復發肝轉移顯著反應的日文案例報告（2025），直接描述含 Irinotecan 方案在此特定亞型中的治療反應，為目前最相關的直接證據。"
+        },
+        {
+          "pmid": "29264591",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "轉移性胰臟腺癌（含 IPMC 相關）表現為腋窩/鎖骨上淋巴結轉移的罕見案例，提供 IPMC 相關腺癌臨床生物學描述，化療方案詳情未明。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "pancreatic intraductal papillary-mucinous neoplasm",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "IPMN 為 IPMC 的前驅病變，惡性轉化後分子特性趨近 PDAC。FOLFIRINOX 已被用於 IPMN 相關惡性病變的新輔助化療（術前降期），顯示對 IPMN 衍生腫瘤細胞具有療效。Irinotecan 在惡性 IPMN 的作用機轉基於 Topo I 高活性假說及 FOLFIRINOX 外推，但尚需前瞻性驗證。相較於已確立惡性的 IPMC，IPMN 的治療介入時機（惡性轉化前後）需審慎評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38229493",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "FOLFIRINOX 新輔助化療後的微創胰十二指腸切除術案例系列（2023），展示 IPMN 惡性轉化病灶對含 Irinotecan 方案有反應，支持術前降期應用。"
+        },
+        {
+          "pmid": "40189770",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "mFOLFIRINOX 於 IPMC/IPMN 相關腺癌顯著療效的最新案例（2025），橫跨 IPMN 至 IPMC 的治療參考。"
+        },
+        {
+          "pmid": "29264591",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "轉移性胰臟腺癌罕見表現案例，提供 IPMN 相關惡性腫瘤臨床背景描述。"
+        },
+        {
+          "pmid": "30948915",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "晚期胰臟癌長期存活案例（輔助 Viscum album），化療為標準方案，提供生存結果背景對照；與 Irinotecan 直接相關性低。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "pancreatic signet ring cell adenocarcinoma",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "印戒環細胞癌（SRCA）以 E-cadherin（CDH1）缺失、瀰漫型生長及高侵襲性為特徵，對傳統化療相對耐藥。FOLFOXIRI/mFOLFIRINOX（含 Irinotecan）組合方案在胃腸道 SRCA 中顯示臨床獲益；體外類器官（PDO）平台驗證 SN-38 對 SRCA 的敏感性。UGT1A1 基因型（影響 SN-38 代謝）的個人化劑量調整（NCT01643499）為此族群使用 Irinotecan 提供安全性依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01643499",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，UGT1A1 基因型引導的 mFOLFIRINOX 劑量最佳化研究，涵蓋晚期胃腸道癌症（含 SRCA），COMPLETED，n=79；建立 Irinotecan 在此族群的安全劑量範疇及 PK 數據，為個人化用藥的直接 Phase 1 依據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35013129",
+          "study_type": "Translational/Preclinical",
+          "tier": "2",
+          "note": "胃印戒環細胞癌類器官（PDO）建立及化療敏感性篩選（2022），提供 SN-38/Irinotecan 對 SRCA 的體外活性數據，機轉層次驗證。"
+        },
+        {
+          "pmid": "37543827",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "FOLFOXIRI（含 Irinotecan）+ Bevacizumab 於晚期原發性 SRCA 的臨床獲益分析（2023），直接描述含 Irinotecan 方案在 SRCA 中的療效，DCR 及 PFS 數據。"
+        },
+        {
+          "pmid": "17108732",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "MTX+5-FU+Levofolinate 化療後長期存活（3年4個月）案例（2006），歷史參考；無 Irinotecan 直接數據。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "mixed ductal-endocrine carcinoma of pancreas",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "混合導管-內分泌癌（Mixed Ductal-Endocrine Carcinoma）兼具外分泌腺癌及神經內分泌腫瘤成分，為 MANEC 的罕見亞型。理論上 Irinotecan 可能對腺癌成分（Topo I 抑制）及 NEC 成分（FOLFIRINOX 外推）均有效，但目前完全缺乏臨床或臨床前直接證據；TxGNN 預測分數與 osteoclastic giant cell tumor 相近，推測基於胰臟腫瘤的拓撲學特性，需實驗驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+
+    {
+      "disease_name": "malignant exocrine pancreas neoplasm",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "惡性外分泌胰臟腫瘤（含腺泡細胞癌 ACC、混合型腺泡-神經內分泌癌等非典型 PDAC 亞型）理論上對 Topo I 抑制敏感，因其增殖活性通常高於 PDAC。FOLFIRINOX（含 Irinotecan）為 PDAC 的 Phase 3 標準方案（PRODIGE 4/ACCORD 11），可外推至外分泌惡性亞型；Gemcitabine 耐藥後 Irinotecan 的替代方案具合理機轉依據。ACC 相較 PDAC 對 Irinotecan 可能更敏感（高 Ki-67、BRCA 相關性）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31679214",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "胰臟癌 Gemcitabine 化療耐藥機制全面綜述（2019），系統分析耐藥後的替代治療選擇，為 Irinotecan 在 Gemcitabine 難治性惡性外分泌胰臟腫瘤中的應用提供理論框架。"
+        },
+        {
+          "pmid": "39576455",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "切除性胰腺腺泡細胞癌（ACC）生存結果與遺傳特徵分析（2025），為惡性外分泌胰臟腫瘤中 ACC 亞型的臨床基礎數據，提供預後分層與化療反應背景。"
+        },
+        {
+          "pmid": "14533437",
+          "study_type": "Phase 2",
+          "tier": "2",
+          "note": "低劑量序貫 Gemcitabine+5-FU+LV+Cisplatin（GFP）於胰臟癌的 Phase 2 研究（2003），提供多藥組合在外分泌胰臟癌的歷史療效對照；無 Irinotecan 直接數據。"
+        },
+        {
+          "pmid": "15191206",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "胰臟癌腦轉移案例報告（2004），描述化療方案選擇與腦轉移管理，為惡性外分泌胰臟腫瘤的系統性治療背景參考。"
+        },
+        {
+          "pmid": "30407325",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "BRCA2 突變晚期胰腺腺泡細胞癌（ACC）對 Olaparib 的顯著反應（2018），提示 BRCA 突變外分泌胰臟腫瘤的靶向治療方向；與 Irinotecan 結合 PARP 抑制劑的組合策略具機轉協同基礎。"
+        }
+      ]
+    },
+
+    {
+      "disease_name": "undifferentiated pancreatic carcinoma",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "未分化胰臟癌（間變性癌/Anaplastic Carcinoma）為高侵襲性亞型（中位 OS 2-3 個月），高度表現 KRAS、TP53 突變，增殖指數極高（Ki-67 往往 > 80%）。高增殖率理論上增加 Topo I 依賴性，使 Irinotecan 具備機轉合理性；然 FOLFIRINOX 的術前試驗（NCT02345460）因招募困難僅納入 1 名受試者即終止，無統計意義。個案報告中化療療效數據稀少，積極化療的安全性窗口在此極差預後族群中需謹慎評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02345460",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，術前 FOLFIRINOX（含 Irinotecan）用於可切除胰臟腺癌（含未分化亞型），TERMINATED，僅 n=1；提供方案設計參考，但因提前終止完全無統計意義。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31035768",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "未分化胰臟癌案例報告（2018），描述診斷、臨床表現及治療挑戰；無 Irinotecan 直接療效數據，提供疾病特性背景。"
+        },
+        {
+          "pmid": "28011495",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "產生 G-CSF 的未分化胰臟癌（間變性癌）案例報告（2017），探討化療選擇與支持治療；間接支持含 Irinotecan 方案作為治療選項的可能性，但缺乏療效數據。"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 摘要比較表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|---|---|---|---|---|
+| **female breast carcinoma** | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 2 直接試驗 + SN-38 ADC Phase 3 (FDA核准) |
+| **pancreatic carcinoma with mixed differentiation** | L3 | S2 | 🔬 Research Question | NALIRIFOX Phase 2 進行中 + mFOLFIRINOX 回溯性數據 |
+| **pancreatic signet ring cell adenocarcinoma** | L3 | S2 | 🔬 Research Question | Phase 1 完成 (UGT1A1引導) + 類器官 + 回溯性隊列 |
+| **malignant exocrine pancreas neoplasm** | L3 | S2 | 🔬 Research Question | FOLFIRINOX Phase 3 外推 + Gemcitabine耐藥後機轉依據 |
+| **pancreatic intraductal papillary-mucinous neoplasm** | L4 | S1 | 🔬 Research Question | FOLFIRINOX新輔助案例系列（較多文獻） |
+| **solid pseudopapillary carcinoma of pancreas** | L4 | S1 | ⛔ Hold | 個案報告，Ki-67 低，機轉效益存疑 |
+| **pancreatic intraductal papillary-mucinous carcinoma** | L4 | S1 | ⛔ Hold | 僅單一個案報告（2025） |
+| **undifferentiated pancreatic carcinoma** | L4 | S1 | ⛔ Hold | 試驗終止（n=1），個案報告，預後極差 |
+| **osteoclastic giant cell tumor of pancreas** | **L5** | **S0** | ⛔ Hold | 零臨床證據，純預測 |
+| **mixed ductal-endocrine carcinoma of pancreas** | **L5** | **S0** | ⛔ Hold | 零臨床證據，純預測 |
+
+---
+
+## 🔑 核心發現
+
+1. **最強再利用候選**：`female breast carcinoma`（L2/S2）—— SN-38（活性代謝物）作為 ADC payload 已完成 Phase 3 雙重驗證（ASCENT + TROPiCS-02），直接 Irinotecan Phase 2 試驗（NCT03562390）亦存在，應優先考量 TNBC 與 HR+/HER2- 乳癌適應症的正式臨床發展
+
+2. **胰臟癌群組**：受益於 FOLFIRINOX 全球既有 Phase 3 數據（PRODIGE 4/ACCORD 11）的外推效應，但大多數罕見亞型（SPN、IPMC、undifferentiated）仍缺乏直接證據，建議聚焦於 **mixed differentiation** 及 **signet ring cell** 亞型進行前瞻性研究
+
+3. **資料品質警示**：乳癌適應症中有 2 篇文獻（PMID 28632865、40513578）疑為非乳癌文獻誤納，建議重新審核資料收集管道，以避免高估乳癌文獻證據量

@@ -1,0 +1,139 @@
+## Crotamiton (DB00265) 藥物再利用證據分析
+
+資料特徵摘要：所有 10 個適應症的 `clinical_trials_count = 0`、`literature_count = 0`，僅有 TxGNN 模型預測分數，為純計算預測結果。
+
+```json
+{
+  "drug": "Crotamiton",
+  "drugbank_id": "DB00265",
+  "analysis_date": "2026-04-04",
+  "data_quality_note": "original_moa=[Data Gap]；市售資料缺乏。Crotamiton 已知為殺疥蟎劑（acaricide）及止癢劑，原始適應症欄位空白可能為當地資料缺失，非藥物無既有適應症。",
+  "indications": [
+    {
+      "disease_name": "trombiculiasis",
+      "txgnn_score": 0.9624,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Trombiculiasis（恙蟎病）由恙蟎幼蟲（Trombiculidae）寄生皮膚所致。Crotamiton 已知機轉為殺蟎劑（acaricide），其核心適應症為疥瘡（Sarcoptes scabiei 蟎蟲感染），與恙蟎同屬蛛形綱蜱蟎目。機轉連結強度：高（同類寄生蟲，相似殺蟲機轉）。惟恙蟎幼蟲附著後短期脫落，治療目標以止癢為主，臨床情境有別於疥瘡。此適應症在資料庫中仍無臨床試驗或文獻支持，升級至 Research Question 係基於藥理相關性，而非現有臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "special_notes": "此適應症與 Crotamiton 已知藥理（殺蟎）最具生物合理性，建議優先進行文獻回顧，確認是否有未被本資料庫收錄之個案報告或臨床應用紀錄。"
+    },
+    {
+      "disease_name": "lymph node palisaded myofibroblastoma",
+      "txgnn_score": 0.9570,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淋巴結柵欄狀肌纖維母細胞瘤（lymph node palisaded myofibroblastoma）為罕見良性間葉性腫瘤，以手術切除為主要治療。Crotamiton 無已知抗腫瘤或抗間葉細胞增生機轉，無生物合理性支持。高 TxGNN 分數可能反映圖神經網路之拓撲鄰近性，而非真實藥理連結。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "abdominal ectopic pregnancy",
+      "txgnn_score": 0.9566,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹腔異位妊娠為外科急症，治療以手術或 Methotrexate（MTX）介入為主。Crotamiton 無抗增殖、抗滋養層細胞或荷爾蒙調節機轉，無任何藥理基礎支持此再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "celiac trunk compression syndrome",
+      "txgnn_score": 0.9566,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹腔幹壓迫症候群（Median arcuate ligament syndrome）為血管解剖異常，需血管重建手術治療。Crotamiton 無血管舒張、抗纖維化或解剖重塑機轉，此預測生物合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "abdominal cystic lymphangioma",
+      "txgnn_score": 0.9566,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹腔囊狀淋巴管瘤為良性先天性淋巴管發育異常，以手術切除為主。Crotamiton 無抗淋巴管增生或囊腫退縮相關機轉，藥理基礎不存在。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "disease of uterine broad ligament",
+      "txgnn_score": 0.9564,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮闊韌帶疾病為廣泛疾病分類（含子宮內膜異位、纖維瘤等），缺乏特定藥理靶點。Crotamiton 無已知婦科或骨盆腔相關機轉，此預測屬 KG 拓撲噪音。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "disease of retroperitoneum",
+      "txgnn_score": 0.9562,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹膜後疾病為廣泛解剖分類，涵蓋多種異質性疾病。無特定藥理靶點與 Crotamiton 連結。此廣義分類出現於高分預測清單，可能反映 KG 中地理/解剖節點聚集效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "sacrum chordoma",
+      "txgnn_score": 0.9560,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "薦骨脊索瘤（sacrum chordoma）為低度惡性骨腫瘤，源自脊索殘餘組織，以手術及放射治療為主，靶向治療以 PDGFR/EGFR 抑制劑為主要研究方向。Crotamiton 無已知抗腫瘤機轉，無生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "urethral disease",
+      "txgnn_score": 0.9554,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尿道疾病為廣泛分類（含尿道炎、狹窄、憩室等）。Crotamiton 外用劑型不適用於尿道疾病，且無系統性抗感染機轉紀錄。此廣義分類預測可信度低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hordeolum",
+      "txgnn_score": 0.9552,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "麥粒腫（hordeolum/stye）為睫毛毛囊或眼瞼腺體急性細菌感染（主要為金黃色葡萄球菌）。Crotamiton 無明確抗菌機轉，眼用製劑安全性亦未建立。雖外用劑型有接觸皮膚之使用先例，但眼周應用無數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要與建議
+
+### 整體評估
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 主因 |
+|--------|---------|---------|------|------|
+| trombiculiasis | **L5** | S0 | **Research Question** ⚠️ | 藥理相關性高（殺蟎機轉），值得文獻回顧 |
+| 其餘 9 個 | **L5** | S0 | **Hold** | 無生物合理性，純 KG 拓撲預測 |
+
+### 關鍵觀察
+
+1. **資料品質警示**：`original_indications = []` 及 `original_moa = [Data Gap]` 顯示本地資料庫缺乏 Crotamiton 既有適應症紀錄，但此藥在全球（含美國 FDA、歐盟）已核准用於**疥瘡及搔癢症**。評估前應補充此背景知識。
+
+2. **高分但低機轉群組**：分數 0.9560–0.9566 的 6 個適應症（abdominal ectopic pregnancy、celiac trunk compression syndrome 等）分數極為相近，且均為解剖/外科疾病，屬 KG 圖神經網路「地理聚集」假陽性特徵，建議過濾。
+
+3. **唯一值得追蹤的假說**：Trombiculiasis 因與 Crotamiton 殺蟎機轉高度一致，建議執行 **PubMed/ICTRP 補充文獻搜尋**，可能存在個案報告或非對照研究未被本資料庫收錄。
+
+4. **下一步行動**（僅針對 trombiculiasis）：
+   - 搜尋 PubMed：`"crotamiton" AND ("trombiculiasis" OR "chigger" OR "scrub mite")`
+   - 若找到文獻 → 可升級至 L4，進入 S1（安全性初評）
+   - 若無文獻 → 維持 L5/S0/Hold

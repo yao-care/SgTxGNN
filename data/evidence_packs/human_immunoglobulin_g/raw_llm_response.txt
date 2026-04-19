@@ -1,0 +1,296 @@
+## 藥物再利用證據分析：Human Immunoglobulin G (DB00028)
+
+> **重要背景說明**：DB00028 = IVIG（靜脈注射人免疫球蛋白），為混合型多克隆 IgG 製劑，主要機轉包括 Fc 受體調節、補體抑制、細胞激素調節等免疫調節作用。本分析中部分臨床試驗涉及「IgG 骨架」單株抗體（如 anti-TNF、anti-VEGF），並非 IVIG 本身，需區分辨識。
+
+---
+
+```json
+{
+  "drug": "Human Immunoglobulin G (IVIG)",
+  "drugbank_id": "DB00028",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "DB00028 為多克隆 IVIG 製劑，非特定單株抗體。TxGNN 高分可能反映 IgG 類別廣義相關性，需嚴格區分 IVIG 治療與 IgG 糖化生物標記研究",
+  "indications": [
+    {
+      "disease_name": "diabetic retinopathy",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "IgG Fc 糖化模式（galactosylation/sialylation 比例）與糖尿病視網膜病變的炎症狀態相關。高唾液酸化 IgG 具抗炎效果（IVIG 作用機轉之一），在 DR 的微血管炎症環境中具生物合理性。Mendelian randomization 研究（PMID 40682148）顯示 IgG 糖化與糖尿病併發症有因果關聯，但為標記物而非治療介入的直接證據。",
+      "critical_gap": "列出的 3 個臨床試驗均非 IVIG 試驗：NCT01148225 為 anti-TNF 單株抗體，NCT02443155 可能為 anti-VEGF，NCT02924987 為 Aflibercept vs Bevacizumab。無 IVIG 直接治療 DR 的 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01148225",
+          "title": "Human Anti-TNF Monoclonal (Phase 3, n=424, COMPLETED)",
+          "relevance_grade": "C",
+          "reasoning": "IgG 骨架單株抗體（anti-TNF），非 IVIG 製劑。試驗目標疾病需確認，若為葡萄膜炎/眼部炎症則 relevance grade 可提升至 B，但機轉完全不同於多克隆 IVIG。"
+        },
+        {
+          "nct_id": "NCT02443155",
+          "title": "Phase 2 RCT (n=308, COMPLETED, double-blind)",
+          "relevance_grade": "C",
+          "reasoning": "標題截斷，無法確認試驗藥物。規模與設計良好，但無法判斷與 IVIG 的關聯性。需查閱完整 NCT 記錄。"
+        },
+        {
+          "nct_id": "NCT02924987",
+          "title": "Aflibercept vs Bevacizumab for Diabetic Macular Edema (Phase 4, n=40, UNKNOWN)",
+          "relevance_grade": "C",
+          "reasoning": "Anti-VEGF 療法比較研究，與 IVIG 無直接關聯。DR 適應症相關，但藥物機轉完全不同。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40682148",
+          "title": "Causal association between IgG N-glycosylation patterns and diabetic complications",
+          "year": "2025",
+          "study_type": "Mendelian Randomization",
+          "tier": "2",
+          "note": "因果推斷設計，顯示 IgG 糖化→DR 的方向性，支持機轉假說，但非治療介入研究"
+        },
+        {
+          "pmid": "40204274",
+          "title": "Serum Disease-Specific IgG Fc Glycosylation as Potential Biomarkers for DR",
+          "year": "2025",
+          "study_type": "Biomarker Study (Cross-sectional)",
+          "tier": "3",
+          "note": "生物標記研究，IgG 糖化模式可區分 NPDR/PDR，非治療證據"
+        },
+        {
+          "pmid": "32714992",
+          "title": "Quantitative Analysis of B-Cell-Produced Antibodies in Vitreous Humor of T2DM",
+          "year": "2020",
+          "study_type": "Observational (ex vivo)",
+          "tier": "3",
+          "note": "玻璃體中 IgG 局部產生分析，提供眼部免疫環境背景，間接支持機轉"
+        },
+        {
+          "pmid": "16405060",
+          "title": "Impaired antiendotoxin immunity in patients with diabetic retinopathy",
+          "year": "2005",
+          "study_type": "Case-Control",
+          "tier": "3",
+          "note": "DR 患者抗內毒素免疫力受損，與 IVIG 可能的免疫調節效益間接相關"
+        },
+        {
+          "pmid": "24311895",
+          "title": "Biomarkers in diabetic retinopathy and the therapeutic implications",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "綜述文獻，IgG 作為多種 DR 生物標記之一，未聚焦 IVIG 治療"
+        }
+      ]
+    },
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "僅有 IgG Fc 糖化生物標記研究（PMID 40204274），顯示 IgG 糖化模式在 NPDR/PDR 間有差異，屬探索性生物標記發現，無治療介入相關機轉假說支持。",
+      "critical_gap": "零臨床試驗，1 篇生物標記論文，缺乏任何治療介入的前期資料。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40204274",
+          "title": "Serum Disease-Specific IgG Fc Glycosylation as Potential Biomarkers for NPDR/PDR",
+          "year": "2025",
+          "study_type": "Biomarker Study",
+          "tier": "3",
+          "note": "確認 IgG 與疾病相關，但屬生物標記而非治療意義"
+        }
+      ]
+    },
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉假說。列出的試驗均為骨質疏鬆治療比較研究（可能涉及 denosumab - 抗 RANKL IgG 單株抗體），非 IVIG 治療。TxGNN 高分可能源於訓練資料中 IgG 骨架藥物（denosumab）與骨質疏鬆的關聯，屬藥物類別混淆。",
+      "critical_gap": "零相關文獻，試驗均非 IVIG 適應症，生物合理性極弱。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05493761",
+          "title": "Anti-osteoporotic Medications on Hepatic Steatosis (Phase 4, n=72, ACTIVE)",
+          "relevance_grade": "C",
+          "reasoning": "抗骨鬆藥物（雙磷酸鹽/denosumab）對肝臟影響研究，非 IVIG 試驗。與 Human IgG DB00028 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT00559585",
+          "title": "Phase 3 Comparative Efficacy Study (n=2492, COMPLETED)",
+          "relevance_grade": "C",
+          "reasoning": "大型 Phase 3 骨鬆試驗，規模提示為 denosumab vs bisphosphonate 比較（非 IVIG）。與 IVIG 治療骨鬆無關。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "senile cataract",
+      "txgnn_score": 0.9789,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻主要描述白內障患者房水中 IgG 局部產生及免疫複合物存在（PMID 900214, 2211009 等），屬疾病病理特徵描述，非 IVIG 治療白內障的機轉依據。Fuchs 異色性虹膜炎相關研究（PMID 15234281, 9700004）指出感染後免疫反應，但仍屬診斷/病因研究。",
+      "critical_gap": "零臨床試驗。14 篇文獻均為測量性/病因性研究，無一篇為 IVIG 治療白內障的介入研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "900214",
+          "title": "Immune complexes in the aqueous humor and serum",
+          "year": "1977",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "免疫複合物測量，病理描述，非治療研究"
+        },
+        {
+          "pmid": "7448158",
+          "title": "Antibodies to lens antigens in cataract and after surgery",
+          "year": "1981",
+          "study_type": "Case-Control",
+          "tier": "3",
+          "note": "白內障術後免疫反應，IgG 作為病理指標"
+        },
+        {
+          "pmid": "41038368",
+          "title": "Plasma N-glycan signature as biomarker for primary open angle glaucoma",
+          "year": "2025",
+          "study_type": "Biomarker Study",
+          "tier": "3",
+          "note": "青光眼 glycan 生物標記，與白內障關聯極間接"
+        }
+      ]
+    },
+    {
+      "disease_name": "cortical cataract",
+      "txgnn_score": 0.9790,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻中 PMID 9213052 描述小腦共濟失調伴高 IgG 及後極皮質白內障的罕見症候群，屬個案描述而非因果關係。其餘文獻為類固醇治療（PMID 31905944）及弓漿蟲病（PMID 21738273）相關，均非 IVIG 治療皮質白內障的依據。",
+      "critical_gap": "零臨床試驗，文獻均為間接觀察，無治療介入依據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9213052",
+          "title": "Cerebellar ataxia, raised IgG, cortical cataract",
+          "year": "1997",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "個案報告，高 IgG 與皮質白內障並存，相關性不等於因果"
+        },
+        {
+          "pmid": "18539933",
+          "title": "Associations of seroreactivity against crystallin proteins with disease activity and cataract",
+          "year": "2008",
+          "study_type": "Cross-sectional",
+          "tier": "3",
+          "note": "抗晶狀體蛋白抗體（IgG）與白內障相關，屬自體免疫機制探索"
+        }
+      ]
+    },
+    {
+      "disease_name": "nuclear senile cataract",
+      "txgnn_score": 0.9790,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "僅有 1977 年的房水免疫球蛋白測量研究（PMID 304264），描述幼年型類風濕關節炎患者房水中 IgG 升高，屬病理觀察。核性白內障與 IVIG 治療的機轉聯繫極為薄弱。",
+      "critical_gap": "零臨床試驗，單篇近 50 年老舊文獻，無治療介入依據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "304264",
+          "title": "Immunoglobulins and antinuclear antibodies in aqueous humour from JRA patients",
+          "year": "1977",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "1977 年測量研究，歷史文獻，非治療意義"
+        }
+      ]
+    },
+    {
+      "disease_name": "mature cataract",
+      "txgnn_score": 0.9765,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "PMID 25904780 描述結合澱粉樣蛋白的人單株 IgG 具抗澱粉樣活性，與眼部澱粉樣沉積有理論聯繫，但屬高度間接推測。晶狀體澱粉樣蛋白病理機轉與 IVIG 多克隆治療的相關性未被探討。",
+      "critical_gap": "零臨床試驗，文獻均為間接病理觀察。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "25904780",
+          "title": "Human monoclonal IgG binding Aβ assemblies with anti-amyloid activities",
+          "year": "2015",
+          "study_type": "In vitro / Mechanistic",
+          "tier": "3",
+          "note": "單株 IgG 抗澱粉樣研究，與多克隆 IVIG 及成熟白內障的直接聯繫尚未建立"
+        }
+      ]
+    },
+    {
+      "disease_name": "diabetic cataract",
+      "txgnn_score": 0.9887,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何文獻或試驗支持。TxGNN 高分可能來自「糖尿病視網膜病變」中 IgG 相關性的延伸預測，屬模型推論而非實證。",
+      "critical_gap": "零文獻，零試驗。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diabetes mellitus type 2 associated cataract",
+      "txgnn_score": 0.9765,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何文獻或試驗支持。高 TxGNN 分數反映模型對糖尿病-IgG 共病路徑的推論，無實證依據。",
+      "critical_gap": "零文獻，零試驗。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "craniostenosis cataract",
+      "txgnn_score": 0.9765,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何文獻或試驗支持。顱縫早閉合並白內障為罕見先天性症候群，IVIG 治療機轉不明確。",
+      "critical_gap": "零文獻，零試驗。此疾病極罕見，缺乏任何研究基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|---------|---------|------|
+| 糖尿病視網膜病變 | 0.9963 | **L4** | **S1** | 🟡 Research Question |
+| 嚴重非增殖性 DR | 0.9975 | L5 | S0 | 🔴 Hold |
+| 藥物性骨質疏鬆 | 0.9937 | L5 | S0 | 🔴 Hold |
+| 糖尿病白內障 | 0.9887 | L5 | S0 | 🔴 Hold |
+| 皮質性白內障 | 0.9790 | L5 | S0 | 🔴 Hold |
+| 核性老年白內障 | 0.9790 | L5 | S0 | 🔴 Hold |
+| 老年性白內障 | 0.9789 | L5 | S0 | 🔴 Hold |
+| T2DM 相關白內障 | 0.9765 | L5 | S0 | 🔴 Hold |
+| 成熟白內障 | 0.9765 | L5 | S0 | 🔴 Hold |
+| 顱縫早閉性白內障 | 0.9765 | L5 | S0 | 🔴 Hold |
+
+---
+
+## 關鍵警示
+
+> ⚠️ **TxGNN 分數高估問題**：本批預測分數普遍偏高（0.97-0.9975），但實際臨床證據極度匱乏。這可能源於：
+> 1. **藥物類別混淆**：訓練資料中 IgG 骨架單株抗體（adalimumab、bevacizumab、denosumab 等）的適應症被歸入「Human IgG」類別
+> 2. **生物標記≠治療**：多數文獻描述 IgG 作為疾病「標記物」，模型可能誤解為治療相關性
+> 3. **建議動作**：在進入下一研究階段前，應優先確認 IVIG 對糖尿病視網膜病變是否有任何前導性安全性研究（Phase 1）
+
+> ✅ **唯一值得追蹤的方向**：**糖尿病視網膜病變 (L4/S1)** — IgG Fc 糖化的 Mendelian Randomization 因果證據（2025）提供了機轉探索基礎，可設計以「高唾液酸化 IgG 製劑」或 IVIG 免疫調節為假說的 Phase 1 安全性先導研究。

@@ -1,0 +1,1764 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00619-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Imatinib",
+    "drugbank_id": "DB00619",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "heart fibrosarcoma",
+      "txgnn": {
+        "score": 0.999366819858551,
+        "rank": 1361
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18623899",
+            "title": "Imatinib: new indication. New indications, but not robust evidence.",
+            "authors": [],
+            "journal": "Prescrire international",
+            "year": "2008",
+            "abstract": "(1) Imatinib, a tyrosine kinase inhibitor, was first marketed for the treatment of chronic myeloid leukaemia and some gastrointestinal stromal tumours. Its indications have gradually expanded over the years. (2) There is no consensus treatment for adults with Philadelphia chromosome-positive acute lymphoblastic leukaemia. In a trial comparing imatinib versus chemotherapy as initial treatment for 55 patients, the haematological response rate was higher with imatinib. Non-comparative trials provid",
+            "classification": {
+              "study_type": "Editorial/Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "心臟纖維肉瘤理論上可表現 PDGFR-β，但無已知驅動突變與 Imatinib 靶點直接對應之文獻依據。高 TxGNN 分數反映圖譜結構相似性，非臨床機轉驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "fibroblastic neoplasm",
+      "txgnn": {
+        "score": 0.9993517994880676,
+        "rank": 1396
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33449152",
+            "title": "PDGF receptor mutations in human diseases.",
+            "authors": [
+              "Guérit Emilie",
+              "Arts Florence",
+              "Dachy Guillaume",
+              "Boulouadnine Boutaina",
+              "Demoulin Jean-Baptiste"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2021",
+            "abstract": "PDGFRA and PDGFRB are classical proto-oncogenes that encode receptor tyrosine kinases responding to platelet-derived growth factor (PDGF). PDGFRA mutations are found in gastrointestinal stromal tumors (GISTs), inflammatory fibroid polyps and gliomas, and PDGFRB mutations drive myofibroma development. In addition, chromosomal rearrangement of either gene causes myeloid neoplasms associated with hypereosinophilia. Recently, mutations in PDGFRB were linked to several noncancerous diseases. Germline",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28795284",
+            "title": "Dermatofibrosarcoma Protuberans.",
+            "authors": [
+              "Acosta Alvaro E",
+              "Vélez Catalina Santa"
+            ],
+            "journal": "Current treatment options in oncology",
+            "year": "2017",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a slow growing tumor with a very low metastatic potential but with significant subclinical extension and great capacity for local destruction. Thus, the first surgeon approached with such challenging tumor must attempt to cure the patient with a method that spares healthy tissue and ensures an optimal oncological, functional, and esthetic result. The treatment of DFSP often requires a multidisciplinary approach. Depending on location, dermatologic surgeo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31466588",
+            "title": "Dermatofibrosarcoma Protuberans.",
+            "authors": [
+              "Allen Aubrey",
+              "Ahn Christine",
+              "Sangüeza Omar P"
+            ],
+            "journal": "Dermatologic clinics",
+            "year": "2019",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is an uncommon dermal neoplasm that exhibits a high rate of local recurrence and infiltrative behavior, but has a low risk of metastasis. It arises as a slowly progressive, painless pink or violet plaque. Histologically, DFSP is characterized by a monomorphous spindle cell proliferation in a storiform pattern. The gold standard of treatment is surgical resection with negative margins. In cases where obtaining clear margins is not possible, radiation and sys",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30297237",
+            "title": "[Dermatofibrosarcoma: Management].",
+            "authors": [
+              "Penel Nicolas",
+              "El Bedoui Sophie",
+              "Robin Yves-Marie",
+              "Decanter Gauthier"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2018",
+            "abstract": "Dematofibrosarcoma protuberans (DFSP) are very rare (1 to 4 incident cases per million of inhabitants). The local spreading of DFSP is underestimated. The histological diagnosis is challenging but we now know a specific marker (translocation t(17;22)(q22;q13) (COL1A1;PDGFB)). The risk of metastatic relapse is low (and related to fibrosarcoma component); the risk of local relapse depends on the quality of surgery. Management of localized DFSP is based on large resection with meticulous analysis o",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15794712",
+            "title": "The development and application of imatinib.",
+            "authors": [
+              "Jones Robin L",
+              "Judson Ian R"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2005",
+            "abstract": "The hallmark characteristics of cancer include an unrestrained proliferation involving activation of growth signals, loss of negative regulation and dysfunctional apoptotic pathways. Targeting abnormal cell signalling pathways should provide a more selective approach to cancer treatment than conventional cytotoxic chemotherapy. Tyrosine kinases play an essential role in the signalling pathways involved in the control of cellular proliferation and growth. Imatinib is a small-molecule tyrosine kin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39904126",
+            "title": "Diagnosis and treatment of dermatofibrosarcoma protuberans. European interdisciplinary guideline - update 2024.",
+            "authors": [
+              "Saiag Philippe",
+              "Lebbe Celeste",
+              "Brochez Lieve",
+              "Emile Jean-François",
+              "Forsea Ana Maria"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2025",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a cutaneous fibroblastic tumour that is locally aggressive, with a tendency for local recurrence, but rarely metastasizes. A collaboration of multi-disciplinary experts from the European Association of Dermato-Oncology (EADO), the European Dermatology Forum (EDF), the European Union of Medical Specialists (UEMS) and the European Academy of Dermatology and Venereology (EADV) was formed to update recommendations on DFSP diagnosis and treatment, based on cu",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22285046",
+            "title": "Dermatofibrosarcoma protuberans.",
+            "authors": [
+              "Serra-Guillén C",
+              "Llombart B",
+              "Sanmartín O"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2012",
+            "abstract": "Dermatofibrosarcoma protuberans is the most common skin sarcoma, although its incidence is very low compared with other skin tumors. It presents as a slow-growing indurated plaque on which nodules develop over time. The lesion arises in the dermis but can invade subcutaneous tissue, fascia, muscle and even bone. COL1A1-PDGFB translocation is specific to dermatofibrosarcoma protuberans, and the presence of this fusion contributes to diagnosis in certain cases. A review of the literature provides ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41232970",
+            "title": "[Dermatofibrosarcoma protuberans].",
+            "authors": [
+              "Demouche S"
+            ],
+            "journal": "Annales de chirurgie plastique et esthetique",
+            "year": "2025",
+            "abstract": "Dermatofibrosarcoma (DFSP) is a rare, locally aggressive skin tumour. It appears in the form of indurated plaques or nodules of flesh colour and progressive growth, mainly on the trunk and lower limbs. Diagnosis is based on anatomopathological analysis, with immunostaining to rule out fibrosarcomatous transformation, which occurs in 10-15% of cases. Treatment is based on surgery, with two options: Mohs micrographic surgery when available, to reduce recurrence, or wide excision with 2-3cm margins",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17397592",
+            "title": "[Dermatofibrosarcoma protuberans].",
+            "authors": [
+              "Sanmartín O",
+              "Llombart B",
+              "López-Guerrero J A",
+              "Serra C",
+              "Requena C"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2007",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a soft tissue neoplasm of intermediate malignancy that is initially localized to the skin from where it can invade deep structures (fat, fascia, muscle and bone). It is the most frequent fibrohistiocytic tumor, comprising approximately 1.8 % of all soft tissue sarcomas and 0.1 % of all cancers. It has an estimated incidence of 0.8-5 cases per one million persons per year. Treatment of localized disease consists in complete surgical excision of the lesion",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18230575",
+            "title": "[Imatinib and solid tumours].",
+            "authors": [
+              "Arifi Samia",
+              "El Sayadi Hiba",
+              "Dufresne Armelle",
+              "Ray-Coquard Isabelle",
+              "Fayette Jérôme"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2008",
+            "abstract": "Imatinib mesylate (Gleevec, Glivec, Novartis, Basel, Switzerland) is a small molecule inhibitor of the tyrosine kinase c-abl, c-kit and the platelet derived growth factor receptor (PDGFR). Imatinib was developed for the treatment of chronic myeloid leukaemia (CML) but was approved both in Europe and the US fro the treatment of CML and gastrointestinal stromal tumors (GIST). Given its activity against both c-kit and PDGFR kinases and its remarkable safety profile, imatinib has been 'tried' in sev",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33993132",
+            "title": "Management of dermatofibrosarcoma protuberans.",
+            "authors": [
+              "Badhey Arvind K",
+              "Tikhtman Raisa",
+              "Tang Alice L"
+            ],
+            "journal": "Current opinion in otolaryngology & head and neck surgery",
+            "year": "2021",
+            "abstract": "Provide an up to date review of the diagnosis, workup and treatment of dermatofibrosarcoma protuberans (DFSP). DFSP can be a challenging disease to manage and adequate understanding of the most up to date literature can help provide comprehensive treatment strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36630365",
+            "title": "Review of dermatofibrosarcoma protuberans.",
+            "authors": [
+              "Lim Su X",
+              "Ramaiya Arjun",
+              "Levell Nick J",
+              "Venables Zoe C"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2023",
+            "abstract": "The clinical features, histological subtypes and management of dermatofibrosarcoma protuberans (DFSP) are reviewed in this article. DFSP is an uncommon cutaneous sarcoma first described in 1890. It has a high local recurrence rate, low metastatic rate and low mortality. The crude incidence rate in England in 2019 was reported as 3.0 per million person-years. A fusion of platelet-derived growth factor subunit B (PDGFB) and COL1A1, t(17;22)(q22;q13), has been found in over 90% of people with DFSP.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26027711",
+            "title": "Current treatment options for dermatofibrosarcoma protuberans.",
+            "authors": [
+              "Rutkowski Piotr",
+              "Debiec-Rychter Maria"
+            ],
+            "journal": "Expert review of anticancer therapy",
+            "year": "2015",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is rare, infiltrating dermal neoplasm, characterized by indolent growth and low probability of metastases. The critical event in DFSP development is the rearrangement of chromosome 17 and 22, leading to transcriptional up-regulation of platelet-derived growth factor, providing an autocrine and/or paracrine stimulus. The cornerstone of treatment for localized DFSP is complete surgical resection with microscopically negative margins. Adjuvant radiotherapy is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35038826",
+            "title": "Whole-Genome and Transcriptome Sequencing Identified NOTCH2 and HES1 as Potential Markers of Response to Imatinib in Desmoid Tumor (Aggressive Fibromatosis): A Phase II Trial Study.",
+            "authors": [
+              "Kwon Joonha",
+              "Lee Jun Hyeong",
+              "Lee Young Han",
+              "Lee Jeeyun",
+              "Ahn Jin-Hee"
+            ],
+            "journal": "Cancer research and treatment",
+            "year": "2022",
+            "abstract": "Desmoid tumor, also known as aggressive fibromatosis, is well-characterized by abnormal Wnt/β-catenin signaling. Various therapeutic options, including imatinib, are available to treat desmoid tumor. However, the molecular mechanism of why imatinib works remains unclear. Here, we describe potential roles of NOTCH2 and HES1 in clinical response to imatinib at genome and transcriptome levels.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36999599",
+            "title": "Surgical management of dermatofibrosarcoma protuberans.",
+            "authors": [
+              "Rust Dylan J",
+              "Kwinta Bradley D",
+              "Geskin Larisa J",
+              "Samie Faramarz H",
+              "Remotti Fabrizio"
+            ],
+            "journal": "Journal of surgical oncology",
+            "year": "2023",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is an uncommon, locally aggressive cutaneous malignancy. Complete resection is the primary treatment but there is debate over the optimal method. Wide local excision was traditionally the standard of care; however, National Comprehensive Cancer Network guidelines now recommend Mohs micrographic surgery as the preferred approach. Medical therapy with imatinib can be used in advanced or unresectable disease. This review will discuss the current management of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35952694",
+            "title": "Dermatofibrosarcoma Protuberans: What Is This?",
+            "authors": [
+              "Vitiello Gerardo A",
+              "Lee Ann Y",
+              "Berman Russell S"
+            ],
+            "journal": "The Surgical clinics of North America",
+            "year": "2022",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a rare, locally aggressive dermal-based sarcoma. Metastatic potential is extremely low, primarily in the setting of fibrosarcomatous transformation. DFSP is characterized by a t(17;22) (q22;q13) translocation that results in active PDGFB signaling. Surgical resection with negative margins (typically including the underlying fascia) is the potentially curative treatment. Delayed wound closure should be considered for cases requiring extensive resection or",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39580648",
+            "title": "A germline PDGFRB splice site variant associated with infantile myofibromatosis and resistance to imatinib.",
+            "authors": [
+              "Boulouadnine Boutaina",
+              "Filser Mathilde",
+              "Leducq Camille",
+              "Losole Taylor",
+              "Bies Joshua"
+            ],
+            "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
+            "year": "2025",
+            "abstract": "Infantile myofibromatosis is characterized by the development of myofibroblastic tumors in young children. In most cases, the disease is caused by somatic gain-of-function variants in platelet-derived growth factor (PDGF) receptor beta (PDGFRB). Here, we reported a novel germline intronic PDGFRB variant, c.2905-8G>A, in 6 unrelated infants with multifocal myofibromatosis and their relatives.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18936902",
+            "title": "[Dermatofibrosarcoma protuberans].",
+            "authors": [
+              "Ugurel S"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2008",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a rare tumor but still the most common cutaneous sarcoma. DFSP is a tumor of fibroblastic origin, characterized by a slow, undermining and locally destructive growth pattern, which only rarely metastasizes. The clinical appearance, especially of smaller lesions, is often not characteristic, so that diagnosis is often made late and only on biopsy findings. The standard treatment of DFSP is excision with safety margins of 2 to 3 cm. If smaller margins are ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27259510",
+            "title": "Antiproliferative effects of masitinib and imatinib against canine oral fibrosarcoma in vitro.",
+            "authors": [
+              "Milovancev Milan",
+              "Helfand Stuart C",
+              "Marley Kevin",
+              "Goodall Cheri P",
+              "Löhr Christiane V"
+            ],
+            "journal": "BMC veterinary research",
+            "year": "2016",
+            "abstract": "Canine oral fibrosarcoma (COF) is one of the most common oral tumors in dogs and carries a guarded prognosis due to a lack of effective systemic therapeutic options. Mastinib and imatinib are two commonly used tyrosine kinase inhibitors (TKIs) in veterinary oncology but their potential efficacy against COF is uncharacterized. To begin investigating the rationale for use of these TKIs against COF, the present study tested for the presence TKI targets PDGFR-α, PDGFR-β, Kit, and VEGFR-2 and examine",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23021051",
+            "title": "Fibrous and fibrohistiocytic neoplasms: an update.",
+            "authors": [
+              "Clarke Loren E"
+            ],
+            "journal": "Dermatologic clinics",
+            "year": "2012",
+            "abstract": "Important advances in fibroblastic and fibrohistiocytic tumors relevant to dermatologists and dermatopathologists include (1) recognition that myxofibrosarcoma is a distinct entity that frequently arises in skin; (2) CD10 is sensitive but not specific atypical fibroxanthoma; (3) neurothekeomas lacking S100 expression are probably fibrohistiocytic/fibroblastic tumors, whereas S100+ myxoid variants are better classified as nerve sheath myxomas; (4) the recognition of a primary cutaneous variant of",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "纖維母細胞性腫瘤（尤其 DFSP）具 COL1A1-PDGFB 基因融合，導致 PDGFR-β 持續活化；Imatinib 直接抑制 PDGFR-β 酪氨酸激酶活性。此為全球最強之 Imatinib 靶向機轉之一，2006 年獲 FDA 批准用於 DFSP。多中心 Phase 2（B2225）及 SWOG S0345 試驗確認療效。2025 年歐洲跨學科指引（PMID 39904126）明確推薦。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "conventional fibrosarcoma",
+      "txgnn": {
+        "score": 0.9993313550949096,
+        "rank": 1451
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00085475",
+            "title": "Phase II Study of Glivec (Imatinib) in Locally Advanced and/or Metastatic Soft Tissue Sarcomas Expressing the t(17;22)(q22;q13) Translocation Resulting in a COL1A1/PDGF-beta Fusion Protein i.e. DermatoFibroSarcoma Protuberans (DFSP) and Giant Cell Fibroblastoma (GCF)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2004-04",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Imatinib mesylate may stop the growth of tumor cells by blocking the enzymes necessary for their growth.\n\nPURPOSE: This phase II trial is studying how well imatinib mesylate works in treating patients with locally advanced or metastatic dermatofibrosarcoma protuberans or giant cell fibroblastoma.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接研究 Imatinib 於 PDGFR/c-KIT 陽性軟組織肉瘤（纖維肉瘤為涵蓋亞型之一）；但登錄人數僅 17 人，統計效能不足，結果需謹慎解讀"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15794712",
+            "title": "The development and application of imatinib.",
+            "authors": [
+              "Jones Robin L",
+              "Judson Ian R"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2005",
+            "abstract": "The hallmark characteristics of cancer include an unrestrained proliferation involving activation of growth signals, loss of negative regulation and dysfunctional apoptotic pathways. Targeting abnormal cell signalling pathways should provide a more selective approach to cancer treatment than conventional cytotoxic chemotherapy. Tyrosine kinases play an essential role in the signalling pathways involved in the control of cellular proliferation and growth. Imatinib is a small-molecule tyrosine kin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30901500",
+            "title": "Efficacy of targeted liposomes and nanocochleates containing imatinib plus dexketoprofen against fibrosarcoma.",
+            "authors": [
+              "Çoban Özlem",
+              "Değim Zelihagül",
+              "Yılmaz Şükran",
+              "Altıntaş Levent",
+              "Arsoy Taibe"
+            ],
+            "journal": "Drug development research",
+            "year": "2019",
+            "abstract": "The main challenges in treating cancer using chemotherapeutics are insufficient dose at the target site and the development of drug resistance, while higher doses can induce side effects by damaging nontarget tissues. Combinatorial drug therapy may overcome these limitations by permitting lower doses and more specific targeting, thereby mitigating drug resistance and nontarget side effects. Recent reports indicate that nonsteroidal anti-inflammatory drugs (NSAIDs) have anticancer potential and c",
+            "classification": {
+              "study_type": "Preclinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22285046",
+            "title": "Dermatofibrosarcoma protuberans.",
+            "authors": [
+              "Serra-Guillén C",
+              "Llombart B",
+              "Sanmartín O"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2012",
+            "abstract": "Dermatofibrosarcoma protuberans is the most common skin sarcoma, although its incidence is very low compared with other skin tumors. It presents as a slow-growing indurated plaque on which nodules develop over time. The lesion arises in the dermis but can invade subcutaneous tissue, fascia, muscle and even bone. COL1A1-PDGFB translocation is specific to dermatofibrosarcoma protuberans, and the presence of this fusion contributes to diagnosis in certain cases. A review of the literature provides ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17397592",
+            "title": "[Dermatofibrosarcoma protuberans].",
+            "authors": [
+              "Sanmartín O",
+              "Llombart B",
+              "López-Guerrero J A",
+              "Serra C",
+              "Requena C"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2007",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is a soft tissue neoplasm of intermediate malignancy that is initially localized to the skin from where it can invade deep structures (fat, fascia, muscle and bone). It is the most frequent fibrohistiocytic tumor, comprising approximately 1.8 % of all soft tissue sarcomas and 0.1 % of all cancers. It has an estimated incidence of 0.8-5 cases per one million persons per year. Treatment of localized disease consists in complete surgical excision of the lesion",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27806849",
+            "title": "Dermatofibrosarcoma protuberans: pathology, genetics, and potential therapeutic strategies.",
+            "authors": [
+              "Thway Khin",
+              "Noujaim Jonathan",
+              "Jones Robin L",
+              "Fisher Cyril"
+            ],
+            "journal": "Annals of diagnostic pathology",
+            "year": "2016",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP), the most common dermal sarcoma, is a malignant fibroblastic tumor most frequently arising in middle-aged adults. It is typically a low-grade sarcoma that grows slowly but has a high rate of local recurrence with low metastatic potential. Dermatofibrosarcoma protuberans is characterized by a specific translocation t(17;22)(q22;q13) leading to the formation of COL1A1-PDGFB fusion transcripts. Histologically, DFSP has characteristic morphology, of storiform i",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16733451",
+            "title": "[Childhood-onset multifocal atrophic dermatofibrosarcoma].",
+            "authors": [
+              "Kostrzewa E",
+              "Beylot-Barry M",
+              "Vergier B",
+              "Pedeutour F",
+              "Beylot C"
+            ],
+            "journal": "Annales de dermatologie et de venereologie",
+            "year": "2006",
+            "abstract": "Atrophic dermatofibrosarcoma is a rare clinical variant of dermatofibrosarcoma protuberans (or Darier-Ferrand tumor) preferentially observed in childhood and early adulthood.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25852058",
+            "title": "CDKN2A/p16 Loss Implicates CDK4 as a Therapeutic Target in Imatinib-Resistant Dermatofibrosarcoma Protuberans.",
+            "authors": [
+              "Eilers Grant",
+              "Czaplinski Jeffrey T",
+              "Mayeda Mark",
+              "Bahri Nacef",
+              "Tao Derrick"
+            ],
+            "journal": "Molecular cancer therapeutics",
+            "year": "2015",
+            "abstract": "Dermatofibrosarcoma protuberans (DFSP) is an aggressive PDGFB-dependent cutaneous sarcoma characterized by infiltrative growth and frequent local recurrences. Some DFSP progress to a higher-grade fibrosarcomatous form, with rapid growth and increased risk of metastasis. Imatinib provides clinical benefit in approximately 50% of patients with unresectable or metastatic DFSP. However, efficacious medical therapies have not been developed for imatinib-resistant DFSP. We established a model of imati",
+            "classification": {
+              "study_type": "Translational/Mechanistic",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32059813",
+            "title": "Darier and Ferrand's dermatofibrosarcoma: A carcinologic and cosmetologic challenge in a low-income country.",
+            "authors": [
+              "Somé Ollo Roland",
+              "Diallo Malick",
+              "Konkobo Damien",
+              "Belemlilga G Larba Hermann",
+              "Yabré Nassirou"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2020",
+            "abstract": "Dermatofibrosarcoma (DFS) is a common dermic sarcoma. It is a local malignant tumor occurring in young adults. The recurrence potential justifies an R0-type surgery with a three centimeters margin. We report our experience of the management of locally advanced DFS by resection and reconstructive surgery.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19635106",
+            "title": "Dermatofibrosarcoma protuberans: clinical, pathological, and genetic (COL1A1-PDGFB ) study with therapeutic implications.",
+            "authors": [
+              "Llombart Beatriz",
+              "Sanmartín Onofre",
+              "López-Guerrero Jose Antonio",
+              "Monteagudo Carlos",
+              "Serra Carlos"
+            ],
+            "journal": "Histopathology",
+            "year": "2009",
+            "abstract": "To analyse the presence of collagen type I alpha 1-platelet-derived growth factor beta (COL1A1-PDGFB) transcripts in 20 cases of dermatofibrosarcoma protuberans (DFSP) and to assess the relationship between COL1A1 breakpoints and clinical and histopathological variables.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "傳統纖維肉瘤可表現 PDGFR-β 及少量 c-KIT，提供理論靶向依據；但驅動突變以 TP53、RB1 等非 RTK 基因為主，PDGFR 非確定驅動者。DFSP（COL1A1-PDGFB 融合）為特殊亞型，與傳統纖維肉瘤之生物學行為顯著不同。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "kidney fibrosarcoma",
+      "txgnn": {
+        "score": 0.9993281364440918,
+        "rank": 1458
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00154388",
+            "title": "Phase II Study of Imatinib Mesylate in Patients With Life Threatening Malignant Rare Diseases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 185,
+            "start_date": "2001-02",
+            "completion_date": "2007-01",
+            "brief_summary": "Exploratory study to examine the effect(s) of Imatinib mesylate treatment on life threatening rare diseases with known associations to one or more Imatinib mesylate -sensitive tyrosine kinases, and to identify the contribution of specific protein tyrosine kinases (PTKs) of that specific disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Basket 設計涵蓋多種罕見惡性腫瘤，腎臟纖維肉瘤可能包含其中，但亞組分析資料未公開；整體 n=185 但疾病異質性高，對單一罕見亞型推論力有限"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17687201",
+            "title": "[Imatinib . Sunitinib].",
+            "authors": [
+              "Nishida Toshirou"
+            ],
+            "journal": "Gan to kagaku ryoho. Cancer & chemotherapy",
+            "year": "2007",
+            "abstract": "Imatinib mesilate, which efficiently inhibits BCR-ABL,and KIT as well as platelet-derived growth factor receptor (PDGF-R) kinases, is highly effective for clinical treatment of CML, Ph+ALL, and advanced GIST with good tolerability, respectively. Acquired resistance to the drug,however, becomes an clinically emerging problem with long-standing use. Meanwhile, sunitinib malate,which inhibits three VEGF-Rs and FLT 3 in addition to KIT as well as PDGF-R, was clinically evaluated in the phase II clin",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎臟纖維肉瘤極罕見（每年全球病例數極少），理論上可能表現 PDGFR；現有 Phase 2 basket trial（NCT00154388）係涵蓋多種罕見惡性腫瘤之傘型試驗，非疾病特異性設計，無法確認腎臟纖維肉瘤亞組是否有療效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "low grade fibromyxoid sarcoma",
+      "txgnn": {
+        "score": 0.9992830157279968,
+        "rank": 1529
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35147859",
+            "title": "Robotic-assisted surgery for esophageal submucosal tumors: a single-center case series.",
+            "authors": [
+              "Froiio Caterina",
+              "Berlth Felix",
+              "Capovilla Giovanni",
+              "Tagkalos Evangelos",
+              "Hadzijusufovic Edin"
+            ],
+            "journal": "Updates in surgery",
+            "year": "2022",
+            "abstract": "Esophageal submucosal tumors (SMTs) are rare heterogenous clinical entities. The surgical resection can be performed in different surgical approaches. However, the robotic surgical strategy is poorly documented in the treatment of SMTs. We present our series of operated esophageal SMTs approached via robotic-assisted surgery. Six patients with symptomatic esophageal submucosal tumors underwent robotic surgery within a 3-year period. The performed procedures were robotic-assisted enucleation, rob",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "LGFMS 由 FUS-CREB3L2（或 EWSR1-CREB3L2）基因融合驅動，為轉錄因子異常而非 RTK 活化；PDGFR/c-KIT/ABL 均非 LGFMS 之已知驅動靶點，Imatinib 無確認之分子機轉依據。TxGNN 高分來自圖譜拓撲相似性（同為纖維性肉瘤類別），非生物學機轉匹配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "liposarcoma",
+      "txgnn": {
+        "score": 0.9987536668777466,
+        "rank": 2396
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00154388",
+            "title": "Phase II Study of Imatinib Mesylate in Patients With Life Threatening Malignant Rare Diseases",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 185,
+            "start_date": "2001-02",
+            "completion_date": "2007-01",
+            "brief_summary": "Exploratory study to examine the effect(s) of Imatinib mesylate treatment on life threatening rare diseases with known associations to one or more Imatinib mesylate -sensitive tyrosine kinases, and to identify the contribution of specific protein tyrosine kinases (PTKs) of that specific disease.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Basket trial 可能涵蓋脂肪肉瘤患者，但亞組特異性結果有限"
+            }
+          },
+          {
+            "nct_id": "NCT00006357",
+            "title": "Dose Finding and Phase II Study of STI 571 in Advanced Soft Tissue Sarcoma",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 91,
+            "start_date": "2000-08",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: STI571 may interfere with the growth of cancer cells and may be an effective treatment for soft tissue sarcoma.\n\nPURPOSE: Phase I/II trial to study the effectiveness of STI571 in treating patients who have recurrent or refractory soft tissue sarcoma.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接研究 Imatinib（STI571）於進展期軟組織肉瘤，脂肪肉瘤為主要納入亞型之一；Phase 1/2 設計提供安全性與初步療效數據"
+            }
+          },
+          {
+            "nct_id": "NCT00031915",
+            "title": "Phase II Trial of Gleevec (Formerly Known as STI571) in Patients With Soft Tissue and Bone Sarcomas: A Multi-Disciplinary Trial of the North American Sarcoma Study Group of the Connective Tissue Oncology Society",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2002-06",
+            "completion_date": "2007-05",
+            "brief_summary": "RATIONALE: Imatinib mesylate may stop the growth of tumor cells by blocking the enzymes necessary for cancer cell growth.\n\nPURPOSE: Phase II trial to study the effectiveness of imatinib mesylate in treating patients who have metastatic or unresectable locally advanced soft tissue sarcoma or bone sarcoma.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接研究 Imatinib 於軟組織及骨肉瘤，涵蓋脂肪肉瘤；但結果文獻未見明確療效"
+            }
+          },
+          {
+            "nct_id": "NCT02048371",
+            "title": "SARC024: A Blanket Protocol to Study Oral Regorafenib in Patients With Selected Sarcoma Subtypes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 131,
+            "start_date": "2014-07",
+            "completion_date": "2022-05",
+            "brief_summary": "Although regorafenib was approved for use in patients who had progressive GIST despite imatinib and/or sunitinib on the basis of phase II and phase III data, it has not been examined in a systematic fashion in patients with other forms of sarcoma.\n\nGiven the activity of sorafenib, sunitinib and pazopanib in soft tissue sarcomas, and evidence of activity of sorafenib in osteogenic sarcoma and possibly Ewing/Ewing-like sarcoma, there is precedent to examine SMOKIs (small molecule oral kinase inhib",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Regorafenib（多靶點 TKI），非 Imatinib；僅提供同類靶向治療於肉瘤之間接參考"
+            }
+          },
+          {
+            "nct_id": "NCT00400569",
+            "title": "Phase II Open-Label Study of Sunitinib Malate (SU011248) in Adult Patients With Metastatic and/or Surgically Unresectable Soft Tissue Sarcoma",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2006-11",
+            "completion_date": "2011-12",
+            "brief_summary": "This is an open label single site Phase II clinical trial to identify a potentially promising therapy dose for Sunitinib malate. The study drug will be taken orally once daily on days 1 through 28 of each 42 day cycle. Treatment will be continued until there is either disease progression or cumulative/acute toxicity.\n\nAll patients with unresectable or metastatic soft tissue sarcoma (STS): leiomyosarcoma, liposarcoma, fibrosarcoma, and malignant fibrous histiocytoma (MFH) seen at the Moffitt Canc",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Sunitinib（涵蓋 PDGFR/VEGFR/c-KIT），非 Imatinib；提供同類 RTK 抑制於脂肪肉瘤之間接佐證"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37222206",
+            "title": "New targeted treatments for advanced sarcomas.",
+            "authors": [
+              "Li Chia-Chen",
+              "Chen Tom Wei-Wu"
+            ],
+            "journal": "Current opinion in oncology",
+            "year": "2023",
+            "abstract": "The purpose of this review is to provide the rationale and results behind recent clinical trials regarding molecular-targeted agents for advanced sarcomas.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27434055",
+            "title": "Chemotherapy for soft tissue sarcoma.",
+            "authors": [
+              "Ratan Ravin",
+              "Patel Shreyaskumar R"
+            ],
+            "journal": "Cancer",
+            "year": "2016",
+            "abstract": "Soft tissue sarcoma is a term used to describe a heterogeneous group of many rare tumors. Since the initial description of activity of doxorubicin, several additional agents have been brought to bear in the treatment of these diseases. Despite 2 recent drug approvals, doxorubicin and ifosfamide remain the most effective chemotherapy drugs available for the treatment of majority of these tumors. Optimal dosing and administration influence outcomes because of the steep dose-response curves associa",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12702540",
+            "title": "Potential use of imatinib mesylate in ocular melanoma and liposarcoma expressing immunohistochemical c-KIT (CD117).",
+            "authors": [
+              "Fiorentini G",
+              "Rossi S",
+              "Lanzanova G",
+              "Bernardeschi P",
+              "Dentico P"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "Preclinical/Early Clinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38717131",
+            "title": "Myxoid Inflammatory Myofibroblastic Sarcoma: Clinicopathologic Analysis of 25 Cases of a Distinctive Sarcoma With Deceptively Bland Morphology and Aggressive Clinical Behavior.",
+            "authors": [
+              "Papke David J",
+              "Odintsov Igor",
+              "Dickson Brendan C",
+              "Nucci Marisa R",
+              "Agaimy Abbas"
+            ],
+            "journal": "The American journal of surgical pathology",
+            "year": "2024",
+            "abstract": "The number of recognized sarcoma types harboring targetable molecular alterations continues to increase. Here we present 25 examples of a distinctive myofibroblastic tumor, provisionally termed \"myxoid inflammatory myofibroblastic sarcoma,\" which might be related to inflammatory myofibroblastic tumor, and which occurred in 13 males (52%) and 12 females at a median age of 37 years (range: 7 to 79 years). Primary tumor sites were peritoneum (18 patients; 72%), paratesticular (2; 8%), chest wall (1",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24555529",
+            "title": "Emerging therapies for adult soft tissue sarcoma.",
+            "authors": [
+              "Radaelli Stefano",
+              "Stacchiotti Sivia",
+              "Casali Paolo G",
+              "Gronchi Alessandro"
+            ],
+            "journal": "Expert review of anticancer therapy",
+            "year": "2014",
+            "abstract": "Soft tissue sarcoma (STS) are a broad group of rare tumors. Cornerstone of treatment is surgery. Complementary radiotherapy is recommended in high-risk STS arising from extremities. Doxorubicine ± ifosfamide based cytotoxic chemotherapy, explored in few randomized trials, showed a certain degree of activity, playing an established role only in unresectable disease. Since peculiar chemosensitivity towards alternative drugs was described for different metastatic subtypes in second or further lines",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21084242",
+            "title": "[Molecular biology of soft-tissue sarcomas].",
+            "authors": [
+              "Coindre J-M"
+            ],
+            "journal": "Bulletin du cancer",
+            "year": "2010",
+            "abstract": "Sarcomas represent a heterogeneous group of tumors with a complex and poorly reproducible classification. However, in the last ten years, several specific genetic alterations have been described allowing a molecular classification with: 1) sarcomas with a specific translocation which can be used as a diagnostic marker. These translocations can be demonstrated by RT-PCR or by FISH with commercially available break apart probes ; 2) sarcomas with simple genomic profile showing amplification of a f",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31173362",
+            "title": "Overall survival and histology-specific subgroup analyses from a phase 3, randomized controlled study of trabectedin or dacarbazine in patients with advanced liposarcoma or leiomyosarcoma.",
+            "authors": [
+              "Patel Shreyaskumar",
+              "von Mehren Margaret",
+              "Reed Damon R",
+              "Kaiser Pamela",
+              "Charlson John"
+            ],
+            "journal": "Cancer",
+            "year": "2019",
+            "abstract": "We performed a randomized phase 3 study of trabectedin versus dacarbazine in previously-treated patients with liposarcoma/leiomyosarcoma (LPS/LMS).",
+            "classification": {
+              "study_type": "RCT (Phase 3)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24712007",
+            "title": "[Medical treatment of soft tissue sarcomas based on the histological subtype].",
+            "authors": [
+              "Pápai Zsuzsanna"
+            ],
+            "journal": "Magyar onkologia",
+            "year": "2014",
+            "abstract": "The medical treatment of adult soft tissue sarcomas is more and more dictated by the histological subtype, this applies to both cytotoxics and target therapies. Doxorubicin and ifosfamid are the two drugs used either in monotherapy or combination with the best established response rates in adult soft tissue sarcomas for several years. In addition to these compounds there is evidence of efficacy of new drugs such as taxanes in angiosarcoma, gemcitabine+taxanes combination in leiomyosarcomas, trab",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15631540",
+            "title": "Recent developments in salvage chemotherapy for patients with metastatic soft tissue sarcoma.",
+            "authors": [
+              "Hartmann Jörg Thomas",
+              "Patel Shreyaskumar"
+            ],
+            "journal": "Drugs",
+            "year": "2005",
+            "abstract": "The number of effective cytotoxic agents for the treatment of patients with metastatic adult soft tissue sarcoma is limited, especially when patients have failed anthracycline- and ifosfamide-based chemotherapy. For the subgroup of patients with inoperable gastrointestinal stromal tumour (GIST), progress has been made via the rapid development and approval of the targeted therapy imatinib. Small round cell tumours (SRCTs), such as Ewing's sarcoma/primitive neuroectodermal tumour, desmoplastic SR",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21154746",
+            "title": "Phase II study of sunitinib malate, a multitargeted tyrosine kinase inhibitor in patients with relapsed or refractory soft tissue sarcomas. Focus on three prevalent histologies: leiomyosarcoma, liposarcoma and malignant fibrous histiocytoma.",
+            "authors": [
+              "Mahmood S Tariq",
+              "Agresta Samuel",
+              "Vigil Carlos E",
+              "Zhao Xiuhua",
+              "Han Gang"
+            ],
+            "journal": "International journal of cancer",
+            "year": "2011",
+            "abstract": "Soft tissue sarcomas (STS) represent a diverse group of histologic subtypes with targetable molecular alterations, often treated as a single disease. Sunitinib malate is a multitargeted receptor tyrosine kinase inhibitor active in other solid tumors carrying similar alterations (i.e., imatinib mesylate-refractory gastrointestinal stromal tumors). This single-institution phase II study investigated the safety and efficacy of sunitinib malate in three common STS subtypes. Patients with documented ",
+            "classification": {
+              "study_type": "Phase 2 Trial (Sunitinib)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12130926",
+            "title": "Chromosomal translocations and sarcomas.",
+            "authors": [
+              "Bennicelli Jeannette L",
+              "Barr Frederic G"
+            ],
+            "journal": "Current opinion in oncology",
+            "year": "2002",
+            "abstract": "This review examines how the identification of tumor-specific translocations and fusion proteins has advanced the basic scientific and clinical understanding of sarcomas. Recent genetic advances, including the ASPL-TFE3 fusion of alveolar soft part sarcoma, the JAZF1-JJAZ1 fusion of endometrial stromal sarcoma, and HMGIC fusions in liposarcoma, are discussed. Next, the review addresses the ways in which molecular genetic data have influenced diagnostic and prognostic paradigms. For example, rece",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17163160",
+            "title": "From morphological to molecular diagnosis of soft tissue tumors.",
+            "authors": [
+              "Miettinen Markku"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2006",
+            "abstract": "Cytogenetic discoveries of balanced translocations in soft tissue tumors have opened the way to molecular genetic definition of these translocations as gene fusions from the late 1980s. Many sarcomas are known to have such fusions, and the demonstration of the fusion transcripts in tumor tissue is of great value in specific diagnosis of synovial sarcoma (SYT-SSX), Ewing sarcoma (EWS-Fli1), clear cell sarcoma (EWS-ATF1), myxoid liposarcoma (FUS-CHOP), and other sarcomas. These translocations are ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17565683",
+            "title": "Primary omental gastrointestinal stromal tumor (GIST).",
+            "authors": [
+              "Todoroki Takeshi",
+              "Sano Takaaki",
+              "Sakurai Shinji",
+              "Segawa Atsuki",
+              "Saitoh Tamotsu"
+            ],
+            "journal": "World journal of surgical oncology",
+            "year": "2007",
+            "abstract": "We report herein a rare case of primary omental gastrointestinal stromal tumor (GIST).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37492096",
+            "title": "Impact of supraphysiologic MDM2 expression on chromatin networks and therapeutic responses in sarcoma.",
+            "authors": [
+              "Bevill Samantha M",
+              "Casaní-Galdón Salvador",
+              "El Farran Chadi A",
+              "Cytrynbaum Eli G",
+              "Macias Kevin A"
+            ],
+            "journal": "Cell genomics",
+            "year": "2023",
+            "abstract": "Amplification of MDM2 on supernumerary chromosomes is a common mechanism of P53 inactivation across tumors. Here, we investigated the impact of MDM2 overexpression on chromatin, gene expression, and cellular phenotypes in liposarcoma. Three independent regulatory circuits predominate in aggressive, dedifferentiated tumors. RUNX and AP-1 family transcription factors bind mesenchymal gene enhancers. P53 and MDM2 co-occupy enhancers and promoters associated with P53 signaling. When highly expressed",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26918731",
+            "title": "Preclinical activity of selinexor, an inhibitor of XPO1, in sarcoma.",
+            "authors": [
+              "Nakayama Robert",
+              "Zhang Yi-Xiang",
+              "Czaplinski Jeffrey T",
+              "Anatone Alex J",
+              "Sicinska Ewa T"
+            ],
+            "journal": "Oncotarget",
+            "year": "2016",
+            "abstract": "Selinexor is an orally bioavailable selective inhibitor of nuclear export that has been demonstrated to have preclinical activity in various cancer types and that is currently in Phase I and II clinical trials for advanced cancers. In this study, we evaluated the effects of selinexor in several preclinical models of various sarcoma subtypes. The efficacy of selinexor was investigated in vitro and in vivo using 17 cell lines and 9 sarcoma xenograft models including gastrointestinal stromal tumor ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20138507",
+            "title": "Future treatment of soft tissue sarcomas will be driven by histological subtype and molecular aberrations.",
+            "authors": [
+              "Verweij Jaap",
+              "Baker Laurence H"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2010",
+            "abstract": "Soft tissue sarcomas, although sharing a mesenchymal origin, are a heterogeneous group of diseases. Nevertheless they are studied and frequently treated as if they were all the same. Recent developments suggest that a different approach may be more adequate. Genetic profiling studies have indicated that some soft tissue sarcoma subtypes, despite a distinct histo-pathological difference, may be closely related. Molecular biology research in addition has identified several subtype-specific oncogen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22987955",
+            "title": "Histology- and non-histology-driven therapy for treatment of soft tissue sarcomas.",
+            "authors": [
+              "Casali P G"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2012",
+            "abstract": "Medical treatment of adult soft tissue sarcomas is more and more dictated by the histological subtype, in a family of rare cancers made up of dozens of these subsets. This applies to both cytotoxics and target therapies. In addition to doxorubicin and ifosfamide, therefore, there is evidence of efficacy of gemcitabine in leiomyosarcomas; trabectedin in leiomyosarcomas and liposarcomas, with an exceedingly high activity in myxoid liposarcoma; taxanes and gemcitabine in angiosarcoma. With regard t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17708241",
+            "title": "Lack of activity of imatinib in two cases of KIT+ retroperitoneal liposarcoma.",
+            "authors": [
+              "Kopf Barbara",
+              "Bernardeschi Paolo",
+              "Turrisi Gina",
+              "Fiorentini Giammaria",
+              "Zago Silvia"
+            ],
+            "journal": "Hepato-gastroenterology",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20585874",
+            "title": "Peritoneal sarcomatosis: is there a subset of patients who may benefit from cytoreductive surgery and hyperthermic intraperitoneal chemotherapy?",
+            "authors": [
+              "Baratti Dario",
+              "Pennacchioli Elisabetta",
+              "Kusamura Shigeki",
+              "Fiore Marco",
+              "Balestra Maria Rosaria"
+            ],
+            "journal": "Annals of surgical oncology",
+            "year": "2010",
+            "abstract": "Unlike novel molecular-targeted therapies for metastatic gastrointestinal stromal tumors (GIST), conventional treatments for peritoneal sarcomatosis (PS) are mostly ineffective. As with carcinomatosis of epithelial origin, a rationale base supports an aggressive locoregional treatment of PS, but the use of CRS and HIPEC in this setting is still controversial. We assessed the outcome of clinically and pathologically homogeneous subsets of patients with PS uniformly treated by cytoreductive surger",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21505595",
+            "title": "E-manuscript article summaries.",
+            "authors": [],
+            "journal": "Current oncology (Toronto, Ont.)",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脂肪肉瘤異質性高（WD/DD、ML、PL、RC 亞型），部分亞型可表現 c-KIT 或 PDGFR，提供理論依據（PMID 12702540）。然而 CDK4/MDM2 擴增（WD/DDLS）、FUS-DDIT3 融合（MLLS）等驅動突變非 Imatinib 靶點。Phase 2 試驗（NCT00006357, NCT00031915）結果顯示脂肪肉瘤整體反應率低，無法作為廣泛推薦依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "liver fibrosarcoma",
+      "txgnn": {
+        "score": 0.9985840320587158,
+        "rank": 2638
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22015552",
+            "title": "Gastrointestinal stromal tumors.",
+            "authors": [
+              "Antonescu Cristina"
+            ],
+            "journal": "Current topics in microbiology and immunology",
+            "year": "2012",
+            "abstract": "Gastrointestinal stromal tumor (GIST) is the most common sarcoma of the intestinal tract. Nearly all tumors have a mutation in the KIT or, less often, platelet-derived growth factor receptor (PDGFRA) or B-rapidly Accelerated Fibrosarcoma (BRAF) gene. The discovery of constitutive KIT activation as the central mechanism of GIST pathogenesis, suggested that inhibiting or blocking KIT signaling might be the milestone in the targeted therapy of GISTs. Indeed, imatinib mesylate inhibits KIT kinase ac",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30096127",
+            "title": "Imatinib-induced drug reaction with eosinophilia and systemic symptoms in solid tumors: a patient with dermatofibrosarcoma protuberans and successful desensitization management.",
+            "authors": [
+              "Ben-Ami Eytan",
+              "Castells Maria C",
+              "Connell Nathan T",
+              "Rutherford Anna E",
+              "Thornton Katherine A"
+            ],
+            "journal": "Anti-cancer drugs",
+            "year": "2018",
+            "abstract": "Drug reaction with eosinophilia and systemic symptoms (DRESS) is a severe, potentially life-threatening drug-induced hypersensitivity reaction, characterized by cutaneous eruptions, fever, diffuse lymphadenopathy, along with hypereosinophilia, and elevated liver function tests, which in severe cases may lead to fulminant hepatic failure and death. Although DRESS syndrome has been associated with over 50 different drugs including imatinib, it has never been reported in association with imatinib t",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝臟纖維肉瘤極罕見，其 PDGFR/c-KIT 表現狀況缺乏系統性研究。現有文獻（PMID 22015552）針對 GIST（肝臟轉移常見），PMID 30096127 為 Imatinib 嚴重不良反應報告，兩者均非肝臟纖維肉瘤療效證據。GIST 肝轉移之 Imatinib 療效不能類推至原發性肝臟纖維肉瘤。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "autosomal recessive familial Mediterranean fever",
+      "txgnn": {
+        "score": 0.9985669255256652,
+        "rank": 2658
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FMF 由 MEFV 基因突變（編碼 pyrin 蛋白）導致 IL-1β 過度分泌所引起的自體炎症疾病；其病理機轉涉及 inflammasome 活化（NLRP3/pyrin），與 Imatinib 靶點（BCR-ABL/c-KIT/PDGFR）無直接關聯。TxGNN 高分可能來自知識圖譜中「炎症」節點之間接連結，屬圖譜結構雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "ovarian myxoid liposarcoma",
+      "txgnn": {
+        "score": 0.9985039234161376,
+        "rank": 2751
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "卵巢黏液性脂肪肉瘤為極罕見腫瘤（全球文獻病例 <30 例），FUS-DDIT3 融合為主要驅動機轉，非 PDGFR/c-KIT 依賴性腫瘤。TxGNN 分數由脂肪肉瘤類別拓撲推論，無疾病特異性機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "familial rhabdoid tumor",
+      "txgnn": {
+        "score": 0.9982958436012268,
+        "rank": 3038
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性橫紋肌樣腫瘤由 SMARCB1（INI1）胚系突變導致 SWI/SNF 染色質重塑複合體功能喪失；腫瘤驅動機轉為表觀遺傳調控異常，而非 RTK 信號活化。Imatinib 之 BCR-ABL/c-KIT/PDGFR 靶點與 SMARCB1 缺失之下游路徑無已知直接連結。現有研究方向為 EZH2 抑制劑（Tazemetostat）及免疫治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "heart fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "fibroblastic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "conventional fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "kidney fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "low grade fibromyxoid sarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "low grade fibromyxoid sarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "low grade fibromyxoid sarcoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "liver fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "liver fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "liver fibrosarcoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "autosomal recessive familial Mediterranean fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "ovarian myxoid liposarcoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imatinib",
+        "disease": "familial rhabdoid tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

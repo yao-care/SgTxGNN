@@ -1,0 +1,1116 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09302-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alirocumab",
+    "drugbank_id": "DB09302",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "ichthyosis, X-linked, without steroid sulfatase deficiency",
+      "txgnn": {
+        "score": 0.9942585229873656,
+        "rank": 7145
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "X-連鎖魚鱗病（不含類固醇硫酸酯酶缺乏症）的核心病理為 STS 基因外的其他缺陷，涉及膽固醇硫酸鹽（cholesterol sulfate）積聚與表皮屏障異常。Alirocumab 透過 PCSK9 抑制上調肝臟 LDL 受體、降低循環 LDL-C，作用於血漿膽固醇清除，對皮膚膽固醇硫酸鹽局部代謝缺陷無直接藥理學關聯。高 TxGNN 分數推測來自知識圖譜中「膽固醇代謝」超節點（hypernode）的廣義拓樸關聯，缺乏生物合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "disorder of other vitamins and cofactors metabolism and transport",
+      "txgnn": {
+        "score": 0.9941439032554626,
+        "rank": 7266
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PCSK9 抑制的作用路徑高度專一於 LDL 受體循環（LDLR recycling），對維生素（A/D/E/K/B 群等）及輔因子（CoA、FAD、NAD 等）的轉運及代謝酵素系統缺乏任何已知直接調控機轉。此適應症分類過於廣泛，且與 PCSK9 生物學完全不相關。TxGNN 高分為知識圖譜噪訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "xanthomatosis (disease)",
+      "txgnn": {
+        "score": 0.9937034249305724,
+        "rank": 7624
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31538826",
+            "title": "Severe Combined Dyslipidemia With a Complex Genetic Basis.",
+            "authors": [
+              "Le Ryan",
+              "Abbas Minan",
+              "McIntyre Adam D",
+              "Hegele Robert A"
+            ],
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2019",
+            "abstract": "Background. Familial dysbetalipoproteinemia (also known as type 3 hyperlipoproteinemia) is typically associated with homozygosity for the apolipoprotein E2 isoform, but also sometimes with dominant rare missense variants in the APOE gene. Patients present with roughly equimolar elevations of cholesterol and triglyceride (TG) due to pathologic accumulation of remnant lipoprotein particles. Clinical features include tuberoeruptive xanthomas, palmar xanthomas, and premature vascular disease. Case. ",
+            "classification": {
+              "study_type": "Case Report / Genetic Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32713907",
+            "title": "Sitosterolemia Exhibiting Severe Hypercholesterolemia with Tendon Xanthomas Due to Compound Heterozygous ABCG5 Gene Mutations Treated with Ezetimibe and Alirocumab.",
+            "authors": [
+              "Tanaka Hiroki",
+              "Watanabe Yuki",
+              "Hirano Shuji",
+              "Tada Hayato",
+              "Nomura Akihiro"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2020",
+            "abstract": "We herein report a rare case presenting with severe hypercholesterolemia, massive Achilles tendon xanthomas, and multi-vessel coronary artery disease. Initially, the patient was misdiagnosed with familial hypercholesterolemia. However, a genetic analysis using our custom sequencing panel covering genes associated with Mendelian lipid disorders revealed him to have a genetic basis of sitosterolemia with compound heterozygous mutations in the adenosine triphosphate binding cassette subfamily G5 (A",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "黃色瘤症（xanthomatosis）的病理基礎為膽固醇酯（cholesteryl ester）在巨噬細胞及其他組織中過度沉積，與血漿 LDL-C 長期升高高度相關。Alirocumab 透過 PCSK9 抑制可降低 LDL-C 40-60%，理論上能顯著減緩膽固醇組織沉積速率；已有他汀類藥物縮小黃色瘤的先例支持此路徑。然而，現有 2 篇文獻均為描述伴有黃色瘤的血脂異常案例（植物固醇血症、複合型基因性血脂異常），並非直接評估 alirocumab 治療黃色瘤症的臨床試驗。機轉合理性高（B 級），但臨床直接證據缺失，定位 L4。建議設計針對腱性黃色瘤（tendon xanthoma）患者的 Proof-of-Concept 研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect",
+      "txgnn": {
+        "score": 0.9936968684196472,
+        "rank": 7634
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "DHT 後門合成路徑缺陷（backdoor pathway）涉及 AKR1C2/AKR1C4 等酵素異常，影響胎兒外生殖器男性化。雖膽固醇為所有類固醇前驅物，PCSK9 抑制透過降低 LDL-C 可能間接影響腎上腺/性腺膽固醇供應，但此機轉方向（降低膽固醇）與此疾病的治療需求（補充或修正類固醇合成）完全相悖。高 TxGNN 分數為膽固醇代謝廣義節點的假陽性拓樸關聯，臨床上不具意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "cholesterol catabolic process disease",
+      "txgnn": {
+        "score": 0.99357008934021,
+        "rank": 7758
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03207945",
+            "title": "Effect of PCSK9 Inhibition on Cardiovascular Risk in Treated HIV Infection (EPIC-HIV Study)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 118,
+            "start_date": "2018-04-30",
+            "completion_date": "2025-09-24",
+            "brief_summary": "Atherosclerosis in the setting of HIV infection is distinct and includes increased vascular inflammation, worsened endothelial function, and a predominance of non-calcified plaque. These outcomes can be assessed using specialized noninvasive imaging which strongly predict future CV events in the general population.\n\nPCSK9 has emerged as an important pharmacologic target for cholesterol lowering in the general population and recent studies among individuals without HIV have shown that PCSK9 inhib",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 已完成試驗，直接評估 PCSK9 抑制劑（alirocumab）在接受 ART 治療的 HIV 感染者中的心血管風險及血脂改善效果。HIV 相關血脂異常（HIV-associated dyslipidemia）為膽固醇分解代謝受損的重要亞型，機轉契合度高。試驗設計聚焦於 HIV 特定族群而非一般性「膽固醇分解代謝疾病」，且樣本數偏小（n=118），故評為 B 級（間接但高度相關）。試驗結果可支持在 HIV 合併血脂異常族群推進 S3 建議。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37686091",
+            "title": "Advances in Treatment of Dyslipidemia.",
+            "authors": [
+              "Dybiec Jill",
+              "Baran Wiktoria",
+              "Dąbek Bartłomiej",
+              "Fularski Piotr",
+              "Młynarska Ewelina"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2023",
+            "abstract": "Dyslipidemias have emerged as prevalent disorders among patients, posing significant risks for the development and progression of cardiovascular diseases. These conditions are characterized by elevated levels of total cholesterol (TC), triglycerides (TGs), and low-density lipoprotein cholesterol (LDL-C). This review delves into the current treatment approach, focusing on equalizing these parameters while enhancing the overall quality of life for patients. Through an extensive analysis of clinica",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38277255",
+            "title": "PCSK9-directed therapies: an update.",
+            "authors": [
+              "Katzmann Julius L",
+              "Laufs Ulrich"
+            ],
+            "journal": "Current opinion in lipidology",
+            "year": "2024",
+            "abstract": "Two large cardiovascular outcomes trials of monoclonal antibodies against proprotein convertase subtilisin/kexin type 9 (PCSK9) demonstrated that therapeutic inhibition of extracellular PCSK9 markedly reduces LDL cholesterol concentration and cardiovascular risk. Several novel strategies to inhibit PCSK9 function are in development. Different mechanisms of action may determine specific properties with potential relevance for patient care.",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36411665",
+            "title": "Safety of PCSK9 inhibitors.",
+            "authors": [
+              "Grześk Grzegorz",
+              "Dorota Bednarska",
+              "Wołowiec Łukasz",
+              "Wołowiec Anna",
+              "Osiak Joanna"
+            ],
+            "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+            "year": "2022",
+            "abstract": "annually in Europe, 4 million people die from cardiovascular diseases, the main cause of which is atherosclerosis. In order to slow down the development of atherosclerotic plaques, the main therapeutic goal is to lower LDL cholesterol (LDL-C) level. Undoubtedly, statins are the basis of lipid-lowering therapy for many years. However, a European study shows that only 43% of statin-taking patients achieved their LDL-C targets. PCSK9 inhibitors are a new group of lipid-lowering drugs whose main poi",
+            "classification": {
+              "study_type": "Systematic Review / Safety Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39751968",
+            "title": "Homozygous Familial Hypercholesterolemia Treatment: New Developments.",
+            "authors": [
+              "Blom Dirk J",
+              "Marais A David",
+              "Raal Frederick J"
+            ],
+            "journal": "Current atherosclerosis reports",
+            "year": "2025",
+            "abstract": "Homozygous familial hypercholesterolaemia (HoFH) is characterized by marked elevation of low-density lipoprotein cholesterol (LDLC) and premature atherosclerotic cardiovascular disease. This is a review of novel pharmacological therapies to lower LDLC in patients with HoFH.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34070931",
+            "title": "PCSK9 Biology and Its Role in Atherothrombosis.",
+            "authors": [
+              "Barale Cristina",
+              "Melchionda Elena",
+              "Morotti Alessandro",
+              "Russo Isabella"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "It is now about 20 years since the first case of a gain-of-function mutation involving the as-yet-unknown actor in cholesterol homeostasis, proprotein convertase subtilisin/kexin type 9 (PCSK9), was described. It was soon clear that this protein would have been of huge scientific and clinical value as a therapeutic strategy for dyslipidemia and atherosclerosis-associated cardiovascular disease (CVD) management. Indeed, PCSK9 is a serine protease belonging to the proprotein convertase family, mai",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38185721",
+            "title": "Targeting proprotein convertase subtilisin/kexin type 9 (PCSK9): from bench to bedside.",
+            "authors": [
+              "Bao Xuhui",
+              "Liang Yongjun",
+              "Chang Hanman",
+              "Cai Tianji",
+              "Feng Baijie"
+            ],
+            "journal": "Signal transduction and targeted therapy",
+            "year": "2024",
+            "abstract": "Proprotein convertase subtilisin/kexin type 9 (PCSK9) has evolved as a pivotal enzyme in lipid metabolism and a revolutionary therapeutic target for hypercholesterolemia and its related cardiovascular diseases (CVD). This comprehensive review delineates the intricate roles and wide-ranging implications of PCSK9, extending beyond CVD to emphasize its significance in diverse physiological and pathological states, including liver diseases, infectious diseases, autoimmune disorders, and notably, can",
+            "classification": {
+              "study_type": "Translational Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36422206",
+            "title": "Familial Hypercholesterolemia and Its Current Diagnostics and Treatment Possibilities: A Literature Analysis.",
+            "authors": [
+              "Zubielienė Kristina",
+              "Valterytė Gintarė",
+              "Jonaitienė Neda",
+              "Žaliaduonytė Diana",
+              "Zabiela Vytautas"
+            ],
+            "journal": "Medicina (Kaunas, Lithuania)",
+            "year": "2022",
+            "abstract": "Familial hypercholesterolemia (FH) is a common, inherited disorder of cholesterol metabolism. This pathology is usually an autosomal dominant disorder and is caused by inherited mutations in the APOB, LDLR, and PCSK9 genes. Patients can have a homozygous or a heterozygous genotype, which determines the severity of the disease and the onset age of cardiovascular disease (CVD) manifestations. The incidence of heterozygous FH is 1: 200-250, whereas that of homozygous FH is 1: 100.000-160.000. Unfor",
+            "classification": {
+              "study_type": "Literature Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36739653",
+            "title": "PCSK9 inhibitors and reduction in cardiovascular events: Current evidence and future perspectives.",
+            "authors": [
+              "Nicholls Stephen J"
+            ],
+            "journal": "Kardiologia polska",
+            "year": "2023",
+            "abstract": "Proprotein convertase subtilisin/kexin type 9 (PCSK9) plays an important role in low-density lipoprotein (LDL) metabolism. Pharmacological PCSK9 inhibitors have been developed as a novel approach to treating dyslipidemia. This article reviews the spectrum of evidence implicating the role of PCSK9 in lipid metabolism and the clinical impact of PCSK9 inhibitors on lipid parameters and cardiovascular risk. Biochemical and genomic studies have established the role that PCSK9 plays in lipid metabolis",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39947256",
+            "title": "Therapeutic PCSK9 targeting: Inside versus outside the hepatocyte?",
+            "authors": [
+              "Corsini Alberto",
+              "Ginsberg Henry N",
+              "Chapman M John"
+            ],
+            "journal": "Pharmacology & therapeutics",
+            "year": "2025",
+            "abstract": "As a major regulator of LDL receptor (LDLR) activity and thus of LDL-cholesterol (LDL-C) levels, proprotein convertase subtilisin/kexin type 9 (PCSK9) represents an obvious therapeutic target for lipid lowering. The PCSK9 inhibitors, alirocumab and evolocumab, are human monoclonal antibodies (mAbs) that act outside the cell by complexing circulating PCSK9 and thus preventing its binding to the LDLR. In contrast, inclisiran, a small interfering RNA (siRNA), inhibits hepatic synthesis of PCSK9, th",
+            "classification": {
+              "study_type": "Mechanistic Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40911366",
+            "title": "The evolving landscape of targets for lipid lowering: from molecular mechanisms to translational implications.",
+            "authors": [
+              "Ballantyne Christie M",
+              "Norata Giuseppe D"
+            ],
+            "journal": "European heart journal",
+            "year": "2025",
+            "abstract": "Cardiovascular disease remains a major global health challenge, with dyslipidaemia being a key modifiable risk factor. While low density lipoprotein cholesterol (LDL-C) is the primary target for lipid-lowering therapies, recent evidence highlights the importance of triglycerides, apolipoprotein B (apoB), and lipoprotein(a) [Lp(a)] for residual cardiovascular risk. Current lipid-lowering therapies target key enzymes and proteins involved in cholesterol and lipid metabolism. Statins inhibit HMG-Co",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38191052",
+            "title": "Inhibition of PCSK9 prevents and alleviates cholesterol gallstones through PPARα-mediated CYP7A1 activation.",
+            "authors": [
+              "Chen Zhenmei",
+              "Shao Weiqing",
+              "Li Yitong",
+              "Zhang Xiandi",
+              "Geng Yan"
+            ],
+            "journal": "Metabolism: clinical and experimental",
+            "year": "2024",
+            "abstract": "Dysregulated cholesterol metabolism is the major factor responsible for cholesterol gallstones (CGS). Proprotein convertase subtilisin/kexin type 9 (PCSK9) plays a critical role in cholesterol homeostasis and its inhibitors secure approval for treating various cholesterol metabolic disorders such as hypercholesterolemia and cardiovascular diseases, but its role in CGS remains unclear. Our study aims to clarify mechanisms by which PCSK9 promotes CGS formation and explore the application of the PC",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39679827",
+            "title": "Current and emerging PCSK9-directed therapies to reduce LDL-C and ASCVD risk: A state-of-the-art review.",
+            "authors": [
+              "Garwood Candice L",
+              "Cabral Katherine P",
+              "Brown Roy",
+              "Dixon Dave L"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2025",
+            "abstract": "Atherosclerotic cardiovascular disease (ASCVD) remains the leading cause of death worldwide. Lowering low-density lipoprotein cholesterol (LDL-C) levels is a primary strategy to reduce ASCVD risk. Although statin therapy remains the initial therapy of choice to reduce LDL-C and ASCVD risk, statin intolerance and suboptimal LDL-C lowering response prompts the need for additional non-statin therapies. Ezetimibe and bempedoic acid are reasonable options but they modestly reduce LDL-C levels (15% to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38658193",
+            "title": "Safety of the PCSK9 inhibitor alirocumab: insights from 47 296 patient-years of observation.",
+            "authors": [
+              "Goodman Shaun G",
+              "Steg Philippe Gabriel",
+              "Szarek Michael",
+              "Bhatt Deepak L",
+              "Bittner Vera A"
+            ],
+            "journal": "European heart journal. Cardiovascular pharmacotherapy",
+            "year": "2024",
+            "abstract": "The ODYSSEY OUTCOMES trial, comprising over 47 000 patient-years of placebo-controlled observation, demonstrated important reductions in the risk of recurrent ischaemic cardiovascular events with the monoclonal antibody to proprotein convertase subtilisin/kexin type 9 alirocumab, as well as lower all-cause death. These benefits were observed in the context of substantial and persistent lowering of low-density lipoprotein cholesterol with alirocumab compared with that achieved with placebo. The s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35445838",
+            "title": "[Update on PCSK9 inhibition].",
+            "authors": [
+              "Katzmann Julius L",
+              "Custodis Florian",
+              "Schirmer Stephan H",
+              "Laufs Ulrich"
+            ],
+            "journal": "Herz",
+            "year": "2022",
+            "abstract": "Lowering of low-density lipoprotein (LDL) cholesterol represents one of the most effective interventions in cardiovascular prevention. Besides the oral treatment with statins, ezetimibe and bempedoic acid, subcutaneously administered inhibitors of proprotein convertase subtilisin-kexin type 9 (PCSK9) have been established as further cornerstones of lipid-lowering treatment. The antibodies evolocumab and alirocumab are administered subcutaneously every 2-4 weeks and lower LDL cholesterol by aroun",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39150672",
+            "title": "PCSK9 and Coronary Artery Plaque-New Opportunity or Red Herring?",
+            "authors": [
+              "Barbieri Lucia",
+              "Tumminello Gabriele",
+              "Fichtner Isabella",
+              "Corsini Alberto",
+              "Santos Raul D"
+            ],
+            "journal": "Current atherosclerosis reports",
+            "year": "2024",
+            "abstract": "Although the clinical benefit of reducing low-density lipoprotein cholesterol (LDLc) in patients with coronary artery disease (CAD) is well-established, the impact on plaque composition and stability is less clear. Our narrative review aimed to assess the clinical effects of proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors on coronary plaque characteristics specifically focusing from atheroma progression to regression and stabilization.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28060539",
+            "title": "Bococizumab for the treatment of hypercholesterolaemia.",
+            "authors": [
+              "Ferri Nicola",
+              "Corsini Alberto",
+              "Sirtori Cesare R",
+              "Ruscica Massimiliano"
+            ],
+            "journal": "Expert opinion on biological therapy",
+            "year": "2017",
+            "abstract": "Low-density lipoprotein cholesterol (LDL-C) remains a well-established risk factor for cardiovascular disease (CVD). LDL-C levels are considered primary targets of therapy. A new series of systemic biomolecules, the monoclonal antibodies (mAbs) of proprotein convertase subtilisin/kexin type 9 (PCSK9), have a higher activity in reducing LDL-C. Areas covered: The authors critically review the current evidence on the efficacy and safety of bococizumab, a humanized mAb against PCSK9, which was surpr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40250948",
+            "title": "Inadequate Response to PCSK9 Inhibitors.",
+            "authors": [
+              "Bimal Tia",
+              "Ayyalu Tanesh",
+              "Safarova Maya S",
+              "Donahoe Sean",
+              "Davila Courtney"
+            ],
+            "journal": "JACC. Case reports",
+            "year": "2025",
+            "abstract": "Suboptimal response to various proprotein convertase subtilisin/kexin type 9 inhibitor (PCSK9i) therapies has been reported in the literature; however, inadequate response to proprotein convertase subtilisin/kexin type 9 monoclonal antibodies and small interference RNA is rare to our knowledge.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29526502",
+            "title": "Efficacy and safety of lipid lowering by alirocumab in chronic kidney disease.",
+            "authors": [
+              "Toth Peter P",
+              "Dwyer Jamie P",
+              "Cannon Christopher P",
+              "Colhoun Helen M",
+              "Rader Daniel J"
+            ],
+            "journal": "Kidney international",
+            "year": "2018",
+            "abstract": "Individuals with chronic kidney disease are at increased risk of premature cardiovascular disease. Among them, many with elevated low-density lipoprotein cholesterol (LDL-C) are unable to achieve optimal LDL-C on statins and require additional lipid-lowering therapy. To study this, we compared the LDL-C-lowering efficacy and safety of alirocumab in individuals with hypercholesterolemia with impaired renal function, defined as eGFR 30-59 ml/min/1.73 m2, to those without impaired renal function eG",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39484117",
+            "title": "Rationale for Early Administration of PCSK9 Inhibitors in Acute Coronary Syndrome.",
+            "authors": [
+              "Giordano Salvatore",
+              "Ielapi Jessica",
+              "Salerno Nadia",
+              "Cersosimo Angelica",
+              "Lucchino Alessandro"
+            ],
+            "journal": "Reviews in cardiovascular medicine",
+            "year": "2024",
+            "abstract": "Acute coronary syndromes (ACSs) represent a significant global health challenge arising from atherosclerotic cardiovascular disease (ASCVD), with elevated low-density lipoprotein cholesterol (LDL-C) levels being a primary contributor. Despite standard statin therapy, individuals with ACS remain at high risk for recurrent cardiovascular events, particularly in the initial post-ACS period. Monoclonal antibodies targeting proprotein convertase subtilisin/kexin type 9 (PCSK9), such as evolocumab and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alirocumab 為抗 PCSK9 單株抗體（IgG1κ），與 PCSK9 結合後阻止其與肝細胞表面 LDL 受體結合，從而防止 LDL 受體降解（lysosomal degradation），顯著上調肝臟 LDL 受體密度（可增加 2-4 倍），使血漿 LDL-C 降低 40-60%。此機轉與「膽固醇分解代謝疾病」（cholesterol catabolic process disease）的核心病理生理直接契合——無論是家族性高膽固醇血症（FH，LDLR/ApoB/PCSK9 功能獲得性突變）、繼發性血脂異常（HIV 感染、代謝症候群等所致），或其他 LDL 清除受損疾病，均可透過 PCSK9 抑制恢復 LDL 受體功能。現有 1 項已完成 Phase 3 臨床試驗及 19 篇（提供 10 篇）高品質文獻，包含系統性回顧與機轉研究，構成 L2 證據強度。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "46,XY disorder of sex development due to a cholesterol synthesis defect",
+      "txgnn": {
+        "score": 0.9934985637664796,
+        "rank": 7830
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此疾病源於膽固醇生合成酵素缺陷（如 DHCR7 缺陷導致 Smith-Lemli-Opitz 症候群、CYP51A1 缺陷等），影響性腺發育所需膽固醇供應。Alirocumab 作用方向為促進膽固醇清除（分解代謝↑），與此疾病所需之保護/補充內源性膽固醇合成能力的治療方向相悖，理論上有可能加重膽固醇缺乏。高 TxGNN 分數為知識圖譜膽固醇相關節點的方向性誤判（direction-agnostic KG）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "dappled diaphyseal dysplasia",
+      "txgnn": {
+        "score": 0.9930140376091005,
+        "rank": 8223
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "斑點狀骨幹發育不良（Dappled diaphyseal dysplasia）為極罕見骨骼疾病，目前分子機轉尚未完全闡明。與 PCSK9/LDL 受體軸缺乏任何已知病理生理關聯。TxGNN 評分可能反映知識圖譜稀疏區域的邊緣節點雜訊（edge noise in sparse KG region）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "neutral lipid storage disease",
+      "txgnn": {
+        "score": 0.9928961396217346,
+        "rank": 8312
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "中性脂質儲積症（NLSD）由 ATGL（PNPLA2）或 CGI-58（ABHD5）缺陷引起，導致三酸甘油酯（TG）在多器官積聚，分為 NLSD-M（肌病型）和 NLSD-I（魚鱗病型）。Alirocumab 的靶點 PCSK9 主要調控 LDL-C（膽固醇脂蛋白），對 TG 水解酵素缺陷及 TG 儲積路徑缺乏直接藥理作用。兩者代謝路徑交集極小，高 TxGNN 分數為廣義脂質代謝超節點的假性關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "3-hydroxyacyl-CoA dehydrogenase deficiency",
+      "txgnn": {
+        "score": 0.9928832054138184,
+        "rank": 8322
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "3-羥醯基輔酶A脫氫酶（HADH/SCHAD）缺乏症為粒線體脂肪酸β-氧化（FAO）缺陷，影響中短鏈脂肪酸代謝，臨床表現為低血糖、高胰島素血症及肝臟損傷。此疾病的分子路徑（粒線體 FAO）與 Alirocumab 的作用路徑（肝細胞表面 LDLR 循環 → 血漿 LDL-C 清除）處於完全不同的細胞生化隔室，無藥理學交集。高 TxGNN 分數為 KG 中脂質代謝廣義節點的誤相關（non-specific lipid metabolism node overlap）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder",
+      "txgnn": {
+        "score": 0.9926319122314452,
+        "rank": 8524
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SPOAN 相關疾病群（痙攣性截癱-視神經萎縮-神經病變）為遺傳性神經退化性疾病，部分亞型（如 SPG5/CYP7B1 缺陷）涉及氧固醇（oxysterol）蓄積，與膽固醇代謝有間接關聯。雖有研究顯示 PCSK9 在神經系統有 pleiotropic 作用（如 NMDAR 降解、神經保護），但目前尚無 alirocumab 用於任何神經退化性疾病的臨床試驗或案例報告。高 TxGNN 分數可能捕捉到 SPG5 與膽固醇代謝的間接知識圖譜關聯，但尚未達到可進入臨床開發的證據門檻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "ichthyosis, X-linked, without steroid sulfatase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "ichthyosis, X-linked, without steroid sulfatase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "ichthyosis, X-linked, without steroid sulfatase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "disorder of other vitamins and cofactors metabolism and transport"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "disorder of other vitamins and cofactors metabolism and transport"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "disorder of other vitamins and cofactors metabolism and transport"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "xanthomatosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "xanthomatosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "xanthomatosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "cholesterol catabolic process disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "cholesterol catabolic process disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "cholesterol catabolic process disease"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "46,XY disorder of sex development due to a cholesterol synthesis defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "46,XY disorder of sex development due to a cholesterol synthesis defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "46,XY disorder of sex development due to a cholesterol synthesis defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "dappled diaphyseal dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "dappled diaphyseal dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "dappled diaphyseal dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "neutral lipid storage disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "neutral lipid storage disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "neutral lipid storage disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "3-hydroxyacyl-CoA dehydrogenase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "3-hydroxyacyl-CoA dehydrogenase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "3-hydroxyacyl-CoA dehydrogenase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alirocumab",
+        "disease": "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

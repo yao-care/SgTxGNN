@@ -1,0 +1,278 @@
+```json
+{
+  "drug": "Belimumab",
+  "drugbank_id": "DB08879",
+  "analysis_date": "2026-04-10",
+  "data_quality_flags": [
+    "⚠️ market_status 標記為『未上市』疑為資料缺口：Belimumab (Benlysta) 已於 2011 年獲 FDA 核准用於 SLE",
+    "⚠️ original_moa 標記為 [Data Gap]：已知作用機轉為抗 BAFF/BLyS 單株抗體，抑制 B 細胞存活與分化",
+    "⚠️ original_indications 為空：實際核准適應症包含 活躍性、自身抗體陽性 SLE 及 LN"
+  ],
+  "indications": [
+    {
+      "disease_name": "primary release disorder of platelets",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Belimumab 藉由阻斷 BAFF/BLyS 抑制 B 細胞存活，理論上可減少自身抗體介導的血小板破壞（類 ITP 機轉）。然而『primary release disorder of platelets』屬血小板顆粒分泌功能缺陷，主要為血小板內在結構/功能異常，非抗體介導，BAFF 軸無明確病理角色，機轉關聯薄弱。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01610492",
+          "title": "BEL116472: Belimumab in Idiopathic Membranous Glomerulonephropathy",
+          "relevance_grade": "C",
+          "reasoning": "此試驗研究對象為膜性腎小球病變（Membranous GN），與血小板釋放功能障礙無任何直接關聯；為系統擷取錯誤配對，不得計入適應症支持證據。Phase 2，已完成，14 人，規模極小且適應症不符。"
+        }
+      ],
+      "literature_analysis": [],
+      "summary": "分數 0.9996 屬 TxGNN 純預測。唯一試驗為誤配；零文獻支持。屬 L5，建議 Hold，待機轉假說建立後再評估。"
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pseudo-vWD 為 GPIbα 功能增益突變（gain-of-function），導致血小板過度結合 VWF 多聚體，屬遺傳性血小板功能異常。與 BAFF/B 細胞軸無直接相關，Belimumab 機轉無法解決 GPIbα 結構問題。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "純預測分數，無任何臨床或文獻證據，且機轉不契合。L5 / S0 / Hold。"
+    },
+    {
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn_score": 0.9988,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glanzmann thrombasthenia 為 GPIIb/IIIa（整合素 αIIbβ3）遺傳性缺失，血小板聚集功能完全喪失，屬基因結構缺陷病。Belimumab 之 BAFF 抑制機轉無法修復整合素表現，機轉連結不存在。部分同種免疫併發症（輸血後 GT 抗體）理論上可考慮，但無任何臨床資料支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "L5 / S0 / Hold。高 TxGNN 分數可能反映知識圖譜中血小板疾病節點聚集效應，而非真實機轉。"
+    },
+    {
+      "disease_name": "fetal and neonatal alloimmune thrombocytopenia",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FNAIT 由母體產生抗胎兒血小板抗原（多為 HPA-1a）IgG 抗體並透過胎盤傳輸所致，為同種免疫性 B 細胞反應。理論上 Belimumab 抑制母體 BAFF → 減少致病性 B 細胞 → 降低同種抗體，具備最弱度的機轉假說。然而：(1) 無任何臨床試驗；(2) 無文獻；(3) 孕期 Belimumab 安全性尚不明確；(4) 標準治療（IVIG、糖皮質素）效果明確。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "存在極微薄機轉假說，但無臨床資料支持，且孕期使用有重大安全疑慮。L5 / S0 / Hold。"
+    },
+    {
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn_score": 0.9905,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嚴重非增殖性糖尿病視網膜病變主要機轉為高血糖誘發之微血管損傷、周細胞喪失與神經節細胞凋亡，炎症通路涉及 VEGF、TNF-α、AGE-RAGE 軸。BAFF 在糖尿病併發症之角色尚在初期研究階段（部分動物模型顯示 BAFF 參與代謝炎症），機轉連結極間接，且無任何人體臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "L5 / S0 / Hold。機轉假說僅屬推測層級，需先建立概念驗證研究。"
+    },
+    {
+      "disease_name": "autosomal dominant macrothrombocytopenia",
+      "txgnn_score": 0.9904,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "體染色體顯性巨血小板減少症多源於 MYH9、TUBB1、GP1BA 等基因突變，血小板生成及形態異常，屬遺傳性骨髓巨核細胞分化缺陷，非免疫媒介疾病。Belimumab 之 BAFF 抑制機轉與遺傳性骨髓發育無關，機轉連結不存在。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "L5 / S0 / Hold。遺傳性骨髓缺陷與 BAFF/B 細胞軸無關，為 TxGNN 血小板節點群聚效應造成之預測偏差。"
+    },
+    {
+      "disease_name": "granulomatous disease, chronic, autosomal recessive, 5",
+      "txgnn_score": 0.9791,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性肉芽腫病（CGD）第 5 型（CYBC1 基因突變）為 NADPH 氧化酶複合體缺陷，導致中性球及吞噬細胞氧化殺菌功能喪失。病理核心為髓系細胞功能異常，非 B 細胞/抗體驅動。Belimumab 抑制 BAFF 不影響 NADPH 氧化酶功能，機轉連結不存在。免疫重建（造血幹細胞移植）或基因治療為本病標準研究方向。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "L5 / S0 / Hold。病理機轉與 Belimumab 作用目標完全不符。"
+    },
+    {
+      "disease_name": "anus disease",
+      "txgnn_score": 0.9789,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "『anus disease』為極寬泛診斷分類，涵蓋肛裂、痔瘡、肛門癌、肛周 Crohn's 等異質病態。若為肛周 Crohn's 病（IBD 延伸），則可藉由 BAFF 介導的 B 細胞炎症機轉建立間接連結；但無法從此通用標籤確認疾病亞型。零臨床及文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "L5 / S0 / Hold。疾病定義過廣，需先確認具體亞型（如肛周 Crohn's）後重新評估。"
+    },
+    {
+      "disease_name": "inflammatory bowel disease",
+      "txgnn_score": 0.9776,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "IBD（Crohn's 病及潰瘍性結腸炎）中 BAFF/BLyS 顯著升高，B 細胞在腸道黏膜免疫紊亂中扮演重要角色（產生自身抗體、促進 T 細胞激活、分泌促炎細胞激素）。Belimumab 抑制 BAFF → 減少邊緣帶 B 細胞及漿母細胞存活 → 潛在降低腸道黏膜炎症。PMID 27655102 及 35054212 提供直接機轉依據。機轉可信度中等，但臨床轉化尚待驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03844061",
+          "title": "Belimumab and Rituximab Combination Therapy (RCT, DB, PC)",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "relevance_grade": "B",
+          "reasoning": "含 Belimumab 之隨機雙盲安慰劑對照 Phase 2 試驗，設計嚴謹，但標題未明確指定 IBD 為適應症（可能為 SLE 或其他自體免疫病之聯合 B 細胞清除策略）。招募中，規模小（30 人），需確認主要適應症後調整評分。若試驗對象確認非 IBD，應降為 C 級。"
+        },
+        {
+          "nct_id": "NCT07138898",
+          "title": "Immunosuppressant Management in Rheumatology Patients Undergoing Elective Total Shoulder Arthroplasty",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 80,
+          "relevance_grade": "C",
+          "reasoning": "研究主題為風濕病患者接受肩關節置換術的免疫抑制劑管理，並非 IBD 治療研究。Belimumab 為受研究藥物之一，但手術情境與 IBD 疾病活性評估無關。與 IBD 適應症相關性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27655102",
+          "title": "B Cell-Activating Factor (BAFF)-Targeted B Cell Therapies in Inflammatory Bowel Diseases",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": 1,
+          "note": "最相關文獻：直接討論 BAFF 靶向療法（含 Belimumab）在 IBD 之潛在應用，機轉論述充分。"
+        },
+        {
+          "pmid": "35054212",
+          "title": "Role of B-Cell Activating Factor (BAFF) in Inflammatory Bowel Disease",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 1,
+          "note": "直接探討 BAFF 在 IBD 病理中的角色，支持 BAFF 軸為治療靶點的概念。"
+        },
+        {
+          "pmid": "33403021",
+          "title": "Shared development of targeted therapies among autoimmune and inflammatory diseases: a systematic review",
+          "year": "2020",
+          "study_type": "Systematic Review",
+          "tier": 2,
+          "note": "涵蓋多種自體免疫疾病靶向治療共享性，IBD 相關段落提供跨適應症背景資訊。"
+        },
+        {
+          "pmid": "37716078",
+          "title": "Hepatic safety and efficacy of immunomodulatory drugs used in patients with autoimmune hepatitis",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "聚焦自體免疫性肝炎，與 IBD 相關性有限，主要提供安全性參考。"
+        },
+        {
+          "pmid": "25829190",
+          "title": "Are biological drugs safe in pregnancy?",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "生物製劑孕期安全性綜述，適應症無關但提供安全性背景資訊。"
+        },
+        {
+          "pmid": "40414587",
+          "title": "Dual B-cell targeting in systemic lupus erythematosus: combined and sequential therapy",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "聚焦 SLE，與 IBD 關聯性低，但 B 細胞雙重靶向策略可提供概念參考。"
+        },
+        {
+          "pmid": "20947558",
+          "title": "Anticytokine therapy in systemic lupus erythematosus",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "SLE 導向，與 IBD 相關性低。"
+        },
+        {
+          "pmid": "27490204",
+          "title": "Critical review of recommendations for treatment of systemic inflammatory rheumatic diseases",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "風濕病導向，IBD 未涵蓋為主要對象。"
+        },
+        {
+          "pmid": "32497929",
+          "title": "Biologic therapy in severe and refractory peripheral ulcerative keratitis (PUK)",
+          "year": "2020",
+          "study_type": "Cohort/Case series",
+          "tier": 3,
+          "note": "眼科研究，與 IBD 無直接關聯，僅反映生物製劑在自體免疫病的廣泛應用。"
+        }
+      ],
+      "summary": "IBD 為本批次中唯一具有間接臨床及機轉文獻支持之適應症。Tier 1 文獻（PMID 27655102, 35054212）提供 BAFF 在 IBD 中的直接機轉依據；Phase 2 試驗（NCT03844061）含 Belimumab 但適應症確認需進一步查核。整體評估為 L4（間接證據+機轉研究），達 S1（安全性初評）門檻。建議立案為『Research Question』：優先確認 NCT03844061 之主要適應症，並系統性搜索 BAFF 在 IBD 患者中的生物標記資料。"
+    },
+    {
+      "disease_name": "granulomatous disease with defect in neutrophil chemotaxis",
+      "txgnn_score": 0.9771,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中性球趨化功能缺陷型肉芽腫病為固有免疫缺陷，中性球無法有效遷移至感染灶，屬 NADPH 氧化酶或信號通路功能異常。Belimumab 作用於適應性免疫（B 細胞/BAFF 軸），對中性球趨化功能無直接影響。病理機轉與作用機轉完全不符。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "L5 / S0 / Hold。固有免疫缺陷疾病，Belimumab 機轉不適用。"
+    }
+  ],
+  "batch_summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L4": 1,
+      "L5": 9
+    },
+    "decision_distribution": {
+      "S0_Hold": 9,
+      "S1_Research_Question": 1
+    },
+    "priority_indication": "inflammatory bowel disease",
+    "key_concerns": [
+      "9 個適應症僅有 TxGNN 預測分數，缺乏任何直接臨床證據",
+      "血小板相關適應症群（5 個）高分可能源於知識圖譜中血小板疾病節點聚集效應，非真實機轉訊號",
+      "唯一關聯試驗 NCT01610492 為誤配（膜性腎小球病變），不應計入任何血小板疾病證據",
+      "原始資料中市場狀態與已知核准狀態不符，建議更新資料庫",
+      "IBD 的 2 個試驗均需確認主要適應症是否確實為 IBD"
+    ],
+    "next_steps": [
+      "1. 【IBD】查核 NCT03844061 主要適應症；搜索 Belimumab 在 IBD 患者中的 BAFF 生物標記研究",
+      "2. 【FNAIT】雖列為 Hold，可建立最低層級假說文件，評估孕期安全性後再決定",
+      "3. 【資料修正】更新 Belimumab 市場狀態（已核准：SLE, LN）及作用機轉（抗 BAFF/BLyS mAb）",
+      "4. 【TxGNN 模型評估】血小板疾病群高分現象建議回饋模型團隊，檢查 KG 節點連結是否過度聚集"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 核心發現
+
+| 適應症 | 分數 | 等級 | 階段 | 建議 |
+|--------|------|------|------|------|
+| **inflammatory bowel disease** | 0.9776 | **L4** | **S1** | **Research Question** |
+| primary release disorder of platelets | 0.9996 | L5 | S0 | Hold |
+| pseudo-von Willebrand disease | 0.9996 | L5 | S0 | Hold |
+| Glanzmann thrombasthenia | 0.9988 | L5 | S0 | Hold |
+| fetal & neonatal alloimmune thrombocytopenia | 0.9959 | L5 | S0 | Hold |
+| severe nonproliferative diabetic retinopathy | 0.9905 | L5 | S0 | Hold |
+| autosomal dominant macrothrombocytopenia | 0.9904 | L5 | S0 | Hold |
+| granulomatous disease (CGD type 5) | 0.9791 | L5 | S0 | Hold |
+| anus disease | 0.9789 | L5 | S0 | Hold |
+| granulomatous disease (neutrophil chemotaxis) | 0.9771 | L5 | S0 | Hold |
+
+### 🔴 重要警示
+
+**血小板疾病群分數虛高問題**：5 個血小板相關適應症 TxGNN 分數均 >0.99，這是典型的 **知識圖譜節點聚集偏差**——血小板疾病在 KG 中形成高密度節點群，模型學習到錯誤的連結訊號。這些高分不代表真實的藥物-疾病機轉關聯，建議回饋模型優化。
+
+### ✅ 唯一值得推進的候選
+
+**IBD (L4/S1)**：
+- 2 篇 Tier 1 直接機轉文獻（BAFF 在 IBD 中的角色）
+- BAFF 軸生物學合理性中等
+- 下一步：確認 NCT03844061 主要適應症，啟動系統性文獻回顧

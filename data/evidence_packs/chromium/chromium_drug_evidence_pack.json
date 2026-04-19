@@ -1,0 +1,2524 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11136-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Chromium",
+    "drugbank_id": "DB11136",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "osteoarthritis",
+      "txgnn": {
+        "score": 0.9867584109306335,
+        "rank": 13000
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00862511",
+            "title": "A Prospective Randomized Comparison of Serum Metal Ion Levels After Implantation of Coated and Uncoated Knee Prostheses",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2009-03",
+            "completion_date": "2017-01",
+            "brief_summary": "All metal implants release metal ions because of corrosion. Total knee arthroplasty implants have large metal surface areas and therefore substantial potential for corrosion. It is planned to compare changes in serum levels of metal ions in patients after implantation of cemented unconstrained total knee arthroplasty covered with or without a passivating surface. Serum concentrations of chromium, cobalt, molybdenum and nickel will be analyzed and compared between the two groups, as well as with ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "監測關節植入物鉻離子釋出，非治療性研究。代表本適應症中大多數試驗的性質。"
+            }
+          },
+          {
+            "nct_id": "NCT02196792",
+            "title": "Assessment of Polyethylene Wear, Migration and Clinical Outcome in Total Hip Replacement - A Prospective Randomized Control Trial",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2009-05-01",
+            "completion_date": "2030-05-01",
+            "brief_summary": "The objective of the study is to investigate head penetration, cup migration, and clinical outcome in total hip replacements using a factorial design. Treatment groups are E-Poly versus ArComXL liners, and 36 mm versus 32 mm head size.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "人工髖關節磨損研究，主動監測金屬離子，與鉻補充治療 OA 無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT04585022",
+            "title": "Whole Blood Metal Ion Concentrations in Metal-on-metal Total Hip Arthroplasty and Hip Resurfacing - A Randomized Controlled Trial With 5-years Follow up Including 75 Patients",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 75,
+            "start_date": "2006-11-01",
+            "completion_date": "2017-01-11",
+            "brief_summary": "The investigators aimed to investigate the possible differences in metal ion concentrations in patients following one of two types of metal-on-metal articulating hip prosthesis regarding chromium and cobalt concentration, radiological findings, patient reported outcome measures and rate of revision at 5-years follow up.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "MoM 人工髖關節鉻離子監測，已終止。"
+            }
+          },
+          {
+            "nct_id": "NCT00561600",
+            "title": "A Randomized, Prospective, Comparative, Multi-Center Clinical Evaluation of the DePuy ASR™-XL Acetabular Cup System vs. the Pinnacle™ Metal- on- Metal Total Hip System Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 265,
+            "start_date": "2006-11-01",
+            "completion_date": "2012-01-01",
+            "brief_summary": "The primary objective of this investigation is to evaluate the clinical and radiographic outcomes of the ASR™-XL Acetabular Cup System compared to the Pinnacle™ Acetabular Cup with a 28mm or 36mm ULTAMET™ metal insert.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已召回的 DePuy ASR 系統評估研究，監測有害鉻離子釋出，非治療性。"
+            }
+          },
+          {
+            "nct_id": "NCT05357378",
+            "title": "Safety and Effectiveness of the Hip Innovation Technology Reverse Hip Replacement System in Primary Total Hip Arthroplasty: A Pivotal Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 288,
+            "start_date": "2022-07-15",
+            "completion_date": "2035-07-15",
+            "brief_summary": "The purpose of this study is to determine if the use of the HIT Reverse Hip Replacement System is safe and effective in patients undergoing total hip replacement. We will determine whether it is safe and effective by comparing it to the control devices.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "新型髖關節置換裝置安全性研究，與鉻補充療法無關。"
+            }
+          },
+          {
+            "nct_id": "NCT03382652",
+            "title": "Continuum™ Metal Bearing System in Total Hip Arthroplasty- A Multi-center, Prospective, Non-controlled Post Market Surveillance Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 83,
+            "start_date": "2011-02-09",
+            "completion_date": "2022-10-22",
+            "brief_summary": "The study is a multi-center, prospective, non-controlled, consecutive cohort post market surveillance study. The objective of this study is to obtain survival and outcome data on the Continuum Metal Bearing System in primary total hip arthroplasty.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "金屬對金屬髖關節系統評估，監測性質。"
+            }
+          },
+          {
+            "nct_id": "NCT05815953",
+            "title": "The Polarstem Versus Corail; a Comparison of Micromotion and Periprosthetic Bone Remodelling of Two Femoral Stems. A Randomised Trial of 60 Patients Using Radiostereometric Analysis, Dual Energy X-ray Absorptiometry and Computer Tomography",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 60,
+            "start_date": "2017-06-20",
+            "completion_date": "2033-01-31",
+            "brief_summary": "A randomised controlled trial comparing a recently introduced femoral stem with an established stem for total hip arthroplasty (THA). 60 patients will be randomised into one of the two groups\n\n1. Polarstem uncemented femoral stem (Smith \\& Nephew)\n2. Corail uncemented femoral stem (De Puy) All patients will receive a 32mm cobalt-chromium (CoCr) femoral head and an R3 acetabular cup with a 10 Mrad highly cross-linked polyethylene (XLPE) liner (Smith \\& Nephew).\n\nRadiostereometric analysis (RSA) w",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "髖關節假體微動研究，非鉻補充療法。"
+            }
+          },
+          {
+            "nct_id": "NCT00759993",
+            "title": "A 6 Week, Blinded, Randomized, Controlled Pilot Study to Evaluate the Safety and Efficacy of Chromium Piccolinate in the Prevention of Weight Gain Induced by Serotonergic Medications Initiated on Psychiatric Inpatient Units.",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 60,
+            "start_date": "2008-09",
+            "completion_date": "2013-03",
+            "brief_summary": "A majority of patients who suffer from mental illness are treated with serotonin regulating FDA approved medications. Some of these medications also block histamine transmission, increase blood prolactin levels, induce insulin resistance, hyperlipidemia, and promote sedation. All of which lead to weight gain and obesity. Many of these drugs are generally safe and effective but do carry the risk of a long term side effect in that acute and gradual weight gain of 10-30 pounds over a few months to ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "唯一直接測試鉻補充劑治療 OA 的 Phase 2 試驗，但狀態為 TERMINATED（終止），入組 60 人後提前結束。終止原因未知，是本適應症最大的風險信號，需查詢 FDA/ClinicalTrials 記錄確認終止原因（療效失敗 vs. 安全疑慮 vs. 資金問題）。"
+            }
+          },
+          {
+            "nct_id": "NCT00586781",
+            "title": "Investigational Device Exemption for the Scandinavian Total Ankle Replacement (STAR) - Bilateral Arm",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2001-09",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to evaluate the safety of the S.T.A.R. device for patients with bilateral disease.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "踝關節置換裝置研究（Phase 3），與鉻作為治療劑無關，被誤納入。"
+            }
+          },
+          {
+            "nct_id": "NCT04058743",
+            "title": "Effect of Nickel Sensitivity on Patient Reported Outcomes After Total Knee Arthroplasty",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 8,
+            "start_date": "2019-09-27",
+            "completion_date": "2024-12-21",
+            "brief_summary": "The purpose of this study is to compare clinical outcomes of patients with self reported nickel sensitivity undergoing primary total knee arthroplasty (TKA) with conventional, standard-of-care vs nickel-free implants. The hypothesis is that patients with a self-reported nickel sensitivity will have similar patient reported outcome scores compared to those patients without reported nickel sensitivity. Therefor the anticipation is for there to be no differences in other clinical outcome measures o",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "鎳過敏與全膝置換術後結果，與鉻補充治療 OA 無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT05509972",
+            "title": "International, Prospective, Longterm Study Comparing the Clinical Outcome and In-vivo Wear Behaviour of AS Coated Versus Uncoated Columbus® Total Knee Prosthesis",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2023-04-06",
+            "completion_date": "2024-08-30",
+            "brief_summary": "This clinical study is a Post-Market Clinical Follow-Up (PMCF) measure and is aiming to compare the in-vivo wear behaviour of the Columbus® total knee prosthesis between the standard Cobalt Chromium (CoCr) and the multilayer coated so called \"Advanced Surface\" (AS) of the same implant. The clinical investigation is designed as a International, prospective, longterm non-interventional study in order to gain clinical data of many patients within the routine clinical application of the investigatio",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06951477",
+            "title": "Gut Microbiome in Orthopaedics: Investigating the Role of Gut Microbiome Composition in Total Knee Arthroplasty Failure",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 30,
+            "start_date": "2025-10",
+            "completion_date": "2027-12",
+            "brief_summary": "Many patients who receive knee replacement surgery must return for a revision (or repeat) surgery due to ongoing pain, stiffness, infection, or implant loosening. The role of the gut microbiome-the collection of bacteria and other microbes within the human gastrointestinal tract-is just beginning to be recognized in orthopaedics. The gut microbiome has been found to affect the immune response and bone regulation, potentially contributing to infection or loosening after total joint replacement. A",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03289754",
+            "title": "A Prospective Study to Evaluate the ConforMIS iTotal® (CR) Knee Replacement System and iPoly XE Tibial Inserts",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 52,
+            "start_date": "2018-01-24",
+            "completion_date": "2022-06-09",
+            "brief_summary": "This study is designed to evaluate the clinical outcomes of subjects who have recently undergone surgery with the iTotal® Cruciate Retaining (CR) Total Knee Replacement System (KRS) who have also had iPoly XE Tibial Inserts implanted.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00380549",
+            "title": "A Prospective Case Series (Pilot Study) Comparing Ion Levels and Clinical Outcomes of the CONSERVE® A-Class Type Hip System With BFH™ Technology to the CONSERVE® Plus Total Hip Resurfacing System",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2006-06",
+            "completion_date": "2010-03",
+            "brief_summary": "The primary purpose of the current study is to investigate if the CONSERVE® A-Class Total Hip with BFH technology will lead to lower blood ion levels in patients, as compared to patients in a recent study who received the CONSERVE® Plus Total Resurfacing Hip System, another metal-on-metal device. We are also comparing functional and radiographic (x-rays) outcomes between patients who receive the CONSERVE® A-Class Total Hip compared to those who have received the CONSERVE® Plus Total Resurfacing ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02255331",
+            "title": "The Ability Of MRI To Detect Adverse Local Tissue Reaction And Implant Integration As A Function Of Hip Implant Modularity",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 240,
+            "start_date": "2017-09-15",
+            "completion_date": "2026-08",
+            "brief_summary": "Patients with a total hip replacement may require early revision surgery due to an adverse local tissue reaction or bone resorption that occurs due to wear debris released from the implant. MRI provides a non-invasive biomarker for clinicians and surgeons to detect early adverse synovial reactions which may exist in the absence of clinical symptoms, thus imparting essential information for clinical management. This study will address two of the most commons causes of hip implant failure, includi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00757354",
+            "title": "A Clinical Evaluation of Metal Ion Release From Metal-on-Metal Cementless Total Hip Arthroplasty",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 77,
+            "start_date": "2012-06",
+            "completion_date": "2014-03",
+            "brief_summary": "A clinical Evaluation to determine metal ion release from 4th generation metal-on-metal hip articulating surfaces in cementless total hip arthroplasty.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01437124",
+            "title": "Measurement of Metal Ion Levels and Chromosome Abnormalities in Ceramic on Metal Total Hip Arthroplasty in Vivo",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 83,
+            "start_date": "2011-10",
+            "completion_date": "2012-05",
+            "brief_summary": "The investigators aim to measure the blood levels of certain metals in a group of patients all of whom have had a ceramic on metal total hip replacement. This new bearing surface (joint) is relatively new and the investigators are currently following up the largest cohort in the world. Clinical results are currently excellent at 2 years in all patients, however the investigators are mindful of the lessons learned from the high failure rate of several designs of metal on metal hip replacements as",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00175487",
+            "title": "Femoral Head Resurfacing Versus a Large Femoral Head (Durom®) Total Hip System: A Prospective Randomized Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 56,
+            "start_date": "2007-09",
+            "completion_date": "2014-06",
+            "brief_summary": "This study evaluates femoral head resurfacing versus a large femoral head (Durom®) total hip system. This is a prospective randomized trial.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06932380",
+            "title": "A Talus Implant in Patients Between 20-60 Years of Age Followed up for a Minimum of 2 Years After Surgery: A Pilot Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 10,
+            "start_date": "2024-10-01",
+            "completion_date": "2030-12-31",
+            "brief_summary": "The project will investigate safety, feasibility and efficiency when using Episurf Episeal talus implant in patients with osteochondral ankle injuries. Assessments includes revision rate, complications, pain, function and quality of life over two years. Ten patients (aged 20-60) who have not responded to previous treatment will participate based on informed and written consent. The project uses a prospective cohort design where the patients receive a customized surgical procedure. Data on clinic",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00962351",
+            "title": "Metal Ion Release From an FDA Approved Metal-on-Metal Hip Replacement Implant: A Multi-Center, Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2003-10",
+            "completion_date": "2013-10",
+            "brief_summary": "This is a multi-center, randomized study to compare blood and urine cobalt, chromium, and titanium ion levels of a metal-on-metal articular bearing coupled with two different head sizes to that of a conventional metal-on-polyethylene bearing.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03646513",
+            "title": "A Safety Follow Up Study in Australian Subjects Implanted With the SMF Short Modular Femoral Stem Hip System",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2019-02-14",
+            "completion_date": "2020-03-12",
+            "brief_summary": "This is a prospective, single arm, sequential enrolment study to collect relevant clinical and radiological data in approximately 26 subjects, at one site in Australia, who have been implanted with the SMF Short Modular Femoral Stem Hip System in a primary THA procedure to assess its safety and efficacy up to 20 years post-surgery.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04105179",
+            "title": "Do TKA Implant Designs Affect Muscle Mass Change and Muscle Activity During Activities of Daily Living as Well as the Patient Immunological Response",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 75,
+            "start_date": "2019-04-29",
+            "completion_date": "2023-12",
+            "brief_summary": "This study compares two total knee replacement implants to asses muscle function and quality, and the immune response to the implants. 30 patients will receive the Smith and Nephew Journey II implant, while 30 patients will receive the Zimmer NexGen LPS-flex implant. 15 healthy controls will also be recruited and compared.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00293774",
+            "title": "A Provincial Initiative to Examine the Efficacy, Cost-effectiveness and Long-term Safety of Alternative Hip Bearing Surfaces Versus Conventional Therapy for Degenerative Joint Disease of the Hip",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1632,
+            "start_date": "2004-06",
+            "completion_date": "2021-07-16",
+            "brief_summary": "A study to determine the effectiveness and safety of the use of metal-on-metal hip resurfacing (for example the birmingham hip) when compared to conventional total hip replacement.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02405234",
+            "title": "Safety and Effectiveness Study of Ascension PyroCarbon Radial Head Compared to Ascension Metal Radial Head",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 78,
+            "start_date": "2009-01",
+            "completion_date": "2017-01",
+            "brief_summary": "The proportion of patient successes with the Carbon Modular Radial Head at the 2-year evaluation is no lower than the proportion of patient successes with the Metal Radial Head.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00156598",
+            "title": "Cobalt, Chromium and Titanium Serum Concentrations in Patients With Metal-on-Metal vs. Metal on Polyethylene Total Hip Replacements",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 5,
+            "start_date": "2004-08",
+            "completion_date": "2010-05",
+            "brief_summary": "Other research studies have shown that the levels of metals in the blood are slightly increased after patients receive a total hip replacement. We want to learn whether these elevated levels are associated with any adverse effects. We hope this study will help us identify which type of patients have elevated levels of metal in their blood.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02154516",
+            "title": "A Consecutive Series Pilot Study Evaluating the Safety and Effectiveness of a New Hard-on-Hard Total Hip Replacement System in Patients With Non-inflammatory Arthritis With a Standard THA Metal Ion Control Group",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2011-11-04",
+            "completion_date": "2022-10-18",
+            "brief_summary": "The purpose of this study is to assess the early and long term safety and efficacy of the hard-on-hard total hip replacement system (R3 ODH-ODH utilization) in patients with non-inflammatory arthritis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05547984",
+            "title": "A Randomized Controlled Trial Comparing Modular Dual Mobility Inserts With Ceramic Multilayer Coating Versus Standard Polyethylene Inserts for Primary Total Hip Arthroplasty (THA) in a Cementless Acetabular Cup",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2022-11-21",
+            "completion_date": "2028-08",
+            "brief_summary": "A randomized controlled trial comparing modular dual mobility inserts with ceramic multilayer coating versus standard polyethylene inserts for primary THA in a cementless acetabular cup",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07286513",
+            "title": "A Prospective, Multi-Center Post-Market Clinical Study Evaluating the Safety, Performance, and Clinical Benefits of the Persona® SoluTion® PPS Femur",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 200,
+            "start_date": "2026-02-28",
+            "completion_date": "2037-12",
+            "brief_summary": "The goal of this study is to generate clinical evidence and evaluate the safety and performance of the Persona® SoluTion® PPS Femurs in the US market, with data supporting global regulatory submissions, including CE marking under EU MDR.\n\nThe target population consists of adults undergoing knee arthroplasty with the Persona SoluTion femoral component paired with a Medial Congruent (MC) or Posterior Stabilized (PS) articulating surface in line with its current cleared Instructions for Use (IFU).\n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00820443",
+            "title": "Ceramic on Metal Total Hip Replacement System IDE: A Non-Randomized, Multi-center, Historically Controlled Safety and Efficacy Study (Protocol Number:06-LJH-002)",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 253,
+            "start_date": "2007-06",
+            "completion_date": "2013-10",
+            "brief_summary": "The purpose of this study is to demonstrate non-inferiority of the Ceramic on Metal Total Hip when compared to a TRANSCEND® historical control group of patients with primary total hip replacement.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06578897",
+            "title": "A Post-Market, Retrospective Study to Collect Clinical Outcomes From Patients Who Have Undergone Revision Total Knee Arthroplasty Using Medacta GMK Revision With 3D Metal Tibial and Femoral Cones.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 118,
+            "start_date": "2024-02-13",
+            "completion_date": "2025-02-13",
+            "brief_summary": "GMK Revision Knee System is part of the Medacta GMK® (Global Medacta Knee) Total Knee System and is indicated when a higher level of varus/valgus constraint is needed. The external shape of the GMK® Revision femoral component is identical to that of GMK® Primary. The GMK® Revision differs from GMK® Primary by three important design features:\n\ni. The addition of a box which allows a stem to be inserted into the femoral canal; ii. The addition of screw lugs so that augments can be placed on the di",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03681639",
+            "title": "A Multi-Centre, Prospective Study to Obtain Survival and Clinical Outcome Data on the Zimmer Hip Resurfacing System Utilising the Metasul Monoblock Component™ Cup in a Hip Resurfacing Application With the Durom® Hip Resurfacing Femoral Component.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2009-08-01",
+            "completion_date": "2023-05-22",
+            "brief_summary": "The Zimmer Hip Resurfacing System Post-Market Clinical Follow-up study will examine the safety and efficacy of this device in the young and/or active patient with advanced hip disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00911599",
+            "title": "A Prospective Randomized Clinical Trial Comparing Ion Levels and Clinical Outcomes of the CONSERVE® A-Class Total Hip System With BFH® Technology to Metal on Polyethylene Total Hip Replacement",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2006-08",
+            "completion_date": "2013-05",
+            "brief_summary": "The main purpose of this prospective randomized controlled trial is to compare the concentrations of metal ions in the blood and urine of patients receiving implants that are identical except for the acetabular component: one is a monoblock and all cobalt chrome, and the other is modular with a titanium acetabular shell with a polyethylene insert.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05151315",
+            "title": "Component Migration, Polyethylene Wear, and Joint Inflammation of the Evolution Versus Evolution NitrX Total Knee Arthroplasty System",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 50,
+            "start_date": "2022-08-01",
+            "completion_date": "2026-02-28",
+            "brief_summary": "Metal hypersensitivity is a recognized complication in some patients following total joint arthroplasty. This can result in a reaction to metal particles from the implants placed in the joint and cause tissue injury. The Evolution® NitrX™ (MicroPort Orthopaedics, Memphis, TN) knee implant was designed with the addition of a coating meant to create a barrier against the release of metal ions. The primary purpose of this study is to compare the Evolution and Evolution NitrX implant (implants your ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01481896",
+            "title": "A Five-Year Metal-on-Metal Retrospective Clinical Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 126,
+            "start_date": "2011-12",
+            "completion_date": "2012-06",
+            "brief_summary": "This retrospective study will review the Anderson Orthopaedic Institute's initial experience among a consecutive series of 126 patients who had primary total hip arthroplasty using a metal-on-metal articulation consisting of a DePuy Pinnacle cup with an Ultamet liner coupled with a 36-mm cobalt-chrome alloy femoral head. The relationship between metal ion levels, cup orientation, osteolysis, radiographic implant stability and clinical outcome measures including component revision, complications,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01493141",
+            "title": "Systemic Effects of Chronic Metal Ion Exposure From Metal-on Metal Hip Resurfacing",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 46,
+            "start_date": "2009-11",
+            "completion_date": "2012-04",
+            "brief_summary": "In recent years hip resurfacing has become a very popular alternative treatment to total hip replacement for the treatment of hip arthritis. This procedure has become particularly common in the young patient with arthritis because of perceived benefits in terms of functional outcome. However, it has recently become apparent that hip resurfacing is associated with a range of adverse events, not typically seen in patients with conventional hip replacement. These include hip fracture, and failure o",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03450733",
+            "title": "Post-Market Surveillance of the Wright Medical Technology Metal-on-Metal Total Hip System (FDA 522 Order)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 173,
+            "start_date": "2018-04-11",
+            "completion_date": "2022-06-18",
+            "brief_summary": "This study is in response to the Food and Drug Administration (FDA) call to all manufacturers with 510(k) clearance for metal-on-metal (MoM) total hip arthroplasty (THA) devices to conduct postmarket surveillance studies. MicroPort has various acetabular shells, acetabular liners, fixation screws, femoral heads, femoral stems, modular necks, and proximal bodies currently cleared for MoM indications. Together these components comprise the Wright Medical Technology (WMT) MoM THA System. The primar",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00754520",
+            "title": "A Multi-center Prospective Randomized Control Trial to Compare Two Articulating Bearing Surfaces, Ceramic-on-metal and Metal-on-metal as Used in Cementless Primary Hip Arthroplasty",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 213,
+            "start_date": "2009-05",
+            "completion_date": "2021-12",
+            "brief_summary": "The aim of this study is to demonstrate the non-inferiority of the ceramic on metal articulation using M2a-38™ mm cup compared to the metal on metal articulation using the same cup.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00740376",
+            "title": "A Prospective, Comparative, Randomized, Double Blind, Multi-center Study of the Uniglide™ Mobile Bearing Unicondylar Knee System vs. Uniglide™ Fixed Bearing Unicondylar Knee System",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 37,
+            "start_date": "2008-08",
+            "completion_date": "2014-05",
+            "brief_summary": "The purpose of this study is to demonstrate that the Uniglide™ Mobile Bearing Unicondylar Knee System (investigational device)is not inferior when compared to the Uniglide™ Fixed Bearing Unicondylar Knee System (control device currently cleared) as measured by the Composite Clinical Success (CCS) endpoint.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01543230",
+            "title": "Ceramic on Metal Total Hip System, CoMplete™ Acetabular Hip System",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 58,
+            "start_date": "2012-02",
+            "completion_date": "2013-10",
+            "brief_summary": "The primary objective of this investigation is to evaluate survivorship at ten years. For this post approval study (PAS), a maximum acceptable hazard of revision is assumed to be a constant 1% per year.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00120952",
+            "title": "A Comparison Between Titanium Femoral Stem and Cobalt-Chromium Femoral Stem in Cemented Hip Arthroplasty. A Randomized Prospective Roentgen Stereogrammetric Analysis.",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "",
+            "completion_date": "2010-01",
+            "brief_summary": "In this randomised study, the migration of a specific cemented titanium femoral stem will be compared with a similar cemented cobalt-chromium stem using Roentgen stereogrammetric analysis (RSA). In addition, the periprosthetic bone mineral density (BMD) will be evaluated to point out any interference from the modulus of the stem investigated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01113762",
+            "title": "Metal-metal Articulations vs Standard 28 mm Cementless Total Hip Arthroplasty in Younger Patients. Randomized Studies",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 71,
+            "start_date": "2007-02",
+            "completion_date": "2019-11",
+            "brief_summary": "Younger hip patients often need revision of their hip replacement due to wear and loosening. Newer concepts (resurfacing and large head total hip replacement) with articulation surfaces in metal may reduce the wear, increase the longevity of the implant and give an improved function. The possible downside is that these concepts releases metal debris to the body. The investigators wish to see if the newer interventions are a clinical improvement compared to standard. The investigators also wish t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01611233",
+            "title": "Clinical Follow-up of ASR Patients Post-Recall",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 1950,
+            "start_date": "2012-09",
+            "completion_date": "2022-12",
+            "brief_summary": "DePuy Orthopaedics has issued a voluntary recall of the ASR hip replacement system due to a higher than expected revision rate reported in the England/Wales and Australian national joint registries. There are two types of ASR hip implants used for total hip replacement surgery:\n\n* ASR XL Hip System\n* ASR Hip Resurfacing System Massachusetts General Hospital (MGH) in Boston, USA is the study sponsor. MGH is conducting this study with the help of funding from DePuy Orthopaedics. MGH will collect a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03047564",
+            "title": "Metal Ion Concentration and Clinical Outcome Between Coated and Uncoated TKA",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2012-02-01",
+            "completion_date": "2020-12-01",
+            "brief_summary": "Metal ion release from metal implants may have side effects. It can be reduced by coating of the implant. This study compares coated and uncoated TKA.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06706193",
+            "title": "Wear Resistance of Highly Crosslinked Cemented Polyethylene Cups in Young Patients",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 59,
+            "start_date": "2010-10-01",
+            "completion_date": "2023-07-01",
+            "brief_summary": "This randomized controlled trial evaluated the long-term wear of cemented highly cross-linked polyethylene (HXLPE) versus conventional polyethylene (CPE) acetabular cups in patients under 50 years undergoing primary total hip arthroplasty (THA).\n\nAll surgeries were performed at Radboud University Medical Center by three surgeons using a posterolateral approach. Acetabular components included either highly cross-linked polyethylene (HXLPE) cups (X3 RimFit) or conventional polyethylene (CPE) cups ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04701359",
+            "title": "Comparison of Cobalt-Chromium (CoCr) Alloy and Titanium-Nitride (TiN) Coating in Total Knee Arthroplasty: A Prospective, Randomised, Double-blinded Clinical Trial",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2022-10-10",
+            "completion_date": "2029-11-01",
+            "brief_summary": "In the current prospective, randomized study, two different materials of the same total knee arthroplasty (TKA) system - cobalt-chromium (CoCr) and titanium-nitride (TiN) - are going to be compared with regards to postoperative outcome. Two-hundred patients are planned to be included in the study over a 4-year period, randomly assigned to either the CoCr- or TiN-implant-group. In order to ensure double-blinding, patients will not be informed about the group they had been assigned to. Moreover, n",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01336595",
+            "title": "Comparison of Total Knee Arthroplasties With Oxidized Zirconium and Cobalt Chromium Femoral Components in the Same Patients: A Prospective, Double Blinded, and Randomized Controlled Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 331,
+            "start_date": "2003-01",
+            "completion_date": "2011-04",
+            "brief_summary": "The purpose of this study is to determine if there are any clinical or radiographic differences in cemented total knee arthroplasty with an oxidized zirconium and a cobalt-chromium femoral knee component.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01010763",
+            "title": "A Prospective Controlled Multi-Center Study on M2a Magnum Total Hip Arthroplasty",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2009-11",
+            "completion_date": "2017-04-28",
+            "brief_summary": "The purpose of this study includes the investigation of Metal-ion release and Renal Function analysis in M2a Total Hip Arthroplasty.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01307384",
+            "title": "Prospective Post Market Clinical Follow-Up Study of the Continuum Metal on Polyethylene Acetabular System",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 165,
+            "start_date": "2011-03-29",
+            "completion_date": "2027-12",
+            "brief_summary": "This is a prospective, multi-center, non-randomized, non-controlled study designed to obtain survival and outcome data on the Continuum Metal on Polyethylene Acetabular System when used in primary total hip arthroplasty.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34628351",
+            "title": "Synovial tissue from sites of joint pain in knee osteoarthritis patients exhibits a differential phenotype with distinct fibroblast subsets.",
+            "authors": [
+              "Nanus Dominika E",
+              "Badoume Amel",
+              "Wijesinghe Susanne N",
+              "Halsey Andrea M",
+              "Hurley Patrick"
+            ],
+            "journal": "EBioMedicine",
+            "year": "2021",
+            "abstract": "Synovial inflammation is associated with pain severity in patients with knee osteoarthritis (OA). The aim here was to determine in a population with knee OA, whether synovial tissue from areas associated with pain exhibited different synovial fibroblast subsets, compared to synovial tissue from sites not associated with pain. A further aim was to compare differences between early and end-stage disease synovial fibroblast subsets.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34724103",
+            "title": "Do cobalt and chromium blood metal ion levels normalize after revision of failed metal-on-metal total hip replacements?",
+            "authors": [
+              "Jungwirth-Weinberger Anna",
+              "Hanreich Carola",
+              "Kasparek Maximilian F",
+              "Renner Lisa",
+              "Waldstein Wenzel"
+            ],
+            "journal": "Archives of orthopaedic and trauma surgery",
+            "year": "2023",
+            "abstract": "Increased cobalt (Co) and chromium (Cr) serum levels are one reason for revision surgery in metal on metal (MoM) total hip arthroplasty (THA) patients. Dual mobility liners are a simple revision option; however, they preserve the metal shell and stem and it is therefore not clear if metal ion levels will fully normalize after revision surgery.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37394959",
+            "title": "Are serum cobalt and chromium levels predictors for patient-reported outcome measures in the ASR hip resurfacing arthroplasty?",
+            "authors": [
+              "Koper Maarten C",
+              "Spek Reinier W A",
+              "Reijman Max",
+              "van Es Eline M",
+              "Baart Sara J"
+            ],
+            "journal": "The bone & joint journal",
+            "year": "2023",
+            "abstract": "The aims of this study were to determine if an increasing serum cobalt (Co) and/or chromium (Cr) concentration is correlated with a decreasing Harris Hip Score (HHS) and Hip disability and Osteoarthritis Outcome Score (HOOS) in patients who received the Articular Surface Replacement (ASR) hip resurfacing arthroplasty (HRA), and to evaluate the ten-year revision rate and show if sex, inclination angle, and Co level influenced the revision rate.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36945025",
+            "title": "The concentration of chromium and cobalt ions and parameters of oxidative stress in serum and their impact on clinical outcomes after metaphyseal hip arthroplasty with modular metal heads.",
+            "authors": [
+              "Stołtny Tomasz",
+              "Dobrakowski Michał",
+              "Augustyn Aleksander",
+              "Rokicka Dominika",
+              "Kasperczyk Sławomir"
+            ],
+            "journal": "Journal of orthopaedic surgery and research",
+            "year": "2023",
+            "abstract": "Current epidemiological data forecast an almost 40% increase in the number of hip arthroplasty performed in the population of patients with osteoarthritis in 2060, compared to year 2018. On the basis of 10 years of observation, the failure rate after a metal-on-metal hip replacement is between 56.7 and 88.9%, depending on the used implant.",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27294138",
+            "title": "Influence of Environmental Factors and Relationships between Vanadium, Chromium, and Calcium in Human Bone.",
+            "authors": [
+              "Lanocha-Arendarczyk Natalia",
+              "Kosik-Bogacka Danuta I",
+              "Kalisinska Elzbieta",
+              "Sokolowski Sebastian",
+              "Kolodziej Lukasz"
+            ],
+            "journal": "BioMed research international",
+            "year": "2016",
+            "abstract": "The aim of this study was to investigate the impact of environmental factors on the concentrations of vanadium (V), chromium (Cr), and calcium (Ca) and to examine the synergistic or antagonistic relationships between these metals, in cartilage (C), cortical bone (CB), and spongy bone (SB) samples obtained following hip joint surgery on patients with osteoarthritis in NW Poland. We found significantly higher concentrations of V and Cr in spongy bone in patients who consumed game meat and also tho",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33550449",
+            "title": "Similar rates of return to sports and BMI reduction regardless of age, gender and preoperative BMI as seen in matched cohort of hypoallergenic and standard Cobalt Chromium medial unicompartmental knee arthroplasty.",
+            "authors": [
+              "D'Ambrosi Riccardo",
+              "Anghilieri Filippo Maria",
+              "Corona Katia",
+              "Mariani Ilaria",
+              "Valli Federico"
+            ],
+            "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
+            "year": "2022",
+            "abstract": "To compare the rate of return to sports and body mass index (BMI) reduction in patients who underwent surgery for unicompartmental knee arthroplasty (UKA) with either Cobalt-Chromium (CoCr) alloy UKA or with hypoallergenic UKA, stratified by age, gender and BMI.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36545926",
+            "title": "Cemented and cementless dual mobility cups show similar fixation, low polyethylene wear, and low serum cobalt-chromium in elderly patients: a randomized radiostereometry study with 6 years' follow-up.",
+            "authors": [
+              "Jørgensen Peter Bo",
+              "Tabori-Jensen Steffan",
+              "Mechlenburg Inger",
+              "Homilius Morten",
+              "Hansen Torben Bæk"
+            ],
+            "journal": "Acta orthopaedica",
+            "year": "2022",
+            "abstract": "Dual mobility (DM) articulation total hip arthroplasty (THA) is used increasingly to reduce dislocation risk. We investigated cup fixation, polyethylene (PE) wear, serum chromium and cobalt ions, and their correlation to physical activity in patients with DM cups at 6-year follow-up.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35926884",
+            "title": "Comparing 1-year and 10-year whole blood metal ion results following Birmingham hip resurfacing for osteoarthritis.",
+            "authors": [
+              "Watt Kearns Scott J",
+              "Bourget-Murray Jonathan",
+              "Johnston Kelly",
+              "Werle Jason"
+            ],
+            "journal": "Canadian journal of surgery. Journal canadien de chirurgie",
+            "year": "2022",
+            "abstract": "Patients with metal-on-metal hip arthroplasty may develop adverse reactions to metal debris that can lead to clinically concerning symptoms, often needing revision surgery. As such, many regulatory authorities advocate for routine blood metal ion measurement. This study compares whole blood metal ion levels obtained 1 year following Birmingham Hip Resurfacing (BHR) to levels obtained at a minimum 10-year follow-up.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37652450",
+            "title": "Birmingham Hip Resurfacing at 20 years.",
+            "authors": [
+              "Dhawan Rohit",
+              "Young David A",
+              "Van Eemeren Anthony",
+              "Shimmin Andrew"
+            ],
+            "journal": "The bone & joint journal",
+            "year": "2023",
+            "abstract": "The Birmingham Hip Resurfacing (BHR) arthroplasty has been used as a surgical treatment of coxarthrosis since 1997. We present 20-year results of 234 consecutive BHRs performed in our unit.",
+            "classification": {
+              "study_type": "Registry/Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22325959",
+            "title": "Cobalt and chromium ion release after large-diameter metal-on-metal total hip arthroplasty.",
+            "authors": [
+              "Hasegawa Masahiro",
+              "Yoshida Kakunoshin",
+              "Wakabayashi Hiroki",
+              "Sudo Akihiro"
+            ],
+            "journal": "The Journal of arthroplasty",
+            "year": "2012",
+            "abstract": "Seventy-five patients underwent unilateral metal-on-metal total hip arthroplasty using a large-diameter head. Serum levels of cobalt and chromium were determined. Significant increases in both cobalt and chromium were observed at 3 months (cobalt, 1.4 μg/L; chromium, 1.4 μg/L) compared with preoperative values (P < .001). At 1 year, the median cobalt and chromium levels were 2.3 and 2.1 μg/L, respectively, and the levels had increased significantly compared with 3 months (P < .001). There were n",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37006170",
+            "title": "Obesity defined molecular endotypes in the synovium of patients with osteoarthritis provides a rationale for therapeutic targeting of fibroblast subsets.",
+            "authors": [
+              "Wijesinghe Susanne N",
+              "Badoume Amel",
+              "Nanus Dominika E",
+              "Sharma-Oates Archana",
+              "Farah Hussein"
+            ],
+            "journal": "Clinical and translational medicine",
+            "year": "2023",
+            "abstract": "Osteoarthritis (OA), a multifaceted condition, poses a significant challenge for the successful clinical development of therapeutics due to heterogeneity. However, classifying molecular endotypes of OA pathogenesis could provide invaluable phenotype-directed routes for stratifying subgroups of patients for targeted therapeutics, leading to greater chances of success in trials. This study establishes endotypes in OA soft joint tissue driven by obesity in both load-bearing and non-load bearing joi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34824720",
+            "title": "No Clinical or Radiographic Differences Between Cemented Cobalt-Chromium and Titanium-Niobium Nitride Mobile-Bearing Unicompartmental Knee Arthroplasty.",
+            "authors": [
+              "D'Ambrosi Riccardo",
+              "Loucas Rafael",
+              "Loucas Marios",
+              "Giorgino Riccardo",
+              "Ursino Nicola"
+            ],
+            "journal": "Indian journal of orthopaedics",
+            "year": "2021",
+            "abstract": "This study aimed to compare the clinical and radiographic outcomes of patients with positive patch tests undergoing a medial mobile-bearing titanium-niobium nitride (TiNbN) unicompartmental knee arthroplasty (UKA) to patients undergoing standard UKA (cobalt-chromium [CoCr] implants).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34513441",
+            "title": "End-Stage Tibiotalar Osteoarthritis and Chronic Strontium Toxicity.",
+            "authors": [
+              "Ricci Gianni",
+              "Bae Andrew S",
+              "Catoe Benjamin",
+              "Watson Benjamin C"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Metal toxicity due to environmental sources or orthopedic implants has been a primary focus in recent literature. Specifically, in orthopedics, total joint arthroplasty regarding metal-on-metal articulation with cobalt-chromium articulation has adverse local and systemic effects. In particular, strontium toxicity is less known metal toxicity that can cause many systemic effects such as severe osteoporosis. This is the first reported case of strontium toxicity and end-stage tibiotalar osteoarthri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19483243",
+            "title": "Circulating levels of cobalt and chromium from metal-on-metal hip replacement are associated with CD8+ T-cell lymphopenia.",
+            "authors": [
+              "Hart A J",
+              "Skinner J A",
+              "Winship P",
+              "Faria N",
+              "Kulinskaya E"
+            ],
+            "journal": "The Journal of bone and joint surgery. British volume",
+            "year": "2009",
+            "abstract": "We carried out a cross-sectional study with analysis of the demographic, clinical and laboratory characteristics of patients with metal-on-metal hip resurfacing, ceramic-on-ceramic and metal-on-polyethylene hip replacements. Our aim was to evaluate the relationship between metal-on-metal replacements, the levels of cobalt and chromium ions in whole blood and the absolute numbers of circulating lymphocytes. We recruited 164 patients (101 men and 63 women) with hip replacements, 106 with metal-on-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21446789",
+            "title": "Effect of chromium and cobalt ions on primary human lymphocytes in vitro.",
+            "authors": [
+              "Akbar Moeed",
+              "Brewer James M",
+              "Grant M Helen"
+            ],
+            "journal": "Journal of immunotoxicology",
+            "year": "2011",
+            "abstract": "Cobalt-chromium (Co-Cr) alloy metal-on-metal hip resurfacing is increasingly common among younger more active patients suffering from osteoarthritis. Recent reports have increased awareness of metal ions leaching from metallic articulations; this ion exposure may have adverse effects on the immune system. As previous studies reported alterations in lymphocyte number and function in patients with Co-Cr implants, we investigated effects of clinically relevant concentrations of Cr(6+) and Co(2+) on",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21189110",
+            "title": "Elevation of circulating HLA DR(+) CD8(+) T-cells and correlation with chromium and cobalt concentrations 6 years after metal-on-metal hip arthroplasty.",
+            "authors": [
+              "Hailer Nils P",
+              "Blaheta Roman A",
+              "Dahlstrand Henrik",
+              "Stark André"
+            ],
+            "journal": "Acta orthopaedica",
+            "year": "2011",
+            "abstract": "Following metal-on-metal hip arthroplasty (THA), immunological reactions including changes in lymphocyte populations, aseptic loosening, and lymphocytic pseudotumors occur. We hypothesized that changes in lymphocyte subpopulations would be associated with elevated metal ion concentrations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40090766",
+            "title": "The Choice of Hip Arthroplasty: HRA or THA? Revealed by Meta-Analysis.",
+            "authors": [
+              "Fan Xiao",
+              "Zhou Yimin",
+              "Zhou Tianyu",
+              "Cobb Justin P",
+              "Yu Tengbo"
+            ],
+            "journal": "Orthopaedic surgery",
+            "year": "2025",
+            "abstract": "Total hip arthroplasty (THA) is the gold standard for end-stage hip arthrosis, while hip resurfacing arthroplasty (HRA) is considered a more bone-conserving alternative. This meta-analysis aimed to compare the safety and clinical efficacy of HRA and THA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40120657",
+            "title": "Hip Resurfacing Arthroplasty in Men: A Minimum 15-Year Follow-Up Study.",
+            "authors": [
+              "Saluja Anand",
+              "Wong Zachary",
+              "Jordan Louis Andrew",
+              "Spaan Jonathan",
+              "Su Edwin"
+            ],
+            "journal": "The Journal of arthroplasty",
+            "year": "2025",
+            "abstract": "Hip resurfacing arthroplasty (HRA) has emerged as an alternative to total hip arthroplasty for managing osteoarthritis, particularly in younger, active men. However, long-term data on HRA outcomes in the United States remains limited.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27459602",
+            "title": "Worse health-related quality of life and hip function in female patients with elevated chromium levels.",
+            "authors": [
+              "Hussey Daniel K",
+              "Madanat Rami",
+              "Donahue Gabrielle S",
+              "Rolfson Ola",
+              "Muratoglu Orhun K"
+            ],
+            "journal": "Acta orthopaedica",
+            "year": "2016",
+            "abstract": "Background and purpose - Blood metal ion levels can be an indicator for detecting implant failure in metal-on-metal (MoM) hip arthroplasties. Little is known about the effect of bilateral MoM implants on metal ion levels and patient-reported outcomes. We compared unilateral patients and bilateral patients with either an ASR hip resurfacing (HR) or an ASR XL total hip replacement (THR) and investigated whether cobalt or chromium was associated with a broad spectrum of patient outcomes. Patients a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16131888",
+            "title": "How do serum cobalt and chromium levels change after metal-on-metal hip resurfacing?",
+            "authors": [
+              "Back Diane L",
+              "Young D A",
+              "Shimmin A J"
+            ],
+            "journal": "Clinical orthopaedics and related research",
+            "year": "2005",
+            "abstract": "We prospectively monitored changes in serum cobalt and chromium levels after a new generation metal-on-metal hip resurfacing and the affect on renal function. Levels were measured using inductively coupled plasma mass spectrometry and atomic absorption spectrometry, preoperatively then sequentially at 3, 6, 9, 12, and 24 months. For serum cobalt, there was an initial increase to a peak level at 6 months, followed by a gradual decline during the next 15 months. A similar trend was observed in ser",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TxGNN 高分主要來自金屬對金屬 (MoM) 人工關節研究中鉻離子監測資料的知識圖譜共現，存在嚴重反向因果偏誤（鉻是植入物磨損產物而非治療劑）。三價鉻補充劑理論上可透過胰島素信號路徑減少軟骨代謝紊亂，但此機轉在 OA 中尚未充分驗證。唯一直接相關的 Phase 2 試驗（NCT00759993）已提前終止，顯示療效或安全性存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn": {
+        "score": 0.9853825569152832,
+        "rank": 13976
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38910664",
+            "title": "Adverse Metal Reaction in a Case of Metal-on-Polyethylene Hip Arthroplasty.",
+            "authors": [
+              "Singh Nikhil",
+              "Awasthi Abhiram",
+              "Pisulkar Gajanan",
+              "Taywade Shounak",
+              "Samal Nitin"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Soft tissue inflammatory responses to metal debris from prostheses, categorised as adverse reactions to metal debris (ARMD), are frequent complications of total hip arthroplasty (THA) and often result in implant failure. Introducing modular implant designs in modern orthopaedics has brought benefits to total hip replacements but has also increased patients' susceptibility to corrosion-related risks. ARMD can develop from various metal articulating surfaces, including ceramic-on-polyethylene (CoP",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28892256",
+            "title": "Possibility of quantitative T2-mapping MRI of cartilage near metal in high tibial osteotomy: A human cadaver study.",
+            "authors": [
+              "Verschueren Joost",
+              "Meuffels Duncan E",
+              "Bron Esther E",
+              "Klein Stefan",
+              "Kleinrensink Gert-Jan"
+            ],
+            "journal": "Journal of orthopaedic research : official publication of the Orthopaedic Research Society",
+            "year": "2018",
+            "abstract": "T2-mapping is a widely used quantitative MRI technique in osteoarthritis research. An important challenge for its application in the context of high tibial osteotomy (HTO) is the presence of metallic fixation devices. In this study, we evaluated the possibility of performing T2-mapping after a HTO, by assessing the extent of magnetic susceptibility artifacts and the influence on T2 relaxation times caused by two commonly used fixation devices. T2-mapping with a 3D fast spin-echo sequence at thre",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34232144",
+            "title": "Adverse Local Tissue Reactions are Common in Asymptomatic Individuals After Hip Resurfacing Arthroplasty: Interim Report from a Prospective Longitudinal Study.",
+            "authors": [
+              "Koff Matthew F",
+              "Gao Madeleine A",
+              "Neri John P",
+              "Chiu Yu-Fen",
+              "Lin Bin Q"
+            ],
+            "journal": "Clinical orthopaedics and related research",
+            "year": "2021",
+            "abstract": "The evaluation of the natural history prevalence of adverse local tissue reactions (ALTRs) using MRI has focused only on metal-on-metal (MoM) bearing surfaces without comparison to nonMoM bearing surfaces.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "956390",
+            "title": "Cytotoxic activity of rheumatoid and normal lymphocytes against allogeneic and autologous synovial cells in vitro.",
+            "authors": [
+              "Griffiths M M",
+              "Smith C B",
+              "Ward J R",
+              "Klauber M R"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1976",
+            "abstract": "The possibility that lymphocytes from patients with rheumatoid arthritis (RA) might be sensitized to RA synovial cell antigens was investigated with a 51Cr release cytotoxicity assay. Peripheral blood lymphocytes from rheumatoid and normal donors were tested for cytotoxic activity against their own synovial cells and against allogeneic rheumatoid and nonrhemuatoid synovial cells. In the allogeneic studies, the degree of cytotoxicity was significantly influenced by the age in culture (passage num",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23383625",
+            "title": "Severe metallosis leading to femoral head perforation.",
+            "authors": [
+              "Sharma Om Prakash",
+              "Lochab Jasjit",
+              "Berkovich Yaron",
+              "Safir Oleg A",
+              "Gross Allan E"
+            ],
+            "journal": "Orthopedics",
+            "year": "2013",
+            "abstract": "This article describes a case of severe metallosis in a 67-year-old woman who initially underwent primary total hip arthroplasty with a ceramic-on-ceramic articular bearing. This was subsequently revised to a metal-on-polyethylene articulation due to ceramic liner fracture. She presented with severe hip pain and a pelvic mass. Infective workup was negative. Perforation of the cobalt-chrome femoral head was observed intraoperatively. In addition, signs of extensive metallosis, including embedded ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉依據。文獻均為金屬植入物不良反應個案（adverse local tissue reaction, metallosis），顯示鉻離子對關節組織具有毒性，與「鉻預防 OA 易感性」的假設方向相反。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.98537677526474,
+        "rank": 13977
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00586781",
+            "title": "Investigational Device Exemption for the Scandinavian Total Ankle Replacement (STAR) - Bilateral Arm",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2001-09",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to evaluate the safety of the S.T.A.R. device for patients with bilateral disease.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "踝關節置換裝置研究，適應症包含 RA 患者，但測試的是裝置而非鉻補充劑，不相關。"
+            }
+          },
+          {
+            "nct_id": "NCT05545020",
+            "title": "Trivalent Chromium as a Treatment for Rheumatoid Arthritis Patients",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2022-12-25",
+            "completion_date": "2024-01-13",
+            "brief_summary": "Trivalent chromium has shown good results in abolishing inflammation and had a successful result in treating animal model of rheumatoid arthritis. In addition to that, trivalent chromium lacks many side effects which are related to the already known medications of the disease.\n\nSo this study aims to evaluate the efficacy of trivalent chromium supplementation in rheumatoid arthritis treatment and measuring the outcomes of that in rheumatoid arthritis patients.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "核心關鍵試驗：直接測試三價鉻治療 RA，Phase 2/3 設計，已完成，入組 60 人。與 2024 年發表論文（PMID 39030450）對應，是本適應症最高品質直接證據。需注意樣本數偏小（N=60），且與 baricitinib 頭對頭設計顯示研究者具信心但也面臨高標準比較。"
+            }
+          },
+          {
+            "nct_id": "NCT05509972",
+            "title": "International, Prospective, Longterm Study Comparing the Clinical Outcome and In-vivo Wear Behaviour of AS Coated Versus Uncoated Columbus® Total Knee Prosthesis",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2023-04-06",
+            "completion_date": "2024-08-30",
+            "brief_summary": "This clinical study is a Post-Market Clinical Follow-Up (PMCF) measure and is aiming to compare the in-vivo wear behaviour of the Columbus® total knee prosthesis between the standard Cobalt Chromium (CoCr) and the multilayer coated so called \"Advanced Surface\" (AS) of the same implant. The clinical investigation is designed as a International, prospective, longterm non-interventional study in order to gain clinical data of many patients within the routine clinical application of the investigatio",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "植入物磨損研究，已終止（僅入組 7 人），與鉻補充無關。"
+            }
+          },
+          {
+            "nct_id": "NCT00757354",
+            "title": "A Clinical Evaluation of Metal Ion Release From Metal-on-Metal Cementless Total Hip Arthroplasty",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 77,
+            "start_date": "2012-06",
+            "completion_date": "2014-03",
+            "brief_summary": "A clinical Evaluation to determine metal ion release from 4th generation metal-on-metal hip articulating surfaces in cementless total hip arthroplasty.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "金屬離子監測研究，非鉻補充治療 RA。"
+            }
+          },
+          {
+            "nct_id": "NCT01437124",
+            "title": "Measurement of Metal Ion Levels and Chromosome Abnormalities in Ceramic on Metal Total Hip Arthroplasty in Vivo",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 83,
+            "start_date": "2011-10",
+            "completion_date": "2012-05",
+            "brief_summary": "The investigators aim to measure the blood levels of certain metals in a group of patients all of whom have had a ceramic on metal total hip replacement. This new bearing surface (joint) is relatively new and the investigators are currently following up the largest cohort in the world. Clinical results are currently excellent at 2 years in all patients, however the investigators are mindful of the lessons learned from the high failure rate of several designs of metal on metal hip replacements as",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "金屬離子致染色體異常研究，顯示金屬鉻潛在遺傳毒性，非治療性。"
+            }
+          },
+          {
+            "nct_id": "NCT02405234",
+            "title": "Safety and Effectiveness Study of Ascension PyroCarbon Radial Head Compared to Ascension Metal Radial Head",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 78,
+            "start_date": "2009-01",
+            "completion_date": "2017-01",
+            "brief_summary": "The proportion of patient successes with the Carbon Modular Radial Head at the 2-year evaluation is no lower than the proportion of patient successes with the Metal Radial Head.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "橈骨頭假體材料比較研究（RA 患者），非鉻補充治療。"
+            }
+          },
+          {
+            "nct_id": "NCT06578897",
+            "title": "A Post-Market, Retrospective Study to Collect Clinical Outcomes From Patients Who Have Undergone Revision Total Knee Arthroplasty Using Medacta GMK Revision With 3D Metal Tibial and Femoral Cones.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 118,
+            "start_date": "2024-02-13",
+            "completion_date": "2025-02-13",
+            "brief_summary": "GMK Revision Knee System is part of the Medacta GMK® (Global Medacta Knee) Total Knee System and is indicated when a higher level of varus/valgus constraint is needed. The external shape of the GMK® Revision femoral component is identical to that of GMK® Primary. The GMK® Revision differs from GMK® Primary by three important design features:\n\ni. The addition of a box which allows a stem to be inserted into the femoral canal; ii. The addition of screw lugs so that augments can be placed on the di",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "翻修術後市場監測研究，非鉻補充治療。"
+            }
+          },
+          {
+            "nct_id": "NCT03681639",
+            "title": "A Multi-Centre, Prospective Study to Obtain Survival and Clinical Outcome Data on the Zimmer Hip Resurfacing System Utilising the Metasul Monoblock Component™ Cup in a Hip Resurfacing Application With the Durom® Hip Resurfacing Femoral Component.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2009-08-01",
+            "completion_date": "2023-05-22",
+            "brief_summary": "The Zimmer Hip Resurfacing System Post-Market Clinical Follow-up study will examine the safety and efficacy of this device in the young and/or active patient with advanced hip disease.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "髖關節表面置換存活研究，非鉻補充治療 RA。"
+            }
+          },
+          {
+            "nct_id": "NCT01307384",
+            "title": "Prospective Post Market Clinical Follow-Up Study of the Continuum Metal on Polyethylene Acetabular System",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 165,
+            "start_date": "2011-03-29",
+            "completion_date": "2027-12",
+            "brief_summary": "This is a prospective, multi-center, non-randomized, non-controlled study designed to obtain survival and outcome data on the Continuum Metal on Polyethylene Acetabular System when used in primary total hip arthroplasty.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "金屬對聚乙烯髖臼系統追蹤研究，非鉻補充治療。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35829940",
+            "title": "Trivalent chromium supplementation ameliorates adjuvant induced rheumatoid arthritis through up-regulation of FOXP3 and decrease in synovial Cathepsin G expression.",
+            "authors": [
+              "Hassouna Sally S",
+              "Sheta Eman",
+              "Zaki Inass",
+              "Harby Sahar A",
+              "Allam Eman A"
+            ],
+            "journal": "Inflammopharmacology",
+            "year": "2022",
+            "abstract": "Rheumatoid arthritis (RA) is a known debilitating autoimmune disease. Immune-suppressants that are used for disease treatment have serious side effects, therefore, trivalent chromium (Cr (III)); which has shown evidence of its influences on some inflammatory pathways and cytokines; was used in this study for the first time to be assessed for its therapeutic effect in RA rat model and was compared to prednisolone in a trial to find a treatment with lesser side effects.",
+            "classification": {
+              "study_type": "Animal Study (in vivo)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39030450",
+            "title": "Trivalent chromium versus baricitinib for rheumatoid arthritis treatment: first phase 2/3 randomized controlled trial, is trivalent chromium the upcoming immune-modulator?",
+            "authors": [
+              "Hassouna Sally S",
+              "Abdel-Moniem Omneya Mohamed-Ayman"
+            ],
+            "journal": "Inflammopharmacology",
+            "year": "2024",
+            "abstract": "Rheumatoid arthritis (RA) is a debilitating disease mainly treated by DMARDs. Baricitinib is one of the emerging DMARDs with strong anti-rheumatic effects but has serious side effects. Trivalent chromium (Cr III) is a natural element with anti-inflammatory properties. Trivalent chromium (Cr III) is introduced for the first time to study its effect and safety in treatment of RA patients and compared to those of baricitinib.",
+            "classification": {
+              "study_type": "RCT (Phase 2/3)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6150232",
+            "title": "Intestinal permeability and inflammation in rheumatoid arthritis: effects of non-steroidal anti-inflammatory drugs.",
+            "authors": [
+              "Bjarnason I",
+              "Williams P",
+              "So A",
+              "Zanelli G D",
+              "Levi A J"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1984",
+            "abstract": "The suggestion that the intestinal mucosa may be abnormally permeable and a site of absorption of antigens in rheumatoid arthritis was tested by the use of a 51Cr-EDTA (edetic acid) absorption test. 24 patients with rheumatoid arthritis excreted significantly more 51Cr-EDTA than did 34 controls. Intestinal permeability was normal in untreated patients but almost invariably abnormal in patients treated with non-steroidal anti-inflammatory drugs. Studies in patients with osteoarthritis showed that",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8215627",
+            "title": "Renal effects of aspirin and low dose methotrexate in rheumatoid arthritis.",
+            "authors": [
+              "Seideman P",
+              "Müller-Suur R"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "1993",
+            "abstract": "The aim of this investigation was to study the glomerular and tubular effects of low doses (15 mg) of methotrexate in patients with rheumatoid arthritis with and without combined treatment with aspirin (2 g single dose).",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1153978",
+            "title": "The content of calcium, magnesium, copper, zinc, lead and chromium in the blood of patients with rheumatoid arthritis.",
+            "authors": [
+              "Hansson L",
+              "Huunan-Seppälä A",
+              "Mattila A"
+            ],
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "1975",
+            "abstract": "The blood concentrations of calcium, magnesium, copper, zinc, lead and chromium were measured in patients with rheumatoid arthritis and in a \"normal\" control group. The values of hemoglobin and the effect of some drugs on the metals studied were also estimated. In metal analyses the atomic absorption spectrophotometric technique was used. The mean concentration of copper in the blood of patients with rheumatoid arthritis was significantly higher than in the control group. This was not true in fe",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3776595",
+            "title": "Chromium, nickel and cadmium in biological fluids in patients with rheumatoid arthritis compared to healthy controls.",
+            "authors": [
+              "Pedersen L M",
+              "Christensen J M"
+            ],
+            "journal": "Acta pharmacologica et toxicologica",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case-control",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "300499",
+            "title": "Inhibition of spontaneous and antibody-dependent cellular cytotoxicity by sera and isolated antiglobulin preparations from rheumatoid arthritis patients.",
+            "authors": [
+              "Fink P C",
+              "Schedel I",
+              "Peter H H",
+              "Deicher H"
+            ],
+            "journal": "Scandinavian journal of immunology",
+            "year": "1977",
+            "abstract": "Using sera from patients with rheumatoid arthritis and antiglobulin preparations obtained from such sera, inhibition of human lymphocyte cytotoxicity in antibody-dependent (ADCC) and spontaneous cell-mediated cytotoxicity (SCMC) reactions against an allogeneic melanoma cell line (IGR3) has been demonstrated. Fractionation of effector cell preparations indicated that Fc-receptor-bearing lymphocytes were operative in both reactions. Removal of phagocytic and adherent cells from the effector cell p",
+            "classification": {
+              "study_type": "Immunological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31851875",
+            "title": "GOLD: human exposure and update on toxic risks.",
+            "authors": [
+              "Lansdown Alan B G"
+            ],
+            "journal": "Critical reviews in toxicology",
+            "year": "2018",
+            "abstract": "Gold is ubiquitous in the human environment and most people are in contact with it through wearing jewelry, dental devices, implants or therapies for rheumatoid arthritis. Gold is not a nutrient but people are exposed to it as a food colorant and in food chains. The present review discusses the hazards faced in personal and domestic use of gold and the far greater risks presented through occupational exposure to the metal in mining and processing gold ores. In the last situation, regular manual ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "299896",
+            "title": "Gastrointestinal blood loss. Effect of aspirin, fenoprofen, and acetaminophen in rheumatoid arthritis as determined by sequential gastroscopy and radioactive fecal markers.",
+            "authors": [
+              "Loebl D H",
+              "Craig R M",
+              "Culic D D",
+              "Ridolfo A S",
+              "Falk J"
+            ],
+            "journal": "JAMA",
+            "year": "1977",
+            "abstract": "The feasibility of determining the exact site and amount of drug-induced gastric bleeding was tested. Fourteen patients with rheumatoid arthritis received equivalent therapeutic doses of the antinflammatory drugs aspirin, 4 gm/day, and fenoprofen calcium, 2.4 gm/day, in randomized order for seven days. Acetaminophen was given for 14 days just prior to each of these periods. By fiberoptic gastroscopy, antral ulceration and acute mucosal lesions were found in seven patients following aspirin inges",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5054449",
+            "title": "Arthroplasty of the knee in rheumatoid arthritis and osteoarthritis. A follow-up study after implantation of the McKeever and MacIntosh prostheses.",
+            "authors": [
+              "Potter T A",
+              "Weinfeld M S",
+              "Thomas W H"
+            ],
+            "journal": "The Journal of bone and joint surgery. American volume",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "Retrospective",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5007724",
+            "title": "On the problem of protein-losing enteropathy in rheumatoid arthritis and generalized sclerodermia.",
+            "authors": [
+              "Machtey I",
+              "Lebenthal E",
+              "Laor J",
+              "Lewitus Z"
+            ],
+            "journal": "Digestion",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13741356",
+            "title": "The nature of anaemia in rheumatoid arthritis. V. Red Cell survival measured by radioactive chromium.",
+            "authors": [
+              "RICHMOND J",
+              "ALEXANDER W R",
+              "POTTER J L",
+              "DUTHIE J J"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "1961",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5090325",
+            "title": "Trace metal composition of synovial fluid and blood serum of patients with rheumatoid arthritis.",
+            "authors": [
+              "Niedermeier W",
+              "Griggs J H"
+            ],
+            "journal": "Journal of chronic diseases",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4617300",
+            "title": "Gastrointestinal protein loss in rheumatoid arthritis, studied with 51Cr-chromic chloride and 125I albumin.",
+            "authors": [
+              "Plantin L O",
+              "Strandberg O"
+            ],
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5034824",
+            "title": "The use of the hemiarthroplasty prosthesis for advanced osteoarthritis and rheumatoid arthritis of the knee.",
+            "authors": [
+              "MacIntosh D L",
+              "Hunter G A"
+            ],
+            "journal": "The Journal of bone and joint surgery. British volume",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "956390",
+            "title": "Cytotoxic activity of rheumatoid and normal lymphocytes against allogeneic and autologous synovial cells in vitro.",
+            "authors": [
+              "Griffiths M M",
+              "Smith C B",
+              "Ward J R",
+              "Klauber M R"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1976",
+            "abstract": "The possibility that lymphocytes from patients with rheumatoid arthritis (RA) might be sensitized to RA synovial cell antigens was investigated with a 51Cr release cytotoxicity assay. Peripheral blood lymphocytes from rheumatoid and normal donors were tested for cytotoxic activity against their own synovial cells and against allogeneic rheumatoid and nonrhemuatoid synovial cells. In the allogeneic studies, the degree of cytotoxicity was significantly influenced by the age in culture (passage num",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29245125",
+            "title": "Delayed-type hypersensitivity to metals in connective tissue diseases and fibromyalgia.",
+            "authors": [
+              "Bjørklund Geir",
+              "Dadar Maryam",
+              "Aaseth Jan"
+            ],
+            "journal": "Environmental research",
+            "year": "2018",
+            "abstract": "Rheumatic diseases include a group of autoimmune disorders with environmental and genetic etiology that are characterized as a subgroup of connective tissue diseases (CTD). Rheumatoid arthritis (RA) often involves the small joints of the hands in a symmetrical fashion that can lead to loss of joint function, and RA, as well as Sjögren's syndrome (SS) and other rheumatic diseases, are often accompanied by sensitivity to metals. Numerous investigations on metal sensitivity were evaluated in this r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9287389",
+            "title": "Total joint arthroplasty and the immune response.",
+            "authors": [
+              "Toumbis C A",
+              "Kronick J L",
+              "Wooley P H",
+              "Nasser S"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "1997",
+            "abstract": "Total joint replacement arthroplasty has proved highly successful in the management of osteoarthritis and rheumatoid arthritis. The cause of aseptic loosening of prosthetic joint replacement components is unclear. Early experience with total joint arthroplasty was plagued by a number of problems that no longer exist as major impediments to long-term success. Improvement in the operating room environment and the use of prophylactic antibiotics have substantially reduced the high incidence of infe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25633026",
+            "title": "Imaging of elbow replacement arthroplasty.",
+            "authors": [
+              "Roth Eira",
+              "Chew Felix S"
+            ],
+            "journal": "Seminars in musculoskeletal radiology",
+            "year": "2015",
+            "abstract": "Elbow replacement arthroplasty has become a standard surgical treatment for a variety of diseases of the elbow. First popularized for the treatment of late-stage rheumatoid arthritis and other debilitating forms of joint disease, the current indications have expanded to include primary treatment of elbow trauma. The most commonly used total elbow replacements are linked semiconstrained chromium-molybdenum alloy or titanium alloy prostheses with polyethylene bearing surfaces. These are inserted a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7097682",
+            "title": "Synoviorthesis with 32P-colloidal chromic phosphate in rheumatoid arthritis--clinical, histopathologic and arthrographic changes.",
+            "authors": [
+              "Onetti C M",
+              "Gutiérrez E",
+              "Hliba E",
+              "Aguirre C R"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1982",
+            "abstract": "Synoviorthesis was performed in 217 joints from 111 patients suffering from different stages of rheumatoid arthritis (RA). 32P-colloidal chromic phosphate was employed, with an average dose from 6 mCi for large joints (knees) to 0.3 mCi for small peripheral joints such as average dose from 6 mCi for large joints (knees) to 0.3 mCi for small peripheral joints such as the MCP or PIP joints. Satisfactory clinical results were observed in 84% of the cases and no significant side effects resulted aft",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三價鉻 (Cr³⁺) 具有抗炎及免疫調節特性：(1) 調節胰島素信號路徑，降低 NF-κB 激活及下游促炎細胞因子（TNF-α、IL-6、IL-1β）；(2) RA 患者血清鉻濃度顯著低於健康對照（PMID 3776595, 1153978），支持鉻缺乏-炎症假說；(3) 動物模型（佐劑誘發 RA 大鼠）中，三價鉻補充改善關節炎評分（PMID 35829940）；(4) 已有 Phase 2/3 RCT 完成並發表（PMID 39030450），與 baricitinib（JAK 抑制劑）頭對頭比較。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gout",
+      "txgnn": {
+        "score": 0.9797832369804382,
+        "rank": 17117
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40327953",
+            "title": "Cadmium exposure and its role in joint disease: A brief review of experimental and population-based evidence.",
+            "authors": [
+              "Castañeda Camilo Ríos",
+              "García-Martínez Betzabeth",
+              "Zamudio-Cuevas Yessica",
+              "Fernández-Torres Javier",
+              "Martínez-Flores Karina"
+            ],
+            "journal": "Journal of trace elements in medicine and biology : organ of the Society for Minerals and Trace Elements (GMS)",
+            "year": "2025",
+            "abstract": "Cadmium is a toxic metal released into the environment mainly by mining and industrial activities, posing health risks through inhalation and ingestion. Smoking is a major source of exposure, followed by consuming contaminated foods such as vegetables and offal. Due to its long half-life, Cadmium accumulates in the body and contributes to chronic diseases, including rheumatic and metabolic disorders such as osteoporosis, osteoarthritis, rheumatoid arthritis, systemic lupus erythematosus, gout, a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8137607",
+            "title": "Efficacy of nutritional supplements used by athletes.",
+            "authors": [
+              "Beltz S D",
+              "Doering P L"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1993",
+            "abstract": "Findings on the efficacy of nutritional supplements used by athletes are reviewed. Many athletes have turned away from anabolic steroids and toward nutritional supplements in the hope of gaining a competitive edge without threatening their health. Athletes may require slightly more protein than sedentary people do to maintain positive nitrogen balance, but it is dubious whether extra dietary protein will help someone to achieve athletic goals. Purified amino acids have become a popular if expens",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20357931",
+            "title": "Urate oxidase knockdown decreases oxidative stress in a murine hepatic cell line.",
+            "authors": [
+              "Cleveland Beth M",
+              "Leonard Stephen S",
+              "Klandorf Hillar",
+              "Blemings Kenneth P"
+            ],
+            "journal": "Oxidative medicine and cellular longevity",
+            "year": "2009",
+            "abstract": "Humans, birds, and some primates do not express the uric acid degrading enzyme urate oxidase (UOX) and, as a result, have plasma uric acid concentrations higher than UOX expressing animals. Although high uric acid concentrations are suggested to increase the antioxidant defense system and provide a health advantage to animals without UOX, knockout mice lacking UOX develop pathological complications including gout and kidney failure. As an alternative to the knockout model, RNA interference was u",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5904280",
+            "title": "Androgens and erythropoiesis. 3. Further evaluation of testosterone treatment of myelofibrosis.",
+            "authors": [
+              "Gardner F H",
+              "Nathan D G"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1966",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14142409",
+            "title": "A FAMILIAL DISORDER OF URIC ACID METABOLISM AND CENTRAL NERVOUS SYSTEM FUNCTION.",
+            "authors": [
+              "LESCH M",
+              "NYHAN W L"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "398030",
+            "title": "Pathologic changes associated with the common arthritides and their treatment.",
+            "authors": [
+              "Bullough P G"
+            ],
+            "journal": "Pathology annual",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4990190",
+            "title": "[Kidney function studies with radioisotopes in arthritis urica].",
+            "authors": [
+              "Wascher H",
+              "Klein G",
+              "Eber O",
+              "Hayn H",
+              "Goebel R"
+            ],
+            "journal": "Zeitschrift fur Rheumaforschung",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無可靠機轉假說。TxGNN 信號可能源自知識圖譜中關節疾病節點的非特異性連結。鉻無已知影響尿酸代謝或黃嘌呤氧化酶的機轉。文獻（PMID 40327953）討論的是鎘而非鉻對關節的影響。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.97946298122406,
+        "rank": 17255
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉依據。假性軟骨發育不全為 COMP 基因突變引起的骨骼發育不良遺傳病，與鉻代謝無已知交集。TxGNN 信號可能源自知識圖譜中骨骼/軟骨相關節點的遠距路徑連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hepatic porphyria",
+      "txgnn": {
+        "score": 0.9787472486495972,
+        "rank": 17609
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4639027",
+            "title": "Quantitative studies of the delivery of hepatic-synthesized bilirubin to plasma utilizing -aminolevulinic acid-4- 14 C and bilirubin- 3 H in man.",
+            "authors": [
+              "Jones E A",
+              "Shrager R",
+              "Bloomer J R",
+              "Berk P D",
+              "Howe R B"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1972",
+            "abstract": "After the simultaneous intravenous administration of unconjugated bilirubin-(3)H and delta-aminolevulinic acid-4-(14)C, the plasma disappearance curves of unconjugated bilirubin-(3)H and the plasma appearance curves of biosynthesized unconjugated bilirubin-(14)C have been defined in seven patients, three of whom had acute intermittent porphyria (AIP). The incorporation of (14)C into plasma unconjugated bilirubin, derived by an analysis which involves deconvolution of the two plasma curves, varie",
+            "classification": {
+              "study_type": "Physiological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6074003",
+            "title": "Carbon monoxide production associated with ineffective erythropoiesis.",
+            "authors": [
+              "White P",
+              "Coburn R F",
+              "Williams W J",
+              "Goldwein M I",
+              "Rother M L"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "1967",
+            "abstract": "The rate of endogenous carbon monoxide production ( Vco), determined by the closed rebreathing system technique, was elevated above the normal range in four of five patients studied with ineffective erythropoiesis (four patients with primary refractory anemia, one with thalassemia). The mean molar ratio of Vco to Vheme (rate of circulating heme catabolism, determined from (51)Cr red cell survival curves) was 3.0 +/- 0.6 (SE), indicating that most of the CO originated from sources other than circ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14237001",
+            "title": "PORPHYRIA CUTANEA TARDA ASSOCIATED WITH REFRACTORY ANEMIA (INEFFECTIVE ERYTHROPOIESIS) AND THROMBOCYTHEMIA.",
+            "authors": [
+              "KYLE R A",
+              "BOWIE E J",
+              "BRUNSTING L A"
+            ],
+            "journal": "Mayo Clinic proceedings",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14319615",
+            "title": "THE RELATIONSHIP OF LEAD POISONING TO ACUTE INTERMITTENT PORPHYRIA.",
+            "authors": [
+              "DAGG J H",
+              "GOLDBERG A",
+              "LOCHHEAD A",
+              "SMITH J A"
+            ],
+            "journal": "The Quarterly journal of medicine",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "四篇文獻均非鉻補充治療肝性紫質症的研究。部分文獻涉及血紅素合成（δ-aminolevulinic acid）與無效紅血球生成，此路徑理論上與鐵代謝相關，但鉻的介入機轉缺乏依據。唯一可能的間接連結：鉻可能影響肝臟酶活性，但無直接紫質症研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9779847860336304,
+        "rank": 17989
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉依據。短軀幹侏儒症（brachyolmia）為脊椎骨骺發育不良遺傳病，與鉻代謝無已知交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9768952131271362,
+        "rank": 18470
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉依據。此為極罕見的眼-骨骼發育症候群，與鉻代謝無已知關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9767430424690248,
+        "rank": 18542
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉依據。Hunter-Thompson 型肢端中肢節發育不良為 GDF5/CDMP1 突變引起，與鉻代謝無已知交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.9757503867149352,
+        "rank": 18989
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉依據。此罕見遺傳症候群同時影響脊椎及牙釉質發育，與鉻代謝無已知關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 48,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Chromium",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

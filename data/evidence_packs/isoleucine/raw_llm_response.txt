@@ -1,0 +1,213 @@
+# 藥物再利用證據分析：Isoleucine (DB00167)
+
+## 藥物背景評估
+
+Isoleucine 為**必需支鏈胺基酸（BCAA）**，本質上是食品/營養補充劑而非傳統藥物。其 TxGNN 高分（0.95–0.99）可能反映知識圖譜中與胺基酸代謝的廣泛結構關聯，而非直接藥理作用。值得注意的是：所有 10 個適應症均無臨床試驗，且有一個適應症（PMID 9761355）顯示 Isoleucine **可能有反向/有害效應**（腎小管酸中毒作為代謝毒素前驅物）。
+
+---
+
+```json
+{
+  "drug": "Isoleucine",
+  "drugbank_id": "DB00167",
+  "analysis_date": "2026-04-04",
+  "overall_assessment": "Isoleucine 為必需BCAA，安全性基線良好，但全部10個預測適應症均無臨床試驗支持。TxGNN高分主要反映知識圖譜廣義胺基酸代謝節點關聯，臨床轉譯距離遠。其中1個適應症（腎小管酸中毒）存在反向生化機轉警示，需特別注意。",
+  "indications": [
+    {
+      "disease_name": "gastroparesis (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "BCAAs（含Isoleucine）可刺激腸道K細胞和L細胞分泌CCK、GLP-1及PYY，這些腸道激素直接調節胃排空速率與胃竇收縮力。Isoleucine可能透過腸道感測機制（mTOR/CaSR路徑）影響胃動力，但此假說尚無臨床試驗驗證。機轉可信度：中等（間接）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete vitamin D deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 本體論術語標記為'obsolete'（已廢除），表示此疾病分類在現代醫學本體中已不存在，降低預測有效性。Isoleucine代謝路徑（BCAA分解→乙酸CoA/丙酸CoA）與維生素D合成（7-脫氫膽固醇→膽鈣化醇路徑）及活化（肝臟/腎臟羥化）無確立的直接生化聯繫。不建議基於廢棄本體術語設計研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知治療性機轉聯繫。先天性凝血酶原缺乏症由F2基因功能失喪突變所致，屬維生素K依賴性凝血因子合成障礙。Isoleucine作為結構性胺基酸雖參與所有蛋白質合成，但無針對F2基因表達或凝血酶原加工的特異性調控證據。此預測可能為知識圖譜中'蛋白質合成'節點的廣義關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dyspepsia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "雙重間接機轉支持：(1)【生物標記角度】代謝組學研究顯示功能性消化不良（FD）患者血漿Isoleucine等BCAA水平顯著異常，提示BCAA感測/代謝紊亂可能參與FD病生理（但因果方向不明）；(2)【機轉角度】動物實驗（PMID 27558952）直接顯示胺基酸影響大鼠胃適應性舒張（accommodation），此為FD核心病生理機轉之一，Isoleucine可能透過感覺神經元和腸道肽（NO、VIP路徑）調節胃底舒張。局限：現有文獻均非治療性干預研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27558952",
+          "study_type": "Animal mechanistic study (rat)",
+          "tier": "2",
+          "relevance": "最強支持 - 直接研究胺基酸對胃適應性舒張的影響，為Isoleucine調節胃運動功能提供機轉依據；但為動物模型，轉譯性待確認"
+        },
+        {
+          "pmid": "26743458",
+          "study_type": "Metabolomics cross-sectional study",
+          "tier": "2",
+          "relevance": "間接支持 - 1H NMR代謝組學揭示FD生物標記，Isoleucine水平改變提示BCAA代謝紊亂與FD相關；屬生物標記而非治療研究，因果方向不明"
+        },
+        {
+          "pmid": "19854601",
+          "study_type": "Metabolomics cross-sectional study",
+          "tier": "2",
+          "relevance": "間接支持 - FD患者血漿代謝組學，複製BCAA代謝異常發現，增加生物標記關聯可信度；同樣無治療意涵"
+        },
+        {
+          "pmid": "20712055",
+          "study_type": "Molecular biology study",
+          "tier": "3",
+          "relevance": "極低相關 - H. pylori CagA蛋白多型性研究，與Isoleucine無直接關聯；可能透過知識圖譜中'消化不良病因'節點間接收錄"
+        }
+      ]
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向機轉警示（安全性疑慮）：Isoleucine分解代謝路徑為 Isoleucine → 2-甲基乙酰乙醯CoA → Propionyl-CoA → Methylmalonyl-CoA → Succinyl-CoA。在甲基丙二酸血症（MMA）患者中，因MUT/MMAA/MMAB基因突變導致Methylmalonyl-CoA mutase功能不全，過多Isoleucine攝入會加速毒性代謝物（甲基丙二酸）蓄積，進而引起遠端腎小管損傷和RTA。現有文獻描述的正是Isoleucine作為疾病毒素前驅物的機制，補充Isoleucine可能加重此類患者病情。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9761355",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance": "負向相關（安全警示）- 甲基丙二酸血症合併遠端RTA案例，Isoleucine為代謝毒素前驅物；此文獻提示在特定代謝障礙患者中Isoleucine可能有害"
+        },
+        {
+          "pmid": "1019163",
+          "study_type": "Clinical study (1976)",
+          "tier": "3",
+          "relevance": "極低相關 - 1976年血壓/腎素/醛固酮研究，年代久遠，與Isoleucine治療RTA的直接關聯無法確認"
+        }
+      ]
+    },
+    {
+      "disease_name": "sclerosing cholangitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無治療性機轉聯繫。原發性硬化性膽管炎（PSC）病因為膽管免疫炎症（Th17/Treg失衡、腸-肝軸菌群異常），與BCAA代謝無確立的治療性聯繫。雖然BCAAs在肝硬化合併肝性腦病中有應用，但其機轉（降低芳香族胺基酸競爭、減少假神經遞質）不適用於PSC。現有文獻完全來自PNPLA3遺傳研究，與Isoleucine無交集。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36454904",
+          "study_type": "Genetic cohort study",
+          "tier": "3",
+          "relevance": "極低相關 - PNPLA3 I148M多型性對PSC患者膽汁膽酸組成的影響；基因研究，與Isoleucine治療無關聯"
+        },
+        {
+          "pmid": "24222941",
+          "study_type": "Review/Meta-analysis",
+          "tier": "3",
+          "relevance": "極低相關 - PNPLA3多型性與進行性肝病的系統回顧；同為基因研究，無Isoleucine相關性"
+        },
+        {
+          "pmid": "15790420",
+          "study_type": "Observational cohort study",
+          "tier": "3",
+          "relevance": "極低相關 - 研究酪胺酸（Tyrosine）水平與PBC/PSC疲勞的關聯；研究對象為不同胺基酸（Tyrosine非Isoleucine），且為症狀相關性研究而非治療研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "familial visceral myopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉聯繫。家族性內臟肌病（FVM）為消化道平滑肌變性的罕見遺傳病（多與ACTG2基因突變相關），病理為平滑肌纖維化替代。BCAAs支持骨骼肌蛋白質合成的一般功能無法延伸至平滑肌遺傳病。缺乏任何臨床或基礎研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypophosphatemic rickets",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉聯繫。低磷性佝僂病（X-linked最常見）主要由PHEX基因突變導致FGF23過度分泌，引起腎小管磷重吸收障礙及1,25(OH)2D活化受阻。治療靶向FGF23（burosumab）或磷酸鹽補充。Isoleucine代謝路徑與FGF23-PHEX-磷代謝軸無已知調控關係。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "potassium deficiency disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無治療性機轉聯繫。現有文獻圍繞Isoleucine分解代謝酶缺陷疾病（β-酮硫解酶缺乏症/線粒體乙醯乙酸CoA硫解酶缺乏症），這些疾病在急性代謝危象期可伴發電解質異常，但此機轉為'疾病導致電解質紊亂'而非'Isoleucine治療鉀缺乏'。Isoleucine本身不具備調節腎臟鉀排泄或細胞內外鉀轉移的藥理機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23958592",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance": "低相關（反向理解）- β-酮硫解酶缺乏症（Isoleucine分解障礙）印度首例報告，電解質異常為代謝危象伴隨症狀，非Isoleucine治療鉀缺乏的證據"
+        },
+        {
+          "pmid": "20046049",
+          "study_type": "Case series",
+          "tier": "3",
+          "relevance": "低相關（反向理解）- 線粒體乙醯乙酸CoA硫解酶缺乏症案例系列（同屬Isoleucine分解代謝缺陷疾病），說明Isoleucine代謝障礙的臨床表現，非治療應用"
+        },
+        {
+          "pmid": "22492876",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance": "極低相關 - GLUT1缺乏症合併假性高鉀血症案例，與Isoleucine的關聯極為牽強，可能為知識圖譜中溶血/紅血球代謝節點的廣義關聯"
+        },
+        {
+          "pmid": "15577749",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "極低相關 - PACAP/VIP神經保護綜述，與Isoleucine或鉀代謝均無直接治療關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "unclassified intestinal pseudoobstruction",
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "與胃輕癱共享部分病生理機轉（腸道動力障礙），但更為嚴重且機制更複雜（涉及腸神經系統、Cajal間質細胞、腸平滑肌三層功能）。BCAAs刺激腸道內分泌細胞的機轉理論上可能影響腸道運動協調，但未分類型腸假性梗阻的病因異質性高，Isoleucine的潛在作用更難確定。建議與胃輕癱方向聯合探索，優先級低於胃輕癱。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 決策摘要表
+
+| 適應症 | TxGNN分 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|---------|---------|---------|------|---------|
+| 胃輕癱 | 0.9932 | **L5** | S1 | 🔬 Research Question | 需胃動力機轉動物實驗 |
+| 廢棄維生素D缺乏 | 0.9835 | **L5** | S0 | 🛑 Hold | 廢棄本體術語，無機轉 |
+| 先天性凝血酶原缺乏 | 0.9791 | **L5** | S0 | 🛑 Hold | 無藥理機轉 |
+| 消化不良 | 0.9774 | **L4** | S1 | 🔬 Research Question | 最佳候選，需RCT設計 |
+| 腎小管酸中毒 | 0.9762 | **L5** | S0 | ⚠️ Hold (反向警示) | 可能加重MMA患者病情 |
+| 硬化性膽管炎 | 0.9723 | **L5** | S0 | 🛑 Hold | 文獻完全無關 |
+| 家族性內臟肌病 | 0.9680 | **L5** | S0 | 🛑 Hold | 遺傳平滑肌病，無機轉 |
+| 低磷性佝僂病 | 0.9583 | **L5** | S0 | 🛑 Hold | 與FGF23-磷代謝軸無關 |
+| 鉀缺乏病 | 0.9549 | **L5** | S0 | 🛑 Hold | 文獻為反向機轉 |
+| 未分類腸假性梗阻 | 0.9523 | **L5** | S1 | 🔬 Research Question | 與胃輕癱聯合探索 |
+
+## 優先建議
+
+1. **最佳候選**：**消化不良（dyspepsia）** — 唯一有間接臨床文獻支持（L4），且有動物機轉研究（PMID 27558952），可設計小型Pilot RCT
+2. **次要候選**：**胃輕癱 + 腸假性梗阻** — 共享腸道動力機轉假說，可聯合設計探索性研究
+3. **安全警示**：**腎小管酸中毒** — 在有機酸血症/MMA患者群體中，高劑量Isoleucine補充可能有害，需特別標注禁忌

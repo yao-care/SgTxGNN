@@ -1,0 +1,355 @@
+## Gemeprost (DB08964) 藥物再利用證據分析
+
+**分析前置說明：**
+- Gemeprost 為前列腺素 E1 (PGE1) 類似物，主要作用為子宮頸擴張與子宮收縮
+- 作用機轉：EP 受體促效劑（EP1/EP3），具子宮收縮與血管作用
+- 重要安全訊號：文獻顯示 EP3 受體於冠狀動脈/肺動脈有強烈**收縮作用**（不同於治療用 PGE1 的舒張效應）
+
+---
+
+```json
+{
+  "drug": "Gemeprost",
+  "drugbank_id": "DB08964",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Gemeprost 為 PGE1 類似物（EP1/EP3 促效劑），原適應症為子宮頸擴張與醫療性流產（與 mifepristone 合併使用）。市場上未廣泛上市（部分歐洲國家除外）。DDI=0 顯示資料庫收錄不完整。vascular disease 類文獻主要為不良事件報告（冠狀動脈痙攣、心肌梗塞），構成重要安全疑慮。amenorrhea 類文獻中『amenorrhea』為妊娠週數計算單位（停經天數），非治療病症。",
+  "indications": [
+    {
+      "disease_name": "atypical coarctation of aorta",
+      "txgnn_score": 0.9953,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉支持。Gemeprost 之 EP3 促效作用可引發血管收縮，理論上可能加重主動脈縮窄之血流動力學負荷。類別相關文獻（PMID 10904996, 18185889）顯示嚴重心血管不良事件，提示心血管適應症風險高。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 安全疑慮：EP3 受體血管收縮效應可能惡化主動脈縮窄"
+    },
+    {
+      "disease_name": "amenorrhea (disease)",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "重要資料解讀警示：8 篇文獻中『amenorrhea』均為妊娠週數計量單位（停經天數 ≤56 天），非治療閉經疾病之文獻。文獻情境為 Gemeprost 配合 mifepristone 執行醫療性流產，與閉經（疾病）治療無直接關聯。Gemeprost 之子宮收縮機轉理論上可誘發月經，但無任何以閉經為治療目標之臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1525104",
+          "title": "Medical abortion in women ≤56 days amenorrhoea",
+          "year": "1992",
+          "study_type": "RCT（流產適應症）",
+          "tier": 2,
+          "relevance_to_indication": "❌ 不相關：amenorrhea 為停經週數量測，非治療閉經"
+        },
+        {
+          "pmid": "2582769",
+          "title": "Blood loss following mifepristone + prostaglandin analogue",
+          "year": "1989",
+          "study_type": "臨床研究（流產適應症）",
+          "tier": 2,
+          "relevance_to_indication": "❌ 不相關：流產術後出血量研究"
+        },
+        {
+          "pmid": "1751434",
+          "title": "Pre-operative cervical preparation before first trimester vacuum aspiration",
+          "year": "1991",
+          "study_type": "RCT（子宮頸預備）",
+          "tier": 2,
+          "relevance_to_indication": "❌ 不相關：手術前子宮頸準備"
+        },
+        {
+          "pmid": "3069265",
+          "title": "Anti-progesterones for the interruption of pregnancy",
+          "year": "1988",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "❌ 不相關：抗黃體素流產機轉綜述"
+        },
+        {
+          "pmid": "8546658",
+          "title": "Blood loss in termination of early pregnancy with mifepristone and gemeprost",
+          "year": "1995",
+          "study_type": "臨床研究",
+          "tier": 2,
+          "relevance_to_indication": "❌ 不相關：流產出血量研究"
+        },
+        {
+          "pmid": "2891991",
+          "title": "Induction of therapeutic abortion with mifepristone + prostaglandin",
+          "year": "1987",
+          "study_type": "臨床研究（流產）",
+          "tier": 2,
+          "relevance_to_indication": "❌ 不相關：流產誘導研究"
+        },
+        {
+          "pmid": "7507707",
+          "title": "AFP and placental hormones following medical abortion",
+          "year": "1993",
+          "study_type": "生化研究",
+          "tier": 3,
+          "relevance_to_indication": "❌ 不相關：流產後生化指標"
+        },
+        {
+          "pmid": "3193407",
+          "title": "Prostaglandins and antigestagens for interruption of early pregnancy",
+          "year": "1988",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "❌ 不相關：流產藥物綜述"
+        }
+      ],
+      "flag": "⚠️ 資料誤判：TxGNN 可能因文獻中『amenorrhea』一詞（作為妊娠週數計量）誤認為閉經治療證據"
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何機轉關聯。食道先天畸形為結構性缺損，非 PGE1 路徑疾病。無文獻、無試驗、無間接支持。TxGNN 預測可能反映知識圖譜中結構性先天缺陷節點的非特異性連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "❌ 無證據支持，機轉無關聯性"
+    },
+    {
+      "disease_name": "aortic malformation",
+      "txgnn_score": 0.9922,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉。主動脈畸形為先天結構性缺損。Gemeprost 之血管收縮特性（EP3 促效）在理論上對大血管畸形患者有害而非有益。無任何臨床或基礎研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 安全疑慮：血管收縮效應不適用於主動脈結構性疾病"
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接反向證據：雖同類 PGE1 製劑（epoprostenol、treprostinil、iloprost）用於肺動脈高壓，但 PMID 7834185 明確顯示 EP3 受體促效劑（Gemeprost 主要作用受體）對人類離體肺動脈具**強力收縮作用**，與治療肺高壓之機轉相反。此為同類異向（class divergence）現象。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7834185",
+          "title": "Potent contractile actions of prostanoid EP3-receptor agonists on human isolated pulmonary artery",
+          "year": "1994",
+          "study_type": "基礎藥理學（離體實驗）",
+          "tier": 3,
+          "relevance_to_indication": "⚠️ 反向機轉證據：EP3 促效 → 肺動脈收縮（有害）"
+        }
+      ],
+      "flag": "🚫 機轉矛盾：EP3 受體於肺動脈之收縮效應與肺高壓治療目標相悖，建議 Hold"
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9888,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無機轉關聯。脊柱側彎性心臟病為繼發於胸廓畸形的限制性心肺疾病，非前列腺素路徑疾病。TxGNN 預測可能源於結構性心臟病節點的非特異性圖譜連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "❌ 無證據，無機轉，建議 Hold"
+    },
+    {
+      "disease_name": "esophageal disease",
+      "txgnn_score": 0.9886,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉。PGE2 在胃腸黏膜保護有已知作用，但 Gemeprost 之 EP 受體選擇性（主要 EP1/EP3）與胃腸黏膜保護的 EP4/EP2 受體不同。無任何食道疾病的直接或間接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "❌ 無證據，受體選擇性不支持食道保護機轉"
+    },
+    {
+      "disease_name": "peripheral arterial disease",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "類別間接機轉：PGE1 製劑（alprostadil）已用於周邊動脈疾病，提供血管舒張與抗血小板效應（主要經 EP2/EP4）。然而 Gemeprost 之 EP3 優先性在血管床產生收縮而非舒張效應。同類 PGE1 藥物的正向證據**不可直接外推**至 Gemeprost。此外，vascular disease 文獻中多例嚴重心血管事件（心肌梗塞、冠脈痙攣）構成安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18185889",
+          "title": "Gemeprost causing acute myocardial infarction (case report)",
+          "year": "2007",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "⚠️ 安全疑慮：Gemeprost 引發心肌梗塞之個案"
+        },
+        {
+          "pmid": "10904996",
+          "title": "Severe cardiovascular complications relating to Gemeprost therapy",
+          "year": "2000",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance_to_indication": "⚠️ 安全疑慮：多例嚴重心血管並發症"
+        }
+      ],
+      "flag": "🚫 受體選擇性矛盾 + 安全疑慮：不應以 alprostadil 的 PAD 證據外推至 Gemeprost"
+    },
+    {
+      "disease_name": "HER2 positive breast carcinoma",
+      "txgnn_score": 0.9847,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知直接機轉。部分前列腺素（如 PGE2）在腫瘤免疫逃脫中有調節作用，但此為促癌機轉而非抗癌機轉。Gemeprost 之 EP1/EP3 促效對 HER2+ 乳癌無已發表之臨床前或臨床研究支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "❌ 無證據，機轉不支持，TxGNN 預測屬高假陽性候選"
+    },
+    {
+      "disease_name": "vascular disease",
+      "txgnn_score": 0.9812,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻主體為**不良事件報告**，非治療性使用證據。PMID 10904996 和 18185889 記錄 Gemeprost 導致嚴重心血管並發症（心肌梗塞、冠脈痙攣）；PMID 7834185 提供基礎科學機轉解釋（EP3 → 肺/冠狀動脈收縮）；PMID 20224253 顯示同類前列腺素（misoprostol）亦有冠脈痙攣風險。整體文獻構成**反向安全訊號**而非再利用支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18185889",
+          "title": "How safe is gemeprost? Acute MI case report",
+          "year": "2007",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "🚫 不良事件：Gemeprost 引發急性心肌梗塞"
+        },
+        {
+          "pmid": "10904996",
+          "title": "Severe cardiovascular complications relating to Gemeprost therapy",
+          "year": "2000",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance_to_indication": "🚫 不良事件：多例嚴重心血管並發症彙整"
+        },
+        {
+          "pmid": "10826591",
+          "title": "Life threatening myocardial ischaemia with prostaglandin E1",
+          "year": "2000",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "🚫 不良事件：致命性心肌缺血"
+        },
+        {
+          "pmid": "7834185",
+          "title": "Potent contractile actions of prostanoid EP3-receptor agonists on pulmonary artery",
+          "year": "1994",
+          "study_type": "基礎藥理（離體）",
+          "tier": 3,
+          "relevance_to_indication": "⚠️ 機轉解釋：EP3 促效 → 肺動脈強力收縮"
+        },
+        {
+          "pmid": "20224253",
+          "title": "Acute coronary artery vasospasm associated with misoprostol",
+          "year": "2010",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "⚠️ 類別安全訊號：同類前列腺素之冠脈痙攣"
+        },
+        {
+          "pmid": "3510916",
+          "title": "Pregnancy termination: techniques, risks, complications",
+          "year": "1986",
+          "study_type": "Review（流產適應症）",
+          "tier": 3,
+          "relevance_to_indication": "❌ 不相關：流產手術風險綜述"
+        },
+        {
+          "pmid": "1432596",
+          "title": "Prostaglandins: synthetic and pharmacological studies",
+          "year": "1992",
+          "study_type": "Review（藥化）",
+          "tier": 3,
+          "relevance_to_indication": "中性：前列腺素合成與藥理基礎研究"
+        },
+        {
+          "pmid": "7962459",
+          "title": "RU486: the French experience",
+          "year": "1994",
+          "study_type": "Review（流產適應症）",
+          "tier": 3,
+          "relevance_to_indication": "❌ 不相關：mifepristone 流產經驗"
+        },
+        {
+          "pmid": "1738308",
+          "title": "The RU 486 story: the French experience",
+          "year": "1992",
+          "study_type": "Review（流產適應症）",
+          "tier": 3,
+          "relevance_to_indication": "❌ 不相關：mifepristone 臨床報告"
+        },
+        {
+          "pmid": "1322621",
+          "title": "Medical termination with mifepristone followed by prostaglandin analogue",
+          "year": "1992",
+          "study_type": "臨床研究（流產）",
+          "tier": 2,
+          "relevance_to_indication": "❌ 不相關：流產方案研究"
+        }
+      ],
+      "flag": "🚫 文獻為反向安全訊號（不良事件報告），不支持血管疾病治療用途"
+    }
+  ],
+  "overall_summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L5_prediction_only": 6,
+      "L4_indirect_or_case_report": 4,
+      "L3_phase1_or_retrospective": 0,
+      "L2_phase2_rct": 0,
+      "L1_phase3_rct": 0
+    },
+    "decision_distribution": {
+      "S0_insufficient": 10,
+      "S1_safety_review": 0,
+      "S2_feasibility": 0,
+      "S3_recommended": 0
+    },
+    "recommendation_distribution": {
+      "Hold": 10,
+      "Research_Question": 0,
+      "Proceed_with_Guardrails": 0
+    },
+    "critical_safety_signals": [
+      "EP3 受體促效 → 冠狀動脈/肺動脈強力收縮（PMID 7834185）",
+      "急性心肌梗塞個案報告（PMID 18185889）",
+      "嚴重心血管並發症系列（PMID 10904996）",
+      "致命性心肌缺血（PMID 10826591）",
+      "冠脈痙攣（類別效應，PMID 20224253）"
+    ],
+    "data_quality_issues": [
+      "amenorrhea 文獻：TxGNN 將妊娠週數計量詞（停經天數）誤判為疾病治療文獻",
+      "vascular disease 文獻：主體為不良事件報告，被計入支持文獻數量（12篇）但實為反向證據",
+      "original_moa=[Data Gap]：DrugBank 收錄不完整，實際機轉（PGE1 類似物 / EP 受體促效）可從文獻重建",
+      "DDI=0：資料庫收錄缺失（實際已知與麥角胺、縮宮素等有交互作用風險）"
+    ],
+    "analyst_conclusion": "Gemeprost 之 10 項 TxGNN 高分預測適應症均無充分臨床再利用證據（全部 S0/Hold）。關鍵發現：(1) 心血管類適應症存在主動安全疑慮，EP3 受體之血管收縮特性使其不適合用於血管疾病、肺高壓等循環系統疾病；(2) amenorrhea 文獻為資料解讀誤差；(3) Gemeprost 之臨床價值仍在既有適應症（子宮頸擴張、醫療性流產），再利用潛力低且安全疑慮高。建議排除所有心血管及結構性畸形適應症，若有興趣探索婦科相關新用途應以全新研究問題設計為前提。"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要圖
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策 | 主要問題 |
+|--------|-----------|---------|------|---------|
+| atypical coarctation of aorta | 0.9953 | L5 | ⛔ Hold | 無證據 + 安全疑慮 |
+| amenorrhea | 0.9936 | L4 | ⛔ Hold | **文獻誤判**（停經週數≠閉經疾病）|
+| non-syndromic esophageal malformation | 0.9927 | L5 | ⛔ Hold | 無證據，機轉無關 |
+| aortic malformation | 0.9922 | L5 | ⛔ Hold | 無證據 + 安全疑慮 |
+| **pulmonary hypertension** | 0.9915 | L4 | 🚫 Hold | **機轉矛盾**（EP3→肺動脈收縮）|
+| kyphoscoliotic heart disease | 0.9888 | L5 | ⛔ Hold | 無證據，機轉無關 |
+| esophageal disease | 0.9886 | L5 | ⛔ Hold | 受體選擇性不符 |
+| peripheral arterial disease | 0.9878 | L4 | 🚫 Hold | 類別效應不可外推 + 安全疑慮 |
+| HER2 positive breast carcinoma | 0.9847 | L5 | ⛔ Hold | 無證據，機轉不支持 |
+| **vascular disease** | 0.9812 | L4 | 🚫 Hold | **文獻為不良事件報告** |
+
+> **結論：Gemeprost 之所有高分 TxGNN 預測適應症均建議 Hold，主要原因為 EP3 受體血管收縮安全疑慮與文獻品質問題。** 本分析結果僅供研究參考，不構成醫療建議，所有老藥新用候選需經臨床驗證方可應用。

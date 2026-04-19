@@ -1,0 +1,1517 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00087-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alemtuzumab",
+    "drugbank_id": "DB00087",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hepatic infarction",
+      "txgnn": {
+        "score": 0.9443826079368592,
+        "rank": 27954
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉支持。Alemtuzumab 靶向 CD52 進行淋巴球清除，對肝臟梗塞（缺血性壞死）無任何生物學關聯。高 TxGNN 分數（0.944）可能源自 KG 圖譜中肝臟相關節點的拓撲鄰近性，非真實機轉連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "syndrome with combined immunodeficiency",
+      "txgnn": {
+        "score": 0.9372945427894592,
+        "rank": 29282
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05600907",
+            "title": "Pilot Study to Assess the Use of JSP191 in Matched Unrelated Donor Transplantation for Chronic Granulomatous Disease (CGD)",
+            "phase": "EARLY_PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 7,
+            "start_date": "2023-01-02",
+            "completion_date": "2036-11-30",
+            "brief_summary": "Background:\n\nChronic granulomatous disease (CGD) is a rare immune disorder that can cause serious infections throughout the body. The only cure for CGD is a stem cell transplant. Transplants from a sibling are best, but many people must get transplants from unrelated donors. However, these transplants can cause serious complications in people with CGD.\n\nObjective:\n\nTo see if a study drug (JSP191) can help improve the success rates of stem cell transplants for people with CGD from an unrelated do",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "主要研究藥物為 JSP191（anti-CD117 conditioning），非 Alemtuzumab，相關性低，僅作為平行免疫調處策略的背景參考。"
+            }
+          },
+          {
+            "nct_id": "NCT00152100",
+            "title": "Transplantation of Highly Purified Haploidentical CD133 Hematopoietic Cells in Children With Severe Combined Immunodeficiency Syndrome",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 4,
+            "start_date": "2004-02",
+            "completion_date": "2007-08",
+            "brief_summary": "Treatment for severe combined immunodeficiency (SCID) is a medical emergency. A stem cell transplant (immature blood cells that can make other blood cells) from a (MSD) matched sibling donor (brother or sister who is a \"match\" for your child's immune (HLA) type), usually results in complete correction of immune function. However, most patients lack a matched sibling donor, requiring the use of an alternate donor source.\n\nTransplantation of cells from haploidentical family donors (typically paren",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "高度純化 CD133+ 幹細胞 HSCT Phase 1（n=4），主要研究細胞選擇策略而非 Alemtuzumab 本身，相關性有限。"
+            }
+          },
+          {
+            "nct_id": "NCT00579137",
+            "title": "CD45 and Alemtuzumab Monoclonal Antibody Conditioning Regimen For Allogeneic Donor Stem Cell Transplantation Of Patients With Severe Combined Immunodeficiency Disease (SCID) And Other Primary Immunodeficiency Disorders",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2007-10",
+            "completion_date": "2009-10",
+            "brief_summary": "This study is to discover whether children with severe combined immunodeficiency disease (SCID) or other primary immunodeficiency disorder (PID) for which no satisfactory treatment other than stem cell transplantation (SCT) exists can be safely and effectively transplanted from HLA mismatched (up to one haplotype) related donors or unrelated matched or mismatched (up to one antigen) donors, when leukocytolytic monoclonal antibodies (MAb) and Fludarabine are the sole conditioning agents. Three mo",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 1/2，直接測試 Alemtuzumab + anti-CD45 mAb 作為 allo-SCT 調處方案，目標適應症即免疫缺乏症。雖已終止（n=3）且規模小，但提供 Alemtuzumab 在此適應症的直接劑量安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT01182675",
+            "title": "Hematopoietic Stem Cell Transplantation for Children With Severe Combined Immunodeficiency Disease Utilizing Alemtuzumab and Mobilization With Plerixafor & Filgrastim",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2010-08",
+            "completion_date": "2013-09",
+            "brief_summary": "The goal of this study is to develop a novel approach to hematopoietic stem cell transplantation for children with Severe Combined Immunodeficiency Disease (SCID) that eliminates the use of toxic chemotherapy conditioning and maximizes the likelihood of T and B cell immune reconstitution. Rather than classic chemotherapeutic agents, the investigators will utilize a targeted stem cell mobilizer, plerixafor, in combination with alemtuzumab, a monoclonal antibody. Correlative scientific questions w",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 SCID 兒童 HSCT 研究（n=7），已終止。Alemtuzumab 為調處方案成分之一，提供安全性資料，但早期終止限制結論強度。"
+            }
+          },
+          {
+            "nct_id": "NCT01652092",
+            "title": "Allogeneic Hematopoietic Stem Cell Transplant for Patients With Primary Immune Deficiencies",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 57,
+            "start_date": "2012-09-04",
+            "completion_date": "2026-12",
+            "brief_summary": "This is a standard of care treatment guideline for allogeneic hematopoetic stem cell transplant (HSCT) in patients with primary immune deficiencies.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "涵蓋原發性免疫缺乏症的 allo-HSCT 觀察性研究（n=57），Alemtuzumab 為可選調處方案之一，提供真實世界安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT01962415",
+            "title": "A Phase II Study of Reduced Intensity Conditioning in Pediatric Patients and Young Adults ≤55 Years of Age With Non-Malignant Disorders Undergoing Umbilical Cord Blood, Bone Marrow, or Peripheral Blood Stem Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2014-02-04",
+            "completion_date": "2027-11",
+            "brief_summary": "The objective of this study is to evaluate the efficacy of using a reduced-intensity condition (RIC) regimen with umbilical cord blood transplant (UCBT), double cord UCBT, matched unrelated donor (MUD) bone marrow transplant (BMT) or peripheral blood stem cell transplant (PBSCT) in patients with non-malignant disorders that are amenable to treatment with hematopoietic stem cell transplant (HSCT). After transplant, subjects will be followed for late effects and for ongoing graft success.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "目前正在進行的 Phase 2 RIC 研究（招募中，目標 n=100），涵蓋兒童及年輕成人（≤55 歲）原發性免疫缺乏症，規模最大且進行中，將提供當前最強 efficacy 證據。"
+            }
+          },
+          {
+            "nct_id": "NCT02512679",
+            "title": "Protocol for Related Donor Hematopoietic Stem Cell Transplantation (HSCT) for Treatment of Symptomatic Genetic Lymphohematological Diseases",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 20,
+            "start_date": "2007-02",
+            "completion_date": "2014-02",
+            "brief_summary": "Many genetic diseases of lymphohematopoietic cells (such as sickle cell anemia, thalassemia, Diamond-Blackfan anemia, Combined Immune Deficiency (CID), Wiskott-Aldrich syndrome, chronic granulomatous disease, X-linked lymphoproliferative disease, and metabolic diseases affecting hematopoiesis) are sublethal diseases caused by mutations that adversely affect the development or function of different types of blood cells. Although pathophysiologically diverse, these genetic diseases share a similar",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "相關供體 HSCT Phase 2（n=20），已終止，適應症符合聯合免疫缺乏症範疇，提供安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT01019876",
+            "title": "Risk-Adapted Allogeneic Stem Cell Transplantation For Mixed Donor Chimerism In Patients With Selected Non-Malignant Diseases",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2002-09",
+            "completion_date": "2021-09-07",
+            "brief_summary": "This study proposes the use of a reduced intensity chemotherapy/radiation therapy regimen followed by stem cell transplantation, as compared to standard ablative chemotherapy regimens associated with stem cell transplantation, in a population of patients with non-malignant diseases (non-cancer). Eligible patients will have a non-malignant disease in one of the following four strata: bone marrow failure syndromes, immunodeﬁciencies, inborn errors of metabolism, or histiocytoses. Patients will be ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3 風險適應性 allo-SCT 研究，已完成（n=38），涵蓋選擇性原發性免疫缺乏症患者，是本組中最高等級的完成試驗，直接提供 Alemtuzumab-based conditioning 的 efficacy 與安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT07284641",
+            "title": "Hematopoietic Stem Cell Transplantation (HSCT) for Common Variable Immunodeficiency (CVID) and Other Autoimmune Manifestations of Primary Immune Regulatory Disorders (PIRD)",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 25,
+            "start_date": "2026-03-01",
+            "completion_date": "2031-02-01",
+            "brief_summary": "This is a research protocol that will examine Hematopoietic Stem Cell Transplantation (HSCT) using a reduced conditioning regimen (RIC) with total body Irradiation (TBI) in those diagnosed with Common Variable Immunodeficiency (CVID) and Other Autoimmune Manifestations of Primary Immune Regulatory Disorders (PIRD).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 HSCT 用於 CVID 及其他原發性免疫缺乏症（n=25，招募中），擴展 Alemtuzumab-based HSCT 至不同聯合免疫缺乏亞型，適應症相關性高。"
+            }
+          },
+          {
+            "nct_id": "NCT05463133",
+            "title": "Phase I/II Study Using Allogeneic Hematopoietic Stem Cell Transplantation for Chronic Granulomatous Disease With an Alemtuzumab, Busulfan and TBI-based Conditioning Regimen Combined With Cytokine (IL-6, +/- IFN-gamma) Antagonists",
+            "phase": "PHASE1, PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2022-07-08",
+            "completion_date": "2032-12-31",
+            "brief_summary": "Background:\n\nChronic granulomatous disease (CGD) affects the immune system. People with CGD are more likely to get infections. Drugs can help control infections, but these treatments can cause side effects including kidney failure and deafness. Stem cell transplants can cure CGD, but these don t always work.\n\nObjective:\n\nTo find out if a different drug treatment can improve the success rates of stem cell transplants in people with CGD.\n\nEligibility:\n\nPeople aged 4-65 years with CGD.\n\nDesign:\n\nPa",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1/2 HSCT 用於慢性肉芽腫病（CGD，n=50，招募中），CGD 屬原發性免疫缺乏症範疇，Alemtuzumab 在調處方案中，機轉類似但疾病特異性稍窄。"
+            }
+          },
+          {
+            "nct_id": "NCT00744692",
+            "title": "A Pilot Study of Reduced Intensity Conditioning in Pediatric Patients <21 Years of Age With Non-Malignant Disorders Undergoing Umbilical Cord Blood Transplantation",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2008-10",
+            "completion_date": "2014-04",
+            "brief_summary": "The primary objective is to determine the feasibility of attaining acceptable rates of donor cell engraftment (\\>25% donor chimerism at 180 days) following reduced intensity conditioning (RIC) regimens in pediatric patients \\< 21 years receiving cord blood transplantation for non-malignant disorders.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04528355",
+            "title": "A Prospective Outcomes Study of Pediatric and Adult Patients With Non-Malignant Disorders Undergoing Umbilical Cord Blood, Bone Marrow, or Peripheral Blood Stem Cell Transplantation With a Reduced-Intensity Conditioning Regimen (PRO-RIC)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2020-08-20",
+            "completion_date": "2028-06-30",
+            "brief_summary": "This is a data collection study that will examine the general diagnostic and treatment data associated with the reduced-intensity chemotherapy-based regimen paired with simple alemtuzumab dosing strata designed to prevented graft failure and to aid in immune reconstitution following hematopoietic stem cell transplantation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01821781",
+            "title": "A Study of Hematopoietic Stem Cell Transplantation (HSCT) in Immune Function Disorders Using a Reduced Intensity Preparatory Regime",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 20,
+            "start_date": "2013-04-29",
+            "completion_date": "2026-04",
+            "brief_summary": "This study hypothesizes that a reduced intensity immunosuppressive preparative regimen will establish engraftment of donor hematopoietic cells with acceptable early and delayed toxicity in patients with immune function disorders. A regimen that maximizes host immune suppression is expected to reduce graft rejection and optimize donor cell engraftment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29155317",
+            "title": "Treosulfan and Fludarabine Conditioning for Hematopoietic Stem Cell Transplantation in Children with Primary Immunodeficiency: UK Experience.",
+            "authors": [
+              "Slatter Mary A",
+              "Rao Kanchan",
+              "Abd Hamid Intan Juliana",
+              "Nademi Zohreh",
+              "Chiesa Robert"
+            ],
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2018",
+            "abstract": "We previously published results for 70 children who received conditioning with treosulfan and cyclophosphamide (n = 30) or fludarabine (n = 40) before undergoing hematopoietic stem cell transplantation (HSCT) for primary immunodeficiency (PID). Toxicity was lower and T cell chimerism was better in the patients receiving fludarabine, but cohort numbers were relatively small and follow-up was short. Here we report outcomes of 160 children who received homogeneous conditioning with treosulfan, flud",
+            "classification": {
+              "study_type": "Multicenter Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27543157",
+            "title": "A Single-Center Experience Comparing Alemtuzumab, Fludarabine, and Melphalan Reduced-Intensity Conditioning with Myeloablative Busulfan, Cyclophosphamide, and Antithymocyte Globulin for Chronic Granulomatous Disease.",
+            "authors": [
+              "Khandelwal Pooja",
+              "Bleesing Jacob J",
+              "Davies Stella M",
+              "Marsh Rebecca A"
+            ],
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2016",
+            "abstract": "Myeloablative conditioning (MAC) regimens are commonly used in transplantation for chronic granulomatous disease (CGD) but are associated with toxicity. Reduced-intensity conditioning (RIC) regimens have lower toxicity but may fail to achieve stable donor chimerism. We report a comparison between 4 patients who received a RIC regimen consisting of alemtuzumab (1 mg/kg), fludarabine (150 mg/m2), and melphalan (140 mg/m2) and 14 patients who received a MAC regimen consisting of busulfan (area unde",
+            "classification": {
+              "study_type": "Single-Center Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35065305",
+            "title": "Lessons learned from the diagnostic work-up of a patient with the bare lymphocyte syndrome type II.",
+            "authors": [
+              "Damoiseaux Maurits",
+              "Damoiseaux Jan",
+              "Pico-Knijnenburg Ingrid",
+              "van der Burg Mirjam",
+              "Bredius Robbert"
+            ],
+            "journal": "Clinical immunology (Orlando, Fla.)",
+            "year": "2022",
+            "abstract": "A patient presented severe combined immunodeficiency (SCID)-like symptoms. The presence of a substantial number of CD4+ T-cells in the peripheral blood was not explained by maternal engraftment. Genetic analysis revealed a novel RFXANK mutation, c.232C > T, resulting in a stop codon, with consequently defective transcription of MHC class II resulting in bare lymphocyte syndrome (BLS) type II. The initial unawareness of complete absence of MHC class II expression and normal T-cell receptor excisi",
+            "classification": {
+              "study_type": "Case Report / Diagnostic Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15590388",
+            "title": "Infectious toxicity using alemtuzumab.",
+            "authors": [
+              "Nosari Annamaria",
+              "Montillo Marco",
+              "Morra Enrica"
+            ],
+            "journal": "Haematologica",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Adverse Event Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18502831",
+            "title": "EBV-positive immunodeficiency lymphoma after alemtuzumab-CHOP therapy for peripheral T-cell lymphoma.",
+            "authors": [
+              "Kluin-Nelemans Hanneke C",
+              "Coenen Jules L",
+              "Boers James E",
+              "van Imhoff Gustaaf W",
+              "Rosati Stefano"
+            ],
+            "journal": "Blood",
+            "year": "2008",
+            "abstract": "Chemotherapy with alemtuzumab and the combination of cyclophosphamide, adriamycin, oncovin, and prednisone (CHOP) has become experimental trial therapy for aggressive T-cell lymphoma. Several multicenter phase 3 trials will incorporate this scheme. As part of an ongoing phase 2 trial in which we recently treated 20 patients with 8 cycles of CHOP every 2 weeks with 3 additional doses of 30 mg alemtuzumab per cycle, we observed the development of Epstein-Barr virus (EBV)-positive lymphoproliferati",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26073206",
+            "title": "Hematopoietic stem cell transplant for hyper-IgM syndrome due to CD40L defects: A single-center experience.",
+            "authors": [
+              "Al-Saud Bandar",
+              "Al-Mousa Hamoud",
+              "Al-Ahmari Ali",
+              "Al-Ghonaium Abdulaziz",
+              "Ayas Mouhab"
+            ],
+            "journal": "Pediatric transplantation",
+            "year": "2015",
+            "abstract": "HIGMI is a disease with a high risk for morbidity and mortality. HSCT has been shown to be a curative option. This study retrospectively reviewed and analyzed data from five patients who received HSCT at King Faisal Specialist Hospital & Research Centre (KFSH&RC) in Riyadh, Saudi Arabia, between 2005 and 2013. Five patients with HIGMI syndrome underwent HSCT at a median age of 41 months (range, 9-72 months). The median time from diagnosis to transplantation was 30 months (range, 5-58 months). Fo",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25208591",
+            "title": "Autoimmune hemolytic anemia and thrombocytopenia attributed to an intrauterine contraceptive device.",
+            "authors": [
+              "Khawandanah Mohamad O",
+              "Weiss Susan M",
+              "Cherry Mohamad A",
+              "Maymani Hossein",
+              "Selby George B"
+            ],
+            "journal": "Transfusion",
+            "year": "2015",
+            "abstract": "Evans syndrome is a rare condition manifested by combined autoimmune hemolytic anemia (AIHA) and thrombocytopenia or neutropenia. It is often associated with other autoimmune disorders, immunodeficiencies, and non-Hodgkin's lymphoma.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23131490",
+            "title": "Allogeneic hematopoietic cell transplantation for XIAP deficiency: an international survey reveals poor outcomes.",
+            "authors": [
+              "Marsh Rebecca A",
+              "Rao Kanchan",
+              "Satwani Prakash",
+              "Lehmberg Kai",
+              "Müller Ingo"
+            ],
+            "journal": "Blood",
+            "year": "2013",
+            "abstract": "There have been no studies on patient outcome after allogeneic hematopoietic cell transplantation (HCT) in patients with X-linked inhibitor of apoptosis (XIAP) deficiency. To estimate the success of HCT, we conducted an international survey of transplantation outcomes. Data were reported for 19 patients. Seven patients received busulfan-containing myeloablative conditioning (MAC) regimens. Eleven patients underwent reduced intensity conditioning (RIC) regimens predominantly consisting of alemtuz",
+            "classification": {
+              "study_type": "International Retrospective Survey",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21325599",
+            "title": "Treosulfan-based conditioning regimens for hematopoietic stem cell transplantation in children with primary immunodeficiency: United Kingdom experience.",
+            "authors": [
+              "Slatter Mary A",
+              "Rao Kanchan",
+              "Amrolia Persis",
+              "Flood Terry",
+              "Abinun Mario"
+            ],
+            "journal": "Blood",
+            "year": "2011",
+            "abstract": "Children with primary immunodeficiency diseases, particularly those less than 1 year of age, experience significant toxicity after hematopoietic stem cell transplantation, with busulfan- or melphalan-based conditioning. Treosulfan causes less veno-occlusive disease than busulfan and does not require pharmacokinetic monitoring. We report its use in 70 children. Children received 42 g/m(2) or 36 g/m(2) with cyclophosphamide 200 mg/kg (n = 30) or fludarabine 150 mg/m(2) (n = 40), with alemtuzumab i",
+            "classification": {
+              "study_type": "Multicenter Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19471859",
+            "title": "FOXP3 expression following bone marrow transplantation for IPEX syndrome after reduced-intensity conditioning.",
+            "authors": [
+              "Dorsey Morna J",
+              "Petrovic A",
+              "Morrow M R",
+              "Dishaw L J",
+              "Sleasman J W"
+            ],
+            "journal": "Immunologic research",
+            "year": "2009",
+            "abstract": "The objective of this study is to determine if immune reconstitution of FOXP3+ T regulatory cells correlates with clinical improvement of IPEX syndrome following allogeneic hematopoietic stem cell transplant. An 8-months-old male infant with a mutation in the polyadenylation site of FOXP3 gene, absence of FOXP3 protein expression and clinical manifestations of IPEX syndrome, including eczema, colitis, failure to thrive, TPN requirement, and elevated serum IgE, underwent matched unrelated hematop",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18940685",
+            "title": "Successful treatment of stem cell graft failure in pediatric patients using a submyeloablative regimen of campath-1H and fludarabine.",
+            "authors": [
+              "Ahmed Nabil",
+              "Leung Kathryn S",
+              "Rosenblatt Howard",
+              "Bollard Catherine M",
+              "Gottschalk Stephen"
+            ],
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2008",
+            "abstract": "Graft failure is a significant cause of morbidity and mortality after hematopoietic stem cell transplantation (HSCT). We used a nonmyeloablative conditioning regimen consisting of the lympho-depleting humanized CD52-antibody Campath-1H and fludarabine to rescue 12 consecutive children age 9 months to 17 years with engraftment failure after initial myeloablative HSCT. Primary diagnoses included lymphohematologic malignancies (n=6), severe combined immunodeficiency syndrome (SCID) (n=4), and metab",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11841458",
+            "title": "Non-myeloablative bone marrow transplantation in an adult with Wiskott-Aldrich syndrome.",
+            "authors": [
+              "Longhurst Hilary J",
+              "Taussig David",
+              "Haque Tanzina",
+              "Syndercombe-Court Denise",
+              "Cavenagh Jamie"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2002",
+            "abstract": "Early bone marrow transplant is now standard treatment for infants with severe immunodeficiencies such as Wiskott-Aldrich Syndrome (WAS), but results in older children and adults are poor. Non-myeloablative transplant has shown promise in the treatment of older children, who are likely to have active infections and organ damage. We describe a non-myeloablative transplant of a 26-year-old man with WAS, undertaken because of severe infections and vasculitis. Partial engraftment and immunorestorati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alemtuzumab（anti-CD52）作為造血幹細胞移植（HSCT）減強度調處方案（RIC）的核心藥物，可有效清除宿主缺陷 T/B 淋巴球，降低移植排斥（host-versus-graft）與移植物抗宿主病（GvHD）風險，為供體細胞植入創造空間。在嚴重複合性免疫缺乏症（SCID）、XIAP 缺乏症、Hyper-IgM 症候群等原發性免疫缺乏症中，此機轉直接針對疾病根本（淋巴球功能缺陷），生物學合理性高。多中心 Phase 2/3 試驗（NCT01019876）已完成，證據基礎充足，但多數試驗規模小或已終止，需注意感染風暴（尤其 EBV/CMV 再活化）等安全性疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "hepatic veno-occlusive disease",
+      "txgnn": {
+        "score": 0.9313526153564452,
+        "rank": 30388
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02165007",
+            "title": "HAPLOIDENTICAL HEMATOPOIETIC STEM CELL TRANSPLANTATION FOR CHILDREN WITH SICKLE CELL DISEASE AND THALASSEMIA USING CD34+ POSITIVE SELECTED GRAFTS",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 7,
+            "start_date": "2015-01",
+            "completion_date": "2024-10",
+            "brief_summary": "The study is designed as a Pilot/Phase 1 trial of reduced intensity Haploidentical HSCT in patients with sickle cell disease and thalassemia. The purpose of the study is to assess the safety and toxicity of reduced intensity conditioning haploidentical hematopoietic stem cell transplantation.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Haploidentical HSCT 用於鐮刀型貧血/海洋性貧血 Phase 1（n=7），Alemtuzumab 為調處成分，VOD 僅為安全性監測項目。"
+            }
+          },
+          {
+            "nct_id": "NCT01596699",
+            "title": "A Pilot Trial of Clofarabine Added to Standard Busulfan and Fludarabine for Conditioning Prior to Allogeneic Hematopoietic Cell Transplantation",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 16,
+            "start_date": "2012-05-24",
+            "completion_date": "2019-06",
+            "brief_summary": "The purpose of this study is to find out what effects, good and/or bad, the addition of clofarabine, a new chemotherapy agent, to a standard busulfan and fludarabine conditioning treatment has. The study will also look at what causes some people to have high drug levels of these medications in their body compared to other people that may have low drug levels even if they all receive the same dose of medication.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Clofarabine 加入 Bu/Flu/Alemtuzumab 調處方案 Phase 2（n=16，已終止），VOD 為安全性監測終點而非治療目標，無法支持 Alemtuzumab 治療 VOD 的論點。"
+            }
+          },
+          {
+            "nct_id": "NCT02061800",
+            "title": "CD34+ Stem Cell Selection for Patients Receiving a Matched or Partially Matched Family or Unrelated Adult Donor Allogeneic Stem Cell Transplant for Malignant Disease",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 14,
+            "start_date": "2013-06-03",
+            "completion_date": "2026-07",
+            "brief_summary": "The purpose of this study is to learn more about the effects of (classification determinant) CD34+ stem cell selection on graft versus host disease (GVHD) in children, adolescents, and young adults. CD34+ stem cells are the cells that make all the types of blood cells in the body. GVHD is a condition that results from a reaction of transplanted donor T-lymphocytes (a kind of white blood cell) against the recipient's body and organs. Study subjects will be offered treatment involving the use of t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "CD34+ 幹細胞選擇 Phase 1/2（n=14），Alemtuzumab 非主要研究藥物，與 VOD 治療無直接關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "20919852",
+            "title": "Phase I study of dose-escalated busulfan with fludarabine and alemtuzumab as conditioning for allogeneic hematopoietic stem cell transplant: reduced clearance at high doses and occurrence of late sinusoidal obstruction syndrome/veno-occlusive disease.",
+            "authors": [
+              "O'Donnell Peter H",
+              "Artz Andrew S",
+              "Undevia Samir D",
+              "Pai Rish K",
+              "Del Cerro Paula"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2010",
+            "abstract": "Disease recurrence after allogeneic hematopoietic cell transplant (alloHCT) remains common, making improvements in conditioning regimens desirable. A dose-response relationship between busulfan exposure and outcome is known. Using individual real-time monitoring of the busulfan area under the curve (AUC), we aimed to determine the maximum-tolerated busulfan AUC in a conditioning regimen with fludarabine/alemtuzumab. Thirty-six patients with advanced hematologic malignancies were treated. Busulfa",
+            "classification": {
+              "study_type": "Phase 1 Dose-escalation Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22280517",
+            "title": "Clinicopathologic features of late-onset veno-occlusive disease/sinusoidal obstruction syndrome after high dose intravenous busulfan and hematopoietic cell transplant.",
+            "authors": [
+              "Pai Rish K",
+              "van Besien Koen",
+              "Hart John",
+              "Artz Andrew S",
+              "O'Donnell Peter H"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2012",
+            "abstract": "Most cases of veno-occlusive disease/sinusoidal obstruction syndrome (VOD/SOS) occur <21 days after allogeneic hematopoietic stem cell transplant (HCT). Rarely, however, VOD/SOS can occur later, and can be confused with other causes. We report the clinicopathologic features of eight patients with advanced hematologic malignancies developing VOD/SOS >30 days after dose-escalated busulfan/fludarabine/alemtuzumab and HCT. Median time to diagnosis was 52 days (range: 33-77). For seven patients, VOD/",
+            "classification": {
+              "study_type": "Case Series / Clinicopathologic Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17502897",
+            "title": "Prophylactic defibrotide in allogeneic stem cell transplantation: minimal morbidity and zero mortality from veno-occlusive disease.",
+            "authors": [
+              "Dignan F",
+              "Gujral D",
+              "Ethell M",
+              "Evans S",
+              "Treleaven J"
+            ],
+            "journal": "Bone marrow transplantation",
+            "year": "2007",
+            "abstract": "Veno-occlusive disease (VOD) is a common and high-risk complication of allogeneic stem cell transplantation (SCT). Defibrotide has recently been used successfully to treat the disorder. We report on 58 patients who received defibrotide prophylaxis without concurrent heparin. No patients fulfilled the Baltimore criteria for VOD or died of the condition within 100 days of SCT. None of this group developed haemorrhagic complications secondary to defibrotide. These observations suggest that prophyla",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24119002",
+            "title": "Reduced intensity transplantation for congenital amegakaryocytic thrombocytopenia: report of a case and review of the literature.",
+            "authors": [
+              "Woods Gary",
+              "Bajwa Rajinder P S",
+              "Rose Melissa J"
+            ],
+            "journal": "Pediatric transplantation",
+            "year": "2014",
+            "abstract": "CAMT is a bone marrow failure syndrome that usually presents with isolated thrombocytopenia soon after birth. HSCT is curative, and MAC is associated with increased transplant-related morbidity and mortality, especially in the unrelated setting. We used a RIC regimen with alemtuzumab, fludarabine, and melphalan in a seven-month-old patient with CAMT who underwent a MUD HSCT. The transplant was well tolerated with few complications. Neutrophil and platelet engraftment occurred on day +12 and +29,",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24923536",
+            "title": "Reduced-intensity conditioning hematopoietic cell transplantation is an effective treatment for patients with SLAM-associated protein deficiency/X-linked lymphoproliferative disease type 1.",
+            "authors": [
+              "Marsh Rebecca A",
+              "Bleesing Jack J",
+              "Chandrakasan Shanmuganathan",
+              "Jordan Michael B",
+              "Davies Stella M"
+            ],
+            "journal": "Biology of blood and marrow transplantation : journal of the American Society for Blood and Marrow Transplantation",
+            "year": "2014",
+            "abstract": "X-linked lymphoproliferative disease type 1 (XLP1) is a rare immune deficiency caused by mutations in SH2D1A. Allogeneic hematopoietic cell transplantation (HCT) is often performed because of the morbidity and mortality associated with XLP1. There is limited experience using reduced-intensity conditioning (RIC) regimens for these patients. Here we report our 8-year single-center experience. Sixteen consecutive patients diagnosed with XLP1 underwent allogeneic HCT between 2006 and 2013 after a RI",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23131490",
+            "title": "Allogeneic hematopoietic cell transplantation for XIAP deficiency: an international survey reveals poor outcomes.",
+            "authors": [
+              "Marsh Rebecca A",
+              "Rao Kanchan",
+              "Satwani Prakash",
+              "Lehmberg Kai",
+              "Müller Ingo"
+            ],
+            "journal": "Blood",
+            "year": "2013",
+            "abstract": "There have been no studies on patient outcome after allogeneic hematopoietic cell transplantation (HCT) in patients with X-linked inhibitor of apoptosis (XIAP) deficiency. To estimate the success of HCT, we conducted an international survey of transplantation outcomes. Data were reported for 19 patients. Seven patients received busulfan-containing myeloablative conditioning (MAC) regimens. Eleven patients underwent reduced intensity conditioning (RIC) regimens predominantly consisting of alemtuz",
+            "classification": {
+              "study_type": "International Retrospective Survey",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 關係方向警示：現有資料顯示 Alemtuzumab-containing HSCT 調處方案可能導致 VOD（肝靜脈閉塞性疾病/竇狀隙阻塞症候群）而非治療 VOD。PMID 22280517 明確描述「Alemtuzumab 調處後晚發型 VOD」，PMID 17502897 記錄需預防性使用 defibrotide 防範 VOD。此預測可能反映 KG 中藥物-肝臟不良事件節點的拓撲連結，而非治療效益。建議視為安全性訊號，而非再利用機會。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+      "txgnn": {
+        "score": 0.930886447429657,
+        "rank": 30480
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉推測：CD52 在尿路上皮腫瘤浸潤免疫細胞（TIL）上有表達，Alemtuzumab 免疫清除可能暫時重塑腫瘤微環境。然而腎盂肉瘤樣移行細胞癌（sarcomatoid TCC）為極罕見高度侵襲性亞型，腫瘤本身的 CD52 表達資料缺失，且無任何臨床試驗或文獻支持。屬純 KG 拓撲預測，無實驗或臨床基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
+      "txgnn": {
+        "score": 0.9293253421783448,
+        "rank": 30758
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膀胱尿路上皮癌肉瘤樣變異型（sarcomatoid variant）具有雙向分化特徵，免疫治療反應複雜且不可預測。Alemtuzumab 對此罕見亞型無直接機轉支持，CD52 靶向在此腫瘤微環境的作用未知。與腎盂肉瘤樣癌預測同源，可能反映 KG 中尿路上皮腫瘤分類節點的系統性拓撲關聯，而非個別疾病特異性機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "prostatic urethra urothelial carcinoma",
+      "txgnn": {
+        "score": 0.9285348653793336,
+        "rank": 30901
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺尿道尿路上皮癌罕見，通常繼發於膀胱癌，治療策略多依賴膀胱原發病灶的管理。Alemtuzumab 無針對此適應症的任何已發表基礎研究、動物實驗或臨床資料。高 TxGNN 分數可能源自 KG 中尿路上皮癌相關節點群的系統性高分現象。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "renal pelvis papillary urothelial carcinoma",
+      "txgnn": {
+        "score": 0.928149402141571,
+        "rank": 30982
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎盂乳頭狀尿路上皮癌（UTUC）雖在上尿路尿路上皮癌中相對常見，但 Alemtuzumab 的 CD52 靶向對此腫瘤無已知生物學機轉。值得注意：同組四種尿路上皮相關腫瘤的 TxGNN 分數高度相似（0.929-0.931），提示 KG 預測可能為系統性過度泛化，而非真實個別適應症預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "peliosis hepatis",
+      "txgnn": {
+        "score": 0.9220061898231506,
+        "rank": 31959
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "紫斑性肝病（peliosis hepatis）為肝竇狀隙充血擴張的罕見血管性病變，病理機轉涉及內皮細胞損傷，部分病例與免疫抑制（如器官移植後）相關。雖然免疫調節成分存在，但 Alemtuzumab 的深度淋巴球清除可能加重感染易感性而惡化病情，機轉方向不明確。無任何臨床或前臨床資料支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+      "txgnn": {
+        "score": 0.8992772102355957,
+        "rank": 34888
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34605776",
+            "title": "Consensus-Based Guidelines for the Recognition, Diagnosis, and Management of Hemophagocytic Lymphohistiocytosis in Critically Ill Children and Adults.",
+            "authors": [
+              "Hines Melissa R",
+              "von Bahr Greenwood Tatiana",
+              "Beutel Gernot",
+              "Beutel Karin",
+              "Hays J Allyson"
+            ],
+            "journal": "Critical care medicine",
+            "year": "2022",
+            "abstract": "Hemophagocytic lymphohistiocytosis is a hyperinflammatory syndrome that often requires critical care support and remains difficult to diagnose. These guidelines are meant to aid in the early recognition, diagnosis, supportive care, and treatment of patients with hemophagocytic lymphohistiocytosis in ICUs.",
+            "classification": {
+              "study_type": "Consensus Guidelines",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惡性腫瘤相關 HLH（M-HLH）的核心病理為 CD8+ 細胞毒性 T 細胞及 NK 細胞過度活化所形成的細胞激素風暴（高 IFN-γ、IL-6、IL-18）。Alemtuzumab 靶向 CD52（在 T 細胞和 NK 細胞高度表達）可快速清除致病效應淋巴球，從而打斷炎症回饋迴路。M-HLH 標準療法（HLH-2004 方案）效果有限，預後極差（死亡率 >50%），Alemtuzumab 作為 salvage 策略具生物學合理性，但僅有1篇2022年共識指南提及（PMID 34605776），尚無直接 RCT 或 Phase 2 試驗。建議優先完成安全性評估並設計探索性試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hemophagocytic syndrome associated with an infection",
+      "txgnn": {
+        "score": 0.8992772102355957,
+        "rank": 34889
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02255656",
+            "title": "A Long-term Follow-up Study for Multiple Sclerosis Patients Who Have Completed the Alemtuzumab Extension Study (CAMMS03409)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 1062,
+            "start_date": "2015-01-07",
+            "completion_date": "2020-07-15",
+            "brief_summary": "Primary Objective:\n\nTo evaluate long-term safety of alemtuzumab.\n\nSecondary Objectives:\n\n* To evaluate long term efficacy of alemtuzumab.\n* To evaluate the safety profile of participants who received other Disease Modifying Treatment (DMT) following alemtuzumab treatment.\n* To evaluate participant-reported Quality of Life (QoL) outcomes and health resource utilization of participant who received alemtuzumab.\n* To evaluate as needed re-treatment with alemtuzumab and other DMTs.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "MS 患者 Alemtuzumab 長期追蹤研究（Phase 4，n=1062，已完成），主要目的非 HLH。唯大型隊列可提供 Alemtuzumab 深度淋巴球清除後的長期免疫重建資料，有助理解 HLH 治療後的免疫恢復軌跡，作為安全性背景資料有間接參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT00368355",
+            "title": "CD-34 Selection for Ex-vivo T-Cell Depletion of Mobilized Peripheral Blood Stem Cells for Recipients of HLA Haploidentical Related Donor Stem Cell Grafts Receiving Intensive Conditioning",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 46,
+            "start_date": "2000-04",
+            "completion_date": "2016-11",
+            "brief_summary": "Subjects are being asked to participate in this study because treatment of their disease requires them to receive a stem cell transplant. Stem cells or \"mother\" cells are the source of normal blood cells and lead to recovery of blood counts after bone marrow transplantation (BMT). Unfortunately, there is not a perfectly matched stem cell donor (like a sister or brother) and the subject's disease is considered rapidly progressive and does not permit enough time to identify another donor (like som",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "CD34 選擇用於 HSCT Phase 2（n=46），主要研究移植細胞純化策略，與感染相關 HLH 治療無直接關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34605776",
+            "title": "Consensus-Based Guidelines for the Recognition, Diagnosis, and Management of Hemophagocytic Lymphohistiocytosis in Critically Ill Children and Adults.",
+            "authors": [
+              "Hines Melissa R",
+              "von Bahr Greenwood Tatiana",
+              "Beutel Gernot",
+              "Beutel Karin",
+              "Hays J Allyson"
+            ],
+            "journal": "Critical care medicine",
+            "year": "2022",
+            "abstract": "Hemophagocytic lymphohistiocytosis is a hyperinflammatory syndrome that often requires critical care support and remains difficult to diagnose. These guidelines are meant to aid in the early recognition, diagnosis, supportive care, and treatment of patients with hemophagocytic lymphohistiocytosis in ICUs.",
+            "classification": {
+              "study_type": "Consensus Guidelines",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20702104",
+            "title": "Peripheral T-cell lymphoma--not otherwise specified.",
+            "authors": [
+              "Savage Kerry J",
+              "Ferreri Andrés J M",
+              "Zinzani Pier Luigi",
+              "Pileri Stefano A"
+            ],
+            "journal": "Critical reviews in oncology/hematology",
+            "year": "2011",
+            "abstract": "Peripheral T-cell lymphoma, not otherwise specified (PTCL-NOS) does correspond to a heterogeneous group of nodal and extranodal mature T-cell lymphomas, with a low prevalence in Western countries. PTCL-NOS accounts for about 25% of all PTCL, which represent over 15% of all lymphomas. In the lymph node, PTCL-NOS shows paracortical or diffuse infiltrates with effacement of the normal architecture, with a broad cytological spectrum and a frequently observed inflammatory background. Some morphologic",
+            "classification": {
+              "study_type": "Review / Classification",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28621800",
+            "title": "A consensus review on malignancy-associated hemophagocytic lymphohistiocytosis in adults.",
+            "authors": [
+              "Daver Naval",
+              "McClain Kenneth",
+              "Allen Carl E",
+              "Parikh Sameer A",
+              "Otrock Zaher"
+            ],
+            "journal": "Cancer",
+            "year": "2017",
+            "abstract": "Hemophagocytic lymphohistiocytosis (HLH) is a syndrome of severe immune activation and dysregulation resulting in extreme and often life-threatening inflammation. HLH has been well recognized in pediatric populations, and most current diagnostic and therapeutic guidelines are based on pediatric HLH. Recently there has been recognition of HLH in adults, especially secondary to immune deregulation by an underlying rheumatologic, infectious, or malignant condition. This review is focused on maligna",
+            "classification": {
+              "study_type": "Consensus Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18382856",
+            "title": "Adverse consequences of immunostimulation.",
+            "authors": [
+              "Ponce Rafael"
+            ],
+            "journal": "Journal of immunotoxicology",
+            "year": "2008",
+            "abstract": "The therapeutic uses of immunostimulatory agents are generally in the treatments of infections or cancer. The traditional example of vaccination is one form of immunostimulation used in the prevention of pathogenic infections or cancer (e.g., human papillomavirus vaccine). Recombinant cytokines are increasingly used to stimulate immune system function. For example, interferon-alpha (IFNalpha) and interleukin (IL)-2 have been used to treat chronic hepatitis C virus infection and metastatic melano",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31943120",
+            "title": "Adult haemophagocytic lymphohistiocytosis: a Review.",
+            "authors": [
+              "Yildiz Halil",
+              "Van Den Neste Eric",
+              "Defour Jean Philippe",
+              "Danse Etienne",
+              "Yombi J C"
+            ],
+            "journal": "QJM : monthly journal of the Association of Physicians",
+            "year": "2020",
+            "abstract": "Hemophagocytic lymphohistiocytosis (HLH) is a life-threatening disorder characterized by hyperimmune response. The mortality is high despite progress being made in the diagnosis and treatment of the disease.",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34173902",
+            "title": "T Cell-Epstein-Barr Virus-Associated Hemophagocytic Lymphohistiocytosis (HLH) Occurs in Non-Asians and Is Associated with a T Cell Activation State that Is Comparable to Primary HLH.",
+            "authors": [
+              "Shamriz Oded",
+              "Kumar Deepak",
+              "Shim Jenny",
+              "Briones Michael",
+              "Quarmyne Maa-Ohui"
+            ],
+            "journal": "Journal of clinical immunology",
+            "year": "2021",
+            "abstract": "T cell-Epstein-Barr virus-associated hemophagocytic lymphohistiocytosis (T cell-EBV-HLH) is prevalent in East Asia and has poor prognosis. Understanding of this disease is limited, and literature regarding prevalence in North America is scarce. Herein, we summarize our experience.",
+            "classification": {
+              "study_type": "Case Series / Retrospective Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22426581",
+            "title": "Treatment of hemophagocytic lymphohistiocytosis with alemtuzumab in systemic lupus erythematosus.",
+            "authors": [
+              "Keith Michael P",
+              "Pitchford Clovis",
+              "Bernstein Wendy B"
+            ],
+            "journal": "Journal of clinical rheumatology : practical reports on rheumatic & musculoskeletal diseases",
+            "year": "2012",
+            "abstract": "Hemophagocytic lymphohistiocytosis (HLH) is an immune disorder characterized by cytokine dysregulation and uncontrolled activation of T lymphocytes and macrophages. It is categorized as primary when associated with specific genetic mutations or secondary when associated with infections, malignancies, or autoimmune disorders. Clinical features of HLH include unexplained fever, hepatosplenomegaly, pancytopenia, and severe hyperferritinemia. Treatment of primary HLH has become standardized based on",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22359105",
+            "title": "Adult hemophagocytic lymphohistiocytosis with severe pulmonary hypertension and a novel perforin gene mutation.",
+            "authors": [
+              "Gerard Lauren M",
+              "Xing Katharine",
+              "Sherifi Ines",
+              "Granton John",
+              "Barth David"
+            ],
+            "journal": "International journal of hematology",
+            "year": "2012",
+            "abstract": "Adult hemophagocytic lymphohistiocytosis (HLH) is a rare and deadly hyperinflammatory syndrome presenting both diagnostic and therapeutic challenges. HLH may be primary, due to an underlying genetic abnormality, and/or secondary to infection, malignancy, or rheumatologic conditions. We describe a case of HLH-associated severe pulmonary hypertension paralleling Epstein-Barr virus (EBV) reactivation in a 52-year-old male in whom a novel perforin missense mutation was found (PRF1 1517C>T). Although",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29795419",
+            "title": "Long-term aprepitant for nausea and vomiting associated with gastroparesis in hematopoietic stem cell transplantation.",
+            "authors": [
+              "Jacobse Justin",
+              "Mensink Harmen",
+              "van der Stoep-Yap M Y Eileen C",
+              "Kollen Wouter J W",
+              "Bresters Dorine"
+            ],
+            "journal": "Bone marrow transplantation",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25420811",
+            "title": "Histoplasmosis in renal transplant patients in an endemic area at a reference hospital in Medellin, Colombia.",
+            "authors": [
+              "Nieto-Ríos J F",
+              "Serna-Higuita L M",
+              "Guzman-Luna C E",
+              "Ocampo-Kohn C",
+              "Aristizabal-Alzate A"
+            ],
+            "journal": "Transplantation proceedings",
+            "year": "2014",
+            "abstract": "Histoplasmosis is an uncommon systemic fungal infection, but it is potentially fatal in immunosuppressed populations. In Latin America, which is considered an endemic area for this mycosis, there have been no published reports regarding the incidence, clinical presentation, morbidity, and mortality of histoplasmosis in renal transplant patients. The objective of this study was to describe cases of histoplasmosis in renal transplant patients treated at the Pablo Tobon Uribe Hospital (Medellin, Co",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染相關 HLH（reactive HLH / infection-associated HLH）中，病毒誘發（尤其 EBV/CMV）的 CD8+ T 細胞及 NK 細胞失控活化是核心機轉。Alemtuzumab 的 CD52 靶向可快速清除這些過度活化的效應淋巴球，理論上直接干預發病機轉。關鍵直接證據：PMID 22426581（2012）報告成功以 Alemtuzumab 治療 SLE 合併 HLH，提供重要概念驗證（proof-of-concept）。PMID 34173902 進一步描述 T/EBV 相關 HLH 在非亞裔族群的特徵，支持 CD52 清除策略的生物學基礎。然而現有臨床試驗（NCT02255656、NCT00368355）均非針對 HLH 設計，證據仍限於個案層級。相較於惡性腫瘤相關 HLH，感染相關 HLH 在快速控制炎症後預後相對較佳，探索性試驗設計可行性較高。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hepatic infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hepatic infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hepatic infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "syndrome with combined immunodeficiency"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "syndrome with combined immunodeficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "syndrome with combined immunodeficiency"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hepatic veno-occlusive disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hepatic veno-occlusive disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hepatic veno-occlusive disease"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "renal pelvis papillary urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "renal pelvis papillary urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "renal pelvis papillary urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "peliosis hepatis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "peliosis hepatis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "peliosis hepatis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alemtuzumab",
+        "disease": "hemophagocytic syndrome associated with an infection"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    }
+  ]
+}

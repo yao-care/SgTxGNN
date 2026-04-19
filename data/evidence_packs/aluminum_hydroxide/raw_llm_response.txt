@@ -1,0 +1,426 @@
+```json
+{
+  "drug": "Aluminum hydroxide",
+  "drugbank_id": "DB06723",
+  "analysis_date": "2026-04-05",
+  "analysis_note": "市場狀態標記為「未上市」，original_indications 為空，推測為新加坡 HSA 單一成分登記缺失，但全球文獻支持其抗酸劑用途。以下評估基於全球證據體系。",
+  "indications": [
+    {
+      "disease_name": "active peptic ulcer disease",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "evidence_summary": "具備多項歷史對照試驗（含 RCT）支持，但均為 1980s-1990s 舊世代研究，缺乏符合現代 ICH E6 標準的 Phase 3 RCT。機轉清晰，為制酸劑標準適應症，但現代臨床已被 PPI/H2RA 取代。",
+      "mechanistic_link": "Al(OH)₃ 中和胃酸（H⁺ + Al(OH)₃ → AlCl₃ + H₂O），提升胃內 pH，降低胃蛋白酶活性，並具細胞保護作用（吸附膽汁酸、促進前列腺素生成），有利潰瘍黏膜修復。",
+      "guardrails": [
+        "長期使用可能導致低磷血症、骨軟化症（PMID 7431592）",
+        "便秘與鋁蓄積（腎功能不全患者禁用）",
+        "現代指引優先推薦 PPI 根治 H. pylori",
+        "鋁離子可能與多種藥物產生吸附交互作用"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7034155",
+          "year": "1981",
+          "study_type": "RCT (三臂：制酸劑 vs 西咪替丁 vs 安慰劑)",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "直接比較含鋁制酸劑與安慰劑治療活動性消化性潰瘍，有對照組設計，為最強直接證據"
+        },
+        {
+          "pmid": "6086186",
+          "year": "1984",
+          "study_type": "RCT / 臨床對照試驗",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "制酸劑合併抗膽鹼藥物治療十二指腸潰瘍，含鋁制酸劑為主要干預組"
+        },
+        {
+          "pmid": "1769429",
+          "year": "1991",
+          "study_type": "藥理/臨床機轉研究",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接探討含鋁制酸劑之胃內 pH 調控與細胞保護機轉，支持機轉合理性"
+        },
+        {
+          "pmid": "1526089",
+          "year": "1992",
+          "study_type": "多中心 RCT (nizatidine vs 安慰劑)",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "主要干預為 H2RA，鋁制酸劑作為比較基準或輔助，間接支持制酸劑在潰瘍治療的角色"
+        },
+        {
+          "pmid": "22950493",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "回顧胃黏膜細胞保護機轉，支持鋁制酸劑的前列腺素途徑保護作用"
+        },
+        {
+          "pmid": "35720246",
+          "year": "2022",
+          "study_type": "體外藥理研究",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "評估制酸劑中和能力，為藥學特性研究，非臨床療效研究"
+        },
+        {
+          "pmid": "2986275",
+          "year": "1985",
+          "study_type": "臨床對照試驗",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "sucralfate vs alginate/antacid 比較，含鋁制酸劑為對照組，間接支持療效"
+        },
+        {
+          "pmid": "37146",
+          "year": "1979",
+          "study_type": "Expert Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "舊世代制酸劑療法綜述，提供歷史背景但科學嚴謹度有限"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastroduodenitis",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "evidence_summary": "文獻包含 1949-2017 年的臨床報告與觀察性研究，機轉與消化性潰瘍高度重疊。缺乏以 gastroduodenitis 為主要終點的 RCT，但鑒於機轉一致性，臨床可行性高。",
+      "mechanistic_link": "胃十二指腸炎的病理核心為胃酸-黏膜防禦失衡。Al(OH)₃ 中和過剩胃酸、吸附膽汁酸、促進黏液分泌，減少黏膜刺激，有利於急慢性胃十二指腸炎症狀緩解。",
+      "guardrails": [
+        "需排除 H. pylori 感染（需抗菌治療）",
+        "NSAID 誘發的胃十二指腸炎需同時停藥",
+        "慢性使用需監測磷代謝"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18103089",
+          "year": "1949",
+          "study_type": "早期臨床報告",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "以 Al(OH)₃ 治療胃十二指腸潰瘍的最早臨床記錄之一，歷史意義強但方法學薄弱"
+        },
+        {
+          "pmid": "15401679",
+          "year": "1949",
+          "study_type": "早期臨床報告",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "氫氧化鋁凝膠治療胃十二指腸潰瘍，歷史最早直接用藥記錄"
+        },
+        {
+          "pmid": "1940188",
+          "year": "1991",
+          "study_type": "形態學/組織病理研究",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "Maalox TC（含鋁制酸劑）對胃十二指腸黏膜形態與超微結構影響的直接研究"
+        },
+        {
+          "pmid": "2205899",
+          "year": "1990",
+          "study_type": "臨床研究",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "制酸劑在胃潰瘍的細胞保護證據，支持黏膜修復機轉"
+        },
+        {
+          "pmid": "13956663",
+          "year": "1962",
+          "study_type": "臨床對照研究",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "皮質素誘發之胃十二指腸潰瘍的鋁制酸劑預防，為藥物誘發胃炎的間接支持"
+        },
+        {
+          "pmid": "28164737",
+          "year": "2017",
+          "study_type": "動物實驗 + 臨床評估",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "NSAID 誘發胃十二指腸炎模型，鋁制酸劑為對照，間接支持其抗潰瘍活性"
+        }
+      ]
+    },
+    {
+      "disease_name": "peptic ulcer perforation",
+      "txgnn_score": 0.9954,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "evidence_summary": "穿孔性消化性潰瘍為外科急症，需緊急手術干預。唯一臨床試驗（NCT00854776）研究阿斯匹靈與心臟病患之潰瘍併發症發生率，並非測試制酸劑治療穿孔，與本適應症無直接關聯。無文獻支持。",
+      "mechanistic_link": "【機轉不符】Al(OH)₃ 為制酸劑，可緩解黏膜酸蝕，理論上有助預防穿孔發生，但對已穿孔之病灶無治療作用。穿孔需手術修補，而非制酸治療。",
+      "contraindication_flags": [
+        "穿孔為需立即手術干預的急性外科情況",
+        "制酸劑無法修復腹膜污染或穿孔缺損",
+        "延誤手術可能增加死亡率"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00854776",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 300,
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，評估阿斯匹靈使用者中消化性潰瘍及其併發症（含穿孔）的發生率。研究主體非鋁制酸劑，穿孔為觀察終點而非治療終點，與評估 Al(OH)₃ 治療穿孔無關。狀態 UNKNOWN 代表資料可信度低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastrojejunal ulcer",
+      "txgnn_score": 0.9954,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "evidence_summary": "文獻包含「Controlled trials」（PMID 324863）及雙盲 RCT（PMID 55333），以含鋁制酸劑為研究藥物或對照，且跨越 1947-1999 年。胃空腸潰瘍多發生於 Billroth II 術後，酸度仍為關鍵致病因素，Al(OH)₃ 之酸中和作用機轉合理。",
+      "mechanistic_link": "胃空腸潰瘍（吻合口潰瘍）的核心機轉為殘存壁細胞分泌過多胃酸侵蝕吻合口黏膜。Al(OH)₃ 中和胃酸可減少黏膜損傷，但效果弱於 PPI。尚有吸附胰液保護黏膜的輔助機轉。",
+      "guardrails": [
+        "Zollinger-Ellison syndrome 誘發者需更強力酸抑制（PPI）",
+        "需評估是否需再次手術干預",
+        "鋁制酸劑效力不足以取代 PPI 作為一線治療"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "324863",
+          "year": "1977",
+          "study_type": "Controlled Trials 系統回顧",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "直接針對含鋁氫氧化物凝膠治療消化性潰瘍（含胃空腸潰瘍）的對照試驗回顧，為最高級別直接證據"
+        },
+        {
+          "pmid": "55333",
+          "year": "1976",
+          "study_type": "雙盲 RCT",
+          "tier": "1",
+          "relevance_grade": "A",
+          "reasoning": "含 Al(OH)₃/Mg(OH)₂ 複方（Oxaine M）用於十二指腸潰瘍疼痛的雙盲對照試驗，直接評估含鋁制酸劑療效"
+        },
+        {
+          "pmid": "15425465",
+          "year": "1950",
+          "study_type": "大型臨床病例系列（n=125）",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "125 例消化性潰瘍（含胃空腸潰瘍）以 Al(OH)₃ + Mg trisilicate 治療，早期最大規模臨床系列"
+        },
+        {
+          "pmid": "10466876",
+          "year": "1999",
+          "study_type": "體外/細胞研究",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "Al(OH)₃-Mg(OH)₂ 複方對 H. pylori 黏附及 IL-8 誘導的影響，支持鋁制酸劑的抗炎機轉"
+        },
+        {
+          "pmid": "8641951",
+          "year": "1996",
+          "study_type": "藥理/交叉臨床研究",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "比較不同制酸劑配方的胃酸控制效力，Al(OH)₃/Mg(OH)₂ 為主要受試藥物"
+        }
+      ]
+    },
+    {
+      "disease_name": "hiatus hernia (disease)",
+      "txgnn_score": 0.9878,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "evidence_summary": "僅 4 篇文獻，主要涉及 GERD 與裂孔疝的管理綜述，以及一篇制酸劑過量使用副作用報告。無直接 RCT 或臨床試驗以裂孔疝為主要終點。Al(OH)₃ 對症狀緩解有間接支持，但裂孔疝為解剖異常，制酸治療只能緩解症狀而非根治。",
+      "mechanistic_link": "裂孔疝導致 LES 功能障礙，引起胃食道逆流。Al(OH)₃ 中和逆流胃酸，緩解灼熱感，但無法矯正解剖缺陷或恢復 LES 張力。藻酸鹽-制酸劑複方（PMID 28859383）可形成物理屏障，效果優於單純制酸劑。",
+      "research_questions": [
+        "Al(OH)₃ 在 GERD 合併裂孔疝患者的症狀緩解效果是否優於安慰劑？",
+        "與 PPI 或藻酸鹽複方相比的相對療效？",
+        "術前症狀控制的輔助角色？"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28859383",
+          "year": "2017",
+          "study_type": "RCT（藻酸鹽 vs 制酸劑，GERD 合併裂孔疝）",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "直接研究裂孔疝患者的制酸治療，但主角為藻酸鹽複方而非單純 Al(OH)₃，間接支持制酸策略的有效性"
+        },
+        {
+          "pmid": "24355558",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "GERD 更新綜述，包含裂孔疝處置，制酸劑在指引中角色次要"
+        },
+        {
+          "pmid": "7431592",
+          "year": "1980",
+          "study_type": "Case Report / 副作用報告",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "過量制酸劑引發骨軟化症的病例報告，警示長期用藥風險，與療效無關"
+        },
+        {
+          "pmid": "7831874",
+          "year": "1994",
+          "study_type": "臨床觀察研究",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "第三代制酸劑製劑用於消化不良（含裂孔疝相關症狀），觀察性資料，間接支持"
+        }
+      ]
+    },
+    {
+      "disease_name": "achlorhydria",
+      "txgnn_score": 0.9871,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "evidence_summary": "僅 1 篇文獻（PMID 2033221），探討持續性無胃酸狀態與消化性潰瘍出血的關係，並非以 Al(OH)₃ 治療無胃酸症。機轉上存在根本矛盾：無胃酸症患者胃酸已缺乏，給予制酸劑不僅無益，更可能加重消化功能障礙。",
+      "mechanistic_link": "【機轉矛盾】無胃酸症（achlorhydria）定義為胃酸分泌缺乏（pH > 4 持續）。Al(OH)₃ 為制酸劑，用於降低已存在的過多胃酸。在無胃酸症患者中使用制酸劑，缺乏生理靶標，可能加重食物消化障礙及細菌過生長風險。TxGNN 高分可能源於知識圖譜中胃部疾病的強連結，而非真實治療邏輯。",
+      "contraindication_flags": [
+        "機轉根本矛盾，不應推進臨床評估",
+        "可能加重胃酸缺乏相關的消化障礙",
+        "增加小腸細菌過生長（SIBO）風險"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2033221",
+          "year": "1991",
+          "study_type": "回顧性臨床研究",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究無胃酸狀態在出血性消化性潰瘍中的角色，並非評估 Al(OH)₃ 對無胃酸症的治療，與本適應症無直接相關性"
+        }
+      ]
+    },
+    {
+      "disease_name": "pylorospasm",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "evidence_summary": "無任何文獻或臨床試驗支持。幽門痙攣的主要治療為抗膽鹼藥物、肌肉鬆弛劑或內視鏡干預，Al(OH)₃ 缺乏直接鬆弛幽門平滑肌的機轉。TxGNN 高分可能來自幽門-胃酸的知識圖譜鄰近關係。",
+      "mechanistic_link": "【機轉不足】幽門痙攣主要與幽門括約肌功能失調有關，並非單純酸性環境問題。雖然胃酸刺激可誘發幽門反射性痙攣，Al(OH)₃ 的中和作用在理論上可減少酸刺激，但缺乏臨床驗證。初級治療應為解痙劑或神經調節藥物。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastric dilatation",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "evidence_summary": "唯一臨床試驗（NCT06348420）評估抗逆流黏膜瓣膜成形術（ARMV）vs PPI，與 Al(OH)₃ 治療胃擴張無關。胃擴張的病因多元（機械性、麻痺性），制酸治療無針對性機轉。",
+      "mechanistic_link": "【機轉缺乏】急性胃擴張需胃腸減壓（鼻胃管）和病因治療，制酸劑不能改善胃腸動力或結構性擴張。慢性胃擴張（如糖尿病胃輕癱）同樣以促動力藥物為主，Al(OH)₃ 不在標準治療範疇。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06348420",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 74,
+          "relevance_grade": "C",
+          "reasoning": "研究抗逆流手術 vs PPI，與評估 Al(OH)₃ 治療胃擴張毫無直接關聯。胃擴張在此可能為 GERD 相關症狀的描述詞，而非獨立治療終點。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Dieulafoy lesion",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "evidence_summary": "無任何文獻或臨床試驗支持。Dieulafoy 病變為黏膜下異常擴張的動脈，出血治療以內視鏡止血（夾閉、硬化療法、熱凝）或手術為主，制酸治療無直接止血機轉。",
+      "mechanistic_link": "【機轉不符】Dieulafoy 病變出血為血管異常，非酸性腐蝕所致，制酸劑對血管病變無治療作用。雖然維持鹼性胃環境有助凝血塊穩定（血小板聚集最適 pH > 6），但 Al(OH)₃ 的酸中和效力遠不足以持續維持此 pH，應使用靜脈 PPI 注射。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cascade stomach",
+      "txgnn_score": 0.9859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "evidence_summary": "無任何文獻或臨床試驗支持。瀑布狀胃（cascade stomach）為胃底折疊於胃竇上的解剖變異，通常無症狀或需體位改變，為解剖問題而非藥物治療適應症。",
+      "mechanistic_link": "【機轉缺乏】瀑布狀胃為解剖構型問題，Al(OH)₃ 無法改變胃的解剖形態。若合併逆流症狀，制酸劑可能提供症狀緩解，但本適應症的治療邏輯極為薄弱，TxGNN 高分源於胃部疾病叢集的知識圖譜誤判。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "rank": 1,
+        "disease": "active peptic ulcer disease",
+        "rationale": "最強文獻支持，含多項對照試驗，機轉清晰，歷史使用確立"
+      },
+      {
+        "rank": 2,
+        "disease": "gastrojejunal ulcer",
+        "rationale": "含控制試驗與雙盲 RCT，胃空腸潰瘍酸相關機轉直接"
+      },
+      {
+        "rank": 3,
+        "disease": "gastroduodenitis",
+        "rationale": "機轉與消化性潰瘍高度重疊，大量歷史文獻支持，臨床可行"
+      }
+    ],
+    "medium_priority_indications": [
+      {
+        "rank": 4,
+        "disease": "hiatus hernia (disease)",
+        "rationale": "間接證據支持，需進一步研究明確 Al(OH)₃ 在此族群的淨效益"
+      }
+    ],
+    "not_recommended": [
+      "achlorhydria（機轉矛盾）",
+      "peptic ulcer perforation（外科急症，制酸無效）",
+      "pylorospasm（無證據，機轉薄弱）",
+      "gastric dilatation（無關試驗，機轉缺乏）",
+      "Dieulafoy lesion（血管病變，非酸蝕）",
+      "cascade stomach（解剖問題，非藥物適應症）"
+    ],
+    "key_safety_concerns": [
+      "低磷血症（長期使用 > 4 週）",
+      "骨軟化症（老年人、腎功能不全）",
+      "鋁蓄積神經毒性（CKD 患者禁用）",
+      "與 fluoroquinolones、tetracyclines、iron 等多種藥物吸附交互作用",
+      "便秘（通常與 Mg(OH)₂ 複方以平衡腸道效應）"
+    ]
+  }
+}
+```
+
+---
+
+## 評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| Active peptic ulcer disease | 0.9964 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| Gastrojejunal ulcer | 0.9954 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| Gastroduodenitis | 0.9959 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| Hiatus hernia | 0.9878 | L4 | S1 | 🔬 Research Question |
+| Peptic ulcer perforation | 0.9954 | L5 | S0 | ❌ Hold（外科急症） |
+| Achlorhydria | 0.9871 | L5 | S0 | ❌ Hold（機轉矛盾） |
+| Pylorospasm | 0.9859 | L5 | S0 | ❌ Hold |
+| Gastric dilatation | 0.9859 | L5 | S0 | ❌ Hold |
+| Dieulafoy lesion | 0.9859 | L5 | S0 | ❌ Hold |
+| Cascade stomach | 0.9859 | L5 | S0 | ❌ Hold |
+
+> ⚠️ **重要提醒**：TxGNN 高分（0.985-0.996）對所有胃部疾病高度集中，反映知識圖譜中「胃部」節點的強聚類效應，而非真實臨床療效差異。**評分相近不代表臨床建議相同**，機轉與現有臨床證據的獨立評估至關重要。

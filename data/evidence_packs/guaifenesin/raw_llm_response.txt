@@ -1,0 +1,229 @@
+## Guaifenesin (DB00874) 藥物再利用證據分析
+
+> **分析背景**：Guaifenesin 為全球廣泛使用的祛痰劑／黏液溶解劑，其核心機轉為稀釋呼吸道分泌物並促進黏膜纖毛清除。市場狀態「未上市」（台灣 NHI 收載情形）不代表全球無上市紀錄。本次分析針對 TxGNN 預測之 10 項適應症逐一評估。
+
+---
+
+```json
+{
+  "drug": "Guaifenesin",
+  "drugbank_id": "DB00874",
+  "analysis_date": "2026-04-04",
+  "core_moa_note": "雖原始資料標記 [Data Gap]，Guaifenesin 藥理已高度確立：作用於呼吸道上皮，抑制 MUC5AC 黏液糖蛋白表達、降低黏液黏度並增強黏膜纖毛傳輸速率。",
+  "indications": [
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Guaifenesin 之祛痰機轉與鼻腔黏液清除高度吻合：鼻腔疾病（慢性鼻炎、鼻竇炎）核心病理之一即為黏膜纖毛功能障礙及黏液滯留，Guaifenesin 可直接針對此病理機制介入。NCT01364467 為直接針對兒童慢性鼻炎之口服 Guaifenesin Phase 2 試驗，具高度直接相關性。文獻雖為間接支持（CF 鼻竇炎、嗓音使用者），均於臨床情境中使用 Guaifenesin 管理鼻腔黏液。注意：本試驗為 Pilot Study（n=30），尚需較大規模驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01364467",
+          "relevance_grade": "A",
+          "reasoning": "研究主題直接為『口服 Guaifenesin 對兒童慢性鼻炎之效果』，Phase 2 已完成（COMPLETED）。高度直接相關性。惟 Pilot Study 設計、樣本量 n=30 統計力受限，結果需謹慎解讀。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "9065342",
+          "title": "Management of sinusitis in adult cystic fibrosis (1997)",
+          "study_type": "Review / Clinical Guidance",
+          "tier": "3",
+          "note": "成人囊腫性纖維化（CF）之鼻竇炎管理，將 Guaifenesin 列為輔助祛痰藥物之一，間接支持鼻腔黏液清除效果，但非 RCT 直接證據。"
+        },
+        {
+          "pmid": "12487405",
+          "title": "Hidden respiratory allergies in voice users (2002)",
+          "study_type": "Expert Review",
+          "tier": "3",
+          "note": "嗓音使用者隱性呼吸道過敏之治療策略，提及 Guaifenesin 用於黏液管理，臨床情境間接相關，證據強度較低。"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上 Guaifenesin 可降低咽喉分泌物黏度，緩解急性喉咽炎之黏液症狀，生物合理性中等。然而完全無臨床試驗或文獻支持，TxGNN 極高分數（0.9998，幾乎與 nasal cavity disease 持平）更可能反映圖譜拓撲鄰近性（兩者同屬上呼吸道疾病節點群），而非獨立臨床訊號。在獲得任何臨床前期資料前不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "faucial diphtheria",
+      "txgnn_score": 0.9954,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 低生物合理性警示。白喉（Faucial Diphtheria）為 Corynebacterium diphtheriae 外毒素介導之感染，標準治療為抗毒素加抗生素。Guaifenesin 無已知抗菌活性、無毒素中和效果、無免疫調節機轉。高 TxGNN 分數很可能為知識圖譜中上呼吸道疾病節點群集效應之假陽性。此適應症不具生物合理性基礎，應排除後續分析。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cervical disc degenerative disorder",
+      "txgnn_score": 0.9950,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 低生物合理性警示。頸椎間盤退化涉及細胞外基質蛋白聚醣降解、纖維環破裂等骨科病理，Guaifenesin 無任何已知軟骨保護或基質代謝調節機轉。歷史上曾有爭議性假說（St. Amand Protocol）主張 Guaifenesin 治療纖維肌痛，推測透過磷酸鈣排出改善結締組織，但此假說已於 2001 年 JAMA 發表之 RCT（Bennett et al.）中被完全否定。此適應症不具可追溯之機轉基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "papillary conjunctivitis",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳頭狀結膜炎主由過敏反應（肥大細胞/嗜酸性白血球介導）或隱形眼鏡機械刺激所致，治療以局部抗組織胺、肥大細胞穩定劑為主。Guaifenesin 無已知眼部抗炎或黏液溶解效果，生物合理性極低，無臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tracheal disease",
+      "txgnn_score": 0.9883,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "✅ 機轉高度合理。氣管疾病（氣管炎、氣管支氣管炎、黏膜清除障礙）之核心病理與 Guaifenesin 作用機制直接相符：PMID 23113953（2012）以原代人類氣道上皮細胞實驗，量化證明 Guaifenesin 可抑制 MUC5AC 表達並顯著改善黏膜纖毛傳輸速率，為迄今最高品質之機轉直接證據。惟現有臨床試驗均非針對 Guaifenesin，且可用之臨床文獻以 1970-80 年代舊資料為主，建議列為研究問題優先進行系統性文獻回顧及現代 Phase 2 試驗設計。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02982876",
+          "relevance_grade": "C",
+          "reasoning": "研究主題為氣道支架治療過度動態氣道塌陷（EDAC），屬機械介入而非藥物治療。與 Guaifenesin 無任何關聯，僅因疾病分類（tracheal disease）而被納入，為資料庫分類性偽相關。"
+        },
+        {
+          "nct_id": "NCT04471597",
+          "relevance_grade": "C",
+          "reasoning": "研究局部 Bupivacaine 對清醒拔管反應之影響，屬麻醉操作程序研究，研究對象為氣管手術患者，與 Guaifenesin 藥物效果無關。"
+        },
+        {
+          "nct_id": "NCT07384546",
+          "relevance_grade": "C",
+          "reasoning": "自主呼吸保留麻醉策略研究（尚未招募），屬外科麻醉管理，與 Guaifenesin 無關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23113953",
+          "title": "Effects of guaifenesin, N-acetylcysteine, and ambroxol on MUC5AC and mucociliary transport (2012)",
+          "study_type": "In Vitro Mechanistic Study",
+          "tier": "2",
+          "note": "🔑 關鍵機轉證據。原代人類支氣管上皮細胞實驗，直接比較三種藥物對 MUC5AC 基因表達及黏膜纖毛傳輸速率之影響，方法學嚴謹，為本適應症最具說服力之機轉佐證。"
+        },
+        {
+          "pmid": "30124173",
+          "title": "Challenges of treating tracheobronchitis in laryngectomee (2018)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "喉切除術後氣管支氣管炎之治療挑戰，Guaifenesin 作為輔助祛痰藥物被提及於臨床情境，屬個案佐證，證據強度有限。"
+        },
+        {
+          "pmid": "7017490",
+          "title": "Clinical evaluation in bronchopneumopathies (1981)",
+          "study_type": "Clinical Trial (Historical)",
+          "tier": "3",
+          "note": "1981 年支氣管肺病患者雙製劑比較研究，含 Guaifenesin 成分，方法學標準不符現代 RCT 規範，年代久遠，參考價值受限。"
+        },
+        {
+          "pmid": "1130082",
+          "title": "Treatment of pseudocroup syndrome (1975)",
+          "study_type": "Clinical Study (Historical)",
+          "tier": "3",
+          "note": "1975 年假性哮吼症候群治療報告，含 Guaifenesin 製劑，超過 50 年舊資料，僅供歷史參考。"
+        },
+        {
+          "pmid": "4765427",
+          "title": "Mucolytic and bronchodilator combination therapy (1973)",
+          "study_type": "Clinical Trial (Historical)",
+          "tier": "3",
+          "note": "1973 年黏液溶解劑與支氣管擴張劑合併治療研究，Guaifenesin 相關，方法學極度受限，歷史背景文獻。"
+        }
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 生物合理性不足。三叉神經自主神經頭痛（TAC：叢集性頭痛、SUNCT/SUNA、陣發性偏頭痛等）的發病機制涉及下視丘激活、三叉神經血管反射及副交感神經通路，標準治療為 CGRP 拮抗劑、Verapamil、Sumatriptan 等。Guaifenesin 無任何已知神經調節、血管收縮或 CGRP 相關活性，無生物合理性支持，應排除後續分析。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "anorectal stricture",
+      "txgnn_score": 0.9863,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 低生物合理性警示。肛門直腸狹窄主因為術後纖維化、放射性損傷或克隆氏病，治療核心為機械性擴張或抗纖維化。Guaifenesin 無抗纖維化、平滑肌鬆弛（腸道）或黏膜修復機轉支持。此為典型 TxGNN 圖譜拓撲假陽性，不具推進價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "anal polyp",
+      "txgnn_score": 0.9861,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 最低生物合理性評估。肛門息肉為腸道上皮細胞增生性或炎性病變，Guaifenesin 無已知抗增生、抗腫瘤或腸道上皮調節機轉。TxGNN 預測完全無文獻支持，此適應症應視為圖譜噪訊並排除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "點狀上皮角膜結膜炎為角膜表面上皮損傷，病因包括乾眼症、病毒感染（Adenovirus）或藥物毒性，治療以潤滑眼藥水、局部抗病毒藥為主。Guaifenesin 無已知角膜保護、眼表抗炎或淚液調節機轉，生物合理性極低，無臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **nasal cavity disease** | 0.9998 | **L3** | **S2** | ✅ Proceed with Guardrails |
+| **tracheal disease** | 0.9883 | **L3** | **S1** | 🔬 Research Question |
+| acute laryngopharyngitis | 0.9998 | L5 | S0 | ⛔ Hold |
+| faucial diphtheria | 0.9954 | L5 | S0 | ⛔ Hold |
+| cervical disc degenerative disorder | 0.9950 | L5 | S0 | ⛔ Hold |
+| papillary conjunctivitis | 0.9927 | L5 | S0 | ⛔ Hold |
+| trigeminal autonomic cephalalgia | 0.9870 | L5 | S0 | ⛔ Hold |
+| anorectal stricture | 0.9863 | L5 | S0 | ⛔ Hold |
+| anal polyp | 0.9861 | L5 | S0 | ⛔ Hold |
+| punctate epithelial keratoconjunctivitis | 0.9848 | L5 | S0 | ⛔ Hold |
+
+---
+
+## 🔍 關鍵洞察
+
+### 1. TxGNN 分數的可靠性問題
+本資料集呈現明顯的**圖譜拓撲偽陽性**模式：
+- **呼吸道相關適應症**（nasal cavity, tracheal）：高分數＋有文獻支持 ✅
+- **非呼吸道適應症**（faucial diphtheria, anal polyp, cervical disc 等）：高分數但完全無文獻，且機轉無從解釋 ❌
+- 結論：TxGNN 對本藥物的高分數預測需以**呼吸道黏膜為核心過濾標準**，非呼吸道適應症應視為噪訊。
+
+### 2. 優先推進路徑
+```
+nasal cavity disease（S2）→ 擴大 NCT01364467 規模（成人 + 大樣本 Phase 2/3）
+tracheal disease（S1）→ 基於 PMID 23113953 機轉證據設計現代 Phase 2 RCT
+```
+
+### 3. 研究缺口警示
+- `original_moa: [Data Gap]` 雖有標記，但 Guaifenesin 藥理學已充分確立；此缺口不影響機轉評估
+- `ddi_count: 0` 安全性訊號良好，支持 S2 推進決策
+- 建議補充：Guaifenesin 在台灣之藥物動力學數據（亞裔族群可能代謝差異）
+
+> ⚕️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經正式臨床試驗驗證方可應用於臨床。

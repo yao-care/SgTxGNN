@@ -1,0 +1,176 @@
+```json
+{
+  "drug": "Insulin lispro",
+  "drugbank_id": "DB00046",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Insulin lispro 為全球已核准之速效胰島素類似物（Humalog），MoA 標記 [Data Gap] 疑為資料缺漏，實際機轉明確：與胰島素受體結合→促進葡萄糖攝取、抑制肝醣新生、促進脂肪/蛋白質合成。市場狀態「未上市」推測為新加坡本地登記缺漏，非全球狀態。",
+  "indications": [
+    {
+      "disease_name": "autoimmune oophoritis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自身免疫性卵巢炎與胰島素無明確機轉連結。TxGNN 可能透過「自身免疫」共病網路節點產生間接評分，但缺乏生物學合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["僅有 AI 預測分數，無任何臨床或實驗室佐證", "機轉關聯性弱"]
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Thiamine-responsive megaloblastic anemia syndrome（TRMA，SLC19A2 突變）三聯症之一為青少年型糖尿病，患者胰島 β 細胞功能受損需胰島素替代治療。Insulin lispro 作為速效製劑在此族群具生物學合理性，屬「疾病特徵性胰島素依賴」間接證據，非直接再利用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["屬疾病本身需胰島素替代之情境，非狹義再利用", "罕見病，臨床試驗設計困難"]
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "僵硬肢體症候群（Stiff Person Spectrum）與 anti-GAD65 抗體相關，GAD65 同時為 T1DM 自身抗原，形成免疫網路共病節點；但胰島素本身對神經肌肉僵硬無直接治療機轉，TxGNN 評分來自自身免疫共病路徑，非因果機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["GAD65 抗體共病路徑為間接關聯", "無臨床合理使用情境"]
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同 focal stiff limb syndrome。Anti-GAD65 介導的自身免疫網路使 TxGNN 評分極高（與 focal 型相同分數），但胰島素對 GABA 能神經元抑制不足的核心病理無治療效果。標準治療為免疫調節（靜脈注射免疫球蛋白、血漿置換）或 Diazepam/Baclofen。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["TxGNN 可能過度依賴 anti-GAD 共病節點", "治療方向與胰島素無關"]
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Opsismodysplasia 由 INPPL1（SHIP2）突變所致。SHIP2 為磷酸肌醇 5-磷酸酶，負向調節胰島素訊號（PI3K/Akt 軸）；理論上抑制 SHIP2 可增強胰島素敏感性，但此為反向思考——Insulin lispro 是受體激動劑，在 SHIP2 失功能背景下胰島素訊號已增強，額外給予胰島素的治療邏輯不成立，且主要症狀為骨骼發育異常。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["機轉方向性矛盾", "骨骼表型與胰島素治療無關聯"]
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 注意方向性問題：胰島素注射本身（包含 lispro）是藥物性局部脂肪萎縮/脂肪增生的已知成因（注射部位輪換不當、免疫反應）。TxGNN 評分可能反映的是「病因關聯」而非「治療潛力」。文獻中有報告指出由舊製劑換用高純度 lispro 可部分改善脂肪萎縮，但此屬製劑品質問題，非再利用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["⚠️ 可能為不良反應因果關聯而非治療效益", "需釐清 TxGNN 邊方向（cause vs. treat）"]
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "胰臟先天缺如導致絕對胰島素缺乏，邏輯上必需外源性胰島素替代（等同新生兒/嬰幼兒永久性胰島素依賴糖尿病）。Insulin lispro 作為速效製劑可配合餵食進行精確劑量調整，具生物學合理性。然而此為「胰島素替代治療的適應延伸」，非傳統意義之老藥新用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11727406",
+          "title": "Insulin therapy in type 2 diabetes (2001)",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_assessment": "C — 內容為 T2DM 胰島素使用，與胰臟先天缺如無直接關聯；TxGNN 文獻匹配可能為關鍵字誤配（'insulin therapy'），不構成胰臟先天缺如的直接證據"
+        },
+        {
+          "pmid": "12150359",
+          "title": "Insulin therapy in type 2 diabetes (2002)",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_assessment": "C — 同上，T2DM 背景，與胰臟先天缺如的機轉情境不符；文獻相關性評為低"
+        }
+      ],
+      "flags": ["文獻為 T2DM 胰島素使用，非胰臟先天缺如專論", "疾病極罕見（全球報告 < 100 例），RCT 不可行"]
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "向心性脂肪萎縮症（多為兒童面部脂肪自發性消失）病因不明，與胰島素代謝異常的關聯僅為推測性。無任何臨床或基礎研究支持胰島素治療此症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["病因不明，機轉推測困難", "罕見病，缺乏研究基礎"]
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘發局部脂肪萎縮（如義肢/輪椅壓迫部位）主要為機械性組織損傷，與胰島素訊號無直接關聯。類似 drug-induced lipodystrophy 的方向性問題——胰島素注射本身亦可導致局部脂肪異常。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["機械性病因與胰島素治療邏輯不符"]
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪萎縮定義上為原因不明；與 drug-induced 及 centrifugal 型同屬 TxGNN 脂肪萎縮症節點群集評分，缺乏個別治療機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["原因不明疾病，機轉連結推測性極強"]
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S0": 8,
+      "S1": 2,
+      "S2": 0,
+      "S3": 0
+    },
+    "critical_observations": [
+      "1. 高 TxGNN 分數（>0.99）但零臨床佐證：本批次所有適應症均呈現 AI 評分與實際證據嚴重落差，典型的模型預測泡沫（prediction bubble）現象。",
+      "2. 脂肪萎縮症群集（5/10 適應症）：TxGNN 可能透過知識圖譜中 insulin → lipoatrophy 節點過度泛化，且存在方向性混淆（胰島素為致因而非治療）。需標記為潛在誤判風險。",
+      "3. 自身免疫群集（oophoritis, stiff person, TRMA）：透過 anti-GAD65 / 自身免疫節點形成的間接路徑，TRMA 具最高生物學合理性。",
+      "4. 文獻品質問題：Pancreatic agenesis 所附 2 篇文獻（PMID 11727406, 12150359）均為 T2DM 胰島素治療通論，與目標疾病無直接關聯，疑為關鍵字誤配。",
+      "5. 資料完整性警示：original_moa 標記 [Data Gap] 與 Insulin lispro 已知明確機轉不符，建議核查資料管線的 DrugBank MoA 擷取邏輯。"
+    ],
+    "priority_for_follow_up": [
+      "pancreatic agenesis（L4/S1）— 生物學合理性最高，但需尋找真正相關文獻",
+      "thiamine-responsive dysfunction syndrome（L4/S1）— 疾病三聯症含糖尿病，臨床使用情境明確"
+    ]
+  }
+}
+```
+
+---
+
+## 🔍 分析摘要
+
+### 整體評估
+
+| 指標 | 數值 |
+|------|------|
+| 分析適應症數 | 10 |
+| 有臨床試驗 | 0 |
+| 有相關文獻 | 1（Pancreatic agenesis，但文獻相關性低） |
+| L5 純預測 | **8/10（80%）** |
+| 可進入 S1 評估 | 2/10 |
+
+### ⚠️ 三大關鍵警示
+
+**① 方向性混淆風險**
+脂肪萎縮症群集（5 個適應症）中，Insulin lispro **本身是致因**而非治療藥物，TxGNN 在知識圖譜中可能錯誤解讀邊方向（cause ↔ treat）。
+
+**② 文獻誤配**
+Pancreatic agenesis 的 2 篇文獻實為 T2DM 通論，建議修正資料管線的疾病—文獻匹配邏輯。
+
+**③ MoA 資料缺漏**
+Insulin lispro 機轉明確（IR → PI3K/Akt/GLUT4），`[Data Gap]` 標記應觸發資料品質警示，優先修復。

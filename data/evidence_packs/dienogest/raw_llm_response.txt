@@ -1,0 +1,240 @@
+## Dienogest (DB09123) 藥物再利用證據分析
+
+分析完成，以下為結構化評估：
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "amenorrhea (disease)",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dienogest 為第四代合成孕激素，透過抑制 HPO 軸（下視丘-腦垂體-卵巢軸）、降低雌二醇至卵泡早期水平，誘發閉經而非治療閉經。現有 4 項臨床試驗均以子宮內膜異位症為主要適應症，閉經（amenorrhea rate 40-70%）為藥效副作用指標，並非治療目標。機轉方向倒置（causative agent，非therapeutic agent），若定義為「治療病理性閉經」則無支持依據；若重新定義為「誘發治療性閉經」則有間接 L3 級證據。目前建議暫緩，需重新界定研究問題。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07164183",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 多中心 RCT（招募中，n=290），比較效果，可能涉及月經抑制管理；但標題指向子宮內膜異位症療效比較，非閉經疾病治療試驗。若研究終點包含月經抑制率，可作為間接佐證"
+        },
+        {
+          "nct_id": "NCT02425462",
+          "relevance_grade": "C",
+          "reasoning": "ENVISION 觀察性研究（已完成，n=895）：評估亞洲子宮內膜異位症患者 Visanne® QoL，閉經僅為不良事件記錄指標，與治療閉經疾病無關"
+        },
+        {
+          "nct_id": "NCT04495855",
+          "relevance_grade": "C",
+          "reasoning": "VISANNE 真實世界研究（已完成，n=968），觀察性設計，針對子宮內膜異位症，提供閉經發生率真實數據但非治療閉經的試驗"
+        },
+        {
+          "nct_id": "NCT07204093",
+          "relevance_grade": "C",
+          "reasoning": "經皮雌二醇給藥研究（招募結束，n=138），主角為雌二醇而非 dienogest，可能為子宮內膜異位症荷爾蒙附加療法，與閉經治療關聯極弱"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34405378",
+          "study_type": "Narrative Review",
+          "tier": "2"
+        },
+        {
+          "pmid": "39090694",
+          "study_type": "Systematic Review + Bayesian Analysis",
+          "tier": "1"
+        },
+        {
+          "pmid": "29161960",
+          "study_type": "Prospective Cohort",
+          "tier": "2"
+        },
+        {
+          "pmid": "41329046",
+          "study_type": "Pharmacological/Mechanistic Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "34918698",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "40543564",
+          "study_type": "Review/Case Series",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary ovarian failure",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性卵巢功能不全（POI）的標準治療為 HRT（雌孕激素替代）或促性腺激素；dienogest 作為純孕激素無法恢復卵巢功能或提升 AMH/卵泡儲備。唯一相關試驗（NCT04306276）探討子宮內膜異位症女性 IVF 前使用 dienogest 預處理以改善 poor ovarian response，與 POI 病理機轉（卵泡耗竭/自體免疫）僅有間接重疊。證據不支持此再利用方向。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04306276",
+          "relevance_grade": "C",
+          "reasoning": "研究對象為子宮內膜異位症合併 IVF 失敗史（poor ovarian response）女性（n=140），目的為 IVF 結果優化，非 POI 本身的疾病治療；ovarian failure 的病因與試驗設計不吻合"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "breast fibrocystic disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Dienogest 具高選擇性孕激素受體（PR-A/PR-B）親和力及輕微抗雄活性，對乳腺組織有潛在影響。孕激素在纖維囊腫性乳腺病（FCD）中的角色雙向：PR-B 活化可抑制乳腺上皮增生，而部分合成孕激素可能增加乳腺密度。2009 年文獻直接評估 dienogest 的乳腺效應，顯示學術界已注意此關聯，但數據有限且為 2009 年前（缺乏現代 RCT 設計）。具備生物學合理性，值得以獨立研究問題進一步探索。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19499407",
+          "study_type": "Pharmacological Review / Preclinical-Clinical Bridge Study",
+          "tier": "2"
+        }
+      ]
+    },
+    {
+      "disease_name": "isolated growth hormone deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理機轉關聯。孤立性生長激素缺乏症（IGHD）病因為 GH1/GHRHR 基因缺陷或特發性，治療為 rhGH 替代療法。Dienogest 的孕激素活性與 GH-IGF-1 軸無直接調控路徑，可能的極間接連結（孕激素影響 GH 分泌脈衝）缺乏臨床支持。無任何臨床試驗或文獻，純為 TxGNN 計算分數（0.9953），需基礎實驗室驗證方可考慮。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "symptomatic form of fragile X syndrome in female carrier",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脆性 X 症候群前突變女性攜帶者（55-200 CGG repeats）可能發展 FXPOI（脆性 X 相關 POI），存在荷爾蒙軸關聯的理論假說；然而 FXPOI 治療以 HRT 為主，而非孕激素單一療法。神經症狀（FXTAS 相關焦慮/認知問題）與孕激素的神經活性類固醇機轉（GABA 調節）有微弱假設性連結。無任何臨床或臨床前證據，暫無法推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blepharophimosis-epicanthus inversus-ptosis (BPES)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "BPES 由 FOXL2 基因突變引起，FOXL2 轉錄因子同時調控卵巢顆粒細胞分化（影響雌孕激素合成）及眼瞼發育。理論上孕激素補充可能干預 FOXL2 下游卵巢表現型，但眼瞼結構異常（先天發育缺陷）無法透過荷爾蒙治療改善。TxGNN 可能透過 FOXL2-卵巢-孕激素的知識圖譜路徑產生高分，但臨床應用無依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypogonadotropic hypogonadism with or without anosmia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低促性腺激素性性腺功能低下症（HH/Kallmann syndrome）由 GnRH 神經元遷移缺陷或 GNRH1/KISS1R/FGFR1 等基因突變引起，治療為 GnRH 脈衝療法或 FSH/LH 替代；dienogest 進一步抑制 HPO 軸，與治療目標相悖。【重大資料品質警示】：20 篇文獻全部為 COVID-19 嗅覺喪失（anosmia）相關研究，與 hypogonadotropic hypogonadism 的治療完全無關——此為文獻檢索系統誤以病名關鍵字「anosmia」匹配所產生的 false positive 雜訊，應予排除。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33417259",
+          "study_type": "Case-Control [COVID-19 anosmia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "36209486",
+          "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "37450393",
+          "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "35790059",
+          "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "32811912",
+          "study_type": "Review [anosmia/ageusia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "36341691",
+          "study_type": "Cohort [anosmia + cognition — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "32909060",
+          "study_type": "Review [COVID-19 anosmia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "37062268",
+          "study_type": "Nomenclature Review [olfactory — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "37342077",
+          "study_type": "Review [SARS-CoV-2 anosmia — 無關文獻]",
+          "tier": "3"
+        },
+        {
+          "pmid": "33709973",
+          "study_type": "Review [Neuro-COVID-19 — 無關文獻]",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "partial trisomy/tetrasomy of the short arm of chromosome 5",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "5p 部分三體/四體為先天染色體結構異常（涉及 CTNND2、TERT 等基因座），主要表現為智能障礙及發育遲緩，無孕激素治療的合理機轉。TxGNN 高分可能來自 HPO 表現型網路中性腺發育表現型的間接路徑，但缺乏生物學合理性支持臨床應用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "3q23 重排（含 FOXL2 基因座缺失/破壞）導致的 BPES 變體，病理機轉與標準 FOXL2 點突變型 BPES 相同。先天性眼瞼結構畸形無法透過孕激素治療改善，FOXL2 的卵巢功能影響與眼瞼表現型是獨立路徑。無支持性證據，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "partial trisomy/tetrasomy of the short arm of chromosome 18",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "18p 部分三體/四體涉及 TGIF1（轉化生長因子路徑抑制劑）等基因，可能呈現性腺發育異常表現型，此為 TxGNN 可能偵測到的間接連結。然而染色體劑量效應引起的發育異常非孕激素補充可修正的範疇。無任何臨床或基礎研究支持，暫無法推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 評估摘要表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|---------|---------|------|---------|
+| amenorrhea | **L3** | S1 | Hold | 機轉倒置：藥物造成閉經而非治療閉經 |
+| primary ovarian failure | **L4** | S0 | Hold | 唯一試驗針對 IVF 優化，非 POI 治療 |
+| breast fibrocystic disease | **L4** | S1 | Research Question | 有生物合理性，文獻單薄（僅 2009 年 1 篇） |
+| isolated GH deficiency | **L5** | S0 | Hold | 無機轉關聯，純預測 |
+| fragile X in female carrier | **L5** | S0 | Hold | 假說性 FXPOI 連結，無任何證據 |
+| BPES | **L5** | S0 | Hold | FOXL2 路徑間接，無臨床意義 |
+| HH with/without anosmia | **L5** | S0 | Hold | ⚠️ 20 篇文獻全為 COVID 嗅覺雜訊 |
+| trisomy/tetrasomy 5p | **L5** | S0 | Hold | 染色體病，無孕激素治療依據 |
+| BPES due to 3q23 | **L5** | S0 | Hold | 同 BPES，無支持證據 |
+| trisomy/tetrasomy 18p | **L5** | S0 | Hold | 染色體病，機轉連結不成立 |
+
+---
+
+## 🔍 關鍵品質警示
+
+> **⚠️ 文獻雜訊警告（hypogonadotropic hypogonadism）**：系統收集的 20 篇文獻全部為 COVID-19 嗅覺喪失相關研究，與目標適應症完全無關。這是文獻管線以 "anosmia"（疾病名稱的一部分）作為關鍵字匹配造成的 **false positive**，建議對此適應症的文獻收集邏輯進行修正，應改用 "hypogonadotropic hypogonadism" 或 "Kallmann syndrome" 作為主要搜尋詞。
+
+> **💡 Amenorrhea 適應症重新定義建議**：若將研究問題重新定義為「Dienogest 誘發治療性閉經用於重度原發性痛經或 AUB（異常子宮出血）」，現有 Phase 3 試驗數據（NCT07164183）可升級支持 L2 級別，決策階段可推進至 S2。

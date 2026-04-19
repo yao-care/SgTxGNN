@@ -1,0 +1,303 @@
+## Isoflurane (DB00753) 藥物再利用證據分析
+
+> ⚠️ **藥物重要背景**：Isoflurane 為揮發性鹵化吸入性麻醉劑，需住院環境及專業設備才能給藥，代謝產生之無機氟離子具腎毒性潛力，亦為**惡性高熱（MH）已知觸發劑**。這些特性是所有再利用評估的重要限制前提。
+
+---
+
+```json
+{
+  "drug": "Isoflurane",
+  "drugbank_id": "DB00753",
+  "analysis_date": "2026-04-04",
+  "known_moa_supplement": {
+    "note": "原始資料標記 MoA 為 [Data Gap]，依藥理文獻補充如下",
+    "primary_mechanisms": [
+      "GABA-A 受體正向調節（鎮靜/麻醉）",
+      "NMDA 受體拮抗（麻醉/神經保護）",
+      "兩孔鉀通道（K2P）活化",
+      "HCN 通道抑制",
+      "皮層擴散去極化（CSD）抑制",
+      "缺血預處理心肌保護（粒線體 K-ATP / PKC / adenosine 路徑）",
+      "冠狀動脈舒張 → coronary steal 風險"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "Prinzmetal angina",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Isoflurane 具缺血預處理效應（粒線體 K-ATP 通道 → PKC → adenosine），理論上可保護心肌免受缺血損傷。然而 Prinzmetal angina 病理核心為冠狀動脈痙攣，而 isoflurane 麻醉誘導/甦醒期的交感神經激活及已知 'coronary steal phenomenon' 實際上可能誘發或加劇血管痙攣，屬該族群的已知臨床顧慮而非治療效益。機轉連結矛盾，無任何臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Tourette syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Tourette 症候群核心病理為紋狀體–丘腦–皮層迴路中 dopaminergic/GABAergic 失衡。Isoflurane 的 GABA-A 增強在理論上可抑制多餘的皮層興奮，但作為吸入性麻醉劑根本無法應用於慢性神經精神疾患的門診管理。知識圖譜推論，無任何臨床前或臨床支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "manic bipolar affective disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "躁症的核心神經生物學特徵包含 glutamatergic overactivity 及 GABAergic 不足；isoflurane 透過 NMDA 拮抗及 GABA-A 增強可大幅降低神經元過度興奮。1990 年代有研究者探索以 isoflurane 誘導 burst-suppression（腦電爆發抑制）作為 ECT 替代方案用於難治性情感疾患，機轉與 ketamine 用於抑鬱症類似（同為 NMDA 拮抗）。惟此機轉在臨床上已有30年以上無進展，且給藥方式之可行性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8462536",
+          "study_type": "非隨機開放性臨床比較研究（Open Intra-individual Comparison）",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "本篇為本適應症最具直接臨床意義的文獻，研究設計為同一患者先後接受 isoflurane burst-suppression 麻醉與 ECT，比較情感疾患（含躁鬱症）治療效果。雖方法學品質有限（非隨機、開放性、樣本小）且發表於1993年，仍屬僅有的直接臨床比較證據。"
+        },
+        {
+          "pmid": "7502646",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "惡性高熱鑑別診斷個案報告，isoflurane 在此作為 MH 觸發因子而非治療藥物，與躁鬱症治療完全無關，僅提醒 isoflurane 在精神科族群使用的安全顧慮。"
+        },
+        {
+          "pmid": "18930636",
+          "study_type": "Animal Study（PET 神經影像）",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "以 FDG-PET 研究大鼠躁症模型的腦代謝，isoflurane 僅作為影像採集時的背景麻醉劑，非研究對象，不能視為 isoflurane 的治療效益數據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "trichotillomania",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "拔毛症為 OCD 頻譜疾患，涉及 serotonin/glutamate/dopamine 多路徑失調。Isoflurane 的 NMDA 拮抗及 GABA-A 增強在 OCD 頻譜疾患有理論上的邊際相關性，但無任何臨床或臨床前研究，TxGNN 高分（0.9954）應反映知識圖譜的結構性類似性推論，而非真實治療潛力。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dysthymic disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "持續性憂鬱疾患可能涉及 NMDA 受體慢性過度活化及 GABAergic 功能不足。Isoflurane 的 NMDA 拮抗機轉與 ketamine 快速抗憂鬱效應相近，但 ketamine 在此領域已有大量 Phase 3 RCT 資料，isoflurane 完全無臨床探索紀錄。吸入性給藥方式及安全性疑慮進一步排除長期應用可能性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 為 AVPR2（V2 vasopressin receptor）功能獲得性突變，導致 ADH 非依賴性持續性水分再吸收及稀釋性低鈉血症。Isoflurane 可雙向影響 ADH 分泌，但無法針對 AVPR2 突變的病理機制產生治療效益。反之，isoflurane 代謝產物無機氟離子具腎毒性，對需謹慎腎功能管理的 NSIAD 患者存在額外風險。機轉連結不成立。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Isoflurane 在動物模型中被充分證實可劑量依賴性地抑制皮層擴散去極化（cortical spreading depression, CSD）——偏頭痛先兆的電生理基礎及偏頭痛頭痛期觸發的核心機制。主要機轉：① NMDA 受體拮抗阻斷 CSD 傳播（細胞外 K⁺ 累積需 NMDA 活化才能持續）；② GABA-A 增強穩定神經元膜電位閾值；③ 兩孔鉀通道活化增加靜息膜電導。臨床層面：難治性偏頭痛持續狀態（status migrainosus）已有個案報告使用全身麻醉成功中止發作，且 PMID 20974582 顯示 isoflurane 輸注可改變三叉神經節 CGRP/nNOS 表達——直接涉及偏頭痛三叉血管路徑。主要障礙：需住院吸入給藥，長期使用之肝腎毒性，MH 觸發風險。急性難治性偏頭痛/status migrainosus 的短期住院搶救性應用或有一定探索空間。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8665587",
+          "study_type": "Animal Study（機轉研究）",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "本篇為最核心文獻：直接研究多種吸入性麻醉劑（含 isoflurane）對 CSD 的抑制效應，並在標題即明確點出「relevance to migraine」。確立了 isoflurane-CSD抑制-偏頭痛的機轉連結鏈，是本適應症 L4 評級的主要依據。"
+        },
+        {
+          "pmid": "20974582",
+          "study_type": "Animal Study（神經化學研究）",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "研究 isoflurane 持續輸注後大鼠三叉神經節 CGRP 及 nNOS 免疫反應性變化，直接揭示 isoflurane 對偏頭痛三叉血管系統的效應，是機轉連結中除 CSD 外的第二條支持路徑。"
+        },
+        {
+          "pmid": "26323741",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "Status migrainosus 以全身麻醉治療成功的個案報告，為目前最直接的臨床應用證據，雖僅屬個案層級，但確認了「全身麻醉可中止難治性偏頭痛」的臨床可行性概念。"
+        },
+        {
+          "pmid": "26363696",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "與 PMID 26323741 為同一臨床個案的法文版平行出版，內容高度重疊，不應計算為獨立的新臨床證據，但可互相佐證報告真實性。"
+        },
+        {
+          "pmid": "17267580",
+          "study_type": "Animal Study（藥理比較研究）",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "系統比較全選擇性及亞型選擇性 NMDA 受體拮抗劑對 CSD 的影響，isoflurane 作為陽性比較組，間接確認其 NMDA 拮抗機轉在 CSD 抑制中的貢獻比重。"
+        },
+        {
+          "pmid": "22523186",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "長期口服 topiramate 對 CSD 閾值影響的研究，isoflurane 提供 CSD 實驗模型的麻醉背景控制，可作為不同抗 CSD 藥物效能的比較基準，間接支持 CSD 作為偏頭痛藥物標靶的普遍性。"
+        },
+        {
+          "pmid": "27122032",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究初級感覺皮層對擴散去極化的易感性差異，isoflurane 為背景麻醉劑，非主要研究對象，相關性有限。"
+        },
+        {
+          "pmid": "39354357",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "被動吸菸對雌雄小鼠 CSD 差異影響的研究，isoflurane 僅為動物麻醉工具，無法提取出 isoflurane 治療偏頭痛的相關資訊。"
+        },
+        {
+          "pmid": "40764901",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "評估小分子 CGRP 拮抗劑 atogepant 對 CSD 易感性的影響（結果為不影響），isoflurane 用作標準背景麻醉，非研究標的。"
+        },
+        {
+          "pmid": "27091721",
+          "study_type": "Clinical/Translational Study",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "研究慢性偏頭痛患者骨膜發炎基因轉錄的上調，探討外周敏化機制，isoflurane 若有出現亦僅為組織採集時的短暫麻醉，與再利用評估無關聯性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "myofascial pain syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌筋膜疼痛症候群的機制涵蓋局部肌肉缺血、激痛點（trigger points）形成及中樞敏化。Isoflurane 的肌肉鬆弛（骨骼肌鬆弛輔助作用）及中樞神經廣泛抑制理論上可暫時緩解症狀，但此為所有全身麻醉藥物的共有非特異性效應，且無任何研究支持長期疼痛管理應用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腦幹先兆偏頭痛（原稱基底型偏頭痛）的病理涉及 CSD 波及後顱窩及腦幹結構，觸發腦幹特異性症狀（眩暈、複視、構音障礙、意識改變）。Isoflurane 的 CSD 抑制機轉與偏頭痛相同且適用，PMID 18501348 提供了 isoflurane 濃度依賴性抑制 CSD 的量效關係數據。此外，PMID 35073844 顯示 CSD 誘發丘腦 VPM 核的活化，而 isoflurane 的全腦性神經抑制可能對此腦幹-丘腦傳導路徑有額外的緩解效應。惟此為偏頭痛中少見且高度特殊的亞型（被排除在多數 triptans 試驗之外），臨床開發難度高於一般偏頭痛。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8665587",
+          "study_type": "Animal Study（機轉研究）",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "核心文獻，直接研究 isoflurane 對 CSD 的抑制，CSD 為腦幹先兆偏頭痛的核心病理機制，A 級相關性。"
+        },
+        {
+          "pmid": "18501348",
+          "study_type": "Animal Study（劑量效應研究）",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "直接比較多種麻醉劑及高氧條件下對 CSD 的抑制效應，提供 isoflurane 在不同麻醉濃度下的 CSD 抑制量效關係，為本亞型最具機轉深度的新文獻（PMID 18501348 未出現於一般偏頭痛的文獻清單中）。"
+        },
+        {
+          "pmid": "35073844",
+          "study_type": "Animal Study（神經迴路研究）",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "研究 CSD 誘發丘腦腹後內側核（VPM）的傳播性活化，揭示腦幹先兆偏頭痛中 CSD 影響後顱窩-丘腦傳導路徑的神經解剖學機制，isoflurane 在研究中扮演關鍵的麻醉條件控制角色。"
+        },
+        {
+          "pmid": "22523186",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "Topiramate 對 CSD 的抑制研究，isoflurane 提供 CSD 模型基準，間接支持 CSD 抑制策略對偏頭痛（含腦幹先兆亞型）的普遍性。"
+        },
+        {
+          "pmid": "36810711",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "研究 nimodipine 對 CSD 後擴散性腦缺血（spreading oligemia）的血流恢復影響，isoflurane 為背景麻醉，非研究對象。"
+        },
+        {
+          "pmid": "40841621",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "評估 atogepant 對 CSD 誘發疼痛及焦慮行為的影響，isoflurane 用作背景麻醉，非研究主體。"
+        },
+        {
+          "pmid": "40764901",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "CGRP 拮抗劑對 CSD 影響研究，同上，isoflurane 非主體。"
+        },
+        {
+          "pmid": "27122032",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "初級感覺皮層 CSD 敏感性研究，isoflurane 為背景麻醉。"
+        },
+        {
+          "pmid": "39354357",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "被動吸菸對 CSD 影響研究，isoflurane 為麻醉工具，無直接治療關聯。"
+        }
+      ]
+    },
+    {
+      "disease_name": "myositis fibrosa",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌炎纖維化為罕見的骨骼肌炎症性纖維化病變，isoflurane 無已知的抗纖維化或抗炎症機轉。特別需注意的是，isoflurane 為惡性高熱（malignant hyperthermia）的已知觸發藥物，而 MH 的病理機制涉及骨骼肌 RYR1 受體異常（常見於肌肉疾患族群），使其在骨骼肌病變患者中存在實質安全疑慮，應列為相對禁忌。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 分析摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 核心理由 |
+|--------|-----------|---------|---------|------|---------|
+| Prinzmetal angina | 0.9967 | **L5** | S0 | Hold | 機轉矛盾：isoflurane 可誘發而非治療冠狀動脈痙攣 |
+| Tourette syndrome | 0.9961 | **L5** | S0 | Hold | 純圖譜推論，無任何臨床前/臨床支持 |
+| Manic bipolar | 0.9957 | **L4** | S1 | Research Question | 1993年 burst-suppression vs ECT 比較研究，NMDA拮抗機轉相關 |
+| Trichotillomania | 0.9954 | **L5** | S0 | Hold | 純預測，無支持證據 |
+| Dysthymic disorder | 0.9927 | **L5** | S0 | Hold | 機轉類似ketamine但零臨床探索 |
+| NSIAD | 0.9909 | **L5** | S0 | Hold | 機轉不成立，且氟離子腎毒性為反指標 |
+| **Migraine disorder** | 0.9906 | **L4** | S1 | Research Question | CSD 抑制機轉充分確立（PMID 8665587），status migrainosus 個案報告 |
+| Myofascial pain | 0.9886 | **L5** | S0 | Hold | 非特異性效應，無專屬研究 |
+| **Migraine with brainstem aura** | 0.9876 | **L4** | S1 | Research Question | 同 CSD 機轉+腦幹傳導路徑額外相關性 |
+| Myositis fibrosa | 0.9875 | **L5** | S0 | Hold | 無機轉支持，MH 觸發風險為反指標 |
+
+---
+
+### 🔑 關鍵觀察
+
+1. **TxGNN 分數普遍偏高（>0.99）但臨床證據嚴重不足**：高分反映知識圖譜的網路結構相似性，而非治療相關性。說明 isoflurane 在 KG 中可能與多種神經精神疾患的靶點存在間接路徑連結，但無法轉化為直接臨床應用。
+
+2. **偏頭痛系列（含腦幹先兆型）是唯一值得後續探索的方向**：CSD 抑制機轉清晰、有專項文獻（PMID 8665587, 18501348）及個案臨床報告，但仍需注意：**實際可行的臨床場景極為有限**——僅限於住院難治性 status migrainosus 的搶救性應用，而非慢性預防或常規急性治療。
+
+3. **躁鬱症情感疾患**：PMID 8462536 的 1990 年代 burst-suppression 研究具歷史意義（早於 ketamine 抗憂鬱研究），但三十年無後續研究本身即是反向信號。
+
+4. **藥物本身特性形成的「開發天花板」**：即使有足夠機轉支持，isoflurane 的給藥方式（吸入性）、MH 觸發潛力、代謝毒性，使其在任何慢性病適應症的再利用開發上幾乎不具可行性。研究問題的正確框架應是：**急性/難治性情境下的短期住院使用**，而非典型的老藥新用。

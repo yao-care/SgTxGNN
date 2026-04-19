@@ -1,0 +1,208 @@
+## 藥物再利用證據分析：Baloxavir marboxil (DB13997)
+
+### 藥物背景評估
+
+在分析各適應症前，需先確認重要前提：
+
+> **⚠️ 資料品質警示**：Baloxavir marboxil（速福達 Xofluza）實際上**已上市**（美國 FDA 2018年批准、日本 Shionogi 原廠、歐盟 2020年），資料標記「未上市」可能為新加坡 HSA 本地登記資料缺口。其原始 MoA 為**帽依賴性核酸內切酶抑制劑**（cap-dependent endonuclease inhibitor），高度專一性針對流感病毒 PA 次單元，抑制 mRNA 轉錄起始，與其他病毒複製機制**無交叉機轉**。
+
+---
+
+```json
+{
+  "drug": "Baloxavir marboxil",
+  "drugbank_id": "DB13997",
+  "analysis_date": "2026-04-10",
+  "data_quality_flags": [
+    "original_moa 標記為 [Data Gap]，實際 MoA 為 cap-dependent endonuclease inhibitor（PA 次單元抑制）",
+    "market_status 標記未上市，可能為 SG 本地 HSA 登記缺口，全球已批准",
+    "ddi_count = 0 不符實際（與多價陽離子藥物、BCRP/P-gp 受質有交互作用）"
+  ],
+  "indications": [
+    {
+      "disease_name": "hemophagocytic syndrome associated with an infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接推論：流感病毒等感染可誘發細胞激素風暴觸發 HPS；Baloxavir 理論上可藉由清除流感病毒降低病毒觸發性 HPS 風險，但此為附帶效應而非直接治療 HPS 的機轉。無特異性抗 HPS 作用證據，亦無任何 IFN-γ/IL-18 路徑干預數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9885,
+      "score_inflation_note": "高分可能來自 KG 中『infection → HPS』與『baloxavir → infection』的二階連結，屬間接圖譜推論，非直接機轉支持"
+    },
+    {
+      "disease_name": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性疾病相關 HLH 主要由腫瘤微環境驅動之免疫失調所致（NK 細胞功能缺損、巨噬細胞活化），與病毒感染觸發路徑不同。Baloxavir 對此類型 HLH 無任何已知機轉關聯。TxGNN 高分可能源自疾病分類節點共享（HPS/HLH 同類），不代表治療可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9885,
+      "score_inflation_note": "與感染相關 HPS 得分相同（0.9885），顯示 KG 對兩疾病節點處理方式相似，需人工區分"
+    },
+    {
+      "disease_name": "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "粒線體 COX 缺乏症為核基因（SURF1、SCO2 等）或 mtDNA 突變所致的先天代謝異常，與病毒複製機轉無任何已知連結。Baloxavir 的作用靶點（流感病毒 PA 核酸內切酶）與粒線體電子傳遞鏈完全無關。此預測可能為 KG 圖譜中『感染→細胞激素→線粒體損傷』的遠端推論，缺乏生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9855,
+      "score_inflation_note": "疾病罕見度高（orphan disease），KG 節點連結可能因稀疏性導致分數虛高"
+    },
+    {
+      "disease_name": "Singleton-Merten syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Singleton-Merten 症候群（IFIH1/MDA5 功能獲得性突變）的確存在干擾素通路過度活化的機制特徵，與 Baloxavir 的 innate immune modulation 有潛在遠端關聯。然而 Baloxavir 本身抑制流感病毒 PA 核酸內切酶，並非 MDA5/STING 路徑直接調節劑。無任何臨床前或臨床數據，生物合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9781,
+      "score_inflation_note": "IFN 通路相關疾病在 KG 中可能與抗病毒藥物群聚，造成系統性高估"
+    },
+    {
+      "disease_name": "hemophagocytic syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與感染相關 HPS 分析類似，但此為更廣義的 HPS 分類，包含遺傳性（原發性）與繼發性。Baloxavir 對原發性 HPS（PRF1、UNC13D 等突變）完全無機轉依據；對繼發性 HPS 的影響僅限於流感病毒觸發的亞型（作為抗病毒治療），且為間接效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9497,
+      "score_inflation_note": "分數低於感染相關 HPS（0.9885），顯示 KG 能部分區分特異性，但整體仍為 L5"
+    },
+    {
+      "disease_name": "chronic hepatitis C virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HCV 為正義單股 RNA 病毒，使用 NS5B RNA 依賴 RNA 聚合酶複製，與流感病毒的分節段負義 RNA 及 cap-snatching 機轉完全不同。Baloxavir 的靶點（帽依賴性核酸內切酶）在 HCV 複製週期中無對應受體或功能位點。現有 DAA 療法（索磷布韋等）有效率>95%，此適應症無臨床需求缺口。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34633268",
+          "title": "The use of antiviral drugs in children",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "C - 低相關",
+          "reasoning": "此為兒科抗病毒藥物通論性回顧文章，並非 Baloxavir 用於 HCV 的特定研究。文章涵蓋多種抗病毒藥物（包括流感、HCV、HIV 等），Baloxavir 在其中為流感藥物章節收錄，與 HCV 治療無直接關聯。"
+        }
+      ],
+      "txgnn_score": 0.9495
+    },
+    {
+      "disease_name": "hepatitis C virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同慢性 HCV 分析。急性 HCV 亦無 Baloxavir 適用的生物學依據。三篇文獻中，PMID 35580849 為 mRNA 疫苗對 COVID-19 保護力研究，與本適應症完全無關，顯示文獻匹配存在系統性誤差。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33443830",
+          "title": "[Not Available]",
+          "year": "2021",
+          "study_type": "Unknown",
+          "tier": 3,
+          "relevance_assessment": "C - 無法評估",
+          "reasoning": "標題不可用（[Not Available]），無法判斷相關性。建議人工核查 PubMed 原始記錄。"
+        },
+        {
+          "pmid": "34633268",
+          "title": "The use of antiviral drugs in children",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "C - 低相關",
+          "reasoning": "同 chronic HCV 條目分析，為通論性抗病毒藥物回顧，非 Baloxavir 對 HCV 的針對性研究。"
+        },
+        {
+          "pmid": "35580849",
+          "title": "Protection of mRNA Vaccines Against Hospitalized COVID-19 in Adults",
+          "year": "2023",
+          "study_type": "Observational/Cohort",
+          "tier": 3,
+          "relevance_assessment": "C - 完全不相關",
+          "reasoning": "此文獻為 COVID-19 mRNA 疫苗保護力研究，與 Baloxavir 或 HCV 均無關聯。文獻匹配錯誤，可能為 PubMed 搜尋字串的偽陽性結果（antiviral + hepatitis 關鍵字誤配）。"
+        }
+      ],
+      "txgnn_score": 0.9326
+    },
+    {
+      "disease_name": "hepatitis E virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HEV 為正義單股 RNA 病毒（Hepeviridae），複製機制與流感病毒無共同靶點。Ribavirin 為目前唯一有一定證據的 HEV 抗病毒治療，機轉為核苷類似物。Baloxavir 無 HEV 抑制活性的任何臨床前數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9253
+    },
+    {
+      "disease_name": "hepatitis A virus infection",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HAV 為小 RNA 病毒（Picornaviridae），使用 IRES 依賴性翻譯機制，不進行 cap-snatching，與 Baloxavir 靶點無交叉。HAV 感染通常自限，無抗病毒治療需求，臨床需求空間幾乎不存在。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9242
+    },
+    {
+      "disease_name": "Omsk hemorrhagic fever",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Omsk 出血熱由 Omsk hemorrhagic fever virus（OHFV，黃病毒科蜱傳腦炎病毒群）引起，為正義單股 RNA 病毒，使用 NS5 RNA 聚合酶複製。與 Baloxavir 靶點完全不同。此極罕見的蜱傳病毒性出血熱（主要流行於西伯利亞）在 KG 中可能因『病毒感染 → 抗病毒藥物』的廣義連結獲得高分，屬圖譜推論假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "txgnn_score": 0.9200
+    }
+  ],
+  "overall_assessment": {
+    "summary": "全部 10 個預測適應症均為 L5/S0，建議 Hold",
+    "key_findings": [
+      "Baloxavir marboxil 的機轉（流感病毒 PA 核酸內切酶抑制）高度專一，在流感病毒以外缺乏生物學合理性",
+      "文獻匹配品質差：3 篇文獻中 1 篇與 COVID 疫苗相關（完全無關），1 篇為通論性回顧，1 篇標題不可用",
+      "HPS/HLH 類適應症雖有間接機轉推論（流感觸發），但需以流感治療而非 HPS 治療框架評估",
+      "肝炎病毒群（HCV/HBV/HAV/HEV）複製機轉與 Baloxavir 靶點無交叉，KG 高分為抗病毒藥物類別效應",
+      "TxGNN 分數普遍 >0.92 但缺乏任何臨床試驗支持，提示此藥物在 KG 中存在系統性高分偏差"
+    ],
+    "data_quality_recommendations": [
+      "修正 market_status：Baloxavir 已在日本、美國、歐盟上市，需釐清 SG HSA 登記狀態",
+      "補充 original_moa：Cap-dependent endonuclease inhibitor（PA 次單元 PAN 核酸酶抑制）",
+      "補充 original_indications：急性流感（成人及兒童≥1歲）、流感預防",
+      "PMID 35580849 需從 HCV 文獻清單移除（COVID 疫苗研究，誤配）",
+      "PMID 33443830 需人工核查確認相關性"
+    ],
+    "legitimate_repurposing_candidates_not_in_list": [
+      "重症/高風險族群流感（已獲批）",
+      "SARS-CoV-2 / 其他 RNA 病毒（需 PA 核酸酶同源性研究支持，目前臨床前數據有限）",
+      "流感病毒誘發之細胞激素風暴（需進一步機轉研究）"
+    ]
+  }
+}
+```
+
+---
+
+### 📊 結果摘要表
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 核心問題 |
+|--------|-----------|----------|----------|------|----------|
+| HPS (感染相關) | 0.9885 | **L5** | **S0** | Hold | 間接機轉，無直接證據 |
+| HLH (惡性疾病) | 0.9885 | **L5** | **S0** | Hold | 機轉不相關 |
+| 粒線體心腦肌病 | 0.9855 | **L5** | **S0** | Hold | 機轉完全不相關 |
+| Singleton-Merten | 0.9781 | **L5** | **S0** | Hold | 極遠端 IFN 連結，無數據 |
+| HPS (廣義) | 0.9497 | **L5** | **S0** | Hold | 同感染相關 HPS |
+| 慢性 HCV | 0.9495 | **L5** | **S0** | Hold | 機轉不符，文獻為通論 |
+| HCV 感染 | 0.9326 | **L5** | **S0** | Hold | 文獻含誤配（COVID 疫苗論文）|
+| HEV 感染 | 0.9253 | **L5** | **S0** | Hold | 機轉不符 |
+| HAV 感染 | 0.9242 | **L5** | **S0** | Hold | 機轉不符，臨床需求低 |
+| Omsk 出血熱 | 0.9200 | **L5** | **S0** | Hold | 機轉不符，極罕見疾病 |
+
+> **結論**：Baloxavir 的 KG 高預測分數反映其在「抗病毒藥物」類別節點的廣泛連結，而非真實治療潛力。建議優先修正資料品質問題，並將後續研究聚焦於**流感病毒誘發之嚴重併發症**（如流感相關 HPS）的輔助治療假說驗證。

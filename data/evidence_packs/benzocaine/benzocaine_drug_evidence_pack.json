@@ -1,0 +1,1421 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01086-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Benzocaine",
+    "drugbank_id": "DB01086",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "papillary conjunctivitis",
+      "txgnn": {
+        "score": 0.9938321113586426,
+        "rank": 7509
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Benzocaine 阻斷 Nav 可提供短暫眼表麻醉，但無法緩解乳突狀結膜炎的核心病理（肥大細胞/嗜酸球介導的過敏反應）。眼科局麻劑首選為 proparacaine/tetracaine，benzocaine 角膜穿透性差，眼科應用安全性資料不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "blepharoconjunctivitis",
+      "txgnn": {
+        "score": 0.9879063367843628,
+        "rank": 12129
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Blepharoconjunctivitis 涉及瞼緣細菌感染（常見 S. aureus）合併結膜炎，需抗生素及抗炎治療。Benzocaine 純麻醉機轉無法針對感染病因，症狀緩解效果短暫且不針對病因。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.9862384796142578,
+        "rank": 13411
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "酒糟性結膜炎以 Demodex 感染、皮脂腺功能障礙及免疫調節異常為主要病因，治療主軸為 ivermectin、tetracycline 或 metronidazole。Benzocaine 無抗寄生蟲或抗炎活性，機轉相關性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "dyspepsia",
+      "txgnn": {
+        "score": 0.982947051525116,
+        "rank": 15496
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05185609",
+            "title": "Assessment of Anorectal Function in Healthy Volunteers and Patients With Inflammatory Bowel Disease",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 70,
+            "start_date": "2021-09-01",
+            "completion_date": "2027-12-30",
+            "brief_summary": "Active inflammatory bowel disease (IBD) causes disabling symptoms such as diarrhea, involuntary loss of bowel control, abdominal pain and urges to pass stool. However, even patients with inactive IBD frequently experience such symptoms. The cause is not well understood and the functionality of the bowel in IBD patients is underexplored.\n\nEarlier studies show a wide range of results, but most find that patients with IBD in remission are up to four times as likely to report gastrointestinal sympto",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究對象為 IBD 肛直腸功能，與 benzocaine 用於消化不良完全無關；dyspepsia 為次要關鍵字誤召回"
+            }
+          },
+          {
+            "nct_id": "NCT02966834",
+            "title": "A Randomized, Double-blind, Multi-dose, Placebo-controlled Study to Evaluate the Efficacy, Safety and Tolerability of GSK2330672 Administration for the Treatment of Pruritus in Patients With Primary Biliary Cholangitis (GLIMMER: GSK2330672 triaL of IBAT Inhibition With Multidose Measurement for Evaluation of Response)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 147,
+            "start_date": "2017-01-11",
+            "completion_date": "2020-04-15",
+            "brief_summary": "This study is being conducted to evaluate the efficacy, safety and tolerability of GSK2330672 administration for the treatment of pruritus (itch) in participants with primary biliary cholangitis (PBC). Participants will receive either placebo or one of the 4 dose regimens of GSK2330672 (20 milligram \\[mg\\], 90 mg or 180 mg taken once daily or 90 mg twice daily). Participants on GSK2330672 will also receive placebo tablets to maintain blinding. The study has a prospectively defined adaptive desig",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "標題被截斷，無法確認試驗藥物；Phase 2 完成、147人規模可能涉及消化道藥物，但缺乏標題確認無法評為相關。列為 C 級待確認"
+            }
+          },
+          {
+            "nct_id": "NCT03198507",
+            "title": "A Randomized Double Blind Active Comparator Controlled Phase III Study to Assess the Safety and Efficacy of RHB-105 in the Treatment of Confirmed Helicobacter Pylori (H. Pylori) Infection",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 455,
+            "start_date": "2017-06-18",
+            "completion_date": "2018-12-13",
+            "brief_summary": "The \"test and treat\" strategy for treating dyspeptic patients who are H. pylori positive is rapidly becoming the standard of care. This study will test the effectiveness of RHB-105, a new triple therapy to treat H. pylori infection in dyspeptic patients against an active comparator.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3、455人、completed，有可能是消化道藥物試驗，但標題截斷無法確認研究藥物是否為 benzocaine 或相關麻醉劑"
+            }
+          },
+          {
+            "nct_id": "NCT05362578",
+            "title": "Wearable Transcutaneous Electrical Acustimulation for Gastroparesis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2022-09-08",
+            "completion_date": "2025-02-28",
+            "brief_summary": "The device being studied, the Transcutaneous Electrical Accustimulator (TEA), will deliver weak electrical current at two specific points, one at the leg and the other at the arm at settings known to improve symptoms involving the digestive system. The study team would like to test if the device will impact the gastrointestinal (GI) symptoms and gastric motility in study participants with gastroparesis.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "穿戴裝置電刺激研究，非藥物試驗，與 benzocaine 無關"
+            }
+          },
+          {
+            "nct_id": "NCT06284993",
+            "title": "Acupuncture of Different Treatment Frequency in Chronic Plantar Fasciitis",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 80,
+            "start_date": "2024-05-21",
+            "completion_date": "2026-12-30",
+            "brief_summary": "Plantar fasciitis (PF) is one of the most common causes of heel pain, typically characterized by a sharp pain in the plantar aponeurosis, specifically near the insertion site close to the medial process of the calcaneal tuberosity. It has been reported that 1 in 10 people are expected to be affected by PF in their lifetime. A comprehensive internet-panel survey conducted among the adult United States population revealed the population-based prevalence of self-reported PF with pain in the last mo",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "足底筋膜炎針灸研究，主題完全偏離；dyspepsia 為次要終點或關鍵字誤召回"
+            }
+          },
+          {
+            "nct_id": "NCT07097103",
+            "title": "A 2x2 Factorial Randomized Controlled Non-pharmacological Interventional Multicenter Pilot Study on the Influence of the Mediterranean Diet and Physical Exercise on the Microbiome of Patients With Parkinson's Disease",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-09-01",
+            "completion_date": "2029-07-31",
+            "brief_summary": "This 2x2 factorial, randomized, controlled pilot study aims to identify a specific microbiota pattern, which could constitute a biomarker of Parkinson's disease, and to evaluate whether specific pathotypes can be associated with different stages of the disease; furthermore, the investigators are committed to evaluating how and to what extent the changes induced by a personalized nutritional intervention combined with physical exercise affect the symptoms and quality of life of patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "非藥物介入試驗，與 benzocaine 無關"
+            }
+          },
+          {
+            "nct_id": "NCT02823912",
+            "title": "Effect of Administration of Capsaicin on Inflammatory Cytokines Profile(TNFα , IL - 1β , IL - 6, IL -8 , MIP - 1β) in Individuals With Dyslipidemia.",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 17,
+            "start_date": "2016-10",
+            "completion_date": "2017-10",
+            "brief_summary": "The increased mortality from cardiovascular disease has a significant impact on the population, and the prevalence of these diseases it become one of the major problems, since it is the leading cause of mortality and 1 in 3 Mexicans suffer from cardiovascular disease according ENSANUT; the above is attributed to the increase of diseases associated with an inflammatory process accelerated as obesity, dyslipidemia, hypertension (SAH) and diabetes mellitus (DM).\n\nThe cholesterol is a major risk fac",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "辣椒素（capsaicin）試驗，非 benzocaine；TRPV1 與 Nav 機轉不同，不構成間接證據"
+            }
+          },
+          {
+            "nct_id": "NCT06370936",
+            "title": "The EXPLAIN Study: Exploring Plant-Based Meat Analogues for Their Impact on Health",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 114,
+            "start_date": "2024-04",
+            "completion_date": "2025-03",
+            "brief_summary": "Plant-based diets with little to no meat are considered healthy and sustainable by the general public. The increasingly popular plant-based meat analogues (PBMAs) allow consumers to easily decrease meat intake while maintaining their dietary patterns. However, scientific knowledge on the health impact of PBMAs on humans is currently very limited.\n\nThe primary objective of this clinical trial is to evaluate if and to what extent replacing all meat products in an average Dutch diet with currently ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "食品/營養介入研究，完全無關"
+            }
+          },
+          {
+            "nct_id": "NCT06883292",
+            "title": "The Effects of Tyrosol and Creatine on Endurance, Strength, and Fatigue Resistance in Healthy Adults: A Randomized, Double-Blind, Placebo-Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2025-03-24",
+            "completion_date": "2025-08-30",
+            "brief_summary": "The purpose of this clinical trial is to look at tyrosol's effects on endurance, strength, and fatigue resistance in humans. Additionally, the combination of tyrosol and creatine monohydrate will also be looked at to determine if there is a cooperative effect from using both together. It will be conducted over a 4-week period to compare the effects of the following substances: 1) tyrosol, 2) a placebo (a look-alike substance that contains no drug), 3) creatine, and 4) a combination containing bo",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "運動補充劑研究，dyspepsia 若為次要終點仍與 benzocaine 無關"
+            }
+          },
+          {
+            "nct_id": "NCT07442734",
+            "title": "Study on the Efficacy and Mechanism of Auricular Stimulation for Functional Dyspepsia With Insomnia Based on Brain Function: A Single-center, Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 176,
+            "start_date": "2025-10-30",
+            "completion_date": "2026-10-01",
+            "brief_summary": "Functional dyspepsia (FD) is a chronic disorder of gut-brain interaction characterized by bothersome upper abdominal symptoms arising from the gastroduodenal region. Diagnosis is made after clinical evaluation has excluded structural disease that could explain symptoms (e.g., upper gastrointestinal endoscopy). According to Rome IV criteria, FD is categorized into postprandial distress syndrome (PDS) and epigastric pain syndrome (EPS), with symptom overlap commonly observed. FD is prevalent world",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "耳穴刺激裝置研究，非藥物，與 benzocaine 無關"
+            }
+          },
+          {
+            "nct_id": "NCT06002516",
+            "title": "The RELIEF-pathway in Patients With Upper Abdominal Pain; an Open-label Multicenter Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 471,
+            "start_date": "2024-05-01",
+            "completion_date": "2027-05-01",
+            "brief_summary": "Upper abdominal pain (UAP) is a common symptom and frequently the reason to visit the hospital. The prevalence of epigastric pain in the Dutch population is estimated to be as high as 37%. Moreover, Dutch hospitals yearly record \\>100.000 diagnoses related to UAP. In most patients, UAP can be attributed to symptomatic (functional) dyspepsia (FD), Irritable Bowel Syndrome (IBS) or uncomplicated gallstone disease (cholecystolithiasis), with a prevalence in the general population of 20-30%, 20%, an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00248651",
+            "title": "Antidepressant Therapy for Functional Dyspepsia",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 292,
+            "start_date": "2006-10",
+            "completion_date": "2013-07",
+            "brief_summary": "Functional dyspepsia is a common gastrointestinal disorder. Symptoms can include stomach pain or discomfort, bloating, fullness after eating meals, and nausea. These symptoms often interfere with school and work, and weight loss may occur due to dietary restrictions.\n\nThe hypothesis of this study was that antidepressant therapy is more effective than placebo in relief of the symptoms of functional dyspepsia, adjusting for psychological and psychiatric co-morbidity. The study also examined if ant",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05733767",
+            "title": "Implementing Effective Smoking Cessation Pharmacotherapy for Hospitalized Smokers With Cardiopulmonary Disease",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 424,
+            "start_date": "2022-11-03",
+            "completion_date": "2027-12-30",
+            "brief_summary": "Tobacco use remains the leading cause of death in the United States and contributes to more than 7 million hospitalizations annually. Being admitted to the hospital offers the perfect opportunity to support smoking cessation. Patients are motivated to quit because of their current illness and societal guidelines recommend clinicians should counsel patients and prescribe smoking cessation pharmacotherapy (SCP) to virtually all smokers.\n\nHowever, only 22% of patients are prescribed SCP while hospi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07302542",
+            "title": "Impact of Oat Milk Consumption on Gastrointestinal Transit and Defecation Frequency: A Controlled Intervention Trial in Adults",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-12-15",
+            "completion_date": "2026-02-15",
+            "brief_summary": "This study intends to recruit 90-100 constipated participants aged 25-50 years, including an equal number of males and females, from the faculty and logistics staff of Capital Medical University. Participants will be randomly divided into an intervention group (55-60 individuals) and a control group (35-40 individuals). The intervention group will consume 250 mL of Mengniu Daily Fiber Oat Milk daily for 4 weeks, while the control group will not receive oat milk intervention. Both groups will mai",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06705517",
+            "title": "Mediterranean Diet Effects on Parkinson's Disease (MED-PARK): a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 44,
+            "start_date": "2025-01-17",
+            "completion_date": "2026-09",
+            "brief_summary": "Currently, there are no disease-modifying treatments for Parkinson's disease (PD), the second most common neurodegenerative disorder worldwide, making it crucial to find interventions that can change the disease's trajectory. Epidemiological studies suggest that the Mediterranean diet (MD) is linked to improved motor and non-motor symptoms, slower disease progression, and lower mortality in PD patients. However, few interventional studies have explored this connection. This study assesses whethe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03165747",
+            "title": "Effect of VSL#3 on Bone Mineral Density in Postmenopausal Women: a Pilot Randomized, Placebo-Controlled Trial",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 35,
+            "start_date": "2017-10-01",
+            "completion_date": "2019-03-23",
+            "brief_summary": "Osteoporosis has a devastating impact on quality of life of postmenopausal women, and is a significant cause of disability and morbidity. Many drugs are approved for the prevention and treatment of osteoporosis, but are associated with high costs and side effects. Some data from animal studies suggests that supplementation with probiotics can safely treat and prevent osteoporosis. The probiotic VSL#3 is commercially available, is safe for human consumption, and has been widely used in human clin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00682916",
+            "title": "CCRC: FBCx® And Body Weight Regulation in Overweight Humans",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2007-04",
+            "completion_date": "2008-12",
+            "brief_summary": "Obesity and type 2 diabetes have clearly been linked together and identified as epidemics in much of the developed world. Historically several different dietary fibers have been used as means of reducing body weight and the related development of type 2 diabetes. These studies have generated mixed, if not inconsistent, results suggesting that none of these fibers promise a solution to either of these two conditions. We are proposing to investigate the effects of including a new soluble fiber, a-",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04540549",
+            "title": "Effects of Exercise on Patients With Functional Dyspepsia Based on Rome IV Criteria",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 260,
+            "start_date": "2020-09-01",
+            "completion_date": "2021-08-31",
+            "brief_summary": "Functional dyspepsia is one of the most common gastrointestinal disorders (FGIDs) encountered in clinical practice. Functional dyspepsia is a clinical syndrome characterized by chronic and recurrent gastroduodenal symptoms in the absence of any organic or metabolic disease that is likely to explain the symptoms. Functional dyspepsia has a high incidence in the population. A recent research showed that FD is present in 11% of the Italian general population. It dramatically reduces a patient's qua",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06612164",
+            "title": "Effects of Kefir Consumption on Health Outcomes: Gastrointestinal System, Immunity, Biochemical Parameters, Body Composition, Sleep Quality and Mental Well Being in Healthy Adults",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 65,
+            "start_date": "2023-02-01",
+            "completion_date": "2023-06-30",
+            "brief_summary": "The goal of this clinical trial is to evaluate the effects of the administration of kefir on gastrointestinal system, mental health, biochemical parameters, immunity and inflammation processes as well as the sleep quality, elucidating the possible health effects of kefir consumption in healthy adults. The main questions it aims to answer are:\n\n1. Will be better the gastrointestinal system symptoms severity of volunteers in the intervention group will be better compared to the control group?\n2. W",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02388269",
+            "title": "A Randomized, Single Centre, Double-blind, Parallel, Sham-controlled Pilot Study of the gammaCore®-G, a Non-invasive Vagus Nerve Stimulator Device for Treatment of Symptoms Caused by Functional Dyspepsia or Irritable Bowel Syndrome",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 91,
+            "start_date": "2014-06",
+            "completion_date": "2015-06",
+            "brief_summary": "A randomized, sham-controlled, single-centre pilot investigation designed to compare two parallel groups, gammaCore®-G (active treatment) and a sham, (inactive) treatment in subjects with FGIDs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05766774",
+            "title": "Feeding Study to Optimize Endocrine Dysfunction in Cystic Fibrosis",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2023-06-28",
+            "completion_date": "2028-06",
+            "brief_summary": "The goal of this study is to determine the extent to which excess dietary sugars serve as a precipitating factor in glucose intolerance in adults with cystic fibrosis (CF), a population at especially high risk for a unique form of diabetes (CF-related diabetes, CFRD) and with standard-of-care dietary recommendations (high-calorie, high-fat) that conflict with recommendations for other forms of diabetes.\n\nThis trial will investigate if the typical high-sugar, high-fat CF diet plays a role in diab",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06909890",
+            "title": "The Effectiveness of a Natural Aqueous Extract of Chios Mastic in the Management of Dyspepsia: the MASTIQUA-D Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2025-07-10",
+            "completion_date": "2026-12",
+            "brief_summary": "Chios mastic is a natural product with strong antimicrobial, anti-inflammatory and antioxidant properties, and well-established benefits for dyspeptic disorders. The aim of the present study is to investigate the effectiveness of a natural aqueous extract of Chios mastic (mastic water), a by-product of Chios mastic processing, in the management of dyspepsia. This will be a 3-month randomized double-blind controlled clinical trial in adults with dyspepsia. Participants will be blindly randomized ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07071181",
+            "title": "A Randomised, Double-blind Trial to Measure the Effects of Milk-based Drinks on Gut Microbiome, Sleep, and Cardiometabolic Markers in Adults With Poor Sleep",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 40,
+            "start_date": "2025-08",
+            "completion_date": "2026-03",
+            "brief_summary": "The purpose of this study is to evaluate the effects of kefir on gastrointestinal health, sleep quality, and biochemical parameters in adults who have sleep problems. Further measurements of cognitive function, arterial stiffness and blood pressure will also be assessed.\n\nThe following questions will be addressed during the study:\n\n1. What effect does repeated ingestion of kefir have on the gut microbiome and can this positively influence sleep performance (quality and duration) in adults with s",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05749354",
+            "title": "Clinical Study of Liver Meridian in the Treatment of Male Impotence and Female Premature Ovarian Failure",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 159,
+            "start_date": "2023-01-11",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Erectile dysfunction (ED) is a kind of worldwide and common sexual dysfunction disease, which mainly affects men over forty years old. The clinical characteristics of ED is the inability to maintain sufficient erection to obtain satisfactory sexual intercourse. Age, education, diabetes, stroke, obesity, and hypertension are factors inducing ED. Recent years, the prevalence of ED is rising, and more men aged below forty years old are suffering ED. Published review indicated that the prevalence of",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06609213",
+            "title": "Oral Intake of Enteral Nutrition Formula Preceding Placement and Feeding Via G-Tube and Its Impact on Formula Intolerance in pALS",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 22,
+            "start_date": "2025-01-10",
+            "completion_date": "2026-06",
+            "brief_summary": "The main objective of the proposed study is to evaluate if oral intake of EN formula preceding Gtube placement will impact tolerance upon placement and feeding via Gtube in pALS. This single arm intervention study all participants will receive the intervention and researchers will utilize validated indicators combined with clinical expertise to assess gastrointestinal symptoms of feeding intolerance before and after the intervention.\n\nThe main questions this study aims to answer are:\n\n1. Wil par",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06940596",
+            "title": "Exclude or Expose in Irritable Bowel Syndrome: What Works for Whom, and How? A Randomized Controlled Trial of Internet-Delivered FODMAP Diet Versus Exposure-Based Cognitive Behavioral Therapy",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2025-05-22",
+            "completion_date": "2027-07",
+            "brief_summary": "This research project will assess how two treatments for irritable bowel syndrome (one dietary and one behavioral) work and for whom. This will be done by assessing moderators (what treatment works for who and in what context) and mediators (how treatment works). Investigators will also assess how the diet and behavioral treatments affect IBS symptoms during treatment. Participants will be randomized to either: i. A FODMAP diet online program that focuses on modifying the consumption of foods hi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05920395",
+            "title": "Mechanisms of Electroacupuncture for Functional Dyspepsia Based on \"Enterotypes\" and Metabolomics",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 130,
+            "start_date": "2023-07-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The goal of this clinical trial is to explore the clinical efficacy and possible mechanisms of electroacupuncture treatment for functional dyspepsia (FD). The main question it aims to answer are:\n\n* Differences in the effects of electroacupuncture and sham electroacupuncture intervention on FD.\n* Differences in gastrointestinal hormone levels and gut microbiota and their metabolites between healthy individuals and FD patients.\n\nParticipants receive electroacupuncture and sham electroacupuncture ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00521703",
+            "title": "Evaluation of Topical Lidocaine Spray as Adjuvant to Upper Gastrointestinal Endoscopy in Children and Teenagers",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 78,
+            "start_date": "2007-08",
+            "completion_date": "2008-04",
+            "brief_summary": "There is some controversy in the medical literature regarding the effectiveness of topical lidocaine in children as an adjuvant drug to upper gastrointestinal endoscopy. In children, deep sedation and general anesthesia are often used to sedate children submitting to this procedure. Propofol is an anesthetic drug increasingly popular in this situation, but this drug can only be used with an anesthesiologist in Brazil. Its main side effects include hypotension, respiratory depression and local pa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論層面：Benzocaine 塗抹於上消化道黏膜可能透過局部 Nav 阻斷降低內臟高敏感性（visceral hypersensitivity），此機轉在功能性消化不良有一定合理性。然而全部 28 筆試驗均為誤召回（見下方 trials_analysis），無直接臨床佐證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "ulcerative blepharitis",
+      "txgnn": {
+        "score": 0.9818633198738098,
+        "rank": 16115
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "潰瘍性瞼緣炎為細菌感染（Staphylococcus spp.）所致，需局部抗生素治療。Benzocaine 無抗菌活性，局麻僅能遮蔽症狀，對病因無效，且長期眼部使用之安全性未確立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "parasitic eyelid infestation",
+      "txgnn": {
+        "score": 0.9803542494773864,
+        "rank": 16857
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼瞼寄生蟲感染（主要 Demodex folliculorum）需抗寄生蟲藥（ivermectin、tea tree oil/terpinen-4-ol）。Benzocaine 無殺寄生蟲活性，機轉毫無相關性；TxGNN 高分推測源於眼瞼疾病聚類效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "cutaneous candidiasis",
+      "txgnn": {
+        "score": 0.9786844849586488,
+        "rank": 17646
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT07021495",
+            "title": "A Prospective, Multi-Center, Observational Biomarker Real-World Evidence Study for In-Depth Profiling of Patients With Chronic Immune-Mediated Inflammatory Skin Diseases in Daily Practice",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 840,
+            "start_date": "2025-07-29",
+            "completion_date": "2029-12-31",
+            "brief_summary": "The goal of this observational study is to comprehensively profile six immune-mediated inflammatory diseases, including atopic dermatitis (AD), plaque psoriasis (PSO), hidradenitis suppurativa (HS), cutaneous T-cell lymphoma subtype mycosis fungoides (MF), chronic spontaneous urticaria (CSU), and cutaneous lupus erythematosus (CLE) in daily practice. Data will be compared with data from healthy volunteers. This study is part of the larger NGID (Next Generation ImmunoDermatology) initiative, of w",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性生物標記研究，研究藥物和介入不明；即使與皮膚念珠菌相關，亦非 benzocaine 治療研究"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮膚念珠菌病需抗真菌治療（azoles、nystatin）。Benzocaine 無抗真菌活性（無麥角固醇合成抑制或細胞膜破壞機轉）。1筆試驗為生物標記觀察性研究，與本適應症無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "noninfectious dermatoses of eyelid",
+      "txgnn": {
+        "score": 0.976937174797058,
+        "rank": 18451
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非感染性眼瞼皮膚病（如接觸性皮炎、脂漏性皮炎）以類固醇或免疫調節劑為主。Benzocaine 的局部麻醉效果雖可短暫止癢，但有引發接觸性過敏（benzocaine 本身是常見過敏原）的風險，可能加重病情。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9667984843254088,
+        "rank": 22295
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06120699",
+            "title": "Effectiveness of Pelvic Floor Muscle Training Including 360 Degree Expanded Diaphragm Exercises in Women With Stress Urinary Incontinence: Double-Blind Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 74,
+            "start_date": "2023-12-01",
+            "completion_date": "2024-11-01",
+            "brief_summary": "This study was planned to examine and compare the effects of standard diaphragm exercises with Pelvic floor muscle exercises (PFME) and 360-degree expanded diaphragm exercises with PFME on urinary symptoms, PFM functions and quality of life in women with stress urinary incontinence.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "骨盆底肌訓練研究，鼻腔疾病為誤召回"
+            }
+          },
+          {
+            "nct_id": "NCT01955824",
+            "title": "\"A RCT ON CLINICAL EFFICACY OF 1% vs. 2% LIGNOCAINE IN COUGH SUPPRESSION AND PAIN RELIEF IN PATIENTS UNDERGOING FLEXIBLE BRONCHOSCOPY\"",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 500,
+            "start_date": "2014-05",
+            "completion_date": "2014-11",
+            "brief_summary": "Flexible bronchoscopy is a common procedure performed by pulmonary physicians. The use of topical anesthesia, analgesia, and sedation during flexible bronchoscopy varies among physicians, institutions and geographic locations across the globe. Commonly used topical anesthetic agents before and during bronchoscopy include cocaine (4%),benzocaine (20%), tetracaine (1%), and lignocaine (1%-10%). Topical lignocaine is administered through the flexible bronchoscope in an attempt to reduce excessive c",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Lignocaine（lidocaine）為 amide 型局麻劑，與 benzocaine（ester 型）同為 Nav 阻斷劑，機轉高度相似。此試驗提供局麻劑用於鼻咽道症狀的 Phase 2/3 間接證據，500人規模、完成狀態，相關性評為 B（間接但機轉相似）"
+            }
+          },
+          {
+            "nct_id": "NCT04376268",
+            "title": "Comparison of the Efficacy of Boric Acid Mouthwashes in Different Concentrations in the Lower Third Molar Surgery in the Postoperative Period",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2019-01-15",
+            "completion_date": "2023-12-15",
+            "brief_summary": "Surgical removal of impacted third molars is one of the most frequent procedures carried out in the oral and maxillofacial surgery clinics. There are a varying range of postoperative complications including pain, edema and swelling. Antibiotics, analgesics and mouthwashes are usually prescribed for the treatment of these complications. Patients undergoing impacted third molar surgery are frequently prescribed chlorhexidine mouthwashes with/without benzydamine hydrochloride. However, there has be",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00562120",
+            "title": "A Randomized, Double Blind, Double Dummy, Placebo Controlled, Four Way Crossover Study To Determine The Effects Of An H3 Receptor Antagonist (PF-03654746) On Congestion Following A Nasal Allergen Challenge In Subjects With Seasonal Allergic Rhinitis.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2007-12",
+            "completion_date": "2008-08",
+            "brief_summary": "An H3 receptor antagonist should reduce the congestion associated with allergic rhinitis. A nasal allergen challenge will be given to patients to induce rhinitis symptoms and acoustic rhinometry will be used to measure the congestion.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "標題截斷，受試者僅21人，無法確認研究藥物；Phase 2 crossover 設計可能與鼻腔介入相關，但無法確認"
+            }
+          },
+          {
+            "nct_id": "NCT06910475",
+            "title": "Exerkidney: A Tracking of Uremic Toxins, Exerkines, Genetic Aspects, Physical Fitness, Body Composition, and The Effects of Physical Training in People With Chronic Kidney Disease at Different Stages",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 1600,
+            "start_date": "2025-04-01",
+            "completion_date": "2035-12-31",
+            "brief_summary": "The accumulation of uremic toxins is detrimental to physiological systems and induces premature biological aging. Renal function assessment methods, such as predictive formulas, may be influenced by ancestry in Brazilians, given the country's ethnic diversity, resulting in inaccurate estimates. On the other hand, physical exercise is an important ally in treating chronic kidney disease (CKD) as it induces metabolic changes that help slow the disease's progression. Additionally, the anti-aging ef",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04462367",
+            "title": "Clinical and Laboratory Predictors of COVID-19 Progression and Maternal and Perinatal Outcomes in Infected Pregnant and Postpartum Women in Six Reference Centers in the Northeast of Brazil",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 180,
+            "start_date": "2020-07-01",
+            "completion_date": "2024-12-20",
+            "brief_summary": "A prospective and retrospective cohort study. The objective will to determine the frequency of COVID-19 in pregnant and postpartum women hospitalized with flu syndrome, to evaluate clinical and laboratory predictors of COVID-19 progression and to determine the factors associated with adverse maternal and perinatal outcomes in healthcare centers in two states of Northeast Brazil.The study will be conducted including pregnant and postpartum women with clinical or laboratorial diagnosis of COVID-19",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06862817",
+            "title": "Comparison Between the Effect of Aloe Vera and Benzydamine Hydrochloride Mouth Gel on Radiation-induced Oral Mucositis (Randomized Clinical Trial)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2023-11-01",
+            "completion_date": "2024-06-15",
+            "brief_summary": "Oral mucositis, a painful inflammation and ulceration of the mucous membranes in the mouth, is commonly seen in patients undergoing chemotherapy or radiation therapy. Effective management of this condition is crucial to reduce pain, promote healing, and maintain oral function.\n\nBenzydamine mouth gel is a non-steroidal anti-inflammatory drug (NSAID) with analgesic and anti-inflammatory properties, making it useful in treating oral mucositis. It works by blocking pain and reducing inflammation, he",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00416182",
+            "title": "The Use of Nasally Delivered Pulmozyme in the Treatment of Sinusitis in Cystic Fibrosis Patients: A Pilot Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2006-12",
+            "completion_date": "2012-06",
+            "brief_summary": "Chronic sinusitis is a frequent complication in cystic fibrosis. The aim of this study is to determine whether Pulmozyme(dornase alfa) would maintain sinus health (compared to placebo) in patients with cystic fibrosis who have recently undergone sinus surgery.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 dornase alfa（DNase），非 benzocaine；但證實鼻腔給藥途徑的可行性（間接途徑參考）"
+            }
+          },
+          {
+            "nct_id": "NCT03265938",
+            "title": "Evaluation of Video Laryngoscopy in Patients With Head and Neck Pathology",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2017-09-13",
+            "completion_date": "2019-07-24",
+            "brief_summary": "Patients who undergo general anesthesia for surgical procedures frequently need to have a breathing tube placed (\"tracheal intubation\") for the duration of the procedure. Most often airway management is routine for an experienced anesthesiologist. Less often, airway management can be difficult and can result in patient harm. In order to reduce risk, anesthesiologists routinely evaluate patients' airways by obtaining a relevant history and doing a physical exam, which can aid in predicting which ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "影像學設備評估研究，局麻劑可能作為準備用藥但非研究主題"
+            }
+          },
+          {
+            "nct_id": "NCT06934265",
+            "title": "Phonation Resistance Training Exercises (PhoRTE®) Delivered In-person and Via Telehealth: A Noninferiority Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 30,
+            "start_date": "2026-01-25",
+            "completion_date": "2026-10-25",
+            "brief_summary": "This study compares how well voice therapy works when delivered in-person versus through telehealth for older adults with age-related voice problems. Researchers are testing whether Phonation Resistance Training Exercises (PhoRTE®) can be just as effective when delivered remotely as when done face-to-face, which could make treatment more accessible and affordable for seniors.\n\nThe two primary hypotheses are:\n\n1. Does voice therapy (called PhoRTE®) work as well through video calls as it does face",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01592214",
+            "title": "A Two-Part Phase I Study to Establish and Compare the Safety and Local Tolerability of Two Nasal Formulations of XF-73 for Decolonization of Staphylococcus Aureus: A Previously Investigated 0.5 mg/g Viscosified Gel Formulation Versus a Modified Formulation",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "2012-08",
+            "completion_date": "2015-08",
+            "brief_summary": "This is a Phase I, multi-center, clinical study of XF-73 to evaluate the local (nasal) safety and tolerability of a modified, thinner lower viscosity formulation of intranasal XF-73 in healthy male and female subjects. In addition, the potential for systemic absorption of XF-73 in the modified, thinner lower viscosity and the previously investigated thicker, higher viscosity formulations and their decolonization efficacy in comparison to placebo will be evaluated. Both parts of the study will be",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07004699",
+            "title": "OPTIGO /Comparison of Two Ventilation Methods During Endoscopy of the Pharynx, Larynx and Oesophagus: Multicentre, Randomised, Non-inferiority Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 610,
+            "start_date": "2025-07-11",
+            "completion_date": "2027-07-01",
+            "brief_summary": "Around 15,000 ENT cancers are diagnosed each year in France. The majority of these cancers will at one time or another require an Endoscopy of the Pharynx, Larynx and Esophagus (Endo-PLE or suspension laryngoscopy). Endoscopies of the Otorhinolaryngeal (ENT) sphere are common procedures. They consist of inserting a rigid laryngoscope through the mouth, allowing full exposure of the laryngeal sphere. They are performed in most cases as part of a swelling assessment, following CT scans, or followi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01974726",
+            "title": "Gas Supply, Demand and Middle Ear Gas Balance -- Project 1, Specific Aim 4, Protocol 3",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 95,
+            "start_date": "2013-10",
+            "completion_date": "2019-06-27",
+            "brief_summary": "The aim of this study is to determine which of the many Eustachian tube function tests (or combination of tests) is most helpful in finding out what is causing ear problems in children and adult patients with middle-ear diseases thought to be due to poor Eustachian tube function. The Eustachian tube is a biological tube that connects the middle ear to the back of the nose and throat. When the Eustachian tube works normally, it opens and closes to help keep the pressure in the middle ear the same",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02484859",
+            "title": "Comparison of Normotensive Anesthesia Using a Combination of Metoprolol and Tramadol With Controlled Hypotension Using Remifentanil in Endoscopic Sinus Surgery",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 88,
+            "start_date": "2015-07",
+            "completion_date": "2016-02",
+            "brief_summary": "Functional endoscopic sinus surgery (FESS) is indicated in diseases such as chronic sinusitis refractory to medical treatment, nasal polyposis, mass lesions in the nasal cavity. The purpose of this study is to determine whether tramadol and metoprolol are as effective as remifentanil in providing controlled hypotension during FESS.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03469973",
+            "title": "Partial Adenoidectomy in Cases of Velopharyngeal Dysfunction",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2018-06-01",
+            "completion_date": "2020-09-01",
+            "brief_summary": "The velopharyngeal valve is a tridimensional muscular valve that is located between the oral and nasal cavities. It consists of the lateral and posterior pharyngeal walls as well as the soft palate. The role of the velopharyngeal valve is to separate the oral and nasal cavities during speech and swallowing.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03167060",
+            "title": "Nasal Cavity Cooling for the Symptomatic Relief of Migraine Headache - A Randomized, Double Blind, Placebo Controlled Study\" , the BrainCool-Migraine Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2017-05-08",
+            "completion_date": "2019-02-06",
+            "brief_summary": "This study will be a randomised placebo controlled trial examining the effectiveness of using an intranasal evaporative cooling device (the RhinoChill intransal device) in providing relief of pain and symptoms of acute migraine.The treatment works by introducing cooling into the passageways of the nose through two small cannulas thereby cooling the local nasal tissue and the blood vessels which supply blood to the brain. This cooling effect will cause the blood vessels to constrict as well as st",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02480114",
+            "title": "A Randomized Phase III Trial of Gabapentin Versus Standard of Care for Prevention and Treatment of Mucositis in Locally Advanced Head and Neck Cancer Patients Undergoing Primary or Adjuvant Chemoradiation",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 79,
+            "start_date": "2015-07",
+            "completion_date": "2020-01",
+            "brief_summary": "This randomized phase III trial studies how well gabapentin plus standard of care work compares to standard of care without Gabapentin in preventing inflammation of the mucous membranes (mucositis) in patients with stage III-IV head and neck cancer that are undergoing primary or subsequent (adjuvant) chemoradiation therapy. Radiation therapy to the head and neck may cause a burn involving the inside of the mouth, throat, and nasal passages, resulting in pain. Gabapentin may help prevent (or mini",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02597764",
+            "title": "Use of Diaphragmatic Breathing (DB) in the Management of Bladder and Bowel Disorders in Children: A Pilot Randomized Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 23,
+            "start_date": "2015-02",
+            "completion_date": "2017-02",
+            "brief_summary": "Urination is a result of a complex neuro-muscular coordination which involves the action and arrangement of different parts of nervous systems as well as the muscular structure of the lower part of the urinary system. When there is an abnormal pattern in bladder and bowel habits without any known neuronal lesions, the condition is called bladder and bowel disorder (BBD). The symptoms can range from the feeling of rushing to the toilet, urinary accidents to urinating much less than expected durin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03879135",
+            "title": "A Phase 3b, Prospective, Open-Label, Uncontrolled, Multicenter Study on Long-Term Safety and Efficacy of rVWF in Pediatric and Adult Subjects With Severe Von Willebrand Disease (VWD)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2019-04-01",
+            "completion_date": "2025-01-30",
+            "brief_summary": "The main aim of the study is to check effectiveness of rVWF (vonicog alfa) prophylaxis based on the annualized bleeding rate (ABR) of spontaneous (not related to trauma) bleeding episodes in pediatric and adult participants during the first 12 months on study treatment.\n\nThe participants will be treated with rVWF for a maximum of 3 years. Their von Willebrand Disease will be treated according to Investigational product (IP) dosing directions.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07009249",
+            "title": "Effects of Dynamic Neuromuscular Stabilization Exercises on Urinary Symptoms and Pelvic Floor Muscle Functions in Women With Stress Urinary Incontinence: A Single-Blind Non-Inferiority Clinical Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 62,
+            "start_date": "2025-05-21",
+            "completion_date": "2026-05-01",
+            "brief_summary": "Stress urinary incontinence (SUI) is defined by the International Continence Society as the complaint of involuntary leakage of urine during physical exertion, including sports activities, or during sneezing or coughing. In continent women, an automatic response-namely, a reflex pelvic floor muscle (PFM) contraction, also known as pre-contraction-occurs either prior to or during physical exertion. Although there is strong evidence supporting the effectiveness of pelvic floor muscle training (PFM",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03850197",
+            "title": "Comparison of Tubomanometry and EarPopper Devices for Eustachian Tube Function Testing in Children and Adults",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2019-02-27",
+            "completion_date": "2019-11-18",
+            "brief_summary": "The Eustachian tube (ET) is a biological tube that links the middle ear to the back of the nose and throat. It has several functions, of which the most important is to maintain optimal middle-ear health. Eustachian tube dysfunction (ETD) can result in pain or a popping sensation in the ears when flying in an airplane or going up a tall building in an elevator. Many people with ETD also suffer from ear problems such as repeated middle-ear infections or fluid in the ears. However, there are very f",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Benzocaine 局部麻醉黏膜神經末梢（Nav1.7/Nav1.8）可緩解鼻腔疼痛、降低咳嗽反射敏感性。鼻腔黏膜吸收局麻劑的藥理合理性較眼科更高（已有 lidocaine 鼻內用藥 precedent）。NCT01955824 提供相關局麻劑（lidocaine）在咳嗽抑制的間接證據，但非 benzocaine 直接試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9662834405899048,
+        "rank": 22466
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Benzocaine 阻斷喉咽部感覺神經 Nav 通道，緩解急性咽喉炎之疼痛與刺激感。此為 benzocaine 最直接、最有臨床合理性的再利用方向。全球多國（美國、英國、澳洲）已有 OTC 含片（Cepacol Ultra Sore Throat、Chloraseptic）以 benzocaine 為主成分用於喉嚨痛，構成實際世界使用的大規模真實世界證據（RWE），即便未被本次資料庫捕獲。市場狀態「未上市」代表在目標市場可考慮以 OTC 途徑申請重新引入。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 28,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "parasitic eyelid infestation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "parasitic eyelid infestation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "parasitic eyelid infestation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "noninfectious dermatoses of eyelid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "noninfectious dermatoses of eyelid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "noninfectious dermatoses of eyelid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 21,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Benzocaine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

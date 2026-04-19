@@ -1,0 +1,1516 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00181-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Baclofen",
+    "drugbank_id": "DB00181",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn": {
+        "score": 0.993198037147522,
+        "rank": 8078
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26366961",
+            "title": "Mood Stabilizers in Children and Adolescents With Autism Spectrum Disorders.",
+            "authors": [
+              "Canitano Roberto"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "2015",
+            "abstract": "Autism spectrum disorders (ASDs) are a group of neurodevelopmental disorders including autistic disorder, Asperger syndrome, and pervasive developmental disorder not otherwise specified as to Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition. All these categories are grouped together in Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, classification under the category of Autism Spectrum Disorders.Behavioral disorders including irritability, attention-defi",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11393328",
+            "title": "Tourette syndrome: clinical characteristics and current management strategies.",
+            "authors": [
+              "Kossoff E H",
+              "Singer H S"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2001",
+            "abstract": "Tourette Syndrome (TS) is a disorder comprised of involuntary motor and phonic tics often associated with psychiatric conditions. The etiology for TS is unclear, with both genetic and immunological theories being studied to date. When pharmacotherapy is considered by the patient and physician to be required, owing to either functional impairment from tics or comorbid psychiatric illness, dopamine receptor antagonists are commonly used. Our first-line agents for tic suppression include clonidine,",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24295630",
+            "title": "Emerging treatment strategies in Tourette syndrome: what's in the pipeline?",
+            "authors": [
+              "Termine Cristiano",
+              "Selvini Claudia",
+              "Rossi Giorgio",
+              "Balottin Umberto"
+            ],
+            "journal": "International review of neurobiology",
+            "year": "2013",
+            "abstract": "Tourette syndrome (TS) is a neurodevelopmental disorder characterized by multiple motor/phonic tics and a wide spectrum of behavioral problems (e.g., complex tic-like symptoms, attention deficit hyperactivity disorder, and obsessive-compulsive disorder). TS can be a challenging condition even for the specialists, because of the complexity of the clinical picture and the potential adverse effects of the most commonly prescribed medications. Expert opinions and consensus guidelines on the assessme",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35345730",
+            "title": "Efficacy of Behavioural Intervention, Antipsychotics, and Alpha Agonists in the Treatment of Tics Disorder in Tourette's Syndrome.",
+            "authors": [
+              "Rizwan Muneeba",
+              "Shahid Noor Ul Ain",
+              "Naguit Noreen",
+              "Jakkoju Rakesh",
+              "Laeeq Sadia"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "Tourette's Syndrome (TS), in which patients have sudden, repeated, involuntary twitches and movements, called tics, is a condition of the nervous system. They can be motor, vocal, simple, or complex tics. It can be physically, emotionally, mentally, and socially distressing and challenging for those suffering from it. Usually, it is accompanied by various comorbidities like attention-deficit hyperactivity disorder, obsessive-compulsive disorder, and sleep disorders. A variety of environmental an",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24062084",
+            "title": "Noradrenergic α2A-receptor stimulation in the ventral hippocampus reduces impulsive decision-making.",
+            "authors": [
+              "Abela Andrew R",
+              "Chudasama Yogita"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "2014",
+            "abstract": "Guanfacine, an α2A-adrenergic receptor agonist, is currently in use for treatment of a variety of psychiatric disorders that are associated with impulsive decision-making (e.g., attention-deficit hyperactivity disorder; ADHD). In animals and humans, the behavioral effects of adrenergic agents are presumed to involve neuromodulation of the prefrontal cortex, consistent with the demonstrated actions of dopaminergic agents. However, recent experimental work has shown that the ventral hippocampus (v",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30122296",
+            "title": "[Supervised off-label prescribing of methylphenidate in adult ADHD].",
+            "authors": [
+              "Carton L",
+              "Dondaine T",
+              "Deheul S",
+              "Marquié C",
+              "Brigadeau F"
+            ],
+            "journal": "L'Encephale",
+            "year": "2019",
+            "abstract": "Off-label prescription is a common practice in psychiatry, raising health and economic concerns. Collegial consultation could allow a framed prescription of treatments that are not authorized in specific indications. Attention Deficit Hyperactivity in adult populations (ADHD) is a striking example of a pathology where off-label prescription is frequent. First considered to be a childhood disorder, the awareness of this condition in adults is increasing, leading to the development of new clinical",
+            "classification": {
+              "study_type": "Clinical Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21300040",
+            "title": "Cortical and hippocampal EEG effects of neurotransmitter agonists in spontaneously hypertensive vs. kainate-treated rats.",
+            "authors": [
+              "Vorobyov Vasily",
+              "Schibaev Nikolai",
+              "Kaptsov Vladimir",
+              "Kovalev Georgii",
+              "Sengpiel Frank"
+            ],
+            "journal": "Brain research",
+            "year": "2011",
+            "abstract": "To analyze mediatory mechanisms underlying attention-deficit hyperactivity disorder (ADHD) and their association with epilepsy, the electroencephalogram (EEG) responses to various centrally applied neurotransmitter agonists were studied in spontaneously hypertensive (SH), kainate-treated (KA), and normotensive (control) rats, with chronically implanted electrodes into the frontal cortex and hippocampus and a cannula into the lateral cerebral ventricle. In SH rats, the baseline EEG showed increas",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24496320",
+            "title": "Dissociable contributions of anterior cingulate cortex and basolateral amygdala on a rodent cost/benefit decision-making task of cognitive effort.",
+            "authors": [
+              "Hosking Jay G",
+              "Cocker Paul J",
+              "Winstanley Catharine A"
+            ],
+            "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
+            "year": "2014",
+            "abstract": "Personal success often requires the choice to expend greater effort for larger rewards, and deficits in such effortful decision making accompany a number of illnesses including depression, schizophrenia, and attention-deficit/hyperactivity disorder. Animal models have implicated brain regions such as the basolateral amygdala (BLA) and anterior cingulate cortex (ACC) in physical effort-based choice, but disentangling the unique contributions of these two regions has proven difficult, and effort d",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24103016",
+            "title": "Functional integrity of the habenula is necessary for social play behaviour in rats.",
+            "authors": [
+              "van Kerkhof Linda W M",
+              "Damsteegt Ruth",
+              "Trezza Viviana",
+              "Voorn Pieter",
+              "Vanderschuren Louk J M J"
+            ],
+            "journal": "The European journal of neuroscience",
+            "year": "2013",
+            "abstract": "During post-weaning development, a marked increase in peer-peer interactions is observed in mammals, including humans, which is signified by the abundance of social play behaviour. Social play is highly rewarding, and known to be modulated through monoaminergic neurotransmission. Recently, the habenula has received widespread attention because of its role in the regulation of monoaminergic neurotransmission as well as in a variety of emotional and cognitive functions. Therefore, in the present s",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10342599",
+            "title": "Tics in Tourette syndrome: new treatment options.",
+            "authors": [
+              "Awaad Y"
+            ],
+            "journal": "Journal of child neurology",
+            "year": "1999",
+            "abstract": "Tourette Syndrome is a familial neurobehavioral disorder characterized by fluctuating involuntary motor and/or vocal tics. The most commonly used medications to treat Tourette's syndrome are haloperidol, pimozide, fluphenazine, and clonidine, all of which may have considerable side effects. We enrolled 450 patients with tics/Tourette's syndrome to be treated with baclofen/botolinum toxin type A for their symptoms. Global severity of tic symptoms was rated by the Yale Global Tic Severity Scale an",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GABA-B 促效作用理論上可調節前額葉皮質多巴胺/去甲腎上腺素訊號，間接影響注意力與抑制控制。然而，現有 10 篇文獻主要涉及妥瑞症（Tourette syndrome，常與 ADHD 共病）或動物模型衝動性研究，無一直接測試 baclofen 於 ADHD 患者族群，屬高度間接的橫向引用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "nicotine dependence",
+      "txgnn": {
+        "score": 0.9919196367263794,
+        "rank": 9088
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00257894",
+            "title": "Baclofen Effects on Smoking Urge and Withdrawal",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 41,
+            "start_date": "2005-12",
+            "completion_date": "2008-12",
+            "brief_summary": "The purpose of this study is to determine whether baclofen is effective in reducing smoking urge, withdrawal, and reinforcement in moderate to heavy cigarette smokers.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 已終止（n=41），研究 baclofen 對吸菸渴望與戒斷症狀的效果，方向直接相關，但提前終止降低結論可信度；招募人數尚可，終止原因需查明。"
+            }
+          },
+          {
+            "nct_id": "NCT01821560",
+            "title": "Baclofen Effects on Brain and Behavior in Cigarette Smokers",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 44,
+            "start_date": "2013-03",
+            "completion_date": "2017-06",
+            "brief_summary": "The proposed project will utilize perfusion functional magnetic resonance imaging (fMRI), a functional candidate gene association approach (of dopaminergic addictions-targeted polymorphisms), and the dopamine-modulating and gamma-aminobutyric acid (GABA) B receptor agonist, baclofen, to examine the brain and behavioral responses in smokers to appetitive smoking reminders (cues that motivate continued smoking and relapse). These studies will provide a means to identify an appetitive cue-sensitive",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 已完成（n=44），直接評估 baclofen 對吸菸者大腦活動（fMRI）與吸菸行為的影響，為最高等級直接臨床證據。樣本數雖小但設計嚴謹。"
+            }
+          },
+          {
+            "nct_id": "NCT01228994",
+            "title": "Testing the GABAergic Hypothesis of Nicotine Dependence: a Randomized Clinical Trial of Baclofen",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2010-10",
+            "completion_date": "2012-08",
+            "brief_summary": "The primary hypothesis for this study is that, in nicotine-dependent tobacco smokers, baclofen will be superior to placebo for smoking abstinence measures.\n\nThe secondary hypothesis is that subjects assigned to the baclofen groups will exhibit higher rates of medication compliance (i.e. take the medication as directed for the trial period) than those in the placebo group.\n\nThe tertiary hypothesis is that baclofen will lead to significant reductions in tobacco withdrawal and craving ratings as co",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 已終止，僅招募 6 人（計畫 120 人），統計效力嚴重不足，幾乎無法提供有效臨床推論，屬事實上失敗的試驗。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24553576",
+            "title": "Attenuation by baclofen of nicotine rewarding properties and nicotine withdrawal manifestations.",
+            "authors": [
+              "Varani Andrés P",
+              "Aso Ester",
+              "Moutinho Lirane Machado",
+              "Maldonado Rafael",
+              "Balerio Graciela N"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "2014",
+            "abstract": "Nicotine is a major active ingredient in tobacco and plays a major role in tobacco addiction. In rodents, repeated nicotine administration produces behavioral responses related to its addictive properties, such as reinforcing effects and physical dependence.",
+            "classification": {
+              "study_type": "Animal Study (Controlled)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34601742",
+            "title": "New Australian guidelines for the treatment of alcohol problems: an overview of recommendations.",
+            "authors": [
+              "Haber Paul S",
+              "Riordan Benjamin C",
+              "Winter Daniel T",
+              "Barrett Liz",
+              "Saunders John"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "2021",
+            "abstract": "Chapter 2: Screening and assessment for unhealthy alcohol use Screening Screening for unhealthy alcohol use and appropriate interventions should be implemented in general practice (Level A), hospitals (Level B), emergency departments and community health and welfare settings (Level C). Quantity-frequency measures can detect consumption that exceeds levels in the current Australian guidelines (Level B). The Alcohol Use Disorders Identification Test (AUDIT) is the most effective screening tool and",
+            "classification": {
+              "study_type": "Clinical Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18682277",
+            "title": "Effects of baclofen on conditioned rewarding and discriminative stimulus effects of nicotine in rats.",
+            "authors": [
+              "Le Foll Bernard",
+              "Wertheim Carrie E",
+              "Goldberg Steven R"
+            ],
+            "journal": "Neuroscience letters",
+            "year": "2008",
+            "abstract": "Neurochemical studies suggest that baclofen, an agonist at GABA(B) receptors, may be useful for treatment of nicotine dependence. However, its ability to selectively reduce nicotine's abuse-related behavioral effects remains in question. We assessed effects of baclofen doses ranging from 0.1 to 3mg/kg on nicotine-induced conditioned place preferences (CPPs), nicotine discrimination, locomotor activity and food-reinforced behavior in male Sprague-Dawley rats. The high dose of baclofen (3mg/kg) to",
+            "classification": {
+              "study_type": "Animal Study (Controlled)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37626562",
+            "title": "Pharmacological Treatment of Alcohol Cravings.",
+            "authors": [
+              "Marin Matheus Cheibub David",
+              "Pedro Maria Olívia Pozzolo",
+              "Perrotte Giuliana",
+              "Martins-da-Silva Anderson S",
+              "Lassi Dangela L S"
+            ],
+            "journal": "Brain sciences",
+            "year": "2023",
+            "abstract": "(1) Background: The treatment of substance addiction is challenging and has persisted for decades, with only a few therapeutic options. Although there are some recommendations for specific treatments for Alcohol Use Disorder (AUD), there is no specific medication used to treat alcohol cravings, which could benefit millions of patients that are suffering from alcoholism. Cravings, or the urge to use drugs, refer to the desire to experience the effects of a previously experienced psychoactive subs",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19250803",
+            "title": "Baclofen prevents drug-induced reinstatement of extinguished nicotine-seeking behaviour and nicotine place preference in rodents.",
+            "authors": [
+              "Fattore Liana",
+              "Spano Maria Sabrina",
+              "Cossu Gregorio",
+              "Scherma Maria",
+              "Fratta Walter"
+            ],
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2009",
+            "abstract": "The gamma-aminobutyric acid(GABA)-B receptor agonist baclofen is known to reduce drug intake in both animals and humans and to prevent reinstatement of cocaine-, opioid-, and alcohol-seeking in rats after a period of extinction, but its effect on nicotine reinstatement is unknown. This study investigated the effect of baclofen on nicotine-seeking reinstatement both using the extinction/reinstatement model of nicotine self-administration and conditioned place preference (CPP). Results showed that",
+            "classification": {
+              "study_type": "Animal Study (Controlled)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38555115",
+            "title": "Repurposing drugs for treatment of alcohol use disorder.",
+            "authors": [
+              "Aubin Henri-Jean"
+            ],
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "abstract": "Repurposing drugs for the treatment of alcohol dependence involves the use of drugs that were initially developed for other conditions, but have shown promise in reducing alcohol use or preventing relapse. This approach can offer a more cost-effective and time-efficient alternative to developing new drugs from scratch. Currently approved medications for alcohol use disorder (AUD) include acamprosate, disulfiram, naltrexone, nalmefene, baclofen, and sodium oxybate. Acamprosate was developed speci",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17338593",
+            "title": "Pharmacotherapy of dual substance abuse and dependence.",
+            "authors": [
+              "Kenna George A",
+              "Nielsen Darci M",
+              "Mello Patricia",
+              "Schiesl Alison",
+              "Swift Robert M"
+            ],
+            "journal": "CNS drugs",
+            "year": "2007",
+            "abstract": "The US FDA has approved a limited number of treatments for alcohol, nicotine and opioid dependence; however, no treatments for other abused drugs such as marijuana, cocaine or methamphetamine are approved. This review focuses on research into drug pharmacotherapies, particularly single-drug therapies, for substance abuse and dependence contributing to the most important dual substance use disorders (SUDs). Given the implications of poly-substance abuse, it is essential that clinicians and resear",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25868070",
+            "title": "T76. Baclofen as a pharmacotherapy for the treatment of concurrent alcohol and nicotine dependence: a double-blind, placebo-controlled, randomized trial.",
+            "authors": [
+              "Farokhnia Mehdi",
+              "Edwards Steven M",
+              "Bollinger Jared",
+              "Amodio Jonathan",
+              "Zywiak William H"
+            ],
+            "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Conference Abstract",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38555116",
+            "title": "Substitution therapy for patients with alcohol dependence: Mechanisms of action and efficacy.",
+            "authors": [
+              "Guiraud Julien",
+              "Spanagel Rainer",
+              "van den Brink Wim"
+            ],
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "abstract": "New approaches for the treatment of alcohol dependence (AD) may improve patient outcomes. Substitution maintenance therapy is one of the most effective treatment options for opioid and nicotine use disorders. So far, there has been little attention to substitution therapy for the treatment of AD. Here, we explain the mechanistic foundations of alcohol substitution maintenance therapy. Alcohol has many primary targets in the brain (and other organs) and the physical interaction of ethanol molecul",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30973369",
+            "title": "Selecting an appropriate alcohol pharmacotherapy: review of recent findings.",
+            "authors": [
+              "Castrén Sari",
+              "Mäkelä Niklas",
+              "Alho Hannu"
+            ],
+            "journal": "Current opinion in psychiatry",
+            "year": "2019",
+            "abstract": "Only a few pharmacological treatments are available for treating alcohol use disorders (AUDs). Disulfiram, naltrexone and acamprosate are Food and Drug Administration (FDA)-approved and nalmefene is EMA-approved in European Union. Off-label medications, such as baclofen, gabapentin, ondansetron and topiramate are medications commonly prescribed for the treatment of AUD. The aim of this review is to give an update on recent randomized controlled trials (RCTs) and reviews evaluating pharmacologica",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28919445",
+            "title": "Cognitive effects of labeled addictolytic medications.",
+            "authors": [
+              "Pujol Camille Noélie",
+              "Paasche Cecilia",
+              "Laprevote Vincent",
+              "Trojak Benoit",
+              "Vidailhet Pierre"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2018",
+            "abstract": "Alcohol, tobacco, and illegal drug usage is pervasive throughout the world, and abuse of these substances is a major contributor to the global disease burden. Many pharmacotherapies have been developed over the last 50years to target addictive disorders. While the efficacy of these pharmacotherapies is largely recognized, their cognitive impact is less known. However, all substance abuse disorders are known to promote cognitive disorders like executive dysfunction and memory impairment. These im",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29250815",
+            "title": "Current and Emerging Pharmacotherapies for Cessation of Tobacco Smoking.",
+            "authors": [
+              "Gómez-Coronado Nieves",
+              "Walker Adam J",
+              "Berk Michael",
+              "Dodd Seetal"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "2018",
+            "abstract": "Tobacco use disorder is a chronic illness. With its high comorbidity rate, it is a major cause of years of life lost or years lived with disability; however, it is also considered the most preventable cause of death in developed countries. Since the development of nicotine replacement therapy (NRT) in 1978, treatment options have continued to evolve and expand. Despite this, currently available treatments remain insufficient, with less than 25% of smokers remaining abstinent 1 year after treatme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24456374",
+            "title": "Current pharmacological treatment approaches for alcohol dependence.",
+            "authors": [
+              "Müller Christian A",
+              "Geisel Olga",
+              "Banas Roman",
+              "Heinz Andreas"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2014",
+            "abstract": "At present, the substances acamprosate, naltrexone and disulfiram are available for pharmacotherapy in alcohol dependence, but clinical studies found only modest effect sizes of these treatment options.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23500668",
+            "title": "Mecamylamine-precipitated nicotine withdrawal syndrome and its prevention with baclofen: an autoradiographic study of α4β2 nicotinic acetylcholine receptors in mice.",
+            "authors": [
+              "Varani Andrés P",
+              "Antonelli Marta C",
+              "Balerio Graciela N"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2013",
+            "abstract": "A previous study from our laboratory showed that baclofen (BAC, GABAB receptor agonist) was able to prevent the behavioral expression of nicotine (NIC) withdrawal syndrome. To further investigate the mechanisms underlying this effect, we conducted this study, with the aims of analyzing α4β2 nicotinic receptor density during NIC withdrawal and, in case we found any changes, of determining whether they could be prevented by pretreatment with BAC. Swiss Webster albino mice received NIC (2.5 mg/kg, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34155332",
+            "title": "Efficacy and tolerability of baclofen in a U.S. community population with alcohol use disorder: a dose-response, randomized, controlled trial.",
+            "authors": [
+              "Garbutt James C",
+              "Kampov-Polevoy Alexei B",
+              "Pedersen Cort",
+              "Stansbury Melissa",
+              "Jordan Robyn"
+            ],
+            "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
+            "year": "2021",
+            "abstract": "Identification of new medications for alcohol use disorder (AUD) is important for improving treatment options. Baclofen, a GABAB agonist, has been identified as a potential pharmacotherapy for AUD. In a 16-week double-blind, randomized, placebo-controlled trial, we investigated 30 and 90 mg/day of baclofen compared to placebo and examined effects of dose, sex, and level of pretreatment drinking. One hundred and twenty participants with DSM-IV alcohol dependence (age 46.1 (sd = 10.1) years, 51.7%",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24654737",
+            "title": "Emerging drugs for the treatment of tobacco dependence: 2014 update.",
+            "authors": [
+              "Elrashidi Muhamad Y",
+              "Ebbert Jon O"
+            ],
+            "journal": "Expert opinion on emerging drugs",
+            "year": "2014",
+            "abstract": "Tobacco dependence remains a global epidemic and the largest preventable cause of morbidity and mortality around the world. Smoking cessation has benefits at all ages but remains challenging for several reasons, among which are the complexities of nicotine addiction and limitations of available pharmacotherapies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25761458",
+            "title": "Recent Developments in Pharmacotherapy of Alcoholism.",
+            "authors": [
+              "Soyka M",
+              "Lieb M"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "2015",
+            "abstract": "Alcohol use disorders are common, but only a small minority of patients receive adequate treatment. Cognitive-behavioural therapies, motivational enhancement interviewing and brief interventions are established treatments, but few pharmacotherapies are available.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36258248",
+            "title": "FORWARDS-1: an adaptive, single-blind, placebo-controlled ascending dose study of acute baclofen on safety parameters in opioid dependence during methadone-maintenance treatment-a pharmacokinetic-pharmacodynamic study.",
+            "authors": [
+              "Paterson L M",
+              "Barker D",
+              "Cro S",
+              "Mozgunov P",
+              "Phillips R"
+            ],
+            "journal": "Trials",
+            "year": "2022",
+            "abstract": "Treatment of opiate addiction with opiate substitution treatment (e.g. methadone) is beneficial. However, some individuals desire or would benefit from abstinence but there are limited options to attenuate problems with opiate withdrawal. Preclinical and preliminary clinical evidence suggests that the GABA-B agonist, baclofen, has the desired properties to facilitate opiate detoxification and prevent relapse. This study aims to understand whether there are any safety issues in administering bacl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28658981",
+            "title": "Pharmacotherapy of alcoholism - an update on approved and off-label medications.",
+            "authors": [
+              "Soyka Michael",
+              "Müller Christian A"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2017",
+            "abstract": "Only a few medications are available for the treatment of alcohol use disorders (AUDs). Areas covered: This paper discusses approved AUD medications, including the opioid antagonists naltrexone and nalmefene (the latter is licensed for reduction of alcohol consumption only), the putative glutamate receptor antagonist acamprosate and the aldehyde dehydrogenase inhibitor disulfiram. It also covers off-label medications of interest, including topiramate, gabapentin, ondansetron, varenicline, baclof",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24971600",
+            "title": "GABAB receptors as a therapeutic strategy in substance use disorders: focus on positive allosteric modulators.",
+            "authors": [
+              "Filip Małgorzata",
+              "Frankowska Małgorzata",
+              "Sadakierska-Chudy Anna",
+              "Suder Agata",
+              "Szumiec Lukasz"
+            ],
+            "journal": "Neuropharmacology",
+            "year": "2015",
+            "abstract": "γ-Aminobutyric acid B (GABAB) receptors and their ligands are postulated as potential therapeutic targets for the treatment of several brain disorders, including drug dependence. Over the past fifteen years positive allosteric modulators (PAMs) have emerged that enhance the effects of GABA at GABAB receptors and which may have therapeutic effects similar to those of agonists but with superior side-effect profiles. This review summarizes current preclinical evidence supporting a role of GABAB rec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Baclofen 透過激活 GABA-B 受體，抑制中腦邊緣系統（VTA→nucleus accumbens）多巴胺神經元的突觸前電壓依賴鈣離子通道，顯著降低尼古丁誘發的多巴胺釋放，從而減弱獎賞效應、尼古丁渴望感及戒斷症狀。此機轉已在多個動物模型中穩健驗證（條件性位置偏好、自我給藥、消退後復發模型），並有 Phase 2 人體試驗支持。為本清單中機轉最明確、臨床證據最充分的適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn": {
+        "score": 0.9888734817504884,
+        "rank": 11371
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "為 ADHD 不專注型亞型。理論上 GABA-B 促效作用可調節前額葉注意力迴路，但目前完全無任何臨床試驗、觀察性研究或動物模型直接針對此亞型測試 baclofen，屬純模型預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "myofascial pain syndrome",
+      "txgnn": {
+        "score": 0.9887475967407228,
+        "rank": 11472
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05617118",
+            "title": "Evaluation of Efficacy and Safety of Oral Baclofen Taking in Comparison With Botulinum Toxin A Injections in Myofascial Pelvic Pain Syndrome. Prospective Multicenter Cohort Study.",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 52,
+            "start_date": "2022-12-01",
+            "completion_date": "2024-05-01",
+            "brief_summary": "The aim of the study is to test the hypothesis that oral taking of baclofen in therapeutic dosage for 60 days is equally effective as injection of botulinum toxin type \"A\" in the area of trigger points of the pelvic muscles.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較口服 baclofen vs 肉毒桿菌毒素 A 注射用於肌筋膜疼痛症候群（n=52，Phase N/A）。然而狀態標示為 UNKNOWN，需核實試驗是否實際執行及數據是否已產出，為本適應症最具潛力的直接臨床試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT07442786",
+            "title": "Clustered tDCS Sessions for Reducing Alcohol Consumption in Non-abstinent Patients With Alcohol Use Disorder: a Multicenter Randomized Controlled Double-blind Trial",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 312,
+            "start_date": "2026-04",
+            "completion_date": "2029-10",
+            "brief_summary": "The global burden of disease and injury attributable to alcohol is considerable: worldwide, 5.3% of deaths are directly related to alcohol. In France, 41 000 deaths were attributable to alcohol in 2015. Alcohol can cause more than 200 diseases. There is an important social cost attached to alcohol, which is estimated at 120 billion euros in France in 2010.\n\nThere is a scientific and clinical rationale for promoting alcohol reduction in alcohol use disorder (AUD). Alcohol harm reduction strategie",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "tDCS 用於非戒斷性酒精使用障礙患者的飲酒量（n=312，尚未招募），與肌筋膜疼痛症候群完全無關，判定為資料配對錯誤，應排除於此適應症分析。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32342054",
+            "title": "A Comparative Study of Low-Level Laser Therapy and Transcutaneous Electrical Nerve Stimulation as an Adjunct to Pharmaceutical Therapy for Myofascial Pain Dysfunction Syndrome: A Randomized Clinical Trial.",
+            "authors": [
+              "Mansourian Arash",
+              "Pourshahidi Sara",
+              "Sadrzadeh-Afshar Maryam-Sadat",
+              "Ebrahimi Hooman"
+            ],
+            "journal": "Frontiers in dentistry",
+            "year": "2019",
+            "abstract": "Myofascial pain dysfunction syndrome (MPDS) is the most common form of temporomandibular disorders. Because of the multifactorial nature of the problem, its management usually involves several treatment modalities to maximize their synergistic effects. This randomized clinical trial aimed to assess the efficacy of low-level laser therapy (LLLT) and transcutaneous electrical nerve stimulation (TENS) as an adjunct to pharmaceutical therapy for treatment of MPDS.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3523670",
+            "title": "[Facial pain].",
+            "authors": [
+              "Maertens de Noordhout A",
+              "Schoenen J"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35904101",
+            "title": "Magnetic therapy in acute and subacute non-specific back pain: Results of an open multicenter study.",
+            "authors": [
+              "Karateev Andrey",
+              "Polishchuk Elena",
+              "Fesyun Anatoly",
+              "Konchugova Tatiana",
+              "Filatova Ekaterina"
+            ],
+            "journal": "European journal of translational myology",
+            "year": "2022",
+            "abstract": "Magnetic therapy (MT) is a non-drug method that improves the effectiveness of treatment of musculoskeletal pain, including:acute non-specific back pain (NBP). Objective of our study was to evaluate the results of complex treatment of patients with acute/subacute NBP at home using MT. The study group consisted of 339 patients with severe acute/subacute NBP. All patients received nonsteroidal anti-inflammatory drugs (NSAIDs). 166 patients (Group 1) received a course of MT (ALMAG+ device), 173 pati",
+            "classification": {
+              "study_type": "Open-label Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18577932",
+            "title": "[The use of baclosan in the complex therapy of muscle-tonic and myofascial pain syndromes in patients with dorsopathy].",
+            "authors": [
+              "Batysheva T T",
+              "Boĭko A N",
+              "Zaĭtsev K A",
+              "Bagir' L V",
+              "Kostenko E V"
+            ],
+            "journal": "Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova",
+            "year": "2008",
+            "abstract": "Baclosan (baclofen), a GABA analogue, has been used in the treatment of 20 patients, aged 20-56 years, with a pain syndrome in dorsopathy of lumbar spine. Baclosan has been administered in the increasing dosages (from 10 mg to 30 mg per day) for 4 weeks in conjunction with traditional therapy (symptomatic pharmacotherapy, physiotherapy, reflexotherapy etc).The control group consisted of 10 patients who received only basic therapy (without baclosan). Patient's status has been measured clinically ",
+            "classification": {
+              "study_type": "Clinical Series / Before-After",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Baclofen 的 GABA-B 促效作用可抑制脊髓 α 運動神經元活性，降低過度肌肉痙攣張力，理論上可緩解肌筋膜觸發點（trigger point）的持續活化所致疼痛。已有俄文臨床系列報告（baclosan = baclofen 俄文商品名）直接支持此用途。注意：配對試驗之一（NCT07442786）與此適應症無關，為資料錯配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "faciodigitogenital syndrome",
+      "txgnn": {
+        "score": 0.9877946376800536,
+        "rank": 12215
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Faciodigitogenital syndrome（Aarskog-Scott 症候群）為 FGD1 基因（編碼 Rho GTPase 鳥嘌呤核苷酸交換因子）突變導致的罕見 X-染色體連鎖發育異常，表現為面部、指/趾及生殖器官形態異常。GABA-B 促效劑與此基因驅動的發育路徑無任何已知機轉交集，判定為 TxGNN 圖神經網絡的高可能假陽性預測（鄰近節點傳播效應）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "trigeminal nerve neoplasm",
+      "txgnn": {
+        "score": 0.9870330095291138,
+        "rank": 12823
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17997704",
+            "title": "Trigeminal neuralgia: for one nerve a multitude of treatments.",
+            "authors": [
+              "Cheshire William P"
+            ],
+            "journal": "Expert review of neurotherapeutics",
+            "year": "2007",
+            "abstract": "Trigeminal neuralgia (TN) is reputed to be one of the most painful conditions in human experience. Thus, many treatments, both medical and surgical, have been developed for this relapsing and remitting, paroxysmal stabbing or electrical, facial pain syndrome. The likely etiology in many cases is vascular compression of the trigeminal nerve root entry zone, leading to focal demyelination and aberrant neural discharges. MRI may disclose neurovascular contact, although not with sufficient sensitivi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28666502",
+            "title": "Bilateral Intractable Trigeminal Neuralgia due to a Prepontine Epidermoid Tumour: An Unlikely Duo.",
+            "authors": [
+              "Junaid Muhammad",
+              "Rashid Mamoon Ur",
+              "Afsheen Afeera",
+              "Tahir Ayesha",
+              "Bukhari Syed Sarmad"
+            ],
+            "journal": "Journal of the College of Physicians and Surgeons--Pakistan : JCPSP",
+            "year": "2016",
+            "abstract": "Prepontine epidermoid is a rare congenital tumour which arises during 3rd - 5th week of embryogenesis due to incomplete separation of neuroectoderm from surface ectoderm. This is slow growing benign tumour with late presentation in adult life. The clinical symptoms depend on the location of the tumour. In this case, the patient had intractable bilateral trigeminal neuralgia. The patient was given conservative treatment for 8 weeks with carbamazipine, but it did not respond to the neuralgic pain ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "關鍵辨析：現有兩篇文獻均描述「三叉神經痛（trigeminal neuralgia）」而非「三叉神經腫瘤（trigeminal nerve neoplasm）」。Baclofen 對三叉神經痛有一定文獻支持（GABA-B 受體活化可抑制三叉神經脊束核的異常高頻放電），但三叉神經腫瘤本身無已知 GABA-B 相關治療機轉。適應症分類可能存在 ICD 編碼混用問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "methemoglobinemia",
+      "txgnn": {
+        "score": 0.9833434820175172,
+        "rank": 15239
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10327817",
+            "title": "Lessons to be learned: a case study approach: prolonged methaemoglobinaemia due to inadvertent dapsone poisoning; treatment with methylene blue and exchange transfusion.",
+            "authors": [
+              "Southgate H J",
+              "Masterson R"
+            ],
+            "journal": "The journal of the Royal Society for the Promotion of Health",
+            "year": "1999",
+            "abstract": "The authors present a case of methaemoglobinaemia of acute onset, with an unusually protracted course. The long persistence of this disorder led to a search for the cause which was eventually traced to medication with dapsone. The latter was found to be inappropriately being taken by the patient instead of an antispasmodic that had been prescribed for a spinal condition; this was because the tablets had been incorrectly labelled and dispensed in a pharmacy. The patient took increasing doses of t",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "高鐵血紅蛋白血症的病理機轉為血紅蛋白 Fe²⁺ 被氧化為 Fe³⁺，失去攜氧能力，標準治療為亞甲藍（methylene blue，還原劑）。GABA-B 促效劑對血紅蛋白氧化還原狀態無任何已知影響，機轉完全不符。現有文獻（dapsone 誘發高鐵血紅蛋白血症案例）與 baclofen 無任何關聯，判定為 TxGNN 預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "chondromyxoid fibroma",
+      "txgnn": {
+        "score": 0.981485903263092,
+        "rank": 16286
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "軟骨黏液樣纖維瘤（CMF）為罕見良性骨腫瘤，病理特徵為富含黏液樣基質的軟骨樣組織增生，主要治療為病灶刮除加植骨術。無任何已知 GABA-B 受體表達於 CMF 腫瘤組織，亦無任何藥物治療文獻，判定為 TxGNN 預測假陽性（極可能為知識圖譜中肌肉骨骼疾病節點的非特異性近鄰效應）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "methemoglobinemia, alpha type",
+      "txgnn": {
+        "score": 0.9797409772872924,
+        "rank": 17137
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alpha 型高鐵血紅蛋白血症為 HBA1/HBA2 基因突變導致的先天性血色素病變（Hb M disease），血紅蛋白α鏈結構異常使 Fe³⁺ 持續穩定，無法被亞甲藍還原。此遺傳性病變與 GABA-B 訊號路徑無任何交集，亦無任何支持證據，判定為 TxGNN 預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "specific developmental disorder",
+      "txgnn": {
+        "score": 0.9795255661010742,
+        "rank": 17238
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04618978",
+            "title": "Periodic Leg Movement's Diagnosis in Spinal Cord Injury: Actigraphy as an Alternative for Polysomnography?",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2021-02-25",
+            "completion_date": "2025-01-17",
+            "brief_summary": "Periodic Limb Movements during Sleep (PLMs) are episodes of repetitive, stereotypical, hallux or foot movements. They could induce sleep disturbance, fatigue, daytime sleepiness and impaired quality of life but also increased cardiovascular risk by rising heart rate and blood pressure at night. Gold standard for PLMs diagnosis is based on electromyographic recording of tibialis anterior muscle during full night polysomnography (PSG).\n\nPLMs prevalence is higher in patients with spinal cord injury",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "脊髓損傷患者週期性腿部運動之多導睡眠圖 vs 體動紀錄儀診斷比較研究（n=160），研究設計與特定發展障礙無關，屬誤配對。"
+            }
+          },
+          {
+            "nct_id": "NCT03682978",
+            "title": "A Phase II Randomized, Double-Blind, Placebo-Controlled Study of the Efficacy, Safety, and Tolerability of Arbaclofen Administered for the Treatment of Social Function in Children and Adolescents With Autism Spectrum Disorders",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 124,
+            "start_date": "2019-09-19",
+            "completion_date": "2023-01-27",
+            "brief_summary": "AIMS-2-CT-01 is a randomized, double-blind, placebo controlled, study to explore the efficacy, safety and tolerability of Arbaclofen administered to children and adolescents (ages 5-17) for the treatment of social adaptive function in participants with ASD. The effects of Arbaclofen on social function in children and adolescents with ASD will be evaluated in a randomized, placebo controlled, parallel-group study of 16 weeks duration. Subjects who meet protocol criteria will be randomly allocated",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 RCT 已完成（n=124），雙盲安慰劑對照設計，根據配對文獻推測目標適應症可能為 CMT1A 或類似神經發育疾病，但需確認主要終點與 baclofen 的具體關係。試驗完整性評分高，適應症對應需進一步核實。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36511878",
+            "title": "Downregulation of PMP22 ameliorates myelin defects in iPSC-derived human organoid cultures of CMT1A.",
+            "authors": [
+              "Van Lent Jonas",
+              "Vendredy Leen",
+              "Adriaenssens Elias",
+              "Da Silva Authier Tatiana",
+              "Asselbergh Bob"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2023",
+            "abstract": "Charcot-Marie-Tooth disease is the most common inherited disorder of the PNS. CMT1A accounts for 40-50% of all cases and is caused by a duplication of the PMP22 gene on chromosome 17, leading to dysmyelination in the PNS. Patient-derived models to study such myelination defects are lacking as the in vitro generation of human myelinating Schwann cells has proved to be particularly challenging. Here, we present an induced pluripotent stem cell-derived organoid culture, containing various cell type",
+            "classification": {
+              "study_type": "Basic Research (iPSC Model)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31777043",
+            "title": "Tone Reduction and Physical Therapy: Strengthening Partners in Treatment of Children with Spastic Cerebral Palsy.",
+            "authors": [
+              "Franki Inge",
+              "Bar-On Lynn",
+              "Molenaers Guy",
+              "Van Campenhout Anja",
+              "Craenen Karen"
+            ],
+            "journal": "Neuropediatrics",
+            "year": "2020",
+            "abstract": "The aim of this paper is to provide a clinically applicable overview of different tone reducing modalities and how these can interact with or augment concurrent physical therapy (PT). Botulinum toxin (BoNT), oral tone-regulating medication, intrathecal baclofen (ITB), and selective dorsal rhizotomy are discussed within a physiotherapeutic context and in view of current scientific evidence. We propose clinical reasoning strategies to identify treatment goals as well as the appropriate and corresp",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「特定發展障礙」為廣義分類，涵蓋語言、學習、運動協調等障礙。現有文獻指向兩個不同方向：(1) CMT1A（Charcot-Marie-Tooth type 1A）—PMP22 過表達的髓鞘病變，baclofen 無直接已知機轉；(2) 腦性麻痺痙攣型—baclofen 鞘內注射（ITB）已有核准，但口服 baclofen 用於一般「特定發展障礙」的直接證據不足。注意：NCT04618978 為脊髓損傷週期性腿部運動研究，與此適應症分類不符。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "nicotine dependence"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "nicotine dependence"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "nicotine dependence"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "faciodigitogenital syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "trigeminal nerve neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "trigeminal nerve neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "trigeminal nerve neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "methemoglobinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "methemoglobinemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "methemoglobinemia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "chondromyxoid fibroma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "methemoglobinemia, alpha type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Baclofen",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    }
+  ]
+}

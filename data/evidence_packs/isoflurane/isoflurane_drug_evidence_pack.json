@@ -1,0 +1,1156 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00753-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Isoflurane",
+    "drugbank_id": "DB00753",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Prinzmetal angina",
+      "txgnn": {
+        "score": 0.9967308044433594,
+        "rank": 4859
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Isoflurane 具缺血預處理效應（粒線體 K-ATP 通道 → PKC → adenosine），理論上可保護心肌免受缺血損傷。然而 Prinzmetal angina 病理核心為冠狀動脈痙攣，而 isoflurane 麻醉誘導/甦醒期的交感神經激活及已知 'coronary steal phenomenon' 實際上可能誘發或加劇血管痙攣，屬該族群的已知臨床顧慮而非治療效益。機轉連結矛盾，無任何臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "Tourette syndrome",
+      "txgnn": {
+        "score": 0.9960535764694214,
+        "rank": 5553
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Tourette 症候群核心病理為紋狀體–丘腦–皮層迴路中 dopaminergic/GABAergic 失衡。Isoflurane 的 GABA-A 增強在理論上可抑制多餘的皮層興奮，但作為吸入性麻醉劑根本無法應用於慢性神經精神疾患的門診管理。知識圖譜推論，無任何臨床前或臨床支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "manic bipolar affective disorder",
+      "txgnn": {
+        "score": 0.9957090616226196,
+        "rank": 5871
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7502646",
+            "title": "Differential diagnosis of malignant hyperthermia: a case report.",
+            "authors": [
+              "Struebing V L"
+            ],
+            "journal": "AANA journal",
+            "year": "1995",
+            "abstract": "A 17-year-old male received general anesthesia for repair of a torn right knee anterior cruciate ligament. The medical history revealed manic-depressive psychosis, treated with lithium carbonate and sertraline hydrochloride, and asthma for which the patient occasionally used an albuterol inhaler. Induction with propofol, isoflurane, nitrous oxide, and oxygen was uneventful. Anesthesia was maintained by isoflurane, nitrous oxide, and oxygen. During the first 90 minutes after induction, a persiste",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8462536",
+            "title": "Intra-individual open comparison of burst-suppression-isoflurane-anaesthesia versus electroconvulsive therapy in the treatment of severe depression.",
+            "authors": [
+              "Engelhardt W",
+              "Carl G",
+              "Hartung E"
+            ],
+            "journal": "European journal of anaesthesiology",
+            "year": "1993",
+            "abstract": "Isoflurane anaesthesia was proposed instead of electro-convulsive therapy (ECT) in patients with treatment-refractory depression. This open study compared burst-suppression-isoflurane-anaesthesia (BSIA) and ECT in 12 severely depressed patients. A series of 6 BSIA was administered in every patient. If improvement was insufficient or only temporary, a series of up to 12 ECT was given. A marked improvement of the depression was shown after both BSIA and ECT. Three patients were discharged from hos",
+            "classification": {
+              "study_type": "非隨機開放性臨床比較研究（Open Intra-individual Comparison）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18930636",
+            "title": "Positron emission tomography with fluorodeoxyglucose-F18 in an animal model of mania.",
+            "authors": [
+              "Hougland Matthew Tyler",
+              "Gao Yonglin",
+              "Herman Laura",
+              "Ng Chin K",
+              "Lei Zhenmin"
+            ],
+            "journal": "Psychiatry research",
+            "year": "2008",
+            "abstract": "Intracerebroventricular (ICV) administration of ouabain to young adult rats has been suggested to model human bipolar mania. In the human condition, mania and bipolar depression are both associated with reductions in frontal cerebral metabolism. We utilized [(18)F]-fluorodeoxyglucose [(18)FDG] positron emission tomography (PET) to visualize glucose uptake in animals receiving ICV ouabain. Animals received 5 microl of 10(-)(3) M ouabain ICV, were anesthetized with isoflurane inhalation, and admin",
+            "classification": {
+              "study_type": "Animal Study（PET 神經影像）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "躁症的核心神經生物學特徵包含 glutamatergic overactivity 及 GABAergic 不足；isoflurane 透過 NMDA 拮抗及 GABA-A 增強可大幅降低神經元過度興奮。1990 年代有研究者探索以 isoflurane 誘導 burst-suppression（腦電爆發抑制）作為 ECT 替代方案用於難治性情感疾患，機轉與 ketamine 用於抑鬱症類似（同為 NMDA 拮抗）。惟此機轉在臨床上已有30年以上無進展，且給藥方式之可行性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "trichotillomania",
+      "txgnn": {
+        "score": 0.995353102684021,
+        "rank": 6188
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "拔毛症為 OCD 頻譜疾患，涉及 serotonin/glutamate/dopamine 多路徑失調。Isoflurane 的 NMDA 拮抗及 GABA-A 增強在 OCD 頻譜疾患有理論上的邊際相關性，但無任何臨床或臨床前研究，TxGNN 高分（0.9954）應反映知識圖譜的結構性類似性推論，而非真實治療潛力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "dysthymic disorder",
+      "txgnn": {
+        "score": 0.9926857948303224,
+        "rank": 8480
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "持續性憂鬱疾患可能涉及 NMDA 受體慢性過度活化及 GABAergic 功能不足。Isoflurane 的 NMDA 拮抗機轉與 ketamine 快速抗憂鬱效應相近，但 ketamine 在此領域已有大量 Phase 3 RCT 資料，isoflurane 完全無臨床探索紀錄。吸入性給藥方式及安全性疑慮進一步排除長期應用可能性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9909391403198242,
+        "rank": 9852
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 為 AVPR2（V2 vasopressin receptor）功能獲得性突變，導致 ADH 非依賴性持續性水分再吸收及稀釋性低鈉血症。Isoflurane 可雙向影響 ADH 分泌，但無法針對 AVPR2 突變的病理機制產生治療效益。反之，isoflurane 代謝產物無機氟離子具腎毒性，對需謹慎腎功能管理的 NSIAD 患者存在額外風險。機轉連結不成立。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9905720353126526,
+        "rank": 10143
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39354357",
+            "title": "Effects of passive smoking on cortical spreading depolarization in male and female mice.",
+            "authors": [
+              "Takizawa Tsubasa",
+              "Ihara Keiko",
+              "Unekawa Miyuki",
+              "Iba Chisato",
+              "Kagawa Shizuko"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2024",
+            "abstract": "Patients with migraine are typically advised to avoid passive smoking because it may aggravate headaches and other health conditions. However, there is insufficient high-quality evidence on the association between passive smoking and migraine, which warrants further investigation using animal models. Therefore, using a mouse model, we examined the effect of passive smoking on susceptibility to cortical spreading depolarization (CSD), the biological basis of migraine with aura.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27122032",
+            "title": "Susceptibility of Primary Sensory Cortex to Spreading Depolarizations.",
+            "authors": [
+              "Bogdanov Volodymyr B",
+              "Middleton Natalie A",
+              "Theriot Jeremy J",
+              "Parker Patrick D",
+              "Abdullah Osama M"
+            ],
+            "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": "2016",
+            "abstract": "Spreading depolarizations (SDs) are recognized as actors in neurological disorders as diverse as migraine and traumatic brain injury (TBI). Migraine aura involves sensory percepts, suggesting that sensory cortices might be intrinsically susceptible to SDs. We used optical imaging, MRI, and field potential and potassium electrode recordings in mice and electrocorticographic recordings in humans to determine the susceptibility of different brain regions to SDs. Optical imaging experiments in mice ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40764901",
+            "title": "Small-molecule CGRP antagonist atogepant does not affect cortical spreading depression susceptibility in rats.",
+            "authors": [
+              "Jin Xuyan",
+              "Morais Andreia",
+              "Sasaki Yuichi",
+              "Zhai Qingling",
+              "Banerjee Pradeep"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2025",
+            "abstract": "Atogepant is a small-molecule non-competitive calcitonin gene-related peptide (CGRP) receptor antagonist efficacious in preventing episodic migraine. Cortical spreading depolarization (CSD) is a slowly propagating depolarization wave underlying migraine aura. We investigated whether the efficacy of atogepant in migraine is mediated by CSD suppression.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17267580",
+            "title": "Effects of pan- and subtype-selective N-methyl-D-aspartate receptor antagonists on cortical spreading depression in the rat: therapeutic potential for migraine.",
+            "authors": [
+              "Peeters Magali",
+              "Gunthorpe Martin J",
+              "Strijbos Paul J L M",
+              "Goldsmith Paul",
+              "Upton Neil"
+            ],
+            "journal": "The Journal of pharmacology and experimental therapeutics",
+            "year": "2007",
+            "abstract": "Spreading depression (SD) has long been associated with the underlying pathophysiology of migraine. Evidence that the N-methyl-D-aspartate (NMDA) glutamate receptor (NMDA-R) is implicated in the generation and propagation of SD has itself been available for more than 15 years. However, to date, there are no reports of NMDA-R antagonists being developed for migraine therapy. In this study, an uncompetitive, pan-NMDA-R blocker, memantine, approved for clinical use, and two antagonists with selecti",
+            "classification": {
+              "study_type": "Animal Study（藥理比較研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26323741",
+            "title": "Treatment of status migrainosus by general anesthesia: a case report.",
+            "authors": [
+              "Udelsmann Artur",
+              "Saccomani Priscila",
+              "Dreyer Elisabeth",
+              "da Costa Alberto Luiz Cunha"
+            ],
+            "journal": "Brazilian journal of anesthesiology (Elsevier)",
+            "year": "2015",
+            "abstract": "The status migrainosus is a complication of migraine characterized by severe headache for more than 72h that did not respond to treatment, with risk of stroke and suicide. Researches on treatment are directed to drugs that stimulate GABA receptors; propofol and isoflurane act on sub-GABAa receptors and theoretically could be interesting. The first has been the subject of research in severe migraine. Opioids are employed in pain, and its use in chronic headache is debatable, but these agents are ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26363696",
+            "title": "[Treatment of status migrainosus by general anesthesia: a case report].",
+            "authors": [
+              "Udelsmann Artur",
+              "Saccomani Priscila",
+              "Dreyer Elisabeth",
+              "Costa Alberto Luiz Cunha da"
+            ],
+            "journal": "Revista brasileira de anestesiologia",
+            "year": "2015",
+            "abstract": "The status migrainosus is a complication of migraine characterizedby severe headache for more than 72 h that did not respond to treatment, with risk of strokeand suicide. Researches on treatment are directed to drugs that stimulate GABA receptors; propofol and isoflurane act on sub-GABAa receptors and theoretically could be interesting. The first has been the subject of research in severe migraine. Opioids are employed in pain, and its use in chronic headache is debatable, but these agents are e",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8665587",
+            "title": "Inhalational anesthetics inhibit spreading depression: relevance to migraine.",
+            "authors": [
+              "Piper R D",
+              "Lambert G A"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1996",
+            "abstract": "Cortical spreading depression (SD) has not been shown in the human neocortex by direct cortical recordings. However, animal studies suggest that cortical injury, such as that occurring during neurosurgical procedures, should result in the initiation of SD. It is possible that inhibition of SD by volatile anesthetic agents may partially explain the failure to observe SD in the human neocortex during surgery. This study examines the effect of the anesthetic agents alpha-chloralose, halothane, nitr",
+            "classification": {
+              "study_type": "Animal Study（機轉研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22523186",
+            "title": "Suppressive effect of chronic peroral topiramate on potassium-induced cortical spreading depression in rats.",
+            "authors": [
+              "Unekawa Miyuki",
+              "Tomita Yutaka",
+              "Toriumi Haruki",
+              "Suzuki Norihiro"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2012",
+            "abstract": "To evaluate the chronic effect of topiramate (TPM) on cortical spreading depression (CSD), which is thought to be related to migraine aura.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20974582",
+            "title": "Increase in CGRP- and nNOS-immunoreactive neurons in the rat trigeminal ganglion after infusion of an NO donor.",
+            "authors": [
+              "Dieterle Anne",
+              "Fischer Michael J M",
+              "Link Andrea S",
+              "Neuhuber Winfried L",
+              "Messlinger Karl"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2011",
+            "abstract": "Nitrovasodilators, such as glyceroltrinitrate (GTN), which produce nitric oxide (NO) in the organism, are known to cause delayed headaches in migraineurs, accompanied by increased plasma levels of calcitonin gene-related peptide (CGRP) in the cranial venous outflow. Increases in plasma CGRP and NO metabolites have also been found in spontaneous migraine attacks. In a rat model of meningeal nociception, infusion of NO donors induced activity of neurons in the spinal trigeminal nucleus.",
+            "classification": {
+              "study_type": "Animal Study（神經化學研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27091721",
+            "title": "Upregulation of inflammatory gene transcripts in periosteum of chronic migraineurs: Implications for extracranial origin of headache.",
+            "authors": [
+              "Perry Carlton J",
+              "Blake Pamela",
+              "Buettner Catherine",
+              "Papavassiliou Efstathios",
+              "Schain Aaron J"
+            ],
+            "journal": "Annals of neurology",
+            "year": "2016",
+            "abstract": "Chronic migraine (CM) is often associated with chronic tenderness of pericranial muscles. A distinct increase in muscle tenderness prior to onset of occipital headache that eventually progresses into a full-blown migraine attack is common. This experience raises the possibility that some CM attacks originate outside the cranium. The objective of this study was to determine whether there are extracranial pathophysiologies in these headaches.",
+            "classification": {
+              "study_type": "Clinical/Translational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24256609",
+            "title": "The calcitonin gene-related peptide receptor antagonist MK-8825 decreases spinal trigeminal activity during nitroglycerin infusion.",
+            "authors": [
+              "Feistel Stephan",
+              "Albrecht Stephanie",
+              "Messlinger Karl"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2013",
+            "abstract": "Calcitonin gene-related peptide (CGRP) and nitric oxide (NO) are regarded as key mediators in migraine and other primary headaches. Migraineurs respond to infusion of nitroglycerin with delayed headaches, and inhibition of CGRP receptors has been shown to be effective in migraine therapy. In animal experiments nitrovasodilators like nitroglycerin induced increases in spinal trigeminal activity, which were reversed after inhibition of CGRP receptors. In the present study we asked if CGRP receptor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24004534",
+            "title": "Changes in calcitonin gene-related peptide (CGRP) receptor component and nitric oxide receptor (sGC) immunoreactivity in rat trigeminal ganglion following glyceroltrinitrate pretreatment.",
+            "authors": [
+              "Seiler Kristin",
+              "Nusser Judith I",
+              "Lennerz Jochen K",
+              "Neuhuber Winfried L",
+              "Messlinger Karl"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2013",
+            "abstract": "Nitric oxide (NO) is thought to play an important role in the pathophysiology of migraine. Infusion of the nitrovasodilator glyceroltrinitrate (nitroglycerin, GTN), which mobilizes NO in the organism, is an approved migraine model in humans. Calcitonin gene-related peptide (CGRP) is regarded as another key mediator in migraine. Increased plasma levels of CGRP have been found during spontaneous as well as nitrovasodilator-induced migraine attacks. The nociceptive processes and interactions underl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Isoflurane 在動物模型中被充分證實可劑量依賴性地抑制皮層擴散去極化（cortical spreading depression, CSD）——偏頭痛先兆的電生理基礎及偏頭痛頭痛期觸發的核心機制。主要機轉：① NMDA 受體拮抗阻斷 CSD 傳播（細胞外 K⁺ 累積需 NMDA 活化才能持續）；② GABA-A 增強穩定神經元膜電位閾值；③ 兩孔鉀通道活化增加靜息膜電導。臨床層面：難治性偏頭痛持續狀態（status migrainosus）已有個案報告使用全身麻醉成功中止發作，且 PMID 20974582 顯示 isoflurane 輸注可改變三叉神經節 CGRP/nNOS 表達——直接涉及偏頭痛三叉血管路徑。主要障礙：需住院吸入給藥，長期使用之肝腎毒性，MH 觸發風險。急性難治性偏頭痛/status migrainosus 的短期住院搶救性應用或有一定探索空間。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "myofascial pain syndrome",
+      "txgnn": {
+        "score": 0.9885686635971068,
+        "rank": 11637
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌筋膜疼痛症候群的機制涵蓋局部肌肉缺血、激痛點（trigger points）形成及中樞敏化。Isoflurane 的肌肉鬆弛（骨骼肌鬆弛輔助作用）及中樞神經廣泛抑制理論上可暫時緩解症狀，但此為所有全身麻醉藥物的共有非特異性效應，且無任何研究支持長期疼痛管理應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9875673055648804,
+        "rank": 12379
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39354357",
+            "title": "Effects of passive smoking on cortical spreading depolarization in male and female mice.",
+            "authors": [
+              "Takizawa Tsubasa",
+              "Ihara Keiko",
+              "Unekawa Miyuki",
+              "Iba Chisato",
+              "Kagawa Shizuko"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2024",
+            "abstract": "Patients with migraine are typically advised to avoid passive smoking because it may aggravate headaches and other health conditions. However, there is insufficient high-quality evidence on the association between passive smoking and migraine, which warrants further investigation using animal models. Therefore, using a mouse model, we examined the effect of passive smoking on susceptibility to cortical spreading depolarization (CSD), the biological basis of migraine with aura.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40841621",
+            "title": "Oral atogepant mitigates spreading depolarization-induced pain and anxiety behavior in mice.",
+            "authors": [
+              "Kaya Melih Z",
+              "Banerjee Pradeep",
+              "Ayata Cenk",
+              "Harriott Andrea M"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2025",
+            "abstract": "Spreading depolarization (SD) is the most likely cause of migraine aura and may be linked to trigeminal nociception. Using minimally invasive optogenetic SD induction (opto-SD), we previously showed that SD triggers acute periorbital mechanical allodynia-like behavior, supporting SD-induced activation of migraine-relevant trigeminal pain pathways. Here, we tested whether selective oral calcitonin gene-related peptide (CGRP) receptor antagonist, atogepant, could ameliorate SD-evoked pain and anxi",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36810711",
+            "title": "Nimodipine accelerates the restoration of functional hyperemia during spreading oligemia.",
+            "authors": [
+              "Menyhárt Ákos",
+              "Bálint Armand Rafael",
+              "Kozák Péter",
+              "Bari Ferenc",
+              "Farkas Eszter"
+            ],
+            "journal": "Journal of neurochemistry",
+            "year": "2024",
+            "abstract": "Spreading depolarization (SD) is assumed to be the pathophysiological correlate of migraine aura, leading to spreading depression of activity and a long-lasting vasoconstriction known as spreading oligemia. Furthermore, cerebrovascular reactivity is reversibly impaired after SD. Here, we explored the progressive restoration of impaired neurovascular coupling to somatosensory activation during spreading oligemia. Also, we evaluated whether nimodipine treatment accelerated the recovery of impaired",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40764901",
+            "title": "Small-molecule CGRP antagonist atogepant does not affect cortical spreading depression susceptibility in rats.",
+            "authors": [
+              "Jin Xuyan",
+              "Morais Andreia",
+              "Sasaki Yuichi",
+              "Zhai Qingling",
+              "Banerjee Pradeep"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2025",
+            "abstract": "Atogepant is a small-molecule non-competitive calcitonin gene-related peptide (CGRP) receptor antagonist efficacious in preventing episodic migraine. Cortical spreading depolarization (CSD) is a slowly propagating depolarization wave underlying migraine aura. We investigated whether the efficacy of atogepant in migraine is mediated by CSD suppression.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27122032",
+            "title": "Susceptibility of Primary Sensory Cortex to Spreading Depolarizations.",
+            "authors": [
+              "Bogdanov Volodymyr B",
+              "Middleton Natalie A",
+              "Theriot Jeremy J",
+              "Parker Patrick D",
+              "Abdullah Osama M"
+            ],
+            "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+            "year": "2016",
+            "abstract": "Spreading depolarizations (SDs) are recognized as actors in neurological disorders as diverse as migraine and traumatic brain injury (TBI). Migraine aura involves sensory percepts, suggesting that sensory cortices might be intrinsically susceptible to SDs. We used optical imaging, MRI, and field potential and potassium electrode recordings in mice and electrocorticographic recordings in humans to determine the susceptibility of different brain regions to SDs. Optical imaging experiments in mice ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18501348",
+            "title": "The impact of anesthetics and hyperoxia on cortical spreading depression.",
+            "authors": [
+              "Kudo Chiho",
+              "Nozari Ala",
+              "Moskowitz Michael A",
+              "Ayata Cenk"
+            ],
+            "journal": "Experimental neurology",
+            "year": "2008",
+            "abstract": "Cortical spreading depression (CSD), a transient neuronal and glial depolarization that propagates slowly across the cerebral cortex, is the putative electrophysiological event underlying migraine aura. It negatively impacts tissue injury during stroke, cerebral contusion and intracranial hemorrhage. Susceptibility to CSD has been assessed in several experimental animal models in vivo, such as after topical KCl application or cathodal stimulation. Various combinations of anesthetics and ambient ",
+            "classification": {
+              "study_type": "Animal Study（劑量效應研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22523186",
+            "title": "Suppressive effect of chronic peroral topiramate on potassium-induced cortical spreading depression in rats.",
+            "authors": [
+              "Unekawa Miyuki",
+              "Tomita Yutaka",
+              "Toriumi Haruki",
+              "Suzuki Norihiro"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2012",
+            "abstract": "To evaluate the chronic effect of topiramate (TPM) on cortical spreading depression (CSD), which is thought to be related to migraine aura.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35073844",
+            "title": "Cortical spreading depression induces propagating activation of the thalamus ventral posteromedial nucleus in awake mice.",
+            "authors": [
+              "Fu Xiaoxi",
+              "Chen Ming",
+              "Lu Jinling",
+              "Li Pengcheng"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2022",
+            "abstract": "As the relay centre for processing sensory information, the thalamus may involve in the abnormal sensory procedure caused by cortical spreading depression (CSD). However, few studies have focused on the transient response of thalamus during CSD. Our study aimed to investigate the neuronal activity of mouse thalamus ventral posteromedial nucleus (VPM) during CSD by in vivo micro-endoscopic fluorescence imaging of the genetic calcium probe GCaMP6s expressed in excitatory glutamatergic neurons.",
+            "classification": {
+              "study_type": "Animal Study（神經迴路研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8665587",
+            "title": "Inhalational anesthetics inhibit spreading depression: relevance to migraine.",
+            "authors": [
+              "Piper R D",
+              "Lambert G A"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "1996",
+            "abstract": "Cortical spreading depression (SD) has not been shown in the human neocortex by direct cortical recordings. However, animal studies suggest that cortical injury, such as that occurring during neurosurgical procedures, should result in the initiation of SD. It is possible that inhibition of SD by volatile anesthetic agents may partially explain the failure to observe SD in the human neocortex during surgery. This study examines the effect of the anesthetic agents alpha-chloralose, halothane, nitr",
+            "classification": {
+              "study_type": "Animal Study（機轉研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腦幹先兆偏頭痛（原稱基底型偏頭痛）的病理涉及 CSD 波及後顱窩及腦幹結構，觸發腦幹特異性症狀（眩暈、複視、構音障礙、意識改變）。Isoflurane 的 CSD 抑制機轉與偏頭痛相同且適用，PMID 18501348 提供了 isoflurane 濃度依賴性抑制 CSD 的量效關係數據。此外，PMID 35073844 顯示 CSD 誘發丘腦 VPM 核的活化，而 isoflurane 的全腦性神經抑制可能對此腦幹-丘腦傳導路徑有額外的緩解效應。惟此為偏頭痛中少見且高度特殊的亞型（被排除在多數 triptans 試驗之外），臨床開發難度高於一般偏頭痛。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "myositis fibrosa",
+      "txgnn": {
+        "score": 0.9874892830848694,
+        "rank": 12451
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌炎纖維化為罕見的骨骼肌炎症性纖維化病變，isoflurane 無已知的抗纖維化或抗炎症機轉。特別需注意的是，isoflurane 為惡性高熱（malignant hyperthermia）的已知觸發藥物，而 MH 的病理機制涉及骨骼肌 RYR1 受體異常（常見於肌肉疾患族群），使其在骨骼肌病變患者中存在實質安全疑慮，應列為相對禁忌。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "Tourette syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "Tourette syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "Tourette syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "manic bipolar affective disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "manic bipolar affective disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "manic bipolar affective disorder"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "trichotillomania"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "trichotillomania"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "trichotillomania"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "myofascial pain syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoflurane",
+        "disease": "myositis fibrosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

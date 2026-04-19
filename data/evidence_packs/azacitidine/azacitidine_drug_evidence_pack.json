@@ -1,0 +1,1739 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00928-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Azacitidine",
+    "drugbank_id": "DB00928",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "bulbar polio",
+      "txgnn": {
+        "score": 0.98591947555542,
+        "rank": 13619
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Azacitidine 為 DNA 甲基轉移酶抑制劑（HMA），主要作用於異常甲基化之造血幹細胞重程式化。脊髓灰質炎病毒引起的延髓性麻痺屬急性病毒感染/神經破壞性病變，與 HMA 的表觀遺傳機轉無已知生物學交集。TxGNN 高分可能源自知識圖譜中神經系統疾病節點的拓撲鄰近性，而非直接藥理路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "refractory cytopenia of childhood",
+      "txgnn": {
+        "score": 0.981969952583313,
+        "rank": 16034
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00398047",
+            "title": "Combination of Azacitadine and Hematopoietic Growth Factors for Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2006-09",
+            "completion_date": "2009-09",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of abnormal cells, either by killing the cells or by stopping them from dividing. Colony-stimulating factors, such as darbepoetin alfa and G-CSF, may increase the number of red blood cells and white blood cells found in bone marrow or peripheral blood and may help the immune system recover from the side effects of chemotherapy. Giving azacitidine together with darbepoetin alfa and G-CSF may be a",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "針對 MDS（RCC 的上層分類）設計，但因僅收案 3 例即終止，統計效力極低；間接支持 azacitidine 在 MDS/RCC 使用概念，但不提供療效結論。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41098113",
+            "title": "Clinical activity of venetoclax and azacitidine in children with de novo or secondary multiple relapsed/refractory acute myeloid leukemia: a real-world experience.",
+            "authors": [
+              "Arcourt Agathe",
+              "Ilan Uri",
+              "Murillo Laura",
+              "Arad-Cohen Nira",
+              "Rubio Alba"
+            ],
+            "journal": "Haematologica",
+            "year": "2026",
+            "abstract": "Acute myeloid leukemia (AML) remains a major therapeutic challenge, particularly in relapsed or refractory patients, where prognosis is poor. The combination of venetoclax and azacitidine (ven/aza) has demonstrated significant efficacy in adults, yet evidence in pediatric populations is still limited and warrants further investigation. We conducted a multi-center retrospective analysis of 38 pediatric patients with relapsed/refractory (R/R) AML, including patients with de novo and secondary AML,",
+            "classification": {
+              "study_type": "Prospective Case Series / Phase 1-2",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6170431",
+            "title": "Effective remission induction of refractory childhood acute nonlymphocytic leukemia by VP-16-213 plus azacitidine.",
+            "authors": [
+              "Look A T",
+              "Dahl G V",
+              "Kalwinsky D",
+              "Senzer N",
+              "Mason C"
+            ],
+            "journal": "Cancer treatment reports",
+            "year": "1981",
+            "abstract": "Thirty-eight children and young adults with advanced acute nonlymphocytic leukemia (ANLL) in relapse were treated with VP-16-213 plus azacitidine (5AZ). Each patient had previously received many chemotherapeutic drugs, including anthracyclines and cytarabine. Initially, 16 patients received a 5-day course of VP-16-213 (100 mg/m(2)) daily x 3 days and 5AZ 9150 mg/m(2)) daily x 2 days, repeated after 9-16 days. Since this treatment produced marrow hypoplasia and complete remission (CR) in only one",
+            "classification": {
+              "study_type": "Clinical Trial (Older)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26766110",
+            "title": "Therapy with low-dose azacitidine for MDS in children and young adults: a retrospective analysis of the EWOG-MDS study group.",
+            "authors": [
+              "Cseh Annamaria M",
+              "Niemeyer Charlotte M",
+              "Yoshimi Ayami",
+              "Catala Albert",
+              "Frühwald Michael C"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2016",
+            "abstract": "Low-dose azacitidine is efficient and safe in the therapy of malignant myeloid disorders in adults but data in children are lacking. We present a retrospective analysis of 24 children and young adults with myelodysplastic syndrome (MDS) who received azacitidine at the time of first diagnosis or relapse after allotransplant (2 children were treated with azacitidine both initially and for relapse). Diagnoses were refractory cytopenia of childhood (N = 4), advanced primary MDS (N = 9) and secondary",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38067298",
+            "title": "Development of MDS in Pediatric Patients with GATA2 Deficiency: Increased Histone Trimethylation and Deregulated Apoptosis as Potential Drivers of Transformation.",
+            "authors": [
+              "Schreiber Franziska",
+              "Piontek Guido",
+              "Schneider-Kimoto Yuki",
+              "Schwarz-Furlan Stephan",
+              "De Vito Rita"
+            ],
+            "journal": "Cancers",
+            "year": "2023",
+            "abstract": "GATA2 deficiency is a heterogeneous, multisystem disorder associated with a high risk of developing myelodysplastic syndrome (MDS) and the progression to acute myeloid leukemia. The mechanisms underlying malignant transformation in GATA2 deficiency remain poorly understood, necessitating predictive markers to assess an individual's risk of progression and guide therapeutic decisions. In this study, we performed a systematic analysis of bone marrow biopsies from 57 pediatric MDS patients. Focusin",
+            "classification": {
+              "study_type": "Molecular/Translational Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35624441",
+            "title": "The effect of decitabine-combined minimally myelosuppressive regimen bridged allo-HSCT on the outcomes of pediatric MDS from 10 years' experience of a single center.",
+            "authors": [
+              "Gao Junyan",
+              "Hu Yixin",
+              "Gao Li",
+              "Xiao Peifang",
+              "Lu Jun"
+            ],
+            "journal": "BMC pediatrics",
+            "year": "2022",
+            "abstract": "Myelodysplastic syndrome (MDS) is a rare disease in children and the treatment option before the allogeneic hematopoietic stem cell transplantation (allo-HSCT) is rarely reported. Our main objective was to report our single-center experience with the DNA-hypomethylating agent, decitabine-combined minimally myelosuppressive regimen (DAC + MMR) bridged allo-HSCT in children with MDS.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "難治性兒童血球減少症（RCC）是兒童最常見的 MDS 亞型，以低增生性骨髓和單一血球減少為特徵。Azacitidine 藉由去甲基化恢復造血幹細胞正常分化程序，理論上可改善 RCC 的骨髓衰竭；但兒童劑量耐受性、長期毒性（尤其發育影響）尚待釐清。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "txgnn": {
+        "score": 0.981034815311432,
+        "rank": 16533
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00879385",
+            "title": "Targeted Demethylation to Enhance Response or Overcome Resistance to EGFR Blocking Agents in KRAS Wild-type Metastatic Colorectal Cancer Patients Using Sequential Decitabine and Panitumumab",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2009-12",
+            "completion_date": "2013-01",
+            "brief_summary": "OBJECTIVES:\n\nPrimary Objectives\n\n1.To evaluate the safety and feasibility of the sequential use of a DNA methyltransferase (DNMT) inhibitor (decitabine) with a targeted biological agent against EGFR (panitumumab) for KRAS wild type tumors in the second or third line treatment of advanced metastatic colorectal cancer.\n\nSecondary Objectives\n\n1. To examine re-expression or a reduction in promoter methylation in genes involved in tumor suppressor pathways known to be important in colorectal cancer (",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此試驗針對 KRAS 野生型實體瘤（大腸直腸癌）使用 azacitidine 進行表觀遺傳敏感化，與 MDS-U 無直接關聯；但驗證 azacitidine 去甲基化機轉的體內活性，具機轉參考價值。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33275673",
+            "title": "Myelodysplastic syndrome/myeloproliferative neoplasm overlap syndromes: a focused review.",
+            "authors": [
+              "Patnaik Mrinal M",
+              "Lasho Terra"
+            ],
+            "journal": "Hematology. American Society of Hematology. Education Program",
+            "year": "2020",
+            "abstract": "Myelodysplastic syndrome (MDS)/myeloproliferative neoplasm (MPN) overlap syndromes are unique myeloid neoplasms, with overlapping features of MDS and MPN. They consist of four adult onset entities including chronic myelomonocytic leukemia (CMML), MDS/MPN-ring sideroblasts-thrombocytosis (MDS/MPN-RS-T), BCR-ABL1 negative atypical chronic myeloid leukemia (aCML) and MDS/MPN-unclassifiable (MDS/MPN-U); with juvenile myelomonocytic leukemia (JMML) being the only pediatric onset entity. Among these o",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40785134",
+            "title": "Complex Interplay Between Sweet Syndrome and Therapy-Related Myelodysplastic Syndrome After B-Cell Lymphoma Treatment: A Case Report.",
+            "authors": [
+              "Yamashita Hiroto",
+              "Kurosawa Shuhei",
+              "Hamamura Yukari",
+              "Tateishi Yoko",
+              "Hayashi Hiroyuki"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2025",
+            "abstract": "BACKGROUND Sweet syndrome (SS), or acute febrile neutrophilic dermatosis, is an inflammatory skin condition often associated with hematologic malignancies such as myelodysplastic syndrome (MDS). Therapy-related MDS (tMDS) is a well-recognized subtype of myelodysplastic syndrome that arises due to exposure to chemotherapy or radiation therapy. Reports on SS in the context of tMDS are limited, with unclear clinical features. CASE REPORT An 86-year-old woman with low-grade B-cell lymphoma, unclassi",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37495538",
+            "title": "Prognostic Value of Pretreatment Fetal Hemoglobin Levels in Patients with Myelodysplastic Syndromes and Acute Myeloid Leukemia Treated with Azacitidine: A Single-center Retrospective Study.",
+            "authors": [
+              "Saga Tomoyuki",
+              "Kanagawa Michiyo",
+              "Harada Tomoya",
+              "Lang Lang",
+              "Yamawaki Fumihiko"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2024",
+            "abstract": "Objective Azacitidine (AZA) has been the standard of care for elderly patients with high-risk myelodysplastic syndromes (MDS). However, reliable clinical predictors of outcome have yet to be identified. The prognostic value of fetal hemoglobin (HbF) levels has been reported for decitabine therapy. We evaluated pretreatment HbF levels in AZA monotherapy as a prognostic marker in MDS/acute myeloid leukemia (AML). Methods This study included chemotherapy-naïve patients who had received seven-day tr",
+            "classification": {
+              "study_type": "Prospective Observational",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20664061",
+            "title": "Treatment of progression of Philadelphia-negative myeloproliferative neoplasms to myelodysplastic syndrome or acute myeloid leukemia by azacitidine: a report on 54 cases on the behalf of the Groupe Francophone des Myelodysplasies (GFM).",
+            "authors": [
+              "Thepot Sylvain",
+              "Itzykson Raphael",
+              "Seegers Valerie",
+              "Raffoux Emmanuel",
+              "Quesnel Bruno"
+            ],
+            "journal": "Blood",
+            "year": "2010",
+            "abstract": "Transformation of Philadelphia (Ph)-negative myeloproliferative neoplasms (MPNs) to myelodysplastic syndrome (MDS) or acute myeloid leukemia (AML) is associated with poor response to chemotherapy and short survival. Fifty-four patients with Ph-negative MPN (including 21 essential thrombocythemia [ET], 21 polycythemia vera [PV], 7 primary myelofibrosis, and 5 unclassified MPN) who had progressed to AML (n = 26) or MDS (n = 28) were treated with azacitidine in a patient-named program. Overall resp",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26350487",
+            "title": "Systemic inflammatory and autoimmune manifestations associated with myelodysplastic syndromes and chronic myelomonocytic leukaemia: a French multicentre retrospective study.",
+            "authors": [
+              "Mekinian Arsène",
+              "Grignano Eric",
+              "Braun Thorsten",
+              "Decaux Olivier",
+              "Liozon Eric"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2016",
+            "abstract": "We describe myelodysplastic syndrome (MDS)-associated systemic inflammatory and autoimmune diseases (SIADs), their treatments and outcomes and the impact of SIADs on overall survival in a French multicentre retrospective study.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24956145",
+            "title": "Patients with myelodysplastic syndromes treated with azacitidine in clinical practice: the AVIDA registry.",
+            "authors": [
+              "Grinblatt David L",
+              "Sekeres Mikkael A",
+              "Komrokji Rami S",
+              "Swern Arlene S",
+              "Sullivan Kristen A"
+            ],
+            "journal": "Leukemia & lymphoma",
+            "year": "2015",
+            "abstract": "The AVIDA registry evaluated azacitidine usage and effectiveness in unselected patients with myelodysplastic syndromes (MDS) in community practice. Treating physicians made all treatment decisions. Hematologic improvement (HI) and transfusion independence (TI) assessments used International Working Group (IWG) 2000 criteria. Enrolled were 421 patients with MDS (n = 228 International Prognostic Scoring System [IPSS] lower-risk, n = 106 higher-risk, 86 patients unclassified) from 105 US sites. Med",
+            "classification": {
+              "study_type": "Registry / Real-World Observational",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36474285",
+            "title": "A treatment-refractory aggressive MDS-MLD with multiple highly complex chromosome 5 intrachromosomal rearrangements: a case report.",
+            "authors": [
+              "Sasi Ramakrishnan",
+              "Senft Jamie",
+              "Spruill Michelle",
+              "Barua Subit",
+              "Dougaparsad Sam"
+            ],
+            "journal": "Molecular cytogenetics",
+            "year": "2022",
+            "abstract": "A patient with a myelodysplastic neoplasm exhibited a karyotype with multiple complex chromosome 5 rearrangements. This patient appeared to have a catastrophic cytogenetic event that manifested as a treatment-refractory aggressive form of disease, which lead to patient demise within one year. Both the clinical presentation and disease course were unusual based on the medical history and morphologic findings. Such cases of myelodysplastic syndrome with multilineage dysplasia (MDS-MLD) with comple",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24850455",
+            "title": "[Successful treatment of an essential thrombocythemia patient complicated by Sweet's syndrome with combination of chemotherapy and lenalidomide].",
+            "authors": [
+              "Yamada Michiko",
+              "Kuroda Hiroyuki",
+              "Yoshida Masahiro",
+              "Jomen Wataru",
+              "Abe Tomoyuki"
+            ],
+            "journal": "[Rinsho ketsueki] The Japanese journal of clinical hematology",
+            "year": "2014",
+            "abstract": "A 79-year-old man had been followed up since July 2003 based on a diagnosis of essential thrombocythemia (ET). The patient visited our hospital after developing a high fever and rash in August 2010, and Sweet's syndrome was diagnosed based on skin biopsy results. The bone marrow aspirate showed features like those of myelodysplastic/myeloproliferative neoplasm (MDS/MPN, unclassifiable). Administration of metenolone and azacitidine was initiated in March and May 2011, respectively, but the rash a",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未分類 MDS（MDS-U）通常為低危至中危病變，Azacitidine 藉由逆轉異常 DNA 甲基化，可重新激活沉默的腫瘤抑制基因，改善骨髓衰竭。雖在新加坡未上市，但全球已有 Phase 3 RCT（CALGB 9221、AZA-001）奠定 MDS 治療基礎；MDS-U 屬 MDS 分類之一，具直接藥理路徑支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "partial deletion of the long arm of chromosome 5",
+      "txgnn": {
+        "score": 0.9788203835487366,
+        "rank": 17577
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "pending",
+        "decision_stage": "pending",
+        "recommendation": "pending"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "pending",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "aregenerative anemia",
+      "txgnn": {
+        "score": 0.9787715077400208,
+        "rank": 17599
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03813186",
+            "title": "A Phase 1b Study to Evaluate the Effect of Food on Pharmacokinetics of ASTX727 (Cedazuridine and Decitabine) in Subjects With Myelodysplastic Syndromes or Acute Myeloid Leukemia",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2018-11-08",
+            "completion_date": "2019-12-16",
+            "brief_summary": "This study is designed to examine blood levels of ASTX727, a fixed-dose combination tablet containing the combination of cedazuridine (100 mg) and decitabine (35 mg), when given under fed versus fasted conditions to participants with myelodysplastic syndromes (MDS), including refractory anemia with excess blasts in transformation or chronic myelomonocytic leukemia (CMML), or acute myeloid leukemia (AML). This study will also assess the safety of ASTX727.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對 Decitabine（同類 HMA）的藥動學研究，與 azacitidine 直接相關性低，僅作類比參考。"
+            }
+          },
+          {
+            "nct_id": "NCT03593915",
+            "title": "A Phase 1b/2, Open-label Clinical Study to Determine Preliminary Safety and Efficacy of Alvocidib When Administered in Sequence After Decitabine or Azacitidine in Patients With MDS",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 20,
+            "start_date": "2018-08-29",
+            "completion_date": "2021-08-16",
+            "brief_summary": "Alvocidib, a cyclin-dependent kinase 9 (CDK 9) inhibitor, in time-sequential therapy demonstrated significant clinical activity in secondary AML patients with prior MDS. Patients with IPSS-R intermediate and above MDS have an increased risk of developing AML and may be treated with the same chemotherapy regimens used in patients with AML. Eight Phase I or II clinical trials have been completed in patients with AML, totaling more than 400 patients with both relapsed/refractory or newly diagnosed ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "因終止且收案少，數據不完整；alvocidib（CDK9 抑制劑）+ azacitidine 組合的前期探索。"
+            }
+          },
+          {
+            "nct_id": "NCT00392353",
+            "title": "A Phase 1/2 Study of Vorinostat [Suberoylanilide Hydroxamic Acid (SAHA)] in Combination With Azacitidine in Patients With the Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 135,
+            "start_date": "2006-11-22",
+            "completion_date": "2026-12-31",
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of vorinostat and azacitidine and to see how well they work in treating patients with myelodysplastic syndromes or acute myeloid leukemia. Vorinostat may stop the growth of cancer or abnormal cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of cancer or abnormal cells, either by killing the cells, by stopping them from dividing, or b",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "azacitidine + HDAC 抑制劑聯合 Phase 1/2（N=135），探討協同去甲基化/去乙醯化對 MDS/AML 的療效，適度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT01839240",
+            "title": "Phase I Investigation of the Feasibility of Combining 5-azacytidine With Highdose Cytarabine (HiDAC) and Mitoxantrone Chemotherapy in a Sequential Manner for Remission Induction in High-risk Acute Myelogenous Leukemia (AML)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2012-06-06",
+            "completion_date": "2019-08-16",
+            "brief_summary": "This phase I trial studies the side effects and best dose of azacitidine when given together with cytarabine and mitoxantrone hydrochloride in treating patients with high-risk acute myeloid leukemia. Drugs used in chemotherapy, such as azacitidine, cytarabine, and mitoxantrone hydrochloride, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Azacitidine may also help cytarabine and mitoxantrone hydrochloride work better by ma",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 安全性研究，著重藥物組合毒性評估，療效數據有限。"
+            }
+          },
+          {
+            "nct_id": "NCT01065129",
+            "title": "A Phase I Trial Evaluating the Effects of Plerixafor (AMD3100) and G-CSF in Combination With Azacitidine (Vidaza) for the Treatment of MDS",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 28,
+            "start_date": "2010-09-02",
+            "completion_date": "2016-10-18",
+            "brief_summary": "Our main objectives are to determine the optimal dose and schedule of plerixafor + G-CSF and azacitidine in patients with MDS and determine the safety and tolerability of plerixafor + G-CSF and azacitidine.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "探討造血幹細胞動員策略與 azacitidine 的組合，機轉層面相關但非貧血主要療效研究。"
+            }
+          },
+          {
+            "nct_id": "NCT01607645",
+            "title": "Phase II Trial Examining Epigenetic Priming With Decitabine Followed by Idarubicin and Cytarabine for Patients With Relapsed or Refractory AML.",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2012-07",
+            "completion_date": "2013-09",
+            "brief_summary": "The goals of this study are to learn about the effectiveness, the side-effects, if waiting to give the idarubicin and cytarabine may change the side effects or effectiveness, and to identify factors to predict for responses to this therapy. The trial will examine combination of three chemotherapy drugs. These drugs are decitabine, idarubicin, and cytarabine.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Decitabine 而非 azacitidine，且已終止；類比 HMA 機轉有一定參考性。"
+            }
+          },
+          {
+            "nct_id": "NCT00398047",
+            "title": "Combination of Azacitadine and Hematopoietic Growth Factors for Myelodysplastic Syndrome",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2006-09",
+            "completion_date": "2009-09",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of abnormal cells, either by killing the cells or by stopping them from dividing. Colony-stimulating factors, such as darbepoetin alfa and G-CSF, may increase the number of red blood cells and white blood cells found in bone marrow or peripheral blood and may help the immune system recover from the side effects of chemotherapy. Giving azacitidine together with darbepoetin alfa and G-CSF may be a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "早期終止，收案數極少（N=3），統計意義不足，但設計概念相關。"
+            }
+          },
+          {
+            "nct_id": "NCT01928537",
+            "title": "Phase IIIB, Open-label, Multi-Center Study of the Efficacy and Safety of Rigosertib Administered as 72-hour Continuous Intravenous Infusions in Patients With Myelodysplastic Syndrome With Excess Blasts Progressing On or After Azacitidine or Decitabine",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 67,
+            "start_date": "2013-08",
+            "completion_date": "2017-06-29",
+            "brief_summary": "This study will examine the effect intravenously administered rigosertib has on the relationship between bone marrow blasts response and overall survival in myelodysplastic syndromes (MDS) patients who have 5-30% bone marrow blasts and who progressed on or after treatment with azacitidine or decitabine.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "HMA 失敗後的 Phase 3 試驗，患者背景為 MDS/AML 合併嚴重血球減少，提供 azacitidine 作為標準前線治療的對照組依據。"
+            }
+          },
+          {
+            "nct_id": "NCT01016600",
+            "title": "Phase I/II Trial of Azacitidine Plus Lenalidomide in the Treatment of Acute Myeloid Leukemia",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 31,
+            "start_date": "2010-04",
+            "completion_date": "2014-10",
+            "brief_summary": "Determine toxicity and remission rates of treatment with azacitidine and lenalidomide for patients with Acute Myeloid Leukemia",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "azacitidine + lenalidomide 於 AML 的組合試驗，部分 AML 患者表現為嚴重貧血，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT00454480",
+            "title": "A Programme of Treatment Development for Older Patients With Acute Myeloid Leukemia and High Risk Myelodysplastic Syndrome",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 2000,
+            "start_date": "2006-08",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as gemtuzumab ozogamicin, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Tipifarnib may stop the growth of cancer cells by blocking some of the enzymes needed for cell g",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大規模 Phase 2/3 試驗（N=2000），老年 AML/高危 MDS 患者，azacitidine 為治療組成之一；高危 MDS 常伴嚴重再生不良性貧血，提供強力間接支持。"
+            }
+          },
+          {
+            "nct_id": "NCT01165996",
+            "title": "A Proof of Concept Study of Non-DNA Damaging DNMT1 Depletion Therapy for Myelodysplastic Syndrome",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "2010-07",
+            "completion_date": "2012-08",
+            "brief_summary": "RATIONALE: Decitabine may help myelodysplastic cells become more like normal stem cells. PURPOSE: This clinical trial studies differentiation therapy with decitabine in treating patients with myelodysplastic syndrome.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02562443",
+            "title": "A Phase III, International, Randomized, Controlled Study of Rigosertib Versus Physician's Choice of Treatment in Patients With Myelodysplastic Syndrome After Failure of a Hypomethylating Agent",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 372,
+            "start_date": "2015-12-02",
+            "completion_date": "2021-07-26",
+            "brief_summary": "The study's primary objective \\[in a population of patients with MDS after failure of treatment with azacitidine (AZA) or decitabine (DAC)\\], is to compare the overall survival (OS) of patients in the rigosertib group vs the Physician's Choice group, in all patients and in a subgroup of patients with IPSS-R very high risk.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00003361",
+            "title": "Phase II Study With Decitabine (5-aza-2'-Deoxycytidine, DAC) in Myelodysplastic Syndromes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 75,
+            "start_date": "1998-04",
+            "completion_date": "2009-12",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of decitabine in treating patients with myelodysplastic syndrome.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03358719",
+            "title": "A Phase 1 Study of DEC205mAb-NY ESO 1 Fusion Protein (CDX-1401) Given With Adjuvant Poly-ICLC in Conjunction With 5-Aza-2'Deoxycytidine (Decitabine) and Nivolumab in Patients With MDS or Low Blast Count AML",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 8,
+            "start_date": "2018-03-27",
+            "completion_date": "2021-08-25",
+            "brief_summary": "This phase I trial studies the side effects of DEC-205/NY-ESO-1 fusion protein CDX-1401, poly ICLC, decitabine, and nivolumab in treating patients with myelodysplastic syndrome or acute myeloid leukemia. DEC-205/NY-ESO-1 fusion protein CDX-1401 is a vaccine that may help the immune system specifically target and kill cancer cells. Poly ICLC may help stimulate the immune system in different ways and stop cancer cells from growing. Drugs used in chemotherapy, such as decitabine, work in different ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00004871",
+            "title": "Phase I, Dose De-Escalation to Minimal Effective Pharmacologic Dose Trial of Sodium Phenylbutyrate (PB, NSC 657802) in Combination With 5-Azacytidine (5-AZA, NSC 102816) in Patients With Myelodysplastic Syndromes (MDS) and Acute Myeloid Leukemia (AML)",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2000-05",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Azacitidine plus phenylbutyrate may help leukemia cells develop into normal white blood cells.\n\nPURPOSE: Phase I trial to study the effectiveness of combining azacitidine and phenylbutyrate in treating patients who have acute myeloid leukemia or myelodysplastic syndrome.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00879385",
+            "title": "Targeted Demethylation to Enhance Response or Overcome Resistance to EGFR Blocking Agents in KRAS Wild-type Metastatic Colorectal Cancer Patients Using Sequential Decitabine and Panitumumab",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2009-12",
+            "completion_date": "2013-01",
+            "brief_summary": "OBJECTIVES:\n\nPrimary Objectives\n\n1.To evaluate the safety and feasibility of the sequential use of a DNA methyltransferase (DNMT) inhibitor (decitabine) with a targeted biological agent against EGFR (panitumumab) for KRAS wild type tumors in the second or third line treatment of advanced metastatic colorectal cancer.\n\nSecondary Objectives\n\n1. To examine re-expression or a reduction in promoter methylation in genes involved in tumor suppressor pathways known to be important in colorectal cancer (",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02319369",
+            "title": "A Phase 1 Study of Milademetan (DS 3032b), an Oral MDM2 Inhibitor, In Dose Escalation as a Single Agent and In Dose Escalation/Expansion In Combination With 5 Azacitidine In Subjects With Acute Myelogenous Leukemia (AML) or High Risk Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 74,
+            "start_date": "2014-11-25",
+            "completion_date": "2020-08-21",
+            "brief_summary": "This study will take place in parts:\n\n* Dose Escalation (Part 1): Participants receive milademetan alone with different dose schedules\n* Dose Escalation (Part 1A): Participants receive milademetan in combination with 5-azacytidine (AZA), with different dose schedules\n\nThe recommended dose for Part 2 will be selected.\n\n* Dose Expansion (Part 2): After Part 1A, participants will receive the recommended Part 2 dose schedule. There will be three groups - those with:\n\n  1. refractory or relapsed acut",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02744742",
+            "title": "Granulocyte Colony-stimulating Factor+Decitabine+Busulfan+Cyclophosphamide vs Busulfan+Cyclophosphamide Conditioning Regimen for Patients With RAEB-1, RAEB-2 and AML Secondary to MDS Undergoing Allogeneic Hematopoietic Stem Cell Transplantation",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 202,
+            "start_date": "2016-04-18",
+            "completion_date": "2021-09-30",
+            "brief_summary": "Allogeneic hematopoietic stem cell transplantation (allo-HSCT) appears to be an efficient tool to cure refractory anemia with excess blasts-1 (RAEB-1), refractory anemia with excess blasts-2 (RAEB-2) and acute myeloid leukemia (AML) secondary to myelodysplastic syndrome (MDS). At present, the best conditioning regimen for RAEB-1, RAEB-2 and AML secondary to MDS undergoing allo-HSCT remains in discussion. In this prospective randomized controlled study, the safety and efficacy of G-CSF+ Decitabin",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04854889",
+            "title": "Efficacy and Safety of Low-dose Decitabine in Refractory Aplastic Anemia (LODACA): a Phase 2, Single-arm, Open-label Study",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 3,
+            "start_date": "2021-04-22",
+            "completion_date": "2022-08-09",
+            "brief_summary": "This is a phase 2, single-center, single-arm, open-label trial. Simon's two-stage design is performed to evaluate the efficacy of low-dose Decitabine in refractory aplastic anemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00005598",
+            "title": "A Phase II Trial of 5-Azacytidine (NSC #102816) and Ethyol (Amifostine) in the Treatment of Adults With Myelodysplastic Syndromes",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "2000-10",
+            "completion_date": "2002-03",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Amifostine may improve blood counts in patients with myelodysplastic syndrome. Combining azacitidine with amifostine may kill more cancer cells.\n\nPURPOSE: Phase II trial to study the effectiveness of azacitidine plus amifostine in treating patients who have myelodysplastic syndrome.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00043134",
+            "title": "Intravenous Low-Dose Decitabine Versus Supportive Care in Elderly Patients With Primary Myelodysplastic Syndrome (MDS) (>10% Blasts or High-Risk Cytogenetics), Secondary MDS or Chronic Myelomonocytic Leukemia (CMML) Who Are Not Eligible for Intensive Therapy: An EORTC-German MDS Study Group Randomized Phase III Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 220,
+            "start_date": "2002-05",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Decitabine may help myelodysplasia cells develop into normal stem cells. It is not yet known if decitabine is more effective than standard supportive care in treating myelodysplastic syndrome.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of low-dose decitabine with that of standard supportive care in treating older patients who have myelodysplastic syndrome.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01834248",
+            "title": "A Phase I Study of DEC205mAb-NY-ESO-1 Fusion Protein (CDX-1401) Given With Adjuvant PoIylCLC in Conjunction With 5-Aza-2'Deoxycytidine (Decitabine) in Patients With MDS or Low Blast Count AML",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 9,
+            "start_date": "2013-07-30",
+            "completion_date": "2016-03-21",
+            "brief_summary": "This phase I trial studies the side effects and immune response to DEC-205/NY-ESO-1 fusion protein CDX-1401 and decitabine in patients with myelodysplastic syndrome or acute myeloid leukemia. DEC-205-NY-ESO-1 fusion protein, called CDX-1401, is a full length NY-ESO-1 protein sequence fused to a monoclonal antibody against DEC-205, a surface marker present on many immune stimulatory cells. This drug is given with another substance called PolyICLC, which acts to provoke any immune stimulatory cell",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00997243",
+            "title": "Phase II Study of 5-azacytidine and Lintuzumab in Myelodysplastic Syndromes (MDS)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2009-11",
+            "completion_date": "2011-05",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as lintuzumab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Giving chemotherapy together with monoclonal antibodies may be a better way to block ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02553941",
+            "title": "Phase 1b Trial of the Combination of Ibrutinib and Azacitidine for the Treatment of Higher Risk Myelodysplastic Syndromes in Previously Treated Patients or in Untreated Patients Unfit for or Who Refuse Intense Therapy",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2016-05-17",
+            "completion_date": "2019-11-07",
+            "brief_summary": "This phase Ib trial studies the side effects and best dose of ibrutinib when given together with azacitidine in treating patients with myelodysplastic syndrome that is likely to occur or spread (higher risk) and who were previously treated or untreated and unfit for or refused intense therapy. Ibrutinib and azacitidine may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02158936",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Phase III, Multi-centre Study of Eltrombopag or Placebo in Combination With Azacitidine in Subjects With IPSS Intermediate-1, Intermediate 2 and High-risk Myelodysplastic Syndromes (MDS) SUPPORT: A StUdy of eltromboPag in myelodysPlastic SyndrOmes Receiving azaciTidine",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 356,
+            "start_date": "2014-06-10",
+            "completion_date": "2016-04-30",
+            "brief_summary": "Eltrombopag olamine (SB-497115-GR) is an orally bioavailable, small molecule thrombopoietin receptor agonist that may be beneficial in medical disorders associated with thrombocytopenia. Eltrombopag has been shown to increase platelet counts in patients with thrombocytopenia from various etiologies (Idiopathic thrombocytopenic purpura \\[ITP\\], liver disease, aplastic anemia and chemotherapy induced thrombocytopenia). Approximately 350 subjects will be randomized in a 1:1 ratio (175 into the eltr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00352001",
+            "title": "A Phase I/II Study of Revlimid (Lenalidomide) in Combination With Vidaza (Azacitidine) in Patients With Advanced Myelodysplastic Syndrome (MDS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 37,
+            "start_date": "2006-05",
+            "completion_date": "2011-09",
+            "brief_summary": "RATIONALE: Lenalidomide may stop the growth of cancer cells by blocking blood flow to the cancer. Lenalidomide may also stimulate the immune system in different ways and stop cancer cells from growing. Drugs used in chemotherapy, such as azacitidine, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Azacitidine may also cause cancer cells to look more like normal cells, and to grow and spread more slowly. Giving lenalidomide",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00234000",
+            "title": "A Phase I Multicenter Study of Arsenic Trioxide and Azacitidine in Patients With Myelodysplastic Syndromes",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2007-02",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as azacitidine and arsenic trioxide, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more cancer cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of azacitidine when given together with arsenic trioxide and to see how well they work in treating patients with myelodysplastic syndromes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38572562",
+            "title": "A phase I study of pevonedistat, azacitidine, and venetoclax in patients with relapsed/refractory acute myeloid leukemia.",
+            "authors": [
+              "Murthy Guru Subramanian Guru",
+              "Saliba Antoine N",
+              "Szabo Aniko",
+              "Harrington Alexandra",
+              "Abedin Sameem"
+            ],
+            "journal": "Haematologica",
+            "year": "2024",
+            "abstract": "Azacitidine/venetoclax is an active regimen in patients with newly diagnosed acute myeloid leukemia (AML). However, primary or secondary resistance to azacitidine/venetoclax is an area of unmet need and overexpression of MCL1 is suggested to be a potential resistance mechanism. Pevonedistat inhibits MCL1 through activation of NOXA, and pevonedistat/azacitidine has previously shown activity in AML. To assess the tolerability and efficacy of adding pevonedistat to azacitidine/ venetoclax in relaps",
+            "classification": {
+              "study_type": "Phase 1 Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33171487",
+            "title": "Combined oral 5-azacytidine and romidepsin are highly effective in patients with PTCL: a multicenter phase 2 study.",
+            "authors": [
+              "Falchi Lorenzo",
+              "Ma Helen",
+              "Klein Sandra",
+              "Lue Jennifer K",
+              "Montanari Francesca"
+            ],
+            "journal": "Blood",
+            "year": "2021",
+            "abstract": "Peripheral T-cell lymphomas (PTCLs) are uniquely vulnerable to epigenetic modifiers. We demonstrated in vitro synergism between histone deacetylase inhibitors and DNA methyltransferase inhibitors in preclinical models of T-cell lymphoma. In a phase 1 trial, we found oral 5-azacytidine and romidepsin to be safe and effective, with lineage-selective activity among patients with relapsed/refractory (R/R) PTCL. Patients who were treatment naïve or who had R/R PTCL received azacytidine 300 mg once pe",
+            "classification": {
+              "study_type": "Multicenter Phase 2-like Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38471289",
+            "title": "Venetoclax plus cytarabine and azacitidine in relapsed/refractory AML: An open-label, single-arm, phase 2 study.",
+            "authors": [
+              "You Liangshun",
+              "Liu Yi",
+              "Mai Wenyuan",
+              "Xie Wanzhuo",
+              "Zhou De"
+            ],
+            "journal": "European journal of cancer (Oxford, England : 1990)",
+            "year": "2024",
+            "abstract": "The outcome of relapsed/refractory (R/R) acute myeloid leukemia (AML) remains extremely poor. Venetoclax (VEN)-based regimens have shown promise in treating R/R AML.",
+            "classification": {
+              "study_type": "Phase 2 Trial",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37899297",
+            "title": "Sorafenib plus triplet therapy with venetoclax, azacitidine and homoharringtonine for refractory/relapsed acute myeloid leukemia with FLT3-ITD: A multicenter phase 2 study.",
+            "authors": [
+              "Yu Sijian",
+              "Zhang Yu",
+              "Yu Guopan",
+              "Wang Yu",
+              "Shao Ruoyang"
+            ],
+            "journal": "Journal of internal medicine",
+            "year": "2024",
+            "abstract": "Patients with relapsed or refractory acute myeloid leukemia (R/R AML) and FLT3-internal tandem duplication (FLT3-ITD) respond infrequently to salvage chemotherapy.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40449509",
+            "title": "Bexmarilimab plus azacitidine for high-risk myelodysplastic syndrome and relapsed or refractory acute myeloid leukaemia: results from the dose-escalation part of a multicentre, single-arm, phase 1/2 trial.",
+            "authors": [
+              "Kontro Mika",
+              "Stein Anthony Selwyn",
+              "Pyörälä Marja",
+              "Rimpiläinen Johanna",
+              "Siitonen Timo"
+            ],
+            "journal": "The Lancet. Haematology",
+            "year": "2025",
+            "abstract": "Bexmarilimab blocks Clever-1 on macrophages to enhance antigen presentation and T cell activation. Because Clever-1 is expressed by myeloid leukaemia cells, bexmarilimab may combat leukaemia and influence the tumour microenvironment to augment the effectiveness of standard-of-care therapy in patients with myelodysplastic syndrome and acute myeloid leukaemia. The aim of this study was to determine the safety of bexmarilimab in combination with standard-of-care treatment in myelodysplastic syndrom",
+            "classification": {
+              "study_type": "Phase 2 Trial",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24195247",
+            "title": "[Refractory anemias].",
+            "authors": [
+              "Efira A",
+              "Azerad M-A"
+            ],
+            "journal": "Revue medicale de Bruxelles",
+            "year": "2013",
+            "abstract": "Refractory anemia, also known as myelodysplastic syndromes, forms a group of clonal diseases characterized by cytopenias with mostly rich bone marrow. Preferentially reaching an older population, the prognosis depends on both comorbidities and characteristics of the disease, which have been grouped into a score established in 1997 (\"IPSS = International Prognostic Scoring System\") and revised in 2012 (\"R-IPSS = Revised IPSS\"). Overall survival and risk of transformation into acute nonlymphoblast",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26855506",
+            "title": "Low Dose Cytosine Arabinoside and Azacitidine Combination in Elderly Patients with Acute Myeloid Leukemia and Refractory Anemia with Excess Blasts (MDS-RAEB2).",
+            "authors": [
+              "Atalay Figen",
+              "Ateşoğlu Elif Birtaş"
+            ],
+            "journal": "Indian journal of hematology & blood transfusion : an official journal of Indian Society of Hematology and Blood Transfusion",
+            "year": "2016",
+            "abstract": "Only one-third of elderly (>60 years) AML and MDS-RAEB2 patients may receive intensive chemotherapy treatment alternatives that are limited in this patient group due to the potential of severe toxicity. Previous studies have shown that azacitidine and low dose cytarabine treatments may be a beneficial treatment option for these patients. In this study, we aimed to good results with low toxicity in elderly patients. We retrospectively analyzed the AML and MDS-RAEB2 patients who received azacitidi",
+            "classification": {
+              "study_type": "Retrospective Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21947085",
+            "title": "Pilot study on combination of azacitidine and low-dose cytarabine for patients with refractory anemia with excess blast.",
+            "authors": [
+              "Moon Joon Ho",
+              "Lee Soo Jung",
+              "Lee Yoo Jin",
+              "Kang Byung Woog",
+              "Chae Yee Soo"
+            ],
+            "journal": "Annals of hematology",
+            "year": "2012",
+            "abstract": "This study analyzed the outcomes of the combination of azacitidine and low-dose cytarabine in patients newly diagnosed with refractory anemia with excess blast (RAEB). Patients were treated with azacitidine 75 mg/m(2) for 7 days subcutaneously and cytarabine 20 mg/m(2) intravenously for 7 days every 28 days. The assigned regimen was repeated for two cycles, then the patients treated with azacytidine alone until progression or allogeneic stem cell transplantation (allo-SCT). Eighteen patients wit",
+            "classification": {
+              "study_type": "Pilot Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34781359",
+            "title": "Azacitidine is a potential therapeutic drug for pyridoxine-refractory female X-linked sideroblastic anemia.",
+            "authors": [
+              "Morimoto Yuki",
+              "Chonabayashi Kazuhisa",
+              "Kawabata Hiroshi",
+              "Okubo Chikako",
+              "Yamasaki-Morita Makiko"
+            ],
+            "journal": "Blood advances",
+            "year": "2022",
+            "abstract": "X-linked sideroblastic anemia (XLSA) is associated with mutations in the erythroid-specific δ-aminolevulinic acid synthase (ALAS2) gene. Treatment of XLSA is mainly supportive, except in patients who are pyridoxine responsive. Female XLSA often represents a late onset of severe anemia, mostly related to the acquired skewing of X chromosome inactivation. In this study, we successfully generated active wild-type and mutant ALAS2-induced pluripotent stem cell (iPSC) lines from the peripheral blood ",
+            "classification": {
+              "study_type": "Case Series / Translational",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36309981",
+            "title": "A phase 1b study of venetoclax and azacitidine combination in patients with relapsed or refractory myelodysplastic syndromes.",
+            "authors": [
+              "Zeidan Amer M",
+              "Borate Uma",
+              "Pollyea Daniel A",
+              "Brunner Andrew M",
+              "Roncolato Fernando"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2023",
+            "abstract": "Patients with relapsed/refractory (R/R) higher-risk myelodysplastic syndromes (MDS) have a dismal median overall survival (OS) after failing hypomethylating agent (HMA) treatment. There is no standard of care for patients after HMA therapy failure; hence, there is a critical need for effective therapeutic strategies. Herein, we present the safety and efficacy of venetoclax + azacitidine in patients with R/R MDS. This phase 1b, open-label, multicenter study enrolled patients ≥18 years. Patients w",
+            "classification": {
+              "study_type": "Phase 1b Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35508695",
+            "title": "Prospective comparison of 5- and 7-day administration of azacitidine for myelodysplastic syndromes: a JALSG MDS212 trial.",
+            "authors": [
+              "Miyazaki Yasushi",
+              "Kiguchi Toru",
+              "Sato Shinya",
+              "Usuki Kensuke",
+              "Ishiyama Ken"
+            ],
+            "journal": "International journal of hematology",
+            "year": "2022",
+            "abstract": "The hypomethylating agent azacitidine (AZA) significantly extends overall survival (OS) in patients with higher risk myelodysplastic syndromes (MDS), when compared with other conventional care regimens, including supportive care and low-dose and intensive chemotherapy. However, the effects of 5- and 7-day treatment schedules of AZA (AZA-5 and AZA-7, respectively) on the OS of MDS patients had not been compared prospectively. We started a phase 3 trial comparing the effects of AZA-7 and AZA-5 on ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27107658",
+            "title": "Azacitidine versus decitabine in patients with refractory anemia with excess blast-Results of multicenter study.",
+            "authors": [
+              "Salim Ozan",
+              "Toptas Tayfur",
+              "Avsar Esin",
+              "Yucel Orhan Kemal",
+              "Ozturk Erman"
+            ],
+            "journal": "Leukemia research",
+            "year": "2016",
+            "abstract": "The present study aimed to compare the efficacy and safety of azacitidine and decitabine in patients with myelodysplastic syndrome (MDS). A total of 88 patients diagnosed with refractory anemia with excess blast (RAEB) treated with azacitidine (n=57) or decitabine (n=31) were evaluated. Comparisons between azacitidine and decitabine groups were performed in the whole cohort, and in a 1:1 propensity score-matched cohort in order to reduce the simple selection bias. Patients who received azacitidi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27976488",
+            "title": "Azacitidine as a bridge to allogeneic hematopoietic cell transplantation in a pediatric patient with Fanconi anemia and acute myeloid leukemia.",
+            "authors": [
+              "Ding Hilda",
+              "Hashem Hasan",
+              "Cabral Linda",
+              "Rangarajan Hemalatha",
+              "Abusin Ghada"
+            ],
+            "journal": "Pediatric transplantation",
+            "year": "2017",
+            "abstract": "HCT is the definitive therapy for patients with FA and AML. Conventional cytotoxic agents cause potential DNA damage, and currently, there is no established regimen for these patients prior to HCT. A 13-year-old male with FA and refractory AML was given azacitidine, achieved morphologic remission and underwent HCT. At 95 days after HCT, he relapsed. Azacitidine along with DLI was used as first salvage therapy. Azacitidine was overall well tolerated with minimal side effects. In patients with AML",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21431628",
+            "title": "Azacitidine for the treatment of patients with acute myeloid leukemia with 20%-30% blasts and multilineage dysplasia.",
+            "authors": [
+              "Font Patricia"
+            ],
+            "journal": "Advances in therapy",
+            "year": "2011",
+            "abstract": "Azacitidine is approved in the EU for the treatment of adult patients who are not candidates for allogeneic stem cell transplantation, and who have intermediate-2 risk or high-risk myelodysplastic syndromes, according to the International Prognostic Scoring System. The approval includes the treatment of patients with acute myeloid leukemia (AML) with 20%-30% blasts and multilineage dysplasia, according to the World Health Organization (WHO) classification. This review focuses on the outcomes wit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26294090",
+            "title": "Myelodysplastic syndromes: 2015 Update on diagnosis, risk-stratification and management.",
+            "authors": [
+              "Garcia-Manero Guillermo"
+            ],
+            "journal": "American journal of hematology",
+            "year": "2015",
+            "abstract": "The myelodysplastic syndromes (MDS) are a very heterogeneous group of myeloid disorders characterized by peripheral blood cytopenias and increased risk of transformation to acute myelogenous leukemia (AML). MDS occurs more frequently in older males and in individuals with prior exposure to cytotoxic therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38023359",
+            "title": "Glutathione promotes the synergistic effects of venetoclax and azacytidine against myelodysplastic syndrome‑refractory anemia by regulating the cell cycle.",
+            "authors": [
+              "Wang Xiaobo",
+              "Yuan Lihua",
+              "Lu Bo",
+              "Lin Dongjun",
+              "Xu Xiaojun"
+            ],
+            "journal": "Experimental and therapeutic medicine",
+            "year": "2023",
+            "abstract": "Azacitidine is a DNA methyltransferase inhibitor that has been used as a singular agent for the treatment of myelodysplastic syndrome-refractory anemia with excess blast-1 and -2 (MDS-RAEB I/II). However, recurrence and overall response rates following this treatment remain unsatisfactory. The combination of azacitidine and venetoclax has been used for the clinical treatment of a variety of hematological diseases due to the synergistic killing effect of the two drugs. Venetoclax is a BCL-2 inhib",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27883945",
+            "title": "Recent advances in the treatment of lower-risk non-del(5q) myelodysplastic syndromes (MDS).",
+            "authors": [
+              "Almeida Antonio",
+              "Fenaux Pierre",
+              "List Alan F",
+              "Raza Azra",
+              "Platzbecker Uwe"
+            ],
+            "journal": "Leukemia research",
+            "year": "2017",
+            "abstract": "Patients with lower-risk myelodysplastic syndromes (MDS) are affected primarily by symptoms of chronic anemia and fatigue rather than progression to acute myeloid leukemia. Severe thrombocytopenia, although less common in lower-risk MDS, is associated with increased risk of bleeding. For anemic patients, the principal aim of treatment is to improve anemia and decrease red blood cell transfusions. For transfusion-dependent patients with lower-risk MDS without chromosome 5q deletion [non-del(5q) M",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29118268",
+            "title": "Azacitidine in Lower-Risk Myelodysplastic Syndromes: A Meta-Analysis of Data from Prospective Studies.",
+            "authors": [
+              "Komrokji Rami",
+              "Swern Arlene S",
+              "Grinblatt David",
+              "Lyons Roger M",
+              "Tobiasson Magnus"
+            ],
+            "journal": "The oncologist",
+            "year": "2018",
+            "abstract": "After erythropoiesis-stimulating agent (ESA) failure, lenalidomide and hypomethylating agents are the only remaining treatment options for most patients with lower-risk myelodysplastic syndromes (LR-MDS). Optimal choice of these agents as front-line therapy in non-del(5q) LR-MDS is unclear. Because azacitidine clinical data mainly describe experience in higher-risk MDS, we performed a meta-analysis of patient-level data to evaluate azacitidine in patients with red blood cell (RBC) transfusion-de",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37297842",
+            "title": "Gilteritinib: The Story of a Proceeding Success into Hard-to-Treat FLT3-Mutated AML Patients.",
+            "authors": [
+              "Molica Matteo",
+              "Perrone Salvatore",
+              "Rossi Marco"
+            ],
+            "journal": "Journal of clinical medicine",
+            "year": "2023",
+            "abstract": "The traditionally dismal outcome of acute myeloid leukemia (AML) patients carrying the FMS-related tyrosine kinase 3 (FLT3) mutations has been mitigated by the recent introduction of tyrosine kinase inhibitors (TKI) into clinics, such as midostaurin and gilteritinib. The present work summarizes the clinical data that led to the use of gilteritinib in clinical practice. Gilteritinib is a second-generation TKI with deeper single-agent activity than first-generation drugs against both FLT3-ITD and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25806091",
+            "title": "Phase I study of azacitidine and oxaliplatin in patients with advanced cancers that have relapsed or are refractory to any platinum therapy.",
+            "authors": [
+              "Tsimberidou Apostolia M",
+              "Said Rabih",
+              "Culotta Kirk",
+              "Wistuba Ignacio",
+              "Jelinek Jaroslav"
+            ],
+            "journal": "Clinical epigenetics",
+            "year": "2015",
+            "abstract": "Demethylation process is necessary for the expression of various factors involved in chemotherapy cytotoxicity or resistance. Platinum-resistant cells may have reduced expression of the copper/platinum transporter CTR1. We hypothesized that azacitidine and oxaliplatin combination therapy may restore platinum sensitivity. We treated patients with cancer relapsed/refractory to any platinum compounds (3 + 3 study design) with azacitidine (20 to 50 mg/m(2)/day intravenously (IV) over 15 to 30 min, D",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "再生不良性貧血（aregenerative anemia）在 MDS 背景下最常見，反映造血幹細胞功能衰竭。Azacitidine 透過去甲基化機轉可重啟造血相關基因表達，改善骨髓造血功能；此外，pmid:34781359 直接展示 azacitidine 對 X 染色體連鎖含鐵血球性貧血的療效，提供非 MDS 相關貧血的獨立藥理支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "severe congenital hypochromic anemia with ringed sideroblasts",
+      "txgnn": {
+        "score": 0.9755575656890868,
+        "rank": 19082
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性含鐵血球性貧血（XLSA/congenital sideroblastic anemia）涉及血紅素合成基因（如 ALAS2）異常或粒線體功能缺陷。雖此資料集無直接證據，但 pmid:34781359（同樣在 aregenerative anemia 分析中列出）顯示 azacitidine 可能透過上調 ALAS2 基因表達或改變骨髓環境而發揮作用，構成間接生物學假說。屬罕見遺傳性疾病，基因療法/吡哆醇為首選。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "5q35 microduplication syndrome",
+      "txgnn": {
+        "score": 0.9747892022132874,
+        "rank": 19410
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "5q35 微複製症候群（NSD1 基因區域重複）為先天性染色體微重複，導致 Sotos 症候群表現型（過度生長、智力障礙）。與 del(5q) MDS 的染色體異常性質截然不同。目前無任何臨床或基礎研究顯示 azacitidine 與此症的相關性；TxGNN 高分可能源自染色體 5 相關基因節點的圖譜近鄰效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "neuralgic amyotrophy",
+      "txgnn": {
+        "score": 0.9619945883750916,
+        "rank": 23740
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經性肌萎縮（Parsonage-Turner syndrome）為免疫媒介的臂神經叢神經病變，與 SEPT9 基因突變相關（遺傳性）。雖然 SEPT9 基因的甲基化在某些腫瘤中具有生物標誌意義，但目前無證據顯示 azacitidine 的去甲基化作用能改善神經叢損傷的發炎或修復機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "amyotrophic neuralgia",
+      "txgnn": {
+        "score": 0.9586935639381408,
+        "rank": 24594
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌萎縮性神經痛（amyotrophic neuralgia）與神經性肌萎縮（neuralgic amyotrophy）高度重疊，為同一臨床實體的不同命名。評估結論與 neuralgic amyotrophy 相同：無臨床或機轉依據支持 azacitidine 使用。TxGNN 評分可能因圖譜中神經系統疾病節點的高度連結性而產生過度預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "familial thrombocytosis",
+      "txgnn": {
+        "score": 0.9309217929840088,
+        "rank": 30468
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "家族性血小板增多症（MPL 或 THPO 基因突變）為良性遺傳性骨髓增生異常，血栓風險高。雖 Azacitidine 被用於骨髓纖維化（MF）的後線治療，但家族性血小板增多症病理機轉（JAK/STAT 持續激活）與 MDS 的甲基化沉默機轉不同，HMA 的療效理由薄弱。此資料集完全無支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "bulbar polio"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "bulbar polio"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "bulbar polio"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "refractory cytopenia of childhood"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "refractory cytopenia of childhood"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "refractory cytopenia of childhood"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "unclassified myelodysplastic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "partial deletion of the long arm of chromosome 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "partial deletion of the long arm of chromosome 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "partial deletion of the long arm of chromosome 5"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "aregenerative anemia"
+      },
+      "result_status": "success",
+      "result_count": 27,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "aregenerative anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "aregenerative anemia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "severe congenital hypochromic anemia with ringed sideroblasts"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "severe congenital hypochromic anemia with ringed sideroblasts"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "severe congenital hypochromic anemia with ringed sideroblasts"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "5q35 microduplication syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "neuralgic amyotrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "neuralgic amyotrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "neuralgic amyotrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "amyotrophic neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "amyotrophic neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "amyotrophic neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "familial thrombocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "familial thrombocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Azacitidine",
+        "disease": "familial thrombocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

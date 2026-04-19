@@ -1,0 +1,303 @@
+## 藥物再利用證據分析：Isosorbide Dinitrate (DB00883)
+
+**藥物背景**：ISDN 為有機硝酸酯類 NO 供體，全球為成熟心血管藥物，但在本地市場標記「未上市」，original_indications 空白，需以再利用框架評估。
+
+---
+
+```json
+{
+  "drug": "Isosorbide dinitrate",
+  "drugbank_id": "DB00883",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "vascular disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "ISDN 為 NO 供體，透過 sGC/cGMP 路徑使血管平滑肌舒張，降低前後負荷，改善冠狀動脈灌流；此為 ISDN 核心機轉，與血管疾病機轉直接對應。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00803634",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 COMPLETED，n=117，急性心衰竭血壓控制；ISDN 為主要介入藥物，直接評估血管疾病應用，最高相關性。"
+        },
+        {
+          "nct_id": "NCT06715007",
+          "relevance_grade": "A",
+          "reasoning": "RECRUITING，n=300，腦小血管疾病中的抗血小板與內皮穩定療法；直接評估硝酸鹽類對小血管疾病的效益，高相關性。"
+        },
+        {
+          "nct_id": "NCT04661709",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，n=502，不穩定型心絞痛；ISDN 可能作為標準治療對照組，狀態 UNKNOWN 降低可信度。"
+        },
+        {
+          "nct_id": "NCT05671250",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 COMPLETED，n=30，糖尿病足潰瘍智能敷料（含 NO 釋放成分）；代表血管疾病末端器官損傷應用，間接相關。"
+        },
+        {
+          "nct_id": "NCT02305095",
+          "relevance_grade": "B",
+          "reasoning": "COMPLETED，n=225，心衰竭療法基因體分析（African American）；探索硝酸鹽反應的種族差異，對精準醫療有參考價值。"
+        },
+        {
+          "nct_id": "NCT01471834",
+          "relevance_grade": "B",
+          "reasoning": "N/A，n=40，血壓控制非隨機研究；樣本小且設計較弱，但提供真實世界血壓管理數據。"
+        },
+        {
+          "nct_id": "NCT01768182",
+          "relevance_grade": "C",
+          "reasoning": "COMPLETED，n=30，HIV 患者葉酸補充改善血管反應性；ISDN 非主要介入，相關性間接。"
+        },
+        {
+          "nct_id": "NCT04051957",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，TERMINATED，n=9，抗 VEGF 腎損傷；早期終止且樣本極小，僅提示硝酸鹽腎保護假說。"
+        },
+        {
+          "nct_id": "NCT02627196",
+          "relevance_grade": "C",
+          "reasoning": "N/A，n=1200，心衰竭 Barostim 裝置研究；硝酸鹽為背景用藥而非主角，屬裝置試驗。"
+        },
+        {
+          "nct_id": "NCT02011620",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，WITHDRAWN，n=0；試驗撤回，無任何數據可用。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "1094819",
+          "study_type": "RCT（安慰劑對照）",
+          "tier": "1",
+          "note": "1975 年口服 ISDN 對心臟病患者血液動力學比較，最早期直接證據之一。"
+        },
+        {
+          "pmid": "36219567",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "2023 年西洛他唑與異山梨醇一硝酸酯預防腦小血管疾病進展，近期高品質證據。"
+        },
+        {
+          "pmid": "3325229",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "note": "1987 年冠心病治療比較研究，ISDN 緩釋與單硝酸酯療效對比。"
+        },
+        {
+          "pmid": "30687454",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "2018 年 Macitentan 合併 ISMN/ISDN 研究，探索聯合療法改善耐受性。"
+        },
+        {
+          "pmid": "2113003",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1990 年硝酸鹽臨床應用系統性回顧，建立療效框架。"
+        },
+        {
+          "pmid": "1576038",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1992 年硝酸鹽藥理學回顧，機轉與臨床應用完整整理。"
+        },
+        {
+          "pmid": "9951954",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1999 年長效型 ISMN 臨床應用評估。"
+        },
+        {
+          "pmid": "6423015",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "1984 年 COPD 合併肺高壓的硝酸鹽治療比較研究。"
+        },
+        {
+          "pmid": "3925742",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "1985 年硝酸鹽耐受性機轉分析，臨床管理關鍵文獻。"
+        },
+        {
+          "pmid": "3893078",
+          "study_type": "Historical Review",
+          "tier": "3",
+          "note": "1985 年 ISDN 合成史與藥理學歷史回顧，背景參考價值。"
+        }
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ISDN 透過釋放 NO→cGMP 路徑擴張肺動脈，降低肺血管阻力（PVR）；效果類似靜脈注射硝普鈉，但口服/氣管內給藥提供非侵入性替代途徑。與 iPAH 現行 NO 吸入療法機轉相近。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39164577",
+          "study_type": "Clinical Study（2025）",
+          "tier": "2",
+          "note": "最新研究：bolus ISDN 對合併心肺共病肺高壓的急性效應，直接臨床相關性最高。"
+        },
+        {
+          "pmid": "28810603",
+          "study_type": "Clinical Study（2017）",
+          "tier": "2",
+          "note": "氣管內給藥 ISDN 改善肺動脈壓與右心室功能，探索新給藥途徑。"
+        },
+        {
+          "pmid": "8908227",
+          "study_type": "Clinical Study（1996）",
+          "tier": "2",
+          "note": "終末期心臟病患者肺血管效應比較（NTG vs ISDN），提供藥效強度對比數據。"
+        },
+        {
+          "pmid": "6423015",
+          "study_type": "Clinical Study（1984）",
+          "tier": "2",
+          "note": "COPD 合併肺高壓患者的硝酸鹽治療，早期直接臨床證據。"
+        },
+        {
+          "pmid": "373940",
+          "study_type": "Clinical Study（1979）",
+          "tier": "2",
+          "note": "最早 ISDN 用於 COPD 肺高壓的臨床研究，奠定基礎概念驗證。"
+        },
+        {
+          "pmid": "2732445",
+          "study_type": "Clinical Study（1989）",
+          "tier": "2",
+          "note": "肝硬化患者系統性與局部血液動力學研究，間接支持 ISDN 對肺循環的效應。"
+        },
+        {
+          "pmid": "2498122",
+          "study_type": "Experimental Study（1989）",
+          "tier": "3",
+          "note": "ISDN 與多種藥物對照比較，可能為動物模型研究，需確認設計。"
+        },
+        {
+          "pmid": "6861502",
+          "study_type": "Clinical Study（1983）",
+          "tier": "3",
+          "note": "門脈高壓（非肺高壓）應用，僅作為硝酸鹽血管效應的間接參考。"
+        },
+        {
+          "pmid": "29377691",
+          "study_type": "Medicinal Chemistry（2018）",
+          "tier": "3",
+          "note": "ISMN 與 Bardoxolone 雜合分子設計，為新藥開發研究，非直接臨床證據。"
+        },
+        {
+          "pmid": "39398794",
+          "study_type": "Epidemiology（2024）",
+          "tier": "3",
+          "note": "血液透析患者肺高壓負擔研究，未直接評估 ISDN，提供流行病學背景。"
+        }
+      ]
+    },
+    {
+      "disease_name": "alopecia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假說機轉：ISDN 釋放 NO 可能改善毛囊微循環血流，類似 Minoxidil（原為降壓藥，後發現促毛髮生長）的血管擴張機制。然而此假說純屬推測，無任何臨床或前臨床支持數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性少毛症合併粟粒疹為遺傳性皮膚疾病（DSG4 等基因突變），發病機轉為毛囊結構缺陷而非血管功能異常，ISDN 血管擴張機轉與此疾病病理生理無直接關聯。TxGNN 高分可能源自知識圖譜中「毛髮疾病」節點聚類效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頭皮型單純少毛症（LPAR6/LIPH 突變）為毛囊角質化缺陷，與血管功能無關。預測評分高度相似於 alopecia 與 congenital hypotrichosis milia，顯示 KG 節點鄰近效應導致分群預測，非獨立機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diffuse alopecia areata",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫型斑禿的主要發病機轉為自體免疫（CD8+ T 細胞攻擊毛囊），ISDN 無已知免疫調節作用。血管效應對免疫介導毛囊損傷的修復潛力理論上極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多毛症（毛髮過度生長）與少毛症在 KG 中同屬「毛髮疾病」節點，但病理方向相反。值得注意的是 Minoxidil 既用於促進頭皮毛髮生長（局部），也有多毛症副作用；此可能導致 TxGNN 在知識圖譜中學習到 NO 供體與毛髮疾病的廣泛關聯，但並不代表有治療潛力。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後側凸型心臟病的主要問題為胸廓限制性通氣障礙導致慢性低氧性肺高壓與右心衰竭。ISDN 理論上可透過降低前負荷減輕右心壓力，但此為高度間接推論，且現有標準治療（氧療、CPAP、肺高壓靶向治療）已涵蓋此機轉。無任何疾病特異性臨床或基礎研究數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "visceral calciphylaxis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內臟型鈣化防禦（血管中膜鈣化）主要發生於終末期腎病患者。雖 ISDN 為血管擴張劑，但此病變為血管壁鈣化結構性改變而非功能性血管痙攣，硝酸鹽療法對鈣磷代謝失調無直接作用。TxGNN 分數可能反映「血管疾病」節點的廣泛關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "venous thoracic outlet syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "靜脈型胸廓出口症候群的病因為鎖骨下靜脈受解剖結構壓迫（第一肋骨/鎖骨），為機械性梗阻問題，治療以手術減壓為主。ISDN 擴張靜脈的藥理作用對解剖性靜脈壓迫無緩解效益，甚至可能因靜脈擴張加重充血症狀。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| **Vascular disease** | **L1** | **S3** | ✅ **Proceed with Guardrails** | Phase 3 RCT 完成（NCT00803634）；核心機轉確立；需注意硝酸鹽耐受性管理 |
+| **Pulmonary hypertension** | **L3** | **S2** | 🔬 **Research Question** | 多項小型臨床研究（1979-2025）；機轉直接；需設計 Phase 2 RCT 確立療效/給藥途徑 |
+| Alopecia（各型） | L5 | S0 | ⛔ Hold | 純預測；毛囊疾病與 NO 血管機轉關聯極弱 |
+| Hypertrichosis | L5 | S0 | ⛔ Hold | KG 聚類假象；方向相反於治療邏輯 |
+| Kyphoscoliotic HD | L5 | S0 | ⛔ Hold | 間接機轉；現有標準治療已涵蓋 |
+| Visceral calciphylaxis | L5 | S0 | ⛔ Hold | 結構性病變，血管舒張無效 |
+| Venous TOS | L5 | S0 | ⛔ Hold | 機械性梗阻，硝酸鹽可能加重症狀 |
+
+---
+
+## ⚠️ 分析注意事項
+
+1. **毛髮疾病群集現象**：5 個毛髮相關適應症（alopecia、hypotrichosis 等）TxGNN 分數高度相近（0.9995-0.9999），且同為零證據，強烈提示 **KG 節點聚類偽信號**，非獨立預測
+2. **Vascular disease 定義過廣**：此標籤涵蓋 ISDN 的傳統適應症（心絞痛、心衰竭），實際上不屬「新用途」，應視為**適應症延伸確認**而非再利用
+3. **肺高壓的優先研究方向**：2025 年最新研究（PMID 39164577）顯示氣管內/bolus 給藥途徑仍有開發空間，建議以 **給藥途徑優化** 為研究問題框架
+4. **市場狀態差異**：ISDN 全球為成熟上市藥物，「未上市」僅反映本地市場狀況，安全性資料庫完整，S1 安全評估可直接引用全球數據
+
+> ⚕️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選需經嚴格臨床驗證後方可應用。

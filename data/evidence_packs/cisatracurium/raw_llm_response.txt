@@ -1,0 +1,213 @@
+## 藥物再利用證據分析：Cisatracurium (DB00565)
+
+**藥理背景說明**：Cisatracurium 為非去極化神經肌肉阻斷劑（Non-depolarizing NMBA），透過競爭性阻斷神經肌肉接頭的 nAChR（菸鹼性乙醯膽鹼受體）發揮作用。其主要特性為 Hofmann 消除（在生理 pH/溫度下自發降解），不依賴肝腎代謝，臨床主要用於手術肌鬆與機械通氣。
+
+---
+
+```json
+{
+  "drug": "Cisatracurium",
+  "drugbank_id": "DB00565",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "original_moa 欄位為 [Data Gap]，但藥理學資料庫明確記載為 nAChR 競爭性拮抗劑",
+    "market_status 標記為未上市，但 Cisatracurium (Nimbex®) 在多數國家已核准上市，可能為當地市場資料缺漏",
+    "ddi_count=0 不符實際（與多種肌鬆逆轉藥、揮發性麻醉劑有交互作用），資料完整性存疑"
+  ],
+  "indications": [
+    {
+      "disease_name": "cauda equina syndrome",
+      "txgnn_score": 0.9999336,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "馬尾症候群由馬尾神經根受壓所致，需手術減壓治療。Cisatracurium 作為 nAChR 阻斷劑，無已知機制可改善神經根壓迫、髓核突出或椎管狹窄等病因。TxGNN 高分可能反映知識圖譜中脊椎手術場景下的麻醉共現關係，而非治療機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據。TxGNN 預測為知識圖譜人工假象（artifact），建議列為假陽性。"
+    },
+    {
+      "disease_name": "preeclampsia",
+      "txgnn_score": 0.9999206,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Cisatracurium 在子癲前症剖腹產快速序列誘導（RSI）中具合理使用基礎：（1）子癲前症常伴腎功能損害，Hofmann 消除特性使其不受腎功能影響；（2）相較於 succinylcholine，心血管刺激較少，適合血壓不穩的子癲前症患者。然而此為麻醉輔助用途，並非治療子癲前症本身，不屬於再利用範疇。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04645719",
+          "title": "Best Dose of Magnesium Sulfate Infusion in Obese - Phase 3 RCT",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 75,
+          "relevance_grade": "C",
+          "reasoning": "研究主體為肥胖患者的硫酸鎂劑量優化，非 Cisatracurium 介入。子癲前症為背景疾病，Cisatracurium 可能僅作為麻醉方案的一部分，與目標適應症無直接相關性。"
+        },
+        {
+          "nct_id": "NCT04003688",
+          "title": "Strategy to Calculate Magnesium Sulfate Dose in Obese Patients - Completed",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 74,
+          "relevance_grade": "C",
+          "reasoning": "已完成試驗，同樣聚焦硫酸鎂劑量計算，與 Cisatracurium 再利用無直接關聯。Cisatracurium 若出現於此研究，僅為麻醉背景用藥。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "41103680",
+          "year": "2025",
+          "title": "IL-6, Leptin, Adiponectin after Cesarean Section Under General Anesthesia",
+          "study_type": "Observational/Comparative",
+          "tier": 3,
+          "reasoning": "探討剖腹產全身麻醉後的發炎指標變化，未聚焦於 Cisatracurium 對子癲前症的治療效果。間接相關性低。"
+        },
+        {
+          "pmid": "18383970",
+          "year": "2008",
+          "title": "Remifentanil bolus for cesarean section in high-risk patients",
+          "study_type": "Case Series (n=12)",
+          "tier": 3,
+          "reasoning": "高風險產婦（含子癲前症）剖腹產麻醉管理報告，主角為 Remifentanil，Cisatracurium 僅作為搭配使用的肌鬆劑，無法作為再利用證據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn_score": 0.9998748,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經性膀胱涉及自主神經（毒蕈鹼受體 M2/M3）與體神經失調。Cisatracurium 選擇性阻斷神經肌肉接頭 nAChR，理論上可能影響外括約肌張力，但目前無任何臨床或臨床前研究支持此假說。此外，「obsolete」前綴可能代表此疾病概念已被更新的分類取代，研究價值存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據，疾病術語已廢棄，不建議投入研究資源。"
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9997918,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偏頭痛病理機制涉及 CGRP 釋放、三叉神經血管系統活化、皮質擴散性抑制等。Cisatracurium 作用位點為周邊神經肌肉接頭，不穿透血腦屏障，無已知機制影響偏頭痛核心病理。TxGNN 預測可能源於麻醉知識圖譜中的間接路徑，屬假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據，機轉不支持，建議列為假陽性。"
+    },
+    {
+      "disease_name": "thrombotic disease",
+      "txgnn_score": 0.9997467,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血栓性疾病涉及凝血瀑布、血小板活化、纖溶系統等機制。Cisatracurium 無已知抗凝或抗血栓活性。目前有限的間接文獻僅反映外科手術（VATS、肝移植）麻醉場景，而手術後血栓事件是麻醉評估的重要指標，並非藥物治療血栓的證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03902470",
+          "title": "Awake Thoracic Epidural vs General Anesthesia for VATS",
+          "phase": "PHASE1",
+          "status": "UNKNOWN",
+          "enrollment": 60,
+          "relevance_grade": "C",
+          "reasoning": "比較胸腔鏡手術麻醉方式（硬膜外 vs. 全身麻醉）的安全性，血栓事件為術後監測指標，非 Cisatracurium 治療血栓的試驗設計。相關性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12565113",
+          "year": "2002",
+          "title": "Anesthesia for living-related liver transplantation in infants/children",
+          "study_type": "Retrospective Case Series",
+          "tier": 3,
+          "reasoning": "小兒肝移植麻醉管理報告，Cisatracurium 為麻醉方案中的肌鬆劑，文中對血栓的討論屬術後併發症監測，與再利用無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "irritable bowel syndrome",
+      "txgnn_score": 0.9996944,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IBS 涉及腸道運動異常、內臟過敏、腸-腦軸失調（5-HT、motilin 等途徑）。Cisatracurium 雖可阻斷腸道平滑肌前的神經訊號（理論上），但其高度選擇性針對骨骼肌 nAChR，且系統性應用將導致全身肌肉癱瘓，不適合 IBS 這類慢性非緻命疾病的治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據，安全性輪廓完全不符合 IBS 治療需求（需全身麻醉監護），機轉不支持。"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9996938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛（現稱腦幹先兆偏頭痛）涉及後循環缺血與腦幹功能異常，屬中樞神經系統病理。Cisatracurium 不穿透血腦屏障，且腦幹受抑制時使用肌鬆劑有加重呼吸抑制的潛在風險。機轉不支持，安全性有顧慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據，中樞性疾病使用周邊 NMBA 機轉上無合理性，風險高於效益。"
+    },
+    {
+      "disease_name": "mild pre-eclampsia",
+      "txgnn_score": 0.9995753,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "輕度子癲前症通常以藥物控制血壓和監測為主，Cisatracurium 無降壓、抗血管痙攣或胎盤保護機制。輕度患者更不適合使用需要機械通氣支持的 NMBA。與 preeclampsia 母條目相同，此處無獨立臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "與 preeclampsia 條目相比，此子分類無任何額外證據，且臨床情境下輕度患者的風險-效益比更差。"
+    },
+    {
+      "disease_name": "severe pre-eclampsia",
+      "txgnn_score": 0.9995385,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "重度子癲前症的麻醉管理中，Cisatracurium 確有輔助插管使用的臨床基礎（類似 preeclampsia 母條目的分析）。但作為「治療」重度子癲前症的再利用藥物，缺乏機轉支持——重度子癲前症需要的是降壓（labetalol、hydralazine）、預防癲癇（MgSO4）及分娩，而非 NMBA。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "無獨立臨床試驗或文獻。此子分類的 TxGNN 得分低於 preeclampsia 母條目，反映預測一致性合理。"
+    },
+    {
+      "disease_name": "neurocirculatory asthenia",
+      "txgnn_score": 0.9994707,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經循環性衰弱（Da Costa 症候群）為功能性心血管症候群，症狀包括心悸、呼吸困難、疲勞感，目前認為與自主神經失調有關。Cisatracurium 無心臟自主神經調節機制，且其組織胺釋放作用可能加重心悸等症狀。無機轉合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "零臨床證據，此疾病診斷在現代醫學中亦少見使用，屬過時術語，研究優先級最低。"
+    }
+  ],
+  "overall_assessment": {
+    "summary": "Cisatracurium 的 10 個 TxGNN 預測適應症中，9 個（90%）為純 L5 預測，零臨床證據支持；1 個（preeclampsia）有間接 L4 佐證，但反映的是麻醉輔助使用而非再利用治療機會。",
+    "root_cause_of_high_txgnn_scores": "Cisatracurium 在知識圖譜中大量出現於手術麻醉語境，與眾多需要手術介入的疾病（子癲前症剖腹產、VATS 手術、肝移植等）形成強共現關係，導致 TxGNN 預測分數虛高，並非真正的再利用信號。",
+    "highest_priority_indication": "preeclampsia（L4/S1）— 但優先性為釐清是否存在超越麻醉輔助的直接治療機轉，可能性低。",
+    "false_positive_rate_estimate": "≥90%",
+    "recommended_next_steps": [
+      "確認 Cisatracurium 的 original_moa 和 market_status 資料缺漏，補全藥物基本資料",
+      "對全部 10 個適應症標記為 TxGNN 麻醉共現假陽性，納入模型偏誤校正訓練集",
+      "如需進一步評估，建議聚焦 preeclampsia 的麻醉安全性文獻系統回顧（Cochrane），但以已上市適應症延伸研究框架進行，而非再利用框架"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|-----------|---------|---------|------|---------|
+| cauda equina syndrome | 0.9999 | **L5** | S0 | ❌ Hold | 零證據，假陽性 |
+| preeclampsia | 0.9999 | **L4** | S1 | ⚠️ Hold | 麻醉輔助 ≠ 再利用 |
+| obsolete neurogenic bladder | 0.9999 | **L5** | S0 | ❌ Hold | 廢棄術語，零證據 |
+| migraine disorder | 0.9998 | **L5** | S0 | ❌ Hold | 機轉不支持，BBB 無法穿透 |
+| thrombotic disease | 0.9997 | **L5** | S0 | ❌ Hold | 麻醉背景假陽性 |
+| irritable bowel syndrome | 0.9997 | **L5** | S0 | ❌ Hold | 安全性輪廓不符 |
+| migraine with brainstem aura | 0.9997 | **L5** | S0 | ❌ Hold | 中樞性疾病，安全顧慮 |
+| mild pre-eclampsia | 0.9996 | **L5** | S0 | ❌ Hold | 輕度患者風險效益比差 |
+| severe pre-eclampsia | 0.9995 | **L5** | S0 | ❌ Hold | 無獨立證據 |
+| neurocirculatory asthenia | 0.9995 | **L5** | S0 | ❌ Hold | 廢棄術語，機轉不符 |
+
+> ⚠️ **重要說明**：本分析僅供研究參考，不構成醫療建議。所有再利用候選需經嚴格臨床驗證方可應用。Cisatracurium 為處方藥物，任何超適應症使用需在有完整急救設施的醫療機構下進行。

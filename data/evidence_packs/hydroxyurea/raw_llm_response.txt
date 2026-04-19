@@ -1,0 +1,569 @@
+## Hydroxyurea 藥物再利用證據分析
+
+分析 10 個預測適應症，整合臨床試驗（19 筆）與文獻（共 56 筆）進行分級評估。
+
+```json
+{
+  "drug": "Hydroxyurea",
+  "drugbank_id": "DB01005",
+  "analysis_date": "2026-04-04",
+  "global_context_note": "Hydroxyurea 在全球多個市場已核准用於 HbSS 鐮刀型血球貧血症及慢性骨髓性白血病、頭頸癌等；本地市場狀態「未上市」需以全球安全性基礎為前提評估各適應症可行性。MoA（雖標記 Data Gap）：核心為核糖核苷酸還原酶（RNR）抑制劑 → 耗竭 dNTP → 阻斷 DNA 合成；同時誘導胎兒血紅蛋白（HbF）生成、降低中性球/血小板數、具一氧化氮供體效應。",
+  "indications": [
+    {
+      "disease_name": "female breast carcinoma",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "HU 抑制 RNR → S 期細胞週期停滯 → 干擾快速分裂的癌細胞 DNA 合成；歷史上作為放射增敏劑及與鉑類/氟尿嘧啶協同的聯合化療組成；近期 in-silico 研究探索脂質藥物共軛物提升乳癌靶向性；缺乏 HU 單藥治療乳癌的直接 RCT，現有證據均為聯合方案 Phase I 或前臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38211596",
+          "title": "In-silico Design of Novel Hydroxyurea Lipid Drug Conjugates for Breast Cancer",
+          "year": "2024",
+          "study_type": "In-silico / Computational",
+          "tier": 3,
+          "relevance_note": "前臨床設計研究，無臨床驗證"
+        },
+        {
+          "pmid": "1957839",
+          "title": "Phase I: Allopurinol + 5-FU + Leucovorin followed by HU",
+          "year": "1991",
+          "study_type": "Phase I RCT (combination)",
+          "tier": 2,
+          "relevance_note": "HU 為聯合方案一環，非單藥研究；提供 Phase I 安全性基礎"
+        },
+        {
+          "pmid": "2245491",
+          "title": "Cisplatin + Cytarabine + HU pilot study (in vitro model)",
+          "year": "1990",
+          "study_type": "Pilot / In vitro-guided clinical",
+          "tier": 2,
+          "relevance_note": "小型探索性研究，以 in vitro 模型設計劑量序列"
+        },
+        {
+          "pmid": "1733549",
+          "title": "5-FU + Leucovorin + HU + Escalating Cisplatin",
+          "year": "1992",
+          "study_type": "Phase I/II (combination)",
+          "tier": 2,
+          "relevance_note": "早期聯合化療 Phase I/II，顯示可耐受性"
+        },
+        {
+          "pmid": "37777742",
+          "title": "EYA4 promotes breast cancer progression through replication stress avoidance",
+          "year": "2023",
+          "study_type": "Mechanistic / Preclinical",
+          "tier": 3,
+          "relevance_note": "HU 用於誘導複製壓力作為實驗工具，非治療研究"
+        },
+        {
+          "pmid": "26844848",
+          "title": "[99mTc(CO)3]-Hydroxyurea and FITC-HU in vitro/in vivo evaluation",
+          "year": "2016",
+          "study_type": "Preclinical (radiolabeled)",
+          "tier": 3,
+          "relevance_note": "探索 HU 作為放射性藥物載體，非傳統治療研究"
+        },
+        {
+          "pmid": "7914447",
+          "title": "High-dose cyclophosphamide + thiotepa + HU with autologous HSCT for breast cancer",
+          "year": "1994",
+          "study_type": "Phase I/II (high-dose with stem cell rescue)",
+          "tier": 2,
+          "relevance_note": "高劑量聯合方案，HU 為增敏組成；歷史性研究，現代臨床意義有限"
+        },
+        {
+          "pmid": "33631478",
+          "title": "Update on lncRNAs in breast cancer pathogenesis",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "分子機轉綜述，HU 僅附帶提及"
+        },
+        {
+          "pmid": "28237610",
+          "title": "Visceral/bone metastases of WHO grade 2 meningioma (case report)",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "腦膜瘤案例報告，與乳癌無直接關聯"
+        },
+        {
+          "pmid": "21730979",
+          "title": "Novel ATR inhibitor NU6027 in breast/ovarian cancer cell lines",
+          "year": "2011",
+          "study_type": "Preclinical (cell line)",
+          "tier": 3,
+          "relevance_note": "HU 作為陽性對照劑比較 ATR 抑制劑效力，非治療評估"
+        }
+      ],
+      "evidence_summary": "現有最高層次為 1990-1994 年間 Phase I/II 聯合化療研究（HU 非主角）；近期研究均為前臨床或工具性使用。缺乏過去 20 年乳癌 HU 治療的臨床試驗。",
+      "risk_flags": ["歷史性研究，現代標準治療已大幅更新", "HU 對乳癌的 Phase 2/3 證據空白", "現有文獻中 HU 多為聯合方案配角或實驗工具"]
+    },
+    {
+      "disease_name": "sickle cell-hemoglobin E disease syndrome",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HU 誘導 HbF 生成 → 稀釋 HbE/HbS 比例 → 減少 HbS 聚合；同時降低中性球與血小板數量 → 減少血管閉塞炎症反應。HbSE 臨床嚴重度介於 HbSS 與 HbSC 之間，理論上 HU 機轉與 HbSS 相似但需考量 HbE 的特殊血液學特性（低氧親和力）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03763656",
+          "title": "PK Study of Oral HU Solution in Children With Sickle Cell (includes HbSE subgroup)",
+          "phase": "Phase 1/2",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "研究涵蓋多種鐮刀型血球變異體（含 HbSE），完成 PK/PD 評估；HbSE 為次群分析，非主要研究對象"
+        },
+        {
+          "nct_id": "NCT02709681",
+          "title": "HU in Sickle Cell Disease: Large Nationwide Cohort from Italy",
+          "phase": "N/A (Observational)",
+          "status": "COMPLETED",
+          "enrollment": 628,
+          "relevance_grade": "B",
+          "reasoning": "大型真實世界觀察性研究，628 例 SCD 患者含不同基因型；HbSE 可能作為次群納入，但非專屬研究"
+        },
+        {
+          "nct_id": "NCT03264989",
+          "title": "Crizanlizumab PK/PD ± Hydroxyurea in SCD",
+          "phase": "Phase 2",
+          "status": "COMPLETED",
+          "enrollment": 57,
+          "relevance_grade": "B",
+          "reasoning": "主要評估 crizanlizumab，HU 為基礎治療之一；研究群體包含 SCD 多種基因型，HbSE 次群分析潛力有限"
+        },
+        {
+          "nct_id": "NCT04927247",
+          "title": "Inclacumab vs Placebo in Vaso-occlusive Crisis (SCD)",
+          "phase": "Phase 3",
+          "status": "TERMINATED",
+          "enrollment": 72,
+          "relevance_grade": "C",
+          "reasoning": "研究 inclacumab（P-selectin 拮抗劑），非 HU；且已提早終止（72/計畫人數）；對 HU 在 HbSE 之直接證據貢獻極低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36799926",
+          "title": "Most adults with severe HbSC disease are not treated with hydroxyurea",
+          "year": "2023",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance_note": "聚焦 HbSC 低治療率問題，間接反映 HbSE 等非 HbSS 變異體的 HU 使用差距；非 HbSE 直接研究"
+        }
+      ],
+      "evidence_summary": "缺乏 HbSE 專屬 RCT；現有試驗將 HbSE 納入更廣泛的 SCD 族群。機轉外推支持可行性，但 HbSE 在鐮刀型血球疾病中相對罕見，招募困難。",
+      "risk_flags": ["HbSE 缺乏獨立 Phase 2/3 RCT", "臨床嚴重度異質性大", "HbE 血紅蛋白特殊性質可能影響 HbF 誘導效果"]
+    },
+    {
+      "disease_name": "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HPFH-鐮刀型血球症候群患者天生 HbF 水平已顯著偏高（可達 15-35%），此即 HU 治療 HbSS 的核心作用機轉所在。HU 誘導 HbF 的附加臨床效益在此族群可能極為有限甚至無意義；其臨床嚴重度已因高 HbF 而大幅緩解，治療必要性存疑。此為負向機轉論據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23342821",
+          "title": "Kikuchi-Fujimoto's disease in sickle cell disease (2 case reports)",
+          "year": "2012",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "報告鐮刀型血球症合併 Kikuchi-Fujimoto 病（自限性淋巴結炎）的罕見個案；與 HU 治療完全無關，被誤收至此適應症文獻"
+        }
+      ],
+      "evidence_summary": "0 臨床試驗、0 相關文獻。唯一文獻為不相關個案報告。機轉論據指向 HU 在此族群效益低（HbF 已高）。建議不優先推進。",
+      "risk_flags": ["HPFH-SCD 為罕見症候群，缺乏流行病學基礎", "HbF 已高，HU 主要機轉可能飽和", "現有文獻完全不相關（Kikuchi disease）"]
+    },
+    {
+      "disease_name": "sickle cell-hemoglobin c disease syndrome",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HU 誘導 HbF → 稀釋 HbS 濃度 → 抑制去氧 HbS 聚合，對 HbSC 理論上仍有效但因 HbC 參與降低 HbS 濃度（HbC 本身不聚合），疾病表型相對 HbSS 溫和，治療閾值需個別化。HU 同時降低網狀細胞、中性球，可能減少 HbSC 特有的視網膜病變與缺血性骨壞死風險。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00532883",
+          "title": "Hydroxyurea ± Magnesium Pidolate in Hemoglobin SC Disease",
+          "phase": "Phase 2",
+          "status": "TERMINATED",
+          "enrollment": 44,
+          "relevance_grade": "A",
+          "reasoning": "HbSC 專屬 Phase 2 RCT，評估 HU ± Mg pidolate；雖提早終止（44/目標）但為目前唯一針對 HbSC 的直接 HU 對照試驗"
+        },
+        {
+          "nct_id": "NCT02336373",
+          "title": "SC Youth Treatment With Hydroxyurea Effects",
+          "phase": "Phase 2",
+          "status": "TERMINATED",
+          "enrollment": 32,
+          "relevance_grade": "A",
+          "reasoning": "HbSC 青少年 HU 治療效果研究；Phase 2 設計，TERMINATED（32 例），提供有限療效訊號"
+        },
+        {
+          "nct_id": "NCT02640573",
+          "title": "Treatment of Adult Patients With Hemoglobin SC Disease",
+          "phase": "Phase 2",
+          "status": "TERMINATED",
+          "enrollment": 1,
+          "relevance_grade": "A",
+          "reasoning": "HbSC 成人專屬研究，但僅招募 1 例即終止，無統計意義；反映 HbSC 成人 HU 試驗招募困難"
+        },
+        {
+          "nct_id": "NCT03128515",
+          "title": "NOHARM: Optimizing HU Therapy in Children with SCA in Malaria-Endemic Areas",
+          "phase": "Phase 3",
+          "status": "COMPLETED",
+          "enrollment": 187,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成，主要針對 HbSS 兒童；HbSC 為次群；187 例提供最高層次 SCD 兒童 HU 安全性與療效資料"
+        },
+        {
+          "nct_id": "NCT03763656",
+          "title": "PK Study of Oral HU Solution in Children With Sickle Cell",
+          "phase": "Phase 1/2",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "多基因型 SCD 兒童 HU PK/PD 研究；完成且提供 HbSC 亞群藥動學資料"
+        },
+        {
+          "nct_id": "NCT03474965",
+          "title": "Crizanlizumab Dosing & Safety in SCD",
+          "phase": "Phase 2",
+          "status": "COMPLETED",
+          "enrollment": 117,
+          "relevance_grade": "B",
+          "reasoning": "117 例 SCD 患者研究 crizanlizumab，部分接受 HU 背景治療；支持 HU 與新型療法聯合使用的可行性"
+        },
+        {
+          "nct_id": "NCT07277023",
+          "title": "Micro/Macrovascular Dysfunction in Adults With Sickle Cell",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 49,
+          "relevance_grade": "C",
+          "reasoning": "觀察性血管功能研究，非 HU 介入；了解 HbSC 病理生理有間接參考價值"
+        },
+        {
+          "nct_id": "NCT03975894",
+          "title": "Prophylactic Exchange Blood Transfusion in Pregnant HbSC Women",
+          "phase": "Phase 2",
+          "status": "UNKNOWN",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "評估輸血（非 HU）於妊娠 HbSC；狀態不明（UNKNOWN）；與 HU 無直接關聯"
+        },
+        {
+          "nct_id": "NCT01987908",
+          "title": "Placebo-Controlled Multicenter Double-Blind Evaluation in SCD",
+          "phase": "Phase 2",
+          "status": "TERMINATED",
+          "enrollment": 35,
+          "relevance_grade": "B",
+          "reasoning": "雙盲安慰劑對照 Phase 2 設計，但提早終止；若含 HbSC 次群則為重要設計參考"
+        },
+        {
+          "nct_id": "NCT03264989",
+          "title": "Crizanlizumab PK/PD ± HU in SCD",
+          "phase": "Phase 2",
+          "status": "COMPLETED",
+          "enrollment": 57,
+          "relevance_grade": "B",
+          "reasoning": "完成的 Phase 2，HU 為對照基礎治療；支持 HbSC 患者 HU 背景治療的藥物交互作用資料"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36047926",
+          "title": "Hydroxyurea (hydroxycarbamide) for sickle cell disease (Cochrane Review)",
+          "year": "2022",
+          "study_type": "Systematic Review / Meta-analysis (Cochrane)",
+          "tier": 1,
+          "relevance_note": "最新 Cochrane 系統性回顧，覆蓋所有 SCD 基因型含 HbSC；HU 整體效益評估最高品質證據"
+        },
+        {
+          "pmid": "39647172",
+          "title": "Hydroxyurea for Children and Adults with Hemoglobin SC Disease",
+          "year": "2025",
+          "study_type": "RCT / Systematic Review (需確認全文)",
+          "tier": 1,
+          "relevance_note": "2025 年最新發表，直接聚焦 HbSC 族群；為此適應症目前最直接、最新的高品質文獻"
+        },
+        {
+          "pmid": "28426137",
+          "title": "Hydroxyurea (hydroxycarbamide) for sickle cell disease (Cochrane Review 2017)",
+          "year": "2017",
+          "study_type": "Systematic Review / Meta-analysis (Cochrane)",
+          "tier": 1,
+          "relevance_note": "前版 Cochrane 回顧；與 2022 版比較可評估證據演進"
+        },
+        {
+          "pmid": "11406036",
+          "title": "Hydroxyurea for sickle cell disease",
+          "year": "2001",
+          "study_type": "Systematic Review / Clinical Summary",
+          "tier": 1,
+          "relevance_note": "早期系統性回顧，建立 HU 在 SCD 的治療地位基礎"
+        },
+        {
+          "pmid": "11464988",
+          "title": "Hydroxyurea therapy for pediatric patients with hemoglobin SC disease",
+          "year": "2001",
+          "study_type": "Clinical Study / Case Series",
+          "tier": 2,
+          "relevance_note": "HbSC 兒童 HU 治療專屬研究，早期直接臨床證據"
+        },
+        {
+          "pmid": "39229085",
+          "title": "CureSCi Metadata Catalog: harmonizing studies for HU use in SCD",
+          "year": "2024",
+          "study_type": "Database / Methodological",
+          "tier": 2,
+          "relevance_note": "HU 在 SCD 研究的資料整合計畫，反映領域內研究量與資料可用性"
+        },
+        {
+          "pmid": "37439373",
+          "title": "Metabolic signatures of cardiorenal dysfunction in SCD patients",
+          "year": "2023",
+          "study_type": "Cohort / Biomarker Study",
+          "tier": 2,
+          "relevance_note": "SCD 患者代謝表徵研究，提供 HU 治療背景下心腎功能監測參考"
+        },
+        {
+          "pmid": "33679049",
+          "title": "Sickle Hepatopathy",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_note": "SCD 肝臟併發症綜述，提醒 HU 使用中肝功能監測重要性"
+        },
+        {
+          "pmid": "10959446",
+          "title": "Major changes in sickle cell disease",
+          "year": "2000",
+          "study_type": "Review / Commentary",
+          "tier": 3,
+          "relevance_note": "SCD 治療演進歷史回顧，HU 核准背景文章"
+        },
+        {
+          "pmid": "32499906",
+          "title": "HbDC disease masquerading as sickle cell anemia",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "HbDC 鑑別診斷案例，提醒基因型確認對治療決策的重要性"
+        }
+      ],
+      "evidence_summary": "多篇 Cochrane 系統性回顧（最新 2022）加上 2025 年 HbSC 專屬研究，以及多項 Phase 2 試驗（雖多提早終止）構成 L2 證據。注意：HbSC 疾病表型較 HbSS 溫和，HU 治療指徵需個別化評估（以嚴重程度分層）。",
+      "risk_flags": ["多個 HbSC 專屬 Phase 2 試驗提早終止（招募困難/療效訊號不足）", "HbSC 疾病嚴重度異質性大，部分患者無症狀不需介入", "HU 致畸胎性，生育年齡女性需特別評估", "視網膜病變（HbSC 特有）在 HU 治療下的效益資料不足"]
+    },
+    {
+      "disease_name": "sickle cell-hemoglobin d disease syndrome",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "HbSD（HbS/HbD-Punjab 最常見）：HbD 不參與聚合但會與 HbS 形成混合聚合體，臨床嚴重度接近 HbSS。HU 誘導 HbF 機轉理論上適用，惟 HbSD 極為罕見（全球病例稀少），缺乏足夠臨床研究基礎。現有文獻以骨髓移植為主要治癒性選項。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03763656",
+          "title": "PK Study of Oral HU Solution in Children With Sickle Cell",
+          "phase": "Phase 1/2",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "多基因型 SCD 兒童，HbSD 可能作為次群納入；提供 HU PK 基礎資料"
+        },
+        {
+          "nct_id": "NCT04046705",
+          "title": "Allogeneic Matched Related HSCT vs HU in SCD (Phase 3 Comparative)",
+          "phase": "Phase 3",
+          "status": "UNKNOWN",
+          "enrollment": 78,
+          "relevance_grade": "B",
+          "reasoning": "比較 HSCT 與 HU 治療的 Phase 3 試驗，若含 HbSD 次群則為直接比較；狀態不明（UNKNOWN）限制解讀"
+        },
+        {
+          "nct_id": "NCT06464458",
+          "title": "Optimizing HU Management via Therapeutic Pharmacology Monitoring in SCD",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "relevance_grade": "B",
+          "reasoning": "正在招募中，以治療藥物監測優化 HU 劑量；廣義 SCD 族群，對 HbSD 個體化治療具參考價值"
+        },
+        {
+          "nct_id": "NCT06979492",
+          "title": "Prophylactic Transfusion in Pregnant SCD Women (Phase 4)",
+          "phase": "Phase 4",
+          "status": "RECRUITING",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "評估妊娠 SCD 患者輸血策略，非 HU 介入；Phase 4 標籤可能指上市後研究（不同國家背景）"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36799926",
+          "title": "Most adults with severe HbSC disease are not treated with hydroxyurea",
+          "year": "2023",
+          "study_type": "Retrospective Cohort",
+          "tier": 3,
+          "relevance_note": "HbSC 低治療率研究，間接反映非 HbSS 鐮刀型變異體（包含 HbSD）的治療差距現象；非直接 HbSD 研究"
+        },
+        {
+          "pmid": "20502357",
+          "title": "First successful stem cell transplantation in HbSD disease",
+          "year": "2010",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "HbSD 首例成功骨髓移植個案報告；顯示 HbSD 嚴重度可達需移植程度，但亦反映 HU 作為橋接或替代治療的潛在角色"
+        }
+      ],
+      "evidence_summary": "HbSD 為極罕見基因型，目前無專屬 HU 臨床試驗。文獻僅有個案報告（移植）與間接 SCD 研究。機轉外推合理但缺乏直接臨床驗證。",
+      "risk_flags": ["HbSD 全球病例數極少，前瞻性試驗實際可行性極低", "缺乏 HbSD 特異性 HU 劑量/療效資料", "現有個案報告傾向選擇 HSCT 而非 HU"]
+    },
+    {
+      "disease_name": "sickle cell-beta-thalassemia disease syndrome",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HbS-β 地中海貧血（HbSβ+ 或 HbSβ0）：HbS-β0 型嚴重度接近 HbSS，β 鏈完全缺失使 HbS 佔主導；HU 誘導 HbF 可有效減少 HbS 聚合。HbSβ+ 型因有殘餘正常 β 鏈生成少量 HbA，病情較輕，HU 治療指徵需依嚴重度決定。地中海型地區（東南亞、南亞）流行率較高，此適應症與新加坡在地流行病學高度相關。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03763656",
+          "title": "PK Study of Oral HU Solution in Children With Sickle Cell (includes HbS-β thal)",
+          "phase": "Phase 1/2",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "含 HbS-β 地中海貧血兒童次群，完成 PK/PD 研究；為東南亞 SCD 族群 HU 使用提供基礎劑量資料"
+        },
+        {
+          "nct_id": "NCT03653338",
+          "title": "T-Cell Depleted Alternative Donor HSCT in Severe SCD/β-thal",
+          "phase": "Phase 1/2",
+          "status": "RECRUITING",
+          "enrollment": 5,
+          "relevance_grade": "C",
+          "reasoning": "評估替代供體移植（非 HU）；提供 HbS-β thal 作為嚴重疾病的替代治療背景，仍在招募且樣本極小"
+        },
+        {
+          "nct_id": "NCT04528355",
+          "title": "Outcomes Study of Non-Malignant Disorders Undergoing Transplant",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 50,
+          "relevance_grade": "C",
+          "reasoning": "觀察性移植結果研究，非 HU；涵蓋 SCD 及 β 地中海貧血，為移植 vs HU 決策提供間接比較背景"
+        },
+        {
+          "nct_id": "NCT01962415",
+          "title": "Phase II Reduced Intensity Conditioning HSCT in SCD ≤55 yrs",
+          "phase": "Phase 2",
+          "status": "RECRUITING",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "評估降低強度移植預處理方案；HbS-β thal 可能納入；仍在招募；與 HU 療效比較無直接關聯"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "10326220",
+          "title": "Effect of hydroxyurea in sickle cell anemia: clinical trial in children/teenagers with severe SCD",
+          "year": "1999",
+          "study_type": "Clinical Trial (Phase 2/3)",
+          "tier": 1,
+          "relevance_note": "含 HbS-β 地中海貧血兒童的 HU 臨床試驗，早期但直接相關；顯示嚴重 SCD 患者 HU 效益"
+        },
+        {
+          "pmid": "27053181",
+          "title": "Sickle Cell Disease in Central India: Potentially Severe Syndrome",
+          "year": "2016",
+          "study_type": "Epidemiological Cohort",
+          "tier": 2,
+          "relevance_note": "印度 SCD 流行病學研究，HbS-β thal 在南亞/東南亞盛行率；與新加坡在地流行病學相關"
+        }
+      ],
+      "evidence_summary": "有 1999 年含此族群的 Phase 2/3 試驗及 Cochrane 回顧（透過 HbSC 文獻間接覆蓋），移植試驗均非 HU 研究。HbS-β thal 在東南亞具在地流行病學意義，HbSβ0 型嚴重度達 HU 治療閾值。",
+      "risk_flags": ["HbSβ+ vs HbSβ0 型需嚴格區分（嚴重度差異大）", "地中海貧血相關的鐵超載與 HU 骨髓抑制風險疊加", "輸血依賴患者使用 HU 的安全邊際需特別監測"]
+    },
+    {
+      "disease_name": "cervical adenosarcoma",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RNR 抑制 → DNA 合成阻斷的廣譜抗腫瘤機轉為純理論外推；宮頸腺肉瘤（混合性上皮-間質腫瘤）無 HU 相關臨床或前臨床研究，TxGNN 評分可能反映通用腫瘤知識圖譜連結，非疾病特異性機轉證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗、0 文獻。純 TxGNN 圖譜預測結果，無任何臨床或前臨床支持證據。",
+      "risk_flags": ["宮頸腺肉瘤極為罕見，開發特定適應症 ROI 極低", "高 TxGNN 分數源於通用腫瘤節點連結，非疾病特異"]
+    },
+    {
+      "disease_name": "colon mucinous adenocarcinoma",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RNR 抑制理論上可抑制大腸黏液腺癌 DNA 合成，但黏液腺癌通常具有特殊分子特徵（MSI-H、KRAS/BRAF 突變、黏蛋白高表達），與一般大腸腺癌治療反應不同；HU 對黏液亞型無任何臨床或前臨床特異性研究，TxGNN 分數為圖譜推斷。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗、0 文獻。純預測結果。",
+      "risk_flags": ["黏液腺癌分子特性（MSI、BRAF V600E）可能影響 HU 敏感性", "現代大腸癌治療以靶向/免疫療法為主，HU 難有競爭地位"]
+    },
+    {
+      "disease_name": "rectum mucinous adenocarcinoma",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與大腸黏液腺癌機轉論據相同；直腸黏液腺癌額外需考量放射治療為標準治療組成，HU 作為放射增敏劑在頭頸癌有核准依據，但直腸癌放射增敏劑以卡培他濱/5-FU 為標準，HU 無競爭優勢。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗、0 文獻。純預測結果。雖 HU 有放射增敏機轉，現代直腸癌放化療標準不使用 HU。",
+      "risk_flags": ["直腸癌術前放化療標準為 5-FU 或卡培他濱，HU 無取代依據", "黏液腺癌對化療相對抗拒，HU 效益更不明確"]
+    },
+    {
+      "disease_name": "gallbladder mucinous adenocarcinoma",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "膽囊黏液腺癌為極罕見腫瘤，整體膽囊癌預後差且對全身治療反應不佳。RNR 抑制理論外推無法支撐臨床開發，缺乏任何生物標誌物或前臨床模型數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "0 臨床試驗、0 文獻。純預測結果。疾病罕見性與缺乏任何 HU 相關研究共同構成不推進理由。",
+      "risk_flags": ["膽囊黏液腺癌極為罕見，缺乏足夠患者群體開展試驗", "膽囊癌整體化療反應率低（吉西他濱+順鉑為標準），HU 無明確切入點"]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 適應症優先矩陣總覽
+
+| 適應症 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|---------|---------|------|
+| **HbSC 病症候群** | 0.9967 | 11 | 19 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| **HbS-β thal 病症候群** | 0.9967 | 4 | 2 | L3 | S2 | ✅ Proceed with Guardrails |
+| **HbSE 病症候群** | 0.9967 | 4 | 1 | L3 | S2 | ✅ Proceed with Guardrails |
+| **女性乳癌** | 0.9997 | 0 | 20 | L3 | S1 | 🔬 Research Question |
+| **HbSD 病症候群** | 0.9967 | 4 | 2 | L3 | S1 | 🔬 Research Question |
+| **HPFH-SCD 症候群** | 0.9967 | 0 | 1 | L4 | S0 | ⛔ Hold（機轉反論據）|
+| **宮頸腺肉瘤** | 0.9940 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| **大腸黏液腺癌** | 0.9932 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| **直腸黏液腺癌** | 0.9931 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| **膽囊黏液腺癌** | 0.9928 | 0 | 0 | L5 | S0 | ⛔ Hold |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴格臨床驗證方可應用於患者照護。

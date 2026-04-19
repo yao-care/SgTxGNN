@@ -1,0 +1,1668 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00724-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Imiquimod",
+    "drugbank_id": "DB00724",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "pre-malignant neoplasm",
+      "txgnn": {
+        "score": 0.9991518259048462,
+        "rank": 1719
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04219358",
+            "title": "Evaluation of Topical Application of 5% Imiquimod, 0.05% Imiquimod and 0.05% Nanoencapsulated Imiquimod Gel in the Treatment of Actinic Cheilitis: a Randomized Controlled Trial",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 49,
+            "start_date": "2019-03-23",
+            "completion_date": "2021-08-24",
+            "brief_summary": "Actinic cheilitis is a potentially malignant lesion on the lower lip, which can progress to more serious illnesses such as cancer if not treated. Usually treatment of this condition is only based on clinical appearance, but there is no established cure treatment. Topical imiquimod is a medicine indicated for the treatment of skin diseases, but it has not yet been proven to treat actinic cheilitis. In this research, the investigator's aim is to evaluate the response to actinic cheilitis treatment",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，TERMINATED，評估不同濃度 imiquimod 局部應用，研究終止削弱證據價值。"
+            }
+          },
+          {
+            "nct_id": "NCT02234921",
+            "title": "A Pilot Study of DPV-001 DRibble Vaccine With Imiquimod in Advanced Prostate Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 3,
+            "start_date": "2014-10-24",
+            "completion_date": "2018-08-15",
+            "brief_summary": "This is a pilot study of the DRibble vaccine in patients with advanced prostate cancer.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，n=3，imiquimod 作為 DRibble 疫苗佐劑用於攝護腺癌，imiquimod 非主要干預，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT00175643",
+            "title": "Open-Label Study to Assess Safety and Efficacy of Imiquimod 5% Cream Applied 3 Days Per Week in 1 or 2 Cycles for Treatment of Actinic Keratoses on the Head",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2005-02",
+            "completion_date": "2005-11",
+            "brief_summary": "It is believed that imiquimod 5% cream has the potential to be an effective treatment for actinic keratoses. The purpose of this study is to evaluate the duration of the effect of topical imiquimod 5% topical cream for the treatment of actinic keratoses.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，COMPLETED，但 n=20 過小；直接評估 imiquimod 5% 於前惡性皮膚病變，設計相關但統計效力不足。"
+            }
+          },
+          {
+            "nct_id": "NCT03233412",
+            "title": "Ensaio clínico Randomizado Avaliando a eficácia do Tratamento tópico Com Imiquimode em lesões Intraepiteliais Cervicais de Alto Grau",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2018-01-01",
+            "completion_date": "2020-01-14",
+            "brief_summary": "Cervical cancer is one of the leading malignancies affecting women, with 311,000 deaths in 2018, most of them seen in underdeveloped countries. This neoplasm has a pre-invasive state, such as cervical intraepithelial neoplasia (CIN), which is caused by HPV (Human Papillomavirus) infection. The female organism most often is able to eliminate the virus, especially in young patients. However, when the infection becomes persistent, especially for subtypes 16 and 18, the risk of CIN developing an inc",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 RCT，COMPLETED，n=90，直接評估局部 imiquimod 於上皮內病變（intraepithelial lesions）之療效，設計嚴謹、樣本量足，為最核心證據。"
+            }
+          },
+          {
+            "nct_id": "NCT04072900",
+            "title": "A Phase I Study With a Personalized NeoAntigen Cancer Vaccine Combined With Anti-PD-1 in Metastatic Melanoma",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2020-04-21",
+            "completion_date": "2022-09-01",
+            "brief_summary": "This study assessed the safety and efficacy of individualized new antigen cancer vaccine combined with Programmed Cell Death Protein 1（PD1） inhibitor Toripalimab in the treatment of metastatic cutaneous melanoma. Melanoma is the most malignant skin neoplasm. Immunotherapy is the main treatment at present. PD1 is an immunological checkpoint and the inhibitors can reduce the immune escape of tumors, enhance T cell function and kill tumors. At present, PD1 antibody is the representative drug of imm",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，UNKNOWN 狀態，imiquimod 為個人化腫瘤疫苗聯合抗 PD-1 之佐劑，評估重點非 imiquimod 單藥效果。"
+            }
+          },
+          {
+            "nct_id": "NCT00142454",
+            "title": "NY-ESO-1 Protein Vaccination in Malignant Melanoma Administered With Imiquimod as Adjuvant",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 9,
+            "start_date": "2005-08-24",
+            "completion_date": "2006-04-25",
+            "brief_summary": "This was a Phase 1, single-arm, open-label, pilot study of NY-ESO-1 protein vaccination with imiquimod as an adjuvant in patients with resected Stage IIB, IIC, and III malignant melanoma. The primary study objective was to determine the safety of NY-ESO-1 protein/imiquimod treatment, and the secondary objective was to evaluate the immunogenicity of treatment.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，n=9，imiquimod 作為 NY-ESO-1 疫苗佐劑，黑色素瘤適應症且樣本極小，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT03057340",
+            "title": "The Treatment of Advanced Lung Cancer With Dribbles Antigen by Targeting",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2017-06-01",
+            "completion_date": "2020-12-01",
+            "brief_summary": "Malignant tumor has become the leading cause of death in humans, and the number one killer in malignant tumor is the lung cancer. Intensifying environmental pollution comes with rising of the incidence of lung cancer and the high mortality,what's the worst that the 5-year survival rate is only about 15%, accounting for first place in the malignant tumors, Exploiting for novel antitumor technology and products comes to arrest growing attention of the governments and businesses because of the unef",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1，UNKNOWN，肺癌 DRibble 抗原靶向治療，imiquimod 角色為免疫佐劑，與前惡性病變直接適應症相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT02242929",
+            "title": "Surgical Excision Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma: an Open, Non-inferiority, Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 145,
+            "start_date": "2016-01",
+            "completion_date": "2022-12",
+            "brief_summary": "Basal cell carcinoma (BCC) is a slow-growing, locally invasive malignant epidermal skin tumour. It is the most common malignant disease in Caucasians, representing approximately 80% of all cases of skin cancer and is therefore an important health problem. In the Netherlands incidence rates are 165 for men and 157 for women per 100.000 person-years, and these rates are rising with 3-10% every year.\n\nA simplified histological classification of BCCs includes the following three subtypes: nodular, s",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，n=145，比較手術切除 vs imiquimod 輔助治療於結節性基底細胞癌，樣本量充足但狀態 UNKNOWN，結果可取性待確認。"
+            }
+          },
+          {
+            "nct_id": "NCT02329171",
+            "title": "TOPical Imiquimod Treatment of High-grade Cervical Intraepithelial Neoplasm: a Randomized Controlled Trial.",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 9,
+            "start_date": "2014-12",
+            "completion_date": "2016-06",
+            "brief_summary": "Rationale:\n\nCervical Intraepithelial Neoplasia (CIN) is the premalignant condition of cervical cancer. High grade CIN (CIN 2-3) is currently treated by large loop excision of the transformation zone (LLETZ). This treatment has potential complications, such as hemorrhage, infection and preterm birth in subsequent pregnancies. For this reason, non-invasive therapies are needed. Imiquimod (an immunomodulator) was proven effective in the treatment of HPV-related vulvar intraepithelial neoplasia (VIN",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 RCT 評估 imiquimod 於高級別子宮頸 CIN，但 TERMINATED 且僅招募 9 人，未完成之研究不具結論性。"
+            }
+          },
+          {
+            "nct_id": "NCT07077616",
+            "title": "Clinical Study for the Therapeutic Efficacy and Safety of a Personalized and AI-Quantum Mechanics Based and Molecular Modeled Cancer Specific Neoantigenic Vaccine, the TamavaqTM NeoVaccine in Patients With Newly Diagnosed Glioma.",
+            "phase": "EARLY_PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 29,
+            "start_date": "2025-07-01",
+            "completion_date": "2029-12-01",
+            "brief_summary": "Gliomas are a heterogeneous group of tumors arising from glial cells in the central nervous system and are associated with poor prognosis and significant morbidity. The most aggressive form, glioblastoma multiforme (GBM), remains particularly challenging to treat, often exhibiting resistance to conventional therapies such as chemotherapy and radiation. The average survival for patients with GBM is approximately 15 months, underscoring the urgent need for novel therapeutic strategies that can imp",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Early Phase 1，RECRUITING，AI 量子力學個人化療法，研究設計新穎但尚未有結果，方法論評估不確定。"
+            }
+          },
+          {
+            "nct_id": "NCT04883645",
+            "title": "Pilot Clinical Trial of Neoadjuvant Toll-like Receptor 7 Agonist (Imiquimod) Immunotherapy in Early-Stage Oral Squamous Cell Carcinoma",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2022-04-28",
+            "completion_date": "2024-07-31",
+            "brief_summary": "The purpose of this research study is to find out what effects, good and/or bad, topical application of the drug Aldara will have on patients and on their oral cancer. Aldara is a drug that activates toll-like receptor (TLR) in oral cancer cells causing self-destruction of tumor cells. It also activates immune cells to attack and eliminate cancer cells. Aldara is currently approved by the Food and Drug Administration (FDA) for treatment of skin cancer and melanoma. Its use in this study is 'off-",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01720407",
+            "title": "Relevance of Imiquimod as Neo-adjuvant Treatment to Reduce Excision Size and the Risk of Intralesional Excision in Lentigo Malignant of the Face",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 259,
+            "start_date": "2012-12",
+            "completion_date": "2022-11-10",
+            "brief_summary": "Lentigo malignant (LM) is an intraepidermal melanocytic proliferation occurring on photoexposed skin. In our project, this term applies both to Dubreuilh's melanosis and to Dubreuilh's intraepidermal melanoma. It consequently excludes invasive melanoma. Although surgery is the treatment of choice, it remains without consensus on the margins (5 mm or 10 mm) excision for a localized tumor on the face.\n\nSeveral studies have shown that imiquimod, activating local immunity by interferon production, i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01792505",
+            "title": "A Phase I Trial of Surgical Resection Followed by Vaccination With Dendritic Cells Pulsed With Tumor Lysate With Imiquimod for Patients With Malignant Glioma",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 71,
+            "start_date": "2009-10",
+            "completion_date": "2016-10",
+            "brief_summary": "Malignant gliomas are very aggressive and among the most common of brain tumors. A diagnosis carries with it a median survival of approximately 24 months. The current standard treatment of surgical resection followed by radiation therapy and chemotherapy has not substantially prolonged survival and even the few treatment options shown to exhibit small increases in survival primarily benefit certain (i.e., young) patient subpopulations.\n\nCancer vaccines represent one novel therapy for malignant g",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01403285",
+            "title": "A Phase 1 Trial of Peptide-Based Glioma Vaccine IMA950 in Patients With Glioblastoma (GBM)",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2011-08",
+            "completion_date": "2014-04",
+            "brief_summary": "BACKGROUND: Active immunotherapy of cancer is based on the premise that the vaccine raises a cytotoxic immune response to tumor-associated antigens, thereby destroying malignant cells without harming normal cells.\n\nIMA950 is a therapeutic multi-peptide vaccine containing 11 tumor-associated peptides (TUMAPs) found in a majority of glioblastomas, and is designed to activate TUMAP-specific T cells. The use of 11 TUMAPs increases the likelihood of a multi-clonal, highly specific T-cell response aga",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01229319",
+            "title": "An Investigator-Initiated Study to Assess the Safety and Efficacy of Imiquimod 3.75% Cream When Used After Cryotherapy in the Treatment of Hypertrophic Actinic Keratoses (AK) on Dorsal Hands and Forearms",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2010-10",
+            "completion_date": "2011-08",
+            "brief_summary": "Actinic keratoses (AK) are common cutaneous lesions associate with chronic ultraviolet radiation exposure. While most authorities consider AK as a pre-malignant lesion, some consider it as an incipient squamous cell carcinoma (SCC). In addition, the skin around clinically obvious AK lesions has been subject to the same chronic ultraviolet exposure, resulting in genetic damage and mutations, resulting in \"field cancerization.\" Subclinical AKs may progress to clinical AKs, or even de novo invasive",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00941811",
+            "title": "An Explorative, Single Center and Controlled Study to Analyze the Immune Escape Mechanisms of HPV-associated Lesions and to Evaluate the Efficiency and Mechanisms of Imiquimod Treatment of Vulvar Intraepithelial Neoplasias 2/3 (VIN) and Anogenital Warts",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 5,
+            "start_date": "2008-12",
+            "completion_date": "2010-05",
+            "brief_summary": "The occurance and clinical course of human papillomavirus (HPV)-induced lesions is largely determined by the nature of the cellular immune defense generated. Even tough both genital warts and vulvar intraepithelial neoplasia (VIN) are HPV-associated genital lesions they differ in their risk of malignant progression. Imiquimod (IMQ) is a topically applied Toll-like receptor (TLR) 7 agonist that has been approved for the treatment of superficial (pre-) carcinomas of the skin (basal cell carcinomas",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03872947",
+            "title": "A Phase 1b, Multicenter Study to Determine the Dose, Safety, Efficacy and Pharmacokinetics of TRK-950 When Used in Combinations With Selected Anti-Cancer Treatment Regimens in Patients With Selected Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 138,
+            "start_date": "2019-04-26",
+            "completion_date": "2026-06",
+            "brief_summary": "The main purpose of this study is to establish the safety and the recommended dose of TRK-950 in combination with FOLFIRI, Gemcitabine / Cisplatin, Gemcitabine / Carboplatin, Ramucirumab / Paclitaxel, PD1 inhibitors (Nivolumab or Pembrolizumab), and Imiquimod Cream, Bevacizumab, Gemcitabine / Carboplatin / Bevacizumab, Pegylated liposomal doxorubicin (PLD), Carboplatin / PLD / Bevacizumab and Paclitaxel for selected advanced solid tumors.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06305910",
+            "title": "Phase I Trial: CD200 Activation Receptor Ligand (CD200AR-L) and Allogeneic Tumor Lysate Vaccine Immunotherapy With Adjuvant Reirradiation for Recurrent High-Grade Glioma and Newly Diagnosed Diffuse Midline Glioma/Diffuse Intrinsic Pontine Glioma in Children and Young Adults",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 24,
+            "start_date": "2024-03-15",
+            "completion_date": "2027-01-15",
+            "brief_summary": "This is a single center Phase I study of a new adjuvant CD200 activation receptor ligand, CD200AR-L, in combination with imiquimod and GBM6-AD vaccine to treat malignant glioma in children and young adults.\n\nThe primary objective of this study is to determine the maximum tolerated dose (MTD) of CD200AR-L when given with a fixed dose of GBM6-AD vaccine, imiquimod, and a single dose of radiation for patients with recurrent High Grade Glioma (HGG) or following standard of care therapy radiation the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01808820",
+            "title": "Dendritic Cell Vaccine For Malignant Glioma and Glioblastoma Multiforme in Adult and Pediatric Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2013-08-21",
+            "completion_date": "2022-07-16",
+            "brief_summary": "The purpose of this research study is to evaluate an investigational vaccine using patent-derived dendritic cells (DC) to treat malignant glioma or glioblastoma.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26516853",
+            "title": "Combined Treatments with Photodynamic Therapy for Non-Melanoma Skin Cancer.",
+            "authors": [
+              "Lucena Silvia Rocío",
+              "Salazar Nerea",
+              "Gracia-Cazaña Tamara",
+              "Zamarrón Alicia",
+              "González Salvador"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2015",
+            "abstract": "Non-melanoma skin cancer (NMSC) is the most common form of cancer in the Caucasian population. Among NMSC types, basal cell carcinoma (BCC) has the highest incidence and squamous cell carcinoma (SCC) is less common although it can metastasize, accounting for the majority of NMSC-related deaths. Treatment options for NMSC include both surgical and non-surgical modalities. Even though surgical approaches are most commonly used to treat these lesions, Photodynamic Therapy (PDT) has the advantage of",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23235673",
+            "title": "Interventions for anal canal intraepithelial neoplasia.",
+            "authors": [
+              "Macaya Antonio",
+              "Muñoz-Santos Carlos",
+              "Balaguer Albert",
+              "Barberà Maria Jesús"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2012",
+            "abstract": "Anal canal intraepithelial neoplasia (AIN) is a pre-malignant condition of the anal canal transitional epithelium that is associated with human papillomavirus (HPV) infection. The incidence and prevalence of AIN and anal cancer are increasing rapidly in HIV-positive men who have sex with men (MSM). Other groups like HIV-negative MSM, immunosuppressed patients and people affected by other HPV diseases like genital warts and cervical intraepithelial neoplasia (CIN) may also develop AIN. The condit",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29500135",
+            "title": "Pharmacokinetics and pharmacodynamics of intravesical and intravenous TMX-101 and TMX-202 in a F344 rat model.",
+            "authors": [
+              "Falke Johannes",
+              "Hulsbergen-van de Kaa Christina A",
+              "Maj Roberto",
+              "Oosterwijk Egbert",
+              "Witjes Johannes Alfred"
+            ],
+            "journal": "Urologic oncology",
+            "year": "2018",
+            "abstract": "To evaluate and compare the pharmacokinetic and pharmacodynamic properties of 2 investigational Toll-like receptor 7 agonists, TMX-101, and TMX-202 after intravenous and intravesical administration in a rat model. TLR-7 agonists are successfully used as topical treatment for various (pre)malignant skin lesions and are now under investigation as intravesical therapy for non-muscle-invasive bladder cancer.",
+            "classification": {
+              "study_type": "Preclinical PK/PD",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21491403",
+            "title": "Medical interventions for high grade vulval intraepithelial neoplasia.",
+            "authors": [
+              "Pepas Litha",
+              "Kaushik Sonali",
+              "Bryant Andrew",
+              "Nordin Andy",
+              "Dickinson Heather O"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2011",
+            "abstract": "Vulval intraepithelial neoplasia (VIN) is a pre-malignant condition of the vulval skin; its incidence is increasing in women under 50 years. VIN is graded histologically as low grade or high grade. High grade VIN is associated with infection with human papilloma virus (HPV) infection and may progress to invasive disease. There is no consensus on the optimal management of high grade VIN. The high morbidity and high relapse rate associated with surgical interventions call for a formal appraisal of",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15584683",
+            "title": "Topical treatment strategies for non-melanoma skin cancer and precursor lesions.",
+            "authors": [
+              "McGillis S Teri",
+              "Fein Howard"
+            ],
+            "journal": "Seminars in cutaneous medicine and surgery",
+            "year": "2004",
+            "abstract": "The ability to manage non-melanoma skin cancers and pre-malignant lesions with topical pharmacologic agents is highly compelling. This article examines currently available products and discusses their emerging roles and limitations. These include fluorouracil, diclofenac sodium, imiquimod, and photodynamic therapy.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20505896",
+            "title": "Current management of actinic keratoses.",
+            "authors": [
+              "Shoimer I",
+              "Rosen N",
+              "Muhn C"
+            ],
+            "journal": "Skin therapy letter",
+            "year": "2010",
+            "abstract": "An actinic keratosis (AK) is a pre-malignant cutaneous lesion that frequently manifests in sun-exposed areas of the skin as a small, rough, scaly erythematous papule. They are one of the most common presenting complaints for dermatologists. AKs should be treated due to their potential to progress into a squamous cell carcinoma (SCC). There are numerous treatments available for managing AKs including those broadly categorized as destructive, topical field, and procedural field therapies. The topi",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18931984",
+            "title": "[Imaging of actinic porokeratosis by optical coherence tomography (OCT)].",
+            "authors": [
+              "von Felbert V",
+              "Neis M",
+              "Megahed M",
+              "Spöler F"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "2008",
+            "abstract": "Disseminated superficial actinic porokeratosis (DSAP) is a rare, genetically heterogeneous skin disorder. We report a case of a 73-year-old female patient who was diagnosed with DSAP by optical coherence tomography (OCT) and histology. During the last 4 years prior to diagnosis, she had developed numerous (pre)malignant lesions of the skin of the lower legs including actinic keratoses, squamous cell carcinomas and Bowen's disease. DSAP lesions and actinic keratoses were resistant to topical trea",
+            "classification": {
+              "study_type": "Case Report / Imaging",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30284955",
+            "title": "Successful treatment of high-grade vulval intra-epithelial neoplasia with imiquimod 5% in a renal transplant recipient.",
+            "authors": [
+              "Khatun Azra",
+              "Lotery Helen",
+              "Sundaram Sangeetha"
+            ],
+            "journal": "International journal of STD & AIDS",
+            "year": "2019",
+            "abstract": "Organ transplant recipients are at a higher risk of pre-malignant human papillomavirus-associated lesions due to immunosuppression. The efficacy of immunomodulants such as imiquimod 5% is not yet fully evaluated in this population. We describe a case of vulval intra-epithelial neoplasia in a renal transplant recipient which was successfully treated with topical imiquimod.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15601490",
+            "title": "A case of Bowenoid papulosis of the penis successfully treated with topical imiquimod cream 5%.",
+            "authors": [
+              "Goorney B P",
+              "Polori R"
+            ],
+            "journal": "International journal of STD & AIDS",
+            "year": "2004",
+            "abstract": "Bowenoid papulosis is a pre-malignant condition affecting the ano-genital area. Pathogenesis may be associated with high-risk human papillomavirus genotypes, and sexual transmission is the most likely mode of acquisition. Risk of progression to invasive disease is low. Treatment usually involves locally destructive or ablative therapies. We report well-tolerated, successful clearance of bowenoid papulosis of the penis in a 25-year-old male, using topical Aldara (imiquimod) cream 5%, once every o",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imiquimod 為 TLR7/TLR8 促效劑，激活先天免疫（IFN-α、TNF-α、IL-12 分泌）與適應性免疫（DC 成熟、Th1/CTL 反應），直接清除異型增生/前惡性細胞；另可透過下調 Bcl-2 誘導凋亡。此機轉對皮膚及黏膜前惡性病變（如光化性角化症、CIN、VIN）具直接適用性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "benign neoplasm of buccal mucosa",
+      "txgnn": {
+        "score": 0.9991065859794616,
+        "rank": 1792
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37817570",
+            "title": "Is imiquimod a promising drug to treat oral mucosa diseases? A scoping review and new perspectives.",
+            "authors": [
+              "de Mello Palma Victor",
+              "Frank Luiza Abrahão",
+              "Balinha Daiana Moraes",
+              "Rados Pantelis Varvaki",
+              "Pohlmann Adriana Raffin"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2024",
+            "abstract": "Imiquimod (IMQ) is a chemotherapeutic and immunostimulant drug that is applied topically, demonstrating antitumor and antiviral activities. The objective of this review was to compile data on the off-label use of IMQ in oral mucosal diseases. IMQ has exhibited effectiveness in the treatment of various oral mucosal conditions, including oral carcinogenic lesions, neoplasms, HPV-related lesions and autoimmune disorders. Although IMQ holds promise as a potential strategy for addressing oral mucosal",
+            "classification": {
+              "study_type": "Scoping Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20683029",
+            "title": "The efficacy of imiquimod on dysplastic lesions of the oral mucosa: an experimental model.",
+            "authors": [
+              "Gkoulioni Vasiliki",
+              "Eleftheriadou Anna",
+              "Yiotakis Ioannis",
+              "Ferekidou Eliza",
+              "Chrisovergis Aristidis"
+            ],
+            "journal": "Anticancer research",
+            "year": "2010",
+            "abstract": "To study the potent efficacy of the immunomodulatory agent imiquimod when applied on dysplastic lesions of the oral mucosa.",
+            "classification": {
+              "study_type": "Experimental (Animal)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22941426",
+            "title": "Effects of imiquimod and low-intensity laser (λ660 nm) in chemically induced oral carcinomas in hamster buccal pouch mucosa.",
+            "authors": [
+              "de C Monteiro Juliana S",
+              "de Oliveira Susana C P S",
+              "Reis Júnior João Alves",
+              "Gurgel Clarissa Araújo Silva",
+              "de Souza Suzana C O Machado"
+            ],
+            "journal": "Lasers in medical science",
+            "year": "2013",
+            "abstract": "Squamous cell carcinoma (SCC) is the most common neoplasm of the oral cavity. It is aggressive, highly proliferative, and metastatic. This study aimed to evaluate the effect of LLLT and imiquimod on DMBA chemically induced lesions on the oral mucosa of hamsters. SCCs were induced on 25 hamsters. Animals of G1 (control 1) were killed and the presence of tumors confirmed; G2 (control 2) suffered no interventions for additional 4 weeks; animals of G3 (laser treatment) were irradiated (λ660 nm, 50 m",
+            "classification": {
+              "study_type": "Experimental (Animal)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38867102",
+            "title": "How safe is off-label use of imiquimod in oral lesions?",
+            "authors": [
+              "Amaral Ana Luisa",
+              "Lwaleed Bashir Abdulgader",
+              "Bouquot Jerry Elmer",
+              "Andrade Sérgio Araújo"
+            ],
+            "journal": "Evidence-based dentistry",
+            "year": "2024",
+            "abstract": "A comprehensive search was conducted on PubMed and Embase, adhering to the principles outlined in the PRISMA Extension for Scoping Reviews (PRISMA-ScR). The search strategy was subsequently registered on PROSPERO.",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36919255",
+            "title": "Zonula occludens-1 distribution and barrier functions are affected by epithelial proliferation and turnover rates.",
+            "authors": [
+              "Imafuku Keisuke",
+              "Iwata Hiroaki",
+              "Natsuga Ken",
+              "Okumura Makoto",
+              "Kobayashi Yasuaki"
+            ],
+            "journal": "Cell proliferation",
+            "year": "2023",
+            "abstract": "Zonula occludens-1 (ZO-1) is a scaffolding protein of tight junctions, which seal adjacent epithelial cells, that is also expressed in adherens junctions. The distribution pattern of ZO-1 differs among stratified squamous epithelia, including that between skin and oral buccal mucosa. However, the causes for this difference, and the mechanisms underlying ZO-1 spatial regulation, have yet to be elucidated. In this study, we showed that epithelial turnover and proliferation are associated with ZO-1",
+            "classification": {
+              "study_type": "In Vitro / Experimental",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12719972",
+            "title": "Malignant conversion of florid oral and labial papillomatosis during topical immunotherapy with imiquimod.",
+            "authors": [
+              "Wenzel K",
+              "Saka B",
+              "Zimmermann R",
+              "Gundlach K K H",
+              "Barten M"
+            ],
+            "journal": "Medical microbiology and immunology",
+            "year": "2003",
+            "abstract": "We report a case of a 61-year-old woman suffering from florid oral papillomatosis with a squamous-cell cancer of the floor of the mouth, which was removed by scalpel surgery combined with a radical neck dissection in 1996. Between 1996 and 2000 several histologically benign papillomatous lesions of mouth and lips were removed with laser and electrosurgery. However, the lesions recurred. In July 2000 hyperkeratotic, wart-like lesions were present at the lower and upper lips and at the right angle",
+            "classification": {
+              "study_type": "Case Report (Adverse)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17138226",
+            "title": "Topical imiquimod: effectiveness in intraepithelial melanoma of oral mucosa.",
+            "authors": [
+              "Spieth Konstanze",
+              "Kovács Adorjan",
+              "Wolter Manfred",
+              "Bug Reinhold",
+              "Kaufmann Roland"
+            ],
+            "journal": "The Lancet. Oncology",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16504866",
+            "title": "Oral bowenoid papulosis in an HIV-positive male.",
+            "authors": [
+              "Rinaggio Joseph",
+              "Glick Michael",
+              "Lambert W Clark"
+            ],
+            "journal": "Oral surgery, oral medicine, oral pathology, oral radiology, and endodontics",
+            "year": "2006",
+            "abstract": "Bowenoid papulosis (BP) is a condition triggered by human papillomavirus infection and characterized by the development of 1 or more warty lesions, usually in the anogenital region. Although the oral cavity has been known to host several types of warts, thus far only 4 cases of BP have been reported in this anatomic site. We describe a 42-year-old male with AIDS who presented with numerous papillary lesions of the labial mucosa and vermilion. Biopsy yielded a diagnosis of BP. Treatment of the co",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "TLR7 促效活化口腔黏膜局部免疫微環境，理論上可抑制異型增生上皮增殖；然而口腔黏膜之吸收性、唾液稀釋效應及黏膜刺激性使局部給藥挑戰高於皮膚。需考量 off-label 安全性（PMID 38867102）及潛在惡性轉化風險（PMID 12719972 有負面案例）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "cervical neuroblastoma",
+      "txgnn": {
+        "score": 0.9990984201431274,
+        "rank": 1806
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉：TLR7 促效可激活 NK 細胞及 CTL 對神經母細胞瘤細胞之毒殺作用，NF-κB 路徑調控可能影響腫瘤存活；然而神經母細胞瘤為神經嵴來源腫瘤，其腫瘤微環境與皮膚/上皮腫瘤迥異，TLR7 表達量及反應性尚無臨床數據。TxGNN 高分可能源於知識圖譜中「腫瘤免疫療法」節點之拓撲鄰近性，並非直接生物機轉依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "odontogenic cyst",
+      "txgnn": {
+        "score": 0.9990966320037842,
+        "rank": 1811
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30995852",
+            "title": "Gorlin-Goltz syndrome.",
+            "authors": [
+              "Bartoš V",
+              "Kullová M",
+              "Adamicová K",
+              "Paučinová I"
+            ],
+            "journal": "Klinicka onkologie : casopis Ceske a Slovenske onkologicke spolecnosti",
+            "year": "2019",
+            "abstract": "Gorlin-Goltz syndrome is an autosomal dominant inherited disorder characterized by a predisposition to various cancers. Clinicopathological findings of syndrome are very diverse and many symptoms begin to manifest in a certain period of life.",
+            "classification": {
+              "study_type": "Review (Gorlin Syndrome)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26550910",
+            "title": "Photodynamic therapy for basal cell carcinoma.",
+            "authors": [
+              "Fargnoli Maria Concetta",
+              "Peris Ketty"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2015",
+            "abstract": "Topical photodynamic therapy is an effective and safe noninvasive treatment for low-risk basal cell carcinoma, with the advantage of an excellent cosmetic outcome. Efficacy of photodynamic therapy in basal cell carcinoma is supported by substantial research and clinical trials. In this article, we review the procedure, indications and clinical evidences for the use of photodynamic therapy in the treatment of basal cell carcinoma.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22177102",
+            "title": "Emerging treatments and signaling pathway inhibitors.",
+            "authors": [
+              "Tang Jean Y",
+              "Marghoob Ashfaq A"
+            ],
+            "journal": "Seminars in cutaneous medicine and surgery",
+            "year": "2011",
+            "abstract": "A number of therapies that target components of the Hedgehog signaling pathway currently are in clinical trials. The specific molecules that seem most promising in basal cell carcinoma and a number of other cancers are those that target the Smoothened transmembrane protein. The pivotal phase II trials have been completed on the Smoothened inhibitor known as GDC-0449; five other agents (BMS-833923, LDE225, LEQ506, IPI926, and TAK-441) have also shown promise in animal studies and early clinical t",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19207641",
+            "title": "Treatment of basal cell carcinomas in patients with nevoid basal cell carcinoma syndrome.",
+            "authors": [
+              "van der Geer S",
+              "Ostertag J U",
+              "Krekels G A M"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2009",
+            "abstract": "Nevoid basal cell carcinoma syndrome (NBCCS) is characterized by the development of multiple basal cell carcinomas (BCCs). A major problem for these patients is the enormous amount of BCCs which can invade in the deep underlying structures, especially in the face. Different treatment modalities are used in these patients; surgical excision, Mohs micrographic surgery, cryotherapy, photodynamic therapy, ablative laser therapy and topical 5% imiquimod. There is no evidence based advice how to treat",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12227875",
+            "title": "Topical imiquimod treatment of superficial and nodular basal cell carcinomas in patients affected by basal cell nevus syndrome: a preliminary report.",
+            "authors": [
+              "Micali G",
+              "De Pasquale R",
+              "Caltabiano R",
+              "Impallomeni R",
+              "Lacarrubba F"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2002",
+            "abstract": "Imiquimod 5% cream has been shown to be effective in the treatment of superficial basal cell carcinomas (sBCCs).",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18306849",
+            "title": "Nevoid basal cell carcinoma syndrome (Gorlin syndrome): updated review of minimally invasive treatments.",
+            "authors": [
+              "Mitropoulos Panagiotis",
+              "Norman Robert"
+            ],
+            "journal": "Cutis",
+            "year": "2008",
+            "abstract": "An updated review of management of nevoid basal cell carcinoma syndrome (NBCCS) is presented. An ideal treatment of NBCCS does not exist, and surgical intervention has been the most commonly used treatment, as it provides excellent cure rates. However, patients with NBCCS typically present with a large number of basal cell carcinomas (BCCs) with repeated occurrence throughout life. Surgical intervention, although efficient, may be too painful and discomforting, especially if it has to be frequen",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23725561",
+            "title": "\"PTCH\"-ing it together: a basal cell nevus syndrome review.",
+            "authors": [
+              "Lam Charlene",
+              "Ou Jason C",
+              "Billingsley Elizabeth M"
+            ],
+            "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+            "year": "2013",
+            "abstract": "Basal cell nevus syndrome (BCNS) has existed at least since Dynastic Egyptian times. In 1960, Gorlin and Goltz first described the classic clinical triad: multiple basal cell carcinomas (BCCs), jaw keratocysts, and bifid ribs. As an autosomal-dominant disorder, it is characterized by tumorigenesis and developmental defects.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21315966",
+            "title": "Complete basal cell carcinoma remission with imiquimod in a patient with nevoid basal cell carcinoma syndrome and associated basal cell carcinoma of the scalp and invasive ductal breast cancer.",
+            "authors": [
+              "Quist Sven R",
+              "Franke Ingolf",
+              "Helmdach Marten",
+              "Kraus Cornelia",
+              "Reis André"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24575881",
+            "title": "Lichen planopilaris after imiquimod 5% cream for multiple BCC in basal cell naevus syndrome.",
+            "authors": [
+              "Drummond Alessandra",
+              "Pichler Janine",
+              "Argenziano Giuseppe",
+              "Zalaudek Iris",
+              "Longo Caterina"
+            ],
+            "journal": "The Australasian journal of dermatology",
+            "year": "2015",
+            "abstract": "Basal cell naevus syndrome is an inherited autosomal dominant genetic disorder characterised by multiple basal cell carcinomas (BCC), skeletal, neurological and opthalmological abnormalities. The treatment of choice of the often multiple and large BCC consists of a combined approach including surgery, liquid nitrogen and other topical treatment modalities. Imiquimod 5% cream is an immune-response-modifying drug with antiviral and anti-tumour activity. Recent reports have associated the immune-st",
+            "classification": {
+              "study_type": "Case Report (Adverse)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29603722",
+            "title": "Effective anti-programmed death-1 therapy in a SUFU-mutated patient with Gorlin-Goltz syndrome.",
+            "authors": [
+              "Moreira A",
+              "Kirchberger M C",
+              "Toussaint F",
+              "Erdmann M",
+              "Schuler G"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2018",
+            "abstract": "We present the case of a 77-year-old male patient with more than 50 basal cell carcinomas on the head and upper trunk. The patient did not respond to several lines of treatment, including surgery, imiquimod, retinoids, itraconazole and therapy with the hedgehog inhibitor vismodegib. The patient responded well to off-label therapy with the anti-programmed death-1 antibody pembrolizumab after four infusions.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34938091",
+            "title": "Improvement of Basal Cell Carcinomas in Patients with Nevoid Basal Cell Carcinoma Syndrome Following by 5-Aminolevulinic Acid Photodynamic Therapy: A Case Report.",
+            "authors": [
+              "Chen Yan Jing",
+              "Yi Qin",
+              "Li Yi Ming",
+              "Li Li"
+            ],
+            "journal": "Clinical, cosmetic and investigational dermatology",
+            "year": "2021",
+            "abstract": "Nevoid basal cell carcinoma syndrome (NBCCS) is a rare autosomal dominant-inherited disease characterized by multiple basal cell carcinomas, multiple keratocystic odontogenic tumors, palmar and/or plantar pits. A 50-year-old male patient presented to our hospital with multiple plaques and maculopapular lesions on his face and trunk for more than 20 years. A skin biopsy revealed a number of discrete nests of basaloid cells in the dermis where the peripheral cells are arrayed like a palisade. Mult",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27513585",
+            "title": "Ingenol Mebutate Treatment in a Patient with Gorlin Syndrome.",
+            "authors": [
+              "Stieger Marco",
+              "Hunger Robert E"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2016",
+            "abstract": "Gorlin syndrome, also known as the basal cell nevus syndrome (OMIM #109400), is a rare autosomal-dominant genetic disease. The disease, which shows mutation of the patched receptor gene (PTCH1) of the sonic hedgehog pathway, is characterized by developing multiple basal cell carcinomas (BCCs) in adolescent patients. Other clinical features include mandibular keratocysts, palmar and plantar pits, skeletal abnormalities and malformations central nervous system and genital tract. Gorlin-Goltz patie",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32065689",
+            "title": "A pediatric approach to management of skin growths in basal cell nevus syndrome.",
+            "authors": [
+              "Fisher Jonathan",
+              "Moustafa Danna",
+              "Su Katherine A",
+              "Bartenstein Diana W",
+              "Lilly Evelyn"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2020",
+            "abstract": "Little guidance on management of basal cell nevus syndrome in children exists. We report a case series of four patients diagnosed with BCNS in early childhood, in whom several highly suspicious lesions were biopsied, but several smaller and questionably concerning lesions were treated with therapies that are more tolerable for children, including topical imiquimod, 5-fluorouracil, cryotherapy, or touch electrodessication following topical anesthetic cream. These therapies were well tolerated, an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14616807",
+            "title": "The use of imiquimod 5% cream for the treatment of basal cell carcinoma as observed in Gorlin's syndrome.",
+            "authors": [
+              "Micali G",
+              "Lacarrubba F",
+              "Nasca M R",
+              "De Pasquale R"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2003",
+            "abstract": "Gorlin's syndrome (naevoid basal cell carcinoma) is an autosomal dominant tumour-predisposition syndrome. It typically consists of multiple basal cell carcinomas (BCCs) of the skin, odontogenic keratocysts of the jaw, various skeletal abnormalities and lamellar falx calcifications. Four patients with multiple facial and trunk BCCs (superficial and nodular) consistent with Gorlin's syndrome are reported. Imiquimod 5% cream was topically applied to the lesions 3-5 times a week for 8-14 weeks. Two ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14725671",
+            "title": "Full-face carbon dioxide laser resurfacing in the management of a patient with the nevoid basal cell carcinoma syndrome.",
+            "authors": [
+              "Doctoroff Alexander",
+              "Oberlender Steven A",
+              "Purcell Stephen M"
+            ],
+            "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+            "year": "2003",
+            "abstract": "Multiple surgical procedures are often a source of discomfort, pain, and disfigurement for patients with the nevoid basal cell carcinoma syndrome (NBCCS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22960843",
+            "title": "Basal cell nevus syndrome: a rare entity.",
+            "authors": [
+              "Bansal Manish",
+              "Nivash Shri",
+              "Manchanda Kajal",
+              "Khanna Rahul"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10848940",
+            "title": "The use of imiquimod 5% cream for the treatment of superficial basal cell carcinomas in a basal cell nevus syndrome patient.",
+            "authors": [
+              "Kagy M K",
+              "Amonette R"
+            ],
+            "journal": "Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.]",
+            "year": "2000",
+            "abstract": "Imiquimod 5% cream has been used effectively to treat superficial basal cell carcinomas (BCCs).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15204165",
+            "title": "Topical application of imiquimod for the treatment of high-risk facial basal cell carcinoma in Gorlin syndrome.",
+            "authors": [
+              "Vereecken P",
+              "Monsieur E",
+              "Petein M",
+              "Heenen M"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29173871",
+            "title": "Erythema Multiforme Caused by Treatment With Topical Imiquimod 5% in a Patient With Gorlin Syndrome.",
+            "authors": [
+              "Peña-López S",
+              "Suárez-Magdalena O",
+              "Monteagudo B",
+              "Cabanillas M"
+            ],
+            "journal": "Actas dermo-sifiliograficas",
+            "year": "2018",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16898919",
+            "title": "Hundreds of basal cell carcinomas in a Gorlin-Goltz syndrome patient cured with imiquimod 5% cream.",
+            "authors": [
+              "Ferreres J R",
+              "Macaya A",
+              "Jucglà A",
+              "Muniesa C",
+              "Prats C"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間接機轉：文獻主要集中於 Gorlin-Goltz 症候群（痣樣基底細胞癌症候群，PTCH1/SUFU 突變），該症候群同時呈現多發性牙源性角化囊腫與多發性 BCC；imiquimod 於此情境下係用於治療 BCC 成分，並非直接針對牙源性囊腫。無 imiquimod 對囊腫上皮直接作用之臨床或前臨床機轉數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "benign neoplasm of tongue",
+      "txgnn": {
+        "score": 0.9990931749343872,
+        "rank": 1818
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39094208",
+            "title": "Enhanced targeted liposomal delivery of imiquimod via aptamer functionalization for head and neck cancer therapy.",
+            "authors": [
+              "Lopes-Nunes Jéssica",
+              "Oliveira Paula A",
+              "Cruz Carla"
+            ],
+            "journal": "Colloids and surfaces. B, Biointerfaces",
+            "year": "2024",
+            "abstract": "The incidence of head and neck cancers, particularly those associated with Human Papillomavirus (HPV) infections, has been steadily increasing. Conventional therapies exhibit limitations and drawbacks, prompting the exploration of new strategies over the years, with nanomedicine approaches, especially liposomes gaining relevance. Additionally, the functionalization of liposomes with aptamers enables selective delivery to target cells. For instance, AT11 can serve as a targeting moiety for cancer",
+            "classification": {
+              "study_type": "Preclinical (Drug Delivery)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "目前僅有一篇 2024 年脂質體包覆 imiquimod 之奈米遞藥前臨床研究（PMID 39094208）用於頭頸癌靶向遞藥，研究重點為遞藥系統，非舌部良性腫瘤直接療效。TxGNN 預測分數高可能反映圖譜中口腔/頭頸解剖節點之近鄰性，無法作為臨床推進依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "nasopharyngeal teratoma",
+      "txgnn": {
+        "score": 0.9990885257720948,
+        "rank": 1828
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鼻咽畸胎瘤為極罕見胚胎性腫瘤（生殖細胞來源），主要治療為外科切除；TLR7 促效之免疫調節作用對此類腫瘤無理論機轉依據。TxGNN 高分為圖譜拓撲預測，無任何臨床或前臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "cystic neoplasm",
+      "txgnn": {
+        "score": 0.9990856647491456,
+        "rank": 1833
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「囊性腫瘤」為異質性廣泛分類（涵蓋胰腺、卵巢、肺等多部位），無針對此廣義疾病類別之 imiquimod 臨床或前臨床研究。需先明確囊性腫瘤之具體亞型方能進行機轉評估。TxGNN 預測缺乏足夠分辨率以指導臨床決策。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "inner ear neoplasm",
+      "txgnn": {
+        "score": 0.9990772008895874,
+        "rank": 1853
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "內耳腫瘤（如聽神經鞘瘤、內淋巴囊腫瘤）因解剖障壁及血-迷路屏障，局部外用 imiquimod 無法到達作用部位；全身給藥之 TLR7 促效作用於此類腫瘤微環境之機轉依據完全缺乏。屬純預測，無任何支持證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "neoplasm of major salivary gland",
+      "txgnn": {
+        "score": 0.9990707635879515,
+        "rank": 1868
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唾液腺腫瘤（腮腺、頜下腺、舌下腺）多為多型性腺瘤或黏液表皮樣癌等，無 imiquimod TLR7 促效對唾液腺腫瘤之作用機轉研究。達唾液腺之藥物遞送需全身途徑，現有局部給藥設計不適用。TxGNN 評分源自圖譜鄰近性推斷，無臨床意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "schwannoma of jugular foramen",
+      "txgnn": {
+        "score": 0.9990611672401428,
+        "rank": 1881
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頸靜脈孔神經鞘瘤（第 IX-XII 腦神經）為深部顱底腫瘤，Schwann 細胞來源；外用 imiquimod 完全無法到達，全身途徑亦無 TLR7 對神經鞘瘤之療效機轉研究。此預測可能因知識圖譜中「TLR7-免疫活化-腫瘤抑制」通路之廣泛連結所致，但缺乏任何臨床轉化依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "pre-malignant neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "pre-malignant neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "pre-malignant neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "benign neoplasm of buccal mucosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "benign neoplasm of buccal mucosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "benign neoplasm of buccal mucosa"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "cervical neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "cervical neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "cervical neuroblastoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "odontogenic cyst"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "odontogenic cyst"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "odontogenic cyst"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "benign neoplasm of tongue"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "benign neoplasm of tongue"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "benign neoplasm of tongue"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "nasopharyngeal teratoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "nasopharyngeal teratoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "nasopharyngeal teratoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "cystic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "cystic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "cystic neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "inner ear neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "inner ear neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "inner ear neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "neoplasm of major salivary gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "neoplasm of major salivary gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "neoplasm of major salivary gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imiquimod",
+        "disease": "schwannoma of jugular foramen"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

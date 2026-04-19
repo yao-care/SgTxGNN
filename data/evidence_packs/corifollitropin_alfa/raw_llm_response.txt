@@ -1,0 +1,282 @@
+## 藥物再利用證據分析：Corifollitropin alfa (DB09066)
+
+**藥物背景評估**
+
+Corifollitropin alfa 是長效型促卵泡激素（FSH）類似物（FSH receptor agonist），其 β 次單元附加 hCG 的 C 端肽以延長半衰期，歐洲已核准（品牌名 Elonva）用於控制性卵巢刺激。本分析市場狀態標記為「未上市」（台灣/新加坡市場）。所有預測適應症**均無任何臨床試驗支持**，整體證據基礎極為薄弱。
+
+---
+
+```json
+{
+  "drug": "Corifollitropin alfa",
+  "drugbank_id": "DB09066",
+  "analysis_date": "2026-04-04",
+  "data_quality_flag": "原始 MOA 標記為 [Data Gap]，本分析依藥理學文獻補充：FSH 受體促效劑",
+  "overall_summary": "全部 10 個預測適應症均無臨床試驗支持。僅 1 個適應症有文獻，但文獻內容與藥物機轉關聯極弱。所有適應症建議維持 Hold，進入 S0 初篩。",
+
+  "indications": [
+    {
+      "disease_name": "gastroduodenitis",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FSH 受體（FSHR）主要表達於性腺組織（卵巢顆粒細胞、睾丸 Sertoli 細胞）。胃十二指腸炎通常由 H. pylori 感染或 NSAID 誘發，炎症路徑（IL-1β、TNF-α、NF-κB）與 FSHR 信號通路無已知直接交集。雖有零星研究顯示 FSH 具有輕微免疫調節功能（調節 Th17/Treg 平衡），但尚無任何研究將此機轉與胃十二指腸炎連結。TxGNN 高分可能源於知識圖譜中炎症節點的非特異性傳播。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "FSHR 表達於胃腸道的直接證據缺失",
+        "TxGNN 分數異常偏高（>0.99）但無任何實驗支持，須警惕模型假陽性"
+      ]
+    },
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FSH 與偏頭痛存在流行病學關聯（月經性偏頭痛與雌激素/FSH 週期波動相關），且 FSHR 在下視丘與部分腦血管組織有低度表達。理論上 FSH 可能通過性荷爾蒙調節影響三叉神經血管系統敏感性，進而影響偏頭痛閾值。然而，Corifollitropin alfa 作為長效 FSH 促效劑，其用途為卵巢超促排卵（單次注射維持約 7 天），劑量與暴露模式與偏頭痛治療需求（急性或預防性用藥）完全不符。目前無任何臨床或動物實驗直接支持此再利用方向。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "Corifollitropin alfa 劑量設計為促排卵，非神經調節用途",
+        "月經相關偏頭痛的 FSH 關聯屬於流行病學觀察，非因果機轉"
+      ]
+    },
+    {
+      "disease_name": "peptic ulcer disease",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "消化性潰瘍主要病因為 H. pylori 感染（~70%）及 NSAID 使用，核心保護機轉為胃黏膜完整性、黏液分泌（PGE2/COX 路徑）及胃酸分泌調控。FSH 受體信號（主要透過 cAMP-PKA 路徑）與上述任一機轉無已知直接交集。知識圖譜可能通過「炎症-免疫節點」建立非特異性連結，但生物學合理性極低。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "機轉生物合理性評估：極低",
+        "若 FSH 通過影響黏膜免疫有間接作用，需先有動物模型驗證"
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "基底型偏頭痛（現稱腦幹先兆偏頭痛）涉及腦幹皮質擴散抑制（CSD）與三叉神經頸複合體。FSH 對腦幹神經元活動的直接影響目前無文獻支持。此預測可能來自知識圖譜中與「migraine disorder」的高度節點重疊，屬衍生性預測而非獨立發現。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "可能為 migraine disorder 預測的衍生結果，非獨立機轉",
+        "腦幹先兆偏頭痛為罕見且複雜亞型，試驗設計困難"
+      ]
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "雷諾氏病為血管痙攣性疾病，核心機轉為交感神經過度活化、α2-腎上腺素受體超敏感化及血管內皮功能障礙（eNOS/NO 路徑）。雌激素已知對血管張力有調節作用（促進 NO 生成、抑制平滑肌收縮），而 FSH 可間接影響雌激素分泌。然而，Corifollitropin alfa 設計用途為促進卵泡發育而非血管調節。女性停經後 FSH 上升與血管舒縮症狀相關的流行病學觀察，反而暗示 FSH 升高可能**惡化**而非改善血管收縮。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "FSH 升高（如停經後）與血管收縮症狀呈正相關，方向性存疑",
+        "以 FSH 促效劑治療血管痙攣缺乏生物合理性依據"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺動脈高壓（PAH）機轉涉及肺血管重塑、右心室肥大、平滑肌細胞增生（PDGF-BB、ET-1 路徑）。有限研究顯示 FSHR 可能在肺血管平滑肌細胞有表達，且 FSH 與 BMP/BMPR2 信號路徑存在潛在交集（BMPR2 突變為遺傳性 PAH 重要病因）。此連結具有某種生物合理性，但完全處於假說階段，無任何臨床前資料支持 Corifollitropin alfa 對肺血管的作用。10 個預測中，此適應症的機轉探索價值相對較高，可納入長期觀察清單。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "PAH 治療窗狹窄，安全性問題突出（需嚴格排除卵巢過度刺激風險）",
+        "目前仍屬假說，需基礎研究驗證 FSHR 在肺血管的功能性角色"
+      ]
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊柱後凸側彎性心臟病為繼發於脊柱畸形所致胸廓限制、肺泡低通氣及繼發性肺高壓的結構性心臟病。其病因屬機械性（脊柱幾何形態）而非分子信號失調，FSH 受體信號通路對此病理機轉幾乎無介入空間。TxGNN 高分可能源於知識圖譜中「肺高壓」節點與本適應症的鄰近性傳播。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "機轉生物合理性評估：極低（機械性病因，非分子標靶）",
+        "罕見病，試驗可行性極差"
+      ]
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此適應症的 20 篇文獻標題經逐一審查，發現內容**均涉及癲癇遺傳學、神經炎症及共病機轉**（如 PMID 33856647「Epilepsy and Migraine Shared Genetic and Molecular Mechanisms」），而非 FSH 或 Corifollitropin alfa 的直接研究。文獻關聯性等級評定為「C」（低度相關）。其中 PMID 22938964（動物模型）、22266888（癲癇遺傳學）等文獻均與目標藥物無直接連結。TxGNN 可能通過「偏頭痛-癲癇-離子通道-神經調節」的多跳路徑建立間接連結。雖有文獻存在，但文獻不支持本藥物，因此評定 L4（間接證據）而非 L3。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "論述偏頭痛與癲癇的共享基因/分子機轉，未涉及 FSH 或 Corifollitropin alfa。間接支持偏頭痛的神經調節機轉研究價值，但對本藥物無直接支持。"
+        },
+        {
+          "pmid": "34575901",
+          "title": "Selected Molecular Targets for Antiepileptogenesis",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "抗癲癇發生分子標靶綜述，與 FSH 受體無交集。通過偏頭痛-癲癇共病關係間接納入知識圖譜。"
+        },
+        {
+          "pmid": "34209535",
+          "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "神經炎症與癲癇關係，對偏頭痛的炎症機轉有間接參考價值，但無 FSH 相關內容。"
+        },
+        {
+          "pmid": "30267335",
+          "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy",
+          "year": "2018",
+          "study_type": "Meta-analysis/Genetic association",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "MTHFR 基因多型性與癲癇易感性，通過偏頭痛遺傳易感性節點間接關聯，與 Corifollitropin alfa 無直接連結。"
+        },
+        {
+          "pmid": "28086980",
+          "title": "Inflammation in epileptogenesis after traumatic brain injury",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "創傷性腦損傷後癲癇發生的炎症機轉，與偏頭痛易感性關聯極為間接。"
+        },
+        {
+          "pmid": "22938964",
+          "title": "Animal models",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "神經疾病動物模型綜述，無法確認與 FSH 或偏頭痛的直接關聯。"
+        },
+        {
+          "pmid": "22266888",
+          "title": "Genetics of epilepsy",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "癲癇遺傳學，與偏頭痛易感性通過共享遺傳節點關聯，但無 FSH 相關內容。"
+        }
+      ],
+      "notes": "剩餘 13 篇文獻（未列出）依標題判斷均屬同類型（癲癇/神經炎症），評級相同（C 級）。"
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.9881,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蟲蝕狀皮膚萎縮為毛囊角化性罕見皮膚病，可能與 KRAS/RAS 信號通路相關（部分病例伴發 RASopathy 綜合症）。FSH 受體信號（主要透過 cAMP/PKA/MAPK）理論上與 RAS 通路存在交叉，但此連結極為牽強且無任何文獻佐證。極罕見疾病（患病率 <1/1,000,000），試驗設計不可行。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "極罕見疾病，臨床試驗設計不可行",
+        "機轉連結推測性極強"
+      ]
+    },
+    {
+      "disease_name": "peptic esophagitis",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "消化性食道炎（胃食道逆流相關）的核心機轉為下食道括約肌功能障礙及胃酸反流。FSH 受體信號通路與食道括約肌張力調節無已知關聯。TxGNN 可能通過「炎症-黏膜損傷」共享節點建立連結，機轉生物合理性評估為極低。",
+      "clinical_trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "機轉生物合理性評估：極低",
+        "可能為 peptic ulcer disease 預測的知識圖譜衍生結果"
+      ]
+    }
+  ],
+
+  "cross_indication_insights": {
+    "pattern_observation": "10 個適應症 TxGNN 分數均 >0.98，呈現異常集中的高分分佈。正常情況下模型分數應呈梯度分佈，此現象可能提示：(1) 知識圖譜中 Corifollitropin alfa 節點的連通性偏高，造成非特異性高分傳播；(2) 藥物在知識圖譜中的代表性不足（僅靠 DrugBank ID 錨定，MOA 標記為 Data Gap），導致圖傳播路徑失真。",
+    "thematic_clusters": [
+      {
+        "cluster": "神經血管群",
+        "indications": ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"],
+        "rationale": "三者共享三叉神經血管機轉，且與 FSH 荷爾蒙週期的流行病學關聯最強。若 Corifollitropin alfa 要有任何再利用可能，此群組的基礎機轉研究優先度最高。"
+      },
+      {
+        "cluster": "血管張力群",
+        "indications": ["Raynaud disease", "pulmonary hypertension"],
+        "rationale": "FSH 受體在血管組織的潛在表達提供最微弱的共同機轉基礎，但方向性存疑。"
+      },
+      {
+        "cluster": "消化道炎症群",
+        "indications": ["gastroduodenitis", "peptic ulcer disease", "peptic esophagitis"],
+        "rationale": "可能為知識圖譜中炎症節點的非特異性聚集，機轉生物合理性最低。"
+      }
+    ],
+    "highest_priority_for_investigation": "pulmonary hypertension（若 FSHR 肺血管表達獲動物模型確認）和 migraine disorder（基於已知 FSH-荷爾蒙-偏頭痛流行病學關聯）"
+  },
+
+  "data_quality_issues": [
+    {
+      "issue": "original_moa 標記為 [Data Gap]",
+      "impact": "高",
+      "note": "已依藥理學文獻補充：Corifollitropin alfa 為長效 FSH 受體促效劑（作用於 FSHR），此資訊對機轉分析至關重要，建議更新資料庫。"
+    },
+    {
+      "issue": "original_indications 為空陣列",
+      "impact": "中",
+      "note": "Corifollitropin alfa（Elonva）已在歐盟核准用於控制性卵巢刺激，original_indications 應包含此適應症。缺失資訊影響再利用分析的基準線設定。"
+    },
+    {
+      "issue": "migraine with or without aura 文獻與藥物關聯性極低",
+      "impact": "中",
+      "note": "20 篇文獻均為癲癇/神經科學一般性文獻，非 FSH 或 Corifollitropin alfa 的直接研究。建議收集器增加藥物名稱過濾層。"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| gastroduodenitis | 0.9965 | **L5** | S0 | Hold |
+| migraine disorder | 0.9963 | **L5** | S0 | Hold |
+| peptic ulcer disease | 0.9961 | **L5** | S0 | Hold |
+| migraine with brainstem aura | 0.9959 | **L5** | S0 | Hold |
+| Raynaud disease | 0.9959 | **L5** | S0 | Hold |
+| pulmonary hypertension | 0.9944 | **L5** | S0 | Hold ⭐ |
+| kyphoscoliotic heart disease | 0.9936 | **L5** | S0 | Hold |
+| migraine w/ or w/o aura susceptibility | 0.9911 | **L4** | S0 | Hold |
+| atrophoderma vermiculata | 0.9881 | **L5** | S0 | Hold |
+| peptic esophagitis | 0.9867 | **L5** | S0 | Hold |
+
+> ⭐ **pulmonary hypertension** 為 10 個適應症中機轉探索相對價值最高者（FSHR 肺血管表達假說 + BMPR2 交集可能性），建議在有基礎研究預算時優先進行 FSHR 表達驗證實驗。
+>
+> ⚠️ **重要警示**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過臨床驗證才能應用。

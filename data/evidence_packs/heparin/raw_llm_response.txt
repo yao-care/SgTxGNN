@@ -1,0 +1,390 @@
+# Heparin (DB01109) 藥物再利用證據分析報告
+
+> ⚠️ **資料品質警示**：Heparin 標記為「未上市」且 `original_moa: [Data Gap]`，疑為新加坡本地藥監資料缺漏（非藥物不存在）。Heparin 為全球標準抗凝劑，此資料空白將影響 TxGNN 預測準確性，建議補充 DrugBank/KEGG 交叉驗證。
+
+---
+
+```json
+{
+  "drug": "Heparin",
+  "drugbank_id": "DB01109",
+  "analysis_date": "2026-04-04",
+  "data_quality_flag": "original_moa_gap_detected",
+  "indications": [
+    {
+      "disease_name": "thrombophilia due to protein C deficiency, autosomal recessive",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "蛋白質 C 缺乏→無法降解 Factor Va/VIIIa→高凝狀態。Heparin 透過活化 ATIII 抑制 Thrombin 及 Factor Xa，提供旁路性抗凝保護，機轉合理（補充而非靶向修正）。臨床上 heparin 已用於此症急性血栓事件，但資料庫中無試驗/文獻記錄，可能屬已知臨床使用未被捕獲的資料缺口。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "建議查詢 OMIM/Orphanet 個案報告確認現有臨床使用狀況"
+    },
+    {
+      "disease_name": "primary release disorder of platelets",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【反向機轉警示】Primary platelet release disorder（儲存池病、顆粒釋放不足）為出血傾向疾病。現有 30 篇試驗/20 篇文獻中，核心主題為 Heparin-Induced Thrombocytopenia (HIT)——即 heparin 導致血小板破壞的副作用機轉，而非治療效益。TxGNN 高分（0.991）推測源於知識圖譜中 heparin-platelet 節點高度共現，但臨床方向完全相反：heparin 是此類患者的潛在禁忌藥物。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00043940",
+          "relevance_grade": "C",
+          "reasoning": "Bivalirudin 替代 heparin 用於 HIT 患者進行 PCI，強調 heparin 在血小板疾病中的禁忌性，方向逆轉"
+        },
+        {
+          "nct_id": "NCT03148912",
+          "relevance_grade": "C",
+          "reasoning": "HIT 診斷優化研究（抗 PF4 抗體定量），為診斷性設計，非治療 primary platelet release disorder"
+        },
+        {
+          "nct_id": "NCT06096116",
+          "relevance_grade": "C",
+          "reasoning": "人類血小板裂解液 Phase 3 雙盲 RCT，研究目標與 heparin 治療血小板釋放障礙無直接關聯"
+        },
+        {
+          "nct_id": "NCT05895136",
+          "relevance_grade": "C",
+          "reasoning": "Enoxaparin + Albumin 用於失代償肝硬化，疾病脈絡不符，為肝臟疾病適應症"
+        },
+        {
+          "nct_id": "NCT00222352",
+          "relevance_grade": "C",
+          "reasoning": "ACS 急診診治研究（2000人），背景試驗，與 primary platelet release disorder 無直接關聯"
+        },
+        {
+          "nct_id": "NCT04778917",
+          "relevance_grade": "C",
+          "reasoning": "兒童肺炎 D-dimer 升高者肺微血栓處理，適應症不符"
+        },
+        {
+          "nct_id": "NCT00879957",
+          "relevance_grade": "C",
+          "reasoning": "PICC 導管通暢性研究，已撤回（enrollment: 0），無效試驗"
+        },
+        {
+          "nct_id": "NCT00073580",
+          "relevance_grade": "C",
+          "reasoning": "HIT/HITTS 患者接受 off-pump CABG 使用 Bivalirudin，核心邏輯為 heparin 之替代而非使用"
+        },
+        {
+          "nct_id": "NCT07005661",
+          "relevance_grade": "C",
+          "reasoning": "自體 PRP 使用之 Phase 2/3 RCT，與 heparin 的關聯性不明確"
+        },
+        {
+          "nct_id": "NCT03632148",
+          "relevance_grade": "C",
+          "reasoning": "HepaStem 對凝血活性的 in vitro 評估（n=9），規模極小，非 heparin 治療效果評估"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "11079020",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "HIT 病理生理綜述，記錄 heparin 誘發血小板破壞機轉，為反向證據"
+        },
+        {
+          "pmid": "28646118",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "DOACs 用於 HIT 治療，強調以其他藥物取代 heparin"
+        },
+        {
+          "pmid": "35763168",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "HIT 自發表現引起肢體缺血，heparin 為害因而非療因"
+        },
+        {
+          "pmid": "30986390",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "2",
+          "note": "肝硬化凝血管理指引，背景性文獻，非直接支持本適應症"
+        },
+        {
+          "pmid": "27882374",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "癌症相關 VTE 機轉，間接背景"
+        },
+        {
+          "pmid": "14727968",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "抗血栓新靶點綜述，背景性文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pseudo-vWD 為 GPIbα 功能獲得性突變，血小板過度結合 vWF 導致大型 vWF 多聚體缺乏及血小板减少，本質為出血傾向。Heparin 作為抗凝劑於此症在理論上加重出血風險。無任何臨床試驗或文獻支持；TxGNN 預測可能源於 vWF-heparin 分子結合特性的知識圖譜誤連。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "atypical hemolytic-uremic syndrome with thrombomodulin anomaly",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Atypical HUS with Thrombomodulin (THBD) anomaly 涉及補體替代途徑失調及血栓性微血管病變 (TMA)。THBD 突變削弱蛋白質 C 活化及 TAFI 激活。Heparin 具微弱抗補體特性（與 C1q/MBL 結合），理論連結極微；現行標準治療為 Eculizumab（C5 補體抑制劑）。無試驗或文獻支持，停留在純計算預測層次。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neuropathy, painful",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Heparin 及 LMWH 具多重非抗凝機轉：(1) 抗炎—抑制 HMGB1、NF-κB、補體活化；(2) 微循環改善—減少纖維蛋白沉積、增進神經血供；(3) 神經保護—結合神經生長因子 (NGF) 促進軸突再生。在糖尿病周邊神經病變及化療誘發周邊神經病變 (CIPN) 中，缺血/炎症機轉占重要地位，HELP Apheresis（肝素介導體外 LDL 沉澱法）直接應用 heparin 改善糖尿病缺血性足部微循環，與痛性神經病變機轉高度吻合。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00662831",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 雙盲 RCT，276 名受試者，6 個月療程，已完成。設計嚴謹，規模足夠，但標題截斷無法確認受試藥物是否為 heparin/LMWH；建議查核 ClinicalTrials.gov 完整記錄"
+        },
+        {
+          "nct_id": "NCT01518205",
+          "relevance_grade": "B",
+          "reasoning": "HELP Apheresis 用於糖尿病缺血性足部 RCT（n=13），直接利用 heparin 機轉改善微循環，與痛性神經病變病理機轉高度相關，為最直接相關試驗"
+        },
+        {
+          "nct_id": "NCT00765063",
+          "relevance_grade": "B",
+          "reasoning": "NCT00662831 之長期延伸安全性試驗（n=62，Phase 2/3），支持長期使用安全性評估"
+        },
+        {
+          "nct_id": "NCT00445328",
+          "relevance_grade": "B",
+          "reasoning": "Dalteparin vs UFH Phase 4 RCT（已終止，n=84），直接比較 LMWH 與 UFH heparin，提供劑型比較框架；終止可能限制結論性"
+        },
+        {
+          "nct_id": "NCT06003998",
+          "relevance_grade": "C",
+          "reasoning": "大腸癌化療方案（Irinotecan + FOLFOX + Bevacizumab）Phase 2，CIPN 為副作用而非主要終點，關聯性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27474498",
+          "study_type": "Translational/Basic",
+          "tier": "3",
+          "note": "HMGB1 在化療誘發神經病變中的發展與維持機制，Heparin 可拮抗 HMGB1，提供分子層次機轉連結"
+        },
+        {
+          "pmid": "25765490",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "RNA 結合蛋白 HuD 調控脊髓 RyR2 路徑引起痛覺超敏，抗反轉錄病毒藥物模型，背景性機轉參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "retinal telangiectasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "視網膜毛細血管擴張症（如 MacTel）涉及局部血管炎症、滲漏及新生血管。Heparin 具抗 VEGF 結合之競爭性抑制及抗凝特性，理論上存在微弱連結，但現有文獻（PMID 29068144）僅為 HHT 合併視網膜動脈阻塞個案，heparin 用於血栓並發症而非 telangiectasia 本身的治療。證據層次不足以支持進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29068144",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "HHT 合併分支視網膜動脈阻塞個案，heparin 用於抗栓，非 retinal telangiectasia 本身之治療，文獻關聯性間接"
+        }
+      ]
+    },
+    {
+      "disease_name": "retinal microaneurysm",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "視網膜微動脈瘤主要見於糖尿病視網膜病變，涉及微血管週細胞喪失及管壁弱化。Heparin 改善微循環之理論機轉存在遠端關聯，但唯一文獻（PMID 27680610）為馬拉松跑者心室腫塊個案，與本適應症完全無關——疑為文獻匹配錯誤（false positive retrieval）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27680610",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "42歲馬拉松跑者右心室大型腫塊個案，與視網膜微動脈瘤無任何臨床或機轉關聯，判定為文獻檢索假陽性"
+        }
+      ]
+    },
+    {
+      "disease_name": "arteriosclerotic retinopathy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "動脈硬化性視網膜病變反映全身動脈粥狀硬化於眼底之表現。Heparin 類藥物（特別是 LMWH）具抑制平滑肌細胞增殖及抗動脈粥狀硬化的理論機轉，但無任何臨床試驗或文獻支持針對此適應症的治療效果。完全停留於分子預測層次，不足以進入臨床評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral artery occlusion",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "椎動脈閉塞（尤以動脈剝離為主要病因）的急性期抗凝治療具有充分病理機轉支持：Heparin 防止管腔內血栓延伸、降低栓子脫落風險、可能促進假腔機化縮小。CADISS 試驗（PMID 30801621）直接比較抗血小板 vs 抗凝療法於頸動脈剝離（含椎動脈），多篇回顧性文獻記錄急性期 heparin 應用。此適應症可能已屬部分「既有應用」而非真正再利用，需確認 Singapore 指引缺口。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01980316",
+          "relevance_grade": "B",
+          "reasoning": "Argatroban 用於顱外椎動脈支架後再狹窄預防 Phase 4 RCT（n=114，已完成）；雖非 heparin，但同為直接抗凝療法，提供椎動脈介入後抗凝管理框架，可作為 heparin 橋接治療參考"
+        },
+        {
+          "nct_id": "NCT06947720",
+          "relevance_grade": "C",
+          "reasoning": "顱內外動脈串聯狹窄超音波診斷標準（n=700），為診斷性設計，對 heparin 療效評估無直接貢獻"
+        },
+        {
+          "nct_id": "NCT05328154",
+          "relevance_grade": "C",
+          "reasoning": "鎂雙膦酸鹽對骨重塑影響之 Phase 2，與椎動脈閉塞完全無關"
+        },
+        {
+          "nct_id": "NCT01767051",
+          "relevance_grade": "C",
+          "reasoning": "PCOS 女性後代心血管健康追蹤研究，屬流行病學設計，非椎動脈治療試驗"
+        },
+        {
+          "nct_id": "NCT05228262",
+          "relevance_grade": "C",
+          "reasoning": "停經後骨質疏鬆患者血管功能研究，背景血管研究，非直接治療試驗"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30801621",
+          "study_type": "Systematic Review / RCT Secondary Analysis",
+          "tier": "1",
+          "note": "CADISS 試驗：頸動脈剝離抗血小板 vs 抗凝療法 RCT，直接支持抗凝（含 heparin）用於椎動脈剝離/閉塞，為本適應症最高品質證據"
+        },
+        {
+          "pmid": "25845811",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "兒童顱外椎動脈剝離自然史與管理回顧性分析，抗凝治療為主要策略之一"
+        },
+        {
+          "pmid": "32838672",
+          "study_type": "Retrospective Study",
+          "tier": "2",
+          "note": "非急性顱內椎動脈閉塞血管內再通研究，提供抗凝輔助策略背景"
+        },
+        {
+          "pmid": "17288890",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "頸顱動脈剝離綜述，抗凝（含 heparin）為初始治療標準選項"
+        },
+        {
+          "pmid": "31673459",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒童創傷性椎動脈剝離並基底動脈閉塞，記錄抗凝治療決策過程"
+        },
+        {
+          "pmid": "25587466",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "椎動脈剝離合併基底動脈閉塞，記錄 heparin 使用"
+        },
+        {
+          "pmid": "37680919",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "創傷性椎動脈自發再通後腦梗塞之親動脈閉塞術，抗凝決策背景"
+        },
+        {
+          "pmid": "31901498",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "椎動脈窗式分叉肢剝離後閉塞個案，罕見解剖變異"
+        },
+        {
+          "pmid": "2521745",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "1989年非冠狀動脈血管成形術綜述，歷史性背景參考，證據效力低"
+        },
+        {
+          "pmid": "38169875",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "Calciphylaxis 眼科模擬個案系列，與椎動脈閉塞關聯性低，文獻匹配可疑"
+        }
+      ]
+    },
+    {
+      "disease_name": "breast fibrocystic disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳腺纖維囊性病變為良性增生性疾病，與週期性荷爾蒙刺激及局部炎症有關。三篇文獻中 heparin 均以實驗室試劑（親和層析載體、蛋白純化工具）角色出現，非治療藥物。無任何支持 heparin 作為治療藥物的機轉理論。TxGNN 評分（0.932）推測來自生物標記共現誤連（heparin 廣泛出現於細胞生物學實驗，污染知識圖譜訓練訊號）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3368198",
+          "study_type": "Laboratory Study",
+          "tier": "3",
+          "note": "乳腺正常/癌前/癌組織 DNA 分布研究（1988），heparin 作為親和層析試劑，非治療應用"
+        },
+        {
+          "pmid": "2444863",
+          "study_type": "Hypothesis/Opinion",
+          "tier": "3",
+          "note": "纖維囊性乳腺病過敏病因假說（1987），與 heparin 無直接關聯，已極度過時"
+        },
+        {
+          "pmid": "11694309",
+          "study_type": "Laboratory Study",
+          "tier": "3",
+          "note": "BRCA2 腫瘤抑制蛋白表達之親和層析研究（2001），heparin 為純化工具，非療效評估"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣總覽
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 | 關鍵發現 |
+|--------|------------|---------|---------|------|---------|
+| Thrombophilia (Protein C def.) | 0.993 | **L4** | S1 | Research Question | 機轉合理，資料缺口（可能為已知臨床使用） |
+| Primary platelet release disorder | 0.991 | **L4** | S0 | **Hold** | ⚠️ 反向機轉：試驗均為 HIT（Heparin 之副作用） |
+| Pseudo-vWD | 0.987 | **L5** | S0 | **Hold** | 出血疾病，heparin 為禁忌 |
+| aHUS with Thrombomodulin anomaly | 0.967 | **L5** | S0 | Hold | 純預測，主流治療為 Eculizumab |
+| Neuropathy, painful | 0.961 | **L3** | S2 | Proceed with Guardrails | HELP Apheresis 機轉連結，Phase 2/3 RCT 存在 |
+| Retinal telangiectasia | 0.949 | **L5** | S0 | Hold | 個案報告為血栓並發症，非直接治療 |
+| Retinal microaneurysm | 0.945 | **L5** | S0 | Hold | 文獻匹配錯誤（心室腫塊個案） |
+| Arteriosclerotic retinopathy | 0.945 | **L5** | S0 | Hold | 無任何臨床證據 |
+| Vertebral artery occlusion | 0.942 | **L3** | S2 | Proceed with Guardrails | CADISS RCT 支持抗凝，多篇回顧性研究 |
+| Breast fibrocystic disease | 0.932 | **L5** | S0 | Hold | 文獻中 Heparin 為實驗室試劑，非藥物 |
+
+---
+
+## 🔍 關鍵洞察
+
+### 1. TxGNN 預測偏差警示
+本批次出現兩類系統性偏差：
+- **反向機轉混淆**：`primary release disorder` 及 `pseudo-vWD` 均為出血疾病，而 Heparin 是其禁忌藥。高分源於知識圖譜中 heparin-platelet 節點共現（HIT 文獻），而非治療效益。
+- **試劑汙染**：`breast fibrocystic disease` 的文獻中 heparin 作為實驗室親和層析工具出現，污染了生物醫學文獻訊號。
+
+### 2. 優先推進適應症
+| 優先級 | 適應症 | 下一步行動 |
+|--------|--------|-----------|
+| 🟢 高 | Vertebral artery occlusion | 確認現行 SG 指引缺口；補充 CADISS 完整試驗數據 |
+| 🟡 中 | Neuropathy, painful | 確認 NCT00662831 受試藥物；HELP Apheresis 可行性評估 |
+| 🟡 中 | Thrombophilia (Protein C def.) | 查詢 Orphanet/OMIM 個案資料；補充 heparin 急性期使用文獻 |
+
+### 3. 資料品質建議
+`market_status: 未上市` 及 `original_moa: [Data Gap]` 需緊急修正——建議從 DrugBank 直接補入 Heparin 的已知適應症（DVT、PE、ACS 等）及 ATIII 活化機轉，以避免 TxGNN 預測基準失真。

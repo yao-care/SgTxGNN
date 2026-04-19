@@ -1,0 +1,281 @@
+```json
+{
+  "drug": "Camphor",
+  "drugbank_id": "DB01744",
+  "analysis_date": "2026-04-05",
+  "analyst_notes": "⚠️ 重大警告：'pulmonary hypertension' 的所有文獻命中均來自 CAMPHOR 縮寫（Cambridge Pulmonary Hypertension Outcome Review 問卷），非藥物 Camphor 本身。所有臨床試驗亦針對其他藥物（erenumab、treprostinil、empagliflozin 等），屬系統性假陽性。",
+  "indications": [
+    {
+      "disease_name": "migraine disorder",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Camphor 為 TRPV1 部分促效劑及 TRPM8 激動劑，可調節三叉神經血管痛覺傳導；其 CNS 興奮性調節作用（GABA-A 受體）可能影響皮質擴散性抑制（CSD）；傳統製劑（含 camphor 精油）外用於頭痛有歷史記載，但分子路徑尚未系統性驗證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34373243",
+          "title": "Essential oils and cluster headache: insights from two cases",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "精油（可能含 camphor 成分）用於叢發性頭痛的 2 例個案，對 camphor 有間接相關性，但未單獨分離 camphor 效果"
+        },
+        {
+          "pmid": "593588",
+          "title": "[Therapy for essential hemicrania]",
+          "year": "1977",
+          "study_type": "Case Series / Historical",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "1977 年偏頭痛治療歷史文獻，可能含 camphor 製劑記載，年代久遠，設計無法符合現代標準，僅供歷史參考"
+        },
+        {
+          "pmid": "35856604",
+          "title": "Substance use related cluster headache: A case series",
+          "year": "2022",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "物質使用誘發叢發性頭痛個案系列，與 camphor 相關性極低，可能為關鍵字匹配誤判"
+        },
+        {
+          "pmid": "36404301",
+          "title": "Phase 3 RCT of erenumab for chronic migraine prevention",
+          "year": "2022",
+          "study_type": "Phase 3 RCT",
+          "tier": 1,
+          "relevance_grade": "C",
+          "reasoning": "erenumab（CGRP 拮抗劑）的 Phase 3 RCT，與 camphor 完全無關，屬文獻收集系統誤匹配"
+        },
+        {
+          "pmid": "27058833",
+          "title": "[The origin of neuropsychopharmacotherapy for children and adolescents]",
+          "year": "2016",
+          "study_type": "Historical Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "兒童神經藥物治療史回顧，camphor 可能作為歷史藥物被提及，但無當代臨床實用性"
+        }
+      ],
+      "evidence_summary": "僅有歷史個案報告及精油製劑間接證據；無直接 camphor 單一成分的偏頭痛 RCT 或系統性研究。需先確認安全性（口服 camphor 具神經毒性風險）與給藥途徑可行性。"
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接文獻支持；假設路徑為 TRPV1/TRPM8 調節腦幹三叉神經核活性，但屬高度推測。此亞型機轉更涉及腦幹血管調節，安全性疑慮更高。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持，純為 TxGNN 計算預測。腦幹型偏頭痛屬罕見且高風險亞型，在無任何臨床前體內資料前不建議推進。"
+    },
+    {
+      "disease_name": "erectile dysfunction (disease)",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉連結。唯一文獻（PMID 27955803）為毒理學研究，評估 camphor 的急性口服毒性及組織氧化壓力，實為反向證據（毒性關注），非療效支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27955803",
+          "title": "Oral acute toxicity study and tissues oxidative stress in edible plants",
+          "year": "2017",
+          "study_type": "Animal Toxicology",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "急性口服毒性及氧化壓力研究，此文獻為安全疑慮的負面證據，而非 ED 療效支持，相關性極低"
+        }
+      ],
+      "evidence_summary": "唯一文獻為毒理學報告，ED 適應症無正向臨床依據，TxGNN 預測可能為圖神經網路的噪訊輸出。"
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 嚴重資料品質問題：所有 20 篇文獻均為 'CAMPHOR' 問卷（Cambridge Pulmonary Hypertension Outcome Review）的驗證研究，CAMPHOR 為量表縮寫，與藥物 Camphor（DB01744）完全無關。36 項臨床試驗測試的是 erenumab、treprostinil、empagliflozin、acetazolamide 等藥物，非 Camphor。此為系統性假陽性，需從資料管線過濾。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00902174",
+          "title": "Phase 3 RCT for pulmonary hypertension",
+          "relevance_grade": "C",
+          "reasoning": "針對其他藥物的 Phase 3 RCT，與 Camphor 無關，誤入原因為 'CAMPHOR' 問卷作為次要終點"
+        },
+        {
+          "nct_id": "NCT00887978",
+          "title": "Phase 3 Multicenter RCT for pulmonary hypertension",
+          "relevance_grade": "C",
+          "reasoning": "同上，CAMPHOR 量表作為 QoL 測量工具，非 Camphor 藥物試驗"
+        },
+        {
+          "nct_id": "NCT05493371",
+          "title": "Empagliflozin for idiopathic PAH",
+          "relevance_grade": "C",
+          "reasoning": "SGLT2 抑制劑試驗，與 Camphor 完全無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27989660",
+          "title": "Adaptation and Validation of CAMPHOR for Use in...",
+          "year": "2017",
+          "study_type": "Questionnaire Validation",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "CAMPHOR = Cambridge Pulmonary Hypertension Outcome Review 量表驗證，非藥物研究"
+        },
+        {
+          "pmid": "18354747",
+          "title": "Adaptation of CAMPHOR into French-Canadian...",
+          "year": "2008",
+          "study_type": "Questionnaire Validation",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "同為 CAMPHOR 量表跨文化適應研究，與藥物 Camphor 無關"
+        }
+      ],
+      "evidence_summary": "⚠️ 資料污染警告：全部文獻/試驗均為 CAMPHOR 縮寫誤匹配。建議在資料管線中加入縮寫/藥名去歧義過濾器（ambiguity filter）。Camphor 藥物本身對肺動脈高壓無已知機轉連結，證據等級定為 L5。"
+    },
+    {
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "20 篇文獻均為癲癇-偏頭痛遺傳共病、基因多態性研究，未涉及 camphor。此適應症為遺傳易感性，而非可治療的臨床表現型，不適合藥物再利用框架直接討論。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33856647",
+          "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "癲癇與偏頭痛共享分子機轉綜述，無 camphor 相關內容，為主題誤匹配"
+        }
+      ],
+      "evidence_summary": "文獻均針對偏頭痛遺傳易感性（基因研究），與 camphor 治療完全無關。此適應症概念本身（易感性基因型）不適合 drug repurposing 分析，建議從候選列表移除。"
+    },
+    {
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何文獻或機轉連結。脊柱後凸側彎性心臟病為結構性限制型心臟病，Camphor 無已知心臟保護或結構改善機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零文獻、零試驗，純 TxGNN 計算預測，且病理機轉與 camphor 藥理無明顯交集。"
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉部毛囊角化症（ulerythema ophryogenesis）為角化異常性罕見皮膚病。Camphor 的角質軟化或抗炎作用存在極低理論可能性，但無任何文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零文獻、零試驗。罕見皮膚病適應症，若有皮膚科 camphor 外用文獻可進一步檢索，但目前資料不支持推進。"
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻（PMID 22588774）為系統性硬化症問卷研究，Raynaud 僅為硬皮病次要症狀提及，非 camphor 治療研究。理論上 camphor 的 TRPV1/TRPM8 調節可能影響血管舒張反射，但無臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22588774",
+          "title": "Measures of systemic sclerosis: HAQ and Scleroderma questionnaires",
+          "year": "2011",
+          "study_type": "Questionnaire Validation",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "硬皮病評估量表研究，Raynaud 為硬皮病症狀之一，與 camphor 治療完全無關"
+        }
+      ],
+      "evidence_summary": "文獻為硬皮病問卷研究，非 camphor 療效資料。雖然 TRPM8 調節冷感知理論上與 Raynaud 血管反應有連結，但無任何臨床前或臨床研究，維持 L5。"
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.9954,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蟲蝕狀皮膚萎縮為毛囊漏斗部角化堵塞所致罕見皮膚病。Camphor 外用製劑在皮膚科歷史上有使用，理論上可能有輕度角質調節作用，但無任何相關研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零文獻、零試驗，極罕見皮膚病，現有資料完全不支持推進。"
+    },
+    {
+      "disease_name": "Tourette syndrome",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉連結。Tourette 症候群為多巴胺/GABA 失調相關神經發展障礙；Camphor 的 GABA-A 受體調節作用（主要為輕度拮抗）可能有間接理論連結，但風險（神經興奮性增加、癲癇閾值降低）遠大於潛在效益。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零文獻、零試驗。Camphor 具神經興奮性，在 Tourette 此類神經發展障礙中使用具安全疑慮，不建議推進。"
+    }
+  ],
+  "cross_cutting_concerns": {
+    "safety_flags": [
+      "Camphor 口服具明確神經毒性：成人 LD50 約 50mg/kg，兒童更低；可引發癲癇、昏迷",
+      "FDA 已限制外用 camphor 濃度上限（≤11%），禁止高濃度口服製劑",
+      "所有需口服給藥的適應症（偏頭痛、ED、Tourette 等）需特別謹慎劑量設計",
+      "市場狀態：台灣未上市（未上市），缺乏當地法規資料"
+    ],
+    "data_quality_issues": [
+      "CAMPHOR 縮寫污染：pulmonary hypertension 的所有 20 篇文獻及 36 項試驗均為誤匹配，建議加入 NLP 去歧義層",
+      "TxGNN 分數高度集中（0.994–0.998），顯示可能存在批次效應或特定圖結構偏差，應與分數分布基線比較",
+      "多個適應症（migraine with or without aura susceptibility）為遺傳易感性概念，不適合直接作為再利用目標"
+    ],
+    "prioritization": {
+      "highest_priority": "migraine disorder（L4/S1）- 唯一有間接臨床文獻支持的適應症，且偏頭痛有外用給藥途徑規避毒性",
+      "data_gap_to_fill": "需檢索 camphor 外用貼片/香薰療法用於偏頭痛的 PubMed 文獻（本次收集可能不完整）",
+      "deprioritize": "pulmonary hypertension（資料污染）、migraine with brainstem aura（安全風險）、Tourette syndrome（神經毒性疑慮）"
+    }
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 重大發現：CAMPHOR 縮寫污染
+
+`pulmonary hypertension` 的 **36 項臨床試驗 + 20 篇文獻全數為假陽性**。所有文獻均來自 **CAMPHOR 問卷**（Cambridge Pulmonary Hypertension Outcome Review），建議在資料管線加入縮寫去歧義過濾。
+
+---
+
+### 📊 證據等級總覽
+
+| 適應症 | 證據等級 | 決策階段 | 關鍵問題 |
+|--------|---------|---------|---------|
+| migraine disorder | **L4** | **S1** | 僅精油個案/歷史文獻，外用途徑有探索空間 |
+| migraine with brainstem aura | L5 | S0 | 零證據 |
+| erectile dysfunction | L5 | S0 | 唯一文獻為毒性研究（反向證據） |
+| **pulmonary hypertension** | **L5** | **S0** | ⚠️ **資料污染，全為縮寫誤匹配** |
+| migraine aura susceptibility | L5 | S0 | 遺傳易感性不適合 repurposing 框架 |
+| kyphoscoliotic heart disease | L5 | S0 | 零證據 |
+| ulerythema ophryogenesis | L5 | S0 | 零證據 |
+| Raynaud disease | L5 | S0 | 文獻為硬皮病量表研究 |
+| atrophoderma vermiculata | L5 | S0 | 零證據 |
+| Tourette syndrome | L5 | S0 | 神經毒性安全疑慮 |
+
+### 建議下一步
+
+僅 **migraine disorder（L4/S1）** 值得進入安全性初評，重點應聚焦於**外用/香薰給藥途徑**，規避口服神經毒性風險，並補充 camphor 成分的偏頭痛外用研究文獻。

@@ -1,0 +1,384 @@
+# 藥物再利用證據分析：Copper (DB09130)
+
+## 藥物背景評估
+
+- **本質定位**：必需微量元素，非傳統藥物；過量具毒性（Wilson 氏病即銅積累所致）
+- **安全隱患**：Copper 同時是已知接觸性過敏原，在皮膚疾病領域存在「致病 vs 治療」的根本矛盾
+- **MoA 缺失**：無已批准適應症，機轉記錄為 [Data Gap]
+
+---
+
+```json
+{
+  "drug": "Copper",
+  "drugbank_id": "DB09130",
+  "analysis_date": "2026-04-04",
+  "overall_safety_flag": "⚠️ 高劑量具毒性，且為已知皮膚致敏原，所有適應症須優先排除安全性矛盾",
+  "indications": [
+    {
+      "disease_name": "esotropia",
+      "txgnn_score": 0.9625,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知銅與斜視（眼外肌失衡）之間的直接機轉關聯。TxGNN 高分可能源於知識圖譜中眼科疾病的拓撲鄰近性，而非生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "零臨床試驗、零文獻支持。無法建立任何臨床假設，建議放棄此適應症。"
+    },
+    {
+      "disease_name": "dermatitis",
+      "txgnn_score": 0.9506,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "銅為賴氨醯氧化酶（膠原/彈性蛋白交聯）、酪氨酸酶、銅鋅超氧化物歧化酶（Cu-Zn SOD）之輔因子，具抗氧化及傷口癒合潛力。然而銅同時是已知 IV 型過敏原，可直接誘發接觸性皮膚炎，構成根本性矛盾。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02615249",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，已完成，n=122。研究銅作為金屬過敏原（patch test），本質為評估銅「致病性」而非治療效果，對再利用研究具負面意義。"
+        },
+        {
+          "nct_id": "NCT01291628",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，狀態 UNKNOWN，n=10。針對卡培他濱誘發手足症候群的預防，銅的角色不明確，樣本極小且狀態不明。"
+        },
+        {
+          "nct_id": "NCT06726707",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3，但已 WITHDRAWN，n=0。試驗名稱直接包含「COPPER」且針對皮膚炎，本應是最相關的試驗，但因撤回未能產生任何數據，提示可能存在設計或安全性障礙。"
+        },
+        {
+          "nct_id": "NCT01132651",
+          "relevance_grade": "C",
+          "reasoning": "物理冷卻枕頭介入，非銅特異性治療，納入此清單可能為資料庫關鍵字匹配錯誤。"
+        },
+        {
+          "nct_id": "NCT02050620",
+          "relevance_grade": "C",
+          "reasoning": "運動行為與異位性皮膚炎關聯研究，無銅介入，不相關。"
+        },
+        {
+          "nct_id": "NCT06529913",
+          "relevance_grade": "C",
+          "reasoning": "觀察性重金屬暴露研究（n=280，招募中），銅為暴露因子而非治療藥物，屬毒理學範疇。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38612631",
+          "title": "Zinc, Copper, and Iron in Selected Skin Diseases",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "直接相關，綜述銅在皮膚疾病中的角色，但為敘述性綜述，非介入研究。"
+        },
+        {
+          "pmid": "25098945",
+          "title": "Copper hypersensitivity",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "⚠️ 負面證據：系統性回顧銅作為過敏原，強化「銅致皮膚炎」的論點，削弱再利用可行性。"
+        },
+        {
+          "pmid": "2134100",
+          "title": "Zinc and copper status in children with bronchial asthma and atopic dermatitis",
+          "study_type": "Observational",
+          "tier": "2",
+          "note": "1990 年觀察性研究，顯示異位性皮膚炎患兒銅狀態異常，支持補充假說但無介入數據。"
+        },
+        {
+          "pmid": "39449909",
+          "title": "Safety, Efficacy, and Tolerability of a Novel Scalp Treatment Regimen",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "2024 年，針對頭皮的複合製劑試驗，需確認銅是否為關鍵活性成分。"
+        },
+        {
+          "pmid": "36539792",
+          "title": "Comparison of copper sulphate in prevention of digital dermatitis in dairy",
+          "study_type": "Veterinary RCT",
+          "tier": "3",
+          "note": "獸醫研究（乳牛蹄皮炎），硫酸銅足浴效果，不可直接外推人體。"
+        },
+        {
+          "pmid": "36584317",
+          "title": "Treatment of Superficial Necrolytic Dermatitis with Copper Chelation in a Dog",
+          "study_type": "Veterinary Case Report",
+          "tier": "3",
+          "note": "獸醫案例報告，且為銅螯合治療（降低銅），與補充銅方向相反。"
+        },
+        {
+          "pmid": "39102684",
+          "title": "Nutrition, Obesity, and Seborrheic Dermatitis: Systematic Review",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "2024 系統性綜述，微量元素與脂溢性皮膚炎關聯，銅為眾多因素之一，非主要焦點。"
+        },
+        {
+          "pmid": "38670340",
+          "title": "Comparative efficacy of copper sulfate footbath solution",
+          "study_type": "Veterinary RCT",
+          "tier": "3",
+          "note": "獸醫研究，不相關。"
+        },
+        {
+          "pmid": "38367035",
+          "title": "Role of zinc in health and disease",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "以鋅為主，銅為次要討論，間接相關。"
+        },
+        {
+          "pmid": "38574210",
+          "title": "Newborn Skin: Part I. Common Rashes and Skin Changes",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "note": "新生兒皮疹敘述性綜述，銅相關性極低。"
+        }
+      ],
+      "critical_concern": "6 個臨床試驗中，最相關的（NCT06726707）已撤回且零入組；NCT02615249 實為測試銅的致敏性。文獻中存在明確的銅過敏論據（PMID 25098945），建議作為 Research Question 需優先解決：銅在治療濃度下是否能避免引發接觸性過敏？"
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.9382,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此病為萊姆病晚期螺旋體感染所致的皮膚萎縮性變化，標準治療為長療程抗生素（多西環素）。銅無直接抗螺旋體機轉，且 TxGNN 高分可能反映皮膚疾病知識圖譜鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "零支持證據。疾病機轉（感染性）與銅的生物功能（酶輔因子）不匹配。"
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.9378,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "罕見光皮膚病（EBV 相關 T/NK 細胞淋巴增生），銅無已知光防護或 EBV 調控機轉。零臨床及文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "極罕見疾病，零支持證據，發病機轉與銅不相關。"
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.9355,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒皮肌炎為自身免疫性肌炎的極罕見亞型，與母體抗體轉移相關。銅對此免疫病理無直接機轉，零臨床及文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "極罕見疾病，零支持證據。"
+    },
+    {
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn_score": 0.9334,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為兒童結締組織病相關繼發性間質性肺病，極罕見。銅的肺纖維化相關研究（賴氨醯氧化酶）存在，但針對此特定兒科亞型無任何直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "超罕見兒科疾病分類，零支持證據，暫不列入研究計畫。"
+    },
+    {
+      "disease_name": "acne keloid",
+      "txgnn_score": 0.9333,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瘢痕疙瘩與膠原過度沉積有關，銅（賴氨醯氧化酶）理論上可能促進膠原交聯，但此機轉實際上可能「加重」而非緩解瘢痕疙瘩。唯一文獻為 1985 年印度職業皮膚病綜述，不具針對性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28164871",
+          "title": "Occupational Dermatoses in Some Selected Industries in India",
+          "study_type": "Retrospective Survey",
+          "tier": "3",
+          "note": "1985 年職業皮膚病調查，與銅治療痤瘡瘢痕疙瘩無關聯，文獻匹配可能為關鍵字誤判。"
+        }
+      ],
+      "rationale": "唯一文獻不相關，且機轉可能為負面（促膠原交聯）。"
+    },
+    {
+      "disease_name": "dry eye syndrome",
+      "txgnn_score": 0.9328,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "銅鋅超氧化物歧化酶（Cu-Zn SOD）為眼表重要抗氧化酶。乾眼症伴隨氧化應激和慢性炎症，銅硒化物（CuSe）奈米粒子展示出模擬 SOD 活性的抗氧化特性（PMID 38110136）。唯一臨床試驗已撤回，目前證據停留在奈米材料臨床前階段。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01364311",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，已 WITHDRAWN，零入組。試驗為補充劑治療乾眼症，銅是否為主要活性成分不明確。無任何數據產出。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38110136",
+          "title": "Tissue-adhesive F127 hydrogel delivers antioxidative copper-selenide nanoparticles for dry eye treatment",
+          "study_type": "Preclinical/In vitro + Animal",
+          "tier": "2",
+          "note": "⭐ 最相關文獻（2024）。銅硒化物奈米粒子在動物模型中顯示有效性，但尚未進入人體試驗階段。"
+        },
+        {
+          "pmid": "36254059",
+          "title": "Bioinformatics analysis of copper-induced cell death mechanisms",
+          "study_type": "Bioinformatics/Computational",
+          "tier": "2",
+          "note": "銅誘導細胞死亡（cuproptosis）的生信分析，屬機轉研究，非治療性證據。"
+        },
+        {
+          "pmid": "26903189",
+          "title": "Vitamins, essential fatty acids, and antioxidants in age-related macular degeneration",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "針對 AMD 的營養補充綜述（非乾眼），銅在 AREDS 配方中作為補充劑之一，相關性間接。"
+        },
+        {
+          "pmid": "9614529",
+          "title": "Nutrition supplements and the eye",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "1998 年眼科營養綜述，較舊，間接相關。"
+        },
+        {
+          "pmid": "28124217",
+          "title": "Elemental Analysis in Patients with Systemic Lupus Erythematosus",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "SLE 患者元素分析，乾眼為繼發症狀，不直接支持銅治療乾眼。"
+        },
+        {
+          "pmid": "32445015",
+          "title": "Inflammation and oxidative stress induced by 4-hydroxynonenal in human corneal cells",
+          "study_type": "In vitro",
+          "tier": "2",
+          "note": "角膜細胞氧化應激研究，支持抗氧化治療的機轉合理性，但非銅特異性。"
+        },
+        {
+          "pmid": "18868853",
+          "title": "Sjøgren's syndrome",
+          "study_type": "Case Report/Review",
+          "tier": "3",
+          "note": "1948 年原始文獻，不具現代參考價值。"
+        },
+        {
+          "pmid": "389039",
+          "title": "Primary biliary cirrhosis and the immune system",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "1979 年，與乾眼症無直接關聯。"
+        },
+        {
+          "pmid": "29484560",
+          "title": "Effects of diquafosol sodium eye drop on meibomian gland",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "diquafosol 治療乾眼，無銅相關性，可能為比較藥物或匹配錯誤。"
+        },
+        {
+          "pmid": "34575862",
+          "title": "Oxidation of Nuclear Autoantigen La/SS-B in Sjögren's",
+          "study_type": "Mechanistic Study",
+          "tier": "3",
+          "note": "Sjögren 氏症的核自身抗原氧化機轉，間接關聯乾眼病理，與銅無直接連結。"
+        }
+      ],
+      "rationale": "PMID 38110136 為 2024 年新興臨床前研究，提供初步的機轉合理性（銅硒化物奈米粒子 SOD 模擬活性），但距離人體試驗仍有距離。臨床試驗已撤回、零入組。建議列為 Research Question，追蹤奈米醫學領域進展。"
+    },
+    {
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn_score": 0.9315,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無肌病性皮肌炎以皮膚表現為主但無肌肉炎症，為自身免疫疾病。銅無明確免疫調節機轉適用此亞型，零臨床及文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "rationale": "零支持證據。"
+    },
+    {
+      "disease_name": "bone Paget disease",
+      "txgnn_score": 0.9291,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨 Paget 病涉及破骨/成骨細胞失調。銅在骨代謝中有間接角色（賴氨醯氧化酶促膠原交聯），但現有文獻均非治療性：PMID 21853370 使用 Cu-64 作為 PET 影像示蹤劑（診斷而非治療），PMID 22571374 研究金屬離子對鮭魚降鈣素聚集的影響（製劑穩定性），PMID 31584361 研究 p97 靶向小分子（機轉研究）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21853370",
+          "title": "Integrin αvβ3 as a PET imaging biomarker for osteoclast number",
+          "study_type": "Animal/Imaging Study",
+          "tier": "3",
+          "note": "Cu-64 作為 PET 放射性示蹤劑用於診斷成像，非治療用途，不支持再利用。"
+        },
+        {
+          "pmid": "22571374",
+          "title": "Metal ions as cofactors for aggregation of therapeutic peptide salmon calcitonin",
+          "study_type": "In vitro",
+          "tier": "3",
+          "note": "研究銅離子影響降鈣素製劑穩定性，屬製劑學研究，非銅的直接治療效果。"
+        },
+        {
+          "pmid": "31584361",
+          "title": "Insights into Design of p97-targeting Small Molecules",
+          "study_type": "Structural Biology",
+          "tier": "3",
+          "note": "p97 靶向藥物設計研究，與銅再利用無直接關聯。"
+        }
+      ],
+      "rationale": "3 篇文獻均為間接或非治療性證據，骨 Paget 病的標準治療為雙膦酸鹽，無理由推進銅的再利用研究。"
+    }
+  ],
+  "summary": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "dermatitis",
+        "reason": "唯一有中等數量臨床試驗（6）和文獻（20）的適應症，但需解決銅致敏性矛盾"
+      },
+      {
+        "rank": 2,
+        "disease": "dry eye syndrome",
+        "reason": "2024 年奈米粒子臨床前研究提供新興機轉，值得追蹤"
+      }
+    ],
+    "l1_count": 0,
+    "l2_count": 0,
+    "l3_count": 0,
+    "l4_count": 2,
+    "l5_count": 8,
+    "key_concerns": [
+      "Copper 為必需微量元素而非傳統藥物，DB09130 的『未上市』狀態需釐清",
+      "dermatitis 適應症存在根本性矛盾：銅是已知接觸性過敏原（PMID 25098945）",
+      "所有相關臨床試驗均為 NA/已撤回/狀態不明，缺乏有效 RCT 數據",
+      "L4 證據均依賴奈米材料或間接機轉，距離臨床應用尚遠",
+      "安全性考量：銅毒性、促進腫瘤血管生成等風險需評估"
+    ]
+  }
+}
+```
+
+---
+
+## 決策建議摘要
+
+| 疾病 | 分數 | 等級 | 階段 | 建議 |
+|------|------|------|------|------|
+| esotropia | 0.963 | L5 | S0 | ❌ Hold |
+| **dermatitis** | 0.951 | L4 | S1 | ⚠️ Research Question |
+| acrodermatitis chronica atrophicans | 0.938 | L5 | S0 | ❌ Hold |
+| hydroa vacciniforme, familial | 0.938 | L5 | S0 | ❌ Hold |
+| neonatal dermatomyositis | 0.935 | L5 | S0 | ❌ Hold |
+| secondary ILD (childhood CTD) | 0.933 | L5 | S0 | ❌ Hold |
+| acne keloid | 0.933 | L5 | S0 | ❌ Hold |
+| **dry eye syndrome** | 0.933 | L4 | S1 | ⚠️ Research Question |
+| amyopathic dermatomyositis | 0.932 | L5 | S0 | ❌ Hold |
+| bone Paget disease | 0.929 | L5 | S0 | ❌ Hold |
+
+> ⚠️ **注意**：TxGNN 高預測分數（>0.93）對所有適應症一致偏高，與實際臨床證據嚴重落差，顯示 Copper 在此知識圖譜中可能存在「皮膚病節點」系統性偏差，建議排查 KG embedding 是否有銅節點過度連結問題。

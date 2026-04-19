@@ -1,0 +1,2529 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB04272-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Citric acid",
+    "drugbank_id": "DB04272",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "stomach disease",
+      "txgnn": {
+        "score": 0.997426688671112,
+        "rank": 4102
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03425747",
+            "title": "CALCIUM CITRATE vs CALCIUM CARBONATE FOR THE MANAGEMENT OF CHRONIC HYPOPARATHYROIDISM",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2019-10-15",
+            "completion_date": "2020-04-01",
+            "brief_summary": "Hypoparathyroidism is an endocrinopathy characterized by a deficient secretion or action of PTH associated with low calcium level. According to the European guideline (2015), standard treatment includes oral calcium salts and active vitamin D metabolites to relieve symptoms of hypocalcaemia, maintain serum calcium levels in the low normal range and improve the patient's QoL Calcium carbonate is most often used and less expensive than other calcium preparations and contains the highest concentrat",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "比較 Calcium Citrate vs Calcium Carbonate 治療慢性副甲狀腺低下症，研究主角為鈣鹽，目的是骨代謝而非胃病治療，與本適應症無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT05753306",
+            "title": "A Phase II Study of Robotic Cytoreduction and Hyperthermic Intraperitoneal Chemotherapy (HIPEC) for Patients With Gastric Cancer and Limited Peritoneal Metastasis: ROBO-CHIP Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 40,
+            "start_date": "2023-04-20",
+            "completion_date": "2028-03-31",
+            "brief_summary": "This phase II clinical trial tests how well robotic cytoreduction and hyperthermic intraperitoneal chemotherapy (HIPEC) in treating patients with gastric cancer that has spread to the tissue that lines the wall of the abdominal cavity (peritoneum). Gastric cancer is the third leading cause of cancer related deaths worldwide and peritoneal metastasis are found in 30% of patients at time of diagnosis. Patients with peritoneal metastasis have poor survival rates. Traditional surgery is done with a ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "機器人細胞減量手術合併 HIPEC 用於腹膜癌，為腫瘤外科手術研究，與柠檬酸治療胃病無關。"
+            }
+          },
+          {
+            "nct_id": "NCT05608577",
+            "title": "RE-BLEED: A Digital Platform for Identifying Bleeding Patients - a Feasibility Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2021-10-01",
+            "completion_date": "2026-02-18",
+            "brief_summary": "The RE-BLEED feasibility study aims to develop and test a real-time digital platform, whereby bleeding patients in-hospital can be identified and approached for their consent to participate in future research studies.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "消化道出血患者數位平台可行性研究，屬診斷/監測工具研究，非柠檬酸干預。"
+            }
+          },
+          {
+            "nct_id": "NCT04626609",
+            "title": "Prostaglandin and Cannabinoid Receptors in the Development of Eosinophilic Esophagitis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2021-07-01",
+            "completion_date": "2024-11-18",
+            "brief_summary": "The purpose of this study is to investigate prostaglandin and cannabinoid receptors and their endogenous ligands in eosinophilic esophagitis (EoE). A prostaglandin D2 receptor antagonist has been shown to improve disease symptoms suggesting a regulatory role for bioactive lipids in EoE. Prostaglandin D2 and E2, and endocannabinoids are lipid mediators that govern the functional and inflammatory behavior of immune cells critical for EoE development. The prostaglandin D2 and E2 receptor axis, and ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "嗜酸性食道炎前列腺素與大麻素受體研究，與柠檬酸無關。"
+            }
+          },
+          {
+            "nct_id": "NCT07122284",
+            "title": "Characterization of Gut Microbiota and Metabolic Profiles in Patients With Helicobacter Pylori Infection and Small Intestinal Bacterial Overgrowth Based on Metagenomic and Metabolomic Analyses",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2024-01-31",
+            "completion_date": "2025-02-28",
+            "brief_summary": "Patients with concurrent Helicobacter pylori infection and small intestinal bacterial overgrowth (SIBO) represent a clinically challenging subgroup, often experiencing refractory gastrointestinal symptoms and diminished treatment responses. Current evidence indicates that individuals infected with H. pylori may related SIBO as a comorbidity; however, the synergistic effects of these conditions on gut ecosystem homeostasis remain poorly understood. To address this knowledge gap, we employed a dua",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "H. pylori 感染患者腸道菌群與代謝輪廓分析，柠檬酸可能作為代謝生物標誌物出現，但研究主體非柠檬酸治療，屬間接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT05294939",
+            "title": "Randomized Clinical Trial to Analyze the Efficacy of Acute Intake of a Ketone Supplement on Performance in Professional Cross-country Road Cyclists",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "2022-01-31",
+            "completion_date": "2022-03-28",
+            "brief_summary": "Randomized, controlled, double-blind, crossover clinical trial, depending on the product consumed, to analyze the efficacy on physical performance of a sports supplement consumed prior to and during competition or training.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "急性酮體補充劑（含柠檬酸鹽）對運動表現的效果，非胃病治療研究。"
+            }
+          },
+          {
+            "nct_id": "NCT05836402",
+            "title": "Low-Carbohydrate Dietary and Lifestyle Interventions for the Management of Long COVID-19 Syndrome: A Prospective and Interventional Randomized Controlled Pilot Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 14,
+            "start_date": "2023-09-14",
+            "completion_date": "2025-08-04",
+            "brief_summary": "Rationale: Hyper-inflammatory responses seen in acute COVID-19 are also a feature of long covid, a condition of long-term consequences that are persisting or appearing after initial infection and recovery from acute COVID-19. Long-standing, often disabling symptoms are common in long covid and can be highly varied. Common symptoms include fatigue, brain fog, muscle and chest pain, migraines, shortness of breath, anosmia, muscle weakness, and cognitive dysfunction. 35% of post-COVID patients were",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "低碳飲食介入 Long COVID 症候群，非柠檬酸特異性干預。"
+            }
+          },
+          {
+            "nct_id": "NCT04350346",
+            "title": "A Prospective, Randomized Controlled Trial of the Comparative Analysis Between Motilitone and Gasmotin for the Symptom Relief in Gallstone Patients With Functional Dyspepsia",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 70,
+            "start_date": "2020-03-25",
+            "completion_date": "2021-09",
+            "brief_summary": "* (Cause of cholelithiasis) Recently, the average age has increased, and the occurrence of gallstones has increased as the dietary life has been westernized due to the improvement of socio-economic level. When cholesterol increases, the occurrence of gallstones increases. Factors include high-calorie high-fat diet, increasing age, women, pregnant women, obesity, and oral contraceptives. There are cases. As another cause, gallstones occur well even when bile stasis occurs due to a decrease in mot",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Motilitone vs Gasmotil 比較試驗，主角為胃動力藥，與柠檬酸無關。"
+            }
+          },
+          {
+            "nct_id": "NCT03320538",
+            "title": "Efficacy and Safety of Hou Gu Mi Xi in Patients With Peptic Ulcer Diseases: A Multicenter, Randomized, Double-blinded, Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 360,
+            "start_date": "2017-07-10",
+            "completion_date": "2020-09-17",
+            "brief_summary": "This trial aims to determine whether Jiangzhong Hou Gu® Mi Xi™ is an effective intervention to improve symptoms and indicators in patients with spleen qi deficiency and peptic ulcer diseases.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "中藥「後谷米希」治療消化性潰瘍多中心 RCT，非柠檬酸試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT04329494",
+            "title": "Safety and Efficacy of Pressurized Intraperitoneal Aerosolized Chemotherapy (PIPAC) in Ovarian, Uterine, Appendiceal, Colorectal, and Gastric Cancer Patients With Peritoneal Carcinomatosis (PC)",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 49,
+            "start_date": "2020-08-21",
+            "completion_date": "2028-01-05",
+            "brief_summary": "This phase I trial studies the side effects of pressurized intraperitoneal aerosol chemotherapy (PIPAC) in treating patients with ovarian, uterine, appendiceal, stomach (gastric), or colorectal cancer that has spread to the lining of the abdominal cavity (peritoneal carcinomatosis). Chemotherapy drugs, such as cisplatin, doxorubicin, oxaliplatin, leucovorin, fluorouracil, mitomycin, and irinotecan, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PIPAC 用於卵巢/子宮腫瘤腹膜擴散，為腫瘤化療試驗，非胃病或柠檬酸。"
+            }
+          },
+          {
+            "nct_id": "NCT04213794",
+            "title": "A Prospective Study of Heated Intra-Peritoneal Chemotherapy (H.I.P.E.C.) With Doxorubicin and Cisplatin in Pediatric Patients With Pelvic and Abdominal Tumors. The TOAST IT Trial (Trial Of Adjuvant Surgical Treatment With Intraperitoneal Chemotherapy)",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2019-11-08",
+            "completion_date": "2024-10-03",
+            "brief_summary": "This early phase I trial studies how well heated intra-peritoneal chemotherapy with doxorubicin and cisplatin work for the treatment of abdominal or pelvic tumors that can be removed by surgery (resectable), does not respond to treatment (refractory), or has come back (recurrent). Heated intra-peritoneal chemotherapy is a procedure performed in combination with abdominal surgery for cancer that has spread to the abdomen. It involves the infusion of a heated chemotherapy solution that circulates ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01739231",
+            "title": "Safety, Reactogenicity, Tolerability, Immunogenicity and Efficacy of Live Attenuated ETEC ACE527 Vaccine Administered Alone or With a Double Mutant E. Coli Heat Labile Toxin (dmLT) in Healthy Adult Volunteers",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 81,
+            "start_date": "2012-09",
+            "completion_date": "2014-01",
+            "brief_summary": "This is a research study about an experimental (investigational) oral ETEC vaccine (ACE527). ACE527 is a live attenuated vaccine that is being made to prevent disease from enterotoxigenic Escherichia coli (ETEC), which causes watery diarrhea, largely in children living in developing countries and in travelers to those countries. This research study is also testing an investigational adjuvant called dmLT. An adjuvant is something that is added to a vaccine to make it work better. The purpose of t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04721964",
+            "title": "Evaluation of the Effects of Routine Iron Supplementation in Children on Gastrointestinal Iron Losses.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2021-02-25",
+            "completion_date": "2021-06-16",
+            "brief_summary": "Iron deficiency anaemia (IDA) is common among infants and young children in sub-Saharan Africa.Oral iron administration is usually recom-mended as cost effective measure to prevent and treat iron deficiency (ID) and IDA during childhood. In Kenya, national nutrition policies for anaemia prevention recommend a daily dose of 3-6 mg ele-mental iron per kg body weight if a child is diagnosed with anaemia.\n\nUsing a novel technology, recent research found increased iron losses during iron supplementat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02460458",
+            "title": "Type 3 Von Willebrand International Registries Inhibitor Prospective Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 265,
+            "start_date": "2012-11-05",
+            "completion_date": "2023-04-17",
+            "brief_summary": "International Registries and Prospective Study on Type 3 Von Willebrand's Disease (VWD3), aimed to assess number, types and risk factors for bleeding and the efficacy and safety of plasma-derived and/or recombinant Von Willebrand Factor (VWF) concentrates used to treat VWD patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04095975",
+            "title": "Effectiveness of Prescription vs. Non-prescription Urinary Alkalinizing Agents on Kidney Stone Risk",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 31,
+            "start_date": "2019-08-28",
+            "completion_date": "2021-06-24",
+            "brief_summary": "Randomized treatment trial of baking soda or LithoLyte to determine if baking soda and Litholyte are effective in raising 24 hour urine citrate and pH.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03851393",
+            "title": "Validation of Peptest™ for the Detection of Reflux in Cough; Induction of Cough in Healthy Volunteers",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2014-08",
+            "completion_date": "2014-10",
+            "brief_summary": "Chronic cough is a common presenting problem which has a significant impact on quality of life. Gastro-oesophageal reflux (GOR) is a common cause of chronic cough and reflux of stomach contents into the airways has been implicated in the pathogenesis of a number of respiratory diseases. Clinical history in patients with suspected reflux can aid in the diagnosis but traditional investigations for GOR including 24hr oesophageal pH monitoring or endoscopy are not reliable diagnostic tools since the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06826443",
+            "title": "A Comparative Evaluation of Mosapride Versus Metoclopramide for Enteral Feeding Intolerance in Critically Ill Patients",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-02",
+            "completion_date": "2025-05",
+            "brief_summary": "Caring for critically ill patients in an intensive care unit (ICU) is considered a standard of care. According to the Society of Critical Care Medicine (SCCM), as a function of the complex nature of the care provided in the ICU, the ideal method to provide support to the critically ill involves the participation of a multi-professional staff.\n\nProvision of nutrition support to the critically ill is now established as an essential part of patient care where aiming toward 100% of the predicted tar",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02830789",
+            "title": "Investigation of the Optimal Calcium Supplement Following Roux-en-Y Gastric Bypass in Order to Treat Secondary Hyperparathyroidism: A Clinical Randomized Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2016-12",
+            "completion_date": "2017-05",
+            "brief_summary": "This study investigates whether calcium citrate or calcium carbonate are the optimal supplement to treat secondary hyperparathyroidism following Roux-en-Y gastric bypass operation.\n\nHalf of the participants will be randomized to receive calcium citrate, while the other half will receive calcium carbonate. The study will be double blinded.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01301144",
+            "title": "Sensitivity and Specificity of Oral Urea Breath Testing for Presumptive Diagnosis and Treatment Response in Pulmonary Tuberculosis in Bamako, Mali",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 113,
+            "start_date": "2011-02-13",
+            "completion_date": "2016-03-30",
+            "brief_summary": "Background:\n\n* Tuberculosis is a disease of the lungs caused by the bacteria Mycobacterium tuberculosis (M. tuberculosis). The most popular and least expensive tool used to detect the presence of the tuberculosis bacteria is called sputum smears, which is a lab test used to look for bacteria in the sputum via a microscope. However, the test s results are not always accurate, and the test cannot determine if the bacteria will be resistant to standard tuberculosis treatments. The most sensitive te",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02180334",
+            "title": "The Effect of Combination of Mosapride and Dipeptidyl Peptidase-4 (DPP-4) Inhibitor on Plasma Concentration of Incretin Hormones",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2014-07",
+            "completion_date": "2015-04",
+            "brief_summary": "The aim of this study is to investigate the effects of combined administration of mosapride as modulator of gastrointestinal motility and DPP-4 inhibitor on secretion of gut hormone such as glucagon-like peptide-1 (GLP-1) and gastric inhibitory polypeptide (GIP), and oral glucose tolerance. Additionally, change in lipid profile and insulin secretion will be also assessed.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07149064",
+            "title": "A Randomized, Triple-blind, Placebo Controlled, Parallel Clinical Trial to Investigate the Efficacy and Safety of Chronic Exposure to Nextida GC-B on Glycemic Control in Adults With Normoglycemia or Prediabetes",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 60,
+            "start_date": "2026-03",
+            "completion_date": "2026-08",
+            "brief_summary": "The goal of this clinical trial is to investigate the safety and efficacy of Nextida GC-B on glycemic control in adults with normoglycemia and prediabetes. The main question it aims to answer is:\n\nWhat is the difference in change in postprandial glycemic control from baseline at Day 90 between Nextida GC-B and placebo as assessed by glucose incremental AUC (iAUC 0-180 min).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06760065",
+            "title": "A Multicenter, Randomized Controlled Study Comparing Keverprazan Hydrochloride-Amoxicillin Dual Therapy and Susceptibility-Guided Quadruple Therapy in Helicobacter Pylori Rescue Treatment",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 316,
+            "start_date": "2025-01-15",
+            "completion_date": "2027-12-31",
+            "brief_summary": "This study aims to evaluate the efficacy and safety of Keverprazan Hydrochloride combined with Amoxicillin in dual therapy compared to susceptibility-guided quadruple therapy in the treatment of Helicobacter pylori (H. pylori) infections requiring rescue therapy. H. pylori is a common infectious disease associated with peptic ulcers, gastric cancer, and mucosa-associated lymphoid tissue lymphoma. However, the increasing resistance of H. pylori to antibiotics has reduced the eradication rates of ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04491942",
+            "title": "A Phase 1 Trial of the ATR Inhibitor BAY 1895344 in Combination With Cisplatin and With Cisplatin Plus Gemcitabine in Advanced Solid Tumors With an Emphasis on Urothelial Carcinoma",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 74,
+            "start_date": "2021-08-25",
+            "completion_date": "2026-06-30",
+            "brief_summary": "This phase I trial identifies the best dose, possible benefits and/or side effects of BAY 1895344 in combination with chemotherapy in treating patients with solid tumors or urothelial cancer that has spread to other places in the body (advanced). BAY 1895344 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Cisplatin and gemcitabine are chemotherapy drugs that stop the growth of tumor cells by killing the cells. Combining BAY 1895344 with chemotherapy tre",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01266850",
+            "title": "Safety and Immunogenicity of Sequential Rotavirus Vaccine Schedules With RotaTeq® and Rotarix®",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 1384,
+            "start_date": "2011-03",
+            "completion_date": "2014-03",
+            "brief_summary": "Rotavirus, sometimes called the \"stomach flu,\" is the most common cause of severe diarrhea in children. Vaccines can prevent many types of infections and work by causing the body to make proteins called antibodies that fight infection. For some vaccines, more than one vaccination is needed so that the body will make enough antibodies to fight infection. The vaccines (RotaTeq® or Rotarix® oral vaccines) given in this study are recommended for infants by the Centers for Disease Control and Prevent",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04226586",
+            "title": "Nutritional Stimulation of Growth in Children With Short Stature",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2020-09-09",
+            "completion_date": "2022-12-31",
+            "brief_summary": "Short stature is a frequent reason for referral to a pediatric endocrinology clinic. Short stature is especially prevalent among those with failure to thrive (whose weight is significantly below the average weight of his/her peers). The growth hormone has limited efficacy for medical treatment of short stature when the cause of short stature is not growth hormone deficiency. This study will investigate the effect of 6 months of nutritional supplement (essential amino acids) compared to placebo i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03342456",
+            "title": "The Efficacy and Safety of Ilaprazole/Doxycycline-based Bismuth-containing Quadruple Therapy on Hp Infected Duodenal Ulcers: A Randomized, Parallel-controlled Multi-center Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2017-12-13",
+            "completion_date": "2019-09-20",
+            "brief_summary": "Helicobacter pylori (Hp) infection is one of the important causes of gastrointestinal diseases, including gastritis, peptic ulcer, and malignancies, nd the eradication of Hp can effectively cure or prevent these diseases. Now, owing to the increasingly serious antibiotic resistance, Hp eradication rate is, however, becoming decreased. In order to improve the eradication rate of Hp, clinicians pay great attention to choose more effective treatment.\n\nIlaprazole Enteric-Coated Tablets is a new gene",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05196945",
+            "title": "Vonoprazan Fumarate in Combination With Amoxicillin for the First-line Eradication - a Multicenter, Randomized, Parallel Controlled Study",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 316,
+            "start_date": "2022-03-31",
+            "completion_date": "2023-02-28",
+            "brief_summary": "Helicobacter pylori infection is closely related to gastritis, peptic ulcer, mucosa-associated lymphoid tissue lymphoma and gastric cancer. Eradication of HP can significantly improve and reduce HP-related diseases. International and domestic guidelines recommend a 10-14 day quadruple regimen containing bismuth as first-line treatment, achieving an eradication rate of more than 80%. However, some disadvantages of these quadruple regimens, such as severe adverse reactions, high medical costs and ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03812380",
+            "title": "Averting Complications of Proton Pump Inhibitor Therapy by Effervescent Calcium Magnesium Citrate",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 62,
+            "start_date": "2019-01-01",
+            "completion_date": "2021-08-11",
+            "brief_summary": "Proton pump inhibitors (PPIs) are widely used for the control of gastric ulcer-gastritis, erosive esophagitis (gastroesophageal reflux disease), peptic ulcer disease (duodenal ulcer), and heartburn. Despite their efficacy, their use has been implicated in possibly causing fragility fractures (osteoporosis), hypomagnesemia (magnesium deficiency) and increased risk of chronic kidney disease (CKD). The current trial represents the investigators' ongoing effort to discern whether these complications",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01561066",
+            "title": "Adjuvant Use of Autologous Platelet-rich Fibrin Glue in the Treatment of Fistulas and Anastomotic Leakages of the Digestive Tract",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 122,
+            "start_date": "2008-01",
+            "completion_date": "2012-01",
+            "brief_summary": "Adjuvant use of fibrin glue in the fistula tract may promote healing in low-output enterocutaneous fistulas. However, there are only few studies that report autologous glue application in a larger patient group or clinical-controlled studies in this setting. The aim of this study was to investigate the efficacy and safety of autologous platelet-rich fibrin glue (PRFG) in the treatment of low-output digestive fistulas and compare them with conservative management without the use of adjuvant appli",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38959111",
+            "title": "Molecular characterization and clinical relevance of metabolic signature subtypes in gastric cancer.",
+            "authors": [
+              "Chen Hao",
+              "Jing Changqing",
+              "Shang Liang",
+              "Zhu Xingyu",
+              "Zhang Ronghua"
+            ],
+            "journal": "Cell reports",
+            "year": "2024",
+            "abstract": "Metabolic reprogramming dictates tumor molecular attributes and therapeutic potentials. However, the comprehensive metabolic characteristics in gastric cancer (GC) remain obscure. Here, metabolic signature-based clustering analysis identifies three subtypes with distinct molecular and clinical features: MSC1 showed better prognosis and upregulation of the tricarboxylic acid (TCA) cycle and lipid metabolism, combined with frequent TP53 and RHOA mutation; MSC2 had moderate prognosis and elevated n",
+            "classification": {
+              "study_type": "Molecular/Genomic Classification",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9604442",
+            "title": "Clinical practice--breath tests.",
+            "authors": [
+              "Bell G D"
+            ],
+            "journal": "British medical bulletin",
+            "year": "1998",
+            "abstract": "The underlying principle of the two non-invasive radio-labelled urea breath tests is similar. Both are positive when the patient's stomach is colonised by Helicobacter pylori because the organism's urease enzyme splits the orally administered urea isotope to labelled CO2 which is then detected in the expired breath. The tests thus reflect active infection and are ideally suited to monitoring the success or failure of different eradication therapies as well as studying rates of acquisition and re",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35900644",
+            "title": "High serum levels of L-carnitine and citric acid negatively correlated with alkaline phosphatase are detectable in Koreans before gastric cancer onset.",
+            "authors": [
+              "Han Youngmin",
+              "Yoo Hye Jin",
+              "Jee Sun Ha",
+              "Lee Jong Ho"
+            ],
+            "journal": "Metabolomics : Official journal of the Metabolomic Society",
+            "year": "2022",
+            "abstract": "Monitoring metabolic biomarkers could be utilized as an effective tool for the early detection of gastric cancer (GC) risk.",
+            "classification": {
+              "study_type": "Observational/Biomarker",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39539553",
+            "title": "The role of cuproptosis in gastric cancer.",
+            "authors": [
+              "Li Yixian",
+              "Sun Wenhao",
+              "Yuan Shaolin",
+              "Liu Xinxin",
+              "Zhang Ziqi"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2024",
+            "abstract": "As a biologically essential transition metal, copper is widely involved in various enzymatic reactions and crucial biological processes in the body. It plays an increasingly important role in maintaining normal cellular metabolism and supporting the growth and development of the human body. As a trace element, copper maintains the dynamic balance of its concentration in body fluids through active homeostatic mechanisms. Both excess and deficiency of copper ions can impair cell function, ultimate",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2072799",
+            "title": "Diet and nutrition in ulcer disease.",
+            "authors": [
+              "Marotta R B",
+              "Floch M H"
+            ],
+            "journal": "The Medical clinics of North America",
+            "year": "1991",
+            "abstract": "In this era of H2-inhibitors, the available evidence does not support the need to place peptic ulcer disease patients on restrictive diets. The major goal of diet is to avoid extreme elevations of gastric acid secretion and the direct irritation of gastric mucosa. In view of this, only slight modifications in the patient's usual diet are recommended. Table 1 depicts a sample menu for chronic peptic ulcer disease. Frequent milk ingestion as previously prescribed is not encouraged. This is owing t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30541171",
+            "title": "[Cobalamin deficiency in dogs and cats].",
+            "authors": [
+              "Hanisch Franziska",
+              "Toresson Linda",
+              "Spillmann Thomas"
+            ],
+            "journal": "Tierarztliche Praxis. Ausgabe K, Kleintiere/Heimtiere",
+            "year": "2018",
+            "abstract": "Cobalamin is a member of the B-group of vitamins and a cofactor for metabolic processes like nucleic acid synthesis, amino acid synthesis, and the citric acid cycle. Mammals are unable to synthesize cobalamin and therefore rely on adequate food intake. Cobalamin absorption is a complex process in the stomach, duodenum, and ileum, requiring a functional exocrine pancreas. Thus, a great number of gastrointestinal diseases like chronic enteropathies, intestinal lymphoma, or exocrine pancreatic insu",
+            "classification": {
+              "study_type": "Veterinary Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37477784",
+            "title": "Energy metabolism: a new target for gastric cancer treatment.",
+            "authors": [
+              "Liu Jiangrong",
+              "Bai Xue",
+              "Zhang Meilan",
+              "Wu Shihua",
+              "Xiao Juan"
+            ],
+            "journal": "Clinical & translational oncology : official publication of the Federation of Spanish Oncology Societies and of the National Cancer Institute of Mexico",
+            "year": "2024",
+            "abstract": "Gastric cancer is the fifth most common malignancy worldwide having the fourth highest mortality rate. Energy metabolism is key and closely linked to tumour development. Most important in the reprogramming of cancer metabolism is the Warburg effect, which suggests that tumour cells will utilise glycolysis even with normal oxygen levels. Various molecules exert their effects by acting on enzymes in the glycolytic pathway, integral to glycolysis. Second, mitochondrial abnormalities in the reprogra",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6027230",
+            "title": "Lactic, pyruvic, citric, and uric acid and urea content of human gastric juice.",
+            "authors": [
+              "Piper D W",
+              "Fenton B H",
+              "Goodman L R"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31505905",
+            "title": "Is a Citric Acid Meal Useful for Increasing Accuracy of the 13C-Urea Breath Test in Asian Populations?",
+            "authors": [
+              "Kim Sung Eun"
+            ],
+            "journal": "Gut and liver",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7106518",
+            "title": "Salivary secretion in reflux esophagitis.",
+            "authors": [
+              "Sonnenberg A",
+              "Steinkamp U",
+              "Weise A",
+              "Berges W",
+              "Wienbeck M"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1982",
+            "abstract": "It has been speculated that impaired salivary flow and contents contribute to abnormal acid clearance in patients with reflux esophagitis. To test this hypothesis, salivary secretion of volume, bicarbonate, and N-acetylneuraminic acid was measured in patients with reflux esophagitis, in age- and sex-matched controls, and in healthy young volunteers. Resting saliva was collected by permitting the saliva to drip into a flask every 30 s. Parotid saliva was collected by means of a Lashley capsule du",
+            "classification": {
+              "study_type": "Physiological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9889978",
+            "title": "The physiology and metabolism of the human gastric pathogen Helicobacter pylori.",
+            "authors": [
+              "Kelly D J"
+            ],
+            "journal": "Advances in microbial physiology",
+            "year": "1998",
+            "abstract": "Helicobacter pylori is a spiral Gram-negative microaerophilic bacterium that causes one of the most common infections in humans; approximately 30-50% of individuals in Western Europe are infected and the figure is nearly 100% in the developing world. It is recognized as the major aetiological factor in chronic active type B gastritis, and gastric and duodenal ulceration and as a risk factor for gastric cancer. H. pylori normally inhabits the mucus-lined surface of the antrum of the human stomach",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34242732",
+            "title": "Taste perception and expression in stomach of bitter taste receptor tas2r38 in obese and lean subjects.",
+            "authors": [
+              "Robino Antonietta",
+              "Rosso Natalia",
+              "Guerra Martina",
+              "Corleone Pio",
+              "Casagranda Biagio"
+            ],
+            "journal": "Appetite",
+            "year": "2021",
+            "abstract": "Differences in taste perception have been related to eating behavior, nutritional status, and diseases. Recently, taste receptors have been identified in several extra-oral tissues, such as the gastrointestinal tract, where they seem to influence processes like digestion, sense of satiety as well as energy balance and intraluminal changes occurring in obesity. Our study aims to analyze differences in taste perception among 42 obese patients (OB) and 41 normal-weight subjects (LEAN). Polymorphism",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34725838",
+            "title": "A pioneer study on human 3-nitropropionic acid intoxication: Contributions from metabolomics.",
+            "authors": [
+              "Bendiksen Skogvold Hanne",
+              "Yazdani Mazyar",
+              "Sandås Elise Mørk",
+              "Østeby Vassli Anja",
+              "Kristensen Erle"
+            ],
+            "journal": "Journal of applied toxicology : JAT",
+            "year": "2022",
+            "abstract": "The neurotoxin 3-nitropropionic acid (3-NPA) is an inhibitor of succinate dehydrogenase, an enzyme participating both in the citric acid cycle and the mitochondrial respiratory chain. In human intoxications, it produces symptoms such as vomiting and stomach ache in mild cases, and dystonia, coma, and sometimes death in severe cases. We report the results from a liquid chromatography-Orbitrap mass spectrometry metabolomics study mapping the metabolic impacts of 3-NPA intoxication in plasma, urine",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9379358",
+            "title": "Gastroprotective effect of MX1 (a novel salt of the active metabolite of roxatidine with a complex of bismuth and citric acid) against stress ulcers in rats.",
+            "authors": [
+              "Marazova K",
+              "Klouchek E",
+              "Popov A",
+              "Ivanov C H",
+              "Krushkov I"
+            ],
+            "journal": "The Journal of pharmacy and pharmacology",
+            "year": "1997",
+            "abstract": "We have studied the effect of the newly synthesized agent MX1, a salt of the active metabolite of the H2-blocker roxatidine with a complex of bismuth and citric acid (N-[3-(3-(1-piperidinylmethyl)phenoxy)propyl]-hydroxyacetamide+ ++ -2-hydroxypropane-1,2,3-tricarboxilate-bismuth(3+) complex), against restraint stress ulcers in rats (24 h immobilization). The effects of MX1 (12.5, 50, 125, 184 and 250 mg kg-1) were compared with the effects of equimolar doses of roxatidine (6.5, 25, 70, 100 and 1",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39097049",
+            "title": "An insoluble cellulose nanofiber with robust expansion capacity protects against obesity.",
+            "authors": [
+              "Yu Jian",
+              "Gao Mingyuan",
+              "Wang Li",
+              "Guo Xiaozhen",
+              "Liu Xiaodi"
+            ],
+            "journal": "International journal of biological macromolecules",
+            "year": "2024",
+            "abstract": "An imbalance between energy intake and energy expenditure predisposes obesity and its related metabolic diseases. Soluble dietary fiber has been shown to improve metabolic homeostasis mainly via microbiota reshaping. However, the application and metabolic effects of insoluble fiber are less understood. Herein, we employed nanotechnology to design citric acid-crosslinked carboxymethyl cellulose nanofibers (CL-CNF) with a robust capacity of expansion upon swelling. Supplementation with CL-CNF redu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28546118",
+            "title": "Alterations in metabolic pathways in stomach of mice infected with Helicobacter pylori.",
+            "authors": [
+              "Nishiumi Shin",
+              "Yoshida Masaru",
+              "Azuma Takeshi"
+            ],
+            "journal": "Microbial pathogenesis",
+            "year": "2017",
+            "abstract": "Numerous studies of Helicobacter pylori (H. pylori) have been performed, but few studies have evaluated the effects of H. pylori infections using metabolome analysis, which involves the comprehensive study of low molecular weight metabolites. In this study, the metabolites in the stomach tissue of mice that had been infected with H. pylori SS1 for 1, 3, or 6 months were analyzed, and then evaluations of various metabolic pathways were performed to gain novel understandings of H. pylori infection",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26088916",
+            "title": "Metabolomic Analysis Using Liquid Chromatography/Mass Spectrometry for Gastric Cancer.",
+            "authors": [
+              "Liang Qun",
+              "Wang Cong",
+              "Li Binbing"
+            ],
+            "journal": "Applied biochemistry and biotechnology",
+            "year": "2015",
+            "abstract": "Metabolomics is a post-genomics research field for analysis of low molecular weight compounds in biological samples and has shown great potentials for elucidating complex mechanisms associated with diseases. However, metabolomics studies on gastric cancer (GC), which is the second leading cause of cancer death worldwide, remain scarce, and the molecular mechanisms to metabolomics phenotypes are also still not fully understood. This study reports that the metabolic pathways can be exploited as bi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39197411",
+            "title": "Non-target metabolomics unravels the effect and mechanism of Lianpu Drink on spleen-stomach damp-heat syndrome.",
+            "authors": [
+              "Yu Jingbo",
+              "Liu Henan",
+              "Xiong Jiarong",
+              "Qu Shanhe",
+              "Xie Xin"
+            ],
+            "journal": "Journal of chromatography. B, Analytical technologies in the biomedical and life sciences",
+            "year": "2024",
+            "abstract": "Lianpu Drink (LPY) is a classic prescription for treating spleen-stomach damp-heat syndrome (SSDHS), known for its ability to clear heat and eliminate dampness. However, the underlying mechanisms of LPY in treating SSDHS remain unclear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20629975",
+            "title": "Modulation of salivation and heartburn in response to the site of acid infusion in the human oesophagus.",
+            "authors": [
+              "Dutta S K",
+              "Agrawal K",
+              "Mahmoud M A"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2010",
+            "abstract": "The pathogenesis of gastro-oesophageal reflux disease includes increased acid reflux, reduced salivation and impaired peristalsis. This may depend upon the height of acid wave and magnitude of oesophageal mucosal exposure. Interestingly, the effect of site of acid infusion upon salivary secretion and heartburn has not been examined in any detail.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4000241",
+            "title": "Calcium absorption and achlorhydria.",
+            "authors": [
+              "Recker R R"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1985",
+            "abstract": "Defective absorption of calcium has been thought to exist in patients with achlorhydria. I compared absorption of calcium in its carbonate form with that in a pH-adjusted citrate form in a group of 11 fasting patients with achlorhydria and in 9 fasting normal subjects. Fractional calcium absorption was measured by a modified double-isotope procedure with 0.25 g of calcium used as the carrier. Mean calcium absorption (+/- S.D.) in the patients with achlorhydria was 0.452 +/- 0.125 for citrate and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "柠檬酸為胃液正常成分（PMID 6027230）；作為 13C-尿素呼氣試驗（UBT）的試驗餐媒介（PMID 31505905），可輔助 H. pylori 診斷，但屬診斷工具而非治療介入。代謝組學研究顯示胃癌患者血清柠檬酸水平與預後相關（PMID 35900644），為腫瘤能量代謝（TCA 通量）的觀察性連結，尚無直接治療機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pharyngitis",
+      "txgnn": {
+        "score": 0.9967526197433472,
+        "rank": 4843
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06251050",
+            "title": "A Lithium-containing Mouthwash Prevention and Treatment of Oral Mucositis and Dysgeusia in Patients Undergoing Radiotherapy",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 175,
+            "start_date": "2024-03-01",
+            "completion_date": "2025-05-01",
+            "brief_summary": "To evaluate the efficacy and safety of lithium-containing mouthwash for prevention and treatment of oral mucositis and dysgeusia in patients undergoing radiotherapy for malignant head and neck tumors.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "鋰離子漱口水預防放療相關口腔黏膜炎，研究藥物為鋰鹽，非柠檬酸，且適應症為口腔黏膜炎而非咽炎。"
+            }
+          },
+          {
+            "nct_id": "NCT06390176",
+            "title": "Lactobacillus Rhamnosus LGG Alleviates Oral Mucositis in Patients Undergoing Radiotherapy for Malignant Head and Neck Tumors: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 132,
+            "start_date": "2023-11-10",
+            "completion_date": "2025-03-31",
+            "brief_summary": "Radiation therapy is a common treatment modality in the management of head and neck malignancies. However, head and neck tumors often have some adverse reactions when receiving radiation therapy, such as dry mouth, change of taste, oral mucositis, etc. Among them, the incidence of oral mucositis is more than 90%, and the incidence of oral mucositis of degree 3 or more than degree 3 is more than 50%. Severe oral mucositis seriously affects the quality of survival of patients.\n\nLactobacillus rhamn",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Lactobacillus rhamnosus LGG 減輕放療口腔黏膜炎，為益生菌研究，與柠檬酸及咽炎均無直接關聯。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1489123",
+            "title": "Capsaicin-induced cough in humans.",
+            "authors": [
+              "Midgren B",
+              "Hansson L",
+              "Karlsson J A",
+              "Simonsson B G",
+              "Persson C G"
+            ],
+            "journal": "The American review of respiratory disease",
+            "year": "1992",
+            "abstract": "We have evaluated the properties of capsaicin as a selective cough-inducing agent in healthy human subjects. Despite frequent coughing, the subjects could inhale repeated breaths of capsaicin aerosol during 60 s without difficulty. Cough started immediately on inhalation and was most intense during the first 30 s. Cough always disappeared promptly when the capsaicin inhalation was terminated. The cough response was well reproducible and concentration-dependent up to 10 microM; at higher concentr",
+            "classification": {
+              "study_type": "Experimental/Physiological",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24669216",
+            "title": "Trapa bispinosa Roxb.: A Review on Nutritional and Pharmacological Aspects.",
+            "authors": [
+              "Adkar Prafulla",
+              "Dongare Amita",
+              "Ambavade Shirishkumar",
+              "Bhaskar V H"
+            ],
+            "journal": "Advances in pharmacological sciences",
+            "year": "2014",
+            "abstract": "Trapa bispinosa Roxb. which belongs to the family Trapaceae is a small herb well known for its medicinal properties and is widely used worldwide. Trapa bispinosa or Trapa natans is an important plant of Indian Ayurvedic system of medicine which is used in the problems of stomach, genitourinary system, liver, kidney, and spleen. It is bitter, astringent, stomachic, diuretic, febrifuge, and antiseptic. The whole plant is used in gonorrhea, menorrhagia, and other genital affections. It is useful in",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17547418",
+            "title": "Antibacterial activity of red and white wine against oral streptococci.",
+            "authors": [
+              "Daglia Maria",
+              "Papetti Adele",
+              "Grisoli Pietro",
+              "Aceti Camilla",
+              "Dacarro Cesare"
+            ],
+            "journal": "Journal of agricultural and food chemistry",
+            "year": "2007",
+            "abstract": "Wine contains a number of biologically active compounds with beneficial effects on human health. The antibacterial action of commercial red and white wines against oral streptococci responsible for caries development and against S. pyogenes responsible for pharyngitis was studied. Its postcontact effect against S. mutans was also studied. Both wines displayed activity. The compounds responsible for such activities were succinic, malic, lactic, tartaric, citric, and acetic acid. The synthetic mix",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "缺乏直接機轉連結。柠檬酸的溫和抗菌特性（低 pH 破壞細菌細胞膜）在理論上可能對口咽部鏈球菌有效，但現有文獻（PMID 17547418）研究對象為葡萄酒中多種成分的綜合效果，無法歸因於柠檬酸單一作用。PMID 1489123 甚至顯示柠檬酸可誘發咳嗽反射，對咽炎症狀可能有負面影響。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9958819150924684,
+        "rank": 5724
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "完全基於 TxGNN 圖神經網路預測，無任何臨床試驗或文獻支持。柠檬酸對急性喉咽炎（通常為病毒或細菌感染）的直接治療機轉尚無科學文獻描述。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "postgastrectomy syndrome",
+      "txgnn": {
+        "score": 0.9957787990570068,
+        "rank": 5800
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "完全基於 TxGNN 預測，無臨床或文獻支持。胃切除後症候群（傾倒症候群、小胃容量症狀等）的病理機轉與柠檬酸作用無已知連結。若有假說，可能源自柠檬酸對胃酸分泌或消化道動力的間接影響，但尚無任何實驗數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9951885938644408,
+        "rank": 6336
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03705793",
+            "title": "Effectiveness of Mometasone Nasal Irrigation for Chronic Rhinosinusitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2019-01-01",
+            "completion_date": "2020-03-15",
+            "brief_summary": "Chronic rhinosinusitis (CRS) affects up to 12.5% of the US population and has a significant disease burden. The recommended medical management of CRS includes large-volume, low-pressure saline lavage, systemic antibiotics, and intranasal corticosteroids (INCS). While the efficacy and safety of INCS are well-established for the long-term management of CRS, penetration of INCS beyond the nasal vestibule and into the paranasal sinuses is limited. The aim of this study is to evaluate the effectivene",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Mometasone 鼻腔灌洗治療慢性鼻竇炎，研究藥物為皮質類固醇，與柠檬酸無關。"
+            }
+          },
+          {
+            "nct_id": "NCT05063552",
+            "title": "A Phase II/III Trial of Chemotherapy + Cetuximab vs Chemotherapy + Bevacizumab vs Atezolizumab + Bevacizumab Following Progression on Immune Checkpoint Inhibition in Recurrent/Metastatic Head and Neck Cancers",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 430,
+            "start_date": "2023-03-13",
+            "completion_date": "2027-12-15",
+            "brief_summary": "This phase II/III compares the standard therapy (chemotherapy plus cetuximab) versus adding bevacizumab to standard chemotherapy, versus combination of just bevacizumab and atezolizumab in treating patients with head and neck cancer that has spread to other places in the body (metastatic or advanced stage) or has come back after prior treatment (recurrent). Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "頭頸癌化療聯合免疫治療三臂 Phase II/III 試驗，為腫瘤化療研究，與柠檬酸及鼻腔疾病治療無關。"
+            }
+          },
+          {
+            "nct_id": "NCT00656513",
+            "title": "A Phase II/III Study Comparing Acupuncture-like Transcutaneous Electrical Nerve Stimulation (ALTENS) Versus Pilocarpine in Treating Early Radiation-Induced Xerostomia",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 196,
+            "start_date": "2008-09",
+            "completion_date": "2014-11",
+            "brief_summary": "RATIONALE: Acupuncture-like transcutaneous electrical nerve stimulation (ALTENS) and pilocarpine may help to relieve chronic xerostomia (dry mouth). It is not yet known which remedy is more effective in treating chronic dry mouth caused by radiation therapy in patients with head and neck cancer.\n\nPURPOSE: This randomized phase II/III trial is studying ALTENS to see how well it works compared with pilocarpine in treating chronic dry mouth caused by radiation therapy in patients with head and neck",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針灸樣電神經刺激（ALTENS）vs 放射治療頭頸癌，非藥物研究，與柠檬酸無關。"
+            }
+          },
+          {
+            "nct_id": "NCT02196168",
+            "title": "A Randomized Phase II Trial of Cisplatin With or Without Wee1 Kinase Inhibitor AZD1775 (MK-1775) for First-line Treatment of Recurrent or Metastatic Squamous Cell Cancer of the Head and Neck (RM-SCCHN)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2014-03",
+            "completion_date": "2016-04",
+            "brief_summary": "This randomized phase II trial studies how well cisplatin with or without WEE1 inhibitor MK-1775 works in treating patients with head and neck cancer that has come back or has spread to other parts of the body. Drugs used in chemotherapy, such as cisplatin, may prevent tumor cells from multiplying by damaging their deoxyribonucleic acid (DNA), which in turn stops the tumor from growing. WEE1 inhibitor MK-1775 may stop the growth of tumor cells by blocking some of the enzymes needed for cell grow",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Cisplatin + Wee1 激酶抑制劑用於頭頸癌 Phase II 試驗（因受試者不足終止），與柠檬酸無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30315448",
+            "title": "Entry and Deposit of Aluminum in the Brain.",
+            "authors": [
+              "Wang Linping"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2018",
+            "abstract": "Aluminum, as a known neurotoxicant, contributes to cognitive dysfunction and may contribute to Alzheimer's disease. The important reason is that aluminum can enter and be deposited in the brain. There have been three routes by which aluminum could enter the brain from systemic circulation or the site of absorption. Aluminum fluxes into brain across the blood-brain barrier (BBB), the choroid plexuses and the nasal cavity. Some factors, such as the increasing of the blood-brain barrier permeabilit",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2587802",
+            "title": "Gallium-67 citrate scintigraphy in Wegener's granulomatosis involving the stomach.",
+            "authors": [
+              "Itoh H",
+              "Shimono R",
+              "Ishine M",
+              "Kataoka M",
+              "Kawamura M"
+            ],
+            "journal": "Radiation medicine",
+            "year": "1989",
+            "abstract": "67Ga-citrate scintigraphy was performed on a 68-year-old woman with Wegener's granulomatosis of the right orbita and nasal cavity to search for other involved sites. Seventy-two-hour images demonstrated an abnormal accumulation on the left upper abdomen, in addition to her head and chest. Upper gastrointestinal series revealed marked deformation of the upper part of the stomach and a large shallow ulcer on its posterior wall. The histological diagnosis from biopsied specimens on gastroendoscopy ",
+            "classification": {
+              "study_type": "Case Report/Nuclear Medicine",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Gallium-67 citrate 閃爍攝影術（PMID 2587802）用於 Wegener 肉芽腫症診斷，屬核醫診斷工具，非治療用途。柠檬酸的螯合特性在理論上可能影響鼻腔黏膜礦物質環境，但無任何臨床治療數據。所有相關試驗均研究其他藥物（皮質類固醇、化療）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "papillary conjunctivitis",
+      "txgnn": {
+        "score": 0.9924152493476868,
+        "rank": 8708
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "完全基於 TxGNN 預測，無任何支持性文獻或臨床試驗。乳頭狀結膜炎（通常為過敏或機械性刺激所致）的發病機轉與柠檬酸已知特性無直接連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "blepharoconjunctivitis",
+      "txgnn": {
+        "score": 0.9913501739501952,
+        "rank": 9536
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "完全基於 TxGNN 預測，無任何支持性文獻或臨床試驗。瞼結膜炎（細菌性/脂漏性/過敏性）的病理與柠檬酸作用無已知連結；低 pH 環境對眼表刺激性高，安全性亦存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "rhinitis",
+      "txgnn": {
+        "score": 0.9906676411628724,
+        "rank": 10054
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03705793",
+            "title": "Effectiveness of Mometasone Nasal Irrigation for Chronic Rhinosinusitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2019-01-01",
+            "completion_date": "2020-03-15",
+            "brief_summary": "Chronic rhinosinusitis (CRS) affects up to 12.5% of the US population and has a significant disease burden. The recommended medical management of CRS includes large-volume, low-pressure saline lavage, systemic antibiotics, and intranasal corticosteroids (INCS). While the efficacy and safety of INCS are well-established for the long-term management of CRS, penetration of INCS beyond the nasal vestibule and into the paranasal sinuses is limited. The aim of this study is to evaluate the effectivene",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Mometasone 鼻腔灌洗治療慢性鼻竇炎 Phase IV 完成試驗，研究藥物為皮質類固醇，鼻腔灌洗配方中柠檬酸鹽緩衝液的角色未被研究，與本適應症評估無直接貢獻。"
+            }
+          },
+          {
+            "nct_id": "NCT04898686",
+            "title": "Study of the Probiotic Potential of a Lacticaseibacillus Strain in the Upper Airways in Patients With Allergic Rhinoconjunctivitis After Administration in a Chewable",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2020-08-01",
+            "completion_date": "2021-08-06",
+            "brief_summary": "With this double- blind, randomised, placebo-controlled study, the investigators want to investigate the influence of a chewable with the probiotic strain Lacticaseibacillus rhamnosus GG on the symptoms and immunological markers of allergic rhinoconjunctivitis (AR). In addition, the investigators aim to study the influence of this probiotic chewable on the microbiome of the upper respiratory tract after administration in adults with AR. The bacterial and cytokine profiles in the naso- and oropha",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Lactobacillus 益生菌用於上呼吸道過敏性鼻炎，為益生菌研究，與柠檬酸無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22186246",
+            "title": "Efficacy of using a hydrodebrider and of citric acid/zwitterionic surfactant on a Staphylococcus aureus bacterial biofilm in the sheep model of rhinosinusitis.",
+            "authors": [
+              "Valentine Rowan",
+              "Jervis-Bardy Josh",
+              "Psaltis Alkis",
+              "Tan Lor Wai",
+              "Wormald Peter-John"
+            ],
+            "journal": "American journal of rhinology & allergy",
+            "year": "2011",
+            "abstract": "Biofilms in chronic rhinosinusitis (CRS) patients are associated with recalcitrant disease patterns. Citric acid/zwitterionic surfactant (CAZS) has been shown to have significant efficacy at in vitro biofilm eradication. Unique hydrodebrider systems have been shown to have effective antibiofilm efficacy. The aim of this study was to evaluate the efficacy of the CAZS/hydrodebrider treatment on Staphylococcus aureus biofilms in the sheep model of CRS.",
+            "classification": {
+              "study_type": "In Vitro / Preclinical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28381800",
+            "title": "Citric Acid Suppresses the Bitter Taste of Olopatadine Hydrochloride Orally Disintegrating Tablets.",
+            "authors": [
+              "Sotoyama Mai",
+              "Uchida Shinya",
+              "Tanaka Shimako",
+              "Hakamata Akio",
+              "Odagiri Keiichi"
+            ],
+            "journal": "Biological & pharmaceutical bulletin",
+            "year": "2017",
+            "abstract": "Orally disintegrating tablets (ODTs) are formulated to disintegrate upon contact with saliva, allowing administration without water. Olopatadine hydrochloride, a second-generation antihistamine, is widely used for treating allergic rhinitis. However, it has a bitter taste; therefore, the development of taste-masked olopatadine ODTs is essential. Some studies have suggested that citric acid could suppress the bitterness of drugs. However, these experiments were performed using solutions, and the ",
+            "classification": {
+              "study_type": "Formulation Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31848795",
+            "title": "Acquisition and generalization of cough trigger beliefs in allergic rhinitis.",
+            "authors": [
+              "Janssens Thomas",
+              "Dupont Lieven",
+              "Goossens Sofie",
+              "Sterckx Yasmine",
+              "Van den Bergh Omer"
+            ],
+            "journal": "Journal of behavioral medicine",
+            "year": "2020",
+            "abstract": "In allergic conditions, trigger identification is often inaccurate, and may be influenced by pre-existing beliefs. In this study, we investigated the acquisition and generalization of symptom trigger beliefs in individuals with allergic rhinitis (n = 24) and control participants (n = 24). In a lab-based trigger acquisition task, unique exemplars of two trigger categories were either paired with saline inhalation (CS- category) or citric acid inhalation (CS+ category). The next day, we tested rec",
+            "classification": {
+              "study_type": "Behavioral Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23710951",
+            "title": "Surfactants in the management of rhinopathologies.",
+            "authors": [
+              "Rosen Philip L",
+              "Palmer James N",
+              "O'Malley Bert W",
+              "Cohen Noam A"
+            ],
+            "journal": "American journal of rhinology & allergy",
+            "year": "2013",
+            "abstract": "Surfactants are a class of amphiphilic surface active compounds that show several unique physical properties at liquid-liquid or liquid-solid surface interfaces including the ability to increase the solubility of substances, lower the surface tension of a liquid, and decrease friction between two mediums. Because of these unique physical properties several in vitro, ex vivo, and human trials have examined the role of surfactants as stand-alone or adjunct therapy in recalcitrant chronic rhinosinu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16204773",
+            "title": "Antileukotriene treatment and allergic rhinitis-related cough in guinea pigs.",
+            "authors": [
+              "Brozmanova M",
+              "Plevkova J",
+              "Bartos V",
+              "Plank L",
+              "Tatar M"
+            ],
+            "journal": "Journal of physiology and pharmacology : an official journal of the Polish Physiological Society",
+            "year": "2005",
+            "abstract": "Experimental allergic rhinitis produces enhanced cough response in awake guinea pigs. Leukotriene receptor antagonists, as anti-inflammatory agents, have been effective in treatment of asthma and allergic rhinitis to inhibit the early and late allergic response. In the present study, we evaluated the effect of montelukast (Singulair, Merck, USA) on the cough reflex in an experimental model of allergen-induced rhinitis in guinea pigs. Guinea pigs (n=16) were sensitized with intraperitoneal ovalbu",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33040814",
+            "title": "Effects of oral desloratadine citrate disodium combined with physiological seawater nasal irrigation on IgE levels, IL-4, IL-6, IL-13 and IFN-γ expression and treatment of intermittent allergic rhinitis.",
+            "authors": [
+              "Zhang Yuanyuan",
+              "Li Wei"
+            ],
+            "journal": "Cellular and molecular biology (Noisy-le-Grand, France)",
+            "year": "2020",
+            "abstract": "This experiment was performed to explore the effect of oral desloratadine citrate disodium combined with physiological seawater nasal irrigation in the treatment of intermittent allergic rhinitis and its effect on serum inflammatory factors and peripheral blood Th1 and Th2. For this purpose, 100 patients of intermittent allergic rhinitis admitted to our hospital from January 2018 to January 2020. Randomly divided into a control group (n=50) and an observation group (n=50). The control group was ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36337846",
+            "title": "Molecular Mechanisms Underlying the Effects of Bimin Kang Mixture on Allergic Rhinitis: Network Pharmacology and RNA Sequencing Analysis.",
+            "authors": [
+              "Qi Li-Jie",
+              "Wang Ren-Zhong",
+              "Gao Shang",
+              "Chen Xiang-Jing",
+              "Zhang Xin"
+            ],
+            "journal": "BioMed research international",
+            "year": "2022",
+            "abstract": "Allergic rhinitis (AR) is a highly prevalent chronic inflammatory disease of the respiratory tract. Previous studies have demonstrated that Bimin Kang Mixture (BMK) is effective in alleviating AR symptoms and reducing the secretion of inflammatory factors and mucin; however, the precise mechanisms underlying these effects remain unclear.",
+            "classification": {
+              "study_type": "Network Pharmacology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18204116",
+            "title": "Experimental allergic rhinitis-related cough and airway eosinophilia in sensitized guinea pigs.",
+            "authors": [
+              "Brozmanova M",
+              "Bartos V",
+              "Plank L",
+              "Tatar M"
+            ],
+            "journal": "Journal of physiology and pharmacology : an official journal of the Polish Physiological Society",
+            "year": "2007",
+            "abstract": "Allergic rhinitis is one of the most common causes of chronic cough. The characteristic feature of allergic rhinitis is eosinophilic nasal inflammation. This study was determined to find the relation between airway eosinophils and chemically-induced cough in guinea pigs with antigen-induced rhinitis at the early and late allergic phases. Forty animals were sensitized with ovalbumin (OVA) and divided into four separated groups. Four weeks later, the sensitized animals were either once or repeated",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40268108",
+            "title": "A research method of compatibility mechanism of traditional Chinese medicine prescription-taking Yupingfeng San as an example.",
+            "authors": [
+              "Li Xinyue",
+              "Wang Bing",
+              "Guan Dongxue",
+              "Zhou Jingjing",
+              "Men Ziying"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2025",
+            "abstract": "To study the compatibility mechanism of Yupingfeng San composed of HuangQi (Astragalus membranaceus (Fisch.) Bunge), BaiZhu (Atractylodes macrocephala Koidz.) and FangFeng (Saposhnikovia divaricata (Turcz.) Schischk.) OBJECTIVE: To explore the compatibility mechanism of Yupingfeng San and establish a research method for the compatibility mechanism of traditional Chinese medicine prescriptions.",
+            "classification": {
+              "study_type": "Review/TCM",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36454091",
+            "title": "Inter-individual characteristics on basic taste recognition thresholds in a college-aged cohort: potential predictive factors.",
+            "authors": [
+              "Trius-Soler Marta",
+              "Laveriano-Santos Emily P",
+              "Góngora Clara",
+              "Moreno Juan J"
+            ],
+            "journal": "Food & function",
+            "year": "2022",
+            "abstract": "Studying nutritional status from the perspective of taste sensitivity, rather than only dietary patterns, may provide new insights into the role of taste receptor signaling in the development of metabolic-associated diseases. In this cross-sectional study, we investigated the possible influence of sociodemographic (sex and smoking habit) and clinical variables (dental cavities, missing teeth, sinusitis, rhinitis, body mass index and metabolic high prevalence family antecedent diseases) on tastan",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40207407",
+            "title": "Machine Learning-Enhanced Network Pharmacology in Traditional Chinese Medicine: Mechanistic Insights Into Chai Hu Gui Zhi Tang for Allergic Rhinitis.",
+            "authors": [
+              "Yang Qi",
+              "Guo Jiageng",
+              "Lin Haoqiong",
+              "Wei Wei",
+              "Fan Lili"
+            ],
+            "journal": "Chemistry & biodiversity",
+            "year": "2025",
+            "abstract": "Network pharmacology has become a widely used approach for studying complex herbal medicines. This method helps researchers identify potentially active compounds and mechanisms, which can then guide further experiments. However, current network pharmacology methods often face issues like inconsistent compound records and unreliable screening standards, leading to inaccurate results. To address these challenges, we developed an improved workflow using Chai Hu Gui Zhi Tang (CHGZT) as an example. F",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30891260",
+            "title": "Metabolomics analysis of baicalin on ovalbumin-sensitized allergic rhinitis rats.",
+            "authors": [
+              "Chen Saizhen",
+              "Chen Guirong",
+              "Shu Sheng",
+              "Xu Yubin",
+              "Ma Xiande"
+            ],
+            "journal": "Royal Society open science",
+            "year": "2019",
+            "abstract": "Allergic rhinitis (AR) is a global health problem that appears in all age groups and affects approximately 15-30% of people. Baicalin has been used for the treatment of various allergic diseases, including AR. However, the metabolic mechanisms of AR and baicalin against AR have not been systematically studied. Here, ovalbumin-sensitized AR rats were used as a model, and animal behaviour, histological analysis, enzyme-linked immunosorbent assay (ELISA) and metabolomics were used to elucidate the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16343041",
+            "title": "Early and late allergic phase related cough response in sensitized guinea pigs with experimental allergic rhinitis.",
+            "authors": [
+              "Brozmanová M",
+              "Calkovský V",
+              "Plevková J",
+              "Bartos V",
+              "Plank L"
+            ],
+            "journal": "Physiological research",
+            "year": "2006",
+            "abstract": "Cough is a common and important symptom of asthma and allergic rhinitis. Previous experimental evidence has shown enhanced cough sensitivity during early phase of experimental allergic rhinitis in guinea pigs. We hypothesized that airway inflammation during the late phase response after repeated nasal antigen challenge may affect the afferent sensory nerve endings in the larynx and tracheobronchial tree and may also modulate cough response. In the present study we evaluated the cough sensitivity",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18435479",
+            "title": "Does inhaling menthol affect nasal patency or cough?",
+            "authors": [
+              "Kenia Priti",
+              "Houghton Tom",
+              "Beardsmore Caroline"
+            ],
+            "journal": "Pediatric pulmonology",
+            "year": "2008",
+            "abstract": "There is widespread use of menthol in over-the-counter medications, despite scant information on any beneficial effects. Our aim was to assess the effect of menthol on nasal air flow, perception of nasal patency and cough challenge testing.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8198237",
+            "title": "Adverse reactions to food additives in children with atopic symptoms.",
+            "authors": [
+              "Fuglsang G",
+              "Madsen G",
+              "Halken S",
+              "Jørgensen S",
+              "Ostergaard P A"
+            ],
+            "journal": "Allergy",
+            "year": "1994",
+            "abstract": "In a multicenter study conducted at four Danish hospital pediatric departments, the parents of 472 consecutive children were informed of this project to determine the incidence of intolerance of food additives among children referred to an allergy clinic with symptoms of asthma, atopic dermatitis, rhinitis, or urticaria. After a 2-week period on an additive-free diet, the children were challenged with the eliminated additives. The food additives investigated were coloring agents, preservatives, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26987338",
+            "title": "The Guinea Pig Sensitized by House Dust Mite: A Model of Experimental Cough Studies.",
+            "authors": [
+              "Buday T",
+              "Gavliakova S",
+              "Mokry J",
+              "Medvedova I",
+              "Kavalcikova-Bogdanova N"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2016",
+            "abstract": "The guinea pig sensitized by ovalbumin is the most widely used model to study cough experimentally, as the neurophysiology of the vagus nerve in the guinea pig is closest to humans. Nonetheless, the choice of the antigen remains questionable, which influences the translation of results into clinical medicine. The present study seeks to develop an alternative model of cough study using house dust mite sensitization (HDM). Thirty guinea pigs were divided into the HDM group, ovalbumin (OVA) group, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10670033",
+            "title": "Technical problems with protein extraction of chemokines featuring RANTES.",
+            "authors": [
+              "Maune S",
+              "Meyer J E",
+              "Spautz B",
+              "Sticherling M",
+              "Schröder J M"
+            ],
+            "journal": "Rhinology",
+            "year": "1999",
+            "abstract": "Chemokines are known to be one of the sources for eosinophilic tissue infiltration in eosinophilic inflammation. Detection of beta-chemokines such as RANTES was possible in nasal tissue with or without eosinophilic infiltration. The concentration of chemokines which has been measured in the same tissue differs often in the literature. Aim of this study was to compare the different techniques of protein extraction and help to understand and interpret the investigation on RANTES secretion. Tissue ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19218639",
+            "title": "Cough reflex sensitivity is increased in the guinea pig model of allergic rhinitis.",
+            "authors": [
+              "Brozmanova M",
+              "Plevkova J",
+              "Tatar M",
+              "Kollarik M"
+            ],
+            "journal": "Journal of physiology and pharmacology : an official journal of the Polish Physiological Society",
+            "year": "2008",
+            "abstract": "Increased cough reflex sensitivity is found in patients with allergic rhinitis and may contribute to cough caused by rhinitis. We have reported that cough to citric acid is enhanced in the guinea pig model of allergic rhinitis. Here we address the hypothesis that the cough reflex sensitivity is increased in this model. The data from our previous studies were analyzed for the cough reflex sensitivity. The allergic inflammation in the nose was induced by repeated intranasal instillations of ovalbu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39730063",
+            "title": "Effectiveness of selective NaV1.7 blocker PF-05089771 in reducing cough associated with allergic rhinitis in guinea pigs.",
+            "authors": [
+              "Jakusova Janka",
+              "Buday Tomas",
+              "Mokra Daniela",
+              "Barosova Romana",
+              "Hanusrichterova Juliana"
+            ],
+            "journal": "Respiratory physiology & neurobiology",
+            "year": "2025",
+            "abstract": "Allergic rhinitis (AR) is a common cause of chronic cough, linked to dysregulated airway C- and Aδ-fibres through inflammatory mediators. Despite the limited efficacy of current antitussive therapies, recent studies show that the NaV1.7 inhibitor can block cough in naïve guinea pigs. This study aimed to analyse the effect of the NaV1.7 blocker PF-05089771 on cough in guinea pigs with AR.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26003849",
+            "title": "The effect of selective antagonist of H4 receptor JNJ7777120 on nasal symptoms, cough, airway reactivity and inflammation in guinea pigs.",
+            "authors": [
+              "Kovacova-Hanuskova E",
+              "Gavliakova S",
+              "Buday T",
+              "Kosutova P",
+              "Mokra D"
+            ],
+            "journal": "Respiratory physiology & neurobiology",
+            "year": "2015",
+            "abstract": "The efficacy of H4R antagonist JNJ7777120 on nasal symptoms, cough, airway resistance (Raw), inflammatory cell count in bronchoalveolar lavage (BAL) and blood in ovalbumin (OVA) induced allergic rhinitis (AR) was studied in guinea pigs. Animals (n=8) were sensitized by i.p. OVA and were repeatedly challenged with nasal OVA to induce rhinitis, seven animals were not sensitized. Animals were pre-treated with JNJ7777120 2.5 and 5mg/kg i.p. 30 min prior OVA. Cough was induced by inhalation of citric",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "最相關機轉為柠檬酸的生物膜破壞活性：PMID 22186246 顯示柠檬酸/兩性離子界面活性劑組合（CACS）可有效破壞鼻腔 Staphylococcus aureus 生物膜，為慢性鼻竇炎相關鼻炎提供潛在治療基礎。PMID 23710951 的綜述確認界面活性劑在鼻腔黏液清除的應用，柠檬酸作為輔助成分被提及。另外，desloratadine citrate（柠檬酸鹽形式）配合生理鹽水鼻腔沖洗的研究（PMID 33040814）顯示協同效果，但柠檬酸為藥物鹽類輔料而非獨立活性成分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "thrombotic disease",
+      "txgnn": {
+        "score": 0.988597333431244,
+        "rank": 11608
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00369122",
+            "title": "A PHASE II STUDY OF BEVACIZUMAB IN COMBINATION WITH DEFINITIVE RADIOTHERAPY AND CISPLATIN CHEMOTHERAPY IN UNTREATED PATIENTS WITH LOCALLY ADVANCED CERVICAL CARCINOMA",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2006-08-11",
+            "completion_date": "2016-12-15",
+            "brief_summary": "This phase II trial is studying how well giving bevacizumab together with radiation therapy and cisplatin works in treating patients with previously untreated locally advanced cervical cancer. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Bevacizumab may also stop the growth of cervical cancer by blocking blood flo",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Bevacizumab 聯合放化療用於頭頸癌 Phase II 試驗，為腫瘤治療研究，與柠檬酸抗血栓無關。"
+            }
+          },
+          {
+            "nct_id": "NCT03890601",
+            "title": "Domain 1 of β2-Glycoprotein 1 Autoantibodies and Thrombin Generation Capacity in Patients With Antiphospholipid Antibodies",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 150,
+            "start_date": "2019-03-13",
+            "completion_date": "2027-03-13",
+            "brief_summary": "Antiphospholipid syndrome (APS) is an autoimmune disease characterized by thromboembolic events or pregnancy complications associated with circulating antiphospholipid antibodies (aPL-Abs). APS diagnosis needs the presence of both clinical and serological criteria (SAPORRO criteria, updated with Sydney criteria in 2006). However, no correlation between laboratory assays and the clinical thrombosis risk in patients with aPL-Abs was observed as only few patients with aPL-Abs developed clinical man",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "抗磷脂症候群中 β2-GP1 自體抗體與凝血酶生成研究，為觀察性生物標誌物研究，非柠檬酸干預。"
+            }
+          },
+          {
+            "nct_id": "NCT04595110",
+            "title": "Extensive Investigation of the Hemostatic Profile in a Prospective Cohort of Patients Affected by COVID-19",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 400,
+            "start_date": "2020-03-25",
+            "completion_date": "2021-05-10",
+            "brief_summary": "Coronavirus disease-2019 (COVID-19), a viral respiratory illness caused by the severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2), has been associated with the occurrence of cardiovascular adverse events including acute myocardial injury, acute heart failure, cardiac arrhythmias, and thromboembolic disease. These complications represent an important issue in COVID-19 patients accounting for the increased morbidity and mortality of this syndrome. According to a scoping review, venous th",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "COVID-19 患者凝血功能前瞻性觀察研究，非柠檬酸治療試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT06172296",
+            "title": "A Phase 3 Study of Dinutuximab Added to Intensive Multimodal Therapy for Children With Newly Diagnosed High-Risk Neuroblastoma",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 478,
+            "start_date": "2024-04-19",
+            "completion_date": "2029-12-31",
+            "brief_summary": "This phase III trial tests how well the addition of dinutuximab to Induction chemotherapy along with standard of care surgical resection of the primary tumor, radiation, stem cell transplantation, and immunotherapy works for treating children with newly diagnosed high-risk neuroblastoma. Dinutuximab is a monoclonal antibody that binds to a molecule called GD2, which is found on the surface of neuroblastoma cells, but is not present on many healthy or normal cells in the body. When dinutuximab bi",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Dinutuximab 用於神經母細胞瘤兒童 Phase III 試驗，與血栓疾病或柠檬酸無關。"
+            }
+          },
+          {
+            "nct_id": "NCT04548713",
+            "title": "Control of Line Complications With KiteLock (CLiCK) in the Critical Care Unit",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 1449,
+            "start_date": "2022-03-22",
+            "completion_date": "2024-10-10",
+            "brief_summary": "Insertion of a central venous access device (CVAD) allows clinicians to easily access the circulation of a patient to administer life-saving interventions. Due to their invasive nature, CVADss are prone to complications such as infection, bacterial biofilm production, and catheter occlusion due to a thrombus. A CVAD is placed in up to 97% of patients in the intensive care unit, exposing this vulnerable population to risk of nosocomial infection and occlusion.\n\nCurrent standard of care involves u",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "KiteLock 臨床試驗（n=1449，重症監護室中央靜脈導管），比較柠檬酸封管液 vs 其他方案在預防導管相關血栓/感染的效果。大樣本量、完成試驗，為柠檬酸抗血栓應用最直接的 A 級證據。"
+            }
+          },
+          {
+            "nct_id": "NCT04003220",
+            "title": "Idiopathic Chronic Thrombocytopenia of Undetermined Significance : Pathogenesis and Biomarker",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2020-09-07",
+            "completion_date": "2023-09-07",
+            "brief_summary": "It is a translational research study with mechanistical objectives and including biological samples of patients with thrombocytopenia",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "特發性慢性血小板減少症發病機轉與生物標誌物研究，非柠檬酸治療。"
+            }
+          },
+          {
+            "nct_id": "NCT03887468",
+            "title": "Dialysis Adequacy and Clotting Complications During Anticoagulation-free Hemodialysis Using a Heparin-grafted Dialyzer and a Citrate-enriched Dialysate: a Prospective Randomized Crossover Study. (EvoCit-HD Study)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2018-05-15",
+            "completion_date": "2019-12-04",
+            "brief_summary": "After providing informed consent, patients will be randomized to either the intervention treatment (\"EvoCit procedure\") or the control treatment (\"EvoHep procedure\").\n\nAfter randomization, each study arm consists of four weeks of 3x4 hours hemodialysis treatments according to the allocated protocol. After the last dialysis treatment of the fourth treatment week and after a long interdialytic interval, patients will crossover to the alternative hemodialysis procedure. After crossover, the study w",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "無抗凝血劑血液透析（使用肝素替代品）研究，可能涉及區域柠檬酸抗凝方案；樣本量小（n=38），需確認柠檬酸是否為研究干預藥物。"
+            }
+          },
+          {
+            "nct_id": "NCT02026297",
+            "title": "The Influence of Prophylactic Tranexamic Acid on Thromboelastography During Cesarean Delivery: A Randomized, Double-Blind, Placebo-Controlled Trial",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 60,
+            "start_date": "2014-07",
+            "completion_date": "2020-02-21",
+            "brief_summary": "The aim of this study is to characterize the coagulation changes, using thromboelastography (TEG), after prophylactic tranexamic administration during cesarean delivery. Specifically, TEG values will be compared in patients who receive prophylactic tranexamic acid or placebo before surgery, during elective cesarean delivery, and 2 hours postpartum.\n\nPostpartum hemorrhage (PPH) is increasing in incidence in the United States, renewing interest in multimodal approaches to blood conservation during",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "預防性 tranexamic acid 在剖腹產中的血栓彈性圖研究（已終止），非柠檬酸研究。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36126009",
+            "title": "Thrombocytopenia: Evaluation and Management.",
+            "authors": [
+              "Gauer Robert L",
+              "Whitaker Daniel J"
+            ],
+            "journal": "American family physician",
+            "year": "2022",
+            "abstract": "Thrombocytopenia is a platelet count of less than 150 × 103 per μL and can occur from decreased platelet production, increased destruction, splenic sequestration, or dilution or clumping. Patients with a platelet count greater than 50 × 103 per μL are generally asymptomatic. Patients with platelet counts between 20 and 50 × 103 per μL may have mild skin manifestations such as petechiae, purpura, or ecchymosis. Patients with platelet counts of less than 10 × 103 per μL have a high risk of serious",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36047812",
+            "title": "Reevaluation of lock solutions for Central venous catheters in hemodialysis: a narrative review.",
+            "authors": [
+              "Wang Yiqin",
+              "Sun Xuefeng"
+            ],
+            "journal": "Renal failure",
+            "year": "2022",
+            "abstract": "A significant proportion of incident and prevalent hemodialysis patients have central venous catheters for vascular access. No consensus is available on the prevention of catheter dysfunction or catheter-related bloodstream infections in patients undergoing hemodialysis by means of catheter lock solutions.",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37315726",
+            "title": "Urinary exosomal metabolites: Overlooked clue for predicting cardiovascular risk.",
+            "authors": [
+              "Yalameha Banafsheh",
+              "Nejabati Hamid Reza"
+            ],
+            "journal": "Clinica chimica acta; international journal of clinical chemistry",
+            "year": "2023",
+            "abstract": "Over the last decade, increasing research has focused on urinary exosomes (UEs) in biological fluids and their relationship with physiological and pathological processes. UEs are membranous vesicles with a size of 40-100 nm, containing a number of bioactive molecules such as proteins, lipids, mRNAs, and miRNAs. These vesicles are an inexpensive non-invasive source that can be used in clinical settings to differentiate healthy patients from diseased patients, thereby serving as potential biomarke",
+            "classification": {
+              "study_type": "Observational/Metabolomics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39290129",
+            "title": "Comparative long-term efficacy and safety of two paclitaxel-coated balloons with different coating strategies for the treatment of drug-eluting coronary stent restenosis.",
+            "authors": [
+              "Koch Tobias",
+              "Lenz Tobias",
+              "Rheude Tobias",
+              "Cassese Salvatore",
+              "Xhepa Erion"
+            ],
+            "journal": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+            "year": "2024",
+            "abstract": "We previously showed non-inferiority of a low-dose paclitaxel-coated balloon (PCB) with citrate excipient (Agent PCB) as compared to normal-dose iopromide excipient (SeQuent Please PCB) in terms of angiographic and clinical endpoints at 12 months. The long-term clinical efficacy and safety of Agent PCB is not defined.",
+            "classification": {
+              "study_type": "RCT/Clinical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26189969",
+            "title": "Acetic acid in aged vinegar affects molecular targets for thrombus disease management.",
+            "authors": [
+              "Jing Li",
+              "Yanyan Zhang",
+              "Junfeng Fan"
+            ],
+            "journal": "Food & function",
+            "year": "2015",
+            "abstract": "To elucidate the mechanism underlying the action of dietary vinegar on antithrombotic activity, acetic acid, the main acidic component of dietary vinegar, was used to determine antiplatelet and fibrinolytic activity. The results revealed that acetic acid significantly inhibits adenosine diphosphate (ADP)-, collagen-, thrombin-, and arachidonic acid (AA)-induced platelet aggregation. Acetic acid (2.00 mM) reduced AA-induced platelet aggregation to approximately 36.82 ± 1.31%, and vinegar (0.12 mL",
+            "classification": {
+              "study_type": "In Vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40663364",
+            "title": "Plasma Metabolomics and Machine Learning Reveals Metabolic Alterations and Diagnostic Biomarkers for Deep Venous Thrombosis in Hypertensive Patients after Traumatic Fracture.",
+            "authors": [
+              "Aliyu Mukhtar",
+              "Zhang Kun",
+              "Tang Shi-Hao",
+              "Wang Jia-Hao",
+              "Wu Hao"
+            ],
+            "journal": "Journal of proteome research",
+            "year": "2025",
+            "abstract": "We aimed to explore the metabolic dysregulations and diagnostic biomarkers for post-traumatic deep venous thrombosis (pt-DVT) in hypertensive (HPT) patients after fracture. An untargeted ultraperformance liquid chromatography-mass spectrometry-based metabolomics approach was employed to perform a comprehensive metabolic analysis of plasma samples of 80 patients with post-traumatic deep venous thrombosis and hypertension (pt-DVT&HPT) and 117 patients with hypertension only (HPT). Thirty-seven (37",
+            "classification": {
+              "study_type": "Metabolomics/ML",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40028212",
+            "title": "Efficacy and safety of low-molecular-weight-heparin plus citrate in nephrotic syndrome during continuous kidney replacement therapy: retrospective study.",
+            "authors": [
+              "Wang Di",
+              "Yang Mengqin",
+              "Li Siyuan",
+              "Tang Can",
+              "Ai Jun"
+            ],
+            "journal": "PeerJ",
+            "year": "2025",
+            "abstract": "Nephrotic syndrome (NS) is a condition often necessitating continuous kidney replacement therapy (CKRT) due to severe edema and other complications. Anticoagulation is critical in CKRT to prevent filter clotting, with regional citrate anticoagulation (RCA) being the first-line method. However, the hypercoagulable state of NS may require alternative strategies. Optimal anticoagulation therapy in NS patients undergoing CKRT is lacking.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35133846",
+            "title": "Metabolic Snapshot of Plasma Samples Reveals New Pathways Implicated in SARS-CoV-2 Pathogenesis.",
+            "authors": [
+              "Albóniga Oihane E",
+              "Jiménez Daniel",
+              "Sánchez-Conde Matilde",
+              "Vizcarra Pilar",
+              "Ron Raquel"
+            ],
+            "journal": "Journal of proteome research",
+            "year": "2022",
+            "abstract": "Despite the scientific and human efforts to understand COVID-19, there are questions still unanswered. Variations in the metabolic reaction to SARS-CoV-2 infection could explain the striking differences in the susceptibility to infection and the risk of severe disease. Here, we used untargeted metabolomics to examine novel metabolic pathways related to SARS-CoV-2 susceptibility and COVID-19 clinical severity using capillary electrophoresis coupled to a time-of-flight mass spectrometer (CE-TOF-MS",
+            "classification": {
+              "study_type": "Metabolomics",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26295816",
+            "title": "Chronic Migraineurs Form Carboxyhemefibrinogen and Iron-Bound Fibrinogen.",
+            "authors": [
+              "Nielsen Vance Girard",
+              "Kulin Wendi",
+              "LaWall John Samuel",
+              "MacFarland Felesia Nancy",
+              "Chen Andrew"
+            ],
+            "journal": "CNS & neurological disorders drug targets",
+            "year": "2015",
+            "abstract": "Chronic migraine (CM) is a disabling painful condition that is associated with dementia and thrombotic disease. It has been proposed that carbon monoxide (CO) and iron may play a role in CM, and CO and iron are products of the heme oxygenase system which is widespread within the brain. Further, CO and iron enhance plasmatic coagulation in part via a fibrinogen-dependent mechanism. Thus, our goal was to determine whether patients with CM had experienced carboxyhemefibrinogen formation, iron bound",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32824700",
+            "title": "Impact of Anticoagulation and Sample Processing on the Quantification of Human Blood-Derived microRNA Signatures.",
+            "authors": [
+              "Mussbacher Marion",
+              "Krammer Teresa L",
+              "Heber Stefan",
+              "Schrottmaier Waltraud C",
+              "Zeibig Stephan"
+            ],
+            "journal": "Cells",
+            "year": "2020",
+            "abstract": "Blood-derived microRNA signatures have emerged as powerful biomarkers for predicting and diagnosing cardiovascular disease, cancer, and metabolic disorders. Platelets and platelet-derived microvesicles are a major source of microRNAs. We have previously shown that the inappropriate anticoagulation and storage of blood samples causes substantial platelet activation that is associated with the release of platelet-stored molecules into the plasma. However, it is currently unclear if circulating mic",
+            "classification": {
+              "study_type": "Methodological Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37755609",
+            "title": "Anticoagulation in renal replacement therapies: Why heparin should be abandoned in critical ill patients?",
+            "authors": [
+              "Musalem Pilar",
+              "Pedreros-Rosales Cristian",
+              "Müller-Ortiz Hans"
+            ],
+            "journal": "International urology and nephrology",
+            "year": "2024",
+            "abstract": "Extracorporeal circuits used in renal replacement therapy (RRT) can develop thrombosis, leading to downtimes and reduced therapy efficiency. To prevent this, anticoagulation is used, but the optimal anticoagulant has not yet been identified. Heparin is the most widely used anticoagulant in RRT, but it has limitations, such as unpredictable pharmacokinetics, nonspecific binding to plasma proteins and cells, and the possibility of suboptimal anticoagulation or bleeding complications, specifically ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33879086",
+            "title": "Dialysis circuit clotting in critically ill patients with COVID-19 infection.",
+            "authors": [
+              "Khoo Benjamin Zhi En",
+              "Lim Regina Shaoying",
+              "See Yong Pey",
+              "Yeo See Cheng"
+            ],
+            "journal": "BMC nephrology",
+            "year": "2021",
+            "abstract": "Coronavirus Disease 2019 (COVID-19) infection has been associated with a hypercoagulable state with increased reports of thrombotic events. Acute kidney injury requiring dialysis is common in critically ill patients and circuit clotting compromises efficacy of treatment. This study aims to analyze the circuit life and circuit clotting during continuous kidney replacement therapy (CKRT) and intermittent hemodialysis in patients with and without COVID-19.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32101773",
+            "title": "Discovery and identification of antithrombotic chemical markers in Gardenia Fructus by herbal metabolomics and zebrafish model.",
+            "authors": [
+              "Shi Yong-Ping",
+              "Zhang You-Gang",
+              "Li Hao-Nan",
+              "Kong Hao-Tian",
+              "Zhang Shan-Shan"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2020",
+            "abstract": "Gardenia Fructus (GF), a traditional Chinese medicine for clearing heat and purging fire, has been reported to use to treat thrombotic related diseases, but the antithrombotic components are not clear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27688592",
+            "title": "Release of experimental retinal vein occlusions by direct intraluminal injection of ocriplasmin.",
+            "authors": [
+              "de Smet Marc D",
+              "Stassen Jean Marie",
+              "Meenink Thijs C M",
+              "Janssens Tom",
+              "Vanheukelom Valérie"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "2016",
+            "abstract": "Retinal vein occlusions (RVO) are a major cause of vision loss in people aged 50 years and older. Current therapeutic options limit the consequences of RVO but do not eliminate the cause. Cannulation of the involved vessel and removal of the clot may provide a more permanent solution with a less demanding follow-up. However, cannulation of smaller retinal veins remains challenging. This paper explores the use of ocriplasmin (recombinant plasmin without its kringles) to clear RVO, using a robotic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33322041",
+            "title": "Mumefural Improves Blood Flow in a Rat Model of FeCl3-Induced Arterial Thrombosis.",
+            "authors": [
+              "Bang Jihye",
+              "Jeon Won Kyung"
+            ],
+            "journal": "Nutrients",
+            "year": "2020",
+            "abstract": "Mumefural (MF), a bioactive component of the processed fruit of Prunus mume Sieb. et Zucc, is known to inhibit platelet aggregation induced by agonists in vitro. In this study, we investigated the anti-thrombotic effects of MF using a rat model of FeCl3-induced arterial thrombosis. Sprague-Dawley rats were intraperitoneally injected with MF (0.1, 1, or 10 mg/kg) 30 min before 35% FeCl3 treatment to measure the time to occlusion using a laser Doppler flowmeter and to assess the weight of the bloo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25673124",
+            "title": "Citrate for continuous renal replacement therapy: safer, better and cheaper.",
+            "authors": [
+              "Oudemans-van Straaten Heleen M"
+            ],
+            "journal": "Critical care (London, England)",
+            "year": "2014",
+            "abstract": "In a previous issue of Critical Care, Schilder and colleagues report the results of their multicenter trial (Citrate Anticoagulation Versus Systemic Heparinization; CASH) comparing regional anticoagulation with citrate to heparin anticoagulation. They found that citrate was safer, more efficacious and cheaper than heparin. In contrast to the largest previous trial, however, a survival benefit was not found, which was the primary endpoint of the CASH trial. Different explanations are possible, in",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30639276",
+            "title": "Pulmonary exposure to silver nanoparticles impairs cardiovascular homeostasis: Effects of coating, dose and time.",
+            "authors": [
+              "Ferdous Zannatul",
+              "Al-Salam Suhail",
+              "Greish Yaser E",
+              "Ali Badreldin H",
+              "Nemmar Abderrahim"
+            ],
+            "journal": "Toxicology and applied pharmacology",
+            "year": "2019",
+            "abstract": "Pulmonary exposure to silver nanoparticles (AgNPs) revealed the potential of nanoparticles to cause pulmonary toxicity, cross the alveolar-capillary barrier, and distribute to remote organs. However, the mechanism underlying the effects of AgNPs on the cardiovascular system remains unclear. Hence, we investigated the cardiovascular mechanisms of pulmonary exposure to AgNPs (10 nm) with varying coatings [polyvinylpyrrolidone (PVP) and citrate (CT)], concentrations (0.05, 0.5 and 5 mg/kg body weig",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34412667",
+            "title": "Continuous renal replacement therapy in COVID-19-associated AKI: adding heparin to citrate to extend filter life-a retrospective cohort study.",
+            "authors": [
+              "Valle Eduardo de Oliveira",
+              "Cabrera Carla Paulina Sandoval",
+              "Albuquerque Claudia Coimbra César de",
+              "Silva Giovanio Vieira da",
+              "Oliveira Márcia Fernanda Arantes de"
+            ],
+            "journal": "Critical care (London, England)",
+            "year": "2021",
+            "abstract": "Coronavirus disease 2019 (COVID-19) may predispose patients to thrombotic events. The best anticoagulation strategy for continuous renal replacement therapy (CRRT) in such patients is still under debate. The purpose of this study was to evaluate the impact that different anticoagulation protocols have on filter clotting risk.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17683359",
+            "title": "Cryosupernatant and solvent detergent fresh-frozen plasma (Octaplas) usage at a single centre in acute thrombotic thrombocytopenic purpura.",
+            "authors": [
+              "Scully M",
+              "Longair I",
+              "Flynn M",
+              "Berryman J",
+              "Machin S J"
+            ],
+            "journal": "Vox sanguinis",
+            "year": "2007",
+            "abstract": "Thrombotic thrombocytopenic purpura (TTP) is an acute, life-threatening disorder and plasma exchange (PEX) remains the mainstay of treatment.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39409077",
+            "title": "Platelet Proteomics and Tissue Metabolomics Investigation for the Mechanism of Aspirin Eugenol Ester on Preventive Thrombosis Mechanism in a Rat Thrombosis Model.",
+            "authors": [
+              "Tao Qi",
+              "Fan Li-Ping",
+              "Feng Ji",
+              "Zhang Zhi-Jie",
+              "Liu Xi-Wang"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "abstract": "Platelet activation is closely related to thrombosis. Aspirin eugenol ester (AEE) is a novel medicinal compound synthesized by esterifying aspirin with eugenol using the pro-drug principle. Pharmacological and pharmacodynamic experiments showed that AEE has excellent anti-inflammatory, antioxidant, and inhibitory platelet activation effects, preventing thrombosis. However, the regulatory network and action target of AEE in inhibiting platelet activation remain unknown. This study aimed to invest",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "柠檬酸（以 trisodium citrate/檸檬酸三鈉形式）通過螯合 Ca²⁺ 抑制凝血酶原激活，是已建立的區域抗凝機轉（不同於全身性肝素）。主要臨床應用包括：(1) 血液採樣保存管（EDTA-citrate tube，標準血庫應用）；(2) 透析導管封管液（Catheter Lock Solution），如 KiteLock（NCT04548713，n=1449）；(3) 連續性腎臟替代療法（CRRT）區域抗凝（PMID 40028212，2025 年發表）；(4) 血液透析抗凝替代（NCT03887468）。此證據為柠檬酸在特定「血管內血栓預防」場景（靜脈導管、體外循環）的直接臨床證據，而非廣泛系統性血栓疾病治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "ulcerative blepharitis",
+      "txgnn": {
+        "score": 0.9866594076156616,
+        "rank": 13094
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "完全基於 TxGNN 預測，無任何支持性文獻或臨床試驗。潰瘍性眼瞼炎（通常由金黃色葡萄球菌感染引起）的治療以局部抗生素為主；柠檬酸的低 pH 對眼表應用有刺激性安全疑慮，理論上的抗菌特性需實驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "stomach disease"
+      },
+      "result_status": "success",
+      "result_count": 29,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "stomach disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "stomach disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "postgastrectomy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "postgastrectomy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "postgastrectomy syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "papillary conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "blepharoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "rhinitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "rhinitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "rhinitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Citric acid",
+        "disease": "ulcerative blepharitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

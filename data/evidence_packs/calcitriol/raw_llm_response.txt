@@ -1,0 +1,286 @@
+```json
+{
+  "drug": "Calcitriol",
+  "drugbank_id": "DB00136",
+  "analysis_date": "2026-04-05",
+  "analyst_notes": "Calcitriol 為維生素 D 活性形式（1,25-(OH)₂D₃），透過 VDR 核受體調控鈣磷代謝、骨礦化及 PTH 分泌。market_status 標記為『未上市』及 original_indications 為空，疑為新加坡藥監資料缺口，非全球臨床現況。",
+  "indications": [
+    {
+      "disease_name": "obsolete vitamin D deficiency",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Calcitriol 本身即為維生素 D 活化代謝終產物，直接補充可繞過肝腎羥化步驟糾正維生素 D 效應缺乏。然本疾病術語標記為 'obsolete'（已廢棄本體論術語），資料庫中無任何臨床試驗或文獻對應。機轉關聯完整，但術語廢棄導致數據缺口，不代表無臨床意義，應對應至現行 ICD/SNOMED 術語（如 Vitamin D deficiency E55）重新檢索。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "RTA 常伴隨低鈣血症與代謝性骨病（骨軟化症、佝僂病）。Calcitriol 透過 VDR 促進腸道鈣磷吸收、抑制繼發性甲亢，改善骨礦化缺陷。PMID 32204545（2020）直接論述維生素 D 對腎小管病變的保護角色；PMID 7970647（1994）報告 calcitriol 改善遠端 RTA 骨病。然 RTA 根本病因（H⁺排泄障礙）非 calcitriol 直接作用靶點，療效定位為骨病併發症次級預防。缺乏正式 RCT。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "32204545", "study_type": "Review", "tier": "2"},
+        {"pmid": "7970647", "study_type": "Clinical Study (non-RCT)", "tier": "2"},
+        {"pmid": "6546310", "study_type": "Observational Study", "tier": "2"},
+        {"pmid": "6095003", "study_type": "Observational Study", "tier": "2"},
+        {"pmid": "3807789", "study_type": "Observational Study", "tier": "2"},
+        {"pmid": "32074694", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "32936106", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "1983808", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "8286838", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "10910456", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "familial isolated hypoparathyroidism due to impaired PTH secretion",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PTH 缺乏使腎臟 1α-羥化酶（CYP27B1）活性降低，血清 calcitriol 不足，導致低鈣血症與高磷血症。外源性補充 calcitriol 直接替代 PTH 依賴性維生素 D 活化步驟，為甲狀旁腺功能低下症的核心治療。機轉關聯極強（酶產物替代療法），此治療原則廣泛適用於各類型甲低，但本特定基因亞型（isolated familial，PTH 分泌障礙）在資料庫中無臨床試驗或文獻紀錄，存在明顯數據缺口。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Campailla Martinelli type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本症由 NPR2（Natriuretic Peptide Receptor B）突變引起，影響 CNP 訊號路徑及軟骨內骨化，屬罕見肢端肢中骨骼發育不良。Calcitriol 透過 VDR 調節骨礦化，但對 NPR2-CNP 路徑無直接作用。TxGNN 預測可能基於骨骼疾病知識圖譜的間接節點連結。無任何臨床試驗或文獻佐證，預測依據薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "craniofacial conodysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見顱面骨骼發育異常，分子機轉尚未完全闡明。Calcitriol 與本病的生物學關聯無文獻或理論基礎支持，預測完全依賴 TxGNN 知識圖譜的遠端路徑推斷。無臨床試驗、文獻及機轉依據，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Dahlberg-Borer-Newcomer syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Dahlberg-Borer-Newcomer 症候群（即 HDR/Barakat 症候群，GATA3 突變）以甲狀旁腺功能低下、感音神經性耳聾及腎臟發育異常三聯症為特徵。Calcitriol 適用於其甲狀旁腺功能低下成分的低鈣血症管理（機轉同 PTH 缺乏）。現有文獻（PMID 30665552, 18650515）均為甲低一般性文獻，無針對本特定症候群的 calcitriol 臨床試驗或直接研究。屬間接外推應用，安全性與劑量需個體化評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "30665552", "study_type": "Review", "tier": "2"},
+        {"pmid": "18650515", "study_type": "Clinical Review", "tier": "2"},
+        {"pmid": "28375869", "study_type": "Review", "tier": "2"},
+        {"pmid": "36771474", "study_type": "Review", "tier": "2"},
+        {"pmid": "11195313", "study_type": "Review", "tier": "2"},
+        {"pmid": "21490240", "study_type": "Review", "tier": "2"},
+        {"pmid": "1668641", "study_type": "Review", "tier": "2"},
+        {"pmid": "7752498", "study_type": "Review", "tier": "2"},
+        {"pmid": "38044258", "study_type": "Review", "tier": "2"},
+        {"pmid": "16880407", "study_type": "Basic Science", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "hereditary hypophosphatemic rickets",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "遺傳性低磷血性佝僂病（主要為 XLH，PHEX 突變）由 FGF23 過量分泌導致腎磷消耗及 1α-羥化酶抑制，形成低磷血症與相對性 calcitriol 不足。外源性 calcitriol 補充可改善腸道鈣磷吸收、促進骨礦化，為傳統標準輔助治療。NCT03748966 直接評估 calcitriol 單療 XLH（Phase 1）；NCT03820518（Phase 4）比較不同劑量活性維生素 D 配合磷酸鹽的療效。Burosumab（抗 FGF23 單株抗體）已成部分地區新標準，但 calcitriol 於資源受限地區仍為一線選項。主要安全顧慮：高鈣血症、腎鈣化症風險，需定期監測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03748966",
+          "relevance_grade": "A",
+          "reasoning": "直接評估 Calcitriol 單療 X 連鎖低磷血症（XLH），EARLY_PHASE1，n=20，ACTIVE_NOT_RECRUITING，最高相關性。為本適應症唯一 calcitriol 專一性試驗。"
+        },
+        {
+          "nct_id": "NCT03820518",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 試驗比較高低劑量活性維生素 D（calcitriol/alfacalcidol）聯合中性磷酸鹽，n=100，UNKNOWN 狀態仍提供 Phase 4 層級直接藥物比較證據。"
+        },
+        {
+          "nct_id": "NCT06046820",
+          "relevance_grade": "B",
+          "reasoning": "ENERGY 3 Phase 3 XLH 試驗（可能為 burosumab），提供疾病治療背景對照，n=27，正在進行。間接佐證 calcitriol 作為對照/輔助的臨床位置。"
+        },
+        {
+          "nct_id": "NCT04846647",
+          "relevance_grade": "B",
+          "reasoning": "FGF23 分泌異常觀察研究，n=260，已完成。提供低磷血症機轉背景知識，支持 calcitriol 介入的病理生理學依據。"
+        },
+        {
+          "nct_id": "NCT01526304",
+          "relevance_grade": "C",
+          "reasoning": "FGF23/Klotho/Sclerostin 腎結石橫斷面研究，非干預性，間接提供磷代謝相關背景資訊。"
+        },
+        {
+          "nct_id": "NCT06921720",
+          "relevance_grade": "C",
+          "reasoning": "磷酸鹽疾病 ATP 濃度磷-31 光譜診斷研究，尚未招募，為診斷性研究，與 calcitriol 療效無直接關係。"
+        },
+        {
+          "nct_id": "NCT00844740",
+          "relevance_grade": "C",
+          "reasoning": "Cinacalcet 用於家族性低磷血性佝僂病，測試不同機轉藥物，已撤回（n=0），相關性最低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "39181153", "study_type": "Systematic Review/Guideline", "tier": "1"},
+        {"pmid": "40295317", "study_type": "Clinical Review/Guideline", "tier": "1"},
+        {"pmid": "36446330", "study_type": "Review", "tier": "2"},
+        {"pmid": "38988138", "study_type": "Review", "tier": "2"},
+        {"pmid": "17117305", "study_type": "Review", "tier": "2"},
+        {"pmid": "35226335", "study_type": "Cohort Study", "tier": "2"},
+        {"pmid": "7900834", "study_type": "Clinical/Basic Science Review", "tier": "2"},
+        {"pmid": "11778363", "study_type": "Review", "tier": "2"},
+        {"pmid": "3796683", "study_type": "Observational Study", "tier": "2"},
+        {"pmid": "39853071", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "hypophosphatemic rickets",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "低磷血性佝僂病（廣義類別，涵蓋 XLH、ADHR、ARHR、TIO 等亞型）共同特徵為腎磷消耗與骨礦化不足。Calcitriol 配合磷酸鹽補充為各亞型的傳統治療基礎：增加腸道磷吸收效率、補償 FGF23 或 PHEX/DMP1 突變導致的骨礦化障礙。現有 Phase 4 試驗（NCT03820518）及 Phase 1 試驗（NCT03748966）提供跨亞型臨床可行性依據。文獻基礎廣泛（20 篇），涵蓋多種佝僂病亞型。主要監測項目：腎鈣化症、高鈣血症、PTH 抑制。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03748966",
+          "relevance_grade": "A",
+          "reasoning": "Calcitriol 單療 XLH（低磷血性佝僂病最常見亞型），EARLY_PHASE1，直接證據。"
+        },
+        {
+          "nct_id": "NCT03820518",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 活性維生素 D 劑量比較試驗，直接評估 calcitriol 類藥物療效與安全性。"
+        },
+        {
+          "nct_id": "NCT06046820",
+          "relevance_grade": "B",
+          "reasoning": "XLH Phase 3 試驗，提供疾病治療背景，間接定位 calcitriol 在治療階層中的位置。"
+        },
+        {
+          "nct_id": "NCT04846647",
+          "relevance_grade": "B",
+          "reasoning": "FGF23 分泌異常觀察研究，支持低磷血症病理背景理解，n=260，已完成。"
+        },
+        {
+          "nct_id": "NCT01526304",
+          "relevance_grade": "C",
+          "reasoning": "FGF23 腎結石橫斷面研究，背景知識，非干預性。"
+        },
+        {
+          "nct_id": "NCT06921720",
+          "relevance_grade": "C",
+          "reasoning": "ATP 診斷性研究，尚未招募，相關性低。"
+        },
+        {
+          "nct_id": "NCT00844740",
+          "relevance_grade": "C",
+          "reasoning": "Cinacalcet 試驗（不同機轉），已撤回，不相關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "39181153", "study_type": "Systematic Review", "tier": "1"},
+        {"pmid": "36446330", "study_type": "Review", "tier": "2"},
+        {"pmid": "30454743", "study_type": "Review", "tier": "2"},
+        {"pmid": "38337700", "study_type": "Review", "tier": "2"},
+        {"pmid": "38988138", "study_type": "Review", "tier": "2"},
+        {"pmid": "17117305", "study_type": "Review", "tier": "2"},
+        {"pmid": "31392510", "study_type": "Review", "tier": "2"},
+        {"pmid": "26813507", "study_type": "Review", "tier": "2"},
+        {"pmid": "7900834", "study_type": "Clinical Review", "tier": "2"},
+        {"pmid": "29617471", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "osteomalacia (disease)",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "骨軟化症由骨基質礦化不足引起，維生素 D 缺乏/代謝障礙為主要病因之一。Calcitriol 直接促進腸道鈣磷吸收，提升循環礦化離子，改善類骨質礦化。PMID 3839245（1985）為歷史性關鍵研究，提供 calcitriol 誘導及維持 XLH 骨軟化症骨癒合的直接臨床證據。PMID 40565034（2025）論述腎外 calcitriol 合成調控的臨床意義。現有臨床試驗（NCT03603444）為觀察性研究，非干預試驗，但文獻基礎充分且機轉明確。需注意腫瘤引發骨軟化（TIO）亞型對 calcitriol 反應有限。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03603444",
+          "relevance_grade": "B",
+          "reasoning": "Ca/P 比值觀察研究，n=606，已完成，提供鈣磷代謝障礙診斷背景知識，間接支持骨軟化症代謝管理框架，但非 calcitriol 干預試驗。"
+        },
+        {
+          "nct_id": "NCT06921720",
+          "relevance_grade": "C",
+          "reasoning": "磷酸鹽疾病診斷性研究，尚未招募，與骨軟化症有病理背景重疊但相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "40565034", "study_type": "Review (2025)", "tier": "1"},
+        {"pmid": "40295317", "study_type": "Clinical Review/Guideline", "tier": "1"},
+        {"pmid": "3839245", "study_type": "Clinical Trial (historical, non-RCT)", "tier": "2"},
+        {"pmid": "33774081", "study_type": "Review", "tier": "2"},
+        {"pmid": "21490240", "study_type": "Review", "tier": "2"},
+        {"pmid": "36868732", "study_type": "Review", "tier": "2"},
+        {"pmid": "35288871", "study_type": "Review", "tier": "2"},
+        {"pmid": "35334948", "study_type": "Mechanistic Review", "tier": "2"},
+        {"pmid": "40586907", "study_type": "Observational/Diagnostic Study", "tier": "2"},
+        {"pmid": "17117305", "study_type": "Review", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "vitamin D-dependent rickets",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "維生素 D 依賴性佝僂病第 1A 型（VDDR1A）由 CYP27B1（1α-羥化酶）突變引起，無法將 25-OH-D 轉化為 calcitriol，導致低鈣血症、繼發性甲亢及嚴重骨病。補充 calcitriol 直接替代缺失的酶產物，可完全糾正代謝異常，機轉關聯強度極高（精準替代療法）。PMID 2157942（1990）提供 calcitriol 治療 VDDR 的直接非 RCT 臨床研究；PMID 34492747 為系統性回顧結合病例系列；多個病例系列（PMID 32926064, 36405822, 33823104）一致確認療效與長期預後。雖無正式 RCT（罕見病倫理限制），但證據體系一致性高，臨床可行性確立。VDDR2A（VDR 突變）對 calcitriol 部分抵抗，需超高劑量或不同策略。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "34492747", "study_type": "Case Series + Systematic Review", "tier": "1"},
+        {"pmid": "9316302", "study_type": "Clinical Review", "tier": "2"},
+        {"pmid": "36524979", "study_type": "Case Series/Cohort", "tier": "2"},
+        {"pmid": "33823104", "study_type": "Cohort/Case Series", "tier": "2"},
+        {"pmid": "36405822", "study_type": "Case Series/Cohort", "tier": "2"},
+        {"pmid": "2157942", "study_type": "Clinical Trial (non-RCT)", "tier": "2"},
+        {"pmid": "26939683", "study_type": "Observational Study", "tier": "2"},
+        {"pmid": "38365463", "study_type": "Review", "tier": "2"},
+        {"pmid": "32926064", "study_type": "Case Series", "tier": "3"},
+        {"pmid": "3012979", "study_type": "Review (foundational)", "tier": "2"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 疾病名稱 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|---|---|---|---|---|
+| obsolete vitamin D deficiency | 0.9996 | **L4** | S1 | Research Question ⚠️ 術語廢棄 |
+| renal tubular acidosis | 0.9993 | **L3** | S1 | Research Question |
+| familial isolated hypoparathyroidism | 0.9981 | **L4** | S1 | Research Question |
+| acromesomelic dysplasia (CM型) | 0.9979 | **L5** | S0 | **Hold** ❌ |
+| craniofacial conodysplasia | 0.9978 | **L5** | S0 | **Hold** ❌ |
+| Dahlberg-Borer-Newcomer syndrome | 0.9976 | **L4** | S1 | Research Question |
+| hereditary hypophosphatemic rickets | 0.9928 | **L2** | S2 | Proceed with Guardrails ✅ |
+| hypophosphatemic rickets | 0.9808 | **L2** | S2 | Proceed with Guardrails ✅ |
+| osteomalacia (disease) | 0.9768 | **L3** | S2 | Proceed with Guardrails ✅ |
+| vitamin D-dependent rickets | 0.9742 | **L3** | S2 | Proceed with Guardrails ✅ |
+
+---
+
+## 🔍 關鍵分析洞察
+
+### ⚠️ 數據品質警示
+- **TxGNN 高分 ≠ 高臨床證據**：前 6 名（score > 0.997）中有 2 個 L5、3 個 L4，反映 AI 模型對已知 calcitriol 鈣磷機轉路徑的過度泛化
+- **obsolete 術語問題**：score 最高（0.9996）但為廢棄術語，需對應至 ICD-10 E55.x 重新評估
+- **市場狀態矛盾**：Calcitriol 為全球已上市藥物（CKD、甲低、佝僂病），「未上市」狀態應為新加坡特定資料庫缺口
+
+### ✅ 優先推進適應症（L2-L3）
+1. **低磷血性佝僂病系列**（hereditary + general）：有直接 Phase 1/Phase 4 calcitriol 試驗，機轉完整，臨床實踐基礎成熟
+2. **VDDR**：系統性回顧 + 多病例系列，精準替代療法機轉極強，罕見病 RCT 不可行但臨床可信度高
+3. **骨軟化症**：1985 年即有直接臨床研究，文獻基礎豐富
+
+### 🛡️ Proceed with Guardrails 監測重點
+- 血清鈣（高鈣血症風險）
+- 尿鈣/肌酐比值（腎鈣化症早期指標）
+- 血磷、PTH、ALP 定期追蹤
+- 低磷血性佝僂病需注意：calcitriol 單獨使用可能加重腎鈣化，應配合磷酸鹽補充

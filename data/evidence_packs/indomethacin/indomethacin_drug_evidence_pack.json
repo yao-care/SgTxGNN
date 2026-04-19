@@ -1,0 +1,1102 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00328-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Indomethacin",
+    "drugbank_id": "DB00328",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9996713399887084,
+        "rank": 863
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Brachydactyly-syndactyly 為先天性肢體發育異常（GJA1/HOXD13 等基因相關），屬胚胎發育缺陷。COX 抑制劑對已形成的先天性結構異常無治療潛力。極高 TxGNN 分數（0.9997）可能因為此類罕見疾病在 KG 中樣本數少，模型偏差所致，不代表真實臨床可行性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.999670147895813,
+        "rank": 870
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此極罕見症候群結合眼部發育缺陷（coloboma/microphthalmia）與短肢骨發育異常，為先天性結構發育異常。Indomethacin 無已知作用機轉可矯正此類發育缺陷。高 TxGNN 分數同樣反映罕見疾病 KG 節點的模型不確定性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9988799691200256,
+        "rank": 2212
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症由 GDF5（BMP 家族）基因突變導致中段肢體短小。理論上 COX 抑制劑可調節 BMP 下游訊號（PGE2 與 BMP 有交互作用），但此機轉高度間接且缺乏任何臨床前驗證數據。屬純假說層次。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "WHIM syndrome",
+      "txgnn": {
+        "score": 0.9988173842430116,
+        "rank": 2300
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "WHIM 症候群由 CXCR4 功能增益突變導致，特徵為骨髓中性球滯留（myelokathexis）。Indomethacin 可影響中性球趨化性（減少 LTB4 介導的移行），理論上可能改善外周中性球計數，但此機轉與 CXCR4/CXCL12 軸無直接關聯。目前有 Plerixafor（CXCR4 拮抗劑）的直接靶向治療，NSAID 再利用科學依據極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.9987450838088988,
+        "rank": 2412
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症候群結合骨骼與牙釉質發育缺陷（FAM20A 基因相關），屬發育性疾病而非炎症疾病。Indomethacin 無針對牙釉質形成或 FAM20A 路徑的已知機轉。純 KG 拓撲預測，無生物學合理性支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9986953139305116,
+        "rank": 2473
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Brachyolmia 為脊椎骨發育異常（TRPV4/PAPSS2/SLC26A2 等基因突變），屬結構性骨骼發育不全。前列腺素在骨骼發育中有調控作用，COX 抑制劑在動物模型中可影響骨形成，但對基因驅動的骨骼形態異常無矯正機轉。高 TxGNN 分數可能源於疾病節點在 KG 中與炎症/骨代謝路徑的拓撲接近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "myosclerosis",
+      "txgnn": {
+        "score": 0.998600423336029,
+        "rank": 2612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肌硬化症（myosclerosis）為罕見纖維化肌肉疾病，病理為漸進性肌肉纖維替換。Indomethacin 的抗炎機轉理論上可減緩炎症驅動的纖維化初期，但無任何臨床數據支持。TxGNN 分數高（0.9986）可能反映知識圖譜中 COX 抑制劑與肌肉炎症節點的網路接近性，非真實臨床效果預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "juvenile idiopathic arthritis",
+      "txgnn": {
+        "score": 0.998388648033142,
+        "rank": 2909
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28418334",
+            "title": "Juvenile Idiopathic Arthritis.",
+            "authors": [
+              "Barut Kenan",
+              "Adrovic Amra",
+              "Şahin Sezgin",
+              "Kasapçopur Özgür"
+            ],
+            "journal": "Balkan medical journal",
+            "year": "2017",
+            "abstract": "Juvenile idiopathic arthritis is the most common chronic rheumatic disease of unknown aetiology in childhood and predominantly presents with peripheral arthritis. The disease is divided into several subgroups, according to demographic characteristics, clinical features, treatment modalities and disease prognosis. Systemic juvenile idiopathic arthritis, which is one of the most frequent disease subtypes, is characterized by recurrent fever and rash. Oligoarticular juvenile idiopathic arthritis, c",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1379157",
+            "title": "Pharmacological management of juvenile rheumatoid arthritis.",
+            "authors": [
+              "Rose C D",
+              "Doughty R A"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "The goals of pharmacotherapy in juvenile rheumatoid arthritis (JRA) are to suppress chronic synovitis which causes potential cartilage destruction and deformities, to control the systemic effects of inflammation (including growth retardation and nutritional deficits), relieve pain and limit psychological impact of disease. Currently available methods include nonsteroidal anti-inflammatory drugs (NSAIDs) such as aspirin, salicylates, naproxen, tolmetin, ibuprofen and indomethacin; disease modifyi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4610493",
+            "title": "Juvenile rheumatoid arthritis.",
+            "authors": [
+              "Boone J E",
+              "Baldwin J",
+              "Levine C"
+            ],
+            "journal": "Pediatric clinics of North America",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22573189",
+            "title": "Systemic-onset juvenile idiopathic arthritis: the changing life of a rare disease.",
+            "authors": [
+              "Cimaz Rolando",
+              "Von Scheven Annette",
+              "Hofer Michael"
+            ],
+            "journal": "Swiss medical weekly",
+            "year": "2012",
+            "abstract": "Systemic-onset juvenile idiopathic arthritis (SoJIA), sometimes called Still's disease, is a systemic inflammatory disease classified within the spectrum of juvenile idiopathic arthritis (JIA). It is an orphan disease with often a chronic course and a major impact on the affected children and their families. This disorder is unique in terms of clinical manifestations, prognosis and response to conventional immunosuppressants. The objectives of this review are to describe SoJIA and emphasise the ",
+            "classification": {
+              "study_type": "Review/Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23312448",
+            "title": "Mesenchymal stromal cells isolated from children with systemic juvenile idiopathic arthritis suppress innate and adaptive immune responses.",
+            "authors": [
+              "Calkoen Friso G J",
+              "Brinkman Danielle M C",
+              "Vervat Carly",
+              "van Ostaijen-Ten Dam Monique M",
+              "Ten Cate Rebecca"
+            ],
+            "journal": "Cytotherapy",
+            "year": "2013",
+            "abstract": "Infusion of mesenchymal stromal cells (MSCs) has been reported to be an effective treatment modality for acute graft-versus-host disease, and MSCs have been considered for use in the treatment of patients with autoimmune diseases. Before contemplating clinical studies with MSCs in patients with systemic juvenile idiopathic arthritis (sJIA), the immunomodulatory capacity of MSCs in this setting needs to be explored. A comparative analysis of bone marrow-derived MSCs from children with sJIA and he",
+            "classification": {
+              "study_type": "Research Article",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "362571",
+            "title": "Double-blind study of ketoprofen and indomethacin in juvenile chronic arthritis.",
+            "authors": [
+              "Bhettay E",
+              "Thomson A J"
+            ],
+            "journal": "South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde",
+            "year": "1978",
+            "abstract": "Ketoprofen (Orudis; Maybaker), whose use has not previously been reported in choldren, was compared with indomethacin in a double-blind crossover trial in 30 children with juvenile chronic arthritis. Both drugs proved to be safe and effective analgesics and anti-inflammatory agents although indomethacin emerged as the preferred drug. Perhaps higher doses of ketoprofen would be safe and more effective. Side-effects were few and mild. The problems of patient compliance and the assessment of pain i",
+            "classification": {
+              "study_type": "Double-blind RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4177403",
+            "title": "Ankylosing spondylitis.",
+            "authors": [
+              "Hart F D"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22472933",
+            "title": "Association of systemic-onset juvenile idiopathic arthritis and celiac disease - a case report.",
+            "authors": [
+              "Michelin Cintia Maria",
+              "Aikawa Nadia Emi",
+              "Diniz João Carlos",
+              "Jesus Adriana Almeida",
+              "Koda Yu Kar"
+            ],
+            "journal": "Acta reumatologica portuguesa",
+            "year": "2011",
+            "abstract": "In a 28-year period, 5508 patients were followed at our Paediatric Rheumatology Division and 712 (13%) patients had juvenile idiopathic arthritis (JIA) (ILAR criteria). One (0.14%) of them had association with celiac disease (CD), with predominance of gastrointestinal manifestations and this case was described herein.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086918",
+            "title": "Atypical monoarthritis presentation in children with oligoarticular juvenile idiopathic arthritis: a case series.",
+            "authors": [
+              "Lepore Natasha",
+              "Cashin Megan",
+              "Bartley Debra",
+              "Ardelean Daniela Simona"
+            ],
+            "journal": "Pediatric rheumatology online journal",
+            "year": "2017",
+            "abstract": "Oligoarticular juvenile idiopathic arthritis (oligoJIA), the most common chronic inflammatory arthritis of childhood, usually involves the knees and ankles. Severe oligoJIA monoarthritis presenting in a joint other than knees and ankles, is rare.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7417361",
+            "title": "Juvenile rheumatoid arthritis. A comparison of patients from the USSR and USA.",
+            "authors": [
+              "Baum J",
+              "Alekseev L S",
+              "Brewer E J",
+              "Dolgopolova A V",
+              "Mudholkar G S"
+            ],
+            "journal": "Arthritis and rheumatism",
+            "year": "1980",
+            "abstract": "Juvenile rheumatoid arthritis (JRA) in the Union of Soviet Socialist Republics (USSR) and the United States (USA) shows a remarkable similarity in age of disease onset, subtype onset, frequency, and most laboratory measurements. There is variation in the therapeutic approach with heavier reliance on aspirin in the USA. The evolution of JRA from onset subtype to final subtype over 5 years was the same in both groups and was independent of the type of therapy.",
+            "classification": {
+              "study_type": "Comparative Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3526298",
+            "title": "Ketoprofen: a review of its pharmacologic and clinical properties.",
+            "authors": [
+              "Kantor T G"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "1986",
+            "abstract": "Ketoprofen (Orudis), a highly potent and safe nonsteroidal antiinflammatory drug of the propionic acid derivative group, was synthesized in France by Rhône-Poulenc chemists in 1967, 3 years after the prototype ibuprofen. Ketoprofen was introduced in 1973 in France and the United Kingdom for antiinflammatory use. Today the drug is available in about 80 countries and has recently been approved in the United States for treatment of rheumatoid arthritis and osteoarthritis. The therapeutic experience",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7310772",
+            "title": "In vitro responses of lymphocytes in juvenile arthritis: effects of time and concentration of PHA-P.",
+            "authors": [
+              "Miller J J",
+              "Olds-Arroyo L"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "1981",
+            "abstract": "The effects of concentration of PHA-P and time in culture on cells from patients with systemic, polyarticular and pauciarticular juvenile arthritis have been studied. Responses to suboptimal concentrations are depressed at 3 days, particularly of systemic and polyarticular patients, but normal by 5 days and probably prolonged at 7 days. The responses approach normal with 5 micrograms/ml PHA-P. This delay also occurs in cells from children with cystic fibrosis and acute pneumonia and so is not di",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1884567",
+            "title": "Clinical pharmacokinetics of drugs used in juvenile arthritis.",
+            "authors": [
+              "Skeith K J",
+              "Jamali F"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1991",
+            "abstract": "Juvenile arthritis is defined as the occurrence of objective evidence of arthritis for a minimum of 6 weeks, in a child 16 years of age or younger. With a reported incidence of 9 to 19.6 per 100,000 children, juvenile arthritis is considered to be a rare disease. There is no known cure; however, up to 75% of patients will undergo remission by late adolescence. Drugs used in the treatment of juvenile arthritis are divided into 2 major classes: (a) the nonsteroidal anti-inflammatory drugs (NSAIDs)",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4678956",
+            "title": "Indomethacin.",
+            "authors": [
+              "Block S H"
+            ],
+            "journal": "JAMA",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8422565",
+            "title": "The use of non-steroidal anti-inflammatory drugs in paediatric rheumatic diseases.",
+            "authors": [
+              "Hollingworth P"
+            ],
+            "journal": "British journal of rheumatology",
+            "year": "1993",
+            "abstract": "The use of NSAIDs for arthritis differs in children from adults in their indications, uses and pharmacokinetics, and fewer are available. Children with arthritis are assessed differently, as they complain less of pain. Salicylates, indomethacin and ibuprofen are used for the fever of systemic JCA. For control of joint symptoms, diclofenac, ibuprofen, tolmetin and naproxen are equal in their efficacy and tolerance:salicylates and indomethacin are no more effective but more toxic. Children tolerat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5632159",
+            "title": "[Long term therapy with indomethacin in juvenile rheumatoid arthritis and in Still's disease].",
+            "authors": [
+              "Sänger L",
+              "Stoeber E",
+              "Kölle G"
+            ],
+            "journal": "Arzneimittel-Forschung",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "387372",
+            "title": "Naproxen up to date: a review of its pharmacological properties and therapeutic efficacy and use in rheumatic diseases and pain states.",
+            "authors": [
+              "Brogden R N",
+              "Heel R C",
+              "Speight T M",
+              "Avery G S"
+            ],
+            "journal": "Drugs",
+            "year": "1979",
+            "abstract": "Naproxen is a propionic acid derivative with analgesic and anti-inflammatory activity which has been widely used in the treatment of rheumatic diseases. Naproxen has been well studied in rheumatoid arthritis and is as effective as aspirin but better tolerated, thus enabling more patients to continue with treatment. For this reason some clinicians now prefer to try propionic acid derivatives, such as naproxen, before aspirin in arthritic patients. In comparative studies with other non-steroidal a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21175420",
+            "title": "Microencapsulation: an acclaimed novel drug-delivery system for NSAIDs in arthritis.",
+            "authors": [
+              "Manjanna K M",
+              "Shivakumar B",
+              "Pramod Kumar T M"
+            ],
+            "journal": "Critical reviews in therapeutic drug carrier systems",
+            "year": "2010",
+            "abstract": "Arthritis refers to different medical conditions associated with disorders of the primary structures that determine joint functioning, such as bones, cartilage, and synovial membranes. Drug discovery and delivery to retard the degeneration of joint tissues are challenging. Current treatment of different types of arthritis such as osteoarthritis, rheumatoid arthritis, septic arthritis, juvenile idiopathic arthritis, and ankylosing spondylitis involves the administration of nonsteroidal anti-infla",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4251212",
+            "title": "A critical reappraisal of juvenile rheumatoid arthritis.",
+            "authors": [
+              "Calabro J J",
+              "Katz R M",
+              "Maltz B A"
+            ],
+            "journal": "Clinical orthopaedics and related research",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3539573",
+            "title": "Pirprofen. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic efficacy.",
+            "authors": [
+              "Todd P A",
+              "Beresford R"
+            ],
+            "journal": "Drugs",
+            "year": "1986",
+            "abstract": "Pirprofen is a non-steroidal anti-inflammatory drug, related structurally to drugs such as ibuprofen, ketoprofen and naproxen. Published clinical trials indicate that pirprofen 600 to 1200 mg/day as 2 or 3 divided doses is a suitable alternative to usual therapeutic dosages of aspirin, flurbiprofen, ibuprofen, indomethacin, ketoprofen, naproxen, piroxicam and sulindac in the treatment of rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, musculoskeletal disorders and non-articular rhe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Indomethacin 透過抑制 COX-1/COX-2 降低 PGE2 合成，直接抑制滑膜炎症反應與關節腫脹。JIA 的病理核心為促炎性前列腺素驅動的滑膜增生，與 NSAID 機轉高度吻合。歷史上 Indomethacin 為 JIA/JRA 標準療法之一，尤其在生物製劑問世前廣泛使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
+      "txgnn": {
+        "score": 0.9983678460121156,
+        "rank": 2938
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "RF+ 多關節型 JIA 為 JIA 最具侵蝕性亞型，病理上與成人 RA 相似，均為 FcγR 介導的免疫複合體沉積引發滑膜炎。Indomethacin 的 COX 抑制機轉可緩解急性炎症，但對 RF+ 亞型的長期骨蝕進展療效尚無直接研究。此適應症的證據完全依賴一般 JIA 文獻的外推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "rheumatoid nodulosis",
+      "txgnn": {
+        "score": 0.9983012080192566,
+        "rank": 3034
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3278840",
+            "title": "Current therapeutic practices in spondyloarthropathies.",
+            "authors": [
+              "Yunus M B"
+            ],
+            "journal": "Comprehensive therapy",
+            "year": "1988",
+            "abstract": "Spondyloarthropathies are comprised of a number of diseases that have the following features in common: involvement of the spine with sacroiliitis, peripheral arthritis that is frequently asymmetric, absence of rheumatoid nodule, negative rheumatoid factor, and association with HLA-B27. The most important aspect of spondylitis management is a program of regular exercises, aided by nonsteroidal anti-inflammatory drugs (NSAIDs) and physical therapy. Indomethacin and phenylbutazone are most effecti",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4384434",
+            "title": "Rheumatoid arthritis with rheumatoid nodules and allergic granuloatosis.",
+            "authors": [
+              "Burgoon C F",
+              "Feinerman L K"
+            ],
+            "journal": "Archives of dermatology",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report/Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6020827",
+            "title": "Pulmonary nodules in rheumatoid disease: a report of two cases.",
+            "authors": [
+              "Burrows F G"
+            ],
+            "journal": "The British journal of radiology",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類風濕結節由慢性肉芽腫反應（活化的巨噬細胞、纖維母細胞）組成，PGE2 參與肉芽腫維持。Indomethacin 抑制 COX → 降低 PGE2 → 理論上可抑制肉芽腫形成。然而有悖論性證據：部分 MTX 治療患者出現結節加速形成（accelerated nodulosis），NSAID 的實際影響方向尚不明確。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "WHIM syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "WHIM syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "WHIM syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "myosclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Indomethacin",
+        "disease": "rheumatoid nodulosis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    }
+  ]
+}

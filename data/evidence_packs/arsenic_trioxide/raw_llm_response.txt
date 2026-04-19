@@ -1,0 +1,419 @@
+# Arsenic Trioxide (DB01169) 藥物再利用證據分析
+
+---
+
+```json
+{
+  "drug": "Arsenic Trioxide",
+  "drugbank_id": "DB01169",
+  "analysis_date": "2026-04-05",
+  "indications": [
+    {
+      "disease_name": "myelodysplastic syndrome",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "ATO 在 MDS 具多重已驗證機轉：(1) 誘導異常骨髓前驅細胞線粒體依賴性凋亡；(2) 抑制 NF-κB 活化，削減促生存信號；(3) 下調 BCL2/BCL-XL 抗凋亡蛋白；(4) 與去甲基化藥物（Decitabine/Azacitidine）具協同表觀遺傳效應；(5) ROS 介導 DNA 損傷誘導凋亡。2025 年 RCT 及 2023 年系統性回顧均直接確認療效",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00454480",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 大型試驗（n=2000），涵蓋高風險 MDS 及 AML，已完成；為本藥最高等級試驗，但以 AML 為主要目標，MDS 為次族群"
+        },
+        {
+          "nct_id": "NCT00195104",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2，ATO 聯合 Ara-C 專門用於高風險 MDS，已完成，n=87，直接相關且樣本數具參考價值"
+        },
+        {
+          "nct_id": "NCT00093366",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1/2，ATO 聯合 Etanercept 用於進展期 MDS，已完成，n=32，直接相關"
+        },
+        {
+          "nct_id": "NCT02190695",
+          "relevance_grade": "B",
+          "reasoning": "Phase II 隨機試驗（Leukemia SPORE），Decitabine ± ATO 等組合，已完成，n=92，ATO 為重要治療組"
+        },
+        {
+          "nct_id": "NCT00274781",
+          "relevance_grade": "B",
+          "reasoning": "Phase II，ATO + Gemtuzumab Ozogamicin 用於 AML/MDS，已完成，n=30"
+        },
+        {
+          "nct_id": "NCT00020969",
+          "relevance_grade": "A",
+          "reasoning": "Phase II，專門針對 MDS 的 ATO 多中心試驗，提早終止，受試者數不明；直接相關但提早終止削弱證據效力"
+        },
+        {
+          "nct_id": "NCT00234000",
+          "relevance_grade": "A",
+          "reasoning": "Phase I，ATO + Azacitidine 用於 MDS，提早終止（僅 1 名受試者），直接相關但證據效力極低"
+        },
+        {
+          "nct_id": "NCT00006220",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2，ATO ± ATRA 用於難治性血液惡性腫瘤（含 MDS），提早終止，n=5"
+        },
+        {
+          "nct_id": "NCT00003885",
+          "relevance_grade": "B",
+          "reasoning": "Phase II，ATO 用於復發/難治性急性白血病（含 MDS 相關），n=60，狀態不明"
+        },
+        {
+          "nct_id": "NCT01404949",
+          "relevance_grade": "C",
+          "reasoning": "Phase II 針對新診斷 APL（非 MDS），主要提供 ATO 劑量與安全性參考"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37908176",
+          "study_type": "Systematic Review/Meta-analysis",
+          "tier": "1",
+          "note": "2023 年 ATO 在 MDS 療效與不良反應之系統性回顧，最高等級直接支持文獻"
+        },
+        {
+          "pmid": "40167011",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "2025 年 Decitabine 聯合 ATO 用於老年高風險 MDS 之 RCT，最新直接臨床試驗"
+        },
+        {
+          "pmid": "38816179",
+          "study_type": "Comparative Clinical Study",
+          "tier": "2",
+          "note": "2024 年比較雄黃與 ATO 在 MDS 免疫學變化之臨床研究"
+        },
+        {
+          "pmid": "20425329",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2006 年 ATO 用於 MDS 治療之臨床綜述"
+        },
+        {
+          "pmid": "18282365",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2007 年 ATO 在白血病及 MDS 之新資料彙整"
+        },
+        {
+          "pmid": "33734442",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2021 年 AML/MDS 治療現況與展望綜述"
+        },
+        {
+          "pmid": "30898879",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "note": "2019 年 Decitabine 與 ATO 在 MDS 細胞中協同效應之臨床前研究"
+        },
+        {
+          "pmid": "27665715",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "2016 年 ATO 與 Triptolide 在 SKM-1 MDS 細胞協同凋亡誘導（體外）"
+        },
+        {
+          "pmid": "15561690",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "2004 年骨髓衰竭綜述，背景文獻"
+        },
+        {
+          "pmid": "14633782",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "2003 年 MDS 疾病綜述，背景文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "aregenerative anemia",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "再生不良性貧血（aplastic anemia）的 T 細胞介導免疫病理機轉與 MDS 不同；ATO 透過：(1) 調節 Treg/Th17 平衡，降低 IFN-γ 及 IL-17 促炎因子；(2) 上調 TGF-β1 誘導免疫耐受；(3) 抑制自體免疫性造血抑制。此免疫調節機轉具獨立臨床文獻支持，與 MDS 凋亡機轉不同，為獨立再利用依據。注意：多數臨床試驗針對 MDS，再障性貧血的特異性臨床試驗缺乏",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00234000",
+          "relevance_grade": "C",
+          "reasoning": "Phase I，ATO + Azacitidine 用於 MDS（非再障），提早終止，n=1，對再障性貧血相關性極低"
+        },
+        {
+          "nct_id": "NCT00454480",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3（n=2000），針對 AML/高風險 MDS，非再障性貧血；提供安全性參考"
+        },
+        {
+          "nct_id": "NCT00006220",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2，難治性血液惡性腫瘤（非再障），提早終止，n=5"
+        },
+        {
+          "nct_id": "NCT00274781",
+          "relevance_grade": "C",
+          "reasoning": "Phase II，AML 適應症（非再障），n=30，與再障性貧血相關性低"
+        },
+        {
+          "nct_id": "NCT00020969",
+          "relevance_grade": "C",
+          "reasoning": "Phase II，針對 MDS（非再障），提早終止"
+        },
+        {
+          "nct_id": "NCT00104806",
+          "relevance_grade": "C",
+          "reasoning": "Phase II，MDS + 膽鈣化醇聯合，n=5，提早終止，與再障性貧血相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29075064",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2017 年專論 ATO 在再障性貧血管理中角色之系統性綜述，最直接支持文獻"
+        },
+        {
+          "pmid": "23064943",
+          "study_type": "Clinical Trial/Case Series",
+          "tier": "2",
+          "note": "2013 年 ATO 用於難治性再障性貧血之臨床試驗/病例系列，直接相關"
+        },
+        {
+          "pmid": "23044093",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "2012 年 ATO 改善難治性嚴重再障性貧血造血功能之臨床研究，直接相關"
+        },
+        {
+          "pmid": "32590737",
+          "study_type": "Prospective Clinical Study",
+          "tier": "2",
+          "note": "2020 年 ATO 對再障性貧血 Treg/IFN-γ/IL-4/IL-17/TGF-β1 之免疫機轉研究，直接相關且為最新機轉證據"
+        },
+        {
+          "pmid": "25914547",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "note": "2015 年 ATO 聯合 Ascorbic Acid/Ifosfamide/Prednisone 方案之臨床活性研究"
+        },
+        {
+          "pmid": "22964015",
+          "study_type": "Clinical/Molecular Study",
+          "tier": "2",
+          "note": "2012 年 ATO + Ascorbic Acid 調節 BCL2 家族基因（MDS 研究，機轉可部分外推至再障）"
+        },
+        {
+          "pmid": "16105982",
+          "study_type": "Molecular Study",
+          "tier": "3",
+          "note": "2005 年 NF-κB 和 FLIP 在 ATO 誘導 MDS 凋亡中的角色（MDS 機轉，背景參考）"
+        },
+        {
+          "pmid": "15561690",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "2004 年骨髓衰竭綜述，背景文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "refractory cytopenia of childhood",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "兒童難治性血球減少症（RCC）為兒科 MDS 的特殊亞型，具異常骨髓造血前驅細胞凋亡增加之特徵；ATO 之 MDS 凋亡誘導機轉理論上適用，但兒科族群的 PK/PD 差異、生長發育影響及長期毒性需個別評估；WHO 2016 已將 RCC 歸類於兒科 MDS 範疇",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00104806",
+          "relevance_grade": "B",
+          "reasoning": "Phase II，ATO + 膽鈣化醇用於廣義 MDS，提早終止（n=5）；非 RCC 特異性試驗，但在 MDS 範疇內具間接相關性；證據效力因提早終止及樣本數極少而嚴重受限"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "unclassified myelodysplastic syndrome",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "未分類 MDS 為診斷排除類別，具有 MDS 共通病理機轉（異常造血克隆、骨髓衰竭）；ATO 在分類型 MDS 的廣泛證據體系（L2 等級）可作為間接支持依據；然而本亞型缺乏特定試驗，需借助 MDS 廣義試驗結果外推",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 5",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "5q- 症候群由 RPS14 單倍體不足驅動，導致 p53 活化及紅系前驅細胞選擇性凋亡；ATO 之廣泛 MDS 機轉（NF-κB 抑制、BCL2 調節）理論上適用，但 5q- 特異性研究完全缺乏；Lenalidomide 為 5q- 當前標準靶向治療，ATO 的加入可能僅在 Lenalidomide 失敗後有研究價值",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Ewing sarcoma",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ATO 通過三條已驗證機轉影響 Ewing 肉瘤：(1) Hedgehog/Gli 信號抑制——Gli1/Gli2 降解，Ewing 肉瘤具高度 Hh 通路依賴性；(2) p38-MAPK 及 JNK 信號抑制，降低腫瘤侵襲性；(3) 在臨床耐受濃度（< 2 μM）下誘導 p53 非依賴性細胞死亡；(4) 與 Etoposide 具協同殺瘤效應。機轉連結強，但臨床試驗非 Ewing 特異性",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00024258",
+          "relevance_grade": "B",
+          "reasoning": "Phase II，ATO 用於神經母細胞瘤及其他兒科實體腫瘤（Ewing 肉瘤為納入子組），已完成，n=22；非 Ewing 特異性試驗，但提供兒科實體腫瘤的直接臨床安全性及初步療效數據，具參考價值"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22315235",
+          "study_type": "Preclinical (PPTP Program)",
+          "tier": "2",
+          "note": "2012 年兒科臨床前測試計畫（PPTP）針對 Ewing 肉瘤之結構化臨床前評估，為最重要的臨床前支持文獻"
+        },
+        {
+          "pmid": "22391311",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2012 年 ATO 與 Hedgehog 信號傳導機轉綜述，確立關鍵機轉連結"
+        },
+        {
+          "pmid": "21183792",
+          "study_type": "Preclinical/In Vivo Study",
+          "tier": "2",
+          "note": "2011 年 ATO 通過 Hedgehog 阻斷抑制人類癌細胞生長及小鼠異種移植腫瘤，提供體內概念驗證"
+        },
+        {
+          "pmid": "21183780",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2011 年 Hedgehog 驅動癌症中 ATO 應用潛力綜述"
+        },
+        {
+          "pmid": "31746397",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "2020 年 ATO 與 Etoposide 在 Ewing 肉瘤細胞株的協同交互作用研究"
+        },
+        {
+          "pmid": "27665785",
+          "study_type": "In Vitro/Preclinical",
+          "tier": "3",
+          "note": "2016 年 ATO 增強 Etoposide 在 Ewing 肉瘤療效之研究"
+        },
+        {
+          "pmid": "21946058",
+          "study_type": "In Vitro Study",
+          "tier": "3",
+          "note": "2012 年 ATO 抑制 Ewing 肉瘤細胞侵襲性（p38-MAPK/JNK 機轉）"
+        },
+        {
+          "pmid": "16646077",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "note": "2006 年臨床耐受濃度 ATO 在 Ewing 肉瘤誘導 p53 非依賴性細胞死亡"
+        },
+        {
+          "pmid": "16930595",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "note": "2006 年 ATO 濃度決定 Ewing 肉瘤家族腫瘤命運之臨床前研究"
+        },
+        {
+          "pmid": "16889724",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "2006 年含 ATO 化療組合用於骨肉瘤之初步報告（非 Ewing 肉瘤，相關性有限）"
+        }
+      ]
+    },
+    {
+      "disease_name": "severe congenital hypochromic anemia with ringed sideroblasts",
+      "txgnn_score": 0.9993,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本病因線粒體 Fe-S 簇合成基因缺陷（如 GLRX5、SLC25A38、HSPA9）導致鐵粒幼細胞性貧血；ATO 之線粒體毒性與 ROS 產生可能加重鐵代謝紊亂，存在潛在危害風險；目前僅有 TxGNN 預測評分，無任何臨床前或臨床研究支持，且機轉連結不明確",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "DFSP 主要由 COL1A1-PDGFB 融合基因驅動，PDGFR-β 持續活化為核心機轉；Imatinib（伊馬替尼）為 PDGFR-β 靶向標準治療；ATO 的廣泛凋亡誘導效應與 DFSP 特定機轉無直接連結，目前完全缺乏臨床或臨床前研究依據",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "liposarcoma",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脂肪肉瘤涵蓋多種分子亞型：高分化/去分化型（MDM2/CDK4 擴增）、黏液樣型（FUS-DDIT3）、多形性型；ATO 之 p53 非依賴性細胞死亡機轉理論上與 MDM2 過度表達亞型存在潛在相關性，但目前完全缺乏臨床及臨床前研究，為純推測性連結",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ovarian myxoid liposarcoma",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢黏液樣脂肪肉瘤為極罕見婦科腫瘤（全球文獻僅數十例），可能帶有 FUS-DDIT3 融合基因；即使在廣義黏液樣脂肪肉瘤背景下，ATO 的機轉連結亦僅為推測；完全缺乏任何相關臨床或臨床前數據",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 證據等級摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| myelodysplastic syndrome | 0.9991 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| aregenerative anemia | 0.9992 | **L3** | **S2** | ⚠️ Proceed with Guardrails |
+| Ewing sarcoma | 0.9989 | **L3** | S1 | 🔬 Research Question |
+| refractory cytopenia of childhood | 0.9993 | **L3** | S1 | 🔬 Research Question |
+| unclassified MDS | 0.9993 | **L4** | S1 | 🔬 Research Question |
+| partial deletion 5q- | 0.9992 | **L4** | S1 | 🔬 Research Question |
+| severe congenital hypochromic anemia | 0.9993 | **L5** | S0 | 🚫 Hold |
+| dermatofibrosarcoma protuberans | 0.9977 | **L5** | S0 | 🚫 Hold |
+| liposarcoma | 0.9975 | **L5** | S0 | 🚫 Hold |
+| ovarian myxoid liposarcoma | 0.9970 | **L5** | S0 | 🚫 Hold |
+
+---
+
+## 🔍 關鍵分析說明
+
+### ⚠️ TxGNN 高分≠高證據等級
+本批適應症 TxGNN 分數集中於 0.997–0.999，差異僅在小數後三位。然而證據等級從 **L2 到 L5** 跨度極大，顯示模型預測與臨床實證存在系統性落差，特別是罕見腫瘤適應症。
+
+### 🎯 優先推進適應症：MDS（L2/S3）
+- 24 項臨床試驗 + 20 篇文獻，含 2023 Meta-analysis 及 2025 RCT
+- 多個已完成 Phase 1/2 試驗，NCT00454480 達 Phase 2/3（n=2000）
+- 多種聯合方案已驗證：Decitabine、Azacitidine、Ara-C、Gemtuzumab
+
+### 🔬 值得深入研究：再生不良性貧血（L3/S2）
+- 特異性免疫調節機轉（Treg/IFN-γ/TGF-β1 軸）獨立於 MDS 凋亡路徑
+- 3 篇直接臨床研究（2012–2020），但缺乏正式 Phase 2 RCT
+- 建議設計針對難治性再障的前瞻性隨機試驗
+
+### 🧬 Ewing 肉瘤：機轉強、臨床弱（L3/S1）
+- Hedgehog/Gli 抑制機轉有充分臨床前支持（PPTP 計畫認證）
+- 10 篇文獻中 8 篇為體外/動物研究，唯一臨床試驗非 Ewing 特異性（兒科實體腫瘤籃子試驗）
+- 建議以 ATO + Etoposide 聯合方案設計 Ewing 特異性 Phase 1/2
+
+> ⚠️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴格臨床驗證方可應用於患者。

@@ -1,0 +1,1489 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11342-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Aluminum oxide",
+    "drugbank_id": "DB11342",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9998315572738647,
+        "rank": 553
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00764530",
+            "title": "Keramos Ceramic/Ceramic Total Hip System",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 342,
+            "start_date": "2003-11",
+            "completion_date": "2015-01",
+            "brief_summary": "Evaluate the safety and efficacy of the CeramTec Acetabular Alumina Insert and CeramTec Alumina head when used with the Foundation Porous Coated Acetabular Shell and an Encore hip stem.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此試驗評估氧化鋁陶瓷髖關節假體的植入材料安全性與耐久性，非針對 RA 的藥物治療試驗。適應症群體可能包含 RA 患者，但研究目的為材料性能，與藥物再利用無直接關聯。相關性評級 C。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2409750",
+            "title": "Plasma total prekallikrein/kallikrein activity in rheumatoid arthritis with and without amyloidosis. Increased kaolin-stimulated activity in patients with amyloidosis.",
+            "authors": [
+              "Teppo A M",
+              "Pakkanen R",
+              "Maury C P"
+            ],
+            "journal": "Acta medica Scandinavica",
+            "year": "1985",
+            "abstract": "Following exposure to kaolin, plasma samples were assayed for total prekallikrein/kallikrein activity in 19 patients with rheumatoid arthritis (RA), 39 patients with RA complicated by amyloidosis, 13 patients with nonamyloid nephropathy and 54 healthy subjects. Increased total kallikrein activity was found in RA patients with amyloidosis and in patients with nonamyloid nephropathy. The concentrations of the plasma kallikrein inhibitors C1-inactivator and alpha 2-macroglobulin were normal in RA p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35549591",
+            "title": "ZIF-8 nanoparticles coated with macrophage-derived microvesicles for sustained, targeted delivery of dexamethasone to arthritic joints.",
+            "authors": [
+              "Wang Yao",
+              "Zhang Dan",
+              "Jia Ming",
+              "Zheng Xiu",
+              "Liu Yan"
+            ],
+            "journal": "Journal of drug targeting",
+            "year": "2022",
+            "abstract": "Dexamethasone sodium phosphate (Dex) is widely used in the clinic for the treatment of rheumatoid arthritis. However, it circulates in the blood for a short time and it is linked to a high risk of severe side effects caused by repeated dosing. Here, we encapsulated Dex onto zeolitic imidazolate framework-8 (ZIF-8) to prepare metal-organic framework nanoparticles with high drug loading efficiency. To prevent clearance by the mononuclear phagocyte system and extend time in circulation, the nanopar",
+            "classification": {
+              "study_type": "Lab/Nanotechnology",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35819069",
+            "title": "NIR-PTT/ROS-Scavenging/Oxygen-Enriched Synergetic Therapy for Rheumatoid Arthritis by a pH-Responsive Hybrid CeO2-ZIF-8 Coated with Polydopamine.",
+            "authors": [
+              "Chen Ming-Wa",
+              "Lu Qi-Jin",
+              "Chen Yong-Jian",
+              "Hou Ying-Ke",
+              "Zou Yi-Ming"
+            ],
+            "journal": "ACS biomaterials science & engineering",
+            "year": "2022",
+            "abstract": "Rheumatoid arthritis (RA) is an inflammatory type of arthritis that causes joint pain and damage. The inflammatory cell infiltration (e.g., M1 macrophages), the poor O2 supply at the joint, and the excess reactive oxygen species (ROS)-induced oxidative injury are the main causes of RA. We herein report a polydopamine (PDA)-coated CeO2-dopped zeolitic imidazolate framework-8 (ZIF-8) nanocomposite CeO2-ZIF-8@PDA (denoted as CZP) that can synergistically treat RA. Under near-infrared (NIR) light ir",
+            "classification": {
+              "study_type": "Lab/Nanomedicine",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2838005",
+            "title": "Diseases associated with exposure to silica and nonfibrous silicate minerals. Silicosis and Silicate Disease Committee.",
+            "authors": [],
+            "journal": "Archives of pathology & laboratory medicine",
+            "year": "1988",
+            "abstract": "Silicosis, a disease of historical importance, continues to occur cryptically today. Its pathogenesis is under ongoing study as new concepts of pathobiology evolve. In this article, the gross and microscopic features of the disease in the lungs and the lesions in lymph nodes and other viscera are described. These tissue changes are then discussed in the context of clinical disease and other possible or established complications of silica exposure (ie, scleroderma and rheumatoid arthritis, glomer",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32342135",
+            "title": "Anti-arthritic and anti- inflammatory effects of extract and fractions of Malva parviflora in a mono- arthritis model induced with kaolin/carrageenan.",
+            "authors": [
+              "Martínez-Hernández Gabriela Belen",
+              "Vargas-Villa Gabriela",
+              "Jiménez-Ferrer Enrique",
+              "García-Aguilar Maribel Patricia",
+              "Zamilpa Alejandro"
+            ],
+            "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+            "year": "2020",
+            "abstract": "Malva parviflora is used as food in the gastronomy of some regions of Mexico and, also, in Mexican traditional medicine for inflammation-related conditions like rheumatoid arthritis. The objective of this work was to evaluate its antiarthritic activity in a mice model. In ICR, female mice were tested the dichloromethane extract (MpD) and fractions MpF4 (extracted with a dichoromethane:methanol system) and MpFphy (a precipitate by acetone:methanol) by using the mono-arthritis with kaolin/carragee",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7258747",
+            "title": "Evaluation of lymphocyte populations and their mitogenic activity in relation to serum copper and immunoglobulin levels in rheumatoid arthritis.",
+            "authors": [
+              "Attia W M",
+              "Clark H W",
+              "Brown T M"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1981",
+            "abstract": "Purified mononuclear cells from the peripheral blood and sera from 30 patients with active rheumatoid arthritis (RA) were compared to the control or standard values in respect to the total number of B (EA) and T (E) rosette forming lymphocytes, their responsiveness to phytohemagglutinin (PHA) and pokeweed (PWM) mitogen, and serum immunoglobulins, (C3) complement and copper levels. The RA patients had significantly lower values for EA cells, PWM stimulation index, hemoglobin and hematocrit. Signi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4950006",
+            "title": "Antibodies to tissues.",
+            "authors": [
+              "Steffen C"
+            ],
+            "journal": "Progress in clinical pathology",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32707885",
+            "title": "Benzylideneacetophenone Derivative Alleviates Arthritic Symptoms via Modulation of the MAPK Signaling Pathway.",
+            "authors": [
+              "Sur Bongjun",
+              "Kim Mijin",
+              "Villa Thea",
+              "Oh Seikwan"
+            ],
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2020",
+            "abstract": "The benzylideneacetophenone derivative 3-(4-hydroxy-3-methoxy-phenyl)-1-{3-[1]-phenyl}-propenone (JC3 dimer) was synthesized through the dimerization of JC3. To investigate the inhibitory effects of JC3 dimer, the carrageenan/kaolin (C/K)-induced knee arthritis rat model was used in vivo and rheumatoid arthritis (RA) patient-derived fibroblast-like synoviocytes (FLS) were used in vitro. In the C/K rat model, JC3 dimer was given after arthritis induction for 6 days at the concentrations of 1, 5, ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13922480",
+            "title": "[The bentonite flocculation test in rheumatoid arthritis and in other morbid conditions].",
+            "authors": [
+              "TRIGGIANI G",
+              "SEMERARO V",
+              "LATORRE F",
+              "BASSI R"
+            ],
+            "journal": "Reumatismo",
+            "year": "1962",
+            "abstract": "",
+            "classification": {
+              "study_type": "Diagnostic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6987312",
+            "title": "Quantitative determination of rheumatoid factor by an enzyme-labeled immunoassay.",
+            "authors": [
+              "Karsh J",
+              "Halbert S P",
+              "Klima E",
+              "Steinberg A D"
+            ],
+            "journal": "Journal of immunological methods",
+            "year": "1980",
+            "abstract": "The presence and quantity of rheumatoid factor (RF) in human serum were determined by an indirect enzyme-linked immunoabsorbent assay (ELISA). A human rheumatoid factor control serum, standardized against the WHO reference rheumatoid arthritis serum preparation, was used to derive a standard curve in each assay. The results of unknowns were estimated from the standard curve and reported in International Units (IU) per milliliter (ml). The ELISA assay was compared with the bentonite flocculation ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5683163",
+            "title": "Hageman factor (factor XII) activity in synovial fluid of rheumatoid arthritis patients and its possible pathogenic significance.",
+            "authors": [
+              "Szpilmanowa H",
+              "Stachurska J"
+            ],
+            "journal": "Experientia",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28958658",
+            "title": "A Minimum Ten Years of Follow-Up of Alumina Head on Delta Liner Total Hip Arthroplasty.",
+            "authors": [
+              "Choy Won-Sik",
+              "Cha Yong-Han",
+              "Jeon Chung-Youb",
+              "Lee Kyu-Sang",
+              "Kim Ha-Yong"
+            ],
+            "journal": "The Journal of arthroplasty",
+            "year": "2018",
+            "abstract": "In the early days when delta ceramics were developed, there was a period of using delta ceramic liner and alumina ceramic head. Therefore, the purpose of this study is to investigate the clinical and radiological outcomes of total hip arthroplasty using delta ceramic liner on alumina ceramic head after a minimum of 10 years of follow-up and to evaluate problems of early delta ceramic liner.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16882533",
+            "title": "Nested case-control study of autoimmune disease in an asbestos-exposed population.",
+            "authors": [
+              "Noonan Curtis W",
+              "Pfau Jean C",
+              "Larson Theodore C",
+              "Spence Michael R"
+            ],
+            "journal": "Environmental health perspectives",
+            "year": "2006",
+            "abstract": "To explore the potential association between asbestos exposure and risk of autoimmune disease, we conducted a case-control study among a cohort of 7,307 current and former residents of Libby, Montana, a community with historical occupational and environmental exposure to asbestos-contaminated vermiculite.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12211691",
+            "title": "Effects of alumina and zirconium dioxide particles on arachidonic acid metabolism and proinflammatory interleukin production in osteoarthritis and rheumatoid synovial cells.",
+            "authors": [
+              "Liagre B",
+              "Moalic S",
+              "Vergne P",
+              "Charissoux J L",
+              "Bernache-Assollant D"
+            ],
+            "journal": "The Journal of bone and joint surgery. British volume",
+            "year": "2002",
+            "abstract": "We describe a model which can be used for in vitro biocompatibility assays of biomaterials. We studied the in vitro response of human osteoarthritis or rheumatoid arthritis fibroblast-like synoviocytes to Al2O3 or ZrO2 particles by analysing the production of interleukin-1 (IL-1) and interleukin-6 (IL-6) and the metabolism of arachidonic acid via lipoxygenase and cyclo-oxygenase pathways. Our results show that, in these cells and under our experimental conditions, Al2O3 and ZrO2 did not signific",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30062938",
+            "title": "Mid-term results of alumina ceramic unlinked total elbow arthroplasty with cement fixation for patients with rheumatoid arthritis.",
+            "authors": [
+              "Nishida K",
+              "Hashizume K",
+              "Nasu Y",
+              "Ozawa M",
+              "Fujiwara K"
+            ],
+            "journal": "The bone & joint journal",
+            "year": "2018",
+            "abstract": "The aim of this study was to report the mid-term clinical outcome of cemented unlinked J-alumina ceramic elbow (JACE) arthroplasties when used in patients with rheumatoid arthritis (RA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28238009",
+            "title": "Results of Total Elbow Arthroplasty with Cementless Implantation of an Alumina Ceramic Elbow Prosthesis for Patients with Rheumatoid Arthritis.",
+            "authors": [
+              "Nishida Keiichiro",
+              "Hashizume Kenzo",
+              "Ozawa Masatsugu",
+              "Takeshita Ayumu",
+              "Kaneda Daisuke"
+            ],
+            "journal": "Acta medica Okayama",
+            "year": "2017",
+            "abstract": "We investigated the long-term clinical results of total elbow arthroplasty (TEA) by cementless fixation of alumina ceramic unlinked elbow prostheses (J-alumina ceramic elbows: JACE) for the reconstruction of elbow joints with rheumatoid arthritis (RA). Seventeen elbows in 17 patients (aged 44-72 years, average 54.8) replaced by JACE TEA without bone cement were investigated. The average follow-up period was 10.7 (range, 1.0-19.3) years. Clinical conditions of each elbow before and after surgery ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32097698",
+            "title": "Effect of phenolic compounds from Oenothera rosea on the kaolin-carrageenan induced arthritis model in mice.",
+            "authors": [
+              "Vargas-Ruiz Rodrigo",
+              "Montiel-Ruiz Rosa Mariana",
+              "Herrera-Ruiz Maribel",
+              "González-Cortazar Manasés",
+              "Ble-González Ever A"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2020",
+            "abstract": "Oenothera rosea (Onagraceae), commonly known as \"hierba del golpe\" in Mexico, is an herbaceous plant widely used in Mexican traditional medicine for the treatment of pain and inflammation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "13626976",
+            "title": "A comparison of the latex fixation-whole serum, latex fixation-euglobulin fraction and bentonite flocculation tests in the laboratory diagnosis of rheumatoid arthritis.",
+            "authors": [
+              "HOLLEY H L",
+              "ULLOA A",
+              "HENRY M",
+              "GRIFFIN S",
+              "JOHNSTON M L"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1959",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24197059",
+            "title": "A 5-22-year follow-up study of stemmed alumina ceramic total elbow arthroplasties with cement fixation for patients with rheumatoid arthritis.",
+            "authors": [
+              "Nishida Keiichiro",
+              "Hashizume Kenzo",
+              "Nasu Yoshihisa",
+              "Kishimoto Makoto",
+              "Ozaki Toshifumi"
+            ],
+            "journal": "Journal of orthopaedic science : official journal of the Japanese Orthopaedic Association",
+            "year": "2014",
+            "abstract": "We determined mid to long-term results of total elbow arthroplasty (TEA) by use of unlinked elbow prostheses with solid alumina ceramic trochleae, and ceramic ulnar stems (stemmed Kyocera type I; SKC-I) for patients with rheumatoid arthritis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4365175",
+            "title": "Prostaglandins and inflammation.",
+            "authors": [
+              "Bekemeier H",
+              "Giessler A J",
+              "Hirschelmann R"
+            ],
+            "journal": "Polish journal of pharmacology and pharmacy",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Al₂O₃ 陶瓷作為髖/膝關節置換材料（低磨耗、高生物相容性），可緩解 RA 晚期關節破壞導致的功能障礙。此為機械性/外科材料應用，非藥理學治療機轉。尚無 Al₂O₃ 作為抗炎或免疫調節藥物的證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.99961119890213,
+        "rank": 980
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何機轉假說。此症為先天性骨骼發育異常（指骨融合/短縮），通常為基因缺陷導致，Al₂O₃ 無已知基因或發育調節作用。TxGNN 高分純為知識圖譜拓撲誤差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9995877146720886,
+        "rank": 1011
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見先天性症候群（眼部缺損合併肢體發育不全），病因為基因突變。Al₂O₃ 無已知眼部發育或軟骨生成調節機轉。此預測高度疑似知識圖譜假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn": {
+        "score": 0.9990487694740297,
+        "rank": 1901
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3838315",
+            "title": "The protease specificity of heparin cofactor II. Inhibition of thrombin generated during coagulation.",
+            "authors": [
+              "Parker K A",
+              "Tollefsen D M"
+            ],
+            "journal": "The Journal of biological chemistry",
+            "year": "1985",
+            "abstract": "125I-labeled heparin cofactor II (HCII) was mixed with plasma and coagulation was initiated by addition of CaCl2, phospholipids, and kaolin or tissue factor. In the presence of 67 micrograms/ml of dermatan sulfate, radioactivity was detected in a band which corresponded to the thrombin-HCII complex (Mr = 96,000) upon sodium dodecyl sulfate-polyacrylamide gel electrophoresis. No other complexes were observed. The thrombin-HCII complex was undetectable when 5 units/ml of heparin was present or whe",
+            "classification": {
+              "study_type": "Basic Science / Biochemistry",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HC2 缺乏為凝血抑制因子缺乏症，理論上可能導致血栓風險升高。Al₂O₃ 表面帶負電荷，理論上可能影響凝血接觸活化路徑，但此假說未經驗證。唯一文獻探討 HC2 蛋白酶特異性，與 Al₂O₃ 完全無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hemoglobinopathy",
+      "txgnn": {
+        "score": 0.99897301197052,
+        "rank": 2033
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37951856",
+            "title": "Effects of different removal methods of excess resin adhesive on the microleakage of alumina all-ceramic crowns.",
+            "authors": [
+              "Zhang Haiyang",
+              "Yu Hao",
+              "Jiang Shangfei",
+              "Dong Haidao",
+              "Yan Chengdong"
+            ],
+            "journal": "BMC oral health",
+            "year": "2023",
+            "abstract": "Microleakage is a common problem that affects the quality and longevity of all-ceramic crowns. It is influenced by factors such as the resin cement, crown margin design and curing technique. However, few studies focus on the effect of different methods of removing excess resin adhesive on the microleakage of all-ceramic crowns. This study aimed to compare two methods of removing excess resin adhesive (the small brush and sickle methods) on the microleakage of all-ceramic crowns with different ma",
+            "classification": {
+              "study_type": "Dental Materials Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血紅蛋白病（如鐮刀型貧血、地中海貧血）為基因性疾病，影響血紅蛋白結構或合成。Al₂O₃ 無已知血紅蛋白調節或紅血球保護機轉。唯一文獻討論牙科全瓷修復材料（氧化鋁），與血液疾病完全無關，為偶然同名文獻誤配。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "txgnn": {
+        "score": 0.9989513158798218,
+        "rank": 2074
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Factor V 過量導致血栓為罕見凝血障礙。Al₂O₃ 作為凝血路徑調節劑無任何文獻支持，亦無合理分子機轉假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "antithrombin deficiency type 2",
+      "txgnn": {
+        "score": 0.9989247918128968,
+        "rank": 2120
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "AT 缺乏第 2 型為遺傳性血栓傾向，肝素親和性或凝血酶結合位點突變。Al₂O₃ 帶電表面可能吸附蛋白質，但無已知 AT 結合或補償機轉。預測為知識圖譜中凝血相關節點的非特異性關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "thrombotic disease",
+      "txgnn": {
+        "score": 0.9986739158630372,
+        "rank": 2507
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39580078",
+            "title": "Macrophage membrane-encapsulated miRNA nanodelivery system for the treatment of hemophilic arthritis.",
+            "authors": [
+              "Qian Yufan",
+              "Ma Yetian",
+              "Banchev Atanas",
+              "Duan Weifeng",
+              "Xu Pingcheng"
+            ],
+            "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+            "year": "2025",
+            "abstract": "Hemophilic arthritis (HA) is one of the most pathologically altered joint diseases. Specifically, periodic spontaneous hemorrhage-induced hyperinflammation of the synovium and irreversible destruction of the cartilage are the main mechanisms that profoundly affect the behavioral functioning and quality of life of patients. In this study, we isolated and characterized platelet-rich plasma-derived exosomes (PRP-exo). We performed microRNA (miRNA) sequencing and bioinformatics analysis on these exo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38396728",
+            "title": "Thrombelastography and Conventional Coagulation Markers in Chronic Obstructive Pulmonary Disease: A Prospective Paired-Measurements Study Comparing Exacerbation and Stable Phases.",
+            "authors": [
+              "Rastoder Ema",
+              "Kamstrup Peter",
+              "Hedsund Caroline",
+              "Jordan Alexander",
+              "Sivapalan Pradeesh"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "abstract": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation is known for its substantial impact on morbidity and mortality among affected patients, creating a significant healthcare burden worldwide. Coagulation abnormalities have emerged as potential contributors to exacerbation pathogenesis, raising concerns about increased thrombotic events during exacerbation. The aim of this study was to explore the differences in thrombelastography (TEG) parameters and coagulation markers in COPD patients du",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9564904",
+            "title": "Pathogenesis of systemic air embolism during bronchoscopic Nd:YAG laser operations.",
+            "authors": [
+              "Tellides G",
+              "Ugurlu B S",
+              "Kim R W",
+              "Hammond G L"
+            ],
+            "journal": "The Annals of thoracic surgery",
+            "year": "1998",
+            "abstract": "The occurrence of systemic air embolism during bronchoscopic neodymium:yttrium-aluminum garnet laser operations has been suspected. Here we describe its mechanism.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23429252",
+            "title": "C-reactive protein and fibrin clot strength measured by thrombelastography after coronary stenting.",
+            "authors": [
+              "Kreutz Rolf P",
+              "Owens Janelle",
+              "Breall Jeffrey A",
+              "Lu Deshun",
+              "von der Lohe Elisabeth"
+            ],
+            "journal": "Blood coagulation & fibrinolysis : an international journal in haemostasis and thrombosis",
+            "year": "2013",
+            "abstract": "Inflammation is implicated in the progression of coronary artery disease and the molecular processes of inflammation and thrombosis are closely intertwined. Elevated levels of C-reactive protein (CRP) have been associated with an elevated risk of adverse ischaemic events after coronary stenting and hypercoagulability. Heightened whole blood clot strength measured by thrombelastography (TEG) has been associated with adverse ischaemic events after stenting. We intended to examine the relationship ",
+            "classification": {
+              "study_type": "Clinical Observation",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8850470",
+            "title": "Photodynamic therapy (PDT) of the ciliary body with silicon naphthalocyanine (SINc) in rabbits.",
+            "authors": [
+              "Hill R A",
+              "Garrett J",
+              "Reddi S",
+              "Esterowitz T",
+              "Liaw L H"
+            ],
+            "journal": "Lasers in surgery and medicine",
+            "year": "1996",
+            "abstract": "To investigate silicone naphthalocyanine (SINc; 0.5 mg/kg) for photodynamic therapy (PDT) of the ciliary body in pigmented rabbits.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20154537",
+            "title": "Safety evaluation of new hemostatic agents, smectite granules, and kaolin-coated gauze in a vascular injury wound model in swine.",
+            "authors": [
+              "Kheirabadi Bijan S",
+              "Mace James E",
+              "Terrazas Irasema B",
+              "Fedyk Chriselda G",
+              "Estep J Scot"
+            ],
+            "journal": "The Journal of trauma",
+            "year": "2010",
+            "abstract": "In 2007, a potent procoagulant mineral called WoundStat (WS), consisting of smectite granules, received clearance from the Food and Drug Administration for marketing in the United States for temporary treatment of external hemorrhage. Previously, we found that microscopic WS particles remained in the injured vessels that were treated, despite seemingly adequate wound debridement. Thus, we investigated the thromboembolic risk of using WS when compared with kaolin-coated gauze, Combat Gauze (CG); ",
+            "classification": {
+              "study_type": "Animal Study / Safety",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9603285",
+            "title": "Acute results, complications, and effect of lesion characteristics on outcome with the solid-state, pulsed-wave, mid-infrared laser angioplasty system: final multicenter registry report. Holmium:YAG Laser Multicenter Investigators.",
+            "authors": [
+              "Topaz O",
+              "McIvor M",
+              "Stone G W",
+              "Krucoff M W",
+              "Perin E C"
+            ],
+            "journal": "Lasers in surgery and medicine",
+            "year": "1998",
+            "abstract": "The solid-state, mid-infrared holmium:YAG laser (2.1 microm wavelength) is a relatively new percutaneous device that has recently been evaluated in a multicenter study. Because of its unique wavelength and photoacoustic effects on atherosclerotic plaques, this laser may be useful in treatment of symptomatic patients with coronary artery disease. This study sought to evaluate the safety and efficacy of mid-infrared laser angioplasty in the treatment of coronary artery lesions.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10064002",
+            "title": "dRVVT is more sensitive than KCT or TTI for detecting lupus anticoagulant activity of anti-beta2-glycoprotein I autoantibodies.",
+            "authors": [
+              "Pengo V",
+              "Biasiolo A",
+              "Rampazzo P",
+              "Brocco T"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "1999",
+            "abstract": "Anti-beta2-glycoprotein I (beta2-GPI) antibodies behave as classical Lupus Anticoagulants (LA), as they inhibit phospholipid-dependent coagulation reactions and their activity disappears in the presence of excess exogenous phospholipids (PLs). We have recently shown that a certain amount of PLs in the dilute Russell Viper Venom Time (dRVVT) test system is required to express LA activity of anti beta2-GPI antibodies. We have now extended this observation to two other tests, i.e., Kaolin Clotting ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "698402",
+            "title": "Coupled amidolytic assay for factor VII: its use with a clotting assay to determine the activity state of factor VII.",
+            "authors": [
+              "Seligsohn U",
+              "Osterud B",
+              "Rapaport S I"
+            ],
+            "journal": "Blood",
+            "year": "1978",
+            "abstract": "A coupled amidolytic assay for factor VII (VII) has been developed that when used with a clotting assay for VII enables detection of activated VII. In the assay, VII in a test material determines generation of factor Xa in a mixture of purified factor X, tissue factor, and calcium; factor Xa is measured with a chromogenic substrate. Factor VII activity in the coupled amidolytic assay (VIIam) correlated well with VII activity in a one-stage clotting assay (VIIc) in 57 healthy subjects, 5 patients",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12842992",
+            "title": "The mutation Ser511Asn leads to N-glycosylation and increases the cleavage of high molecular weight kininogen in rats genetically susceptible to inflammation.",
+            "authors": [
+              "Isordia-Salas Irma",
+              "Pixley Robin A",
+              "Parekh Hemant",
+              "Kunapuli Satya P",
+              "Li Fengling"
+            ],
+            "journal": "Blood",
+            "year": "2003",
+            "abstract": "Crohn disease is immunologically mediated and characterized by intestinal and systemic chronic inflammation. In a rat model, injection of peptidoglycan-polysaccharide complexes into the intestinal wall induced chronic inflammation in Lewis but neither Fischer nor Buffalo rats, indicating a differential genetic susceptibility. Proteolysis of plasma high molecular weight kininogen (HK) yielding bradykinin and cleaved HK (HKa) was faster in Lewis than in Fischer or Buffalo rat plasma. A single poin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23944273",
+            "title": "Endogenous fibrinolytic potential in tissue-plasminogen activator-modified thromboelastography analysis is significantly decreased in dogs suffering from diseases predisposing to thrombosis.",
+            "authors": [
+              "Spodsberg Eva H",
+              "Wiinberg Bo",
+              "Jessen Lisbeth R",
+              "Marschner Clara B",
+              "Kristensen Annemarie T"
+            ],
+            "journal": "Veterinary clinical pathology",
+            "year": "2013",
+            "abstract": "In people, studies have shown that resistance to fibrinolysis could be a contributing factor to thrombosis. Tissue-plasminogen-activated (t-PA) thromboelastography (TEG) has been used to evaluate endogenous fibrinolytic potential. In dogs, TEG has been used for the diagnosis of various hemostatic disorders, but studies evaluating fibrinolysis are limited. Investigations into the potential of t-PA-modified TEG to monitor endogenous fibrinolytic potential are lacking in both healthy dogs and dogs ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7419960",
+            "title": "Rapid fibrinolysis, augmented Hageman factor (factor XII) titers, and decreased C1 esterase inhibitor titers in women taking oral contraceptives.",
+            "authors": [
+              "Gordon E M",
+              "Ratnoff O D",
+              "Saito H",
+              "Donaldson V H",
+              "Pensky J"
+            ],
+            "journal": "The Journal of laboratory and clinical medicine",
+            "year": "1980",
+            "abstract": "The use of OCAs has been associated with multiple hemostatic abnormalities and an increased risk of thromboembolic disease. These changes have been attributed to increased synthesis of various clotting factors and decreased titers of antithrombin III. Paradoxically, enhanced in vitro fibrinolytic activity is also found in plasmas of women using OCAs. The present study demonstrates marked elevation of both procoagulant and antigenic HF titers in plasmas of women using OCAs, accompanied by a simul",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9490682",
+            "title": "Differential effects of anti-beta2-glycoprotein I and antiprothrombin antibodies on the anticoagulant activity of activated protein C.",
+            "authors": [
+              "Galli M",
+              "Ruggeri L",
+              "Barbui T"
+            ],
+            "journal": "Blood",
+            "year": "1998",
+            "abstract": "Antiprothrombin and anti-beta2-glycoprotein I (beta2-GPI) antibodies belong to the family of antiphospholipid (APL) antibodies and represent the phospholipid-dependent inhibitors of coagulation. They may be distinguished by analyzing the coagulation profiles generated by the comparison of the ratios of two coagulation tests, the Kaolin Clotting Time (KCT) and the dilute Russell's Viper Venom Time (dRVVT), commonly adopted for their diagnosis. The KCT profile is caused by antiprothrombin antibodi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6803570",
+            "title": "Prekallikrein inhibition associated with the lupus anticoagulant: a mechanism of thrombosis.",
+            "authors": [
+              "Sanfelippo M J",
+              "Drayna C J"
+            ],
+            "journal": "American journal of clinical pathology",
+            "year": "1982",
+            "abstract": "The lupus anticoagulant was identified in three patients. Laboratory studies gave evidence of inhibitory activity directed against phospholipid and prekallikrein. Inhibition of prekallikrein has not been reported previously. When exposed to kaolin, all three patients' plasmas failed to develop the level of fibrinolytic activity achieved by similarly treated normal plasma. The data suggest that compromised fibrinolytic capacity may be a contributing factor in the development of thrombosis in pati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1466271",
+            "title": "A finding of highly selective synthetic inhibitor of plasma kallikrein; its action to bradykinin generation, intrinsic coagulation and experimental DIC.",
+            "authors": [
+              "Okamoto S",
+              "Wanaka K",
+              "Hijikata-Okunomiya A",
+              "Okada Y",
+              "Katsuura Y"
+            ],
+            "journal": "Agents and actions. Supplements",
+            "year": "1992",
+            "abstract": "We found a novel and highly selective synthetic inhibitor of plasma kallikrein (PK), called PKSI-527; the Ki value was 0.81 microM. PKSI-527 inhibited the bradykinin (BK) generation induced by kaolin and prolonged partial thromboplastin time (PTT). PKSI-527 prevented the decrease of fibrinogen (Fg) levels due to i.v. injection of ellagic acid in mice and ameliorated the endotoxin (ET)-induced DIC in rats.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4236824",
+            "title": "Release of platelet factor 4 in vivo during intravascular coagulation and in thrombotic states.",
+            "authors": [
+              "Farbiszewski R",
+              "Niewiarowski S",
+              "Worowski K",
+              "Lipiński B"
+            ],
+            "journal": "Thrombosis et diathesis haemorrhagica",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "128018",
+            "title": "A quantitative model of venous stasis thrombosis in rats.",
+            "authors": [
+              "Hladovec J"
+            ],
+            "journal": "Physiologia Bohemoslovaca",
+            "year": "1975",
+            "abstract": "A quantitative model of stasis-type of venous thrombosis in rats is described. The ligated bowel loop was used after provocation by an injection of kaolin. The mesenteric vessels of the loop were cut in a dish filled with distilled water and the extinction of escaped haemoglobin was measured photometrically. Heparin was highly effective in this model. Vessel wall lesion may be used or inducing thrombosis instead of kaolin.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4460211",
+            "title": "Clotting disturbances as thrombosis risk factors. Significance and diagnostic value of some tests of platelet thromboplastic function.",
+            "authors": [
+              "Stoichiţă-Papilian M",
+              "Niţă I"
+            ],
+            "journal": "Revue roumaine de medecine (1974)",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6741145",
+            "title": "[The PTFE plastic prosthesis as an arterial replacement: experiences over a 5-year period].",
+            "authors": [
+              "Polterauer P",
+              "Contreras F",
+              "Kretschmer G",
+              "Wagner O",
+              "Piza F"
+            ],
+            "journal": "Wiener klinische Wochenschrift",
+            "year": "1984",
+            "abstract": "Unilateral iliac femoral reconstructions with PTFE are yielding good results-similar to those with Dacron, with patency rates of 75, 67, and 65% at 1, 2 and 3 years, respectively (Kaplan-Meier). PTFE has additional advantages compared with other materials: a) no need of preclotting; b) smooth inner surface-easy thrombectomy in case of thrombosis and c) good handling characteristics. In view of the above-mentioned facts PTFE can be recommended without restriction for unilateral pelvic reconstruct",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1226814",
+            "title": "[Therapy of chronic persistent ulcus cruris with phlebostatic edema in chronic phlebostasis of the lower limbs].",
+            "authors": [
+              "Bauchwitz M A"
+            ],
+            "journal": "Zeitschrift fur Allgemeinmedizin",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Al₂O₃ 奈米顆粒有體外研究顯示可能影響凝血接觸活化（負電荷表面促進 XII 因子活化），但此機轉更可能增加而非治療血栓風險。20 篇文獻均與 Al₂O₃ 治療血栓無關，部分探討止血材料（高嶺土含鋁矽酸鹽），但成分不同。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn": {
+        "score": 0.9984586238861084,
+        "rank": 2815
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "β-地中海貧血為 β-珠蛋白基因突變導致的遺傳性溶血性貧血。Al₂O₃ 無任何已知 β-珠蛋白誘導、胎兒血紅蛋白活化或紅血球保護機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hemolytic anemia due to glucophosphate isomerase deficiency",
+      "txgnn": {
+        "score": 0.998392641544342,
+        "rank": 2904
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GPI 缺乏導致紅血球無氧糖解受損，引發溶血性貧血。Al₂O₃ 無已知 GPI 酶活性補償或紅血球抗氧化機轉。此預測極可能為知識圖譜中血液病節點群聚的假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "hemoglobinopathy"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "thrombotic disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Aluminum oxide",
+        "disease": "hemolytic anemia due to glucophosphate isomerase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

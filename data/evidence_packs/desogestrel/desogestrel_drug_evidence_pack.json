@@ -1,0 +1,1465 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00304-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Desogestrel",
+    "drugbank_id": "DB00304",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9995701909065248,
+        "rank": 1038
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00946192",
+            "title": "Fat Mediated Modulation of Reproductive and Endocrine Function in Young Athletes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 121,
+            "start_date": "2009-05",
+            "completion_date": "2021-04",
+            "brief_summary": "One aim of this study is to determine changes in body composition and hormones that differentiate athletes who stop getting their periods versus those who continue to get their periods and non-athletes. The second aim of this study is to determine whether transdermal or oral estrogen (versus no estrogen) is effective in increasing bone density and improving bone microarchitecture in adolescent athletes who are not getting their periods and are thus estrogen deficient. The investigators hypothesi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "研究對象為運動員（高度相關族群，常見運動誘發性閉經），Phase 3 已完成，但主要終點為脂肪調節與內分泌功能，非直接以 Desogestrel 治療閉經。Desogestrel 在此為干預變量之一，非主體藥物。"
+            }
+          },
+          {
+            "nct_id": "NCT01588873",
+            "title": "The Effects of Contraceptive Pill and Hormonal Vaginal Ring on Hormonal, Inflammatory and Metabolic Parameters in Women of Reproductive Age With Polycystic Ovary Syndrome (PCOS).",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 42,
+            "start_date": "2012-04",
+            "completion_date": "2019-12",
+            "brief_summary": "The main aims of this study are:\n\n* to investigate and compare the effects of long lasting use (59 weeks) of vaginal and oral contraceptives on androgen secretion, insulin and glucose metabolism, lipid profile, and serum levels of SHBG and hs-CRP in women with PCOS.\n* to compare the metabolic effects of oral and vaginal combined contraceptives and to find out whether oral or transvaginal contraceptive can be recommended to a particular group of women, for example in women with increased metaboli",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究荷爾蒙避孕藥對代謝/發炎指標的影響，狀態 UNKNOWN（可能已中止），樣本數小（n=42），未以閉經為主要結果指標，與閉經治療之直接相關性低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1604074",
+            "title": "[Hormonal contraception].",
+            "authors": [
+              "Van Cauwenberge J R"
+            ],
+            "journal": "Revue medicale de Liege",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8324604",
+            "title": "Combined oral contraceptives: acceptability and effective use.",
+            "authors": [
+              "Kubba A",
+              "Guillebaud J"
+            ],
+            "journal": "British medical bulletin",
+            "year": "1993",
+            "abstract": "With over 60 million users of 'the pill' worldwide, safety and efficacy remain the two most relevant issues to both the consumer and the research scientist. Safety of combined oral contraception (COC) has advanced appreciably. Lessons learned from cohort and case-control studies have been applied to the practical management of oral contraception use, based on screening, selection and regular monitoring of users. Most health risks of COCs appear to be dependent on the dose and potency (or biologi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3161265",
+            "title": "Pharmacodynamic studies on desogestrel administered alone and in combination with ethinylestradiol.",
+            "authors": [
+              "Cullberg G"
+            ],
+            "journal": "Acta obstetricia et gynecologica Scandinavica. Supplement",
+            "year": "1985",
+            "abstract": "Most progestogens in oral contraceptives are testosterone derivatives and have androgenic side effects such as weight increase, acne and hirsutism. They pose a problem to many women just like the clinical picture of the polycystic ovary syndrome (PCO) with obesity, hirsutism, acne and amenorrhea. The aim of this study was to evaluate androgenicity of the most used progestogens with special reference to desogestrel which is a new progestogen. Radioimmunoassay was used for hormone determination wh",
+            "classification": {
+              "study_type": "Pharmacodynamic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1436906",
+            "title": "The new era in oral contraception: pills containing gestodene, norgestimate, and desogestrel.",
+            "authors": [
+              "London R S"
+            ],
+            "journal": "Obstetrical & gynecological survey",
+            "year": "1992",
+            "abstract": "The latest advance in the 30-year evolution of oral contraceptives (OCs) is the development of three new progestogens: desogestrel, norgestimate, and gestodene. These three new agents are derivatives of levonorgestrel, a gonane hormone, and have been used to develop pills that provide effective pregnancy prevention at lower doses than oral contraceptives using the older steroids. Desogestrel is a prohormone that must first be metabolized into its biologically active form. Norgestimate is already",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8447356",
+            "title": "Combined oral contraception with desogestrel/ethinyl estradiol: tolerability profile.",
+            "authors": [
+              "Kaunitz A M"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1993",
+            "abstract": "Since their introduction nearly 30 years ago, oral contraceptives have been widely researched regarding their contraceptive and noncontraceptive effects. With proper usage, oral contraceptives provide highly effective contraception. In addition, oral contraceptives confer significant noncontraceptive health benefits, including prevention of ovarian and endometrial cancer and reduction in the incidence of pelvic inflammatory disease, endometriosis, benign breast disease, and dysmenorrhea, among o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7838435",
+            "title": "Combined oral contraceptive pills: a brief review.",
+            "authors": [
+              "Holdcroft C"
+            ],
+            "journal": "The Nurse practitioner",
+            "year": "1994",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8218004",
+            "title": "Comparative profiles of reliability, cycle control and side effects of two oral contraceptive formulations containing 150 micrograms desogestrel and either 30 micrograms or 20 micrograms ethinyl oestradiol.",
+            "authors": [
+              "Akerlund M",
+              "Røde A",
+              "Westergaard J"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1993",
+            "abstract": "To compare two oral contraceptive pills, both containing 150 micrograms desogestrel, but with either 20 micrograms (Mercilon) or 30 micrograms (Marvelon/Desolett) ethinyl oestradiol (EE), regarding reliability, cycle control and side effect profile.",
+            "classification": {
+              "study_type": "Comparative RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18843653",
+            "title": "20 microg versus >20 microg estrogen combined oral contraceptives for contraception.",
+            "authors": [
+              "Gallo Maria F",
+              "Nanda Kavita",
+              "Grimes David A",
+              "Lopez Laureen M",
+              "Schulz Kenneth F"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2008",
+            "abstract": "Concern about estrogen-related adverse effects has led to progressive reductions in the estrogen dose in combination oral contraceptives (COCs). However, reducing the amount of estrogen to improve safety could result in decreased contraceptive effectiveness and unacceptable changes in bleeding patterns.",
+            "classification": {
+              "study_type": "Systematic Review/Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21249657",
+            "title": "20 µg versus >20 µg estrogen combined oral contraceptives for contraception.",
+            "authors": [
+              "Gallo Maria F",
+              "Nanda Kavita",
+              "Grimes David A",
+              "Lopez Laureen M",
+              "Schulz Kenneth F"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2011",
+            "abstract": "Concern about estrogen-related adverse effects has led to progressive reductions in the estrogen dose in combination oral contraceptives (COCs). However, reducing the amount of estrogen to improve safety could result in decreased contraceptive effectiveness and unacceptable changes in bleeding patterns.",
+            "classification": {
+              "study_type": "Systematic Review/Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35261299",
+            "title": "Bleeding profile of women with cardiovascular risk factors using a drospirenone only pill with 4 mg over nine cycles compared to desogestrel 0.075 mg.",
+            "authors": [
+              "Regidor Pedro-Antonio",
+              "Palacios Santiago",
+              "Colli Enrico"
+            ],
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "2022",
+            "abstract": "Progestin-only pills are associated with irregular bleeding patterns, including amenorrhea. Desogestrel (DSG) 75 mcg, a pill that inhibits ovulation, shows poor cycle control that may harm acceptability and compliance. A Drospirenone (DRSP)-only pill was developed with 24 & 4 days of active & placebo days every 28-day cycle to improve cycle control.",
+            "classification": {
+              "study_type": "RCT/Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11725730",
+            "title": "Bone mineral density in young, hypothalamic oligoamenorrheic women treated with oral contraceptives.",
+            "authors": [
+              "Castelo-Branco C",
+              "Vicente J J",
+              "Pons F",
+              "Martínez de Osaba M J",
+              "Casals E"
+            ],
+            "journal": "The Journal of reproductive medicine",
+            "year": "2001",
+            "abstract": "To evaluate whether decreasing doses of ethinyl estradiol affect bone loss related to hypothalamic amenorrhea.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8513962",
+            "title": "A gonadotropin-releasing hormone agonist versus a low-dose oral contraceptive for pelvic pain associated with endometriosis.",
+            "authors": [
+              "Vercellini P",
+              "Trespidi L",
+              "Colombo A",
+              "Vendola N",
+              "Marchini M"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1993",
+            "abstract": "To evaluate the efficacy of goserelin versus a low-dose cyclic oral contraceptive (OC) in improving pelvic pain in women with endometriosis and to compare recurrence of symptoms during follow-up.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2576257",
+            "title": "A clinical overview of a new triphasic contraceptive containing gestodene.",
+            "authors": [
+              "Christie T"
+            ],
+            "journal": "International journal of fertility",
+            "year": "1989",
+            "abstract": "In three ongoing open studies conducted by 50 investigators in Europe, South America, and New Zealand, 639 subjects followed a new triphasic regimen of gestodene (GTD) and ethinyl estradiol (EE) for 3,020 cycles. One study used GTD + EE only, but in each of the other two studies a comparator oral contraceptive (OC) also was given: norethisterone (NET) + EE in one and desogestrel (DSG) + EE in the other. The objective of all three studies was to assess the efficacy, cycle control, and safety of t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2956054",
+            "title": "Postponement of withdrawal bleeding in women using low-dose combined oral contraceptives.",
+            "authors": [
+              "Hamerlynck J V",
+              "Vollebregt J A",
+              "Doornebos C M",
+              "Muntendam P"
+            ],
+            "journal": "Contraception",
+            "year": "1987",
+            "abstract": "Postponement of menses is widely practised by women using oral contraceptives. One-hundred volunteers, consisting of three groups of women, each group using a different extensively used contraceptive regimen, were tested and compared. The test period consisted mainly of a double (monophasics) or extended (triphasics) pill cycle without a tablet-free interval. Based on daily records of vaginal bleedings as well as on the results of a questionnaire, it could be concluded that postponement of the w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10549446",
+            "title": "A randomized multicenter study comparing the efficacy and bleeding pattern of a single-rod (Implanon) and a six-capsule (Norplant) hormonal contraceptive implant.",
+            "authors": [
+              "Zheng S R",
+              "Zheng H M",
+              "Qian S Z",
+              "Sang G W",
+              "Kaper R F"
+            ],
+            "journal": "Contraception",
+            "year": "1999",
+            "abstract": "To compare the contraceptive efficacy, tolerability, and bleeding patterns, 200 healthy female volunteers received, in an open, comparative, randomized, multicenter study in China, either a single-rod (Implanon) or a six-capsule (Norplant) contraceptive implant for 2 years with an optional extension of up to 4 years. Women were exposed to Implanon for 341.6 woman-years and Norplant for 329.1 woman-years. There were no pregnancies during the study. Per 90-day reference period, the median number o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23221134",
+            "title": "Improving the prognosis ways of central genesis and management option in infertile women.",
+            "authors": [
+              "Halilova N"
+            ],
+            "journal": "Georgian medical news",
+            "year": "2012",
+            "abstract": "To study central genesis of disfunctional menstrual disorders was based particulary on electroencephalography and find out efficacy of pathogenetic management in infertile women with central forms of oligomenorrhoea and amenorrhoea compared to generally accepted hormone therapy. Depending on received management, all 159 patients were divided into two groups. Group I included 93 women with infertility and menstrual disorders treated by taking into account the found cerebral dysfunction. Group II ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Desogestrel（尤其 POP 75μg）透過抑制 HPO 軸（下丘腦-垂體-卵巢軸）可導致閉經，此雙向關係使「治療閉經」的定位複雜：POP 在運動員低雌激素性閉經中或可補充孕激素、但本身亦可誘發功能性閉經。TxGNN 高分可能反映強烈的生物學關聯，而非治療性再利用潛力。需區分「雄激素過多性閉經（PCOS）」與「低促性腺激素性閉經」兩種次型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "blunt duct adenosis of breast",
+      "txgnn": {
+        "score": 0.9991912245750428,
+        "rank": 1651
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳腺鈍管腺病為良性增生性病變，與孕激素/雌激素受體表達相關。Desogestrel 作為孕激素理論上可影響乳腺組織增殖，但雙向效應（促進或抑制）尚不明確。此關聯為純推測性 KG 路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "apocrine adenosis of breast",
+      "txgnn": {
+        "score": 0.9991912245750428,
+        "rank": 1652
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頂漿腺腺病為乳腺良性病變，具頂漿化生特徵。與孕激素受體的關聯為理論推測，無直接機轉研究支持。TxGNN 評分可能來自與上述乳腺相關節點的共用 KG 路徑（與 blunt duct adenosis 得分相同，印證此推測）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acne (disease)",
+      "txgnn": {
+        "score": 0.9990598559379578,
+        "rank": 1884
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01466673",
+            "title": "Comparative Study of the Effect on Acne With Norgestimate Containing Triphasic Oral Contraceptive and Biphasic Preparation Containing Desogestrel",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 201,
+            "start_date": "2008-12",
+            "completion_date": "2010-03",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Ethinyl estradiol and Norgestimate (EE/NGM) compared to Ethinyl estradiol and Desogestrel (EE/DSG), for treatment of female participants with mild to moderate acne vulgaris (pimples).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 完成試驗，直接研究 OC 對痤瘡的療效（n=201，樣本數適當）。主角為 norgestimate 含量三相 OC，但研究設計與終點（痤瘡評估）高度相關，結果可作為同類孕激素（第三代）的比較參考。Desogestrel 可能為對照組成分之一，需查原始文獻確認。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8894800",
+            "title": "Effects on acne of two oral contraceptives containing desogestrel and cyproterone acetate.",
+            "authors": [
+              "Charoenvisal C",
+              "Thaipisuttikul Y",
+              "Pinjaroen S",
+              "Krisanapan O",
+              "Benjawang W"
+            ],
+            "journal": "International journal of fertility and menopausal studies",
+            "year": "1996",
+            "abstract": "To compare the effects of a low-dose oral contraceptive containing desogestrel (Marvelon) and an anti-androgenic preparation containing cyproterone acetate (Diane) in Oriental women suffering from acne.",
+            "classification": {
+              "study_type": "Comparative Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12566804",
+            "title": "Update and future of systemic acne treatment.",
+            "authors": [
+              "Zouboulis Christos C",
+              "Piquero-Martin Jaime"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2003",
+            "abstract": "Systemic treatment is required in patients with moderate-to-severe acne, especially when acne scars start to occur. Antibiotics with anti-inflammatory properties, such as tetracyclines (oxytetracycline, tetracycline chloride, doxycycline, minocycline and limecycline) and macrolide antibiotics (erythromycin and azithromycin) are the agents of choice for papulopustular acne, even though the emerging resistant bacterial strains are minimizing their effect, especially regarding erythromycin. Systemi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7825629",
+            "title": "The androgenicity of progestins.",
+            "authors": [
+              "Darney P D"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1995",
+            "abstract": "All steroid hormones are structurally similar, but relatively minor differences cause profound alterations in biochemical activity. The 21-carbon series (pregnane nucleus) includes the corticoids and the true progestins (e.g., medroxyprogesterone acetate). The 19-carbon series (androstane nucleus) includes all the androgens, among them the progestins used in most oral and parenteral contraceptives. The removal of carbon 19 from testosterone changes the major hormonal effect from androgenic to pr",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8178905",
+            "title": "Clinical and metabolic features of desogestrel: a new oral contraceptive preparation.",
+            "authors": [
+              "Archer D F"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1994",
+            "abstract": "Desogestrel is a highly selective gonane progestin. A monophasic formulation containing 150 micrograms of desogestrel and 30 micrograms of ethinyl estradiol has recently been approved as an oral contraceptive (OC) in the United States. Although desogestrel-containing formulations are new to the United States, they have been the most widely prescribed OCs in Europe for almost 10 years. An extensive literature demonstrates that desogestrel-containing preparations are safe, effective, and well tole",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10652979",
+            "title": "Oral contraceptives and venous thromboembolic disease. Analyses of the UK General Practice Research Database and the UK Mediplus database.",
+            "authors": [
+              "Farmer R D",
+              "Lawrenson R A",
+              "Todd J C",
+              "Williams T J",
+              "MacRae K"
+            ],
+            "journal": "Human reproduction update",
+            "year": "1999",
+            "abstract": "The results of three independent studies of venous thromboembolic disease (VTE) and oral contraceptives are reviewed together with two further cohort/case-control studies which we conducted using the MediPlus and General Practice Research Database (GPRD) databases. These latter studies jointly involved 395 cases and uniquely examined the association between VTE and individual combined oral contraceptive (COC) formulations. The two studies yielded very similar results. Crude incidence rates for i",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8689881",
+            "title": "Clinical and hormonal effects of ethinylestradiol combined with gestodene and desogestrel in young women with acne vulgaris.",
+            "authors": [
+              "Mango D",
+              "Ricci S",
+              "Manna P",
+              "Miggiano G A",
+              "Serra G B"
+            ],
+            "journal": "Contraception",
+            "year": "1996",
+            "abstract": "The effect of gestodene 75 micrograms (GTD) versus desogestrel 150 micrograms (DSG) combined with 30 micrograms of ethinylestradiol (EE) on acne lesions and plasma androstenedione (A), total testosterone (T), sex hormone binding globulin (SHBG) and \"free androgen index\" (FAI) was evaluated in an open study on 19 patients aged 18-35 years affected with postpubertal or persistent non-severe acne vulgaris. The patients were randomly allocated into two groups receiving EE-GTD (n = 8) and EE-DSG (n =",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8520092",
+            "title": "Desogestrel, norgestimate, and gestodene: the newer progestins.",
+            "authors": [
+              "Kaplan B"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "1995",
+            "abstract": "To review and compare the newer progestins desogestrel, norgestimate, and gestodene with regard to chemistry, pharmacokinetics, efficacy, and tolerability.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3161265",
+            "title": "Pharmacodynamic studies on desogestrel administered alone and in combination with ethinylestradiol.",
+            "authors": [
+              "Cullberg G"
+            ],
+            "journal": "Acta obstetricia et gynecologica Scandinavica. Supplement",
+            "year": "1985",
+            "abstract": "Most progestogens in oral contraceptives are testosterone derivatives and have androgenic side effects such as weight increase, acne and hirsutism. They pose a problem to many women just like the clinical picture of the polycystic ovary syndrome (PCO) with obesity, hirsutism, acne and amenorrhea. The aim of this study was to evaluate androgenicity of the most used progestogens with special reference to desogestrel which is a new progestogen. Radioimmunoassay was used for hormone determination wh",
+            "classification": {
+              "study_type": "Pharmacodynamic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2956138",
+            "title": "Effect of a combination of ethinylestradiol and desogestrel in adolescents with oligomenorrhea and ovarian hyperandrogenism.",
+            "authors": [
+              "Nappi C",
+              "Farace M J",
+              "Leone F",
+              "Minutolo M",
+              "Tommaselli A P"
+            ],
+            "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+            "year": "1987",
+            "abstract": "Nine oligomenorrheic adolescent girls with a clinical and hormonal picture of ovarian hyperandrogenism were treated with a monophasic oral contraceptive (OC) containing 0.03 mg ethinylestradiol (EE) plus 0.150 mg desogestrel (DOG) for six months. The same treatment was administered in eight eumenorrheic adolescents. In both groups the treatment induced a decrease in LH, FSH, androstenedione (delta 4-A), testosterone (T) and dehydroepiandrosterone sulphate (DHEA-S) levels associated with a signif",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2976224",
+            "title": "The effects of desogestrel and ethinylestradiol combination in normal and hyperandrogenic young girls: speculations on contraception in adolescence.",
+            "authors": [
+              "Venturoli S",
+              "Porcu E",
+              "Gammi L",
+              "Fabbri R",
+              "Paradisi R"
+            ],
+            "journal": "Acta Europaea fertilitatis",
+            "year": "1988",
+            "abstract": "Hormone profile and ovarian morphology were studied in two groups of adolescents (group 1:19 girls with slight signs of hyperandrogenism; group 2: 14 normal adolescents) in basal conditions and during a contraceptive combination of 30 micrograms ethinyl estradiol (EE) and 150 micrograms desogestrel (D). Treatment was associated with a low incidence of side effects in both groups. In group 1, acne generally improved within 12 months while hirsutism was only reduced in some subjects (58%) after 12",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6084924",
+            "title": "Serum total and unbound testosterone and sex hormone binding globulin (SHBG) in female acne patients treated with two different oral contraceptives.",
+            "authors": [
+              "Palatsi R",
+              "Hirvensalo E",
+              "Liukko P",
+              "Malmiharju T",
+              "Mattila L"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "1984",
+            "abstract": "Serum total an unbound testosterone (T) and sex hormone binding globulin (SHBG) levels were studied in fifty-four female acne patients before treatment and during the treatment by two different oral contraceptives, the other containing 0.150 mg desogestrel plus 0.03 mg EE and the other 0.150 mg levonorgestrel plus 0.03 mg EE. Pretreatment values were abnormal in 57% of the patients. A borderline significant correlation between the severity of acne and SHBG was found. Ater six months' treatment a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8447356",
+            "title": "Combined oral contraception with desogestrel/ethinyl estradiol: tolerability profile.",
+            "authors": [
+              "Kaunitz A M"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1993",
+            "abstract": "Since their introduction nearly 30 years ago, oral contraceptives have been widely researched regarding their contraceptive and noncontraceptive effects. With proper usage, oral contraceptives provide highly effective contraception. In addition, oral contraceptives confer significant noncontraceptive health benefits, including prevention of ovarian and endometrial cancer and reduction in the incidence of pelvic inflammatory disease, endometriosis, benign breast disease, and dysmenorrhea, among o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15871554",
+            "title": "Ethinylestradiol/drospirenone: a review of its use as an oral contraceptive.",
+            "authors": [
+              "Keam Susan J",
+              "Wagstaff Antona J"
+            ],
+            "journal": "Treatments in endocrinology",
+            "year": "2003",
+            "abstract": "Ethinylestradiol 30microg/drospirenone 3mg (Yasmin, petibelle) [EE/DRSP] is a combined contraceptive pill (CC) for the prevention of pregnancy in women of reproductive age. Drospirenone is a novel progestogen with antimineralocorticoid, progestogenic and antiandrogenic activity. The theoretical (0-0.07) and corrected (0.41-0.71) Pearl indices and pregnancy ratios (0.3-0.84) in young, healthy women aged 18-35 years (or 18-30 years if smokers) given 13-26 cycles of EE/DRSP in large multi-center tr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8521763",
+            "title": "Gestodene. A review of its pharmacology, efficacy and tolerability in combined contraceptive preparations.",
+            "authors": [
+              "Wilde M I",
+              "Balfour J A"
+            ],
+            "journal": "Drugs",
+            "year": "1995",
+            "abstract": "The newer progestogens gestodene, desogestrel and norgestimate were developed in an attempt to produce agents with more selective progestational activity that would improve cycle control and minimise metabolic changes and adverse events while effectively preventing pregnancy. In clinical practice, gestodene is combined with ethinylestradiol in monophasic or triphasic combined oral contraceptive preparations. The drug has pharmacokinetic advantages over the other new progestogens in that it is ac",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2426899",
+            "title": "Pituitary function and DHEA-S in male acne and DHEA-S, prolactin and cortisol before and after oral contraceptive treatment in female acne.",
+            "authors": [
+              "Palatsi R",
+              "Reinilä M",
+              "Kivinén S"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "1986",
+            "abstract": "Pituitary function (TRH-LHRH stimulation test) was investigated in male acne patients and serum levels of dehydroepiandrosterone sulphate (DHEA-S), sex hormone binding globulin (SHBG) and other biochemical parameters were investigated in male acne patients and in female acne patients before and after treatment with an oral contraceptive. The TRH-LHRH stimulation test was performed with 15 male patients suffering from severe cystic acne and 7 healthy volunteers. Basal and stimulated prolactin, LH",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1778182",
+            "title": "Update on the metabolic effects of steroidal contraceptives.",
+            "authors": [
+              "Sondheimer S J"
+            ],
+            "journal": "Endocrinology and metabolism clinics of North America",
+            "year": "1991",
+            "abstract": "Modern oral contraceptive pills are safe and show minimal metabolic effects that have little clinical significance to smoking and reproductive age (even up to menopause). Multiphasic and 30 to 35 micrograms EE fixed combination pills are preferable to higher dose EE pills. Triphasic pills with norgestrel or norethindrone, monophasic norethindrone pills, and combination pills with the newer progestins are all probably metabolically comparable. The levonorgestrel implant is convenient, reversible,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12339971",
+            "title": "[Current issues in contraception].",
+            "authors": [
+              "Audebert A J"
+            ],
+            "journal": "Contraception, fertilite, sexualite",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8200468",
+            "title": "Efficacy on hyperandrogenism and safety of a new oral contraceptive biphasic formulation containing desogestrel.",
+            "authors": [
+              "Volpe A",
+              "Silferi M",
+              "Mauri A",
+              "Deiana P",
+              "Angioni S"
+            ],
+            "journal": "European journal of obstetrics, gynecology, and reproductive biology",
+            "year": "1994",
+            "abstract": "A new biphasic oral contraceptive (OC) containing ethinylestradiol and desogestrel (DGS) in both phases of the cycle (7 days 40/25 micrograms + 15 days 30/125 micrograms) was tested for its reliability, tolerability, safety and effectiveness on endocrine correlates of hyperandrogenism and acne in normal women (n = 30) and women suffering from acne (n = 33). Contraceptive efficacy was absolute and, despite 3 drop-outs in the group with acne (4.7% of total patients), subjective complaints were lim",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2150581",
+            "title": "Long-term experience with a low-dose oral contraceptive.",
+            "authors": [
+              "Brill K",
+              "Schnitker J",
+              "Albring M"
+            ],
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "1990",
+            "abstract": "Oral contraception has proved to be the most efficient reversible method of fertility control for over 25 years. During this period, various investigations and epidemiological studies have suggested that some risks may be involved, but, on the other hand, a number of non-contraceptive benefits have become obvious. The results of these investigations were taken into account when new formulations had to be developed, with an aim to improving hormonal fertility control with regard to its tolerance,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7796587",
+            "title": "Multicenter trial of two monophasic oral contraceptives containing 30 mcg ethinylestradiol and either desogestrel or gestodene in Thai women.",
+            "authors": [
+              "Koetsawang S",
+              "Charoenvisal C",
+              "Banharnsupawat L",
+              "Singhakovin S",
+              "Kaewsuk O"
+            ],
+            "journal": "Contraception",
+            "year": "1995",
+            "abstract": "The efficacy and acceptability of two third generation oral contraceptives in Thai women were evaluated in a prospective, open, group-comparative, randomized, multicenter trial of women asking for contraception. In six Family Planning Centers and Outpatient Gynaecological Clinics in urban areas in Thailand, 783 healthy women who were at risk for pregnancy and did not have contraindications to oral contraceptive use were randomly allocated to one of the two study groups. An oral contraceptive con",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Desogestrel 代謝物 etonogestrel 具輕度至中度抗雄激素活性（透過競爭性結合雄激素受體），合併 EE 使用可抑制卵巢雄激素分泌（降低游離睪酮）並升高 SHBG，從而減少皮脂腺分泌、改善痤瘡。此機轉有明確藥理學基礎，多篇臨床研究直接驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "breast abscess",
+      "txgnn": {
+        "score": 0.998895227909088,
+        "rank": 2186
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳腺膿瘍為感染性疾病（主要病原菌：金黃色葡萄球菌），與孕激素使用無直接治療機轉。理論上孕激素可影響乳腺導管結構與免疫調節，但無法取代抗生素/外科引流作為主要治療。KG 路徑可能反映孕激素與乳腺解剖節點的間接連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "fat necrosis of breast",
+      "txgnn": {
+        "score": 0.998895227909088,
+        "rank": 2187
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳房脂肪壞死通常為外傷或放射治療後的物理性損傷，與荷爾蒙治療無直接因果關係。孕激素對脂肪代謝有調節作用，但無法逆轉物理性壞死。TxGNN 評分與 breast abscess 相同（0.9989），再次提示為系統性乳腺節點類推。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "lactation disease",
+      "txgnn": {
+        "score": 0.9987269043922424,
+        "rank": 2434
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06689150",
+            "title": "Evaluation of the Contraceptive Efficacy, and Safety of Different Types of Progestron Only Pills (Drosperinon 4 mg, Desogestrel 75 pg and Levonorgestrel 30 pg), A Comparative Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "2023-08-10",
+            "completion_date": "2024-08-10",
+            "brief_summary": "Combined oral contraceptives are not the preparation of first choice in breastfeeding women as they may influence the quality and quantity of breast milk. In these cases, a progestogen-only pill is a suitable alternative, since progestogen-only pills contain no estrogen at all and a much lower dose of progestogen than do combined oral contraceptives\n\nTherefore, progestogen-only pills may also be more acceptable than combined oral contraceptives to women suffering from medical conditions that are",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "已完成試驗，樣本數 300 具統計效力，直接評估孕激素單一避孕藥（含 Desogestrel）的效果與安全性，哺乳期族群可能為主要研究群體。Phase NA 顯示非傳統 RCT 設計但完成度高。"
+            }
+          },
+          {
+            "nct_id": "NCT00374972",
+            "title": "Combined Hormonal Versus Progestin Only Contraception During Lactation",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2006-06",
+            "completion_date": "2007-01",
+            "brief_summary": "Objective: To determine and compare the effect of low dose estrogen combined hormonal contraceptives and progestin-only contraceptives on lactation.\n\nThe subjects will be drawn from a healthy obstetric population in each center, where possible preliminary contact during antenatal period. At the postpartum visit, subjects that express their wish for a hormonal contraceptive method will be offered enrollment. After obtaining an informed consent the participants will be allocated according to their",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已撤回且無任何受試者入組，提供零有效數據。但研究問題本身（哺乳期複合 vs. 單孕激素避孕）反映該領域的研究需求，具設計參考價值。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3945219",
+            "title": "Oral contraceptive agents.",
+            "authors": [
+              "Shearman R P"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1986",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15871554",
+            "title": "Ethinylestradiol/drospirenone: a review of its use as an oral contraceptive.",
+            "authors": [
+              "Keam Susan J",
+              "Wagstaff Antona J"
+            ],
+            "journal": "Treatments in endocrinology",
+            "year": "2003",
+            "abstract": "Ethinylestradiol 30microg/drospirenone 3mg (Yasmin, petibelle) [EE/DRSP] is a combined contraceptive pill (CC) for the prevention of pregnancy in women of reproductive age. Drospirenone is a novel progestogen with antimineralocorticoid, progestogenic and antiandrogenic activity. The theoretical (0-0.07) and corrected (0.41-0.71) Pearl indices and pregnancy ratios (0.3-0.84) in young, healthy women aged 18-35 years (or 18-30 years if smokers) given 13-26 cycles of EE/DRSP in large multi-center tr",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21691183",
+            "title": "ACOG Practice Bulletin No. 121: Long-acting reversible contraception: Implants and intrauterine devices.",
+            "authors": [],
+            "journal": "Obstetrics and gynecology",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Practice Guideline (ACOG)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19323063",
+            "title": "[The statement of Polish Gynecological Society experts on oral use of contraceptive 75 microg desogestrel minipill in different clinical cases--state of art in 2008].",
+            "authors": [
+              "Debski Romuald",
+              "Kotarski Jan",
+              "Paszkowski Tomasz",
+              "Pawelczyk Leszek",
+              "Skrzypulec Violetta"
+            ],
+            "journal": "Ginekologia polska",
+            "year": "2009",
+            "abstract": "Recent epidemiologic studies indicate that use of combined oral contraception is associated with a increase in the incidence of cardiovascular disease (venous thromboembolism, pulmonary embolism, myocardial infarction and stroke). The risk of cardiovascular disease is strongly related to estrogen dose, progestogen type and other factors for example thrombogenic mutations and cigarette smoking among female over age 35. The progestogen only contraception is safe alternative to combined hormonal co",
+            "classification": {
+              "study_type": "Expert Statement/Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Desogestrel POP（75μg）是哺乳期首選避孕方式之一（不含雌激素，對乳汁分泌影響最小）。其機轉在於：POP 孕激素不顯著影響催乳素水平及泌乳量，已有多項研究及指引（ACOG、波蘭婦科學會）支持哺乳期使用安全性。此適應症的「再利用」性質較弱，更接近「現有用途的特殊族群認可」。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "breast adenosis",
+      "txgnn": {
+        "score": 0.99849271774292,
+        "rank": 2765
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "乳腺腺病（腺體增生）與雌孕激素受體表達相關，孕激素對乳腺腺泡發育有調節作用，但在良性增生病變中的治療角色未經臨床驗證。孕激素補充可能促進而非抑制腺體增生，存在雙向不確定性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "primary ovarian failure",
+      "txgnn": {
+        "score": 0.9972123503684998,
+        "rank": 4350
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性卵巢功能不全（POI）通常以雌激素替代治療為主，Desogestrel 作為孕激素在 HRT 方案中為子宮保護用途（有子宮者）而非針對卵巢功能本身。TxGNN 評分可能來自 HPO 軸相關 KG 節點的路徑，但孕激素無法恢復卵巢儲備或卵泡功能。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "symptomatic form of fragile X syndrome in female carrier",
+      "txgnn": {
+        "score": 0.995512306690216,
+        "rank": 6048
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "FMR1 前突變女性攜帶者（55-200 CGG repeats）約 20% 發展為 FXPOI（脆性 X 相關原發性卵巢功能不全）。Desogestrel 理論上可透過抑制促性腺激素延緩卵巢功能衰退，但此機轉在 FMR1 前突變情境中從未被臨床驗證。TxGNN 評分可能透過「POI → 孕激素」的 KG 路徑間接得分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "blunt duct adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "apocrine adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "apocrine adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "apocrine adenosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "breast abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "breast abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "breast abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "fat necrosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "fat necrosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "fat necrosis of breast"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "lactation disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "lactation disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "lactation disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "breast adenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "breast adenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "breast adenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "primary ovarian failure"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "primary ovarian failure"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "primary ovarian failure"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Desogestrel",
+        "disease": "symptomatic form of fragile X syndrome in female carrier"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

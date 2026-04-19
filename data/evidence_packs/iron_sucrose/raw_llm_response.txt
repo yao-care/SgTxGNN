@@ -1,0 +1,418 @@
+以下是針對 **Iron sucrose (DB09146)** 10 項適應症的完整證據評估分析：
+
+---
+
+## 重要前置說明
+
+> **藥物背景**：Iron sucrose (Venofer) 是靜脈注射鐵劑，已建立適應症為 CKD 相關缺鐵性貧血。**關鍵發現**：Sucroferric oxyhydroxide (Velphoro) 與 Iron sucrose 共享相同活性核心成分（ferric oxyhydroxide），FDA 明確裁定兩者活性成分無結構差異，此關係影響部分文獻的相關性評估。
+
+---
+
+```json
+{
+  "drug": "Iron sucrose",
+  "drugbank_id": "DB09146",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "原始適應症欄位空白與MOA標記[Data Gap]屬系統資料缺口，Iron sucrose為已建立IV鐵劑，主適應症為CKD缺鐵性貧血。Sucroferric oxyhydroxide文獻因共享ferric oxyhydroxide活性核心，依FDA裁定視為部分相關間接證據。",
+  "indications": [
+    {
+      "disease_name": "primary hyperoxaluria",
+      "txgnn_score": 0.9882,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性高草酸尿症為AGXT/GRHPR/HOGA1基因突變導致草酸過度合成的遺傳代謝病。Iron sucrose無已知抑制草酸合成途徑的機轉。理論上鐵代謝可透過粒線體酶（如IDH、aconitase）間接影響TCA循環與乙醛酸代謝，但此推測高度間接且缺乏實驗支持。TxGNN高分（0.9882）可能反映知識圖譜中代謝網路的拓樸相似性，非直接治療關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [],
+      "overall_assessment": "純預測結果，無任何臨床或實驗室支持證據。不建議進一步評估。"
+    },
+    {
+      "disease_name": "pancreatitis",
+      "txgnn_score": 0.9785,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 警示：現有文獻顯示Iron sucrose與胰腺炎之間存在【致病性而非治療性】關聯。機轉為：IV鐵製劑→非轉鐵蛋白結合鐵（NTBI）→透過DMT1攝入胰腺β細胞→Fenton反應產生ROS→氧化應激→β細胞死亡/胰腺腺泡細胞ferroptosis→胰腺炎。TxGNN可能誤判「藥物-疾病關聯」的方向性，將有害關係識別為潛在治療信號。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "13987855",
+          "title": "Experimental production of cholangitis and pancreatitis by ferric oxide saccharate (Fe-OS)",
+          "year": "1962",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "A",
+          "direction": "ADVERSE",
+          "reasoning": "直接使用Ferric oxide saccharate（iron sucrose前身）誘發膽管炎和胰腺炎的動物實驗，為Iron sucrose致胰腺損傷的最直接歷史證據。高度相關但方向為害。"
+        },
+        {
+          "pmid": "24349622",
+          "title": "At pharmacologically relevant concentrations intravenous iron preparations cause pancreatic beta cell toxicity",
+          "year": "2013",
+          "study_type": "In vitro/Animal study",
+          "tier": 3,
+          "relevance_grade": "A",
+          "direction": "ADVERSE",
+          "reasoning": "在藥理學相關濃度下，IV鐵製劑（包含iron sucrose）導致胰腺β細胞死亡，氧化應激機轉明確。直接相關但為安全性危害信號。"
+        },
+        {
+          "pmid": "36931751",
+          "title": "High Dietary Iron in Western Diet-Fed Male Rats Causes Pancreatic Islet Injury and Acute Pancreatitis",
+          "year": "2023",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "B",
+          "direction": "ADVERSE",
+          "reasoning": "高鐵飲食誘發大鼠胰島損傷和急性胰腺炎，支持鐵超載→胰腺炎的病理機轉，但為膳食鐵而非IV iron sucrose。"
+        },
+        {
+          "pmid": "28372549",
+          "title": "The Ferumoxytol for Anemia of CKD Trial (FACT)",
+          "year": "2017",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "研究Ferumoxytol（不同IV鐵製劑）於CKD貧血，與胰腺炎治療無直接關聯。"
+        },
+        {
+          "pmid": "17543848",
+          "title": "Peritoneal effects of intravenous iron sucrose administration in rats",
+          "year": "2007",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "探討IV iron sucrose對腹膜的影響，非胰腺炎治療研究，提供安全性背景資料。"
+        },
+        {
+          "pmid": "35335858",
+          "title": "Artemisia absinthium Extracts: Antioxidant Effect and Potential Activity",
+          "year": "2022",
+          "study_type": "In vitro study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "苦艾草提取物研究，與iron sucrose無直接關聯。"
+        },
+        {
+          "pmid": "2703918",
+          "title": "Studies of iron:zinc interactions in adult rats",
+          "year": "1989",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "鐵鋅交互作用研究，與胰腺炎治療無關聯。"
+        },
+        {
+          "pmid": "33555086",
+          "title": "Ferulic acid promotes muscle glucose uptake",
+          "year": "2022",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "阿魏酸的代謝研究，與iron sucrose胰腺炎無直接關聯。"
+        },
+        {
+          "pmid": "26358367",
+          "title": "Hyperinsulinemia shifted energy supply from glucose to ketone bodies in early nonalcoholic steatohepatitis",
+          "year": "2015",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "NASH代謝研究，背景資料。"
+        },
+        {
+          "pmid": "25692122",
+          "title": "Transfusion free radical antegrade modular pancreaticosplenectomy of metastatic neuroendocrine tumor",
+          "year": "2015",
+          "study_type": "Case report/Surgical technique",
+          "tier": 3,
+          "relevance_grade": "C",
+          "direction": "NEUTRAL",
+          "reasoning": "胰腺手術技術報告，與iron sucrose胰腺炎治療無關。"
+        }
+      ],
+      "safety_flags": [
+        "⚠️ ADVERSE SIGNAL：文獻顯示Iron sucrose在藥理相關濃度誘發胰腺β細胞毒性",
+        "⚠️ ADVERSE SIGNAL：Ferric oxide saccharate直接誘發動物胰腺炎（1962年經典實驗）",
+        "⚠️ 再利用方向性錯誤風險：TxGNN可能將致病關係誤判為治療潛力"
+      ],
+      "overall_assessment": "所有相關文獻均指向Iron sucrose【致病性】而非【治療性】關係。在藥理濃度下，Iron sucrose通過氧化應激損傷胰腺。此適應症屬安全性禁忌，應標記Hold並記錄為安全性反例。"
+    },
+    {
+      "disease_name": "tumoral calcinosis, hyperphosphatemic, familial",
+      "txgnn_score": 0.9784,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性高磷血症鈣質沉著症（HFTC）為FGF23功能喪失性突變（GALNT3/FGF23/KL）導致高磷血症和異位鈣化。理論上：IV iron sucrose可降低FGF23水平（加重高磷血症，有害）；而口服sucroferric oxyhydroxide（共享ferric oxyhydroxide活性核心）作為磷酸鹽結合劑可直接降低腸道磷吸收，理論上有益。但此藥理作用屬口服劑型，IV鐵劑型並無此機轉，兩者給藥途徑決定不同作用機轉。無任何臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [
+        "⚠️ 理論安全顧慮：IV iron sucrose可能降低FGF23，若用於FGF23缺乏型HFTC恐加重高磷血症"
+      ],
+      "overall_assessment": "純預測，無臨床或前臨床支持。IV鐵劑型機轉與口服磷結合劑相反，存在理論安全疑慮。"
+    },
+    {
+      "disease_name": "familial apolipoprotein C-II deficiency",
+      "txgnn_score": 0.9758,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ApoC-II缺乏症為LPL活性喪失導致嚴重高三酸甘油酯血症的遺傳代謝病。鐵代謝與脂蛋白脂酶途徑無直接交集。理論背景：鐵可透過Fenton反應促進脂質過氧化（PUFA氧化），但此為害而非治療機轉。無任何臨床或前臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [],
+      "overall_assessment": "純TxGNN預測，缺乏機轉合理性，無臨床或實驗室支持。"
+    },
+    {
+      "disease_name": "esophageal varices without bleeding",
+      "txgnn_score": 0.9692,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食道靜脈曲張為門脈高壓的結構性併發症。Iron sucrose可治療肝硬化伴發的缺鐵性貧血（貧血→血管擴張→門脈壓力增加的間接關係），但對靜脈曲張本身無直接治療效果。標準治療為非選擇性β受體阻斷劑或內視鏡結紮。無靜脈曲張方向的臨床試驗或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [
+        "⚠️ 注意：肝硬化患者對IV鐵的氧化應激敏感性增加，需謹慎評估安全性"
+      ],
+      "overall_assessment": "純TxGNN預測，機轉路徑高度間接，缺乏支持證據。"
+    },
+    {
+      "disease_name": "esophageal varices with bleeding",
+      "txgnn_score": 0.9692,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "出血性食道靜脈曲張急症需要立即止血（內視鏡/血管加壓素）。Iron sucrose雖可補充出血後鐵損，但此為輔助貧血治療，非靜脈曲張出血的根本治療。急性出血期使用IV鐵的安全性數據不足。TxGNN分數與無出血者相同（0.9692），顯示模型可能未區分出血嚴重度。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [
+        "⚠️ 急性出血期IV鐵使用安全性未建立",
+        "⚠️ 與無出血型TxGNN分數相同，提示模型可能存在疾病分類混淆"
+      ],
+      "overall_assessment": "純TxGNN預測，急性出血情境下尤需謹慎，缺乏支持證據。"
+    },
+    {
+      "disease_name": "familial hyperphosphatemic tumoral calcinosis/hyperphosphatemic hyperostosis syndrome",
+      "txgnn_score": 0.9690,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病為HFTC的延伸譜系（FGF23信號通路功能喪失），本質機轉與第3項相同。IV iron sucrose降低FGF23的效果在此病中可能加重高磷血症，存在理論安全顧慮。口服sucroferric oxyhydroxide作為磷結合劑有間接理論基礎，但IV鐵不適用此機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [
+        "⚠️ 與第3項相同：IV鐵可能加重FGF23缺乏性高磷血症"
+      ],
+      "overall_assessment": "與tumoral calcinosis同一疾病譜系，評估結果相同：L5，Hold。"
+    },
+    {
+      "disease_name": "hyperparathyroidism",
+      "txgnn_score": 0.9618,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "最具機轉合理性的適應症（以間接路徑為主）。Iron sucrose → 補充鐵缺乏 → 降低FGF23水平（鐵缺乏是FGF23強刺激因子）→ 減少腎小管磷重吸收 → 降低血磷 → 減少高磷血症對副甲狀腺的刺激 → 繼發性副甲狀腺功能亢進改善。此外，FDA已裁定sucroferric oxyhydroxide與iron sucrose共享相同ferric oxyhydroxide活性核心，sucroferric oxyhydroxide作為磷結合劑在CKD繼發性副甲狀腺亢進中有較強臨床證據基礎，部分可類推。但主要適用對象為CKD繼發性甲狀旁腺功能亢進，非原發性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35482713",
+          "title": "Effects of ferric citrate and intravenous iron sucrose on markers of mineral, bone, and iron homeostasis",
+          "year": "2022",
+          "study_type": "Observational/Comparative study",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "直接研究IV iron sucrose對礦物質、骨骼和鐵代謝指標（包含PTH相關）的影響，為最相關文獻。Tier 2因非隨機對照設計。"
+        },
+        {
+          "pmid": "34629085",
+          "title": "Efficacy and safety of polysaccharide iron complex capsules compared with iron sucrose in hemodialysis patients",
+          "year": "2021",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance_grade": "B",
+          "reasoning": "HD患者（繼發性副甲狀腺亢進高發群體）中iron sucrose的RCT，主要終點為貧血，但患者群體具高度相關性。"
+        },
+        {
+          "pmid": "26893577",
+          "title": "Phosphate binders for the treatment of chronic kidney disease: role of iron oxyhydroxide",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "鐵氧氫氧化物作為磷結合劑在CKD中的角色，鏈接磷控制→繼發性副甲狀腺亢進管理，機轉直接相關。"
+        },
+        {
+          "pmid": "27434393",
+          "title": "Pharmacodynamic Effects of Sucroferric Oxyhydroxide and Sevelamer Carbonate on Vitamin D Receptor Agonists",
+          "year": "2016",
+          "study_type": "Clinical study",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "Sucroferric oxyhydroxide（共享活性核心）與VDR活化的藥效學研究，維生素D為副甲狀腺功能管理核心。"
+        },
+        {
+          "pmid": "26221597",
+          "title": "Effects of Sucroferric Oxyhydroxide Compared to Lanthanum Carbonate and Sevelamer Carbonate on Phosphate and Other Parameters",
+          "year": "2015",
+          "study_type": "RCT",
+          "tier": 1,
+          "relevance_grade": "B",
+          "reasoning": "Sucroferric oxyhydroxide的RCT，磷控制效果（間接影響PTH）有強臨床支持，因共享活性核心具有一定類推性，但給藥途徑不同。"
+        },
+        {
+          "pmid": "33022710",
+          "title": "Renoprotective effects of sucroferric oxyhydroxide in a rat model of chronic renal failure",
+          "year": "2020",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "大鼠慢性腎衰竭模型，展示sucroferric oxyhydroxide的腎保護效果，間接支持礦物質代謝改善路徑。"
+        },
+        {
+          "pmid": "29415929",
+          "title": "Pharmacological, pharmaceutical and clinical profiles of sucroferric oxyhydroxide",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "Sucroferric oxyhydroxide系統性綜述，因FDA認定與iron sucrose共享活性核心，為間接背景證據。"
+        },
+        {
+          "pmid": "11929146",
+          "title": "Efficacy of a low-dose intravenous iron sucrose regimen in peritoneal dialysis patients",
+          "year": "2002",
+          "study_type": "Clinical trial",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "腹膜透析患者（繼發性副甲狀腺亢進高發群體）中iron sucrose的臨床研究，主要終點為貧血，礦物質代謝為次要考量。"
+        },
+        {
+          "pmid": "32444112",
+          "title": "Intravenous iron supplementation therapy",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "IV鐵補充療法總論，提供背景資料，未特別討論副甲狀腺功能。"
+        }
+      ],
+      "safety_flags": [
+        "注意：需區分原發性（Primary HPT）vs 繼發性（Secondary HPT in CKD）；Iron sucrose主要在CKD繼發性HPT中有機轉合理性",
+        "注意：FGF23降低效果可能在非CKD患者中機轉不同"
+      ],
+      "key_gaps": [
+        "缺乏Iron sucrose直接治療副甲狀腺功能亢進的RCT",
+        "PMID 35482713需確認是否測量PTH作為主要/次要終點",
+        "需區分sucroferric oxyhydroxide（口服磷結合劑）vs iron sucrose（IV貧血治療）的機轉差異"
+      ],
+      "overall_assessment": "9篇文獻中有1篇A級（PMID 35482713直接研究IV iron sucrose礦物質代謝效應）、7篇B級（相關化合物或相關患者群體）。機轉路徑間接但邏輯合理（FGF23→磷→PTH軸）。建議在CKD繼發性副甲狀腺亢進的框架下進一步評估，設計觀察性研究追蹤PTH動態變化。"
+    },
+    {
+      "disease_name": "hyperlipidemia",
+      "txgnn_score": 0.9606,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無治療性機轉支持。Iron sucrose在脂質代謝中的作用主要為有害方向：透過Fenton反應促進LDL和多不飽和脂肪酸氧化，增加氧化型LDL（ox-LDL）生成，加重動脈粥樣硬化風險。2篇文獻均與iron sucrose治療高脂血症無關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35784893",
+          "title": "The Allelic Variant A391T of Metal Ion Transporter ZIP8 (SLC39A8) Leads to Hypotension and Enhanced Lipid Metabolism",
+          "year": "2022",
+          "study_type": "Genetic/Mechanistic study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "研究鋅轉運體ZIP8的遺傳變異與脂質代謝的關係，非iron sucrose研究，僅顯示金屬離子轉運與脂質代謝的廣泛關聯，不支持iron sucrose治療高脂血症。"
+        },
+        {
+          "pmid": "9322992",
+          "title": "In vivo plasma lipid oxidation in sugar-induced rat hypertriglyceridemia and hypertension",
+          "year": "1997",
+          "study_type": "Animal study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "蔗糖誘發大鼠高三酸甘油酯血症模型研究脂質氧化，與iron sucrose作為治療劑無關。文獻中的'sucrose'為飲食碳水化合物，非iron sucrose藥物。"
+        }
+      ],
+      "safety_flags": [
+        "⚠️ 理論安全顧慮：鐵離子促進LDL氧化，高脂血症患者使用IV鐵可能增加心血管風險"
+      ],
+      "overall_assessment": "2篇文獻均不相關（文獻檢索可能存在同名詞混淆：'sucrose'被誤判為iron sucrose相關）。無治療性機轉，存在理論安全顧慮。"
+    },
+    {
+      "disease_name": "immune-mediated necrotizing myopathy",
+      "txgnn_score": 0.9603,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "免疫介導性壞死性肌病（IMNM）由抗SRP或抗HMGCR自體抗體介導的肌肉壞死，治療為免疫抑制（類固醇、IVIG、利妥昔單抗）。Iron sucrose無免疫調節機轉；嚴重肌病可繼發缺鐵性貧血（肌肉損傷→血紅素釋放→鐵代謝改變），iron sucrose可作為支持性貧血治療，但不構成再利用適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [],
+      "overall_assessment": "純TxGNN預測，缺乏機轉合理性。知識圖譜可能透過肌肉病變→貧血→鐵劑路徑產生錯誤關聯。"
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S0_Hold": 9,
+      "S1_Safety_Evaluation": 1,
+      "S2_Clinical_Feasibility": 0,
+      "S3_Recommend": 0
+    },
+    "priority_for_further_research": [
+      {
+        "rank": 1,
+        "disease": "hyperparathyroidism (secondary, CKD)",
+        "rationale": "唯一具備機轉合理性（FGF23→磷→PTH軸）且有直接文獻支持（PMID 35482713）的適應症。建議設計前瞻性觀察研究追蹤CKD患者IV iron sucrose治療前後PTH動態變化。"
+      }
+    ],
+    "critical_safety_findings": [
+      {
+        "indication": "pancreatitis",
+        "finding": "Iron sucrose在藥理相關濃度下誘發胰腺β細胞毒性和胰腺炎（1962年動物實驗 + 2013年細胞實驗），TxGNN預測方向性錯誤，屬安全性禁忌而非再利用機會。建議記錄為反例以改進模型校正。"
+      },
+      {
+        "indication": "tumoral calcinosis / hyperphosphatemic hyperostosis syndrome",
+        "finding": "IV iron sucrose降低FGF23的機轉在FGF23功能喪失型疾病中可能加重高磷血症，需在排除安全禁忌後才可考慮相關研究方向。"
+      }
+    ],
+    "model_performance_notes": "TxGNN在此病例中呈現兩類偏差：(1) 方向性錯誤（pancreatitis：致病關係被誤判為治療潛力）；(2) 文獻噪音（hyperlipidemia：'sucrose'字詞混淆導致不相關文獻被納入）。建議系統層面增加方向性過濾和藥物名稱歧義消除機制。"
+  }
+}
+```
+
+---
+
+## 執行摘要
+
+| 適應症 | 評分 | 證據等級 | 決策 | 核心理由 |
+|--------|------|----------|------|----------|
+| primary hyperoxaluria | 0.988 | **L5** | ❌ Hold | 純預測，無機轉，無證據 |
+| **pancreatitis** | 0.979 | **L4** ⚠️ | ❌ **Hold (安全禁忌)** | 文獻顯示Iron sucrose**致病**而非治療 |
+| tumoral calcinosis | 0.978 | **L5** | ❌ Hold | 純預測，IV鐵可能加重高磷 |
+| familial ApoC-II deficiency | 0.976 | **L5** | ❌ Hold | 純預測，無機轉合理性 |
+| esophageal varices (w/o bleeding) | 0.969 | **L5** | ❌ Hold | 純預測，機轉高度間接 |
+| esophageal varices (with bleeding) | 0.969 | **L5** | ❌ Hold | 急性出血期安全性未建立 |
+| hyperphosphatemic hyperostosis | 0.969 | **L5** | ❌ Hold | 同tumoral calcinosis |
+| **hyperparathyroidism** | 0.962 | **L4** | 🔬 **Research Question** | FGF23-磷-PTH軸有機轉；1篇直接相關研究 |
+| hyperlipidemia | 0.961 | **L5** | ❌ Hold | 文獻不相關（詞彙混淆），有理論安全顧慮 |
+| immune-mediated necrotizing myopathy | 0.960 | **L5** | ❌ Hold | 純預測，無免疫調節機轉 |
+
+> **⚠️ 重要警示**：**Pancreatitis** 需特別標記為**反例（False Positive with Safety Signal）**——TxGNN高分（0.9785）反而對應多篇顯示Iron sucrose**誘發**胰腺炎的文獻，此為模型方向性偏差的典型案例，建議回饋至模型校正流程。

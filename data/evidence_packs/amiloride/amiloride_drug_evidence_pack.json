@@ -1,0 +1,1562 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00594-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amiloride",
+    "drugbank_id": "DB00594",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9981811046600342,
+        "rank": 3168
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amiloride 透過阻斷腎小管遠端 ENaC 減少鈉再吸收，理論上可降低血壓並減輕腎臟灌注壓。惡性高血壓性腎病變若伴有繼發性醛固酮增多症，ENaC 阻斷具機轉合理性；然而惡性高血壓之急性腎損傷情境下，Amiloride 蓄積風險（腎清除率下降）反而構成安全顧慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9981811046600342,
+        "rank": 3169
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12929904",
+            "title": "Investigating mineralocorticoid hypertension.",
+            "authors": [
+              "Nussberger Jürg"
+            ],
+            "journal": "Journal of hypertension. Supplement : official journal of the International Society of Hypertension",
+            "year": "2003",
+            "abstract": "About 3% of our hypertensive patients have high blood pressure induced by corticosteroids. Muscle weakness, tiredness, polyuria and polydipsia may indicate hypokalaemia. Hypokalaemic hypertension in the presence of a low plasma renin activity is the typical finding of corticosteroid hypertension. The most frequent cause of corticosteroid hypertension is primary aldosteronism (Conn's syndrome) due to an adrenal adenoma or bilateral hyperplasia of the adrenal glands. The plasma concentration of al",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎血管性高血壓常伴隨繼發性高醛固酮血症，導致 ENaC 過度活化及鉀離子流失。Amiloride 作為醛固酮拮抗劑替代選項（特別在 Spironolactone 不耐受時），具明確機轉支撐。PMID 12929904 探討礦物皮質素高血壓的診斷與治療策略，間接佐證 ENaC 阻斷在此類高血壓的角色。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9980675578117372,
+        "rank": 3315
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多因素肺動脈高壓之病理機制複雜，涉及血管重塑、內皮功能障礙等多重路徑。Amiloride 之 ENaC 阻斷對肺血管阻力的影響尚無直接文獻支持；部分研究顯示 ENaC 在肺泡液體清除中扮演角色，但對肺動脈壓力之影響屬高度推測性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9980675578117372,
+        "rank": 3316
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "缺氧性肺動脈高壓之核心機轉為低氧性肺血管收縮（HPV）及血管重塑，ENaC 阻斷對此機轉影響微弱。雖 ENaC 存在於肺泡上皮，參與肺泡液體清除，但現有 20 篇文獻均為缺氧生物學通論性研究（神經退化、癌症、免疫等），與 Amiloride 用於此適應症無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9974687099456788,
+        "rank": 4064
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock 症候群為極罕見先天性發育異常（顱面異常合併智能障礙），與 Amiloride 之 ENaC/Na+H+ 交換器阻斷機轉無已知生物學連結。TxGNN 高分可能源於知識圖譜中疾病節點的結構性相似性，而非真實生物學關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.996784210205078,
+        "rank": 4810
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1888694",
+            "title": "Amiloride improves hemodynamics in patients with chronic congestive heart failure treated with chronic digoxin and diuretics.",
+            "authors": [
+              "Cheitlin M D",
+              "Byrd R",
+              "Benowitz N",
+              "Liu E",
+              "Modin G"
+            ],
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "1991",
+            "abstract": "Potassium-sparing diuretics have been reported to decrease the positive inotropic effect of digoxin. We studied the hemodynamic effects of amiloride in patients taking digoxin for chronic heart failure. Eleven men with a history of congestive heart failure were studied in a double blind, cross-over, placebo controlled trial with the patients on digoxin alternating placebo with amiloride. After 7 days on the trial drug, a Swan-Ganz catheter was placed in the pulmonary artery and measurements made",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2831702",
+            "title": "Dose-ranging study of isosorbide-5-mononitrate in chronic congestive heart failure treated with diuretics and angiotensin-converting enzyme inhibitor.",
+            "authors": [
+              "Debbas N",
+              "Woodings D",
+              "Marks C",
+              "Bhans A",
+              "Jubber A"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1988",
+            "abstract": "The hemodynamic response of isosorbide-5-mononitrate (IS-5-MN) to the addition of the widely used therapy of diuretic drugs and the maximally tolerated dose of enalapril for heart failure was assessed in 8 patients with congestive heart failure (CHF) (New York Heart Association class II and III). The diuretic therapy was furosemide, 40 to 80 mg/day, with or without amiloride, 5 to 10 mg/day. The dose of enalapril was 5 to 20 mg/day. Four hours after the administration of the morning dose of enal",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16815890",
+            "title": "Alveolar fluid reabsorption is increased in rats with compensated heart failure.",
+            "authors": [
+              "Azzam Zaher S",
+              "Adir Yochai",
+              "Welch Lynn",
+              "Chen Jiwang",
+              "Winaver Joseph"
+            ],
+            "journal": "American journal of physiology. Lung cellular and molecular physiology",
+            "year": "2006",
+            "abstract": "Alveolar fluid reabsorption (AFR) is important in keeping the air spaces free of edema. This process is accomplished via active transport of Na(+) across the alveolo-capillary barrier mostly by apical Na(+) channels and basolateral Na(+)-K(+)-ATPases. Recently, we have reported that acute elevation of left atrial pressures is associated with decreased AFR in isolated rat lungs. However, the effect of chronic elevation of pulmonary capillary pressure, such as seen in patients with congestive hear",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2888942",
+            "title": "Double-blind comparison of captopril alone against frusemide plus amiloride in mild heart failure.",
+            "authors": [
+              "Richardson A",
+              "Bayliss J",
+              "Scriven A J",
+              "Parameshwar J",
+              "Poole-Wilson P A"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1987",
+            "abstract": "Captopril alone as therapy for mild heart failure was compared with a combination of frusemide and amiloride in a double-blind randomised crossover trial in 14 patients who had previously been treated with diuretics. Although 10 patients remained stable on captopril alone, 4 patients deteriorated, with the development of pulmonary oedema of breathlessness. All 4 patients had had pulmonary oedema previously, unlike the patients who remained stable. Angiotensin converting enzyme inhibition alone i",
+            "classification": {
+              "study_type": "RCT (Small)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8615380",
+            "title": "Case report: severe hyperkalemia in a geriatric patient receiving standard doses of trimethoprim-sulfamethoxazole.",
+            "authors": [
+              "Perlmutter E P",
+              "Sweeney D",
+              "Herskovits G",
+              "Kleiner M"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "1996",
+            "abstract": "A case is reported of a 96-year-old woman with congestive heart failure, hypertension, and chronic obstructive pulmonary disease who presented with altered mental status and severe hyperkalemia, a serum potassium 9.3 meq/L, and electrocardiograph changes. The patient was discharged 1 week prior, with a normal serum potassium, receiving trimethoprim-sulfamethoxazole for urinary tract infection and pneumonia. Serum potassium measurements returned to normal after discontinuation of the drug. Other ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺心病（Cor Pulmonale）常伴隨右心衰竭及繼發性容量超載，Amiloride 透過 ENaC 阻斷減少腎鈉再吸收，降低前負荷。在心臟衰竭背景下，神經荷爾蒙活化（RAAS、SNS）導致 ENaC 上調，使保鉀利尿劑具有機轉合理性。PMID 2888942 為小型雙盲 RCT 直接支持 Frusemide+Amiloride 組合於輕度心衰竭之療效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acute pulmonary heart disease",
+      "txgnn": {
+        "score": 0.984047830104828,
+        "rank": 14785
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16815890",
+            "title": "Alveolar fluid reabsorption is increased in rats with compensated heart failure.",
+            "authors": [
+              "Azzam Zaher S",
+              "Adir Yochai",
+              "Welch Lynn",
+              "Chen Jiwang",
+              "Winaver Joseph"
+            ],
+            "journal": "American journal of physiology. Lung cellular and molecular physiology",
+            "year": "2006",
+            "abstract": "Alveolar fluid reabsorption (AFR) is important in keeping the air spaces free of edema. This process is accomplished via active transport of Na(+) across the alveolo-capillary barrier mostly by apical Na(+) channels and basolateral Na(+)-K(+)-ATPases. Recently, we have reported that acute elevation of left atrial pressures is associated with decreased AFR in isolated rat lungs. However, the effect of chronic elevation of pulmonary capillary pressure, such as seen in patients with congestive hear",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性肺心病（如急性肺栓塞所致右心衰竭）之治療核心為改善右心後負荷，而非容量管理。Amiloride 之利尿作用在急性期可能有限度輔助作用，但機轉支撐薄弱。PMID 16815890 為動物實驗，研究 ENaC 在代償性心衰竭之角色，間接相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.9206276535987854,
+        "rank": 32220
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性遺傳性青光眼（如 MYOC、OPTN 等基因突變所致）主要機轉為小樑網細胞外基質堆積及房水流出阻力增加。雖理論上 ENaC 存在於睫狀體上皮，可能影響房水分泌，但缺乏任何臨床前或臨床證據。TxGNN 預測分數可能反映青光眼疾病節點與高血壓節點之共病關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.874142050743103,
+        "rank": 37260
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "開角型青光眼之 Amiloride 機轉假說涉及 ENaC 在睫狀體上皮房水分泌之調控，但此路徑尚屬探索性。相較於已確立的 β-blockers、前列腺素類似物、碳酸酐酶抑制劑等標準治療，Amiloride 之眼壓降低證據極為有限。需注意全身性用藥可能造成低血壓，影響視神經灌流。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "chronic renal failure syndrome",
+      "txgnn": {
+        "score": 0.8553115129470825,
+        "rank": 38791
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02832973",
+            "title": "Resistant Hypertension On Treatment - Sequential Nephron Blockade Compared to Dual Blockade of the Renin-angiotensin-aldosterone System Plus Bisoprolol in the Treatment of Resistant Arterial Hypertension: A Randomized Trial (ResHypOT)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2015-09",
+            "completion_date": "2018-03",
+            "brief_summary": "A randomized clinical trial comparing sequential nephron blockage (SNB) with dual blockade of the renin-angiotensin system (RAAS) plus bisoprolol (DBB) in the treatment of resistant arterial hypertension (RH) was designed to investigate the importance of the SNB and the contribution of its volume component versus DBB and the importance of the serum renin in maintaining BP levels. This randomized trial with two treatment arms could help tailor therapy by identifying a more effective choice to con",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 完成試驗，序列性腎元阻斷策略通常包含 Amiloride 作為 ENaC 阻斷劑步驟，直接評估於腎病合併頑固性高血壓族群；樣本數（n=72）中等，結果已完成但需查閱全文確認 Amiloride 為主要介入藥物"
+            }
+          },
+          {
+            "nct_id": "NCT02824718",
+            "title": "A Randomized Crossover TrIal to Compare Recombinant Human rhPTH(1-34) to the ASsociation Alfacalcidol/Hydrochlorothiazide in the Treatment of Severe Primary Hypoparathyroidism",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2017-06-06",
+            "completion_date": "2020-05-28",
+            "brief_summary": "Hypoparathyroidism is a rare condition in which the parathyroid glands fail to produce sufficient amount of parathyroid hormone or the parathyroid hormone produced lacks biologic activity. The most common cause of hypoparathyroidism is damage to or removal of the parathyroid glands due to neck surgery for another condition. Occurrence of hypercalciuria under treatment is a frequent concern in primary hypoparathyroidism, limiting correction of hypocalcemia.\n\nHypoparathyroidism can also be caused ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究重點為慢性腎病之維生素D與副甲狀腺素管理，Amiloride 若有出現亦為背景用藥，非主要研究藥物；樣本數極小（n=16），與本適應症評估直接相關性低"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10207256",
+            "title": "Diuretics in renal failure.",
+            "authors": [
+              "Andreucci M",
+              "Russo D",
+              "Fuiano G",
+              "Minutolo R",
+              "Andreucci V E"
+            ],
+            "journal": "Mineral and electrolyte metabolism",
+            "year": "1999",
+            "abstract": "Fluid retention following reduction in the glomerular filtration rate causes extracellular fluid volume expansion that reduces tubular reabsorption by residual nephrons, thereby maintaining the external sodium balance. The price paid for this is salt-dependent hypertension. Thus, loop diuretics are the best treatment for uremic hypertension. Diuretics are also used in chronic renal failure to treat edema due to nephrotic syndrome and congestive heart failure (CHF). In nephrotics, edema is often ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21159737",
+            "title": "Increased renal ENaC subunits and sodium retention in rats with chronic heart failure.",
+            "authors": [
+              "Zheng Hong",
+              "Liu Xuefei",
+              "Rao U S",
+              "Patel Kaushik P"
+            ],
+            "journal": "American journal of physiology. Renal physiology",
+            "year": "2011",
+            "abstract": "Renal tubular dysfunction could be involved in the increased sodium and water reabsorption in chronic heart failure (CHF). The goal of the present study was to examine the molecular basis for the increased renal sodium and water retention in CHF. We hypothesized that dysregulation of renal epithelial sodium channels (ENaC) could be involved in the pathogenesis of CHF. The left coronary ligation-induced model of heart failure in the rat was used. Real-time PCR and Western blot analysis indicated ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3987787",
+            "title": "Limitation on the use of amiloride in early renal failure.",
+            "authors": [
+              "Knauf H",
+              "Reuter K",
+              "Mutschler E"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1985",
+            "abstract": "The effect of a single oral dose of 10 mg amiloride was studied on urinary excretion of Na+, K+, Ca++ and Mg++ in healthy subjects and in patients with varying degrees of renal impairment. Amiloride produced a moderate diuresis and sodium excretion, and a slight calciuresis. Urinary excretion of potassium was significantly reduced as compared to the controls. Despite its diuretic and natriuretic effects, amiloride did not change the excretion of Mg++ as compared to the pretreatment period. When ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31490733",
+            "title": "Renal denervation improves sodium excretion in rats with chronic heart failure: effects on expression of renal ENaC and AQP2.",
+            "authors": [
+              "Zheng Hong",
+              "Liu Xuefei",
+              "Katsurada Kenichi",
+              "Patel Kaushik P"
+            ],
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2019",
+            "abstract": "Previously we have shown that increased expression of renal epithelial sodium channels (ENaC) may contribute to the renal sodium and water retention observed during chronic heart failure (CHF). The goal of this study was to examine whether renal denervation (RDN) changed the expressions of renal sodium transporters ENaC, sodium-hydrogen exchanger-3 proteins (NHE3), and water channel aquaporin 2 (AQP2) in rats with CHF. CHF was produced by left coronary artery ligation in rats. Four weeks after l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7356897",
+            "title": "Amiloride handling in renal failure.",
+            "authors": [
+              "George C F"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "Pharmacokinetic Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3428342",
+            "title": "Pharmacokinetics of amiloride in renal and hepatic disease.",
+            "authors": [
+              "Spahn H",
+              "Reuter K",
+              "Mutschler E",
+              "Gerok W",
+              "Knauf H"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1987",
+            "abstract": "The pharmacokinetics of the antikaliuretic amiloride has been studied in healthy controls and in patients with chronic renal failure or hepatitis. It was 40% bound to protein. In healthy volunteers 49% of an oral dose was recovered unchanged in the urine. The renal clearance of amiloride was about 3 times the creatinine clearance, which means that it was predominantly excreted via tubular secretion. Renal impairment reduced the clearance of amiloride, causing a prolongation of the t1/2 and drug ",
+            "classification": {
+              "study_type": "Pharmacokinetic Study",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20004292",
+            "title": "[Chronic renal complications induced by lithium].",
+            "authors": [
+              "Le Roy V",
+              "Delmas Y",
+              "Verdoux H"
+            ],
+            "journal": "L'Encephale",
+            "year": "2009",
+            "abstract": "After 40 years of use of lithium in the treatment of mood disorders, the renal risks associated with the long-term exposure to lithium are better known.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9461103",
+            "title": "Sodium-dependent Cl-/HCO3- exchange in patients with chronic renal failure: correlation with renal function.",
+            "authors": [
+              "Tepel M",
+              "Nesbit O",
+              "Tokmak F",
+              "Zidek W"
+            ],
+            "journal": "Kidney international",
+            "year": "1998",
+            "abstract": "To investigate the effects of uremia on cellular function the activity of the sodium-dependent chloride-bicarbonate exchanger (sodium-dependent Cl-/HCO3- exchanger) and the sodium-independent chloride-bicarbonate exchanger (sodium-independent Cl-/HCO3- exchanger) were examined in lymphocytes from 25 patients with mild chronic renal failure, 9 patients with end-stage chronic renal failure on regular hemodialysis, and from 25 age-matched healthy control subjects. Cytosolic pH (pHi) and the activit",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25016400",
+            "title": "Comparison of agents that affect aldosterone action.",
+            "authors": [
+              "Tamargo Juan",
+              "Solini Anna",
+              "Ruilope Luis M"
+            ],
+            "journal": "Seminars in nephrology",
+            "year": "2014",
+            "abstract": "The first aldosterone blocker, spironolactone, initially was used as a diuretic but was accompanied by a significant amount of side effects that necessitated the withdrawal of the drug in a relevant number of patients. The discovery of the many receptor-mediated actions of aldosterone in several different organs greatly contributed to expand the indications of aldosterone blockers. Eplerenone was the second component of this class of drugs and differed from spironolactone because of its signific",
+            "classification": {
+              "study_type": "Review",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2923226",
+            "title": "Voltage dependence and barium sensitivity of colonic K secretion in renal failure.",
+            "authors": [
+              "Siga E L",
+              "Martin R S",
+              "Ibarra C",
+              "Verón D",
+              "Ibarra F"
+            ],
+            "journal": "The American journal of physiology",
+            "year": "1989",
+            "abstract": "Net colonic K secretion (JKnet) is increased in rats and humans with chronic renal failure (CRF). To study whether transepithelial potential difference (PD), active transport forces and/or luminal K conductance play a role in this adaptation, experiments were performed in the colon of control, K-adapted, and CRF rats. Under basal conditions the PD in vivo in CRF was greater than in controls and not different from K-adapted rats. JKnet was comparable in vivo in CRF and K-adapted rats and was grea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8039632",
+            "title": "Pathophysiology of potassium absorption and secretion by the human intestine.",
+            "authors": [
+              "Agarwal R",
+              "Afzalpurkar R",
+              "Fordtran J S"
+            ],
+            "journal": "Gastroenterology",
+            "year": "1994",
+            "abstract": "When normal people ingest 90 mEq/day of K+ in their diet, they absorb about 90% of intake (81 mEq) and excrete an equivalent amount of K+ in the urine. Normal fecal K+ excretion averages about 9 mEq/day. The vast majority of intestinal K+ absorption occurs in the small intestine; the contribution of the normal colon to net K+ absorption and secretion is trivial. K+ is absorbed or secreted mainly by passive mechanisms; the rectum and perhaps the sigmoid colon have the capacity to actively secrete",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22467847",
+            "title": "The effects of lithium on renal function in older adults--a systematic review.",
+            "authors": [
+              "Rej Soham",
+              "Herrmann Nathan",
+              "Shulman Kenneth"
+            ],
+            "journal": "Journal of geriatric psychiatry and neurology",
+            "year": "2012",
+            "abstract": "Chronic renal failure (CRF) and nephrogenic diabetes insipidus (NDI) are potential consequences of chronic lithium use, while acute renal failure (ARF) has been described in lithium intoxication. We performed a systematic review of all studies pertaining to the effects of lithium on the kidney in older adults. The ARF incidence was 1.5% per person-year and concurrent loop diuretic and angiotensin-converting enzyme inhibitor use with lithium increased the risk. The CRF prevalence estimates varied",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7696122",
+            "title": "Polycystic kidney disease--a truly pediatric problem.",
+            "authors": [
+              "Ogborn M R"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "1994",
+            "abstract": "Polycystic kidney disease (PKD) represents the most common inherited cause of chronic renal failure. PKD is a relatively uncommon cause of chronic renal failure or mortality in childhood and adolescence, but is nevertheless often responsible for symptoms of renal disease. Current research into the pathogenesis of PKD suggests that disturbance of the normal regulation of growth and development of tubular epithelium is intrinsic to cyst formation and growth. Features of cystic epithelium that are ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18535292",
+            "title": "Increased colonic sodium absorption in rats with chronic renal failure is partially mediated by AT1 receptor agonism.",
+            "authors": [
+              "Hatch Marguerite",
+              "Freel Robert W"
+            ],
+            "journal": "American journal of physiology. Gastrointestinal and liver physiology",
+            "year": "2008",
+            "abstract": "To test the hypothesis that colonic Na(+) transport is altered in the 5/6 nephrectomized rat model of chronic renal failure (CRF), we measured Na(+) fluxes across distal colon from control (CON), CRF, and CRF rats treated with the angiotensin II (ANG II) receptor antagonist losartan (+LOS). We also evaluated overall fluid and Na(+) balance and compared colonic protein and mRNA expression profiles for electroneutral [sodium-hydrogen exchanger (NHE)] and electrogenic Na(+) transport [epithelial so",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7339433",
+            "title": "Mechanism of potassium secretion in chronic renal failure studied by means of amiloride.",
+            "authors": [
+              "Yeyati N L",
+              "Prigollini D",
+              "Creparula R",
+              "Barrera E",
+              "Pertzov G"
+            ],
+            "journal": "Medicina",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6855074",
+            "title": "[Use of antipotassiuretic diuretic amiloride in patients with chronic cardiac failure].",
+            "authors": [
+              "Khorunzhaia L V",
+              "Merzon K A",
+              "Tsoĭ A N"
+            ],
+            "journal": "Kardiologiia",
+            "year": "1983",
+            "abstract": "Amyloride causes moderate natriuresis and a considerable reduction in urinary potassium excretion. Chlorine excretion and diuresis are less affected in their increase, while hydrogen ions secretion shows a slight decrease. Amyloride effect is localized in convoluted tubules of the kidney, and perhaps collecting tubules as well. When taken orally, its effect becomes evident within 2-3 hours, reaches its peak within 5-6 hours, and slowly declines within 16-18 hours. A daily dose of 10-15 mg is rec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8989726",
+            "title": "Polymorphism in the beta subunit and Na+ transport.",
+            "authors": [
+              "Warnock D G"
+            ],
+            "journal": "Journal of the American Society of Nephrology : JASN",
+            "year": "1996",
+            "abstract": "Primary dysregulation of the epithelial sodium channel, manifested by continuing Na+ channel activity despite dietary salt excess, would cause inappropriate renal sodium reabsorption, blunted sodium excretion, and low-renin hypertension. There are now well-characterized genetic causes of hypertension in human pedigrees, which are explained by inappropriate and/or constitutive activation of the epithelial Na+ channel. Although Liddle's syndrome has been the most thoroughly investigated, the incid",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17172009",
+            "title": "Mechanisms, regulation and pathologic significance of Mg2+ efflux from erythrocytes.",
+            "authors": [
+              "Günther T"
+            ],
+            "journal": "Magnesium research",
+            "year": "2006",
+            "abstract": "Mg2+ efflux from erythrocytes can be performed by the Na+/Mg2+ antiport and by Na+-independent Mg2+ efflux. Na+-independent Mg2+ efflux functions via the unspecific choline exchanger as choline/Mg2+ or K+/Mg2+ antiport and as Mg2+ efflux accompanied by intracellular Cl- for charge compensation, as found for example in sucrose medium. Na+/Mg2+ antiport in erythrocytes exchanges 2 extracellular Na+ for 1 intracellular Mg2+. Driving forces are the Na+ and Mg2+ gradients. By reversing these gradient",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3884320",
+            "title": "Diuretics. Clinical pharmacology and therapeutic use (Part II).",
+            "authors": [
+              "Lant A"
+            ],
+            "journal": "Drugs",
+            "year": "1985",
+            "abstract": "25 years have elapsed since the introduction of the first effective oral diuretic, chlorothiazide. Diuretics are now amongst the most widely prescribed drugs in clinical practice worldwide. Availability of these drugs has not only brought therapeutic benefit to countless numbers of patients but it has at the same time provided valuable research tools with which to investigate the functional behaviour of the kidney and other electrolyte-transporting tissues. Despite many remaining gaps in our kno",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15780094",
+            "title": "Guanylin and uroguanylin regulate electrolyte transport in isolated human cortical collecting ducts.",
+            "authors": [
+              "Sindić Aleksandra",
+              "Hirsch Jochen R",
+              "Velic Ana",
+              "Piechota Hansjürgen",
+              "Schlatter Eberhard"
+            ],
+            "journal": "Kidney international",
+            "year": "2005",
+            "abstract": "Guanylin and uroguanylin link intestinal and renal electrolyte and water transport. Their function in intestine is well studied, but renal actions are less understood. Uroguanylin concentrations are increased in patients with chronic renal failure, nephrotic syndrome, or those on dialysis. Guanylate cyclase C (GC-C) is the receptor first described for these peptides. In guanylate cyclase C-deficient mice guanylin- and uroguanylin-induced renal natriuresis, kaliuresis, and diuresis are retained.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性腎衰竭常伴隨 ENaC 上調（繼發性醛固酮增多症、腎素-血管緊張素系統活化），導致鈉滯留與高血壓。Amiloride 透過遠端腎小管 ENaC 阻斷可輔助血壓及鈉平衡控制。然而，腎功能不全導致 Amiloride 藥物蓄積（主要由腎臟排除），使高鉀血症風險顯著增加，此為主要安全限制。NCT02832973（Phase 4）探討序列性腎元阻斷（含 ENaC 阻斷步驟）用於頑固性高血壓合併腎病，提供有限但直接的臨床支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "acute pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "chronic renal failure syndrome"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "chronic renal failure syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiloride",
+        "disease": "chronic renal failure syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

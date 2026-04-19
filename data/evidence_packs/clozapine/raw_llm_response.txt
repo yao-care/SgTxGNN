@@ -1,0 +1,459 @@
+## Clozapine (DB00363) 藥物再利用證據分析
+
+> ⚠️ **資料背景注意**：Clozapine 在全球多數國家已核准用於難治性精神分裂症，但本資料集標注「未上市」且無原始適應症，分析以再利用框架進行評估。
+
+---
+
+```json
+{
+  "drug": "Clozapine",
+  "drugbank_id": "DB00363",
+  "analysis_date": "2026-04-04",
+  "drug_moa_reconstruction": {
+    "note": "原始資料標注 [Data Gap]，依文獻重建",
+    "primary_targets": [
+      "D2/D4 多巴胺受體拮抗（低D2佔位率、D4優先）",
+      "5-HT2A/5-HT2C 血清素受體拮抗",
+      "H1 組織胺受體拮抗",
+      "M1-M5 毒蕈鹼受體拮抗",
+      "α1/α2 腎上腺素受體拮抗"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "psychotic disorder",
+      "txgnn_score": 0.9912,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Clozapine 為精神病治療核心藥物：D2/D4 拮抗（低佔位率特性）抑制陽性症狀；5-HT2A 拮抗改善陰性症狀及認知；多受體作用提供抗攻擊性與抗自殺效果。50 項臨床試驗、多篇系統性回顧共同支持其在難治性精神病的確立療效，事實上此為 Clozapine 全球核准適應症。",
+      "guardrails": [
+        "強制血液監測（agranulocytosis 風險）",
+        "代謝綜合症監控（體重、血糖、血脂）",
+        "心肌炎/心臟毒性篩查（首 4 週）",
+        "癲癇閾值降低之神經監控"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03807882",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，維持性ECT vs Clozapine直接比較研究，難治性精神病，已完成，n=60，直接評估Clozapine療效"
+        },
+        {
+          "nct_id": "NCT00272584",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，國際重度精神分裂症治療改善研究，直接評估Clozapine，已完成，n=100"
+        },
+        {
+          "nct_id": "NCT00328367",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 雙盲RCT，Aripiprazole增強Clozapine研究，已完成，n=61，直接使用Clozapine且有控制組"
+        },
+        {
+          "nct_id": "NCT00029458",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 雙盲研究，評估Clozapine在難治性精神病療效，已完成，n=42"
+        },
+        {
+          "nct_id": "NCT05741502",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，Clozapine vs 非Clozapine免疫炎症反應比較，已終止（n=5），資料量不足但方向相關"
+        },
+        {
+          "nct_id": "NCT02361554",
+          "relevance_grade": "C",
+          "reasoning": "腦深部電刺激研究，難治性精神分裂症背景，n=6，非Clozapine藥物療效評估"
+        },
+        {
+          "nct_id": "NCT01431326",
+          "relevance_grade": "C",
+          "reasoning": "兒童藥代動力學研究，n=3520，包含Clozapine但以PK為主要終點，非療效評估"
+        },
+        {
+          "nct_id": "NCT01324167",
+          "relevance_grade": "C",
+          "reasoning": "基因多態性與代謝特徵觀察研究，n=80，提供Clozapine代謝相關資料"
+        },
+        {
+          "nct_id": "NCT00295412",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，Quetiapine研究，精神病共病藥物濫用背景，非Clozapine特定評估"
+        },
+        {
+          "nct_id": "NCT03263533",
+          "relevance_grade": "C",
+          "reasoning": "HDAC抑制劑增強Clozapine研究，已撤回（n=0），無實際資料"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "34552059", "study_type": "Systematic Meta-review", "tier": "1", "note": "系統性定量meta-review，Clozapine在精神病療效與安全性"},
+        {"pmid": "40746110", "study_type": "RCT", "tier": "1", "note": "2025年難治性精神分裂症及分裂情感性障礙RCT"},
+        {"pmid": "33612141", "study_type": "Systematic Review", "tier": "1", "note": "老年精神病及雙相障礙中Clozapine有效性系統回顧"},
+        {"pmid": "38290941", "study_type": "Systematic Review", "tier": "1", "note": "Clozapine在精神分裂症攻擊性及暴力行為的系統回顧"},
+        {"pmid": "41192460", "study_type": "Observational Cohort", "tier": "1", "note": "2025年跨診斷Clozapine有效性與安全性觀察研究"},
+        {"pmid": "29984888", "study_type": "Systematic Review", "tier": "1", "note": "精神病患者開始Clozapine的延誤與障礙系統回顧"},
+        {"pmid": "36260895", "study_type": "Review/Primer", "tier": "1", "note": "精神分裂症 Lancet Primer 2022"},
+        {"pmid": "37918717", "study_type": "Systematic Review", "tier": "2", "note": "Clozapine治療精神分裂症的強迫症狀系統回顧"},
+        {"pmid": "36343352", "study_type": "Retrospective Cohort", "tier": "2", "note": "退伍軍人精神分裂症自殺史與Clozapine治療關係"},
+        {"pmid": "31567198", "study_type": "Clinical Study", "tier": "2", "note": "Clozapine在精神分裂症和雙相障礙的快速增量研究"}
+      ]
+    },
+    {
+      "disease_name": "bipolar disorder",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "雙相情感障礙的情緒不穩定涉及多巴胺能過度激活（躁狂期）與血清素能失調（抑鬱期）。Clozapine的廣譜受體拮抗（D2/D4、5-HT2A/2C、α1/α2）可雙向調節，對難治性雙相障礙具獨特優勢。FDA已核准Clozapine的抗自殺適應症（精神分裂症），可類推至雙相障礙自殺高危族群。",
+      "guardrails": [
+        "僅用於難治性（≥2線治療失敗）病例",
+        "嚴格血液監測協議",
+        "心情量表及躁狂轉換監控",
+        "代謝綜合症定期篩查"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00029458",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 雙盲RCT，直接評估Clozapine在難治性雙相情感障礙療效，已完成，n=42，唯一直接Phase 2證據"
+        },
+        {
+          "nct_id": "NCT06011460",
+          "relevance_grade": "A",
+          "reasoning": "觀察性研究，直接評估Clozapine在雙相障礙的治療安全性，正進行中，n=30"
+        },
+        {
+          "nct_id": "NCT05603104",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，強化藥理治療，n=1254（大規模），涵蓋雙相障礙人群，正招募中"
+        },
+        {
+          "nct_id": "NCT00845988",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，評估雙相障礙患者藥物誘導代謝效應轉換研究，Clozapine相關代謝問題"
+        },
+        {
+          "nct_id": "NCT02893371",
+          "relevance_grade": "B",
+          "reasoning": "雙相障礙療法比較效益縱向研究，n>100萬（已終止），提供真實世界背景資料"
+        },
+        {
+          "nct_id": "NCT02582736",
+          "relevance_grade": "C",
+          "reasoning": "大型回顧性隊列n=725489，評估非典型抗精神病藥代謝急症，間接提供安全性資料"
+        },
+        {
+          "nct_id": "NCT03651674",
+          "relevance_grade": "C",
+          "reasoning": "ECT+雙相障礙MRI研究，狀態不明，非Clozapine特定療效評估"
+        },
+        {
+          "nct_id": "NCT01431326",
+          "relevance_grade": "C",
+          "reasoning": "兒童藥代動力學研究，納入雙相障礙兒童，提供PK資料"
+        },
+        {
+          "nct_id": "NCT00178932",
+          "relevance_grade": "C",
+          "reasoning": "精神分裂症基因危險因子研究，觀察性，相關性有限"
+        },
+        {
+          "nct_id": "NCT05958875",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，精神病首發強化治療，n=418，非雙相障礙特異性"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "32182485", "study_type": "Systematic Review/Meta-analysis", "tier": "1", "note": "最重要文獻：Clozapine在雙相障礙的系統回顧與meta-analysis，2020年"},
+        {"pmid": "33719158", "study_type": "Narrative Review", "tier": "1", "note": "「Clozapine for bipolar disorder: What do we know so far and what next?」2021年全面回顧"},
+        {"pmid": "31488793", "study_type": "Review", "tier": "1", "note": "Clozapine在雙相障礙自殺預防的前景分析，2019年"},
+        {"pmid": "37068038", "study_type": "Cross-sectional Cohort", "tier": "2", "note": "亞洲精神科處方模式研究：Clozapine用於雙相障礙，2023年"},
+        {"pmid": "31567198", "study_type": "Clinical Study", "tier": "2", "note": "精神分裂症和雙相障礙的Clozapine快速增量研究"},
+        {"pmid": "11280956", "study_type": "Review", "tier": "2", "note": "難治性雙相障礙治療回顧，2001年"},
+        {"pmid": "16432528", "study_type": "Review", "tier": "2", "note": "難治性雙相障礙治療更新，2006年"},
+        {"pmid": "37800205", "study_type": "Cohort Study", "tier": "3", "note": "雙相障礙與帕金森病關聯研究，間接相關"},
+        {"pmid": "34787653", "study_type": "Retrospective Cohort", "tier": "3", "note": "鋰鹽在雙相障礙自殺預防研究，Clozapine作為比較背景"},
+        {"pmid": "37171471", "study_type": "Review", "tier": "3", "note": "ECT機轉回顧，間接相關"}
+      ]
+    },
+    {
+      "disease_name": "manic bipolar affective disorder",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此為雙相障礙的躁狂相特異性診斷。Clozapine的D2/D4拮抗（劑量依賴）提供快速抗躁狂效果，5-HT2A拮抗輔助情緒穩定，α1拮抗可改善激動症狀。較一般雙相障礙診斷，躁狂相急性治療需更快速起效，且需更嚴格評估與情緒穩定劑的交互作用。",
+      "guardrails": [
+        "急性躁狂期劑量調控需謹慎（低起始劑量）",
+        "與鋰鹽、丙戊酸合併使用的藥物交互作用監控",
+        "鎮靜過度風險評估"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00029458",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 雙盲研究，直接評估Clozapine在難治性雙相情感障礙（含躁狂發作）療效，已完成，n=42"
+        },
+        {
+          "nct_id": "NCT05603104",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，強化藥理治療，大規模n=1254，涵蓋雙相障礙人群，正招募中"
+        },
+        {
+          "nct_id": "NCT07047651",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，藥物治療結合心理社會干預，n=40，雙相障礙背景但非Clozapine特定評估"
+        },
+        {
+          "nct_id": "NCT06993662",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，藥物+CBT組合研究，n=107，正進行中，非Clozapine特異性"
+        },
+        {
+          "nct_id": "NCT03651674",
+          "relevance_grade": "C",
+          "reasoning": "ECT縱向MRI研究，涵蓋雙相障礙，狀態不明，非藥效評估"
+        },
+        {
+          "nct_id": "NCT07398365",
+          "relevance_grade": "C",
+          "reasoning": "NHS住院精神科醫學表型研究，觀察性，非干預性"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "32182485", "study_type": "Systematic Review/Meta-analysis", "tier": "1", "note": "Clozapine在雙相障礙系統回顧，涵蓋躁狂發作"},
+        {"pmid": "33719158", "study_type": "Narrative Review", "tier": "1", "note": "雙相障礙Clozapine全面回顧，2021年"},
+        {"pmid": "31567198", "study_type": "Clinical Study", "tier": "2", "note": "Clozapine在雙相障礙快速增量研究"},
+        {"pmid": "11280956", "study_type": "Review", "tier": "2", "note": "難治性雙相障礙治療選項回顧"},
+        {"pmid": "16432528", "study_type": "Review", "tier": "2", "note": "難治性雙相障礙治療更新"},
+        {"pmid": "12392350", "study_type": "Review", "tier": "2", "note": "雙相障礙長期治療中抗憂鬱藥和抗精神病藥"},
+        {"pmid": "37171471", "study_type": "Review", "tier": "3", "note": "ECT機轉，間接相關"},
+        {"pmid": "34787653", "study_type": "Retrospective Cohort", "tier": "3", "note": "鋰鹽自殺預防研究，比較背景"},
+        {"pmid": "37800205", "study_type": "Cohort Study", "tier": "3", "note": "雙相障礙與帕金森病關聯，間接"},
+        {"pmid": "23678597", "study_type": "Review", "tier": "3", "note": "奧氮平綜述，比較背景"}
+      ]
+    },
+    {
+      "disease_name": "schizophreniform disorder",
+      "txgnn_score": 0.9969,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "精神分裂症樣障礙（schizophreniform disorder）為DSM-5精神分裂症譜系診斷，症狀與精神分裂症相同但病程<6個月。其核心病理（多巴胺D2過度活化、谷氨酸能失調）與精神分裂症高度相同。Clozapine在精神分裂症的廣泛L1證據可高度類推至此診斷，且分裂情感性障礙（schizoaffective）的系統回顧提供更近端支持。",
+      "guardrails": [
+        "需排除物質誘發精神病後方考慮",
+        "首發精神病劑量宜低起始",
+        "監控是否進展為慢性精神分裂症以調整療程"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01248195",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，歐洲精神分裂症治療優化研究（OPTIMISE），已完成，n=479，精神病首發研究可類推"
+        },
+        {
+          "nct_id": "NCT00320671",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，預防首發精神分裂症發病率研究，已完成，n=198，精神病譜系人群"
+        },
+        {
+          "nct_id": "NCT05958875",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 RCT，六週強化藥理治療，正招募，n=418，精神病首發背景"
+        },
+        {
+          "nct_id": "NCT02533232",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 RCT，Minocycline增強Clozapine治療難治性精神分裂症，狀態不明，直接使用Clozapine"
+        },
+        {
+          "nct_id": "NCT00312598",
+          "relevance_grade": "C",
+          "reasoning": "BMI/代謝/能量消耗觀察研究，n=30，非療效評估"
+        },
+        {
+          "nct_id": "NCT02600741",
+          "relevance_grade": "C",
+          "reasoning": "照顧者心理教育研究，n=296，非Clozapine特異性評估"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "34400122", "study_type": "Systematic Review", "tier": "1", "note": "Clozapine在分裂情感性障礙系統回顧，2021年，近端相關"},
+        {"pmid": "15717209", "study_type": "Review", "tier": "2", "note": "Clozapine反應預測因子及標記物"},
+        {"pmid": "8829795", "study_type": "Retrospective Study", "tier": "2", "note": "Clozapine與再犯率研究"},
+        {"pmid": "10682225", "study_type": "Case Series", "tier": "2", "note": "ECT合併Clozapine治療"},
+        {"pmid": "35696620", "study_type": "Retrospective Study", "tier": "2", "note": "Clozapine在運動障礙診所使用，2022年"},
+        {"pmid": "2375443", "study_type": "Case Series", "tier": "3", "note": "Clozapine與癲癇發作，1990年"},
+        {"pmid": "7814831", "study_type": "Case Series", "tier": "3", "note": "Clozapine與尿失禁"},
+        {"pmid": "31223104", "study_type": "Case Report", "tier": "3", "note": "Clozapine誘發間質性腎炎案例"},
+        {"pmid": "7554870", "study_type": "Retrospective Chart Review", "tier": "3", "note": "Clozapine與強迫症關係回顧"},
+        {"pmid": "37291505", "study_type": "Qualitative Study", "tier": "3", "note": "Clozapine停藥的患者主觀體驗"}
+      ]
+    },
+    {
+      "disease_name": "major affective disorder",
+      "txgnn_score": 0.9948,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "重性情感障礙涵蓋重度憂鬱及相關情感障礙。Clozapine的5-HT2A/2C拮抗可增強血清素能傳導，具潛在抗憂鬱輔助機轉；α2拮抗可增加去甲腎上腺素釋放；抗自殺效果具獨特優勢。然而多數證據為難治性精神病合併情感症狀，直接抗憂鬱的單純重性情感障礙證據仍不足，需進一步前瞻性研究。",
+      "evidence_gaps": [
+        "缺乏重性情感障礙單獨使用Clozapine的Phase 2+ RCT",
+        "已有臨床試驗多以精神分裂症/雙相障礙為主要族群",
+        "2025年橫斷性研究(PMID 41192460)提供跨診斷使用資料，但非RCT"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05603104",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，強化藥理治療，大規模n=1254，可能涵蓋情感障礙共病精神病人群"
+        },
+        {
+          "nct_id": "NCT00374244",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，Pimozide增強Clozapine部分反應研究，已完成，n=28，直接使用Clozapine"
+        },
+        {
+          "nct_id": "NCT06174116",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，Lumateperone輔助Clozapine代謝效應研究，n=50，非情感障礙療效主要終點"
+        },
+        {
+          "nct_id": "NCT03651674",
+          "relevance_grade": "C",
+          "reasoning": "ECT+雙相/精神分裂症MRI縱向研究，狀態不明"
+        },
+        {
+          "nct_id": "NCT00704860",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，難治性憂鬱症海馬萎縮+基因研究，評估SSRIs非Clozapine"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "41192460", "study_type": "Observational Cohort", "tier": "1", "note": "2025年跨診斷Clozapine有效性安全性研究，包含情感障礙"},
+        {"pmid": "37201142", "study_type": "Review", "tier": "2", "note": "自殺預防藥理學方法，Clozapine角色"},
+        {"pmid": "24308257", "study_type": "Review", "tier": "2", "note": "重性憂鬱、精神分裂症、雙相障礙自殺行為藥物治療"},
+        {"pmid": "33460070", "study_type": "Clinical Review", "tier": "2", "note": "躁狂治療方法，Clozapine作為選項"},
+        {"pmid": "39788917", "study_type": "Expert Consensus Statement", "tier": "2", "note": "2025年歐洲Clozapine血液監測規則修訂建議"},
+        {"pmid": "37852877", "study_type": "Clinical Quality Study", "tier": "2", "note": "重性憂鬱、精神分裂症、雙相障礙臨床照護品質指標"},
+        {"pmid": "10682225", "study_type": "Case Series", "tier": "2", "note": "ECT合併Clozapine治療案例"},
+        {"pmid": "34787653", "study_type": "Retrospective Cohort", "tier": "2", "note": "重性情感障礙自殺預防研究"},
+        {"pmid": "20051861", "study_type": "Review", "tier": "3", "note": "精神分裂症多藥併用，間接相關"},
+        {"pmid": "10365650", "study_type": "Pharmacokinetic Study", "tier": "3", "note": "Clozapine+丙戊酸藥代動力學，安全性資料"}
+      ]
+    },
+    {
+      "disease_name": "Tourette syndrome",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Tourette症候群的核心病理為基底神經節及紋狀體多巴胺能過度活化。Clozapine的D4優先拮抗特性（紋狀體D4受體密度高）理論上可抑制抽搐衝動；5-HT2A拮抗可輔助降低皮質-紋狀體迴路過度激活。現有文獻（主要為1990年代個案報告）顯示部分案例有效，但規模小且年代久遠，尚無前瞻性對照研究。",
+      "concern": "Clozapine副作用風險（agranulocytosis、代謝症候群）在Tourette病患（通常較年輕、較少共病）中獲益/風險比需審慎評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "8823347", "study_type": "Review", "tier": "2", "note": "Tourette症候群精神藥理學自然史與病生理考量，1996年"},
+        {"pmid": "1357907", "study_type": "Clinical Study", "tier": "2", "note": "Gilles de la Tourette症候群臨床評估與藥理治療，1992年"},
+        {"pmid": "12185806", "study_type": "Review", "tier": "2", "note": "抽搐症候群回顧，2002年"},
+        {"pmid": "12478878", "study_type": "Imaging Study", "tier": "2", "note": "精神分裂症/憂鬱/Tourette受體影像研究，2002年"},
+        {"pmid": "7856623", "study_type": "Review/Case Series", "tier": "2", "note": "Clozapine在帕金森病及其他運動障礙療法，1994年"},
+        {"pmid": "9472851", "study_type": "Case Series", "tier": "3", "note": "直接相關：Clozapine在Tourette症候群案例，1998年"},
+        {"pmid": "7578666", "study_type": "Case Report", "tier": "3", "note": "Clozapine在遲發性Tourette症候群案例，1995年"},
+        {"pmid": "23487230", "study_type": "Case Report", "tier": "3", "note": "Clozapine-Aripiprazole組合在Tourette症候群+雙相障礙，2013年"},
+        {"pmid": "8839951", "study_type": "Case Report", "tier": "3", "note": "抽搐持續狀態，1996年"},
+        {"pmid": "26952954", "study_type": "Case Report", "tier": "3", "note": "Clozapine誘發palilalia案例報告，2012年（不良反應關注）"}
+      ]
+    },
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADHD核心病理為前額葉皮質多巴胺和去甲腎上腺素不足，需以促進劑（methylphenidate、amphetamine）或α2激動劑增強傳導。Clozapine作為廣譜多巴胺拮抗劑，作用方向與ADHD治療相反，可能惡化注意力及認知功能。動物研究(PMID 22658977)在ADHD動物模型(Wistar-Kyoto rat)中顯示Clozapine增加焦慮、減少探索活動，具潛在反向效果。現有20篇文獻無一直接支持Clozapine用於ADHD治療。",
+      "safety_concern": "Clozapine的認知鈍化副作用可能加重ADHD的注意力和執行功能缺損",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01246765",
+          "relevance_grade": "C",
+          "reasoning": "精神科藥物妊娠登記研究，n=5000，監測安全性非ADHD療效評估，與Clozapine用於ADHD無直接相關"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "22658977", "study_type": "Animal Study", "tier": "3", "note": "⚠️ 反向證據：Clozapine在ADHD動物模型中增加焦慮和減少探索活動"},
+        {"pmid": "31299940", "study_type": "Retrospective Study", "tier": "3", "note": "Clozapine難治性精神分裂症患者持續注意力損害，非ADHD治療"},
+        {"pmid": "8959287", "study_type": "Observational Study", "tier": "3", "note": "兒童精神分裂症vs ADHD眨眼率比較，無Clozapine療效資料"},
+        {"pmid": "12185806", "study_type": "Review", "tier": "3", "note": "抽搐症候群（非ADHD），間接"},
+        {"pmid": "39096466", "study_type": "Review", "tier": "3", "note": "暴食症及共病疾病藥理治療，間接"},
+        {"pmid": "41349717", "study_type": "Case Report", "tier": "3", "note": "興奮劑誘發遲發性運動障礙，比較背景"},
+        {"pmid": "22395768", "study_type": "Review", "tier": "3", "note": "雙重診斷障礙治療，間接"},
+        {"pmid": "38881884", "study_type": "Review", "tier": "3", "note": "精神藥物與癲癇發作，安全性背景"},
+        {"pmid": "30257591", "study_type": "Review", "tier": "3", "note": "唐氏症藥理治療，極間接"},
+        {"pmid": "41520568", "study_type": "Animal Study", "tier": "3", "note": "STAM1缺失小鼠ADHD表現型研究，無Clozapine內容"}
+      ]
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADHD注意力缺失型的核心病理為前額葉皮質多巴胺D1受體傳導不足及去甲腎上腺素調節異常。Clozapine的D1/D2拮抗機轉與治療ADHD所需的多巴胺促進作用方向相反，理論上不支持此適應症。無任何臨床或臨床前直接證據，TxGNN高分可能反映神經精神疾病之共同特徵空間（feature space overlap）而非真實藥理關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "trichotillomania",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "拔毛症屬強迫性-衝動性控制障礙譜系（OCD-spectrum）。理論上Clozapine的5-HT2C拮抗可能影響強迫性重複行為，但此類 OCD-spectrum 疾病實際上有報告指出Clozapine可能誘發或惡化強迫症狀（PMID 7554870）。無任何直接臨床或臨床前數據，且潛在反向效果的安全顧慮使此適應症不宜推進。",
+      "safety_concern": "Clozapine有誘發繼發性強迫症狀的文獻報告（5-HT2C拮抗增加5-HT1A活性的複雜機轉），可能惡化強迫性拔毛行為",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Malan overgrowth syndrome",
+      "txgnn_score": 0.9902,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Malan過度生長綜合症（NFIX基因突變所致的罕見遺傳性疾病）以身材過高、大頭畸形、輕至中度智能障礙及特殊面容為主要特徵，病因為染色質重塑因子基因突變，非神經遞質傳導異常。Clozapine的多受體神經遞質調節機轉與此遺傳性結構發育異常無明確藥理關聯。TxGNN高預測分數可能源於神經精神共病（行為問題、注意力障礙）的特徵空間重疊，而非直接致病機轉關聯。無任何支持性證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合決策矩陣
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|-------------|----------|----------|------|---------|
+| **精神病障礙** | 0.9912 | **L1** | **S3** | ✅ Proceed | 50項試驗、多篇系統回顧、RCT (PMID 40746110) |
+| **雙相情感障礙** | 0.9962 | **L2** | **S3** | ✅ Proceed | Phase 2 RCT + 系統回顧/meta-analysis (PMID 32182485) |
+| **躁狂雙相障礙** | 0.9995 | **L2** | **S2** | ✅ Proceed | 同上，躁狂相特異性研究較少 |
+| **精神分裂症樣障礙** | 0.9969 | **L2** | **S2** | ✅ Proceed | 精神分裂症L1證據高度類推，分裂情感障礙系統回顧 |
+| **重性情感障礙** | 0.9948 | **L3** | **S2** | 🔬 Research Q | 2025年跨診斷觀察研究，缺乏直接RCT |
+| **Tourette症候群** | 0.9991 | **L4** | **S1** | 🔬 Research Q | 1990年代個案報告，需現代前瞻研究 |
+| **ADHD** | 0.9931 | **L5** | **S0** | ⛔ Hold | 機轉反向，動物研究顯示負面效果 |
+| **ADHD注意力缺失型** | 0.9921 | **L5** | **S0** | ⛔ Hold | 零直接證據 |
+| **拔毛症** | 0.9990 | **L5** | **S0** | ⛔ Hold | 零直接證據，潛在惡化風險 |
+| **Malan過度生長症** | 0.9902 | **L5** | **S0** | ⛔ Hold | 機轉無關聯，罕見遺傳病 |
+
+---
+
+## ⚠️ 重要安全警示（跨適應症）
+
+Clozapine 在**任何適應症**推進時均需強制配備以下安全管控：
+
+1. **血液毒性**：需強制白血球監測協議（ANC ≥ 1500/μL），agranulocytosis 發生率 0.8-1.6%
+2. **心肌炎**：治療前 4 週心臟監控（肌鈣蛋白、CRP、心電圖）
+3. **代謝綜合症**：定期監控體重、BMI、空腹血糖、血脂
+4. **癲癇**：劑量 > 600mg/day 癲癇風險增加，需 EEG 監控
+5. **藥物交互作用**：需評估 CYP1A2 代謝交互作用（尤其咖啡因、吸菸、fluvoxamine）
+
+> **免責聲明**：本分析僅供研究參考，不構成醫療建議。老藥新用候選需經過完整臨床驗證方可應用於臨床。

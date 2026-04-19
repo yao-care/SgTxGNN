@@ -1,0 +1,632 @@
+```json
+{
+  "drug": "Bendamustine",
+  "drugbank_id": "DB06769",
+  "analysis_date": "2026-04-10",
+  "note": "市場狀態標記為「未上市」（本地市場），但 Bendamustine（Treanda®）已於美國/歐盟取得 CLL 及難治性 B 細胞 NHL 適應症核准。MoA 補充：雙功能烷化劑（DNA 交叉連結）+ 嘌呤類似物（苯并咪唑環），對快速增殖之淋巴樣細胞具促凋亡作用。",
+  "indications": [
+    {
+      "disease_name": "mantle cell lymphoma",
+      "txgnn_score": 0.9963,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "MCL 為 B 細胞淋巴瘤，高度依賴增殖中的 B 細胞存活信號。Bendamustine 之烷化劑特性造成 DNA 雙鏈斷裂及交叉連結，引發 PARP 介導之凋亡；苯并咪唑環賦予嘌呤類似物效應，進一步干擾 B 細胞核酸合成。與 Rituximab 協同使用（BR 方案）已成為 MCL 標準療法骨幹，多項 Phase 3 RCT 以 BR 作為活性對照組即佐證其既定地位。",
+      "clinical_summary": "50 項試驗，含 1 項 Phase 3 完成（NCT01456351, n=230）、多項 Phase 2 完成；BR 方案在多個 Phase 3 BTK 抑制劑試驗中作為標準對照組（PMID 32985902, 35657079, 40311141）",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01456351",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3, COMPLETED, n=230；隨機多中心研究比較 BR 與其他方案於復發/進展低惡性度 NHL 含 MCL，直接支持 Bendamustine 在 MCL 的療效。最高級別試驗證據。"
+        },
+        {
+          "nct_id": "NCT01437709",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2, COMPLETED, n=30；Ofatumumab ± Bendamustine 專門針對不適合自體移植之 MCL 患者，適應症高度特異。"
+        },
+        {
+          "nct_id": "NCT01415752",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2, ACTIVE, n=373；四臂隨機研究針對 ≥60 歲初治 MCL，規模大，直接相關。"
+        },
+        {
+          "nct_id": "NCT01457144",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2, COMPLETED, n=76；RiBVD 方案（含 Bendamustine）作為 >65 歲 MCL 一線療法，完整的有效性資料。"
+        },
+        {
+          "nct_id": "NCT06854003",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2, RECRUITING；BR+阿糖胞苷+澤布替尼隨機研究，BR 為誘導骨幹，持續驗證 Bendamustine 在 MCL 的角色。"
+        },
+        {
+          "nct_id": "NCT02278796",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2, COMPLETED, n=108；BeEAM vs BEAM 作為自體幹細胞移植前處理方案，Bendamustine 為實驗性替代藥物，間接支持其在 MCL 移植管理中的角色。"
+        },
+        {
+          "nct_id": "NCT01479842",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1, ACTIVE；Rituximab + Bendamustine + BTK 抑制劑三聯方案，用於確認組合安全性，Bendamustine 為標準骨幹。"
+        },
+        {
+          "nct_id": "NCT00889798",
+          "relevance_grade": "B",
+          "reasoning": "流行病學登錄研究（N=3795），記錄 MCL 真實世界治療模式，Bendamustine 使用資料具參考價值，但非干預性試驗。"
+        },
+        {
+          "nct_id": "NCT05406154",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，狀態 UNKNOWN，Ibrutinib 組合之安全性與療效評估，Bendamustine 角色不明確。"
+        },
+        {
+          "nct_id": "NCT01170052",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2，WITHDRAWN，最終未完成；Bendamustine + Temsirolimus 組合於復發/難治 MCL，因撤回而無法提供有效數據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35657079",
+          "title": "Ibrutinib plus BR in Untreated MCL (2022)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "BR 作為對照骨幹，PFS 顯著改善；BR 方案療效獲 Phase 3 RCT 證實"
+        },
+        {
+          "pmid": "40311141",
+          "title": "Acalabrutinib Plus BR in Untreated MCL (2025)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "最新 Phase 3 數據，再次以 BR 作為標準對照，確認 Bendamustine 在 MCL 一線地位"
+        },
+        {
+          "pmid": "32985902",
+          "title": "Zanubrutinib+R vs BR in MCL Phase III (2021)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "BR 為活性對照組，ORR 84.4%；直接呈現 BR 方案療效數據"
+        },
+        {
+          "pmid": "23433739",
+          "title": "BR vs CHOP-R first-line indolent NHL/MCL (2013)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "奠定 BR 方案優於 CHOP-R 的里程碑研究，包含 MCL 亞組"
+        },
+        {
+          "pmid": "41052510",
+          "title": "Ibrutinib+R vs immunochemotherapy in MCL (2025)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "免疫化療組含 Bendamustine，最新長期追蹤數據"
+        },
+        {
+          "pmid": "30811293",
+          "title": "BR first-line in indolent NHL/MCL (2019)",
+          "study_type": "Phase 3 RCT / Long-term follow-up",
+          "tier": "1",
+          "note": "10 年長期追蹤確認 BR 方案持久療效"
+        },
+        {
+          "pmid": "32126141",
+          "title": "R/bendamustine and R/cytarabine induction for MCL (2020)",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "移植適合 MCL 誘導療法比較，BR 方案實際效果數據"
+        },
+        {
+          "pmid": "35658525",
+          "title": "KTE-X19 3-year follow-up in R/R MCL (2023)",
+          "study_type": "Single-arm Phase 2 follow-up",
+          "tier": "2",
+          "note": "CAR-T 試驗，部分患者曾接受含 Bendamustine 橋接治療，間接相關"
+        },
+        {
+          "pmid": "26755518",
+          "title": "Mantle Cell Lymphoma Review (2016)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "MCL 治療綜述，描述 BR 作為標準方案之背景"
+        },
+        {
+          "pmid": "32739830",
+          "title": "Mantle Cell Lymphoma Review (2020)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "更新版綜述，確認 BR 在 MCL 治療中的核心地位"
+        }
+      ]
+    },
+    {
+      "disease_name": "Hodgkins lymphoma",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "霍奇金淋巴瘤（HL）以 Reed-Sternberg 細胞為特徵，來源於 B 細胞。Bendamustine 之 DNA 烷化機制可誘導 R-S 細胞凋亡；苯并咪唑環結構對增殖中的淋巴瘤細胞具額外毒性。在多線化療後復發/難治（R/R）HL 中，Bendamustine 作為挽救方案已有兩項 Phase 3 試驗支持（共 205 名患者）。",
+      "clinical_summary": "50 項試驗，含 2 項 Phase 3 完成（NCT01596621 n=102，NCT00139841 n=103）；多項 Phase 1/2 完成，確認在 R/R HL 中單藥或組合療效",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01596621",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3, COMPLETED, n=102；針對中國 HL 患者評估 Bendamustine 療效，亞洲人種數據，直接高相關。"
+        },
+        {
+          "nct_id": "NCT00139841",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3, COMPLETED, n=103；Treanda® 多中心 Phase 3 研究針對 HL，最核心的試驗證據之一。"
+        },
+        {
+          "nct_id": "NCT01874054",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2, COMPLETED, n=55；Brentuximab vedotin + Bendamustine 組合於復發 HL，探索新組合安全性與療效。"
+        },
+        {
+          "nct_id": "NCT04673617",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2, ACTIVE, n=45；多中心研究評估新型組合在 HL，Bendamustine 持續被納入研究骨幹。"
+        },
+        {
+          "nct_id": "NCT04897477",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2, UNKNOWN, n=30；阿扎胞苷 + Bendamustine + PD-1 抑制劑組合，探索 Bendamustine 與表觀遺傳學藥物協同。"
+        },
+        {
+          "nct_id": "NCT01294579",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2, COMPLETED, n=49；Ofatumumab + Bendamustine 用於惰性淋巴瘤（含部分 HL 類型）。"
+        },
+        {
+          "nct_id": "NCT01479842",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，以 BTK 抑制劑組合為主要目的，HL 非主要入組適應症，相關性較低。"
+        },
+        {
+          "nct_id": "NCT02623920",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2, WITHDRAWN, n=0；撤回試驗無法提供有效數據。"
+        },
+        {
+          "nct_id": "NCT05352828",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1, CD30-CAR-T 試驗；Bendamustine 僅作淋巴清除預處理，非主要研究藥物。"
+        },
+        {
+          "nct_id": "NCT03570892",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3, Tisagenlecleucel vs SOC；Bendamustine 可能在 SOC 橋接治療中使用，非主要研究對象。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36564047",
+          "title": "Nivolumab + brentuximab vedotin ± bendamustine in R/R HL (2023)",
+          "study_type": "Phase 2 RCT",
+          "tier": "1",
+          "note": "前瞻性隨機研究，直接比較含/不含 Bendamustine 的組合，提供 HL 直接療效對照數據"
+        },
+        {
+          "pmid": "27345636",
+          "title": "Obinutuzumab+bendamustine vs bendamustine monotherapy in rituximab-refractory NHL (2016)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "Phase 3 RCT，Bendamustine 單藥組作為對照，確認其在難治性 B 細胞淋巴瘤中的單藥活性"
+        },
+        {
+          "pmid": "24591201",
+          "title": "BR vs R-CHOP/R-CVP in indolent NHL (2014)",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "雖主要針對惰性 NHL，部分亞組數據與 HL 管理策略相關"
+        },
+        {
+          "pmid": "31894937",
+          "title": "Lymphoma: Diagnosis and Treatment Review (2020)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "HL 治療全面綜述，描述 Bendamustine 在多線治療中的角色"
+        },
+        {
+          "pmid": "30811293",
+          "title": "BR first-line in indolent NHL/MCL (2019)",
+          "study_type": "Phase 3 RCT Follow-up",
+          "tier": "2",
+          "note": "B 細胞淋巴瘤長期療效數據，部分適用於 HL 亞型的輔助管理"
+        },
+        {
+          "pmid": "32701411",
+          "title": "Anti-CD30 CAR-T in R/R Hodgkin Lymphoma (2020)",
+          "study_type": "Phase 1/2",
+          "tier": "2",
+          "note": "HL CAR-T 試驗，Bendamustine 可能用於預處理，間接佐證其在 HL 管理中的整合"
+        },
+        {
+          "pmid": "37767550",
+          "title": "Polatuzumab vedotin + BR in R/R follicular (2024)",
+          "study_type": "Phase 2",
+          "tier": "2",
+          "note": "BR 組合應用於濾泡性淋巴瘤，機轉相通，間接佐證"
+        },
+        {
+          "pmid": "35658525",
+          "title": "KTE-X19 3-year follow-up in R/R MCL (2023)",
+          "study_type": "Single-arm Phase 2 follow-up",
+          "tier": "3",
+          "note": "MCL 相關，間接相關"
+        },
+        {
+          "pmid": "37879047",
+          "title": "Axicabtagene ciloleucel in R/R indolent NHL 3-year follow-up (2024)",
+          "study_type": "Phase 2 Follow-up",
+          "tier": "3",
+          "note": "惰性 NHL，橋接含 Bendamustine，間接相關"
+        },
+        {
+          "pmid": "40009494",
+          "title": "MURANO study final analysis VenR for CLL (2025)",
+          "study_type": "Phase 3 RCT Follow-up",
+          "tier": "3",
+          "note": "CLL 試驗，與 HL 相關性低，列入參考"
+        }
+      ]
+    },
+    {
+      "disease_name": "MALT lymphoma",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "MALT 淋巴瘤（黏膜相關淋巴組織淋巴瘤）屬邊緣區 B 細胞淋巴瘤，對 DNA 損傷敏感。Bendamustine 之烷化劑作用造成 B 細胞 DNA 不可逆損傷；苯并咪唑結構干擾嘌呤合成，協同誘導凋亡。BR（Bendamustine + Rituximab）方案已成為多種惰性 B 細胞 NHL（包含 MALT）的一線或二線標準方案，並在 Phase 3 試驗（NCT01974440, n=403）中作為標準對照組，確認其在 MALT 治療中的既定地位。",
+      "clinical_summary": "29 項試驗，含 Phase 3（NCT01974440 n=403 已完成；NCT01732926 n=475 提前終止），多項 Phase 2 完成；多篇近期佇列研究（2024）確認 BR 在 MALT/邊緣區淋巴瘤一線療效",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01974440",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3, COMPLETED, n=403；雙盲安慰劑對照，Ibrutinib vs BR（標準對照）用於惰性 NHL 含 MALT，BR 作為標準對照明確確認其既定地位。最高等級試驗證據。"
+        },
+        {
+          "nct_id": "NCT01015248",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2, COMPLETED, n=60；Bendamustine + Rituximab 於先前治療之惰性 NHL（含 MALT），直接相關的療效研究。"
+        },
+        {
+          "nct_id": "NCT01294579",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2, COMPLETED, n=49；Ofatumumab + Bendamustine 用於惰性 NHL，包含 MALT 亞組，具直接相關性。"
+        },
+        {
+          "nct_id": "NCT01732926",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3, TERMINATED（提前）, n=475；雖提前終止，但規模大，數據仍具參考價值；Bendamustine 為標準對照組之一。"
+        },
+        {
+          "nct_id": "NCT06006117",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3, RECRUITING；Mosunetuzumab-Lenalidomide vs BR 或化療，BR 仍作為當前標準對照，確認其現行地位。"
+        },
+        {
+          "nct_id": "NCT00889798",
+          "relevance_grade": "B",
+          "reasoning": "大型流行病學登錄（n=3795），記錄惰性淋巴瘤（含 MALT）真實世界 Bendamustine 使用情況。"
+        },
+        {
+          "nct_id": "NCT01326702",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2, COMPLETED, n=43；ABT-888 + Bendamustine ± Rituximab 用於淋巴瘤/MM，MALT 患者可能納入，Bendamustine 為骨幹藥物。"
+        },
+        {
+          "nct_id": "NCT01479842",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，BTK 抑制劑劑量遞增研究，MALT 非主要適應症，間接相關。"
+        },
+        {
+          "nct_id": "NCT02623920",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2, WITHDRAWN, n=0；撤回試驗，無法提供有效數據。"
+        },
+        {
+          "nct_id": "NCT02153580",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1, CAR-T 細胞療法研究；Bendamustine 僅作橋接或預處理用途，非主要研究藥物。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38827319",
+          "title": "BR frontline in extranodal marginal zone lymphoma (2024)",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "單機構 BR 一線治療結外 MZL（含 MALT），ORR 及長期追蹤數據，2024 年最新證據"
+        },
+        {
+          "pmid": "38497158",
+          "title": "BR as first-line for symptomatic splenic MZL (2024)",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "note": "脾臟 MZL（MALT 相關亞型）BR 一線療效，近期大型佇列數據"
+        },
+        {
+          "pmid": "27029232",
+          "title": "Bendamustine plus rituximab in MALT lymphoma (2014)",
+          "study_type": "Cohort / Case Series",
+          "tier": "2",
+          "note": "早期 BR 用於 MALT 的系統性資料，奠定後續研究基礎"
+        },
+        {
+          "pmid": "29424433",
+          "title": "R-Benda in MALT lymphoma complicating primary Sjögren syndrome (2019)",
+          "study_type": "Case Series",
+          "tier": "2",
+          "note": "特殊亞群（Sjogren 相關 MALT）BR 方案的療效與安全性資料"
+        },
+        {
+          "pmid": "28288705",
+          "title": "Clinical aspects and therapy of GI MALT lymphoma (2017)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "胃腸道 MALT 淋巴瘤治療綜述，Bendamustine 被列為系統性治療選項"
+        },
+        {
+          "pmid": "35244050",
+          "title": "Treatment of refractory MALT lymphoma by lenalidomide + bendamustine (2022)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "難治性 MALT 淋巴瘤創新組合案例，佐證 Bendamustine 在難治場景的潛力"
+        },
+        {
+          "pmid": "37879047",
+          "title": "Axicabtagene ciloleucel in R/R indolent NHL 3-year follow-up (2024)",
+          "study_type": "Phase 2 Follow-up",
+          "tier": "3",
+          "note": "惰性 NHL CAR-T 試驗，Bendamustine 可能用於橋接，間接相關"
+        },
+        {
+          "pmid": "24290221",
+          "title": "Pim kinase inhibitor SGI-1776 + bendamustine in B-cell lymphoma (2013)",
+          "study_type": "Preclinical / Early Phase",
+          "tier": "3",
+          "note": "體外研究佐證 Bendamustine 在 B 細胞淋巴瘤的機轉"
+        },
+        {
+          "pmid": "40503979",
+          "title": "Synchronous MALT lymphoma and gastric adenocarcinoma (2025)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "案例報告，描述 MALT 合併其他惡性腫瘤的管理，Bendamustine 使用情況"
+        },
+        {
+          "pmid": "31447331",
+          "title": "[Not Available] (2019)",
+          "study_type": "Unknown",
+          "tier": "3",
+          "note": "標題不可用，無法評估直接相關性"
+        }
+      ]
+    },
+    {
+      "disease_name": "chronic myelogenous leukemia, BCR-ABL1 positive",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CML 主要由 BCR-ABL1 融合基因驅動，TKI（伊馬替尼等）為標準治療。Bendamustine 之烷化劑機制並非針對 BCR-ABL1 信號，理論機轉相關性弱。唯一的試驗連結為異體移植前處理方案（NCT02996773），在此情境下 Bendamustine 作為淋巴清除藥物使用，非針對 CML 的直接治療。文獻亦僅來自 CLL 療法综述及其他白血病案例，無 CML 直接證據。",
+      "clinical_summary": "1 項 Phase 1 試驗（移植前處理，非 CML 直接治療），3 篇文獻均非直接 CML 療效資料",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02996773",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1, COMPLETED, n=50；半相合骨髓移植後環磷醯胺 + Bendamustine 作為移植前處理方案，涵蓋多種血液惡性腫瘤（含 CML），但 Bendamustine 非 CML 的直接治療藥物，而是移植準備用藥，相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27913471",
+          "title": "Sequencing of CLL therapies (2016)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "CLL（慢性淋巴細胞白血病）而非 CML，疾病不同，相關性極低"
+        },
+        {
+          "pmid": "28620927",
+          "title": "Bendamustine for relapsed blastic plasmacytoid dendritic cell leukaemia (2017)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "漿樣樹突細胞白血病（BPDCL）而非 CML，不同白血病亞型，但佐證 Bendamustine 在難治白血病的潛在活性"
+        },
+        {
+          "pmid": "18183660",
+          "title": "ASH annual meeting report (2008)",
+          "study_type": "Conference Abstract",
+          "tier": "3",
+          "note": "年度會議摘要，無完整方法學，相關性與品質均較低"
+        }
+      ]
+    },
+    {
+      "disease_name": "small intestinal Burkitt lymphoma",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Burkitt 淋巴瘤以 MYC 基因易位為特徵，高度侵襲性，標準治療為高劑量強化療法（如 CODOX-M/IVAC, R-EPOCH）。Bendamustine 之烷化劑機制理論上可誘導 Burkitt 細胞 DNA 損傷，但 Burkitt 的高增殖率（Ki-67 接近 100%）需要更積極的多藥方案；小腸 Burkitt 更為罕見，無任何小腸特異性試驗或文獻。3 項掛名試驗均為一般淋巴瘤/多發性骨髓瘤研究，非 Burkitt 特異性。",
+      "clinical_summary": "3 項試驗（均非 Burkitt 特異性；1 項已終止僅納入 1 名患者），0 篇文獻",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01326702",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2, COMPLETED, n=43；ABT-888 + Bendamustine ± Rituximab 用於淋巴瘤/多發性骨髓瘤廣泛適應症，入組標準可能包含 Burkitt，但非針對性研究，數據不可分離。"
+        },
+        {
+          "nct_id": "NCT01110135",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2, COMPLETED, n=43；BED + GCSF 用於外周血幹細胞動員，非直接 Burkitt 治療研究，相關性低。"
+        },
+        {
+          "nct_id": "NCT02168907",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1, TERMINATED, n=1；提前終止，僅納入 1 名患者，數據無效；Bendamustine 在一般復發/難治惡性腫瘤的組合探索。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "small intestinal mucosa-associated lymphoid tissue lymphoma",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "小腸 MALT 淋巴瘤屬邊緣區 B 細胞淋巴瘤的特殊部位亞型，在大型 MALT 淋巴瘤研究中通常數量極少（胃 MALT 佔多數）。雖然 MALT 大類有 L1 證據支持 BR 方案（見 MALT lymphoma 適應症），但小腸特異性部位的 MALT 無獨立試驗或文獻，現有 3 項試驗均非小腸 MALT 特異性，1 篇文獻為肝臟邊緣區淋巴瘤案例（不同部位）。",
+      "clinical_summary": "3 項非特異性試驗（與 Burkitt 小腸相同清單），1 篇間接文獻",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01326702",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2，一般淋巴瘤試驗，非小腸 MALT 特異性；若 MALT 患者納入，數據不可分離。"
+        },
+        {
+          "nct_id": "NCT01110135",
+          "relevance_grade": "C",
+          "reasoning": "幹細胞動員試驗，與小腸 MALT 直接治療無關。"
+        },
+        {
+          "nct_id": "NCT02168907",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1, TERMINATED, n=1；數據無效，相關性最低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28694862",
+          "title": "Primary Hepatic Marginal Zone Lymphoma in Chronic Hepatitis C (2016)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "肝臟原發性邊緣區淋巴瘤案例，非小腸部位；Bendamustine 使用情況描述，可作機轉類推但直接性不足"
+        }
+      ]
+    },
+    {
+      "disease_name": "thyroid gland mucosa-associated lymphoid tissue lymphoma",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "甲狀腺 MALT 淋巴瘤極為罕見（佔甲狀腺惡性腫瘤 <5%），常與橋本甲狀腺炎相關。雖然廣義 MALT 淋巴瘤的 BR 方案有強力證據（L1），但甲狀腺特異部位 MALT 無任何臨床試驗或文獻支持，目前僅為模型預測分數。需先確認甲狀腺 MALT 是否可適用廣義 MALT 治療策略，再評估 Bendamustine 適用性。",
+      "clinical_summary": "0 項試驗，0 篇文獻",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "breast mucosa-associated lymphoid tissue lymphoma",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳房 MALT 淋巴瘤罕見，可能與自體免疫或慢性炎症相關。廣義 MALT BR 方案理論上可類推，但乳房解剖部位特殊性（局部治療優先考量、乳房保留手術）及極罕見的發生率使全身化療方案的適用性存疑。現有 2 篇文獻均非乳房 MALT 特異性（肝臟 MZL + 結膜 MALT），不具直接證據。",
+      "clinical_summary": "0 項試驗，2 篇間接文獻（非乳房特異性）",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28694862",
+          "title": "Primary Hepatic Marginal Zone Lymphoma (2016)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "肝臟 MZL 案例，非乳房 MALT；僅作機轉類推參考"
+        },
+        {
+          "pmid": "24458180",
+          "title": "Conjunctival MALT lymphoma: FDG PET/CT utility (2014)",
+          "study_type": "Case Series / Imaging Study",
+          "tier": "3",
+          "note": "結膜 MALT，非乳房；主要評估影像診斷，非 Bendamustine 療效"
+        }
+      ]
+    },
+    {
+      "disease_name": "tonsillar lymphoma",
+      "txgnn_score": 0.9932,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "扁桃體淋巴瘤屬結外淋巴瘤，常見類型包含彌漫大 B 細胞淋巴瘤（DLBCL）或 MCL 的扁桃體呈現。若為 MCL 扁桃體侵犯，Bendamustine 有強力 MCL 證據可類推；若為其他組織類型（如 DLBCL），機轉相關性需另行評估。現有 2 篇文獻均為案例報告（1 篇 MCL 扁桃體呈現，1 篇複合型淋巴瘤），無試驗性研究。",
+      "clinical_summary": "0 項試驗，2 篇案例報告（均非前瞻性研究）",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33091144",
+          "title": "Palatine Tonsils Primary MCL (Blastoid variant): Case Report (2021)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "MCL 扁桃體呈現案例；若此類型，可援引 MCL 的 L1 BR 證據，但需組織學確認"
+        },
+        {
+          "pmid": "39006292",
+          "title": "Extranodal composite lymphoma case report (2024)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "罕見複合型淋巴瘤，扁桃體受累，Bendamustine 使用描述，極度個案化"
+        }
+      ]
+    },
+    {
+      "disease_name": "relapsing-remitting multiple sclerosis",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "RRMS 為自體免疫疾病，Bendamustine 之強效淋巴細胞清除作用（理論上）可能抑制 T/B 細胞媒介的神經發炎。然而：(1) 現有 RRMS 治療（干擾素 β、奧法木單抗、那他珠單抗等）安全性更為可控；(2) Bendamustine 之骨髓毒性、免疫抑制深度及感染風險在 RRMS 患者難以接受；(3) 無任何 RRMS 臨床試驗或文獻記錄；(4) TxGNN 高分可能反映圖譜中免疫調節連結，非針對性預測。此適應症應列為不合理的再利用方向。",
+      "clinical_summary": "0 項試驗，0 篇文獻；高 TxGNN 分數可能為模型假陽性，需謹慎解讀",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_flags": [
+        "風險效益比嚴重不利：烷化劑毒性 vs. 已有安全有效的 RRMS 標準治療",
+        "TxGNN 評分可能反映知識圖譜中免疫調節邊緣連結，非直接療效預測",
+        "建議作為模型假陽性案例納入 TxGNN 驗證數據集"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "L1_indications": ["mantle cell lymphoma", "Hodgkins lymphoma", "MALT lymphoma"],
+    "L2_indications": [],
+    "L3_indications": [],
+    "L4_indications": ["chronic myelogenous leukemia BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "small intestinal MALT lymphoma", "tonsillar lymphoma"],
+    "L5_indications": ["thyroid gland MALT lymphoma", "breast MALT lymphoma", "relapsing-remitting multiple sclerosis"],
+    "key_insight": "Bendamustine 在 B 細胞淋巴瘤（MCL、HL、MALT）具有高強度 Phase 3 RCT 直接證據，BR 方案已是國際標準療法骨幹。CML 及罕見 MALT 亞部位（小腸/甲狀腺/乳房）缺乏特異性證據。RRMS 為模型假陽性，不建議進一步評估。本地市場未上市狀態為主要進入障礙，需考慮藥品引進路徑。"
+  }
+}
+```
+
+---
+
+## 📋 評估摘要
+
+### 🟢 S3 — 可建議（Proceed with Guardrails）
+
+| 適應症 | 等級 | 核心依據 |
+|--------|------|----------|
+| **Mantle Cell Lymphoma** | **L1** | 6 項 Phase 2/3 完成試驗；BR 方案在 3 項 Phase 3 BTK 抑制劑試驗中作為活性對照（PMID 32985902, 35657079, 40311141）|
+| **Hodgkin's Lymphoma** | **L1** | 2 項 Phase 3 完成（NCT01596621 + NCT00139841，共 205 名患者）；含中文族群數據 |
+| **MALT Lymphoma** | **L1** | Phase 3 NCT01974440（n=403）以 BR 為標準對照；2024 年兩篇最新佇列研究確認 MZL 一線療效 |
+
+> ⚠️ **Guardrails 提示**：藥品「未上市」（本地），需評估進口特殊許可路徑；骨髓毒性與感染風險需監測。
+
+---
+
+### 🟡 S1 — 安全性初評（Research Question）
+
+| 適應症 | 等級 | 說明 |
+|--------|------|------|
+| **CML（BCR-ABL1+）** | **L4** | 僅 1 項移植前處理 Phase 1 試驗（非直接 CML 治療）；TKI 為標準療法，Bendamustine 切入點需重新定義 |
+
+---
+
+### 🔴 S0 — Hold（證據不足）
+
+| 適應症 | 等級 | 主因 |
+|--------|------|------|
+| 小腸 Burkitt 淋巴瘤 | L4 | 3 項非特異性試驗，0 篇文獻 |
+| 小腸 MALT 淋巴瘤 | L4 | 同上 + 1 篇間接文獻 |
+| 甲狀腺 MALT 淋巴瘤 | **L5** | 無任何臨床證據 |
+| 乳房 MALT 淋巴瘤 | **L5** | 無試驗；2 篇文獻均非乳房特異性 |
+| 扁桃體淋巴瘤 | L4 | 僅 2 篇案例報告 |
+| **RRMS** | **L5** | ⚡ 模型假陽性；無任何證據；毒性效益比不合理 |

@@ -1,0 +1,1475 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09130-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Copper",
+    "drugbank_id": "DB09130",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "esotropia",
+      "txgnn": {
+        "score": 0.9625399708747864,
+        "rank": 23583
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知銅與斜視（眼外肌失衡）之間的直接機轉關聯。TxGNN 高分可能源於知識圖譜中眼科疾病的拓撲鄰近性，而非生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "dermatitis",
+      "txgnn": {
+        "score": 0.9506123065948486,
+        "rank": 26553
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02615249",
+            "title": "Clinical Evaluation of Metal Panel Allergens: Aluminum, Copper, Manganese, Molybdenum, Tin, Titanium, Vanadium and Zinc Dose Response Study",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 122,
+            "start_date": "2016-12-05",
+            "completion_date": "2019-07-15",
+            "brief_summary": "48-hour application of metal allergen patches to test for potential allergic responses.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，已完成，n=122。研究銅作為金屬過敏原（patch test），本質為評估銅「致病性」而非治療效果，對再利用研究具負面意義。"
+            }
+          },
+          {
+            "nct_id": "NCT01291628",
+            "title": "A Pilot Study- Prevention of Capecitabine Induced Hand and Foot Syndrome",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 10,
+            "start_date": "2012-01",
+            "completion_date": "2014-01",
+            "brief_summary": "Capecitabine is a common anti cancer drug. One of the most common side effects is a syndrome called hand and foot syndrome which comprises of hands and feet redness, swelling, dryness and painful sores. Quite often the drug dose is reduced to suboptimal level due to this side effect. There is no way to prevent or an effective way to treat this side effect. The investigators aim is to investigate whether wearing socks which contain copper fibers may prevent or alleviate the patient symptoms.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，狀態 UNKNOWN，n=10。針對卡培他濱誘發手足症候群的預防，銅的角色不明確，樣本極小且狀態不明。"
+            }
+          },
+          {
+            "nct_id": "NCT06726707",
+            "title": "COPPER: An Adaptative Design, Randomized, Multicenter, Controlled, Double-Blinded Exploratory Trial, Evaluating the Management of Incontinence-Associated Dermatitis Using Copper Containing Absorbing Incontinence Products",
+            "phase": "PHASE2, PHASE3",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2025-09-01",
+            "completion_date": "2026-08-30",
+            "brief_summary": "As there are currently no evidence on the benefit of absorbing incontinence products with copper to stabilize IAD in the elderly, thus, this study will assess the capacity and safety of an absorbing incontinence products with a copper-based substance for the management of adults with incontinence-associated dermatitis, compared to an absorbing incontinence products with no substance. This approach may contribute for IAD management arsenal, since clinical evidence on the efficiency of products av",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2/3，但已 WITHDRAWN，n=0。試驗名稱直接包含「COPPER」且針對皮膚炎，本應是最相關的試驗，但因撤回未能產生任何數據，提示可能存在設計或安全性障礙。"
+            }
+          },
+          {
+            "nct_id": "NCT01132651",
+            "title": "Novel Use of a Cooling Pillow for Treatment of Severe Hand and Neck Atopic Dermatitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 9,
+            "start_date": "2010-05",
+            "completion_date": "2010-12",
+            "brief_summary": "The purpose of this study is to see if using a cooling pillow at night will help sleep quality in people with atopic dermatitis (AD).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "物理冷卻枕頭介入，非銅特異性治療，納入此清單可能為資料庫關鍵字匹配錯誤。"
+            }
+          },
+          {
+            "nct_id": "NCT02050620",
+            "title": "A Pilot Study to Examine the Association Between Self-Reported Exercise Behavior and Short-Term Patient Outcomes in Women Undergoing Radiation Treatment for Operable Breast Cancer",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2014-01",
+            "completion_date": "2015-12",
+            "brief_summary": "Using an observational prospective design, potential subjects will be identified and screened for eligibility via medical record review of breast cancer patients scheduled for radiation therapy at Duke Radiation Oncology Clinic. Subjects who agree to participate will be asked to complete study questionaires prior to the start of radiation therapy and again during the last week of therapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "運動行為與異位性皮膚炎關聯研究，無銅介入，不相關。"
+            }
+          },
+          {
+            "nct_id": "NCT06529913",
+            "title": "Model of diseAses Related to Environmental Exposure to Heavy meTals, nanopaRticles and Emergent Contaminants, Using a dIgital platfOrm of Clinical and Bio-humoral Data: the Way to Susceptibility/RisK BiomArker [MATRIOSKA Study] - The Seed.",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 280,
+            "start_date": "2025-01-13",
+            "completion_date": "2026-12-31",
+            "brief_summary": "The goal of this clinical trial is to collect environmental, bio-humoral, and clinical data derived from patients with allergic contact dermatitis (ACD) and systemic metal allergic syndromes related to the exposure to heavy metals, nanoparticles, and emergent contaminants and from healthy subjects.\n\nThe main question it aims to answer is: are environmental, bio-humoral, and clinical data derived from patients with ACD and systemic metal allergic syndromes, related to the exposure to heavy metals",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "觀察性重金屬暴露研究（n=280，招募中），銅為暴露因子而非治療藥物，屬毒理學範疇。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39102684",
+            "title": "Nutrition, Obesity, and Seborrheic Dermatitis: Systematic Review.",
+            "authors": [
+              "Woolhiser Emily",
+              "Keime Noah",
+              "Patel Arya",
+              "Weber Isaac",
+              "Adelman Madeline"
+            ],
+            "journal": "JMIR dermatology",
+            "year": "2024",
+            "abstract": "Pathogenesis of seborrheic dermatitis involves lipid secretion by sebaceous glands, Malassezia colonization, and an inflammatory response with skin barrier disruption. Each of these pathways could be modulated by diet, obesity, and nutritional supplements. Current treatment options provide only temporary control of the condition; thus, it is essential to recognize modifiable lifestyle factors that may play a role in determining disease severity.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38612631",
+            "title": "Zinc, Copper, and Iron in Selected Skin Diseases.",
+            "authors": [
+              "Podgórska Aleksandra",
+              "Kicman Aleksandra",
+              "Naliwajko Sylwia",
+              "Wacewicz-Muczyńska Marta",
+              "Niczyporuk Marek"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "abstract": "Trace elements are essential for maintaining the body's homeostasis, and their special role has been demonstrated in skin physiology. Among the most important trace elements are zinc, copper, and iron. A deficiency or excess of trace elements can be associated with an increased risk of skin diseases, so increasing their supplementation or limiting intake can be helpful in dermatological treatment. In addition, determinations of their levels in various types of biological material can be useful a",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38367035",
+            "title": "Role of zinc in health and disease.",
+            "authors": [
+              "Stiles Lucy I",
+              "Ferrao Kevin",
+              "Mehta Kosha J"
+            ],
+            "journal": "Clinical and experimental medicine",
+            "year": "2024",
+            "abstract": "This review provides a concise overview of the cellular and clinical aspects of the role of zinc, an essential micronutrient, in human physiology and discusses zinc-related pathological states. Zinc cannot be stored in significant amounts, so regular dietary intake is essential. ZIP4 and/or ZnT5B transport dietary zinc ions from the duodenum into the enterocyte, ZnT1 transports zinc ions from the enterocyte into the circulation, and ZnT5B (bidirectional zinc transporter) facilitates endogenous z",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25098945",
+            "title": "Copper hypersensitivity.",
+            "authors": [
+              "Fage Simon W",
+              "Faurschou Annesofie",
+              "Thyssen Jacob P"
+            ],
+            "journal": "Contact dermatitis",
+            "year": "2014",
+            "abstract": "The world production of copper is steadily increasing. Although humans are widely exposed to copper-containing items on the skin and mucosa, allergic reactions to copper are only infrequently reported. To review the chemistry, biology and accessible data to clarify the implications of copper hypersensitivity, a database search of PubMed was performed with the following terms: copper, dermatitis, allergic contact dermatitis, contact hypersensitivity, contact sensitization, contact allergy, patch ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38574210",
+            "title": "Newborn Skin: Part I. Common Rashes and Skin Changes.",
+            "authors": [
+              "Snyder Katherine A M",
+              "Voelckers Adam D"
+            ],
+            "journal": "American family physician",
+            "year": "2024",
+            "abstract": "Rashes in the newborn period are common and most are benign. Infections should be suspected in newborns with pustules or vesicles, especially in those who are not well-appearing or have risk factors for congenital infection. Congenital cytomegalovirus infection can cause sensorineural hearing loss and neurodevelopmental delay. Skin manifestations of cytomegalovirus may include petechiae due to thrombocytopenia. The most common skin manifestations of early congenital syphilis are small, copper-re",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36539792",
+            "title": "Comparison of ozonated water and acidified copper sulphate in prevention of digital dermatitis in dairy cows.",
+            "authors": [
+              "Pirkkalainen Hertta",
+              "Döpfer Dörte",
+              "Soveri Timo",
+              "Kujala-Wirth Minna"
+            ],
+            "journal": "Acta veterinaria Scandinavica",
+            "year": "2022",
+            "abstract": "Digital dermatitis (DD) is the most significant infectious hoof disorder of cattle in Europe. Hoof baths are one of the most common control methods. Copper sulphate and formalin are commonly used in hoof baths, but their use is problematic in many European countries for health, environmental and safety reasons. Ozonated water and acidified copper sulphate were tested as prevention of DD in a 5-month study. Data were derived from 302 hind feet of Holstein and Estonian Red cows (no. of cows = 151)",
+            "classification": {
+              "study_type": "Veterinary RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39449909",
+            "title": "An Assessment of the Safety, Efficacy, and Tolerability of a Novel Scalp Treatment Regimen Combining a Hydroxy Acid-Based Scrub and Copper Tripeptide Serum in the Management of Seborrheic Dermatitis in Adults.",
+            "authors": [
+              "Patel Maheshvari N",
+              "Patel Nayan",
+              "Merja Apeksha",
+              "Patnaik Saurav"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Background and objective Scalp dandruff, a prevalent dermatological condition marked by flaking and itching, affects a large segment of the population. Sun exposure, genetics, and dryness, along with winter conditions, indoor heating, and hard water, all contribute to moisture loss and scalp imbalance. This study aimed to evaluate the safety, efficacy, and tolerability of a novel regimen combining a scalp scrub with hydroxy acid derivatives for exfoliation and dandruff removal, and a serum conta",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2134100",
+            "title": "Zinc and copper status in children with bronchial asthma and atopic dermatitis.",
+            "authors": [
+              "el-Kholy M S",
+              "Gas Allah M A",
+              "el-Shimi S",
+              "el-Baz F",
+              "el-Tayeb H"
+            ],
+            "journal": "The Journal of the Egyptian Public Health Association",
+            "year": "1990",
+            "abstract": "The study comprised 40 children of both sexes aged from 2 to 12 years, 22 suffering from bronchial asthma and 18 suffering from atopic dermatitis. Twenty healthy children of comparable age and sex to the patients were studied as controls. All the children were subjected to full history including dietetic questionnaire, thorough examination, and to estimation of serum IgE, serum ceruloplasmin, and zinc and copper levels in both serum and hairs. The mean concentrations of zinc in serum and hairs w",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36584317",
+            "title": "Treatment of Superficial Necrolytic Dermatitis with Copper Chelationina Dog with Copper-Associated Hepatitis.",
+            "authors": [
+              "Talbot Cindy",
+              "Kearns Shawn",
+              "Mouser Pamela J"
+            ],
+            "journal": "Journal of the American Animal Hospital Association",
+            "year": "2023",
+            "abstract": "A 7 yr old castrated male Cavalier King Charles spaniel presented for evaluation of liver enzyme elevations. Abdominal ultrasound revealed a small liver with mixed echogenicity, small hypoechoic nodules, and an irregular surface. Histologic examination and copper quantification of the liver obtained by laparoscopy diagnosed copper-associated hepatitis. One month later the dog developed hyperkeratosis of all four foot pads and ulcerations of feet, legs, and rectum. Punch biopsies confirmed superf",
+            "classification": {
+              "study_type": "Veterinary Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38670340",
+            "title": "Comparative efficacy of stannous fluoride and zinc sulfate solution to copper sulfate footbath solutions for the treatment and prevention of digital dermatitis in lactating dairy cows.",
+            "authors": [
+              "Marshall T S",
+              "Kenyon A",
+              "Constable P D"
+            ],
+            "journal": "Journal of dairy science",
+            "year": "2024",
+            "abstract": "The objective of this study was to determine whether a novel footbath solution containing stannous fluoride (SnF2) was superior to 5% copper sulfate solution for the treatment and prevention of digital dermatitis (DD) in dairy cattle. Study 1 was conducted over 4 wk in Missouri and involved 34 lactating Holstein-Friesian cows with hind feet DD lesions. Cows in group SF walked through a footbath containing a proprietary formulation of SnF2 once weekly, whereas cows in group CS walked through a 5%",
+            "classification": {
+              "study_type": "Veterinary RCT",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32157654",
+            "title": "Maternal Nutritional Status and Development of Atopic Dermatitis in Their Offspring.",
+            "authors": [
+              "Kang Chun-Min",
+              "Chiang Bor-Luen",
+              "Wang Li-Chieh"
+            ],
+            "journal": "Clinical reviews in allergy & immunology",
+            "year": "2021",
+            "abstract": "Atopic dermatitis (AD) is the leading chronic skin inflammatory disease and the initial manifestation of atopic march. Available evidence supports the notion that primary prevention early in life leads to a decreased incidence of AD, thus possibly decreasing the subsequent occurrence of atopic march. Nutritional status is essential to a proper functioning immune system and is valued for its important role in AD. Essential nutrients, which include carbohydrates, proteins, lipids, vitamins, and mi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20655432",
+            "title": "Efficacy of formalin, copper sulfate, and a commercial footbath product in the control of digital dermatitis.",
+            "authors": [
+              "Teixeira A G V",
+              "Machado V S",
+              "Caixeta L S",
+              "Pereira R V",
+              "Bicalho R C"
+            ],
+            "journal": "Journal of dairy science",
+            "year": "2010",
+            "abstract": "The objective was to evaluate the relative efficacy of a novel, commercially available disinfectant agent (T-Hexx Dragonhyde HBC, Hydromer, Branchburg, NJ) compared with formalin and copper sulfate. The hypothesis was 2 sided; therefore, the hypothesis was that the new agent would be better or worse compared with the industry gold standard footbath agents, formalin and copper sulfate. The study was conducted in a large commercial dairy farm located near Ithaca, New York, from June 18, 2009 to Oc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6357237",
+            "title": "Physiological ligands for copper and zinc.",
+            "authors": [
+              "DiSilvestro R A",
+              "Cousins R J"
+            ],
+            "journal": "Annual review of nutrition",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16243136",
+            "title": "A systematic review of contact dermatitis treatment and prevention.",
+            "authors": [
+              "Saary Joan",
+              "Qureshi Roohi",
+              "Palda Valerie",
+              "DeKoven Joel",
+              "Pratt Melanie"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2005",
+            "abstract": "Contact dermatitis (CD) is a common occupational disease. There have been no systematic reviews of CD treatment or prevention.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22720929",
+            "title": "Effectiveness of different regimens of a collective topical treatment using a solution of copper and zinc chelates in the cure of digital dermatitis in dairy farms under field conditions.",
+            "authors": [
+              "Relun A",
+              "Lehebel A",
+              "Bareille N",
+              "Guatteo R"
+            ],
+            "journal": "Journal of dairy science",
+            "year": "2012",
+            "abstract": "A controlled field trial was conducted to evaluate in dairy cattle the benefit provided by different regimens of a collective topical treatment using a solution of copper and zinc chelates to cure digital dermatitis (DD) compared with individual treatment alone, and further to investigate factors that could explain variations in the clinical cure of DD lesions over 6 mo. The study was conducted between November 2009 and October 2010 and involved 4,677 dairy cows from 52 French dairy farms on whi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36571875",
+            "title": "Sources and levels of copper and manganese supplementation influence performance, carcass traits, meat quality, tissue mineral content, and ileal absorption of broiler chickens.",
+            "authors": [
+              "Groff-Urayama Priscila M",
+              "Cruvinel Jessica M",
+              "Oura Cássio Y",
+              "Dos Santos Tatiane S",
+              "de Lima-Krenchinski Fernanda K"
+            ],
+            "journal": "Poultry science",
+            "year": "2023",
+            "abstract": "This study was conducted to evaluate the effects of different levels and sources of Cu and Mn (sulfate or hydroxychloride - H) on growth performance, carcass traits, meat and skin quality, footpad dermatitis severity, litter quality, liver and plasma mineral content, and ileal mineral absorption. A total of 1,920 one-day-old male Cobb 500 broiler chicks were assigned randomly to one of 2 × 3+2 factorially arranged treatments: CuH (15 and 150 ppm) × MnH (40, 80, 120 ppm) + 15 ppm Cu Sulfate with ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29127151",
+            "title": "Copper Regulates Maturation and Expression of an MITF:Tryptase Axis in Mast Cells.",
+            "authors": [
+              "Hu Frisk Jun Mei",
+              "Kjellén Lena",
+              "Kaler Stephen G",
+              "Pejler Gunnar",
+              "Öhrvik Helena"
+            ],
+            "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+            "year": "2017",
+            "abstract": "Copper has previously been implicated in the regulation of immune responses, but the impact of this metal on mast cells is poorly understood. In this article, we address this issue and show that copper starvation of mast cells causes increased granule maturation, as indicated by higher proteoglycan content, stronger metachromatic staining, and altered ultrastructure in comparison with nontreated cells, whereas copper overload has the opposite effects. In contrast, copper status did not impact st",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "487812",
+            "title": "Copper allergy and copper IUD.",
+            "authors": [
+              "Jouppila P",
+              "Niinimäki A",
+              "Mikkonen M"
+            ],
+            "journal": "Contraception",
+            "year": "1979",
+            "abstract": "Epicutaneous tests with copper, nickel and cobalt were performed in 37 patients using copper IUD who had shown side-effects to the IUD. None of them was allergic to copper; four were allergic to nickel and one to cobalt. Metal allergy was not considered to be the cause of the side-effects in any of the patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "161345",
+            "title": "Diets deficient in copper and zinc?",
+            "authors": [
+              "Klevay L M"
+            ],
+            "journal": "Medical hypotheses",
+            "year": "1979",
+            "abstract": "Hospital diets, and, perhaps, diets in general may be low in copper and zinc, with the diets being lower in copper than zinc in comparison to requirements. Several human diseases or pathologic conditions of unknown etiology have similarities to findings in deficient animals. Thus nutritional status and metabolism of copper may be important in anemia, ischemic heart disease, rheumatoid arthritis, osteoporosis, multiple sclerosis and seborrheic dermatitis. Zinc may be involved in growth failure, a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33298556",
+            "title": "Footbaths and digital dermatitis in dairy cattle.",
+            "authors": [
+              "Holzhauer Menno"
+            ],
+            "journal": "The Veterinary record",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "銅為賴氨醯氧化酶（膠原/彈性蛋白交聯）、酪氨酸酶、銅鋅超氧化物歧化酶（Cu-Zn SOD）之輔因子，具抗氧化及傷口癒合潛力。然而銅同時是已知 IV 型過敏原，可直接誘發接觸性皮膚炎，構成根本性矛盾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn": {
+        "score": 0.9381799101829528,
+        "rank": 29129
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此病為萊姆病晚期螺旋體感染所致的皮膚萎縮性變化，標準治療為長療程抗生素（多西環素）。銅無直接抗螺旋體機轉，且 TxGNN 高分可能反映皮膚疾病知識圖譜鄰近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn": {
+        "score": 0.9378142952919006,
+        "rank": 29188
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "罕見光皮膚病（EBV 相關 T/NK 細胞淋巴增生），銅無已知光防護或 EBV 調控機轉。零臨床及文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn": {
+        "score": 0.9354977011680604,
+        "rank": 29656
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "新生兒皮肌炎為自身免疫性肌炎的極罕見亞型，與母體抗體轉移相關。銅對此免疫病理無直接機轉，零臨床及文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn": {
+        "score": 0.9333744645118712,
+        "rank": 30035
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為兒童結締組織病相關繼發性間質性肺病，極罕見。銅的肺纖維化相關研究（賴氨醯氧化酶）存在，但針對此特定兒科亞型無任何直接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acne keloid",
+      "txgnn": {
+        "score": 0.9333486557006836,
+        "rank": 30042
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "28164871",
+            "title": "Occupational Dermatoses in Some Selected Industries in India.",
+            "authors": [
+              "Battu R Vijay",
+              "Pasricha J S"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "1985",
+            "abstract": "Twenty five thousand and fifty employees working in 10 industrial units around Delhi were surveyed between July, 1982 and September, 1983. The industrial units included factories manufacturing tractors, rotating machines, gaskets, leaf spring, footwear, antibiotics and dashboard instruments; units printing cotton and synthetic cloth and books and periodicals; and a copper mine. The chief industrial dermatoses encountered were callositis 108 cases, contact dermatitis 36 cases, traumatic nail dyst",
+            "classification": {
+              "study_type": "Retrospective Survey",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "瘢痕疙瘩與膠原過度沉積有關，銅（賴氨醯氧化酶）理論上可能促進膠原交聯，但此機轉實際上可能「加重」而非緩解瘢痕疙瘩。唯一文獻為 1985 年印度職業皮膚病綜述，不具針對性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "dry eye syndrome",
+      "txgnn": {
+        "score": 0.932803750038147,
+        "rank": 30151
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01364311",
+            "title": "Treatment of Dry Eye With Supplements",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2011-07",
+            "completion_date": "2014-11",
+            "brief_summary": "Dry eye syndrome (DES) is a highly prevalent ocular condition inducing an inflammatory response on the ocular surface. Common symptoms include ocular discomfort, visual impairment and instability of the tear film with potential damage to the ocular surface.\n\nIn addition, an intact tear film is important to provide a smooth optical surface, to act as a barrier to pathogens, to nourish the epithelial cells of the ocular surface and to prevent exsiccation. Alterations in the tear film composition, ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase NA，已 WITHDRAWN，零入組。試驗為補充劑治療乾眼症，銅是否為主要活性成分不明確。無任何數據產出。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38110136",
+            "title": "A tissue-adhesive F127 hydrogel delivers antioxidative copper-selenide nanoparticles for the treatment of dry eye disease.",
+            "authors": [
+              "Ou Liling",
+              "Wu Zixia",
+              "Hu Xiao",
+              "Huang Jinyi",
+              "Yi Zhiqi"
+            ],
+            "journal": "Acta biomaterialia",
+            "year": "2024",
+            "abstract": "Dry eye disease (DED) is currently the most prevalent condition seen in ophthalmology outpatient clinics, representing a significant public health issue. The onset and progression of DED are closely associated with oxidative stress-induced inflammation and damage. To address this, an aldehyde-functionalized F127 (AF127) hydrogel eye drop delivering multifunctional antioxidant Cu2-xSe nanoparticles (Cu2-xSe NPs) was designed. The research findings revealed that the Cu2-xSe nanoparticles exhibit u",
+            "classification": {
+              "study_type": "Preclinical/In vitro + Animal",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26903189",
+            "title": "An eye on nutrition: The role of vitamins, essential fatty acids, and antioxidants in age-related macular degeneration, dry eye syndrome, and cataract.",
+            "authors": [
+              "McCusker Meagen M",
+              "Durrani Khayyam",
+              "Payette Michael J",
+              "Suchecki Jeanine"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2016",
+            "abstract": "Visual impairment is a global epidemic. In developing countries, nutritional deficiency and cataracts continue to be the leading cause of blindness, whereas age-related macular degeneration (AMD) and cataracts are the leading causes in developed nations. The World Health Organization has instituted VISION 2020: \"The Right to Sight\" as a global mission to put an end to worldwide blindness. In industrialized societies, patients, physicians, researchers, nutritionists, and biochemists have been loo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9614529",
+            "title": "Nutrition supplements and the eye.",
+            "authors": [
+              "Brown N A",
+              "Bron A J",
+              "Harding J J",
+              "Dewar H M"
+            ],
+            "journal": "Eye (London, England)",
+            "year": "1998",
+            "abstract": "A review of the role of vitamins, minerals, carotenoids and essential fatty acids in relation to eye health. The mode of action may be directly on the eye or by promoting bodily health on which the eye depends.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36254059",
+            "title": "Bioinformatics analysis identified immune infiltration, risk and drug prediction models of copper-induced death genes involved in salivary glands damage of primary Sjögren's syndrome.",
+            "authors": [
+              "Zhang Naidan",
+              "Ji Chaixia",
+              "Peng Xinyin",
+              "Tang Maoju",
+              "Bao Xiao"
+            ],
+            "journal": "Medicine",
+            "year": "2022",
+            "abstract": "This study aimed to identify copper-induced death genes in primary Sjögren's syndrome (pSS) and explore immune infiltration, risk and drug prediction models for salivary glands (SGs) damage. The 3 datasets, including GSE40611, GSE23117, and GSE7451 from the Gene Expression Omnibus database were downloaded. The datasets were processed using the affy in R (version 4.0.3). In immune cells, copper-induced death genes were strongly expressed in \"activated\" dendritic cells (aDCs), macrophages and regu",
+            "classification": {
+              "study_type": "Bioinformatics/Computational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18868853",
+            "title": "Sjøgren's syndrome.",
+            "authors": [
+              "COPPER A C"
+            ],
+            "journal": "Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift fur Augenheilkunde",
+            "year": "1948",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28124217",
+            "title": "Elemental Analysis of Whole and Protein Separated Blood Serum of Patients with Systemic Lupus Erythematosus and Sjögren's Syndrome.",
+            "authors": [
+              "Tóth Csilla Noémi",
+              "Baranyai Edina",
+              "Csípő István",
+              "Tarr Tünde",
+              "Zeher Margit"
+            ],
+            "journal": "Biological trace element research",
+            "year": "2017",
+            "abstract": "Systemic lupus erythematosus (SLE) and Sjögren's syndrome (SS) are systemic autoimmune diseases with complex symptoms and pathogenesis that are still not completely understood. Several studies showed that the trace element homeostasis and also the levels of antioxidant plasma proteins are changed in autoimmune disorders; however, these results are controversial. In this study, the potassium (K), calcium (Ca), magnesium (Mg), copper (Cu), zinc (Zn), and iron (Fe) concentrations of the serum and p",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32445015",
+            "title": "Inflammation and oxidative stress induced by lipid peroxidation metabolite 4-hydroxynonenal in human corneal epithelial cells.",
+            "authors": [
+              "Liu Hui",
+              "Gambino Frank",
+              "Algenio Crystal S",
+              "Wu Charles",
+              "Gao Yichen"
+            ],
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2020",
+            "abstract": "Oxidative stress is widely known to be a major contributor in the pathogenesis of dry eye disease (DED). 4-Hydroxynonenal (4-HNE), a well-known byproduct frequently measured as an indicator of oxidative stress-induced lipid peroxidation, has been shown to be elevated in both human and murine corneal DED samples. This study aims to investigate if 4-HNE is responsible for the oxidative stress in human corneal epithelial cells (HCECs) and explores the underlying mechanism by which it confers its ef",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "389039",
+            "title": "State of the art. Primary biliary cirrhosis and the immune system.",
+            "authors": [
+              "Bodenheimer H C",
+              "Schaffner F"
+            ],
+            "journal": "The American journal of gastroenterology",
+            "year": "1979",
+            "abstract": "The immunologic features of diseases associated with primary biliary cirrhosis (PBC) such as Sjörgren's syndrome, scleroderma, rheumatoid arthritis and others are reviewed. Immunologic abnormalities involving both humoral and cell mediated immunity have been found in PBC. The morphologic and immunologic data have been used to propose a pathogenetic mechanism for PBC. Recent studies of penicillamine indicate that the drug may influence liver copper content and the deposition of immune complexes.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29484560",
+            "title": "The effects of 3% diquafosol sodium eye drop application on meibomian gland and ocular surface alterations in the Cu, Zn-superoxide dismutase-1 (Sod1) knockout mice.",
+            "authors": [
+              "Ikeda Keisuke",
+              "Simsek Cem",
+              "Kojima Takashi",
+              "Higa Kazunari",
+              "Kawashima Motoko"
+            ],
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2018",
+            "abstract": "The purpose of the study is to investigate the effect of 3% diquafosol sodium eye drops on meibomian gland and ocular surface alterations in the superoxide dismutase-1 (Sod1 -/- ) mice in comparison to the wild-type mouse.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575862",
+            "title": "And Yet It Moves: Oxidation of the Nuclear Autoantigen La/SS-B Is the Driving Force for Nucleo-Cytoplasmic Shuttling.",
+            "authors": [
+              "Berndt Nicole",
+              "Bippes Claudia C",
+              "Michalk Irene",
+              "Bartsch Tabea",
+              "Arndt Claudia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Decades ago, we and many other groups showed a nucleo-cytoplasmic translocation of La protein in cultured cells. This shuttling of La protein was seen after UV irradiation, virus infections, hydrogen peroxide exposure and the Fenton reaction based on iron or copper ions. All of these conditions are somehow related to oxidative stress. Unfortunately, these harsh conditions could also cause an artificial release of La protein. Even until today, the shuttling and the cytoplasmic function of La/SS-B",
+            "classification": {
+              "study_type": "Mechanistic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12926804",
+            "title": "Association of vitiligo with Sjögren's syndrome.",
+            "authors": [
+              "Montes Leopoldo F",
+              "Pfister Roswell",
+              "Elizalde Francisco",
+              "Wilborn Walter"
+            ],
+            "journal": "Acta dermato-venereologica",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29743147",
+            "title": "Incidence of sicca syndrome is 3.6 fold higher in areas with farm soils high in chromium and nickel.",
+            "authors": [
+              "Lian Ie-Bin",
+              "Wen Ie-Ran",
+              "Su Che-Chun"
+            ],
+            "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+            "year": "2018",
+            "abstract": "Chromium and nickel are important soil pollutants in Taiwan. Previously, we showed that blood chromium levels correlated strongly with soil chromium levels. Our observation that many patients with dry eyes or a dry mouth came from areas where soils contain high chromium levels prompted us to investigate whether incidence and prevalence of SS are higher in areas where soils contain high levels of heavy metals.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5469424",
+            "title": "[Attempts at treating rheumatoid arthritis and other chronic rheumatoid diseases with molybdenum compounds].",
+            "authors": [
+              "Krzymień H"
+            ],
+            "journal": "Reumatologia",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "銅鋅超氧化物歧化酶（Cu-Zn SOD）為眼表重要抗氧化酶。乾眼症伴隨氧化應激和慢性炎症，銅硒化物（CuSe）奈米粒子展示出模擬 SOD 活性的抗氧化特性（PMID 38110136）。唯一臨床試驗已撤回，目前證據停留在奈米材料臨床前階段。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn": {
+        "score": 0.9315131902694702,
+        "rank": 30345
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無肌病性皮肌炎以皮膚表現為主但無肌肉炎症，為自身免疫疾病。銅無明確免疫調節機轉適用此亞型，零臨床及文獻證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "bone Paget disease",
+      "txgnn": {
+        "score": 0.9290915727615356,
+        "rank": 30799
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22571374",
+            "title": "Metal ions as cofactors for aggregation of therapeutic peptide salmon calcitonin.",
+            "authors": [
+              "Rastogi Neeraj",
+              "Mitra Kalyan",
+              "Kumar Dinesh",
+              "Roy Raja"
+            ],
+            "journal": "Inorganic chemistry",
+            "year": "2012",
+            "abstract": "The effects of multivalent metal ions (Cu(2+)/Zn(2+)/Al(3+)) on the aggregation of salmon calcitonin (sCT)--a therapeutic peptide used worldwide in the treatment of osteoporosis and Paget's disease--have been studied in vitro using NMR (both solution state and solid state), TEM, ThT-fluorescence, and FT-IR spectroscopy. Overall, the various results indicated that the metal-ions-induced conformational transitions in the peptide--mostly toward the β-sheet--facilitate the aggregation of sCT in solu",
+            "classification": {
+              "study_type": "In vitro",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21853370",
+            "title": "Integrin α(v)β₃ as a PET imaging biomarker for osteoclast number in mouse models of negative and positive osteoclast regulation.",
+            "authors": [
+              "Zheleznyak Alexander",
+              "Wadas Thaddeus J",
+              "Sherman Christopher D",
+              "Wilson Jessica M",
+              "Kostenuik Paul J"
+            ],
+            "journal": "Molecular imaging and biology",
+            "year": "2012",
+            "abstract": "The goal of this study was to determine the specificity of ⁶⁴Cu-CB-TE2A-c(RGDyK) (⁶⁴Cu-RGD) for osteoclast-related diseases, such as Paget's disease or rheumatoid arthritis.",
+            "classification": {
+              "study_type": "Animal/Imaging Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31584361",
+            "title": "Insights into the Design of p97-targeting Small Molecules from Structural Studies on p97 Functional Mechanism.",
+            "authors": [
+              "Sui Xin",
+              "Pan Man",
+              "Li Yi-Ming"
+            ],
+            "journal": "Current medicinal chemistry",
+            "year": "2020",
+            "abstract": "p97, also known as valosin-containing protein or CDC48, is a member of the AAA+ protein family that is highly conserved in eukaryotes. It binds to various cofactors in the body to perform its protein-unfolding function and participates in DNA repair, degradation of subcellular membrane proteins, and protein quality control pathways, among other processes. Its malfunction can lead to many diseases, such as inclusion body myopathy, associated with Paget's disease of bone and/or frontotemporal deme",
+            "classification": {
+              "study_type": "Structural Biology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "骨 Paget 病涉及破骨/成骨細胞失調。銅在骨代謝中有間接角色（賴氨醯氧化酶促膠原交聯），但現有文獻均非治療性：PMID 21853370 使用 Cu-64 作為 PET 影像示蹤劑（診斷而非治療），PMID 22571374 研究金屬離子對鮭魚降鈣素聚集的影響（製劑穩定性），PMID 31584361 研究 p97 靶向小分子（機轉研究）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "esotropia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "acrodermatitis chronica atrophicans"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "hydroa vacciniforme, familial"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "neonatal dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "acne keloid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "dry eye syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "dry eye syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "dry eye syndrome"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "amyopathic dermatomyositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "bone Paget disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "bone Paget disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Copper",
+        "disease": "bone Paget disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    }
+  ]
+}

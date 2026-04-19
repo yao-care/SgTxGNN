@@ -1,0 +1,446 @@
+```json
+{
+  "drug": "Dactinomycin (Actinomycin D)",
+  "drugbank_id": "DB00970",
+  "analysis_date": "2026-04-04",
+  "drug_background": {
+    "known_moa": "DNA 嵌入劑：嵌入 DNA 雙螺旋 → 抑制 DNA 依賴性 RNA 聚合酶 → 阻斷轉錄 → 細胞毒性",
+    "established_uses": ["Wilms 瘤", "橫紋肌肉瘤（VAC 方案）", "妊娠滋養細胞疾病", "Ewing 肉瘤"],
+    "market_note": "本地（SG）未上市，但全球以 Cosmegen® 流通，具成熟安全性資料庫"
+  },
+  "indications": [
+    {
+      "disease_name": "relapsing-remitting multiple sclerosis",
+      "txgnn_score": 0.9958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dactinomycin 為廣效細胞毒劑，對淋巴細胞具非特異性抑制，理論上可壓制自體免疫，但缺乏 MS 特異性免疫調節機轉（如選擇性 Th17/Treg 調節）。毒性/風險遠高於現有 RRMS DMT（IFN-β、natalizumab 等），機轉關聯極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["高分純因 KG 結構相似性，無生物合理性支持", "TxGNN 預測假陽性可能性高"]
+    },
+    {
+      "disease_name": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
+      "txgnn_score": 0.9954,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Dactinomycin 為橫紋肌肉瘤（RMS）標準治療 VAC 方案（Vincristine + Actinomycin D + Cyclophosphamide）核心藥物，直接 DNA 嵌入抑制肉瘤細胞增殖。葡萄狀/陰道型胚胎性 RMS 為 RMS 病理亞型，應共享相同機轉敏感性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "無直接亞型特異性 RCT，但可合理外推自廣義 RMS（IRS 研究系列）",
+        "PMID 資料集為空；實際文獻存在（IRS-I~IV 含陰道 RMS 亞組）",
+        "稀有腫瘤，獨立 RCT 不可行，應參考 COG 指引外推"
+      ]
+    },
+    {
+      "disease_name": "extrahepatic bile duct rhabdomyosarcoma",
+      "txgnn_score": 0.9949,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "膽管 RMS 同屬 RMS 家族，VAC 方案理論上適用。Dactinomycin 之 DNA 嵌入細胞毒性對 RMS 細胞系具通用效力，不因原發部位而有根本差異。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "5563889",
+          "title": "Sarcoma botryoides (rhabdomyosarcoma) of the bile ducts with survival.",
+          "year": "1971",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "單一病例存活報告，1971 年，歷史性但為直接使用記錄；年代久遠，化療方案已大幅演進"
+        }
+      ],
+      "flags": ["僅 1 篇個案報告（1971），證據極弱", "需評估現代 COG/EpSSG RMS 指引是否納入此亞型"]
+    },
+    {
+      "disease_name": "embryonal extrahepatic bile duct rhabdomyosarcoma",
+      "txgnn_score": 0.9948,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "胚胎性膽管 RMS 與上述膽管 RMS 高度重疊（病理亞型），VAC 方案機轉同樣適用。此亞型之 Dactinomycin 使用可從廣義 RMS 療法合理外推。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "資料集無直接文獻，但與 extrahepatic bile duct RMS 幾乎等同",
+        "L4 評級基於廣義 RMS 間接外推，非本亞型直接證據"
+      ]
+    },
+    {
+      "disease_name": "parameningeal embryonal rhabdomyosarcoma",
+      "txgnn_score": 0.9948,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Dactinomycin 為 VAC 方案核心，對胚胎性 RMS（包含 parameningeal 亞型）具直接細胞毒性。IRS 系列研究確立 actinomycin D 在高風險部位 RMS 的角色，DNA 嵌入機轉對 RMS 細胞具強效誘導凋亡作用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19770373",
+          "title": "Vincristine, actinomycin, and cyclophosphamide compared with vincristine, actinomycin, and cyclophosphamide...",
+          "year": "2009",
+          "study_type": "Phase 3 RCT / Prospective Comparative Trial (COG/IRS)",
+          "tier": 1,
+          "relevance_note": "直接比較含 Actinomycin D 之 VAC 方案變體，為 L1 核心證據；涵蓋 parameningeal 亞型"
+        },
+        {
+          "pmid": "10856103",
+          "title": "Benefit of intensified therapy for patients with local or regional embryonal rhabdomyosarcoma",
+          "year": "2000",
+          "study_type": "Phase 3 Prospective (IRS-IV)",
+          "tier": 1,
+          "relevance_note": "IRS-IV 結果，證實強化含 actinomycin D 方案對局部/區域性胚胎性 RMS 之療效"
+        },
+        {
+          "pmid": "12654440",
+          "title": "Volumetric considerations in radiotherapy for pediatric parameningeal rhabdomyosarcomas.",
+          "year": "2003",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance_note": "放射治療配合化療（含 actinomycin D）之回顧性分析，確認 parameningeal 亞型治療模式"
+        }
+      ],
+      "flags": [
+        "Guardrails：parameningeal 部位具高顱神經侵犯風險，需多科整合",
+        "Dactinomycin 在 SG 本地未上市，需特殊採購管道",
+        "放療 + VAC 聯合之毒性監測（骨髓抑制、veno-occlusive disease）",
+        "建議依 COG ARST 最新方案執行"
+      ]
+    },
+    {
+      "disease_name": "prostate embryonal rhabdomyosarcoma",
+      "txgnn_score": 0.9946,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "前列腺胚胎性 RMS 屬泌尿生殖道 RMS（GU-non-bladder/prostate group），VAC 方案為標準 backbone。Dactinomycin 之 DNA 嵌入機轉對此亞型細胞系有效，IRS 研究已顯示 GU 組 RMS 對含 actinomycin D 方案之反應。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10856103",
+          "title": "Benefit of intensified therapy for patients with local or regional embryonal rhabdomyosarcoma",
+          "year": "2000",
+          "study_type": "Phase 3 Prospective (IRS-IV)",
+          "tier": 1,
+          "relevance_note": "胚胎性 RMS 整體療效資料，含 GU 部位亞組"
+        },
+        {
+          "pmid": "11846299",
+          "title": "Rhabdomyosarcoma and undifferentiated sarcoma in the first two decades of life: a selective review",
+          "year": "2001",
+          "study_type": "Systematic Review",
+          "tier": 2,
+          "relevance_note": "兒科 RMS 全面回顧，含 actinomycin D 使用討論"
+        },
+        {
+          "pmid": "34900598",
+          "title": "Embryonal rhabdomyosarcoma of the adult prostate: case report and review.",
+          "year": "2022",
+          "study_type": "Case Report + Review",
+          "tier": 3,
+          "relevance_note": "成人前列腺 RMS 罕見，化療含 actinomycin D；顯示成人亦可使用兒科方案"
+        },
+        {
+          "pmid": "28427078",
+          "title": "A Case of Adult Metastatic Rhabdomyosarcoma of the Prostate Cured by Long-Term Chemotherapy",
+          "year": "2019",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "成人轉移性前列腺 RMS 長期化療治癒案例"
+        },
+        {
+          "pmid": "4610841",
+          "title": "Management of embryonal rhabdomyosarcoma in children.",
+          "year": "1974",
+          "study_type": "Retrospective Series",
+          "tier": 2,
+          "relevance_note": "含 actinomycin D 之歷史性治療系列，包含多部位"
+        }
+      ],
+      "flags": [
+        "前列腺 RMS 極罕見，無亞型特異性 RCT",
+        "成人前列腺 RMS 預後差，需個案討論",
+        "15 篇文獻含多篇個案報告，整體證據異質性高"
+      ]
+    },
+    {
+      "disease_name": "liver sarcoma",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "肝臟未分化胚胎性肉瘤（UESL）對 alkylating agents 及 actinomycin D 具敏感性，機轉與其他小圓細胞肉瘤類似。部分 UESL 治療方案借鑒 Wilms 瘤或 RMS 方案（均含 dactinomycin）。Phase 3 Wilms 瘤研究（NCT00002611）確立 dactinomycin 在同類兒科固態腫瘤之療效框架。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00002611",
+          "title": "NATIONAL WILMS TUMOR STUDY-5 -- THERAPEUTIC TRIAL AND BIOLOGY STUDY",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 3031,
+          "relevance_grade": "B",
+          "reasoning": "Wilms 瘤 Phase 3 試驗（n=3031），Dactinomycin 為核心治療藥物，直接確立其在兒科腎/腹腔腫瘤之安全性與療效。對肝肉瘤為間接但高相關性外推（同屬兒科腹腔惡性腫瘤），非直接適應症試驗，故評 B 而非 A。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23864278",
+          "title": "Embryonal sarcoma of the liver.",
+          "year": "2013",
+          "study_type": "Case Series / Review",
+          "tier": 2,
+          "relevance_note": "UESL 診療回顧，含化療方案（部分含 actinomycin D）"
+        },
+        {
+          "pmid": "37814737",
+          "title": "Undifferentiated Embryonal Sarcoma of the Liver in Pediatrics: A Diagnostic Challenge",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_note": "最新 UESL 兒科診療回顧，確認化療含 actinomycin D 之方案"
+        },
+        {
+          "pmid": "21671362",
+          "title": "Dactinomycin and vincristine toxicity in the treatment of childhood cancer: a retrospective study",
+          "year": "2011",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance_note": "直接研究 Dactinomycin 毒性，為安全性重要參考"
+        },
+        {
+          "pmid": "9191535",
+          "title": "Venoocclusive disease of the liver after chemotherapy with vincristine, actinomycin D, and cyclophosphamide",
+          "year": "1997",
+          "study_type": "Case Report / Safety Signal",
+          "tier": 3,
+          "relevance_note": "重要安全警示：VAC 方案致肝靜脈閉塞性疾病（VOD），對肝臟腫瘤患者需特別監測"
+        },
+        {
+          "pmid": "7700188",
+          "title": "Veno-occlusive disease of the liver after chemotherapy for rhabdomyosarcoma",
+          "year": "1995",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_note": "Actinomycin D 致肝 VOD 第二案例佐證，肝臟腫瘤患者風險加倍"
+        }
+      ],
+      "flags": [
+        "⚠️ 高風險警示：Dactinomycin + 肝臟腫瘤 → 肝靜脈閉塞性疾病（VOD）風險顯著升高",
+        "UESL 為極罕見腫瘤，缺乏前瞻性 RCT",
+        "治療前需完整肝功能評估及 VOD 預防方案",
+        "NCT00002611 為 Wilms 瘤試驗，對 UESL 為 Level B 外推"
+      ]
+    },
+    {
+      "disease_name": "upper aerodigestive tract neoplasm",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "上呼吸消化道腫瘤涵蓋 RMS（已有 VAC 方案支持）及鱗狀細胞癌（SCC）。Dactinomycin 具放射增敏效果，與放療聯合使用對頭頸部 RMS 有理論根據。PMID 35267106（2022）直接研究 actinomycin D 在上呼吸消化道細胞之 p53 路徑活化與凋亡誘導，提供最新分子機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11408506",
+          "title": "Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease.",
+          "year": "2001",
+          "study_type": "Phase 3 Prospective (IRS-IV)",
+          "tier": 1,
+          "relevance_note": "IRS-IV 非轉移性 RMS 結果，含頭頸部/上呼吸道 RMS 亞組，VAC 含 actinomycin D"
+        },
+        {
+          "pmid": "35267106",
+          "title": "Context-dependent activation of p53 target genes and induction of apoptosis by actinomycin D in aerodigestive...",
+          "year": "2022",
+          "study_type": "In vitro / Mechanistic Study",
+          "tier": 2,
+          "relevance_note": "最新直接機轉研究：actinomycin D 在上呼吸消化道細胞之 p53 依賴性凋亡，支持抗腫瘤機轉"
+        },
+        {
+          "pmid": "1247416",
+          "title": "Laryngeal rhabdomyosarcoma.",
+          "year": "1976",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance_note": "喉部 RMS 含 actinomycin D 之歷史治療記錄"
+        },
+        {
+          "pmid": "4143475",
+          "title": "Clinical use of radiation sensitizing agents.",
+          "year": "1974",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_note": "Actinomycin D 作為放射增敏劑的臨床使用回顧，支持頭頸部腫瘤聯合放療"
+        },
+        {
+          "pmid": "1382002",
+          "title": "Rhabdomyosarcoma of the head and neck in children.",
+          "year": "1992",
+          "study_type": "Retrospective Cohort",
+          "tier": 2,
+          "relevance_note": "兒科頭頸 RMS 回顧，VAC 方案使用分析"
+        }
+      ],
+      "flags": [
+        "適應症定義寬泛：RMS 亞型（L3）vs. 一般頭頸 SCC（L5）需區分",
+        "2022 年 in vitro 研究提供新機轉證據，但需臨床驗證",
+        "放射增敏使用需個案化評估毒性疊加"
+      ]
+    },
+    {
+      "disease_name": "head and neck cancer",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "頭頸癌（廣義）涵蓋 RMS 及 SCC。對 RMS 亞型，Dactinomycin 透過 VAC 方案直接有效；對 SCC，機轉為放射增敏（抑制 RNA 合成降低 DNA 修復能力）。PMID 4236911（1964）記錄頭頸癌灌注化療包含 actinomycin D。文獻主體以 RMS 為主，一般 HNC 之直接臨床證據有限。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03382158",
+          "title": "International Pleuropulmonary Blastoma/DICER1 Registry",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 3400,
+          "relevance_grade": "C",
+          "reasoning": "登錄研究，非介入性治療試驗；追蹤 DICER1 突變相關腫瘤（PPB 等），未直接測試 Dactinomycin 療效；與頭頸癌適應症關聯性低，僅提供流行病學背景。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "11408506",
+          "title": "Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease.",
+          "year": "2001",
+          "study_type": "Phase 3 Prospective",
+          "tier": 1,
+          "relevance_note": "IRS-IV 含頭頸部 RMS 亞組（非一般 HNC），為最強直接證據"
+        },
+        {
+          "pmid": "12586800",
+          "title": "Treatment of localized nonorbital, nonparameningeal head and neck rhabdomyosarcoma",
+          "year": "2003",
+          "study_type": "Retrospective Cohort (IRS data)",
+          "tier": 2,
+          "relevance_note": "頭頸部特定亞型 RMS 治療回顧，actinomycin D 使用分析"
+        },
+        {
+          "pmid": "4236911",
+          "title": "Perfusion and infusion chemotherapy for cancer of the head and neck.",
+          "year": "1964",
+          "study_type": "Historical Clinical Series",
+          "tier": 3,
+          "relevance_note": "歷史性記錄 actinomycin D 用於頭頸癌灌注化療，年代久遠但具直接相關性"
+        },
+        {
+          "pmid": "6688242",
+          "title": "Rhabdomyosarcoma of the head and neck.",
+          "year": "1983",
+          "study_type": "Retrospective Series",
+          "tier": 2,
+          "relevance_note": "頭頸 RMS 治療系列，actinomycin D 為方案組成"
+        }
+      ],
+      "flags": [
+        "NCT03382158 相關性低（C 級），不提升整體證據等級",
+        "S1 而非 S2：廣義 HNC（SCC）之 dactinomycin 直接臨床證據不足",
+        "建議將 RMS of HN 與一般 HNC 分開評估",
+        "現代 HNC 標準治療（cisplatin+放療）已高度成熟，dactinomycin 替代優勢不明確"
+      ]
+    },
+    {
+      "disease_name": "T-cell leukemia",
+      "txgnn_score": 0.9888,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Dactinomycin 之 DNA 嵌入機轉理論上對快速增殖的 T 細胞白血病有細胞毒性，但並非 T-ALL/T-PLL 標準治療方案組成。DNA 轉錄抑制在液態腫瘤（白血病）的應用機轉不同於固態腫瘤，缺乏支持性臨床數據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00002766",
+          "title": "Phase III Trial Comparing ARA-C/High-Dose Mitoxantrone to Vincristine/Prednisone for ALL",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 170,
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 試驗但比較 ARA-C/mitoxantrone vs. vincristine/prednisone——完全不含 Dactinomycin。對 Dactinomycin 用於 T 細胞白血病無直接相關性，僅提供該疾病治療背景。評 C 級（無關藥物）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2004665",
+          "title": "Apoptosis: mode of cell death induced in T cell leukemia lines by dexamethasone and other agents.",
+          "year": "1991",
+          "study_type": "In vitro",
+          "tier": 3,
+          "relevance_note": "地塞米松等藥物誘導 T 細胞白血病凋亡，'other agents' 範疇模糊，未必包含 dactinomycin"
+        },
+        {
+          "pmid": "9409752",
+          "title": "Doxorubicin-induced apoptosis in human T-cell leukemia is mediated by caspase-3",
+          "year": "1997",
+          "study_type": "In vitro",
+          "tier": 3,
+          "relevance_note": "Doxorubicin（非 dactinomycin）誘導凋亡研究，藥物不同，僅機轉類比參考"
+        },
+        {
+          "pmid": "17990182",
+          "title": "Bortezomib induces apoptosis in T-cell prolymphocytic leukemia (T-PLL).",
+          "year": "2007",
+          "study_type": "In vitro / Translational",
+          "tier": 3,
+          "relevance_note": "Bortezomib（非 dactinomycin）研究，與目標藥物無直接關聯"
+        }
+      ],
+      "flags": [
+        "20 篇文獻均未直接研究 Dactinomycin 用於 T 細胞白血病",
+        "NCT00002766 為錯誤藥物的 Phase 3 試驗，不應提升證據等級",
+        "TxGNN 高分為 KG 結構相似性假陽性，無生物學支持",
+        "T-ALL 有 hyper-CVAD、BFM 等成熟方案，無引入 dactinomycin 之臨床理由"
+      ]
+    }
+  ],
+  "summary_matrix": {
+    "table": [
+      {"rank": 1, "disease": "parameningeal embryonal RMS",         "evidence_level": "L1", "stage": "S3", "action": "Proceed with Guardrails"},
+      {"rank": 2, "disease": "liver sarcoma (UESL)",                "evidence_level": "L2", "stage": "S2", "action": "Research Question ⚠️VOD風險"},
+      {"rank": 3, "disease": "prostate embryonal RMS",              "evidence_level": "L3", "stage": "S2", "action": "Research Question"},
+      {"rank": 4, "disease": "upper aerodigestive tract neoplasm",  "evidence_level": "L3", "stage": "S2", "action": "Research Question"},
+      {"rank": 5, "disease": "botryoid RMS of vagina",              "evidence_level": "L3", "stage": "S2", "action": "Research Question"},
+      {"rank": 6, "disease": "head and neck cancer",                "evidence_level": "L3", "stage": "S1", "action": "Research Question (RMS亞型)"},
+      {"rank": 7, "disease": "extrahepatic bile duct RMS",          "evidence_level": "L4", "stage": "S1", "action": "Research Question"},
+      {"rank": 8, "disease": "embryonal extrahepatic bile duct RMS","evidence_level": "L4", "stage": "S1", "action": "Research Question"},
+      {"rank": 9, "disease": "T-cell leukemia",                     "evidence_level": "L5", "stage": "S0", "action": "Hold"},
+      {"rank": 10,"disease": "relapsing-remitting MS",              "evidence_level": "L5", "stage": "S0", "action": "Hold"}
+    ]
+  },
+  "cross_cutting_considerations": {
+    "safety_priority": "Dactinomycin 雖在 SG 本地未上市，其全球安全性資料庫完整（VOD、骨髓抑制、放射回憶反應為主要毒性）",
+    "vod_warning": "所有肝臟或腹腔腫瘤適應症需特別監測 Veno-occlusive Disease（PMID 9191535, 7700188）",
+    "pediatric_note": "多數 RMS 適應症為兒科腫瘤，劑量計算及毒性監測需兒科腫瘤科介入",
+    "regulatory_pathway": "SG 本地未上市，臨床使用需透過 HSA Special Access Route（SAR）",
+    "disclaimer": "本分析僅供研究參考，不構成醫療建議。老藥新用候選需經過嚴格臨床驗證方可應用。"
+  }
+}
+```
+
+---
+
+## 決策摘要
+
+### 🟢 S3 — 可建議執行（1個）
+**Parameningeal embryonal RMS（L1）**：IRS 系列 Phase 3 RCT 直接支持 VAC 方案，Dactinomycin 為標準治療核心組成，國際指引（COG ARST）已納入。本地採購需走 HSA SAR 途徑。
+
+### 🟡 S2 — 臨床可行性評估（5個）
+| 適應症 | 核心關切 |
+|--------|----------|
+| Liver sarcoma | ⚠️ VOD 高風險，肝臟雙重打擊 |
+| Prostate embryonal RMS | 稀有，成人 vs 兒科劑量差異 |
+| Upper aerodigestive tract | 需區分 RMS vs SCC 亞型 |
+| Botryoid RMS of vagina | 可外推自 IRS 資料，需亞型確認 |
+
+### 🟠 S1 — 安全性初評（3個）
+膽管 RMS 系列及廣義頭頸癌，間接外推合理但直接證據薄弱。
+
+### 🔴 S0 — 初篩不通過（2個）
+**RRMS** 及 **T-cell leukemia**：TxGNN 高分為 KG 拓樸假陽性，無生物合理性或直接臨床支持，應 Hold 並標記為預測偽陽性案例。

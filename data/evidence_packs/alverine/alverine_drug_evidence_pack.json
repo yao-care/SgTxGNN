@@ -1,0 +1,792 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01616-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alverine",
+    "drugbank_id": "DB01616",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "dysthymic disorder",
+      "txgnn": {
+        "score": 0.9982940554618835,
+        "rank": 3043
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "持續性憂鬱症（輕鬱症）。TxGNN 評分最高（0.998），推測為知識圖譜中憂鬱症/焦慮症相關節點高度連結所致。無任何臨床或前臨床直接證據。機轉推測：若 Alverine 確有 serotonergic 活性，理論上與輕鬱症路徑有交集，但尚屬純假說。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "neurotic disorder",
+      "txgnn": {
+        "score": 0.9959128499031068,
+        "rank": 5693
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "廣義神經症分類（含焦慮、輕鬱、強迫等亞型）。無直接臨床或前臨床證據。與 anxiety disorder 條目之機轉假說部分重疊（5-HT1A），但精神科診斷分類過於廣泛，難以作為單一適應症開發目標。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "anxiety disorder",
+      "txgnn": {
+        "score": 0.9945131540298462,
+        "rank": 6903
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00934973",
+            "title": "Management of Irritable Bowel Syndrome in Primary Care: Feasibility Randomised Controlled Trial of Mebeverine, Methylcellulose, Placebo and a Patient Self-management Cognitive Behavioural Therapy Website. (MIBS Trial)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 135,
+            "start_date": "2010-04",
+            "completion_date": "2011-10",
+            "brief_summary": "Aims:\n\n1. To pilot an randomized, controlled trial (RCT) to assess the effectiveness of the commonly prescribed medications in UK general practice for IBS: mebeverine (anti-spasmodic) and methylcellulose (bulking-agent) and of the patient CBT based self-management website.\n2. To assess the level of support needed for patients using the patient CBT based self-management website for IBS (i.e., initial 30 minute telephone support session with a nurse and email support or not).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗主要適應症為 IBS，非焦慮症；焦慮評估（若有）屬次要終點或共病觀察。證據屬間接相關，IBS-焦慮共病機制可作為假說基礎，但無法直接支持焦慮症適應症。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25199966",
+            "title": "Anxiolytic-like effects of alverine citrate in experimental mouse models of anxiety.",
+            "authors": [
+              "Gupta Deepali",
+              "Radhakrishnan Mahesh",
+              "Kurhe Yeshwant"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "2014",
+            "abstract": "Anxiety disorders are widely spread psychiatric illnesses that are a cause of major concern. Despite a consistent increase in anxiolytics, the prevalence of anxiety is static; this necessitates the development of new compounds with potential activity and minimum unwanted effects. A serotonergic (5HT) system plays an important role in pathogenesis of anxiety and predominantly involves 5HT1A receptor action in mediating anxiety-like behavior; the antagonism of 5HT1A receptor has demonstrated to pr",
+            "classification": {
+              "study_type": "動物實驗（preclinical）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Alverine 在動物實驗中顯示 5-HT1A 部分激動/拮抗活性；5-HT1A 受體為焦慮症一線藥物（buspirone）作用靶點。IBS 與焦慮症高度共病（腸腦軸），但現有臨床試驗 NCT00934973 以 IBS 為主要終點，焦慮僅為次要觀察，尚無以焦慮為主要終點之 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.992475688457489,
+        "rank": 8652
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "偏頭痛涉及三叉神經血管機制及 5-HT 受體（特別是 5-HT1B/1D）。Alverine 若具 5-HT 活性，理論上可能有部分交集，但作用靶點與 triptan 類藥物不同。平滑肌鬆弛作用對腦血管可能有輕微效應，但機轉假說極為薄弱，且無任何臨床或前臨床支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "neurotic depression",
+      "txgnn": {
+        "score": 0.9916170239448548,
+        "rank": 9305
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30087074",
+            "title": "Network-based drug repositioning: A novel strategy for discovering potential antidepressants and their mode of action.",
+            "authors": [
+              "Zhang Ting-Ting",
+              "Xue Rui",
+              "Wang Xin",
+              "Zhao Shi-Wen",
+              "An Lei"
+            ],
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2018",
+            "abstract": "Current target-oriented paradigm for novel antidepressant discovery has been difficult to succeed and the failures always bring huge economic losses. Although abundant ledge of disease related genes and drug action targets has been accumulated, the successful application of the knowledge for new drug discovery is limited. Here, we predicted and validated potential antidepressants and molecular targets from DrugBank recorded drugs using a novel network-based drug repositioning approach. This appr",
+            "classification": {
+              "study_type": "計算生物學/網路分析",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PMID 30087074 為網路藥理學計算預測研究，以蛋白質交互作用網路推算潛在抗憂鬱候選藥；Alverine 列入候選係基於網路拓撲相似性，非直接生物學驗證。機轉假說：可能透過共享 serotonergic/noradrenergic 網路節點與憂鬱症路徑交集，但尚無體外/體內實驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "melancholia",
+      "txgnn": {
+        "score": 0.9914370179176332,
+        "rank": 9452
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30087074",
+            "title": "Network-based drug repositioning: A novel strategy for discovering potential antidepressants and their mode of action.",
+            "authors": [
+              "Zhang Ting-Ting",
+              "Xue Rui",
+              "Wang Xin",
+              "Zhao Shi-Wen",
+              "An Lei"
+            ],
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2018",
+            "abstract": "Current target-oriented paradigm for novel antidepressant discovery has been difficult to succeed and the failures always bring huge economic losses. Although abundant ledge of disease related genes and drug action targets has been accumulated, the successful application of the knowledge for new drug discovery is limited. Here, we predicted and validated potential antidepressants and molecular targets from DrugBank recorded drugs using a novel network-based drug repositioning approach. This appr",
+            "classification": {
+              "study_type": "計算生物學/網路分析",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與 neurotic depression 共享同一計算預測來源（PMID 30087074）。憂鬱症亞型，缺乏 Alverine 特異性機轉連結。憂鬱症網路節點重疊為假說基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn": {
+        "score": 0.9906719923019408,
+        "rank": 10052
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嬰兒良性陣發性斜頸為偏頭痛等效症候群，與 CACNA1A 基因相關。Alverine 平滑肌鬆弛作用理論上與此無直接關聯；知識圖譜可能因偏頭痛節點而產生此預測。兒科族群安全性資料完全缺乏，研究優先順序極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "agoraphobia",
+      "txgnn": {
+        "score": 0.9905941486358644,
+        "rank": 10122
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "廣場恐懼症屬焦慮症光譜。若 Alverine 之焦慮症假說成立（PMID 25199966），廣場恐懼症在理論上可能受益，但無任何特定研究。需先於一般焦慮症獲得 L2 以上證據，方可評估此亞型。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "congenital isolated adrenocorticotropic hormone deficiency (disease)",
+      "txgnn": {
+        "score": 0.9901719689369202,
+        "rank": 10422
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性孤立性 ACTH 缺乏症為罕見下視丘-腦下垂體軸疾病（通常與 POMC 或 TPIT 基因突變相關）。Alverine 已知藥理（平滑肌鬆弛/抗痙攣）與 HPA 軸內分泌調控無明確機轉連結。此預測最可能為 KG 網路拓撲假陽性。研究價值最低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9894808530807496,
+        "rank": 10908
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "基底型偏頭痛亞型，涉及腦幹血流調控。較一般偏頭痛更為複雜，且 triptan 類在此亞型為相對禁忌。無任何 Alverine 相關臨床或前臨床證據。TxGNN 評分可能源於偏頭痛節點網路連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "dysthymic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "anxiety disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "anxiety disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "anxiety disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "congenital isolated adrenocorticotropic hormone deficiency (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alverine",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

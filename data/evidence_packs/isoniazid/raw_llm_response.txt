@@ -1,0 +1,192 @@
+## Isoniazid (DB00951) 藥物再利用證據分析
+
+以下為各適應症的系統性評估：
+
+```json
+{
+  "indications": [
+    {
+      "disease_name": "conjunctivitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "INH 透過抑制 InhA/KasA 酵素阻斷 mycolic acid 合成，殺滅 Mycobacterium tuberculosis。結核性結膜炎為 M. tuberculosis 直接感染眼部結膜，INH 作為標準抗結核方案核心藥物具間接療效。然此僅涵蓋結核病因亞型，對非結核性（病毒/細菌）結膜炎無已知療效。NCT04094012 雖為 Phase 3，但研究目標為 LTBI 療程比較（3HP vs 1HP），與結膜炎適應症無直接關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04094012",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 已完成、n=490，研究主題為潛伏性結核感染系統性藥物反應比較，與結膜炎治療無關，相關性極低。TxGNN 評分 0.994 明顯高估。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "14089390", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "32674602", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "26692731", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "33607832", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "1363080", "study_type": "Review (ocular side effects)", "tier": "2"},
+        {"pmid": "10084171", "study_type": "Case Series (BCG-induced arthropathy, INH use)", "tier": "3"},
+        {"pmid": "10084173", "study_type": "Case Series", "tier": "3"},
+        {"pmid": "5005929", "study_type": "Drug Review", "tier": "2"},
+        {"pmid": "12226788", "study_type": "Case Report", "tier": "3"},
+        {"pmid": "14195962", "study_type": "Case Report (TEN)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "兩篇早期臨床研究（PMID 13427153, 1957；PMID 3351840, 1988）直接測試 INH 對 RA 患者的療效，顯示潛在抗發炎或免疫調節活性。現代文獻主要圍繞 INH 在 RA 生物製劑患者中的 LTBI 預防性使用（非直接治療 RA）。機轉假說尚不明確：INH 可能透過 MAO 抑制（類似 iproniazid）或細胞免疫調節影響 RA 病程。缺乏現代 RCT，原始試驗不符合當代方法學標準。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "13427153", "study_type": "Clinical Study (pre-RCT era, 1957)", "tier": "2"},
+        {"pmid": "3351840", "study_type": "Clinical Trial (1988)", "tier": "2"},
+        {"pmid": "27064275", "study_type": "Cohort Study (prophylaxis in RA)", "tier": "2"},
+        {"pmid": "28288508", "study_type": "Cohort Study (INH tolerability in RA)", "tier": "2"},
+        {"pmid": "31852268", "study_type": "Systematic Review (infection risk)", "tier": "1"},
+        {"pmid": "26318385", "study_type": "Cohort Study (LTBI in tofacitinib-RA)", "tier": "2"},
+        {"pmid": "28734675", "study_type": "Cohort Study (tocilizumab safety)", "tier": "2"},
+        {"pmid": "31678927", "study_type": "Case Report (mania induced by INH)", "tier": "3"},
+        {"pmid": "29526956", "study_type": "Case Report (rhabdomyolysis)", "tier": "3"},
+        {"pmid": "1163547", "study_type": "Case Report", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "shigellosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Shigella 為革蘭氏陰性腸桿菌科細菌，INH 的作用靶點（mycolic acid 合成路徑）為分枝桿菌專一性，對革蘭氏陰性菌無已知抑菌活性。零臨床試驗、零文獻支持。此預測可能為 KG 模型透過腸道感染路徑的間接推斷假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "罕見遺傳性先天發育異常症候群（眼球發育缺損合併肢根型骨骼發育不良），INH 為抗細菌藥物，無任何已知針對此類基因發育缺陷的療效機轉。零臨床或文獻依據，為純計算預測。建議列為模型假陽性案例。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "leprosy",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Mycobacterium leprae 與 M. tuberculosis 同屬分枝桿菌屬，共享 mycolic acid 合成途徑，INH 理論上可抑制 M. leprae。1950 年代兩篇直接臨床研究（PMID 12991685, 1952；PMID 13281923, 1955）已探討 INH 用於麻瘋病。然現代 WHO MDT（dapsone + rifampicin ± clofazimine）已確立，INH 未被納入標準方案。當代臨床試驗均以 TB 為主要適應症，無現代麻瘋病 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07440160",
+          "relevance_grade": "B",
+          "reasoning": "NA 期整合性介入試驗，同時涵蓋 TB 與麻瘋病社區管理，n=278，進行中。研究重點為數位化服務整合模式，非 INH 對麻瘋病直接療效評估，但具疾病領域相關性。"
+        },
+        {
+          "nct_id": "NCT00850915",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 完成，研究肯亞 HIV 族群 INH 預防性治療（LTBI），n=1259，非麻瘋病適應症。"
+        },
+        {
+          "nct_id": "NCT07303699",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 招募中，研究抗結核藥物合併 Atorvastatin 的 PK/PD，n=80，非麻瘋病。"
+        },
+        {
+          "nct_id": "NCT00816426",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 完成，研究抗 TB 藥物肺部及病灶藥代動力學，n=19，非麻瘋病。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "12991685", "study_type": "Early Clinical Study (1952, direct INH in leprosy)", "tier": "2"},
+        {"pmid": "13281923", "study_type": "Early Clinical Study (1955, direct INH in leprosy)", "tier": "2"},
+        {"pmid": "2344344", "study_type": "Pharmacogenomics Study (acetylation in leprosy)", "tier": "2"},
+        {"pmid": "30046638", "study_type": "Review (TB-leprosy coinfection)", "tier": "2"},
+        {"pmid": "29847567", "study_type": "Resistance Study (M. leprae)", "tier": "2"},
+        {"pmid": "39446249", "study_type": "Epidemiological Study (2024)", "tier": "2"},
+        {"pmid": "33127165", "study_type": "Case Report + Literature Review", "tier": "3"},
+        {"pmid": "33758553", "study_type": "Cohort Study (hepatotoxicity in HIV+leprosy)", "tier": "2"},
+        {"pmid": "33958898", "study_type": "Cohort Study", "tier": "2"},
+        {"pmid": "8179715", "study_type": "Review (hepatotoxicity)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "罕見遺傳性四肢發育異常症候群，INH 無任何已知針對肢端骨骼形成基因缺陷的療效機轉。零臨床或文獻依據，為純計算預測，建議列為模型假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vestibular neuronitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "前庭神經元炎通常為病毒感染後免疫介導的急性周圍性眩暈疾患，INH 為抗分枝桿菌藥物，無抗病毒或抗前庭神經炎機轉。零臨床試驗、零文獻支持，為純計算推斷，生物學合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "motor nerve neuritis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 負向證據警示（Adverse Effect Direction）：現有全部文獻均記錄 INH 本身為運動神經炎的已知病因，而非治療藥物。機轉為 INH 競爭性抑制吡哆醛激酶，導致維生素 B6 耗竭，進而引起周圍神經病變（以慢代謝者/slow acetylators 為高風險族群）。此適應症方向與藥物毒性特性完全相反，再利用方向不成立，不應進入後續評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "6329054", "study_type": "Review (INH neurotoxicity mechanism)", "tier": "2"},
+        {"pmid": "1339149", "study_type": "Electrophysiological Study (INH-induced neuropathy)", "tier": "2"}
+      ]
+    },
+    {
+      "disease_name": "infectious otitis media",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻（PMID 5302244, 1968）描述先天性結核病以中耳炎為初始表現的個案，屬於 TB 全身感染的局部耳部表現，非一般感染性中耳炎（主要病原：肺炎鏈球菌、流感嗜血桿菌、卡他莫拉菌）。INH 對上述常見病原菌無療效，機轉關聯極為薄弱且僅限結核病因亞型。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "5302244", "study_type": "Case Report (1968, congenital TB)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "brachial plexus neuritis",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 負向證據警示（Adverse Effect Direction）：文獻（PMID 5107465, 1971）明確記錄 INH 誘發臂叢神經炎的管理與預後，INH 為此病因而非治療藥物。PMID 1554089 為結核性咽後膿腫個案，與臂叢神經炎治療無關。與運動神經炎相同，INH 的維生素 B6 拮抗毒性使此再利用方向不成立。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "5107465", "study_type": "Case Series/Review (INH-induced neuritis)", "tier": "3"},
+        {"pmid": "1554089", "study_type": "Case Report (TB abscess)", "tier": "3"}
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 備注 |
+|--------|---------|---------|------|------|
+| Conjunctivitis | L4 | S1 | Hold | 僅結核性病因亞型有間接依據 |
+| Rheumatoid Arthritis | L3 | S1 | Research Question | 1950-80s 老舊臨床資料，需現代試驗驗證 |
+| Shigellosis | L5 | S0 | Hold | 機轉不符，可能假陽性 |
+| Colobomatous microphthalmia syndrome | L5 | S0 | Hold | 遺傳性疾病，機轉無關 |
+| **Leprosy** | **L3** | **S2** | **Research Question** | 最具潛力：機轉合理 + 1950s 臨床實證 |
+| Brachydactyly-syndactyly syndrome | L5 | S0 | Hold | 遺傳性疾病，機轉無關 |
+| Vestibular neuronitis | L5 | S0 | Hold | 無任何文獻支持 |
+| Motor nerve neuritis | L4 | S0 | **Hold ⚠️** | **負向證據：INH 為病因** |
+| Infectious otitis media | L4 | S0 | Hold | 極弱間接關聯 |
+| Brachial plexus neuritis | L4 | S0 | **Hold ⚠️** | **負向證據：INH 為病因** |
+
+### 關鍵發現
+
+1. **最具潛力**：**Leprosy (L3/S2)** — 具強機轉合理性（同屬 Mycobacterium）及 1950 年代直接臨床研究，值得現代藥物組合研究
+2. **待釐清**：**Rheumatoid Arthritis (L3/S1)** — 老舊臨床資料需重新驗證，現代意義主要為 LTBI 預防
+3. **重要警示**：Motor nerve neuritis 與 Brachial plexus neuritis 的 TxGNN 高分預測（0.977+）完全**反轉**——INH 是這兩個疾病的已知**致病因素**，顯示模型在此處存在方向性混淆
+4. **資料缺口**：`market_status: 未上市` 與 `original_indications: []` 與 Isoniazid 實際為全球廣泛使用的一線抗結核藥物不符，建議檢查資料庫來源完整性

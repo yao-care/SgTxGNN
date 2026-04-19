@@ -1,0 +1,2625 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00829-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Diazepam",
+    "drugbank_id": "DB00829",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "insomnia (disease)",
+      "txgnn": {
+        "score": 0.9999974966049194,
+        "rank": 17
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02831894",
+            "title": "The Role of Tapering Pace and Selected Traits on Hypnotic Discontinuation",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 74,
+            "start_date": "2015-11-02",
+            "completion_date": "2019-06-30",
+            "brief_summary": "Treatment seeking insomnia sufferers most often present in primary care venues where the first and usually only treatment is a prescription for a sedative hypnotic, typically a benzodiazepine or newer benzodiazepine receptor agonist, For some patients, short term or intermittent use provides satisfactory insomnia relief. However, more than 65 percent of individuals who are prescribed hypnotics use them for more than a year, and over 30 percent remain on these agents for more than five years. Whe",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 試驗（74人，COMPLETED），研究漸減節奏對催眠藥停藥的影響，反映苯二氮平失眠治療現狀，與Diazepam適應症相關但為停藥設計"
+            }
+          },
+          {
+            "nct_id": "NCT04050176",
+            "title": "Use of Blinded Tapering for Hypnotic Discontinuation",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 260,
+            "start_date": "2019-12-16",
+            "completion_date": "2026-06-30",
+            "brief_summary": "The study will employ a randomized longitudinal clinical trial design to evaluate the relative efficacy of a blinded hypnotic tapering protocol when used in combination with therapist delivered Cognitive Behavioral Therapy for Insomnia (CBTI) for enhancing hypnotic discontinuation rates. A blinded SMT+CBTI intervention will be compared to open-label SMT+CBTI.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 遮蔽式漸減試驗（260人，ACTIVE），研究苯二氮平受體促效劑（含Diazepam）從失眠治療中安全停藥策略。間接確認Diazepam用於失眠的臨床普遍性，但非測試其療效"
+            }
+          },
+          {
+            "nct_id": "NCT07417813",
+            "title": "A Multicenter, Prospective, Single-Arm, Observational Study on Effectiveness and Safety of Lemborexant on Insomnia Patients With Psychiatric Disorders",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 121,
+            "start_date": "2026-01-24",
+            "completion_date": "2026-12-31",
+            "brief_summary": "This study aims to evaluate the effectiveness and safety of lemborexant (a new dual orexin receptor antagonist) in the treatment of patients with mental disorders complicated with insomnia. The subjects are patients aged 18 years and above, who meet the DSM-5 diagnostic criteria for mental disorders and have an Insomnia Severity Index (ISI) score ≥11. They will receive lemborexant treatment for 8 weeks, with follow-up to observe the improvement of insomnia symptoms and adverse events, so as to p",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Lemborexa觀察性研究（121人，RECRUITING），為新型食慾素受體拮抗劑，與Diazepam無關"
+            }
+          },
+          {
+            "nct_id": "NCT04751851",
+            "title": "Determinants of Optimal Benzodiazepines Withdrawal in Adults With Hypnotic-dependent Insomnia: a Randomised Controlled Trial Evaluating Acceptance and Commitment Therapy in Telepsychology",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 128,
+            "start_date": "2021-06-03",
+            "completion_date": "2025-04-04",
+            "brief_summary": "Long-term use of benzodiazepines is a long-standing problem, but the optimal withdrawal modalities are not known. The main objective of this study is to compare the effectiveness of a psychological support versus a psychotherapeutic intervention (Acceptance and Commitment Therapy, ACT) added to a withdrawal program on the reduction of benzodiazepines use in adults suffering from insomnia and hypnotic dependence.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "苯二氮平依賴性失眠患者最適停藥決定因素RCT（128人，COMPLETED），直接涉及苯二氮平依賴性失眠族群，間接支持Diazepam在此適應症的歷史使用"
+            }
+          },
+          {
+            "nct_id": "NCT03461042",
+            "title": "The Placebo Controlled Randomized Double Blind Multicenter Study to Investigate Effectiveness and Safety of Combination Use of Melatonin Receptor Agonist for Dose Reduction or Interruptions of BZD and Non-BZD Hypnotics on Chronic Insomnia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2018-02-06",
+            "completion_date": "2020-03-16",
+            "brief_summary": "To investigate effects on combination use of Ramelteon in the dose reduction or interruption process of (non-)BZD hypnotics during the dose reduction or interruption algorithm.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 多中心雙盲研究（17人，COMPLETED），標題截斷，無法確認與Diazepam的直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT03687086",
+            "title": "A Novel Mechanism for Helping Older Adults Discontinue Use of Sleeping Pills",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 188,
+            "start_date": "2018-12-11",
+            "completion_date": "2023-11-27",
+            "brief_summary": "Sleeping medications, called hypnotics, are often prescribed for insomnia and are associated with adverse health outcomes in older adults. Response rates to hypnotic discontinuation programs are often inadequate, and many patients eventually resume use of hypnotics, suggesting that other mechanisms need to be targeted to achieve and sustain high rates of non-use. Current programs focus on the tapering of hypnotics and/or the treatment of insomnia symptoms. These programs employ strategies such a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "老年人停用安眠藥新機制研究（188人，COMPLETED），聚焦行為介入，Diazepam非主角"
+            }
+          },
+          {
+            "nct_id": "NCT01146600",
+            "title": "Clarithromycin for the Treatment of Hypersomnia",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2010-07",
+            "completion_date": "2012-09",
+            "brief_summary": "The term 'hypersomnia' describes a group of symptoms that includes severe daytime sleepiness and sleeping long periods of time (more than 10 hours per night). Sometimes, hypersomnia is caused by a problem with the quality of sleep occurring at night, for instance when nighttime sleep is disrupted by frequent breathing pauses. In other cases, however, hypersomnia occurs even when nighttime sleep is of good quality. These cases of hypersomnia are presumed to be a symptom of brain dysfunction, and ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Clarithromycin治療過度嗜睡症（Phase 2，26人），為不同藥物、不同睡眠障礙，相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT00678691",
+            "title": "An Eight Week, Double-Blind Efficacy Study of Armodafinil Augmentation to Alleviate Fibromyalgia Fatigue",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 55,
+            "start_date": "2007-08",
+            "completion_date": "2009-12",
+            "brief_summary": "Armodafinil (NuvigilTM) is an isomer of a drug currently approved by the FDA for the treatment of fatigue secondary to narcolepsy, sleep apnea, and shift work sleep disorder called modafinil (ProvigilTM). There is considerable off label evidence for modafinil's ability to reduce fatigue related to multiple sclerosis, Parkinson's disease, cancer related fatigue, and depression related fatigue. There are preclinical studies showing that modafinil can alleviate fatigue secondary to medication side ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Armodafinil治療纖維肌痛相關疲勞（Phase 4，55人），與Diazepam及失眠無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT04364321",
+            "title": "The Efficacy of A Single Dose Clonazepam Compared With the Intermittent Diazepam to Prevent Recurrent Febrile Seizures in Queen Sirikit National Institute of Child Health",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 74,
+            "start_date": "2020-05-13",
+            "completion_date": "2023-06",
+            "brief_summary": "To study the efficacy and safety of single dose clonazepam compared with intermittent oral diazepam for prevention of recurrent febrile seizures in children who had three or more febrile seizures.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較單劑Clonazepam與間歇性Diazepam預防復發之試驗（74人），雖主要適應症為熱性痙攣，但為少數直接涉及Diazepam的對照試驗"
+            }
+          },
+          {
+            "nct_id": "NCT05935553",
+            "title": "Baclofen for Improving Benzodiazepine Titration in Benzodiazepine Dependence",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 93,
+            "start_date": "2026-01-15",
+            "completion_date": "2028-10-30",
+            "brief_summary": "Benzodiazepines and related molecules are among the most prescribed psychotropic treatments in France and Europe. 13.4% of the French population had at least one reimbursement of benzodiazepines in 2015, which places France second in Europe.\n\nHowever, the chronic use of benzodiazepines is a source of numerous complications, particularly addictive. To date, there is no authorized pharmacological treatment for benzodiazepine withdrawal.\n\nBaclofen is a gamma-aminobutyric acid (GABA)-B agonist, a ph",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Baclofen改善苯二氮平依賴患者漸減（Phase 2/3，93人，RECRUITING），提供苯二氮平依賴失眠背景，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT05646693",
+            "title": "Effect of Combined Antioxidant Therapy on Oxidative Stress Markers and Inflammatory in Patients With Chronic Subjective Endotic Tinnitus",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 58,
+            "start_date": "2022-12-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The main objective of our study is to evaluate the effect of combinated antioxidants therapy with Adepsique® (amitriptyline, perphenazine, and diazepam) on patients with tinnitus chronic symptoms, evaluating the levels of inflammatory cytokines and oxidative stress in blood.\n\nThe researchers intend to include 58 patients, divided into two intervention groups, who will be randomly assigned a pill with antioxidants or placebo, and the patient must eat one pill per day for 3 months.\n\nIn the study, ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05466279",
+            "title": "Department of Anesthesiology, Cancer Hospital of the University of Chinese Academy of Sciences（Zhejiang Cancer Hospital), Research Center for Neuro-Oncology Interaction , Institute of Basic Medicine and Cancer, Chinese Academy of Sciences.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 131,
+            "start_date": "2021-01-07",
+            "completion_date": "2023-10-30",
+            "brief_summary": "This study is a prospective, randomized, controlled trial.The selected patients were randomly divided into remazolam general anesthesia group and propofol + midazolam general anesthesia control group according to computer randomization method. There were 65 patients in each group. Remazolam general anesthesia group (R group): Remazolam 0.4 mg/kg for rapid induction of loss of consciousness for anesthesia induction and 1 mg/kg/h for maintenance. Propofol + midazolam general anesthesia control gro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04205682",
+            "title": "A Randomised Controlled Trial of Cannabidiol (CBD) for the Treatment of Alcohol Withdrawal",
+            "phase": "EARLY_PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 52,
+            "start_date": "2020-01",
+            "completion_date": "2021-01",
+            "brief_summary": "This study will explore the effectiveness and tolerability of Cannabidiol (CBD) in the treatment of alcohol withdrawal symptoms in an inpatient setting, in a double-blind randomised placebo-controlled trial.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05913947",
+            "title": "Lithium Versus Cariprazine in the Acute Phase Treatment of Bipolar Depression: a Pragmatic Head-to-head Open, Randomized Multicenter Study: The 9th Study of the Danish University Antidepressant Group (DUAG 9)",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 122,
+            "start_date": "2022-12-13",
+            "completion_date": "2028-09-02",
+            "brief_summary": "The goal is to study the effect of lithium compared to cariprazine in patients with depression in a bipolar disease.\n\nThe main question it aims to answer is:\n\nDifference in change between the two groups from baseline to after 8 weeks treatment on Hamilton Ratings Scale for Depression, 6-item version (HDS-6)\n\nParticipants will be randomized to treatment with either lithium or cariprazin.\n\n* Will meet for interview and ratings 4 times during study period.\n* In two meetings, there will be made bloo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01893632",
+            "title": "Gabapentin Treatment of Benzodiazepine Dependence",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2013-07",
+            "completion_date": "2016-04-01",
+            "brief_summary": "Benzodiazepine dependence is a growing public health problem for which very few evidenced-based treatment approaches are available. Approximately 683,000 individuals met past year criteria for sedative-hypnotic use disorders in the US during 2010, a prevalence greater than heroin or methamphetamine dependence. The most commonly prescribed sedative-hypnotic agents are the benzodiazepines. Chronic use induces pharmacodynamic tolerance in the GABA neurotransmitter system and individuals with physio",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02530580",
+            "title": "A Phase I Single Site, Single Dose, Randomized, Double-blind, Placebo Controlled, 2-way Cross-over Biomarker Study Investigating the Effect of the GABA Modulator AZD7325 on Cutaneous Sensation in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2016-02",
+            "completion_date": "2016-07",
+            "brief_summary": "GABA (gamma-aminobutyric acid) is the main inhibitory neurotransmitter in the human brain. For years, drugs that enhance its effects (e.g., benzodiazepines such as diazepam/Valium) have been used to treat various diseases such as epilepsy, insomnia, anxiety or movement disorders. However, the use of these medications is often compromised because of their side effects, such as sleepiness, memory problems, and addiction.\n\nTherefore, effort has been made to develop drugs that act more selectively i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02822937",
+            "title": "A Study to Assess the Sensitivity of Project: EVO Monitor Cognitive Function Measurements to Methylphenidate and Triazolam in Adults 40-55 Years Old",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2016-07",
+            "completion_date": "2016-11",
+            "brief_summary": "This is a study in adults to assess the sensitivity of Project: EVO Monitor cognitive measurements to two short-acting cognitively active pharmacological agents. The participants will receive a placebo, and two pharmacological agents in a randomized order for three in-clinic study days. During each study day in the clinic, the participants will use Project: EVO Monitor and another cognitive task through the day.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02707094",
+            "title": "A Pilot Study Examining the Efficacy of Biomodulator Treatment for Chronic Low Back Pain",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 75,
+            "start_date": "2013-01",
+            "completion_date": "2016-08-31",
+            "brief_summary": "The purpose of this study is to determine the efficacy of self treatment with the Biomodulator device to decrease chronic low back pain (LBP) in active duty service members. In addition, the study will track the use of pain medication and the impact of pain on symptoms of anxiety, depression and Post Traumatic Stress Syndrome (PTSD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00287794",
+            "title": "Study on the Quality of Sleep in Patients With Rheumatoid Arthritis",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 1000,
+            "start_date": "2006-02",
+            "completion_date": "2010-12",
+            "brief_summary": "As one of the characteristic clinical features of the patients with rheumatoid arthritis, the unique character of the patients, somewhat difficult to be persuaded but theoretical, has long been pointed out. The investigators hypothesized that this unique character might be due to the sleep disturbance in the patients possibly due to severe pain of arthritis or unique biochemical disease activities. The investigators test (1) the sleep quality of the patients and draw some characteristic features",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03405493",
+            "title": "Sleep, Wake and Light Therapy for Depression",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2018-01-18",
+            "completion_date": "2019-09-23",
+            "brief_summary": "The aim of this study is to determine if altering the pattern of one's sleep and having light therapy can speed up the treatment of depression. In the UK, the large majority of patients with depression in the NHS are treated in the community, and one of the major objectives of the study one is to determine if this therapy is a practical treatment in the community. We will be comparing two treatments:\n\n1. Sleep Therapy and a Light Box: Participants will be given information and advice on how to g",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02648776",
+            "title": "Risk and Benefit Assessment of Hypnotic Agents for Sleep Disorders Among Elderly; A Prospective Cohort Study at a Taiwanese Academic Medical Center",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 1400,
+            "start_date": "2016-01",
+            "completion_date": "2018-12",
+            "brief_summary": "The aims of this study are to (1) examine the medication use patterns of commonly prescribed hypnotics and the factors that were associated with the long-term and short-term use patterns among the elderly population in Taiwan; (2)investigate the associations of using hypnotics with the elderly patients' disease statuses, efficacy and safety, as well as its pharmacokinetic and pharmacogenetic characteristics;(3) determine the clinical, economic and humanistic outcomes of using hypnotics and the c",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06365801",
+            "title": "Investigation of Acupoint in Irritable Bowel Syndrome Based on Biological Characteristics: A Prospective Cohort Study",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 100,
+            "start_date": "2024-04",
+            "completion_date": "2025-12",
+            "brief_summary": "Irritable bowel syndrome (IBS) is a common functional disorder of the digestive system characterized by recurrent abdominal pain associated with bowel movements or changes in bowel habits. Although there are reviews and guidelines for treating IBS, the complexity and diversity of IBS manifestations make treatment difficult. By detecting and exploring the biological characteristics presented by the relevant meridian point reaction, this project clarified the specificity and regularity of the conn",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01244711",
+            "title": "An Open-label Pilot Study to Examine the Value of Substituting Quetiapine for Benzodiazepines in Treatment-refractory Patients With Unipolar Depression or Generalized Anxiety Disorder and Chronic Benzodiazepine Use",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2008-09",
+            "completion_date": "2011-09",
+            "brief_summary": "The hypothesis of this study is that symptoms of anxiety, depression and insomnia; and indices of psychosocial function will all improve, while BZ use will decrease significantly during a twelve-week trial period of substituting quetiapine for benzodiazepines.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02281175",
+            "title": "The Effectiveness of a Novel Psychosocial Intervention \"Programme d'Aide au Succès du Sevrage \" (PASSE-65+) Designed to Help Older Benzodiazepine Users to Gradually Wean Their Medication",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 114,
+            "start_date": "2014-08",
+            "completion_date": "2018-07",
+            "brief_summary": "Benzodiazepines (BZD) are widely used to treat anxiety, insomnia, and depression. These drugs can have very serious side effects if they are taken over a long period of time. In addition to stability, memory, concentration, vigilance, and attention impairments, long-term use of BZD is also associated with an increased in hypertension incidence, urinary incontinence, coronary artery disease, and renal complications. There are growing evidences that long-term BZD use causes physical and psychologi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35228700",
+            "title": "Long-term diazepam treatment enhances microglial spine engulfment and impairs cognitive performance via the mitochondrial 18 kDa translocator protein (TSPO).",
+            "authors": [
+              "Shi Yuan",
+              "Cui Mochen",
+              "Ochs Katharina",
+              "Brendel Matthias",
+              "Strübing Felix L"
+            ],
+            "journal": "Nature neuroscience",
+            "year": "2022",
+            "abstract": "Benzodiazepines are widely administered drugs to treat anxiety and insomnia. In addition to tolerance development and abuse liability, their chronic use may cause cognitive impairment and increase the risk for dementia. However, the mechanism by which benzodiazepines might contribute to persistent cognitive decline remains unknown. Here we report that diazepam, a widely prescribed benzodiazepine, impairs the structural plasticity of dendritic spines, causing cognitive impairment in mice. Diazepa",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31770357",
+            "title": "Cannabis and cannabinoids.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2019",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6114852",
+            "title": "Triazolam: a review of its pharmacological properties and therapeutic efficacy in patients with insomnia.",
+            "authors": [
+              "Pakes G E",
+              "Brogden R N",
+              "Heel R C",
+              "Speight T M",
+              "Avery G S"
+            ],
+            "journal": "Drugs",
+            "year": "1981",
+            "abstract": "Triazolam is a triazolobenzodiazepine with hypnotic properties, advocated for use in acute or chronic insomnia, situational insomnia in hospitalised patients, and insomnia associated with other disease states. As triazolam has a relatively short half-life of about 2 to 3 hours in healthy subjects and has only 1 short acting active metabolite, alpha-hydroxytriazolam, it would seem more suitable as an hypnotic than longer acting drugs such as flurazepam, nitrazepam or flunitrazepam, particularly w",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41525914",
+            "title": "Zhi-Gan Formula improved insomnia and anxiety comorbidity in a mouse model via PACAP signaling in the medial prefrontal cortex.",
+            "authors": [
+              "Liu Ruiyi",
+              "Wu Zhangjie",
+              "Yin Ying",
+              "Song Chenghao",
+              "Zhang Chengyu"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2026",
+            "abstract": "Insomnia and anxiety are highly comorbid, severely compromising quality of life. Efficacy of current pharmacological interventions for this dual condition remains limited. Zhi-Gan Formula (ZG), consisting of Zhi-Zi-Chi Decoction and Ganmai Dazao Decoction, two classic Traditional Chinese Medicine (TCM) formulae clinically widely used for insomnia or anxiety, holds promise as a therapeutic option for insomnia-anxiety comorbidity.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29479317",
+            "title": "Suanzaoren Formulae for Insomnia: Updated Clinical Evidence and Possible Mechanisms.",
+            "authors": [
+              "Zhou Qi-Hui",
+              "Zhou Xiao-Li",
+              "Xu Meng-Bei",
+              "Jin Ting-Yu",
+              "Rong Pei-Qing"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2018",
+            "abstract": "Insomnia disorder is a widespread and refractory disease. Semen Ziziphi Spinosae, Suanzaoren, a well-known Chinese herbal medicine, has been used for treating insomnia for thousands of years. Here, we aimed to assess the available evidence of Chinese herbal formulae that contains Suanzaoren (FSZR) for insomnia according to high-quality randomized controlled trials (RCTs) and reviewed their possible mechanisms based on animal-based studies. Electronic searches were performed in eight databases fr",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32240473",
+            "title": "Sedative and Hypnotic Effects and Transcriptome Analysis of Polygala tenuifolia in Aged Insomnia Rats.",
+            "authors": [
+              "Ren Xiao-Juan",
+              "Wang Guan-Ying",
+              "Zhang Xing-Ping",
+              "Wang Qing-Quan",
+              "Peng Zhi-Peng"
+            ],
+            "journal": "Chinese journal of integrative medicine",
+            "year": "2020",
+            "abstract": "To study the sedative and hypnotic effects and underlying mechanisms of Polygala tenuifolia (PT) on treating aged insomnia rats.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39581171",
+            "title": "Clinical applications of small-molecule GABAAR modulators for neurological disorders.",
+            "authors": [
+              "Chen Guangyong",
+              "Xu Meiling",
+              "Chen Zhuo",
+              "Yang Fuwei"
+            ],
+            "journal": "Bioorganic chemistry",
+            "year": "2024",
+            "abstract": "Gamma-aminobutyric acid type A receptor (GABAAR) modulators are crucial in treating neurological and psychiatric disorders, including epilepsy, anxiety, insomnia, and depression. This review examines the synthetic approaches and clinical applications of representative small-molecule GABAAR modulators. Benzodiazepines, such as Diazepam, are well-known positive allosteric modulators (PAMs) that enhance GABAAR function, providing therapeutic effects but also associated with side effects like sedati",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37377000",
+            "title": "Goat and cow milk differ in altering the microbiota composition and neurotransmitter levels in insomnia mouse models.",
+            "authors": [
+              "Mo Ling",
+              "Jing Huijuan",
+              "Du Xiaojing",
+              "Zhao Chaochao",
+              "Lin Yintao"
+            ],
+            "journal": "Food & function",
+            "year": "2023",
+            "abstract": "Milk can improve sleep, and the effects of different animal milks vary. Accordingly, we evaluated the effectiveness of goat milk and cow milk in alleviating insomnia. The findings demonstrated that both goat milk and cow milk significantly increased the length of time that mice with insomnia slept compared to the model group and lowered the relative abundance of Colidextribacter, Escherichia-Shigella, and Proteus in these mice. A notable finding was that goat milk considerably increased the rela",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347763",
+            "title": "Sedative-hypnotic effects of Yiyin Anshen Granule on mice models of insomnia by regulating neurotransmitters, cytokines, and gut microbiota.",
+            "authors": [
+              "Zhang Chunge",
+              "Wu Qi",
+              "Tao Xiang",
+              "Yan Zhaowei",
+              "Han Qiang"
+            ],
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "2025",
+            "abstract": "This study aims to elucidate the pathways through which Yiyin Anshen Granule (YA) exerts sedative-hypnotic effects in a mouse model of sleep deprivation. DL-4-chlorophenylalanine(PCPA)-treated mice received intragastric administration of YA and pentobarbital sodium-induced sleep tests were conducted on days 7, 14, and 29. The levels of key neurotransmitters, cytokines and receptor protein associated with insomnia were measured using enzyme-linked immunosorbent assay (ELISA) and Western blot. Add",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6113175",
+            "title": "Comparative efficacy of lormetazepam (Noctamid) and diazepam (Valium) in 100 out-patients with insomnia.",
+            "authors": [
+              "Sastre y Hernández M S",
+              "Hentschel H D",
+              "Fichte K"
+            ],
+            "journal": "The Journal of international medical research",
+            "year": "1981",
+            "abstract": "Lormetazepam (Noctamid) at a dosage of 1 mg was compared with diazepam (Valium) at a dosage of 5 mg in a 7-day double-blind study. The study involved fifty patients in the lormetazepam group and fifty patients in the diazepam group. All the patients were suffering from sleep disorders as a concomitant symptom of general diseases. Lormatazepam was significantly better than diazepam in the: -Reduction of the time taken to fall asleep (p less than 0.05) -Prolongation of the duration of uninterrupte",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40896345",
+            "title": "Exploring the potential transdiagnostic treatment effects of Chinese herbal medicine and acupuncture on insomnia disorder comorbid with chronic pain: A scoping review.",
+            "authors": [
+              "Kwok Yan Ling",
+              "Wang Ran",
+              "Tang Hiu To",
+              "Chen Siyu",
+              "Yeung Albert"
+            ],
+            "journal": "Integrative medicine research",
+            "year": "2025",
+            "abstract": "Over 20 % of adults with insomnia disorder also experience chronic pain, termed insomnia disorder comorbid with chronic pain (ICCP), increasing risks for physical and mental diseases. Current treatments like cognitive behavioral therapy for insomnia show inconsistent pain relief, and non-opioid analgesics may exacerbate insomnia, underscoring the need for alternative approaches. Chinese herbal medicine (CHM) and acupuncture, guided by traditional Chinese medicine, may offer transdiagnostic benef",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37776625",
+            "title": "Mass spectrum oriented metabolomics for evaluating the efficacy and discovering the metabolic mechanism of Naoling Pian for insomnia.",
+            "authors": [
+              "Yang Yu",
+              "Chen Zhe",
+              "Yan Guangli",
+              "Kong Ling",
+              "Yang Le"
+            ],
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "2023",
+            "abstract": "Insomnia is an accompanying symptom of many diseases and is closely associated with neurodegenerative diseases. Naoling Pian (NLP) is a patented Chinese medicine mainly used to treat insomnia. To evaluate the sedative and hypnotic effects of NLP and its modulatory effects on biological metabolites and metabolic pathways, rats with p-chlorophenylalanine (PCPA)-induced insomnia were given different doses of NLP by oral gavage for seven days. Diazepam (DZP) served as a positive control. Behavior wa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35991037",
+            "title": "SARS-CoV-2 and Plasmodium falciparum Co-Infection in a Returning Traveler.",
+            "authors": [
+              "Huang Qian",
+              "Xu Wen-Jie",
+              "Wang Xiao-Xiao",
+              "Zhang Xuan",
+              "Pan Ke-Nu"
+            ],
+            "journal": "Frontiers in public health",
+            "year": "2022",
+            "abstract": "Since December 2019, the Coronavirus Disease 2019 (COVID-19) pandemic has become a non-neglectable context for the whole healthcare system. Under the background of COVID-19, the detection and diagnosis of malaria cases are under challenge. Here, we reported a COVID-19 and malaria co-infection traveler who has a long living history in Cameroon. The case was administered with dihydroartemisinin and piperaquine tablets for malaria, Lopinavir and Ritonavir tablets, Arbidol, recombinant human interfe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40583063",
+            "title": "Long-term treatment with benzodiazepines and related Z-drugs exacerbates breast cancer: clinical evidence and molecular mechanisms.",
+            "authors": [
+              "Yang Wei-Chung Vivian",
+              "Lin Yen-Yi",
+              "Ding Jeak Ling",
+              "Hung Chin-Sheng",
+              "Nguyen Phung-Anh"
+            ],
+            "journal": "Cellular & molecular biology letters",
+            "year": "2025",
+            "abstract": "Benzodiazepines (Diazepam) and related Z-drugs (Zolpidem), henceforth referred to as BZDRs, are widely used for clinical treatment of insomnia and anxiety disorders. BZDRs act on GABA type A receptors to inhibit neurotransmitters. We previously demonstrated that prolonged clinical use of BZDRs exacerbates the risk of breast cancer (BRCA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36692463",
+            "title": "Effects of tranquilization therapy in elderly patients suffering from chronic non-communicable diseases: A meta-analysis.",
+            "authors": [
+              "Li Jing",
+              "Li Jing",
+              "Cui Yulan",
+              "Li Honggeng",
+              "Hou Xiaoxuan"
+            ],
+            "journal": "Acta pharmaceutica (Zagreb, Croatia)",
+            "year": "2023",
+            "abstract": "The current meta-analysis searched the literature connected to different tranquilizers used to treat elderly people and assessed it in terms of dose, types of outcomes and adverse effects, to determine a safe and acceptable tranquilizer and its optimal dose. A systematic literature review was undertaken for randomized controlled trials, case-control, retrospective and prospective studies on the use of tranquilizers in elderly patients, using PubMed, Ebsco, SCOPUS and Web of Science. PICOS criter",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40350874",
+            "title": "[Therapeutic effect of Ziziphi Spinosae Semen extracts on chronic unpredictable mild stress-induced depression and insomnia-like behavior in mice].",
+            "authors": [
+              "Cheng Hong-Bo",
+              "Liu Xian",
+              "Shang Hui-Ying",
+              "Gao Rong",
+              "Dang Wan-Yun"
+            ],
+            "journal": "Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica",
+            "year": "2025",
+            "abstract": "This paper aims to study the effect of Ziziphi Spinosae Semen extracts on chronic unpredictable mild stress(CUMS)-induced depression-like and insomnia behavior models of mice. The CUMS-induced depression-like and insomnia behavior model of mice was established by CUMS treatment for three weeks. The mice were randomly divided into control group, model group, positive drug diazepam group(2 mg·kg~(-1)), as well as low-dose group(1.95 g·kg~(-1)), medium-dose group(3.9 g·kg~(-1)), and high-dose group",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23330992",
+            "title": "Understanding the pharmacokinetics of anxiolytic drugs.",
+            "authors": [
+              "Altamura Alfredo Carlo",
+              "Moliterno Donatella",
+              "Paletta Silvia",
+              "Maffini Michele",
+              "Mauri Massimo Carlo"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2013",
+            "abstract": "Anxiety disorders are considered the most common mental disorders and they can increase the risk for comorbid mood and substance use disorders, significantly contributing to the global burden of disease. For this reason, anxiolytics are the most prescribed psychoactive drugs, particularly in the Western world.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34983880",
+            "title": "Validation of the Thyrotoxicosis-associated Insomnia Model Induced by Thyroxine through Sympathetic Stimulation: Face, Construct and Predictive Perspectives.",
+            "authors": [
+              "Ai Zhifu",
+              "He Hongwei",
+              "Wang Tingting",
+              "Chen Liling",
+              "Huang Chunhua"
+            ],
+            "journal": "Experimental neurobiology",
+            "year": "2021",
+            "abstract": "Insomnia has become a common central nervous system disease. At present, the pathogenesis of insomnia is not clear. Animal models can help us understand the pathogenesis of the disease and can be used in transformational medicine. Therefore, it is very necessary to establish an appropriate model of insomnia. Clinical data show that insomnia patients with high levels of thyroxine and often accompanied by cardiovascular problems, a common mechanism underlying all of these physiological disruptions",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Diazepam 作為 GABA-A 受體 PAM，增強氯離子通道開放頻率，降低神經興奮性，產生鎮靜催眠效果。此為苯二氮平類治療失眠的直接藥理機轉（BZ1/BZ2 受體均參與），具高度機轉合理性。注意事項：長期使用導致耐受性、依賴性及反彈性失眠，現代指引多建議短期使用或以 Z-drug 替代。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.9998718500137328,
+        "rank": 432
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19462797",
+            "title": "[Crisis management during regional anesthesia including peripheral nerve block, epidural anesthesia and spinal anesthesia].",
+            "authors": [
+              "Saeki Shigeru",
+              "Kobayashi Makiko",
+              "Miyake Eri",
+              "Suzuki Takahiro"
+            ],
+            "journal": "Masui. The Japanese journal of anesthesiology",
+            "year": "2009",
+            "abstract": "Crisis management during regional anesthesia including peripheral nerve block, epidural anesthesia and spinal anesthesia was reviewed. Common crisis which is encountered during regional anesthesia includes toxic reaction to local anesthetic drugs, allergic reaction induced by local anesthetic drugs, reaction induced by epinephrine, nerve injury, hematoma etc. Concerning peripheral nerve block, crisis encountered during brachial plexus block, interscalene block and supraclavicular block used for ",
+            "classification": {
+              "study_type": "Review/Guidelines",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Diazepam 作為中樞性肌肉鬆弛劑，理論上可緩解馬尾症候群伴隨的括約肌痙攣或疼痛性肌肉攣縮，但此為極度間接的推測性機轉。唯一文獻（PMID 19462797）討論區域麻醉危機管理中馬尾症候群作為併發症，並非Diazepam治療此症的證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "sleep disorder, initiating and maintaining sleep",
+      "txgnn": {
+        "score": 0.9997279047966005,
+        "rank": 747
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39374004",
+            "title": "Masked Taper With Behavioral Intervention for Discontinuation of Benzodiazepine Receptor Agonists: A Randomized Clinical Trial.",
+            "authors": [
+              "Fung Constance H",
+              "Alessi Cathy",
+              "Martin Jennifer L",
+              "Josephson Karen",
+              "Kierlin Lara"
+            ],
+            "journal": "JAMA internal medicine",
+            "year": "2024",
+            "abstract": "Placebo effects are commonly observed in benzodiazepine receptor agonist hypnotic clinical trials. Clinical guidelines recommend discontinuing benzodiazepine receptor agonist hypnotics (particularly in older adults) and administering cognitive behavioral therapy for insomnia (CBTI) as first-line therapy for insomnia. It is unknown whether a novel intervention that masks the daily dose of benzodiazepine receptor agonist during tapering and augments CBTI with novel cognitive and behavioral exercis",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27464322",
+            "title": "Prevalence of and Factors Associated With Sleep-Related Eating Disorder in Psychiatric Outpatients Taking Hypnotics.",
+            "authors": [
+              "Takaesu Yoshikazu",
+              "Ishikawa Jun",
+              "Komada Yoko",
+              "Murakoshi Akiko",
+              "Futenma Kunihiro"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2016",
+            "abstract": "To clarify the prevalence and clinical features of sleep-related eating disorder (SRED) in psychiatric outpatients taking hypnotics as well as factors associated with the disorder.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33023862",
+            "title": "Sleep and Sex: A Review of the Interrelationship of Sleep and Sexuality Disorders in the Female Population, Through the Lens of Sleeping Beauty Syndrome.",
+            "authors": [
+              "Zwerling Blake",
+              "Keymeulen Sawa",
+              "Krychman Michael L"
+            ],
+            "journal": "Sexual medicine reviews",
+            "year": "2021",
+            "abstract": "For many, sleep and sex are crucial for physical, emotional, and mental well-being. Poor sleep quality is linked to a myriad of ailments from coronary artery disease to major depressive disorder. Likewise, a decrease in the frequency of sexual activity is associated with a decrease in self-rated health status. Kleine-Levin syndrome (KLS) is a rare sleep disorder that provides a unique lens to examine the intricate interplay between sleep and sex as it is one of the few sleep disorders defined by",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40570297",
+            "title": "Effect of chronic benzodiazepine and benzodiazepine receptor agonist use on sleep architecture and brain oscillations in older adults with chronic insomnia.",
+            "authors": [
+              "Barbaux Loïc",
+              "Perrault Aurore A",
+              "Cross Nathan E",
+              "Weiner Oren M",
+              "Es-Sounni Mehdi"
+            ],
+            "journal": "Sleep",
+            "year": "2025",
+            "abstract": "Insomnia in older adults is associated with widespread benzodiazepine (BZD) and benzodiazepine receptor agonist (BZRA) use despite evidence that chronic use disrupts sleep regulation and cognition. Little is known about BZD/BZRA effects on Non-rapid eye movement (NREM) slow oscillations (SO), spindles and their coupling, which is crucial for memory in older adults. Our objective was to investigate the effects of chronic BZD/BZRA use on sleep macro-architecture, electroencephalogram (EEG) relativ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39496046",
+            "title": "Zolpidem-related euphoria, addiction and detoxification: A case report and review of the literature.",
+            "authors": [
+              "Xie Fangfei",
+              "Liu Bo",
+              "Yang Liqiu",
+              "Huang Junqiang",
+              "Li Bin"
+            ],
+            "journal": "Medicine",
+            "year": "2024",
+            "abstract": "Zolpidem, a non-benzodiazepine sedative-hypnotic, is considered safer for the treatment of insomnia compared to benzodiazepines. However, in recent years, there have been growing reports of Zolpidem dependence, addiction, and withdrawal symptoms. We reported a case of Zolpidem addiction and successful detoxification, reviewed similar cases in the literature, and proposed a potential mechanism underlying Zolpidem addiction.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41525914",
+            "title": "Zhi-Gan Formula improved insomnia and anxiety comorbidity in a mouse model via PACAP signaling in the medial prefrontal cortex.",
+            "authors": [
+              "Liu Ruiyi",
+              "Wu Zhangjie",
+              "Yin Ying",
+              "Song Chenghao",
+              "Zhang Chengyu"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2026",
+            "abstract": "Insomnia and anxiety are highly comorbid, severely compromising quality of life. Efficacy of current pharmacological interventions for this dual condition remains limited. Zhi-Gan Formula (ZG), consisting of Zhi-Zi-Chi Decoction and Ganmai Dazao Decoction, two classic Traditional Chinese Medicine (TCM) formulae clinically widely used for insomnia or anxiety, holds promise as a therapeutic option for insomnia-anxiety comorbidity.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6114793",
+            "title": "Benzodiazepine withdrawal.",
+            "authors": [
+              "Lapierre Y D"
+            ],
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "1981",
+            "abstract": "As with most psychotropic sedative drugs, the potential for withdrawal reactions is present with the benzodiazepines (19). Signs suggesting the potential for withdrawal reactions can be gleaned from the clinical course of events such as the development of tolerance anc psychological and physiological dependence. If high doses are reached, the risk of withdrawal reactions increases with the length of treatment and the abruptness of cessation. The long-acting benzodiazepines have a built-in mechan",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7525193",
+            "title": "Guidelines for the rational use of benzodiazepines. When and what to use.",
+            "authors": [
+              "Ashton H"
+            ],
+            "journal": "Drugs",
+            "year": "1994",
+            "abstract": "The main actions of benzodiazepines (hypnotic, anxiolytic, anticonvulsant, myorelaxant and amnesic) confer a therapeutic value in a wide range of conditions. Rational use requires consideration of the large differences in potency and elimination rates between different benzodiazepines, as well as the requirements of individual patients. As hypnotics, benzodiazepines are mainly indicated for transient or short term insomnia, for which prescriptions should if possible be limited to a few days, occ",
+            "classification": {
+              "study_type": "Guidelines/Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347763",
+            "title": "Sedative-hypnotic effects of Yiyin Anshen Granule on mice models of insomnia by regulating neurotransmitters, cytokines, and gut microbiota.",
+            "authors": [
+              "Zhang Chunge",
+              "Wu Qi",
+              "Tao Xiang",
+              "Yan Zhaowei",
+              "Han Qiang"
+            ],
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "2025",
+            "abstract": "This study aims to elucidate the pathways through which Yiyin Anshen Granule (YA) exerts sedative-hypnotic effects in a mouse model of sleep deprivation. DL-4-chlorophenylalanine(PCPA)-treated mice received intragastric administration of YA and pentobarbital sodium-induced sleep tests were conducted on days 7, 14, and 29. The levels of key neurotransmitters, cytokines and receptor protein associated with insomnia were measured using enzyme-linked immunosorbent assay (ELISA) and Western blot. Add",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23330992",
+            "title": "Understanding the pharmacokinetics of anxiolytic drugs.",
+            "authors": [
+              "Altamura Alfredo Carlo",
+              "Moliterno Donatella",
+              "Paletta Silvia",
+              "Maffini Michele",
+              "Mauri Massimo Carlo"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2013",
+            "abstract": "Anxiety disorders are considered the most common mental disorders and they can increase the risk for comorbid mood and substance use disorders, significantly contributing to the global burden of disease. For this reason, anxiolytics are the most prescribed psychoactive drugs, particularly in the Western world.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40921193",
+            "title": "Effect of Lemborexant-Based Sleep Medication Formulary on Benzodiazepine Reduction and Clinical Outcomes: A Single-Center Retrospective Study.",
+            "authors": [
+              "Aoki Shunya",
+              "Takada Katsutoshi",
+              "Sugama Tatsuru",
+              "Kimiwada Mitsugi",
+              "Hoshino Tatsuya"
+            ],
+            "journal": "Neuropsychopharmacology reports",
+            "year": "2025",
+            "abstract": "Benzodiazepine and non-benzodiazepine hypnotics (Z-drugs) are known risk factors for adverse events, including delirium and falls. Although formularies are intended to promote appropriate prescribing, few comprehensive studies have assessed their clinical impact in the context of sleep medications. This study aimed to evaluate changes in hypnotic prescribing patterns and associated clinical outcomes following the implementation of a sleep medication formulary. A psychiatric liaison team develope",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6135990",
+            "title": "Drug therapy. Current status of benzodiazepines.",
+            "authors": [
+              "Greenblatt D J",
+              "Shader R I",
+              "Abernethy D R"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7595266",
+            "title": "Benzodiazepines for insomnia in community-dwelling elderly: a review of benefit and risk.",
+            "authors": [
+              "Grad R M"
+            ],
+            "journal": "The Journal of family practice",
+            "year": "1995",
+            "abstract": "To critically assess and summarize the beneficial effects of benzodiazepine therapy for insomnia in community-dwelling elders, a systematic search was undertaken to review all published clinical trials and sleep laboratory studies. The risk of injury for benzodiazepine users was also reviewed. Ten studies met inclusion criteria for assessing benefit. There are no studies regarding the long-term effectiveness of benzodiazepines for the treatment of sleep disorders in the elderly. In the sleep lab",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18800955",
+            "title": "Which medications are safe and effective for improving sleep at high altitude?",
+            "authors": [
+              "Luks Andrew M"
+            ],
+            "journal": "High altitude medicine & biology",
+            "year": "2008",
+            "abstract": "Given the well-established problems with sleep at high altitude, it is not uncommon for people planning trips to the mountains to seek advice from clinicians regarding pharmacologic options for improving sleep during their trip. This review article considers the various medications that have been studied for this purpose at high altitude with an emphasis on both their efficacy and safety. The available data support the use of either acetazolamide, temazepam, zolpidem or zaleplon in this environm",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37243798",
+            "title": "Switching to lemborexant for the management of insomnia in mental disorders: the SLIM study.",
+            "authors": [
+              "Horikoshi Sho",
+              "Miura Itaru",
+              "Suzuki Yuhei",
+              "Kobayashi Yuri",
+              "Hirata Yoichiro"
+            ],
+            "journal": "Journal of clinical sleep medicine : JCSM : official publication of the American Academy of Sleep Medicine",
+            "year": "2023",
+            "abstract": "We conducted a retrospective study to investigate the efficacy and safety of switching from other hypnotics, including benzodiazepines and Z-drugs, suvorexant, ramelteon, mirtazapine, trazodone, and antipsychotics, to lemborexant, a dual orexin receptor antagonist, for 3 months.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36166133",
+            "title": "Raw Pinelliae Rhizoma: examination of sedative and hypnotic effects in mice and chemical analysis.",
+            "authors": [
+              "Lin Sisi",
+              "Chen Haipeng",
+              "Nie Bo",
+              "Jiang Chengrou",
+              "Yang Hui"
+            ],
+            "journal": "Sleep & breathing = Schlaf & Atmung",
+            "year": "2023",
+            "abstract": "Raw \"Pinelliae Rhizoma\" (RPR) is widely used in Chinese clinics to treat insomnia. This study investigated its underlying sedative and hypnotic mechanisms and main active components.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18069595",
+            "title": "What every dentist should know about the \"z-sedatives\".",
+            "authors": [
+              "McKenzie Wm Stuart",
+              "Rosenberg Morton"
+            ],
+            "journal": "Journal of the Massachusetts Dental Society",
+            "year": "2007",
+            "abstract": "According to the National Institutes of Health, approximately 30 percent of all Americans complain of sleep disruption, while 10 percent display symptoms congruent with chronic insomnia. One of the most common treatments for insomnia is prescription sleep medications that help people fall asleep and remain asleep. Historically barbiturates were initially popular for treating insomnia, but their long \"hangover\" effect made them easily replaced with the introduction of the benzodiazepines. Triazol",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "380615",
+            "title": "A comparison of the clinical and psychological effects of diazepam and amylobarbitone in anxious patients.",
+            "authors": [
+              "Tansella C Z",
+              "Tansella M",
+              "Lader M"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "1979",
+            "abstract": "1. Twenty-four anxious inpatients were treated with diazepam, amylobarbitone sodium and placebo in flexible dosage for 1 week. They each received all three treatments according to a fully-balanced design, using double-blind procedures. 2. The clinical and the psychological effects of the drugs were assessed by the comprehensive battery of psychiatrist's ratings, subjective and psychological tests before treatment and at the end of each week of treatment. The tests included self-rating of anxioly",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3486104",
+            "title": "Relative abuse of diazepam and oxazepam: prescription forgeries and theft/loss reports in Sweden.",
+            "authors": [
+              "Bergman U",
+              "Griffiths R R"
+            ],
+            "journal": "Drug and alcohol dependence",
+            "year": "1986",
+            "abstract": "Results of previous laboratory studies in humans suggest that the benzodiazepine diazepam has greater abuse liability than the benzodiazepine oxazepam. The validity of these laboratory-based experimental data were examined by analyzing Swedish data on drug abuse. Sales and prescription data showed that use of diazepam was somewhat lower than oxazepam, but of the same general order of magnitude (0.8:1). Prescription data showed that the drugs were prescribed for the same diagnostic indications. A",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2417773",
+            "title": "Pharmacologic treatment of psychiatric and neurodevelopmental disorders in children and adolescents (Part 1).",
+            "authors": [
+              "McDaniel K D"
+            ],
+            "journal": "Clinical pediatrics",
+            "year": "1986",
+            "abstract": "A review is presented of the diagnosis and drug treatment of the more common psychiatric and developmental disorders in the pediatric population. Where applicable, DSM III (Diagnostic and Statistical Manual of Psychiatric Disorders, III) criteria are utilized to describe the behavioral syndromes. The indications for usage and appropriate dosages of antipsychotics, antidepressants, anxiolytics, stimulants, and lithium are described. Those disorders discussed are attention deficit disorder, conduc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與失眠適應症機轉高度重疊：Diazepam 透過GABA-A受體增強氯離子導電性，縮短睡眠潛伏期並改善睡眠維持。文獻顯示苯二氮平類確實影響睡眠架構（增加N2，減少N3及REM）。需釐清此診斷分類（DIMS）與主診斷失眠的臨床差異，避免重複計算。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn": {
+        "score": 0.9996833801269532,
+        "rank": 843
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉相悖：ADHD不注意型主要涉及前額葉皮質多巴胺/去甲腎上腺素信號不足，Diazepam增強GABA抑制性傳導可能加重認知遲緩與注意力損害。TxGNN高分可能源於ADHD共病焦慮的間接連結，不代表治療效益。無任何臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "barbiturate abuse",
+      "txgnn": {
+        "score": 0.9995425939559937,
+        "rank": 1086
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉：苯二氮平與巴比妥類均作用於GABA-A受體複合體，在巴比妥戒斷症候群管理中有交叉替代可能性（類似酒精戒斷的Diazepam使用）。然而，無任何臨床試驗或文獻支持，且交叉依賴性風險高。TxGNN預測可能源於藥物類別相似性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hallucinogen abuse",
+      "txgnn": {
+        "score": 0.9995425939559937,
+        "rank": 1087
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1065215",
+            "title": "Management of hallucinogen abuse.",
+            "authors": [
+              "Haddad L M"
+            ],
+            "journal": "American family physician",
+            "year": "1976",
+            "abstract": "Most street hallucinogens contain either LSD or phenycyclidine HCl (PCP). Because the acute phase of LSD and PCP mimic several other drugs and conditions, it is important to exclude these other possibilities. When faced with LSD or PCP, \"talking down\" usually suffices for the mild case; management becomes more complex should hyperpyrexia, coma, seizures or a hypertensive crisis ensue. Diazepam, not a phenothiazine, is preferred for sedation.",
+            "classification": {
+              "study_type": "Clinical Review/Expert Opinion",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35514245",
+            "title": "Stability of drugs of abuse in synthetic oral fluid investigated using a simple \"dilute and inject\" method of analysis.",
+            "authors": [
+              "Gavrilović Ivana",
+              "Musenga Alessandro",
+              "Wolff Kim",
+              "Woffendin Alison",
+              "Smart Andrew"
+            ],
+            "journal": "Drug testing and analysis",
+            "year": "2022",
+            "abstract": "Human oral fluid is well established as a matrix for drug screening, particularly in the workplace. The need to synthesise synthetic oral fluid (SOF) has been recognised in order to overcome human oral fluid's composition variability. We have used SOF spiked with six common drugs of abuse or their primary metabolites: morphine, amfetamine, benzoylecgonine, cocaine, diazepam, and (-)-Δ9 -tetrahydrocannabinol (THC) in order to assess the suitability of this matrix for quality assurance purposes. F",
+            "classification": {
+              "study_type": "Analytical Chemistry",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10036607",
+            "title": "Phencyclidine- and diazepam-like discriminative stimulus effects of inhalants in mice.",
+            "authors": [
+              "Bowen S E",
+              "Wiley J L",
+              "Jones H E",
+              "Balster R L"
+            ],
+            "journal": "Experimental and clinical psychopharmacology",
+            "year": "1999",
+            "abstract": "It has been shown that abused solvents, such as 1,1,1-trichloroethane (TCE) and toluene, share certain pharmacological properties with central nervous system depressants, such as alcohol and anesthetic vapors. Several vapors were tested for diazepam (DZ)- and phencyclidine (PCP)-like discriminative stimulus effects to further explore their pharmacological specificity. In DZ-trained mice, methoxyflurane fully substituted, and TCE produced partial substitution. Fluorothyl and toluene produced no a",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24908641",
+            "title": "Drugs of abuse and benzodiazepines in the Madrid Region (Central Spain): seasonal variation in river waters, occurrence in tap water and potential environmental and human risk.",
+            "authors": [
+              "Mendoza A",
+              "Rodríguez-Gil J L",
+              "González-Alonso S",
+              "Mastroianni N",
+              "López de Alda M"
+            ],
+            "journal": "Environment international",
+            "year": "2014",
+            "abstract": "This work analyzes the seasonal variation (winter and summer) of ten drugs of abuse, six metabolites and three benzodiazepines in surface waters from the Jarama and Manzanares Rivers in the Madrid Region, the most densely populated area in Spain. The occurrence of these compounds in tap water in this region is also investigated and a preliminary human health risk characterization performed for those substances found in tap water. Finally, a screening level risk assessment that combines the measu",
+            "classification": {
+              "study_type": "Environmental Monitoring",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24083902",
+            "title": "Occurrence of drugs of abuse and benzodiazepines in river waters from the Madrid Region (Central Spain).",
+            "authors": [
+              "Mendoza A",
+              "López de Alda M",
+              "González-Alonso S",
+              "Mastroianni N",
+              "Barceló D"
+            ],
+            "journal": "Chemosphere",
+            "year": "2014",
+            "abstract": "This work investigates, for the first time, the occurrence of 10 drugs of abuse, six metabolites, and three benzodiazepines in surface waters from the Jarama and Manzanares Rivers in the Madrid Region, the most densely populated area in Spain and one of the most densely populated in Europe. The results of this study have shown the presence of 14 out of the 19 compounds analyzed at concentrations ranging from 1.45 to 1020 ng L(-1). The most ubiquitous compounds, found in 100% of the samples, were",
+            "classification": {
+              "study_type": "Environmental Monitoring",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15485715",
+            "title": "High concentrations of diazepam and nordiazepam in blood of impaired drivers: association with age, gender and spectrum of other drugs present.",
+            "authors": [
+              "Jones A W",
+              "Holmgren A",
+              "Holmgren P"
+            ],
+            "journal": "Forensic science international",
+            "year": "2004",
+            "abstract": "A zero-concentration limit for controlled scheduled drugs in the blood of motorists was introduced in Sweden in 1999 and the annual number of arrests for driving under the influence of drugs (DUID) has since increased eight-fold. However, for prescription drugs that might cause impairment (e.g. benzodiazepines) additional proof is needed to justify prosecution, such as whether the medication was being misused. Over a 2-year period, we found 94 cases of DUID in which the concentrations of diazepa",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30039274",
+            "title": "Murdered while under the influence of 3-MeO-PCP.",
+            "authors": [
+              "Kintz Pascal",
+              "Ameline Alice",
+              "Walch Alexis",
+              "Farrugia Audrey",
+              "Raul Jean-Sébastien"
+            ],
+            "journal": "International journal of legal medicine",
+            "year": "2019",
+            "abstract": "The abuse of new psychoactive substances (NPS) has been dramatically increasing all around the world since the late 2000s. The availability of hundreds of NPS in the past decade is challenging for both public health and global drug policies. A 39-year-old woman, known as a multidrug addict, was murdered by her partner by ligature strangulation. A comprehensive toxicological screening by gas chromatography and ultra-high performance liquid chromatography with tandem mass spectrometry revealed the",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6391104",
+            "title": "A strategy for the biological assessment of addiction.",
+            "authors": [
+              "Kauffman J F",
+              "Shaffer H",
+              "Burglass M E"
+            ],
+            "journal": "Advances in alcohol & substance abuse",
+            "year": "1983",
+            "abstract": "Substances and drugs with powerful psychotropic effects have come into common use during the past decade. Involvement with these substances can range from benign to tragic experiences. Such use may include: experimental, social or recreational use, long-term habituation, toxic reactions, medical-psychologic complications, overdose, and death. Although clinicians tend to analyze and explain many patterns of drug use in terms of various psychodynamic, sociologic and behavioral theories, all of the",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35767245",
+            "title": "Suitability of SoToxa® Oral Fluid Screening Over Time: Re-Examination of Drugged Driving in Wisconsin.",
+            "authors": [
+              "Savage Theodore",
+              "Sanders Therese",
+              "Pieters Ryan",
+              "Miles Amy",
+              "Barkholtz Heather"
+            ],
+            "journal": "Journal of analytical toxicology",
+            "year": "2022",
+            "abstract": "Drug-impaired driver detection is a critical element of traffic safety. However, shifting drug use patterns over time and geography may limit the long-term reliability of assay-based screening tools. In this work, we compare qualitative results from the Abbott SoToxa® oral fluid (OF) screening device to Quantisal™ OF and whole blood. Our objective was to examine these three qualitative toxicological approaches, scope applicability of OF collection at the roadside, and compare them with a previou",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24815969",
+            "title": "Perioperative analgesia and challenges in the drug-addicted and drug-dependent patient.",
+            "authors": [
+              "Vadivelu Nalini",
+              "Mitra Sukanya",
+              "Kaye Alan David",
+              "Urman Richard D"
+            ],
+            "journal": "Best practice & research. Clinical anaesthesiology",
+            "year": "2014",
+            "abstract": "The epidemic use of illicit drugs has led to an increasing number of patients with drug addiction and dependence presenting for perioperative care. There are a wide variety of drugs commonly abused including opioids, such as heroin and prescription drugs; stimulants, such as amphetamine and cocaine; depressant drugs, such as alprazolam and diazepam; and hallucinogens, such as lysergic acid diethylamide, phencyclidine, and marijuana. Treatment of opioid dependence by office-based buprenorphine an",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19571773",
+            "title": "Relationship between oral fluid and blood concentrations of drugs of abuse in drivers suspected of driving under the influence of drugs.",
+            "authors": [
+              "Wille Sarah M R",
+              "Raes Elke",
+              "Lillsunde Pirjo",
+              "Gunnar Teemu",
+              "Laloup Marleen"
+            ],
+            "journal": "Therapeutic drug monitoring",
+            "year": "2009",
+            "abstract": "In recent years, the interest in the use of oral fluid as a biological matrix has increased significantly, particularly for detecting driving under the influence of drugs (DUID). In this study, the relationship between the oral fluid and the blood concentrations of drugs of abuse in drivers suspected of DUID is discussed. Blood and oral fluid samples were collected from drivers suspected of DUID or stopped during random controls by the police in Belgium, Germany, Finland, and Norway for the ROSI",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32852033",
+            "title": "Assessing Hair Decontamination Protocols for Diazepam, Heroin, Cocaine and Δ9-Tetrahydrocannabinol by Statistical Design of Experiments.",
+            "authors": [
+              "Aijala Jennett Chenevert",
+              "Wu Wensong",
+              "DeCaprio Anthony P"
+            ],
+            "journal": "Journal of analytical toxicology",
+            "year": "2021",
+            "abstract": "Prior to toxicological analysis, hair as a matrix requires pre-treatment measures including decontamination, homogenization and extraction. Decontamination is performed to differentiate between drug present from superficial deposition and drug incorporated from systemic distribution following ingestion. There are many methods for decontamination of hair samples, mostly developed by empirically using a traditional \"one factor at a time\" approach, in which one independent variable at a time is cha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21145341",
+            "title": "Inhibition of endocannabinoid catabolic enzymes elicits anxiolytic-like effects in the marble burying assay.",
+            "authors": [
+              "Kinsey Steven G",
+              "O'Neal Scott T",
+              "Long Jonathan Z",
+              "Cravatt Benjamin F",
+              "Lichtman Aron H"
+            ],
+            "journal": "Pharmacology, biochemistry, and behavior",
+            "year": "2011",
+            "abstract": "Cannabinoids have long been shown to have a range of potential therapeutic effects, including antiemetic actions, analgesia, and anxiolysis. However, psychomimetic and memory disruptive side effects, as well as the potential for abuse and dependence, have restricted their clinical development. Endogenous cannabinoids (i.e., endocannabinoids; eCBs), such as anandamide (AEA) and 2-arachidonoylglycerol (2-AG), are produced throughout the limbic system and other brain regions associated with emotion",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5350833",
+            "title": "Stramonium psychodelia.",
+            "authors": [
+              "De Young G",
+              "Cross E G"
+            ],
+            "journal": "Canadian Anaesthetists' Society journal",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "910974",
+            "title": "Clinical pharmacology of phencyclidine toxicity.",
+            "authors": [
+              "Showalter C V",
+              "Thornton W E"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1977",
+            "abstract": "Phencyclidine appears to be unique in action compared with other psychedelic drugs, and its effects are less dependent upon the individual's personality than are the effects of LSD or mescaline. The authors discuss the sensory, psychological, and behavioral symptoms of phencyclidine intoxication. Most cases are of short duration and the only treatment necessary may be observation together with minimal stimulation and diazepam. However, prolonged and severe behavioral disturbances, exaggeration o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37490407",
+            "title": "Real or fake? Sourcing and marketing of non-prescribed benzodiazepines amongst two samples of people who regularly use illicit drugs in Australia.",
+            "authors": [
+              "Grigg Jodie",
+              "Peacock Amy",
+              "Lenton Simon",
+              "Salom Caroline",
+              "Agramunt Seraina"
+            ],
+            "journal": "Drug and alcohol review",
+            "year": "2023",
+            "abstract": "There is concern around non-prescribed benzodiazepine use, particularly with increasing detections of counterfeit products containing high-risk novel compounds. The aims of this study were to investigate how and which non-prescribed benzodiazepines are being sourced; forms, appearance and packaging; and awareness of risks associated with non-prescribed benzodiazepines.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35640884",
+            "title": "Rapid Extraction and Qualitative Screening of 30 Drugs in Oral Fluid at Concentrations Recommended for the Investigation of DUID Cases.",
+            "authors": [
+              "Coulter Cynthia",
+              "Garnier Margaux",
+              "Moore Christine"
+            ],
+            "journal": "Journal of analytical toxicology",
+            "year": "2022",
+            "abstract": "A rapid, simple extraction method followed by qualitative screening using liquid chromatography-tandem mass spectrometry (LC-MS-MS) for drugs in oral fluid is presented. The decision points were selected to be at, or lower, than those recommended as Tier I compounds by the National Safety Council's Alcohol, Drugs and Impairment Division for toxicological investigation of driving under the influence of drug (DUID) cases and were also at, or lower, than those recommended by Substance Abuse and Men",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4238455",
+            "title": "Clinical use of psychotherapeutic drugs: current status.",
+            "authors": [
+              "Hollister L E"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9700557",
+            "title": "Testing for drugs in hair. Critical review of chromatographic procedures since 1992.",
+            "authors": [
+              "Sachs H",
+              "Kintz P"
+            ],
+            "journal": "Journal of chromatography. B, Biomedical sciences and applications",
+            "year": "1998",
+            "abstract": "Up to now, more than 50 pharmaceuticals or drugs of abuse have been reported to be detectable in hair after oral or parenteral administration. The present paper reviews the literature devoted to drug testing in hair that has been published since 1992. Procedures for the detection of opiates, cocaine, amphetamines and cannabis in hair are described in detail. In particular, the papers on benzodiazepines show an increasing number of procedures using negative chemical ionisation with GC-MS and diod",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11548110",
+            "title": "Effects of drugs of abuse on response accuracy and bias under a delayed matching-to-sample procedure in squirrel monkeys.",
+            "authors": [
+              "Baron S P",
+              "Wenger G R"
+            ],
+            "journal": "Behavioural pharmacology",
+            "year": "2001",
+            "abstract": "The effects on memory of drugs of abuse from several pharmacological classes were examined in four adult male squirrel monkeys responding under a delayed matching-to-sample schedule of food presentation. Subjects were required to emit 20 responses on a sample key transilluminated by either a constant white or a flashing blue light. The twentieth response initiated a 3-second delay followed by presentation of two comparison stimuli. If a response was made to the key that matched the sample stimul",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "具合理機轉：Diazepam增強GABAergic抑制性傳導，可對抗幻覺劑（如LSD、PCP）引發的過度神經興奮、急性激躁及交感神經亢進。苯二氮平類在急診管理急性幻覺劑中毒已有臨床實踐基礎（專家共識層級）。PMID 1065215（1976）直接論述幻覺劑濫用管理，PMID 10036607顯示Diazepam和PCP在小鼠辨別刺激效應上的藥理關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "antidepressant type abuse",
+      "txgnn": {
+        "score": 0.9995425939559937,
+        "rank": 1088
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7841868",
+            "title": "The treatment of benzodiazepine dependence.",
+            "authors": [
+              "Ashton H"
+            ],
+            "journal": "Addiction (Abingdon, England)",
+            "year": "1994",
+            "abstract": "Withdrawal of benzodiazepines is currently advised for long-term benzodiazepine users because of doubts about continued efficacy, risks of adverse effects, including dependence and neuropsychological impairment and socio-economic costs. About half a million people in the UK may need advice on withdrawal. Successful withdrawal strategies should combine gradual dosage reduction and psychological support. The benzodiazepine dosage should be tapered at an individually titrated rate which should usua",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16856084",
+            "title": "Pharmacological interventions for benzodiazepine mono-dependence management in outpatient settings.",
+            "authors": [
+              "Denis C",
+              "Fatséas M",
+              "Lavie E",
+              "Auriacombe M"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2006",
+            "abstract": "The improved safety profile of benzodiazepines compared to barbiturates has contributed to a high rate of prescription since the seventies. Although benzodiazepines are highly effective for some disorders, they are potentially addictive drugs and they can provide reinforcement in some individuals.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33488834",
+            "title": "A comparison between two different dried blood substrates in determination of psychoactive substances in postmortem samples.",
+            "authors": [
+              "Moretti Matteo",
+              "Manfredi Alessandro",
+              "Freni Francesca",
+              "Previderé Carlo",
+              "Osculati Antonio Marco Maria"
+            ],
+            "journal": "Forensic toxicology",
+            "year": "2021",
+            "abstract": "Whatman™ 903 cards represent a valid type of support for collection, storage, and analysis of dried blood spots (DBS). Whatman™ FTA (Flinders Technology Associates) are a type of cards soaked in chemicals that cause denaturation of proteins, while preserving DNA and ensuring the safe handling of DBS; to date, these cards are still rarely employed in forensic toxicology. The aim of this study was to analyze several psychoactive substances on not-dried blood on the two different cards and to compa",
+            "classification": {
+              "study_type": "Analytical",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1100534",
+            "title": "The use of tranquilizers in the treatment of mixed drug abuse.",
+            "authors": [
+              "Kryspin-Exner K",
+              "Demel I"
+            ],
+            "journal": "International journal of clinical pharmacology and biopharmacy",
+            "year": "1975",
+            "abstract": "If the abuse potential of tranquilizers, and particularly benzodiazepines, is examined by their administration as a therapeutic agent to persons dependent on alcohol, alcohol and drugs, or drugs alone, these substances are found to be potentially dependence producing with similar mechanisms to those of other hypnotics and sedatives. However, their abuse potential varies from one substance to another, and on the whole is relatively small. At all events, with constant medical supervision, patients",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4797063",
+            "title": "[Screening procedure for barbital type physical dependence liability of psychotropic drugs in mice].",
+            "authors": [
+              "Kaneto H",
+              "Koida M",
+              "Tsuchie F",
+              "Miyagawa H"
+            ],
+            "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "文獻主要反映Diazepam本身的依賴性管理，而非用於治療抗憂鬱藥濫用。PMID 1100534（1975）提及鎮靜劑用於混合藥物濫用管理，但屬舊文獻、低證據等級。核心問題：Diazepam本身具高濫用潛力，以其治療其他藥物濫用在臨床上缺乏合理性，且有交叉依賴風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "specific developmental disorder",
+      "txgnn": {
+        "score": 0.9994713664054872,
+        "rank": 1195
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06629324",
+            "title": "Evaluation of the Efficacy of Autologous Bone Marrow-Derived Mononuclear Cell Transplantation in the Treatment of Cerebral Palsy Due to Brain Hypoxia: A Phase II Randomized Clinical Trial",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 58,
+            "start_date": "2024-10-15",
+            "completion_date": "2027-01-31",
+            "brief_summary": "This clinical trial aims to evaluate the effectiveness of autologous bone marrow mononuclear cell transfusion in treating cerebral palsy caused by cerebral hypoxia.\n\nThe key questions the study seeks to answer are:\n\n* What is the safety profile in terms of adverse events (AE) and serious adverse events (SAE) observed over the 9 months following the first transplantation?\n* How does autologous bone marrow mononuclear cell (BM MNC) transplantation impact the gross motor function (GMFM-88) scores a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2自體骨髓單核細胞移植治療發育障礙（58人，RECRUITING），研究細胞治療策略，與Diazepam完全無關，相關性為0"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "24793772",
+            "title": "GABAAergic stimulation modulates intracellular protein arginine methylation.",
+            "authors": [
+              "Denman Robert B",
+              "Xie Wen",
+              "Merz George",
+              "Sung Ying-Ju"
+            ],
+            "journal": "Neuroscience letters",
+            "year": "2014",
+            "abstract": "Changes in cytoplasmic pH are known to regulate diverse cellular processes and influence neuronal activities. In neurons, the intracellular alkalization is shown to occur after stimulating several channels and receptors. For example, it has previously demonstrated in P19 neurons that a sustained intracellular alkalinization can be mediated by the Na(+)/H(+) antiporter. In addition, the benzodiazepine binding subtypes of the γ-amino butyric acid type A (GABAA) receptor mediate a transient intrace",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29385549",
+            "title": "The Circuitry of Dopamine System Regulation and its Disruption in Schizophrenia: Insights Into Treatment and Prevention.",
+            "authors": [
+              "Grace Anthony A",
+              "Gomes Felipe V"
+            ],
+            "journal": "Schizophrenia bulletin",
+            "year": "2019",
+            "abstract": "Despite evidence for a role of the dopamine system in the pathophysiology of schizophrenia, there has not been substantial evidence that this disorder originates from a pathological change within the dopamine system itself. Current data from human imaging studies and preclinical investigations instead point to a disruption in afferent regulation of the dopamine system, with a focus on the hippocampus. We found that the hippocampus in the methylazoxymethanol acetate (MAM) rodent developmental dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28177174",
+            "title": "A case-controlled comparison of postoperative analgesic dosing between girls with Rett syndrome and girls with and without developmental disability undergoing spinal fusion surgery.",
+            "authors": [
+              "Barney Chantel C",
+              "Merbler Alyssa M",
+              "Quest Kelsey",
+              "Byiers Breanne J",
+              "Wilcox George L"
+            ],
+            "journal": "Paediatric anaesthesia",
+            "year": "2017",
+            "abstract": "Rett syndrome is associated with severe motor and communicative impairment making optimal postoperative pain management a challenge. There are case reports documenting reduced postoperative analgesic requirement in Rett syndrome.",
+            "classification": {
+              "study_type": "Case-Control",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25088363",
+            "title": "Sensory integration in mouse insular cortex reflects GABA circuit maturation.",
+            "authors": [
+              "Gogolla Nadine",
+              "Takesian Anne E",
+              "Feng Guoping",
+              "Fagiolini Michela",
+              "Hensch Takao K"
+            ],
+            "journal": "Neuron",
+            "year": "2014",
+            "abstract": "Insular cortex (IC) contributes to a variety of complex brain functions, such as communication, social behavior, and self-awareness through the integration of sensory, emotional, and cognitive content. How the IC acquires its integrative properties remains unexplored. We compared the emergence of multisensory integration (MSI) in the IC of behaviorally distinct mouse strains. While adult C57BL/6 mice exhibited robust MSI, this capacity was impaired in the inbred BTBR T+tf/J mouse model of idiopa",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22641177",
+            "title": "An affective disorder in zebrafish with mutation of the glucocorticoid receptor.",
+            "authors": [
+              "Ziv L",
+              "Muto A",
+              "Schoonheim P J",
+              "Meijsing S H",
+              "Strasser D"
+            ],
+            "journal": "Molecular psychiatry",
+            "year": "2013",
+            "abstract": "Upon binding of cortisol, the glucocorticoid receptor (GR) regulates the transcription of specific target genes, including those that encode the stress hormones corticotropin-releasing hormone (CRH) and adrenocorticotropic hormone. Dysregulation of the stress axis is a hallmark of major depression in human patients. However, it is still unclear how glucocorticoid signaling is linked to affective disorders. We identified an adult-viable zebrafish mutant in which the negative feedback on the stres",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GABA系統在早期神經發育中扮演去極化-超極化轉換的關鍵角色（GABA developmental switch），但Diazepam在成熟神經系統中的抑制效應可能干擾此發育過程。相關臨床試驗（NCT06629324）為骨髓移植研究，與Diazepam完全無關。PMID 28177174（Rett症候群）提及Diazepam用於術後鎮痛比較，非治療發育障礙本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn": {
+        "score": 0.9993244409561156,
+        "rank": 1465
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02822937",
+            "title": "A Study to Assess the Sensitivity of Project: EVO Monitor Cognitive Function Measurements to Methylphenidate and Triazolam in Adults 40-55 Years Old",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 18,
+            "start_date": "2016-07",
+            "completion_date": "2016-11",
+            "brief_summary": "This is a study in adults to assess the sensitivity of Project: EVO Monitor cognitive measurements to two short-acting cognitively active pharmacological agents. The participants will receive a placebo, and two pharmacological agents in a randomized order for three in-clinic study days. During each study day in the clinic, the participants will use Project: EVO Monitor and another cognitive task through the day.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究EVO Monitor對Methylphenidate認知功能測量敏感性（18人，COMPLETED），完全針對Methylphenidate，與Diazepam無任何關聯"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10485958",
+            "title": "Alcohol responsiveness, hyperreactivity, and motor restlessness in an animal model for attention-deficit hyperactivity disorder.",
+            "authors": [
+              "Fahlke C",
+              "Hansen S"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "1999",
+            "abstract": "Attention-deficit hyperactivity disorder and related pervasive developmental disorders constitute risk factors for adult alcohol abuse and antisocial behaviours, including violent offending.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2990294",
+            "title": "Models of memory dysfunctions.",
+            "authors": [
+              "Weingartner H"
+            ],
+            "journal": "Annals of the New York Academy of Sciences",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2417773",
+            "title": "Pharmacologic treatment of psychiatric and neurodevelopmental disorders in children and adolescents (Part 1).",
+            "authors": [
+              "McDaniel K D"
+            ],
+            "journal": "Clinical pediatrics",
+            "year": "1986",
+            "abstract": "A review is presented of the diagnosis and drug treatment of the more common psychiatric and developmental disorders in the pediatric population. Where applicable, DSM III (Diagnostic and Statistical Manual of Psychiatric Disorders, III) criteria are utilized to describe the behavioral syndromes. The indications for usage and appropriate dosages of antipsychotics, antidepressants, anxiolytics, stimulants, and lithium are described. Those disorders discussed are attention deficit disorder, conduc",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30529642",
+            "title": "Involvement of catecholaminergic and GABAAergic mediations in the anxiety-related behavior in long-term powdered diet-fed mice.",
+            "authors": [
+              "Yaoita Fukie",
+              "Tsuchiya Masahiro",
+              "Arai Yuichiro",
+              "Tadano Takeshi",
+              "Tan-No Koichi"
+            ],
+            "journal": "Neurochemistry international",
+            "year": "2019",
+            "abstract": "Dietary habits are important factors which affect metabolic homeostasis and the development of emotion. We have previously shown that long-term powdered diet feeding in mice increases spontaneous locomotor activity and social interaction (SI) time. Moreover, that diet causes changes in the dopaminergic system, especially increased dopamine turnover and decreased dopamine D4 receptor signals in the frontal cortex. Although the increased SI time indicates low anxiety, the elevated plus maze (EPM) ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23144164",
+            "title": "Trends in the utilisation of psychotropic medications in Australia from 2000 to 2011.",
+            "authors": [
+              "Stephenson Chris P",
+              "Karanges Emily",
+              "McGregor Iain S"
+            ],
+            "journal": "The Australian and New Zealand journal of psychiatry",
+            "year": "2013",
+            "abstract": "This study examined longitudinal trends in the dispensing of psychotropic medications in Australia from January 2000 to December 2011.",
+            "classification": {
+              "study_type": "Epidemiology",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15639778",
+            "title": "Neurobehavioural deficits associated with apoptotic neurodegeneration and vulnerability for ADHD.",
+            "authors": [
+              "Fredriksson Anders",
+              "Archer Trevor"
+            ],
+            "journal": "Neurotoxicity research",
+            "year": "2004",
+            "abstract": "Several studies involving postnatal administration of the N-methyl-D-aspartate (NMDA) antagonists, dizocilpine (MK-801; 3 x 0.5 mg/kg, at 08.00, 16.00 and 24.00 h) on Postnatal day 11, or Ketamine (1 x 50 mg/kg) or Ethanol (1 x 2.5 g/kg, Ethanol-Low, or 2 x 2.5 g/kg, 2-h interval, Ethanol-High) on Postnatal day 10, are described. Some mice from each treatment/vehicle group were sacrificed 24 h after NMDA antagonist treatment and brain regions were taken for fluoro-jade staining analysis. Functio",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6136530",
+            "title": "Pharmacokinetics of benzodiazepines and psychostimulants in children.",
+            "authors": [
+              "Coffey B",
+              "Shader R I",
+              "Greenblatt D J"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1983",
+            "abstract": "The pharmacokinetics of benzodiazepines and psychostimulants are reviewed and an overview of the kinetic principles relevant to the utilization of these drugs in infancy and childhood is provided. Newborns and premature infants can metabolize and eliminate diazepam, although the parent drug has a longer half-life and decreased rate of biotransformation to its primary metabolites than in older children and adults. The newborn's capacity to carry on metabolic processes involved in the biotransform",
+            "classification": {
+              "study_type": "PK Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34954745",
+            "title": "Oxazepam Detected in Urine 79 Days After Withdrawal of Diazepam: A Case Report.",
+            "authors": [
+              "Serkland Trond Trœtteberg",
+              "Dale Gro Helen",
+              "Kaldestad Ingeborg Caroline",
+              "Berg Jon Andsnes",
+              "Methlie Camilla Borthen"
+            ],
+            "journal": "Journal of addiction medicine",
+            "year": "2022",
+            "abstract": "Patients suffering from substance use disorder, including for instance benzodiazepines, may have comorbidity with attention deficit hyperactivity disorder (ADHD). Centrally acting stimulants play an important role in the treatment of ADHD. Before such treatment can be initiated, withdrawal of benzodiazepines may be necessary. Urine testing is the preferred method for monitoring adherence in benzodiazepine withdrawal, but there is a lack of studies reporting detection time. Here, we report a case",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24734165",
+            "title": "Developmental neurotoxicity of alcohol and anesthetic drugs is augmented by co-exposure to caffeine.",
+            "authors": [
+              "Yuede Carla M",
+              "Olney John W",
+              "Creeley Catherine E"
+            ],
+            "journal": "Brain sciences",
+            "year": "2013",
+            "abstract": "Anesthetic and anti-epileptic drugs used in pediatric and obstetric medicine and several drugs, including alcohol, that are abused by pregnant women, trigger widespread neuroapoptosis in the developing brain of several animal species, including non-human primates. Caffeine (CAF) is often administered to premature infants to stimulate respiration, and these infants are also exposed simultaneously to anesthetic drugs for procedural sedation and/or surgical procedures. Pregnant women who abuse alco",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41348645",
+            "title": "Time Course of Serum Dextromethorphan Concentrations in a Case of Serotonin Syndrome After Massive Overdose.",
+            "authors": [
+              "Yamada Seigo",
+              "Taniguchi Hiroaki",
+              "Terayama Takero",
+              "Hayakawa Akashi",
+              "Toda Hiroyuki"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2025",
+            "abstract": "BACKGROUND Dextromethorphan (DXM) inhibits serotonin reuptake when taken in large doses, potentially causing serotonin syndrome, which is likely life-threatening. Despite a few reports of serotonin syndrome after DXM overdose, no case report has provided a detailed analysis of serial blood DXM levels alongside the clinical course. Here, we present a case with serial measurements of blood DXM levels taken over time. CASE REPORT A 24-year-old man with bipolar disorder and attention-deficit/hyperac",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14211420",
+            "title": "A COMPARISON OF DIAZEPAM, D-AMPHETAMINE AND PLACEBO IN THE TREATMENT OF THE HYPERKINETIC SYNDROME IN CHILDREN.",
+            "authors": [
+              "ZRULL J P",
+              "WESTMAN J C",
+              "ARTHUR B",
+              "RICE D L"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40065875",
+            "title": "Severe Withdrawal Symptoms and Pseudohyperchloremia Induced by Bromvalerylurea: A Case Report.",
+            "authors": [
+              "Watanabe Tatsuya",
+              "Shiga Hiroyuki",
+              "Tsutsumi Yusuke",
+              "Kato Noriyuki",
+              "Inoue Yoshiaki"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Bromvalerylurea is a sedative-hypnotic agent commonly available in over-the-counter (OTC) medications in Japan and other regions. Although widely used, its prolonged and unsupervised use poses significant risks of dependency and withdrawal. Abrupt discontinuation of bromvalerylurea can lead to severe withdrawal symptoms, including agitation, hallucinations, and seizures. However, standardized management protocols for bromvalerylurea withdrawal have not been established. A 19-year-old male with a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2826308",
+            "title": "Paradoxical reactions elicited by diazepam in children with classic autism.",
+            "authors": [
+              "Marrosu F",
+              "Marrosu G",
+              "Rachel M G",
+              "Biggio G"
+            ],
+            "journal": "Functional neurology",
+            "year": "1987",
+            "abstract": "Administration of diazepam (10 mg i.m.) to seven children (two girls and five boys) affected by infantile autism elicited paradoxical behavioural responses. Mainly, anxiogenic effect, unsocialized aggressive behaviour and explosive aggression were dramatically increased in comparison with the same symptoms present before and after treatment. The results show for the first time that benzodiazepines may elicit paradoxical behavioural response in autistic children. The possible involvement of an al",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5061326",
+            "title": "Hyperactivity in children: types, diagosis, drug therapy, approaches to management.",
+            "authors": [
+              "Howell M C",
+              "Rever G W",
+              "Scholl M L",
+              "Trowbridge F",
+              "Rutledge A"
+            ],
+            "journal": "Clinical pediatrics",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25678032",
+            "title": "Benign childhood epilepsy with Centro-Temporal spikes (BCECTSs), electrical status epilepticus in sleep (ESES), and academic decline--how aggressive should we be?",
+            "authors": [
+              "Uliel-Sibony Shimrit",
+              "Kramer Uri"
+            ],
+            "journal": "Epilepsy & behavior : E&B",
+            "year": "2015",
+            "abstract": "Since many of the children with BCECTSs display electrical status epilepticus during sleep and many present with different comorbidities, mainly ADHD and behavioral disturbances, clinicians are often confronted with the dilemma of how aggressive they should be with their efforts of normalizing the EEG. We conducted a retrospective study by screening medical records of all consecutive patients with BCECTSs, spike-wave index (SWI) >30%, and ADHD/ADD that were evaluated in our pediatric epilepsy se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4609349",
+            "title": "The value of EEG study in minimal brain dysfunction.",
+            "authors": [
+              "Burnett L L",
+              "Struve F A"
+            ],
+            "journal": "Journal of clinical psychology",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "937585",
+            "title": "A possible subgroup of the schizophrenic syndrome and implications for treatment.",
+            "authors": [
+              "Bellak L"
+            ],
+            "journal": "American journal of psychotherapy",
+            "year": "1976",
+            "abstract": "Supported by extensive clinical data of three generations, the hypothesis is advanced that Minimal Brain Dysfunction is the major etiologic and pathogenic factor for one subgroup of adult schizophrenics. Genetic factors apparently play the main but not exclusive role. Pathogenic as well as diagnostic, therapeutic, prognostic, and preventive aspects are discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7320347",
+            "title": "The use of psychopharmacology to study reciprocal influences in parent-child interaction.",
+            "authors": [
+              "Barkley R A"
+            ],
+            "journal": "Journal of abnormal child psychology",
+            "year": "1981",
+            "abstract": "The present paper reviews the possible utility and limitations of using behavior-modifying drugs to study reciprocal influences in parent-child interactions. Ideal circumstances for use of this approach are outlined and contrasted with the current status of the field of psychopharmacology. Numerous limitations to the approach are found. Yet the utility of the design is demonstrated in several studies of stimulant drug effects on the mother-child interactions of hyperactive children, and in one p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉相悖：ADHD核心病理為前額葉皮質多巴胺/去甲腎上腺素信號缺失，Diazepam的GABA增強作用可能加重認知功能障礙、降低注意力。PMID 2417773（1986）雖提及兒童精神藥理，但屬歷史性回顧。唯一臨床試驗（NCT02822937）研究Methylphenidate認知測量敏感性，與Diazepam無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.9991262555122375,
+        "rank": 1761
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉存在但薄弱：Diazepam作為中樞性肌肉鬆弛劑，可能緩解神經性膀胱的逼尿肌-括約肌協同失調（DSD）。然而：(1)此診斷分類標記為「obsolete」，臨床應用性存疑；(2)無任何臨床試驗或文獻支持；(3)現代神經性膀胱管理以肉毒桿菌素、抗膽鹼藥物或骶神經調控為主。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "insomnia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 24,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "insomnia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "insomnia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "sleep disorder, initiating and maintaining sleep"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "attention deficit hyperactivity disorder, inattentive type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "barbiturate abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "barbiturate abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "barbiturate abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "hallucinogen abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "hallucinogen abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "hallucinogen abuse"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "antidepressant type abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "antidepressant type abuse"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "antidepressant type abuse"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "specific developmental disorder"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Diazepam",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+## Amitriptyline (DB00321) — 藥物再利用證據分析報告
+
+### 分析前置說明
+
+**藥物背景**：Amitriptyline 為第一代三環抗憂鬱藥（TCA），儘管本地資料標記為「未上市／MoA [Data Gap]」，其全球已知機轉為：
+- **主要**：NE + 5-HT 突觸前再攝取抑制
+- **次要**：M₁₋₄ 受體拮抗（抗膽鹼）、H₁ 拮抗（鎮靜）、α₁ 阻斷、Na⁺ 通道阻斷（止痛）
+
+**資料限制**：部分 `literature_count: 20` 之適應症僅提供 10 筆 PMID 預覽，分析以實際提供資料為準。
+
+---
+
+```json
+{
+  "drug": "Amitriptyline",
+  "drugbank_id": "DB00321",
+  "analysis_date": "2026-04-05",
+  "market_context": "標記為未上市（SG 藥監資料庫），但為全球廣泛使用之 TCA。原始核准適應症欄位為空，以下所有適應症均以再利用框架評估。",
+  "indications": [
+    {
+      "disease_name": "major depressive disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Amitriptyline 抑制突觸前 NE/5-HT 再攝取，直接對應 MDD 之單胺假說核心病理。2018 Lancet Cipriani 網絡統合分析（522 RCT、116,477 人）確認 amitriptyline 在 MDD 急性期療效優於安慰劑（OR 2.13）且高於 13/20 比較藥物。NCT00124306 及 NCT00351910 均為直接 Phase 3 RCT，分別 271 / 494 人完成，提供本適應症最高等級臨床證據。應注意 TCA 心毒性、抗膽鹼副作用及過量風險，需嚴格個案選擇。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00124306",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED，n=271，直接評估 amitriptyline 療效用於 MDD，為最高等級直接 RCT 證據"
+        },
+        {
+          "nct_id": "NCT00351910",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，雙盲隨機平行組安慰劑對照，COMPLETED，n=494，高品質直接 RCT，樣本量充足"
+        },
+        {
+          "nct_id": "NCT05952713",
+          "relevance_grade": "A",
+          "reasoning": "n=73,336 超大型真實世界比較研究，直接比較 15 種抗憂鬱藥（含 amitriptyline）在 MDD 之反應，生態效度高"
+        },
+        {
+          "nct_id": "NCT04777006",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，Malawi HIV 族群憂鬱症階梯式治療，n=487，amitriptyline 作為一線藥物，ACTIVE_NOT_RECRUITING，外推性限制於特殊族群"
+        },
+        {
+          "nct_id": "NCT02237937",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，藥物基因組學指導 amitriptyline 劑量調整研究，n=80，聚焦個人化用藥而非療效終點"
+        },
+        {
+          "nct_id": "NCT05931965",
+          "relevance_grade": "B",
+          "reasoning": "評估抗憂鬱藥 + L-methylfolate/B12/Mg 輔助療法，n=88，amitriptyline 為標準對照藥之一"
+        },
+        {
+          "nct_id": "NCT05646693",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，MDD 抗氧化輔助療法研究，n=58，amitriptyline 為背景治療藥物，STATUS UNKNOWN"
+        },
+        {
+          "nct_id": "NCT00386243",
+          "relevance_grade": "C",
+          "reasoning": "慢性疼痛退役軍人階梯式治療，amitriptyline 用於疼痛/共病憂鬱，COMPLETED，間接相關"
+        },
+        {
+          "nct_id": "NCT00325000",
+          "relevance_grade": "C",
+          "reasoning": "心理治療 + 藥物聯合療法研究，STATUS TERMINATED，資料不完整，參考價值有限"
+        },
+        {
+          "nct_id": "NCT05860062",
+          "relevance_grade": "C",
+          "reasoning": "緊張型頭痛維生素 D 補充研究，n=20，amitriptyline 為背景預防性用藥，STATUS UNKNOWN，與 MDD 關聯極間接"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29477251",
+          "study_type": "Network Meta-Analysis（522 RCTs，116,477 人，21 種抗憂鬱藥）",
+          "tier": "1"
+        },
+        {
+          "pmid": "23235671",
+          "study_type": "Cochrane Systematic Review（amitriptyline vs placebo for MDD，直接比較）",
+          "tier": "1"
+        },
+        {
+          "pmid": "36253442",
+          "study_type": "Systematic Review / Meta-Analysis（MDD 維持期抗憂鬱藥，2023）",
+          "tier": "1"
+        },
+        {
+          "pmid": "27289172",
+          "study_type": "Systematic Review / Network Meta-Analysis（兒童青少年 MDD，2016）",
+          "tier": "1"
+        },
+        {
+          "pmid": "38360024",
+          "study_type": "Systematic Review / Network Meta-Analysis（精神病性憂鬱症藥物治療，2024）",
+          "tier": "1"
+        },
+        {
+          "pmid": "38856993",
+          "study_type": "Narrative Review（成人憂鬱症管理，JAMA 2024）",
+          "tier": "2"
+        },
+        {
+          "pmid": "25911132",
+          "study_type": "Evidence-based Review（抗憂鬱藥劑量等效性，來自 RCT 資料）",
+          "tier": "2"
+        },
+        {
+          "pmid": "28850959",
+          "study_type": "Systematic Review（抗憂鬱藥誘發癲癇風險，安全性相關）",
+          "tier": "2"
+        },
+        {
+          "pmid": "37834072",
+          "study_type": "Mechanistic Review（MDD 中酪胺酸亞硝化機轉，2023）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2963053",
+          "study_type": "Validation Study（Hamilton 焦慮量表信效度，1988）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "unipolar depression",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Unipolar depression（無雙極特徵之單相憂鬱症）與 MDD 病理高度重疊，均涉及單胺系統功能不足及 HPA 軸失調。NCT01049347（Phase 3，n=127）直接測試 amitriptyline 在此族群之 HPA 軸礦皮質素受體縱向效應；NCT00351910（Phase 3，n=494）及大型比較研究 NCT05952713（n=73,336）提供充足高等級證據。需注意 unipolar vs bipolar 鑑別診斷，TCA 在雙極症可能誘發躁狂發作。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00351910",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED，n=494，雙盲安慰劑對照直接 RCT，高品質主要證據"
+        },
+        {
+          "nct_id": "NCT01049347",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED，n=127，直接評估 unipolar depression 中 HPA 軸礦皮質素受體功能，amitriptyline 為干預藥物"
+        },
+        {
+          "nct_id": "NCT05952713",
+          "relevance_grade": "A",
+          "reasoning": "n=73,336 超大型比較研究，包含 unipolar depression 族群，直接比較 amitriptyline 療效"
+        },
+        {
+          "nct_id": "NCT02014363",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，COMPLETED，n=164，ETS6103 vs amitriptyline 非劣效性設計，amitriptyline 作為主動對照，間接驗證其療效基準"
+        },
+        {
+          "nct_id": "NCT00704860",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，COMPLETED，n=27，治療難治型憂鬱症合併海馬萎縮及 5-HT 基因多型性，樣本量小但機制相關"
+        },
+        {
+          "nct_id": "NCT05931965",
+          "relevance_grade": "B",
+          "reasoning": "Amitriptyline 與補充劑組合研究，unipolar depression 族群，n=88"
+        },
+        {
+          "nct_id": "NCT02237937",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，藥物基因組學指導治療研究，amitriptyline 為標準治療藥物之一"
+        },
+        {
+          "nct_id": "NCT00325000",
+          "relevance_grade": "C",
+          "reasoning": "已終止之心理治療 + 藥物研究，資料不完整，參考價值有限"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28578901",
+          "study_type": "Cohort Study（芬蘭國家登記資料，unipolar depression 再住院風險，2017）",
+          "tier": "2"
+        },
+        {
+          "pmid": "25911132",
+          "study_type": "Evidence-based Review（RCT 資料之抗憂鬱藥劑量等效性）",
+          "tier": "2"
+        },
+        {
+          "pmid": "6812139",
+          "study_type": "RCT（amitriptyline vs nortriptyline 在 unipolar depression 之反應預測因子，1982）",
+          "tier": "2"
+        },
+        {
+          "pmid": "1960381",
+          "study_type": "RCT（fluoxetine vs amitriptyline 在 MDD，1991）",
+          "tier": "2"
+        },
+        {
+          "pmid": "10757255",
+          "study_type": "RCT（venlafaxine vs amitriptyline 在 MDD 門診患者，2000）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7052009",
+          "study_type": "RCT（phenelzine vs amitriptyline 在門診憂鬱症亞型，1982）",
+          "tier": "2"
+        },
+        {
+          "pmid": "2858187",
+          "study_type": "RCT（alprazolam、amitriptyline、doxepin vs 安慰劑，1985）",
+          "tier": "2"
+        },
+        {
+          "pmid": "12571431",
+          "study_type": "Retrospective Chart Analysis + Open Prospective（精神病性 unipolar/bipolar depression，2002）",
+          "tier": "3"
+        },
+        {
+          "pmid": "400982",
+          "study_type": "PK/PD Study（amitriptyline 藥動學與藥效學，1979）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2963053",
+          "study_type": "Validation Study（Hamilton 量表，1988）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "endogenous depression",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Endogenous depression（內因性憂鬱症）為 DSM-III 時代之亞型分類，以生物性特徵為主（早醒、精神運動遲滯、體重減輕、晨重暮輕），現代分類已整合入 MDD with melancholic features（DSM-5）。Amitriptyline 的強效 NE/5-HT 雙重再攝取抑制機轉對此亞型尤其相關，多項 1980s RCT 直接以此為主要終點設計。L2 而非 L1 之原因：診斷分類已廢棄，現代試驗不再沿用此術語；歷史 RCT 規模相對小。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6452798",
+          "study_type": "RCT（double-blind，zimelidine vs amitriptyline in endogenous depression，1981）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7007357",
+          "study_type": "RCT（amoxapine vs amitriptyline 在 endogenous depression 門診，1981）",
+          "tier": "2"
+        },
+        {
+          "pmid": "6461690",
+          "study_type": "RCT（lithium + L-tryptophan vs amitriptyline in endogenous depression，1982）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7052009",
+          "study_type": "RCT（phenelzine vs amitriptyline，含 endogenous subtype 分析，1982）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7212100",
+          "study_type": "RCT（睡眠參數與 endogenous depression 治療預測，1981）",
+          "tier": "2"
+        },
+        {
+          "pmid": "1960381",
+          "study_type": "RCT（fluoxetine vs amitriptyline，1991）",
+          "tier": "2"
+        },
+        {
+          "pmid": "2858187",
+          "study_type": "RCT（amitriptyline vs 多藥物 vs 安慰劑，1985）",
+          "tier": "2"
+        },
+        {
+          "pmid": "6764165",
+          "study_type": "Comparative Review（amoxapine 評估，含 amitriptyline 比較，1982）",
+          "tier": "3"
+        },
+        {
+          "pmid": "400982",
+          "study_type": "PK/PD Study（amitriptyline 藥動學，1979）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2963053",
+          "study_type": "Validation Study（量表信效度，1988）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "melancholia",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Melancholia（憂鬱症憂鬱特徵亞型，DSM-5 specifier）具有獨特神經生物學特徵：HPA 過度活化、去甲腎上腺素系統失調、5-HT 功能下降。TCA（含 amitriptyline）被認為優於 SSRI 用於憂鬱特徵亞型，因其同時作用於 NE 及 5-HT 系統。PMID 10757255（RCT，venlafaxine vs amitriptyline，含 melancholic subgroup 分析）及 PMID 8773291（RCT，mianserin vs amitriptyline in melancholic inpatients）提供直接亞型證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10757255",
+          "study_type": "RCT（venlafaxine vs amitriptyline in MDD with/without melancholia，n=76，2000）",
+          "tier": "2"
+        },
+        {
+          "pmid": "8773291",
+          "study_type": "RCT（mianserin vs amitriptyline in depressive inpatients with/without melancholia，n=63，1995）",
+          "tier": "2"
+        },
+        {
+          "pmid": "33438398",
+          "study_type": "Review（Classics in Chemical Neuroscience: Amitriptyline，全面機轉回顧，2021）",
+          "tier": "2"
+        },
+        {
+          "pmid": "8254147",
+          "study_type": "RCT（fluoxetine vs amitriptyline EEG 效應比較，1993）",
+          "tier": "2"
+        },
+        {
+          "pmid": "8078953",
+          "study_type": "RCT（paroxetine vs amitriptyline 心率變異性，1994）",
+          "tier": "2"
+        },
+        {
+          "pmid": "14153375",
+          "study_type": "Early RCT（amitriptyline vs imipramine，1964，歷史奠基性研究）",
+          "tier": "3"
+        },
+        {
+          "pmid": "7092486",
+          "study_type": "Review（atypical vs melancholic depression 鑑別，1982）",
+          "tier": "3"
+        },
+        {
+          "pmid": "14346780",
+          "study_type": "Early Case Report（methyldopa + amitriptyline 交互作用，1965）",
+          "tier": "3"
+        },
+        {
+          "pmid": "400982",
+          "study_type": "PK/PD Study（amitriptyline 藥動學，1979）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2963053",
+          "study_type": "Validation Study（量表，1988）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "neurotic depression",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Neurotic depression（神經症性憂鬱症，現對應 DSM-5 之 MDD with anxious distress specifier 或 persistent depressive disorder）以情境反應性、顯著焦慮特徵及神經質人格為主。Amitriptyline 同時具備抗憂鬱（NE/5-HT 再攝取抑制）與抗焦慮效果（H1 拮抗、α1 阻斷），理論上對此焦慮-憂鬱混合亞型有優勢。PMID 7049292 為直接針對 neurotic depression 之 RCT（phenelzine vs amitriptyline），PMID 7609861 測試 amitriptyline 於 anxious depression。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7049292",
+          "study_type": "RCT（phenelzine vs amitriptyline in neurotic depression，1982，直接主題）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7609861",
+          "study_type": "RCT（amitriptyline vs amineptine in anxious depression，1995）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7052009",
+          "study_type": "RCT（phenelzine vs amitriptyline，neurotic subtype 分層分析，1982）",
+          "tier": "2"
+        },
+        {
+          "pmid": "727903",
+          "study_type": "RCT（ECT vs phenelzine-amitriptyline in refractory depression，1978）",
+          "tier": "2"
+        },
+        {
+          "pmid": "10757255",
+          "study_type": "RCT（venlafaxine vs amitriptyline in outpatient MDD，2000）",
+          "tier": "2"
+        },
+        {
+          "pmid": "1960381",
+          "study_type": "RCT（fluoxetine vs amitriptyline，1991）",
+          "tier": "2"
+        },
+        {
+          "pmid": "2858187",
+          "study_type": "RCT（多藥物比較，含 amitriptyline，1985）",
+          "tier": "2"
+        },
+        {
+          "pmid": "6764165",
+          "study_type": "Comparative Review（amoxapine 評估，1982）",
+          "tier": "3"
+        },
+        {
+          "pmid": "400982",
+          "study_type": "PK/PD Study（1979）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2963053",
+          "study_type": "Validation Study（1988）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "agoraphobia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Agoraphobia（廣場恐懼症）通常與恐慌症共病（panic disorder with agoraphobia）。TCA 類別中，imipramine 具備治療恐慌症之 RCT 證據，clomipramine（PMID 2178909）亦被廣泛回顧。Amitriptyline 雖同屬 TCA，直接針對 agoraphobia 之 RCT 缺乏。PMID 7234472 提供了 amitriptyline 治療期間 MAO 抑制與焦慮控制相關之間接機轉線索。現有文獻多為探討其他藥物（paroxetine、clomipramine、MAO 抑制劑）之回顧，amitriptyline 屬類別效應（class effect）推論。建議設計針對 panic disorder with agoraphobia 之 Phase 2 研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7234472",
+          "study_type": "Pilot Study（amitriptyline 治療後 MAO 抑制與焦慮控制，1981，唯一直接相關）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2178909",
+          "study_type": "Review（clomipramine 用於 panic disorder/agoraphobia/OCD，TCA 類別效應參考，1990）",
+          "tier": "3"
+        },
+        {
+          "pmid": "23338224",
+          "study_type": "Review（paroxetine 用於恐慌症/廣場恐懼症，間接比較參考，1997）",
+          "tier": "3"
+        },
+        {
+          "pmid": "7717094",
+          "study_type": "Review（可逆 MAO-A 抑制劑用於焦慮症，機轉間接參考，1995）",
+          "tier": "3"
+        },
+        {
+          "pmid": "23914085",
+          "study_type": "Cohort（精神科共病與慢性頭痛治療，含焦慮評估，2013）",
+          "tier": "3"
+        },
+        {
+          "pmid": "1356491",
+          "study_type": "Case Report（MDMA 誘發恐慌症，疾病機轉參考，1992）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "phobic disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Phobic disorder（恐懼症，含社交恐懼症/特定恐懼症）之藥物治療以 SSRI、SNRI 及 MAO 抑制劑為主。Amitriptyline 之 α1 腎上腺素阻斷（減少自律神經症狀）及 5-HT 效應具理論相關性，但直接 RCT 缺乏。PMID 7234472（Pilot，MAO 抑制與焦慮控制）及 PMID 7052009（RCT，含恐懼症亞型分析）提供最直接但仍有限之佐證。PMID 33153050 揭示 Neuropeptide Y 與抗憂鬱藥抵抗性社交恐懼之交叉機轉，為未來研究假說提供依據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7234472",
+          "study_type": "Pilot Study（amitriptyline 後 MAO 活性與焦慮控制，1981）",
+          "tier": "3"
+        },
+        {
+          "pmid": "7052009",
+          "study_type": "RCT（phenelzine vs amitriptyline 在門診憂鬱/恐懼亞型，1982）",
+          "tier": "3"
+        },
+        {
+          "pmid": "33153050",
+          "study_type": "Research Article（NPY 用於抗憂鬱藥抵抗性社交恐懼，機轉研究，2020）",
+          "tier": "3"
+        },
+        {
+          "pmid": "7717094",
+          "study_type": "Review（MAO-A 抑制劑用於焦慮/恐懼症，TCA 類別效應參考，1995）",
+          "tier": "3"
+        },
+        {
+          "pmid": "23338224",
+          "study_type": "Review（paroxetine 用於恐慌/恐懼症，間接比較，1997）",
+          "tier": "3"
+        },
+        {
+          "pmid": "14118375",
+          "study_type": "Case Series（amitriptyline + perphenazine 用於嚴重精神科症候群，1964）",
+          "tier": "3"
+        },
+        {
+          "pmid": "365127",
+          "study_type": "Review（phenelzine 臨床藥理學，1978）",
+          "tier": "3"
+        },
+        {
+          "pmid": "6215240",
+          "study_type": "Review（zimelidine 藥理與療效，含恐懼症，1982）",
+          "tier": "3"
+        },
+        {
+          "pmid": "8750",
+          "study_type": "Review（抗焦慮藥之合理使用，含 amitriptyline，1976）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2963053",
+          "study_type": "Validation Study（Hamilton 焦慮量表，1988）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Benign paroxysmal torticollis of infancy（嬰兒良性發作性斜頸，BPTI）被分類為兒童偏頭痛等效症（migraine equivalent），與 CACNA1A 鈣通道基因相關。Amitriptyline 雖用於成人及部分兒童偏頭痛預防（Na⁺ 通道阻斷及 5-HT 系統調節），但直接針對 BPTI 之臨床證據完全缺乏。TxGNN 高分（0.977）可能源於圖譜中 migraine-BPTI 共享節點之間接連結，屬計算推論而非臨床驗證。此外，此診斷之患者年齡（嬰幼兒）使 amitriptyline 之安全性評估更為複雜。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Ohdo syndrome and variants",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ohdo syndrome 及其變異型為罕見遺傳性疾病（MED13L、KAT6A、SETD5 等基因突變），以智能障礙、眼瞼下垂、面部異形及心臟缺陷為主要特徵。屬結構/功能發育缺陷，非神經傳遞物質失衡所致。無已知機轉連結 amitriptyline 與此症候群之治療。TxGNN 高分（0.960）可能反映知識圖譜中某些共享神經發育路徑節點（如神經元可塑性相關基因）之間接關聯，判斷為假陽性預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Blepharophimosis-intellectual disability syndrome, Ohdo type（BIDS-O，又稱 Maat-Kievit-Brunner syndrome）為 MED13L 基因突變所致之 X-linked 遺傳疾病，以眼瞼裂縮小、智能障礙及特殊面容為核心特徵。病因為基因/染色體層面之發育異常，amitriptyline 之單胺再攝取抑制機轉對此類遺傳結構異常無直接治療邏輯。TxGNN 分數（0.945）為最低之預測候選，判斷為計算假陽性（圖譜中神經/行為表型之非特異性關聯）。建議從預測候選清單中移除此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 決策摘要總表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| Major Depressive Disorder | 0.969 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| Unipolar Depression | 0.946 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| Endogenous Depression | 0.977 | L2 | S2 | ⚠️ Proceed with Guardrails |
+| Melancholia | 0.955 | L2 | S2 | ⚠️ Proceed with Guardrails |
+| Neurotic Depression | 0.955 | L2 | S2 | ⚠️ Proceed with Guardrails |
+| Agoraphobia | 0.973 | L4 | S1 | 🔬 Research Question |
+| Phobic Disorder | 0.947 | L4 | S1 | 🔬 Research Question |
+| Benign Paroxysmal Torticollis | 0.977 | L5 | S0 | 🚫 Hold |
+| Ohdo Syndrome and Variants | 0.960 | L5 | S0 | 🚫 Hold |
+| Blepharophimosis-ID, Ohdo Type | 0.945 | L5 | S0 | 🚫 Hold |
+
+---
+
+## 關鍵分析洞察
+
+### ⚠️ TxGNN 分數 ≠ 臨床證據等級
+
+- `benign paroxysmal torticollis`（TxGNN 0.977，**最高分**）↔ 證據等級 L5（無任何臨床資料）
+- `Ohdo syndrome`（TxGNN 0.960）↔ 同為 L5
+- 此現象揭示：知識圖譜預測分數可能因**網絡拓撲偏差**（topology bias）而對罕見/孤兒疾病產生虛假高分
+
+### 🔄 診斷分類演進問題
+
+- `Endogenous depression`、`neurotic depression` 均為已廢棄之 DSM-III 分類
+- 現代等效對應：`MDD with melancholic features`、`MDD with anxious distress specifier`
+- 建議在報告中標記診斷對應關係，避免誤導現代臨床決策
+
+### 🛡️ Guardrails 核心考量（適用所有 S3 決策）
+
+1. **心毒性**：QTc 延長、心律不整風險（尤其高劑量）
+2. **過量致命風險**：治療指數窄，憂鬱症患者自殺風險族群需謹慎
+3. **抗膽鹼副作用**：口乾、便秘、視力模糊、認知影響（老年族群）
+4. **藥物交互作用**：MAO 抑制劑禁止合用（高血壓危象）

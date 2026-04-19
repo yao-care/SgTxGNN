@@ -1,0 +1,2112 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00883-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Isosorbide dinitrate",
+    "drugbank_id": "DB00883",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "alopecia",
+      "txgnn": {
+        "score": 0.99988055229187,
+        "rank": 393
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假說機轉：ISDN 釋放 NO 可能改善毛囊微循環血流，類似 Minoxidil（原為降壓藥，後發現促毛髮生長）的血管擴張機制。然而此假說純屬推測，無任何臨床或前臨床支持數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn": {
+        "score": 0.9998558759689332,
+        "rank": 492
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛症合併粟粒疹為遺傳性皮膚疾病（DSG4 等基因突變），發病機轉為毛囊結構缺陷而非血管功能異常，ISDN 血管擴張機轉與此疾病病理生理無直接關聯。TxGNN 高分可能源自知識圖譜中「毛髮疾病」節點聚類效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn": {
+        "score": 0.9998550415039062,
+        "rank": 495
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "頭皮型單純少毛症（LPAR6/LIPH 突變）為毛囊角質化缺陷，與血管功能無關。預測評分高度相似於 alopecia 與 congenital hypotrichosis milia，顯示 KG 節點鄰近效應導致分群預測，非獨立機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.999823272228241,
+        "rank": 578
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39164577",
+            "title": "The effects of bolus isosorbide dinitrate on pulmonary hypertension with cardiopulmonary comorbidities.",
+            "authors": [
+              "Kashimura Takeshi",
+              "Tsuchiya Hiroki",
+              "Sawaguchi Genta",
+              "Ikesugi Hayao",
+              "Sekiya Yuka"
+            ],
+            "journal": "Heart and vessels",
+            "year": "2025",
+            "abstract": "Lowering mean pulmonary arterial pressure (mPAP) without reducing cardiac output is essential in treating pulmonary hypertension (PH). Isosorbide dinitrate (ISDN) potentially achieves this in post-capillary PH but can decrease cardiac output and blood pressure (BP), especially in pre-capillary PH. However, post-capillary PH and pre-capillary PH can overlap, and their clear discrimination is difficult. The aim of the study was to examine to what extent bolus ISDN injection reduces mPAP and BP, an",
+            "classification": {
+              "study_type": "Clinical Study（2025）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2732445",
+            "title": "Systemic and regional hemodynamic effects of isosorbide dinitrate in patients with liver cirrhosis and portal hypertension.",
+            "authors": [
+              "Mols P",
+              "Hallemans R",
+              "Melot C",
+              "Lejeune P",
+              "Naeije R"
+            ],
+            "journal": "Journal of hepatology",
+            "year": "1989",
+            "abstract": "In a group of 17 cirrhotic patients with portal hypertension, we have investigated the effects of 5 mg sublingual administration of isosorbide dinitrate (IDN) on central hemodynamics, on regional (hepatic and renal) hemodynamics and on blood gases. Fifteen min after drug administration, we observed a decrease in the right atrial mean pressure from 4 +/- 1 to 3 +/- 1 mmHg (mean +/- S.E.M., P less than 0.02) and of pulmonary arterial wedge pressure from 7 +/- 1 to 4 +/- 1 mmHg (P less than 0.001) ",
+            "classification": {
+              "study_type": "Clinical Study（1989）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6423015",
+            "title": "Nitroglycerin and isosorbide dinitrate in pulmonary hypertension of chronic obstructive pulmonary disease.",
+            "authors": [
+              "Delaunois L",
+              "Jonard P",
+              "Kremer N",
+              "Dubois P",
+              "Lulling J"
+            ],
+            "journal": "Bulletin europeen de physiopathologie respiratoire",
+            "year": "1984",
+            "abstract": "The effects of sublingual isosorbide dinitrate (ISDN; 10 mg) or nitroglycerin (NTG; 1 mg) on pulmonary hemodynamics, gas exchange and pulmonary function were studied during right heart catheterization in two series of 27 patients with COPD. An immediate significant decrease of pulmonary arterial pressure, cardiac output and work of the right ventricle was obtained with both drugs, but NTG only was able to reduce the pulmonary vascular resistance. Arterial oxygen tension did not decrease, but ven",
+            "classification": {
+              "study_type": "Clinical Study（1984）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28810603",
+            "title": "Intratracheal administration of isosorbide dinitrate improves pulmonary artery pressure and ventricular remodeling in a rat model of heart failure following myocardial infarction.",
+            "authors": [
+              "Wang Xuelian",
+              "Xu Qingqing",
+              "Li Tianqi",
+              "Rong Yaocong",
+              "Hong Weilin"
+            ],
+            "journal": "Experimental and therapeutic medicine",
+            "year": "2017",
+            "abstract": "Pulmonary hypertension due to left heart disease is associated with poor outcomes. This study investigated the beneficial effects of isosorbide dinitrate (ISDN) inhalation on pulmonary pressure and ventricular remodeling in a rat model of heart failure (HF) following myocardial infarction (MI). To assess the effect of ISDN on pulmonary pressure, 20 male Sprague-Dawley (SD) rats were randomized to four groups: Normal saline (NS) 1 ml/kg, ISDN 1 mg/kg, NS 3 ml/kg or ISDN 3 mg/kg following coronary",
+            "classification": {
+              "study_type": "Clinical Study（2017）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8908227",
+            "title": "Pulmonary vascular effects of nitroglycerin and isosorbide dinitrate in patients with end-stage cardiomyopathies.",
+            "authors": [
+              "Muikku O",
+              "Hynynen M",
+              "Salmenperä M",
+              "Nieminen M S"
+            ],
+            "journal": "Acta anaesthesiologica Scandinavica",
+            "year": "1996",
+            "abstract": "Severe preoperative pulmonary hypertension predicts a poor outcome after heart transplantation and therefore pulmonary vasoreactivity is frequently evaluated in the pretransplantation screening. Among the i.v. organic nitrates used in this evaluation, isosorbide dinitrate and nitroglycerin differ in their pharmacokinetics, and isosorbide dinitrate has been suggested to be more selective in its effects on pulmonary vasculature than nitroglycerin.",
+            "classification": {
+              "study_type": "Clinical Study（1996）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "373940",
+            "title": "Effects of isosorbide dinitrate on pulmonary hypertension in chronic obstructive pulmonary disease.",
+            "authors": [
+              "Danahy D T",
+              "Tobis J M",
+              "Aronow W S",
+              "Chetty K",
+              "Glauser F"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1979",
+            "abstract": "Eighteen patients with chronic obstructive pulmonary disease with pulmonary hypertension were studied to assess the hemodynamic response to acute oxygen administration and to oral isosorbide dinitrate (ISDN). All 18 patients had baseline hemodynamic measurements and hemodynamic measurements during low-flow nasal oxygen. Following a second baseline measurement, patients received either oral ISDN (11 patients) or placebo (7 patients) in a randomized, double-blind protocol. Heart rate decreased wit",
+            "classification": {
+              "study_type": "Clinical Study（1979）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2498122",
+            "title": "Comparative effects of isosorbide dinitrate, prednisolone, indomethacin, and elastase on the development of monocrotaline-induced pulmonary hypertension.",
+            "authors": [
+              "Kato T",
+              "Kitamura H",
+              "Kanisawa M"
+            ],
+            "journal": "Experimental and molecular pathology",
+            "year": "1989",
+            "abstract": "The pathogenesis of monocrotaline-induced pulmonary hypertension is not clear. Progressive pulmonary arteritis leading to vascular sclerosis, narrowing of the lumina, and thrombosis is the suspected sequence. To investigate this, we examined the effect of isosorbide dinitrate (ISDN), prednisolone, indomethacin, and elastase in 100 SD male rats, 4 weeks after the injection of monocrotaline (MCT) by cardiac catheterization, right ventricle-to-left ventricle plus septum weight ratio (RV/LV + S), hi",
+            "classification": {
+              "study_type": "Experimental Study（1989）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6861502",
+            "title": "Treatment of portal hypertension with isosorbide dinitrate alone and in combination with vasopressin.",
+            "authors": [
+              "Hallemans R",
+              "Naeije R",
+              "Mols P",
+              "Mélot C",
+              "Reding P"
+            ],
+            "journal": "Critical care medicine",
+            "year": "1983",
+            "abstract": "Experimental animal studies have suggested that certain vasodilators could minimize the adverse cardiovascular effects of vasopressin. We investigated the hemodynamic effects of isosorbide dinitrate, alone and in combination with vasopressin, in patients with liver cirrhosis. In 10 patients, isosorbide dinitrate, 5 mg sublingually, reduced portal pressure by 21% as assessed by the gradient between wedged and free hepatic venous pressure, but also decreased mean arterial pressure (MAP) by 20%, pu",
+            "classification": {
+              "study_type": "Clinical Study（1983）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29377691",
+            "title": "Identification of a Novel Hybridization from Isosorbide 5-Mononitrate and Bardoxolone Methyl with Dual Activities of Pulmonary Vasodilation and Vascular Remodeling Inhibition on Pulmonary Arterial Hypertension Rats.",
+            "authors": [
+              "Cheng Yusheng",
+              "Gong Yan",
+              "Qian Shuai",
+              "Mou Yi",
+              "Li Hanrui"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "2018",
+            "abstract": "Given the clinical therapeutic efficacy of oral-dosed bardoxolone methyl (1) and the selective vasodilatory effect caused by inhalation of nitric oxide (NO) on pulmonary arterial hypertension (PAH) patients, a new hybrid (CDDO-NO, 2) from 1 and NO donor isosorbide 5-mononitrate (3) was designed and synthesized. This hybrid could liberate 1 and NO in the lungs of rats after trachea injection. Significantly, 2 lowered mean pulmonary artery pressure (mPAP) and right ventricular systolic pressure (R",
+            "classification": {
+              "study_type": "Medicinal Chemistry（2018）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39398794",
+            "title": "Burden of Pulmonary Hypertension in End-Stage Renal Disease Patients Receiving Maintenance Hemodialysis: Evaluation Factors and Treatment Strategies.",
+            "authors": [
+              "Gurusamy Karthikeyan",
+              "V Ramasubramanian",
+              "P Shankar",
+              "Velu Kannan Bhaba",
+              "Pk Senthilkumar"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Background Chronic kidney disease (CKD) is an emerging public health problem in India. Pulmonary hypertension (PH) is an overlooked cardiovascular complication of CKD. This study aimed to estimate the burden of PH among CKD patients undergoing hemodialysis in a selected tertiary care hospital. In addition, it aimed to determine the various factors associated with PH and response to various treatment modalities. Methodology This hospital-based, analytical, cross-sectional study was conducted in t",
+            "classification": {
+              "study_type": "Epidemiology（2024）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19620510",
+            "title": "Effects of fixed-dose isosorbide dinitrate/hydralazine on diastolic function and exercise capacity in hypertension-induced diastolic heart failure.",
+            "authors": [
+              "Wilson Richard M",
+              "De Silva Deepa S",
+              "Sato Kaori",
+              "Izumiya Yasuhiro",
+              "Sam Flora"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2009",
+            "abstract": "Hypertension-induced diastolic heart failure accounts for a large proportion of all heart failure presentations. Hypertension also induces left ventricular (LV) hypertrophy. Fixed-dose isosorbide dinitrate/hydralazine (HISDN) decreased mortality in human systolic heart failure but it is unknown whether it improves maladaptive myocardial remodeling. We sought to test the hypothesis that chronic HISDN modulates LV hypertrophy and myocardial remodeling in hypertension-induced diastolic heart failur",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3925746",
+            "title": "The role of isosorbide dinitrate in the treatment of perioperative hypertension.",
+            "authors": [
+              "Thys D M",
+              "Sivak G",
+              "Kaplan J A"
+            ],
+            "journal": "American heart journal",
+            "year": "1985",
+            "abstract": "Intravenous nitroglycerin (NTG) has recently been found to be useful for the control of blood pressure during the perioperative period, especially during coronary artery bypass procedures. The objective of this study was to determine whether intravenous isosorbide dinitrate (ISDN) could play a similar role. Sixty-seven patients undergoing coronary artery bypass grafting at three centers were randomly assigned to an ISDN or NTG treatment group. The hemodynamic performance of all patients was asse",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7125407",
+            "title": "Vasodilators and prostaglandin inhibitors in primary pulmonary hypertension.",
+            "authors": [
+              "Hermiller J B",
+              "Bambach D",
+              "Thompson M J",
+              "Huss P",
+              "Fontana M E"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1982",
+            "abstract": "Ten women with primary pulmonary hypertension had resting hemodynamic measurements taken before and after the nonparenteral administration of various vasodilators and prostaglandin inhibitors. Only sublingual isoproterenol, alone or combined with sublingual isosorbide dinitrate, effected a substantial (greater than 20%) drop in pulmonary vascular resistance; this decrease was accompanied by little change in pulmonary artery pressure. Isosorbide dinitrate was the only drug that elicited any reduc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3409916",
+            "title": "Long-term reduction of pulmonary hypertension in interstitial lung fibrosis by isosorbide dinitrate.",
+            "authors": [
+              "Jezek V",
+              "Jezková J",
+              "Michaljanic A",
+              "Fucik J"
+            ],
+            "journal": "European heart journal",
+            "year": "1988",
+            "abstract": "The effect of isosorbide dinitrate (ID) on the development of pulmonary hypertension (PH) has been examined in 18 patients with idiopathic diffuse interstitial lung fibrosis (IDILF) during two years of treatment. All patients responded favourably to acutely administered ID by a decrease in pulmonary vascular resistance (PVR) by 38 +/- 13% and of the pulmonary arterial pressure (PAP) by 35 +/- 11%. Two years ID therapy led to sustained haemodynamic improvement in patients in whom blood gases were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2394157",
+            "title": "Nifedipine and prazosin in the management of pulmonary hypertension in CREST syndrome.",
+            "authors": [
+              "Glikson M",
+              "Pollack A",
+              "Dresner-Feigin R",
+              "Galun E",
+              "Rubinow A"
+            ],
+            "journal": "Chest",
+            "year": "1990",
+            "abstract": "A 62-year-old woman with CREST syndrome and isolated pulmonary hypertension (without evidence of interstitial lung disease) underwent right heart catheterization to evaluate the effect of steroid and vasodilator treatment on hemodynamic parameters. During 12 weeks of prednisone treatment in a dosage of 40 mg daily, her condition markedly deteriorated clinically and hemodynamically as manifested by pulmonary artery pressure (PAP), pulmonary vascular resistance (PVR), cardiac output (CO), mixed ve",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3137065",
+            "title": "Control of perioperative hypertension during coronary artery surgery. A randomised double-blind study comparing isosorbide dinitrate and nitroglycerin.",
+            "authors": [
+              "Durkin M A",
+              "Thys D",
+              "Morris R B",
+              "Kaplan J",
+              "Cahalan M"
+            ],
+            "journal": "European heart journal",
+            "year": "1988",
+            "abstract": "A reduction in the causes of myocardial ischaemia remains of prime importance during coronary artery surgery. Hypertension with the ensuing increase in myocardial oxygen demand is a major factor in the aetiology of perioperative myocardial ischaemia. Nitroglycerin (NTG) has long been used beneficially to reduce myocardial oxygen demand by its effects on the systemic and peripheral vascular resistances. An alternative nitrate, isosorbide dinitrate (ISDN) is now available as an intravenous prepara",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6978691",
+            "title": "Intravenous isosorbide dinitrate in the management of acute hypertension following cardiopulmonary bypass.",
+            "authors": [
+              "Cattaneo S M",
+              "Leier C V"
+            ],
+            "journal": "The Annals of thoracic surgery",
+            "year": "1982",
+            "abstract": "Twenty-one patients with acute systemic hypertension following cardiopulmonary bypass received isosorbide dinitrate intravenously in order to determine its effectiveness in managing this postoperative problem. Twenty patients underwent coronary artery bypass operation, and 1 patient had a pulmonary valvotomy. Bolus administration (0.25 to 2.5 mg [3.0 to 40.0 micrograms per kilograms]) decreased systemic systolic blood pressure 23% and diastolic blood pressure 25% (both, p less than 0.01). Contin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3348140",
+            "title": "Intravenous isosorbide dinitrate during open-heart surgery and its role in the treatment of right-sided congestive heart failure.",
+            "authors": [
+              "Parsons R S"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1988",
+            "abstract": "Recent awareness of the importance of the functional integrity of the right ventricle and the effect of raised pulmonary vascular resistance on cardiac output after cardiopulmonary bypass has focused attention on means of protecting right ventricular myocardium and reducing right ventricular afterload during open-heart surgery. A study of the acute effects of bolus intravenous isosorbide dinitrate (ISDN) has shown that after cardiopulmonary bypass, bolus intravenous ISDN produced highly signific",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2521028",
+            "title": "The effects of intravenous nitroglycerin and isosorbide dinitrate on hemodynamics and myocardial metabolism.",
+            "authors": [
+              "Davis M E",
+              "Jones C J",
+              "Feneck R O",
+              "Walesby R K"
+            ],
+            "journal": "Journal of cardiothoracic anesthesia",
+            "year": "1989",
+            "abstract": "Myocardial ischemia before and during coronary artery surgery is significant, because patients who develop perioperative myocardial ischemia have an increased incidence of postoperative myocardial infarctions. Thus, the prevention of ischemic episodes is of great importance. This study was undertaken to (1) compare the effects of intravenous nitroglycerin (NTG) with isosorbide dinitrate (ISDN); (2) investigate if the continuous infusion of nitrates had beneficial effects on cardiac performance a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22423590",
+            "title": "Treatment with LA-419 prevents monocrotaline-induced pulmonary hypertension and lung injury in the rat.",
+            "authors": [
+              "Mourelle M",
+              "Martin M T",
+              "Giménez F"
+            ],
+            "journal": "Proceedings of the Western Pharmacology Society",
+            "year": "2011",
+            "abstract": "We evaluated the therapeutic potential of LA-419, a hybrid organic nitrate that donates nitric oxide and thiol groups, to improve pulmonary arterial hypertension in an experimental model induced by monocrotaline in the rat. Treatment with LA-419 from the first day after monocrotaline administration prevented the increase in pulmonary pressure as well as the increases in ventricle/body weight and pulmonary artery wall thickness. Administration of LA-419 after establishment of hypertensive status ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ISDN 透過釋放 NO→cGMP 路徑擴張肺動脈，降低肺血管阻力（PVR）；效果類似靜脈注射硝普鈉，但口服/氣管內給藥提供非侵入性替代途徑。與 iPAH 現行 NO 吸入療法機轉相近。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "diffuse alopecia areata",
+      "txgnn": {
+        "score": 0.9998231530189514,
+        "rank": 579
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "瀰漫型斑禿的主要發病機轉為自體免疫（CD8+ T 細胞攻擊毛囊），ISDN 無已知免疫調節作用。血管效應對免疫介導毛囊損傷的修復潛力理論上極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "vascular disease",
+      "txgnn": {
+        "score": 0.9996775388717652,
+        "rank": 858
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00803634",
+            "title": "A Safety and Efficacy Study of Blood Pressure Control in Acute Heart Failure - A Pilot Study (PRONTO)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 117,
+            "start_date": "2008-12",
+            "completion_date": "2012-03",
+            "brief_summary": "The purpose of this study was to evaluate the efficacy and safety of intravenous (IV) clevidipine as compared with standard of care IV antihypertensive agents for blood pressure (BP) lowering in patients with acute heart failure and elevated BP.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 COMPLETED，n=117，急性心衰竭血壓控制；ISDN 為主要介入藥物，直接評估血管疾病應用，最高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT04661709",
+            "title": "Efficacy and Safety of Chinese Herbal Medicine Wen Xin Granules for the Treatment of Unstable Angina Pectoris With Yang Deficiency and Blood Stasis Syndrome: Study Protocol for a Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 502,
+            "start_date": "2021-03-01",
+            "completion_date": "2023-06-01",
+            "brief_summary": "This is a double-blind, randomized placebo-controlled trial which aims to evaluate the efficacy and safety of Wen Xin granule in patients with unstable angina pectoris.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，n=502，不穩定型心絞痛；ISDN 可能作為標準治療對照組，狀態 UNKNOWN 降低可信度。"
+            }
+          },
+          {
+            "nct_id": "NCT05671250",
+            "title": "Novel Bioactive Smart Dressings for Diabetic Foot Ulcers: a Randomized Controlled Trial Comparing Efficacy of PRP-loaded Lyophilized Gel vs. Erythropoietin/Isosorbide Dinitrate Cryogel Scaffold vs. Standard of Care",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2021-07-15",
+            "completion_date": "2023-01-01",
+            "brief_summary": "We propose a randomized controlled study to assess the efficacy of:\n\n1. Platelet-lysate loaded sustained release thermo-gelling formulation (Platelets-SR)\n2. EPO/ISDN/UFH cryogel dressing (Trigel) As adjuncts to standard-of-care (SOC) in the treatment of chronic DFUs compared to SOC alone for patients attending the DFU outpatient clinic at the Gastroenterology Centre, Mansoura University.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 COMPLETED，n=30，糖尿病足潰瘍智能敷料（含 NO 釋放成分）；代表血管疾病末端器官損傷應用，間接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT04051957",
+            "title": "Isosorbide Mononitrate For Anti-Vascular Endothelial Growth Factor (VEGF) Induced Kidney Injury",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 9,
+            "start_date": "2019-09-26",
+            "completion_date": "2021-02-12",
+            "brief_summary": "The purpose of this study is to test the hypothesis that isosorbide mononitrate prevents deterioration of renal function in patients receiving anti-angiogenic therapies that target vascular endothelial growth factor (VEGF).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2，TERMINATED，n=9，抗 VEGF 腎損傷；早期終止且樣本極小，僅提示硝酸鹽腎保護假說。"
+            }
+          },
+          {
+            "nct_id": "NCT06715007",
+            "title": "Antiplatelet Therapy and Endothelial-stabilizing Agents in Cerebral Small Vessel Diseases",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 300,
+            "start_date": "2024-12-20",
+            "completion_date": "2026-01-20",
+            "brief_summary": "Cerebral small vessel disease (cSVD) is a common accompaniment of aging. Recent small subcortical (or lacunar) infarcts (i.e. symptomatic cSVD) and white matter hyperintensities are typical cSVD lesions on neuroimaging. cSVD causes about a quarter of ischaemic strokes and related with cognitive dysfunction. However, few studies are available so far to especially explore the treatment of cSVD. Endothelial dysfunction plays an important part in cSVD. Cilostazol and isosorbide mononitrate have endo",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "RECRUITING，n=300，腦小血管疾病中的抗血小板與內皮穩定療法；直接評估硝酸鹽類對小血管疾病的效益，高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT01471834",
+            "title": "Neo Non-Randomized Hypertension Study",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 40,
+            "start_date": "2011-06",
+            "completion_date": "2026-08",
+            "brief_summary": "To assess the long-term safety and efficacy of the BAROSTIM NEO System in trial (NCT01471834) participants.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "N/A，n=40，血壓控制非隨機研究；樣本小且設計較弱，但提供真實世界血壓管理數據。"
+            }
+          },
+          {
+            "nct_id": "NCT02011620",
+            "title": "Influence of Nitrates on Bone Remodeling and Endothelial Function in Patients With Type 2 Diabetes Mellitus.",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2014-10",
+            "completion_date": "2014-12",
+            "brief_summary": "Type 2 diabetes mellitus (DM) is becoming a leading global epidemic. DM affects several systems in the body. Most of the complications encountered in DM are attributed to uncontrolled hyperglycemia or poor glycemic control. Hyperglycemic stress tends to damage the inner lining of the small blood vessels (endothelium). Normally, the endothelium releases a chemical substance called nitric oxide (NO) which relaxes the blood vessels and also prevents blockade of these vessels. Therefore damage to th",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4，WITHDRAWN，n=0；試驗撤回，無任何數據可用。"
+            }
+          },
+          {
+            "nct_id": "NCT02305095",
+            "title": "Genomic Analysis of the Enhanced Response to Heart Failure Therapy in African Americans",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 225,
+            "start_date": "2015-05-01",
+            "completion_date": "2022-09-30",
+            "brief_summary": "The response to therapy with a fixed dose combination of isosorbide dinitrate and hydralazine (FDC I/H) is enhanced in African Americans with heart failure and reduced ejection fraction (HFrEF) when compared to similar white cohorts. This study will seek to confirm the previous genetic sub-study from AHeFT which suggested a functional polymorphism of guanine nucleotide binding protein beta polypeptide 3 subunit (GNB3), C825T in exon 10, influences the therapeutic efficacy of FDC I/H. This study ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "COMPLETED，n=225，心衰竭療法基因體分析（African American）；探索硝酸鹽反應的種族差異，對精準醫療有參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT01768182",
+            "title": "Short-term Folinic Acid Supplementation Improves Vascular Reactivity in HIV-infected Individuals: a Randomized Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2009-08",
+            "completion_date": "2011-09",
+            "brief_summary": "Objective: HIV infected individuals present a cluster of conditions that activate or injure the vascular endothelium. The administration of folates may exert beneficial effects on endothelial function in different populations at risk for cardiovascular disease. The aim of the study was to determine the effects of 4 weeks folinic acid supplementation on forearm vascular responses during reactive hyperemia in HIV-infected people under antiretroviral therapy.\n\nMethods: This was a prospective, rando",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "COMPLETED，n=30，HIV 患者葉酸補充改善血管反應性；ISDN 非主要介入，相關性間接。"
+            }
+          },
+          {
+            "nct_id": "NCT02627196",
+            "title": "Barostim Neo® - Baroreflex Activation Therapy® for Heart Failure",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 1200,
+            "start_date": "2016-04-19",
+            "completion_date": "2023-12",
+            "brief_summary": "The purpose of this clinical trial (NCT02627196) is to develop valid scientific evidence for safety and effectiveness of Baroreflex Activation Therapy with the BAROSTIM NEO System in subjects with heart failure, defined as New York Heart Association (NYHA) functional Class III, left ventricular ejection fraction (LVEF) ≤ 35% and NT-proBNP\\<1600 pg/ml despite being treated with the appropriate heart failure guideline directed therapy, excluding subjects eligible for or actively receiving Cardiac ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "N/A，n=1200，心衰竭 Barostim 裝置研究；硝酸鹽為背景用藥而非主角，屬裝置試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT07252544",
+            "title": "Isosorbide Mononitrate and Butylphthalide to Reduce the Risk of Disability in Patients With Acute Lacunar Stroke: a 2×2 Factorial Randomized Controlled Trial (IMPACT)",
+            "phase": "PHASE3",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 3156,
+            "start_date": "2025-12-01",
+            "completion_date": "2028-02-29",
+            "brief_summary": "The goal of this multicenter, double-blind, 2×2 factorial randomized controlled trial is to evaluate the efficacy and safety of isosorbide mononitrate, butylphthalide, and their combination in reducing disability in patients with acute lacunar stroke.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00808652",
+            "title": "Prevalence and Outcome of Brachial Artery Endothelial Function in Morbidly Obese Patients Undergoing Bariatric Surgery",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 13,
+            "start_date": "2009-03",
+            "completion_date": "2014-11",
+            "brief_summary": "The relation between obesity and ischemic heart disease (IHD) is under considerable debate. The reduction in all-cause mortality and, more specifically, the reduction in cardiac-related mortality seen after weight-loss surgery, may be due to regression or slowing developement of subclinical IHD. Function of cells lining the arteries (endothelium) is closely related to the state of IHD and its measurement can serve as a surrogate marker for the existence and severity of IHD. The investigators hyp",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03451591",
+            "title": "LACunar Intervention (LACI-2) Trial-2: Assessment of Safety and Efficacy of Cilostazol and Isosorbide Mononitrate to Prevent Recurrent Lacunar Stroke and Progression of Cerebral Small Vessel Disease.",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 363,
+            "start_date": "2018-01-08",
+            "completion_date": "2022-08-11",
+            "brief_summary": "About 35,000 people each year in the UK have a type of stroke, called 'lacunar' or 'small vessel' stroke, which is different to other common types of stroke and for which there is no proven treatment. It is thought that small vessel stroke is caused by damage to the lining of the tiny blood vessels deep inside the brain that stops them functioning normally. This not only causes stroke but, perhaps more importantly, causes problems with thinking and walking, possibly causing up to 45% of all deme",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02135315",
+            "title": "One-year Outcome of Intensive Versus Standard Blood Pressure Treatment in Non-ST Elevation Acute Coronary Syndrome: A Randomised Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 1500,
+            "start_date": "2014-03",
+            "completion_date": "2020-12-31",
+            "brief_summary": "The intensive arterial pressure control in acute coronary syndrome (ACS) during the first 24 hours can improve the prognosis in the short and long term.\n\nthe study compare two treatment strategies (standard and intensive treatment) to assess their efficacy and safety in the treatment of acute coronary syndrome.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01270139",
+            "title": "Plasmonic Photothermal Therapy of Flow-Limiting Atherosclerotic Lesions With Silica-Gold Nanoparticles: a First-in-Man Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "2007-04-01",
+            "completion_date": "2016-08-01",
+            "brief_summary": "The investigators hypothesize that the nanoburning is a very challenging technique to demolish and reverse the plaque especially in combination with stem cell technologies promising the functional restoration of the vessel wall.\n\nThe completed (in July 2012) interventional three arms (n=180) first-in-man trial (the NANOM-FIM trial) assessed (NCT01270139) the safety and feasibility of two delivery techniques for nanoparticles (NP), and plasmonic photothermal therapy (PPTT) of atherosclerotic lesi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00943852",
+            "title": "A Double-Blind, Randomized, Placebo-Controlled, 5-Period Crossover Study to Evaluate the Effects of a Single Dose of Losartan, a Single Dose of Isosorbide Mononitrate (ISMN), and Single Doses of Losartan + ISMN on Central Blood Pressure Measurements in Mildly Hypertensive Patients",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 13,
+            "start_date": "2006-08",
+            "completion_date": "2006-12",
+            "brief_summary": "This study will qualify a functional model that can measure central blood pressure and vascular compliance effects through noninvasive means.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02522208",
+            "title": "Randomized, Open-Label, Daily Dose, 2-sequence, 2-way Crossover Pharmacodynamic and Pharmacokinetic Study of BiDil XR Capsules and Commercial BiDil Tablets in Self-identified Black Patients, Who Are Slow Acetylators, With Heart Failure",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2015-09",
+            "completion_date": "2016-04",
+            "brief_summary": "This study will investigate cardiovascular parameters using echocardiographic and pharmacokinetics during a daily dose of BiDil and BiDil Extended Release (XR) compared to a study drug free day.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00810381",
+            "title": "Ocular Hemodynamic Effects of Nitrovasodilators in Healthy Subjects",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 14,
+            "start_date": "1999-01",
+            "completion_date": "1999-06",
+            "brief_summary": "Glaucoma, one of the most common causes of blindness, is associated with increased intraocular pressure (IOP) and optic nerve head ischemia. Nitrovasodilators are discussed in the treatment of glaucoma. Nitrates relax smooth muscle cells in the vasculature by liberating the vasodilator nitric oxide.\n\nThe IOP lowering potential and the vasodilator action in retinal and choroidal vessels of nitrates is still a matter of controversy. Previous studies on the ocular hemodynamic effects of nitrates sh",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02789033",
+            "title": "Efficacy of the Combination of Isosorbide Dinitrate Spray and Chitosan in Diabetic Foot Ulcers",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 68,
+            "start_date": "2015-06",
+            "completion_date": "2015-08",
+            "brief_summary": "The prevalence of diabetic foot ulceration in the diabetic population is 4-10%; the condition is more frequent in elder patients. It is estimated that about 5% of all patients with diabetes present a history of foot ulceration, while the lifetime risk of diabetic patients developing this complication is 15%. The majority (60-80%) of foot ulcers will heal, while 10-15% of them will remain active, and 5-24% of them will finally lead to limb amputation within a period of 6-18 months after the first",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03072121",
+            "title": "Study of Curative Effect Evaluation of Shexiang Baoxin Pill on Coronary Artery Disease Not Amenable to Revascularization on the Basis of Western Medicine Therapy",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 440,
+            "start_date": "2017-06",
+            "completion_date": "2019-02",
+            "brief_summary": "The purpose of this study is to determine whether Shexiang Baoxin Pill is effective in the treatment of coronary artery disease not amenable to revascularization on the basis of western medicine therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000478",
+            "title": "Asymptomatic Cardiac Ischemia Pilot (ACIP) Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "1990-11",
+            "completion_date": "1997-06",
+            "brief_summary": "To assess the feasibility of and test the methodology for a full-scale clinical trial of therapies for asymptomatic cardiac ischemia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03072082",
+            "title": "Study of Curative Effect Evaluation of DanLou Tablet on Coronary Artery Disease Not Amenable to Revascularization on the Basis of Western Medicine Therapy",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 440,
+            "start_date": "2017-06",
+            "completion_date": "2019-02",
+            "brief_summary": "The purpose of this study is to determine whether Danlou Tablet is effective in the treatment of coronary artery disease not amenable to revascularization on the basis of western medicine therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00871871",
+            "title": "A Randomized, Double-Blind, Placebo-Controlled, 2-Part Study to Evaluate the Multiple Dose Effects of Hydrochlorothiazide and Isosorbide Mononitrate on Glucose Homeostasis in Obese Patients With Hypertension",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2009-03",
+            "completion_date": "2010-03",
+            "brief_summary": "This study will measure and compare changes in insulin production and sensitivity using the hyperglycemic clamp technique in obese patients with impaired glucose tolerance and hypertension treated with placebo, isosorbide mononitrate (ISMN) or hydrochlorothiazide (HCTZ).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05954689",
+            "title": "Femoral Artery Block for Reduction of Tourniquet Induced Hypertension: a Randomised Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2023-07-10",
+            "completion_date": "2024-05-31",
+            "brief_summary": "A randomised controlled trial to assess the impact of femoral artery block on the incidence of tourniquet hypertension in patients receiving cruciate ligament surgery with \\> 30 minutes of tourniquet under combined anaesthesia (balanced general anaesthesia and femoral nerve blocks).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03171480",
+            "title": "Randomized Controlled Trial of Nitric-oxide Donor (NOD) Isosorbide Mononitrate (IMN) Versus Placebo for Induction of Labor in Pregnancies Complicated by Preeclampsia",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 176,
+            "start_date": "2017-10-30",
+            "completion_date": "2020-07-01",
+            "brief_summary": "A randomized controlled trial (RCT) of nitric-oxide donor (NOD) isosorbide mononitrate (IMN) versus placebo as an adjuvant to misoprostol/ intra-cervical Foley bulb for induction of labor to decrease rate of cesarean deliveries in pregnancies complicated by preeclampsia (≥24/0 weeks' gestation)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03255512",
+            "title": "Multi-center, Randomized, Placebo-controlled, Double-blind Group Comparison Study to Investigate Safety, Tolerability and Blood Pressure of 2.5 mg, 5.0 mg and 10 mg Vericiguat Each Given Over 14 ± 3 Days Together With Isosorbite Mononitrate (ISMN) 60 mg Extended Release Formulation After a Pretreatment Phase (ISMN-starting Dose: 30 mg) in Stable Coronary Artery Disease (CAD) Patients With or Without Heart Failure Aged 30 to 80 Years - Vericiguat ISOsoRbite Mononitrate Interaction (VISOR) Study",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2017-08-17",
+            "completion_date": "2018-03-23",
+            "brief_summary": "This study is intended to investigate the pharmacodynamic drug-drug interaction as well as the safety and tolerability of isosorbite mononitrate and vericiguat in patients with stable coronary artery disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00143195",
+            "title": "Open Label Study Comparing Amlodipine vs Long-acting Nitrates in Patients With Chronic Stable Angina.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2001-04",
+            "completion_date": "2005-01",
+            "brief_summary": "The objective of study is to compare the anti-ischemic efficacy and safety profiles of once daily amlodipine or isosorbide-5-mononitrate in the treatment of stable asymptomatic and symptomatic myocardial ischemia",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04317846",
+            "title": "TransRadIal Evaluation STudy of diamEter Increase After Vasodilatory Drugs Administration: The TRIESTE Randomized Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 165,
+            "start_date": "2021-03-22",
+            "completion_date": "2024-06-30",
+            "brief_summary": "Radial artery access use in percutaneous cardiac interventions (PCI) is associated with a lower risk of vascular complications, bleeding and major adverse cardiac events including cardiac death in the long-term follow-up. Intra-radial administration of vasodilatory drugs, transiently painful for the patient, reduces the risk of spasm and is currently the standard technique performed worldwide. However, the efficacy of intravenous administration of vasodilatory drugs has never been evaluated.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00685945",
+            "title": "Renin-Angiotensin Aldosterone System and Fibrinolysis(RAAS) Interaction in Humans- Specific Aim 3",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2007-12",
+            "completion_date": "2009-01",
+            "brief_summary": "The purpose of the study is to determine if giving isosorbide,a drug that is used to treat chest pain, affects blood vessel release of an anti-clotting factor.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02045459",
+            "title": "Assessment of Perfusion Reserve and Effects of Exercise in Microvascular Angina",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 79,
+            "start_date": "2014-05",
+            "completion_date": "2021-05-17",
+            "brief_summary": "For part of this study, we are collecting information from patients that have been experiencing the symptoms mentioned above. We are taking this information and creating a chest pain registry to follow trends and compare different patients having similar symptoms. We hope to gain insight into the quality of life, symptoms, and cardiac events of those who are having similar symptoms. The type of information we will collect includes: demographics, quality of life, levels of anxiety related to angi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01676207",
+            "title": "Prevalence of Extracardiac Coronary Collateral Supply Via the Internal Mammary Arteries",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2012-07",
+            "completion_date": "2013-12",
+            "brief_summary": "In contrast to the extensively studied coronary collateral circulation within the heart, clinical attention has been paid only anecdotally to extracardiac-to-coronary anastomoses. Usually this has been in the form of case reports giving account of angiographically visible anastomoses between the coronary circulation and the internal mammary artery (IMA), typically in the presence of a chronic occlusion of a coronary artery. In the anatomical literature,the most common types of extracardiac anast",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02228408",
+            "title": "A Phase IV Randomized, Double-blind, Active-controlled, Single-center Study of the Safety and Effects on Cardiac Structure and Function of Hydralazine and Isosorbide Dinitrate in Patients With Hemodialysis Dependent ESRD",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2017-08-28",
+            "completion_date": "2019-05-07",
+            "brief_summary": "This study is a pilot study designed to compare the safety and cardiovascular effects of 26 weeks of combination hydralazine/isorsorbide dinitrate therapy with placebo therapy in patients receiving chronic hemodialysis.\n\nThe investigators hypothesize that treatment of chronic hemodialysis (ESRD) patients with a combination of hydralazine/isosorbide dinitrate compared with placebo is safe and that it will improve heart function as well blood flow/blood vessel supply.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01769079",
+            "title": "Withdrawal of Nitrate in Patients With Stable Angina - Multicenter Clinical Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 95,
+            "start_date": "2009-09",
+            "completion_date": "2013-12",
+            "brief_summary": "Chronic treatment of stable angina with nitrates long and short action is extremely frequent. In clinical practice the most commonly observed is a combination of anti-anginal agents, usually including nitrates fixed in an attempt to improve the quality of life of patients, which is not always met with success.\n\nNumerous questions and problems are seen with chronic use of oral nitrates. From a practical standpoint, some advocate the withdrawal of medication in stable patients, while many physicia",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00683696",
+            "title": "Echocardiography Guided Cardiac Resynchronization Therapy (EchoCRT)",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 1680,
+            "start_date": "2008-08",
+            "completion_date": "2013-03",
+            "brief_summary": "The EchoCRT trial evaluates the effects of Cardiac Resynchronization Therapy (CRT) on mortality and morbidity of subjects with heart failure due to left ventricular systolic dysfunction, already receiving optimized HF medication, with a narrow QRS width (\\< 130 ms) and echocardiographic evidence of ventricular dyssynchrony.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05082311",
+            "title": "Prospective Cohort Study of Objective Cardiac and Vascular Changes in Pheochromocytoma and Paraganglioma and Their Reversal Following Curative Surgery",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 55,
+            "start_date": "2019-01-19",
+            "completion_date": "2022-01-31",
+            "brief_summary": "PHEOCHROMOCYTOMA (PCC)/ PARAGANGLIOMA are catecholamine secreting tumors with varied manifestations. Besides hypertension, PCC patients may have subclinical to overt cardiac and vascular dysfunction, which are important to recognize to minimize perioperative morbidity and mortality. Cardiovascular (CV) dysfunction can be in the form of hypertension, left ventricular (LV) hypertrophy, heart failure, cardiomyopathy, dysrhythmias, angina and Myocardial infarction. Literature search revealed a few r",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01130168",
+            "title": "A Double-Blind, Randomized, Placebo-Controlled, 3-Period, Crossover Study to Evaluate the Effects of Antihypertensive Agents on Central Blood Pressure in Healthy Subjects and Patients With Hypertension",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2010-05",
+            "completion_date": "2010-11",
+            "brief_summary": "This study will test the relationship between CBP (central blood pressure) and PBP (peripheral blood pressure) effects after single and multiple doses of Isosorbide mononitrate extended release (ISMN ER) or Amlodipine besylate in participants with hypertension.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02795910",
+            "title": "Integrated Primary Care for Diabetes and Cardiovascular Disease in Less Developed Countries: Pragmatic Trial of the Practical Approach to Care Kit",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 40577,
+            "start_date": "2017-04-01",
+            "completion_date": "2019-03-31",
+            "brief_summary": "This study will evaluate a complex intervention based on a patient management tool (PMT), combined with educational outreach to primary care doctors, nurses and other health workers, in the Brazilian city of Florianopolis. The intervention is aimed at improving the quality of primary health care and health outcomes, in adults with diabetes and cardiovascular disease (CVD). The effectiveness of the intervention will be assessed by randomly allocating 48 primary care clinics to receive the interve",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01720160",
+            "title": "Barostim HOPE4HF Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 98,
+            "start_date": "2012-11",
+            "completion_date": "2021-03",
+            "brief_summary": "The purpose of this clinical investigation is to assess the long-term safety and efficacy of the BAROSTIM NEO System in subjects currently participating in the BAROSTIM® HOPE4HF Trial (NCT01720160).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02481323",
+            "title": "Preventing Cognitive Decline and Dementia From Cerebral Small Vessel Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 57,
+            "start_date": "2016-03",
+            "completion_date": "2017-11-30",
+            "brief_summary": "Phase II pilot randomised, factorial, short term dose escalation, open label, blinded intermediary endpoint trial, in two hospital centres in the UK, of tolerability and safety of cilostazol, isosorbide mononitrate, both or neither in patients with small vessel disease manifest as symptomatic small subcortical stroke.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01513070",
+            "title": "A Randomized Double-blind Placebo-controlled Clinical Trials of the Blood-quickening Stasis-transforming Formula Quick-Acting Heart Reliever for Patients With Moderate Coronary Stenosis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2012-04",
+            "completion_date": "2014-06",
+            "brief_summary": "This study investigates the effective power of angina pectoris after Quick-Acting Heart Reliever and isosorbide dinitrate interventing respectively the patients with moderate coronary stenosis for six months. At the same time, the studying will assess the plaque, myocardial blood-supplying,quality of life and observe the end point of the heart (including the myocardial revascularization, death and myocardial infarction). The purpose is to study the function of the blood-quickening stasis-transfo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00337116",
+            "title": "Intravenous Isosorbide Dinitrate Versus Sublingual Isosorbide Dinitrate for the Relief of Acute Anginal Episodes in Acute Coronary Syndrome (ACS) Patients",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 80,
+            "start_date": "2007-01",
+            "completion_date": "2008-01",
+            "brief_summary": "This is a randomized, double blind, placebo-controlled study, clinical trail designed to evaluate the efficacy safety and superiority of intravenous boluses of isosorbide dinitrate for the relief of acute anginal pain episodes in acute coronary syndrome patients in comparison with the usual manner of S/L isosorbide dinitrate .",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02573051",
+            "title": "Misoprostol Plus Isosorbide Mononitrate Versus Misoprostol For Termination Of Anembryonic Pregnancy",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2015-06",
+            "completion_date": "2015-12-01",
+            "brief_summary": "Anembryonic pregnancy is a leading cause of early miscarriage. The American Pregnancy Association estimates that blighted ovum causes approximately 50 percent of all first-trimester miscarriages. About 20 percent of all pregnancies result in miscarriage.\n\nIn general, there are 3 options for management of anembryonic pregnancy: expectant, medical, and surgical management. Expectant management consists of no intervention and awaiting natural passage of tissue. Medical management uses medication to",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01631409",
+            "title": "Estimation of the Long Term Effectiveness of Routine Use of Cardiac Shock Wave Therapy in the General System of Noninvasive, Invasive, and Surgical Treatment of Ischemic Heart Disease in the Conditions of a Large General City Hospital",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-09",
+            "completion_date": "2021-09",
+            "brief_summary": "This study is dedicated to determination of the long term effectiveness of coronary heart disease (CHD) treatments - cardiac shock wave therapy (CSWT) in comparison with other kinds of medical and surgical treatment. For that purpose the investigators will observe the patients with CHD who enrolled in this study in their routine course of treatment. But the investigators will not interfere with the patient treatment. Each participant will be followed-up for five years. The collected data will al",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04206865",
+            "title": "Prospective Comparison of ARNI to Alternate Oral Vasodilator Therapies to Determine the Hemodynamic Profile and Relative Tolerability of (ARNIs) in Patients With Decompensated Heart Failure and Low Cardiac Output",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2019-11-25",
+            "completion_date": "2020-09-10",
+            "brief_summary": "This is a prospective, randomized, non-blinded, single-center efficacy study of acutely decompensated heart failure patients with reduced ejection fraction (HFrEF), low cardiac index (\\<2.2) as determined by pulmonary artery catheter (PAC) who have been hemodynamically stabilized and ready for transition to oral vasodilator therapy at the discretion of the clinician. The investigators would like to accomplish the following objectives with this study:\n\n1. Establish the superiority of an upfront i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03011775",
+            "title": "Effect of Pioglitazone on Insulin Resistance, Progression of Atherosclerosis and Clinical Course of Coronary Heart Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 43,
+            "start_date": "2012-11",
+            "completion_date": "2015-09",
+            "brief_summary": "Pioglitazone, a medication of thiazolidinedione group, is capable of triggering the peroxisome proliferator-activated receptors (PPAR-γ). Activation of receptor PPAR-γ regulates carbohydrate and lipid metabolism, immune and inflammatory responses in heart tissues.\n\nOur aim will to study the effect of pioglitazone on insulin resistance, the clinical course of atherosclerosis and coronary heart disease (CHD).\n\nThe study will include 43 patients with coronary artery disease. Patients will be divide",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01961453",
+            "title": "Targeting Wave Reflections to Improve Left Ventricular Hypertrophy, Fibrosis and Myocardial Function in Hypertension",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-08",
+            "completion_date": "2016-01",
+            "brief_summary": "The purpose of this research study is to test whether treatment with isosorbide mononitrate will improve left ventricular hypertrophy (\"thickening\") which puts people at risk for developing heart failure. Once it develops, heart failure is a very serious condition and thus it is important to find ways to prevent it from happening. The investigators have reasons to believe that dilating the blood vessels with this specific medication will improve the thickening of the heart, which increases the r",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01430780",
+            "title": "A Prospective Study to Evaluate the Influence of Oxygen Free Radical Injury Induced by Long-term Nitrates Therapy on Vasodilation Function of Patients With Coronary Heart Disease",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 68,
+            "start_date": "2009-08",
+            "completion_date": "2013-12",
+            "brief_summary": "Basic studies has showed that sustained use of nitrates might associated with adverse effects on vascular function mediated by an increase in nitrate-induced oxidative stress. But it remains unclear whether oxidative stress increases with endothelial function impairment in patients with coronary artery disease (CAD) during administration of long-term oral nitrates. The investigators evaluated whether administration of long-term isosorbide mononitrate (ISMN) treatment was associated with oxidativ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02870985",
+            "title": "BIOTRONIK-Safety and Clinical PerFormance of the Drug ELuting Orsiro Stent in the Treatment of Subjects With de Novo Coronary Artery Lesions-VI",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 440,
+            "start_date": "2015-07-14",
+            "completion_date": "2021-12",
+            "brief_summary": "The clinical investigation is a non-inferiority, multicenter, blinding evaluation, randomized, parallel controlled clinical study enrolling up to 440 subjects. All subjects will be randomized 1:1 to receive the BIOTRONIK Orsiro SES or the Abbott Xience Prime™ EES, in order to evaluate the efficacy and safety of the SES drug eluting stent in the treatment of coronary artery disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02152579",
+            "title": "Open Monocentric Clinical Study for the Evaluation of Efficacy and Safety of 20 mg Monocordil Tablets Manufactured by Laboratórios Baldacci in Patients With Stable Angina",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 86,
+            "start_date": "2014-07",
+            "completion_date": "2014-10",
+            "brief_summary": "Phase III clinical study for the evaluation of clinic and cardiologic effects of isosorbide mononitrate from the incidence of events (angina episodes).\n\nThis is an open, comparative, monocentric trial. The hypothesis, regarding the number of angina episodes, to be tested are:\n\n* H0: μD = 0 ot H0: μAfter = μBefore\n* HA: μD ≠ 0 ot HA: μBefore ≠ μAfter",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2113003",
+            "title": "Nitrates: why and how should they be used today? Current status of the clinical usefulness of nitroglycerin, isosorbide dinitrate and isosorbide-5-mononitrate.",
+            "authors": [
+              "Silber S"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1990",
+            "abstract": "Nitrates are highly effective both in terminating acute attacks of angina pectoris and in the prophylaxis of symptomatic and asymptomatic myocardial ischemia. Preload reduction by venodilatation is the prevailing mechanism of nitrates in patients with chronic stable angina and is the unique feature distinguishing them from beta and calcium-channel blockers. Nitrates dilate coronary arteries not only in pre- and poststenotic vessels, but also in eccentric lesions. In patients with endothelial dys",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1576038",
+            "title": "Nitrates.",
+            "authors": [
+              "Kuhn M"
+            ],
+            "journal": "AACN clinical issues in critical care nursing",
+            "year": "1992",
+            "abstract": "Nitrates have been used for the last 130 years to treat and control the symptoms of angina pectoris. Within the last 15 years, nitrates also have been shown to limit infarct size and to be beneficial in the treatment of patients with severe intractable heart failure, cardiogenic shock, severe mitral and aortic regurgitation, hypertensive episodes, and portal hypertension. The adequate use of nitrates to treat these disorders requires the ability to document a hemodynamic response and to closely ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9951954",
+            "title": "Long-acting isosorbide mononitrate.",
+            "authors": [
+              "Prakash A",
+              "Markham A"
+            ],
+            "journal": "Drugs",
+            "year": "1999",
+            "abstract": "Elantan long (EL) is the only long-acting isosorbide mononitrate formulation based on a controlled membrane principle. 30% of the dose is available for immediate release and the remaining 70% is gradually released over time. After oral administration, isosorbide mononitrate EL has a quick onset of action (30 minutes) and effects are evident for up to 17 hours. The antianginal effects of once-daily isosorbide mononitrate EL 50 to 100mg were generally similar to those of conventional isosorbide mo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3925742",
+            "title": "Nitrate tolerance.",
+            "authors": [
+              "Leier C V"
+            ],
+            "journal": "American heart journal",
+            "year": "1985",
+            "abstract": "The nitrate group of drugs is one of the most commonly used therapeutic modalities. The application of the nitrates is generally directed at ameliorating the symptoms of occlusive coronary artery disease (angina) and/or congestive heart failure. Although studies are available that attempt to refute the concept of nitrate-induced tolerance in angina pectoris, well-designed and well-controlled reports are appearing that convincingly establish the occurrence of one or more expressions of tolerance ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3893078",
+            "title": "History of the synthesis and pharmacology of isosorbide dinitrate.",
+            "authors": [
+              "Carr C J"
+            ],
+            "journal": "American heart journal",
+            "year": "1985",
+            "abstract": "A major research program in the University of Maryland School of Medicine, Department of Pharmacology, in the 1930s was the preparation of a large number of sugar alcohols and their anhydrides as substitute carbohydrates for diabetic diets. As an outgrowth of this work, many of these polyols were converted to their nitrate esters and investigated for their vasodilating properties. The organic nitrates that were synthesized were examined for their potency, duration of action, and possible therape",
+            "classification": {
+              "study_type": "Historical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3325229",
+            "title": "Isosorbide-5-mononitrate and isosorbide dinitrate retard in the treatment of coronary heart disease: a multi-centre study.",
+            "authors": [
+              "Bidoggia H"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "1987",
+            "abstract": "A multi-centre study was carried out in 200 coronary patients to compare the efficacy and tolerance of isosorbide dinitrate retard (40 mg) and isosorbide-5-mononitrate (20 mg) with regard to the frequency of anginal attacks and consumption of sub-lingual (short acting) nitrates. After receiving treatment for 2 weeks with isosorbide dinitrate retard at a dosage of 2 or 3 tablets per day, only those patients continued the study who had a weekly average of 4 or more anginal attacks during this basa",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6423015",
+            "title": "Nitroglycerin and isosorbide dinitrate in pulmonary hypertension of chronic obstructive pulmonary disease.",
+            "authors": [
+              "Delaunois L",
+              "Jonard P",
+              "Kremer N",
+              "Dubois P",
+              "Lulling J"
+            ],
+            "journal": "Bulletin europeen de physiopathologie respiratoire",
+            "year": "1984",
+            "abstract": "The effects of sublingual isosorbide dinitrate (ISDN; 10 mg) or nitroglycerin (NTG; 1 mg) on pulmonary hemodynamics, gas exchange and pulmonary function were studied during right heart catheterization in two series of 27 patients with COPD. An immediate significant decrease of pulmonary arterial pressure, cardiac output and work of the right ventricle was obtained with both drugs, but NTG only was able to reduce the pulmonary vascular resistance. Arterial oxygen tension did not decrease, but ven",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30687454",
+            "title": "The Endothelin Receptor Antagonist Macitentan Improves Isosorbide-5-Mononitrate (ISMN) and Isosorbide Dinitrate (ISDN) Induced Endothelial Dysfunction, Oxidative Stress, and Vascular Inflammation.",
+            "authors": [
+              "Steven Sebastian",
+              "Oelze Matthias",
+              "Hausding Michael",
+              "Roohani Siyer",
+              "Kashani Fatemeh"
+            ],
+            "journal": "Oxidative medicine and cellular longevity",
+            "year": "2018",
+            "abstract": "Organic nitrates such as isosorbide-5-mononitrate (ISMN) and isosorbide dinitrate (ISDN) are used for the treatment of patients with chronic symptomatic stable coronary artery disease and chronic congestive heart failure. Limiting side effects of these nitrovasodilators include nitrate tolerance and/or endothelial dysfunction mediated by oxidative stress. Here, we tested the therapeutic effects of the dual endothelin (ET) receptor antagonist macitentan in ISMN- and ISDN-treated animals.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1094819",
+            "title": "Comparative hemodynamic effects of placebo and oral isosorbide dinitrate in patients with significant coronary artery disease.",
+            "authors": [
+              "Kasparian H",
+              "Wiener L",
+              "Duca P R",
+              "Gottlieb R S",
+              "Brest A N"
+            ],
+            "journal": "American heart journal",
+            "year": "1975",
+            "abstract": "Comparative hemodynamic effects of placebo and 10 mg of oral isosorbide dinitrate were studied in patients with significant coronary artery disease (larger than or equal to 75 per cent lumen narrowing) proved angiographically. Isosorbide dinitrate or placebo was given to eight and 10 patients, respectively, in a double-blind fashion. Cardiac performance at rest and during supine leg exercise was evaluated before and 60 minutes after drug administration. In the resting state, isosorbide dinitrate",
+            "classification": {
+              "study_type": "RCT（安慰劑對照）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36219567",
+            "title": "Cilostazol and isosorbide mononitrate for the prevention of progression of cerebral small vessel disease: baseline data and statistical analysis plan for the Lacunar Intervention Trial-2 (LACI-2) (ISRCTN14911850).",
+            "authors": [
+              "Bath Philip M",
+              "Mhlanga Iris",
+              "Woodhouse Lisa J",
+              "Doubal Fergus",
+              "Oatey Katherine"
+            ],
+            "journal": "Stroke and vascular neurology",
+            "year": "2023",
+            "abstract": "Cerebral small vessel disease (SVD) causes lacunar strokes (25% of all ischaemic strokes), physical frailty and cognitive impairment and vascular and mixed dementia. There is no specific treatment to prevent progression of SVD.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "813510",
+            "title": "Comparative effects of nitroglycerin and isosorbide dinitrate on coronary collateral vessels and ischemic myocardium in dogs.",
+            "authors": [
+              "Cohen M V",
+              "Sonnenblick E H",
+              "Kirk E S"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1976",
+            "abstract": "To determine the effect of isosorbide dinitrate or ischemic myocardium, this agent was administered to dogs with well developed coronary collateral vessels 8 to 14 weeks after embolization and subsequent occlusion of the left anterior descending coronary artery. After thoracotomy the left coronary artery was cannulated and perfused with blood from the femoral artery. The distal left anterior descending artery was cannulated to monitor peripheral coronary pressure. Regional contractile force in t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "805037",
+            "title": "Effectiveness of isosorbide dinitrate and nitroglycerin in relieving angina pectoris during uninterrupted exercise.",
+            "authors": [
+              "Kattus A A",
+              "Alvaro A B",
+              "Coulson A"
+            ],
+            "journal": "Chest",
+            "year": "1975",
+            "abstract": "Twenty patients with ischemic heart disease documented by coronary angiograms or ST segment depression in the ECG during treadmill walking, were administered sublingual nitroglycerin 0.3 to 0.6 mg on one occasion and a chewable form of isosorbide dinitrate 5 mg on another occasion during treadmill walking when anginal discomfort was definitely present at a mild degree of intensity. Despite continued walking at a constant speed and grade, angina was relieved in all patients, completely in most pa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7873466",
+            "title": "Clinical pharmacokinetics of nitrates.",
+            "authors": [
+              "Bogaert M G"
+            ],
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "1994",
+            "abstract": "The pharmacokinetics of organic nitrates are discussed with emphasis on the possible clinical relevance. For glyceryl trinitrate, the measurement of plasma concentrations is very difficult. Its pharmacokinetics are unusual, with a very rapid disappearance from plasma, and large intraindividual and interindividual variations. After oral administration, there seems to be a very extensive first-pass hepatic extraction and the plasma concentrations are often below the detection limit; after sublingu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6430767",
+            "title": "Nitrate tolerance.",
+            "authors": [
+              "Parker J O"
+            ],
+            "journal": "Herz",
+            "year": "1984",
+            "abstract": "These studies have shown the following: Tolerance to the hemodynamic and antianginal effects of isosorbide dinitrate. Tolerance develops quickly and can be demonstrated within 24 hours. Tolerance is rapidly reversed and the return of normal responsiveness is seen within 21 hours withdrawal of isosorbide dinitrate. Cross-tolerance occurs between the hemodynamic effects of isosorbide dinitrate and nitroglycerin. When tolerance is present, the next dose of isosorbide dinitrate does exert an effect,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "319662",
+            "title": "Effect of swallowed isosorbide dinitrate on blood pressure, heart rate and exercise capacity in patients with coronary artery disease.",
+            "authors": [
+              "Glancy D L",
+              "Richter M A",
+              "Ellis E V",
+              "Johnson W"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1977",
+            "abstract": "Blood pressures and heart rates were measured with the patients supine and standing after a placebo and small (5 to 10 mg) and large (10 to 30 mg) doses of isosorbide dinitrate were given orally in double-blind fashion to six patients. Compared to the findings after the placebo, the blood pressure level fell and the heart rate increased after the ingestion of isosorbide dinitrate. The changes were more striking with the patients standing than with them supine, and the larger dose of the drug pro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1969017",
+            "title": "Synergistic effect of prostaglandin E1 and isosorbide dinitrate in peripheral vascular disease.",
+            "authors": [
+              "Sinzinger H",
+              "Fitscha P",
+              "O'Grady J",
+              "Rauscha F",
+              "Rogatti W"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1990",
+            "abstract": "Isosorbide dinitrate, which releases nitric oxide in vivo, and prostaglandin E1 synergised in reducing platelet deposition and increasing platelet survival time in patients with peripheral vascular disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29682995",
+            "title": "Efficacy and safety of the combination of isosorbide dinitrate spray and chitosan gel for the treatment of diabetic foot ulcers: A double-blind, randomized, clinical trial.",
+            "authors": [
+              "Totsuka Sutto Sylvia Elena",
+              "Rodríguez Roldan Yunuen Itzet",
+              "Cardona Muñoz Ernesto German",
+              "Garcia Cobian Teresa Arcelia",
+              "Pascoe Gonzalez Sara"
+            ],
+            "journal": "Diabetes & vascular disease research",
+            "year": "2018",
+            "abstract": "To evaluate whether a combination of isosorbide dinitrate spray and chitosan gel (10%) topically applied can have additive benefits for management of diabetic foot ulcers.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8844440",
+            "title": "Magnitude and nature of noncompliance with treatment using isosorbide dinitrate in patients with ischemic heart disease.",
+            "authors": [
+              "Straka R J",
+              "Fish J T",
+              "Benson S R",
+              "Suh J T"
+            ],
+            "journal": "Journal of clinical pharmacology",
+            "year": "1996",
+            "abstract": "Isosorbide dinitrate is one of the most commonly prescribed medications for the treatment of ischemic heart disease. It has been demonstrated to be ineffective relative to placebo when taken inappropriately. This study objectively documents the magnitude and nature of compliance in 68 ambulatory patients who were prescribed isosorbide dinitrate three times a day. Each patient received a 9-week supply of medication in a vial equipped with a computerized monitor (MEMS-4 cap; APREX Corporation, Fre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7369307",
+            "title": "Isosorbide and isorbide dinitrate.",
+            "authors": [
+              "Buckley E G",
+              "Shields M B"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7960261",
+            "title": "Intravenous isosorbide dinitrate inhibits neutrophil aggregation and plasma-mediated stimulation of superoxide anion production.",
+            "authors": [
+              "Siminiak T",
+              "Abramowska A",
+              "Czechowska K",
+              "Prycki P",
+              "Zozulińska D"
+            ],
+            "journal": "International journal of cardiology",
+            "year": "1994",
+            "abstract": "Polymorphonuclear neutrophils are known to be activated during myocardial ischaemia causing release of free oxygen radicals and capillary plugging by cell aggregates and therefore to exacerbate ischaemic myocardial injury. Nitric oxide has been shown to modulate neutrophil activation within the ischaemic myocardium and therefore reduce myocardial injury during ischaemia. Drugs that act as nitric oxide donors may therefore modify neutrophil activation. We evaluated the effect of intravenous treat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ISDN 為 NO 供體，透過 sGC/cGMP 路徑使血管平滑肌舒張，降低前後負荷，改善冠狀動脈灌流；此為 ISDN 核心機轉，與血管疾病機轉直接對應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn": {
+        "score": 0.9996650218963624,
+        "rank": 883
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多毛症（毛髮過度生長）與少毛症在 KG 中同屬「毛髮疾病」節點，但病理方向相反。值得注意的是 Minoxidil 既用於促進頭皮毛髮生長（局部），也有多毛症副作用；此可能導致 TxGNN 在知識圖譜中學習到 NO 供體與毛髮疾病的廣泛關聯，但並不代表有治療潛力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.999643325805664,
+        "rank": 921
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱後側凸型心臟病的主要問題為胸廓限制性通氣障礙導致慢性低氧性肺高壓與右心衰竭。ISDN 理論上可透過降低前負荷減輕右心壓力，但此為高度間接推論，且現有標準治療（氧療、CPAP、肺高壓靶向治療）已涵蓋此機轉。無任何疾病特異性臨床或基礎研究數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "visceral calciphylaxis",
+      "txgnn": {
+        "score": 0.9995638728141784,
+        "rank": 1053
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "內臟型鈣化防禦（血管中膜鈣化）主要發生於終末期腎病患者。雖 ISDN 為血管擴張劑，但此病變為血管壁鈣化結構性改變而非功能性血管痙攣，硝酸鹽療法對鈣磷代謝失調無直接作用。TxGNN 分數可能反映「血管疾病」節點的廣泛關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "venous thoracic outlet syndrome",
+      "txgnn": {
+        "score": 0.9995478987693788,
+        "rank": 1077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "靜脈型胸廓出口症候群的病因為鎖骨下靜脈受解剖結構壓迫（第一肋骨/鎖骨），為機械性梗阻問題，治療以手術減壓為主。ISDN 擴張靜脈的藥理作用對解剖性靜脈壓迫無緩解效益，甚至可能因靜脈擴張加重充血症狀。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "alopecia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "congenital hypotrichosis milia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "hypotrichosis simplex of the scalp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "diffuse alopecia areata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 49,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "visceral calciphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "visceral calciphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "visceral calciphylaxis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "venous thoracic outlet syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "venous thoracic outlet syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Isosorbide dinitrate",
+        "disease": "venous thoracic outlet syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

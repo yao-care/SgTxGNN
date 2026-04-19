@@ -1,0 +1,305 @@
+# Hydroquinone (DB09526) 藥物再利用證據分析
+
+## 分析前提說明
+
+> **⚠️ 重要背景**：Hydroquinone 在台灣資料庫標記為「未上市」，但全球多市場（美國 Rx 4%/OTC 2%、歐盟處方）已核准用於黑斑/黃褐斑（melasma）。本分析 MoA 以**酪氨酸酶抑制 → 黑色素生成阻斷**為核心，評估各預測適應症之再利用潛力與其相關性。
+
+---
+
+```json
+{
+  "drug_summary": {
+    "drug_name": "Hydroquinone",
+    "drugbank_id": "DB09526",
+    "established_moa": "酪氨酸酶 (tyrosinase) 競爭性抑制劑，阻斷 L-DOPA → 黑色素轉化；同時抑制 DOPA 氧化酶、降解黑色素體，具輕度抗氧化活性",
+    "core_safety_flags": [
+      "外源性褐黃病 (exogenous ochronosis)：長期高濃度外用風險",
+      "接觸性皮膚炎：致敏性",
+      "孕期安全性 Category C：胎兒風險未完全排除",
+      "動物研究高劑量腎毒性/潛在致癌疑慮（臨床外用劑量下風險低）"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "seborrheic keratosis",
+      "txgnn_score": 0.9973,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "SK 為角質細胞增生性良性腫瘤，主要病因為 FGFR3/PIK3CA 突變驅動的角質細胞過度增殖，並非黑色素合成異常。HQ 酪氨酸酶抑制機轉無法解決增生本質，但可能改善 SK 表面色素沉著的外觀（美觀輔助用途）。機轉相關性弱，臨床意義有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33046430",
+          "study_type": "Prospective Observational",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "探討臉部色素異常的組合治療算法，SK 因含色素成分被納入廣義色素疾病光譜討論，HQ 被提及為色素管理選項，但非針對 SK 角質增生本體的治療研究"
+        },
+        {
+          "pmid": "17373158",
+          "study_type": "Review / Case Series",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "探討 Dermatosis Papulosa Nigra（DPN，表型與色素型 SK 高度相似）的治療選項，間接涉及 HQ 用於色素改善，但 DPN ≠ SK，外推性有限"
+        }
+      ],
+      "evidence_gaps": "缺乏任何 SK 專屬臨床試驗；現有文獻均為色素疾病廣義綜述，無直接 SK + HQ 介入研究"
+    },
+    {
+      "disease_name": "vulvar inverted follicular keratosis",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見外陰部良性毛囊上皮腫瘤，病因為局部角質細胞鱗狀旋渦狀增生（可能與慢性刺激或 HPV 相關），與黑色素生成路徑完全無關。HQ 無任何合理作用機轉。TxGNN 高分預測可能源於知識圖譜中皮膚角化病變節點的圖譜距離，而非直接生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": "零文獻、零試驗；疾病極度罕見，無任何再利用研究起點"
+    },
+    {
+      "disease_name": "exanthem (disease)",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ 疾病本體論映射疑義（Critical Flag）：傳統定義的「Exanthem」為病毒性/藥物性全身性皮疹，與 HQ 機轉不符（L5）。然而所列 6 項試驗均針對黑斑/黃褐斑（melasma）或雷射後色素沉著，提示資料庫中 exanthem 可能涵蓋色素性皮膚疹此一廣義分類。若為後者，HQ 酪氨酸酶抑制機轉具直接相關性（L2~L3）。建議優先確認疾病編碼來源（ICD/SNOMED 映射）後重新評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05969587",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "B",
+          "reasoning": "最高設計等級：Phase 3 RCT，直接比較 Cysteamine vs 4% HQ 治療黃褐斑（melasma）。若 exanthem 包含色素性皮疹則為 A 級相關；疾病標靶為 melasma，非傳統 exanthem，故降為 B"
+        },
+        {
+          "nct_id": "NCT00616239",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 20,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 RCT（n=20），水楊酸換膚合併 4% HQ vs 單用 HQ 治療色素沉著（推測為黃褐斑）；提供直接 HQ 療效對照數據，但樣本量小"
+        },
+        {
+          "nct_id": "NCT00669071",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 56,
+          "relevance_grade": "C",
+          "reasoning": "Phase 4（n=56），Tri-Luma + IPL 序貫治療黃褐斑；因提前終止，數據完整性受損，可信度大幅下降，不應作為主要支持證據"
+        },
+        {
+          "nct_id": "NCT02138539",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "C",
+          "reasoning": "Phase 4（n=28），草本去色素系統安全性/療效評估，HQ 作為主動對照組；提供間接 HQ 基準線數據，非主要研究對象"
+        },
+        {
+          "nct_id": "NCT02977507",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 18,
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，Split-face 美容比較研究（n=18）；無明確疾病診斷標準，美容級設計，循證醫學價值低"
+        },
+        {
+          "nct_id": "NCT05493280",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 15,
+          "relevance_grade": "C",
+          "reasoning": "Phase NA（n=15），量化 1927nm 雷射後 Fitzpatrick V-VI 型膚色色素反應；為雷射醫美研究，非色素性疾病治療研究"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "36791447",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "孕期常見皮膚狀況綜述，涵蓋妊娠黃褐斑（一種色素性皮疹），間接支持 HQ 在色素性皮膚病的應用；但孕期 HQ 安全性存疑（Category C），使用需特別謹慎"
+        }
+      ],
+      "evidence_gaps": "需釐清 exanthem 的疾病本體論定義；若指傳統病毒性皮疹則無任何相關證據；若指色素性皮疹，則有 Phase 3 RCT 支持，但樣本量均偏小（最大 n=56 且已終止）"
+    },
+    {
+      "disease_name": "lichen disease",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "扁平苔癬（Lichen Planus）為 CD8+ T 細胞介導的自體免疫性皮膚黏膜病變，常伴隨炎症後色素沉著（PIH）。HQ 可透過酪氨酸酶抑制減少 PIH 的新增色素，但對苔癬本體（免疫病理）無治療效果，屬症狀輔助而非疾病修飾。適用範疇侷限於色素管理，非根本治療。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35151757",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "色素性皮膚病系統性綜述（Part I），明確討論苔癬類疾病之色素成分及 HQ 在 PIH 色素管理中的定位，為目前最相關的背景文獻"
+        },
+        {
+          "pmid": "41531723",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "LPP inversus 個案對 tacrolimus 有效，文中提及 HQ 為曾嘗試選項（具體療效未詳述），非直接 HQ 療效個案報告"
+        }
+      ],
+      "evidence_gaps": "無 lichen disease 專屬 HQ 臨床試驗；現有文獻為廣義色素疾病討論，尚需個案報告系列或 Phase 2 試驗支持"
+    },
+    {
+      "disease_name": "seborrheic dermatitis",
+      "txgnn_score": 0.9860,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脂漏性皮膚炎以 Malassezia 酵母菌過度增生、皮脂腺功能異常及先天免疫失調為主要病因，與黑色素生成路徑無直接關聯。HQ 缺乏抗真菌、抗炎或皮脂腺調控機轉，無法解決 SD 的核心病理。TxGNN 高分預測可能源於 SD 有時伴隨色素不均的圖譜節點相近性，而非直接生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": "零文獻、零試驗；無再利用生物學假說基礎，不建議投入研究資源"
+    },
+    {
+      "disease_name": "vulvar squamous neoplasm",
+      "txgnn_score": 0.9858,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰鱗狀腫瘤（VIN/VSCC）以 HPV 整合、p53 突變及鱗狀上皮細胞惡性轉化為主要分子病理。HQ 非抗腫瘤藥物，缺乏抗增殖或免疫調節機轉。⚠️ 安全疑慮：動物研究顯示高劑量 HQ 有腎毒性，部分研究提示潛在腫瘤促進疑慮（儘管臨床外用劑量風險低）。無任何支持性臨床依據，腫瘤適應症須格外謹慎。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": "零文獻、零試驗；腫瘤適應症缺乏合理機轉，且存在潛在安全疑慮，列為 Hold"
+    },
+    {
+      "disease_name": "annular atrophic lichen planus",
+      "txgnn_score": 0.9855,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "環狀萎縮性扁平苔癬為 T 細胞介導之自體免疫病變，以表皮萎縮及基底膜帶破壞為特徵。HQ 缺乏免疫調節或抗纖維化機轉，無法影響疾病核心病理。此亞型極為罕見，無任何 HQ 相關研究依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": "零文獻、零試驗；罕見疾病 + 無機轉假說，再利用研究優先級極低"
+    },
+    {
+      "disease_name": "hypertrophic lichen planus",
+      "txgnn_score": 0.9855,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肥厚性扁平苔癬以慢性苔蘚化增生（角質細胞過度增殖）及持續性炎症浸潤為特徵。雖可能伴隨局部色素沉著，但主要病程非黑色素合成異常。HQ 缺乏抗炎或抗纖維化機轉，無法解決角質增生與炎症的核心病理，色素改善效益亦有限（已沉積的噬黑素細胞色素難以清除）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": "零臨床試驗；L5 等級純預測，需先建立機轉假說"
+    },
+    {
+      "disease_name": "lichen planus pigmentosus",
+      "txgnn_score": 0.9855,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "LPP 以基底層黑色素細胞破壞後的噬黑素細胞（melanophage）色素沉積為特徵，理論上 HQ 酪氨酸酶抑制可減少新增黑色素合成。然而：(1) 已沉積的噬黑素細胞色素對 HQ 的反應極差；(2) 文獻顯示療效不一甚至無效（PMID 34567907）；(3) ⚠️ 長期使用 HQ 本身可引起外源性褐黃病（exogenous ochronosis），其色素沉積形態與 LPP 高度相似，形成診斷/治療的惡性循環（PMID 38954615）。風險效益比需謹慎評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35151757",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "色素性皮膚病系統性綜述，明確討論 LPP 病理機轉及 HQ 在治療嘗試中的定位，提供臨床背景依據"
+        },
+        {
+          "pmid": "34567907",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "A",
+          "reasoning": "⚠️ 關鍵負面證據：LPP-inversus 個案對 clobetasol 丙酸酯及 HQ 治療均無反應（unresponsive），直接否定 HQ 在此 LPP 亞型的療效，為本適應症最相關的直接證據"
+        },
+        {
+          "pmid": "38954615",
+          "study_type": "Case Report / Differential Diagnosis",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "⚠️ 安全警示：討論 HQ 誘發外源性褐黃病 vs LPP 的鑑別診斷困境；長期 HQ 使用本身可造成類 LPP 色素沉著，形成治療-不良反應的混淆，為重要安全性文獻"
+        },
+        {
+          "pmid": "21860153",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "印度視角之臉部黑色素病綜述，LPP 在南亞族群高發，文中涵蓋 HQ 作為治療嘗試的臨床背景，提供流行病學與療效背景"
+        },
+        {
+          "pmid": "41531723",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "LPP inversus 對 tacrolimus 有效，提示 T 細胞/免疫調節路徑可能較 HQ 色素抑制更具療效，間接指向替代治療方向"
+        },
+        {
+          "pmid": "36741605",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "線狀 LPP 個案對 isotretinoin 有效，提示維 A 酸路徑可能參與 LPP 色素調控，但未使用 HQ，間接降低 HQ 的優先性"
+        },
+        {
+          "pmid": "32566956",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "Riehl 黑素沉著症與臉部色素疾病鑑別診斷個案，HQ 使用史作為重要診斷線索，支持 HQ 在色素病診斷評估中的重要性"
+        }
+      ],
+      "evidence_gaps": "缺乏 LPP 專屬 RCT；7 篇文獻均為案例/綜述，且唯一直接提及 HQ 的個案（PMID 34567907）顯示療效不佳；需前瞻性設計以確認適用 LPP 亞型及最佳療程"
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "慢性萎縮性肢端皮炎為 Borrelia burgdorferi 晚期萊姆病皮膚表現，病理為螺旋體持續感染引起的真皮纖維化及萎縮，與黑色素生成路徑完全無關。HQ 無抗螺旋體或抗纖維化活性。TxGNN 預測可能源於皮膚科疾病圖譜節點的拓撲距離，無任何生物學意義，不具再利用研究價值。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": "零文獻、零試驗；無任何機轉假說基礎"
+    }
+  ]
+}
+```
+
+---
+
+## 決策矩陣總覽
+
+| 疾病名稱 | TxGNN Score | 證據等級 | 決策階段 | 建議 | 核心依據 |
+|---|---|---|---|---|---|
+| **exanthem (disease)** | 0.9942 | **L3** | **S2** | Research Question | 6 項試驗（含 Phase 3/4），但存在疾病映射疑義 |
+| **lichen planus pigmentosus** | 0.9855 | **L3** | **S1** | Research Question | 7 篇文獻；負面個案 + ochronosis 安全疑慮 |
+| **seborrheic keratosis** | 0.9973 | L4 | S1 | Research Question | 2 篇間接文獻；機轉相關性弱 |
+| **lichen disease** | 0.9907 | L4 | S1 | Research Question | 2 篇間接文獻；僅輔助 PIH 管理 |
+| **seborrheic dermatitis** | 0.9860 | L5 | S0 | **Hold** | 無任何機轉連結或臨床依據 |
+| **vulvar squamous neoplasm** | 0.9858 | L5 | S0 | **Hold** | 無依據 + 潛在腫瘤安全疑慮 |
+| **annular atrophic lichen planus** | 0.9855 | L5 | S0 | **Hold** | 罕見病 + 零證據 |
+| **hypertrophic lichen planus** | 0.9855 | L5 | S0 | **Hold** | 主病理為增生炎症，非色素異常 |
+| **vulvar inverted follicular keratosis** | 0.9964 | L5 | S0 | **Hold** | 極罕見 + 零證據 + 無機轉 |
+| **acrodermatitis chronica atrophicans** | 0.9848 | L5 | S0 | **Hold** | 萊姆病相關，機轉完全不符 |
+
+---
+
+## 關鍵分析洞察
+
+### 🔴 高優先警示
+1. **疾病本體論映射問題**：`exanthem (disease)` 的 6 項試驗實際均為 **melasma/色素沉著** 試驗，建議審查 ICD/SNOMED 疾病編碼映射邏輯，可能存在系統性分類偏差
+2. **Ochronosis 風險**：HQ 在 LPP 的應用具有「治療加重診斷困境」的特殊安全疑慮（PMID 38954615）
+
+### 🟡 機轉適配性評估
+- **有合理機轉（色素異常疾病）**：Exanthem（若為色素性）、LPP、Lichen Disease、SK → 均有黑色素路徑關聯
+- **機轉不符（非色素性疾病）**：SD（真菌/皮脂）、ACA（感染/纖維化）、Squamous Neoplasm（腫瘤）→ 建議移除研究優先清單
+
+### 🟢 研究機會建議
+- **最優先**：確認 `exanthem` 疾病編碼 → 若確認為 melasma，可升至 **L2/S3**
+- **次優先**：LPP 亞型分層研究（初發 vs 已建立色素），排除 ochronosis 風險族群

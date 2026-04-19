@@ -1,0 +1,2080 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11363-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alectinib",
+    "drugbank_id": "DB11363",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "fibromatosis, gingival",
+      "txgnn": {
+        "score": 0.9996509552001952,
+        "rank": 908
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "牙齦纖維瘤病主要由 SOS1/HMGA2 基因突變或遺傳因素驅動，無已知 ALK 過表達或融合證據。TxGNN 高分可能反映知識圖譜中「纖維增生」類節點與 Alectinib 的間接關聯，而非直接機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "fibroma of lung",
+      "txgnn": {
+        "score": 0.9995954632759094,
+        "rank": 1004
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "孤立性纖維性腫瘤（SFT）偶見 ALK 表達，但肺部纖維瘤多為良性，臨床上不需要系統性激酶抑制治療。無任何支持性臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "hamartoma of lung",
+      "txgnn": {
+        "score": 0.9995720982551576,
+        "rank": 1035
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺錯構瘤為良性發育異常，涉及間葉組織成分（軟骨、脂肪、肌肉），無已知 ALK 通路參與。預測可能源於知識圖譜中肺部病灶節點的結構相似性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "lung hilum carcinoma",
+      "txgnn": {
+        "score": 0.9995520710945128,
+        "rank": 1065
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32054410",
+            "title": "Life-threatening hypertriglyceridemia-induced pancreatitis related to alectinib successfully treated by plasmapheresis: A review of the literature on metabolic toxicities associated with anaplastic lymphoma kinase inhibitors.",
+            "authors": [
+              "Rao Arundati",
+              "Reddy Aswanth",
+              "Dinunno Corey",
+              "Elali Ibrahim"
+            ],
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2020",
+            "abstract": "Actionable mutations are tested as standard of care for all new metastatic non-small cell lung cancers. Tumors harboring an anaplastic lymphoma kinase mutation respond to tyrosine kinase inhibitors targeting anaplastic lymphoma kinase pathway. Patients are monitored for common adverse effects, although we occasionally encounter unexpected side effects.",
+            "classification": {
+              "study_type": "Case Report / Adverse Event",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺門癌若含 ALK 陽性 NSCLC 成分，理論上對 Alectinib 敏感。然而唯一文獻為不良事件報告（高三酸甘油酯血症引發胰臟炎），非療效研究，無法支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "lung benign neoplasm",
+      "txgnn": {
+        "score": 0.9995498061180116,
+        "rank": 1073
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38598794",
+            "title": "Alectinib in Resected ALK-Positive Non-Small-Cell Lung Cancer.",
+            "authors": [
+              "Wu Yi-Long",
+              "Dziadziuszko Rafal",
+              "Ahn Jin Seok",
+              "Barlesi Fabrice",
+              "Nishio Makoto"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2024",
+            "abstract": "Platinum-based chemotherapy is the recommended adjuvant treatment for patients with resectable, ALK-positive non-small-cell lung cancer (NSCLC). Data on the efficacy and safety of adjuvant alectinib as compared with chemotherapy in patients with resected ALK-positive NSCLC are lacking.",
+            "classification": {
+              "study_type": "Phase 3 RCT（ALECTOS 輔助治療試驗）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28586279",
+            "title": "Alectinib versus Crizotinib in Untreated ALK-Positive Non-Small-Cell Lung Cancer.",
+            "authors": [
+              "Peters Solange",
+              "Camidge D Ross",
+              "Shaw Alice T",
+              "Gadgeel Shirish",
+              "Ahn Jin S"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2017",
+            "abstract": "Alectinib, a highly selective inhibitor of anaplastic lymphoma kinase (ALK), has shown systemic and central nervous system (CNS) efficacy in the treatment of ALK-positive non-small-cell lung cancer (NSCLC). We investigated alectinib as compared with crizotinib in patients with previously untreated, advanced ALK-positive NSCLC, including those with asymptomatic CNS disease.",
+            "classification": {
+              "study_type": "Phase 3 RCT（ALEX 試驗）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32418886",
+            "title": "Updated overall survival and final progression-free survival data for patients with treatment-naive advanced ALK-positive non-small-cell lung cancer in the ALEX study.",
+            "authors": [
+              "Mok T",
+              "Camidge D R",
+              "Gadgeel S M",
+              "Rosell R",
+              "Dziadziuszko R"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2020",
+            "abstract": "The ALEX study demonstrated significantly improved progression-free survival (PFS) with alectinib versus crizotinib in treatment-naive ALK-positive non-small-cell lung cancer (NSCLC) at the primary data cut-off (9 February 2017). We report mature PFS (cut-off: 30 November 2018) and overall survival (OS) data up to 5 years (cut-off: 29 November 2019).",
+            "classification": {
+              "study_type": "Phase 3 RCT 延伸隨訪",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30902613",
+            "title": "Updated Efficacy and Safety Data and Impact of the EML4-ALK Fusion Variant on the Efficacy of Alectinib in Untreated ALK-Positive Advanced Non-Small Cell Lung Cancer in the Global Phase III ALEX Study.",
+            "authors": [
+              "Camidge D Ross",
+              "Dziadziuszko Rafal",
+              "Peters Solange",
+              "Mok Tony",
+              "Noe Johannes"
+            ],
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2019",
+            "abstract": "At the prior data cutoff (February 9, 2017) the ALEX trial showed superior investigator-assessed progression-free survival (PFS) for alectinib versus crizotinib in untreated, anaplastic lymphoma kinase (ALK)-positive, advanced NSCLC (hazard ratio = 0.47, 95% confidence interval: 0.34-0.65, p < 0.001). The median PFS in the alectinib arm was not reached versus 11.1 months with crizotinib. Retrospective analyses suggest that the echinoderm microtubule-associated protein-like 4 gene-ALK variant (EM",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30069772",
+            "title": "Alectinib.",
+            "authors": [
+              "Herden M",
+              "Waller Cornelius F"
+            ],
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "year": "2018",
+            "abstract": "Alectinib is an ATP-competitive small molecule and a second-generation inhibitor of ALK. EML4-ALK rearrangement is found in 3-5% of patients with NSCLC. The first-generation inhibitor crizotinib has changed the treatment dramatically, though most of the patients show disease progression within one year. Extra-thoracic progress, i.e., CNS metastases is common. The second-generation inhibitor alectinib has shown significant improvement in PFS and a remarkable prolongation of time to CNS progressio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37530142",
+            "title": "Safety and efficacy of alectinib versus crizotinib in alk-positive non-small cell lung cancer: An update meta-analysis.",
+            "authors": [
+              "Xiong Rui",
+              "Fu Haitan",
+              "Zhang Qianrui",
+              "Li Wei"
+            ],
+            "journal": "Pakistan journal of pharmaceutical sciences",
+            "year": "2023",
+            "abstract": "Our study aimed to evaluate the efficacy and toxicity of alectinib compared with crizotinib and provide a reference for clinical use of ALK-TKI, systematically. We searched articles published update till October, 2021 based on the electronic databases, including PubMed, EMBASE and Cochrane Library. All trials analyzed the summary odds ratios (ORs) of the interesting outcomes. Three RCTs, including six studies were included. The pooled hazard ratio (HR) =0.33 (95%CI=0.21-0.51, P<0.00001) shown th",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28501140",
+            "title": "Alectinib versus crizotinib in patients with ALK-positive non-small-cell lung cancer (J-ALEX): an open-label, randomised phase 3 trial.",
+            "authors": [
+              "Hida Toyoaki",
+              "Nokihara Hiroshi",
+              "Kondo Masashi",
+              "Kim Young Hak",
+              "Azuma Koichi"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2017",
+            "abstract": "Alectinib, a potent, highly selective, CNS-active inhibitor of anaplastic lymphoma kinase (ALK), showed promising efficacy and tolerability in the single-arm phase 1/2 AF-001JP trial in Japanese patients with ALK-positive non-small-cell lung cancer. Given those promising results, we did a phase 3 trial to directly compare the efficacy and safety of alectinib and crizotinib.",
+            "classification": {
+              "study_type": "Phase 3 RCT（J-ALEX 日本試驗）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38331773",
+            "title": "Identifying optimal ALK inhibitors in first- and second-line treatment of patients with advanced ALK-positive non-small-cell lung cancer: a systematic review and network meta-analysis.",
+            "authors": [
+              "Zhao Mingye",
+              "Shao Taihang",
+              "Shao Hanqiao",
+              "Zhou Caicun",
+              "Tang Wenxi"
+            ],
+            "journal": "BMC cancer",
+            "year": "2024",
+            "abstract": "To compare the efficacy, safety and effects on quality of life of different ALK-inhibitors for global and Asian patients with advanced ALK-positive non-small-cell lung cancer (NSCLC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39232917",
+            "title": "Comparative Efficacy and Safety of Lorlatinib Versus Alectinib and Lorlatinib Versus Brigatinib for ALK-Positive Advanced/Metastatic NSCLC: Matching-Adjusted Indirect Comparisons.",
+            "authors": [
+              "Garcia Christine",
+              "Abrahami Devin",
+              "Polli Anna",
+              "Chu Haitao",
+              "Chandler Conor"
+            ],
+            "journal": "Clinical lung cancer",
+            "year": "2024",
+            "abstract": "The comparative efficacy and safety of lorlatinib, a third-generation anaplastic lymphoma kinase (ALK) tyrosine kinase inhibitor (TKI), versus second-generation ALK TKIs as a first-line treatment for ALK+ advanced/metastatic nonsmall cell lung cancer (NSCLC) remains uncertain as there are no head-to-head clinical trials.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37574132",
+            "title": "Brigatinib Versus Alectinib in ALK-Positive NSCLC After Disease Progression on Crizotinib: Results of Phase 3 ALTA-3 Trial.",
+            "authors": [
+              "Yang James Chih-Hsin",
+              "Liu Geoffrey",
+              "Lu Shun",
+              "He Jianxing",
+              "Burotto Mauricio"
+            ],
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2023",
+            "abstract": "This open-label, phase 3 trial (ALTA-3; NCT03596866) compared efficacy and safety of brigatinib versus alectinib for ALK+ NSCLC after disease progression on crizotinib.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30981696",
+            "title": "Alectinib versus crizotinib in untreated Asian patients with anaplastic lymphoma kinase-positive non-small-cell lung cancer (ALESIA): a randomised phase 3 study.",
+            "authors": [
+              "Zhou Caicun",
+              "Kim Sang-We",
+              "Reungwetwattana Thanyanan",
+              "Zhou Jianying",
+              "Zhang Yiping"
+            ],
+            "journal": "The Lancet. Respiratory medicine",
+            "year": "2019",
+            "abstract": "Anaplastic lymphoma kinase-positive (ALK-positive) disease occurs in approximately 5% of all patients with non-small-cell lung cancer, with a similar incidence reported in Asian patients. This study is the first phase 3 randomised trial recruiting only Asian patients to compare alectinib with crizotinib as a first-line treatment for ALK-positive non-small-cell lung cancer with 600 mg of alectinib twice per day. This study assessed consistency of the progression-free survival benefit with the glo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39047224",
+            "title": "Tyrosine Kinase Inhibitors With and Without Up-Front Stereotactic Radiosurgery for Brain Metastases From EGFR and ALK Oncogene-Driven Non-Small Cell Lung Cancer (TURBO-NSCLC).",
+            "authors": [
+              "Pike Luke R G",
+              "Miao Emily",
+              "Boe Lillian A",
+              "Patil Tejas",
+              "Imber Brandon S"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2024",
+            "abstract": "Newer-generation tyrosine kinase inhibitors (TKIs) for non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) mutations and anaplastic lymphoma kinase (ALK) rearrangements have demonstrated high CNS activity. The optimal use of up-front stereotactic radiosurgery (SRS) for brain metastases (BM) in patients eligible for CNS-penetrant TKIs is controversial, and data to guide patient management are limited.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35843080",
+            "title": "Final overall survival analysis from the phase III J-ALEX study of alectinib versus crizotinib in ALK inhibitor-naïve Japanese patients with ALK-positive non-small-cell lung cancer.",
+            "authors": [
+              "Hotta K",
+              "Hida T",
+              "Nokihara H",
+              "Morise M",
+              "Kim Y H"
+            ],
+            "journal": "ESMO open",
+            "year": "2022",
+            "abstract": "Mature progression-free survival (PFS) data from the phase III J-ALEX study showed superiority for alectinib versus crizotinib [hazard ratio (HR) 0.37, 95% confidence interval (CI) 0.26-0.52; median PFS 34.1 versus 10.2 months, respectively] in advanced ALK (anaplastic lymphoma kinase)-positive non-small-cell lung cancer (NSCLC). Overall survival (OS) data were immature (HR 0.80, 99.8799% CI 0.35-1.82) at the time of data cut-off (30 June 2018). We report final OS data after ≥5 years of follow-u",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41110693",
+            "title": "Alectinib versus crizotinib in previously untreated ALK-positive advanced non-small cell lung cancer: final overall survival analysis of the phase III ALEX study.",
+            "authors": [
+              "Peters S",
+              "Camidge R",
+              "Dziadziuszko R",
+              "Gadgeel S",
+              "Shaw A T"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2026",
+            "abstract": "ALEX, a global, randomized, phase III trial evaluated alectinib versus crizotinib in patients with advanced ALK-positive non-small cell lung cancer (NSCLC). This final analysis provides mature overall survival (OS), duration of response (DOR) and long-term safety data.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39197358",
+            "title": "Real-world treatment sequencing and effectiveness of second- and third-generation ALK tyrosine kinase inhibitors for ALK-positive advanced non-small cell lung cancer.",
+            "authors": [
+              "Bauman Jessica R",
+              "Liu Geoffrey",
+              "Preeshagul Isabel",
+              "Liu Stephen V",
+              "Melosky Barbara"
+            ],
+            "journal": "Lung cancer (Amsterdam, Netherlands)",
+            "year": "2024",
+            "abstract": "With multiple targeted therapies approved for anaplastic lymphoma kinase (ALK)-positive metastatic non-small cell lung cancer (NSCLC), it is increasingly important to understand outcomes with various sequences of next-generation ALK tyrosine kinase inhibitors (TKIs). We describe contemporary sequencing patterns and treatment effectiveness of first-line (1L) and second-line (2L) treatments in patients who received second-generation ALK TKIs in the 1L treatment of ALK-positive NSCLC in the United ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30069773",
+            "title": "Osimertinib.",
+            "authors": [
+              "Malapelle Umberto",
+              "Ricciuti Biagio",
+              "Baglivo Sara",
+              "Pepe Francesco",
+              "Pisapia Pasquale"
+            ],
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "year": "2018",
+            "abstract": "Epidermal growth factor receptor (EGFR)-mutated (exons 18-21) advanced non-small cell lung cancers (NSCLCs) are generally characterized by exquisite sensitivity to treatment with an EGFR-tyrosine kinase inhibitor (-TKI). First-generation or reversible EGFR-TKIs include gefitinib and erlotinib, while, more recently, second-generation or irreversible EGFR-TKIs have been developed, namely afatinib and dacomitinib, with the aim of overcoming/delaying acquired resistance to treatment. Nevertheless, c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40222406",
+            "title": "First-Line Alectinib, Brigatinib, and Lorlatinib for Advanced Anaplastic Lymphoma Kinase-Positive Non-Small Cell Lung Cancer: A Cost-Effectiveness Analysis.",
+            "authors": [
+              "Mudumba Rahul",
+              "Nieva Jorge J",
+              "Padula William V"
+            ],
+            "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+            "year": "2025",
+            "abstract": "To evaluate the cost-effectiveness of alectinib, brigatinib, and lorlatinib as first-line therapies for anaplastic lymphoma kinase-positive advanced non-small cell lung cancer from a US healthcare sector perspective.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32471570",
+            "title": "In Reply.",
+            "authors": [
+              "Arai Sachiko",
+              "Yano Seiji"
+            ],
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35608148",
+            "title": "Indirect comparisons of brigatinib and alectinib for front-line ALK-positive non-small-cell lung cancer.",
+            "authors": [
+              "Reckamp Karen L",
+              "Lin Huamao M",
+              "Cranmer Holly",
+              "Wu Yanyu",
+              "Zhang Pingkuan"
+            ],
+            "journal": "Future oncology (London, England)",
+            "year": "2022",
+            "abstract": "Aim: To conduct an indirect treatment comparison (ITC) of the relative efficacy of brigatinib and alectinib for progression-free survival in people with tyrosine kinase inhibitor (TKI)-naive ALK-positive non-small-cell lung cancer (NSCLC). Methods: Final aggregate and patient-level data from the ALTA-1L trial comparing brigatinib to crizotinib and published aggregate data from ALEX (comparing alectinib to crizotinib) were contrasted using Bucher ITC and matching-adjusted indirect comparisons (MA",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40168046",
+            "title": "MET and NF2 alterations confer primary and early resistance to first-line alectinib treatment in ALK-positive non-small-cell lung cancer.",
+            "authors": [
+              "Hu Jie",
+              "Ding Ning",
+              "Xu Xiaobo",
+              "Chen Yedan",
+              "Zhang Yong"
+            ],
+            "journal": "Molecular oncology",
+            "year": "2025",
+            "abstract": "Although first-line alectinib has prolonged survival in ALK-mutated non-small-cell lung cancers (NSCLCs), the response to treatment varies among patients, and the primary/early development of alectinib resistance mechanisms is still not fully understood. Here, we analyzed molecular profiles of 108 alectinib-treated patients (first-line and second-line after crizotinib) with confirmed relapse by targeted sequencing of cancer-related genes. After first-line treatment, off-target MET and NF2 altera",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 資料庫映射問題：20 篇文獻全數為 ALK 陽性 NSCLC（惡性）的 Phase 3 RCT 及系統性回顧，與「肺部良性腫瘤」無關。這些文獻代表 Alectinib 的已批准適應症，不應被解讀為良性腫瘤的新適應症證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "lung germ cell tumor",
+      "txgnn": {
+        "score": 0.99954754114151,
+        "rank": 1081
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04644315",
+            "title": "A Phase II, Open-Label, Single Arm Decentralized Home-Based Approach Study to Evaluate the Efficacy and Safety of Alectinib in Locally-Advanced or Metastatic ALK-Positive Solid Tumors",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 1,
+            "start_date": "2021-05-24",
+            "completion_date": "2022-05-16",
+            "brief_summary": "This study will evaluate the efficacy and safety of alectinib in participants with Anaplastic Lymphoma Kinase (ALK)-positive locally advanced or metastatic solid tumors other than lung cancer.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗提前終止且僅入組 1 例，無法提供有效療效或安全性數據，對此適應症支持力度極低"
+            }
+          },
+          {
+            "nct_id": "NCT05770037",
+            "title": "DETERMINE (Determining Extended Therapeutic Indications for Existing Drugs in Rare Molecularly Defined Indications Using a National Evaluation Platform Trial): An Umbrella-Basket Platform Trial to Evaluate the Efficacy of Targeted Therapies in Rare Adult, Paediatric and Teenage/Young Adult (TYA) Cancers With Actionable Genomic Alterations, Including Common Cancers With Rare Actionable Alterations. Treatment Arm 01: Alectinib in Adult, Paediatric and Teenage/Young Adult Patients With ALK Positive Cancers",
+            "phase": "PHASE2, PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2023-12-18",
+            "completion_date": "2029-10",
+            "brief_summary": "This clinical trial is looking at a drug called alectinib. Alectinib is approved as standard of care treatment for adult patients with certain types of lung cancer. This means it has gone through clinical trials and been approved by the Medicines and Healthcare products Regulatory Agency (MHRA) in the UK. Alectinib works in lung cancer patients with a particular mutation in their cancer known as ALK.\n\nInvestigators now wish to find out if it will be useful in treating patients with other cancer ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "正在招募中的 Phase 2/3 試驗，針對稀有分子定義疾病的籃式設計，可能涵蓋 ALK+ 神經內分泌腫瘤。計畫入組 30 例，設計合理，但仍在招募階段，尚無結果"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37031440",
+            "title": "[Alectinib and mixed large cell neuroendocrine carcinoma of the lung.].",
+            "authors": [
+              "Hegedűs Fanni",
+              "Sükösd Farkas",
+              "Tiszlavicz László",
+              "Furák József",
+              "Pálföldi Regina"
+            ],
+            "journal": "Orvosi hetilap",
+            "year": "2023",
+            "abstract": "The treatment of mixed large cell neuroendocrine carcinoma is less studied due to its low incidence. However, the presence of anaplastic lymphoma kinase (ALK) fusion gene is rare in such tumours, ALK inhibitors may represent a promising therapeutic option instead of cytostatic therapy. Routine chest X-ray and then computed tomography (CT) examination revealed a pulmonary tumour in a 52-year-old asymptomatic woman. The neoplasm was removed by lobectomy. Histological examination confirmed papillar",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37362864",
+            "title": "Revealing the roles of TLR7, a nucleic acid sensor for COVID-19 in pan-cancer.",
+            "authors": [
+              "Huang Zhijian",
+              "Gao Yaoxin",
+              "Han Yuanyuan",
+              "Yang Jingwen",
+              "Yang Can"
+            ],
+            "journal": "Biosafety and health",
+            "year": "2023",
+            "abstract": "Recent studies suggested that cancer was a risk factor for coronavirus disease 2019 (COVID-19). Toll-like receptor 7 (TLR7), a severe acute respiratory syndrome 2 (SARS-CoV-2) virus's nucleic acid sensor, was discovered to be aberrantly expressed in many types of cancers. However, its expression pattern across cancers and association with COVID-19 (or its causing virus SARS-CoV-2) has not been systematically studied. In this study, we proposed a computational framework to comprehensively study t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37561984",
+            "title": "Anaplastic Lymphoma Kinase Inhibitors for Therapy of Neuroblastoma in Adults.",
+            "authors": [
+              "Stiefel Jessica",
+              "Kushner Brian H",
+              "Roberts Stephen S",
+              "Iglesias-Cardenas Fiorella",
+              "Kramer Kim"
+            ],
+            "journal": "JCO precision oncology",
+            "year": "2023",
+            "abstract": "Adult-onset neuroblastoma (AON) differs significantly in biology and clinical behavior from childhood-onset disease. AON poses therapeutic challenges since tolerance of intensive multimodality therapies that are standard of care for pediatric neuroblastoma (NB) is poor. AON is enriched for somatic mutations including anaplastic lymphoma kinase (ALK), deemed to be an oncogenic driver in NB. ALK inhibitors (ALKis), therefore, have the potential to be of therapeutic benefit. The purpose of this stu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36690569",
+            "title": "Anaplastic Lymphoma Kinase (ALK) Positive Neuroendocrine Tumor of Lung With Favorable Response to Alectinib (ALK Inhibitor).",
+            "authors": [
+              "Ghimire Bipin",
+              "Pokharel Ashbita",
+              "Karki Ujjwal",
+              "Thapa Shrinjaya",
+              "Chisti Mohammad Muhsin"
+            ],
+            "journal": "Clinical lung cancer",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35200571",
+            "title": "A Case of ALK-Rearranged Combined Lung Adenocarcinoma and Neuroendocrine Carcinoma with Diffuse Bone Metastasis and Partial Response to Alectinib.",
+            "authors": [
+              "Lim Chloe A",
+              "Banyi Norbert",
+              "Tucker Tracy",
+              "Ionescu Diana N",
+              "Melosky Barbara"
+            ],
+            "journal": "Current oncology (Toronto, Ont.)",
+            "year": "2022",
+            "abstract": "We report a rare case of stage IV pulmonary combined large-cell neuroendocrine carcinoma (LCNEC) and adenocarcinoma (ACA), both demonstrating anaplastic lymphoma kinase (ALK) rearrangement by IHC and FISH. This 61-year-old lifelong nonsmoking Asian woman presented with a cough, and after diagnosis and surgical treatment, completed four cycles of adjuvant cisplatin and etoposide chemotherapy. She subsequently developed recurrence with bony metastases of exclusively ALK-positive LCNEC. Alectinib w",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34994612",
+            "title": "Metastatic Large-Cell Neuroendocrine Lung Carcinoma With ALK Fusion Oncogene With Partial Response to Alectinib.",
+            "authors": [
+              "Leblanc Andréanne",
+              "Owen Scott",
+              "Fiset Pierre Olivier",
+              "Gomez Corrador Andrea Liliam",
+              "Isenberg Jordan"
+            ],
+            "journal": "JCO precision oncology",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29912274",
+            "title": "Selective RET kinase inhibition for patients with RET-altered cancers.",
+            "authors": [
+              "Subbiah V",
+              "Velcheti V",
+              "Tuch B B",
+              "Ebata K",
+              "Busaidy N L"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2018",
+            "abstract": "Alterations involving the RET kinase are implicated in the pathogenesis of lung, thyroid and other cancers. However, the clinical activity of multikinase inhibitors (MKIs) with anti-RET activity in RET-altered patients appears limited, calling into question the therapeutic potential of targeting RET. LOXO-292 is a selective RET inhibitor designed to inhibit diverse RET fusions, activating mutations and acquired resistance mutations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31559892",
+            "title": "A case of primary pulmonary atypical carcinoid with EML4-ALK rearrangement.",
+            "authors": [
+              "Liu Na",
+              "Wang Jingjing",
+              "Fu Xiao",
+              "Zheng Xiaoqiang",
+              "Gao Huan"
+            ],
+            "journal": "Cancer biology & therapy",
+            "year": "2020",
+            "abstract": "Targeted therapy has revolutionized the treatment pattern of advanced drive gene mutation positive non-small cell lung cancer (NSCLC). Advanced testing techniques enable physicians to detect these gene alterations in the clinic, thereby offering targeted therapies as treatment options to their patients. In this article, we reported a 52-year-old Chinese female with a pulmonary nodule in her left lower lung. After thoracoscopic lobectomy, a histopathological diagnosis of moderately differentiated",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26568289",
+            "title": "Discovery of Inhibitors That Overcome the G1202R Anaplastic Lymphoma Kinase Resistance Mutation.",
+            "authors": [
+              "Hatcher John M",
+              "Bahcall Magda",
+              "Choi Hwan Geun",
+              "Gao Yang",
+              "Sim Taebo"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "2015",
+            "abstract": "The treatment of patients with advanced non-small-cell lung cancer harboring chromosomal rearrangements of anaplastic lymphoma kinase (ALK) has been revolutionized by the development of crizotinib, a small-molecule inhibitor of ALK, ROS1, and MET. However, resistance to crizotinib inevitably develops through a variety of mechanisms, leading to relapse both systemically and in the central nervous system (CNS). This has motivated the development of \"second-generation\" ALK inhibitors, including ale",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39667359",
+            "title": "Dramatic Response to Ensartinib in Metastatic Neuroendocrine Tumors With a Novel CEP44-ALK Fusion: A Case Report and Literature Review.",
+            "authors": [
+              "Chen Haiyang",
+              "Wu Yingxi",
+              "Wu Xuan",
+              "Wang Kai",
+              "Xia Qingxin"
+            ],
+            "journal": "The clinical respiratory journal",
+            "year": "2024",
+            "abstract": "Neuroendocrine tumor (NET) is a deadly malignancy disease that can be found anywhere in the body. The lack of tumor-specific treatment led to the worse prognosis of NET. Anaplastic lymphoma kinase-tyrosine kinase inhibitors (ALK-TKIs), such as alectinib and crizotinib, have been used in the treatment of NET patients with ALK rearrangement. However, the response to ensatinib in NET patients with rare ALK fusion has been rarely reported. Here, we report a 55-year-old Chinese female patient with NE",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25733882",
+            "title": "PF-06463922 is a potent and selective next-generation ROS1/ALK inhibitor capable of blocking crizotinib-resistant ROS1 mutations.",
+            "authors": [
+              "Zou Helen Y",
+              "Li Qiuhua",
+              "Engstrom Lars D",
+              "West Melissa",
+              "Appleman Vicky"
+            ],
+            "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+            "year": "2015",
+            "abstract": "Oncogenic c-ros oncogene1 (ROS1) fusion kinases have been identified in a variety of human cancers and are attractive targets for cancer therapy. The MET/ALK/ROS1 inhibitor crizotinib (Xalkori, PF-02341066) has demonstrated promising clinical activity in ROS1 fusion-positive non-small cell lung cancer. However, emerging clinical evidence has shown that patients can develop resistance by acquiring secondary point mutations in ROS1 kinase. In this study we characterized the ROS1 activity of PF-064",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29151522",
+            "title": "Large Cell Neuroendocrine Carcinoma Harboring an Anaplastic Lymphoma Kinase (ALK) Rearrangement with Response to Alectinib.",
+            "authors": [
+              "Hayashi Nobuyoshi",
+              "Fujita Akihisa",
+              "Saikai Toyohiro",
+              "Takabatake Hirotugu",
+              "Sotoshiro Mie"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2018",
+            "abstract": "Anaplastic lymphoma kinase (ALK) rearrangement is most commonly observed in lung adenocarcinoma in a subset of lung cancer. Large cell neuroendocrine carcinoma (LCNEC) harboring an ALK rearrangement is very rare. Based on the findings from a transbronchial lung biopsy, a 75-year-old non-smoking woman was diagnosed with LCNEC with multiple liver and bone metastases. After seven cycles of cytotoxic chemotherapy, her genotype testing demonstrated ALK rearrangement. Subsequently, she was administere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31650892",
+            "title": "A Novel ALK Fusion in Pediatric Medullary Thyroid Carcinoma.",
+            "authors": [
+              "Hillier Kirsty",
+              "Hughes Amy",
+              "Shamberger Robert C",
+              "Shusterman Suzanne",
+              "Perez-Atayde Antonio R"
+            ],
+            "journal": "Thyroid : official journal of the American Thyroid Association",
+            "year": "2019",
+            "abstract": "Medullary thyroid carcinoma (MTC) is most commonly associated with RET gene mutations. ALK fusions have rarely been described, although not previously in pediatrics and not previously partnered with CCDC6 in MTC or any other cancer. A 10-year-old boy with progressive stridor was found to have metastatic MTC, including lung, lymph node, and adrenal metastases. Baseline calcitonin was 6703 pg/mL. While molecular testing was pending, he was treated empirically with the investigational selective RET",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30591488",
+            "title": "Use of ALK Immunohistochemistry for Optimal Therapeutic Strategy of Pulmonary Large-cell Neuroendocrine Carcinoma and Identification of a Novel KIF5B-ALK Fusion Oncokinase.",
+            "authors": [
+              "Shimizu Naoki",
+              "Akashi Yusaku",
+              "Fujii Tomomi",
+              "Shiono Hiroyuki",
+              "Yane Katsunari"
+            ],
+            "journal": "Anticancer research",
+            "year": "2019",
+            "abstract": "Patients with adenocarcinoma of the lung are routinely screened for anaplastic lymphoma kinase (ALK) rearrangement because they can be treated by ALK-specific targeted therapy. The clinical and molecular characteristics of large-cell neuroendocrine carcinoma (LCNEC) associated with ALK rearrangement are still unclear. Herein, we assessed the ALK status in a series of patients with LCNEC by testing methods commonly used for adenocarcinoma.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36965191",
+            "title": "Significant response to targeted treatment with alectinib for intramedullary pediatric spinal high-grade glioma with ALK fusion.",
+            "authors": [
+              "Ringel Amit",
+              "Elhasid Ronit",
+              "Constantini Shlomi",
+              "Roth Jonathan",
+              "Dvir Rina"
+            ],
+            "journal": "Pediatric blood & cancer",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34371380",
+            "title": "Sustained response to brigatinib in a patient with refractory metastatic pheochromocytoma harboring R1192P anaplastic lymphoma kinase mutation: a case report from the Austrian Group Medical Tumor Therapy next-generation sequencing registry and discussion of the literature.",
+            "authors": [
+              "Heregger R",
+              "Huemer F",
+              "Hutarew G",
+              "Hecht S",
+              "Cheveresan L"
+            ],
+            "journal": "ESMO open",
+            "year": "2021",
+            "abstract": "Metastatic pheochromocytoma and paraganglioma (PPGL) are rare diseases with dismal prognosis and standard therapies are lacking. We herein report the first case of a germline anaplastic lymphoma kinase (ALK) mutation in a patient with chemorefractory metastatic pheochromocytoma in the absence of mutations of known PPGL-associated predisposing genes. Therapy with the ALK inhibitor (ALKi) brigatinib led to dramatic and durable disease remission, despite previous disease progression on the ALKi ale",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 分類說明：文獻實際描述的是 ALK 融合陽性肺部神經內分泌腫瘤（NEC/類癌），而非真正的「生殖細胞腫瘤」（Germ Cell Tumor）。機轉連結明確：EML4-ALK 等融合基因可見於肺部神經內分泌腫瘤亞型，Alectinib 透過抑制 ALK 激酶活性可能抑制此類腫瘤細胞增殖。多篇個案報告顯示 ALK+ 肺神經內分泌腫瘤對 Alectinib 有客觀緩解反應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pulmonary sulcus neoplasm",
+      "txgnn": {
+        "score": 0.99954754114151,
+        "rank": 1082
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺溝瘤（Pancoast 瘤）若為 ALK+ NSCLC，理論上可用 Alectinib，但此適應症應歸屬已批准的 ALK+ NSCLC 範疇，不構成新再利用適應症。無針對此解剖位置的特定臨床研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+      "txgnn": {
+        "score": 0.9995253086090088,
+        "rank": 1115
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33155531",
+            "title": "Identification and characterization of novel RdRp and Nsp15 inhibitors for SARS-COV2 using computational approach.",
+            "authors": [
+              "Barage Sagar",
+              "Karthic A",
+              "Bavi Rohit",
+              "Desai Neetin",
+              "Kumar Raj"
+            ],
+            "journal": "Journal of biomolecular structure & dynamics",
+            "year": "2022",
+            "abstract": "The World Health Organization has declared COVID-19 as a global health emergency. COVID-19 is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and highlights an urgent need for therapeutics. Here, we have employed a series of computer-aided drug repurposing campaign to discover inhibitors of RNA dependent RNA polymerase (RdRp) and Nsp15/EndoU. Subsequently, MD simulation has been performed to observe dynamic behavior of identified leads at the active site of RdRp and Nsp15.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37362864",
+            "title": "Revealing the roles of TLR7, a nucleic acid sensor for COVID-19 in pan-cancer.",
+            "authors": [
+              "Huang Zhijian",
+              "Gao Yaoxin",
+              "Han Yuanyuan",
+              "Yang Jingwen",
+              "Yang Can"
+            ],
+            "journal": "Biosafety and health",
+            "year": "2023",
+            "abstract": "Recent studies suggested that cancer was a risk factor for coronavirus disease 2019 (COVID-19). Toll-like receptor 7 (TLR7), a severe acute respiratory syndrome 2 (SARS-CoV-2) virus's nucleic acid sensor, was discovered to be aberrantly expressed in many types of cancers. However, its expression pattern across cancers and association with COVID-19 (or its causing virus SARS-CoV-2) has not been systematically studied. In this study, we proposed a computational framework to comprehensively study t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34836510",
+            "title": "Comparative efficacy and safety of first-line treatments for advanced non-small cell lung cancer with ALK-rearranged: a meta-analysis of clinical trials.",
+            "authors": [
+              "Ma Hao-Chuan",
+              "Liu Yi-Hong",
+              "Ding Kai-Lin",
+              "Liu Yu-Feng",
+              "Zhao Wen-Jie"
+            ],
+            "journal": "BMC cancer",
+            "year": "2021",
+            "abstract": "Whereas there are many pharmacological interventions prescribed for patients with advanced anaplastic lymphoma kinase (ALK)- rearranged non-small cell lung cancer (NSCLC), comparative data between novel generation ALK-tyrosine kinase inhibitors (TKIs) remain scant. Here, we indirectly compared the efficacy and safety of first-line systemic therapeutic options used for the treatment of ALK-rearranged NSCLC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33304973",
+            "title": "Alectinib-associated drug reaction with eosinophilia and systemic symptoms syndrome.",
+            "authors": [
+              "Farooq Sahira",
+              "Narala Saisindhu",
+              "Pacha Omar"
+            ],
+            "journal": "JAAD case reports",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report / Adverse Event",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37001858",
+            "title": "Analysis of Serious Weight Gain in Patients Using Alectinib for ALK-Positive Lung Cancer.",
+            "authors": [
+              "de Leeuw Simon P",
+              "Pruis Melinda A",
+              "Sikkema Barend J",
+              "Mohseni Mostafa",
+              "Veerman G D Marijn"
+            ],
+            "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+            "year": "2023",
+            "abstract": "Alectinib is a standard-of-care treatment for metastatic ALK+ NSCLC. Weight gain is an unexplored side effect reported in approximately 10%. To prevent or intervene alectinib-induced weight gain, more insight in its extent and etiology is needed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34275979",
+            "title": "Dramatic Response to Alectinib in a Critically Ill Elderly Patient with Lung Adenocarcinoma Due to Trousseau Syndrome and Disseminated Intravascular Coagulation.",
+            "authors": [
+              "Hamada Noboru",
+              "Tada Yusaku",
+              "Hisamatsu Kazuya",
+              "Yamamoto Yukichika",
+              "Yamano Takafumi"
+            ],
+            "journal": "Internal medicine (Tokyo, Japan)",
+            "year": "2022",
+            "abstract": "Lung cancer complicated with Trousseau syndrome (TS) or disseminated intravascular coagulation (DIC) has a severe prognosis. We herein report an elderly lung cancer patient who presented with a critically ill condition due to concomitant TS and DIC and responded dramatically to alectinib. There are no rules regarding treatment indications based on the age or severity of critically ill patients. If the patient's cancer cells are positive for anaplastic lymphoma kinase rearrangement, alectinib is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33414136",
+            "title": "Molecular Characterization and Therapeutic Targeting of Colorectal Cancers Harboring Receptor Tyrosine Kinase Fusions.",
+            "authors": [
+              "Singh Harshabad",
+              "Li Yvonne Y",
+              "Spurr Liam F",
+              "Shinagare Atul B",
+              "Abhyankar Ritika"
+            ],
+            "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "year": "2021",
+            "abstract": "Receptor tyrosine kinase fusions in colorectal cancers are rare, but potentially therapeutically relevant. We describe clinical, molecular, and pathologic attributes of RTK fusion-associated colorectal cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28101031",
+            "title": "Alectinib-Induced Erythema Multiforme and Successful Rechallenge with Alectinib in a Patient with Anaplastic Lymphoma Kinase-Rearranged Lung Cancer.",
+            "authors": [
+              "Kimura Tatsuo",
+              "Sowa-Osako Junko",
+              "Nakai Toshiyuki",
+              "Ohyama Ayako",
+              "Kawaguchi Tomoya"
+            ],
+            "journal": "Case reports in oncology",
+            "year": "2016",
+            "abstract": "Alectinib is an oral drug developed for the treatment of patients with fusion gene encoding echinoderm microtubule-associated protein-like 4-anaplastic lymphoma kinase (EML4-ALK)-rearranged non-small cell lung cancer (NSCLC). Here, we present the case of a patient treated with alectinib who developed a hypersensitivity reaction with successful rechallenge treatment.",
+            "classification": {
+              "study_type": "Case Report / Adverse Event",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34339711",
+            "title": "Role of the parental NF1 carrier in effects of pharmacological inhibition of anaplastic lymphoma kinase in Neurofibromatosis 1 mutant mice.",
+            "authors": [
+              "Krenik Destine",
+              "Weiss Joseph B",
+              "Raber Jacob"
+            ],
+            "journal": "Brain research",
+            "year": "2021",
+            "abstract": "Neurofibromatosis type 1 (NF1), a genetically determined neurodevelopmental disorder and tumor syndrome, is associated with cognitive impairments, including in executive function and sleep-related problems. Consistent with the human data, NF1 heterozygous (Het) mice show impaired spatial learning and memory in the water maze and extinction of contextual fear memory. It is not clear whether neurological phenotypes might depend on the parental carrier. In this study, we compared the behavioral and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34038226",
+            "title": "Alectinib continuation during COVID 19 'antiviral' treatment: Risk or benefit?",
+            "authors": [
+              "Akkus Mehmet Hadi",
+              "Kaman Omur",
+              "Dogan Mutlu"
+            ],
+            "journal": "Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners",
+            "year": "2021",
+            "abstract": "Serious Acute Respiratory Syndrome Coronavirus 2 (SARSCoV2) has led to COVID 19 pandemic a year ago and it has not been globally taken under control yet. COVID 19 tends to have poorer prognosis in cancer patients. Additionally, we have no well-established guidelines for management of these patients during pandemic, in terms of treatment of 'cancer' and treatment of 'COVID 19'. Tyrosine kinase inhibitors (TKIs) are given without any break in cancer patients to have better survival outcomes in dai",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28243683",
+            "title": "Effect of alectinib on cardiac electrophysiology: results from intensive electrocardiogram monitoring from the pivotal phase II NP28761 and NP28673 studies.",
+            "authors": [
+              "Morcos Peter N",
+              "Bogman Katrijn",
+              "Hubeaux Stanislas",
+              "Sturm-Pellanda Carolina",
+              "Ruf Thorsten"
+            ],
+            "journal": "Cancer chemotherapy and pharmacology",
+            "year": "2017",
+            "abstract": "Alectinib, a central nervous system (CNS)-active ALK inhibitor, has demonstrated efficacy and safety in ALK+ non-small-cell lung cancer that has progressed following crizotinib treatment. Other ALK inhibitors have shown concentration-dependent QTc prolongation and treatment-related bradycardia. Therefore, this analysis evaluated alectinib safety in terms of electrophysiologic parameters.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38344203",
+            "title": "Effective treatment of advanced lung adenocarcinoma with paraneoplastic leukemoid reaction with Lorlatinib: a case report.",
+            "authors": [
+              "Niu Ruiqi",
+              "Zhang Yiruo",
+              "Pang Jingdan",
+              "Zhou Qing",
+              "Lei Yu"
+            ],
+            "journal": "Frontiers in oncology",
+            "year": "2024",
+            "abstract": "Lorlatinib is a new generation ALK kinase inhibitor. We describe a 52-year-old patient with ALK-positive advanced lung adenocarcinoma who achieved remission after multi-line therapy combined with paraneoplastic leukemoid reaction treated with Lorlatinib.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34987411",
+            "title": "Fatal Tumour Lysis Syndrome Induced by Brigatinib in a Lung Adenocarcinoma Patient Treated With Sequential ALK Inhibitors: A Case Report.",
+            "authors": [
+              "Wang Yadong",
+              "Wang Tiange",
+              "Xue Jianchao",
+              "Jia Ziqi",
+              "Liu Xinyu"
+            ],
+            "journal": "Frontiers in pharmacology",
+            "year": "2021",
+            "abstract": "Tumour lysis syndrome (TLS) represents a group of fatal metabolic derangements resulting from the rapid breakdown of tumour cells. TLS typically occurs soon after the administration of chemotherapy in haematologic malignancies but is rarely observed in solid tumours. Here, we report a case of brigatinib-induced TLS after treatment with sequential anaplastic lymphoma kinase (ALK) inhibitors in a patient with advanced ALK-rearranged lung adenocarcinoma. The patient was treated sequentially with cr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34763318",
+            "title": "A Case of Lung Adenocarcinoma Response to Alectinib Harboring a Rare EML4-ALK Variant, Exon 6 of EML4 Fused to Exon 18 of ALK.",
+            "authors": [
+              "Liu Lirong",
+              "Hou Fangfang",
+              "Liu Yufeng",
+              "Li Wenzhu",
+              "Zhang Haibo"
+            ],
+            "journal": "Journal of the National Comprehensive Cancer Network : JNCCN",
+            "year": "2021",
+            "abstract": "More than 20 types of ALK fusion variant subtypes have been identified, including different fusion partner genes or EML4-ALK fusions with different breakpoints. However, different ALK fusions show different sensitivities to ALK-tyrosine kinase inhibitors (ALK-TKIs) and the emergence of rare fusions brings great challenges to the target therapy in clinic. We report a rare EML4-ALK (E6;A18) fusion in a patient with lung adenocarcinoma that responded well to alectinib. This is the second case of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40881885",
+            "title": "Case Report: Ocular metastasis from ALK-rearranged pulmonary adenocarcinoma presenting as a pseudo-syndrome of anterior uveitis.",
+            "authors": [
+              "Zhao Cong",
+              "Chen Jiaqi",
+              "Liu Hongji",
+              "Dai Yan"
+            ],
+            "journal": "Frontiers in oncology",
+            "year": "2025",
+            "abstract": "Lung cancer is the second most common primary site for intraocular metastatic tumors, with the most frequent metastatic site being the choroid. However, cases of intraocular metastasis of lung cancer presenting as anterior uveitis or secondary glaucoma are rare and often misdiagnosed. Here, we report a case of a lung adenocarcinoma stage IV patient, who presented with anterior uveitis as the initial symptom without respiratory symptoms. After 28 months of follow-up, the patient received targeted",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28629962",
+            "title": "Pharmacological inhibition of Anaplastic Lymphoma Kinase rescues spatial memory impairments in Neurofibromatosis 1 mutant mice.",
+            "authors": [
+              "Weiss Joseph B",
+              "Weber Sydney",
+              "Marzulla Tessa",
+              "Raber Jacob"
+            ],
+            "journal": "Behavioural brain research",
+            "year": "2017",
+            "abstract": "Heterozygous Neurofibromatosis 1 (NF1) loss of function mutations are found in 90% of patients with neurofibromatosis, a syndrome associated with disabling cognitive impairment. Drosophila studies have demonstrated a genetic interaction between Anaplastic Lymphoma Kinase (Alk) and NF1 in cognitive performance. In addition, pharmacologic inhibition of Alk improves cognitive performance in heterozygous NF1 mutant flies. In this study, we tested whether pharmacological inhibition of Alk in heterozy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此罕見遺傳綜合征無已知 ALK 通路機轉連結。檢視文獻發現，相關論文實為 Alectinib 引發的皮膚不良反應（DRESS 症候群、多形性紅斑），與此疾病在表型上有表面相似性（皮膚色素異常），導致錯誤映射。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "txgnn": {
+        "score": 0.9995239973068236,
+        "rank": 1119
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26595641",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Bang Jee",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2015",
+            "abstract": "Frontotemporal dementia is an umbrella clinical term that encompasses a group of neurodegenerative diseases characterised by progressive deficits in behaviour, executive function, or language. Frontotemporal dementia is a common type of dementia, particularly in patients younger than 65 years. The disease can mimic many psychiatric disorders because of the prominent behavioural features. Various underlying neuropathological entities lead to the frontotemporal dementia clinical phenotype, all of ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35182511",
+            "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations.",
+            "authors": [
+              "Boeve Bradley F",
+              "Boxer Adam L",
+              "Kumfor Fiona",
+              "Pijnenburg Yolande",
+              "Rohrer Jonathan D"
+            ],
+            "journal": "The Lancet. Neurology",
+            "year": "2022",
+            "abstract": "Frontotemporal dementia comprises a group of clinical syndromes that are characterised by progressive changes in behaviour, executive function, or language. The term frontotemporal lobar degeneration encompasses the neurodegenerative diseases that give rise to these clinical syndromes and involve proteinopathies associated with frontotemporal network dysfunction. Improvements in clinical, genetic, and molecular characterisation have provided new insights into frontotemporal dementia and frontote",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28410663",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Olney Nicholas T",
+              "Spina Salvatore",
+              "Miller Bruce L"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2017",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous disorder with distinct clinical phenotypes associated with multiple neuropathologic entities. Presently, the term FTD encompasses clinical disorders that include changes in behavior, language, executive control, and often motor symptoms. The core FTD spectrum disorders include behavioral variant FTD, nonfluent/agrammatic variant primary progressive aphasia, and semantic variant PPA. Related FTD disorders include frontotemporal dementia with motor ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34747778",
+            "title": "Frontotemporal Dementia - Current Concepts.",
+            "authors": [
+              "Puppala Goutham Kumar",
+              "Gorthi Shankar Prasad",
+              "Chandran Vijay",
+              "Gundabolu Gautham"
+            ],
+            "journal": "Neurology India",
+            "year": "2021",
+            "abstract": "Frontotemporal dementia (FTD) is an entity that includes a group of neurodegenerative disease with symptoms predominantly pertaining to deficits in behavior, executive function (or) language. FTD is one of the most common type of dementia before 65 years of age and is one of the most underdiagnosed dementia as most often the symptoms overlap with psychiatric manifestations. Based on the clinical features, FTD is further subdivided into behavioral variant FTD (Bv-FTD) and primary progressive deme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39620838",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Clark David Glenn"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2024",
+            "abstract": "This article discusses frontotemporal dementia (FTD) syndromes using a simplified framework of three core syndromes, including details on their pathology and unique genetic variations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32439025",
+            "title": "Frontotemporal Dementia: Neuropathology, Genetics, Neuroimaging, and Treatments.",
+            "authors": [
+              "Younes Kyan",
+              "Miller Bruce L"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2020",
+            "abstract": "Frontotemporal dementia (FTD) encompasses a group of clinical syndromes, including behavioral variant FTD, nonfluent variant primary progressive aphasia, semantic variant primary progressive aphasia, FTD motor neuron disease, progressive supranuclear palsy syndrome, and corticobasal syndrome. Early on in its course, FTD is commonly seen in psychiatric clinics. In this article the authors review the neuroimaging, pathology, genetics, and therapeutic interventions for FTD spectrum disorders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21810890",
+            "title": "Sensitivity of revised diagnostic criteria for the behavioural variant of frontotemporal dementia.",
+            "authors": [
+              "Rascovsky Katya",
+              "Hodges John R",
+              "Knopman David",
+              "Mendez Mario F",
+              "Kramer Joel H"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2011",
+            "abstract": "Based on the recent literature and collective experience, an international consortium developed revised guidelines for the diagnosis of behavioural variant frontotemporal dementia. The validation process retrospectively reviewed clinical records and compared the sensitivity of proposed and earlier criteria in a multi-site sample of patients with pathologically verified frontotemporal lobar degeneration. According to the revised criteria, 'possible' behavioural variant frontotemporal dementia req",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35678399",
+            "title": "Behavioral Variant Frontotemporal Dementia.",
+            "authors": [
+              "Boeve Bradley F"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2022",
+            "abstract": "This article reviews many of the complex facets of behavioral variant frontotemporal dementia (bvFTD) and frontotemporal lobar degeneration (FTLD). A particular focus is on improving diagnostic accuracy to reduce the arduous diagnostic odyssey that so many patients and families endure. Strategies to promote diagnostic accuracy and approach the management of problematic symptoms are also discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38687620",
+            "title": "Frontotemporal dementia: from genetics to therapeutic approaches.",
+            "authors": [
+              "Buccellato Francesca R",
+              "D'Anca Marianna",
+              "Tartaglia Gianluca Martino",
+              "Del Fabbro Massimo",
+              "Galimberti Daniela"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2024",
+            "abstract": "Frontotemporal dementia (FTD) includes a group of neurodegenerative diseases characterized clinically by behavioral disturbances and by neurodegeneration of brain anterior temporal and frontal lobes, leading to atrophy. Apart from symptomatic treatments, there is, at present, no disease-modifying cure for FTD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35039149",
+            "title": "Progranulin as a therapeutic target in neurodegenerative diseases.",
+            "authors": [
+              "Rhinn Herve",
+              "Tatton Nadine",
+              "McCaughey Stella",
+              "Kurnellas Michael",
+              "Rosenthal Arnon"
+            ],
+            "journal": "Trends in pharmacological sciences",
+            "year": "2022",
+            "abstract": "Progranulin (PGRN, encoded by the GRN gene) plays a key role in the development, survival, function, and maintenance of neurons and microglia in the mammalian brain. It regulates lysosomal biogenesis, inflammation, repair, stress response, and aging. GRN loss-of-function mutations cause neuronal ceroid lipofuscinosis or frontotemporal dementia-GRN (FTD-GRN) in a gene dosage-dependent manner. Mutations that reduce PGRN levels increase the risk for developing Alzheimer's disease, Parkinson's disea",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38802173",
+            "title": "Amyotrophic lateral sclerosis; clinical features, differential diagnosis and pathology.",
+            "authors": [
+              "Van Es Michael A"
+            ],
+            "journal": "International review of neurobiology",
+            "year": "2024",
+            "abstract": "Amyotrophic lateral sclerosis (ALS) is a late-onset syndrome characterized by the progressive degeneration of both upper motor neurons (UMN) and lower motor neurons (LMN). ALS forms a clinical continuum with frontotemporal dementia (FTD), in which there are progressive language deficits or behavioral changes. The genetics and pathology underlying both ALS and FTD overlap as well, with cytoplasmatic misvocalization of TDP-43 as the hallmark. ALS is diagnosed by exclusion. Over the years several d",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31753137",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Devenney Emma M",
+              "Ahmed Rebekah M",
+              "Hodges John R"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "abstract": "Frontotemporal dementia (FTD) is the second commonest cause of young onset dementia. Our understanding of FTD and its related syndromes has advanced significantly in recent years. Among the most prominent areas of progress is the overlap between FTD, MND, and other neurodegenerative conditions at a clinicopathologic and genetic level. In parallel major advances in neuroimaging techniques, the discovery of new genetic mutations as well as the development of potential biomarkers may serve to furth",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31727221",
+            "title": "Frontotemporal dementia.",
+            "authors": [
+              "Miller Bruce",
+              "Llibre Guerra Jorge J"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2019",
+            "abstract": "Recent research reveals an overlap between frontotemporal dementia (FTD) and a variety of primary psychiatric disorders, challenging the artificial divisions between psychiatry and neurology. This chapter offers an overview of the clinical syndromes associated with FTD while describing links between these syndromes and neuroimaging. This is followed by a review of the neuropathology and genetic changes in the brain. We will illustrate the syndromic overlap that exists between FTD and several pri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27042904",
+            "title": "Frontotemporal Dementias.",
+            "authors": [
+              "Finger Elizabeth C"
+            ],
+            "journal": "Continuum (Minneapolis, Minn.)",
+            "year": "2016",
+            "abstract": "This article reviews the common behavioral and cognitive features of frontotemporal dementia (FTD) and related disorders as well as the distinguishing clinical, genetic, and pathologic features of the most common subtypes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28330541",
+            "title": "[Frontotemporal dementia].",
+            "authors": [
+              "Johannsen Peter",
+              "Gottrup Hanne",
+              "Stokholm Jette"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "2017",
+            "abstract": "Frontotemporal dementia (FTD) refers to the clinical syndromes caused by various neurodegenerative diseases in the frontal and temporal lobes. Advances in the knowledge and understanding of these diseases have resulted in changes in the clinical as well as the genetic and pathological classification. This is a short review of the current classification and understanding of FTD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25998110",
+            "title": "The frontotemporal dementias.",
+            "authors": [
+              "Waldö Maria Landqvist"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "2015",
+            "abstract": "Frontotemporal dementia (FTD) is a heterogeneous group of hereditary and sporadic neurodegenerative disorders affecting frontotemporal areas. FTD, a leading cause of young-onset dementia, is often initially mistaken for primary psychiatric disorders. Based on early and predominant symptoms, different clinical syndromes can be distinguished: the behavioral variant and 2 variants of progressive aphasia; semantic dementia and progressive nonfluent aphasia. Neuropathological classification is based ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26613998",
+            "title": "Frontotemporal Dementia.",
+            "authors": [
+              "Kelley Roger E",
+              "El-Khoury Ramy"
+            ],
+            "journal": "Neurologic clinics",
+            "year": "2016",
+            "abstract": "Frontotemporal dementia (FTD) is a not-uncommon explanation for progressive cognitive deficit in patients who often have a genetic susceptibility for such a neurodegenerative process. However, FTD does not seem to identify one particular pathogenetic mechanism but rather a spectrum of pathologies with particular predilection for the frontal and temporal lobes of the brain. There have been various subcategorizations of this form of dementia that have a tendency to be of earlier onset than typical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34389969",
+            "title": "Neuroimaging in Frontotemporal Dementia: Heterogeneity and Relationships with Underlying Neuropathology.",
+            "authors": [
+              "Peet Bradley T",
+              "Spina Salvatore",
+              "Mundada Nidhi",
+              "La Joie Renaud"
+            ],
+            "journal": "Neurotherapeutics : the journal of the American Society for Experimental NeuroTherapeutics",
+            "year": "2021",
+            "abstract": "Frontotemporal dementia encompasses a group of clinical syndromes defined pathologically by degeneration of the frontal and temporal lobes. Historically, these syndromes have been challenging to diagnose, with an average of about three years between the time of symptom onset and the initial evaluation and diagnosis. Research in the field of neuroimaging has revealed numerous biomarkers of the various frontotemporal dementia syndromes, which has provided clinicians with a method of narrowing the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23611342",
+            "title": "Frontotemporal dementia and psychiatry.",
+            "authors": [
+              "Onyike Chiadi U",
+              "Huey Edward D"
+            ],
+            "journal": "International review of psychiatry (Abingdon, England)",
+            "year": "2013",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33575835",
+            "title": "[Criminal behavior in frontotemporal dementia and Alzheimer's disease].",
+            "authors": [
+              "Haußmann R",
+              "Krug C",
+              "Noppes F",
+              "Brandt M",
+              "Lange J"
+            ],
+            "journal": "Der Nervenarzt",
+            "year": "2022",
+            "abstract": "Criminal behavior in older people represents a rare phenomenon. Among older criminals there are many first offenders and 75% are men. Dementia poses one possible origin of delinquency in advanced age. It is unclear how often dementia is the actual cause of delinquency in older age. In studies with older criminals the prevalence of dementia was heterogeneous due to methodological study issues. In the course of the disease 50% of patients with frontotemporal dementia and 10% of patients with Alzhe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IBMPFD（現稱 Multisystem Proteinopathy-1）由 VCP（p97）基因突變驅動，影響蛋白質降解通路，與 ALK 信號無已知交集。20 篇文獻均為額顳葉失智症（FTD）的一般性綜述，無任何 Alectinib 療效研究，為純疾病背景文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "junctional epidermolysis bullosa",
+      "txgnn": {
+        "score": 0.999510645866394,
+        "rank": 1131
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "接合型大皰性表皮鬆解症由 LAMA3/LAMB3/LAMC2（Laminin-332）或 COL17A1/ITGA6/ITGB4 基因突變引發，影響皮膚基底膜錨定結構，與 ALK 信號通路無已知關聯。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "fibromatosis, gingival"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "fibroma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "fibroma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "fibroma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "hamartoma of lung"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung hilum carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung benign neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung benign neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung benign neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung germ cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung germ cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "lung germ cell tumor"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "pulmonary sulcus neoplasm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alectinib",
+        "disease": "junctional epidermolysis bullosa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

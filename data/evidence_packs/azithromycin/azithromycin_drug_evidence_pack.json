@@ -1,0 +1,1044 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00207-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Azithromycin",
+    "drugbank_id": "DB00207",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hyperamylasemia",
+      "txgnn": {
+        "score": 0.9981359243392944,
+        "rank": 3229
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無正向機轉支持。Azithromycin 已知副作用包括胰臟炎，可引起血清澱粉酶升高，屬致病因子而非治療藥物。TxGNN 高分可能源於知識圖譜中藥物–疾病共現噪訊，為假陽性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn": {
+        "score": 0.9981359243392944,
+        "rank": 3231
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Polyclonal hyperviscosity 主要由免疫球蛋白大量增生所致（如 IgM 型），其病因為漿細胞異常增殖或慢性炎症。Azithromycin 之抗生素與免疫調節機轉對血液黏稠度無直接調控路徑可循。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital analbuminemia",
+      "txgnn": {
+        "score": 0.9978686571121216,
+        "rank": 3580
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無白蛋白血症為 ALB 基因突變導致的超稀有遺傳病，無法由抗生素或免疫調節藥物修正。Azithromycin 對白蛋白合成無已知影響路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9978433847427368,
+        "rank": 3612
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32826651",
+            "title": "Dual Molecular Diagnosis of Microsporidia (Encephalitozoon hellem) Keratoconjunctivitis in an Immunocompetent Adult.",
+            "authors": [
+              "Ma Kevin K",
+              "Kinde Benyam",
+              "Doan Thuy",
+              "Jacobs Deborah S",
+              "Ong Tone Stephan"
+            ],
+            "journal": "Cornea",
+            "year": "2021",
+            "abstract": "To report a case of microsporidia (Encephalitozoon hellem) keratoconjunctivitis acquired through avian transmission in an immunocompetent adult, diagnosed by metagenomic deep sequencing (MDS), and confirmed by polymerase chain reaction.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Punctate epithelial keratoconjunctivitis（點狀上皮角膜結膜炎）可由微孢子蟲（Microsporidia）感染引起，尤其在免疫抑制患者中。Azithromycin 對 Encephalitozoon 屬具有體外抗微孢子蟲活性，已見於臨床個案報告。此外，azithromycin 的抗炎與黏膜免疫調節機轉亦可能緩解眼表炎症反應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "blood group incompatibility",
+      "txgnn": {
+        "score": 0.9970327615737916,
+        "rank": 4559
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血型不相容（ABO/Rh 溶血反應）屬免疫介導之同種異體反應，核心機轉為抗原–抗體補體活化，Azithromycin 對此無已知干預路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "premalignant hematological system disease",
+      "txgnn": {
+        "score": 0.9964272379875184,
+        "rank": 5183
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "預惡性血液疾病（如 MDS、MGUS）之病程主要由克隆演化驅動。雖然巨環類抗生素具免疫調節功能，但對克隆造血無直接抑制證據。此預測可能源於 Azithromycin 在 MGUS/MM 相關文獻中的共現，而非直接治療關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "monoclonal gammopathy",
+      "txgnn": {
+        "score": 0.996085524559021,
+        "rank": 5522
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18355359",
+            "title": "Subcorneal pustular dermatosis: 50 years on.",
+            "authors": [
+              "Cheng S",
+              "Edmonds E",
+              "Ben-Gashir M",
+              "Yu R C"
+            ],
+            "journal": "Clinical and experimental dermatology",
+            "year": "2008",
+            "abstract": "We review the key developments in our understanding of subcorneal pustular dermatosis (SCPD, also known as Sneddon-Wilkinson disease) over the past 50 years. SCPD is a rare, chronic, sterile pustular eruption that was first described by Sneddon and Wilkinson in 1956. The primary lesions are pea-sized pustules classically described as half-pustular, half-clear flaccid fluid blisters. Histologically the salient feature is a subcorneal accumulation of neutrophils, suggesting the presence of chemoat",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33389938",
+            "title": "Bartonella henselae Neuroretinitis: A Rare Coinfection in POEMS Syndrome.",
+            "authors": [
+              "Ab Kahar Mas Edi Putriku Intan",
+              "Muhammed Julieana",
+              "Hitam Wan Hazabbah Wan",
+              "Husin Azlan"
+            ],
+            "journal": "Turkish journal of ophthalmology",
+            "year": "2020",
+            "abstract": "Bartonella henselae is a recognized cause of neuroretinitis in cat scratch disease. Meanwhile, polyneuropathy, organomegaly, endocrinopathy, monoclonal gammopathy, skin changes (POEMS) syndrome with Castleman disease (evidence of lymph node hyperplasia), is a chronic debilitating condition that predisposes to various superimposed infections. B. henselae neuroretinitis implicated in POEMS syndrome has not been reported previously. A 34-year-old asymptomatic man was referred for an eye assessment.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23546223",
+            "title": "Macrolide antibiotics block autophagy flux and sensitize to bortezomib via endoplasmic reticulum stress-mediated CHOP induction in myeloma cells.",
+            "authors": [
+              "Moriya Shota",
+              "Che Xiao-Fang",
+              "Komatsu Seiichiro",
+              "Abe Akihisa",
+              "Kawaguchi Tomohiro"
+            ],
+            "journal": "International journal of oncology",
+            "year": "2013",
+            "abstract": "The specific 26S proteasome inhibitor bortezomib (BZ) potently induces autophagy, endoplasmic reticulum (ER) stress and apoptosis in multiple myeloma (MM) cell lines (U266, IM-9 and RPMI8226). The macrolide antibiotics including concanamycin A, erythromycin (EM), clarithromycin (CAM) and azithromycin (AZM) all blocked autophagy flux, as assessed by intracellular accumulation of LC3B-II and p62. Combined treatment of BZ and CAM or AZM enhanced cytotoxicity in MM cell lines, although treatment wit",
+            "classification": {
+              "study_type": "Preclinical (in vitro / cell line)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32708858",
+            "title": "A Patient with Cryoglobulinemic Membranoproliferative GN (MPGN) Who Survived COVID-19 Disease: Case Presentation and Current Data of COVID-19 Infection in Dialysis and Transplanted Patients in Greece.",
+            "authors": [
+              "Marinaki Smaragdi",
+              "Tsiakas Stathis",
+              "Skalioti Chrysanthi",
+              "Lourida Panayiota",
+              "Argyraki Aikaterini"
+            ],
+            "journal": "Medicina (Kaunas, Lithuania)",
+            "year": "2020",
+            "abstract": "The evolving pandemic of Coronavirus Disease 2019 has posed a substantial health risk worldwide. However, there is a paucity of data regarding the clinical course and the therapeutic management of patients with chronic kidney disease and COVID-19 infection. To date, most evidence has come from renal transplantation, with about 45 patients reported thus far, and the current data from the ERA-EDTA (ERACODA) registry for transplanted patients and patients on Renal Replacement Therapy (RRT); as for ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22825522",
+            "title": "Treatment of osteonecrosis of the jaw (ONJ) by medical ozone gas insufflation. A case report.",
+            "authors": [
+              "Ripamonti Carla Ida",
+              "Maniezzo Massimo",
+              "Pessi Maria Adelaide",
+              "Boldini Stefania"
+            ],
+            "journal": "Tumori",
+            "year": "2012",
+            "abstract": "Osteonecrosis of the jaw (ONJ) is an adverse event reported in patients receiving cancer treatment, especially bisphosphonates and denosumab. A patient with multiple myeloma who underwent up to 22 intravenous zoledronic acid infusions without previous dental examination developed a devastating ONJ lesion in the right horizontal mandibular ramus. He was treated with local ozone gas applications every third day by means of a special bell to avoid O(3) diffusion. Azithromycin 500 mg/day was adminis",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15526516",
+            "title": "Multiple myeloma in remission complicated by bone marrow granulomas.",
+            "authors": [
+              "Gologan R",
+              "Dobrea Camelia",
+              "Popa Loredana",
+              "Gioadă Liliana",
+              "Dragomir Monica"
+            ],
+            "journal": "Romanian journal of internal medicine = Revue roumaine de medecine interne",
+            "year": "2003",
+            "abstract": "Granulomas are encountered in 1-2% of biopsies performed in various hematological and non-hematological diseases. Almost 50% of bone marrow granulomas are associated with infections and 25% with hematologic disorders, especially lymphoma and multiple myeloma. Toxoplasmosis is reported to induce granulomas in bone marrow inmunosuppressed patients. On the other side, long-term unexplained remissions after conventional treatment in multiple myeloma were mentioned in up to 10% of cases.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17609324",
+            "title": "Community-acquired lung abscess caused by Legionella micdadei in a myeloma patient receiving thalidomide treatment.",
+            "authors": [
+              "Girard Louis P",
+              "Gregson Daniel B"
+            ],
+            "journal": "Journal of clinical microbiology",
+            "year": "2007",
+            "abstract": "Legionella infection causes 2 to 14% of community-acquired pneumonia (CAP). Legionella micdadei constitutes <1% of these infections. We describe a case of cavitary L. micdadei CAP in a myeloma patient receiving thalidomide treatment. The importance of considering pneumonia and problems in diagnosing pneumonia caused by L. micdadei in this patient population are reviewed.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "關鍵機轉連結來自 PMID 23546223：巨環類抗生素（包括 Azithromycin）可阻斷自噬通量（autophagy flux）並誘導內質網壓力（ER stress），使骨髓瘤細胞對蛋白酶體抑制劑（Bortezomib）的敏感性增加。此協同效應提示 Azithromycin 可作為多發性骨髓瘤聯合治療之增敏劑，而非單藥治療。其餘 6 篇文獻主要涉及 MGUS/MM 患者的感染併發症（Bartonella、Legionella），Azithromycin 用於抗感染，不構成對 MGUS 本身的治療證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn": {
+        "score": 0.995631217956543,
+        "rank": 5947
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此類疾病（如 POEMS 症候群相關神經病變、副蛋白血症神經病變）的病理機轉為副蛋白直接損傷神經髓鞘，Azithromycin 對副蛋白生成或周邊神經修復無已知干預路徑。需注意 Azithromycin 本身具心臟毒性（QTc 延長），在神經病變患者群中安全性需額外評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "septicemic plague",
+      "txgnn": {
+        "score": 0.9952011108398438,
+        "rank": 6328
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31778198",
+            "title": "Biomedical Response to Neisseria gonorrhoeae and Other Sexually Transmitted Infections in the US Military.",
+            "authors": [
+              "Garges Eric",
+              "Early June",
+              "Waggoner Sandra",
+              "Rahman Nazia",
+              "Golden Dana"
+            ],
+            "journal": "Military medicine",
+            "year": "2019",
+            "abstract": "Sexually transmitted infections (STIs) continue to plague militaries and defense forces. While the historical recognition of the impact of STIs on operations is evident, contemporary surveillance and research activities are limited. As Neisseria gonorrhoeae and other sexually transmitted pathogens become increasingly resistant to antibiotics, the role of the Department of Defense (DoD) in disease surveillance and clinical research is essential to military Force Health Protection.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19392866",
+            "title": "Systematic review: the epidemiology and clinical features of travellers' diarrhoea.",
+            "authors": [
+              "DuPont H L"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2009",
+            "abstract": "Travellers' diarrhoea is the most common medical complaint among persons venturing into developing areas from industrialized regions.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10628822",
+            "title": "Tropical and exotic infections. Proceedings of the 5th Liverpool Tropical School Bayer Symposium on Microbial Diseases. 14 February 1998.",
+            "authors": [
+              "Beeching N J",
+              "Hart C A",
+              "Duerden B I"
+            ],
+            "journal": "Journal of medical microbiology",
+            "year": "2000",
+            "abstract": "In summary, MDR strains of S. typhi are both epidemic and endemic in many countries in Asia and MDR S. paratyphi A has recently emerged in Pakistan. Multiple clones may be present in a given area at any time. Fluoroquinolones and third generation cephalosporins have been used widely over the past decade to treat MDR strains. The clinical superiority of fluoroquinolones is now threatened by the rapid emergence of chromosomally mediated resistance and cephalosporin resistance is also being reporte",
+            "classification": {
+              "study_type": "Conference Proceedings",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8540736",
+            "title": "In vitro antimicrobial susceptibilities of strains of Yersinia pestis.",
+            "authors": [
+              "Smith M D",
+              "Vinh D X",
+              "Nguyen T T",
+              "Wain J",
+              "Thung D"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1995",
+            "abstract": "The in vitro activities of 14 antimicrobial agents were determined for 78 strains of Yersinia pestis. The most active antibiotics were ceftriaxone and ciprofloxacin, followed by ofloxacin and ampicillin. The agents traditionally used for the treatment of plague (streptomycin, tetracycline, and chloramphenicol) were considerably less active. Azithromycin showed poor activity against all strains.",
+            "classification": {
+              "study_type": "In vitro susceptibility study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12698575",
+            "title": "[Efficacy of some new antibiotics in treating experimental brucellosis].",
+            "authors": [
+              "Maletskaia O V"
+            ],
+            "journal": "Antibiotiki i khimioterapiia = Antibiotics and chemoterapy [sic]",
+            "year": "2002",
+            "abstract": "Brucella pathogens are highly susceptible in vitro to pefloxacin, lomefloxacin, meropenem and azithromycin. High efficacy of these drugs was demonstrated for experimental brucellosis treatment, azithromycin being the most active. Meropenem and azithromycin implementation resulted in more rapid and full normalization of the bactericidial and energy systems of the experimental animals peripheral blood cells.",
+            "classification": {
+              "study_type": "Animal model study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "敗血性鼠疫由 Yersinia pestis 引起。PMID 8540736 展示 Azithromycin 對 Y. pestis 的體外抗菌活性（MIC 資料）。巨環類抗生素的細胞內濃縮特性（組織藥物濃度可達血清 10–100 倍）理論上有利於殺滅已被吞噬的 Y. pestis。然而，鼠疫現行標準治療為 Streptomycin、Gentamicin 或 Doxycycline，Azithromycin 定位為替代選項（如對標準藥物不耐受或短缺情境）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "congenital hematological disorder",
+      "txgnn": {
+        "score": 0.9939648509025574,
+        "rank": 7404
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT04278404",
+            "title": "Pharmacokinetics, Pharmacodynamics, and Safety Profile of Understudied Drugs",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 5000,
+            "start_date": "2020-03-05",
+            "completion_date": "2027-09",
+            "brief_summary": "The study investigators are interested in learning more about how drugs, that are given to children by their health care provider, act in the bodies of children and young adults in hopes to find the most safe and effective dose for children. The primary objective of this study is to evaluate the PK of understudied drugs currently being administered to children per SOC as prescribed by their treating provider.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "低度相關——多藥物 PK/PD 安全性研究，Azithromycin 可能為研究藥物之一，但非針對先天性血液疾病的療效研究。可提供 PK 資料作為劑量設計參考。"
+            }
+          },
+          {
+            "nct_id": "NCT02630394",
+            "title": "A Pilot Study of Azithromycin Prophylaxis for Acute Chest Syndrome in Sickle Cell Disease",
+            "phase": "PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2015-09",
+            "completion_date": "2017-12-31",
+            "brief_summary": "Acute chest syndrome (ACS), a lung complication in sickle cell disease (SCD), is the second most common cause of hospitalization and leading cause of death in SCD. ACS is associated with airway inflammation, and a major cause is pulmonary infection from atypical organisms. To date, there are no drugs available to reduce inflammation and risk of recurrent ACS. Macrolides are a group of antibiotics that exert immunomodulatory and anti-inflammatory actions both in vitro and in vivo. In addition, ma",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接相關——藥物（Azithromycin）、疾病（SCD = 先天性血液疾病）、適應症（ACS 預防）完全對應。但因撤回前 enrollment = 0，未產生任何臨床資料，僅代表研究假說存在，不升等至 L3。"
+            }
+          },
+          {
+            "nct_id": "NCT04294641",
+            "title": "A Study of Front Line Ibrutinib Without Corticosteroids for Newly Diagnosed Chronic Graft-versus-Host Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2021-05-10",
+            "completion_date": "2024-10-01",
+            "brief_summary": "Background:\n\n\\- Chronic Graft Versus Host Disease (cGVHD) can occur after a person has had a stem cell or bone marrow transplant. In cGVHD, the donor cells attack the recipient's body. Researchers want to see if a drug called ibrutinib can block one of the proteins that lead to the immune reaction that causes cGVHD.\n\nObjective:\n\n\\- To see if ibrutinib as a first-line treatment can help people with newly diagnosed cGVHD.\n\nEligibility:\n\n\\- People age 18 and older with newly diagnosed moderate or s",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "低度相關——主要研究藥物為 Ibrutinib，非 Azithromycin；GvHD 非先天性血液疾病。可能因 GvHD 防治背景中提及 Azithromycin，但本試驗不構成本適應症的直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT02960503",
+            "title": "Macrolide Therapy to Improve Forced Expiratory Volume in 1 Second in Adults With Sickle Cell Disease: a Feasibility Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2016-09",
+            "completion_date": "2018-10",
+            "brief_summary": "Sickle cell anemia (SCA) is a life-threatening, monogenic disorder associated with early death when compared to individuals without SCA. Pulmonary complications, namely acute chest syndrome, obstructive lung disease and pulmonary hypertension, are the most common causes of death in patients with SCA. Recent studies suggest that lung specific inflammation is a hallmark of SCA and underlies pulmonary pathology. To date, no therapy has been shown to improve the pulmonary complications of SCA. Macro",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接相關——巨環類（Azithromycin 為主要選項）用於改善 SCD 成人 FEV1，設計合理。撤回且 0 enrollment，同上未產生臨床資料。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34471086",
+            "title": "Megadose Methylprednisolone for Immune Thrombocytopenia in an Infant Positive for SARS-CoV-2: A Case Report.",
+            "authors": [
+              "Ringoringo Harapan Parlindungan",
+              "Hartoyo Edi"
+            ],
+            "journal": "The American journal of case reports",
+            "year": "2021",
+            "abstract": "BACKGROUND Immune thrombocytopenia (ITP) is rare in infants under 1 year old. Bleeding often occurs when the platelet count is <20 000/uL. The disease can progress because of accompanying COVID-19 disease. CASE REPORT A 9-month-old boy, weighing 8.5 kg, came to the hospital with petechiae on the forehead, cheeks, mouth, and extremities. The patient had rhinorrhea for 3 days previously and was febrile, pale, weak, and could not drink. He had the measles-rubella vaccination 19 days prior. Physical",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26408070",
+            "title": "Antibiotics for preventing lower respiratory tract infections in high-risk children aged 12 years and under.",
+            "authors": [
+              "Onakpoya Igho J",
+              "Hayward Gail",
+              "Heneghan Carl J"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2015",
+            "abstract": "Lower respiratory tract infections (LRTIs) in young children account for 1.4 million deaths annually worldwide. Antibiotics could be beneficial in preventing LRTIs in high-risk children, and may also help prevent school absenteeism and work days missed by children and/or carers. While it is well documented that the efficacy of antibiotic prophylaxis for RTIs decreases over time, there are no reviews that describe the use of antibiotic prophylaxis to prevent LRTIs in high-risk children aged 12 ye",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": 1
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "主要聚焦於鐮刀型紅血球病（Sickle Cell Disease, SCD）：Azithromycin 的免疫調節與抗炎機轉可能降低急性胸症（Acute Chest Syndrome, ACS）的發生率，此為 SCD 最嚴重的肺部併發症。此外，巨環類抗生素可改善氣道炎症（如囊狀纖維化中的證據），類似機轉可能適用於 SCD 患者的肺功能改善（FEV1）。兩項已規劃的 Phase 1/2 試驗（NCT02630394、NCT02960503）均因故撤回（enrolled = 0），顯示學術界有研究意圖但尚無執行資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "hyperamylasemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "polyclonal hyperviscosity syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "congenital analbuminemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "blood group incompatibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "premalignant hematological system disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "monoclonal gammopathy"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "hematological disease associated with an acquired peripheral neuropathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "septicemic plague"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Azithromycin",
+        "disease": "congenital hematological disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    }
+  ]
+}

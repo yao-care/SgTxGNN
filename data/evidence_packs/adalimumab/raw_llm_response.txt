@@ -1,0 +1,584 @@
+```json
+{
+  "drug": "Adalimumab",
+  "drugbank_id": "DB00051",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Adalimumab 為全球核准之 anti-TNF-α 單株抗體（Humira），全球核准適應症包含 RA、AS、PsA、JIA、克隆氏症等。本地資料庫標示「未上市」可能反映 SgTxGNN 本地登記缺口，非全球上市狀態。MoA 應為 TNF-α 拮抗劑，[Data Gap] 為資料輸入錯誤。",
+  "indications": [
+    {
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "TNF-α 在血管炎症中扮演核心角色。RA 相關血管炎（RV）為長期嚴重 RA 的罕見全身併發症，TNF-α 抑制理論上可抑制血管壁 T 細胞浸潤及免疫複合體沉積引發的炎症。案例報告已支持 adalimumab 縮小 digital vasculitis 病灶，但 RV 罕見性導致缺乏 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01579006",
+          "relevance_grade": "B",
+          "reasoning": "RA 患者觀察性研究，部分受試者可能合併血管炎表現，但非 RV 專屬設計，為間接支持證據"
+        },
+        {
+          "nct_id": "NCT05111743",
+          "relevance_grade": "C",
+          "reasoning": "Brolucizumab 用於濕性 AMD 的真實世界研究，與 adalimumab 治療 RV 完全無關，資料庫匹配錯誤"
+        },
+        {
+          "nct_id": "NCT05696106",
+          "relevance_grade": "B",
+          "reasoning": "評估生物製劑治療後 IMID 發生風險的大型觀察研究（75萬人），可提供 adalimumab 用於炎性疾病的安全性背景資料，但非直接 RV 療效研究"
+        },
+        {
+          "nct_id": "NCT07138898",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，聚焦風濕病患者接受全肩關節置換術時的免疫抑制劑管理，非 RV 治療研究"
+        },
+        {
+          "nct_id": "NCT02590562",
+          "relevance_grade": "C",
+          "reasoning": "RA 治療模式橫斷面研究，未針對血管炎亞群，相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33058033",
+          "title": "Biological therapy in rheumatoid vasculitis: a systematic review",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "本適應症最關鍵文獻，直接評估生物製劑（含 TNF 抑制劑）治療 RV 的系統性回顧，提供 L4 等級最強支持"
+        },
+        {
+          "pmid": "25133007",
+          "title": "Digital vasculitis in a patient with rheumatoid arthritis responded well to adalimumab",
+          "study_type": "Case Report",
+          "tier": "2",
+          "note": "Adalimumab 直接用於 RV 的個案報告，顯示臨床響應"
+        },
+        {
+          "pmid": "30773522",
+          "title": "Acute Pulmonary Hypertension Crisis after Adalimumab Reduction in Rheumatoid Vasculitis",
+          "study_type": "Case Report",
+          "tier": "2",
+          "note": "確認 adalimumab 用於 RV 患者維持治療的角色，劑量減少導致危象復發，支持其療效"
+        },
+        {
+          "pmid": "34068884",
+          "title": "Rheumatoid Arthritis Associated Episcleritis and Scleritis: An Update on Treatment Perspectives",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "RA 相關眼血管炎治療，機轉與 RV 相似，間接支持 TNF 抑制劑應用"
+        },
+        {
+          "pmid": "28123776",
+          "title": "Drug-specific risk and characteristics of lupus and vasculitis-like events in patients with rheumatoid arthritis",
+          "study_type": "Pharmacovigilance/Cohort",
+          "tier": "2",
+          "note": "評估生物製劑引發類狼瘡及血管炎樣事件風險，為安全性評估重要參考"
+        },
+        {
+          "pmid": "28719435",
+          "title": "Leukocytoclastic Vasculitis and Dermal Perivascular Hemophagocytosis Associated With Adalimumab Therapy",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "note": "記錄 adalimumab 引發血管炎樣不良反應，為安全性警示，需排除藥物誘發性血管炎"
+        },
+        {
+          "pmid": "36418100",
+          "title": "Tocilizumab Attenuates Anti-neutrophil Cytoplasmic Antibody-associated Nephritis Occurring during Adalimumab Therapy",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Adalimumab 治療期間出現 ANCA 相關腎炎，反映治療複雜性與監控需求"
+        },
+        {
+          "pmid": "37699653",
+          "title": "HLA-DRB1 and HLA-DQA1 associated with immunogenicity to adalimumab therapy",
+          "study_type": "Pharmacogenomics Study",
+          "tier": "3",
+          "note": "免疫原性相關研究，對長期治療 RV 患者的個人化用藥有參考價值"
+        },
+        {
+          "pmid": "38931826",
+          "title": "Population Pharmacokinetic Analysis and Simulation of Alternative Dosing Regimens for Biosimilars",
+          "study_type": "PK Modeling",
+          "tier": "3",
+          "note": "PK 模型研究，與 RV 療效直接相關性低"
+        },
+        {
+          "pmid": "31163474",
+          "title": "[JAK Inhibitors in Rheumatology]",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "JAK 抑制劑替代治療綜述，間接比較背景"
+        }
+      ],
+      "evidence_summary": "現有證據以個案報告（n=2直接adalimumab）及1篇生物製劑系統性回顧為主。無專門針對RV設計的Phase 1-3 RCT，因RV極為罕見（RA患者<1%）而難以執行。TxGNN高分反映機轉連結強度，但臨床證據僅達L4。"
+    },
+    {
+      "disease_name": "hypermobility of coccyx",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "尾骨過度活動症為骨骼結構性問題，TNF-α 抑制劑的抗炎機轉對此純機械性/結構性疾病缺乏理論基礎。TxGNN 高分可能源於知識圖譜中尾骨→脊椎→炎性關節炎的間接路徑，屬預測雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持。高 TxGNN 分數為圖譜傳播偽陽性，缺乏生物合理性。建議列為低優先級，不建議進入研究設計。"
+    },
+    {
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "炎性脊椎病（包含強直性脊椎炎 AS、中軸型脊椎關節炎、乾癬性關節炎脊椎受累）的核心病理為 TNF-α 驅動的椎間盤炎症及新骨形成。Adalimumab 直接拮抗 TNF-α，已在多項 Phase 3 RCT 中証實可改善 BASDAI、BASFI 評分並抑制放射學進展。此為 adalimumab 全球核准適應症。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01877668",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，直接評估 spondyloarthritis 中 2 種劑量方案的療效與安全性，422人，已完成，為最高等級直接證據"
+        },
+        {
+          "nct_id": "NCT00478660",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 開放標籤長期研究，1250人，評估 adalimumab 用於活動性 AS 的安全性與療效，已完成，支柱性試驗"
+        },
+        {
+          "nct_id": "NCT05115903",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 前瞻性隨機 TNF 抑制劑減量研究（軸型 SpA），評估控制良好患者的減量策略，直接相關"
+        },
+        {
+          "nct_id": "NCT02814175",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，比較 adalimumab 不同引入策略在 SpA 的有效性，246人，已完成"
+        },
+        {
+          "nct_id": "NCT07398651",
+          "relevance_grade": "A",
+          "reasoning": "Phase NA 比較研究：apremilast vs adalimumab 在乾癬性關節炎（炎性脊椎病亞型），直接頭對頭比較"
+        },
+        {
+          "nct_id": "NCT05164198",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 多中心前瞻試驗，優化 AS 中 TNF 抑制劑劑量調整，448人，高度相關"
+        },
+        {
+          "nct_id": "NCT05598684",
+          "relevance_grade": "B",
+          "reasoning": "觀察性研究，評估 adalimumab 生物類似藥治療 SpA 後的持續治療預測因子，600人"
+        },
+        {
+          "nct_id": "NCT03258814",
+          "relevance_grade": "B",
+          "reasoning": "PhM 觀察性研究（已終止），評估 adalimumab 聯合治療有效性，因早期終止僅提供部分數據"
+        },
+        {
+          "nct_id": "NCT01282372",
+          "relevance_grade": "B",
+          "reasoning": "2年 HRQL 觀察性研究，評估 adalimumab 對工作生產力的影響，500人，支持生活品質終點"
+        },
+        {
+          "nct_id": "NCT01316224",
+          "relevance_grade": "C",
+          "reasoning": "評估乾癬患者 PsA 症狀盛行率的橫斷面研究，非 adalimumab 治療試驗"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32386593",
+          "study_type": "Phase 3 RCT",
+          "tier": "1",
+          "note": "EXCEED 研究：secukinumab vs adalimumab 頭對頭 Phase 3 RCT in PsA，最高等級比較性證據"
+        },
+        {
+          "pmid": "30499246",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "note": "ACR/NPF 2018 PsA 治療指引，adalimumab 為一線生物製劑推薦"
+        },
+        {
+          "pmid": "38556921",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "比較 secukinumab vs adalimumab biosimilar 放射學進展的 RCT，直接頭對頭比較"
+        },
+        {
+          "pmid": "39734203",
+          "study_type": "Prospective Cohort",
+          "tier": "1",
+          "note": "評估炎性脊椎病病情穩定後 adalimumab 停藥結果，提供減藥決策依據"
+        },
+        {
+          "pmid": "34755937",
+          "study_type": "Observational/PET-CT Study",
+          "tier": "2",
+          "note": "Adalimumab 聯合 sulfasalazine 改善 PET/CT 偵測到的薦髂及主動脈炎症"
+        },
+        {
+          "pmid": "30251234",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "SB5 adalimumab 生物類似藥綜述，支持療效等效性，有助於成本效益評估"
+        },
+        {
+          "pmid": "39624020",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "Upadacitinib 治療 PsA 時骨骼外表現發展，比較背景用"
+        },
+        {
+          "pmid": "17072572",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "脊椎關節炎分類與治療綜述，提供疾病分類背景"
+        },
+        {
+          "pmid": "39734351",
+          "study_type": "Pharmacovigilance",
+          "tier": "3",
+          "note": "藥物誘發免疫原性與皮膚測試相關性研究，安全性監測參考"
+        },
+        {
+          "pmid": "25739794",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "note": "Adalimumab 誘發性狼瘡漿膜炎個案，安全性警示"
+        }
+      ],
+      "evidence_summary": "多項 Phase 3/4 RCT 直接支持，包含 AS（強直性脊椎炎）、PsA 脊椎受累、非放射學軸型 SpA。Adalimumab 在 AS 領域已獲 FDA/EMA 核准（ATLAS 試驗、ADEPT 試驗等）。在 S3 推進但需注意：1. 感染篩檢（TB、B肝）2. 定期評估放射學進展 3. 考量生物類似藥可行性。"
+    },
+    {
+      "disease_name": "Kummell disease",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Kummell 病（遲發性外傷後椎體缺血性壞死）為血管性/機械性疾病，以椎體壞死塌陷為特徵，非炎性免疫介導機制。TNF-α 抑制劑缺乏直接生物學理論依據。TxGNN 高分可能源於「vertebral disease」相關節點的知識圖譜泛化，屬預測誤差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持，且生物學合理性低。建議維持 Hold 狀態，不進入研究設計流程。"
+    },
+    {
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "多關節型 JIA 的炎症機制以 TNF-α、IL-6、IL-17 驅動的滑膜炎為主，與成人 RA 機制高度相似。Adalimumab 直接拮抗 TNF-α，已在兒童 Phase 3 RCT 中証實療效（包含 MTX 難治病例），此為 FDA 核准兒科適應症（≥2歲）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00048542",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 雙盲安慰劑對照 RCT，adalimumab 用於多關節型 JIA，171人，已完成，為核准基礎支柱性試驗（ADVENT trial）"
+        },
+        {
+          "nct_id": "NCT02840175",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 治療減量研究，評估寡關節/多關節 RF- JIA 緩解後生物製劑停藥，62人，直接相關"
+        },
+        {
+          "nct_id": "NCT00775437",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 慈悲性使用研究，評估 2-4 歲或低體重 JIA 兒童的 adalimumab，填補兒科劑量知識缺口"
+        },
+        {
+          "nct_id": "NCT00690573",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心研究，評估 adalimumab 在 JIA 的 PK、安全性及療效，25人，已完成"
+        },
+        {
+          "nct_id": "NCT06654882",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 正在招募（400人），評估 TNFi 失敗後的 JIA 序貫治療，高度相關且代表當前最新試驗設計"
+        },
+        {
+          "nct_id": "NCT04018599",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 PK 研究，評估不同 adalimumab 製劑在 JIA 中的 PK 等效性，216人，提供用藥優化依據"
+        },
+        {
+          "nct_id": "NCT05411211",
+          "relevance_grade": "B",
+          "reasoning": "上市後觀察性研究，評估 adalimumab 在真實世界 JIA 的有效性與安全性，20人"
+        },
+        {
+          "nct_id": "NCT03383263",
+          "relevance_grade": "B",
+          "reasoning": "多中心觀察性研究，評估 JIA 生物製劑治療的持續性與依從性，70人"
+        },
+        {
+          "nct_id": "NCT02141984",
+          "relevance_grade": "B",
+          "reasoning": "韓國上市後監測研究，28人，真實世界安全性數據"
+        },
+        {
+          "nct_id": "NCT06413563",
+          "relevance_grade": "C",
+          "reasoning": "評估 JIA 患者外周血淋巴細胞的生物標誌物研究，75人，非療效評估"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40148850",
+          "study_type": "Meta-analysis / Comparative Study",
+          "tier": "1",
+          "note": "2025年最新 etanercept vs adalimumab 在多關節型 JIA 的比較療效與安全性系統分析"
+        },
+        {
+          "pmid": "31421019",
+          "study_type": "Real-world Study",
+          "tier": "1",
+          "note": "多關節型 JIA 中 adalimumab 安全性與有效性的真實世界大型研究"
+        },
+        {
+          "pmid": "30054164",
+          "study_type": "Pooled Safety Analysis",
+          "tier": "1",
+          "note": "兒科 adalimumab 安全性匯總分析（JIA、enthesitis-related arthritis、psoriasis），關鍵安全性文獻"
+        },
+        {
+          "pmid": "28418334",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "JIA 全面性綜述，包含 adalimumab 在多關節亞型的治療地位"
+        },
+        {
+          "pmid": "33626206",
+          "study_type": "PK/PD Modeling",
+          "tier": "2",
+          "note": "多關節型 JIA vs 成人 RA 的治療響應相似性評估，支持劑量外推合理性"
+        },
+        {
+          "pmid": "37511975",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Golimumab 在多關節型 JIA 的藥理學與臨床資料，比較性背景"
+        },
+        {
+          "pmid": "38204313",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "JIA 生物製劑選擇與轉換的臨床決策指引，定位 adalimumab 在治療階梯中的角色"
+        },
+        {
+          "pmid": "31308202",
+          "study_type": "Review / Decision Support",
+          "tier": "2",
+          "note": "多關節型 JIA 治療結果監測與臨床決策支持系統"
+        },
+        {
+          "pmid": "30251234",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "SB5 adalimumab 生物類似藥，療效等效性支持，有助於降低兒科用藥成本"
+        },
+        {
+          "pmid": "16327716",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Etanercept 歷史綜述，提供 JIA 生物製劑治療演進背景"
+        }
+      ],
+      "evidence_summary": "多項 Phase 3 RCT（含NCT00048542 ADVENT試驗）確立療效，FDA已核准用於≥2歲多關節型JIA（含RF+/-亞型）。Guardrails重點：1. 年齡/體重適當劑量調整（10mg/kg或20/40mg固定劑量）2. 感染風險（活疫苗禁忌）3. 眼部檢查（葡萄膜炎監測）4. 生長發育監測。"
+    },
+    {
+      "disease_name": "vertebral disease",
+      "txgnn_score": 0.9918,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "「椎體疾病」廣泛涵蓋多種病理，但本資料集中的直接證據主要針對炎性亞型（AS、非放射學軸型 SpA）。TNF-α 在 AS 中驅動椎間盤炎、骨炎及新骨形成，adalimumab 透過拮抗 TNF-α 改善炎症負荷並延緩放射學進展。但對退化性椎體病、骨質疏鬆性骨折（如 Kummell 病）缺乏機轉依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00085644",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 多中心研究，adalimumab 用於 AS（椎體炎性疾病核心亞型），315人，已完成，為核准基礎試驗"
+        },
+        {
+          "nct_id": "NCT00195819",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 adalimumab 在 AS 的多中心安全性與療效研究，82人，已完成，提供補充核准數據"
+        },
+        {
+          "nct_id": "NCT02696785",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 雙盲安慰劑及主動對照研究，341人，評估 SpA 相關椎體疾病治療，已完成"
+        },
+        {
+          "nct_id": "NCT05115903",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 軸型 SpA TNF 抑制劑減量研究，直接評估長期椎體病管理策略"
+        },
+        {
+          "nct_id": "NCT03259074",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，secukinumab 延緩放射學進展（含椎體），adalimumab 為比較藥，間接支持"
+        },
+        {
+          "nct_id": "NCT06833112",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，IL-17 抑制劑聯合 TNF-α 抑制劑治療，10人，小型探索性研究，對椎體病聯合治療提供早期數據"
+        },
+        {
+          "nct_id": "NCT01400516",
+          "relevance_grade": "C",
+          "reasoning": "Teriparatide 治療 RA 關節侵蝕（Phase 4），26人，非 adalimumab 且非 AS，相關性低"
+        },
+        {
+          "nct_id": "NCT07093827",
+          "relevance_grade": "C",
+          "reasoning": "脊髓損傷與男性性功能的前瞻性研究，1600人，與 adalimumab 治療椎體炎症無關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24074224",
+          "study_type": "Review / Meta-analysis",
+          "tier": "1",
+          "note": "Adalimumab 治療 AS 及非放射學軸型 SpA 的系統性回顧，直接針對椎體炎性疾病，最核心文獻"
+        },
+        {
+          "pmid": "38503473",
+          "study_type": "Systematic Literature Review",
+          "tier": "1",
+          "note": "PsA（含脊椎受累）藥物治療療效與安全性的 2024 年系統性回顧，涵蓋 adalimumab"
+        },
+        {
+          "pmid": "38556921",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Secukinumab vs adalimumab biosimilar 放射學進展 RCT，椎體病影像終點"
+        },
+        {
+          "pmid": "31969328",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "2",
+          "note": "EULAR 2020 RA 治療指引（含脊椎侵蝕管理），為臨床決策背景"
+        },
+        {
+          "pmid": "40015358",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "TNF-α 抑制劑間距治療後椎體疾病活動度預測因子，支持長期管理策略"
+        },
+        {
+          "pmid": "36813538",
+          "study_type": "Real-world Cohort",
+          "tier": "2",
+          "note": "新型生物製劑與靶向合成 DMARD 在脊椎關節炎真實世界有效性"
+        },
+        {
+          "pmid": "38309516",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "note": "脊椎關節炎相關葡萄膜炎的靶向治療，adalimumab 在 AS 伴眼部受累的額外支持"
+        },
+        {
+          "pmid": "17072572",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "脊椎關節炎分類與治療策略綜述"
+        },
+        {
+          "pmid": "29624303",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "青少年脊椎關節炎綜述，支持跨年齡層應用"
+        },
+        {
+          "pmid": "16310398",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "PsA 疾病機轉與治療綜述，含脊椎受累亞型"
+        }
+      ],
+      "evidence_summary": "針對炎性椎體疾病（AS、軸型SpA）有 Phase 3 RCT 支持，adalimumab 已獲全球核准（ATLAS、ABILITY-1等試驗）。但「vertebral disease」廣泛定義包含退化性病變，後者缺乏證據。Guardrails：1. 限定炎性亞型（MRI/X-ray確認炎症）2. 排除感染性脊椎炎（TB脊椎炎禁忌）3. HLA-B27/炎症指標（CRP、ESR）監測。"
+    },
+    {
+      "disease_name": "polyp of middle ear",
+      "txgnn_score": 0.9794,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中耳息肉通常為慢性中耳炎/膽脂瘤相關的炎性或增生性組織，以感染和結構重塑為主，非系統性 TNF-α 介導免疫炎症。Adalimumab 的適應症機轉與中耳息肉的局部感染/機械性病理無直接關聯。TxGNN 高分可能源於廣泛「polyp=炎症」的圖譜路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無任何臨床試驗或文獻支持，生物學合理性極低。維持 Hold。"
+    },
+    {
+      "disease_name": "polyp of vocal cord",
+      "txgnn_score": 0.9793,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "聲帶息肉主要為機械性創傷（聲帶過度使用）、血管性水腫所致，非免疫炎性機制。TNF-α 抑制劑缺乏理論依據。TxGNN 預測可能為圖譜噪音。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床證據，生物學合理性極低。維持 Hold。"
+    },
+    {
+      "disease_name": "polyp of ureter",
+      "txgnn_score": 0.9786,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "輸尿管息肉為泌尿上皮增生性病變，主要為機械性梗阻性疾病，非系統性免疫炎症。TNF-α 抑制劑缺乏直接機轉依據，且在泌尿系腫瘤性病變中使用免疫抑制劑需謹慎評估腫瘤風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床證據，生物學合理性極低，且免疫抑制用於增生性泌尿道病變有潛在安全顧慮。維持 Hold。"
+    },
+    {
+      "disease_name": "polyp of frontal sinus",
+      "txgnn_score": 0.9785,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "額竇息肉通常為慢性鼻竇炎相關，雖然嗜酸性鼻竇炎有免疫成分，但其機轉以 IL-4/IL-13/IL-5（Th2）為主，非 TNF-α 驅動。Dupilumab（IL-4Rα 抑制劑）和 mepolizumab 為此適應症的生物製劑，adalimumab 缺乏相關支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "無臨床證據。即使考慮鼻竇炎的免疫成分，TNF-α 並非鼻息肉的主要病理機轉，不建議此方向研究。維持 Hold。"
+    }
+  ],
+  "overall_summary": {
+    "L1_count": 3,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 1,
+    "L5_count": 6,
+    "S3_proceed": ["inflammatory spondylopathy", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"],
+    "S1_research": ["rheumatoid vasculitis"],
+    "S0_hold": ["hypermobility of coccyx", "Kummell disease", "polyp of middle ear", "polyp of vocal cord", "polyp of ureter", "polyp of frontal sinus"],
+    "key_findings": [
+      "3個適應症（炎性脊椎病、多關節型JIA、椎體疾病）實質上為 adalimumab 已獲全球核准的適應症，此現象提示本地 original_indications 資料缺口嚴重，建議優先修正資料品質",
+      "RA 相關血管炎（RV）為最具研究價值的新興適應症，機轉合理但缺乏 RCT，建議設計前瞻性登記研究",
+      "6個 L5 適應症中，4個涉及各部位息肉，提示 TxGNN 模型對結構性/增生性疾病存在系統性假陽性偏差，建議進行模型校正",
+      "MoA '[Data Gap]' 需修正為 'TNF-α antagonist / Anti-TNF-α monoclonal antibody'",
+      "market_status '未上市' 可能為 SG 本地藥品資料庫缺口，Humira 已在全球 100+ 國家核准上市"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 決策矩陣
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| 炎性脊椎病 | 0.9977 | **L1** | **S3** | ✅ Proceed |
+| 多關節型JIA | 0.9972 | **L1** | **S3** | ✅ Proceed |
+| 椎體疾病 | 0.9918 | **L1** | **S3** | ✅ Proceed |
+| RA 相關血管炎 | 0.9980 | L4 | S1 | 🔬 Research Question |
+| 尾骨過度活動 | 0.9977 | L5 | S0 | ⛔ Hold |
+| Kummell 病 | 0.9974 | L5 | S0 | ⛔ Hold |
+| 中耳/聲帶/輸尿管/額竇息肉 | 0.979x | L5 | S0 | ⛔ Hold |
+
+### 三大關鍵發現
+
+1. **資料品質警示**：3個 L1 適應症實為已核准適應症，反映本地資料庫嚴重缺口，需優先修正 `original_indications` 與 `market_status`
+
+2. **最具研究價值**：RA 相關血管炎（L4→值得升級研究）是唯一具有機轉合理性但缺乏 RCT 的真正再利用研究問題
+
+3. **模型偏差識別**：4個息肉適應症的高 TxGNN 分數均為假陽性，提示模型對「局部增生性/機械性疾病」缺乏區分能力，建議納入模型訓練反饋

@@ -1,0 +1,1147 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00400-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Griseofulvin",
+    "drugbank_id": "DB00400",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "myiasis",
+      "txgnn": {
+        "score": 0.9940788745880128,
+        "rank": 7318
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4098614",
+            "title": "Parasitic skin diseases of dogs and cats.",
+            "authors": [
+              "Baker K P"
+            ],
+            "journal": "The Veterinary record",
+            "year": "1970",
+            "abstract": "",
+            "classification": {
+              "study_type": "Veterinary Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Myiasis 為蠅幼蟲寄生感染，Griseofulvin 作用於真菌微管蛋白，對節肢動物幼蟲無已知生物活性。機轉上無合理連結，TxGNN 高分（0.994）可能源於知識圖譜中「皮膚感染」節點的拓撲相似性，並非真實藥理關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "creeping myiasis",
+      "txgnn": {
+        "score": 0.9933680891990662,
+        "rank": 7946
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Creeping myiasis（皮膚爬行型蠅蛆病）屬於寄生蟲感染，Griseofulvin 無抗寄生蟲機轉。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "wound myiasis",
+      "txgnn": {
+        "score": 0.9933680891990662,
+        "rank": 7947
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Wound myiasis 為傷口寄生蟲感染，Griseofulvin 對幼蟲無殺滅活性，無機轉連結，無臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "furuncular myiasis",
+      "txgnn": {
+        "score": 0.9933680891990662,
+        "rank": 7948
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Furuncular myiasis（癤腫型蠅蛆病）與 Griseofulvin 無機轉連結，無任何臨床或文獻證據支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "echinococcus granulosus infectious disease",
+      "txgnn": {
+        "score": 0.9932132959365844,
+        "rank": 8064
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "棘球蚴病（囊型包蟲病）為絛蟲感染，Griseofulvin 針對真菌微管蛋白之機轉無法延伸至蠕蟲。標準治療為 Albendazole/Mebendazole。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "cutaneous candidiasis",
+      "txgnn": {
+        "score": 0.987080991268158,
+        "rank": 12791
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8763460",
+            "title": "Cutaneous mycoses in children.",
+            "authors": [
+              "Elewski B E"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "1996",
+            "abstract": "This article describes common cutaneous mycoses in children: mucocutaneous candidiasis, pityriasis versicolor, tinea corporis, tinea pedis, onychomycosis and tinea capitis. Topical therapy is effective in tinea corporis and pedis, pityriasis versicolor and cutaneous candidiasis. It is ineffective in tinea capitis, in immunocompromised children and onychomycosis. Griseofulvin has been the main treatment until now in children, but it is only fungistatic, may cause interactions and has to be given ",
+            "classification": {
+              "study_type": "Pediatric Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28196318",
+            "title": "Common Skin Conditions in Children: Skin Infections.",
+            "authors": [
+              "Rayala Brian Z",
+              "Morrell Dean S"
+            ],
+            "journal": "FP essentials",
+            "year": "2017",
+            "abstract": "Skin infections account for a significant subset of dermatologic conditions of childhood. Common cutaneous viral infections in children include warts, molluscum contagiosum, hand-foot-and-mouth disease, and herpes simplex. Although viral infections are self-limited and often only mildly symptomatic, they can cause anxiety, embarrassment, and health care use. Recognition of their common and atypical presentations is necessary to differentiate them from other skin conditions of similar morphology.",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34898894",
+            "title": "Common Antifungal Drugs in Pregnancy: Risks and Precautions.",
+            "authors": [
+              "Patel Madhuri A",
+              "Aliporewala Veeral M",
+              "Patel Disha A"
+            ],
+            "journal": "Journal of obstetrics and gynaecology of India",
+            "year": "2021",
+            "abstract": "Fungal skin infections are on the rise in India, and pregnant women are not immune to them. They are one of the commonest causes of secondary pruritus in pregnancy and can worsen the quality of life. Cutaneous dermatophytic infections have seen a recent emergence as a public health problem in India with increasing incidence as well as failure to appropriately respond to treatment. Vaginal candidiasis may cause obstetric and perinatal complications such as chorioamnionitis, premature rupture of m",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6295158",
+            "title": "The antifungal activity of ketoconazole.",
+            "authors": [
+              "Van Cutsem J"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1983",
+            "abstract": "The antifungal properties of ketoconazole were investigated both in vitro and in vivo. The antifungal potency of ketoconazole in vitro was studied in Sabouraud's broth for 715 fungal strains belonging to 85 species and several strains were tested in other media, including Eagle's minimal essential medium. Ketoconazole is highly active in vitro and possesses broadspectrum activity. Its in vitro activity is largely dependent on the medium used. Ketoconazole's activity is increased in medium enrich",
+            "classification": {
+              "study_type": "Pharmacology Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10439936",
+            "title": "Terbinafine. An update of its use in superficial mycoses.",
+            "authors": [
+              "McClellan K J",
+              "Wiseman L R",
+              "Markham A"
+            ],
+            "journal": "Drugs",
+            "year": "1999",
+            "abstract": "Terbinafine is an allylamine antifungal agent which has fungicidal activity against a wide variety of dermatophytes, moulds and certain dimorphic fungi, and fungistatic activity against Candida albicans. Oral terbinafine 250 mg/day is effective in the treatment of superficial dermatophyte infections such as onychomycosis, tinea pedis and tinea corporis/cruris, generally achieving mycological cure in > 80% of patients. The drug is also effective in children with tinea capitis when administered or",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16989127",
+            "title": "[Use of topical antifungal agents].",
+            "authors": [
+              "Dupont Bertrand"
+            ],
+            "journal": "Therapie",
+            "year": "2006",
+            "abstract": "Topical antifungal agents are not absorbed when given orally. They act by direct contact on the fungus, this type of action requires the simultaneous presence of antifungal and fungus for a minimum of time. There are a large number of compounds belonging to different families of antifungals: polyens, azoles, allylamine and morpholine and antiseptic substances. The treatment of oropharyngeal candidiasis is based on topical antifungal agents: amphotericin B or nystatin, imidazoles such as clotrima",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2143740",
+            "title": "[Onychomycosis. Clinico-epidemiological mycological and therapeutic aspects].",
+            "authors": [
+              "Arenas R"
+            ],
+            "journal": "Gaceta medica de Mexico",
+            "year": "1990",
+            "abstract": "Onychomycosis is the most frequent cause of nail disease. Dermatophytic and Candida onychomycosis have a similar frequency (54% and 45%), while only in 1% they are caused by molds. Tinea unguium equally affects both sexes and is mainly observed in the first toenail. T. rubrum is the fungus responsible in 87% of dermatophytosis. The ungual candidosis is three times more frequent on the hands in women and is due to C. albicans in 99% of the cases. Both types of onychomycosis are observed in childr",
+            "classification": {
+              "study_type": "Epidemiological Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1372222",
+            "title": "Terbinafine. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic potential in superficial mycoses.",
+            "authors": [
+              "Balfour J A",
+              "Faulds D"
+            ],
+            "journal": "Drugs",
+            "year": "1992",
+            "abstract": "Terbinafine is an orally and topically active allylamine antifungal agent with a primarily fungicidal action in vitro. Its spectrum of in vitro activity includes a broad range of dermatophyte, filamentous, dimorphic and dematiaceous fungi, and some yeast species. In clinical trials, mycological and overall efficacy rates of around 90 and 80%, respectively, have been achieved in cutaneous dermatophyte infections (tinea corporis/cruris and tinea pedis) with terbinafine, administered either orally ",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8706596",
+            "title": "Itraconazole. A reappraisal of its pharmacological properties and therapeutic use in the management of superficial fungal infections.",
+            "authors": [
+              "Haria M",
+              "Bryson H M",
+              "Goa K L"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "Itraconazole is an orally administered triazole antifungal agent. Its spectrum of activity includes dermatophyte, dimorphic and dematiaceous fungi, yeasts, and some moulds. In clinical trials, mycological cure was attained in approximately 70 to 80, > or = 70 and > or = 80% of patients with, respectively, fingernail and toenail onychomycosis (200 mg/day for 3 months), dermatophytosis (100 mg/day for 2 to 4 weeks) and vaginal candidiasis (400 mg/day for 1 day or 200 mg/day for 3 days). Approximat",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4894316",
+            "title": "[Dermaqtomycoses. A review].",
+            "authors": [
+              "Pock-Steen B"
+            ],
+            "journal": "Nordisk medicin",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "Dermatology Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1100335",
+            "title": "Diagnosis and treatment of cutaneous fungus diseases.",
+            "authors": [
+              "Stretcher G S",
+              "Smith J G"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15571501",
+            "title": "Therapy of common superficial fungal infections.",
+            "authors": [
+              "Huang David B",
+              "Ostrosky-Zeichner Luis",
+              "Wu Jashin J",
+              "Pang Katie R",
+              "Tyring Stephen K"
+            ],
+            "journal": "Dermatologic therapy",
+            "year": "2004",
+            "abstract": "Superficial fungal infections are common, especially onychomycosis, dermatophytoses, and superficial Candida infections. Most superficial fungal infections are treated with topical antifungal agents unless the infection covers an extensive area or is resistant to initial therapy. Onychomycosis often requires systemic therapy with griseofulvin, itraconazole, or terbinafine. The objective of this review is to provide the practicing dermatologist with the recommended available therapy for the treat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19391293",
+            "title": "Fungal nail infections: diagnosis and management.",
+            "authors": [],
+            "journal": "Prescrire international",
+            "year": "2009",
+            "abstract": "1) Fungal nail infection, or onychomycosis, mainly affects toenails. Infections are generally asymptomatic. Spontaneous regressions, but also complications, appear to be rare. Discomfort and cosmetic complaint are occasionally reported; 2) After a review of the literature based on the standard Prescrire procedure, we examined the diagnosis and management of fungal nail infections; 3) Clinical signs of fungal nail infections are non-specific. Alternative diagnoses include psoriasis and nail micro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5162367",
+            "title": "Common cutaneous manifestations and problems of diabetes mellitus.",
+            "authors": [
+              "Fusaro R M",
+              "Goetz F C"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "1971",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27646953",
+            "title": "Immune reconstitution inflammatory syndrome associated with dermatophytoses in two HIV-1 positive patients in rural Tanzania: a case report.",
+            "authors": [
+              "Mapesi Herry",
+              "Ramírez Adrià",
+              "Tanner Marcel",
+              "Hatz Christoph",
+              "Letang Emilio"
+            ],
+            "journal": "BMC infectious diseases",
+            "year": "2016",
+            "abstract": "Immune reconstitution inflammatory syndrome associated with dermatophytoses (tinea-IRIS) may cause considerable morbidity. Yet, it has been scarcely reported and is rarely considered in the differential diagnosis of HIV associated cutaneous lesions in Africa. If identified, it responds well to antifungals combined with steroids. We present two cases of suspected tinea-immune reconstitution inflammatory syndrome from a large HIV clinic in rural Tanzania.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8382121",
+            "title": "Onychomycosis. Agents of choice.",
+            "authors": [
+              "Hay R J"
+            ],
+            "journal": "Dermatologic clinics",
+            "year": "1993",
+            "abstract": "The management of onychomycosis has changed considerably in the past few years. The main trends have been improvement in the choice of evidence and cover of infections other than dermatophytosis, shortening of periods of oral therapy, and introduction of topical agents designed to treat nail disease. At present there have been almost no comparative studies of these different approaches, and choice is therefore largely based on enlightened guesswork coupled with personal experience. It is hoped t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14275504",
+            "title": "TOLNAFTATE, A POTENT TOPICAL ANTIFUNGAL AGENT.",
+            "authors": [
+              "ROBINSON H M",
+              "RASKIN J"
+            ],
+            "journal": "Archives of dermatology",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4943591",
+            "title": "Chemotherapeutic evaluation of clotrimazole (Bay b 5097, 1 (o-chloro- - -diphenylbenzyl) imidazole).",
+            "authors": [
+              "Waitz J A",
+              "Moss E L",
+              "Weinstein M J"
+            ],
+            "journal": "Applied microbiology",
+            "year": "1971",
+            "abstract": "Clotrimazole has a broad spectrum of activity against yeast and filamentous fungi in vitro and also in vivo when given orally or parenterally to experimentally infected mice and when administered orally or topically to infected guinea pigs. In vitro a distinct inoculum effect has been observed with a number of strains of Candida and Torulopsis; minimal inhibitory concentrations have tended to increase with increased incubation time. With prolonged incubation times, resistance can be developed to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7501581",
+            "title": "Superficial fungal infections. Getting rid of lesions that don't want to go away.",
+            "authors": [
+              "Kovacs S O",
+              "Hruza L L"
+            ],
+            "journal": "Postgraduate medicine",
+            "year": "1995",
+            "abstract": "Systematic analysis of possible dermatophyte and candidal skin infections leads to an accurate diagnosis and prompt treatment with a specific regimen. The first steps are thorough skin examination and evaluation with a potassium hydroxide preparation. Tinea corporis, tinea cruris, tinea pedis, cutaneous candidiasis, and tinea versicolor can be treated with many topical antifungal agents, whereas tinea capitis requires oral griseofulvin therapy. Frequently used topical medications for tinea and c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14339306",
+            "title": "DRUGS FOR SUPERFICIAL FUNGOUS INFECTIONS OF THE SKIN.",
+            "authors": [
+              "MITCHELL J C"
+            ],
+            "journal": "Canadian Medical Association journal",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Griseofulvin 對 Candida 屬無活性——其機轉靶點（真菌微管蛋白）在念珠菌中的敏感性遠低於皮膚癬菌。20篇文獻均為廣義抗真菌藥物綜述，部分文獻（PMID:10439936, 1372222, 8706596）明確指出 Terbinafine/Itraconazole 取代 Griseofulvin，隱含其對念珠菌療效不足。文獻間接性強，且方向性偏向「Griseofulvin 不適用」。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "toxoplasmosis",
+      "txgnn": {
+        "score": 0.9868903160095216,
+        "rank": 12912
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "弓漿蟲病為原蟲感染，Griseofulvin 無抗原蟲機轉。標準治療為 Pyrimethamine + Sulfadiazine。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "alveolar echinococcosis",
+      "txgnn": {
+        "score": 0.9836289286613464,
+        "rank": 15029
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "泡型包蟲病（多房棘球蚴病）為絛蟲感染，Griseofulvin 無抗蠕蟲活性。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "blastomycosis",
+      "txgnn": {
+        "score": 0.9708295464515686,
+        "rank": 20928
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1100588",
+            "title": "Antifungal drugs.",
+            "authors": [
+              "Cartwright R Y"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "Pharmacology Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8077517",
+            "title": "Treatment of tropical mycoses.",
+            "authors": [
+              "Restrepo A"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1994",
+            "abstract": "Several subcutaneous and deep-seated mycoses are either observed more frequently in the tropical areas or are restricted to certain regions within the tropics. These mycoses include sporotichosis, chromoblastomycosis, entomophthoromycosis, eumycetoma, lobomycosis, and paracoccidioidomycosis. In sporotrichosis and paracoccidioidomycosis, therapy often results in either complete resolution or marked improvement. For decades sporotrichosis has been treated successfully with potassium iodide, but re",
+            "classification": {
+              "study_type": "Treatment Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14048882",
+            "title": "SYSTEMIC FUNGAL INFECTIONS AMENABLE TO CHEMOTHERAPY.",
+            "authors": [
+              "UTZ J P"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1963",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1100335",
+            "title": "Diagnosis and treatment of cutaneous fungus diseases.",
+            "authors": [
+              "Stretcher G S",
+              "Smith J G"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5598929",
+            "title": "[Advances in the therapy of mycoses].",
+            "authors": [
+              "Götz H"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "Historical Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14162090",
+            "title": "NOTES CONCERNING FUNGUS INFECTION IN U.A.R.",
+            "authors": [
+              "EL-ZAWAHRY M"
+            ],
+            "journal": "The Journal of the Egyptian Medical Association",
+            "year": "1963",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series/Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "芽生菌病為深部真菌感染（Blastomyces dermatitidis），理論上 Griseofulvin 對真菌有微管蛋白抑制活性，然其對全身性真菌的藥物動力學不佳（穿透性差，血中濃度不足）。6篇文獻均為1963-1994年歷史綜述，在比較各種抗真菌藥時提及 Griseofulvin，但均指出其對全身性真菌療效不足，現代指引以 Itraconazole/Amphotericin B 為標準治療。文獻證據為歷史性間接負向證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Bacteroidaceae infectious disease",
+      "txgnn": {
+        "score": 0.9557011127471924,
+        "rank": 25294
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Bacteroidaceae 為厭氧革蘭氏陰性菌，Griseofulvin 為抗真菌藥，對細菌無抗菌活性，機轉上完全不相關。無任何臨床或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "myiasis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "creeping myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "creeping myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "creeping myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "wound myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "wound myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "wound myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "furuncular myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "furuncular myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "furuncular myiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "echinococcus granulosus infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "cutaneous candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "toxoplasmosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "toxoplasmosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "toxoplasmosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "alveolar echinococcosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "alveolar echinococcosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "alveolar echinococcosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "blastomycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "blastomycosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "blastomycosis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "Bacteroidaceae infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "Bacteroidaceae infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Griseofulvin",
+        "disease": "Bacteroidaceae infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+## Acyclovir (DB00787) 藥物再利用證據分析
+
+以下為完整評估結果：
+
+```json
+{
+  "drug": "Acyclovir",
+  "drugbank_id": "DB00787",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Acyclovir 為核苷酸類似物，藉病毒胸苷激酶（TK）活化後競爭性抑制病毒 DNA 聚合酶。對 HSV-1/2、VZV 活性強，對 EBV 中等，對 CMV 弱，對 RNA 病毒（HCV、SARS-CoV-2）、HPV 及真菌均無直接活性。market_status '未上市' 可能為地區性資料落差，全球 Acyclovir 為已廣泛核准藥物。",
+  "indications": [
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "角膜點狀上皮炎（PEK）可繼發於 HSV-1 眼部感染（最常見原因之一），Acyclovir 對 HSV-1 具直接抑制活性，機轉上有合理連結。然而，兩篇文獻均未直接研究 Acyclovir 療效：PMID 7825685 描述 AIDS 患者角膜脂質沉積，PMID 21934222 為微孢子蟲引起的角結膜炎個案系列（微孢子蟲非病毒，對 Acyclovir 無反應）。證據為間接引用，無臨床試驗，需確認 PEK 病因是否為 HSV 後再評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7825685",
+          "study_type": "Case Series / Cross-sectional",
+          "tier": "3"
+        },
+        {
+          "pmid": "21934222",
+          "study_type": "Case Series",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "common wart",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "普通疣由 HPV（非包膜 dsDNA 病毒）引起，HPV 不編碼胸苷激酶，理論上對 Acyclovir 無感受性，屬機轉不符合情形。然而，皮損內注射 Acyclovir 可能透過非特異性免疫原性反應（局部炎症、樹突細胞活化）誘發抗 HPV 免疫，類似 Candida 抗原注射的機轉假說。值得注意：多項 Phase 4 RCT 及一項 Phase 2/3 RCT 已直接評估此療法，顯示實際臨床療效訊號。guardrails 重點：需釐清免疫調節機轉、劑量方案及長期復發率。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06261684",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3 RCT，皮損內 Acyclovir vs 冷凍療法治療蹠疣，n=92，最高等級直接證據，狀態 UNKNOWN 需核實"
+        },
+        {
+          "nct_id": "NCT07448844",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，主動招募中，直接比較皮損內 Vitamin D3 vs Acyclovir 治療皮膚病毒疣，n=40"
+        },
+        {
+          "nct_id": "NCT07196670",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，單盲 RCT，皮損內 Vitamin D vs Acyclovir 治療蹠疣，n=60，尚未開始招募"
+        },
+        {
+          "nct_id": "NCT05429151",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，皮損內 Acyclovir vs 念珠菌抗原治療皮膚病毒疣，n=40，免疫調節機轉比較具有科學價值"
+        },
+        {
+          "nct_id": "NCT05324904",
+          "relevance_grade": "A",
+          "reasoning": "直接比較皮損內 Vitamin D3 vs Acyclovir 治療蹠疣，n=44，Phase NA（可能為觀察性）"
+        },
+        {
+          "nct_id": "NCT03465280",
+          "relevance_grade": "C",
+          "reasoning": "復發性呼吸道乳突瘤（RRP）登錄研究，病因同為 HPV 但解剖部位不同、非 Acyclovir 治療研究，間接參考價值"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40488756",
+          "study_type": "Comparative RCT (皮損內 Acyclovir vs 5-FU)",
+          "tier": "1"
+        },
+        {
+          "pmid": "40056255",
+          "study_type": "Comparative RCT (皮損內 Acyclovir vs HPV 四價疫苗)",
+          "tier": "1"
+        },
+        {
+          "pmid": "26885794",
+          "study_type": "Clinical Study (口服 Acyclovir 治療疣)",
+          "tier": "2"
+        },
+        {
+          "pmid": "6467981",
+          "study_type": "Clinical Study (Acyclovir 軟膏治療疣，1984)",
+          "tier": "2"
+        },
+        {
+          "pmid": "25565081",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "27265075",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "2180022",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "35750325",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "41010307",
+          "study_type": "Narrative Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "9031782",
+          "study_type": "Observational / Review",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "post-infectious neuralgia",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "帶狀疱疹後神經痛（PHN）由 VZV 急性感染期神經損傷所導致。Acyclovir 透過抑制 VZV 複製，可縮短病毒血症期、減少神經組織炎症，從而降低 PHN 發生率或嚴重度（預防性機轉）。NCT02151240 直接以 Sodium Acyclovir（靜脈）對照 Foscarnet 治療帶狀疱疹，屬 A 級直接證據；Valacyclovir（Acyclovir 前藥）在 Phase 3 試驗中亦有直接評估。重要 guardrails：本適應症偏向「預防 PHN」而非「治療已發生的 PHN」，已建立 PHN 的治療效益需另行評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02151240",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，直接比較 Foscarnet Sodium vs Sodium Acyclovir（靜脈）治療帶狀疱疹預防 PHN，n=94，唯一直接涉及 Acyclovir 本身的試驗"
+        },
+        {
+          "nct_id": "NCT02412917",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，FV-100 vs Valacyclovir（Acyclovir 前藥）治療帶狀疱疹，已終止（n=237），結果可能提供安全性資料"
+        },
+        {
+          "nct_id": "NCT03134196",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，長期 Valacyclovir 抑制治療帶狀疱疹眼炎，n=527（大樣本），支持抗病毒長期抑制策略"
+        },
+        {
+          "nct_id": "NCT05492591",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，抗病毒劑量探索研究，n=50，完成，評估安全性與療效端點"
+        },
+        {
+          "nct_id": "NCT01250561",
+          "relevance_grade": "B",
+          "reasoning": "帶狀疱疹 PHN 減少策略試驗，n=133，可能包含 Acyclovir 使用資料"
+        },
+        {
+          "nct_id": "NCT01254630",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3，VZV 疫苗（V212）預防帶狀疱疹，n=5305，疫苗非 Acyclovir，間接對照參考"
+        },
+        {
+          "nct_id": "NCT01229267",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 疫苗試驗，n=1257，非 Acyclovir 治療研究"
+        },
+        {
+          "nct_id": "NCT04546334",
+          "relevance_grade": "C",
+          "reasoning": "豎脊肌平面阻滯神經介入術，非抗病毒治療"
+        },
+        {
+          "nct_id": "NCT02329457",
+          "relevance_grade": "C",
+          "reasoning": "VZV 減毒活疫苗 Phase 2/3，造血幹細胞移植族群，非 Acyclovir 評估"
+        },
+        {
+          "nct_id": "NCT06307444",
+          "relevance_grade": "C",
+          "reasoning": "超音波引導神經阻滯術比較，疼痛管理介入，非抗病毒"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hepatitis C induced liver cirrhosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "根本機轉不符：HCV 為正單鏈 RNA 病毒（+ssRNA），利用 RNA 依賴性 RNA 聚合酶（NS5B）複製，不經 DNA 中間體，亦無胸苷激酶。Acyclovir 的活化依賴病毒 TK 磷酸化，僅對特定 DNA 病毒有效。PMID 2126146（1990 年慢性病毒肝炎治療綜述）僅在歷史脈絡下提及 Acyclovir；PMID 8225977 描述肝源性免疫抑制合併 HSV 感染（合併症，非 HCV 肝硬化治療）。TxGNN 高分可能反映知識圖譜中共病網絡的間接連結，非真實藥物-疾病效應。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2126146",
+          "study_type": "Narrative Review (1990)",
+          "tier": "3"
+        },
+        {
+          "pmid": "8225977",
+          "study_type": "Case Report / Case Series",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "eosinophilic pustular folliculitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "嗜酸性膿皰性毛囊炎（EPF）為免疫介導性炎症性毛囊炎，病因涉及 Th2 免疫失調，在 HIV 感染者中與免疫重建炎症症候群（IRIS）相關，並非由特定病毒引起。Acyclovir 無已知的抗炎或免疫調節機轉可解釋對 EPF 的療效。唯一文獻（PMID 41413009，2025 年新生兒 EPF 案例，水皰表現）未提及 Acyclovir 治療，屬完全間接引用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "41413009",
+          "study_type": "Case Report",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "sequela of COVID-19",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "假說機轉（尚未臨床驗證）：SARS-CoV-2 感染可誘發潛伏性皰疹病毒（HSV-1/2、VZV、EBV、HHV-6）再活化，而皰疹病毒持續再活化可能參與 Long COVID 的神經炎症、疲勞及認知障礙症狀。Acyclovir 對 HSV/VZV 具強效抑制活性，理論上可控制再活化。支持證據：PMID 35446232 計算模型預測 Acyclovir 對 COVID-19 患者有潛在療效（機轉：四氫生物蝶呤路徑）；多篇個案報告記錄 Post-COVID HSV 腦炎（以 Acyclovir 治療成功）。缺乏：無針對 Long COVID 的 RCT，尚處於假說驗證階段。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35446232",
+          "study_type": "Computational / Network Pharmacology",
+          "tier": "3"
+        },
+        {
+          "pmid": "35349757",
+          "study_type": "Case Series (EBV 再活化，ganciclovir 治療)",
+          "tier": "3"
+        },
+        {
+          "pmid": "38963201",
+          "study_type": "Case Report (Post-COVID HSV 腦炎)",
+          "tier": "3"
+        },
+        {
+          "pmid": "35199176",
+          "study_type": "Review (Post-COVID HSV 腦炎)",
+          "tier": "3"
+        },
+        {
+          "pmid": "35383876",
+          "study_type": "Case Report / Review (COVID + 皰疹病毒腦炎)",
+          "tier": "3"
+        },
+        {
+          "pmid": "33607505",
+          "study_type": "Case Report (COVID-19 + HHV-6 + MOG 抗體)",
+          "tier": "3"
+        },
+        {
+          "pmid": "35435264",
+          "study_type": "Systematic Review (COVID 相關腦炎)",
+          "tier": "2"
+        },
+        {
+          "pmid": "35215786",
+          "study_type": "Review (帶狀疱疹臨床表現與治療)",
+          "tier": "3"
+        },
+        {
+          "pmid": "33197261",
+          "study_type": "Review (COVID 時代超炎症管理)",
+          "tier": "3"
+        },
+        {
+          "pmid": "39305363",
+          "study_type": "Cohort Study (兒童水痘住院結果)",
+          "tier": "2"
+        }
+      ]
+    },
+    {
+      "disease_name": "vulvovaginal candidiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "根本機轉不符：外陰陰道念珠菌病（VVC）由 Candida spp.（真菌）引起，Acyclovir 為抗病毒藥物，對真菌細胞壁、麥角固醇合成路徑均無作用，不具任何抗真菌活性。現有文獻均為間接引用（懷孕皮膚感染通論、STD 治療通論、IUD 多藥物遞送技術研究），無一評估 Acyclovir 對 VVC 的療效。TxGNN 高分可能源於 HSV 與 Candida 在 STD / 免疫抑制族群中的共病關聯，屬知識圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27265075",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "6896082",
+          "study_type": "Review (1982)",
+          "tier": "3"
+        },
+        {
+          "pmid": "27158693",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "41088958",
+          "study_type": "Technical / Pharmaceutical Study",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "papular urticaria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "丘疹性蕁麻疹為昆蟲叮咬引起的 IgE 介導及遲發性 T 細胞超敏反應，與病毒複製無關。Acyclovir 對此適應症無任何已知機轉連結。資料空白：臨床試驗 0 筆、文獻 0 筆。此為本次分析中最缺乏根據的候選適應症，TxGNN 預測分數（0.991）可能為假陽性訊號。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "disease of orbital region",
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "眼眶區疾病（此處主要由帶狀疱疹眼炎 [HZO] 及 HSV 眼部感染引起）為 Acyclovir 核心臨床適應症之延伸，機轉明確：抑制 VZV/HSV DNA 聚合酶，減少病毒複製，降低眼眶組織炎症及神經受損風險。NCT06757907 直接比較局部 Ganciclovir vs 全身性 Aciclovir（即 Acyclovir）治療疱疹性角膜炎；NCT03134196 以 Valacyclovir（前藥）進行大樣本（n=527）長期抑制治療 HZO 的 Phase 4 試驗。此適應症與 Acyclovir 全球核准適應症（帶狀疱疹、HSV 感染）高度重疊，guardrails 重點在於：眼眶區具體病變的最佳給藥途徑（全身 vs 局部）、劑量及療程長短。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06757907",
+          "relevance_grade": "A",
+          "reasoning": "直接比較局部 Ganciclovir vs 全身 Aciclovir 治療疱疹性角膜炎（眼眶區），n=20，最高直接相關性"
+        },
+        {
+          "nct_id": "NCT03134196",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，Valacyclovir（Acyclovir 前藥）長期抑制帶狀疱疹眼炎，大樣本 n=527，已完成"
+        },
+        {
+          "nct_id": "NCT03598452",
+          "relevance_grade": "C",
+          "reasoning": "高劑量 Ganciclovir 玻璃體內注射，非 Acyclovir"
+        },
+        {
+          "nct_id": "NCT00001062",
+          "relevance_grade": "C",
+          "reasoning": "口服 Ganciclovir Phase 1 藥動學，非 Acyclovir"
+        },
+        {
+          "nct_id": "NCT00000665",
+          "relevance_grade": "C",
+          "reasoning": "CMV 視網膜炎 SOCA 試驗（Foscarnet vs Ganciclovir），非 Acyclovir"
+        },
+        {
+          "nct_id": "NCT00006145",
+          "relevance_grade": "C",
+          "reasoning": "Valganciclovir 預防 CMV，非 Acyclovir"
+        },
+        {
+          "nct_id": "NCT00000668",
+          "relevance_grade": "C",
+          "reasoning": "口服 Ganciclovir 藥動學，非 Acyclovir"
+        },
+        {
+          "nct_id": "NCT00002070",
+          "relevance_grade": "C",
+          "reasoning": "Ganciclovir ± GM-CSF 治療 AIDS 相關 CMV 視網膜炎，非 Acyclovir"
+        },
+        {
+          "nct_id": "NCT03457025",
+          "relevance_grade": "C",
+          "reasoning": "高壓氧治療 Bell's Palsy，已撤回，與眼眶區 Acyclovir 無關"
+        },
+        {
+          "nct_id": "NCT01349452",
+          "relevance_grade": "C",
+          "reasoning": "Ganciclovir 眼凝膠治療腺病毒角結膜炎，非 Acyclovir"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3493673",
+          "study_type": "Review / Case Series (帶狀疱疹眼炎，1987)",
+          "tier": "3"
+        },
+        {
+          "pmid": "35957932",
+          "study_type": "Case Report (帶狀疱疹眼炎眼眶尖端症候群)",
+          "tier": "3"
+        },
+        {
+          "pmid": "12573470",
+          "study_type": "Experimental Study (Ganciclovir 腦部基因遞送，非直接相關)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "epidemic keratoconjunctivitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "流行性角結膜炎（EKC）主要由人類腺病毒（HAdV，非包膜 dsDNA 病毒）引起。腺病毒不編碼胸苷激酶，對 Acyclovir 天然具抵抗性。體外試驗（PMID 36346478）顯示 Acyclovir 對某些腺病毒基因型有低度體外抑制活性，但臨床轉譯意義不明。系統性綜述（PMID 35238405，Cochrane level）顯示目前無有效外用藥物獲得充分支持。文獻中涉及 Acyclovir 者均為通論引用或其他感染情境（HSV），無直接 EKC 臨床試驗。建議：若病因為 HSV 引起的角結膜炎，則應重新分類並以 'disease of orbital region' 適應症評估；單純 EKC（腺病毒）不建議追求。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36346478",
+          "study_type": "In Vitro Study",
+          "tier": "3"
+        },
+        {
+          "pmid": "35238405",
+          "study_type": "Systematic Review (Cochrane)",
+          "tier": "1"
+        },
+        {
+          "pmid": "31111724",
+          "study_type": "Cohort Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "10614681",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "1895726",
+          "study_type": "Case Series",
+          "tier": "3"
+        },
+        {
+          "pmid": "6355045",
+          "study_type": "Review (1983)",
+          "tier": "3"
+        },
+        {
+          "pmid": "21934222",
+          "study_type": "Case Series (微孢子蟲，非腺病毒)",
+          "tier": "3"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 機轉符合度 |
+|--------|---------|---------|------|-----------|
+| **disease of orbital region** | L2 | S3 | ✅ Proceed with Guardrails | ⭐⭐⭐⭐⭐ HZO/HSV 眼炎，核心適應症延伸 |
+| **common wart** | L2 | S2 | ⚠️ Proceed with Guardrails | ⭐⭐ HPV 無 TK，機轉為免疫調節假說 |
+| **post-infectious neuralgia** | L2 | S2 | ⚠️ Proceed with Guardrails | ⭐⭐⭐⭐ VZV→PHN，預防機轉合理 |
+| **punctate epithelial keratoconjunctivitis** | L4 | S1 | 🔬 Research Question | ⭐⭐⭐ 若為 HSV 引起則機轉合理 |
+| **sequela of COVID-19** | L4 | S1 | 🔬 Research Question | ⭐⭐ 皰疹病毒再活化假說，尚未驗證 |
+| **epidemic keratoconjunctivitis** | L4 | S1 | 🛑 Hold | ⭐ 腺病毒無 TK，機轉不符 |
+| **hepatitis C induced liver cirrhosis** | L5 | S0 | 🛑 Hold | ✗ RNA 病毒，機轉根本不符 |
+| **eosinophilic pustular folliculitis** | L5 | S0 | 🛑 Hold | ✗ 免疫介導性炎症，無機轉連結 |
+| **vulvovaginal candidiasis** | L5 | S0 | 🛑 Hold | ✗ 真菌感染，根本不符 |
+| **papular urticaria** | L5 | S0 | 🛑 Hold | ✗ 超敏反應，無任何機轉連結 |
+
+---
+
+## 🔑 關鍵評析
+
+### 優先推進（S2-S3）
+
+1. **Disease of Orbital Region（帶狀疱疹眼炎）**：此為 Acyclovir 最具臨床意義的再利用候選，實質上與已核准適應症高度重疊。NCT06757907 直接比較 Acyclovir 給藥路徑，NCT03134196 提供大樣本長期抑制治療數據，研究問題應聚焦於「最佳化給藥方案」而非重新驗證療效。
+
+2. **Common Wart（皮損內注射）**：雖機轉不符傳統 Acyclovir 活性，但 6 項臨床試驗（含 1 項 Phase 2/3 RCT）的累積證據不容忽視。建議進行免疫調節機轉研究，並整合 2025 年最新比較性 RCT 結果（PMIDs 40488756, 40056255）。
+
+3. **Post-infectious Neuralgia**：需區分「急性帶狀疱疹治療以預防 PHN」vs「已建立 PHN 的治療」。前者有明確機轉支持；後者尚需更多直接證據。
+
+### 值得觀察（S1）
+
+- **Sequela of COVID-19**：Long COVID 皰疹病毒再活化假說具一定科學合理性，建議設計 proof-of-concept 試驗，評估抗病毒療法是否改善特定 Long COVID 表型（如疲勞、腦霧）。
+
+### 建議捨棄（S0）
+
+- **HCV 肝硬化、念珠菌病、丘疹性蕁麻疹、EPF**：均為機轉根本不符或完全無證據的候選，TxGNN 預測高分源於知識圖譜共病網絡雜訊，不具再利用潛力。

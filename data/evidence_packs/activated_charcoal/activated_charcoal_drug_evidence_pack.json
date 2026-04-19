@@ -1,0 +1,1668 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB09278-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Activated charcoal",
+    "drugbank_id": "DB09278",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn": {
+        "score": 0.8993961811065674,
+        "rank": 34872
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Jeune 症候群為纖毛病變（ciliopathy），造成骨骼發育不良及內臟轉位（situs inversus），屬於遺傳性結構缺陷。活性碳機轉為腸道物理吸附，對纖毛功能、胚胎軸向決定或骨骼發育無任何已知作用路徑。TxGNN 高分極可能來自知識圖譜中非特異性網路連結（artifact）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "orofacial clefting syndrome",
+      "txgnn": {
+        "score": 0.8957293033599854,
+        "rank": 35222
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "顏面裂症候群為胚胎顱面部融合失敗所致之發育/遺傳缺陷（涉及 IRF6、FOXE1 等基因）。活性碳為非選擇性吸附劑，與顏面裂發病機轉完全無交集；缺乏任何生物合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "disorder of fucoglycosan synthesis",
+      "txgnn": {
+        "score": 0.8953456282615662,
+        "rank": 35253
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32716060",
+            "title": "Pharmacological interventions for treating intrahepatic cholestasis of pregnancy.",
+            "authors": [
+              "Walker Kate F",
+              "Chappell Lucy C",
+              "Hague William M",
+              "Middleton Philippa",
+              "Thornton Jim G"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2020",
+            "abstract": "Intrahepatic cholestasis of pregnancy (ICP) is a liver disorder that can develop in pregnancy. It occurs when there is a build-up of bile acids in the maternal blood. It has been linked to adverse maternal and fetal/neonatal outcomes. As the pathophysiology is poorly understood, therapies have been largely empiric. As ICP is an uncommon condition (incidence less than 2% a year), many trials have been small. Synthesis, including recent larger trials, will provide more evidence to guide clinical p",
+            "classification": {
+              "study_type": "Systematic Review / RCT meta-analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37039556",
+            "title": "NR3C1/Glucocorticoid receptor activation promotes pancreatic β-cell autophagy overload in response to glucolipotoxicity.",
+            "authors": [
+              "Wu Tijun",
+              "Shao Yixue",
+              "Li Xirui",
+              "Wu Tao",
+              "Yu Ling"
+            ],
+            "journal": "Autophagy",
+            "year": "2023",
+            "abstract": "Diabetes is a complex and heterogeneous disorder characterized by chronic hyperglycemia. Its core cause is progressively impaired insulin secretion by pancreatic β-cell failures, usually upon a background of preexisting insulin resistance. Recent studies demonstrate that macroautophagy/autophagy is essential to maintain architecture and function of β-cells, whereas excessive autophagy is also involved in β-cell dysfunction and death. It has been poorly understood whether autophagy plays a protec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31725009",
+            "title": "Charcoal for the management of pruritus and uremic toxins in patients with chronic kidney disease.",
+            "authors": [
+              "Cupisti Adamasco",
+              "Piccoli Giorgina B",
+              "Gallieni Maurizio"
+            ],
+            "journal": "Current opinion in nephrology and hypertension",
+            "year": "2020",
+            "abstract": "Pruritus is an important, prevalent but often neglected symptom in patients with advanced chronic kidney disease (CKD) or on dialysis. This review addresses the use of activated charcoal and its analogs in the treatment of uremic pruritus, which can be a sign of uremic toxicity.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16499407",
+            "title": "Anticoagulant rodenticides.",
+            "authors": [
+              "Watt Barbara E",
+              "Proudfoot Alex T",
+              "Bradberry Sally M",
+              "Vale J Allister"
+            ],
+            "journal": "Toxicological reviews",
+            "year": "2005",
+            "abstract": "Anticoagulant pesticides are used widely in agricultural and urban rodent control. The emergence of warfarin-resistant strains of rats led to the introduction of a new group of anticoagulant rodenticides variously referred to as 'superwarfarins', 'single dose' or 'long-acting'. This group includes the second generation 4-hydroxycoumarins brodifacoum, bromadiolone, difenacoum, flocoumafen and the indanedione derivatives chlorophacinone and diphacinone. Most cases of anticoagulant rodenticide expo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22541700",
+            "title": "Hepatic encephalopathy.",
+            "authors": [
+              "Khungar Vandana",
+              "Poordad Fred"
+            ],
+            "journal": "Clinics in liver disease",
+            "year": "2012",
+            "abstract": "Hepatic encephalopathy (HE) represents a continuum of transient and reversible neurologic and psychiatric dysfunction. It is a reversible state of impaired cognitive function or altered consciousness in patients with liver disease or portosystemic shunting. Over the last several years, high-quality studies have been conducted on various pharmacologic therapies for HE; as more data emerge, it is hoped that HE will become a more easily treated complication of decompensated liver disease. In the in",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26563790",
+            "title": "Carbon monoxide intoxication.",
+            "authors": [
+              "Bleecker Margit L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2015",
+            "abstract": "Carbon monoxide (CO) is a colorless, odorless, nonirritant gas that accounts for numerous cases of CO poisoning every year from a variety of sources of incomplete combustion of hydrocarbons. These include poorly functioning heating systems, indoor propane-powered forklifts, indoor burning of charcoal burning briquettes, riding in the back of pick-up trucks, ice skating rinks using propane-powered resurfacing machines, and gasoline-powered generators that are not in correct locations. Once CO is ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40093417",
+            "title": "Efficacy of novel activated bamboo charcoal in reducing uremic toxins and enhancing kidney function in chronic kidney disease patients: a pilot randomized controlled trial.",
+            "authors": [
+              "Hung Kuo-Chin",
+              "Lee Mei-Yueh",
+              "Hung Shih-Yuan",
+              "Sun Chiao-Yin",
+              "Wu Chau-Chung"
+            ],
+            "journal": "PeerJ",
+            "year": "2025",
+            "abstract": "The role of uremic toxins in the progression of chronic kidney disease (CKD) and novel treatments to mitigate their effects are critical areas of research. This pilot study investigated the efficacy of a novel activated bamboo charcoal and/or probiotics in reducing uremic toxins and improving renal function in CKD patients.",
+            "classification": {
+              "study_type": "RCT / Experimental",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39922377",
+            "title": "Mitochondrial dysfunction and mitophagy blockade contribute to renal osteodystrophy in chronic kidney disease-mineral bone disorder.",
+            "authors": [
+              "Hsu Shun-Neng",
+              "Stephen Louise A",
+              "Phadwal Kanchan",
+              "Dillon Scott",
+              "Carter Roderick"
+            ],
+            "journal": "Kidney international",
+            "year": "2025",
+            "abstract": "Chronic kidney disease-mineral and bone disorder (CKD-MBD) presents with extra-skeletal calcification and renal osteodystrophy (ROD). However, the pathophysiology of ROD remains unclear. Here we examine the hypothesis that stalled mitophagy within osteocytes of CKD-MBD mouse models contributes to bone loss. RNA-seq analysis revealed an altered expression of genes associated with mitophagy and mitochondrial function in tibia of CKD-MBD mice. The expression of mitophagy regulators, p62/SQSTM1, ATG",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21716104",
+            "title": "Indications for single-dose activated charcoal administration in acute overdose.",
+            "authors": [
+              "Isbister Geoffrey K",
+              "Kumar Venkata V Pavan"
+            ],
+            "journal": "Current opinion in critical care",
+            "year": "2011",
+            "abstract": "Gastrointestinal decontamination in overdose patients remains a controversial problem in emergency medicine. There has been a significant decrease in the use of single-dose activated charcoal (SDAC) in recent years based on little new evidence and possibly because the overall mortality in overdose patients is low.",
+            "classification": {
+              "study_type": "Review / Clinical guideline",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36562292",
+            "title": "The G protein-coupled receptor ligand apelin-13 ameliorates skeletal muscle atrophy induced by chronic kidney disease.",
+            "authors": [
+              "Enoki Yuki",
+              "Nagai Tomoya",
+              "Hamamura Yuna",
+              "Osa Sumika",
+              "Nakamura Hideaki"
+            ],
+            "journal": "Journal of cachexia, sarcopenia and muscle",
+            "year": "2023",
+            "abstract": "Targeting of the apelin-apelin receptor (Apj) system may serve as a useful therapeutic intervention for the management of chronic kidney disease (CKD)-induced skeletal muscle atrophy. We investigated the roles and efficacy of the apelin-Apj system in CKD-induced skeletal muscle atrophy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38274659",
+            "title": "Sorption of phenols and flavonoids on activated charcoal improves protein metabolism, antioxidant status, immunity, and intestinal morphology in broilers.",
+            "authors": [
+              "Zhang Ying",
+              "Fu Xiaoqi",
+              "Wang Lixue",
+              "Guo Xiangyue",
+              "Dong Bing"
+            ],
+            "journal": "Frontiers in veterinary science",
+            "year": "2023",
+            "abstract": "Previous studies have revealed that activated charcoal sorption of Chinese herbal extracts is more effective than activated charcoal. The present study was designed to investigate whether phenols and flavonoids have an effect on nutrient metabolism, antioxidant activity, immunity, and intestinal morphology in broilers. Seven diets [basal diet (CON); CON supplemented with 450 mg/kg of activated charcoal (AC); CON supplemented with 250, 500, 750, 1,000, or 7,500 mg/kg of phenolic acids and flavono",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7650764",
+            "title": "Multiple-dose activated charcoal and enhancement of systemic drug clearance: summary of studies in animals and human volunteers.",
+            "authors": [
+              "Chyka P A"
+            ],
+            "journal": "Journal of toxicology. Clinical toxicology",
+            "year": "1995",
+            "abstract": "Multiple-dose activated charcoal therapy can enhance the systemic elimination of many drugs. Studies in animals and human volunteers provide a framework for understanding the indications and limitations of multiple-dose activated charcoal therapy. Enterocapillary exsorption creates a compartment for diffusion drugs out of the bloodstream and activated charcoal can augment this process to enhance drug clearance. Once charcoal reaches the intestine, there is a rapid onset of action. Clearance at e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19708977",
+            "title": "Protein-bound toxins--update 2009.",
+            "authors": [
+              "Jourde-Chiche Noémie",
+              "Dou Laetitia",
+              "Cerini Claire",
+              "Dignat-George Françoise",
+              "Vanholder Raymond"
+            ],
+            "journal": "Seminars in dialysis",
+            "year": "2009",
+            "abstract": "Protein-bound uremic retention solutes constitute a group whose common characteristic is their difficult removal by dialysis. In 2003, the EUTox group described 25 protein-bound solutes. They comprised six advanced glycation end products (AGE), four phenols (including p-cresol), six indoles (including indoxylsulfate), two hippurates, three polyamines, and two peptides, homocysteine and 3-carboxy-4-methyl-5-propyl-2-furanpropionic acid (CMPF). As then, three new compounds have been added to the l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37487686",
+            "title": "Health risks associated with the production and usage of charcoal: a systematic review.",
+            "authors": [
+              "Idowu Oladipo S",
+              "De Azevedo Liane Beretta",
+              "Zohoori Fatemeh Vida",
+              "Kanmodi Kehinde",
+              "Pak Tannaz"
+            ],
+            "journal": "BMJ open",
+            "year": "2023",
+            "abstract": "Charcoal production and utilisation are linked to various health issues and occupational hazards. However, to our knowledge, no systematic review has primarily focused on the health implications of charcoal production and its use while distinguishing charcoal from other solid fuels such as wood and coal.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17464150",
+            "title": "Liver support systems.",
+            "authors": [
+              "Santoro Antonio",
+              "Mancini Elena",
+              "Ferramosca Emiliana",
+              "Faenza Stefano"
+            ],
+            "journal": "Contributions to nephrology",
+            "year": "2007",
+            "abstract": "Liver insufficiency is a dramatic syndrome with multiple organ involvement. A multiplicity of toxic substances (hydrophilic like ammonia and lipophilic like bilirubin or bile acids or mercaptans) are released into the systemic circulation, thus altering many enzymatic cellular processes. Patients frequently die while on the transplantation waiting list because of organ scarcity. Systems supporting liver function may be useful to avoid further complications due to the typical toxic state, 'bridgi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3530584",
+            "title": "Clinical pharmacokinetics of dapsone.",
+            "authors": [
+              "Zuidema J",
+              "Hilbers-Modderman E S",
+              "Merkus F W"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1986",
+            "abstract": "Dapsone (DDS) has for about 4 decades been the most important antileprosy drug. Concentrations of dapsone and its monoacetyl metabolite, MADDS, can be determined in biological media by high-performance liquid chromatography. After oral administration, the drug is slowly absorbed, the maximum concentration in plasma being reached at about 4 hours, with an absorption half-life of about 1.1 hours. However, the extent of absorption has not been adequately determined. The elimination half-life of dap",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7864477",
+            "title": "Correlation of drug pharmacokinetics and effectiveness of multiple-dose activated charcoal therapy.",
+            "authors": [
+              "Chyka P A",
+              "Holley J E",
+              "Mandrell T D",
+              "Sugathan P"
+            ],
+            "journal": "Annals of emergency medicine",
+            "year": "1995",
+            "abstract": "To evaluate an animal model of multiple-dose activated charcoal (MDAC) therapy and correlate the pharmacokinetic properties of four drugs with the efficacy of MDAC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16925661",
+            "title": "Liver support technology--an update.",
+            "authors": [
+              "Rozga Jacek"
+            ],
+            "journal": "Xenotransplantation",
+            "year": "2006",
+            "abstract": "Currently, there is no direct treatment for hepatic failure, and patients must receive a transplant or endure prolonged hospitalization, with significant morbidity and mortality. Because of the scarcity of donor organs, liver support strategies are being developed with the aim of either supporting patients with borderline functional liver cell mass until an appropriate organ becomes available for transplantation or until their livers recover from injury.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28573386",
+            "title": "Uremic Toxicity and Bone in CKD.",
+            "authors": [
+              "Yamamoto Suguru",
+              "Fukagawa Masafumi"
+            ],
+            "journal": "Journal of nephrology",
+            "year": "2017",
+            "abstract": "Patients with chronic kidney disease (CKD), especially those on dialysis treatment, are at high risk of bone fracture. In CKD-mineral and bone disorder (CKD-MBD), secondary hyperparathyroidism in patients with advanced CKD induces bone abnormalities, and skeletal resistance to parathyroid hormone (PTH) starts in the early stages of kidney disease. Uremic toxins such as indoxyl sulfate and p-cresyl sulfate reduce the expression of PTH receptor as well as PTH-induced cyclic adenosine 3',5' monopho",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6210172",
+            "title": "Receptor measurements.",
+            "authors": [
+              "McBride J H"
+            ],
+            "journal": "Clinics in laboratory medicine",
+            "year": "1984",
+            "abstract": "Estrogen and progesterone receptor assays supply information that aids the physician in making informed judgments as to which patients are likely to respond to endocrine therapy. From the clinical laboratory viewpoint, the current receptor assays have been a success, but much remains to be done. Sensitivity, turnaround time, and cost will be greatly improved by new developments in the area of steroid receptor analysis, especially with the use of HPLC, IRA, and of monoclonal antibodies. The use o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Fucoglycosan 合成缺陷屬溶酶體貯積症亞型，肇因於醣蛋白降解酵素缺乏。雖活性碳在理論上可吸附腸道代謝廢物（uremic toxins、膽汁酸），但對此類酵素缺陷型貯積病無已知療效路徑；文獻 20 筆皆為活性碳既有用途（CKD、中毒）的間接引用，無一篇直接針對此疾病。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+      "txgnn": {
+        "score": 0.8948639631271362,
+        "rank": 35296
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pierre Robin 序列合併染色體異常屬遺傳性顱面缺陷（下頷發育不全、舌下垂、顎裂）。活性碳的腸道吸附機轉與染色體結構異常或顱面胚胎發育完全無關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "partial deletion of the long arm of chromosome 22",
+      "txgnn": {
+        "score": 0.8939048647880554,
+        "rank": 35400
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "22q 長臂缺失（含 DiGeorge/22q11.2 deletion spectrum）為染色體結構異常，表現多系統缺陷（心臟、免疫、神經）。藥物無法修復染色體缺失；活性碳機轉與其病因完全不相容。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "partial deletion of the long arm of chromosome 7",
+      "txgnn": {
+        "score": 0.892869770526886,
+        "rank": 35517
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "7q 缺失症候群為染色體結構病，臨床表現視缺失區段而異（如 Williams syndrome 涉及 7q11.23）。與染色體缺失相關的遺傳病理無法藉由腸道吸附劑介入。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pulmonary valve disease",
+      "txgnn": {
+        "score": 0.8918949365615845,
+        "rank": 35630
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8445184",
+            "title": "Heroin body packers.",
+            "authors": [
+              "Utecht M J",
+              "Stone A F",
+              "McCarron M M"
+            ],
+            "journal": "The Journal of emergency medicine",
+            "year": "1993",
+            "abstract": "Fourteen body packers carrying 2-112 heroin packages are reported. Nine people swallowed the packets, and five inserted them rectally. The ingested packages were large and radio-opaque; they consisted of hard lumps of concentrated heroin usually covered with glove latex, white adhesive tape, and a toy balloon. There were two complications in the 14 patients. One patient developed a bowel obstruction; at laparotomy 8 packages were found in the stomach and 27 at the ileo-cecal valve. Another patie",
+            "classification": {
+              "study_type": "Case Series / Clinical review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41245143",
+            "title": "Two cases of Legionnaires' disease due to Legionella cardiaca.",
+            "authors": [
+              "Han Xiang Y",
+              "Bowman Christopher J",
+              "Bhatti Micah M",
+              "Balachandran Diwaker"
+            ],
+            "journal": "ASM case reports",
+            "year": "2025",
+            "abstract": "Legionella cardiaca is a Gram-negative bacterium initially isolated from the heart valve of a patient with endocarditis. Since its species description in 2012, there have been no other report of infections.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺動脈瓣疾病（狹窄或閉鎖不全）病理在於瓣膜結構異常，需介入手術或瓣膜置換。活性碳為非全身性吸附劑（不被吸收），對瓣膜重塑、纖維化或血流動力學無作用機轉。2 篇文獻均與活性碳用於肺動脈瓣無關（heroin body packer 緊急處置、Legionella 感染報告）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "heart disease",
+      "txgnn": {
+        "score": 0.8916228413581848,
+        "rank": 35659
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06376994",
+            "title": "Multi-Center Clean Air Randomized Controlled Trial in COPD",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 770,
+            "start_date": "2024-05-24",
+            "completion_date": "2029-11-30",
+            "brief_summary": "This is a multi-center randomized, sham-controlled clinical trial to determine the effectiveness of an air cleaner intervention aimed at improving indoor air quality on reducing COPD exacerbation risk and improving quality of life, functional status, rescue medication use.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "COPD 清潔空氣 RCT（PHASE3），探討空氣品質對 COPD 及心血管結局的影響；無活性碳治療介入，相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT02359292",
+            "title": "Cross-over Clinical Pharmacology Study, to Evaluate the Total Systemic Exposure and Lung Bioavailability of CHF 5993 pMDI Combination Across Two Different Dose Strengths, Administered With and Without Activated Charcoal, in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2015-02",
+            "completion_date": "2015-07",
+            "brief_summary": "The study is performed to evaluate the total systemic exposure and lung bioavailability of CHF 5993 pMDI combination, in healthy volunteers subjects.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "吸入藥物肺部生體可用率研究（PHASE1），活性碳作為藥物吸附對照；非心臟病治療"
+            }
+          },
+          {
+            "nct_id": "NCT06141473",
+            "title": "Master Protocol of Two Independent, Randomized, Double-blind, Phase 3 Studies Comparing Efficacy and Safety of Frexalimab (SAR441344) to Teriflunomide in Adult Participants With Relapsing Forms of Multiple Sclerosis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 1600,
+            "start_date": "2023-12-13",
+            "completion_date": "2027-05-06",
+            "brief_summary": "The purpose of each study is to independently measure the annualized relapse rate (ARR) with administration of frexalimab compared to a daily oral dose of teriflunomide in male and female participants with relapsing forms of multiple sclerosis (aged 18 to 55 years at the time of enrollment). People diagnosed with relapsing forms of multiple sclerosis are eligible for enrollment as long as they meet all the inclusion criteria and none of the exclusion criteria.\n\nStudy details include:\n\n* This eve",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 雙盲比較研究，從標題無法判斷是否涉及活性碳或心臟病直接治療"
+            }
+          },
+          {
+            "nct_id": "NCT01984086",
+            "title": "An Open-label, Randomised, Cross-over, Two Cohort, Single Dose Study in Healthy Volunteers to Evaluate the Unit Dose Dry Powder Inhaler (UD-DPI) for the Delivery of Salbutamol and to Compare the Pharmacokinetic Profile With the MDI and Diskus Presentations.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2013-10-21",
+            "completion_date": "2014-05-26",
+            "brief_summary": "This is an open-label, two part, six period- cross over, randomised, single dose, single centre study in healthy subjects. This is the first clinical study for the UD-DPI. This study is divided into two parts. Part A will ascertain whether the pharmacokinetic (PK) of salbutamol delivered via the UD-DPI is comparable to the salbutamol delivered via the Diskus or MDI. For this reason four treatment doses consisting of three dose strength and two percentage blends will be assessed in Part A deliver",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "健康受試者單劑量藥物研究；活性碳可能作為吸附對照"
+            }
+          },
+          {
+            "nct_id": "NCT04661683",
+            "title": "Investigating the Secondhand Effects of Hookah Smoking and Vaping",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 12,
+            "start_date": "2021-06-25",
+            "completion_date": "2027-04-15",
+            "brief_summary": "In the United States, secondhand smoke is the third leading preventable cause of death. Flavored hookah (waterpipe) tobacco smoking, a highly social activity common in hookah bars, is a key source of SHS exposure. While smoke-free air laws have decreased exposure to secondhand smoke, the majority of laws do not include hookah smoking. Thus, as a social outlet for youth and young adults, hookah smoke exposure may harm non-smokers, including women of reproductive age or pregnant, hookah bar worker",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "水煙與電子菸二手效應研究；無活性碳治療相關"
+            }
+          },
+          {
+            "nct_id": "NCT01738087",
+            "title": "A Phase II, Monocentric, Open, Randomized, 6-way Cross-over Clinical Pharmacology Study to Evaluate the Lung Bioavailability of BDP/B17MP and Formoterol and the Total Systemic Exposure Across Two Different Strengths of CHF 1535 NEXThaler Dry Powder Inhaler (Fixed Combination of Beclomethasone Dipropionate Plus Formoterol Fumarate 100/6 mcg and 200 mcg) Administered With and Without Activated Charcoal in Adult Asthmatic Patients.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2012-11",
+            "completion_date": "2013-01",
+            "brief_summary": "The study is aimed to assess the dose proportional total systemic exposure (when the administration is without the activated charcoal) to B17MP (active metabolite of BDP) and its lung bioavailability (when the administration is with the activated charcoal) after single inhalation of CHF 1535 NEXThaler DPI at two dose strengths.\n\nAt the same time, the study will assess if the lung deposition and the total systemic exposure to Formoterol is affected by increasing doses of BDP.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "6-way cross-over 藥物生體可用率研究，活性碳可能作為吸附對照組，非治療性使用；與心臟病無直接關係"
+            }
+          },
+          {
+            "nct_id": "NCT03253653",
+            "title": "Assessing Toxicity of Waterpipe Tobacco Smoking in Laboratory and Naturalistic Settings",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 85,
+            "start_date": "2017-10-20",
+            "completion_date": "2018-09-25",
+            "brief_summary": "Waterpipe smoking is a tobacco use method in which smoke passes through a partially-filled water jar. Burning charcoal heats the waterpipe tobacco which produces the smoke that the user inhales. Waterpipe smoking was associated with increased risk for coronary heart and pulmonary diseases. This Waterpipe Study will inform the FDA on regulating waterpipe tobacco products and reduce the harm of it use. This study will be conducted at homes of hookah smokers, in natural settings, aimed to determine",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "水煙毒性研究，評估二手煙暴露；無活性碳治療介入"
+            }
+          },
+          {
+            "nct_id": "NCT07348679",
+            "title": "A Randomized Trial of Charcoal-filtered Cigarettes on Product Perceptions, Smoking Behaviors, and Toxicant Exposure",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 252,
+            "start_date": "2026-02-15",
+            "completion_date": "2030-12-31",
+            "brief_summary": "The overall purpose of this study is to determine the effects of using charcoal-filtered cigarettes on product perceptions, smoking behaviors, and biomarkers of exposure to tobacco-related toxicants. The main questions it aims to answer are:\n\nDo perceptions of cigarettes differ by their filter? Do people smoke charcoal-filtered cigarettes differently than cigarettes with conventional filters, and does this change their exposure to cigarette harms?\n\nStudy participants will complete a 5-week labor",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "直接涉及活性碳（charcoal-filtered cigarettes），評估活性碳過濾對吸菸者行為與毒素暴露的影響，具心血管風險因子相關性，但研究對象為菸品改良，非活性碳作為治療藥物，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT00276406",
+            "title": "Pyridostigmine in Diabetics With Constipation: Randomized, Placebo-controlled, Double-blind Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2006-05",
+            "completion_date": "2010-10",
+            "brief_summary": "Doctors at Mayo Clinic are doing this study to learn if pyridostigmine, a drug, affects the speed at which food travels through the stomach, intestines and colon, and if pyridostigmine improves constipation symptoms in patients with diabetes. Pyridostigmine has been approved by the Food and Drug Administration (FDA) for routine clinical use, however, its use as proposed in this study is considered investigational.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Pyridostigmine 治療糖尿病患者便秘（PHASE1/2），與活性碳及心臟病均無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT01349257",
+            "title": "Study Title: A Single-dose, Open-label, Randomised, 2-way Crossover, Clinical Pharmacology Study of Four Inhalations of CHF 1535 100/6 NEXT DPI® (Fixed Combination of Beclomethasone Diproponate 100 µg Plus Formoterol Fumarate 6 µg) Versus the Same Dose of CHF 1535 100/6 pMDI Both Administered With Charcoal Block.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2011-05",
+            "completion_date": "2011-06",
+            "brief_summary": "The aim of this clinical study is to compare the lung exposure of the contents of the trial drug after administration of the fixed combination between beclomethasone and formoterol delivered via the new Chiesi dry powder inhaler in comparison to the beclomethasone and formoterol delivered via the pressurised metered dose inhaler (pMDI) using a spacer device. To determine lung exposure, the treatments are administered with charcoal block.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "2-way cross-over 藥物單劑量研究；活性碳作為吸附對照之可能，非心臟病治療"
+            }
+          },
+          {
+            "nct_id": "NCT02691325",
+            "title": "A Single Centre, Three Part, Randomised, Study to Evaluate the Safety, Tolerability and Pharmacokinetics of GSK2269557 Administered Via the ELLIPTA™ Dry Powder Inhaler to Healthy Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2016-03-14",
+            "completion_date": "2016-06-05",
+            "brief_summary": "GSK2269557 is a potent and highly selective inhaled Phosphoinositide 3-Kinase delta inhibitor being developed as an anti-inflammatory and anti-infective agent for the treatment of inflammatory airway diseases. The study will be conducted at a single centre and in 3 Parts. The aim of Part A and B of the study are to assess the safety, tolerability and pharmacokinetics (PK) single and repeat doses of a new formulation of GSK2269557 administered via the ELLIPTA dry powder inhaler (DPI) to healthy s",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05157048",
+            "title": "Acute Effects of Cigarette Packaging and Charcoal Filtration on Perceptions, Use Behaviors, and Harm Exposure",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2022-03-10",
+            "completion_date": "2023-02-14",
+            "brief_summary": "This single laboratory session pilot study will examine the acute effects of cigarette filter type and packaging on initial product perceptions, use, and exposure. Forty adult daily smokers will be randomized to smoke two study-supplied commercially-available cigarettes interspersed by 45 minutes, completing pre- and post-cigarette carbon monoxide and questionnaire measures. We will use a 2 x 2 mixed factorial design to manipulate cigarette filter type (within-subject: charcoal vs. non-charcoal)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03690427",
+            "title": "Investigating the Cardiovascular Toxicity of Exposure to Electronic Hookah Smoking",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 19,
+            "start_date": "2018-12-11",
+            "completion_date": "2021-09-27",
+            "brief_summary": "Hookah (water-pipe) tobacco smoking has quickly grown to become a major global tobacco epidemic among youth; with electronic (e-) hookahs more recently increasing in popularity especially among young female adults, who endorse marketing claims that these products are a safer alternative to traditional hookah, but scientific evidence is lacking. The study aims to elucidate the comparative effects of traditional hookah smoking vs. e-hookah vaping on human vascular and endothelial function; and exa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01370031",
+            "title": "Pilot, Open-Label, Randomized, Repeated Dose, 4-Way Cross-Over, Clinical Pharmacology Study of Beclomethasone Dipropionate (Clenil® Modulite®) 250 µg HFA pMDI Using the Aerochamber Plus™ Spacer Device Versus the Volumatic™ Spacer Device Without or With Charcoal Block in Asthmatic Adults Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2011-04",
+            "completion_date": "2011-06",
+            "brief_summary": "The purpose of this study is to evaluate, at steady-state, the systemic exposure and the lung deposition of B17MP (active metabolite of BDP) as AUC0-12h,ss and Cmax,ss, after inhalation of BDP (Clenil® Modulite®) with the AeroChamber Plus™ spacer device or with the Volumatic™ spacer device without or with charcoal block.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02743013",
+            "title": "Clinical Pharmacology Study to Evaluate the Total Systemic Exposure and the Lung Availability of CHF 5993, Administered Via the Multi-dose Reservoir NEXThaler® Dry Powder Inhaler and Via a HFA-pressurised Metered Dose Inhaler With and Without Valved Holding Chamber, in Healthy Volunteers",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2016-04",
+            "completion_date": "2016-07",
+            "brief_summary": "This clinical pharmacology study is performed to evaluate the total systemic exposure and the lung availability of CHF 5993 DPI and pMDI with and without valved holding chamber, in healthy volunteers.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06925373",
+            "title": "Housing, Environment, And Living Conditions for Transformed Health (HEALTHe Birmingham)",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 460,
+            "start_date": "2025-06-18",
+            "completion_date": "2028-07",
+            "brief_summary": "This project will compare the health effects of public housing renovation, neighborhood built and social environment improvements, and indoor air purification, alone and in combination, as well as the cost effectiveness of each approach.\n\nSTUDY 1: The study will assess the effects of public housing and neighborhood environment (built and social) improvements on health-related behaviors, psychosocial and physiologic stress, and self-reported and physiological markers of lung health and chronic di",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33399225",
+            "title": "Malignant hyperthermia 2020: Guideline from the Association of Anaesthetists.",
+            "authors": [
+              "Hopkins P M",
+              "Girard T",
+              "Dalay S",
+              "Jenkins B",
+              "Thacker A"
+            ],
+            "journal": "Anaesthesia",
+            "year": "2021",
+            "abstract": "Malignant hyperthermia is defined in the International Classification of Diseases as a progressive life-threatening hyperthermic reaction occurring during general anaesthesia. Malignant hyperthermia has an underlying genetic basis, and genetically susceptible individuals are at risk of developing malignant hyperthermia if they are exposed to any of the potent inhalational anaesthetics or suxamethonium. It can also be described as a malignant hypermetabolic syndrome. There are no specific clinica",
+            "classification": {
+              "study_type": "Clinical Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26344579",
+            "title": "Calcium channel antagonist and beta-blocker overdose: antidotes and adjunct therapies.",
+            "authors": [
+              "Graudins Andis",
+              "Lee Hwee Min",
+              "Druda Dino"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2016",
+            "abstract": "Management of cardiovascular instability resulting from calcium channel antagonist (CCB) or beta-adrenergic receptor antagonist (BB) poisoning follows similar principles. Significant myocardial depression, bradycardia and hypotension result in both cases. CCBs can also produce vasodilatory shock. Additionally, CCBs, such as verapamil and diltiazem, are commonly ingested in sustained-release formulations. This can also be the case for some BBs. Peak toxicity can be delayed by several hours. Provi",
+            "classification": {
+              "study_type": "Review / Clinical guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33069303",
+            "title": "Adverse health effects associated with household air pollution: a systematic review, meta-analysis, and burden estimation study.",
+            "authors": [
+              "Lee Kuan Ken",
+              "Bing Rong",
+              "Kiang Joanne",
+              "Bashir Sophia",
+              "Spath Nicholas"
+            ],
+            "journal": "The Lancet. Global health",
+            "year": "2020",
+            "abstract": "3 billion people worldwide rely on polluting fuels and technologies for domestic cooking and heating. We estimate the global, regional, and national health burden associated with exposure to household air pollution.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16174888",
+            "title": "Phenytoin poisoning.",
+            "authors": [
+              "Craig Simon"
+            ],
+            "journal": "Neurocritical care",
+            "year": "2005",
+            "abstract": "Phenytoin toxicity may result from intentional overdose, dosage adjustments, drug interactions, or alterations in physiology. Intoxication manifests predominantly as nausea, central nervous system dysfunction (particularly confusion, nystagmus, and ataxia), with depressed conscious state, coma, and seizures occurring in more severe cases. Cardiac complications such as arrhythmias and hypotension are rare in cases of phenytoin ingestion, but they may be seen in parenteral administration of phenyt",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26563790",
+            "title": "Carbon monoxide intoxication.",
+            "authors": [
+              "Bleecker Margit L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2015",
+            "abstract": "Carbon monoxide (CO) is a colorless, odorless, nonirritant gas that accounts for numerous cases of CO poisoning every year from a variety of sources of incomplete combustion of hydrocarbons. These include poorly functioning heating systems, indoor propane-powered forklifts, indoor burning of charcoal burning briquettes, riding in the back of pick-up trucks, ice skating rinks using propane-powered resurfacing machines, and gasoline-powered generators that are not in correct locations. Once CO is ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2858971",
+            "title": "Overdoses.",
+            "authors": [
+              "Heller M B"
+            ],
+            "journal": "American family physician",
+            "year": "1985",
+            "abstract": "Certain basic principles are applicable to most drug overdose emergencies. These include emptying the stomach, administering activated charcoal, supporting vital functions, protecting target organs and using specific antidotes in appropriate cases. There are certain steps to be taken automatically in an unconscious patient with an unknown overdose. Drug screens rarely affect management. Special situations involve overdoses of acetaminophen, salicylates, tricyclic antidepressants, anticholinergic",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3515300",
+            "title": "Tricyclic antidepressant overdose.",
+            "authors": [
+              "Braden N J",
+              "Jackson J E",
+              "Walson P D"
+            ],
+            "journal": "Pediatric clinics of North America",
+            "year": "1986",
+            "abstract": "Overdose of a tricyclic antidepressant is a serious and all-too-frequent occurrence. The diagnosis must be considered in known or suspected overdoses, and signs such as a dry axilla, tachycardia, and wide QRS must be specifically sought. Management depends upon support of vital functions and a thorough understanding of the pharmacology of the drug. Emptying the gastrointestinal tract with ipecac or lavage and hastening elimination with activated charcoal and a cathartic are extremely important m",
+            "classification": {
+              "study_type": "Clinical Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "109693",
+            "title": "Phenol poisoning.",
+            "authors": [
+              "Haddad L M",
+              "Dimond K A",
+              "Schweistris J E"
+            ],
+            "journal": "JACEP",
+            "year": "1979",
+            "abstract": "A case report of survival after severe ingestion of phenol is described. The patient developed coma, respiratory arrest 30 minutes postingestion, hypotension, ventricular arrhythmias, metabolic acidosis, seizures, selective elevation of uric acid and gastrointestinal disturbances. Treatment consisted of gastric lavage, olive oil, activated charcoal and supportive therapy. The exact amount of ingested substance was known, and ventricular arrhythmias specifically related to phenol, not its derivat",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29614179",
+            "title": "Association of Solid Fuel Use With Risk of Cardiovascular and All-Cause Mortality in Rural China.",
+            "authors": [
+              "Yu Kuai",
+              "Qiu Gaokun",
+              "Chan Ka-Hung",
+              "Lam Kin-Bong Hubert",
+              "Kurmi Om P"
+            ],
+            "journal": "JAMA",
+            "year": "2018",
+            "abstract": "When combusted indoors, solid fuels generate a large amount of pollutants such as fine particulate matter.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9220044",
+            "title": "Amlodipine overdose.",
+            "authors": [
+              "Stanek E J",
+              "Nelson C E",
+              "DeNofrio D"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "1997",
+            "abstract": "To report a nonfatal intentional overdose of amlodipine.",
+            "classification": {
+              "study_type": "Case Report / Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18388369",
+            "title": "Activated charcoal and baking soda to reduce odor associated with extensive blistering disorders.",
+            "authors": [
+              "Chakravarthi Arun",
+              "Srinivas C R",
+              "Mathew Anil C"
+            ],
+            "journal": "Indian journal of dermatology, venereology and leprology",
+            "year": "2008",
+            "abstract": "Skin disease leading to extensive blistering and loss of skin is associated with a characteristic smell. Odor can cause physiologic disturbances such as increase in heart rate and respiratory rate. It can also cause nausea and vomiting and is disturbing to bystanders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24142402",
+            "title": "Symptomatic charcoal heart.",
+            "authors": [
+              "Faustino Mariana",
+              "Abecasis Joao",
+              "Freitas Antonio",
+              "Gouveia Rosa",
+              "Gil Victor"
+            ],
+            "journal": "European heart journal. Cardiovascular Imaging",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21883384",
+            "title": "Population pharmacokinetics and pharmacodynamics of escitalopram in overdose and the effect of activated charcoal.",
+            "authors": [
+              "van Gorp Freek",
+              "Duffull Stephen",
+              "Hackett L Peter",
+              "Isbister Geoffrey K"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2012",
+            "abstract": "To describe the pharmacokinetics and pharmacodynamics (PKPD) of escitalopram in overdose and its effect on QT prolongation, including the effectiveness of single dose activated charcoal (SDAC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "436387",
+            "title": "Fenfluramine poisoning.",
+            "authors": [
+              "Von Mühlendahl K E",
+              "Krienke E G"
+            ],
+            "journal": "Clinical toxicology",
+            "year": "1979",
+            "abstract": "In a series of 53 fenfluramine intoxications (15 taken from the literature), 10 were lethal after doses of 28.7--70 mg/kg of body weight. Cardiac arrest occurred 1--4 hr after ingestion in 9 cases; all these 9 patients died. Two out of 3 patients with more than 15 mg/kg had coma and convulsions. Other frequent signs were mydriasis, tachycardia, and rubor of the face. The additional signs of nystagmus, hypertonia, trismus, hyperreflexia, clonus, excitation, hyperthermia, and sweating define the c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26505271",
+            "title": "Pharmacological treatment of cardiac glycoside poisoning.",
+            "authors": [
+              "Roberts Darren M",
+              "Gallapatthy Gamini",
+              "Dunuwille Asunga",
+              "Chan Betty S"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2016",
+            "abstract": "Cardiac glycosides are an important cause of poisoning, reflecting their widespread clinical usage and presence in natural sources. Poisoning can manifest as varying degrees of toxicity. Predominant clinical features include gastrointestinal signs, bradycardia and heart block. Death occurs from ventricular fibrillation or tachycardia. A wide range of treatments have been used, the more common including activated charcoal, atropine, β-adrenoceptor agonists, temporary pacing, anti-digoxin Fab and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36476497",
+            "title": "The central role of the gut in intensive care.",
+            "authors": [
+              "Corriero Alberto",
+              "Gadaleta Raffaella Maria",
+              "Puntillo Filomena",
+              "Inchingolo Francesco",
+              "Moschetta Antonio"
+            ],
+            "journal": "Critical care (London, England)",
+            "year": "2022",
+            "abstract": "Critically ill patients undergo early impairment of their gut microbiota (GM) due to routine antibiotic therapies and other environmental factors leading to intestinal dysbiosis. The GM establishes connections with the rest of the human body along several axes representing critical inter-organ crosstalks that, once disrupted, play a major role in the pathophysiology of numerous diseases and their complications. Key players in this communication are GM metabolites such as short-chain fatty acids ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19494786",
+            "title": "Quetiapine overdose: predicting intubation, duration of ventilation, cardiac monitoring and the effect of activated charcoal.",
+            "authors": [
+              "Isbister Geoffrey K",
+              "Duffull Stephen B"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "2009",
+            "abstract": "To investigate factors that predict the probability and duration of mechanical ventilation in quetiapine overdose, and if cardiac toxicity occurs, this cohort study involved 176 patients presenting to a toxicology unit on 286 occasions with quetiapine overdose. Patient demographics, dose, coingestants, single dose activated charcoal (SDAC) administration, requirement for and duration of mechanical ventilation and electrocardiogram parameters (heart rate, QT, QRS) were obtained. A fully Bayesian ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10595886",
+            "title": "Acute quetiapine poisoning.",
+            "authors": [
+              "Hustey F M"
+            ],
+            "journal": "The Journal of emergency medicine",
+            "year": "1999",
+            "abstract": "Quetiapine (Seroquel) is a member of a new class of antipsychotic agents used in the treatment of schizophrenia. Its pharmacologic effect is primarily mediated via antagonistic binding to serotonergic (5HT2) and dopaminergic (D2) receptors. Presented is a case of acute quetiapine overdose in a patient with associated tachycardia, hypotension, prolonged QTc, and rapid progression to coma. Management included activated charcoal, i.v. saline, and intubation for airway protection. The patient's ment",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2198052",
+            "title": "Adverse reactions and interactions with theophylline.",
+            "authors": [
+              "Skinner M H"
+            ],
+            "journal": "Drug safety",
+            "year": "1990",
+            "abstract": "Despite the trend towards newer therapeutic agents, theophylline continues to play a major role in the treatment of reversible airway obstruction. Clinical use of the drug is complicated by a relatively narrow therapeutic range and a large pharmacokinetic variability between patients. Generally, however, theophylline toxicity is foreseeable and preventable. Most cases can be attributed to either inadvertent or intentional overdosing of the drug. Age, disease state and drug interactions are other",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19306191",
+            "title": "Management of yellow oleander poisoning.",
+            "authors": [
+              "Rajapakse Senaka"
+            ],
+            "journal": "Clinical toxicology (Philadelphia, Pa.)",
+            "year": "2009",
+            "abstract": "Poisoning due to deliberate self-harm with the seeds of yellow oleander (Thevetia peruviana) results in significant morbidity and mortality each year in South Asia. Yellow oleander seeds contain highly toxic cardiac glycosides including thevetins A and B and neriifolin. A wide variety of bradyarrhythmias and tachyarrhythmias occur following ingestion. Important epidemiological and clinical differences exist between poisoning due to yellow oleander and digoxin; yellow oleander poisoning is common",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "活性碳潛在心臟相關作用路徑包含：(1) 老舊研究（1980s-1990s）顯示口服活性碳可降低 LDL 膽固醇（約 25-41%）及 LDL/HDL 比值，理論上可減少動脈粥樣硬化風險；(2) 在急性心臟毒性藥物過量（鈣離子阻斷劑、三環抗憂鬱劑、Digoxin）中，活性碳為標準去汙染措施，間接保護心臟免於藥物毒性；(3) 對於 CKD 相關心血管病，減少腸道尿毒素循環（p-cresol、indoxyl sulfate）理論上可降低心臟毒性負擔。然而上述均為間接或機轉推論證據，缺乏專門針對心臟病治療設計的 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "genetic syndromic Pierre Robin syndrome",
+      "txgnn": {
+        "score": 0.8915863633155823,
+        "rank": 35665
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "遺傳性 Pierre Robin 症候群（含 Stickler、Treacher Collins 等）屬結締組織/發育基因突變導致之顱面缺陷。活性碳對基因驅動的發育異常無任何已知治療路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Laubry-Pezzi syndrome",
+      "txgnn": {
+        "score": 0.8906247019767761,
+        "rank": 35749
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Laubry-Pezzi 症候群為先天性室中隔缺損合併主動脈瓣閉鎖不全（VSD + aortic regurgitation）的罕見先天心臟病，需外科或介入性治療。活性碳作為腸道吸附劑，對先天性瓣膜或心臟結構缺陷無任何治療機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "disorder of fucoglycosan synthesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "disorder of fucoglycosan synthesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "disorder of fucoglycosan synthesis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "partial deletion of the long arm of chromosome 22"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "partial deletion of the long arm of chromosome 22"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "partial deletion of the long arm of chromosome 22"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "partial deletion of the long arm of chromosome 7"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "partial deletion of the long arm of chromosome 7"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "partial deletion of the long arm of chromosome 7"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "pulmonary valve disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "pulmonary valve disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "pulmonary valve disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "heart disease"
+      },
+      "result_status": "success",
+      "result_count": 16,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "heart disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "genetic syndromic Pierre Robin syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "genetic syndromic Pierre Robin syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "genetic syndromic Pierre Robin syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Activated charcoal",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

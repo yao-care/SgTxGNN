@@ -1,0 +1,531 @@
+```json
+{
+  "drug": "D-glucose",
+  "drugbank_id": "DB01914",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "D-glucose 為基本細胞能量底物，廣泛用於低血糖急救與靜脈營養支持。本資料集標記為「未上市」可能反映特定配方或適應症未在地區藥監局登記。原始 MoA 為 [Data Gap]，需注意多數 TxGNN 預測係基於代謝關聯而非直接治療機轉，部分文獻反映葡萄糖為風險因子（非治療劑），需審慎區分因果方向。",
+  "indications": [
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.8303,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "視網膜神經節細胞（RGC）在青光眼進展過程中出現粒線體功能障礙與能量代謝衰竭。D-glucose 作為 RGC 主要能量底物，短期補充可能透過恢復細胞生物能量支持視覺功能。PMID 18700928 提出「生物能量神經保護」假說；PMID 24491639 進一步以雙盲 RCT 驗證口服葡萄糖可暫時改善 POAG 患者視覺對比敏感度。多項 Mendelian randomization 與 meta-analysis 顯示血糖代謝指標與 POAG 風險存在雙向關聯，提示葡萄糖代謝軸為潛在治療靶點。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05405868",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 雙盲 RCT，標題截斷無法確認受試介入物是否為 D-glucose。納入為青光眼 Phase 3 試驗背景參考，但缺乏直接關聯性確認，暫列 C 級。"
+        },
+        {
+          "nct_id": "NCT03870230",
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，探討青光眼患者神經血管耦合，非測試 D-glucose 療效，無直接再利用關聯。"
+        },
+        {
+          "nct_id": "NCT04645992",
+          "relevance_grade": "C",
+          "reasoning": "Yoga + TENS 介入於糖尿病青光眼，量測血糖為次要終點，並非直接測試 D-glucose 治療青光眼。"
+        },
+        {
+          "nct_id": "NCT04118920",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，局部胰島素眼藥水治療 OAG。胰島素透過 GLUT 受體促進 RGC 葡萄糖攝取，與 D-glucose 能量補充假說具機轉相鄰性，為間接支持證據。"
+        },
+        {
+          "nct_id": "NCT07290244",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，ER-100 用於視神經病變，藥物成分不明，無法確認與 D-glucose 之關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24491639",
+          "title": "Glucose-induced temporary visual recovery in primary open-angle glaucoma: a double-blind, randomized study (2014)",
+          "study_type": "RCT (double-blind)",
+          "tier": "1",
+          "note": "唯一直接測試 D-glucose 口服補充對 POAG 視覺功能影響的 RCT，是本適應症最高等級直接臨床證據。"
+        },
+        {
+          "pmid": "18700928",
+          "title": "Bioenergetic-based neuroprotection and glaucoma (2008)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "建立葡萄糖能量代謝與 RGC 神經保護的理論框架，提供強力機轉依據。"
+        },
+        {
+          "pmid": "36162535",
+          "title": "Association Between Glycemic Traits and Primary Open-Angle Glaucoma: A Mendelian Randomization Study (2023)",
+          "study_type": "Mendelian Randomization",
+          "tier": "2",
+          "note": "遺傳流行病學設計，具因果推斷價值，支持血糖代謝與 POAG 的因果關聯。"
+        },
+        {
+          "pmid": "35622353",
+          "title": "Type 2 Diabetes, Fasting Glucose, Hemoglobin A1c Levels and Risk of Primary Open-Angle Glaucoma: A Meta-analysis (2022)",
+          "study_type": "Meta-analysis",
+          "tier": "2",
+          "note": "大樣本 meta-analysis，確認空腹血糖與 POAG 風險關聯；需注意風險關聯不等同治療效益。"
+        },
+        {
+          "pmid": "25283061",
+          "title": "Diabetes, fasting glucose, and the risk of glaucoma: a meta-analysis (2015)",
+          "study_type": "Meta-analysis",
+          "tier": "2",
+          "note": "早期 meta-analysis，奠定葡萄糖代謝與青光眼關聯的流行病學基礎。"
+        },
+        {
+          "pmid": "32966328",
+          "title": "Fasting plasma glucose level and the risk of open angle glaucoma (2020)",
+          "study_type": "Population-based Cohort",
+          "tier": "2",
+          "note": "全國性大型世代研究，空腹血糖與 OAG 發生率關聯，但關聯方向（風險因子）需與治療假說區分。"
+        },
+        {
+          "pmid": "36237805",
+          "title": "Prevalence and Associated Risk Factors of Primary Open Angle Glaucoma Among Patients With Type 2 Diabetes (2022)",
+          "study_type": "Cross-sectional",
+          "tier": "3",
+          "note": "描述性研究，T2DM 患者中 POAG 盛行率，流行病學背景資料。"
+        },
+        {
+          "pmid": "9111268",
+          "title": "Open-angle glaucoma and diabetes: the Blue Mountains eye study, Australia (1997)",
+          "study_type": "Cohort",
+          "tier": "3",
+          "note": "早期世代研究，歷史背景資料，方法學限制較多。"
+        },
+        {
+          "pmid": "34303323",
+          "title": "Effect of Jyoti-Trataka on intraocular pressure, autonomic control, and blood glucose in diabetic patients (2022)",
+          "study_type": "RCT (yoga intervention)",
+          "tier": "3",
+          "note": "瑜伽介入影響血糖與眼壓，間接支持代謝調控對青光眼的影響，非 D-glucose 直接介入。"
+        },
+        {
+          "pmid": "548853",
+          "title": "GH secretion in open-angle glaucoma (1979)",
+          "study_type": "Clinical study",
+          "tier": "3",
+          "note": "探討青光眼患者對口服葡萄糖後 GH 抑制反應的早期研究，具歷史意義但方法學陳舊。"
+        }
+      ]
+    },
+    {
+      "disease_name": "biotin metabolic disease",
+      "txgnn_score": 0.8140,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Biotin 代謝疾病（biotinidase 缺乏症、全羧化酶合成酶缺乏症）導致 pyruvate carboxylase 活性喪失，阻斷糖質新生途徑，引發低血糖與乳酸酸中毒。D-glucose 靜脈或口服補充可作為急性低血糖之症狀性支持治療。PMID 4246111（1970）及 PMID 9597748 提供機轉基礎，但 D-glucose 為對症治療而非針對酵素缺陷之根本治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03073070",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1，糖尿病兒童中紅血球壽命測定，使用 D-glucose 標記技術（¹³C-glucose）。與 D-glucose 在代謝疾病中的應用具關聯性，但非治療試驗。"
+        },
+        {
+          "nct_id": "NCT05687474",
+          "relevance_grade": "C",
+          "reasoning": "新生兒基因組篩檢研究（Baby Detect），包含 biotin 代謝疾病篩查，屬診斷研究，非 D-glucose 治療試驗。"
+        },
+        {
+          "nct_id": "NCT05832190",
+          "relevance_grade": "C",
+          "reasoning": "腸道微生物補充 biotin 纖維研究，已終止，樣本數極少（n=5），非 D-glucose 介入。"
+        },
+        {
+          "nct_id": "NCT00308451",
+          "relevance_grade": "C",
+          "reasoning": "標題截斷，疑似健康改善研究，與 biotin 代謝疾病治療關聯性不明確。"
+        },
+        {
+          "nct_id": "NCT03655223",
+          "relevance_grade": "C",
+          "reasoning": "Early Check 新生兒篩檢研究，包含 biotin 代謝疾病偵測，屬篩查研究，非 D-glucose 治療。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "4246111",
+          "title": "Biotin and glucose metabolism (1970)",
+          "study_type": "Clinical/Biochemical Study",
+          "tier": "2",
+          "note": "直接連結 biotin 與葡萄糖代謝的經典早期研究，提供機轉依據，但年代久遠（1970年）。"
+        },
+        {
+          "pmid": "9597748",
+          "title": "Pyruvate carboxylase (1998)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "詳述 biotin 依賴性 pyruvate carboxylase 在糖質新生中的角色，建立 D-glucose 補充的生化理論基礎。"
+        },
+        {
+          "pmid": "27544473",
+          "title": "Amenable Treatable Severe Pediatric Epilepsies (2016)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "包含 biotin 代謝疾病所致癲癇治療綜述，提及代謝支持（包括葡萄糖管理）的重要性。"
+        },
+        {
+          "pmid": "37123774",
+          "title": "Relationship Between Vitamins and Diabetes (2023)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "維生素-糖尿病廣泛綜述，biotin 章節提及葡萄糖代謝調節，屬間接背景資料。"
+        },
+        {
+          "pmid": "30122106",
+          "title": "Oligodendrocyte Bioenergetics in Health and Disease (2019)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "討論髓鞘細胞能量代謝（biotin 相關），間接支持 D-glucose 能量底物的角色。"
+        }
+      ]
+    },
+    {
+      "disease_name": "dermatitis",
+      "txgnn_score": 0.8075,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "葡萄糖代謝驅動皮膚免疫細胞（特別是巨噬細胞）的促炎活化。GLUT3 介導的葡萄糖攝取促進 RAS 信號與巨噬細胞活化（PMID 37721853）。矛盾的是，2-deoxy-D-glucose（2-DG，糖解抑制劑）而非 D-glucose 本身被證明可改善動物皮炎模型（PMID 31991554），提示抑制葡萄糖代謝可能是治療方向，D-glucose 補充可能適得其反。因果方向存在嚴重疑慮。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05904509",
+          "relevance_grade": "B",
+          "reasoning": "觀察性研究，評估胰島素抵抗與異位性皮炎嚴重度的關係（n=32），支持葡萄糖代謝與 AD 的關聯，但非 D-glucose 治療試驗。"
+        },
+        {
+          "nct_id": "NCT02743871",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 AD 藥物試驗，介入物非 D-glucose，屬背景對照。"
+        },
+        {
+          "nct_id": "NCT02118766",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 AN278（crisaborole 類）皮炎試驗，非 D-glucose 相關介入。"
+        },
+        {
+          "nct_id": "NCT02118792",
+          "relevance_grade": "C",
+          "reasoning": "同上，Phase 3 AN278 試驗（不同研究中心），非 D-glucose 相關。"
+        },
+        {
+          "nct_id": "NCT07193589",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 皮炎新藥試驗，介入物不明，非 D-glucose。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31991554",
+          "title": "2-deoxy-d-glucose Ameliorates Animal Models of Dermatitis (2020)",
+          "study_type": "Animal Study",
+          "tier": "2",
+          "note": "⚠️ 反向證據：2-DG（糖解抑制劑）改善皮炎，意味抑制葡萄糖代謝有益，暗示 D-glucose 補充可能無益甚至有害。"
+        },
+        {
+          "pmid": "37721853",
+          "title": "GLUT3 promotes macrophage signaling and function via RAS-mediated endocytosis in atopic dermatitis (2023)",
+          "study_type": "Mechanistic/Translational",
+          "tier": "2",
+          "note": "GLUT3 介導葡萄糖攝取促進 AD 巨噬細胞炎症，支持葡萄糖代謝軸的病理角色，但方向為「高葡萄糖攝取有害」。"
+        },
+        {
+          "pmid": "36327873",
+          "title": "D-Mannose ameliorates DNCB-induced atopic dermatitis in mice and TNF-α-induced inflammation (2022)",
+          "study_type": "Animal Study",
+          "tier": "2",
+          "note": "D-Mannose（相關單糖）改善皮炎，與 D-glucose 有結構差異但機轉相鄰，支持特定糖類的抗炎潛力。"
+        },
+        {
+          "pmid": "32371170",
+          "title": "Metabolic Pathways That Control Skin Homeostasis and Inflammation (2020)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "綜述皮膚代謝與炎症調控，強調能量代謝平衡而非 D-glucose 單一補充的治療性。"
+        },
+        {
+          "pmid": "38954264",
+          "title": "Atopic Dermatitis and Psoriasis: Similarities and Differences in Metabolism and Microbiome (2024)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "皮炎代謝組與微生物組比較研究，背景參考，無直接 D-glucose 介入數據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "esophageal disease",
+      "txgnn_score": 0.8168,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 方向性疑慮：多數文獻顯示高空腹血糖為食道疾病（特別是食道癌）的風險因子，而非治療劑（PMID 39708577, PMID 39741267）。FDG（18F-氟脫氧葡萄糖）用於 PET 影像診斷，係葡萄糖類似物的診斷應用而非 D-glucose 治療。PMID 27563696 顯示食道運動障礙與葡萄糖穩態失調相關，提示關聯性但非治療依據。TxGNN 預測可能誤識因果方向。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04522193",
+          "relevance_grade": "B",
+          "reasoning": "食道閉鎖術後傾倒症候群（dumping syndrome）之病理生理研究，涉及術後葡萄糖代謝異常，與 D-glucose 生理相關，但為觀察性研究。"
+        },
+        {
+          "nct_id": "NCT01129206",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 化療（Pralatrexate + Docetaxel）食道癌試驗，非 D-glucose 相關介入。"
+        },
+        {
+          "nct_id": "NCT00940602",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 Deferasirox（鐵螯合劑）食道癌試驗，非 D-glucose 相關介入。"
+        },
+        {
+          "nct_id": "NCT07181018",
+          "relevance_grade": "C",
+          "reasoning": "代謝症候群縱向世代研究，食道疾病為多重合病之一，非 D-glucose 治療試驗。"
+        },
+        {
+          "nct_id": "NCT00560846",
+          "relevance_grade": "C",
+          "reasoning": "上消化道癌症手術圍手術期營養試驗（已終止），葡萄糖為營養支持成分之一，但非再利用試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27563696",
+          "title": "Esophageal and Gastric Dysmotilities are Associated with Altered Glucose Homeostasis (2016)",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "食道/胃運動障礙與葡萄糖穩態失調的關聯性研究，雙向關係，非治療研究。"
+        },
+        {
+          "pmid": "39741267",
+          "title": "DNMT1-driven methylation of RORA facilitates esophageal squamous cell carcinoma under hyperglycemia (2024)",
+          "study_type": "Mechanistic Study",
+          "tier": "3",
+          "note": "⚠️ 反向證據：高血糖透過表觀遺傳修飾促進食道鱗狀細胞癌進展，D-glucose 補充為潛在有害。"
+        },
+        {
+          "pmid": "39708577",
+          "title": "Disease burden of cancers attributable to high fasting plasma glucose (2025)",
+          "study_type": "Epidemiological Analysis",
+          "tier": "3",
+          "note": "⚠️ 反向證據：高空腹血糖是食道癌可歸因風險因子，直接反對 D-glucose 治療食道疾病的假說。"
+        },
+        {
+          "pmid": "15187891",
+          "title": "Positron emission tomography in gastric and esophageal cancer (2004)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "FDG-PET 診斷應用綜述，葡萄糖類似物作為影像劑而非治療劑。"
+        },
+        {
+          "pmid": "33455416",
+          "title": "Uncooked cornstarch for the prevention of hypoglycemic events (2022)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "澱粉（緩釋葡萄糖）預防低血糖綜述，與食道疾病直接關聯甚遠，屬背景參考。"
+        }
+      ]
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn_score": 0.8107,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 方向性疑慮：所有文獻均顯示維生素 D 缺乏「導致」葡萄糖代謝異常（胰島素抵抗、糖耐量受損），非 D-glucose 可治療維生素缺乏症。TxGNN 可能混淆「葡萄糖代謝作為疾病後果」與「D-glucose 作為治療劑」之間的關係。此適應症需明確的反向因果路徑方有再利用價值，目前無此依據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01268111",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1，維生素 D 補充對胰島素敏感性的影響，葡萄糖為評估終點而非治療藥物。"
+        },
+        {
+          "nct_id": "NCT01183442",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 維生素 D 補充於冠心病合併高血糖患者（已終止，n=22），維生素 D 為介入物，D-glucose 無關。"
+        },
+        {
+          "nct_id": "NCT01488916",
+          "relevance_grade": "C",
+          "reasoning": "維生素 D 不足對 T2DM 患者餐後血糖的影響，葡萄糖為生物標記而非治療劑。"
+        },
+        {
+          "nct_id": "NCT02164552",
+          "relevance_grade": "C",
+          "reasoning": "維生素 D 與胰島素敏感性觀察研究，D-glucose 非介入物。"
+        },
+        {
+          "nct_id": "NCT01385345",
+          "relevance_grade": "C",
+          "reasoning": "維生素 D 補充改善南亞人胰島素抵抗（已終止，n=3），D-glucose 無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26522682",
+          "title": "Vitamin D deficiency impairs glucose-stimulated insulin secretion (2016)",
+          "study_type": "Mechanistic Study",
+          "tier": "3",
+          "note": "⚠️ 確認方向為：維生素 D 缺乏 → 葡萄糖代謝障礙，而非 D-glucose → 改善維生素缺乏。"
+        },
+        {
+          "pmid": "37111216",
+          "title": "Vitamin D in Diabetes: Uncovering the Sunshine Hormone's Role in Glucose Metabolism (2023)",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "同方向確認：維生素 D 調節葡萄糖代謝，反向假說無支持。"
+        },
+        {
+          "pmid": "31797544",
+          "title": "Vitamin D Deficiency Induces Insulin Resistance and Re-Supplementation Attenuates Hepatic Glucose Output (2020)",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "動物研究，維生素 D 補充改善肝臟葡萄糖輸出；D-glucose 補充治療維生素 D 缺乏症無依據。"
+        },
+        {
+          "pmid": "18653316",
+          "title": "Glucose tolerance and vitamin D: effects of treating vitamin D deficiency (2008)",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "note": "治療維生素 D 缺乏後葡萄糖耐受性改善，進一步確認因果方向為維生素 D → 葡萄糖代謝，非反向。"
+        },
+        {
+          "pmid": "38674789",
+          "title": "Vitamin D Deficiency Is Associated with Advanced Liver Fibrosis and Impaired Fasting Glucose (2024)",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "橫斷面研究，關聯性數據，D-glucose 治療無直接依據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.8365,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上，原發性遺傳性青光眼（如 MYOC 基因突變）導致小樑網功能障礙，但視網膜神經節細胞亦受累及能量代謝失衡。D-glucose 神經保護假說在 OAG 中有初步 RCT 支持，但尚無針對遺傳性青光眼亞型的特異性臨床研究。所有 4 個相關試驗均為觀察性影像學研究，與 D-glucose 治療無直接關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04129021",
+          "relevance_grade": "C",
+          "reasoning": "高解析多模態眼科影像研究（招募中），診斷技術開發，非 D-glucose 治療試驗，與再利用無關。"
+        },
+        {
+          "nct_id": "NCT04620876",
+          "relevance_grade": "C",
+          "reasoning": "雙模態高解析眼科影像研究（狀態不明），同為診斷影像技術研究，非治療試驗。"
+        },
+        {
+          "nct_id": "NCT06414746",
+          "relevance_grade": "C",
+          "reasoning": "多中心回顧前瞻性觀察研究，評估青光眼盛行率與臨床特徵（已完成），流行病學研究，非 D-glucose 介入。"
+        },
+        {
+          "nct_id": "NCT04141891",
+          "relevance_grade": "C",
+          "reasoning": "老年人決策研究（AUTO Study），與青光眼藥物治療或 D-glucose 再利用無直接關聯。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.7972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒皮肌炎（neonatal dermatomyositis）為極罕見自體免疫肌肉疾病，目前無 D-glucose 治療相關機轉假說或臨床前研究，TxGNN 預測缺乏任何支撐證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03840928",
+          "relevance_grade": "C",
+          "reasoning": "PatientSpot（前身 ArthritisPower）患者自報登記研究（n=40,000），涵蓋多種風濕病，為患者報告結果資料庫，非 D-glucose 治療試驗，亦無新生兒皮肌炎特異性分析。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.7961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Acrodermatitis chronica atrophicans（ACA）為萊姆病晚期皮膚表現，由 Borrelia burgdorferi 感染引起，主要治療為抗生素。D-glucose 無明確抗感染或抗螺旋體機轉，無任何臨床前或臨床研究支持此適應症。TxGNN 預測為純模型輸出，無生物學依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.7938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性 hydroa vacciniforme 為極罕見光敏性皮膚病，與 EBV 感染及 T 細胞淋巴瘤病變相關。D-glucose 無明確光保護、抗病毒或免疫調節機轉適用於此疾病，無任何臨床或臨床前證據支持。純 TxGNN 計算預測，臨床可行性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.8411,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非症候群型食道畸形（如孤立性食道閉鎖）為先天發育缺陷，D-glucose 無胚胎學或結構矯正機轉。雖 D-glucose 可能用於此類患者的術後或新生兒營養支持（靜脈葡萄糖），但此為通用支持性治療而非針對此診斷的再利用候選。TxGNN 最高預測分數（0.841）可能反映「食道」解剖部位的共現偏差。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "priority_ranking": [
+    {
+      "rank": 1,
+      "disease_name": "open-angle glaucoma",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "rationale": "唯一具有直接雙盲 RCT 證據（PMID 24491639）的適應症，輔以強力機轉理論（RGC 生物能量保護）及多項 Mendelian randomization 因果分析，建議進行 Phase 2b 多中心 RCT。"
+    },
+    {
+      "rank": 2,
+      "disease_name": "biotin metabolic disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "rationale": "具備明確生化機轉（pyruvate carboxylase 缺乏 → 低血糖），D-glucose 作為急性症狀管理有臨床邏輯，但需區分「症狀緩解」與「疾病修飾」目標。"
+    },
+    {
+      "rank": 3,
+      "disease_name": "dermatitis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "rationale": "具備葡萄糖代謝與皮炎炎症的機轉連結，但 2-DG 研究顯示抑制葡萄糖代謝（非補充）才是治療方向，需先解決因果方向矛盾方可推進。"
+    }
+  ],
+  "overall_assessment": {
+    "highest_priority": "open-angle glaucoma",
+    "key_concern": "多數適應症中 D-glucose 為疾病風險因子而非保護因子，TxGNN 模型可能未能區分代謝關聯的因果方向。需在推進任何新適應症前確認葡萄糖補充的治療效益方向（而非流行病學關聯）。",
+    "recommended_next_step": "針對 open-angle glaucoma 設計 Phase 2b 多中心 RCT，探討口服葡萄糖負荷對 POAG 患者視覺功能與視野保護的長期效益，以 PMID 24491639 結果為設計基礎。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 需特別注意的方向性問題
+
+本批次分析中發現一個系統性風險：**多數適應症的文獻中，D-glucose（高血糖狀態）是疾病的「風險因子」而非「治療劑」**，包括食道疾病、維生素缺乏相關代謝障礙。TxGNN 的知識圖譜可能擷取了「葡萄糖代謝異常 ↔ 疾病」的共現關係，但未能判斷因果方向。
+
+### 📊 等級分佈
+
+| 等級 | 適應症 | 數量 |
+|------|--------|------|
+| L2 | open-angle glaucoma | 1 |
+| L3 | biotin metabolic disease | 1 |
+| L4 | dermatitis, esophageal disease, vitamin deficiency disorder | 3 |
+| L5 | 其餘 5 項 | 5 |
+
+### ✅ 唯一可推進適應症
+
+**Open-angle glaucoma（L2/S2）** 是本資料集中唯一值得進一步研究的適應症，其核心依據為 PMID 24491639——一項雙盲隨機試驗，直接證明口服葡萄糖可短暫恢復 POAG 患者的視覺對比敏感度，機轉吻合「視網膜神經節細胞生物能量保護」理論。

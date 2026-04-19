@@ -1,0 +1,2409 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00040-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Glucagon",
+    "drugbank_id": "DB00040",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "irritable bowel syndrome",
+      "txgnn": {
+        "score": 0.9924139380455016,
+        "rank": 8710
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00802971",
+            "title": "Prevalence of Idiopathic Reactive Hypoglycaemia and Impact of Fructo-Oligosaccharide Supplementation on Blood Glucose Variability",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2008-12",
+            "completion_date": "2009-06",
+            "brief_summary": "Idiopathic reactive hypoglycemia (IRH) describes a condition where recurrent episodes of symptomatic hypoglycemia occurs one to four hours after a meal, usually following meals rich in carbohydrates. Differential diagnoses to be excluded include those caused by isulinomas or bariatric surgery (dumping syndrome), or iatrogenic induced hypoglycaemia.\n\nThe prevalence of IRH is not fully known. A British trial among 1136 random chosen women aged 17-50, reported that 37.9% experienced symptomatic hyp",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "探討 FOS 補充對特發性反應性低血糖的影響，Glucagon 為測量生物標記而非介入藥物，與 IBS 僅有間接連結。"
+            }
+          },
+          {
+            "nct_id": "NCT05249023",
+            "title": "Mode of Action of Butyrate in the Human Colon",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 37,
+            "start_date": "2018-04-11",
+            "completion_date": "2021-02-19",
+            "brief_summary": "Butyrate has recently gained attention as an important microbial compound in human colon health. Several diseases, including Irritable Bowel Syndrome (IBS), have been linked with a loss of butyrate in the colon resulting in the hypothesis that butyrate is important for disease resistance. However, despite a plethora of preclinical evidence about butyrate's role in colon health, data from human studies are insufficient, largely due to the lack of available tools for colon-specific butyrate delive",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04111263",
+            "title": "Efficacy of a Gut-microbiota Targeted Nutritional Intervention for Promoting Gut Barrier Integrity During Short-term Exposure to Hypobaric Hypoxia.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2019-10-06",
+            "completion_date": "2022-11-05",
+            "brief_summary": "The aim of this randomized, crossover clinical trial is to determine the efficacy of a gut microbiota-targeted nutritional intervention containing a blend of fermentable fibers and polyphenols (FP) for mitigating increases in GI permeability, and decrements in immune function and neuropsychologic performance following rapid ascent to simulated high altitude. Fifteen healthy young adults will participate in each of three study phases that include a 14-day supplementation period in which participa",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "腸道微生物菌相介入研究，Glucagon/GLP-1 為次要代謝指標。與 Glucagon 作為治療 IBS 藥物無直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT01056107",
+            "title": "Effect of ROSE-010 on Gastrointestinal Motor Functions in Female Patients With Constipation Predominant Irritable Bowel Syndrome (C-IBS)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 52,
+            "start_date": "2010-01",
+            "completion_date": "2011-12",
+            "brief_summary": "This trial will study the effects of an investigational (not FDA approved) medication, ROSE-010, on the movement of food through the stomach, small intestine and colon in females with constipation predominant irritable bowel syndrome (C-IBS).\n\nThe study hypothesis is that ROSE-010 will delay gastric emptying of solids and enhances gastric accommodation without retarding colonic transit in female patients with C-IBS.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1/2 RCT，測試 GLP-1 受體促效劑 ROSE-010 對 IBS-C 女性患者之腸道運動功能影響（n=52，已完成）。屬同源肽類但非 Glucagon 直接測試；為本組最高相關性臨床試驗，提供 proglucagon 家族在 IBS 的概念驗證。"
+            }
+          },
+          {
+            "nct_id": "NCT06408610",
+            "title": "Moderate Continuous Versus High Interval Intensity Training on Gut Dysbiosis and Glucagon Like Peptide Hormone in Irritable Bowel Syndrome",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 66,
+            "start_date": "2024-05-01",
+            "completion_date": "2025-05-17",
+            "brief_summary": "investigating the response of gut bacteria via measuring short chain fatty acids and Glucagon like peptide hormone to two different modes of exercises in pre-diabetic, obese patients with irritable bowel syndrome. It will be hypothesized that there will be no significant difference between the moderate continuous versus high interval intensity training on gut dysbiosis and glucagon like peptide hormone in irritable bowel syndrome.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "運動訓練對腸道菌叢及 GLP-1 的影響研究，GLP-1 為測量指標，非治療介入。"
+            }
+          },
+          {
+            "nct_id": "NCT02731664",
+            "title": "GLP-1 Inhibits Prandial Antro-duodeno-jejunal Motility in Humans: Native GLP-1 Compared With Analogue ROSE-010 in Vitro",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2012-09",
+            "completion_date": "2017-08",
+            "brief_summary": "The inhibitory effect of low dose GLP-1 is investigated on prandial motility of the stomach, duodenum and jejunum in vivo in humans. Supplementary in vitro studies on the mechanism of action of the GLP-1 inhibition of motility as carried out on muscle strips from the upper gastrointestinal tract in man.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 機轉研究，比較 native GLP-1 與類似物對人類空腸蠕動的抑制效應。支持 proglucagon 衍生肽在腸道運動調節的生理角色，但未直接測試 Glucagon 或 IBS 適應症。"
+            }
+          },
+          {
+            "nct_id": "NCT03256266",
+            "title": "Establishment of Small Intestinal Human Organoids to Check the Influence of Nutrient Antigens or Therapeutic Agents",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 375,
+            "start_date": "2017-04-01",
+            "completion_date": "2025-07",
+            "brief_summary": "The study evaluates the effect of nutrient antigens or therapeutic agents on human small intestinal organoids.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06333717",
+            "title": "Impact of Whole Grain Rye Bread on Modulating Microbiota-gut-brain Axis in Healthy Subjects",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2021-03-03",
+            "completion_date": "2021-11-05",
+            "brief_summary": "This randomized controlled trial aims to study how a high intake of a fibre-rich bread affects the composition and functioning of the gut microbiota in healthy subjects, and how this, in turn, impacts on the release of gut peptides, intestinal permeability, stress and cognitive performance.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04230655",
+            "title": "The Effects of a Low Energy Diet Versus Low Energy Diet and Intragastric Balloon in Adults With Obesity, All in Combination With Group Treatment: a Randomized, Controlled Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 110,
+            "start_date": "2019-12-10",
+            "completion_date": "2022-12",
+            "brief_summary": "In Sweden, approximately 1.3 million adults have obesity. Obesity decreases quality of life (QoL) and increases the risk of diseases such as type 2-diabetes, non-alcoholic fatty liver disease (NAFLD), cancer and cardiovascular diseases. Consequently, weight loss improves QoL and decreases the risk for obesity-related comorbidities.\n\nA treatment combination using a low energy diet (LED) and group treatment based on cognitive behavioral therapy (CBT), leads to 18 percent weight loss after 6 months",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06113146",
+            "title": "Impact of the Eating Rate of Ultra-processed Foods on Dietary Intake Behavior and Metabolic Responses",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 41,
+            "start_date": "2023-10-02",
+            "completion_date": "2024-11-04",
+            "brief_summary": "The aim of this balanced-order block randomized controlled cross-over trial with 2 treatment arms is to determine the effect of eating rate (ER) of ultra-processed food diets (UPF fast ER vs UPF slow ER) on ad libitum energy intake across a two week period.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04763564",
+            "title": "Efficacy of Liraglutide Therapy in Patients With an Ileal -Pouch Anal Anastomosis (IPAA) and Chronic High Bowel Frequency",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 8,
+            "start_date": "2022-03-22",
+            "completion_date": "2023-10-16",
+            "brief_summary": "Patients with an ileal pouch-anal anastomosis(IPAA; pouch) due to refractory inflammatory bowel disease and increased bowel frequency in the absence of significant pouch inflammation will be randomized to liraglutide or placebo in a prospective cross over study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30023410",
+            "title": "The Brain-Gut-Microbiome Axis.",
+            "authors": [
+              "Martin Clair R",
+              "Osadchiy Vadim",
+              "Kalani Amir",
+              "Mayer Emeran A"
+            ],
+            "journal": "Cellular and molecular gastroenterology and hepatology",
+            "year": "2018",
+            "abstract": "Preclinical and clinical studies have shown bidirectional interactions within the brain-gut-microbiome axis. Gut microbes communicate to the central nervous system through at least 3 parallel and interacting channels involving nervous, endocrine, and immune signaling mechanisms. The brain can affect the community structure and function of the gut microbiota through the autonomic nervous system, by modulating regional gut motility, intestinal transit and secretion, and gut permeability, and poten",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40134805",
+            "title": "Improvement of irritable bowel syndrome with glucagon like peptide-1 receptor agonists: a systematic review and meta-analysis.",
+            "authors": [
+              "Mostafa Mohamed E A",
+              "Alrasheed Tariq"
+            ],
+            "journal": "Frontiers in endocrinology",
+            "year": "2025",
+            "abstract": "Irritable bowel syndrome (IBS) is a severe gastrointestinal condition with symptoms like pain, bloating, diarrhea, and constipation. Glucagon-like peptide-1 (GLP-1) receptors, expressed in the central nervous system and peripheral tissues, have been found to affect gut motility. GLP-1 and its analog ROSE-010 have been shown to inhibit the migrating motor complex and decrease gastrointestinal motility in IBS patients.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38997662",
+            "title": "Glucagon-like peptide-1 (GLP-1) receptor agonists for headache and pain disorders: a systematic review.",
+            "authors": [
+              "Halloum Wael",
+              "Dughem Yousef Al",
+              "Beier Dagmar",
+              "Pellesi Lanfranco"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2024",
+            "abstract": "Glucagon-like peptide-1 (GLP-1) plays a crucial role in metabolic disorders by enhancing insulin secretion, inhibiting glucagon release, and slowing gastric emptying, thereby improving glycemic control. In recent years, GLP-1 role in neuronal pathways has expanded its therapeutic potential. We aim to comprehensively evaluate the relevance of GLP-1 in headache and pain disorders.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25427821",
+            "title": "Aerosolized GLP-1 for treatment of diabetes mellitus and irritable bowel syndrome.",
+            "authors": [
+              "Siekmeier Rüdiger",
+              "Hofmann Thomas",
+              "Scheuch Gerhard",
+              "Pokorski Mieczyslaw"
+            ],
+            "journal": "Advances in experimental medicine and biology",
+            "year": "2015",
+            "abstract": "Diabetes is a global burden and the prevalence of the disease, in particular diabetes mellitus type 2 is rapidly increasing worldwide. After introduction of insulin into clinical therapy about 90 years ago a major number of pharmaceuticals has been developed for treatment of diabetes mellitus type 2. One of these, the incretin glucagon-like peptide 1 (GLP-1), like insulin, needs subcutaneous administration causing inconvenience to patients. However, administration of GLP-1 plays also a role for ",
+            "classification": {
+              "study_type": "Experimental/Pilot",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36269141",
+            "title": "The probiotic Bacillus subtilis BS50 decreases gastrointestinal symptoms in healthy adults: a randomized, double-blind, placebo-controlled trial.",
+            "authors": [
+              "Garvey Sean M",
+              "Mah Eunice",
+              "Blonquist Traci M",
+              "Kaden Valerie N",
+              "Spears Jessica L"
+            ],
+            "journal": "Gut microbes",
+            "year": "2022",
+            "abstract": "Durable spore-forming probiotics are increasingly formulated into foods, beverages, and dietary supplements. To help meet this demand, the safety and efficacy of daily supplementation of Bacillus subtilis BS50 for 6 weeks was investigated in a randomized, double-blind, placebo-controlled, parallel clinical trial of 76 healthy adults. Before and during supplementation, gastrointestinal symptoms were recorded daily using a multi-symptom questionnaire. Clinical chemistry, hematology, plasma lipids,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30444291",
+            "title": "Endocrine regulation of gut function - a role for glucagon-like peptide-1 in the pathophysiology of irritable bowel syndrome.",
+            "authors": [
+              "O'Malley Dervla"
+            ],
+            "journal": "Experimental physiology",
+            "year": "2019",
+            "abstract": "What is the topic of this review? Pathophysiological changes linked to irritable bowel syndrome (IBS) include stress and immune activation, changes in gastrointestinal microbial and bile acid profiles and sensitization of extrinsic and intrinsic gut neurons. This review explores the potential role for L-cells in these pathophysiological changes. What advances does it highlight? L-cells, which secrete glucagon-like peptide-1 in response to nutrients, microbial factors, bile acids and short-chain ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21694813",
+            "title": "Treatment of irritable bowel syndrome: beyond fiber and antispasmodic agents.",
+            "authors": [
+              "Sainsbury Anita",
+              "Ford Alexander C"
+            ],
+            "journal": "Therapeutic advances in gastroenterology",
+            "year": "2011",
+            "abstract": "Irritable bowel syndrome (IBS) is a chronic functional disorder of the gastrointestinal tract of unknown etiology. The diagnosis of IBS is made clinically, using symptom-based criteria such as the Manning or Rome criteria. Medical therapy for this condition has traditionally been directed towards symptom relief, using fiber or antispasmodic agents. In recent years, emerging data have confirmed the efficacy of antidepressants, psychological therapies, 5-HT(3) antagonists, 5-HT(4) agonists, and pr",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26765585",
+            "title": "Novel investigational drugs for constipation-predominant irritable bowel syndrome: a review.",
+            "authors": [
+              "Mosińska Paula",
+              "Salaga Maciej",
+              "Fichna Jakub"
+            ],
+            "journal": "Expert opinion on investigational drugs",
+            "year": "2016",
+            "abstract": "Constipation-predominant irritable bowel syndrome (IBS-C) is a functional gastrointestinal (GI) disorder with an unknown etiology. A number of the drugs tested for IBS-C have also been applied to chronic constipation and chronic idiopathic constipation. Unfortunately, due to severe adverse effects, many drugs envisioned for IBS-C had been withdrawn from the market. Nevertheless, a number of potential new agents for this indication are now under development.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35234561",
+            "title": "Pain relief and pain intensity response to GLP-1 receptor agonist ROSE-010 in irritable bowel syndrome; clinical study cross-analysis with respect to patient characteristics.",
+            "authors": [
+              "Touny Aya A",
+              "Kenny Enda",
+              "Månsson Maria",
+              "Webb Dominic-Luc",
+              "Hellström Per M"
+            ],
+            "journal": "Scandinavian journal of gastroenterology",
+            "year": "2022",
+            "abstract": "Glucagon-like peptide-1 receptor agonist ROSE-010 has been studied for management of irritable bowel syndrome (IBS). ROSE-010 showed promising effects by reducing pain during attacks of IBS. In this exploratory substudy, we cross-analyzed earlier data to identify the most suitable subpopulation for treatment with ROSE-010.",
+            "classification": {
+              "study_type": "RCT Secondary Analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23330973",
+            "title": "Metabolic and toxicological considerations for the latest drugs used to treat irritable bowel syndrome.",
+            "authors": [
+              "Mozaffari Shilan",
+              "Nikfar Shekoufeh",
+              "Abdollahi Mohammad"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2013",
+            "abstract": "The high prevalence of irritable bowel syndrome (IBS), a chronic gastrointestinal (GI) disorder, its lack of satisfactory effective drugs and its complicated pathophysiology lead to the demand of new therapeutic agents. During a new drug development process, the pharmacokinetic profiling is of a great considerable importance comparable to drug's efficacy. This involves the drug's absorption, distribution, metabolism and excretion, all of which are crucial to its usefulness. In addition, the toxi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33450656",
+            "title": "A carbohydrate-restricted diet for patients with irritable bowel syndrome lowers serum C-peptide, insulin, and leptin without any correlation with symptom reduction.",
+            "authors": [
+              "Saidi Khadija",
+              "Nilholm Clara",
+              "Roth Bodil",
+              "Ohlsson Bodil"
+            ],
+            "journal": "Nutrition research (New York, N.Y.)",
+            "year": "2021",
+            "abstract": "Alterations in gut endocrine cells and hormone levels have been measured in patients with irritable bowel syndrome (IBS). The hypothesis of the present study was that hormone levels would change after 4 weeks of a starch- and sucrose-reduced diet (SSRD) intervention corresponding to decreased carbohydrate intake and symptoms. Among 105 IBS patients from primary and tertiary healthcare, 80 were randomized to SSRD, while 25 followed their ordinary diet. Food diaries, Rome IV, and IBS-symptom sever",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31602785",
+            "title": "The Glucagon-like peptide-1 receptor agonist, exendin-4, ameliorated gastrointestinal dysfunction in the Wistar Kyoto rat model of Irritable Bowel Syndrome.",
+            "authors": [
+              "O'Brien Rebecca",
+              "O'Malley Dervla"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2020",
+            "abstract": "Glucagon-like peptide-1 (GLP-1) is beneficial in relieving pain-related symptoms of Irritable bowel syndrome (IBS), a prevalent, multi-factorial functional bowel disorder characterized by diarrhea and/or constipation, abdominal bloating, and pain. Activation of myenteric neurons has been implicated in the inhibitory effects of GLP-1 on gastrointestinal motility; however, the mechanisms of action underlying this are not clear.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40880735",
+            "title": "Increase in circulating GLP-1 following low FODMAP diet in irritable bowel syndrome patients.",
+            "authors": [
+              "Khan Umael",
+              "Brønstad Ingeborg",
+              "Hillestad Eline Margrete Randulff",
+              "Steinsvik Elisabeth K",
+              "Hausken Trygve"
+            ],
+            "journal": "Frontiers in nutrition",
+            "year": "2025",
+            "abstract": "Fermentable oligosaccharides, disaccharides, monosaccharides and polyols (FODMAP) as well as glucagon-like peptide-1 (GLP-1) have independently been implicated in irritable bowel syndrome (IBS) pathophysiology. However, there is a lack of studies that assess how low FODMAP diet affects circulating GLP-1 levels in IBS patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28215540",
+            "title": "Decreased glucagon-like peptide-1 correlates with abdominal pain in patients with constipation-predominant irritable bowel syndrome.",
+            "authors": [
+              "Li Zheng-Yang",
+              "Zhang Na",
+              "Wen Shuang",
+              "Zhang Jing",
+              "Sun Xiu-Li"
+            ],
+            "journal": "Clinics and research in hepatology and gastroenterology",
+            "year": "2017",
+            "abstract": "The glucagon-like peptide-1 (GLP-1) analog, ROSE-010, plays a critical role in alleviating abdominal pain in patients with irritable bowel syndrome (IBS); however, the underling mechanism is unclear. In the present study, we determined the serum GLP-1 level in patients with constipation-predominant IBS (IBS-C). The relationship between GLP-1 and abdominal pain was investigated. In addition, the expression of the GLP-1 receptor in the colon was determined.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32968548",
+            "title": "How Serotonin Level Fluctuation Affects the Effectiveness of Treatment in Irritable Bowel Syndrome.",
+            "authors": [
+              "Vahora Ilmaben S",
+              "Tsouklidis Nicholas",
+              "Kumar Rajat",
+              "Soni Ravi",
+              "Khan Safeera"
+            ],
+            "journal": "Cureus",
+            "year": "2020",
+            "abstract": "Irritable bowel syndrome (IBS) is one of the most commonly diagnosed functional gastrointestinal (GI) disorders. It affects both men and women. Enteric serotonin (5HT) is responsible for gut motility, secretion, visceral hypersensitivity, and inflammation. The serotonin reuptake transporter (SERT) maintains serotonin levels by regulating its reuptake. An increase in SERT expression causes a decrease in serotonin, which leads to IBS-C (irritable bowel syndrome, constipation-predominant), whereas ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40697433",
+            "title": "Patterns of prescription and discontinuation of glucagon-like peptide-1 receptor agonists among patients with irritable bowel syndrome.",
+            "authors": [
+              "Gautam Misha",
+              "Goel Utkarsh",
+              "Bader Abbas",
+              "Azim Samiya",
+              "Hassan Noor"
+            ],
+            "journal": "Annals of gastroenterology",
+            "year": "2025",
+            "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1RAs) are associated with gastrointestinal (GI) adverse effects, but real-world evidence about their incidence in patients with functional GI disorders is limited. We examined their prescription and discontinuation patterns in irritable bowel syndrome (IBS) patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31311066",
+            "title": "GHSR-1 agonist sensitizes rat colonic intrinsic and extrinsic neurons to exendin-4: A role in the manifestation of postprandial gastrointestinal symptoms in irritable bowel syndrome?",
+            "authors": [
+              "Buckley Maria M",
+              "O'Brien Rebecca",
+              "Buckley Julliette M",
+              "O'Malley Dervla"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2019",
+            "abstract": "Patients with irritable bowel syndrome (IBS) may experience postprandial symptom exacerbation. Nutrients stimulate intestinal release of glucagon-like peptide 1 (GLP-1), an incretin hormone with known gastrointestinal effects. However, prior to the postprandial rise in GLP-1, levels of the hunger hormone, ghrelin, peak. The aims of this study were to determine if ghrelin sensitizes colonic intrinsic and extrinsic neurons to the stimulatory actions of a GLP-1 receptor agonist, and if this differs",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3617051",
+            "title": "Colonic motility, autonomic function, and gastrointestinal hormones under psychological stress on irritable bowel syndrome.",
+            "authors": [
+              "Fukudo S",
+              "Suzuki J"
+            ],
+            "journal": "The Tohoku journal of experimental medicine",
+            "year": "1987",
+            "abstract": "Effects of an artificial mental stress on colonic motility, autonomic nervous system, and gastrointestinal hormones were examined in patients with irritable bowel syndrome (IBS). The subjects were 20 patients with typical IBS and 12 controls. A transducer was inserted to the sigmoid colon from the anus for measuring colonic intraluminal pressure, and mirror drawing test was loaded as psychological stress. At the same time, coefficient of variation of R-R interval on ECG (CV-RR) was measured and ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41480755",
+            "title": "Mechanisms and clinical implications of gut-brain interactions.",
+            "authors": [
+              "Lorsch Zachary S",
+              "Liddle Rodger A"
+            ],
+            "journal": "The Journal of clinical investigation",
+            "year": "2026",
+            "abstract": "Connections between the digestive system and the brain have been postulated for over 2000 years. Despite this, only recently have specific mechanisms of gut-brain interaction been identified. Due in large part to increased interest in the microbiome, the wide use of incretin-based therapies (i.e., glucagon-like peptide 1 [GLP-1] receptor agonists), technological advancements, increased understanding of neuroimmunology, and the identification of a direct enteroendocrine cell-neural circuit, resea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24605036",
+            "title": "Endocrine cells in the ileum of patients with irritable bowel syndrome.",
+            "authors": [
+              "El-Salhy Magdy",
+              "Gilja Odd Helge",
+              "Gundersen Doris",
+              "Hatlebakk Jan Gunnar",
+              "Hausken Trygve"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2014",
+            "abstract": "To study the ileal endocrine cell types in irritable bowel syndrome (IBS) patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Glucagon 與 GLP-1 均源自 proglucagon 基因，GLP-1 藉由腸道 GLP-1R 調節腸道蠕動、減緩胃排空、調節內臟痛覺；Glucagon 本身可鬆弛腸道平滑肌（臨床上用於 GI 影像前處置），此平滑肌鬆弛效應提供 IBS 症狀緩解的潛在機轉。核心證據來自 GLP-1 類似物 ROSE-010（NCT01056107）在 IBS-C 的 Phase 1/2 試驗，以及 2025 年 GLP-1 RA 系統性回顧（PMID 40134805）。惟現有臨床證據主體為 GLP-1 RA 而非 Glucagon 本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.987846851348877,
+        "rank": 12176
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無明確機轉假說。馬尾症候群為馬尾神經根壓迫性疾病，主要治療為外科減壓。Glucagon 對神經壓迫病因無已知作用路徑，TxGNN 高分可能源自知識圖譜中的非特異性神經退化節點連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.972779095172882,
+        "rank": 20212
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經性膀胱為神經控制失調所致的膀胱功能障礙。雖有研究顯示 GLP-1R 存在於下泌尿道，但缺乏任何臨床前或臨床研究支持 Glucagon 對神經性膀胱的療效。疾病本體已標記為 'obsolete'，術語適用性存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9448032975196838,
+        "rank": 27862
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性喉咽炎為感染性炎症疾病，與 Glucagon 代謝路徑無合理機轉連結。TxGNN 預測可能透過免疫調節節點產生間接連結，但缺乏生物學合理性支持。無任何臨床或臨床前證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9430788159370422,
+        "rank": 28206
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鼻腔疾病為廣義分類，包含多種病因。雖鼻腔黏膜表達某些肽類受體，但 Glucagon 用於鼻腔疾病的機轉假說缺乏文獻支撐。無任何臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "pharyngitis",
+      "txgnn": {
+        "score": 0.9378073811531068,
+        "rank": 29191
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35839363",
+            "title": "Top 20 Research Studies of 2021 for Primary Care Physicians.",
+            "authors": [
+              "Ebell Mark H",
+              "Grad Roland"
+            ],
+            "journal": "American family physician",
+            "year": "2022",
+            "abstract": "This article summarizes the top 20 research studies of 2021 identified as POEMs (patient-oriented evidence that matters) that did not address the COVID-19 pandemic. Sodium-glucose cotransporter-2 inhibitors and glucagon-like peptide-1 receptor agonists prevent adverse cardiovascular and renal outcomes in patients with type 2 diabetes mellitus and also reduce all-cause and cardiovascular mortality. Most older adults (mean age, 75 years) with prediabetes do not progress to diabetes. Among patients",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27318907",
+            "title": "[Impact of glucagon-like peptide-1 receptor agonists on nasopharyngitis and upper respiratory tract infection among patients with type 2 diabetes: a network meta-analysis].",
+            "authors": [
+              "Li Z X",
+              "Wu S S",
+              "Yang Z R",
+              "Zhan S Y",
+              "Sun F"
+            ],
+            "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences",
+            "year": "2016",
+            "abstract": "To systematically review the effects of glucagon-like peptide-1 receptor agonists (GLP-1RAs) on two common respiratory system adverse events (RSAE: nasopharyngitis and upper respiratory tract infection) among type 2 diabetes (T2DM).",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26477324",
+            "title": "A 1-year safety study of dulaglutide in Japanese patients with type 2 diabetes on a single oral hypoglycemic agent: an open-label, nonrandomized, phase 3 trial.",
+            "authors": [
+              "Emoto Masanori",
+              "Terauchi Yasuo",
+              "Ozeki Akichika",
+              "Oura Tomonori",
+              "Takeuchi Masakazu"
+            ],
+            "journal": "Endocrine journal",
+            "year": "2015",
+            "abstract": "The goal of this study was to assess the safety and efficacy of 0.75 mg of dulaglutide, a once weekly glucagon-like peptide-1 receptor agonist, in Japanese patients with type 2 diabetes (T2D) on a single oral hypoglycemic agent (OHA). In this phase 3, nonrandomized, open-label, parallel-group, 52-week study, safety and efficacy of once weekly dulaglutide 0.75 mg were assessed in Japanese patients with T2D on a single OHA (sulfonylureas [SU], biguanides [BG], α-glucosidase inhibitors [AGI], thiaz",
+            "classification": {
+              "study_type": "Safety RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26179754",
+            "title": "Efficacy and safety of once-weekly dulaglutide in combination with sulphonylurea and/or biguanide compared with once-daily insulin glargine in Japanese patients with type 2 diabetes: a randomized, open-label, phase III, non-inferiority study.",
+            "authors": [
+              "Araki E",
+              "Inagaki N",
+              "Tanizawa Y",
+              "Oura T",
+              "Takeuchi M"
+            ],
+            "journal": "Diabetes, obesity & metabolism",
+            "year": "2015",
+            "abstract": "To evaluate 0.75 mg of dulaglutide, a once-weekly glucagon-like peptide-1 receptor agonist, compared with once-daily insulin glargine for glycaemic control in Japanese patients with type 2 diabetes (T2D).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17940229",
+            "title": "Adverse effects of incretin therapy for type 2 diabetes.",
+            "authors": [
+              "Grouzmann Eric",
+              "Monod Michel",
+              "Landis Basil N",
+              "Lacroix Jean-Silvain"
+            ],
+            "journal": "JAMA",
+            "year": "2007",
+            "abstract": "",
+            "classification": {
+              "study_type": "Safety Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20637971",
+            "title": "Linagliptin, a dipeptidyl peptidase-4 inhibitor in development for the treatment of type 2 diabetes mellitus: a Phase I, randomized, double-blind, placebo-controlled trial of single and multiple escalating doses in healthy adult male Japanese subjects.",
+            "authors": [
+              "Sarashina Akiko",
+              "Sesoko Shogo",
+              "Nakashima Mitsuyoshi",
+              "Hayashi Naoyuki",
+              "Taniguchi Atsushi"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2010",
+            "abstract": "The dipeptidyl peptidase-4 (DPP-4) inhibitor linagliptin is in clinical development for the treatment of type 2 diabetes mellitus (T2DM). In previous studies in non-Japanese populations, linagliptin showed potential as a once-daily oral antidiabetic drug.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4507766",
+            "title": "[Indirect stimulation of the adrenal cortex].",
+            "authors": [
+              "Pichler E"
+            ],
+            "journal": "Wiener medizinische Wochenschrift. Supplement",
+            "year": "1972",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向證據警示：7 篇文獻中，多篇（PMID 27318907、26477324、26179754、17940229）記錄鼻咽炎（nasopharyngitis）為 GLP-1 RA 的常見不良反應（發生率 5-10%），而非治療目標。將此疾病作為 Glucagon/GLP-1 的再利用適應症，與現有安全性資料相悖。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn": {
+        "score": 0.910231113433838,
+        "rank": 33681
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "原發性遺傳性青光眼由特定基因突變（如 MYOC、OPTN）所致，屬遺傳性眼壓調節障礙。雖 GLP-1R 存在於視網膜節細胞（RGC），但針對遺傳性青光眼的特異性機轉假說尚未見文獻，且無任何臨床資料。與 open-angle glaucoma 的流行病學證據不應混同。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "open-angle glaucoma",
+      "txgnn": {
+        "score": 0.9016003012657166,
+        "rank": 34638
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39863057",
+            "title": "Glucagon-like Peptide-1 Receptor Agonist Impact on Chronic Ocular Disease Including Age-Related Macular Degeneration.",
+            "authors": [
+              "Allan Kevin C",
+              "Joo Julia H",
+              "Kim Sonia",
+              "Shaia Jacqueline",
+              "Kaelber David C"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2025",
+            "abstract": "Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have been shown to exert neuroprotective and anti-inflammatory effects across multiple organ systems. This study investigated whether GLP-1RAs influence the risk for age-related ocular diseases.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38250602",
+            "title": "Prescription of glucagon-like peptide 1 agonists and risk of subsequent open-angle glaucoma in individuals with type 2 diabetes mellitus.",
+            "authors": [
+              "Chuang Chih-Chun",
+              "Wang Kai",
+              "Chang Chao-Kai",
+              "Lee Chia-Yi",
+              "Huang Jing-Yang"
+            ],
+            "journal": "International journal of medical sciences",
+            "year": "2024",
+            "abstract": "Background: The glucagon-like peptide 1 receptor agonist (GLP-1RA) is an antidiabetic medication with vascular protection and anti-inflammatory properties. Theoretically, the use of GLP-1RA should inhibit the development of open-angle glaucoma (OAG) as both vascular damage and inflammation are associated with OAG. Therefore, our objective was to investigate the association between the application of GLP-1RA and the subsequent OAG in individuals with type 2 diabetes mellitus (T2DM). Methods: We c",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39978437",
+            "title": "Risk of Glaucoma in Patients without Diabetes Using a Glucagon-Like Peptide 1 Receptor Agonist.",
+            "authors": [
+              "Vasu Pranav",
+              "Dorairaj Emily A",
+              "Weinreb Robert N",
+              "Huang Alex S",
+              "Dorairaj Syril K"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2025",
+            "abstract": "To compare the risk of primary open-angle glaucoma (POAG) and ocular hypertension in patients with obesity taking glucagon-like peptide 1 receptor agonists (GLP-1RAs) versus alternative weight loss medications.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41360342",
+            "title": "Tirzepatide is Associated With Reduced Risk of Primary Open-Angle Glaucoma and Ocular Hypertension in Patients With Type 2 Diabetes.",
+            "authors": [
+              "Hong Alexander T",
+              "Lin Forest",
+              "Baxter Sally",
+              "Weinreb Robert N"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "2026",
+            "abstract": "Tirzepatide, a dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 receptor agonist (GLP-1 RA), has shown superior efficacy in glycemic control, weight loss, and cardiometabolic outcomes compared to GLP-1 RAs alone. While GLP-1 RAs may offer neuroprotective effects relevant to glaucoma, the impact of dual-incretin therapies like tirzepatide on glaucoma remains unknown. This study investigates the association between tirzepatide initiation and the risk of primary open-an",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39182626",
+            "title": "Comparative Effects of Glucagon-like Peptide 1 Receptor Agonists and Metformin on Glaucoma Risk in Patients with Type 2 Diabetes.",
+            "authors": [
+              "Muayad Jawad",
+              "Loya Asad",
+              "Hussain Zain S",
+              "Chauhan Muhammad Z",
+              "Alsoudi Amer F"
+            ],
+            "journal": "Ophthalmology",
+            "year": "2025",
+            "abstract": "To compare effects of glucagon-like peptide 1 (GLP-1) receptor agonists and metformin on the risk of primary open-angle glaucoma (POAG), ocular hypertension, and the need for first-line glaucoma treatments in patients with type 2 diabetes mellitus (T2DM).",
+            "classification": {
+              "study_type": "Comparative Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34413054",
+            "title": "Glucagon-like peptide 1 receptor agonist use is associated with reduced risk for glaucoma.",
+            "authors": [
+              "Sterling Jacob",
+              "Hua Peiying",
+              "Dunaief Joshua L",
+              "Cui Qi N",
+              "VanderBeek Brian L"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "2023",
+            "abstract": "Glucagon-like peptide-1 receptor (GLP-1R) agonists regulate blood glucose and are commonly used to treat type 2 diabetes mellitus. Recent work showed that treatment with the GLP-1R agonist NLY01 decreased retinal neuroinflammation and glial activation to rescue retinal ganglion cells in a mouse model of glaucoma. In this study, we used an insurance claims database (Clinformatics Data Mart) to examine whether GLP-1R agonist exposure impacts glaucoma risk.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39515454",
+            "title": "Sodium-Glucose Cotransporter 2 Inhibitors for the Primary Prevention of Glaucoma in Patients With Type 2 Diabetes: A Target Trial Emulation.",
+            "authors": [
+              "Eng Kathleen",
+              "Zebardast Nazlee",
+              "Boland Michael V",
+              "Lo Jui-En",
+              "Swaminathan Swarup S"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "2025",
+            "abstract": "Pleiotropic cardiovascular benefits of sodium-glucose cotransporter 2 inhibitors (SGLT2i) due to vascular remodeling effects have been demonstrated in patients with type 2 diabetes mellitus. It is unclear whether a similar benefit may be seen for glaucoma. The purpose of this study was to assess the effect of SGLT2i on the risk of glaucoma in patients with type 2 diabetes.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41074575",
+            "title": "Ocular Complications of SGLT-2 Inhibitors, GLP-1 Receptor Agonists, and DPP-4 Inhibitors in T2DM Treatments: A Retrospective Real-World Cohort Study.",
+            "authors": [
+              "Lin Lee-Yuan",
+              "Wu Jie-Syuan",
+              "Jeng Wei-Jung",
+              "Tsai Chen-Hsin",
+              "Sun Jia-Wei"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2026",
+            "abstract": "Glaucoma is a leading cause of irreversible vision loss worldwide, and type 2 diabetes mellitus (T2DM) is increasingly recognized as a risk factor for glaucoma. This study compared the effects of 3 classes of antidiabetic drugs-sodium-glucose cotransporter 2 inhibitors (SGLT-2is), glucagon-like peptide-1 receptor agonists (GLP-1 RAs), and dipeptidyl peptidase 4 inhibitors (DPP-4is)-on ocular and systemic complications in adults with T2DM. Using the TriNetX database from 2015 to 2025, adults aged",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28839674",
+            "title": "Administration of hyoscine- n-butylbromide during colonoscopy: a survey of current UK practice.",
+            "authors": [
+              "Bedford Matthew Robert",
+              "Reuser Tristan",
+              "Wilson Paul",
+              "Karandikar Sharad",
+              "Bowley Douglas"
+            ],
+            "journal": "Frontline gastroenterology",
+            "year": "2012",
+            "abstract": "Current British Society of Gastroenterology (BSG) guidelines suggest that hyoscine-n-butylbromide (Buscopan) should be avoided during colonoscopy in patients with a history of angle-closure glaucoma. Angle-closure glaucoma, however, is not very common, is asymptomatic before onset and is treated definitively by a single laser treatment (if spotted early). Open-angle glaucoma is not affected by hyoscine. The aim of this study was to assess the use of hyoscine among colonoscopists, with particular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GLP-1R 在視網膜節細胞（RGC）、小梁網（trabecular meshwork）及睫狀體均有表達。GLP-1 RA 可能透過：(1) 降低眼壓（房水生成減少）；(2) RGC 神經保護效應（cAMP 上調，抗凋亡）；(3) 抗神經炎症路徑發揮保護作用。多項大型藥物流行病學研究（2023-2026）一致顯示 GLP-1 RA 使用者青光眼風險降低 20-40%。惟現有證據全部來自 GLP-1 RA（非 Glucagon 本身），且均為觀察性研究，尚無 RCT 設計以青光眼為主要終點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "filariasis",
+      "txgnn": {
+        "score": 0.9001085162162781,
+        "rank": 34814
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36482987",
+            "title": "Modulatory effect of filarial infection on the systemic hormone levels in subjects with metabolic syndrome (DM-LF5).",
+            "authors": [
+              "Sibi Joy Manohar",
+              "Mohan Viswanathan",
+              "Deepa Mohan",
+              "Babu Subash",
+              "Aravindhan Vivekanandhan"
+            ],
+            "journal": "Frontiers in endocrinology",
+            "year": "2022",
+            "abstract": "Metabolic syndrome (MS) refers to a group of co-morbidities which include central obesity, hypertension, hyperglycemia and dyslipidemia. Previously, we reported that childhood lymphatic filariasis (LF) confers significant protection against type-1 and type-2 forms of diabetes, by means of immunomodulation. In the present study, we studied the effect of LF on endocrine dysfunction in MS and Non-MS patients in baseline and after 10 years of follow-up.",
+            "classification": {
+              "study_type": "Observational (Inverse Direction)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向因果警示：唯一文獻（PMID 36482987）研究絲蟲感染如何影響宿主系統性荷爾蒙水平（包括 Glucagon），為「疾病對藥物」的觀察，而非「藥物對疾病」的治療研究。無任何支持 Glucagon 治療絲蟲病的機轉假說或臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "large intestine disease",
+      "txgnn": {
+        "score": 0.8986266851425171,
+        "rank": 34956
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02229500",
+            "title": "Regulating Appetite by Targeting Nutrient Delivery in the Gut",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2014-08",
+            "completion_date": "2015-12",
+            "brief_summary": "Obesity, with its associated co-morbidities, is a major public health challenge. It is estimated that by 2050, 60% of men and 50% of women will be clinically obese. Obesity is associated with increased risk of developing diabetes, cardiovascular disease, and certain cancers. The increasing epidemic of obesity has necessitated the study of the complex mechanisms underlying energy homeostasis. Food intake, energy balance and body weight are tightly regulated by the hypothalamus, brainstem and rewa",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究腸道營養輸送對食慾的調節，測量 GLP-1/PYY 等腸道荷爾蒙，Glucagon 為觀測指標而非治療藥物。"
+            }
+          },
+          {
+            "nct_id": "NCT04111263",
+            "title": "Efficacy of a Gut-microbiota Targeted Nutritional Intervention for Promoting Gut Barrier Integrity During Short-term Exposure to Hypobaric Hypoxia.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2019-10-06",
+            "completion_date": "2022-11-05",
+            "brief_summary": "The aim of this randomized, crossover clinical trial is to determine the efficacy of a gut microbiota-targeted nutritional intervention containing a blend of fermentable fibers and polyphenols (FP) for mitigating increases in GI permeability, and decrements in immune function and neuropsychologic performance following rapid ascent to simulated high altitude. Fifteen healthy young adults will participate in each of three study phases that include a 14-day supplementation period in which participa",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05826184",
+            "title": "Time Restricted Eating With or Without a Fiber Supplement for Weight Management in Pediatric Cancer Survivors",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 13,
+            "start_date": "2023-11-17",
+            "completion_date": "2025-07-01",
+            "brief_summary": "This study aims to address a critical gap in pediatric oncology survivorship care by exploring innovative solutions to addressing obesity and its comorbidities in pediatric cancer survivors. The majority (99%) of pediatric cancer survivors will develop severe chronic health conditions by age 50, with 96% developing at least one severe/disabling, life threating or fatal chronic health condition. Obesity, cardiovascular, and metabolic diseases are the most common treatment-related late effects amo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03141710",
+            "title": "Effect of Prebiotic in Type 2 Diabetes (Diabetes and Health Study)",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 12,
+            "start_date": "2017-05-10",
+            "completion_date": "2018-08",
+            "brief_summary": "Previous work in 2015/16 has identified changes in the gut microbiota with prebiotic (Molkosan®) supplement. It report significant changes in metabolic health bio-markers and faecal SCFA profile in 18 health adult subjects consuming 20 ml of product twice a day. Improvement in fasting metabolic parameters was observed flowing the intervention period. A reduction on Total Cholesterol, Glucose, Triglycerides and Insulin was observed.\n\nIn this study, a lower dose (20ml/d) in subjects with type 2 di",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02812615",
+            "title": "Stunting and Bangladesh Environmental Enteric Dysfunction Study",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 1575,
+            "start_date": "2016-07-16",
+            "completion_date": "2022-06-30",
+            "brief_summary": "This is a community-based intervention study which will be undertaken at Mirpur, Dhaka, Bangladesh. Participants will be recruited from two age groups: a child cohort (age 12 to 18 months) and an adult cohort (age 18 to 45 years). The child cohort will consist of stunted children (length for age Z score, LAZ \\< -2), children who are at risk of stunting (length for age Z score \\<-1 to -2) and child controls. The adult cohort will consist of malnourished adult cases (Body Mass Index \\<18.5) and ad",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02405806",
+            "title": "Clinical Effects of Nutrition on Metabolic Risk Factors and Mechanisms",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2014-11",
+            "completion_date": "2017-12-31",
+            "brief_summary": "The overall aim for this study is to evaluate the clinical effects of a modified diet on metabolic risk factors such as diabetes mellitus and obesity, and the mechanisms this nutrition composition exerts on gastrointestinal physiology, inflammatory responses, and quality of life, where the subjects are their own controls.\n\nWithin this study, the investigators will be able to relate the nutritional composition to metabolic disorders, the gut microbiota, secreted intestinal neuropeptides, and bio-",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03097237",
+            "title": "High Fiber Rye Foods for Weight and Body Fat Reduction",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 242,
+            "start_date": "2016-09",
+            "completion_date": "2018-12",
+            "brief_summary": "The overall aim of this study is to investigate whether a diet rich in rye fiber from wholegrain rye, compared to refined wheat, as part of a hypocaloric diet leads to larger weight loss and lower body fat content after 12 weeks of intervention. Furthermore the study will investigate the effect on appetite as a potential underlying mechanism for differences in weight loss and body fat reduction.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07019519",
+            "title": "Interplay Between Gut Hormones and Autonomic Postprandial Blood Flow Regulation in Patients With POTS",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 30,
+            "start_date": "2025-03-15",
+            "completion_date": "2026-09-30",
+            "brief_summary": "This study will describe the interplay between the gut hormones GIP and CCK and their regulation of blood flow to the large vessels in patients with Postural Orthostatic Tachycardia Syndrome (POTS) and GIP, CCK and GLP-1 in healthy. This is addressed by hormone infusions during MR-scans of the abdomen and intake of oral glucose.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "RECRUITING 狀態，研究腸道荷爾蒙（含 Glucagon）與自律神經在 POTS 患者餐後血流調節的交互作用，為機轉研究，提供 Glucagon 在自律神經/腸道疾病中的生理角色依據。"
+            }
+          },
+          {
+            "nct_id": "NCT04591782",
+            "title": "Exploratory Study to Determine the Bioavailability of Sugar From Pomegranate Juice (PJ) vs. Sucrose",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2019-02-01",
+            "completion_date": "2021-12-20",
+            "brief_summary": "Pomegranate fruits and products, including juice, tea, wine and extracts are widely consumed and recognized for their health benefits. Pomegranate fruit possesses strong antioxidant, anti-inflammatory and antiproliferative properties. The effects of pomegranate on type 2 diabetic (T2DM) conditions have previously been reported. Although 8 oz. of Pom juice (PJ) contains 36.9 g of sugar, 12-week PomJ supplementation did not change plasma advanced glycated end-products, fasting glucose and HbA1C, b",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "食物生物利用度研究，測量代謝荷爾蒙反應，與大腸疾病治療無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT02070081",
+            "title": "Patient Profiling for Successful Weight Loss After Gastric Bypass or Sleeve Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 55,
+            "start_date": "2014-03",
+            "completion_date": "2017-04",
+            "brief_summary": "The overall aim is to study the multiple factors determining the variation of weight loss after Roux-en-Y Gastric Bypass (RYGB) and Sleeve surgery.\n\nThe specific aims are to evaluate:\n\na) what explains the large individual differences in weight loss seen after RYGB and Sleeve surgery, b) if it is possible pre-operatively to identify which patients will not obtain beneficial effects of bariatric surgery in relation to weight loss and quality of life and c) if patients in need of improved care can",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03203915",
+            "title": "Metabolic Response to Chardonnay Grape Marc Powder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 31,
+            "start_date": "2017-08-01",
+            "completion_date": "2019-06-28",
+            "brief_summary": "To determine if the addition of chardonnay grape marc (also called pomace) powder enriched with grape seed extract to the diet will result in reducing blood levels of cholesterol or triglycerides.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01729299",
+            "title": "Ghrelin Effect on Beta Cell Function in Health and Disease",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2013-04",
+            "completion_date": "2014-04",
+            "brief_summary": "To determine the role of nutrient status on ghrelin regulation of insulin secretion. We hypothesize that ghrelin and glucagon-like peptide-1 (GLP-1)(both are hormones made in the gut,) have differential effects on β-cell function in the fed state. We will compare insulin secretion and glucose turnover during meal ingestion using a dual glucose tracer and mixed meal protocol in subjects receiving ghrelin or saline. We will also determine the role of ghrelin-stimulated GLP-1 levels in this process",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04714723",
+            "title": "Lifestyle Intervention Trial in High Metabolic Risk Chinese",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 395,
+            "start_date": "2020-12-27",
+            "completion_date": "2023-12-31",
+            "brief_summary": "In this single-blind, randomized trial, 395 eligible volunteers, who have higher metabolic syndrome (MetS) risk and aged 20-65 years, will be assigned to one of two smartphone-based lifestyle intervention arms: 1) Programmed-smartphone intervention or 2) Programmed-smartphone plus dietitian intervention. Before and after 6-month intervention, \"PhenFlex test\" (PFT) was performed to examine and quantify improved metabolic flexibility.\n\nThis intervention trial will be conducted by researchers in Sh",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00994435",
+            "title": "The Incretin Secretion in the Gut System Related to the Physiological Stimulus",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2009-01",
+            "completion_date": "2011-01",
+            "brief_summary": "Insulin secretion and insulin sensitivity are related with an inverse, hyperbolic function, the so called disposition index, that shows the critical importance of the ß-cell dysfunction for the development of T2DM. A consequence of the hyperbolic relationship is that increased insulin resistance is compensated by up-regulation of insulin secretion, as it happens in obesity. However, when a defective insulin secretion in relation to insulin sensitivity takes place (i.e. reduced disposition index)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03255876",
+            "title": "Effects of Enriched Fruit Juice on Blood Glucose Levels After a Meal in Healthy Subjects",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 24,
+            "start_date": "2017-04-10",
+            "completion_date": "2018-09-01",
+            "brief_summary": "Results from a large number of studies in humans have shown that diets rich in foods that give lower glucose response bring lower risk of type 2 diabetes. Polyphenols, naturally found in fruits, vegetables and grains, have shown the potential to attenuate post-prandial blood glucose spikes following a carbohydrate-rich meal, through partial inhibition of the main enzymes of carbohydrate digestion and reduction in glucose and fructose transport from the gut after digestion and by enhancing the in",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07095517",
+            "title": "Pathways, Risk Factors, and mOleculeS to Prevent Early-onset Colorectal Tumors",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 20,
+            "start_date": "2026-02-24",
+            "completion_date": "2028-12-31",
+            "brief_summary": "This research study is an open-label Phase 1 Exploratory/Pilot clinical trial to measure the effects of the incretin mimetic, tirzepatide, on tissue, urine, blood, and microbiome biomarkers associated with colorectal cancer risk and to understand the feasibility of this precision prevention trial approach for a future larger study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01828125",
+            "title": "A Double-blinded, Randomized, Two-way, Cross-over Study to Assess the Efficacy of Small Subcutaneous Glucagon Dose Against the Conventional 1 mg Dose to Treat Hypoglycemia in Adults With Type 1 Diabetes",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-04",
+            "completion_date": "2013-12",
+            "brief_summary": "In the unfortunate case of severe hypoglycaemia, glucagon is the first-line treatment because of its potent and rapid action starting as fast as 5 minutes after subcutaneous or intramuscular injection. Large dose of glucagon such as 1 mg subcutaneous is usually associated with undesirable side-effects such as nausea, vomiting, bloating and headache.\n\nThe overall objective of this research proposal is to assess the efficacy of lower subcutaneous doses of glucagon (0.1 mg or 0.2 mg) to correct hyp",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04315350",
+            "title": "The Effect of Curcumin on the Development of Prednisolone-induced Hepatic Insulin Resistance in Overweight and Obese Participants",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 24,
+            "start_date": "2019-12-01",
+            "completion_date": "2021-06-11",
+            "brief_summary": "The aim of this study is to investigate whether ingestion of curcumin will prevent hepatic insulin resistance (assessed by homeostatic model assessment of insulin resistance (HOMA-IR)) induced by short-term oral glucocorticoid (prednisolone) administration in overweight and obese participants. As a secondary endpoint it will be investigated if prednisolone administration induce or worsen the degree of NAFLD in overweight or obese participants using magnetic resonance (MR) spectroscopy (MRS), and",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05349903",
+            "title": "Impact of Slowly Digestible Carbohydrates on the Gut-brain Axis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2021-11-10",
+            "completion_date": "2022-02-24",
+            "brief_summary": "Our laboratory is investigating the physiological outcomes and health benefits of the consumption of high-quality carbohydrates. One important aspect of the high-quality carbohydrate characteristics is a slow and sustained digestion and glucose release to the blood. In the proposed study, the investigators will evaluate the consumption of different types of slowly digestible carbohydrates (SDCs) and their beneficial effects including moderation of the glycemic response profile (postprandial glyc",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01965210",
+            "title": "The Combined Effect of Dietary Fibre and Plant Protein on Appetite and Metabolic Function After Short-Term Consumption",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2013-03",
+            "completion_date": "2013-08",
+            "brief_summary": "Acute effects on appetite and metabolic function have been observed for whole-grain rye cereal products. The aim of this study is to evaluate if the appetite suppressing effect of a whole-grain rye breakfast cereal may be further enhanced by the addition of fermentable dietary fibre and plant protein. The aim is also to try to elucidate how observed effects on subjective appetite are mediated in terms of changes in hormonal signals, flow of nutrients in the blood and products from bacterial ferm",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06355219",
+            "title": "Macrovascular and Microvascular Outcomes in Patients With Type 2 Diabetes and Obesity: Comparison of Metabolic Surgery Versus GLP-1 Receptor Agonists",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 3932,
+            "start_date": "2010-01-01",
+            "completion_date": "2024-05-20",
+            "brief_summary": "The goal of this study is to compare the impact of metabolic surgery and a class of anti-diabetes medications (Glucagon-like peptide-1 receptor agonists,GLP-1 RAs) on occurrence of diseases involving small and large vessels such as heart disease, kidney disease, and disease of the retina (a part of the eye), as well as deaths.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05443828",
+            "title": "Short-chain Fatty Acids in Plasma After Intake of Fermentable Cereal Fibres- An Extended Postprandial Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2021-11-09",
+            "completion_date": "2022-05-24",
+            "brief_summary": "Circulating SCFAs reflect the net effect of what is produced in the large intestine from dietary fibre fermentation, bioavailability after considerable absorption by the enterocytes and in the liver and the elimination. It is yet unclear to what extent SCFA levels in systemic circulation is of importance for metabolic disease risk and diabetes aetiology. Recent high-impact studies strongly suggest beneficial metabolic effects of butyrate and adverse effects from propionate However, no study has ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05375968",
+            "title": "Mechanism of Glucose-dependent Insulinotropic Polypeptide (GIP) on Splanchnic Venous Capacitance in Postural Tachycardia Syndrome",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2023-02-25",
+            "completion_date": "2028-06-01",
+            "brief_summary": "Postural tachycardia syndrome (POTS) affects ≈3 million young people, characterized by chronic presyncopal symptoms characterized by dizziness, lightheadedness, and orthostatic tachycardia that occur while standing. Across-sectional survey found that 25% of these patients complains that meals rich in carbohydrates are among the factors that further exacerbate POTS's symptoms and cause a myriad of gastrointestinal symptoms.\n\nThe splanchnic circulation is the largest blood volume reservoir of the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03482830",
+            "title": "Perioperative Metabolic and Hormonal Aspects in Major Emergency Surgery",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 98,
+            "start_date": "2018-03-05",
+            "completion_date": "2019-11-01",
+            "brief_summary": "Emergency laparotomies, which most often is performed due to high risk disease (bowel obstruction, ischemia, perforation, etc.), make up 11 % of surgical procedures in emergency surgical departments, however, give rise to 80 % of all postoperative complications. The 30-day mortality rates in relation to these emergent procedures have been reported between 14-30 %, with even higher numbers for frail and older patients. The specific reasons for these outcomes are not yet known, however, a combinat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06807970",
+            "title": "Novel Perioperative Optimization of Obese Osteoarthritic Patients Pending Total Knee Replacement With Glucagon-like Peptide-1 Receptor Agonist (NPO-OOPS-TKR)",
+            "phase": "EARLY_PHASE1",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 54,
+            "start_date": "2025-09-01",
+            "completion_date": "2028-07-01",
+            "brief_summary": "Studies have shown that obese patients undergoing total knee replacement (TKR) surgery face a higher risk of perioperative issues such as increased use of pain medication, surgical site infections, and the need for revision surgeries compared to non-obese patients. Obesity is also linked to more significant preoperative pain and lingering symptoms post-surgery. Consequently, there's a growing interest in weight loss interventions prior to TKR to enhance perioperative care and outcomes. Recent re",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03854656",
+            "title": "Effect of Time-restricted Eating on Behaviour and Metabolism in Overweight Individuals at High Risk of Type 2 Diabetes - the RESET Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2019-02-25",
+            "completion_date": "2022-03-02",
+            "brief_summary": "The aim of the present study is to investigate effects of 12 weeks time-restricted eating on behaviour and metabolism in individuals with overweight or obesity at high risk of type 2 diabetes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03885297",
+            "title": "Investigation of the Metabolic Effects of 3mg Liraglutide on Patients With Overweight or Obesity",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 43,
+            "start_date": "2019-01-18",
+            "completion_date": "2020-12-18",
+            "brief_summary": "In this study investigators will investigate the beneficial metabolic sequelae of Liraglutide in patients with obesity or overweight; including changes in vital signs, anthropometric characteristics (weight, body mass index and body composition), biochemical parameters, metabolomics and micro-ribonucleotide acid (miRNA) molecules from blood tests. Liraglutide is a commercially available analogue of a gut hormone physiologically produced in our bowel in response to food, licenced for the treatmen",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01806506",
+            "title": "Randomized Clinical Trial Comparing Laparoscopic Sleeve Gastrectomy and Gastric Bypass for Morbid Obesity and Underlying Metabolic and Hormonal Abnormalities",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 72,
+            "start_date": "2008-11",
+            "completion_date": "2013-11",
+            "brief_summary": "Bariatric surgery is the most effective treatment for morbid obesity. Roux-en-Y gastric bypass (RYGB) is a bariatric procedure with known safety and effectiveness. Laparoscopic sleeve gastrectomy (LSG) is a newer procedure gaining popularity. The aim of the study is to compare outcomes of these two surgical methods in terms of weight loss, improvement of common comorbidities of obesity and influence on metabolic and hormonal status.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07240246",
+            "title": "Effect of a Dietary Supplement (FitLine TopShape) on the Incretin Response",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 40,
+            "start_date": "2025-10-24",
+            "completion_date": "2026-03-11",
+            "brief_summary": "Obesity is a chronic condition linked to numerous health risks and affects more than one billion people worldwide. While pharmacological treatments such as incretin-based therapies are available, they may have side effects, are not suitable for all patients, and adherence can be limited. Dietary supplements that influence appetite and satiety may represent an alternative or complementary approach.\n\nThis study will evaluate whether a dietary supplement containing plant extracts stimulates the int",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03380546",
+            "title": "Non-inferiority Between Acarbose and Prandial Insulin for the Treatment of Gestational Diabetes Mellitus: a Randomized Multicenter and Prospective Trial. ACARB-GDM Study.",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 341,
+            "start_date": "2018-07-04",
+            "completion_date": "2024-02-22",
+            "brief_summary": "Caring for women with gestational diabetes mellitus (GDM) is very time-consuming. Therapeutic strategy includes dietary and lifestyle measures and additional insulin therapy for 15 to 40% of the women with GDM if the glycemic targets are not achieved after a period of 1 to 2 weeks of diet. Insulin therapy is imperfect for the following main reasons: need for education (i.e. subcutaneous administration, dose titration), hypoglycemia and weight gain, limited acceptance and high cost. Psychosocial ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06252493",
+            "title": "Evaluation of PET/MR Enterography for Differentiation of Fibrotic and Inflammatory Strictures in Patients With Crohn's Disease Using a Collagen-binding Radiotracer.",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 25,
+            "start_date": "2023-12-19",
+            "completion_date": "2025-12-19",
+            "brief_summary": "In this study twenty-five (25) subjects with Crohn's disease scheduled for possible surgical intervention will be recruited for this study and a PET/MR scan using the collagen-binding radiotracer will be performed. The study aims to establish the performance figures of PET/MR using \\[68Ga\\]CBP8-PET for preoperative detection and differentiation of strictures with a fibrotic component in patients with Crohn's disease by using surgical and histologic findings (when available) as the standard for c",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05834010",
+            "title": "Feasibility Study of Using Fecal Microbiota Transplants (FMT) in Supportive Treatment of Anorexia Nervosa",
+            "phase": "EARLY_PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 17,
+            "start_date": "2023-03-18",
+            "completion_date": "2025-01-01",
+            "brief_summary": "The investigators hypothesize that prolonged undernutrition in anorexia nervosa alters the microbiome to a different steady-state (dysbiotic) composition that sustains the disease, even after returning to normal diet. The investigators propose that transplanting a fully ecologically functioning GM from a healthy donor, through a FMT, can reboot the gut-brain-axis, ameliorate symptoms and improve clinical outcomes.\n\nTo approach this, in the challenging AN patient group, the investigators want to ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02381249",
+            "title": "The Effect of Satiety Gut Hormone Modulation on Appetitive Drive After Upper Gastrointestinal Surgery",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2015-03",
+            "completion_date": "2018-03",
+            "brief_summary": "Improvements to treatment strategies for patients with cancers of the upper gastrointestinal tract have produced a large population of people who remain free from cancer recurrence in the long term following treatment.\n\nSurgery is the cornerstone of treatment for patients with these cancers, but while surgical removal of the tumour may offer the best chance of cure, these are major operations associated with specific long term complications. Weight loss and poor nutrition are common problems amo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06515912",
+            "title": "The Ketogenic Diet, Blood Lipids, and Heart Health in Healthy Adults With Differing BMI",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 40,
+            "start_date": "2025-01-29",
+            "completion_date": "2025-12",
+            "brief_summary": "The goal of this clinical trial is to examine the effect of the ketogenic diet over four weeks on blood lipid levels and risk factors for heart disease in adults with a healthy BMI compared to adults with a body mass index (BMI) in the range for obesity. The main questions it aims to answer are:\n\n* Does the ketogenic diet cause larger increases in \"bad cholesterol\" (low density lipoprotein-cholesterol) in adults with a healthy BMI compared to adults with BMI in the range for obesity?\n* Does the ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04976075",
+            "title": "Multicenter Prospective Observational and Epidemiological Registry for Patients With Intestinal Failure Due to Short Bowel Syndrome, in Latin America",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2017-06-01",
+            "completion_date": "2023-04-30",
+            "brief_summary": "Background and justification: Short bowel syndrome (SBS) is a disabling and life-threatening condition that results from a partial or total bowel resection, and has become as the main cause of Type III, intestinal failure (IF). Immediately after enterectomy there is an adaptation process consisting of structural, hormonal and metabolic changes to maximize intestinal function. These changes begin within days of resection and generally continue for several months. However, recent publications have",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03894670",
+            "title": "Evaluation of Methods for Measuring Gastrointestinal Transit and Food Reward in Healthy Individuals - The PRESET Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2018-10-16",
+            "completion_date": "2019-05-24",
+            "brief_summary": "The wireless motility capsule technology, SmartPill™, can be used to assess gastric emptying and gastrointestinal (GI) transit time. The SmartPill is usually ingested together with a SmartBar™ which is a snack bar with a nutrient composition that differs substantially from a normal western diet. The primary aim of the present study is to compare effects of a SmartBar™ and a standard mixed meal on gastric emptying and GI motility.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06649994",
+            "title": "Transcranial Magnetic Stimulation and Inhibitory Control Training to Reduce Binge Eating: Brain and Behavioral Changes (BE-NEMOIC)",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 150,
+            "start_date": "2024-04-29",
+            "completion_date": "2026-12-31",
+            "brief_summary": "People with BE are characterized by high impulsivity, high levels of craving for high-calorie foods, deficits in inhibitory control, and maladaptive decision making. These characteristics are related, at brain level, to alterations in the activation of areas such as the dorsolateral prefrontal cortex (DLPFC) and ventromedial prefrontal cortex (vmPFC) among other brain areas and their connectivity. The investigators propose an intervention that seeks to target these issues. Thus, the present stud",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9519708",
+            "title": "Glucagon-like peptides.",
+            "authors": [
+              "Drucker D J"
+            ],
+            "journal": "Diabetes",
+            "year": "1998",
+            "abstract": "Proglucagon contains the sequence of two glucagon-like peptides, GLP-1 and GLP-2, secreted from enteroendocrine cells of the small and large intestine. GLP-1 lowers blood glucose in both NIDDM and IDDM patients and may be therapeutically useful for treatment of patients with diabetes. GLP-1 regulates blood glucose via stimulation of glucose-dependent insulin secretion, inhibition of gastric emptying, and inhibition of glucagon secretion. GLP-1 may also regulate glycogen synthesis in adipose tiss",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37679419",
+            "title": "GWAS of random glucose in 476,326 individuals provide insights into diabetes pathophysiology, complications and treatment stratification.",
+            "authors": [
+              "Lagou Vasiliki",
+              "Jiang Longda",
+              "Ulrich Anna",
+              "Zudina Liudmila",
+              "González Karla Sofia Gutiérrez"
+            ],
+            "journal": "Nature genetics",
+            "year": "2023",
+            "abstract": "Conventional measurements of fasting and postprandial blood glucose levels investigated in genome-wide association studies (GWAS) cannot capture the effects of DNA variability on 'around the clock' glucoregulatory processes. Here we show that GWAS meta-analysis of glucose measurements under nonstandardized conditions (random glucose (RG)) in 476,326 individuals of diverse ancestries and without diabetes enables locus discovery and innovative pathophysiological observations. We discovered 120 RG ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37264870",
+            "title": "[Not Available].",
+            "authors": [
+              "Kårhus Martin Lund",
+              "Ellegaard Anne-Marie",
+              "Rix Iben",
+              "Knop Filip Krag"
+            ],
+            "journal": "Ugeskrift for laeger",
+            "year": "2023",
+            "abstract": "Bile acid diarrhoea is a socially debilitating disease caused by irritation of the colonic mucosa due to a spillover of bile acids from the small intestine into the colon. Studies estimate a prevalence of 1-2% of the adult population, but many patients never seek help or are misdiagnosed. Bile acid diarrhoea is treated with bile acid sequestrants, however, new research shows superior effect on reported symptoms with the glucagon-like peptide 1 receptor agonist liraglutide.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37030643",
+            "title": "Obesity and multiple myeloma: Emerging mechanisms and perspectives.",
+            "authors": [
+              "Tentolouris Anastasios",
+              "Ntanasis-Stathopoulos Ioannis",
+              "Terpos Evangelos"
+            ],
+            "journal": "Seminars in cancer biology",
+            "year": "2023",
+            "abstract": "Obesity is a global pandemic that has been associated with the development of breast, endometrial, large intestine, renal, esophageal, and pancreatic cancer. Obesity is also involved in the development of cardiovascular disease and type 2 diabetes mellitus. Recently, an increase in the incidence of obesity-related cancers has been reported. Multiple myeloma (MM) is the second most common hematological malignancy, after lymphoma. The aim of this review is to examine the epidemiological data on ob",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37010838",
+            "title": "Paracrine relationship between incretin hormones and endogenous 5-hydroxytryptamine in the small and large intestine.",
+            "authors": [
+              "Tough Iain R",
+              "Lund Mari L",
+              "Patel Bhavik A",
+              "Schwartz Thue W",
+              "Cox Helen M"
+            ],
+            "journal": "Neurogastroenterology and motility",
+            "year": "2023",
+            "abstract": "Enterochromaffin (EC) cell-derived 5-hydroxytryptamine (5-HT) is a mediator of toxin-induced reflexes, initiating emesis via vagal and central 5-HT3 receptors. The amine is also involved in gastrointestinal (GI) reflexes that are prosecretory and promotile, and recently 5-HT's roles in chemosensation in the distal bowel have been described. We set out to establish the efficacy of 5-HT signaling, local 5-HT levels and pharmacology in discrete regions of the mouse small and large intestine. We als",
+            "classification": {
+              "study_type": "Basic Science",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11159819",
+            "title": "Minireview: the glucagon-like peptides.",
+            "authors": [
+              "Drucker D J"
+            ],
+            "journal": "Endocrinology",
+            "year": "2001",
+            "abstract": "The glucagon-like peptides GLP-1 and GLP-2 are produced in enteroendocrine L cells of the small and large intestine and secreted in a nutrient-dependent manner. GLP-1 regulates nutrient assimilation via inhibition of gastric emptying and food intake. GLP-1 controls blood glucose following nutrient absorption via stimulation of glucose-dependent insulin secretion, insulin biosynthesis, islet proliferation, and neogenesis and inhibition of glucagon secretion. Experiments using GLP-1 antagonists an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1341120",
+            "title": "[Colonic neuroendocrine potential].",
+            "authors": [
+              "Bustos Fernández L M"
+            ],
+            "journal": "Acta gastroenterologica Latinoamericana",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35584709",
+            "title": "Cholecystokinin and glucagon-like peptide-1 analogues regulate intestinal tight junction, inflammation, dopaminergic neurons and α-synuclein accumulation in the colon of two Parkinson's disease mouse models.",
+            "authors": [
+              "Su Yunfang",
+              "Liu Ningning",
+              "Zhang Zijuan",
+              "Li Hao",
+              "Ma Jinlian"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "2022",
+            "abstract": "Parkinson's disease (PD) is the second most common neurodegenerative disease, and no treatment is available to stop its progression. Studies have shown that the colonic pathology of PD precedes that of the brain. The 1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP)-induced PD mouse model and the human A53T α-synuclein (α-syn) transgenic PD mouse model show colonic pathology and intestinal dopaminergic neuronal damage, which is comparable to the intestinal pathology of PD. Cholecystokinin (CCK",
+            "classification": {
+              "study_type": "Experimental Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15803906",
+            "title": "[Glucagon-like peptides--synthesis, biological actions and some clinical implications].",
+            "authors": [
+              "Otto Buczkowska Ewa",
+              "Dworzecki Tomasz"
+            ],
+            "journal": "Przeglad lekarski",
+            "year": "2004",
+            "abstract": "Glucagon and the glucagon-like peptides (GLPs) are derived from single proglucagon gene and exhibit an increasing number of biologically important actions. As a counter-regulatory hormone for insulin, glucagon plays a critical role in maintaining glucose homeostasis in vivo in both animals and humans. To increase blood glucose, glucagon promotes hepatic glucose output by increasing glycogenolysis and gluconeogenesis and by decreasing glycogenesis and glycolysis in a concerted fashion via multipl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10198911",
+            "title": "Effect of large bowel fermentation on insulin, glucose, free fatty acids, and glucagon-like peptide 1 (7-36) amide in patients with coronary heart disease.",
+            "authors": [
+              "Frost G",
+              "Brynes A",
+              "Leeds A"
+            ],
+            "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+            "year": "1999",
+            "abstract": "Insulin resistance syndrome has recently been described as a unifying hypothesis to explain the relationship between the many risk factors of coronary heart disease. Carbohydrate that is malabsorbed and fermented in the colon has been demonstrated to decrease insulin response to a glucose load and improve other risk factors associated with coronary heart disease, although the mechanism remains unclear. The object of the present study was to investigate whether this observation could be explained",
+            "classification": {
+              "study_type": "Clinical Physiology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29598932",
+            "title": "Glucagon like peptide-1 (GLP-1) likes Alzheimer's disease.",
+            "authors": [
+              "Yildirim Simsir Ilgin",
+              "Soyaltin Utku Erdem",
+              "Cetinkalp Sevki"
+            ],
+            "journal": "Diabetes & metabolic syndrome",
+            "year": "2018",
+            "abstract": "Glucagon-like peptide-1 (GLP-1) is a 30 amino acid long peptide hormone derived from the proglucagon gene and secreted in the distal small intestine when food enters the duodenum. GLP-1 is also produced in the central nervous system (CNS), predominantly in the brainstem, and subsequently transported to a large number of regions in the CNS. Neuronal cells in nucleus tractus solitarius (NTS) can synthesize GLP-1 and extends to hypothalamus, some thalamic and cortical areas. A G protein coupled rec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11839727",
+            "title": "Gut adaptation and the glucagon-like peptides.",
+            "authors": [
+              "Drucker D J"
+            ],
+            "journal": "Gut",
+            "year": "2002",
+            "abstract": "The glucagon-like peptides GLP-1 and GLP-2 are synthesised and then released from enteroendocrine cells in the small and large intestine. GLP-1 promotes efficient nutrient assimilation while GLP-2 regulates energy absorption via effects on nutrient intake, gastric acid secretion and gastric emptying, nutrient absorption, and mucosal permeability. Preliminary human studies indicate that GLP-2 may enhance energy absorption and reduce fluid loss in subjects with short bowel syndrome suggesting that",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39461299",
+            "title": "Efficacy and safety of apraglutide in short bowel syndrome with intestinal failure and colon-in-continuity: A multicenter, open-label, metabolic balance study.",
+            "authors": [
+              "Verbiest Astrid",
+              "Hvistendahl Mark Krogh",
+              "Bolognani Federico",
+              "Li Carrie",
+              "Youssef Nader N"
+            ],
+            "journal": "Clinical nutrition (Edinburgh, Scotland)",
+            "year": "2024",
+            "abstract": "Apraglutide is a novel long-acting GLP-2 analog in development for short bowel syndrome with intestinal failure (SBS-IF). This multicenter, open-label, phase 2 study in SBS-IF and colon-in-continuity (CiC) investigates the safety and efficacy of apraglutide.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31668387",
+            "title": "Single cell transcriptomic profiling of large intestinal enteroendocrine cells in mice - Identification of selective stimuli for insulin-like peptide-5 and glucagon-like peptide-1 co-expressing cells.",
+            "authors": [
+              "Billing Lawrence J",
+              "Larraufie Pierre",
+              "Lewis Jo",
+              "Leiter Andrew",
+              "Li Joyce"
+            ],
+            "journal": "Molecular metabolism",
+            "year": "2019",
+            "abstract": "Enteroendocrine cells (EECs) of the large intestine, found scattered in the epithelial layer, are known to express different hormones, with at least partial co-expression of different hormones in the same cell. Here we aimed to categorize colonic EECs and to identify possible targets for selective recruitment of hormones.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10483906",
+            "title": "Biologic properties and therapeutic potential of glucagon-like peptide-2.",
+            "authors": [
+              "Drucker D J",
+              "Boushey R P",
+              "Wang F",
+              "Hill M E",
+              "Brubaker P L"
+            ],
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "year": "1999",
+            "abstract": "Glucagon-like peptide-2 (GLP-2), a 33 amino acid, proglucagon-derived peptide with intestinotrophic activity, is secreted from enteroendocrine cells in the small and large intestine.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29813107",
+            "title": "Glucagon-like peptide 1 receptor (GLP-1R) expression by nerve fibres in inflammatory bowel disease and functional effects in cultured neurons.",
+            "authors": [
+              "Anand Uma",
+              "Yiangou Yiangos",
+              "Akbar Ayesha",
+              "Quick Tom",
+              "MacQuillan Anthony"
+            ],
+            "journal": "PloS one",
+            "year": "2018",
+            "abstract": "Glucagon like-peptide 1 receptor (GLP-1R) agonists diminish appetite and may contribute to the weight loss in inflammatory bowel disease (IBD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36771335",
+            "title": "The Role of a Colon-in-Continuity in Short Bowel Syndrome.",
+            "authors": [
+              "Verbiest Astrid",
+              "Jeppesen Palle Bekker",
+              "Joly Francisca",
+              "Vanuytsel Tim"
+            ],
+            "journal": "Nutrients",
+            "year": "2023",
+            "abstract": "Short bowel syndrome (SBS) is a rare gastrointestinal condition that is defined as having less than 200 cm of remaining small intestine. SBS results from extensive surgical resection and is associated with a high risk for intestinal failure (IF) with a need for parenteral support (PS). Depending on the region of intestinal resection, three different main anatomy types can be distinguished from each other. In this review, we synthesize the current knowledge on the role of the colon in the setting",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11832466",
+            "title": "Biological actions and therapeutic potential of the glucagon-like peptides.",
+            "authors": [
+              "Drucker Daniel J"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2002",
+            "abstract": "The glucagon-like peptides (GLP-1 and GLP-2) are proglucagon-derived peptides cosecreted from gut endocrine cells in response to nutrient ingestion. GLP-1 acts as an incretin to lower blood glucose via stimulation of insulin secretion from islet beta cells. GLP-1 also exerts actions independent of insulin secretion, including inhibition of gastric emptying and acid secretion, reduction in food ingestion and glucagon secretion, and stimulation of beta-cell proliferation. Administration of GLP-1 l",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26649620",
+            "title": "Evolving Concepts and Translational Relevance of Enteroendocrine Cell Biology.",
+            "authors": [
+              "Drucker Daniel J"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2016",
+            "abstract": "Classical enteroenteroendocrine cell (EEC) biology evolved historically from identification of scattered hormone-producing endocrine cells within the epithelial mucosa of the stomach, small and large intestine. Purification of functional EEC hormones from intestinal extracts, coupled with molecular cloning of cDNAs and genes expressed within EECs has greatly expanded the complexity of EEC endocrinology, with implications for understanding the contribution of EECs to disease pathophysiology.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9834410",
+            "title": "Glucagon-like peptide 2 is a potent growth factor for small intestine and colon.",
+            "authors": [
+              "Litvak D A",
+              "Hellmich M R",
+              "Evers B M",
+              "Banker N A",
+              "Townsend C M"
+            ],
+            "journal": "Journal of gastrointestinal surgery : official journal of the Society for Surgery of the Alimentary Tract",
+            "year": "1998",
+            "abstract": "Factors that stimulate gut mucosal proliferation may be beneficial during periods of gut disuse or atrophy. Recently glucagon-like peptide 2 (GLP-2) has been shown to stimulate small bowel growth. The purpose of our study was to compare the trophic effects of GLP-2 with those of neurotensin (NT), a potent gut trophic factor. Mice were randomized to receive either GLP-2, NT, or saline solution (control) for 10 days. The mice were killed on day 11, at which time the jejunum, ileum, and colon were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "大腸 L 型腸嗜鉻細胞分泌 GLP-1 和 GLP-2，調節腸道蠕動、屏障完整性及局部免疫。Glucagon 本身可作用於腸道平滑肌的 GCGR，產生鬆弛效應（此為目前臨床上 Glucagon 用於大腸鏡前處置的依據）。GLP-1 類似物被證實可調節腸道緊密連接蛋白（tight junction）、減少炎症反應（PMID 35584709）。現有 37 個相關臨床試驗均以 Glucagon/GLP-1 為生物標記，而非以 Glucagon 為治療介入。廣義的「大腸疾病」適應症需進一步聚焦至特定疾病亞型（如 IBD、結腸炎）才具研究意義。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "irritable bowel syndrome"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "pharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "primary hereditary glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "open-angle glaucoma"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "filariasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "filariasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "filariasis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "large intestine disease"
+      },
+      "result_status": "success",
+      "result_count": 37,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "large intestine disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Glucagon",
+        "disease": "large intestine disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

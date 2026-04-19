@@ -1,0 +1,229 @@
+## Avibactam 藥物再利用證據分析
+
+在進行分析之前，先確認沒有需要調用的技能適用此任務。這是純領域知識分析，將直接提供結構化評估。
+
+---
+
+### 藥物背景摘要
+
+**Avibactam (DB09060)** 是一種**非 β-內醯胺類 serine-based β-lactamase 抑制劑**，透過共價鍵可逆性抑制 Class A（KPC、CTX-M）、Class C（AmpC）及部分 Class D（OXA-48）β-lactamases。**單獨無抗菌活性**，需與 β-lactam 抗生素聯合使用（如 ceftazidime-avibactam、aztreonam-avibactam）。
+
+> ⚠️ 注意：`"market_status": "未上市"` 與 `"original_moa": "[Data Gap]"` 為資料缺口，實際上 Avycaz/Zavicefta（ceftazidime-avibactam）已在多國獲批，此評估以 avibactam 單體化合物為準。
+
+---
+
+```json
+{
+  "drug": "Avibactam",
+  "drugbank_id": "DB09060",
+  "analysis_date": "2026-04-05",
+  "drug_class": "非β-內醯胺類 serine-based β-lactamase 抑制劑（BLI）",
+  "overall_assessment": "10 個 TxGNN 高分預測（≥0.988）中，9 個缺乏任何臨床或機轉支持；1 個（S. aureus）有間接文獻但無直接介入性試驗。模型評分普遍偏高（0.990 集中現象）提示知識圖譜中存在 enzyme inhibitor 節點的泛化漂移（score inflation artifact）。",
+  "indications": [
+    {
+      "disease_name": "streptococcal pneumonia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺炎鏈球菌（Streptococcus pneumoniae）為革蘭氏陽性菌，其 β-lactam 抗性主要由 PBP（penicillin-binding protein）突變介導，非 serine β-lactamase 水解。Avibactam 對此機轉無效，且對革蘭氏陽性菌無已知活性增效作用。機轉關聯不存在。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "機轉不支持", "可能為 KG 假陽性"]
+    },
+    {
+      "disease_name": "influenza, severe, susceptibility to",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "流感為 RNA 病毒（Influenza A/B）感染，avibactam 為純抗菌性 β-lactamase 抑制劑，對病毒神經氨酸酶（neuraminidase）或任何病毒複製機制無已知交叉作用。細菌性與病毒性靶點完全不同，此預測為生物學上不合理的假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "細菌vs病毒機轉不符", "最強烈的 Hold 之一"]
+    },
+    {
+      "disease_name": "ureter tuberculosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "M. tuberculosis 具有 BlaC（Class A β-lactamase），avibactam 能抑制 BlaC（Soroka et al., Antimicrob Agents Chemother 2015），理論上與 β-lactam 組合（如 meropenem-avibactam）可增效抗 MTB 活性。此機轉基礎存在，但：(1) 現有研究針對肺結核為主，非輸尿管結核；(2) 組織穿透性及局部藥物濃度未確認；(3) 提供資料中無任何相關試驗或文獻支持此特定解剖適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "BlaC機轉有基礎但屬間接推測", "需獨立TB臨床研究支持才能升級"]
+    },
+    {
+      "disease_name": "urinary schistosomiasis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "泌尿系統血吸蟲病由 Schistosoma haematobium（多細胞寄生蟲）引起。Avibactam 靶向細菌 serine β-lactamases，蠕蟲無此靶點，且寄生蟲無細胞壁合成機制。機轉關聯完全不存在，預測為 KG 網絡噪音。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "細菌vs寄生蟲機轉根本不符"]
+    },
+    {
+      "disease_name": "hyperamylasemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "高澱粉酶血症為胰臟/唾液腺酵素釋放異常（代謝/器官損傷指標），非感染性靶點。TxGNN 預測分數偏高（0.990）推測源於知識圖譜中「amylase（澱粉酶）」與「enzyme inhibitor（酵素抑制劑）」節點的語義相似性漂移，屬 graph embedding 假陽性典型案例。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "預測為KG語義漂移假陽性", "非感染性疾病"]
+    },
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多株性高黏滯度症候群為漿細胞/B 細胞增生導致免疫球蛋白過量的血液科疾病（如 Waldenström macroglobulinemia 相關），治療以化療/免疫調節為主。Avibactam 無任何抗腫瘤或免疫調節機轉，與此病完全無關。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "血液科疾病vs抗菌藥機轉不符", "KG假陽性"]
+    },
+    {
+      "disease_name": "staphylococcus aureus infection",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "金黃色葡萄球菌（包含 MRSA）具 PC1 β-lactamase（Class A），理論上 avibactam 可抑制之。Ceftaroline（具 MRSA 活性）+ avibactam 組合（ceftaroline-avibactam）已有體外研究。然而：(1) avibactam 對革蘭氏陽性菌增效作用臨床數據有限；(2) 現有 2 個試驗皆為觀察性/管理性研究；(3) 20 篇文獻中無一直接測試 avibactam 介入 S. aureus 感染結果。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06634940",
+          "relevance_grade": "C",
+          "reasoning": "肝硬化相關感染抗藥性國際監測研究（Phase N/A，觀察性，N=1000，狀態：招募中）。研究目的為流行病學監測，非測試 avibactam 對 S. aureus 的療效；僅提供細菌流行背景，與再利用假說無直接支持關係。"
+        },
+        {
+          "nct_id": "NCT03941951",
+          "relevance_grade": "C",
+          "reasoning": "新型抗生素使用優化準實驗研究（Phase NA，N=900，狀態：UNKNOWN）。為一般性抗生素管理干預，未特異性研究 avibactam 對 S. aureus 的效果；狀態不明確降低可用性。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40910659",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "ICU 的 MDR/XDR 感染管理綜述（2025）。Avibactam 以革蘭氏陰性菌 MDR 感染背景提及，非 S. aureus 相關研究。"
+        },
+        {
+          "pmid": "22733066",
+          "study_type": "In vitro Susceptibility Study",
+          "tier": "3",
+          "note": "Ceftaroline-avibactam 對革蘭氏陰性菌活性測試（2012）。標題明確指向 Gram-negative organisms，非 S. aureus 證據；但顯示 avibactam 與 β-lactam 組合研究的早期概念驗證。"
+        },
+        {
+          "pmid": "36804370",
+          "study_type": "Observational / Guidelines Analysis",
+          "tier": "3",
+          "note": "抗生素仿單外使用與正式建議比較（2023）。情境性提及新型抗生素，非 avibactam + S. aureus 特異性研究。"
+        },
+        {
+          "pmid": "40612455",
+          "study_type": "Cost-effectiveness Analysis",
+          "tier": "3",
+          "note": "MRSA 鼻腔 PCR 篩檢的成本效益分析（2025）。研究圍繞 MRSA 診斷決策，與 avibactam 使用無關聯。"
+        },
+        {
+          "pmid": "40516754",
+          "study_type": "Time Series / Ecological Study",
+          "tier": "3",
+          "note": "抗生素抗藥性與消耗量的時間序列分析（2025）。泛論性生態研究，非 avibactam 特異性介入研究。"
+        },
+        {
+          "pmid": "28314920",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "新型抗生素進展綜述（德文，2017）。情境性介紹 avibactam 為新型 BLI，無 S. aureus 特異性數據。"
+        },
+        {
+          "pmid": "40887577",
+          "study_type": "Epidemiology / Cross-sectional",
+          "tier": "3",
+          "note": "越南下呼吸道感染病原菌及藥敏調查（2025）。流行病學背景資料，非 avibactam 介入研究。"
+        },
+        {
+          "pmid": "25667169",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "抗多重抗藥性藥物開發綜述（2015）。Avibactam 作為候選藥物被提及，早期概念性文章，無臨床結果數據。"
+        },
+        {
+          "pmid": "40426531",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "7 年回顧性研究探討抗藥性血流感染結果（2025）。觀察性研究，非 avibactam 特異性介入。"
+        },
+        {
+          "pmid": "39386375",
+          "study_type": "Epidemiology / Antibiogram Analysis",
+          "tier": "3",
+          "note": "烏克蘭累積藥敏圖首次報告（2024）。流行病學背景資料，與 avibactam 再利用假說無直接關聯。"
+        }
+      ],
+      "flags": ["2個試驗皆為觀察性/Phase NA", "20篇文獻均為Tier 3間接引用", "無直接S.aureus + avibactam 介入研究", "ceftaroline-avibactam組合有體外基礎但需獨立臨床研究"]
+    },
+    {
+      "disease_name": "renal tuberculosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論機轉同「輸尿管結核」（BlaC 抑制），但提供唯一文獻（PMID 29507064）為研究 ceftazidime-avibactam 治療革蘭氏陰性菌感染失敗的危險因子（肺炎、腎替代治療），與腎臟結核完全無關。此為系統性文獻匹配錯誤（假陽性連結）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29507064",
+          "study_type": "Retrospective Cohort",
+          "tier": "3",
+          "note": "Ceftazidime-avibactam 治療失敗危險因子研究（2018）。研究對象為 KPC/OXA-48 革蘭氏陰性菌感染患者，結論探討治療失敗預測因子，與腎臟結核毫無關聯。文獻標題中「Renal Replacement Therapy」可能造成關鍵字誤配。"
+        }
+      ],
+      "flags": ["唯一文獻為關鍵字誤配假陽性", "無臨床試驗", "機轉推測等同輸尿管結核但更弱"]
+    },
+    {
+      "disease_name": "squamous cell lung carcinoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺鱗狀細胞癌為上皮源性惡性腫瘤，主要由 EGFR/FGFR/TP53 等腫瘤驅動突變介導。Avibactam 無已知抗腫瘤機轉（無激酶抑制、無 DNA 損傷、無免疫調節）。KG 預測可能源於「肺部感染→肺部疾病→肺癌」的圖遍歷路徑假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "細菌性靶點vs腫瘤機轉根本不符", "KG路徑噪音"]
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症由 ALB 基因突變導致白蛋白缺失，為罕見遺傳性疾病。Avibactam 蛋白質結合率約 5-8%（主要與白蛋白結合），KG 可能因「白蛋白 → 藥物結合蛋白 → 無白蛋白血症」節點連結產生高分預測，屬藥動學參數被誤解為治療關聯的典型假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["無臨床試驗", "無文獻", "PK參數誤讀為治療靶點", "最典型的KG假陽性案例之一"]
+    }
+  ]
+}
+```
+
+---
+
+### 綜合評估摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|-----------|---------|---------|------|---------|
+| Streptococcal pneumonia | 0.997 | **L5** | S0 | ❌ Hold | 革蘭氏陽性菌，機轉不符 |
+| Influenza (severe) | 0.993 | **L5** | S0 | ❌ Hold | 病毒感染，機轉根本不符 |
+| Ureter tuberculosis | 0.991 | **L5** | S0 | ❌ Hold | 理論 BlaC 基礎，無任何臨床證據 |
+| Urinary schistosomiasis | 0.991 | **L5** | S0 | ❌ Hold | 寄生蟲，機轉不符 |
+| Hyperamylasemia | 0.990 | **L5** | S0 | ❌ Hold | 代謝指標，KG 酵素節點漂移 |
+| Polyclonal hyperviscosity | 0.990 | **L5** | S0 | ❌ Hold | 血液科疾病，完全無關 |
+| **S. aureus infection** | 0.990 | **L4** | S0 | ❌ Hold | 間接文獻，無介入性試驗 |
+| Renal tuberculosis | 0.989 | **L5** | S0 | ❌ Hold | 唯一文獻為假陽性連結 |
+| Squamous cell lung carcinoma | 0.989 | **L5** | S0 | ❌ Hold | 腫瘤，機轉不符 |
+| Congenital analbuminemia | 0.988 | **L5** | S0 | ❌ Hold | PK 參數誤讀為治療靶點 |
+
+### 🔍 模型品質警示
+
+> **所有 10 個預測均為 Hold（L4-L5）**，這與 TxGNN 分數集中在 0.988–0.997 形成鮮明對比。建議對此藥物的 KG embedding 進行以下審查：
+>
+> 1. **Score inflation artifact**：Avibactam 在 KG 中可能因「enzyme inhibitor」超節點連結至大量疾病，導致系統性高分
+> 2. **Combinatorial drug problem**：Avibactam 作為聯合用藥成分，其獨立節點可能繼承了 ceftazidime-avibactam 的臨床關聯，造成假陽性
+> 3. **建議動作**：在 TxGNN 預測前增加「藥物機轉過濾層」（MoA filter），排除機轉方向性不符的疾病類別（病毒性、寄生蟲性、遺傳性疾病）

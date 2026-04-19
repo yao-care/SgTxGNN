@@ -1,0 +1,873 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00437-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Allopurinol",
+    "drugbank_id": "DB00437",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hepatic porphyria",
+      "txgnn": {
+        "score": 0.9994645714759828,
+        "rank": 1209
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31443750",
+            "title": "Hypothesis: Metabolic targeting of 5-aminolevulinate synthase by tryptophan and inhibitors of heme utilisation by tryptophan 2,3-dioxygenase as potential therapies of acute hepatic porphyrias.",
+            "authors": [
+              "Badawy Abdulla A-B"
+            ],
+            "journal": "Medical hypotheses",
+            "year": "2019",
+            "abstract": "Metabolic targeting of liver 5-aminolevulinate synthase (5-ALAS) by inhibition of heme utilisation by tryptophan (Trp) 2,3-dioxygenase (TDO) or the use of tryptophan is proposed as a therapy of acute hepatic porphyrias. 5-ALAS, the rate-limiting enzyme of heme biosynthesis, is under negative feedback control by a small regulatory heme pool in the hepatic cytosol. Acute porphyric attacks, precipitated by fasting, certain hormones and some drugs, involve induction of 5-ALAS secondarily to depletio",
+            "classification": {
+              "study_type": "Hypothesis/Opinion",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1567472",
+            "title": "Effects of acute carbamazepine administration on haem metabolism in rat liver.",
+            "authors": [
+              "Morgan C J",
+              "Badawy A A"
+            ],
+            "journal": "Biochemical pharmacology",
+            "year": "1992",
+            "abstract": "The effects of acute carbamazepine (CBZ) administration on haem metabolism in rat liver were examined in relation to the mechanism by which it exacerbates hepatic porphyrias. In a screening test for drug exacerbation of porphyria developed in this laboratory, CBZ at a very small dose (1.5 mg/kg, p.o.) behaved as an exacerbator, potentiating the loss of haem utilized by tryptophan pyrrolase (TP; tryptophan 2,3-dioxygenase; L-tryptophan-O2 oxido-reductase, decyclizing; EC 1.13.11.11) and the assoc",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性肝性紫質症由 5-胺基乙醯丙酸合成酶（ALAS1）過度活化所致，導致毒性前驅物累積。PMID 31443750 提出假設：XO 抑制劑（包含 Allopurinol）可能透過干擾血紅素代謝通路，間接下調 ALAS1 活性。此機轉具生物合理性，但仍屬假說層次，缺乏直接實驗驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hepatopulmonary syndrome",
+      "txgnn": {
+        "score": 0.9994344115257264,
+        "rank": 1247
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HPS 以肝病合併肺內血管擴張為特徵，發病機轉涉及 NO 過度生成與血管新生。Allopurinol 之抗氧化效果理論上可減少氧化壓力驅動的血管異常，但目前無任何臨床或實驗證據支持此連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "idiopathic copper-associated cirrhosis",
+      "txgnn": {
+        "score": 0.9994344115257264,
+        "rank": 1248
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "銅代謝異常所致肝硬化（非 Wilson 氏病），機轉與 XO 抑制無明確關聯。Allopurinol 無已知銅螯合或銅代謝調節作用。TxGNN 高分可能源自知識圖譜中肝病節點的間接關聯性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "early-onset familial noncirrhotic portal hypertension",
+      "txgnn": {
+        "score": 0.9994344115257264,
+        "rank": 1252
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此稀有遺傳性門脈高壓症與 XO 抑制無已知機轉關聯。疾病由門脈微血管病變所致，Allopurinol 之氧化壓力減少效果理論上或可延緩進展，但完全推測層次。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "primitive portal vein thrombosis",
+      "txgnn": {
+        "score": 0.9994344115257264,
+        "rank": 1253
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "門靜脈血栓形成主要由凝血異常、骨髓增生性疾病或局部感染所致。Allopurinol 無已知抗凝血或溶栓機轉；雖有研究顯示 XO 抑制可改善血流動力（PMID 2853054，屬 disorder of phenylalanine metabolism 組），但無針對此適應症之直接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hepatoportal sclerosis",
+      "txgnn": {
+        "score": 0.9994344115257264,
+        "rank": 1254
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝門靜脈硬化症（特發性門脈高壓的一種）以肝竇周圍纖維化為特徵。Allopurinol 的 XO 抑制理論上可減少氧化壓力誘導的肝星狀細胞活化，但屬完全推測，無任何實驗數據佐證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "disorder of phenylalanine metabolism",
+      "txgnn": {
+        "score": 0.9988559484481812,
+        "rank": 2253
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "799549",
+            "title": "Pharmacologically active drug metabolites: therapeutic and toxic activities, plasma and urine data in man, accumulation in renal failure.",
+            "authors": [
+              "Drayer D E"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1976",
+            "abstract": "Drugs that are administered to man may be biotransformed to yield metabolites that are pharmacologically active. The therapeutic and toxic activities of drug metabolites and the species in which this activity was demonstrated are compiled for the metabolites of 58 drugs. The metabolite to parent drug ratio in the plasma of non-uraemic man and the percentage urinary excretion of the metabolite in non-uraemic man are also tabulated. Those active metabolites with significant pharmacological activit",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39156502",
+            "title": "Leech Poecilobdella manillensis protein extract ameliorated hyperuricemia by restoring gut microbiota dysregulation and affecting serum metabolites.",
+            "authors": [
+              "Liu Xia",
+              "Liang Xing-Qiu",
+              "Lu Tian-Cai",
+              "Feng Zhe",
+              "Zhang Min"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2024",
+            "abstract": "Hyperuricemia (HUA) is a public health concern that needs to be solved urgently. The lyophilized powder of Poecilobdella manillensis has been shown to significantly alleviate HUA; however, its underlying metabolic regulation remains unclear.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18694741",
+            "title": "Lithospermic acid as a novel xanthine oxidase inhibitor has anti-inflammatory and hypouricemic effects in rats.",
+            "authors": [
+              "Liu Xiaoyu",
+              "Chen Ruohua",
+              "Shang Yanjun",
+              "Jiao Binghua",
+              "Huang Caiguo"
+            ],
+            "journal": "Chemico-biological interactions",
+            "year": "2008",
+            "abstract": "Lithospermic acid (LSA) was originally isolated from the roots of Salvia mitiorrhiza, a common herb of oriental medicine. Previous studies demonstrated that LSA has antioxidant effects. In this study, we investigated the in vitro xanthine oxidase (XO) inhibitory activity, and in vivo hypouricemic and anti-inflammatory effects of rats. XO activity was detected by measuring the formation of uric acid or superoxide radicals in the xanthine/xanthine oxidase system. The results showed that LSA inhibi",
+            "classification": {
+              "study_type": "In Vitro / Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "851118",
+            "title": "Active drug metabolites and renal failure.",
+            "authors": [
+              "Drayer D E"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1977",
+            "abstract": "Drugs that are administered to man may be biotransformed to yield metabolites that are pharmacologically active. These metabolites may accumulate in patients with end-stage renal disease if renal excretion is a major elimination pathway for the metabolite. This is true even if the active metabolite is a minor metabolite of the parent drug as long as the minor metabolite is not further biotransformed but is mainly excreted in the urine. Minor metabolite accumulation may also occur if it is furthe",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22932763",
+            "title": "Metabolite target analysis of human urine combined with pattern recognition techniques for the study of symptomatic gout.",
+            "authors": [
+              "Liu Yun",
+              "Yu Pinhua",
+              "Sun Xiaoming",
+              "Di Duolong"
+            ],
+            "journal": "Molecular bioSystems",
+            "year": "2012",
+            "abstract": "Recurrent attacks and irregularity are two important characteristics of gout disease. Uric acid as a single evaluation indicator for clinical diagnosis is insufficient considering the versatile properties of gout. The aim of this work is to identify several endogenous metabolites from urine samples for the elucidation and prediction of gout disease. Metabolite target analysis was established for human urine by high performance liquid chromatography-diode array detection (HPLC-DAD). The targeted ",
+            "classification": {
+              "study_type": "Metabolomics / Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11729361",
+            "title": "Effects of diacerein on indomethacin-induced gastric ulceration.",
+            "authors": [
+              "Tamura T",
+              "Yokoyama T",
+              "Ohmori K"
+            ],
+            "journal": "Pharmacology",
+            "year": "2001",
+            "abstract": "We investigated the effect of diacerein, an antiosteoarthritic agent, and its metabolite, rhein, on the production of reactive oxygen species (ROS) from neutrophils as well as the protective effect of diacerein on indomethacin-induced gastric ulceration and its protection mechanism. Rhein inhibited the ROS production from N-formyl-methionyl-leucyl-phenylalanine or phorbol-12-myristate-13-acetate-activated human peripheral neutrophils. Indomethacin-induced gastric ulceration was significantly inh",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2853054",
+            "title": "Allopurinol prevents ischaemia-dependent haemorheological changes.",
+            "authors": [
+              "Capecchi P L",
+              "Pasini F L",
+              "Pasqui A L",
+              "Orrico A",
+              "Ceccatelli L"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1988",
+            "abstract": "Pre-treatment with allopurinol is able markedly to attenuate the deterioration in blood viscosity (BV) and whole blood filterability (WBF) that occurs after ischaemia during exercise. It also reduces the exercise-induced increase in serum oxidase activity, although this action is slightly less effective in peripheral obliterative arterial disease (POAD) patients. Conversely, allopurinol is completely ineffective in modifying haemorheological parameters in vitro, and it does not affect superoxide",
+            "classification": {
+              "study_type": "Clinical Study (Small, Historical)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "苯丙胺酸代謝障礙（含 PKU）主要由苯丙胺酸羥化酶（PAH）缺乏所致，與 XO 抑制無直接機轉關聯。唯一潛在連結：(1) Allopurinol 影響嘌呤代謝，嘌呤與芳香族胺基酸代謝存在間接代謝交叉；(2) 氧化壓力在 PKU 神經毒性中有一定角色，XO 抑制理論上可減少 ROS。但現有 7 篇文獻均非針對此適應症設計。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "immune-mediated necrotizing myopathy",
+      "txgnn": {
+        "score": 0.9985507130622864,
+        "rank": 2679
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IMNM 由抗 SRP 或抗 HMGCR 自體抗體介導，為自體免疫性肌炎。Allopurinol 無已知免疫調節機轉；理論上 XO 抑制減少 ROS 可能緩和肌肉氧化損傷，但此為推測，且 Allopurinol 本身也有引發藥物超敏反應性肌炎的不良反應風險，需特別注意安全性矛盾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "antisynthetase syndrome",
+      "txgnn": {
+        "score": 0.9985060691833496,
+        "rank": 2744
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "抗合成酶症候群由抗胺醯 tRNA 合成酶抗體（如 anti-Jo-1）介導，特徵為肌炎、間質性肺病及多關節炎。此疾病與嘌呤代謝或 XO 路徑無已知機轉交集。TxGNN 預測可能源自「肌炎」類疾病節點的拓撲鄰近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "idiopathic eosinophilic myositis",
+      "txgnn": {
+        "score": 0.998485505580902,
+        "rank": 2779
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嗜酸性球性肌炎以嗜酸性球浸潤肌肉為特徵，與嗜酸性球活化及 IL-5 路徑相關。Allopurinol 無已知抗嗜酸性球或 IL-5 抑制機轉；同樣地，Allopurinol 本身為已知嗜酸性球性藥物反應的觸發因子，存在潛在的安全性矛盾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatoportal sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatoportal sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "hepatoportal sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "disorder of phenylalanine metabolism"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "immune-mediated necrotizing myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "immune-mediated necrotizing myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "immune-mediated necrotizing myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "antisynthetase syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "antisynthetase syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "antisynthetase syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "idiopathic eosinophilic myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "idiopathic eosinophilic myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Allopurinol",
+        "disease": "idiopathic eosinophilic myositis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

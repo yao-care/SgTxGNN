@@ -1,0 +1,167 @@
+## 藥物再利用證據分析：Cinchocaine (DB00527)
+
+**藥物背景評估**
+
+在分析各適應症前，需先了解 Cinchocaine（又名 Dibucaine）的基本特性：
+- **藥理機轉**：電壓門控鈉離子通道（Nav）阻斷劑，長效醯胺類局部麻醉藥
+- **市場狀態**：未上市（本地區）
+- **關鍵警示**：Cinchocaine 毒性指數為局部麻醉藥中最高之一，治療窗窄；已知局部麻醉藥對重症肌無力（MG）患者具潛在神經肌肉阻斷加重風險
+- **資料缺口**：所有 10 個適應症均無臨床試驗及文獻佐證，證據完全依賴 TxGNN 模型預測
+
+---
+
+```json
+{
+  "drug": "Cinchocaine",
+  "drugbank_id": "DB00527",
+  "analysis_date": "2026-04-04",
+  "overall_assessment": {
+    "data_completeness": "極低 - 所有適應症均無臨床試驗或文獻佐證",
+    "evidence_ceiling": "L5（全部為模型預測，無任何臨床證據）",
+    "safety_flag": "高毒性局部麻醉藥，MG相關適應症存在潛在禁忌",
+    "txgnn_pattern": "預測集中於炎症性皮膚病、自身免疫及神經肌肉疾病，可能反映Nav通道/膜穩定效應的共同生物路徑"
+  },
+  "indications": [
+    {
+      "disease_name": "bronchitis",
+      "txgnn_score": 0.9977,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "醯胺類局部麻醉藥（尤其是靜脈注射利多卡因）具抗炎特性，可抑制氣道感覺神經（Nav1.7/Nav1.8）及白細胞Nav通道活化。然而此機轉對支氣管炎的轉化證據極稀少，且Cinchocaine之系統性給藥毒性風險遠高於利多卡因，機轉外推存在重大不確定性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "Cinchocaine系統性毒性（心臟毒性、CNS毒性）風險高，吸入途徑可行性未驗證"
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.9976,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本病為萊姆病晚期皮膚表現（Borrelia burgdorferi感染），病理機轉為螺旋體持續感染及慢性炎症反應，與Nav通道阻斷並無直接關聯。TxGNN高分可能源於知識圖譜中皮膚炎症節點的共享路徑，但生物學合理性薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "機轉關聯性極低；感染性病因需針對性抗生素治療，局部麻醉藥介入缺乏合理性"
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.9971,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "皮肌炎（Dermatomyositis）為干擾素信號通路驅動的自身免疫性疾病。醯胺類局部麻醉藥理論上可透過Nav通道阻斷抑制免疫細胞（如中性球、T細胞）活化，但新生兒族群藥理學差異大、Cinchocaine毒性風險在此族群尤為突出。目前無任何臨床轉化路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "⚠️ 新生兒族群：Cinchocaine毒性窗極窄，兒科安全性數據完全缺失"
+    },
+    {
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為結締組織病相關兒童繼發性間質性肺病，病理涉及TGF-β/纖維化及自身免疫炎症。Nav通道阻斷對肺纖維化路徑無已知直接機轉。預測分數高可能反映模型在自身免疫-結締組織病叢集中的共同圖譜特徵，而非藥物特異性效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "⚠️ 兒科稀有病；Cinchocaine對肺纖維化無已知機轉；系統性暴露毒性風險"
+    },
+    {
+      "disease_name": "acne keloid",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "痤瘡樣瘢痕疙瘩（Folliculitis keloidalis nuchae）涉及慢性毛囊炎症及纖維化增生。局部麻醉藥局部注射（如利多卡因）偶用於瘢痕疙瘩的輔助治療，理論上可透過Nav阻斷減少感覺神經P物質釋放及神經源性炎症。Cinchocaine局部應用於此適應症的轉化合理性略高於系統性給藥，但仍無任何臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "局部塗抹毒性相對較低，但吸收率及最佳劑型未知"
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性水痘樣痘疹為罕見光敏性皮膚病，與EBV感染及NK/T細胞功能異常相關。Nav通道阻斷對光敏感或EBV介導的免疫病理無已知機轉關聯。TxGNN預測可能源於罕見皮膚病節點的圖譜鄰近性，生物學合理性低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "極稀有病例；無機轉合理性；建議停留在S0"
+    },
+    {
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無肌病性皮肌炎（ADM）以皮膚表現為主，但合併間質性肺病風險高，干擾素信號通路為核心病理。與neonatal dermatomyositis機轉分析相同，局部麻醉藥Nav阻斷理論上可調節免疫細胞功能，但轉化路徑不明，且Cinchocaine的毒性特性限制了其系統性使用的可行性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "成人族群相對安全性略優於新生兒，但仍無任何臨床佐證"
+    },
+    {
+      "disease_name": "neonatal myasthenia gravis",
+      "txgnn_score": 0.9766,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️【潛在禁忌】新生兒重症肌無力為母體AChR抗體經胎盤轉移所致，神經肌肉接合部（NMJ）傳遞已受損。Cinchocaine作為Nav阻斷劑，可能進一步抑制NMJ的動作電位傳導，加重神經肌肉阻斷，造成肌力惡化及呼吸衰竭風險。此預測方向在機轉上具潛在有害性，而非治療性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "🚨 高度警示：Nav阻斷可能加重NMJ傳遞障礙；新生兒族群藥物清除能力低；強烈建議Hold，需前置安全性評估"
+    },
+    {
+      "disease_name": "autoimmune disease of peripheral nervous system",
+      "txgnn_score": 0.9766,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "周邊神經系統自身免疫疾病（如GBS、CIDP）涉及髓鞘損傷及神經炎症。Nav通道阻斷對減少神經元異常放電理論上具合理性（類似利多卡因輸注用於神經性疼痛），但Cinchocaine對自身免疫神經病的治療效應完全未知，且此類患者本已神經傳導受損，額外Nav阻斷的安全性存疑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "Nav阻斷在已受損周邊神經中的效應不確定；需機轉研究先行"
+    },
+    {
+      "disease_name": "myasthenia gravis with thymus hyperplasia",
+      "txgnn_score": 0.9755,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️【潛在禁忌】胸腺增生相關重症肌無力為自身免疫性NMJ疾病，治療方向為免疫抑制及胸腺切除術。Cinchocaine之Nav阻斷可能加重NMJ傳遞障礙（與neonatal MG相同機轉顧慮），與治療目標方向相反。此預測在機轉上不具合理性，且存在安全風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "🚨 高度警示：局部麻醉藥在MG患者為相對禁忌；建議Hold並標記為安全性疑慮候選"
+    }
+  ]
+}
+```
+
+---
+
+## 綜合評估摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 特別標記 |
+|--------|----------|----------|------|----------|
+| Bronchitis | L5 | S0 | Hold | 機轉可能性低 |
+| Acrodermatitis chronica atrophicans | L5 | S0 | Hold | 感染性病因，機轉不符 |
+| Neonatal dermatomyositis | L5 | S0 | Hold | ⚠️ 兒科毒性風險 |
+| Secondary ILD (childhood/CTD) | L5 | S0 | Hold | ⚠️ 兒科稀有病 |
+| Acne keloid | L5 | S0 | Hold | 局部應用或有最低合理性 |
+| Hydroa vacciniforme, familial | L5 | S0 | Hold | 機轉關聯最弱 |
+| Amyopathic dermatomyositis | L5 | S0 | Hold | 無臨床佐證 |
+| **Neonatal myasthenia gravis** | **L5** | **S0** | **Hold** | 🚨 **潛在禁忌** |
+| Autoimmune PNS disease | L5 | S0 | Hold | 需安全性前置評估 |
+| **MG with thymus hyperplasia** | **L5** | **S0** | **Hold** | 🚨 **潛在禁忌** |
+
+### 關鍵發現
+
+1. **全數 L5/S0**：10 個適應症均無任何臨床試驗或文獻佐證，所有評分均基於 TxGNN 模型預測，建議列入「初篩不通過」清單
+
+2. **TxGNN 高分的解讀警示**：模型分數 >0.97 反映知識圖譜中節點相似性，**不代表臨床可行性**。Cinchocaine 的基礎藥理（Nav阻斷）在自身免疫/炎症疾病叢集中可能觸發圖譜鄰近效應
+
+3. **安全性紅旗**：兩個重症肌無力相關適應症（neonatal MG、MG with thymus hyperplasia）在機轉上**方向相反**——Nav阻斷可能加重而非改善NMJ傳遞障礙，建議標記為禁忌疑慮
+
+4. **優先研究問題**（若需推進）：
+   - 若有意探索 Nav 阻斷在炎症性皮膚病的可行性，應以**利多卡因**（毒性更低、文獻更豐富）為先行研究對象，再考慮 Cinchocaine 的差異化定位
+
+> ⚠️ **YMYL 免責聲明**：本分析僅供研究參考，不構成醫療建議。所有藥物再利用候選均需經過嚴格臨床驗證方可應用。

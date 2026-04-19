@@ -1,0 +1,802 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11791-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Capmatinib",
+    "drugbank_id": "DB11791",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9944650530815125,
+        "rank": 6947
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33513356",
+            "title": "Properties of FDA-approved small molecule protein kinase inhibitors: A 2021 update.",
+            "authors": [
+              "Roskoski Robert"
+            ],
+            "journal": "Pharmacological research",
+            "year": "2021",
+            "abstract": "Owing to the dysregulation of protein kinase activity in many diseases including cancer, the protein kinase enzyme family has become one of the most important drug targets in the 21st century. There are 62 FDA-approved therapeutic agents that target about two dozen different protein kinases and eight of these were approved in 2020. All of the FDA-approved drugs are orally effective with the exception of netarsudil (a ROCK1/2 non-receptor protein-serine/threonine kinase antagonist given as an eye",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HGF/c-Met 訊號軸在 RA 病理中促進滑膜纖維母細胞（FLS）增殖、血管新生及軟骨/骨質破壞。MET 抑制理論上可抑制 FLS 侵襲性及 VEGF 驅動的血管翳（pannus）形成。然而目前僅有間接機轉推論，無針對 RA 的直接臨床試驗或動物模型研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9903010129928588,
+        "rank": 10333
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "短指/並指症候群為先天性骨骼發育異常，主要由 HOXD 基因或 BMP 訊號缺陷所致，與 MET 訊號軸無已知直接關聯。TxGNN 高分可能源於知識圖譜中骨骼發育節點的間接連結，缺乏生物機轉合理性（biological plausibility）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.989471435546875,
+        "rank": 10914
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此極罕見症候群（OMIM #164795）為先天性眼部缺損合併肢根性骨骼發育異常，屬胚胎發育期分化缺陷。MET 抑制劑介入成人患者之結構性先天缺陷缺乏機轉合理性，為純演算法預測結果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "heart disease",
+      "txgnn": {
+        "score": 0.9863685965538024,
+        "rank": 13320
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02626234",
+            "title": "A Phase I, Multicenter, Open-label, Single-sequence Drug-drug Interaction Study to Assess the Effect of INC280 on the Pharmacokinetics of Digoxin and Rosuvastatin in Patients With cMET-dysregulated Advanced Solid Tumors",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 32,
+            "start_date": "2015-12-08",
+            "completion_date": "2017-04-28",
+            "brief_summary": "the study aim to assess the effect of INC280 on the pharmacokinetics of digoxin and rosuvastatin in patients with cMET-dysregulated advanced solid tumors",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "藥物交互作用安全性評估研究，非以「心臟疾病治療」為主要終點。研究資料可提供 capmatinib 心臟安全性輪廓參考，但無法作為療效支持依據。歸入心臟病分類可能因 QTc 等心臟安全監測指標被系統收錄所致。"
+            }
+          },
+          {
+            "nct_id": "NCT02159066",
+            "title": "The LOGIC 2 Trial A Phase II, Multi-center, Open-label Study of Sequential LGX818/MEK162 Combination Followed by a Rational Combination With Targeted Agents After Progression, to Overcome Resistance in Adult Patients With Locally Advanced or Metastatic BRAF V600 Melanoma.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 158,
+            "start_date": "2014-07-23",
+            "completion_date": "2023-01-10",
+            "brief_summary": "The primary purpose of this study is to assess the anti-tumor activity of LGX818/MEK162 in combination with targeted agents after progression on LGX818/MEK162 combination therapy, as well as the safety and tolerability of the novel triple combinations.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此試驗為 BRAF 抑制劑聯合 MEK 抑制劑治療黑色素瘤，與 capmatinib 完全無關。資料混入原因不明，可能為證據收集系統的分類誤差（可能因試驗監測心臟安全性次要終點而被標記）。不應納入 capmatinib 心臟病適應症分析。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32333917",
+            "title": "The selective c-Met inhibitor capmatinib offsets cisplatin-nephrotoxicity and doxorubicin-cardiotoxicity and improves their anticancer efficacies.",
+            "authors": [
+              "Shaker Mohamed E",
+              "Shaaban Ahmed A",
+              "El-Shafey Mohamed M",
+              "El-Mesery Mohamed E"
+            ],
+            "journal": "Toxicology and applied pharmacology",
+            "year": "2020",
+            "abstract": "The incorporation of mesenchymal-epithelial transition factor (c-Met) inhibitors with conventional chemotherapeutics may increase the anticancer efficacy of chemotherapeutic agents, but bears the risk of enhancing the adverse effects. To test the hypothesis, co-administration of the novel c-Met inhibitor capmatinib with cisplatin (CIS) or doxorubicin (DOX) was investigated on nephrotoxicity and cardiotoxicity induced by these agents in mice, as well as their in vitro cytotoxicities. The results ",
+            "classification": {
+              "study_type": "Preclinical Study (in vitro / in vivo)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36709977",
+            "title": "Cardiac toxicity associated with pharmacokinetic drug-drug interaction between crizotinib and sofosbuvir/velpatasvir: A case report.",
+            "authors": [
+              "Monribot Anthia",
+              "Huillard Olivier",
+              "Khoudour Nihel",
+              "Préta Laure-Hélène",
+              "Blanchet Benoit"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "2023",
+            "abstract": "This case report describes a pharmacokinetic drug-drug interaction between crizotinib, a tyrosine kinase inhibitor, and sofosbuvir/velpatasvir, a direct-acting antiviral drug, leading to cardiac toxicity. A 75-year-old man, with no cardiovascular history but a diagnosis of metastatic nonsmall cell lung cancer with mesenchymal-epithelial transition exon-14 deletion and hepatitis C virus infection genotype 1A, received both crizotinib and sofosbuvir/velpatasvir. Crizotinib was well tolerated, but ",
+            "classification": {
+              "study_type": "Case Report / Pharmacokinetic Study",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 重要區分：此處證據方向為「心臟保護效應」而非「治療心臟病」。HGF/c-Met 訊號在心肌細胞存活與損傷修復中具重要角色。PMID 32333917 顯示 capmatinib 可抵消 doxorubicin 誘發的心臟毒性，機轉可能涉及減少氧化壓力與粒線體損傷。此為藥物輔助保護效應（adjunctive cardioprotection），而非直接治療心臟疾病，兩者概念需嚴格區分。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn": {
+        "score": 0.9862110018730164,
+        "rank": 13428
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Jeune 症候群（窒息性胸廓發育不良，OMIM #208500）合併內臟逆位屬纖毛病（ciliopathy），由 IFT 基因（如 DYNC2H1、IFT80）突變導致初級纖毛功能障礙。病理機轉與 MET 訊號無直接關聯，MET 抑制劑在此症無合理介入靶點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+      "txgnn": {
+        "score": 0.985849916934967,
+        "rank": 13671
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Pierre Robin 序列症（PRS）由染色體異常（如 del22q11、del17q24）導致下頜骨發育不全、舌後墜及顎裂，屬胚胎期發育性結構缺陷。此類先天解剖異常需外科介入，激酶抑制劑無治療機轉依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "orofacial clefting syndrome",
+      "txgnn": {
+        "score": 0.985792338848114,
+        "rank": 13705
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "口面裂症候群涉及多基因（IRF6、TP63、GRHL3、FGFR2）及環境因素交互作用引致的顏面發育缺陷。雖 MET/HGF 在顏面神經嵴細胞遷移有一定功能，但無任何臨床前或臨床證據支持 capmatinib 可治療或改善已形成的口面裂缺損。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Laubry-Pezzi syndrome",
+      "txgnn": {
+        "score": 0.9857265949249268,
+        "rank": 13756
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Laubry-Pezzi 症候群（主動脈瓣關閉不全合併室間隔缺損）為先天性心臟結構畸形，屬解剖性缺陷，標準治療為外科手術或導管介入修補。MET 訊號軸與此類心臟結構缺損無已知病理機轉關聯，激酶抑制劑無適用基礎。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "interventricular septum aneurysm",
+      "txgnn": {
+        "score": 0.9854808449745178,
+        "rank": 13910
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "室間隔動脈瘤可為先天性（膜部室間隔組織冗餘）或後天性（心肌梗塞後），屬心臟機械性/結構性異常。即便 MET/HGF 在心肌重塑中有一定角色，目前無文獻支持 MET 抑制劑可逆轉或穩定室間隔動脈瘤，且抑制心肌修復訊號在此情境下可能有害。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "hyperthyroidism",
+      "txgnn": {
+        "score": 0.985469937324524,
+        "rank": 13916
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "甲狀腺功能亢進主要由 TSH 受體自體抗體（Graves 病）或甲狀腺自主高功能腺瘤所致，與 MET 訊號軸無直接關聯。注意：部分激酶抑制劑（如 sorafenib、cabozantinib）可能誘發甲狀腺功能異常，但 capmatinib 未有此報告，且以 MET 抑制治療甲亢缺乏任何機轉合理性。TxGNN 高分可能反映知識圖譜中內分泌訊號與激酶路徑的遠端節點連結偽相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "heart disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "heart disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Jeune syndrome situs inversus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Pierre Robin syndrome associated with a chromosomal anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "orofacial clefting syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "Laubry-Pezzi syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "interventricular septum aneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "interventricular septum aneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "interventricular septum aneurysm"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "hyperthyroidism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "hyperthyroidism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Capmatinib",
+        "disease": "hyperthyroidism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,2718 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00787-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Acyclovir",
+    "drugbank_id": "DB00787",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.996729016304016,
+        "rank": 4863
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7825685",
+            "title": "Corneal lipidosis in patients with the acquired immunodeficiency syndrome.",
+            "authors": [
+              "Wilhelmus K R",
+              "Keener M J",
+              "Jones D B",
+              "Font R L"
+            ],
+            "journal": "American journal of ophthalmology",
+            "year": "1995",
+            "abstract": "Certain drugs bind to anionic phospholipids of lysosomal membranes and produce progressive intracellular accumulation of lamellar inclusions. We studied two patients treated for opportunistic infections associated with the acquired immunodeficiency syndrome (AIDS), who developed bilateral ocular surface changes suggestive of drug-induced corneal lipidosis.",
+            "classification": {
+              "study_type": "Case Series / Cross-sectional",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21934222",
+            "title": "Characteristics of microsporidial keratoconjunctivitis in an eastern Indian cohort: a case series.",
+            "authors": [
+              "Sengupta Jayangshu",
+              "Saha Suman",
+              "Khetan Archana",
+              "Pal Dipanjan",
+              "Gangopadhyay Nibaran"
+            ],
+            "journal": "Indian journal of pathology & microbiology",
+            "year": "2011",
+            "abstract": "Microsporidia are intracellular parasites responsible for human infections. Recently, there has been an increase in the incidence of microsporidial keratoconjunctivitis (MKC) affecting normal individuals worldwide.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "角膜點狀上皮炎（PEK）可繼發於 HSV-1 眼部感染（最常見原因之一），Acyclovir 對 HSV-1 具直接抑制活性，機轉上有合理連結。然而，兩篇文獻均未直接研究 Acyclovir 療效：PMID 7825685 描述 AIDS 患者角膜脂質沉積，PMID 21934222 為微孢子蟲引起的角結膜炎個案系列（微孢子蟲非病毒，對 Acyclovir 無反應）。證據為間接引用，無臨床試驗，需確認 PEK 病因是否為 HSV 後再評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "common wart",
+      "txgnn": {
+        "score": 0.9946137070655824,
+        "rank": 6808
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03465280",
+            "title": "Airway Intervention Registry (AIR) Extension: Recurrent Respiratory Papillomatosis",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 400,
+            "start_date": "2018-04-01",
+            "completion_date": "2022-08-31",
+            "brief_summary": "Recurrent Respiratory Papillomatosis (RRP) causes wart-like growths in the airway which can make it difficult to breathe, speak and carry out normal everyday activities. It is a rare condition affecting all ages, but is more common and aggressive in children than in adults, affecting 4 in every 100,000 children. There is no known cure for RRP, but symptoms are checked through regular hospital visits, with multiple therapies or procedures under general anaesthetic needed to remove or shrink the g",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "復發性呼吸道乳突瘤（RRP）登錄研究，病因同為 HPV 但解剖部位不同、非 Acyclovir 治療研究，間接參考價值"
+            }
+          },
+          {
+            "nct_id": "NCT05324904",
+            "title": "Intralesional Vitamin D3 Versus Intralesional Acyclovir in Treatment of Plantar Warts",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 44,
+            "start_date": "2022-10",
+            "completion_date": "2023-11",
+            "brief_summary": "To evaluate and compare the efficacy and safety of intralesional acyclovir versus intralesional vitamin D3 in the treatment of plantar warts",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較皮損內 Vitamin D3 vs Acyclovir 治療蹠疣，n=44，Phase NA（可能為觀察性）"
+            }
+          },
+          {
+            "nct_id": "NCT07448844",
+            "title": "Intralesional Therapies For Cutaneous Viral Warts: A Comparative Analysis Of Vitamin D3 And Acyclovir",
+            "phase": "PHASE4",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 40,
+            "start_date": "2026-02-20",
+            "completion_date": "2026-05-20",
+            "brief_summary": "The goal of this clinical trial is to learn if injecting acyclovir (an antiviral drug) or vitamin D3 directly into skin warts works to clear them in people aged 12 and older with common, plantar, flat, or periungual (around the nail) warts. The main questions it aims to answer are:\n\n1. Does intralesional acyclovir or vitamin D3 lead to complete clearance of warts by week 8?\n2. Which treatment clears warts more effectively?\n3. What side effects do participants have with each treatment?\n\nResearche",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，主動招募中，直接比較皮損內 Vitamin D3 vs Acyclovir 治療皮膚病毒疣，n=40"
+            }
+          },
+          {
+            "nct_id": "NCT07196670",
+            "title": "Intralesional Vitamin D Versus Intralesional Acyclovir in Plantar Warts: a Single-blinded Randomized Clinical Trial With Clinico-dermoscopic Evaluation",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 60,
+            "start_date": "2025-09",
+            "completion_date": "2026-01",
+            "brief_summary": "The goal of this clinical trial is to compare intralesional vitamin D versus intralesional acyclovir in the treatment of plantar warts. It will also learn about the safety of both techniques. The main questions it aims to answer are:\n\nwhich is more effective in the treatment of plantar warts? What medical problems do participants have when taking both? What is the recurrence rate in both treatment modalities? Participants will:• Sixty plantar warts patients will be included in this study.\n\n* The",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，單盲 RCT，皮損內 Vitamin D vs Acyclovir 治療蹠疣，n=60，尚未開始招募"
+            }
+          },
+          {
+            "nct_id": "NCT05429151",
+            "title": "Clinical and Dermoscopic Study of Intralesional Injection of Acyclovir Versus Candida Antigen in Treatment of Plantar Warts",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2022-06-13",
+            "completion_date": "2023-05-01",
+            "brief_summary": "This study aims to evaluate the efficacy of intralesional injection of acyclovir versus candida antigen in plantar wart patients will be randomly divided into 2 groups,At least 20 patients will be enrolled in each group.\n\nGroup 1: will be treated with intralesional injection of acyclovir 250 mg acyclovir vial diluted with 3.5 ml saline to get approximately 70 mg/ml solution. The base of each wart was injected with 0.1 ml of intralesional acyclovir (70 mg/ml) every 2 weeks until the resolution of",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，皮損內 Acyclovir vs 念珠菌抗原治療皮膚病毒疣，n=40，免疫調節機轉比較具有科學價值"
+            }
+          },
+          {
+            "nct_id": "NCT06261684",
+            "title": "Intralesional Acyclovir Versus Cryotherapy in the Treatment of Plantar Warts. A Randomized Controlled Trial.",
+            "phase": "PHASE2, PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 92,
+            "start_date": "2023-10-01",
+            "completion_date": "2024-10-01",
+            "brief_summary": "The goal of this prospective randomized controlled study is to study the safety and efficacy of intralesional acyclovir compared to cryotherapy in plantar warts. The main questions needed to be answered are:\n\n1. Is Intralesional acyclovir safe for plantar warts?\n2. Is Intralesional acyclovir more efficient in treating plantar warts compared to cryotherapy?",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2/3 RCT，皮損內 Acyclovir vs 冷凍療法治療蹠疣，n=92，最高等級直接證據，狀態 UNKNOWN 需核實"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25565081",
+            "title": "Sexually transmitted diseases.",
+            "authors": [
+              "Bechtel Mark A",
+              "Trout Wayne"
+            ],
+            "journal": "Clinical obstetrics and gynecology",
+            "year": "2015",
+            "abstract": "Sexually transmitted diseases (STDs) continue to be a global epidemic with significant risk of morbidity/mortality for the fetus. STDs with prominent cutaneous findings including condylomata acuminata, genital herpes infections, and syphilis are reviewed. Important clinical cutaneous findings help aid early diagnosis and facilitate treatment. Condylomata acuminata have the potential of causing cervical cancer, anogenital cancer, and oropharyngeal cancer. Significant advances have been made in hu",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27265075",
+            "title": "Skin infections in pregnancy.",
+            "authors": [
+              "Müllegger Robert R",
+              "Häring Nina S",
+              "Glatz Martin"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2016",
+            "abstract": "A wide array of infectious diseases can occur in pregnancy. Their acquisition, clinical presentation, and course during gestation may be altered due to an impairment of the maternal cellular immunity. Some infectious diseases can lead to serious consequences for the mother or the offspring, including congenital malformations. This review describes in detail the clinical presentation, course, management, and associated maternal and fetal risks of selected viral (varicella-zoster virus infections,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26885794",
+            "title": "Oral Acyclovir in the Treatment of Verruca.",
+            "authors": [
+              "Bagwell Autumn",
+              "Loy Abbey",
+              "McFarland M Shawn",
+              "Tessmer-Neubauer Amber"
+            ],
+            "journal": "Journal of drugs in dermatology : JDD",
+            "year": "2016",
+            "abstract": "To describe a case in which persistent plantar warts resolved after a ten-day treatment course of oral acyclovir prescribed for herpes zoster.",
+            "classification": {
+              "study_type": "Clinical Study (口服 Acyclovir 治療疣)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2180022",
+            "title": "Common cutaneous disorders in athletes.",
+            "authors": [
+              "Conklin R J"
+            ],
+            "journal": "Sports medicine (Auckland, N.Z.)",
+            "year": "1990",
+            "abstract": "Athletic activity may cause or aggravate skin disorders, which in turn may diminish athletic performance. Since many sporting activities necessitate prolonged exposure to the sun, athletes must avoid painful sunburn which will adversely affect their performance. Drugs and chemicals also may cause photoallergic and/or phototoxic reactions, including polymorphous light eruption and athletes should thus avoid photosensitising drugs and chemicals. The effects of chronic ultraviolet exposure include ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35750325",
+            "title": "Drugs for sexually transmitted infections.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "2022",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40488756",
+            "title": "Comparative study between intralesional acyclovir versus intralesional 5-flurouracil in treatment of recalcitrant warts.",
+            "authors": [
+              "Aziz Ghada Abdel Badea Abdel",
+              "Pessar Doaa Abd El-Maleek Hassan",
+              "Semeda Leila M R",
+              "Ali Mona S A"
+            ],
+            "journal": "Archives of dermatological research",
+            "year": "2025",
+            "abstract": "Although different treatment modalities are available, the treatment of warts is still challenging with recalcitrant and recurrent lesions. Given that warts are viral in nature, acyclovir might be a viable treatment option. Intralesional acyclovir and 5-fluorouracil (5-FU) injections have been described for treating common warts and achieved a complete response in most of the patients.",
+            "classification": {
+              "study_type": "Comparative RCT (皮損內 Acyclovir vs 5-FU)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41010307",
+            "title": "Viral Infections of the Vulva: A Narrative Review.",
+            "authors": [
+              "Terrinoni Matteo",
+              "Golia D'Augè Tullio",
+              "D'Oria Ottavia",
+              "Palisciano Michele",
+              "Adinolfi Federica"
+            ],
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2025",
+            "abstract": "Vulvar viral infections such as condyloma acuminata, genital herpes, molluscum contagiosum, and Lipschütz ulcers span both sexually and non-sexually transmitted diseases and affect patients across all age groups. Lesions may present as papules, verrucous growths, or painful ulcers, often causing functional impairment and significant psychosocial distress. A multidisciplinary strategy that integrates epidemiology, precise diagnostics, individualized therapy, and psychological support is essential",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40056255",
+            "title": "Efficacy of intralesional acyclovir versus quadrivalent human papillomavirus vaccine for treatment of recalcitrant cutaneous warts: a clinical trial.",
+            "authors": [
+              "Elyamany Mona Ibrahim",
+              "Obaid Zakaria Mahran",
+              "Fouda Ibrahim"
+            ],
+            "journal": "Archives of dermatological research",
+            "year": "2025",
+            "abstract": "Warts are the cutaneous manifestations of human papilloma virus infection. Immunotherapy with human papillomavirus (HPV) vaccines has been tried with promising outcomes. Acyclovir is an antiviral with established efficacy against DNA viruses, could become a possible revolutionary therapeutic option for warts. This study aims to assess the efficacy and safety of intralesional acyclovir versus quadrivalent human papilloma virus vaccine in treatment of recalcitrant cutaneous warts. A total of 60 pa",
+            "classification": {
+              "study_type": "Comparative RCT (皮損內 Acyclovir vs HPV 四價疫苗)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9031782",
+            "title": "Viral lesions of the mouth in HIV-infected patients.",
+            "authors": [
+              "Itin P H",
+              "Lautenschlager S"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "1997",
+            "abstract": "Viral lesions of the mouth in patients with HIV infection are common and these diseases any be a marker for HIV and disease progression. We review the spectrum of oral viral manifestations and discuss treatment modalities. The most common Epstein-Barr virus (EBV)-induced disorder in HIV-infected patients is oral hairy leukoplakia. EBV-related oral B-cell and T-cell lymphoma in AIDS patients has been described repeatedly. Herpes virus type 1 and rarely type 2 may lead to painful and resistant ora",
+            "classification": {
+              "study_type": "Observational / Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6467981",
+            "title": "Verrucae vulgares and acyclovir ointment.",
+            "authors": [
+              "Hurwitz R M"
+            ],
+            "journal": "Cutis",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Study (Acyclovir 軟膏治療疣，1984)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40740392",
+            "title": "Clinical and Dermoscopic Study of Intra-lesional Injection of Acyclovir Versus Candida Antigen in Treatment of Plantar Warts.",
+            "authors": [
+              "El-Hamd Mohammed Abu",
+              "Nada Essam",
+              "Hassan Raghda M",
+              "Aboelmagd Mawra A"
+            ],
+            "journal": "Indian journal of dermatology",
+            "year": "2025",
+            "abstract": "Plantar wart is a common viral infection occurring in the plantar aspect of the foot, caused by human papillomavirus (HPV). Intra-lesional immunotherapy has emerged as a front-runner treatment option for plantar warts.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17379155",
+            "title": "Management of oral lesions in HIV-positive patients.",
+            "authors": [
+              "Baccaglini Lorena",
+              "Atkinson Jane C",
+              "Patton Lauren L",
+              "Glick Michael",
+              "Ficarra Giuseppe"
+            ],
+            "journal": "Oral surgery, oral medicine, oral pathology, oral radiology, and endodontics",
+            "year": "2007",
+            "abstract": "HIV/AIDS is currently the leading cause of death in Africa and the fourth leading cause of death worldwide. This systematic review of the literature was conducted to evaluate the evidence for treatment of the most common oral lesions associated with HIV: oral candidiasis with or without oropharyngeal involvement (OPC), oral hairy leukoplakia (OHL), recurrent aphthous-like ulcerations (RAU), oral Kaposi's sarcoma (OKS), orolabial herpes simplex infection (HSV), oral herpes zoster infection (VZV),",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37303436",
+            "title": "A Comparative Study of Intralesional Acyclovir vs Immunotherapy for Treatment of Viral Warts.",
+            "authors": [
+              "Meghana Reddy E",
+              "Rajashekar T S",
+              "Suresh Kumar K"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Viral warts are caused by human papillomavirus (HPV), are difficult to treat with conventional modalities, and are cosmetically disfiguring; hence, immunomodulators are being used. The viral origin of warts suggests the antiviral drug acyclovir as a potential therapeutic option. The current study compares the effect of intralesional acyclovir (nucleoside analogue) and intralesional purified protein derivative (PPD) (immunotherapy) in treating various viral warts.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34412535",
+            "title": "Intralesional Acyclovir: A Potential Therapeutic Option for Cutaneous Warts.",
+            "authors": [
+              "Elsayed Ayman",
+              "Nassar Amany",
+              "Marei Ayman",
+              "Hoseiny Heba Allah Mohamed",
+              "Alakad Rania"
+            ],
+            "journal": "Journal of cutaneous medicine and surgery",
+            "year": "2022",
+            "abstract": "The treatment of warts is challenging and the development of an antiviral drug that can eradicate the human papilloma virus (HPV) is difficult. The viral origin of warts suggests that acyclovir, an antiviral drug with a proven efficacy in DNA viruses, may be a potential therapeutic option.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38793636",
+            "title": "Remission of HPV-Related Diseases by Antivirals for Herpesvirus: Clinical Cases and a Literature Review.",
+            "authors": [
+              "Balestrieri Maria",
+              "Chiantore Maria Vincenza",
+              "Garbuglia Anna Rosa",
+              "Carnovale-Scalzo Caterina",
+              "Falcucci Susanna"
+            ],
+            "journal": "Viruses",
+            "year": "2024",
+            "abstract": "Epidemiological studies have shown that HPV-related diseases are the most prevalent sexually transmitted infections. In this context, this report will present various clinical cases demonstrating the effectiveness of Acyclovir (ACV) or its prodrug Valaciclovir (VCV), both acyclic guanosine analogs commonly used for the treatment of HHV-1 and HHV-2, for the treatment of HPV-related diseases. The report shows the remission of five cases of penile condyloma and a case of remission in a woman affect",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40889709",
+            "title": "Intralesional acyclovir versus cryotherapy in treatment of plantar warts: A randomized controlled trial.",
+            "authors": [
+              "Azzazi Yousra",
+              "Helal Basant",
+              "Ramadan Shahira"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2026",
+            "abstract": "Plantar warts are known for their recalcitrant nature. Intralesional acyclovir injection has been recently tried for treatment of warts.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33515683",
+            "title": "Antiviral activity of castor oil plant (Ricinus communis) leaf extracts.",
+            "authors": [
+              "Elkousy Rawah H",
+              "Said Zeinab N A",
+              "Abd El-Baseer Mohamed A",
+              "Abu El Wafa Salwa A"
+            ],
+            "journal": "Journal of ethnopharmacology",
+            "year": "2021",
+            "abstract": "Ricinus communis L., commonly known as castor oil plant, is a precious traditional medicine with a history of thousands of years in the world. Castor oil plant has high traditional and medicinal values for treating liver infections, stomach ache, flatulence, constipation, inflammation, warts, colic, enteritis, fever, headache, and as a counter irritant. Its diverse phytochemicals have a wide range of valuable medicinal activities including hepatoprotective, anti-nociceptive, antioxidant, antiulc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38822848",
+            "title": "Intralesional acyclovir versus intralesional Hepatitis-B vaccine in treatment of resistant plantar warts: a randomized controlled trial.",
+            "authors": [
+              "Gharib Khalid",
+              "Taha Aya",
+              "Elradi Mona"
+            ],
+            "journal": "Archives of dermatological research",
+            "year": "2024",
+            "abstract": "Treating plantar warts is still a challenging problem with a long list of diverse treatment options that none of them seems to be definitive. To evaluate the effectiveness of intralesional acyclovir versus intralesional Hepatitis-B vaccine (HBV) in treatment of multiple resistant plantar warts. Forty-eight patients with resistant plantar warts completed the study with no dropouts. They were randomized into 3 groups; group(A) receiving intralesional HBV, group (B) receiving intralesional acyclovi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8396559",
+            "title": "[Sexually transmitted diseases by herpes simplex, wart, hepatitis B, and human immunodeficiency virus].",
+            "authors": [
+              "Wassilew S W",
+              "Jovaisas E"
+            ],
+            "journal": "Immunitat und Infektion",
+            "year": "1993",
+            "abstract": "Sexually transmissible diseases (STD), caused by viruses are by far the most important ones, even though German legislation has ignored them up to now as STD. Anogenital herpes is easily diagnosed by means of monoclonal antibodies. This makes therapy available with acyclovir without delay in atypical cases or for example in persons with immunodeficiency. The therapy regimen usually is 5 x 200-400 mg/day. Recurrent herpes in high frequency and with severe pain may be successfully suppressed by 2-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6896082",
+            "title": "Treatment of sexually transmitted diseases.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "普通疣由 HPV（非包膜 dsDNA 病毒）引起，HPV 不編碼胸苷激酶，理論上對 Acyclovir 無感受性，屬機轉不符合情形。然而，皮損內注射 Acyclovir 可能透過非特異性免疫原性反應（局部炎症、樹突細胞活化）誘發抗 HPV 免疫，類似 Candida 抗原注射的機轉假說。值得注意：多項 Phase 4 RCT 及一項 Phase 2/3 RCT 已直接評估此療法，顯示實際臨床療效訊號。guardrails 重點：需釐清免疫調節機轉、劑量方案及長期復發率。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "post-infectious neuralgia",
+      "txgnn": {
+        "score": 0.99249929189682,
+        "rank": 8636
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03134196",
+            "title": "Long-term Suppressive Valacyclovir Treatment for Herpes Zoster Ophthalmicus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 527,
+            "start_date": "2017-08-23",
+            "completion_date": "2024-07-22",
+            "brief_summary": "This is a multi-center, randomized, double-masked, placebo-controlled clinical trial of suppressive valacyclovir for one year in immunocompetent study participants with an episode of dendriform epithelial keratitis, stromal keratitis, endothelial keratitis, and/or iritis due to Herpes Zoster Ophthalmicus (HZO) in the year prior to enrollment.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，長期 Valacyclovir 抑制治療帶狀疱疹眼炎，n=527（大樣本），支持抗病毒長期抑制策略"
+            }
+          },
+          {
+            "nct_id": "NCT01254630",
+            "title": "A Phase III Randomized, Placebo-Controlled, Clinical Trial to Study the Safety and Efficacy of V212 in Adult Patients With Solid Tumor or Hematologic Malignancy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 5305,
+            "start_date": "2011-06-24",
+            "completion_date": "2017-04-11",
+            "brief_summary": "This is a randomized, double-blind, placebo-controlled study to assess the safety and tolerability of V212 when administered to adults with solid tumor malignancy (STM) receiving chemotherapy and to assess the impact of V212 on the development of herpes zoster (HZ) in adults with STM receiving chemotherapy. The primary hypothesis is that vaccination with V212 will reduce the incidence of HZ compared with placebo in adults with STM (lower bound of the 97.5% {one-sided α=0.0125} confidence interva",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3，VZV 疫苗（V212）預防帶狀疱疹，n=5305，疫苗非 Acyclovir，間接對照參考"
+            }
+          },
+          {
+            "nct_id": "NCT02151240",
+            "title": "A Multi-centered, Randomized Study to Evaluate the Efficacy and Safety of Foscarnet Sodium and Sodium Chloride Injection Compared to Intravenous Acyclovir in Patients With Herpes Zoster From China",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 94,
+            "start_date": "2014-05",
+            "completion_date": "2019-07",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Foscarnet Sodium and Sodium Chloride Injection in patients with herpes zoster, and observe incidence of Postherpetic neuralgia",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，直接比較 Foscarnet Sodium vs Sodium Acyclovir（靜脈）治療帶狀疱疹預防 PHN，n=94，唯一直接涉及 Acyclovir 本身的試驗"
+            }
+          },
+          {
+            "nct_id": "NCT01229267",
+            "title": "A Phase III, Double-Blind, Randomized, Placebo-Controlled, Multicenter Clinical Trial to Study the Safety, Tolerability, Efficacy, and Immunogenicity of V212 in Recipients of Autologous Hematopoietic Cell Transplants (HCTs)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1257,
+            "start_date": "2010-11-30",
+            "completion_date": "2015-12-23",
+            "brief_summary": "This is a randomized, double-blind, placebo-controlled study to assess the safety and efficacy of inactivated VZV vaccine for the prevention of HZ and HZ-related complications in adult recipients of autologous hematopoietic cell transplants (HCTs). The primary hypothesis is that vaccination with V212 vaccine will reduce the incidence of herpes zoster (HZ) compared to placebo when administered to recipients of HCT. The statistical criterion for success requires that the lower bound of the 95% con",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 疫苗試驗，n=1257，非 Acyclovir 治療研究"
+            }
+          },
+          {
+            "nct_id": "NCT05492591",
+            "title": "A Multicenter, Randomized, Active-controlled, Dose-finding Phase II Clinical Study Evaluating the Safety and Efficacy of Peginterferon α1b for Injection in Patients With Herpes Zoster",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2022-10-11",
+            "completion_date": "2023-07-22",
+            "brief_summary": "To evaluate the efficacy, optimal dose and efficacy trend of multiple subcutaneous injections of peginterferon α1b in patients with herpes zoster, and provide support for phase III clinical trials.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，抗病毒劑量探索研究，n=50，完成，評估安全性與療效端點"
+            }
+          },
+          {
+            "nct_id": "NCT04546334",
+            "title": "The Effect of Erector Spinae Plane Block on the Relief of Pain of Post-herpetic Neuralgia: Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 90,
+            "start_date": "2020-09-26",
+            "completion_date": "2021-06-19",
+            "brief_summary": "This randomized clinical study will be carried out on 72 patients admitted to the pain clinic in Tanta University Hospitals with post-herpetic neuralgia.\n\nCases presenting to the Pain Clinic with acute pain due to postherpetic neuralgia in thoracic and/or lumbar dermatomes with numerical rating scale (NRS) of 6 or more and they will be randomly divided, using the closed envelop method, into three equal groups.\n\nGroup A (24 patients): Patients will be subjected to the routine medical treatment of",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "豎脊肌平面阻滯神經介入術，非抗病毒治療"
+            }
+          },
+          {
+            "nct_id": "NCT02329457",
+            "title": "Efficacy and Safety of a Novel Intradermal Live-attenuated Varicella Zoster Vaccine in Hematopoietic Stem Cell Transplantation Donors: a Randomized Double Blind Placebo-controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2014-12",
+            "completion_date": "2019-10",
+            "brief_summary": "Hematopoietic stem cell transplantation (HSCT) is well-established therapy for patients with malignant hematological diseases. Varicella zoster virus (VZV) reactivation, clinically manifested as herpes zoster (HZ), is a major complication that affects up to 50% of patients. Most patients will require hospitalization. Despite treatment with high dose acyclovir, patients may develop severe complications including the disabling postherpetic neuralgia, corneal ulceration, viral dissemination and sec",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "VZV 減毒活疫苗 Phase 2/3，造血幹細胞移植族群，非 Acyclovir 評估"
+            }
+          },
+          {
+            "nct_id": "NCT06307444",
+            "title": "Ultrasound-Guided Erectro Spinae Plane Block Versus Stellate Ganglion Block for Patients With Upper Limb Acute Herpes Zoster Pain: Randomized Controlled Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 93,
+            "start_date": "2024-03-20",
+            "completion_date": "2025-02-01",
+            "brief_summary": "Herpes zoster (HZ) is a painful, eruptive, viral condition results from reactivation of the latent varicella zoster virus after the primary infection. The selection of an effective analgesic method in the acute phase of herpes zoster can decrease the incidence of postherpetic neuralgia by reducing neural sensitization. The stellate ganglion is present in 80% of the general population and is composed of the inferior cervical ganglion and the first thoracic ganglion fusion. It lies anterior to the",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "超音波引導神經阻滯術比較，疼痛管理介入，非抗病毒"
+            }
+          },
+          {
+            "nct_id": "NCT02412917",
+            "title": "A Multicenter, Randomized, Double-Blind, Parallel-Group, Comparative Study of FV-100 vs. Valacyclovir for the Prevention of Post-Herpetic Neuralgia and Treatment of Acute Herpes Zoster Associated Pain",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 237,
+            "start_date": "2015-06",
+            "completion_date": "2017-11",
+            "brief_summary": "This is a multicenter, randomized, double-blind, parallel-group, active controlled comparative study of the safety and efficacy of 2 dosing regimens of FV-100 versus valacyclovir administered for 7 days in subjects with uncomplicated AHZ(acute herpes zoster).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 RCT，FV-100 vs Valacyclovir（Acyclovir 前藥）治療帶狀疱疹，已終止（n=237），結果可能提供安全性資料"
+            }
+          },
+          {
+            "nct_id": "NCT01250561",
+            "title": "Reduction of Postherpetic Neuralgia in Herpes Zoster",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 133,
+            "start_date": "2002-02",
+            "completion_date": "2007-10",
+            "brief_summary": "The addition of gabapentin therapy to standard antiviral treatment with valacyclovir in acute herpes zoster patients will decrease the incidence of post-herpetic neuralgia.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "帶狀疱疹 PHN 減少策略試驗，n=133，可能包含 Acyclovir 使用資料"
+            }
+          },
+          {
+            "nct_id": "NCT04530162",
+            "title": "Prevention of Post Herpetic Neuralgia by Ultrasound Guided Single Nerve Block in the Emergency Department",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2021-10-01",
+            "completion_date": "2022-06-10",
+            "brief_summary": "Herpes zoster causes significant morbidity on over 1 million Americans every year. Although the majority of herpes zoster pain will self-resolve within one week, a significant proportion of patients will develop postherpetic neuralgia (PHN), which is characterized by debilitating pain that persists more than three months after the initial symptoms. Nerve blocks have been previously studied as a method to control herpes zoster pain in outpatient pain clinics and inpatient settings. This study aim",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04188327",
+            "title": "Utility of Early Serial Stellate Ganglion Block in Acute Herpes Zoster of Face and Neck",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 208,
+            "start_date": "2020-05-01",
+            "completion_date": "2025-02-02",
+            "brief_summary": "Patient who will be presented to Tanta University Hospitals complaining of acute herpes zoster with onset of vesicular eruption less than 7 days will be included in this clinical study.\n\nPatients will be excluded if they refused participation, had allergy to local anesthetics, coagulopathy, local infection, glaucoma, or neurological deficit.\n\nAll the patients will receive acyclovir (antiviral therapy) and pregablin (analgesic) and the patients will be classified into two groups:- Group I (contro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "帶狀疱疹後神經痛（PHN）由 VZV 急性感染期神經損傷所導致。Acyclovir 透過抑制 VZV 複製，可縮短病毒血症期、減少神經組織炎症，從而降低 PHN 發生率或嚴重度（預防性機轉）。NCT02151240 直接以 Sodium Acyclovir（靜脈）對照 Foscarnet 治療帶狀疱疹，屬 A 級直接證據；Valacyclovir（Acyclovir 前藥）在 Phase 3 試驗中亦有直接評估。重要 guardrails：本適應症偏向「預防 PHN」而非「治療已發生的 PHN」，已建立 PHN 的治療效益需另行評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "hepatitis C induced liver cirrhosis",
+      "txgnn": {
+        "score": 0.9922728538513184,
+        "rank": 8817
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2126146",
+            "title": "Treatment of chronic viral hepatitis anno 1990.",
+            "authors": [
+              "Schalm S W"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1990",
+            "abstract": "Alpha-interferon has emerged as the most effective agent for the treatment of chronic hepatitis when active replication of virus B, C, or D is present. Exogenous administration of human alpha-interferon, now possible through modern large-scale production methods, is associated with suppression of virus in blood. Amelioration of liver disease occurs in 35% of patients with hepatitis B virus and in 50% with hepatitis C virus with interferon doses of 30 and 10 MU per week, respectively, for 16-26 w",
+            "classification": {
+              "study_type": "Narrative Review (1990)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8225977",
+            "title": "[Chronic mucocutaneous herpes simplex infection. Occurrence within the scope of liver-induced immunodeficiency].",
+            "authors": [
+              "Abeck D",
+              "Brandt O",
+              "Weichenthal M",
+              "Kowalzick L",
+              "Mensing H"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "1993",
+            "abstract": "Herpes simplex virus (HSV) infections causing severe disease are reported frequently in patients suffering from human immunodeficiency virus (HIV) infection. This disease pattern may also be seen in an immunocompromised disease state with other causes, however, as in the case presented in this paper. An 84-year-old woman had hepatic cirrhosis resulting from chronic hepatitis C virus infection. The woman developed ulcerative lesions in and around her mouth and in the genito-anal region, and these",
+            "classification": {
+              "study_type": "Case Report / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "根本機轉不符：HCV 為正單鏈 RNA 病毒（+ssRNA），利用 RNA 依賴性 RNA 聚合酶（NS5B）複製，不經 DNA 中間體，亦無胸苷激酶。Acyclovir 的活化依賴病毒 TK 磷酸化，僅對特定 DNA 病毒有效。PMID 2126146（1990 年慢性病毒肝炎治療綜述）僅在歷史脈絡下提及 Acyclovir；PMID 8225977 描述肝源性免疫抑制合併 HSV 感染（合併症，非 HCV 肝硬化治療）。TxGNN 高分可能反映知識圖譜中共病網絡的間接連結，非真實藥物-疾病效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "eosinophilic pustular folliculitis",
+      "txgnn": {
+        "score": 0.9922410249710084,
+        "rank": 8841
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "41413009",
+            "title": "P21 A rare case of eosinophilic pustular folliculitis presenting with pustules and bullae at birth.",
+            "authors": [
+              "Zaman Saman",
+              "Dear Kate",
+              "Morar Nilesh",
+              "Wilsher Mark",
+              "Laguda Bisola"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2025",
+            "abstract": "A term male neonate presented at birth with a widespread pustular dermatosis on the face, scalp and limbs, alongside bullae and erosions on the torso. Elective caesarean delivery followed an uneventful pregnancy conceived through donor-ovum in-vitro fertilisation. He was systemically well, there was sparing of the mucosal membranes, and the hair and nails were not affected. Empirical antibiotics and aciclovir were commenced and microbial skin swabs were negative. Peripheral blood eosinophilia (2",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嗜酸性膿皰性毛囊炎（EPF）為免疫介導性炎症性毛囊炎，病因涉及 Th2 免疫失調，在 HIV 感染者中與免疫重建炎症症候群（IRIS）相關，並非由特定病毒引起。Acyclovir 無已知的抗炎或免疫調節機轉可解釋對 EPF 的療效。唯一文獻（PMID 41413009，2025 年新生兒 EPF 案例，水皰表現）未提及 Acyclovir 治療，屬完全間接引用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "sequela of COVID-19",
+      "txgnn": {
+        "score": 0.9915871620178224,
+        "rank": 9331
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35215786",
+            "title": "Herpes zoster: A Review of Clinical Manifestations and Management.",
+            "authors": [
+              "Patil Anant",
+              "Goldust Mohamad",
+              "Wollina Uwe"
+            ],
+            "journal": "Viruses",
+            "year": "2022",
+            "abstract": "The Varicella-zoster virus (VZV) or human herpes virus 3 is a neurotropic human alpha herpes virus responsible for chickenpox/varicella and shingles/Herpes zoster (HZ). This review will focus on HZ. Since HZ is secondary to varicella, its incidence increases with age. In children and youngsters, HZ is rare and associated to metabolic and neoplastic disorders. In adults, advanced age, distress, other infections (such as AIDS or COVID-19), and immunosuppression are the most common risk factors. HZ",
+            "classification": {
+              "study_type": "Review (帶狀疱疹臨床表現與治療)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35349757",
+            "title": "COVID-19 associated EBV reactivation and effects of ganciclovir treatment.",
+            "authors": [
+              "Meng Mei",
+              "Zhang Sheng",
+              "Dong Xuan",
+              "Sun Wenqing",
+              "Deng Yunfeng"
+            ],
+            "journal": "Immunity, inflammation and disease",
+            "year": "2022",
+            "abstract": "Systemic reactivation of Epstein-Barr virus (EBV) may occur in novel coronavirus disease 2019 (COVID-19) caused by the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2). However, the clinical consequences of EBV reactivation remain uncertain.",
+            "classification": {
+              "study_type": "Case Series (EBV 再活化，ganciclovir 治療)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35383876",
+            "title": "[COVID-19 and herpesvirus encephalitis].",
+            "authors": [
+              "Ramírez-Colombres M",
+              "Maenza C E",
+              "Rocchetti N S",
+              "Gattino S P",
+              "Diodati S"
+            ],
+            "journal": "Revista de neurologia",
+            "year": "2022",
+            "abstract": "The SARS-CoV-2 virus, which causes COVID-19, could give rise to damage the nervous system. Many studies have been conducted on this topic, but few have focused specifically on encephalitis. The effect of SARS-CoV-2 on the clinical expression of other neurotropic viruses, such as Herpesviridae, is unknown.",
+            "classification": {
+              "study_type": "Case Report / Review (COVID + 皰疹病毒腦炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35446232",
+            "title": "Metronidazole, acyclovir and tetrahydrobiopterin may be promising to treat COVID-19 patients, through interaction with interleukin-12.",
+            "authors": [
+              "Farasati Far Bahareh",
+              "Bokov Dmitry",
+              "Widjaja Gunawan",
+              "Setia Budi Hendrik",
+              "Kamal Abdelbasset Walid"
+            ],
+            "journal": "Journal of biomolecular structure & dynamics",
+            "year": "2023",
+            "abstract": "COVID-19 patients have shown overexpressed serum levels of several pro-inflammatory cytokines, leading to a high mortality rate due to numerous complications. Also, previous studies demonstrated that the metronidazole (MTZ) administration reduced pro-inflammatory cytokines and improved the treatment outcomes for inflammatory disorders. However, the effect and mechanism of action of MTZ on cytokines have not been studied yet. Thus, the current study aimed to identify anti-cytokine therapeutics fo",
+            "classification": {
+              "study_type": "Computational / Network Pharmacology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35199176",
+            "title": "Post-COVID-19 HSV encephalitis: a review.",
+            "authors": [
+              "Gupta S",
+              "Dutta A",
+              "Chakraborty U",
+              "Kumar R",
+              "Das D"
+            ],
+            "journal": "QJM : monthly journal of the Association of Physicians",
+            "year": "2022",
+            "abstract": "Herpes simplex virus encephalitis (HSVE) is one of the most common infectious causes of sporadic encephalitis. Coronavirus disease (COVID-19) has been associated with immune dysregulation of the host that might increase the risk of infections like HSVE following SARS-CoV-2 infection. There is paucity of literature on post COVID-19 HSVE. This study was conducted with the aim of analyzing the clinical presentation, brain imaging, and outcome of patients presenting with HSVE within 6 weeks of COVID",
+            "classification": {
+              "study_type": "Review (Post-COVID HSV 腦炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33197261",
+            "title": "Management of severe hyperinflammation in the COVID-19 era: the role of the rheumatologist.",
+            "authors": [
+              "Papadopoulou Charalampia",
+              "Al Obaidi Muthana",
+              "Moraitis Elena",
+              "Compeyrot-Lacassagne Sandrine",
+              "Eleftheriou Despina"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2021",
+            "abstract": "The objectives of this study were (i) to describe the clinical presentation, treatment and outcome of paediatric inflammatory multisystem syndrome temporally related to Sars-CoV-2 (PIMS-TS) in children; (ii) to propose a framework to guide multidisciplinary team (MDT) management; and (iii) to highlight the role of the paediatric rheumatologist in this context.",
+            "classification": {
+              "study_type": "Review (COVID 時代超炎症管理)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35435264",
+            "title": "Clinical symptoms, diagnosis, treatment, and outcome of COVID-19-associated encephalitis: A systematic review of case reports and case series.",
+            "authors": [
+              "Koupaei Maryam",
+              "Shadab Mehr Negar",
+              "Mohamadi Mohamad Hosein",
+              "Asadi Arezoo",
+              "Abbasimoghaddam Sajjad"
+            ],
+            "journal": "Journal of clinical laboratory analysis",
+            "year": "2022",
+            "abstract": "Since COVID-19 outbreak, various studies mentioned the occurrence of neurological disorders. Of these, encephalitis is known as a critical neurological complication in COVID-19 patients. Numerous case reports and case series have found encephalitis in relation to COVID-19, which have not been systematically reviewed. This study aims to evaluate the clinical symptoms, diagnosis, treatment, and outcome of COVID-19-associated encephalitis.",
+            "classification": {
+              "study_type": "Systematic Review (COVID 相關腦炎)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33607505",
+            "title": "COVID-19, HHV6 and MOG antibody: A perfect storm.",
+            "authors": [
+              "Jumah Muruj",
+              "Rahman Farah",
+              "Figgie Mark",
+              "Prasad Ankita",
+              "Zampino Anthony"
+            ],
+            "journal": "Journal of neuroimmunology",
+            "year": "2021",
+            "abstract": "Serious neurological complications of SARS-CoV-2 are increasingly being recognized.",
+            "classification": {
+              "study_type": "Case Report (COVID-19 + HHV-6 + MOG 抗體)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39305363",
+            "title": "Treatment outcomes and their predictors in children hospitalized with varicella complicated by bacterial superinfections after pandemic of COVID-19 - a retrospective multicenter analysis of real-life data in Poland.",
+            "authors": [
+              "Pokorska-Śpiewak Maria",
+              "Szenborn Leszek",
+              "Pietrzak Maja",
+              "Marczyńska Magdalena",
+              "Mania Anna"
+            ],
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "2024",
+            "abstract": "The aim of this study was to analyze treatment outcomes and their predictors in children hospitalized due to varicella complicated by bacterial superinfections after pandemic of COVID-19.",
+            "classification": {
+              "study_type": "Cohort Study (兒童水痘住院結果)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38963201",
+            "title": "COVID-19 ASSOCIATED REACTIVATION OF HERPES INFECTION WITH THE DEVELOPMENT OF ENCEPHALITIS: A CASE REPORT.",
+            "authors": [
+              "Piacherski V",
+              "Muzyka M",
+              "Kazubovich I"
+            ],
+            "journal": "Georgian medical news",
+            "year": "2024",
+            "abstract": "The etiology of meningoencephalitis with COVID19 is coronavirus and herpetic. Secondary herpes infection is associated with immunological dysregulation or with the use of tocilizumab. Differential diagnosis of the etiology of encephalitis is important, because acyclovir is effective for herpes infection. Case Report: A 38-year-old man with right-sided lower lobe pneumonia COVID-19 was hospitalized in the infectious diseases department. On the 6th day of hospitalization, the patient developed res",
+            "classification": {
+              "study_type": "Case Report (Post-COVID HSV 腦炎)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34007736",
+            "title": "COVID-19-Induced Encephalitis: A Case Report of a Rare Presentation With a Prolonged Electroencephalogram.",
+            "authors": [
+              "Miqdad Mohammed A",
+              "Enabi Saed",
+              "Alshurem Mohammad",
+              "Al-Musawi Tariq",
+              "Alamri Abdullah"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Encephalitis is one of the rare complications of coronavirus disease 2019 (COVID-19) that can be missed and confused with other causes of encephalitis. There was a 36-year-old male known to have glucose-6 phosphate dehydrogenase deficiency, who was brought to the emergency department with fever and confusion of one-week duration. Altered mental status work-up, including cerebrospinal fluid analysis, was done and turned out to be nondiagnostic. Multiple prolonged video-electroencephalographic rec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41405855",
+            "title": "Valacyclovir Treatment of Early Symptomatic Alzheimer Disease: The VALAD Randomized Clinical Trial.",
+            "authors": [
+              "Devanand D P",
+              "Wisniewski Thomas",
+              "Razlighi Qolamreza",
+              "Qian Min",
+              "Wei Renjie"
+            ],
+            "journal": "JAMA",
+            "year": "2026",
+            "abstract": "Neuroscientific, epidemiological, and electronic health record studies implicate herpes simplex virus (HSV) as potentially etiological for Alzheimer disease (AD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35438780",
+            "title": "Describing the Impact of Maternal Hyperimmune Globulin and Valacyclovir on the Outcomes of Cytomegalovirus Infection in Pregnancy: A Systematic Review.",
+            "authors": [
+              "Fitzpatrick Alyssa",
+              "Cooper Celia",
+              "Vasilunas Nan",
+              "Ritchie Brett"
+            ],
+            "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+            "year": "2022",
+            "abstract": "Cytomegalovirus (CMV) is the leading infectious cause of congenital neurological disabilities. Valacyclovir and CMV hyperimmune globulin (HIG) may reduce vertical transmission and sequelae in neonates. A systematic review on valacyclovir and CMV HIG in preventing vertical transmission or reducing sequelae in neonates was conducted to 3 September 2021. Valacyclovir as a preventive strategy was supported by a well-conducted randomized controlled trial. Evidence supporting valacyclovir as a treatme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37790912",
+            "title": "Case Report: Spectrum of interesting ocular manifestations following COVID-19 vaccination: a case series of real-world presentations.",
+            "authors": [
+              "Tajunisah Iqbal",
+              "Tan Shao Sze",
+              "Effendi-Tenang Irina",
+              "Samsudin Amir",
+              "Ling Kiet-Phang"
+            ],
+            "journal": "Frontiers in cellular and infection microbiology",
+            "year": "2023",
+            "abstract": "We report the ocular findings that patients experienced after receiving the coronavirus disease 2019 (COVID-19) vaccination in three different eye centers in Malaysia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33692072",
+            "title": "Prolonged fever and hyperferritinaemia: a puzzling diagnosis of neonatal herpes simplex virus infection during COVID-19 pandemic.",
+            "authors": [
+              "Badawy Mohammed Kamal",
+              "Hurrell Sophie",
+              "Baldwin Catherine",
+              "Hassan Heba"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2021",
+            "abstract": "Neonatal herpes simplex virus (HSV) infection is rare, with an estimated incidence of 3.58 per 100 000 live births in the UK and should be suspected in any newborn with fever and bacterial culture-negative sepsis. We describe a case of a previously well full-term male neonate who presented with persistent fever and elevated ferritin level that was carried out during the era of the COVID-19 pandemic as part of SARS-CoV-2 panel investigations. Despite the initial negative HSV serology, HSV-1 PCR f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35090154",
+            "title": "Zoster Eye Disease Study: Rationale and Design.",
+            "authors": [
+              "Cohen Elisabeth J",
+              "Hochman Judith S",
+              "Troxel Andrea B",
+              "Colby Kathryn A",
+              "Jeng Bennie H"
+            ],
+            "journal": "Cornea",
+            "year": "2022",
+            "abstract": "The purpose of this study was to describe the rationale and design of the Zoster Eye Disease Study (ZEDS).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39527702",
+            "title": "NEURORETINITIS ASSOCIATED WITH COVID-19 INFECTION AND VARICELLA-ZOSTER VIRUS REACTIVATION.",
+            "authors": [
+              "Gavrić Ana Uršula",
+              "Mylemans Evelien Margareta",
+              "Vidovič Valentinčič Nataša"
+            ],
+            "journal": "Retinal cases & brief reports",
+            "year": "2026",
+            "abstract": "To report a case of neuroretinitis as the presenting manifestation of COVID-19 infection alongside varicella-zoster virus reactivation, in the absence of other systemic symptoms.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35226419",
+            "title": "A Case Report of Varicella Zoster Meningitis as Co-Infection With Breakthrough COVID-19 in an Immunocompetent Patient.",
+            "authors": [
+              "Yun SeungHoon",
+              "Kim Jinyong",
+              "Shin Hye-Rim"
+            ],
+            "journal": "Journal of Korean medical science",
+            "year": "2022",
+            "abstract": "There are several previous reports that infection or reactivation of varicella zoster virus (VZV) can occur after coronavirus disease 2019 (COVID-19), which is caused by severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2). Herein, we report a rare case of VZV meningitis in breakthrough COVID-19. An 18-years-old male visited the emergency room, presenting with a headache and fever of up to 38.4°C for 5 days. He received the second dose of BNT162b2 mRNA SARS-CoV-2 vaccine 7 weeks prior to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36101991",
+            "title": "Disseminated cutaneous herpes simplex infection after COVID-19 vaccination in a rheumatoid arthritis patient: a case report and review.",
+            "authors": [
+              "Mohamadzadeh D",
+              "Assar S",
+              "Pournazari M",
+              "Soufivand P",
+              "Danaei S"
+            ],
+            "journal": "Reumatismo",
+            "year": "2022",
+            "abstract": "Since COVID-19 vaccination started in December 2020, different side effects were reported. This case report describes the possibility of developing disseminated herpes simplex infection after COVID-19 vaccine in a patient with rheumatoid arthritis. In this case report, we describe a 63-year-old Iranian female. She was a known case of seronegative rheumatoid arthritis and presented with generalized papulo-pustular itchy and painful skin lesions which appeared about seven days after the second dos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33040343",
+            "title": "Herpes zoster ophthalmicus in COVID-19 patients.",
+            "authors": [
+              "Nofal Ahmad",
+              "Fawzy Mohamed M",
+              "Sharaf El Deen Sherif M",
+              "El-Hawary Esraa E"
+            ],
+            "journal": "International journal of dermatology",
+            "year": "2020",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假說機轉（尚未臨床驗證）：SARS-CoV-2 感染可誘發潛伏性皰疹病毒（HSV-1/2、VZV、EBV、HHV-6）再活化，而皰疹病毒持續再活化可能參與 Long COVID 的神經炎症、疲勞及認知障礙症狀。Acyclovir 對 HSV/VZV 具強效抑制活性，理論上可控制再活化。支持證據：PMID 35446232 計算模型預測 Acyclovir 對 COVID-19 患者有潛在療效（機轉：四氫生物蝶呤路徑）；多篇個案報告記錄 Post-COVID HSV 腦炎（以 Acyclovir 治療成功）。缺乏：無針對 Long COVID 的 RCT，尚處於假說驗證階段。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "vulvovaginal candidiasis",
+      "txgnn": {
+        "score": 0.9911091327667236,
+        "rank": 9721
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27265075",
+            "title": "Skin infections in pregnancy.",
+            "authors": [
+              "Müllegger Robert R",
+              "Häring Nina S",
+              "Glatz Martin"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2016",
+            "abstract": "A wide array of infectious diseases can occur in pregnancy. Their acquisition, clinical presentation, and course during gestation may be altered due to an impairment of the maternal cellular immunity. Some infectious diseases can lead to serious consequences for the mother or the offspring, including congenital malformations. This review describes in detail the clinical presentation, course, management, and associated maternal and fetal risks of selected viral (varicella-zoster virus infections,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6896082",
+            "title": "Treatment of sexually transmitted diseases.",
+            "authors": [],
+            "journal": "The Medical letter on drugs and therapeutics",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review (1982)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27158693",
+            "title": "Vulvar pain in pregnancy.",
+            "authors": [
+              "Wallis Luke",
+              "Usatine Richard P"
+            ],
+            "journal": "The Journal of family practice",
+            "year": "2016",
+            "abstract": "The patient was first diagnosed with candida vaginitis, but a second opinion and a closer look at the clinical picture gave way to a different diagnosis.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41088958",
+            "title": "Development and characterization of injection molded multi drug delivery IUD for women's health therapy against bacterial and viral infections.",
+            "authors": [
+              "Coelho Maycon Jair",
+              "Ferrari Gustavo",
+              "Silva Loise Silveira da",
+              "Alberto Kanis Luiz",
+              "Salmoria Gean Vitor"
+            ],
+            "journal": "Drug development and industrial pharmacy",
+            "year": "2025",
+            "abstract": "To develop and evaluate a scalable, multidrug-releasing intrauterine device (IUD) capable of treating common gynecological infections caused by viral, bacterial, and fungal pathogens.",
+            "classification": {
+              "study_type": "Technical / Pharmaceutical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "根本機轉不符：外陰陰道念珠菌病（VVC）由 Candida spp.（真菌）引起，Acyclovir 為抗病毒藥物，對真菌細胞壁、麥角固醇合成路徑均無作用，不具任何抗真菌活性。現有文獻均為間接引用（懷孕皮膚感染通論、STD 治療通論、IUD 多藥物遞送技術研究），無一評估 Acyclovir 對 VVC 的療效。TxGNN 高分可能源於 HSV 與 Candida 在 STD / 免疫抑制族群中的共病關聯，屬知識圖譜雜訊。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "papular urticaria",
+      "txgnn": {
+        "score": 0.9909281134605408,
+        "rank": 9859
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "丘疹性蕁麻疹為昆蟲叮咬引起的 IgE 介導及遲發性 T 細胞超敏反應，與病毒複製無關。Acyclovir 對此適應症無任何已知機轉連結。資料空白：臨床試驗 0 筆、文獻 0 筆。此為本次分析中最缺乏根據的候選適應症，TxGNN 預測分數（0.991）可能為假陽性訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "disease of orbital region",
+      "txgnn": {
+        "score": 0.9907925128936768,
+        "rank": 9965
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03598452",
+            "title": "A Prospective, Non-randomized, Non-controlled Trial: Initial Intravitreal Injection of High-dose Ganciclovir for Cytomegalovirus Retinitis in HIV-negative Patients",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2014-01",
+            "completion_date": "2018-06",
+            "brief_summary": "This prospective, non-randomized, non-controlled clinical trial was conducted to examine the clinical outcomes achieved by using initial high-dose intravitreal ganciclovir injections of ganciclovir in treating cytomegalovirus (CMV) retinitis in patients without human immunodeficiency virus (HIV) infection.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "高劑量 Ganciclovir 玻璃體內注射，非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT00001062",
+            "title": "A Phase I Study of a Fixed-Schedule Regimen of Alternating Oral and Intravenous Ganciclovir for Treatment of Cytomegalovirus Retinitis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "",
+            "completion_date": "1998-01",
+            "brief_summary": "To determine whether alternating oral ganciclovir with intravenous ( IV ) ganciclovir can prevent relapse of Cytomegalovirus ( CMV ) retinitis and improve quality of life in AIDS patients.\n\nA systemic treatment strategy for CMV retinitis is needed that will be effective yet convenient to administer, without the need for a permanent indwelling IV catheter. Although oral ganciclovir has been used as maintenance following induction with IV ganciclovir, patients with reactivation of disease must be ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "口服 Ganciclovir Phase 1 藥動學，非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT00000665",
+            "title": "Studies of the Ocular Complications of AIDS (SOCA) CMV Retinitis Trial: Foscarnet-Ganciclovir Component",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 240,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To evaluate the relative effectiveness and safety of foscarnet versus ganciclovir for the treatment of cytomegalovirus (CMV) retinitis in people with AIDS; to evaluate the relative effect on survival of the use of these two anti-CMV agents in the treatment of CMV retinitis; to compare the relative benefits of immediate treatment with foscarnet or ganciclovir versus deferral of treatment for CMV retinitis limited to less than 25 percent of zones 2 and 3.\n\nCMV retinitis is a common opportunistic i",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "CMV 視網膜炎 SOCA 試驗（Foscarnet vs Ganciclovir），非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT00006145",
+            "title": "A Phase III, Prospective, Randomized, Double-Blind Trial of Valganciclovir Pre-Emptive Therapy for Cytomegalovirus (CMV) Viremia as Detected by Plasma CMV DNA PCR Assay",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 350,
+            "start_date": "2000-08",
+            "completion_date": "2006-02",
+            "brief_summary": "Cytomegalovirus (CMV) infection is a common opportunistic infection (OI) in HIV patients. The purpose of this study is to find out whether valganciclovir, an antiviral approved by the FDA for the treatment of CMV in the eye, is safe and effective in preventing CMV organ damage in people with HIV.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Valganciclovir 預防 CMV，非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT00000668",
+            "title": "A Phase I Pharmacokinetic and Tolerance Study of 28-Day Regimens of Oral Ganciclovir",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 48,
+            "start_date": "",
+            "completion_date": "1995-02",
+            "brief_summary": "To determine the pharmacokinetics (blood levels) of three dose treatment plans of oral ganciclovir during a 28-day dosing period. Other purposes of the study are to determine in a population of HIV seropositive persons with cytomegalovirus (CMV) viremia, the safety, tolerance, and patient acceptability of oral ganciclovir given for 28 days, to collect preliminary laboratory evidence for antiviral activity and effectiveness of three dose regimens of oral ganciclovir based on blood and urine cultu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "口服 Ganciclovir 藥動學，非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT03134196",
+            "title": "Long-term Suppressive Valacyclovir Treatment for Herpes Zoster Ophthalmicus",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 527,
+            "start_date": "2017-08-23",
+            "completion_date": "2024-07-22",
+            "brief_summary": "This is a multi-center, randomized, double-masked, placebo-controlled clinical trial of suppressive valacyclovir for one year in immunocompetent study participants with an episode of dendriform epithelial keratitis, stromal keratitis, endothelial keratitis, and/or iritis due to Herpes Zoster Ophthalmicus (HZO) in the year prior to enrollment.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，Valacyclovir（Acyclovir 前藥）長期抑制帶狀疱疹眼炎，大樣本 n=527，已完成"
+            }
+          },
+          {
+            "nct_id": "NCT00002070",
+            "title": "Phase III Ganciclovir +/- rGM-CSF for AIDS-Related CMV Retinitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To determine whether co-administration of sargramostim (granulocyte-macrophage colony-stimulating factor; GM-CSF) improves tolerance to ganciclovir in patients previously intolerant because of neutropenia defined as an absolute neutrophil count less than 500 cells/mm3. To assess if improved tolerance of ganciclovir is associated with a favorable outcome as defined by a delayed time to progression of retinitis; to confirm the safety and co-administration of ganciclovir and GM-CSF; to assess the c",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Ganciclovir ± GM-CSF 治療 AIDS 相關 CMV 視網膜炎，非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT03457025",
+            "title": "Effect of Adjuvant Hyperbaric Oxygen Therapy on Bells Palsy Outcome",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2019-08",
+            "completion_date": "2020-06",
+            "brief_summary": "This is a randomized, single blinded, non-placebo controlled that will compare one group of Bells Palsy patients receiving the current standard of care including oral corticosteroids and oral antivirals against an experimental group receiving the current standard of care in addition to hyperbaric oxygen therapy. Outcome assessment will be based on both objective analyses of facial movements as well as subjective quality of life scales.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "高壓氧治療 Bell's Palsy，已撤回，與眼眶區 Acyclovir 無關"
+            }
+          },
+          {
+            "nct_id": "NCT06757907",
+            "title": "Topical Ganciclovir Versus Systemic Aciclovir in the Treatment of Herpetic Keratitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2024-10-01",
+            "completion_date": "2024-12-25",
+            "brief_summary": "Traditional antiviral treatments, including systemic acyclovir, have shown effectiveness in resolving keratitis but can also lead to complications, including ocular surface toxicity and the development of acyclovir-resistant strains of HSV. Topical ganciclovir 0.15% ophthalmic gel presents a safer alternative for managing herpetic keratitis, offering effective viral suppression with minimal toxicity. This study aims to compare the efficacy and safety of topical ganciclovir versus systemic acyclo",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接比較局部 Ganciclovir vs 全身 Aciclovir 治療疱疹性角膜炎（眼眶區），n=20，最高直接相關性"
+            }
+          },
+          {
+            "nct_id": "NCT01349452",
+            "title": "Ganciclovir 0,15% Ophthalmic Gel in the Treatment of Adenovirus Keratoconjuntivitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2009-08",
+            "completion_date": "2010-01",
+            "brief_summary": "Ganciclovir ophthalmic gel delivers multiple advantages in the treatment and prophylaxis of herpetic keratitis and shows potential for effectiveness against other viral ocular infections. The majority of adenoviral conjunctivitis will resolve without damaging vision, however, the investigators have no way to determine which cases will progress to ocular complications such as corneal infiltrates and pseudomembranes. Our purpose is to evaluate the efficacy of the Ganciclovir gel 0.15% in preventin",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Ganciclovir 眼凝膠治療腺病毒角結膜炎，非 Acyclovir"
+            }
+          },
+          {
+            "nct_id": "NCT05082415",
+            "title": "Real-world Evaluation of Brolucizumab for the Treatment of Neovascular (Wet) Age-related Macular Degeneration (AMD) (IRIS Study)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 9456,
+            "start_date": "2020-06-03",
+            "completion_date": "2020-12-15",
+            "brief_summary": "This study was a retrospective cohort study of patients to assess the early insights into real-world safety among wet AMD patients initiating brolucizumab. Evidence was generated to describe their patient characteristics and clinical outcomes. The study was conducted using the IRIS Registry.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00061945",
+            "title": "A Phase I/II Dose Escalation Study of Subcutaneous Campath-1H (NSC #715969, IND #10864) During Intensification Therapy in Adults With Untreated Acute Lymphoblastic Leukemia (ALL)",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 302,
+            "start_date": "2003-06",
+            "completion_date": "2012-10",
+            "brief_summary": "This phase I/II trial studies the side effects and best dose of alemtuzumab when given together with combination chemotherapy and to see how well it works in treating patients with untreated acute lymphoblastic leukemia. Monoclonal antibodies, such as alemtuzumab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Drugs used in chemotherapy also work in diffe",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000688",
+            "title": "A Randomized, Controlled Study of Intravenous Ganciclovir Therapy for Peripheral Cytomegalovirus Retinitis in Patients With AIDS",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To provide information about the usefulness and safety of giving injections of ganciclovir (DHPG) for treating peripheral cytomegalovirus (CMV) retinitis.\n\nCMV retinitis is an important sight-threatening opportunistic infection which affects 1 to 2 out of every 10 patients with AIDS. Results from an earlier study suggest that about 80 percent of patients with CMV retinitis will be helped by receiving intravenous doses of DHPG.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002134",
+            "title": "A Randomized, Controlled Study of the Safety and Preventive Efficacy of Oral Ganciclovir When Used in Conjunction With An Intravitreal Ganciclovir Implant in the Treatment of Cytomegalovirus Retinitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 450,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To demonstrate the efficacy of oral ganciclovir in preventing new cytomegalovirus (CMV) disease in AIDS patients with unilateral CMV retinitis treated with an intravitreal ganciclovir implant. To compare safety and tolerance, time to progression, quality of life, and survival among patients treated with an intravitreal ganciclovir implant, with and without oral ganciclovir, versus standard intravenous (IV) ganciclovir therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06558838",
+            "title": "A Randomized, Parallel Group, Pilot Study to Assess Efficacy and Safety of Acyclovir-penciclovir Cream Versus an Active Comparator (Abreva) in the Suppression of Herpes Simplex Virus Eruptions in Subjects With a History of Herpes Labialis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2024-08-19",
+            "completion_date": "2025-11-30",
+            "brief_summary": "This will be a randomized, efficacy assessor-blinded, parallel group, pilot study of up to 40 subjects with documented herpes labialis. Patients will be treated with the study drug, acyclovir-penciclovir cream, or the active comparator of Abreva.\n\nPotential subjects will be assessed during a screening visit that must take place no greater than 2 weeks prior to the Day 1 (Baseline) visit. During the screening period, subjects that meet all other entry criteria will undergo Ultraviolet susceptibil",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02831933",
+            "title": "ENSIGN: Phase II Window of Opportunity Trial of Stereotactic Body Radiation Therapy and In Situ Gene Therapy Followed by Nivolumab in Metastatic Squamous or Non-Squamous Non-Small Cell Lung Carcinoma and Metastatic Uveal Melanoma",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 11,
+            "start_date": "2017-02-15",
+            "completion_date": "2020-11-05",
+            "brief_summary": "This is a Phase II trial to determine the efficacy and safety of in situ gene therapy and stereotactic body radiation therapy (SBRT) used as a window of opportunity treatment before nivolumab in patients with metastatic squamous or non-squamous non-small cell lung carcinoma (NSCLC) and metastatic uveal melanoma. In situ gene therapy will consist of adenovirus-mediated expression of herpes simplex virus thymidine kinase (ADV/HSV-tk) plus Valacyclovir therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00001999",
+            "title": "A Pilot Study to Obtain Preliminary Information Regarding the Efficacy and Safety of the Combination of Immune Globulin and Ganciclovir as Compared to Ganciclovir Alone in the Treatment of Sight-Threatening CMV Retinitis in Patients With AIDS",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To evaluate whether immune globulin and ganciclovir (DHPG) results in faster initial response as compared to DHPG alone. To evaluate whether immune globulin and DHPG gives longer duration of remission than DHPG alone (i.e. 16 weeks). To evaluate the toxicities of the combination of DHPG and immune globulin as compared to those of DHPG alone. To evaluate if there is a difference between the two groups in regard to survival, immune functions, and CMV viremia and viruria.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01600365",
+            "title": "\"Prospective, Interventional, Randomized, Double-masked With the Use of Ganciclovir Gel 0.3% for Treatment of Conjunctivitis Caused by Adenovirus.\"",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 22,
+            "start_date": "2012-05",
+            "completion_date": "2012-06",
+            "brief_summary": "The purpose of this study is to study the use of ganciclovir gel 0.3% for treatment of conjunctivitis caused by adenovirus.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01199562",
+            "title": "Modified Preemptive CMV Management Strategy After Allogeneic Hematopoietic Cell Transplantation and Laboratory Correlation With Innate Immune Function",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 153,
+            "start_date": "2010-12",
+            "completion_date": "2026-12-01",
+            "brief_summary": "RATIONALE: Infection prophylaxis and management may help prevent cytomegalovirus (CMV) infection caused by a stem cell transplant.\n\nPURPOSE:This clinical trial studies infection prophylaxis and management in treating cytomegalovirus infection in patients with hematologic malignancies previously treated with donor stem cell transplant.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01647529",
+            "title": "Intra-cameral Penetration of Ganciclovir Following Topical Administration of 0.15% Ganciclovir Gel (VIRGAN©) for CMV Anterior Uveitis / Endotheliitis",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "2012-07",
+            "completion_date": "2014-07",
+            "brief_summary": "Objective of this study is to investigate the intracameral level of ganciclovir following topical application of 0.15% ganciclovir gel (VIRGAN©) for Cytomegalovirus (CMV) anterior uveitis and endothelitis. Thirty patients who are diagnosed with CMV anterior segment infection, either uveitis or endothelitis, who have a positive aqueous real time PCR (RT-PCR) and/or positive tetraplex PCR for CMV and have not had any form of ganciclovir treatment in the past 1 month, will be recruited in the study",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05111743",
+            "title": "Real-world Evaluation of Brolucizumab for the Treatment of Neovascular (Wet) Age-related Macular Degeneration (AMD) (Komodo Health)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 9261,
+            "start_date": "2020-06-17",
+            "completion_date": "2020-12-18",
+            "brief_summary": "This study was a retrospective cohort study of patients to assess the early insights into real-world safety among wet AMD patients initiating brolucizumab. Evidence was generated to describe their patient characteristics and clinical outcomes. The study was conducted using the Komodo Healthcare Map.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002015",
+            "title": "An Open Label Evaluation of the Safety and Pharmacokinetics of Ganciclovir in Children",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To evaluate the pharmacokinetics of intravenous ganciclovir in children (ages 3 months - 12 years). To determine the safety and tolerance of a 2 to 3 week induction course of ganciclovir IV in immunocompromised children receiving treatment for life- or sight-threatening cytomegalovirus infections.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04598282",
+            "title": "A Pilot Study Evaluating Adjunctive Cryopreserved Amniotic Membrane Treatment for Primary or Recurrent Herpes Simplex Dendritic Keratitis",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2021-01-21",
+            "completion_date": "2022-07-28",
+            "brief_summary": "To prospectively evaluate the effectiveness of Prokera Slim in adults with primary or recurrent herpetic epithelial keratitis in terms of visual function, corneal opacity, time to resolution, cost of care, number of patient visits.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03389191",
+            "title": "A Clinical Trial of Oral Acyclovir in Viral Uveitis",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2017-01",
+            "completion_date": "2021-12",
+            "brief_summary": "This project is designed to test the hypothesis that acyclovir is clinically useful for patients with refractory viral uveitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002034",
+            "title": "A Study of the Safety and Tolerance of Long-Term Therapy With Intravenous Cytovene (Ganciclovir Sodium) for Cytomegalovirus Retinitis in Persons With AIDS",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To evaluate the safety and tolerance of long-term ganciclovir (DHPG) therapy for newly diagnosed macular threatening Cytomegalovirus (CMV) retinitis in AIDS patients. To evaluate the clinical response to a 52 week course of intravenous DHPG therapy. To evaluate the safety and tolerance of long-term DHPG with concurrent treatment with zidovudine (AZT). (Patients utilizing treatment with other anti-retroviral drugs will be considered for study entry on a case by case basis.) To determine survival ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000138",
+            "title": "Herpetic Eye Disease Study (HEDS) I",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": "N/A",
+            "start_date": "1989-05",
+            "completion_date": "",
+            "brief_summary": "To evaluate the efficacy of topical corticosteroids in treating herpes simplex stromal keratitis in conjunction with topical trifluridine.\n\nTo evaluate the efficacy of oral acyclovir in treating herpes simplex stromal keratitis in patients receiving concomitant topical corticosteroids and trifluridine.\n\nTo evaluate the efficacy of oral acyclovir in treating herpes simplex iridocyclitis in conjunction with treatment with topical corticosteroids and trifluridine.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00001061",
+            "title": "A Phase II, Double-Masked, Randomized, Placebo-Controlled Evaluation of Standard Therapy vs. Standard Therapy Combined With Human Monoclonal Anti-Cytomegalovirus Antibody (MSL 109) in the Therapy of AIDS Patients With Cytomegalovirus (CMV) Retinitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 167,
+            "start_date": "",
+            "completion_date": "1998-03",
+            "brief_summary": "To evaluate the effect of MSL 109, human monoclonal anti-cytomegalovirus (CMV) antibody, on time to progression of CMV retinitis. To determine the safety and pharmacokinetic profile of MS 109. To evaluate the relationship between pharmacokinetic measurements of MSL 109 and efficacy and virologic markers.\n\nTherapeutic agents currently available for CMV retinitis are limited by their inherent toxicities and short half-lives which require frequent intravenous dosing. Alternatively, MSL 109 has demo",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002156",
+            "title": "A Randomized Comparison of Intravitreal ISIS 2922 Plus Ganciclovir Versus Ganciclovir as Treatment for Patients With Cytomegalovirus Retinitis ( CMVR )",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 194,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To determine the clinically safe and effective dose of intravitreal ISIS 2922 alone and as an additive antiviral therapy to ganciclovir in AIDS patients with cytomegalovirus (CMV) retinitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07341386",
+            "title": "Prevention of Recurrence of Herpes Simplex in Patients With Autoimmune Rheumatic Diseases",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 62,
+            "start_date": "2026-04-01",
+            "completion_date": "2028-04-01",
+            "brief_summary": "The goal of this randomized, double-blind, placebo-controlled clinical trial is to evaluate the effectiveness and safety of oral suppressive therapy with acyclovir in preventing herpes simplex virus (HSV) reactivation in patients with autoimmune rheumatic diseases (ARDs) who have a history of recurrent HS episodes.\n\nThe main questions this study aims to answer are:\n\nDoes continuous oral acyclovir reduce the frequency of HSV reactivation in ARD patients compared to placebo? What is the safety pro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06436534",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Single-center Clinical Trial of Ganciclovir Capsules in the Treatment of Refractory Moderate-to-severe Allergic Rhinitis",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2024-05-24",
+            "completion_date": "2026-05",
+            "brief_summary": "The goal of this clinical trial is to learn about the clinical efficacy and safety of ganciclovir (GCV) capsules in the treatment of refractory moderate-to-severe allergic rhinitis. The main questions it aims to answer are:\n\n1. Whether ganciclovir improve nasal symptoms and life quality in patients with refractory moderate-to-severe allergic rhinitis.\n2. Whether ganciclovir is safe for the treatment of allergic rhinitis.\n\nParticipants with refractory moderate-to-severe allergic rhinitis will be ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03282916",
+            "title": "Anti-viral Therapy in Alzheimer's Disease",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2018-02-12",
+            "completion_date": "2024-09-05",
+            "brief_summary": "Anti-viral therapy in Alzheimer's disease will investigate the efficacy of treating patients with mild Alzheimer's disease with the U.S.A marketed generic anti-viral drug Valtrex (valacyclovir, 500mg oral tablet). Valacyclovir, titrated to 4 grams per day, repurposed to treat Alzheimer's disease, will be compared to matching placebo in the treatment of 130 mild AD patients (65 valacyclovir, 65 placebo) who test positive for herpes simplex virus-1 (HSV1) or herpes simplex virus-2 (HSV2). The stud",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002257",
+            "title": "A Randomized Controlled Study of the Efficacy and Safety of Maintenance Treatment With Oral Ganciclovir for Newly Diagnosed Cytomegalovirus Retinitis in People With AIDS",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To compare the time to progression of CMV retinitis between oral ganciclovir and IV ganciclovir during 20 weeks of maintenance treatment. To compare the safety and tolerance of oral ganciclovir with IV ganciclovir therapy during 20 weeks of maintenance treatment. To describe the safety and tolerance of oral ganciclovir treatment when given concurrently with anti-retroviral treatment, e.g. zidovudine or ddI. To describe the survival of people with AIDS and CMV retinitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000134",
+            "title": "Cytomegalovirus Retinitis Retreatment Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 279,
+            "start_date": "1992-12",
+            "completion_date": "1995-03",
+            "brief_summary": "To compare the relative merits of three therapeutic regimens in patients with AIDS and CMV retinitis who have been previously treated but whose retinitis either is nonresponsive or has relapsed. These three therapeutic regimens were (1) foscarnet, (2) high-dose ganciclovir, and (3) combination foscarnet and ganciclovir.\n\nTo compare two treatment strategies in patients with relapsed or nonresponsive CMV retinitis: (1) continuing the same anti-CMV drug or (2) switching to the alternate drug.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000673",
+            "title": "A Phase I/II Open-Labelled Trial of Intravitreal Ganciclovir Salvage Therapy for AIDS Patients With Active CMV Retinitis Who Are Intolerant of Systemic Therapy",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "",
+            "completion_date": "1993-05",
+            "brief_summary": "AMENDED: 04-12-91 Population of patients changed FROM those who are intolerant of systemic therapy with NON-sight-threatening CMV retinitis TO those AIDS patients intolerant of systemic therapy with CMV retinitis.\n\nAMENDED: 8/8/90. Changes made in neutrophils count from \\< 500 to \\< 750 cells/mm3. Nonrandomized eyes will not be used for the primary efficacy evaluation.\n\nORIGINAL DESIGN: To determine the effectiveness and safety of ganciclovir (DHPG) therapy in AIDS patients suffering from active",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000894",
+            "title": "Ganciclovir-Cidofovir CMV Retinitis Trial (GCCRT)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To compare cidofovir with a commonly used treatment regimen, ganciclovir given by mouth (oral) and through an eye device (intraocular) , in order to determine the safety and effectiveness of cidofovir in preventing vision loss in patients who have AIDS complicated by CMV (cytomegalovirus) retinitis.\n\nCidofovir needs to be compared to ganciclovir to determine the best way to treat CMV retinitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01533480",
+            "title": "A Prospective, Double-masked, Placebo Controlled Comparison of Topical 0.15% Ganciclovir Gel (Zirgan®) Versus 0.3% Hypromellose Gel (Genteal Gel®; Placebo) for the Treatment of Adenovirus Conjunctivitis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2012-01",
+            "completion_date": "2016-04",
+            "brief_summary": "The investigators are conducting this study because the patient have an eye infection which is called adenoviral conjunctivitis, and is the most common cause of \"pink eye\". There is currently no treatment for this condition. However, the researchers associated with this study want to understand if using a product called Zirgan, which is a topical ointment that is already FDA-approved for other types of eye infections, will help with the type of infection that the patient currently have. Zirgan i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00587496",
+            "title": "A 30-Day Double-Masked Study to Determine the Effect of Oral Valacyclovir or Oral Valacyclovir Plus Aspirin on the Shedding of Herpes Simplex Virus DNA in the Tears and Saliva of Volunteers Without Clinical Signs of Ocular Herpetic Disease",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2006-04",
+            "completion_date": "2008-07",
+            "brief_summary": "The purpose of this study is to determine whether oral Valtrex alone or in combination with aspirin will reduce the shedding of herpes simplex virus DNA in the tears and saliva from volunteers with no evidence of ocular herpes infection. The secretion of virus into the tears and saliva might make people more susceptible to virus infection in the future if their immune system becomes deficient. The study will also try to determine if there is a correlation between shedding of viral DNA and herpes",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03586284",
+            "title": "Systemic and Topical Antivirals for Control of Cytomegalovirus Anterior Uveitis: Treatment",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 51,
+            "start_date": "2020-03-15",
+            "completion_date": "2024-11-13",
+            "brief_summary": "Cytomegalovirus (CMV) is generally a latent and asymptomatic infection in healthy, immunocompetent individuals. In immunocompromised patients CMV is well known to cause a retinitis that can lead to blindness. In immunocompetent patients, however, CMV can cause recurrent inflammation in the front of the eye (anterior uveitis). CMV anterior uveitis produces complications including pain, glaucoma, corneal failure, and vision loss. CMV anterior uveitis is commonly misdiagnosed as a non-infectious an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002135",
+            "title": "An Open-Label Safety Study of Oral Ganciclovir Maintenance Treatment of CMV Retinitis in People With Limited Venous Access",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To provide oral ganciclovir to patients who require maintenance for control of cytomegalovirus (CMV) retinitis, but who lack patent permanent central venous access for long-term administration of intravenous drugs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06474416",
+            "title": "A Multicenter, Open-label, Single Dose, Phase Ⅰ Trial to Evaluate the Safety, Tolerability and Prelinminary Efficacy of BD111 in Patients With Herpes Simplex Virus Type I Stromal Keratitis in China",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 16,
+            "start_date": "2023-09-04",
+            "completion_date": "2026-03-13",
+            "brief_summary": "This Phase I study is intended to evaluate the safety, tolerability, PK/PD profiles and preliminary efficacy via corneal intrastromal administration in patients with herpes simplex virus-1 stromal keratitis (HSK), with a dose exploration of four ascending doses of BD111 (investigative drug product).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000136",
+            "title": "Foscarnet-Ganciclovir CMV Retinitis Trial",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 234,
+            "start_date": "1990-03",
+            "completion_date": "1991-10",
+            "brief_summary": "To evaluate the relative safety and efficacy of ganciclovir and foscarnet as initial treatment of patients with cytomegalovirus (CMV) retinitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03178149",
+            "title": "A Phase 1b, Multicenter, Dose Escalation, Evaluation of Safety and Tolerability of ASP7317 for Geographic Atrophy Secondary to Age-related Macular Degeneration",
+            "phase": "PHASE1",
+            "status": "RECRUITING",
+            "enrollment": 42,
+            "start_date": "2018-07-13",
+            "completion_date": "2026-06-30",
+            "brief_summary": "Age-related macular degeneration (AMD) is an eye disease which causes people to lose their sharp central vision over time. Aging damages the macula, which is in the middle of the retina - the light-sensitive part at the back of the eye. There are 2 types of AMD - wet AMD and dry AMD. The advanced stage of dry AMD causes vision loss. This is known as geographic atrophy. AMD makes everyday tasks like reading or driving difficult.\n\nASP7317 is a potential new treatment for people with AMD. ASP7317 a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002247",
+            "title": "A Randomized Study Comparing the Safety and Efficacy of Two Regimens of Oral Ganciclovir to Intravenous Ganciclovir Maintenance Therapy for Cytomegalovirus Retinitis in People With AIDS Who Have Received Prior Ganciclovir Therapy",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 225,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To compare the safety and tolerance of oral ganciclovir at a double dose 3 times/day or a single dose 6 times/day to IV ganciclovir given for 20 weeks of maintenance therapy. To compare the time to progression of cytomegalovirus (CMV) retinitis between two regimens of oral ganciclovir and IV ganciclovir therapy given for 20 weeks of maintenance therapy. To describe the efficacy and safety of double dose versus single dose oral ganciclovir in patients who have a progression of retinitis while on ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000970",
+            "title": "A Phase I Open-Labeled Study of Long Term Combined or Alternating Foscarnet/Ganciclovir Maintenance Therapy for AIDS Patients With CMV Retinitis After Ganciclovir Induction Therapy",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "",
+            "completion_date": "1993-06",
+            "brief_summary": "To examine the safety and tolerance of the administration of ganciclovir and foscarnet given together or alternately; to determine the interactive pharmacokinetics (blood level) profile of long-term combined and alternating therapy with these two drugs. Additional objectives are to examine the effect of these treatments in controlling time to cytomegalovirus (CMV) retinitis progression and to examine the antiviral activity of combined and alternating ganciclovir/foscarnet treatment and developme",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002299",
+            "title": "Combination Therapy With 9-(1,3-Dihydroxy-2-Propoxymethyl) Guanine (DHPG) and Interferon Beta for the Prevention of Relapse of Cytomegalovirus Retinitis in Patients With the Acquired Immunodeficiency Syndrome",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "The use of ganciclovir (DHPG) in combination with interferon beta to prevent relapse of cytomegalovirus retinitis in patients with AIDS. While early clinical trials have shown that 30 mg/kg/week of DHPG is usually sufficient to delay or prevent relapse, neutropenia is a common dose-limiting problem in about 50 percent of patients. Since in vitro data have suggested that there is synergism between DHPG and interferon beta against cytomegalovirus, a reduced dose of DHPG in combination with a low d",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00031447",
+            "title": "A Placebo-Controlled Phase III Evaluation of Suppressive Therapy With Oral Acyclovir Suspension Following Neonatal Herpes Simplex Virus Infections Limited to the Skin, Eye, and Mouth",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 29,
+            "start_date": "1999-08",
+            "completion_date": "2008-04",
+            "brief_summary": "The purpose of this study is to test whether long-term treatment with oral acyclovir improves the outcome for infants with herpes simplex virus (HSV) disease of the skin, eyes, and mouth (SEM). Study participants will include infants in the United States and Canada who have HSV disease of the skin, eyes, and mouth, with no central nervous system disease present. Initially, all subjects will be treated with acyclovir administered through IV access (through the vein) for 14 days while hospitalized",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002222",
+            "title": "An Open Label Study of the Safety and Tolerability of Valganciclovir, an Oral Prodrug of Ganciclovir, for the Treatment of Cytomegalovirus Retinitis in Subjects With AIDS",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "The purpose of this study is to see if valganciclovir is a safe treatment for CMV retinitis in patients who have been treated for this condition in the past. This study also examines the effectiveness of valganciclovir in preventing the recurrence of CMV retinitis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002377",
+            "title": "A Comparison of Valganciclovir and Ganciclovir in the Treatment of Cytomegalovirus (CMV) of the Eyes",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "1997-01",
+            "completion_date": "2002-12",
+            "brief_summary": "To investigate the efficacy and safety of RS-79070 when used as induction therapy in patients with newly diagnosed peripheral retinitis. To assess the effects of induction and maintenance level dosing of RS-79070 on CMV viral load, estimated by plasma CMV PCR. To assess the pharmacokinetics of ganciclovir following administration of RS-79070 in the target population.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00002025",
+            "title": "Open Label Ganciclovir Therapy for Sight- or Life-Threatening Cytomegalovirus Disease in the Immunocompromised Patient",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To make intravenous (IV) ganciclovir available to immunocompromised patients with life-threatening or sight-threatening Cytomegalovirus (CMV) infection, where the symptoms of the disease are too severe to allow admission to a controlled clinical study of ganciclovir therapy. To determine the safety and tolerance of 2 - 3 weeks induction course of ganciclovir IV followed by a maintenance course of ganciclovir IV for an indefinite duration. To tabulate the patient's clinical response.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00000766",
+            "title": "CMV Retinitis Retreatment Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 300,
+            "start_date": "",
+            "completion_date": "",
+            "brief_summary": "To assess the safety and efficacy of three therapeutic regimens (foscarnet, ganciclovir, or the combination) for recurrent or persistent AIDS-related cytomegalovirus (CMV) retinitis.\n\nAlthough therapy with foscarnet or ganciclovir halts retinitis progression in 90 percent of patients treated, relapses are common and may accelerate due to development of drug resistance, deteriorating immune function, or other factors. Treatment strategies currently being investigated include switching patients fr",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3493673",
+            "title": "Herpes zoster ophthalmicus.",
+            "authors": [
+              "Bucci F A",
+              "Savia P V",
+              "Mauriello J A"
+            ],
+            "journal": "American family physician",
+            "year": "1987",
+            "abstract": "The incidence and severity of herpes zoster ophthalmicus have increased because of the growing number of immunocompromised patients. Uveitis and keratitis are the most common inflammatory complications. Corneal exposure from scarring and contraction of the upper lid may require reconstructive plastic surgery. Preliminary studies of oral acyclovir, specifically targeted at preventing ocular complications, are encouraging.",
+            "classification": {
+              "study_type": "Review / Case Series (帶狀疱疹眼炎，1987)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35957932",
+            "title": "Orbital Apex Syndrome: a rare complication of herpes zoster ophthalmicus in a Ghanaian woman living with HIV.",
+            "authors": [
+              "Ayisi-Boateng Esinam",
+              "Ayisi-Boateng Nana K",
+              "Amoah Kwadwo",
+              "Wiafe Boateng"
+            ],
+            "journal": "Ghana medical journal",
+            "year": "2021",
+            "abstract": "Herpes Zoster Ophthalmicus (HZO) usually affects the immunocompromised and aged. It results from the reactivation of latent varicella zoster infection in the trigeminal ganglia. Orbital apex syndrome (OAS) is a rare sequela of the disease and tends to be disfiguring and vision-threatening if not addressed. We report on a 43-year-old Ghanaian female living with Human Immunodeficiency Virus infection and on highly active antiretroviral therapy who presented with a 2-month history of a healed vesic",
+            "classification": {
+              "study_type": "Case Report (帶狀疱疹眼炎眼眶尖端症候群)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12573470",
+            "title": "Regulated transgene delivery by ganciclovir in the brain without physiological alterations by a live attenuated herpes simplex virus vector.",
+            "authors": [
+              "Fukuda Yoshiko",
+              "Yamamura Jun-ichi",
+              "Uwano Teruko",
+              "Nishijo Hisao",
+              "Kurokawa Masahiko"
+            ],
+            "journal": "Neuroscience research",
+            "year": "2003",
+            "abstract": "The distribution of a live attenuated herpes simplex virus (betaH1)-mediated gene delivery into the central nervous system (CNS) was regulated by growth inhibition with ganciclovir (GCV) and the effect of this transgene expression system on the physiologic response was characterized by the acoustic startle response and its prepulse inhibition. We inoculated betaH1 expressing beta-galactosidase (beta-gal) driven by the latency associated transcripts promoter into the right caudate putamen of rats",
+            "classification": {
+              "study_type": "Experimental Study (Ganciclovir 腦部基因遞送，非直接相關)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼眶區疾病（此處主要由帶狀疱疹眼炎 [HZO] 及 HSV 眼部感染引起）為 Acyclovir 核心臨床適應症之延伸，機轉明確：抑制 VZV/HSV DNA 聚合酶，減少病毒複製，降低眼眶組織炎症及神經受損風險。NCT06757907 直接比較局部 Ganciclovir vs 全身性 Aciclovir（即 Acyclovir）治療疱疹性角膜炎；NCT03134196 以 Valacyclovir（前藥）進行大樣本（n=527）長期抑制治療 HZO 的 Phase 4 試驗。此適應症與 Acyclovir 全球核准適應症（帶狀疱疹、HSV 感染）高度重疊，guardrails 重點在於：眼眶區具體病變的最佳給藥途徑（全身 vs 局部）、劑量及療程長短。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "epidemic keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9906845092773438,
+        "rank": 10038
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31111724",
+            "title": "Correlation between corneal involvement and anterior chamber flare in epidemic keratoconjunctivitis.",
+            "authors": [
+              "Kiyat Pelin",
+              "Palamar Melis",
+              "Yilmaz Suzan Guven",
+              "Emre Sinan"
+            ],
+            "journal": "European journal of ophthalmology",
+            "year": "2020",
+            "abstract": "To investigate the correlation between corneal involvement and anterior chamber flare using a laser flare meter in eyes with epidemic keratoconjunctivitis.",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36346478",
+            "title": "In Vitro efficacy of cyclosporine a and various antiseptics and antiviral drugs on adenovirus genotype 8, a common cause of epidemic keratoconjunctivitis.",
+            "authors": [
+              "Aydamirov Aynura Sariyeva",
+              "Harbiyeli Ibrahim Inan",
+              "Ozturk Gokhan",
+              "Yarkin Fugen",
+              "Erdem Elif"
+            ],
+            "journal": "International ophthalmology",
+            "year": "2023",
+            "abstract": "To evaluate the in vitro efficacy of cidofovir, ganciclovir, povidone-iodine, chlorhexidine, and cyclosporine A on adenovirus genotype 8.",
+            "classification": {
+              "study_type": "In Vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35238405",
+            "title": "Topical pharmacologic interventions versus placebo for epidemic keratoconjunctivitis.",
+            "authors": [
+              "Liu Su-Hsun",
+              "Hawkins Barbara S",
+              "Ng Sueko M",
+              "Ren Mark",
+              "Leslie Louis"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2022",
+            "abstract": "Viruses cause about 80% of all cases of acute conjunctivitis. Human adenoviruses are believed to account for 65% to 90% of cases of viral conjunctivitis, or 20% to 75% of all causes of infectious keratoconjunctivitis worldwide. Epidemic keratoconjunctivitis (EKC) is a highly contagious subset of adenoviral conjunctivitis that has been associated with large outbreaks at military installations and at medical facilities. It is accompanied by severe conjunctival inflammation, watery discharge, and l",
+            "classification": {
+              "study_type": "Systematic Review (Cochrane)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1895726",
+            "title": "[Recurrent and persistent nummuli after epidemic keratoconjunctivitis].",
+            "authors": [
+              "Sundmacher R",
+              "Engelskirchen U"
+            ],
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1991",
+            "abstract": "Three observations of typical patients with persistent and recurrent nummuli after epidemic keratoconjunctivitis serve--pars pro toto--to demonstrate that longterm therapy with high-dosed topical steroid offers no therapeutic solution. This experience and other disadvantages of steroids in KCE (dry eyes) lead us to recommend not to apply topical steroids in KCE unless an adenovirus specific antiviral agent has become available for basic antiviral therapy.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10614681",
+            "title": "Treatment of viral diseases of the cornea and external eye.",
+            "authors": [
+              "Kaufman H E"
+            ],
+            "journal": "Progress in retinal and eye research",
+            "year": "2000",
+            "abstract": "Ocular virus infections remain an important cause of corneal and external disease. Herpes simplex, the most important, is easily treated when it is confined to the epithelium. New studies indicate that herpetic stromal disease and iritis are effectively treated with a combination of corticosteroid and antiviral without additional risk. Recurrences of ocular herpetic disease can be reduced with acyclovir given orally; the benefit seems to be greatest in patients who have had at least one episode ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6355045",
+            "title": "The epidemiology and clinical presentation of herpes virus infections.",
+            "authors": [
+              "Stuart-Harris C"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1983",
+            "abstract": "The chief characters of infection by the human herpes viruses are considered with particular reference to herpes simplex viruses, types 1 and 2. Infection with type 1 virus is acquired very early in life though infrequently as a true congenital transmission of virus. Primary infections result from direct contact usually with infected saliva or skin vesicles. Kerato-conjunctivitis, when primary, may be severe yet superficial in extent. Vulvo-vaginitis, often acquired in adults as a result of type",
+            "classification": {
+              "study_type": "Review (1983)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21934222",
+            "title": "Characteristics of microsporidial keratoconjunctivitis in an eastern Indian cohort: a case series.",
+            "authors": [
+              "Sengupta Jayangshu",
+              "Saha Suman",
+              "Khetan Archana",
+              "Pal Dipanjan",
+              "Gangopadhyay Nibaran"
+            ],
+            "journal": "Indian journal of pathology & microbiology",
+            "year": "2011",
+            "abstract": "Microsporidia are intracellular parasites responsible for human infections. Recently, there has been an increase in the incidence of microsporidial keratoconjunctivitis (MKC) affecting normal individuals worldwide.",
+            "classification": {
+              "study_type": "Case Series (微孢子蟲，非腺病毒)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "流行性角結膜炎（EKC）主要由人類腺病毒（HAdV，非包膜 dsDNA 病毒）引起。腺病毒不編碼胸苷激酶，對 Acyclovir 天然具抵抗性。體外試驗（PMID 36346478）顯示 Acyclovir 對某些腺病毒基因型有低度體外抑制活性，但臨床轉譯意義不明。系統性綜述（PMID 35238405，Cochrane level）顯示目前無有效外用藥物獲得充分支持。文獻中涉及 Acyclovir 者均為通論引用或其他感染情境（HSV），無直接 EKC 臨床試驗。建議：若病因為 HSV 引起的角結膜炎，則應重新分類並以 'disease of orbital region' 適應症評估；單純 EKC（腺病毒）不建議追求。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "common wart"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "common wart"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "common wart"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "post-infectious neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "post-infectious neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "post-infectious neuralgia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "hepatitis C induced liver cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "hepatitis C induced liver cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "hepatitis C induced liver cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "eosinophilic pustular folliculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "eosinophilic pustular folliculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "eosinophilic pustular folliculitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "sequela of COVID-19"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "sequela of COVID-19"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "sequela of COVID-19"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "vulvovaginal candidiasis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "papular urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "papular urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "papular urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "epidemic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "epidemic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Acyclovir",
+        "disease": "epidemic keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    }
+  ]
+}

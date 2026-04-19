@@ -1,0 +1,232 @@
+```json
+{
+  "drug": "Atenolol",
+  "drugbank_id": "DB00335",
+  "analysis_date": "2026-04-05",
+  "drug_context_note": "Atenolol 為 β1 選擇性腎上腺素受體拮抗劑（cardioselective β-blocker），全球廣泛用於高血壓、心絞痛與心律不整，但本地資料庫顯示未上市（市場狀態）且無核准適應症記錄，評估以本資料集佐證為主，輔以已知藥理學類別效應。",
+  "indications": [
+    {
+      "disease_name": "posterolateral myocardial infarction",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Atenolol 透過 β1 阻斷降低心率與心肌耗氧量，抑制梗塞後交感神經過度活化並減少心室重塑，藥理學上支持所有 MI 亞型的應用；後外側 MI 為特定冠狀動脈病變模式（Cx/RCA 域），β 阻滯劑類別效應成立，但資料集中無針對此特定 MI 亞型的臨床試驗或文獻直接佐證，證據來自間接類別推斷。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "posteroinferior myocardial infarction",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "後下壁 MI 多由 RCA 閉塞引起，常合併心搏過緩與房室傳導阻滯；atenolol 的 β1 阻斷可減少心肌耗氧與梗塞擴展，但對已有傳導阻滯患者需謹慎。PMID 3901170 為 1985 年直接比較 atenolol 與 diltiazem 抗缺血活性的隨機交叉試驗，提供 atenolol 在心肌缺血情境的直接功效數據，惟非專門針對後下壁 MI 亞型。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "3901170",
+          "study_type": "RCT (Single-blind Crossover)",
+          "tier": "1",
+          "relevance": "直接比較 atenolol 與 diltiazem 抗缺血活性，為本適應症群組中最直接相關文獻；設計為隨機交叉，但發表於 1985 年，樣本量與方法學需現代標準校正評估"
+        }
+      ]
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性腎血管性高血壓由腎動脈狹窄引發腎素-血管緊張素系統（RAAS）過度活化所驅動；β 阻滯劑雖可降低腎素釋放，但對此機轉的控制效果遠劣於 ACEi/ARB 或血管重建術。唯一文獻（PMID 18454714）為個案報告，描述合併主動脈縮窄與腎動脈狹窄的青少年，atenolol 僅作輔助用藥，非主要研究對象。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18454714",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "1 型神經纖維瘤合併複合性高血壓個案，atenolol 為多藥聯用之一，無法提取獨立療效數據；研究目的非評估 atenolol 再利用"
+        }
+      ]
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性高血壓性腎臟病以急速進行性腎損傷、纖維素樣壞死與微血管病變為特徵；緊急降壓首選靜脈 labetalol、nitroprusside 或 nicardipine，口服 atenolol 起效過緩且無腎保護機制優勢。資料集中無任何臨床試驗或文獻支持，證據等級僅為 TxGNN 預測（0.9985）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Group 5 肺動脈高壓（多因性）病理機轉異質性高（血液病、全身性疾病等），目前無標準 β 阻滯劑治療方案；β 阻滯劑可能因降低心輸出量加重右心衰竭，安全性存疑。資料集無任何臨床試驗或文獻，僅依賴 TxGNN 預測分數（0.9984）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Group 3 肺動脈高壓（因慢性肺病或慢性缺氧）的首選治療為改善底層肺病與長期氧療；β 阻滯劑可加重支氣管痙攣（即使 β1 選擇性）及低氧血症，不建議使用。雖有 20 篇文獻，但逐篇審閱後發現全部關於低氧生物學一般機轉（腦老化、癌症、免疫調節），無任何文獻涉及 atenolol 治療此適應症，文獻關聯性判定為假陽性配對。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "低氧與腦老化通論—與 atenolol 及肺高壓無直接關聯，為關鍵字誤匹配"
+        },
+        {
+          "pmid": "39841808",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "低氧作為治療媒介之綜述—同上，非 atenolol 特異性，視為雜訊文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "septal myocardial infarction",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "間隔部 MI 常涉及 LAD 近端閉塞，心律不整（室性心動過速）風險高；β 阻滯劑可穩定心電、預防惡性心律不整。PMID 7257500（1981）研究冠心病患者服用 β 阻滯劑後鉈-201 壓力掃描表現，間接反映 atenolol 在冠心病功能評估中的角色，但非再利用直接佐證。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "7257500",
+          "study_type": "Clinical Diagnostic Study",
+          "tier": "2",
+          "relevance": "評估 β 阻滯劑影響下的心肌灌注影像結果，間接涉及 atenolol 在 CAD 管理中的用途；發表於 1981 年，方法學較舊，對間隔部 MI 特異性低"
+        }
+      ]
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock syndrome 為極罕見先天性發育障礙（OMIM #600828），特徵包括智能障礙、關節攣縮與顱面異常，致病機轉與腎上腺素受體信號無已知關聯。TxGNN 高分（0.9980）可能源於知識圖譜中非特異性結構路徑或稀疏節點偏差，不反映真實生物學關聯。資料集無任何臨床試驗或文獻，不建議進一步投入研究資源。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "慢性肺心病（cor pulmonale）以慢性缺氧引發肺血管阻力升高、右心肥厚與心衰竭為核心病理；atenolol 的高度 β1 選擇性（相較非選擇性 β 阻滯劑）可減少心肌耗氧，理論上減少對 β2 受體的支氣管痙攣作用。PMID 31524（1978）為直接研究 atenolol 在慢性肺病合併氣道阻塞患者的臨床試驗；NCT03278509 為大型 Phase 4 試驗，評估 MI 後 β 阻滯劑使用策略，間接涵蓋心肺共病族群。建議：需現代 RCT 驗證安全性，密切監測肺功能與右心功能。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03278509",
+          "relevance_grade": "B",
+          "reasoning": "REDUCE SWEDEHEART，Phase 4 RCT，招募 5000 人，ACTIVE_NOT_RECRUITING。研究 MI 後是否持續使用 β 阻滯劑對心血管預後的影響（在 SWEDHEART 登錄庫中）。主要終點為 MI 後心衰竭，非直接針對 cor pulmonale；然而大規模試驗中必然納入合併慢性肺病的心肺共病患者，其亞組分析結果高度相關。相關性評定為 B（間接，具潛在亞組資訊價值）"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31524",
+          "study_type": "Clinical Trial",
+          "tier": "2",
+          "relevance": "【最關鍵文獻】1978 年直接研究 atenolol 在慢性肺病合併氣道阻塞患者之療效，為唯一直接佐證；受限於年代久遠（樣本量小、監測工具有限），需以現代標準複驗"
+        },
+        {
+          "pmid": "11219471",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "26 週 telmisartan vs atenolol 合併 HCTZ 的隨機對照試驗，評估療效與耐受性；提供 atenolol 在合併症高血壓的現代 RCT 安全性數據，間接支持肺心病合併高血壓情境"
+        },
+        {
+          "pmid": "6673339",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance": "評估 verapamil（Falicard）與 acebutolol（Sectral，同為心臟選擇性 β 阻滯劑）在 COPD 合併冠心病患者之應用；acebutolol 與 atenolol 同屬 cardioselective β1-blocker，提供藥物類別在肺心病共病的安全性參考"
+        },
+        {
+          "pmid": "14520850",
+          "study_type": "Clinical Comparative Study",
+          "tier": "2",
+          "relevance": "比較多種 β 阻滯劑在孤立性收縮期高血壓（常見於老年 COPD 患者）的療效與安全性，間接支持 β1 選擇性阻滯劑在肺部共病高血壓的臨床可行性"
+        },
+        {
+          "pmid": "28982831",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "relevance": "ACOS（氣喘-COPD 重疊）與冠心病關聯研究，提供慢性肺心病共病流行病學背景，支持此適應症在真實世界的重要性"
+        },
+        {
+          "pmid": "38700308",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "β 阻滯劑作為高血壓一線治療回顧，強調現代指引中 β 阻滯劑的定位演變，為 atenolol 在合併高血壓肺心病管理提供指引脈絡"
+        },
+        {
+          "pmid": "15881093",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "長期 β 阻滯劑在缺血性心臟病合併肺疾患者的風險探討，直接相關於慢性肺心病的安全性評估，為 Guardrails 設計提供風險依據"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "β 阻滯劑（timolol 眼藥水）為青光眼降眼壓的標準局部治療，透過抑制睫狀體 β2 受體減少房水生成；然而 atenolol 為全身性口服/注射製劑，降眼壓效果有限且暴露全身性副作用（心搏過緩、低血壓）風險。原發性遺傳性青光眼（如 MYOC、OPTN 基因突變）以局部製劑或手術為優先治療，全身性 β 阻滯劑不具優勢。資料集無臨床試驗或文獻，類別效應不足以支撐 atenolol 全身用藥的再利用評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 5,
+      "L5": 4
+    },
+    "decision_distribution": {
+      "S0": 6,
+      "S1": 3,
+      "S2": 1,
+      "S3": 0
+    },
+    "priority_indication": "chronic pulmonary heart disease",
+    "key_concerns": [
+      "market_status 未上市可能影響本地臨床可行性評估",
+      "多數 MI 亞型（posterolateral/posteroinferior/septal）的高 TxGNN 分數反映合理藥理推斷，但缺乏亞型特異性臨床試驗",
+      "pulmonary hypertension 系列適應症（Group 3/5）存在潛在危害風險，不建議推進",
+      "literature_count 20 的肺高壓適應症為假陽性配對（hypoxia 關鍵字泛匹配），不代表真實佐證量",
+      "Braddock syndrome 高預測分數（0.998）可能為知識圖譜稀疏節點偏差，應排除"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 | 關鍵文獻 |
+|--------|-------------|---------|---------|------|---------|
+| **chronic pulmonary heart disease** | 0.9903 | **L3** | **S2** | ✅ Proceed w/ Guardrails | PMID 31524 + NCT03278509(B) |
+| posteroinferior MI | 0.9987 | L4 | S1 | 🔬 Research Question | PMID 3901170 (RCT) |
+| posterolateral MI | 0.9987 | L4 | S1 | 🔬 Research Question | 類別效應推斷 |
+| septal MI | 0.9984 | L4 | S1 | 🔬 Research Question | PMID 7257500 |
+| malignant renovascular HTN | 0.9985 | L4 | S0 | ⛔ Hold | PMID 18454714 (Case) |
+| primary hereditary glaucoma | 0.9884 | L4 | S0 | ⛔ Hold | 類別效應≠全身用藥 |
+| malignant HTN renal disease | 0.9985 | L5 | S0 | ⛔ Hold | 無數據 |
+| PH multifactorial | 0.9984 | L5 | S0 | ⛔ Hold | 潛在危害 |
+| **PH lung/hypoxia** | 0.9984 | **L5** | **S0** | ⛔ Hold | ⚠️ 20篇均為偽關聯 |
+| Braddock syndrome | 0.9980 | L5 | S0 | ⛔ Hold | ⚠️ KG偏差 |
+
+### 🔑 分析要點
+
+1. **最佳候選**：`chronic pulmonary heart disease` — 有直接 1978 年臨床試驗（PMID 31524）驗證 atenolol 在慢性肺阻塞患者的應用，加上 NCT03278509 大型 Phase 4 試驗提供間接支持，建議設計現代 RCT 時需納入嚴格肺功能監測作為安全護欄
+
+2. **假陽性警示**：`pulmonary hypertension owing to lung disease/hypoxia` 的 20 篇文獻全為低氧生物學通論，無一直接涉及 atenolol，屬關鍵字誤配對，不應納入證據計算
+
+3. **TxGNN 分數失準場景**：Braddock syndrome（0.998 但 L5）顯示知識圖譜在罕見病節點可能出現路徑偏差，高分不等於高證據等級

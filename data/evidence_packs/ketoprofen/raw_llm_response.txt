@@ -1,0 +1,207 @@
+## 藥物再利用證據分析：Ketoprofen (DB01009)
+
+**藥物背景說明**
+Ketoprofen 是廣泛使用的 NSAID（非類固醇抗炎藥），主要機轉為抑制 COX-1/COX-2，減少前列腺素合成，原本用於關節炎、疼痛及發炎。市場狀態標記「未上市」可能指特定地區市場。以下依據提供資料進行系統性評估：
+
+---
+
+```json
+{
+  "drug": "Ketoprofen",
+  "drugbank_id": "DB01009",
+  "analysis_date": "2026-04-04",
+  "drug_background": {
+    "known_moa": "COX-1/COX-2 抑制劑，阻斷花生四烯酸轉化為前列腺素",
+    "established_uses": ["類風濕性關節炎", "骨關節炎", "強直性脊椎炎", "急性痛症"],
+    "data_gap_note": "原始 MoA 標記為 [Data Gap]，但 Ketoprofen 為成熟 NSAID，機轉已有充分文獻支持"
+  },
+  "indications": [
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病為 CDMP1 基因突變導致的罕見骨骼發育不良症。COX 抑制機轉可能提供症狀性鎮痛，但無法影響根本基因缺陷。TxGNN 高分可能來自知識圖譜中骨骼/肌肉骨骼疾病的拓撲關聯，非真實生物機轉對應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["純基因性疾病，NSAID 無疾病修飾潛力", "TxGNN 高分疑似 KG 拓撲偽陽性", "罕見病（Orphanet 收錄），全球病例極少"]
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見遺傳症候群，同時影響脊椎（brachyolmia）與牙釉質（amelogenesis imperfecta）。COX 抑制與此複合遺傳缺陷無已知生物學關聯。無任何臨床或前驅證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["複合遺傳缺陷，無炎症機轉主導", "無文獻、無試驗", "病例數極少，研究難度極高"]
+    },
+    {
+      "disease_name": "myosclerosis",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌肉硬化症（myosclerosis）以肌肉纖維化及硬化為特徵。理論上 NSAID 的抗炎作用可能延緩纖維化進程（前列腺素參與纖維化路徑），但此假說完全未經驗證。無任何臨床證據支持 Ketoprofen 用於此症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["纖維化疾病對 NSAID 反應不明確", "高 TxGNN 分但零臨床支持", "需先確認炎症是否為主要病因"]
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊椎短縮症（brachyolmia）為遺傳性骨骼發育不良，主要由 TRPV4 或 SLC26A2 基因突變引起。屬結構性骨骼問題，非炎症性疾病，COX 抑制無法修正骨骼發育缺陷。NSAID 或可輔助疼痛管理，但非再利用候選。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["結構性（非炎症性）骨骼疾病", "鑑別需與炎症性脊椎病區分", "症狀性使用已涵蓋在現有 NSAID 適應症中，非再利用新適應症"]
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見複合發育異常症候群，涉及眼部缺損（coloboma/microphthalmia）及肢體骨骼發育不良。此類多系統先天性發育缺陷無已知炎症主要病因，COX 抑制無生物學合理性。零臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["多系統先天發育缺陷，非再利用合適目標", "KG 拓撲偽陽性可能性極高", "建議排除於優先研究清單"]
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短指-並指症候群為先天性肢體形態發育缺陷，由多種基因突變（ROR2、BMPR1B 等）引起。屬發育性解剖缺陷，不涉及炎症路徑。Ketoprofen 的 COX 抑制機轉對此類結構缺陷無作用機制。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["先天形態缺陷，非適合再利用標的", "TxGNN 評分可能反映 KG 中肢體/骨骼疾病群聚效應"]
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假性軟骨發育不全症由 COMP 基因突變引起，導致軟骨基質蛋白異常堆積並引發軟骨細胞凋亡。值得注意的是 ER 壓力與輕微局部炎症參與病理，理論上有極弱的 COX 抑制關聯性，但無任何臨床前或臨床證據支持 Ketoprofen 用於此症。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["COMP 蛋白摺疊缺陷為主要機轉，非炎症", "ER 壓力假說需前驅驗證", "若追求，需先進行細胞模型研究"]
+    },
+    {
+      "disease_name": "spondyloarthropathy, susceptibility to",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "脊椎關節炎（SpA）以炎症性脊椎及關節炎症為核心病理，前列腺素 E2 在炎症及骨侵蝕中扮演關鍵角色。Ketoprofen 作為 NSAID 透過 COX-1/2 抑制可降低 PGE2，與 SpA 病理機轉具直接生物學關聯。EULAR/ACR 指南均建議 NSAID 為 SpA 一線治療，但現有文獻（PMID:20470931）為反應性關節炎（SpA 亞型）的一般性回顧，未直接評估 Ketoprofen 的療效。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20470931",
+          "title": "[Reactive arthritis (Fiessinger-Leroy-Reiter syndrome)]",
+          "year": "2010",
+          "study_type": "Review/Case Series（法文文獻，疑似綜述）",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "反應性關節炎（Fiessinger-Leroy-Reiter 症候群）屬脊椎關節炎亞型，與適應症高度相關。NSAID（含 Ketoprofen）為標準治療選項。然此文獻為 2010 年綜述，未提供 Ketoprofen 特定療效數據，屬間接支持證據。需查閱全文確認是否明確提及 Ketoprofen。"
+        }
+      ],
+      "flags": [
+        "NSAID 類別整體具強烈機轉支持（Class effect）",
+        "反應性關節炎文獻提供間接間接臨床支持",
+        "建議釐清：是否已有其他 NSAID（如 Indomethacin、Naproxen）的 RCT 可作為類別橋接證據",
+        "需要系統性文獻回顧確認 Ketoprofen 特定療效",
+        "「susceptibility to」表型表示遺傳易感性研究，臨床應用需區分具症狀患者群"
+      ]
+    },
+    {
+      "disease_name": "WHIM syndrome",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "WHIM 症候群（Warts, Hypogammaglobulinemia, Infections, Myelokathexis）由 CXCR4 功能獲得性突變引起，導致嗜中性球滯留骨髓。此為免疫細胞遷移缺陷疾病，主要治療方向為 CXCR4 拮抗劑（如 Plerixafor）。COX 抑制與 CXCR4 信號軸無已知交叉機轉，再利用合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["CXCR4 路徑驅動，非前列腺素炎症路徑", "Plerixafor 已有特異性治療", "COX 抑制用於免疫缺陷管理無文獻支持"]
+    },
+    {
+      "disease_name": "juvenile arthritis due to defect in LACC1",
+      "txgnn_score": 0.9974,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "LACC1 缺陷型幼年型關節炎為 LACC1 基因突變引起的自體炎症性關節炎，LACC1 蛋白參與活性氧（ROS）產生及細菌殺滅。炎症性關節病變為核心病理，NSAID 具類別層面的症狀控制合理性。然此特定遺傳亞型的最佳治療策略（包括 NSAID 效果）尚未確立，需與幼年特發性關節炎（JIA）一般治療指引區分評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "LACC1 突變型屬極罕見基因亞型，須與一般 JIA 區分",
+        "NSAID 類別在幼年型關節炎有臨床前例（間接L4證據）",
+        "需調查 LACC1 亞型患者對 NSAID 的實際反應文獻",
+        "兒科 NSAID 用藥需特別安全考量"
+      ]
+    }
+  ],
+  "overall_summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S0": 9,
+      "S1": 1,
+      "S2": 0,
+      "S3": 0
+    },
+    "recommendation_distribution": {
+      "Hold": 8,
+      "Research Question": 2,
+      "Proceed with Guardrails": 0
+    },
+    "priority_indication": "spondyloarthropathy, susceptibility to",
+    "key_findings": [
+      "8/10 適應症為純遺傳/結構性發育缺陷，COX 抑制機轉缺乏生物學合理性，TxGNN 高分疑為 KG 骨骼疾病群聚拓撲偽陽性",
+      "spondyloarthropathy 為唯一具機轉支持（NSAID 類別效應）及文獻佐證的候選適應症，但需系統性回顧確認 Ketoprofen 特異性",
+      "juvenile arthritis due to LACC1 具炎症機轉關聯但為超罕見基因亞型，建議待一般 JIA NSAID 類別證據橋接",
+      "整體 TxGNN 分數偏高（>0.997）但全面缺乏臨床試驗，顯示此預測批次可能存在系統性校準問題"
+    ],
+    "recommended_next_steps": [
+      "【優先】對 spondyloarthropathy 執行 Ketoprofen vs. 其他 NSAID 的系統性文獻回顧，確認是否具備特定療效優勢",
+      "【次要】評估 LACC1 型幼年關節炎的 NSAID 類別橋接可行性，聯繫相關孤兒病研究中心",
+      "【排除】建議將 8 個純遺傳/發育缺陷適應症移出再利用候選清單，避免資源分散",
+      "【系統】審視 TxGNN 模型對骨骼發育疾病的預測校準，此批高分低證據現象可能影響其他藥物分析"
+    ]
+  }
+}
+```
+
+---
+
+## 視覺化摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| spondyloarthropathy | 0.9986 | **L4** | **S1** | **Research Question** ⭐ |
+| juvenile arthritis (LACC1) | 0.9974 | **L4** | S0 | **Research Question** |
+| acromesomelic dysplasia | 0.9998 | L5 | S0 | Hold |
+| brachyolmia-amelogenesis | 0.9998 | L5 | S0 | Hold |
+| myosclerosis | 0.9998 | L5 | S0 | Hold |
+| brachyolmia | 0.9998 | L5 | S0 | Hold |
+| colobomatous microphthalmia | 0.9998 | L5 | S0 | Hold |
+| brachydactyly-syndactyly | 0.9997 | L5 | S0 | Hold |
+| pseudoachondroplasia | 0.9995 | L5 | S0 | Hold |
+| WHIM syndrome | 0.9986 | L5 | S0 | Hold |
+
+## 關鍵觀察
+
+> ⚠️ **TxGNN 校準警示**：本批次 10 個適應症中有 8 個 TxGNN 分數 > 0.999，但臨床試驗數為 0、文獻數為 0。此高分—零臨床證據現象強烈建議檢視模型在**罕見骨骼發育疾病**領域的校準品質，可能存在知識圖譜中 Ketoprofen↔骨骼肌肉疾病節點的拓撲過度關聯（topological inflation）問題。

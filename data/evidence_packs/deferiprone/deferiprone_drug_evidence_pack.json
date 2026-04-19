@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB08826-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Deferiprone",
+    "drugbank_id": "DB08826",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "hepatic porphyria",
+      "txgnn": {
+        "score": 0.992027223110199,
+        "rank": 9021
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32678895",
+            "title": "Iron chelation rescues hemolytic anemia and skin photosensitivity in congenital erythropoietic porphyria.",
+            "authors": [
+              "Blouin Jean-Marc",
+              "Ged Cécile",
+              "Lalanne Magalie",
+              "Lamrissi-Garcia Isabelle",
+              "Morice-Picard Fanny"
+            ],
+            "journal": "Blood",
+            "year": "2020",
+            "abstract": "Congenital erythropoietic porphyria (CEP) is an inborn error of heme synthesis resulting from uroporphyrinogen III synthase (UROS) deficiency and the accumulation of nonphysiological porphyrin isomer I metabolites. Clinical features are heterogeneous among patients with CEP but usually combine skin photosensitivity and chronic hemolytic anemia, the severity of which is related to porphyrin overload. Therapeutic options include symptomatic strategies only and are unsatisfactory. One promising app",
+            "classification": {
+              "study_type": "臨床前/案例系列（先天性紅血球生成性紫質症 CEP）",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17854053",
+            "title": "Effect of an oral iron chelator or iron-deficient diets on uroporphyria in a murine model of porphyria cutanea tarda.",
+            "authors": [
+              "Gorman Nadia",
+              "Zaharia Adrian",
+              "Trask Heidi S",
+              "Szakacs Juliana G",
+              "Jacobs Nicholas J"
+            ],
+            "journal": "Hepatology (Baltimore, Md.)",
+            "year": "2007",
+            "abstract": "Porphyria cutanea tarda is a liver disease characterized by elevated hepatic iron and excessive production of uroporphyrin (URO). Phlebotomy is an effective treatment that probably acts by reducing hepatic iron. Here we used Hfe(-/-) mice to compare the effects on hepatic URO accumulation of two different methods of hepatic iron depletion: iron chelation using deferiprone (L1) versus iron-deficient diets. Hfe(-/-) mice in a 129S6/SvEvTac background were fed 5-aminolevulinic acid (ALA), which res",
+            "classification": {
+              "study_type": "動物實驗（鼠類 uroporphyria 模型）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鐵過載為肝性紫質症（尤其 Porphyria Cutanea Tarda）的關鍵致病因素：過量鐵離子抑制尿卟啉原脫羧酶（UROD）、促進活性氧生成並加速肝內卟啉堆積。Deferiprone 作為口服鐵螯合劑，可降低肝臟鐵存量，理論上能改善 UROD 功能並減少光敏性卟啉累積。機轉合理性中等，但現有文獻為動物模型或相關亞型（CEP），非直接肝性紫質症 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hepatopulmonary syndrome",
+      "txgnn": {
+        "score": 0.9919567108154296,
+        "rank": 9068
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "機轉連結極為薄弱。肝肺症候群主要病理為肝病導致肺內血管擴張（intrapulmonary vascular dilations），涉及 NO 過量產生與血管新生異常。鐵代謝與肺血管擴張之間雖有研究提示 HIF-1α 路徑可能連結，但缺乏直接實驗依據。TxGNN 分數高度疑似源於知識圖譜中肝病節點的共同鄰近性，而非特異性機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "early-onset familial noncirrhotic portal hypertension",
+      "txgnn": {
+        "score": 0.9919567108154296,
+        "rank": 9069
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非肝硬化性門脈高壓（NCPH）病理機轉主要為門脈微血管及竇周纖維化，鐵代謝並非主要致病路徑。TxGNN 評分高度疑似源於知識圖譜中「早發型家族性」節點群集效應（與其他門脈相關疾病共享 0.9920 分數），而非實質機轉連結。缺乏任何文獻或試驗支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "primitive portal vein thrombosis",
+      "txgnn": {
+        "score": 0.9919567108154296,
+        "rank": 9070
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "門靜脈血栓形成主要涉及凝血、血流動力學異常及血管壁損傷。鐵代謝與血栓形成之間存在間接連結（過量鐵可促進氧化應激，影響血管內皮功能），但此機轉極為間接且無針對 Deferiprone 的相關研究。注意四個門脈相關疾病共享完全相同的 TxGNN 分數（0.9919567108154296），強烈提示為 KG 中同一節點群集推論結果，可信度需謹慎評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "hepatoportal sclerosis",
+      "txgnn": {
+        "score": 0.9919567108154296,
+        "rank": 9071
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝門脈硬化症（Hepatoportal Sclerosis）特徵為肝竇周纖維化及非硬化性門脈高壓。鐵介導之氧化應激理論上可加速肝纖維化，但 Deferiprone 用於此特定疾病的實驗依據完全缺乏。同上，此分數與其他三個門脈疾病完全相同，為 KG 群集效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "idiopathic copper-associated cirrhosis",
+      "txgnn": {
+        "score": 0.9919567108154296,
+        "rank": 9072
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "銅相關肝硬化主要機轉為銅積累（類 Wilson's disease 表現），標準治療為銅螯合劑（青黴胺、曲恩汀）或鋅補充。Deferiprone 主要螯合鐵離子（Fe³⁺），雖化學上對銅有弱螯合活性，但臨床效果遠遜於專一性銅螯合劑。機轉不匹配為本適應症最大問題，TxGNN 推論可能基於「重金屬-肝病」的一般性節點鄰近性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "pyruvate kinase deficiency of red cells",
+      "txgnn": {
+        "score": 0.9914754629135132,
+        "rank": 9423
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "丙酮酸激酶缺乏症（PKD）導致慢性溶血性貧血，長期溶血及多次輸血引起繼發性鐵過載（secondary hemosiderosis）。Deferiprone 作為鐵螯合劑，對 PKD 繼發性鐵過載的治療機轉與地中海貧血相同，具備合理的臨床邏輯。近年已有 Mitapivat（PKD 酶活化劑）獲批，但鐵過載仍為重要共病管理問題。雖無直接文獻，機轉連結比純門脈類疾病更為實質。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn": {
+        "score": 0.9903258681297302,
+        "rank": 10306
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "18456387",
+            "title": "Alternative treatment paradigm for thalassemia using iron chelators.",
+            "authors": [
+              "Szuber Natasha",
+              "Buss Joan L",
+              "Soe-Lin Shan",
+              "Felfly Hady",
+              "Trudel Marie"
+            ],
+            "journal": "Experimental hematology",
+            "year": "2008",
+            "abstract": "beta-thalassemia major, or Cooley's anemia, is a red blood cell disorder requiring lifelong blood transfusions for survival. Erythrocytes accumulate toxic iron at their membranes, triggering an oxidative cascade that leads to their premature destruction in high numbers. We hypothesized that removing this proximate iron compartment as a primary treatment, using standard and alternative orally active iron chelators, could prevent hastened red cell removal and, clinically, perhaps alleviate the nee",
+            "classification": {
+              "study_type": "Review / 替代治療範式論文",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20195035",
+            "title": "Multiple transfused thalassemia major: ocular manifestations in a hospital-based population.",
+            "authors": [
+              "Taneja Rashi",
+              "Malik Pankaj",
+              "Sharma Mamta",
+              "Agarwal Mahesh C"
+            ],
+            "journal": "Indian journal of ophthalmology",
+            "year": "2010",
+            "abstract": "To study the ocular manifestations in multiple transfused beta-thalassemia major patients and assess the ocular side-effects of iron chelating agents.",
+            "classification": {
+              "study_type": "橫斷面觀察性研究（眼科表現）",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Beta-地中海貧血因無效紅血球生成及多次輸血造成系統性鐵過載，長期鐵堆積於心臟、肝臟及內分泌腺體。Deferiprone 為 WHO 必要藥物清單鐵螯合劑，已在地中海貧血大量 Phase 3 RCT 中驗證（如 LA08 研究）。「with other manifestations」亞型可能包含非典型表現或複雜共病，但核心機轉—鐵螯合—完全適用。注意：本分析結果 original_indications 為空屬資料缺漏，Deferiprone 實際上對地中海貧血鐵過載有 L1 級別全球證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "pyropoikilocytosis, hereditary",
+      "txgnn": {
+        "score": 0.990180492401123,
+        "rank": 10415
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "遺傳性熱形變紅血球症（HPP）為嚴重溶血性貧血，屬 Spectrin 骨架蛋白缺陷。慢性溶血可導致繼發性鐵過載，尤其在輸血依賴患者中。機轉推理與 PKD 相似——Deferiprone 針對繼發性鐵過載而非原發病理。然而 HPP 極為罕見（罕見病中的罕見病），實際臨床應用空間極小，且缺乏任何直接文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "partial deletion of the short arm of chromosome 16",
+      "txgnn": {
+        "score": 0.9891571998596193,
+        "rank": 11141
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "16p 短臂部分缺失可能涉及 HBA1/HBA2 基因（Alpha-地中海貧血相關），或其他多種發育基因。若確為 Alpha-地中海貧血相關缺失（如 16p13.3），則鐵過載機轉類似 Beta-地中海貧血，Deferiprone 有合理應用空間。然而染色體層次的描述過於廣泛，所涵蓋的表現型異質性大（包含非血液學表現），無法基於當前資料做出確定性判斷。缺乏任何直接文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatic porphyria"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatopulmonary syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "early-onset familial noncirrhotic portal hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "primitive portal vein thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatoportal sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatoportal sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "hepatoportal sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "idiopathic copper-associated cirrhosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyruvate kinase deficiency of red cells"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "beta-thalassemia with other manifestations"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "pyropoikilocytosis, hereditary"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Deferiprone",
+        "disease": "partial deletion of the short arm of chromosome 16"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

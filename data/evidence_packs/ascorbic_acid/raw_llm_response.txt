@@ -1,0 +1,409 @@
+```json
+{
+  "meta": {
+    "drug": "Ascorbic acid",
+    "drugbank_id": "DB00126",
+    "analysis_date": "2026-04-05",
+    "analyst_notes": "原始適應症欄位為空、MoA 標記為 [Data Gap]，與 Ascorbic acid (維生素 C) 的全球已知藥理不符，可能為 Singapore 藥監資料庫登錄缺口。市場狀態「未上市」係指新加坡本地特定品項，非全球缺失。以下分析納入全球臨床與文獻證據。"
+  },
+  "indications": [
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非症候群性食道畸形為先天性結構缺陷（如食道閉鎖），其病因以胚胎發育異常為主。Ascorbic acid 雖為膠原蛋白合成必要輔因子（prolyl/lysyl hydroxylase 輔助因子），理論上可能影響胎兒結締組織發育，但目前無任何臨床或動物模型直接連結此藥與食道先天畸形。機轉關聯極度間接，僅為 TxGNN 知識圖譜推算結果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床試驗或文獻支持。TxGNN 分數 0.9996 反映圖譜拓撲相似性，非因果關係。建議暫緩，不宜作為研究優先項目。"
+    },
+    {
+      "disease_name": "esophageal disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ascorbic acid 透過三項機轉與食道疾病相關：(1) 抑制亞硝胺合成（N-亞硝化抑制），降低食道癌前病變風險；(2) 抗氧化保護食道黏膜免受胃酸逆流引發的 ROS 損傷；(3) 調節食道上皮細胞競爭（in vitro 2011 年研究，PMID 22026449）。注意：兩篇動物研究（PMID 17953708, 18434339）顯示在特定酸性環境合併亞硝酸鈉時，Ascorbic acid 可能反而促進食道癌變，提示雙向性需評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00342654",
+          "relevance_grade": "A",
+          "reasoning": "Linxian 中國大型隨機對照試驗（n=32,902），COMPLETED。測試多種微量營養素組合含 Ascorbic acid/鉬，對食道癌及胃癌發生率與死亡率的影響。雖非單一 Ascorbic acid 試驗，但規模龐大且直接針對食道疾病，為現有最強等級臨床證據。"
+        },
+        {
+          "nct_id": "NCT02695186",
+          "relevance_grade": "B",
+          "reasoning": "腸上皮化生合併代謝症候群患者的氧化壓力與炎症標誌物研究（n=180）。Ascorbic acid 作為抗氧化劑在食道化生預防中具間接相關性，但狀態 UNKNOWN，研究設計無法確認主要介入。"
+        },
+        {
+          "nct_id": "NCT07212998",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 燒傷血漿復甦試驗（PREEVEnT），尚未招募。雖可能涉及 Ascorbic acid，但主要介入為血漿輸注，與食道疾病治療無直接關聯。"
+        },
+        {
+          "nct_id": "NCT03610256",
+          "relevance_grade": "C",
+          "reasoning": "比較兩種減重手術（SADI-S vs RYGB）的多中心 RCT，Ascorbic acid 並非主要介入，食道疾病亦非主要終點。關聯性極低。"
+        },
+        {
+          "nct_id": "NCT02881372",
+          "relevance_grade": "C",
+          "reasoning": "嗜酸性食道炎口服脫敏試驗，已撤回且招募人數為 0，無任何資料可參考。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "8598417", "study_type": "Review", "tier": "2", "note": "全面回顧 Ascorbic acid 在胃腸道腫瘤中的角色，支持亞硝胺抑制機轉"},
+        {"pmid": "22026449", "study_type": "In vitro", "tier": "3", "note": "食道細胞共培養模型中 Ascorbic acid 調節細胞競爭，提供機轉假說"},
+        {"pmid": "879893", "study_type": "Observational", "tier": "3", "note": "胃食道逆流與 Ascorbic acid 缺乏之關聯，1977 年早期觀察性研究"},
+        {"pmid": "17953708", "study_type": "Animal", "tier": "3", "note": "⚠️ 負向發現：大鼠酸逆流模型中 Ascorbic acid + 亞硝酸鈉促進食道癌變"},
+        {"pmid": "18434339", "study_type": "In vitro", "tier": "3", "note": "⚠️ 負向發現：Ascorbic acid 與亞硝酸鈉合用誘導 DNA 氧化損傷與致突變性"},
+        {"pmid": "23892041", "study_type": "In vitro", "tier": "3", "note": "增強 EGCG 和 TF-3 誘導食道癌細胞凋亡，協同抗癌作用"},
+        {"pmid": "8304939", "study_type": "Review", "tier": "2", "note": "亞硝化抑制機轉回顧，支持 Ascorbic acid 化學預防基礎"},
+        {"pmid": "2609524", "study_type": "Animal", "tier": "3", "note": "Tocopherol 和 Ascorbic acid 對實驗性食道腫瘤之影響，1989 年動物實驗"},
+        {"pmid": "20227023", "study_type": "Review", "tier": "2", "note": "藥物對食道不良影響回顧，提示大劑量固態 Ascorbic acid 可能造成食道刺激"},
+        {"pmid": "3606243", "study_type": "Review/Case series", "tier": "3", "note": "藥物誘發食道狹窄，提示安全性考量"}
+      ],
+      "risk_flags": ["部分動物研究顯示 Ascorbic acid 在特定環境可能促進食道癌變（酸性環境 + 亞硝酸鹽）", "Linxian 試驗為多成分組合，難以獨立 Ascorbic acid 效益"],
+      "summary": "有一項大型完成試驗（Linxian）提供間接支持，加上多項體外/動物機轉研究。然而存在雙向性安全疑慮。建議提出研究問題，需設計單一 Ascorbic acid 介入的食道疾病試驗，並排除高亞硝酸鹽環境之交互作用。"
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性凝血酶原缺乏症（Factor II 缺乏）為罕見凝血因子遺傳缺陷，標準治療為補充新鮮冷凍血漿或凝血酶原複合物。Ascorbic acid 對 Vitamin K 依賴性凝血因子（II、VII、IX、X）之合成無已知直接作用。TxGNN 推算可能源自知識圖譜中 Ascorbic acid 與「血液系統」或「蛋白質合成」的節點連結，無生物學合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床或前臨床證據。機轉關聯缺乏生物合理性。建議暫緩。"
+    },
+    {
+      "disease_name": "injury",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ascorbic acid 在創傷/損傷中具多重作用機轉：(1) 膠原蛋白合成輔因子，加速傷口癒合（prolyl-4-hydroxylase, lysyl hydroxylase）；(2) 抗氧化：清除創傷後大量 ROS，降低氧化損傷；(3) 減少毛細管滲漏：燒傷患者靜脈高劑量 Ascorbic acid 顯著降低液體需求量（「Matsuda protocol」）；(4) 免疫調節：維持中性球吞噬功能；(5) 神經保護：透過表觀遺傳調控促進脊髓損傷後功能恢復（TET dioxygenase 輔因子）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03166956",
+          "relevance_grade": "A",
+          "reasoning": "腸道補充 Glutamine + Vitamin C 對燒傷患者 IL-6 及臨床預後影響（n=41），COMPLETED。直接測試 Ascorbic acid 在損傷急性期的效益，提供明確藥效資料。"
+        },
+        {
+          "nct_id": "NCT02873026",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，COMPLETED，n=300，眼內及眼周輔助治療隨機對照試驗（Ascorbic acid 為常用眼藥組分）。為本組中最高層級試驗設計，雖限於眼部損傷亞型。"
+        },
+        {
+          "nct_id": "NCT00879723",
+          "relevance_grade": "A",
+          "reasoning": "燒傷微量營養素補充先導研究（n=28），COMPLETED。詳細記錄維生素 C 在燒傷患者中的動態變化與補充方案，為後續試驗設計重要參考。"
+        },
+        {
+          "nct_id": "NCT04416386",
+          "relevance_grade": "A",
+          "reasoning": "正顎手術術後維生素 C 濃度與鎮痛效果相關性研究（n=30），COMPLETED。直接探索 Ascorbic acid 濃度與術後損傷恢復之關聯。"
+        },
+        {
+          "nct_id": "NCT02762331",
+          "relevance_grade": "B",
+          "reasoning": "高劑量 Ascorbic acid 降低心臟手術炎症 Phase 1 試驗，TERMINATED（n=6，提前終止）。設計直接相關但因入組問題終止，資料不完整。"
+        },
+        {
+          "nct_id": "NCT00869427",
+          "relevance_grade": "B",
+          "reasoning": "脊髓損傷患者維生素 C 預防尿路感染 Phase 4，TERMINATED（n=40）。雖終止，但直接測試 Ascorbic acid 在特定損傷類型中的應用。"
+        },
+        {
+          "nct_id": "NCT00808470",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 微量營養素（含 Ascorbic acid）預防噪音性聽力損失（n=72），COMPLETED。機轉為抗氧化保護耳蝸，與損傷預防相關。"
+        },
+        {
+          "nct_id": "NCT03218280",
+          "relevance_grade": "B",
+          "reasoning": "多重創傷危重患者氧化壓力與代謝失衡研究（n=100），狀態 UNKNOWN。評估 Ascorbic acid 相關抗氧化指標，具觀察性關聯性。"
+        },
+        {
+          "nct_id": "NCT05976035",
+          "relevance_grade": "C",
+          "reasoning": "旋轉肌袖相關肩痛補充劑試驗，尚未招募。Ascorbic acid 為多種補充劑之一，非主要介入，損傷類型特定且設計待確認。"
+        },
+        {
+          "nct_id": "NCT03431181",
+          "relevance_grade": "C",
+          "reasoning": "老年患者血管加壓素調節試驗（n=159），Ascorbic acid 非主要研究藥物，損傷關聯性極間接。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "27852613", "study_type": "RCT", "tier": "1", "note": "間歇運動前補充 Vitamin C 強化明膠促進膠原蛋白合成，直接支持組織修復機轉"},
+        {"pmid": "33675075", "study_type": "Review", "tier": "2", "note": "急性照護環境中 Ascorbic acid 應用全面回顧（2021），涵蓋燒傷、敗血症、術後"},
+        {"pmid": "31440996", "study_type": "Review", "tier": "2", "note": "高劑量靜脈 Ascorbic acid 於創傷性腦損傷之應用回顧，討論臨床準備度"},
+        {"pmid": "31631076", "study_type": "Retrospective cohort", "tier": "2", "note": "皮質類固醇 + Ascorbic acid + 硫胺素組合改善胸腔鏡術後氧合，臨床觀察"},
+        {"pmid": "32466098", "study_type": "Animal/Epigenetic study", "tier": "3", "note": "Ascorbic acid 透過表觀遺傳調控促進脊髓損傷後功能恢復（小鼠模型）"},
+        {"pmid": "37199082", "study_type": "Animal", "tier": "3", "note": "褪黑素 + Ascorbic acid 組合保護敗血症誘發肺損傷（動物實驗 2023）"},
+        {"pmid": "25977448", "study_type": "Pilot clinical/In vitro", "tier": "3", "note": "Ascorbic acid 消除高壓力微粒生成與血管損傷，具機轉意義"},
+        {"pmid": "30777116", "study_type": "Animal", "tier": "3", "note": "Ascorbic acid + T3 促進創傷癒合效果優於骨髓間質幹細胞（動物模型）"},
+        {"pmid": "23994218", "study_type": "Animal", "tier": "3", "note": "Ascorbic acid 抑制自噬改善大鼠癲癇發作及腦損傷"},
+        {"pmid": "39769123", "study_type": "In vitro", "tier": "3", "note": "⚠️ 高劑量 Vitamin C 對肌腱細胞退化之體外研究，2024 年，提示劑量安全性考量"}
+      ],
+      "risk_flags": ["高劑量靜脈 Ascorbic acid（>10g/day）需監測草酸腎病風險", "G6PD 缺乏症患者禁忌", "腎功能不全者需調整劑量"],
+      "summary": "有 1 項 Phase 3 完成試驗（眼部損傷亞型）及多項 Phase 1-2 試驗支持，加上系統性機轉證據（燒傷補液、膠原修復）。整體證據支持 L2 等級。建議針對特定損傷亞型（燒傷、脊髓損傷、術後）設計目的明確的 Phase 2 試驗，並明確劑量方案。"
+    },
+    {
+      "disease_name": "biotin metabolic disease",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "1953 年（PMID 13107152）大鼠實驗顯示 Ascorbic acid 可部分保護生物素缺乏大鼠，1962 年（PMID 14024684）顯示生物素缺乏影響 Ascorbic acid 合成（大鼠可自行合成維生素 C）。此機轉在人類不適用（人類無法自行合成 Ascorbic acid，且依賴外源性生物素）。現有臨床試驗均為一般微量營養素補充研究，非專門測試 Ascorbic acid 用於生物素代謝疾病。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01173315",
+          "relevance_grade": "B",
+          "reasoning": "維生素礦物質補充對糖尿病神經病變與腎病變之 Phase 2 試驗（n=75），COMPLETED。包含 Ascorbic acid 作為微量營養素組合之一，與代謝疾病有間接關聯。"
+        },
+        {
+          "nct_id": "NCT00572741",
+          "relevance_grade": "B",
+          "reasoning": "自閉症氧化壓力治療試驗（n=39），COMPLETED。Ascorbic acid 為抗氧化治療組分，與代謝疾病關聯間接。"
+        },
+        {
+          "nct_id": "NCT04586348",
+          "relevance_grade": "C",
+          "reasoning": "碘補充與兒童神經發育試驗，與生物素代謝疾病及 Ascorbic acid 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT01643187",
+          "relevance_grade": "C",
+          "reasoning": "營養不良兒童治療比較，多微量營養素研究，非針對生物素代謝疾病。"
+        },
+        {
+          "nct_id": "NCT02302729",
+          "relevance_grade": "C",
+          "reasoning": "一般兒科微量營養素研究，資料描述不足，關聯性不明。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "13107152", "study_type": "Animal", "tier": "3", "note": "1953 年大鼠實驗：Ascorbic acid 保護生物素缺乏效應。注意：大鼠可自行合成 Ascorbic acid，機轉不適用於人類"},
+        {"pmid": "14024684", "study_type": "Animal", "tier": "3", "note": "1962 年：生物素缺乏影響 Ascorbic acid 合成（動物數據，人類不相關）"},
+        {"pmid": "7015958", "study_type": "Review", "tier": "2", "note": "B 族維生素交互作用回顧，Ascorbic acid 與生物素共吸收機轉"},
+        {"pmid": "4279121", "study_type": "Review", "tier": "2", "note": "水溶性維生素吸收機轉，1974 年，提供基礎藥理背景"},
+        {"pmid": "6396715", "study_type": "Review", "tier": "2", "note": "營養缺乏與細胞免疫回顧，多種維生素包含 Ascorbic acid"},
+        {"pmid": "1550720", "study_type": "Review", "tier": "2", "note": "營養疾患皮膚表現，生物素缺乏皮膚症狀描述"},
+        {"pmid": "2967591", "study_type": "Review", "tier": "2", "note": "銀屑病和脂溢性皮膚炎中的營養調節因子"},
+        {"pmid": "371386", "study_type": "Review", "tier": "2", "note": "B 族維生素與維生素 C 在人類營養中的角色（1979 年綜述）"},
+        {"pmid": "37511185", "study_type": "Formulation study", "tier": "3", "note": "含 Ascorbic acid 膠囊製劑的藥技/物化/抗氧化評估，無臨床終點"},
+        {"pmid": "1368195", "study_type": "Review", "tier": "3", "note": "生物技術生產維生素與輔酶之回顧，與臨床無直接關聯"}
+      ],
+      "risk_flags": ["動物機轉研究不可轉譯至人類（大鼠可自行合成 Ascorbic acid，人類不能）", "缺乏任何人體直接試驗"],
+      "summary": "證據僅來自 1950-1960 年代的動物實驗，且機轉不可轉譯至人類。現有臨床試驗均非針對此適應症設計。在獲得人類直接實驗資料之前，建議暫緩此適應症之再利用開發。"
+    },
+    {
+      "disease_name": "segmental odontomaxillary dysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "節段性牙齒上頜骨發育不良（SOD）為罕見先天性半臉發育異常，成因涉及 FGFR2 等基因突變及胚胎神經嵴細胞遷移異常。Ascorbic acid 雖涉及膠原蛋白合成（對骨質發育有重要性），但無任何研究將其連結至 SOD 病理機轉。TxGNN 評分 0.9947 可能源自「骨骼/結締組織發育」知識圖譜節點的拓撲鄰近，不代表生物合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床試驗或文獻支持。極罕見疾病（估計盛行率 < 1/100,000），缺乏生物合理性。建議暫緩。"
+    },
+    {
+      "disease_name": "perinatal disease",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ascorbic acid 在周產期具多重重要作用：(1) 胎兒神經系統發育：SLC23A1 轉運蛋白對於維生素 C 進入胎兒腦部不可或缺（PMID 11984597），缺乏可導致神經發育遲緩；(2) 表觀遺傳調控：TET 去甲基酶輔因子，影響胎兒表觀基因組程式設定（PMID 35163133）；(3) 鐵吸收促進：提高非血紅素鐵吸收率，預防孕期/圍產期缺鐵性貧血；(4) 膠原合成：支持胎盤結締組織完整性；(5) 免疫功能：降低圍產期感染風險。注意：Phase 3 RCT 及 Cochrane 統合分析（PMID 21529757）已證實 Vitamins C+E 合併補充無法預防子癲前症，此為重要負向 Level 1 證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00860470",
+          "relevance_grade": "A",
+          "reasoning": "孟加拉國孕期多微量營養素補充 Phase 3 RCT（n=44,567），COMPLETED。迄今規模最大的圍產期微量營養素試驗，Ascorbic acid 為核心成分，評估嬰兒存活率及健康結果。"
+        },
+        {
+          "nct_id": "NCT00642408",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，布吉納法索 IUGR 預防試驗（n=1,370），COMPLETED。測試微量營養素補充（含 Ascorbic acid）對宮內生長遲緩預防效果，提供 Phase 4 完成資料。"
+        },
+        {
+          "nct_id": "NCT03451266",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1，Ascorbic acid 靜脈輸注對重度子癲前症患者肺外血管水分之影響（n=34），COMPLETED。直接測試 Ascorbic acid 於特定圍產期病理狀況，雖規模小但直接相關。"
+        },
+        {
+          "nct_id": "NCT05423249",
+          "relevance_grade": "A",
+          "reasoning": "孕期非貧血性缺鐵治療雙盲 RCT（n=150），COMPLETED。Ascorbic acid 常作為鐵補充劑配方組分，與圍產期營養直接相關。"
+        },
+        {
+          "nct_id": "NCT00197743",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，HIV 感染孕婦維生素補充試驗（n=1,085），COMPLETED。含 Vitamins C 和 E，評估 HIV 進展及圍產期傳播，與一般圍產期疾病之可轉譯性需謹慎評估。"
+        },
+        {
+          "nct_id": "NCT00168688",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 孕期多微量營養素補充研究（n=2,100），COMPLETED。評估圍產期及新生兒死亡率，為 Phase 1 規模的早期安全性及效益資料。"
+        },
+        {
+          "nct_id": "NCT01589757",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 低 GI 飲食對孕期血糖控制研究，Ascorbic acid 非主要介入，關聯性間接。"
+        },
+        {
+          "nct_id": "NCT05293353",
+          "relevance_grade": "C",
+          "reasoning": "人乳基母乳強化劑耐受性研究（n=50），規模小、狀態 UNKNOWN，Ascorbic acid 為複方成分，無法獨立評估。"
+        },
+        {
+          "nct_id": "NCT05558176",
+          "relevance_grade": "C",
+          "reasoning": "矽地那非用於非reassuring胎兒狀態 Phase 4 試驗，Ascorbic acid 無涉及，關聯性不明。"
+        },
+        {
+          "nct_id": "NCT06938464",
+          "relevance_grade": "C",
+          "reasoning": "益生菌預防妊娠糖尿病試驗，Ascorbic acid 非介入藥物，關聯性不明。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "21529757", "study_type": "Meta-analysis/Cochrane review", "tier": "1", "note": "⚠️ 重要負向 Level 1 證據：Cochrane 統合分析，孕期 Vitamins C+E 補充無法預防子癲前症及相關並發症，且可能增加早產風險"},
+        {"pmid": "36882828", "study_type": "Mendelian Randomization", "tier": "1", "note": "Mendelian 隨機化研究顯示維生素 C 循環濃度與感染風險之因果關係，支持圍產期感染預防"},
+        {"pmid": "11984597", "study_type": "Animal/Translational", "tier": "3", "note": "SLC23A1 轉運蛋白對胎兒腦部維生素 C 供應的必要性，奠定圍產期神經保護機轉"},
+        {"pmid": "35163133", "study_type": "Review", "tier": "2", "note": "Ascorbic acid 在神經發育中的表觀遺傳角色，TET 酶輔因子功能"},
+        {"pmid": "21213502", "study_type": "Review", "tier": "2", "note": "子癲前症更新回顧，討論抗氧化維生素之角色"},
+        {"pmid": "25244370", "study_type": "Review", "tier": "2", "note": "維生素 C 缺乏與認知發育之系統性回顧"},
+        {"pmid": "17099329", "study_type": "Review", "tier": "2", "note": "子癲前症預防新療法回顧，包含 Ascorbic acid 相關研究"},
+        {"pmid": "36248829", "study_type": "Basic/Translational", "tier": "3", "note": "維生素 C 缺乏揭示新生兒與成人造血之差異（2022）"},
+        {"pmid": "7042157", "study_type": "Review", "tier": "2", "note": "熱帶地區缺鐵性貧血與維生素 C 促鐵吸收"},
+        {"pmid": "11572272", "study_type": "Animal", "tier": "3", "note": "甲醛胚胎毒性研究，Ascorbic acid 保護效應，動物模型"}
+      ],
+      "risk_flags": ["Cochrane 分析已排除 Vitamins C+E 預防子癲前症", "超高劑量補充可能影響胎兒氧化還原平衡", "大劑量 (>1g/day) 與早產風險關聯需監測"],
+      "summary": "有多項 Phase 2-4 完成試驗，包含一項 n=44,567 的 Phase 3 大型試驗，支持 L2 等級。然而 Cochrane 統合分析已明確排除子癲前症預防效益，且現有試驗均為多成分設計。建議聚焦圍產期缺鐵補充（鐵吸收促進）、胎兒神經發育支持等特定子適應症，設計單一成分的 Phase 2 試驗。"
+    },
+    {
+      "disease_name": "florid cemento-osseous dysplasia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瀰漫性骨-牙骨質發育異常（FCOD）為頜骨纖維骨質病變，病因不明，多見於中年非裔女性，與 FCOD-associated gene（FANCD2/RUNX2 等）突變相關。Ascorbic acid 作為羥化酶輔因子影響骨膠原合成，理論上可能影響骨質代謝，但無任何針對 FCOD 的研究或合理病理機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床試驗或文獻支持。極罕見牙科疾病，無生物合理性。建議暫緩。"
+    },
+    {
+      "disease_name": "disease by subcellular system affected",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "「亞細胞系統受影響疾病」為 MeSH/疾病本體之廣義分類概念，涵蓋粒線體疾病、溶酶體儲積症、過氧化物酶體疾病等多種疾病。Ascorbic acid 確實在多個亞細胞層次發揮功能（粒線體電子傳遞輔助、內質網膠原羥化、細胞核 TET 表觀遺傳調控），但此廣義分類無法支持特定適應症之再利用決策。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "11905046", "study_type": "Review", "tier": "2", "note": "ROS 形成與清除機制綜述（2002），Ascorbic acid 作為抗氧化劑的基礎角色"},
+        {"pmid": "34450031", "study_type": "Clinical genetics", "tier": "2", "note": "COPB2 功能喪失導致骨質疏鬆症與發育遲緩的 coatopathy（2021），與 Ascorbic acid 無直接關聯"},
+        {"pmid": "30553186", "study_type": "Basic research", "tier": "3", "note": "神經元網路與 2 型糖尿病模型研究，Ascorbic acid 在特定液相環境中的氧化還原特性"},
+        {"pmid": "27586814", "study_type": "Basic research", "tier": "3", "note": "Semax 合成類似物與銅離子的 N 端乙醯化影響，高度間接"}
+      ],
+      "summary": "過於廣義的疾病分類，無法支持具體適應症評估。4 篇文獻僅反映 Ascorbic acid 的一般生化角色，不構成任何特定疾病的再利用證據。建議不以此廣義類別作為研究方向。"
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此為 Ascorbic acid 的核心已知適應症：維生素 C 缺乏症（壞血病及亞臨床缺乏症）。作用機轉直接且完全明確：(1) 替代缺乏的 Ascorbic acid，恢復膠原蛋白合成（prolyl/lysyl hydroxylase 輔因子）；(2) 恢復抗氧化防禦；(3) 促進非血紅素鐵吸收；(4) 支持神經遞質合成（多巴胺 β-羥化酶輔因子）。雖標記為「再利用」分析，但本質上屬於原始適應症（資料庫登錄空白為新加坡本地資料缺口）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02422901",
+          "relevance_grade": "A",
+          "reasoning": "PASCORBIN® 7.5g 用於維生素 C 缺乏症的長期觀察研究（n=5,000），直接針對維生素 C 缺乏症治療，為最直接相關試驗。"
+        },
+        {
+          "nct_id": "NCT00276198",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 鐵+維生素 C+葉酸複方微量營養素補充對抗維生素缺乏症的 RCT（n=771），COMPLETED。提供直接 Phase 3 效益數據。"
+        },
+        {
+          "nct_id": "NCT01418898",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，含維生素 C 的強化燕麥飲品對鐵/鋅/維生素 A 及 C 狀態改善試驗（n=80）。評估維生素 C 缺乏症預防，直接相關。"
+        },
+        {
+          "nct_id": "NCT05345899",
+          "relevance_grade": "A",
+          "reasoning": "免疫風濕科患者血漿維生素 C 濃度評估（n=200），直接測量維生素 C 缺乏盛行率，支持特定族群之篩查與治療需求。"
+        },
+        {
+          "nct_id": "NCT03112187",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 脂質體鐵製劑試驗（n=400），COMPLETED。Ascorbic acid 作為鐵吸收促進劑，與缺鐵性貧血（維生素 C 缺乏加劇）間接相關。"
+        },
+        {
+          "nct_id": "NCT07263529",
+          "relevance_grade": "B",
+          "reasoning": "女性非貧血性缺鐵口服鐵療法風險研究（n=60），Ascorbic acid 為鐵補充配方常見組分，與維生素缺乏症管理相關。"
+        },
+        {
+          "nct_id": "NCT01617044",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 益生菌治療兒童缺鐵性貧血（n=61），COMPLETED。Ascorbic acid 在鐵缺乏管理中的輔助角色間接相關。"
+        },
+        {
+          "nct_id": "NCT03866837",
+          "relevance_grade": "B",
+          "reasoning": "益生元 GOS 與鐵補充劑研究（n=288），COMPLETED。評估多種微量營養素狀態包含維生素 C，觀察性相關。"
+        },
+        {
+          "nct_id": "NCT05208879",
+          "relevance_grade": "C",
+          "reasoning": "原發性腸道低膽固醇血症患者黃斑色素研究（n=10），規模極小，與維生素 C 缺乏症關聯極間接。"
+        },
+        {
+          "nct_id": "NCT06054919",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 維生素 D3 治療試驗，關注維生素 D 而非維生素 C，關聯性不明。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "37795755", "study_type": "Review", "tier": "2", "note": "壞血病：老疾病新啟示（2023），現代臨床場景中維生素 C 缺乏症診療更新"},
+        {"pmid": "36153722", "study_type": "Review", "tier": "2", "note": "壞血病全面回顧（2022），臨床診斷、流行病學與治療方案"},
+        {"pmid": "24425716", "study_type": "Review", "tier": "2", "note": "維生素 C 全面回顧（2014），藥理、缺乏症診治及補充建議"},
+        {"pmid": "38291316", "study_type": "Cohort/Observational", "tier": "2", "note": "脊椎盤炎患者 Ascorbic acid 缺乏症患病率研究（2024），揭示住院患者中高缺乏風險"},
+        {"pmid": "6801290", "study_type": "Review", "tier": "2", "note": "Ascorbic acid 缺乏症（1981），經典文獻描述臨床表現與生化診斷"},
+        {"pmid": "25418386", "study_type": "Review", "tier": "2", "note": "水溶性維生素（2015），Ascorbic acid 缺乏症的現代診療"},
+        {"pmid": "15582167", "study_type": "Review", "tier": "2", "note": "維生素 C 缺乏症（2004），預防與治療建議"},
+        {"pmid": "38931257", "study_type": "Review", "tier": "2", "note": "水溶性維生素在抑鬱症預防與治療中的角色（2024），Ascorbic acid 神經精神作用"},
+        {"pmid": "1463588", "study_type": "Review", "tier": "2", "note": "⚠️ 維生素神經毒性回顧（1992），大劑量 Ascorbic acid 之安全性上限"},
+        {"pmid": "1093379", "study_type": "Observational", "tier": "2", "note": "口服避孕藥與 Ascorbic acid（1975），特定族群缺乏風險因子識別"}
+      ],
+      "risk_flags": ["大劑量靜脈（>10g/day）：草酸腎病、高鐵血症風險", "G6PD 缺乏症：溶血風險（尤其靜脈高劑量）", "腎功能不全：草酸積累風險", "與 warfarin 可能有交互作用（高劑量）"],
+      "summary": "維生素缺乏症（尤其維生素 C 缺乏症/壞血病）為 Ascorbic acid 之核心適應症，具 L1 等級直接臨床證據及豐富 Phase 3-4 試驗。新加坡資料庫登錄缺口（「未上市」/空白 MoA）應被視為資料品質問題而非真實缺乏。建議以標準劑量（治療：500-1,000mg/day，預防：60-200mg/day）補充，並針對高風險族群（慢性病患者、吸煙者、孕婦、老年人）定期監測血清濃度。"
+    }
+  ],
+  "cross_indication_summary": {
+    "highest_priority": "vitamin deficiency disorder (L1, S3)",
+    "research_candidates": ["injury (L2, S2)", "perinatal disease (L2, S2)", "esophageal disease (L3, S1)"],
+    "insufficient_evidence": ["biotin metabolic disease (L4)", "disease by subcellular system affected (L5)"],
+    "no_evidence": ["non-syndromic esophageal malformation (L5)", "congenital prothrombin deficiency (L5)", "segmental odontomaxillary dysplasia (L5)", "florid cemento-osseous dysplasia (L5)"],
+    "global_safety_notes": "Ascorbic acid 整體安全性良好（水溶性、高耐受度）。主要安全顧慮限於高劑量靜脈途徑（>10g/day），包括：草酸腎病、G6PD 相關溶血、腸胃道不適（口服高劑量）。DDI 計數為 0 反映資料缺口，非真實無相互作用。",
+    "data_quality_flags": ["original_indications 欄位為空（資料庫缺口，非真實無適應症）", "original_moa 標記為 [Data Gap]（已知 MoA 未錄入）", "market_status 未上市僅反映 Singapore 本地登錄狀態"]
+  }
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 適應症 | TxGNN 分數 | 臨床試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|-----------|-------|---------|---------|------|
+| vitamin deficiency disorder | 0.9947 | 50 | 20 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| injury | 0.9960 | 50 | 20 | **L2** | **S2** | 🔬 Research Question |
+| perinatal disease | 0.9947 | 14 | 20 | **L2** | **S2** | 🔬 Research Question |
+| esophageal disease | 0.9990 | 5 | 10 | **L3** | **S1** | 🔬 Research Question |
+| biotin metabolic disease | 0.9952 | 5 | 14 | **L4** | **S0** | 🔴 Hold |
+| disease by subcellular system | 0.9947 | 0 | 4 | **L5** | **S0** | 🔴 Hold |
+| non-syndromic esophageal malformation | 0.9996 | 0 | 0 | **L5** | **S0** | 🔴 Hold |
+| congenital prothrombin deficiency | 0.9970 | 0 | 0 | **L5** | **S0** | 🔴 Hold |
+| segmental odontomaxillary dysplasia | 0.9947 | 0 | 0 | **L5** | **S0** | 🔴 Hold |
+| florid cemento-osseous dysplasia | 0.9947 | 0 | 0 | **L5** | **S0** | 🔴 Hold |
+
+> ⚠️ **重要提醒**：TxGNN 高分（0.994–0.9996）與臨床證據等級無直接對應關係。如 `non-syndromic esophageal malformation` 得分最高（0.9996）但完全無臨床證據（L5），顯示圖譜拓撲相似性不等同生物合理性，臨床決策仍需以人體直接證據為準。

@@ -1,0 +1,812 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11595-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Atezolizumab",
+    "drugbank_id": "DB11595",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "prostatic urethra urothelial carcinoma",
+      "txgnn": {
+        "score": 0.9998340606689452,
+        "rank": 541
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02844816",
+            "title": "Phase II Trial of Atezolizumab in BCG-Unresponsive Non-Muscle Invasive Bladder Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 172,
+            "start_date": "2017-03-13",
+            "completion_date": "2024-06-26",
+            "brief_summary": "This phase II trial studies how well atezolizumab works in treating patients with non-muscle invasive bladder cancer that has come back (recurrent) and has not responded to treatment (refractory) with Bacillus Calmette-Guerin (BCG). Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 已完成，N=172，BCG 無效之非肌肉浸潤性膀胱癌（NMIBC）。NMIBC 中前列腺尿道受累（prostatic urethral involvement）為常見評估項目，研究族群高度重疊。樣本數足，已完成，為本適應症最強直接證據。降一級（A→B）因試驗名稱指向膀胱，非前列腺尿道之獨立子分析。"
+            }
+          },
+          {
+            "nct_id": "NCT03170960",
+            "title": "A Phase 1b Dose-Escalation Study of Cabozantinib (XL184) Administered Alone or in Combination With Atezolizumab to Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 914,
+            "start_date": "2017-09-05",
+            "completion_date": "2027-09-30",
+            "brief_summary": "This is a multicenter Phase 1b, open-label study to assess safety, tolerability, preliminary efficacy, and pharmacokinetics (PK) of cabozantinib taken in combination with atezolizumab in subjects with multiple tumor types, including advanced urothelial carcinoma (UC) (including bladder, renal pelvis, ureter, urethra), renal cell carcinoma (RCC), castration-resistant prostate cancer (CRPC), non-small-cell lung cancer (NSCLC), triple negative breast cancer (TNBC), ovarian cancer (OC), endometrial ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1b，Cabozantinib + Atezolizumab 聯合劑量遞增，N=914（廣泛實體瘤）。屬安全性/劑量探索性質，尿路上皮癌可能含於研究族群中，但無前列腺尿道獨立數據。作為支持性安全證據可用，直接療效相關性低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺尿道尿路上皮癌屬尿路上皮系統腫瘤，與膀胱癌共享 PD-L1 高表現及高腫瘤突變負荷（TMB）特性。Atezolizumab 阻斷 PD-L1/PD-1 及 PD-L1/B7.1 互動，解除 T 細胞抑制，機轉連結直接。全球已核准用於尿路上皮癌（cisplatin 不適用一線 + 二線），解剖位置鄰近膀胱，生物學相似度高。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+      "txgnn": {
+        "score": 0.9998337030410768,
+        "rank": 543
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎盂肉瘤樣移行細胞癌為極罕見病理亞型，同時具備兩種機轉連結：(1) 尿路上皮癌組件 → PD-L1 高表現；(2) 肉瘤樣分化 → 常與免疫抑制微環境及更高 TMB 相關，理論上對 checkpoint 抑制劑更敏感。然而目前無直接臨床試驗或文獻數據，證據僅屬間接推論層級。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
+      "txgnn": {
+        "score": 0.9998223185539246,
+        "rank": 583
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "浸潤性膀胱尿路上皮癌肉瘤樣變體同時具備膀胱尿路上皮癌（Atezolizumab 全球核准適應症）及肉瘤樣分化（高 PD-L1 表現傾向）兩項機轉優勢。雖無此亞型之獨立試驗，膀胱尿路上皮癌的全球核准背景使其相較純預測型適應症具更強機轉基礎，建議進入安全性初評階段。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "renal pelvis papillary urothelial carcinoma",
+      "txgnn": {
+        "score": 0.9998202919960022,
+        "rank": 588
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03170960",
+            "title": "A Phase 1b Dose-Escalation Study of Cabozantinib (XL184) Administered Alone or in Combination With Atezolizumab to Subjects With Locally Advanced or Metastatic Solid Tumors",
+            "phase": "PHASE1",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 914,
+            "start_date": "2017-09-05",
+            "completion_date": "2027-09-30",
+            "brief_summary": "This is a multicenter Phase 1b, open-label study to assess safety, tolerability, preliminary efficacy, and pharmacokinetics (PK) of cabozantinib taken in combination with atezolizumab in subjects with multiple tumor types, including advanced urothelial carcinoma (UC) (including bladder, renal pelvis, ureter, urethra), renal cell carcinoma (RCC), castration-resistant prostate cancer (CRPC), non-small-cell lung cancer (NSCLC), triple negative breast cancer (TNBC), ovarian cancer (OC), endometrial ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1b，N=914，廣泛尿路上皮/泌尿腫瘤族群。腎盂尿路上皮癌極可能含於研究族群，雖為聯合治療（+Cabozantinib）且無腎盂乳頭狀之獨立分層，仍為現有最直接之臨床數據。State: ACTIVE_NOT_RECRUITING 表示數據仍在累積中。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎盂乳頭狀尿路上皮癌為上尿路尿路上皮癌（UTUC）之常見病理型態，PD-L1 表現率與膀胱尿路上皮癌相當（25-60%）。Atezolizumab 在尿路上皮癌之全球核准涵蓋上尿路（輸尿管、腎盂），提供強機轉背景。現有 Phase 1b 數據（NCT03170960）提供初步安全性依據，建議設計 UTUC 特異性 Phase 2 試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "uterine ligament adenocarcinoma",
+      "txgnn": {
+        "score": 0.9992828965187072,
+        "rank": 1530
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮韌帶腺癌為極罕見婦科惡性腫瘤，PD-L1 表現及免疫微環境特性缺乏文獻描述。Atezolizumab 在婦科腫瘤中無直接核准適應症（Pembrolizumab 有子宮內膜癌及 MSI-H 腫瘤之核准，提供間接路徑假設）。目前預測純為 TxGNN 模型推論，無任何臨床佐證，需基礎研究確認 PD-L1 表現後方可進入臨床。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "endocervical carcinoma",
+      "txgnn": {
+        "score": 0.9992496371269226,
+        "rank": 1574
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02921269",
+            "title": "A Phase 2 Study of Atezolizumab (MPDL3280A) in Combination With Bevacizumab in Patients With Recurrent, Persistent or Metastatic Cervical Cancer",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 11,
+            "start_date": "2017-03-10",
+            "completion_date": "2021-01-13",
+            "brief_summary": "This phase II trial studies how well atezolizumab and bevacizumab work in treating patients with cervical cancer that has come back, remains despite treatment, or has spread to other places in the body. Monoclonal antibodies, such as atezolizumab and bevacizumab, may shrink tumor cell and interfere with the ability of tumor cells to grow and spread.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 已完成，N=11，Atezolizumab + Bevacizumab 用於復發性子宮頸癌。直接研究 Atezolizumab 於子宮頸癌中的療效，適應症高度匹配（endocervical 為子宮頸癌亞型）。主要缺點：樣本數極小（N=11），統計效力不足，結果需謹慎詮釋。評級 A 因直接相關性，但需附加樣本量不足警示。"
+            }
+          },
+          {
+            "nct_id": "NCT03738228",
+            "title": "Anti PD-L1 (Atezolizumab) as an Immune Primer and Concurrently With Extended Field Chemoradiotherapy for Node Positive Locally Advanced Cervical Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2019-01-07",
+            "completion_date": "2025-09-12",
+            "brief_summary": "This phase I trial studies how well atezolizumab before and/or with standard of care chemoradiotherapy works in immune system activation in patients with stage IB2, II, IIIB, or IVA cervical cancer that has spread to the lymph nodes. Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Giving atezolizumab before and/or with chemoradiotherapy may lower the chance o",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 已完成，N=40，Atezolizumab 作為免疫啟動劑併用延伸野放化療。研究設計著重免疫啟動（priming）機制，N=40 提供較 NCT02921269 更充足之安全性數據。屬 Phase 1 劑量/機制探索，療效為次要終點，評為 B 級支持性證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37467967",
+            "title": "Small cell neuroendocrine carcinoma of the cervix: From molecular basis to therapeutic advances.",
+            "authors": [
+              "Chao Angel",
+              "Wu Ren-Chin",
+              "Lin Chiao-Yun",
+              "Chang Ting-Chang",
+              "Lai Chyong-Huey"
+            ],
+            "journal": "Biomedical journal",
+            "year": "2023",
+            "abstract": "Small cell neuroendocrine carcinoma of the cervix (SCNECC) is an uncommon but aggressive uterine malignancy, the cause of which is generally associated with human papillomavirus (HPV) infection. A lack of clinical trials and evidence-based treatment guidelines poses therapeutic challenges to this rare tumor. At present, published data remain limited to case series and case reports. While clinical management has traditionally followed those of small cell neuroendocrine (SCNE) lung cancer relying ",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮頸管癌（Endocervical carcinoma）多與 HPV 感染相關，HPV 驅動腫瘤透過上調 PD-L1 逃逸免疫監控。Pembrolizumab（PD-1 抑制劑）已核准用於復發/轉移性子宮頸癌，確立 PD-(L)1 軸作為治療靶點。Atezolizumab（PD-L1）阻斷相同訊號軸，機轉高度相關。現有兩項已完成試驗提供初步臨床可行性證據，但 Phase 2 樣本數極小（N=11），需更大規模試驗確認療效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "adenoid cystic carcinoma of the cervix uteri",
+      "txgnn": {
+        "score": 0.9992184638977052,
+        "rank": 1615
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮頸腺樣囊性癌（ACCC）為極罕見子宮頸惡性腫瘤，組織學上類似唾液腺腺樣囊性癌，後者對 checkpoint 抑制劑反應率普遍偏低（PD-L1 陽性率低、免疫冷腫瘤傾向）。子宮頸位置雖具 HPV 相關免疫背景，但 ACCC 之 HPV 關聯性低，削弱 PD-L1 軸的機轉假設。目前完全無臨床試驗或文獻支持，列為純預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "uterine ligament serous adenocarcinoma",
+      "txgnn": {
+        "score": 0.9992056488990784,
+        "rank": 1628
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮韌帶漿液性腺癌為罕見婦科腫瘤，漿液性腺癌通常呈現 TP53 突變驅動模式而非 MSI-H/TMB-H，PD-L1 表現率相對低（20-30%）。Pembrolizumab 在子宮內膜漿液性癌中的效果有限，類推 Atezolizumab 療效不確定性高。目前無任何臨床數據，需先確認此亞型之免疫微環境特性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "signet ring cell variant cervical mucinous adenocarcinoma",
+      "txgnn": {
+        "score": 0.999146580696106,
+        "rank": 1729
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮頸黏液性腺癌印戒細胞變體為極罕見病理亞型，印戒細胞型態與胃腸道原發性印戒細胞癌相似，後者對 checkpoint 抑制劑反應有限（除非 MSI-H 或 EBV 陽性）。此亞型可能為子宮頸原發或繼發性，需先排除轉移性胃腸道腫瘤。無任何臨床證據，機轉推測依賴度高，建議先進行生物標記（PD-L1、MSI、TMB）評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "intestinal variant cervical mucinous adenocarcinoma",
+      "txgnn": {
+        "score": 0.9991313815116882,
+        "rank": 1753
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "子宮頸黏液性腺癌腸型變體形態上模仿腸道腺癌，HPV 關聯性低（Gastric type 或 Intestinal type 常為 HPV 陰性），削弱 PD-L1 通路的核心機轉假設。HPV 陰性子宮頸腺癌整體預後差且對免疫治療反應不確定。目前無臨床數據，屬最低優先考慮的再利用候選，建議先確認 HPV 狀態及 PD-L1 表現。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "prostatic urethra urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "infiltrating bladder urothelial carcinoma sarcomatoid variant"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "renal pelvis papillary urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "renal pelvis papillary urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "renal pelvis papillary urothelial carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "uterine ligament adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "uterine ligament adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "uterine ligament adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "endocervical carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "endocervical carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "endocervical carcinoma"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "adenoid cystic carcinoma of the cervix uteri"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "adenoid cystic carcinoma of the cervix uteri"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "adenoid cystic carcinoma of the cervix uteri"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "uterine ligament serous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "uterine ligament serous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "uterine ligament serous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "signet ring cell variant cervical mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "signet ring cell variant cervical mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "signet ring cell variant cervical mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "intestinal variant cervical mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "intestinal variant cervical mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Atezolizumab",
+        "disease": "intestinal variant cervical mucinous adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+## Human Thrombin (DB11571) — 藥物再利用證據評估
+
+> ⚠️ 本分析僅供研究參考，不構成醫療建議。所有候選適應症需經臨床驗證。
+
+---
+
+```json
+{
+  "drug": "Human Thrombin",
+  "drugbank_id": "DB11571",
+  "moa_inference": "Serine protease：(1) 將 fibrinogen 轉化為 fibrin 凝塊；(2) 透過 PAR-1/PAR-4 受體直接活化血小板；(3) 活化 Factor XIII → 交聯 fibrin；(4) 活化 TAFI 抑制纖溶。此為 [Data Gap] 推斷填補。",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "esophageal disease（胃食道靜脈曲張出血）",
+      "txgnn_score": 0.8654,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Human Thrombin 注射至靜脈曲張局部後，直接將 fibrinogen 轉化為 fibrin 並啟動凝血瀑布，誘導局部持久性血栓形成與靜脈閉塞。此機轉與 cyanoacrylate（Histoacryl）注射互補，且無組織毒性疑慮。PMID 23139607、30196518 均為直接 Human Thrombin 注射的臨床報告，PMID 33728506（2022 SR/MA）確認安全性與療效，2023–2024 年多項 EUS 引導 thrombin + coil 聯合治療研究（PMID 37562855、38316226）展示技術進步。NCT01717612 為直接 Phase 3 RCT（thrombin vs. Histoacryl）。本適應症為所有候選中唯一達 L1 等級。",
+      "guardrails_notes": [
+        "市場狀態未上市（SG）：需確認 HSA 對 thrombin 注射劑型的法規路徑",
+        "適應症縮限：證據集中於胃靜脈曲張，食道靜脈曲張與異位靜脈曲張的資料較少",
+        "劑量標準化：現有研究劑量方案不一致（100–1000 IU/mL），需明確最適濃度",
+        "避免全身性注射：僅限局部注射，避免系統性血栓併發症"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01717612",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，直接比較 Histoacryl 注射 vs. Human Thrombin 注射控制急性胃靜脈曲張出血（n=62）。為本適應症最直接的 RCT 證據，狀態 UNKNOWN 需追蹤確認完成情況與發表結果。"
+        },
+        {
+          "nct_id": "NCT02105506",
+          "relevance_grade": "B",
+          "reasoning": "TachoSil（含 Human Thrombin + collagen matrix）用於食道吻合術安全性研究（n=15，已完成），確認 thrombin 含有製劑在食道外科的可行性，為技術延伸佐證。"
+        },
+        {
+          "nct_id": "NCT01943617",
+          "relevance_grade": "C",
+          "reasoning": "HBV 代償性肝硬化（門靜脈高壓基礎疾病）治療研究，為靜脈曲張的上游疾病背景，與 Human Thrombin 注射本身無直接試驗關聯。"
+        },
+        {
+          "nct_id": "NCT06154291",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2 劑量遞增研究（標題截斷），無法確認與 Human Thrombin 直接相關。"
+        },
+        {
+          "nct_id": "NCT02224456",
+          "relevance_grade": "C",
+          "reasoning": "Tenofovir 治療 HBV 研究，與 Human Thrombin 止血應用無關。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "33728506", "study_type": "Systematic Review / Meta-analysis", "tier": "1",
+         "notes": "2022 年核心 SR/MA，直接評估 Thrombin 治療胃靜脈曲張出血的安全性與有效性，為最高等級直接臨床證據。"},
+        {"pmid": "30196518", "study_type": "Cohort Study", "tier": "2",
+         "notes": "2018 年 Human Thrombin 注射治療胃靜脈曲張出血的前瞻性安全性研究，直接適應症數據。"},
+        {"pmid": "23139607", "study_type": "Case Series", "tier": "2",
+         "notes": "2012 年 Human Thrombin 用於胃部與異位靜脈曲張的先驅臨床病例系列，確立可行性基礎。"},
+        {"pmid": "37562855", "study_type": "Cohort Study", "tier": "2",
+         "notes": "2023 年 EUS 引導 thrombin 注射合併 coil 植入的技術與臨床結果，代表當前最新臨床實踐。"},
+        {"pmid": "38316226", "study_type": "Cohort Study", "tier": "2",
+         "notes": "2024 年 EUS 引導 thrombin + coil 治療胃靜脈曲張的可行性、安全性與預後評估，最新實證。"},
+        {"pmid": "39480369", "study_type": "Review", "tier": "3",
+         "notes": "2025 年胃靜脈曲張處置內視鏡器材與技術最新綜述，確立 thrombin 注射於當前指引的定位。"},
+        {"pmid": "39319363", "study_type": "Review", "tier": "3",
+         "notes": "2025 年 EUS 引導血管介入最新綜述，thrombin 列為主要介入選項之一。"},
+        {"pmid": "8180541", "study_type": "Review", "tier": "3",
+         "notes": "靜脈曲張出血管理歷史性文獻（1994），提供演進脈絡背景。"}
+      ]
+    },
+
+    {
+      "disease_name": "Glanzmann thrombasthenia（Glanzmann 血小板無力症）",
+      "txgnn_score": 0.9664,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "GT 為 GPIIb/IIIa（αIIbβ3）缺乏，導致血小板無法透過 fibrinogen 橋接進行聚集。Human Thrombin 可透過兩條並行路徑補償：(1) PAR-1/PAR-4 依然完整，thrombin 可直接誘導 GT 血小板的顆粒分泌與 PS 暴露，部分恢復促凝血活性（PMID 24477274）；(2) 獨立於血小板聚集，直接將 fibrinogen 轉化為 fibrin，形成機械性止血支架（PMID 22273510）。PMID 6310559 確認 thrombin 刺激的 GT 血小板對 VWF 結合缺陷，為直接機轉連結。現行 GT 標準治療為 rFVIIa（PMID 18078017），thrombin 有望作為輔助或替代策略，但缺乏直接 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01476423",
+          "relevance_grade": "A",
+          "reasoning": "GT 治療前瞻性觀察型登記研究（n=218，已完成），涵蓋多種止血介入的真實世界臨床數據，為本適應症最直接的觀察性臨床基礎，但為觀察性研究非 RCT。"
+        },
+        {
+          "nct_id": "NCT06211634",
+          "relevance_grade": "B",
+          "reasoning": "針對 GT 的 Phase 1/2 First-in-Human 新型治療研究（active, n=57），顯示 GT 適應症仍有積極臨床開發，確認研究可行性，但研究藥物非 Human Thrombin。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "6310559", "study_type": "Basic Science", "tier": "3",
+         "notes": "1982 年研究：thrombin 刺激的 GT 血小板對 VWF 結合缺陷，直接確立 thrombin-GT 機轉連結。"},
+        {"pmid": "22273510", "study_type": "Ex Vivo Clinical Study", "tier": "2",
+         "notes": "研究 fibrinogen 與 Factor XIII 對 GT 患者 in vivo 血凝塊形成與纖溶的影響，直接與 thrombin 下游凝血效應相關。"},
+        {"pmid": "24477274", "study_type": "Ex Vivo Study", "tier": "2",
+         "notes": "GT 患者 PS 暴露、微粒形成與粒線體去極化研究，支持 thrombin 誘導 GT 血小板的促凝血反應保留。"},
+        {"pmid": "26968829", "study_type": "Review", "tier": "3",
+         "notes": "GT 治療新見解（2016），涵蓋 rFVIIa 以外策略，為 thrombin 再利用提供研究空間背景。"},
+        {"pmid": "18078017", "study_type": "Review", "tier": "3",
+         "notes": "rFVIIa 用於 GT 的系統性回顧，作為現行標準治療比較基準，顯示凝血酶相關製劑的有效性。"},
+        {"pmid": "12487785", "study_type": "Review", "tier": "3",
+         "notes": "GT 更新綜述（2002），提供疾病機轉與治療現況完整背景，確認 fibrinogen-fibrin 軸的中心地位。"}
+      ]
+    },
+
+    {
+      "disease_name": "primary release disorder of platelets（血小板初級釋放疾患）",
+      "txgnn_score": 0.9695,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "血小板初級釋放疾患（如 δ-儲存池疾病、α-儲存池疾病）因顆粒含量不足或釋放機制缺陷，導致血小板第二波聚集反應障礙。Human Thrombin 可透過 PAR-1/PAR-4 強效活化，即便在顆粒不足條件下仍能誘導 TXA2 生成、PS 暴露及微粒釋放（PMID 984037，1976 年直接體外驗證）。此機轉上具合理性，但臨床試驗列表中無一直接測試 Human Thrombin 治療此適應症，多數為相關但非直接的凝血管理試驗。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03341156",
+          "relevance_grade": "B",
+          "reasoning": "PCC vs 標準輸血術中/術後 Phase 3 研究（已終止，n=14 招募不足），涉及多因子凝血補充策略與 thrombin 生成優化，為相關止血管理背景。"
+        },
+        {
+          "nct_id": "NCT05391412",
+          "relevance_grade": "B",
+          "reasoning": "脊椎側彎手術 fibrinogen concentrate 前驅性研究，探討 fibrinogen（thrombin 受質）補充對止血影響，與 thrombin 途徑在出血管理的研究背景相關。"
+        },
+        {
+          "nct_id": "NCT04619693",
+          "relevance_grade": "C",
+          "reasoning": "COVID-19 dexamethasone 反應生物標記研究（已終止），與 Human Thrombin 治療血小板釋放疾患無直接關聯。"
+        },
+        {
+          "nct_id": "NCT02850692",
+          "relevance_grade": "C",
+          "reasoning": "門靜脈高壓與全身內皮功能研究，屬凝血相關但與本適應症無直接關聯。"
+        },
+        {
+          "nct_id": "NCT04492475",
+          "relevance_grade": "C",
+          "reasoning": "Adaptive randomized trial（標題截斷），無法確認與本適應症直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "984037", "study_type": "Basic Science", "tier": "3",
+         "notes": "1976 年核心體外研究：直接探討 thrombin 對血小板 arachidonic acid 攝取與 TXA2 轉化的影響，為 PAR 路徑活化在釋放疾患的機轉基礎。"},
+        {"pmid": "2016486", "study_type": "Review/Clinical", "tier": "3",
+         "notes": "血小板、thrombin 與冠狀動脈成形術後 restenosis 的探討（1991），確認 thrombin-血小板交互作用的臨床相關性。"},
+        {"pmid": "1321709", "study_type": "Review", "tier": "3",
+         "notes": "血小板功能疾患綜述（1992），涵蓋釋放疾患的分類與病理生理，提供疾病背景定義。"},
+        {"pmid": "33749992", "study_type": "Review", "tier": "3",
+         "notes": "Platelet gel（富含 thrombin 的血小板衍生製劑）於傷口癒合的臨床應用回顧（2021），間接支持 thrombin 止血應用的延伸可能性。"},
+        {"pmid": "30986390", "study_type": "Clinical Practice Guideline", "tier": "2",
+         "notes": "AGA 肝硬化凝血臨床實踐更新（2019），說明凝血疾患管理脈絡，含血小板功能評估建議。"}
+      ]
+    },
+
+    {
+      "disease_name": "bleeding diathesis due to a collagen receptor defect（膠原蛋白受體缺陷出血疾患）",
+      "txgnn_score": 0.9155,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "GPVI 或 GPIa/IIa（α2β1）缺陷導致血小板對膠原蛋白的活化訊號下降，影響膠原蛋白誘導的血小板聚集與活化。Human Thrombin 透過 PAR-1/PAR-4 的活化完全獨立於膠原蛋白受體途徑，理論上可完整繞過此缺陷，補償 GPVI 路徑缺失的止血功能。文獻 PMID 17073609 提及凝血相關製劑在出血疾患的治療角色，PMID 26886396 確認 thrombin 作為血小板功能診斷激動劑的應用。然而無直接臨床試驗，現有 20 篇文獻多集中於機轉描述而非治療研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "23929303", "study_type": "Review", "tier": "3",
+         "notes": "Bernard-Soulier 症候群更新綜述（2013），膠原蛋白受體缺陷出血疾患的重要背景文獻。"},
+        {"pmid": "26886396", "study_type": "Review", "tier": "3",
+         "notes": "血小板功能測試方法綜述，確認 thrombin 作為標準化血小板激動劑的診斷應用，反映其生物活性。"},
+        {"pmid": "17073609", "study_type": "Review", "tier": "3",
+         "notes": "出血與血栓管理新型治療藥物（2006），涵蓋 thrombin 相關製劑，提供治療背景。"},
+        {"pmid": "33564083", "study_type": "Case Report/Genetic Study", "tier": "3",
+         "notes": "ALOX12 突變家族的顯性遺傳出血疾患（2021），arachidonic acid 代謝通路與 thrombin 活化路徑交叉點。"},
+        {"pmid": "12487778", "study_type": "Clinical Study", "tier": "2",
+         "notes": "嚴重血友病中血小板代償性活化缺失研究（2002），提示在凝血疾患中血小板活化可能需要外源性 thrombin 支持。"}
+      ]
+    },
+
+    {
+      "disease_name": "Scott syndrome（Scott 症候群）",
+      "txgnn_score": 0.9150,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Scott 症候群為 TMEM16F（ANO6）突變導致磷脂醯絲胺酸（PS）外翻嚴重缺陷，進而造成血小板 prothrombinase 複合體組裝受阻，thrombin 生成大幅下降（PMID 9057642 直接研究）。Human Thrombin 的外源性補充可直接替代缺失的內生性 thrombin，繞過 PS 依賴性 prothrombinase 組裝步驟。此為高度機轉合理的治療假說（PMID 27207414），且 Scott 症候群為超罕見疾病（全球記錄案例不足 50 例），符合孤兒藥研究邏輯。目前無直接臨床試驗，兩項列出試驗與本適應症無直接關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02308111",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 雙盲 RCT（已終止，n=334），研究一特定藥物的療效，標題截斷無法確認與 Human Thrombin 或 Scott 症候群直接相關。"
+        },
+        {
+          "nct_id": "NCT02879344",
+          "relevance_grade": "C",
+          "reasoning": "ECMO 在 ARDS 中的 PS 相關生物標記研究（n=20，已完成），僅研究 PS 作為生物標記，與 Scott 症候群治療無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "27207414", "study_type": "Review", "tier": "3",
+         "notes": "Scott 症候群中血小板與凝血的交互作用（2016），直接建立 thrombin 生成缺陷與外源性補充的機轉依據。"},
+        {"pmid": "9057642", "study_type": "Ex Vivo Clinical Study", "tier": "2",
+         "notes": "儲存池缺陷患者（含 Scott-like 表現型）的 prothrombinase 活性與細胞內鈣反應研究（1997），直接量化 thrombin 生成缺陷。"},
+        {"pmid": "36074709", "study_type": "Review", "tier": "3",
+         "notes": "出血疾患中血小板促凝血機轉更新（2022），含 Scott 症候群現行治療策略與未滿足需求。"},
+        {"pmid": "35033201", "study_type": "Review", "tier": "3",
+         "notes": "PS 在免疫與血液凝固中的角色（2022），Scott 症候群核心病理機轉的完整闡述。"},
+        {"pmid": "32543068", "study_type": "Review", "tier": "3",
+         "notes": "促凝血血小板的實驗室偵測與臨床意義（2020），含 Scott 症候群的診斷標準與治療困境。"},
+        {"pmid": "38492852", "study_type": "Case Report/Genetic Study", "tier": "3",
+         "notes": "新型 ANO6 突變 Scott 症候群功能特徵研究（2024），最新分子機轉依據，間接支持外源性 thrombin 補充的合理性。"}
+      ]
+    },
+
+    {
+      "disease_name": "platelet-type bleeding disorder（血小板型出血疾患）",
+      "txgnn_score": 0.8613,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "血小板型出血疾患（含血小板型 vWD、儲存池疾病、活化缺陷等異質性疾患群）的共同特徵為血小板功能性止血不足。Human Thrombin 透過 PAR-1/PAR-4 強效活化可部分繞過特定功能缺陷，並獨立生成 fibrin 凝塊支持止血。PMID 9371310 提供分子機轉分類，PMID 16684008 涵蓋整體治療框架。15 項臨床試驗均研究其他止血介入（促血小板生成素激動劑、VWF nanobody、基因治療），未有直接測試 Human Thrombin 於此廣義疾患群，但研究熱度（多項 Phase 2-3 活躍試驗）確認臨床可及性。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06617897",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT 研究 fibrinogen（thrombin 受質）於出血疾患的療效（招募中，n=90），顯示 fibrin 形成途徑在此適應症的研究積極性，間接支持 thrombin 介入的合理性。"
+        },
+        {
+          "nct_id": "NCT04677803",
+          "relevance_grade": "C",
+          "reasoning": "BT200（VWF Nanobody）Phase 2a，針對 VWF-GPIb 軸，機轉不同，與 thrombin PAR 活化路徑無直接關聯。"
+        },
+        {
+          "nct_id": "NCT05328804",
+          "relevance_grade": "C",
+          "reasoning": "Herombopag + rhTPO 促血小板生成研究，增加血小板數量策略，與 thrombin 功能補償策略方向不同。"
+        },
+        {
+          "nct_id": "NCT02484092",
+          "relevance_grade": "C",
+          "reasoning": "SPK-9001 基因治療血友病 Phase 2，不同適應症與機轉，無直接關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "9371310", "study_type": "Review", "tier": "3",
+         "notes": "GT、Bernard-Soulier、血小板型 vWD 分子異常綜述（1994），確認 PAR 路徑（thrombin 受體）在血小板功能缺陷分類中的獨立地位。"},
+        {"pmid": "16684008", "study_type": "Review", "tier": "3",
+         "notes": "先天性血小板疾患機轉、診斷與治療概覽（2006），提供廣義血小板型出血疾患的治療框架背景。"},
+        {"pmid": "28004055", "study_type": "Mechanistic Study", "tier": "3",
+         "notes": "血小板型 vWD 的 thrombocytopathy 對體內止血的影響（2017），機轉相關研究。"},
+        {"pmid": "6415113", "study_type": "Basic Science", "tier": "3",
+         "notes": "VWF 與血小板型 vWD 血小板聚集關係研究（1983），確認 GPIbα 突變功能增益特性，與 thrombin 獨立活化路徑的比較基礎。"},
+        {"pmid": "38492852", "study_type": "Case Report/Genetic Study", "tier": "3",
+         "notes": "新型 ANO6 突變 Scott 症候群功能特徵（2024），跨血小板型疾患的機轉連結，PS 暴露缺陷對 thrombin 生成的影響。"}
+      ]
+    },
+
+    {
+      "disease_name": "pseudo-von Willebrand disease（假性 vWD）",
+      "txgnn_score": 0.9652,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pseudo-vWD（血小板型 vWD）因 GPIbα 功能增益突變，對 VWF 親和力過高，導致自發性血小板-VWF 聚集與消耗性血小板減少。Human Thrombin 雖可透過 PAR 受體活化血小板，但無法糾正 GPIbα 突變的結構性缺陷，反而可能加重血小板活化與消耗。機轉合理性存疑（可能有害），且完全缺乏臨床試驗。TxGNN 高分（0.9652）可能源於知識圖譜中與 GT 等血小板疾患的類別鄰近性，非直接生物學連結。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "28004055", "study_type": "Mechanistic Study", "tier": "3",
+         "notes": "研究 GPIbα 突變（血小板型 vWD）對體內止血的影響（2017），確認突變性質為功能增益，thrombin 額外活化可能有害。"},
+        {"pmid": "7660135", "study_type": "Review", "tier": "3",
+         "notes": "GPIb-V-IX 複合體結構功能病理綜述（1995），提供疾病機轉背景，不支持 thrombin 作為治療。"}
+      ]
+    },
+
+    {
+      "disease_name": "fetal and neonatal alloimmune thrombocytopenia（FNAIT）",
+      "txgnn_score": 0.8621,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FNAIT 為母體抗體（主要抗 HPA-1a）穿越胎盤破壞胎兒血小板的免疫介導性疾患。標準治療為 IVIg 與血小板輸注。Human Thrombin 的止血機轉無法解決根本免疫病理，且在新生兒中外源性 thrombin 的安全性（凝血系統不成熟、系統性血栓風險）存在嚴重考量。PMID 31142810 研究新生兒血小板減少症中 thrombin 生成特性，為機轉背景研究而非治療研究。臨床試驗完全缺失。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "31142810", "study_type": "Ex Vivo Clinical Study", "tier": "2",
+         "notes": "新生兒血小板減少症中低血小板計數下 thrombin 生成及各因子效應研究（2019），提供機轉背景但非支持 thrombin 補充治療的依據。"},
+        {"pmid": "27627660", "study_type": "Review", "tier": "3",
+         "notes": "抗 HPA-1a IgG 製劑預防 FNAIT 研究（2016），確認免疫介入為正確治療方向，不支持 thrombin 補充。"},
+        {"pmid": "35388576", "study_type": "Basic Science", "tier": "3",
+         "notes": "抗 HPA-15b 抗體相關 FNAIT 機轉研究（2022），進一步確認免疫病理為治療靶點。"},
+        {"pmid": "27282765", "study_type": "Review", "tier": "3",
+         "notes": "血小板多功能性綜述（2016），提供血小板在免疫反應中的背景脈絡。"}
+      ]
+    },
+
+    {
+      "disease_name": "hemorrhagic disorder due to a constitutional thrombocytopenia（先天性血小板減少症出血疾患）",
+      "txgnn_score": 0.9166,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性血小板減少症（如 Bernard-Soulier syndrome、MYH9 相關疾患、Wiskott-Aldrich）的出血源於血小板數量不足。Human Thrombin 可在低血小板環境下直接生成 fibrin，但此機轉僅提供有限補充，無法解決血小板計數不足的根本問題，且反覆 thrombin 暴露存在免疫原性風險。現有三篇文獻（PMID 10544786、9042822、6229303）均為疾病機轉研究，無臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "9042822", "study_type": "Basic Science", "tier": "3",
+         "notes": "血小板 alpha 顆粒缺陷與 thrombin 誘導的 P-selectin 選擇性損傷研究（1997），確認先天性血小板功能缺陷中 thrombin 反應受損，不利於治療應用。"},
+        {"pmid": "6229303", "study_type": "Review", "tier": "3",
+         "notes": "Bernard-Soulier 症候群凝血酶原消耗缺陷的歷史假說綜述（1948–1982），背景文獻，顯示此疾病群對 thrombin 生成本已存在缺陷。"},
+        {"pmid": "10544786", "study_type": "Review", "tier": "3",
+         "notes": "兒童止血疾患探討（法文，1999），含先天性血小板減少症分類，背景文獻。"}
+      ]
+    },
+
+    {
+      "disease_name": "non-syndromic esophageal malformation（非症候群型食道畸形）",
+      "txgnn_score": 0.9168,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非症候群型食道畸形（如食道閉鎖 EA、氣管食道瘻管 TEF）為先天性結構發育異常，標準治療為外科手術重建，屬機械性問題。Human Thrombin 作為止血/凝血酶製劑，對先天性結構畸形無任何已知生物學修復機轉。TxGNN 高分（0.9168）最可能源於知識圖譜中此疾病與「esophageal disease」節點的計算鄰近性（score 高度相近），為算法假陽性。臨床試驗與文獻均為零。強烈建議不予推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN Score | 證據等級 | 決策階段 | 建議 |
+|--------|------------|---------|---------|------|
+| **esophageal disease**（胃食道靜脈曲張） | 0.8654 | **L1** | **S3** | ✅ **Proceed with Guardrails** |
+| Glanzmann thrombasthenia | 0.9664 | L3 | S2 | 🔬 Research Question |
+| primary release disorder of platelets | 0.9695 | L4 | S1 | 🔬 Research Question |
+| bleeding diathesis / collagen receptor defect | 0.9155 | L4 | S1 | 🔬 Research Question |
+| Scott syndrome | 0.9150 | L4 | S1 | 🔬 Research Question |
+| platelet-type bleeding disorder | 0.8613 | L4 | S1 | 🔬 Research Question |
+| pseudo-von Willebrand disease | 0.9652 | L5 | S0 | ⛔ Hold |
+| fetal & neonatal alloimmune thrombocytopenia | 0.8621 | L5 | S0 | ⛔ Hold |
+| hemorrhagic disorder / constitutional thrombocytopenia | 0.9166 | L5 | S0 | ⛔ Hold |
+| non-syndromic esophageal malformation | 0.9168 | L5 | S0 | ⛔ Hold（演算法假陽性） |
+
+---
+
+## 🔑 關鍵發現
+
+### ⚠️ TxGNN 分數與證據等級的矛盾
+**pseudo-vWD（0.9652）** 和 **non-syndromic esophageal malformation（0.9168）** 的 TxGNN 分數雖高，但均評為 **L5/S0**。前者可能因機轉上有害（GPIbα 功能增益 + thrombin 額外活化 = 加重血小板消耗）；後者為明確的演算法假陽性。高 TxGNN 分數不等同於臨床可行性，需系統性證據評估。
+
+### ✅ 最強適應症：Esophageal Disease（胃靜脈曲張）
+唯一達 **L1** 等級：Phase 3 RCT（NCT01717612）+ 2022 年系統性回顧/統合分析（PMID 33728506）+ 2023–2024 年多項前瞻性隊列研究，機轉明確，安全性已被多中心研究確認。主要 guardrail 為 SG 市場登記狀態。
+
+### 🔬 最具機轉合理性的孤兒藥候選：Scott Syndrome
+雖目前僅 L4，但機轉高度合理（直接補充 PS 外翻缺陷所致的 thrombin 生成不足），且為超罕見疾病（全球 <50 例），符合孤兒藥研究邏輯，值得設計 Phase 1/proof-of-concept 試驗。

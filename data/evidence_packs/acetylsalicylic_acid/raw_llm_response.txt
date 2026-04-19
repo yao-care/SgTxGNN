@@ -1,0 +1,563 @@
+```json
+{
+  "drug": "Acetylsalicylic acid (Aspirin)",
+  "drugbank_id": "DB00945",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "ASA 為全球最廣泛使用的抗血小板/解熱鎮痛藥。本地市場狀態標示「未上市」（SgTxGNN 資料集），但全球臨床證據豐富，評估以全球文獻為基礎。MoA：不可逆 COX-1/COX-2 抑制 → TXA2 合成受阻 → 抗血小板 + 抗炎雙重機制。",
+  "indications": [
+    {
+      "disease_name": "thrombotic disease",
+      "txgnn_score": 0.9914,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "ASA 不可逆抑制 COX-1，阻斷 TXA2 合成，抑制血小板活化與聚集，為動脈血栓預防的核心機制。大量 Phase 3/4 RCT（ACS、PCI 後雙重抗血小板、APL 症候群）直接支持此適應症，是 ASA 最核心已確立的臨床用途。",
+      "guardrails": [
+        "出血風險評估（GI 出血、顱內出血）為必要安全防護",
+        "需依血栓類型（動脈 vs 靜脈）調整劑量與療程",
+        "與抗凝血藥（warfarin、DOAC）合用需嚴格監測",
+        "COVID-19 血栓適應症仍需更多 RCT 確認"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04217447",
+          "title": "Assessment of Quitting Versus Using Aspirin in Patients With Oral Anticoagulation",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "relevance_grade": "A",
+          "reasoning": "直接評估 ASA 在抗凝治療患者中的血栓預防角色；雖提前終止但屬 Phase 3 設計，直接相關性最高"
+        },
+        {
+          "nct_id": "NCT02118870",
+          "title": "Randomized Evaluation of Short-term Dual Antiplatelet Therapy in ACS",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 完成試驗，直接測試 ASA 為基礎之雙重抗血小板策略於 ACS（血栓疾病）中的療效，高度相關"
+        },
+        {
+          "nct_id": "NCT01186146",
+          "title": "Optimal Duration of Clopidogrel After Drug-Eluting Stent (n=5000)",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "最大規模完成試驗（n=5000），ASA 為標準背景治療，評估 DES 後血栓預防策略，支持 ASA 在支架血栓預防的核心地位"
+        },
+        {
+          "nct_id": "NCT02545933",
+          "title": "Adjunctive Vorapaxar + ASA in Prior MI",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "ASA 為對照/背景治療，主要探討 vorapaxar 附加效益，間接確認 ASA 在心肌梗塞後血栓預防的標準角色"
+        },
+        {
+          "nct_id": "NCT03039205",
+          "title": "Platelet Aggregation and Adenosine Levels in CAD",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "ASA 治療下評估血小板聚集機制，提供 ASA 抗血栓機制支持數據"
+        },
+        {
+          "nct_id": "NCT03120182",
+          "title": "Perioperative Maintenance or Interruption of Low-dose Aspirin",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "評估周術期 ASA 中斷對血栓復發率的影響，間接支持 ASA 持續治療的必要性"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29321641",
+          "title": "Antiphospholipid syndrome",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "APL 症候群標準治療中 ASA 的角色；高品質系統性回顧"
+        },
+        {
+          "pmid": "22315272",
+          "title": "Antithrombotic and thrombolytic therapy for valvular disease (CHEST guideline)",
+          "year": "2012",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "notes": "CHEST 指引直接建議 ASA 用於瓣膜疾病抗血栓治療"
+        },
+        {
+          "pmid": "34328635",
+          "title": "Acetylsalicylic Acid Compared with Enoxaparin for Prevention of Thrombosis",
+          "year": "2021",
+          "study_type": "Comparative Study/RCT",
+          "tier": "1",
+          "notes": "直接比較 ASA 與低分子量肝素的血栓預防效果，高相關性"
+        },
+        {
+          "pmid": "33928791",
+          "title": "Could Low Doses ASA Prevent Thrombotic Complications in COVID-19?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "新興適應症（COVID-19 血栓），尚待更多 RCT 確認"
+        },
+        {
+          "pmid": "35170216",
+          "title": "Prevention of arterial and venous thrombotic events in peripheral arterial disease",
+          "year": "2022",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "notes": "系統性回顧 ASA 在周邊動脈疾病血栓預防的療效"
+        },
+        {
+          "pmid": "32187042",
+          "title": "Treatment of thrombotic antiphospholipid syndrome",
+          "year": "2020",
+          "study_type": "Review/Guideline",
+          "tier": "1",
+          "notes": "APL 症候群治療指引，低劑量 ASA 為一線建議"
+        }
+      ]
+    },
+    {
+      "disease_name": "thrombophilia",
+      "txgnn_score": 0.9904,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "血栓性素質患者（遺傳性或後天性）體內 TXA2/PGI2 失衡，ASA 透過抑制 COX-1 減少 TXA2 介導的血小板過度活化，特別在妊娠相關血栓性素質（如反覆流產、子癇前症）中，ASA 與 LMWH 聯合使用已有多項 Phase 3 試驗支持。",
+      "guardrails": [
+        "妊娠血栓性素質：ASA 低劑量（75-100mg）需與 LMWH 合用，不宜單獨作為主要治療",
+        "遺傳性血栓性素質（HCII缺乏、AT缺乏等）應以抗凝血藥為主，ASA 為輔",
+        "出血風險（特別是妊娠期）需嚴格監測",
+        "黏稠血小板症候群為特定亞族群，可能獲益更大"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01542411",
+          "title": "Effectiveness of Aspirin vs Heparin+Aspirin in Recurrent Pregnancy Loss",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "直接比較 ASA 單用 vs ASA+肝素於反覆妊娠流失（血栓性素質相關）的療效，n=520，完成試驗，直接相關性最高"
+        },
+        {
+          "nct_id": "NCT00564174",
+          "title": "LMWH vs Aspirin Alone in Thrombophilia-related Pregnancy Loss",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "relevance_grade": "A",
+          "reasoning": "直接比較 LMWH vs ASA 單用於血栓性素質，雖提前終止但直接評估 ASA 的角色"
+        },
+        {
+          "nct_id": "NCT00740545",
+          "title": "Enoxaparine vs Placebo in Thrombophilia (Phase 3)",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 試驗評估血栓性素質抗凝治療，ASA 為對照/背景治療，間接支持抗血小板策略的位置"
+        },
+        {
+          "nct_id": "NCT03165136",
+          "title": "Hydroxychloroquine Prevention of Recurrent Miscarriage (Phase 3)",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "評估 HCQ 而非 ASA，但研究族群（反覆流產/血栓性素質）與 ASA 適應症重疊，可提供疾病背景資訊"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37334488",
+          "title": "Recurrent Miscarriage: Green-top Guideline No.17 (RCOG 2023)",
+          "year": "2023",
+          "study_type": "Clinical Practice Guideline",
+          "tier": "1",
+          "notes": "最新 RCOG 指引明確建議低劑量 ASA 用於血栓性素質相關反覆流產，直接支持"
+        },
+        {
+          "pmid": "22729089",
+          "title": "Recurrent miscarriage and thrombophilia: an update",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "評估 ASA 在血栓性素質相關反覆流產中的療效，系統性回顧"
+        },
+        {
+          "pmid": "16888444",
+          "title": "Prophylaxis and treatment of thrombophilia in pregnancy",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "妊娠期血栓性素質的 ASA + LMWH 策略綜述"
+        },
+        {
+          "pmid": "23934738",
+          "title": "Sticky platelet syndrome",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "黏稠血小板症候群（一種血栓性素質亞型），ASA 為主要治療選項"
+        },
+        {
+          "pmid": "33187021",
+          "title": "Inherited thrombophilia and anticoagulant therapy for reproductive failure",
+          "year": "2021",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "notes": "2021 系統性回顧遺傳性血栓性素質的治療策略，包含 ASA 的角色評估"
+        }
+      ]
+    },
+    {
+      "disease_name": "Raynaud disease",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "雷諾氏病的核心機制為血管痙攣與血小板過度活化（高 TXA2、低 PGI2 的比例失衡）。ASA 透過抑制 COX-1 降低 TXA2 生成，同時保留內皮 PGI2（prostacyclin）的血管舒張效應，理論上可改善血管痙攣。另有研究顯示 ASA 可調節 alpha-2 腎上腺素受體敏感性。",
+      "guardrails": [
+        "現有 RCT 規模小（1987年，n 未知）且為歷史研究，需更新研究設計確認",
+        "原發性 vs 繼發性雷諾氏病（如系統性硬化症）療效可能不同",
+        "NCT03558854（Phase 4, n=70）僅評估生物標記而非臨床症狀改善，需臨床終點確認",
+        "高劑量 ASA 可抑制 PGI2 合成，低劑量（<100mg/day）才有選擇性 TXA2 抑制效益"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03558854",
+          "title": "Evaluation of Effectiveness of ASA on Markers of Vascular Dysfunction in Raynaud's Patients",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "直接評估 ASA 對雷諾氏病血管功能標記的效益，Phase 4 已完成（n=70），相關性最高，但以生物標記為終點而非症狀，臨床意義需補充"
+        },
+        {
+          "nct_id": "NCT06888973",
+          "title": "Mesenchymal Stem Cells in Autoimmune Diseases",
+          "phase": "PHASE1/2",
+          "status": "ENROLLING_BY_INVITATION",
+          "relevance_grade": "C",
+          "reasoning": "評估 MSC 而非 ASA，疾病族群與雷諾氏病重疊，但對 ASA 再利用評估無直接幫助"
+        },
+        {
+          "nct_id": "NCT01233999",
+          "title": "Botulinum Toxin in Raynaud's Treatment",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "評估肉毒桿菌素，非 ASA；提供雷諾氏病治療替代策略背景資訊"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3299819",
+          "title": "Double-blind controlled trial of low dose ASA and dipyridamole in Raynaud's treatment",
+          "year": "1987",
+          "study_type": "RCT",
+          "tier": "1",
+          "notes": "關鍵文獻：唯一雙盲 RCT 直接評估低劑量 ASA + dipyridamole 在雷諾氏病的療效；年代較久（1987年）需現代研究更新"
+        },
+        {
+          "pmid": "27129065",
+          "title": "Raynaud's phenomenon: pharmacologic approach and alternative treatments",
+          "year": "2016",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "2016 年系統性藥理治療回顧，ASA 在治療選項中有所討論，但非一線建議"
+        },
+        {
+          "pmid": "3332095",
+          "title": "Prostaglandins in pathogenesis and prevention of vascular disease",
+          "year": "1987",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "提供 ASA 影響 TXA2/PGI2 平衡的機轉基礎，支持其在血管痙攣疾病的理論依據"
+        },
+        {
+          "pmid": "15073997",
+          "title": "Peripheral vasodilators in peripheral vascular disease and Raynaud's syndrome",
+          "year": "1998",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "ASA 在雷諾氏病藥物治療選項中的位置評估"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "偏頭痛先兆（尤其腦幹先兆）涉及皮質擴散性抑制（CSD）和三叉神經血管活化。血小板在 CSD 觸發中扮演角色：血小板活化釋放血清素可觸發三叉神經末梢，TXA2 亦可促進顱內血管收縮。ASA 透過 TXA2 抑制可減少血小板介導的三叉神經活化，理論上具預防先兆型偏頭痛的潛力。此外腦幹先兆型偏頭痛與缺血性腦中風風險相關，ASA 的抗血栓效益可提供附加保護。",
+      "guardrails": [
+        "腦幹先兆型偏頭痛患者合併卵圓孔未閉（PFO）時 ASA 的角色需釐清",
+        "腦幹先兆型偏頭痛含血管收縮風險，需排除禁忌症（如同時使用曲坦類藥物）",
+        "反覆腦幹先兆需先排除後循環 TIA，確認診斷後再考慮 ASA 預防",
+        "孕婦偏頭痛使用 ASA 需謹慎（妊娠第三期禁忌）",
+        "尚無針對「腦幹先兆型」的獨立 RCT，現有證據主要來自「先兆型偏頭痛」整體族群"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39989443",
+          "title": "Do antithrombotic drugs have a role in migraine prevention? A systematic review (2025)",
+          "year": "2025",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "notes": "2025 最新系統性回顧，直接評估 ASA 等抗血栓藥物在偏頭痛預防的角色，為目前最高品質間接證據"
+        },
+        {
+          "pmid": "25729594",
+          "title": "Acetylsalicylic Acid in migraine with aura prevention - a retrospective study",
+          "year": "2014",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "notes": "唯一直接評估 ASA 在先兆型偏頭痛預防的回顧性研究，相關性最高但設計層級受限"
+        },
+        {
+          "pmid": "25600718",
+          "title": "AHS Evidence Assessment of Migraine Treatments in Adults",
+          "year": "2015",
+          "study_type": "Evidence-based Guideline",
+          "tier": "1",
+          "notes": "美國頭痛學會證據評估，ASA 獲納入偏頭痛急性期治療選項（B 級證據）"
+        },
+        {
+          "pmid": "35006660",
+          "title": "Stroke: Primary Prevention",
+          "year": "2022",
+          "study_type": "Review/Guideline",
+          "tier": "1",
+          "notes": "腦幹先兆型偏頭痛與缺血性腦中風高度相關，此指引中 ASA 作為腦中風初級預防藥物，支持其在先兆型偏頭痛高風險族群的保護角色"
+        },
+        {
+          "pmid": "15891416",
+          "title": "Patent foramen ovale: paradoxical connection to migraine and stroke",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "PFO 與偏頭痛/腦中風機轉連結，支持抗血栓策略於特定亞族群（PFO+先兆型偏頭痛）的理論依據"
+        },
+        {
+          "pmid": "34384631",
+          "title": "Migraine with aura",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": "2",
+          "notes": "先兆型偏頭痛的病理機制與治療全面回顧，提供疾病背景理解"
+        }
+      ]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自主神經頭痛（TAC，包含叢集性頭痛、陣發性偏頭痛、SUNCT 等）以三叉神經-自主神經反射活化為核心機制。ASA 的潛在機轉為：(1) 血小板 5-HT 釋放與 TAC 疼痛傳導相關（PMID 3921257），(2) 抗炎效益可能減少三叉神經節發炎；但 TAC 的主要治療（舒馬曲坦、維拉帕米、吲哚美辛）機制與 ASA 有根本差異，目前無直接臨床證據。",
+      "reasons_for_hold": [
+        "現有文獻（11篇）全部聚焦於舒馬曲坦/曲坦類藥物，無 ASA 直接用於 TAC 的臨床研究",
+        "NCT04939922 為中國頭痛登記研究（登記性研究，非介入性），不評估 ASA 療效",
+        "吲哚美辛（Indomethacin）為陣發性偏頭痛特異性治療，ASA 若有效需解釋差異機制",
+        "叢集性頭痛急性期以高流量氧氣和舒馬曲坦為標準，ASA 無確立地位"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04939922",
+          "title": "China Headache and Vertigo Registry Study",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "登記性觀察研究（n=10000），並非評估 ASA 療效的介入性試驗；對 ASA 再利用於 TAC 無直接貢獻"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3921257",
+          "title": "Concentration and uptake of 5-HT in platelets from cluster headache and migraine patients",
+          "year": "1985",
+          "study_type": "Observational",
+          "tier": "2",
+          "notes": "提供血小板 5-HT 在 TAC 中的機轉基礎，是唯一與 ASA 機轉相關的間接支持文獻"
+        },
+        {
+          "pmid": "27861830",
+          "title": "Hemicrania Continua: Beneficial Effect of Non-Invasive Vagus Nerve Stimulation",
+          "year": "2017",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "TAC 亞型（HC）的替代治療個案報告，與 ASA 無直接關聯"
+        },
+        {
+          "pmid": "1379152",
+          "title": "Sumatriptan pharmacodynamics and therapeutic efficacy (review)",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": "3",
+          "notes": "舒馬曲坦回顧，非 ASA；提供 TAC 標準治療背景資訊"
+        }
+      ]
+    },
+    {
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn_score": 0.9941,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝素輔因子 II（HCII）為凝血酶的天然抑制劑，缺乏時凝血酶活性升高，血小板活化增強，導致血栓傾向。ASA 可藉由抑制 TXA2 減少血小板聚集，理論上可部分補償 HCII 缺乏的血栓風險；然而 HCII 缺乏的主要問題在凝血酶過度活化，抗血小板治療的效益有限，抗凝血藥（如肝素、DOAC）才是病理邏輯上更直接的治療。",
+      "reasons_for_hold": [
+        "三篇文獻（1990-1992 年）均為病例報告/病例系列，描述 HCII 缺乏的血栓表現，非 ASA 治療研究",
+        "HCII 缺乏為罕見遺傳性疾病，文獻極度匱乏，無法建立 ASA 治療依據",
+        "無臨床試驗，無 ASA 直接治療 HCII 缺乏的個案報告",
+        "PMID 1440517 描述蛋白 C 缺乏合併心肌梗塞，與 HCII 缺乏的相關性間接且有限"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1615493",
+          "title": "Hereditary heparin cofactor II deficiency and coronary artery disease",
+          "year": "1992",
+          "study_type": "Case Series",
+          "tier": "3",
+          "notes": "描述 HCII 缺乏與冠狀動脈疾病的關聯，無 ASA 治療數據，僅提供疾病機轉理解"
+        },
+        {
+          "pmid": "2214444",
+          "title": "Right ventricular thrombosis due to familial HCII deficiency",
+          "year": "1990",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "個案報告，描述 HCII 缺乏的臨床表現，無 ASA 治療資訊"
+        },
+        {
+          "pmid": "1440517",
+          "title": "Congenital protein C deficiency and myocardial infarction",
+          "year": "1992",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "蛋白 C 缺乏（非 HCII 缺乏）的個案，文獻相關性較低"
+        }
+      ]
+    },
+    {
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "蠕蟲狀皮膚萎縮（Atrophoderma vermiculata）為罕見遺傳性角化症，屬毛周角化異型，主要由毛囊漏斗部角化栓塞引起，與炎症、免疫機制相關性尚不明確。ASA 的抗炎機制在理論上可能與部分毛囊炎症有關，但目前無任何臨床或文獻證據支持 ASA 用於此適應症。TxGNN 預測分數高（0.996）可能反映知識圖譜中「皮膚炎症」節點的拓撲相似性，而非生物學相關性。",
+      "reasons_for_hold": [
+        "無任何臨床試驗（0 trials）",
+        "無任何支持文獻（0 literature）",
+        "僅有 TxGNN 模型預測，屬純計算預測無臨床驗證",
+        "此病為罕見病（極罕見），缺乏流行病學基礎設計臨床試驗"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn_score": 0.9945,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "眉毛鱗狀毛囊角化症（Ulerythema ophryogenesis）為罕見毛周角化症，以眉部鱗狀紅斑和毛囊萎縮為特徵，常與其他發育綜合症（如 Noonan 症候群）相關。其病理機制以毛囊角化失常為主，ASA 的 COX 抑制機轉對此適應症無明確理論依據。與 atrophoderma vermiculata 類似，此預測結果極可能為知識圖譜節點相似性造成的偽陽性。",
+      "reasons_for_hold": [
+        "無任何臨床試驗（0 trials）",
+        "無任何支持文獻（0 literature）",
+        "TxGNN 預測可能為「罕見皮膚病」節點拓撲鄰近效應",
+        "此病極罕見，不具備進行系統性臨床試驗的流行病學基礎"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "第五凝血因子過量伴自發性血栓為極罕見的凝血異常。理論上 ASA 可透過抑制血小板 TXA2 減少血小板對第五因子過量環境下的血栓形成貢獻；然而第五因子過量的主要病理為凝血酶生成過旺，需抗凝血藥介入而非抗血小板。目前無文獻或試驗數據支持 ASA 的使用。",
+      "reasons_for_hold": [
+        "無任何臨床試驗（0 trials）",
+        "無任何支持文獻（0 literature）",
+        "極罕見疾病，幾乎無文獻描述此特定實體",
+        "病理機制（凝血因子過量）指向抗凝血藥，而非抗血小板藥"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "antithrombin deficiency type 2",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "抗凝血酶缺乏第二型（功能性缺陷）導致血栓素活性增加、凝血酶未受有效抑制。ASA 抗血小板機轉可理論上減少血小板相關血栓形成，但抗凝血酶缺乏的核心病理在凝血酶過度活化（凝血途徑），肝素補充和長期抗凝血治療（DOAC/warfarin）才是主流治療。無任何 ASA 直接用於此適應症的臨床證據。",
+      "reasons_for_hold": [
+        "無任何臨床試驗（0 trials）",
+        "無任何支持文獻（0 literature）",
+        "此病為罕見遺傳性血栓性疾病，標準治療為抗凝血藥，ASA 無明確補充角色",
+        "僅 TxGNN 分數支持，缺乏任何臨床驗證"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "L1_S3": ["thrombotic disease"],
+    "L2_S3": ["thrombophilia"],
+    "L2_S2": ["Raynaud disease"],
+    "L3_S2": ["migraine with brainstem aura"],
+    "L4_S1": ["trigeminal autonomic cephalalgia"],
+    "L4_S0": ["heparin cofactor 2 deficiency"],
+    "L5_S0": [
+      "atrophoderma vermiculata",
+      "ulerythema ophryogenesis",
+      "factor 5 excess with spontaneous thrombosis",
+      "antithrombin deficiency type 2"
+    ]
+  },
+  "prioritization_recommendation": {
+    "immediate_proceed": [
+      "thrombotic disease（L1/S3）— ASA 已為標準治療，直接進入臨床指引整合"
+    ],
+    "high_priority_research": [
+      "thrombophilia（L2/S3）— 重點發展妊娠相關血栓性素質適應症，補充現有 RCT 缺口",
+      "Raynaud disease（L2/S2）— 更新 1987 年 RCT，納入現代終點（症狀評分 + 血管功能標記）"
+    ],
+    "medium_priority_research": [
+      "migraine with brainstem aura（L3/S2）— 設計針對腦幹先兆型的前瞻性 Phase 2 研究，特別關注 PFO 陽性亞族群"
+    ],
+    "deprioritize": [
+      "trigeminal autonomic cephalalgia — 缺乏機轉優先級，現有治療已完善",
+      "所有 L5 適應症 — 純計算預測，建議先進行體外機轉研究後再考慮臨床推進"
+    ]
+  },
+  "data_quality_notes": {
+    "market_status_flag": "本地市場狀態「未上市」可能反映新加坡藥品資料庫覆蓋率問題，非全球可用性。ASA 為全球廣泛核准藥物，此標記不影響證據等級評估。",
+    "moa_data_gap": "原始資料標示 MoA 為 [Data Gap]，評估基於已知藥理學（COX-1/COX-2 不可逆抑制）進行，建議補充 DrugBank DB00945 標準機轉描述。",
+    "literature_count_vs_shown": "部分適應症的 literature_count 顯示較多文獻（如 thrombotic disease = 20篇），但資料集僅顯示前10篇，分析基於可見文獻，完整評估需審閱所有20篇。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **thrombotic disease** | 0.9914 | **L1** ✅ | **S3** | Proceed with Guardrails |
+| **thrombophilia** | 0.9904 | **L2** | **S3** | Proceed with Guardrails |
+| **Raynaud disease** | 0.9867 | **L2** | **S2** | Research Question |
+| **migraine with brainstem aura** | 0.9994 | **L3** | **S2** | Research Question |
+| **trigeminal autonomic cephalalgia** | 0.9940 | **L4** | **S1** | Hold |
+| **heparin cofactor 2 deficiency** | 0.9941 | **L4** | **S0** | Hold |
+| **atrophoderma vermiculata** | 0.9959 | **L5** ⚠️ | **S0** | Hold |
+| **ulerythema ophryogenesis** | 0.9945 | **L5** ⚠️ | **S0** | Hold |
+| **factor 5 excess** | 0.9940 | **L5** ⚠️ | **S0** | Hold |
+| **antithrombin deficiency type 2** | 0.9940 | **L5** ⚠️ | **S0** | Hold |
+
+> ⚠️ **重要觀察**：TxGNN 分數高（>0.99）≠ 臨床證據充分。Atrophoderma vermiculata（0.9959）與 thrombotic disease（0.9914）分數相差極小，但臨床證據等級相差 4 個級距（L5 vs L1），顯示 **模型分數不可直接作為臨床優先性依據**，必須結合本框架的多維度證據評估。

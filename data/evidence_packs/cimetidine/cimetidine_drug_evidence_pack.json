@@ -1,0 +1,2436 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00501-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cimetidine",
+    "drugbank_id": "DB00501",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "Smouldering systemic mastocytosis",
+      "txgnn": {
+        "score": 0.9980481863021852,
+        "rank": 3347
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "系統性肥大細胞增多症（緩進型）特徵為肥大細胞大量增殖並釋放組織胺、類胰蛋白酶等介質。Cimetidine 作為 H2 受體拮抗劑，可阻斷組織胺對胃腸道（H2 受體）的作用，緩解消化道症狀（胃酸分泌過多、腹瀉）。此適應症在肥大細胞病的症狀管理中有合理機轉依據（H1+H2 雙重拮抗為標準症狀治療策略）。⚠️ 提供資料中無任何臨床試驗或文獻支持，高 TxGNN 分數可能反映知識圖譜的機轉連結推理，非臨床驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "active peptic ulcer disease",
+      "txgnn": {
+        "score": 0.9979100823402404,
+        "rank": 3538
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01757275",
+            "title": "A Multi-center, Randomised, Double-blind, Parallel-group Phase III Study to Assess High Dose Esomeprazole Na i.v. Treatment (Bolus Infusion of 80 mg Followed by a Continuous Infusion of 8 mg Per Hour Administered for 72 Hours) for Prevention of Rebleeding",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 239,
+            "start_date": "2013-02",
+            "completion_date": "2014-12",
+            "brief_summary": "To describe the rate of clinically significant rebleeding during 72 hours continuous i.v. infusion of high dose esomeprazole Na in patients in China with primary successful endoscopic haemostatic therapy of a bleeding peptic ulcer, with cimetidine i.v. in",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 完成試驗（n=239），研究高劑量 Esomeprazole 用於消化性潰瘍，與本適應症相同但測試藥物為 PPI 而非 Cimetidine。驗證適應症臨床可行性，但不直接支持 Cimetidine 效益，屬同類適應症旁證。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2905640",
+            "title": "Nizatidine. A preliminary review of its pharmacodynamic and pharmacokinetic properties, and its therapeutic use in peptic ulcer disease.",
+            "authors": [
+              "Price A H",
+              "Brogden R N"
+            ],
+            "journal": "Drugs",
+            "year": "1988",
+            "abstract": "Nizatidine is an H2-receptor antagonist which in animal studies was more active on a weight-for-weight basis than cimetidine in inhibiting basal and stimulated gastric acid secretion. Similarly, studies in humans have confirmed that nizatidine is a potent inhibitor of basal, nocturnal and stimulated gastric acid secretion. As might be expected at this stage of its development, published therapeutic experience with nizatidine is limited. Nevertheless, multicentre therapeutic trials have shown tha",
+            "classification": {
+              "study_type": "Review（Nizatidine 藥理/藥動/療效）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2905237",
+            "title": "Prostaglandins, H2-receptor antagonists and peptic ulcer disease.",
+            "authors": [
+              "Bright-Asare P",
+              "Habte T",
+              "Yirgou B",
+              "Benjamin J"
+            ],
+            "journal": "Drugs",
+            "year": "1988",
+            "abstract": "Peptic ulcer develops when offensive factors overwhelm defensive processes in the gastroduodenal mucosa. Offensive factors include NSAIDs, hydrochloric acid-peptic activity, bile reflux, and some products of the lipoxygenase pathway such as leukotriene B4; whereas defensive processes are largely mediated by prostaglandins through poorly understood mechanisms uniformly termed cytoprotection. Cytoprotection, a physiological process working through the products of arachidonic acid metabolism, may r",
+            "classification": {
+              "study_type": "Review（前列腺素、H2 拮抗劑與消化性潰瘍）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8736619",
+            "title": "Ebrotidine.",
+            "authors": [
+              "Patel S S",
+              "Wilde M I"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "Ebrotidine is the first of a new generation of H2 receptor antagonists with gastroprotective activity It stimulates epithelial cell proliferative activity and produces beneficial physicochemical changes in the gastric mucus that contribute to its gastro-protective action against ethanol-, aspirin- or stress-induced gastric mucosal damage The antisecretory properties of ebrotidine are similar to those of ranitidine and approximately 10-fold greater than those of cimetidine This drug exhibits anti",
+            "classification": {
+              "study_type": "Review（Ebrotidine 藥理）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6317325",
+            "title": "Ranitidine hydrochloride.",
+            "authors": [
+              "Gaginella T S",
+              "Bauman J H"
+            ],
+            "journal": "Drug intelligence & clinical pharmacy",
+            "year": "1983",
+            "abstract": "Ranitidine is a selective, competitive histamine H2-receptor antagonist recently approved by the Food and Drug Administration for use in the short-term treatment of active duodenal ulcers and gastric hypersecretory conditions. Ranitidine is four to ten times more potent than cimetidine on a molar basis in inhibiting stimulated gastric acid secretion. Clinical studies have demonstrated that ranitidine is as effective as cimetidine and is similarly well tolerated. Based on available literature (ap",
+            "classification": {
+              "study_type": "Review（Ranitidine 藥理）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6367680",
+            "title": "Tricyclic antidepressant therapy for peptic ulcer disease.",
+            "authors": [
+              "Ries R K",
+              "Gilbert D A",
+              "Katon W"
+            ],
+            "journal": "Archives of internal medicine",
+            "year": "1984",
+            "abstract": "The role of tricyclic antidepressants (TCAs) as agents for treatment of peptic ulcer disease is of growing interest. In both placebo-controlled clinical trials and comparative studies with cimetidine, TCAs have proved effective and safe as ulcer-healing agents. The mechanism of action by which TCAs produce healing has not been fully elucidated. In vivo studies in man have generally shown that TCAs decrease gastric acid secretion. In addition to their well-known anticholinergic properties, in vit",
+            "classification": {
+              "study_type": "RCT（三環抗憂鬱劑對照）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6990861",
+            "title": "The relationship between active peptic ulcer, endoscopic duodenitis and symptomatic state after treatment with cimetidine.",
+            "authors": [
+              "Danielsson A",
+              "Ek B",
+              "Nyhlin H",
+              "Steen L"
+            ],
+            "journal": "Annals of clinical research",
+            "year": "1980",
+            "abstract": "Fifty patients with active peptic ulcers on endoscopy were randomly allocated for treatment with placebo or cimetidine (1.0 g daily) over a period of four weeks. All patients had free access to antacids to relieve epigastric pain. In the cimetidine group a significantly higher proportion of the ulcers had healed (82.6% of the patients) compared with the placebo group (48.0%). There was poor correlation between the healing of the ulcer and dyspeptic symptoms in the placebo group. The results sugg",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3092659",
+            "title": "Comparison of enprostil and cimetidine in active duodenal ulcer disease. Summary of pooled European studies.",
+            "authors": [
+              "Winters L"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1986",
+            "abstract": "Data were combined for statistical analysis from four European trials comparing enprostil (35 micrograms twice daily) with cimetidine (400 mg twice daily) in the treatment of duodenal ulcer, using a double-blind, randomized design with endoscopic control. A total of 369 patients entered the trials, of whom 348 were eligible for the efficacy analyses and 362 for the safety analyses. Patients were allowed antacids as needed. The pooled cumulative healing rates at two, four, and six weeks were 40, ",
+            "classification": {
+              "study_type": "Pooled Analysis（多中心歐洲臨床試驗彙整）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7034155",
+            "title": "Antacid/anticholinergic, cimetidine, and placebo in treatment of active peptic ulcers.",
+            "authors": [
+              "Ström M",
+              "Gotthard R",
+              "Bodemar G",
+              "Walan A"
+            ],
+            "journal": "Scandinavian journal of gastroenterology",
+            "year": "1981",
+            "abstract": "Seventy-two patients with duodenal (54) or prepyloric (18) ulcers have taken part in a 12-week double-blind trial. Twenty-four patients received cimetidine, 1 g/day; 24 patients received 10 ml of an antacid suspension (buffering 85 mmol acid) 1 and 3 h after every meal and at bedtime and 0.6 mg L-hyoscyamine in sustained-release tablets twice a day; and 24 patients received placebo. The healing rate after 3 weeks' treatment was 67% (p less than 0.005 compared with placebo) with cimetidine, 50% (",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3928324",
+            "title": "Pirenzepine. A review of its pharmacodynamic and pharmacokinetic properties and therapeutic efficacy in peptic ulcer disease and other allied diseases.",
+            "authors": [
+              "Carmine A A",
+              "Brogden R N"
+            ],
+            "journal": "Drugs",
+            "year": "1985",
+            "abstract": "Pirenzepine is a 'selective' antimuscarinic agent which, unlike classic anticholinergic agents, inhibits gastric acid secretion at lower doses than are required to affect gastrointestinal motility, salivary, central nervous system, cardiovascular, ocular and urinary functions. On a weight basis, pirenzepine has one-tenth to one-eighth the potency of atropine in inhibiting stimulated gastric acid secretion in humans. Extensive controlled trials utilising endoscopy in outpatients with duodenal ulc",
+            "classification": {
+              "study_type": "Review（Pirenzepine 藥理）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3122278",
+            "title": "Misoprostol in peptic ulcer disease.",
+            "authors": [
+              "Watkinson G",
+              "Akbar F A"
+            ],
+            "journal": "Prostaglandins",
+            "year": "1987",
+            "abstract": "Misoprostol, a synthetic prostaglandin E1 (PGE1) methyl ester analog has potent antisecretory and cytoprotective effects on the gastric and duodenal mucosa which should make it an effective drug in the treatment of gastric and duodenal ulcer. In two multicenter, randomised, double-blind, controlled studies involving over 900 patients with endoscopically proven benign gastric ulcer and in six similar studies involving over 2000 patients with active duodenal ulcers, differing doses of misoprostol ",
+            "classification": {
+              "study_type": "Review（Misoprostol 於消化性潰瘍）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3527658",
+            "title": "Omeprazole. A preliminary review of its pharmacodynamic and pharmacokinetic properties, and therapeutic potential in peptic ulcer disease and Zollinger-Ellison syndrome.",
+            "authors": [
+              "Clissold S P",
+              "Campoli-Richards D M"
+            ],
+            "journal": "Drugs",
+            "year": "1986",
+            "abstract": "Omeprazole is a substituted benzimidazole derivative which markedly inhibits basal and stimulated gastric acid secretion. It has a unique mode of action, irreversibly blocking the so-called proton pump of the parietal cell which is supposedly the terminal step in the acid secretory pathway. In animals, on a weight basis, omeprazole is 2 to 10 times more potent than cimetidine in inhibiting gastric acid secretion. Toxicological studies in rats have shown that very high doses of omeprazole adminis",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1717223",
+            "title": "Roxatidine acetate. A review of its pharmacodynamic and pharmacokinetic properties, and its therapeutic potential in peptic ulcer disease and related disorders.",
+            "authors": [
+              "Murdoch D",
+              "McTavish D"
+            ],
+            "journal": "Drugs",
+            "year": "1991",
+            "abstract": "Roxatidine acetate is a histamine H2-receptor antagonist which, after almost complete oral absorption (greater than 95%), is rapidly converted to its active metabolite, roxatidine, by esterases in the small intestine, plasma and liver. Roxatidine is a potent inhibitor of basal and stimulated gastric acid secretion in animals and humans and, like most other H2-receptor antagonists, has no anti-androgenic effects and does not interfere with the hepatic metabolism of other drugs. Large-scale trials",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3313263",
+            "title": "Molecular biochemistry and pharmacology of peptic ulcer treatment. A review.",
+            "authors": [
+              "Mózsik G",
+              "Fiegler M",
+              "Morón F",
+              "Nagy L",
+              "Patty I"
+            ],
+            "journal": "Acta medica Hungarica",
+            "year": "1987",
+            "abstract": "The membrane-bound ATP-dependent energy systems (ATP-membrane ATPase-ADP and ATP-adenylate cyclase-cAMP) play an essential role in the physiological regulation of the gastrointestinal mucosa and its damage in rat and man. A good, physiologically, hormonally and pharmacologically well controlled and regulated feedback system exists between the two energy systems. The significant increase of ATP transformation into ADP or cAMP represents a causative metabolic background of the development of gastr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3102205",
+            "title": "Misoprostol. A preliminary review of its pharmacodynamic and pharmacokinetic properties, and therapeutic efficacy in the treatment of peptic ulcer disease.",
+            "authors": [
+              "Monk J P",
+              "Clissold S P"
+            ],
+            "journal": "Drugs",
+            "year": "1987",
+            "abstract": "Misoprostol is an analogue of prostaglandin E1 and is the first synthetic prostaglandin analogue to be made available for the treatment of peptic ulcer disease. It inhibits gastric acid secretion in man, and there is also some evidence that it limits the extent of gastrointestinal damage induced by ulcerogenic agents in animals and healthy volunteers at doses lower than those required to inhibit acid secretion. This 'cytoprotective' activity has been explained by several mechanisms, but its cont",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3299677",
+            "title": "Maintenance treatment with cimetidine in peptic ulcer disease for up to 4 years.",
+            "authors": [
+              "Walan A",
+              "Bianchi-Porro G",
+              "Hentschel E",
+              "Bardhan K D",
+              "Delattre M"
+            ],
+            "journal": "Scandinavian journal of gastroenterology",
+            "year": "1987",
+            "abstract": "A multinational maintenance trial was conducted in 1842 peptic ulcer patients to investigate the efficacy and safety of continuous cimetidine maintenance therapy for up to 4 years. Patients with healed ulcers entered maintenance treatment with a 400-mg bedtime dose of cimetidine. Symptomatic ulcer relapse occurred in 17.2% of patients during the 1st year of treatment, in 9.6% during the 2nd year, and in 8.8% during the 3rd year. In addition to life-table analysis, the monthly prevalence of activ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10701981",
+            "title": "Effects of cimetidine on the pharmacokinetics of proguanil in healthy subjects and in peptic ulcer patients.",
+            "authors": [
+              "Kolawole J A",
+              "Mustapha A",
+              "Abdul-Aguye I",
+              "Ochekpe N",
+              "Taylor R B"
+            ],
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "1999",
+            "abstract": "The pharmacokinetics of orally administered proguanil and its metabolites were determined in six healthy volunteers and in six peptic ulcer patients, before and after a 3-day course of cimetidine (400 mg given two times daily for 2 days and 400 mg on the third day 1 h before proguanil). Cimetidine significantly increased Cmax (P < 0.05), AUCo-alpha (P < 0.005) and elimination half-life t 1/2b of proquanil in plasma of healthy subjects. In ulcer patients, cimetidine significantly increased, AUCo-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8057210",
+            "title": "Efficacy of twice-daily cimetidine in pediatric peptic ulcer.",
+            "authors": [
+              "Kato S",
+              "Ozawa A",
+              "Shibuya H",
+              "Ohtake M",
+              "Nakagawa H"
+            ],
+            "journal": "Journal of pediatric gastroenterology and nutrition",
+            "year": "1994",
+            "abstract": "The clinical efficacy of twice-daily cimetidine (20 mg/kg/day) was retrospectively studied in 19 children with gastric ulcer (GU) and 23 with duodenal ulcer (DU) in the active stage. Endoscopically confirmed cumulative healing rates at 2, 4, and 8 weeks of treatment were 53.5, 73.7, and 94.7% in the GU group and 15.4, 50.0, and 87.0% in the DU group, respectively. There was no significant difference between the groups at each time point. The mean period of time until complete disappearance of sy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "73792",
+            "title": "Cimetidine in the treatment of active duodenal and prepyloric ulcers.",
+            "authors": [
+              "Bodemar G",
+              "Walan A"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1976",
+            "abstract": "44 patients with endoscopically confirmed duodenal (36) or prepyloric (8) ulcers have received in a double-blind trial either the histamine H2-receptor antagonist cimetidine (30 patients) or placebo (14 patients) for six weeks. At three weeks 67% of patients treated with cimetidine and 17% of those receiving placebo had endoscopically healed ulcers (chi2 = 8.49; P less than 0.005). At six weeks all except 3 patients receiving cimetidine (90%) had healed ulcers compared with 36% receiving placebo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cimetidine 為第一代 H2 受體拮抗劑（1977 年首獲 FDA 核准），競爭性阻斷壁細胞 H2 受體，抑制基礎及夜間胃酸分泌達 70-80%，直接降低潰瘍區域酸性環境促進癒合。此為其原始適應症，機轉直接。臨床注意：(1) 現代治療標準已轉向 PPI（療效更強）；(2) Cimetidine CYP1A2/2C9/2D6/3A4 廣效抑制帶來高 DDI 風險；(3) 長期使用有抗雄激素副作用（男性乳房發育）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "peptic ulcer perforation",
+      "txgnn": {
+        "score": 0.9976785778999328,
+        "rank": 3813
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6113521",
+            "title": "Cimetidine and peptic ulcer.",
+            "authors": [
+              "McKay A J",
+              "McArdle C S"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7082957",
+            "title": "Cimetidine and perforated peptic ulcer.",
+            "authors": [
+              "McKay A J",
+              "McArdle C S"
+            ],
+            "journal": "The British journal of surgery",
+            "year": "1982",
+            "abstract": "Cimetidine is thought to have accelerated the reduction in elective peptic ulcer surgery but its effect on the incidence of perforated peptic ulcer has not been reported. A 15-year (1966-1980) review of peptic ulcer surgery in a district general hospital is presented. Since cimetidine became available (November 1976), the mean annual number of elective operations has fallen from 91.4 to 50.5 (45 per cent reduction). The number of perforations has fallen from 40.6 to 36.5 (10 per cent reduction).",
+            "classification": {
+              "study_type": "Case Report / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3967139",
+            "title": "Perforation on cimetidine.",
+            "authors": [
+              "Pain J A",
+              "Collier D S"
+            ],
+            "journal": "The British journal of surgery",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8165479",
+            "title": "Giant marginal ulcer.",
+            "authors": [
+              "Gowen G F",
+              "Campbell R E",
+              "McFarland M M",
+              "Alman B A"
+            ],
+            "journal": "Surgical endoscopy",
+            "year": "1994",
+            "abstract": "Marginal ulcer is a well-known complication of gastroenterostomy. It occurs in 3% of patients post-Billroth II subtotal gastrectomy; it occurs in less than 1% if truncal vagotomy is included but in up to 30% of patients with gastroenterostomy without vagotomy. These ulcers occur at the anastomosis, but always on the jejunal side, and are known to develop complications of their own--e.g., intractable pain; hemorrhage, obstruction, perforation, and fistula formation. Prior to the advent of upper-G",
+            "classification": {
+              "study_type": "Case Report（Giant marginal ulcer）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6617045",
+            "title": "Peptic ulcer disease in children and adolescents. A ten-year experience.",
+            "authors": [
+              "Tolia V",
+              "Dubois R S"
+            ],
+            "journal": "Clinical pediatrics",
+            "year": "1983",
+            "abstract": "We report a retrospective review of peptic ulcer disease (PUD) in children seen at Children's Hospital of Michigan, over 10 years (1971-1980). Of the 61 included, 31 had primary ulcers and 30 had stress ulcers. The diagnosis was made by either barium meal or endoscopy, at surgery, or at autopsy. Stress ulcers were commoner in children less than 4 years of age and were precipitated by various conditions leading to shock. The majority of these patients required surgery for perforation or bleeding.",
+            "classification": {
+              "study_type": "Retrospective Cohort（兒童/青少年）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6861858",
+            "title": "Trends in peptic ulcer related diseases from 1972 to 1980. Hospital activity analysis data and general practice cimetidine prescribing levels.",
+            "authors": [
+              "O'Connor P C",
+              "Griffiths K",
+              "Shanks R G"
+            ],
+            "journal": "European journal of clinical pharmacology",
+            "year": "1983",
+            "abstract": "Between 1972 and 1980 Hospital Activity Analysis from 5 Northern Ireland Hospitals demonstrated a gradual increase in the number of patients discharged for all diagnoses whilst there was a decline in discharges for peptic ulcer related disease, (duodenal ulcer, gastric ulcer, gastrojejunal ulcer, peptic ulcer site unspecified and hiatal hernia). The mean number of peptic ulcer related disease discharges per year for 1977-80, when cimetidine became generally available, was 10% lower than that of ",
+            "classification": {
+              "study_type": "Epidemiological Study（趨勢分析）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "922364",
+            "title": "Perforation of peptic ulcer after withdrawal of cimetidine.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6743974",
+            "title": "Duodenal ulcer perforation whilst on cimetidine therapy.",
+            "authors": [
+              "Sherlock D J",
+              "Holl-Allen R T"
+            ],
+            "journal": "The British journal of surgery",
+            "year": "1984",
+            "abstract": "Nine cases of perforation whilst patients received cimetidine therapy were identified and followed prospectively. There was a high correlation with the other major complications of duodenal ulceration: pyloric stenosis and haemorrhage. Initially, three of the nine patients had simple suture of the perforation, but eventually all required truncal vagotomy and a drainage procedure. The follow-up ranges from 6 months to 2.5 years and the results in the surviving patients are good. The preoperative ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "761030",
+            "title": "Cimetidine and duodenal ulcer.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6150640",
+            "title": "Health and economic aspects of peptic ulcer disease.",
+            "authors": [
+              "Jensen D M"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1984",
+            "abstract": "The costs to society of peptic ulcer disease have become exorbitant. These costs are incurred either directly (hospitalization, physician care, and medication costs) or indirectly (loss of productivity due to absenteeism, the loss to society of functioning persons or death of productive persons). Although the results of many studies show that hospitalization for duodenal ulcer disease has decreased, the incidence of perforation, which may be a better index of the disease, has not changed signifi",
+            "classification": {
+              "study_type": "Review（消化性潰瘍健康/經濟面）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1975090",
+            "title": "[Modern view of the pathogenesis and therapy of gastroduodenal peptic ulcer].",
+            "authors": [
+              "Vinci A",
+              "Alongi G",
+              "Falcone G",
+              "Santangelo G"
+            ],
+            "journal": "Minerva chirurgica",
+            "year": "1990",
+            "abstract": "After a wide analysis of peptic gastroduodenal ulcer medical therapy, before and after the era of cimetidine, the Authors, after a brief account of the Anatomy and Physiology of the stomach, examine surgical therapy, from the end of the last century till now. After giving the results of the surgical cases of one of them (A. Vinci), including 500 operations, from 1955 till now, almost all with gastric resection, without vagotomy, the Authors point out that today, in the era of cimetidine, surgica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "80675",
+            "title": "Candida peritonitis and cimetidine.",
+            "authors": [
+              "Stark F R",
+              "Ninos N",
+              "Hutton J",
+              "Katz R",
+              "Butler M"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7338614",
+            "title": "The complex wane of peptic ulcer. II. Trends in duodenal and gastric ulcer admissions to 790 hospitals, 1974-1979.",
+            "authors": [
+              "Wylie C M"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "1981",
+            "abstract": "Data on duodenal ulcer (DU) and gastric ulcer (GU) admissions to 790 general hospitals during 1974-1979 were analyzed to form more detailed time trends than in Part I. Annual admissions for DU fell less for 1977-1979 than between earlier years; for GU, admissions rose slowly in 1977-1979 after falling in previous years. Decisions about hospitalization may have changed, therefore, to admit proportionately more ulcer patients beginning 1977, the year of cimetidine's release. Also at that time the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6649737",
+            "title": "[Surgical treatment of ulcer disease 5 years before and after the introduction of cimetidine].",
+            "authors": [
+              "Rohner H G",
+              "Blömer A",
+              "Echterhoff H M",
+              "Gugler R"
+            ],
+            "journal": "Zeitschrift fur Gastroenterologie",
+            "year": "1983",
+            "abstract": "To determine whether H2-antagonists have changed type and frequency of operations for peptic ulcer, all operations of the one hospital of a city with a population of 80 000 were analysed. The total number of operated patients decreased after cimetidine from 425 to 278 (35%). The ratio of male to female patients was 3:1 in either period. While the decrease in elective operations of uncomplicated ulcer was 51%, operations in patients with ulcer complications (bleeding, perforation, stenosis) decre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3376689",
+            "title": "Gastrocolic fistulas.",
+            "authors": [
+              "Palnaes Hansen C",
+              "Lanng C",
+              "Christensen A",
+              "Thagaard C S",
+              "Lassen M"
+            ],
+            "journal": "Acta chirurgica Scandinavica",
+            "year": "1988",
+            "abstract": "Sixteen patients were treated for gastrocolic fistula arising as a complication of peptic ulcer (11 cases), colonic perforation (2), gastric cancer (1), colonic cancer (1) or pancreatitis (1). The predominant symptoms were diarrhoea, weight loss and abdominal pain. Barium meal and barium enema were the most reliable means of diagnosis, and no fistula was gastroscopically demonstrable. A one-stage en bloc resection of the involved gastrocolic region was performed in eight cases. Other operations ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "922329",
+            "title": "Perforation of chronic peptic ulcers after cimetidine.",
+            "authors": [
+              "Wallace W A",
+              "Orr C M",
+              "Bearn A R"
+            ],
+            "journal": "British medical journal",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "747972",
+            "title": "[Perforation of peptic ulcers and cimetidine (author's transl)].",
+            "authors": [
+              "Premont M",
+              "Poilleux J",
+              "Dazza F"
+            ],
+            "journal": "Chirurgie; memoires de l'Academie de chirurgie",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8364140",
+            "title": "Efficacy of continuous therapy for peptic ulcer in controlled clinical trials.",
+            "authors": [
+              "Dammann H G",
+              "Walter T A"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "1993",
+            "abstract": "Long-term studies have confirmed unequivocally the clinical efficacy of continuous therapy with H2-receptor antagonists in reducing the incidence of ulcer recurrence. However, studies have also reported varying relapse rates as a result of differences in study design, particularly the frequency of endoscopy and hence the detection of asymptomatic ulcer relapse. Risk factors for ulcer relapse include smoking, stress, previous history of frequent ulcer relapses, duration of disease for more than 1",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7125738",
+            "title": "The early diagnosis of gastrinoma.",
+            "authors": [
+              "Modlin I M",
+              "Jaffe B M",
+              "Sank A",
+              "Albert D"
+            ],
+            "journal": "Annals of surgery",
+            "year": "1982",
+            "abstract": "Despite the increasing awareness of gastrinoma and its lethal peptic ulcer sequelae, the diagnosis is often initially missed or made as a terminal event. The authors screened all patients with peptic ulcer symptoms serious enough to warrant hospital admission or those associated with diarrhea, nephrolithiasis, hypercalcemia, or pituitary abnormality. In a one-year period (1979-1980) nine (of 14 suspected) new gastrinoma patients were identified using a sensitive and specific gastrin radioimmunoa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2886832",
+            "title": "Non-steroidal anti-inflammatory drugs and hospital admission for perforated peptic ulcer.",
+            "authors": [
+              "Jick S S",
+              "Perera D R",
+              "Walker A M",
+              "Jick H"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1987",
+            "abstract": "The frequency of hospital admission for perforated ulcer was not measurably affected by concurrent use of non-steroidal anti-inflammatory drugs (NSAID) during nearly 30 million person-days of NSAID use at Group Health Cooperative of Puget Sound. Whether patients had ever used cimetidine or antacids, drugs which indicate the presence of ulcer disease or symptoms, was strongly predictive of perforation in the same population (rate ratio 5.1; 95% CI 2.6-10.0). Perforation rates increased sharply wi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "消化性潰瘍穿孔為外科急症，Cimetidine 抑酸機轉可理論上減少潰瘍進展至穿孔。然而文獻中多數報告描述的是「Cimetidine 使用期間發生穿孔」（PMID 6743974）或「停藥後發生穿孔」（PMID 922364），暗示 Cimetidine 並不能可靠預防穿孔。無前瞻性試驗支持 Cimetidine 用於穿孔預防，現有文獻主要為病例報告。穿孔後治療以手術為主，藥物角色有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gastrojejunal ulcer",
+      "txgnn": {
+        "score": 0.9976785778999328,
+        "rank": 3814
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "7464614",
+            "title": "Cimetidine and peptic ulcer.",
+            "authors": [
+              "Hetzel D J",
+              "Hecker R",
+              "Shearman D J"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1980",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "916935",
+            "title": "Cimetidine and peptic ulcer.",
+            "authors": [
+              "Piper D W"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6121187",
+            "title": "Cimetidine and ranitidine.",
+            "authors": [],
+            "journal": "Lancet (London, England)",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "Comparative Review（Cimetidine vs Ranitidine）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7242409",
+            "title": "Cimetidine and cancer.",
+            "authors": [
+              "Piper D W"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review（Cimetidine 與癌症）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6113521",
+            "title": "Cimetidine and peptic ulcer.",
+            "authors": [
+              "McKay A J",
+              "McArdle C S"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review / Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7082957",
+            "title": "Cimetidine and perforated peptic ulcer.",
+            "authors": [
+              "McKay A J",
+              "McArdle C S"
+            ],
+            "journal": "The British journal of surgery",
+            "year": "1982",
+            "abstract": "Cimetidine is thought to have accelerated the reduction in elective peptic ulcer surgery but its effect on the incidence of perforated peptic ulcer has not been reported. A 15-year (1966-1980) review of peptic ulcer surgery in a district general hospital is presented. Since cimetidine became available (November 1976), the mean annual number of elective operations has fallen from 91.4 to 50.5 (45 per cent reduction). The number of perforations has fallen from 40.6 to 36.5 (10 per cent reduction).",
+            "classification": {
+              "study_type": "Case Report / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3895392",
+            "title": "Duodenitis.",
+            "authors": [
+              "Venables C W"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1985",
+            "abstract": "\"Duodenitis\" remains a controversial area in clinical medicine. This review discusses the various methods of diagnosis (histology, radiology, endoscopy) and concludes that \"endoscopic duodenitis\" is a definite clinical entity. Studies are presented on the changes in duodenitis in relation to peptic ulcer disease, and it is concluded that \"endoscopic duodenitis\" is unlikely to be the cause of symptoms unless accompanied by a peptic ulcer.",
+            "classification": {
+              "study_type": "Review（十二指腸炎）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6375965",
+            "title": "Cimetidine for stress-ulcer prophylaxis.",
+            "authors": [
+              "Greene W L",
+              "Bollinger R R"
+            ],
+            "journal": "Critical care medicine",
+            "year": "1984",
+            "abstract": "Although cimetidine is more effective than a placebo for the prophylaxis of stress-induced ulcers, it has no advantage over titrated antacid dosing. Several comparative studies even suggest that combining cimetidine with antacid is no more effective than use of full-dose antacid. Therefore, we recommend prophylactic use of cimetidine only when very large dosages of antacid are required, in order to minimize acid-base disturbances.",
+            "classification": {
+              "study_type": "Clinical Study（應激性潰瘍預防）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10310799",
+            "title": "Cimetidine and the cost of peptic ulcer in the Netherlands.",
+            "authors": [
+              "Bulthuis R"
+            ],
+            "journal": "Effective health care",
+            "year": "1984",
+            "abstract": "In the autumn of 1977 the first histamine H2 receptor antagonist, cimetidine, was introduced into the Netherlands. Histamine H2 receptor antagonists are powerful suppressors of the stomach's production of hydrochloric acid, which is believed to play a major role in the development of peptic ulcers. Controlled clinical trials and interview with medical experts prior to the introduction suggested that the new drug might make treatment of peptic ulcer less costly. In particular, savings in hospital",
+            "classification": {
+              "study_type": "Pharmacoeconomic Analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6103209",
+            "title": "Somatostatin and cimetidine in peptic-ulcer haemorrhage. A randomised controlled trial.",
+            "authors": [
+              "Kayasseh L",
+              "Gyr K",
+              "Keller U",
+              "Stalder G A",
+              "Wall M"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1980",
+            "abstract": "In a randomised controlled trial somatostatin was compared with cimetidine in the treatment of severe and persistent gastrointestinal bleeding due to peptic ulcer. The study was of a sequential design and lasted 2.5 years, when the designated level of significance had been reached. Of the 20 patients studied, 10 received somotostatin and 10 received cimetidine. In 7 of the 10 pairs of patients somatostatin was more effective than cimetidine; in 2 pairs somatostatin and cimetidine were both ineff",
+            "classification": {
+              "study_type": "RCT（Somatostatin vs Cimetidine，消化性潰瘍出血）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6493121",
+            "title": "Cimetidine and peptic ulcer.",
+            "authors": [
+              "Blaxland C J"
+            ],
+            "journal": "The Medical journal of Australia",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6957991",
+            "title": "Pirenzepine and cimetidine in the treatment of peptic ulcer.",
+            "authors": [
+              "Brunner H"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1982",
+            "abstract": "In a randomized, controlled multicenter-study 126 patients with endoscopically proven duodenal ulcer were treated with 100 mg Pirenzepine daily and 128 patients with 1000 mg Cimetidine daily. Endoscopic evaluation was done by an independent endoscopist after four weeks. At this time 64.3% of the Pirenzepine-treated patients and 73.4% of the patients on Cimetidine had the ulcer healed. The chi-square value of 2.48 indicates that the difference was not statistically significant, that Pirenzepine i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "530940",
+            "title": "[Cimetidine and pirenzepin--practical aspects of modern therapy for peptic ulcer (author's transl)].",
+            "authors": [
+              "Gyr K"
+            ],
+            "journal": "Schweizerische Rundschau fur Medizin Praxis = Revue suisse de medecine Praxis",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11420885",
+            "title": "Mefloquine pharmacokinetics in healthy subjects and in peptic ulcer patients after cimetidine administration.",
+            "authors": [
+              "Kolawole J A",
+              "Mustapha A",
+              "Abudu-Aguye I",
+              "Ochekpe N"
+            ],
+            "journal": "European journal of drug metabolism and pharmacokinetics",
+            "year": "2000",
+            "abstract": "The pharmacokinetics of orally administered mefloquine were determined in six healthy male subjects and in six ulcer patients before and after a 3-day course of cimetidine (400 mg morning and evening). Peak plasma concentrations Cmax and AUC0-infinity were similarly and significantly (P < 0.05) increased after cimetidine pretreatement in both healthy subjects and peptic ulcer patients Cmax was increased by 42.4% and 20.5% while AUC0-infinity was increased by 37.5% in healthy and peptic ulcer sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10701981",
+            "title": "Effects of cimetidine on the pharmacokinetics of proguanil in healthy subjects and in peptic ulcer patients.",
+            "authors": [
+              "Kolawole J A",
+              "Mustapha A",
+              "Abdul-Aguye I",
+              "Ochekpe N",
+              "Taylor R B"
+            ],
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "1999",
+            "abstract": "The pharmacokinetics of orally administered proguanil and its metabolites were determined in six healthy volunteers and in six peptic ulcer patients, before and after a 3-day course of cimetidine (400 mg given two times daily for 2 days and 400 mg on the third day 1 h before proguanil). Cimetidine significantly increased Cmax (P < 0.05), AUCo-alpha (P < 0.005) and elimination half-life t 1/2b of proquanil in plasma of healthy subjects. In ulcer patients, cimetidine significantly increased, AUCo-",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "760739",
+            "title": "The absorption of cimetidine before and during maintenance treatment with cimetidine and the influence of a meal on the absorption of cimetidine--studies in patients with peptic ulcer disease.",
+            "authors": [
+              "Bodemar G",
+              "Norlander B",
+              "Fransson L",
+              "Walan A"
+            ],
+            "journal": "British journal of clinical pharmacology",
+            "year": "1979",
+            "abstract": "1 The absorption of a single oral dose of cimetidine taken on a fasting stomach or together with a meal was studied in 28 patients before and during 12 weeks treatment with cimetidine. 2 No significant changes in bioavailability were seen during treatment measured as the area under the blood concentration curve (AUC). 3 AUC after a single dose of 400 mg cimetidine was 2.05 times the area after a 200 mg dose. 4 There was a good correlation between AUC and the dose of cimetidine given corrected fo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "761030",
+            "title": "Cimetidine and duodenal ulcer.",
+            "authors": [],
+            "journal": "British medical journal",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8282250",
+            "title": "Peptic ulcer, cimetidine, and motor neurone disease--a record linkage study.",
+            "authors": [
+              "Vessey M P",
+              "Goldacre M J",
+              "Seagroatt V",
+              "Yeates D"
+            ],
+            "journal": "Gut",
+            "year": "1993",
+            "abstract": "A previous cohort study suggested that there might be an association between use of cimetidine and motor neurone disease. The Oxford Record Linkage Study was used to explore this hypothesis. In the analysis the presence of a peptic ulcer in patients after 1976 was taken as a proxy for cimetidine (and ranitidine) use. The past history of 540 patients with motor neurone disease in this period was compared with that of 1370 patients with multiple sclerosis (neurological controls) and over 240,000 c",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6832020",
+            "title": "[Cimetidine and ulcer surgery].",
+            "authors": [
+              "Rothmund M"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2979263",
+            "title": "Six years of continuous cimetidine treatment in peptic ulcer disease: efficacy and safety. Anglo-Irish Cimetidine Long-Term Study Group.",
+            "authors": [
+              "Bardhan K D"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "1988",
+            "abstract": "The management of peptic ulcer disease with up to 6 years of continuous cimetidine treatment has been studied at four centres in the UK and Ireland. Cimetidine, 1 g daily for up to 12 weeks, was used to heal duodenal or gastric ulceration, alternating with 400 mg each night to maintain remission. After an initial healing phase, 402 patients started maintenance therapy. Classical life-table analyses showed that after 5 years one-quarter of the patients had suffered a symptomatic relapse, about ha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃空腸吻合術後邊緣潰瘍（marginal ulcer）形成與持續性酸分泌密切相關，Cimetidine 抑制胃酸理論上可預防或治療此類潰瘍。PMID 6103209 為直接 RCT（Somatostatin vs Cimetidine 於消化性潰瘍出血）。然整體文獻以 Cimetidine 一般性消化性潰瘍討論為主，專門針對胃空腸潰瘍的證據較少，歸類為 L3。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+      "txgnn": {
+        "score": 0.9975799322128296,
+        "rank": 3937
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "淋巴結病變型肥大細胞增多症伴嗜酸性球增多（罕見侵襲性亞型）：肥大細胞釋放組織胺及炎症介質促進疾病進展。Cimetidine 除 H2 拮抗症狀治療外，具免疫調節活性（增強 CD4+ T 細胞功能、抑制調節性 T 細胞 suppressor function），可能間接影響腫瘤免疫微環境。此額外機轉連結（immunomodulation）使其在腫瘤性肥大細胞病有理論依據，但提供資料中完全無臨床證據。屬純預測，仍為稀有疾病，建議優先累積 Smouldering 型病例資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "duodenogastric reflux",
+      "txgnn": {
+        "score": 0.9948934316635132,
+        "rank": 6567
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "4018640",
+            "title": "Effect of cimetidine on gastric secretion and duodenogastric reflux.",
+            "authors": [
+              "Melville R J",
+              "Suleiman S I",
+              "Whitfield P F",
+              "Parkin J V",
+              "Nwabunike T O"
+            ],
+            "journal": "Gut",
+            "year": "1985",
+            "abstract": "In 19 subjects (four controls, one gastric ulcer and 14 duodenal ulcer) maximal gastric secretion was evoked with histamine 0.13 mumol/kg/h (0.04 mg/kg/h) for two to two and a half hours. A slow intravenous bolus dose of 200 mg cimetidine was given at the beginning of the last hour. Gastric secretion was measured before and after cimetidine administration and expressed both as mean acid output (mmol H+/h) and 'pyloric loss and duodenogastric reflux corrected' volume (Vg, ml/h). Mean reduction by",
+            "classification": {
+              "study_type": "Clinical / Physiological Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9377544",
+            "title": "Studies on experimental animals involving surgical procedures and/or nitrosamine treatment related to the etiology of esophageal adenocarcinoma.",
+            "authors": [
+              "Mirvish S S"
+            ],
+            "journal": "Cancer letters",
+            "year": "1997",
+            "abstract": "After a brief review of the epidemiology and etiology of lower esophageal adenocarcinoma (EAC), this paper describes long-term experiments on animals (mostly rats) demonstrating that reflux of duodenal contents into the stomach can induce gastric and pancreatic cancer, that gastric reflux into the esophagus can induce Barrett's esophagus; that esophagoduodenostomy to facilitate duodenal reflux into the esophagus, together with administration of carcinogenic nitrosamines, induces squamous cancer ",
+            "classification": {
+              "study_type": "Animal Study / Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3080289",
+            "title": "Comparative inhibition of coffee-induced gastric acid secretion employing misoprostol and cimetidine.",
+            "authors": [
+              "Salmon P R",
+              "Barton T"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "1986",
+            "abstract": "Six healthy subjects (three men, three women) were studied to compare the effects of misoprostol and cimetidine on coffee-induced gastric secretion. Gastric secretion was measured after a 12-hr fast according to the Hobsley method, employing phenolsulfonphthalein (PSP) as a marker. Each subject was studied on three occasions separated by at least one week: as control, basal gastric secretion was measured followed by sample collection after oral placebo and then coffee; basal gastric secretion wa",
+            "classification": {
+              "study_type": "Comparative Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7140493",
+            "title": "A demonstration of bicarbonate production by the normal human stomach in vivo.",
+            "authors": [
+              "Rees W D",
+              "Botham D",
+              "Turnberg L A"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "1982",
+            "abstract": "Bicarbonate secretion by the stomach may play a role in gastric mucosal protection, and we have therefore examined bicarbonate secretion in the human stomach. Gastric bicarbonate production and contamination with salivary and duodenal bicarbonate was measured in healthy volunteers using an intubation technique. The stomach and duodenum were perfused with nonabsorbable markers and the pH, PCO2, marker, and amylase concentrations measured in 10-min gastric and duodenal aspirates. These measurement",
+            "classification": {
+              "study_type": "Physiological Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3892510",
+            "title": "[Vagotomy and stomach cancer].",
+            "authors": [
+              "Głuszek S"
+            ],
+            "journal": "Polski tygodnik lekarski (Warsaw, Poland : 1960)",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review（迷走神經切除術與胃癌）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2294793",
+            "title": "Changes in intragastric bile acid composition in patients receiving cimetidine postoperatively.",
+            "authors": [
+              "Vitale G C",
+              "Siow Y",
+              "Cheadle W G",
+              "Baker P R",
+              "Cuschierei A"
+            ],
+            "journal": "American journal of surgery",
+            "year": "1990",
+            "abstract": "Enterogastric reflux has been implicated as a possible etiologic mechanism in gastritis both after partial gastrectomy and in those with an intact pylorus. We studied the effects of cimetidine on bile acid concentration and composition by high-performance liquid chromatography. The gastric aspirates collected for this study came from 27 prospectively randomized patients receiving intravenous cimetidine (200 mg every 6 hours) and 25 patients given a placebo. Total bile acid concentration of aspir",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3535018",
+            "title": "The role of colloidal bismuth subcitrate in gastric ulcer and gastritis.",
+            "authors": [
+              "Tytgat G N",
+              "Rauws E",
+              "Langenberg W"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1986",
+            "abstract": "The pathophysiology of gastric ulcer and gastritis has been related to an increase in damaging factors such as duodeno-gastric reflux and anti-inflammatory drugs. A decreased capacity for mucosal prostaglandin generation is highly likely. Acid secretion is usually normal or even reduced. Colloidal bismuth subcitrate (CBS) has been shown to increase gastric mucosal defence. In controlled trials a clear superiority over placebo has been demonstrated. Amalgamation of the data shows an average heali",
+            "classification": {
+              "study_type": "Review（膠體鉍在胃潰瘍的角色）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10231661",
+            "title": "Effect of cimetidine on development of gastric cancer in rats after gastrojejunostomy.",
+            "authors": [
+              "Hortemo G S",
+              "Maartmann-Moe H",
+              "Rökke O",
+              "Viste A"
+            ],
+            "journal": "The European journal of surgery = Acta chirurgica",
+            "year": "1999",
+            "abstract": "To find out if cimetidine has an immunomodulating effect on gastric carcinogenesis in rats.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸胃逆流（膽汁逆流性胃炎）之損傷由膽汁酸與胃酸協同作用引起。Cimetidine 雖不直接阻止膽汁逆流，但抑制胃酸可降低逆流物的整體毒性，並可能改變十二指腸運動。PMID 4018640 為直接臨床研究 Cimetidine 對胃分泌及十二指腸胃逆流的影響；PMID 2294793 觀察術後患者使用 Cimetidine 後膽汁酸組成的改變。機轉合理但非第一線治療選擇（Prokinetics/Ursodeoxycholic acid 更直接）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "duodenal obstruction",
+      "txgnn": {
+        "score": 0.9944214224815368,
+        "rank": 6989
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "8165479",
+            "title": "Giant marginal ulcer.",
+            "authors": [
+              "Gowen G F",
+              "Campbell R E",
+              "McFarland M M",
+              "Alman B A"
+            ],
+            "journal": "Surgical endoscopy",
+            "year": "1994",
+            "abstract": "Marginal ulcer is a well-known complication of gastroenterostomy. It occurs in 3% of patients post-Billroth II subtotal gastrectomy; it occurs in less than 1% if truncal vagotomy is included but in up to 30% of patients with gastroenterostomy without vagotomy. These ulcers occur at the anastomosis, but always on the jejunal side, and are known to develop complications of their own--e.g., intractable pain; hemorrhage, obstruction, perforation, and fistula formation. Prior to the advent of upper-G",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "368633",
+            "title": "Abdominal surgery (first of three parts).",
+            "authors": [
+              "Welch C E",
+              "Malt R A"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3970597",
+            "title": "The prognosis of gastric outlet obstruction.",
+            "authors": [
+              "Jaffin B W",
+              "Kaye M D"
+            ],
+            "journal": "Annals of surgery",
+            "year": "1985",
+            "abstract": "A retrospective study was undertaken to examine the prognosis of gastric outlet obstruction with specific reference to patients with obstruction due to peptic ulcer. During the 10-year period 1970-1979, 68 patients with gastric outlet obstruction were admitted to our hospital. Obstruction was caused by peptic ulceration in 55 of these patients, all of whom initially were managed conservatively. Thirty-four, however, required surgical decompression during their first admission for obstruction, an",
+            "classification": {
+              "study_type": "Cohort Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1975090",
+            "title": "[Modern view of the pathogenesis and therapy of gastroduodenal peptic ulcer].",
+            "authors": [
+              "Vinci A",
+              "Alongi G",
+              "Falcone G",
+              "Santangelo G"
+            ],
+            "journal": "Minerva chirurgica",
+            "year": "1990",
+            "abstract": "After a wide analysis of peptic gastroduodenal ulcer medical therapy, before and after the era of cimetidine, the Authors, after a brief account of the Anatomy and Physiology of the stomach, examine surgical therapy, from the end of the last century till now. After giving the results of the surgical cases of one of them (A. Vinci), including 500 operations, from 1955 till now, almost all with gastric resection, without vagotomy, the Authors point out that today, in the era of cimetidine, surgica",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3767481",
+            "title": "A thousand operations for ulcer disease.",
+            "authors": [
+              "Welch C E",
+              "Rodkey G V",
+              "von Ryll Gryska P"
+            ],
+            "journal": "Annals of surgery",
+            "year": "1986",
+            "abstract": "A retrospective study of 1068 patients who had operations for peptic ulcer disease in the 12-year period from January 1, 1974, to January 1, 1986, permits these conclusions: The number of patients admitted to the Massachusetts General Hospital (MGH) has declined steadily in the years of this study--1974-1986. The average number of patients admitted with a diagnosis of peptic ulcer disease in precimetidine years--1974, 1975, and 1976--and in recent years--1982, 1983, and 1984--shows a decline of ",
+            "classification": {
+              "study_type": "Retrospective Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7423175",
+            "title": "[Surgical treatment of ulcers].",
+            "authors": [
+              "Aeberhard P"
+            ],
+            "journal": "Schweizerische medizinische Wochenschrift",
+            "year": "1980",
+            "abstract": "Since the introduction of cimetidine the number of patients operated upon for peptic ulcer has decreased in most departments of surgery. This is mainly due to a change in attitude towards the indication for surgery in chronic uncomplicated duodenal ulcer. The classic surgical indications of perforation, hemorrhage, and pyloric obstruction remain unchanged, but the criterion of intractability as an indication for elective surgery needs to be redefined. For chronic recurrent uncomplicated duodenal",
+            "classification": {
+              "study_type": "Retrospective Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "361048",
+            "title": "Response to cimetidine of gastric outlet obstruction due to peptic ulcer disease.",
+            "authors": [
+              "Olazábal A",
+              "García-Pont P H"
+            ],
+            "journal": "Boletin de la Asociacion Medica de Puerto Rico",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series / Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6829539",
+            "title": "Pancreatitis associated with duodenal Crohn's disease.",
+            "authors": [
+              "Altman H S",
+              "Phillips G",
+              "Bank S",
+              "Klotz H"
+            ],
+            "journal": "The American journal of gastroenterology",
+            "year": "1983",
+            "abstract": "The fourth reported patient with acute pancreatitis associated with Crohn's disease of the duodenum is presented and the clinical features compared with previously described cases. The pathogenesis of the pancreatitis was not clear but the inflammatory process was found to involve the ampulla of Vater making ampullary incompetence with duodenal reflux or ampullary obstruction the most likely mechanisms. High dose prednisone combined with nasogastric suction and subsequently long-term Cimetidine ",
+            "classification": {
+              "study_type": "Case Report（Crohn's disease 相關）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1775405",
+            "title": "The successful medical management of gastric outflow obstruction associated with the use of non-steroidal anti-inflammatory drugs in the elderly.",
+            "authors": [
+              "Geraghty R J",
+              "Black D",
+              "Bruce S A"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1991",
+            "abstract": "One hundred and nineteen consecutive elderly patients with endoscopically diagnosed peptic ulceration were reviewed. Associated gastric outflow obstruction was present in 10.1%. The presenting clinical features differed significantly from typical younger patients and most (11/12) were taking non-steroidal anti-inflammatory drugs, suggesting a possible role for these agents in the pathogenesis of gastric outflow obstruction. These elderly patients have been successfully managed by medical therapy",
+            "classification": {
+              "study_type": "Case Report / Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7387166",
+            "title": "Zollinger-Ellison syndrome in a child: medical treatment with cimetidine.",
+            "authors": [
+              "Drake D P",
+              "Maciver A G",
+              "Atwell J D"
+            ],
+            "journal": "Archives of disease in childhood",
+            "year": "1980",
+            "abstract": "A 12-year-old boy presented with intestinal obstruction associated with duodenal and oesophageal ulceration. At laparotomy he was found to have an islet cell tumour in the right lobe of the liver. Gastroenterostomy was performed. Raised levels of serum gastrin were detected. Treatment with cimetidine has produced satisfactory control of his symptoms for 16 months, and is an acceptable alternative to total gastrectomy in childhood.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7879324",
+            "title": "[Asynchronous bilateral hydronephrosis in retroperitoneal fibrosis with an interval of 44 months].",
+            "authors": [
+              "Riedl C R",
+              "Zinnbauer B"
+            ],
+            "journal": "Der Urologe. Ausg. A",
+            "year": "1995",
+            "abstract": "The case of a man, now aged 53 years, with bilateral, asynchronous (44 months apart) hydronephrosis caused by retroperitoneal fibrosis is reported. A review of the literature with reference to the reported side effects of H2-antagonists (which the patient had taken immediately before developing the hydronephrosis) does not reveal any definite relation between the disease and these drugs. Stenosis and medialization of the middle third of the ureter (mostly bilateral) should suggest retroperitonea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸梗阻主要由消化性潰瘍所致水腫（可逆）或瘢痕（不可逆）引起。急性水腫期抑酸治療可減輕炎症腫脹，PMID 361048 直接報告 Cimetidine 對消化性潰瘍導致胃出口梗阻有效；PMID 7387166 報告 Zollinger-Ellison 症候群兒童用 Cimetidine 成功處理梗阻。整體為個案報告/小型系列，無對照試驗。多數梗阻最終需內視鏡或手術干預，Cimetidine 僅在保守治療階段有輔助角色。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "acne (disease)",
+      "txgnn": {
+        "score": 0.9932678937911988,
+        "rank": 8020
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12566804",
+            "title": "Update and future of systemic acne treatment.",
+            "authors": [
+              "Zouboulis Christos C",
+              "Piquero-Martin Jaime"
+            ],
+            "journal": "Dermatology (Basel, Switzerland)",
+            "year": "2003",
+            "abstract": "Systemic treatment is required in patients with moderate-to-severe acne, especially when acne scars start to occur. Antibiotics with anti-inflammatory properties, such as tetracyclines (oxytetracycline, tetracycline chloride, doxycycline, minocycline and limecycline) and macrolide antibiotics (erythromycin and azithromycin) are the agents of choice for papulopustular acne, even though the emerging resistant bacterial strains are minimizing their effect, especially regarding erythromycin. Systemi",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8090657",
+            "title": "[Treatment of hyperandrogenic manifestations in polycystic ovary syndrome].",
+            "authors": [
+              "Bednarek-Tupikowska G",
+              "Milewicz A",
+              "Bohdanowicz-Pawlak A",
+              "Bidzińska B",
+              "Szymczak J"
+            ],
+            "journal": "Polski tygodnik lekarski (Warsaw, Poland : 1960)",
+            "year": "1993",
+            "abstract": "Etiopathogenesis of the polycystic ovarian disease is not clarified. Therefore, optimum therapy of hyperandrogenic syndromes, menstrual and fertility disorders pose a difficult problem. Sequential therapy with estrogens and progestagens is of value in young women, who are not planning to conceive in order to reduce hirsutism and regulate menses. A reduction of hirsutism, acne and seborrhea is produced within 3 months. However, cessation of the treatment produces the symptoms of excessive androge",
+            "classification": {
+              "study_type": "Review / Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6130053",
+            "title": "[H2-antagonists and possibilities for their therapeutic use in dermatology].",
+            "authors": [
+              "Diller G",
+              "Orfanos C E"
+            ],
+            "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+            "year": "1982",
+            "abstract": "H2-antagonists differ from the commonly applied antihistamines (H1-antagonists) by blocking a different spectrum of histamine-mediated pharmacologic reactions. Their effects on the skin as the target organ may be stronger, weaker, or even reverse. The main representative of this group of drugs is cimetidine. Other compounds are still in experimental stages. Some controversial effects were reported in urticaria, pruritus, atopic dermatitis, mastocytosis of the skin, and also in acne and psoriasis",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Cimetidine 具有弱抗雄激素活性（weak androgen receptor antagonist），可競爭性阻斷皮脂腺雄激素受體，抑制 DHT 與受體結合，理論上減少皮脂分泌。此機轉在雄激素依賴性痤瘡（特別是女性高雄激素性痤瘡、PCOS 相關）有潛在治療意義。PMID 6130053 直接探討 H2 拮抗劑在皮膚科應用的可能性；PMID 8090657 討論 PCOS 高雄激素表現的治療包含此類藥物。現有文獻為間接或舊期文獻，效果可能不如螺內酯，但作為 repurposing 值得小規模探索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "abnormality of glucagon secretion",
+      "txgnn": {
+        "score": 0.9914414882659912,
+        "rank": 9448
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6088239",
+            "title": "Radionuclide imaging of Meckel's diverticulum: cimetidine versus pentagastrin plus glucagon.",
+            "authors": [
+              "Yeker D",
+              "Büyükünal C",
+              "Benli M",
+              "Büyükünal E",
+              "Urgancioğlu I"
+            ],
+            "journal": "European journal of nuclear medicine",
+            "year": "1984",
+            "abstract": "The aim of this study was to investigate the effects of prior administration of cimetidine in radionuclide imaging of Meckel's diverticulum. In three groups of seven rats with artificial Meckel's diverticulum, containing ectopic gastric mucosa, the effects of pentagastrin + glucagon plus 99mTc-pertechnetate, as well as cimetidine premedication plus 99mTc-pertechnetate, and 99mTc-pertechnetate alone were compared to attain improved radionuclide imaging of Meckel's diverticulum. This experimental ",
+            "classification": {
+              "study_type": "Diagnostic / Imaging Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一相關文獻（PMID 6088239）為 Meckel 憩室放射性核素顯像的技術比較研究（Cimetidine 方案 vs 五肽胃素+升糖素方案），目的是增強掃描顯影，而非治療升糖素分泌異常。Cimetidine 影響升糖素分泌的機轉連結極為薄弱，無生物學合理性支持，TxGNN 高分可能為知識圖譜路徑偽陽性。強烈建議 Hold。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "gastroduodenitis",
+      "txgnn": {
+        "score": 0.9889111518859864,
+        "rank": 11341
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3384152",
+            "title": "Oesophageal pemphigus vulgaris.",
+            "authors": [
+              "Mobacken H",
+              "Al Karawi M",
+              "Mohamed A",
+              "Coode P"
+            ],
+            "journal": "Dermatologica",
+            "year": "1988",
+            "abstract": "Symptomatic involvement of the oesophageal mucosa by pemphigus vulgaris is rare. We describe 1 patient who was treated with oral steroids during a blistering phase, when epigastric pain developed. Endoscopy revealed multiple ulcerations all over the oesophagus, but gastroduodenal mucosa was normal. The symptoms disappeared following cimetidine for gastro-oesophageal reflux and increase of steroid dosage. When painful symptoms appear from the upper digestive tract during corticosteroid treatment ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7965675",
+            "title": "Interactions of cimetidine and ranitidine with aluminum-containing antacids and a clay-containing gastric-protective drug in an \"artificial stomach-duodenum\" model.",
+            "authors": [
+              "Vatier J",
+              "Harman A",
+              "Castela N",
+              "Droy-Lefaix M T",
+              "Farinotti R"
+            ],
+            "journal": "Journal of pharmaceutical sciences",
+            "year": "1994",
+            "abstract": "Interactions of cimetidine and ranitidine with aluminum-containing antacids and clay-containing gastric-protective drugs were analyzed in vitro by using an artificial stomach-duodenum model. The model reproduced near-physiologic conditions, taking into account gastric and duodenal flux variations and interactions between gastric mucosa and drugs added to the gastric content. Clay bound cimetidine in acid medium, but the drug was released when the pH increased, resulting in cimetidine amounts in ",
+            "classification": {
+              "study_type": "Pharmacokinetic/Interaction Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2787809",
+            "title": "The effects of flurbiprofen, aspirin, cimetidine, and antacids on the gastric and duodenal mucosa of normal volunteers. An endoscopic and photographic study.",
+            "authors": [
+              "Friedman H",
+              "Seckman C E",
+              "Schwartz J H",
+              "Lanza F L",
+              "Royer G L"
+            ],
+            "journal": "Journal of clinical pharmacology",
+            "year": "1989",
+            "abstract": "This 7-day, single blind, randomized endoscopic tolerance study compared daily doses of 100, 150 and 200 mg flurbiprofen with 2600 mg aspirin. After seven days the flurbiprofen 100 and 150 mg groups had significantly less gastric irritation than the flurbiprofen 200 mg and aspirin groups. Flurbiprofen showed a linear dose-response relationship with respect to gastric injury and serum drug levels. Four subjects each on aspirin and flurbiprofen with the most severe injuries continued on their medi",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2043287",
+            "title": "Side effects of ranitidine.",
+            "authors": [
+              "Vial T",
+              "Goubier C",
+              "Bergeret A",
+              "Cabrera F",
+              "Evreux J C"
+            ],
+            "journal": "Drug safety",
+            "year": "1991",
+            "abstract": "Ranitidine was first marketed in 1981; since then many patients have been treated such that much experience has been accumulated on the safety of this histamine H2-receptor antagonist in the treatment of gastroduodenal disease. A wide array of ranitidine-associated side effects has been described, but infrequently. As so much information is now available, the aim of this review is to assess the weight of evidence for a causal link between ranitidine and the reported side effects. Overall, raniti",
+            "classification": {
+              "study_type": "Review（Ranitidine 副作用）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3539348",
+            "title": "Gastric acid secretion and mucosal defense mechanisms with special reference to the role of cimetidine in critically ill patients.",
+            "authors": [
+              "Frank W O"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "1986",
+            "abstract": "The gastromucosal barrier (GMB) can be disrupted by a number of aggressive factors or by a decrease in mucosal defense factors. If there is back diffusion of hydrogen ions into the mucosa, mucosal damage ranging from an erythematous gastro-duodenitis to erosive and ulcerative gastritis or life-threatening hemorrhage may ensue. The pathogenesis of stress-related mucosal damage seen in critically ill patients suffering from burns, sepsis, head trauma, respiratory insufficiency, or multisystem dise",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11595448",
+            "title": "Cysteamine-colon and cysteamine-duodenum lesions in rats. Attenuation by gastric pentadecapeptide BPC 157, cimetidine, ranitidine, atropine, omeprazole, sulphasalazine and methylprednisolone.",
+            "authors": [
+              "Sikiric P",
+              "Seiwerth S",
+              "Grabarevic Z",
+              "Balen I",
+              "Aralica G"
+            ],
+            "journal": "Journal of physiology, Paris",
+            "year": "2001",
+            "abstract": "Recently, we showed cysteamine-duodenal lesions without gastric acid, since they were induced also in gastrectomized rats, as in naive rats, and they were inhibited by the novel stomach pentadecapeptide BPC 157 as well as standard antiulcer drugs (i.e. cimetidine, ranitidine, omeprazole, bromocriptine, atropine). Therefore, as an advantage of considering cysteamine as a directly acting cytotoxic agent and mentioned agents as direct cytoprotective agents, the present focus was on the ulcerogenic ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1957121",
+            "title": "Clinical indications and efficacy of colloidal bismuth subcitrate.",
+            "authors": [
+              "Lambert J R"
+            ],
+            "journal": "Scandinavian journal of gastroenterology. Supplement",
+            "year": "1991",
+            "abstract": "Colloidal bismuth subcitrate (CBS; DeNol) has been studied in clinical trials investigating the treatment of duodenal and gastric ulcer, non-ulcer dyspepsia, duodenitis, non-steroidal anti-inflammatory drug (NSAID)-induced disease, and Helicobacter pylori-induced gastroduodenitis. Healing rates for duodenal ulcer with CBS are significantly better than with placebo and are similar to results obtained with cimetidine or ranitidine. CBS is significantly better in the treatment of duodenal ulcer res",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2253535",
+            "title": "Endoscopic comparison of cimetidine and sucralfate for prevention of naproxen-induced acute gastroduodenal injury. Effect of scoring method.",
+            "authors": [
+              "Lanza F L",
+              "Graham D Y",
+              "Davis R E",
+              "Rack M F"
+            ],
+            "journal": "Digestive diseases and sciences",
+            "year": "1990",
+            "abstract": "Nonsteroidal antiinflammatory drug-induced gastroduodenal mucosal damage observed endoscopically is usually categorized as hemorrhages, erosions, or ulcerations. We undertook this study to determine whether the injury produced by a commonly prescribed NSAID, naproxen, could be reduced by cotherapy with sucralfate or cimetidine and to determine how dependent the differences in the degree of protection against mucosal injury measured were on the scoring system used. Four groups of 20 healthy volun",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7022726",
+            "title": "Failure of cimetidine to prevent gastroduodenal ulceration and bleeding after renal transplantation.",
+            "authors": [
+              "Schiessel R",
+              "Starlinger M",
+              "Wolf A",
+              "Pinggera W",
+              "Zazgornik J"
+            ],
+            "journal": "Surgery",
+            "year": "1981",
+            "abstract": "Treatment of renal transplant patients with the H2-antagonist cimetidine has previously been assumed to be of reasonable prophylactic value in controlling the incidence of the postoperative complications of gastric or duodenal ulceration. We attempted to evaluate the performance of the drug in a controlled trial by treating transplant patients with either cimetidine or a placebo. Of the 59 patients accepted for the trial, four had to be excluded eventually because of irregularities in the admini",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2735335",
+            "title": "Effect of sucralfate and cimetidine on rheumatoid patients with active gastroduodenal lesions who are taking nonsteroidal anti-inflammatory drugs. A pilot study.",
+            "authors": [
+              "Shepherd H A",
+              "Fine D",
+              "Hillier K",
+              "Jewell R",
+              "Cox N"
+            ],
+            "journal": "The American journal of medicine",
+            "year": "1989",
+            "abstract": "In a pilot study, 26 rheumatoid arthritic patients taking continuous, stable dosage regimens of nonsteroidal anti-inflammatory drugs and with developed gastric and duodenal lesions were administered sucralfate 1 g four times per day (14 patients) or cimetidine 400 mg twice daily (12 patients) in a single-blind regimen for six weeks. Eleven of the patients given sucralfate and eight of the patients taking cimetidine had improved lesion scores. The lesion score of 10 of the 14 patients taking sucr",
+            "classification": {
+              "study_type": "RCT / Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "633192",
+            "title": "Cimetidine and gastroduodenal fistula.",
+            "authors": [
+              "Whittaker M G",
+              "Clark C G"
+            ],
+            "journal": "Journal of the Royal College of Surgeons of Edinburgh",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6381185",
+            "title": "A double-blind randomized, controlled study to investigate the efficacy of cimetidine given in addition to conventional therapy in the prevention of stress ulceration and haemorrhage in patients with acute spinal injury.",
+            "authors": [
+              "Zäch G A",
+              "Gyr K E",
+              "von Alvensleben E",
+              "Mills J G",
+              "Stalder G A"
+            ],
+            "journal": "Digestion",
+            "year": "1984",
+            "abstract": "The efficacy of cimetidine, 1.2 and 2.4 g/day, compared to placebo treatment given in addition to conventional therapy, which included antacids, in the prevention of gastroduodenal lesions associated with stress in 105 patients with acute spinal injury was investigated. Haematemesis was only observed in 1 placebo-treated patient. Of the 84 patients who completed the 10-day treatment and underwent endoscopy, 12 out of 43 cimetidine-treated patients and 11 out of 41 patients who received placebo w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3874573",
+            "title": "Cimetidine for prevention and treatment of gastroduodenal mucosal lesions in patients in an intensive care unit.",
+            "authors": [
+              "Peura D A",
+              "Johnson L F"
+            ],
+            "journal": "Annals of internal medicine",
+            "year": "1985",
+            "abstract": "The efficacy of cimetidine in the prevention and treatment of stress-induced gastroduodenal lesions was evaluated in a randomized, double-blind, placebo-controlled study in which serial endoscopy was used to examine patients without clinical evidence of bleeding who were admitted to a medical intensive care unit. Endoscopy showed that 14 of 21 patients treated with cimetidine, compared with 5 of 18 patients treated with placebo, had normal or improved gastroduodenal mucosa (p less than 0.05). En",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2905237",
+            "title": "Prostaglandins, H2-receptor antagonists and peptic ulcer disease.",
+            "authors": [
+              "Bright-Asare P",
+              "Habte T",
+              "Yirgou B",
+              "Benjamin J"
+            ],
+            "journal": "Drugs",
+            "year": "1988",
+            "abstract": "Peptic ulcer develops when offensive factors overwhelm defensive processes in the gastroduodenal mucosa. Offensive factors include NSAIDs, hydrochloric acid-peptic activity, bile reflux, and some products of the lipoxygenase pathway such as leukotriene B4; whereas defensive processes are largely mediated by prostaglandins through poorly understood mechanisms uniformly termed cytoprotection. Cytoprotection, a physiological process working through the products of arachidonic acid metabolism, may r",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6360495",
+            "title": "Current concepts in the pathogenesis and treatment of reflux esophagitis.",
+            "authors": [
+              "Frazier J L",
+              "Fendler K J"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1983",
+            "abstract": "The etiology, pathogenesis, diagnosis, and treatment of reflux esophagitis are reviewed. Reflux esophagitis is the subjective or objective response to gastroesophageal reflux (GER), which is defined as the entrance of gastroduodenal contents into the esophagus not associated with vomiting or belching. The pathogenesis of reflux esophagitis may involve a number of mechanisms, including changes in lower esophageal sphincter pressure, gastric volume, composition of the refluxate, esophageal acid cl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8704609",
+            "title": "[The influence of retinol, tocopherol and cimetidine on the ulcerogenic effect of Orthofen, indomethacin and naproxen].",
+            "authors": [
+              "Stanislavchuk N A",
+              "Pentiuk A A",
+              "Vovk O G",
+              "Ostapchuk E I"
+            ],
+            "journal": "Eksperimental'naia i klinicheskaia farmakologiia",
+            "year": "1995",
+            "abstract": "The influence of retinol, alpha-tocopherol, and cimetidine on ulceration induced by ortophen, indomethacin, naproxen was studied on rats. It was shown that alfa-tocopherol, retinol, and cimetidine reduce the damaging effect of these drugs on the gastroduodenal mucosa of rats thus normalizing the phospholipid content. The influence of alpha-tocopherol and retinol on the side-effects of ortophen was studied in children with rheumatoid arthritis. Ortophen was found to cause gastroduodenal side-effe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "706776",
+            "title": "Clinical response and gastroduodenal mucosa morphology in cimetidine treated Nigerian patients duodenal ulcer and antroduodenitis.",
+            "authors": [
+              "Popoola A O",
+              "Falaiye J M"
+            ],
+            "journal": "Nigerian medical journal : journal of the Nigeria Medical Association",
+            "year": "1978",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2199127",
+            "title": "Pharmacokinetic drug interactions with nonsteroidal anti-inflammatory drugs.",
+            "authors": [
+              "Verbeeck R K"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1990",
+            "abstract": "Nonsteroidal anti-inflammatory drugs (NSAIDs) are among the most widely used drugs. Drug interactions with this class of compounds are frequently reported and can be pharmacokinetic and/or pharmacodynamic in nature. The pharmacokinetic interactions can be divided into 3 classes: (1) drugs affecting the pharmacokinetics of an NSAID. (2) an NSAID interfering with the pharmacokinetics of another NSAID and (3) NSAIDs altering the pharmacokinetics of another drug. Although the pharmacokinetics of som",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "122333",
+            "title": "A double-blind comparative study of cimetidine and placebo in adult Nigerian duodenal ulcer patients with special reference to gastroduodenal mucosal morphology and intestinal bacterial activity.",
+            "authors": [
+              "Falaiye J M",
+              "Popoola A O"
+            ],
+            "journal": "African journal of medicine and medical sciences",
+            "year": "1979",
+            "abstract": "Twenty-seven adult Nigerian patients with endoscopically proven active duodenal ulcers have received in a double-blind trial either the histamine H2 - receptor antagonist cimetidine 1g daily or placebo tablets of identical appearance for 4 weeks. Fifty-six per cent of the cimetidine patients and 18% of those receiving placebo had endoscopically completely healed ulcers and total pain relief at the completion of trial. This response amounted to clinical cure. An additional 19% of patients in the ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10392669",
+            "title": "Prophylaxis and treatment of NSAID-induced gastroduodenal disorders.",
+            "authors": [
+              "La Corte R",
+              "Caselli M",
+              "Castellino G",
+              "Bajocchi G",
+              "Trotta F"
+            ],
+            "journal": "Drug safety",
+            "year": "1999",
+            "abstract": "A significant percentage of patients taking nonsteroidal anti-inflammatory drugs (NSAIDs) experience some type of adverse gastrointestinal symptoms, lesions of the gastroduodenal tract being clinically the most relevant. NSAIDs cause gastrointestinal damage by 2 independent mechanisms: a topical effect, which is pH and pKa related, and a systemic effect mediated by cyclooxygenase (COX) inhibition with a reduction in prostaglandin synthesis. Using endoscopy, gastroduodenal lesions identified incl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "胃十二指腸炎由胃酸過高、NSAID 黏膜損傷、H. pylori 等引起。Cimetidine 抑酸機轉直接減少壁細胞酸性損傷；另有研究顯示 H2 拮抗劑可增強黏膜碳酸氫鹽分泌（PMID 7140493 間接支持）。數篇直接 RCT 探討 Cimetidine 在 NSAID 誘發胃十二指腸炎的保護效果，構成 L2 證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "Smouldering systemic mastocytosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "active peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "active peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "active peptic ulcer disease"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "peptic ulcer perforation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "peptic ulcer perforation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "peptic ulcer perforation"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "gastrojejunal ulcer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "gastrojejunal ulcer"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "gastrojejunal ulcer"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "lymphoadenopathic mastocytosis with eosinophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 11,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "acne (disease)"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "abnormality of glucagon secretion"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Cimetidine",
+        "disease": "gastroduodenitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+# 藥物再利用證據分析：Histidine (DB00117)
+
+正在分析各適應症的臨床試驗、文獻及機轉關聯...
+
+```json
+{
+  "drug": "Histidine",
+  "drugbank_id": "DB00117",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Histidine 為必需胺基酸，主要生物功能：(1) 組胺酸脫羧酶（HDC）催化下轉化為 histamine；(2) 合成 carnosine/anserine 具抗氧化功能；(3) imidazole 環具金屬螯合與酵素催化功能。market_status 為未上市（食品補充劑等級），DDI 風險為零，但其作為 histamine 前驅物的雙向機轉需特別注意。",
+  "indications": [
+    {
+      "disease_name": "gastroparesis (disease)",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Histidine → Histamine 路徑可透過胃壁 H2 受體影響胃酸分泌與胃腸蠕動，與 gastroparesis 之胃排空延遲理論上有關。然而此為純粹推測性機轉，無任何臨床前或臨床資料直接支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 純 TxGNN 預測，零臨床/文獻支持。Histamine 升高亦可能抑制胃排空，機轉方向不明確。"
+    },
+    {
+      "disease_name": "sclerosing cholangitis",
+      "txgnn_score": 0.9927,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻顯示 mast cell 分泌的 histamine 透過 H1/H2 受體促進膽管增生與纖維化（PMID 27351144, 29601088）；HDC 基因剔除小鼠模型（PMID 32054995）顯示減少 l-histidine 脫羧可改善膽管損傷與肝纖維化。此機轉提示 histidine 作為 histamine 前驅物，補充後可能**加重** PSC 病程，與再利用目標相反。此為關鍵安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32054995",
+          "title": "Biliary damage and liver fibrosis are ameliorated in l-histidine decarboxylase knockout mice",
+          "year": "2020",
+          "study_type": "Animal model (knockout)",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "直接連結 l-histidine 脫羧酶（HDC）與膽管損傷/肝纖維化。HDC 剔除（即阻斷 histidine→histamine 轉換）改善疾病，反推 histidine 補充可能有害。此為本適應症最關鍵的機轉文獻。"
+        },
+        {
+          "pmid": "27351144",
+          "title": "Inhibition of mast cell-secreted histamine decreases biliary proliferation and fibrosis in PSC",
+          "year": "2016",
+          "study_type": "Preclinical (in vitro/in vivo)",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "直接展示 histamine 抑制可改善 PSC 病理，強化「histamine 有害」論據。與 histidine 再利用目標機轉相悖。"
+        },
+        {
+          "pmid": "29601088",
+          "title": "Blocking H1/H2 histamine receptors inhibits damage/fibrosis in Mdr2-/- mice and human cholangiocarcinoma",
+          "year": "2018",
+          "study_type": "Preclinical + translational",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "H1/H2 受體阻斷具保護效果，進一步支持 histamine 路徑在膽管疾病中的有害角色。"
+        },
+        {
+          "pmid": "35799467",
+          "title": "Mast cells target large cholangiocytes via H2HR-mediated cAMP/pERK signaling",
+          "year": "2022",
+          "study_type": "Mechanistic study",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "闡明 H2 受體介導的膽管損傷訊號路徑，提供機轉細節，間接支持 histamine 在 PSC 的有害角色。"
+        },
+        {
+          "pmid": "30325540",
+          "title": "Serum Metabolites as Diagnostic Biomarkers for Cholangiocarcinoma, Hepatocellular Carcinoma",
+          "year": "2019",
+          "study_type": "Metabolomics / Biomarker study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "代謝體學研究，histidine 代謝物作為腫瘤標誌物，無直接治療意義。"
+        },
+        {
+          "pmid": "23928409",
+          "title": "MicroRNA profiles predictive of ischemic-type biliary lesions after liver transplantation",
+          "year": "2013",
+          "study_type": "Biomarker study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "探討肝移植後缺血性膽管病變的 miRNA 標誌物，與 histidine 治療無直接關聯。"
+        },
+        {
+          "pmid": "19691661",
+          "title": "Incidence of and risk factors for ischemic-type biliary lesions following orthotopic liver transplantation",
+          "year": "2010",
+          "study_type": "Retrospective cohort",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "流行病學研究，無 histidine 治療相關資訊。"
+        },
+        {
+          "pmid": "8020893",
+          "title": "The molecular genetics of autoimmune liver disease",
+          "year": "1994",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "30 年前文獻，探討自身免疫肝病遺傳學背景，與 histidine 再利用無直接關聯。"
+        }
+      ]
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.9880,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性凝血酶原缺乏為 F2 基因突變所致的出血性疾病。Histidine 作為必需胺基酸在蛋白質合成中扮演角色，理論上可影響凝血因子合成，但無任何直接機轉或臨床支持。此連結過度延伸，僅為模型推測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "純 TxGNN 預測，零臨床/文獻支持。疾病罕見，替代治療（凝血因子替代療法）成熟，再利用優先序極低。"
+    },
+    {
+      "disease_name": "familial visceral myopathy",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性內臟肌病（ACTG2 基因突變）為腸道平滑肌功能障礙。Histidine 對平滑肌功能的影響極為間接，無機轉支持，純為計算預測結果。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "純 TxGNN 預測，零臨床/文獻支持。超稀有疾病（ORPHA:2604），re-purposing 路徑不明確。"
+    },
+    {
+      "disease_name": "potassium deficiency disease",
+      "txgnn_score": 0.9867,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻中 PGAM5（蛋白質組胺酸磷酸酶）與 histidine 磷酸化有間接關聯（PMID 27453048），NDK-B 活化鉀通道（PMID 26088577）亦涉及磷酸化訊號，但與補充 histidine 治療低鉀血症的直接機轉鏈結薄弱。PMID 4249109 (1970) 的胺基酸缺乏與電解質研究設計已過時，無法支持治療推薦。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "4249109",
+          "title": "Dietary deprivation of essential amino acids on plasma and erythrocyte electrolytes",
+          "year": "1970",
+          "study_type": "Dietary intervention study (animal/human, unclear)",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "56 年前的研究，探討胺基酸缺乏對電解質的影響，方法學過時，無法支持 histidine 補充治療低鉀血症。"
+        },
+        {
+          "pmid": "27453048",
+          "title": "PGAM5 as a Mammalian Protein Histidine Phosphatase playing a central role in energy metabolism",
+          "year": "2016",
+          "study_type": "Mechanistic study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "探討 histidine 殘基磷酸化的酵素功能，與補充 histidine 治療鉀缺乏的連結過度延伸。"
+        },
+        {
+          "pmid": "26088577",
+          "title": "NDK-B activated intermediate conductance potassium channels critical for cell survival",
+          "year": "2015",
+          "study_type": "Mechanistic study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "鉀通道的訊號機轉研究，與 histidine 的連結僅限於磷酸化訊號推測。"
+        },
+        {
+          "pmid": "39855736",
+          "title": "CXCR2 Deficiency in HeLa Cell on the Regulatory Network of Coding Genes and Non-Coding RNAs",
+          "year": "2024",
+          "study_type": "In vitro",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "細胞株基因調控網絡研究，與 histidine 或低鉀血症無直接關聯。"
+        },
+        {
+          "pmid": "15577749",
+          "title": "Neuroprotective role of PACAP, VIP, and PHI in the central nervous system",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "神經肽類文獻，與 histidine 或鉀缺乏無相關性。錯誤命中（可能因 PHI 縮寫或索引問題）。"
+        }
+      ]
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9854,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "PMID 29031770 顯示日式高湯中包含 histidine 在內的三種主要胺基酸可影響血糖代謝與胃排空速率，提示 histidine 可能透過腸道激素（如 GLP-1、GIP）路徑調節胃腸功能，與消化不良的胃排空異常有間接關聯。此外 H2 受體拮抗劑（histamine 的受體）已是 dyspepsia 的臨床標準療法，histidine 作為前驅物理論上可能有複雜的雙向作用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03401970",
+          "title": "Dietary Carbohydrate and Internal Body Fat Mass in Women and Men With Obesity",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 150,
+          "relevance_grade": "C",
+          "reasoning": "肥胖族群的飲食碳水化合物與體脂肪研究，與 histidine 用於 dyspepsia 無直接關聯。試驗無關，不支持亦不否定此適應症。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29031770",
+          "title": "Effects of three major amino acids found in Japanese broth on glucose metabolism and gastric emptying",
+          "year": "2018",
+          "study_type": "Clinical intervention study (human)",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "最相關文獻。Histidine 為日式高湯三大胺基酸之一（與 glutamate, alanine），研究顯示這些胺基酸影響胃排空，與 dyspepsia 的核心病理機轉有關。但 histidine 的獨立貢獻未分離評估。"
+        },
+        {
+          "pmid": "32394522",
+          "title": "Metabolic pathway abnormalities in celiac disease via metabolic profiling of small bowel mucosa",
+          "year": "2020",
+          "study_type": "Metabolomics study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "乳糜瀉的代謝組學研究，histidine 代謝途徑在腸道黏膜中改變，為疾病標誌物研究而非治療研究。"
+        },
+        {
+          "pmid": "25943773",
+          "title": "H. pylori eradication and expression/methylation of FHIT tumor suppressor",
+          "year": "2015",
+          "study_type": "Clinical observational",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "H. pylori 根除後 FHIT 基因甲基化研究，與 histidine 治療消化不良無連結（FHIT = Fragile Histidine Triad，名稱含 histidine 但為基因名稱，非胺基酸）。"
+        },
+        {
+          "pmid": "19751438",
+          "title": "H. pylori infection and family history of gastric cancer decrease FHIT expression",
+          "year": "2009",
+          "study_type": "Clinical observational",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "同上，FHIT 基因研究，無 histidine 胺基酸治療相關性。可能為文獻檢索假陽性命中。"
+        },
+        {
+          "pmid": "5569277",
+          "title": "Antacid activity of K 3717 compound using pH radiotelemetry",
+          "year": "1971",
+          "study_type": "Clinical pharmacology study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "1971 年制酸劑研究，K 3717 成分不明（可能為含 histidine 複方），方法學已淘汰，無法支持現代臨床建議。"
+        }
+      ]
+    },
+    {
+      "disease_name": "unclassified intestinal pseudoobstruction",
+      "txgnn_score": 0.9812,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腸道假性梗阻（CIPO）為腸神經系統或平滑肌功能障礙。無任何文獻或臨床試驗支持 histidine 治療此症。與 familial visceral myopathy 同為 TxGNN 對腸道動力障礙的群聚預測，可能反映知識圖譜中的鄰接節點效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "純 TxGNN 預測，零臨床/文獻支持。TxGNN 評分與 myopathic 型完全相同（0.9812），疑為同一疾病群組的批次預測。"
+    },
+    {
+      "disease_name": "myopathic intestinal pseudoobstruction",
+      "txgnn_score": 0.9812,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "同 unclassified intestinal pseudoobstruction，評分完全相同印證為同一群組預測。平滑肌病型 CIPO 屬極罕見疾病，Histidine 無已知機轉支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "TxGNN 評分與 unclassified 型完全相同（0.9812），為同一疾病群組批次預測的技術性現象，非獨立預測。"
+    },
+    {
+      "disease_name": "primary aldosteronism",
+      "txgnn_score": 0.9810,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性醛固酮增多症為 CYP11B2 基因突變導致腎上腺過度分泌醛固酮。文獻（PMID 31966891）僅為轉錄組分析，PMID 8106638 探討 p53 突變，PMID 12472765 為 CLCNKB 突變（Bartter/Gitelman 症候群），三者均與 histidine 治療無直接機轉連結。標準治療（spironolactone 或手術）已成熟。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05456997",
+          "title": "Metabolic Myopathy in Cushing's Syndrome or Pheochromocytoma Patients",
+          "phase": "N/A",
+          "status": "TERMINATED",
+          "enrollment": 1,
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究（Cushing's/嗜鉻細胞瘤之代謝肌病），非 primary aldosteronism，招募 1 人即終止，無任何 histidine 相關性。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "31966891",
+          "title": "Transcriptome analysis of primary aldosteronism in adrenal glands and controls",
+          "year": "2017",
+          "study_type": "Transcriptomic study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "基因表現譜分析，用於鑑別診斷生物標誌物，無 histidine 治療資訊。"
+        },
+        {
+          "pmid": "8106638",
+          "title": "Mutations of the p53 gene in human functional adrenal neoplasms",
+          "year": "1994",
+          "study_type": "Molecular genetics study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "30 年前腎上腺腫瘤 p53 突變研究，與 histidine 再利用無關。"
+        },
+        {
+          "pmid": "12472765",
+          "title": "CLCNKB mutation as a cause of Gitelman and Bartter syndromes",
+          "year": "2003",
+          "study_type": "Case study / Molecular genetics",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "氯離子通道基因突變研究，疾病類型（Bartter/Gitelman）與 primary aldosteronism 不同，且無 histidine 關聯。"
+        }
+      ]
+    },
+    {
+      "disease_name": "intestinal obstruction",
+      "txgnn_score": 0.9806,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腸道梗阻為機械性或動力性問題，主要治療為外科或支持療法。兩個臨床試驗均與 histidine 治療腸梗阻無關（NCT04821557 研究蛋白酶補充劑對胺基酸吸收的影響；NCT05190432 研究 taxifolin/ergothioneine 對免疫生物標誌物的影響）。無文獻支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04821557",
+          "title": "Effect of Microbial Protease Supplementation on Postprandial Amino Acid Levels in Healthy Adults",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 24,
+          "relevance_grade": "C",
+          "reasoning": "研究蛋白酶補充劑對餐後胺基酸吸收的影響，對象為健康成人，非腸梗阻患者，與 histidine 再利用無直接相關。"
+        },
+        {
+          "nct_id": "NCT05190432",
+          "title": "Dietary Taxifolin/Dihydroquercetin and Ergothioneine and Immune Biomarkers in Healthy Adults",
+          "phase": "NA",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "enrollment": 90,
+          "relevance_grade": "C",
+          "reasoning": "植化素對免疫生物標誌物的研究，與 histidine 或腸梗阻無任何直接關聯。"
+        }
+      ],
+      "literature_analysis": []
+    }
+  ],
+  "summary_matrix": {
+    "L5_hold": [
+      "gastroparesis",
+      "congenital prothrombin deficiency",
+      "familial visceral myopathy",
+      "potassium deficiency disease",
+      "unclassified intestinal pseudoobstruction",
+      "myopathic intestinal pseudoobstruction",
+      "primary aldosteronism",
+      "intestinal obstruction"
+    ],
+    "L4_S1_hold": ["sclerosing cholangitis"],
+    "L4_S1_research_question": ["dyspepsia"],
+    "L1_L3_proceed": []
+  },
+  "priority_recommendation": {
+    "highest_priority": "dyspepsia",
+    "rationale": "唯一有人類研究數據（PMID 29031770）直接顯示 histidine 含量食物影響胃排空，且機轉可解釋（腸道激素調節）。建議設計獨立 histidine 補充劑對功能性消化不良的 pilot RCT。",
+    "critical_concern": "sclerosing cholangitis 雖有最多文獻（8篇），但機轉方向指向 histidine→histamine 可能**惡化**疾病（HDC 剔除改善病情），需先進行 preclinical dose-response 研究釐清劑量效應，列為 Hold 並建議機轉研究優先於臨床試驗。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵因素 |
+|--------|----------|----------|------|---------|
+| 消化不良 (dyspepsia) | **L4** | S1 | 🔬 Research Question | PMID 29031770：histidine 影響胃排空的人類資料 |
+| 硬化性膽管炎 (PSC) | **L4** | S1 | ⛔ Hold | 機轉反向：HDC KO 改善 PSC，histidine 補充恐加重 |
+| 胃輕癱 (gastroparesis) | **L5** | S0 | ⛔ Hold | 零臨床證據，機轉推測 |
+| 先天性凝血酶原缺乏 | **L5** | S0 | ⛔ Hold | 零臨床證據 |
+| 家族性內臟肌病 | **L5** | S0 | ⛔ Hold | 零臨床證據，超罕見病 |
+| 低鉀血症 | **L5** | S0 | ⛔ Hold | 文獻假陽性居多 |
+| 腸道假性梗阻（兩型）| **L5** | S0 | ⛔ Hold | 同分預測，群聚效應 |
+| 原發性醛固酮增多症 | **L5** | S0 | ⛔ Hold | 標準治療成熟，無機轉支持 |
+| 腸道梗阻 | **L5** | S0 | ⛔ Hold | 臨床試驗完全無關 |
+
+> ⚠️ **本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證才能應用。**

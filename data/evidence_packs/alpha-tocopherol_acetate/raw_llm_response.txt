@@ -1,0 +1,404 @@
+## alpha-Tocopherol Acetate (DB14003) — 藥物再利用證據分析
+
+**分析前注意**：alpha-Tocopherol acetate 為維生素 E 醋酸酯（前驅藥），在腸道水解後轉化為活性型 alpha-tocopherol。現狀未上市、無已核准適應症、DDI 為 0、原始 MoA 資料缺失。文獻證據多以自由形式 alpha-tocopherol 進行，醋酸酯形式機轉上等效但需標注。
+
+---
+
+```json
+{
+  "drug": "alpha-Tocopherol acetate",
+  "drugbank_id": "DB14003",
+  "analysis_date": "2026-04-05",
+  "analyst_notes": "本藥為維生素E醋酸酯前驅藥，腸道水解後等效於 alpha-tocopherol（DB00162）。市場現狀未上市、無核准適應症。文獻中直接研究醋酸酯形式者少，多以 alpha-tocopherol 自由型態為標的，機轉上視為等效但需在試驗設計中明確區分。TxGNN 預測分數均高（0.9999+），提示模型對抗氧化機轉與多種氧化壓力相關疾病有強烈類化（generalization），需謹慎解讀預測分數。",
+  "indications": [
+    {
+      "disease_name": "diabetic retinopathy",
+      "txgnn_score": 0.9999094,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "糖尿病高血糖狀態觸發多元醛醣還原酶路徑（polyol pathway）、AGE 生成及 PKC 活化，導致視網膜血管內皮氧化損傷。Alpha-tocopherol 作為脂溶性抗氧化劑，可抑制脂質過氧化（lipid peroxidation）、降低 ROS、改善線粒體功能並抑制 PKC-β 活化，從而保護視網膜血管完整性。機轉合理，文獻支持。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03702374",
+          "title": "Effect of Prolonged Combined Antioxidant Therapy on Oxidative Stress and Mitochondrial Dysfunction",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 132,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 已完成試驗（n=132），直接針對糖尿病視網膜病變族群，但干預為複合抗氧化療法（Combined Antioxidant Therapy），alpha-tocopherol 為成分之一而非單獨給藥。主要終點為氧化壓力生物標記（替代終點），非視網膜結構或視力功能。結果尚不明確是否可歸因於 alpha-tocopherol 單一成分。"
+        },
+        {
+          "nct_id": "NCT04071977",
+          "title": "Effect of Combined Antioxidant Therapy on Oxidative Stress Markers in Aqueous and Vitreous",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 40,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 已完成（n=40），族群為糖尿病視網膜病變，量測眼內氧化壓力標記（房水與玻璃體）。樣本小，複合用藥設計，無法分離 alpha-tocopherol 貢獻。但提供了重要的局部氧化壓力機轉證據，支持後續單藥設計試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "19900709",
+          "title": "Micronutrients and diabetic retinopathy a systematic review",
+          "year": "2010",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "note": "系統性回顧微量營養素（含 alpha-tocopherol）與 DR 相關性，提供高層次證據彙整。"
+        },
+        {
+          "pmid": "12882944",
+          "title": "Relations of serum ascorbic acid and alpha-tocopherol to diabetic retinopathy (NHANES III)",
+          "year": "2003",
+          "study_type": "Cross-sectional (National Survey)",
+          "tier": "2",
+          "note": "NHANES III 大型橫斷面研究，發現血清 alpha-tocopherol 與 DR 風險呈負相關，具流行病學代表性。"
+        },
+        {
+          "pmid": "35715832",
+          "title": "Effect of retinol and α-tocopherol supplementation on photoreceptor and retinal ganglion cell apoptosis",
+          "year": "2022",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "近期動物研究，直接評估 alpha-tocopherol 補充對視網膜細胞凋亡的影響，提供機轉支持。"
+        },
+        {
+          "pmid": "8407170",
+          "title": "Plasma retinol and alpha-tocopherol in insulin-dependent diabetes mellitus",
+          "year": "1993",
+          "study_type": "Cohort/Observational",
+          "tier": "2",
+          "note": "觀察性研究，IDDM 患者血漿 alpha-tocopherol 濃度與 DR 相關性。"
+        },
+        {
+          "pmid": "13148290",
+          "title": "Alpha tocopherol to treat diabetic retinopathy",
+          "year": "1954",
+          "study_type": "Early Clinical Study",
+          "tier": "2",
+          "note": "早期臨床觀察（1954年），直接探討 alpha-tocopherol 治療 DR，歷史意義大於方法學嚴謹度，設計標準低。"
+        },
+        {
+          "pmid": "10803422",
+          "title": "Retinal vascular changes induced by alpha-tocopherol deficiency",
+          "year": "2000",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "缺乏 alpha-tocopherol 導致視網膜血管損傷，反證支持。"
+        },
+        {
+          "pmid": "12606527",
+          "title": "Characterization of retinal leukostasis and hemodynamics in insulin resistance and diabetes: role of oxidative stress",
+          "year": "2003",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "探討氧化壓力在胰島素抵抗視網膜白血球滯留中的角色，機轉相關。"
+        },
+        {
+          "pmid": "9609359",
+          "title": "Reducing lipid peroxidation stress of erythrocyte membrane by alpha-tocopherol nicotinate",
+          "year": "1998",
+          "study_type": "In vitro/Mechanistic",
+          "tier": "3",
+          "note": "機轉研究，支持抗脂質過氧化路徑。"
+        },
+        {
+          "pmid": "16842139",
+          "title": "Role of oxidative stress in cardiovascular complications in diabetes mellitus",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "回顧性文獻，闡述氧化壓力在糖尿病心血管及視網膜併發症機轉中的角色。"
+        },
+        {
+          "pmid": "9695797",
+          "title": "Aldose reductase: a window to the treatment of diabetic complications?",
+          "year": "1998",
+          "study_type": "Review",
+          "tier": "1",
+          "note": "闡述多元醛醣還原酶路徑在糖尿病併發症（含視網膜病變）的核心機轉。"
+        }
+      ]
+    },
+    {
+      "disease_name": "cortical cataract",
+      "txgnn_score": 0.9999143,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "水晶體皮質富含多不飽和脂肪酸，極易受氧化壓力及紫外線誘導的脂質過氧化損傷。Alpha-tocopherol 集中於水晶體組織，可終止自由基連鎖反應、保護膜磷脂，並與維生素 C 協同維持水晶體抗氧化屏障。機轉強度高，但臨床試驗以複合介入或顯示無效（ATBC 試驗於吸菸族群）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9527321",
+          "title": "Long-term supplementation with alpha-tocopherol and beta-carotene and age-related cataract (ATBC Trial)",
+          "year": "1997",
+          "study_type": "RCT (secondary analysis)",
+          "tier": "1",
+          "note": "ATBC 試驗次要分析，Phase 3 RCT 設計，但以複合給藥（alpha-tocopherol + beta-carotene）且以癌症預防為主要終點。白內障為次要終點，且主要針對皮質型。研究族群限吸菸男性，可推論性受限。"
+        },
+        {
+          "pmid": "8363468",
+          "title": "The Linxian cataract studies. Two nutrition intervention trials",
+          "year": "1993",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Linxian 大型 RCT，複合營養素介入（含維生素 E），針對營養缺乏族群，非西方族群可推論性有限。"
+        },
+        {
+          "pmid": "21620831",
+          "title": "Dose-response relationship for α-tocopherol prevention of UV-induced cataract",
+          "year": "2011",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "動物模型展示明確的劑量反應關係，UV 誘導皮質型白內障，機轉支持強。"
+        },
+        {
+          "pmid": "8512984",
+          "title": "Plasma antioxidants and risk of cortical and nuclear cataract",
+          "year": "1993",
+          "study_type": "Case-control/Cohort",
+          "tier": "2",
+          "note": "血漿抗氧化劑（含 alpha-tocopherol）與皮質及核型白內障風險的關聯性研究。"
+        },
+        {
+          "pmid": "7843899",
+          "title": "Serum carotenoids and tocopherols and severity of nuclear and cortical opacities",
+          "year": "1995",
+          "study_type": "Cross-sectional",
+          "tier": "2",
+          "note": "血清 tocopherol 與白內障嚴重度負相關的橫斷面研究。"
+        },
+        {
+          "pmid": "10550792",
+          "title": "Fat-soluble nutrient concentrations in different layers of human cataractous lens",
+          "year": "1999",
+          "study_type": "Observational/Tissue analysis",
+          "tier": "2",
+          "note": "分析白內障水晶體不同層次的脂溶性營養素濃度，直接提供組織層面機轉支持。"
+        },
+        {
+          "pmid": "10749028",
+          "title": "Protective function of alpha-tocopherol against cataractogenesis in humans",
+          "year": "1999",
+          "study_type": "Human Observational",
+          "tier": "2",
+          "note": "人體研究，直接評估 alpha-tocopherol 在白內障形成過程中的保護功能。"
+        },
+        {
+          "pmid": "2629605",
+          "title": "Modeling cortical cataractogenesis: Activity of vitamin E and esters in preventing cataracts",
+          "year": "1989",
+          "study_type": "Animal/Lab Study",
+          "tier": "3",
+          "note": "重要性：直接比較維生素 E 自由型與酯型（包含醋酸酯）在皮質型白內障模型的保護效果，具直接相關性。"
+        },
+        {
+          "pmid": "21705085",
+          "title": "Inverse association of vitamin C with cataract in older people in India",
+          "year": "2011",
+          "study_type": "Cross-sectional",
+          "tier": "2",
+          "note": "維生素 C 研究為主，對 alpha-tocopherol 僅為間接佐證。"
+        }
+      ]
+    },
+    {
+      "disease_name": "diabetic cataract",
+      "txgnn_score": 0.9999261,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "糖尿病高血糖激活多元醛醣還原酶路徑，山梨醇蓄積導致水晶體滲透壓改變與氧化壓力上升；同時 AGE 形成加速水晶體蛋白質交聯。Alpha-tocopherol 可抑制上述氧化路徑，但對醛醣還原酶無直接抑制作用，機轉為間接保護。現有文獻多針對一般性白內障（非糖尿病特異性），需更具針對性的研究。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9695797",
+          "title": "Aldose reductase: a window to the treatment of diabetic complications?",
+          "year": "1998",
+          "study_type": "Narrative Review",
+          "tier": "1",
+          "note": "機轉綜述，闡述醛醣還原酶在糖尿病性白內障的核心角色，alpha-tocopherol 非直接抑制劑，關聯為間接。"
+        },
+        {
+          "pmid": "8512984",
+          "title": "Plasma antioxidants and risk of cortical and nuclear cataract",
+          "year": "1993",
+          "study_type": "Cohort/Observational",
+          "tier": "2",
+          "note": "一般白內障風險研究，非糖尿病特異性族群，關聯為間接。"
+        },
+        {
+          "pmid": "9799882",
+          "title": "Incidence of cataract operations in Finnish male smokers unaffected by alpha tocopherol or beta carotene",
+          "year": "1998",
+          "study_type": "RCT (ATBC trial substudy)",
+          "tier": "1",
+          "note": "ATBC 試驗顯示 alpha-tocopherol 補充對吸菸男性白內障手術率無影響（null result），為反面證據，需謹慎解讀。"
+        },
+        {
+          "pmid": "11678042",
+          "title": "Nutrition and cataract in low-income Mexicans",
+          "year": "2001",
+          "study_type": "Cross-sectional",
+          "tier": "2",
+          "note": "低收入族群橫斷面研究，抗氧化營養素與白內障，非糖尿病特定。"
+        },
+        {
+          "pmid": "1486302",
+          "title": "Serum antioxidant vitamins and risk of cataract",
+          "year": "1992",
+          "study_type": "Case-control",
+          "tier": "2",
+          "note": "早期抗氧化維生素與白內障風險病例對照研究。"
+        },
+        {
+          "pmid": "2629605",
+          "title": "Modeling cortical cataractogenesis: vitamin E and esters",
+          "year": "1989",
+          "study_type": "Animal/Lab Study",
+          "tier": "3",
+          "note": "動物模型研究，直接比較維生素E醋酸酯形式，具物質特異性，機轉支持。"
+        },
+        {
+          "pmid": "12770645",
+          "title": "Vitamin E supplementation in CCl4 induced oxidative stress in rats",
+          "year": "2003",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "CCl4 誘導氧化壓力動物模型，一般性抗氧化機轉支持，與糖尿病相關性低。"
+        },
+        {
+          "pmid": "12919321",
+          "title": "Glycation and glycoxidation of low-density lipoproteins by glucose and aldehydes",
+          "year": "2003",
+          "study_type": "In vitro",
+          "tier": "3",
+          "note": "體外研究，糖化與糖氧化機轉，間接支持抗氧化劑在糖尿病環境的保護意義。"
+        },
+        {
+          "pmid": "8839930",
+          "title": "Vitamin E in humans: demand and delivery",
+          "year": "1996",
+          "study_type": "Review/Pharmacokinetics",
+          "tier": "3",
+          "note": "維生素E在人體需求與生體可用率綜述，提供藥代動力學背景。"
+        },
+        {
+          "pmid": "11471092",
+          "title": "Associations of cardiovascular disease and its risk factors with age-related macular degeneration",
+          "year": "2001",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "主要針對 AMD 非白內障，與糖尿病性白內障關聯性極低，相關性最弱。"
+        }
+      ]
+    },
+    {
+      "disease_name": "nuclear senile cataract",
+      "txgnn_score": 0.9999143,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "核型老年性白內障與水晶體核心蛋白質（crystallin）氧化聚合相關。Alpha-tocopherol 可抑制脂質過氧化，保護水晶體細胞膜，但核型白內障以蛋白質氧化為主，脂溶性抗氧化劑作用有限；機轉關聯度中等偏低。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10749028",
+          "title": "Protective function of alpha-tocopherol against the process of cataractogenesis in humans",
+          "year": "1999",
+          "study_type": "Human Observational",
+          "tier": "2",
+          "note": "唯一相關文獻，人體觀察性研究，評估 alpha-tocopherol 對白內障形成的保護功能，未區分核型/皮質型。證據力不足以支持核型老年性白內障的特定推薦。"
+        }
+      ]
+    },
+    {
+      "disease_name": "immature cataract",
+      "txgnn_score": 0.9999176,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "不成熟型白內障為白內障進展中間階段，非特定病因疾病實體。Alpha-tocopherol 的抗氧化作用可能延緩氧化性白內障進程，但「immature cataract」作為形態學描述，病因異質性高，機轉關聯需視原發病因而定。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10749028",
+          "title": "Protective function of alpha-tocopherol against the process of cataractogenesis in humans",
+          "year": "1999",
+          "study_type": "Human Observational",
+          "tier": "2",
+          "note": "同核型老年性白內障，此文獻為一般性白內障形成保護研究，非特定針對不成熟型白內障。"
+        }
+      ]
+    },
+    {
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn_score": 0.9999393,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "藥物誘發性骨質疏鬆（如類固醇誘導）主要機轉為抑制成骨細胞功能、促進骨吸收及干擾鈣磷代謝。Alpha-tocopherol 的抗氧化特性理論上可保護成骨細胞免於氧化損傷，且動物研究顯示維生素E可能改善骨轉換標記，但無人體臨床試驗直接驗證。此為 TxGNN 模型最高分預測，然臨床與文獻證據完全缺失，高度懷疑為模型泛化偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "mature cataract",
+      "txgnn_score": 0.9999176,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "成熟型白內障為白內障終末期，水晶體完全混濁。此階段手術為標準治療，藥物干預的臨床意義極低。Alpha-tocopherol 的氧化保護機轉在此疾病階段幾乎無治療相關性。無任何臨床或文獻證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tetanic cataract",
+      "txgnn_score": 0.9999176,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "手足搐搦性白內障主要由低鈣血症（副甲狀腺功能低下）引起，離子失衡導致水晶體滲透壓改變。此病因與氧化壓力機轉無直接關聯，alpha-tocopherol 的抗氧化機轉對此適應症幾乎無理論基礎。TxGNN 預測可能源於多種白內障疾病節點的圖譜傳播，非特異性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "craniostenosis cataract",
+      "txgnn_score": 0.9999176,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "顱縫早閉相關白內障為罕見先天性結構異常，機轉與顱內壓增高及眼眶骨骼發育異常有關。此為先天性/結構性病因，與氧化壓力機轉完全無關聯。Alpha-tocopherol 在此適應症無任何合理的機轉基礎或臨床證據，TxGNN 預測高度懷疑為知識圖譜節點擴散偽陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "diabetes mellitus type 2 associated cataract",
+      "txgnn_score": 0.9999176,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "第二型糖尿病相關白內障機轉涵蓋多元醛醣還原酶路徑、AGE 蓄積及氧化壓力，alpha-tocopherol 理論上可干預氧化壓力路徑。然而此特定疾病實體無任何臨床試驗或文獻直接支持，雖與 diabetic cataract 概念高度重疊，但資料完全缺失。建議合併至 diabetic cataract 項目進行系統性評估，而非獨立研究。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 決策優先序摘要
+
+| 排名 | 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|------|--------|----------|----------|------|----------|
+| ① | 糖尿病視網膜病變 | **L2** | **S2** | ✅ Proceed with Guardrails | Phase 3 (n=132) + Phase 2 (n=40) 完成試驗；20 篇文獻含系統性回顧 |
+| ② | 皮質型白內障 | **L3** | **S2** | 🔬 Research Question | ATBC + Linxian RCT 次要終點；9 篇含 RCT 資料；ATBC 顯示無效（吸菸族群）|
+| ③ | 糖尿病性白內障 | **L4** | **S1** | 🔬 Research Question | 10 篇間接文獻；機轉合理但缺乏特定試驗 |
+| ④ | 核型老年性白內障 | **L4** | **S0** | ⛔ Hold | 僅 1 篇一般性文獻；無試驗 |
+| ⑤ | 不成熟型白內障 | **L4** | **S0** | ⛔ Hold | 僅 1 篇文獻；疾病定義異質 |
+| ⑥ | 藥物誘發性骨質疏鬆 | **L5** | **S0** | ⛔ Hold | 最高 TxGNN 分數但零臨床證據；疑偽陽性 |
+| ⑦-⑩ | 成熟型/手足搐搦/顱縫早閉/DM2相關白內障 | **L5** | **S0** | ⛔ Hold | 無任何文獻；部分病因與機轉完全不符 |
+
+> **⚠️ 重要標注**：本藥 DB14003「未上市」且「無原始適應症」，任何推進均需先確認藥學品質（醋酸酯水解率、生體可用率）及安全性資料。Phase 3 試驗（NCT03702374）雖存在，但以複合抗氧化療法進行，需設計單藥 alpha-tocopherol acetate 試驗方可確立獨立貢獻。

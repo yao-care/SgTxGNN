@@ -1,0 +1,769 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11963-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Dacomitinib",
+    "drugbank_id": "DB11963",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9779312014579772,
+        "rank": 18011
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "EGFR 信號參與滑膜纖維母細胞（FLS）的異常增殖與 IL-6/TNF 介導的炎症反應，泛 ErbB 抑制理論上可抑制滑膜增生。然而 RA 已有高效的 JAK 抑制劑、TNF 拮抗劑及 B 細胞清除劑，EGFR 並非 RA 病理的主要驅動子。TxGNN 預測分數最高（0.978）但無任何臨床或臨床前直接支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "homozygous familial hypercholesterolemia",
+      "txgnn": {
+        "score": 0.9692277312278748,
+        "rank": 21542
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HoFH 由 LDLR 功能缺失突變驅動，核心病理為 LDL 受體介導的膽固醇清除障礙，與 EGFR/ErbB 信號通路無直接已知關聯。PI3K/AKT 通路或有間接脂質代謝影響，但此關聯極度薄弱且為推測性，無任何支持性數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9677900671958924,
+        "rank": 21981
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ErbB/EGFR 信號在胚胎肢體發育（指趾分化）中具調控角色，部分短指並指症候群涉及 BMP/WNT 通路異常，與 ErbB 有交叉點。但此症候群為先天性遺傳結構異常，出生後的藥物干預對已形成的結構異常無修復潛力，臨床意義不明。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.9651300311088562,
+        "rank": 22805
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01121575",
+            "title": "A Phase 1, Open-label, Dose Escalation Study To Evaluate Safety, Pharmacokinetics And Pharmacodynamics Of Combined Oral C-met/Alk Inhibitor (Pf-02341066) And Pan-her Inhibitor (Pf-00299804) In Patients With Advanced Non-small Cell Lung Cancer",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 70,
+            "start_date": "2010-08",
+            "completion_date": "2014-02",
+            "brief_summary": "Lung cancer tumors become resistant to the first generation epidermal growth factor receptor (EGFR) inhibitors erlotinib or gefitinib by changing and increasing the activity of two cell signaling pathways: the cMET pathway and the EGFR pathway. Both resistance mechanisms can occur at the same time, in the same patient and even in the same tumor. This study combines a second generation EGFR inhibitor and a cMET inhibitor to block both these pathways in order to overcome resistance and treat this ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 劑量遞增安全性與 PK 研究（已完成，n=70）。設計目的為評估一般安全性與藥動學，並非針對肺高壓設計，缺乏 PH 相關療效終點（如 6MWD、PVR、NT-proBNP）。然而，完成的 Phase 1 資料提供了後續 PH 專屬臨床試驗設計所需的人體安全劑量範圍與耐受性基線，評為 B 級（間接相關但具參考價值）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "30753867",
+            "title": "Dacomitinib, a new pan-EGFR inhibitor, is effective in attenuating pulmonary vascular remodeling and pulmonary hypertension.",
+            "authors": [
+              "Yu Xiufeng",
+              "Zhao Xijuan",
+              "Zhang Junting",
+              "Li YiYing",
+              "Sheng Ping"
+            ],
+            "journal": "European journal of pharmacology",
+            "year": "2019",
+            "abstract": "Accumulating evidence suggests that epidermal growth factor receptor (EGFR) plays a role in the progression of pulmonary arterial hypertension (PAH). Clinically-approved epidermal growth factor inhibitors such as gefitinib, erlotinib, and lapatinib have been explored for PAH. However, None of them were able to attenuate PAH. So, we explored the role of dacomitinib, a new pan-EGFR inhibitor, in PAH. Adult male Sprague-Dawley rats were used to study hypoxia- or monocrotaline-induced right ventricu",
+            "classification": {
+              "study_type": "Preclinical (in vitro + rodent model)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "EGFR/ErbB 信號驅動肺動脈平滑肌細胞（PASMC）異常增殖與抗凋亡，為肺血管重塑的核心機轉之一。EGFR 配體（EGF、TGF-α）在 PAH 患者肺組織中過度表達。PMID 30753867 直接於動物模型驗證 Dacomitinib 可抑制低氧/野百合鹼誘導的肺血管重塑及右心室壓力升高，是目前十項候選中機轉關聯最強且有直接臨床前實驗支持者。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "txgnn": {
+        "score": 0.9644342660903932,
+        "rank": 23019
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "NSIAD 由 AVPR2（精胺酸加壓素受體 2）功能增益突變引起。EGFR 在腎集合管可透過 EGFR-AQP2 通路與 AVPR2 存在交叉信號（transactivation），理論上抑制 EGFR 可減少 AQP2 膜表達而改善抗利尿效應過強；但此機轉高度推測，無任何直接臨床前或臨床研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.964382529258728,
+        "rank": 23037
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此極罕見先天性症候群（眼發育缺損合併肢根型骨骼發育不良）與 EGFR 通路無已知直接分子關聯；屬胚胎發育期遺傳缺陷，藥物後天干預潛力未知。僅為演算法圖神經網路拓撲預測結果。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.96179461479187,
+        "rank": 23815
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊柱後側彎性心臟病主要為脊柱結構畸形造成的機械性胸廓限制、繼發性限制型肺疾病及右心功能不全，屬物理性病因。EGFR 信號在此機械性心肺疾病中無已知病理角色，藥物干預理論基礎薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "multiple endocrine neoplasia",
+      "txgnn": {
+        "score": 0.96177476644516,
+        "rank": 23820
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03878524",
+            "title": "Serial Measurements of Molecular and Architectural Responses to Therapy (SMMART) Trial: PRIME",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 2,
+            "start_date": "2020-04-01",
+            "completion_date": "2020-12-10",
+            "brief_summary": "This phase Ib trial determines if samples from a patient's cancer can be tested to find combinations of drugs that provide clinical benefit for the kind of cancer the patient has. This study is also being done to understand why cancer drugs can stop working and how different cancers in different people respond to different types of therapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 1 分子導向籃型試驗（SMMART PRIME），涵蓋多種腫瘤類型，已終止（TERMINATED）。MEN 相關入組僅 2 人，樣本極小無統計意義，且試驗終止原因未公開。無法提供有效安全性或療效訊息；評為 C 級（試驗存在但不具決策參考價值）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MEN1/MEN2 相關神經內分泌腫瘤（胰島素瘤、甲狀腺髓樣癌）部分亞型有 EGFR/HER2 過表達報告，理論上 pan-ErbB 抑制可抑制腫瘤增殖；但 MEN2 主要驅動突變為 RET（非 EGFR），EGFR 在 MEN 中的驅動角色尚未確立為主要致癌機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "amyotrophic lateral sclerosis",
+      "txgnn": {
+        "score": 0.9511730074882508,
+        "rank": 26421
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "EGFR 信號在星形膠質細胞活化與神經炎症中有潛在調控角色，理論上抑制膠質過度活化可能延緩運動神經元退化；但 Dacomitinib 的血腦屏障穿透率極低（CNS 曝露不足），且目前無任何 ALS 相關臨床前或臨床直接研究，機轉連結停留於假說層次。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "leprosy",
+      "txgnn": {
+        "score": 0.9494900703430176,
+        "rank": 26833
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "麻瘋分枝桿菌感染涉及 TLR2 介導的免疫抑制與巨噬細胞功能障礙，部分研究指出 EGFR 可透過 TLR-EGFR 交叉信號調節先天免疫；但此機轉連結極為間接，抗感染並非 EGFR 抑制劑的合理應用情境，且臨床使用恐因免疫抑制效應加重感染風險，安全性考量為負面。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "homozygous familial hypercholesterolemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "multiple endocrine neoplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "amyotrophic lateral sclerosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Dacomitinib",
+        "disease": "leprosy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

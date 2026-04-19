@@ -1,0 +1,2070 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01744-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Camphor",
+    "drugbank_id": "DB01744",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.998479425907135,
+        "rank": 2788
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35856604",
+            "title": "Substance use related cluster headache: A case series.",
+            "authors": [
+              "Mathew Thomas",
+              "John Saji Kaithavalappil",
+              "Javali Mahendra",
+              "Vasireddy Manoj",
+              "Nadig Raghunandan"
+            ],
+            "journal": "Headache",
+            "year": "2022",
+            "abstract": "Essential oils (EOs) with pro-convulsant properties are known to cause seizures and may worsen migraine. Here we report five cases of cluster headache (CH) secondary to the usage of toothpastes containing pro-convulsant EOs.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36404301",
+            "title": "A phase 3, randomised, placebo-controlled study of erenumab for the prevention of chronic migraine in patients from Asia: the DRAGON study.",
+            "authors": [
+              "Yu Shengyuan",
+              "Kim Byung-Kun",
+              "Wang Hebo",
+              "Zhou Jiying",
+              "Wan Qi"
+            ],
+            "journal": "The journal of headache and pain",
+            "year": "2022",
+            "abstract": "BACKGROUND: DRAGON was a phase 3, randomised, double-blind, placebo-controlled study which evaluated the efficacy and safety of erenumab in patients with chronic migraine (CM) from Asia not adequately represented in the global pivotal CM study.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27058833",
+            "title": "[﻿The origin of a differentiated neuropsychopharmacotherapy for children and adolescents: an analysis of psycho- and neuropharmacology in the 1940s and 50s﻿].",
+            "authors": [
+              "Gerhard Uwe-Jens",
+              "Schönberg Anke"
+            ],
+            "journal": "Zeitschrift fur Kinder- und Jugendpsychiatrie und Psychotherapie",
+            "year": "2016",
+            "abstract": "The origin of a differentiated approach to neuropsychopharmacotherapy in children and adolescents can be traced back to the 1940s and 50s. Certain clinical disorders in the range of psychiatry and neurology were treated with a multiplicity of substances.",
+            "classification": {
+              "study_type": "Historical Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34373243",
+            "title": "Essential oils and cluster headache: insights from two cases.",
+            "authors": [
+              "Mathew Thomas",
+              "John Saji Kaithavalappil",
+              "Javali Mahendra Vishwanath"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2021",
+            "abstract": "Essential oils with proconvulsive properties are known to cause seizures and may worsen migraine. Here, we report two cases of cluster headache temporally related to the use of toothpastes containing essential oils of camphor and eucalyptus.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "593588",
+            "title": "[Therapy for essential hemicrania].",
+            "authors": [
+              "Stanzani M"
+            ],
+            "journal": "Minerva medica",
+            "year": "1977",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series / Historical",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Camphor 為 TRPV1 部分促效劑及 TRPM8 激動劑，可調節三叉神經血管痛覺傳導；其 CNS 興奮性調節作用（GABA-A 受體）可能影響皮質擴散性抑制（CSD）；傳統製劑（含 camphor 精油）外用於頭痛有歷史記載，但分子路徑尚未系統性驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9979261159896852,
+        "rank": 3515
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接文獻支持；假設路徑為 TRPV1/TRPM8 調節腦幹三叉神經核活性，但屬高度推測。此亞型機轉更涉及腦幹血管調節，安全性疑慮更高。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "erectile dysfunction (disease)",
+      "txgnn": {
+        "score": 0.9978601336479188,
+        "rank": 3588
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27955803",
+            "title": "Oral acute toxicity study as well as tissues oxidative stress and histopathological disorders in edible camphor administered rats.",
+            "authors": [
+              "Somade Oluwatobi T",
+              "Adeniji Kafilat D",
+              "Adesina Abdul-Rahman A",
+              "Olurinde Oluremi J"
+            ],
+            "journal": "Experimental and toxicologic pathology : official journal of the Gesellschaft fur Toxikologische Pathologie",
+            "year": "2017",
+            "abstract": "In the South-western part of Nigeria, edible camphor (EC) infusions are used to treat pile, back pain, and erectile dysfunction, especially in preparation for sexual intercourse. We therefore carried out oral acute toxicity study, and then investigated the effects of various doses of EC on the activities of lactate dehydrogenase (LDH), catalase (CAT), and superoxide dismutase (SOD), as well as reduced glutathione (GSH) and malondialdehyde (MDA) levels in wistar rats. Oral LD50 of EC was estimate",
+            "classification": {
+              "study_type": "Animal Toxicology",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉連結。唯一文獻（PMID 27955803）為毒理學研究，評估 camphor 的急性口服毒性及組織氧化壓力，實為反向證據（毒性關注），非療效支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension",
+      "txgnn": {
+        "score": 0.997654139995575,
+        "rank": 3839
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00902174",
+            "title": "A 24-week Randomized Placebo-controlled, Double-blind Multi-center Clinical Trial Evaluating the Efficacy and Safety of Oral QTI571 as an add-on Therapy in the Treatment of Severe Pulmonary Arterial Hypertension: Imatinib in Pulmonary Arterial Hypertension, a Randomized, Efficacy Study (IMPRES)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 202,
+            "start_date": "2009-09",
+            "completion_date": "2011-05",
+            "brief_summary": "A multinational, multicenter, double blind, placebo-controlled study evaluating the efficacy and safety of imatinib as an add-on therapy in the treatment of patients with severe pulmonary arterial hypertension (PAH).",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對其他藥物的 Phase 3 RCT，與 Camphor 無關，誤入原因為 'CAMPHOR' 問卷作為次要終點"
+            }
+          },
+          {
+            "nct_id": "NCT02558582",
+            "title": "Effect of Exercise Training in Arterial and Chronic Thromboembolic Pulmonary Hypertension in Switzerland and Standardization With European Countries",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 32,
+            "start_date": "2015-09-01",
+            "completion_date": "2023-12",
+            "brief_summary": "Pulmonary Hypertension (PH) is a serious disease with a dismal prognosis when left untreated. Advances in medical therapy have improved survival according to recent registries and systematic reviews, but are associated with high healthcare costs.\n\nEarlier studies in Heidelberg, Germany showed good evidence for the effect of exercise training on improving exercise performance, quality of life and pulmonary hemodynamics in patients with pulmonary hypertension.\n\nThe main objectives of the present p",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03838445",
+            "title": "RELIEVE-PAH TRIAL: REducing Right ventricuLar faIlure With thE V-waVe Shunt in Pulmonary Arterial Hypertension",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 20,
+            "start_date": "2020-02-14",
+            "completion_date": "2026-12-31",
+            "brief_summary": "The objectives of the RELIEVE-PAH study are to obtain first-in-human experience with the study device in patients with severe pulmonary arterial hypertension, including evidence of initial safety, device performance and possible signals of clinical effectiveness.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06362382",
+            "title": "Mobile Internet-based Remote Home Rehabilitation Improves Prognostic Function and Quality of Life in Pulmonary Hypertension: a Prospective Single-center Randomized Controlled Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 80,
+            "start_date": "2024-04-22",
+            "completion_date": "2026-05-01",
+            "brief_summary": "The goal of this clinical trial is to learn the effectiveness of remote home-based exercise rehabilitation using mobile Internet technology for patients with pulmonary hypertension，especically providing early and mid-term results of its effectiveness. The main questions it aims to answer are:\n\nDose tele-rehabilitation training improves prognostic function and quality of life in patients with pulmonary hypertension？ Researchers will compare tele-rehabilitation training group to a control group (r",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01268553",
+            "title": "Transition From Parenteral Prostanoids to Inhaled Treprostinil",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 6,
+            "start_date": "2010-08",
+            "completion_date": "2016-10-05",
+            "brief_summary": "The purpose of this study is to assess tolerability and clinical effects of transition from intravenous (IV, needle in the vein) or subcutaneous (SQ, needle in the skin) to the recently-approved inhaled treprostinil (Tyvaso) for the treatment of pulmonary arterial hypertension (PAH).\n\nOur hypothesis is that the transition to inhaled treprostinil will be tolerated by patients.\n\nThe intravenous and subcutaneous drugs epoprostenol and treprostinil received approval for treatment of PAH many years a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05493371",
+            "title": "Feasibility Study of Empagliflozin As Treatment for Idiopathic Pulmonary Arterial Hypertension",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 8,
+            "start_date": "2023-03-01",
+            "completion_date": "2024-11-01",
+            "brief_summary": "The aim of the study is to determine whether conducting a randomized placebo-controlled clinical trial is feasible, safe for the patient and whether the treatment is well tolerated in patients with idiopathic pulmonary arterial hypertension.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "SGLT2 抑制劑試驗，與 Camphor 完全無關"
+            }
+          },
+          {
+            "nct_id": "NCT02755298",
+            "title": "Chronic Clinical Effect of Acetazolamide in Pulmonary Hypertension",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2016-10",
+            "completion_date": "2020-11",
+            "brief_summary": "The study seeks primarily to determine the chronic clinical effect of AZA on exercise capacity (6MWD) compared to placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00439946",
+            "title": "Rapid Switch From Intravenous Epoprostenol to Intravenous Remodulin® (Treprostinil Sodium) Using the Crono Five Ambulatory Infusion Pump in Patients With Stable Pulmonary Arterial Hypertension (PAH): Safety, Efficacy and Treatment Satisfaction",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 8,
+            "start_date": "2007-02",
+            "completion_date": "2011-03",
+            "brief_summary": "The purpose of this 8-week study is to compare the effects of switching from intravenous Flolan to intravenous Remodulin therapy. Remodulin (treprostinil sodium) is an approved therapy for pulmonary arterial hypertension (PAH). Unlike Flolan, Remodulin does not need to be mixed daily and is stable at room temperature, so there is no need for ice packs. In addition, Remodulin is changed every 48hrs, instead of every 12-24 (with ice packs) or every 8 hours (without ice packs) with Flolan. Flolan i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00887978",
+            "title": "A 16-Week, International, Multicenter, Double-Blind, Randomized, Placebo-Controlled Study of the Efficacy and Safety of Oral UT-15C Sustained Release Tablets in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 310,
+            "start_date": "2009-06",
+            "completion_date": "2011-07",
+            "brief_summary": "This study is an international, multi-center, randomized, double-blind, placebo-controlled study in subjects with PAH who are currently receiving approved therapy for their PAH (i.e., endothelin receptor antagonist and/or phosphodiesterase-5 inhibitor). Study visits will occur at 4 week intervals for 16 weeks with the key measure of efficacy being the 6-minute walk test. Study procedures include routine blood tests, medical history, physical exams, disease evaluation, and exercise tests.\n\nPatien",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "同上，CAMPHOR 量表作為 QoL 測量工具，非 Camphor 藥物試驗"
+            }
+          },
+          {
+            "nct_id": "NCT04451850",
+            "title": "Heart Rate Variability (HRV) as a Marker of Treatment Response in Pulmonary Arterial Hypertension (PAH)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2021-06-01",
+            "completion_date": "2024-12-01",
+            "brief_summary": "This is a prospective longitudinal cohort study to determine the value of HRV obtained using noninvasive actigraphy to quantify the response to pulmonary vasodilator therapy in newly diagnosed PAH patients",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00373360",
+            "title": "Rapid Switch From Intravenous Epoprostenol to Intravenous Remodulin® (Treprostinil Sodium) in Patients With Stable Pulmonary Arterial Hypertension: Safety, Efficacy and Treatment Satisfaction",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 10,
+            "start_date": "2006-09",
+            "completion_date": "2008-01",
+            "brief_summary": "The purpose of this 8-week study is to compare the effects of switching from therapy with epoprostenol or Flolan to IV Remodulin. This study will also assess the effect that changing to Remodulin will have on patient satisfaction with their treatment and impact on quality of life.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01517854",
+            "title": "Revatio Portal-Pulmonary Arterial Hypertension Trial (RePo1 Trial): A Randomized, Double-blinded, Placebo-controlled, Multi-center Study to Evaluate the Effects of Sildenafil Citrate (Revatio) 20 mg TID on Patients With Portal Pulmonary Arterial Hypertension (PPAH)",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 12,
+            "start_date": "2012-11-14",
+            "completion_date": "2019-05-14",
+            "brief_summary": "The investigators propose the first prospective, double blind, randomized controlled trial of treatment for pulmonary arterial hypertension (PAH) related to underlying portal hypertension. Specifically the investigators will evaluate the potential efficacy and safety of sildenafil (Revatio) in a 16 week blinded, multicentre study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01588405",
+            "title": "A Multicenter, Open-Label Study of the Safety and Tolerability of Transitioning From Remodulin® to Oral Treprostinil in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 33,
+            "start_date": "2012-04",
+            "completion_date": "2014-12",
+            "brief_summary": "This multi-center, open-label study will assess the tolerability and safety of transitioning subjects with stable Pulmonary Arterial Hypertension (PAH) from continuous intravenous (IV) or subcutaneous (SC) Remodulin infusion to oral treprostinil (UT-15C sustained release (SR) tablets).\n\nThis study will consist of an in-hospital transition phase, dose optimization/evaluation phase, and follow up phase.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02482402",
+            "title": "Iloprost for Bridging to Heart Transplantation in Patients With Pulmonary Hypertension and Left Heart Failure A Randomized, Controlled, Double-blind, Parallel Group, Proof-of-concept Trial",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2015-02",
+            "completion_date": "2015-03-17",
+            "brief_summary": "Trial Rationale/ Justification To assess efficacy and safety of inhaled Iloprost in treatment naïve patients with left heart failure and pulmonary hypertension, who are on the waiting list for orthotopic heart transplantation. As patients often show increasing hemodynamic values while waiting for a donor organ, the transplantation becomes infeasible at the time of identification of an appropriate donor organ when reaching the exclusion limits. Therefore, there is a high need of improvement and s",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00643604",
+            "title": "Rapid Switch From Intravenous Epoprostenol to Intravenous Remodulin® (Treprostinil Sodium) in Patients With Stable Pulmonary Arterial Hypertension in the Outpatient Clinic: Safety, Efficacy and Treatment Satisfaction",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 7,
+            "start_date": "2008-03",
+            "completion_date": "2012-02",
+            "brief_summary": "The purpose of this 8-week study is to compare the effects of switching from therapy with epoprostenol or Flolan to IV Remodulin. This study will also assess the effect that changing to Remodulin will have on patient satisfaction with their treatment and impact on quality of life.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01457781",
+            "title": "A Phase 2, Placebo Controlled, Double-Blind, Randomized, Clinical Study to Determine Safety, Tolerability and Efficacy of Pulsed, Inhaled Nitric Oxide (iNO) Versus Placebo as Add-On Therapy in Symptomatic Subjects With Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 80,
+            "start_date": "2012-04",
+            "completion_date": "2016-07",
+            "brief_summary": "This is a Phase 2, Placebo Controlled, Double-Blind, Randomized, Clinical Study to Determine Safety, Tolerability and Efficacy of Pulsed, Inhaled Nitric Oxide (iNO) Versus Placebo as Add-on Therapy in Symptomatic Subjects with Pulmonary Arterial Hypertension (PAH).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00741819",
+            "title": "An Open Label, Multi-center Study Evaluating the Safety of Long-term Inhaled Treprostinil Administration Following Transition From Inhaled Ventavis® (Iloprost) in Subjects With Pulmonary Arterial Hypertension.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 73,
+            "start_date": "2008-09",
+            "completion_date": "2010-12",
+            "brief_summary": "This is a 24-month, multi-center, prospective, open-label, safety evaluation in PAH subjects following transition from a stable dose of inhaled iloprost (Ventavis).\n\nSubjects are to be evaluated for safety throughout the course of the study while secondary assessments will be conducted at Baseline, Week 6, Week 12, and Months 6, 12, 18 and 24 following initiation of treprostinil sodium.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01980979",
+            "title": "Efficacy of Remodulin in Adults With Congenital Heart Disease (ACHD) and Pulmonary Hypertension",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-11",
+            "completion_date": "2015-12",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of Remodulin in the treatment of adult patients with congenital heart disease and pulmonary hypertension. Baseline and post-treatment cardiopulmonary exercise tests will be performed.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06209710",
+            "title": "Comparing Effectiveness of Balloon Pulmonary Angioplasty Alone vs. Combined With Pulmonary Artery Denervation in Chronic Thromboembolic Pulmonary Hypertension Patients Receiving Standard Medical Therapy",
+            "phase": "PHASE2, PHASE3",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 20,
+            "start_date": "2024-04-01",
+            "completion_date": "2025-12",
+            "brief_summary": "This clinical trial investigates new treatment approaches for chronic thromboembolic pulmonary hypertension (CTEPH), a condition affecting the lungs' blood vessels. CTEPH often develops after repeated blood clots in the lungs, leading to increased pressure and strain on the heart. The study aims to assess the effectiveness of combining two treatments, balloon pulmonary angioplasty (BPA) and pulmonary artery denervation (PADN), in reducing blood pressure in the lungs compared to the standard trea",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02961023",
+            "title": "The Effect of Adding Exercise Training to Optimal Therapy in Pulmonary Arterial Hypertension",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2016-02",
+            "completion_date": "2018-07",
+            "brief_summary": "Exercise capacity (EC) is limited in pulmonary arterial hypertension (PAH) by impaired right ventricular (RV) function and inability to increase stroke volume (SV). Disease targeted therapy, increases EC by improving SV. Additional factors may contribute to exercise limitation:\n\n* Peripheral and respiratory muscle dysfunction\n* Autonomic dysfunction\n* An altered profile of inflammation\n* Mitochondrial dysfunction.\n\nThe enhancement of EC achieved pharmacologically may therefore be limited. Exerci",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05908019",
+            "title": "The Effects of Pulmonary Hypertension Web-Based Health Care Program on Symptom Management, Social Support, Activity Tolerance, and Quality of Life in Patients With Pulmonary Hypertension.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2023-05-05",
+            "completion_date": "2024-12-31",
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is a chronic disease characterized by an elevation in pulmonary artery pressures and pulmonary vascular resistance. The condition most often is rarely detected, and patients frequently suffer symptoms for several years before being appropriately diagnosed. Patients with PH suffer from several symptoms, such as exertional dyspnea, fatigue, weakness, chest pain, fainting…et al. Pulmonary hypertension is an incurable and progressive disease with complex symptom",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06850792",
+            "title": "imprOving Adherence to Pulmonary artErial hyperteNsion Treatment With teLemedicIne and patieNt guidaNce - A Multicenter Pre- and Post-intervention Evaluation Study",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 61,
+            "start_date": "2025-05-07",
+            "completion_date": "2028-04",
+            "brief_summary": "Pulmonary arterial hypertension (PAH) is a progressive condition with high morbidity, frequent hospitalizations, and risk of right heart failure. Despite advances in treatment, poor adherence remains a major challenge. This randomized controlled study assesses whether remote monitoring can improve treatment adherence, clinical outcomes, and side effect management in PAH patients on oral therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00617305",
+            "title": "An Open-label, Multicenter Study of Ambrisentan and a Phosphodiesterase Type-5 Inhibitor Combination Therapy in Subjects With Pulmonary Arterial Hypertension Who Have Demonstrated a Sub-Optimal Response to a Phosphodiesterase Type-5 Inhibitor",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 38,
+            "start_date": "2008-04",
+            "completion_date": "2011-07",
+            "brief_summary": "To evaluate the change from baseline in pulmonary vascular resistance (PVR), and other hemodynamic parameters, following the addition of ambrisentan to background phosphodiesterase type-5 inhibitor (PDE-5i) therapy in subjects with pulmonary arterial hypertension (PAH) who have demonstrated a sub-optimal response to PDE-5i monotherapy.\n\nThe study was originally designed as a 2-arm, double-blind, randomized study in which patients received ambrisentan or placebo for 24 weeks, and then received am",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01977014",
+            "title": "NIMS- New Implantable Pump in Pulmonary Arterial Hypertension, a Safety Follow up",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2013-10",
+            "completion_date": "2016-12",
+            "brief_summary": "This observational study aims to chart patients which get their prostacyclin treatment via the subcutaneous LenusPro pump. How the surgical procedure is performed and the clinical follow-up of these patients. And by this also charting complications that might occur in relation to treatment.\n\nParticipating centres are located in Denmark, Norway and Sweden.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00180713",
+            "title": "Simvastatin as a Treatment for Pulmonary Hypertension",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 42,
+            "start_date": "2005-10",
+            "completion_date": "2009-05",
+            "brief_summary": "The purpose of the study is to investigate the safety and efficacy of adding simvastatin to the current conventional treatment regimen for the management of pulmonary hypertension.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02847260",
+            "title": "A 16 Week, Open Label, Multi-centre, Study to Evaluate the Safety, Tolerability and Pharmacodynamic Effects of a Rapid Dose Titration Regimen of Subcutaneous Remodulin® Therapy in Subjects With Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 39,
+            "start_date": "2012-04",
+            "completion_date": "2014-03",
+            "brief_summary": "The purpose of the study is to evaluate the safety and tolerability of a rapid dose titration regimen of subcutaneous Remodulin® therapy in patients with PAH.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03496207",
+            "title": "A Phase 2, Double-Blind, Placebo-Controlled, Randomized Study to Compare the Efficacy and Safety of Sotatercept (ACE-011) Versus Placebo When Added to Standard of Care for the Treatment of Pulmonary Arterial Hypertension (PAH)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 106,
+            "start_date": "2018-06-13",
+            "completion_date": "2022-03-09",
+            "brief_summary": "Study A011-09 is designed to assesses the efficacy and safety of sotatercept (ACE-011) relative to placebo in adults with pulmonary arterial hypertension (PAH). Eligible participants will receive study treatment for 24 weeks during the placebo-controlled treatment period, and then will be eligible to enroll into a 30-month extension period during which all participants will receive sotatercept. All treated patients will also undergo a follow-up period after last study drug treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03782818",
+            "title": "Olaparib for Pulmonary Arterial Hypertension: a Multicenter Clinical Trial",
+            "phase": "PHASE1, PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 17,
+            "start_date": "2019-11-20",
+            "completion_date": "2024-10-31",
+            "brief_summary": "The main OBJECTIVE of this proposal is to extend our preclinical findings on the role of DNA damage and poly(ADP-ribose) polymerases (PARP) inhibition as a therapy for a devastating disease, pulmonary arterial hypertension (PAH), to early-phase clinical trials. We, and others, have published strong evidence that DNA damage accounts for disease progression in PAH and showed that PARP1 inhibition can reverse PAH in several animal models1. Interestingly, PARP1 inhibition is also cardioprotective. O",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01447628",
+            "title": "What is the Effect of Intravenous Iron Supplementation on Cardiopulmonary Haemodynamics, Exercise Capacity and Quality of Life in Patients With IPAH and Iron Deficiency?",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 56,
+            "start_date": "2011-03-29",
+            "completion_date": "2017-12-22",
+            "brief_summary": "This study will establish whether intravenous iron replacement has clinical benefit in idiopathic pulmonary arterial hypertension.\n\nA 24-week double-blind, randomised, placebo-controlled, crossover study will investigate whether a single dose of 1g of Ferinject® or CosmoFer improves cardiopulmonary haemodynamics, exercise capacity and quality of life and is well-tolerated.\n\nIV iron formulation used in Europe - Ferinject IV iron formulation used in China - CosmoFer",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02999906",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled, Study to Compare the Efficacy and Safety of Triple Therapy (Oral Treprostinil, Ambrisentan, and Tadalafil) With Dual Therapy (Ambrisentan, Tadalafil, and Placebo) in Subjects With Pulmonary Arterial Hypertension",
+            "phase": "PHASE3",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2017-10",
+            "completion_date": "2022-06",
+            "brief_summary": "This is a multicenter, randomized (2:1 oral treprostinil: placebo), double-blind, placebo-controlled study in subjects with Pulmonary Arterial Hypertension (PAH) who are currently receiving background dual therapy (ambrisentan, tadalafil) for at least 30 days at randomization for their PAH. Once randomized, subjects will return for 5 study visits up to Week 28 during the blinded period. After the Week 28 Visit, eligible subjects will transition to the open-label period of the study for up to 20 ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04241497",
+            "title": "Home-based Exercise Training in Patients With Pulmonary Arterial Hypertension: Effect on Skeletal Muscular Function and Metabolism",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 10,
+            "start_date": "2020-03",
+            "completion_date": "2021-03",
+            "brief_summary": "Pulmonary Arterial Hypertension has gone from a disease that causes rapid death to a more chronic condition. Yet, improved survival is associated with major challenges for clinicians as most patients remain with poor quality of life and limited exercise capacity. The effects of exercise training on exercise capacity have been largely evaluated and showed an improvement in 6-minutes walking distance (6MWD), peak V'O2. It is also known that exercise program improves quality of life. Maximal voliti",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00637065",
+            "title": "Use of the Endothelin-1 Antagonist Bosentan in Patients With Established Pulmonary Hypertension and Fibrotic Lung Disease. - A Randomised, Placebo-Controlled, Double-Blinded Study.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 48,
+            "start_date": "2008-04",
+            "completion_date": "2010-08",
+            "brief_summary": "Over time, patients with fibrosing or interstitial lung disease (ILD) can develop high lung blood pressures (pulmonary hypertension), and this is associated with poorer prognosis and survival. It is thought that development of PH contributes to the deterioration and death of patients with ILD. Endothelin-1 (ET1) is a substance contributing to the development of both PH and ILD. Bosentan is a drug blocking the action of ET-1 by binding to its receptors. Bosentan clearly benefits patients with PH ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01247116",
+            "title": "First-line Bosentan and Sildenafil Combination Therapy for Pulmonary Arterial Hypertension: A Safety and Efficacy Pilot Study",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 12,
+            "start_date": "2009-12",
+            "completion_date": "2015-12",
+            "brief_summary": "The purpose of this study is to evaluate the strategy of initiating double oral combination therapy with bosentan and sildenafil at the time of diagnosis of pulmonary arterial hypertension (PAH) in a preliminary way.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03251872",
+            "title": "Olaparib for Pulmonary Arterial Hypertension: a Pilot Clinical Study",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2018-10-25",
+            "completion_date": "2019-12-01",
+            "brief_summary": "The main OBJECTIVE of this proposal is to extend our preclinical findings on the role of DNA damage and poly(ADP-ribose) polymerases (PARP) inhibition as a therapy for a devastating disease, pulmonary arterial hypertension (PAH), to early-phase clinical trials. We, and others, have published strong evidence that DNA damage accounts for disease progression in PAH and showed that PARP1 inhibition can reverse PAH in several animal models1. Interestingly, PARP1 inhibition is also cardioprotective. O",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07120789",
+            "title": "Content, Semantic, and Psychometric Validation of a Patient Knowledge Questionnaire for Pulmonary Hypertension",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 215,
+            "start_date": "2025-09",
+            "completion_date": "2026-05",
+            "brief_summary": "This methodological study aims to develop and validate a questionnaire named DICTA (Questionnaire for the Assessment of Patient Knowledge in Pulmonary Arterial Hypertension). The study will be conducted in four phases: (1) questionnaire development based on guidelines and literature; (2) content validation by expert judges; (3) semantic validation with patients; and (4) psychometric testing in a sample of up to 200 patients with confirmed pulmonary arterial hypertension (PAH).\n\nIn addition to va",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01615627",
+            "title": "Hypotonic Treprostinil Subcutaneous Infusion for Control of Treprostinil Related Site Pain",
+            "phase": "PHASE4",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2012-07-01",
+            "completion_date": "2019-02-28",
+            "brief_summary": "The investigators will test whether hypotonic (diluted) remodulin solution causes less pain than the eutonic (undiluted) solution supplied by the manufacturer.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "27989660",
+            "title": "Adaptation and Validation of the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) for Use in Spain.",
+            "authors": [
+              "Aguirre-Camacho Aldo",
+              "Stepanous Jessica",
+              "Blanco-Donoso Luis M",
+              "Moreno-Jiménez Bernardo",
+              "Wilburn Jeanette"
+            ],
+            "journal": "Revista espanola de cardiologia (English ed.)",
+            "year": "2017",
+            "abstract": "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) is a patient-reported outcome measure of health-related quality of life and quality of life specific to individuals with pulmonary hypertension (PH). This questionnaire has demonstrated superiority over other instruments assessing similar domains. The objective of the present study was to adapt and validate the Spanish version of the questionnaire.",
+            "classification": {
+              "study_type": "Questionnaire Validation",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18354747",
+            "title": "Adaptation of the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) into French-Canadian and English-Canadian.",
+            "authors": [
+              "Coffin Donna",
+              "Duval Karine",
+              "Martel Simon",
+              "Granton John",
+              "Lefebvre Marie-Claude"
+            ],
+            "journal": "Canadian respiratory journal",
+            "year": "2008",
+            "abstract": "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) is the first disease-specific instrument for assessing patient-reported symptoms, functioning and quality of life (QoL) in pulmonary arterial hypertension (PAH).",
+            "classification": {
+              "study_type": "Questionnaire Validation",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31363319",
+            "title": "ADAPTATION AND VALIDATION OF THE CAMBRIDGE PULMONARY HYPERTENSION OUTCOME REVIEW (CAMPHOR) FOR CROATIA.",
+            "authors": [
+              "Hećimović Ana",
+              "Heaney Alice",
+              "McKenna Stephen P",
+              "Basara Latinka",
+              "Jakopović Marko"
+            ],
+            "journal": "Acta clinica Croatica",
+            "year": "2019",
+            "abstract": "Pulmonary hypertension (PH) is a chronic disease which severely impairs quality of life (QoL). The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) is the first disease-specific tool to assess patient-reported symptoms, functioning and QoL in PH patients. The aim of this study was to adapt and validate the CAMPHOR for use in Croatia. The adaptation process involved three stages: translation (bilingual and lay panel), cognitive debriefing interviews with patients and psychometric validat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26892602",
+            "title": "Physical Activity and Symptoms in Pulmonary Arterial Hypertension.",
+            "authors": [
+              "Matura Lea Ann",
+              "Shou Haochang",
+              "Fritz Jason S",
+              "Smith K Akaya",
+              "Vaidya Anjali"
+            ],
+            "journal": "Chest",
+            "year": "2016",
+            "abstract": "Fatigue is a common symptom in patients with pulmonary arterial hypertension (PAH); however, the impact of fatigue on daily physical activity in PAH is unknown. Accelerometry is a validated measure for assessing physical activity. We hypothesized that patients with PAH reporting higher levels of fatigue would have lower daily physical activity measured by accelerometry.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22588774",
+            "title": "Measures of systemic sclerosis (scleroderma): Health Assessment Questionnaire (HAQ) and Scleroderma HAQ (SHAQ), physician- and patient-rated global assessments, Symptom Burden Index (SBI), University of California, Los Angeles, Scleroderma Clinical Trials Consortium Gastrointestinal Scale (UCLA SCTC GIT) 2.0, Baseline Dyspnea Index (BDI) and Transition Dyspnea Index (TDI) (Mahler's Index), Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR), and Raynaud's Condition Score (RCS).",
+            "authors": [
+              "Pope Janet"
+            ],
+            "journal": "Arthritis care & research",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39378916",
+            "title": "Appraisal and evaluation of the quality of life in pulmonary arterial hypertension instruments: A systematic review using COSMIN methodology.",
+            "authors": [
+              "Irene Gangemi",
+              "Nadia Cedrone",
+              "Marzia Lommi",
+              "Iovino Paolo",
+              "Ercole Vellone"
+            ],
+            "journal": "Respiratory medicine",
+            "year": "2024",
+            "abstract": "The aim of this review was to identify specific instruments currently available for measuring quality of life in patients with pulmonary arterial hypertension (PAH) and to evaluate their psychometric properties in order to provide robust evidence for their application in clinical practice.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29361341",
+            "title": "Quality of life and psychological symptoms in patients with pulmonary hypertension.",
+            "authors": [
+              "Von Visger Tania T",
+              "Kuntz Kristin K",
+              "Phillips Gary S",
+              "Yildiz Vedat O",
+              "Sood Namita"
+            ],
+            "journal": "Heart & lung : the journal of critical care",
+            "year": "2018",
+            "abstract": "Pulmonary arterial hypertension (PAH) has a delay in diagnosis that makes time since diagnosis of interest in this population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27460644",
+            "title": "Portuguese validation of the Cambridge pulmonary hypertension outcome review (CAMPHOR) questionnaire.",
+            "authors": [
+              "Reis Abílio",
+              "Twiss James",
+              "Vicente Margarida",
+              "Gonçalves Fabienne",
+              "Carvalho Luísa"
+            ],
+            "journal": "Health and quality of life outcomes",
+            "year": "2016",
+            "abstract": "Patients with pulmonary arterial hypertension (PAH) and other forms of precapillary pulmonary hypertension (PH) have impaired quality of life (QoL). The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) is a PH-specific patient-reported outcome measure that assesses symptoms, activity limitations and QoL. It was originally developed in UK-English. The main objective of this study was to create an adaptation of the CAMPHOR suitable for a Portuguese-speaking population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27197970",
+            "title": "Adaptation and validation of the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) for the Netherlands.",
+            "authors": [
+              "Wapenaar M",
+              "Twiss J",
+              "Wagenaar M",
+              "Seijkens P",
+              "van den Toorn L"
+            ],
+            "journal": "Netherlands heart journal : monthly journal of the Netherlands Society of Cardiology and the Netherlands Heart Foundation",
+            "year": "2016",
+            "abstract": "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) is the first disease-specific instrument for pulmonary arterial hypertension (PAH) to assess patient-perceived symptoms, activity limitations and quality of life. To be able to use this questionnaire in the Netherlands, the aim of the study was to translate and validate this instrument for the Dutch-speaking population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32504261",
+            "title": "Adaptation and validation of the quality of life assessment of the Cambridge pulmonary hypertension outcome review (CAMPHOR) for Brazil.",
+            "authors": [
+              "Corrêa Ricardo Amorim",
+              "Pereira Monica Corso",
+              "Bizzi Mariana Ferreira",
+              "de Oliveira Rafael W R",
+              "Rezende Camila Farnese"
+            ],
+            "journal": "Journal of patient-reported outcomes",
+            "year": "2020",
+            "abstract": "Pulmonary Hypertension (PH) impacts negatively on patients' health-related quality of life (HRQoL). The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) was the first PH-specific and validated instrument for use in different languages worldwide. This report describes the adaptation and psychometric validation of the CAMPHOR into Brazilian Portuguese language.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23844640",
+            "title": "Psychometric performance of the CAMPHOR and SF-36 in pulmonary hypertension.",
+            "authors": [
+              "Twiss James",
+              "McKenna Stephen",
+              "Ganderton Louise",
+              "Jenkins Sue",
+              "Ben-L'amri Mitra"
+            ],
+            "journal": "BMC pulmonary medicine",
+            "year": "2013",
+            "abstract": "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) and the Medical Outcomes Study Short Form 36 (SF-36) are widely used to assess patient-reported outcome in individuals with pulmonary hypertension (PH). The aim of the study was to compare the psychometric properties of the two measures.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34218166",
+            "title": "The longitudinal use of EmPHasis-10 and CAMPHOR questionnaire health-related quality of life scores in patients with pulmonary arterial hypertension and chronic thromboembolic pulmonary hypertension.",
+            "authors": [
+              "Hendriks Paul M",
+              "van Thor Mitch C J",
+              "Wapenaar Monique",
+              "Chandoesing Prewesh",
+              "van den Toorn Leon M"
+            ],
+            "journal": "Respiratory medicine",
+            "year": "2021",
+            "abstract": "Health-related quality of life (HRQoL) is impaired in patients with pulmonary hypertension (PH). The EmPHasis-10 and CAMPHOR questionnaires are developed to evaluate HRQoL specifically in patients with PH. Data on the longitudinal use of both questionnaires are still limited. We evaluated the longitudinal value of both questionnaires and established minimal clinically important differences (MCID).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37128353",
+            "title": "Quality of life and functional status after pulmonary endarterectomy for chronic thromboembolic pulmonary hypertension: A Swedish single-center study.",
+            "authors": [
+              "Kallonen Janica",
+              "Corbascio Matthias",
+              "Rådegran Göran",
+              "Bredin Fredrik",
+              "Sartipy Ulrik"
+            ],
+            "journal": "Pulmonary circulation",
+            "year": "2023",
+            "abstract": "Little is known about long-term quality of life (QOL) and functional status after pulmonary endarterectomy (PEA) for chronic thromboembolic pulmonary hypertension (CTEPH). We investigated QOL and functional status late after PEA. All patients who underwent PEA for CTEPH 1993-2020 at one Swedish center were included. Baseline characteristics and data from right heart catheterization, 6-min walk test, and Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) were obtained from patient charts a",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21810146",
+            "title": "Validation of the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) for the Australian and New Zealand population.",
+            "authors": [
+              "Ganderton Louise",
+              "Jenkins Sue",
+              "McKenna Stephen P",
+              "Gain Kevin",
+              "Fowler Robin"
+            ],
+            "journal": "Respirology (Carlton, Vic.)",
+            "year": "2011",
+            "abstract": "Individuals with pulmonary arterial hypertension (PAH) experience severely impaired quality of life. A disease-specific patient reported outcome measure for PAH (the Cambridge Pulmonary Hypertension Outcome Review--CAMPHOR) has recently been developed and validated in the UK, USA and Canada. It has demonstrated reliability and validity in PAH populations in these countries. The aim of this study was to assess the reliability and validity of the CAMPHOR in an Australian and New Zealand (NZ) PAH p",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32513780",
+            "title": "CAMPHOR score: patient-reported outcomes are improved by pulmonary endarterectomy in chronic thromboembolic pulmonary hypertension.",
+            "authors": [
+              "Newnham Michael",
+              "Bunclark Katherine",
+              "Abraham Nisha",
+              "Ali Samantha",
+              "Amaral-Almeida Liliana"
+            ],
+            "journal": "The European respiratory journal",
+            "year": "2020",
+            "abstract": "Pulmonary endarterectomy (PEA) is the recommended treatment for eligible patients with chronic thromboembolic pulmonary hypertension (CTEPH). The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) score is an internationally validated patient-reported outcome (PRO) measure for CTEPH. It assesses three domains: activity, quality of life (QoL) and symptoms. We assessed PROs in patients with CTEPH undergoing PEA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29750153",
+            "title": "Health-Related Quality of Life in Pulmonary Hypertension and Its Clinical Correlates: A Cross-Sectional Study.",
+            "authors": [
+              "Reis Abílio",
+              "Santos Mário",
+              "Vicente Margarida",
+              "Furtado Inês",
+              "Cruz Célia"
+            ],
+            "journal": "BioMed research international",
+            "year": "2018",
+            "abstract": "Health-related quality of life (HRQoL) impairment is common in pulmonary hypertension (PH), but its clinical predictors are not well established. This study aims to characterize the HRQoL of patients with pulmonary arterial hypertension (PAH) and other precapillary forms of PH (pcPH) and to explore its clinical correlates.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30338844",
+            "title": "The Polish adaptation of the CAMbridge Pulmonary Hypertension Outcome Review (CAMPHOR).",
+            "authors": [
+              "Małaczynska-Rajpold Katarzyna",
+              "Smukowska-Gorynia Anna",
+              "Heaney Alice",
+              "McKenna Stephen P",
+              "Janus Magdalena"
+            ],
+            "journal": "Cardiology journal",
+            "year": "2020",
+            "abstract": "Pulmonary hypertension (PH) results in severely impaired quality of life (QoL) in people with this condition. The CAMbridge Pulmonary Hypertension Outcome Review (CAMPHOR) is the only questionnaire providing a disease-specific measurement of symptoms, functioning and QoL in PH patients. It has already been adapted for use in several countries. The aim of this study was to adapt and validate CAMPHOR for the Polish-speaking population.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38420145",
+            "title": "Change in health-related quality of life at early follow-up in patients with pulmonary arterial hypertension and chronic thromboembolic pulmonary hypertension.",
+            "authors": [
+              "Ivarsson Bodil",
+              "Johansson Anders",
+              "Kjellström Barbro"
+            ],
+            "journal": "Pulmonary circulation",
+            "year": "2024",
+            "abstract": "Symptoms associated with pulmonary arterial hypertension (PAH) or chronic thromboembolic pulmonary hypertension (CTEPH) impact patient's health-related quality of life (HRQoL). Studies on change and if a minimal clinically important difference (MCID) in HRQoL is reached within a year after diagnosis are lacking. The aim was to investigate the change in HRQoL as well as the proportion of patients that reached MCID at an early postdiagnosis visit. The study included adult patients from the Swedish",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23430021",
+            "title": "Patient-reported outcomes assessed by the CAMPHOR questionnaire predict clinical deterioration in idiopathic pulmonary arterial hypertension and chronic thromboembolic pulmonary hypertension.",
+            "authors": [
+              "McCabe Colm",
+              "Bennett Maxine",
+              "Doughty Natalie",
+              "MacKenzie Ross Robert",
+              "Sharples Linda"
+            ],
+            "journal": "Chest",
+            "year": "2013",
+            "abstract": "The Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) is a disease-specific assessment tool used for the evaluation and follow-up of patients with pulmonary hypertension (PH). We describe a novel use for this questionnaire in its potential to predict clinical deterioration (CD) in two patient cohorts with subtypes of PH, idiopathic pulmonary arterial hypertension (IPAH), and chronic thromboembolic pulmonary hypertension (CTEPH) during an 8-year period.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22971041",
+            "title": "The German adaptation of the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR).",
+            "authors": [
+              "Cima Katharina",
+              "Twiss James",
+              "Speich Rudolf",
+              "McKenna Stephen P",
+              "Grünig Ekkehard"
+            ],
+            "journal": "Health and quality of life outcomes",
+            "year": "2012",
+            "abstract": "Individuals with precapillary pulmonary hypertension (PH) experience severely impaired quality of life. A disease-specific outcome measure for PH, the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) was developed and validated in the UK and subsequently adapted for use in additional countries. The aim of this study was to translate and assess the reliability and validity of the CAMPHOR for German-speaking populations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 嚴重資料品質問題：所有 20 篇文獻均為 'CAMPHOR' 問卷（Cambridge Pulmonary Hypertension Outcome Review）的驗證研究，CAMPHOR 為量表縮寫，與藥物 Camphor（DB01744）完全無關。36 項臨床試驗測試的是 erenumab、treprostinil、empagliflozin、acetazolamide 等藥物，非 Camphor。此為系統性假陽性，需從資料管線過濾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.9972634315490724,
+        "rank": 4285
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21269290",
+            "title": "Epilepsy and the new cytogenetics.",
+            "authors": [
+              "Mulley John C",
+              "Mefford Heather C"
+            ],
+            "journal": "Epilepsia",
+            "year": "2011",
+            "abstract": "We set out to review the extent to which molecular karyotyping has overtaken conventional cytogenetics in applications related to epilepsy. Multiplex ligase-dependent probe amplification (MLPA) targeted to predetermined regions such as SCN1A and KCNQ2 has been effectively applied over the last half a decade, and oligonucleotide array comparative genome hybridization (array CGH) is now well established for genome-wide exploration of microchromosomal variation. Array CGH is applicable to the chara",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23294289",
+            "title": "Evidence for a shared genetic susceptibility to migraine and epilepsy.",
+            "authors": [
+              "Winawer Melodie R",
+              "Connors Robert"
+            ],
+            "journal": "Epilepsia",
+            "year": "2013",
+            "abstract": "Although epilepsy and migraine are known to co-occur within individuals, the contribution of a shared genetic susceptibility to this comorbidity remains unclear. We investigated the hypothesis of shared genetic effects on migraine and epilepsy in the Epilepsy Phenome/Genome Project (EPGP) cohort.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32639997",
+            "title": "Protection or susceptibility to devastating childhood epilepsy: Nodding Syndrome associates with immunogenetic fingerprints in the HLA binding groove.",
+            "authors": [
+              "Benedek Gil",
+              "Abed El Latif Mahmoud",
+              "Miller Keren",
+              "Rivkin Mila",
+              "Ramadhan Lasu Ally Ahmed"
+            ],
+            "journal": "PLoS neglected tropical diseases",
+            "year": "2020",
+            "abstract": "Nodding syndrome (NS) is a devastating and enigmatic childhood epilepsy. NS is accompanied by multiple neurological impairments and neuroinflammation, and associated with the parasite Onchocerca volvulus (Ov) and other environmental factors. Moreover, NS seems to be an 'Autoimmune Epilepsy' since: 1. ~50% of NS patients have neurotoxic cross-reactive Ov/Leimodin-I autoimmune antibodies. 2. Our recently published findings: Most (~86%) of NS patients have glutamate-receptor AMPA-GluR3B peptide aut",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "20 篇文獻均為癲癇-偏頭痛遺傳共病、基因多態性研究，未涉及 camphor。此適應症為遺傳易感性，而非可治療的臨床表現型，不適合藥物再利用框架直接討論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "kyphoscoliotic heart disease",
+      "txgnn": {
+        "score": 0.9970199465751648,
+        "rank": 4580
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何文獻或機轉連結。脊柱後凸側彎性心臟病為結構性限制型心臟病，Camphor 無已知心臟保護或結構改善機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ulerythema ophryogenesis",
+      "txgnn": {
+        "score": 0.9959535598754884,
+        "rank": 5641
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眉部毛囊角化症（ulerythema ophryogenesis）為角化異常性罕見皮膚病。Camphor 的角質軟化或抗炎作用存在極低理論可能性，但無任何文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "Raynaud disease",
+      "txgnn": {
+        "score": 0.9956323504447936,
+        "rank": 5945
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22588774",
+            "title": "Measures of systemic sclerosis (scleroderma): Health Assessment Questionnaire (HAQ) and Scleroderma HAQ (SHAQ), physician- and patient-rated global assessments, Symptom Burden Index (SBI), University of California, Los Angeles, Scleroderma Clinical Trials Consortium Gastrointestinal Scale (UCLA SCTC GIT) 2.0, Baseline Dyspnea Index (BDI) and Transition Dyspnea Index (TDI) (Mahler's Index), Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR), and Raynaud's Condition Score (RCS).",
+            "authors": [
+              "Pope Janet"
+            ],
+            "journal": "Arthritis care & research",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "Questionnaire Validation",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻（PMID 22588774）為系統性硬化症問卷研究，Raynaud 僅為硬皮病次要症狀提及，非 camphor 治療研究。理論上 camphor 的 TRPV1/TRPM8 調節可能影響血管舒張反射，但無臨床資料。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "atrophoderma vermiculata",
+      "txgnn": {
+        "score": 0.9953629970550536,
+        "rank": 6178
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "蟲蝕狀皮膚萎縮為毛囊漏斗部角化堵塞所致罕見皮膚病。Camphor 外用製劑在皮膚科歷史上有使用，理論上可能有輕度角質調節作用，但無任何相關研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Tourette syndrome",
+      "txgnn": {
+        "score": 0.9945724606513976,
+        "rank": 6846
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉連結。Tourette 症候群為多巴胺/GABA 失調相關神經發展障礙；Camphor 的 GABA-A 受體調節作用（主要為輕度拮抗）可能有間接理論連結，但風險（神經興奮性增加、癲癇閾值降低）遠大於潛在效益。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "erectile dysfunction (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "erectile dysfunction (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "erectile dysfunction (disease)"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 36,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "pulmonary hypertension"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "kyphoscoliotic heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "ulerythema ophryogenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "Raynaud disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "atrophoderma vermiculata"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "Tourette syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "Tourette syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Camphor",
+        "disease": "Tourette syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

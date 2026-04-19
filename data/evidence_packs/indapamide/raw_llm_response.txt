@@ -1,0 +1,412 @@
+## Indapamide (DB00808) 藥物再利用證據分析
+
+以下是基於提供資料的系統性評估：
+
+```json
+{
+  "drug": "Indapamide",
+  "drugbank_id": "DB00808",
+  "drug_class": "磺醯胺類噻嗪樣利尿劑",
+  "known_moa_reconstructed": "抑制遠曲小管 Na+ 再吸收（NCC抑制）；具血管舒張作用（鈣拮抗、前列腺素合成調節）；降低周邊血管阻力",
+  "analysis_date": "2026-04-04",
+  "market_note": "新加坡市場未上市（需確認是否為資料缺口，全球多市場已核准用於高血壓）",
+  "indications": [
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.9297,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Indapamide 利尿作用可減少肺心病患者的前負荷（preload）及體液滯留，理論上可緩解右心衰竭症狀。然而肺心病（cor pulmonale）的核心病理為肺動脈高壓造成的右心室肥大，單用利尿劑無法改善根本病因，且過度利尿可能降低右心室充盈壓、加重低血壓風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28711447",
+          "title": "The Transition From Hypertension to Heart Failure",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "討論高血壓過渡至心衰竭機轉，未涉及 Indapamide 於肺心病的直接應用，僅提供背景機轉知識"
+        },
+        {
+          "pmid": "19069455",
+          "title": "Treatment of cardiac insufficiency in patients with COPD",
+          "year": "2008",
+          "study_type": "Observational/Case Series",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "最具相關性的文獻，討論 COPD 合併心衰竭患者的治療，與慢性肺心病情境重疊，但為俄文文獻且年代較舊，方法學不詳"
+        },
+        {
+          "pmid": "19623566",
+          "title": "Overdose of methyldopa, indapamide and theophylline",
+          "year": "2009",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "描述過量事件（低血壓、利尿），屬安全性個案，非療效證據，且情境為急性毒性而非治療性使用"
+        }
+      ],
+      "evidence_summary": "僅 3 篇間接文獻，無臨床試驗。最相關者為 2008 年 COPD 心衰竭治療觀察，但方法學不明。高 TxGNN 分數（0.93）可能反映知識圖譜中利尿劑—心臟疾病的廣泛關聯，而非特定肺心病療效"
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9275,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血管舒張機轉（鈣拮抗）理論上可降低肺動脈壓，但 Indapamide 對肺動脈的選擇性極低，現有肺高壓治療靶點（PDE5、ERA、前列環素路徑）均未涉及。多因性肺高壓病因複雜，利尿劑僅為症狀性支持治療。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。純為 TxGNN 計算預測，缺乏任何臨床轉譯依據"
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9275,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Group 3 肺高壓（低氧相關）的主要治療為糾正缺氧（長期氧療），Indapamide 無直接改善低氧性血管收縮的機轉。利尿劑可緩解右心負荷，但無法改善 V/Q 不匹配根本問題。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "討論低氧對神經的影響，與 Indapamide 用於肺高壓完全無關，屬文獻檢索偽相關"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "探討低氧治療應用（如運動生理），非 Indapamide 相關"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "低氧免疫調節機轉，與藥物無關"
+        },
+        {
+          "pmid": "37328448",
+          "title": "N4-Acetylcytidine drives glycolysis in gastric cancer via NAT10/SEPT9/HIF-1α",
+          "year": "2023",
+          "study_type": "Basic Science",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "腫瘤代謝研究，與本適應症完全無關"
+        },
+        {
+          "pmid": "34618295",
+          "title": "Cognitive impairment caused by hypoxia",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "低氧認知影響，與 Indapamide 肺高壓治療無關"
+        }
+      ],
+      "evidence_summary": "20 篇文獻全部為低氧生物學背景研究，無一涉及 Indapamide 應用於此適應症。屬典型關鍵字偽匹配（'hypoxia' 命中廣泛低氧文獻）。實質證據等級為 L5"
+    },
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9273,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "Indapamide 為抗高血壓藥，對惡性高血壓腎病理論上可透過降壓保護腎臟。然而惡性高血壓腎病為急重症，通常需靜脈給藥快速降壓，口服噻嗪樣利尿劑不適合急性期；慢性期則 RAS 抑制劑（ACEI/ARB）為首選腎保護藥物。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。機轉推論來自 Indapamide 既有降壓適應症，但針對惡性高血壓腎病的特定再利用無直接支持"
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9273,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性腎血管性高血壓（腎動脈狹窄+惡性高血壓）的標準處理為介入性治療（腎動脈支架/手術）或 RAAS 調節，Indapamide 可作為輔助降壓，但此處的再利用意義有限，且 RAAS 高度激活狀態下，利尿劑可能加重腎前性損傷風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。TxGNN 高分可能源於知識圖譜中高血壓藥物—腎臟疾病的泛化連結，不代表此特定亞型有再利用潛力"
+    },
+    {
+      "disease_name": "acute pulmonary heart disease",
+      "txgnn_score": 0.9102,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性肺心病（如急性肺栓塞致右心衰竭）為急重症，口服 Indapamide 起效太慢，臨床不適用。利尿劑在急性右心衰竭中的角色有限且需謹慎（避免降低前負荷過度）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19623566",
+          "title": "Overdose of methyldopa, indapamide and theophylline",
+          "year": "2009",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "同前—急性過量安全性個案，非療效支持，且過量導致低血壓更與急性肺心病治療相悖"
+        }
+      ],
+      "evidence_summary": "僅 1 篇無關安全性個案報告，無療效證據。L5 等級"
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9042,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群為罕見先天性疾病（OMIM），特徵包含智能障礙、心臟異常、多發畸形。Indapamide 無已知針對此症候群遺傳路徑（SETBP1 等）的作用機轉。TxGNN 預測可能源於心臟相關節點的泛化連結，無實質依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。機轉關聯極弱，為罕見遺傳疾病。建議不列入再利用優先清單"
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.8453,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上利尿劑可降低眼內壓（IOP），但碳酸酐酶抑制劑（如 acetazolamide、dorzolamide）為青光眼降壓主要利尿機轉，Indapamide 作用在遠曲小管，對房水生成影響極小。遺傳性青光眼（MYOC、OPTN 等突變）亦非利尿劑可干預的病理。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_summary": "零臨床試驗、零文獻。機轉理由薄弱，L5"
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.7964,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "個案報告顯示 Indapamide 可引起雙側脈絡膜積液（choroidal effusion），此為不良反應，但理論上可能影響眼壓動態。然而現有證據來自不良事件報告而非治療性研究，且脈絡膜積液本身為嚴重副作用（可造成閉角型青光眼危機），不支持用於開角型青光眼。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "34736431",
+          "title": "Multimodal imaging of indapamide-induced bilateral choroidal effusion",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "此為 Indapamide 直接相關之眼科個案，但屬副作用報告（脈絡膜積液可繼發閉角型危機），實際上構成開角型青光眼再利用的安全疑慮，而非療效支持"
+        }
+      ],
+      "evidence_summary": "唯一相關文獻為副作用個案（藥物引起脈絡膜積液），反而提示安全性風險。TxGNN 分數（0.80）最低，整體再利用潛力最弱"
+    },
+    {
+      "disease_name": "chronic kidney disease",
+      "txgnn_score": 0.7797,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "多重機轉支持：(1) 減少體液滯留，緩解 CKD 容量過負荷所致心腎損傷；(2) 降壓保護腎小球，延緩 GFR 下降；(3) 獨立抗蛋白尿效應（不依賴血壓降低）；(4) ADVANCE 試驗（perindopril+indapamide）證實糖尿病腎病患者腎臟保護效益。噻嗪樣利尿劑在 CKD 3-4 期仍維持利尿效果（相較 thiazide），臨床有額外優勢。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01588795",
+          "title": "Renal Denervation in Diabetic Nephropathy with Persistent Proteinuria",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 25,
+          "relevance_grade": "C",
+          "reasoning": "主要測試腎去神經術，Indapamide 可能為背景降壓療法。小樣本（n=25），不直接測試 Indapamide 療效"
+        },
+        {
+          "nct_id": "NCT04036409",
+          "title": "Intensive Blood Pressure Control on Major Cardiovascular/Renal Outcomes",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "enrollment": 4369,
+          "relevance_grade": "B",
+          "reasoning": "大型試驗（n=4369），強化血壓控制對腎臟預後的影響，Indapamide 為常用一線降壓藥之一，可能在試驗中作為組成藥物；狀態 UNKNOWN 需確認"
+        },
+        {
+          "nct_id": "NCT01500590",
+          "title": "RAS Blockers Effect on GFR in CKD Patients",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 1400,
+          "relevance_grade": "C",
+          "reasoning": "主要研究 RAAS 阻斷劑，Indapamide 非主要干預藥物；1400人規模有意義，但相關性間接"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "20501479",
+          "title": "Effects of perindopril and indapamide in T2DM and CKD",
+          "year": "2010",
+          "study_type": "RCT Secondary Analysis",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "ADVANCE 試驗次級分析，直接研究 perindopril+indapamide 組合於糖尿病腎病（CKD）患者的療效，最高相關性文獻"
+        },
+        {
+          "pmid": "38920202",
+          "title": "Thiazide and thiazide-like diuretics: improved cardiovascular and renal outcomes",
+          "year": "2023",
+          "study_type": "Cohort/Meta-analysis",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "直接比較噻嗪類利尿劑（含 Indapamide）對心腎預後的效益，提供較強觀察性證據"
+        },
+        {
+          "pmid": "22118707",
+          "title": "What matters in ADVANCE and ADVANCE-ON",
+          "year": "2012",
+          "study_type": "RCT Analysis/Commentary",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "ADVANCE/ADVANCE-ON 大型 RCT 分析，perindopril+indapamide 顯示腎臟保護，雖為組合療法但 Indapamide 角色可被評估"
+        },
+        {
+          "pmid": "34233330",
+          "title": "The Forgotten Antiproteinuric Properties of Diuretics",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "探討利尿劑（含噻嗪類）獨立於降壓外的抗蛋白尿機轉，為 CKD 再利用提供機轉支持"
+        },
+        {
+          "pmid": "29307229",
+          "title": "Vascular legacy: benefits of perindopril/indapamide in hypertension",
+          "year": "2018",
+          "study_type": "RCT Secondary Analysis",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "perindopril/indapamide 組合的長期血管保護效益，含腎臟相關終點，間接支持 CKD 保護"
+        },
+        {
+          "pmid": "25944876",
+          "title": "Volume overload and adverse outcomes in CKD",
+          "year": "2015",
+          "study_type": "Clinical Observational + Animal Study",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "確立體液過負荷在 CKD 進展中的病理角色，支持利尿劑（含 Indapamide）在 CKD 的機轉合理性"
+        },
+        {
+          "pmid": "40564132",
+          "title": "Optimizing Nephron Performance: Old, New, and New-Old Diuretic Therapies",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "最新（2025年）系統性回顧，論述噻嗪樣利尿劑（含 Indapamide）在 CKD 的優化應用策略"
+        },
+        {
+          "pmid": "23136355",
+          "title": "Thiazide diuretics in severe renal disease",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "探討嚴重腎病中噻嗪利尿劑的適用性爭議，含 Indapamide 在 GFR 較低時仍有效的討論"
+        },
+        {
+          "pmid": "30079760",
+          "title": "Volume overload in CKD rat model",
+          "year": "2018",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "動物模型數據，機轉支持性，但轉譯價值有限"
+        },
+        {
+          "pmid": "4077233",
+          "title": "A review of 10 years of experience with indapamide as antihypertensive",
+          "year": "1985",
+          "study_type": "Retrospective Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "年代久遠（1985年），提供 Indapamide 長期安全性背景，但 CKD 特定再利用相關性低"
+        }
+      ],
+      "evidence_summary": "此為所有適應症中證據最強者。ADVANCE 大型 RCT（>11,000人）的次級分析直接顯示 perindopril+indapamide 在糖尿病 CKD 患者的腎臟保護效益；2023年大型隊列研究支持噻嗪樣利尿劑改善腎臟預後；多篇機轉文獻佐證抗蛋白尿及容量控制機轉。限制：缺乏以 Indapamide 單藥為主要干預的 Phase 2/3 RCT；現有 RCT 均為組合療法或背景用藥",
+      "key_gap": "需要以 Indapamide 單藥或在標準治療基礎上加用 Indapamide 作為主要干預的 Phase 2 RCT，評估 eGFR 下降速率、蛋白尿及硬性終點"
+    }
+  ],
+  "overall_priority_ranking": [
+    {
+      "rank": 1,
+      "disease": "chronic kidney disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "rationale": "有 RCT 次級分析（ADVANCE）、隊列研究及明確機轉，具最高轉譯潛力"
+    },
+    {
+      "rank": 2,
+      "disease": "chronic pulmonary heart disease",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "rationale": "有間接文獻支持及合理機轉，但安全性顧慮（過度利尿致前負荷下降）需先評估"
+    },
+    {
+      "rank": 3,
+      "disease": "malignant hypertensive renal disease / malignant renovascular hypertension",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "rationale": "機轉合理（降壓保腎），但無特定臨床證據，且急重症情境不適合此劑型"
+    },
+    {
+      "rank": 4,
+      "disease": "open-angle glaucoma",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "rationale": "唯一相關文獻為副作用（脈絡膜積液），構成安全疑慮而非療效支持"
+    },
+    {
+      "rank": 5,
+      "disease": "其餘 5 個適應症（PH multifactorial/hypoxia、acute cor pulmonale、Braddock、primary glaucoma）",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "rationale": "零臨床證據，純計算預測，不建議進一步資源投入"
+    }
+  ],
+  "data_quality_flags": [
+    {
+      "flag": "文獻偽相關警告",
+      "affected_indication": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "detail": "20篇文獻均為低氧生物學通論，無一涉及 Indapamide，屬關鍵字誤匹配（'hypoxia' 廣泛命中）"
+    },
+    {
+      "flag": "MoA 資料缺口",
+      "detail": "original_moa 標記為 [Data Gap]，但 Indapamide 機轉明確（NCC抑制劑+血管舒張），建議更新 DrugBank 映射"
+    },
+    {
+      "flag": "市場狀態核實需求",
+      "detail": "標記為新加坡未上市，但全球（台灣、歐洲、澳洲等）已核准使用，DDI count=0 可能為本地資料缺口而非全球資料"
+    },
+    {
+      "flag": "臨床試驗間接性",
+      "affected_indication": "chronic kidney disease",
+      "detail": "3個 NCT 試驗均非以 Indapamide 再利用為主要研究目的，Indapamide 為背景用藥或多藥組合之一"
+    }
+  ]
+}
+```
+
+---
+
+## 決策建議摘要
+
+| 適應症 | 等級 | 階段 | 建議 | 關鍵理由 |
+|--------|------|------|------|---------|
+| **Chronic Kidney Disease** | L3 | **S2** | **Research Question** | ADVANCE RCT 次級分析 + 2023隊列研究 + 明確機轉 |
+| Chronic Pulmonary Heart Disease | L4 | S1 | Hold | 有限間接文獻，安全性需先評估 |
+| Malignant Hypertensive Renal Disease | L4 | S1 | Hold | 機轉合理但無直接證據 |
+| Malignant Renovascular Hypertension | L4 | S1 | Hold | 同上，且急性期不適用 |
+| Open-Angle Glaucoma | L4 | S0 | Hold | 唯一文獻為副作用案例 |
+| PH Multifactorial / PH Hypoxia / Acute Cor Pulmonale / Braddock / Primary Glaucoma | L5 | S0 | **Hold** | 零臨床證據，純預測 |
+
+> ⚠️ **YMYL 聲明**：本分析僅供研究參考，所有老藥新用候選需經過完整臨床驗證（Phase 2/3 RCT）方可應用於臨床，不構成醫療建議。

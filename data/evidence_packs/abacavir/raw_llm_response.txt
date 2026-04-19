@@ -1,0 +1,370 @@
+# Abacavir (DB01048) 藥物再利用證據分析
+
+```json
+{
+  "drug": "Abacavir",
+  "drugbank_id": "DB01048",
+  "analysis_date": "2026-04-03",
+  "analyst_notes": "市場狀態為「未上市」，推測為區域性未登記（國際上 Abacavir 已獲 FDA/EMA 核准）；DDI count=0 疑為資料缺口，應注意 HLA-B*57:01 超敏反應風險。",
+  "indications": [
+    {
+      "disease_name": "congenital human immunodeficiency virus",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Abacavir 為 deoxyguanosine 類似物 NRTI，在細胞內磷酸化為 carbovir-TP，競爭性抑制 HIV 逆轉錄酶並導致 DNA 鏈終止。此機轉完整適用於垂直（先天）感染 HIV，多項大規模 Phase 3 RCT 已在 HIV 感染兒童族群驗證 ABC/3TC 骨幹療法的療效與安全性，為 WHO/DHHS 兒科 HIV 指引推薦藥物。主要安全顧慮：HLA-B*57:01 篩檢以避免嚴重超敏反應，以及長期心血管風險監測。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03299049",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 非劣性試驗，1049 名受試者（最大規模），積極非招募中，含 ABC/3TC 骨幹療法，直接驗證本適應症"
+        },
+        {
+          "nct_id": "NCT02422797",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 非劣性試驗，518 名 HIV 感染兒童，已完成，ABC/3TC 為隨機分配骨幹，直接相關"
+        },
+        {
+          "nct_id": "NCT02938520",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，631 名受試者，積極非招募中，評估含 ABC/3TC 方案在兒科族群的療效"
+        },
+        {
+          "nct_id": "NCT02105987",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3b，555 名受試者，轉換至含 dolutegravir+ABC/3TC 的療法，已完成，高度相關"
+        },
+        {
+          "nct_id": "NCT02429791",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，510 名受試者，平行組非劣性設計，已完成，ABC 骨幹直接測試"
+        },
+        {
+          "nct_id": "NCT00102960",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 開放性試驗，377 名受試者，評估 ART 策略，ABC 為骨幹選項之一，已完成"
+        },
+        {
+          "nct_id": "NCT03016533",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 dolutegravir 開放性獲取（兒童完成 IMPAACT 後），ABC 為背景治療，為支持性安全性數據"
+        },
+        {
+          "nct_id": "NCT02893488",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 FDC 相對生物利用度交叉研究，20 名受試者，提供兒科 PK 支持數據"
+        },
+        {
+          "nct_id": "NCT00197145",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 但提前終止（僅 24 名受試者），提供部分安全性訊號，証據力降低"
+        },
+        {
+          "nct_id": "NCT01458132",
+          "relevance_grade": "C",
+          "reasoning": "藥物暴露觀察性登記（非介入，N=19），提供長期暴露安全性背景資訊，相關性較低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39742354",
+          "study_type": "RCT follow-up (IMPAACT 2010)",
+          "tier": "1"
+        },
+        {
+          "pmid": "11888583",
+          "study_type": "RCT",
+          "tier": "1"
+        },
+        {
+          "pmid": "29406430",
+          "study_type": "Cohort / Prospective Observational",
+          "tier": "2"
+        },
+        {
+          "pmid": "31441211",
+          "study_type": "Cross-sectional",
+          "tier": "2"
+        },
+        {
+          "pmid": "24781315",
+          "study_type": "Registry Cohort (birth defects)",
+          "tier": "2"
+        },
+        {
+          "pmid": "34151853",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "28458904",
+          "study_type": "Case Report (DDI / iatrogenic Cushing)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "AIDS related complex",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ARC（AIDS 相關複合症）為 HIV 感染中期症狀群，Abacavir 透過 NRTI 機轉降低病毒載量可直接改善 ARC 症狀及延緩 AIDS 進展。PMID 17401456 專門分析 Abacavir 在 AIDS 失智症（ADC）試驗中的設計，顯示其對 CNS 庫病毒的療效（Abacavir CNS 穿透率 CSF:plasma ~0.3）。ARC 目前已被現代 HIV 分期取代，臨床操作上等同於 HIV 治療本身。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00002364",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 探索性試驗，直接測試 1592U89（Abacavir 最初研究代碼）的抗逆轉錄病毒活性，40 名受試者，已完成，為 Abacavir 最早的 RCT 證據，高度直接相關"
+        },
+        {
+          "nct_id": "NCT00001119",
+          "relevance_grade": "B",
+          "reasoning": "急性 HIV-1 感染組合 ART 研究，288 名受試者，已完成，涵蓋 ARC 前期族群，評估早期治療策略，部分相關"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17401456",
+          "study_type": "Clinical Trial Design Analysis (ADC trial)",
+          "tier": "1"
+        },
+        {
+          "pmid": "37967231",
+          "study_type": "Cohort (ART regimen vs. heart failure)",
+          "tier": "2"
+        },
+        {
+          "pmid": "29058481",
+          "study_type": "Cohort (ART & cardiovascular outcomes)",
+          "tier": "2"
+        },
+        {
+          "pmid": "25394095",
+          "study_type": "Cohort / Observational",
+          "tier": "2"
+        },
+        {
+          "pmid": "17620824",
+          "study_type": "Review (drug hypersensitivity)",
+          "tier": "3"
+        },
+        {
+          "pmid": "21480946",
+          "study_type": "Review (hypersensitivity reactions)",
+          "tier": "3"
+        },
+        {
+          "pmid": "9883269",
+          "study_type": "Review (HIV infection overview)",
+          "tier": "3"
+        },
+        {
+          "pmid": "10433561",
+          "study_type": "Review (HIV-associated dementia)",
+          "tier": "3"
+        },
+        {
+          "pmid": "33886444",
+          "study_type": "Case Report (opportunistic co-infection)",
+          "tier": "3"
+        },
+        {
+          "pmid": "40447886",
+          "study_type": "Basic Science / Animal (neuroinflammation)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "chronic hepatitis C virus infection",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Abacavir 為 deoxyguanosine 類似物，其三磷酸形式具有對核酸聚合酶的廣譜抑制潛力。HCV NS5B 雖為 RNA 依賴性 RNA 聚合酶（非逆轉錄酶），但核苷類似物機轉存在理論上的交叉活性。PMID 26869690 證實 Abacavir 不改變 ribavirin 血漿濃度，排除主要 PK 交互干擾。NCT06356740 為首個直接測試 ABC/3TC 治療 HCV 的 Phase 2 RCT（尚未招募），是此假說的關鍵驗證。⚠️ 注意：HCV 現有 DAA 療法治癒率已 >95%，再利用必要性需審慎評估適用族群（如 DAA 無效或不可及患者）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06356740",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 隨機試驗，直接評估 Abacavir/Lamivudine 治療慢性 HCV 感染，70 名受試者，尚未開始招募（NOT_YET_RECRUITING），為此適應症最直接的前瞻性計畫證據，但目前無結果數據"
+        },
+        {
+          "nct_id": "NCT01908660",
+          "relevance_grade": "B",
+          "reasoning": "HIV/HCV 共感染患者中評估不同 ART 方案的肝臟安全性，N=192，已完成，提供 Abacavir 在 HCV 背景下的肝安全性基線數據，部分相關"
+        },
+        {
+          "nct_id": "NCT01500616",
+          "relevance_grade": "C",
+          "reasoning": "Telaprevir+peginterferon+ribavirin 治療 HIV/HCV 共感染的 Phase 3 試驗，Abacavir 非主要研究藥物，為背景 ART，相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26869690",
+          "study_type": "PK Interaction Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "18854330",
+          "study_type": "Cohort (HIV/HCV co-infection treatment)",
+          "tier": "2"
+        },
+        {
+          "pmid": "26400998",
+          "study_type": "Cohort (liver fibrosis progression)",
+          "tier": "2"
+        },
+        {
+          "pmid": "18572756",
+          "study_type": "Cohort",
+          "tier": "2"
+        },
+        {
+          "pmid": "31481446",
+          "study_type": "In vitro / P-gp inhibition mechanistic",
+          "tier": "3"
+        },
+        {
+          "pmid": "28263457",
+          "study_type": "Review / DDI analysis",
+          "tier": "3"
+        },
+        {
+          "pmid": "19372931",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "17694677",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "11366250",
+          "study_type": "Product Information",
+          "tier": "3"
+        },
+        {
+          "pmid": "19246127",
+          "study_type": "Case Report (atazanavir nephrolithiasis — 不相關)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "SIV（猿免疫缺乏病毒）與 HIV 同屬靈長類慢病毒（Lentivirus），逆轉錄酶結構具高度同源性，Abacavir-TP 理論上可抑制 SIV 逆轉錄酶。PMID 15040537 為 2004 年體外/動物模型研究，測試多種抗 HIV-1 化合物對 HIV-2、SIV 及 SHIV 的敏感性。此屬獸醫學/靈長類研究範疇，非人體臨床再利用適應症，不具直接臨床轉譯價值。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "15040537",
+          "study_type": "In vitro / Preclinical (Animal model susceptibility)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "FIV（貓免疫缺乏病毒）為貓慢病毒，雖與 HIV 同科，但逆轉錄酶結構差異較 SIV 更大，Abacavir 對 FIV 活性有限，且已知 AZT 對 FIV 較有效。PMID 11684314（2002）為貓 FIV 動物模型研究，測試 ZDV/3TC/ABC 組合療法。⚠️ 警告：所列 4 項臨床試驗（NCT01263015、NCT01227824、NCT00951015、NCT01499199）均為人類 HIV-1 感染的 dolutegravir 試驗，與 FIV 完全無關，屬資料配對錯誤，不應計入此適應症的臨床試驗證據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01263015",
+          "relevance_grade": "C",
+          "reasoning": "dolutegravir(GSK1349572)+ABC/3TC 治療人類 HIV-1 Phase 3 試驗（SPRING-2，N=844），與貓免疫缺乏症完全無關，為資料配對錯誤"
+        },
+        {
+          "nct_id": "NCT01227824",
+          "relevance_grade": "C",
+          "reasoning": "dolutegravir vs. raltegravir 人類 HIV-1 Phase 3 試驗（SAILING，N=828），與 FIV 完全無關"
+        },
+        {
+          "nct_id": "NCT00951015",
+          "relevance_grade": "C",
+          "reasoning": "GSK1349572 劑量選擇 Phase 2b 人類 HIV 試驗（N=208），與 FIV 無關"
+        },
+        {
+          "nct_id": "NCT01499199",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 CNS/血漿 PK 研究（HIV，N=13），非 FIV 研究"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "11684314",
+          "study_type": "Animal model (Feline / Veterinary)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為極罕見神經發育基因障礙（推測為粒線體或髓鞘相關基因突變），Abacavir 作為 NRTI 無已知對此病症的相關機轉。TxGNN 高分（0.9978）可能源於知識圖譜中「神經系統」節點的間接高連結度誤差，而非真實生物學關聯。無任何臨床試驗或文獻支持，屬純演算法預測，不建議進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病術語已標記為 obsolete（已廢棄）。Abacavir 作為 NRTI 無脂質代謝調節機轉；相反地，某些 ART 藥物（含 Abacavir）已知與血脂異常副作用相關。雙重排除理由：(1) 疾病本體論已廢棄，(2) 無生物合理性，(3) 潛在反向效應。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "paratenonitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌腱旁組織炎為物理性/機械性損傷或感染引起的發炎，Abacavir 無已知抗炎或肌腱保護機轉。TxGNN 分數（0.88）可能源於知識圖譜中「藥物毒性→肌腱病變」副作用邊（某些 HIV 患者有肌肉骨骼副作用記錄）的逆向連結偽信號，應視為假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "calcific tendinitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鈣化性肌腱炎為鈣鹽沉積的退化性病變，Abacavir 無任何鈣代謝調節或鈣化抑制機轉。與 paratenonitis 同樣可能源於知識圖譜中肌腱相關節點的非特異性連結偽信號，無生物合理性，S0 攔截。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "fibroma of prostate",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "攝護腺纖維瘤為良性間質增生性病變，Abacavir 無抗纖維增生或前列腺靶向機轉。TxGNN 分數（0.87）推測源於知識圖譜中 HIV 患者前列腺疾病流行病學共病節點的遠端連結，屬演算法假陽性，無任何臨床或基礎研究支持，S0 排除。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 綜合摘要表
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵備注 |
+|--------|---------|---------|------|---------|
+| 先天性 HIV | **L1** | **S3** | ✅ Proceed with Guardrails | 多項大型 Phase 3 RCT，國際指引推薦 |
+| AIDS related complex | **L2** | **S2** | 🔬 Research Question | 有 Phase 2 直接試驗，ARC 已是現代 HIV 分期 |
+| 慢性 C 型肝炎 | **L3** | **S2** | 🔬 Research Question | 一項 Phase 2 計畫中（NCT06356740，未招募），DAA 競爭需評估 |
+| SIV 感染 | **L4** | **S1** | ⛔ Hold | 僅動物模型，非人體適應症 |
+| 貓免疫缺乏症 | **L4** | **S1** | ⛔ Hold | 獸醫學，4 項試驗均為資料配對錯誤 |
+| 神經發育障礙 | **L5** | **S0** | ⛔ Hold | 純 TxGNN 預測，無生物合理性 |
+| 過時性家族高脂血症 | **L5** | **S0** | ⛔ Hold | 廢棄疾病術語 + 無機轉 |
+| Paratenonitis | **L5** | **S0** | ⛔ Hold | 假陽性，KG 副作用逆向連結 |
+| 鈣化性肌腱炎 | **L5** | **S0** | ⛔ Hold | 假陽性，無機轉 |
+| 攝護腺纖維瘤 | **L5** | **S0** | ⛔ Hold | 假陽性，遠端共病節點連結 |
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有再利用候選需經過正式臨床驗證，HLA-B*57:01 篩檢為 Abacavir 使用前必要安全評估。

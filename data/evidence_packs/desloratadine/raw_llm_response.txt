@@ -1,0 +1,309 @@
+## Desloratadine (DB00967) 藥物再利用證據分析
+
+**藥物背景補充**：Desloratadine 為 Loratadine 的活性代謝物，選擇性第二代 H1 受體拮抗劑，具抗組織胺、抗發炎及抑制肥大細胞脫顆粒等機轉。儘管資料標註「未上市」，全球已以 Clarinex/Aerius 商品名批准上市。
+
+---
+
+```json
+{
+  "drug": "Desloratadine",
+  "drugbank_id": "DB00967",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "MoA補充：選擇性H1受體拮抗劑，抑制組織胺介導之過敏及發炎反應，抑制肥大細胞/嗜鹼性球脫顆粒",
+  "indications": [
+    {
+      "disease_name": "cold urticaria",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "H1受體拮抗阻斷冷刺激誘發之組織胺釋放，抑制皮膚肥大細胞脫顆粒，降低冷激發閾值。已有多項Phase 4 RCT直接確認劑量反應關係。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00600847",
+          "phase": "PHASE4",
+          "enrollment": 33,
+          "relevance_grade": "A",
+          "reasoning": "隨機雙盲安慰劑對照交叉設計，直接評估Desloratadine對冷性蕁麻疹之療效，方法學嚴謹，為最核心證據"
+        },
+        {
+          "nct_id": "NCT01444196",
+          "phase": "PHASE4",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "劑量遞增研究（5/10/20mg），直接評估高劑量Desloratadine之效益，支持劑量最佳化，與PMID 19201016結果互補"
+        },
+        {
+          "nct_id": "NCT01940393",
+          "phase": "PHASE4",
+          "enrollment": 150,
+          "relevance_grade": "B",
+          "reasoning": "多抗組織胺頭對頭比較研究（5種），樣本數最大，但Desloratadine為比較組之一而非主要研究藥物，間接支持其相對效益定位"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "14754651",
+          "title": "Inhibition of cold urticaria by desloratadine",
+          "year": "2004",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "最早直接確認Desloratadine抑制冷性蕁麻疹之RCT，奠定機轉基礎"
+        },
+        {
+          "pmid": "22242678",
+          "title": "Critical temperature threshold measurement for cold urticaria: RCT of H1",
+          "year": "2012",
+          "study_type": "RCT",
+          "tier": 1,
+          "note": "RCT設計，使用TempTest量化冷激發閾值，客觀終點強化證據質量"
+        },
+        {
+          "pmid": "19201016",
+          "title": "High-dose desloratadine decreases wheal volume and improves cold provocation thresholds",
+          "year": "2009",
+          "study_type": "Clinical Study",
+          "tier": 1,
+          "note": "高劑量療法（20mg）之直接臨床證據，確認劑量反應效應"
+        },
+        {
+          "pmid": "15516152",
+          "title": "Chronic urticaria: aetiology, management and current and future treatment options",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": 2,
+          "note": "綜述將Desloratadine納入蕁麻疹標準治療方案，提供背景支持"
+        },
+        {
+          "pmid": "19032340",
+          "title": "Ebastine in allergic rhinitis and chronic idiopathic urticaria",
+          "year": "2008",
+          "study_type": "Comparative Review",
+          "tier": 2,
+          "note": "比較性研究，Desloratadine作為對照藥物，間接確認其在蕁麻疹治療中的基準地位"
+        },
+        {
+          "pmid": "29698807",
+          "title": "Food-dependent cold urticaria: A new variant of physical urticaria",
+          "year": "2018",
+          "study_type": "Case Series",
+          "tier": 3,
+          "note": "新亞型病例系列，顯示Desloratadine在特殊變體中的臨床應用，外推性有限"
+        },
+        {
+          "pmid": "38025339",
+          "title": "Cold-induced urticaria after black ant bite anaphylaxis",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "個案報告，特殊誘因情境，臨床參考價值有限但確認Desloratadine之使用"
+        }
+      ],
+      "guardrails": [
+        "各試驗樣本數偏小（n=30-150），建議累積更大規模真實世界數據",
+        "高劑量使用（>5mg）需監控中樞神經系統副作用",
+        "需排除繼發性冷性蕁麻疹（如冷球蛋白血症）之潛在病因"
+      ]
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L2",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "H1受體拮抗減少鼻黏膜組織胺介導之血管擴張、分泌增加及黏膜水腫，理論上可改善鼻腔症狀；然現有文獻為動物模型且以Loratadine為主，直接轉化證據不足。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04088721",
+          "phase": "PHASE1/PHASE2",
+          "enrollment": 48,
+          "relevance_grade": "B",
+          "reasoning": "Phase 1b/2a隨機安慰劑對照試驗，評估鼻內給藥新劑型之安全性與耐受性，完成度完整；惟重點為給藥途徑而非適應症療效確認，且鼻腔局部製劑與口服全身性用藥之臨床問題不同"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "19769798",
+          "title": "Loratadine and montelukast administered in combination produce decongestion in feline model",
+          "year": "2009",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "note": "貓科動物模型，研究對象為Loratadine（非Desloratadine），且為動物實驗，人體轉化需謹慎"
+        },
+        {
+          "pmid": "30488351",
+          "title": "The amendatory effect of hesperidin and thymol in allergic rhinitis: rat model",
+          "year": "2019",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "note": "大鼠過敏性鼻炎模型，研究橙皮苷與百里香酚，與Desloratadine無直接關聯，僅提供病理模型背景"
+        }
+      ],
+      "research_gaps": [
+        "需確認NCT04088721之詳細研究藥物是否確為Desloratadine鼻內製劑",
+        "需設計鼻腔疾病特異性療效終點之Phase 2 RCT",
+        "建議區分過敏性鼻炎（H1拮抗劑理論上有效）vs 其他鼻腔疾病亞型"
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "理論上H1拮抗可減輕過敏性喉咽炎之黏膜水腫，但急性喉咽炎多為病毒感染所致，抗組織胺療效機轉薄弱。無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "TxGNN預測分數高（0.9985）可能反映上呼吸道解剖相鄰性及H1拮抗劑廣泛過敏適應症之模型偏差，非真實療效訊號"
+    },
+    {
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "H1拮抗劑可緩解異位性皮膚炎之搔癢症狀，但難治性異位性皮膚炎病理涉及Th2/Th17軸、IL-4/IL-13等複雜免疫機轉，非單純組織胺介導。Desloratadine對此亞型無直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "症狀緩解（止癢）與疾病修飾療效為不同臨床問題；難治性患者可能對第二代抗組織胺反應不佳"
+    },
+    {
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn_score": 0.9964,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "H1受體拮抗劑作用於組織胺下游效應，而非直接調控IgE產生或IgE-FcεRI結合；影響IgE反應性需上游介入（如Omalizumab）。機轉間接，無臨床證據支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "此適應症為免疫標記而非疾病實體，建議重新定義為明確過敏疾病研究問題"
+    },
+    {
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn_score": 0.9940,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "玫瑰斑結膜炎主要與皮脂腺功能異常、蠕形螨感染及神經血管調節失調相關，非組織胺介導之過敏反應；H1拮抗劑機轉關聯性薄弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "混淆風險：眼部過敏性結膜炎（H1拮抗劑有效）與玫瑰斑結膜炎（不同病理）需明確區分"
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9844,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "組織胺確與某些頭痛類型（組織胺性頭痛、叢發性頭痛）相關，理論上H1/H2/H3拮抗有潛力；然現有3篇文獻均非以頭痛為主要研究終點，為間接引用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "17288686",
+          "title": "Effects of desloratadine and alcohol coadministration on psychomotor performance",
+          "year": "2007",
+          "study_type": "Pharmacodynamic Study",
+          "tier": 3,
+          "note": "研究Desloratadine與酒精之交互作用對精神運動表現的影響，頭痛非研究終點，相關性極低"
+        },
+        {
+          "pmid": "16146151",
+          "title": "[Desloratadine for chronic idiopathic urticaria]",
+          "year": "2005",
+          "study_type": "Review",
+          "tier": 3,
+          "note": "慢性特發性蕁麻疹綜述，與頭痛疾患無直接相關"
+        },
+        {
+          "pmid": "41541906",
+          "title": "Administration of Desloratadine for Postorgasmic Illness Syndrome in a Japanese Teenager",
+          "year": "2026",
+          "study_type": "Case Report",
+          "tier": 3,
+          "note": "POIS個案報告，雖POIS症狀包含頭痛，但非頭痛疾患研究；推測Desloratadine透過抗組織胺機轉改善POIS症狀群"
+        }
+      ],
+      "notes": "文獻與頭痛適應症相關性均極低（資料庫關聯誤判），現有TxGNN預測分數不應解讀為療效訊號"
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9833,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "叢發性頭痛等三叉神經自主神經性頭痛涉及下丘腦啟動及三叉血管系統，組織胺在叢發性頭痛病理中有一定角色（H1/H2受體）；惟無任何Desloratadine之臨床試驗或案例報告支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "儘管機轉假說較headache disorder更具合理性（組織胺在TAC中角色較明確），仍屬純預測，需基礎/轉化研究驗證"
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9768,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "點狀上皮角結膜炎多因病毒感染（腺病毒）或乾眼症所致，過敏性機轉非主要病因；H1拮抗劑無明確治療作用。若為過敏性結膜炎繼發則有部分機轉關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "疾病亞型高度影響機轉關聯性，建議先釐清點狀角結膜炎之過敏性vs感染性比例"
+    },
+    {
+      "disease_name": "Angelucci syndrome",
+      "txgnn_score": 0.9763,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Angelucci綜合症（春季卡他性結膜炎合併神經症狀）具明確過敏性基礎（IgE介導），H1拮抗劑機轉關聯性為本列表中最合理之一；惟屬罕見疾病，無任何Desloratadine相關臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "罕見疾病（孤兒藥路徑可考慮）；機轉合理性最高但臨床可行性需探索性研究驗證"
+    }
+  ],
+  "summary": {
+    "L1_indications": ["cold urticaria"],
+    "L2_indications": ["nasal cavity disease"],
+    "L3_indications": [],
+    "L4_indications": [],
+    "L5_indications": [
+      "acute laryngopharyngitis",
+      "recalcitrant atopic dermatitis",
+      "IgE responsiveness, atopic",
+      "rosacea conjunctivitis",
+      "headache disorder",
+      "trigeminal autonomic cephalalgia",
+      "punctate epithelial keratoconjunctivitis",
+      "Angelucci syndrome"
+    ],
+    "proceed_with_guardrails": ["cold urticaria"],
+    "research_question": ["nasal cavity disease"],
+    "hold": [
+      "acute laryngopharyngitis",
+      "recalcitrant atopic dermatitis",
+      "IgE responsiveness, atopic",
+      "rosacea conjunctivitis",
+      "headache disorder",
+      "trigeminal autonomic cephalalgia",
+      "punctate epithelial keratoconjunctivitis",
+      "Angelucci syndrome"
+    ],
+    "priority_mechanistic_investigations": [
+      "trigeminal autonomic cephalalgia（histamine-H3受體機轉值得基礎研究）",
+      "Angelucci syndrome（過敏性機轉強，孤兒藥策略潛力）"
+    ]
+  }
+}
+```
+
+---
+
+## 關鍵決策摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|---------|---------|------|---------|
+| **Cold Urticaria** | **L1** | **S3** | ✅ **Proceed w/ Guardrails** | 3項完成Phase 4 RCT + 3篇Tier 1文獻，直接療效確認 |
+| **Nasal Cavity Disease** | **L2** | **S1** | 🔬 **Research Question** | 1項Phase 1b/2a完成試驗，但文獻均為間接動物研究 |
+| 其餘8項適應症 | **L5** | **S0** | ⏸️ **Hold** | 純TxGNN預測，無臨床或文獻支持 |
+
+**⚠️ 特別注意**：`headache disorder` 的3篇文獻均**非**以頭痛為主要研究終點（分別為精神運動研究、蕁麻疹綜述、POIS個案），不應被計為支持性證據，其 L5 評級維持不變。
+
+> **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經臨床驗證後方可應用。

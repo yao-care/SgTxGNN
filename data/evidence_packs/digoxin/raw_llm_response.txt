@@ -1,0 +1,376 @@
+```json
+{
+  "drug_summary": {
+    "drug": "Digoxin",
+    "drugbank_id": "DB00390",
+    "inferred_moa": "Na⁺/K⁺-ATPase 抑制劑：升高細胞內 Ca²⁺（正性肌力）、抑制 AV 結傳導（負性變時）、迷走神經增強效應",
+    "data_quality_flags": [
+      "original_moa=[Data Gap] 疑為資料缺失，Digoxin 機轉文獻充分",
+      "ddi_count=0 明顯異常，Digoxin 已知高風險 DDI 超過 50 種（amiodarone、verapamil、quinidine 等）",
+      "market_status=未上市 僅反映本地註冊狀態，全球廣泛使用中"
+    ]
+  },
+  "indications": [
+    {
+      "disease_name": "Prinzmetal angina",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Digoxin 抑制冠狀動脈平滑肌 Na⁺/K⁺-ATPase 可能增加血管張力，有誘發或加重冠狀動脈痙攣之理論風險，與 Prinzmetal angina（血管痙攣型心絞痛）病理生理相悖。文獻均為間接引用，無治療機轉正向支持。",
+      "safety_flag": "⚠️ 潛在禁忌症：Digoxin 可能誘發冠狀動脈痙攣，在 Prinzmetal angina 患者中使用具安全疑慮",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10736610",
+          "title": "Chronopharmacology and its impact on antihypertensive treatment.",
+          "year": "1999",
+          "study_type": "Narrative Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "討論抗高血壓藥物時序藥理學，Digoxin 僅以心血管藥物背景提及，無針對 Prinzmetal angina 之直接證據"
+        },
+        {
+          "pmid": "9206110",
+          "title": "Re-evaluation of the mechanism and treatment of angina decubitus.",
+          "year": "1996",
+          "study_type": "Case Series / Narrative Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "探討臥位型心絞痛（angina decubitus），可能提及 Digoxin 於充血性心衰合併心絞痛情境，但 Prinzmetal angina 病理機轉不同，不支持直接使用"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenal obstruction",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Digoxin 無已知促進腸道蠕動或解除機械性阻塞之機轉。唯一文獻（PMID 8523251）描述 prune-belly syndrome 合併腸旋轉不良個案，Digoxin 若有出現亦屬心臟合併症用藥，非治療十二指腸阻塞。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8523251",
+          "title": "Prune-belly syndrome in a female, complicated by intestinal malrotation after successful antenatal treatment.",
+          "year": "1995",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "個案報告描述複雜先天性畸形，Digoxin 出現於心臟合併症處置脈絡，與十二指腸阻塞治療無關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenal ulcer (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "五篇文獻均非支持 Digoxin 治療十二指腸潰瘍：兩篇關於 PPI 藥理（PMID 11117653、14664653）；一篇為 Digoxin 毒性在潰瘍患者的臨床表現（PMID 20496812）；一篇為 EBV 研究（PMID 11496304）；一篇為 cimetidine 對 Digoxin 藥動學的交互作用（PMID 3743626）。整體為 DDI 與共病關係，無治療性證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11117653",
+          "title": "Pantoprazole: a new proton pump inhibitor.",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "PPI 藥理綜述，與 Digoxin 治療十二指腸潰瘍完全無關"
+        },
+        {
+          "pmid": "14664653",
+          "title": "Clinical pharmacology of proton pump inhibitors.",
+          "year": "2003",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "同上，PPI 藥理，無 Digoxin 再利用相關性"
+        },
+        {
+          "pmid": "20496812",
+          "title": "Stubborn nausea and not ease vomiting as a manifestation of glycoside toxicity in a patient with duodenal ulcer.",
+          "year": "2010",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "描述 Digoxin 毒性症狀（嚴重噁心嘔吐）在十二指腸潰瘍患者中易被誤診，此文強調 Digoxin 在此族群的危害，反對再利用"
+        },
+        {
+          "pmid": "11496304",
+          "title": "Detection of Epstein-Barr virus in gastrectomy specimens.",
+          "year": "2001",
+          "study_type": "Cross-sectional",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "EBV 於胃切除組織之研究，與 Digoxin 無直接關聯"
+        },
+        {
+          "pmid": "3743626",
+          "title": "Effect of cimetidine on digoxin disposition in peptic ulcer patients.",
+          "year": "1986",
+          "study_type": "Pharmacokinetic Study",
+          "tier": "2",
+          "relevance_grade": "C",
+          "reasoning": "研究 cimetidine-digoxin 藥動學交互作用，確認 DDI 風險，屬安全性疑慮文獻而非治療支持"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenogastric reflux",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何臨床試驗或文獻支持。Digoxin 無已知促進幽門括約肌功能或減少膽汁逆流之機轉。純屬 TxGNN 圖譜預測，缺乏生物學合理性基礎。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete susceptibility to ischemic stroke",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "疾病本體論已標記為「obsolete」（廢棄術語），不應作為獨立再利用靶標。無臨床試驗或文獻支持。即便以缺血性卒中易感性討論，Digoxin 在房顫以外的卒中預防無直接證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypoalphalipoproteinemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低 α 脂蛋白血症（HDL 降低）涉及 ABCA1/LCAT/ApoA-I 代謝路徑，與 Digoxin 的 Na⁺/K⁺-ATPase 抑制機轉無已知交集。無任何支持性文獻或試驗，為純預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "homozygous familial hypercholesterolemia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "純合子家族性高膽固醇血症為 LDL 受體功能缺失，治療靶點（PCSK9、LDL 受體、HMG-CoA 還原酶）與 Digoxin 機轉無關。無臨床試驗或文獻，預測可信度極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 由 AVPR2 激活突變（Arg137Cys/Arg137Leu）引起持續性抗利尿作用。Digoxin 抑制腎小管 Na⁺/K⁺-ATPase 可能影響電解質排泄，但現有無文獻或試驗支持其用於 NSIAD，且在已有低鈉血症患者中使用存在電解質紊亂安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thrombotic disease",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "兩項試驗均為觀察性研究，研究對象為房顫（AF）患者（Digoxin 的已知適應症族群），非針對血栓性疾病的干預性試驗。Digoxin 本身無已知直接抗血栓機轉；AF 患者的血栓事件應以抗凝血藥（OAC）為主軸。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04136210",
+          "title": "Perioperative Clinical, Hemodynamic Data and Prognosis Assessment in Patients Who Undergo Cardiovascular Surgery",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 1568,
+          "relevance_grade": "C",
+          "reasoning": "心臟手術圍手術期觀察性登記研究，Digoxin 作為術前用藥之一被記錄，非以 Digoxin 治療血栓疾病之干預試驗"
+        },
+        {
+          "nct_id": "NCT02583971",
+          "title": "Assessment of Thrombotic Status in Patients With Atrial Fibrillation",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 500,
+          "relevance_grade": "C",
+          "reasoning": "評估 AF 患者血栓狀態的橫斷面研究，Digoxin 為 AF 背景用藥，非主動干預。狀態 UNKNOWN，資料可靠性存疑"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "stroke disorder",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "間接機轉路徑：Digoxin 控制 AF 心室率 → 減少血栓栓塞風險 → 降低心臟栓塞性卒中發生率。此路徑有生物學合理性，且有 Phase 4 RCT（AF 心率控制）和回顧性世代研究（PMID 35420260）支持；但 Digoxin 並非直接作用於卒中病理機轉（非抗凝、非抗血小板）。Na⁺/K⁺-ATPase 在血管平滑肌的作用（PMID 37877226）提供額外但尚待探索的機轉假說。",
+      "key_concerns": [
+        "Digoxin 近年 meta-analysis 顯示在 AF 患者中可能增加死亡率（需進一步審查因果關係）",
+        "NCT05130268 及 NCT02391337 以 AF 為主要終點，卒中為次要/安全性終點",
+        "所有支持證據均為間接路徑（AF→stroke），無直接針對 stroke 治療的 RCT"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02391337",
+          "title": "Evaluating Different Rate Control Therapies in Permanent Atrial Fibrillation",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 161,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 RCT 直接比較永久性 AF 的心率控制治療（包含 Digoxin），卒中預防為重要臨床終點；Grade B 因主要終點為 AF 心率控制而非卒中"
+        },
+        {
+          "nct_id": "NCT05130268",
+          "title": "Pragmatic RCT of Early Dronedarone Versus Usual Care (PROCEED Trial)",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 339,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 AF 管理試驗，usual care 組可能包含 Digoxin，評估 AF 相關結局（含卒中）；間接提供 Digoxin 在 AF/卒中脈絡的比較數據"
+        },
+        {
+          "nct_id": "NCT04694092",
+          "title": "Landiolol for Rate Control in Decompensated Heart Failure Due to Atrial Fibrillation",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 40,
+          "relevance_grade": "B",
+          "reasoning": "Digoxin 為心率控制比較組之一，於急性失代償 HF 合併 AF 情境，與卒中風險管理相關；狀態 UNKNOWN 降低可信度"
+        },
+        {
+          "nct_id": "NCT04233437",
+          "title": "Drug-Drug Interaction Study of MLC1501 Using Cocktail Probes",
+          "phase": "PHASE1",
+          "status": "COMPLETED",
+          "enrollment": 27,
+          "relevance_grade": "C",
+          "reasoning": "以 Digoxin 作為 P-gp 探針藥物研究 DDI，與卒中治療無關，但提供藥動學安全性資料"
+        },
+        {
+          "nct_id": "NCT02786095",
+          "title": "Comparison Study of Drugs for Symptom Control and Complication Prevention of Atrial Fibrillation",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "enrollment": 20000,
+          "relevance_grade": "B",
+          "reasoning": "大型 AF 藥物比較研究，樣本數大（20,000），包含 Digoxin 之卒中併發症預防評估；狀態 UNKNOWN 且 Phase N/A 降低證據等級"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35420260",
+          "title": "Digoxin use and outcomes after myocardial infarction in patients with atrial fibrillation.",
+          "year": "2022",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance_grade": "最高相關",
+          "reasoning": "直接研究 Digoxin 在 MI 合併 AF 患者的臨床結局，最接近本適應症的直接證據；回顧性設計為 L3 級別"
+        },
+        {
+          "pmid": "37877226",
+          "title": "The vascular Na,K-ATPase: clinical implications in stroke, migraine, and hypertension.",
+          "year": "2023",
+          "study_type": "Mechanistic Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "提供 Na⁺/K⁺-ATPase（Digoxin 靶點）在卒中病理生理中的作用機轉，為直接機轉假說支持"
+        },
+        {
+          "pmid": "35027110",
+          "title": "Management of Atrial Fibrillation in Patients 75 Years and Older: JACC State-of-the-Art Review.",
+          "year": "2022",
+          "study_type": "State-of-the-Art Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "JACC 權威綜述，涵蓋 Digoxin 在高齡 AF 患者卒中預防管理中的地位與注意事項"
+        },
+        {
+          "pmid": "24828991",
+          "title": "Management of Atrial Fibrillation.",
+          "year": "2015",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "AF 完整管理綜述，包含 Digoxin 心率控制在卒中預防策略中的角色"
+        },
+        {
+          "pmid": "25430048",
+          "title": "Atrial fibrillation (acute onset).",
+          "year": "2014",
+          "study_type": "Clinical Evidence Summary",
+          "tier": "2",
+          "relevance_grade": "B",
+          "reasoning": "急性 AF 管理臨床指引，Digoxin 為心率控制選項之一，卒中預防為核心議題"
+        },
+        {
+          "pmid": "32327068",
+          "title": "Management of Arrhythmias in Cardiac Amyloidosis.",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "心臟澱粉樣變性心律不整管理，Digoxin 因毒性疑慮被特別警示，提供安全性負面資訊"
+        },
+        {
+          "pmid": "37997225",
+          "title": "Vericiguat, a novel sGC stimulator: Mechanism of action, clinical, and translational science.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "Vericiguat 藥理綜述，Digoxin 若提及僅為心衰背景用藥比較，相關性低"
+        },
+        {
+          "pmid": "25037522",
+          "title": "Cardiomyopathy in pregnancy.",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "妊娠心肌病，Digoxin 在特殊族群中的心率控制，與卒中適應症關聯性較弱"
+        },
+        {
+          "pmid": "11096547",
+          "title": "Restrictive Cardiomyopathy.",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "限制型心肌病，Digoxin 使用有爭議，與卒中治療直接關聯性低"
+        },
+        {
+          "pmid": "15185915",
+          "title": "Diastolic heart failure.",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "舒張性心衰，Digoxin 角色有限且具爭議，與卒中適應症無直接關聯"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 疾病 | TxGNN Score | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|------|------------|--------|--------|----------|----------|------|
+| Stroke disorder | 0.982 | 23 | 20 | **L3** | **S1** | Research Question |
+| Thrombotic disease | 0.988 | 2 | 0 | L4 | S0 | Hold |
+| Prinzmetal angina | 0.998 | 0 | 2 | L4⚠️ | S0 | Hold（潛在禁忌）|
+| Duodenal ulcer | 0.996 | 0 | 5 | L5 | S0 | Hold |
+| Duodenal obstruction | 0.997 | 0 | 1 | L5 | S0 | Hold |
+| Duodenogastric reflux | 0.995 | 0 | 0 | L5 | S0 | Hold |
+| Ischemic stroke susceptibility | 0.993 | 0 | 0 | L5 | S0 | Hold（廢棄術語）|
+| Hypoalphalipoproteinemia | 0.992 | 0 | 0 | L5 | S0 | Hold |
+| HoFH | 0.990 | 0 | 0 | L5 | S0 | Hold |
+| Nephrogenic SIAD | 0.988 | 0 | 0 | L5 | S0 | Hold |
+
+---
+
+## 🔍 關鍵分析洞察
+
+### 1. TxGNN 高分 ≠ 高證據
+本批次所有 txgnn_score > 0.98，但 9/10 適應症仍停留 S0，顯示 KG 預測與臨床證據存在顯著落差。高分預測應解讀為「優先調查假說」而非臨床可行信號。
+
+### 2. Stroke disorder 的特殊性
+唯一進入 S1 的適應症，其機轉路徑為 **AF 心率控制 → 減少血栓栓塞性卒中**，有 Phase 4 RCT 框架支持（NCT02391337）。然而需特別注意：近年研究指出 Digoxin 在 AF 患者中可能與**死亡率增加**相關（需確認因果方向），此安全性訊號應在 S1 評估中納入優先審查。
+
+### 3. Prinzmetal angina 的安全警示
+儘管有文獻紀錄，Digoxin 的冠狀動脈血管張力增加效應與 Prinzmetal angina 的血管痙攣病理相悖，應標記為 **反適應症候選**（counter-indication candidate），而非再利用候選。
+
+### 4. 資料品質問題
+`ddi_count=0` 為嚴重異常——Digoxin 是高 DDI 藥物（P-gp 底物、窄治療窗），此數值需在資料管線中修正，避免影響後續安全性評估。

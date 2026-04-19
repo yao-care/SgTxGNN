@@ -1,0 +1,215 @@
+```json
+{
+  "drug": "Glycopyrronium",
+  "drugbank_id": "DB00986",
+  "analysis_date": "2026-04-04",
+  "drug_moa_inferred": "季銨類抗毒蕈鹼藥物（muscarinic M1/M2/M3 receptor antagonist）；幾乎不穿越血腦屏障，以周邊抗膽鹼能效應為主（抑制腺體分泌、平滑肌痙攣、支氣管擴張、心率增加）",
+  "indications": [
+    {
+      "disease_name": "irritable bowel syndrome",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "M3 受體拮抗 → 腸道平滑肌痙攣抑制 → 可能緩解 IBS 腹痛/腸痙攣；同類藥物（hyoscine、dicyclomine）已有 IBS 適應症，glycopyrronium 具相同作用機轉，但尚無直接臨床資料",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "9696463",
+          "study_type": "Animal/Mechanistic",
+          "tier": "3",
+          "relevance_note": "探討三環抗鬱劑對骨盆腔機械感受傳入神經的作用；與 glycopyrronium 無直接關聯，僅提供腸道感覺神經調控背景知識，相關性極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "cauda equina syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "馬尾神經壓迫造成膀胱/直腸功能障礙屬結構性損傷；抗膽鹼劑或能緩解繼發性逼尿肌過動症狀，但無法改善神經壓迫根本病因，機轉連結極弱，無任何臨床資料",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "M2/M3 受體拮抗 → 抑制逼尿肌不自主收縮 → 改善神經因性膀胱過動症狀；同類藥物（oxybutynin、tolterodine、solifenacin）為神經因性膀胱一線治療，glycopyrronium 具完全相同的作用機轉，但本資料集中無直接臨床試驗或文獻支持",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neurocirculatory asthenia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Da Costa 症候群具自律神經失調特徵（心悸、出汗、功能性心血管症狀）；glycopyrronium 周邊抗膽鹼效應理論上可調節部分症狀，但機轉連結不明確，無任何臨床資料，不構成研究優先議題",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "migraine disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "偏頭痛涉及三叉血管神經路徑與 CGRP/5-HT 系統；抗毒蕈鹼機轉與主流治療靶點無直接連結；唯一文獻為肉毒桿菌素引起垂頭症候群的案例報告，與 glycopyrronium 完全無關",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40590589",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_note": "肉毒桿菌素治療慢性偏頭痛引發垂頭症候群案例；與 glycopyrronium 零關聯，文獻相關性評級為不相關（誤匹配）"
+        }
+      ]
+    },
+    {
+      "disease_name": "migraine with brainstem aura",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦幹先兆偏頭痛涉及後循環及腦幹功能異常；glycopyrronium 幾乎不穿越血腦屏障，無法作用於中樞腦幹路徑，機轉連結缺失，無任何臨床資料",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全疑慮旗標：抗毒蕈鹼藥物可能引起瞳孔散大（虹膜括約肌鬆弛），在窄角型青光眼列為禁忌症；開角型青光眼雖風險相對較低，但 glycopyrronium 無降低眼內壓的藥理機轉，不具治療根據",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "autonomic nervous system disease",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "周邊 M 型受體拮抗 → 調節膽鹼能支配的自律神經效應器（唾液腺、汗腺、心臟竇房結、膀胱逼尿肌、腸道平滑肌）；已核准/使用中的自律神經失調適應症包含：帕金森病流涎（PD 自律神經症狀）、原發性多汗症（交感膽鹼能支配）；COPD 臨床試驗顯示對心臟自律神經功能有可量測效應",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02872090",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 完成試驗（42 名 COPD 患者），直接研究長效支氣管擴張劑（含 glycopyrronium）對心臟自律神經系統控制的效應；雖主要族群為 COPD 而非原發性自律神經疾病，但提供 glycopyrronium 影響自律神經功能的直接臨床量測資料"
+        },
+        {
+          "nct_id": "NCT03662711",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4，已提前終止（計畫招募 843 人），比較 LABD + ICS 一年治療效果，自律神經評估僅為次要終點；因試驗中止導致資料不完整，證據品質降為 C 級"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22021174",
+          "study_type": "Systematic Review / EBM Guideline",
+          "tier": "1",
+          "relevance_note": "MDS EBM 更新：帕金森病非運動症狀治療，涵蓋自律神經失調（流涎、多汗、膀胱功能）管理建議，glycopyrronium 為相關藥物類別"
+        },
+        {
+          "pmid": "31957505",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "帕金森病自律神經失調最新藥物治療綜述（2020），直接討論抗膽鹼藥物在 PD 自律神經症狀的應用"
+        },
+        {
+          "pmid": "37714301",
+          "study_type": "Narrative Review",
+          "tier": "2",
+          "relevance_note": "局部抗膽鹼藥物（含 glycopyrronium topical）治療成人及兒童局部多汗症，與自律神經功能失調適應症直接相關，為現有核准外使用的重要參考"
+        },
+        {
+          "pmid": "26211748",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "吸入型抗膽鹼藥物（含 glycopyrronium）心血管副作用評估；提供該藥物對自律神經心臟效應的安全性資料（心率增加、心房顫動風險）"
+        },
+        {
+          "pmid": "23373820",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "帕金森病自律神經失調新興藥物（2013），討論抗膽鹼藥物作為此疾病類別潛在治療選項"
+        },
+        {
+          "pmid": "23070700",
+          "study_type": "Clinical Physiology Study",
+          "tier": "2",
+          "relevance_note": "人類腦血管膽鹼能調控機轉研究，提供中樞膽鹼能系統與自律調控的生理背景"
+        },
+        {
+          "pmid": "24506933",
+          "study_type": "Mechanistic Study",
+          "tier": "2",
+          "relevance_note": "Tiotropium（同類抗膽鹼 LAMA）調節氣道感覺神經 TRPV1 表達的機轉研究，對 glycopyrronium 具類比意義"
+        },
+        {
+          "pmid": "1659617",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_note": "Arecoline（膽鹼激動劑）在自律神經衰竭患者的中樞與周邊效應臨床研究；提供膽鹼能系統操控對自律神經疾病影響的反向對照證據"
+        },
+        {
+          "pmid": "28128284",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_note": "糖尿病小鼠模型感覺與自律神經功能研究，為機轉背景資料，與 glycopyrronium 無直接關聯"
+        },
+        {
+          "pmid": "16005153",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_note": "空氣污染物引起心臟氧化壓力透過自律神經刺激介導的動物研究，間接機轉背景資料"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 安全疑慮旗標：遺傳性青光眼患者眼壓管理更為困難；抗毒蕈鹼藥物可能加劇眼壓升高風險（瞳孔擴大影響房水流出），無降眼壓藥理機轉，禁忌傾向明確",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dysthymic disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "持續性憂鬱症與單胺系統（5-HT、NE、DA）失調相關；抗毒蕈鹼機轉與憂鬱症標準治療靶點不符；部分研究顯示抗膽鹼藥物可能因認知副作用加重情緒症狀，不構成治療根據",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 證據等級摘要表
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 | 關鍵說明 |
+|--------|-----------|---------|---------|------|---------|
+| autonomic nervous system disease | 0.956 | **L3** | S2 | ✅ Proceed with Guardrails | 2 個 Phase 4 試驗 + 18 篇文獻（多汗、流涎、PD自律神經） |
+| irritable bowel syndrome | 0.988 | **L4** | S1 | 🔬 Research Question | 同類藥物有適應症，機轉合理，缺直接資料 |
+| neurogenic bladder | 0.977 | **L4** | S1 | 🔬 Research Question | 同類藥物為一線治療，機轉強，缺直接資料 |
+| cauda equina syndrome | 0.985 | **L5** | S0 | ⛔ Hold | 結構性病因，無機轉連結，無資料 |
+| neurocirculatory asthenia | 0.969 | **L5** | S0 | ⛔ Hold | 機轉不明，無資料 |
+| migraine disorder | 0.961 | **L5** | S0 | ⛔ Hold | 文獻誤匹配，機轉缺失 |
+| migraine with brainstem aura | 0.957 | **L5** | S0 | ⛔ Hold | 不穿越血腦屏障，機轉缺失 |
+| open-angle glaucoma | 0.956 | **L5** | S0 | ⛔ Hold | ⚠️ 安全疑慮（可能禁忌） |
+| primary hereditary glaucoma | 0.953 | **L5** | S0 | ⛔ Hold | ⚠️ 安全疑慮（可能禁忌） |
+| dysthymic disorder | 0.937 | **L5** | S0 | ⛔ Hold | 機轉不符，可能有害 |
+
+---
+
+## 🔑 關鍵洞察
+
+1. **TxGNN 分數 ≠ 臨床證據**：前5名高分適應症（cauda equina, neurogenic bladder, neurocirculatory asthenia, IBS, migraine）臨床試驗數均為 0，分數反映知識圖譜拓撲關係而非真實臨床支持。
+
+2. **最具潛力適應症**：`autonomic nervous system disease`（L3/S2）是唯一有實際臨床試驗資料的適應症，特別是多汗症與帕金森病流涎的子分類值得進一步探索。
+
+3. **青光眼雙重旗標**：`open-angle glaucoma` 與 `primary hereditary glaucoma` 不只是證據不足，而是存在藥物安全禁忌風險，應優先排除。
+
+4. **隱藏機轉強項**：`neurogenic bladder` 雖無直接資料，但其同類藥物（anticholinergics）本已是一線治療標準，值得補充文獻搜尋後升級評估。

@@ -1,0 +1,560 @@
+# Cyanocobalamin (DB00115) 藥物再利用證據分析
+
+以下為完整的結構化評估：
+
+```json
+{
+  "drug": "Cyanocobalamin (DB00115)",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Cyanocobalamin 為維生素 B12 合成形式，體內轉化為甲基鈷胺素（methylcobalamin）與腺苷鈷胺素（adenosylcobalamin），分別作為甲硫氨酸合酶與甲基丙二酰-CoA 變位酶的輔酶。原始 MoA 標記為 [Data Gap]，但機制文獻充分。",
+  "indications": [
+    {
+      "disease_name": "biotin metabolic disease",
+      "txgnn_score": 0.9960,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cyanocobalamin（B12）與生物素（biotin）共享丙酸代謝通路：adenosylcobalamin 是甲基丙二酰-CoA 變位酶（MUT）的輔酶，而生物素是丙醯-CoA 羧化酶（PCC）的輔因子，兩者均在丙酸→琥珀酰-CoA 的轉換中不可或缺。生物素代謝異常時，丙醯-CoA 積累亦可繼發性影響 B12 依賴酵素效率。PMID 23622402 明確將 cobalamin、folate 與 biotin 並列為維生素反應性代謝疾病的核心干預對象。機轉合理，但非直接主角。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01643187",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "relevance_grade": "B",
+          "reasoning": "針對營養不良族群的多微量營養素（含 B12）干預比較研究，Phase 2，1000 名受試者。與生物素代謝疾病的關聯為間接，但包含 B12 作為介入成分。"
+        },
+        {
+          "nct_id": "NCT04586348",
+          "phase": "PHASE4",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "主要研究碘補充對神經發育影響，非針對生物素代謝疾病，B12 非主要介入藥物。"
+        },
+        {
+          "nct_id": "NCT05687474",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "新生兒基因組篩查研究（含生物素代謝疾病篩查），為篩查平台非治療性試驗，與 cyanocobalamin 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT03655223",
+          "phase": "N/A",
+          "status": "ENROLLING_BY_INVITATION",
+          "relevance_grade": "C",
+          "reasoning": "新生兒罕見病症狀前臨床試驗基礎架構研究，非直接測試 B12 治療生物素代謝疾病。"
+        },
+        {
+          "nct_id": "NCT04312152",
+          "phase": "NA",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "代謝支持療法，含多種成分（Q 可能指輔酶Q10），未明確針對 B12 或生物素代謝疾病。"
+        },
+        {
+          "nct_id": "NCT01474486",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "緩和照護中多微量營養素干預可行性研究，非特定針對生物素代謝疾病。"
+        },
+        {
+          "nct_id": "NCT05832190",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "腸道菌群補充生物素與纖維研究，已終止（僅 5 名），B12 非主角。"
+        },
+        {
+          "nct_id": "NCT00572741",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "自閉症氧化壓力干預（含 B12），與生物素代謝疾病關聯甚弱。"
+        },
+        {
+          "nct_id": "NCT04067921",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "營養臨床試驗平台，無針對性設計。"
+        },
+        {
+          "nct_id": "NCT02302729",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "標題缺乏具體研究描述，無法確認與本適應症之關聯性。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23622402",
+          "title": "Vitamin-responsive disorders: cobalamin, folate, biotin, vitamins B1 and E.",
+          "year": "2013",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance": "HIGH - 直接並列討論 cobalamin 與 biotin 反應性疾病，為本適應症最核心文獻"
+        },
+        {
+          "pmid": "38203763",
+          "title": "Vitamin B12 Deficiency and the Nervous System: Beyond Metabolic Decompensation",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "MEDIUM - B12 缺乏症的代謝後果，涉及與生物素相關通路"
+        },
+        {
+          "pmid": "11031989",
+          "title": "[Vitamin dependency syndrome].",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "MEDIUM - 維生素依賴綜合症，涵蓋 B12 和生物素相關代謝疾病"
+        },
+        {
+          "pmid": "958746",
+          "title": "Megavitamin responsive aminoacidopathies.",
+          "year": "1976",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "MEDIUM - 早期描述大劑量維生素（含 B12）治療代謝性氨基酸病的臨床觀察"
+        },
+        {
+          "pmid": "36476407",
+          "title": "Vitamin B12 deficiency induces glucose intolerance, delays peak insulin levels and promotes ketogenesis",
+          "year": "2023",
+          "study_type": "Experimental",
+          "tier": "3",
+          "relevance": "LOW - 側重糖代謝，與生物素代謝疾病關聯間接"
+        },
+        {
+          "pmid": "7015958",
+          "title": "Interactions of thiamin, riboflavin, and other B-vitamins.",
+          "year": "1980",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "LOW - B 族維生素相互作用，間接支持 B12 與生物素通路的聯繫"
+        },
+        {
+          "pmid": "7027768",
+          "title": "[Vitamins in metabolic diseases].",
+          "year": "1981",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "LOW - 代謝疾病中維生素的作用，非 B12 專論"
+        }
+      ],
+      "summary": "高 TxGNN 評分反映代謝通路的真實重疊，但現有臨床試驗均非直接測試 cyanocobalamin 用於生物素代謝疾病。最強支持來自文獻（PMID 23622402），屬 L3 回顧性/機制性證據。建議先確立研究問題：cyanocobalamin 作為輔助療法（而非主療法）是否能改善生物素代謝疾病的代謝指標？"
+    },
+
+    {
+      "disease_name": "inborn error of biotin metabolism",
+      "txgnn_score": 0.9785,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "生物素代謝先天性異常（主要為生物素酶缺乏症 BTD 和全羧化酶合成酶缺乏症 HLCS）導致多種依賴生物素的羧化酶功能失常，引發有機酸血症。此類患者的丙酰-CoA 積累間接影響甲基丙二酸代謝，與腺苷鈷胺素（B12）依賴的 MUT 酵素活性相互關聯。文獻（PMID 160862, 6152513）描述輔因子（cofactor）療法在此類患者中的作用，包括 B12 在部分案例中的潛在補充角色。然而，B12 並非生物素代謝先天性異常的標準治療。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02426775",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成試驗，標題包含 'Carba...'（疑為 carbamazepine 或類似藥物），針對代謝性疾病長期療效比較。雖非 cyanocobalamin 主試驗，但涉及遺傳代謝疾病干預，提供相關族群治療架構參考。"
+        },
+        {
+          "nct_id": "NCT05687474",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "新生兒基因組篩查，涵蓋生物素代謝先天性異常的篩查，為診斷研究而非 B12 治療試驗。"
+        },
+        {
+          "nct_id": "NCT03655223",
+          "phase": "N/A",
+          "status": "ENROLLING_BY_INVITATION",
+          "relevance_grade": "C",
+          "reasoning": "症狀前新生兒臨床試驗基礎架構，間接支持遺傳代謝疾病研究生態系統，非 B12 試驗。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23622402",
+          "title": "Vitamin-responsive disorders: cobalamin, folate, biotin, vitamins B1 and E.",
+          "year": "2013",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance": "HIGH - 明確描述 cobalamin 反應性疾病與生物素反應性疾病的臨床特徵及治療，直接相關"
+        },
+        {
+          "pmid": "6152513",
+          "title": "Vitamin-responsive inborn errors of metabolism.",
+          "year": "1983",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "relevance": "HIGH - 系統性描述維生素反應性先天代謝錯誤，B12 作為治療工具被討論"
+        },
+        {
+          "pmid": "160862",
+          "title": "Use of cofactors in inborn errors of amino acid metabolism.",
+          "year": "1979",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "HIGH - 直接討論輔因子（cofactor，含 B12）在先天性胺基酸代謝錯誤中的應用策略"
+        },
+        {
+          "pmid": "1909779",
+          "title": "Metabolism of 1-13C-propionate in patients with disorders of propionate metabolism.",
+          "year": "1991",
+          "study_type": "Clinical Metabolic Study",
+          "tier": "2",
+          "relevance": "MEDIUM - 丙酸代謝障礙患者的同位素代謝研究，涉及 B12 依賴通路"
+        },
+        {
+          "pmid": "11031989",
+          "title": "[Vitamin dependency syndrome].",
+          "year": "2000",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "MEDIUM - 涵蓋多種維生素依賴症候群的描述性文獻"
+        },
+        {
+          "pmid": "958746",
+          "title": "Megavitamin responsive aminoacidopathies.",
+          "year": "1976",
+          "study_type": "Case Series",
+          "tier": "3",
+          "relevance": "MEDIUM - 早期大劑量維生素治療代謝病的臨床案例系列"
+        },
+        {
+          "pmid": "6360243",
+          "title": "Protean appearances of immunodeficiencies: syndromes and inborn errors involving other systems.",
+          "year": "1983",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "LOW - 免疫缺陷相關先天性錯誤的廣泛性描述，B12 關聯間接"
+        },
+        {
+          "pmid": "18339284",
+          "title": "[Values of tandem mass spectrometry in etiologic diagnosis of cerebral developmental retardation].",
+          "year": "2007",
+          "study_type": "Diagnostic Study",
+          "tier": "3",
+          "relevance": "LOW - 串聯質譜診斷工具研究，與 B12 治療效果無直接關聯"
+        }
+      ],
+      "summary": "生物素代謝先天性異常與 B12 依賴代謝通路確有生化聯繫（丙酸代謝軸），文獻支持輔因子療法概念。然而，標準治療為生物素補充，cyanocobalamin 作為輔助/替代角色需進一步明確。現有 Phase 3 試驗（NCT02426775）可能涉及此族群但非 B12 為主角。整體為 L3 證據，建議設計觀察性研究釐清 B12 補充在 BTD/HLCS 缺乏症患者中的代謝輔助效果。"
+    },
+
+    {
+      "disease_name": "non-syndromic esophageal malformation",
+      "txgnn_score": 0.9767,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無可辨識的直接機轉連結。食管先天畸形（如食管閉鎖、氣管食管瘺）為發育性結構缺陷，主要與 VACTERL 聯合症等遺傳發育通路有關。Cyanocobalamin 無已知的食管發育調控功能。TxGNN 高分可能反映知識圖譜中代謝-發育節點的數學相關性，而非真實機轉連結。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01793168",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "Sanford 罕見病協調研究，為廣泛性登錄平台（20,000 受試者），非針對 cyanocobalamin 治療食管畸形的臨床試驗，完全無相關性。"
+        }
+      ],
+      "literature_analysis": [],
+      "summary": "零文獻、零直接機轉支持、唯一試驗為泛罕見病登錄研究。TxGNN 高預測分數在此屬假陽性，應視為 L5 純預測結果。不建議投入研究資源，除非有新興機轉假說出現（如 B12 在胚胎神經管/中胚層發育的潛在角色）。"
+    },
+
+    {
+      "disease_name": "inflammatory myopathy with abundant macrophages",
+      "txgnn_score": 0.9764,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "炎症性肌病伴大量巨噬細胞（IMAM）為極罕見肌病，病理特徵為肌纖維間大量 CD68+ 巨噬細胞浸潤。Cyanocobalamin 無已知的抗巨噬細胞趨化或肌炎特異性免疫調節機制。與 B12 缺乏相關的肌肉症狀（肌無力、肌痛）為非特異性，非 IMAM 的直接治療目標。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床或機轉證據。純 L5 預測，應 Hold。"
+    },
+
+    {
+      "disease_name": "idiopathic eosinophilic myositis",
+      "txgnn_score": 0.9764,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性嗜酸性肌炎為罕見炎症性肌病，以嗜酸性粒細胞浸潤為特徵，可能與寄生蟲感染或自身免疫有關。Cyanocobalamin 對嗜酸性粒細胞無已知的調控效果。雖有動物研究顯示 cobalamin 與 albendazole 合用可減少寄生蟲幼蟲負擔（PMID 34730610），但此與特發性嗜酸性肌炎的直接關聯性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無直接臨床證據，機轉連結極弱。純 L5 預測，應 Hold。"
+    },
+
+    {
+      "disease_name": "immune-mediated necrotizing myopathy",
+      "txgnn_score": 0.9760,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "免疫介導壞死性肌病（IMNM）由抗 SRP 或抗 HMGCR 自身抗體驅動，導致肌纖維坏死。標準治療為免疫抑制劑（皮質類固醇、IVIG、利妥昔單抗）。Cyanocobalamin 對此自身免疫通路無已知的直接調控機制，且此病症的發病機制與 B12 代謝無明確連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床或機轉證據。純 L5 預測，應 Hold。"
+    },
+
+    {
+      "disease_name": "antisynthetase syndrome",
+      "txgnn_score": 0.9749,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "抗合成酶症候群由抗 tRNA 合成酶抗體（最常見為抗 Jo-1）介導，特徵為炎症性肌病、間質性肺病、關節炎和技工手。Cyanocobalamin 對 tRNA 合成酶抗體的免疫病理機制無已知干預效果。B12 在自身免疫性疾病中的角色目前僅有有限的觀察性資料（主要為系統性紅斑狼瘡/SLE），尚未延伸至抗合成酶症候群。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床或機轉證據。純 L5 預測，應 Hold。"
+    },
+
+    {
+      "disease_name": "proteinuria",
+      "txgnn_score": 0.9731,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "此為本分析中機轉最明確的適應症。Cyanocobalamin 透過腸道 cubilin（CUBN）-amnionless（AMN）受體複合體被吸收。CUBN 基因突變導致 Imerslund-Gräsbeck 症候群（IGS）：患者同時出現 B12 吸收不良（→巨紅血球性貧血）與蛋白尿（→CUBN 在腎近曲小管的蛋白質重吸收功能喪失）。B12 肌肉注射是 IGS 的標準治療，能完全矯正血液學異常；蛋白尿通常為良性且持續存在，但部分報告顯示 B12 治療後蛋白尿有所改善。2023 年系統性回顧（PMID 37710296）涵蓋大量病例，2024 年新病例（PMID 37855200）持續確認此模式。此外，高同半胱氨酸（homocysteine）血症與腎小管損傷相關，B12 降低 homocysteine 可能提供額外腎保護效果。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00257439",
+          "phase": "N/A",
+          "status": "UNKNOWN",
+          "relevance_grade": "B",
+          "reasoning": "「腎臟疾病中的維生素代謝」研究，100 名受試者，直接涉及 B12 在腎臟病（含蛋白尿）患者中的代謝狀況，為本適應症最相關試驗。"
+        },
+        {
+          "nct_id": "NCT03447275",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "「第二型糖尿病中的維生素 B 狀態（VITA）研究」，174 人完成，糖尿病腎病變常伴蛋白尿，B12 狀態監測研究提供重要背景資料。"
+        },
+        {
+          "nct_id": "NCT06090227",
+          "phase": "PHASE1, PHASE2",
+          "status": "RECRUITING",
+          "relevance_grade": "B",
+          "reasoning": "「AMPK 激活 by Metformin in FSGS」Phase 1/2，直接針對局灶節段性腎小球硬化（FSGS，以蛋白尿為主要表現），雖主角為 metformin 但腎臟蛋白尿族群明確。"
+        },
+        {
+          "nct_id": "NCT01232205",
+          "phase": "PHASE2, PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "妊娠期抗氧化補充研究（168 人），蛋白尿為次要監測指標，非 B12 主試驗，關聯間接。"
+        },
+        {
+          "nct_id": "NCT06813274",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "眼腦微循環相關 Phase 2 試驗，蛋白尿非主要目標，尚未開始招募。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37710296",
+          "title": "Imerslund-Gräsbeck syndrome: a comprehensive review of reported cases.",
+          "year": "2023",
+          "study_type": "Systematic Review",
+          "tier": "1",
+          "relevance": "CRITICAL - IGS 最完整系統性回顧，直接描述 B12 治療與蛋白尿的關係，為本適應症核心證據"
+        },
+        {
+          "pmid": "37855200",
+          "title": "Megaloblastic anemia and benign proteinuria: Clues to the diagnosis of Imerslund-Gräsbeck syndrome.",
+          "year": "2024",
+          "study_type": "Case Report / Diagnostic Review",
+          "tier": "2",
+          "relevance": "HIGH - 2024 年最新病例報告，強調巨紅血球性貧血+蛋白尿組合作為 IGS 診斷線索，B12 治療核心"
+        },
+        {
+          "pmid": "31613795",
+          "title": "Human C-terminal CUBN variants associate with chronic proteinuria and normal renal function.",
+          "year": "2020",
+          "study_type": "Genetic Association Study",
+          "tier": "2",
+          "relevance": "HIGH - 基因研究直接連結 CUBN 變異（B12 受體）與慢性蛋白尿，奠定精準醫療基礎"
+        },
+        {
+          "pmid": "36112210",
+          "title": "Clinical and genetic characterization of children with cubilin variants.",
+          "year": "2023",
+          "study_type": "Case Series",
+          "tier": "2",
+          "relevance": "HIGH - 兒童 CUBN 變異病例系列，直接涉及 B12 吸收與蛋白尿的臨床特徵"
+        },
+        {
+          "pmid": "32412981",
+          "title": "Immunodeficiency and inborn disorders of vitamin B12 and folate metabolism.",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "HIGH - B12 先天代謝障礙的系統性描述，包含 CUBN/AMN 缺陷的腎臟表現"
+        },
+        {
+          "pmid": "27289364",
+          "title": "Renal thrombotic microangiopathy in patients with cblC defect: review of an under-recognized entity.",
+          "year": "2017",
+          "study_type": "Case Series Review",
+          "tier": "2",
+          "relevance": "HIGH - cblC（鈷胺素 C 型）缺陷導致腎臟血栓性微血管病，B12 治療改善腎臟預後"
+        },
+        {
+          "pmid": "19854032",
+          "title": "[Imerslund-Gräsbeck syndrome].",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance": "HIGH - IGS 完整臨床描述，確立 B12 為標準治療"
+        },
+        {
+          "pmid": "41475066",
+          "title": "Clinical safety of ultra-high-dose methylcobalamin in patients with amyotrophic lateral sclerosis.",
+          "year": "2026",
+          "study_type": "RCT (Safety)",
+          "tier": "1",
+          "relevance": "MEDIUM - 超高劑量甲基鈷胺素安全性 RCT（ALS），提供大劑量 B12 的安全性資料，間接支持 B12 在腎臟病患者中的用藥安全評估"
+        },
+        {
+          "pmid": "11689224",
+          "title": "Proteinuria and plasma total homocysteine levels in chronic renal disease.",
+          "year": "2001",
+          "study_type": "Observational",
+          "tier": "2",
+          "relevance": "MEDIUM - 慢性腎病患者蛋白尿與高同半胱氨酸血症的關聯，B12 降低 Hcy 的腎保護機轉支持"
+        }
+      ],
+      "summary": "蛋白尿是本次分析中機轉最清晰、臨床證據最充分的適應症。CUBN-B12 軸線提供明確的生物學基礎：CUBN 同時是 B12 腸道吸收受體和腎小管蛋白重吸收受體，CUBN/AMN 突變導致的 IGS 是 cyanocobalamin 治療蛋白尿最直接的臨床適應情境。多項 2020-2024 年高品質文獻（含系統性回顧）持續驗證此連結。建議在精準醫療框架下推進：針對確診 CUBN/AMN 基因突變的蛋白尿患者設計前瞻性觀察研究，評估 B12 長期治療對蛋白尿程度的影響。Guardrails：需排除腎功能不全進展性病例、需基因確診（非所有蛋白尿適用）。"
+    },
+
+    {
+      "disease_name": "focal myositis",
+      "txgnn_score": 0.9731,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局灶性肌炎為局部炎症性肌肉病變，通常為自限性。文獻支持極為薄弱：PMID 1629834（1992 年）描述一例包含體肌炎（IBM，非局灶性肌炎）合併 B12 缺乏症與 Sjögren 症候群，這是相關性而非因果關係。其餘文獻涉及夜間腿部痙攣（PMID 22963024）、皮肌炎皮質類固醇治療（1963 年）、lupus 中轉鈷胺素動態（PMID 6648430）等，與局灶性肌炎的關聯均為間接。動物研究（PMID 34730610）顯示 cobalamin + albendazole 對寄生蟲感染有效，不適用於特發性局灶性肌炎。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "1629834",
+          "title": "Inclusion body myositis in association with vitamin B12 deficiency and Sjögren's syndrome.",
+          "year": "1992",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance": "LOW-MEDIUM - 唯一涉及 B12 與肌炎相關的文獻，但為 IBM（非局灶性肌炎）且為相關性報告，非因果關係"
+        },
+        {
+          "pmid": "22963024",
+          "title": "Nocturnal leg cramps.",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "LOW - 夜間腿部痙攣與 B12 無直接關聯，與局灶性肌炎更無直接關聯"
+        },
+        {
+          "pmid": "34730610",
+          "title": "Punica granatum and amygdalin extracts plus cobalamin combined with albendazole reduce larval burden.",
+          "year": "2021",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance": "LOW - 動物寄生蟲感染研究，B12 角色次要，與特發性局灶性肌炎無關"
+        },
+        {
+          "pmid": "6648430",
+          "title": "[Transcobalamin II dynamics in lupus erythematosus].",
+          "year": "1983",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance": "LOW - SLE 中轉鈷胺素動態，與局灶性肌炎僅有自身免疫的廣泛聯繫"
+        },
+        {
+          "pmid": "294247",
+          "title": "Neuropathies and myopathies.",
+          "year": "1979",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance": "LOW - 廣泛性神經病與肌病描述，1970 年代文獻，特異性極低"
+        }
+      ],
+      "summary": "僅有間接、低品質的文獻支持，無臨床試驗。最相關文獻（PMID 1629834）為 1 例 IBM+B12 缺乏的相關性報告，且疾病分類不符。建議 Hold，除非後續研究發現 B12 缺乏在局灶性肌炎患者中有統計顯著的高發生率。"
+    },
+
+    {
+      "disease_name": "primary CD59 deficiency",
+      "txgnn_score": 0.9709,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CD59 缺乏症（OMIM 612300）為補體調節蛋白 CD59 的先天缺陷，導致陣發性睡眠性血紅蛋白尿（PNH）樣溶血發作和復發性 Guillain-Barré 症候群。CD59 通過 GPI 錨定附著於細胞表面，保護細胞免受補體介導的溶解。Cyanocobalamin 對 CD59 表達、GPI 合成或補體系統無已知調控效果。注意：雖然 B12 缺乏可引起非特異性神經症狀（類似 GBS），但這與 CD59 缺乏症的發病機制完全不同。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "無任何臨床或機轉證據，純 L5 預測。CD59 缺乏症的治療方向為補體抑制劑（eculizumab），與 B12 療法無交集。應 Hold。"
+    }
+  ],
+  "overall_assessment": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "proteinuria",
+        "rationale": "唯一具明確分子機轉（CUBN-B12 軸線）、多項高品質文獻支持、有相關臨床試驗框架的適應症。Imerslund-Gräsbeck 症候群提供精準的患者選擇策略。"
+      },
+      {
+        "rank": 2,
+        "disease": "biotin metabolic disease",
+        "rationale": "代謝通路重疊有生化基礎，文獻（PMID 23622402）直接相關，但 B12 為輔助角色而非主療法。適合作為聯合療法的研究問題。"
+      },
+      {
+        "rank": 3,
+        "disease": "inborn error of biotin metabolism",
+        "rationale": "與生物素代謝疾病類似，輔因子療法概念有文獻支持，機轉相對清晰，但需明確定義 B12 的具體角色。"
+      }
+    ],
+    "hold_list": [
+      "non-syndromic esophageal malformation",
+      "inflammatory myopathy with abundant macrophages",
+      "idiopathic eosinophilic myositis",
+      "immune-mediated necrotizing myopathy",
+      "antisynthetase syndrome",
+      "focal myositis",
+      "primary CD59 deficiency"
+    ],
+    "key_insight": "Cyanocobalamin 的高 TxGNN 預測分數群集在多種肌炎亞型（4 個）中，但這些均無任何臨床或機轉支持，可能反映知識圖譜中「炎症性疾病」節點的系統性偏差。唯一值得推進的強信號是蛋白尿（透過 CUBN 機轉），其次是生物素代謝疾病（透過共享代謝通路）。",
+    "data_gaps": [
+      "Cyanocobalamin 原始 MoA 標記為 [Data Gap]，需補充完整藥理學資料",
+      "市場狀態標示為「未上市」但 B12 為全球廣泛使用維生素，需確認此為特定市場的登錄狀態",
+      "所有肌炎相關適應症（5 個）缺乏任何臨床或文獻支持，建議審查 TxGNN 知識圖譜是否存在結構性偏差",
+      "蛋白尿適應症需要前瞻性研究設計以提升至 L2 等級"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要表
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|-----------|----------|----------|------|---------|
+| 蛋白尿 | 0.973 | **L3** | **S2** | ✅ Proceed w/ Guardrails | CUBN-B12 軸線，IGS 系統性回顧，PMID 37710296 |
+| 生物素代謝疾病 | 0.996 | **L3** | **S1** | 🔬 Research Question | 共享丙酸代謝通路，PMID 23622402 |
+| 生物素先天代謝錯誤 | 0.978 | **L3** | **S1** | 🔬 Research Question | 輔因子療法文獻，PMID 6152513, 160862 |
+| 局灶性肌炎 | 0.973 | **L4** | **S0** | ⛔ Hold | 僅 1 個弱相關病例報告 |
+| 食管先天畸形 | 0.977 | **L5** | **S0** | ⛔ Hold | 無任何證據 |
+| 炎症性肌病（巨噬細胞）| 0.976 | **L5** | **S0** | ⛔ Hold | 無任何證據 |
+| 嗜酸性肌炎 | 0.976 | **L5** | **S0** | ⛔ Hold | 無任何證據 |
+| 壞死性肌病 | 0.976 | **L5** | **S0** | ⛔ Hold | 無任何證據 |
+| 抗合成酶症候群 | 0.975 | **L5** | **S0** | ⛔ Hold | 無任何證據 |
+| 原發性 CD59 缺乏症 | 0.971 | **L5** | **S0** | ⛔ Hold | 無任何證據 |
+
+> ⚠️ **YMYL 免責聲明**：以上分析結果僅供研究參考，不構成臨床醫療建議。所有老藥新用候選適應症需經嚴格臨床驗證方可應用於患者。

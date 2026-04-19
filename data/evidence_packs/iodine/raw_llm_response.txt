@@ -1,0 +1,534 @@
+## 藥物再利用證據分析：Iodine (DB05382)
+
+> ⚠️ **YMYL 免責聲明**：以下分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過完整臨床驗證方可應用。
+
+---
+
+### 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| Keratitis | L2 | S2 | Proceed with Guardrails |
+| Acne | L3 | S1 | Research Question |
+| Sjogren syndrome | L4 | S0 | Hold |
+| Seborrheic keratosis | L4 | S0 | Hold |
+| Peptic esophagitis | L4 | S0 | Hold |
+| Lacrimal gland neoplasm | L4 | S0 | Hold |
+| Recurrent corneal erosion | L4 | S0 | Hold |
+| Fetal erythroblastosis | L5 | S0 | Hold |
+| Prolapse of lacrimal gland | L5 | S0 | Hold |
+| Vulvar inverted follicular keratosis | L5 | S0 | Hold |
+
+---
+
+```json
+{
+  "drug": "Iodine",
+  "drugbank_id": "DB05382",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Iodine (DB05382) 市場狀態為未上市，MoA 資料缺失。臨床相關性主要來自衍生製劑（Povidone-Iodine, PVP-I；Lugol's 溶液；放射性碘 I-131）。評估時須區分：(1) 局部抗菌用途 (PVP-I)、(2) 診斷性顯影用途 (Lugol's)、(3) 甲狀腺相關放射治療 (I-131)——三者機轉不同，不可混用推論。",
+  "indications": [
+    {
+      "disease_name": "keratitis",
+      "txgnn_score": 0.8970,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Povidone-Iodine（PVP-I）為碘的廣效抗菌/抗病毒/抗真菌製劑，對角膜感染病原體（細菌、真菌、棘阿米巴、病毒）具殺滅活性。NIS 非相關機轉；局部眼科應用之全身碘暴露極低。Phase 2 完成試驗（NCT00386958，細菌性角膜潰瘍；NCT04169919，EKC）及一項 Phase 3 試驗（NCT00516399，真菌性，雖終止但有 78 人資料）已建立初步臨床可行性。特別適合資源匱乏環境（成本效益顯著）。",
+      "guardrails": [
+        "需釐清具體劑型濃度（0.5%-5% PVP-I）",
+        "角膜毒性（> 2.5% 濃度需監測上皮損傷）",
+        "NCT00516399 終止原因需確認（安全性 vs. 招募問題）",
+        "藥物管制：元素碘 DB05382 ≠ PVP-I 製劑，需橋接 IND"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04169919",
+          "title": "Povidone Iodine 5% Eye Wash in Treatment of Epidemic Keratoconjunctivitis",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 350,
+          "relevance_grade": "A",
+          "reasoning": "直接測試 PVP-I 5% 於流行性角膜結膜炎（EKC），已完成且樣本數大（n=350），為本適應症最強直接證據。病毒性角膜炎具體亞型。"
+        },
+        {
+          "nct_id": "NCT00386958",
+          "title": "A Clinical Trial of Povidone-Iodine for the Treatment of Bacterial Corneal Ulcers",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 172,
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 完成，n=172，直接評估 PVP-I 於細菌性角膜潰瘍療效與安全性。與資源匱乏地區低成本替代抗生素需求高度相關。"
+        },
+        {
+          "nct_id": "NCT00516399",
+          "title": "A Clinical Trial of the Treatment of Fungal Corneal Ulcers With Povidone-Iodine",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "enrollment": 78,
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 真菌性角膜潰瘍試驗，雖終止仍有 78 人資料。終止原因未明，需查詢以判斷是否為安全性問題（降評）或操作問題（維持評級）。目前評為 A 但附警示。"
+        },
+        {
+          "nct_id": "NCT03484507",
+          "title": "Parasitic Ulcer Treatment Trial Pilot",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 49,
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 寄生蟲性角膜潰瘍試驗，狀態不明。若為棘阿米巴角膜炎，與碘機轉相關（文獻 30586959 支持），但 UNKNOWN 狀態降低可信度。"
+        },
+        {
+          "nct_id": "NCT06463678",
+          "title": "Phase II Multi-center Randomized Masked Parallel-Control Study",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 60,
+          "relevance_grade": "B",
+          "reasoning": "未來 Phase 2 試驗，尚未招募。確認領域仍有活躍研究興趣，但不貢獻現有證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28984794",
+          "title": "The use of povidone-iodine in ophthalmology",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 1,
+          "notes": "眼科 PVP-I 使用的系統性綜述，涵蓋抗菌活性、濃度選擇及安全性，為核心參考文獻。"
+        },
+        {
+          "pmid": "37944600",
+          "title": "In praise of povidone-iodine application in ophthalmology",
+          "year": "2024",
+          "study_type": "Review/Commentary",
+          "tier": 1,
+          "notes": "2024 年最新評論，支持 PVP-I 眼科應用，反映領域最新共識。"
+        },
+        {
+          "pmid": "34466468",
+          "title": "Effectiveness of Povidone-Iodine 1% Eye Drop on S. pneumoniae and E. coli Induced Keratitis",
+          "year": "2019",
+          "study_type": "Experimental Study",
+          "tier": 2,
+          "notes": "PVP-I 1% 眼藥水對肺炎鏈球菌及大腸桿菌角膜炎的療效研究，提供細菌性角膜炎的機轉支持。"
+        },
+        {
+          "pmid": "35160298",
+          "title": "The Role of Topical Povidone-Iodine in the Management of Infectious Keratitis: A Pilot Study",
+          "year": "2022",
+          "study_type": "Pilot Study",
+          "tier": 2,
+          "notes": "局部 PVP-I 治療感染性角膜炎的先導研究，直接支持臨床可行性。"
+        },
+        {
+          "pmid": "12605049",
+          "title": "Role of 0.02% PHMB and 1% povidone iodine in experimental Aspergillus keratitis",
+          "year": "2003",
+          "study_type": "Experimental/Animal Study",
+          "tier": 2,
+          "notes": "實驗性麴菌角膜炎模型，支持 PVP-I 抗真菌機轉。"
+        },
+        {
+          "pmid": "30586959",
+          "title": "Effect of povidone iodine on amphizoic amoebic strains",
+          "year": "2018",
+          "study_type": "In Vitro Study",
+          "tier": 2,
+          "notes": "PVP-I 對棘阿米巴的體外殺滅活性，支持寄生蟲性角膜炎機轉。"
+        },
+        {
+          "pmid": "40277198",
+          "title": "Update in management of microbial keratitis associated with contact lenses",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 1,
+          "notes": "2025 年最新隱形眼鏡相關微生物性角膜炎管理更新，提及 PVP-I 角色。"
+        }
+      ]
+    },
+    {
+      "disease_name": "acne (disease)",
+      "txgnn_score": 0.9311,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "碘的抗菌活性可針對痤瘡主要病原菌 Cutibacterium acnes（前 Propionibacterium acnes）。PVP-I 局部製劑（脂質體包裹可降低刺激性）已被探索作為抗生素耐藥性替代方案。文獻顯示碘對皮膚菌叢的廣效作用（PMID 2285575），以及碘與皮膚疾病的歷史關聯（PMID 3160569）。需注意：高濃度碘本身可能誘發碘痤瘡（iododerma），呈劑量依賴性雙向效應。",
+      "research_gaps": [
+        "NCT02126709（3% PVP-I 痤瘡 Phase 2）狀態 UNKNOWN，需確認結果是否已發表",
+        "最佳劑型（脂質體 vs. 傳統 PVP-I）尚無頭對頭比較",
+        "耐藥性環境中相對抗生素的定位尚未明確",
+        "高濃度碘誘發碘痤瘡的安全閾值需確立"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02126709",
+          "title": "Phase 2 Study of the Efficacy and Safety of 3% Povidone-Iodine in Acne Therapy",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 30,
+          "relevance_grade": "A",
+          "reasoning": "唯一直接測試 PVP-I 於痤瘡的 Phase 2 試驗，n=30，UNKNOWN 狀態意謂結果未明。若已完成仍為最關鍵直接證據；需追查 ClinicalTrials.gov 更新。"
+        },
+        {
+          "nct_id": "NCT04214483",
+          "title": "Non-Interventional Pilot Study to Explore the Role of Gut Flora in Acne",
+          "phase": "N/A",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "探索腸道菌叢與痤瘡的相關性研究，與碘無直接關聯，且已撤回。不貢獻碘再利用證據。"
+        },
+        {
+          "nct_id": "NCT03238469",
+          "title": "Microwave Ablation in the Treatment of Mild Axillary Hidradenitis Suppurativa",
+          "phase": "NA",
+          "status": "TERMINATED",
+          "enrollment": 9,
+          "relevance_grade": "C",
+          "reasoning": "微波消融治療腋下化膿性汗腺炎，為不同疾病（HS ≠ acne vulgaris），且為物理療法非藥物治療。完全不相關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "28989281",
+          "title": "Efficacy and tolerability of liposomal PVP-iodine hydrogel for localized treatment of acne",
+          "year": "2017",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "notes": "最關鍵的直接文獻：脂質體 PVP-碘水凝膠局部治療痤瘡的療效與耐受性研究，直接支持 L3 評級。"
+        },
+        {
+          "pmid": "29447075",
+          "title": "Propionibacterium acnes Has Low Susceptibility to Chlorhexidine Digluconate",
+          "year": "2018",
+          "study_type": "In Vitro Study",
+          "tier": 2,
+          "notes": "C. acnes 對 CHX 低敏感性研究，間接支持碘作為替代抗菌劑（碘對 C. acnes 敏感性較高）。"
+        },
+        {
+          "pmid": "2285575",
+          "title": "The influence of various factors on the human resident skin flora",
+          "year": "1990",
+          "study_type": "Experimental Study",
+          "tier": 2,
+          "notes": "碘對皮膚常駐菌叢影響的基礎研究，提供機轉背景。"
+        },
+        {
+          "pmid": "3160569",
+          "title": "[Iodine and skin diseases]",
+          "year": "1985",
+          "study_type": "Review",
+          "tier": 3,
+          "notes": "碘與皮膚疾病的早期綜述，涵蓋碘痤瘡（iododerma）風險，提示雙向效應。歷史文獻，證據力較弱。"
+        },
+        {
+          "pmid": "37033604",
+          "title": "Efficacy and safety of Melaleuca alternifolia (tea tree) oil - systematic review",
+          "year": "2023",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "notes": "茶樹油系統綜述，對比抗菌外用劑，可作為競爭性背景參考，但非直接碘研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "Sjogren syndrome",
+      "txgnn_score": 0.9409,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 高分可能源於 NIS（Sodium-Iodide Symporter）的共享分子機轉：NIS 同時表現於唾液腺和甲狀腺，Sjögren 症候群與橋本甲狀腺炎共享自體免疫機轉（PMID 41516079）。然而，現有文獻幾乎全為：(1) 放射性碘（I-131）治療甲狀腺後引發乾燥症狀（碘為致病因子，非治療劑）；(2) 放射性碘唾液腺閃爍攝影用於 SS 診斷（診斷工具）；(3) SS 與自體免疫甲狀腺疾病的共病率研究。無任何文獻將碘作為 SS 的治療介入，機轉連結假說性。",
+      "red_flags": [
+        "I-131 治療後可導致/加重乾燥症狀——碘可能惡化疾病",
+        "TxGNN 高分反映 NIS 分子連結，非治療性證據",
+        "SS 有明確生物製劑治療路徑（貝利木單抗、利妥昔單抗），競爭定位不明"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "41516079",
+          "title": "Predicted T-Cell and B-Cell Epitopes of NIS: SS and Hashimoto's Thyroiditis",
+          "year": "2025",
+          "study_type": "Computational/Immunological Study",
+          "tier": 3,
+          "notes": "NIS 表位在 SS 和橋本甲狀腺炎中的預測研究，解釋 TxGNN 高分的分子機轉，但完全不支持碘作為治療劑。"
+        },
+        {
+          "pmid": "35817018",
+          "title": "Management of Chronic Sialadenitis due to Sjogren's Syndrome Using Sialendoscopy",
+          "year": "2023",
+          "study_type": "Case Series/Review",
+          "tier": 2,
+          "notes": "唾液腺內視鏡治療 SS 相關慢性唾液腺炎，為物理介入，非碘治療，不直接支持。"
+        },
+        {
+          "pmid": "24899999",
+          "title": "Salivary Gland Scintigraphy in Sjögren's Syndrome Patients",
+          "year": "2011",
+          "study_type": "Diagnostic Study",
+          "tier": 2,
+          "notes": "放射性碘/Tc-99m 唾液腺閃爍攝影於 SS 診斷評估，為診斷用途，非治療。"
+        },
+        {
+          "pmid": "7485204",
+          "title": "Autoimmune thyroid disease in primary Sjögren's syndrome",
+          "year": "1995",
+          "study_type": "Cross-sectional Study",
+          "tier": 3,
+          "notes": "SS 與自體免疫甲狀腺疾病共病率，間接背景資料，不支持碘治療。"
+        },
+        {
+          "pmid": "12035942",
+          "title": "Thyroid hormone autoantibodies in primary Sjögren syndrome",
+          "year": "2002",
+          "study_type": "Cross-sectional Study",
+          "tier": 3,
+          "notes": "甲狀腺自體抗體於 SS 的普遍性研究，顯示共病關係，非治療研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "seborrheic keratosis",
+      "txgnn_score": 0.9141,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "現有證據主要為診斷性應用：PVP-I 染色試驗（Schiller test 類似原理）用於區分脂漏性角化與鱗狀細胞癌（PMID 30109892）。放射性碘假陽性攝取於基底細胞乳頭狀瘤（PMID 33492860）反映的是診斷干擾，非治療適應症。無任何治療性介入證據。NCT07441538（傷口換藥試驗）雖已完成，但與脂漏性角化症治療無直接關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07441538",
+          "title": "Randomized Controlled Trial Comparing Early to Standard Wound Dressing Removal After Facial Skin Surgery",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 144,
+          "relevance_grade": "C",
+          "reasoning": "臉部手術後傷口換藥時機的 RCT，可能涉及含碘敷料（如 PVP-I 紗布），但研究目標為換藥時機非脂漏性角化症治療。不直接支持本適應症。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30109892",
+          "title": "Prospective diagnostic study on povidone-iodine retention in lesions suspected to be SCC",
+          "year": "2019",
+          "study_type": "Diagnostic Study",
+          "tier": 2,
+          "notes": "PVP-I 染色於疑似 SCC 病灶的診斷研究，碘作為診斷染劑，非治療劑，不支持再利用假說。"
+        },
+        {
+          "pmid": "33492860",
+          "title": "False-Positive Uptake of 131I From Basal Cell Papilloma in Metastatic Papillary Thyroid Cancer",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": 3,
+          "notes": "基底細胞乳頭狀瘤（= 脂漏性角化症）對 I-131 假陽性攝取的案例報告，為診斷干擾議題，與治療無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "fetal erythroblastosis",
+      "txgnn_score": 0.9103,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻與碘再利用完全無關聯。所有 20 篇文獻均圍繞 Rh 血型不相容（抗 D 免疫球蛋白、宮內輸血）的免疫血液學機轉。TxGNN 評分可能反映知識圖譜中的錯誤連結（可能透過甲狀腺功能——胎兒水腫——Rh 溶血路徑的遠端關聯）。碘與胎兒紅血球母細胞增多症之間不存在已知的合理機轉連結。此建議應標記為知識圖譜假陽性候選。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6247979",
+          "title": "Fetal thyroid hyperplasia, rhesus isoimmunisation, and amniography",
+          "year": "1980",
+          "study_type": "Case Series",
+          "tier": 3,
+          "notes": "唯一提及碘相關連結的文獻：羊膜影像學（amniography 使用碘造影劑）與 Rh 免疫及胎兒甲狀腺增生的病例系列。為診斷程序副作用報告，非治療性。"
+        }
+      ]
+    },
+    {
+      "disease_name": "recurrent corneal erosion",
+      "txgnn_score": 0.9066,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "僅有一篇 1964 年舊文獻（PMID 14129247），無法評估碘在復發性角膜糜爛的機轉或療效。復發性角膜糜爛的病理生理為上皮基底膜複合體異常（型膠原/整合素功能障礙），碘的抗菌活性與此機轉無直接關聯，除非繼發性感染是誘發因素。證據極度不足，需先完成文獻重新搜尋確認此文獻確實與碘治療相關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14129247",
+          "title": "RECURRENT EROSION OF THE CORNEA",
+          "year": "1964",
+          "study_type": "Unknown (Pre-modern era)",
+          "tier": 3,
+          "notes": "1964 年文獻，無摘要可評估，時代背景差異大，無法作為現代臨床決策依據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "lacrimal gland neoplasm",
+      "txgnn_score": 0.8935,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為典型方向性錯誤的知識圖譜假陽性：所有文獻和臨床試驗均顯示 I-131 放射性碘治療（用於甲狀腺癌）「導致」淚腺功能損傷，而非碘「治療」淚腺腫瘤。碘是致病因子（NIS 表達於淚腺上皮，I-131 造成輻射損傷）。NCT05999630 研究的是如何「預防」I-131 引起的鼻淚管阻塞。此適應症應從再利用候選名單中排除並標記為 KG 假陽性。",
+      "red_flags": [
+        "因果方向相反：I-131 ⟶ 淚腺損傷（不良反應），非治療",
+        "NCT05999630 Phase 3 為防護性介入，非治療試驗",
+        "淚腺腫瘤（如多形性腺瘤、腺樣囊性癌）有完全不同的標準治療路徑"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05999630",
+          "title": "Artificial Tears to Prevent Nasolacrimal Duct Obstruction in RAI-Treated Patients",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "此 Phase 3 試驗研究人工淚液「預防」放射性碘治療後的鼻淚管阻塞。碘在此為被預防的傷害源，非治療藥物。因果方向完全相反。"
+        },
+        {
+          "nct_id": "NCT06853925",
+          "title": "Website About Radioactive Iodine Symptom Management",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 88,
+          "relevance_grade": "C",
+          "reasoning": "數位健康介入研究，協助患者管理 RAI 副作用症狀。與碘治療淚腺腫瘤無關。"
+        },
+        {
+          "nct_id": "NCT06980103",
+          "title": "Decision Aid to Resolve Uncertainty About Radioactive Iodine Treatment",
+          "phase": "NA",
+          "status": "RECRUITING",
+          "enrollment": 408,
+          "relevance_grade": "C",
+          "reasoning": "共享決策工具研究，針對甲狀腺癌 RAI 治療決策，完全不涉及淚腺腫瘤治療。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32812307",
+          "title": "Salivary and lacrimal dysfunction after radioactive iodine for differentiated thyroid cancer",
+          "year": "2020",
+          "study_type": "Review",
+          "tier": 1,
+          "notes": "I-131 治療後唾液腺/淚腺功能障礙的系統性文獻回顧，記錄碘的「毒性作用」而非治療性。"
+        },
+        {
+          "pmid": "38451916",
+          "title": "Does Radioactive Iodine Treatment Damage the Lacrimal System?",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": 1,
+          "notes": "2024 最新回顧，標題即揭示研究方向：評估 RAI 對淚道系統的損傷，非治療效果。"
+        }
+      ]
+    },
+    {
+      "disease_name": "peptic esophagitis",
+      "txgnn_score": 0.8939,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "碘在食道炎的連結限於診斷用途：Lugol's 碘液色素內視鏡（Lugol chromoendoscopy）利用正常鱗狀上皮對碘的染色反應（糖原-碘反應）偵測 Barrett's 食道、早期食道癌及 GERD 相關病變。這是診斷影像強化技術，非治療性介入。NCT01783158 為早期同時性食道癌偵測的色素內視鏡 RCT（診斷試驗）。碘在胃食道逆流疾病的病理生理（酸-蛋白酶損傷）中無已知治療角色。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01783158",
+          "title": "Chromoendoscopy to Detect Early Synchronous Second Primary Esophageal Carcinoma",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 132,
+          "relevance_grade": "C",
+          "reasoning": "Lugol's 色素內視鏡用於食道癌同時性病灶偵測的診斷性 RCT，已完成（n=132）。碘為診斷染劑，研究目標為腫瘤學監測非 GERD/食道炎治療。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "16246682",
+          "title": "Lugol chromoendoscopy as a diagnostic tool in endoscopy-negative GERD",
+          "year": "2005",
+          "study_type": "Diagnostic Cohort Study",
+          "tier": 2,
+          "notes": "Lugol 色素內視鏡於 GERD 的診斷應用研究，碘作為診斷工具確認食道黏膜損傷範圍，非治療。"
+        },
+        {
+          "pmid": "23573075",
+          "title": "Chromoendoscopy to detect early synchronous second primary esophageal carcinoma",
+          "year": "2013",
+          "study_type": "Cohort Study",
+          "tier": 2,
+          "notes": "色素內視鏡偵測食道早期癌，Lugol 染色為診斷輔助，非治療性介入。"
+        },
+        {
+          "pmid": "32598765",
+          "title": "Gastroesophageal reflux disease and esophagitis associated with drug use",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 3,
+          "notes": "藥物引起 GERD/食道炎的回顧，可能涉及碘製劑的食道副作用，與治療假說無關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "prolapse of lacrimal gland",
+      "txgnn_score": 0.9364,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "零臨床試驗、零文獻，純為 TxGNN 計算預測。淚腺脫垂（prolapse）為解剖結構性問題（眶隔鬆弛），標準治療為外科復位術，藥物介入極難設計。碘作為治療劑無任何已知機轉路徑可連結此適應症。高 TxGNN 分數可能反映碘-淚腺解剖學的知識圖譜連結（因 RAI 攝取淚腺組織），而非治療性關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vulvar inverted follicular keratosis",
+      "txgnn_score": 0.8963,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "零臨床試驗、零文獻，純為 TxGNN 計算預測。外陰部倒置性毛囊角化症為極罕見的良性皮膚腫瘤，目前治療以手術切除為主。雖然碘（PVP-I）對皮膚角化性病變有一定作用（與 seborrheic keratosis 類似的知識圖譜鄰近性），但無任何臨床前或臨床證據。此病例過度罕見，不具優先研究價值。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_summary": {
+    "highest_priority": "keratitis",
+    "rationale": "Keratitis 是 Iodine (PVP-I) 再利用中唯一具有多項 Phase 2 完成試驗（n=172 細菌性；n=350 EKC）及一項 Phase 3 試驗數據（真菌性，n=78）的適應症，達 L2 證據等級。特別在資源匱乏地區，PVP-I 作為低成本廣效抗菌/抗病毒眼科製劑具有高公共衛生價值。",
+    "secondary_candidate": "acne (disease)",
+    "rationale_secondary": "Acne 具有一項 Phase 2 試驗（雖 UNKNOWN 狀態）和直接文獻支持（脂質體 PVP-I 水凝膠），在抗生素耐藥性日益嚴重的背景下具有研究價值，但需先確認 NCT02126709 結果。",
+    "kg_false_positives": [
+      "lacrimal gland neoplasm（因果方向相反：碘為致病因子）",
+      "fetal erythroblastosis（知識圖譜遠端連結，無機轉基礎）",
+      "prolapse of lacrimal gland（解剖結構性問題，藥物介入不合理）"
+    ],
+    "diagnostic_use_only": [
+      "peptic esophagitis（Lugol 色素內視鏡為診斷工具）",
+      "seborrheic keratosis（PVP-I 染色為診斷輔助）"
+    ],
+    "critical_caveat": "DB05382 標記為元素碘（未上市），但所有臨床證據均來自 Povidone-Iodine（PVP-I）製劑。任何後續開發需解決配方橋接問題，並重新確認 IND 申請策略。"
+  }
+}
+```
+
+---
+
+### 關鍵決策摘要
+
+```
+優先級排序：
+┌─────────────────────────┬──────┬──────┬──────────────────────────┐
+│ 適應症                   │ 證據 │ 階段 │ 核心行動                  │
+├─────────────────────────┼──────┼──────┼──────────────────────────┤
+│ Keratitis               │  L2  │  S2  │ 推進：確認 NCT00516399    │
+│                         │      │      │ 終止原因，設計低資源 RCT  │
+├─────────────────────────┼──────┼──────┼──────────────────────────┤
+│ Acne                    │  L3  │  S1  │ 追查 NCT02126709 結果，   │
+│                         │      │      │ 評估脂質體劑型可行性      │
+├─────────────────────────┼──────┼──────┼──────────────────────────┤
+│ Sjogren syndrome        │  L4  │  S0  │ 暫停：碘可能惡化症狀      │
+├─────────────────────────┼──────┼──────┼──────────────────────────┤
+│ Lacrimal gland neoplasm │  L4  │  S0  │ 排除：KG 假陽性（方向反）│
+├─────────────────────────┼──────┼──────┼──────────────────────────┤
+│ Fetal erythroblastosis  │  L5  │  S0  │ 排除：KG 假陽性           │
+└─────────────────────────┴──────┴──────┴──────────────────────────┘
+```
+
+> 本分析依據提供資料生成，僅供研究決策參考，不構成醫療建議。老藥新用候選需經完整臨床驗證後方可應用。

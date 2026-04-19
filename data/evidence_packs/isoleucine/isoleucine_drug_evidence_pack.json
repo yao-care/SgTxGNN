@@ -1,0 +1,962 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00167-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Isoleucine",
+    "drugbank_id": "DB00167",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "gastroparesis (disease)",
+      "txgnn": {
+        "score": 0.9932233095169068,
+        "rank": 8054
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "BCAAs（含Isoleucine）可刺激腸道K細胞和L細胞分泌CCK、GLP-1及PYY，這些腸道激素直接調節胃排空速率與胃竇收縮力。Isoleucine可能透過腸道感測機制（mTOR/CaSR路徑）影響胃動力，但此假說尚無臨床試驗驗證。機轉可信度：中等（間接）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "obsolete vitamin D deficiency",
+      "txgnn": {
+        "score": 0.983491837978363,
+        "rank": 15116
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 本體論術語標記為'obsolete'（已廢除），表示此疾病分類在現代醫學本體中已不存在，降低預測有效性。Isoleucine代謝路徑（BCAA分解→乙酸CoA/丙酸CoA）與維生素D合成（7-脫氫膽固醇→膽鈣化醇路徑）及活化（肝臟/腎臟羥化）無確立的直接生化聯繫。不建議基於廢棄本體術語設計研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn": {
+        "score": 0.9790590405464172,
+        "rank": 17471
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知治療性機轉聯繫。先天性凝血酶原缺乏症由F2基因功能失喪突變所致，屬維生素K依賴性凝血因子合成障礙。Isoleucine作為結構性胺基酸雖參與所有蛋白質合成，但無針對F2基因表達或凝血酶原加工的特異性調控證據。此預測可能為知識圖譜中'蛋白質合成'節點的廣義關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "dyspepsia",
+      "txgnn": {
+        "score": 0.977392077445984,
+        "rank": 18252
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26743458",
+            "title": "Revealing Potential Biomarkers of Functional Dyspepsia by Combining 1H NMR Metabonomics Techniques and an Integrative Multi-objective Optimization Method.",
+            "authors": [
+              "Wu Qiaofeng",
+              "Zou Meng",
+              "Yang Mingxiao",
+              "Zhou Siyuan",
+              "Yan Xianzhong"
+            ],
+            "journal": "Scientific reports",
+            "year": "2016",
+            "abstract": "Metabonomics methods have gradually become important auxiliary tools for screening disease biomarkers. However, recognition of metabolites or potential biomarkers closely related to either particular clinical symptoms or prognosis has been difficult. The current study aims to identify potential biomarkers of functional dyspepsia (FD) by a new strategy that combined hydrogen nuclear magnetic resonance ((1)H NMR)-based metabonomics techniques and an integrative multi-objective optimization (LPIMO)",
+            "classification": {
+              "study_type": "Metabolomics cross-sectional study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19854601",
+            "title": "1H NMR-based metabonomic study on the metabolic changes in the plasma of patients with functional dyspepsia and the effect of acupuncture.",
+            "authors": [
+              "Wu Qiaofeng",
+              "Zhang Qi",
+              "Sun Bo",
+              "Yan Xianzhong",
+              "Tang Yong"
+            ],
+            "journal": "Journal of pharmaceutical and biomedical analysis",
+            "year": "2010",
+            "abstract": "Functional dyspepsia (FD) is a common gastrointestinal disorder with multiple pathogenic mechanisms seen in clinical practice, and acupuncture may potentially be an alternative therapy for it. In order to investigate the biological effects of FD and the effect of acupuncture on metabolism, (1)H nuclear magnetic resonance (NMR)-based metabonomic techniques have been used to compare the plasma metabolic profiles of six female FD patients with those of six female healthy control subjects. Plasma me",
+            "classification": {
+              "study_type": "Metabolomics cross-sectional study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20712055",
+            "title": "Helicobacter pylori CagA protein polymorphisms and their lack of association with pathogenesis.",
+            "authors": [
+              "Acosta Nicole",
+              "Quiroga Andrés",
+              "Delgado Pilar",
+              "Bravo María-Mercedes",
+              "Jaramillo Carlos"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2010",
+            "abstract": "To investigate Helicobacter pylori (H. pylori) CagA diversity and to evaluate the association between protein polymorphisms and the occurrence of gastric pathologies.",
+            "classification": {
+              "study_type": "Molecular biology study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27558952",
+            "title": "Influence of amino acids on gastric adaptive relaxation (accommodation) in rats as evaluated with a barostat.",
+            "authors": [
+              "Uchida Masayuki",
+              "Iwamoto Chizuru"
+            ],
+            "journal": "Journal of smooth muscle research = Nihon Heikatsukin Gakkai kikanshi",
+            "year": "2016",
+            "abstract": "The present study aimed to evaluate the effects of selected straight alkyl chain, hydroxylated chain and branched chain amino acids on gastric adaptive relaxation, as these have previously been shown to have differing effects on gastric emptying.",
+            "classification": {
+              "study_type": "Animal mechanistic study (rat)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雙重間接機轉支持：(1)【生物標記角度】代謝組學研究顯示功能性消化不良（FD）患者血漿Isoleucine等BCAA水平顯著異常，提示BCAA感測/代謝紊亂可能參與FD病生理（但因果方向不明）；(2)【機轉角度】動物實驗（PMID 27558952）直接顯示胺基酸影響大鼠胃適應性舒張（accommodation），此為FD核心病生理機轉之一，Isoleucine可能透過感覺神經元和腸道肽（NO、VIP路徑）調節胃底舒張。局限：現有文獻均非治療性干預研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "renal tubular acidosis",
+      "txgnn": {
+        "score": 0.9762109518051147,
+        "rank": 18781
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9761355",
+            "title": "Benign methylmalonic acidemia in a sibship with distal renal tubular acidosis.",
+            "authors": [
+              "Dudley J",
+              "Allen J",
+              "Tizard J",
+              "McGraw M"
+            ],
+            "journal": "Pediatric nephrology (Berlin, Germany)",
+            "year": "1998",
+            "abstract": "Two male infants born to consanguineous parents were investigated for feeding difficulties in the 1st month of life. Both were found to have distal renal tubular acidosis (dRTA) with hypercalciuria. Nephrocalcinosis was present in the first child but not in the second. Urinary organic acid profile demonstrated an excess of methylmalonic acid (MMA) in both children in the absence of any other organic acid. MMA mutase activity and propionate incorporation were normal. There have been no neurologic",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1019163",
+            "title": "Changes of blood pressure, plasma renin activity and plasma aldosterone concentration following the infusion of Sar1-Ile8-angiotensin II in hypertensive, fluid and electrolyte disorders.",
+            "authors": [
+              "Yamamoto T",
+              "Doi K",
+              "Ogihara T",
+              "Ichihara K",
+              "Hata T"
+            ],
+            "journal": "Progress in biochemical pharmacology",
+            "year": "1976",
+            "abstract": "1-Sarcosine, 8-isoleucine angiotensin II (Sar1-Ile8-AII) was infused intravenously in 5 normal volunteers and 66 subjects with various hypertensive, fluid and electrolyte disorders. Changes of blood pressure (BP), plasma renin activity (PRA) and plasma aldosterone concentration (PAC) were studied. In normal subjects, Sar1-Ile-AII showed pressor (agonistic) activity, which was related to both dosage and sodium intake. Hyporeninaemic hypertensive subjects (pirmary aldosteronism) showed pressor res",
+            "classification": {
+              "study_type": "Clinical study (1976)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 反向機轉警示（安全性疑慮）：Isoleucine分解代謝路徑為 Isoleucine → 2-甲基乙酰乙醯CoA → Propionyl-CoA → Methylmalonyl-CoA → Succinyl-CoA。在甲基丙二酸血症（MMA）患者中，因MUT/MMAA/MMAB基因突變導致Methylmalonyl-CoA mutase功能不全，過多Isoleucine攝入會加速毒性代謝物（甲基丙二酸）蓄積，進而引起遠端腎小管損傷和RTA。現有文獻描述的正是Isoleucine作為疾病毒素前驅物的機制，補充Isoleucine可能加重此類患者病情。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "sclerosing cholangitis",
+      "txgnn": {
+        "score": 0.9722733497619628,
+        "rank": 20412
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15790420",
+            "title": "The relation between plasma tyrosine concentration and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis.",
+            "authors": [
+              "ter Borg Pieter C J",
+              "Fekkes Durk",
+              "Vrolijk Jan Maarten",
+              "van Buuren Henk R"
+            ],
+            "journal": "BMC gastroenterology",
+            "year": "2005",
+            "abstract": "In primary biliary cirrhosis (PBC) and primary sclerosing cholangitis (PSC) fatigue is a major clinical problem. Abnormal amino acid (AA) patterns have been implicated in the development of fatigue in several non-hepatological conditions but for PBC and PSC no data are available. This study aimed to identify abnormalities in AA patterns and to define their relation with fatigue.",
+            "classification": {
+              "study_type": "Observational cohort study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24222941",
+            "title": "PNPLA3 I148M polymorphism and progressive liver disease.",
+            "authors": [
+              "Dongiovanni Paola",
+              "Donati Benedetta",
+              "Fares Roberta",
+              "Lombardi Rosa",
+              "Mancina Rosellina Margherita"
+            ],
+            "journal": "World journal of gastroenterology",
+            "year": "2013",
+            "abstract": "The 148 Isoleucine to Methionine protein variant (I148M) of patatin-like phospholipase domain-containing 3 (PNPLA3), a protein is expressed in the liver and is involved in lipid metabolism, has recently been identified as a major determinant of liver fat content. Several studies confirmed that the I148M variant predisposes towards the full spectrum of liver damage associated with fatty liver: from simple steatosis to steatohepatitis and progressive fibrosis. Furthermore, the I148M variant repres",
+            "classification": {
+              "study_type": "Review/Meta-analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36454904",
+            "title": "PNPLA3 allele frequency has no impact on biliary bile acid composition or disease course in patients with primary sclerosing cholangitis.",
+            "authors": [
+              "Färkkilä Martti",
+              "Kautiainen Hannu",
+              "Tenca Andrea",
+              "Jokelainen Kalle",
+              "Arola Johanna"
+            ],
+            "journal": "PloS one",
+            "year": "2022",
+            "abstract": "Primary sclerosing cholangitis (PSC) is a chronic inflammatory disease that leads to bile duct strictures, cholestasis, and biliary cirrhosis. PNPLA3 (patatin-like phospholipase domain containing 3), regulates cellular lipid synthesis by converting lysophosphatidic acid into phosphatidic acid. Isoleucine mutation to methionine at position 148 (I148M) causes a loss of this function. Only two studies, with contradictory results, have evaluated the role of PNPLA3 in PSC. The rs738409(G) variant of ",
+            "classification": {
+              "study_type": "Genetic cohort study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無治療性機轉聯繫。原發性硬化性膽管炎（PSC）病因為膽管免疫炎症（Th17/Treg失衡、腸-肝軸菌群異常），與BCAA代謝無確立的治療性聯繫。雖然BCAAs在肝硬化合併肝性腦病中有應用，但其機轉（降低芳香族胺基酸競爭、減少假神經遞質）不適用於PSC。現有文獻完全來自PNPLA3遺傳研究，與Isoleucine無交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "familial visceral myopathy",
+      "txgnn": {
+        "score": 0.9680259823799132,
+        "rank": 21907
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉聯繫。家族性內臟肌病（FVM）為消化道平滑肌變性的罕見遺傳病（多與ACTG2基因突變相關），病理為平滑肌纖維化替代。BCAAs支持骨骼肌蛋白質合成的一般功能無法延伸至平滑肌遺傳病。缺乏任何臨床或基礎研究支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn": {
+        "score": 0.9582926034927368,
+        "rank": 24679
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉聯繫。低磷性佝僂病（X-linked最常見）主要由PHEX基因突變導致FGF23過度分泌，引起腎小管磷重吸收障礙及1,25(OH)2D活化受阻。治療靶向FGF23（burosumab）或磷酸鹽補充。Isoleucine代謝路徑與FGF23-PHEX-磷代謝軸無已知調控關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "potassium deficiency disease",
+      "txgnn": {
+        "score": 0.9548693895339966,
+        "rank": 25493
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "15577749",
+            "title": "[Neuroprotective role of PACAP, VIP, and PHI in the central nervous system].",
+            "authors": [
+              "Sokołowska Paulina",
+              "Dejda Agnieszka",
+              "Nowak Jerzy Z"
+            ],
+            "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
+            "year": "2004",
+            "abstract": "Pituitary adenylate cyclase-activating polypeptide (PACAP), vasoactive intestinal peptide (VIP), and peptide histidine-isoleucine (PHI) belong to a structurally related family of polypeptides present in many regions of the central and peripheral nervous system. The neuroprotective potential of PACAP, VIP, and PHI has become a matter of intensive investigations in many animal models. In vitro studies revealed that PACAP protects neurons against apoptosis occurring naturally during CNS development",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22492876",
+            "title": "An infant with pseudohyperkalemia, hemolysis, and seizures: cation-leaky GLUT1-deficiency syndrome due to a SLC2A1 mutation.",
+            "authors": [
+              "Bawazir Waleed M",
+              "Gevers Evelien F",
+              "Flatt Joanna F",
+              "Ang Ai Leen",
+              "Jacobs Benjamin"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2012",
+            "abstract": "GLUT1 (glucose transporter 1) deficiency syndrome is a well-known presentation in pediatric practice. Very rare mutations not only disable carbohydrate transport but also cause the red cell membrane to be constitutively permeant to monovalent cations, namely sodium and potassium.",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23958592",
+            "title": "Metabolic encephalopathy in beta-ketothiolase deficiency: the first report from India.",
+            "authors": [
+              "Akella Radha Rama Devi",
+              "Aoyama Yuka",
+              "Mori Chihiro",
+              "Lingappa Lokesh",
+              "Cariappa Rohit"
+            ],
+            "journal": "Brain & development",
+            "year": "2014",
+            "abstract": "Beta-ketothiolase deficiency, or mitochondrial acetoacetyl-CoA thiolase (T2) deficiency, is a rare autosomal recessive disorder affecting isoleucine catabolism and ketone body metabolism. A patient from South India presented with acute ketoacidosis at 11 months of age. During the acute crisis the C5OH (2-methyl-3-hydroxybutyryl) carnitine and C5:1 (tiglyl) carnitine were elevated and large amounts of 2-methyl-3-hydroxybutyrate, tiglylglycine, and 2-methylacetoacetate were excreted. Brain CT show",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20046049",
+            "title": "Different clinical presentation in siblings with mitochondrial acetoacetyl-CoA thiolase deficiency and identification of two novel mutations.",
+            "authors": [
+              "Thümmler Susanne",
+              "Dupont Didier",
+              "Acquaviva Cécile",
+              "Fukao Toshiyuki",
+              "de Ricaud Dominique"
+            ],
+            "journal": "The Tohoku journal of experimental medicine",
+            "year": "2010",
+            "abstract": "Mitochondrial acetoacetyl-CoA thiolase (T2) catalyzes 2-methylacetoacetyl-CoA cleavage into acetyl-CoA and propionyl-CoA in isoleucine catabolism and interconversion between acetyl-CoA and acetoacetyl-CoA in ketone body metabolism. T2 deficiency is a rare metabolic disease of autosomal recessive inheritance. The disorder is characterized by intermittent ketoacidotic episodes. The onset of clinical symptoms is in the infant or toddler period. The frequency of episodes declines with age, stopping ",
+            "classification": {
+              "study_type": "Case series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無治療性機轉聯繫。現有文獻圍繞Isoleucine分解代謝酶缺陷疾病（β-酮硫解酶缺乏症/線粒體乙醯乙酸CoA硫解酶缺乏症），這些疾病在急性代謝危象期可伴發電解質異常，但此機轉為'疾病導致電解質紊亂'而非'Isoleucine治療鉀缺乏'。Isoleucine本身不具備調節腎臟鉀排泄或細胞內外鉀轉移的藥理機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "unclassified intestinal pseudoobstruction",
+      "txgnn": {
+        "score": 0.952386200428009,
+        "rank": 26156
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與胃輕癱共享部分病生理機轉（腸道動力障礙），但更為嚴重且機制更複雜（涉及腸神經系統、Cajal間質細胞、腸平滑肌三層功能）。BCAAs刺激腸道內分泌細胞的機轉理論上可能影響腸道運動協調，但未分類型腸假性梗阻的病因異質性高，Isoleucine的潛在作用更難確定。建議與胃輕癱方向聯合探索，優先級低於胃輕癱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "gastroparesis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "obsolete vitamin D deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "congenital prothrombin deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "dyspepsia"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "renal tubular acidosis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "sclerosing cholangitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "familial visceral myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "familial visceral myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "familial visceral myopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "hypophosphatemic rickets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "potassium deficiency disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isoleucine",
+        "disease": "unclassified intestinal pseudoobstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

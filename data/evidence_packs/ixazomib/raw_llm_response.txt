@@ -1,0 +1,209 @@
+## Ixazomib 藥物再利用證據分析
+
+> ⚠️ **背景資訊補充**：Ixazomib（Ninlaro®）為口服硼酸酯類蛋白酶體抑制劑（20S proteasome inhibitor，β5 subunit），FDA 於 2015 年批准用於復發/難治多發性骨髓瘤（ixazomib + lenalidomide + dexamethasone）。本資料集標記「未上市」應指特定國家/地區市場狀態。
+
+---
+
+```json
+{
+  "drug": "Ixazomib",
+  "drugbank_id": "DB09570",
+  "analysis_date": "2026-04-04",
+  "moa_supplement": "口服蛋白酶體抑制劑（20S proteasome β5 subunit），誘導泛素化蛋白堆積，觸發漿細胞凋亡。可調控 NF-κB、UPR（unfolded protein response）及細胞凋亡通路。",
+  "indications": [
+    {
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn_score": 0.9617,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "漿細胞骨髓瘤（含惰性型）高度依賴蛋白酶體降解免疫球蛋白輕鏈，蛋白酶體抑制直接誘導漿細胞凋亡。惰性型（smoldering MM）與活躍型 MM 共享相同細胞起源，Ixazomib 在 TOURMALINE-MM 系列 Phase 3 試驗中已驗證 MM 療效，insolent/smoldering 亞型目前有 Phase 2 探索性試驗及多個真實世界研究支持。",
+      "evidence_summary": "強機轉連結 + 直接真實世界資料，缺乏惰性亞型專屬 Phase 3 RCT，降一級為 L2。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38558233",
+          "title": "Real-world retrospective-prospective analysis of ixazomib + lenalidomide regimens (2024)",
+          "study_type": "Real-world retrospective-prospective cohort",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "直接評估 ixazomib 組合療法於 MM（含惰性亞型）療效與安全性，為近年真實世界最直接證據，相關性極高。"
+        },
+        {
+          "pmid": "32193630",
+          "title": "Ixazomib-based regimens for relapsed/refractory MM: real-world data (2020)",
+          "study_type": "Real-world retrospective cohort",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "評估真實世界 ixazomib 用於復發/難治 MM，與惰性型具高度間接相關性，支持 L2 證據定級。"
+        }
+      ],
+      "guardrails": [
+        "需監測惰性型轉化為活躍 MM 之時機，避免過早或過晚介入",
+        "蛋白酶體抑制劑常見周邊神經病變（PN），需定期評估",
+        "與 lenalidomide + dexamethasone 三合一方案需考慮血栓預防"
+      ]
+    },
+    {
+      "disease_name": "melanoma",
+      "txgnn_score": 0.7289,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "蛋白酶體抑制可增強 IFN-α 的抗黑色素瘤效應（NF-κB 抑制 + 促凋亡通路活化）；ZANF2a 基因調控漿細胞存活可能與黑色素瘤細胞存活機轉有重疊。然而黑色素瘤非蛋白酶體依賴性腫瘤，機轉連結屬間接性。",
+      "evidence_summary": "兩篇文獻均為細胞/分子機轉研究（preclinical/in vitro），無臨床試驗數據，定為 L4。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27783987",
+          "title": "MLN2238 (ixazomib) + IFN-α combination in melanoma (2016)",
+          "study_type": "Preclinical (in vitro / cell line study)",
+          "tier": "3",
+          "relevance_grade": "B",
+          "reasoning": "直接測試 ixazomib 於黑色素瘤細胞株，顯示與 IFN-α 協同增效，為臨床假說提供生物學基礎，但僅限體外研究。"
+        },
+        {
+          "pmid": "31540997",
+          "title": "ZAND2a gene as regulator of cell survival in human melanoma (2019)",
+          "study_type": "Preclinical / mechanistic study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "探討 ubiquitin-proteasome 相關基因在黑色素瘤中的角色，間接支持蛋白酶體通路的相關性，但與 ixazomib 直接療效連結較弱。"
+        }
+      ],
+      "research_question": "Ixazomib 聯合 IFN-α 或免疫檢查點抑制劑（如 PD-1 inhibitor）於黑色素瘤的體內（in vivo）及 Phase 1 臨床安全性探索。"
+    },
+    {
+      "disease_name": "CMM7",
+      "txgnn_score": 0.8196,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CMM7（Cutaneous Malignant Melanoma type 7）為黑色素瘤遺傳亞型，可間接承繼一般黑色素瘤的蛋白酶體通路推論，但無任何亞型專屬證據。",
+      "evidence_summary": "無臨床試驗、無文獻，僅 TxGNN 預測評分，定為 L5。TxGNN 高分可能源自黑色素瘤家族節點的圖譜傳播。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "建議優先在一般黑色素瘤累積 L3 以上證據後，再評估特定遺傳亞型。"
+    },
+    {
+      "disease_name": "pediatric leptomeningeal melanoma",
+      "txgnn_score": 0.8085,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "兒童軟腦膜黑色素瘤為極罕見 CNS 惡性腫瘤，無蛋白酶體抑制劑相關證據。CNS 滲透性（BBB）為 ixazomib 的已知限制。",
+      "evidence_summary": "無任何臨床或實驗室證據，L5。兒科族群安全性數據不足，且 CNS 滲透問題未解。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "額外風險因子：兒科族群 + CNS 原發腫瘤，Hold 決策明確。"
+    },
+    {
+      "disease_name": "vulvar melanoma (disease)",
+      "txgnn_score": 0.8035,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰黑色素瘤為黏膜黑色素瘤亞型，生物學特性與皮膚黑色素瘤不同（BRAF 突變率較低，c-KIT 突變較常見），蛋白酶體抑制路徑連結薄弱。",
+      "evidence_summary": "無臨床試驗、無文獻，L5。黏膜黑色素瘤生物學差異進一步降低可轉移性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "epithelioid cell uveal melanoma",
+      "txgnn_score": 0.7961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "葡萄膜黑色素瘤（眼內）為獨特亞型，常見 GNAQ/GNA11 突變，與皮膚黑色素瘤分子機轉顯著不同，蛋白酶體抑制相關性更低。",
+      "evidence_summary": "無臨床試驗、無文獻，L5。分子機轉差異使外推性極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.7387,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經母細胞瘤/神經節神經母細胞瘤為兒科交感神經系統腫瘤，蛋白酶體抑制劑（bortezomib）在神經母細胞瘤有部分探索性研究，但 ixazomib 無特定數據。機轉連結為間接推論。",
+      "evidence_summary": "無臨床試驗、無文獻，L5。TxGNN 預測可能來自神經嵴起源腫瘤的知識圖譜關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "note": "若考慮兒科神經母細胞瘤方向，應先查閱 bortezomib（同類機轉）在此適應症的證據基礎。"
+    },
+    {
+      "disease_name": "retroperitoneal neoplasm",
+      "txgnn_score": 0.7099,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腹膜後腫瘤為解剖位置定義（非病理/分子定義），涵蓋多種腫瘤類型（肉瘤、淋巴瘤、神經腫瘤等），無法建立統一機轉連結。",
+      "evidence_summary": "無臨床試驗、無文獻，L5。適應症定義過於異質，不適合作為藥物再利用目標。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.6859,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為罕見遺傳綜合症（VATER/VACTERL 相關），為先天發育異常而非增殖性疾病，蛋白酶體抑制劑機轉與此疾病無已知關聯。TxGNN 低分（0.686）且完全無證據。",
+      "evidence_summary": "無臨床試驗、無文獻，L5。疾病性質（先天發育異常）與藥物機轉（蛋白酶體抑制）缺乏生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 疾病性質與機轉完全不匹配，建議排除此預測結果"
+    },
+    {
+      "disease_name": "intellectual disability, autosomal dominant 55, with seizures",
+      "txgnn_score": 0.6199,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "常染色體顯性智能障礙合併癲癇為神經發育遺傳疾病，與蛋白酶體抑制劑的腫瘤適應症機轉完全不同。雖蛋白酶體系統在神經元蛋白穩態有作用，但治療性介入缺乏任何基礎。",
+      "evidence_summary": "無臨床試驗、無文獻，L5（最低分）。神經發育遺傳病與細胞毒性蛋白酶體抑制劑不相容。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "⚠️ 疾病性質（神經發育遺傳病）與細胞毒性藥物機轉嚴重不匹配，強烈建議排除"
+    }
+  ]
+}
+```
+
+---
+
+## 📊 決策矩陣總覽
+
+| 疾病 | TxGNN 分 | 證據等級 | 決策階段 | 建議 |
+|------|----------|----------|----------|------|
+| indolent plasma cell myeloma | 0.962 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| melanoma | 0.729 | L4 | S1 | 🔬 Research Question |
+| CMM7 | 0.820 | L5 | S0 | ⏸ Hold |
+| pediatric leptomeningeal melanoma | 0.808 | L5 | S0 | ⏸ Hold |
+| vulvar melanoma | 0.804 | L5 | S0 | ⏸ Hold |
+| epithelioid cell uveal melanoma | 0.796 | L5 | S0 | ⏸ Hold |
+| ganglioneuroblastoma | 0.739 | L5 | S0 | ⏸ Hold |
+| retroperitoneal neoplasm | 0.710 | L5 | S0 | ⏸ Hold |
+| vertebral anomalies + endocrine/T-cell dysfunction | 0.686 | L5 | S0 | ❌ Hold（機轉不符） |
+| intellectual disability AD55 + seizures | 0.620 | L5 | S0 | ❌ Hold（機轉不符） |
+
+---
+
+## 🔑 關鍵發現
+
+### 1. TxGNN 預測偏差警示
+- **黑色素瘤家族群聚現象**：CMM7、leptomeningeal、vulvar、uveal 等 4 個黑色素瘤亞型均獲高分（0.796–0.820），但實為知識圖譜中「黑色素瘤」節點的分數傳播，而非各亞型獨立證據
+- **非腫瘤疾病異常入榜**：vertebral anomalies 及 intellectual disability 生物學合理性極低，建議在後處理管道加入「疾病類型過濾器」
+
+### 2. 唯一可行路徑
+- **indolent plasma cell myeloma** 是唯一達 S2 的適應症，強機轉支持 + 真實世界數據，具推進價值
+- 建議下一步：搜尋 TOURMALINE-MM5 等 smoldering MM Phase 3 試驗數據以確認是否可升為 L1
+
+### 3. 研究優先順序
+```
+優先級 1: indolent plasma cell myeloma (L2 → 驗證是否有 Ph3 RCT → L1)
+優先級 2: melanoma (L4 → 需 Phase 1 in vivo 數據 → L3)
+其餘: 維持 Hold，待整體黑色素瘤證據成熟後再評估
+```
+
+> ⚠️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有藥物再利用候選需經嚴格臨床驗證方可應用於患者。

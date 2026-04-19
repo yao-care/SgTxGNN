@@ -1,0 +1,2515 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01598-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Imipenem",
+    "drugbank_id": "DB01598",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "diffuse scleroderma",
+      "txgnn": {
+        "score": 0.99992573261261,
+        "rank": 260
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "瀰漫性硬皮症為自體免疫纖維化疾病，Imipenem 為抗菌藥物，兩者無直接機轉關聯。雖有假說認為腸道微生物失調可能參與硬皮症病理，但目前無任何臨床或前臨床資料支持碳青黴烯類對此疾病有治療效益。TxGNN 高分（0.9999）可能為圖譜中的偽關聯（spurious association）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "paratyphoid fever",
+      "txgnn": {
+        "score": 0.9999058246612548,
+        "rank": 327
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35891850",
+            "title": "Extensively Drug-Resistant Typhoidal Salmonellae: Are These Bugs Swarming Into Suburban and Rural Areas of Pakistan?",
+            "authors": [
+              "Ashraf Hussain Muhammad",
+              "Ahmed Imran",
+              "Akram Sumera",
+              "Khan Muhammad A",
+              "Ali Shamshad"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "Background Typhoid is a serious public health concern with increasing antibiotic resistance. Early suspicion and choice of susceptible antibiotics are key to avoiding the morbidity and mortality associated with this disease. We have carried out this study to assess the antibiotic sensitivity of typhoidal salmonellae in Kharian, Pakistan. Materials and methods This cross-sectional study was carried out at Combined Military Hospital, Kharian, Pakistan, from January 2019 to September 2020. Blood cu",
+            "classification": {
+              "study_type": "Epidemiological Surveillance",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33042671",
+            "title": "Antibiotic Susceptibility Patterns of Salmonella Typhi and Salmonella Paratyphi in a Tertiary Care Hospital in Islamabad.",
+            "authors": [
+              "Umair Masab",
+              "Siddiqui Shajee Ahmad"
+            ],
+            "journal": "Cureus",
+            "year": "2020",
+            "abstract": "Background Enteric fever is a serious public health problem in Pakistan. Growing problem of drug-resistant Salmonella strains and outbreak of ceftriaxone-resistant Salmonella typhi in Hyderabad during 2016-2017 is concerning. This study aimed to determine the antibiogram profile of Salmonella typhi and Salmonella paratyphi isolated from blood cultures of patients presenting in Pakistan Institute of Medical Sciences (PIMS), Islamabad. Materials and methods A retrospective cross-sectional study co",
+            "classification": {
+              "study_type": "Retrospective Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22204180",
+            "title": "In vitro susceptibility of typhoidal Salmonellae against newer antimicrobial agents: a search for alternate treatment options.",
+            "authors": [
+              "Qaiser Saba",
+              "Irfan Seema",
+              "Khan Erum",
+              "Ahsan Tanwir",
+              "Zafar Afia"
+            ],
+            "journal": "JPMA. The Journal of the Pakistan Medical Association",
+            "year": "2011",
+            "abstract": "To determine the minimum inhibitory concentrations (MICs) of ceftriaxone, azithromycin, pefloxacin, cefipime and imipenem for Salmonella Typhi (S. Typhi) and Paratyphi.",
+            "classification": {
+              "study_type": "In vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9459410",
+            "title": "Quinolone-resistant Salmonella paratyphi B meningitis in a newborn: a case report.",
+            "authors": [
+              "Bhutta Z A"
+            ],
+            "journal": "The Journal of infection",
+            "year": "1997",
+            "abstract": "While there are concerns about the consequences of widespread use of quinolones, there are few reports of quinolone-resistant strains of Salmonella typhi or Salmonella paratyphi from the Indian subcontinent. We present a case report of a newborn with meningitis due to a quinolone-resistant strain of S. paratyphi B presenting to the Aga Khan University Hospital (AKUH).",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imipenem 對 Salmonella paratyphi（A、B、C 型）具有體外殺菌活性，透過廣泛結合 PBP1a、PBP1b、PBP2 達成細胞壁合成阻斷。對多重抗藥性（MDR）或喹諾酮抗藥性菌株具救援治療潛力，尤其在 A 型副傷寒流行地區（南亞、東南亞）。然而，碳青黴烯類非副傷寒現行治療指引一線藥物。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "salmonellosis",
+      "txgnn": {
+        "score": 0.9998944997787476,
+        "rank": 356
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38984026",
+            "title": "Analysis of foodborne salmonellosis serotypes and drug resistance in children in Chenzhou City of China from 2017 through 2022.",
+            "authors": [
+              "Zhou Yong",
+              "Liao Bin",
+              "Fang Huilong",
+              "Zeng Huiwen",
+              "Chen Cuimei"
+            ],
+            "journal": "Translational pediatrics",
+            "year": "2024",
+            "abstract": "Salmonella is a significant pathogens of foodborne illness. The widespread use of antibiotics in clinical practice and animal husbandry has resulted in increasing drug resistance of Salmonella. In this study, we examined the serotype distribution and drug resistance of Salmonella in pediatric patients with diarrhea in Chenzhou City to provide a basis for the scientific control and rational use of antibiotics in clinical practice in relation to Salmonellosis.",
+            "classification": {
+              "study_type": "Retrospective Epidemiological",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2945941",
+            "title": "[Fundamental and clinical evaluation of imipenem/cilastatin sodium in the field of pediatrics].",
+            "authors": [
+              "Haruta T",
+              "Okura K E",
+              "Kuroki S",
+              "Yamamoto H",
+              "Yamaoka K"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "A combination drug of imipenem (MK-0787), a new carbapenem antibiotic, and cilastatin sodium (MK-0791) at a ratio of 1:1 was used to treat infections in 8 children, and the concentrations of MK-0787 were determined in plasma, urine and pus of 1 patient and in cerebrospinal fluid of another patient. Eight patients, aged 2 months to 12 years (males: 3, females: 5), were treated with MK-0787/MK-0791. They consisted of 3 with urinary tract infections (causative organisms: E. coli, K. oxytoca plus E.",
+            "classification": {
+              "study_type": "Clinical Evaluation (Pediatric)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3469191",
+            "title": "Evaluation of imipenem/cilastatin against nosocomial infections and multiresistant pathogens.",
+            "authors": [
+              "Giamarellou H",
+              "Sfikakis P",
+              "Voutsinas D",
+              "Galanakis N",
+              "Daikos G K"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1986",
+            "abstract": "Thirty-five patients suffering from soft tissue infections (12), upper UTIs (6), bronchopneumonia (6), septicaemia (2), chronic osteomyelitis (2), intra-abdominal abscess (2), liver abscess (1), lung abscess (1), acute cholangitis (1), thoracic empyema (1) and chronic prostatitis (1) were given imipenem/cilastatin for 6-21 days. In 22 patients several aggravating factors coexisted, while infection in 16 patients was polymicrobial. The following pathogens were implicated: Pseudomonas aeruginosa (",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12917244",
+            "title": "Activity of faropenem and imipenem for ciprofloxacin-resistant bacteria.",
+            "authors": [
+              "Piddock Laura J V",
+              "Johnson M M",
+              "Webber Mark A"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2003",
+            "abstract": "To determine whether an association exists between ciprofloxacin and faropenem resistance in bacteria including multiply drug-resistant isolates.",
+            "classification": {
+              "study_type": "In vitro Comparative Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41277208",
+            "title": "Prevalence and Antimicrobial Resistance of Nontyphoidal Salmonellosis in a Tertiary Care Hospital in South India.",
+            "authors": [
+              "Srividhya M",
+              "M Jasmine Fathima",
+              "As Sathesini Priya",
+              "Ganesan Vithiya",
+              "Arunagiri Ramesh"
+            ],
+            "journal": "The Journal of the Association of Physicians of India",
+            "year": "2025",
+            "abstract": "Nontyphoidal Salmonella (NTS) is a significant cause of food- and water-transmitted illness in the world, with the burden amplified in low-socioeconomic countries such as India. While most infections present as self-limiting gastroenteritis, vulnerable populations may develop invasive nontyphoidal salmonellosis (iNTS). This study aimed to determine the prevalence, clinical spectrum, serotype distribution, and antimicrobial resistance patterns of NTS isolates in a tertiary care hospital.",
+            "classification": {
+              "study_type": "Cross-sectional",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14659660",
+            "title": "Activity of combinations of ceftazidime, imipenem and pefloxacin against Staphylococcus aureus, Escherichia coli and Pseudomonas aeruginosa.",
+            "authors": [
+              "El-Sukhon Saeb Nazmi",
+              "Faiza Boukhatem Zineb"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2003",
+            "abstract": "The chequerboard technique was used to look for synergistic combinations of ceftazidime, imipenem and pefloxacin. The synergistic combinations were used in vivo in mice experimentally infected with Escherichia coli, Salmonella typhimurium and Pseudomonas aeruginosa. In vitro ceftazidime/imipenem, ceftazidime/pefloxacin and pefloxacin/imipenem combinations showed synergistic effects against Staphylococcus aureus and S. typhimurium and additive effects against P. aeruginosa. Only the ceftazidime/p",
+            "classification": {
+              "study_type": "In vitro Combination Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9559775",
+            "title": "Antibiotic-induced lipopolysaccharide (LPS) release from Salmonella typhi: delay between killing by ceftazidime and imipenem and release of LPS.",
+            "authors": [
+              "van Langevelde P",
+              "Kwappenberg K M",
+              "Groeneveld P H",
+              "Mattie H",
+              "van Dissel J T"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1998",
+            "abstract": "It has been suggested that the antibiotic-induced release of lipopolysaccharide (LPS) is an important cause of the development of septic shock in patients treated for severe infections caused by gram-negative bacteria. Beta-lactam antibiotics change the integrity of the bacterial cell envelope by binding to penicillin-binding proteins (PBP) in the membrane and thus may affect the amount of LPS that is released and the kinetics of that release. In this respect, ceftazidime at intermediate concent",
+            "classification": {
+              "study_type": "Mechanistic Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33248418",
+            "title": "Characterization of a novel class 1 integron InSW39 and a novel transposon Tn5393k identified in an imipenem-nonsusceptible Salmonella Typhimurium strain in Sichuan, China.",
+            "authors": [
+              "Yao Liu",
+              "Ding Yinhuan",
+              "Ding Manlin",
+              "Yan Xiangjin",
+              "Zhang Feiyang"
+            ],
+            "journal": "Diagnostic microbiology and infectious disease",
+            "year": "2021",
+            "abstract": "This study aimed to characterize molecular mechanism of 3 Salmonella enterica strains and novel mobile genetic elements identified in them. The strains, designated SW1, SW39, and SW109084, were obtained from diarrhea patients. The results of susceptibility testing showed SW39 was nonsusceptible to imipenem and cefotaxime. Whole genome sequencing was performed on Illumina HiSeq platform. Multilocus-sequence typing revealed SW1 belonged to ST2529 which was first confirmed in S. enterica, SW109084 ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32013798",
+            "title": "Prevalence of fluoroquinolone-resistant Salmonella serotypes in Iran: a meta-analysis.",
+            "authors": [
+              "Khademi Farzad",
+              "Vaez Hamid",
+              "Ghanbari Fahimeh",
+              "Arzanlou Mohsen",
+              "Mohammadshahi Jafar"
+            ],
+            "journal": "Pathogens and global health",
+            "year": "2020",
+            "abstract": "The present study was conducted to investigate the antimicrobial susceptibility profiles of Salmonella serotypes, especially fluoroquinolone-resistant strains, recovered from clinical samples in Iran. A full electronic search using related keywords was conducted in Persian and English languages in ISI Web of Knowledge, PubMed, Scopus, Google Scholar and the Scientific Information Database (SID) search engines to find papers published between 1983 and 1 July 2019. According to the inclusion and e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36278497",
+            "title": "8-Amino-7-(aryl/hetaryl)fluoroquinolones. An emerging set of synthetic antibacterial agents.",
+            "authors": [
+              "Al-Akhras Ala'a A",
+              "Zahra Jalal A",
+              "El-Abadelah Mustafa M",
+              "Abu-Niaaj Lubna F",
+              "Khanfar Monther A"
+            ],
+            "journal": "Zeitschrift fur Naturforschung. C, Journal of biosciences",
+            "year": "2023",
+            "abstract": "This study reports the synthesis of seven new 8-amino-7-(aryl/hetaryl)fluoroquinolones and their antibacterial activity against 10 bacteria associated with microbial infections and foodborne illnesses. These fluoroquinolones are prepared via the reactions of selected aryl(hetaryl)boronic acids with ethyl-7chloro-6-fluoro-8-nitroquinolone-3-carboxylate, under Suzuki-Miyaura cross-coupling conditions. Nitro group reduction of the latter resulted in the corresponding 8-aminoquinolone-3-esters which",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15707075",
+            "title": "Rhabdomyolysis and Salmonella typhi infection: case report and review of the literature.",
+            "authors": [
+              "Dakdouki Ghenwa K",
+              "Bizri Abdul Rahman N"
+            ],
+            "journal": "Le Journal medical libanais. The Lebanese medical journal",
+            "year": "2003",
+            "abstract": "Typhoid fever is endemic in Lebanon. Usual presentation includes fever, headache, abdominal pain and constipation or diarrhea. Extra-intestinal manifestations are not uncommon and involve variety of organ systems. Rhabdomyolysis is rare and has been reported in various Salmonella infections. We present a case of rhabdomyolysis and renal failure that was successfully treated with imipenem/cilastatin and hemodialysis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40092845",
+            "title": "Temporal Shifts in Etiological Agents and Trends in Antimicrobial Resistance of Bloodstream Infection in Southwest China from 2016 to 2023.",
+            "authors": [
+              "Long Shanshan",
+              "Zhong Min",
+              "Huang Xiangning",
+              "Zhang Jie",
+              "Liu Xin"
+            ],
+            "journal": "Infection and drug resistance",
+            "year": "2025",
+            "abstract": "The purpose of this study was to assess the frequency distribution of bacterial pathogens causing bloodstream infections (BSIs) as well as the characteristics of antibiotic susceptibility and resistance to gain a deeper understanding of the drug resistance situation in the southwest China.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464783",
+            "title": "[Laboratory and clinical studies of imipenem/cilastatin sodium in the pediatric field].",
+            "authors": [
+              "Nishimura T",
+              "Tabuki K",
+              "Takashima T",
+              "Takagi M"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Laboratory and clinical studies on imipenem/cilastatin sodium were carried out and the obtained results were summarized below. The antibacterial activity of imipenem against clinical isolates of S. aureus, E. coli, K. pneumoniae, Salmonella sp., S. marcescens and P. aeruginosa was measured by the plate dilution method with an inoculum size of 10(6) cells/ml. The growth of S. aureus was inhibited at an imipenem concentration of 0.025 microgram/ml or lower. The susceptibility distribution of E. co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25351537",
+            "title": "Prevalence of drug resistance and virulence features in Salmonella spp. isolated from foods associated or not with salmonellosis in Brazil.",
+            "authors": [
+              "Rowlands Ruth Estela Gravato",
+              "Ristori Christiane Asturiano",
+              "Ikuno Alice A",
+              "Barbosa Maria Luisa",
+              "Jakabi Miyoko"
+            ],
+            "journal": "Revista do Instituto de Medicina Tropical de Sao Paulo",
+            "year": "2014",
+            "abstract": "Salmonella is the most common etiological agent of cases and outbreaks of foodborne diarrheal illnesses. The emergence and spread of Salmonella spp., which has become multi-drug resistant and potentially more pathogenic, have increased the concern with this pathogen. In this study, 237 Salmonella spp., associated or not with foodborne salmonellosis in Brazil, belonging mainly to serotype Enteritidis, were tested for antimicrobial susceptibility and the presence of the virulence genes spvC, invA,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33147736",
+            "title": "Isolation and Characterization of Multidrug-Resistant Escherichia coli and Salmonella spp. from Healthy and Diseased Turkeys.",
+            "authors": [
+              "Tawyabur Md",
+              "Islam Md Saiful",
+              "Sobur Md Abdus",
+              "Hossain Md Jannat",
+              "Mahmud Md Muket"
+            ],
+            "journal": "Antibiotics (Basel, Switzerland)",
+            "year": "2020",
+            "abstract": "Diseases caused by Escherichia coli (E. coli) and Salmonella spp. can negatively impact turkey farming. The aim of this study was to isolate and characterize multidrug-resistant (MDR) E. coli and Salmonella spp. in healthy and diseased turkeys. A total of 30 fecal samples from healthy turkeys and 25 intestinal samples from diseased turkeys that died of enteritis were collected. Bacterial isolation and identification were based on biochemical properties and polymerase chain reaction (PCR). Antibi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35966239",
+            "title": "Clinical Characteristics and Drug Resistance Analysis of 90 Cases of Children with Salmonella Enteritis.",
+            "authors": [
+              "Wang Yang",
+              "Zhang Wei"
+            ],
+            "journal": "Computational and mathematical methods in medicine",
+            "year": "2022",
+            "abstract": "To summarize the clinical characteristics and drug sensitivity analysis of children with Salmonella enteritis in our hospital, explore the characteristics and drug resistance of Salmonella infection, and guide the rational clinical use of drugs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3464779",
+            "title": "[Fundamental and clinical studies on imipenem/cilastatin sodium in pediatrics].",
+            "authors": [
+              "Shiro H",
+              "Kusumoto Y",
+              "Oikawa T",
+              "Osano M"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1986",
+            "abstract": "Fundamental and clinical studies were carried out on imipenem/cilastatin sodium (MK-0787/MK-0791) in pediatric patients. The following results were obtained. A total of 238 clinical isolates stocked by our department was employed to determine the minimum inhibitory concentrations (MICs) of MK-0787 against various species of bacteria. The MK-0787 showed strong antibacterial activities against E. coli, Salmonella, Klebsiella, Proteus, Serratia, E. faecalis and S. epidermidis. Somewhat weaker activ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37424793",
+            "title": "Bacterial distribution and drug resistance in blood samples of children in Jiangxi Region, 2017-2021.",
+            "authors": [
+              "Zhou Yan",
+              "Zhou Shuping",
+              "Peng Jun",
+              "Min Liang",
+              "Chen Qiang"
+            ],
+            "journal": "Frontiers in cellular and infection microbiology",
+            "year": "2023",
+            "abstract": "This study aims to investigate the distribution and drug resistance of bacteria in clinical blood culture specimens from children in Jiangxi province in recent years and to provide a foundation for preventing and treating bloodstream infection diseases in children.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37614275",
+            "title": "Risk Factors and Associated Outcomes of Virulence Genes eae, entB, and pipD Carriage in Escherichia coli, Klebsiella pneumoniae, and Salmonella spp. From HIV-1 and HIV-Negative Gastroenteritis Patients in the Dschang Regional Hospital Annex.",
+            "authors": [
+              "Djomgoue Ngangoum G",
+              "Fonbah Leinyuy J",
+              "Mbulli Ali I",
+              "Ousenu Karimo",
+              "Bonglavnyuy Tume C"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Background Enterobacteriaceae is one of the main families of gram-negative bacilli responsible for serious infections in humans. The severity of infection by these bacteria is a product of many factors, including virulence properties and antimicrobial resistance. This severity may be further intensified if there is an association between these factors and a depressed immune system, such as in HIV patients. This study aimed to determine the distribution of representative virulence genes among key",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31311694",
+            "title": "Antimicrobial resistance in South Korea: A report from the Korean global antimicrobial resistance surveillance system (Kor-GLASS) for 2017.",
+            "authors": [
+              "Liu Changseung",
+              "Yoon Eun-Jeong",
+              "Kim Dokyun",
+              "Shin Jong Hee",
+              "Shin Jeong Hwan"
+            ],
+            "journal": "Journal of infection and chemotherapy : official journal of the Japan Society of Chemotherapy",
+            "year": "2019",
+            "abstract": "At the end of 2015, a global action plan on antimicrobial resistance (AMR) was proposed by the World Health Organization, and the Global AMR Surveillance System (GLASS) was subsequently initiated. The Centers for Disease Control and Prevention of South Korea established a customized AMR surveillance system for South Korea, called Kor-GLASS, in early 2016. A pilot phase of Kor-GLASS was operated from May to December 2016 with six sentinel hospitals, and phase I of Kor-GLASS started in January 201",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imipenem 對廣泛沙門氏菌血清型（含非傷寒型 NTS）具高效殺菌活性，MIC 值普遍低（≤1 μg/mL）。對喹諾酮、第三代頭孢菌素抗藥性菌株具重要救援角色。1986 年已有小兒科臨床評估資料，1998 年有 LPS 釋放機轉研究。侵入性 NTS 菌血症（尤其免疫低下者）為最明確的臨床使用場景。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "sinusitis",
+      "txgnn": {
+        "score": 0.9998598098754884,
+        "rank": 481
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "12953957",
+            "title": "Bacteraemia and sinusitis due to Flavimonas oryzihabitans infection.",
+            "authors": [
+              "Lejbkowicz Flavio",
+              "Belavsky Larissa",
+              "Kudinsky Raya",
+              "Gery Raphael"
+            ],
+            "journal": "Scandinavian journal of infectious diseases",
+            "year": "2003",
+            "abstract": "Flavimonas oryzihabitans is rarely reported as a pathogen in human infections and is related to opportunistic infection. Previously reported cases of infections caused by this bacterium were nosocomially acquired, including bacteraemia in critically ill patients, catheter-related infection, and peritonitis in patients undergoing continuous ambulatory peritoneal dialysis. Three cases of F. oryzihabitans infection are presented, 1 of which was sinusitis and 2 were nosocomially acquired bacteraemia",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26471040",
+            "title": "Nocardia nova sphenoid sinusitis and infratemporal fossa abscess.",
+            "authors": [
+              "Giordano A",
+              "Cohen-Salmon M",
+              "Joly B",
+              "Maffiolo C"
+            ],
+            "journal": "European annals of otorhinolaryngology, head and neck diseases",
+            "year": "2016",
+            "abstract": "Nocardia sinusitis is exceptional, as a Medline search revealed only one published case. The authors report a case of sphenoid sinusitis complicated by infratemporal fossa abscess, which raised several diagnostic problems.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3210301",
+            "title": "[Pharmacokinetic and clinical studies on imipenem/cilastatin sodium in neonates and premature infants].",
+            "authors": [
+              "Toyonaga Y",
+              "Sugita M",
+              "Hori M",
+              "Joh K"
+            ],
+            "journal": "The Japanese journal of antibiotics",
+            "year": "1988",
+            "abstract": "Imipenem/cilastatin sodium (IPM/CS) was administered in a dose of 10 mg/10 mg/kg or 20 mg/20 mg/kg by a 1-hour intravenous drip infusion to 19 mature and premature neonates with ages from 1 to 12 days with various bacterial infections, and plasma concentrations and urinary recovery rates in these subjects were measured. Because of the small number of patients recruited, neonates were not divided into mature and premature groups, but into 3 groups based on their day-ages: 0-3 days, 4-7 days and 8",
+            "classification": {
+              "study_type": "Pharmacokinetic/Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14664657",
+            "title": "Levofloxacin: a review of its use in the treatment of bacterial infections in the United States.",
+            "authors": [
+              "Croom Katherine F",
+              "Goa Karen L"
+            ],
+            "journal": "Drugs",
+            "year": "2003",
+            "abstract": "Levofloxacin (Levaquin) is a fluoroquinolone antibacterial agent with a broad spectrum of activity against Gram-positive and Gram-negative bacteria and atypical respiratory pathogens. It is active against both penicillin-susceptible and penicillin-resistant Streptococcus pneumoniae. The prevalence of S. pneumoniae resistance to levofloxacin is <1% overall in the US.A number of randomised comparative trials in the US have demonstrated the efficacy of levofloxacin in the treatment of infections of",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16200963",
+            "title": "[Bacteriological study of chronic sinusitis].",
+            "authors": [
+              "Zuo Ke-jun",
+              "Shi Jian-bo",
+              "Fan Yun-ping",
+              "Xu Geng"
+            ],
+            "journal": "Zhonghua er bi yan hou tou jing wai ke za zhi = Chinese journal of otorhinolaryngology head and neck surgery",
+            "year": "2005",
+            "abstract": "To explore the characteristics of bacteria isolated from patients with chronic sinusitis (CR) and antibiotic-resistance.",
+            "classification": {
+              "study_type": "Bacteriological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22682184",
+            "title": "Actinomycetoma and advances in its treatment.",
+            "authors": [
+              "Welsh Oliverio",
+              "Vera-Cabrera Lucio",
+              "Welsh Esperanza",
+              "Salinas Mario Cesar"
+            ],
+            "journal": "Clinics in dermatology",
+            "year": "2012",
+            "abstract": "Actinomycetoma is a chronic subcutaneous infection caused by aerobic branching actinomycetes. Its clinical features are firm tumefaction of the affected site and the presence of abscesses, nodules, and sinuses that drain a seropurulent exudate containing filamenting granules. The disease is caused by inoculation of the infectious agent through minor trauma in susceptible individuals. Nocardia brasiliensis, Actinomadura madurae, and Streptomyces somaliensis are among the most frequent agents in t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17402834",
+            "title": "Faropenem: review of a new oral penem.",
+            "authors": [
+              "Schurek Kristen N",
+              "Wiebe Ryan",
+              "Karlowsky James A",
+              "Rubinstein Ethan",
+              "Hoban Daryl J"
+            ],
+            "journal": "Expert review of anti-infective therapy",
+            "year": "2007",
+            "abstract": "Faropenem medoxomil is a new orally administered penem antibiotic. Its chiral tetrahydrofuran substituent at position C2 is responsible for its improved chemical stability and reduced CNS effects, compared with imipenem. Faropenem demonstrates broad-spectrum in vitro antimicrobial activity against many Gram-positive and -negative aerobes and anaerobes, and is resistant to hydrolysis by nearly all beta-lactamases, including extended-spectrum beta-lactamases and AmpC beta-lactamases. However, faro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12269858",
+            "title": "Levofloxacin: an updated review of its use in the treatment of bacterial infections.",
+            "authors": [
+              "Hurst Miriam",
+              "Lamb Harriet M",
+              "Scott Lesley J",
+              "Figgitt David P"
+            ],
+            "journal": "Drugs",
+            "year": "2002",
+            "abstract": "Levofloxacin is the L-form of the fluoroquinolone antibacterial agent, ofloxacin. In in vitro studies, levofloxacin demonstrated a broad range of activity against Gram-positive and -negative organisms and anaerobes. The drug is more active against Gram-positive organisms than ciprofloxacin, but less active than newer fluoroquinolones such as gatifloxacin. Its activity against Streptococcus pneumoniae is unaffected by the presence of penicillin resistance. In several randomised controlled trails,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34607790",
+            "title": "Differences in characteristics, aetiologies, isolated pathogens, and the efficacy of antibiotics in adult patients with preseptal cellulitis and orbital cellulitis between 2000-2009 and 2010-2019.",
+            "authors": [
+              "Shih En-Jie",
+              "Chen Jui-Kuang",
+              "Tsai Pei-Jhen",
+              "Bee Youn-Shen"
+            ],
+            "journal": "The British journal of ophthalmology",
+            "year": "2023",
+            "abstract": "To understand whether the epidemiology, aetiologies, common pathogens and the antibiotic efficacy against the identified bacteria of periorbital cellulitis in adults have changed recently (2010-2019) compared with the past decade (2000-2009).",
+            "classification": {
+              "study_type": "Retrospective Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38617893",
+            "title": "Microbiological and Molecular Study of Paranasal Sinus Infections of Children with Malignancy and Unknown Origin Fever in Markazi Province, Iran.",
+            "authors": [
+              "Ghaffari Kazem",
+              "Falahati Vahid",
+              "Motallebirad Tahereh",
+              "Safarabadi Mahdi",
+              "Tashakor Amir Hossein"
+            ],
+            "journal": "Current therapeutic research, clinical and experimental",
+            "year": "2024",
+            "abstract": "Children with malignancies are vulnerable to various infections, including sinus infections. Sinusitis is primarily caused by bacterial infections, followed by fungal infections. Due to this, evaluating the occurrence, diversity, and antibiotic susceptibility patterns of bacterial species that cause paranasal sinus infections in children with malignancy and unexplained fever is important.",
+            "classification": {
+              "study_type": "Clinical Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37361939",
+            "title": "Nasopharyngeal Mycobacterium abscessus Infection: A Case Report and Literature Review.",
+            "authors": [
+              "Kaji Masanori",
+              "Namkoong Ho",
+              "Nagao Genta",
+              "Azekawa Shuhei",
+              "Nakagawara Kensuke"
+            ],
+            "journal": "Infection and drug resistance",
+            "year": "2023",
+            "abstract": "Mycobacterium abscessus (M. abscessus) is a rapidly growing bacterium (RGM) that causes refractory pulmonary and extrapulmonary infections. However, studies investigating pharyngeal and laryngeal M. abscessus infections are limited.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9484874",
+            "title": "The role of fluoroquinolones in respiratory tract infections.",
+            "authors": [
+              "Grossman R F"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1997",
+            "abstract": "Quinolones, because of their excellent pharmacokinetic properties, high antimicrobial activity and low incidence of side-effects, have been broadly accepted for the treatment of many infections. Because of perceived limitations against Streptococcus pneumoniae and methicillin-resistant Staphylococcus aureus there has been some reluctance to use them for respiratory tract infections. Ciprofloxacin is the drug of choice for malignant external otitis, a disease caused by Pseudomonas aeruginosa, and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37042371",
+            "title": "Bacterial Flora and Antibiotics Sensitivity Pattern in Chronic Rhinosinusitis Outpatient Cases in Tertiary Care Hospital.",
+            "authors": [
+              "Shrestha D"
+            ],
+            "journal": "Kathmandu University medical journal (KUMJ)",
+            "year": "2022",
+            "abstract": "Background Chronic rhinosinusitis is a disease that afflicts a significant percentage of the population and causes considerable long-term morbidity. The initial treatment is clinical evaluation followed by starting empirical antibiotics. With the use of empirical antibiotics there is a possibility of aggravating the disease and leading to the persistence of chronic sinusitis. In order to start a protocol for rational use of antibiotics, we need to have the bacteriological profile in cases of chr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9044641",
+            "title": "[Severe orbital cellulitis: therapeutic results in 9 patients and review of the literature].",
+            "authors": [
+              "Asensi V",
+              "Carton J A",
+              "Maradona J A",
+              "Arribas J M"
+            ],
+            "journal": "Enfermedades infecciosas y microbiologia clinica",
+            "year": "1996",
+            "abstract": "Orbital cellulitis can produce severe neuromeningeal infections. Modern antimicrobial agents such as imipenem can be a valid therapeutical choice.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17668809",
+            "title": "[Sepsis in the sphenoiditis patient].",
+            "authors": [
+              "Preś Krzysztof",
+              "Bochnia Marek",
+              "Rostkowska-Nadolska Beata",
+              "Jaworska Marzena",
+              "Kubacka Marzena"
+            ],
+            "journal": "Otolaryngologia polska = The Polish otolaryngology",
+            "year": "2007",
+            "abstract": "We present a case of sepsis caused by isolated sphenoiditis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9617685",
+            "title": "Multi-resistant Pseudomonas aeruginosa outbreak associated with contaminated tap water in a neurosurgery intensive care unit.",
+            "authors": [
+              "Bert F",
+              "Maubec E",
+              "Bruneau B",
+              "Berry P",
+              "Lambert-Zechovsky N"
+            ],
+            "journal": "The Journal of hospital infection",
+            "year": "1998",
+            "abstract": "From July 1995 to November 1996, multi-resistant Pseudomonas aeruginosa O11 was isolated from 36 patients admitted to a neurosurgery intensive care unit. The strain was resistant to ticarcillin, ceftazidime, imipenem, gentamicin and ciprofloxacin, and susceptible to amikacin. Nine patients were colonized only; the remaining 27 patients had at least one infected site (17 urinary infections, 10 pneumonias and four with sinusitis). P. aeruginosa O11 with the same resistance pattern was isolated fro",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20583740",
+            "title": "Bacterial coinfection and antimicrobial resistance in patients with paranasal sinus fungus balls.",
+            "authors": [
+              "Wang Jong Hwan",
+              "Lee Bong-Jae",
+              "Jang Yong Ju"
+            ],
+            "journal": "The Annals of otology, rhinology, and laryngology",
+            "year": "2010",
+            "abstract": "The aim of this study was to investigate the incidence of bacterial coinfection and antimicrobial resistance in cases of fungus balls of the paranasal sinuses.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20132659",
+            "title": "Factors associated with severe sepsis: prospective study of 94 neutropenic febrile episodes.",
+            "authors": [
+              "Jeddi Ramzi",
+              "Achour Mériem",
+              "Amor Ramzi Ben",
+              "Aissaoui Lamia",
+              "Bouterâa Walid"
+            ],
+            "journal": "Hematology (Amsterdam, Netherlands)",
+            "year": "2010",
+            "abstract": "Severe sepsis defined as infection-induced organ dysfunction or hypoperfusion abnormalities predispose to septic shock and increased mortality in neutropenic setting. We aimed at determining predictors of severe sepsis in neutropenic patients. Between 1 October and 31 December 2007, 41 patients (21 with acute myeloid leukemia, 19 with acute lymphoid leukemia and one with autologous stem cell transplantation for a mantle cell lymphoma) with chemotherapy-induced neutropenia (<0.5 x 10(9)/l) lastin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11905002",
+            "title": "[Clinical and bacteriological features of six cases with intracranial abscess in childhood].",
+            "authors": [
+              "Hoshino Tadashi",
+              "Nakamura Akira"
+            ],
+            "journal": "Kansenshogaku zasshi. The Journal of the Japanese Association for Infectious Diseases",
+            "year": "2002",
+            "abstract": "From October 1988 to March 2001, 5 patients with 6 episodes of intracranial abscesses were admitted to Chiba-Children's Hospital. Average age when they were admitted was 10 years and 1 month. Initial clinical symptoms were fever in 5 cases, and headache in 1 case. It took 21 days from the appearance of the initial symptoms to diagnose the intracranial abscess. Four out of 5 patients had underlying diseases that were prone to cause intracranial abscess. Two patients of these were cyanotic congeni",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12507838",
+            "title": "Severe nosocomial infections with imipenem-resistant Acinetobacter baumannii treated with ampicillin/sulbactam.",
+            "authors": [
+              "Levin Anna S",
+              "Levy Carlos E",
+              "Manrique A Edison I",
+              "Medeiros Eduardo A S",
+              "Costa Silvia F"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2003",
+            "abstract": "Forty consecutive patients with nosomial infections caused by multidrug-resistant Acinetobacter baumannii were treated with intravenous ampicillin/sulbactam. The infections were primary bloodstream (32.5%), pneumonia (30%), urinary tract (15%), peritonitis (7.5%), surgical site (7.5%), meningitis (5%) and sinusitis (2.5%). Most were severe infections with underlying conditions (median APACHE II score: 14.5) and 72.5% occurred in the ICU. Twenty-seven (67.5%) were improved/cured, seven (17.5%) we",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鼻竇炎常見病原菌（Streptococcus pneumoniae、Haemophilus influenzae、Moraxella catarrhalis 及少數 Pseudomonas、厭氧菌）均在 imipenem 廣效覆蓋範圍內。複雜性鼻竇炎（眶周蜂窩織炎、顱內擴展）或免疫缺陷患者的 MDR 病原感染為最可能的臨床應用場景。Imipenem 在鼻竇組織的藥動學分佈（PK/PD）資料有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "chronic rhinosinusitis",
+      "txgnn": {
+        "score": 0.9998451471328736,
+        "rank": 519
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37042371",
+            "title": "Bacterial Flora and Antibiotics Sensitivity Pattern in Chronic Rhinosinusitis Outpatient Cases in Tertiary Care Hospital.",
+            "authors": [
+              "Shrestha D"
+            ],
+            "journal": "Kathmandu University medical journal (KUMJ)",
+            "year": "2022",
+            "abstract": "Background Chronic rhinosinusitis is a disease that afflicts a significant percentage of the population and causes considerable long-term morbidity. The initial treatment is clinical evaluation followed by starting empirical antibiotics. With the use of empirical antibiotics there is a possibility of aggravating the disease and leading to the persistence of chronic sinusitis. In order to start a protocol for rational use of antibiotics, we need to have the bacteriological profile in cases of chr",
+            "classification": {
+              "study_type": "Cross-sectional Bacteriological",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34844745",
+            "title": "Silver nanoparticles as a bioadjuvant of antibiotics against biofilm-mediated infections with methicillin-resistant Staphylococcus aureus and Pseudomonas aeruginosa in chronic rhinosinusitis patients.",
+            "authors": [
+              "Feizi Sholeh",
+              "Cooksley Clare M",
+              "Nepal Roshan",
+              "Psaltis Alkis James",
+              "Wormald Peter-John"
+            ],
+            "journal": "Pathology",
+            "year": "2022",
+            "abstract": "Infectious diseases caused by antibiotic-resistant bacteria in planktonic and biofilm form are difficult to treat with conventional antibiotics. Silver nanoparticles (Ag NPs) can be used as alternatives to antibiotics and can alter the susceptibility of bacteria to antibiotics. Here, the antibacterial properties of 16 different antibiotics and Ag NPs, alone and in combination, were tested against clinical isolates of Pseudomonas aeruginosa (n=3), Staphylococcus aureus (n=3) and methicillin-resis",
+            "classification": {
+              "study_type": "In vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27192905",
+            "title": "[Distribution and drug sensitivity test of bacteria of patients on chronic rhinosinusitis with or without nasal polyps].",
+            "authors": [
+              "Li Jun",
+              "Wu Yanqiao",
+              "Li Xiaoming",
+              "Di Bin",
+              "Wang Limei"
+            ],
+            "journal": "Lin chuang er bi yan hou tou jing wai ke za zhi = Journal of clinical otorhinolaryngology head and neck surgery",
+            "year": "2016",
+            "abstract": "To study the distribution and drug sensitivity test of bacteria of patients on chronic rhinosinusitis with or without nasal polyps.",
+            "classification": {
+              "study_type": "Retrospective Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40697614",
+            "title": "Analysis of nasal secretion culture results in diabetic patients with chronic rhinosinusitis and factors influencing postoperative recurrence.",
+            "authors": [
+              "Liu Xing",
+              "Wang Qian-Qian",
+              "Qiao Shou-Yan",
+              "Zhu Xiao-Ning"
+            ],
+            "journal": "World journal of diabetes",
+            "year": "2025",
+            "abstract": "In diabetic patients, persistent hyperglycemia creates an optimal environment for the proliferation of pathogenic bacteria, resulting in severe complications. Consequently, chronic rhinosinusitis (CRS) complicated by diabetes is highly prevalent in clinical settings.",
+            "classification": {
+              "study_type": "Retrospective Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性鼻竇炎（CRS）常為多菌或生物膜相關感染，典型致病菌包含 Staphylococcus aureus（含 MRSA）、Pseudomonas aeruginosa、厭氧菌及真菌。Imipenem 對 MSSA 及 Pseudomonas 有效，但對 MRSA 活性受限。體外研究顯示 imipenem 聯合銀奈米粒子可增強抗生物膜效果，但臨床轉化可行性不明。難治性 CRS（尤其伴發免疫缺陷）為潛在使用場景。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "typhoid fever",
+      "txgnn": {
+        "score": 0.9998332262039183,
+        "rank": 547
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "40212028",
+            "title": "Trends of Enteric Fever and Emergence of Extensively Drug-Resistant Typhoid in Pakistan: Population-Based Laboratory Data From 2017-2019.",
+            "authors": [
+              "Qamar Farah Naz",
+              "Yousafzai Mohammad Tahir",
+              "Qazi Ibtisam",
+              "Qureshi Sonia",
+              "Bar-Zeev Naor"
+            ],
+            "journal": "Open forum infectious diseases",
+            "year": "2025",
+            "abstract": "Typhoid fever burdens low- and middle-income countries, especially children. Despite being curable, it now resists first-line antibiotics. This study aims to understand antimicrobial resistance patterns associated with multidrug-resistant (MDR) and extensively drug-resistant (XDR) typhoid fever cases in Pakistan.",
+            "classification": {
+              "study_type": "Population-based Epidemiological Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37528007",
+            "title": "[Clinical features and antimicrobial resistance of invasive non-typhoid Salmonella infection in children at Xiamen].",
+            "authors": [
+              "Wang C H",
+              "Huang M L",
+              "Zhuo Z Q",
+              "Wang Z X",
+              "Chen L"
+            ],
+            "journal": "Zhonghua er ke za zhi = Chinese journal of pediatrics",
+            "year": "2023",
+            "abstract": "Objective: To investigate the clinical characteristics, serogroups and antimicrobial resistance of invasive non-typhoid Salmonella infection in children at Xiamen. Methods: Retrospective cohort study. The clinical manifestations, treatment, prognosis, serogroups and antimicrobial resistance of 29 hospitalized children with invasive non-typhoid Salmonella infection confirmed by blood, cerebrospinal fluid, bone marrow and other sterile body fluids or deep pus culture at the Department of Infectiou",
+            "classification": {
+              "study_type": "Clinical Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37654037",
+            "title": "A pattern of antibiotic drug resistance of Salmonella Typhi and Salmonella Paratyphi among children with enteric fever in a tertiary care hospital in Lahore, Pakistan.",
+            "authors": [
+              "Baig Usman",
+              "Mehdi Syed Muslim",
+              "Iftikhar Nosheen"
+            ],
+            "journal": "Croatian medical journal",
+            "year": "2023",
+            "abstract": "To establish the pattern of antibiotic resistance and assess the frequency of multidrug-resistant (MDR) and extensively drug-resistant (XDR) strains of Salmonella Typhi and Salmonella Paratyphi among children with enteric fever.",
+            "classification": {
+              "study_type": "Retrospective Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35797697",
+            "title": "Extended-spectrum Beta-lactamases Encoding Genes among Salmonella Enterica serovar Typhi Isolates in Patients with Typhoid Fever from four Academic Medical Centers Lagos, Nigeria.",
+            "authors": [
+              "Akinyemi Kabiru O",
+              "Al-Khafaji Noor S K",
+              "Al-Alaq Farah T",
+              "Fakorede Christopher O",
+              "Al-Dahmoshi Hussein O M"
+            ],
+            "journal": "Revista de investigacion clinica; organo del Hospital de Enfermedades de la Nutricion",
+            "year": "2022",
+            "abstract": "There is scarce information about the occurrence of extended-spectrum β-lactamases (ESBLs) in Salmonella enterica serovar Typhi (S. Typhi) from patients with typhoid fever.",
+            "classification": {
+              "study_type": "Molecular Epidemiology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15707075",
+            "title": "Rhabdomyolysis and Salmonella typhi infection: case report and review of the literature.",
+            "authors": [
+              "Dakdouki Ghenwa K",
+              "Bizri Abdul Rahman N"
+            ],
+            "journal": "Le Journal medical libanais. The Lebanese medical journal",
+            "year": "2003",
+            "abstract": "Typhoid fever is endemic in Lebanon. Usual presentation includes fever, headache, abdominal pain and constipation or diarrhea. Extra-intestinal manifestations are not uncommon and involve variety of organ systems. Rhabdomyolysis is rare and has been reported in various Salmonella infections. We present a case of rhabdomyolysis and renal failure that was successfully treated with imipenem/cilastatin and hemodialysis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39991360",
+            "title": "Carbapenems: The Final Line of Defense in Typhoid Fever Treatment at Hayatabad Medical Complex, Peshawar.",
+            "authors": [
+              "Shahab Khalid",
+              "Zuhayr Ahmad",
+              "Rizwan Fatima",
+              "Noori Maria",
+              "Bukhari Laiba"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Typhoid fever, caused by Salmonella enterica serovar Typhi, remains a significant public health issue, particularly in low-income countries with inadequate sanitation. The rise of extensively drug-resistant (XDR) strains of Salmonella Typhi has led to a growing reliance on carbapenems as the final line of defense. This study aims to evaluate the effectiveness of carbapenems in treating multidrug-resistant (MDR) and XDR typhoid at Hayatabad Medical Complex, Peshawar.",
+            "classification": {
+              "study_type": "Retrospective Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33409025",
+            "title": "Antimicrobial Sensitivity Pattern of Salmonella Typhi: Emergence of Resistant Strains.",
+            "authors": [
+              "Ali Shah Syed Asim",
+              "Nadeem Muhammad",
+              "Syed Sarwar Ali",
+              "Fatima Abidi Syeda Turab",
+              "Khan Nasir"
+            ],
+            "journal": "Cureus",
+            "year": "2020",
+            "abstract": "Background Typhoid fever is still an important public health problem in developing countries. Increasing resistance of Salmonella Typhi to antibiotics is alarming. New extensively drug-resistant strains of Salmonella reported first time in Pakistan, resistant not only to first-line drugs and ciprofloxacin but also resistant to ceftriaxone, had spread globally, including the USA. Due to this continuously changing pattern of antimicrobial resistance in typhoid fever due to Salmonella Typhi, there ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38287761",
+            "title": "Prevalence and antimicrobial resistance profile of Salmonella typhi infection in Iraq, 2019-2021.",
+            "authors": [
+              "Nassir K F",
+              "Ali B M",
+              "Ibrahim Z H",
+              "Qasim Z J",
+              "Mahdi S G"
+            ],
+            "journal": "The Medical journal of Malaysia",
+            "year": "2024",
+            "abstract": "Salmonella typhi could infect the intestinal tract and the bloodstream or invade body organs and secrete endotoxins. It is endemic in developing countries. It is increasingly evolving antimicrobial resistance to several commonly used antimicrobial agents.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38965941",
+            "title": "Molecular Detection of Salmonella typhi Isolated from Patients Undergoing Gallbladder Cholecystectomy in Baghdad.",
+            "authors": [
+              "Ali Maryam K",
+              "Shia Jaafar S"
+            ],
+            "journal": "Clinical laboratory",
+            "year": "2024",
+            "abstract": "Salmonella typhi is a specific strain of the Salmonella bacterium, responsible for triggering typhoid fever; a significant public health concern in developing nations.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36277244",
+            "title": "Comparison of Single vs Combination Drug Therapy in Extensively Drug Resistant Salmonella typhi: An Observational Study from Pakistan.",
+            "authors": [
+              "Ishaque Sadia",
+              "Syed Beenish",
+              "Dodani Sunil Kumar",
+              "Anwar Sana"
+            ],
+            "journal": "Infection and drug resistance",
+            "year": "2022",
+            "abstract": "Antibiotic resistance has become a significant problem in typhoid fever due to the emergence of extensively drug resistant (XDR) Salmonella enterica serovar typhi. In Pakistan, an outbreak of ceftriaxone-resistant typhoid was first reported in November 2016.",
+            "classification": {
+              "study_type": "Retrospective Clinical Comparison",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38686255",
+            "title": "Comprehensive Analysis of Salmonella Species Antibiogram and Evolving Patterns in Empirical Therapy: Insights From Tertiary Care Hospitals in Peshawar, Pakistan.",
+            "authors": [
+              "Ullah Rizwan",
+              "Gul Aiysha",
+              "Gul Faiza",
+              "Gul Nida",
+              "Khan Suleman"
+            ],
+            "journal": "Cureus",
+            "year": "2024",
+            "abstract": "Background Typhoid fever presents a significant challenge in developing nations, exacerbated by the emergence of antibiotic-resistant strains due to widespread prevalence and overuse of antibiotics. This study seeks to assess the antibiogram profiles of Salmonella species isolated from blood cultures of patients hospitalized at two prominent tertiary care hospitals in Peshawar, Pakistan: Khyber Teaching Hospital (KTH) and Hayatabad Medical Complex (HMC). By examining these profiles, the research",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36119327",
+            "title": "Prevalence of Salmonella typhi in among febrile patients in a tertiary care hospital of South West Rajasthan.",
+            "authors": [
+              "Bhumbla Upasana",
+              "Chaturvedi Parul",
+              "Jain Sarita"
+            ],
+            "journal": "Journal of family medicine and primary care",
+            "year": "2022",
+            "abstract": "Salmonella enterica, serotype typhi, remains the predominant Salmonella species causing enteric fever in India. The mode of Salmonella typhi transmission is considered to be predominantly vehicle-borne through contaminated water or food. In India, the incidence of Salmonella typhi occurs between the months of April and June (dry season) followed by July and September (monsoon season). Typhoid fever may be difficult to distinguish clinically from other febrile illnesses and if left untreated, int",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35891850",
+            "title": "Extensively Drug-Resistant Typhoidal Salmonellae: Are These Bugs Swarming Into Suburban and Rural Areas of Pakistan?",
+            "authors": [
+              "Ashraf Hussain Muhammad",
+              "Ahmed Imran",
+              "Akram Sumera",
+              "Khan Muhammad A",
+              "Ali Shamshad"
+            ],
+            "journal": "Cureus",
+            "year": "2022",
+            "abstract": "Background Typhoid is a serious public health concern with increasing antibiotic resistance. Early suspicion and choice of susceptible antibiotics are key to avoiding the morbidity and mortality associated with this disease. We have carried out this study to assess the antibiotic sensitivity of typhoidal salmonellae in Kharian, Pakistan. Materials and methods This cross-sectional study was carried out at Combined Military Hospital, Kharian, Pakistan, from January 2019 to September 2020. Blood cu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34475718",
+            "title": "Detection of multidrug-resistant Salmonella enterica subsp. enterica serovar Typhi isolated from Iraqi subjects.",
+            "authors": [
+              "Salman Hamzah Abdulrahman",
+              "Abdulmohsen Ali Mohammed",
+              "Falih Mays Noori",
+              "Romi Zahraa Mohmoud"
+            ],
+            "journal": "Veterinary world",
+            "year": "2021",
+            "abstract": "Enteric fever initiated by Salmonella enterica subsp. enterica serovar Typhi (S. Typhi) is among the most consistent disease worldwide, particularly in developing countries. The present study aimed to isolate and identify S. Typhi from typhoid suspected patients and determine their antibacterial susceptibility testing.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19208884",
+            "title": "Minimum inhibitory concentration of carbapenems and tigecycline against Salmonella spp.",
+            "authors": [
+              "Capoor Malini R",
+              "Nair Deepthi",
+              "Posti Jitendra",
+              "Singhal Smita",
+              "Deb Monorama"
+            ],
+            "journal": "Journal of medical microbiology",
+            "year": "2009",
+            "abstract": "Antimicrobial resistance in Salmonella spp. is of grave concern, more so in quinolone-resistant and extended-spectrum beta-lactamase (ESBL)-producing isolates that cause complicated infections. The MIC of azithromycin, ciprofloxacin, cefixime, cefepime, ceftriaxone, gatifloxacin, imipenem, levofloxacin, meropenem and ofloxacin (E-test strip) and tigecycline and faropenem (agar dilution) against 210 Salmonella spp. was determined. MIC(90) (defined as the antimicrobial concentration that inhibited",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33604204",
+            "title": "Trends of Antimicrobial Resistance in Typhoidal Strains of Salmonella in a Tertiary Care Hospital in Pakistan.",
+            "authors": [
+              "Aslam Aqsa",
+              "Ahmed Kharal Sahibzada",
+              "Aslam Maria",
+              "Raza Almas"
+            ],
+            "journal": "Cureus",
+            "year": "2021",
+            "abstract": "Enteric fever or typhoid fever is a major public health issue affecting greater than 27 million individuals globally and is responsible for greater than 200,000 deaths per year. Due to the extensive overuse of antimicrobials, the world is moving toward a pre-antibiotic era. The emergence and transmission of antibiotic-resistant Salmonella species are a global threat and a serious concern in developing countries such as Pakistan. This study aimed to determine the trends in antimicrobial resistanc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34946085",
+            "title": "Emerging Trends of Multidrug-Resistant (MDR) and Extensively Drug-Resistant (XDR) Salmonella Typhi in a Tertiary Care Hospital of Lahore, Pakistan.",
+            "authors": [
+              "Zakir Muhammad",
+              "Khan Maryam",
+              "Umar Muhammad Ihtisham",
+              "Murtaza Ghulam",
+              "Ashraf Muhammad"
+            ],
+            "journal": "Microorganisms",
+            "year": "2021",
+            "abstract": "Salmonella Typhi is a Gram-negative pathogen that causes typhoid fever in humans. The use of antibiotics to treat typhoid has considerably mitigated its fatality risk, but rising multidrug-resistant (MDR) and extensively drug-resistant (XDR) resistance in Pakistan threatens effective treatment. This study determined the prevalence of MDR and XDR S. Typhi at a local hospital in Lahore. Blood samples (n = 3000) were obtained and processed for bacterial identification. Antibiotic susceptibility tes",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19901486",
+            "title": "False-positive widal in melioidosis.",
+            "authors": [
+              "Valsalan Rohith",
+              "Shubha S",
+              "Mukhopadhyay C",
+              "Saravu K",
+              "Maneesh M"
+            ],
+            "journal": "Indian journal of medical sciences",
+            "year": "2009",
+            "abstract": "Enteric fever is endemic in this part of the world, and Widal test is one of the time-honored laboratory tests that are being used for years to diagnose the disease. On the other hand, melioidosis is a newly emerging disease from this region, which is most often misdiagnosed or underdiagnosed by clinicians. It is well accepted that false-positive Widal reactions following certain non-typhoid Salmonella infections may occur commonly. Three cases of high titers of Widal test are described, where m",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33042671",
+            "title": "Antibiotic Susceptibility Patterns of Salmonella Typhi and Salmonella Paratyphi in a Tertiary Care Hospital in Islamabad.",
+            "authors": [
+              "Umair Masab",
+              "Siddiqui Shajee Ahmad"
+            ],
+            "journal": "Cureus",
+            "year": "2020",
+            "abstract": "Background Enteric fever is a serious public health problem in Pakistan. Growing problem of drug-resistant Salmonella strains and outbreak of ceftriaxone-resistant Salmonella typhi in Hyderabad during 2016-2017 is concerning. This study aimed to determine the antibiogram profile of Salmonella typhi and Salmonella paratyphi isolated from blood cultures of patients presenting in Pakistan Institute of Medical Sciences (PIMS), Islamabad. Materials and methods A retrospective cross-sectional study co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21999858",
+            "title": "Salmonella typhi infection complicated by rhabdomyolysis, pancreatitis and polyneuropathy.",
+            "authors": [
+              "Ali Medhat",
+              "Abdalla Hosam"
+            ],
+            "journal": "Arab journal of nephrology and transplantation",
+            "year": "2011",
+            "abstract": "Typhoid is a common infection that can have serious complications. Here we present a severe case of Salmonella typhi infection complicated by rhabdomyolysis and acute kidney injury.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imipenem 對 Salmonella typhi 具有高效殺菌活性，對 ESBL 及 AmpC 陽性菌株有效。在廣泛抗藥性傷寒（XDR typhoid，定義：對氨苄西林、氯黴素、TMP-SMX、氟喹諾酮及第三代頭孢菌素均抗藥）中，碳青黴烯類為極少數保留有效選項之一。2025 年已有回顧性臨床研究（Hayatabad Medical Complex）記錄碳青黴烯類在 XDR 傷寒實際臨床結果；2022 年有單藥與聯合治療比較研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "chronic ethmoidal sinusitis",
+      "txgnn": {
+        "score": 0.999832272529602,
+        "rank": 551
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "16200963",
+            "title": "[Bacteriological study of chronic sinusitis].",
+            "authors": [
+              "Zuo Ke-jun",
+              "Shi Jian-bo",
+              "Fan Yun-ping",
+              "Xu Geng"
+            ],
+            "journal": "Zhonghua er bi yan hou tou jing wai ke za zhi = Chinese journal of otorhinolaryngology head and neck surgery",
+            "year": "2005",
+            "abstract": "To explore the characteristics of bacteria isolated from patients with chronic sinusitis (CR) and antibiotic-resistance.",
+            "classification": {
+              "study_type": "Bacteriological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性篩竇炎為鼻竇炎解剖學亞型，Imipenem 理論上可覆蓋相關病原菌。然而，本資料集中僅有 1 篇間接文獻（慢性鼻竇炎細菌學通論研究，非針對篩竇炎），且無任何臨床試驗，實質上等同於純預測。在 TxGNN 知識圖譜中，此病症可能因與「sinusitis」及「chronic rhinosinusitis」的解剖/本體論關係而獲得高分，而非獨立生物學證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "paranasal sinus neoplasm (disease)",
+      "txgnn": {
+        "score": 0.9997909665107728,
+        "rank": 637
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "副鼻竇腫瘤為惡性腫瘤，Imipenem 為抗菌藥物，無任何已知抗腫瘤機轉。雖然某些抗生素（如蒽環黴素類）具抗腫瘤活性，但碳青黴烯類目前無此類研究報告。TxGNN 高分（0.9998）最可能源於知識圖譜中「副鼻竇」解剖位置的連結（副鼻竇感染 → 副鼻竇腫瘤的鄰近性），而非真實生物學機轉。此為典型知識圖譜預測的假陽性案例。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "staphylococcus aureus infection",
+      "txgnn": {
+        "score": 0.9995155334472656,
+        "rank": 1128
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06634940",
+            "title": "International Surveillance of Antimicrobial Resistance in Cirrhosis-Related Infections",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 1000,
+            "start_date": "2020-11-15",
+            "completion_date": "2031-06-01",
+            "brief_summary": "What is this study about?\n\nThis study tracks antibiotic resistance in patients with cirrhosis who develop bacterial infections. Cirrhosis is a condition where the liver is severely scarred, and people with cirrhosis are at high risk for serious bacterial infections.\n\nWhy is this study important?\n\nBacterial infections are common in patients with cirrhosis, affecting 25-46% of those who are hospitalized. These infections can be life-threatening, with 1 in 4 patients dying from complications. Many ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "肝硬化相關感染 AMR 國際監測研究（N=1000，RECRUITING），非介入性治療試驗，僅提供 S. aureus AMR 流行病學背景，間接支持 imipenem 臨床需求。"
+            }
+          },
+          {
+            "nct_id": "NCT04292054",
+            "title": "\"Antibioprophylaxis for Excision-graft Surgery in Burn Patient: a Multicenter Randomized Double-blind Study: A2B Trial\"",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 506,
+            "start_date": "2020-10-11",
+            "completion_date": "2026-07-09",
+            "brief_summary": "The indication of antibiotic prophylaxis in burn patients remains highly controversial and hasn't reached a consensus. The objective of antibiotic prophylaxis would be to reduce the risk of post-operative local and systemic infections. Burn surgery is associated with a high risk of bacteremia and postoperative infections and sepsis. However, antibiotic prophylaxis exposes to the risk of selecting drug-resistant pathogens as well as adverse effects of antibiotics (i.e Clostridium difficile coliti",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 燒傷切除移植手術抗菌預防試驗（N=506，RECRUITING），Imipenem 為研究藥物選項之一，S. aureus 為主要預防目標菌。間接支持安全性及預防性使用，非治療適應症直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00707239",
+            "title": "A Phase 2, Multicenter, Randomized, Double-Blind, Comparative Study Of The Safety And Efficacy of 2 Doses Of Tigecycline Versus Imipenem/Cilastatin For The Treatment Of Subjects With Hospital-Acquired Pneumonia",
+            "phase": "PHASE2",
+            "status": "TERMINATED",
+            "enrollment": 108,
+            "start_date": "2008-12",
+            "completion_date": "2011-06",
+            "brief_summary": "This study will compare the safety and efficacy of a tigecycline regimen versus an imipenem/cilastatin regimen for the treatment of subjects who are hospitalized with hospital-acquired pneumonia (HAP). At least 70% of enrolled subjects will have ventilator-associated pneumonia (VAP). Two dose levels of tigecycline will be assessed and compared to imipenem/cilastatin in parallel. Subjects will receive intravenous therapy from a minimum of 7 \\& up to 14 consecutive days, the exact duration will be",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2 雙盲隨機對照試驗（N=108），比較 2 種劑量方案治療 S. aureus 感染。設計嚴謹但已終止（TERMINATED），缺乏完整療效數據，降低其證據價值。"
+            }
+          },
+          {
+            "nct_id": "NCT06044272",
+            "title": "Antimicrobial Resistance Profiles in Healthcare Facilities From Meta State, Colombia: A Retrospective Observational Study From 2018-2022",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 10000,
+            "start_date": "2023-09-01",
+            "completion_date": "2024-06-30",
+            "brief_summary": "Introduction: Healthcare-associated infections cause a burden in morbidity and mortality, and they increase the financial cost of care. Nevertheless, they are not limited to setting factors, and several community conditions and contexts are linked. Clinical laboratories from hospitals report monthly to the Public Health Laboratory.\n\nObjective: The study aims to establish the antimicrobial resistance profile of the most significant bacteria involved in healthcare-associated infections in Meta Sta",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "哥倫比亞醫療機構 AMR 回顧性研究（N=10000，COMPLETED），為監測研究，確認 S. aureus AMR 現況，提供背景脈絡但非療效證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00871104",
+            "title": "Evaluation of the Efficacy and Safety of Fosfomycin Plus Imipenem for the Treatment of Methicillin-resistant Staphylococcus Aureus (MRSA) Infective Endocarditis.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2009-07",
+            "completion_date": "2015-04-15",
+            "brief_summary": "The study evaluates the efficacy and safety of fosfomycin and imipenem for the treatment of methicillin-resistant staphyloccocus aureus infective endocarditis in comparison to vancomycin, the standard therapy.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 已完成試驗（N=50），直接測試 Fosfomycin + Imipenem 聯合治療甲氧西林抗藥性金黃色葡萄球菌（MRSA）感染。為整個資料集中最直接、最高質量的臨床試驗證據，完整性高。"
+            }
+          },
+          {
+            "nct_id": "NCT03218397",
+            "title": "Rapid Identification and Phenotypic Susceptibility Testing for Gram-Negative Bacteremia (RAPIDS-GN)",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 500,
+            "start_date": "2017-10-09",
+            "completion_date": "2018-11-30",
+            "brief_summary": "RAPIDS-GN is a multi-center, prospective, randomized, controlled trial to evaluate the following strategies for patients with confirmed gram-negative bacillus bacteremia (GNB):\n\n1. Standard culture and antimicrobial susceptibility testing (AST); or\n2. Rapid identification and AST using the Accelerate PhenoTest™ BC Kit, performed on the Accelerate Pheno™ System (AXDX)",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "革蘭陰性菌血症快速 ID 及藥敏測試試驗（N=500，COMPLETED），主要針對革蘭陰性菌，與 S. aureus（革蘭陽性）的治療相關性低，降至 C 級。"
+            }
+          },
+          {
+            "nct_id": "NCT06174649",
+            "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 900,
+            "start_date": "2023-12-22",
+            "completion_date": "2025-06-18",
+            "brief_summary": "This study is a 2-arm, multicenter, multinational, prospective, randomized, controlled clinical trial. Hospitalized subjects with blood cultures growing Gram negative bacilli (GNB) will be randomized 1:1 to have the positive blood cultures characterized using standard of care (SOC) antimicrobial susceptibility testing (AST) vs. a rapid AST method known as Reveal™ in addition to SOC AST. The purpose of the FAST trial is to evaluate whether use of a rapid phenotypic AST improves clinical outcomes ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "革蘭陰性菌血症快速藥敏測試試驗（N=900，COMPLETED），同為診斷最佳化研究且針對革蘭陰性菌，與 S. aureus 感染治療的直接相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT01356472",
+            "title": "Linezolid Alone or Combined With Carbapenem Against Methicillin-resistant Staphylococcus Aureus (MRSA) in Vitro and in Ventilator-associated Pneumonia",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 60,
+            "start_date": "2011-06",
+            "completion_date": "",
+            "brief_summary": "As previous studies showed that the synergy between linezolid and carbapenem in vitro and in vivo (animal studies), our study is aim to investigate the activity of linezolid, alone and in combination with carbapenem against methicillin-resistant Staphylococcus aureus (MRSA) in ventilator-associated pneumonia (VAP) patients.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 試驗（N=60），直接比較 Linezolid 單藥 vs 聯合碳青黴烯類（含 Imipenem）治療 MRSA 感染的療效。高度直接相關，但狀態為 UNKNOWN，結果完整性存疑，需謹慎解讀。"
+            }
+          },
+          {
+            "nct_id": "NCT02449031",
+            "title": "A Prospective Observational Study in Cystic Fibrosis Patients With Chronic Respiratory Pseudomonas Aeruginosa Infection Treated With TOBI® PODHALER® (Tobramycin Inhalation Powder) or Other FDA Approved Inhaled Antipseudomonal Antibacterial Drugs",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 409,
+            "start_date": "2015-05-05",
+            "completion_date": "2021-12-31",
+            "brief_summary": "This is a multicenter, prospective, two cohort, observational study over a 5-year period in Cystic Fibrosis (CF) patients with chronic Pseudomonas aeruginosa infection.The study will collect data over 1 year on respiratory function, antibacterial effectiveness, and clinical outcomes of treatment with inhaled antipseudomonal antibiotics and data over 5 years on microbiological and safety assessments.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "囊性纖維化患者慢性 Pseudomonas 感染觀察性研究（N=409，COMPLETED），主要研究綠膿桿菌，S. aureus 為次要考量，與本適應症直接相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT06743529",
+            "title": "Immediate Versus Substantiated Antibiotic Therapy in Suspected Non-Severe Ventilator-Associated Pneumonia: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 686,
+            "start_date": "2025-11-11",
+            "completion_date": "2029-02-11",
+            "brief_summary": "Ventilator-associated pneumonia is the leading nosocomial infection in the intensive care units, and is associated with prolonged mechanical ventilation and overuse of antibiotics. Initiating antibiotic therapy immediately after bacteriological sampling (immediate strategy) may expose uninfected patients to unnecessary treatment, while waiting for bacteriological confirmation (conservative strategy) may delay ventilator-associated pneumonia in infected patients.\n\nThe decision to start antibiotic",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "呼吸器相關肺炎（VAP）即時 vs 確認抗菌治療比較試驗（N=686，RECRUITING），S. aureus 為重要病原菌，Imipenem 為可能治療藥物。支持 S. aureus 感染中 imipenem 使用情境，但非主要研究問題。"
+            }
+          },
+          {
+            "nct_id": "NCT03583333",
+            "title": "A Multi-national Phase 3, Randomized, Double-Blind, Active Comparator-Controlled Clinical Trial to Study the Safety, Tolerability, and Efficacy of Imipenem/Cilastatin/Relebactam (MK-7655A) Versus Piperacillin/Tazobactam in Subjects With Hospital-Acquired Bacterial Pneumonia or Ventilator-Associated Bacterial Pneumonia",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 274,
+            "start_date": "2018-09-18",
+            "completion_date": "2022-07-12",
+            "brief_summary": "This study will evaluate the efficacy and safety of a FDC of imipenem/cilastatin (IMI) and relebactam (REL) \\[IMI/REL, MK-7655A\\] compared to piperacillin/tazobactam (PIP/TAZ) in the treatment of adults diagnosed with Hospital-Acquired Bacterial Pneumonia (HABP) or Ventilator-Associated Bacterial Pneumonia (VABP). The primary hypothesis is that IMI/REL is non-inferior to PIP/TAZ as measured by the incidence rate of all-cause mortality through Day 28 post-randomization.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04775238",
+            "title": "Metallic Nanoparticles: Evaluation of Their Antibacterial, Antibiofilm and Synergistic Effect in Combination With Antibiotics on Nosocomial Bacteria",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2021-02-27",
+            "completion_date": "2021-07-01",
+            "brief_summary": "This research aims to study the properties of metallic nanoparticles\"MNPs\" (silver nanoparticles \"AgNps\" and copper nanoparticles \"CuNps\") on the 2 most common nosocomial bacteria which are highly resistant to antibiotics including Staphylococcus aureus and Pseudomonas aeruginosa, to evaluate the growth inhibiting properties of MNPs on all bacterial isolates, to evaluate the biofilm inhibitory effect on biofilm forming bacterial isolates and the synergistic effect of these MNPs in combination wi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03012360",
+            "title": "Antimicrobial Treatment in Patients With Ventilator-associated Tracheobronchitis: a Prospective Randomized Placebo-controlled Double-blind Multicenter Trial",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 103,
+            "start_date": "2018-02-08",
+            "completion_date": "2024-07-07",
+            "brief_summary": "Antimicrobial treatment could be beneficial in patients with ventilator-associated tracheobronchitis (VAT). The hypothesis of this study is that antibiotic treatment for VAT (3 or 7 days), compared with no antibiotic treatment, would reduce the incidence of transition from VAT to ventilator-associated pneumonia (VAP).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35294769",
+            "title": "Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.",
+            "authors": [
+              "Zhanel George G",
+              "Pozdirca Marianna",
+              "Golden Alyssa R",
+              "Lawrence Courtney K",
+              "Zelenitsky Sheryl"
+            ],
+            "journal": "Drugs",
+            "year": "2022",
+            "abstract": "Sulopenem (formerly known as CP-70,429, and CP-65,207 when a component of a racemic mixture with its R isomer) is an intravenous and oral penem that possesses in vitro activity against fluoroquinolone-resistant, extended spectrum β-lactamases (ESBL)-producing, multidrug-resistant (MDR) Enterobacterales. Sulopenem is being developed to treat patients with uncomplicated and complicated urinary tract infections (UTIs) as well as intra-abdominal infections. This review will focus mainly on its use i",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36500645",
+            "title": "Antibacterial Activity of Syzygium aromaticum (Clove) Bud Oil and Its Interaction with Imipenem in Controlling Wound Infections in Rats Caused by Methicillin-Resistant Staphylococcus aureus.",
+            "authors": [
+              "Alanazi Abdulaziz Khaleef",
+              "Alqasmi Mohammed Hussein",
+              "Alrouji Mohammed",
+              "Kuriri Fahd A",
+              "Almuhanna Yasir"
+            ],
+            "journal": "Molecules (Basel, Switzerland)",
+            "year": "2022",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) is one of the leading causes of infection worldwide. Clove oil's ability to inhibit the growth of MRSA was studied through in vitro and in vivo studies. The phytochemical components of clove oil were determined through gas chromatography-mass spectrometry (GC-MS) analysis. The antibacterial effects of clove oil and its interaction with imipenem were determined by studying MIC, MBC, and FIC indices in vitro. The in vivo wound-healing effect of th",
+            "classification": {
+              "study_type": "In vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33020155",
+            "title": "Case Commentary: Imipenem/Cilastatin and Fosfomycin for Refractory Methicillin-Resistant Staphylococcus aureus Infection: a Novel Combination Therapy.",
+            "authors": [
+              "Sakoulas George"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2020",
+            "abstract": "Given that it is unlikely that randomized clinical trials will yield answers for treating the most challenging bacteremic infections caused by methicillin-resistant Staphylococcus aureus, clinicians, microbiologists, and pharmacists will have to cooperate to discover novel ways to select successful individualized antimicrobial therapy for these patients. An example of such a strategy was demonstrated in the identification and utilization of imipenem/cilastatin plus fosfomycin to treat a particul",
+            "classification": {
+              "study_type": "Case Commentary",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39548455",
+            "title": "The antimicrobial and antibiofilm effects of gentamicin, imipenem, and fucoidan combinations against dual-species biofilms of Staphylococcus aureus and Acinetobacter baumannii isolated from diabetic foot ulcers.",
+            "authors": [
+              "Nazari Mohsen",
+              "Taheri Mohammad",
+              "Nouri Fatemeh",
+              "Bahmanzadeh Maryam",
+              "Alikhani Mohammad Yousef"
+            ],
+            "journal": "Annals of clinical microbiology and antimicrobials",
+            "year": "2024",
+            "abstract": "Diabetes mellitus is a chronic metabolic disorder characterized by persistent hyperglycemia due to impaired insulin production or utilization, leading to severe health complications. Diabetic foot ulcers (DFUs) represent a major complication, often exacerbated by polymicrobial infections involving Staphylococcus aureus and Acinetobacter baumannii. These pathogens, notorious for their resistance to antibiotics, complicate treatment efforts, especially due to biofilm formation, which enhances bact",
+            "classification": {
+              "study_type": "In vitro Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36526264",
+            "title": "Antimicrobial resistance prevalence of Escherichia coli and Staphylococcus aureus amongst bacteremic patients in Africa: a systematic review.",
+            "authors": [
+              "Haindongo Erastus Hanganeni",
+              "Ndakolo Diana",
+              "Hedimbi Marius",
+              "Vainio Olli",
+              "Hakanen Antti"
+            ],
+            "journal": "Journal of global antimicrobial resistance",
+            "year": "2023",
+            "abstract": "Antimicrobial resistance (AMR) is a global concern among infectious diseases. Bloodstream infections can potentially become life-threatening if they become untreatable with conventional antimicrobials. This review aims to provide an understanding of the AMR prevalence and trends of common bacteremic pathogens, namely Escherichia coli and Staphylococcus aureus in the World Health Organization (WHO) Africa region.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6421794",
+            "title": "Imipenem therapy of experimental Staphylococcus aureus and Streptococcus faecalis endocarditis.",
+            "authors": [
+              "Scheld W M",
+              "Keeley J M"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1983",
+            "abstract": "Imipenem was very active in vitro against 36 Staphylococcus aureus isolates from cases of infective endocarditis; the MBC90 was 0.06 mg/l (four- to eight-fold more active than nafcillin). The in-vitro activity of imipenem against 22 Streptococcus faecalis isolates from proven endocarditis cases was similar to that of penicillin G (MBC90 = 8 mg/l). Imipenem was compared with nafcillin and with penicillin plus gentamicin in the therapy of experimental endocarditis induced in rabbits by Staph. aure",
+            "classification": {
+              "study_type": "Animal Model",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33686133",
+            "title": "Genetic and phenotypic diversity of methicillin-resistant Staphylococcus aureus among Japanese inpatients in the early 1980s.",
+            "authors": [
+              "Zuo Hui",
+              "Uehara Yuki",
+              "Lu Yujie",
+              "Sasaki Takashi",
+              "Hiramatsu Keiichi"
+            ],
+            "journal": "Scientific reports",
+            "year": "2021",
+            "abstract": "To trace the linkage between Japanese healthcare-associated methicillin-resistant Staphylococcus aureus (HA-MRSA) strains in the early 1980s and the 2000s onward, we performed molecular characterizations using mainly whole-genome sequencing. Among the 194 S. aureus strains isolated, 20 mecA-positive MRSA (10.3%), 8 mecA-negative MRSA (4.1%) and 3 mecA-positive methicillin-susceptible S. aureus (MSSA) (1.5%) strains were identified. The most frequent sequence type (ST) was ST30 (n = 11), followed",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22196394",
+            "title": "New insights into meticillin-resistant Staphylococcus aureus (MRSA) pathogenesis, treatment and resistance.",
+            "authors": [
+              "Gould Ian M",
+              "David Michael Z",
+              "Esposito Silvano",
+              "Garau Javier",
+              "Lina Gerard"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2012",
+            "abstract": "Meticillin-resistant Staphylococcus aureus (MRSA) remains one of the principal multiply resistant bacterial pathogens causing serious healthcare-associated and community-onset infections. This paper reviews recent studies that have elucidated the virulence strategies employed by MRSA, key clinical trials of agents used to treat serious MRSA infections, and accumulating data regarding the implications of antibacterial resistance in MRSA for clinical success during therapy. Recent pre-clinical dat",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14618340",
+            "title": "Intravenous treatment of experimental Staphylococcus aureus endophthalmitis: imipenem versus the combination of ceftazidime and amikacin.",
+            "authors": [
+              "Engelbert Michael",
+              "Miño de Kaspar Herminia",
+              "Mette Martina",
+              "Thiel Martin",
+              "Ta Christopher N"
+            ],
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2003",
+            "abstract": "To compare the efficacy of intravenous (IV) imipenem (IPM) and a combination of IV ceftazidime (CAZ) and amikacin (AN) in the treatment of Staphylococcus aureus endophthalmitis in a rabbit model.",
+            "classification": {
+              "study_type": "Animal Model",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3460521",
+            "title": "Imipenem-cilastatin in the treatment of methicillin-sensitive and methicillin-resistant Staphylococcus aureus infections.",
+            "authors": [
+              "Fan W",
+              "del Busto R",
+              "Love M",
+              "Markowitz N",
+              "Cendrowski C"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "1986",
+            "abstract": "Imipenem-cilastatin was evaluated for efficacy and toxicity as an antistaphylococcal agent in 23 patients; 11 of these patients were infected with methicillin-resistant Staphylococcus aureus (MRSA), and 12 were infected with methicillin-susceptible S. aureus (MSSA). There were 15 soft tissue, 5 endovascular, and 3 skeletal infections and a total of nine patients with bacteremia. As determined by in vitro susceptibility testing, the MICs for 90% of the MRSA and MSSA isolates tested were 6.25 and ",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11581241",
+            "title": "A combination of roxithromycin and imipenem as an antimicrobial strategy against biofilms formed by Staphylococcus aureus.",
+            "authors": [
+              "Yamasaki O",
+              "Akiyama H",
+              "Toi Y",
+              "Arata J"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2001",
+            "abstract": "We examined the effects of a combination of roxithromycin and imipenem on a biofilm model of Staphylococcus aureus. Treatment with roxithromycin alone and imipenem alone did not decrease the number of viable bacterial cells compared with the control. However, a combination treatment of roxithromycin and imipenem significantly decreased the number of viable bacterial cells on day 8 after inoculation in the in vivo model (P < 0.01). On days 5 and 8 after inoculation, numerous polymorphonuclear leu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23545527",
+            "title": "Comparative activities of telavancin combined with nafcillin, imipenem, and gentamicin against Staphylococcus aureus.",
+            "authors": [
+              "Leonard Steven N",
+              "Supple Megan E",
+              "Gandhi Ronak G",
+              "Patel Meghna D"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2013",
+            "abstract": "Beta-lactams enhance the killing activity of vancomycin. Due to structural and mechanistic similarities between vancomycin and telavancin, we investigated the activity of telavancin combined with nafcillin and imipenem compared to the known synergistic combination of telavancin and gentamicin. Thirty strains of Staphylococcus aureus, 10 methicillin-susceptible S. aureus (MSSA), 10 methicillin-resistant S. aureus (MRSA), and 10 heterogeneously vancomycin-intermediate S. aureus (hVISA), were teste",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14986007",
+            "title": "Intravitreal vancomycin and amikacin versus intravenous imipenem in the treatment of experimental Staphylococcus aureus endophthalmitis.",
+            "authors": [
+              "Engelbert Michael",
+              "Miño de Kaspar Herminia",
+              "Thiel Martin",
+              "Grasbon Thomas",
+              "Ta Christopher N"
+            ],
+            "journal": "Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie",
+            "year": "2004",
+            "abstract": "Controversy still surrounds the intravenous (IV) treatment of endophthalmitis. The purpose of this study was to compare IV and intraocular (IO) treatment in experimental Staphylococcus aureus endophthalmitis: intravitreal injection of vancomycin and amikacin (VA/AN) in comparison with IV imipenem (IPM) and a combination of IV and IO (IV+IO) therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10588305",
+            "title": "Combined effects of vancomycin and imipenem against methicillin-resistant Staphylococcus aureus (MRSA) in vitro and in vivo.",
+            "authors": [
+              "Totsuka K",
+              "Shiseki M",
+              "Kikuchi K",
+              "Matsui Y"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1999",
+            "abstract": "Infectious disease caused by methicillin-resistant Staphylococcus aureus (MRSA) often develops in compromised hosts in whom a single administration of vancomycin is usually not effective. We assessed the combined antimicrobial effects of vancomycin and imipenem against MRSA growth in vitro as well as in vivo using a neutropenic mouse thigh infection model. Synergic and additive effects of the two drugs were observed for 34 and two, respectively, of the 36 clinical isolates of MRSA, as determined",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38377094",
+            "title": "Prevalence and antibiogram of Pseudomonas aeruginosa and Staphylococcus aureus clinical isolates from burns and wounds in Duhok City, Iraq.",
+            "authors": [
+              "Ali Samir",
+              "Assafi Mahde"
+            ],
+            "journal": "Journal of infection in developing countries",
+            "year": "2024",
+            "abstract": "this study aimed to isolate P. aeruginosa and S. aureus, investigate the antimicrobial resistance of collected isolates, and investigate the distribution of exoU and mecA genes in P. aeruginosa and S. aureus isolates.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20680368",
+            "title": "In vitro and in vivo activities of linezolid alone and combined with vancomycin and imipenem against Staphylococcus aureus with reduced susceptibility to glycopeptides.",
+            "authors": [
+              "Ribes S",
+              "Pachón-Ibáñez M E",
+              "Domínguez M A",
+              "Fernández R",
+              "Tubau F"
+            ],
+            "journal": "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology",
+            "year": "2010",
+            "abstract": "The objective of this study was to evaluate the in vitro and in vivo efficacies of linezolid (35 mg/kg/5 h), vancomycin (60 mg/kg/5 h), imipenem (30 mg/kg/5 h), linezolid+imipenem, linezolid+vancomycin and vancomycin+imipenem against two clinical Staphylococcus aureus isolates with reduced susceptibility to glycopeptides using time-kill curves and the murine peritonitis model. Time-kill curves were performed over 24 h. For the murine peritonitis model, peritonitis was induced by the intraperiton",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39454045",
+            "title": "Brazilian red propolis synergistically with imipenem modulates immunological parameters and the bactericidal activity of human monocytes against methicillin-resistant Staphylococcus aureus (MRSA).",
+            "authors": [
+              "Ripari Nicolas",
+              "Honorio Mariana da Silva",
+              "Sartori Arthur Alves",
+              "de Oliveira Larissa Ragozo Cardoso",
+              "Bastos Jairo Kenupp"
+            ],
+            "journal": "The Journal of pharmacy and pharmacology",
+            "year": "2025",
+            "abstract": "Propolis is a bee product found all over the globe and has a well-known antibacterial activity. Previous findings of our group revealed that the combination of Brazilian red propolis (BRP) with a lower concentration of imipenem (IPM) exerted a bactericidal action against methicillin-resistant Staphylococcus aureus (MRSA) in vitro. Here, we aimed at investigating the effects of BRP in combination or not with IPM on human monocytes to assess a possible immunomodulatory action.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7928812",
+            "title": "Comparative efficacies of imipenem, oxacillin and vancomycin for therapy of chronic foreign body infection due to methicillin-susceptible and -resistant Staphylococcus aureus.",
+            "authors": [
+              "Schaad H J",
+              "Chuard C",
+              "Vaudaux P",
+              "Rohner P",
+              "Waldvogel F A"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "1994",
+            "abstract": "The efficacies of imipenem when directed against methicillin-susceptible (MSSA) and methicillin-resistant (MRSA) strains of Staphylococcus aureus were compared with those of oxacillin and vancomycin in a subcutaneous rat model, using chronically infected tissue cages. At three weeks after inoculation, stable chronic infections were established with average bacterial counts exceeding 10(6) cfu/mL tissue cage fluid for both strains. Intraperitoneal administration (twice a day for 7 days) of imipen",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23089756",
+            "title": "Fosfomycin-daptomycin and other fosfomycin combinations as alternative therapies in experimental foreign-body infection by methicillin-resistant Staphylococcus aureus.",
+            "authors": [
+              "Garrigós C",
+              "Murillo O",
+              "Lora-Tamayo J",
+              "Verdaguer R",
+              "Tubau F"
+            ],
+            "journal": "Antimicrobial agents and chemotherapy",
+            "year": "2013",
+            "abstract": "The efficacy of daptomycin, imipenem, or rifampin with fosfomycin was evaluated and compared with that of daptomycin-rifampin in a tissue cage model infection caused by methicillin-resistant Staphylococcus aureus (MRSA). Strain HUSA 304 was used. The study yielded the following results for MICs (in μg/ml): fosfomycin, 4; daptomycin, 1; imipenem, 0.25; and rifampin, 0.03. The study yielded the following results for minimum bactericidal concentration (MBC) (in μg/ml): fosfomycin, 8; daptomycin, 4;",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12685973",
+            "title": "Antimicrobial resistance of community and hospital acquired Staphylococcus aureus isolates to oxacillin and glycopeptides.",
+            "authors": [
+              "Anwar Muhammad Saeed",
+              "Bokhari Shahid Raza"
+            ],
+            "journal": "Journal of the College of Physicians and Surgeons--Pakistan : JCPSP",
+            "year": "2003",
+            "abstract": "To determine sensitivity pattern of Staphylococcus aureus isolates from the community and hospitals to methicillin, glycopeptides and other antimicrobial agents.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Imipenem 對 MSSA（甲氧西林敏感金黃色葡萄球菌）具高效殺菌活性（結合 PBP1、PBP2、PBP3）。對 MRSA 的直接活性受限（mecA 編碼之 PBP2a 對 β-lactam 親和力低），但 Fosfomycin + Imipenem 聯合方案已有機轉佐證：Fosfomycin 干擾細胞壁前體（UDP-MurNAc）合成，可暫時降低 PBP2a 表達，增強 Imipenem 的殺菌效果（協同作用，synergistic bactericidal activity），多個體外及 Phase 4 臨床研究支持此組合。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "eosinophilia-myalgia syndrome",
+      "txgnn": {
+        "score": 0.9984766840934752,
+        "rank": 2793
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "嗜酸性粒細胞增多-肌痛症候群（EMS）主要由受污染的 L-色胺酸補充品引起，病理機轉涉及毒性代謝物誘發嗜酸性粒細胞浸潤及 TGF-β 介導纖維化。Imipenem 為抗菌藥物，無已知嗜酸性粒細胞調節或抗纖維化機轉。值得注意的是，β-lactam 抗生素（包含 imipenem）本身偶可誘發藥物性嗜酸性粒細胞增多症（drug-induced eosinophilia），此與治療 EMS 目標相悖，使用可能加重病情。此為知識圖譜預測的典型偽關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "diffuse scleroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "diffuse scleroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "diffuse scleroderma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "paratyphoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "paratyphoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "paratyphoid fever"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "salmonellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "salmonellosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "salmonellosis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "chronic rhinosinusitis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "typhoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "typhoid fever"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "typhoid fever"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "chronic ethmoidal sinusitis"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "paranasal sinus neoplasm (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 13,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "staphylococcus aureus infection"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "eosinophilia-myalgia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "eosinophilia-myalgia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imipenem",
+        "disease": "eosinophilia-myalgia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

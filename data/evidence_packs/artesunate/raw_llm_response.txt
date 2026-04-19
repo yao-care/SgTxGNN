@@ -1,0 +1,173 @@
+## Artesunate 藥物再利用證據分析
+
+首先了解 Artesunate 的藥理背景：
+
+**已知藥理特性**（DB09274）：
+- 半合成青蒿素衍生物，主要適應症：瘧疾（原始適應症在本資料集中顯示為空缺，疑為資料缺漏）
+- 核心 MoA：內過氧橋結構產生 ROS、SERCA（PfATP6）泵抑制、血紅素烷化
+- 延伸 MoA：NF-κB 抑制（抗炎）、抗血管新生（VEGF/MMP）、促凋亡（癌細胞）、抗原蟲活性
+
+**資料觀察**：所有 10 個適應症的 `clinical_trials_count = 0`、`literature_count = 0`，意味提供資料中**無臨床佐證**，證據來源純為 TxGNN 預測分數。
+
+---
+
+```json
+{
+  "drug": "Artesunate",
+  "drugbank_id": "DB09274",
+  "analysis_date": "2026-04-05",
+  "data_quality_warning": "原始MoA欄位為[Data Gap]，original_indications為空陣列，疑為資料擷取不完整；Artesunate已有已知抗瘧瘧MoA及部分抗腫瘤臨床證據，但未反映於本輸入資料中",
+  "indications": [
+    {
+      "disease_name": "acne (disease)",
+      "txgnn_score": 0.7921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "rationale": "TxGNN分數最高(0.79)，生物合理性中等。無提供資料內臨床或文獻佐證，但機轉上具探索價值",
+      "mechanistic_link": "Artesunate透過NF-κB抑制及下游促炎細胞因子(IL-1β、TNF-α、IL-6)的壓制具抗炎效果，可能緩解痤瘡的炎症性病灶。此外，artemisinin衍生物對Cutibacterium acnes(痤瘡丙酸桿菌)在體外具有一定抑菌活性，並可能透過ROS機制影響皮脂腺細胞代謝。機轉合理但間接，需體外驗證",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議進行C. acnes體外MIC測試及角質細胞/皮脂腺細胞發炎模型實驗"
+    },
+    {
+      "disease_name": "Smouldering systemic mastocytosis",
+      "txgnn_score": 0.7918,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "rationale": "TxGNN分數高(0.79)，肥大細胞腫瘤生物學與artesunate抗增殖機轉具合理交集。無提供資料內臨床或文獻佐證",
+      "mechanistic_link": "肥大細胞腫瘤(含smouldering型)多由KIT D816V體細胞突變驅動，導致不受控制的肥大細胞增殖。Artesunate的抗增殖機制包括：(1)CDK1/2抑制阻礙細胞週期G2/M過渡；(2)ROS介導的粒線體凋亡通路活化；(3)可能的c-KIT下游訊號干擾。部分前驅研究顯示dihydroartemisinin(ART近源物)對KIT突變細胞株有活性，但直接針對artesunate及smouldering表型的資料缺乏",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議檢索HMC-1.2(D816V+)細胞株artesunate活性資料，評估是否值得進行Phase 1探索"
+    },
+    {
+      "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+      "txgnn_score": 0.7726,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "rationale": "與systemic mastocytosis機轉高度重疊，另有嗜酸性球參與成分。TxGNN分數0.77，無提供資料內臨床或文獻佐證",
+      "mechanistic_link": "除肥大細胞增殖機轉(同systemic mastocytosis)外，此型別具顯著嗜酸性球增多症。Artesunate對IL-5(嗜酸性球主要生存因子)及IL-4/IL-13訊號具抑制潛力，可同時處理兩種細胞群異常增殖。此為稀有亞型(OMIM罕見)，臨床試驗設計面臨患者招募挑戰",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "需先確認systemic mastocytosis概念驗證後，再考量此罕見亞型"
+    },
+    {
+      "disease_name": "gastrin secretion abnormality",
+      "txgnn_score": 0.7671,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "TxGNN分數0.77，但機轉連結極為薄弱且間接。gastrin分泌異常為症狀性描述而非單一疾病實體，無明確治療靶點與artesunate對應。無提供資料內臨床或文獻佐證",
+      "mechanistic_link": "機轉連結高度間接。可能路徑：(1)Artesunate體外具抗幽門螺旋桿菌(H. pylori)活性，而H. pylori感染可導致胃泌素分泌亢進(高胃泌素血症)；(2)Artesunate的前列腺素路徑調節可能間接影響G細胞功能。然而，此適應症的疾病定義模糊(異常分泌可為高或低)，且TxGNN可能捕捉到的是與mastocytosis相關的胃泌素異常(mastocytosis常伴發消化性潰瘍/高胃泌素血症)，屬知識圖譜鄰近效應",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "需澄清此適應症的具體疾病定義後重評。目前建議Hold"
+    },
+    {
+      "disease_name": "systemic mastocytosis",
+      "txgnn_score": 0.7144,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "rationale": "Systemic mastocytosis為肥大細胞腫瘤的核心診斷類別，機轉合理性與smouldering型相同。TxGNN 0.71。注意：提供資料外可能存在artemisinin衍生物相關前臨床文獻未被收錄",
+      "mechanistic_link": "Artesunate的多重抗腫瘤機制(CDK抑制、ROS凋亡、抗血管新生)理論上可干擾骨髓及其他器官的異常肥大細胞積聚。KIT D816V突變對imatinib耐藥，現有療法(midostaurin/avapritinib)雖有效但有毒性顧慮，artesunate作為相對低毒性輔助療法具假說基礎。需注意：若此疾病分類包含侵略型，器官損傷風險需謹慎評估安全性",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議系統性檢索外部文獻(PubMed: artesunate/artemisinin + mastocytosis)後升級評估"
+    },
+    {
+      "disease_name": "leishmaniasis, diffuse cutaneous",
+      "txgnn_score": 0.6616,
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Proceed with Guardrails",
+      "rationale": "此適應症具本資料集中最強的機轉合理性。Artesunate為抗原蟲藥物，利什曼原蟲與瘧原蟲在細胞生物學上具相似弱點。提供資料雖顯示0臨床試驗與文獻，但此結論很可能為收集器未覆蓋相關文獻所致(已知外部文獻存在)。提升至S1進行安全性初評",
+      "mechanistic_link": "【最強機轉連結】Artesunate的核心MoA(內過氧橋ROS生成)對原蟲類具跨物種活性：利什曼原蟲缺乏有效的過氧化物解毒系統，對ROS壓力高度敏感，機制上與抗瘧疾雷同。體外研究已顯示dihydroartemisinin/artesunate對L. donovani、L. major有IC50活性。彌漫性皮膚型利什曼病(DCL)因免疫低下難以治療，現有療法(pentavalent antimonials, miltefosine)毒性高且DCL型常耐藥，代表未被滿足醫療需求。安全性資料豐富(malaria適應症已有大量人類暴露資料)",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "1. 補充外部文獻收集(收集器可能漏收)；2. 評估現有體外/動物模型資料；3. 若有Phase 1安全資料可考量概念驗證研究設計"
+    },
+    {
+      "disease_name": "abnormality of glucagon secretion",
+      "txgnn_score": 0.6177,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "rationale": "TxGNN分數0.62，但機轉上存在有趣的胰臟細胞轉分化假說。無提供資料內臨床或文獻佐證",
+      "mechanistic_link": "Artemisinin衍生物(尤其是artemisinin本身)已在Nature Medicine(2017, Ye et al.)發表的研究中顯示可促進胰臟α細胞(分泌升糖素)向β細胞(分泌胰島素)轉分化，機制涉及PCAF/GCN5乙醯轉移酶活化及Pax4基因表達誘導。若artesunate具相似效果，理論上可減少功能性α細胞數量，降低升糖素分泌。然而：(1)此研究主要針對糖尿病情境；(2)升糖素分泌異常可指向高或低兩方向；(3)artesunate與artemisinin活性差異需確認",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "需界定升糖素分泌異常的方向(高/低)及病因，評估artemisinin/artesunate轉分化效應是否可轉譯至artesunate"
+    },
+    {
+      "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+      "txgnn_score": 0.5966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "PAPA syndrome為PSTPIP1基因突變導致的自體炎症性疾病，極為罕見。TxGNN 0.60。機轉合理性有限，且疾病稀有性使臨床研究極具挑戰",
+      "mechanistic_link": "PAPA syndrome以PSTPIP1功能異常導致的IL-1β過度活化為核心病理，現有療法為IL-1拮抗劑(anakinra/canakinumab)。Artesunate具有一定程度的NF-κB抑制及NLRP3炎症小體下調活性，理論上可減少IL-1β分泌。然而：(1)機轉特異性不足，對PSTPIP1-pyrin互作的影響未知；(2)此病極罕見(全球病例數百例)，難以設計臨床試驗；(3)名稱中的'acne'成分雖與高TxGNN分數的acne適應症重疊，但屬不同機轉的痤瘡",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議Hold，待IL-1β介導自體炎症症的artesunate通用機轉獲得更多體外資料後重評"
+    },
+    {
+      "disease_name": "Wiskott-Aldrich syndrome 2",
+      "txgnn_score": 0.5941,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "WAS2為WASp/N-WASp訊號缺陷的原發性免疫缺陷病。TxGNN 0.59為最低分組。Artesunate與WASp/actin細胞骨架路徑的關聯極弱，機轉合理性低",
+      "mechanistic_link": "Wiskott-Aldrich syndrome 2涉及WIPF1基因突變影響WASp複合物功能，導致T細胞活化、NK細胞毒殺及血小板功能缺陷(actin細胞骨架重組障礙)。Artesunate對actin-WASp路徑無已知直接作用。間接連結：artesunate的免疫調節效果(調節T細胞反應)可能部分緩解WAS的免疫失調，但此為非特異性效果，不針對WAS2核心病理。可能的TxGNN預測來源：知識圖譜中WAS2與免疫缺陷-自體免疫節點的共同鄰近關係",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議Hold。此適應症不符合artesunate再利用的優先探索方向"
+    },
+    {
+      "disease_name": "alacrima, achalasia, and intellectual disability syndrome",
+      "txgnn_score": 0.5932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "rationale": "AAAS syndrome(Triple A syndrome)為ALADIN基因突變所致的罕見遺傳症候群。TxGNN 0.59，為分數最低者之一。機轉上存在生物學矛盾，建議Hold",
+      "mechanistic_link": "AAAS syndrome的病理涉及ALADIN蛋白(核孔複合體成分)缺失，導致氧化壓力保護蛋白(APE1, ferritin)無法進入細胞核，使神經及腺體細胞對氧化損傷高度脆弱。關鍵矛盾：Artesunate的主要MoA為主動產生ROS(氧化壓力)，此機制在AAAS患者細胞中可能加劇已有的氧化損傷缺陷，存在理論上的反向效應風險。除非artesunate的抗炎/神經保護效果能超越ROS毒性，否則機轉上不支持此適應症",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "next_step": "建議Hold。ROS產生機轉與AAAS氧化壓力脆弱性之間的生物學矛盾需先排除"
+    }
+  ],
+  "summary": {
+    "L5_count": 10,
+    "L4_count": 0,
+    "L3_count": 0,
+    "L2_count": 0,
+    "L1_count": 0,
+    "proceed_with_guardrails": ["leishmaniasis, diffuse cutaneous"],
+    "research_question": ["acne (disease)", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "systemic mastocytosis", "abnormality of glucagon secretion"],
+    "hold": ["gastrin secretion abnormality", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "Wiskott-Aldrich syndrome 2", "alacrima, achalasia, and intellectual disability syndrome"],
+    "priority_for_external_literature_search": ["leishmaniasis, diffuse cutaneous", "systemic mastocytosis", "acne (disease)"],
+    "data_gap_alert": "本資料集所有適應症clinical_trials_count與literature_count均為0，高度懷疑收集器覆蓋率不足，尤其是leishmaniasis適應症(已知外部前臨床文獻存在)。建議補充PubMed/ClinicalTrials.gov直接查詢後重評"
+  }
+}
+```
+
+---
+
+## 關鍵洞察摘要
+
+| 適應症 | TxGNN | 證據等級 | 決策 | 機轉強度 |
+|--------|--------|----------|------|----------|
+| 彌漫性皮膚利什曼病 | 0.66 | L5 | **S1 Proceed** | ⭐⭐⭐⭐⭐ 最強（跨原蟲ROS機制） |
+| 痤瘡 | 0.79 | L5 | S0 Research Q | ⭐⭐⭐ 抗炎+抗菌 |
+| 系統性肥大細胞增多症 | 0.71 | L5 | S0 Research Q | ⭐⭐⭐ 抗增殖+KIT路徑 |
+| 悶燃型系統性肥大細胞增多症 | 0.79 | L5 | S0 Research Q | ⭐⭐⭐ |
+| 胰升糖素分泌異常 | 0.62 | L5 | S0 Research Q | ⭐⭐ α→β細胞轉分化 |
+| 胃泌素分泌異常 | 0.77 | L5 | S0 **Hold** | ⭐ 間接/疾病定義模糊 |
+| PAPA症候群 | 0.60 | L5 | S0 Hold | ⭐ |
+| WAS2 | 0.59 | L5 | S0 Hold | ⭐ |
+| AAAS症候群 | 0.59 | L5 | S0 **Hold** ⚠️ | ❌ 機轉矛盾（ROS加劇氧化損傷） |
+
+> ⚠️ **資料品質警示**：所有適應症均無臨床試驗或文獻記錄，高度建議補充外部文獻收集後重新評估，尤其是利什曼病與肥大細胞增多症方向。

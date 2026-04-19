@@ -1,0 +1,553 @@
+# Alanine (DB00160) 藥物再利用證據分析
+
+分析所有適應症後，核心問題在於：**所列臨床試驗均針對疾病本身，並非以 Alanine 作為治療藥物**；文獻多為機轉基礎研究或代謝組學相關，無直接療效數據。
+
+---
+
+```json
+{
+  "drug": "Alanine",
+  "drugbank_id": "DB00160",
+  "analysis_date": "2026-04-04",
+  "overall_note": "Alanine 為非必需胺基酸，DrugBank 標記未上市（藥用途徑），原始適應症與 MoA 均無資料。TxGNN 高分預測源自知識圖譜中代謝節點的廣泛連結，並非直接臨床證據。所列試驗多為研究疾病本身的其他藥物，Alanine 並非這些試驗的主要干預措施。",
+  "indications": [
+    {
+      "disease_name": "gastroparesis (disease)",
+      "txgnn_score": 0.9937,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Alanine 參與葡萄糖異生（丙胺酸-葡萄糖循環），糖尿病性胃輕癱與血糖波動相關，理論上可能影響胃動力的代謝環境。然而此連結極為間接，無特定機轉支持 Alanine 直接改善胃排空。'未上市' 藥品狀態進一步顯示缺乏藥用開發基礎。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03941288",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，研究大麻二酚（CBD）對胃輕癱的效果，n=92。干預藥物非 Alanine，與本藥無關。"
+        },
+        {
+          "nct_id": "NCT03587142",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，研究 Buspirone 對胃輕癱早飽症狀，n=96。與 Alanine 無關聯。"
+        },
+        {
+          "nct_id": "NCT01149369",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，Aprepitant（NK1 拮抗劑）用於慢性噁心嘔吐，n=126。與 Alanine 無關。"
+        },
+        {
+          "nct_id": "NCT01934192",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 終止，重症患者營養支持研究（NUTRIENT 研究），n=91。腸道營養配方可能含 Alanine，但試驗聚焦谷氨醯胺補充，Alanine 非主要干預；終止狀態降低價值。"
+        },
+        {
+          "nct_id": "NCT01602549",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，58 名受試者，標題截斷無法確認藥物，但無跡象顯示為 Alanine 試驗。"
+        },
+        {
+          "nct_id": "NCT01262898",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，79 名受試者，安全性評估試驗，非 Alanine 介入。"
+        },
+        {
+          "nct_id": "NCT06452966",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，招募中，中藥治療重症器官衰竭，n=350。疾病類別不同，Alanine 無關。"
+        },
+        {
+          "nct_id": "NCT02793154",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 終止，僅 4 名受試者，樣本極小且終止。"
+        },
+        {
+          "nct_id": "NCT07270939",
+          "relevance_grade": "C",
+          "reasoning": "Phase NA，尚未招募，比較 18/20/24 小時腸道營養方案，時序設計非 Alanine 相關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "10926110",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "ESRD 腎移植患者的 GI 和肝臟疾病概述，無 Alanine 治療胃輕癱的內容。"
+        },
+        {
+          "pmid": "26315331",
+          "study_type": "Review/Case Series",
+          "tier": "3",
+          "note": "糖尿病性肝硬化（hepatosclerosis）與胃輕癱的間接共病關係，非 Alanine 療效研究。"
+        },
+        {
+          "pmid": "33763324",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "第一型糖尿病糖原性肝病（Glycogen Hepatopathy）案例報告，與胃輕癱的關聯極為間接。"
+        }
+      ]
+    },
+    {
+      "disease_name": "obsolete vitamin D deficiency",
+      "txgnn_score": 0.9870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "適應症標記為 'obsolete'（已廢用 ontology 術語），本身即顯示系統性問題。Alanine 與維生素 D 代謝無已知直接機轉聯結。高 TxGNN 分數可能源自知識圖譜中代謝節點的廣泛邊連結，非真實病理機轉。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9837,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Alanine 可能透過胃酸分泌調節或腸道菌群代謝物影響消化功能，但此假說缺乏直接支持。所有列出的文獻均研究其他藥物（acotiamide、rebamipide、semaglutide）對消化不良的效果，無一涉及 Alanine。臨床試驗 33 個均非以 Alanine 為干預藥物。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06842966",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 招募中，300 名受試者，標題截斷，但試驗設計為其他藥物，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT04350346",
+          "relevance_grade": "C",
+          "reasoning": "Motilitone vs Gasmotine 比較試驗，70 名受試者，均為促動力劑，與 Alanine 無關。"
+        },
+        {
+          "nct_id": "NCT02227238",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 完成，Dolutegravir 對比 HIV 患者，627 名受試者。此為抗病毒試驗，消化不良為副作用監測，非主要適應症。"
+        },
+        {
+          "nct_id": "NCT05346302",
+          "relevance_grade": "C",
+          "reasoning": "Early Phase 1 完成，疫苗免疫研究，消化不良非主要結局。"
+        },
+        {
+          "nct_id": "NCT04773392",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 終止，免疫抑制方案簡化研究，與 Alanine 完全無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35070565",
+          "study_type": "Systematic Review/Meta-Analysis",
+          "tier": "3",
+          "note": "Acotiamide 治療功能性消化不良的系統性回顧，非 Alanine。"
+        },
+        {
+          "pmid": "29464582",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "Rebamipide 在消化不良中的機轉探討，與 Alanine 無關。"
+        },
+        {
+          "pmid": "29192375",
+          "study_type": "Systematic Review/Meta-Analysis",
+          "tier": "3",
+          "note": "Rebamipide 系統性回顧，高品質文獻但對象藥物非 Alanine。"
+        },
+        {
+          "pmid": "35115288",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "電胃圖研究，涵蓋功能性消化不良與糖尿病性胃輕癱，無 Alanine 治療面向。"
+        }
+      ]
+    },
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.9826,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性凝血酶原缺乏症為凝血因子 II（F2 基因）缺陷所致，主要治療方式為補充凝血酶原濃縮物（PCC）或新鮮冰凍血漿。Alanine 為胺基酸，缺乏影響凝血級聯反應的已知機轉。所列試驗均涉及基因治療、病毒載體疫苗或 HIV 抗病毒藥物，與 Alanine 無任何關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02484092",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，SPK-9001 腺相關病毒基因治療血友病，15 名受試者。基因治療，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT00345605",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，苯基丁酸鈉 vs 低劑量精氨酸治療尿素循環障礙，12 名受試者。與凝血酶原缺乏無關。"
+        },
+        {
+          "nct_id": "NCT03020745",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，安全性、耐受性評估，78 名受試者，非 Alanine 相關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "24319161",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "PCC 與長效凝血因子綜述，直接與適應症相關但對象藥物非 Alanine。"
+        },
+        {
+          "pmid": "25117570",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "先天性 GH 缺乏症的肝臟狀態研究，與凝血酶原缺乏的連結極度間接。"
+        },
+        {
+          "pmid": "35418791",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "MC2R 基因突變嬰兒膽汁鬱積症案例，與凝血酶原缺乏無直接關聯。"
+        }
+      ]
+    },
+    {
+      "disease_name": "hypophosphatemic rickets",
+      "txgnn_score": 0.9656,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "最重要的文獻（PMID 36042241）研究 FGF23-Burosumab 結合界面時使用了『丙胺酸掃描突變分析（alanine scanning mutagenesis）』技術，此為分子生物學工具，並非以 Alanine 作為治療藥物。其餘文獻涉及 FGF23 生物學、磷酸鹽轉運及 WNK/SGK 信號通路，Alanine 的代謝角色在磷酸鹽代謝中極為間接。若要進一步研究，需先確認 Alanine 是否能調節 FGF23 分泌或腎小管磷酸鹽重吸收。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36042241",
+          "study_type": "Structural Biology/Computational",
+          "tier": "2",
+          "note": "使用丙胺酸掃描突變預測 FGF23-Burosumab 界面，『Alanine』為技術工具而非治療藥物，對藥物再利用評估有誤導性。"
+        },
+        {
+          "pmid": "11344269",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "FGF23 作為腫瘤誘導骨軟化症致病因子的克隆與特性研究，提供疾病機轉背景。"
+        },
+        {
+          "pmid": "21493770",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "PKB/SGK 抵抗 GSK3 增強磷酸尿和鈣尿，腎小管磷酸鹽處理的間接機轉。"
+        },
+        {
+          "pmid": "23235437",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "WNK 抵抗基因靶向小鼠中 FGF23 升高，信號通路研究。"
+        },
+        {
+          "pmid": "8304442",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "X 染色體連鎖低磷酸鹽血症小鼠成骨細胞磷酸鹽轉運研究，1994 年舊文獻。"
+        },
+        {
+          "pmid": "21812032",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "遺傳性維生素 D 抵抗性佝僂病（HVDRR）異質性突變案例，與低磷酸鹽血症佝僂病機轉不同。"
+        }
+      ]
+    },
+    {
+      "disease_name": "renal tubular acidosis",
+      "txgnn_score": 0.9641,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "此適應症在所有候選中機轉連結最為直接。PMID 6410927 直接研究 L-丙胺酸在雞腎小管的代謝與轉運，證實近端腎小管是 Alanine 重要的轉運與代謝場所。PMID 2283995 和 PMID 2051649 記錄代謝性酸中毒時器官間 Alanine/谷氨醯胺流量的變化，顯示 Alanine 在腎臟酸鹼調節中扮演受體角色。然而，現有文獻方向為『酸中毒影響 Alanine 代謝』而非『補充 Alanine 可治療 RTA』，因果方向相反，仍需前瞻性機轉研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04725812",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 終止，CRUSH 研究針對子癇前症的補體調節，僅 2 名受試者即終止。與腎小管性酸中毒或 Alanine 無任何關聯。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6410927",
+          "study_type": "Basic Science (Animal)",
+          "tier": "2",
+          "note": "最相關文獻：直接研究 L-丙胺酸在雞腎小管的代謝與主動轉運，1983 年舊文獻，提供重要機轉基礎但無治療意涵。"
+        },
+        {
+          "pmid": "2283995",
+          "study_type": "Basic Science",
+          "tier": "2",
+          "note": "代謝性酸中毒時器官間谷氨醯胺流量調節，Alanine 作為重要代謝物在酸中毒中的角色，間接支持機轉假說。"
+        },
+        {
+          "pmid": "2051649",
+          "study_type": "Clinical/Metabolic Study",
+          "tier": "2",
+          "note": "慢性腎衰竭代謝性酸中毒對胺基酸和酮酸代謝的影響，包含 Alanine 代謝改變的直接數據。"
+        },
+        {
+          "pmid": "31498779",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Tenofovir Alafenamide 誘發腎小管性酸中毒案例，研究藥物誘發 RTA，非 Alanine 治療。"
+        },
+        {
+          "pmid": "26728390",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "慢性代謝性酸中毒透過血管緊張素 II 激活腎小管 NCC，機轉研究。"
+        },
+        {
+          "pmid": "37688338",
+          "study_type": "Biomarker Study",
+          "tier": "2",
+          "note": "胺基酸比例組合作為丙酮酸脫氫酶複合體缺乏症生物標誌物，Alanine/丙酮酸代謝紊亂與 RTA 的代謝連結。"
+        },
+        {
+          "pmid": "29483157",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "高鉀血症誘發代謝性酸中毒機轉，為 RTA 的分類背景文獻。"
+        },
+        {
+          "pmid": "25987732",
+          "study_type": "Basic Science (Animal)",
+          "tier": "3",
+          "note": "金魚腎臟對代謝性酸中毒的分子反應，動物模型研究。"
+        },
+        {
+          "pmid": "32431966",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "免疫檢查點抑制劑誘發 Fanconi 症候群，副作用機轉案例。"
+        },
+        {
+          "pmid": "39205661",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "遠端曲小管 COP9 信號小體特異性破壞研究，腎小管離子轉運調節。"
+        }
+      ]
+    },
+    {
+      "disease_name": "sclerosing cholangitis",
+      "txgnn_score": 0.9634,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性硬化性膽管炎（PSC）的核心病理為膽管炎症纖維化，目前研究方向聚焦於腸道菌群（FMT）、膽汁酸（UDCA）、抗菌藥物（Vancomycin）、抗纖維化藥物。Alanine 缺乏影響膽管纖維化的已知機轉。所列 27 個試驗均研究其他干預，文獻無一涉及 Alanine。TxGNN 分數可能源自 Alanine 與肝臟代謝節點的知識圖譜連結。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06286709",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 招募中，FARGO 研究：糞菌移植治療 PSC，58 名受試者。最新 PSC 試驗方向，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT07341282",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 尚未招募，Vancomycin 治療 UC+PSC 患者，14 名受試者。抗菌藥物機轉，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT06699121",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 招募中，87 名受試者，安全性和有效性評估，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT03678480",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 撤回，HTD1801 vs UDCA 研究，0 名受試者，已撤回。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35822553",
+          "study_type": "RCT",
+          "tier": "3",
+          "note": "Fenofibrate 治療 PSC 的隨機雙盲安慰劑對照試驗，高品質設計但對象非 Alanine。"
+        },
+        {
+          "pmid": "31131678",
+          "study_type": "Pilot Study",
+          "tier": "3",
+          "note": "薑黃素治療 PSC 開放標籤先驅研究，天然物研究方向，非 Alanine。"
+        },
+        {
+          "pmid": "27995906",
+          "study_type": "Clinical Guideline",
+          "tier": "3",
+          "note": "ACG 異常肝酶評估臨床指引，提供診斷架構背景。"
+        },
+        {
+          "pmid": "38358371",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "PSC 中 I 型干擾素水平與肝損傷纖維化的關聯，炎症機轉研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "potassium deficiency disease",
+      "txgnn_score": 0.9585,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "低鉀血症的治療以補充鉀離子為標準方案。Alanine 與鉀代謝的連結僅見於代謝組學研究（PMID 30379930 顯示微量元素不足兒童血漿代謝物改變包含胺基酸）。所列 50 個試驗均為癌症、HIV、腎臟病等研究，低鉀血症多為副作用觀察指標而非主要適應症。WNK/SPAK/NCC 信號通路文獻為基礎研究，未涉及 Alanine 介入。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01121393",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 完成，BIBW 2992（Afatinib）vs 化療治療 NSCLC，364 名受試者。低鉀血症為副作用監測，非主要研究目的。"
+        },
+        {
+          "nct_id": "NCT02398201",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，Bezafibrate 治療粒線體肌病，6 名受試者。電解質異常為安全性監測。"
+        },
+        {
+          "nct_id": "NCT01599754",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 終止，Axitinib 輔助治療腎臟癌，724 名受試者，中途終止。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30379930",
+          "study_type": "Metabolomics Study",
+          "tier": "2",
+          "note": "最相關文獻：兒童血漿代謝組學顯示微量元素攝取不足者胺基酸（含 Alanine）代謝改變，但為觀察性，無治療介入。"
+        },
+        {
+          "pmid": "38961847",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "KS-WNK1 缺失促進 NCC 活化研究，鉀代謝信號通路，與 Alanine 無關。"
+        },
+        {
+          "pmid": "33719576",
+          "study_type": "Basic Science",
+          "tier": "3",
+          "note": "WNK4 和 SPAK 在鉀介導 NCC 去磷酸化中的角色，機轉研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "postmenopausal osteoporosis",
+      "txgnn_score": 0.9570,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "代謝組學研究顯示停經後骨質疏鬆症患者胺基酸代謝改變（含 Alanine 水平），但這反映疾病狀態而非治療靶點。PMID 26791408 研究血清丙胺酸轉胺酶（ALT）與骨密度的關聯，係探討肝臟脂肪而非 Alanine 補充。所列 15 個試驗均研究雙磷酸鹽、Denosumab、Abaloparatide 等標準骨質疏鬆治療藥物。無任何跡象顯示 Alanine 補充能影響骨代謝。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00048074",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 完成，靜脈注射雙磷酸鹽不同療程比較，1395 名受試者。標準骨質疏鬆治療，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT00515463",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 完成，Denosumab 免疫原性與安全性研究，311 名受試者。RANK/RANKL 機轉，非 Alanine。"
+        },
+        {
+          "nct_id": "NCT01674621",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 完成，BA058（Abaloparatide）經皮貼片研究，250 名受試者。PTHrP 類似物，非 Alanine。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "34963648",
+          "study_type": "Animal Metabolomics",
+          "tier": "2",
+          "note": "大鼠停經後骨質疏鬆代謝組學分析腎臟-骨髓-骨骼關係，Alanine 可能出現於代謝物列表，但為觀察性。"
+        },
+        {
+          "pmid": "38772440",
+          "study_type": "Metabolomics Study",
+          "tier": "2",
+          "note": "停經後骨質疏鬆合併第 2 型糖尿病的代謝改變研究，胺基酸代謝作為生物標誌物而非治療靶點。"
+        },
+        {
+          "pmid": "29975282",
+          "study_type": "Observational",
+          "tier": "2",
+          "note": "停經前後女性尿液代謝物與骨密度關聯，Alanine 等胺基酸為觀察指標，無介入設計。"
+        },
+        {
+          "pmid": "26791408",
+          "study_type": "Observational",
+          "tier": "3",
+          "note": "肝臟脂肪含量和血清 ALT（丙胺酸轉胺酶）與骨密度關聯性研究。注意：ALT ≠ Alanine 補充療效。"
+        },
+        {
+          "pmid": "19672742",
+          "study_type": "RCT",
+          "tier": "3",
+          "note": "Ipriflavone 治療停經後骨質疏鬆 RCT，植物雌激素機轉，非 Alanine。"
+        }
+      ]
+    },
+    {
+      "disease_name": "albinism-deafness syndrome",
+      "txgnn_score": 0.9488,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "白化症-耳聾症候群（Tietz 症候群/Waardenburg 症候群 II 型）為 MITF/EDNRB 等基因突變導致的神經嵴細胞發育異常，影響黑色素細胞和聽覺毛細胞。Alanine 無任何已知影響黑色素生成或耳蝸毛細胞存活的機轉。完全無臨床試驗和文獻支持，TxGNN 分數純為模型預測。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S0_Hold": 8,
+      "S1_Research_Question": 2,
+      "S2_Proceed_Guardrails": 0,
+      "S3_Recommended": 0
+    },
+    "priority_candidates": [
+      {
+        "rank": 1,
+        "disease": "renal tubular acidosis",
+        "rationale": "唯一具有直接 Alanine-腎小管機轉文獻（PMID 6410927, 2283995, 2051649），L-Alanine 在近端腎小管的主動轉運已有直接證據，代謝性酸中毒時 Alanine 代謝改變方向明確，為最值得進一步機轉研究的候選。"
+      },
+      {
+        "rank": 2,
+        "disease": "hypophosphatemic rickets",
+        "rationale": "FGF23-Burosumab 結合界面的丙胺酸掃描研究提供結構生物學線索，但需釐清 Alanine 作為藥物（非突變工具）是否能調節 FGF23 功能。"
+      }
+    ],
+    "critical_issues": [
+      "Alanine（DB00160）標記為未上市藥品，缺乏藥物開發安全性數據基礎",
+      "所有列出的臨床試驗均非以 Alanine 作為主要干預措施，試驗相關性評估結果多為 Grade C",
+      "TxGNN 高分預測（0.95-0.99）反映知識圖譜代謝節點廣泛連結，而非臨床療效信號",
+      "文獻中出現的 'Alanine scanning' 技術（PMID 36042241）與 Alanine 作為治療藥物完全不同，需避免混淆",
+      "代謝組學研究（停經後骨質疏鬆、低鉀血症）顯示 Alanine 水平改變為疾病後果，而非可介入的治療靶點",
+      "建議優先以體外/動物實驗確認 Alanine 補充在 RTA 模型中的療效，方可進入臨床評估"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|--------|---------|---------|------|---------|
+| gastroparesis | **L5** | S0 | ❌ Hold | 試驗均為其他藥物，無 Alanine 直接證據 |
+| obsolete vitamin D deficiency | **L5** | S0 | ❌ Hold | Obsolete 術語 + 零證據 |
+| dyspepsia | **L5** | S0 | ❌ Hold | 33 試驗均非 Alanine 干預 |
+| congenital prothrombin deficiency | **L5** | S0 | ❌ Hold | 凝血機轉無 Alanine 角色 |
+| hypophosphatemic rickets | **L4** | S1 | 🔬 Research Question | 誤讀「丙胺酸掃描技術」為藥物證據 |
+| **renal tubular acidosis** | **L4** | S1 | 🔬 Research Question | **最佳機轉候選**：腎小管 Alanine 轉運有直接證據 |
+| sclerosing cholangitis | **L5** | S0 | ❌ Hold | 27 試驗均為其他藥物 |
+| potassium deficiency | **L5** | S0 | ❌ Hold | 代謝組學相關但非治療靶點 |
+| postmenopausal osteoporosis | **L5** | S0 | ❌ Hold | ALT ≠ Alanine 補充；代謝物為結果非原因 |
+| albinism-deafness syndrome | **L5** | S0 | ❌ Hold | 零證據，基因病無機轉連結 |
+
+> ⚠️ **YMYL 免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過嚴格臨床驗證方可應用。

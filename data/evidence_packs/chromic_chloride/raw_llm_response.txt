@@ -1,0 +1,179 @@
+## 藥物再利用證據分析：Chromic Chloride (DB09129)
+
+### 前置分析摘要
+
+**藥物背景：**
+- Chromic chloride（氯化鉻III）為鉻的三價無機鹽，在醫療上主要用於靜脈全腸外營養（TPN）的微量元素補充，治療鉻缺乏症
+- 鉻(III) 已知功能：增強胰島素敏感性、參與葡萄糖耐受因子（GTF）代謝
+- 市場狀態為「未上市」（作為再利用候選），且無任何 DDI 記錄
+
+**全局警示：所有 10 個適應症均無任何臨床試驗及文獻佐證，全部為純 TxGNN 模型預測。**
+
+---
+
+```json
+{
+  "drug": "Chromic chloride",
+  "drugbank_id": "DB09129",
+  "analysis_date": "2026-04-04",
+  "global_flags": [
+    "所有適應症證據等級均為 L5（純預測）",
+    "藥物市場狀態為未上市，安全性資料有限",
+    "原始適應症空白，MoA 資料缺失（[Data Gap]）",
+    "鉻(III) 長期大量暴露有潛在毒性風險，需毒理學評估"
+  ],
+  "indications": [
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.9570,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無明確機轉連結。原發性遺傳性青光眼為基因驅動的眼壓異常，鉻(III) 對房水生成、小梁網功能或視神經保護無已知作用。TxGNN 高分可能反映知識圖譜中微量元素→粒線體→視神經功能的多跳間接路徑，但缺乏生物學合理性支撐。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "遺傳疾病機轉不符，再利用潛力極低"
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.9532,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "開角型青光眼主要涉及眼壓調節異常及視神經損傷。雖氧化壓力在青光眼病理中有一定角色，鉻(III) 具微弱抗氧化特性，但尚無研究顯示鉻能影響眼壓或視神經保護。與 primary hereditary glaucoma 預測高度相關，可能源於 KG 同一鄰域效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "與 primary hereditary glaucoma 及 glaucoma 1, open angle 三筆高度重疊，建議合併評估而非獨立優先排序"
+    },
+    {
+      "disease_name": "amenorrhea (disease)",
+      "txgnn_score": 0.9372,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本組最具生物學合理性的適應症之一。推測路徑：鉻(III) → 增強胰島素受體信號 → 改善胰島素阻抗 → 降低高胰島素血症 → 改善 PCOS 相關高雄激素血症 → 恢復下視丘-腦垂腺-卵巢軸正常功能 → 改善月經週期。Chromium picolinate（另一鉻補充型態）已有小型 PCOS 研究，但氯化鉻形式及閉經直接適應症無臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "若機轉聚焦 PCOS 相關閉經，應調整為 chromium picolinate 相關文獻進行間接評估；仍不足以升至 L4"
+    },
+    {
+      "disease_name": "filariasis",
+      "txgnn_score": 0.9147,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無已知機轉。絲蟲病為寄生蟲感染，治療靶向寄生蟲生存機制。雖部分金屬離子有抗微生物活性，但鉻(III) 無已知抗寄生蟲活性，亦無相關研究。此預測可能為 KG 中免疫調節路徑的誤判連結，生物學合理性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "再利用合理性最低之適應症之一，建議排除優先考量"
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "txgnn_score": 0.9073,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "三叉自主神經頭痛（如叢集性頭痛）涉及三叉神經血管系統及下視丘功能異常。鉻(III) 對此路徑無直接作用。間接假說：鉻 → 穩定血糖 → 減少低血糖誘發頭痛，但此機轉與 TAC 的神經血管病理不符。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "與 headache disorder 高度重疊，合併評估建議相同"
+    },
+    {
+      "disease_name": "headache disorder",
+      "txgnn_score": 0.9072,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "一般性頭痛疾患範疇廣泛，部分類型（如代謝性頭痛）理論上可能因血糖穩定化而緩解。鉻(III) 可能透過胰島素敏感性改善而間接減少血糖波動誘發頭痛，但證據僅屬推測層次。鎂等微量元素已有偏頭痛研究，但鉻未有此類研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "trigeminal autonomic cephalalgia 與本項分數差異 0.0001，可能為 KG 同節點預測"
+    },
+    {
+      "disease_name": "peripheral arterial disease",
+      "txgnn_score": 0.9051,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "本組機轉最具合理性之心血管適應症。推測路徑：鉻(III) → 改善胰島素阻抗及血脂（降低 LDL、三酸甘油酯）→ 減緩動脈粥狀硬化進程 → 改善周邊動脈灌流。糖尿病為 PAD 的主要風險因子，鉻補充對代謝症候群的潛在效益具間接生物學基礎。但直接針對 PAD 的鉻研究付之闕如。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "若有代謝症候群相關 PAD 亞族群研究設計，本項具最高轉化研究潛力（仍需基礎研究驗證）"
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9001,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性稀毛症合併粟粒疹為罕見遺傳性皮膚毛囊疾患，通常由 HR 或 LIPH 基因突變引起。鉻(III) 對毛囊發育、角化或遺傳表現調控無已知作用。此預測缺乏任何生物學合理性，可能為 KG 稀疏節點的噪音預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "孤兒罕病且機轉不符，再利用價值極低"
+    },
+    {
+      "disease_name": "pulmonary hypertension",
+      "txgnn_score": 0.8955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺動脈高壓涉及肺血管重塑、內皮功能障礙及血管收縮。鉻(III) 對 NO 信號傳導或血管平滑肌的直接作用未見報告。可能的間接路徑：鉻 → 改善代謝狀態 → 減少氧化壓力 → 輕微內皮保護，但此連結過於薄弱，且 PAH 病理機轉複雜，代謝改善不足以影響肺血管阻力。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "PAH 治療需精準靶向 ET-1/NO/prostacyclin 路徑，鉻(III) 機轉不符"
+    },
+    {
+      "disease_name": "glaucoma 1, open angle",
+      "txgnn_score": 0.8932,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "即 MYOC 基因相關的原發性開角型青光眼亞型。與前兩項青光眼預測高度重疊（三者均為 L5/S0），為 KG 中相近疾病節點的群聚預測現象。鉻(III) 對 MYOC 蛋白質折疊異常或小梁網功能無已知介入機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_notes": "建議與 open-angle glaucoma 及 primary hereditary glaucoma 合併為同一疾病群組評估，避免重複計算"
+    }
+  ],
+  "cross_cutting_analysis": {
+    "pattern_observation": "10 項預測中出現兩個顯著群聚：(1) 青光眼三聯 [primary hereditary / open-angle / glaucoma 1 open angle]，分數 0.893-0.957；(2) 頭痛二聯 [TAC / headache disorder]，分數差異 < 0.0002。此種群聚通常反映 KG 中語義相近節點的共同鄰域效應，而非獨立預測。",
+    "drug_specific_concern": "Chromic chloride 為無機金屬鹽，生物利用率低，長期高劑量暴露已知有腎毒性及潛在致癌風險（六價鉻Cr(VI) 的毒性不可外推至三價鉻，但混淆風險存在）。任何再利用研究須先完成毒理學安全視窗評估。",
+    "highest_priority_for_research": [
+      {
+        "rank": 1,
+        "indication": "amenorrhea (disease)",
+        "rationale": "代謝-生殖軸機轉最具生物學合理性，且有 chromium picolinate 相關 PCOS 間接文獻可借鑒"
+      },
+      {
+        "rank": 2,
+        "indication": "peripheral arterial disease",
+        "rationale": "鉻-胰島素阻抗-代謝症候群-血管病變路徑具合理性，PAD 為代謝疾病常見共病"
+      }
+    ],
+    "recommended_next_steps": [
+      "進行系統性文獻回顧：chromium supplementation + 各適應症，以評估是否存在未被收錄的間接文獻",
+      "評估 chromium picolinate 相關研究是否可作為 chromic chloride 的替代證據（不同鹽型）",
+      "毒理學安全性評估：確立三價鉻的 NOAEL 及治療視窗",
+      "優先對閉經/代謝症候群適應症設計機轉研究（體外/動物）以獲取 L4 等級初始證據"
+    ]
+  }
+}
+```
+
+---
+
+## 總結表
+
+| 適應症 | TxGNN分數 | 證據等級 | 決策階段 | 建議 | 機轉合理性 |
+|--------|-----------|----------|----------|------|-----------|
+| Primary hereditary glaucoma | 0.957 | **L5** | S0 | Hold | ⭐ 極低 |
+| Open-angle glaucoma | 0.953 | **L5** | S0 | Hold | ⭐ 極低 |
+| Amenorrhea | 0.937 | **L5** | S0 | Hold | ⭐⭐⭐ 中等（最佳候選） |
+| Filariasis | 0.915 | **L5** | S0 | Hold | ⭐ 極低 |
+| Trigeminal autonomic cephalalgia | 0.907 | **L5** | S0 | Hold | ⭐ 極低 |
+| Headache disorder | 0.907 | **L5** | S0 | Hold | ⭐⭐ 低 |
+| Peripheral arterial disease | 0.905 | **L5** | S0 | Hold | ⭐⭐⭐ 中等（次要候選） |
+| Congenital hypotrichosis milia | 0.900 | **L5** | S0 | Hold | ⭐ 極低 |
+| Pulmonary hypertension | 0.895 | **L5** | S0 | Hold | ⭐ 極低 |
+| Glaucoma 1, open angle | 0.893 | **L5** | S0 | Hold | ⭐ 極低 |
+
+> ⚠️ **重要聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經過臨床驗證才能應用。Chromic chloride 的所有預測適應症目前均缺乏臨床支持證據，不應在未經嚴格研究設計及倫理審查的情況下應用於患者。

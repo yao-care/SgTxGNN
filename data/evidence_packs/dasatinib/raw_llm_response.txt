@@ -1,0 +1,389 @@
+```json
+{
+  "drug": "Dasatinib",
+  "drugbank_id": "DB01254",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "Dasatinib 為 BCR-ABL/Src 雙重激酶抑制劑，全球多市場已核准用於 CML，本地市場標記為未上市。以下依各適應症獨立評估。",
+  "indications": [
+    {
+      "disease_name": "myeloid leukemia",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Dasatinib 直接抑制 BCR-ABL 融合激酶（慢性骨髓性白血病的驅動突變），同時抑制 Src 家族激酶。DASISION Phase 3 RCT（imatinib 對照）確立其一線 CML 療效，5 年追蹤 CMR 率顯著優於 imatinib。已獲 FDA/EMA 核准，屬已知適應症而非再利用情境。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00978731",
+          "relevance_grade": "A",
+          "reasoning": "長期安全性與療效追蹤研究，46 例 CML/Ph+ ALL 患者，COMPLETED，直接評估 dasatinib 於 CML 的持久反應"
+        },
+        {
+          "nct_id": "NCT00529763",
+          "relevance_grade": "A",
+          "reasoning": "Phase II，121 例，COMPLETED，直接評估 dasatinib 100mg QD 於 CML 的活性，為劑量最佳化關鍵研究"
+        },
+        {
+          "nct_id": "NCT00982488",
+          "relevance_grade": "A",
+          "reasoning": "Phase II，238 例，COMPLETED，涵蓋 CML 慢性期與 Ph+ ALL，樣本數充足，直接相關"
+        },
+        {
+          "nct_id": "NCT01887561",
+          "relevance_grade": "A",
+          "reasoning": "Phase II，100 例，新診斷 CML 慢性期，直接評估 dasatinib 一線療效，狀態 UNKNOWN 但設計相關性高"
+        },
+        {
+          "nct_id": "NCT02923986",
+          "relevance_grade": "C",
+          "reasoning": "WITHDRAWN，enrollment 0，無實際資料貢獻，相關性低"
+        },
+        {
+          "nct_id": "NCT04835584",
+          "relevance_grade": "B",
+          "reasoning": "KRT-232 聯合 TKI 的 Phase 1b/2，非 dasatinib 單藥，但評估 AML 情境下的組合策略，間接相關"
+        },
+        {
+          "nct_id": "NCT04126681",
+          "relevance_grade": "B",
+          "reasoning": "HQP1351（ponatinib 類似物）Phase 2 於 CML，非 dasatinib，但機轉類似，提供同類藥物背景證據"
+        },
+        {
+          "nct_id": "NCT04233346",
+          "relevance_grade": "C",
+          "reasoning": "Ponatinib Phase II 於中國 CML 患者，非 dasatinib，相關性有限"
+        },
+        {
+          "nct_id": "NCT00482703",
+          "relevance_grade": "A",
+          "reasoning": "Phase I/II，dasatinib 劑量優化研究於 CML，23 例，COMPLETED，劑量方案確立的重要早期研究"
+        },
+        {
+          "nct_id": "NCT02546375",
+          "relevance_grade": "C",
+          "reasoning": "Bosutinib 回顧性觀察研究，非 dasatinib，僅提供同類 TKI 真實世界使用背景"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27217448",
+          "study_type": "Phase 3 RCT (5-year follow-up)",
+          "tier": "1",
+          "note": "DASISION 里程碑研究，dasatinib vs imatinib 一線 CML，直接 L1 證據核心文獻"
+        },
+        {
+          "pmid": "18215092",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "Dasatinib 於 CML 與 Ph+ ALL 的早期臨床綜述，確立藥物角色"
+        },
+        {
+          "pmid": "27784993",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "患者選擇與特殊考量，提供臨床實務指引"
+        },
+        {
+          "pmid": "31812340",
+          "study_type": "Pharmacokinetic Study",
+          "tier": "2",
+          "note": "TDM（治療藥物監測）研究，支援精準給藥"
+        },
+        {
+          "pmid": "40132166",
+          "study_type": "Clinical Guideline/Review",
+          "tier": "2",
+          "note": "兒童與青少年 CML 治療指引（2026），涵蓋 dasatinib 在小兒科的應用"
+        },
+        {
+          "pmid": "35920965",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "兒童與青少年 CML 管理，支援特殊族群應用"
+        },
+        {
+          "pmid": "36763239",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "CML 患者家庭計劃與妊娠，安全性特殊考量"
+        },
+        {
+          "pmid": "36448074",
+          "study_type": "Case Report/Adverse Event",
+          "tier": "3",
+          "note": "Dasatinib 誘發乳糜胸，重要不良反應警示"
+        },
+        {
+          "pmid": "36346055",
+          "study_type": "Cohort/Adverse Event Analysis",
+          "tier": "2",
+          "note": "間質性肺炎相關不良反應分析，安全性監測依據"
+        },
+        {
+          "pmid": "33256372",
+          "study_type": "Translational Research",
+          "tier": "2",
+          "note": "AML 中 KIT 以外的 dasatinib 靶點探索，支援機轉延伸研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "Ewing sarcoma",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ewing 肉瘤高度依賴 Src/FAK 軸驅動侵襲與遷移。Dasatinib 抑制 Src 家族激酶及 FAK，可阻斷 invadopodia 形成與腫瘤微環境誘導的遷移。EWS-FLI1 融合蛋白可能上調 Src 訊號；preclinical 數據（2007-2022）顯示 dasatinib 對 Ewing 肉瘤細胞株具抗增殖與促凋亡活性，且在缺氧/基質壓力條件下效果顯著。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00464620",
+          "relevance_grade": "B",
+          "reasoning": "Phase II，366 例晚期肉瘤（含 Ewing），COMPLETED，為最大型 dasatinib 肉瘤試驗，但為廣泛肉瘤族群，非 Ewing 專屬分析，需查原始分層數據"
+        },
+        {
+          "nct_id": "NCT00788125",
+          "relevance_grade": "B",
+          "reasoning": "Phase I/II，兒童 dasatinib + ICE 化療，TERMINATED（僅 7 例入組），提供組合安全性初步資料但因終止而證據力有限"
+        },
+        {
+          "nct_id": "NCT06500819",
+          "relevance_grade": "C",
+          "reasoning": "B7-H3 CAR-T 細胞療法 Phase I，含兒童 Ewing 肉瘤適應症，非 dasatinib 試驗，相關性低（不同治療策略）"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "18202781",
+          "study_type": "Preclinical (In vitro/In vivo)",
+          "tier": "3",
+          "note": "首篇確認 dasatinib 對 Ewing 肉瘤細胞株抗增殖活性，奠定機轉基礎"
+        },
+        {
+          "pmid": "17363602",
+          "study_type": "Preclinical (In vitro)",
+          "tier": "3",
+          "note": "Dasatinib 抑制多種肉瘤細胞遷移與侵襲，促凋亡，早期關鍵 preclinical 證據"
+        },
+        {
+          "pmid": "27566104",
+          "study_type": "Preclinical (In vitro)",
+          "tier": "3",
+          "note": "微環境壓力誘導 Src 依賴性 invadopodia 活化，dasatinib 可阻斷此機制"
+        },
+        {
+          "pmid": "31521948",
+          "study_type": "Preclinical (In vitro)",
+          "tier": "3",
+          "note": "Tenascin C 與 Src 協同促進 invadopodia 形成，dasatinib 靶向此軸"
+        },
+        {
+          "pmid": "35655525",
+          "study_type": "Preclinical (Translational)",
+          "tier": "3",
+          "note": "FAK-Src 複合體為 DSRCT、Ewing 肉瘤、橫紋肌肉瘤的治療靶點，最新機轉綜述"
+        },
+        {
+          "pmid": "26170970",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Src 訊號在肉瘤中的重要性綜述，支援 dasatinib 作為肉瘤治療策略的理論基礎"
+        },
+        {
+          "pmid": "29776413",
+          "study_type": "Preclinical (In vitro)",
+          "tier": "3",
+          "note": "CXCR4 拮抗劑對 Ewing 肉瘤的影響（間接機轉研究，相關性中等）"
+        },
+        {
+          "pmid": "35190971",
+          "study_type": "Clinical Review",
+          "tier": "2",
+          "note": "軟骨肉瘤系統性治療綜述（非 Ewing 專屬，相關性較低）"
+        },
+        {
+          "pmid": "32999666",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "CML 急變期染色體異常報告（與 Ewing 肉瘤適應症相關性低）"
+        }
+      ]
+    },
+    {
+      "disease_name": "liposarcoma",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Liposarcoma（尤其 myxoid liposarcoma）中 FUS-CHOP 融合蛋白透過 Src/FAK/RHO/ROCK 軸促進侵襲；激酶體分析顯示 NF-κB 路徑激酶活性異常。Dasatinib 抑制 Src 可干擾此侵襲機制。SRC 抑制在 liposarcoma 的 preclinical 研究（2015）顯示治療潛力，但臨床資料僅限於廣泛肉瘤試驗的非分層數據。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00464620",
+          "relevance_grade": "B",
+          "reasoning": "Phase II，366 例晚期肉瘤，COMPLETED，含 liposarcoma 亞組，但非 liposarcoma 專屬分析，需查亞組結果，整體相關性中等"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26084847",
+          "study_type": "Preclinical (In vitro/In vivo)",
+          "tier": "3",
+          "note": "直接評估 SRC 抑制於 liposarcoma 的治療潛力，最相關的 dasatinib 機轉論文"
+        },
+        {
+          "pmid": "29190494",
+          "study_type": "Preclinical (In vitro)",
+          "tier": "3",
+          "note": "FUS-CHOP 透過 Src/FAK 驅動侵襲，確立 dasatinib 靶向此路徑的理論依據"
+        },
+        {
+          "pmid": "20863376",
+          "study_type": "Translational (Kinome Profiling)",
+          "tier": "2",
+          "note": "Myxoid liposarcoma 激酶體分析，發現可干預激酶活性（casein kinase I/II 等），背景機轉依據"
+        }
+      ]
+    },
+    {
+      "disease_name": "dermatofibrosarcoma protuberans",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "DFSP 由 COL1A1-PDGFB 基因融合驅動，產生自分泌 PDGFR-β 訊號迴路。Dasatinib 抑制 PDGFR-β（Kd ~5 nM），機轉上與 imatinib（已核准用於 DFSP）類似但結合親和力不同。文獻提及小分子 PDGFR 抑制劑的整體角色，包含 dasatinib 作為潛在選項，但缺乏直接臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "29408302",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "小分子 PDGFR 抑制劑於 DFSP 的角色綜述，提及 dasatinib 的間接相關性，無直接臨床數據"
+        }
+      ]
+    },
+    {
+      "disease_name": "fibromatosis, gingival",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牙齦纖維瘤病（多為遺傳性結締組織過度增生）與 dasatinib 已知靶點（BCR-ABL、Src、PDGFR）無明確生物學連結。TxGNN 預測可能基於圖譜拓撲相似性，無支持性機轉假說。值得注意的是，TKI 類藥物（尤其 imatinib）本身曾報告牙齦副作用，需謹慎解讀預測結果。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ovarian myxoid liposarcoma",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢黏液性脂肪肉瘤為極罕見腫瘤，無 dasatinib 相關臨床或 preclinical 資料。預測可能延伸自 myxoid liposarcoma 的 Src/FAK 機轉假說，但缺乏卵巢原發部位的特定依據，不足以支持進一步行動。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "ganglioneuroblastoma (disease)",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "神經節神經母細胞瘤（介於神經母細胞瘤與神經節神經瘤之間）雖有部分 neuroblastoma preclinical 數據顯示 Src 參與（PMID 18202781 提及 neuroblastoma），但 ganglioneuroblastoma 特異性資料缺失，無法推論療效。證據僅停留在圖譜預測層級。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "txgnn_score": 0.9959,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此罕見先天性綜合症（可能涉及 TBCK 或類似基因）與 dasatinib 任何已知藥理機轉無合理生物學連結。無相關臨床試驗或文獻，TxGNN 高分可能反映知識圖譜中的間接連結，不具臨床轉化意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "txgnn_score": 0.9958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IBMPFD（VCP 基因突變）涉及蛋白質體功能障礙與自噬異常。雖然 dasatinib 具有 senolytic 效應（Src/PI3K 抑制可促進衰老細胞清除），且有報告用於一般性神經退化症研究，但現有 20 篇文獻均為 FTD 疾病通論綜述，無一涉及 dasatinib 與 IBMPFD 的直接連結，不構成可操作的再利用假說。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26595641",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "FTD 通論綜述，與 dasatinib 無關聯，僅描述疾病背景"
+        },
+        {
+          "pmid": "35182511",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "FTD 診斷與生物標記進展，治療考量未涉及 dasatinib"
+        },
+        {
+          "pmid": "38687620",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "FTD 遺傳學至治療策略，提及多種靶向治療但無 dasatinib"
+        },
+        {
+          "pmid": "35039149",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "Progranulin 作為神經退化治療靶點，與 dasatinib 機轉無交集"
+        }
+      ]
+    },
+    {
+      "disease_name": "hamartoma of lung",
+      "txgnn_score": 0.9956,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺錯構瘤為良性錯構瘤性病變，通常無症狀且不需系統性治療。雖偶見 HMGA2 基因重排，但與 dasatinib 靶點無已知交集。無任何臨床或 preclinical 依據支持此適應症，TxGNN 預測不具轉化意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_count": 1,
+    "L2_count": 1,
+    "L3_count": 1,
+    "L4_count": 1,
+    "L5_count": 6,
+    "S3_proceed": ["myeloid leukemia"],
+    "S2_clinical_feasibility": ["Ewing sarcoma", "liposarcoma"],
+    "S1_safety_review": ["dermatofibrosarcoma protuberans"],
+    "S0_hold": [
+      "fibromatosis, gingival",
+      "ovarian myxoid liposarcoma",
+      "ganglioneuroblastoma (disease)",
+      "vertebral anomalies and variable endocrine and T-cell dysfunction",
+      "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "hamartoma of lung"
+    ],
+    "key_insight": "Dasatinib 在骨髓性白血病具 L1 級核心適應症（已核准），在肉瘤族群（Ewing/liposarcoma）具一致的 Src/FAK 機轉支持及 Phase II 人體數據（NCT00464620，366 例），構成真實再利用機會，建議以肉瘤亞型分層設計 Phase II 試驗。DFSP 具 PDGFR-β 機轉合理性但需人體 PK/PD 數據。其餘 6 項適應症應暫停，待 TxGNN 預測機制進一步確認再評估。"
+  }
+}
+```
+
+---
+
+## 📊 評估摘要
+
+| 疾病 | 證據等級 | 決策階段 | 建議 | 核心依據 |
+|------|----------|----------|------|----------|
+| **Myeloid leukemia** | **L1** | **S3** | ✅ Proceed | DASISION Phase 3 RCT；全球已核准 |
+| **Ewing sarcoma** | **L2** | **S2** | 🔬 Research Question | Phase II 肉瘤試驗 + 強 Src/FAK preclinical |
+| **Liposarcoma** | **L3** | **S2** | 🔬 Research Question | Phase II 廣泛肉瘤數據 + Src/FAK 機轉 |
+| **DFSP** | **L4** | **S1** | 🔬 Research Question | PDGFR-β 機轉間接合理性 |
+| 其餘 6 項 | **L5** | **S0** | ⏸ Hold | 僅圖譜預測，無機轉或臨床依據 |
+
+### 🔑 關鍵分析觀點
+
+1. **市場狀態矛盾**：`market_status: 未上市` 且 `original_indications: []` 與 dasatinib 的全球核准現況不符，建議確認本地市場法規狀態（新加坡 HSA 核准情形）
+
+2. **NCT00464620 是肉瘤適應症的核心**：此 366 例 Phase II 試驗同時支撐 Ewing sarcoma（L2→B 級）與 liposarcoma（L3→B 級），但需取得亞型分層數據方能精確評估
+
+3. **IBMPFD 文獻品質陷阱**：20 篇文獻全數為 FTD 通論綜述，與 dasatinib 無直接連結，高文獻數量**不等於**有效再利用證據

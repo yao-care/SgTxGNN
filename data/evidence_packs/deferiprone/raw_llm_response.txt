@@ -1,0 +1,256 @@
+## 藥物再利用證據分析：Deferiprone (DB08826)
+
+**藥物背景說明**：
+Deferiprone（去鐵酮）為口服鐵螯合劑，透過與 Fe³⁺ 形成 3:1 穩定錯合物經腎臟排出，並具有穿越血腦屏障能力。在多國已核准用於輸血性鐵過載（地中海貧血），但本資料顯示於當地市場（SG）為「未上市」。`original_indications` 為空及 `original_moa` 為 `[Data Gap]` 疑為資料缺漏。
+
+---
+
+```json
+{
+  "drug": "Deferiprone",
+  "drugbank_id": "DB08826",
+  "analysis_date": "2026-04-04",
+  "data_quality_notes": [
+    "original_indications 為空屬資料缺漏：Deferiprone 已於多國核准用於地中海貧血鐵過載",
+    "original_moa 標記 [Data Gap]：實為 Fe³⁺ 螯合劑，與 Fe³⁺ 形成 3:1 穩定錯合物",
+    "market_status 未上市僅反映當地（SG）狀態，非全球狀態"
+  ],
+  "indications": [
+    {
+      "disease_name": "hepatic porphyria",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "鐵過載為肝性紫質症（尤其 Porphyria Cutanea Tarda）的關鍵致病因素：過量鐵離子抑制尿卟啉原脫羧酶（UROD）、促進活性氧生成並加速肝內卟啉堆積。Deferiprone 作為口服鐵螯合劑，可降低肝臟鐵存量，理論上能改善 UROD 功能並減少光敏性卟啉累積。機轉合理性中等，但現有文獻為動物模型或相關亞型（CEP），非直接肝性紫質症 RCT。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32678895",
+          "year": 2020,
+          "study_type": "臨床前/案例系列（先天性紅血球生成性紫質症 CEP）",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "研究對象為先天性紅血球生成性紫質症（CEP），屬紅血球生成性紫質症，非肝性紫質症。但展示鐵螯合劑可逆轉鐵累積所致溶血及光敏性，間接支持鐵-卟啉機轉。與目標適應症存在分類差異，降為 B 級相關性。"
+        },
+        {
+          "pmid": "17854053",
+          "year": 2007,
+          "study_type": "動物實驗（鼠類 uroporphyria 模型）",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "uroporphyria 為肝性紫質症亞型，研究方向直接相關。然為鼠類模型研究，口服鐵螯合劑介入顯示尿卟啉水平下降。雖為臨床前證據，但疾病類型比 PMID 32678895 更精準對應目標適應症。"
+        }
+      ],
+      "risk_flags": [
+        "Deferiprone 已知粒細胞缺乏症（agranulocytosis）風險，需監測 ANC",
+        "長期使用需評估鋅缺乏風險",
+        "肝性紫質症患者肝功能可能異常，影響藥物代謝安全性需額外評估"
+      ]
+    },
+    {
+      "disease_name": "hepatopulmonary syndrome",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "機轉連結極為薄弱。肝肺症候群主要病理為肝病導致肺內血管擴張（intrapulmonary vascular dilations），涉及 NO 過量產生與血管新生異常。鐵代謝與肺血管擴張之間雖有研究提示 HIF-1α 路徑可能連結，但缺乏直接實驗依據。TxGNN 分數高度疑似源於知識圖譜中肝病節點的共同鄰近性，而非特異性機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "無任何臨床或臨床前直接證據",
+        "肝肺症候群患者通常已有嚴重肝功能損害，用藥安全性風險高"
+      ]
+    },
+    {
+      "disease_name": "early-onset familial noncirrhotic portal hypertension",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非肝硬化性門脈高壓（NCPH）病理機轉主要為門脈微血管及竇周纖維化，鐵代謝並非主要致病路徑。TxGNN 評分高度疑似源於知識圖譜中「早發型家族性」節點群集效應（與其他門脈相關疾病共享 0.9920 分數），而非實質機轉連結。缺乏任何文獻或試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "罕見疾病，臨床試驗設計困難",
+        "機轉假設缺乏基礎"
+      ]
+    },
+    {
+      "disease_name": "primitive portal vein thrombosis",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "門靜脈血栓形成主要涉及凝血、血流動力學異常及血管壁損傷。鐵代謝與血栓形成之間存在間接連結（過量鐵可促進氧化應激，影響血管內皮功能），但此機轉極為間接且無針對 Deferiprone 的相關研究。注意四個門脈相關疾病共享完全相同的 TxGNN 分數（0.9919567108154296），強烈提示為 KG 中同一節點群集推論結果，可信度需謹慎評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "四個門脈相關適應症共享完全相同 TxGNN 分數，疑為 KG 群集效應",
+        "抗凝治療為目前標準療法，鐵螯合劑定位不明確"
+      ]
+    },
+    {
+      "disease_name": "hepatoportal sclerosis",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肝門脈硬化症（Hepatoportal Sclerosis）特徵為肝竇周纖維化及非硬化性門脈高壓。鐵介導之氧化應激理論上可加速肝纖維化，但 Deferiprone 用於此特定疾病的實驗依據完全缺乏。同上，此分數與其他三個門脈疾病完全相同，為 KG 群集效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "KG 群集效應，分數可信度存疑",
+        "完全無支持性文獻"
+      ]
+    },
+    {
+      "disease_name": "idiopathic copper-associated cirrhosis",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "銅相關肝硬化主要機轉為銅積累（類 Wilson's disease 表現），標準治療為銅螯合劑（青黴胺、曲恩汀）或鋅補充。Deferiprone 主要螯合鐵離子（Fe³⁺），雖化學上對銅有弱螯合活性，但臨床效果遠遜於專一性銅螯合劑。機轉不匹配為本適應症最大問題，TxGNN 推論可能基於「重金屬-肝病」的一般性節點鄰近性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "Deferiprone 非銅螯合劑，機轉與疾病不匹配",
+        "使用鐵螯合劑可能干擾正常鐵代謝而不解決銅超載問題"
+      ]
+    },
+    {
+      "disease_name": "pyruvate kinase deficiency of red cells",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "丙酮酸激酶缺乏症（PKD）導致慢性溶血性貧血，長期溶血及多次輸血引起繼發性鐵過載（secondary hemosiderosis）。Deferiprone 作為鐵螯合劑，對 PKD 繼發性鐵過載的治療機轉與地中海貧血相同，具備合理的臨床邏輯。近年已有 Mitapivat（PKD 酶活化劑）獲批，但鐵過載仍為重要共病管理問題。雖無直接文獻，機轉連結比純門脈類疾病更為實質。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "PKD 患者病況複雜，需評估鐵螯合時機與輸血依賴程度",
+        "Deferiprone 在非輸血依賴患者中的適用條件需確認"
+      ]
+    },
+    {
+      "disease_name": "beta-thalassemia with other manifestations",
+      "txgnn_score": 0.9903,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Beta-地中海貧血因無效紅血球生成及多次輸血造成系統性鐵過載，長期鐵堆積於心臟、肝臟及內分泌腺體。Deferiprone 為 WHO 必要藥物清單鐵螯合劑，已在地中海貧血大量 Phase 3 RCT 中驗證（如 LA08 研究）。「with other manifestations」亞型可能包含非典型表現或複雜共病，但核心機轉—鐵螯合—完全適用。注意：本分析結果 original_indications 為空屬資料缺漏，Deferiprone 實際上對地中海貧血鐵過載有 L1 級別全球證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18456387",
+          "year": 2008,
+          "study_type": "Review / 替代治療範式論文",
+          "tier": 2,
+          "relevance_grade": "A",
+          "reasoning": "直接討論地中海貧血中鐵螯合劑替代治療策略，主題與適應症高度一致。雖為敘述性回顧，但涵蓋 Deferiprone 在地中海貧血中的臨床應用模式，具高度相關性。"
+        },
+        {
+          "pmid": "20195035",
+          "year": 2010,
+          "study_type": "橫斷面觀察性研究（眼科表現）",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "研究重點為多次輸血地中海貧血患者的眼科表現，非直接評估 Deferiprone 療效。僅作為地中海貧血鐵過載共病文獻背景，對藥物再利用決策貢獻有限。"
+        }
+      ],
+      "risk_flags": [
+        "需確認「with other manifestations」具體臨床定義",
+        "Deferiprone 在當地（SG）未上市需考量取得途徑",
+        "粒細胞缺乏症監測（每週 ANC）為必要管理措施",
+        "與 Deferasirox 或 Deferoxamine 的組合療法需評估"
+      ]
+    },
+    {
+      "disease_name": "pyropoikilocytosis, hereditary",
+      "txgnn_score": 0.9902,
+      "evidence_level": "L5",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "遺傳性熱形變紅血球症（HPP）為嚴重溶血性貧血，屬 Spectrin 骨架蛋白缺陷。慢性溶血可導致繼發性鐵過載，尤其在輸血依賴患者中。機轉推理與 PKD 相似——Deferiprone 針對繼發性鐵過載而非原發病理。然而 HPP 極為罕見（罕見病中的罕見病），實際臨床應用空間極小，且缺乏任何直接文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "超罕見疾病，臨床試驗設計困難",
+        "需先確認患者群體是否真實存在輸血相關鐵過載"
+      ]
+    },
+    {
+      "disease_name": "partial deletion of the short arm of chromosome 16",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "16p 短臂部分缺失可能涉及 HBA1/HBA2 基因（Alpha-地中海貧血相關），或其他多種發育基因。若確為 Alpha-地中海貧血相關缺失（如 16p13.3），則鐵過載機轉類似 Beta-地中海貧血，Deferiprone 有合理應用空間。然而染色體層次的描述過於廣泛，所涵蓋的表現型異質性大（包含非血液學表現），無法基於當前資料做出確定性判斷。缺乏任何直接文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "risk_flags": [
+        "診斷定義過於廣泛，需細化至具體缺失位點及表現型",
+        "若非 HBA 相關缺失，機轉連結完全不成立"
+      ]
+    }
+  ],
+  "summary": {
+    "L1": [],
+    "L2": [],
+    "L3": ["beta-thalassemia with other manifestations"],
+    "L4": ["hepatic porphyria"],
+    "L5": [
+      "hepatopulmonary syndrome",
+      "early-onset familial noncirrhotic portal hypertension",
+      "primitive portal vein thrombosis",
+      "hepatoportal sclerosis",
+      "idiopathic copper-associated cirrhosis",
+      "pyruvate kinase deficiency of red cells",
+      "pyropoikilocytosis, hereditary",
+      "partial deletion of the short arm of chromosome 16"
+    ],
+    "proceed_with_guardrails": ["beta-thalassemia with other manifestations"],
+    "research_question": [
+      "hepatic porphyria",
+      "pyruvate kinase deficiency of red cells",
+      "pyropoikilocytosis, hereditary"
+    ],
+    "hold": [
+      "hepatopulmonary syndrome",
+      "early-onset familial noncirrhotic portal hypertension",
+      "primitive portal vein thrombosis",
+      "hepatoportal sclerosis",
+      "idiopathic copper-associated cirrhosis",
+      "partial deletion of the short arm of chromosome 16"
+    ]
+  }
+}
+```
+
+---
+
+## 關鍵分析摘要
+
+### ⚠️ 資料品質警示
+
+| 問題 | 說明 | 影響 |
+|------|------|------|
+| `original_indications` 為空 | Deferiprone 在多國已核准地中海貧血鐵過載適應症 | Beta-地中海貧血實際證據被低估 |
+| TxGNN 分數群集 | 5 個門脈/肝臟疾病共享完全相同分數（0.9919567） | 反映 KG 節點鄰近性，非獨立預測 |
+
+### 優先投入建議
+
+```
+Tier A（最具潛力）
+├── beta-thalassemia with other manifestations → S2，有大量既有臨床基礎
+└── hepatic porphyria → S1，機轉合理，需設計 Phase 1/2
+
+Tier B（機轉有合理性，需進一步調查）
+├── pyruvate kinase deficiency → S1，繼發性鐵過載機轉成立
+└── pyropoikilocytosis → S1，同上，但患者數極少
+
+Tier C（暫不投入資源）
+└── 其餘 6 個適應症 → 機轉薄弱或資料不足
+```
+
+> ⚕️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過臨床驗證才能應用於實際醫療。

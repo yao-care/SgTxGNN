@@ -1,0 +1,346 @@
+已確認文獻類型，現在進行完整分析並生成結果。
+
+---
+
+## 📊 Dexamethasone 藥物再利用證據分析報告
+
+```json
+{
+  "drug": "Dexamethasone",
+  "drugbank_id": "DB01234",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "原始資料標示 original_moa 為 [Data Gap]，但 Dexamethasone 為已知強效糖皮質激素，作用機制為結合 GR 受體，抑制 NF-κB 路徑，產生抗炎與免疫抑制效果。market_status「未上市」可能為新加坡特定劑型缺乏，不影響全球證據效力。",
+  "indications": [
+    {
+      "disease_name": "alopecia areata",
+      "txgnn_score": 0.9999080896377563,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "AA 為 CD8+ T 細胞介導之自體免疫疾病，攻擊毛囊免疫豁免區。Dexamethasone（糖皮質激素）透過 GR-α 受體抑制 T 細胞活化、下調 IL-2/IFN-γ/TNF-α，直接對應 AA 發病機轉；mini-pulse 方案可減少持續性副作用，機轉-疾病契合度高。",
+      "evidence_summary": "具備 1 項 RCT（PMID 36086930）、1 項 Network Meta-Analysis（PMID 39042154）、多項前瞻性世代研究，文獻品質充分支持 S3。臨床試驗列表經核查均為腫瘤科 Dexamethasone 伴用試驗，對 AA 適應症相關性為 C 級。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02288078",
+          "title": "Prophylactic Oral Steroids for Fatigue/Malaise Due to Regorafenib",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "研究目的為癌症支持性治療（Regorafenib 副作用預防），使用類固醇非為治療 AA。僅因含類固醇成分而被系統匹配，與 AA 再利用無關。"
+        },
+        {
+          "nct_id": "NCT04343560",
+          "title": "Effects of Abnormal Steroid Metabolome on Bone Strength and Quality",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 380,
+          "relevance_grade": "C",
+          "reasoning": "研究焦點為類固醇代謝異常對骨質影響，雖涉及皮質醇/類固醇生理，但與 AA 治療無直接設計關係。"
+        },
+        {
+          "nct_id": "NCT01126736",
+          "title": "Eribulin Mesylate in Combination Chemotherapy",
+          "phase": "PHASE1, PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 98,
+          "relevance_grade": "C",
+          "reasoning": "腫瘤科化療試驗，Dexamethasone 作為止吐預防藥使用，非研究主體，與 AA 完全無關。"
+        },
+        {
+          "nct_id": "NCT04840615",
+          "title": "Anti-Mesothelin Immunotoxin LMB-100 With Ipilimumab",
+          "phase": "PHASE1",
+          "status": "TERMINATED",
+          "enrollment": 2,
+          "relevance_grade": "C",
+          "reasoning": "TERMINATED，惡性腫瘤免疫治療試驗，與 AA 完全無關。"
+        },
+        {
+          "nct_id": "NCT01215916",
+          "relevance_grade": "C",
+          "reasoning": "實體腫瘤化療試驗，Dexamethasone 為輔助藥物，與 AA 無關。"
+        },
+        {
+          "nct_id": "NCT01607554",
+          "relevance_grade": "C",
+          "reasoning": "TERMINATED，癌症試驗，無 AA 相關設計。"
+        },
+        {
+          "nct_id": "NCT00402766",
+          "relevance_grade": "C",
+          "reasoning": "惡性胸膜間皮瘤化療試驗，與 AA 無關。"
+        },
+        {
+          "nct_id": "NCT01866449",
+          "relevance_grade": "C",
+          "reasoning": "膠質母細胞瘤試驗，與 AA 無關。"
+        },
+        {
+          "nct_id": "NCT00282087",
+          "relevance_grade": "C",
+          "reasoning": "子宮平滑肌肉瘤化療試驗，Dexamethasone 為輔助止吐，與 AA 無關。"
+        },
+        {
+          "nct_id": "NCT02685826",
+          "relevance_grade": "C",
+          "reasoning": "Durvalumab 腫瘤免疫試驗，與 AA 無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39042154",
+          "title": "Comparative efficacy and safety of systemic steroids, oral JAK inhibitors and Contact Immunotherapy in severe alopecia areata",
+          "year": "2024",
+          "study_type": "Systematic Review + Network Meta-Analysis",
+          "tier": "1",
+          "notes": "直接比較 Dexamethasone 與 baricitinib、ritlecitinib 等 JAK 抑制劑，為目前最高層次合成證據。結論：Dexamethasone 有效，但耐受性需監控。"
+        },
+        {
+          "pmid": "36086930",
+          "title": "Randomized controlled trial to compare effectiveness and safety of low dose dexamethasone oral mini pulse vs. DPCP in severe pediatric alopecia areata",
+          "year": "2022",
+          "study_type": "RCT",
+          "tier": "1",
+          "notes": "核心 Phase 2 等級 RCT，直接比較 dexamethasone mini-pulse 與接觸免疫治療，兒童族群，奠定 S3 決策基礎。"
+        },
+        {
+          "pmid": "35330017",
+          "title": "Alopecia Areata and Dexamethasone Mini-Pulse Therapy: A Prospective Cohort",
+          "year": "2022",
+          "study_type": "Prospective Cohort",
+          "tier": "2",
+          "notes": "真實世界 12 個月追蹤，SALT-50 反應率 51.8%，提供療效與預測因子資料。"
+        },
+        {
+          "pmid": "41243342",
+          "title": "Durable remission of severe alopecia areata with dexamethasone when JAK inhibitors are off the table",
+          "year": "2025",
+          "study_type": "Case Series / Cohort",
+          "tier": "2",
+          "notes": "2025 年最新資料，強調在 JAK 抑制劑禁忌情境下 dexamethasone 的臨床定位。"
+        },
+        {
+          "pmid": "36070222",
+          "title": "Mini pulse corticosteroid therapy with oral dexamethasone for moderate to severe alopecia areata",
+          "year": "2022",
+          "study_type": "Prospective Cohort",
+          "tier": "2",
+          "notes": "支持療效，提供劑量與療程資料。"
+        },
+        {
+          "pmid": "36461625",
+          "title": "Pediatric pulse dose corticosteroid therapy dosing and administration in alopecia areata",
+          "year": "2023",
+          "study_type": "Review / Dosing Guideline",
+          "tier": "2",
+          "notes": "兒科劑量指引，臨床實用性高。"
+        },
+        {
+          "pmid": "31579982",
+          "title": "Combined intravenous pulse and topical corticosteroid therapy for severe alopecia areata in children",
+          "year": "2019",
+          "study_type": "Prospective Cohort",
+          "tier": "2",
+          "notes": "靜脈注射 dexamethasone 脈衝治療重度兒童 AA。"
+        },
+        {
+          "pmid": "26179196",
+          "title": "Combined oral pulse and topical corticosteroid therapy for severe alopecia areata in children: long-term follow-up",
+          "year": "2015",
+          "study_type": "Prospective Cohort (Long-term)",
+          "tier": "2",
+          "notes": "長期追蹤資料，驗證持續療效與安全性。"
+        },
+        {
+          "pmid": "23960401",
+          "title": "Alopecia areata treated with phenolisation and intravenous dexamethasone pulses",
+          "year": "2013",
+          "study_type": "Case Series",
+          "tier": "3",
+          "notes": "早期臨床觀察，歷史佐證。"
+        },
+        {
+          "pmid": "39911973",
+          "title": "Circumscribed Alopecia Areata Incognita and Response to Tofacitinib",
+          "year": "2025",
+          "study_type": "Case Report",
+          "tier": "3",
+          "notes": "主要報告 tofacitinib 療效，dexamethasone 相關性低，間接佐證 AA 免疫治療方向。"
+        }
+      ],
+      "clinical_guardrails": [
+        "採用 mini-pulse 方案（每週 2 天口服 dexamethasone 2.5-5mg）以降低 HPA 抑制風險",
+        "治療前評估骨密度基線（特別是兒童及長期用藥者）",
+        "監控血糖、血壓、感染指標",
+        "建議療程不超過 6 個月，評估後決定是否繼續",
+        "JAK 抑制劑可及性受限地區（如 SG 特定保險情境）優先考慮 dexamethasone"
+      ]
+    },
+    {
+      "disease_name": "alopecia mucinosa",
+      "txgnn_score": 0.9998868703842164,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Alopecia mucinosa（毛囊黏蛋白症）為黏蛋白沉積引起的罕見毛囊炎症性疾病，部分病例與皮膚 T 細胞淋巴瘤相關。雖然類固醇有廣義抗炎效果，但缺乏針對此病機轉的合理鏈接，且惡性相關病例使用免疫抑制劑有安全疑慮。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無任何臨床試驗或文獻支持。TxGNN 評分高可能因為模型將此疾病歸類至毛髮疾病群集（alopecia 家族），屬模型泛化效應，非真實證據訊號。"
+    },
+    {
+      "disease_name": "telogen effluvium",
+      "txgnn_score": 0.9998840093612672,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Telogen effluvium 為壓力/系統性疾病/藥物誘發之瀰漫性落髮，Dexamethasone（糖皮質激素）本身即為已知誘發 TE 的藥物之一（HPA 軸抑制導致毛囊週期失調）。機轉方向相悖，使用 dexamethasone 治療 TE 缺乏合理性，甚至有加劇風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23638756",
+          "title": "Cutaneous adverse reactions linked to bortezomib and lenalidomide for multiple myeloma",
+          "year": "2014",
+          "study_type": "Review Article",
+          "tier": "3",
+          "notes": "⚠️ 不相關文獻：此研究探討 bortezomib/lenalidomide 的皮膚副作用（TE 為副作用之一），非 dexamethasone 治療 TE 的證據。判定為系統誤配，不應計入支持性證據。"
+        }
+      ],
+      "safety_flag": "Dexamethasone 為 TE 已知誘發因子，不建議用於此適應症"
+    },
+    {
+      "disease_name": "Quinquaud's folliculitis decalvans",
+      "txgnn_score": 0.9998772144317628,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Folliculitis decalvans（Quinquaud 毀損性毛囊炎）為慢性細菌性（主要 S. aureus）誘發之瘢痕性脫髮，主要治療為長期抗生素（rifampicin + clindamycin）。Dexamethasone 免疫抑制可能加重細菌感染，機轉不利。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "無任何臨床支持。此疾病主要機轉為感染性，使用系統性皮質激素可能增加感染擴散風險。"
+    },
+    {
+      "disease_name": "alopecia antibody deficiency",
+      "txgnn_score": 0.999865174293518,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病名稱非標準 ICD 分類術語，可能為預測模型的罕見/複合實體標籤。免疫缺乏相關脫髮的潛在機轉與 dexamethasone 免疫抑制方向相悖。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27885969",
+          "title": "36th International Symposium on Intensive Care and Emergency Medicine (Abstract Collection)",
+          "year": "2016",
+          "study_type": "Conference Abstract Collection",
+          "tier": "3",
+          "notes": "⚠️ 無效文獻：為 ICU 研討會摘要集（數百篇 ICU 摘要彙編），並非針對 alopecia antibody deficiency 的研究。確認為系統誤配，不具任何支持性證據價值。"
+        }
+      ]
+    },
+    {
+      "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+      "txgnn_score": 0.999861478805542,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為 LPAR6 基因突變引起的遺傳性少毛症，屬結構性/遺傳性疾病。Dexamethasone 的抗炎機轉無法修正基因缺陷，機轉連結缺失，不具合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "遺傳性疾病，藥物再利用潛力極低。TxGNN 評分高可能為模型對毛髮相關表徵型的誤判。"
+    },
+    {
+      "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "txgnn_score": 0.9998533725738524,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此綜合症（MUHH2，與 ANAMORSIN/CIAO2B 突變相關）為遺傳性多系統疾病，包含神經發育和性腺功能障礙。Dexamethasone 無法針對此類基因型疾病的根本病因，且長期使用皮質激素對發育中兒童有明顯風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "極罕見遺傳症候群，無任何支持性證據。不建議進一步研究。"
+    },
+    {
+      "disease_name": "atrichia with papular lesions",
+      "txgnn_score": 0.9994789958000184,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "APL 為 HR（Hairless）基因突變引起的先天性無毛症，為遺傳性結構缺陷，非炎症/免疫性疾病。Dexamethasone 的免疫調節機轉無法對應此疾病病因。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "遺傳性角化性疾病，與 dexamethasone 作用機轉完全不符。"
+    },
+    {
+      "disease_name": "alopecia universalis onychodystrophy vitiligo",
+      "txgnn_score": 0.9975805282592772,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Alopecia universalis（AU）為 AA 最嚴重型態（全身性完全脫髮），其自體免疫機轉與 AA 相同（CD8+ T 細胞攻擊毛囊）。本案文獻的 AA 證據（包含 PMID 36086930 RCT）間接支持 AU 適應症，但 AU + 甲營養不良 + 白斑的複合症候群尚無獨立臨床資料。Vitiligo 亦有糖皮質激素治療先例（間接支持共同免疫路徑）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "indirect_from_AA_evidence",
+          "study_type": "Indirect Evidence from AA RCT/Cohort Studies",
+          "tier": "3",
+          "notes": "AU 為 AA 疾病譜的一部分，AA 治療證據可間接外推，但特定複合症候群需獨立驗證。"
+        }
+      ],
+      "research_questions": [
+        "Dexamethasone mini-pulse 在 AU 型 AA（合併甲營養不良與白斑）是否具與單純 AU 相近的療效？",
+        "三重自體免疫表徵是否需要聯合治療策略（如加入外用 JAK 或光照治療）？"
+      ],
+      "notes": "建議納入 AA 相關大型 Registry 研究，收集 AU 亞群資料以提升至 L2/L3。"
+    },
+    {
+      "disease_name": "prolapse of lacrimal gland",
+      "txgnn_score": 0.9964538812637328,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "淚腺脫垂為眶部解剖結構鬆弛導致的機械性疾病，與炎症或免疫機轉無關。標準治療為外科手術復位（lacrimal gland repositioning）。Dexamethasone 的抗炎/免疫抑制作用無法解決解剖結構問題，機轉連結完全缺失。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "此預測為明顯假陽性，TxGNN 評分雖高（0.9965），但疾病本質為外科適應症，藥物再利用不適用。可能是因模型對「眶周組織 → 炎症 → 皮質激素」的廣義關聯所致。"
+    }
+  ],
+  "overall_summary": {
+    "actionable_indications": 1,
+    "research_question_indications": 1,
+    "hold_indications": 8,
+    "key_finding": "在 10 個 TxGNN 預測適應症中，僅 alopecia areata 具備足夠臨床證據（L2/S3，含 RCT + Network Meta-Analysis）可建議進行。Alopecia universalis 複合症候群具合理間接機轉，建議列為研究問題（L4/S1）。其餘 8 個適應症因缺乏臨床證據、機轉不符或為遺傳性疾病而建議 Hold。",
+    "data_quality_flags": [
+      "10 個匹配臨床試驗均為腫瘤科輔助試驗（Dexamethasone 作為伴用藥），無一針對脫髮適應症設計，相關性評級全為 C",
+      "PMID 27885969（ICU 研討會摘要集）及 PMID 23638756（骨髓瘤藥物副作用回顧）為系統誤配文獻，不應計入有效證據",
+      "Market status「未上市」可能為新加坡特定劑型/品牌資料缺失，全球 Dexamethasone 可及性不受影響"
+    ]
+  }
+}
+```
+
+---
+
+## 📋 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **alopecia areata** | 0.9999 | **L2** | **S3** | ✅ **Proceed with Guardrails** |
+| alopecia universalis onychodystrophy vitiligo | 0.9976 | L4 | S1 | 🔬 Research Question |
+| alopecia mucinosa | 0.9999 | L5 | S0 | ❌ Hold |
+| telogen effluvium | 0.9999 | L5 | S0 | ❌ Hold ⚠️（類固醇可能加劇） |
+| Quinquaud's folliculitis decalvans | 0.9999 | L5 | S0 | ❌ Hold ⚠️（感染性，免疫抑制有害） |
+| alopecia antibody deficiency | 0.9999 | L5 | S0 | ❌ Hold |
+| hereditary hypotrichosis with recurrent skin vesicles | 0.9999 | L5 | S0 | ❌ Hold（遺傳性）|
+| alopecia-intellectual disability-hypergonadotropic hypogonadism | 0.9998 | L5 | S0 | ❌ Hold（遺傳性）|
+| atrichia with papular lesions | 0.9995 | L5 | S0 | ❌ Hold（遺傳性）|
+| prolapse of lacrimal gland | 0.9965 | L5 | S0 | ❌ Hold（外科適應症）|
+
+---
+
+### 🔑 關鍵洞察
+
+1. **Dexamethasone mini-pulse for AA** 是本次分析唯一具臨床行動價值的適應症，擁有 RCT + 2024 年 Network Meta-Analysis 支撐，在 JAK 抑制劑受限的醫療環境（如新加坡健保給付限制）具有特別重要的替代治療意義
+
+2. **臨床試驗資料品質警示**：13 筆匹配試驗 **全數為腫瘤科輔助用藥試驗**，建議後端搜尋系統加入適應症過濾邏輯，避免 Dexamethasone 的廣泛伴用藥性質污染特定適應症的試驗計數
+
+3. **TxGNN 評分與臨床可行性脫鉤**：多個 L5 適應症仍有 >0.999 高分，顯示模型在毛髮疾病群集（alopecia family）存在系統性過度預測，需以機轉篩濾與文獻查核作為第二道過濾關卡

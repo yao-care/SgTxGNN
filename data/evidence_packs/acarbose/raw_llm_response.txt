@@ -1,0 +1,309 @@
+## Acarbose 藥物再利用證據分析
+
+> **注意**：藥物資料顯示 `original_moa: "[Data Gap]"` 為系統資料缺漏，非真正未知 — Acarbose 為已確立的 **α-葡萄糖苷酶抑制劑（alpha-glucosidase inhibitor）**，廣泛用於 T2DM。
+
+---
+
+```json
+{
+  "drug": "Acarbose",
+  "drugbank_id": "DB00284",
+  "analysis_date": "2026-04-03",
+  "market_note": "未上市（本地市場），惟 Acarbose 為全球已核准藥物，MoA 資料為系統缺漏",
+  "drug_moa_clarified": "Alpha-glucosidase inhibitor：競爭性抑制小腸刷狀緣 α-葡萄糖苷酶，延緩多醣與雙糖分解為單醣，降低餐後葡萄糖吸收速率，減少餐後血糖峰值",
+  "indications": [
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉關聯。此為自體免疫性神經疾病（局部型 stiff person spectrum disorder），以 anti-GAD 抗體及 GABA 缺乏介導局部肌肉僵硬為特徵。TxGNN 可能透過代謝-免疫知識圖譜網路節點偵測遠端連結（如腸道微生物菌群→腸-腦軸→GABAergic 系統），但此推測路徑缺乏任何實驗或臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9965,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 focal 型同屬 stiff person spectrum disorder，以高效價 anti-GAD65 抗體為特徵，主要機轉為中樞 GABAergic 抑制神經元受損。Acarbose 的代謝調節作用（餐後血糖、腸道菌群）對此疾病的病理核心（自體免疫 GABA 缺乏）無已知干預路徑。評分與 focal 型完全相同（0.9965）提示 KG 模型可能存在共享節點評分現象，不代表額外生物學證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "由 SLC19A2（ThTr1 硫胺素轉運蛋白）突變引起的罕見常染色體隱性遺傳病，表現為糖尿病、巨球性貧血及感音神經性耳聾三聯症。其糖尿病成分為胰島素分泌缺乏，補充硫胺素可部分恢復 β 細胞功能。Acarbose 雖可理論上減少餐後葡萄糖毒性，但硫胺素補充為核心治療，Acarbose 的輔助角色純屬推測，且無任何案例報告或試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "由 INPPL1（編碼 SHIP2：SH2 domain-containing inositol 5-phosphatase 2）功能喪失突變引起的超罕見骨骼發育異常（<50 例全球報告）。SHIP2 參與 PI3K/Akt 胰島素訊號下游調控，這是 TxGNN 可能偵測到此關聯的理論路徑，但 opsismodysplasia 的臨床問題為骨骼礦化缺陷而非代謝失調。Acarbose 對此病的潛在影響在概念上極遠，無任何臨床轉化意義。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9924,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "最常見形式為胰島素注射部位脂肪萎縮或脂肪增生（lipohypertrophy）。理論連結：Acarbose 改善餐後血糖控制 → 減少所需胰島素劑量 → 減少注射頻率 → 減少局部組織損傷。然而此推理鏈條過長且缺乏臨床驗證；更有效的干預為輪換注射部位與使用純化胰島素製劑。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9922,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "向心性脂肪萎縮症（Lipodystrophia centrifugalis abdominalis infantilis）為兒童罕見脂肪萎縮症，病因涉及局部炎症與脂肪組織代謝異常，與胰島素代謝的關聯極為間接。TxGNN 可能透過脂肪代謝知識圖譜節點偵測此關聯，無任何已知生物學路徑或臨床報告支持 Acarbose 的應用。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "由持續性機械壓力（如輪椅坐墊、義肢接觸面）引起的局部脂肪組織萎縮，為物理性損傷機轉主導。Acarbose 的代謝作用機制與此物理性疾病無合理交集。此預測可能反映 KG 中「脂肪組織異常」類別節點的廣泛連結，而非真實生物學關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9917,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "病因未明的局部脂肪萎縮，可能與局部炎症、外傷或特發性脂肪細胞凋亡相關。部分研究顯示局部胰島素抵抗可能參與脂肪組織異常，Acarbose 改善全身胰島素敏感性的間接效應在理論層面有極遠關聯，但無法構成推薦依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胰臟發育不全（PTF1A、PDX1、GATA6 等突變）導致胰臟 β 細胞完全缺失，產生胰島素絕對缺乏（類 T1DM 表型）並合併外分泌功能不全。生物學合理性：Acarbose 延緩碳水化合物吸收 → 減少餐後血糖峰值 → 降低外源性胰島素總需求量 → 改善血糖波動。此機轉路徑合理，但：(1) 本病為超罕見病（全球僅數十至數百例）；(2) 患者腸道消化酶已因外分泌不足而受損，Acarbose 的腸道作用環境與一般患者不同；(3) 所提供 11 篇文獻均為一般糖尿病文獻，無一直接研究 pancreatic agenesis + Acarbose。評為 L4（間接證據）而非 L5，係因疾病-藥物機轉路徑具生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "12877088",
+          "study_type": "Clinical Study",
+          "tier": "3",
+          "relevance_note": "T2DM 高血壓患者餐後高血糖藥物治療（西班牙文），最可能涉及 Acarbose，但非胰臟發育不全族群"
+        },
+        {
+          "pmid": "9506190",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "T2DM 機轉與治療綜述，提供代謝背景知識，與本適應症的直接關聯極低"
+        },
+        {
+          "pmid": "21697254",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "β 細胞功能保護綜述，病理機轉相反（本病為 β 細胞先天缺失），間接相關"
+        },
+        {
+          "pmid": "10094112",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_note": "OLETF 大鼠代謝異常研究，動物模型間接支持代謝干預概念"
+        },
+        {
+          "pmid": "15449970",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_note": "心衰竭患者葡萄糖代謝異常，合併症背景參考，非直接相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "type 1 diabetes mellitus",
+      "txgnn_score": 0.9839,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "最強機轉連結。T1DM 患者依賴外源性胰島素，但餐後血糖尖峰控制仍困難（快速胰島素動力學滯後於葡萄糖吸收）。Acarbose 介入機制：(1) 延緩小腸碳水化合物分解吸收 → 減少餐後血糖峰值 ΔHbA1c ~0.3-0.5%；(2) 允許縮短或消除胰島素注射-進食等待時間；(3) 減少餐後低血糖反應性風險；(4) 可能在新診斷 T1DM 中透過降低葡萄糖毒性，間接保護殘存 β 細胞功能（honeymoon phase）。多項 RCT 已在 T1DM 族群中驗證此輔助療法，系統性回顧確認整體安全性與中度療效。主要限制：GI 副作用（脹氣 15-35%、腹瀉）在嚴格碳水化合物飲食控制的 T1DM 患者中可能影響依從性；需監控低血糖處置（此時應使用葡萄糖而非蔗糖）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01245166",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 隨機雙盲平行組研究，直接評估 Acarbose 療效與安全性（n=220），為本分析最高設計等級試驗。狀態為 UNKNOWN，需確認是否完成及結果發表，但存在本身即支持 L2 評估。"
+        },
+        {
+          "nct_id": "NCT00909051",
+          "relevance_grade": "B",
+          "reasoning": "大型觀察性研究 Glucobay（Acarbose）特定患者族群治療特性研究（n=15,729），樣本量大，真實世界安全性資料有價值，但非 RCT 且 T1DM 亞組數據需單獨評估。"
+        },
+        {
+          "nct_id": "NCT01167231",
+          "relevance_grade": "B",
+          "reasoning": "Acarbose 心血管風險管理研究（n=3,310），評估 Acarbose 臨床療效與安全性，主要終點為心血管事件但包含血糖控制次要終點，機轉直接相關。"
+        },
+        {
+          "nct_id": "NCT02043886",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 研究，Acarbose 治療老年 T2DM 患者餐後低血壓（n=15），展示 Acarbose 胃腸道葡萄糖吸收延緩機制，支持 T1DM 輔助治療的生理基礎，惟族群不同。"
+        },
+        {
+          "nct_id": "NCT03602638",
+          "relevance_grade": "C",
+          "reasoning": "中國解放軍總醫院海南分院 Phase 4 研究，詳細資訊不足（UNKNOWN 狀態），可能為 T2DM 研究，與 T1DM 直接相關性不確定。"
+        },
+        {
+          "nct_id": "NCT04065581",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1 生物等效性研究（n=24），評估含 Acarbose 的複方製劑，非療效研究，對 T1DM 適應症評估貢獻有限。"
+        },
+        {
+          "nct_id": "NCT01413035",
+          "relevance_grade": "C",
+          "reasoning": "臍帶/胎盤來源幹細胞移植治療糖尿病 Phase 1/2 研究（n=30），Acarbose 非主要介入，為背景用藥或對照，相關性低。"
+        },
+        {
+          "nct_id": "NCT03807440",
+          "relevance_grade": "C",
+          "reasoning": "CORDIALLY CEE 觀察性研究，評估 T2DM 現代抗糖尿病藥物使用特性（n=4,083），研究族群為 T2DM，與 T1DM 適應症直接相關性低。"
+        },
+        {
+          "nct_id": "NCT02475499",
+          "relevance_grade": "C",
+          "reasoning": "Incretin 藥物與胰臟癌風險大型回溯研究（n=886,172），研究藥物非 Acarbose，與 T1DM 輔助治療評估無關。"
+        },
+        {
+          "nct_id": "NCT01863147",
+          "relevance_grade": "C",
+          "reasoning": "Sitagliptin 研究（非 Acarbose 藥物），T2DM 族群，相關性最低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "33300282",
+          "study_type": "Systematic Review / Network Meta-analysis",
+          "tier": "1",
+          "relevance_note": "最高等級文獻：系統性回顧及網絡統合分析，比較 T1DM 成人輔助降糖藥物（含 Acarbose）的療效與安全性（2021），提供跨藥物比較的整體證據總結"
+        },
+        {
+          "pmid": "10227568",
+          "study_type": "RCT（安慰劑對照雙盲）",
+          "tier": "1",
+          "relevance_note": "直接證據：安慰劑對照雙盲 RCT，直接評估 Acarbose 在 T1DM 患者的療效與安全性（1999），結果顯示 HbA1c 及餐後血糖顯著改善"
+        },
+        {
+          "pmid": "28811795",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_note": "直接比較 Acarbose vs Metformin 作為 T1DM 輔助治療的 RCT（2017），提供相對療效比較數據"
+        },
+        {
+          "pmid": "9789720",
+          "study_type": "Multicentre RCT",
+          "tier": "1",
+          "relevance_note": "多中心 RCT 評估 Acarbose 在 T1DM 患者的效果（Glucobay，1998），樣本來自多個中心增加外部效度"
+        },
+        {
+          "pmid": "8001626",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance_note": "早期 RCT：Acarbose 合併胰島素治療 T1DM 的先驅性臨床試驗（1994），奠定輔助治療概念"
+        },
+        {
+          "pmid": "10554902",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_note": "探討 Acarbose 消除 T1DM 患者胰島素注射-進食等待時間的臨床研究（1999），具實際臨床應用意義"
+        },
+        {
+          "pmid": "9051366",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "relevance_note": "Acarbose 在 T1DM 治療中的早期臨床研究（1997），支持安全性與初步療效數據"
+        },
+        {
+          "pmid": "15511128",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_note": "系統性回顧 T1DM 青少年潛在輔助療法，包含 Acarbose 的評估與建議（2004），支持特殊族群應用"
+        },
+        {
+          "pmid": "28042355",
+          "study_type": "Retrospective Cohort",
+          "tier": "2",
+          "relevance_note": "回溯性佇列研究評估 Acarbose 加入胰島素治療方案的效果（退伍軍人 T2DM 族群，2016），族群不同但機轉直接相關"
+        },
+        {
+          "pmid": "34358247",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "relevance_note": "T1DM/T2DM 動物模型研究（R-verapamil 為主角，Acarbose 為對照組），間接支持 T1DM 動物模型的 Acarbose 效果"
+        }
+      ],
+      "guardrails": [
+        "必須維持胰島素替代治療作為基礎，Acarbose 僅為輔助用藥",
+        "低血糖發作時不可使用蔗糖或澱粉類食物急救，應使用純葡萄糖（Acarbose 阻斷蔗糖分解）",
+        "監控 GI 副作用（脹氣、腹瀉），從低劑量（25mg tid）起始並逐漸滴定",
+        "腸道疾病（IBD、腸梗阻病史）患者禁用",
+        "建議定期監測 HbA1c 及肝功能（長期使用）"
+      ]
+    }
+  ],
+  "summary": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 0,
+    "L4": 1,
+    "L5": 8,
+    "S3_proceed": 0,
+    "S2_feasibility": 1,
+    "S1_safety": 0,
+    "S0_hold": 9
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 證據等級分佈
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| focal stiff limb syndrome | 0.9965 | **L5** | S0 | ❌ Hold |
+| classic stiff person syndrome | 0.9965 | **L5** | S0 | ❌ Hold |
+| thiamine-responsive dysfunction syndrome | 0.9962 | **L5** | S0 | ❌ Hold |
+| opsismodysplasia | 0.9962 | **L5** | S0 | ❌ Hold |
+| drug-induced localized lipodystrophy | 0.9924 | **L5** | S0 | ❌ Hold |
+| centrifugal lipodystrophy | 0.9922 | **L5** | S0 | ❌ Hold |
+| pressure-induced localized lipoatrophy | 0.9920 | **L5** | S0 | ❌ Hold |
+| idiopathic localized lipodystrophy | 0.9917 | **L5** | S0 | ❌ Hold |
+| pancreatic agenesis | 0.9916 | **L4** | S0 | ⚠️ Hold（機轉合理但罕見病無直接證據）|
+| **type 1 diabetes mellitus** | 0.9839 | **L2** | S2 | ✅ **Proceed with Guardrails** |
+
+---
+
+### 🔑 關鍵發現
+
+1. **TxGNN 分數與臨床可行性不相關**：TxGNN 分數最高的 8 個適應症（0.992-0.997）均為 L5，而分數最低的 T1DM（0.984）反而有最強的臨床證據（L2）。這顯示 **KG 預測分數反映圖網路結構相似性，而非臨床證據強度**，兩者需獨立評估。
+
+2. **T1DM 具有實質臨床證據**：5 篇 Tier-1 RCT/Meta-analysis 文獻直接支持 Acarbose 在 T1DM 的輔助療法地位，可進入 S2 臨床可行性評估。
+
+3. **資料缺漏警示**：`original_moa: "[Data Gap]"` 為系統資料庫缺漏，不代表 Acarbose 機轉未知。建議補強 DrugBank 資料整合。
+
+> ⚕️ **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選須經臨床驗證後方可應用。

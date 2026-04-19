@@ -1,0 +1,344 @@
+沒有適用的技能 — 這是純粹的領域分析任務，直接進行藥物再利用證據評估。
+
+---
+
+以下是 **Hydrochlorothiazide (DB00999)** 的完整證據分析：
+
+```json
+{
+  "drug": "Hydrochlorothiazide",
+  "drugbank_id": "DB00999",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "市場狀態標記為『未上市』且 original_indications 為空，疑為當地登記資料缺口。HCTZ 為全球廣泛使用之噻嗪類利尿劑，原適應症（高血壓、水腫）之全球證據應另行補充；本次分析以所提供資料為主，並輔以藥理機轉背景知識。",
+  "indications": [
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9842,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "HCTZ 抑制遠曲小管 Na-Cl 共轉運體，減少鈉水再吸收，降低循環血量與血壓。惡性高血壓腎病變雖屬高血壓序列疾病，但腎功能顯著下降時（eGFR<30）噻嗪類利尿劑療效明顯降低，臨床上多改用袢利尿劑。此適應症為高血壓之間接外推，無直接試驗支持。",
+      "data_quality_flag": "⚠️ 資料庫內 0 trials、0 literature；證據源自藥理外推",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "惡性高血壓腎病變 eGFR 通常偏低，噻嗪類療效受限",
+        "缺乏直接 RCT 支持此特定亞群",
+        "需先確立腎功能基線再評估安全性"
+      ]
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9842,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "HCTZ 透過利尿降低血容量，理論上可降低全身血壓。然而腎血管性高血壓的核心機轉為 RAAS 過度活化（腎動脈狹窄→腎臟低灌流→腎素↑），噻嗪類利尿劑可能進一步活化 RAAS 並加重腎臟缺血，安全性疑慮高於潛在效益。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6292087",
+          "title": "Hypertension and neurofibromatosis. Case report.",
+          "year": "1982",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "1982 年個案報告，描述神經纖維瘤病合併高血壓，與腎血管性高血壓病機有部分重疊，但未直接研究 HCTZ 療效，相關性低。"
+        }
+      ],
+      "key_concerns": [
+        "利尿劑可能加重腎臟低灌流",
+        "腎血管性高血壓首選 ACEi/ARB（但雙側狹窄禁忌），利尿劑非首選",
+        "僅 1 篇 1982 年間接個案報告，證據品質極低"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9835,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "HCTZ 為全身性利尿/降壓藥物，對肺動脈血管阻力無直接降低作用。容量負荷減少在理論上可改善右心前負荷，但多因子機轉之肺高壓（第5群）治療以處理潛在病因為主，無確立之噻嗪利尿劑地位。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "無任何試驗或文獻支持",
+        "TxGNN 高分可能源自高血壓節點在知識圖譜的高度連結性，非疾病特異性預測",
+        "建議作為低優先研究假說保留，不建議進一步投入資源"
+      ]
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9835,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "文獻搜尋結果（20 篇）全數為低氧生物學基礎研究（HIF-1α 路徑、腦低氧、癌症缺氧等），與 HCTZ 治療此適應症無直接關聯。肺部疾病/低氧引起之肺高壓以處理原發疾病（COPD、ILD）及氧療為主，噻嗪類利尿劑無確立角色。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "低氧與神經老化之基礎研究，與 HCTZ 之治療應用無關。"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine.",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "探討低氧作為治療手段之綜述，非藥物治療文獻，與 HCTZ 無關。"
+        },
+        {
+          "pmid": "34535359",
+          "title": "Therapeutic Modification of Hypoxia.",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "低氧治療修飾策略之綜述，無 HCTZ 相關內容。"
+        }
+      ],
+      "data_quality_flag": "⚠️ 20 篇文獻均為低氧基礎生物學，零篇涉及 HCTZ；文獻計數誤導性高，實際有效文獻 = 0"
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock 症候群為罕見體染色體顯性遺傳病，主要特徵為脫髮、指甲萎縮及智能障礙（疑與 KAT6A/KAT6B 基因相關）。噻嗪類利尿劑之藥理機轉（離子通道抑制）與此遺傳症候群之分子病機無已知交集。高 TxGNN 分數可能反映知識圖譜中『高血壓』節點之廣泛連結，而非疾病特異性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "極罕見疾病，無任何臨床試驗或文獻",
+        "機轉連結不明確",
+        "不建議投入研究資源"
+      ]
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn_score": 0.978,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "慢性肺心病（肺動脈高壓致右心衰竭）中，容量超載是重要病理生理特徵。HCTZ 作為輔助利尿劑，可協助袢利尿劑（如呋塞米）在利尿劑抵抗時增強療效（噻嗪類序列腎元阻斷策略）。CLOROTIC 試驗（NCT 未直接列出但 PMID 38215973 已發表）提供噻嗪類聯合療法在心衰竭中的直接 RCT 證據，可延伸至慢性肺心病情境。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38215973",
+          "title": "Sex differences in clinical characteristics and outcomes in the CLOROTIC trial (combining loop with thiazide-type diuretics)",
+          "year": "2024",
+          "study_type": "RCT Secondary Analysis",
+          "tier": 1,
+          "relevance_grade": "B",
+          "reasoning": "CLOROTIC 試驗為噻嗪類（hydrochlorothiazide）聯合袢利尿劑在急性心衰竭之多中心 RCT。此篇為次級分析，提供 HCTZ 在心衰竭（包含肺心病機轉重疊）之直接藥物級別證據，相關性高。"
+        },
+        {
+          "pmid": "36595088",
+          "title": "Diuretics in pediatrics.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "系統性回顧噻嗪類（含 HCTZ）在心肺疾病兒科應用，提供藥理背景，但非成人 cor pulmonale 直接證據。"
+        },
+        {
+          "pmid": "28711447",
+          "title": "The Transition From Hypertension to Heart Failure: Contemporary Update.",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "探討高血壓進展至心衰竭之機轉，HCTZ 在此連續病程中的角色有間接相關性。"
+        },
+        {
+          "pmid": "33224781",
+          "title": "Mineralocorticoid receptor blockade improves pulmonary hypertension and right ventricular function",
+          "year": "2020",
+          "study_type": "Experimental/Clinical Study",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "探討醛固酮拮抗劑（非 HCTZ）對肺高壓及右心功能之影響，機轉路徑部分重疊（利尿、抗重構），間接相關。"
+        },
+        {
+          "pmid": "11219471",
+          "title": "Comparison of telmisartan and atenolol in combination with hydrochlorothiazide",
+          "year": "2001",
+          "study_type": "RCT",
+          "tier": 2,
+          "relevance_grade": "C",
+          "reasoning": "RCT 研究 HCTZ 與其他降壓藥聯用，主適應症為高血壓，非直接肺心病研究，但確認 HCTZ 組合療法之安全性。"
+        },
+        {
+          "pmid": "2924690",
+          "title": "[Basic therapy of chronic heart failure with digitalis or diuretics?]",
+          "year": "1989",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "1989 年慢性心衰竭利尿劑治療之討論，歷史背景參考價值，臨床指引已大幅更新。"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute pulmonary heart disease",
+      "txgnn_score": 0.9317,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "急性肺心病（急性右心衰竭）之核心治療包含利尿減輕容量超載。HCTZ 可作為袢利尿劑的增效藥物（sequential nephron blockade），尤其在利尿劑阻抗情境下。CLOROTIC 試驗已在急性心衰竭族群中直接驗證 HCTZ + 袢利尿劑聯合策略之有效性與安全性，形成 Phase 3 等級之藥物類別證據。目前 2 項進行中試驗（NCT07008365、NCT06273397）進一步強化此方向。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07008365",
+          "title": "The Role of intraABDOminal Pressure and Point Of Care UltraSound to Guide Decongestive Therapy in Heart Failure",
+          "phase": "PHASE3",
+          "status": "RECRUITING",
+          "enrollment": 168,
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 招募中試驗，研究超音波引導之去充血治療（含噻嗪類利尿劑）於心衰竭。HCTZ 屬去充血策略之一，為藥物類別間接證據，非 HCTZ 單藥設計。"
+        },
+        {
+          "nct_id": "NCT06273397",
+          "title": "Acetazolamide or Metolazone in Acute Heart Failure",
+          "phase": "NA",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 1050,
+          "relevance_grade": "B",
+          "reasoning": "大型試驗（n=1050）比較 Metolazone（噻嗪類似物）與 Acetazolamide 在急性心衰竭之效果，機轉與 HCTZ 高度相似，為最強之藥物類別間接支持，但非 HCTZ 本身。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38215973",
+          "title": "Sex differences in clinical characteristics and outcomes in the CLOROTIC (combining loop with thiazide-type diuretics) trial",
+          "year": "2024",
+          "study_type": "RCT Secondary Analysis",
+          "tier": 1,
+          "relevance_grade": "A",
+          "reasoning": "CLOROTIC 試驗為 HCTZ 在急性心衰竭之核心 Phase 3 RCT（主要結果已發表），此次級分析探討性別差異。提供 HCTZ 直接 RCT 級別證據，相關性最強。"
+        },
+        {
+          "pmid": "36595088",
+          "title": "Diuretics in pediatrics.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance_grade": "B",
+          "reasoning": "系統性回顧利尿劑（含 HCTZ）在心肺疾病中使用，支持藥理可行性。"
+        },
+        {
+          "pmid": "17269602",
+          "title": "Heart and renal failure in renovascular hypertension caused by giant cell arteritis--case report.",
+          "year": "2007",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "心腎衰竭個案報告，描述利尿劑使用情境，間接背景參考。"
+        },
+        {
+          "pmid": "9673832",
+          "title": "Clinical pharmacokinetics of vasodilators. Part II.",
+          "year": "1998",
+          "study_type": "PK Review",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "1998 年血管擴張劑藥動學回顧，HCTZ 相關藥動學背景參考，直接臨床適應症證據有限。"
+        }
+      ],
+      "guardrails": [
+        "建議在袢利尿劑基礎上加用，非單獨使用",
+        "監測電解質（低鉀、低鈉血症風險）",
+        "腎功能監測（eGFR<30 時療效下降）",
+        "注意血壓過度下降風險",
+        "等待 NCT06273397（n=1050）完整結果以確立最佳策略"
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.9087,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "青光眼治療的利尿劑機轉主要依賴碳酸酐酶抑制（CAI，如 Acetazolamide、Dorzolamide）減少房水生成以降低眼壓（IOP）。HCTZ 為噻嗪類利尿劑，對碳酸酐酶的抑制作用極弱（與 Acetazolamide 相比幾乎可忽略），缺乏降低眼壓的生物學依據。高 TxGNN 分數可能源於青光眼與高血壓在知識圖譜中的共病連結（而非藥物特異性）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "HCTZ 無顯著 CAI 活性，降眼壓機轉不成立",
+        "原發遺傳性青光眼需基因層面介入，利尿劑無角色",
+        "TxGNN 高分為知識圖譜偽陽性（青光眼-高血壓共病節點連結）"
+      ]
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.8616,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "開角型青光眼與原發遺傳性青光眼同樣以 IOP 管理為核心（前列腺素類似物、β-阻斷劑、CAI、α-促效劑）。HCTZ 在此機轉路徑中無確立角色。值得注意的是，有回溯性研究報告噻嗪類利尿劑長期使用可能與黑色素瘤風險相關（光敏感性），若延伸至眼部腫瘤考量則為負面訊號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "無 IOP 降低機轉依據",
+        "0 試驗、0 文獻",
+        "長期 HCTZ 使用之光敏感性副作用需考量",
+        "TxGNN 0.86 為所有適應症中相對較低分，本即反映預測信心較低"
+      ]
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.7453,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頭皮單純性少毛症（HSS）為遺傳性毛囊發育障礙（CDSN、LPAR6 等基因突變），屬於毛囊結構問題，非血流動力學或離子轉運異常。HCTZ 之利尿/降壓機轉與 HSS 之分子病機無已知交集。TxGNN 0.74 為本藥最低分，且無任何支持性資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concerns": [
+        "機轉連結完全不明確",
+        "HSS 為罕見遺傳病，基因治療方向更為相關",
+        "TxGNN 最低分 0.74，預測可信度最低",
+        "不建議投入任何研究資源"
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 分析摘要總覽
+
+| 適應症 | TxGNN | 證據等級 | 決策階段 | 建議 | 關鍵依據 |
+|--------|-------|---------|---------|------|---------|
+| acute pulmonary heart disease | 0.932 | **L2** | **S2** | ✅ Proceed w/ Guardrails | CLOROTIC RCT + 2 進行中 Phase 3 試驗 |
+| chronic pulmonary heart disease | 0.978 | **L3** | **S1** | 🔬 Research Question | CLOROTIC 次級分析 + 13 篇文獻 |
+| malignant hypertensive renal disease | 0.984 | **L4** | **S1** | 🔬 Research Question | 藥理外推，需安全性評估 |
+| malignant renovascular hypertension | 0.984 | **L4** | **S1** | ⛔ Hold | 機轉疑慮：可能加重腎缺血 |
+| pulmonary HTN (multifactorial) | 0.984 | **L5** | **S0** | ⛔ Hold | 0 臨床證據 |
+| pulmonary HTN (lung disease/hypoxia) | 0.984 | **L5** | **S0** | ⛔ Hold | 20 篇文獻全為低氧基礎研究，與藥物無關 |
+| Braddock syndrome | 0.979 | **L5** | **S0** | ⛔ Hold | 罕見遺傳病，無機轉連結 |
+| primary hereditary glaucoma | 0.909 | **L5** | **S0** | ⛔ Hold | HCTZ 無 CAI 活性 |
+| open-angle glaucoma | 0.862 | **L5** | **S0** | ⛔ Hold | 無降眼壓機轉 |
+| hypotrichosis simplex of scalp | 0.745 | **L5** | **S0** | ⛔ Hold | 機轉完全不相關 |
+
+---
+
+## ⚠️ 重要分析備注
+
+### 資料品質警示
+1. **文獻計數誤導性**：「pulmonary HTN owing to lung disease/hypoxia」雖有 20 篇文獻，但全部為低氧基礎生物學，與 HCTZ 零相關——**有效文獻實際為 0**。
+2. **原始適應症空白**：`original_indications: []` 為資料缺口，HCTZ 全球已核准高血壓/水腫適應症，此空白會低估藥物成熟度。
+3. **TxGNN 高分偏差**：HCTZ 為高血壓藥物，知識圖譜中「高血壓」節點與所有心血管/腎臟/眼壓疾病均有廣泛連結，可能造成系統性高分偏差（0.93–0.98 集中於心血管/高血壓相關疾病）。
+
+### 最優先研究方向
+**Acute pulmonary heart disease（L2/S2）** 為本次分析中唯一具備足夠臨床依據進入下一階段的適應症，建議重點追蹤：
+- CLOROTIC 試驗完整結果（HCTZ 40mg + furosemide vs. furosemide alone）
+- NCT06273397（n=1050，metolazone vs. acetazolamide）完成後的外推性評估
+
+> 本分析結果僅供研究參考，不構成醫療建議。老藥新用候選需經過臨床驗證才能應用。

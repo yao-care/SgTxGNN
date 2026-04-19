@@ -1,0 +1,213 @@
+```json
+{
+  "drug": "Avelumab",
+  "drugbank_id": "DB11945",
+  "analysis_date": "2026-04-05",
+  "global_context_note": "Avelumab（商品名 Bavencio）全球已獲 FDA 核准用於 Merkel cell carcinoma（2017）及尿路上皮癌維持治療（2020），為 PD-L1 checkpoint inhibitor；本地市場狀態標記「未上市」，MOA 標記 [Data Gap] 為本地資料庫缺失，非藥物本身未知。",
+  "indications": [
+    {
+      "disease_name": "human herpesvirus 8-related tumor",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "HHV-8（人類疱疹病毒第8型）主要引發 Kaposi sarcoma 及 Primary effusion lymphoma。病毒相關腫瘤透過 PD-L1 上調逃避免疫監控，Avelumab 阻斷 PD-L1 理論上可恢復 T 細胞毒殺功能。機轉關聯合理，但提供資料中無任何臨床試驗或文獻支持。注意：外部文獻存在 checkpoint inhibitor 用於 Kaposi sarcoma 的初步個案報告（資料庫未收錄，建議補充 PubMed 搜尋）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_flag": "高度懷疑外部文獻存在但未被收錄，建議補充搜尋 PMID"
+    },
+    {
+      "disease_name": "middle ear neuroendocrine tumor",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中耳神經內分泌瘤為極罕見腫瘤（全球文獻案例 <50 例）。神經內分泌腫瘤 PD-L1 表現因部位和分化程度差異極大；Merkel cell carcinoma（神經內分泌起源）為 Avelumab 核准適應症，提供間接類比，但中耳部位特殊性使外推可信度低。無任何直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_flag": "疾病過於罕見，預期即使補充搜尋亦難以找到相關試驗"
+    },
+    {
+      "disease_name": "malignant cutaneous granular cell skin tumor",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "惡性顆粒細胞瘤（Schwann cell 起源）極罕見且高度惡性。PD-L1 表現於惡性顆粒細胞瘤的數據缺乏；與 Avelumab 的機轉連結僅為「惡性腫瘤可能表現 PD-L1」的通用假設，特異性極低。無任何直接臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_flag": null
+    },
+    {
+      "disease_name": "ectomesenchymoma",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ectomesenchymoma 為含神經外胚層與間葉分化成分的極罕見混合型腫瘤，主要見於兒科。無 PD-L1 表現的相關研究，與 Avelumab 的連結僅為模型預測，生物合理性極低。兒科患者使用 checkpoint inhibitor 需額外安全性考量。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gap_flag": null
+    },
+    {
+      "disease_name": "adenosine deaminase deficiency",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADA 缺乏症（ADA-SCID）為腺苷脫氨酶缺乏導致的免疫缺陷病。腺苷本身是免疫抑制分子，理論上 ADA 缺乏 → 腺苷累積 → 免疫抑制 → 可能影響 PD-1/PD-L1 軸。然而，ADA-SCID 患者缺乏成熟 T 細胞，Avelumab 的作用機轉依賴既有 T 細胞活化，療效基礎不存在。⚠️ 安全警示：在免疫缺陷患者使用 checkpoint inhibitor 可能引發不可預期的免疫重建炎症反應（IRIS）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flag": "⚠️ 嚴重安全疑慮：原發性免疫缺陷患者使用 PD-L1 抑制劑機轉基礎不足且潛在有害"
+    },
+    {
+      "disease_name": "reticular dysgenesis",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "網狀發育不全（AK2 基因突變）為最嚴重 SCID 變體，造血幹細胞分化完全失敗，患者幾乎無淋巴細胞及髓系細胞。Avelumab 需要功能性 T 細胞才能發揮作用，此病患者免疫系統發育完全缺失，治療基礎不存在。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flag": "⚠️ 嚴重安全疑慮：患者缺乏必要的免疫效應細胞，checkpoint inhibitor 作用機轉完全不適用"
+    },
+    {
+      "disease_name": "Immunoerythromyeloid hypoplasia",
+      "txgnn_score": 0.9994,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "免疫紅系骨髓再生不良為涵蓋免疫、紅系及髓系細胞減少的罕見血液病。此類疾病的病理機轉與 PD-L1 無已知直接關聯；加之患者存在多系造血缺陷，使用 Avelumab 的安全性與療效基礎均不明確。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flag": "⚠️ 安全性不明：造血缺陷疾病使用免疫 checkpoint inhibitor 缺乏機轉基礎"
+    },
+    {
+      "disease_name": "non-severe combined immunodeficiency",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "非嚴重型聯合免疫缺陷（non-severe CID）患者具有部分 T 細胞功能，理論上 PD-L1 抑制劑有作用空間。然而，此為免疫缺陷狀態，使用 checkpoint inhibitor 可能引發失控的自體免疫反應或 IRIS，利害比不明確。無任何臨床支持數據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flag": "⚠️ 安全疑慮：部分免疫缺陷狀態使用 PD-L1 抑制劑可能引發 IRIS 或自體免疫毒性"
+    },
+    {
+      "disease_name": "prostatic urethra urothelial carcinoma",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "前列腺尿道尿路上皮癌（PUUC）組織學上屬尿路上皮癌（TCC）範疇。Avelumab 已獲 FDA 核准用於尿路上皮癌（鉑金化療後一線維持治療），PD-L1 在 PUUC 的表現有理由推測與膀胱/尿路上皮癌相似。屬「相同組織學、特殊解剖亞型」的間接外推，機轉連結強度高，但 PUUC 具有局部侵犯前列腺的特殊性，可能影響治療反應。無直接 RCT 或觀察性研究數據（本地資料庫）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "indirect_evidence_note": "Avelumab 全球核准適應症（尿路上皮癌）提供強烈的間接組織學外推依據，建議升級為 L3 後補充外部文獻系統性回顧"
+    },
+    {
+      "disease_name": "kidney pelvis sarcomatoid transitional cell carcinoma",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "腎盂肉瘤樣移形細胞癌（sarcomatoid TCC）具有雙重機轉關聯：(1) 移形細胞/尿路上皮組織學為 Avelumab 核准適應症的直接外推；(2) 肉瘤樣分化（sarcomatoid transformation）已知與 PD-L1 高表現及 TMB 升高相關，文獻顯示肉瘤樣腫瘤對 checkpoint inhibitor 反應率可能更高。雖有 1 個相關試驗，但為回顧性觀察研究，評估治療模式而非 Avelumab 療效。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05431777",
+          "title": "Retrospective, Multicenter, Observational Study to Evaluate Current Treatment Patterns and Outcomes",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 79,
+          "relevance_grade": "C",
+          "reasoning": "回顧性多中心觀察研究，評估「現有治療模式與結果」，並非直接測試 Avelumab 療效。完成狀態且有一定樣本量（n=79），可提供該疾病自然病史與標準治療現況背景資訊，有助於設計後續前瞻性試驗。直接相關性低（Grade C），但疾病模式數據具輔助價值。"
+        }
+      ],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L5": 8,
+      "L4": 2,
+      "L3": 0,
+      "L2": 0,
+      "L1": 0
+    },
+    "decision_distribution": {
+      "S0": 8,
+      "S1": 2,
+      "S2": 0,
+      "S3": 0
+    },
+    "safety_flags_count": 4,
+    "priority_indications": [
+      {
+        "rank": 1,
+        "disease": "prostatic urethra urothelial carcinoma",
+        "rationale": "組織學直接外推自核准適應症，機轉連結最強"
+      },
+      {
+        "rank": 2,
+        "disease": "kidney pelvis sarcomatoid transitional cell carcinoma",
+        "rationale": "組織學外推 + 肉瘤樣分化 PD-L1 高表現生物學假說 + 有觀察性研究存在"
+      },
+      {
+        "rank": 3,
+        "disease": "human herpesvirus 8-related tumor",
+        "rationale": "HHV-8 腫瘤免疫逃避機轉合理，外部文獻可能存在支持性個案資料"
+      }
+    ],
+    "critical_concerns": [
+      "4 個免疫缺陷相關適應症（ADA deficiency、reticular dysgenesis、Immunoerythromyeloid hypoplasia、non-severe CID）存在嚴重安全疑慮，checkpoint inhibitor 在免疫缺陷患者的使用機轉基礎薄弱且潛在有害，建議標記為 Hold 並不進入後續評估流程",
+      "藥物本地 MOA 標記 [Data Gap] 需更正：Avelumab 為 PD-L1 IgG1 單株抗體（immune checkpoint inhibitor），全球藥學資料完整",
+      "本地資料庫證據嚴重不足（8/10 為 L5），建議補充 PubMed/ClinicalTrials.gov 系統性外部搜尋"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 整體評估
+| 項目 | 數值 |
+|------|------|
+| 分析適應症數 | 10 |
+| L5（純預測）| 8 個 (80%) |
+| L4（間接證據）| 2 個 (20%) |
+| S0（需重新篩選）| 8 個 |
+| S1（安全性初評）| 2 個 |
+| ⚠️ 安全警示 | 4 個 |
+
+---
+
+### 🔴 特別警示：免疫缺陷適應症群（建議排除）
+
+以下 4 個適應症存在**藥理機轉根本矛盾**，建議直接標記排除，不進入後續評估：
+
+| 適應症 | 問題 |
+|--------|------|
+| Adenosine deaminase deficiency | T 細胞缺失，PD-L1 抑制無效應目標 |
+| Reticular dysgenesis | 最嚴重 SCID，全造血系統缺失 |
+| Immunoerythromyeloid hypoplasia | 多系造血缺陷，機轉不適用 |
+| Non-severe CID | 部分免疫缺陷，可能誘發 IRIS 或自體免疫毒性 |
+
+> PD-L1 抑制劑作用機轉**依賴既有功能性 T 細胞**，在原發性免疫缺陷疾病中使用，不僅療效基礎不存在，更可能造成免疫重建炎症反應（IRIS）等嚴重不良後果。
+
+---
+
+### 🟡 優先研究方向（L4, S1）
+
+**腎盂肉瘤樣移形細胞癌**與**前列腺尿道尿路上皮癌**具有最強的機轉外推依據：
+
+```
+Avelumab 核准適應症（尿路上皮癌）
+          ↓ 組織學外推
+    尿路上皮亞型腫瘤（PUUC、腎盂 TCC）
+          ↓ 加成因素
+    肉瘤樣分化 → PD-L1 高表現 → 更強 checkpoint 依賴
+```
+
+建議行動：補充外部文獻搜尋，確認是否已有相關病例報告或回顧性分析，將證據等級從 L4 升至 L3。

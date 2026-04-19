@@ -1,0 +1,521 @@
+# 藥物再利用證據分析報告
+
+**藥物**: Glutamic acid (DB00142)
+**分析日期**: 2026-04-04
+
+---
+
+```json
+{
+  "drug": "Glutamic acid",
+  "drugbank_id": "DB00142",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Glutamic acid 為內源性氨基酸兼神經傳遞物質，原始適應症資料空白（市場狀態：未上市作為藥品）。評估需特別注意：①glutamic acid 與 poly-gamma-glutamic acid (poly-GGA) 文獻需嚴格區分；②興奮性毒性（excitotoxicity）在神經/眼科適應症可能使補充方向反向；③多數臨床試驗未直接測試 glutamic acid 本身。",
+  "indications": [
+    {
+      "disease_name": "postmenopausal osteoporosis",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Glutamic acid 殘基在 vitamin K 依賴性蛋白質（如 osteocalcin、MGP）中被 γ-carboxylase 羧化形成 Gla 殘基，Gla-osteocalcin 為骨基質礦化的關鍵調節因子。PMID 26144993 直接顯示 glutamic acid 可改善卵巢切除小鼠（停經模型）的骨代謝異常及類更年期症狀；此外 poly-GGA 可促進停經後女性腸道鈣吸收（PMID 18187428）。機轉可信度：中等（前臨床有直接證據，臨床尚缺乏 RCT）。",
+      "key_concern": "NCT00048061 雖為 Phase 3 completed（n=1609），但截斷標題無法確認是否直接測試 glutamic acid；結合其餘文獻（大量 Vitamin K/bisphosphonate 研究），判斷此試驗極可能測試 Vitamin K2 或 bisphosphonate，與 glutamic acid 僅間接相關。直接人體 RCT 證據仍缺失。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00048061",
+          "title": "Randomized, Double-blind, Double Dummy, Parallel Groups, Multicenter Study to Compare the Efficacy...",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 1609,
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 大型 RCT，1609 名受試者，已完成。標題截斷，無法確認是否直接測試 glutamic acid。結合同適應症文獻（Vitamin K2 + bisphosphonate 研究為主），推測試驗主體為 Vit K2 或 bisphosphonate 比較研究，glutamic acid 並非主要干預。相關性評定為 C（同適應症但藥物不符）。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "26144993",
+          "title": "Glutamic acid ameliorates estrogen deficiency-induced menopausal-like symptoms in ovariectomized mice",
+          "year": "2015",
+          "study_type": "Animal study (in vivo)",
+          "tier": "3",
+          "relevance": "★★★ 最直接相關文獻：直接測試 glutamic acid 在停經動物模型中的療效，顯示改善骨代謝相關症狀",
+          "note": "動物研究，需人體試驗驗證"
+        },
+        {
+          "pmid": "18187428",
+          "title": "Acute effect of poly-gamma-glutamic acid on calcium absorption in post-menopausal women",
+          "year": "2007",
+          "study_type": "Clinical study (acute intervention)",
+          "tier": "2",
+          "relevance": "★★☆ 相關：測試 poly-GGA（非純 glutamic acid）在停經後女性的鈣吸收促進效果，有直接人體數據",
+          "note": "測試物為 poly-GGA 聚合物，非 glutamic acid 單體，外推需謹慎"
+        },
+        {
+          "pmid": "40950804",
+          "title": "Amino acid profiles, aging, and sex hormone interactions in the elderly Iranian population",
+          "year": "2025",
+          "study_type": "Metabolomics/Cohort",
+          "tier": "2",
+          "relevance": "★★☆ 間接相關：代謝組學研究探討胺基酸（含 glutamic acid）與性激素及老化的關聯"
+        },
+        {
+          "pmid": "14529146",
+          "title": "Treatment with vitamin D3 and/or vitamin K2 for postmenopausal osteoporosis",
+          "year": "2003",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "★☆☆ 低相關：測試 Vitamin D3/K2 組合，與 glutamic acid 的關聯僅在 Gla 蛋白機轉層面"
+        },
+        {
+          "pmid": "14584089",
+          "title": "Combined treatment with vitamin k2 and bisphosphonate in postmenopausal women with osteoporosis",
+          "year": "2003",
+          "study_type": "RCT",
+          "tier": "1",
+          "relevance": "★☆☆ 低相關：Vitamin K2 + bisphosphonate 聯合治療研究"
+        },
+        {
+          "pmid": "29437025",
+          "title": "VKORC1 -1639G>A Polymorphism and Osteoporosis in Postmenopausal Women",
+          "year": "2018",
+          "study_type": "Genetic association study",
+          "tier": "2",
+          "relevance": "★☆☆ 間接：探討 Vitamin K 代謝酶基因多態性與骨質疏鬆的關聯，涉及 Gla 蛋白羧化機轉"
+        },
+        {
+          "pmid": "34529430",
+          "title": "Bone-Targeting Polymer Vesicles for Effective Therapy of Osteoporosis",
+          "year": "2021",
+          "study_type": "Preclinical/Drug delivery",
+          "tier": "3",
+          "relevance": "★☆☆ 低相關：奈米載體骨靶向治療研究，與 glutamic acid 無直接關聯"
+        },
+        {
+          "pmid": "11668761",
+          "title": "[Vitamin K in the Norwegian diet and osteoporosis]",
+          "year": "2001",
+          "study_type": "Observational/Diet study",
+          "tier": "2",
+          "relevance": "★☆☆ 低相關：Vitamin K 飲食攝取與骨密度研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "pregnancy associated osteoporosis",
+      "txgnn_score": 0.9918,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 模型可能基於 glutamic acid → Gla 蛋白（osteocalcin）→ 骨代謝的通用路徑給出高分，但妊娠相關骨質疏鬆有其特殊病理機轉（哺乳期 PTHrP 升高、鈣需求增加），尚無直接機轉假說支持 glutamic acid 特異性治療。",
+      "key_concern": "唯一文獻 PMID 11369436『Glutamate uptake』為 glutamate 轉運體綜述，與妊娠骨質疏鬆無直接關聯。零臨床試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "11369436",
+          "title": "Glutamate uptake",
+          "year": "2001",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance": "★☆☆ 極低：僅為 glutamate 轉運體通論性綜述，與妊娠骨質疏鬆無直接關聯",
+          "note": "此文獻被收錄可能為資料庫關鍵字匹配誤差"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary hereditary glaucoma",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glutamic acid 興奮性毒性（excitotoxicity）與視網膜神經節細胞（RGC）死亡有關，在 open-angle glaucoma 中有相關文獻，但延伸至遺傳性青光眼（primary hereditary glaucoma）尚缺乏機轉說明。原發性遺傳青光眼（如 MYOC、CYP1B1 突變）主要透過小樑網功能異常升高眼壓，非 glutamate 通路直接作用。",
+      "key_concern": "零臨床試驗、零文獻。純 TxGNN 預測。潛在警示：若參照開角型青光眼的 excitotoxicity 機轉，補充 glutamic acid 可能有害（見 open-angle glaucoma 項目）。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "gastroparesis",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glutamate（及 MSG）作為腸道「鮮味」（umami）感應分子，透過腸道 mGluR1/5 及 T1R1/T1R3 受體活化迷走神經傳入，影響胃排空與腸道運動。MSG 促進胃酸分泌與胃蠕動的機轉具生物合理性。然而胃輕癱的核心病理（自主神經病變、Cajal 間質細胞減少）是否能被 glutamate 途徑補救仍存疑。",
+      "key_concern": "NCT02745028 直接測試 MSG 改善兒童胃排空延遲，但因 WITHDRAWN（招募失敗，0 人入組）未獲任何資料。文獻 3 篇均聚焦於自體免疫性胃輕癱的免疫治療，與 glutamic acid 無直接關聯。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02745028",
+          "title": "Effect of a Single Dose of Monosodium Glutamate on Delayed Gastric Emptying in Children",
+          "phase": "NA",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "A",
+          "reasoning": "最直接相關試驗：直接測試 MSG（monosodium glutamate）對兒童延遲性胃排空的效果。然而試驗在招募前即撤回（0 人入組），可能反映安全顧慮、可行性問題或資金問題。雖相關性最高（A 級），但 WITHDRAWN 狀態表示無任何效力或安全性資料產生。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "29487566",
+          "title": "Islet Cell Associated Autoantibodies and C-Peptide Levels in Patients with Diabetes and Symptoms of Gastroparesis",
+          "year": "2018",
+          "study_type": "Retrospective cohort",
+          "tier": "2",
+          "relevance": "★☆☆ 低相關：糖尿病相關胃輕癱的自體抗體研究（含 GAD 抗體），與 glutamic acid 治療無直接關聯"
+        },
+        {
+          "pmid": "27014566",
+          "title": "Immunomodulation for treatment of drug and device refractory gastroparesis",
+          "year": "2016",
+          "study_type": "Case series",
+          "tier": "3",
+          "relevance": "★☆☆ 低相關：免疫調節治療難治性胃輕癱，與 glutamic acid 無關聯"
+        },
+        {
+          "pmid": "41071175",
+          "title": "Clinical Characteristics of Autoimmune Gastroparesis and Response to Immunomodulation",
+          "year": "2025",
+          "study_type": "Retrospective cohort",
+          "tier": "2",
+          "relevance": "★☆☆ 低相關：自體免疫性胃輕癱臨床特徵，提及 GAD65 抗體但非 glutamic acid 治療研究"
+        }
+      ]
+    },
+    {
+      "disease_name": "autosomal dominant neovascular inflammatory vitreoretinopathy",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADNIV（autosomal dominant neovascular inflammatory vitreoretinopathy）為 CAPN5 基因突變導致的罕見眼科遺傳病，機轉涉及玻璃體炎症與新生血管。Glutamic acid 與此疾病無已知機轉連結；TxGNN 分數可能來自眼科適應症的知識圖譜網路效應（如與視網膜疾病的結構相似性）。",
+      "key_concern": "零臨床試驗、零文獻。孤兒罕見病，研究資源極度匱乏。不建議在無機轉假說的情況下投入資源。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "dyspepsia",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Glutamate 在上消化道的多重作用：①腔內 glutamate（umami 刺激）活化胃黏膜 mGluR4 → 觸發迷走神經傳入 → 促進胃酸分泌與胃動力；②腸嗜鉻細胞（enterochromaffin cells）對 L-glutamate 反應釋放 5-HT，調控胃腸運動；③功能性消化不良患者大腦體感皮質 glutamate 水平升高（PMID 28634390），提示中樞敏感化機轉。PMID 22129863 系統性回顧腔內 glutamate 感應的生理意義，PMID 29031770 提供人體急性試驗數據（含 glutamate 的高湯改善胃排空）。",
+      "key_concern": "5 個臨床試驗中，多數與 glutamic acid 無直接關聯（SMA 試驗、高血壓研究、觀察性研究）。NCT06568965（De-Stress and Happy G - 草本複方）尚未招募，NCT07179237（Carminal 於 H. pylori）測試不同藥物。缺乏直接以 glutamic acid 為干預的人體 RCT。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06568965",
+          "title": "A Randomized, Double-blind, Placebo-controlled, Parallel Arm Clinical Trial of De-Stress and Happy G...",
+          "phase": "NA",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 81,
+          "relevance_grade": "B",
+          "reasoning": "標題疑似草本複方（De-Stress and Happy G），可能含有 glutamate 相關成分，但尚未招募且非單一 glutamic acid 干預。相關性中等（B）。"
+        },
+        {
+          "nct_id": "NCT07179237",
+          "title": "Evaluation of the Efficacy of Carminal on the Gastric Mucosa in Patients With Helicobacter Pylori Positive Dyspepsia",
+          "phase": "PHASE2",
+          "status": "RECRUITING",
+          "enrollment": 80,
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 試驗測試 Carminal（carminative 劑）對 H. pylori 相關消化不良胃黏膜的效果，適應症相關但藥物不同，與 glutamic acid 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT07250308",
+          "title": "A Prospective Observational Study on the Correlation Between Pathologically Confirmed Chronic Atrophic Gastritis and Dyspepsia",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "enrollment": 315,
+          "relevance_grade": "C",
+          "reasoning": "觀察性研究，探討慢性萎縮性胃炎與消化不良的相關性，無干預，與 glutamic acid 無直接關聯。"
+        },
+        {
+          "nct_id": "NCT01671384",
+          "title": "Randomized Placebo Controlled Trial of Valproate and Levocarnitine in Children With Spinal Muscular Atrophy",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "enrollment": 60,
+          "relevance_grade": "C",
+          "reasoning": "SMA 兒童試驗（valproate + levocarnitine），與消化不良及 glutamic acid 均無直接關聯，列入可能為資料庫誤配。"
+        },
+        {
+          "nct_id": "NCT06840964",
+          "title": "Analysis of the Effect of Acidified Omega 3 Esters (DHA+EPA) in Hypertensive Patients",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 100,
+          "relevance_grade": "C",
+          "reasoning": "Omega-3 脂肪酸於高血壓患者的研究，與 glutamic acid 及消化不良無直接關聯，列入可能為副作用追蹤（消化道症狀）相關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "22129863",
+          "title": "Nutritional and physiological significance of luminal glutamate-sensing in the gastrointestinal function",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance": "★★★ 核心機轉文獻：系統性回顧腸腔 glutamate 感應的生理意義，直接支持 glutamate 調節 GI 功能的機轉基礎"
+        },
+        {
+          "pmid": "29031770",
+          "title": "Effects of three major amino acids found in Japanese broth on glucose metabolism and gastric emptying",
+          "year": "2018",
+          "study_type": "Human intervention study",
+          "tier": "2",
+          "relevance": "★★★ 直接人體試驗：測試日式高湯中 glutamate 等胺基酸對胃排空的急性效應，提供初步臨床數據"
+        },
+        {
+          "pmid": "28634390",
+          "title": "Increased Glutamate in Somatosensory Cortex in Functional Dyspepsia",
+          "year": "2017",
+          "study_type": "Cross-sectional / neuroimaging (MRS)",
+          "tier": "2",
+          "relevance": "★★☆ 相關：顯示功能性消化不良患者大腦 glutamate 水平升高，提示中樞致敏機轉，但方向性（治療 vs. 病理標誌）待確認"
+        },
+        {
+          "pmid": "20093786",
+          "title": "Monosodium L-glutamate added to a high-energy, high-protein diet",
+          "year": "2010",
+          "study_type": "Human feeding study",
+          "tier": "2",
+          "relevance": "★★☆ 相關：MSG 添加對 GI 功能的影響，提供 glutamate 在腸道的直接作用數據"
+        },
+        {
+          "pmid": "41544723",
+          "title": "Chaihu-Shugan-San alleviates functional dyspepsia by inhibiting central sensitization and regulating glutamate",
+          "year": "2026",
+          "study_type": "Preclinical / mechanism study",
+          "tier": "3",
+          "relevance": "★★☆ 間接相關：中草藥複方透過調節 glutamate 改善功能性消化不良，佐證 glutamate 通路在消化不良中的重要性"
+        },
+        {
+          "pmid": "23886379",
+          "title": "Gastrointestinal motility and functional gastrointestinal diseases",
+          "year": "2014",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance": "★☆☆ 低相關：GI 動力學通論性綜述，未特別聚焦 glutamic acid"
+        }
+      ]
+    },
+    {
+      "disease_name": "open-angle glaucoma",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L3",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【雙向性警告】開角型青光眼（POAG）的 RGC 死亡機轉涉及 glutamate 興奮性毒性：眼壓升高 → 視網膜缺血 → glutamate 過度釋放 → NMDA 受體過度活化 → RGC 凋亡。PMID 12583783 直接顯示青光眼患者玻璃體 glutamate 濃度顯著升高（~2倍）；PMID 9292254 提出 glutamate excitotoxicity 是 POAG 中 RGC 死亡的核心機轉。此機轉指向的治療策略應為 glutamate 拮抗劑（如 memantine），而非 glutamic acid 補充。補充 glutamic acid 理論上可能加劇 excitotoxicity，存在潛在危害風險。",
+      "key_concern": "⚠️ 反向警告：現有文獻強烈提示 glutamate 在青光眼中為致病因子（過高），而非缺乏。TxGNN 模型可能因知識圖譜中 glutamate-glaucoma 關聯的高連結度給出高預測分數，但治療方向可能完全相反。NCT05474716 測試的是 brimonidine，與 glutamic acid 無關。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05474716",
+          "title": "The Effect of Topical Brimonidine on the Hemodynamics of the Optic Nerve Head and Retinochoroidal Circulation",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 41,
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 已完成試驗，測試 brimonidine（α2-腎上腺素受體促效劑）對視神經血流動力學的影響，與 glutamic acid 無直接關聯。雖然 brimonidine 有神經保護效果可能部分涉及 glutamate 拮抗，但此試驗不提供 glutamic acid 療效數據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12583783",
+          "title": "Vitreous amino acid concentrations in patients with glaucoma undergoing vitrectomy",
+          "year": "2003",
+          "study_type": "Clinical observational",
+          "tier": "2",
+          "relevance": "★★★ 核心反向證據：直接測量青光眼患者玻璃體 glutamate 濃度升高，強力支持 glutamate 為致病因子，補充 glutamic acid 可能有害",
+          "safety_flag": "CAUTION - 反向機轉"
+        },
+        {
+          "pmid": "9292254",
+          "title": "Excitatory mechanisms in retinal ganglion cell death in primary open angle glaucoma (POAG)",
+          "year": "1997",
+          "study_type": "Mechanistic review",
+          "tier": "3",
+          "relevance": "★★★ 核心機轉文獻（反向）：確立 glutamate excitotoxicity 在 POAG RGC 死亡中的機轉，治療方向應為拮抗而非補充",
+          "safety_flag": "CAUTION - 反向機轉"
+        },
+        {
+          "pmid": "26943134",
+          "title": "In vivo proton magnetic resonance spectroscopy (1H-MRS) evaluation of the metabolite concentration",
+          "year": "2016",
+          "study_type": "Cross-sectional / MRS imaging",
+          "tier": "2",
+          "relevance": "★★☆ 相關（反向）：1H-MRS 顯示青光眼患者腦視覺皮質代謝物改變，包含 glutamate/glutamine 比例異常"
+        },
+        {
+          "pmid": "30256276",
+          "title": "Metabolic Alterations Within the Primary Visual Cortex in Early Open-angle Glaucoma Patients: A Proton MRS Study",
+          "year": "2018",
+          "study_type": "Cross-sectional / MRS",
+          "tier": "2",
+          "relevance": "★★☆ 相關（反向）：早期 POAG 患者初級視覺皮質代謝物改變，支持中樞 glutamate 訊號異常的病理角色"
+        },
+        {
+          "pmid": "38619671",
+          "title": "Drug Treatment Attenuates Retinal Ganglion Cell Death by Inhibiting CRMP4",
+          "year": "2024",
+          "study_type": "Preclinical",
+          "tier": "3",
+          "relevance": "★☆☆ 低相關：CRMP4 抑制對 RGC 保護，與 glutamic acid 無直接關聯"
+        },
+        {
+          "pmid": "11377444",
+          "title": "New horizons in neuroprotection",
+          "year": "2001",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance": "★☆☆ 低相關：神經保護通論，提及 glutamate 拮抗劑概念"
+        }
+      ]
+    },
+    {
+      "disease_name": "succinyl-CoA:3-ketoacid CoA transferase deficiency",
+      "txgnn_score": 0.9881,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "SCOT 缺乏症（酮體代謝障礙）的核心病理為酮體（乙酰乙酸）無法在腦組織利用，導致急性酮症酸中毒。Glutamic acid 與 SCOT 酶的已知底物或調節機轉無直接關聯；TxGNN 分數可能來自代謝疾病的知識圖譜鄰近效應（如三羧酸循環中 glutamate 的 anaplerotic 作用）。",
+      "key_concern": "NCT05687474 為新生兒基因組篩查研究（6824 人），是診斷工具研究而非 glutamic acid 治療試驗。零相關文獻。超稀有病（全球報告個案極少）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05687474",
+          "title": "Universal Genomic Newborn Screening in the Wallonia-Brussels Federation: Baby Detect",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 6824,
+          "relevance_grade": "C",
+          "reasoning": "大型新生兒基因組篩查研究，目的為早期識別遺傳代謝疾病（可能包含 SCOT 缺乏症），非 glutamic acid 干預試驗，相關性極低（C）。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Worth syndrome",
+      "txgnn_score": 0.9868,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Worth syndrome（良性硬化性骨病，LRP5 功能增益突變）為罕見遺傳性骨量增加疾病。Wnt/LRP5 訊號通路為主要機轉，與 glutamic acid 代謝無已知直接關聯。TxGNN 預測可能來自骨代謝疾病的知識圖譜網路效應（如 osteocalcin/Gla 蛋白的結構相似性）。",
+      "key_concern": "零臨床試驗、零文獻。Worth syndrome 為骨量過多（非骨質疏鬆），治療目標不同；將 glutamic acid 用於此症不具明顯機轉合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "vitamin deficiency disorder",
+      "txgnn_score": 0.9663,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Glutamic acid 與多種維生素代謝存在間接關聯：①Pyridoxal phosphate（Vit B6）是 glutamate decarboxylase（GAD）及眾多胺基酸轉胺酶的輔酶，Vit B6 缺乏影響 glutamate 代謝（PMID 6087425）；②Vitamin K 依賴性 γ-carboxylase 以 glutamic acid 殘基為底物形成 Gla；③Vit E 缺乏影響胚胎期胺基酸代謝（PMID 33186843）；④Vit D 缺乏影響腦部 E/I 平衡（glutamate/GABA，PMID 31821883）。然而這些關聯均為 glutamic acid 作為「受影響代謝物」而非「治療干預」。",
+      "key_concern": "7 個臨床試驗均非直接測試 glutamic acid 治療維生素缺乏（結核病預防 Phase 3、新生兒篩查、酒精戒斷等），關聯性極低。維生素缺乏症的標準治療為補充相應維生素，glutamic acid 非已知標準干預。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01407601",
+          "title": "Food Supplementation With Vitamin K2 to Activate MGP as an Endogenous Inhibitor of Vascular Calcification",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 53,
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 Vitamin K2 補充試驗，目的是活化 MGP（Matrix Gla Protein，含 glutamic acid 殘基）。與 glutamic acid 的關聯為機轉層面（Gla 蛋白需 glutamate 殘基），非直接測試 glutamic acid 補充。"
+        },
+        {
+          "nct_id": "NCT01404312",
+          "title": "Phase III Clinical Trial of Ultra-Short-Course Rifapentine/Isoniazid for Prevention of Active Tuberculosis",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 3000,
+          "relevance_grade": "C",
+          "reasoning": "結核病預防 Phase 3 試驗，Isoniazid 會拮抗 pyridoxal phosphate（Vit B6）影響 glutamate 代謝，但此試驗非 glutamic acid 干預研究。"
+        },
+        {
+          "nct_id": "NCT05216705",
+          "title": "Study of Exploratory Plasmatic Markers of Alcohol Withdrawal",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "enrollment": 28,
+          "relevance_grade": "C",
+          "reasoning": "酒精戒斷生物標誌研究，酒精依賴與 glutamate 系統過度活化有關，但非 glutamic acid 治療研究，與維生素缺乏的關聯為酒精相關 B 族維生素缺乏的間接連結。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "6087425",
+          "title": "Drug-pyridoxal phosphate interactions",
+          "year": "1982",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance": "★★☆ 間接相關：詳述藥物如何影響 pyridoxal phosphate（Vit B6），進而影響 glutamate decarboxylase 功能"
+        },
+        {
+          "pmid": "31821883",
+          "title": "Vitamin D deficiency induces the excitation/inhibition brain imbalance and the proinflammatory shift",
+          "year": "2020",
+          "study_type": "Preclinical study",
+          "tier": "3",
+          "relevance": "★☆☆ 低相關：Vit D 缺乏影響腦部 glutamate/GABA 平衡（動物研究）"
+        },
+        {
+          "pmid": "33186843",
+          "title": "Vitamin E deficiency dysregulates thiols, amino acids and related molecules during zebrafish embryogenesis",
+          "year": "2021",
+          "study_type": "Preclinical (zebrafish)",
+          "tier": "3",
+          "relevance": "★☆☆ 低相關：Vit E 缺乏影響胺基酸代謝（包含 glutamate 前驅物），斑馬魚發育研究"
+        },
+        {
+          "pmid": "7886607",
+          "title": "Vitamin K deficiency",
+          "year": "1993",
+          "study_type": "Review",
+          "tier": "1",
+          "relevance": "★☆☆ 極低相關：Vit K 缺乏通論，與 glutamic acid 的連結為 Gla 蛋白羧化機轉"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "priority_ranking": [
+      {
+        "rank": 1,
+        "disease": "postmenopausal osteoporosis",
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "rationale": "唯一有直接動物試驗（PMID 26144993）及相關人體數據（PMID 18187428）支持 glutamic acid 療效的適應症；骨代謝 Gla 機轉合理。建議設計 Phase 1/2 人體試驗驗證。"
+      },
+      {
+        "rank": 2,
+        "disease": "dyspepsia",
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "rationale": "腸道 glutamate 感應機轉（mGluR、迷走神經活化）具生物合理性，有初步人體急性試驗數據（PMID 29031770）及機轉文獻（PMID 22129863）。可考慮作為功能性消化不良的飲食補充研究題目。"
+      },
+      {
+        "rank": 3,
+        "disease": "open-angle glaucoma",
+        "evidence_level": "L3",
+        "decision_stage": "S0",
+        "rationale": "⚠️ 雖有較多文獻，但治療方向存在根本性疑慮：現有證據支持 glutamate 為致病因子（excitotoxicity），補充 glutamic acid 可能有害。需先解決機轉方向性問題才可推進。"
+      }
+    ],
+    "overall_assessment": "Glutamic acid（DB00142）作為藥物再利用候選，在現有10個適應症中僅有2個（postmenopausal osteoporosis、dyspepsia）具有值得進一步探索的 L3 級證據，其餘適應症多為純 TxGNN 預測（L5）或間接證據（L4）。特別值得注意的是 open-angle glaucoma 適應症存在反向機轉警示。整體建議聚焦於骨質疏鬆及消化功能障礙兩個方向，優先設計機轉驗證性研究（Phase 1 探索性試驗），並嚴格排除眼科適應症的直接 glutamate 補充方案。"
+  }
+}
+```
+
+---
+
+## 快速決策矩陣
+
+| 適應症 | TxGNN | 證據等級 | 決策階段 | 建議 | 關鍵風險/機會 |
+|--------|-------|---------|---------|------|-------------|
+| postmenopausal osteoporosis | 0.993 | **L3** | **S1** | Research Question | 直接動物試驗 + poly-GGA 人體數據 |
+| dyspepsia | 0.989 | **L3** | **S1** | Research Question | 腸道 glutamate 感應機轉完整 |
+| open-angle glaucoma | 0.989 | L3 | **S0** ⚠️ | Hold | 反向機轉：補充可能加劇 excitotoxicity |
+| gastroparesis | 0.991 | L4 | S0 | Hold | 唯一直接試驗 WITHDRAWN（0 入組） |
+| vitamin deficiency disorder | 0.966 | L4 | S0 | Hold | 間接代謝關聯，非治療靶點 |
+| pregnancy osteoporosis | 0.992 | **L5** | S0 | Hold | 唯一文獻與疾病無關（誤配） |
+| primary hereditary glaucoma | 0.991 | **L5** | S0 | Hold | 零文獻；同樣有 excitotoxicity 反向疑慮 |
+| ADNIV | 0.990 | **L5** | S0 | Hold | 罕見遺傳病，無機轉假說 |
+| SCOT deficiency | 0.988 | **L5** | S0 | Hold | 酮體代謝病，機轉不符 |
+| Worth syndrome | 0.987 | **L5** | S0 | Hold | 骨量過多，治療方向相反 |
+
+> **免責聲明**：本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選需經過正式臨床試驗驗證方可應用於臨床。

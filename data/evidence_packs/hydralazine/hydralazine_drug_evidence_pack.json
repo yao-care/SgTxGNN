@@ -1,0 +1,1524 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01275-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydralazine",
+    "drugbank_id": "DB01275",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9686204791069032,
+        "rank": 21749
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hydralazine 透過直接鬆弛小動脈平滑肌（可能涉及 K⁺ 通道開放與抑制 IP3 誘導的 Ca²⁺ 釋放）降低體循環血管阻力，具降低腎小球囊內壓、緩解惡性高血壓所致腎損傷之理論基礎。其在妊娠高血壓危象及高血壓急症的廣泛使用歷史提供間接支持，但針對「惡性高血壓性腎病」此特定亞型缺乏直接 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9686204791069032,
+        "rank": 21750
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6085384",
+            "title": "Mode of antihypertensive action of nitrendipine.",
+            "authors": [
+              "Kazda S",
+              "Garthoff B",
+              "Luckhaus G"
+            ],
+            "journal": "Journal of cardiovascular pharmacology",
+            "year": "1984",
+            "abstract": "The antihypertensive effect of nitrendipine cannot be explained only by its reduction of the increased peripheral vascular resistance. In contrast to the antihypertensive vasodilators, nitrendipine improves impaired renal function and prevents generalized vasculopathy in hypertensive animals. Chronic treatment with nitrendipine prevents spontaneous (Okamoto rats) and salt-induced (Dahl rats) hypertension and cardiac hypertrophy. In rats with established hypertension, nitrendipine normalizes bloo",
+            "classification": {
+              "study_type": "Pharmacological Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "417239",
+            "title": "[Renovascular hypertension in neurofibromatosis von Recklinghausen (author's transl)].",
+            "authors": [
+              "Müller-Wiefel D E"
+            ],
+            "journal": "Monatsschrift fur Kinderheilkunde",
+            "year": "1978",
+            "abstract": "The course of the illness in a six-year-old boy is reported. His recurrent headaches led to the detection of arterial hypertension (170/135 mmHg). Clinical and histological examination revealed neurofibromatosis von Recklinghausen. A bilateral paraumbilical murmur hinted at a renovascular form. Arteriography showed an aneurysm of the right renal artery and multiple bilateral intrarenal stenoses and aneurysmatic dilatations. Under conservative treatment with Propranolol and Dihydralazine blood pr",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4813566",
+            "title": "Unilateral operation for bilateral renovascular disease.",
+            "authors": [
+              "Gittes R F",
+              "McLaughlin A P"
+            ],
+            "journal": "The Journal of urology",
+            "year": "1974",
+            "abstract": "",
+            "classification": {
+              "study_type": "Surgical Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "腎血管性惡性高血壓由腎動脈狹窄觸發 RAAS 過度活化所致；Hydralazine 透過直接血管擴張可補償性降低血壓負荷，但因腎素依賴性患者的反射性心動過速與 RAAS 激活加劇風險，臨床實用性受限。現有三篇文獻均非直接評估 Hydralazine 對此亞型的療效，相關性低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9669848680496216,
+        "rank": 22229
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上 Hydralazine 可擴張肺血管降低肺動脈壓，但其非選擇性血管擴張特性在缺氧性肺血管收縮（HPV）情境下存在嚴重風險：HPV 為肺臟正常的保護性機制，非選擇性抑制將造成通氣-灌流失配（V/Q mismatch）並加重低氧血症。20 篇文獻均為低氧生物學基礎研究（HIF-1α 調節、神經退化等），無任何直接評估 Hydralazine 用於此適應症的臨床資料。安全性疑慮優先，不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9669848680496216,
+        "rank": 22230
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多因素機制不明之肺動脈高壓（可能涵蓋 WHO Group 5）缺乏統一病理生理基礎；Hydralazine 之非選擇性體循環與肺循環擴張可能導致全身低血壓惡化，現代治療指引優先選用具肺循環選擇性之藥物（PDE5 抑制劑、ERA、前列環素類似物）。零臨床與文獻支持，僅依賴 TxGNN 預測，不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9577473402023317,
+        "rank": 24797
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Braddock 症候群為 SETD5 基因突變所致罕見神經發育障礙（染色體 3p25.3），主要特徵為智力障礙、行為異常、顏面畸形。SETD5 為組蛋白甲基轉移酶，其功能喪失影響神經發育基因表達調控。Hydralazine 雖具 DNMT 抑制之表觀遺傳效應（甲基化抑制），但 SETD5 相關路徑涉及甲基化「寫入」而非「讀取」機制，兩者無明確交集。TxGNN 高分（0.958）可能反映知識圖譜中心血管/高血壓相關節點的非特異性連結，缺乏生物學合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.8829084038734436,
+        "rank": 36454
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT03967496",
+            "title": "Assessment of Immediate Postoperative Delirium (IPD) in Adult Patients: Incidence, Implication of Type of Anesthesia and Identification of Other Etiological Factors",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 402,
+            "start_date": "2019-01-01",
+            "completion_date": "2019-03-31",
+            "brief_summary": "Delirium is considered to be acute failure of central nervous system. It is acute confusional state characterized by decline from baseline mental level, attention deficit and disorganized thinking.\n\nPostoperative delirium is known to prolong length of stay in hospital, cause functional decline and dementia, increase all-cause mortality and increase the medical cost. It is also associated with other outcomes like cardiac arrest, ventricular tachycardia or fibrillation, myocardial infarction, pulm",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "此試驗主題為「成人術後譫妄（IPD）的發生率與類型評估」（402 名患者，N/A 期），與 Hydralazine 治療慢性肺心病完全無關聯。雖然術後管理可能涉及血壓控制藥物，但該試驗的主要終點、設計目的與本適應症的臨床問題毫不相符，評為不相關（Grade C）。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36994251",
+            "title": "Hydralazine-Induced Vasculitis.",
+            "authors": [
+              "Gandhi Pulkit",
+              "Khurana Bani",
+              "Munjal Ripudaman S",
+              "Sekar Arjun",
+              "Gandhi Roopali Goyal"
+            ],
+            "journal": "Cureus",
+            "year": "2023",
+            "abstract": "Hydralazine is a commonly prescribed medication which is used in the treatment of hypertension. While it is generally considered to be a safe and effective treatment, in rare cases it can cause a serious side effect known as hydralazine-induced vasculitis. Here we discuss this rare presentation in the form of a case report in a 67-year-old female with a past medical history of chronic obstructive pulmonary disease (COPD), congestive heart failure, hypertension, hyperlipidemia, left renal artery ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7225252",
+            "title": "Vasodilator treatment with isosorbide dinitrate and hydralazine in chronic heart failure.",
+            "authors": [
+              "Massie B M",
+              "Kramer B",
+              "Shen E",
+              "Haughom F"
+            ],
+            "journal": "British heart journal",
+            "year": "1981",
+            "abstract": "Several reports have suggested that because isosorbide dinitrate and hydralazine have different and additive haemodynamic effects at rest in patients with chronic heart failure, these agents should be administered in combination. Some studies, however, indicate thay they are effective individually as well. Since most patients with heart failure are symptomatic only with activity, we examined the haemodynamic effects of these drugs given individually and in combination, at rest and during upright",
+            "classification": {
+              "study_type": "Clinical Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27692135",
+            "title": "Evaluation of Chronic Obstructive Pulmonary Disease (COPD) and reduced ejection fraction heart failure (HFrEF) discharge medication prescribing: Is drug therapy concordant with national guidelines associated with a reduction in 30-day readmissions?",
+            "authors": [
+              "Richardson Amy",
+              "Tolley Elizabeth",
+              "Hartmann Jonathan",
+              "Reedus Jasmine",
+              "Bowlin Brandi"
+            ],
+            "journal": "Respiratory medicine",
+            "year": "2016",
+            "abstract": "Approximately 1 in 5 hospitalized COPD patients are readmitted within 30 days of discharge. CHF coexists in more than 20% of patients with COPD, and is associated with early readmission for COPD. Reducing 30-day hospital readmissions for COPD is of intense current interest.",
+            "classification": {
+              "study_type": "Observational Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6692695",
+            "title": "Hemodynamic effect of hydralazine in advanced, stable chronic obstructive pulmonary disease with cor pulmonale. Immediate and short-term evaluation at rest and during exercise.",
+            "authors": [
+              "Lupi-Herrera E",
+              "Seoane M",
+              "Verdejo J"
+            ],
+            "journal": "Chest",
+            "year": "1984",
+            "abstract": "Hydralazine was administered to eight patients (mean age, 69 +/- 2 years) who had stable, advanced chronic obstructive pulmonary disease (COPD), pulmonary arterial hypertension (mean pulmonary arterial pressure, 31 +/- 3 mm Hg), and cor pulmonale. All of the patients were studied at rest and during exercise. After intravenous administration of hydralazine at rest, there were statistically significant increases in pulmonary arterial pressure (p less than 0.05), cardiac index (p less than 0.005), ",
+            "classification": {
+              "study_type": "Clinical Hemodynamic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6780233",
+            "title": "Postural hypotension and tachycardia during hydralazine--isosorbide dinitrate therapy for chronic heart failure.",
+            "authors": [
+              "Massie B",
+              "Kramer B",
+              "Haughom F"
+            ],
+            "journal": "Circulation",
+            "year": "1981",
+            "abstract": "Supine and upright hemodynamic measurements were performed in 10 patients with chronic congestive heart failure, before and during vasodilator therapy with hydralazine and isosorbide dinitrate. This combination of drugs produced significant improvement in supine hemodynamic measurements, with the pulmonary capillary wedge pressure decreasing from 26 +/- 5 to 18 +/- 5 mm Hg (mean +/- SD, p less than 0.01) and stroke volume index increasing from 25 +/- 6 to 39 +/- 6 ml/m2 (p less than 0.01), witho",
+            "classification": {
+              "study_type": "Clinical Safety Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6407295",
+            "title": "Contrasting acute effects of vasodilators (nitroglycerin, nitroprusside, and hydralazine) on right ventricular performance in patients with chronic obstructive pulmonary disease and pulmonary hypertension: a combined radionuclide-hemodynamic study.",
+            "authors": [
+              "Brent B N",
+              "Berger H J",
+              "Matthay R A",
+              "Mahler D",
+              "Pytlik L"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1983",
+            "abstract": "Fourteen patients with chronic obstructive pulmonary disease, mild to moderate pulmonary hypertension, and diminished right ventricular (RV) ejection fraction were studied acutely with use of a combined radionuclide-hemodynamic approach to assess and contrast the effects of 3 vasodilators on RV performance and central hemodynamic function. Nitroglycerin significantly decreased mean right atrial pressure, RV end-diastolic volume index, mean pulmonary artery pressure, cardiac index, and arterial o",
+            "classification": {
+              "study_type": "Clinical Comparative Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33850919",
+            "title": "Pulmonary vasodilator use in continuous-flow left ventricular assist device management.",
+            "authors": [
+              "Pirlamarla Preethi",
+              "Rame Eduardo",
+              "Hoopes Charles",
+              "Rajapreyar Indranee"
+            ],
+            "journal": "Annals of translational medicine",
+            "year": "2021",
+            "abstract": "Pulmonary hypertension (PH) due to left heart disease is the most common etiology for PH. PH in patients with heart failure with reduced fraction (HFrEF) is associated with reduced functional capacity and increased mortality. PH-HFrEF can be isolated post-capillary or combined pre- and post-capillary PH. Chronic elevation of left-sided filling pressures may lead to reverse remodeling of the pulmonary vasculature with development of precapillary component of PH. Untreated PH in patients with HFrE",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "825327",
+            "title": "Oral hydralazine therapy for chronic refractory heart failure.",
+            "authors": [
+              "Chatterjee K",
+              "Parmley W W",
+              "Massie B",
+              "Greenberg B",
+              "Werner J"
+            ],
+            "journal": "Circulation",
+            "year": "1976",
+            "abstract": "The hemodynamic effects of oral hydralazine were investigated in ten patients (nine in NYHA Class IV and one in Class III) with chronic refractory heart failure. With hemodynamic monitoring, adequate oral doses of hydralazine (50 or 75 mg) were determined and then administered every six hours. Hemodynamics were determined at 2-3, 6-8 and 24 hours on hydralazine therapy. Arterial pressure decreased slightly (5%) and systemic vascular resistance decreased significantly (42%). Cardiac and stroke vo",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7426183",
+            "title": "Haemodynamic effects of hydralazine at rest and during exercise in patients with chronic heart failure.",
+            "authors": [
+              "Ginks W R",
+              "Redwood D R"
+            ],
+            "journal": "British heart journal",
+            "year": "1980",
+            "abstract": "The administration of vasodilator drugs has been shown to have beneficial effects at rest in patients with acute or chronic heart failure. To determine the efficacy of hydralazine during exercise, 10 severely symptomatic patients with chronic left ventricular failure from diffuse coronary disease or cardiomyopathy were studied at rest and during upright exercise on a bicycle ergometer. All patients were already receiving optimal treatment with digitalis and diuretics. At rest treatment with hydr",
+            "classification": {
+              "study_type": "Clinical Hemodynamic Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9673832",
+            "title": "Clinical pharmacokinetics of vasodilators. Part II.",
+            "authors": [
+              "Kirsten R",
+              "Nelson K",
+              "Kirsten D",
+              "Heintz B"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "1998",
+            "abstract": "Stimulating cardiac beta 1-adrenoceptors with oxyfedrine causes dilatation of coronary vessels and positive inotropic effects on the myocardium. beta 1-adrenergic agonists increase coronary blood flow in nonstenotic and stenotic vessels. The main indication for the use of the phosphodiesterase inhibitors pamrinone, mirinone, enoximone and piroximone is acute treatment of severe congestive heart failure. Theophylline is indicated for the treatment of asthma, chronic obstructive pulmonary disease,",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8172418",
+            "title": "Acute effect of hydralazine administration on pulmonary artery hemodynamics in dogs with chronic heartworm disease.",
+            "authors": [
+              "Atkins C E",
+              "Keene B W",
+              "McGuirk S M",
+              "Sato T"
+            ],
+            "journal": "American journal of veterinary research",
+            "year": "1994",
+            "abstract": "In an effort to better understand the role of vasodilators in the management of pulmonary hypertension associated with chronic heartworm disease (HWD), pulmonary hemodynamic measurements were obtained from 7 experimentally infected, anesthetized dogs before and after hydralazine administration (mean dose, 1.96 mg/kg of body weight). Five dogs were maintained on room air, while 2 were maintained on 100% oxygen during the hydralazine study. The hemodynamic effect of hydralazine in dogs with HWD wa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15642544",
+            "title": "Clinical trials update from the American Heart Association meeting: ACORN-CSD, primary care trial of chronic disease management, PEACE, CREATE, SHIELD, A-HeFT, GEMINI, vitamin E meta-analysis, ESCAPE, CARP, and SCD-HeFT cost-effectiveness study.",
+            "authors": [
+              "Shelton Rhidian J",
+              "Velavan Periaswamy",
+              "Nikitin Nikolay P",
+              "Coletta Alison P",
+              "Clark Andrew L"
+            ],
+            "journal": "European journal of heart failure",
+            "year": "2005",
+            "abstract": "This article provides information and a commentary on landmark trials presented at the American Heart Association meeting held in November 2004, relevant to the pathophysiology, prevention, and treatment of heart failure. An open trial of the ACORN Cardiac Support Device (CSD) showed encouraging preliminary results in patients with severe heart failure. The PEACE (Prevention of Events with Angiotensin-Converting Enzyme inhibition) study supports data from previous studies showing that ACE inhibi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34637059",
+            "title": "Idiopathic pericardial effusion in patients with hypertrophic cardiomyopathy.",
+            "authors": [
+              "Puwanant Sarinya",
+              "Kittipibul Veraprapas",
+              "Songsirisuk Nattakorn",
+              "Santisukwongchote Sakun",
+              "Sitticharoenchai Patita"
+            ],
+            "journal": "The international journal of cardiovascular imaging",
+            "year": "2022",
+            "abstract": "The aims of this study were to examine the prevalence of moderate to large (moderate-large) idiopathic pericardial effusion (i-PEF) in patients with hypertrophic cardiomyopathy (HCM) and to identify clinical and echocardiographic hemodynamic profiles associated with pericardial effusion. A total of 292 adult patients with HCM were studied. Fifteen patients with a history of factors associated with pericardial effusion including myocardial infarction, heart surgery or cardiac procedure within the",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8417512",
+            "title": "A randomized comparison between the hemodynamic effects of hydralazine and nitroglycerin alone and in combination at rest and during isometric exercise in patients with chronic mitral regurgitation.",
+            "authors": [
+              "Roth A",
+              "Shotan A",
+              "Elkayam U"
+            ],
+            "journal": "American heart journal",
+            "year": "1993",
+            "abstract": "Both arteriolar vasodilation with hydralazine and venodilation with nitroglycerin have been shown to favorably alter the hemodynamic profile in patients with chronic mitral regurgitation. Since these therapeutic modalities exert their effects by different mechanisms, this study was designed to assess hemodynamic response to both drugs given individually and in combination at rest and during isometric exercise in patients with chronic mitral regurgitation of various etiologies. When used individu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12534856",
+            "title": "American College of Cardiology/American Heart Association Chronic Heart Failure Evaluation and Management guidelines: relevance to the geriatric practice.",
+            "authors": [
+              "Ahmed Ali"
+            ],
+            "journal": "Journal of the American Geriatrics Society",
+            "year": "2003",
+            "abstract": "Heart failure (HF) is the only cardiovascular disease with increasing incidence and prevalence. Most HF patients are older adults. With the aging of the population and effective treatment of hypertension and coronary artery disease, the two major underlying causes of HF, the number of older Americans with HF is expected to rise significantly in the coming decades. HF is the number one hospital discharge diagnosis for older adults. It is one of the causes of frequent hospital readmissions, reflec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23450605",
+            "title": "Hydralazine in infants with persistent hypoxemic respiratory failure.",
+            "authors": [
+              "Kawaguchi Atsushi",
+              "Isayama Tetsuya",
+              "Mori Rintaro",
+              "Minami Hirotaka",
+              "Yang Ying"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2013",
+            "abstract": "Most deaths of infants with chronic lung disease (CLD) are caused by respiratory failure, unremitting pulmonary artery hypertension (PAH) with cor pulmonale, or infection. Although the exact prevalence of PAH in infants with CLD is unknown, infants with CLD and severe PAH have a high mortality rate. Except for oxygen supplementation, no specific interventions have been established as effective in the treatment for PAH in premature infants with CLD. Little has been proven regarding the clinical e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "534583",
+            "title": "Comparison of haemodynamic effects of oral prazosin, oral hydralazine, and intravenous nitroprusside in same patients with chronic heart failure.",
+            "authors": [
+              "Mehta J",
+              "Iacona M",
+              "Pepine C J",
+              "Conti C R"
+            ],
+            "journal": "British heart journal",
+            "year": "1979",
+            "abstract": "The haemodynamic effects of oral prazosin and hydralazine were evaluated in patients with refractory heart failure and compared with those of intravenous nitroprusside in the same patients. Both oral agents were well tolerated and appeared to have beneficial haemodynamic effects. Prazosin and hydralazine produced similar increases in cardiac output associated with a similar decrease in systemic vascular resistance. Prazosin and hydralazine produced similar increases in cardiac output associated ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7379285",
+            "title": "Beneficial effects of hydralazine on rest and exercise hemodynamics in patients with chronic severe aortic insufficiency.",
+            "authors": [
+              "Greenberg B H",
+              "DeMots H",
+              "Murphy E",
+              "Rahimtoola S"
+            ],
+            "journal": "Circulation",
+            "year": "1980",
+            "abstract": "We studied the effects of afterload reduction in chronic severe aortic insufficiency by measuring the hemodynamic response to oral hydralazine in 10 consecutive patients. Hemodynamics were also measured during maximal exercise in eight of these patients. At rest, hydralazine reduced pulmonary artery wedge pressure from 14 to 9 mm Hg (p less than 0.01), and increased cardiac index by 70% and stroke volume index by 35% (both p less than 0.001). Before hydralazine, pulmonary artery wedge pressure e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3979067",
+            "title": "Hemodynamic effects of vasodilators on pulmonary hypertension in decompensated chronic obstructive pulmonary disease.",
+            "authors": [
+              "Cerdá E",
+              "Esteban A",
+              "de la Cal M A",
+              "Fernández A",
+              "García A"
+            ],
+            "journal": "Critical care medicine",
+            "year": "1985",
+            "abstract": "Vasodilators have been reported to improve the hemodynamic status of some patients with pulmonary hypertension secondary to chronic obstructive pulmonary disease (COPD). We investigated the effects of sodium nitroprusside (50 micrograms/min) and hydralazine (25 mg) on pulmonary hemodynamics in 12 patients during acute exacerbation of COPD. Apart from its known systemic effects, nitroprusside decreased significantly mean pulmonary artery pressure (MPAP) from 36 +/- 10 to 31 +/- 12 mm Hg (p less t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3688636",
+            "title": "Effects of indomethacin on pulmonary hemodynamics and gas exchange in patients with pulmonary artery hypertension, interference with hydralazine.",
+            "authors": [
+              "Adnot S",
+              "Defouilloy C",
+              "Brun-Buisson C",
+              "Piquet J",
+              "de Cremoux H"
+            ],
+            "journal": "The American review of respiratory disease",
+            "year": "1987",
+            "abstract": "To assess the ability of indomethacin (Indo) to influence pulmonary vascular tone in patients with chronic lung disease, we studied the hemodynamic and gas exchange alterations induced by a 50-mg indomethacin infusion in 10 patients suffering from varying degrees of pulmonary artery hypertension and hypoxemia. The most pronounced effects were observed 3 h after Indo administration. Mean systemic arterial pressure (Psa) increased from 76 +/- 4 to 86 +/- 4 mm Hg (p less than 0.01), whereas mean pu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性肺心病（cor pulmonale）核心病理為慢性肺動脈高壓（尤其 COPD 所致）→ 右心室後負荷增加 → 右心肥大/衰竭。Hydralazine 透過降低體循環血管阻力（afterload reduction）減輕右心負擔，並在部分研究中顯示可降低肺血管阻力。1976-2016 年間有多項直接血流動力學研究，包括 PMID 6692695（Hydralazine 在 COPD 合併 cor pulmonale 的直接血流動力學研究）、PMID 6407295（血管擴張劑對右心室功能的比較研究）。然而，主要限制為：(1) 現代選擇性肺血管藥物已取代其地位；(2) 反射性心動過速與姿位性低血壓為顯著安全性疑慮（PMID 6780233）；(3) 所有直接研究均為 1980 年代小型非隨機研究，缺乏現代 RCT 驗證。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "ocular tuberculosis",
+      "txgnn": {
+        "score": 0.5906761884689331,
+        "rank": 48575
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼部結核病為 Mycobacterium tuberculosis 眼內感染，需抗結核藥物治療。Hydralazine 無已知抗分枝桿菌活性；雖有研究指出 Hydralazine 可能具抗炎特性（透過活性氮/氧物種調節），但此機制對結核菌感染的作用尚無任何前臨床或臨床支持。TxGNN 低分（0.591）加上零文獻，判定為純粹演算法噪音。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "congenital temporomandibular joint ankylosis",
+      "txgnn": {
+        "score": 0.5850105881690979,
+        "rank": 48823
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性顳顎關節強直為關節骨性或纖維性融合的機械性疾病，病理機制為骨化/纖維化過程，與血管舒縮無關。Hydralazine 之主要作用機制對關節纖維化/骨化路徑無理論支持。標準治療為外科矯正手術，藥物治療不具角色。TxGNN 預測（0.585）可能來自知識圖譜中非特異性結構病理連結，無生物學合理性，不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "polydipsia",
+      "txgnn": {
+        "score": 0.5819602012634277,
+        "rank": 48956
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31751313",
+            "title": "Intractable hypercalcaemia during pregnancy and the postpartum secondary to pathogenic variants in CYP24A1.",
+            "authors": [
+              "Arnold Nirusha",
+              "O'Toole Victor",
+              "Huynh Tien",
+              "Smith Howard C",
+              "Luxford Catherine"
+            ],
+            "journal": "Endocrinology, diabetes & metabolism case reports",
+            "year": "2019",
+            "abstract": "Parathyroid-independent hypercalcaemia of pregnancy, due to biallelic loss of function of the P450 enzyme CYP24A1, the principal inactivator of 1,25(OH)2D results in hypervitaminosis D, hypercalcaemia and hypercalciuria. We report two cases of this disorder, with intractable hypercalcaemia, one occurring during gestation and into the postpartum, and the other in the postpartum period. Case 1, a 47-year-old woman with a twin pregnancy conceived by embryo transfer, presented with hypercalcaemia at",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21263123",
+            "title": "Angiotensinergic signaling in the brain mediates metabolic effects of deoxycorticosterone (DOCA)-salt in C57 mice.",
+            "authors": [
+              "Grobe Justin L",
+              "Buehrer Beth A",
+              "Hilzendeger Aline M",
+              "Liu Xuebo",
+              "Davis Deborah R"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "2011",
+            "abstract": "Low-renin hypertension accounts for ≈ 25% of essential hypertensive patients. It is modeled in animals by chronic delivery of deoxycorticosterone acetate and excess dietary sodium (the DOCA-salt model). Previous studies have demonstrated that DOCA-salt hypertension is mediated through activation of the brain renin-angiotensin system. Here, we demonstrate robust metabolic phenotypes of DOCA-salt treatment. Male C57BL/6J mice (6 to 8 weeks old) received a subcutaneous pellet of DOCA (50 mg for 21 ",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多飲症之病因多樣（精神性多飲、中樞性/腎性尿崩症、藥物誘發等）。PMID 21263123 顯示腦部血管緊張素信號在 DOCA-salt 高血壓模型中調節飲水行為，提供極度間接的路徑連結（Hydralazine 降低 angiotensin II 效應 → 減少渴感中樞刺激），但此為動物模型推論，缺乏臨床驗證。兩篇現有文獻均非直接評估 Hydralazine 的多飲症治療效果，整體證據不足以支持此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "obsolete superimposed infection",
+      "txgnn": {
+        "score": 0.573663055896759,
+        "rank": 49365
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此疾病分類標記為「廢棄（obsolete）」，已從現代醫學分類系統（ICD/SNOMED）中移除，不具當代臨床意義。對廢棄疾病實體進行老藥新用研究缺乏科學價值與倫理基礎；即使 Hydralazine 具潛在抗炎活性，此分類亦無法作為有效的臨床研究目標。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "ocular tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "ocular tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "ocular tuberculosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "congenital temporomandibular joint ankylosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "congenital temporomandibular joint ankylosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "congenital temporomandibular joint ankylosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "polydipsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "polydipsia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "polydipsia"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "obsolete superimposed infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "obsolete superimposed infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Hydralazine",
+        "disease": "obsolete superimposed infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

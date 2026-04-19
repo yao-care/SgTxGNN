@@ -1,0 +1,1852 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB04839-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Cyproterone acetate",
+    "drugbank_id": "DB04839",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "migraine disorder",
+      "txgnn": {
+        "score": 0.9965952038764954,
+        "rank": 5023
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "14670648",
+            "title": "Differential effects of progestins on the brain.",
+            "authors": [
+              "Gruber Christian J",
+              "Huber Johannes C"
+            ],
+            "journal": "Maturitas",
+            "year": "2003",
+            "abstract": "Interactions exist between progestins and the gamma-aminobutyric acid (GABA) receptor subtype A where C(21)-steroids function as activators. Other interactions between progesterone and neurotransmitter systems include stimulation of dopamine release in striatal tissue, stimulation of GnRH release from hypothalamic neurons and inhibition of opioid receptor binding and activation. Cyproterone acetate increases dopaminergic responses and binds to opiate receptors independently of its classical effe",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12390622",
+            "title": "Hormone supplementation differently affects migraine in postmenopausal women.",
+            "authors": [
+              "Facchinetti F",
+              "Nappi R E",
+              "Tirelli A",
+              "Polatti F",
+              "Nappi G"
+            ],
+            "journal": "Headache",
+            "year": "2002",
+            "abstract": "To evaluate the effects of three schemes of oral hormone replacement therapy (HRT) on migraine course in postmenopausal women.",
+            "classification": {
+              "study_type": "Observational/Clinical",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10857213",
+            "title": "[Long-term side-effects following cyproterone acetate containing therapy in gynecology].",
+            "authors": [
+              "Regidor P A",
+              "Speer K",
+              "Regidor M",
+              "Schindler E M"
+            ],
+            "journal": "Zentralblatt fur Gynakologie",
+            "year": "2000",
+            "abstract": "It has been suggested that cyproterone acetate (CPA) has a mutagenic potency. It has been postulated that a threshold dosage of CPA has mutagenic effects, but in the same way data have been published documenting that a continuous low dosage of cyproterone acetate leads to a reduction of mutagenic episodes. Despite published data about higher levels of DNA adduct creations due to CPA an international multicentre study analysing 2,506 patients with 7,971 patient-years that used CPA could not find ",
+            "classification": {
+              "study_type": "Retrospective (adverse effects)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CPA 為孕激素受體強效促效劑，可影響神經類固醇合成途徑（progesterone → allopregnanolone），理論上調節 GABA-A 受體及三叉神經血管敏感性。月經性偏頭痛與黃體素波動相關，CPA 的穩定荷爾蒙濃度效果可能有益，但無直接治療試驗。現有文獻為間接荷爾蒙-偏頭痛關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "migraine with brainstem aura",
+      "txgnn": {
+        "score": 0.9957873225212096,
+        "rank": 5790
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25227335",
+            "title": "Hormonal contraception, thrombosis and age.",
+            "authors": [
+              "Lidegaard Øjvind"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2014",
+            "abstract": "This paper reviews the risk of thrombosis with use of different types of hormonal contraception in women of different ages.",
+            "classification": {
+              "study_type": "Review (safety/contraindication)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30389542",
+            "title": "[Hormonal contraception and vascular risk: CNGOF Contraception Guidelines].",
+            "authors": [
+              "Plu-Bureau G",
+              "Sabbagh E",
+              "Hugon-Rodin J"
+            ],
+            "journal": "Gynecologie, obstetrique, fertilite & senologie",
+            "year": "2018",
+            "abstract": "Venous thromboembolism and arterial ischemic events are the main deleterious diseases associated with the use of combined hormonal contraceptives (CHC). Even though their composition has been substantially improved, the vascular risk persists with the most recent CHCs use. If the vascular risk associated with CHCs containing 50μg EE is significantly higher than with those containing less than 50μg, there is no evidence that the CHCs containing either 30 or 20μg of EE induce different venous risk",
+            "classification": {
+              "study_type": "Clinical Guidelines (CNGOF)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全紅旗：有先兆偏頭痛（尤其腦幹先兆，即舊稱基底性偏頭痛）為含雌激素複合荷爾蒙避孕藥的絕對禁忌症（WHO MEC 4 級），因顯著增加缺血性卒中風險。現有 2 篇文獻均為禁忌症/血管風險指引，而非療效證據。此適應症在臨床上應主動排除 CPA 使用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Prinzmetal angina",
+      "txgnn": {
+        "score": 0.9951555728912354,
+        "rank": 6358
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無任何文獻或臨床試驗支持。機轉假說推測：性激素可調節冠狀動脈平滑肌 α2 腎上腺素受體及內皮素反應，但血管痙攣性心絞痛的病理機轉（冠狀動脈高反應性）與 CPA 抗雄激素/孕激素作用缺乏實質連結。純 AI 預測，不建議推進。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "antithrombin deficiency type 2",
+      "txgnn": {
+        "score": 0.99479877948761,
+        "rank": 6651
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 嚴重安全矛盾：CPA 已知透過降低 Protein S、增加 thrombin 生成及啟動凝血途徑造成 VTE 風險上升（見 thrombophilia 適應症之文獻群）。抗凝血酶缺乏患者本已處於高 VTE 風險，CPA 的促凝效應將造成疊加危害。此為藥物-疾病禁忌，無需進一步研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn": {
+        "score": 0.9945472478866576,
+        "rank": 6874
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全矛盾：Heparin cofactor 2 為 thrombin 抑制物，其缺乏導致血栓前狀態。CPA 促凝血效應（降低 Protein S、增強 thrombin 生成）在此類患者中具潛在致命風險。無任何支持性臨床資料，且機轉分析顯示明確危害方向。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "factor 5 excess with spontaneous thrombosis",
+      "txgnn": {
+        "score": 0.994462549686432,
+        "rank": 6950
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 嚴重禁忌：Factor V 過量（非 Factor V Leiden，而是 Factor V 量增加）導致自發性血栓，CPA 同時增強多個凝血步驟，在此適應症中使用具有高度危害性。現有 thrombophilia 文獻（PMID 29614525, 32342502）已顯示 CPA 與 Factor V Leiden 交互作用可使 VTE 風險乘數倍增。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "migraine with or without aura, susceptibility to",
+      "txgnn": {
+        "score": 0.99342280626297,
+        "rank": 7897
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22938964",
+            "title": "Animal models.",
+            "authors": [
+              "Coppola Antonietta",
+              "Moshé Solomon L"
+            ],
+            "journal": "Handbook of clinical neurology",
+            "year": "2012",
+            "abstract": "Epilepsy accounts for a significant portion of the dis-ease burden worldwide. Research in this field is fundamental and mandatory. Animal models have played, and still play, a substantial role in understanding the patho-physiology and treatment of human epilepsies. A large number and variety of approaches are available, and they have been applied to many animals. In this chapter the in vitro and in vivo animal models are discussed,with major emphasis on the in vivo studies. Models have used phyl",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22266888",
+            "title": "Genetics of epilepsy.",
+            "authors": [
+              "Pandolfo Massimo"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "2011",
+            "abstract": "Epilepsy is a common and very heterogeneous neurologic disorder. Genetic factors are likely to play a role in most cases, either because the underlying cause of epilepsy is primarily genetic or because genes modulate susceptibility to an epileptogenic insult. Primarily genetic epilepsies include conditions in which altered brain development or neurodegeneration are at the basis of seizures, but also conditions in which the brain is grossly normal, and the main, if not only, clinical feature is e",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34575901",
+            "title": "Selected Molecular Targets for Antiepileptogenesis.",
+            "authors": [
+              "Pawlik Marek J",
+              "Miziak Barbara",
+              "Walczak Aleksandra",
+              "Konarzewska Agnieszka",
+              "Chrościńska-Krawczyk Magdalena"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "The term epileptogenesis defines the usually durable process of converting normal brain into an epileptic one. The resistance of a significant proportion of patients with epilepsy to the available pharmacotherapy prompted the concept of a causative treatment option consisting in stopping or modifying the progress of epileptogenesis. Most antiepileptic drugs possess only a weak or no antiepileptogenic potential at all, but a few of them appear promising in this regard; these include, for example,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30267335",
+            "title": "Methylenetetrahydrofolate reductase C677T polymorphism and susceptibility to epilepsy.",
+            "authors": [
+              "Rai Vandana",
+              "Kumar Pradeep"
+            ],
+            "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+            "year": "2018",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) gene C677T polymorphism was reported as risk factor for multiple diseases due to its role in conversion of homocysteine to methionine. The aim of the present meta-analysis was to find out the validity of association of C677T polymorphism with epilepsy susceptibility.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16201993",
+            "title": "Rearranging receptors.",
+            "authors": [
+              "Brooks-Kayal Amy R"
+            ],
+            "journal": "Epilepsia",
+            "year": "2005",
+            "abstract": "The immature brain is highly susceptible to seizures. The heightened susceptibility to seizures appears to be due, at least in part, to developmental changes that skew the balance between excitatory and inhibitory neurotransmitter systems in the brain in favor of a state of excitation. Multiple factors, including changes in GABAergic and glutaminergic receptor composition, number, and distribution, all contribute to produce the characteristic limbic hyperexcitability seen during the early postna",
+            "classification": {
+              "study_type": "Basic Science/Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34209535",
+            "title": "Neuroinflammation: A Signature or a Cause of Epilepsy?",
+            "authors": [
+              "Pracucci Enrico",
+              "Pillai Vinoshene",
+              "Lamers Didi",
+              "Parra Riccardo",
+              "Landi Silvia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2021",
+            "abstract": "Epilepsy can be both a primary pathology and a secondary effect of many neurological conditions. Many papers show that neuroinflammation is a product of epilepsy, and that in pathological conditions characterized by neuroinflammation, there is a higher probability to develop epilepsy. However, the bidirectional mechanism of the reciprocal interaction between epilepsy and neuroinflammation remains to be fully understood. Here, we attempt to explore and discuss the relationship between epilepsy an",
+            "classification": {
+              "study_type": "Review (neuroinflammation)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33856647",
+            "title": "Epilepsy and Migraine Shared Genetic and Molecular Mechanisms: Focus on Therapeutic Strategies.",
+            "authors": [
+              "Gotra Palvi",
+              "Bhardwaj Nidhi",
+              "Ludhiadch Abhilash",
+              "Singh Gagandeep",
+              "Munshi Anjana"
+            ],
+            "journal": "Molecular neurobiology",
+            "year": "2021",
+            "abstract": "Epilepsy and migraine are both episodic disorders and share clinical as well as pathophysiological mechanisms. The prevalence of epilepsy in migraine patients is generally higher than normal as compared to general population and vice versa. Various environmental risk factors and genetic factors have been reported to be associated with susceptibility of these comorbid diseases. Specific genes have been implicated in the pathogenesis of the two diseases. However, the shared genetic susceptibility ",
+            "classification": {
+              "study_type": "Review (shared mechanisms)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19935934",
+            "title": "[Psychogenic non-epileptic seizures].",
+            "authors": [
+              "Lund Caroline",
+              "Haraldsen Ira",
+              "Lossius Morten I",
+              "Bjørnaes Helge",
+              "Lossius Rasmus"
+            ],
+            "journal": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
+            "year": "2009",
+            "abstract": "Psychogenic non-epileptic seizure is the term used for epilepsy-like seizures assumed to have psychological causes. Many patients with such seizures are misdiagnosed with epilepsy, and are consequently treated with antiepileptic drugs for many years. Assessment of a thorough medical history and ictal EEG-recordings will lead to the right diagnosis in most cases. The article provides an overview of this condition, which often represents large diagnostic and therapeutic challenges and is the most ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28086980",
+            "title": "Inflammation in epileptogenesis after traumatic brain injury.",
+            "authors": [
+              "Webster Kyria M",
+              "Sun Mujun",
+              "Crack Peter",
+              "O'Brien Terence J",
+              "Shultz Sandy R"
+            ],
+            "journal": "Journal of neuroinflammation",
+            "year": "2017",
+            "abstract": "Epilepsy is a common and debilitating consequence of traumatic brain injury (TBI). Seizures contribute to progressive neurodegeneration and poor functional and psychosocial outcomes for TBI survivors, and epilepsy after TBI is often resistant to existing anti-epileptic drugs. The development of post-traumatic epilepsy (PTE) occurs in a complex neurobiological environment characterized by ongoing TBI-induced secondary injury processes. Neuroinflammation is an important secondary injury process, t",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28837072",
+            "title": "Understanding the Epilepsy in POLG Related Disease.",
+            "authors": [
+              "Hikmat Omar",
+              "Eichele Tom",
+              "Tzoulis Charalampos",
+              "Bindoff Laurence A"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2017",
+            "abstract": "Epilepsy is common in polymerase gamma (POLG) related disease and is associated with high morbidity and mortality. Epileptiform discharges typically affect the occipital regions initially and focal seizures, commonly evolving to bilateral convulsive seizures which are the most common seizure types in both adults and children. Our work has shown that mtDNA depletion-i.e., the quantitative loss of mtDNA-in neurones is the earliest and most important factor of the subsequent development of cellular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24643875",
+            "title": "Does abnormal glycogen structure contribute to increased susceptibility to seizures in epilepsy?",
+            "authors": [
+              "DiNuzzo Mauro",
+              "Mangia Silvia",
+              "Maraviglia Bruno",
+              "Giove Federico"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2015",
+            "abstract": "Epilepsy is a family of brain disorders with a largely unknown etiology and high percentage of pharmacoresistance. The clinical manifestations of epilepsy are seizures, which originate from aberrant neuronal synchronization and hyperexcitability. Reactive astrocytosis, a hallmark of the epileptic tissue, develops into loss-of-function of glutamine synthetase, impairment of glutamate-glutamine cycle and increase in extracellular and astrocytic glutamate concentration. Here, we argue that chronica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24874544",
+            "title": "Does gender influence susceptibility and consequences of acquired epilepsies?",
+            "authors": [
+              "Perucca Piero",
+              "Camfield Peter",
+              "Camfield Carol"
+            ],
+            "journal": "Neurobiology of disease",
+            "year": "2014",
+            "abstract": "Gender differences in the incidence and clinical course of acquired and \"cryptogenic\" epilepsy are reviewed based on a literature search. We emphasized incidence and population-based studies because they are best suited to assess the effect of gender on susceptibility and clinical evolution of these epilepsies and may control for potential confounding factors. However, such studies were only available for a few acquired etiologies. These included tumor, prenatal and perinatal brain insults, cere",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36442376",
+            "title": "Epileptic diathesis: An EEG-LORETA study.",
+            "authors": [
+              "Clemens Béla",
+              "Emri Miklós",
+              "Fekete István",
+              "Fekete Klára"
+            ],
+            "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+            "year": "2023",
+            "abstract": "Epileptic diathesis is an inherited neurophysiological trait that contributes to the development of all types of epilepsy. The amount of resting-state electroencephalography (EEG) theta activity is proportional to the degree of cortical excitability and epileptic diathesis. Our aim was to explore the amount and topographic distribution of theta activity in epilepsy groups. We hypothesized that the anatomical distribution of increased theta activity is independent of the epilepsy type.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33187755",
+            "title": "Association of KCNJ10 variants and the susceptibility to clinical epilepsy.",
+            "authors": [
+              "Jiang Chuan",
+              "Li Lianping",
+              "Wu Mingxin",
+              "Hao Maolin",
+              "Feng Jianli"
+            ],
+            "journal": "Clinical neurology and neurosurgery",
+            "year": "2021",
+            "abstract": "We first enrolled the available case-control studies to investigate the genetic association between three polymorphisms (rs1130183, rs1890532, and rs2486253) of KCNJ10 (the potassium voltage-gated channel subfamily J member 10) gene and the susceptibility towards clinical epilepsy. We utilized the meta-analysis, FPRP (false-positive report probability) test, and the TSA (trial sequential analysis) for the data pooling and the evaluation of statistical power. Totally, eight eligible articles were",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17460155",
+            "title": "Familial occipitotemporal lobe epilepsy and migraine with visual aura: linkage to chromosome 9q.",
+            "authors": [
+              "Deprez L",
+              "Peeters K",
+              "Van Paesschen W",
+              "Claeys K G",
+              "Claes L R F"
+            ],
+            "journal": "Neurology",
+            "year": "2007",
+            "abstract": "To map the disease-causing locus in a large Belgian family with occipitotemporal lobe epilepsy associated with migraine with visual aura and to describe the clinical, electrophysiologic, and imaging characteristics.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21919606",
+            "title": "Pharmacogenomics of the human µ-opioid receptor.",
+            "authors": [
+              "Kasai Shinya",
+              "Ikeda Kazutaka"
+            ],
+            "journal": "Pharmacogenomics",
+            "year": "2011",
+            "abstract": "The µ-opioid receptor is a primary target for clinically important opioid analgesics, including morphine, fentanyl and methadone. Many genetic variations have been identified in the human µ-opioid receptor MOP gene (OPRM1), and their implications have been reported in the effects of opioid drugs and susceptibility to drug dependence. Interestingly, agonistic and antagonistic opioid effects are inversely associated with the A118G polymorphism genotype. The A118G polymorphism may also be associate",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16377142",
+            "title": "Pediatric epilepsy models.",
+            "authors": [
+              "Jensen Frances E"
+            ],
+            "journal": "Epilepsy research",
+            "year": "2006",
+            "abstract": "Pediatric epilepsy models are needed to help with development of drugs for specific childhood and infantile epilepsy syndromes. The major forms of pediatric epilepsy can be divided into those that occur in the neonatal period, infancy, early childhood and late childhood. Seizures in the immature brain are different from those in adult brain, often resulting in neuronal death. Rodent models are useful in mimicking seizures in the immature brain (neonatal seizures, infantile spasms, and febrile se",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12183340",
+            "title": "Disease modification in partial epilepsy.",
+            "authors": [
+              "Walker M C",
+              "White H S",
+              "Sander J W A S"
+            ],
+            "journal": "Brain : a journal of neurology",
+            "year": "2002",
+            "abstract": "With the growth in antiepileptic drug treatment, the question arises as to what extent we are merely treating the symptom (i.e. the seizures) rather than the underlying disease process (i.e. epileptogenesis). Epileptogenicity can be considered as the process whereby structural and functional changes occur following an insult that in some cases result in epilepsy. Epileptogenicity also describes some of the changes and processes that contribute to the progression observed in some epilepsies. Thes",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10716662",
+            "title": "Susceptibility genes in human epilepsy.",
+            "authors": [
+              "Leppert M F",
+              "Singh N"
+            ],
+            "journal": "Seminars in neurology",
+            "year": "1999",
+            "abstract": "Major advances in the identification of genetic loci and genes that predispose individuals to epilepsy have been made in the last several years. Two main themes for human, idiopathic epilepsies are emerging; genetic, or locus heterogeneity is not uncommon, and the discovery that epilepsy susceptibility genes are voltage-gated and ligand-gated ion channels. Knowledge that more than a single genetic locus is responsible for a single seizure type, along with a wide spectrum of disease mutations amo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32521797",
+            "title": "Reactive Glia Inflammatory Signaling Pathways and Epilepsy.",
+            "authors": [
+              "Sanz Pascual",
+              "Garcia-Gimeno Maria Adelaida"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "abstract": "Neuroinflammation and epilepsy are interconnected. Brain inflammation promotes neuronal hyper-excitability and seizures, and dysregulation in the glia immune-inflammatory function is a common factor that predisposes or contributes to the generation of seizures. At the same time, acute seizures upregulate the production of pro-inflammatory cytokines in microglia and astrocytes, triggering a downstream cascade of inflammatory mediators. Therefore, epileptic seizures and inflammatory mediators form",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此適應症的 20 篇文獻中，多數為癲癇相關研究（PMID 22938964, 22266888, 34575901 等），僅 PMID 33856647 明確探討偏頭痛與癲癇共同遺傳機轉（離子通道、神經炎症）。機轉假說：CPA 的神經類固醇效應（GABA-A 正向調節）可能影響皮質擴散抑制閾值，但此為高度推測性。需排除有先兆偏頭痛患者（卒中風險）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9928255081176758,
+        "rank": 8363
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01103518",
+            "title": "Phase IV Study of the Use of Two Preparations of Ethinyl Estradiol and Cyproterone Acetate in Irregular Menstruation of Hyper-androgenic Origin",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2009-12",
+            "completion_date": "2011-01",
+            "brief_summary": "This is a Phase IV, randomized, double-blind, comparative study of the use of two preparations of ethinyl estradiol and cyproterone acetate in the treatment of menstrual irregularities of hyper-androgenic origin.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 試驗直接比較兩種 EE+CPA 製劑用於月經不規則，高度切題。狀態標為 UNKNOWN，需核查是否完成並有結果公佈"
+            }
+          },
+          {
+            "nct_id": "NCT04831151",
+            "title": "The Effect of Two Combined Oral Contraceptives Containing Cyproterone Acetate or Drospirenone on Blood Metabolomics in Women With Polycystic Ovary Syndrome",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 42,
+            "start_date": "2021-03-01",
+            "completion_date": "2023-06",
+            "brief_summary": "The aim of this study is to determine the effect of the treatment of polycystic ovary syndrome with two different oral contraceptives that contain cyproterone acetate and drospirenone",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "比較 CPA vs drospirenone 複合避孕藥對血液學指標的影響（N=42），可提供 CPA 安全性比較資料"
+            }
+          },
+          {
+            "nct_id": "NCT02744131",
+            "title": "OCP vs Metformin for Improvement in Clinical Symptoms and Metabolic Markers in Indian PCOS Women",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2016-05",
+            "completion_date": "2019-12",
+            "brief_summary": "Objective: To assess effectiveness of ISD (Insulin sensitizing drugs) Vs OCP (Combined E\\&P cyproterone acetate) in improving clinical, hormonal and metabolic features of PCOS( polycystic ovary syndrome)women from India.\n\nIntervention:\n\nRandomized to receive Metformin 1500 mg / day OR OCP (EE+CA) Life style advice to women with BMI ( body mass index) more than 28 , in both groups (PS: progesterone can be added for getting withdrawal bleeding for amenorrhoea of more than two months, or for prolon",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "PCOS 女性 OCP（含 CPA）vs Metformin 頭對頭比較，間接支持 CPA 在 PCOS 相關月經異常的療效"
+            }
+          },
+          {
+            "nct_id": "NCT02729545",
+            "title": "The Efficacy and Safety Study of Tung's Acupuncture for Improving Ovarian Function of Polycystic Ovarian Syndrome: a Randomised Controlled Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2016-04",
+            "completion_date": "2018-05",
+            "brief_summary": "This study evaluates the efficacy and safety in improving ovarian function of polycystic ovarian syndrome in adults. Half of patients will receive Tung's acupuncture therapy, while the other half will receive Diane-35(CPA/EE) as the control group.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針灸改善 PCOS 卵巢功能 Phase 2 試驗，CPA 僅為對照組，直接相關性低但確認 CPA 為 PCOS 標準對照"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "6232474",
+            "title": "Polycystic ovarian disease.",
+            "authors": [
+              "Raj S G",
+              "Talbert L M"
+            ],
+            "journal": "Obstetrics and gynecology annual",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review (PCOS)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9130733",
+            "title": "Clinical and hormonal effects of the combination gonadotrophin-releasing hormone agonist plus oral contraceptive pills containing ethinyl-oestradiol (EE) and cyproterone acetate (CPA) versus the EE-CPA pill alone on polycystic ovarian disease-related hyperandrogenisms.",
+            "authors": [
+              "Acién P",
+              "Mauri M",
+              "Gutierrez M"
+            ],
+            "journal": "Human reproduction (Oxford, England)",
+            "year": "1997",
+            "abstract": "The aim of this study was to compare the clinical and hormonal effects of the combination of a long-acting gonadotrophin-releasing hormone analogue (GnRH-a) plus an oral contraceptive (OC) pill containing ethinyl-oestradiol (EE) and cyproterone acetate (CPA) versus the EE-CPA pill alone in patients with polycystic ovarian disease (PCOD) and related hyperandrogenisms, in order to evaluate whether the addition of GnRH-a has any advantage. A total of 12 PCOD patients were treated with the EE-CPA pi",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2946604",
+            "title": "Clinical efficacy and safety of cyproterone acetate in severe hirsutism: results of a multicentered Canadian study.",
+            "authors": [
+              "Belisle S",
+              "Love E J"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1986",
+            "abstract": "We compared the efficacy and safety of cyproterone acetate (Shering AC, Berlin, FRG) at a low (Diane, 2 mg) or a high dose (Androcur, 100 mg) in the treatment of 158 patients with severe hirsutism. At baseline, no difference was observed in mean hirsutism total index (19.5 Diane versus 20.1 Androcur) or distribution (facial, bust, or abdomen). By the end of the study, patient loss in Diane and Androcur groups was 29.1% and 27.8%, respectively, and the mean percent difference in the scoring index",
+            "classification": {
+              "study_type": "Multicentre Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12266391",
+            "title": "[A new ovulation inhibitor antiandrogen].",
+            "authors": [
+              "Millet-part A",
+              "Blanes-espi A",
+              "Ferrer-barriendos J",
+              "Siqueira L",
+              "Acosta E"
+            ],
+            "journal": "Jornal brasileiro de ginecologia",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17162716",
+            "title": "Difficult management of recurrent catamenial pneumothorax.",
+            "authors": [
+              "Oger Pierre",
+              "Alifano Marco",
+              "Regnard Jean-François",
+              "Gompel Anne"
+            ],
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "2006",
+            "abstract": "Catamenial pneumothorax is an uncommon disease whose management is not consensual. We report the case of a patient who experienced several episodes of pneumothorax. She was initially treated by repair of diaphragmatic defects and hormonal treatment. During the therapeutic amenorrhea, no recurrence occurred. However, each cessation of medical therapy was followed by recurrence. Finally, talc pleurodesis and tubal ligature were performed without any recurrence in the subsequent 12 months. This rep",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35592826",
+            "title": "A rare case report about a congenital adrenal hyperplasia by 21-hydroxylase lock in its pure virilizing form discovered in adolescence.",
+            "authors": [
+              "Alla Achwak",
+              "Draoui Najat",
+              "Rami Imane",
+              "Rouf Siham",
+              "Saadi Hanane"
+            ],
+            "journal": "Annals of medicine and surgery (2012)",
+            "year": "2022",
+            "abstract": "Congenital adrenal hyperplasia (CAH) due to 21-hydroxylase deficiency is an autosomal recessive disease. The diagnosis of the classic virilizing form must be made at birth.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1467664",
+            "title": "[Benefits and risks of hormonal contraception].",
+            "authors": [
+              "Tscherne G"
+            ],
+            "journal": "Gynakologisch-geburtshilfliche Rundschau",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2528199",
+            "title": "[Available anti-androgens for treating skin hyperandrogenism].",
+            "authors": [
+              "Pugeat M"
+            ],
+            "journal": "Revue francaise de gynecologie et d'obstetrique",
+            "year": "1989",
+            "abstract": "Several antiandrogens compounds are available in the treatment of acne and hirsutism in women. Cyproterone acetate is the most effective antiandrogen. Its use must prevent the occurrence of amenorrhea with the prescription of an appropriate estrogen. Spironolactone, less effective, is better tolerated on a long-term basis, if precaution is taken to combine it sequentially with a progesterone or a norprogesterone, in order to avoid the occurrence of short cycles. This is the treatment of choice o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6358615",
+            "title": "[Choice of contraception for the diabetic woman].",
+            "authors": [
+              "Athea N",
+              "Kuttenn F"
+            ],
+            "journal": "Journees annuelles de diabetologie de l'Hotel-Dieu",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12266609",
+            "title": "[How to choose an oral contraceptive in 1984].",
+            "authors": [
+              "Rozenbaum H"
+            ],
+            "journal": "Contraception, fertilite, sexualite",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23365131",
+            "title": "Virilizing sclerosing-stromal tumor of the ovary in a young woman with McCune Albright syndrome: clinical, pathological, and immunohistochemical studies.",
+            "authors": [
+              "Boussaïd Kahina",
+              "Meduri Geri",
+              "Maiza Jean-Christophe",
+              "Gennero Isabelle",
+              "Escourrou Ghislaine"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2013",
+            "abstract": "McCune-Albright syndrome (MAS) is characterized by polyostotic fibrous dysplasia, café-au-lait skin pigmentations, and gonadotropin-independent sexual precocious puberty, resulting from a somatic postzygotic activating mutation of the GNAS1 gene.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2137793",
+            "title": "Medical therapy for the syndrome of familial virilization, insulin resistance, and acanthosis nigricans.",
+            "authors": [
+              "Corenblum B",
+              "Baylis B W"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1990",
+            "abstract": "In the syndrome of familial virilization, insulin resistance, and acanthosis nigricans, the interrelationships are not understood. Twin sisters were studied, along with a lesser affected sister and mother. They manifested amenorrhea, hirsutism, masculinization, hypertension, hyperinsulinemia, hypertriglyceridemia, and hyperprolactinemia. Medical therapy with a gonadotropin-releasing hormone agonist plus an antiandrogen resulted in reversal of the hirsutism, yet with preservation of potential fer",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23221134",
+            "title": "Improving the prognosis ways of central genesis and management option in infertile women.",
+            "authors": [
+              "Halilova N"
+            ],
+            "journal": "Georgian medical news",
+            "year": "2012",
+            "abstract": "To study central genesis of disfunctional menstrual disorders was based particulary on electroencephalography and find out efficacy of pathogenetic management in infertile women with central forms of oligomenorrhoea and amenorrhoea compared to generally accepted hormone therapy. Depending on received management, all 159 patients were divided into two groups. Group I included 93 women with infertility and menstrual disorders treated by taking into account the found cerebral dysfunction. Group II ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1589384",
+            "title": "Androgen-producing bilateral large cortical adrenal adenomas associated with polycystic ovaries in a young female.",
+            "authors": [
+              "Micić D",
+              "Zorić S",
+              "Popović V",
+              "Janković R",
+              "Jancić M"
+            ],
+            "journal": "Postgraduate medical journal",
+            "year": "1992",
+            "abstract": "An association of bilateral large adrenocortical androgen-producing adenomas with polycystic ovaries in a young female is presented. She developed mild hirsutism and secondary amenorrhoea at the age of 17, and was treated for 3 years with an anti-androgen (cyproterone acetate) and ethinyloestradiol. Routine follow-up at the age of 21 showed bilateral large adrenal tumours and polycystic ovaries, together with high serum testosterone and dehydroepiandrosterone sulphate values. Bilateral adrenalec",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CPA 透過強效抗促性腺激素作用（抑制 LH/FSH）及抗雄激素效應（阻斷卵巢雄激素過度分泌），改善 PCOS 相關的 HPO 軸紊亂，恢復規律排卵週期。CPA+EE（Diane-35/Dianette）在歐洲已核准用於 PCOS 相關月經不規則。需注意：CPA 可「造成」功能性閉經（避孕機制之一），故此適應症特指 PCOS/高雄激素相關的月經過少或閉經，而非原發性閉經。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "breast fibrocystic disease",
+      "txgnn": {
+        "score": 0.9915487766265868,
+        "rank": 9370
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1852100",
+            "title": "Fibrocystic disease of the breast in premenopausal women: histohormonal correlation and response to luteinizing hormone releasing hormone analog treatment.",
+            "authors": [
+              "Monsonego J",
+              "Destable M D",
+              "De Saint Florent G",
+              "Amouroux J",
+              "Kouyoundjian J C"
+            ],
+            "journal": "American journal of obstetrics and gynecology",
+            "year": "1991",
+            "abstract": "Sixty-six patients with fibrocystic mastopathy were enrolled in the trial after being selected according to clinical, radioultrasonographic, and histologic criteria. No characteristic hormonal profile was noted in most patients (52%). Estrogen receptors or progesterone receptors, or both, were found in 57% of patients. Hormone receptor levels were correlated with atypical proliferative mastopathy (87.5%). Mastopathy was associated with a uterine fibroma or a fibromatous uterus in 73% of cases. A",
+            "classification": {
+              "study_type": "Observational/Histohormonal",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10576236",
+            "title": "Mammographic and ultrasonographic study of changes in the breast related to HRT.",
+            "authors": [
+              "Ozdemir A",
+              "Konuş O",
+              "Nas T",
+              "Erbaş G",
+              "Coşar S"
+            ],
+            "journal": "International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics",
+            "year": "1999",
+            "abstract": "To determine the frequency and degree of change in mammographic densities, and new solid or cystic formations in the breast tissue, during different types of hormone replacement therapy (HRT).",
+            "classification": {
+              "study_type": "Observational (imaging)",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1467664",
+            "title": "[Benefits and risks of hormonal contraception].",
+            "authors": [
+              "Tscherne G"
+            ],
+            "journal": "Gynakologisch-geburtshilfliche Rundschau",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2141702",
+            "title": "[Male transsexualism and hormonal therapy: radiologic pictures of the breast].",
+            "authors": [
+              "Godano A",
+              "Massara D",
+              "Grassi G",
+              "Genovese M G",
+              "Cavallotti G P"
+            ],
+            "journal": "Archivio italiano di urologia, nefrologia, andrologia : organo ufficiale dell'Associazione per la ricerca in urologia = Urological, nephrological, and andrological sciences",
+            "year": "1990",
+            "abstract": "Often the male transsexual takes hormonal drugs, sometimes under medical prescription but most frequently by his personal choice. They wish to obtain a development of mammary gland and the disappearance of hair from facial skin. Prolonged hormonal and incorrect treatments, mainly for too high dosage and absence of association with progesterone, assumption of oestrogens, can cause the growth of mammary tumours. The Authors present the results of a clinical and radiological study on 15 patients, 1",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "纖維囊性乳腺病與雌/孕激素失衡及局部雄激素受體活化相關。CPA 的抗雄激素作用理論上可減少乳腺上皮增殖及囊腫形成，孕激素效應可對抗雌激素刺激。PMID 1852100（1991）為最直接相關文獻，探討停經前女性纖維囊性乳腺病的荷爾蒙組織學相關性及治療反應，但 CPA 特異性資料不足。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "thrombophilia",
+      "txgnn": {
+        "score": 0.9902756214141846,
+        "rank": 10353
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19340712",
+            "title": "Cyproterone acetate- and ethinyloestradiol-containing oral contraceptive as a risk factor for upper extremity deep venous thrombosis-a case report.",
+            "authors": [
+              "Kapur Rick",
+              "Stramrood Claire A I",
+              "Schutgens Roger E G",
+              "van Asbeck B Sweder"
+            ],
+            "journal": "The European journal of contraception & reproductive health care : the official journal of the European Society of Contraception",
+            "year": "2009",
+            "abstract": "Deep venous thrombosis of the upper extremity (UEDVT) is a rare variety of deep venous thrombosis. Compared to lower-extremity deep venous thrombosis, less is known about the risk factors for primary UEDVT. We report on a 27-year-old woman with UEDVT extending from the jugular and subclavian veins to the elbow. The thrombosis was possibly provoked by a shoulder trauma, in combination with heterozygosity for the prothrombin G20210A mutation and a protein S-deficiency, which may have been induced ",
+            "classification": {
+              "study_type": "Case Report/Pharmacovigilance",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15550051",
+            "title": "Prothrombotic changes in users of combined oral contraceptives containing drospirenone and cyproterone acetate.",
+            "authors": [
+              "van Vliet H A A M",
+              "Winkel T A",
+              "Noort I",
+              "Rosing J",
+              "Rosendaal F R"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2004",
+            "abstract": "",
+            "classification": {
+              "study_type": "Observational (safety)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30389542",
+            "title": "[Hormonal contraception and vascular risk: CNGOF Contraception Guidelines].",
+            "authors": [
+              "Plu-Bureau G",
+              "Sabbagh E",
+              "Hugon-Rodin J"
+            ],
+            "journal": "Gynecologie, obstetrique, fertilite & senologie",
+            "year": "2018",
+            "abstract": "Venous thromboembolism and arterial ischemic events are the main deleterious diseases associated with the use of combined hormonal contraceptives (CHC). Even though their composition has been substantially improved, the vascular risk persists with the most recent CHCs use. If the vascular risk associated with CHCs containing 50μg EE is significantly higher than with those containing less than 50μg, there is no evidence that the CHCs containing either 30 or 20μg of EE induce different venous risk",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24634164",
+            "title": "Thromboembolic events in women exposed to hormonal contraception or cyproterone acetate in 2012: a cross-sectional observational study in 30 French public hospitals.",
+            "authors": [
+              "Gourbil Mathilde",
+              "Grandvuillemin Aurélie",
+              "Beyens Marie-Noëlle",
+              "Massy Nathalie",
+              "Gras Valérie"
+            ],
+            "journal": "Drug safety",
+            "year": "2014",
+            "abstract": "In the context of the European reassessment of the benefit-risk balance of hormonal contraceptives, French data about thromboembolic events were requested.",
+            "classification": {
+              "study_type": "Cohort (pharmacovigilance)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29614525",
+            "title": "Type of Combined Contraceptives, Factor V Leiden Mutation and Risk of Venous Thromboembolism.",
+            "authors": [
+              "Hugon-Rodin Justine",
+              "Horellou Marie-Hélène",
+              "Conard Jacqueline",
+              "Gompel Anne",
+              "Plu-Bureau Geneviève"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2018",
+            "abstract": "This article estimates the interaction between types of combined hormonal contraception (CHC) and factor V Leiden (FVL) mutation on the risk of venous thrombosis event (VTE).",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32342502",
+            "title": "The joint effect of genetic risk factors and different types of combined oral contraceptives on venous thrombosis risk.",
+            "authors": [
+              "Khialani Deeksha",
+              "le Cessie Saskia",
+              "Lijfering Willem M",
+              "Cannegieter Suzanne C",
+              "Rosendaal Frits R"
+            ],
+            "journal": "British journal of haematology",
+            "year": "2020",
+            "abstract": "It is not known whether the synergistic effect of genetic markers, increasing the risk of venous thrombosis (VT), and combined oral contraceptives (COC) use varies between different types of progestogens in these preparations. We investigated the joint effect of genetic risk factor, that is, F5 rs6025, F2 rs1799963, and FGG rs2066865 mutations, and different progestogens on the risk of VT. The constrained maximum likelihood estimation (CMLE) method was used to calculate joint effects, expressed ",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25961217",
+            "title": "Antigonadotropic progestogens as contraceptive agents in women with contraindication to combined pill.",
+            "authors": [
+              "Maitrot-Mantelet Lorraine",
+              "Agopian Anahid",
+              "Gompel Anne"
+            ],
+            "journal": "Hormone molecular biology and clinical investigation",
+            "year": "2010",
+            "abstract": "Synthetic progestogens belong to different pharmacological classes and are mixed steroids. They display different properties due to their various affinities to the different steroid receptors. In addition, the dosage used can modify their side effects. Normethyltestosterone used at minimal doses, also called progestogen only pill (POP), constitute the standard recommended hormonal contraception for women with vascular and metabolic contraindications to combined pill (COC). However, POP efficacy ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18064335",
+            "title": "Effect of oral contraceptives on thrombin generation measured via calibrated automated thrombography.",
+            "authors": [
+              "Tchaikovski Svetlana N",
+              "van Vliet Huib A A M",
+              "Thomassen M C L G D",
+              "Bertina Rogier M",
+              "Rosendaal Frits R"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2007",
+            "abstract": "In a study population consisting of healthy men (n = 8), women not using oral contraceptives (OC) (n = 28) and women using different kinds of OC (n = 187) we used calibrated automated thrombography (CAT) in the absence and presence of added activated protein C (APC) to compare parameters that can be obtained from thrombin generation curves, i.e. lag time, time to peak, peak height and endogenous thrombin potential (ETP). Both with and without APC, plasmas of OC users exhibited the shortest lag t",
+            "classification": {
+              "study_type": "Clinical (thrombin generation assay)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24438944",
+            "title": "Thyroid function, activated protein C resistance and the risk of venous thrombosis in users of hormonal contraceptives.",
+            "authors": [
+              "Raps M",
+              "Curvers J",
+              "Helmerhorst F M",
+              "Ballieux B E P B",
+              "Rosing J"
+            ],
+            "journal": "Thrombosis research",
+            "year": "2014",
+            "abstract": "Use of combined hormonal contraceptives is associated with a three- to eight-fold increased risk of venous thrombosis compared with non-use. The thrombotic risk depends on the estrogen dose as well as the progestogen type. Use of hormonal contraceptives leads to resistance to activated protein C (APC), which may serve as marker for the risk of venous thrombosis. Hyperthyroidism is also associated with an increased risk of venous thrombosis, due to increased free Thyroxine (FT4) levels which caus",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14671159",
+            "title": "Venous thrombosis and changes of hemostatic variables during cross-sex hormone treatment in transsexual people.",
+            "authors": [
+              "Toorians A W F T",
+              "Thomassen M C L G D",
+              "Zweegman S",
+              "Magdeleyns E J P",
+              "Tans G"
+            ],
+            "journal": "The Journal of clinical endocrinology and metabolism",
+            "year": "2003",
+            "abstract": "The incidence of venous thrombosis associated with estrogen treatment in male-to-female (M-->F) transsexuals is considerably higher with administration of oral ethinyl estradiol (EE) than with transdermal (td) 17-beta-estradiol (E(2)). To find an explanation for the different thrombotic risks of oral EE and td E(2) use, we compared the effects of treatment of M-->F transsexuals with cyproterone acetate (CPA) only, and with CPA in combination with td E(2), oral EE, or oral E(2) on a number of hem",
+            "classification": {
+              "study_type": "Cohort (transgender)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22469296",
+            "title": "Sex hormone-binding globulin as a marker for the thrombotic risk of hormonal contraceptives.",
+            "authors": [
+              "Raps M",
+              "Helmerhorst F",
+              "Fleischer K",
+              "Thomassen S",
+              "Rosendaal F"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2012",
+            "abstract": "It takes many years to obtain reliable values for the risk of venous thrombosis of hormonal contraceptive users from clinical data. Measurement of activated protein C (APC) resistance via thrombin generation is a validated test for determining the thrombogenicity of hormonal contraceptives. Sex hormone-binding globulin (SHBG) might serve as a marker for the risk of venous thrombosis, and can be easily and rapidly measured in routine laboratories.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40704263",
+            "title": "Cerebral Venous Sinus Thrombosis Associated With Contraceptive Use: A Case Report.",
+            "authors": [
+              "Guarin-Rivera Syndy",
+              "Gil-Lancheros María",
+              "Castillo-Ramírez Cristian",
+              "Utria-Munive Jesus"
+            ],
+            "journal": "Cureus",
+            "year": "2025",
+            "abstract": "Cerebral venous thrombosis (CVT) is a condition that may affect women of childbearing age and is, in some cases, associated with risk factors such as oral contraceptive use. This case describes the presentation of a case of cerebral venous sinus thrombosis in a woman of childbearing age who uses oral contraceptives. A 28-year-old woman presented to the internal medicine service with a clinical picture of intense right temporo-occipital headache of eight days of evolution associated with flashes ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36634704",
+            "title": "A case of polycystic ovary syndrome with inevitable miscarriage and multi-site venous thrombosis caused by hereditary protein C deficiency.",
+            "authors": [
+              "Zhong Minglin",
+              "Tu Yanping",
+              "Peng Xiuhong",
+              "Song Yue",
+              "Zhou Jiahe"
+            ],
+            "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+            "year": "2022",
+            "abstract": "Polycystic ovarian syndrome (PCOS) affects up to 18% of reproductive-aged women and raises the risk of venous thromboembolic disease (VTE), due to metabolic features and an apparent fibrinolytic state. Recent studies have shown an increased risk of VTE (1.5- to 2-fold) in patients with PCOS as compared to those without PCOS. Mutations in the Protein C (PC) gene (PROC) lead to deficiency or dysfunction of the protein, Protein C deficiency is the main clotting physiological inhibitor of protein C ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21981701",
+            "title": "Procoagulant effect of vitamin K antagonists?",
+            "authors": [
+              "Al Dieri R",
+              "Ten Cate-Hoek A",
+              "Bloemen S",
+              "Ten Cate H",
+              "Hemker H C"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2011",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18067603",
+            "title": "Different effects of oral contraceptives containing different progestogens on protein S and tissue factor pathway inhibitor.",
+            "authors": [
+              "van Vliet H A A M",
+              "Bertina R M",
+              "Dahm A E A",
+              "Rosendaal F R",
+              "Rosing J"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2008",
+            "abstract": "Oral contraceptives (OC) containing different types of progestogens induce different sensitivities to activated protein C (APC) measured with the thrombin generation-based APC-resistance test. These differences in APC resistance may be the biological explanation for the differences in thrombotic risk of the various pills. The mechanistic basis of APC resistance observed in OC users is unknown. Our objective was to study the effect of OC on the two main determinants of the APC-resistance test, fr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10831061",
+            "title": "100 mg acetylsalicylic acid acutely decreases red cell aggregation in women taking oral contraceptives.",
+            "authors": [
+              "El Bouhmadi A",
+              "Laffargue F",
+              "Raspal N",
+              "Brun J F"
+            ],
+            "journal": "Clinical hemorheology and microcirculation",
+            "year": "2000",
+            "abstract": "Since oral contraceptives (OC) are known to impair blood fluidity and to increase the risk of venous and arterial thrombosis, while acetylsalicylic acid (ASA) decreases the thrombotic risk and modifies some rheologic parameters, we compared the hemorheologic effects of ASA on blood rheology between women treated by OC and women who never received this medication. 25 women under OC were compared to 25 matched women who had never used OC. Blood viscosity (MT90 viscometer) and RBC aggregation (Myre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15333036",
+            "title": "Impact of progestagens on activated protein C (APC) resistance among users of oral contraceptives.",
+            "authors": [
+              "Alhenc-Gelas M",
+              "Plu-Bureau G",
+              "Guillonneau S",
+              "Kirzin J-M",
+              "Aiach M"
+            ],
+            "journal": "Journal of thrombosis and haemostasis : JTH",
+            "year": "2004",
+            "abstract": "Oral contraceptive (OC) use is associated with an increased risk of venous thromboembolism. Previous data reported higher thrombotic risk in women using third-generation combined OC than in those using second generation OC. The difference could be explained by differential effects of progestagens on plasma sensitivity to activated protein C (APC). The main purpose of this cross-sectional study was to assess the influence of a progestagen-only OC (chlormadinone acetate) as well as the effect of s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8275295",
+            "title": "Hormonal management of prostatic cancer.",
+            "authors": [
+              "Jolobe O M",
+              "Khan A"
+            ],
+            "journal": "British journal of hospital medicine",
+            "year": "1993",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 文獻性質完全為「CPA 導致血栓」的安全性資料，而非「CPA 治療血栓傾向」的療效資料。18 篇文獻記錄：CPA 降低 Protein S（24-38%）、增加 thrombin 生成、與 Factor V Leiden 交互作用使 VTE 風險乘數增加、在跨性別女性中觀察到靜脈及動脈血栓事件。此適應症代表的是 TxGNN 圖譜錯誤關聯（藥物副作用路徑被誤認為療效路徑），應標記為模型偽陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine disorder"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine with brainstem aura"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "Prinzmetal angina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "antithrombin deficiency type 2"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "factor 5 excess with spontaneous thrombosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "migraine with or without aura, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "breast fibrocystic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "breast fibrocystic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "breast fibrocystic disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Cyproterone acetate",
+        "disease": "thrombophilia"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    }
+  ]
+}

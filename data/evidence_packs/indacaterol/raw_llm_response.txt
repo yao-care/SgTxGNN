@@ -1,0 +1,268 @@
+## Indacaterol (DB05039) 藥物再利用證據分析報告
+
+> **藥物背景說明**：Indacaterol 為超長效選擇性 β2 腎上腺素受體致效劑（Ultra-LABA），t½ ≈ 40–52 h，每日一次給藥。全球已核准品項包含 Onbrez® 單藥、Ultibro®（+Glycopyrronium）及 Enerzair®（+Glycopyrronium+Mometasone）。資料中標注「未上市」及 `original_indications: []` 可能為本地市場特定資料缺失，不代表全球核准狀態缺如。
+
+---
+
+```json
+{
+  "drug": "Indacaterol",
+  "drugbank_id": "DB05039",
+  "analysis_date": "2026-04-04",
+  "moa_reconstruction": "選擇性 β2 腎上腺素受體激動 → cAMP↑ → PKA 活化 → 氣道平滑肌鬆弛（支氣管擴張）；次要效應：肥大細胞脫顆粒抑制、黏液纖毛清除促進",
+  "indications": [
+    {
+      "disease_name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "NSIAD 為 AVPR2 功能增益突變（腎臟集尿管 V2 受體持續活化）導致的罕見遺傳性低鈉血症。β2 受體下游雖共用 cAMP/PKA 訊號軸，但 Indacaterol 對腎臟 V2 受體無直接拮抗或調控作用；兩者疾病機轉路徑不重疊。預測分數 0.9954 為知識圖譜語義推斷，不具生物合理性支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "機轉假說尚未建立"]
+    },
+    {
+      "disease_name": "headache disorder",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "β2 受體存在於腦血管平滑肌，理論上 LABA 可影響腦血管張力。然而：(1) 偏頭痛預防使用 β 阻斷劑（β-blocker），即相反機轉；(2) β2 致效引起血管擴張可能加重頭痛。兩筆試驗審閱後確認均為呼吸道適應症研究，與頭痛治療完全無關，屬 TxGNN 擷取誤判。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02165826",
+          "relevance_grade": "C",
+          "reasoning": "Phase 3 COPD 耐受性與藥代動力學試驗（n=1323），標題明示呼吸道適應症。被 TxGNN 因藥物名稱關聯誤歸入頭痛分類，對頭痛適應症評估無任何貢獻。"
+        },
+        {
+          "nct_id": "NCT02576626",
+          "relevance_grade": "C",
+          "reasoning": "Phase 4 評估 Ultibro Breezhaler（Indacaterol/Glycopyrronium）用於呼吸道疾病有效性（n=40），與頭痛治療完全無關，屬完全誤判相關。"
+        }
+      ],
+      "literature_analysis": [],
+      "data_gaps": ["無頭痛相關文獻", "現有試驗均為呼吸道研究，不得作為頭痛證據"]
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TAC（叢集性頭痛、陣發性偏頭痛等）病理機轉涉及三叉神經-副交感神經反射弧及下視丘週期性活化。標準治療：急性期高流量氧氣 + 舒馬曲坦，預防期 Verapamil/Lithium。Indacaterol β2 致效作用對此神經-血管通路無已知調控機制，無任何臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "機轉不合理"]
+    },
+    {
+      "disease_name": "paratenonitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腱旁組織炎為肌腱周圍結締組織的機械性/反覆性微損傷發炎。β2 致效劑在動物模型中顯示對骨骼肌有合成代謝效果，並可抑制肥大細胞炎症介質，理論上存在微弱抗炎潛力，但此為高度間接推論，與腱旁結締組織病理無直接關聯。完全無臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "機轉為遠端間接推論"]
+    },
+    {
+      "disease_name": "calcific tendinitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鈣化性肌腱炎病理為羥磷灰石晶體異位沉積，涉及局部缺血、軟骨化生及鈣化囊形成，與 β2 受體訊號傳導無已知關聯。TxGNN 高分（0.9925）可能源於 Indacaterol 在知識圖譜中透過「肌腱疾病」節點的間接鏈結，而非真實生物效應。治療上以體外震波碎石、超音波引導抽吸為主。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "生物合理性缺乏"]
+    },
+    {
+      "disease_name": "hypertrichosis (disease)",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多毛症與毛囊對雄激素敏感性增加或特定基因異常相關。β2 受體雖存在於毛囊，但 LABA 類藥物無促進毛髮生長的已知機轉，臨床上部分 β 受體藥物甚至與脫髮相關。此預測與 Indacaterol 已知藥理作用方向矛盾，應視為知識圖譜雜訊或誤判。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "機轉方向矛盾"]
+    },
+    {
+      "disease_name": "bronchial disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "【核心已核准適應症】Indacaterol 選擇性激動氣道平滑肌 β2 腎上腺素受體 → Gs 蛋白活化 → adenylyl cyclase → cAMP↑ → PKA → 肌球蛋白輕鏈激酶失活 + MLCK 磷酸化 → 平滑肌舒張 → 支氣管擴張，持效 24 小時。附加：抑制肥大細胞脫顆粒減少炎症介質、促黏液纖毛清除。與 Glycopyrronium（LAMA）協同擴張不同受體，與 Mometasone（ICS）互補抗炎，形成三聯療法機轉完整。此為藥物核心機轉直接適應症，具備 L1 等級多項 Phase 3 RCT 支持。【注意：市場狀態「未上市」可能為本地登記資料缺失，建議驗證 HSA/衛福部核准狀態】",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02554786",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，n=2216，52 週雙盲三組平行試驗，評估 QVM149（Indacaterol 150μg/Glycopyrronium 50μg/Mometasone 160μg）固定複方用於氣喘，大型樞紐試驗，直接支持支氣管疾病適應症，為 Enerzair® 核准的關鍵證據之一。"
+        },
+        {
+          "nct_id": "NCT00529529",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，n=805，26 週雙盲雙假平行試驗，直接評估 Indacaterol 單藥 COPD 療效，屬早期核心注冊試驗，Onbrez® 核准關鍵依據。"
+        },
+        {
+          "nct_id": "NCT01079130",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，n=511，雙盲安慰劑對照平行組試驗，直接評估 Indacaterol 在支氣管疾病療效，高度相關核心試驗。"
+        },
+        {
+          "nct_id": "NCT03100825",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 開放標籤，n=96，日本族群 52 週 QVM149 安全性研究，支持亞洲族群安全性資料，對本地市場申請具參考價值。"
+        },
+        {
+          "nct_id": "NCT01609478",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，n=335，12 週雙盲安慰劑對照，直接評估 Indacaterol 在支氣管疾病的療效安全性，中期臨床證據。"
+        },
+        {
+          "nct_id": "NCT02892019",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，n=79，雙盲主動對照 2 週試驗，評估 Indacaterol/Glycopyrronium 複方支氣管擴張效果，直接相關。"
+        },
+        {
+          "nct_id": "NCT02059434",
+          "relevance_grade": "A",
+          "reasoning": "Phase 1 RCT，n=55，安全性/耐受性/PK/PD 試驗，為支氣管疾病早期臨床劑量選擇依據，機轉確認研究。"
+        },
+        {
+          "nct_id": "NCT02953041",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，n=31，Methacholine 激發試驗評估 Glycopyrronium 和 Indacaterol 對支氣管高反應性的效果，機轉驗證研究，直接相關。"
+        },
+        {
+          "nct_id": "NCT00403754",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2，n=41，四組四週期交叉設計多中心單劑量試驗，PK 研究支持劑型選擇，直接支持支氣管疾病適應症。"
+        },
+        {
+          "nct_id": "NCT04206761",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已撤回（Withdrawn，n=0），計畫以氙氣 MRI 評估 QVM149 通氣反應，因無受試者數據降級。設計本身相關，但無可用數據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "32653074",
+          "study_type": "RCT",
+          "tier": "1",
+          "annotation": "2020 年 Lancet 發表，Mometasone-Indacaterol-Glycopyrronium 三聯療法與雙聯療法頭對頭 RCT，核心 L1 證據。"
+        },
+        {
+          "pmid": "39905183",
+          "study_type": "RCT",
+          "tier": "1",
+          "annotation": "2025 年最新三聯療法比較 RCT（成人氣喘），提供當前最新 L1 臨床比較證據。"
+        },
+        {
+          "pmid": "33871819",
+          "study_type": "Review",
+          "tier": "2",
+          "annotation": "2021 年 Indacaterol/Glycopyrronium/Mometasone 完整藥物審閱，彙整核准依據的系統性評述。"
+        },
+        {
+          "pmid": "35072888",
+          "study_type": "Review",
+          "tier": "2",
+          "annotation": "2022 年 Indacaterol Acetate/Glycopyrronium/Mometasone 藥物開發策略專項評述，含劑型橋接邏輯。"
+        },
+        {
+          "pmid": "31404293",
+          "study_type": "Cohort",
+          "tier": "2",
+          "annotation": "2019 年 COPD 嗜酸性粒細胞表型與氣道高反應性研究，支持不同表型下 Indacaterol 使用策略。"
+        },
+        {
+          "pmid": "34329722",
+          "study_type": "Pharmacology",
+          "tier": "2",
+          "annotation": "2021 年 Mometasone Furoate 劑量橋接資料研究，支持固定複方的劑量合理性。"
+        },
+        {
+          "pmid": "32967685",
+          "study_type": "RCT/PK",
+          "tier": "2",
+          "annotation": "2020 年比較 Indacaterol Maleate 與 Acetate 鹽型在氣喘的 PK 與肺功能差異，鹽型選擇依據。"
+        },
+        {
+          "pmid": "24247039",
+          "study_type": "Review",
+          "tier": "2",
+          "annotation": "2014 年呼吸疾病新型支氣管擴張劑全面評述，包含 Indacaterol 在 COPD 中的定位。"
+        },
+        {
+          "pmid": "19609496",
+          "study_type": "Review",
+          "tier": "2",
+          "annotation": "2009 年 Indacaterol 創新藥物評述，建立其在阻塞性肺疾病的早期臨床地位。"
+        },
+        {
+          "pmid": "20461692",
+          "study_type": "Review",
+          "tier": "2",
+          "annotation": "2010 年 Indacaterol 療效與安全性評述（外語文獻），提供多語系臨床評估視角。"
+        }
+      ],
+      "guardrails": [
+        "確認本地市場（HSA/TFDA 等）核准狀態及已核准劑型",
+        "COPD 使用：需確認患者 FEV1/FVC < 0.70 且症狀評估（mMRC/CAT）",
+        "氣喘使用：需與 ICS 聯合，不得單用 LABA（增加氣喘相關死亡風險，FDA Black Box Warning）",
+        "心律不整高風險患者（QTc 延長）需謹慎",
+        "不得用於急性支氣管痙攣發作（非急救藥物）"
+      ]
+    },
+    {
+      "disease_name": "myositis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肌炎（皮肌炎/多發性肌炎）主要為自體免疫介導的骨骼肌炎症，需免疫抑制治療。β2 致效劑（如 Clenbuterol）在動物模型具骨骼肌合成代謝效果，理論上可能改善肌炎相關肌肉萎縮，但對核心自體免疫機轉無直接抑制作用。此假說遠未達臨床試驗驗證階段，無任何相關證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "機轉為遠端間接推論"]
+    },
+    {
+      "disease_name": "anaphylaxis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "β2 腎上腺素受體致效劑（SABA 如 Salbutamol）已列入多項過敏反應臨床指引作為支氣管痙攣成分的輔助治療（一線仍為腎上腺素）。Indacaterol 具相同 β2 致效機轉，理論上可緩解過敏反應中的支氣管痙攣。【關鍵限制】：Indacaterol 為超長效製劑（t½ ≈ 40-52 h），起效較慢（15-30 分鐘），不適合急性過敏反應場景（需即時效果）；且無法滴定調整劑量。此為基於藥理分類的間接類推（L4），非 Indacaterol 特異性臨床證據，安全性疑慮需評估。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": [
+        "無 Indacaterol 特異性過敏反應試驗",
+        "現有類別證據（SABA）不可直接外推至 LABA",
+        "藥物動力學限制（長效、慢起效）為核心安全疑慮"
+      ]
+    },
+    {
+      "disease_name": "Ambras type hypertrichosis universalis congenita",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Ambras 型先天性全身多毛症為染色體 8q22-q24 區域異常導致的極罕見常染色體顯性遺傳病，表現為全身性毫毛過度生長。此為遺傳性結構缺陷，β2 受體致效劑對毛囊發育基因程式無已知調控機制。TxGNN 預測分數（0.9906）可能源於「多毛症（disease）」節點間的語義相鄰關係，生物合理性完全缺乏，且疾病極罕見（全球報告案例 < 50 例），研究可行性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "data_gaps": ["無任何臨床試驗", "無任何文獻", "機轉不合理", "疾病極罕見（孤兒病）"]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 | 關鍵理由 |
+|--------|----------|----------|------|----------|
+| bronchial disease | **L1** | **S3** | ✅ **Proceed with Guardrails** | 多項 Phase 3 RCT + 20 篇文獻，核准適應症直接證據 |
+| anaphylaxis | **L4** | **S1** | 🔬 **Research Question** | 類別間接機轉（SABA 已用），但 LABA 長效特性不適合急性場景 |
+| headache disorder | **L5** | **S0** | ⛔ **Hold** | 2 筆試驗均為呼吸道研究，無頭痛相關文獻 |
+| trigeminal autonomic cephalalgia | **L5** | **S0** | ⛔ **Hold** | 無證據，機轉不合理 |
+| paratenonitis | **L5** | **S0** | ⛔ **Hold** | 無證據，機轉極間接 |
+| calcific tendinitis | **L5** | **S0** | ⛔ **Hold** | 無證據，機轉缺乏合理性 |
+| hypertrichosis | **L5** | **S0** | ⛔ **Hold** | 無證據，機轉方向矛盾 |
+| myositis | **L5** | **S0** | ⛔ **Hold** | 無證據，自體免疫靶點不符 |
+| nephrogenic syndrome of inappropriate antidiuresis | **L5** | **S0** | ⛔ **Hold** | 無證據，腎臟 V2 受體非 β2 靶點 |
+| Ambras type hypertrichosis universalis congenita | **L5** | **S0** | ⛔ **Hold** | 無證據，遺傳性疾病無 β2 調控機制 |
+
+> **⚠️ 研究免責聲明**：本分析僅供老藥新用研究參考，不構成醫療建議。所有預測候選均需經過完整臨床驗證方可應用於臨床實踐。

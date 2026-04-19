@@ -1,0 +1,302 @@
+## Daptomycin (DB00080) 藥物再利用證據分析
+
+分析前先釐清背景：Daptomycin 為環狀脂胜肽類抗生素，其已知作用機轉為**鈣依賴型細菌細胞膜去極化**，原本用於革蘭氏陽性菌感染（MRSA、VRE）。本批預測適應症集中於肌肉骨骼相關疾病，需逐一評估文獻真實關聯性。
+
+---
+
+```json
+{
+  "drug": "Daptomycin",
+  "drugbank_id": "DB00080",
+  "analysis_date": "2026-04-04",
+  "analyst_notes": "TxGNN高分預測多源自『骨科感染文獻中OA/RA患者背景』的共現偏差，非直接治療證據。需區分『治療OA/RA患者的感染』與『治療OA/RA疾病本身』。",
+  "indications": [
+    {
+      "disease_name": "osteoarthritis",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉關聯。文獻全數為Daptomycin治療人工關節週邊感染(PJI)或骨關節感染的報告——這些患者恰好有OA病史並已接受關節置換術，文獻主題是感染治療，而非OA疾病修飾。Daptomycin無軟骨保護、滑膜調節或OA致病通路(TGF-β/Wnt/MMP)的已知作用。TxGNN高分屬OA-感染文獻共現導致的假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23519823",
+          "title_summary": "高劑量Dapto+Rifampicin治療Gram陽性PJI",
+          "study_type": "Retrospective cohort",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "對象為PJI感染，OA僅為背景病史。對OA疾病本身無治療意義"
+        },
+        {
+          "pmid": "22511636",
+          "title_summary": "Dapto治療膝/髖PJI臨床經驗",
+          "study_type": "Retrospective cohort",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "PJI治療研究，OA患者因關節置換術成為感染宿主，非OA治療"
+        },
+        {
+          "pmid": "26235888",
+          "title_summary": "高劑量Dapto(>6mg/kg)治療複雜骨關節感染",
+          "study_type": "Retrospective cohort",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "骨關節感染(非退化性OA)的抗菌治療，文獻主角是感染而非OA"
+        },
+        {
+          "pmid": "22854340",
+          "title_summary": "人工關節分離金黃/表皮葡萄球菌體外敏感性",
+          "study_type": "In vitro susceptibility",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "純微生物學研究，無OA治療相關性"
+        },
+        {
+          "pmid": "17999973",
+          "title_summary": "Dapto vs標準療法治療葡萄球菌骨關節感染",
+          "study_type": "Retrospective comparative",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "骨關節感染療效比較，'osteoarticular infection'≠'osteoarthritis'"
+        },
+        {
+          "pmid": "23312602",
+          "title_summary": "PJI成人管理現況調查（感染科網絡）",
+          "study_type": "Cross-sectional survey",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "PJI管理實務調查，Dapto為諸多治療選項之一，非OA相關"
+        },
+        {
+          "pmid": "32206362",
+          "title_summary": "接受TKA患者慢性化膿性關節炎病例",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "化膿性關節炎病例，接受TKA評估的患者，與OA疾病修飾無關"
+        },
+        {
+          "pmid": "21477701",
+          "title_summary": "西班牙Dapto使用EU-CORE資料庫分析",
+          "study_type": "Registry analysis",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "多適應症使用登錄，骨關節感染佔一定比例但均為感染治療"
+        },
+        {
+          "pmid": "25650692",
+          "title_summary": "骨關節感染葡萄球菌微生物譜十年演進",
+          "study_type": "Retrospective epidemiology",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "感染流行病學研究，無OA疾病修飾相關性"
+        }
+      ]
+    },
+    {
+      "disease_name": "rheumatoid arthritis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "2025年新興機轉假說：兩篇新發表研究（PMID 39571268, 40923559）直接在膠原蛋白誘導性關節炎(CIA)動物模型中驗證Daptomycin的抗炎活性，機轉為抑制NF-κB信號通路，下調TNF-α、IL-1β、IL-6、IL-17等RA核心致病細胞激素。CIA模型為RA藥物開發金標準動物模型，結果具機轉合理性。然而：(1)Daptomycin具肌毒性（CK升高、橫紋肌溶解）及肺毒性風險，不適合慢性病長期給藥；(2)無人體安全性資料；(3)其他4篇文獻與RA治療無直接關聯。整體屬早期動物模型間接證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39571268",
+          "title_summary": "Daptomycin透過抑制炎性細胞激素與NF-κB通路緩解CIA",
+          "study_type": "Animal study (CIA model, in vivo)",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "★核心再利用假說證據★ 直接在RA標準動物模型CIA中驗證Dapto抗炎效果，明確揭示NF-κB抑制機轉，為本適應症最高品質相關文獻。2025年新發表，具時效性"
+        },
+        {
+          "pmid": "40923559",
+          "title_summary": "新型環狀脂胜肽化合物抑制細胞炎症及CIA模型",
+          "study_type": "In vitro + Animal study (CIA model)",
+          "tier": "2",
+          "relevance_grade": "A",
+          "reasoning": "環狀脂胜肽類(Dapto同類結構)抗炎活性與CIA療效，間接強化Dapto抗炎機轉的結構-活性合理性。2025年新發表"
+        },
+        {
+          "pmid": "41257050",
+          "title_summary": "外科醫師PJI感染率與風險因子",
+          "study_type": "Retrospective cohort",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "PJI流行病學研究，Dapto非主角，與RA治療無關聯"
+        },
+        {
+          "pmid": "32650057",
+          "title_summary": "Flufenamic acid抗MRSA抗生物膜效果",
+          "study_type": "In vitro study",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "其他藥物(flufenamic acid)的抗菌研究，Dapto僅為對照參考，與RA無關"
+        },
+        {
+          "pmid": "27891149",
+          "title_summary": "人工瓣膜心內膜炎罕見病例",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "感染性心內膜炎病例，與RA完全無關"
+        },
+        {
+          "pmid": "27031898",
+          "title_summary": "全髖置換感染轉移性肌肉膿瘍",
+          "study_type": "Case report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "骨科感染並發症，與RA治療無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "OA易感性為多基因遺傳病（GDF5、ALDH1A2、TGFB1等），Daptomycin無任何已知作用於OA遺傳易感通路的機轉。3篇文獻均為PJI感染微生物學研究，與OA易感性修飾完全無關聯。屬osteoarthritis/osteoarticular文字混淆導致的TxGNN偽預測。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22854340",
+          "study_type": "In vitro susceptibility",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "細菌藥敏試驗，標題'susceptibility'指細菌對抗生素的敏感性，非OA易感性"
+        },
+        {
+          "pmid": "23312602",
+          "study_type": "Cross-sectional survey",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "PJI管理調查，與OA易感性修飾無關"
+        },
+        {
+          "pmid": "25650692",
+          "study_type": "Retrospective epidemiology",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "骨關節感染菌種分布研究，與OA遺傳易感性無關"
+        }
+      ]
+    },
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.9979,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻(PMID 36693494)為Daptomycin誘發橫紋肌溶解症後『繼發性』急性痛風發作的不良反應病例，屬藥物副作用文獻，代表安全疑慮而非治療契機。Daptomycin無降尿酸、抑制黃嘌呤氧化酶或抑制NLRP3炎症小體（痛風核心機轉）的已知機轉。此預測應標記為反向證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36693494",
+          "title_summary": "Daptomycin誘發橫紋肌溶解合併急性痛風發作",
+          "study_type": "Adverse event case report",
+          "tier": "3",
+          "relevance_grade": "C",
+          "reasoning": "⚠️反向證據：Dapto為痛風誘發因子（橫紋肌溶解→肌紅蛋白→高尿酸→痛風），非治療藥物。此文獻是安全警示，不支持再利用"
+        }
+      ]
+    },
+    {
+      "disease_name": "pseudoachondroplasia",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "假性軟骨發育不全症為COMP基因突變導致的遺傳性骨骼發育障礙（軟骨基質蛋白錯誤折疊、內質網壓力累積）。Daptomycin無任何已知作用於COMP蛋白折疊、內質網未折疊蛋白反應(UPR)或軟骨細胞發育通路的機轉。零臨床零前臨床證據，屬純演算法預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn_score": 0.9968,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Hunter-Thompson型肢端中段肢骨發育不良為CDMP1(GDF5)基因功能喪失突變所致的罕見遺傳性軟骨發育異常。Daptomycin無任何作用於BMP/GDF信號通路的已知機轉。零臨床零前臨床證據，屬TxGNN骨科相關疾病群聚預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachyolmia",
+      "txgnn_score": 0.9967,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "脊椎短缺症為PAPSS2、TRPV4等基因突變導致的遺傳性脊椎發育障礙（硫酸蛋白聚糖合成缺陷）。Daptomycin無任何作用於蛋白聚糖硫化、軟骨基質合成或鈣離子通道TRPV4的已知機轉。零臨床零前臨床證據，屬演算法預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn_score": 0.9962,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "短指-並指綜合症為GJA1或相關基因突變的先天性肢端發育異常（胚胎期肢端形態發生缺陷）。Daptomycin無任何已知作用於BMP、Wnt、Hedgehog等肢端形態發生信號通路的機轉，亦無胚胎發育調控作用。零臨床零前臨床證據，屬純演算法預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見先天性眼-骨骼複合發育異常症候群（小眼症+根莖型骨骼發育不良），病因涉及眼杯發育及軟骨骨化相關基因突變。Daptomycin無任何作用於PAX6、STRA6等視覺發育通路或根莖型骨骼發育相關通路的機轉。零臨床零前臨床證據，屬TxGNN骨科疾病知識圖譜鄰近性預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn_score": 0.9961,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "XYLT2基因突變導致的遺傳性骨-牙複合發育缺陷（蛋白聚糖木糖轉移酶缺失→脊椎發育異常+牙釉質礦化障礙）。Daptomycin無任何已知作用於蛋白聚糖生物合成起始步驟、牙釉質基質礦化或XYLT2通路的機轉。零臨床零前臨床證據，屬演算法預測假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 摘要儀表板
+
+| 疾病名稱 | 證據等級 | 決策階段 | 建議 | 關鍵問題 |
+|----------|----------|----------|------|----------|
+| **Rheumatoid Arthritis** | **L4** | **S1** | **Research Question** | 2025年CIA動物模型直接證據；但慢性用藥安全性（肌毒性）待解 |
+| Osteoarthritis | L5 | S0 | Hold | 9篇文獻全為PJI感染治療，非OA疾病修飾 |
+| Osteoarthritis Susceptibility | L5 | S0 | Hold | 文獻中"susceptibility"指細菌藥敏，非疾病易感性 |
+| Gout | L5 | S0 | Hold | ⚠️唯一文獻為Dapto誘發痛風的不良反應報告 |
+| Pseudoachondroplasia | L5 | S0 | Hold | 零證據，純演算法預測 |
+| Acromesomelic Dysplasia | L5 | S0 | Hold | 零證據，純演算法預測 |
+| Brachyolmia | L5 | S0 | Hold | 零證據，純演算法預測 |
+| Brachydactyly-Syndactyly | L5 | S0 | Hold | 零證據，純演算法預測 |
+| Colobomatous Microphthalmia | L5 | S0 | Hold | 零證據，純演算法預測 |
+| Brachyolmia-AI Syndrome | L5 | S0 | Hold | 零證據，純演算法預測 |
+
+---
+
+## 分析師評語
+
+### 🔴 批次性假陽性警示
+本次預測的10個適應症中，有**7個罕見骨骼發育異常**（pseudoachondroplasia、brachyolmia等）屬於**TxGNN知識圖譜骨科疾病節點群聚效應**——這些疾病在知識圖譜中與Daptomycin有共享骨科節點，但缺乏任何生物學合理性。建議在前端過濾罕見遺傳性骨骼發育異常類別。
+
+### 🟡 唯一值得追蹤的信號：RA
+PMID 39571268（2025）是**本批預測中唯一具有直接機轉連結的再利用信號**。Daptomycin的NF-κB抑制活性為其抗炎機轉提供了生物合理性，但需解決：
+1. **安全性瓶頸**：Daptomycin已知肌毒性（肌肉裂解）使長期用於慢性炎症性疾病充滿挑戰
+2. **劑量窗口**：抗炎所需劑量與抗菌劑量的比較尚不清楚
+3. **建議下一步**：系統性文獻回顧 + 在RA細胞模型中驗證最低有效劑量的細胞毒性比
+
+### ⚠️ Gout 反向證據標記
+Gout 的文獻代表**安全警示**而非治療機會，建議在資料管道中增加「不良反應型文獻」標記邏輯，避免此類文獻被誤計為支持性證據。

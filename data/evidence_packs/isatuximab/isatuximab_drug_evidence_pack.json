@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB14811-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Isatuximab",
+    "drugbank_id": "DB14811",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "indolent plasma cell myeloma",
+      "txgnn": {
+        "score": 0.9822518825531006,
+        "rank": 15889
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38275249",
+            "title": "Reply to: Successful Isatuximab Desensitization in a Patient With Refractory Multiple Myeloma and Indolent Systemic Mastocytosis.",
+            "authors": [
+              "Torres Górriz M C",
+              "Borrás Cuartero J",
+              "Pesántez Méndez C G",
+              "Stein Coronado C I",
+              "Enrique E"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "Letter / Commentary",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38888584",
+            "title": "Successful Desensitization to Isatuximab in a Patient With Refractory Multiple Myeloma and Indolent Systemic Mastocytosis. Reply to: Anaphylactic Shock due to Isatuximab and Successful Desensitization.",
+            "authors": [
+              "Hutten E M",
+              "Roeloffzen W Wh",
+              "Lambeck A Ja",
+              "van den Born-Bondt T",
+              "Oude Elberink H Ng"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "惰性漿細胞骨髓瘤（indolent PCM）屬漿細胞惡性腫瘤譜系，CD38 高度表現。Isatuximab 對 CD38+ 漿細胞具直接細胞毒殺、ADCC、CDC 及免疫調節效果，機轉上高度相關。惟惰性型臨床處置策略與活動性 MM 不同（觀察等待優先），需評估介入時機。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "cholangiocarcinoma, susceptibility to",
+      "txgnn": {
+        "score": 0.6507823467254639,
+        "rank": 46650
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CD38 在膽管癌中的表現數據有限。部分實體腫瘤微環境中存在 CD38+ 調節性 T 細胞及骨髓源性抑制細胞，理論上抗 CD38 抗體可調節腫瘤免疫微環境，但目前無膽管癌相關臨床或前臨床直接證據。「susceptibility to」的疾病分類亦增加解讀困難（遺傳易感性，非確診疾病）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "minimally invasive lung adenocarcinoma",
+      "txgnn": {
+        "score": 0.6355070471763611,
+        "rank": 47066
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肺腺癌細胞 CD38 表現量通常偏低。腫瘤微環境中 CD38 陽性免疫抑制細胞（Treg、MDSC）的存在提供微弱理論基礎，但「微浸潤型」（minimally invasive）肺腺癌本身預後極佳，標準治療為手術切除，藥物介入需求低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "placenta disease",
+      "txgnn": {
+        "score": 0.628367006778717,
+        "rank": 47295
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CD38 參與 NAD+ 代謝及鈣離子訊號，在胎盤組織有少量表現。然而「placenta disease」為非特異性分類，涵蓋前置胎盤、胎盤早剝等異質性疾病。單株抗體用於妊娠相關疾病具顯著安全顧慮（胎盤穿透性、胎兒 IgG 暴露風險）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "GCGR-related hyperglucagonemia",
+      "txgnn": {
+        "score": 0.6180393099784851,
+        "rank": 47599
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "升糖素受體（GCGR）相關高升糖素血症為代謝/內分泌疾病，與 CD38 靶向治療無直接機轉關聯。CD38 在胰島細胞的 NAD+ 代謝中有部分角色，但尚無從 CD38 抗體到 GCGR 訊號軸的合理連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "hemoglobin C-beta-thalassemia syndrome",
+      "txgnn": {
+        "score": 0.6150068640708923,
+        "rank": 47684
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "血紅素病變（Hemoglobin C-β-thalassemia）為遺傳性紅血球疾病，病理機轉為血紅素鏈合成失衡，與 CD38 靶向治療無直接關聯。值得注意的是，部分血液惡性腫瘤的抗 CD38 治療可間接影響紅血球（如引發溶血），此為副作用而非療效機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "giant cell reparative granuloma",
+      "txgnn": {
+        "score": 0.5941299796104431,
+        "rank": 48418
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "巨細胞修復性肉芽腫涉及多核巨細胞（類破骨細胞），破骨細胞表面可表現 CD38。理論上抗 CD38 治療可能影響破骨細胞分化，但此為極度間接的假設性連結，缺乏任何前臨床資料支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "dental caries",
+      "txgnn": {
+        "score": 0.5871424674987793,
+        "rank": 48724
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "齲齒為感染性疾病（口腔鏈球菌為主），與 CD38 靶向免疫治療無任何已知機轉關聯。此預測結果高度可能為 KG 遠端路徑雜訊或非特異性連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colon inflammatory polyp",
+      "txgnn": {
+        "score": 0.5871372818946838,
+        "rank": 48725
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "結腸炎性息肉為局部炎症反應產物，CD38 在腸道免疫細胞（漿細胞、自然殺手細胞）上有表現，理論上抗 CD38 可調節局部免疫，但目前無任何臨床或前臨床證據支持此適應症，且全身性單株抗體用於良性局部腸道病變的風險效益比極不合理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "epidural abscess",
+      "txgnn": {
+        "score": 0.5805347561836243,
+        "rank": 49030
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "硬膜外膿腫為細菌感染性急症（金黃色葡萄球菌最常見），標準治療為外科引流及抗生素。CD38 靶向治療與感染性疾病無機轉關聯；抗 CD38 治療反而可能因免疫抑制而加重感染風險。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "indolent plasma cell myeloma"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "cholangiocarcinoma, susceptibility to"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "minimally invasive lung adenocarcinoma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "placenta disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "placenta disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "placenta disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "GCGR-related hyperglucagonemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "hemoglobin C-beta-thalassemia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "giant cell reparative granuloma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "dental caries"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "dental caries"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "dental caries"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "colon inflammatory polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "colon inflammatory polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "colon inflammatory polyp"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "epidural abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "epidural abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Isatuximab",
+        "disease": "epidural abscess"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

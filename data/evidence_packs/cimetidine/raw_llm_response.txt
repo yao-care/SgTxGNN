@@ -1,0 +1,490 @@
+## Cimetidine (DB00501) 藥物再利用證據分析
+
+> ⚠️ **資料品質注意**：原始資料顯示 `original_indications: []`、`original_moa: "[Data Gap]"`、`ddi_count: 0` — 均為明顯資料缺口。Cimetidine 實際上是第一代 H2 受體拮抗劑，具大量 CYP450 DDI，消化性潰瘍為其原始適應症。以下分析基於提供資料進行，並輔以機轉背景知識說明。
+
+---
+
+```json
+{
+  "drug": "Cimetidine",
+  "drugbank_id": "DB00501",
+  "data_quality_flags": [
+    "original_indications 為空（已知原始適應症：消化性潰瘍、GERD、Zollinger-Ellison 症候群）",
+    "original_moa 標記 [Data Gap]（實際：H2 受體競爭性拮抗劑 + CYP450 廣效抑制劑 + 弱抗雄激素活性）",
+    "ddi_count: 0 明顯錯誤（Cimetidine 為最高 DDI 風險 H2 blocker）"
+  ],
+  "indications": [
+    {
+      "disease_name": "active peptic ulcer disease",
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Cimetidine 為第一代 H2 受體拮抗劑（1977 年首獲 FDA 核准），競爭性阻斷壁細胞 H2 受體，抑制基礎及夜間胃酸分泌達 70-80%，直接降低潰瘍區域酸性環境促進癒合。此為其原始適應症，機轉直接。臨床注意：(1) 現代治療標準已轉向 PPI（療效更強）；(2) Cimetidine CYP1A2/2C9/2D6/3A4 廣效抑制帶來高 DDI 風險；(3) 長期使用有抗雄激素副作用（男性乳房發育）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01757275",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 完成試驗（n=239），研究高劑量 Esomeprazole 用於消化性潰瘍，與本適應症相同但測試藥物為 PPI 而非 Cimetidine。驗證適應症臨床可行性，但不直接支持 Cimetidine 效益，屬同類適應症旁證。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "7034155",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Cimetidine vs 抗酸劑/抗膽鹼藥 vs 安慰劑，直接效力比較"
+        },
+        {
+          "pmid": "3092659",
+          "study_type": "Pooled Analysis（多中心歐洲臨床試驗彙整）",
+          "tier": "1",
+          "note": "Enprostil vs Cimetidine 於活動性十二指腸潰瘍，直接比較證據"
+        },
+        {
+          "pmid": "6990861",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "治療後活動性潰瘍、內視鏡十二指腸炎與症狀的關聯研究"
+        },
+        {
+          "pmid": "6367680",
+          "study_type": "RCT（三環抗憂鬱劑對照）",
+          "tier": "2",
+          "note": "替代藥物對照研究，間接驗證適應症"
+        },
+        {
+          "pmid": "2905640",
+          "study_type": "Review（Nizatidine 藥理/藥動/療效）",
+          "tier": "3"
+        },
+        {
+          "pmid": "2905237",
+          "study_type": "Review（前列腺素、H2 拮抗劑與消化性潰瘍）",
+          "tier": "3"
+        },
+        {
+          "pmid": "8736619",
+          "study_type": "Review（Ebrotidine 藥理）",
+          "tier": "3"
+        },
+        {
+          "pmid": "6317325",
+          "study_type": "Review（Ranitidine 藥理）",
+          "tier": "3"
+        },
+        {
+          "pmid": "3928324",
+          "study_type": "Review（Pirenzepine 藥理）",
+          "tier": "3"
+        },
+        {
+          "pmid": "3122278",
+          "study_type": "Review（Misoprostol 於消化性潰瘍）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastroduodenitis",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "胃十二指腸炎由胃酸過高、NSAID 黏膜損傷、H. pylori 等引起。Cimetidine 抑酸機轉直接減少壁細胞酸性損傷；另有研究顯示 H2 拮抗劑可增強黏膜碳酸氫鹽分泌（PMID 7140493 間接支持）。數篇直接 RCT 探討 Cimetidine 在 NSAID 誘發胃十二指腸炎的保護效果，構成 L2 證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2253535",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "Cimetidine vs Sucralfate 預防 Naproxen 誘發急性胃十二指腸炎，內視鏡終點，直接 RCT"
+        },
+        {
+          "pmid": "2735335",
+          "study_type": "RCT / Clinical Trial",
+          "tier": "1",
+          "note": "Cimetidine vs Sucralfate 用於使用 NSAID 的類風濕關節炎患者活動性胃十二指腸病變，直接比較"
+        },
+        {
+          "pmid": "3539348",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Cimetidine 於胃酸分泌與黏膜防禦機轉的直接臨床研究"
+        },
+        {
+          "pmid": "2787809",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Flurbiprofen/Aspirin/Cimetidine/抗酸劑對胃十二指腸黏膜的效果比較"
+        },
+        {
+          "pmid": "7022726",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "腎移植後 Cimetidine 預防胃十二指腸潰瘍出血的失敗案例分析"
+        },
+        {
+          "pmid": "7965675",
+          "study_type": "Pharmacokinetic/Interaction Study",
+          "tier": "2",
+          "note": "Cimetidine/Ranitidine 與抗酸劑交互作用研究，吸收影響評估"
+        },
+        {
+          "pmid": "11595448",
+          "study_type": "Animal Study",
+          "tier": "3"
+        },
+        {
+          "pmid": "1957121",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "3384152",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "2043287",
+          "study_type": "Review（Ranitidine 副作用）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "gastrojejunal ulcer",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "胃空腸吻合術後邊緣潰瘍（marginal ulcer）形成與持續性酸分泌密切相關，Cimetidine 抑制胃酸理論上可預防或治療此類潰瘍。PMID 6103209 為直接 RCT（Somatostatin vs Cimetidine 於消化性潰瘍出血）。然整體文獻以 Cimetidine 一般性消化性潰瘍討論為主，專門針對胃空腸潰瘍的證據較少，歸類為 L3。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6103209",
+          "study_type": "RCT（Somatostatin vs Cimetidine，消化性潰瘍出血）",
+          "tier": "1",
+          "note": "最強證據，但終點為出血而非胃空腸潰瘍癒合，適用性需評估"
+        },
+        {
+          "pmid": "6375965",
+          "study_type": "Clinical Study（應激性潰瘍預防）",
+          "tier": "2"
+        },
+        {
+          "pmid": "6121187",
+          "study_type": "Comparative Review（Cimetidine vs Ranitidine）",
+          "tier": "3"
+        },
+        {
+          "pmid": "7082957",
+          "study_type": "Case Report / Case Series",
+          "tier": "3",
+          "note": "Cimetidine 與穿孔性消化性潰瘍"
+        },
+        {
+          "pmid": "3895392",
+          "study_type": "Review（十二指腸炎）",
+          "tier": "3"
+        },
+        {
+          "pmid": "10310799",
+          "study_type": "Pharmacoeconomic Analysis",
+          "tier": "3"
+        },
+        {
+          "pmid": "7464614",
+          "study_type": "Review / Commentary",
+          "tier": "3"
+        },
+        {
+          "pmid": "916935",
+          "study_type": "Review / Commentary",
+          "tier": "3"
+        },
+        {
+          "pmid": "7242409",
+          "study_type": "Review（Cimetidine 與癌症）",
+          "tier": "3"
+        },
+        {
+          "pmid": "6113521",
+          "study_type": "Review / Commentary",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "peptic ulcer perforation",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "消化性潰瘍穿孔為外科急症，Cimetidine 抑酸機轉可理論上減少潰瘍進展至穿孔。然而文獻中多數報告描述的是「Cimetidine 使用期間發生穿孔」（PMID 6743974）或「停藥後發生穿孔」（PMID 922364），暗示 Cimetidine 並不能可靠預防穿孔。無前瞻性試驗支持 Cimetidine 用於穿孔預防，現有文獻主要為病例報告。穿孔後治療以手術為主，藥物角色有限。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "922364",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "停用 Cimetidine 後消化性潰瘍穿孔，警示性證據"
+        },
+        {
+          "pmid": "6743974",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Cimetidine 治療期間發生十二指腸潰瘍穿孔"
+        },
+        {
+          "pmid": "3967139",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Cimetidine 使用下發生穿孔"
+        },
+        {
+          "pmid": "6617045",
+          "study_type": "Retrospective Cohort（兒童/青少年）",
+          "tier": "2"
+        },
+        {
+          "pmid": "6861858",
+          "study_type": "Epidemiological Study（趨勢分析）",
+          "tier": "2"
+        },
+        {
+          "pmid": "7082957",
+          "study_type": "Case Report / Case Series",
+          "tier": "3"
+        },
+        {
+          "pmid": "8165479",
+          "study_type": "Case Report（Giant marginal ulcer）",
+          "tier": "3"
+        },
+        {
+          "pmid": "6113521",
+          "study_type": "Review / Commentary",
+          "tier": "3"
+        },
+        {
+          "pmid": "761030",
+          "study_type": "Review / Commentary",
+          "tier": "3"
+        },
+        {
+          "pmid": "6150640",
+          "study_type": "Review（消化性潰瘍健康/經濟面）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenogastric reflux",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "十二指腸胃逆流（膽汁逆流性胃炎）之損傷由膽汁酸與胃酸協同作用引起。Cimetidine 雖不直接阻止膽汁逆流，但抑制胃酸可降低逆流物的整體毒性，並可能改變十二指腸運動。PMID 4018640 為直接臨床研究 Cimetidine 對胃分泌及十二指腸胃逆流的影響；PMID 2294793 觀察術後患者使用 Cimetidine 後膽汁酸組成的改變。機轉合理但非第一線治療選擇（Prokinetics/Ursodeoxycholic acid 更直接）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "4018640",
+          "study_type": "Clinical / Physiological Study",
+          "tier": "2",
+          "note": "直接研究 Cimetidine 對胃分泌及十二指腸胃逆流的效果，最相關文獻"
+        },
+        {
+          "pmid": "2294793",
+          "study_type": "Observational Study",
+          "tier": "2",
+          "note": "術後患者 Cimetidine 使用與胃內膽汁酸組成變化"
+        },
+        {
+          "pmid": "3080289",
+          "study_type": "Comparative Clinical Study",
+          "tier": "2",
+          "note": "Misoprostol vs Cimetidine 對咖啡誘發胃酸分泌的抑制比較"
+        },
+        {
+          "pmid": "7140493",
+          "study_type": "Physiological Study",
+          "tier": "2",
+          "note": "正常人胃碳酸氫鹽分泌的體內示範，黏膜防禦機轉背景"
+        },
+        {
+          "pmid": "10231661",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "胃空腸吻合術後大鼠胃癌發展，Cimetidine 的影響"
+        },
+        {
+          "pmid": "9377544",
+          "study_type": "Animal Study / Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "3892510",
+          "study_type": "Review（迷走神經切除術與胃癌）",
+          "tier": "3"
+        },
+        {
+          "pmid": "3535018",
+          "study_type": "Review（膠體鉍在胃潰瘍的角色）",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "duodenal obstruction",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "十二指腸梗阻主要由消化性潰瘍所致水腫（可逆）或瘢痕（不可逆）引起。急性水腫期抑酸治療可減輕炎症腫脹，PMID 361048 直接報告 Cimetidine 對消化性潰瘍導致胃出口梗阻有效；PMID 7387166 報告 Zollinger-Ellison 症候群兒童用 Cimetidine 成功處理梗阻。整體為個案報告/小型系列，無對照試驗。多數梗阻最終需內視鏡或手術干預，Cimetidine 僅在保守治療階段有輔助角色。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "361048",
+          "study_type": "Case Series / Clinical Study",
+          "tier": "2",
+          "note": "Cimetidine 對消化性潰瘍導致胃出口梗阻的反應，最直接相關"
+        },
+        {
+          "pmid": "7387166",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒童 Zollinger-Ellison 症候群用 Cimetidine 治療梗阻成功"
+        },
+        {
+          "pmid": "1775405",
+          "study_type": "Case Report / Case Series",
+          "tier": "3",
+          "note": "NSAID 相關胃出口梗阻的保守治療成功案例"
+        },
+        {
+          "pmid": "3970597",
+          "study_type": "Cohort Study",
+          "tier": "2",
+          "note": "胃出口梗阻預後研究"
+        },
+        {
+          "pmid": "3767481",
+          "study_type": "Retrospective Case Series",
+          "tier": "2",
+          "note": "千例潰瘍手術分析"
+        },
+        {
+          "pmid": "8165479",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "6829539",
+          "study_type": "Case Report（Crohn's disease 相關）",
+          "tier": "3"
+        },
+        {
+          "pmid": "368633",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "1975090",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "7423175",
+          "study_type": "Retrospective Study",
+          "tier": "2"
+        }
+      ]
+    },
+    {
+      "disease_name": "acne (disease)",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Cimetidine 具有弱抗雄激素活性（weak androgen receptor antagonist），可競爭性阻斷皮脂腺雄激素受體，抑制 DHT 與受體結合，理論上減少皮脂分泌。此機轉在雄激素依賴性痤瘡（特別是女性高雄激素性痤瘡、PCOS 相關）有潛在治療意義。PMID 6130053 直接探討 H2 拮抗劑在皮膚科應用的可能性；PMID 8090657 討論 PCOS 高雄激素表現的治療包含此類藥物。現有文獻為間接或舊期文獻，效果可能不如螺內酯，但作為 repurposing 值得小規模探索。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6130053",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "H2 拮抗劑在皮膚科治療用途探討，最直接相關文獻（1982）"
+        },
+        {
+          "pmid": "8090657",
+          "study_type": "Review / Clinical Study",
+          "tier": "3",
+          "note": "PCOS 高雄激素表現治療，間接涉及 Cimetidine"
+        },
+        {
+          "pmid": "12566804",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "系統性痤瘡治療更新（2003），背景文獻"
+        }
+      ]
+    },
+    {
+      "disease_name": "Smouldering systemic mastocytosis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "系統性肥大細胞增多症（緩進型）特徵為肥大細胞大量增殖並釋放組織胺、類胰蛋白酶等介質。Cimetidine 作為 H2 受體拮抗劑，可阻斷組織胺對胃腸道（H2 受體）的作用，緩解消化道症狀（胃酸分泌過多、腹瀉）。此適應症在肥大細胞病的症狀管理中有合理機轉依據（H1+H2 雙重拮抗為標準症狀治療策略）。⚠️ 提供資料中無任何臨床試驗或文獻支持，高 TxGNN 分數可能反映知識圖譜的機轉連結推理，非臨床驗證。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lymphoadenopathic mastocytosis with eosinophilia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "淋巴結病變型肥大細胞增多症伴嗜酸性球增多（罕見侵襲性亞型）：肥大細胞釋放組織胺及炎症介質促進疾病進展。Cimetidine 除 H2 拮抗症狀治療外，具免疫調節活性（增強 CD4+ T 細胞功能、抑制調節性 T 細胞 suppressor function），可能間接影響腫瘤免疫微環境。此額外機轉連結（immunomodulation）使其在腫瘤性肥大細胞病有理論依據，但提供資料中完全無臨床證據。屬純預測，仍為稀有疾病，建議優先累積 Smouldering 型病例資料。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "abnormality of glucagon secretion",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一相關文獻（PMID 6088239）為 Meckel 憩室放射性核素顯像的技術比較研究（Cimetidine 方案 vs 五肽胃素+升糖素方案），目的是增強掃描顯影，而非治療升糖素分泌異常。Cimetidine 影響升糖素分泌的機轉連結極為薄弱，無生物學合理性支持，TxGNN 高分可能為知識圖譜路徑偽陽性。強烈建議 Hold。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6088239",
+          "study_type": "Diagnostic / Imaging Study",
+          "tier": "3",
+          "note": "與升糖素分泌異常治療無關，為影像學技術比較，機轉連結不適用"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| Active peptic ulcer disease | 0.9979 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| Gastroduodenitis | 0.9889 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| Gastrojejunal ulcer | 0.9977 | **L3** | **S1** | 🔬 Research Question |
+| Duodenogastric reflux | 0.9949 | **L3** | **S1** | 🔬 Research Question |
+| Acne (disease) | 0.9933 | **L4** | **S1** | 🔬 Research Question |
+| Peptic ulcer perforation | 0.9977 | **L4** | **S1** | ⛔ Hold |
+| Duodenal obstruction | 0.9944 | **L4** | **S1** | ⛔ Hold |
+| Smouldering systemic mastocytosis | 0.9980 | **L5** | **S0** | 🔬 Research Question* |
+| Lymphoadenopathic mastocytosis w/ eosinophilia | 0.9976 | **L5** | **S0** | 🔬 Research Question* |
+| Abnormality of glucagon secretion | 0.9914 | **L5** | **S0** | ⛔ Hold |
+
+> \* 雖為 L5/S0，但機轉合理性強（H2 拮抗 + 免疫調節），建議作為研究問題納入文獻補充搜尋
+
+---
+
+## 關鍵發現
+
+1. **TxGNN 分數 ≠ 臨床證據等級**：最高分的兩個肥大細胞適應症（0.998）反而是 L5，因 KG 推理強但無臨床資料
+2. **Active peptic ulcer 為 Cimetidine 原始適應症**，技術上非再利用，但因資料缺口被系統列入，L1 證據反映歷史 RCT 積累
+3. **Acne 最具新穎 repurposing 價值**：抗雄激素機轉差異化，現有文獻雖弱但機轉有別於一般 H2 拮抗適應症
+4. **資料品質警示**：`ddi_count: 0` 為嚴重錯誤，Cimetidine 是 CYP450 交互作用最多的 H2 blocker，任何適應症推進都需完整 DDI 評估

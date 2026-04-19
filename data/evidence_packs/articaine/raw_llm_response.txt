@@ -1,0 +1,306 @@
+```json
+{
+  "drug": "Articaine",
+  "drugbank_id": "DB09009",
+  "analysis_date": "2026-04-05",
+  "drug_background": {
+    "drug_class": "Amide-type local anesthetic",
+    "known_moa": "電壓門控鈉離子通道阻斷劑（Nav1.x），抑制神經動作電位傳導；含噻吩環結構提升脂溶性，組織穿透力強",
+    "approved_use": "牙科局部麻醉（多國已核准，新加坡未上市）",
+    "safety_note": "含 sulfite 賦形劑者對亞硫酸鹽過敏者需謹慎；哮喘患者為相對禁忌群體"
+  },
+  "indications": [
+    {
+      "disease_name": "gout",
+      "txgnn_score": 0.9958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "推測路徑：鈉通道阻斷 → 抑制 NLRP3 inflammasome 活化（尿酸結晶誘導）→ 減少 IL-1β 釋放。然而此機轉在體外模型尚未於 articaine 上被直接驗證，且全身性暴露量不足以達到關節部位有效濃度。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何臨床試驗記錄",
+        "無動物或體外模型文獻",
+        "僅 TxGNN 知識圖譜推斷，無獨立驗證"
+      ]
+    },
+    {
+      "disease_name": "exostosis",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外生骨疣為骨性增生，病理機制涉及 EXT1/EXT2 基因突變及軟骨細胞分化異常。局部麻醉劑之鈉通道阻斷機制與骨骼增生無已知生物學關聯，TxGNN 高分可能源於知識圖譜中骨科手術用藥之共現偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何支持性文獻",
+        "機轉關聯極弱，可能為知識圖譜共現假訊號"
+      ]
+    },
+    {
+      "disease_name": "allergic asthma",
+      "txgnn_score": 0.9938,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 反向安全訊號：現有文獻聚焦於「對局部麻醉劑本身的過敏反應」，並非 articaine 用於治療過敏性哮喘。Articaine 製劑中常含亞硫酸鹽（metabisulfite），已知可誘發哮喘患者支氣管痙攣，構成使用禁忌而非治療機會。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38404118",
+          "title": "Local anesthetics allergy in children: Evaluation of diagnostic tests with Real-Life data.",
+          "year": "2024",
+          "study_type": "Retrospective cohort / Diagnostic accuracy study",
+          "tier": 3,
+          "relevance_assessment": "❌ 逆向相關：研究對象為對局部麻醉劑過敏的兒童，評估診斷測試效用。文獻方向為安全性警示，非治療支持。"
+        },
+        {
+          "pmid": "11888487",
+          "title": "Allergy to local anaesthetics in dentistry. Myth or reality?",
+          "year": "2002",
+          "study_type": "Narrative Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 逆向相關：探討牙科局部麻醉劑所致過敏反應的真實性，結論指出真性過敏罕見但亞硫酸鹽反應值得注意。不支持再利用。"
+        },
+        {
+          "pmid": "21507228",
+          "title": "The concept of 'compartment allergy': prilocaine injected into different skin layers.",
+          "year": "2011",
+          "study_type": "Experimental / Case series",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關且藥物不符：研究對象為 prilocaine（非 articaine），探討皮內注射層次影響過敏反應強度，與 articaine 治療哮喘無關。"
+        }
+      ],
+      "evidence_gaps": [
+        "所有文獻均為安全性警示，無一支持治療用途",
+        "Articaine 製劑含 sulfite 賦形劑，哮喘患者為相對禁忌",
+        "需先排除安全性疑慮，S0 凍結"
+      ]
+    },
+    {
+      "disease_name": "intrinsic asthma",
+      "txgnn_score": 0.9934,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "內源性哮喘（非過敏性）病理涉及神經源性炎症與副交感神經過度活化。理論上 Nav 阻斷可抑制氣道感覺神經反射，但全身給藥安全視窗過窄，吸入給藥可行性未被探索。與 allergic asthma 同屬安全性疑慮群體。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無任何臨床或基礎研究文獻",
+        "安全性疑慮（sulfite/支氣管痙攣）需先評估"
+      ]
+    },
+    {
+      "disease_name": "exostoses, multiple",
+      "txgnn_score": 0.9890,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多發性外生骨疣（遺傳性多發性外生骨疣，HME）為 EXT1/EXT2 突變導致的遺傳性骨骼疾病，目前無藥物根治療法。局部麻醉劑無調節 heparan sulfate 合成或軟骨分化之已知機制，預測可能源於 exostosis 單一節點的共享嵌入向量。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無文獻支持",
+        "遺傳性疾病，局部麻醉劑機轉關聯度極低"
+      ]
+    },
+    {
+      "disease_name": "hypotrichosis simplex of the scalp",
+      "txgnn_score": 0.9862,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頭皮單純性少毛症為毛囊發育基因缺陷（如 CDSN）。推測路徑：鈉通道阻斷 → 毛囊周圍神經調控 → 影響毛囊幹細胞活性，但此路徑缺乏文獻支撐，且局部麻醉劑非此機轉之已知調節劑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "罕見遺傳性疾病，無任何相關文獻",
+        "機轉推測高度間接"
+      ]
+    },
+    {
+      "disease_name": "alopecia",
+      "txgnn_score": 0.9858,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "局部麻醉劑（包括 lidocaine）偶見用於頭皮注射以緩解 alopecia areata 相關疼痛，但非治療脫髮本身。TxGNN 可能透過「頭皮注射」共現節點推斷關聯。無 articaine 直接應用於脫髮治療之證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "無直接文獻",
+        "關聯性可能源於知識圖譜中頭皮注射程序共現偏差"
+      ]
+    },
+    {
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn_score": 0.9849,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見遺傳性綜合症（COL4A1/COL4A2 相關），病理為基底膜膠原蛋白缺陷。局部麻醉劑與此疾病無任何生物學關聯，高 TxGNN 分數可能反映稀有疾病節點在圖譜中的連結過度泛化。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "極罕見疾病，無相關文獻",
+        "機轉關聯度為零，預測可信度存疑"
+      ]
+    },
+    {
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn_score": 0.9848,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "COL4A1/COL4A2 突變所致腦小血管病，局部麻醉劑之 Nav 阻斷機制無直接調節血管基底膜完整性之路徑。推測：Nav 阻斷 → 神經保護（減少缺血性去極化）→ 腦小血管損傷保護，但此為高度間接且需靜脈劑量，臨床應用性極低。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35882526",
+          "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：為 Axenfeld-Rieger 症候群綜述，描述疾病本身而非 articaine 治療。"
+        },
+        {
+          "pmid": "6782689",
+          "title": "Ocular coloboma.",
+          "year": "1981",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：眼部缺損的描述性文獻，與 articaine 無關。"
+        },
+        {
+          "pmid": "30182440",
+          "title": "Neuropathology of holoprosencephaly.",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：全前腦畸形神經病理學，疾病描述文獻。"
+        },
+        {
+          "pmid": "33870948",
+          "title": "Optic Nerve Aplasia.",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：視神經發育不全的描述性文獻。"
+        },
+        {
+          "pmid": "11941259",
+          "title": "[Congenital megalocornea].",
+          "year": "2002",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：先天性大角膜描述性文獻。"
+        },
+        {
+          "pmid": "10498002",
+          "title": "Tilted disc syndrome.",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：視盤傾斜症候群描述。"
+        },
+        {
+          "pmid": "6390155",
+          "title": "Optic disk abnormalities.",
+          "year": "1983",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：視神經盤異常之描述性文獻。"
+        },
+        {
+          "pmid": "1458324",
+          "title": "Congenital ocular anomalies.",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：先天性眼部異常的分類描述。"
+        },
+        {
+          "pmid": "16848213",
+          "title": "[Distichiasis].",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：雙排睫毛症描述，與 articaine 無關。"
+        },
+        {
+          "pmid": "22963965",
+          "title": "[Branchio-oculo-facial syndrome].",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_assessment": "❌ 不相關：鰓-眼-面症候群描述性文獻。"
+        }
+      ],
+      "evidence_gaps": [
+        "18 篇文獻全部為疾病描述性文獻，無一涉及 articaine 治療",
+        "文獻匹配可能源於疾病名稱含『ocular anomalies』與眼科手術麻醉之間接共現",
+        "COL4A1 突變疾病之治療需靶向膠原蛋白合成路徑，非 Nav 阻斷"
+      ]
+    },
+    {
+      "disease_name": "congenital hypotrichosis milia",
+      "txgnn_score": 0.9843,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "粟粒疹合併先天性少毛症為皮膚附屬器發育異常（LIPH 等基因）。局部麻醉劑無已知影響毛囊或皮脂腺發育之機制，預測可能反映圖譜中稀有皮膚病節點的泛化偏差。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "evidence_gaps": [
+        "罕見遺傳性疾病，無任何相關文獻",
+        "機轉關聯度為零"
+      ]
+    }
+  ],
+  "overall_assessment": {
+    "summary": "Articaine 為已核准的牙科局部麻醉劑，其全部 10 項 TxGNN 預測適應症均屬 L5/S0 等級，無任何直接臨床或前臨床支持證據。",
+    "key_findings": [
+      "🔴 所有適應症均為純預測（L5），無臨床試驗或支持性文獻",
+      "⚠️ Allergic asthma 和 intrinsic asthma：現有文獻為安全性反向訊號（亞硫酸鹽賦形劑風險），需特別標注禁忌",
+      "📊 Brain small vessel disease 的 18 篇文獻全為疾病描述，與 articaine 治療無關，為知識圖譜假陽性",
+      "🧬 多項罕見遺傳性疾病預測（exostoses、hypotrichosis、COL4A1 相關病）可能源於知識圖譜稀有節點泛化偏差",
+      "💊 Articaine 作為局部麻醉劑，全身暴露量受限，在多數預測疾病中難以達到有效治療濃度"
+    ],
+    "priority_recommendations": [
+      "所有適應症應維持 Hold 狀態，不建議進入 S1 安全性評估",
+      "需將 asthma 相關適應症標記為潛在安全風險（非機會）",
+      "建議檢視 TxGNN 模型是否存在局部麻醉劑類別的系統性預測偏差（高分集中於稀有疾病節點）"
+    ]
+  }
+}
+```
+
+---
+
+## 評估摘要
+
+### Articaine 整體狀況
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| gout | 0.9958 | **L5** | S0 | Hold |
+| exostosis | 0.9942 | **L5** | S0 | Hold |
+| allergic asthma | 0.9938 | **L5** ⚠️ | S0 | Hold + 安全警示 |
+| intrinsic asthma | 0.9934 | **L5** ⚠️ | S0 | Hold + 安全警示 |
+| exostoses, multiple | 0.9890 | **L5** | S0 | Hold |
+| hypotrichosis simplex | 0.9862 | **L5** | S0 | Hold |
+| alopecia | 0.9858 | **L5** | S0 | Hold |
+| familial hematuria syndrome | 0.9849 | **L5** | S0 | Hold |
+| brain small vessel disease | 0.9848 | **L5** | S0 | Hold |
+| congenital hypotrichosis milia | 0.9843 | **L5** | S0 | Hold |
+
+### 關鍵詮釋注意事項
+
+1. **Allergic/Intrinsic Asthma 的反向訊號**：3 篇文獻均為「對局部麻醉劑過敏」的安全警示，articaine 製劑中的**亞硫酸鹽賦形劑**對哮喘患者構成誘發支氣管痙攣的風險，這是禁忌症而非治療機會。
+
+2. **Brain Small Vessel Disease 的 18 篇文獻陷阱**：全部為先天性眼部異常的描述性文獻（視神經缺損、大角膜等），與 articaine 治療完全無關——這是文獻匹配系統因疾病名稱含「ocular anomalies」而與眼科手術麻醉文獻產生**假關聯**的典型案例。
+
+3. **TxGNN 高分集中於稀有疾病**：多項罕見遺傳性疾病（COL4A1 相關、hypotrichosis）獲高預測分，此模式提示可能存在知識圖譜中稀有節點低連通度導致的**泛化偏差**，建議作為模型品質改善案例。

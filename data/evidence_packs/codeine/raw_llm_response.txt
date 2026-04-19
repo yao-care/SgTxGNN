@@ -1,0 +1,430 @@
+## Codeine (DB00318) 藥物再利用證據分析
+
+以下是基於提供資料的完整評估結果：
+
+---
+
+```json
+{
+  "drug": "Codeine",
+  "drugbank_id": "DB00318",
+  "analysis_date": "2026-04-04",
+  "context_note": "Codeine 在新加坡市場狀態標記為未上市，受《誤用藥物法》管制；DDI 資料缺失（ddi_count=0）可能為資料空缺而非真實無交互作用，評估時需特別注意監管環境",
+  "indications": [
+    {
+      "disease_name": "nasal cavity disease",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "TxGNN 預測可能基於 Codeine 對黏膜阿片受體的潛在影響，但現有文獻一致顯示為阿片類藥物鼻腔濫用的不良後果（壞死、鼻石），並非治療性作用。機轉連結不成立，文獻為反指標性質。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "22965281",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Hydrocodone-acetaminophen 鼻腔吸入濫用導致鼻腔及咽部壞死。反指標：阿片類藥物為致病因子，非治療藥物。"
+        },
+        {
+          "pmid": "17315836",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "阿片類藥物鼻腔積聚形成 opioma（鼻石）案例。反指標：描述藥物濫用所致鼻腔病變，非治療證據。"
+        }
+      ],
+      "safety_flags": [
+        "阿片類藥物鼻腔濫用可直接造成鼻中隔壞死及鼻腔組織損傷，為嚴重安全顧慮"
+      ],
+      "overall_assessment": "所有文獻均為反指標證據（阿片類藥物致鼻腔損傷），TxGNN 高分預測（0.9993）缺乏任何臨床支持，建議不進入評估流程。"
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Codeine 具有中樞性止咳機制（μ-阿片受體），理論上可緩解急性喉咽炎引起的咳嗽症狀，但此為通用阿片類藥物推斷，缺乏急性喉咽炎的直接臨床支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "overall_assessment": "零臨床試驗、零文獻。TxGNN 預測分數高（0.9992）但完全無臨床依據，不足以啟動評估流程。"
+    },
+    {
+      "disease_name": "trigeminal autonomic cephalalgia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理治療機轉。三叉神經自律性頭痛（TAC，包括叢集性頭痛）的發病機制涉及三叉-自律神經反射弧，一線治療為舒馬曲坦及純氧；阿片類藥物在此適應症中通常無效，且長期使用可誘發藥物過度使用性頭痛（MOH），屬反指標考量。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26524707",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "叢集性暈厥案例，未涉及 Codeine 治療，與適應症的關聯為疾病描述性質。"
+        },
+        {
+          "pmid": "19109043",
+          "study_type": "Case Series",
+          "tier": "3",
+          "note": "兒童叢集性頭痛臨床經驗，描述現行治療策略，未提及 Codeine。"
+        },
+        {
+          "pmid": "41428068",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "叢集性頭痛患者可卡因濫用案例，與 Codeine 無關，僅作為頭痛類型描述。"
+        },
+        {
+          "pmid": "18563291",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "叢集性頭痛合併 Brugada ECG 模式，疾病描述，未涉及 Codeine。"
+        },
+        {
+          "pmid": "10609467",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "痛性眼肌麻痺與叢集性頭痛鑑別診斷，未涉及 Codeine 治療。"
+        }
+      ],
+      "safety_flags": [
+        "阿片類藥物在 TAC 中長期使用可誘發藥物過度使用性頭痛（MOH），加重病情"
+      ],
+      "overall_assessment": "五篇文獻均為叢集性頭痛病例描述，沒有任何一篇涉及 Codeine 治療效果；機轉不支持，TxGNN 預測缺乏臨床意義，建議不進入評估流程。"
+    },
+    {
+      "disease_name": "allergic urticaria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Codeine 透過非免疫性機制直接刺激皮膚肥大細胞脫顆粒，引發組織胺釋放，可導致蕁麻疹發作。文獻中 Codeine 被廣泛用作皮膚組織胺釋放的標準激發劑（陽性對照），為致病因子而非治療藥物。此為重要的反指標適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16461991",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "藥物誘發蕁麻疹系統性綜述，Codeine 被列為常見非免疫性組織胺釋放劑。反指標。"
+        },
+        {
+          "pmid": "3711548",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "皮內試驗鑑別蕁麻疹易感患者，Codeine 作為肥大細胞激發劑（工具藥），非治療用途。"
+        },
+        {
+          "pmid": "17210040",
+          "study_type": "Experimental",
+          "tier": "2",
+          "note": "Codeine 皮內測試標準化研究，確立其作為組織胺釋放模型的地位，非治療。"
+        },
+        {
+          "pmid": "2941218",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "口服 Codeine 直接引發過敏性蕁麻疹，明確反指標案例。"
+        },
+        {
+          "pmid": "2306020",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "甲亢患者對組織胺和 Codeine 的皮膚反應比較，Codeine 為對照激發劑。"
+        }
+      ],
+      "safety_flags": [
+        "Codeine 是公認的非免疫性肥大細胞脫顆粒劑，可直接觸發蕁麻疹",
+        "在過敏性蕁麻疹患者中屬潛在禁忌，使用可加重病情"
+      ],
+      "overall_assessment": "15 篇文獻均指向 Codeine 為過敏性蕁麻疹的誘因或激發工具，無一支持治療用途。此為反指標適應症，應直接排除。"
+    },
+    {
+      "disease_name": "faucial diphtheria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理治療機轉。扁桃腺白喉為 Corynebacterium diphtheriae 所致的細菌感染性疾病，標準治療為抗毒素（Diphtheria Antitoxin）及抗生素（青黴素/紅黴素）。阿片類藥物無抗菌或抗毒素作用，TxGNN 預測缺乏生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "overall_assessment": "零證據，機轉不合理。完全不支持此適應症的進一步評估。"
+    },
+    {
+      "disease_name": "cervical disc degenerative disorder",
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Codeine 作為阿片類鎮痛劑（μ-受體激動劑）可緩解神經根性或軸向頸椎疼痛，屬症狀管理而非疾病修飾。此為藥物類別通用推斷（class effect），本資料集中無直接證據支持 Codeine 特異性使用。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "safety_flags": [
+        "長期阿片類藥物用於慢性肌肉骨骼疼痛具成癮風險",
+        "Singapore 管制藥物，長期處方受法規限制",
+        "慢性頸椎病宜優先考慮非阿片類藥物及物理治療"
+      ],
+      "overall_assessment": "L4 評級基於阿片類藥物用於疼痛管理的通用藥理推斷，而非本資料集的直接證據。現有疼痛管理指引已有更安全的一線選擇，且 Codeine 在 Singapore 的管制狀態限制其使用。不建議進入老藥新用評估流程。"
+    },
+    {
+      "disease_name": "papillary conjunctivitis",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無合理機轉。乳突狀結膜炎多由隱形眼鏡、縫線等異物引起的局部眼科炎症反應，治療為去除致因物並使用局部抗發炎藥。全身性阿片類藥物對此眼科病理無任何已知作用機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "overall_assessment": "零證據且機轉不合理。不支持進一步評估。"
+    },
+    {
+      "disease_name": "tracheal disease",
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Codeine 透過激活延髓咳嗽中樞及孤束核的 μ-阿片受體抑制咳嗽反射，同時具有輕度鎮靜氣道分泌的作用。此機轉對氣管相關病理性咳嗽（如氣管炎、氣管支氣管炎）具有合理的生物學基礎。Codeine 在多項抗咳嗽研究中被用作「黃金標準」對照藥，間接支持其在氣管疾病止咳中的地位。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05742256",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Oxycodone（非 Codeine），評估胸椎旁神經阻滯聯合用藥的術後疼痛；與 Codeine 治療氣管疾病無直接關聯。"
+        },
+        {
+          "nct_id": "NCT04121416",
+          "relevance_grade": "C",
+          "reasoning": "比較 Oxycodone 與 Sufentanil 對氣管插管心血管應激反應，屬麻醉管理領域，非 Codeine 止咳治療。"
+        },
+        {
+          "nct_id": "NCT02982876",
+          "relevance_grade": "C",
+          "reasoning": "氣道支架治療過度動態氣道塌陷的 RCT，屬結構性氣道干預，與 Codeine 藥理機轉無關。"
+        },
+        {
+          "nct_id": "NCT02424279",
+          "relevance_grade": "C",
+          "reasoning": "胰臟癌疼痛的侵入性治療研究，探討 WHO 疼痛階梯，間接涉及阿片類止痛，但非氣管疾病適應症。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "952583",
+          "study_type": "Controlled Experimental",
+          "tier": "2",
+          "note": "Butorphanol 止咳特性研究，以 Codeine 為標準對照，間接確認 Codeine 在氣道疾病止咳的基準地位。"
+        },
+        {
+          "pmid": "3434300",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "正常及病理條件下止咳藥效果系統性綜述，Codeine 作為標準參考藥，支持其氣道止咳機轉。"
+        },
+        {
+          "pmid": "18706408",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "豚鼠呼吸道疾病模型研究，Codeine 為對照組，提供間接機轉支持。"
+        },
+        {
+          "pmid": "30738972",
+          "study_type": "Animal Study",
+          "tier": "3",
+          "note": "反覆檸檬酸暴露誘發氣道重塑和持續性咳嗽的豚鼠模型，基礎科學，涉及止咳藥評估。"
+        },
+        {
+          "pmid": "1169190",
+          "study_type": "Experimental",
+          "tier": "3",
+          "note": "咳嗽反射藥理學基礎研究，有助於理解 Codeine 在氣道疾病的作用機轉。"
+        },
+        {
+          "pmid": "3554987",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "兒童呼吸道感染使用 Hydrocodone 過量死亡，重要安全警示，提醒兒科使用阿片類止咳劑的風險。"
+        }
+      ],
+      "overall_assessment": "氣管疾病相關止咳為 Codeine 具有合理研究問題的潛在適應症，但現有資料集中的臨床試驗均針對其他藥物或干預。建議聚焦於氣管炎/氣管支氣管炎相關慢性咳嗽，設計 Codeine 直接療效的 Phase 2 研究。S1 安全性初評需特別評估 CYP2D6 基因型及支氣管痙攣風險。"
+    },
+    {
+      "disease_name": "cold urticaria",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無治療機轉。所有文獻均將 Codeine 作為皮膚肥大細胞組織胺釋放的標準激發工具（陽性對照），用以評估抗組織胺藥物的療效，而非治療寒冷蕁麻疹本身。Codeine 誘發組織胺釋放的特性在寒冷蕁麻疹患者中可能加重症狀。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30708143",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "評估 H1 抗組織胺對組織胺及 Codeine 誘發風疹塊的抑制效果。Codeine 為皮膚激發工具，非治療藥物，在慢性蕁麻疹中無預測性。"
+        },
+        {
+          "pmid": "22398751",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "寒冷蕁麻疹耐受誘導後肥大細胞功能研究，未涉及 Codeine 作為治療。"
+        },
+        {
+          "pmid": "2667702",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "人類皮膚肥大細胞生物學基礎綜述，背景性文獻。"
+        },
+        {
+          "pmid": "8689766",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "H1/H2 抗組織胺對 PAF 及緩激肽誘發炎症的效果研究，未涉及 Codeine 治療。"
+        }
+      ],
+      "safety_flags": [
+        "Codeine 可誘發肥大細胞組織胺釋放，在寒冷蕁麻疹患者中可能加重病情"
+      ],
+      "overall_assessment": "四篇文獻將 Codeine 定位為研究工具而非治療藥物，且 Codeine 的組織胺釋放特性在蕁麻疹病患中屬潛在加重因素。不支持進入評估流程。"
+    },
+    {
+      "disease_name": "bronchial disease",
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Codeine 透過中樞 μ-阿片受體抑制咳嗽反射，降低支氣管分泌物（輕度），在慢性支氣管炎及支氣管相關慢性咳嗽中具有明確的生物學合理性。Codeine 是全球止咳藥療效評估的參考標準藥物（gold standard comparator）。但需注意其可能誘發哮喘患者支氣管痙攣及黏液栓塞的風險。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03738917",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 RCT，已完成（n=668），直接比較止咳藥（Antitussives，含 Codeine 類）、抗膽鹼藥及蜂蜜對未複雜化成人呼吸道感染的療效。大樣本量、Phase 4 設計，為本資料集中與 Codeine 支氣管疾病止咳最具直接相關性的試驗。"
+        },
+        {
+          "nct_id": "NCT01438567",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 RCT，已完成（n=270），雙盲雙模擬設計，評估止咳治療改善效果。標題不完整但研究設計高品質，與支氣管疾病咳嗽管理直接相關。"
+        },
+        {
+          "nct_id": "NCT02321397",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 雙盲交叉研究，已完成（n=155），評估止咳藥等效性。與支氣管相關咳嗽管理具有關聯性，Codeine 作為對照或研究藥物的可能性較高。"
+        },
+        {
+          "nct_id": "NCT00513656",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 研究，已完成（n=230），評估止咳藥安全性與療效，Codeine 可能為研究藥物或對照藥之一。"
+        },
+        {
+          "nct_id": "NCT02982876",
+          "relevance_grade": "C",
+          "reasoning": "氣道支架治療過度動態氣道塌陷的 RCT，屬結構性氣道干預，與 Codeine 藥理機轉無關。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "39632868",
+          "study_type": "Nationwide Cohort",
+          "tier": "1",
+          "note": "2024 年韓國全國性研究，評估慢性 Codeine 使用對咳嗽相關疾病影響的大規模真實世界數據（RWE）。最高直接相關性，提供 Codeine 在支氣管疾病中的長期使用證據。"
+        },
+        {
+          "pmid": "6539224",
+          "study_type": "RCT",
+          "tier": "1",
+          "note": "直接比較 Dextromethorphan 與 Codeine 的血漿動力學及止咳效果，提供 Codeine 療效的直接定量數據。"
+        },
+        {
+          "pmid": "15827540",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "慢性咳嗽病理生理及治療策略綜述，確立 Codeine 在支氣管疾病慢性咳嗽管理中的地位與限制。"
+        },
+        {
+          "pmid": "7626920",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "Codeine 誘發哮喘患者支氣管痙攣研究，重要安全數據：提示哮喘合併支氣管疾病患者需謹慎排除。"
+        },
+        {
+          "pmid": "29182956",
+          "study_type": "Cohort",
+          "tier": "2",
+          "note": "Codeine 複方製劑意外死亡率研究（澳洲），提供長期安全性流行病學數據，為安全性 guardrail 設計依據。"
+        },
+        {
+          "pmid": "19692698",
+          "study_type": "Case Series",
+          "tier": "2",
+          "note": "CYP2D6 超快代謝基因型與 Codeine 術後死亡，藥物基因組學安全警示，對處方安全至關重要。"
+        }
+      ],
+      "guardrails": [
+        "【藥物基因組學】CYP2D6 超快代謝者（Ultra-Rapid Metabolizers, URM）可能因過量嗎啡蓄積而導致危及生命的呼吸抑制，建議研究前進行 CYP2D6 基因型篩查",
+        "【安全排除標準】哮喘或氣道高反應性患者應排除，Codeine 可誘發支氣管痙攣",
+        "【兒科禁忌】12 歲以下兒童禁用（FDA 2017 黑盒警告），研究對象應限成人",
+        "【監管合規】Singapore 市場狀態標記為未上市，需向 HSA（Health Sciences Authority）確認研究許可及處方合法性",
+        "【成癮風險管理】需建立完整的依賴性監測機制，限制使用療程",
+        "【禁忌疾病排除】哮喘、COPD 黏液栓塞型、睡眠呼吸中止症患者需排除"
+      ],
+      "overall_assessment": "支氣管疾病（特別是慢性支氣管炎相關頑固性咳嗽）為 Codeine 所有預測適應症中證據等級最高者。Phase 3/4 已完成試驗及兩篇 Tier 1 文獻（RCT + 全國性 RWE 研究）支持進入臨床可行性階段（S2）。但 Singapore 管制藥物狀態及多項安全顧慮需在研究協議中明確規範。"
+    }
+  ],
+  "summary": {
+    "total_indications_analyzed": 10,
+    "by_evidence_level": {
+      "L2": ["bronchial disease"],
+      "L3": ["tracheal disease"],
+      "L4": ["cervical disc degenerative disorder"],
+      "L5": [
+        "nasal cavity disease",
+        "acute laryngopharyngitis",
+        "trigeminal autonomic cephalalgia",
+        "allergic urticaria",
+        "faucial diphtheria",
+        "papillary conjunctivitis",
+        "cold urticaria"
+      ]
+    },
+    "by_decision_stage": {
+      "S2_clinical_feasibility": ["bronchial disease"],
+      "S1_safety_assessment": ["tracheal disease"],
+      "S0_insufficient_evidence": [
+        "nasal cavity disease",
+        "acute laryngopharyngitis",
+        "trigeminal autonomic cephalalgia",
+        "allergic urticaria",
+        "faucial diphtheria",
+        "cervical disc degenerative disorder",
+        "papillary conjunctivitis",
+        "cold urticaria"
+      ]
+    },
+    "priority_indications_for_further_research": [
+      "bronchial disease（慢性支氣管炎/慢性咳嗽）",
+      "tracheal disease（氣管炎相關止咳）"
+    ],
+    "contraindicated_indications": [
+      "allergic urticaria（Codeine 為致病因子）",
+      "cold urticaria（Codeine 加重蕁麻疹）",
+      "nasal cavity disease（文獻為不良事件報告）"
+    ],
+    "key_cross_cutting_safety_concerns": [
+      "CYP2D6 藥物基因組學變異（超快代謝者風險）",
+      "Singapore《誤用藥物法》管制藥物狀態需確認",
+      "支氣管痙攣風險排除哮喘患者",
+      "TxGNN 評分普遍偏高（0.94–1.00）但多數適應症缺乏臨床支持，顯示模型在阿片類藥物適應症預測上需人工審查"
+    ]
+  }
+}
+```
+
+---
+
+## 關鍵分析摘要
+
+### 優先適應症（2 個）
+
+| 適應症 | 等級 | 決策 | 關鍵依據 |
+|--------|------|------|---------|
+| **bronchial disease** | **L2** | **S2** | Phase 4 RCT（n=668）+ 韓國全國性 RWE 研究，Codeine 為止咳黃金標準 |
+| **tracheal disease** | **L3** | **S1** | 多項抗咳研究以 Codeine 為標準對照，機轉合理但直接證據仍需驗證 |
+
+### 反指標適應症（3 個，需明確排除）
+
+- **allergic urticaria**：Codeine 是組織胺釋放劑，直接誘發蕁麻疹
+- **cold urticaria**：同上機轉，文獻中作為激發工具使用
+- **nasal cavity disease**：文獻描述阿片類藥物鼻腔濫用導致壞死
+
+### TxGNN 預測品質觀察
+
+> 本批次 10 個適應症的 TxGNN 分數集中於 0.94–1.00，但 **70% 為 L5（無臨床證據）**，說明 Codeine 的預測結果中高分≠高臨床可信度，需特別謹慎對待阿片類藥物的 AI 預測結果，必須進行人工機轉審查。

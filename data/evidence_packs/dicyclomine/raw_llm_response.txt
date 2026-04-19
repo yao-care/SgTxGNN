@@ -1,0 +1,253 @@
+## 藥物再利用證據分析：Dicyclomine (DB00804)
+
+**分析背景說明**：Dicyclomine 為毒蕈鹼受體拮抗劑（anticholinergic），抑制平滑肌痙攣；在多國（美國 Bentyl、英國 Merbentyl）已核准用於 IBS，但本資料集標示市場狀態為「未上市」（可能為特定管轄區域）。資料中 MOA 標示 [Data Gap] 為資料庫缺口，並非真正未知。
+
+---
+
+```json
+{
+  "drug": "Dicyclomine",
+  "drugbank_id": "DB00804",
+  "analysis_date": "2026-04-04",
+  "drug_background": {
+    "known_moa": "Muscarinic receptor antagonist（毒蕈鹼受體拮抗劑），抑制平滑肌痙攣，減少腸道蠕動亢進",
+    "globally_approved_uses": "腸躁症（IBS）、GI 痙攣（多國核准）",
+    "safety_class": "已知抗膽鹼副作用：口乾、尿滯留、便秘、心搏過速、視力模糊"
+  },
+  "indications": [
+    {
+      "disease_name": "cauda equina syndrome",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "馬尾症候群為神經根壓迫性急症，需外科減壓治療。抗膽鹼機制對神經根壓迫無直接療效路徑，機轉關聯薄弱。高 TxGNN 分數推測可能來自圖譜結構相似性（共享神經系統節點），而非真實藥理依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["高分數低證據差距警示：TxGNN score 0.997 vs 無任何臨床資料，屬典型假陽性候選"]
+    },
+    {
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn_score": 0.9950,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "神經性膀胱（neurogenic bladder）標準治療包含抗膽鹼藥物（如 oxybutynin、solifenacin），Dicyclomine 作為同類藥物具有可信機轉關聯（M3 受體拮抗→膀胱逼尿肌鬆弛）。但本資料集中無任何臨床試驗或文獻支持。注意：術語標示 'obsolete' 為 MONDO 本體論已棄用節點，現代分類已細分為多個亞型。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "ontology_term_deprecated：建議映射至現代術語（overactive bladder, neurogenic detrusor overactivity）",
+        "mechanistic_plausibility_high：同類藥物已有核准適應症，可探討 class effect"
+      ]
+    },
+    {
+      "disease_name": "attention deficit hyperactivity disorder, inattentive type",
+      "txgnn_score": 0.9855,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "ADHD 核心病理為多巴胺/去甲腎上腺素系統失調，標準治療為中樞興奮劑或 NRI。Dicyclomine 的抗膽鹼機制對 ADHD 之膽鹼-多巴胺交互作用影響雖具理論探討空間，但缺乏任何支持性證據，且抗膽鹼副作用（認知干擾）可能惡化注意力缺損症狀。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["safety_concern：抗膽鹼藥物已知影響工作記憶，對 ADHD 患者具理論上的負面效應"]
+    },
+    {
+      "disease_name": "specific developmental disorder",
+      "txgnn_score": 0.9780,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特定發展障礙（閱讀障礙、語言障礙等）為神經發育性疾病，目前無抗膽鹼藥物治療依據。機轉關聯極弱，推測為 TxGNN 圖譜中與 ADHD 節點共享導致評分拉升。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn_score": 0.9635,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與 ADHD inattentive type 分析相同。此節點為 ADHD 通用型，同樣缺乏抗膽鹼藥物療效依據，且存在認知副作用風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["duplicated_signal：與 ADHD inattentive type 節點高度重疊，建議合併評估"]
+    },
+    {
+      "disease_name": "chondromyxoid fibroma",
+      "txgnn_score": 0.9582,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "軟骨黏液樣纖維瘤為罕見良性骨腫瘤，標準治療為外科切除。抗膽鹼機制對骨腫瘤無已知作用路徑（無平滑肌、無腺體靶點）。此預測結果合理性存疑，可能為知識圖譜噪音訊號。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["biological_implausibility：靶標組織（骨/軟骨）無已知 muscarinic receptor 治療關聯"]
+    },
+    {
+      "disease_name": "gastroduodenitis",
+      "txgnn_score": 0.9561,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Dicyclomine（Bentyl）作為抗膽鹼劑可減少胃酸分泌、緩解胃十二指腸平滑肌痙攣，對胃十二指腸炎之痙攣性症狀具機轉合理性。1956 年文獻直接報告 Bentyl（即 Dicyclomine）用於胃炎及胃十二指腸潰瘍治療，屬早期臨床應用紀錄。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "13321467",
+          "title": "[Bentyl hydrochloride in therapy of gastritis and gastroduodenal ulcers]",
+          "year": "1956",
+          "study_type": "Early clinical report / Case series",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "直接使用 Bentyl（Dicyclomine）於目標適應症，但年代久遠（1956年），無對照組設計，現代 GCP 標準前研究，僅提供歷史應用參考價值"
+        }
+      ],
+      "flags": [
+        "superseded_therapy：現代胃十二指腸炎治療以 H. pylori 根除（三合一療法）及 PPI 為主，抗膽鹼劑角色已邊緣化",
+        "adjunct_potential：在痙攣性症狀緩解作為輔助療法仍有探討空間"
+      ]
+    },
+    {
+      "disease_name": "faciodigitogenital syndrome",
+      "txgnn_score": 0.9377,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Aarskog-Scott 症候群為 X 染色體連鎖遺傳性疾病（FGD1 基因突變），導致顏面、手指及生殖器異常發育。Dicyclomine 的抗膽鹼機制對此遺傳性發育疾病無已知治療路徑。此預測為明顯假陽性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": ["rare_disease_artifact：稀有疾病節點在知識圖譜中連結稀疏，易產生假陽性預測"]
+    },
+    {
+      "disease_name": "peptic ulcer disease",
+      "txgnn_score": 0.9326,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "抗膽鹼劑在 H2 拮抗劑和 PPI 問世前（1970-1990年代前）曾廣泛用於消化性潰瘍，機轉為抑制胃酸分泌（M1/M3 拮抗）及緩解痙攣。Dicyclomine（Bentyl）1950-1956 年文獻顯示其早期臨床應用歷史。然而現代消化性潰瘍治療典範已根本轉變（H. pylori 根除 + PPI），抗膽鹼劑已不再為標準治療選項。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "14784818",
+          "title": "A new antispasmodic: Bentyl hydrochloride; a preliminary experience",
+          "year": "1950",
+          "study_type": "Preliminary clinical report",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "最早報告 Bentyl 用於消化系統疾病的文獻之一，具歷史意義但無對照設計"
+        },
+        {
+          "pmid": "14864967",
+          "title": "Kolantyl, a new antispasmodic preparation for combined therapy of peptic ulcer; a preliminary report",
+          "year": "1951",
+          "study_type": "Preliminary clinical report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "研究 Kolantyl（含 Dicyclomine 的複方製劑）用於消化性潰瘍合併治療，藥物為複方而非單一成分，相關性較低"
+        },
+        {
+          "pmid": "13104594",
+          "title": "Acute glaucoma in patient with peptic ulcer; case report on use of a new antispasmodic, bentyl hydrochloride",
+          "year": "1953",
+          "study_type": "Case report",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "個案報告，主要描述抗膽鹼副作用（急性青光眼），對療效評估貢獻有限，但具安全性參考價值"
+        },
+        {
+          "pmid": "13321467",
+          "title": "[Bentyl hydrochloride in therapy of gastritis and gastroduodenal ulcers]",
+          "year": "1956",
+          "study_type": "Early clinical report / Case series",
+          "tier": 3,
+          "relevance_grade": "B",
+          "reasoning": "直接報告 Dicyclomine 用於胃炎及潰瘍，為同時計入 gastroduodenitis 的共同文獻"
+        },
+        {
+          "pmid": "6825995",
+          "title": "Postprandial hypoglycemia after Nissen fundoplication for reflux esophagitis",
+          "year": "1983",
+          "study_type": "Clinical study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "主題為 Nissen 術後低血糖，Dicyclomine 可能作為比較藥物或合併用藥提及，與消化性潰瘍再利用關聯性低"
+        },
+        {
+          "pmid": "6378733",
+          "title": "Factors influencing the healing rate of gastric ulcer in hospitalised subjects",
+          "year": "1984",
+          "study_type": "Cohort / Observational study",
+          "tier": 3,
+          "relevance_grade": "C",
+          "reasoning": "探討胃潰瘍癒合影響因素，Dicyclomine 可能為分析變數之一，非主要干預研究"
+        }
+      ],
+      "flags": [
+        "therapeutic_paradigm_shift：H. pylori 根除療法（1994 年 NIH Consensus）+ PPI 已成標準，抗膽鹼劑已非 PUD 主流",
+        "safety_signal_historical：PMID 13104594 記載使用 Bentyl 誘發急性青光眼，提示眼壓風險需納入安全評估",
+        "hold_rationale：現有 L4 證據均為 1950-1984 年研究，無現代 RCT 支持，且治療典範已由 PPI 取代"
+      ]
+    },
+    {
+      "disease_name": "autonomic nervous system disease",
+      "txgnn_score": 0.8796,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "自律神經系統疾病為廣泛分類，Dicyclomine 作為抗膽鹼劑直接作用於副交感神經系統（muscarinic receptor），理論上對副交感神經亢進型自律神經失調具機轉關聯。但此診斷節點過於廣泛，需細分具體亞型才能評估可行性，且目前無任何臨床資料支持。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flags": [
+        "broad_category_artifact：過於廣泛的分類可能掩蓋具體適應症信號，建議下鑽分析（如 hyperhidrosis、vasovagal syncope）",
+        "mechanistic_class_relevance：同類抗膽鹼藥物（如 glycopyrrolate）已用於局部多汗症，可作為 class effect 參考"
+      ]
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L5": 8,
+      "L4": 2,
+      "L3": 0,
+      "L2": 0,
+      "L1": 0
+    },
+    "decision_stage_distribution": {
+      "S0": 8,
+      "S1": 2,
+      "S2": 0,
+      "S3": 0
+    },
+    "high_priority_candidates": [],
+    "moderate_interest_candidates": [
+      {
+        "disease": "obsolete neurogenic bladder (disease)",
+        "rationale": "強機轉關聯（同類藥物已核准），建議更新術語後重新搜尋現代文獻"
+      },
+      {
+        "disease": "gastroduodenitis",
+        "rationale": "歷史文獻支持，作為輔助症狀緩解有探討空間"
+      }
+    ],
+    "overall_assessment": "Dicyclomine 的 10 個 TxGNN 預測適應症中，8 個為 L5（純預測），2 個具 L4 歷史文獻支持（消化性潰瘍、胃十二指腸炎）。高分預測（>0.95）與臨床證據嚴重脫節，顯示此批預測主要由圖譜拓撲相似性驅動而非藥理機轉。最值得關注的訊號為神經性膀胱（機轉合理、同類藥物已核准），建議以此為切入點進行文獻深掘。"
+  }
+}
+```
+
+---
+
+## 關鍵分析洞見
+
+### ⚠️ 高分低證據警示
+TxGNN 分數最高（0.997）的 **cauda equina syndrome** 完全無任何臨床文獻，是典型的「高分假陽性」現象，提示此批預測整體需謹慎解讀。
+
+### 🔬 最值得深掘的訊號
+| 優先順序 | 適應症 | 理由 |
+|---------|--------|------|
+| 1 | 神經性膀胱 | 同類藥物（oxybutynin）已核准，class effect 可行性高，需現代文獻搜尋 |
+| 2 | 自律神經失調（下鑽） | 廣泛節點需細化，但機轉存在 |
+| 3 | 胃十二指腸炎 | 1956 年直接文獻，作為輔助療法角色需現代驗證 |
+
+### ❌ 建議排除的候選
+- **ADHD 相關**：抗膽鹼劑可能加重認知症狀，存在反向安全疑慮
+- **Chondromyxoid fibroma / Faciodigitogenital syndrome**：生物合理性極低，圖譜噪音訊號
+- **消化性潰瘍（PUD）**：雖有歷史文獻，但治療典範已由 H. pylori 根除 + PPI 取代，再利用附加價值有限

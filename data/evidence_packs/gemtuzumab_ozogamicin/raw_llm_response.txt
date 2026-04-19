@@ -1,0 +1,285 @@
+## Gemtuzumab ozogamicin 藥物再利用證據分析
+
+**藥物背景補充**：GO（Mylotarg）為抗 CD33 抗體藥物共軛物（ADC），連接卡奇黴素（calicheamicin）。CD33（Siglec-3）廣泛表現於骨髓系細胞。GO 已於 2017 年重新獲 FDA 核准用於 CD33+ AML（成人及 ≥1 個月兒童）；系統標記「未上市」可能反映新加坡本地上市狀態差異，分析已納入全球臨床證據。
+
+---
+
+```json
+{
+  "drug": "Gemtuzumab ozogamicin",
+  "drugbank_id": "DB00056",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "Richter syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Richter syndrome 為 CLL/SLL 轉化之侵襲性 B 細胞淋巴瘤（多為 DLBCL）。B 細胞淋巴瘤通常不表現 CD33（骨髓系標記），GO 的 anti-CD33 ADC 機轉缺乏生物學合理性。TxGNN 分數 0.981 極高，但完全為圖譜預測，無任何臨床或機轉支持。高分可能源於知識圖譜中 CLL→CML 的間接連結，非真實適應症信號。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "bulbar polio",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Bulbar polio 為脊髓灰質炎病毒侵犯腦幹之病毒性神經系統疾病，GO 為細胞毒性 ADC，靶向骨髓系腫瘤表面 CD33，與急性病毒感染性疾病無任何機轉關聯。此適應症完全缺乏生物學合理性，應視為 TxGNN 模型誤判；可能因知識圖譜中神經系統疾病與白血病相關基因（如 5q 區）的間接節點連結所致。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "chronic myelogenous leukemia, BCR-ABL1 positive",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "CML 為骨髓系白血病，BCR-ABL1 融合基因驅動骨髓系母細胞增生。CML 細胞（包含 CD34+/CD38- 白血病幹細胞）已被實驗室證實表現 CD33（PMID 21993666），提供 GO 靶向治療的機轉基礎。在 CML 骨髓性急變期，個案報告已有 GO 使用記錄（PMID 34764108）。BCR-ABL1 TKI 為 CML 主要療法，GO 的潛在角色限於：①TKI 耐藥後急變期（骨髓性）、②異體移植前清除殘留病灶。需特別注意 GO 肝臟 SOS/VOD 風險（PMID 11895761），在移植前條件處置中尤為重要。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00038831",
+          "relevance_grade": "A",
+          "reasoning": "Phase I/II 已完成（47 名患者），GO + Melphalan/Fludarabine 作為骨髓性白血病（含 CML）異體幹細胞移植前處置。直接使用 GO 於 CML 相關情境，為本適應症最高相關性試驗，提供 Phase 1/2 安全性與活性資料。"
+        },
+        {
+          "nct_id": "NCT00038805",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 試驗設計涵蓋 CML + GO 非骨髓毀滅性移植條件，但因招募困難提早終止（僅 3 名患者）。設計方向相關但數據量不足以支持結論，僅作為研究可行性參考。"
+        },
+        {
+          "nct_id": "NCT03589729",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 試驗評估 Dexrazoxane 心臟保護於 AML/高危 MDS 患者接受 GO 治療時的安全性，研究焦點為 GO 安全性管理而非 CML 療效，間接提供 GO 毒性管理資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "21993666",
+          "study_type": "Mechanistic/Laboratory",
+          "tier": "2"
+        },
+        {
+          "pmid": "35536916",
+          "study_type": "Systematic Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "34764108",
+          "study_type": "Case Report",
+          "tier": "3"
+        },
+        {
+          "pmid": "22534616",
+          "study_type": "Prospective Cohort",
+          "tier": "2"
+        },
+        {
+          "pmid": "15454492",
+          "study_type": "Mechanistic",
+          "tier": "2"
+        },
+        {
+          "pmid": "11895761",
+          "study_type": "Case Report/Safety Signal",
+          "tier": "3"
+        },
+        {
+          "pmid": "15886328",
+          "study_type": "Clinical Study (Pediatric AML)",
+          "tier": "2"
+        },
+        {
+          "pmid": "17353625",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "15487459",
+          "study_type": "Review",
+          "tier": "3"
+        },
+        {
+          "pmid": "25721896",
+          "study_type": "Preclinical",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "metastatic neoplasm",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "「Metastatic neoplasm」為廣義腫瘤類別，標準腫瘤學定義指實體腫瘤遠端轉移。GO 靶向 CD33，CD33 在骨髓系惡性腫瘤高度表現，但在大多數實體腫瘤（肺癌、乳癌、大腸癌等典型轉移性癌）表現極低（< 5%）。列出的 29 個試驗主要為 AML 試驗，AML 雖為系統性血液腫瘤但不屬傳統「轉移性腫瘤」定義。若此類別指廣義 CD33 陽性血液惡性腫瘤，GO 有充分 Phase 2/3 支持；若限定為實體腫瘤轉移，機轉合理性低。建議優先確認目標腫瘤的 CD33 表現狀態方可進一步評估。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04293562",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT（1186 名患者，持續招募），de novo AML GO + 標準療法 vs. 標準療法。為 GO 最大規模現行 Phase 3 試驗，確立 GO 在 CD33+ 骨髓性惡性腫瘤的最高級別臨床證據。"
+        },
+        {
+          "nct_id": "NCT00052299",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 已完成 RCT（472 名患者），GO + 標準化療 vs. 標準化療在 AML，為 GO 加入 AML 標準治療的關鍵驗證試驗。"
+        },
+        {
+          "nct_id": "NCT00091234",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2/3（279 名患者），GO 單藥 vs. 最佳支持性治療在未治療老年 AML，評估 GO 在無法耐受強化療法患者的療效，直接相關。"
+        },
+        {
+          "nct_id": "NCT00658814",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2（133 名患者），Azacitidine + GO 誘導及維持治療，評估 GO 與低強度化療聯合策略，完成度高，數據成熟。"
+        },
+        {
+          "nct_id": "NCT00274781",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 已完成（30 名患者），ATO + GO 聯合用於復發 AML，評估非化療聯合策略，與廣義骨髓性惡性腫瘤相關。"
+        },
+        {
+          "nct_id": "NCT00136084",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3 已完成（238 名患者），新診斷 AML/MDS 協作試驗，涵蓋 MDS 相關 AML 亞型，多藥聯合方案研究。"
+        },
+        {
+          "nct_id": "NCT00909168",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2/3 已完成（130 名患者），< 66 歲 AML 全程治療研究，GO 納入強化治療方案，提供組合療法數據。"
+        },
+        {
+          "nct_id": "NCT03226418",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 已完成（75 名患者），臨床基因體風險分層 AML 管理，GO 為治療選項之一，著重個人化治療決策。"
+        },
+        {
+          "nct_id": "NCT02117297",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2 已完成（26 名患者），異體幹細胞移植後 GO 靶向免疫治療，評估移植後維持策略，規模較小。"
+        },
+        {
+          "nct_id": "NCT05166135",
+          "relevance_grade": "C",
+          "reasoning": "觀察性真實世界研究（589 名患者），B-ALL 與 AML 流行病學與治療模式，非 GO 特異性介入研究，僅提供疾病背景資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "17326049",
+          "study_type": "Prospective Clinical Study",
+          "tier": "2"
+        },
+        {
+          "pmid": "15120666",
+          "study_type": "Review",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "malignant spiradenoma",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Malignant spiradenoma 為惡性汗腺腫瘤（皮膚附屬器腫瘤），極為罕見。此類實體腫瘤通常不表現 CD33，GO 的 anti-CD33 ADC 機轉缺乏生物學合理性。無任何臨床試驗或文獻支持，TxGNN 分數 0.972 高但純為模型預測，不具臨床可信度。在罕見實體腫瘤中使用細胞毒性 ADC 的安全性比效益比需審慎評估。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "5q35 microduplication syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "5q35 微複製症候群為染色體結構異常導致的遺傳發育疾病，通常表現智能障礙、自閉症特徵等神經發育症狀，非惡性腫瘤。值得注意的是 CD33 基因位於 19q13.4，與 5q35 無直接關聯；NSD1（5q35 區域基因）雖在 AML 中有角色，但不足以支持 GO 使用。GO 用於此發育性疾病缺乏任何生物學基礎且風險極高。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neuralgic amyotrophy",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Neuralgic amyotrophy（Parsonage-Turner syndrome）為周邊神經系統疾病，表現急性肩臂疼痛後肌肉萎縮，可能與自體免疫或 SEPT9 基因突變相關。GO 為靶向 CD33 的骨髓系惡性腫瘤 ADC，對此神經肌肉疾病無任何機轉合理性；細胞毒性 ADC 的毒性風險在非腫瘤性神經系統疾病中完全不可接受。應視為知識圖譜噪音。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amyotrophic neuralgia",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Amyotrophic neuralgia 為 neuralgic amyotrophy 的同義詞（ICD 分類重疊），與前項分析相同，GO 對此神經肌肉疾病無任何機轉合理性。此項與 neuralgic amyotrophy 的重複出現提示 TxGNN 知識圖譜存在同義詞去重不完全問題（兩項應合併為一），建議資料管線層面修正以避免重複評估資源浪費。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute lymphoblastic/lymphocytic leukemia",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ALL 主要為 B 細胞或 T 細胞起源，傳統上 CD33 表現率低。然而，約 20-40% 的 B-ALL 病例可伴隨 CD33 異常共表現（尤其費城染色體樣 ALL、混合表型急性白血病 MPAL），在此特定亞型中 GO 具理論機轉合理性。臨床試驗資料極為有限：NCT00798213 為不同藥物（Dinaciclib/SCH 727965）；NCT05166135 為觀察性研究非 GO 介入；NCT00038805 因極低招募終止（3 名患者）。進一步評估須以 CD33 表現率 ≥ 20% 的 ALL 亞型為前提，並考量 GO 在 ALL 的 PK/PD 差異。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT05166135",
+          "relevance_grade": "C",
+          "reasoning": "觀察性真實世界研究（589 名患者），包含 B-ALL 與 AML 的流行病學與治療模式描述，非 GO 特異性介入試驗，不提供 GO 在 ALL 的療效資料。"
+        },
+        {
+          "nct_id": "NCT00798213",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2 試驗評估 Dinaciclib（CDK 抑制劑）而非 GO，適應症包含 AML 和 ALL，因療效不足終止（29 名患者）。與 GO 評估完全無關，誤歸類於此。"
+        },
+        {
+          "nct_id": "NCT00038805",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3 試驗使用 GO + 非骨髓毀滅性化療，主要針對骨髓系惡性腫瘤，因招募困難終止（僅 3 名患者），數據量不足以支持任何結論。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "烷化劑相關 AML/MDS（therapy-related AML，t-AML）為繼發性骨髓性惡性腫瘤，CD33 表現預期與 de novo AML 相近，因此 GO 的 anti-CD33 機轉具理論適用性，機轉合理性在本清單中屬最強之一。然而 t-AML 臨床特性不利：①常伴複雜核型及 TP53 突變，化療反應差；②多藥物抗性（MDR）表型常見，影響 GO 療效；③患者既往化療暴露史可能增加 GO 相關 SOS/VOD 風險（肝臟儲備功能差）。現有文獻（PMID 18565291）為一般性血液腫瘤新療法綜述，未特異性評估 GO 在 t-AML 的療效，缺乏直接臨床證據。若後續欲推進，建議優先評估 t-AML 族群的 CD33 表現率與 SOS 風險分層。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18565291",
+          "study_type": "Review",
+          "tier": "3"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 📊 證據等級總覽
+
+| 疾病 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|---------|---------|------|
+| Richter syndrome | 0.981 | **L5** | S0 | ❌ Hold |
+| Bulbar polio | 0.979 | **L5** | S0 | ❌ Hold |
+| CML BCR-ABL1+ | 0.979 | **L3** | S2 | 🔬 Research Question |
+| Metastatic neoplasm | 0.973 | **L3** | S2 | 🔬 Research Question |
+| Malignant spiradenoma | 0.972 | **L5** | S0 | ❌ Hold |
+| 5q35 microduplication | 0.972 | **L5** | S0 | ❌ Hold |
+| Neuralgic amyotrophy | 0.957 | **L5** | S0 | ❌ Hold |
+| Amyotrophic neuralgia | 0.954 | **L5** | S0 | ❌ Hold ⚠️ 同義詞重複 |
+| ALL | 0.951 | **L4** | S1 | 🔬 Research Question |
+| t-AML/MDS (alkylating) | 0.939 | **L4** | S1 | 🔬 Research Question |
+
+## 🔑 關鍵分析洞察
+
+1. **TxGNN 高分 ≠ 高證據**：Richter syndrome（0.981）和 bulbar polio（0.979）分數極高但完全無機轉合理性，顯示模型在跨疾病域推斷的局限性
+
+2. **最具潛力適應症**：CML BCR-ABL1+（L3/S2）——CD33 表現已在 CML 幹細胞獲實驗室驗證，且有 Phase 1/2 試驗完成，建議聚焦於 **骨髓性急變期 TKI 耐藥** 亞族群
+
+3. **資料品質問題**：neuralgic amyotrophy 與 amyotrophic neuralgia 為同義詞重複，建議知識圖譜層面去重
+
+4. **安全性警示**：所有骨髓性疾病適應症均需考量 GO 特有的 **SOS/VOD 肝毒性風險**，在既往化療或移植前情境中尤需審慎
+
+> ⚠️ **免責聲明**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選需經嚴謹臨床驗證方可應用於患者。

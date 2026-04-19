@@ -1,0 +1,276 @@
+## Azelaic Acid (DB00548) 藥物再利用證據分析
+
+> ⚠️ **資料異常注意**：Azelaic acid（Finacea/Azelex）在多個主要市場（美國、EU、澳洲）已核准用於痤瘡及酒渣鼻，`market_status: "未上市"` 可能為資料集問題或特定管轄區（新加坡）狀態，**實際安全性資料充足**，不影響作用機轉評估，但影響再利用門檻判斷。
+
+---
+
+```json
+{
+  "drug": "Azelaic acid",
+  "drugbank_id": "DB00548",
+  "analysis_date": "2026-04-10",
+  "analyst_note": "market_status '未上市' 疑為資料集缺漏；Azelaic acid 在美、EU 已有 FDA/EMA 核准適應症（痤瘡、酒渣鼻），具充足 Phase 3 安全性資料可作背景支撐",
+  "indications": [
+    {
+      "disease_name": "seborrheic dermatitis",
+      "txgnn_score": 0.9353,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Azelaic acid 具抗 Malassezia 活性（抑制真菌必需脂肪酸合成），並透過抑制角質化過度增生與 ROS 生成，對應脂漏性皮膚炎的核心病理（Malassezia 定植 + 皮脂腺失調 + 表皮屏障損傷）。PMID 2475995 直接記錄其對皮脂腺與角化模式的影響。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00408330",
+          "title": "Double-Blind, Randomized, Vehicle-Controlled, Six-Week Exploratory Multicenter Pilot Study",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "enrollment": 48,
+          "relevance_grade": "A",
+          "reasoning": "直接針對 azelaic acid 用於脂漏性皮膚炎的 Phase 2 RCT，雙盲、隨機、賦形劑對照設計，已完成但為 pilot（n=48），樣本量偏小；結果尚未在資料集中呈現，需查閱實際發表論文確認療效方向"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2475995",
+          "title": "Effects of azelaic acid on sebaceous gland, sebum excretion rate and keratinization pattern in humans",
+          "year": "1989",
+          "study_type": "Clinical observational",
+          "tier": "2",
+          "note": "直接在人體記錄 azelaic acid 對皮脂腺與角化模式的效應，與脂漏性皮膚炎病理高度相關"
+        },
+        {
+          "pmid": "35751534",
+          "title": "Malassezia virulence factors and their role in dermatological disorders",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "闡明 Malassezia 致病機轉，為 azelaic acid 抗真菌活性提供生物學脈絡"
+        },
+        {
+          "pmid": "21278898",
+          "title": "Rational management of papulopustular rosacea with concomitant facial seborrheic dermatitis: a case study",
+          "year": "2011",
+          "study_type": "Case report",
+          "tier": "3",
+          "note": "直接描述 azelaic acid 同時治療酒渣鼻與脂漏性皮膚炎的臨床案例，支持其跨適應症效用"
+        },
+        {
+          "pmid": "19213227",
+          "title": "Facial seborrheic dermatitis: a report on current status and therapeutic horizons",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "脂漏性皮膚炎治療現狀綜述，提及 azelaic acid 作為潛在選項"
+        },
+        {
+          "pmid": "39825187",
+          "title": "Periorificial dermatitis in infants and preschoolers - a narrative review",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "間接相關；描述兒童族群的類似皮膚炎管理，非直接針對 azelaic acid"
+        },
+        {
+          "pmid": "20493336",
+          "title": "Alternative therapies for common dermatologic disorders, part 1",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "一般性皮膚科替代療法綜述，間接支持"
+        }
+      ]
+    },
+    {
+      "disease_name": "keratinization disease",
+      "txgnn_score": 0.9380,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Azelaic acid 直接抑制角質形成細胞（keratinocyte）異常增殖，並調節角化過程（PMID 2473140 體外實驗確認），對應過度角化疾病的核心機制。然而目前缺乏針對特定角化疾病的直接臨床試驗，現有文獻多為痤瘡/酒渣鼻的附帶機轉描述。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "2473140",
+          "title": "Effects of azelaic acid on proliferation and ultrastructure of mouse keratinocytes in vitro",
+          "year": "1989",
+          "study_type": "In vitro / Basic science",
+          "tier": "3",
+          "note": "最直接的機轉證據：體外證明 azelaic acid 抑制角質形成細胞增殖並改變超微結構，為角化疾病適應症提供生物學依據"
+        },
+        {
+          "pmid": "26355614",
+          "title": "Azelaic Acid: Evidence-based Update on Mechanism of Action and Clinical Application",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "最完整的機轉綜述，涵蓋抗角化、抗菌、抗炎等多重作用，對角化疾病適應症具高度參考價值"
+        },
+        {
+          "pmid": "8935627",
+          "title": "An ultrastructural study of the retention hyperkeratosis of experimentally induced comedones in rabbits",
+          "year": "1996",
+          "study_type": "Animal study",
+          "tier": "3",
+          "note": "動物模型記錄 azelaic acid 對毛囊過度角化的改善效果，間接支持廣義角化疾病"
+        },
+        {
+          "pmid": "17147560",
+          "title": "Alpha-hydroxyacids and carboxylic acids",
+          "year": "2004",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "將 azelaic acid 納入角質調節有機酸類別討論，提供分類學支持"
+        },
+        {
+          "pmid": "38543203",
+          "title": "Liposomes and Other Nanocarriers for the Treatment of Acne Vulgaris: Improved Therapeutic Efficacy",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "聚焦劑型改善，對角化疾病適應症屬間接相關"
+        }
+      ]
+    },
+    {
+      "disease_name": "demodicidosis of sebaceous gland",
+      "txgnn_score": 0.9805,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "間接機轉：Azelaic acid 為酒渣鼻核准藥物，而 Demodex 螨蟲定植與酒渣鼻發病高度相關（但 azelaic acid 對 Demodex 本身無直接抗寄生蟲活性，主要透過抗炎及抗菌機制間接改善症狀）。TxGNN 預測可能捕捉到此間接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "cutaneous candidiasis",
+      "txgnn_score": 0.9563,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Azelaic acid 的抗真菌活性主要針對 Malassezia（親脂性酵母菌），對 Candida 的體外抑制資料極為有限。機轉關聯薄弱，缺乏臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "lichen planus, familial",
+      "txgnn_score": 0.9545,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "扁平苔蘚為免疫介導疾病（T 細胞媒介），azelaic acid 的抗炎機轉（抑制 ROS、中性球活化）具微弱機轉假說，但家族性扁平苔蘚涉及基因易感性，缺乏任何直接臨床或文獻支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tinea corporis",
+      "txgnn_score": 0.9307,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "體癬由皮癬菌（dermatophytes）引起，azelaic acid 對皮癬菌的直接抗真菌活性缺乏充分體外資料；現有文獻（PMID 20347661）僅討論皮癬菌病理機轉，並未涉及 azelaic acid 治療。機轉關聯極為間接。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20347661",
+          "title": "Pathogenesis of dermatophytosis and tinea versicolor",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "僅描述皮癬菌病理機轉，與 azelaic acid 無直接關聯；relevance 為背景參考"
+        },
+        {
+          "pmid": "35751534",
+          "title": "Malassezia virulence factors and their role in dermatological disorders",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "討論 Malassezia（非皮癬菌），與體癬病原不符，間接性極低"
+        }
+      ]
+    },
+    {
+      "disease_name": "nail infection",
+      "txgnn_score": 0.9353,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "甲感染（甲癬）通常由皮癬菌引起，azelaic acid 的藥物滲透性與對甲板的抗真菌活性均缺乏支持性資料；現有文獻僅為一般性皮膚小病症證據概述，未特指 azelaic acid 對甲感染的效用。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19744410",
+          "title": "Minor derm ailments: how good is the evidence for common treatments?",
+          "year": "2009",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "一般性皮膚小病症的治療證據概述，未直接評估 azelaic acid 對甲感染的療效"
+        }
+      ]
+    },
+    {
+      "disease_name": "zinc, elevated plasma",
+      "txgnn_score": 0.9468,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血漿鋅升高為實驗室異常值，而非疾病實體；azelaic acid 與鋅代謝之間無已知機轉關聯。TxGNN 高分可能源自知識圖譜中皮膚科適應症的間接網絡連結，臨床生物學意義極低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "isolated congenital adermatoglyphia",
+      "txgnn_score": 0.9403,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性指紋缺失症為罕見遺傳性皮膚病（SMARCAD1 基因突變），以皮膚附屬器發育異常為主，與 azelaic acid 的作用機轉（抗菌、抗角化、抗炎）無任何交集。預測可能為知識圖譜雜訊。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Beare-Stevenson cutis gyrata syndrome",
+      "txgnn_score": 0.9259,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Beare-Stevenson 症候群為 FGFR2 基因突變引起的罕見先天性顱縫早閉症候群，其皮膚病理（cutis gyrata, acanthosis nigricans）源於異常受體酪胺酸激酶訊號。Azelaic acid 無 FGFR2 抑制活性，機轉關聯評估為不相關。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ]
+}
+```
+
+---
+
+## 📊 摘要矩陣
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| **seborrheic dermatitis** | 0.9353 | **L2** | **S2** | ✅ Proceed with Guardrails |
+| **keratinization disease** | 0.9380 | **L4** | **S1** | 🔬 Research Question |
+| tinea corporis | 0.9307 | L4 | S0 | ⛔ Hold |
+| nail infection | 0.9353 | L5 | S0 | ⛔ Hold |
+| demodicidosis | 0.9805 | L5 | S0 | ⛔ Hold |
+| cutaneous candidiasis | 0.9563 | L5 | S0 | ⛔ Hold |
+| lichen planus, familial | 0.9545 | L5 | S0 | ⛔ Hold |
+| zinc, elevated plasma | 0.9468 | L5 | S0 | ⛔ Hold |
+| congenital adermatoglyphia | 0.9403 | L5 | S0 | ⛔ Hold |
+| Beare-Stevenson syndrome | 0.9259 | L5 | S0 | ⛔ Hold |
+
+---
+
+## 🔑 關鍵洞察
+
+### 優先推進：Seborrheic Dermatitis（L2 / S2）
+- **NCT00408330** 為已完成的 Phase 2 雙盲 RCT，是本批次中**唯一有臨床試驗直接證據**的適應症
+- 需查閱該試驗的發表論文（2007-2009 年預計發表）確認主要終點結果
+- Azelaic acid 的**抗 Malassezia 機轉**與脂漏性皮膚炎病理直接對應
+- 若試驗結果陽性，可考慮申請適應症擴展或研究者自主試驗（IIT）
+
+### 待研究：Keratinization Disease（L4 / S1）
+- 有體外（PMID 2473140）及動物（PMID 8935627）機轉支持，但缺乏臨床試驗
+- 建議探索**具體角化疾病亞型**（如毛孔角化症、魚鱗病等）的小型 pilot 研究可行性
+
+### TxGNN 預測品質評估
+- 高分（>0.93）但無任何文獻支持的適應症（demodicidosis, candidiasis, adermatoglyphia, Beare-Stevenson）顯示**知識圖譜的皮膚科節點高度聚集**，可能導致誤報；應降低這些適應症的優先排序權重

@@ -1,0 +1,527 @@
+```json
+{
+  "drug": "Captopril",
+  "drugbank_id": "DB01197",
+  "drug_class": "ACE抑制劑 (ACEI)",
+  "analysis_date": "2026-04-05",
+  "note": "市場狀態標示「未上市」，MOA為[Data Gap]，推測為本地藥監局資料缺漏；Captopril為全球知名ACEI，機轉明確。",
+  "indications": [
+    {
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ACEI抑制腎素-血管緊張素系統（RAAS），降低腎小球內壓，理論上可保護惡性高血壓引起的腎損傷；然而惡性高血壓型腎病在雙側腎動脈狹窄時使用ACEI有急性腎衰竭風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "28902735",
+          "title": "Positive Captopril Renography Without Renal Artery Stenosis but a Renal Cell Carcinoma.",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "僅描述Captopril腎圖作為診斷工具，非治療用途；不直接支持再利用"
+        }
+      ],
+      "summary": "僅1篇文獻且為診斷性病例報告，無臨床試驗；TxGNN高分反映機轉相似性，但缺乏治療有效性的臨床證據。需先確認安全性（腎功能惡化風險）。"
+    },
+    {
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn_score": 0.9928,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "腎血管性高血壓主要由腎動脈狹窄導致腎素過度分泌，RAAS過度活化；ACEI直接抑制ACE、降低Ang II生成，為此病生理的精準靶向。惡性期（快速進展、靶器官損傷）需特別監控腎功能。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "6145432",
+          "title": "[Use of captopril in arterial hypertension with a stable and malignant course].",
+          "year": "1984",
+          "study_type": "Clinical Study (非RCT)",
+          "tier": 2,
+          "relevance": "直接描述Captopril用於穩定型及惡性高血壓；最相關文獻"
+        },
+        {
+          "pmid": "2040938",
+          "title": "Malignant hypertension.",
+          "year": "1991",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "惡性高血壓治療綜述，提及ACEI角色"
+        },
+        {
+          "pmid": "17008836",
+          "title": "Renovascular hypertension: clinical concepts.",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "腎血管性高血壓臨床概念，涵蓋ACEI治療策略"
+        },
+        {
+          "pmid": "8070421",
+          "title": "Renin-secreting tumors.",
+          "year": "1994",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "腎素分泌腫瘤所致高血壓，間接支持ACEI機轉"
+        },
+        {
+          "pmid": "10955932",
+          "title": "Renovascular disease and hypertension in children with neurofibromatosis.",
+          "year": "2000",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "小兒神經纖維瘤合併腎血管高血壓，間接支持"
+        },
+        {
+          "pmid": "11334320",
+          "title": "Renovascular hypertension associated with neurofibromatosis.",
+          "year": "2001",
+          "study_type": "Case Report / Review",
+          "tier": 3,
+          "relevance": "同類族群病例，間接支持"
+        },
+        {
+          "pmid": "2887673",
+          "title": "Characterization of neurohormonal changes following the production of the benign and malignant phase.",
+          "year": "1987",
+          "study_type": "Animal/Mechanistic Study",
+          "tier": 3,
+          "relevance": "探討良性/惡性高血壓神經荷爾蒙變化，機轉佐證"
+        },
+        {
+          "pmid": "12424682",
+          "title": "[Case report: neonatal hypertension].",
+          "year": "2002",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "新生兒高血壓病例，間接支持"
+        }
+      ],
+      "guardrails": [
+        "雙側腎動脈狹窄禁忌使用ACEI（急性腎衰竭風險）",
+        "初次給藥後24-48小時監測腎功能與血鉀",
+        "惡性高血壓急性期建議靜脈給藥優先，口服ACEI為穩定後過渡"
+      ],
+      "summary": "多篇文獻直接涉及Captopril於惡性/腎血管性高血壓的使用，機轉高度契合；屬L3級別（回顧性/臨床系列研究），缺乏RCT。臨床可行性高但需排除雙側腎動脈狹窄禁忌症。"
+    },
+    {
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "低氧性肺動脈高壓涉及RAAS活化與血管收縮；ACEI理論上可緩解，但臨床效果與PAH專用藥（如prostacyclin、ERA）有差距。低氧環境下ACEI降低全身血壓可能加劇低灌注。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33862277",
+          "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+          "year": "2021",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低氧與神經退化，與本適應症相關性極低"
+        },
+        {
+          "pmid": "39841808",
+          "title": "Hypoxia as a medicine.",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低氧作為治療手段，非Captopril治療相關"
+        },
+        {
+          "pmid": "28972206",
+          "title": "Regulation of immunity and inflammation by hypoxia.",
+          "year": "2017",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低氧免疫調控機轉，間接背景知識"
+        }
+      ],
+      "summary": "20篇文獻主題為低氧機轉一般背景，無一直接研究Captopril治療低氧性肺動脈高壓；屬間接/機轉推斷，需設計針對性研究問題。"
+    },
+    {
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多因素肺動脈高壓機轉不明確，ACEI的RAAS抑制作用僅為眾多可能路徑之一；缺乏針對性證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "零臨床試驗、零文獻支持；TxGNN預測分與malignant renovascular hypertension相同，推測為圖神經網路的結構相似性誤判。初篩不通過，建議Hold。"
+    },
+    {
+      "disease_name": "Braddock syndrome",
+      "txgnn_score": 0.9886,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Braddock syndrome（罕見先天性多器官畸形綜合症）病理機轉與RAAS關聯尚無文獻支持；TxGNN高分可能反映KG中疾病節點的拓撲鄰近性，非真實機轉連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "極罕見疾病，零臨床證據，零文獻；建議Hold，不進入後續評估。"
+    },
+    {
+      "disease_name": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "txgnn_score": 0.9850,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為遺傳性單基因疾病（視網膜小動脈迂曲、血尿、攣縮），主要為COL4A基因變異所致；ACEI的RAAS抑制與其基本病生理無直接關聯，僅理論上可能部分緩解血壓相關血管損傷。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "summary": "遺傳性罕見症候群，零臨床證據；高TxGNN分可能由小血管疾病節點的圖拓撲相似性導致。建議Hold。"
+    },
+    {
+      "disease_name": "brain small vessel disease 1 with or without ocular anomalies",
+      "txgnn_score": 0.9842,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腦小血管病變（CSVD）與高血壓密切相關；ACEI長期控壓可間接保護腦小血管，但針對CSVD1（COL4A1/A2突變型）的特異性治療證據尚無。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "35882526",
+          "title": "Axenfeld-Rieger syndrome: more than meets the eye.",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "眼前段發育異常綜述，與Captopril無直接相關"
+        },
+        {
+          "pmid": "6782689",
+          "title": "Ocular coloboma.",
+          "year": "1981",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "眼部缺損，與Captopril無直接相關"
+        }
+      ],
+      "summary": "18篇文獻均為眼部先天異常的形態學描述，無一涉及Captopril治療腦小血管病；證據為L4（間接推斷），初篩不足以進入S1。"
+    },
+    {
+      "disease_name": "chronic pulmonary heart disease (cor pulmonale)",
+      "txgnn_score": 0.9708,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "慢性肺心病（Cor Pulmonale）涉及右心後負荷增加與RAAS代償性活化；ACEI可降低肺血管阻力（PVR）、減輕右心後負荷、改善血流動力學；另可逆轉心室重塑。機轉路徑：Ang II↓ → 肺血管擴張 + 醛固酮↓ → 減少容量超載。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00292162",
+          "title": "Radiofrequency Ablation for Atrial Fibrillation in Advanced Chronic Heart Failure",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 41,
+          "relevance_grade": "C",
+          "reasoning": "研究對象為心衰合併房顫，非直接針對Captopril治療肺心病；適應症重疊但研究問題不同"
+        },
+        {
+          "nct_id": "NCT04835233",
+          "title": "Management of Hypertension in the Early Postpartum Period: RCT Comparing Two Antihypertensives",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 180,
+          "relevance_grade": "C",
+          "reasoning": "產後高血壓管理，與慢性肺心病無直接關聯；ACEI使用背景不同"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "3050941",
+          "title": "Effects of captopril in patients with COPD and secondary pulmonary hypertension.",
+          "year": "1988",
+          "study_type": "Clinical Trial (Non-RCT)",
+          "tier": 2,
+          "relevance": "最高相關度：直接研究Captopril在COPD合併肺動脈高壓患者的效果"
+        },
+        {
+          "pmid": "3520734",
+          "title": "Effects of captopril on hemodynamics and blood gases in chronic obstructive lung disease with pulmonary hypertension.",
+          "year": "1986",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "直接研究Captopril對COPD肺高壓患者血流動力學與血氣的影響"
+        },
+        {
+          "pmid": "3530649",
+          "title": "Captopril effects on pulmonary and systemic hemodynamics in chronic cor pulmonale.",
+          "year": "1986",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "最高相關度：直接研究Captopril在慢性肺心病的肺循環與體循環效果"
+        },
+        {
+          "pmid": "2688602",
+          "title": "[Effects of captopril on hemodynamics, gas exchange and exercise capacity in patients with pulmonary hypertension.]",
+          "year": "1989",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "Captopril對肺高壓患者血流動力學、氣體交換與運動耐受的效果"
+        },
+        {
+          "pmid": "6758746",
+          "title": "Prazosin and captopril in chronic heart failure: comparison of acute haemodynamic and hormonal effects.",
+          "year": "1982",
+          "study_type": "RCT (crossover)",
+          "tier": 1,
+          "relevance": "慢性心衰的比較研究，與肺心病有重疊的右心衰竭成分"
+        },
+        {
+          "pmid": "6107767",
+          "title": "Low-dose captopril in chronic heart failure: acute haemodynamic effects and long-term treatment.",
+          "year": "1980",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "低劑量Captopril在心衰的血流動力學效果，與肺心病右心衰竭相關"
+        },
+        {
+          "pmid": "9738162",
+          "title": "Captopril and angiotensin II receptor antagonist therapy in a pacing model of heart failure.",
+          "year": "1998",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "動物心衰模型，機轉佐證"
+        }
+      ],
+      "guardrails": [
+        "需排除嚴重低血壓風險（右心衰竭患者對血壓下降敏感）",
+        "ACEI在PAH（WHO Group 1）無效且可能有害，需確認為Group 3（肺病所致）",
+        "監測血清肌酐、血鉀，特別是合併利尿劑時",
+        "目前指南對ACEI於cor pulmonale的建議等級僅為IIb，應搭配基礎肺病治療"
+      ],
+      "summary": "4篇直接臨床研究（1982-1989）評估Captopril在COPD合併肺動脈高壓/肺心病的效果，顯示短期血流動力學改善；機轉清楚，屬L3。臨床試驗相關性較低（C級），但文獻直接支持，可進入S2臨床可行性評估。"
+    },
+    {
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn_score": 0.8986,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "ACEI可改善腦血流自動調節（cerebral blood flow autoregulation）、減少腦血管重塑；動物模型顯示Captopril可抑制出血性擴展（hemorrhagic expansion）並保護腦血管結構；但臨床轉化尚未確立，且急性期降壓過快有腦缺血風險。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "30114508",
+          "title": "Post-stroke losartan and captopril treatments arrest hemorrhagic expansion in SHRsp without lowering BP.",
+          "year": "2018",
+          "study_type": "Animal Study (SHRsp rat)",
+          "tier": 3,
+          "relevance": "直接研究Captopril對腦出血擴展的抑制作用（動物模型），不依賴降壓效果"
+        },
+        {
+          "pmid": "20648036",
+          "title": "The effects of poststroke captopril and losartan treatment on cerebral blood flow autoregulation.",
+          "year": "2011",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "Captopril改善中風後腦血流自動調節，機轉相關"
+        },
+        {
+          "pmid": "15655534",
+          "title": "Captopril improves cerebrovascular structure and function in old hypertensive rats.",
+          "year": "2005",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "Captopril改善老年高血壓鼠腦血管結構功能"
+        },
+        {
+          "pmid": "20531216",
+          "title": "Captopril treatment temporarily restores cerebral blood flow autoregulation in spontaneously hypertensive rats.",
+          "year": "2010",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "腦血流自動調節恢復，機轉支持"
+        },
+        {
+          "pmid": "31300722",
+          "title": "Oral short-acting antihypertensive medications and the occurrence of stroke: a nationwide case-crossover study.",
+          "year": "2019",
+          "study_type": "Case-Crossover Study",
+          "tier": 2,
+          "relevance": "全國性研究探討短效降壓藥與中風關聯，Captopril作為研究藥物之一；間接臨床資料"
+        },
+        {
+          "pmid": "9303031",
+          "title": "The role of blood pressure and aldosterone in the production of hemorrhagic stroke in captopril-treated rats.",
+          "year": "1997",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "探討Captopril治療鼠中出血性中風的血壓與醛固酮角色"
+        },
+        {
+          "pmid": "14717927",
+          "title": "Temporary losartan or captopril in young SHR induces malignant hypertension despite initial normotension.",
+          "year": "2004",
+          "study_type": "Animal Study",
+          "tier": 3,
+          "relevance": "短期ACEI治療後反彈性惡性高血壓，安全性警示"
+        }
+      ],
+      "safety_signals": [
+        "PMID 14717927: 短期Captopril治療後可能誘發反彈性惡性高血壓（動物模型）",
+        "急性ICH期間過度降壓可加重腦缺血",
+        "PMID 31300722: 短效口服降壓藥與中風事件的關聯性需謹慎解讀"
+      ],
+      "summary": "多篇動物研究（L3）顯示Captopril可改善腦血流自動調節並抑制出血擴展，有趣機轉假說（非純降壓效果）；但缺乏人體臨床試驗，且存在安全性顧慮。建議作為「Research Question」推進動物到人體橋接研究設計。"
+    },
+    {
+      "disease_name": "chronic renal failure syndrome",
+      "txgnn_score": 0.8133,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "ACEI在慢性腎衰竭的機轉：(1) 降低腎小球內壓（efferent arteriole擴張）→減少蛋白尿；(2) 抑制TGF-β介導的腎纖維化；(3) 逆轉腎臟RAAS局部過度活化。腎保護作用為ACEI的核心適應症之一，大量RCT支持（但本資料中未直接捕獲）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01669434",
+          "title": "Chronic ACE Inhibitors in Intermediate Risk Surgery: A Randomized, Single-Center Trial",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 291,
+          "relevance_grade": "B",
+          "reasoning": "研究ACEI在手術期間的安全性，受試者包含慢性腎衰竭患者，探討圍手術期ACEI管理；與CRF直接相關，但研究問題聚焦手術安全性而非腎保護療效"
+        },
+        {
+          "nct_id": "NCT04835233",
+          "title": "Management of Hypertension in the Early Postpartum Period: RCT Comparing Two Antihypertensives",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 180,
+          "relevance_grade": "C",
+          "reasoning": "產後高血壓管理，不涉及慢性腎衰竭；相關性低"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "8294993",
+          "title": "Captopril renal scintigraphy in patients with hypertension and chronic renal failure.",
+          "year": "1994",
+          "study_type": "Diagnostic Study",
+          "tier": 2,
+          "relevance": "CRF患者Captopril腎圖研究，涉及Captopril在CRF中的腎血流動力學效果"
+        },
+        {
+          "pmid": "3530558",
+          "title": "Long-term treatment with captopril in pediatric patients with severe hypertension and chronic renal failure.",
+          "year": "1986",
+          "study_type": "Clinical Study (Longitudinal)",
+          "tier": 2,
+          "relevance": "最相關：直接研究Captopril在小兒CRF合併嚴重高血壓的長期治療效果"
+        },
+        {
+          "pmid": "9175047",
+          "title": "ACE inhibitors captopril and enalapril induce regression of left ventricular hypertrophy in hypertensive patients with CRF.",
+          "year": "1997",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "CRF高血壓患者使用Captopril逆轉左心室肥厚，心腎同治效果"
+        },
+        {
+          "pmid": "7596934",
+          "title": "Effects of captopril and enalapril on renal function in elderly patients with chronic heart failure.",
+          "year": "1995",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "老年心衰患者腎功能變化，與CRF背景相關"
+        },
+        {
+          "pmid": "6095887",
+          "title": "Influence of chronic renal failure on captopril pharmacokinetics and clinical effects.",
+          "year": "1984",
+          "study_type": "PK/PD Study",
+          "tier": 2,
+          "relevance": "CRF對Captopril藥代動力學的影響，劑量調整的重要依據"
+        },
+        {
+          "pmid": "20689276",
+          "title": "Myocardial calcification and hypertension following chronic renal failure and ameliorative effects.",
+          "year": "2010",
+          "study_type": "Animal/Clinical Study",
+          "tier": 3,
+          "relevance": "CRF相關心肌鈣化與高血壓，ACEI的保護效果"
+        },
+        {
+          "pmid": "7922218",
+          "title": "Renovascular hypertension.",
+          "year": "1993",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "腎血管性高血壓綜述，與CRF病理機轉交叉"
+        }
+      ],
+      "guardrails": [
+        "eGFR < 30 mL/min/1.73m²：需謹慎使用並密切監測（ACEI可能加重腎功能惡化）",
+        "高鉀血症監測（CRF患者使用ACEI易發生高鉀，特別是合併保鉀利尿劑）",
+        "PMID 6095887：CRF會延長Captopril半衰期，需依eGFR調整劑量",
+        "雙側腎動脈狹窄絕對禁忌",
+        "建議初始低劑量（6.25mg TID）並逐步滴定"
+      ],
+      "summary": "多篇直接臨床研究（L3）支持Captopril在CRF患者的使用，包含長期治療、心腎保護及PK調整；1篇B級相關臨床試驗；ACEI腎保護的廣泛文獻基礎（超出本資料集範圍）使本適應症實為全球標準治療，屬S2可進入臨床可行性評估，但需依腎功能嚴格調整劑量。"
+    }
+  ],
+  "overall_assessment": {
+    "high_priority_indications": [
+      {
+        "rank": 1,
+        "disease": "malignant renovascular hypertension",
+        "evidence_level": "L3",
+        "rationale": "機轉最直接（RAAS在腎血管性高血壓為核心驅動），多篇直接臨床文獻，S2"
+      },
+      {
+        "rank": 2,
+        "disease": "chronic renal failure syndrome",
+        "evidence_level": "L3",
+        "rationale": "全球ACEI腎保護的核心適應症，本地文獻支持，S2；未上市狀態為主要障礙"
+      },
+      {
+        "rank": 3,
+        "disease": "chronic pulmonary heart disease",
+        "evidence_level": "L3",
+        "rationale": "4篇直接臨床研究，機轉合理，S2；屬相對少被研究的ACEI適應症"
+      }
+    ],
+    "research_questions": [
+      "intracerebral hemorrhage：動物模型顯示非降壓性腦保護機轉，值得設計人體proof-of-concept研究"
+    ],
+    "hold_indications": [
+      "pulmonary hypertension with unclear multifactorial mechanism",
+      "Braddock syndrome",
+      "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+      "brain small vessel disease 1 with or without ocular anomalies"
+    ],
+    "data_quality_note": "市場狀態「未上市」與原始適應症「空白」、MOA「[Data Gap]」提示本地藥監局資料收錄缺漏，非Captopril本身的問題。Captopril為1981年FDA核准的第一代ACEI，全球廣泛使用，建議補充DrugBank標準資料以填補空缺。"
+  }
+}
+```
+
+---
+
+## 📊 分析摘要
+
+### 評估結果速覽
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| malignant renovascular hypertension | **L3** | S2 | ✅ Proceed with Guardrails |
+| chronic renal failure syndrome | **L3** | S2 | ✅ Proceed with Guardrails |
+| chronic pulmonary heart disease | **L3** | S2 | ✅ Proceed with Guardrails |
+| malignant hypertensive renal disease | L4 | S1 | 🔬 Research Question |
+| pulmonary HTN (lung disease/hypoxia) | L4 | S1 | 🔬 Research Question |
+| intracerebral hemorrhage | L3 | S1 | 🔬 Research Question |
+| pulmonary HTN (multifactorial) | L5 | S0 | ⛔ Hold |
+| Braddock syndrome | L5 | S0 | ⛔ Hold |
+| autosomal dominant familial hematuria... | L5 | S0 | ⛔ Hold |
+| brain small vessel disease 1 | L4 | S0 | ⛔ Hold |
+
+### 🔑 關鍵發現
+
+1. **資料品質警示**：`original_moa: [Data Gap]` + `market_status: 未上市` + 空白 `original_indications` 是**本地藥監局資料缺漏**，而非 Captopril 本身資料不足。Captopril 是 1981 年 FDA 核准的第一代 ACEI，全球標準藥物。
+
+2. **TxGNN 高分≠高證據**：前 4 個適應症 TxGNN score > 0.99，但文獻品質參差不齊（尤其 pulmonary HTN 的 20 篇文獻多為低氧機轉背景文章，非直接治療研究）。
+
+3. **最具臨床價值**：`chronic renal failure syndrome` 是 ACEI 全球公認腎保護適應症，本地資料集中已有直接 Captopril 文獻支持，建議優先推進。

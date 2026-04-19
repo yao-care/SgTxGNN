@@ -1,0 +1,1494 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00557-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Hydroxyzine",
+    "drugbank_id": "DB00557",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "allergic urticaria",
+      "txgnn": {
+        "score": 0.9977403879165648,
+        "rank": 3730
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02023164",
+            "title": "Multicenter Pilot Study to Assess the Feasibility of Conducting Phase III Trial Comparing IV Cetirizine Injection, 10 mg, to IV Diphenhydramine, 50 mg, for The Treatment of Acute Urticaria",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 36,
+            "start_date": "2013-07",
+            "completion_date": "2014-12",
+            "brief_summary": "This is a multicenter, parallel group, randomized, double-blind pilot Phase III clinical study of JDP-205 (cetirizine) injection, versus diphenhydramine injection, 50 mg/mL (Benadryl or generic equivalent), in approximately 36 patients with acute urticaria requiring treatment in Hospital Emergency Departments, Urgent Care Centers and Allergy Clinics.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 完成試驗（先導型，n=36），比較 IV Cetirizine（Hydroxyzine 活性代謝物）與標準抗組織胺。為活性代謝物直接臨床證據，但非 Hydroxyzine 本身；規模偏小屬可行性研究，不宜直接視為 L1。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22686617",
+            "title": "Bilastine: in allergic rhinitis and urticaria.",
+            "authors": [
+              "Carter Natalie J"
+            ],
+            "journal": "Drugs",
+            "year": "2012",
+            "abstract": "Bilastine is an orally administered, second-generation antihistamine used in the symptomatic treatment of seasonal or perennial allergic rhinoconjunctivitis and urticaria. In two well designed phase III trials, 14 days' treatment with bilastine was associated with a significantly lower area under the effect curve (AUEC) for the reflective total symptom score (TSS) than placebo in patients with symptomatic seasonal allergic rhinitis. Additionally, reflective nasal symptom scores were significantl",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18336052",
+            "title": "Clinical pharmacokinetics and pharmacodynamics of desloratadine, fexofenadine and levocetirizine : a comparative review.",
+            "authors": [
+              "Devillier Philippe",
+              "Roche Nicolas",
+              "Faisy Christophe"
+            ],
+            "journal": "Clinical pharmacokinetics",
+            "year": "2008",
+            "abstract": "Second-generation histamine H(1) receptor antagonists were developed to provide efficacious treatment of allergic rhinitis (AR) and chronic idiopathic urticaria (CIU) while decreasing adverse effects associated with first-generation agents. When comparing the efficacy and safety profiles of the newest second-generation antihistamines - desloratadine, fexofenadine and levocetirizine - many pharmacological and clinical criteria must be considered. Most importantly, these elements should not be eva",
+            "classification": {
+              "study_type": "PK/PD Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16278258",
+            "title": "Treatment for allergic rhinitis and chronic idiopathic urticaria: focus on oral antihistamines.",
+            "authors": [
+              "Morgan Matthew M",
+              "Khan David A",
+              "Nathan Robert A"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2005",
+            "abstract": "To review the efficacy and safety of first- and newer-generation antihistamines for the management of allergic rhinitis and chronic idiopathic urticaria (CIU), with a focus on management in the pharmacy.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31582993",
+            "title": "CSACI position statement: Newer generation H1-antihistamines are safer than first-generation H1-antihistamines and should be the first-line antihistamines for the treatment of allergic rhinitis and urticaria.",
+            "authors": [
+              "Fein Michael N",
+              "Fischer David A",
+              "O'Keefe Andrew W",
+              "Sussman Gord L"
+            ],
+            "journal": "Allergy, asthma, and clinical immunology : official journal of the Canadian Society of Allergy and Clinical Immunology",
+            "year": "2019",
+            "abstract": "Oral H1-antihistamines (AHs) are the most commonly used therapy to treat allergic rhinitis and chronic urticaria. Older, first-generation AHs (e.g. diphenhydramine, hydroxyzine) have significant and common side effects including sedation, impairment with decreased cognitive function, poor sleep quality, dry mouth, dizziness, and orthostatic hypotension. These drugs have also been found to result in death from accidents, intentional or unintentional overdoses, and sudden cardiac death. The unfavo",
+            "classification": {
+              "study_type": "Position Statement (CSACI 2019)",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18201439",
+            "title": "Levocetirizine: The latest treatment option for allergic rhinitis and chronic idiopathic urticaria.",
+            "authors": [
+              "Dubuske Lawrence M"
+            ],
+            "journal": "Allergy and asthma proceedings",
+            "year": "2007",
+            "abstract": "Levocetirizine is the most recent antihistamine available in the United States and is indicated for the symptomatic treatment of allergic rhinitis (AR; seasonal [SAR] and perennial [PAR]) and chronic idiopathic urticaria (CIU). The purpose of this study was to review the current literature on pharmacologic properties of levocetirizine, its safety, tolerability, and effectiveness in AR and CIU. Relevant articles in English or with English abstracts were identified from systematic Medline searches",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19808127",
+            "title": "Levocetirizine for the treatment of allergic rhinitis and chronic idiopathic urticaria in adults and children.",
+            "authors": [
+              "Singh-Franco Devada",
+              "Ghin Hoytin Lee",
+              "Robles Gisela I",
+              "Borja-Hart Nancy",
+              "Perez Alexandra"
+            ],
+            "journal": "Clinical therapeutics",
+            "year": "2009",
+            "abstract": "Levocetirizine (LCZ) is a second-generation antihistamine that was approved in January 2008 for the relief of symptoms of seasonal allergic rhinitis (SAR), perennial allergic rhinitis (PAR), and chronic idiopathic urticaria (CIU) in adults and children aged > or = 6 years.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1981354",
+            "title": "Cetirizine. A review of its pharmacological properties and clinical potential in allergic rhinitis, pollen-induced asthma, and chronic urticaria.",
+            "authors": [
+              "Campoli-Richards D M",
+              "Buckley M M",
+              "Fitton A"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "Cetirizine, a piperazine derivative and carboxylated metabolite of hydroxyzine, is a potent histamine H1-receptor antagonist with antiallergic properties. It has marked affinity for peripheral histamine H1-receptors and, at the standard dose of 10mg daily, lacks the CNS depressant effects of standard antihistamines. In addition, it inhibits histamine release and eosinophil chemotaxis during the secondary phase of the allergic response. Results from controlled clinical trials indicate that cetiri",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11034010",
+            "title": "Cetirizine-induce cholestasis.",
+            "authors": [
+              "Fong D G",
+              "Angulo P",
+              "Burgart L J",
+              "Lindor K D"
+            ],
+            "journal": "Journal of clinical gastroenterology",
+            "year": "2000",
+            "abstract": "Cetirizine, a human metabolite of hydroxyzine, is a selective H1-receptor antagonist currently approved for the treatment of seasonal allergic rhinitis, perennial allergic rhinitis, and chronic urticaria. In U.S. clinical trials, transient reversible hepatic transaminase elevations were observed in <2% of patients during cetirizine therapy. We report a case of cetirizine-induced cholestasis in a 28-year-old man with no previous hepatobiliary disease after a 2-year period of taking cetirizine on ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7645679",
+            "title": "Clinical studies with cetirizine in allergic rhinitis and chronic urticaria.",
+            "authors": [
+              "Broide D"
+            ],
+            "journal": "Allergy",
+            "year": "1995",
+            "abstract": "",
+            "classification": {
+              "study_type": "Clinical Studies Compilation",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28913986",
+            "title": "Chronic Spontaneous Urticaria: Pathogenesis and Treatment Considerations.",
+            "authors": [
+              "Kaplan Allen P"
+            ],
+            "journal": "Allergy, asthma & immunology research",
+            "year": "2017",
+            "abstract": "The treatment of chronic spontaneous urticaria begins with antihistamines; however, the dose required typically exceeds that recommended for allergic rhinitis. Second-generation, relatively non-sedating H₁-receptor blockers are typically employed up to 4 times a day. First-generation antihistamines, such as hydroxyzine or diphenhydramine (Atarax or Benadryl), were employed similarly in the past. Should high-dose antihistamines fail to control symptoms (at least 50%), omalizumab at 300 mg/month i",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12113226",
+            "title": "H1-antihistamines in children.",
+            "authors": [
+              "Simons F Estelle R"
+            ],
+            "journal": "Clinical allergy and immunology",
+            "year": "2002",
+            "abstract": "In children, as in adults, H1-antagonists are useful in the treatment of allergic rhinoconjunctivitis. Level 1 evidence for their efficacy in this disorder has been obtained in many well-designed pediatric studies. The widespread use of H1-antagonists in upper respiratory tract infections or otitis media in children is not supported by a strong scientific rationale. H1-antagonists are not harmful in children with asthma and, indeed, may have some beneficial effects in children with mild asthma. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1715267",
+            "title": "Acrivastine. A review of its pharmacological properties and therapeutic efficacy in allergic rhinitis, urticaria and related disorders.",
+            "authors": [
+              "Brogden R N",
+              "McTavish D"
+            ],
+            "journal": "Drugs",
+            "year": "1991",
+            "abstract": "Acrivastine is a short acting histamine H1-receptor antagonist with a rapid onset of action. Double-blind clinical trials have shown acrivastine (usually 8mg three times daily) to be an effective and well tolerated antihistamine in the treatment of chronic urticaria and allergic rhinitis. Acrivastine was more effective than placebo and similar in efficacy to clemastine or terfenadine in the treatment of seasonal allergic rhinitis. In the treatment of dermatoses in which histamine has a pathogene",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9879282",
+            "title": "[Cetirizine].",
+            "authors": [
+              "Groschner K",
+              "Pöch G"
+            ],
+            "journal": "Deutsche medizinische Wochenschrift (1946)",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17017922",
+            "title": "Levocetirizine: an update.",
+            "authors": [
+              "Walsh Garry M"
+            ],
+            "journal": "Current medicinal chemistry",
+            "year": "2006",
+            "abstract": "Histamine plays a prominent and diverse role in the pathophysiology of allergic disease and therapeutic intervention is therefore typically focused on blocking the effects of this biogenic amine. A new antihistamine, levocetirizine, is the R-enantiomer of cetirizine dihydrochloride and like its parent compound undergoes minimal hepatic metabolism. Levocetirizine has pharmacodynamically and pharmacokinetically favourable characteristics, including high bioavailability, rapid onset of action, limi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21639816",
+            "title": "Pharmacokinetic evaluation of levocetirizine.",
+            "authors": [
+              "Ferrer Marta"
+            ],
+            "journal": "Expert opinion on drug metabolism & toxicology",
+            "year": "2011",
+            "abstract": "There have recently been guidelines developed for the diagnosis and treatment of rhinitis and urticaria. For both conditions, second-generation antihistamines remain as the first-line therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22994340",
+            "title": "H(1)-antihistamines and urticaria: how can we predict the best drug for our patient?",
+            "authors": [
+              "Church M K",
+              "Maurer M"
+            ],
+            "journal": "Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology",
+            "year": "2012",
+            "abstract": "Urticaria, and especially chronic spontaneous urticaria (CSU), is a difficult condition to treat. Consequently, clinicians need to use the best H(1)-antihistamines currently available and the pharmaceutical industries need to keep developing H(1)-antihistamines that are more effective than the ones we have today. To do this we need to be able to compare the clinical efficacy of both established and new drugs. Obviously, the ideal way to do this is to use head-to-head studies in CSU. However, suc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19348661",
+            "title": "Multiple H1-antihistamine-induced urticaria.",
+            "authors": [
+              "Inomata Naoko",
+              "Tatewaki Satoko",
+              "Ikezawa Zenro"
+            ],
+            "journal": "The Journal of dermatology",
+            "year": "2009",
+            "abstract": "H(1)-antihistamines are widely used in the treatment of various allergic diseases. Particularly, a cornerstone of the management of chronic idiopathic urticaria is treatment with H(1)-antihistamines. However, a few cases of H(1)-antihistamine-induced urticaria have been reported. A 34-year-old woman presented with a 4-month history of recurrent urticaria, which was prominently exacerbated by the administration of H(1)-antihistamines. The patient consented to a provocation test of fexofenadine am",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21793329",
+            "title": "An open-label, multicentre study of levocetirizine for the treatment of allergic rhinitis and urticaria in Taiwanese patients.",
+            "authors": [
+              "Fang Sheen-Yie",
+              "Perng Diahn-Warng",
+              "Lee J Yu-Yun",
+              "Lin Ding-Yu",
+              "Huangs Chih-Yang"
+            ],
+            "journal": "The Chinese journal of physiology",
+            "year": "2010",
+            "abstract": "Levocetirizine has been shown in observational studies in the west as an effective and satisfactory therapy for patients with allergic respiratory and skin disease. An open-label, multicentre observational study was conducted to investigate the patients' perception of levocetirizine in the treatment of allergic rhinitis (AR) and urticaria in Taiwanese patients. Three hundred and thirty-three patients (236 AR and 97 urticaria patients) attending out-patient clinics of medical centres across Taiwa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8477125",
+            "title": "Cetirizine: a new, nonsedating antihistamine.",
+            "authors": [
+              "Barnes C L",
+              "McKenzie C A",
+              "Webster K D",
+              "Poinsett-Holmes K"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "1993",
+            "abstract": "To introduce cetirizine, a nonsedating antihistamine, and discuss its mechanism of action, chemistry, clinical and comparative trials, and adverse effects.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39532327",
+            "title": "Aquagenic urticaria: presentation, diagnosis and management.",
+            "authors": [
+              "Abdi Parsa",
+              "Diamond Cody",
+              "Stuckless Jennifer M"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2024",
+            "abstract": "Aquagenic urticaria, a rare dermatological condition characterised by urticarial eruptions following water contact, poses significant diagnostic and therapeutic challenges. This condition, although uncommon, necessitates heightened clinical awareness due to its substantial impact on the patient's quality of life. We present a comprehensive account of a paediatric case involving a girl in her mid-teens, who developed recurrent wheals post-exposure to water, independent of its temperature or sourc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hydroxyzine 為競爭性 H1 受體拮抗劑，直接阻斷組織胺介導之血管擴張、血管通透性增加及搔癢傳導。活性代謝物 Cetirizine 具更強 H1 選擇性，已有 Phase 3 RCT（NCT02023164）支持靜脈製劑用於過敏性蕁麻疹，提供直接代謝物層級證據。文獻顯示 H1 拮抗為第一線療法，機轉-疾病關聯度極高（★★★★★）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "rosacea conjunctivitis",
+      "txgnn": {
+        "score": 0.9970045685768129,
+        "rank": 4597
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "玫瑰斑性結膜炎主要涉及 Demodex mite 感染、先天免疫異常（TLR2 過度活化）、神經血管失調及 MMP 介導之組織損傷，並非以組織胺通路為核心。Hydroxyzine 之 H1 拮抗及抗膽鹼效應對上述機轉缺乏直接干預點。TxGNN 高分（0.997）可能源於知識圖譜中「結膜」節點與過敏炎症的廣泛連結，屬圖譜系統性預測誤差風險，機轉關聯度低（★☆☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "cold urticaria",
+      "txgnn": {
+        "score": 0.9966279864311218,
+        "rank": 4984
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01940393",
+            "title": "Evaluation of the Inhibitory Effect of 5 Anti-Histamines in Urticaria",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2013-08",
+            "completion_date": "2014-01",
+            "brief_summary": "The antihistamines with inhaled steroids are the cornerstone on the symptomatic therapy in the management of patients with rhinitis and the first line of treatment in patients with urticaria. Currently, the use of antihistamines has become popular due to its excellent safety profile and clinical efficacy, however to the investigators knowledge, there are no studies about the pharmacokinetic and pharmacodynamic effects of these drugs in patients of tropical Latin America. The investigators main i",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 完成試驗（n=150），比較 5 種抗組織胺藥物在蕁麻疹之抑制效果（包含冷蕁麻疹），規模充足，但試驗設計為蕁麻疹整體類別，未明確列出 Hydroxyzine 為受試藥物之一，需查閱完整方案確認。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32975301",
+            "title": "Chronic inducible urticaria: classification and prominent features of physical and non-physical types.",
+            "authors": [
+              "Pozderac Iva",
+              "Lugović-Mihić Liborija",
+              "Artuković Marinko",
+              "Stipić-Marković Asja",
+              "Kuna Matea"
+            ],
+            "journal": "Acta dermatovenerologica Alpina, Pannonica, et Adriatica",
+            "year": "2020",
+            "abstract": "Chronic inducible urticaria (CIndU) is a common inflammatory skin condition characterized by the recurrence of itchy wheals and/or angioedema that lasts more than 6 weeks and is induced by specific physical or environmental stimuli (cold, heat, exercise, pressure, sunlight, vibration, water, etc.). According to the current international classification, it includes physical urticarias (dermographism, delayed-pressure urticaria, exercise-induced urticaria, cold urticaria, heat urticaria, solar urt",
+            "classification": {
+              "study_type": "Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15617665",
+            "title": "Cold urticaria and infectious mononucleosis in children.",
+            "authors": [
+              "Morais-Almeida M",
+              "Marinho S",
+              "Gaspar A",
+              "Arêde C",
+              "Loureiro V"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "2004",
+            "abstract": "Physical urticaria includes a heterogeneous group of disorders characterized by the development of urticarial lesions and/or angioedema after exposure to certain physical stimuli. The authors present the case of a child with severe acquired cold urticaria secondary to infectious mononucleosis. Avoidance of exposure to cold was recommended; prophylactic treatment with ketotifen and cetirizine was begun and a self-administered epinephrine kit was prescribed. The results of ice cube test and sympto",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6480953",
+            "title": "Comparison of cinnarizine, cyproheptadine, doxepin, and hydroxyzine in treatment of idiopathic cold urticaria: usefulness of doxepin.",
+            "authors": [
+              "Neittaanmäki H",
+              "Myöhänen T",
+              "Fräki J E"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "1984",
+            "abstract": "Randomized double-blind trials using doxepin and several conventional antihistamines were carried out for treatment of patients with idiopathic cold urticaria. In the first double-blind trial, eight of nine patients preferred doxepin (10 mg three times daily) to cinnarizine (10 mg three times daily). In the second double-blind trial, the results of ice cube tests suppressing the effect of cyproheptadine (4 mg three times daily), doxepin (10 mg three times daily), and hydroxyzine (10 mg three tim",
+            "classification": {
+              "study_type": "Controlled Comparative Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20609144",
+            "title": "Localized cold urticaria to the face in a pediatric patient: a case report and literature review.",
+            "authors": [
+              "Sciallis Gabriel F",
+              "Krych Esther H"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2010",
+            "abstract": "We present a curious case of localized cold urticaria restricted to the face in a 10-year-old girl. Testing for the condition using an ice cube was positive only in the facial area. After 2 years, the patient continues to experience localized urticaria only on her face on cold exposure. A review of the available published medical literature on cold urticaria was performed using Ovid and PubMed databases. The literature search was not limited to the English language. Only three other cases of col",
+            "classification": {
+              "study_type": "Case Report + Literature Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7719887",
+            "title": "Familial cold urticaria: a father and daughter with typical clinical and laboratory features.",
+            "authors": [
+              "Kalogeromitros D",
+              "Katsarou A",
+              "Armenaka M",
+              "Polizou E",
+              "Zografakis I"
+            ],
+            "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+            "year": "1995",
+            "abstract": "Familial cold urticaria is a rare, autosomally dominant disease of interest to physicians treating urticarial-type diseases.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2873823",
+            "title": "Urticaria in Thai children.",
+            "authors": [
+              "Tuchinda M",
+              "Srimaruta N",
+              "Habanananda S",
+              "Vareenil J",
+              "Assatherawatts A"
+            ],
+            "journal": "Asian Pacific journal of allergy and immunology",
+            "year": "1986",
+            "abstract": "In this study, 142 patients under 12 years of age with the diagnosis of urticaria accompanied or not by angioedema were examined. In all 72.6% of the patients were under 6 years of age. Boys and girls were equally affected, 13.4% of the cases had chronic urticaria, 56.3% had a previous history of urticaria, 88.0% had generalized urticaria, and about half of the cases had associated angioedema. The causes of the urticaria were identified or suspected in 32.4% of the cases. Drugs, foods, insect bi",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14512923",
+            "title": "Treatment of acquired cold urticaria with cetirizine and zafirlukast in combination.",
+            "authors": [
+              "Bonadonna Patrizia",
+              "Lombardi Carlo",
+              "Senna Gianenrico",
+              "Canonica Giorgio Walter",
+              "Passalacqua Giovanni"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2003",
+            "abstract": "Acquired cold urticaria is an infrequent physical urticaria that can provoke severe systemic reactions. Histamine is the primary mediator, but leukotrienes are also involved in the pathogenesis. H(1) antihistamines are recommended as first-choice treatment, but their efficacy is sometimes unsatisfactory. On the basis of pathogenic knowledge, it can be hypothesized that a combination therapy with antihistamines and leukotriene receptor antagonists is more effective than each drug given alone. We ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2959719",
+            "title": "Inhibiting effect of cetirizine on histamine-induced and 48/80-induced wheals and flares, experimental dermographism, and cold-induced urticaria.",
+            "authors": [
+              "Juhlin L",
+              "de Vos C",
+              "Rihoux J P"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1987",
+            "abstract": "A single oral dose of cetirizine, 10 mg, a new H1 antagonist with minimal sedative effects and devoid of anticholinergic activities, was administered to eight healthy subjects. It markedly inhibited the wheal and flare induced 4 hours later by intracutaneously injected histamine and compound 48/80. Dermographism was produced by different pressures (100 to 500 gm/15 mm2) in 10 patients with factitial urticaria. Four hours after 10 mg of cetirizine, the whealing was absent in eight patients and ma",
+            "classification": {
+              "study_type": "Experimental (Pharmacodynamic)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2566292",
+            "title": "The natural history and response to therapy of chronic urticaria and angioedema.",
+            "authors": [
+              "Quaranta J H",
+              "Rohr A S",
+              "Rachelefsky G S",
+              "Siegel S C",
+              "Katz R M"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1989",
+            "abstract": "Previous reports have suggested that the etiology of chronic urticaria/angioedema (greater than 6 weeks) can be identified 10% to 30% of the time while few reports have addressed the natural history of chronic urticaria/angioedema. An analysis of all patients referred to the authors' practice between 1983-1985 with a diagnosis of urticaria/angioedema was performed. Patients with hereditary angioedema were excluded. Eighty-six of the 214 patients had chronic urticaria/angioedema. In the remaining",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12396959",
+            "title": "[Cold urticaria: review of 12 cases].",
+            "authors": [
+              "Santaolalla Montoya M",
+              "Martínez Molero María I",
+              "Santaolalla San Juana F",
+              "Baeza María L",
+              "Alonso Lebrero E"
+            ],
+            "journal": "Allergologia et immunopathologia",
+            "year": "2002",
+            "abstract": "Cold urticaria is caused after exposition to cold air, water and food. It is the third more frequent physical urticaria in pediatric population.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41429040",
+            "title": "Cold Urticaria Preventing Clearance For Scientific Diving.",
+            "authors": [
+              "Popa Daniel A",
+              "Winn Abigail R",
+              "Masters Thomas C",
+              "Logue Christopher"
+            ],
+            "journal": "Undersea & hyperbaric medicine : journal of the Undersea and Hyperbaric Medical Society, Inc",
+            "year": "2025",
+            "abstract": "We present a case of a 39-year-old healthy female scientific diver who developed cold urticaria (CU) 8 months prior, when immediately postpartum. She had extensive diving experience but discontinued diving during pregnancy and sought to resume diving. Before our consultation, she had seen a dermatologist and allergist for evaluation for an underlying etiology and management.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11702618",
+            "title": "Treatment of urticaria. An evidence-based evaluation of antihistamines.",
+            "authors": [
+              "Lee E E",
+              "Maibach H I"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2001",
+            "abstract": "Urticaria is a cutaneous syndrome characterized by dermal edema (wheal) and erythema (flare) that blanches with pressure. The lesions typically last less than 24 hours and are usually pruritic. In 1983, Christensen and Maibach summarized the theory behind the use of histamine H1 receptor antagonists (antihistamines) in clinical dermatology. These agents remain the mainstay of treatment for urticaria. This article reviews the medical literature on the effectiveness of antihistamines in urticarial",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1364168",
+            "title": "A comparison of new nonsedating and classical antihistamines in the treatment of primary acquired cold urticaria (ACU).",
+            "authors": [
+              "Villas Martínez F",
+              "Contreras F J",
+              "López Cazaña J M",
+              "López Serrano M C",
+              "Martínez Alzamora F"
+            ],
+            "journal": "Journal of investigational allergology & clinical immunology",
+            "year": "1992",
+            "abstract": "The efficacy of the new nonsedating antihistamines loratadine and cetirizine was compared in a randomized, single-blind, crossover, controlled study with that of the classical antihistamines cyproheptadine and ketotifen in seven patients with primary acquired cold urticaria (ACU). The patients received each of the four drugs for 14 consecutive days with a 7-day interval between drugs. We evaluated clinical symptomatology, adverse effects, minimum time of cold contact stimulation required to indu",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7002977",
+            "title": "Physical urticaria/angioedema: an experimental model of mast cell activation in humans.",
+            "authors": [
+              "Soter N A",
+              "Wasserman S I"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1980",
+            "abstract": "Urticaria and angioedema may occur in skin and mucus membranes when mast cells are activated by various physical stimuli, including trauma, pressure, vibration, light, cold, heat, and (in rare cases) water. Experimental challenge of patients with cold-induced and cholinergic urticaria/angioedema in particular provides an in vivo model of mast cell activation in humans. This model synthesizes observations of the evolution of clinical manifestations, histologic analysis of tissue alterations, meas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7022724",
+            "title": "Physical urticaria/angioedema as an experimental model of acute and chronic inflammation in human skin.",
+            "authors": [
+              "Soter N A"
+            ],
+            "journal": "Springer seminars in immunopathology",
+            "year": "1981",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6371106",
+            "title": "Exercise-induced hives.",
+            "authors": [
+              "Kaplan A P"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2662834",
+            "title": "Cold-induced cholinergic urticaria--case report.",
+            "authors": [
+              "Geller M"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1989",
+            "abstract": "A 9-year-old child with cold-induced cholinergic urticaria was studied. When exposed to cold water or ambient cold air, the patient developed generalized urticaria. The lesions consisted of punctate wheals and surrounding erythema similar to that seen in cholinergic urticaria. The patient did not react to cutaneous challenge with an ice cube and a cold water immersion test was negative. Urticaria was not provoked by vigorous exercise sufficient to cause profuse sweating. The methacholine skin te",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "475987",
+            "title": "Treatment of cold urticaria.",
+            "authors": [
+              "Highet A S",
+              "Titterington D M"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "1979",
+            "abstract": "In a single patient with severe essential acquired cold urticaria, the following drug regimes were assessed: diphenhydramine, cyproheptadine, hydroxyzine, terbutaline, cimetidine, hydroxyzine plus cimetidine, and hydroxyzine plus terbutaline. Each regime showed favourable results, but a significance level of P = 0.01 was reached only for (a) hydroxyzine plus cimetidine in the suppression of erythema, and (b) the histamine H1 antagonists in the suppression of wealing.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2892449",
+            "title": "Clinical pharmacodynamics of antihistamines.",
+            "authors": [
+              "Maddox D E",
+              "Reed C E"
+            ],
+            "journal": "Annals of allergy",
+            "year": "1987",
+            "abstract": "Antihistamines act by competing with histamine for H1 or H2 histamine receptors on cell membranes. In addition, most of the common antihistamines bind other receptors and thus exert other pharmacologic actions. For all practical purposes, mast cells and basophils are the main physiologic sources of histamine, and the primary usefulness of antihistamines is in diseases characterized by excessive production and release of histamine by these two cell types. Experimental models have proven useful fo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8341871",
+            "title": "Physical allergies and exercise. Clinical implications for those engaged in sports activities.",
+            "authors": [
+              "Briner W W"
+            ],
+            "journal": "Sports medicine (Auckland, N.Z.)",
+            "year": "1993",
+            "abstract": "There are several allergic responses that may occur in susceptible individuals as a result of exposure to physical stimuli. Most of these conditions are mediated by vasoactive substances and usually result in symptoms of urticaria and/or angioedema. There are 2 such conditions that may occur as a direct result from exercise. The first of these is cholinergic urticaria. Patients with cholinergic urticaria experience punctate (2 to 4mm) hives which occur reproducibly with exercise or with passive ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "冷接觸性蕁麻疹的核心機轉為低溫刺激誘發皮膚肥大細胞脫顆粒，大量釋放組織胺，觸發風團、血管性水腫。Hydroxyzine 之 H1 拮抗可直接阻斷此效應。關鍵文獻 PMID 6480953（1984）為直接比較研究，將 Hydroxyzine 與 cinnarizine、cyproheptadine、doxepin 比較於特發性冷蕁麻疹，提供 Hydroxyzine 在此適應症的唯一直接臨床記錄，機轉關聯度高（★★★★☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "recalcitrant atopic dermatitis",
+      "txgnn": {
+        "score": 0.9936091899871826,
+        "rank": 7728
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "難治性異位性皮膚炎涉及多軸免疫失調（Th2/Th22 主導、IL-4/IL-13/IL-31 過度表現）、皮膚屏障蛋白（Filaggrin）缺損及微生物群失衡。Hydroxyzine 的 H1 拮抗可暫時緩解組織胺介導的搔癢（非主要致癢機轉，IL-31 等細胞激素更關鍵），但無法修正根本免疫異常。對「難治性」定義患者尤其療效存疑。無任何臨床試驗或文獻支持，機轉關聯度低（★★☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "IgE responsiveness, atopic",
+      "txgnn": {
+        "score": 0.9926677346229552,
+        "rank": 8490
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "過敏性 IgE 反應機轉位於 B 細胞 IgE 類別轉換（受 IL-4/IL-13/CD40L 調控）及 FcεRI 受體致敏化。Hydroxyzine 作用於組織胺效應端（H1 受體），位於 IgE 致敏路徑的下游，無法調節 IgE 的產生、致敏化或過敏反應閾值。此為功能性生物標記預測而非獨立臨床疾病，再利用框架適用性有限，機轉關聯度極低（★☆☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "nasal cavity disease",
+      "txgnn": {
+        "score": 0.9874589443206788,
+        "rank": 12491
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00517946",
+            "title": "An Investigation to Evaluate the Technique of MRI as an Assessment of the Effect of Anti-allergy Drug Treatment on Internal Nasal and Sinus Mucosal Anatomy Following Intranasal Allergen Challenge in Subjects With Seasonal Allergic Rhinitis.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2007-03",
+            "completion_date": "2007-04",
+            "brief_summary": "The purpose of this study is to establish whether MRI scanning is a sensitive measure of the effects of existing drug treatments on nasal dimensions following challenge with intranasal allergen in subjects with hayfever. If successful this technique could be applied to increase confidence for internal decision making and ultimately may be used to assess how effective a new drug treatment is.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase N/A 探索性研究（n=21），以 MRI 評估抗過敏藥物對鼻腔結構的影響，規模極小，未明確指定 Hydroxyzine，研究設計屬影像學評估而非療效終點。僅提供機制探索性參考，不具臨床決策依據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22185740",
+            "title": "Nasal nitric oxide and nasal eosinophils decrease with levocetirizine in subjects with perennial allergic rhinitis.",
+            "authors": [
+              "Bautista Angela P",
+              "Eisenlohr Claudia P",
+              "Lanz Miguel J"
+            ],
+            "journal": "American journal of rhinology & allergy",
+            "year": "2011",
+            "abstract": "Allergic rhinitis is commonly treated with antihistamines. Monitoring improvement of airway inflammation noninvasively using nasal nitric oxide (nNO) would be clinically useful. To determine the anti-inflammatory effect of oral levocetirizine dihydrochloride (LC), we measured nNO and nasal eosinophils (nEos) in perennial allergic rhinitis (PAR) subjects.",
+            "classification": {
+              "study_type": "RCT (Levocetirizine for PAR)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36116201",
+            "title": "Shufeng Jiedu capsule ameliorates olfactory dysfunction via the AMPK/mTOR autophagy pathway in a mouse model of allergic rhinitis.",
+            "authors": [
+              "Chen Hongjun",
+              "Cheng Yujie",
+              "Du Hongmei",
+              "Zhang Cui",
+              "Zhou Yuan"
+            ],
+            "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+            "year": "2022",
+            "abstract": "Shufeng Jiedu capsule (SFJDC) has been widely used as a conventional Chinese pharmaceutical agent for various upper respiratory infections, including acute lung injury, acute respiratory distress syndrome and allergic rhinitis (AR). However, its mechanism in AR remains unclear.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35818943",
+            "title": "[Modern H1 antihistamines in the treatment of patients with allergic rhinitis and comorbid acute respiratory infections].",
+            "authors": [
+              "Ovchinnikov A Yu",
+              "Miroshnichenko N A",
+              "Nikolaeva Yu O"
+            ],
+            "journal": "Vestnik otorinolaringologii",
+            "year": "2022",
+            "abstract": "Patients with allergic rhinitis (AR) have a predisposition to frequent acute respiratory viral infections (ARVI). Inflammation of the mucous membrane of the nasal cavity and paranasal sinuses in such patients is more pronounced against the background of a combination of allergic and infectious inflammation.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "鼻腔疾病（特指過敏性鼻炎相關病變）涉及組織胺介導之鼻黏膜充血、腺體分泌增加及搔癢。Hydroxyzine 的 H1 拮抗及抗膽鹼效應（可減少黏液分泌）理論上可緩解相關症狀。然而現有文獻以 Levocetirizine、Cetirizine 等二代抗組織胺為主，缺乏 Hydroxyzine 之直接研究；且「nasal cavity disease」作為廣義診斷碼，機轉對應不精確，關聯度中等（★★★☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn": {
+        "score": 0.9867460131645204,
+        "rank": 13013
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "急性喉咽炎主要由病毒（鼻病毒、腺病毒等）或細菌感染引起，核心病理為感染性炎症。Hydroxyzine 無抗病毒或抗菌活性，H1 拮抗可能緩解部分過敏相關咽喉搔癢，但對感染性病因缺乏機轉干預。TxGNN 預測可能基於「上呼吸道-過敏-H1 連結」之知識圖譜關聯，屬預測性系統誤差。無任何臨床證據，機轉關聯度低（★★☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "parasitic conjunctivitis",
+      "txgnn": {
+        "score": 0.9861749410629272,
+        "rank": 13454
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "寄生蟲性結膜炎由特定病原（Acanthamoeba、眼吸蟲、蠅蛆等）直接感染引起，需抗寄生蟲治療。Hydroxyzine 完全不具抗寄生蟲活性，H1 拮抗僅可緩解繼發性組織胺介導之過敏反應（搔癢、充血），無法處理原發感染。TxGNN 評分（0.9862）與 chronic follicular conjunctivitis 及 serous conjunctivitis 完全相同，強烈提示為知識圖譜「結膜疾病」節點的系統性群聚預測，機轉關聯度極低（★☆☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "chronic follicular conjunctivitis",
+      "txgnn": {
+        "score": 0.9861749410629272,
+        "rank": 13455
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "慢性濾泡性結膜炎以結膜淋巴濾泡增生為特徵，多由 Chlamydia trachomatis、腺病毒慢性感染或毒性刺激（眼藥水防腐劑）引起，需病因導向治療。H1 拮抗對濾泡形成（T 細胞/B 細胞聚集）無直接效益。TxGNN 評分與其他結膜疾病完全相同（0.9862），確認為圖譜系統性輸出，無獨立機轉支持（★☆☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "serous conjunctivitis except viral",
+      "txgnn": {
+        "score": 0.9861749410629272,
+        "rank": 13453
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "非病毒性漿液性結膜炎若為過敏性成因，H1 拮抗理論上具部分症狀緩解效果；但 TxGNN 評分與 parasitic conjunctivitis（病因完全不同）完全相同（0.9862），暴露此三項結膜疾病預測為知識圖譜節點群聚效應，缺乏疾病特異性。現有結膜過敏治療以局部用藥為主，全身 Hydroxyzine 的合理性需另立研究問題，目前無臨床證據（★★☆☆☆）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "allergic urticaria"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "rosacea conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "cold urticaria"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "recalcitrant atopic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "IgE responsiveness, atopic"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "nasal cavity disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "acute laryngopharyngitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "parasitic conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "chronic follicular conjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Hydroxyzine",
+        "disease": "serous conjunctivitis except viral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

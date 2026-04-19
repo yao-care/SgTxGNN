@@ -1,0 +1,869 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00210-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Adapalene",
+    "drugbank_id": "DB00210",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "zinc, elevated plasma",
+      "txgnn": {
+        "score": 0.9950991272926332,
+        "rank": 6401
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Adapalene 透過 RAR 路徑調控鋅指轉錄因子，鋅與視黃素訊號存在間接交互作用；但「治療血漿鋅升高」此方向無任何生物合理性文獻支持，高分為 KG 訓練偏差所致。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "isolated congenital adermatoglyphia",
+      "txgnn": {
+        "score": 0.9880149960517884,
+        "rank": 12050
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性無指紋症由 SMARCAD1 突變引起，屬發育性遺傳疾病。視黃素訊號影響胚胎皮膚形態發生，但 Adapalene 為局部外用藥且無產前治療數據，機轉關聯極為薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "Beare-Stevenson cutis gyrata syndrome",
+      "txgnn": {
+        "score": 0.987815797328949,
+        "rank": 12199
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症由 FGFR2 功能獲得性突變引起（皮膚腦回狀皺褶 + 顱縫早閉）。部分視黃素可調節 FGFR 訊號，但 Adapalene 對此遺傳症候群無任何已知治療效果，屬純計算推斷。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "demodicidosis of sebaceous gland",
+      "txgnn": {
+        "score": 0.9544799327850342,
+        "rank": 25599
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Adapalene 正規化皮脂腺角質細胞分化、減少粉刺形成，可能改變毛囊皮脂腺單位微環境，間接不利於蠕形螨寄生。抗炎特性亦可緩解螨蟲引發的局部炎症。雖有生物合理性，仍無任何直接臨床試驗或文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome",
+      "txgnn": {
+        "score": 0.9529984593391418,
+        "rank": 25963
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "PAPA 症候群（PSTPIP1 突變）三聯徵中，Adapalene 對「痤瘡（Acne）」成分具直接藥理作用，可能部分緩解皮膚症狀；但對化膿性關節炎與壞疽性膿皮病（炎症體通路）無直接機轉，屬局部對症處理而非疾病修飾。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "prolidase deficiency",
+      "txgnn": {
+        "score": 0.8932904005050659,
+        "rank": 35476
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脯氨酸酶缺乏症導致膠原蛋白代謝障礙與皮膚潰瘍。視黃素可促進傷口癒合與皮膚屏障修復，但 Adapalene 局部作用機轉與此症的代謝酶缺陷無直接相關，KG 預測可能基於皮膚症狀共現節點。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn": {
+        "score": 0.8721057176589966,
+        "rank": 37447
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "全身性視黃素（如異維A酸）確實影響骨代謝（抑制成骨細胞、加速骨吸收），但 Adapalene 為外用製劑，全身吸收極低（< 1 ng/mL），無法產生足夠的全身性骨代謝效應。此預測方向反而揭示潛在骨安全性疑慮，而非治療用途。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "seborrheic dermatitis",
+      "txgnn": {
+        "score": 0.8627772331237793,
+        "rank": 38225
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05497323",
+            "title": "Effectivity and Safety of Combination Cream of Salicylic Acid, Aqua Posae Filiformis, Niacinamide, Lipohydroxy Acid, Procerad and Zinc PCA as Adjuvant Therapy for Acne Vulgaris Mild to Moderate",
+            "phase": "PHASE1",
+            "status": "UNKNOWN",
+            "enrollment": 284,
+            "start_date": "2022-08-01",
+            "completion_date": "2023-05-01",
+            "brief_summary": "This clinical study will compare the effectivity and safety of combination cream of Salicylic Acid, Aqua Posae Filiformis, Niacinamide, Lipohydroxy Acid, Procerad, and Zinc PCA as adjuvant therapy for acne vulgaris patients. These combination cream will be tested by mild to moderate acne vulgaris patients. Participants will be female patients aged 15-50 years old and divided into three groups. The control group (Group 1) will use Adapalene 0.1% cream only every night. Group 2 will use Adapalene ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究複合乳霜配方，成分中不含 Adapalene；且適應症為痤瘡相關皮膚，非脂漏性皮膚炎。收錄原因可能為研究皮膚狀況關鍵字重疊，與本適應症關聯性極低。"
+            }
+          },
+          {
+            "nct_id": "NCT06281782",
+            "title": "Platelet-rich Plasma With Topical Retinoids Versus Topical Retinoids Alone in Acne Vulgaris: Randomized Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2024-01-01",
+            "completion_date": "2024-05",
+            "brief_summary": "Acne vulgaris is the most common skin disease in adolescents and young adults. Adult or post-adolescent acne occurs in 12-14% of this population.It is a chronic, inflammatory disease of the pilosebaceous unit .The clinical features of acne include seborrhoea, non-inflammatory lesions (open and closed comedones), inflammatory lesions (papules and pustules), and various degrees of scarring.\n\nPlatelet-rich plasma (PRP) is prepared by simple centrifugation of whole blood to concentrate platelets and",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究外用視黃素（可能包含 Adapalene）用於痤瘡，非脂漏性皮膚炎。提供視黃素類藥物皮膚安全性資料，但對 SD 無直接證據。"
+            }
+          },
+          {
+            "nct_id": "NCT03076320",
+            "title": "Molecular and Clinical Study of the Effect of Zaxcell Versus Effezel in the Inflammatory and Scarring Process of Moderate and Severe Acne",
+            "phase": "PHASE1, PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 82,
+            "start_date": "2017-03-27",
+            "completion_date": "2019-03-31",
+            "brief_summary": "Acne vulgaris is a complex skin disorder involving multiple abnormalities of the pilosebaceous unit. Acne is the most common skin disease during puberty and worsens throughout adolescence. However, epidemiological studies suggest that acne can arise at any age, most frequently affecting individuals between puberty and 30 years of age, with 79%-95% of subjects aged between 16 years and 18 years and 80% of subjects between puberty and 30 years of age. Acne is considered the main reason for consult",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Effezel 含 Adapalene 0.1% + BPO，研究炎症性皮膚病變，雖非 SD，但提供 Adapalene 對炎症性皮膚疾病的 Phase 1/2 安全性數據，間接支持作用機轉。相關性中等。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39069843",
+            "title": "Investigation of the effect of adapalene 0.3%/benzoyl peroxide 2.5% gel in Korean patients with acne: a randomized, double-blind clinical trial, with a histopathological and immunohistochemical study.",
+            "authors": [
+              "Lee Jun-Hyo",
+              "Kim Dong-Hyo",
+              "Yoon Ji-Young",
+              "Kim Tae-Min",
+              "Kim Seong-Rae"
+            ],
+            "journal": "Italian journal of dermatology and venereology",
+            "year": "2024",
+            "abstract": "Acne vulgaris poses significant physical and psychological challenges worldwide. Data of adapalene 0.3%/benzoyl peroxide 2.5% gel (A0.3/BPO2.5) for acne treatment in Asian patients is limited.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36102580",
+            "title": "Influence of moisturizer containing licochalcone A, 1,2-decanediol, L-carnitine, and salicylic acid on facial skin lipidome among seborrhea participants.",
+            "authors": [
+              "Wongtada Chanidapa",
+              "Pewlong Putthamas",
+              "Asawanonda Pravit",
+              "Noppakun Nopadon",
+              "Pongpamorn Pornkanok"
+            ],
+            "journal": "Journal of cosmetic dermatology",
+            "year": "2022",
+            "abstract": "A better understanding of skin lipidomics and its alteration under treatment administration might offer therapeutic solutions for seborrhea.",
+            "classification": {
+              "study_type": "Clinical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27504089",
+            "title": "Inframammary Dermatitis: A Case of Localized Late-Onset Darier's Disease.",
+            "authors": [
+              "Linder Dennis",
+              "Marinello Elena",
+              "Donisi Pietro Maria",
+              "Salmaso Roberto",
+              "Zattra Edoardo"
+            ],
+            "journal": "Case reports in dermatology",
+            "year": "2016",
+            "abstract": "Darier's disease (DD) is an autosomal dominant inherited genodermatosis which is often under- or misdiagnosed. In the majority of cases, the disease manifests in adolescents or young adults with small brownish-yellow, warty, hyperkeratotic papules in multiple seborrheic areas of the body. Localized DD (LDD) is a clinical variant, first described by Kreibich in 1906; only a few cases are reported in the literature. We described the case of an aged woman presenting with LDD, and we review the lite",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Adapalene 正規化角質細胞分化、抗炎（抑制 TLR 訊號、IL-6/IL-8），可能改善脂漏性皮膚炎的角質化異常與炎症；亦可能間接影響 Malassezia 寄生環境（皮脂調節）。惟此為機轉推斷，現有 3 篇試驗均為痤瘡研究，並非直接研究 SD，文獻亦不直接支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "sebaceous gland anomaly",
+      "txgnn": {
+        "score": 0.8516122698783875,
+        "rank": 39076
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02557399",
+            "title": "Clinical Evaluation of Efficacy at 2 Weeks of Duac® Fixed Dose Combination Gel in Treatment of Facial Acne Vulgaris in Japanese Subjects",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 350,
+            "start_date": "2015-10-07",
+            "completion_date": "2016-02-17",
+            "brief_summary": "This is a multicentre, randomized, single-blind (investigator is blinded), active (the combination therapy of adapalene \\[ADA\\] and clindamycin \\[CLDM\\])-controlled and parallel-group study in Japanese subjects with facial acne vulgaris. The purpose of this study is to evaluate the efficacy, safety and tolerability of CLDM 1 percent (%)-benzoyl peroxide 3% (Duac®: trademark owned by GlaxoSmithKline) once daily fixed dose combination gel versus combination therapy of ADA 0.1% gel and CLDM 1% gel ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "研究 BPO 複方治療同類皮脂腺病變，提供同適應症的活性對照數據，但不含 Adapalene，為間接比較依據。"
+            }
+          },
+          {
+            "nct_id": "NCT00446043",
+            "title": "A Long-term Safety and Efficacy Study of a Fixed Combination of Adapalene 0.1% and Benzoyl Peroxide 2.5% (Adapalene and Benzoyl Peroxide Topical Gel) Gel in Subjects With Acne Vulgaris",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 452,
+            "start_date": "2004-02-17",
+            "completion_date": "2005-05-23",
+            "brief_summary": "This was a multi-center, open-label, non-comparative study that evaluated the long-term safety and efficacy profile of Adapalene/Benzoyl Peroxide Gel.\n\nSubjects were evaluated at Baseline, Weeks 1 and 2, and Months 1, 2, 4, 6, 8, 10, and 12.\n\nSafety was evaluated by spontaneous reports of Adverse Events (AEs), the Local Tolerability Assessment (Erythema, Scaling, Dryness, and Stinging/Burning), routine laboratory testing (hematology, blood chemistry, and urinalysis), and monitoring of suspected ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "直接研究 Adapalene 0.1% 複方製劑，Phase 3 完成，樣本數 452 人，長期安全性數據完整。皮脂腺異常是痤瘡的核心病理，此試驗為最強直接證據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25217865",
+            "title": "Efficacy of 0.1% adapalene in a non-inflammatory Kyoto Rhino Rat acne model.",
+            "authors": [
+              "Yoshimasu Takashi",
+              "Kuramoto Takashi",
+              "Kaminaka Chikako",
+              "Kanazawa Nobuo",
+              "Yamamoto Yuki"
+            ],
+            "journal": "Journal of dermatological science",
+            "year": "2014",
+            "abstract": "Acne vulgaris is a disorder of the pilosebaceous unit of the skin, and the underlying mechanism is still obscure. Kyoto rhino (krh/krh) rats were made by ethylnitrosourea (ENU) mutagenesis and harbor S413X nonsense mutation of the rat hairless (Hr) gene. Krh/krh rats develop comedones with hair loss on their back as they grow.",
+            "classification": {
+              "study_type": "Animal Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Adapalene 核心機轉即作用於毛囊皮脂腺單位：結合 RAR-β/γ 使皮脂腺導管角質細胞分化正常化、減少微粉刺形成、降低皮脂腺腺管阻塞。「皮脂腺異常」此分類在臨床編碼上高度重疊於粉刺性/痤瘡性皮脂腺病變，與 Adapalene 既有核准適應症直接對應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "inherited skin tumor",
+      "txgnn": {
+        "score": 0.8292076587677002,
+        "rank": 40400
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "視黃素類藥物在皮膚腫瘤化學預防有既有理論基礎（如基底細胞癌、皮膚鱗狀細胞癌的化學預防），透過調節腫瘤抑制基因表達、細胞週期調控（CDK 抑制）與促凋亡路徑。遺傳性皮膚腫瘤（如 Gorlin 症候群）中全身性視黃素有探索性用途，但 Adapalene 外用形式對遺傳性腫瘤無直接臨床試驗或文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "zinc, elevated plasma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "zinc, elevated plasma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "zinc, elevated plasma"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "isolated congenital adermatoglyphia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "Beare-Stevenson cutis gyrata syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "demodicidosis of sebaceous gland"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "pyogenic arthritis-pyoderma gangrenosum-acne syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "prolidase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "prolidase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "prolidase deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "seborrheic dermatitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "sebaceous gland anomaly"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "sebaceous gland anomaly"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "sebaceous gland anomaly"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "inherited skin tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "inherited skin tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Adapalene",
+        "disease": "inherited skin tumor"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+## Crisaborole (DB05219) 藥物再利用證據分析
+
+**背景說明**：Crisaborole 為選擇性 PDE4 抑制劑（磷酸二酯酶 4），在美國已以 Eucrisa® 上市用於異位性皮膚炎，但本系統標記為「未上市」（可能指當地市場），原始適應症欄位空白，故以再利用框架進行全適應症評估。
+
+---
+
+```json
+{
+  "drug": "Crisaborole",
+  "drugbank_id": "DB05219",
+  "moa": "PDE4（磷酸二酯酶 4）抑制劑，升高胞內 cAMP，下調 IL-4、IL-13、IL-31、TNF-α 等促炎細胞激素",
+  "analysis_date": "2026-04-04",
+  "indications": [
+    {
+      "disease_name": "dermatitis（特指 atopic dermatitis）",
+      "txgnn_score": 0.966,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "PDE4 抑制 → cAMP 升高 → Th2 細胞激素（IL-4、IL-13、IL-31）與 TNF-α 下調 → 減少皮膚屏障損傷與搔癢。此為藥物設計之主要靶點，機轉直接且有 biomarker 試驗佐證（NCT03868098；PMID 31419544）。",
+      "guardrails": [
+        "局部塗抹劑型，全身暴露量低，安全性輪廓相對佳",
+        "適用族群：輕中度異位性皮膚炎 ≥2 歲（部分試驗延伸至 3 個月齡）",
+        "當地（新加坡）未上市，需取得藥證或在同情用藥框架下使用",
+        "須持續監測塗抹部位刺激反應"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02118766",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 763,
+          "relevance_grade": "A",
+          "reasoning": "樞紐 Phase 3 RCT，雙盲、載體對照，直接支持 crisaborole 2% 軟膏用於輕中度 AD 的療效與安全性，為 FDA 核准之主要依據之一。"
+        },
+        {
+          "nct_id": "NCT02118792",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 764,
+          "relevance_grade": "A",
+          "reasoning": "同系列第二樞紐 Phase 3 RCT，雙盲、載體對照，與 NCT02118766 共同構成核准基礎，總受試人數超過 1,500 人。"
+        },
+        {
+          "nct_id": "NCT03645057",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 92,
+          "relevance_grade": "A",
+          "reasoning": "ASPIRE 研究：crisaborole vs. tacrolimus 0.03%，評估患者報告結局（PRO），提供與標準治療的比較數據，直接相關。"
+        },
+        {
+          "nct_id": "NCT03356977",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 137,
+          "relevance_grade": "A",
+          "reasoning": "上市後 Phase 4 安全性研究，專注 3 個月至 2 歲幼童，擴展安全性資料庫。"
+        },
+        {
+          "nct_id": "NCT03868098",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 31,
+          "relevance_grade": "A",
+          "reasoning": "患者內隨機試驗（intra-individual RCT），評估皮膚生物標誌物變化，提供機轉佐證。"
+        },
+        {
+          "nct_id": "NCT07437534",
+          "phase": "PHASE4",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 148,
+          "relevance_grade": "B",
+          "reasoning": "crisaborole 2% vs. tacrolimus 0.1% 比較研究，尚未招募，未來可補充比較療效數據。"
+        },
+        {
+          "nct_id": "NCT07162896",
+          "phase": "PHASE3",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 66,
+          "relevance_grade": "B",
+          "reasoning": "兒科族群新 Phase 3 研究，尚未開始，設計相關但數據尚無。"
+        },
+        {
+          "nct_id": "NCT05200403",
+          "phase": "PHASE4",
+          "status": "TERMINATED",
+          "enrollment": 72,
+          "relevance_grade": "B",
+          "reasoning": "評估搔癢行為與睡眠改善的 Phase 4 研究，雖然提前終止，部分中期資料或有參考價值。"
+        },
+        {
+          "nct_id": "NCT07438509",
+          "phase": "PHASE4",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 270,
+          "relevance_grade": "B",
+          "reasoning": "crisaborole 2% 乳霜劑型（非軟膏）Phase 4 研究，尚未招募，可能提供新劑型數據。"
+        },
+        {
+          "nct_id": "NCT05016284",
+          "phase": "PHASE3",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "已撤回且無受試者入組，數據貢獻為零。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "27417017",
+          "title": "Efficacy and safety of crisaborole ointment... Phase 3",
+          "study_type": "Phase 3 RCT",
+          "year": "2016",
+          "tier": "1",
+          "comment": "核心樞紐 RCT，ISGA 評估主要終點達標，直接支持 L1 定級。"
+        },
+        {
+          "pmid": "38108679",
+          "title": "2023 AAAAI/ACAAI AD guidelines",
+          "study_type": "Clinical Practice Guideline",
+          "year": "2024",
+          "tier": "1",
+          "comment": "美國過敏/免疫學會聯合指引，明確納入 crisaborole 為輕中度 AD 建議用藥，代表最高共識等級。"
+        },
+        {
+          "pmid": "37678572",
+          "title": "Topical treatments for atopic dermatitis: Systematic review and network meta-analysis",
+          "study_type": "Systematic Review / Network Meta-Analysis",
+          "year": "2023",
+          "tier": "1",
+          "comment": "納入多種局部療法的網絡統合分析，crisaborole 療效在輕中度 AD 族群獲得量化排序。"
+        },
+        {
+          "pmid": "38358466",
+          "title": "Efficacy and safety of Ruxolitinib, Crisaborole, and Tapinarof",
+          "study_type": "Comparative Efficacy Analysis / Meta-analysis",
+          "year": "2024",
+          "tier": "1",
+          "comment": "新世代局部療法的比較研究，提供 crisaborole 相對療效的最新量化數據。"
+        },
+        {
+          "pmid": "31419544",
+          "title": "Crisaborole and atopic dermatitis skin biomarkers: An intrapatient randomized trial",
+          "study_type": "Intrapatient RCT（biomarker）",
+          "year": "2019",
+          "tier": "2",
+          "comment": "機轉佐證研究，確認 PDE4 抑制對皮膚炎症生物標誌物的直接影響。"
+        },
+        {
+          "pmid": "32412211",
+          "study_type": "Clinical Review",
+          "year": "2020",
+          "tier": "2",
+          "comment": "診斷與治療綜述，提供 crisaborole 在臨床情境中的定位說明。"
+        },
+        {
+          "pmid": "34059241",
+          "study_type": "Clinical Review",
+          "year": "2021",
+          "tier": "2",
+          "comment": "皮膚炎管理綜述，含 AD、接觸性皮膚炎及手部濕疹的治療選擇概述。"
+        },
+        {
+          "pmid": "31474543",
+          "study_type": "Clinical Review",
+          "year": "2020",
+          "tier": "2",
+          "comment": "AD 更新綜述，涵蓋嚴重度評估與 crisaborole 在輕中度病患的治療選擇。"
+        },
+        {
+          "pmid": "29930242",
+          "study_type": "Review（Lancet）",
+          "year": "2018",
+          "tier": "2",
+          "comment": "Lancet 系列疾病綜述，提供 crisaborole 的上市後整體定位。"
+        },
+        {
+          "pmid": "27283509",
+          "study_type": "Early Clinical Study Overview",
+          "year": "2016",
+          "tier": "2",
+          "comment": "早期臨床試驗總覽，涵蓋 Phase 1/2 安全性與機轉概念驗證數據。"
+        }
+      ]
+    },
+    {
+      "disease_name": "exanthem (disease)",
+      "txgnn_score": 0.986,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Exanthem（皮疹）為廣義皮膚炎症表現，PDE4 抑制可透過下調 IL-4/IL-13/TNF-α 減輕炎症反應，但 exanthem 病因多元（病毒感染、藥物反應、免疫介導），PDE4 抑制之療效高度依賴致病機轉，間接推論尚不足以支持直接應用。",
+      "notes": "TxGNN 分數最高（0.986）可能因 exanthem 與 AD 在知識圖譜中高度鄰近（均為炎症性皮膚病節點），但臨床異質性大，需進一步研究界定適用亞型。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06118047",
+          "phase": "PHASE2",
+          "status": "UNKNOWN",
+          "enrollment": 33,
+          "relevance_grade": "B",
+          "reasoning": "標題截斷，疑為 crisaborole 用於特定皮膚疹型的 Phase 2 研究。狀態標記 UNKNOWN，資料可信度受限；規模小（n=33），僅能作為探索性參考。"
+        },
+        {
+          "nct_id": "NCT07352566",
+          "phase": "PHASE4",
+          "status": "NOT_YET_RECRUITING",
+          "enrollment": 10,
+          "relevance_grade": "C",
+          "reasoning": "研究主體為皮膚內微型裝置（In Situ Microdevice），crisaborole 可能僅為比較藥物之一；n=10 極小，尚未招募，與 exanthem 特異性無直接關聯。"
+        },
+        {
+          "nct_id": "NCT03409367",
+          "phase": "NA",
+          "status": "COMPLETED",
+          "enrollment": 1260,
+          "relevance_grade": "C",
+          "reasoning": "社區觀察性研究（Phase NA），主題為皮膚護理、過敏及濕疹，並非 exanthem 的介入試驗，僅提供流行病學背景資料，療效相關性低。"
+        }
+      ],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acne keloid",
+      "txgnn_score": 0.958,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "瘢痕疙瘩形成涉及 TGF-β 過度活化與纖維母細胞增生。PDE4 抑制理論上可減輕炎症反應，間接減少瘢痕觸發，但 TGF-β/纖維化路徑非 PDE4 主要調控軸，機轉關聯薄弱，且無任何臨床或前臨床試驗支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "neonatal dermatomyositis",
+      "txgnn_score": 0.952,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "新生兒皮肌炎為自體免疫介導之肌皮炎症疾病。PDE4 抑制雖有抗炎效果，但：(1) 皮肌炎之主要免疫路徑（干擾素信號、肌炎特異性抗體）不在 PDE4 調控核心；(2) 局部軟膏劑型無法達到全身肌肉免疫調控所需濃度；(3) 無任何臨床試驗或文獻支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "acrodermatitis chronica atrophicans",
+      "txgnn_score": 0.951,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此疾病為 Borrelia burgdorferi 感染所致萊姆病晚期皮膚表現，病理核心為感染誘發之萎縮性皮膚病變。根本治療需針對病原菌（抗生素），PDE4 抑制僅可能緩解局部炎症，但在感染病因持續存在下，抗炎治療可能掩蓋病情；無任何臨床數據支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "bronchitis",
+      "txgnn_score": 0.950,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口服 PDE4 抑制劑（如 roflumilast）已核准用於 COPD，支氣管炎症之 PDE4 路徑有理論基礎。然而 crisaborole 為局部外用劑型，生物可利用率極低，無法達到氣道有效藥物濃度；劑型上的生物學不可行性使此適應症評估意義有限。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "txgnn_score": 0.948,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "兒童結締組織病相關繼發性間質性肺病（chILD-CTD）為複雜免疫介導之肺部疾病，需全身性免疫抑制治療。局部塗抹之 crisaborole 無法到達肺部靶組織，且該疾病之炎症路徑遠比 PDE4 軸複雜（TGF-β、JAK/STAT 等）；劑型與適應症生物學完全不匹配。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hydroa vacciniforme, familial",
+      "txgnn_score": 0.948,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "家族性水痘樣種痘症為光敏感性疾病，與 EBV 感染及 NK/T 細胞異常活化相關。PDE4 抑制在此疾病中無明確機轉連結；病理為病毒驅動之免疫失調，非單純 Th2 炎症。無任何臨床或前臨床數據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "amyopathic dermatomyositis",
+      "txgnn_score": 0.945,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "無肌病皮肌炎（ADM）以皮膚表現為主（缺乏肌肉受累），PDE4 抑制對皮膚炎症理論上有抗炎效益，且局部用藥可覆蓋皮膚受損部位。相較於其他肺/全身性疾病適應症，此為機轉上較可能可行的皮膚再利用場景。然而目前完全無臨床數據，需前臨床或 Phase 1 探索性研究確認。",
+      "notes": "若有前臨床或病例系列（case series）數據支持，可升至 L4；建議作為皮膚科學術研究問題追蹤。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pityriasis simplex",
+      "txgnn_score": 0.878,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "單純糠疹（pityriasis simplex）為乾燥性鱗屑性皮膚病，炎症成分相對輕微，常自限。雖 PDE4 抑制有抗炎效益，但疾病嚴重度不足以驗證使用已有療效要求的 PDE4 抑制劑；無臨床數據且臨床需求低。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 0,
+    "L4_count": 1,
+    "L5_count": 8,
+    "S3_proceed": ["dermatitis"],
+    "S1_early_evaluation": ["exanthem (disease)"],
+    "S0_hold": [
+      "acne keloid",
+      "neonatal dermatomyositis",
+      "acrodermatitis chronica atrophicans",
+      "bronchitis",
+      "secondary interstitial lung disease specific to childhood associated with a connective tissue disease",
+      "hydroa vacciniforme familial",
+      "pityriasis simplex"
+    ],
+    "S0_research_question": ["amyopathic dermatomyositis"],
+    "key_finding": "Crisaborole 在 dermatitis（尤其異位性皮膚炎）具備 L1 最高等級證據，有多個已完成 Phase 3 RCT 及國際指引背書，主要障礙為當地藥證取得而非科學不確定性。其餘九個 TxGNN 高分適應症均停留在 L5 純預測階段，多數存在劑型生物學障礙（呼吸道適應症）或機轉關聯薄弱問題。amyopathic dermatomyositis 為值得關注的皮膚科研究問題，具初步機轉合理性。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN | 試驗數 | 文獻數 | 等級 | 階段 | 建議 |
+|--------|-------|--------|--------|------|------|------|
+| **dermatitis** | 0.966 | 33 | 18 | **L1** | **S3** | ✅ Proceed with Guardrails |
+| **exanthem** | 0.986 | 3 | 0 | L4 | S1 | 🔬 Research Question |
+| **amyopathic dermatomyositis** | 0.945 | 0 | 0 | L5 | S0 | 🔬 Research Question* |
+| acne keloid | 0.958 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| neonatal dermatomyositis | 0.952 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| acrodermatitis chronica atrophicans | 0.951 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| **bronchitis** | 0.950 | 0 | 0 | L5 | S0 | ⛔ Hold（劑型不可行）|
+| secondary ILD（兒童）| 0.948 | 0 | 0 | L5 | S0 | ⛔ Hold（劑型不可行）|
+| hydroa vacciniforme | 0.948 | 0 | 0 | L5 | S0 | ⛔ Hold |
+| pityriasis simplex | 0.878 | 0 | 0 | L5 | S0 | ⛔ Hold |
+
+> \* amyopathic dermatomyositis 雖列 Hold，但機轉合理性略高於其他 L5 適應症，建議作為**學術研究問題**追蹤。
+
+### ⚠️ 重要觀察
+
+1. **TxGNN 分數與臨床證據等級不相關**：exanthem 分數最高（0.986）但僅 L4；bronchitis 分數達 0.950 但因**劑型生物學不可行**直接排除
+2. **呼吸道適應症存在根本障礙**：口服 PDE4 抑制劑（roflumilast）有呼吸道適應症，但 crisaborole 為局部外用，此機轉類比不能跨越劑型限制
+3. **dermatitis 的當地策略**：核心障礙為法規（當地藥證），而非科學不確定性——建議優先評估藥證申請可行性

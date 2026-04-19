@@ -1,0 +1,473 @@
+```json
+{
+  "drug": "Acalabrutinib",
+  "drugbank_id": "DB11703",
+  "analysis_date": "2026-04-03",
+  "global_approval_context": "雖本地標記為「未上市」，Acalabrutinib 已獲 FDA 批准用於 MCL（2017）及 CLL/SLL（2019），EMA 亦有核准。下列評估整合全球審批與在地市場現狀。",
+  "indications": [
+    {
+      "disease_name": "lymphoma, non-Hodgkin, familial",
+      "txgnn_score": 0.9764,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Acalabrutinib 選擇性共價抑制 BTK（Bruton 酪胺酸激酶），阻斷 B 細胞受體（BCR）下游 NF-κB、PI3K-AKT 及 MAPK 訊號通路，切斷大多數 B 細胞淋巴瘤亞型（包含 MCL、DLBCL、FL 等 NHL 亞型）之存活與增殖驅動力。MCL 為 NHL 亞型，已有 FDA 核准。非家族性 NHL 廣泛亞型尚有多項 Phase 2 完成試驗支撐。",
+      "evidence_summary": "多項 Phase 2 RCT 已完成，涵蓋 MCL（acalabrutinib 單藥/聯合 BR、venetoclax+rituximab、lenalidomide+rituximab）；一項 Phase 3 正在招募中（Rocbrutinib，BTK 類別級佐證）；Acalabrutinib 已獲 FDA MCL 核准（ACE-LY-004 Phase 2 奠基）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT07377578",
+          "title": "Rocbrutinib vs BTK inhibitor, Phase III, 394 pts",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Rocbrutinib 而非 Acalabrutinib，提供 BTK 類別 NHL 臨床活性佐證，但不直接計入 Acalabrutinib 證據鏈。"
+        },
+        {
+          "nct_id": "NCT03899337",
+          "title": "CHOP-R ± Acalabrutinib, Phase II, 105 pts, RECRUITING",
+          "relevance_grade": "A",
+          "reasoning": "直接測試 Acalabrutinib 聯合 CHOP-R 於 NHL 患者，隨機設計，樣本數足夠，正在招募中，高度相關。"
+        },
+        {
+          "nct_id": "NCT04257578",
+          "title": "Acalabrutinib + CAR-T in B-Cell Lymphoma, Phase I/II, 23 pts",
+          "relevance_grade": "A",
+          "reasoning": "直接評估 Acalabrutinib 與 CD19 CAR-T 聯合策略於 B 細胞淋巴瘤，探索協同機制，樣本數雖小但設計嚴謹。"
+        },
+        {
+          "nct_id": "NCT03623373",
+          "title": "Acalabrutinib + BR → Cytarabine/R, Phase II, 13 pts, COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "MCL（NHL 亞型）之 Acalabrutinib 聯合化療完成試驗，奠定序貫療法安全性資料。"
+        },
+        {
+          "nct_id": "NCT04094142",
+          "title": "Acalabrutinib + Rituximab + Lenalidomide in R/R B-cell NHL, Phase II, 66 pts, COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "R/R B 細胞 NHL 完成試驗，66 名受試者，直接測試 Acalabrutinib 三藥聯合方案。"
+        },
+        {
+          "nct_id": "NCT04502394",
+          "title": "KRT-232 + Acalabrutinib, Phase I/II, 84 pts",
+          "relevance_grade": "B",
+          "reasoning": "Acalabrutinib 為聯合用藥之一，主要研究 MDM2 抑制劑 KRT-232；提供安全性與潛在協同資訊。"
+        },
+        {
+          "nct_id": "NCT03740529",
+          "title": "LOXO-305 (Pirtobrutinib) in CLL/NHL, Phase I/II, 803 pts, COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 Pirtobrutinib，非 Acalabrutinib；大型試驗提供 BTK 類別 NHL 活性廣泛佐證。"
+        },
+        {
+          "nct_id": "NCT04419389",
+          "title": "APR-246 + Acalabrutinib, Phase I/II, 1 pt, TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "僅納入 1 名受試者即提前終止，無法提供有效臨床資料。"
+        },
+        {
+          "nct_id": "NCT04836832",
+          "title": "Duvelisib + Acalabrutinib in R/R Indolent NHL, Phase Ib/II, 0 pts, WITHDRAWN",
+          "relevance_grade": "C",
+          "reasoning": "試驗撤回，無受試者入組，無法提供臨床證據。"
+        },
+        {
+          "nct_id": "NCT04546620",
+          "title": "Molecular Guided Therapy for DLBCL, Phase II, 453 pts, ACTIVE",
+          "relevance_grade": "B",
+          "reasoning": "大型分子指導型 DLBCL 試驗，Acalabrutinib 可能為治療臂之一，提供 BTK 在 DLBCL 之分層療效資訊。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "40311141",
+          "title": "Acalabrutinib + BR in Untreated MCL (2025)",
+          "study_type": "Phase II Clinical Trial",
+          "tier": "1",
+          "note": "未經治療 MCL 之 Acalabrutinib 聯合 BR 方案最新 Phase II 結果，直接支撐證據。"
+        },
+        {
+          "pmid": "38781315",
+          "title": "Acalabrutinib + Venetoclax + Rituximab in Treatment-Naive MCL, 2-year Safety (2024)",
+          "study_type": "Phase II Clinical Trial",
+          "tier": "1",
+          "note": "三藥無化療方案長期安全性資料，臨床決策關鍵參考。"
+        },
+        {
+          "pmid": "38555311",
+          "title": "Acalabrutinib + Lenalidomide + Rituximab in R/R Aggressive B-cell NHL (2024)",
+          "study_type": "Phase II Clinical Trial",
+          "tier": "1",
+          "note": "積極型 B 細胞 NHL 之直接療效資料。"
+        },
+        {
+          "pmid": "29241979",
+          "title": "ACE-LY-004: Acalabrutinib Monotherapy in R/R MCL (2018)",
+          "study_type": "Phase II Single-Arm RCT",
+          "tier": "1",
+          "note": "FDA 核准 MCL 適應症之奠基試驗，ORR 81%，高度關鍵。"
+        },
+        {
+          "pmid": "37470152",
+          "title": "Final Results from Phase II Acalabrutinib Monotherapy (2024)",
+          "study_type": "Phase II Clinical Trial",
+          "tier": "1",
+          "note": "長期隨訪最終結果，包含 OS 資料，支撐持久療效評估。"
+        },
+        {
+          "pmid": "36029036",
+          "title": "Resistance to BTK Inhibition in CLL and NHL (2023)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "耐藥機制系統性回顧，對設計後線策略具指導意義。"
+        },
+        {
+          "pmid": "35266562",
+          "title": "MCL 2022 Comprehensive Update (2022)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "疾病分子機制、危險分層及治療現況全面更新，提供臨床決策框架。"
+        },
+        {
+          "pmid": "30963600",
+          "title": "MCL 2019 Update (2019)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "奠定 Acalabrutinib 在 MCL 治療位置之背景文獻。"
+        },
+        {
+          "pmid": "38578606",
+          "title": "New Means and Challenges in Targeting BTK (2024)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "BTK 靶向治療最新進展與挑戰，包含 Acalabrutinib 選擇性優勢討論。"
+        },
+        {
+          "pmid": "29209955",
+          "title": "Acalabrutinib: First Global Approval (2018)",
+          "study_type": "Drug Approval Review",
+          "tier": "2",
+          "note": "首次全球核准回顧，提供藥理、臨床前及 Phase I/II 綜整資料。"
+        }
+      ]
+    },
+    {
+      "disease_name": "colon adenocarcinoma",
+      "txgnn_score": 0.9660,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "BTK 在腫瘤相關巨噬細胞（TAM）中有表現，BTK 抑制理論上可將 M2 型促瘤巨噬細胞重編程為 M1 型抗腫瘤表型，調節結直腸癌腫瘤微環境（TME）。此外，部分結直腸癌細胞株有 BTK 低度表現。然而，以上機制目前僅限預臨床假說層面，尚無結腸腺癌 BTK 抑制之臨床前 in vivo 資料支撐，更無任何臨床試驗或文獻記錄。",
+      "evidence_summary": "無臨床試驗、無文獻，僅依賴 TxGNN KG 預測分數（0.9660）。BTK 抑制於固態腫瘤尚處概念驗證階段，結腸腺癌更無直接依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "small intestinal Burkitt lymphoma",
+      "txgnn_score": 0.9404,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Burkitt 淋巴瘤以 MYC 基因易位為核心驅動，高度依賴 BCR 訊號活化 MYC 靶基因。BTK 作為 BCR 下游效應激酶，抑制之可理論上削弱 MYC 驅動的增殖訊號。然而，Burkitt 淋巴瘤增殖極為快速（倍增時間 24-48 小時），單純靜態抑制 BCR 訊號效果存疑；小腸定位更屬極罕見亞型。目前無任何 BTK 抑制劑於 Burkitt 淋巴瘤之臨床試驗，類別外推風險高。",
+      "evidence_summary": "無臨床試驗，無文獻記錄，純屬機轉推論。Burkitt 淋巴瘤非 BTK 抑制劑當前臨床研究焦點，推薦維持現狀觀察。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "small intestinal mucosa-associated lymphoid tissue lymphoma",
+      "txgnn_score": 0.9383,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "小腸 MALT 淋巴瘤由慢性抗原刺激（如腸道細菌）驅動，持續 BCR 活化是腫瘤存活關鍵。BTK 位於 BCR 訊號中樞，抑制 BTK 可截斷抗原依賴型 B 細胞存活訊號。Ibrutinib（同類 BTK 抑制劑）於邊緣區淋巴瘤（MZL）/MALT 有 Phase II 活性資料（ORR ~48%），提供 BTK 抑制劑類別外推依據，但 Acalabrutinib 於小腸 MALT 無直接臨床證據。",
+      "evidence_summary": "無直接臨床試驗或文獻，但存在合理 BTK 類別外推機制（Ibrutinib MZL/MALT 間接佐證）。屬 L4 間接證據，建議列為研究問題，探索是否有 MALT 亞型 acalabrutinib 試驗可行性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thyroid gland mucosa-associated lymphoid tissue lymphoma",
+      "txgnn_score": 0.9376,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "甲狀腺 MALT 淋巴瘤常與橋本氏甲狀腺炎之慢性自體免疫 B 細胞活化相關，BCR 持續刺激為主要驅動因素。BTK 抑制可阻斷 BCR 依賴型 B 細胞存活，機轉與其他 MALT 亞型相同。Ibrutinib 於眼附屬器/甲狀腺 MALT 有個案系列報告。屬極罕見疾病，難以設計獨立臨床試驗，建議納入 MZL/MALT 廣泛型試驗亞組分析。",
+      "evidence_summary": "無 Acalabrutinib 直接臨床資料。BTK 類別間接佐證（Ibrutinib MALT 個案系列）支撐機轉合理性，屬 L4。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "breast mucosa-associated lymphoid tissue lymphoma",
+      "txgnn_score": 0.9367,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "乳腺 MALT 淋巴瘤為原發乳腺 B 細胞淋巴瘤極罕見亞型（佔原發乳腺淋巴瘤 <3%），BCR 訊號依賴性與其他 MALT 亞型相似。機轉外推合理但疾病罕見性極高，臨床試驗設計困難。BTK 抑制劑類別佐證源自 MZL 研究。",
+      "evidence_summary": "極罕見疾病，無直接臨床資料。機轉可行但臨床可行性受疾病稀少性限制，L4 間接證據。建議優先納入 MALT/MZL 廣泛型試驗或網籃試驗。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tonsillar lymphoma",
+      "txgnn_score": 0.9367,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "扁桃體淋巴瘤通常為 B 細胞淋巴瘤（DLBCL、FL 或 MALT 亞型），BCR 訊號透過 BTK 驅動 B 細胞存活。機轉外推依據與其他結外 B 細胞淋巴瘤相同。文獻 PMID 40828558 涉及含黏膜皮膚的淋巴結病患者多學科診療，提供疾病診斷框架但非 BTK 抑制治療。",
+      "evidence_summary": "僅有 1 篇間接相關文獻（診療管理）。機轉合理，L4 證據。建議確認組織病理亞型後，視亞型納入相應 B 細胞淋巴瘤試驗。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40828558",
+          "title": "Multidisciplinary approach to diagnosis and management of lymphadenopathy (2025)",
+          "study_type": "Case Report / Clinical Management",
+          "tier": "3",
+          "note": "涉及含黏膜皮膚淋巴結病患者管理，與扁桃體淋巴瘤診療相關，但非 BTK 抑制劑療效報告。"
+        }
+      ]
+    },
+    {
+      "disease_name": "neoplasm of mature B-cells",
+      "txgnn_score": 0.9325,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "成熟 B 細胞腫瘤（包含 CLL、MCL、FL、MZL、Waldenström 巨球蛋白血症等）高度依賴 BCR 訊號維持存活，BTK 為 BCR 訊號核心激酶。Acalabrutinib 已核准用於 MCL 及 CLL/SLL（均屬成熟 B 細胞腫瘤），廣泛類別佐證強。文獻顯示 BTK 抑制在多種成熟 B 細胞惡性腫瘤中具跨適應症療效潛力。",
+      "evidence_summary": "3 篇文獻（綜述/系統性回顧）支撐 BTK 抑制劑廣泛 B 細胞惡性腫瘤效益；1 項間接臨床試驗（AZD0486，非 Acalabrutinib）。L3 證據，建議進入 S2 臨床可行性評估，尤其 Waldenström 及 FL 亞型。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06564038",
+          "title": "AZD0486 Multi-Centre Master Protocol, Phase I/II, 276 pts, RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "研究藥物為 AZD0486（CD19×CD3 雙特異性抗體），非 Acalabrutinib；提供成熟 B 細胞腫瘤靶向治療臨床框架，但不直接計入 Acalabrutinib 證據。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "41594662",
+          "title": "BTK Inhibition in Hematology: CLL/SLL to Emerging Applications (2026)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "2026 年最新 BTK 抑制劑橫跨 B 細胞與免疫疾病應用綜述，含 Acalabrutinib 在成熟 B 細胞腫瘤新興適應症資料。"
+        },
+        {
+          "pmid": "40071479",
+          "title": "Therapeutic Advances in CLL: Molecular Pathogenesis and Targeted Therapy (2025)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "CLL 靶向治療進展回顧，成熟 B 細胞腫瘤治療典範轉移之關鍵參考。"
+        },
+        {
+          "pmid": "31580408",
+          "title": "Current Targeted Therapies in Lymphomas (2019)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "淋巴瘤靶向治療系統性回顧，提供 BTK 抑制劑在各 B 細胞淋巴瘤亞型定位之歷史背景。"
+        }
+      ]
+    },
+    {
+      "disease_name": "lymph node cancer",
+      "txgnn_score": 0.9230,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "「Lymph node cancer」在此資料集主要對應 CLL/SLL 及結節型 B 細胞淋巴瘤。BTK 為 CLL 細胞 BCR 訊號核心，是 CLL 細胞生存、增殖及淋巴結歸巢的關鍵節點。Acalabrutinib 選擇性更高（vs. Ibrutinib），減少脫靶 EGFR/ITK 抑制，降低心房顫動及出血副作用風險。FDA 已核准 Acalabrutinib 用於 CLL/SLL（2019）。Phase 3 試驗（NCT04075292）正積極進行中。",
+      "evidence_summary": "一項活躍 Phase 3 試驗（NCT04075292，155 pts）+ 多項 Phase 1/2 完成試驗（包含 ACP-196 = Acalabrutinib 原名試驗 NCT02029443，306 pts；ACR 聯合治療系列）+ CLL FDA 核准全球佐證。L2（接近 L1，因部分 Phase 3 結果待發布）。",
+      "guardrails_notes": [
+        "確認本地藥政核准狀態（目前標記未上市），建議向衛生主管機關申請特殊引進或納入臨床試驗",
+        "監測心房顫動、出血、感染等已知 BTK 抑制劑安全性訊號",
+        "與 Venetoclax 組合時需注意 TLS（腫瘤溶解症候群）風險",
+        "本地市場若有 Ibrutinib 作為替代，需進行 Head-to-Head 成本效益分析"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04075292",
+          "title": "Phase 3, Acalabrutinib Efficacy & Safety Evaluation, 155 pts, ACTIVE",
+          "relevance_grade": "A",
+          "reasoning": "Acalabrutinib 直接 Phase 3 試驗，正在進行中，高度相關，最高等級臨床試驗證據。"
+        },
+        {
+          "nct_id": "NCT02029443",
+          "title": "ACP-196 (Acalabrutinib) in CLL, Phase 1/2, 306 pts, ACTIVE",
+          "relevance_grade": "A",
+          "reasoning": "ACP-196 為 Acalabrutinib 原研發代號，大型 Phase 1/2 試驗，306 名受試者，核心療效與安全性資料來源。"
+        },
+        {
+          "nct_id": "NCT03162536",
+          "title": "Acalabrutinib Safety/PK/PD, Phase 1/2, 190 pts, ACTIVE",
+          "relevance_grade": "A",
+          "reasoning": "大型早期試驗評估 Acalabrutinib 藥理動力學、藥效動力學及安全性，提供機轉與劑量依據。"
+        },
+        {
+          "nct_id": "NCT03899337",
+          "title": "CHOP-R ± Acalabrutinib, Phase II, 105 pts, RECRUITING",
+          "relevance_grade": "A",
+          "reasoning": "直接 Acalabrutinib 隨機 Phase II 試驗，含淋巴結 B 細胞淋巴瘤患者群。"
+        },
+        {
+          "nct_id": "NCT04402138",
+          "title": "Acalabrutinib Post-BMT Maintenance, Phase II, 15 pts, COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "自體移植後 Acalabrutinib 維持治療完成試驗，支持淋巴瘤（含淋巴節型）維持治療策略。"
+        },
+        {
+          "nct_id": "NCT02296918",
+          "title": "ACP-196 + Obinutuzumab in R/R, Phase 1b, 69 pts, COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "ACP-196（Acalabrutinib）+ Obinutuzumab 聯合方案完成試驗，探索協同療效，69 名受試者。"
+        },
+        {
+          "nct_id": "NCT04704323",
+          "title": "Novel Combination Phase 1, 18 pts, RECRUITING",
+          "relevance_grade": "B",
+          "reasoning": "小型 Phase 1 招募中，提供聯合策略安全性探索資料，但樣本數有限。"
+        },
+        {
+          "nct_id": "NCT03571568",
+          "title": "BI-1206 + Rituximab ± Acalabrutinib, Phase 1/2, 140 pts, RECRUITING",
+          "relevance_grade": "B",
+          "reasoning": "Acalabrutinib 為聯合用藥之一，主要研究 CD32b 抗體 BI-1206；提供聯合策略依據。"
+        },
+        {
+          "nct_id": "NCT04836832",
+          "title": "Duvelisib + Acalabrutinib, Phase Ib/II, 0 pts, WITHDRAWN",
+          "relevance_grade": "C",
+          "reasoning": "試驗撤回，無受試者入組，無法提供有效資料。"
+        },
+        {
+          "nct_id": "NCT05205252",
+          "title": "Tazemetostat Combinations, Phase 1/2, 0 pts, WITHDRAWN",
+          "relevance_grade": "C",
+          "reasoning": "試驗撤回，無受試者，無有效臨床資料。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35594173",
+          "title": "ctDNA MRD in CLL with Obinutuzumab + Acalabrutinib (2022)",
+          "study_type": "Prospective Clinical Study",
+          "tier": "1",
+          "note": "CLL 患者接受含 Acalabrutinib 方案之 MRD 監測研究，提供療效深度指標。"
+        },
+        {
+          "pmid": "39937656",
+          "title": "QSP Model for BTK Target Occupancy by BTK Inhibitors (2025)",
+          "study_type": "Quantitative Systems Pharmacology",
+          "tier": "2",
+          "note": "定量系統藥理學模型評估 Acalabrutinib BTK 佔有率，支撐劑量最佳化決策。"
+        },
+        {
+          "pmid": "36377973",
+          "title": "BRUIN MCL-321: Pirtobrutinib vs BTK Inhibitor Phase III (2022)",
+          "study_type": "Phase III RCT Protocol",
+          "tier": "2",
+          "note": "BTK 抑制劑類別 Phase III 競爭格局參考，BTK 抑制劑在淋巴節癌之持續臨床開發佐證。"
+        },
+        {
+          "pmid": "36868914",
+          "title": "Infections in CLL Patients on BTK Inhibitors (2023)",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "CLL 患者接受 BTK 抑制劑之感染風險系統性回顧，關鍵安全性決策依據。"
+        },
+        {
+          "pmid": "37635085",
+          "title": "Acalabrutinib + Steroid for Autoimmune Thrombocytopenia in R/R CLL (2023)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "Acalabrutinib 處理 CLL 相關自體免疫血小板低下症之個案報告，顯示免疫調節附加效益。"
+        },
+        {
+          "pmid": "37528310",
+          "title": "XPO1 Inhibition Sensitizes CLL to NK Cell Cytotoxicity (2023)",
+          "study_type": "Preclinical Study",
+          "tier": "3",
+          "note": "探索 XPO1 抑制與 BTK 抑制劑協同機制，提供聯合治療研究方向。"
+        },
+        {
+          "pmid": "29242301",
+          "title": "BCR Internalization and Signaling in CLL (2018)",
+          "study_type": "In Vitro / In Vivo Mechanistic Study",
+          "tier": "3",
+          "note": "CLL 中 BCR 內吞與訊號解偶聯機制研究，奠定 BTK 抑制劑療效機轉基礎。"
+        },
+        {
+          "pmid": "30011241",
+          "title": "BTK Occupancy Assay for Tirabrutinib (2018)",
+          "study_type": "Pharmacodynamic Study",
+          "tier": "3",
+          "note": "BTK 佔有率均質化測定方法建立，方法學參考。"
+        },
+        {
+          "pmid": "40582839",
+          "title": "Pemigatinib in Myeloid/Lymphoid Neoplasm with FGFR1 (2025)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "非 BTK 靶向之淋巴瘤治療案例，為鑑別診斷參考，非直接相關。"
+        },
+        {
+          "pmid": "41608556",
+          "title": "Leukemic Penile Ulcer as CLL Presenting Symptom (2026)",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "CLL 罕見皮膚表現個案，疾病異質性提示，非 Acalabrutinib 療效相關。"
+        }
+      ]
+    },
+    {
+      "disease_name": "polyclonal hypergammaglobulinemia",
+      "txgnn_score": 0.9229,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "多克隆高丙球蛋白血症源於多克隆 B 細胞過度活化（見於自體免疫疾病、慢性感染等），BTK 抑制理論上可降低 B 細胞活化閾值、減少多克隆免疫球蛋白分泌。然而此為繼發性/反應性疾病過程，本質上非 B 細胞惡性腫瘤，BTK 抑制劑之免疫抑制效應可能加重潛在感染。無任何 BTK 抑制劑用於多克隆高丙球蛋白血症之臨床依據。",
+      "evidence_summary": "無臨床試驗，無文獻，僅 TxGNN KG 預測。此適應症為繼發性病況，病因治療優先於症狀性 B 細胞抑制。免疫抑制相關風險超越理論獲益，不建議推進。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "overall_summary": {
+    "high_priority_indications": [
+      "lymphoma, non-Hodgkin, familial (L2/S3)",
+      "lymph node cancer (L2/S3)"
+    ],
+    "medium_priority_indications": [
+      "neoplasm of mature B-cells (L3/S2)"
+    ],
+    "low_priority_or_hold": [
+      "small intestinal MALT lymphoma (L4/S1)",
+      "thyroid gland MALT lymphoma (L4/S1)",
+      "breast MALT lymphoma (L4/S1)",
+      "tonsillar lymphoma (L4/S1)",
+      "small intestinal Burkitt lymphoma (L5/S0)",
+      "colon adenocarcinoma (L5/S0)",
+      "polyclonal hypergammaglobulinemia (L5/S0)"
+    ],
+    "key_caveat": "本分析結果僅供研究參考，不構成醫療建議。所有老藥新用候選均需完整臨床驗證及本地藥政審批程序後方可應用於患者照護。"
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|---------|---------|------|
+| lymphoma, non-Hodgkin, familial | 0.9764 | **L2** | **S3** | ✅ Proceed w/ Guardrails |
+| colon adenocarcinoma | 0.9660 | L5 | S0 | 🚫 Hold |
+| small intestinal Burkitt lymphoma | 0.9404 | L5 | S0 | 🚫 Hold |
+| small intestinal MALT lymphoma | 0.9383 | L4 | S1 | 🔬 Research Question |
+| thyroid gland MALT lymphoma | 0.9376 | L4 | S1 | 🔬 Research Question |
+| breast MALT lymphoma | 0.9367 | L4 | S1 | 🔬 Research Question |
+| tonsillar lymphoma | 0.9367 | L4 | S1 | 🔬 Research Question |
+| neoplasm of mature B-cells | 0.9325 | **L3** | **S2** | 🔬 Research Question |
+| lymph node cancer | 0.9230 | **L2** | **S3** | ✅ Proceed w/ Guardrails |
+| polyclonal hypergammaglobulinemia | 0.9229 | L5 | S0 | 🚫 Hold |
+
+### 關鍵分析觀察
+
+1. **TxGNN 分數 ≠ 臨床證據**：分數最高的適應症（NHL, 0.9764）與分數較低的（lymph node cancer, 0.9230）均達 L2/S3，而排名第二的結腸腺癌（0.9660）卻為 L5/S0，顯示 KG 預測與臨床轉化之間存在顯著落差。
+
+2. **B 細胞淋巴瘤亞型連續性**：MALT、Burkitt、NHL 各亞型共享 BTK 機轉，但臨床開發集中於 MCL 與 CLL，其他亞型缺乏直接試驗，建議優先設計涵蓋多亞型的 Basket Trial 設計。
+
+3. **本地核准缺口**：Acalabrutinib 在本地標記「未上市」，對於 L2/S3 適應症，建議評估特殊引進機制（恩慈使用）或鼓勵研究者申請本地 IND。
+
+> ⚠️ **YMYL 免責聲明**：本分析結果僅供研究參考，不構成醫療建議。老藥新用候選均需完整臨床驗證及藥政主管機關審查後，方可應用於實際患者診療。

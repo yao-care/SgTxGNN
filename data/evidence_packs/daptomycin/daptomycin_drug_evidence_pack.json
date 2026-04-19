@@ -1,0 +1,1078 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00080-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Daptomycin",
+    "drugbank_id": "DB00080",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "osteoarthritis",
+      "txgnn": {
+        "score": 0.9986355900764464,
+        "rank": 2564
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "23519823",
+            "title": "The safety and efficacy of high-dose daptomycin combined with rifampicin for the treatment of Gram-positive osteoarticular infections.",
+            "authors": [
+              "Jugun Kheeldass",
+              "Vaudaux Pierre",
+              "Garbino Jorge",
+              "Pagani Leonardo",
+              "Hoffmeyer Pierre"
+            ],
+            "journal": "International orthopaedics",
+            "year": "2013",
+            "abstract": "Treatment of Gram-positive osteoarticular infections requires an adequate surgical approach combined with intensive antimicrobial therapy. The aim of this study was to evaluate the safety and efficacy of a combined regimen of high-dose daptomycin and rifampicin, in patients with various types of Gram-positive osteoarticular infections.",
+            "classification": {
+              "study_type": "Retrospective cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22511636",
+            "title": "Clinical experience with daptomycin for the treatment of patients with knee and hip periprosthetic joint infections.",
+            "authors": [
+              "Corona Pérez-Cardona Pablo S",
+              "Barro Ojeda Victor",
+              "Rodriguez Pardo Dolors",
+              "Pigrau Serrallach Carlos",
+              "Guerra Farfán Ernesto"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2012",
+            "abstract": "To investigate the clinical efficacy and safety of daptomycin in the treatment of hip and knee periprosthetic joint infections (PJIs).",
+            "classification": {
+              "study_type": "Retrospective cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26235888",
+            "title": "Efficacy and safety of high-dose daptomycin (>6 mg/kg) for complicated bone and joint infections and implant-associated infections caused by Gram-positive bacteria.",
+            "authors": [
+              "Perrottet Nancy",
+              "Steinrücken Julia",
+              "Chan Monica",
+              "Pannatier André",
+              "Borens Olivier"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2015",
+            "abstract": "",
+            "classification": {
+              "study_type": "Retrospective cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22854340",
+            "title": "In vitro susceptibility of Staphylococcus aureus and Staphylococcus epidermidis isolated from prosthetic joint infections.",
+            "authors": [
+              "Molina-Manso Diana",
+              "del Prado Gema",
+              "Ortiz-Pérez Alberto",
+              "Manrubia-Cobo Miguel",
+              "Gómez-Barrena Enrique"
+            ],
+            "journal": "The Journal of antibiotics",
+            "year": "2012",
+            "abstract": "Prosthetic joint infections (PJI) are severe complications in Orthopedics, with Staphylococcus aureus and Staphylococcus epidermidis being the most commonly isolated pathogens. The variable antimicrobial susceptibility found in these microorganisms, along with the increasing number of methicillin-resistant strains, increases the difficulty of antibiotic selection and makes it necessary to perform individual susceptibility studies to select the optimal antibiotic treatment. The aim of this study ",
+            "classification": {
+              "study_type": "In vitro susceptibility",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17999973",
+            "title": "Outcomes with daptomycin versus standard therapy for osteoarticular infections associated with Staphylococcus aureus bacteraemia.",
+            "authors": [
+              "Lalani T",
+              "Boucher H W",
+              "Cosgrove S E",
+              "Fowler V G",
+              "Kanafani Z A"
+            ],
+            "journal": "The Journal of antimicrobial chemotherapy",
+            "year": "2008",
+            "abstract": "To evaluate the clinical characteristics, treatment and outcomes of patients with osteoarticular infections (OAIs) associated with Staphylococcus aureus bacteraemia (SAB).",
+            "classification": {
+              "study_type": "Retrospective comparative",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23312602",
+            "title": "Current management of prosthetic joint infections in adults: results of an Emerging Infections Network survey.",
+            "authors": [
+              "Marschall Jonas",
+              "Lane Michael A",
+              "Beekmann Susan E",
+              "Polgreen Philip M",
+              "Babcock Hilary M"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2013",
+            "abstract": "There is a dearth of guidance on the management of prosthetic joint infections (PJIs), in particular because of the lack of high-quality evidence for optimal antibiotics. Thus, we designed a nine-question survey of current practices and preferences among members of the Emerging Infections Network, a CDC-sponsored network of infectious diseases physicians, which was distributed in May 2012. In total, 556 (47.2%) of 1178 network members responded. As first-line antibiotic choice for MSSA PJI, 59% ",
+            "classification": {
+              "study_type": "Cross-sectional survey",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32206362",
+            "title": "Chronic Corynebacterium striatum Septic Arthritis in a Patient Referred for Total Knee Arthroplasty.",
+            "authors": [
+              "Hollnagel Katharine",
+              "Willen Jacob",
+              "Ellis Michael",
+              "Soleimanifard Yalda",
+              "Booth Robert"
+            ],
+            "journal": "Case reports in orthopedics",
+            "year": "2020",
+            "abstract": "While Corynebacterium striatum and other Corynebacterium species were historically considered contaminants, they are recently being identified as pathogens with increasing frequency. Case Summary. We report the case of a 78-year-old gentleman with a three-year history of knee pain and established diagnosis of osteoarthritis referred for consideration for total knee arthroplasty. He had no knee pain with passive range-of-motion. Plain films demonstrated bony erosions atypical for osteoarthritis. ",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21477701",
+            "title": "[Clinical experience with daptomycin use in Spain. Global findings from EU-CORE database].",
+            "authors": [
+              "Almirante Benito"
+            ],
+            "journal": "Medicina clinica",
+            "year": "2010",
+            "abstract": "The European Cubicin(®) Outcome Registry and Experience (EU-CORE) is a retrospective, non-interventional, multicenter database of daptomycin use in several European countries. This database provides information on the routine use of this antibiotic to treat various infections caused by Gram-positive microorganisms. This article describes the demography, clinical characteristics, and outcomes of patients treated in Spanish hospitals participating in the EUCORE database, as well as the types of in",
+            "classification": {
+              "study_type": "Registry analysis",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25650692",
+            "title": "Microbiologic profile of Staphylococci isolated from osteoarticular infections: evolution over ten years.",
+            "authors": [
+              "Titécat Marie",
+              "Senneville Eric",
+              "Wallet Frédéric",
+              "Dezèque Hervé",
+              "Migaud Henri"
+            ],
+            "journal": "Surgical infections",
+            "year": "2015",
+            "abstract": "Staphylococci, especially coagulase-negative staphylococci (CoNS) represent the most frequent micro-organism associated with osteoarticular infections (OAIs), especially those involving orthopedic devices. The antibiotic susceptibility profile of the bacteria mostly responsible for OAIs is therefore crucial information for choosing the appropriate antibiotic regimen administered during the removal procedure until the first results of the conventional culture.",
+            "classification": {
+              "study_type": "Retrospective epidemiology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無直接機轉關聯。文獻全數為Daptomycin治療人工關節週邊感染(PJI)或骨關節感染的報告——這些患者恰好有OA病史並已接受關節置換術，文獻主題是感染治療，而非OA疾病修飾。Daptomycin無軟骨保護、滑膜調節或OA致病通路(TGF-β/Wnt/MMP)的已知作用。TxGNN高分屬OA-感染文獻共現導致的假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.998417854309082,
+        "rank": 2864
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39571268",
+            "title": "Daptomycin alleviates collagen-induced arthritis via suppressing inflammatory cytokines and NF-κB pathway.",
+            "authors": [
+              "Ye Yang",
+              "Liang Yue",
+              "Huang Lan",
+              "Cao Xu",
+              "Xia Zijing"
+            ],
+            "journal": "International immunopharmacology",
+            "year": "2025",
+            "abstract": "Rheumatoid arthritis (RA) is a chronic autoimmune disease, and its pathogenic factors include bacterial infection and immune inflammation. Daptomycin (DAP) is a cyclic lipopeptide that has been approved to treat skin infections, bacteremia and right-sided endocarditis due to its effective antibacterial effects against most Gram-positive pathogenic bacteria. Herein, we focus on whether DAP exerts anti-inflammatory activity on RA to expand DAP drug indications. Our studies are first time to evalua",
+            "classification": {
+              "study_type": "Animal study (CIA model, in vivo)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40923559",
+            "title": "New Cyclic Lipopeptide Compounds for Efficiently Inhibiting Cellular Inflammation and Collagen-Induced Arthritis in Mice.",
+            "authors": [
+              "Ma Yanni",
+              "Cao Xu",
+              "Jin Xiaoli",
+              "Huang Lan",
+              "Zeng Dejia"
+            ],
+            "journal": "Journal of medicinal chemistry",
+            "year": "2025",
+            "abstract": "Rheumatoid arthritis (RA) is a systemic autoimmune disease, and a large number of patients do not respond well to existing treatment strategies. Our previous report has discovered that the cyclic lipopeptide (CLP) daptomycin (DAP) has a good suppressive arthritis activity in mice. In this study, we have designed and synthesized five novel DAP-derived CLPs by structural optimization on the loop of DAP and further studied their anti-RA effects in vitro and in vivo. Especially, CLP-d2 has better an",
+            "classification": {
+              "study_type": "In vitro + Animal study (CIA model)",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41257050",
+            "title": "Surgeon-Specific Infection Rates and Risk Factors for Prosthetic Joint Infections.",
+            "authors": [
+              "Mumcu Necati",
+              "Yüce Zeynep Türe",
+              "Ünüvar Gamze Kalın",
+              "Güney Ahmet",
+              "Kılıç Ayşegül Ulu"
+            ],
+            "journal": "Journal of clinical practice and research",
+            "year": "2023",
+            "abstract": "Prosthetic joint infections (PJIs) can lead to extended hospital stays, necessitate additional surgeries, and require antimicrobial treatment, thereby increasing costs and causing significant morbidity. This study aims to ascertain surgeon-specific infection rates and identify risk factors associated with PJIs.",
+            "classification": {
+              "study_type": "Retrospective cohort",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32650057",
+            "title": "Antibacterial and antibiofilm effects of flufenamic acid against methicillin-resistant Staphylococcus aureus.",
+            "authors": [
+              "Zhang Shutao",
+              "Tang Haozheng",
+              "Wang You",
+              "Nie Bin'en",
+              "Yang Hongtao"
+            ],
+            "journal": "Pharmacological research",
+            "year": "2020",
+            "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) infections are one of the most serious surgery complications, and their prevention is of utmost importance. Flufenamic acid is a non-steroid anti-inflammatory drug approved for clinical use to relieve inflammation and pain in rheumatoid arthritis patients. In this study, we explored the antibacterial efficacy of flufenamic acid and the mechanisms underlying this effect. By using minimal inhibitory concentration (MIC), time-kill, resistance induc",
+            "classification": {
+              "study_type": "In vitro study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27891149",
+            "title": "Corynebacterium propinquum: A Rare Cause of Prosthetic Valve Endocarditis.",
+            "authors": [
+              "Jangda Umair",
+              "Upadhyay Ankit",
+              "Bagheri Farshad",
+              "Patel Nilesh R",
+              "Mendelson Robert I"
+            ],
+            "journal": "Case reports in medicine",
+            "year": "2016",
+            "abstract": "Nondiphtheria Corynebacterium species are often dismissed as culture contaminants, but they have recently become increasingly recognized as pathologic organisms. We present the case of a 48-year-old male patient on chronic prednisone therapy for rheumatoid arthritis with a history of mitral valve replacement with prosthetic valve. He presented with fever, dizziness, dyspnea on exertion, intermittent chest pain, and palpitations. Transesophageal echocardiography revealed two medium-sized densitie",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27031898",
+            "title": "Metastatic muscle abscesses complicating infected total hip arthroplasty.",
+            "authors": [
+              "Balato Giovanni",
+              "Ascione Tiziana",
+              "Mariconda Massimo",
+              "Pagliano Pasquale"
+            ],
+            "journal": "Le infezioni in medicina",
+            "year": "2016",
+            "abstract": "A 73-year-old woman with rheumatoid arthritis presented to our institution with infection of her right total hip arthroplasty. On admission, a draining sinus tract over the hip and a palpable mass in the left lower posterior region of the neck were detected. The contrast CT scan showed a large abscess in the trapezius muscle and multiple abscesses involving muscle of the neck and right shoulder. Intraoperative specimens from the muscle abscess were positive for presumably the same methicillin-re",
+            "classification": {
+              "study_type": "Case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "2025年新興機轉假說：兩篇新發表研究（PMID 39571268, 40923559）直接在膠原蛋白誘導性關節炎(CIA)動物模型中驗證Daptomycin的抗炎活性，機轉為抑制NF-κB信號通路，下調TNF-α、IL-1β、IL-6、IL-17等RA核心致病細胞激素。CIA模型為RA藥物開發金標準動物模型，結果具機轉合理性。然而：(1)Daptomycin具肌毒性（CK升高、橫紋肌溶解）及肺毒性風險，不適合慢性病長期給藥；(2)無人體安全性資料；(3)其他4篇文獻與RA治療無直接關聯。整體屬早期動物模型間接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "osteoarthritis susceptibility",
+      "txgnn": {
+        "score": 0.9979346990585328,
+        "rank": 3501
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "22854340",
+            "title": "In vitro susceptibility of Staphylococcus aureus and Staphylococcus epidermidis isolated from prosthetic joint infections.",
+            "authors": [
+              "Molina-Manso Diana",
+              "del Prado Gema",
+              "Ortiz-Pérez Alberto",
+              "Manrubia-Cobo Miguel",
+              "Gómez-Barrena Enrique"
+            ],
+            "journal": "The Journal of antibiotics",
+            "year": "2012",
+            "abstract": "Prosthetic joint infections (PJI) are severe complications in Orthopedics, with Staphylococcus aureus and Staphylococcus epidermidis being the most commonly isolated pathogens. The variable antimicrobial susceptibility found in these microorganisms, along with the increasing number of methicillin-resistant strains, increases the difficulty of antibiotic selection and makes it necessary to perform individual susceptibility studies to select the optimal antibiotic treatment. The aim of this study ",
+            "classification": {
+              "study_type": "In vitro susceptibility",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23312602",
+            "title": "Current management of prosthetic joint infections in adults: results of an Emerging Infections Network survey.",
+            "authors": [
+              "Marschall Jonas",
+              "Lane Michael A",
+              "Beekmann Susan E",
+              "Polgreen Philip M",
+              "Babcock Hilary M"
+            ],
+            "journal": "International journal of antimicrobial agents",
+            "year": "2013",
+            "abstract": "There is a dearth of guidance on the management of prosthetic joint infections (PJIs), in particular because of the lack of high-quality evidence for optimal antibiotics. Thus, we designed a nine-question survey of current practices and preferences among members of the Emerging Infections Network, a CDC-sponsored network of infectious diseases physicians, which was distributed in May 2012. In total, 556 (47.2%) of 1178 network members responded. As first-line antibiotic choice for MSSA PJI, 59% ",
+            "classification": {
+              "study_type": "Cross-sectional survey",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25650692",
+            "title": "Microbiologic profile of Staphylococci isolated from osteoarticular infections: evolution over ten years.",
+            "authors": [
+              "Titécat Marie",
+              "Senneville Eric",
+              "Wallet Frédéric",
+              "Dezèque Hervé",
+              "Migaud Henri"
+            ],
+            "journal": "Surgical infections",
+            "year": "2015",
+            "abstract": "Staphylococci, especially coagulase-negative staphylococci (CoNS) represent the most frequent micro-organism associated with osteoarticular infections (OAIs), especially those involving orthopedic devices. The antibiotic susceptibility profile of the bacteria mostly responsible for OAIs is therefore crucial information for choosing the appropriate antibiotic regimen administered during the removal procedure until the first results of the conventional culture.",
+            "classification": {
+              "study_type": "Retrospective epidemiology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "OA易感性為多基因遺傳病（GDF5、ALDH1A2、TGFB1等），Daptomycin無任何已知作用於OA遺傳易感通路的機轉。3篇文獻均為PJI感染微生物學研究，與OA易感性修飾完全無關聯。屬osteoarthritis/osteoarticular文字混淆導致的TxGNN偽預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "gout",
+      "txgnn": {
+        "score": 0.9979210495948792,
+        "rank": 3523
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "36693494",
+            "title": "Daptomycin-induced rhabdomyolysis complicated with acute gouty arthritis.",
+            "authors": [
+              "Abdelnabi Mahmoud",
+              "Leelaviwat Natnicha",
+              "Liao En-Dien",
+              "Motamedi Sheedeh",
+              "Pangkanon Watsachon"
+            ],
+            "journal": "The American journal of the medical sciences",
+            "year": "2023",
+            "abstract": "Rhabdomyolysis is a well-documented side effect of daptomycin and is associated with hyperuricemia. However, the occurrence of acute gouty arthritis secondary to rhabdomyolysis-induced hyperuricemia has not been reported. We report a case of a patient who presented with daptomycin-induced rhabdomyolysis prior to the usual 7-10-day administration period. This case was complicated with acute gouty arthritis after 7 days from the onset of rhabdomyolysis symptoms. Treatment consisted of fluid manage",
+            "classification": {
+              "study_type": "Adverse event case report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "唯一文獻(PMID 36693494)為Daptomycin誘發橫紋肌溶解症後『繼發性』急性痛風發作的不良反應病例，屬藥物副作用文獻，代表安全疑慮而非治療契機。Daptomycin無降尿酸、抑制黃嘌呤氧化酶或抑制NLRP3炎症小體（痛風核心機轉）的已知機轉。此預測應標記為反向證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "pseudoachondroplasia",
+      "txgnn": {
+        "score": 0.997467875480652,
+        "rank": 4066
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假性軟骨發育不全症為COMP基因突變導致的遺傳性骨骼發育障礙（軟骨基質蛋白錯誤折疊、內質網壓力累積）。Daptomycin無任何已知作用於COMP蛋白折疊、內質網未折疊蛋白反應(UPR)或軟骨細胞發育通路的機轉。零臨床零前臨床證據，屬純演算法預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "txgnn": {
+        "score": 0.9968169331550598,
+        "rank": 4776
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Hunter-Thompson型肢端中段肢骨發育不良為CDMP1(GDF5)基因功能喪失突變所致的罕見遺傳性軟骨發育異常。Daptomycin無任何作用於BMP/GDF信號通路的已知機轉。零臨床零前臨床證據，屬TxGNN骨科相關疾病群聚預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "brachyolmia",
+      "txgnn": {
+        "score": 0.9966986775398254,
+        "rank": 4909
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "脊椎短缺症為PAPSS2、TRPV4等基因突變導致的遺傳性脊椎發育障礙（硫酸蛋白聚糖合成缺陷）。Daptomycin無任何作用於蛋白聚糖硫化、軟骨基質合成或鈣離子通道TRPV4的已知機轉。零臨床零前臨床證據，屬演算法預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.99619859457016,
+        "rank": 5425
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "短指-並指綜合症為GJA1或相關基因突變的先天性肢端發育異常（胚胎期肢端形態發生缺陷）。Daptomycin無任何已知作用於BMP、Wnt、Hedgehog等肢端形態發生信號通路的機轉，亦無胚胎發育調控作用。零臨床零前臨床證據，屬純演算法預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.9961426854133606,
+        "rank": 5466
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "極罕見先天性眼-骨骼複合發育異常症候群（小眼症+根莖型骨骼發育不良），病因涉及眼杯發育及軟骨骨化相關基因突變。Daptomycin無任何作用於PAX6、STRA6等視覺發育通路或根莖型骨骼發育相關通路的機轉。零臨床零前臨床證據，屬TxGNN骨科疾病知識圖譜鄰近性預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "txgnn": {
+        "score": 0.996137797832489,
+        "rank": 5473
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "XYLT2基因突變導致的遺傳性骨-牙複合發育缺陷（蛋白聚糖木糖轉移酶缺失→脊椎發育異常+牙釉質礦化障礙）。Daptomycin無任何已知作用於蛋白聚糖生物合成起始步驟、牙釉質基質礦化或XYLT2通路的機轉。零臨床零前臨床證據，屬演算法預測假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "osteoarthritis"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "osteoarthritis susceptibility"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "pseudoachondroplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "acromesomelic dysplasia, Hunter-Thompson type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachyolmia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Daptomycin",
+        "disease": "brachyolmia-amelogenesis imperfecta syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

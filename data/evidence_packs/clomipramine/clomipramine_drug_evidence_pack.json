@@ -1,0 +1,3019 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01242-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Clomipramine",
+    "drugbank_id": "DB01242",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "anxiety disorder",
+      "txgnn": {
+        "score": 0.9993488192558287,
+        "rank": 1402
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01944657",
+            "title": "Supplemental TMS vs. Standard Medication Monotherapy for Treating Major Depression: An Exploratory Field Study",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-09",
+            "completion_date": "2015-12",
+            "brief_summary": "A. Introduction to the Problem\n\nThis field experiment is intended to explore whether supplemental transcranial magnetic stimulation (TMS) is more effective than standard medication mono-therapy for the treatment of major depressive disorder. Transcranial magnetic stimulation (TMS) is now included in the practice guidelines of the American Psychiatric Association for the treatment of major depression.\n\nB. Importance of the Area of Study\n\nThe safety, efficacy and value of TMS treatment has been es",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "TMS 與藥物治療重鬱症比較（WITHDRAWN，0 人），已撤回且針對憂鬱症，不相關。"
+            }
+          },
+          {
+            "nct_id": "NCT06659094",
+            "title": "Step Down From Maximal Support: Efficacy of Stepped-care Internet-based Cognitive Behavior Therapy for Obsessive-compulsive Disorder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 95,
+            "start_date": "2023-08-21",
+            "completion_date": "2025-12-30",
+            "brief_summary": "This study is conducted to explore the efficacy and cost-effectiveness of stepped-care internet-based cognitive behavior therapy (sc-ICBT) with reduced support compared to cognitive-behavioral group therapy(CBGT), to identify the optimal transition points for shorter effective stepped treatments, to find clinical indicators that can predict the effectiveness of CBT interventions, and to investigate predictive outcomes.\n\nThe main questions the investigators aim to answer are:\n\n1. Is the reduction",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "網路認知行為治療階段性照護研究，非藥理學介入，無 clomipramine 直接資料。"
+            }
+          },
+          {
+            "nct_id": "NCT05737511",
+            "title": "Efficacy of Hydroxyzine Versus Treatment as Usual for Panic Disorder: An Eight-Week, Open Label, Pilot, Randomized Controlled Trial.",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2023-12-30",
+            "completion_date": "2026-12-30",
+            "brief_summary": "The aim of this study is to evaluate the efficacy of hydroxyzine compared to treatment as usual (TAU) for patients with panic disorder. By conducting a pilot study, we hope to provide initial data on the feasibility and potential impact of hydroxyzine for this population. This will inform the design and power calculations of a larger, more comprehensive study in the future.\n\nObjectives:\n\nTo assess the feasibility of conducting a randomized controlled trial (RCT) of hydroxyzine for panic disorder",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Hydroxyzine 與常規治療比較恐慌症，非 clomipramine 相關試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT01148316",
+            "title": "Adaptive Treatment Strategies for Children and Adolescents With Psychiatric Disorders in the Context of Public Health: \"Medicine in Practice\"",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 144,
+            "start_date": "2010-08",
+            "completion_date": "2013-12",
+            "brief_summary": "Obsessive-compulsive disorder affects approximately 2% of the population, frequently has its onset during childhood or adolescence and is potentially incapacitating. If not properly treated, this disorder tends to follow a chronic course. Pharmacotherapy with clomipramine and selective serotonin reuptake inhibitors (SSRIs), such as fluvoxamine, fluoxetine and sertraline, has been approved for pediatric OCD. However, up to 30% of patients may not benefit from these treatments, and the presence of",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "兒青精神疾患適應性治療策略，範圍過廣，無法確認 clomipramine 於焦慮疾患的特定貢獻。"
+            }
+          },
+          {
+            "nct_id": "NCT00004310",
+            "title": "Phase II Randomized Study of Intravenous Versus Oral Clomipramine in Patients With Obsessive Compulsive Disorder",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 76,
+            "start_date": "1999-10",
+            "completion_date": "",
+            "brief_summary": "OBJECTIVES:\n\nI. Evaluate the efficacy of intravenous versus oral pulse loading of clomipramine (CMI) followed by a 12-week course of maintenance therapy in patients with obsessive compulsive disorder.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 2 RCT，直接比較靜脈注射與口服 clomipramine 於 OCD 患者，76 人完成，為最直接相關試驗。Status UNKNOWN 可能為早期試驗未完整登錄。"
+            }
+          },
+          {
+            "nct_id": "NCT06942494",
+            "title": "Effect of a Family-Based Cognitive Behavioral Therapy Self-Help Intervention for Adolescents With Obsessive-Compulsive Disorder：A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 88,
+            "start_date": "2025-04-30",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The goal of this clinical trial is to learn if self-help book can be used to treat obsessive-compulsive disorder (OCD) in adolescents aged 10 to 17. The main questions it aims to answer are:\n\nCan adolescents and their parents effectively reduce the severity of the obsessive-compulsive symptoms in adolescents who are already stably taking medications through self-help books? What are the characteristics of adolescents who are best suited to use self-help intervention book to treat obsessive-compu",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "青少年 OCD 家庭認知行為治療（RECRUITING），藥物治療背景可能包含 clomipramine，與焦慮疾患綜合治療相關。"
+            }
+          },
+          {
+            "nct_id": "NCT03299166",
+            "title": "A Randomized, Double-blind, Placebo-controlled Trial of Adjunctive Troriluzole in Obsessive Compulsive Disorder",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 426,
+            "start_date": "2017-12-19",
+            "completion_date": "2025-12-08",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of troriluzole as adjunctive therapy versus placebo in participants with obsessive compulsive disorder (OCD) who had an inadequate response to selective serotonin reuptake inhibitor (SSRI), clomipramine, venlafaxine, or desvenlafaxine treatment",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2/3，Troriluzole 加成於 SRI（包含 clomipramine）治療的 OCD 患者（426 人），大樣本支持 OCD 藥物治療框架。"
+            }
+          },
+          {
+            "nct_id": "NCT00254735",
+            "title": "Quetiapine Augmentation in Severe Obsessive Compulsive Disorder (OCD) - Pilot Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 44,
+            "start_date": "2002-04",
+            "completion_date": "2006-03",
+            "brief_summary": "The purpose of the study is to evaluate the efficacy of quetiapine or placebo added to baseline treatment of SSRI/clomipramine for the treatment of OCD in adult subjects.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3，Quetiapine 加成於 OCD 嚴重患者，Clomipramine 為標準對照組基礎用藥（44 人），間接支持其在 OCD 的核心地位。"
+            }
+          },
+          {
+            "nct_id": "NCT00466609",
+            "title": "Pharmacological Augmentation Strategies for Obsessive Compulsive Disorder Patients Non-respondent to First Line Medication Treatment: a Double Blind Placebo Controlled Study",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 54,
+            "start_date": "2007-05",
+            "completion_date": "2010-04",
+            "brief_summary": "This will be a controlled, randomized, double-blind and double-dummy study on the treatment augmentation strategy for obsessive compulsive disorder patients non-respondent to first line pharmacological treatment. The investigators will compare: fluoxetine maintenance at maximum dosage for additional 12 weeks; the association of fluoxetine with quetiapine; and the association of fluoxetine with clomipramine.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，OCD 無反應者增強策略研究（54 人），Clomipramine 作為基礎治療藥物之一，直接評估療效。"
+            }
+          },
+          {
+            "nct_id": "NCT02374567",
+            "title": "Pharmacovigilance in Gerontopsychiatric Patients",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 407,
+            "start_date": "2015-01",
+            "completion_date": "2017-06-28",
+            "brief_summary": "The purpose of this multicenter-study is to investigate safety of psychopharmacological treatment and rates of adverse drug reactions in gerontopsychiatric inpatients. Elderly people are at higher risk for developing side effects under pharmacological treatment due to an altered metabolic situation, higher comorbidity rates and often polypharmacy. Furthermore gerontopsychiatric patients can often not articulate their symptoms clearly, for example due to pronounced cognitive impairment.\n\nThe aim ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "老年精神科藥物警戒研究（TERMINATED），非焦慮疾患特定設計。"
+            }
+          },
+          {
+            "nct_id": "NCT04989413",
+            "title": "Randomized, Double Blind Clinical Trial to Study the Effect of Cannabidiol (CBD) 133mg + Cannabigerol (CBG) 66mg + Tetrahydrocannabinol (THC) 4mg a Day As Adjunctive Therapy in the Treatment of Chronic Migraine - CAMTREA TRIAL",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 110,
+            "start_date": "2022-10-18",
+            "completion_date": "2025-02-20",
+            "brief_summary": "To evaluate the effect of the cannabidiol (CBD) + cannabigerol (CBG) + tetrahydrocannabinol (THC) up to 133/66/4mg daily versus placebo as adjuvant treatment in chronic migraine (CM) patients under preventive treatment at a stable dose for at least 3 months who present at least 5 headaches day a month. CM patients of both sexes, between 25 and 65 years old, who have not had CBD and/or THC as a migraine treatment. Patients may be having migraine preventive treatment such as propranolol, atenolol,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02431845",
+            "title": "Pharmaco(Epi)Genetic, Proteomic, and Microbiomic Study of Obsessive-Compulsive",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2013-01-01",
+            "completion_date": "2030-12-31",
+            "brief_summary": "The purpose of this study is to determine whether pharmaco(epi)genetic study predict selective serotonin reuptake inhibitor (SSRI) responsiveness in advance before the appearance of the drug effect until 4 months(16 weeks), 6 months, and 1 year after administration of SSRIs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01404871",
+            "title": "Predicting Medication Response in Obsessive Compulsive Disorder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 26,
+            "start_date": "2009-04",
+            "completion_date": "2011-12",
+            "brief_summary": "In this study, the investigators hope to study a number of variables the investigators believe may help us predict why some people respond better to some medications than others. Participants will be randomly assigned to receive one of two typical medications for OCD, clomipramine or escitalopram. Individuals who would like to participate but who have previously tried one or both of these medications may instead take a newer drug, duloxetine, and undergo the identical procedures. The factors the",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00564564",
+            "title": "Quetiapine Augmentation Versus Clomipramine Augmentation of Selective Serotonin Reuptake Inhibitors for Obsessive-compulsive Disorder Patients That do Not Respond to a SSRI Trial: a Randomized Open-trial.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2006-01",
+            "completion_date": "2007-12",
+            "brief_summary": "The objective of this trial is to compare in an open trial format the efficacy of association of clomipramine and quetiapine with SSRI after SSRI treatment failed to produce complete remission of obsessive compulsive disorder symptoms.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02450695",
+            "title": "A Randomized Crossed-over Trial Examining Efficacy of Repetitive Transcranial Magnetic Stimulation (rTMS) in Treatment Refractory Obsessive-Compulsive Disorder.",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2016-07",
+            "completion_date": "2019-04",
+            "brief_summary": "This study will evaluate the effectiveness of rTMS as a potential treatment for refractory OCD in a randomized, crossover design.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00074815",
+            "title": "Treatment of Pediatric OCD for SRI Partial Responders",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 124,
+            "start_date": "2003-09",
+            "completion_date": "2009-11",
+            "brief_summary": "This study will determine whether cognitive behavioral therapy delivered by either psychologists or psychiatrists can improve the effectiveness of serotonin reuptake inhibitor treatment in children with obsessive compulsive disorder.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04436952",
+            "title": "An Open Label Study to Compare and Evaluate the Efficacy of the Deep Transcranial Magnetic Stimulation With and Without Exposure and Response Prevention (ERP) to Repetitive Transcranial Magnetic Stimulation With and Without ERP to ERP.",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-07",
+            "completion_date": "2022-07",
+            "brief_summary": "Obsessive Compulsive Disorder is a highly debilitating condition with a lifetime prevalence of 2%-3%, and a notable percentage of patients (40-60%) have a partial or no response to medications. The present gold standard for the treatment of OCD is medications (Selective serotonin reuptake inhibitors (SSRIs) / Clomipramine) + Exposure and Response Prevention (ERP). There is a significant need for alternative novel methods of treatment. One of the novel methods of treating OCD is using magnetic st",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04708834",
+            "title": "A Multicenter, Long-Term Open-Label Safety Study of Adjunctive Troriluzole in Subjects With Obsessive Compulsive Disorder",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 772,
+            "start_date": "2021-03-30",
+            "completion_date": "2026-02-13",
+            "brief_summary": "The purpose of the study is to evaluate the long term safety and tolerability of troriluzole as adjunctive therapy in subjects with obsessive compulsive disorder (OCD).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38014714",
+            "title": "Pharmacological treatments in panic disorder in adults: a network meta-analysis.",
+            "authors": [
+              "Guaiana Giuseppe",
+              "Meader Nicholas",
+              "Barbui Corrado",
+              "Davies Simon Jc",
+              "Furukawa Toshi A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2023",
+            "abstract": "A panic attack is a discrete period of fear or anxiety that has a rapid onset and reaches a peak within 10 minutes. The main symptoms involve bodily systems, such as racing heart, chest pain, sweating, shaking, dizziness, flushing, churning stomach, faintness and breathlessness. Other recognised panic attack symptoms involve fearful cognitions, such as the fear of collapse, going mad or dying, and derealisation (the sensation that the world is unreal). Panic disorder is common in the general pop",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11450830",
+            "title": "Clomipramine--beyond separation anxiety.",
+            "authors": [
+              "Landsberg G M"
+            ],
+            "journal": "Journal of the American Animal Hospital Association",
+            "year": "2001",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34582562",
+            "title": "Pharmacotherapy for trichotillomania.",
+            "authors": [
+              "Hoffman Jacob",
+              "Williams Taryn",
+              "Rothbart Rachel",
+              "Ipser Jonathan C",
+              "Fineberg Naomi"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2021",
+            "abstract": "Trichotillomania (TTM; hair-pulling disorder) is a prevalent and disabling disorder characterised by recurrent hair-pulling. Here we update a previous Cochrane Review on the effects of medication for TTM.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3887336",
+            "title": "Obsessive-compulsive disorder.",
+            "authors": [
+              "Insel T R"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "1985",
+            "abstract": "Obsessive-compulsive disorder is a heterogeneous cluster of syndromes that share aspects of both anxiety and affective disorders. Obsessive-compulsive disorder is epidemiologically and phenomenologically distinct from the compulsive character. Although both genetic and neuropsychological data suggest some biologic basis to obsessive-compulsive disorder, there is still insufficient information in both of these areas. Treatment with clomipramine, a tricyclic antidepressant, has proved useful for o",
+            "classification": {
+              "study_type": "Review/Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24214100",
+            "title": "Pharmacotherapy for trichotillomania.",
+            "authors": [
+              "Rothbart Rachel",
+              "Amos Taryn",
+              "Siegfried Nandi",
+              "Ipser Jonathan C",
+              "Fineberg Naomi"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2013",
+            "abstract": "Trichotillomania (TTM) (hair-pulling disorder) is a prevalent and disabling disorder characterised by recurrent hair-pulling. The effect of medication on trichotillomania has not been systematically evaluated.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9786103",
+            "title": "Combination of clomipramine and nortriptyline in the treatment of obsessive-compulsive disorder: a double-blind, placebo-controlled trial.",
+            "authors": [
+              "Noorbala A A",
+              "Hosseini S H",
+              "Mohammadi M R",
+              "Akhondzadeh S"
+            ],
+            "journal": "Journal of clinical pharmacy and therapeutics",
+            "year": "1998",
+            "abstract": "There is growing interest in investigating noradrenergic functions in obsessive-compulsive disorder (OCD) because some antidepressants with strong effects on serotonin reuptake blockade fail to relieve obsessive-compulsive symptoms. We undertook a trial to investigate whether the combination of clomipramine with nortriptyline was more effective than clomipramine alone.",
+            "classification": {
+              "study_type": "RCT（雙盲）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3887445",
+            "title": "Clomipramine and imipramine in obsessive-compulsive disorder.",
+            "authors": [
+              "Volavka J",
+              "Neziroglu F",
+              "Yaryura-Tobias J A"
+            ],
+            "journal": "Psychiatry research",
+            "year": "1985",
+            "abstract": "Twenty-three outpatients with primary obsessive-compulsive disorder (OCD) were started in a 12-week double-blind clinical trial of clomipramine (CLI) (n = 11) and imipramine (IMI) (n = 12). There was no placebo and no crossover. After 6 weeks of treatment, data on 19 subjects (9 CLI, 10 IMI) were available. After week 12, the sample was reduced to 16 patients (8 CLI, 8 IMI). At both time points, OCD symptoms showed modest reductions (in comparison with the pretreatment baseline) in both CLI and ",
+            "classification": {
+              "study_type": "RCT（Clomipramine vs Imipramine in OCD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1933762",
+            "title": "Intravenous clomipramine and obsessive-compulsive disorder.",
+            "authors": [
+              "Thakur A K",
+              "Remillard A J",
+              "Meldrum L H",
+              "Gorecki D K"
+            ],
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "1991",
+            "abstract": "A 62 year old woman presented with a long history of obsessive-compulsive disorder, the symptoms of which were not adequately controlled by oral clomipramine. The patient was started on intravenous clomipramine. Drug levels of both clomipramine and its active metabolite desmethylclomipramine were measured. Symptoms were controlled during her hospital stay. A three year follow-up report indicated the patient is doing well with no evidence of obsessive-compulsive or depressive symptoms. A discussi",
+            "classification": {
+              "study_type": "Clinical Trial（IV Clomipramine in OCD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1474179",
+            "title": "Clomipramine, clonazepam, and clonidine treatment of obsessive-compulsive disorder.",
+            "authors": [
+              "Hewlett W A",
+              "Vinogradov S",
+              "Agras W S"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1992",
+            "abstract": "Serotonergic reuptake inhibitors have been the primary medications for treatment of obsessive-compulsive disorder (OCD); however, other serotonergic and alpha 2-adrenergic medications also have been reported to reduce obsessive-compulsive symptoms. In this study, we compare three medications with reported efficacy in OCD to a control medication, diphenhydramine, a medication without theoretical or demonstrated treatment benefit. The three active medications were clomipramine, a serotonergic reup",
+            "classification": {
+              "study_type": "RCT（組合藥物治療 OCD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9631696",
+            "title": "Use of clomipramine in the treatment of anxiety-related and obsessive-compulsive disorders in cats.",
+            "authors": [
+              "Seksel K",
+              "Lindeman M J"
+            ],
+            "journal": "Australian veterinary journal",
+            "year": "1998",
+            "abstract": "To evaluate the efficacy and tolerance of a treatment protocol for anxiety-related and obsessive-compulsive disorders in cats.",
+            "classification": {
+              "study_type": "Animal/Veterinary Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12063477",
+            "title": "Trichotillomania.",
+            "authors": [
+              "Hautmann Giuseppe",
+              "Hercogova Jana",
+              "Lotti Torello"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2002",
+            "abstract": "Trichotillomania is a neglected psychiatric disorder with dermatologic expression that has only recently received research attention. On the basis of clinical data, trichotillomania appears to be far more common than previously believed. Like obsessive-compulsive disorder, the hair-pulling behavior is recognized as senseless and undesirable but is performed in response to several emotions and affects, such as increasing anxiety, or unconscious conflicts with resultant tension relief. The conditi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10665629",
+            "title": "Paroxetine, clomipramine, and cognitive therapy in the treatment of panic disorder.",
+            "authors": [
+              "Bakker A",
+              "van Dyck R",
+              "Spinhoven P",
+              "van Balkom A J"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1999",
+            "abstract": "This 12-week, placebo-controlled study was carried out to compare the relative efficacy of paroxetine, clomipramine, and cognitive therapy in the treatment of DSM-III-R-defined panic disorder with or without agoraphobia.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27663940",
+            "title": "Systematic Review and Meta-Analysis: Early Treatment Responses of Selective Serotonin Reuptake Inhibitors and Clomipramine in Pediatric Obsessive-Compulsive Disorder.",
+            "authors": [
+              "Varigonda Anjali L",
+              "Jakubovski Ewgeni",
+              "Bloch Michael H"
+            ],
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "2016",
+            "abstract": "We conducted a meta-analysis to examine the following: the time course of response to selective serotonin reuptake inhibitors (SSRIs) and clomipramine in pediatric obsessive-compulsive disorder (OCD); whether higher doses of SSRIs are associated with an improved response in pediatric OCD; differences in efficacy among SSRI agents; differences in efficacy between SSRIs and clomipramine; and whether the time course and magnitude of response to SSRIs are different in pediatric and adult patients wi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10221358",
+            "title": "Serum levels of clomipramine and desmethylclomipramine and clinical improvement in panic disorder.",
+            "authors": [
+              "Marcourakis T",
+              "Gorenstein C",
+              "Ramos R T",
+              "da Motta Singer J"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "1999",
+            "abstract": "Several placebo-controlled trials have shown the efficacy of clomipramine (CMI) in panic disorder. However, none has investigated the relationship between CMI, and desmethylclomipramine (DCMI) plasma levels, and outcome. In this trial, 41 patients meeting the DSM-III-R criteria for panic disorder with/without agoraphobia received 50-200 mg of CMI daily in a single-blind, flexible dose regimen for 14 weeks. At the end of treatment, 97% of the patients were free of panic attacks. Patients were cla",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2178909",
+            "title": "Clomipramine. An overview of its pharmacological properties and a review of its therapeutic use in obsessive compulsive disorder and panic disorder.",
+            "authors": [
+              "McTavish D",
+              "Benfield P"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "During the 20 years that have elapsed since clomipramine (chlorimipramine) was first marketed, it has become well established in the treatment of depressive illness, particularly treatment-resistant depression. However, in addition to its role as an antidepressant, attention is being focused on the use of clomipramine in 2 other areas of psychiatry: obsessive compulsive disorder and panic disorder. Short term clinical trials have shown that clomipramine is generally more effective than amitripty",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8263222",
+            "title": "Clomipramine, fluoxetine, and behavior therapy in the treatment of obsessive-compulsive disorder: a meta-analysis.",
+            "authors": [
+              "Cox B J",
+              "Swinson R P",
+              "Morrison B",
+              "Lee P S"
+            ],
+            "journal": "Journal of behavior therapy and experimental psychiatry",
+            "year": "1993",
+            "abstract": "The most common effective treatments for obsessive-compulsive disorder include clomipramine, fluoxetine, and exposure-based behavior therapy. A meta-analysis was conducted on the results from 25 appropriate treatment studies (1975-1991). All three treatments were significantly effective for most of the outcome variables (overall severity, anxiety, depression). Exposure was not significantly effective for reducing depressed mood. More treatment outcome studies are needed before a clearly superior",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11349411",
+            "title": "Use of clomipramine in treatment of obsessive-compulsive disorder, separation anxiety and noise phobia in dogs: a preliminary, clinical study.",
+            "authors": [
+              "Seksel K",
+              "Lindeman M J"
+            ],
+            "journal": "Australian veterinary journal",
+            "year": "2001",
+            "abstract": "To evaluate the efficacy and tolerance of a treatment protocol for obsessive-compulsive disorder, separation anxiety and noise phobia in dogs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2286699",
+            "title": "Clomipramine in obsessive-compulsive disorder: clinical response and plasma levels.",
+            "authors": [
+              "Mavissakalian M R",
+              "Jones B",
+              "Olson S",
+              "Perel J M"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1990",
+            "abstract": "Two related data sets are presented that point to a specific pharmacological effect and support a predominantly serotonergic mediation of clomipramine's antiobsessional effect. A significant placebo versus clomipramine contrast from both the between- and within-group perspectives was found in 25 patients with moderate to severe obsessive-compulsive disorder of at least 2 years' duration and no evidence of depression who completed a double-blind, placebo-controlled, 10-week study. There was no si",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10730618",
+            "title": "Diagnosis and treatment of canine separation anxiety and the use of clomipramine hydrochloride (clomicalm).",
+            "authors": [
+              "Horwitz D F"
+            ],
+            "journal": "Journal of the American Animal Hospital Association",
+            "year": "2000",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2140372",
+            "title": "Clomipramine versus fluoxetine in obsessive-compulsive disorder: a retrospective comparison of side effects and efficacy.",
+            "authors": [
+              "Jenike M A",
+              "Baer L",
+              "Greist J H"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1990",
+            "abstract": "Since it will be some time until data will be available comparing clomipramine and fluoxetine for the treatment of patients with obsessive-compulsive disorder (OCD), a meta-analysis of previous studies was performed in an attempt to gain some information about comparable efficacy and side effects of these two commonly used agents. In 31 OCD patients receiving clomipramine in a controlled trial and 72 OCD patients receiving fluoxetine openly, both drugs appeared effective, with clomipramine havin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Clomipramine 透過強效 SERT 抑制提升突觸間隙血清素濃度，降低杏仁核過度活化；NET 抑制改善前額葉對恐懼迴路的調控。OCD 屬 DSM-5 焦慮相關疾患，clomipramine 為 FDA 核准 OCD 第一線藥物，機轉與廣泛焦慮疾患高度吻合。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn": {
+        "score": 0.9990200996398926,
+        "rank": 1957
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "良性嬰兒陣發性斜頸（BPTI）目前認為與 CACNA1A 鈣離子通道基因變異及偏頭痛機轉相關，與 clomipramine 的血清素/正腎上腺素再吸收抑制機轉無明確連結。TxGNN 高分可能來自知識圖譜中「神經系統疾病」的泛化連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "schizoid personality disorder",
+      "txgnn": {
+        "score": 0.9989769458770752,
+        "rank": 2023
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "9316681",
+            "title": "Clomipramine-induced tourettism in obsessive-compulsive disorder: clinical and theoretical implications.",
+            "authors": [
+              "Moshe K",
+              "Iulian I",
+              "Seth K",
+              "Eli L",
+              "Joseph Z"
+            ],
+            "journal": "Clinical neuropharmacology",
+            "year": "1994",
+            "abstract": "We report a case in which vocal and motor tics (Tourettism) developed after the administration of clomipramine hydrochloride in a young patient with obsessive compulsive disorder and schizoid personality disorder. Several hypotheses for this occurrence are proposed based on the suggested pathogenesis of Tourette syndrome.",
+            "classification": {
+              "study_type": "Case Report（副作用報告，非療效）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "分裂性人格疾患以社交退縮為核心，目前無明確神經藥理機轉支持 clomipramine 為有效治療。唯一文獻（PMID 9316681）描述 clomipramine 誘發 Tourette 症狀的副作用，為不良反應報告非治療效益，機轉連結極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "paranoid personality disorder",
+      "txgnn": {
+        "score": 0.9989769458770752,
+        "rank": 2024
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2265532",
+            "title": "Correlates of DSM-III personality disorder in obsessive-compulsive disorder.",
+            "authors": [
+              "Mavissakalian M",
+              "Hamann M S",
+              "Jones B"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "1990",
+            "abstract": "Forty-three patients with primary obsessive-compulsive disorder (OCD) completed the Personality Diagnostic Questionnaire (PDQ), a self-rating scale designed to assess axis II personality disorders (PD) from DSM-III. Results showed that 53% of the patients received at least one PD diagnosis. The most frequent diagnoses were avoidant (30%), histrionic (26%), dependent (19%), and schizotypal (16%). Consideration of the personality traits irrespective of diagnostic category showed that in addition t",
+            "classification": {
+              "study_type": "Cross-sectional Study（OCD 共病，非治療研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11407273",
+            "title": "[Psychiatric manifestations of a new variant of Creutzfeldt-Jakob disease. Apropos of a case].",
+            "authors": [
+              "Dervaux A",
+              "Vicart S",
+              "Lopes F",
+              "Le Borgne M H"
+            ],
+            "journal": "L'Encephale",
+            "year": "2001",
+            "abstract": "The new variant of Creutzfeldt-Jakob disease (nvCJD) was first described in the UK in 1996 (16). The nvCJD differs from sporadic, genetic and iatrogenic CJD. Creutzfeldt-Jakob disease is closely associated with an abnormal isoform PrPSc of a cell-surface glycoprotein, prion protein (14). Molecular analysis suggests that nvCJD is caused by the same prion strain as bovine spongiform encephalopathy (BSE) (4, 10). To the end of September 2000, there have been 82 cases of nvCJD in the UK. We report t",
+            "classification": {
+              "study_type": "Case Report（CJD，不相關）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "妄想性人格疾患與多巴胺過度活化較相關，clomipramine 缺乏明確多巴胺拮抗作用。現有文獻（PMID 2265532）僅描述 OCD 患者中人格疾患共病率，非治療妄想性人格疾患的臨床試驗；PMID 11407273 為 CJD 個案報告，無關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "histrionic personality disorder (disease)",
+      "txgnn": {
+        "score": 0.9989769458770752,
+        "rank": 2025
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "表演性人格疾患無已知特定神經傳導物質異常，clomipramine 的血清素/正腎上腺素機轉與此適應症無明確連結，且完全無臨床數據支持。TxGNN 評分可能源於其他人格疾患的泛化預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "schizotypal personality disorder",
+      "txgnn": {
+        "score": 0.9989769458770752,
+        "rank": 2026
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "11893994",
+            "title": "Obsessive-compulsive disorder with poor insight.",
+            "authors": [
+              "Matsunaga H",
+              "Kiriike N",
+              "Matsui T",
+              "Oya K",
+              "Iwasaki Y"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "2002",
+            "abstract": "Although a diagnosis of obsessive-compulsive disorder (OCD) can be made with the specification \"poor insight\" (PI), this subtype remains understudied. To investigate the subtype, 78 OCD patients were characterized by degree of insight, reevaluated after treatment, and compared with 20 schizophrenics with OCD (OCD+S). At the pretreatment assessments in OCD patients, 28 subjects with poor or delusional insight (PI; 36%) were distinguished from 50 subjects with fair or good insight (GI; 64%) using ",
+            "classification": {
+              "study_type": "Clinical Review（OCD 洞察力與人格共病）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2265532",
+            "title": "Correlates of DSM-III personality disorder in obsessive-compulsive disorder.",
+            "authors": [
+              "Mavissakalian M",
+              "Hamann M S",
+              "Jones B"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "1990",
+            "abstract": "Forty-three patients with primary obsessive-compulsive disorder (OCD) completed the Personality Diagnostic Questionnaire (PDQ), a self-rating scale designed to assess axis II personality disorders (PD) from DSM-III. Results showed that 53% of the patients received at least one PD diagnosis. The most frequent diagnoses were avoidant (30%), histrionic (26%), dependent (19%), and schizotypal (16%). Consideration of the personality traits irrespective of diagnostic category showed that in addition t",
+            "classification": {
+              "study_type": "Cross-sectional Study（OCD 共病率）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1444723",
+            "title": "Effect of axis II diagnoses on treatment outcome with clomipramine in 55 patients with obsessive-compulsive disorder.",
+            "authors": [
+              "Baer L",
+              "Jenike M A",
+              "Black D W",
+              "Treece C",
+              "Rosenfeld R"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1992",
+            "abstract": "We used the Structured Interview for DSM-III Personality Disorders to diagnose DSM-III personality disorders systematically in 55 patients with obsessive-compulsive disorder in the active-treatment cell of a controlled trial of clomipramine hydrochloride. Patients with a cluster A personality disorder had significantly higher obsessive-compulsive disorder severity scores at baseline, and the number of personality disorders was strongly related to baseline severity of obsessive-compulsive disorde",
+            "classification": {
+              "study_type": "Cohort Study（Axis II 對 OCD 治療結果影響，間接）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7635854",
+            "title": "Predictors of drug treatment response in obsessive-compulsive disorder.",
+            "authors": [
+              "Ravizza L",
+              "Barzega G",
+              "Bellino S",
+              "Bogetto F",
+              "Maina G"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1995",
+            "abstract": "Although a large body of evidence indicates the efficacy of pharmacotherapy in the treatment of obsessive-compulsive disorder (OCD), a considerable percentage of these patients do not respond. Very few studies focus on factors related to treatment response of OCD. The purpose of this study was to investigate which clinical factors are related to drug treatment response in OCD.",
+            "classification": {
+              "study_type": "Cohort Study（OCD 治療反應預測因子）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10897982",
+            "title": "[Drug treatment of obsessive-compulsive disorder. With proper drugs and some patience many patients can be helped].",
+            "authors": [
+              "Mavrogiorgou P",
+              "Hegerl U"
+            ],
+            "journal": "MMW Fortschritte der Medizin",
+            "year": "1999",
+            "abstract": "Pharmacotherapy which, together with behavior therapy, is a major pillar in the treatment of obsessive-compulsive disorder (OCD), can bring about a distinct symptomatic improvement in 50-70% of the patients. In addition to the classical tricyclic antidepressant, clomipramine, a number of new selective serotonin reuptake inhibitors have now been approved for the treatment of OCD. In comparison with depression, pharmacotherapy of OCD is characterized by a long latency of effect of eight to twelve ",
+            "classification": {
+              "study_type": "Review（OCD 藥物治療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類分裂型人格疾患與血清素 2A 受體異常及多巴胺過度活化有關；clomipramine 的 5-HT2 受體阻斷可能提供部分益處，但僅為間接機轉。文獻均為 OCD 共病研究（探討人格診斷如何影響 clomipramine 對 OCD 的治療反應），並非針對類分裂型人格疾患本身的治療研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "agoraphobia",
+      "txgnn": {
+        "score": 0.9987469911575316,
+        "rank": 2407
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38014714",
+            "title": "Pharmacological treatments in panic disorder in adults: a network meta-analysis.",
+            "authors": [
+              "Guaiana Giuseppe",
+              "Meader Nicholas",
+              "Barbui Corrado",
+              "Davies Simon Jc",
+              "Furukawa Toshi A"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2023",
+            "abstract": "A panic attack is a discrete period of fear or anxiety that has a rapid onset and reaches a peak within 10 minutes. The main symptoms involve bodily systems, such as racing heart, chest pain, sweating, shaking, dizziness, flushing, churning stomach, faintness and breathlessness. Other recognised panic attack symptoms involve fearful cognitions, such as the fear of collapse, going mad or dying, and derealisation (the sensation that the world is unreal). Panic disorder is common in the general pop",
+            "classification": {
+              "study_type": "Network Meta-analysis（恐慌症藥物治療）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6373161",
+            "title": "Clomipramine and diazepam in the treatment of agoraphobia and social phobia in general practice.",
+            "authors": [
+              "Allsopp L F",
+              "Cooper G L",
+              "Poole P H"
+            ],
+            "journal": "Current medical research and opinion",
+            "year": "1984",
+            "abstract": "A multi-centre, double-blind trial was carried out in general practice to compare the effectiveness and tolerability of clomipramine and diazepam in patients with agoraphobia or social phobia. Patients were allocated at random to receive one or other of the trial drugs over a period of 12 weeks and dosage was adjusted to need. During the last 4 weeks daily dosage ranged from 25 to 150 mg clomipramine and from 10 to 30 mg diazepam. Analysis of results from 33 patients (15 clomipramine, 18 diazepa",
+            "classification": {
+              "study_type": "RCT（Clomipramine vs Diazepam 廣場恐懼症）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22290995",
+            "title": "Clomipramine, a better reference drug for panic/agoraphobia. II. Psychomotor and cognitive effects.",
+            "authors": [
+              "Marcourakis T",
+              "Gorenstein C",
+              "Gentil V"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "1993",
+            "abstract": "The present reference drugs for the treatment of panic disorder and agoraphobia are imipramine and alprazolam. The latter decreases performance and cognitive functioning. No study of such functions in panic/agoraphobia is available. Fifty four out-patients meeting DSM-III-R criteria for panic disorder with or without agoraphobia (PAG), taking part in a parallel groups controlled trial of imipramine (mean dose ±SEM 114±9 mg), clomipramine (50±4 mg) and propanteline (active placebo) over 8 weeks, ",
+            "classification": {
+              "study_type": "Comparative RCT（Clomipramine 作參考藥物）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2178909",
+            "title": "Clomipramine. An overview of its pharmacological properties and a review of its therapeutic use in obsessive compulsive disorder and panic disorder.",
+            "authors": [
+              "McTavish D",
+              "Benfield P"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "During the 20 years that have elapsed since clomipramine (chlorimipramine) was first marketed, it has become well established in the treatment of depressive illness, particularly treatment-resistant depression. However, in addition to its role as an antidepressant, attention is being focused on the use of clomipramine in 2 other areas of psychiatry: obsessive compulsive disorder and panic disorder. Short term clinical trials have shown that clomipramine is generally more effective than amitripty",
+            "classification": {
+              "study_type": "Pharmacological Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22204483",
+            "title": "Treatment strategies of obsessive-compulsive disorder and panic disorder/agoraphobia.",
+            "authors": [
+              "Marazziti Donatella",
+              "Carlini Marina",
+              "Dell'Osso Liliana"
+            ],
+            "journal": "Current topics in medicinal chemistry",
+            "year": "2012",
+            "abstract": "Anxiety disorders represent the most prevalent psychiatric disorders. In addition, a considerable burden is associated with them, not only for individual sufferers, but also for the health care system. However, many patients who might benefit from treatment are not diagnosed or treated. This may partly be due to lack of awareness of the anxiety disorders by primary care practitioners and by the sufferers themselves. In addition, the stigma still associated with psychiatric disorders and lack of ",
+            "classification": {
+              "study_type": "Review（OCD 與恐慌症/廣場恐懼症治療策略）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2651491",
+            "title": "Panic attacks and agoraphobia: low dose clomipramine treatment.",
+            "authors": [
+              "Gloger S",
+              "Grunhaus L",
+              "Gladic D",
+              "O'Ryan F",
+              "Cohen L"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1989",
+            "abstract": "Seventeen outpatients with panic anxiety and agoraphobia were treated with a low, flexible dose of clomipramine in an 8-week open trial. Panic attacks ceased completely in 13 patients and markedly decreased in the other four without additional therapeutic measures. Avoidance behavior disappeared in five of the seven agoraphobic patients. Overall mean dosage was 45 mg/day, with eight patients receiving clomipramine 25 mg or less. Higher doses were needed when agoraphobia was present. These result",
+            "classification": {
+              "study_type": "Clinical Trial（低劑量 Clomipramine 治恐慌/廣場恐懼）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10221358",
+            "title": "Serum levels of clomipramine and desmethylclomipramine and clinical improvement in panic disorder.",
+            "authors": [
+              "Marcourakis T",
+              "Gorenstein C",
+              "Ramos R T",
+              "da Motta Singer J"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "1999",
+            "abstract": "Several placebo-controlled trials have shown the efficacy of clomipramine (CMI) in panic disorder. However, none has investigated the relationship between CMI, and desmethylclomipramine (DCMI) plasma levels, and outcome. In this trial, 41 patients meeting the DSM-III-R criteria for panic disorder with/without agoraphobia received 50-200 mg of CMI daily in a single-blind, flexible dose regimen for 14 weeks. At the end of treatment, 97% of the patients were free of panic attacks. Patients were cla",
+            "classification": {
+              "study_type": "Cohort Study（血清濃度與恐慌症改善）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40946318",
+            "title": "Integrative Systematic Review on Pharmacological, Psychotherapeutic, and Neurostimulatory Treatment Options in Treatment-Resistant Anxiety Disorders.",
+            "authors": [
+              "Schiele Miriam A",
+              "Fagan Harry A",
+              "Baldwin David S",
+              "Domschke Katharina"
+            ],
+            "journal": "Psychotherapy and psychosomatics",
+            "year": "2025",
+            "abstract": "Treatment resistance in anxiety disorders (TR-ADs) constitutes a major clinical challenge conferring a considerable burden regarding quality of life and societal health costs.",
+            "classification": {
+              "study_type": "Integrative Systematic Review（2025）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8575719",
+            "title": "[Panic disorder and agoraphobia: what is effective?].",
+            "authors": [
+              "Bandelow B",
+              "Sievert K",
+              "Röthemeyer M",
+              "Hajak G",
+              "Broocks A"
+            ],
+            "journal": "Fortschritte der Neurologie-Psychiatrie",
+            "year": "1995",
+            "abstract": "The present survey of controlled studies on the treatment of panic disorder and agoraphobia (PDA) reveals that treatment with tricyclic antidepressants (e.g., imipramine and clomipramine), benzodiazepines (e.g., alprazolam), serotonin reuptake inhibitors (e.g., fluvoxamine) and the monoamine oxidase inhibitor phenelzine has been proven effective. Among psychological therapies, cognitive therapy and exposure therapy in agoraphobia have been shown to be effective. There is an insufficient number o",
+            "classification": {
+              "study_type": "Review（恐慌症有效治療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10665629",
+            "title": "Paroxetine, clomipramine, and cognitive therapy in the treatment of panic disorder.",
+            "authors": [
+              "Bakker A",
+              "van Dyck R",
+              "Spinhoven P",
+              "van Balkom A J"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1999",
+            "abstract": "This 12-week, placebo-controlled study was carried out to compare the relative efficacy of paroxetine, clomipramine, and cognitive therapy in the treatment of DSM-III-R-defined panic disorder with or without agoraphobia.",
+            "classification": {
+              "study_type": "RCT（Paroxetine vs Clomipramine vs CBT）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9585709",
+            "title": "Comparison of aerobic exercise, clomipramine, and placebo in the treatment of panic disorder.",
+            "authors": [
+              "Broocks A",
+              "Bandelow B",
+              "Pekrun G",
+              "George A",
+              "Meyer T"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1998",
+            "abstract": "The purpose of this study was to compare the therapeutic effect of exercise for patients with panic disorder to a drug treatment of proven efficacy and to placebo.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10361962",
+            "title": "The efficacy and safety of moclobemide compared to clomipramine in the treatment of panic disorder.",
+            "authors": [
+              "Krüger M B",
+              "Dahl A A"
+            ],
+            "journal": "European archives of psychiatry and clinical neuroscience",
+            "year": "1999",
+            "abstract": "The primary objectives of this multicenter study were to determine the efficacy and safety of moclobemide, a selective reversible inhibitor of monoamino oxidase A, as drug treatment in DSM-III-R panic disorder with and without agoraphobia. In a comparative double-blind, randomized parallel-group design with fixed-flexible dose moclobemide 450 mg per day was compared to clomipramine 150 mg per day, as that drug was considered standard treatment of panic disorder in Europe. 135 patients were rando",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11277602",
+            "title": "A dose-finding and discontinuation study of clomipramine in panic disorder.",
+            "authors": [
+              "Lotufo-Neto F",
+              "Bernik M",
+              "Ramos R T",
+              "Andrade L",
+              "Gorenstein C"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2001",
+            "abstract": "Eighty-one panic disorder patients with or without agoraphobia were treated with flexible doses of clomipramine under single-blind conditions. Fifty-seven (70.3%) reached operational criteria for full remission in 16.2 +/- 6.5 weeks, with a mean dose of 89.1 +/- 8.2 mg/day. Fifty-four (81%) of them received a continuous post-remission maintenance treatment at full doses of clomipramine for 4-6 months. No patient relapsed during the clomipramine maintenance phase. Their medication was then tapper",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10066007",
+            "title": "Comparative effects of low and high doses of clomipramine and placebo in panic disorder: a double-blind controlled study. French University Antidepressant Group.",
+            "authors": [
+              "Caillard V",
+              "Rouillon F",
+              "Viel J F",
+              "Markabi S"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "1999",
+            "abstract": "This study was designed to explore the dose-response relationship for clomipramine in patients with panic disorder, with or without agoraphobia. After 1 week of single-blind placebo pretreatment, 180 such patients were assigned to a multicentre placebo-controlled comparison of the effects of high and low doses of clomipramine, and were followed up for 8 weeks. In alleviating anxiety and panic disorder, both clomipramine doses were more efficacious than placebo for panic disorder and, to a lesser",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19698677",
+            "title": "New treatments for panic.",
+            "authors": [
+              "Ballenger J"
+            ],
+            "journal": "European psychiatry : the journal of the Association of European Psychiatrists",
+            "year": "1998",
+            "abstract": "Panic disorder is a chronic condition for many patients and can be socially, emotionally and occupationally disabling. Until recently, clomipramine and alprazolam were the only drugs approved for its treatment. While widely used in the US and Europe, both belong to drug classes (tricyclics and benzodiazepines) with well-recognised side effects that can be problematic and thus limit their use. Recently, paroxetine became the first selective serotonin reuptake inhibitor to receive approval and lic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6347516",
+            "title": "Antidepressants in the treatment of agoraphobia and obsessive-compulsive disorder.",
+            "authors": [
+              "Mavissakalian M"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11071019",
+            "title": "The use of the Panic and Agoraphobia Scale (P & A) in a controlled clinical trial.",
+            "authors": [
+              "Bandelow B",
+              "Broocks A",
+              "Pekrun G",
+              "George A",
+              "Meyer T"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "2000",
+            "abstract": "A new 13-item scale has been developed for measuring severity of illness in patients with panic disorder and agoraphobia, the Panic and Agoraphobia Scale (P & A). The scale has five subscales covering the main factors that reduce quality of life in panic disorder patients (panic attacks, avoidance, anticipatory anxiety, disability and worries about health). The application of this scale in a double-blind placebo-controlled panic disorder trial is described. At the same time, the aim of the study",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7621388",
+            "title": "Clomipramine treatment and behaviour therapy with agoraphobic women.",
+            "authors": [
+              "Johnston D G",
+              "Troyer I E",
+              "Whitsett S F",
+              "Dalby J T"
+            ],
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "1995",
+            "abstract": "The separate and combined effects of clomipramine hydrochlorzide and behaviour therapy on agoraphobic symptoms were investigated in a 28-week placebo-controlled double-blind clinical trial. One hundred and eight women diagnosed as agoraphobic were randomly assigned to one of four treatment conditions: clomipramine alone, behaviour therapy alone, clomipramine and behaviour therapy or placebo. Sixty women completed the assigned treatment. Clomipramine was prescribed in weekly increments to a maxim",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12729940",
+            "title": "5-HT1A responsivity in patients with panic disorder before and after treatment with aerobic exercise, clomipramine or placebo.",
+            "authors": [
+              "Broocks Andreas",
+              "Meyer T",
+              "Opitz M",
+              "Bartmann U",
+              "Hillmer-Vogel U"
+            ],
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2003",
+            "abstract": "Blunted neuroendocrine and physiological responses to the selective 5-HT(1A) receptor agonist, ipsapirone, have been observed in patients with panic disorder and/or agoraphobia (PDA). In order to examine whether this hyporesponsiveness to ipsapirone is modified by pharmacological or non-pharmacological therapeutic interventions, challenges with an oral dose of ipsapirone (0.3 mg/kg) and placebo were performed in patients with PDA before and after 10 weeks of treatment with clomipramine, aerobic ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3312397",
+            "title": "Effect of a serotonin precursor and uptake inhibitor in anxiety disorders; a double-blind comparison of 5-hydroxytryptophan, clomipramine and placebo.",
+            "authors": [
+              "Kahn R S",
+              "Westenberg H G",
+              "Verhoeven W M",
+              "Gispen-de Wied C C",
+              "Kamerbeek W D"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1987",
+            "abstract": "A double-blind placebo-controlled study of 5-HTP and clomipramine was carried out on 45 patients suffering from anxiety disorders (DSM-III). Clomipramine has shown to be effective in that it induced significant improvement on all rating scales as compared to placebo. 5-HTP showed a moderate reduction of the symptomatology on the 90-item symptoms checklist (SCL-90) and the State Scale of the Spielberger State-Trait Anxiety Inventory. Clomipramine and 5-HTP differed in their efficacy in that 5-HTP",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "廣場恐懼症常與恐慌症共病，涉及藍斑核正腎上腺素過度活化及血清素迴路失調。Clomipramine 的雙重 SERT/NET 抑制機轉可抑制恐慌發作頻率、降低預期焦慮。1980-90 年代多項 RCT 直接驗證療效，2023-2025 年系統性回顧亦持續納入。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "major depressive disorder",
+      "txgnn": {
+        "score": 0.9977491497993468,
+        "rank": 3716
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01944657",
+            "title": "Supplemental TMS vs. Standard Medication Monotherapy for Treating Major Depression: An Exploratory Field Study",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-09",
+            "completion_date": "2015-12",
+            "brief_summary": "A. Introduction to the Problem\n\nThis field experiment is intended to explore whether supplemental transcranial magnetic stimulation (TMS) is more effective than standard medication mono-therapy for the treatment of major depressive disorder. Transcranial magnetic stimulation (TMS) is now included in the practice guidelines of the American Psychiatric Association for the treatment of major depression.\n\nB. Importance of the Area of Study\n\nThe safety, efficacy and value of TMS treatment has been es",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "TMS 探索性試驗（WITHDRAWN，0 人），已撤回，無有效數據。"
+            }
+          },
+          {
+            "nct_id": "NCT00704860",
+            "title": "Treatment-Resistant Depression, Hippocampus Atrophy and Serotonin Genetic Polymorphism",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2005-02",
+            "completion_date": "2010-12",
+            "brief_summary": "Reduction of volume of the hippocampus has been associated with major depression in many studies. It has been suggested that antidepressants may protect against hippocampus volume loss in humans associated with multiple episodes of depression and may also reverse the reduction of volume caused by the depression. In addition, genetic markers for serotonin are implicated with depression, and may be an indication of reduced response to antidepressant treatments.\n\nThis study aims to enroll patients ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，治療抵抗性憂鬱症與海馬萎縮研究（27 人），Clomipramine 作為抗憂鬱藥選項，探討生物標記。"
+            }
+          },
+          {
+            "nct_id": "NCT05931965",
+            "title": "Comparative Efficacy of Antidepressants With L-methylfolate, B12, and Magnesium in Depressive Disorders",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 88,
+            "start_date": "2022-10-05",
+            "completion_date": "2023-08-31",
+            "brief_summary": "The aim of this clinical trial is to compare the effect of antidepressants in combination with different dietary supplements in patients with depression. Our main objective is to compare the efficacy of antidepressants in combination with either L-methyl folate, Vit B12, or magnesium) in patients with depressive disorders. The levels of depressive symptoms as measured by the Patient Health Questionnaire (PHQ-9) at base level and during follow-up.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "抗憂鬱藥合併葉酸/B12/鎂的比較研究（88 人），若 clomipramine 納入比較組則相關，資料需確認。"
+            }
+          },
+          {
+            "nct_id": "NCT06659094",
+            "title": "Step Down From Maximal Support: Efficacy of Stepped-care Internet-based Cognitive Behavior Therapy for Obsessive-compulsive Disorder",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 95,
+            "start_date": "2023-08-21",
+            "completion_date": "2025-12-30",
+            "brief_summary": "This study is conducted to explore the efficacy and cost-effectiveness of stepped-care internet-based cognitive behavior therapy (sc-ICBT) with reduced support compared to cognitive-behavioral group therapy(CBGT), to identify the optimal transition points for shorter effective stepped treatments, to find clinical indicators that can predict the effectiveness of CBT interventions, and to investigate predictive outcomes.\n\nThe main questions the investigators aim to answer are:\n\n1. Is the reduction",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "認知行為治療介入研究，非藥理學試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT00944996",
+            "title": "Assessment of PACAP-BDNF Signaling System Involvement in Etiology and Treatment of Major Depression",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2009-06",
+            "completion_date": "2012-07",
+            "brief_summary": "The neuropeptide Pituitary Adenylate Cyclase Activating Polypeptide (PACAP) and its receptors PAC1 and VPAC2 are widely expressed in the nervous system. The investigators found that PACAP treatment of neuronal cell cultures increases expression of Brain Derived Neurotrophic Factor (BDNF) that plays an important role in the etiology of psychiatric disorders and action of antidepressants. For the first time, the investigators demonstrated that treatment by Paroxetine and Citalopram significantly d",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "PACAP-BDNF 訊號研究（生物標記探索），非治療療效試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT03548675",
+            "title": "Pharmacogenetics to Improve Personalized Antidepressant Dosing in Patients With Severe Depression;a Randomized Controlled Trial Using Tricyclic Antidepressants",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 125,
+            "start_date": "2018-05-23",
+            "completion_date": "2022-07-13",
+            "brief_summary": "Tricyclic Antidepressants (TCA's) are the cornerstone of treatment for patients with severe Major Depressive Disorder (sMDD). Current dosing is guided by repeated measurements of blood levels. Compared to patients with a normal metabolization function, for those with increased CYP450 enzyme activity it takes longer to reach a therapeutic drug level. The consequent delay of drug efficacy is associated with a prolonged treatment period, increased risk of suicidal behaviour and eventually lower rem",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，藥物基因組學引導 TCA 個人化劑量研究（125 人），改善 clomipramine 在 MDD 中的安全性與療效優化，具臨床應用意義。"
+            }
+          },
+          {
+            "nct_id": "NCT06942494",
+            "title": "Effect of a Family-Based Cognitive Behavioral Therapy Self-Help Intervention for Adolescents With Obsessive-Compulsive Disorder：A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 88,
+            "start_date": "2025-04-30",
+            "completion_date": "2027-12-31",
+            "brief_summary": "The goal of this clinical trial is to learn if self-help book can be used to treat obsessive-compulsive disorder (OCD) in adolescents aged 10 to 17. The main questions it aims to answer are:\n\nCan adolescents and their parents effectively reduce the severity of the obsessive-compulsive symptoms in adolescents who are already stably taking medications through self-help books? What are the characteristics of adolescents who are best suited to use self-help intervention book to treat obsessive-compu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "青少年 OCD 家庭 CBT 研究，非 MDD 藥理學試驗。"
+            }
+          },
+          {
+            "nct_id": "NCT05952713",
+            "title": "Comparative Responses to 15 Different Antidepressants in Major Depressive Disorder - Results From a Long-term Nation-wide Population-based Study Emulating a Randomized Trial",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 73336,
+            "start_date": "2022-10-01",
+            "completion_date": "2023-07-01",
+            "brief_summary": "Achieving results from RCTs with high internal and external validity is a major challenge within psychiatry due to the nature of psychiatric illnesses. The Investigators will conduct a \"real world\" naturalistic nation-wide population-based longitudinal register linkage study comparing long-term responses to all kinds of antidepressants in patients with major depressive disorder emulating a randomized trial.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "73,336 名 MDD 患者的 15 種抗憂鬱藥比較研究（COMPLETED），是目前最大規模真實世界抗憂鬱藥療效比較，clomipramine 很可能納入比較。"
+            }
+          },
+          {
+            "nct_id": "NCT04989413",
+            "title": "Randomized, Double Blind Clinical Trial to Study the Effect of Cannabidiol (CBD) 133mg + Cannabigerol (CBG) 66mg + Tetrahydrocannabinol (THC) 4mg a Day As Adjunctive Therapy in the Treatment of Chronic Migraine - CAMTREA TRIAL",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 110,
+            "start_date": "2022-10-18",
+            "completion_date": "2025-02-20",
+            "brief_summary": "To evaluate the effect of the cannabidiol (CBD) + cannabigerol (CBG) + tetrahydrocannabinol (THC) up to 133/66/4mg daily versus placebo as adjuvant treatment in chronic migraine (CM) patients under preventive treatment at a stable dose for at least 3 months who present at least 5 headaches day a month. CM patients of both sexes, between 25 and 65 years old, who have not had CBD and/or THC as a migraine treatment. Patients may be having migraine preventive treatment such as propranolol, atenolol,",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "CBD + CBG 用於 MDD（Phase 2/3，TERMINATED），與 clomipramine 無直接關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT01305707",
+            "title": "Continuation Electroconvulsive Therapy Associated With Pharmacotherapy Versus Pharmacotherapy Alone for Relapse Prevention in Major Depression. A Clinical, Controlled, Prospective and Randomized Trial",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 104,
+            "start_date": "2009-07",
+            "completion_date": "2014-07",
+            "brief_summary": "OBJECTIVES:\n\nTo evaluate the comparative efficacy and security of Continuation Electroconvulsive Therapy associated with pharmacotherapy versus pharmacotherapy alone in the prevention of depressive relapse.\n\nMETHODS:\n\nDemographic and clinical variables will be collected and side effects scales and neurocognitive battery will be performed. Variables of efficacy: relapse percentage in both groups in one year (primary variable); time without relapse. Main variable of security: occurrence of side ef",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "ECT 加藥物治療 vs 單純藥物（TERMINATED），聚焦 ECT 療效，clomipramine 角色不明確。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29477251",
+            "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Furukawa Toshi A",
+              "Salanti Georgia",
+              "Chaimani Anna",
+              "Atkinson Lauren Z"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are available; however, because of inadequate resources, antidepressants are used more frequently than psychological interventions. Prescription of these agents should be informed by the best available evidence. Therefore, we aimed to update and expand our previous work to compare and rank antidepressants for the acute treatment",
+            "classification": {
+              "study_type": "Network Meta-analysis（Cipriani 2018，21種抗憂鬱藥，地標研究）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27289172",
+            "title": "Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Zhou Xinyu",
+              "Del Giovane Cinzia",
+              "Hetrick Sarah E",
+              "Qin Bin"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2016",
+            "abstract": "Major depressive disorder is one of the most common mental disorders in children and adolescents. However, whether to use pharmacological interventions in this population and which drug should be preferred are still matters of controversy. Consequently, we aimed to compare and rank antidepressants and placebo for major depressive disorder in young people.",
+            "classification": {
+              "study_type": "Network Meta-analysis（兒青抗憂鬱藥比較）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28850959",
+            "title": "Epileptic Seizures Under Antidepressive Drug Treatment: Systematic Review.",
+            "authors": [
+              "Steinert Tilman",
+              "Fröscher Walter"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "2018",
+            "abstract": "This paper is a systematic review on seizures under treatment with substances licensed for major depression.",
+            "classification": {
+              "study_type": "Systematic Review（抗憂鬱藥癲癇風險）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25911132",
+            "title": "Dose equivalents of antidepressants: Evidence-based recommendations from randomized controlled trials.",
+            "authors": [
+              "Hayasaka Yu",
+              "Purgato Marianna",
+              "Magni Laura R",
+              "Ogawa Yusuke",
+              "Takeshima Nozomi"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "2015",
+            "abstract": "Dose equivalence of antidepressants is critically important for clinical practice and for research. There are several methods to define and calculate dose equivalence but for antidepressants, only daily defined dose and consensus methods have been applied to date. The purpose of the present study is to examine dose equivalence of antidepressants by a less arbitrary and more systematic method.",
+            "classification": {
+              "study_type": "Systematic Review（抗憂鬱藥劑量等效）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30611836",
+            "title": "Pharmacological interventions targeting anhedonia in patients with major depressive disorder: A systematic review.",
+            "authors": [
+              "Cao Bing",
+              "Zhu Judy",
+              "Zuckerman Hannah",
+              "Rosenblat Joshua D",
+              "Brietzke Elisa"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "2019",
+            "abstract": "Anhedonia is defined as a diminished ability to experience interest or pleasure, and is a critical psychopathological dimension of major depressive disorder (MDD). The purpose of the current systematic review is to evaluate the therapeutic efficacy of pharmacological treatments on measures of anhedonia in adults with MDD. Electronic databases Cochrane Library (CENTRAL), Ovid MEDLINE, PubMed, PsycINFO, and Google Scholar were searched from inception to June 1, 2018 for longitudinal studies utiliz",
+            "classification": {
+              "study_type": "Systematic Review（快感缺失藥物介入）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32982805",
+            "title": "Antidepressants in Children and Adolescents: Meta-Review of Efficacy, Tolerability and Suicidality in Acute Treatment.",
+            "authors": [
+              "Boaden Katharine",
+              "Tomlinson Anneka",
+              "Cortese Samuele",
+              "Cipriani Andrea"
+            ],
+            "journal": "Frontiers in psychiatry",
+            "year": "2020",
+            "abstract": "Antidepressants are prescribed for the treatment of a number of psychiatric disorders in children and adolescents, however there is still controversy about whether they should be used in this population. This meta-review aimed to assess the effects of antidepressants for the acute treatment of attention-deficit/hyperactivity disorder (ADHD), anxiety disorders (ADs), autistic spectrum disorder (ASD), enuresis, major depressive disorder (MDD), obsessive-compulsive disorder (OCD), and posttraumatic",
+            "classification": {
+              "study_type": "Meta-review（兒青抗憂鬱藥）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37155164",
+            "title": "Effectiveness of Genotype-Specific Tricyclic Antidepressant Dosing in Patients With Major Depressive Disorder: A Randomized Clinical Trial.",
+            "authors": [
+              "Vos Cornelis F",
+              "Ter Hark Sophie E",
+              "Schellekens Arnt F A",
+              "Spijker Jan",
+              "van der Meij Annemarie"
+            ],
+            "journal": "JAMA network open",
+            "year": "2023",
+            "abstract": "Evidence of the clinical benefit of pharmacogenetics-informed treatment (PIT) with antidepressants is still limited. Especially for tricyclic antidepressants (TCAs), pharmacogenetics may be of interest because therapeutic plasma concentrations are well defined, identification of optimal dosing can be time consuming, and treatment is frequently accompanied by adverse effects.",
+            "classification": {
+              "study_type": "Prospective Cohort（基因型導向 TCA 劑量效益）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38379028",
+            "title": "Comparative responses to 17 different antidepressants in major depressive disorder: Results from a 2-year long-term nation-wide population-based study emulating a randomized trial.",
+            "authors": [
+              "Kessing Lars Vedel",
+              "Ziersen Simon Christoffer",
+              "Andersen Frederik Mølkjær",
+              "Gerds Thomas",
+              "Budtz-Jørgensen Esben"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "2024",
+            "abstract": "Long-term studies comparing nonresponse to antidepressants for major depressive disorder (MDD) are lacking.",
+            "classification": {
+              "study_type": "Large Cohort（2024，17種抗憂鬱藥比較反應）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41290573",
+            "title": "Comparative gastrointestinal effects of antidepressants for the acute treatment of adults with major depressive disorder: a network and dose‒response meta-analysis.",
+            "authors": [
+              "Wen Sixiang",
+              "Yan Yushun",
+              "Shao Junru",
+              "Xie Haitao",
+              "Wang Min"
+            ],
+            "journal": "Translational psychiatry",
+            "year": "2025",
+            "abstract": "Gastrointestinal adverse effects are the most commonly reported adverse effects associated with the use of antidepressants. While existing studies on the gastrointestinal effects of antidepressant medications offer valuable insights, there are still opportunities to enhance the evidence base.",
+            "classification": {
+              "study_type": "Network Meta-analysis（2025，胃腸道副作用比較）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34034811",
+            "title": "Beneficial and harmful effects of antidepressants versus placebo, 'active placebo', or no intervention for adults with major depressive disorder: a protocol for a systematic review of published and unpublished data with meta-analyses and trial sequential analyses.",
+            "authors": [
+              "Juul Sophie",
+              "Siddiqui Faiza",
+              "Barbateskovic Marija",
+              "Jørgensen Caroline Kamp",
+              "Hengartner Michael Pascal"
+            ],
+            "journal": "Systematic reviews",
+            "year": "2021",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide. Antidepressants are frequently used to treat major depressive disorder. It has been shown repeatedly that antidepressants seem to reduce depressive symptoms with a statistically significant effect, but the clinical importance of the effect sizes seems questionable. Both beneficial and harmful effects of antidepressants have not previously been sufficiently assessed. The main objective of ",
+            "classification": {
+              "study_type": "Meta-analysis（抗憂鬱藥 vs 安慰劑）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34389045",
+            "title": "Tricyclic antidepressants versus 'active placebo', placebo or no intervention for adults with major depressive disorder: a protocol for a systematic review with meta-analysis and Trial Sequential Analysis.",
+            "authors": [
+              "Jørgensen Caroline Kamp",
+              "Juul Sophie",
+              "Siddiqui Faiza",
+              "Barbateskovic Marija",
+              "Munkholm Klaus"
+            ],
+            "journal": "Systematic reviews",
+            "year": "2021",
+            "abstract": "Major depressive disorder is a common psychiatric disorder causing great burden on patients and societies. Tricyclic antidepressants are frequently used worldwide to treat patients with major depressive disorder. It has repeatedly been shown that tricyclic antidepressants reduce depressive symptoms with a statistically significant effect, but the effect is small and of questionable clinical importance. Moreover, the beneficial and harmful effects of all types of tricyclic antidepressants have no",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39341084",
+            "title": "A higher desmethylclomipramine to clomipramine ratio predicts more effectiveness and fewer adverse effects in major depressive disorder.",
+            "authors": [
+              "Vos Cornelis F",
+              "Coenen Marieke J H",
+              "Ter Hark Sophie E",
+              "Aarnoutse Rob E",
+              "Schellekens Arnt F A"
+            ],
+            "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+            "year": "2024",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31247926",
+            "title": "Indices of Change, Expectations, and Popularity of Biological Treatments for Major Depressive Disorder between 1988 and 2017: A Scientometric Analysis.",
+            "authors": [
+              "Tran Bach X",
+              "Ha Giang H",
+              "Vu Giang T",
+              "Nguyen Long H",
+              "Latkin Carl A"
+            ],
+            "journal": "International journal of environmental research and public health",
+            "year": "2019",
+            "abstract": "Major Depressive Disorder (MDD) is the most common psychiatric disorder with high prevalence and disease burden. Biological treatments of MDD over the last several decades include a wide range of antidepressants and neurostimulation therapies. While recent meta-analyses have explored the efficacy and tolerability of antidepressants, the changing trends of biological treatments have not been evaluated. Our study measured the indices of change, expectations, and popularity of biological treatments",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34598683",
+            "title": "Tricyclic antidepressants for major depressive disorder: a comprehensive evaluation of current practice in the Netherlands.",
+            "authors": [
+              "Vos Cornelis F",
+              "Aarnoutse Rob E",
+              "Op de Coul Marijke J M",
+              "Spijker Jan",
+              "Groothedde-Kuyvenhoven Mascha M"
+            ],
+            "journal": "BMC psychiatry",
+            "year": "2021",
+            "abstract": "Traditionally tricyclic antidepressants (TCAs) have an important place in treatment of major depressive disorder (MDD). Today, often other antidepressant medications are considered as first step in the pharmacological treatment of MDD, mainly because they are associated with less adverse effects, whereby the position of TCAs appears unclear. In this study we aimed to examine the current practice of TCAs in treatment of unipolar MDD.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11986508",
+            "title": "Psychodynamic psychotherapy and clomipramine in the treatment of major depression.",
+            "authors": [
+              "Burnand Yvonne",
+              "Andreoli Antonio",
+              "Kolatte Evelyne",
+              "Venturini Aurora",
+              "Rosset Nicole"
+            ],
+            "journal": "Psychiatric services (Washington, D.C.)",
+            "year": "2002",
+            "abstract": "The authors compared a combination of clomipramine and psychodynamic psychotherapy with clomipramine alone in a randomized controlled trial among patients with major depression.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3572384",
+            "title": "Clomipramine-induced pancytopenia.",
+            "authors": [
+              "Magni G",
+              "Urbani A",
+              "Silvestro A",
+              "Grassetto M"
+            ],
+            "journal": "The Journal of nervous and mental disease",
+            "year": "1987",
+            "abstract": "A 54-year old man developed pancytopenia after receiving clomipramine for a major depressive episode with psychotic features. The discontinuation of the drug determined a significant improvement of the hematological picture.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31312426",
+            "title": "What combinations of agomelatine with other antidepressants could be successful during the treatment of major depressive disorder or anxiety disorders in clinical practice?",
+            "authors": [
+              "Potměšil Petr"
+            ],
+            "journal": "Therapeutic advances in psychopharmacology",
+            "year": "2019",
+            "abstract": "Even with many antidepressant and anxiolytic drugs available on the market, there are still patients who do not respond well to the standard first or second line treatments for affective or anxiety disorders. The antidepressant agomelatine has been used in Europe for several years. Agomelatine, an agonist at melatonin receptors and an antagonist at serotonin receptors, can be particularly useful in patients suffering from a major depressive disorder associated with insomnia. Some clinical data h",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9489063",
+            "title": "A double-blind, comparative study of dothiepin and clomipramine in the treatment of major depressive illness.",
+            "authors": [
+              "Welch C P",
+              "Tweed J A",
+              "Smithers A",
+              "Gostick N K",
+              "Raniwalla J"
+            ],
+            "journal": "International journal of clinical practice",
+            "year": "1997",
+            "abstract": "Dothiepin, a well-established antidepressant, has been compared with clomipramine in a single-blind study which demonstrated that dothiepin was better tolerated but there was no difference in efficacy. The present study was performed to recent European guidelines on good clinical practice using a randomised, double-blind, parallel-group methodology. One hundred and one patients suffering from major depressive disorder as defined by DSM-III-R were randomised to receive either clomipramine (25-150",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38902199",
+            "title": "Efficacy and dose-response relationships of antidepressants in the acute treatment of major depressive disorders: a systematic review and network meta-analysis.",
+            "authors": [
+              "Zhou Shuzhe",
+              "Li Pei",
+              "Lyu Xiaozhen",
+              "Lai Xuefeng",
+              "Liu Zuoxiang"
+            ],
+            "journal": "Chinese medical journal",
+            "year": "2025",
+            "abstract": "The optimal antidepressant dosages remain controversial. This study aimed to analyze the efficacy of antidepressants and characterize their dose-response relationships in the treatments of major depressive disorders (MDD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29718600",
+            "title": "Relative Efficacy and Acceptability of Antidepressant Drugs in Adults With Major Depressive Disorder: Commentary on a Network Meta-Analysis.",
+            "authors": [
+              "Andrade Chittaranjan"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "2018",
+            "abstract": "A large number of antidepressant drugs are available across the world. All have been compared against placebo, and many have been compared with some but not all other antidepressants. There is therefore little information about a hierarchy of the efficacy and acceptability of these drugs. About 9 years ago, a network meta-analysis attempted to rank the efficacy and acceptability of 12 newer antidepressant drugs in adults with major depressive disorder. Very recently, this network meta-analysis w",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "MDD 的單胺假說：SERT + NET 雙重抑制提升突觸血清素與正腎上腺素，改善情緒、認知與快感缺失（anhedonia）。Clomipramine 是 Cipriani 2018 Lancet 地標性 21 種抗憂鬱藥網絡統合分析的核心藥物之一，療效數據最充足。REM 睡眠抑制亦被視為 TCA 類藥物抗憂鬱作用的額外機轉。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "endogenous depression",
+      "txgnn": {
+        "score": 0.9970678687095642,
+        "rank": 4519
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2694201",
+            "title": "Clomipramine and EEG sleep in depression.",
+            "authors": [
+              "Kupfer D J",
+              "Ehlers C L",
+              "Pollock B G",
+              "Nathan R S",
+              "Perel J M"
+            ],
+            "journal": "Psychiatry research",
+            "year": "1989",
+            "abstract": "Recent studies with clomipramine (CMI) have demonstrated that a pulse-loading approach is associated with a rapid improvement in symptomatology in the absence of continuous treatment. In the present study, sleep changes were evaluated to ascertain the rapidity of clomipramine's effect on electroencephalographic sleep, especially rapid eye movement (REM) and delta wave sleep measures. Clomipramine produced rapid changes in sleep with reduced sleep continuity and almost complete suppression of REM",
+            "classification": {
+              "study_type": "Clinical Study（Clomipramine 與 EEG 睡眠改變）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27289172",
+            "title": "Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Zhou Xinyu",
+              "Del Giovane Cinzia",
+              "Hetrick Sarah E",
+              "Qin Bin"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2016",
+            "abstract": "Major depressive disorder is one of the most common mental disorders in children and adolescents. However, whether to use pharmacological interventions in this population and which drug should be preferred are still matters of controversy. Consequently, we aimed to compare and rank antidepressants and placebo for major depressive disorder in young people.",
+            "classification": {
+              "study_type": "Network Meta-analysis（含兒青憂鬱症）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2669440",
+            "title": "Moclobemide and clomipramine in endogenous depression. A randomized clinical trial.",
+            "authors": [
+              "Koczkas C",
+              "Holm P",
+              "Karlsson A",
+              "Nagy A",
+              "Ose E"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "1989",
+            "abstract": "The purpose of this study was to compare moclobemide and clomipramine in endogenous depression according to the Newcastle II classification. Sixty-two patients were allocated to either 300 mg moclobemide or 150 mg clomipramine, both given in 3 daily doses. Improvements occurred over time but differences between treatments were never statistically significant. Dizziness, tremor and anticholinergic symptoms were significantly more frequent with clomipramine.",
+            "classification": {
+              "study_type": "RCT（Moclobemide vs Clomipramine 內源性憂鬱）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11986508",
+            "title": "Psychodynamic psychotherapy and clomipramine in the treatment of major depression.",
+            "authors": [
+              "Burnand Yvonne",
+              "Andreoli Antonio",
+              "Kolatte Evelyne",
+              "Venturini Aurora",
+              "Rosset Nicole"
+            ],
+            "journal": "Psychiatric services (Washington, D.C.)",
+            "year": "2002",
+            "abstract": "The authors compared a combination of clomipramine and psychodynamic psychotherapy with clomipramine alone in a randomized controlled trial among patients with major depression.",
+            "classification": {
+              "study_type": "RCT（心理動力治療 + Clomipramine 重鬱症）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6215443",
+            "title": "Fluvoxamine and chlorimipramine in endogenous depression.",
+            "authors": [
+              "De Wilde J E",
+              "Doogan D P"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1982",
+            "abstract": "Thirty patients were treated in a randomised double-blind efficacy study of fluvoxamine and chlorimipramine. The dose range for both drugs was 50-300 mg in divided daily doses. Mean daily doses were higher for fluvoxamine than chlorimipramine. Generally the baseline recordings were comparable for both drug groups. Fluvoxamine was superior to chlorimipramine in all the rating scales used without achieving statistical significance. Chlorimipramine, but not fluvoxamine, caused a significant decreas",
+            "classification": {
+              "study_type": "RCT（Fluvoxamine vs Clomipramine 內源性憂鬱）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10446735",
+            "title": "Mirtazapine: clinical overview.",
+            "authors": [
+              "Gorman J M"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1999",
+            "abstract": "There is currently available evidence that suggests that drugs combining 2 synergistic mechanisms of action (e.g., enhancement of both noradrenergic and serotonergic neurotransmission) may yield superior therapeutic efficacy compared with a single therapeutic mechanism of highly selective agents such as selective serotonin reuptake inhibitors (SSRIs). The differences in antidepressant efficacy favoring dual-acting drugs may exist in particular for 3 difficult-to-treat groups of patients: those w",
+            "classification": {
+              "study_type": "Review（Mirtazapine 臨床綜述，含比較資料）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22516018",
+            "title": "Sleep homeostasis and depression: studies with the rat clomipramine model of depression.",
+            "authors": [
+              "Savelyev S A",
+              "Rantamäki T",
+              "Rytkönen K-M",
+              "Castren E",
+              "Porkka-Heiskanen T"
+            ],
+            "journal": "Neuroscience",
+            "year": "2012",
+            "abstract": "Neonatal treatment of rat pups with clomipramine (CLI) has been shown to cause long-lasting and persistent depression-related behaviors and changes in sleep architecture and in brain-derived neurotrophic factor (BDNF) signaling in adult animals, producing an animal model of depression. However, the molecular mechanisms which mediate these effects of early-life CLI treatment on adult animals remain largely unknown. In order to characterize these further, we investigated in neonatally CLI-treated ",
+            "classification": {
+              "study_type": "Animal Study（Clomipramine 憂鬱模型睡眠恆定）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6388247",
+            "title": "Moclobemide and clomipramine in the treatment of depression. A randomized clinical trial.",
+            "authors": [
+              "Larsen J K",
+              "Holm P",
+              "Mikkelsen P L"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "1984",
+            "abstract": "Moclobemide (Ro 11-1163), a benzamide derivative, is a MAO-inhibitor which selectively and reversibly inhibits monoamine oxidase type A. Thirty-eight patients with episodic, chronic and atypical depressive disorder (DSM-III) were equally randomized to 6 weeks' treatment with either three daily doses of 100 mg moclobemide or 50 mg clomipramine. Both treatment groups improved with time as assessed weekly by the Hamilton Depression Scale and the Clinician's Overall Assessment of Depression State, a",
+            "classification": {
+              "study_type": "RCT（Moclobemide vs Clomipramine 憂鬱症）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3887336",
+            "title": "Obsessive-compulsive disorder.",
+            "authors": [
+              "Insel T R"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "1985",
+            "abstract": "Obsessive-compulsive disorder is a heterogeneous cluster of syndromes that share aspects of both anxiety and affective disorders. Obsessive-compulsive disorder is epidemiologically and phenomenologically distinct from the compulsive character. Although both genetic and neuropsychological data suggest some biologic basis to obsessive-compulsive disorder, there is still insufficient information in both of these areas. Treatment with clomipramine, a tricyclic antidepressant, has proved useful for o",
+            "classification": {
+              "study_type": "Review（OCD 與憂鬱症藥物治療歷史）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14532855",
+            "title": "Alterations in voiding frequency and cystometry in the clomipramine induced model of endogenous depression and reversal with fluoxetine.",
+            "authors": [
+              "Lee Kyu-Sung",
+              "Na Yong-Gil",
+              "Dean-McKinney Travis",
+              "Klausner Adam P",
+              "Tuttle Jeremy B"
+            ],
+            "journal": "The Journal of urology",
+            "year": "2003",
+            "abstract": "Because serotonin (5-HT) in the central nervous system may inhibit bladder activity, we postulated that depression associated with altered 5-HT function might be associated with overactive bladder (OAB). We examined a rat model of endogenous depression caused by lowering 5-HT for effects on voiding frequency (VF) and awake cystometry (CMG), and examined the effect of reversal using the selective serotonin reuptake inhibitor fluoxetine.",
+            "classification": {
+              "study_type": "Animal Study（Clomipramine 憂鬱模型排尿影響）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3929308",
+            "title": "Orthostatic side effects of clomipramine and citalopram during treatment for depression.",
+            "authors": [
+              "Christensen P",
+              "Thomsen H Y",
+              "Pedersen O L",
+              "Gram L F",
+              "Kragh-Sørensen P"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "1985",
+            "abstract": "Orthostatic hypotension, the clinically most important side effect in treatment with tricyclic antidepressants, was investigated in a double-blind study with clomipramine and the selective serotonin reuptake inhibitor citalopram given for 5 weeks. All patients were initially given placebo for 1 week. In the clomipramine group (n = 17) a significant orthostatic drop in the systolic blood pressure was observed during treatment; this remained significant over the whole investigational period. A cur",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "62147",
+            "title": "Sleep deprivation and clomipramine in endogenous depression.",
+            "authors": [
+              "Wirz-Justice A",
+              "Pühringer W",
+              "Hole G"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1976",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16195134",
+            "title": "Orthostatic side effects of clomipramine and moclobemide during treatment for depression.",
+            "authors": [
+              "Stage Kurt Bjerregaard Bjerregaard"
+            ],
+            "journal": "Nordic journal of psychiatry",
+            "year": "2005",
+            "abstract": "From a clinical point of view, orthostatic hypotension is a significant side effect during antidepressant treatment, particularly in the case of tricyclic antidepressants (TCAs). This prospective, randomized clinical trial evaluated the effects of clomipramine and moclobemide on orthostatic blood pressure during treatment for depression. One hundred and fifteen depressed inpatients, age up to 70 years, were randomized to treatment with either moclobemide (400 mg/day) or clomipramine (150 mg/day)",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2644338",
+            "title": "Fluoxetine in endogenous depression and melancholia versus clomipramine.",
+            "authors": [
+              "Ginestet D"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1989",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10460069",
+            "title": "Clomipramine dose-effect study in patients with depression: clinical end points and pharmacokinetics. Danish University Antidepressant Group (DUAG).",
+            "authors": [],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "1999",
+            "abstract": "To examine the problems of establishing dose-effect and concentration-effect relationships of antidepressant therapy with clomipramine.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7187779",
+            "title": "Clinical effects of sleep deprivation and clomipramine in endogenous depression.",
+            "authors": [
+              "Elsenga S",
+              "van den Hoofdakker R H"
+            ],
+            "journal": "Journal of psychiatric research",
+            "year": "1982",
+            "abstract": "Three groups of ten hospitalized endogenously depressed patients were treated with clomipramine alone (CL), a combination of sleep deprivation and clomipramine (CL/SD), and a combination of sleep deprivation and placebo (PL/SD), respectively. The sleep deprivation (SD) regime consisted of two deprivations per week. Measurements by self, blind and nurse ratings were taken twice daily during the experimental period of 15 days. Self and blind ratings indicate that, on average, over the entire exper",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3690111",
+            "title": "Clomipramine, tryptophan and lithium in combination for resistant endogenous depression: seven case studies.",
+            "authors": [
+              "Hale A S",
+              "Procter A W",
+              "Bridges P K"
+            ],
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "year": "1987",
+            "abstract": "Seven patients suffering from severe endogenous depression who had proven resistant to lengthy trials of treatment with tricyclic and other antidepressants are described. Their successful treatment with a combination of clomipramine, L-tryptophan and lithium is discussed in the context of other strategies for the treatment of resistant depression.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17889946",
+            "title": "Neonatal clomipramine induced endogenous depression in rats is associated with learning impairment in adulthood.",
+            "authors": [
+              "Bhagya V",
+              "Srikumar B N",
+              "Raju T R",
+              "Shankaranarayana Rao B S"
+            ],
+            "journal": "Behavioural brain research",
+            "year": "2008",
+            "abstract": "Clinical studies show cognitive impairment in depression. However, the neural substrates underlying these remain elusive. Hence, we have examined the effect of neonatal clomipramine treatment on cognition in adulthood. The neonatal clomipramine treated rats displayed a profound impairment in partially baited 8-arm radial maze task. This work provides a novel perspective into neural basis of depression associated cognitive changes and help in development of therapeutic strategies to treat depress",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2199435",
+            "title": "Worldwide use of clomipramine.",
+            "authors": [
+              "Trimble M R"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1990",
+            "abstract": "Clomipramine, a preferential inhibitor of 5-hydroxytryptamine uptake, has proven effective in the management of depression, resistant depression, and obsessive compulsive disorder. Investigators have also reported benefits of this medication in patients with phobia, panic disorder, chronic pain, Gilles de la Tourette's syndrome, premature ejaculation, anorexia nervosa, cataplexy, and enuresis. In double-blind studies of patients with depression, clomipramine has been significantly more effective",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10993128",
+            "title": "A double-blind study of the efficacy and safety of sertraline and clomipramine in outpatients with severe major depression.",
+            "authors": [
+              "Lépine J P",
+              "Goger J",
+              "Blashko C",
+              "Probst C",
+              "Moles M F"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "2000",
+            "abstract": "This study compared the efficacy and safety of the selective serotonin reuptake inhibitor sertraline with that of the tricyclic antidepressant clomipramine in patients with severe depression, as defined by a baseline 17-item Hamilton Depression Rating Scale (HAM-D) of at least 25. The study included 166 outpatients, randomized to double-blind treatment with sertraline (50-200 mg) or clomipramine (50-150 mg) for 8 weeks. The efficacy of both treatments was similar, 74% of patients in the sertrali",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "內源性憂鬱症（melancholic depression）以顯著快感缺失、植物神經症狀為特徵，對去甲腎上腺素再吸收抑制劑反應良好。Clomipramine 的 NET 抑制（透過 desmethylclomipramine）及 REM 睡眠抑制效果對此亞型有特定優勢。1980-90 年代多項直接 RCT（vs moclobemide、fluvoxamine）提供 L2 級直接證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "attention deficit-hyperactivity disorder",
+      "txgnn": {
+        "score": 0.9957752823829652,
+        "rank": 5802
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25238582",
+            "title": "Tricyclic antidepressants for attention deficit hyperactivity disorder (ADHD) in children and adolescents.",
+            "authors": [
+              "Otasowie John",
+              "Castells Xavier",
+              "Ehimare Umonoibalo P",
+              "Smith Clare H"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2014",
+            "abstract": "Attention deficit hyperactivity disorder (ADHD) is a chronic neurodevelopmental disorder of childhood onset, which may persist into adulthood. ADHD has a significant impact on a child's daily life, affecting relationships and academic performance. Its core symptoms include developmentally inappropriate levels of inattention, hyperactivity, and impulsive behaviour. Tricyclic antidepressants (TCAs) are sometimes used as second line of treatment in the reduction of ADHD symptoms in children and ado",
+            "classification": {
+              "study_type": "Cochrane Systematic Review（TCA 用於兒青 ADHD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32982805",
+            "title": "Antidepressants in Children and Adolescents: Meta-Review of Efficacy, Tolerability and Suicidality in Acute Treatment.",
+            "authors": [
+              "Boaden Katharine",
+              "Tomlinson Anneka",
+              "Cortese Samuele",
+              "Cipriani Andrea"
+            ],
+            "journal": "Frontiers in psychiatry",
+            "year": "2020",
+            "abstract": "Antidepressants are prescribed for the treatment of a number of psychiatric disorders in children and adolescents, however there is still controversy about whether they should be used in this population. This meta-review aimed to assess the effects of antidepressants for the acute treatment of attention-deficit/hyperactivity disorder (ADHD), anxiety disorders (ADs), autistic spectrum disorder (ASD), enuresis, major depressive disorder (MDD), obsessive-compulsive disorder (OCD), and posttraumatic",
+            "classification": {
+              "study_type": "Meta-review（兒青抗憂鬱藥安全性）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10418807",
+            "title": "Aggressive behavior in patients with attention-deficit/hyperactivity disorder, conduct disorder, and pervasive developmental disorders.",
+            "authors": [
+              "Weller E B",
+              "Rowan A",
+              "Elia J",
+              "Weller R A"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1999",
+            "abstract": "Aggressive behaviors are frequently observed in patients with attention-deficit/hyperactivity disorder, conduct disorder, and pervasive developmental disorders. Several theories have been postulated to explain the etiology of aggression in these disorders, but no one theory can account for all the different types of aggressive behaviors observed. Numerous uncontrolled studies with small sample sizes have produced mixed results of pharmacologic agents now being used to treat aggression. This arti",
+            "classification": {
+              "study_type": "Cohort Study（ADHD 攻擊行為藥物治療）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12185806",
+            "title": "[Tic syndrome].",
+            "authors": [
+              "Czapliński Adam",
+              "Steck Andreas J",
+              "Fuhr Peter"
+            ],
+            "journal": "Neurologia i neurochirurgia polska",
+            "year": "2002",
+            "abstract": "A tic is an involuntary, sudden, rapid, recurrent, nonrrhythmic, stereotyped, motor movement or vocalization. This paper reviews clinical, pathophysiological, epidemiological and treatment issues of tic disorders. The clinical presentation of tic disorders with simple and complex motor or vocal tics is reviewed in detail. The most common psychiatric comorbid conditions, such as personality disorder (PD), Obsessive-Compulsive Disorder (OCD), Self-Destructive Behavior (SDB) and Attention Deficit H",
+            "classification": {
+              "study_type": "Review（抽動症症候群）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17207050",
+            "title": "Drug therapy for attention-deficit/hyperactivity disorder-like symptoms in autistic disorder.",
+            "authors": [
+              "Hazell Philip"
+            ],
+            "journal": "Journal of paediatrics and child health",
+            "year": "2007",
+            "abstract": "Problems of inattention and hyperactivity affect one half of individuals with autistic disorder. Care must be taken to ensure that inattention and hyperactivity are not manifestations of other behavioural pathology seen in association with autistic disorder, as this will affect treatment decisions. The prescribing of psychotropic agents to individuals with autistic disorder is increasing but the evidence base is limited, with some exceptions, to uncontrolled studies. Substantial benefit in reduc",
+            "classification": {
+              "study_type": "Systematic Review（自閉症 ADHD 樣症狀藥物治療）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22583957",
+            "title": "High dose methylphenidate treatment in adult attention deficit hyperactivity disorder: a case report.",
+            "authors": [
+              "Liebrenz Michael",
+              "Hof Danielle",
+              "Buadze Anna",
+              "Stohler Rudolf",
+              "Eich Dominique"
+            ],
+            "journal": "Journal of medical case reports",
+            "year": "2012",
+            "abstract": "Stimulant medication improves hyperactivity, inattention, and impulsivity in both pediatric and adult populations with Attention Deficit Hyperactivity Disorder (ADHD). However, data regarding the optimal dosage in adults is still limited.",
+            "classification": {
+              "study_type": "Case Report（成人 ADHD 高劑量藥物治療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39372877",
+            "title": "Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials: Antidepressants for Restricted and Repetitive Behaviors in Autism Spectrum Disorder.",
+            "authors": [
+              "Maneeton Prapinpatch",
+              "Maneeton Benchalak",
+              "Winichaikul Yanisa",
+              "Kawilapat Suttipong",
+              "Kienngam Nongluck"
+            ],
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2024",
+            "abstract": "In previously randomized controlled trials (RCTs) on the efficacy of antidepressants in restricted and repetitive behaviors (RRBs) in autism spectrum disorder (ASD), outcomes overwhelmingly showed no benefits of antidepressants studied in the larger multisite RCTs over placebo. However, the positive effect of antidepressants in the RRBs found in the small preliminary studies requires confirmation in larger trials. We aimed to systematically review the efficacy of antidepressants in the treatment",
+            "classification": {
+              "study_type": "Updated Systematic Review + Meta-analysis（2024，抗憂鬱藥治療 ADHD）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6875128",
+            "title": "Tricyclic antidepressant and methylphenidate treatment of attention deficit disorder in children.",
+            "authors": [
+              "Garfinkel B D",
+              "Wender P H",
+              "Sloman L",
+              "O'Neill I"
+            ],
+            "journal": "Journal of the American Academy of Child Psychiatry",
+            "year": "1983",
+            "abstract": "",
+            "classification": {
+              "study_type": "RCT（TCA vs Methylphenidate 治療 ADD 兒童）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1549543",
+            "title": "Pharmacotherapy of Tourette's syndrome and associated disorders.",
+            "authors": [
+              "Cohen D J",
+              "Riddle M A",
+              "Leckman J F"
+            ],
+            "journal": "The Psychiatric clinics of North America",
+            "year": "1992",
+            "abstract": "Tourette's syndrome (TS) is a chronic neuropsychiatric disorder characterized by multiform motor and phonic tics. Conditions that are commonly associated with TS include attention deficit hyperactivity disorder (ADHD) and obsessive compulsive disorder (OCD). Medications used to treat tics include haloperidol, pimozide, and clonidine. Symptoms of ADHD may respond to clonidine or desipramine. Specific serotonin uptake inhibitors, such as fluoxetine or clomipramine, are used in the treatment of OCD",
+            "classification": {
+              "study_type": "Review（Tourette 症及相關疾患藥物治療）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8861545",
+            "title": "Pharmacological treatment of psychiatric disorders in children and adolescents: focus on guidelines for the primary care practitioner.",
+            "authors": [
+              "Carrey N J",
+              "Wiggins D M",
+              "Milin R P"
+            ],
+            "journal": "Drugs",
+            "year": "1996",
+            "abstract": "This article is a practical review of the current psychopharmacological agents used in the treatment of child and adolescent psychiatric disorders. Psychostimulants such as methylphenidate, dexamphetamine and pemoline are effective in the control of symptoms associated with attention deficit hyperactivity disorder. The controlled release preparations and the adjunctive use of clonidine are helpful to extend stimulant effects and control adverse effects. Tricyclic antidepressants are helpful in i",
+            "classification": {
+              "study_type": "Review（兒青精神科藥物治療指引）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8496110",
+            "title": "Antidepressant treatments in children and adolescents: II. Anxiety, physical, and behavioral disorders.",
+            "authors": [
+              "Ambrosini P J",
+              "Bianchi M D",
+              "Rabinovich H",
+              "Elia J"
+            ],
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "1993",
+            "abstract": "Part II of this review critically evaluates antidepressants' (AD) efficacy in children and adolescents with anxiety, physical, and behavioral disorders as well as AD's side-effect spectrum. AD are administered increasingly to youths with specific anxiety syndromes phenomenologically paralleling those in adults which are responsive to AD (e.g., panic, obsessive-compulsive disorders). While several trials have not substantiated earlier theoretical considerations suggesting their usefulness in sepa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7717094",
+            "title": "Reversible and selective inhibitors of monoamine oxidase A in mental and other disorders.",
+            "authors": [
+              "Priest R G",
+              "Gimbrett R",
+              "Roberts M",
+              "Steinert J"
+            ],
+            "journal": "Acta psychiatrica Scandinavica. Supplementum",
+            "year": "1995",
+            "abstract": "The clinically tested reversible inhibitors of monoamine oxidase A (RIMAs) include brofaromine, moclobemide and toloxatone. Moclobemide has shown unequivocal antidepressant activity against serious depressive illness in 4 placebo-controlled double-blind trials. It has been compared with amitriptyline, imipramine, clomipramine, desipramine, maprotiline, fluoxetine, fluvoxamine, tranylcypromine, toloxatone, mianserin and amineptine in the treatment of depressive disorders. Meta-analysis showed con",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1429426",
+            "title": "Clomipramine side effects.",
+            "authors": [
+              "Cruz R"
+            ],
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1537774",
+            "title": "Clomipramine for comorbid conditions.",
+            "authors": [
+              "Wilens T E",
+              "Steingard R",
+              "Biederman J"
+            ],
+            "journal": "Journal of the American Academy of Child and Adolescent Psychiatry",
+            "year": "1992",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9242899",
+            "title": "Three years on clomipramine: before and after brain SPECT study.",
+            "authors": [
+              "Amen D G",
+              "Waugh M E"
+            ],
+            "journal": "Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+            "year": "1997",
+            "abstract": "A case is presented of a patient diagnosed with attention deficit disorder, obsessive thinking, anger outbursts, and depression who had a SPECT study prior to treatment and after 3 years of treatment on clomipramine. The follow-up SPECT study showed marked improvement overall in the cerebral perfusion of the brain. At rest marked overactivity was noted in the anterior medial aspects of the frontal lobes, along with \"patchy\" (increased and decreased) uptake throughout the cortical and subcortical",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9547477",
+            "title": "When fluvoxamine treats only depression and clomipramine treats only obsessive-compulsive disorder--combine them?",
+            "authors": [
+              "Schaller J L",
+              "Behar D",
+              "Chamberlain T"
+            ],
+            "journal": "The Journal of neuropsychiatry and clinical neurosciences",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11725521",
+            "title": "[Narcolepsy in a prepubertal boy].",
+            "authors": [
+              "Tsukamoto H",
+              "Ishikawa T",
+              "Chang S",
+              "Mizuno K"
+            ],
+            "journal": "No to hattatsu = Brain and development",
+            "year": "2001",
+            "abstract": "We reported a 10-year-old boy with narcolepsy, the onset of which was at the age of 8 years and 6 months. The initial symptom was excessive daytime sleepiness, followed by cataplexy and disrupted nocturnal sleep. There was neither hallucination nor sleep paralysis. A daytime polysomnogram showed a sleep-onset rapid eye movement period (SOREMP), and human leukocyte antigen (HLA) analysis revealed HLA-DR2/DQB1 * 0602. Treatment with methylphenidate and clomipramine was effective; methylphenidate (",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9288426",
+            "title": "Bipolar disorder in children and adolescents: current challenges.",
+            "authors": [
+              "Steele M",
+              "Fisman S"
+            ],
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "1997",
+            "abstract": "To demonstrate the diagnostic and treatment challenges in juvenile-onset bipolar disorder.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26529542",
+            "title": "Interaction between methylphenidate, methadone and different antidepressant drugs on antinociception in mice, and possible clinical implications.",
+            "authors": [
+              "Schreiber Shaul",
+              "Bader Miaad",
+              "Rubovitch Vardit",
+              "Pick Chaim G"
+            ],
+            "journal": "The world journal of biological psychiatry : the official journal of the World Federation of Societies of Biological Psychiatry",
+            "year": "2017",
+            "abstract": "Methylphenidate (MPH), a psychostimulant used for treatment of attention deficit hyperactivity disorder (ADHD), is widely used by patients on antidepressants and methadone maintenance treatment (MMT). Preclinical studies showed MPH to exert analgesic effects when given alone or with morphine.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19393386",
+            "title": "[Treatment of a serious autistic disorder in a child with Naltrexone in an oral suspension form].",
+            "authors": [
+              "Desjardins S",
+              "Doyen C",
+              "Contejean Y",
+              "Kaye K",
+              "Paubel P"
+            ],
+            "journal": "L'Encephale",
+            "year": "2009",
+            "abstract": "CLINICAL BACKGROUND: Autism is a developmental disorder that is usually diagnosed in early childhood. According to ICD-10 criteria, autism can be characterized by delays in language skills, by impaired social interaction, verbal or non-verbal communication and by repetitive, stereotyped or severely restricted activities and interests. The causes of autism are not yet elucidated, but both genetics and environment seem to play a role in 10 to 25% of autism cases. Several biochemical abnormalities,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ADHD 涉及前額葉 DA/NE 訊號不足；Clomipramine 透過 NET 抑制提升前額葉去甲腎上腺素濃度，改善注意力與衝動控制。Cochrane 系統性回顧（PMID 25238582）確認三環抗憂鬱藥（含 clomipramine）對 ADHD 有效，但安全性顧慮（心臟毒性、癲癇閾值降低）限制了其一線地位。2024 年最新統合分析亦持續確認此族群的療效。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "anxiety disorder"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "anxiety disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "anxiety disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "schizoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "paranoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "paranoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "paranoid personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "histrionic personality disorder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "schizotypal personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "schizotypal personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "schizotypal personality disorder"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "major depressive disorder"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "major depressive disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "major depressive disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "endogenous depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "endogenous depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "endogenous depression"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Clomipramine",
+        "disease": "attention deficit-hyperactivity disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    }
+  ]
+}

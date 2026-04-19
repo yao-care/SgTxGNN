@@ -1,0 +1,380 @@
+```json
+{
+  "drug": "Atorvastatin",
+  "drugbank_id": "DB01076",
+  "analysis_date": "2026-04-05",
+  "indications": [
+    {
+      "disease_name": "familial hypercholesterolemia",
+      "txgnn_score": 0.9942,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Atorvastatin 競爭性抑制 HMG-CoA 還原酶，減少肝臟內源性膽固醇合成，代償性上調 LDL 受體表達，加速 LDL-C 清除。FH 患者雖因 LDLR/ApoB/PCSK9 突變導致 LDL 受體功能部分或全部喪失，但殘餘受體活性仍可被誘導，LDL-C 可降 30–50%。他汀類為 FH 一線標準治療，純合子型 FH 需聯合 PCSK9 抑制劑或 Lomitapide。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02107898",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，N=216，已完成，雙盲安慰劑對照平行組設計，直接評估 FH 患者中 atorvastatin 療效與安全性，核心證據"
+        },
+        {
+          "nct_id": "NCT00136981",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，N=800，最大規模，頸動脈 B-mode 超聲評估 FH 患者動脈粥樣硬化進展，終點明確且臨床相關"
+        },
+        {
+          "nct_id": "NCT03884452",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，N=50，已完成，評估 ezetimibe+atorvastatin 聯合療法在 FH 中的療效優化，結合指南推薦聯合策略"
+        },
+        {
+          "nct_id": "NCT06632379",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，招募中，N=76，SPARK 試驗聚焦 FH 產後心血管風險，為特殊族群應用，尚無完整結果"
+        },
+        {
+          "nct_id": "NCT00145431",
+          "relevance_grade": "B",
+          "reasoning": "Phase 3，已終止，N=41，雖未完成但設計相關，終止原因未知，部分安全性數據可參考"
+        },
+        {
+          "nct_id": "NCT02114099",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，狀態不明，N=20，評估 FH 中持續性血脂異常，規模小且狀態不確定"
+        },
+        {
+          "nct_id": "NCT06686615",
+          "relevance_grade": "B",
+          "reasoning": "Phase N/A，招募中，N=2000，Bempedoic acid 聯合試驗，atorvastatin 為對照臂之一，間接支持標準療效"
+        },
+        {
+          "nct_id": "NCT04862260",
+          "relevance_grade": "C",
+          "reasoning": "Early Phase 1，N=3，膽固醇代謝重編程概念驗證，規模極小，atorvastatin 為多藥聯合組合之一"
+        },
+        {
+          "nct_id": "NCT04455581",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，N=8，評估新型 PCSK9 抑制劑 SHR-1209，atorvastatin 為背景標準用藥，非主要評估對象"
+        },
+        {
+          "nct_id": "NCT06555120",
+          "relevance_grade": "C",
+          "reasoning": "篩查研究（Phase NA），聚焦兒童 FH 診斷篩查，非 atorvastatin 治療療效評估"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "28437620", "study_type": "Clinical Guideline (AACE/ACE 2017)", "tier": "1"},
+        {"pmid": "26988948", "study_type": "Practice Guideline/Review", "tier": "1"},
+        {"pmid": "9793596", "study_type": "Clinical Trial (Primary hypercholesterolemia)", "tier": "2"},
+        {"pmid": "11058703", "study_type": "Clinical Trial (Homozygous FH)", "tier": "2"},
+        {"pmid": "39751968", "study_type": "Review (2025 Update)", "tier": "2"},
+        {"pmid": "35361995", "study_type": "Pharmacogenomics/Cohort Study", "tier": "2"},
+        {"pmid": "9129869", "study_type": "Drug Review (Atorvastatin pharmacology)", "tier": "2"},
+        {"pmid": "12269853", "study_type": "Comparative Drug Review (Rosuvastatin)", "tier": "2"},
+        {"pmid": "32800790", "study_type": "Case Report (Pediatric compound heterozygous FH)", "tier": "3"},
+        {"pmid": "14727947", "study_type": "Drug Review (Ezetimibe combination context)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "HIV infectious disease",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "他汀類多效性機轉在 HIV 中具多重理論基礎：①抗炎作用—降低 IL-6、CRP、sCD14（單核細胞活化標誌），減少慢性免疫激活；②免疫調節—降低 CD8+ T 細胞激活與耗竭標誌（CD38、HLA-DR），改善 CD4/CD8 比值；③改善 ART 相關脂質代謝異常（特別是 PI 類誘發的高三酸甘油酯血症）；④腎臟保護—維持 GFR；⑤抗纖維化（心肌）；⑥潛在抗病毒—通過抑制 Rho 蛋白異戊二烯化影響病毒膜融合。HIV 患者心血管風險增加 1.5–2 倍，他汀具多重保護潛力，但與 PI 類存在 CYP3A4 交互作用（需特別注意劑量調整）。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT03037372",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 等效性 RCT，N=320，撒哈拉以南非洲 HAART 患者，atorvastatin vs rosuvastatin 頭對頭比較，規模最大且設計嚴謹，雖狀態不明但已近完成招募"
+        },
+        {
+          "nct_id": "NCT01766076",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，N=30，已完成，評估 atorvastatin 作為 ART 次優免疫應答者的輔助療法，直接測試再利用假說"
+        },
+        {
+          "nct_id": "NCT02081638",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 RCT，N=53，已完成，Elite Controller 和 ART 治療 HIV+ 患者的 atorvastatin vs 阿司匹林比較，對應 PMID 37450602 發表結果"
+        },
+        {
+          "nct_id": "NCT01600170",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，已完成，N=11，他汀調節單核/巨噬細胞激活治療 HIV 相關神經認知障礙（HAND），直接驗證神經保護機轉"
+        },
+        {
+          "nct_id": "NCT00663234",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1/2，已終止，N=28，評估 PI 相關脂質增高的安全性與療效，中途終止，部分安全性數據仍具參考價值"
+        },
+        {
+          "nct_id": "NCT06199921",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，招募中，N=440，肺結核合併 atorvastatin 療法，TB/HIV 共感染族群間接相關，探索宿主導向治療"
+        },
+        {
+          "nct_id": "NCT00355251",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已終止，N=5，評估 ART 前 atorvastatin 對病毒複製的抗病毒作用，規模過小，假說仍具探索價值"
+        },
+        {
+          "nct_id": "NCT01779687",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 PK 研究，N=24，raltegravir+atorvastatin 藥物交互作用，提供 ART 合併使用安全性基礎數據"
+        },
+        {
+          "nct_id": "NCT00017758",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 PK 研究，N=56，efavirenz/nelfinavir 對他汀藥動學影響，為劑量調整提供科學依據"
+        },
+        {
+          "nct_id": "NCT01442428",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2/3，已撤回，N=0，無任何數據，不提供任何證據"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "37450602", "study_type": "Open-label RCT (2023)", "tier": "1"},
+        {"pmid": "25574964", "study_type": "RCT (Immune activation in ART-treated HIV)", "tier": "1"},
+        {"pmid": "18991624", "study_type": "Comparative Clinical Trial", "tier": "1"},
+        {"pmid": "31126301", "study_type": "Cohort Study (CVD prevention in HIV+)", "tier": "2"},
+        {"pmid": "29770749", "study_type": "Cohort Study (Renal protection)", "tier": "2"},
+        {"pmid": "25441397", "study_type": "Clinical Study (T-cell exhaustion)", "tier": "2"},
+        {"pmid": "36549898", "study_type": "Observational Study (Lipid outcomes)", "tier": "2"},
+        {"pmid": "29804227", "study_type": "Review (Benefits & Risks)", "tier": "2"},
+        {"pmid": "27192322", "study_type": "Review (HIV metabolic disorders)", "tier": "2"},
+        {"pmid": "41774493", "study_type": "Animal Study (Cardiac fibrosis, 2026)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "brain stem infarction",
+      "txgnn_score": 0.9931,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Atorvastatin 神經保護多效性機轉：①抗炎—抑制 NF-κB 信號通路，降低 TNF-α、IL-1β；②改善內皮功能—增加 eNOS 磷酸化活性，促進血管舒張與新生；③斑塊穩定—減少 MMP 分泌，防止基底動脈穿支動脈病變進展；④神經幹細胞保護—防止缺氧缺糖損傷並誘導神經元分化（PMID 30073508）；⑤抗氧化應激；⑥預防再發—降低腦幹主要血管（基底動脈、椎動脈）動脈粥樣硬化風險。腦幹梗塞多因穿支動脈或基底動脈粥樣硬化病變，早期他汀干預理論上可改善炎症標誌物並促進功能恢復。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02225834",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4，已完成，N=50，直接評估急性卒中期間早期 atorvastatin 治療對免疫炎症標誌物的影響，與腦幹梗塞炎症機轉直接相關，為本適應症唯一有意義的 atorvastatin 特定試驗"
+        },
+        {
+          "nct_id": "NCT03176498",
+          "relevance_grade": "C",
+          "reasoning": "Phase 1/2，已暫停，N=40，主要研究臍帶間充質幹細胞療法用於腦梗塞，atorvastatin 非主要干預措施"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "30073508", "study_type": "Cell/Animal Study (Neural stem cell protection)", "tier": "3"},
+        {"pmid": "29592977", "study_type": "Case Report (Artery of Percheron stroke)", "tier": "3"},
+        {"pmid": "25754163", "study_type": "Case Report (Polycythaemia vera + stroke)", "tier": "3"},
+        {"pmid": "30386540", "study_type": "Case Report (Vertebral artery occlusion)", "tier": "3"},
+        {"pmid": "23860169", "study_type": "Case Report (Lateral medullary infarction)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "cholesterol-ester transfer protein deficiency",
+      "txgnn_score": 0.9925,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CETP 缺乏症導致膽固醇酯無法從 HDL 轉移至 LDL/VLDL，造成 HDL 異常升高（>100 mg/dL）、LDL 降低。Atorvastatin 通過抑制 HMG-CoA 還原酶降低 LDL-C，對 CETP 通路本身無直接調控作用；文獻主要討論 torcetrapib（CETP 抑制劑）而非 atorvastatin 用於此症；CETP 缺乏者本身 LDL 通常不高，主要問題為 HDL 功能異常，他汀的降 LDL 優勢在此無明確治療靶點。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "18414186", "study_type": "Review (HDL/CETP metabolism)", "tier": "2"},
+        {"pmid": "18331394", "study_type": "Genetic Association Study (CETP polymorphism + statin)", "tier": "2"},
+        {"pmid": "17169247", "study_type": "Review (Torcetrapib, not atorvastatin)", "tier": "2"},
+        {"pmid": "21804130", "study_type": "RCT (Torcetrapib ILLUMINATE, atorvastatin as background)", "tier": "3"},
+        {"pmid": "31189741", "study_type": "RCT (Type 2 DM dosing, not CETP deficiency)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
+      "txgnn_score": 0.9920,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "CYP7A1（膽固醇 7α-羥化酶）缺乏使膽汁酸合成受阻，肝臟膽固醇積累並上調 LDL-C。理論上他汀可降低膽固醇合成來部分抵消積累，但：①此病極為罕見，臨床經驗極度有限；②膽汁酸缺乏本身需替代補充，非單純降 LDL；③所有文獻均為動物模型（LDL 受體缺陷鼠、apoE-/-鼠）中評估膽汁酸轉運抑制，無一涉及 CYP7A1 缺乏症人體 atorvastatin 治療；④TxGNN 評分高可能源於知識圖譜中膽固醇相關疾病的拓撲相似性，非真實臨床支持。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {"pmid": "11387232", "study_type": "Animal Study (LDL receptor-deficient mice, GH intervention)", "tier": "3"},
+        {"pmid": "12810816", "study_type": "Animal Study (apoE-/- mice, bile acid transport inhibition)", "tier": "3"},
+        {"pmid": "12475897", "study_type": "Animal Study (LDL receptor-deficient mice, bile acid transport)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn_score": 0.9913,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無任何直接機轉連結或臨床證據。推測 TxGNN 預測可能基於：①膽固醇在髓鞘合成中的核心作用（腦部約佔全身膽固醇 25%）；②他汀可穿越血腦屏障影響腦部膽固醇代謝。然而親脂性他汀（包括 atorvastatin）穿越 BBB 可能降低腦部膽固醇，對神經發育障礙可能產生負效應。無任何臨床試驗、文獻或病例報告支持。此罕見疾病病因未明，將其列為再利用目標缺乏科學依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "hypoalphalipoproteinemia",
+      "txgnn_score": 0.9899,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Hold",
+      "mechanistic_link": "低 α 脂蛋白血症（HDL-C <40 mg/dL 男性，<50 mg/dL 女性）顯著增加 ASCVD 風險。他汀對 HDL-C 提升效果有限（約 5–10%），主要作用為降低 LDL-C 及改善 HDL 功能性（抗炎、抗氧化、逆向膽固醇轉運效能），而非直接提高 HDL 數量。唯一相關試驗（NCT00458055）為非對照設計，規模甚小。目前指南更傾向 niacin 或 fibrate 用於原發性低 HDL 血症，他汀通常為 LDL 管理的輔助。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00458055",
+          "relevance_grade": "B",
+          "reasoning": "Phase NA，已完成，N=19，評估嚴重 HDL 缺乏症治療策略，為觀察性非隨機設計，樣本量不足以確立療效，缺乏對照組"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "12679198", "study_type": "Review (HDL subpopulations in pathologic conditions)", "tier": "2"},
+        {"pmid": "21107758", "study_type": "Expert Opinion (Statin combination strategies)", "tier": "2"},
+        {"pmid": "23174368", "study_type": "RCT (Niacin for low HDL, not atorvastatin as primary)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "hypercholesterolemia, autosomal dominant",
+      "txgnn_score": 0.9893,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "常染色體顯性高膽固醇血症（ADH）涵蓋三種基因型：LDLR 功能缺失突變（FH）、ApoB R3500Q 突變（FDB）、PCSK9 功能獲得性突變。Atorvastatin 通過 HMG-CoA 還原酶抑制降低膽固醇合成，代償性上調殘餘 LDL 受體表達，LDL-C 可降 30–60%。雜合子型 ADH 為一線治療，純合子型需聯合 ezetimibe/PCSK9 抑制劑/Lomitapide。注意事項：SLCO1B1 及 POR*28 藥物基因組學多態性影響療效與肌毒性風險，建議藥物基因組學篩查。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02107898",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，N=216，已完成，雙盲安慰劑對照，直接評估 ADH 患者 atorvastatin 療效與安全性，核心 RCT 證據"
+        },
+        {
+          "nct_id": "NCT00136981",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，N=800，最大規模，頸動脈 B-mode 超聲評估 ADH 患者動脈粥樣硬化，硬終點研究"
+        },
+        {
+          "nct_id": "NCT03884452",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3，N=50，已完成，ezetimibe+他汀聯合策略在 ADH 中的療效，對應現行聯合治療指南"
+        },
+        {
+          "nct_id": "NCT02584504",
+          "relevance_grade": "A",
+          "reasoning": "Phase 3 RCT，N=163，已完成，隨機雙盲安慰劑對照設計，評估 ADH 中新型聯合療法優化，直接相關"
+        },
+        {
+          "nct_id": "NCT02938949",
+          "relevance_grade": "B",
+          "reasoning": "Phase 4，已完成，N=20，alirocumab 在 AMI（含 ADH 患者）中的應用，atorvastatin 為標準背景治療"
+        },
+        {
+          "nct_id": "NCT00739999",
+          "relevance_grade": "B",
+          "reasoning": "Phase 1 PK/PD 研究，N=39，已完成，為 ADH 患者的藥動學特徵與安全性提供數據基礎"
+        },
+        {
+          "nct_id": "NCT05367310",
+          "relevance_grade": "B",
+          "reasoning": "Phase N/A，N=50，評估哺乳對 FH 女性血脂及心血管標誌物的影響，特殊族群（生育期女性 ADH）數據"
+        },
+        {
+          "nct_id": "NCT02114099",
+          "relevance_grade": "B",
+          "reasoning": "Phase 2，狀態不明，N=20，評估 ADH 患者持續性血脂異常，數據完整性存疑"
+        },
+        {
+          "nct_id": "NCT04455581",
+          "relevance_grade": "C",
+          "reasoning": "Phase 2，N=8，評估新型 PCSK9 抑制劑 SHR-1209，atorvastatin 為背景標準用藥，非主要研究對象"
+        },
+        {
+          "nct_id": "NCT06555120",
+          "relevance_grade": "C",
+          "reasoning": "兒童 FH 篩查研究，非 atorvastatin 治療療效試驗，無法提供療效證據"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "12034651", "study_type": "RCT (Ezetimibe+atorvastatin in homozygous FH)", "tier": "1"},
+        {"pmid": "39751968", "study_type": "Review (2025 Treatment Update, homozygous FH)", "tier": "1"},
+        {"pmid": "11058703", "study_type": "Clinical Trial (Homozygous FH, lipid/lipoprotein effects)", "tier": "2"},
+        {"pmid": "27678432", "study_type": "3-year Longitudinal Study (Pediatric heterozygous FH)", "tier": "2"},
+        {"pmid": "22957727", "study_type": "Clinical Study (Myocardial/peripheral perfusion in FH)", "tier": "2"},
+        {"pmid": "29441875", "study_type": "Pharmacogenomics Study (SLCO1B1 polymorphism)", "tier": "2"},
+        {"pmid": "25521355", "study_type": "Pharmacogenomics Study (POR*28 SNP, pediatric FH)", "tier": "2"},
+        {"pmid": "21259004", "study_type": "Clinical Trial (Pediatric 8-week tolerability)", "tier": "2"},
+        {"pmid": "25911077", "study_type": "Clinical Study (Lipoprotein subfractions in polygenic HC)", "tier": "2"},
+        {"pmid": "32800790", "study_type": "Case Report (Compound heterozygous FH, pediatric)", "tier": "3"}
+      ]
+    },
+    {
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "貓免疫缺陷病毒（FIV）感染為純獸醫疾病，與人類 HIV 共享部分免疫病理機制（CD4+ T 細胞衰竭、慢性炎症），TxGNN 可能基於 FIV/HIV/SIV 在知識圖譜中的拓撲關聯性生成預測。然而此適應症不具任何人體藥物再利用意義，無人體臨床試驗或文獻，應排除於人類再利用分析之外。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "猴免疫缺陷病毒（SIV）感染為非人靈長類（NHP）HIV 動物模型，與 HIV 共享免疫病理機制。唯一文獻（PMID 31882598）報告他汀可預防 SIV 感染 NHP 中肺動脈高壓發展，支持抗炎/抗增殖機轉，具轉譯醫學參考價值，但仍屬動物研究，不能直接外推至人類 SIV 臨床應用（SIV 主要為實驗室研究工具，非人類疾病治療靶點）。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "31882598",
+          "study_type": "Non-human Primate Study (SIV-PAH model, 2019)",
+          "tier": "3"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "L1_count": 2,
+    "L2_count": 1,
+    "L3_count": 2,
+    "L4_count": 1,
+    "L5_count": 4,
+    "S3_count": 2,
+    "S2_count": 2,
+    "S1_count": 1,
+    "S0_count": 5,
+    "key_findings": [
+      "familial hypercholesterolemia 與 hypercholesterolemia autosomal dominant 具 L1 最高證據等級，多項 Phase 3 RCT 完成，可直接建議使用（S3）",
+      "HIV infectious disease 具 L2 證據，多項 Phase 2/3 試驗支持，主要用於 ART 相關脂質異常及免疫激活管理，需注意 CYP3A4 DDI 風險",
+      "brain stem infarction 具 L3 證據，機轉合理但臨床規模不足（N=50 唯一完整試驗），建議作為研究問題進一步驗證",
+      "hypoalphalipoproteinemia 雖有 L3 機轉支持，但試驗設計薄弱，建議暫緩並優先評估安全性",
+      "cholesterol-ester transfer protein deficiency、CYP7A1 缺乏症、neurodevelopmental disorder、feline AID、SIV infection 均缺乏直接人體臨床證據（L4/L5），不建議推進再利用"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 S3 可建議（2項）
+| 適應症 | 等級 | 核心依據 |
+|--------|------|----------|
+| Familial Hypercholesterolemia | **L1** | 多項 Phase 3 RCT（N=800、216），AACE/ACE 指南一線推薦 |
+| Hypercholesterolemia, Autosomal Dominant | **L1** | 多項 Phase 3 RCT，藥物基因組學數據豐富，需注意 SLCO1B1 篩查 |
+
+### 🟡 S2 臨床可行性評估（2項）
+| 適應症 | 等級 | 核心依據 |
+|--------|------|----------|
+| HIV Infectious Disease | **L2** | 3 項 Phase 3 試驗、3 項 RCT 文獻，重點：ART 脂質異常管理＋免疫激活抑制，需 DDI 管理 |
+| Brain Stem Infarction | **L3** | 1 項 Phase 4 完成試驗（N=50），神經保護機轉明確但規模不足 |
+
+### 🔴 S0–S1 不足/暫緩（6項）
+- **Hypoalphalipoproteinemia（L3/S1）**：機轉有限，試驗設計薄弱
+- **CETP Deficiency（L4/S0）**：文獻討論 CETP 抑制劑而非 atorvastatin
+- **CYP7A1 Deficiency（L5/S0）**：僅動物模型，罕見病，機轉間接
+- **Neurodevelopmental Disorder（L5/S0）**：純 TxGNN 預測，零臨床基礎
+- **Feline AID（L5/S0）**：獸醫疾病，不適用人類再利用
+- **SIV Infection（L5/S0）**：動物模型，不具直接人類臨床意義

@@ -1,0 +1,1028 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00626-multi",
+    "version": "v4",
+    "created_at": "2026-04-10",
+    "data_cutoff": "2026-04-10",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Bacitracin",
+    "drugbank_id": "DB00626",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn": {
+        "score": 0.9999918937683104,
+        "rank": 44
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "角點狀角膜炎常由細菌（如葡萄球菌）或病毒引起。Bacitracin 眼膏已有核准眼科外用劑型，機轉上可覆蓋革蘭氏陽性菌所致角膜炎，但針對此特定亞型完全無臨床資料支持。TxGNN 高分可能反映其廣效眼科感染圖譜推論。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "exposure keratitis",
+      "txgnn": {
+        "score": 0.999907374382019,
+        "rank": 324
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "暴露性角膜炎本質為機械性/神經性角膜損傷，Bacitracin 在此場景的角色限於預防繼發性細菌感染，而非針對核心病因。機轉關聯性間接且次要。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "non-human animal disease",
+      "txgnn": {
+        "score": 0.9996955394744872,
+        "rank": 807
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為極廣泛的非特異性疾病分類，無法進行有意義的機轉分析。Bacitracin 確有獸醫外用用途，但此分類過於模糊，不宜作為再利用適應症研究標的。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "otitis externa",
+      "txgnn": {
+        "score": 0.9996887445449828,
+        "rank": 829
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17503066",
+            "title": "Topical treatment of acute otitis externa: clinical comparison of an antibiotics ointment alone or in combination with hydrocortisone acetate.",
+            "authors": [
+              "Mösges Ralph",
+              "Domröse Christian M",
+              "Löffler Jürgen"
+            ],
+            "journal": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+            "year": "2007",
+            "abstract": "The study was designed to investigate the potential contribution of hydrocortisone acetate to the efficacy and safety of an antibiotics ointment in the treatment of acute otitis externa (AOE). In a double-blind study 151 patients with a unilateral acute bacterial otitis externa were randomized either to receive an ointment with polymyxin-B sulfate (7,500 I.E./g) + bacitracin (300 I.E./g) alone (AB) or the same antibiotic ointment with 10 mg hydrocortisone acetate/g ointment (AB + HC). Primary ef",
+            "classification": {
+              "study_type": "臨床比較研究（可能含對照組）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9820118",
+            "title": "Susceptibility of bacterial isolates from chronic canine otitis externa to twenty antibiotics.",
+            "authors": [
+              "Guedeja-Marrón J",
+              "Blanco J L",
+              "Ruperez C",
+              "Garcia M E"
+            ],
+            "journal": "Zentralblatt fur Veterinarmedizin. Reihe B. Journal of veterinary medicine. Series B",
+            "year": "1998",
+            "abstract": "In this paper we present the results of studies on the susceptibility to antibiotics of bacteria isolated from chronic canine otitis externa. We tested 46 bacterial strains (S. aureus, coagulase-negative staphylococci, Corynebacterium spp., and gram-negative bacilli) with 20 different antibiotics. We observed increased resistance to antibiotics of bacteria isolated from canine otitis externa as compared to the resistance reported earlier. This may be due to the indiscriminate use of some antibio",
+            "classification": {
+              "study_type": "獸醫體外藥敏研究",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14055264",
+            "title": "PRACTICAL TREATMENT OF OTITIS EXTERNA.",
+            "authors": [
+              "ELIA J C"
+            ],
+            "journal": "Maryland state medical journal",
+            "year": "1963",
+            "abstract": "",
+            "classification": {
+              "study_type": "臨床實務回顧",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4306877",
+            "title": "[The use of antibiotics in otologic practice].",
+            "authors": [
+              "Heinemann M"
+            ],
+            "journal": "Zeitschrift fur arztliche Fortbildung",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "專家評論/綜述",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "165871",
+            "title": "Use of trimethoprim-sulfamethoxazole in external otitis.",
+            "authors": [
+              "Pomahac A C"
+            ],
+            "journal": "Canadian Medical Association journal",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "臨床研究",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14048629",
+            "title": "[THE LOCAL TREATMENT OF INFLAMMATORY, SECRETORY EAR PROCESSES WITH NEBACETIN STYLI].",
+            "authors": [
+              "BACHMANN W",
+              "HEIN H"
+            ],
+            "journal": "Zeitschrift fur Laryngologie, Rhinologie, Otologie und ihre Grenzgebiete",
+            "year": "1963",
+            "abstract": "",
+            "classification": {
+              "study_type": "臨床病例系列",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "外耳炎常由 Staphylococcus aureus 及 Pseudomonas aeruginosa 等細菌引起。Bacitracin 對革蘭氏陽性菌（尤其葡萄球菌）具強效活性，配合局部外用可達有效藥物濃度。Nebacetin（neomycin + bacitracin 複合製劑）已有歷史性臨床使用記錄，擴大抗菌譜覆蓋革蘭氏陰性菌。機轉關聯性合理但缺乏現代高品質 RCT。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "postinfectious vasculitis",
+      "txgnn": {
+        "score": 0.9996788501739502,
+        "rank": 852
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染後血管炎屬免疫介導的炎症反應，Bacitracin 的抗菌機轉對已進入免疫病理階段的疾病無直接作用。若致病菌已消除，抗生素再利用的生物學根據薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "post-bacterial disorder",
+      "txgnn": {
+        "score": 0.9996724128723145,
+        "rank": 862
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT06902532",
+            "title": "Effectiveness of Coconut Oil Pulling With Clove Oil, Coconut Oil Pulling and Fluoride Mouthwash on Streptococcus Mutans Count in Children",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 105,
+            "start_date": "2025-05-01",
+            "completion_date": "2026-01-01",
+            "brief_summary": "This study aims to compare the effectiveness of coconut oil pulling with clove oil, coconut oil pulling alone, and fluoride mouthwash in reducing Streptococcus mutans levels in children aged 6-12 years. Participants will be randomly assigned to one of three groups:\n\n1. Coconut Oil Pulling with Clove Oil Group - Daily swishing with coconut oil mixed with clove oil.\n2. Coconut Oil Pulling Group - Daily swishing with coconut oil alone.\n3. Fluoride Mouthwash Group (Control) - Using fluoride mouthwas",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04550546",
+            "title": "Effects of Nystatin Suspension Oral Application on Oral Microbial Community",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2021-05-15",
+            "completion_date": "2022-02-28",
+            "brief_summary": "The purpose of this study is to examine the effect of a prescription mouth rinse (Nystatin),an FDA approved drug, on the different types of bacteria in the mouth. Results from this study may help understand the effect that Nystatin oral rinse has on certain types of oral bacteria, which may also cause tooth decay.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05569850",
+            "title": "In Vivo Evaluation of Antibacterial Toothpaste Efficiency and Patients' Satisfaction: a Double-blind Randomised Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2022-12-01",
+            "completion_date": "2023-07-15",
+            "brief_summary": "The primary objective of this randomized controlled clinical trial (RCCT) will be to compare the efficacy in reducing the quantity of Streptococcus mutans (S. Mutans) in saliva of a recently introduced toothpaste compared to a commercially available toothpaste. The secondary outcomes will be to assess patients' impression of the toothpastes (in terms of taste, satisfaction etc.), and to investigate potential changes in dentin hypersensitivity, plaque formation and gingival inflammation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00534391",
+            "title": "Dose Antibiotic Need in Hordeolum After Incision and Curettage? : A Randomized, Placebo-controlled Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 120,
+            "start_date": "2007-09",
+            "completion_date": "2008-12",
+            "brief_summary": "To compare the effectiveness of combined antibiotic ophthalmic solution (neomycin sulfate, polymyxin B sulfate and gramicidin) with placebo (artificial tear) in the treatment of hordeolum after incision and curettage",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "眼瞼麥粒腫術後抗生素需求研究，與 Bacitracin 眼科外用有邊緣相關性，但未明確指定 Bacitracin，且研究狀態不明。"
+            }
+          },
+          {
+            "nct_id": "NCT03855527",
+            "title": "Effectiveness of Silver Diamine Fluoride as Cavity Disinfectant After Atraumatic Restorative Treatment in Primary Teeth: A Randomized Clinical Trial",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2018-01-12",
+            "completion_date": "2019-03-20",
+            "brief_summary": "The purpose of this study is to evaluate the effectiveness of silver diamine fluoride (SDF) compared to chlorhexidine (CHX) as a cavity disinfectant in primary molars after Atraumatic Restorative Treatment approach (ART).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05874219",
+            "title": "The Effect of Mupirocin 2% Ointment on the Duration of Stay of Temporary Hemodialysis Catheter Compared to Other Spray Antibiotics",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 150,
+            "start_date": "2023-04-10",
+            "completion_date": "2023-05-25",
+            "brief_summary": "In dialysis centers, many patients are undergoing hemodialysis simultaneously, which facilitates the spread of microorganisms by direct or indirect contact through the devices, equipment, surface contact, and hands of health profession Over time, catheters are prone to higher rates of infection, thrombosis, and central venous stenosis, it has also been shown that catheters are an independent (of infection) inflammatory stressor and lead to increased morbidity .\n\nCatheters are aptly referred to a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Mupirocin 而非 Bacitracin，但同屬外用抗生素預防導管感染的研究設計，僅提供類比背景。"
+            }
+          },
+          {
+            "nct_id": "NCT03478150",
+            "title": "Evaluation of The Antibacterial Effect of Laser Diode and Zinc Oxide Nano-particles on Streptococcus Mutans Bacteria Used as Cavity Disinfectants in Deep Carious Lesions : A Randomized Controlled Clinical Trial",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 30,
+            "start_date": "2018-04-01",
+            "completion_date": "2019-02-28",
+            "brief_summary": "this is a randomized controlled clinical trial, evaluating the antibacterial effect of laser diode and zinc oxide nano-particles when used as cavity disinfectants.Two groups, including 15 patients each, will be randomly allocated so that each group receives one of either interventions (15 patients will undergo cavity disinfection by laser diode, while the other 15 patients will undergo cavity disinfection by zinc oxide nano-particles). For each patient, a dentin sample will be taken before and a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03052842",
+            "title": "A Phase 2, Single-blind, Randomized, Placebo-controlled Study to Evaluate the Microbiology, Safety and Tolerability of C16G2 Strip Administered in Multiple Doses to Adolescent and Adult Dental Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 30,
+            "start_date": "2017-02-09",
+            "completion_date": "2017-04-05",
+            "brief_summary": "Single-blind study to evaluate whether C16G2 Strip administered in multiple doses can effectively kill the bacteria in the oral cavity that cause dental caries..",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "試驗名稱不完整，無法確認與 Bacitracin 的關聯性。"
+            }
+          },
+          {
+            "nct_id": "NCT02099240",
+            "title": "Prospective Randomized Study to Compare Clinical Outcomes in Patients With Osteomyelitis Treated With Intravenous Antibiotics Versus Intravenous Antibiotics With an Early Switch to Oral Antibiotics",
+            "phase": "EARLY_PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 11,
+            "start_date": "2014-03-06",
+            "completion_date": "2018-11-07",
+            "brief_summary": "Based on the current literature, investigators hypothesize that patients with osteomyelitis who are treated with the standard approach of intravenous antibiotics for the full duration of therapy will have the same clinical outcomes as patients treated with the experimental approach of intravenous antibiotics with early switch to oral antibiotics.\n\nThe primary objective of this study is to compare patients with osteomyelitis treated with the standard approach of intravenous antibiotics for the fu",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "骨髓炎治療研究，已提前終止（僅招募 11 人），與 Bacitracin 無明確關聯。"
+            }
+          },
+          {
+            "nct_id": "NCT00705354",
+            "title": "Pilot Study To Evaluate A Pharmacologically Active Nasal Sponge Following",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2009-01",
+            "completion_date": "2010-10",
+            "brief_summary": "This study will compare the incidence of post-op infection after sinus surgery using conventional post-op oral antibiotics to the incidence of infection after sinus surgery when a bio-resorbable antibiotic soaked nasal sponge is used in the nasal cavity in lieu of post-op oral antibiotics. The nasal sponge is a routine nasal dressing used after sinus surgery and will therefore be placed in all patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已撤回研究，無可用數據。Bacitracin 有鼻腔去定殖用途的歷史，但本試驗未完成。"
+            }
+          },
+          {
+            "nct_id": "NCT00634166",
+            "title": "Prospective Evaluation of the Effects of Topical Therapy With Sulfamylon® For 5% Topical Solution on Autograft Healing in Subjects With Thermal Injuries Requiring Meshed Autografts: A Comparison to a Historical Control Group",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 220,
+            "start_date": "2007-09",
+            "completion_date": "2014-04",
+            "brief_summary": "The primary objective is to compare the effectiveness of treatment with Sulfamylon® solution as the initial topical moist dressing over meshed autografts following the initial graft procedure on preventing graft loss in a prospective cohort of subjects versus a historical control group in a non-inferiority trial.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03196219",
+            "title": "A Phase 2, Open-label and Single-Blind Study to Evaluate the Microbiology, Safety and Tolerability of C16G2 Varnish and Strip Administered in Multiple Doses to Adolescent and Adult Dental Subjects",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2017-07-07",
+            "completion_date": "2018-01-10",
+            "brief_summary": "An open-label and single-blind phase 2 study to evaluate the oral microbiology, safety and tolerability of multiple C16G2 Varnish and Strip applications in male and female dental subjects 12-75 years of age. The study will compare multiple study drug administrations of C16G2 Varnish and/or C16G2 Strip in three study arms.\n\nIn Study Arm 1 eight subjects will be enrolled in an open-label manner and will receive a daily dose of C16G2 Varnish application over 3 days followed by 14 doses of C16G2 Str",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "細菌感染後疾病為極廣泛分類，Bacitracin 理論上可在活動性感染期預防後續後遺症，但此間接關聯缺乏針對性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "infective urethral stricture",
+      "txgnn": {
+        "score": 0.9996504783630372,
+        "rank": 910
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染性尿道狹窄常與沙眼衣原體或淋球菌感染相關，Bacitracin 對這些病原體活性有限，且全身使用具腎毒性，局部尿道應用可行性低。機轉關聯性弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "post-infectious syndrome",
+      "txgnn": {
+        "score": 0.9996473789215088,
+        "rank": 913
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02809131",
+            "title": "Randomized Noninferiority Study of an Antibacterial Envelope Alone Versus Envelope Plus Intraoperative Antibacterial Irrigant and Postoperative Antibiotics to Prevent Cardiac Implantable Electronic Device Infections in High-Risk Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1010,
+            "start_date": "2016-04-01",
+            "completion_date": "2021-09-30",
+            "brief_summary": "The number of cardiac implantable electronic devices (CIEDs) implanted each year has grown rapidly over the past two decades. CIED infections, defined as infections involving the generator implant site (pocket) and/or intravascular leads, have become increasingly prevalent, with the rate of growth in infections outpacing that of CIED procedures. The odds of both short term and long term mortality are at least doubled in patients who suffer CIED infections, and long term survival is particularly ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究抗菌信封（TYRX，含 rifampin + minocycline）預防心臟植入裝置感染，非 Bacitracin 研究，且目標為預防性抗菌而非 post-infectious syndrome 治療。間接提供抗菌預防心臟感染後遺症的概念支持。"
+            }
+          },
+          {
+            "nct_id": "NCT06992453",
+            "title": "Disentangling Microbiome Engraftment by Multi-omics of the Gut Ecosystem During Fecal Transplant",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 90,
+            "start_date": "2025-06-01",
+            "completion_date": "2029-02-19",
+            "brief_summary": "The gut microbiota plays a key role in immunity and metabolism and contributes to diseases such as recurrent C. difficile infection (rCDI), ulcerative colitis (UC), and metabolic syndrome (MetS). Microbiota therapeutics, particularly fecal microbiota transplantation (FMT), show promise-achieving \\~90% cure rates in rCDI-but demonstrate variable efficacy in chronic conditions. Microbiome engraftment appears critical for FMT success, yet consistent predictors remain lacking. A meta-analysis of 20 ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "腸道微生物組研究，與 Bacitracin 無明確關聯，僅因感染後腸道重建概念被納入，相關性極低。"
+            }
+          },
+          {
+            "nct_id": "NCT00000635",
+            "title": "Treatment of Acyclovir-Resistant Mucocutaneous Herpes Simplex Disease in Patients With AIDS: Open Label Pilot Study of Topical Trifluridine",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 25,
+            "start_date": "",
+            "completion_date": "1992-04",
+            "brief_summary": "To determine the safety, effectiveness, and toxicity of topical (local) trifluridine in treating mucocutaneous (at the nasal, oral, vaginal, and anal openings) Herpes simplex virus ( HSV ) disease that has shown resistance to acyclovir in HIV-infected patients. HSV infection in patients with AIDS is often associated with skin sores and frequent recurrences. Treatment with the drug acyclovir results in healing for most patients, but repeated treatment sometimes results in resistance of the virus ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "針對 AIDS 患者抗藥性 HSV 感染，研究對象為病毒感染，與 Bacitracin 抗菌機轉無關。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染後症候群（如 POTS、ME/CFS 等）的發病機轉以免疫失調、神經功能紊亂為主，而非持續性細菌感染。Bacitracin 的抗菌作用對此類疾病機轉的直接性存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "infection-related hemolytic uremic syndrome",
+      "txgnn": {
+        "score": 0.999618411064148,
+        "rank": 966
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "感染相關溶血性尿毒症候群（HUS）主要由 STEC（O157:H7 等）志賀毒素誘發微血管病變所致。Bacitracin 對革蘭氏陰性菌活性有限，且在 STEC 感染中使用抗生素本身具有爭議性（可能促進毒素釋放）。機轉關聯性不僅薄弱，且可能存在安全疑慮。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "Chagas cardiomyopathy",
+      "txgnn": {
+        "score": 0.9996101260185242,
+        "rank": 982
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "恰加斯心肌病由克氏錐蟲（Trypanosoma cruzi）引起，屬原蟲感染而非細菌感染。Bacitracin 為純抗細菌藥物，對原蟲病原體無已知活性。機轉關聯性缺乏生物學基礎。TxGNN 評分可能反映心臟病→感染病 KG 拓樸的偽相關。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "punctate epithelial keratoconjunctivitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "exposure keratitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "exposure keratitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "exposure keratitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "non-human animal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "non-human animal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "non-human animal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "otitis externa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "otitis externa"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "otitis externa"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "postinfectious vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 12,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-bacterial disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infective urethral stricture"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "post-infectious syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "infection-related hemolytic uremic syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Bacitracin",
+        "disease": "Chagas cardiomyopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

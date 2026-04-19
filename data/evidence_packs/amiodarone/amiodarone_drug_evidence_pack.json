@@ -1,0 +1,2824 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB01118-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amiodarone",
+    "drugbank_id": "DB01118",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "catecholaminergic polymorphic ventricular tachycardia",
+      "txgnn": {
+        "score": 0.9978173971176147,
+        "rank": 3642
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "35892906",
+            "title": "Clinical Characteristics, Genetic Findings and Arrhythmic Outcomes of Patients with Catecholaminergic Polymorphic Ventricular Tachycardia from China: A Systematic Review.",
+            "authors": [
+              "Leung Justin",
+              "Lee Sharen",
+              "Zhou Jiandong",
+              "Jeevaratnam Kamalan",
+              "Lakhani Ishan"
+            ],
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2022",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is a rare inherited cardiac ion channelopathy. The present study aims to examine the clinical characteristics, genetic basis, and arrhythmic outcomes of CPVT patients from China to elucidate the difference between CPVT patients in Asia and Western countries.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39076628",
+            "title": "Clinical Characteristics, Genetic Basis and Healthcare Resource Utilisation and Costs in Patients with Catecholaminergic Polymorphic Ventricular Tachycardia: A Retrospective Cohort Study.",
+            "authors": [
+              "Chung Cheuk To",
+              "Lee Sharen",
+              "Zhou Jiandong",
+              "Chou Oscar Hou In",
+              "Lee Teddy Tai Loy"
+            ],
+            "journal": "Reviews in cardiovascular medicine",
+            "year": "2022",
+            "abstract": "This study examined the clinical characteristics, genetic basis, healthcare utilisation and costs of catecholaminergic ventricular tachycardia (CPVT) patients from a Chinese city.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29668588",
+            "title": "A delayed diagnosis of catecholaminergic polymorphic ventricular tachycardia with a mutant of RYR2 at c.7580T>G for 6 years in a 9-year-old child.",
+            "authors": [
+              "Duan Hongyu",
+              "Lu Yongyi",
+              "Yan Song",
+              "Qiao Lina",
+              "Hua Yimin"
+            ],
+            "journal": "Medicine",
+            "year": "2018",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is a rare but potentially lethal inherited arrhythmia syndrome induced by adrenergic stress. Due to the atypical clinical manifestations in early age, limited recognition and experience of pediatric cardiologists, and low awareness of the significance of genetic diagnosis in some underdeveloped areas in China, a delayed or missed diagnosis of CPVT in children is common and concerning.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30116135",
+            "title": "A rare cause of sudden cardiac arrest: Catecholaminergic polymorphic ventricular tachycardia.",
+            "authors": [
+              "Atik Sezen Ugan",
+              "Alp Firuze Erbek",
+              "Dedeoğlu Reyhan",
+              "Koka Aida",
+              "Öztunç Funda"
+            ],
+            "journal": "Turk pediatri arsivi",
+            "year": "2018",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia is a rhythm disorder that develops due to genetic reasons in the absence of structural cardiac abnormalities. Ventricular tachycardia, ventricular fibrillation, cardiac arrest, and death may occur. Two-year-old patient presented to the Emergency Department with sudden cardiac arrest. He had syncope attacks after playing with his brother and he was followed up by the pediatric neurology and cardiology clinics. Cardiopulmonary resuscitation was",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39735866",
+            "title": "Case Report: The unrelenting journey-successful resolution of catecholaminergic polymorphic ventricular tachycardia (CPVT) through right cardiac sympathetic denervation in a teenager after left cardiac sympathetic denervation.",
+            "authors": [
+              "Leung Hei-To",
+              "Kwok Sit-Yee",
+              "Lau Ming",
+              "Lee Lucius Kwok-Fai",
+              "Tsao Sabrina"
+            ],
+            "journal": "Frontiers in cardiovascular medicine",
+            "year": "2024",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is a rare inherited arrhythmia disorder characterized by ventricular arrhythmia triggered by adrenergic stimulation.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26513538",
+            "title": "Advances in the pharmacologic treatment of ventricular arrhythmias.",
+            "authors": [
+              "Schleifer J William",
+              "Sorajja Dan",
+              "Shen Win-Kuang"
+            ],
+            "journal": "Expert opinion on pharmacotherapy",
+            "year": "2015",
+            "abstract": "Despite many advances in nonpharmacologic management of ventricular arrhythmias, antiarrhythmic drugs remain important in both the acute conversion and chronic prevention of ventricular arrhythmias.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22553997",
+            "title": "Flecainide suppresses defibrillator-induced storming in catecholaminergic polymorphic ventricular tachycardia.",
+            "authors": [
+              "Hong Robert A",
+              "Rivera Kahealani K",
+              "Jittirat Arksarapuk",
+              "Choi Joon J"
+            ],
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "2012",
+            "abstract": "Catecholaminergic polymorphic ventricular tachycardia (CPVT) is an inherited condition associated with ventricular tachycardia (VT) triggered by exercise or sympathetic stress. Incessant VT may develop due to defibrillator-induced storming-a condition where implantable cardioverter-defibrillator discharges result in a hyperadrenergic state, provoking further VT and defibrillator discharge. We describe the case of a 14-year-old boy with CPVT caused by a calsequestrin-2 mutation, who presented wit",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37852665",
+            "title": "Survival in a young child with out-of-hospital cardiac arrest: diagnostic dilemma and when to deviate from standard resuscitation guidelines.",
+            "authors": [
+              "Collins Neil John",
+              "Finn Daragh",
+              "O'Mahony Olivia",
+              "Walsh Mark"
+            ],
+            "journal": "BMJ case reports",
+            "year": "2023",
+            "abstract": "A boy in early childhood presented in cardiac arrest. Care was provided out of hospital and in the emergency department as per standard paediatric resuscitation guidelines. Despite initial return of spontaneous circulation following cardiopulmonary resuscitation, two defibrillation shocks and epinephrine via intraosseous access, he had recurrent episodes of pulseless ventricular tachycardia and ventricular fibrillation. In total, 40 defibrillation shocks were administered, and he subsequently st",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17125720",
+            "title": "[Arrhythmic storm induced by AICD discharge in a patient with catecholaminergic polymorphic ventricular tachycardia].",
+            "authors": [
+              "Palanca Víctor",
+              "Quesada Aurelio",
+              "Trigo Alberto",
+              "Jiménez Javier"
+            ],
+            "journal": "Revista espanola de cardiologia",
+            "year": "2006",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22218697",
+            "title": "A neonate with long QT syndrome, refractory ventricular arrhythmias, and lidocaine toxicity.",
+            "authors": [
+              "Nathan Aruna T",
+              "Naim Maryam",
+              "Montenegro Lisa M",
+              "Vetter Victoria L"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "2012",
+            "abstract": "Long QT syndrome is characterized by electrocardiographic appearance of long QT intervals and propensity to polymorphic ventricular tachycardia. Aggressive anticipatory clinical management is required for a good outcome, especially in the symptomatic neonate. We present a neonate with a compound mutation with refractory ventricular tachycardia that necessitated multimodal pharmacotherapy with lidocaine, esmolol, and amiodarone along with ventricular pacing. Despite normal serum lidocaine levels,",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CPVT 機轉為 RYR2 或 CASQ2 突變導致兒茶酚胺刺激下鈣離子過度釋放，引發延遲後去極化（DAD）觸發性心律不整。Amiodarone 雖具鈣通道阻斷效應，但對 RyR2 介導的 SR 鈣離子釋放無直接調控，且相比 Flecainide（已證明可直接阻斷 RyR2）機轉連結較弱。某些個案使用 Amiodarone 作為輔助或急性電風暴管理，但長期療效不確定。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "incessant infant ventricular tachycardia",
+      "txgnn": {
+        "score": 0.9964789748191832,
+        "rank": 5137
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "3624668",
+            "title": "Incessant ventricular tachycardia in infants: myocardial hamartomas and surgical cure.",
+            "authors": [
+              "Garson A",
+              "Smith R T",
+              "Moak J P",
+              "Kearney D L",
+              "Hawkins E P"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1987",
+            "abstract": "Infants with incessant ventricular tachycardia (occurring greater than 10% of the day) have generally been described in pathologic studies. This report describes 21 patients with incessant ventricular tachycardia present greater than 90% of the day and night; the age at diagnosis ranged from birth to 30 months (mean 10.5 months). The most common clinical presentation was cardiac arrest (11 patients, in 5 after digitalis for presumed supraventricular tachycardia); another 6 patients had congestiv",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2387941",
+            "title": "New approaches to treatment of incessant ventricular tachycardia in the very young.",
+            "authors": [
+              "Zeigler V L",
+              "Gillette P C",
+              "Crawford F A",
+              "Wiles H B",
+              "Fyfe D A"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1990",
+            "abstract": "It was assumed that the availability of new antiarrhythmic drugs and new surgical techniques might allow medical or nonexcisional surgical treatment in many young children with incessant ventricular tachycardia. Fourteen infants and young children less than 5 years of age were evaluated and treated for incessant ventricular tachycardia. Medical treatment was pursued up to the use of amiodarone with a type Ib or Ic antiarrhythmic drug unless the patient became hemodynamically unstable. Patients u",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14508682",
+            "title": "Efficacy and safety of intravenous amiodarone for incessant tachycardias in infants.",
+            "authors": [
+              "Burri Silvia",
+              "Hug Maja Isabel",
+              "Bauersfeld Urs"
+            ],
+            "journal": "European journal of pediatrics",
+            "year": "2003",
+            "abstract": "Amiodarone is an effective anti-arrhythmic agent for the treatment of supraventricular and ventricular tachycardias. The safety and efficacy of intravenous amiodarone has been described in adults and children but only to a limited extent in infants. The purpose of this study was to evaluate the safety and efficacy of intravenous amiodarone in infants. Between February 1994 and June 2001, 23 infants with a median age of 8 days (range 1-300 days) with life-threatening incessant tachycardias (17 su",
+            "classification": {
+              "study_type": "Prospective Case Series",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12086381",
+            "title": "Management of cardiomyopathy resulting from incessant supraventricular tachycardia in infants and children.",
+            "authors": [
+              "Juneja R",
+              "Shah S",
+              "Naik N",
+              "Kothari S S",
+              "Saxena A"
+            ],
+            "journal": "Indian heart journal",
+            "year": "2002",
+            "abstract": "Radiofrequency ablation is considered to be the treatment of choice in patients with ventricular dysfunction related to incessant supraventricular tachycardia. However, reservations regarding its use in infants and children prompted us to try alternative strategies for this group.",
+            "classification": {
+              "study_type": "Retrospective",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33254125",
+            "title": "[Drug-induced ventricular dissynchrony and tachycardiomyopathy in a newborn].",
+            "authors": [
+              "Majdalani María G",
+              "Falconi Estela C",
+              "Diaz Carlos J",
+              "Doiny David",
+              "Abello Mauricio S"
+            ],
+            "journal": "Medicina",
+            "year": "2020",
+            "abstract": "Ventricular dysfunction secondary to electrical and mechanical dyssynchrony in chronic right ventricular apical pacing is a well-recognized complication. There are no previous reports of pharmacologically induced dyssynchrony. A 10-day old infant with incessant supraventricular tachycardia was admitted to the neonatal intensive care unit. Therapy with oral propranolol was initiated and due to persistence of tachycardia intravenous amiodarone was administered. The patient remained predominantly i",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2114081",
+            "title": "[Incessant idiopathic ventricular tachycardia in infants].",
+            "authors": [
+              "Villain E",
+              "Bonnet D",
+              "Kachaner J",
+              "Le Bidois J",
+              "Cohen L"
+            ],
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1990",
+            "abstract": "Reduction of the arrhythmia was obtained in 1 to 5 days, spontaneously (2 cases) of after oral amiodarone (500 to 2000 mg/m2/24 hr) (5 cases) or intravenous flecainide or propafenone in the two most critically ill patients. With the exception of 1 patient who was successfully treated with propranolol for 1 year, amiodarone was prescribed in all cases for 7 to 36 months after reversion to sinus rhythm: 5 children have been taken off treatment and seem to be completely cured 4 to 9 years after wit",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3099560",
+            "title": "Newer antiarrhythmic drugs in children.",
+            "authors": [
+              "Moak J P",
+              "Smith R T",
+              "Garson A"
+            ],
+            "journal": "American heart journal",
+            "year": "1987",
+            "abstract": "Our experience with the use of five new antiarrhythmic drugs for treating life-threatening arrhythmias in children will be briefly reviewed. Prevention of recurrent episodes of atrial flutter with digoxin and local anesthetic antiarrhythmic drugs often is only moderately successful, benefiting 65% of patients. Amiodarone is particularly useful for those patients who cannot be controlled on this regimen. We caution that the heart rate be monitored carefully when therapy with amiodarone is initiat",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14732753",
+            "title": "Amiodarone therapy for drug-refractory fetal tachycardia.",
+            "authors": [
+              "Strasburger Janette F",
+              "Cuneo Bettina F",
+              "Michon Maaike M",
+              "Gotteiner Nina L",
+              "Deal Barbara J"
+            ],
+            "journal": "Circulation",
+            "year": "2004",
+            "abstract": "Fetal tachycardia complicated by ventricular dysfunction and hydrops fetalis carries a significant risk of morbidity and mortality. Transplacental digoxin is effective therapy in a small percentage, but there is no consensus with regard to antiarrhythmic treatment if digoxin fails. This study evaluates the safety, efficacy, and outcome of amiodarone therapy for digoxin-refractory fetal tachycardia with heart failure.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9749214",
+            "title": "[Neonatal ventricular tachycardia].",
+            "authors": [
+              "Villain E",
+              "Butera G",
+              "Bonnet D",
+              "Acar P",
+              "Aggoun Y"
+            ],
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1998",
+            "abstract": "Ventricular tachycardia is rare and poorly understood in the neonate. The authors undertook a retrospective study in 2 foetus and 8 neonates aged 1 to 20 days at the time of diagnosis. The tachycardia was permanent in 2 cases, observed in runs of variable variation in the other 8, incessant in 7 of these cases. Only two cases were symptomatic: cardiac failure with shock 16 hours after birth and hydramnios at 16 weeks gestation. The electrocardiographic criteria of ventricular tachycardia (wide Q",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2184944",
+            "title": "Evolving concepts in the management of congenital junctional ectopic tachycardia. A multicenter study.",
+            "authors": [
+              "Villain E",
+              "Vetter V L",
+              "Garcia J M",
+              "Herre J",
+              "Cifarelli A"
+            ],
+            "journal": "Circulation",
+            "year": "1990",
+            "abstract": "We reviewed the records of 26 infants with congenital junctional ectopic tachycardia (JET) from seven institutions to examine the evolution in the management of this tachycardia that is difficult to treat. JET was defined electrocardiographically as an incessant tachycardia with normal QRS morphology and atrioventricular (AV) dissociation. The ventricular rate ranged from 140 to 370 beats/min (mean, 230 beats/min); 16 of 26 patients had cardiac failure. Treatment success was defined as a stable ",
+            "classification": {
+              "study_type": "Multicenter Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8267508",
+            "title": "[Ventricular tachycardia in children].",
+            "authors": [
+              "Grolleau R",
+              "Messner P",
+              "Leclercq F",
+              "Carabasse D",
+              "Voisin M"
+            ],
+            "journal": "Archives des maladies du coeur et des vaisseaux",
+            "year": "1993",
+            "abstract": "Ventricular tachycardia (VT) in children is different to that observed in the adult because ischemic heart disease is exceptionally rare in this age group. The arrhythmia sometimes presents with cardiac failure or loss of consciousness. VT complicates the outcome of operated Tetralogy of Fallot, arrhythmogenic right ventricular dysplasia and some cardiac tumours. Cardiomyopathies are also a cause of VT but it must be noted that ventricular dysfunction may be the result of a prolonged arrhythmia ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16316969",
+            "title": "Intravenous amiodarone for incessant tachyarrhythmias in children: a randomized, double-blind, antiarrhythmic drug trial.",
+            "authors": [
+              "Saul J Philip",
+              "Scott William A",
+              "Brown Stephen",
+              "Marantz Pablo",
+              "Acevedo Valeria"
+            ],
+            "journal": "Circulation",
+            "year": "2005",
+            "abstract": "Intravenous (IV) amiodarone has proven efficacy in adults. However, its use in children is based on limited retrospective data.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26165020",
+            "title": "[Clinical course and treatment of ectopic atrial tachycardia in 144 children].",
+            "authors": [
+              "Ge Haiyan",
+              "Li Xiaomei",
+              "Zhang Yan",
+              "Liu Haiju",
+              "Jiang He"
+            ],
+            "journal": "Zhonghua er ke za zhi = Chinese journal of pediatrics",
+            "year": "2015",
+            "abstract": "Ectopic atrial tachycardia (EAT) is a common type of supraventricular tachycardia in pediatric population, and it can be resistant to antiarrhythmic drugs and lead to tachycardia induced cardiomyopathy (TIC) if not properly managed. This study assessed the clinical course and response to treatment of EAT in children.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11800307",
+            "title": "Atrial tachycardia from enhanced automaticity in children: diagnosis and initial management.",
+            "authors": [
+              "Khongphatthanayothin A",
+              "Chotivitayatarakorn P",
+              "Lertsupcharoen P",
+              "Muangmingsuk S",
+              "Thisyakorn C"
+            ],
+            "journal": "Journal of the Medical Association of Thailand = Chotmaihet thangphaet",
+            "year": "2001",
+            "abstract": "Ten patients (aged 0-9 years) with the diagnosis of automatic atrial tachycardia (AAT) from August 1997 to August 2000 were reviewed. Three patients had paroxysmal (repetitive) AAT and the tachycardia was incessant in six (defined as presence of AAT for more than 90% of the time). The type of AAT in one patient was unknown. Four patients presented with congestive heart failure (CHF), one with pre-syncope, one with palpitation, and four were asymptomatic. Six patients (60%) had depressed left ven",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9893292",
+            "title": "Effectiveness and safety of intravenous amiodarone in drug-resistant tachyarrhythmias of children.",
+            "authors": [
+              "Celiker A",
+              "Ceviz N",
+              "Ozme S"
+            ],
+            "journal": "Acta paediatrica Japonica : Overseas edition",
+            "year": "1998",
+            "abstract": "Experience with pediatric use of intravenous amiodarone is limited. In this study, our experiences with intravenous amiodarone in children with acute life-threatening or chronic tachyarrhythmias are reviewed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9380934",
+            "title": "[Reversibility of myocardiopathy induced by incessant supraventricular tachycardia in children after radiofrequency ablation].",
+            "authors": [
+              "Sánchez Fernández-Bernal C",
+              "Benito Bartolomé F"
+            ],
+            "journal": "Revista espanola de cardiologia",
+            "year": "1997",
+            "abstract": "The so called tachycardia-induced cardiomyopathy may develop as a complication of persistent abnormal high rates. It is especially common in patients who have either a permanent form of junctional reciprocating tachycardia or an ectopic atrial tachycardia. Radiofrequency catheter ablation has become established as an effective and safe treatment to eliminate both arrhythmias.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29856078",
+            "title": "Ivabradine is an effective antiarrhythmic therapy for congenital junctional ectopic tachycardia-induced cardiomyopathy during infancy: Case studies.",
+            "authors": [
+              "Ergul Yakup",
+              "Ozturk Erkut",
+              "Ozgur Senem",
+              "Ozyurt Abdullah",
+              "Cilsal Erman"
+            ],
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "2018",
+            "abstract": "Junctional ectopic tachycardia (JET) is a rare form of arrhythmia that is most commonly seen during infancy. JET is continuous and incessant, characterized by persistently high heart rates that may result in impaired cardiac function and tachycardia-induced cardiomyopathy. Despite the availability of multiple antiarrhythmic treatments, including flecainide and amiodarone, management of JET is generally very difficult. Catheter ablation has a high risk of atrioventricular block and it may require",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12921310",
+            "title": "Spontaneous resolution of ventricular tachycardia with right bundle branch block morphology: a case report.",
+            "authors": [
+              "Bostan Ozlem M",
+              "Celiker Alpay",
+              "Ozme Sencan"
+            ],
+            "journal": "The Turkish journal of pediatrics",
+            "year": "2003",
+            "abstract": "Ventricular tachycardia is rare in children. In the absence of structural heart disease, ventricular tachycardia is known as idiopathic ventricular tachycardia and carries a good prognosis. We report a 14-month-old male child with right bundle branch block incessant ventricular tachycardia without structural heart disease. In this patient ventricular tachycardia was controlled by amiodarone and disappeared during follow-up. We want to stress the benign nature of this tachycardia if the previous ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10457304",
+            "title": "Radiofrequency catheter ablation in a haemodynamically compromised premature neonate with hydrops fetalis.",
+            "authors": [
+              "Osborn D A",
+              "Lau K C",
+              "Uther J B",
+              "Coughtrey H",
+              "Rochefort M J"
+            ],
+            "journal": "Journal of paediatrics and child health",
+            "year": "1999",
+            "abstract": "A preterm infant was born at 35 weeks gestation after failed antenatal antiarrhythmic therapy. The infant had an incessant supraventricular tachycardia, impaired ventricular function and hypotension and failed to respond to adenosine, cardioversion and intravenous amiodarone. After resuscitation from cardiovascular collapse, a successful radiofrequency catheter ablation (RFA) of a left free wall atrioventricular pathway was performed at 24 h of age without extracorporeal support. The infant is n",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10944982",
+            "title": "[Anterograde decremental conduction by left free wall accessory pathway in the permanent form of junctional reciprocating tachycardia].",
+            "authors": [
+              "Bartolomé F B",
+              "Sánchez Fernández-Bernal C",
+              "Torres Feced V"
+            ],
+            "journal": "Revista espanola de cardiologia",
+            "year": "2000",
+            "abstract": "We present the case of a 2-month-old infant, diagnosed prenatally with tachycardia. The characteristics of the surface electrocardiogram were consistent with the diagnosis of the permanent form of junctional reciprocating tachycardia: narrow-complex tachycardia at 200 beats/min, negative P' wave in inferior leads (II, III, aVF), I, aVL and from V4 to V6. The tachycardia was incessant despite medical treatment with digoxin, quinidine, amiodarone and flecainide. The electrophysiological study conf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amiodarone 廣譜多重通道阻斷特性（Class I-IV 混合效應）使其成為一般抗心律不整藥無效時的救援療法。嬰幼兒頑固性 VT 常因結構性病因（心肌錯構瘤等）或離子通道異常所致，Amiodarone 的廣譜阻斷可提供橋接治療直至根本治療（手術消融等）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "ventricular tachycardia",
+      "txgnn": {
+        "score": 0.9963623881340028,
+        "rank": 5252
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00257959",
+            "title": "Optimal Pharmacological Therapy In Implantable Defibrillator Patients (OPTIC)",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "2001-01",
+            "completion_date": "2004-10",
+            "brief_summary": "This is an open parallel design randomized trial of amiodarone plus a beta blocker vs a beta blocker alone vs sotalol for the prevention of ICD shocks in patients receiving an ICD for spontaneous or inducible ventricular tachycardia or fibrillation",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，n=400，已完成，直接評估 Amiodarone + β-blocker 在 ICD 植入患者中預防 VT/VF 誘發電擊的效果，高度相關"
+            }
+          },
+          {
+            "nct_id": "NCT00000531",
+            "title": "Antiarrhythmics Versus Implantable Defibrillators (AVID)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": "N/A",
+            "start_date": "1992-09",
+            "completion_date": "2002-08",
+            "brief_summary": "To evaluate if use of an implantable cardiac defibrillator (ICD) results in reduction in total mortality, when compared with conventional pharmacological therapy, in patients resuscitated from sudden cardiac death who are otherwise at very high risk of mortality from arrhythmic causes.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 已完成的里程碑試驗，直接比較 Amiodarone 與 ICD 治療危及生命的室性心律不整，確立 Amiodarone 在 VT/VF 管理中的標準角色"
+            }
+          },
+          {
+            "nct_id": "NCT04208997",
+            "title": "Continuation of Antiarrhythmics Following caThEteR Ablation for Ventricular Tachycardia (AFTER-VT) Trial: A Pilot Randomized Clinical Trial",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 5,
+            "start_date": "2019-12-19",
+            "completion_date": "2021-06-30",
+            "brief_summary": "The investigators aim to study if patients that undergo catheter ablation for ventricular tachycardia benefit from continuation of Vaughan-Williams class III antiarrhythmic drugs for 3 months after their ablation.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 但提前終止（n=5），因收案困難而中止，無法提供有效結論"
+            }
+          },
+          {
+            "nct_id": "NCT07270848",
+            "title": "A Multicenter Prospective Study on the Efficacy, Safety, and Quality of Life Improvements of Dronedarone for Early Rhythm Control in Atrial Fibrillation",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 1898,
+            "start_date": "2026-01-01",
+            "completion_date": "2028-12",
+            "brief_summary": "The purpose of this study is to compare two commonly used types of medicine for treating atrial fibrillation (also called AF), a condition that causes an irregular heart rhythm. This study is for adults who have been diagnosed with AF within the past year.\n\nResearchers want to find out which medicine is more effective, safer, and provides a better quality of life for patients needing to control their heart rhythm.\n\nParticipants who agree to join the study will be randomly assigned (like flipping",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Dronedarone（Amiodarone 衍生物），非 Amiodarone 本身，間接提供同類藥物比較參考"
+            }
+          },
+          {
+            "nct_id": "NCT01097330",
+            "title": "Catheter Ablation Versus Amiodarone for Shock Prophylaxis in Defibrillator Patients With Ventricular Tachycardia: A Multi-center Randomized Trial",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 12,
+            "start_date": "2010-08",
+            "completion_date": "2012-03",
+            "brief_summary": "Implantable Cardioverter Defibrillators (ICDs) provide a shock or pacing therapy to bring back a normal heart beat when a patient experiences a dangerous abnormal heart rhythm such as ventricular tachycardia (VT). ICDs are very successful in bringing back a normal heart beat when VT occurs, but they do not prevent further dangerous heart rhythms from occurring. This study is designed to determine the best way to manage patients who have an ICD and who continue to have episodes of VT. There are t",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 3 但提前終止（n=12），樣本量過小，無統計效力"
+            }
+          },
+          {
+            "nct_id": "NCT00905853",
+            "title": "Ventricular Tachycardia Ablation or Escalated aNtiarrhythmic Drugs in ISchemic Heart Disease",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 260,
+            "start_date": "2009-05",
+            "completion_date": "2015-12",
+            "brief_summary": "This study will compare aggressive antiarrhythmic therapy to catheter ablation for ventricular tachycardia in patients who have suffered prior myocardial infarction. The purpose of this study is to evaluate the optimal management of patients presenting with recurrent VT and receiving ICD therapy in spite of first-line antiarrhythmic drug therapy. The hypothesis is catheter ablation is superior to aggressive antiarrhythmic drug therapy for recurrent VT.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4，n=260，已完成，Amiodarone 為藥物治療對照臂標準用藥，提供高品質療效對比數據"
+            }
+          },
+          {
+            "nct_id": "NCT05852704",
+            "title": "SGLT2 Inhibitor TrEatment iN Patients Awaiting cOronary arTery bYpass Surgery to Reduce Post-opErative Atrial Fibrillation and Kidney Injury (STENOTYPE Trial)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 800,
+            "start_date": "2024-04-04",
+            "completion_date": "2028-12-04",
+            "brief_summary": "The goal of this randomized, double-blinded, controlled clinical trial is to investigate if treatment with an sodium-glucose cotransporter-2 inhibitor (SGLT2) during the unique time window before coronary artery bypass surgery (CABG), can reduce the incidence of post-operative atrial fibrillation and/or acute kidney injury in patients with chronic coronary syndrome. The main questions it aims to answer are:\n\n* Does treatment with an SGLT2 inhibitor during the waiting time and stable post-operati",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究目標為 SGLT2 抑制劑，Amiodarone 非主要研究藥物，與 VT 再利用評估無直接關聯"
+            }
+          },
+          {
+            "nct_id": "NCT01558830",
+            "title": "Safety of Amiodarone and Ranolazine Together in Patients With Stable Angina",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2012-01",
+            "completion_date": "2013-07",
+            "brief_summary": "Ranolazine is an effective and remarkably safe agent for the treatment of patients with chronic stable angina, but its inhibition of voltage gated potassium channels and electrocardiogram (EKG) corrected QT (QTc) prolongation properties have lead many to question its safety when combined with antiarrhythmic drugs. The investigators have proposed a study to determine the safety of ranolazine in patients with chronic stable angina who also take amiodarone. And are conducting a prospective single-c",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，n=50，提供 Amiodarone 安全性資料，但主要聚焦穩定型心絞痛，對 VT 療效的直接貢獻有限"
+            }
+          },
+          {
+            "nct_id": "NCT00920244",
+            "title": "Dynamics and State Transitions During Resuscitation in In-hospital Cardiac Arrest",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 285,
+            "start_date": "2009-08",
+            "completion_date": "2015-04",
+            "brief_summary": "The purpose of this study is to analyse transitions in cardiac rhythm and hemodynamic variables during resuscitation of patients with in-hospital cardiac arrest.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "觀察性研究，n=285，包含 VT/VF 心跳停止場景，提供 Amiodarone 在急救情境中的使用數據"
+            }
+          },
+          {
+            "nct_id": "NCT03685149",
+            "title": "Pilot Randomized Trial With Flecainide in ARVC Patients",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 22,
+            "start_date": "2019-07-23",
+            "completion_date": "2022-07-31",
+            "brief_summary": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC) is an inherited arrhythmia disorder with high risk of ventricular tachycardia or fibrillation, and implantable cardioverter defibrillator remains as therapy of choice. Antiarrhythmic therapy with different agents including beta-blockers, sotalol and amiodarone are usually not effective in reducing risk of arrhythmic events. Recent data indicated that flecainide effectively prevented the arrhythmias observed in the experimental ARVC animals a",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究藥物為 Flecainide，非 Amiodarone；ARVC 相關但不直接評估 Amiodarone"
+            }
+          },
+          {
+            "nct_id": "NCT06680869",
+            "title": "Early Amiodarone in Shockable Cardiac Arrest (Early-Amio) Study",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 585,
+            "start_date": "2025-01-01",
+            "completion_date": "2028-01-31",
+            "brief_summary": "The primary objective of this pilot, pragmatic stepped-wedge cluster randomized trial is to evaluate if a modified cardiac arrest treatment algorithm calling for the administration of the initial amiodarone dose one 2-minute cycle earlier than current guidelines (during the same cycle as the initial dose of epinephrine) improves the time to amiodarone delivery in those with out-of-hospital cardiac arrest due to refractory ventricular fibrillation or ventricular tachycardia compared to usual care",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00420017",
+            "title": "Prevention of Atrial Fibrillation Following Thoracoabdominal Esophagectomy Surgery",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 80,
+            "start_date": "2005-09",
+            "completion_date": "2008-11",
+            "brief_summary": "The investigators hypothesize that the medication amiodarone decreases the incidence of atrial fibrillation (AF) following esophagectomy surgery. Their specific aims are to:\n\nDetermine the effectiveness of amiodarone for the prevention of AF following esophagectomy surgery; Determine the influence of the prevention of AF following esophagectomy surgery on post-surgical duration of stay in the Intensive Care Unit ICU)and duration of post-surgical hospital stay; and Determine the safety of amiodar",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02113722",
+            "title": "Does Left Cardiac Sympathectomy Stellate Ganglionectomy Confer an Added Benefit Over Optimal Medical Therapy in the Reduction of Therapy Delivered From an Implanted Cardioverter Defibrillator in Patients at High Risk of Sudden Cardiac Death",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2014-07",
+            "completion_date": "2015-06",
+            "brief_summary": "The purpose of this study is to determine whether the incidence of recurrent life threatening ventricular arrhythmias in patients with an implanted cardiac defibrillator (ICD) can be reduced if a surgical left stellate ganglionectomy is performed.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03531502",
+            "title": "Initial Management of Patients Receiving a Single Shock (IMPRESS)",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 30,
+            "start_date": "2018-04-09",
+            "completion_date": "2023-04-04",
+            "brief_summary": "The goal of this study is to determine the optimal treatment for patients who receive a single shock from their implantable cardioverter defibrillator (ICD). All participants in this study will be fitted with a special electrode vest to detect the origin of heart rhythm abnormalities and then they will undergo a procedure called Non-Invasive Programmed Stimulation (NIPS). This procedure involves sedating a participants with anesthesia and then using the participant's own ICD to try to stimulate ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01709682",
+            "title": "Progression of Atrial Fibrillation After a Failed Initial Ablation Procedure in Patients With Paroxysmal Atrial Fibrillation: A Randomized Comparison of the Drug Therapy Versus Re-Ablation",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 154,
+            "start_date": "2007-11",
+            "completion_date": "2012-08",
+            "brief_summary": "The hypothesis of this study was that early re-ablation (test) was superior to AAD therapy (control) in patients with previous failed PVI ablation for paroxysmal AF.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00383799",
+            "title": "Comparison of Intravenous Amiodarone Versus Intravenous Procainamide for the Acute Treatment of Regular and Haemodynamically Well Tolerated Wide QRS Tachycardia (Probably of Ventricular Origen). The PROCAMIO Multicenter Study",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 302,
+            "start_date": "2005-09",
+            "completion_date": "2011-06",
+            "brief_summary": "The purpose of this study is to determine whether intravenous amiodarone has less cardiac significant adverse events compared to intravenous procainamide in the acute treatment of haemodynamically well tolerated wide QRS tachycardia, the majority of them of probably ventricular origen.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03153072",
+            "title": "Evaluation of the Pharmacokinetic Profile, Pharmacodynamic Effects, Acceptability and Tolerability of an Oral Amiodarone Solution of 15 mg / mL in Children With Supra Ventricular Tachycardia",
+            "phase": "PHASE2",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2016-09-06",
+            "completion_date": "2017-03-01",
+            "brief_summary": "The supra ventricular tachycardia is the most common symptomatic arrhythmia in pediatrics. Amiodarone is an antiarrhythmic drug used in this indication. Pharmacokinetic, efficacy and safety data are not known in the pediatric population due to the lack of a suitable specialty available on the market.\n\nThe development of an amiodarone oral solution formulation adapted to this age group should provide a therapeutic alternative and collect data on the pharmacokinetics, efficacy, acceptability and t",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01688648",
+            "title": "The Comparison of Antiarrhythmic and Myocardial Protective Effect Between Lidocaine, Dexmedetomidine, and Their Combined Infusion in Subjects Undergoing Coronary Artery Bypass Graft",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 160,
+            "start_date": "2012-09",
+            "completion_date": "2013-02",
+            "brief_summary": "The aim of the present study is to compare the antiarrhythmic and myocardial protective effect between lidocaine, dexmedetomidine, and their combined infusion in subjects undergoing coronary artery bypass graft.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02303639",
+            "title": "Medical ANtiarrhythmic Treatment or Radiofrequency Ablation in Ischemic Ventricular Tachyarrhythmias. A Prospective, Randomized Multicentre Study.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 120,
+            "start_date": "2015-04",
+            "completion_date": "2018-06",
+            "brief_summary": "The study evaluates whether catheter based radiofrequency ablation is superior to optimized antiarrhythmic medical therapy in preventing ventricular tachyarrhythmia relapses in patients with ischemic heart disease and implantable cardioverter defibrillator.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01649544",
+            "title": "Comparison of Treatment of Atrial Fibrillation (AF) Between Surgical Ultrasonic Technology (EPICOR) or Drug Therapy (Cordarone) for Patients With AF Requiring Mitral Valve Surgery",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 6,
+            "start_date": "2012-03",
+            "completion_date": "2015-09",
+            "brief_summary": "In pre-operative cardiac surgery, 30 to 40% of patients with mitral valvulopathy have had episodes of paroxysmal atrial fibrillation (PAF) or are in permanent or chronic atrial fibrillation (CAF). According to the 1999 PMSI data, close to 4000 mitral valve interventions were performed in France, in other words, more than 1000 patients present with this condition annually; despite a surgical correction of their valvulopathy, patients presenting with a pre-operative chronic atrial fibrillation rem",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05456204",
+            "title": "Efficacy and Safety of Refralon in Patients With Recurrent Atrial Fibrillation and Atrial Flutter After Catheter Ablation.",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2022-02-15",
+            "completion_date": "2024-06-30",
+            "brief_summary": "It is planned to evaluate the efficacy and safety of the class III antiarrhythmic drug refralon as a drug for pharmacological cardioversion in patients with recurrent atrial fibrillation (AF) and atrial flutter (AFL) after catheter ablation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05549752",
+            "title": "Safety and Efficacy of Flecainide Versus Amiodarone in the Cardioversion of Paroxysmal Atrial Fibrillation at the Emergency Department, in Patients With Coronary Artery Disease Without Residual Ischemia and Ejection Fraction > 35%",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 80,
+            "start_date": "2023-03-24",
+            "completion_date": "2026-01-30",
+            "brief_summary": "Current guidelines for the cardioversion of paroxysmal Atrial Fibrillation at the Emergency Department do not prioritize between antiarrhythmic agents and do not consider the time taken for successful cardioversion. Furthermore, the use of flecainide -a class 1C antiarrhythmic agent- is contraindicated for the cardioversion of patients with revascularized coronary artery disease, as well as patients with ischemic cardiomyopathy and preserved ejection fraction. These recommendations stem from ins",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07130175",
+            "title": "Efficacy of Radiofrequency Catheter Ablation on Improving Cardiac Function in Patients With Polymorphic Ventricular Tachycardia and Coexisting Heart Failure: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 118,
+            "start_date": "2022-12-31",
+            "completion_date": "2024-12-31",
+            "brief_summary": "This is a prospective, randomized, controlled trial to investigate the efficacy of radiofrequency catheter ablation (RFCA) combined with guideline-directed medical therapy (GDMT) compared to GDMT alone in patients with polymorphic ventricular tachycardia (PMVT) and coexisting heart failure (HF). The study aims to evaluate whether the addition of RFCA can lead to superior improvements in cardiac function, clinical outcomes, and serum biomarkers at a 6-month follow-up.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04223739",
+            "title": "Comparison of Two Strategies for the Management of Atrial Fibrillation After Cardiac Surgery : a Randomized Multicenter Clinical Trial",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 380,
+            "start_date": "2019-12-13",
+            "completion_date": "2022-06-01",
+            "brief_summary": "Postoperative atrial fibrillation is a common complication after cardiac surgery with a rate of 30%. However, management of postoperative atrial fibrillation is controversial. Two strategies are recommended : heart rate control using a betablocker or rhythm control with amiodarone.\n\nLandiolol is a new-generation beta-blocker with a short half-life, which was approved by the Haute Autorité de Santé to be used in perioperative supra-ventricular tachycardias.\n\nOnly one study compared landiolol to a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00993382",
+            "title": "Double Blind Placebo Controlled Dose Ranging Study of the Efficacy and Safety of Celivarone at 50, 100 or 300 mg OD With Amiodarone as Calibrator for the Prevention of ICD Interventions or Death",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 486,
+            "start_date": "2009-09",
+            "completion_date": "2011-05",
+            "brief_summary": "The Primary objective was to assess the efficacy of Celivarone for the prevention of Implantable Cardioverter Defibrillator (ICD) interventions or death.\n\nSecondary objectives were:\n\n* To assess the tolerability and safety of the different dose regimens of Celivarone in the selected population.\n* To document Celivarone plasma levels during the study.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04239144",
+            "title": "Role of Sympathetic Denervation by Video-assisted Thoracoscopy in Control of Cardiac Arrhythmias in Patients With Chagas Disease - Pilot Study Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 45,
+            "start_date": "2018-11-09",
+            "completion_date": "2025-12-12",
+            "brief_summary": "Ventricular tachycardia (VT) is the main cause of sudden death in patients with structural heart diseases. The use of ICD (implantable cardio-defibrillator) could prevent sudden death, however, the occurrence of repetitive shock decreases significantly the quality of life and could increase the mortality rate. Chagas disease in our environment is the most common heart disease and often associated with the occurrence appropriate ICD therapies.\n\nThe chronic treatment of VT aims to prevent recurren",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03734562",
+            "title": "Randomized Controlled Phase IV Multicentric Trial, Comparing the Efficacy and Safety of Radiofrequency Substrate Ablation of Monomorphic Ventricular Tachycardia vs. Antiarrhyhtmic Drugs in Patients Experiencing Appropriate ICD Shocks",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 180,
+            "start_date": "2010-07",
+            "completion_date": "2017-09-30",
+            "brief_summary": "To compare the efficacy and safety of substrate-based radiofrequency catheter ablation vs. antiarrhythmic drug therapy in patients with ischemic cardiomyopathy and scar-related sustained monomorphic ventricular tachycardia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01401647",
+            "title": "Amiodarone, Lidocaine or Neither for Out-Of-Hospital Cardiac Arrest Due to Ventricular Fibrillation (VF) or Ventricular Tachycardia (VT)",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 3024,
+            "start_date": "2012-05",
+            "completion_date": "2016-01",
+            "brief_summary": "The primary objective of the trial is to determine if survival to hospital discharge is improved with early therapeutic administration of a new Captisol-Enabled formulation of IV amiodarone (Nexterone-PM101) compared to placebo.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02025465",
+            "title": "Randomized Trial Comparing Diltiazem and Metoprolol For Atrial Fibrillation Rate Control",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 150,
+            "start_date": "2013-12",
+            "completion_date": "2018-12",
+            "brief_summary": "Atrial Fibrillation and atrial flutter (AF/FL) is the usually irregular beating of the heart and is a rapidly growing cause of hospitalization. Between 1993 to 2007 AF/FL hospitalizations have increased 203% compared to a 71% increase for all hospitalizations. Changing procedure management such as ablation, transesophageal have had a minimal impact on the trends and there is a need to evaluate Emergency Department (ED) management options of AF/FL that may decrease hospitalizations.\n\nThe most com",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05445297",
+            "title": "Prospective Randomized Study Comparing the Efficacy and Safety of Refralon and Amiodarone in Cardioversion in Patients With Paroxysmal Atrial Fibrillation and Flutter",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 60,
+            "start_date": "2022-01-26",
+            "completion_date": "2023-06-30",
+            "brief_summary": "Patients hospitalized with paroxysmal atrial fibrillation and flutter to restore sinus rhythm will be randomized into two groups: one will be cardioversion with refralon and the other with amiodarone",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03528616",
+            "title": "Management of Supraventricular Tachycardia of Children Admitted to Assiut University Children Hospital(Clinical Audit)",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 50,
+            "start_date": "2018-05-15",
+            "completion_date": "2019-11-30",
+            "brief_summary": "• Supraventricular tachycardia (SVT) is defined as an abnormally rapid heart rhythm originating above the ventricles. It usually has narrow complex tachycardia but this is not always the case. Conventionally, atrial flutter and fibrillation are excluded from this group.ventricular tachycardia is the most common rhythm disturbance seen in children.(2) Most general practitioners will deal with a case at some point. While in most cases ventricular tachycardia can be considered a benign rhythm disor",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02301390",
+            "title": "INTERVENE: Indian Trial of Endocardial Ventricular Substrate Ablation to Prevent Recurrent VT Events",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 53,
+            "start_date": "2009-10",
+            "completion_date": "2016-09",
+            "brief_summary": "This study to is being conducted in India to determine the role of catheter-based ablation for ventricular tachycardia (VT) in post- heart attack patients who meet established guidelines for implantable cardiodefibrillator (ICD) implantation, but cannot afford it. These patients would be started on chronic Amiodarone therapy, which has been shown to be effective but can often lead to multiple side effects.\n\nPatients will therefore be randomized in an even proportion to either a) the control grou",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03193749",
+            "title": "A Trial Testing Amiodarone in Chagas Cardiomyopathy (ATTACH)",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 200,
+            "start_date": "2017-06-12",
+            "completion_date": "2020-12",
+            "brief_summary": "Purpose:\n\nThe ATTACH trial, as currently designed, will primarily test whether a treatment with Amiodarone for at least 6 months has a trypanocidal effect among individuals with mild-to-moderate Chronic Chagas Cardiomyopathy. A secondary goal will be to confirm, in this population, a clinical benefit from this treatment (in terms of reducing mortality or cardiac arrhythmic events), and to explore whether a potential trypanocidal effect is associated with a clinical benefit.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00721032",
+            "title": "Anti-arrhythmic Medication v. MRI-Merge Ablation in the Treatment of Ventricular Tachycardia",
+            "phase": "NA",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2012-06",
+            "completion_date": "2015-08",
+            "brief_summary": "Ventricular tachycardia (VT) is a morbid arrhythmia responsible for many sudden deaths and ICD shocks. Despite much progress in the treatment of arrhythmia, VT remains a therapeutic challenge. Most patients with VT have an implantable cardioverter defibrillator (ICD) for secondary prevention of sudden cardiac death, however, an ICD merely treats VT, it does not prevent VT. In patients with recurrent VT and ICD shocks, two strategies are available to decrease the burden of VT. The first is antiar",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06657404",
+            "title": "The Modified \"Pills-in-the-Pocket\" Strategy -The Combined Effect of Amiodarone, Bisoprolol and Digoxin in the Treatment of Recurrent Atrial Arrhythmia for Non-Paroxysmal Atrial Fibrillation After Catheter Ablation: A Multicenter, Prospective, Randomized, Open-Label, Blinded Endpoint Clinical Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 328,
+            "start_date": "2024-10-23",
+            "completion_date": "2024-12-31",
+            "brief_summary": "This is a multicentre, prospective, randomised controlled study of 328 patients with non-paroxysmal AF (within 5 years of first diagnosis of AF) with recurrent atrial arrhythmias after first catheter ablation, randomly divided in a 1:1 ratio into a study group treated with triple AADs (amiodarone + bisoprolol + digoxin) and a control group treated with conventional AADs (amiodarone + bisoprolol + digoxin). The study group was treated with triple AADs (amiodarone + bisoprolol) and the control gro",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03299517",
+            "title": "PROSPECTIVE ANALYSIS BETWEEN AMIODARONE Versus LIDOCAINE IN PATIENTS WITH STABLE VENTRICULAR TACHYCARDIA IN THE EMERGENCY ROOM",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2017-08-02",
+            "completion_date": "2022-08-02",
+            "brief_summary": "Introduction: Recent studies have suggested that other medications may be superior to amiodarone in controlling ventricular arrhythmias. However, a prospective and randomized comparison with lidocaine has not yet been described.\n\nObjective: This study aims to evaluate the effectiveness and safety of the use of amiodarone versus lidocaine in patients with stable ventricular tachycardias.\n\nMethodology: For this, a unicentric, randomized and prospective study will be carried out, in which the two d",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07173855",
+            "title": "Effect of Protocolized Magnesium Replacement in Critically Ill Patients on Mortality and Atrial Fibrillation: the MAGNOLIA Randomized Controlled Trial",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 3253,
+            "start_date": "2025-11-25",
+            "completion_date": "2027-06-01",
+            "brief_summary": "In patients with critical illness, such as severe infections, heart attacks, or respiratory failure, most intensive care units (ICUs) measure magnesium levels and give supplemental doses of magnesium when levels are below certain targets. However, the best targets are unknown. The goal of this clinical trial is to study protocols for magnesium supplementation in people with critical illness, comparing a protocol with higher target level to a protocol with a lower target level.\n\nThe main question",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04351763",
+            "title": "Amiodarone or Verapamil in COVID-19 Hospitalized Patients With Symptoms",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 804,
+            "start_date": "2020-05-20",
+            "completion_date": "2021-06-05",
+            "brief_summary": "There is an urgent need for effective therapies against the novel COVID-19 virus. Studies have shown that amiodarone and verapamil can interfere with coronavirus entry and amplification by blocking ion channels. ReCOVery-SIRIO is a randomized study to investigate amiodarone or verapamil compared with usual care in symptomatic patients hospitalized with confirmed COVID-19 infection.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00180375",
+            "title": "OPERA: French Observational Study on Patients Implanted With a Guidant PRIZM or Vitality Defibrillator",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 636,
+            "start_date": "2002-05",
+            "completion_date": "2007-08",
+            "brief_summary": "This study evaluates the date of the first appropriate and/or inappropriate therapy in patients implanted with a Guidant PRIZM or VITALITY defibrillator and is evaluating eventual predictive risk factors for appropriate/inappropriate therapies as well as the influence of the programmed parameters on these therapies.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04845607",
+            "title": "Prophylactic Amiodarone for Shockable Cardiac Arrest During Targeted Post Cardiac Arrest Care: Multi-center, Open Labelled Randomized Controlled Trial",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 302,
+            "start_date": "2021-04-01",
+            "completion_date": "2023-02-28",
+            "brief_summary": "The aim of this study is to determine whether the prophylactic amiodarone can prevent re-arrest with ventricular shockable rhythm in patients who treated with targeted temperature management after return of spontaneous circulation from cardiac arrest which had been shockable rhythm during CPR.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02830360",
+            "title": "Ventricular Tachycardia Antiarrhythmics or AblatioN In Structural Heart Disease 2",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 416,
+            "start_date": "2016-10",
+            "completion_date": "2024-06-30",
+            "brief_summary": "A multicenter, randomized clinical trial to assess whether catheter ablation or antiarrhythmic drug therapy provides the most effective control of important clinical outcomes for patients with prior myocardial infarction and sustained monomorphic ventricular tachycardia (VT).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06138873",
+            "title": "Ablation-Index Guided Scar-Mediated Ventricular Tachycardia Ablation in Patients With Ischemic Cardiomyopathy (AIM-VT) - a Prospective Single-Blinded, Multicenter Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2024-10-23",
+            "completion_date": "2027-11-23",
+            "brief_summary": "Over the last decade, radiofrequency catheter ablation (RFCA) has become an established treatment for ventricular arrhythmias (VA). Due to the challenging nature of visualizing lesion formation in real time and ensuring an effective transmural lesion, different surrogate measures of lesion quality have been used. The Ablation Index (AI) is a variable incorporating power delivery in its formula and combining it with CF and time in a weighted equation which aims at allowing for a more precise esti",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02825979",
+            "title": "Early Aggressive Invasive Intervention for Atrial Fibrillation",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 303,
+            "start_date": "2017-01",
+            "completion_date": "2022-11",
+            "brief_summary": "The EARLY-AF study is centered on an evaluation of the impact of the early invasive management of Atrial Fibrillation. The primary goal of the study is to evaluate the clinical effectiveness of an early invasive approach. Specifically, the investigators are aiming to evaluate if PVI performed with the Arctic Front cryoballoon is superior to AAD as first-line therapy in preventing atrial arrhythmia recurrences (arrhythmia related symptoms, hospitalisations, and health care utilization) and health",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03244748",
+            "title": "Effect of Amiodarone After Ischemic Ventricular Tachycardia Ablation",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2016-01-01",
+            "completion_date": "2018-03-01",
+            "brief_summary": "Ventricular Tachycardia ablation in ischemic cardiomyopathy patients is required procedure in cases when anti-arrhythmic drugs failed. The concern is if adjunctive continuation amiodarone after ablation is needed.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01576042",
+            "title": "Catheter Ablation for Ventricular Tachycardia in Patients With an Implantable Cardioverter Defibrillator (CALYPSO) PILOT TRIAL",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 27,
+            "start_date": "2012-05",
+            "completion_date": "2014-05",
+            "brief_summary": "The purpose of this pilot trial is to determine the feasibility of a large, multi-center randomized clinical trial aimed to test whether a treatment strategy of percutaneous catheter ablation of ventricular tachycardia (VT) is superior to state-of-the-art pharmacologic therapy at reducing all-cause mortality in patients with an implantable cardioverter defibrillator (ICD) who receive therapy for VT in the absence of any reversible cause.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05524077",
+            "title": "Catheter Ablation Versus Anti-arrhythmic Drugs for Ventricular Tachycardia (CAAD-VT): A Randomised Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 162,
+            "start_date": "2020-07-08",
+            "completion_date": "2026-06-30",
+            "brief_summary": "Sudden cardiac death (SCD) due to recurrent ventricular tachycardia (VT) is an important clinical sequela in patients with structural heart disease. VT generally occurs as a result of electrical re-entry in the presence of arrhythmogenic substrate (scar). Scar tissue forms due to an ischemic cardiomyopathy (ICM) from prior coronary obstructive disease or a non-ischemic cardiomyopathy (NICM) from an inflammatory or genetic disease.\n\nAADs can reduce VT recurrence, but have significant limitations ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05439031",
+            "title": "StereoTactic Arrhythmia Radiotherapy in the NetherLands no. 2",
+            "phase": "PHASE2",
+            "status": "RECRUITING",
+            "enrollment": 12,
+            "start_date": "2023-05-19",
+            "completion_date": "2027-07",
+            "brief_summary": "Ventricular tachycardia (VT) is a malignant cardiac arrhythmia subjecting our patients to a high risk of sudden death, increased morbidity and reduced quality of life. Unfortunately, failure of treatment is common and VT recurrences remain an important concern. In these patients, stereotactic arrhythmia radiotherapy appears to be an effective and safe treatment. The mechanism of action however remains unknown and should be elucidated.\n\nThe objective of this phase 2, single arm, monocenter, pre-p",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04308031",
+            "title": "Efficacy of Ivabradine as a Treatment Modality for Both Rate Control and Heart Failure Medication in Patient With Both Persistent Atrial Fibrillation and Heart Failure With Reduce and Mid-range Ejection Fraction",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2018-08-26",
+            "completion_date": "2020-12-31",
+            "brief_summary": "Atrial fibrillation (AF) is the most common arrhythmia encountered in clinical practice. Previous studies have shown that rate control strategy in AF is non-inferior to rhythm control strategy, in terms of stroke and mortality risk. In addition, rate control strategy is associated with lower risk of hospitalization and non-cardiovascular mortality. Therefore, rate control is an essential strategy to improve quality of life, decrease morbidity and prevent tachycardia-induced cardiomyopathy in AF ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02114528",
+            "title": "Antiarrhythmic Therapy Versus Catheter Ablation as First Line Treatment for AICD Shock Prevention: A Randomized Vanguard Pilot Trial",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 40,
+            "start_date": "2014-10",
+            "completion_date": "2015-11",
+            "brief_summary": "The purpose of this study is to determine whether catheter based ablation is better than conventional anti-arrhythmic drug (AAD) therapy for reducing recurrent shocks in patients with an implantable cardioverter defibrillator (ICD). The second purpose of the study is to determine the safety of catheter-based ablation and the effect on quality of life of patients.\n\nThe study hypothesis is that catheter ablation is superior to AAD therapy in preventing recurrent ventricular arrhythmia in such subj",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06669299",
+            "title": "The Value of Late Non-Invasive Programmed Stimulation (NIPS) in the Setting of Ventricular Tachycardia (VT) Ablation to Guide the Subsequent VT Therapeutic Strategies: a Prospective Randomized Multicenter Study",
+            "phase": "NA",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 51,
+            "start_date": "2024-12-31",
+            "completion_date": "2027-12",
+            "brief_summary": "The aim of this study is to define the importance of non-invasive programmed stimulation (NIPS) in risk stratification of ventricular tachycardia (VT) recurrence after catheter ablation and to determine the optimal treatment strategy. The primary objective is to establish whether a new VT ablation based on NIPS inducibility will reduce the risk of VT recurrence compared to antiarrhythmic drug therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39555820",
+            "title": "Catheter Ablation or Antiarrhythmic Drugs for Ventricular Tachycardia.",
+            "authors": [
+              "Sapp John L",
+              "Tang Anthony S L",
+              "Parkash Ratika",
+              "Stevenson William G",
+              "Healey Jeff S"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2025",
+            "abstract": "Patients with ventricular tachycardia and ischemic cardiomyopathy are at high risk for adverse outcomes. Catheter ablation is commonly used when antiarrhythmic drugs do not suppress ventricular tachycardia. Whether catheter ablation is more effective than antiarrhythmic drugs as a first-line therapy in patients with ventricular tachycardia is uncertain.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27354046",
+            "title": "Randomized comparison of intravenous procainamide vs. intravenous amiodarone for the acute treatment of tolerated wide QRS tachycardia: the PROCAMIO study.",
+            "authors": [
+              "Ortiz Mercedes",
+              "Martín Alfonso",
+              "Arribas Fernando",
+              "Coll-Vinent Blanca",
+              "Del Arco Carmen"
+            ],
+            "journal": "European heart journal",
+            "year": "2017",
+            "abstract": "Intravenous procainamide and amiodarone are drugs of choice for well-tolerated ventricular tachycardia. However, the choice between them, even according to Guidelines, is unclear. We performed a multicentre randomized open-labelled study to determine the safety and efficacy of intravenous procainamide and amiodarone for the acute treatment of tolerated wide QRS complex (probably ventricular) tachycardia.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27149033",
+            "title": "Ventricular Tachycardia Ablation versus Escalation of Antiarrhythmic Drugs.",
+            "authors": [
+              "Sapp John L",
+              "Wells George A",
+              "Parkash Ratika",
+              "Stevenson William G",
+              "Blier Louis"
+            ],
+            "journal": "The New England journal of medicine",
+            "year": "2016",
+            "abstract": "Recurrent ventricular tachycardia among survivors of myocardial infarction with an implantable cardioverter-defibrillator (ICD) is frequent despite antiarrhythmic drug therapy. The most effective approach to management of this problem is uncertain.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37380314",
+            "title": "Ventricular Tachycardia and ICD Therapy Burden With Catheter Ablation Versus Escalated Antiarrhythmic Drug Therapy.",
+            "authors": [
+              "Samuel Michelle",
+              "Healey Jeff S",
+              "Nault Isabelle",
+              "Sterns Laurence D",
+              "Essebag Vidal"
+            ],
+            "journal": "JACC. Clinical electrophysiology",
+            "year": "2023",
+            "abstract": "Catheter ablation improves ventricular tachycardia (VT) event-free (time to event) survival in patients with antiarrhythmic drug (AAD)-refractory VT and previous myocardial infarction (MI). The effects of ablation on recurrent VT and implantable cardioverter-defibrillator (ICD) therapy (burden) have yet to be investigated.",
+            "classification": {
+              "study_type": "RCT Secondary Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28900864",
+            "title": "Ventricular Tachycardia with ICD Shocks: When to Medicate and When to Ablate.",
+            "authors": [
+              "AbdelWahab Amir",
+              "Sapp John"
+            ],
+            "journal": "Current cardiology reports",
+            "year": "2017",
+            "abstract": "Ventricular tachycardia occurrence in implantable cardioverter defibrillator (ICD) patients may result in shock delivery and is associated with increased morbidity and mortality. In addition, shocks may have deleterious mechanical and psychological effects. Prevention of ventricular tachycardia (VT) recurrence with the use of antiarrhythmic drugs or catheter ablation may be warranted. Antiarrhythmic drugs are limited by incomplete efficacy and an unfavorable adverse effect profile. Catheter abla",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38649085",
+            "title": "A randomized clinical trial of catheter ablation and antiarrhythmic drug therapy for suppression of ventricular tachycardia in ischemic cardiomyopathy: The VANISH2 trial.",
+            "authors": [
+              "Sapp John L",
+              "Tang Anthony S L",
+              "Parkash Ratika",
+              "Stevenson William G",
+              "Healey Jeff S"
+            ],
+            "journal": "American heart journal",
+            "year": "2024",
+            "abstract": "Recurrent ventricular tachycardia (VT) in patients with prior myocardial infarction is associated with adverse quality of life and clinical outcomes, despite the presence of implanted defibrillators (ICDs). Suppression of recurrent VT can be accomplished with antiarrhythmic drug therapy or catheter ablation. The Ventricular Tachycardia Antiarrhythmics or Ablation In Structural Heart Disease 2 (VANISH2) trial is designed to determine whether ablation is superior to antiarrhythmic drug therapy as ",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20730062",
+            "title": "Amiodarone for the treatment and prevention of ventricular fibrillation and ventricular tachycardia.",
+            "authors": [
+              "Van Herendael Hugo",
+              "Dorian Paul"
+            ],
+            "journal": "Vascular health and risk management",
+            "year": "2010",
+            "abstract": "Amiodarone has emerged as the leading antiarrhythmic therapy for termination and prevention of ventricular arrhythmia in different clinical settings because of its proven efficacy and safety. In patients with shock refractory out-of-hospital cardiac arrest and hemodynamically destabilizing ventricular arrhythmia, amiodarone is the most effective drug available to assist in resuscitation. Although the superiority of the transvenous implantable cardioverter defibrillator (ICD) over amiodarone has ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33753276",
+            "title": "Amiodarone during ventricular tachycardia ablation: A total eclipse of the heart?",
+            "authors": [
+              "Sanchez José M",
+              "Tzou Wendy S"
+            ],
+            "journal": "Heart rhythm",
+            "year": "2021",
+            "abstract": "",
+            "classification": {
+              "study_type": "Review/Editorial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28978927",
+            "title": "Meta-analysis of the efficacies of amiodarone and nifekalant in shock-resistant ventricular fibrillation and pulseless ventricular tachycardia.",
+            "authors": [
+              "Sato Shiho",
+              "Zamami Yoshito",
+              "Imai Toru",
+              "Tanaka Satoshi",
+              "Koyama Toshihiro"
+            ],
+            "journal": "Scientific reports",
+            "year": "2017",
+            "abstract": "Amiodarone (AMD) and nifekalant (NIF) are used in the treatment of ventricular fibrillation or tachycardia; however, only few studies have been conducted on their efficacies. Therefore, a meta-analysis was conducted. Relevant sources were identified from PubMed, Cochrane Central Register of Controlled Trials, and Igaku Chuo Zasshi. The outcomes were short-term and long-term survival in patients with shock-resistant ventricular fibrillation /pulseless ventricular tachycardia. Thirty-three studies",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30084131",
+            "title": "Amiodarone for sustained stable ventricular tachycardia in the prehospital setting.",
+            "authors": [
+              "Foerster Christopher R",
+              "Andrew Emily",
+              "Smith Karen",
+              "Bernard Stephen"
+            ],
+            "journal": "Emergency medicine Australasia : EMA",
+            "year": "2018",
+            "abstract": "Amiodarone is commonly used in the treatment of stable ventricular tachycardia (VT), but its efficacy has not been empirically examined in the prehospital setting. The objective of this study was to examine the safety and efficacy of amiodarone administered by paramedics to patients with stable VT.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29759608",
+            "title": "Amiodarone for Suppression of Ventricular Tachycardia: When Less Is More.",
+            "authors": [
+              "Gerstenfeld Edward P",
+              "Walters Tomos"
+            ],
+            "journal": "JACC. Clinical electrophysiology",
+            "year": "2017",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36525170",
+            "title": "Association between amiodarone and ventricular tachycardia after left ventricular assist device implant: a single-center experience.",
+            "authors": [
+              "Larson John",
+              "Gondi Keerthi",
+              "Chou Andrew",
+              "Deshmukh Amrish",
+              "Cascino Thomas M"
+            ],
+            "journal": "Journal of interventional cardiac electrophysiology : an international journal of arrhythmias and pacing",
+            "year": "2023",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39863130",
+            "title": "A retrospective 'target trial emulation' comparing amiodarone and lidocaine for adult out-of-hospital cardiac arrest resuscitation.",
+            "authors": [
+              "Smida Tanner",
+              "Crowe Remle",
+              "Price Bradley S",
+              "Scheidler James",
+              "Martin P S"
+            ],
+            "journal": "Resuscitation",
+            "year": "2025",
+            "abstract": "The administration of amiodarone or lidocaine is recommended during the resuscitation of out-of-hospital cardiac arrest (OHCA) patients presenting with defibrillation-refractory or recurrent ventricular fibrillation or ventricular tachycardia. Our objective was to use 'target trial emulation' methodology to compare the outcomes of patients who received amiodarone or lidocaine during resuscitation.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38996090",
+            "title": "Oral amiodarone and propranolol in maintenance therapy of postimplantation tachycardia: An observational study.",
+            "authors": [
+              "Arslan Abdulla",
+              "Özkaya Öykü Gülmez",
+              "Aytemiz Fatih",
+              "Altay Hakan",
+              "Özcan Emin Evren"
+            ],
+            "journal": "Medicine",
+            "year": "2024",
+            "abstract": "Left ventricular assist devices (LVADs) are widely used as end-stage therapy in patients with advanced heart failure, whereas implantation increases the risks of development of sustained ventricular tachycardia at the later postimplantation stage. Therefore, this study aimed to evaluate the clinical efficacy of orally administered amiodarone and propranolol in 3 patients with ventricular tachycardia (VT) after LVAD implantation who were resistant to initial anti-antiarrhythmic drugs. This retros",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36075673",
+            "title": "Clinical Outcomes in Patients With Dilated Cardiomyopathy and Ventricular Tachycardia.",
+            "authors": [
+              "Zeppenfeld Katja",
+              "Wijnmaalen Adrianus P",
+              "Ebert Micaela",
+              "Baldinger Samuel H",
+              "Berruezo Antonio"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2022",
+            "abstract": "Recurrent ventricular tachycardia (VT) due to dilated cardiomyopathy (DCM) is difficult to treat, and long-term outcome data are limited.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36049809",
+            "title": "Slow Ventricular Tachycardia on Amiodarone: An Adverse Complication or an Efficacy Outcome.",
+            "authors": [
+              "Reiffel James A"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2022",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35030257",
+            "title": "Ventricular tachycardia characteristics and outcomes with catheter ablation vs. antiarrhythmic therapy: insights from the VANISH trial.",
+            "authors": [
+              "Deyell Marc W",
+              "Doucette Steve",
+              "Parkash Ratika",
+              "Nault Isabelle",
+              "Gula Lorne"
+            ],
+            "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+            "year": "2022",
+            "abstract": "Catheter ablation is superior to escalated antiarrhythmic drugs among patients with ventricular tachycardia (VT) and prior myocardial infarction (MI). However, it is uncertain whether clinical VT characteristics, should influence choice of therapy. The purpose of this study was to evaluate whether presentation with electrical storm and the clinical VT cycle length predicted response to ablation vs. escalated antiarrhythmic therapy.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9918445",
+            "title": "Intravenous amiodarone for ventricular arrhythmias: overview and clinical use.",
+            "authors": [
+              "Gonzalez E R",
+              "Kannewurf B S",
+              "Ornato J P"
+            ],
+            "journal": "Resuscitation",
+            "year": "1998",
+            "abstract": "Numerous pharmacological agents with varying cellular electrophysiological effects are available to treat cardiac arrhythmias. Amiodarone is predominantly a Vaughan Williams Class III agent, but also possesses electrophysiological characteristics of the other three Vaughan Williams classes (Class I and IV and minor Class II effects). Amiodarone's primary mechanism is to prolong the cardiac action potential and repolarization time leading to an increased refractory period and reduced membrane exc",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35422240",
+            "title": "Substrate Ablation vs Antiarrhythmic Drug Therapy for Symptomatic Ventricular Tachycardia.",
+            "authors": [
+              "Arenal Ángel",
+              "Ávila Pablo",
+              "Jiménez-Candil Javier",
+              "Tercedor Luis",
+              "Calvo David"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "2022",
+            "abstract": "In patients with ischemic cardiomyopathy and an implantable cardioverter-defibrillator (ICD), catheter ablation and antiarrhythmic drugs (AADs) reduce ICD shocks, but the most effective approach remains uncertain.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9137212",
+            "title": "Intravenous amiodarone.",
+            "authors": [
+              "Kowey P R",
+              "Marinchak R A",
+              "Rials S J",
+              "Filart R A"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1997",
+            "abstract": "Intravenous amiodarone was approved in 1995 for the treatment of malignant and resistant ventricular arrhythmia. Although it is an \"old drug,\" much has been learned recently about this complex drug and its application in a variety of cardiac arrhythmias. The objectives of this review were to summarize what is known about intravenous amiodarone, including its pharmacologic and electrophysiologic effects, to review its efficacy for the treatment of patients with highly malignant ventricular arrhyt",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Class III 抗心律不整藥：阻斷 IKr/IKs 延長動作電位持續時間（APD）及有效不反應期（ERP），同時具 INa 阻斷（Class I）、β 受體阻斷（Class II）、ICa,L 阻斷（Class IV）等多重機轉，有效抑制折返性及觸發性室性心搏過速。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "obsolete bundle branch block",
+      "txgnn": {
+        "score": 0.9958038926124572,
+        "rank": 5774
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "束支傳導阻滯為傳導系統解剖性或功能性受損，Amiodarone 的 INa 阻斷效應理論上可能延緩 His-Purkinje 傳導，對傳導阻滯為禁忌而非治療。高 TxGNN 分數可能反映知識圖譜中心臟電氣生理疾病的廣泛關聯偏差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9939557909965516,
+        "rank": 7411
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "34386321",
+            "title": "The influence of the gut microbiota on the bioavailability of oral drugs.",
+            "authors": [
+              "Zhang Xintong",
+              "Han Ying",
+              "Huang Wei",
+              "Jin Mingji",
+              "Gao Zhonggao"
+            ],
+            "journal": "Acta pharmaceutica Sinica. B",
+            "year": "2021",
+            "abstract": "Due to its safety, convenience, low cost and good compliance, oral administration attracts lots of attention. However, the efficacy of many oral drugs is limited to their unsatisfactory bioavailability in the gastrointestinal tract. One of the critical and most overlooked factors is the symbiotic gut microbiota that can modulate the bioavailability of oral drugs by participating in the biotransformation of oral drugs, influencing the drug transport process and altering some gastrointestinal prop",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37649377",
+            "title": "Diffuse Alveolar Hemorrhage Synergistically Induced by Amiodarone and Rheumatoid Arthritis.",
+            "authors": [
+              "Assad Ahmad",
+              "Alkhaldi Mohammad",
+              "Abrahamian Andrew",
+              "Yonel Brandon",
+              "Assaly Ragheb"
+            ],
+            "journal": "Journal of investigative medicine high impact case reports",
+            "year": "2023",
+            "abstract": "Diffuse alveolar hemorrhage (DAH) syndrome is characterized by bleeding into the alveolar spaces of the lungs and occurs when there is an injury to the alveolar microcirculation that leads to hemorrhage from the alveolar capillaries. We report a case of an 82-year-old woman who presented with acute respiratory distress. The patient had a history of rheumatoid arthritis (RA) and was on amiodarone for atrial fibrillation therapy. Initial diagnostic workup, including bronchoscopy and imaging studie",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18039017",
+            "title": "Palmar erythema.",
+            "authors": [
+              "Serrao Rocco",
+              "Zirwas Matthew",
+              "English Joseph C"
+            ],
+            "journal": "American journal of clinical dermatology",
+            "year": "2007",
+            "abstract": "Palmar erythema (PE), an often overlooked physical finding, is due to several physiologic or systemic pathologic states. PE can exist as a primary physiologic finding or as a secondary marker of systemic pathology. Primary or physiologic PE can be due to heredity, occurs in at least 30% of pregnant women as a result of associated alterations in the function of the skin and its microvasculature, or may be a diagnosis of exclusion (i.e. idiopathic PE). Secondary PE from systemic pathology encompas",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8174459",
+            "title": "Drug-induced pulmonary disease.",
+            "authors": [
+              "Rosenow E C"
+            ],
+            "journal": "Disease-a-month : DM",
+            "year": "1994",
+            "abstract": "Drug-induced disease of any system or organ can be associated with high morbidity and mortality, and it is tremendously costly to the health care of our country. More than 100 medications are known to affect the lungs adversely, including the airways in the form of cough and asthma, the interstitium with interstitial pneumonitis and noncardiac pulmonary edema, and the pleura with pleural effusions. Patients commonly do not even know what medications they are taking, do not bring them to the phys",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15195196",
+            "title": "Drug-induced pulmonary fibrosis.",
+            "authors": [
+              "Daba Mohammed H",
+              "El-Tahir Kamal E",
+              "Al-Arifi Mohammed N",
+              "Gubara Othman A"
+            ],
+            "journal": "Saudi medical journal",
+            "year": "2004",
+            "abstract": "Pulmonary fibrosis is characterized by the accumulation of excessive connective tissue in the lungs. Its causes include chronic administration of some drugs for example bleomycin, cyclophosphamide, amiodarone, procainamide, penicillamine, gold and nitrofurantoin; exposure to certain environmental factors such as gases, asbestos and silica and bacterial or fungal infections. Some systemic diseases also predispose to the disease for example rheumatoid arthritis and systemic lupus erythematosus. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25362778",
+            "title": "[Drug-induced interstitial lung diseases].",
+            "authors": [
+              "Bonniaud Philippe",
+              "Georges Marjolaine",
+              "Favrolt Nicolas",
+              "Camus Philippe"
+            ],
+            "journal": "La Revue du praticien",
+            "year": "2014",
+            "abstract": "Drug-induced infiltrative lung disease may manifest as variable clinical radiological patterns, including subacute or chronic interstitial pneumonia, pulmonary fibrosis, eosinophilic pneumonia, organising pneumonia, pulmonary edema, or sarcoidosis. A large amount of drugs have been incriminated, including those used in cardiovascular diseases (amiodarone, statins and angiotensin converting enzyme inhibitors), antibiotics (minocycline, nitrofurantoin), most of anticancer drugs (and especially che",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32476936",
+            "title": "Diffuse alveolar hemorrhage: how relevant is etiology?",
+            "authors": [
+              "Alexandre André Terras",
+              "Vale Artur",
+              "Gomes Teresa"
+            ],
+            "journal": "Sarcoidosis, vasculitis, and diffuse lung diseases : official journal of WASOG",
+            "year": "2019",
+            "abstract": "Diffuse Alveolar Hemorrhage (DAH) is a rare and potentially life-threatening clinical syndrome whose early recognition is essential.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9769999",
+            "title": "[Bronchiolitis obliterans with organizing pneumonia. Retrospective study of 19 cases].",
+            "authors": [
+              "Moreau L",
+              "Quoix E",
+              "Vandevenne A",
+              "Dietemann A",
+              "Kessler R"
+            ],
+            "journal": "Revue de pneumologie clinique",
+            "year": "1998",
+            "abstract": "We report a series of 19 cases of bronchiolitis obliterans with organized pneumonitis (BOOP) observed in two pneumology units at the Strasbourg University Hospital between July 1987 and June 1997. Mean patient age was 60 years. Clinical features included dry cough, exercise-induced dyspnea, and a flu-like syndrome in three-quarters of the cases. Standard chest x-ray showed a diffuse non-systemized alveolar syndrome with a air bronchogram in 18 cases and an interstitial syndrome in one-third of t",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32785936",
+            "title": "Management of cardiac arrhythmias in patients with autoimmune disease-Insights from EHRA Young Electrophysiologists.",
+            "authors": [
+              "Gawałko Monika",
+              "Peller Michał",
+              "Balsam Paweł",
+              "Grabowski Marcin",
+              "Kosiuk Jędrzej"
+            ],
+            "journal": "Pacing and clinical electrophysiology : PACE",
+            "year": "2020",
+            "abstract": "Since arrhythmia treatment in patients with autoimmune disease (AD) is challenging, we aimed to assess the common \"real-world\" practice in the electrophysiology centers.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25176967",
+            "title": "Differential diagnosis of usual interstitial pneumonia: when is it truly idiopathic?",
+            "authors": [
+              "Wuyts Wim A",
+              "Cavazza Alberto",
+              "Rossi Giulio",
+              "Bonella Francesco",
+              "Sverzellati Nicola"
+            ],
+            "journal": "European respiratory review : an official journal of the European Respiratory Society",
+            "year": "2014",
+            "abstract": "Idiopathic pulmonary fibrosis (IPF), the most common and lethal of the idiopathic interstitial pneumonias, is defined by a radiological and/or pathological pattern of usual interstitial pneumonia (UIP). However, UIP is not synonymous with IPF as other clinical conditions may be associated with UIP, including chronic hypersensitivity pneumonitis, collagen vascular disease, drug toxicity, asbestosis, familial IPF and Hermansky-Pudlak syndrome. Differentiating IPF (\"idiopathic UIP\") from conditions",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20022196",
+            "title": "Lewis lead enhances atrial activity detection in wide QRS tachycardia.",
+            "authors": [
+              "Rodrigues de Holanda-Miranda Wallace",
+              "Furtado Felipe Magalhães",
+              "Luciano Paula Menezes",
+              "Pazin-Filho Antonio"
+            ],
+            "journal": "The Journal of emergency medicine",
+            "year": "2012",
+            "abstract": "The differential diagnosis of wide QRS tachycardia is a challenge for the emergency physician. The major tool is the electrocardiogram (ECG), even though the sensitivity and specificity may be variable, depending on presentation. Additional leads could be used to improve the diagnostic accuracy of the ECG.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34664888",
+            "title": "Premature atrial contractions with multiple patterns of aberrant conduction followed by torsade de pointes in a patient with polymyalgia rheumatica: A case report.",
+            "authors": [
+              "Takahashi Koji",
+              "Yamashita Mina",
+              "Sakaue Tomoki",
+              "Enomoto Daijiro",
+              "Uemura Shigeki"
+            ],
+            "journal": "Medicine",
+            "year": "2021",
+            "abstract": "Recent studies have shown that QT interval prolongation is associated with disease severity and predicts mortality in systemic inflammatory diseases, particularly rheumatoid arthritis. Systemic pro-inflammatory cytokines released from synovial tissues in rheumatoid arthritis, such as interleukin (IL)-1β, IL-6, and tumor necrosis factor-α, could have direct effects on cardiac electrophysiology, particularly changes in the expression and function of potassium and calcium channels, resulting in QT ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18397693",
+            "title": "Septic shock and community-acquired pneumonia associated with etanercept therapy.",
+            "authors": [
+              "Nuñez-Cornejo C",
+              "Borrás-Blasco J",
+              "Gracia-Perez A",
+              "Rosique-Robles J D",
+              "Lopez-Camps V"
+            ],
+            "journal": "International journal of clinical pharmacology and therapeutics",
+            "year": "2008",
+            "abstract": "To report a case of septic shock and community-acquired pneumonia in a patient with psoriatic arthritis receiving treatment with etanercept. PATIENT DETAILS: A 65-year-old woman diagnosed as having psoriatic arthritis had received treatment with etanercept. Chest X-ray studies were normal and the tuberculin skin test was negative. Two months after etanercept therapy, the patient presented to our emergency department with fever, cough, chest pain and generalized weakness. Chest radiography reveal",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32493475",
+            "title": "A randomized multicenter clinical trial to evaluate the efficacy of melatonin in the prophylaxis of SARS-CoV-2 infection in high-risk contacts (MeCOVID Trial): A structured summary of a study protocol for a randomised controlled trial.",
+            "authors": [
+              "García Irene García",
+              "Rodriguez-Rubio Miguel",
+              "Mariblanca Amelia Rodríguez",
+              "de Soto Lucía Martínez",
+              "García Lucía Díaz"
+            ],
+            "journal": "Trials",
+            "year": "2020",
+            "abstract": "Primary objective: to evaluate the efficacy of melatonin as a prophylactic treatment on prevention of symptomatic SARS-CoV-2 infection among healthcare workers at high risk of SARS-CoV-2 exposure. Secondary objectives: To evaluate the efficacy of melatonin as a prophylactic treatment on prevention of asymptomatic SARS-CoV-2 infection.To evaluate the efficacy of melatonin to prevent the development of severe COVID-19 in the participants enrolled in this study who develop SARS-CoV-2 infection alon",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7094952",
+            "title": "Amiodaron neuropathy: further arguments for human drug-induced neurolipidosis.",
+            "authors": [
+              "Lemaire J F",
+              "Autret A",
+              "Biziere K",
+              "Romet-Lemone J L",
+              "Gray F"
+            ],
+            "journal": "European neurology",
+            "year": "1982",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10685456",
+            "title": "[Bronchiolitis obliterans with organized pneumonia: a rare complication of primary Gougerot-Sjögren syndrome].",
+            "authors": [
+              "Lambert M",
+              "Hebbar M",
+              "Viget N",
+              "Hatron P Y",
+              "Hachulla E"
+            ],
+            "journal": "La Revue de medecine interne",
+            "year": "2000",
+            "abstract": "Bronchiolitis obliterans organizing pneumonia (BOOP) is characterized by plugs of granulation tissue in bronchioles, alveolar ducts and alveoli. This pulmonary disorder has been reported in some cases in relation to drug consumption (D-penicillamine, amiodarone), with bacterial or viral infections (Mycoplasma pneumoniae, HIV), and with systemic diseases, such as rheumatoid arthritis. To our knowledge, only three cases of association BOOP-Sjögren's syndrome have been reported.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "408555",
+            "title": "[Indomethacin induced corneal deposits (author's transl)].",
+            "authors": [
+              "Tillmann W",
+              "Keitel L"
+            ],
+            "journal": "Klinische Monatsblatter fur Augenheilkunde",
+            "year": "1977",
+            "abstract": "After a summary of corneal changes, caused by drugs (gold, Chloroquine, Phenothiazines, Amiodaron), a personal case of indomethacin induced deposits is described. The chief characteristic was was a ring-shaped formation of the grey-whitish lines in the epithelium. A retinopathy was not present.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17144587",
+            "title": "[A case of rheumatoid lung complicated by SELAPINA-induced pneumonia].",
+            "authors": [
+              "Nakayama Seiko",
+              "Mukae Hiroshi",
+              "Ishimatsu Yuji",
+              "Sugiyama Kanako",
+              "Ide Mioko"
+            ],
+            "journal": "Nihon Kokyuki Gakkai zasshi = the journal of the Japanese Respiratory Society",
+            "year": "2006",
+            "abstract": "SELAPINA is generic product of PL granule which is one of the most common forms of combination remedies for the common cold in Japan, and includes acetaminophen. We report a case of SELAPINA-induced pneumonia successfully treated with glucocorticoid pulse therapy followed by orally administered prednisolone. A 68-year-old woman, who had been treated for rheumatoid arthiritis with pulmonary involvement, took SELAPINA with an antibiotic for 6 days because of her cold symptoms. She then suffered a ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amiodarone 無已知抗類風濕機轉。文獻中 Amiodarone 與 RA 的關聯主要為：(1) 共同引起肺毒性（PMID 37649377：兩者協同誘發 DAH）；(2) RA 患者心律不整共病管理（PMID 32785936）；(3) 藥物性間質性肺病鑑別診斷。TxGNN 高分可能反映 RA 患者高心血管共病率導致的知識圖譜關聯，而非治療關係。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "brachydactyly-syndactyly syndrome",
+      "txgnn": {
+        "score": 0.9938499331474304,
+        "rank": 7483
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "短指-並指症候群為基因突變（HRAS 等）導致的先天性骨骼發育異常，與 Amiodarone 的離子通道藥理無任何已知連結。此高分預測為知識圖譜假陽性，不具藥物再利用價值。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "heparin cofactor 2 deficiency",
+      "txgnn": {
+        "score": 0.99358069896698,
+        "rank": 7753
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "肝素輔因子 II 缺乏症為 SERPIND1 基因突變導致的血栓傾向疾病。Amiodarone 具有可能增加出血風險（與 Warfarin 交互作用）的特性，但對凝血因子本身無直接治療效果，此預測為知識圖譜假陽性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "trichotillomania",
+      "txgnn": {
+        "score": 0.9930102229118348,
+        "rank": 8226
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "拔毛症為 GABA/麩胺酸/血清素系統失調相關的衝動控制障礙，與 Amiodarone 之心臟電氣生理機轉無任何已知連結。此預測為知識圖譜嚴重假陽性，完全不具再利用潛力。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "txgnn": {
+        "score": 0.99255108833313,
+        "rank": 8596
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此症候群為先天性眼部缺損合併肢體短縮的罕見遺傳發育疾病，與 Amiodarone 抗心律不整機轉完全無關。此預測為知識圖譜假陽性，TxGNN 高分可能反映稀疏圖譜節點的過度關聯問題。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "gout",
+      "txgnn": {
+        "score": 0.9919252991676332,
+        "rank": 9087
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2866044",
+            "title": "[Cataracts].",
+            "authors": [
+              "Hachet E"
+            ],
+            "journal": "Bulletin des societes d'ophtalmologie de France",
+            "year": "1985",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40175395",
+            "title": "Simultaneous determination of lesinurad and co-administered drugs used in management of gout comorbidities to uncover potential pharmacokinetic interaction in rat plasma.",
+            "authors": [
+              "Khalil Hadeel A",
+              "El-Yazbi Amira F",
+              "El-Kimary Eman I",
+              "Elrewiny Mohamed A",
+              "El-Yazbi Ahmed F"
+            ],
+            "journal": "Scientific reports",
+            "year": "2025",
+            "abstract": "Gout is one of the most prevalent forms of arthritis that is usually accompanied by other comorbidities. For this reason, multiple drugs are routinely prescribed for gout patients, which may affect the clinical course outcomes, and increase the risk of drug-drug interactions. This work presents a novel, simple, and sensitive high performance liquid chromatography (HPLC) method for the simultaneous determination of lesinurad (LES) and other co-administered drugs that are subject to potential phar",
+            "classification": {
+              "study_type": "Analytical Study",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21365557",
+            "title": "[Rhabdomyolysis associated with atorvastatin combined with amiodarone and fluconazole].",
+            "authors": [
+              "Franz C C",
+              "Bruggisser M",
+              "Krähenbühl S",
+              "Rätz Bravo A E"
+            ],
+            "journal": "Praxis",
+            "year": "2011",
+            "abstract": "A 67-year old man was hospitalized due to an aorto-coronary bypass and cecal perforation. After administration of atorvastatin, amiodarone, and fluconazole, rhabdomyolysis developed with electrolyte disturbances (hyperphosphatemia, hyopcalcemia) and a massive increase in creatine kinase and myoglobin. In the clinical course, other complications manifested such as acute renal failure, critical illness myopathy, acute gout on the knee, and sternal infection with coagulase-negative staphylococci. A",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16138497",
+            "title": "Three clinical problems: weird thyroid function tests, difficult gout, and dementia.",
+            "authors": [
+              "Fry Andrew",
+              "Vanderpump Mark",
+              "Doherty Michael",
+              "Kennedy Angus",
+              "Firth John"
+            ],
+            "journal": "Clinical medicine (London, England)",
+            "year": "2005",
+            "abstract": "Speakers at the course were given vignettes describing one or more clinical scenarios on which to base their talks, selected because they represent common but challenging problems likely to be encountered by any physician practising in general internal medicine. Three of the subjects covered--weird thyroid function tests, difficult gout, and dementia--are presented here.",
+            "classification": {
+              "study_type": "Case Discussion",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25907076",
+            "title": "Prescription sequence symmetry analysis: assessing risk, temporality, and consistency for adverse drug reactions across datasets in five countries.",
+            "authors": [
+              "Pratt Nicole",
+              "Chan Esther W",
+              "Choi Nam-Kyong",
+              "Kimura Michio",
+              "Kimura Tomomi"
+            ],
+            "journal": "Pharmacoepidemiology and drug safety",
+            "year": "2015",
+            "abstract": "Prescription sequence symmetry analysis (PSSA) is a signal detection method for adverse drug events. Its capacity to consistently detect adverse drug events across different settings has not been tested. We aimed to determine the consistency of PSSA results for detecting positive and negative control adverse drug events across different settings.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19734738",
+            "title": "Short term treatment with clarithromycin resulting in colchicine-induced rhabdomyolysis.",
+            "authors": [
+              "McKinnell James",
+              "Tayek John A"
+            ],
+            "journal": "Journal of clinical rheumatology : practical reports on rheumatic & musculoskeletal diseases",
+            "year": "2009",
+            "abstract": "A case of colchicine-induced rhabdomyolysis is reported. A 48 year old African-American male with history of hypertension and chronic gout on colchicine 0.6 mg daily presented with symptoms of a community acquired pneumonia. The patient was started on 500 mg of clarithromycin orally twice daily and represented to the emergency room after 3 days complaining of severe muscle pain. His liver panel showed elevations in the serum aminotransferases; AST 513 mU/ml (nl 15-41) and ALT 182 mU/ml (nl 17-63",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26342297",
+            "title": "Increase in thyroid stimulating hormone levels in patients with gout treated with inhibitors of xanthine oxidoreductase.",
+            "authors": [
+              "Perez-Ruiz Fernando",
+              "Chinchilla Sandra Pamela",
+              "Atxotegi Joana",
+              "Urionagüena Irati",
+              "Herrero-Beites Ana Maria"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2015",
+            "abstract": "Increase in thyroid stimulating hormone (TSH) levels over the upper normal limit has been reported in a small percentage of patients treated with febuxostat in clinical trials, but a mechanistic explanation is not yet available. In an observational parallel longitudinal cohort study, we evaluated changes in TSH levels in patients with gout at baseline and during urate-lowering treatment with febuxostat. Patients to be started on allopurinol who had a measurement of TSH in the 6-month period prio",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12514148",
+            "title": "Successful use of iv diltiazem to control perioperative refractory complex atrial tachyarrhythmias in a patient with pneumoconiosis.",
+            "authors": [
+              "Tsou Chi-Hsiang",
+              "Chiang Chern-En",
+              "Liou Jiing-Tarng",
+              "Hsin Shi-Tai",
+              "Luk Hsiang-Ning"
+            ],
+            "journal": "Canadian journal of anaesthesia = Journal canadien d'anesthesie",
+            "year": "2003",
+            "abstract": "To present a patient with pneumoconiosis who developed a complex, life-threatening atrial tachyarrhythmia during anesthesia. Intravenous diltiazem was effective in controlling the ventricular rate and hemodynamics after failure of other antiarrhythmic drugs and direct current cardioversion.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23156592",
+            "title": "[Drug induced peripheral neuropathy].",
+            "authors": [
+              "Matsumoto Hideyuki",
+              "Ugawa Yoshikazu"
+            ],
+            "journal": "Nihon rinsho. Japanese journal of clinical medicine",
+            "year": "2012",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amiodarone 無已知降尿酸或抗痛風機轉。文獻關聯主要為：(1) 甲狀腺功能異常影響嘌呤代謝（PMID 26342297）；(2) 藥物交互作用如與 Colchicine/Atorvastatin 的 DDI 問題（PMID 21365557, 19734738）；(3) 藥物血清學異常鑑別（PMID 16138497）。高 TxGNN 分數可能源於 Amiodarone 使用族群（老年心臟病患）痛風共病率高，造成統計關聯偏差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "catecholaminergic polymorphic ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 10,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "incessant infant ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "ventricular tachycardia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "obsolete bundle branch block"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "brachydactyly-syndactyly syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "heparin cofactor 2 deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "trichotillomania"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "trichotillomania"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "trichotillomania"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Amiodarone",
+        "disease": "gout"
+      },
+      "result_status": "success",
+      "result_count": 9,
+      "notes": ""
+    }
+  ]
+}

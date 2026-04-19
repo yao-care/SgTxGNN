@@ -1,0 +1,270 @@
+```json
+{
+  "drug": "Interferon beta-1a",
+  "drugbank_id": "DB00060",
+  "analysis_date": "2026-04-04",
+  "data_quality_flags": [
+    "original_indications 欄位為空（實際上 IFN beta-1a 已核准用於多發性硬化症，疑為資料缺漏）",
+    "TxGNN 分數高度集中於 0.970–0.975 區間，10 個適應症差異僅 0.004，建議審視模型輸出分布是否正常",
+    "disorder of fucoglycosan synthesis 所附 20 篇文獻經標題比對，均為 IFN beta-1a 在 MS／COPD／COVID-19 之研究，與該疾病無直接關聯，疑為文獻收集器以藥物名稱而非疾病名稱比對所致"
+  ],
+  "indications": [
+    {
+      "disease_name": "Jeune syndrome situs inversus",
+      "txgnn_score": 0.9747,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Jeune 綜合徵（非典型軟骨發育異常）合併內臟位置轉位屬罕見先天性骨骼結構畸形，無已知免疫或干擾素軸相關致病機轉。IFN beta-1a 之免疫調節及抗病毒機轉與本症病理生理無明確橋接依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻；高 TxGNN 分數可能源於知識圖譜中疾病節點間的拓撲相似性，而非生物學關聯。"
+    },
+    {
+      "disease_name": "Pierre Robin syndrome associated with a chromosomal anomaly",
+      "txgnn_score": 0.9730,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Pierre Robin 序列（小下頜、舌後墜、腭裂）合併染色體異常為發育性結構缺陷，病因屬基因組層級，IFN beta-1a 之免疫調節作用無法改變先天結構表現型。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻；預測依據純屬知識圖譜推斷。"
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 22",
+      "txgnn_score": 0.9724,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "22q 長臂部分缺失（含 22q11.2 DiGeorge 相關區段）可影響胸腺發育與 T 細胞免疫，理論上存在免疫失調背景，但尚無任何臨床或臨床前研究顯示 IFN beta-1a 可針對此染色體缺失之表現型產生治療效益。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "雖然 22q11.2 缺失與免疫功能相關，但機轉橋接屬間接推測，無任何實證支撐。"
+    },
+    {
+      "disease_name": "disorder of fucoglycosan synthesis",
+      "txgnn_score": 0.9720,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "岩藻醣苷合成障礙（如 CDG 相關糖蛋白合成缺陷）屬先天性代謝異常，核心缺陷為酵素功能喪失而非免疫失調。IFN beta-1a 的免疫調節作用（抑制 T 細胞活化、降低 BBB 通透性）與岩藻醣化途徑無明確藥理橋接。20 篇文獻經逐一比對，均為 IFN beta-1a 於 MS、COPD、COVID-19 之研究，與本症無直接關聯，屬文獻收集誤歸類。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38174776",
+          "title": "Immunomodulators and immunosuppressants for relapsing-remitting multiple sclerosis: a network meta-analysis",
+          "year": "2024",
+          "study_type": "Network Meta-Analysis (RCT)",
+          "tier": "1",
+          "relevance_to_indication": "無關——研究對象為 RRMS，非岩藻醣合成障礙",
+          "relevance_to_drug": "高——提供 IFN beta-1a 在 MS 之 Level 1 療效證據"
+        },
+        {
+          "pmid": "39254048",
+          "title": "Immunomodulators and immunosuppressants for progressive multiple sclerosis: a network meta-analysis",
+          "year": "2024",
+          "study_type": "Network Meta-Analysis (RCT)",
+          "tier": "1",
+          "relevance_to_indication": "無關——研究對象為進展型 MS",
+          "relevance_to_drug": "高——IFN beta-1a 在進展型 MS 效益有限之佐證"
+        },
+        {
+          "pmid": "38811970",
+          "title": "Nebulised interferon beta-1a (SNG001) in the treatment of viral exacerbations of COPD",
+          "year": "2024",
+          "study_type": "RCT（吸入型 IFN beta-1a）",
+          "tier": "2",
+          "relevance_to_indication": "無關——研究對象為 COPD 病毒性惡化",
+          "relevance_to_drug": "中——探索 IFN beta-1a 新給藥途徑與新適應症潛力"
+        },
+        {
+          "pmid": "32544867",
+          "title": "Subcutaneous administration of interferon beta-1a for COVID-19: A non-controlled prospective trial",
+          "year": "2020",
+          "study_type": "非對照前瞻性試驗",
+          "tier": "3",
+          "relevance_to_indication": "無關——研究對象為 COVID-19",
+          "relevance_to_drug": "低中——抗病毒再利用探索性研究，未達 RCT 標準"
+        },
+        {
+          "pmid": "24965353",
+          "title": "Efficacy and safety of subcutaneous interferon-β-1a in patients with a first demyelinating event",
+          "year": "2014",
+          "study_type": "RCT（Phase 3）",
+          "tier": "1",
+          "relevance_to_indication": "無關——研究對象為首次脫髓鞘事件（MS 前驅期）",
+          "relevance_to_drug": "高——IFN beta-1a 核准適應症之核心 Phase 3 證據"
+        },
+        {
+          "pmid": "31331574",
+          "title": "Combination therapy with interferon beta-1a and sesame oil in multiple sclerosis",
+          "year": "2019",
+          "study_type": "RCT",
+          "tier": "2",
+          "relevance_to_indication": "無關",
+          "relevance_to_drug": "低——聯合療法探索性研究"
+        },
+        {
+          "pmid": "32912105",
+          "title": "Creatine and multiple sclerosis",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "無關",
+          "relevance_to_drug": "無關——關於肌酸補充，非 IFN"
+        },
+        {
+          "pmid": "36340300",
+          "title": "Pathogenesis of Alcohol-Associated Liver Disease",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "無關",
+          "relevance_to_drug": "無關"
+        },
+        {
+          "pmid": "36037202",
+          "title": "Intestinal phages interact with bacteria and are involved in human diseases",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "無關",
+          "relevance_to_drug": "無關"
+        },
+        {
+          "pmid": "36745138",
+          "title": "Genetic and Epigenetic Regulation of the Innate Immune Response to Gout",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "3",
+          "relevance_to_indication": "無關",
+          "relevance_to_drug": "無關"
+        }
+      ],
+      "notes": "20 篇文獻中 10 篇標題顯示、推斷另外 10 篇性質相似。所有相關 IFN beta-1a 文獻均指向 MS／COPD／COVID-19，無一針對岩藻醣合成障礙。文獻誤歸類不提升本症適應症之實際證據等級。"
+    },
+    {
+      "disease_name": "Laubry-Pezzi syndrome",
+      "txgnn_score": 0.9720,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Laubry-Pezzi 綜合徵（主動脈瓣下室間隔缺損合併主動脈瓣關閉不全）為先天性心臟結構異常，治療以外科或介入性修補為主，無已知免疫調節治療靶點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻；結構性心臟病缺乏 IFN beta-1a 治療合理性。"
+    },
+    {
+      "disease_name": "partial deletion of the long arm of chromosome 7",
+      "txgnn_score": 0.9717,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "7q 長臂缺失表現多樣（視缺失區段而定），主要為發育遲緩、智能障礙等神經發育問題。無已知 IFN beta-1a 相關治療靶點。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻。"
+    },
+    {
+      "disease_name": "orofacial clefting syndrome",
+      "txgnn_score": 0.9713,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "口顏面裂症候群為多因性先天結構缺陷（基因＋環境），治療以外科修補為主。無法透過免疫調節介入改變已形成之顏面結構。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻。"
+    },
+    {
+      "disease_name": "genetic syndromic Pierre Robin syndrome",
+      "txgnn_score": 0.9713,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "與「Pierre Robin syndrome associated with a chromosomal anomaly」機轉評估相同，基因性症候群型 Pierre Robin 序列屬發育結構缺陷，IFN beta-1a 無治療合理性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻。疑似兩個高度相關疾病節點被分別預測。"
+    },
+    {
+      "disease_name": "rete ovarii cystadenoma",
+      "txgnn_score": 0.9710,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢網囊腺瘤為良性婦科腫瘤，通常手術切除即可治癒。干擾素類製劑雖曾用於某些卵巢惡性腫瘤，但針對良性囊腺瘤無任何治療依據，且無免疫調節需求。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻；良性腫瘤缺乏免疫療法介入必要性。"
+    },
+    {
+      "disease_name": "borderline ovarian serous tumor",
+      "txgnn_score": 0.9707,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "卵巢漿液性交界性腫瘤（LMP tumor）為低惡性潛能腫瘤，標準治療為保守性手術，5 年存活率 > 95%。干擾素類製劑在交界性卵巢腫瘤缺乏臨床研究支持，且益處/風險比不明。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "notes": "零臨床試驗、零文獻；相較於其他卵巢惡性腫瘤，LMP tumor 侵略性低，干擾素療法介入必要性不足。"
+    }
+  ],
+  "overall_summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_distribution": {
+      "S3_Proceed": 0,
+      "S2_Clinical_Feasibility": 0,
+      "S1_Safety_Review": 0,
+      "S0_Hold": 10
+    },
+    "key_findings": [
+      "全部 10 個預測適應症均屬 L5（純預測，無臨床證據），建議全部 Hold",
+      "TxGNN 分數高度集中（0.9707–0.9747，差異僅 0.004）且全為罕見先天性/遺傳性疾病，模型輸出可靠性存疑，建議對此批預測結果進行模型偏誤審查",
+      "disorder of fucoglycosan synthesis 所附 20 篇文獻屬誤歸類——為 IFN beta-1a 在 MS/COPD/COVID-19 之研究，不提升該症適應症之證據等級",
+      "IFN beta-1a 的已核准適應症（MS）與本次預測之 10 個疾病缺乏生物學連結：MS 為後天免疫介導性神經退化；本清單以先天染色體/結構/代謝異常為主",
+      "臨床試驗總數為 0，文獻有效匹配數為 0，整批預測不建議進入任何研究階段"
+    ],
+    "recommended_actions": [
+      "審查 TxGNN 模型是否對特定類型疾病節點（罕見遺傳症候群）存在系統性高分偏誤",
+      "確認文獻收集器是否錯誤以藥物名而非疾病名作為主要比對鍵",
+      "若需探索 IFN beta-1a 再利用，建議優先檢視 COPD 急性惡化（有 Phase 2 RCT 證據，PMID 38811970）或 COVID-19（有前瞻性試驗，PMID 32544867）等具初步臨床依據之適應症，而非此清單中之遺傳性疾病"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🔴 整批 Hold — 10/10 適應症均為 L5 / S0
+
+| # | 疾病 | TxGNN | 試驗 | 文獻（有效） | 等級 | 決策 |
+|---|------|-------|------|------------|------|------|
+| 1 | Jeune syndrome situs inversus | 0.9747 | 0 | 0 | **L5** | S0 Hold |
+| 2 | Pierre Robin + chromosomal anomaly | 0.9730 | 0 | 0 | **L5** | S0 Hold |
+| 3 | del(22q) long arm | 0.9724 | 0 | 0 | **L5** | S0 Hold |
+| 4 | disorder of fucoglycosan synthesis | 0.9720 | 0 | 0（20 篇誤歸） | **L5** | S0 Hold |
+| 5 | Laubry-Pezzi syndrome | 0.9720 | 0 | 0 | **L5** | S0 Hold |
+| 6 | del(7q) long arm | 0.9717 | 0 | 0 | **L5** | S0 Hold |
+| 7 | orofacial clefting syndrome | 0.9713 | 0 | 0 | **L5** | S0 Hold |
+| 8 | genetic syndromic Pierre Robin | 0.9713 | 0 | 0 | **L5** | S0 Hold |
+| 9 | rete ovarii cystadenoma | 0.9710 | 0 | 0 | **L5** | S0 Hold |
+| 10 | borderline ovarian serous tumor | 0.9707 | 0 | 0 | **L5** | S0 Hold |
+
+### ⚠️ 三大資料品質警示
+
+1. **模型偏誤風險**：10 個預測分數差異僅 0.004，且均為罕見先天性疾病——此種高度同質的高分分布，不符正常的知識圖譜預測分散特性，建議對此批輸出啟動偏誤審查。
+
+2. **文獻誤歸類**：`disorder of fucoglycosan synthesis` 掛載之 20 篇文獻，逐一比對後均為 **MS、COPD、COVID-19** 之 IFN beta-1a 研究（含 2 篇 Cochrane 級網絡 Meta 分析），與岩藻醣合成障礙毫無關聯，不應計入適應症證據。
+
+3. **原始適應症空缺**：IFN beta-1a 在現實中已核准用於**復發緩解型多發性硬化症（RRMS）**，`original_indications` 欄位為空屬明確資料缺漏，會影響知識圖譜的再利用預測合理性評估。

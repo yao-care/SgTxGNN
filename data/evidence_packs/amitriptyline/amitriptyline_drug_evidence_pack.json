@@ -1,0 +1,3332 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00321-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Amitriptyline",
+    "drugbank_id": "DB00321",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "benign paroxysmal torticollis of infancy",
+      "txgnn": {
+        "score": 0.9772295951843262,
+        "rank": 18324
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Benign paroxysmal torticollis of infancy（嬰兒良性發作性斜頸，BPTI）被分類為兒童偏頭痛等效症（migraine equivalent），與 CACNA1A 鈣通道基因相關。Amitriptyline 雖用於成人及部分兒童偏頭痛預防（Na⁺ 通道阻斷及 5-HT 系統調節），但直接針對 BPTI 之臨床證據完全缺乏。TxGNN 高分（0.977）可能源於圖譜中 migraine-BPTI 共享節點之間接連結，屬計算推論而非臨床驗證。此外，此診斷之患者年齡（嬰幼兒）使 amitriptyline 之安全性評估更為複雜。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "endogenous depression",
+      "txgnn": {
+        "score": 0.9770968556404114,
+        "rank": 18385
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study（量表信效度，1988）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "400982",
+            "title": "Pharmacokinetics and pharmacodynamics of amitriptyline in depression.",
+            "authors": [
+              "Coppen A",
+              "Ghose K",
+              "Jørgensen A"
+            ],
+            "journal": "Progress in neuro-psychopharmacology",
+            "year": "1979",
+            "abstract": "1. The therapeutic effect and pharmacokinetics of amitriptyline were assessed in thirty-five patients suffering from primary depressive illness during inpatient treatment. 2. Contrary to our previous study, no significant correlation was obtained between the plasma concentrations of amitriptyline, nortriptyline or total tricyclics with Hamilton rating score at 6 weeks or percentage improvement after 6 weeks treatment. 3. There was also no correlation with the plasma concentrations of tricyclics ",
+            "classification": {
+              "study_type": "PK/PD Study（amitriptyline 藥動學，1979）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7212100",
+            "title": "Sleep and treatment prediction in endogenous depression.",
+            "authors": [
+              "Kupfer D J",
+              "Spiker D G",
+              "Coble P A",
+              "Neil J F",
+              "Ulrich R"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1981",
+            "abstract": "The prediction of clinical response in depression has been based primarily on clinical symptoms and history. Recently, psychobiologic measures have been used to increase the accuracy of clinical prediction. In 34 drug-free patients with primary endogenous depression treated with amitriptyline, the application of EEG-monitored sleep criteria alone was more significant than clinical status alone in the prediction of clinical response. Prolonged REM latency and reduced difficulty in sleep onset fol",
+            "classification": {
+              "study_type": "RCT（睡眠參數與 endogenous depression 治療預測，1981）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1960381",
+            "title": "A comparison of fluoxetine and amitriptyline in the treatment of major depression.",
+            "authors": [
+              "Keegan D",
+              "Bowen R C",
+              "Blackshaw S",
+              "Saleh S",
+              "Dayal N"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1991",
+            "abstract": "Fluoxetine, a new serotonin uptake blocking antidepressant, was compared with amitriptyline in a double-blind study. Patients were diagnosed as having major depression, according to DSM-III criteria, when interviewed with the Diagnostic Interview Schedule. There was significant improvement in patient and observer ratings of depression in both groups, with no difference between groups. Recent memory improved significantly in the fluoxetine group but not in the amitriptyline group. Numbers of pati",
+            "classification": {
+              "study_type": "RCT（fluoxetine vs amitriptyline，1991）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6452798",
+            "title": "A double blind comparison of zimelidine and amitriptyline in endogenous depression.",
+            "authors": [
+              "Montgomery S A",
+              "McAuley R",
+              "Rani S J",
+              "Roy D",
+              "Montgomery D B"
+            ],
+            "journal": "Acta psychiatrica Scandinavica. Supplementum",
+            "year": "1981",
+            "abstract": "In a randomized double-blind group comparison study of 40 patients with endogenous depression zimelidine appeared to be as effective an antidepressant as amitriptyline at 4 and 6 weeks using the Hamilton Rating Scale (HRS) and the Montgomery and Asberg Depression Rating Scale (MADRS). At 2 weeks there was a significantly better response (P less than 0.05) on zimelidine compared to amitriptyline on the clinician's global scale and 4 out of 10 items on the MADRS suggesting an early onset of action",
+            "classification": {
+              "study_type": "RCT（double-blind，zimelidine vs amitriptyline in endogenous depression，1981）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7007357",
+            "title": "Amoxapine and amitriptyline in the outpatient treatment of endogenous depression.",
+            "authors": [
+              "Donlon P T",
+              "Biertuemphel H",
+              "Willenbring M"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1981",
+            "abstract": "This double-blind investigation compared onset of action, efficacy, and safety of amoxapine and amitriptyline in 46 endogenously depressed outpatients. Statistical analysis demonstrated relatively few significant differences in improvement between the two groups. Most of the differences favored amoxapine, however, and on all measures there were clear trends favoring amoxapine for more rapid onset of action or greater overall efficacy or both.",
+            "classification": {
+              "study_type": "RCT（amoxapine vs amitriptyline 在 endogenous depression 門診，1981）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6461690",
+            "title": "Lithium + L-tryptophan compared with amitriptyline in endogenous depression.",
+            "authors": [
+              "Honoré P",
+              "Møller S E",
+              "Jørgensen A"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1982",
+            "abstract": "Endogenously depressed in-patients were treated for four weeks with either lithium + L-tryptophan (N = 22) or amitriptyline (N = 21) in an open study. Before and weekly during treatment the patients were evaluated by means of Hamilton rating scale, and blood samples were collected for determination of serum concentration of lithium, or amitriptyline and nortriptyline. Both groups responded significantly and the two treatments were not significantly different in antidepressive efficacy. No signif",
+            "classification": {
+              "study_type": "RCT（lithium + L-tryptophan vs amitriptyline in endogenous depression，1982）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7052009",
+            "title": "Response to phenelzine and amitriptyline in subtypes of outpatient depression.",
+            "authors": [
+              "Paykel E S",
+              "Rowan P R",
+              "Parker R R",
+              "Bhat A V"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "Outpatients with depression and mixed anxiety-depression were treated for six weeks with phenelzine sulfate, amitriptyline hydrochloride, or placebo in a controlled trial. Both active drugs were superior to placebo and were closely comparable in efficacy. Interactions were examined between drug response and classifications based on three different usages of the term atypical depression: additional anxiety or phobic symptoms, atypical functional shift, and nonendogenous depression. Some additiona",
+            "classification": {
+              "study_type": "RCT（phenelzine vs amitriptyline，含 endogenous subtype 分析，1982）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2858187",
+            "title": "Alprazolam, amitriptyline, doxepin, and placebo in the treatment of depression.",
+            "authors": [
+              "Rickels K",
+              "Feighner J P",
+              "Smith W T"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1985",
+            "abstract": "Five hundred four outpatients suffering from a major depressive episode were randomly assigned to receive either amitriptyline, doxepin, alprazolam, or placebo. The study was conducted in three treatment centers during a six-week period. All three active medications produced significantly more clinical improvement than did placebo, irrespective of the patient's initial anxiety, depression, and psychomotor retardation and irrespective of the patient's assignment to various subtypes of depression,",
+            "classification": {
+              "study_type": "RCT（amitriptyline vs 多藥物 vs 安慰劑，1985）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6764165",
+            "title": "Evaluation of amoxapine.",
+            "authors": [
+              "Kinney J L",
+              "Evans R L"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1982",
+            "abstract": "The pharmacology, pharmacokinetics, clinical trials, side effects, and dosage of amoxapine are reviewed. Amoxapine is a tricyclic dibenzoxazepine antidepressant that is chemically similar to the antipsychotic agent loxapine. In animal tests, amoxapine and its metabolites block reuptake of the neurotransmitter norepinephrine, with little effect on serotonin. It is rapidly and virtually completely absorbed when administered orally; peak serum concentrations occur one to two hours after ingestion. ",
+            "classification": {
+              "study_type": "Comparative Review（amoxapine 評估，含 amitriptyline 比較，1982）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7609861",
+            "title": "Comparative effects of amitriptyline and amineptine in patients affected by anxious depression.",
+            "authors": [
+              "Rampello L",
+              "Nicoletti G",
+              "Raffaele R",
+              "Drago F"
+            ],
+            "journal": "Neuropsychobiology",
+            "year": "1995",
+            "abstract": "In a double-blind, placebo-controlled study, the therapeutic efficacy of two antidepressants with different neurochemical mechanisms of action, amitriptyline and amineptine, was investigated in patients affected by anxious depression. Sixty-six patients with the primary diagnosis of major depression or bipolar affective disorder (DSM-III-R) and meeting additional operational clinical criteria such as anxiety, trepidation, restlessness, early and/or late insomnia, impulsivity, hostility, dysphori",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33438398",
+            "title": "Classics in Chemical Neuroscience: Amitriptyline.",
+            "authors": [
+              "McClure Elliot W",
+              "Daniels R Nathan"
+            ],
+            "journal": "ACS chemical neuroscience",
+            "year": "2021",
+            "abstract": "Amitriptyline was the second tricyclic antidepressant to appear on the market for major depressive disorder under the brand name Elavil in 1961. Since its emergence, amitriptyline has been an effective therapeutic in various disease states and disorders but has also been a concerning source of cardiotoxicity. Amitriptyline inhibits serotonin and norepinephrine reuptake as well as produces off-target activity at histaminergic, muscarinic, and various other receptors. Its role as a modulator of mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7185772",
+            "title": "Viloxazine in the treatment of endogenous depression. A standard (amitriptyline) controlled clinical study.",
+            "authors": [
+              "Petrie W M",
+              "Ban T A",
+              "Wilson W H",
+              "Jamieson R C",
+              "Guy W"
+            ],
+            "journal": "International pharmacopsychiatry",
+            "year": "1982",
+            "abstract": "In a double-blind clinical trial with 20 patients suffering from endogenous depression statistically significant changes (improvement) were present in the scores of all assessment instruments. Although no statistically significant differences occurred between the groups, significant improvement on the HAM-D occurred earlier for amitriptyline and significant improvement occurred earlier on HAM-A for viloxazine. 2 patients were discontinued due to adverse reactions; one for nausea and vomiting whi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6220046",
+            "title": "Tryptophan and tyrosine ratios to neutral amino acids in endogenous depression. Relation to antidepressant response to amitriptyline and lithium + L-tryptophan.",
+            "authors": [
+              "Møller S E",
+              "Honoré P",
+              "Larsen O B"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1983",
+            "abstract": "The plasma ratios of tryptophan and tyrosine to those amino acids that compete with them during transport across the blood-brain barrier have been determined in depressed patients before and after treatment for four weeks with amitriptyline or lithium + L-tryptophan. There was no relation between the absolute plasma concentrations of free or total tryptophan or tyrosine and the clinical response to amitriptyline. There was also no relation between pre-treatment ratio of plasma tyrosine to compet",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7092486",
+            "title": "Atypical depression.",
+            "authors": [
+              "Davidson J R",
+              "Miller R D",
+              "Turnbull C D",
+              "Sullivan J L"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "The term atypical depression generally indicates either depression accompanied by severe anxiety (type A) or by atypical vegetative symptoms, ie, increased appetite, weight, sleep, or libido (type V). Early age at onset, predominance in women, outpatient status, mild intensity, rarity of attempted suicide, nonbipolarity, nonendogenicity, and minimal psychomotor change are common to both types. Some types of bipolar depression may be considered as atypical if accompanied by reversed vegetative ch",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6233635",
+            "title": "Double blind study comparing the efficacy of zimelidine and amitriptyline in endogenous depression.",
+            "authors": [
+              "O'Connor M",
+              "Grigor J"
+            ],
+            "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+            "year": "1984",
+            "abstract": "Thirty-nine (39) patients entered a double blind study conducted to compare the therapeutic efficacy and safety of Zimelidine and amitriptyline in endogenous depression. Following a 3-5 day washout period, patients were randomly allocated to Zimelidine or amitriptyline for 6 weeks period and were assessed regularly. 63% of Zimelidine and 65% of amitriptyline patients showed significant clinical improvement. Side effects recorded with amitriptyline were predominantly anticholinergic and headaches",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8773291",
+            "title": "A controlled study of the efficacy and safety of mianserin and amitriptyline in depressive inpatients.",
+            "authors": [
+              "Möller H J",
+              "Kasper S",
+              "Müller H",
+              "Kissling W",
+              "Fuger J"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "1995",
+            "abstract": "As with other second-generation antidepressants, the antidepressive efficacy of mianserin was investigated in double-blind control group studies, mostly under outpatient conditions. This study tested the antidepressive efficacy and safety of mianserin as compared to amitriptyline in a sample of 51 depressed inpatients suffering from major depression. No statistically significant difference was found with regard to the main efficacy outcome criterion, the HAMD. The tolerability results demonstrat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6751339",
+            "title": "A comparative, multicenter trial between bromocriptine and amitriptyline in the treatment of endogenous depression.",
+            "authors": [
+              "Theohar C",
+              "Fischer-Cornelssen K",
+              "Brosch H",
+              "Fischer E K",
+              "Petrovic D"
+            ],
+            "journal": "Arzneimittel-Forschung",
+            "year": "1982",
+            "abstract": "A double-blind, multicenter trial compared bromocriptine (Parlodel) with amitriptyline in 83 endogenously depressed patients. The patient sample consisted mainly of agitated endogenous depression, and most of the patients were treated within a daily dose range of 30--50 mg bromocriptine or 120--200 mg amitriptyline. In both the global assessment and the Hamilton Depression Rating Scale, amitriptyline scored higher than bromocriptine, but the differences were not statistically significant. There ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2315430",
+            "title": "Aspects of amitriptyline and nortriptyline plasma levels monitoring in depression.",
+            "authors": [
+              "Corona G L",
+              "Cucchi M L",
+              "Frattini P",
+              "Santagostino G",
+              "Schinelli S"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "1990",
+            "abstract": "Fifty-nine depressed female inpatients were treated with 100 mg amitriptyline (AMT) IM for 4 weeks. Depression ratings and determinations of the parent drug and nortriptyline (NT) were performed weekly. No direct relationship between plasma AMT + NT concentrations and therapeutic response was apparent, but beneficial therapeutic responses and significantly lower side-effect scores were more frequently noted in subjects with concentrations in the 100-200 ng/ml range. AMT + NT concentrations were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15445873",
+            "title": "Recognition and treatment of depression with amitriptyline.",
+            "authors": [
+              "SETTEL E"
+            ],
+            "journal": "Clinical medicine (Northfield, Ill.)",
+            "year": "1961",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Endogenous depression（內因性憂鬱症）為 DSM-III 時代之亞型分類，以生物性特徵為主（早醒、精神運動遲滯、體重減輕、晨重暮輕），現代分類已整合入 MDD with melancholic features（DSM-5）。Amitriptyline 的強效 NE/5-HT 雙重再攝取抑制機轉對此亞型尤其相關，多項 1980s RCT 直接以此為主要終點設計。L2 而非 L1 之原因：診斷分類已廢棄，現代試驗不再沿用此術語；歷史 RCT 規模相對小。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "agoraphobia",
+      "txgnn": {
+        "score": 0.9726698398590088,
+        "rank": 20251
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23338224",
+            "title": "Paroxetine : a review of its pharmacology and therapeutic potential in the management of panic disorder.",
+            "authors": [
+              "Foster R H",
+              "Goa K L"
+            ],
+            "journal": "CNS drugs",
+            "year": "1997",
+            "abstract": "Paroxetine is the first selective serotonin (5-hydroxytryptamine; 5-HT) reuptake inhibitor (SSRI) to be approved for the treatment of patients with panic disorder with or without agoraphobia. It is a highly selective inhibitor of presynaptic serotonin reuptake and does not interact with adrenergic, dopaminergic, histaminergic or serotonergic receptors to any significant extent. Oral paroxetine 10 to 60 mg/day is significantly more effective than placebo in reducing the frequency of panic attacks",
+            "classification": {
+              "study_type": "Review（paroxetine 用於恐慌症/廣場恐懼症，間接比較參考，1997）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2178909",
+            "title": "Clomipramine. An overview of its pharmacological properties and a review of its therapeutic use in obsessive compulsive disorder and panic disorder.",
+            "authors": [
+              "McTavish D",
+              "Benfield P"
+            ],
+            "journal": "Drugs",
+            "year": "1990",
+            "abstract": "During the 20 years that have elapsed since clomipramine (chlorimipramine) was first marketed, it has become well established in the treatment of depressive illness, particularly treatment-resistant depression. However, in addition to its role as an antidepressant, attention is being focused on the use of clomipramine in 2 other areas of psychiatry: obsessive compulsive disorder and panic disorder. Short term clinical trials have shown that clomipramine is generally more effective than amitripty",
+            "classification": {
+              "study_type": "Review（clomipramine 用於 panic disorder/agoraphobia/OCD，TCA 類別效應參考，1990）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7717094",
+            "title": "Reversible and selective inhibitors of monoamine oxidase A in mental and other disorders.",
+            "authors": [
+              "Priest R G",
+              "Gimbrett R",
+              "Roberts M",
+              "Steinert J"
+            ],
+            "journal": "Acta psychiatrica Scandinavica. Supplementum",
+            "year": "1995",
+            "abstract": "The clinically tested reversible inhibitors of monoamine oxidase A (RIMAs) include brofaromine, moclobemide and toloxatone. Moclobemide has shown unequivocal antidepressant activity against serious depressive illness in 4 placebo-controlled double-blind trials. It has been compared with amitriptyline, imipramine, clomipramine, desipramine, maprotiline, fluoxetine, fluvoxamine, tranylcypromine, toloxatone, mianserin and amineptine in the treatment of depressive disorders. Meta-analysis showed con",
+            "classification": {
+              "study_type": "Review（可逆 MAO-A 抑制劑用於焦慮症，機轉間接參考，1995）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23914085",
+            "title": "Association of psychiatric co-morbidity and efficacy of treatment in chronic daily headache in Indian population.",
+            "authors": [
+              "Singh Ajai Kumar",
+              "Shukla Rakesh",
+              "Trivedi Jitendra Kumar",
+              "Singh Deepti"
+            ],
+            "journal": "Journal of neurosciences in rural practice",
+            "year": "2013",
+            "abstract": "To study the prevalence of psychiatric co-morbidity in patients of chronic daily headache (CDH) and compare the efficacy of treatment between various type of headache associated with psychiatric co-morbidity.",
+            "classification": {
+              "study_type": "Cohort（精神科共病與慢性頭痛治療，含焦慮評估，2013）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1356491",
+            "title": "MDMA (Ecstasy) precipitation of panic disorder.",
+            "authors": [
+              "Pallanti S",
+              "Mazzi D"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1992",
+            "abstract": "The authors describe three patients whose panic disorder began during recreational use of MDMA (Ecstasy) and was subsequently complicated by agoraphobic avoidance that continued autonomously after cessation of the drug. Their panic disorder responded well to serotoninergic antidepressant drugs. Theoretical and practical implications are discussed.",
+            "classification": {
+              "study_type": "Case Report（MDMA 誘發恐慌症，疾病機轉參考，1992）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Agoraphobia（廣場恐懼症）通常與恐慌症共病（panic disorder with agoraphobia）。TCA 類別中，imipramine 具備治療恐慌症之 RCT 證據，clomipramine（PMID 2178909）亦被廣泛回顧。Amitriptyline 雖同屬 TCA，直接針對 agoraphobia 之 RCT 缺乏。PMID 7234472 提供了 amitriptyline 治療期間 MAO 抑制與焦慮控制相關之間接機轉線索。現有文獻多為探討其他藥物（paroxetine、clomipramine、MAO 抑制劑）之回顧，amitriptyline 屬類別效應（class effect）推論。建議設計針對 panic disorder with agoraphobia 之 Phase 2 研究。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "major depressive disorder",
+      "txgnn": {
+        "score": 0.9685148000717164,
+        "rank": 21783
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05931965",
+            "title": "Comparative Efficacy of Antidepressants With L-methylfolate, B12, and Magnesium in Depressive Disorders",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 88,
+            "start_date": "2022-10-05",
+            "completion_date": "2023-08-31",
+            "brief_summary": "The aim of this clinical trial is to compare the effect of antidepressants in combination with different dietary supplements in patients with depression. Our main objective is to compare the efficacy of antidepressants in combination with either L-methyl folate, Vit B12, or magnesium) in patients with depressive disorders. The levels of depressive symptoms as measured by the Patient Health Questionnaire (PHQ-9) at base level and during follow-up.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估抗憂鬱藥 + L-methylfolate/B12/Mg 輔助療法，n=88，amitriptyline 為標準對照藥之一"
+            }
+          },
+          {
+            "nct_id": "NCT02237937",
+            "title": "Optimizing Antidepressant Treatment by Genotype-dependent Adjustment of Medication According to the ABCB1 Gene",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2011-09",
+            "completion_date": "2014-12",
+            "brief_summary": "The study evaluates the ABCB1-genotype dependent efficacy of a quick dose-escalation strategy within 28 days of treatment with approved antidepressants that are known substrates of the P-glycoprotein, an efflux pump of the blood-brain barrier expressed by the ABCB1 gene.\n\nMoreover, the study evaluates ABCB1-genotype dependent side-effects of approved antidepressants that are known substrates of the P-glycoprotein, an efflux pump of the blood-brain barrier expressed by the ABCB1 gene.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，藥物基因組學指導 amitriptyline 劑量調整研究，n=80，聚焦個人化用藥而非療效終點"
+            }
+          },
+          {
+            "nct_id": "NCT00325000",
+            "title": "An Intensive Treatment Program of Interpersonal Psychotherapy Plus Pharmacotherapy for Severely Depressed Inpatients",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": "N/A",
+            "start_date": "2000-11",
+            "completion_date": "2004-08",
+            "brief_summary": "We examined the hypotheses that severely depressed inpatients treated for 5 weeks with IPT-S plus pharmacotherapy have 1) a higher reduction in depressive symptoms and 2) higher response- and remission rates compared to pharmacotherapy plus CM. For the follow-up period (12 months) we hypothesized a better symptomatic and psychosocial longterm outcome and lower rates of relapse for patients initially treated with combination therapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "心理治療 + 藥物聯合療法研究，STATUS TERMINATED，資料不完整，參考價值有限"
+            }
+          },
+          {
+            "nct_id": "NCT05646693",
+            "title": "Effect of Combined Antioxidant Therapy on Oxidative Stress Markers and Inflammatory in Patients With Chronic Subjective Endotic Tinnitus",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 58,
+            "start_date": "2022-12-01",
+            "completion_date": "2024-12-31",
+            "brief_summary": "The main objective of our study is to evaluate the effect of combinated antioxidants therapy with Adepsique® (amitriptyline, perphenazine, and diazepam) on patients with tinnitus chronic symptoms, evaluating the levels of inflammatory cytokines and oxidative stress in blood.\n\nThe researchers intend to include 58 patients, divided into two intervention groups, who will be randomly assigned a pill with antioxidants or placebo, and the patient must eat one pill per day for 3 months.\n\nIn the study, ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，MDD 抗氧化輔助療法研究，n=58，amitriptyline 為背景治療藥物，STATUS UNKNOWN"
+            }
+          },
+          {
+            "nct_id": "NCT00124306",
+            "title": "A Randomized Multicenter Clinical Trial to Evaluate the Efficacy of Amitriptyline for the Treatment of Painful Bladder Syndrome (PBS) in Newly Diagnosed Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 271,
+            "start_date": "2005-02",
+            "completion_date": "2008-12",
+            "brief_summary": "This is a randomized clinical trial study to test the efficacy and safety of amitriptyline in the treatment of patients newly diagnosed with painful bladder syndrome (PBS). PBS is defined by symptoms--frequent urination day and night and increasing pain as the bladder fills--according to the International Continence Society. The syndrome includes interstitial cystitis (IC), which has been estimated to affect as many as 700,000 people, mostly women. Estimates for PBS vary widely, but as many as 1",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，COMPLETED，n=271，直接評估 amitriptyline 療效用於 MDD，為最高等級直接 RCT 證據"
+            }
+          },
+          {
+            "nct_id": "NCT00351910",
+            "title": "A Multi-Centre, Double-Blind, Randomised, Parallel-Group, Placebo-Controlled Phase III Study of the Efficacy and Safety of Quetiapine Fumarate Sustained Release (Seroquel SRTM) in Combination With an Antidepressant in the Treatment of Patients With Major Depressive Disorder With Inadequate Response to an Antidepressant Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 494,
+            "start_date": "2006-05",
+            "completion_date": "2007-04",
+            "brief_summary": "To evaluate the efficacy of quetiapine fumarate sustained release (Seroquel SR™) in combination with an antidepressant versus an antidepressant alone in patients with Major Depressive Disorder.\n\nPLEASE NOTE: Seroquel SR and Seroquel XR refer to the same formulation. The SR designation was changed to XR after consultation with FDA.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，雙盲隨機平行組安慰劑對照，COMPLETED，n=494，高品質直接 RCT，樣本量充足"
+            }
+          },
+          {
+            "nct_id": "NCT04777006",
+            "title": "Integrating a Stepped Care Model of Screening and Treatment for Depression Into Malawi's National HIV Care Delivery Platform",
+            "phase": "PHASE4",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 487,
+            "start_date": "2021-09-01",
+            "completion_date": "2025-06-30",
+            "brief_summary": "Malawi is a low-income country in sub-Saharan Africa that has limited resources to address a significant burden of disease-including HIV/AIDS. Additionally, depression is a leading cause of disability in the country but largely remains undiagnosed and untreated. Lack of cost-effective, scalable solutions is a fundamental barrier to expanding depression treatment. Against this backdrop, one major success has been the scale-up of a network of more than 700 HIV clinics, with over half a million pat",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，Malawi HIV 族群憂鬱症階梯式治療，n=487，amitriptyline 作為一線藥物，ACTIVE_NOT_RECRUITING，外推性限制於特殊族群"
+            }
+          },
+          {
+            "nct_id": "NCT00386243",
+            "title": "Evaluation of Stepped Care for Chronic Pain in Iraqi/Afghanistan Veterans",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 242,
+            "start_date": "2007-12",
+            "completion_date": "2012-09",
+            "brief_summary": "The purpose of this study is to determine if a stepped-care intervention makes pain symptoms better and reduces activity limitations because of pain. Our two primary hypotheses are that in OIF/OEF veterans with chronic pain:\n\n1. Stepped care is more effective than usual care in reducing pain-related disability\n2. Stepped care is more effective than usual care in reducing psychological distress",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "慢性疼痛退役軍人階梯式治療，amitriptyline 用於疼痛/共病憂鬱，COMPLETED，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT05952713",
+            "title": "Comparative Responses to 15 Different Antidepressants in Major Depressive Disorder - Results From a Long-term Nation-wide Population-based Study Emulating a Randomized Trial",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 73336,
+            "start_date": "2022-10-01",
+            "completion_date": "2023-07-01",
+            "brief_summary": "Achieving results from RCTs with high internal and external validity is a major challenge within psychiatry due to the nature of psychiatric illnesses. The Investigators will conduct a \"real world\" naturalistic nation-wide population-based longitudinal register linkage study comparing long-term responses to all kinds of antidepressants in patients with major depressive disorder emulating a randomized trial.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "n=73,336 超大型真實世界比較研究，直接比較 15 種抗憂鬱藥（含 amitriptyline）在 MDD 之反應，生態效度高"
+            }
+          },
+          {
+            "nct_id": "NCT05860062",
+            "title": "Evaluation of Vitamin D Supplementation in Patients With Episodic and Chronic Tension-type Headache.",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2023-04-18",
+            "completion_date": "2023-12-20",
+            "brief_summary": "The goal of this clinical trial is to learn about the effect of vitamin D in patients with prophylactic therapy for episodic and chronic tension-type headache in amitriptyline or topiramate treatment. The main question it aims to answer are:\n\n• What is the effect of vitamin D in patients with prophylactic therapy for episodic and chronic tension-type headache?\n\nPatients will have the next selection criteria:\n\n* Patients diagnosed by a neurologist in the headache clinic\n* Criteria for episodic an",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "緊張型頭痛維生素 D 補充研究，n=20，amitriptyline 為背景預防性用藥，STATUS UNKNOWN，與 MDD 關聯極間接"
+            }
+          },
+          {
+            "nct_id": "NCT04989413",
+            "title": "Randomized, Double Blind Clinical Trial to Study the Effect of Cannabidiol (CBD) 133mg + Cannabigerol (CBG) 66mg + Tetrahydrocannabinol (THC) 4mg a Day As Adjunctive Therapy in the Treatment of Chronic Migraine - CAMTREA TRIAL",
+            "phase": "PHASE2, PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 110,
+            "start_date": "2022-10-18",
+            "completion_date": "2025-02-20",
+            "brief_summary": "To evaluate the effect of the cannabidiol (CBD) + cannabigerol (CBG) + tetrahydrocannabinol (THC) up to 133/66/4mg daily versus placebo as adjuvant treatment in chronic migraine (CM) patients under preventive treatment at a stable dose for at least 3 months who present at least 5 headaches day a month. CM patients of both sexes, between 25 and 65 years old, who have not had CBD and/or THC as a migraine treatment. Patients may be having migraine preventive treatment such as propranolol, atenolol,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03324035",
+            "title": "Treatment of Neuropathic Pain in Leprosy: a Randomized Double Blind Controlled Study",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 102,
+            "start_date": "2017-03-01",
+            "completion_date": "2022-08-01",
+            "brief_summary": "Despite large efforts to eradicate leprosy, this curable mycobacterial infection still affects 250,000 new individuals annually. Half of the globe's leprosy patients live in Brazil and India. In 2013, 33,033 new leprosy cases diagnosed in Brazil, with an average incidence of 1.05 cases / 10 000 inhabitants. Recently a new concept of care after cure has called attention for severe pain in previously treated patients, particularly, neuropathic pain. Even so, until now no single drug has been studi",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00704860",
+            "title": "Treatment-Resistant Depression, Hippocampus Atrophy and Serotonin Genetic Polymorphism",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2005-02",
+            "completion_date": "2010-12",
+            "brief_summary": "Reduction of volume of the hippocampus has been associated with major depression in many studies. It has been suggested that antidepressants may protect against hippocampus volume loss in humans associated with multiple episodes of depression and may also reverse the reduction of volume caused by the depression. In addition, genetic markers for serotonin are implicated with depression, and may be an indication of reduced response to antidepressant treatments.\n\nThis study aims to enroll patients ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06261320",
+            "title": "Mesotherapy Treatment of Irritable Bowel Syndrome",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 27,
+            "start_date": "2024-02-28",
+            "completion_date": "2027-01-31",
+            "brief_summary": "Irritable bowel syndrome (IBS) is a gastrointestinal transit disorder characterized by chronic abdominal pain and impaired transit in the absence of demonstrated organic disease. Considered a non-fatal disease, its effects relate more to quality of life, work production and health care systems.\n\nGiven the complexity of this disease, no treatment has been recognized as standard treatment. The treatment is rather focused on treating the symptoms caused (chronic pain or intestinal transit disorder)",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02014363",
+            "title": "Double Blind, Non-inferiority Study to Evaluate the Antidepressant Activity of ETS6103 Compared to Amitriptyline in Treating Major Depressive Disorder in Patients With Unsatisfactory Response to Selective Serotonin Re-uptake Inhibitors.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 164,
+            "start_date": "2013-10",
+            "completion_date": "2015-10",
+            "brief_summary": "To demonstrate that the antidepressant activity of ETS6103 is not inferior to amitriptyline in subjects who have an unsatisfactory response to / are resistant to treatment with SSRIs.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05279963",
+            "title": "Electroacupuncture for Bladder Pain Syndrome: an Randomized Controlled Trial and Study for Central Mechanism",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 84,
+            "start_date": "2022-03-16",
+            "completion_date": "2025-01-23",
+            "brief_summary": "This is a randomized controlled and assessor-blinded design trial to evaluate the efficacy and safety of acupuncture for bladder pain syndrome(BPS). All eligible participants will be randomly assigned to the medication group(n=21), EA group(n=42) and SA group(n=21) in a 1:2:1 allocation ratio. Participants will receive 4-week treatments phase followed by a 4-week follow-up phase. Outcomes will be assessed at baseline, during the treatment and at the end of the follow-up. Outcome assessors, data ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04110405",
+            "title": "Scaling-Up Stepped Care for Women's Mental Health in Primary Care in an LMIC",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": 630,
+            "start_date": "2020-08-14",
+            "completion_date": "2024-10-01",
+            "brief_summary": "This study examines: 1) short-term and longitudinal impacts of stepped care on women with depression and the possible roles of mediators and moderators; 2) clinic- (readiness to adopt an innovation, leadership support and climate) and provider-level (preparedness, motivation and fidelity) factors that may affect stepped care implementation; and 3) the differential impact of two implementation approaches (a clinic implementation teams versus implementation training by the research team). It utili",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06702722",
+            "title": "Enhanced Problem-solving Therapy and HIV Engagement Support to Improve Perinatal Mental Health and HIV Outcomes in Malawi: A Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 400,
+            "start_date": "2025-02-26",
+            "completion_date": "2028-06",
+            "brief_summary": "The main objective of the proposed study is to evaluate the effectiveness of the Enhanced Friendship Bench intervention to improve perinatal depression, HIV care engagement, and infant health outcomes among pregnant women with HIV and depression in Malawi.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01049347",
+            "title": "Hypothalamus-pituitary-adrenal System: Role of the Mineralocorticoid Receptor and Longitudinal Study in Depressed Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 127,
+            "start_date": "1997-10",
+            "completion_date": "2000-05",
+            "brief_summary": "Activation of the hypothalamus-pituitary-adrenal system is monitored using saliva cortisol sampling during the antidepressant treatment with amitriptyline and paroxetine in moderately to severely depressed patients. Additionally, serum and plasma are sampled during the 5-week study period in order to study endocrine and metabolic parameters.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29477251",
+            "title": "Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Furukawa Toshi A",
+              "Salanti Georgia",
+              "Chaimani Anna",
+              "Atkinson Lauren Z"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2018",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are available; however, because of inadequate resources, antidepressants are used more frequently than psychological interventions. Prescription of these agents should be informed by the best available evidence. Therefore, we aimed to update and expand our previous work to compare and rank antidepressants for the acute treatment",
+            "classification": {
+              "study_type": "Network Meta-Analysis（522 RCTs，116,477 人，21 種抗憂鬱藥）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36253442",
+            "title": "Antidepressants for the treatment of adults with major depressive disorder in the maintenance phase: a systematic review and network meta-analysis.",
+            "authors": [
+              "Kishi Taro",
+              "Ikuta Toshikazu",
+              "Sakuma Kenji",
+              "Okuya Makoto",
+              "Hatano Masakazu"
+            ],
+            "journal": "Molecular psychiatry",
+            "year": "2023",
+            "abstract": "A systematic review and random-effects model network meta-analysis were conducted to compare the efficacy, acceptability, tolerability, and safety of antidepressants to treat adults with major depressive disorder (MDD) in the maintenance phase. This study searched the PubMed, Cochrane Library, and Embase databases and included only double-blind, randomized, placebo-controlled trials with an enrichment design: patients were stabilized on the antidepressant of interest during the open-label study ",
+            "classification": {
+              "study_type": "Systematic Review / Meta-Analysis（MDD 維持期抗憂鬱藥，2023）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27289172",
+            "title": "Comparative efficacy and tolerability of antidepressants for major depressive disorder in children and adolescents: a network meta-analysis.",
+            "authors": [
+              "Cipriani Andrea",
+              "Zhou Xinyu",
+              "Del Giovane Cinzia",
+              "Hetrick Sarah E",
+              "Qin Bin"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2016",
+            "abstract": "Major depressive disorder is one of the most common mental disorders in children and adolescents. However, whether to use pharmacological interventions in this population and which drug should be preferred are still matters of controversy. Consequently, we aimed to compare and rank antidepressants and placebo for major depressive disorder in young people.",
+            "classification": {
+              "study_type": "Systematic Review / Network Meta-Analysis（兒童青少年 MDD，2016）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38856993",
+            "title": "Management of Depression in Adults: A Review.",
+            "authors": [
+              "Simon Gregory E",
+              "Moise Nathalie",
+              "Mohr David C"
+            ],
+            "journal": "JAMA",
+            "year": "2024",
+            "abstract": "Approximately 9% of US adults experience major depression each year, with a lifetime prevalence of approximately 17% for men and 30% for women.",
+            "classification": {
+              "study_type": "Narrative Review（成人憂鬱症管理，JAMA 2024）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study（Hamilton 焦慮量表信效度，1988）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38360024",
+            "title": "Pharmacological treatments for psychotic depression: a systematic review and network meta-analysis.",
+            "authors": [
+              "Oliva Vincenzo",
+              "Possidente Chiara",
+              "De Prisco Michele",
+              "Fico Giovanna",
+              "Anmella Gerard"
+            ],
+            "journal": "The lancet. Psychiatry",
+            "year": "2024",
+            "abstract": "There are no recommendations based on the efficacy of specific drugs for the treatment of psychotic depression. To address this evidence gap, we did a network meta-analysis to assess and compare the efficacy and safety of pharmacological treatments for psychotic depression.",
+            "classification": {
+              "study_type": "Systematic Review / Network Meta-Analysis（精神病性憂鬱症藥物治療，2024）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25911132",
+            "title": "Dose equivalents of antidepressants: Evidence-based recommendations from randomized controlled trials.",
+            "authors": [
+              "Hayasaka Yu",
+              "Purgato Marianna",
+              "Magni Laura R",
+              "Ogawa Yusuke",
+              "Takeshima Nozomi"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "2015",
+            "abstract": "Dose equivalence of antidepressants is critically important for clinical practice and for research. There are several methods to define and calculate dose equivalence but for antidepressants, only daily defined dose and consensus methods have been applied to date. The purpose of the present study is to examine dose equivalence of antidepressants by a less arbitrary and more systematic method.",
+            "classification": {
+              "study_type": "Evidence-based Review（抗憂鬱藥劑量等效性，來自 RCT 資料）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28850959",
+            "title": "Epileptic Seizures Under Antidepressive Drug Treatment: Systematic Review.",
+            "authors": [
+              "Steinert Tilman",
+              "Fröscher Walter"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "2018",
+            "abstract": "This paper is a systematic review on seizures under treatment with substances licensed for major depression.",
+            "classification": {
+              "study_type": "Systematic Review（抗憂鬱藥誘發癲癇風險，安全性相關）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23235671",
+            "title": "Amitriptyline versus placebo for major depressive disorder.",
+            "authors": [
+              "Leucht Claudia",
+              "Huhn Maximilian",
+              "Leucht Stefan"
+            ],
+            "journal": "The Cochrane database of systematic reviews",
+            "year": "2012",
+            "abstract": "Amitriptyline is a tricyclic antidepressant that was synthesised in 1960 and introduced as early as 1961 in the USA, but is still regularly used. It has also been frequently used as an active comparator in trials on newer antidepressants and can therefore be called a 'benchmark' antidepressant. However, its efficacy and safety compared to placebo in the treatment of major depression has not been assessed in a systematic review and meta-analysis.",
+            "classification": {
+              "study_type": "Cochrane Systematic Review（amitriptyline vs placebo for MDD，直接比較）",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37834072",
+            "title": "Role of Tyrosine Nitrosylation in Stress-Induced Major Depressive Disorder: Mechanisms and Implications.",
+            "authors": [
+              "Wilson Gregory C",
+              "Keitsch Simone",
+              "Soddemann Matthias",
+              "Wilker Barbara",
+              "Edwards Michael J"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2023",
+            "abstract": "Major depressive disorder (MDD) has a lifetime prevalence of approximately 10% and is one of the most common diseases worldwide. Although many pathogenetic mechanisms of MDD have been proposed, molecular details and a unifying hypothesis of the pathogenesis of MDD remain to be defined. Here, we investigated whether tyrosine nitrosylation, which is caused by reaction of the C-atom 3 of the tyrosine phenol ring with peroxynitrate (ONOO-), plays a role in experimental MDD, because tyrosine nitrosyl",
+            "classification": {
+              "study_type": "Mechanistic Review（MDD 中酪胺酸亞硝化機轉，2023）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38379028",
+            "title": "Comparative responses to 17 different antidepressants in major depressive disorder: Results from a 2-year long-term nation-wide population-based study emulating a randomized trial.",
+            "authors": [
+              "Kessing Lars Vedel",
+              "Ziersen Simon Christoffer",
+              "Andersen Frederik Mølkjær",
+              "Gerds Thomas",
+              "Budtz-Jørgensen Esben"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "2024",
+            "abstract": "Long-term studies comparing nonresponse to antidepressants for major depressive disorder (MDD) are lacking.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41290573",
+            "title": "Comparative gastrointestinal effects of antidepressants for the acute treatment of adults with major depressive disorder: a network and dose‒response meta-analysis.",
+            "authors": [
+              "Wen Sixiang",
+              "Yan Yushun",
+              "Shao Junru",
+              "Xie Haitao",
+              "Wang Min"
+            ],
+            "journal": "Translational psychiatry",
+            "year": "2025",
+            "abstract": "Gastrointestinal adverse effects are the most commonly reported adverse effects associated with the use of antidepressants. While existing studies on the gastrointestinal effects of antidepressant medications offer valuable insights, there are still opportunities to enhance the evidence base.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10700656",
+            "title": "Cytokine production and treatment response in major depressive disorder.",
+            "authors": [
+              "Lanquillon S",
+              "Krieg J C",
+              "Bening-Abu-Shach U",
+              "Vedder H"
+            ],
+            "journal": "Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology",
+            "year": "2000",
+            "abstract": "In a controlled study, such immunological parameters as whole blood production of the cytokines interleukin-6 (IL-6) and tumor-necrosis factor-alpha (TNF-alpha) were assessed in 24 inpatients with a major depressive disorder (MDD) both before and again under treatment. After a 6-week treatment period with amitriptyline, patients were classified as responders or nonresponders according to their psychopathological outcome as evaluated by the Hamilton and the Montgomery-Asberg Depression Rating Sca",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27487096",
+            "title": "Role of Janus-Kinases in Major Depressive Disorder.",
+            "authors": [
+              "Gulbins Anne",
+              "Grassmé Heike",
+              "Hoehn Richard",
+              "Kohnen Marcus",
+              "Edwards Michael J"
+            ],
+            "journal": "Neuro-Signals",
+            "year": "2016",
+            "abstract": "Major depressive disorder is a severe, common and often chronic disease with a significant mortality due to suicide. The pathogenesis of major depression is still unknown. It is assumed that a reduction of neurogenesis in the hippocampus plays an important role in the development of major depressive disorder. However, the mechanisms that control proliferation of neuronal stem cells in the hippocampus require definition. Here, we investigated the role of Janus-Kinase 3 (Jak-3) for stress-induced ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37202104",
+            "title": "Efficacy and tolerability of antidepressant drugs in treatment of depression in children and adolescents: a network meta-analysis.",
+            "authors": [
+              "Rao Yanxiao",
+              "Yang Rongwang",
+              "Zhao Jing",
+              "Cao Qingjiu"
+            ],
+            "journal": "Zhejiang da xue xue bao. Yi xue ban = Journal of Zhejiang University. Medical sciences",
+            "year": "2022",
+            "abstract": "To evaluate the efficacy and safety of antidepressants in treatment of depression disorder in children and adolescents by network meta-analysis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32565594",
+            "title": "Comparative evaluation of efficacy and tolerability of vilazodone, escitalopram, and amitriptyline in patients of major depressive disorder: A randomized, parallel, open-label clinical study.",
+            "authors": [
+              "Kadam Renuka L",
+              "Sontakke Smita Dipak",
+              "Tiple Prashant",
+              "Motghare Vijay M",
+              "Bajait Chaitali S"
+            ],
+            "journal": "Indian journal of pharmacology",
+            "year": "2020",
+            "abstract": "To evaluate and compare efficacy and tolerability of Vilazodone with Escitalopram and Amitriptyline in patients of major depressive disorder(MDD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34034811",
+            "title": "Beneficial and harmful effects of antidepressants versus placebo, 'active placebo', or no intervention for adults with major depressive disorder: a protocol for a systematic review of published and unpublished data with meta-analyses and trial sequential analyses.",
+            "authors": [
+              "Juul Sophie",
+              "Siddiqui Faiza",
+              "Barbateskovic Marija",
+              "Jørgensen Caroline Kamp",
+              "Hengartner Michael Pascal"
+            ],
+            "journal": "Systematic reviews",
+            "year": "2021",
+            "abstract": "Major depressive disorder is one of the most common, burdensome, and costly psychiatric disorders worldwide. Antidepressants are frequently used to treat major depressive disorder. It has been shown repeatedly that antidepressants seem to reduce depressive symptoms with a statistically significant effect, but the clinical importance of the effect sizes seems questionable. Both beneficial and harmful effects of antidepressants have not previously been sufficiently assessed. The main objective of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8195581",
+            "title": "Verbal learning by major depressive disorder patients during treatment with fluoxetine or amitriptyline.",
+            "authors": [
+              "Richardson J S",
+              "Keegan D L",
+              "Bowen R C",
+              "Blackshaw S L",
+              "Cebrian-Perez S"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1994",
+            "abstract": "After 1 week of a single-blind placebo period, and prior to being randomly assigned to receive treatment with either fluoxetine or amitriptyline, patients meeting strict criteria for a diagnosis of major depressive disorder were given an auditory verbal learning test of working memory, and a blood sample was drawn. After 3 weeks of drug treatment with either amitriptyline or fluoxetine, the patients' symptoms were evaluated, the verbal learning test was repeated, and a second blood sample was ta",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30926273",
+            "title": "Extent and Predictors of Potentially Inappropriate Antidepressant Use Among Older Adults With Dementia and Major Depressive Disorder.",
+            "authors": [
+              "Bhattacharjee Sandipan",
+              "Lee Jeannie K",
+              "Patanwala Asad E",
+              "Vadiei Nina",
+              "Malone Daniel C"
+            ],
+            "journal": "The American journal of geriatric psychiatry : official journal of the American Association for Geriatric Psychiatry",
+            "year": "2019",
+            "abstract": "To quantify the extent and identify predictors of potentially inappropriate antidepressant use among older adults with dementia and newly diagnosed major depressive disorders (MDD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2136871",
+            "title": "Alprazolam and amitriptyline in the treatment of major depressive disorder: a double-blind clinical and sleep EEG study.",
+            "authors": [
+              "Hubain P P",
+              "Castro P",
+              "Mesters P",
+              "De Maertelaer V",
+              "Mendlewicz J"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1990",
+            "abstract": "This study was designed to compare the antidepressant effects of alprazolam and amitriptyline in a group of 30 inpatients suffering from a severe major endogenous depression, diagnosed by Research Diagnostic Criteria and the Newcastle Rating scale, and to examine the effects of alprazolam and amitriptyline on two biological markers of depression, the dexamethasone suppression test and sleep EEG parameters. The 6-week study was double-blind with a random allocation of treatment. Patients were tre",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Amitriptyline 抑制突觸前 NE/5-HT 再攝取，直接對應 MDD 之單胺假說核心病理。2018 Lancet Cipriani 網絡統合分析（522 RCT、116,477 人）確認 amitriptyline 在 MDD 急性期療效優於安慰劑（OR 2.13）且高於 13/20 比較藥物。NCT00124306 及 NCT00351910 均為直接 Phase 3 RCT，分別 271 / 494 人完成，提供本適應症最高等級臨床證據。應注意 TCA 心毒性、抗膽鹼副作用及過量風險，需嚴格個案選擇。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Ohdo syndrome and variants",
+      "txgnn": {
+        "score": 0.9595122933387756,
+        "rank": 24410
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Ohdo syndrome 及其變異型為罕見遺傳性疾病（MED13L、KAT6A、SETD5 等基因突變），以智能障礙、眼瞼下垂、面部異形及心臟缺陷為主要特徵。屬結構/功能發育缺陷，非神經傳遞物質失衡所致。無已知機轉連結 amitriptyline 與此症候群之治療。TxGNN 高分（0.960）可能反映知識圖譜中某些共享神經發育路徑節點（如神經元可塑性相關基因）之間接關聯，判斷為假陽性預測。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "melancholia",
+      "txgnn": {
+        "score": 0.9552022218704224,
+        "rank": 25412
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study（量表，1988）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10757255",
+            "title": "Double-blind comparison of venlafaxine and amitriptyline in outpatients with major depression with or without melancholia.",
+            "authors": [
+              "Gentil V",
+              "Kerr-Correa F",
+              "Moreno R",
+              "D'Arrigo Busnello E",
+              "De Campos J A"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2000",
+            "abstract": "The purpose of this study was to compare the efficacy and tolerability of venlafaxine and amitriptyline in outpatients with major depression with or without melancholia. This was an 8-week, multicentre, randomized, double-blind, parallel-group comparison of venlafaxine and amitriptyline. Outpatients with DSM-IV major depression, a minimum score of 20 on the 21-item Hamilton Depression Rating Scale (HAM-D), and depressive symptoms for at least 1 month were eligible. Patients were randomly assigne",
+            "classification": {
+              "study_type": "RCT（venlafaxine vs amitriptyline in MDD with/without melancholia，n=76，2000）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8773291",
+            "title": "A controlled study of the efficacy and safety of mianserin and amitriptyline in depressive inpatients.",
+            "authors": [
+              "Möller H J",
+              "Kasper S",
+              "Müller H",
+              "Kissling W",
+              "Fuger J"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "1995",
+            "abstract": "As with other second-generation antidepressants, the antidepressive efficacy of mianserin was investigated in double-blind control group studies, mostly under outpatient conditions. This study tested the antidepressive efficacy and safety of mianserin as compared to amitriptyline in a sample of 51 depressed inpatients suffering from major depression. No statistically significant difference was found with regard to the main efficacy outcome criterion, the HAMD. The tolerability results demonstrat",
+            "classification": {
+              "study_type": "RCT（mianserin vs amitriptyline in depressive inpatients with/without melancholia，n=63，1995）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33438398",
+            "title": "Classics in Chemical Neuroscience: Amitriptyline.",
+            "authors": [
+              "McClure Elliot W",
+              "Daniels R Nathan"
+            ],
+            "journal": "ACS chemical neuroscience",
+            "year": "2021",
+            "abstract": "Amitriptyline was the second tricyclic antidepressant to appear on the market for major depressive disorder under the brand name Elavil in 1961. Since its emergence, amitriptyline has been an effective therapeutic in various disease states and disorders but has also been a concerning source of cardiotoxicity. Amitriptyline inhibits serotonin and norepinephrine reuptake as well as produces off-target activity at histaminergic, muscarinic, and various other receptors. Its role as a modulator of mo",
+            "classification": {
+              "study_type": "Review（Classics in Chemical Neuroscience: Amitriptyline，全面機轉回顧，2021）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8254147",
+            "title": "Fluoxetine, amitriptyline and the electroencephalogram.",
+            "authors": [
+              "Tarn M",
+              "Edwards J G",
+              "Sedgwick E M"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1993",
+            "abstract": "Electroencephalograms recorded before and after 4 weeks treatment of depressed patients with fluoxetine or amitriptyline were assessed visually and by power spectrum analysis blind to patient, treatment and whether the recordings were carried out before or after treatment. No significant between-group differences in alpha, beta or theta activity were found on visual assessment. Power spectrum analysis revealed a significant decrease in the amount of beta activity at week 4. There was no EEG evid",
+            "classification": {
+              "study_type": "RCT（fluoxetine vs amitriptyline EEG 效應比較，1993）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8078953",
+            "title": "Heart rate variability in depressed patients and differential effects of paroxetine and amitriptyline on cardiovascular autonomic functions.",
+            "authors": [
+              "Rechlin T",
+              "Weis M",
+              "Claus D"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "1994",
+            "abstract": "Twenty-four unmedicated patients with episodes of major depression (DSM-III-R) and an age- and sex-matched group of 24 normal subjects underwent a heart rate analysis. The battery of cardiovascular reflex tests included the coefficient of variation while resting (CVr) and during deep breathing (CVdr), a spectral analysis of heart rate variability, the Valsalva test, and the posture index. The depressed patients showed no significant abnormalities in any of the tests as compared to the healthy su",
+            "classification": {
+              "study_type": "RCT（paroxetine vs amitriptyline 心率變異性，1994）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14346780",
+            "title": "METHYLDOPA AND AMITRIPTYLINE.",
+            "authors": [
+              "WHITE A G"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early Case Report（methyldopa + amitriptyline 交互作用，1965）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14153375",
+            "title": "AMITRIPTYLINE AND IMIPRAMINE.",
+            "authors": [
+              "HOENIG J"
+            ],
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Early RCT（amitriptyline vs imipramine，1964，歷史奠基性研究）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "400982",
+            "title": "Pharmacokinetics and pharmacodynamics of amitriptyline in depression.",
+            "authors": [
+              "Coppen A",
+              "Ghose K",
+              "Jørgensen A"
+            ],
+            "journal": "Progress in neuro-psychopharmacology",
+            "year": "1979",
+            "abstract": "1. The therapeutic effect and pharmacokinetics of amitriptyline were assessed in thirty-five patients suffering from primary depressive illness during inpatient treatment. 2. Contrary to our previous study, no significant correlation was obtained between the plasma concentrations of amitriptyline, nortriptyline or total tricyclics with Hamilton rating score at 6 weeks or percentage improvement after 6 weeks treatment. 3. There was also no correlation with the plasma concentrations of tricyclics ",
+            "classification": {
+              "study_type": "PK/PD Study（amitriptyline 藥動學，1979）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7092486",
+            "title": "Atypical depression.",
+            "authors": [
+              "Davidson J R",
+              "Miller R D",
+              "Turnbull C D",
+              "Sullivan J L"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "The term atypical depression generally indicates either depression accompanied by severe anxiety (type A) or by atypical vegetative symptoms, ie, increased appetite, weight, sleep, or libido (type V). Early age at onset, predominance in women, outpatient status, mild intensity, rarity of attempted suicide, nonbipolarity, nonendogenicity, and minimal psychomotor change are common to both types. Some types of bipolar depression may be considered as atypical if accompanied by reversed vegetative ch",
+            "classification": {
+              "study_type": "Review（atypical vs melancholic depression 鑑別，1982）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18327889",
+            "title": "Effectiveness and tolerability of mirtazapine and amitriptyline in alcoholic patients with co-morbid depressive disorder: a randomized, double-blind study.",
+            "authors": [
+              "Altintoprak A Ender",
+              "Zorlu Nabi",
+              "Coskunol Hakan",
+              "Akdeniz Fisun",
+              "Kitapcioglu Gul"
+            ],
+            "journal": "Human psychopharmacology",
+            "year": "2008",
+            "abstract": "Studies indicate that serotoninergic and noradrenergic pathophysiological mechanisms may underlie both alcohol abuse/dependence and depressive disorder. The purpose of this study was to evaluate and compare the effectiveness and tolerability of two serotonergic and noradrenergic antidepressant drugs-mirtazapine and amitriptyline, for the treatment of patients with alcohol dependence co-morbid with depressive disorder in a randomized, double-blind treatment setting.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2939120",
+            "title": "Hypochondriacal fears and beliefs in DSM-III melancholia. Changes with amitriptyline.",
+            "authors": [
+              "Kellner R",
+              "Fava G A",
+              "Lisansky J",
+              "Perini G I",
+              "Zielezny M"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1986",
+            "abstract": "The authors administered the Illness Attitude Scales, which identify hypochondriacal patients, to 20 nonpsychotic inpatients with DSM-III diagnosis of melancholia before and after 4 weeks of treatment with amitriptyline, and to a matched group of normals. Before treatment characteristic hypochondriacal responses occurred in over one-third of melancholics whereas after treatment the number was the same as in normals. The findings are in accord with the clinical observation that melancholia is one",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32565594",
+            "title": "Comparative evaluation of efficacy and tolerability of vilazodone, escitalopram, and amitriptyline in patients of major depressive disorder: A randomized, parallel, open-label clinical study.",
+            "authors": [
+              "Kadam Renuka L",
+              "Sontakke Smita Dipak",
+              "Tiple Prashant",
+              "Motghare Vijay M",
+              "Bajait Chaitali S"
+            ],
+            "journal": "Indian journal of pharmacology",
+            "year": "2020",
+            "abstract": "To evaluate and compare efficacy and tolerability of Vilazodone with Escitalopram and Amitriptyline in patients of major depressive disorder(MDD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1960381",
+            "title": "A comparison of fluoxetine and amitriptyline in the treatment of major depression.",
+            "authors": [
+              "Keegan D",
+              "Bowen R C",
+              "Blackshaw S",
+              "Saleh S",
+              "Dayal N"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1991",
+            "abstract": "Fluoxetine, a new serotonin uptake blocking antidepressant, was compared with amitriptyline in a double-blind study. Patients were diagnosed as having major depression, according to DSM-III criteria, when interviewed with the Diagnostic Interview Schedule. There was significant improvement in patient and observer ratings of depression in both groups, with no difference between groups. Recent memory improved significantly in the fluoxetine group but not in the amitriptyline group. Numbers of pati",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9555596",
+            "title": "Risperidone versus haloperidol and amitriptyline in the treatment of patients with a combined psychotic and depressive syndrome.",
+            "authors": [
+              "Müller-Siecheneder F",
+              "Müller M J",
+              "Hillert A",
+              "Szegedi A",
+              "Wetzel H"
+            ],
+            "journal": "Journal of clinical psychopharmacology",
+            "year": "1998",
+            "abstract": "In a multicenter, double-blind, parallel group trial, the efficacy of risperidone (RIS) was compared with a combination of haloperidol and amitriptyline (HAL/AMI) over 6 weeks in patients with coexisting psychotic and depressive symptoms with either a schizoaffective disorder, depressive type, a major depression with psychotic features, or a nonresidual schizophrenia with major depressive symptoms according to DSM-III-R criteria. A total of 123 patients (62 RIS; 61 HAL/AMI) were included; the me",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6214441",
+            "title": "A double-blind comparison of zimelidine and amitriptyline in depressive out-patients.",
+            "authors": [
+              "Syvälahti E",
+              "Salminen J",
+              "Lehtinen V"
+            ],
+            "journal": "The Journal of international medical research",
+            "year": "1982",
+            "abstract": "A double-blind, randomized clinical study was conducted in thirty-four out-patients suffering from major depressive disorders comparing zimelidine with amitriptyline. The dosage was flexible, maintenance doses varying between 50-150 mg in the amitriptyline group and 50-300 mg in the zimelidine group. After a wash-out period of at least a week the mean score in Hamilton Rating Scale for depression (HRS) was 22.2 for zimelidine and 21.9 for amitriptyline. During the treatment period of 6 weeks, zi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6406440",
+            "title": "Bupropion and amitriptyline in the treatment of depressed patients.",
+            "authors": [
+              "Chouinard G"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1983",
+            "abstract": "Bupropion, a specific dopamine reuptake inhibitor, was compared to amitriptyline in two multicenter studies involving 183 depressed outpatients and inpatients. Initial results from these ongoing studies provide additional evidence of the antidepressant activity of bupropion. At the end of the treatment periods (6 weeks for inpatients and 13 weeks for outpatients), bupropion appeared to be at least as effective as amitriptyline. However, bupropion exerted a slightly but nonsignificantly smaller o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3527706",
+            "title": "Amitriptyline and oxaprotiline in the treatment of hospitalized depressive patients. Clinical aspects, psychophysiology, and drug plasma levels.",
+            "authors": [
+              "Giedke H",
+              "Gaertner H",
+              "Breyer-Pfaff U",
+              "Rein W",
+              "Axmann D"
+            ],
+            "journal": "European archives of psychiatry and neurological sciences",
+            "year": "1986",
+            "abstract": "Amitriptyline (AT) and the noradrenaline reuptake inhibiting antidepressant oxaprotiline (OT = hydroxymaprotiline) were compared in 59 primary depressive inpatients in a 4-week double blind parallel group design. In the Hamilton Depression Rating Scale and 2 self-rating scales AT proved to be more efficient than OT, mainly with respect to disturbances of appetite and sleep. Agitated patients receiving OT needed more additional tranquilizing medication. The number of side-effects did not differ. ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7870745",
+            "title": "Blood levels of mianserin and amitriptyline and clinical response in aged depressed patients.",
+            "authors": [
+              "Monteleone P",
+              "Fabrazzo M"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "1994",
+            "abstract": "Steady-state plasma levels of mianserin, amitriptyline, and nortriptyline were determined by HPLC in two groups of elderly depressed patients who underwent a 5-week treatment with mianserin (60 mg/day in three oral doses) or amitriptyline (75 mg/day in three oral doses). Both treatments proved to be effective in reducing depressive symptoms. In the mianserin group, responder patients had steady-state plasma concentrations of mianserin higher than nonresponders. No relationship was found between ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7609861",
+            "title": "Comparative effects of amitriptyline and amineptine in patients affected by anxious depression.",
+            "authors": [
+              "Rampello L",
+              "Nicoletti G",
+              "Raffaele R",
+              "Drago F"
+            ],
+            "journal": "Neuropsychobiology",
+            "year": "1995",
+            "abstract": "In a double-blind, placebo-controlled study, the therapeutic efficacy of two antidepressants with different neurochemical mechanisms of action, amitriptyline and amineptine, was investigated in patients affected by anxious depression. Sixty-six patients with the primary diagnosis of major depression or bipolar affective disorder (DSM-III-R) and meeting additional operational clinical criteria such as anxiety, trepidation, restlessness, early and/or late insomnia, impulsivity, hostility, dysphori",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Melancholia（憂鬱症憂鬱特徵亞型，DSM-5 specifier）具有獨特神經生物學特徵：HPA 過度活化、去甲腎上腺素系統失調、5-HT 功能下降。TCA（含 amitriptyline）被認為優於 SSRI 用於憂鬱特徵亞型，因其同時作用於 NE 及 5-HT 系統。PMID 10757255（RCT，venlafaxine vs amitriptyline，含 melancholic subgroup 分析）及 PMID 8773291（RCT，mianserin vs amitriptyline in melancholic inpatients）提供直接亞型證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "neurotic depression",
+      "txgnn": {
+        "score": 0.95481538772583,
+        "rank": 25510
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study（1988）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "400982",
+            "title": "Pharmacokinetics and pharmacodynamics of amitriptyline in depression.",
+            "authors": [
+              "Coppen A",
+              "Ghose K",
+              "Jørgensen A"
+            ],
+            "journal": "Progress in neuro-psychopharmacology",
+            "year": "1979",
+            "abstract": "1. The therapeutic effect and pharmacokinetics of amitriptyline were assessed in thirty-five patients suffering from primary depressive illness during inpatient treatment. 2. Contrary to our previous study, no significant correlation was obtained between the plasma concentrations of amitriptyline, nortriptyline or total tricyclics with Hamilton rating score at 6 weeks or percentage improvement after 6 weeks treatment. 3. There was also no correlation with the plasma concentrations of tricyclics ",
+            "classification": {
+              "study_type": "PK/PD Study（1979）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7049292",
+            "title": "Phenelzine and amitriptyline: effects on symptoms of neurotic depression.",
+            "authors": [
+              "Rowan P R",
+              "Paykel E S",
+              "Parker R R"
+            ],
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "year": "1982",
+            "abstract": "A double-blind controlled trial of phenelzine, amitriptyline and placebo was carried out in out-patients suffering from depression or mixed anxiety and depression. After six weeks treatment both active drugs were clearly superior to placebo and of similar efficacy; therapeutic effects started to appear at two weeks. Comparisons on symptom ratings showed that both drugs acted as true antidepressants, producing their greatest effects on ratings of depressive mood and thought content. There were ad",
+            "classification": {
+              "study_type": "RCT（phenelzine vs amitriptyline in neurotic depression，1982，直接主題）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1960381",
+            "title": "A comparison of fluoxetine and amitriptyline in the treatment of major depression.",
+            "authors": [
+              "Keegan D",
+              "Bowen R C",
+              "Blackshaw S",
+              "Saleh S",
+              "Dayal N"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1991",
+            "abstract": "Fluoxetine, a new serotonin uptake blocking antidepressant, was compared with amitriptyline in a double-blind study. Patients were diagnosed as having major depression, according to DSM-III criteria, when interviewed with the Diagnostic Interview Schedule. There was significant improvement in patient and observer ratings of depression in both groups, with no difference between groups. Recent memory improved significantly in the fluoxetine group but not in the amitriptyline group. Numbers of pati",
+            "classification": {
+              "study_type": "RCT（fluoxetine vs amitriptyline，1991）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10757255",
+            "title": "Double-blind comparison of venlafaxine and amitriptyline in outpatients with major depression with or without melancholia.",
+            "authors": [
+              "Gentil V",
+              "Kerr-Correa F",
+              "Moreno R",
+              "D'Arrigo Busnello E",
+              "De Campos J A"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2000",
+            "abstract": "The purpose of this study was to compare the efficacy and tolerability of venlafaxine and amitriptyline in outpatients with major depression with or without melancholia. This was an 8-week, multicentre, randomized, double-blind, parallel-group comparison of venlafaxine and amitriptyline. Outpatients with DSM-IV major depression, a minimum score of 20 on the 21-item Hamilton Depression Rating Scale (HAM-D), and depressive symptoms for at least 1 month were eligible. Patients were randomly assigne",
+            "classification": {
+              "study_type": "RCT（venlafaxine vs amitriptyline in outpatient MDD，2000）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7052009",
+            "title": "Response to phenelzine and amitriptyline in subtypes of outpatient depression.",
+            "authors": [
+              "Paykel E S",
+              "Rowan P R",
+              "Parker R R",
+              "Bhat A V"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "Outpatients with depression and mixed anxiety-depression were treated for six weeks with phenelzine sulfate, amitriptyline hydrochloride, or placebo in a controlled trial. Both active drugs were superior to placebo and were closely comparable in efficacy. Interactions were examined between drug response and classifications based on three different usages of the term atypical depression: additional anxiety or phobic symptoms, atypical functional shift, and nonendogenous depression. Some additiona",
+            "classification": {
+              "study_type": "RCT（phenelzine vs amitriptyline，neurotic subtype 分層分析，1982）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2858187",
+            "title": "Alprazolam, amitriptyline, doxepin, and placebo in the treatment of depression.",
+            "authors": [
+              "Rickels K",
+              "Feighner J P",
+              "Smith W T"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1985",
+            "abstract": "Five hundred four outpatients suffering from a major depressive episode were randomly assigned to receive either amitriptyline, doxepin, alprazolam, or placebo. The study was conducted in three treatment centers during a six-week period. All three active medications produced significantly more clinical improvement than did placebo, irrespective of the patient's initial anxiety, depression, and psychomotor retardation and irrespective of the patient's assignment to various subtypes of depression,",
+            "classification": {
+              "study_type": "RCT（多藥物比較，含 amitriptyline，1985）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6764165",
+            "title": "Evaluation of amoxapine.",
+            "authors": [
+              "Kinney J L",
+              "Evans R L"
+            ],
+            "journal": "Clinical pharmacy",
+            "year": "1982",
+            "abstract": "The pharmacology, pharmacokinetics, clinical trials, side effects, and dosage of amoxapine are reviewed. Amoxapine is a tricyclic dibenzoxazepine antidepressant that is chemically similar to the antipsychotic agent loxapine. In animal tests, amoxapine and its metabolites block reuptake of the neurotransmitter norepinephrine, with little effect on serotonin. It is rapidly and virtually completely absorbed when administered orally; peak serum concentrations occur one to two hours after ingestion. ",
+            "classification": {
+              "study_type": "Comparative Review（amoxapine 評估，1982）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "727903",
+            "title": "A comparison of electroconvulsive therapy and combined phenelzine-amitriptyline in refractory depression.",
+            "authors": [
+              "Davidson J",
+              "McLeod M",
+              "Law-Yone B",
+              "Linnoila M"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1978",
+            "abstract": "Combined monoamine oxidase (MAO) inhibitor-tricyclic antidepressant therapy and electroconvulsive therapy (ECT) were compared in a population of refractory depressive patients. Seventeen patients were randomly assigned to either of the treatment groups, and an independent observer was used to rate overall progress. Between four and ten ECTs or a combination of phenelzine and amitriptyline were administered. Assays for MAO activity and plasma levels of amitriptyline and nortriptyline were perform",
+            "classification": {
+              "study_type": "RCT（ECT vs phenelzine-amitriptyline in refractory depression，1978）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7609861",
+            "title": "Comparative effects of amitriptyline and amineptine in patients affected by anxious depression.",
+            "authors": [
+              "Rampello L",
+              "Nicoletti G",
+              "Raffaele R",
+              "Drago F"
+            ],
+            "journal": "Neuropsychobiology",
+            "year": "1995",
+            "abstract": "In a double-blind, placebo-controlled study, the therapeutic efficacy of two antidepressants with different neurochemical mechanisms of action, amitriptyline and amineptine, was investigated in patients affected by anxious depression. Sixty-six patients with the primary diagnosis of major depression or bipolar affective disorder (DSM-III-R) and meeting additional operational clinical criteria such as anxiety, trepidation, restlessness, early and/or late insomnia, impulsivity, hostility, dysphori",
+            "classification": {
+              "study_type": "RCT（amitriptyline vs amineptine in anxious depression，1995）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33438398",
+            "title": "Classics in Chemical Neuroscience: Amitriptyline.",
+            "authors": [
+              "McClure Elliot W",
+              "Daniels R Nathan"
+            ],
+            "journal": "ACS chemical neuroscience",
+            "year": "2021",
+            "abstract": "Amitriptyline was the second tricyclic antidepressant to appear on the market for major depressive disorder under the brand name Elavil in 1961. Since its emergence, amitriptyline has been an effective therapeutic in various disease states and disorders but has also been a concerning source of cardiotoxicity. Amitriptyline inhibits serotonin and norepinephrine reuptake as well as produces off-target activity at histaminergic, muscarinic, and various other receptors. Its role as a modulator of mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7092486",
+            "title": "Atypical depression.",
+            "authors": [
+              "Davidson J R",
+              "Miller R D",
+              "Turnbull C D",
+              "Sullivan J L"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "The term atypical depression generally indicates either depression accompanied by severe anxiety (type A) or by atypical vegetative symptoms, ie, increased appetite, weight, sleep, or libido (type V). Early age at onset, predominance in women, outpatient status, mild intensity, rarity of attempted suicide, nonbipolarity, nonendogenicity, and minimal psychomotor change are common to both types. Some types of bipolar depression may be considered as atypical if accompanied by reversed vegetative ch",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8773291",
+            "title": "A controlled study of the efficacy and safety of mianserin and amitriptyline in depressive inpatients.",
+            "authors": [
+              "Möller H J",
+              "Kasper S",
+              "Müller H",
+              "Kissling W",
+              "Fuger J"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "1995",
+            "abstract": "As with other second-generation antidepressants, the antidepressive efficacy of mianserin was investigated in double-blind control group studies, mostly under outpatient conditions. This study tested the antidepressive efficacy and safety of mianserin as compared to amitriptyline in a sample of 51 depressed inpatients suffering from major depression. No statistically significant difference was found with regard to the main efficacy outcome criterion, the HAMD. The tolerability results demonstrat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2315430",
+            "title": "Aspects of amitriptyline and nortriptyline plasma levels monitoring in depression.",
+            "authors": [
+              "Corona G L",
+              "Cucchi M L",
+              "Frattini P",
+              "Santagostino G",
+              "Schinelli S"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "1990",
+            "abstract": "Fifty-nine depressed female inpatients were treated with 100 mg amitriptyline (AMT) IM for 4 weeks. Depression ratings and determinations of the parent drug and nortriptyline (NT) were performed weekly. No direct relationship between plasma AMT + NT concentrations and therapeutic response was apparent, but beneficial therapeutic responses and significantly lower side-effect scores were more frequently noted in subjects with concentrations in the 100-200 ng/ml range. AMT + NT concentrations were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15445873",
+            "title": "Recognition and treatment of depression with amitriptyline.",
+            "authors": [
+              "SETTEL E"
+            ],
+            "journal": "Clinical medicine (Northfield, Ill.)",
+            "year": "1961",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3289717",
+            "title": "A double blind comparison of alprazolam and amitriptyline hydrochloride in the treatment of nonpsychotic depression.",
+            "authors": [
+              "Singh A N",
+              "Nair N P",
+              "Suranyi-Cadotte B",
+              "Schwartz G",
+              "Lizondo E"
+            ],
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "1988",
+            "abstract": "In a six week, double-blind, parallel study of alprazolam and amitriptyline hydrochloride in 130 outpatients suffering from moderate to severe nonpsychotic depression, alprazolam was as effective as amitriptyline hydrochloride in relieving depressive symptoms and significantly more effective in relieving symptoms of anxiety and somatization. Alprazolam showed an earlier onset of activity in most measurements of efficacy and produced fewer side effects than amitriptyline hydrochloride. Anticholin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1932407",
+            "title": "Longitudinal effect of amitriptyline and fluoxetine treatment on plasma phenylacetic acid concentrations in depression.",
+            "authors": [
+              "Davis B A",
+              "Boulton A A",
+              "Yu P H",
+              "Durden D A",
+              "Keegan D L"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1991",
+            "abstract": "Unconjugated (U-PAA), conjugated (C-PAA), and total phenylacetic acid (T-PAA) concentrations in blood plasma and monoamine oxidase (MAO) activity in platelets towards phenylethylamine (PE) were determined in 40 drug-free, depressed patients (23 melancholic, 17 nonmelancholic) from five psychiatric treatment centers, and in 34 normal healthy volunteers. No significant differences were found between controls and all depressed patients or between melancholic and nonmelancholic depressed patients. T",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3137218",
+            "title": "Differential effect of amitriptyline and bupropion on primary and secondary depression: a pilot study.",
+            "authors": [
+              "Othmer S C",
+              "Othmer E",
+              "Preskorn S H",
+              "Mac D"
+            ],
+            "journal": "The Journal of clinical psychiatry",
+            "year": "1988",
+            "abstract": "In a prospective, controlled, double-blind study, 37 patients with major depressive disorder were subclassified into primary depression (N = 25) and secondary (N = 12) depression and treated with either amitriptyline (primary depressives N = 13, secondary depressives N = 6) or bupropion (primary depressives N = 12, secondary depressives N = 6). A differential response to the novel antidepressant bupropion was observed between the two diagnostic subgroups, but no differential response to amitript",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8672606",
+            "title": "The role of pterins in depression and the effects of antidepressive therapy.",
+            "authors": [
+              "Abou-Saleh M T",
+              "Anderson D N",
+              "Collins J",
+              "Hughes K",
+              "Cattell R J"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1995",
+            "abstract": "Urinary excretion of neopterins (N) and biopterins (B) was measured in 48 patients with depression before and after treatment with placebo, antidepressants, or electroconvulsive therapy (ECT), and in 26 healthy control subjects. Patients prior to and after treatment had a significantly greater neopterin/biopterin (N:B) ratio than control subjects. There was a significant correlation between N:B ratios and the severity of depression and plasma cortisol. As a raised N:B ratio implies failure to co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8897118",
+            "title": "Comparative efficacy of lithium and amitriptyline in the maintenance treatment of recurrent unipolar depression: a randomised study.",
+            "authors": [
+              "Greil W",
+              "Ludwig-Mayerhofer W",
+              "Erazo N",
+              "Engel R R",
+              "Czernik A"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1996",
+            "abstract": "The present study, including 81 depressive patients, compares the prophylactic efficacy of lithium and amitriptyline in recurrent unipolar depression over a treatment period of 2.5 years in a randomised multicentre design. Hospitalisation, re-emergence of depressive or subdepressive recurrences, unwanted side-effects and need of concomitant psychotropic medication were considered to indicate treatment failures. Average dosage for amitriptyline was 98 +/- 37 mg/day, average lithium blood level wa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Neurotic depression（神經症性憂鬱症，現對應 DSM-5 之 MDD with anxious distress specifier 或 persistent depressive disorder）以情境反應性、顯著焦慮特徵及神經質人格為主。Amitriptyline 同時具備抗憂鬱（NE/5-HT 再攝取抑制）與抗焦慮效果（H1 拮抗、α1 阻斷），理論上對此焦慮-憂鬱混合亞型有優勢。PMID 7049292 為直接針對 neurotic depression 之 RCT（phenelzine vs amitriptyline），PMID 7609861 測試 amitriptyline 於 anxious depression。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "phobic disorder",
+      "txgnn": {
+        "score": 0.9468377232551576,
+        "rank": 27411
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study（Hamilton 焦慮量表，1988）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "365127",
+            "title": "Clinical pharmacology of phenelzine.",
+            "authors": [
+              "Robinson D S",
+              "Nies A",
+              "Ravaris C L",
+              "Ives J O",
+              "Bartlett D"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1978",
+            "abstract": "There is renewed interest in the clinical pharmacology of phenelzine sulfate and other monoamine oxidase (MAO) inhibitors. Newer clinical and analytic techniques recently have been applied to investigations of this class of drugs in man. The results show that drugs such as phenelzine are effective in nonendogenous depression and phobic disorders. Clinical response to phenelzine is related to platelet MAO inhibition and dosage per unit body weight. High percent MAO inhibition in platelets at two ",
+            "classification": {
+              "study_type": "Review（phenelzine 臨床藥理學，1978）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7052009",
+            "title": "Response to phenelzine and amitriptyline in subtypes of outpatient depression.",
+            "authors": [
+              "Paykel E S",
+              "Rowan P R",
+              "Parker R R",
+              "Bhat A V"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "Outpatients with depression and mixed anxiety-depression were treated for six weeks with phenelzine sulfate, amitriptyline hydrochloride, or placebo in a controlled trial. Both active drugs were superior to placebo and were closely comparable in efficacy. Interactions were examined between drug response and classifications based on three different usages of the term atypical depression: additional anxiety or phobic symptoms, atypical functional shift, and nonendogenous depression. Some additiona",
+            "classification": {
+              "study_type": "RCT（phenelzine vs amitriptyline 在門診憂鬱/恐懼亞型，1982）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7234472",
+            "title": "MAO inhibition and control of anxiety following amitriptyline therapy. A pilot study.",
+            "authors": [
+              "Davidson J",
+              "Linnoila M",
+              "Raft D",
+              "Turnbull C D"
+            ],
+            "journal": "Acta psychiatrica Scandinavica",
+            "year": "1981",
+            "abstract": "In a pilot study, 32 patients with mixed states of anxiety, depression, somatization and panic received amitriptyline for 4 weeks, the dose ranging from 50 to 300 mg/day. Steady-state plasma levels of the drug and activity of platelet monoamine oxidase were measured after 4 weeks. Clinical change was rated, using the SCL-90. Amitriptyline produced a small but significant inhibition of platelet monoamine oxidase activity (range 1.4--82%). A significant positive correlation was noted between MAO i",
+            "classification": {
+              "study_type": "Pilot Study（amitriptyline 後 MAO 活性與焦慮控制，1981）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33153050",
+            "title": "Neuropeptide Y as Alternative Pharmacotherapy for Antidepressant-Resistant Social Fear.",
+            "authors": [
+              "Kornhuber Johannes",
+              "Zoicas Iulia"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "abstract": "In many social anxiety disorder (SAD) patients, the efficacy of antidepressant therapy is unsatisfactory. Here, we investigated whether mice deficient for the lysosomal glycoprotein acid sphingomyelinase (ASM-/-) represent an appropriate tool to study antidepressant-resistant social fear. We also investigated whether neuropeptide Y (NPY) reduces this antidepressant-resistant social fear in ASM-/- mice, given that NPY reduced social fear in a mouse model of SAD, namely social fear conditioning (S",
+            "classification": {
+              "study_type": "Research Article（NPY 用於抗憂鬱藥抵抗性社交恐懼，機轉研究，2020）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6215240",
+            "title": "Zimelidine: a review of its pharmacological properties and therapeutic efficacy in depressive illness.",
+            "authors": [
+              "Heel R C",
+              "Morley P A",
+              "Brogden R N",
+              "Carmine A A",
+              "Speight T M"
+            ],
+            "journal": "Drugs",
+            "year": "1982",
+            "abstract": "Zimelidine is a new antidepressant, which is structurally unrelated to the tricyclic and tetracyclic antidepressants. The pharmacological profile of zimelidine is different to that of other antidepressants in that it appears to owe the major part of its activity to the inhibition of serotonin uptake within the central nervous system. It appears that the demethylated metabolite, norzimelidine, may be responsible for most of the pharmacological activity. Studies to date suggest that zimelidine has",
+            "classification": {
+              "study_type": "Review（zimelidine 藥理與療效，含恐懼症，1982）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7717094",
+            "title": "Reversible and selective inhibitors of monoamine oxidase A in mental and other disorders.",
+            "authors": [
+              "Priest R G",
+              "Gimbrett R",
+              "Roberts M",
+              "Steinert J"
+            ],
+            "journal": "Acta psychiatrica Scandinavica. Supplementum",
+            "year": "1995",
+            "abstract": "The clinically tested reversible inhibitors of monoamine oxidase A (RIMAs) include brofaromine, moclobemide and toloxatone. Moclobemide has shown unequivocal antidepressant activity against serious depressive illness in 4 placebo-controlled double-blind trials. It has been compared with amitriptyline, imipramine, clomipramine, desipramine, maprotiline, fluoxetine, fluvoxamine, tranylcypromine, toloxatone, mianserin and amineptine in the treatment of depressive disorders. Meta-analysis showed con",
+            "classification": {
+              "study_type": "Review（MAO-A 抑制劑用於焦慮/恐懼症，TCA 類別效應參考，1995）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23338224",
+            "title": "Paroxetine : a review of its pharmacology and therapeutic potential in the management of panic disorder.",
+            "authors": [
+              "Foster R H",
+              "Goa K L"
+            ],
+            "journal": "CNS drugs",
+            "year": "1997",
+            "abstract": "Paroxetine is the first selective serotonin (5-hydroxytryptamine; 5-HT) reuptake inhibitor (SSRI) to be approved for the treatment of patients with panic disorder with or without agoraphobia. It is a highly selective inhibitor of presynaptic serotonin reuptake and does not interact with adrenergic, dopaminergic, histaminergic or serotonergic receptors to any significant extent. Oral paroxetine 10 to 60 mg/day is significantly more effective than placebo in reducing the frequency of panic attacks",
+            "classification": {
+              "study_type": "Review（paroxetine 用於恐慌/恐懼症，間接比較，1997）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14118375",
+            "title": "SOME EXPERIENCES WITH A COMBINATION OF AMITRIPTYLINE AND PERPHENAZINE IN SEVERE PSYCHIATRIC SYNDROMES.",
+            "authors": [
+              "BOWES H A"
+            ],
+            "journal": "Psychosomatics",
+            "year": "1964",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Series（amitriptyline + perphenazine 用於嚴重精神科症候群，1964）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8750",
+            "title": "The rational use of anxiolytics.",
+            "authors": [
+              "Bianchi G N"
+            ],
+            "journal": "The New Zealand medical journal",
+            "year": "1976",
+            "abstract": "The prescribing of anxiolytics is often a hit-and-miss process. Current knowledge is examined to encourage a more rational use of such drugs. Because the common symptoms occur in a great array of illnesses, diagnosis is of first importance. For the transient situational disturbance drugs may be unnecessary or may be used merely for a day or two. If the anxiety state persists for a month or so the illness might be termed an anxiety neurosis and if there is no accompanying depression, a short cour",
+            "classification": {
+              "study_type": "Review（抗焦慮藥之合理使用，含 amitriptyline，1976）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1356491",
+            "title": "MDMA (Ecstasy) precipitation of panic disorder.",
+            "authors": [
+              "Pallanti S",
+              "Mazzi D"
+            ],
+            "journal": "Biological psychiatry",
+            "year": "1992",
+            "abstract": "The authors describe three patients whose panic disorder began during recreational use of MDMA (Ecstasy) and was subsequently complicated by agoraphobic avoidance that continued autonomously after cessation of the drug. Their panic disorder responded well to serotoninergic antidepressant drugs. Theoretical and practical implications are discussed.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2404536",
+            "title": "Efficacy of combined antidepressant therapy in resistant neurotic disorder.",
+            "authors": [
+              "Tyrer P",
+              "Murphy S"
+            ],
+            "journal": "The British journal of psychiatry : the journal of mental science",
+            "year": "1990",
+            "abstract": "A 35-year-old woman with persistent affective and phobic symptoms responded dramatically to a combination of isocarboxazid and amitriptyline, and this improvement was maintained over the next three-and-a-half years. Isocarboxazid was replaced by placebo, using double-blind procedure. The change to placebo was accompanied by a marked increase in anxiety and depressive symptoms, which resolved when active isocarboxazid was reintroduced. It is suggested that combined antidepressant therapy still ha",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10397061",
+            "title": "Animal behavior case of the month. A dog was evaluated because of extreme fear.",
+            "authors": [
+              "Aronson L"
+            ],
+            "journal": "Journal of the American Veterinary Medical Association",
+            "year": "1999",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6614226",
+            "title": "A clinical report of thymoleptic-responsive atypical paranoid psychoses.",
+            "authors": [
+              "Akiskal H S",
+              "Arana G W",
+              "Baldessarini R J",
+              "Barreira P J"
+            ],
+            "journal": "The American journal of psychiatry",
+            "year": "1983",
+            "abstract": "The paranoid disorders of five patients remitted after treatment with thymoleptic agents despite the absence of a full affective syndrome. Their clinical symptoms at admission included suspiciousness, hypervigilance, ideas of reference, hostility, belligerence, and delusions of persecution or of infidelity. Some had phasic disturbances with somatic complaints or prominent phobic anxiety symptoms, a family history of affective disorder, or prior responses to thymoleptic drugs. These observations ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5719912",
+            "title": "[Therapy of psycho-autonomic and dysphoric syndromes in the general practice].",
+            "authors": [
+              "Maiss H J"
+            ],
+            "journal": "Medizinische Klinik",
+            "year": "1968",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1650104",
+            "title": "[Comparative effectiveness of detoxification hemosorption and electroconvulsive therapy in patients with endogenous depression resistant to tricyclic antidepressants].",
+            "authors": [
+              "Kosov N E",
+              "Mosolov S N"
+            ],
+            "journal": "Zhurnal nevropatologii i psikhiatrii imeni S.S. Korsakova (Moscow, Russia : 1952)",
+            "year": "1991",
+            "abstract": "In 79 patients with endogenous depressions (66 MDP and 13 circular schizophrenic patients) which received high doses of tricyclic antidepressants (amitriptyline in agitated forms and melipramine++ in inhibited ones) that remained ineffective for at least one month, hemosorption (HS; 39 patients) or ECT (40 patients) were randomly applied. The overall efficiency of HS and ECT was 53.8% and 60%, respectively. The efficiency of HS was substantially higher than that of ECT in the cases with dominant",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5602736",
+            "title": "[Results of clinical trial of Ro-4-6270 in depressive-anxiety states].",
+            "authors": [
+              "Ardito R",
+              "Paterni F"
+            ],
+            "journal": "Rivista di neurobiologia : organo ufficiale della Societa dei neurologi, neuroradiologi e neurochirurghi ospedalieri",
+            "year": "1967",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4307170",
+            "title": "[Contribution to the clinical study of a new neuroleptic: sulpiride].",
+            "authors": [
+              "Benoit J C",
+              "Delagrange G",
+              "Richou A",
+              "Souchon G",
+              "Sow I"
+            ],
+            "journal": "La semaine des hopitaux : organe fonde par l'Association d'enseignement medical des hopitaux de Paris",
+            "year": "1969",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "5837871",
+            "title": "A monosymptomatic phobia relieved by behaviour therapy.",
+            "authors": [
+              "Perinpanayagam M S"
+            ],
+            "journal": "Guy's Hospital reports",
+            "year": "1965",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1175379",
+            "title": "Clinical experiences with antidepressant drugs in the treatment of anxious-phobic patients.",
+            "authors": [
+              "Howlett L",
+              "Markoff R A"
+            ],
+            "journal": "Comprehensive psychiatry",
+            "year": "1975",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Phobic disorder（恐懼症，含社交恐懼症/特定恐懼症）之藥物治療以 SSRI、SNRI 及 MAO 抑制劑為主。Amitriptyline 之 α1 腎上腺素阻斷（減少自律神經症狀）及 5-HT 效應具理論相關性，但直接 RCT 缺乏。PMID 7234472（Pilot，MAO 抑制與焦慮控制）及 PMID 7052009（RCT，含恐懼症亞型分析）提供最直接但仍有限之佐證。PMID 33153050 揭示 Neuropeptide Y 與抗憂鬱藥抵抗性社交恐懼之交叉機轉，為未來研究假說提供依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "unipolar depression",
+      "txgnn": {
+        "score": 0.9461325407028198,
+        "rank": 27569
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05931965",
+            "title": "Comparative Efficacy of Antidepressants With L-methylfolate, B12, and Magnesium in Depressive Disorders",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 88,
+            "start_date": "2022-10-05",
+            "completion_date": "2023-08-31",
+            "brief_summary": "The aim of this clinical trial is to compare the effect of antidepressants in combination with different dietary supplements in patients with depression. Our main objective is to compare the efficacy of antidepressants in combination with either L-methyl folate, Vit B12, or magnesium) in patients with depressive disorders. The levels of depressive symptoms as measured by the Patient Health Questionnaire (PHQ-9) at base level and during follow-up.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Amitriptyline 與補充劑組合研究，unipolar depression 族群，n=88"
+            }
+          },
+          {
+            "nct_id": "NCT02237937",
+            "title": "Optimizing Antidepressant Treatment by Genotype-dependent Adjustment of Medication According to the ABCB1 Gene",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 80,
+            "start_date": "2011-09",
+            "completion_date": "2014-12",
+            "brief_summary": "The study evaluates the ABCB1-genotype dependent efficacy of a quick dose-escalation strategy within 28 days of treatment with approved antidepressants that are known substrates of the P-glycoprotein, an efflux pump of the blood-brain barrier expressed by the ABCB1 gene.\n\nMoreover, the study evaluates ABCB1-genotype dependent side-effects of approved antidepressants that are known substrates of the P-glycoprotein, an efflux pump of the blood-brain barrier expressed by the ABCB1 gene.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，藥物基因組學指導治療研究，amitriptyline 為標準治療藥物之一"
+            }
+          },
+          {
+            "nct_id": "NCT00325000",
+            "title": "An Intensive Treatment Program of Interpersonal Psychotherapy Plus Pharmacotherapy for Severely Depressed Inpatients",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": "N/A",
+            "start_date": "2000-11",
+            "completion_date": "2004-08",
+            "brief_summary": "We examined the hypotheses that severely depressed inpatients treated for 5 weeks with IPT-S plus pharmacotherapy have 1) a higher reduction in depressive symptoms and 2) higher response- and remission rates compared to pharmacotherapy plus CM. For the follow-up period (12 months) we hypothesized a better symptomatic and psychosocial longterm outcome and lower rates of relapse for patients initially treated with combination therapy.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "已終止之心理治療 + 藥物研究，資料不完整，參考價值有限"
+            }
+          },
+          {
+            "nct_id": "NCT00351910",
+            "title": "A Multi-Centre, Double-Blind, Randomised, Parallel-Group, Placebo-Controlled Phase III Study of the Efficacy and Safety of Quetiapine Fumarate Sustained Release (Seroquel SRTM) in Combination With an Antidepressant in the Treatment of Patients With Major Depressive Disorder With Inadequate Response to an Antidepressant Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 494,
+            "start_date": "2006-05",
+            "completion_date": "2007-04",
+            "brief_summary": "To evaluate the efficacy of quetiapine fumarate sustained release (Seroquel SR™) in combination with an antidepressant versus an antidepressant alone in patients with Major Depressive Disorder.\n\nPLEASE NOTE: Seroquel SR and Seroquel XR refer to the same formulation. The SR designation was changed to XR after consultation with FDA.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，COMPLETED，n=494，雙盲安慰劑對照直接 RCT，高品質主要證據"
+            }
+          },
+          {
+            "nct_id": "NCT05952713",
+            "title": "Comparative Responses to 15 Different Antidepressants in Major Depressive Disorder - Results From a Long-term Nation-wide Population-based Study Emulating a Randomized Trial",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 73336,
+            "start_date": "2022-10-01",
+            "completion_date": "2023-07-01",
+            "brief_summary": "Achieving results from RCTs with high internal and external validity is a major challenge within psychiatry due to the nature of psychiatric illnesses. The Investigators will conduct a \"real world\" naturalistic nation-wide population-based longitudinal register linkage study comparing long-term responses to all kinds of antidepressants in patients with major depressive disorder emulating a randomized trial.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "n=73,336 超大型比較研究，包含 unipolar depression 族群，直接比較 amitriptyline 療效"
+            }
+          },
+          {
+            "nct_id": "NCT00704860",
+            "title": "Treatment-Resistant Depression, Hippocampus Atrophy and Serotonin Genetic Polymorphism",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 27,
+            "start_date": "2005-02",
+            "completion_date": "2010-12",
+            "brief_summary": "Reduction of volume of the hippocampus has been associated with major depression in many studies. It has been suggested that antidepressants may protect against hippocampus volume loss in humans associated with multiple episodes of depression and may also reverse the reduction of volume caused by the depression. In addition, genetic markers for serotonin are implicated with depression, and may be an indication of reduced response to antidepressant treatments.\n\nThis study aims to enroll patients ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4，COMPLETED，n=27，治療難治型憂鬱症合併海馬萎縮及 5-HT 基因多型性，樣本量小但機制相關"
+            }
+          },
+          {
+            "nct_id": "NCT02014363",
+            "title": "Double Blind, Non-inferiority Study to Evaluate the Antidepressant Activity of ETS6103 Compared to Amitriptyline in Treating Major Depressive Disorder in Patients With Unsatisfactory Response to Selective Serotonin Re-uptake Inhibitors.",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 164,
+            "start_date": "2013-10",
+            "completion_date": "2015-10",
+            "brief_summary": "To demonstrate that the antidepressant activity of ETS6103 is not inferior to amitriptyline in subjects who have an unsatisfactory response to / are resistant to treatment with SSRIs.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2，COMPLETED，n=164，ETS6103 vs amitriptyline 非劣效性設計，amitriptyline 作為主動對照，間接驗證其療效基準"
+            }
+          },
+          {
+            "nct_id": "NCT01049347",
+            "title": "Hypothalamus-pituitary-adrenal System: Role of the Mineralocorticoid Receptor and Longitudinal Study in Depressed Patients",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 127,
+            "start_date": "1997-10",
+            "completion_date": "2000-05",
+            "brief_summary": "Activation of the hypothalamus-pituitary-adrenal system is monitored using saliva cortisol sampling during the antidepressant treatment with amitriptyline and paroxetine in moderately to severely depressed patients. Additionally, serum and plasma are sampled during the 5-week study period in order to study endocrine and metabolic parameters.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3，COMPLETED，n=127，直接評估 unipolar depression 中 HPA 軸礦皮質素受體功能，amitriptyline 為干預藥物"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25911132",
+            "title": "Dose equivalents of antidepressants: Evidence-based recommendations from randomized controlled trials.",
+            "authors": [
+              "Hayasaka Yu",
+              "Purgato Marianna",
+              "Magni Laura R",
+              "Ogawa Yusuke",
+              "Takeshima Nozomi"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "2015",
+            "abstract": "Dose equivalence of antidepressants is critically important for clinical practice and for research. There are several methods to define and calculate dose equivalence but for antidepressants, only daily defined dose and consensus methods have been applied to date. The purpose of the present study is to examine dose equivalence of antidepressants by a less arbitrary and more systematic method.",
+            "classification": {
+              "study_type": "Evidence-based Review（RCT 資料之抗憂鬱藥劑量等效性）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2963053",
+            "title": "The Hamilton Anxiety Scale: reliability, validity and sensitivity to change in anxiety and depressive disorders.",
+            "authors": [
+              "Maier W",
+              "Buller R",
+              "Philipp M",
+              "Heuser I"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1988",
+            "abstract": "The Hamilton Anxiety Scale (HAM-A) was tested for reliability and validity in two different samples, one sample (n = 97) defined by anxiety disorders, the other sample (n = 101) defined by depressive disorders. The reliability and the concurrent validity of the HAM-A and its subscales proved to be sufficient. Internal validity tested by latent structure analysis was insufficient. The major problems with the HAM-A are that (1) anxiolytic and antidepressant effects cannot be clearly distinguished;",
+            "classification": {
+              "study_type": "Validation Study（Hamilton 量表，1988）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12571431",
+            "title": "Nefazodone in psychotic unipolar and bipolar depression: a retrospective chart analysis and open prospective study on its efficacy and safety versus combined treatment with amitriptyline and haloperidol.",
+            "authors": [
+              "Grunze Heinz",
+              "Marcuse Alain",
+              "Schärer Lars O",
+              "Born Christoph",
+              "Walden Jörg"
+            ],
+            "journal": "Neuropsychobiology",
+            "year": "2002",
+            "abstract": "Although atypical antipsychotics are on the rise, traditional treatment of psychotic (or delusional) depression mostly includes the addition of classical antipsychotics to antidepressants. As there are only few data supporting this approach compared with antidepressant monotherapy, and almost no data comparing it with antidepressants of the latest generation, we conducted a retrospective chart analysis and a prospective, randomized open study on the efficacy and tolerability of nefazodone monoth",
+            "classification": {
+              "study_type": "Retrospective Chart Analysis + Open Prospective（精神病性 unipolar/bipolar depression，2002）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "400982",
+            "title": "Pharmacokinetics and pharmacodynamics of amitriptyline in depression.",
+            "authors": [
+              "Coppen A",
+              "Ghose K",
+              "Jørgensen A"
+            ],
+            "journal": "Progress in neuro-psychopharmacology",
+            "year": "1979",
+            "abstract": "1. The therapeutic effect and pharmacokinetics of amitriptyline were assessed in thirty-five patients suffering from primary depressive illness during inpatient treatment. 2. Contrary to our previous study, no significant correlation was obtained between the plasma concentrations of amitriptyline, nortriptyline or total tricyclics with Hamilton rating score at 6 weeks or percentage improvement after 6 weeks treatment. 3. There was also no correlation with the plasma concentrations of tricyclics ",
+            "classification": {
+              "study_type": "PK/PD Study（amitriptyline 藥動學與藥效學，1979）",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1960381",
+            "title": "A comparison of fluoxetine and amitriptyline in the treatment of major depression.",
+            "authors": [
+              "Keegan D",
+              "Bowen R C",
+              "Blackshaw S",
+              "Saleh S",
+              "Dayal N"
+            ],
+            "journal": "International clinical psychopharmacology",
+            "year": "1991",
+            "abstract": "Fluoxetine, a new serotonin uptake blocking antidepressant, was compared with amitriptyline in a double-blind study. Patients were diagnosed as having major depression, according to DSM-III criteria, when interviewed with the Diagnostic Interview Schedule. There was significant improvement in patient and observer ratings of depression in both groups, with no difference between groups. Recent memory improved significantly in the fluoxetine group but not in the amitriptyline group. Numbers of pati",
+            "classification": {
+              "study_type": "RCT（fluoxetine vs amitriptyline 在 MDD，1991）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10757255",
+            "title": "Double-blind comparison of venlafaxine and amitriptyline in outpatients with major depression with or without melancholia.",
+            "authors": [
+              "Gentil V",
+              "Kerr-Correa F",
+              "Moreno R",
+              "D'Arrigo Busnello E",
+              "De Campos J A"
+            ],
+            "journal": "Journal of psychopharmacology (Oxford, England)",
+            "year": "2000",
+            "abstract": "The purpose of this study was to compare the efficacy and tolerability of venlafaxine and amitriptyline in outpatients with major depression with or without melancholia. This was an 8-week, multicentre, randomized, double-blind, parallel-group comparison of venlafaxine and amitriptyline. Outpatients with DSM-IV major depression, a minimum score of 20 on the 21-item Hamilton Depression Rating Scale (HAM-D), and depressive symptoms for at least 1 month were eligible. Patients were randomly assigne",
+            "classification": {
+              "study_type": "RCT（venlafaxine vs amitriptyline 在 MDD 門診患者，2000）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7052009",
+            "title": "Response to phenelzine and amitriptyline in subtypes of outpatient depression.",
+            "authors": [
+              "Paykel E S",
+              "Rowan P R",
+              "Parker R R",
+              "Bhat A V"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "Outpatients with depression and mixed anxiety-depression were treated for six weeks with phenelzine sulfate, amitriptyline hydrochloride, or placebo in a controlled trial. Both active drugs were superior to placebo and were closely comparable in efficacy. Interactions were examined between drug response and classifications based on three different usages of the term atypical depression: additional anxiety or phobic symptoms, atypical functional shift, and nonendogenous depression. Some additiona",
+            "classification": {
+              "study_type": "RCT（phenelzine vs amitriptyline 在門診憂鬱症亞型，1982）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28578901",
+            "title": "Pharmacological treatments and risk of readmission to hospital for unipolar depression in Finland: a nationwide cohort study.",
+            "authors": [
+              "Tiihonen Jari",
+              "Tanskanen Antti",
+              "Hoti Fabian",
+              "Vattulainen Pia",
+              "Taipale Heidi"
+            ],
+            "journal": "The lancet. Psychiatry",
+            "year": "2017",
+            "abstract": "Little is known about the comparative effectiveness of long-term pharmacological treatments for severe unipolar depression. We aimed to study the effectiveness of pharmacological treatments in relapse prevention in a nationwide cohort of patients who had been admitted to hospital at least once as a result of unipolar depression.",
+            "classification": {
+              "study_type": "Cohort Study（芬蘭國家登記資料，unipolar depression 再住院風險，2017）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6812139",
+            "title": "Amitriptyline and nortriptyline response profiles in unipolar depressed patients.",
+            "authors": [
+              "Lehmann L S",
+              "Bowden C L",
+              "Redmond F C",
+              "Stanton B C"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "1982",
+            "abstract": "The relationship between steady-state plasma concentration and clinical response was studied in 22 hospitalized unipolar depressed patients. In a double-blind format the patients were randomly assigned to receive amitriptyline or nortriptyline. Dosage was adjusted based on plasma level with the aim of achieving a concentration of 60-180 ng/ml. By week 4 of treatment, 83% of amitriptyline patients and all nortriptyline patients were within the targeted plasma range. Based on final ratings of clin",
+            "classification": {
+              "study_type": "RCT（amitriptyline vs nortriptyline 在 unipolar depression 之反應預測因子，1982）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2858187",
+            "title": "Alprazolam, amitriptyline, doxepin, and placebo in the treatment of depression.",
+            "authors": [
+              "Rickels K",
+              "Feighner J P",
+              "Smith W T"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1985",
+            "abstract": "Five hundred four outpatients suffering from a major depressive episode were randomly assigned to receive either amitriptyline, doxepin, alprazolam, or placebo. The study was conducted in three treatment centers during a six-week period. All three active medications produced significantly more clinical improvement than did placebo, irrespective of the patient's initial anxiety, depression, and psychomotor retardation and irrespective of the patient's assignment to various subtypes of depression,",
+            "classification": {
+              "study_type": "RCT（alprazolam、amitriptyline、doxepin vs 安慰劑，1985）",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8897118",
+            "title": "Comparative efficacy of lithium and amitriptyline in the maintenance treatment of recurrent unipolar depression: a randomised study.",
+            "authors": [
+              "Greil W",
+              "Ludwig-Mayerhofer W",
+              "Erazo N",
+              "Engel R R",
+              "Czernik A"
+            ],
+            "journal": "Journal of affective disorders",
+            "year": "1996",
+            "abstract": "The present study, including 81 depressive patients, compares the prophylactic efficacy of lithium and amitriptyline in recurrent unipolar depression over a treatment period of 2.5 years in a randomised multicentre design. Hospitalisation, re-emergence of depressive or subdepressive recurrences, unwanted side-effects and need of concomitant psychotropic medication were considered to indicate treatment failures. Average dosage for amitriptyline was 98 +/- 37 mg/day, average lithium blood level wa",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7609861",
+            "title": "Comparative effects of amitriptyline and amineptine in patients affected by anxious depression.",
+            "authors": [
+              "Rampello L",
+              "Nicoletti G",
+              "Raffaele R",
+              "Drago F"
+            ],
+            "journal": "Neuropsychobiology",
+            "year": "1995",
+            "abstract": "In a double-blind, placebo-controlled study, the therapeutic efficacy of two antidepressants with different neurochemical mechanisms of action, amitriptyline and amineptine, was investigated in patients affected by anxious depression. Sixty-six patients with the primary diagnosis of major depression or bipolar affective disorder (DSM-III-R) and meeting additional operational clinical criteria such as anxiety, trepidation, restlessness, early and/or late insomnia, impulsivity, hostility, dysphori",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33438398",
+            "title": "Classics in Chemical Neuroscience: Amitriptyline.",
+            "authors": [
+              "McClure Elliot W",
+              "Daniels R Nathan"
+            ],
+            "journal": "ACS chemical neuroscience",
+            "year": "2021",
+            "abstract": "Amitriptyline was the second tricyclic antidepressant to appear on the market for major depressive disorder under the brand name Elavil in 1961. Since its emergence, amitriptyline has been an effective therapeutic in various disease states and disorders but has also been a concerning source of cardiotoxicity. Amitriptyline inhibits serotonin and norepinephrine reuptake as well as produces off-target activity at histaminergic, muscarinic, and various other receptors. Its role as a modulator of mo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6780997",
+            "title": "Prolactin secretion in women with unipolar and bipolar depression.",
+            "authors": [
+              "Linkowski P",
+              "Brauman H",
+              "Mendlewicz J"
+            ],
+            "journal": "Psychiatry research",
+            "year": "1980",
+            "abstract": "Plasma prolactin levels and prolactin response to thyrotropin releasing hormone (TRH) were studied in 27 unipolar and 24 bipolar depressive female patients before and after tricyclic antidepressant treatment, as well as in 38 normal controls matched for age, sex, and menopausal status. Before antidepressant treatment, basal prolactin levels were significantly lower in both premenopausal and postmenopausal bipolar patients but only in postmenopausal unipolar patients when compared to controls. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7092486",
+            "title": "Atypical depression.",
+            "authors": [
+              "Davidson J R",
+              "Miller R D",
+              "Turnbull C D",
+              "Sullivan J L"
+            ],
+            "journal": "Archives of general psychiatry",
+            "year": "1982",
+            "abstract": "The term atypical depression generally indicates either depression accompanied by severe anxiety (type A) or by atypical vegetative symptoms, ie, increased appetite, weight, sleep, or libido (type V). Early age at onset, predominance in women, outpatient status, mild intensity, rarity of attempted suicide, nonbipolarity, nonendogenicity, and minimal psychomotor change are common to both types. Some types of bipolar depression may be considered as atypical if accompanied by reversed vegetative ch",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8773291",
+            "title": "A controlled study of the efficacy and safety of mianserin and amitriptyline in depressive inpatients.",
+            "authors": [
+              "Möller H J",
+              "Kasper S",
+              "Müller H",
+              "Kissling W",
+              "Fuger J"
+            ],
+            "journal": "Pharmacopsychiatry",
+            "year": "1995",
+            "abstract": "As with other second-generation antidepressants, the antidepressive efficacy of mianserin was investigated in double-blind control group studies, mostly under outpatient conditions. This study tested the antidepressive efficacy and safety of mianserin as compared to amitriptyline in a sample of 51 depressed inpatients suffering from major depression. No statistically significant difference was found with regard to the main efficacy outcome criterion, the HAMD. The tolerability results demonstrat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6432167",
+            "title": "Prophylaxis against unipolar depression.",
+            "authors": [
+              "Freeman C P"
+            ],
+            "journal": "British medical journal (Clinical research ed.)",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2315430",
+            "title": "Aspects of amitriptyline and nortriptyline plasma levels monitoring in depression.",
+            "authors": [
+              "Corona G L",
+              "Cucchi M L",
+              "Frattini P",
+              "Santagostino G",
+              "Schinelli S"
+            ],
+            "journal": "Psychopharmacology",
+            "year": "1990",
+            "abstract": "Fifty-nine depressed female inpatients were treated with 100 mg amitriptyline (AMT) IM for 4 weeks. Depression ratings and determinations of the parent drug and nortriptyline (NT) were performed weekly. No direct relationship between plasma AMT + NT concentrations and therapeutic response was apparent, but beneficial therapeutic responses and significantly lower side-effect scores were more frequently noted in subjects with concentrations in the 100-200 ng/ml range. AMT + NT concentrations were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15445873",
+            "title": "Recognition and treatment of depression with amitriptyline.",
+            "authors": [
+              "SETTEL E"
+            ],
+            "journal": "Clinical medicine (Northfield, Ill.)",
+            "year": "1961",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3289717",
+            "title": "A double blind comparison of alprazolam and amitriptyline hydrochloride in the treatment of nonpsychotic depression.",
+            "authors": [
+              "Singh A N",
+              "Nair N P",
+              "Suranyi-Cadotte B",
+              "Schwartz G",
+              "Lizondo E"
+            ],
+            "journal": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+            "year": "1988",
+            "abstract": "In a six week, double-blind, parallel study of alprazolam and amitriptyline hydrochloride in 130 outpatients suffering from moderate to severe nonpsychotic depression, alprazolam was as effective as amitriptyline hydrochloride in relieving depressive symptoms and significantly more effective in relieving symptoms of anxiety and somatization. Alprazolam showed an earlier onset of activity in most measurements of efficacy and produced fewer side effects than amitriptyline hydrochloride. Anticholin",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Unipolar depression（無雙極特徵之單相憂鬱症）與 MDD 病理高度重疊，均涉及單胺系統功能不足及 HPA 軸失調。NCT01049347（Phase 3，n=127）直接測試 amitriptyline 在此族群之 HPA 軸礦皮質素受體縱向效應；NCT00351910（Phase 3，n=494）及大型比較研究 NCT05952713（n=73,336）提供充足高等級證據。需注意 unipolar vs bipolar 鑑別診斷，TCA 在雙極症可能誘發躁狂發作。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "blepharophimosis - intellectual disability syndrome, Ohdo type",
+      "txgnn": {
+        "score": 0.9447351098060608,
+        "rank": 27880
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Blepharophimosis-intellectual disability syndrome, Ohdo type（BIDS-O，又稱 Maat-Kievit-Brunner syndrome）為 MED13L 基因突變所致之 X-linked 遺傳疾病，以眼瞼裂縮小、智能障礙及特殊面容為核心特徵。病因為基因/染色體層面之發育異常，amitriptyline 之單胺再攝取抑制機轉對此類遺傳結構異常無直接治療邏輯。TxGNN 分數（0.945）為最低之預測候選，判斷為計算假陽性（圖譜中神經/行為表型之非特異性關聯）。建議從預測候選清單中移除此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "benign paroxysmal torticollis of infancy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "endogenous depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "endogenous depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "endogenous depression"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "agoraphobia"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "major depressive disorder"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "major depressive disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "major depressive disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "Ohdo syndrome and variants"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "melancholia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "neurotic depression"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "phobic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "phobic disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "phobic disorder"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "unipolar depression"
+      },
+      "result_status": "success",
+      "result_count": 8,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "unipolar depression"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "unipolar depression"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Amitriptyline",
+        "disease": "blepharophimosis - intellectual disability syndrome, Ohdo type"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

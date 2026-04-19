@@ -1,0 +1,202 @@
+## Gliclazide 藥物再利用證據分析
+
+**分析背景**：Gliclazide 為磺醯脲類降血糖藥（DB01120），主要機轉為阻斷胰臟 β 細胞 ATP 敏感性鉀通道（KATP/SUR1），促進胰島素分泌；並具獨特的氮雜雙環辛基結構，賦予抗氧化/自由基清除特性。所有 10 個適應症均無臨床試驗與文獻支撐，純為 TxGNN 模型預測。
+
+```json
+{
+  "drug": "Gliclazide",
+  "drugbank_id": "DB01120",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "所有適應症均無臨床試驗及文獻佐證，全數為 TxGNN 模型預測（L5）。以下分析基於藥理機轉推論與疾病生物學評估。",
+  "indications": [
+    {
+      "disease_name": "classic stiff person syndrome",
+      "txgnn_score": 0.9796,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "僵硬人綜合症（SPS）具抗 GAD65（麩胺酸脫羧酶）自體抗體，GAD65 同時存在於胰臟 β 細胞與 GABA 能神經元。Gliclazide 阻斷 SUR1/KATP 通道，而 KATP 通道亦表現於中樞神經元，理論上可能影響 GABA 能突觸傳導。假說：KATP 通道調節可補償 GAD65 功能缺失所致 GABA 合成不足。機轉連結具科學基礎但未經驗證，值得探索。",
+      "risk_flags": [
+        "SPS 為自體免疫病，Gliclazide 不具免疫調節機轉",
+        "低血糖風險在非糖尿病患者中需特別評估",
+        "若患者非糖尿病，磺醯脲類使用屬 off-label 第一步需確認安全性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "focal stiff limb syndrome",
+      "txgnn_score": 0.9796,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "局灶性僵硬肢體綜合症為 SPS 的亞型變體，部分病例同樣具抗 GAD65 抗體，與 classic SPS 共享相同假設機轉路徑（KATP 通道/GABAergic 調節）。TxGNN 給出與 classic SPS 完全相同的分數，顯示模型視兩者為高度相關實體。機轉合理性同 classic SPS，但臨床表現更局限，優先級略低。",
+      "risk_flags": [
+        "與 classic SPS 相同的安全性顧慮",
+        "疾病罕見性極高，招募患者困難"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "thiamine-responsive dysfunction syndrome",
+      "txgnn_score": 0.9779,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "硫胺素反應性功能障礙症候群（TRMD/TRMA）由 SLC19A2 基因突變引起，臨床三聯症包含胰島素依賴性糖尿病、大球性貧血、感音神經性聽損。糖尿病成分源於 β 細胞功能障礙，Gliclazide 理論上可刺激殘存 β 細胞分泌胰島素。然而，標準治療為硫胺素補充 + 胰島素，使用磺醯脲類機轉合理但臨床必要性存疑。可作為硫胺素治療後仍有 β 細胞功能時的輔助選項假說。",
+      "risk_flags": [
+        "TRMD 患者通常依賴胰島素，殘存 β 細胞功能不確定",
+        "兒科人群為主，Gliclazide 在兒童的安全性數據有限",
+        "硫胺素缺乏本身需優先處理"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "opsismodysplasia",
+      "txgnn_score": 0.9772,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "骨化不良症（Opsismodysplasia）由 INPPL1 基因（編碼 SHIP2 磷酸酶）突變導致，SHIP2 負調控胰島素訊號傳導（PI3K/AKT 路徑）。Gliclazide 促進胰島素分泌，理論上可透過上游訊號增強來補償 SHIP2 缺失。然而，SHIP2 缺失導致的是骨骼發育缺陷而非代謝異常，促進胰島素分泌對骨骼發育路徑的影響極為間接，機轉連結薄弱。",
+      "risk_flags": [
+        "疾病機轉（骨骼形態發育）與 Gliclazide 藥理靶點差距甚遠",
+        "罕見先天性疾病，無代謝異常適應點"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pancreatic agenesis",
+      "txgnn_score": 0.9664,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "胰臟缺如（完全型）患者無胰臟 β 細胞，Gliclazide 的主要靶點（SUR1 KATP 通道於 β 細胞）在此情境下不存在，藥物無法發揮促胰島素分泌機轉。部分型胰臟缺如若有殘存 β 細胞，理論上存在極小可能性，但臨床不可行性極高。此為 TxGNN 預測與藥理現實相悖的典型案例，不建議進一步探索。",
+      "risk_flags": [
+        "藥理靶點（β 細胞）缺失 — 機轉根本不可行",
+        "完全型胰臟缺如患者需依賴胰島素與消化酶替代療法"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "drug-induced localized lipodystrophy",
+      "txgnn_score": 0.9643,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Research Question",
+      "mechanistic_link": "藥物誘導性局部脂肪萎縮最常見於胰島素注射部位（重複注射創傷 + 胰島素局部高濃度影響脂肪細胞）。Gliclazide 作為口服降糖藥可減少胰島素注射次數，間接降低注射部位脂肪萎縮風險。此為間接預防性機轉（非治療性），具實際臨床邏輯。另外，Gliclazide 的抗氧化特性可能減少脂肪細胞氧化應激。機轉連結屬間接但合理。",
+      "risk_flags": [
+        "為預防性而非治療性作用",
+        "需在糖尿病患者中評估，限制適用範圍"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "centrifugal lipodystrophy",
+      "txgnn_score": 0.9623,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "向心性脂肪萎縮（Centrifugal lipodystrophy）為罕見獲得性脂肪萎縮，確切病因不明，可能涉及自體免疫、感染後炎症反應。Gliclazide 的抗氧化特性可能具輕微抗炎效果，但與此疾病的脂肪組織選擇性喪失機轉無直接關聯。模型可能因脂肪代謝相關特徵給出高分，但缺乏足夠機轉支撐。",
+      "risk_flags": [
+        "疾病極罕見，病因不明確",
+        "機轉連結高度推測性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "pressure-induced localized lipoatrophy",
+      "txgnn_score": 0.9614,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "壓力誘導性局部脂肪萎縮為機械性損傷導致，病因為物理壓力（義肢、輔具）而非代謝或免疫異常。Gliclazide 的藥理機轉（KATP 阻斷、胰島素促泌、抗氧化）與物理性脂肪萎縮無關聯路徑。此為 TxGNN 模型在脂肪萎縮疾病群集中的非特異性高分，無實際臨床意義。",
+      "risk_flags": [
+        "物理性病因，藥物干預無理論基礎"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "idiopathic localized lipodystrophy",
+      "txgnn_score": 0.9594,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "特發性局部脂肪萎縮病因未明，可能涉及脂肪細胞分化或代謝異常。磺醯脲類藥物對脂肪細胞的影響主要透過胰島素訊號間接作用，文獻中無 Gliclazide 對脂肪細胞直接作用的確切證據。評分可能來自模型學習脂肪代謝特徵的聚類效應，機轉依據不足。",
+      "risk_flags": [
+        "病因不明，難以設計合理干預假說"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "autoimmune oophoritis",
+      "txgnn_score": 0.8815,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "自體免疫卵巢炎導致卵巢功能早衰，可能與 APS（自體免疫多腺體症候群）相關，後者亦常伴隨自體免疫糖尿病。Gliclazide 的抗氧化特性（自由基清除）理論上可減少自體免疫炎症中的氧化應激損傷，但對卵巢特異性自體免疫機轉（類固醇細胞抗體）無直接調控能力。TxGNN 分數為本分析中最低（0.882），可信度相對較低。",
+      "risk_flags": [
+        "卵巢炎需免疫調節治療（皮質類固醇、免疫抑制劑）",
+        "Gliclazide 無免疫調節活性",
+        "低血糖風險於非糖尿病女性患者"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "L5": 10
+    },
+    "decision_distribution": {
+      "S3": 0,
+      "S2": 0,
+      "S1": 0,
+      "S0": 10
+    },
+    "recommendation_distribution": {
+      "Proceed with Guardrails": 0,
+      "Research Question": 4,
+      "Hold": 6
+    },
+    "research_question_indications": [
+      "classic stiff person syndrome",
+      "focal stiff limb syndrome",
+      "thiamine-responsive dysfunction syndrome",
+      "drug-induced localized lipodystrophy"
+    ],
+    "key_finding": "Gliclazide 的 KATP 通道阻斷機轉及抗氧化特性為模型預測的主要驅動因素。GAD65 自體免疫與 KATP 通道的 CNS 表現使 SPS 相關適應症具最高機轉合理性。胰臟缺如為唯一藥理靶點不存在的案例，應明確排除。脂肪萎縮群集疾病評分高可能為模型聚類效應所致。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | TxGNN 分數 | 等級 | 決策 | 建議 | 關鍵機轉 |
+|--------|-----------|------|------|------|----------|
+| Classic SPS | 0.9796 | L5 | S0 | 研究問題 ⚗️ | KATP/GAD65/GABA 通道連結 |
+| Focal SPS | 0.9796 | L5 | S0 | 研究問題 ⚗️ | 同 classic SPS |
+| Thiamine-responsive | 0.9779 | L5 | S0 | 研究問題 ⚗️ | 殘存 β 細胞糖尿病成分 |
+| Opsismodysplasia | 0.9772 | L5 | S0 | 暫緩 ⛔ | SHIP2 胰島素訊號極間接 |
+| Pancreatic agenesis | 0.9664 | L5 | S0 | **暫緩** ⛔ | 靶點器官不存在 |
+| Drug-induced lipodystrophy | 0.9643 | L5 | S0 | 研究問題 ⚗️ | 減少胰島素注射間接預防 |
+| Centrifugal lipodystrophy | 0.9623 | L5 | S0 | 暫緩 ⛔ | 機轉連結薄弱 |
+| Pressure-induced lipoatrophy | 0.9614 | L5 | S0 | 暫緩 ⛔ | 物理性病因，藥物無效 |
+| Idiopathic lipodystrophy | 0.9594 | L5 | S0 | 暫緩 ⛔ | 模型聚類效應 |
+| Autoimmune oophoritis | 0.8815 | L5 | S0 | 暫緩 ⛔ | 抗氧化連結過度推測 |
+
+> ⚠️ **YMYL 免責聲明**：以上分析僅供研究參考，不構成醫療建議。所有再利用候選均需經嚴格臨床驗證方可應用。

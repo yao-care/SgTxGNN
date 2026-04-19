@@ -1,0 +1,1237 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00014-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Goserelin",
+    "drugbank_id": "DB00014",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "amenorrhea (disease)",
+      "txgnn": {
+        "score": 0.9998733997344972,
+        "rank": 424
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02483767",
+            "title": "Gonadotropin-Releasing Hormone Agonist for the Preservation of Ovarian Function During Chemotherapy in Premenopausal Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 98,
+            "start_date": "2015-06",
+            "completion_date": "2016-11",
+            "brief_summary": "The study is a prospective randomized control clinical trial which is sponsored by the researchers. The purpose of this study is to determine the effectiveness of Gonadotropin-Releasing hormone agonist on ovarian function for premenopausal breast cancer patients during chemotherapy. The premenopausal breast cancer patients will be randomly (1:1) enrolled to receive standard chemotherapy with the GnRH agonist goserelin (goserelin group) or standard chemotherapy without goserelin (chemotherapy alo",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT（n=98），完成，直接評估 GnRH 促效劑保護卵巢功能（以閉經誘導為指標），高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT03475758",
+            "title": "Phase II Study of Goserelin for Ovarian Protection in Premenopausal Patients Receiving Cyclophosphamide Containing Chemotherapy: Menstruation Outcome",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 100,
+            "start_date": "2018-03",
+            "completion_date": "2020-03",
+            "brief_summary": "The use of adjuvant chemotherapy in younger women with early breast cancer (EBC) has substantially improved the long-term outcome. However, this benefit is associated with long-term toxic effects which are becoming more important as prognosis improves. These include premature menopause and infertility in young pre-menopausal women. The incidence of premature menopause depends on the type and intensity of chemotherapy and the patient's age. In women \\<35 years old, the long-term (3 years after di",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2（n=100），狀態不明，結果未確認，中等相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00068601",
+            "title": "Phase III Trial of LHRH Analog Administration During Chemotherapy to Reduce Ovarian Failure Following Chemotherapy in Early Stage, Hormone-Receptor Negative Breast Cancer",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 257,
+            "start_date": "2003-10",
+            "completion_date": "2016-09",
+            "brief_summary": "RATIONALE: Goserelin blocks hormone production in the ovaries. It is not yet known whether ovarian suppression using goserelin will prevent ovarian failure (early menopause) in women receiving chemotherapy for breast cancer.\n\nPURPOSE: This randomized phase III trial is studying how well giving goserelin together with chemotherapy works compared with chemotherapy alone in preventing early menopause in women with stage I, stage II, or stage IIIA breast cancer.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 RCT（n=257），直接測試 LHRH 類似物（包含 Goserelin）減少化療後卵巢衰竭，完成且已發表結果，高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT02132390",
+            "title": "Study of Adjuvant Toremifene With or Without Goserrelin in Premenopausal Women With Stage I-IIIA, Hormonal Receptor Positive Breast Cancer Accompanied With or Without Chemotherapy Induced Amenorrhoea",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2014-05",
+            "completion_date": "",
+            "brief_summary": "Compare the potential benefits of adjuvant toremifene with or without goserelin in premenopausal women with stage I-IIIA, hormonal receptor positive breast cancer accompanied with or without chemotherapy induced amenorrhoea.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3（n=300），閉經為卵巢抑制的確認指標，狀態不明，間接相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT00488722",
+            "title": "A Prospective, Single-Arm Study to Evaluate the Efficacy and Safety of Zoladex 3.6mg Combined With CEF Chemotherapy as Neo-Adjuvant Therapy in Hormone Responsive, Premenopausal, Operable Breast Cancer",
+            "phase": "NA",
+            "status": "UNKNOWN",
+            "enrollment": "N/A",
+            "start_date": "2007-04",
+            "completion_date": "2009-03",
+            "brief_summary": "It has been found that many breast cancers are hormone dependent and that hormonal therapy by estrogen suppression such as ovarian ablation, tamoxifen and aromatase inhibitor has proven beneficial in both adjuvant and neoadjuvant settings. Zoladex, a kind of luitinizing hormone releasing hormone analogue, can offer efficient estrogen suppression as well. It can induce reversible amenorrhea and the clinical effect is similar to ovarian ablation. Some studies have demonstrated the efficacy of zola",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 不明、狀態不明、樣本數未知，相關性低。"
+            }
+          },
+          {
+            "nct_id": "NCT00427245",
+            "title": "Ovarian Protection Trial In Premenopausal Breast Cancer Patients [OPTION]",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 400,
+            "start_date": "2004-08",
+            "completion_date": "",
+            "brief_summary": "RATIONALE: Goserelin may help prevent early menopause in patients undergoing chemotherapy for breast cancer. It is not yet known whether goserelin is effective in preventing early menopause in women undergoing chemotherapy for breast cancer.\n\nPURPOSE: This randomized phase III trial is studying goserelin to see how well it works compared with no goserelin in preventing early menopause in premenopausal women undergoing chemotherapy for stage I, stage II, or stage III breast cancer.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "最大型 Phase 3 RCT（n=400），直接評估 Goserelin 在化療期間誘導閉經以保護卵巢功能，完成狀態，高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT01218581",
+            "title": "Aromatase Inhibitors or Gonadotropin-releasing Hormone Agonists for the Management of Uterine Adenomyosis: A Randomized Controlled Trial",
+            "phase": "PHASE2, PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 32,
+            "start_date": "2005-12",
+            "completion_date": "2010-01",
+            "brief_summary": "To date, there is no uniform agreement on the most appropriate therapeutic methods for managing women with uterine adenomyosis and/or adenomyoma who want to preserve their fertility. Management with hormonal treatment that aims to reduce the proliferation of endometrial cells is promising, but there is a paucity of well-designed studies to guide treatment. There is a strong need to develop pharmacological agents that provide an efficient outcome. Gonadotripn releasing hormone analogues (GnRHa) h",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 2/3（n=32），評估對象為子宮腺肌症，閉經為次要終點，樣本數較小，中等相關性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "17159194",
+            "title": "Adjuvant chemotherapy followed by goserelin compared with either modality alone: the impact on amenorrhea, hot flashes, and quality of life in premenopausal patients--the International Breast Cancer Study Group Trial VIII.",
+            "authors": [
+              "Bernhard Jürg",
+              "Zahrieh David",
+              "Castiglione-Gertsch Monica",
+              "Hürny Christoph",
+              "Gelber Richard D"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2007",
+            "abstract": "The purpose of this article is to compare quality of life (QOL) and menopausal symptoms among premenopausal patients with lymph node-negative breast cancer receiving chemotherapy, goserelin, or their sequential combination, and to investigate differential effects by age.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1533675",
+            "title": "The induction of amenorrhoea.",
+            "authors": [
+              "Hipkin L J"
+            ],
+            "journal": "Journal of the Royal Army Medical Corps",
+            "year": "1992",
+            "abstract": "A survey has shown that many women favour eliminating menstruation and it has been suggested that therapeutic induction of amenorrhoea might be an advantage in female personnel mobilised for war. The traditional method has been to take the oral contraceptive pill continuously. This produces weight gain and other side-effects; spotting and breakthrough bleeding can be a problem initially. The method is however cheap. The Gonadotrophin Releasing Hormone (GnRH) analogue, goserelin, is extremely eff",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12488406",
+            "title": "Goserelin versus cyclophosphamide, methotrexate, and fluorouracil as adjuvant therapy in premenopausal patients with node-positive breast cancer: The Zoladex Early Breast Cancer Research Association Study.",
+            "authors": [
+              "Jonat W",
+              "Kaufmann M",
+              "Sauerbrei W",
+              "Blamey R",
+              "Cuzick J"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2002",
+            "abstract": "Current adjuvant therapies have improved survival for premenopausal patients with breast cancer but may have short-term toxic effects and long-term effects associated with premature menopause.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12353820",
+            "title": "Overview of luteinizing hormone-releasing hormone agonists in early breast cancer-benefits of reversible ovarian ablation.",
+            "authors": [
+              "Jonat Walter"
+            ],
+            "journal": "Breast cancer research and treatment",
+            "year": "2002",
+            "abstract": "Goserelin ('Zoladex'), a luteinizing hormone-releasing hormone (LHRH) agonist induces reversible ovarian ablation in premenopausal women. It is the most extensively studied LHRH agonist for the treatment of breast cancer and data from a large clinical trial program show that, alone or in combination with tamoxifen, goserelin is at least as effective as cyclophosphamide-methotrexate-5-fluorouracil (CMF) chemotherapy in patients with hormone-sensitive, early disease. Furthermore, goserelin has bee",
+            "classification": {
+              "study_type": "Review/Meta-analysis",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25187267",
+            "title": "Ovarian Ablation Using Goserelin Improves Survival of Premenopausal Patients with Stage II/III Hormone Receptor-Positive Breast Cancer without Chemotherapy-Induced Amenorrhea.",
+            "authors": [
+              "Zhou Juan",
+              "Wu San-Gang",
+              "Wang Jun-Jie",
+              "Sun Jia-Yuan",
+              "Li Feng-Yan"
+            ],
+            "journal": "Cancer research and treatment",
+            "year": "2015",
+            "abstract": "The purpose of this study was to assess the value of ovarian ablation using goserelin in premenopausal patients with stage II/III hormone receptor-positive breast cancer without chemotherapy-induced amenorrhea (CIA).",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12734855",
+            "title": "Ovarian ablation in the adjuvant treatment of premenopausal and perimenopausal breast cancer.",
+            "authors": [
+              "Sainsbury R"
+            ],
+            "journal": "The British journal of surgery",
+            "year": "2003",
+            "abstract": "Ovarian ablation has been employed in the treatment of breast cancer for many decades and, more recently, its value as an adjuvant treatment for premenopausal women with early-stage disease has been clearly demonstrated. This review examines the different methods of achieving ovarian ablation and assesses the relevance of ovarian suppression as a treatment aim.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26951320",
+            "title": "Is Estradiol Monitoring Necessary in Women Receiving Ovarian Suppression for Breast Cancer?",
+            "authors": [
+              "Papakonstantinou Antroula",
+              "Foukakis Theodoros",
+              "Rodriguez-Wallberg Kenny A",
+              "Bergh Jonas"
+            ],
+            "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+            "year": "2016",
+            "abstract": "The Oncology Grand Rounds series is designed to place original reports published in the Journal into clinical context. A case presentation is followed by a description of diagnostic and management challenges, a review of the relevant literature, and a summary of the authors' suggested management approaches. The goal of this series is to help readers better understand how to apply the results of key studies, including those published in Journal of Clinical Oncology, to patients seen in their own ",
+            "classification": {
+              "study_type": "Observational",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28472240",
+            "title": "GnRH agonist for protection against ovarian toxicity during chemotherapy for early breast cancer: the Anglo Celtic Group OPTION trial.",
+            "authors": [
+              "Leonard R C F",
+              "Adamson D J A",
+              "Bertelli G",
+              "Mansi J",
+              "Yellowlees A"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2017",
+            "abstract": "Chemotherapy-induced premature ovarian insufficiency (POI) impacts fertility and other aspects of women's health. The OPTION trial tested whether administration of a gonadotropin-releasing hormone agonist during chemotherapy for early breast cancer reduced the risk of POI.",
+            "classification": {
+              "study_type": "Meta-analysis/RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8513962",
+            "title": "A gonadotropin-releasing hormone agonist versus a low-dose oral contraceptive for pelvic pain associated with endometriosis.",
+            "authors": [
+              "Vercellini P",
+              "Trespidi L",
+              "Colombo A",
+              "Vendola N",
+              "Marchini M"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1993",
+            "abstract": "To evaluate the efficacy of goserelin versus a low-dose cyclic oral contraceptive (OC) in improving pelvic pain in women with endometriosis and to compare recurrence of symptoms during follow-up.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14679153",
+            "title": "Adjuvant chemotherapy followed by goserelin versus either modality alone for premenopausal lymph node-negative breast cancer: a randomized trial.",
+            "authors": [
+              "Castiglione-Gertsch Monica",
+              "O'Neill Anne",
+              "Price Karen N",
+              "Goldhirsch Aron"
+            ],
+            "journal": "Journal of the National Cancer Institute",
+            "year": "2003",
+            "abstract": "Although chemotherapy and ovarian function suppression are both effective adjuvant therapies for patients with early-stage breast cancer, little is known of the efficacy of their sequential combination. In an International Breast Cancer Study Group (IBCSG) randomized clinical trial (Trial VIII) for pre- and perimenopausal women with lymph node-negative breast cancer, we compared sequential chemotherapy followed by the gonadotropin-releasing hormone agonist goserelin with each modality alone.",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21325445",
+            "title": "Long-term results of International Breast Cancer Study Group Trial VIII: adjuvant chemotherapy plus goserelin compared with either therapy alone for premenopausal patients with node-negative breast cancer.",
+            "authors": [
+              "Karlsson P",
+              "Sun Z",
+              "Braun D",
+              "Price K N",
+              "Castiglione-Gertsch M"
+            ],
+            "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+            "year": "2011",
+            "abstract": "The International Breast Cancer Study Group Trial VIII compared long-term efficacy of endocrine therapy (goserelin), chemotherapy [cyclophosphamide, methotrexate and fluorouracil (CMF)], and chemoendocrine therapy (CMF followed by goserelin) for pre/perimenopausal women with lymph-node-negative breast cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20552577",
+            "title": "Latent class joint model of ovarian function suppression and DFS for premenopausal breast cancer patients.",
+            "authors": [
+              "Zhang Jenny J",
+              "Wang Molin"
+            ],
+            "journal": "Statistics in medicine",
+            "year": "2010",
+            "abstract": "Breast cancer is the leading cancer in women of reproductive age; more than a quarter of women diagnosed with breast cancer in the US are premenopausal. A common adjuvant treatment for this patient population is chemotherapy, which has been shown to cause premature menopause and infertility with serious consequences to quality of life. Luteinizing-hormone-releasing hormone (LHRH) agonists, which induce temporary ovarian function suppression (OFS), has been shown to be a useful alternative to che",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21858973",
+            "title": "[The role of hormonal ovarian ablation in adjuvant treatment of premenopausal breast cancer].",
+            "authors": [
+              "Murtezani Zafir",
+              "Nešković-Konstantinović Zora",
+              "Stanisavljević Nataša",
+              "Kovčin Vladimir"
+            ],
+            "journal": "Srpski arhiv za celokupno lekarstvo",
+            "year": "2011",
+            "abstract": "Breast cancer is the most frequent malignant disease in women with about 25% compared to all malignant tumours. Chemotherapy, antiestrogen and ovarian ablation/ supression present effective adjuvant approach for premenopausal women diagnosed with hormonal depended, operable breast cancer.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8494837",
+            "title": "An alternative to hysterectomy? GnRH analogue combined with hormone replacement therapy.",
+            "authors": [
+              "Gangar K F",
+              "Stones R W",
+              "Saunders D",
+              "Rogers V",
+              "Rae T"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1993",
+            "abstract": "To assess whether GnRH analogues are effective in relieving pelvic pain and congestion and whether menopausal symptoms caused by GnRH analogues can be minimised by supplementation with low dose continuous combined hormone replacement therapy (HRT).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16889194",
+            "title": "[Using GnRH-agonists (Zoladex) in the treatment of genital endometriosis].",
+            "authors": [
+              "Nikolov A",
+              "Tiufekchieva E",
+              "Novachkov V",
+              "Karag'ozov I"
+            ],
+            "journal": "Akusherstvo i ginekologiia",
+            "year": "2006",
+            "abstract": "The study is prospective and involves 112 patients suffering from pelvic endometriosis aging from 19-38 years. (28.6 average age). The disease was diagnosed via laparoscopy and the stage was determined using the revised AFS classification. Zoladex (Goserelin depot--3.6 mg) is being applied every 28 days for 6 months in the hypodermic tissue of the front abdomen wall. All patients are being examined monthly after every Zoladex application (for subjective complaints--dysmenorrheal, dyspareunea, pe",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2531684",
+            "title": "Estrogenic action of tamoxifen in women treated with luteinizing hormone-releasing hormone agonists (goserelin)--lack of shrinkage of uterine fibroids.",
+            "authors": [
+              "Lumsden M A",
+              "West C P",
+              "Hillier H",
+              "Baird D T"
+            ],
+            "journal": "Fertility and sterility",
+            "year": "1989",
+            "abstract": "Six premenopausal women with uterine fibroids were treated with a combination of tamoxifen, 20 mg/d, and goserelin, 3.6 mg every 28 days, for a total of 24 weeks. Results were compared with those from six women, matched for pretreatment uterine volume, who had been treated with goserelin alone. During combined therapy, plasma and urinary estrogen concentrations were significantly lower than during goserelin alone, whereas sex hormone binding globulin concentrations were significantly higher. Pla",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10730389",
+            "title": "[The use of GnRH agonists in severe uterine hemorrhages in adolescence caused by congenital aplastic and hypoplastic anemias].",
+            "authors": [
+              "Nikolov A",
+              "Bŭrdarova I",
+              "Kolarov G",
+              "Veltova L"
+            ],
+            "journal": "Akusherstvo i ginekologiia",
+            "year": "1999",
+            "abstract": "GnRH agonists, applied for a long period of time or as depot forms, lead to blocking of gonadotropin and ovarian steroid synthesis. We used their property to induce amenorrhea for treating menorrhagic and menometrorrhagic bleeding in adolescence caused by inborn aplastic and hypoplastic anaemia. In patients with uterine bleeding during the first regular menstrual period or recurring during menstrual periods Zoladex (depot GnRH agonist) has been applied, resulting in stop of bleeding in 2 to 4 da",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2522795",
+            "title": "Suppression of gonadotrophin secretion does not reverse premature ovarian failure.",
+            "authors": [
+              "Ledger W L",
+              "Thomas E J",
+              "Browning D",
+              "Lenton E A",
+              "Cooke I D"
+            ],
+            "journal": "British journal of obstetrics and gynaecology",
+            "year": "1989",
+            "abstract": "The effect of prolonged inhibition of gonadotrophin secretion was studied in 12 women with premature ovarian failure. All the patients had plasma concentrations of follicle-stimulating hormone (FSH) greater than 20 i.u./l, and in six, primordial follicles had been seen on ovarian biopsy. Goserelin (Zoladex, ICI), a depot synthetic analogue of luteinizing hormone-releasing hormone (LHRH) was administered by three consecutive 4-weekly injections. Plasma concentrations of luteinizing hormone (LH) f",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "17006733",
+            "title": "Minimal invasive treatment of vesicouterine fistula: a case report.",
+            "authors": [
+              "Tarhan Fatih",
+              "Erbay Erkan",
+              "Penbegül Necmettin",
+              "Kuyumcuoğlu Uğur"
+            ],
+            "journal": "International urology and nephrology",
+            "year": "2007",
+            "abstract": "We report a case of vesicouterine fistula presenting after cesarean operation. The fistula was treated successfully by cystoscopic fulguration of the tract and hormonal amenorrhea. Although various surgical approaches to this problem have been described, to date there is no reports of treatment of this problem via cystoscopic fulguration and hormonal amenorrhea. The problem has been solved by hormonal amenorrhea and cystoscopic fulguration. We advocate this simple technique as a primary approach",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GnRH 促效劑持續給藥 → 腦下垂體 GnRH 受體下調 → LH/FSH 急劇下降 → 卵巢雌激素/黃體素分泌受抑 → 子宮內膜萎縮 → 醫療性閉經。此為直接、已確立之藥理機轉，廣泛用於化療期間卵巢保護及乳癌輔助治療。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "renal hypoplasia (disease)",
+      "txgnn": {
+        "score": 0.9906488060951232,
+        "rank": 10077
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "無已知機轉關聯。Goserelin 透過抑制性腺軸發揮作用，與腎臟發育（低形成症為先天性結構異常）無直接生物學連結。TxGNN 高分可能源於知識圖譜中性腺-腎臟內分泌交互路徑的間接關聯，缺乏生物合理性支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "renal hypoplasia, bilateral",
+      "txgnn": {
+        "score": 0.9906347393989564,
+        "rank": 10084
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與單側腎臟低形成症相同，雙側型態同樣為先天性結構異常，GnRH 促效劑無任何已知干預腎臟發育的機轉。性腺軸抑制與腎臟形成無直接關聯。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "cervix endometriosis",
+      "txgnn": {
+        "score": 0.9875105619430542,
+        "rank": 12431
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21844977",
+            "title": "[Diagnosis and treatment of complicated deep infiltrated endometriosis: a case report and literature review].",
+            "authors": [
+              "Jiang Guo-qing",
+              "Gao Yu-nong",
+              "Gao Min",
+              "Zheng Hong",
+              "Yan Xin"
+            ],
+            "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences",
+            "year": "2011",
+            "abstract": "To explore diagnostic and therapeutic methods of patients with deep infiltrating endometriosis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8798320",
+            "title": "Multiple polypoid endometriosis--a rare complication following withdrawal of gonadotrophin releasing hormone (GnRH) agonist for severe endometriosis: a case report.",
+            "authors": [
+              "Othman N H",
+              "Othman M S",
+              "Ismail A N",
+              "Mohammad N Z",
+              "Ismail Z"
+            ],
+            "journal": "The Australian & New Zealand journal of obstetrics & gynaecology",
+            "year": "1996",
+            "abstract": "A 30-year old female who initially had typical endometriosis treated according to a standard regimen later developed numerous highly vascular endometrial polyps on the vagina, cervix, ureter, serosal surfaces of the uterus, pouch of Douglas (POD) and other areas of pelvic peritoneum as well as the endometrium 8 months after withdrawal of treatment with Zoladex gonadotrophin releasing hormone (GnRH) agonist used for treatment of this disease. We postulate that these polyps developed as a rebound ",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "GnRH 促效劑標準機轉：抑制雌激素分泌 → 子宮內膜異位組織去除增殖刺激 → 病灶縮小。子宮頸子宮內膜異位症（cervix endometriosis）為子宮內膜異位症的特殊解剖部位亞型，理論上應對 GnRH 促效劑有相似反應，但缺乏該特定部位的系統性臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "gelatinous drop-like corneal dystrophy",
+      "txgnn": {
+        "score": 0.9865651726722716,
+        "rank": 13176
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "膠樣滴狀角膜失養症（GDLD）為 TACSTD2 基因突變所致的罕見遺傳性角膜疾病，以澱粉樣蛋白沉積為特徵。GnRH 促效劑的性腺軸抑制機轉與此遺傳性蛋白質沉積疾病無已知生物學交集。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "duodenogastric reflux",
+      "txgnn": {
+        "score": 0.9853695034980774,
+        "rank": 13980
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸胃逆流為膽汁/胰液逆流至胃的機械性/動力學問題。雖然性激素對消化道動力有部分調節作用，但 GnRH 促效劑治療此疾病無已知臨床意義的機轉路徑，現有文獻中無任何相關報導。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "endometriosis of rectovaginal septum and vagina",
+      "txgnn": {
+        "score": 0.9846371412277222,
+        "rank": 14419
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21844977",
+            "title": "[Diagnosis and treatment of complicated deep infiltrated endometriosis: a case report and literature review].",
+            "authors": [
+              "Jiang Guo-qing",
+              "Gao Yu-nong",
+              "Gao Min",
+              "Zheng Hong",
+              "Yan Xin"
+            ],
+            "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences",
+            "year": "2011",
+            "abstract": "To explore diagnostic and therapeutic methods of patients with deep infiltrating endometriosis.",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "直腸陰道隔/陰道子宮內膜異位症為深部浸潤性子宮內膜異位症（DIE）中最難治療的亞型之一。GnRH 促效劑透過低雌激素狀態可抑制病灶活性、減緩疼痛，通常用於手術前後輔助治療。機轉與一般子宮內膜異位症相同，具生物合理性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "endometriosis in cutaneous scar",
+      "txgnn": {
+        "score": 0.9846371412277222,
+        "rank": 14420
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19753740",
+            "title": "Cutaneous endometriosis: a combination of medical and surgical treatment.",
+            "authors": [
+              "Kang S K",
+              "Lee M W",
+              "Choi J H",
+              "Sung K J",
+              "Moon K C"
+            ],
+            "journal": "The Journal of dermatological treatment",
+            "year": "2002",
+            "abstract": "Cutaneous and subcutaneous endometriosis occurs most commonly as a secondary process in scars after abdominal or pelvic surgical procedures including hysterectomy, cesarean sections and episiotomy. Simple excision is the recommended management and local recurrence after adequate excision is uncommon. A 32-year-old woman presented with a 5-cm firm tumor on the right perineum. There was cyclical bleeding and fluctuation in size. She was initially treated with subcutaneous goserelin acetate. The le",
+            "classification": {
+              "study_type": "Case Report/Small Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "皮膚瘢痕子宮內膜異位症（多見於手術後切口種植）具有相同的雌激素依賴性增殖特性。GnRH 促效劑誘導低雌激素環境可理論上抑制病灶活動，但此亞型通常以手術切除為主，藥物治療作為輔助角色，機轉合理但臨床重要性有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "duodenal obstruction",
+      "txgnn": {
+        "score": 0.9845271110534668,
+        "rank": 14501
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸梗阻為解剖性/機械性問題（先天性閉鎖、腫瘤壓迫、粘連等），GnRH 促效劑的性腺軸抑制機轉與此無任何已知關聯。TxGNN 高分疑為知識圖譜中消化道疾病節點群集效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "duodenal ulcer (disease)",
+      "txgnn": {
+        "score": 0.9823609590530396,
+        "rank": 15838
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "十二指腸潰瘍主要由 H. pylori 感染或 NSAID 使用引起，其發病機轉（胃酸/黏膜防護失衡）與 GnRH 促效劑的性腺軸作用無直接關聯。部分研究顯示性激素對胃腸黏膜有保護作用，但 GnRH 促效劑降低雌激素理論上可能不利，無正向機轉支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 7,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "amenorrhea (disease)"
+      },
+      "result_status": "success",
+      "result_count": 19,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "renal hypoplasia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "renal hypoplasia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "renal hypoplasia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "renal hypoplasia, bilateral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "renal hypoplasia, bilateral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "renal hypoplasia, bilateral"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "cervix endometriosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "cervix endometriosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "cervix endometriosis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "gelatinous drop-like corneal dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "gelatinous drop-like corneal dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "gelatinous drop-like corneal dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenogastric reflux"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "endometriosis of rectovaginal septum and vagina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "endometriosis of rectovaginal septum and vagina"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "endometriosis of rectovaginal septum and vagina"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "endometriosis in cutaneous scar"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "endometriosis in cutaneous scar"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "endometriosis in cutaneous scar"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenal obstruction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Goserelin",
+        "disease": "duodenal ulcer (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

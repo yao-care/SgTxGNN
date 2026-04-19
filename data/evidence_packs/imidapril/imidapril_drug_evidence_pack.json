@@ -1,0 +1,1353 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11783-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Imidapril",
+    "drugbank_id": "DB11783",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "pulmonary hypertension with unclear multifactorial mechanism",
+      "txgnn": {
+        "score": 0.9977684020996094,
+        "rank": 3695
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACE 抑制 → Angiotensin II 下降 → 肺血管輕度舒張；但肺動脈高壓的核心機轉（ET-1 軸、PGI2 軸）不在 ACE 路徑上，機轉關聯薄弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "pulmonary hypertension owing to lung disease and/or hypoxia",
+      "txgnn": {
+        "score": 0.9977684020996094,
+        "rank": 3696
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "33862277",
+            "title": "Hypoxia and brain aging: Neurodegeneration or neuroprotection?",
+            "authors": [
+              "Burtscher Johannes",
+              "Mallet Robert T",
+              "Burtscher Martin",
+              "Millet Grégoire P"
+            ],
+            "journal": "Ageing research reviews",
+            "year": "2021",
+            "abstract": "The absolute reliance of the mammalian brain on oxygen to generate ATP renders it acutely vulnerable to hypoxia, whether at high altitude or in clinical settings of anemia or pulmonary disease. Hypoxia is pivotal to the pathogeneses of myriad neurological disorders, including Alzheimer's, Parkinson's and other age-related neurodegenerative diseases. Conversely, reduced environmental oxygen, e.g. sojourns or residing at high altitudes, may impart favorable effects on aging and mortality. Moreover",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39841808",
+            "title": "Hypoxia as a medicine.",
+            "authors": [
+              "Rogers Robert S",
+              "Mootha Vamsi K"
+            ],
+            "journal": "Science translational medicine",
+            "year": "2025",
+            "abstract": "Oxygen is essential for human life, yet a growing body of preclinical research is demonstrating that chronic continuous hypoxia can be beneficial in models of mitochondrial disease, autoimmunity, ischemia, and aging. This research is revealing exciting new and unexpected facets of oxygen biology, but translating these findings to patients poses major challenges, because hypoxia can be dangerous. Overcoming these barriers will require integrating insights from basic science, high-altitude physiol",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28972206",
+            "title": "Regulation of immunity and inflammation by hypoxia in immunological niches.",
+            "authors": [
+              "Taylor Cormac T",
+              "Colgan Sean P"
+            ],
+            "journal": "Nature reviews. Immunology",
+            "year": "2017",
+            "abstract": "Immunological niches are focal sites of immune activity that can have varying microenvironmental features. Hypoxia is a feature of physiological and pathological immunological niches. The impact of hypoxia on immunity and inflammation can vary depending on the microenvironment and immune processes occurring in a given niche. In physiological immunological niches, such as the bone marrow, lymphoid tissue, placenta and intestinal mucosa, physiological hypoxia controls innate and adaptive immunity ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37328448",
+            "title": "N4-Acetylcytidine Drives Glycolysis Addiction in Gastric Cancer via NAT10/SEPT9/HIF-1α Positive Feedback Loop.",
+            "authors": [
+              "Yang Qingbin",
+              "Lei Xuetao",
+              "He Jiayong",
+              "Peng Yanmei",
+              "Zhang Yihao"
+            ],
+            "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+            "year": "2023",
+            "abstract": "Anti-angiogenic therapy has long been considered a promising strategy for solid cancers. Intrinsic resistance to hypoxia is a major cause for the failure of anti-angiogenic therapy, but the underlying mechanism remains unclear. Here, it is revealed that N4-acetylcytidine (ac4C), a newly identified mRNA modification, enhances hypoxia tolerance in gastric cancer (GC) cells by promoting glycolysis addiction. Specifically, acetyltransferase NAT10 transcription is regulated by HIF-1α, a key transcrip",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34618295",
+            "title": "Cognitive impairment caused by hypoxia: from clinical evidences to molecular mechanisms.",
+            "authors": [
+              "Wang Xiaoyin",
+              "Cui Lili",
+              "Ji Xunming"
+            ],
+            "journal": "Metabolic brain disease",
+            "year": "2022",
+            "abstract": "Hypoxia is a state of reduced oxygen supply and excessive oxygen consumption. According to the duration of hypoxic period, it can be classified as acute and chronic hypoxia. Both acute and chronic hypoxia could induce abundant neurological deficits. Although there have been significant advances in the pathophysiological injuries, few studies have focused on the cognitive dysfunction. In this review, we focused on the clinical evidences and molecular mechanisms of cognitive impairment under acute",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21328446",
+            "title": "Hypoxia-mediated biological control.",
+            "authors": [
+              "Cassavaugh Jessica",
+              "Lounsbury Karen M"
+            ],
+            "journal": "Journal of cellular biochemistry",
+            "year": "2011",
+            "abstract": "When oxygen demand is greater than oxygen supply, cells need to rapidly adjust their metabolism in order for the tissue to survive. Oxygen sensing by an organism influences a host of processes including growth, development, metabolism, pH homeostasis, and angiogenesis. Hypoxia also contributes to a wide number of human diseases including vascular disease, inflammatory conditions and cancer. Recently, major advances have been made in understanding the response of cells and tissues to hypoxia with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8817697",
+            "title": "Hypoxia and brain development.",
+            "authors": [
+              "Nyakas C",
+              "Buwalda B",
+              "Luiten P G"
+            ],
+            "journal": "Progress in neurobiology",
+            "year": "1996",
+            "abstract": "Hypoxia threatens brain function during the entire life-span starting from early fetal age up to senescence. This review compares the short-term, long-term and life-spanning effects of fetal chronic hypoxia and neonatal anoxia on several behavioural paradigms including novelty-induced spontaneous and learning behaviours. Furthermore, it reveals that perinatal hypoxia is an additional threat to neurodegeneration and decline of cognitive and other behaviours during the aging process. Prenatal hypo",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31706510",
+            "title": "DUBs, Hypoxia, and Cancer.",
+            "authors": [
+              "Mennerich Daniela",
+              "Kubaichuk Kateryna",
+              "Kietzmann Thomas"
+            ],
+            "journal": "Trends in cancer",
+            "year": "2019",
+            "abstract": "Alterations in protein ubiquitylation and hypoxia are commonly associated with cancer. Ubiquitylation is carried out by three sequentially acting ubiquitylating enzymes and can be opposed by deubiquitinases (DUBs), which have emerged as promising drug targets. Apart from protein localization and activity, ubiquitylation regulates degradation of proteins, among them hypoxia-inducible factors (HIFs). Thereby, various E3 ubiquitin ligases and DUBs regulate HIF abundance. Conversely, several E3s and",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34535359",
+            "title": "Therapeutic Modification of Hypoxia.",
+            "authors": [
+              "Horsman M R",
+              "Sørensen B S",
+              "Busk M",
+              "Siemann D W"
+            ],
+            "journal": "Clinical oncology (Royal College of Radiologists (Great Britain))",
+            "year": "2021",
+            "abstract": "Regions of reduced oxygenation (hypoxia) are a characteristic feature of virtually all animal and human solid tumours. Numerous preclinical studies, both in vitro and in vivo, have shown that decreasing oxygen concentration induces resistance to radiation. Importantly, hypoxia in human tumours is a negative indicator of radiotherapy outcome. Hypoxia also contributes to resistance to other cancer therapeutics, including immunotherapy, and increases malignant progression as well as cancer cell dis",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11172576",
+            "title": "Mechanisms of hypoxemia.",
+            "authors": [
+              "Henig N R",
+              "Pierson D J"
+            ],
+            "journal": "Respiratory care clinics of North America",
+            "year": "2000",
+            "abstract": "The definitions of hypoxemia and hypoxia, and basic pulmonary anatomy and oxygen delivery are reviewed. Low ambient oxygen, hypoventilation, ventilation-perfusion mismatch, and right-to-left shunt, the four basic mechanisms of hypoxemia are described in detail with patient examples. For the sake of completion, a fifth mechanism of hypoxemia that is rarely seen in human disease is described. Because getting oxygen into the blood stream is only half the story, mechanisms of tissue hypoxia in the s",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40347693",
+            "title": "Hypoxia in multiple sclerosis.",
+            "authors": [
+              "Burtscher Johannes",
+              "Motl Robert W",
+              "Berek Klaus",
+              "Ehrenreich Hannelore",
+              "Kopp Martin"
+            ],
+            "journal": "Redox biology",
+            "year": "2025",
+            "abstract": "Low oxygen availability (hypoxia) is a prominent but poorly understood feature in multiple sclerosis (MS). Whether hypoxia causes or drives MS pathology and symptoms or whether it is a consequence of other pathological events, such as inflammation and vascular dysfunction, is unknown. Here, we summarize the available literature on the interplay between hypoxia and both pathological and symptomatic features of MS. Severe environmental hypoxia (i.e., altitude) may trigger or facilitate MS-related ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40815459",
+            "title": "[Considerations on hypoxia and altitude].",
+            "authors": [
+              "Santos-Martínez Luis Efrén"
+            ],
+            "journal": "Revista medica del Instituto Mexicano del Seguro Social",
+            "year": "2025",
+            "abstract": "Hypoxia associated with altitude is known as hypobaric hypoxia and it is related to the decrease in barometric pressure and inspired oxygen pressure; as they decrease, hypoxia increases. High altitude inhabitants acclimatise-adapt with morphological, physiological and genetic changes over generations. There are major differences between high altitude, moderate altitude and sea level. The characteristics of inhabitants of places with moderate altitude have been considered similar to those who liv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4585366",
+            "title": "[Cerebral hypoxia].",
+            "authors": [
+              "Ferrer S"
+            ],
+            "journal": "Revista medica de Chile",
+            "year": "1973",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30423905",
+            "title": "Hypoxic Microenvironment and Metastatic Bone Disease.",
+            "authors": [
+              "Hiraga Toru"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2018",
+            "abstract": "Hypoxia is a common feature of solid tumors and is associated with an increased risk of metastasis and a poor prognosis. Recent imaging techniques revealed that bone marrow contains a quite hypoxic microenvironment. Low oxygen levels activate hypoxia signaling pathways such as hypoxia-inducible factors, which play critical roles in the key stages of metastatic dissemination including angiogenesis, epithelial-mesenchymal transition, invasion, maintenance of cancer stem cells, tumor cell dormancy,",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27146279",
+            "title": "Hypoxic mechanisms in primary headaches.",
+            "authors": [
+              "Britze Josefine",
+              "Arngrim Nanna",
+              "Schytz Henrik Winther",
+              "Ashina Messoud"
+            ],
+            "journal": "Cephalalgia : an international journal of headache",
+            "year": "2017",
+            "abstract": "Background Hypoxia causes secondary headaches such as high-altitude headache (HAH) and headache due to acute mountain sickness. These secondary headaches mimic primary headaches such as migraine, which suggests a common link. We review and discuss the possible role of hypoxia in migraine and cluster headache. Methods This narrative review investigates the current level of knowledge on the relation of hypoxia in migraine and cluster headache based on epidemiological and experimental studies. Find",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37915135",
+            "title": "Regulation of CMGC kinases by hypoxia.",
+            "authors": [
+              "Kim KyeongJin",
+              "Lee Sang Bae"
+            ],
+            "journal": "BMB reports",
+            "year": "2023",
+            "abstract": "Hypoxia, a widespread occurrence observed in various malignant tumors, results from rapid tumor growth that outpaces the oxygen supply. Tumor hypoxia precipitates several effects on tumor biology; these include activating angiogenesis, intensifying invasiveness, enhancing the survival of tumor cells, suppressing anti-tumor immunity, and fostering resistance to therapy. Aligned with the findings that correlate CMGC kinases with the regulation of Hypoxia-Inducible Factor (HIF), a pivotal modulator",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38279024",
+            "title": "Hypoxia-driven deSUMOylation of EXOSC10 promotes adaptive changes in the transcriptome profile.",
+            "authors": [
+              "Filippopoulou Chrysa",
+              "Thomé Chairini C",
+              "Perdikari Sofia",
+              "Ntini Evgenia",
+              "Simos George"
+            ],
+            "journal": "Cellular and molecular life sciences : CMLS",
+            "year": "2024",
+            "abstract": "Reduced oxygen availability (hypoxia) triggers adaptive cellular responses via hypoxia-inducible factor (HIF)-dependent transcriptional activation. Adaptation to hypoxia also involves transcription-independent processes like post-translational modifications; however, these mechanisms are poorly characterized. Investigating the involvement of protein SUMOylation in response to hypoxia, we discovered that hypoxia strongly decreases the SUMOylation of Exosome subunit 10 (EXOSC10), the catalytic sub",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24557798",
+            "title": "Translation in progress: hypoxia.",
+            "authors": [
+              "Roach Robert C",
+              "Wagner Peter D",
+              "Hackett Peter H"
+            ],
+            "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+            "year": "2014",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27423661",
+            "title": "Hypoxia in tissue repair and fibrosis.",
+            "authors": [
+              "Darby Ian A",
+              "Hewitson Tim D"
+            ],
+            "journal": "Cell and tissue research",
+            "year": "2016",
+            "abstract": "Hypoxia and hypoxia signalling through the transcription factor hypoxia inducible factor-1 (HIF-1), play an important role in normal tissue repair processes. Tissue injury generally produces at least the transient loss of normal vascular perfusion and the resulting hypoxia induces the expression of many genes that allow the tissue to adapt to hypoxia, to start the repair process and, in time, to re-establish oxygen delivery to the tissue. In most cases, transient hypoxia and the activation of th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40963621",
+            "title": "Hypoxia and activation of hypoxia inducible factor alpha as influencers of inflammatory helper T cells in autoimmune disease - a link between cancer and autoimmunity.",
+            "authors": [
+              "Almanzar Giovanni",
+              "Alarcon Juan Carlos",
+              "Garzon Ruth",
+              "Navarro Ana Maria",
+              "Ondo-Méndez Alejandro"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "As a part of the tumor microenvironment, hypoxia is an important hallmark in the tumor progression. Hypoxia is a condition in which the oxygen supply is not sufficient to sustain the cell demand. In addition to its known impact in tumor progression, hypoxia seems to play a principal role in the generation and evolution of several autoimmune diseases. Both tumor and autoimmune diseases can be modulated by the hypoxia inducible factor alpha (HIF-1α) sharing similar molecular mechanisms. Here, we o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "缺氧誘導性肺高壓（Group 3）以低氧性肺血管收縮和肺血管重塑為主，ACE 抑制劑機轉對此路徑影響有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "malignant renovascular hypertension",
+      "txgnn": {
+        "score": 0.9975805282592772,
+        "rank": 3934
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上 ACE 抑制可降低全身血壓，但腎動脈狹窄患者腎灌注依賴 Angiotensin II 維持出球小動脈張力，ACE 抑制反致 GFR 急降。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "malignant hypertensive renal disease",
+      "txgnn": {
+        "score": 0.9975805282592772,
+        "rank": 3936
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACE 抑制 → Angiotensin II 降低 → 出球小動脈舒張 → 腎絲球內壓下降 → 減少蛋白尿 → 延緩腎臟纖維化。Imidapril 在日本適應症已包含糖尿病腎病，機轉高度吻合。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "Braddock syndrome",
+      "txgnn": {
+        "score": 0.9970148801803588,
+        "rank": 4585
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "未知。MAGEL2 基因影響晝夜節律、自律神經系統及 Prader-Willi 相關路徑，與 ACE 抑制的直接關聯無文獻依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "chronic pulmonary heart disease",
+      "txgnn": {
+        "score": 0.98326575756073,
+        "rank": 15282
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACE 抑制可能通過降低後負荷、抗心肌纖維化略微改善右心功能，但肺心病根本原因在肺，ACE 路徑不能解決根源病理。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "cerebrovascular disorder",
+      "txgnn": {
+        "score": 0.9579196572303772,
+        "rank": 24756
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21937941",
+            "title": "Imidapril inhibits cerebral aneurysm formation in an angiotensin-converting enzyme-independent and matrix metalloproteinase-9-dependent manner.",
+            "authors": [
+              "Ishibashi Ryota",
+              "Aoki Tomohiro",
+              "Nishimura Masaki",
+              "Miyamoto Susumu"
+            ],
+            "journal": "Neurosurgery",
+            "year": "2012",
+            "abstract": "Cerebral aneurysms (CAs) have a high prevalence in the general population and cause lethal subarachnoid hemorrhage. We recently demonstrated that chronic inflammation is an underlying pathogenesis of CA. However, we identified the negative involvement of angiotensin receptor signaling in the pathogenesis of CA.",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10456289",
+            "title": "Post-stroke treatment with imidapril reduces learning deficits with less formation of brain oedema in a stroke-prone substrain of spontaneously hypertensive rats.",
+            "authors": [
+              "Yabuuchi F",
+              "Takahashi M",
+              "Aritake K",
+              "Fujimoto M",
+              "Ito H"
+            ],
+            "journal": "Fundamental & clinical pharmacology",
+            "year": "1999",
+            "abstract": "The present study was undertaken to examine the effects of the ACE (angiotensin converting enzyme) inhibitor imidapril, on the brain, when administered after the onset of stroke in a stroke-prone substrain of spontaneously hypertensive rats (SHRSP). Learning deficits and induced lesions in the brain as well as in the kidneys and heart were investigated in detail. SHRSP were divided into two groups with or without salt loading at the age of 4 weeks. The salt loading was performed for 7-9 weeks to",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8421827",
+            "title": "Prophylactic effect of imidapril on stroke in stroke-prone spontaneously hypertensive rats.",
+            "authors": [
+              "Ogiku N",
+              "Sumikawa H",
+              "Hashimoto Y",
+              "Ishida R"
+            ],
+            "journal": "Stroke",
+            "year": "1993",
+            "abstract": "It has been reported that some angiotensin converting enzyme inhibitors can prevent stroke-prone spontaneously hypertensive rats from stroke at much higher doses than clinical doses used for hypertension therapy. This study was performed to investigate the prophylactic effectiveness of imidapril against stroke in comparison with enalapril.",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7963504",
+            "title": "Therapeutic effects of imidapril on cerebral lesions observed by magnetic resonance imaging in malignant stroke-prone spontaneously hypertensive rats.",
+            "authors": [
+              "Takahashi M",
+              "Fritz-Zieroth B",
+              "Ohta Y",
+              "Chikugo T"
+            ],
+            "journal": "Journal of hypertension",
+            "year": "1994",
+            "abstract": "Magnetic resonance imaging (MRI) was used to investigate the therapeutic effects of imidapril, a newly synthesized angiotensin converting enzyme (ACE) inhibitor, on cerebral stroke lesions.",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7869607",
+            "title": "Histopathological investigation on salt-loaded stroke-prone spontaneously hypertensive rats, whose biochemical parameters of renal dysfunction were ameliorated by administration of imidapril.",
+            "authors": [
+              "Fujiwara T",
+              "Yuasa H",
+              "Ogiku N",
+              "Kawai Y"
+            ],
+            "journal": "Japanese journal of pharmacology",
+            "year": "1994",
+            "abstract": "Our previous studies showed that imidapril prevented the occurrence of cerebral stroke and ameliorated biochemical parameter changes of renal dysfunction at a dose that did not inhibit the progression of hypertension in salt-loaded stroke-prone spontaneously hypertensive rats (SHRSP). To confirm these findings, a histopathological investigation was conducted on the kidney of salt-loaded (from 11 to 16 weeks of age) SHRSP, which was the subject of the preceding study. Their brains and hearts were",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10823269",
+            "title": "Protective effects of imidapril on He-Ne laser-induced thrombosis in cerebral blood vessels of stroke-prone spontaneously hypertensive rats.",
+            "authors": [
+              "Sasaki Y",
+              "Noguchi T",
+              "Seki J",
+              "Giddings J C",
+              "Yamamoto J"
+            ],
+            "journal": "Thrombosis and haemostasis",
+            "year": "2000",
+            "abstract": "Inhibitors of angiotensin converting enzyme (ACE) have been developed recently for therapeutic purposes in hypertension and ischemic cardiovascular diseases. Ogiku et al. reported that one such inhibitor, imidapril, significantly prolonged survival in stroke-prone spontaneously hypertensive rats (SHRSP). The present study was designed to investigate the effect of imidapril on cerebral blood vessels in SHRSP to clarify role of the ACE inhibitor in mechanisms of cerebral thrombosis and stroke. Imi",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22983755",
+            "title": "Post-stroke pneumonia prevention by angiotensin-converting enzyme inhibitors: results of a meta-analysis of five studies in Asians.",
+            "authors": [
+              "Shinohara Yukito",
+              "Origasa Hideki"
+            ],
+            "journal": "Advances in therapy",
+            "year": "2012",
+            "abstract": "Angiotensin-converting enzyme inhibitors (ACEIs) are reported to reduce the incidence of aspiration pneumonia in hypertensive patients. In this study, a metaanalysis was conducted to obtain statistically more reliable estimates of outcome.",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8437371",
+            "title": "Influence of imidapril on abnormal biochemical parameters in salt-loaded stroke-prone spontaneously hypertensive rats (SHRSP).",
+            "authors": [
+              "Ogiku N",
+              "Sumikawa H",
+              "Minamide S",
+              "Ishida R"
+            ],
+            "journal": "Japanese journal of pharmacology",
+            "year": "1993",
+            "abstract": "Many of the disorders in urinary, biochemical, and hematological parameters induced by salt-loading in stroke-prone spontaneously hypertensive rats (SHRSP) were significantly ameliorated by chronic treatment with angiotensin converting enzyme inhibitors, imidapril (1 and 2 mg/kg) and enalapril (2 mg/kg). Through the improvement of these parameters, the treatment reduced the incidence of stroke but did not suppress the development of hypertension. These results suggest that the prophylaxis of str",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9449390",
+            "title": "Cardiac mitogen-activated protein kinase activities are chronically increased in stroke-prone hypertensive rats.",
+            "authors": [
+              "Izumi Y",
+              "Kim S",
+              "Murakami T",
+              "Yamanaka S",
+              "Iwao H"
+            ],
+            "journal": "Hypertension (Dallas, Tex. : 1979)",
+            "year": "1998",
+            "abstract": "To examine chronic changes in mitogen-activated protein (MAP) kinases in cardiac hypertrophy, we determined the activities of two subfamilies of MAP kinases, including extracellular signal-regulated kinases (ERKs) and c-Jun NH2-terminal kinases (JNKs), in the heart of stroke-prone spontaneously hypertensive rats (SHRSP) and Wistar-Kyoto rats (WKY) aged 5, 8, 14, and 24 weeks. MAP kinases were determined by using in-gel kinase assay. In both the left and right ventricles of WKY, the activities of",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21981801",
+            "title": "Effect of a centrally active angiotensin converting enzyme inhibitor, perindopril, on cognitive performance in chronic cerebral hypo-perfusion rats.",
+            "authors": [
+              "Yamada Koji",
+              "Horita Takako",
+              "Takayama Makoto",
+              "Takahashi Shusuke",
+              "Takaba Katsumi"
+            ],
+            "journal": "Brain research",
+            "year": "2011",
+            "abstract": "We have previously demonstrated that perindopril, an angiotensin-converting enzyme (ACE) inhibitor, ameliorated the cognitive deficits in Alzheimer's disease model animals, independently of its anti-hypertensive effect. In this study, we again investigated the effects of perindopril on cognitive function in a vascular dementia model animal, comparing it with other ACE inhibitors. We also determined ACE activity in the brain and extracellular acetylcholine (ACh) concentration in the perirhinal co",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14663061",
+            "title": "Serum substance P concentrations and silent aspiration in elderly patients with stroke.",
+            "authors": [
+              "Arai Tadashi",
+              "Yoshimi Naoki",
+              "Fujiwara Hisayoshi",
+              "Sekizawa Kiyoshisa"
+            ],
+            "journal": "Neurology",
+            "year": "2003",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10858427",
+            "title": "Angiotensin-converting enzyme inhibitors, angiotensin II receptor antagonists, and symptomless dysphagia.",
+            "authors": [
+              "Arai T",
+              "Yasuda Y",
+              "Takaya T",
+              "Toshima S",
+              "Kashiki Y"
+            ],
+            "journal": "Chest",
+            "year": "2000",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11893585",
+            "title": "Long-term inhibition of nitric oxide synthesis increases arterial thrombogenecity in rat carotid artery.",
+            "authors": [
+              "Kubo-Inoue Mayuko",
+              "Egashira Kensuke",
+              "Usui Makoto",
+              "Takemoto Masao",
+              "Ohtani Kisho"
+            ],
+            "journal": "American journal of physiology. Heart and circulatory physiology",
+            "year": "2002",
+            "abstract": "Reduced activity of endothelial nitric oxide (NO) may be involved in thrombus formation on atherosclerotic plaques, a major cause of acute coronary syndrome. However, mechanisms of such increase in arterial thrombogenecity have not been fully understood. We previously reported that long-term inhibition of NO synthesis by administration of N(G)-nitro-L-arginine methyl ester (L-NAME) causes hypertension and activates vascular tissue angiotensin-converting enzyme (ACE) activity. We used this model ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10812009",
+            "title": "Technetium tin colloid test detecting symptomless dysphagia and ACE inhibitor prevented occurrence of aspiration pneumonia.",
+            "authors": [
+              "Arai T",
+              "Yasuda Y",
+              "Takaya T",
+              "Ito Y",
+              "Hayakawa K"
+            ],
+            "journal": "International journal of molecular medicine",
+            "year": "2000",
+            "abstract": "Symptomless dysphagia and swallowing disorders play a very important role in the pathogenesis of aspiration pneumonia. A videofluoroscopic examination and a simple two-step swallowing provocation test (STS-SPT) could be useful for detection of swallowing disorders in elderly patients with stroke, however, there is no report on such a test for detection of symptomless dysphagia. We administered 1 ml Technetium Tin Colloid (99mTC) to the patient during sleep via a nasal catheter placed in the mout",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "ACE 抑制 → Angiotensin II 下降 → 抗氧化應激（↓ ROS）、抗神經炎症（↓ NF-κB）、改善腦血流自調節、抑制基質金屬蛋白酶（MMP）→ 血管壁保護、減少腦水腫與梗塞面積。PMID 21937941 顯示此效果部分獨立於 ACE，涉及 ACE2/mas 軸。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "spinal cord ischemia",
+      "txgnn": {
+        "score": 0.8069620132446289,
+        "rank": 41510
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論機轉：ACE 抑制 → 脊髓血管舒張 → 改善缺血後再灌注損傷；但屬純推測，無文獻依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "intracerebral hemorrhage",
+      "txgnn": {
+        "score": 0.7749148011207581,
+        "rank": 42917
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "21937941",
+            "title": "Imidapril inhibits cerebral aneurysm formation in an angiotensin-converting enzyme-independent and matrix metalloproteinase-9-dependent manner.",
+            "authors": [
+              "Ishibashi Ryota",
+              "Aoki Tomohiro",
+              "Nishimura Masaki",
+              "Miyamoto Susumu"
+            ],
+            "journal": "Neurosurgery",
+            "year": "2012",
+            "abstract": "Cerebral aneurysms (CAs) have a high prevalence in the general population and cause lethal subarachnoid hemorrhage. We recently demonstrated that chronic inflammation is an underlying pathogenesis of CA. However, we identified the negative involvement of angiotensin receptor signaling in the pathogenesis of CA.",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7869607",
+            "title": "Histopathological investigation on salt-loaded stroke-prone spontaneously hypertensive rats, whose biochemical parameters of renal dysfunction were ameliorated by administration of imidapril.",
+            "authors": [
+              "Fujiwara T",
+              "Yuasa H",
+              "Ogiku N",
+              "Kawai Y"
+            ],
+            "journal": "Japanese journal of pharmacology",
+            "year": "1994",
+            "abstract": "Our previous studies showed that imidapril prevented the occurrence of cerebral stroke and ameliorated biochemical parameter changes of renal dysfunction at a dose that did not inhibit the progression of hypertension in salt-loaded stroke-prone spontaneously hypertensive rats (SHRSP). To confirm these findings, a histopathological investigation was conducted on the kidney of salt-loaded (from 11 to 16 weeks of age) SHRSP, which was the subject of the preceding study. Their brains and hearts were",
+            "classification": {
+              "study_type": "Animal Study (Preclinical)",
+              "tier": 3
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "預防角色：長期 ACE 抑制 → 降血壓 → 減少腦小動脈破裂風險；PMID 21937941 顯示 Imidapril 可抑制腦動脈瘤形成（ACE 獨立機轉）→ 降低出血性轉化風險。急性治療角色：不建議。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "brain stem infarction",
+      "txgnn": {
+        "score": 0.7638484835624695,
+        "rank": 43302
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "理論上：ACE 抑制 → 椎基底動脈系統血壓降低 → 減少腦幹缺血風險；但屬純推測，且腦幹梗塞機轉多樣（栓塞、小血管病），ACE 路徑影響有限。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "pulmonary hypertension with unclear multifactorial mechanism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "pulmonary hypertension owing to lung disease and/or hypoxia"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "malignant renovascular hypertension"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "malignant hypertensive renal disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "Braddock syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "chronic pulmonary heart disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "cerebrovascular disorder"
+      },
+      "result_status": "success",
+      "result_count": 14,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "spinal cord ischemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "spinal cord ischemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "spinal cord ischemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "intracerebral hemorrhage"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Imidapril",
+        "disease": "brain stem infarction"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

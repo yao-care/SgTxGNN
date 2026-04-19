@@ -1,0 +1,353 @@
+## Alectinib 藥物再利用證據分析
+
+**藥物背景說明**：Alectinib（Alecensa®）為第二代 ALK/RET 酪胺酸激酶抑制劑，已獲 FDA（2015）及 EMA 批准用於 ALK 陽性 NSCLC。資料中 `未上市`、`original_moa: [Data Gap]` 為資料品質缺口，非實際狀態。所有 TxGNN 分數均 >0.999，高度集中，顯示模型可能受知識圖譜中 Alectinib 節點密度影響而產生系統性高分。
+
+---
+
+```json
+{
+  "drug": "Alectinib",
+  "drugbank_id": "DB11363",
+  "known_moa": "ALK/RET 酪胺酸激酶抑制劑（第二代），可穿透血腦屏障",
+  "data_quality_flags": [
+    "original_moa 標記為 [Data Gap]，實際 MoA 已確立",
+    "market_status 標記為未上市，但 Alectinib 已獲 FDA/EMA 批准",
+    "TxGNN 分數高度集中（均>0.999），可能存在模型系統性偏差"
+  ],
+  "indications": [
+    {
+      "disease_name": "fibromatosis, gingival",
+      "txgnn_score": 0.9997,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "牙齦纖維瘤病主要由 SOS1/HMGA2 基因突變或遺傳因素驅動，無已知 ALK 過表達或融合證據。TxGNN 高分可能反映知識圖譜中「纖維增生」類節點與 Alectinib 的間接關聯，而非直接機轉。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "零臨床證據。良性病灶通常無需激酶抑制劑介入，風險效益比極不利。"
+    },
+    {
+      "disease_name": "fibroma of lung",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "孤立性纖維性腫瘤（SFT）偶見 ALK 表達，但肺部纖維瘤多為良性，臨床上不需要系統性激酶抑制治療。無任何支持性臨床資料。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "良性腫瘤適應症，使用細胞毒性/靶向藥物風險效益比不合理。"
+    },
+    {
+      "disease_name": "hamartoma of lung",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺錯構瘤為良性發育異常，涉及間葉組織成分（軟骨、脂肪、肌肉），無已知 ALK 通路參與。預測可能源於知識圖譜中肺部病灶節點的結構相似性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "良性病灶，外科切除為標準治療，系統性藥物治療無臨床依據。"
+    },
+    {
+      "disease_name": "lung hilum carcinoma",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺門癌若含 ALK 陽性 NSCLC 成分，理論上對 Alectinib 敏感。然而唯一文獻為不良事件報告（高三酸甘油酯血症引發胰臟炎），非療效研究，無法支持此適應症。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "32054410",
+          "title": "Life-threatening hypertriglyceridemia-induced pancreatitis related to alectinib successfully treated",
+          "year": "2020",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "relevance_assessment": "與適應症無關——此文獻記錄 Alectinib 使用中的嚴重不良反應，非用於支持肺門癌療效",
+          "grade": "C"
+        }
+      ],
+      "analyst_note": "文獻為不良事件報告，不構成療效證據。若為 ALK+ 肺門 NSCLC，應歸類於已批准適應症範疇。"
+    },
+    {
+      "disease_name": "lung benign neoplasm",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "⚠️ 資料庫映射問題：20 篇文獻全數為 ALK 陽性 NSCLC（惡性）的 Phase 3 RCT 及系統性回顧，與「肺部良性腫瘤」無關。這些文獻代表 Alectinib 的已批准適應症，不應被解讀為良性腫瘤的新適應症證據。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38598794",
+          "title": "Alectinib in Resected ALK-Positive Non-Small-Cell Lung Cancer",
+          "year": "2024",
+          "study_type": "Phase 3 RCT（ALECTOS 輔助治療試驗）",
+          "tier": "1",
+          "relevance_assessment": "高品質 RCT，但適應症為惡性 NSCLC，非良性腫瘤",
+          "grade": "C"
+        },
+        {
+          "pmid": "28586279",
+          "title": "Alectinib versus Crizotinib in Untreated ALK-Positive Non-Small-Cell Lung Cancer",
+          "year": "2017",
+          "study_type": "Phase 3 RCT（ALEX 試驗）",
+          "tier": "1",
+          "relevance_assessment": "里程碑 RCT，確立 Alectinib 一線治療地位，但為惡性腫瘤研究",
+          "grade": "C"
+        },
+        {
+          "pmid": "32418886",
+          "title": "Updated overall survival and final PFS data for treatment-naive ALK+ NSCLC",
+          "year": "2020",
+          "study_type": "Phase 3 RCT 延伸隨訪",
+          "tier": "1",
+          "relevance_assessment": "ALEX 試驗長期追蹤數據，惡性腫瘤研究",
+          "grade": "C"
+        },
+        {
+          "pmid": "28501140",
+          "title": "Alectinib versus crizotinib in ALK-positive non-small-cell lung cancer (J-ALEX)",
+          "year": "2017",
+          "study_type": "Phase 3 RCT（J-ALEX 日本試驗）",
+          "tier": "1",
+          "relevance_assessment": "日本 Phase 3 RCT，惡性腫瘤研究",
+          "grade": "C"
+        },
+        {
+          "pmid": "37530142",
+          "title": "Safety and efficacy of alectinib versus crizotinib in ALK-positive NSCLC: updated meta-analysis",
+          "year": "2023",
+          "study_type": "Meta-analysis",
+          "tier": "1",
+          "relevance_assessment": "系統性回顧，惡性腫瘤研究",
+          "grade": "C"
+        }
+      ],
+      "analyst_note": "⚠️ 嚴重映射錯誤——所有文獻均屬已批准的 ALK+ NSCLC 適應症，不構成良性腫瘤再利用依據。建議資料管線修正 MeSH 分類邏輯。"
+    },
+    {
+      "disease_name": "lung germ cell tumor",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "⚠️ 分類說明：文獻實際描述的是 ALK 融合陽性肺部神經內分泌腫瘤（NEC/類癌），而非真正的「生殖細胞腫瘤」（Germ Cell Tumor）。機轉連結明確：EML4-ALK 等融合基因可見於肺部神經內分泌腫瘤亞型，Alectinib 透過抑制 ALK 激酶活性可能抑制此類腫瘤細胞增殖。多篇個案報告顯示 ALK+ 肺神經內分泌腫瘤對 Alectinib 有客觀緩解反應。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04644315",
+          "title": "Phase II Open-Label Single Arm Decentralized Home-Based Study to Evaluate Efficacy...",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "enrollment": 1,
+          "relevance_grade": "C",
+          "reasoning": "試驗提前終止且僅入組 1 例，無法提供有效療效或安全性數據，對此適應症支持力度極低"
+        },
+        {
+          "nct_id": "NCT05770037",
+          "title": "DETERMINE: Determining Extended Therapeutic Indications for Existing Drugs in Rare Molecularly Defined...",
+          "phase": "PHASE2/3",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "relevance_grade": "B",
+          "reasoning": "正在招募中的 Phase 2/3 試驗，針對稀有分子定義疾病的籃式設計，可能涵蓋 ALK+ 神經內分泌腫瘤。計畫入組 30 例，設計合理，但仍在招募階段，尚無結果"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "37031440",
+          "title": "[Alectinib and mixed large cell neuroendocrine carcinoma of the lung]",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_assessment": "直接相關——描述 Alectinib 用於混合型大細胞神經內分泌癌，有療效觀察"
+        },
+        {
+          "pmid": "36690569",
+          "title": "ALK Positive Neuroendocrine Tumor of Lung With Favorable Response to Alectinib",
+          "year": "2023",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_assessment": "直接相關——ALK+ 肺神經內分泌腫瘤對 Alectinib 有良好反應的個案"
+        },
+        {
+          "pmid": "35200571",
+          "title": "ALK-Rearranged Combined Lung Adenocarcinoma and Neuroendocrine Carcinoma with Diffuse Bone Metastasis",
+          "year": "2022",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_assessment": "部分相關——混合型腺癌/神經內分泌癌，含 ALK 重排，ALK 抑制劑治療反應"
+        },
+        {
+          "pmid": "34994612",
+          "title": "Metastatic Large-Cell Neuroendocrine Lung Carcinoma With ALK Fusion Oncogene With Partial Response",
+          "year": "2021",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_assessment": "直接相關——轉移性大細胞神經內分泌癌含 ALK 融合，對 ALK 抑制劑部分緩解"
+        },
+        {
+          "pmid": "31559892",
+          "title": "A case of primary pulmonary atypical carcinoid with EML4-ALK rearrangement",
+          "year": "2020",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_assessment": "直接相關——原發性肺非典型類癌含 EML4-ALK，機轉關聯明確"
+        },
+        {
+          "pmid": "37561984",
+          "title": "Anaplastic Lymphoma Kinase Inhibitors for Therapy of Neuroblastoma in Adults",
+          "year": "2023",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_assessment": "間接相關——ALK 抑制劑用於神經母細胞瘤的回顧，支持 ALK+ 神經內分泌腫瘤的類推"
+        },
+        {
+          "pmid": "39667359",
+          "title": "Dramatic Response to Ensartinib in Metastatic Neuroendocrine Tumors With Novel CEP44-ALK Fusion",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "relevance_assessment": "間接相關——為不同 ALK 抑制劑（Ensartinib），但支持 ALK 融合在 NET 中的功能性驅動角色"
+        }
+      ],
+      "analyst_note": "⚠️ 疾病分類修正建議：實際適應症應標示為「ALK 融合陽性肺神經內分泌腫瘤」，而非「lung germ cell tumor」。證據基礎為多個 ALK+ 肺 NEC/類癌個案報告，具一致性機轉支持，但缺乏系統性臨床試驗數據。NCT05770037 進行中，值得追蹤。"
+    },
+    {
+      "disease_name": "pulmonary sulcus neoplasm",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "肺溝瘤（Pancoast 瘤）若為 ALK+ NSCLC，理論上可用 Alectinib，但此適應症應歸屬已批准的 ALK+ NSCLC 範疇，不構成新再利用適應症。無針對此解剖位置的特定臨床研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "若為 ALK+ NSCLC 的特定解剖位置，屬批准適應症範疇；若為其他組織學類型，則無支持證據。"
+    },
+    {
+      "disease_name": "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此罕見遺傳綜合征無已知 ALK 通路機轉連結。檢視文獻發現，相關論文實為 Alectinib 引發的皮膚不良反應（DRESS 症候群、多形性紅斑），與此疾病在表型上有表面相似性（皮膚色素異常），導致錯誤映射。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33304973",
+          "title": "Alectinib-associated drug reaction with eosinophilia and systemic symptoms syndrome",
+          "year": "2020",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "relevance_assessment": "不相關——Alectinib 引發的 DRESS 不良反應，非用於治療此綜合征"
+        },
+        {
+          "pmid": "28101031",
+          "title": "Alectinib-Induced Erythema Multiforme and Successful Rechallenge",
+          "year": "2016",
+          "study_type": "Case Report / Adverse Event",
+          "tier": "3",
+          "relevance_assessment": "不相關——皮膚不良反應報告，與適應症無關"
+        }
+      ],
+      "analyst_note": "⚠️ 嚴重映射錯誤——文獻為 Alectinib 皮膚毒性報告，而非治療此罕見遺傳病的證據。資料管線需修正不良事件文獻的過濾邏輯。"
+    },
+    {
+      "disease_name": "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "IBMPFD（現稱 Multisystem Proteinopathy-1）由 VCP（p97）基因突變驅動，影響蛋白質降解通路，與 ALK 信號無已知交集。20 篇文獻均為額顳葉失智症（FTD）的一般性綜述，無任何 Alectinib 療效研究，為純疾病背景文獻。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26595641",
+          "title": "Frontotemporal dementia",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_assessment": "完全不相關——疾病綜述，未提及 Alectinib"
+        },
+        {
+          "pmid": "35182511",
+          "title": "Advances and controversies in frontotemporal dementia: diagnosis, biomarkers, and therapeutic considerations",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_assessment": "完全不相關——FTD 治療進展綜述，未提及 ALK 抑制劑"
+        },
+        {
+          "pmid": "35039149",
+          "title": "Progranulin as a therapeutic target in neurodegenerative diseases",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": "2",
+          "relevance_assessment": "完全不相關——Progranulin 靶向治療，與 ALK 無關"
+        }
+      ],
+      "analyst_note": "⚠️ 嚴重映射錯誤——20 篇文獻均為 FTD 疾病背景資料，無一提及 Alectinib 療效。VCP 突變致病機制與 ALK 抑制無機轉交集。"
+    },
+    {
+      "disease_name": "junctional epidermolysis bullosa",
+      "txgnn_score": 0.9995,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "接合型大皰性表皮鬆解症由 LAMA3/LAMB3/LAMC2（Laminin-332）或 COL17A1/ITGA6/ITGB4 基因突變引發，影響皮膚基底膜錨定結構，與 ALK 信號通路無已知關聯。零臨床證據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "analyst_note": "遺傳性皮膚病，機轉無交集，且為高度脆弱患者群體，使用 ALK 抑制劑風險效益比極不利。"
+    }
+  ],
+  "summary": {
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 0,
+      "L5": 9
+    },
+    "decision_distribution": {
+      "S0": 9,
+      "S1": 1,
+      "S2": 0,
+      "S3": 0
+    },
+    "key_findings": [
+      "90% 適應症（9/10）為 L5 級別，僅有 TxGNN 預測，無臨床支持",
+      "唯一具有臨床研究價值的適應症為『ALK 融合陽性肺神經內分泌腫瘤』（被錯誤標記為 lung germ cell tumor），多個個案報告顯示療效，有進行中的 Phase 2/3 試驗",
+      "嚴重資料品質問題：至少 4 個適應症的文獻為錯誤映射（NSCLC 文獻→良性腫瘤、不良反應報告→罕見遺傳病、疾病背景文獻→神經退化病）",
+      "TxGNN 高分（>0.999）集中現象：可能反映 Alectinib 在知識圖譜中作為肺腫瘤治療節點的高度連通性，而非真實療效信號",
+      "建議優先推進：ALK+ 肺神經內分泌腫瘤作為研究問題，追蹤 NCT05770037 結果"
+    ],
+    "data_pipeline_recommendations": [
+      "修正 MeSH 映射邏輯：區分惡性（NSCLC）與良性（benign neoplasm）肺腫瘤文獻",
+      "加入不良事件文獻過濾器，避免 AE 報告被錯誤計入療效文獻",
+      "疾病分類修正：lung germ cell tumor → ALK+ pulmonary neuroendocrine tumor",
+      "為 Alectinib 補充正確的 original_indications（ALK+ NSCLC）和 original_moa（ALK/RET inhibitor）"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策摘要表
+
+| 疾病 | TxGNN 分數 | 臨床試驗 | 文獻 | 證據等級 | 決策階段 | 建議 |
+|------|-----------|---------|------|---------|---------|------|
+| fibromatosis, gingival | 0.9997 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| fibroma of lung | 0.9996 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| hamartoma of lung | 0.9996 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| lung hilum carcinoma | 0.9996 | 0 | 1⚠️ | **L5** | S0 | ⛔ Hold |
+| lung benign neoplasm | 0.9995 | 0 | 20⚠️ | **L5** | S0 | ⛔ Hold（映射錯誤） |
+| **lung germ cell tumor** *(實為 ALK+ NEC)* | 0.9995 | 2 | 16 | **L3** | **S1** | 🔬 Research Question |
+| pulmonary sulcus neoplasm | 0.9995 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+| Leukomelanoderma syndrome | 0.9995 | 0 | 16⚠️ | **L5** | S0 | ⛔ Hold（映射錯誤） |
+| IBMPFD/FTD | 0.9995 | 0 | 20⚠️ | **L5** | S0 | ⛔ Hold（映射錯誤） |
+| junctional epidermolysis bullosa | 0.9995 | 0 | 0 | **L5** | S0 | ⛔ Hold |
+
+> ⚠️ 標記表示文獻為錯誤映射，不構成真實療效依據
+
+**最重要行動項目**：追蹤 **NCT05770037**（DETERMINE trial）結果——此 Phase 2/3 籃式試驗可能為 ALK+ 罕見腫瘤（含肺神經內分泌腫瘤）提供 L2 級證據，屆時可將決策階段提升至 S2。

@@ -1,0 +1,245 @@
+```json
+{
+  "drug": "Desogestrel",
+  "drugbank_id": "DB00304",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "Desogestrel 為第三代孕激素，廣泛用於複合或單一孕激素避孕藥（POP 75μg）。本次標記市場狀態為「未上市」（推測為特定地區），MOA 記載缺失但機轉清楚：透過抑制 LH/FSH 峰值、增厚子宮頸黏液、抑制排卵發揮作用，兼具輕度抗雄激素活性（來自代謝物 etonogestrel）。以下按適應症逐一評估。",
+  "indications": [
+    {
+      "disease_name": "amenorrhea (disease)",
+      "txgnn_score": 0.9996,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Desogestrel（尤其 POP 75μg）透過抑制 HPO 軸（下丘腦-垂體-卵巢軸）可導致閉經，此雙向關係使「治療閉經」的定位複雜：POP 在運動員低雌激素性閉經中或可補充孕激素、但本身亦可誘發功能性閉經。TxGNN 高分可能反映強烈的生物學關聯，而非治療性再利用潛力。需區分「雄激素過多性閉經（PCOS）」與「低促性腺激素性閉經」兩種次型。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00946192",
+          "title": "Fat Mediated Modulation of Reproductive and Endocrine Function in Young Athletes",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "enrollment": 121,
+          "relevance_grade": "B",
+          "reasoning": "研究對象為運動員（高度相關族群，常見運動誘發性閉經），Phase 3 已完成，但主要終點為脂肪調節與內分泌功能，非直接以 Desogestrel 治療閉經。Desogestrel 在此為干預變量之一，非主體藥物。"
+        },
+        {
+          "nct_id": "NCT01588873",
+          "title": "Effects of Contraceptive Pill and Hormonal Vaginal Ring on Hormonal, Inflammatory and Metabolic Parameters",
+          "phase": "PHASE4",
+          "status": "UNKNOWN",
+          "enrollment": 42,
+          "relevance_grade": "C",
+          "reasoning": "研究荷爾蒙避孕藥對代謝/發炎指標的影響，狀態 UNKNOWN（可能已中止），樣本數小（n=42），未以閉經為主要結果指標，與閉經治療之直接相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "3161265", "study_type": "Pharmacodynamic Study", "tier": "2", "note": "直接研究 Desogestrel 單用及合併 EE 的藥效學，具基礎機轉參考價值"},
+        {"pmid": "2956138", "study_type": "Clinical Study", "tier": "2", "note": "研究 EE+Desogestrel 用於青少年寡月經/排卵過少，與閉經相關"},
+        {"pmid": "2976224", "study_type": "Clinical Study", "tier": "2", "note": "EE+Desogestrel 用於高雄激素性年輕女性，間接相關"},
+        {"pmid": "8218004", "study_type": "Comparative RCT", "tier": "2", "note": "比較不同 OC 配方週期控制與副作用"},
+        {"pmid": "18843653", "study_type": "Systematic Review/Meta-analysis", "tier": "1", "note": "Cochrane 系統回顧：20μg vs >20μg EE 複合 OC，一般性背景文獻"},
+        {"pmid": "21249657", "study_type": "Systematic Review/Meta-analysis", "tier": "1", "note": "同上更新版，間接背景"},
+        {"pmid": "35261299", "study_type": "RCT/Observational", "tier": "2", "note": "心血管風險因素女性使用 drospirenone 4mg POP 出血模式，類比 Desogestrel POP"},
+        {"pmid": "1604074", "study_type": "Review", "tier": "3", "note": "1992 年荷爾蒙避孕綜述，資料陳舊"},
+        {"pmid": "8324604", "study_type": "Review", "tier": "3", "note": "複合 OC 可接受性，非閉經特異性"},
+        {"pmid": "1436906", "study_type": "Review", "tier": "3", "note": "新一代 OC 綜述（1992），背景資料"}
+      ],
+      "key_concern": "Desogestrel POP 在臨床上已知可誘發閉經（停藥後月經恢復），將其定位為「治療」閉經存在概念混淆風險。建議明確亞型（PCOS 相關高雄激素性閉經可能受益）再進行下一步評估。"
+    },
+    {
+      "disease_name": "blunt duct adenosis of breast",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳腺鈍管腺病為良性增生性病變，與孕激素/雌激素受體表達相關。Desogestrel 作為孕激素理論上可影響乳腺組織增殖，但雙向效應（促進或抑制）尚不明確。此關聯為純推測性 KG 路徑。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "完全無臨床試驗與文獻支持，且孕激素與良性乳腺疾病的關係存在安全性爭議（長期高劑量孕激素可能增加乳腺密度）。在獲得基礎研究數據前不建議推進。"
+    },
+    {
+      "disease_name": "apocrine adenosis of breast",
+      "txgnn_score": 0.9992,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "頂漿腺腺病為乳腺良性病變，具頂漿化生特徵。與孕激素受體的關聯為理論推測，無直接機轉研究支持。TxGNN 評分可能來自與上述乳腺相關節點的共用 KG 路徑（與 blunt duct adenosis 得分相同，印證此推測）。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "同 blunt duct adenosis，得分相同（0.9992）高度暗示為 KG 演算法的系統性類推而非個別生物學預測。Hold，等待基礎研究佐證。"
+    },
+    {
+      "disease_name": "acne (disease)",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L2",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Desogestrel 代謝物 etonogestrel 具輕度至中度抗雄激素活性（透過競爭性結合雄激素受體），合併 EE 使用可抑制卵巢雄激素分泌（降低游離睪酮）並升高 SHBG，從而減少皮脂腺分泌、改善痤瘡。此機轉有明確藥理學基礎，多篇臨床研究直接驗證。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01466673",
+          "title": "Comparative Study of the Effect on Acne With Norgestimate Containing Triphasic OC vs Another Formulation",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "enrollment": 201,
+          "relevance_grade": "B",
+          "reasoning": "Phase 4 完成試驗，直接研究 OC 對痤瘡的療效（n=201，樣本數適當）。主角為 norgestimate 含量三相 OC，但研究設計與終點（痤瘡評估）高度相關，結果可作為同類孕激素（第三代）的比較參考。Desogestrel 可能為對照組成分之一，需查原始文獻確認。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "8894800", "study_type": "Comparative Clinical Trial", "tier": "2", "note": "直接比較 Desogestrel 與 cyproterone acetate OC 對痤瘡效果，核心文獻"},
+        {"pmid": "8689881", "study_type": "Clinical Trial", "tier": "2", "note": "EE+gestodene/desogestrel 對年輕女性痤瘡臨床與荷爾蒙效果，直接相關"},
+        {"pmid": "2956138", "study_type": "Clinical Study", "tier": "2", "note": "EE+Desogestrel 用於青少年寡月經/排卵過少，含痤瘡評估"},
+        {"pmid": "2976224", "study_type": "Clinical Study", "tier": "2", "note": "Desogestrel+EE 用於高雄激素年輕女性，痤瘡為主要結果"},
+        {"pmid": "7825629", "study_type": "Review", "tier": "3", "note": "孕激素雄激素活性綜述，提供機轉背景"},
+        {"pmid": "8178905", "study_type": "Clinical Review", "tier": "2", "note": "Desogestrel 臨床代謝特徵，含皮膚科效果評估"},
+        {"pmid": "8520092", "study_type": "Review", "tier": "3", "note": "新一代孕激素（desogestrel/norgestimate/gestodene）比較综述"},
+        {"pmid": "3161265", "study_type": "Pharmacodynamic Study", "tier": "2", "note": "Desogestrel 藥效學研究，抗雄激素活性基礎"},
+        {"pmid": "12566804", "study_type": "Review", "tier": "3", "note": "系統性痤瘡治療更新，OC 為重要選項"},
+        {"pmid": "10652979", "study_type": "Cohort Study", "tier": "2", "note": "英國 GPRD 資料庫研究 OC 與 VTE 風險，安全性重要背景"}
+      ],
+      "guardrails": [
+        "心血管風險：Desogestrel 含 EE 的 OC 屬第三代孕激素，VTE 風險高於第二代（levonorgestrel）約 1.5-2 倍，痤瘡患者多為年輕女性，需評估個體 VTE 基線風險",
+        "適應症競爭：cyproterone acetate（抗雄激素強度更高）及 drospirenone 在痤瘡治療上有更多直接 RCT 支持，Desogestrel 處於二線地位",
+        "單用 POP（無 EE）時抗雄激素效果減弱，需區分複合 OC 與 POP 的適用場景",
+        "建議確認 NCT01466673 對照組組成，釐清 Desogestrel 的直接貢獻"
+      ]
+    },
+    {
+      "disease_name": "breast abscess",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳腺膿瘍為感染性疾病（主要病原菌：金黃色葡萄球菌），與孕激素使用無直接治療機轉。理論上孕激素可影響乳腺導管結構與免疫調節，但無法取代抗生素/外科引流作為主要治療。KG 路徑可能反映孕激素與乳腺解剖節點的間接連結。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "生物學合理性低，完全無臨床證據支持。感染性病因使孕激素治療缺乏邏輯基礎。不建議推進。"
+    },
+    {
+      "disease_name": "fat necrosis of breast",
+      "txgnn_score": 0.9989,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳房脂肪壞死通常為外傷或放射治療後的物理性損傷，與荷爾蒙治療無直接因果關係。孕激素對脂肪代謝有調節作用，但無法逆轉物理性壞死。TxGNN 評分與 breast abscess 相同（0.9989），再次提示為系統性乳腺節點類推。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "病因學與 Desogestrel 機轉不符，無臨床依據。Hold。"
+    },
+    {
+      "disease_name": "lactation disease",
+      "txgnn_score": 0.9987,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Desogestrel POP（75μg）是哺乳期首選避孕方式之一（不含雌激素，對乳汁分泌影響最小）。其機轉在於：POP 孕激素不顯著影響催乳素水平及泌乳量，已有多項研究及指引（ACOG、波蘭婦科學會）支持哺乳期使用安全性。此適應症的「再利用」性質較弱，更接近「現有用途的特殊族群認可」。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06689150",
+          "title": "Evaluation of the Contraceptive Efficacy and Safety of Different Types of Progestogen Only Pills",
+          "phase": "NA（觀察性/比較性）",
+          "status": "COMPLETED",
+          "enrollment": 300,
+          "relevance_grade": "A",
+          "reasoning": "已完成試驗，樣本數 300 具統計效力，直接評估孕激素單一避孕藥（含 Desogestrel）的效果與安全性，哺乳期族群可能為主要研究群體。Phase NA 顯示非傳統 RCT 設計但完成度高。"
+        },
+        {
+          "nct_id": "NCT00374972",
+          "title": "Combined Hormonal Versus Progestin Only Contraception During Lactation",
+          "phase": "N/A",
+          "status": "WITHDRAWN",
+          "enrollment": 0,
+          "relevance_grade": "C",
+          "reasoning": "已撤回且無任何受試者入組，提供零有效數據。但研究問題本身（哺乳期複合 vs. 單孕激素避孕）反映該領域的研究需求，具設計參考價值。"
+        }
+      ],
+      "literature_analysis": [
+        {"pmid": "19323063", "study_type": "Expert Statement/Guideline", "tier": "2", "note": "波蘭婦科學會關於 75μg Desogestrel POP 哺乳期使用的專家聲明，直接相關"},
+        {"pmid": "21691183", "study_type": "Clinical Practice Guideline (ACOG)", "tier": "1", "note": "ACOG 實踐公告：長效可逆避孕，含哺乳期建議，高權威性背景指引"},
+        {"pmid": "3945219", "study_type": "Review", "tier": "3", "note": "1986 年 OC 綜述，資料陳舊但提供歷史背景"},
+        {"pmid": "15871554", "study_type": "Drug Review", "tier": "2", "note": "EE/drospirenone 藥物評估，作為類比 POP 安全性的背景參考"}
+      ],
+      "key_concern": "此適應症更接近「已知適用族群」而非創新再利用，主要風險評估應聚焦於特定乳腺疾病情境（如泌乳功能障礙、乳腺炎），而非一般哺乳期避孕。建議明確定義「lactation disease」的具體病理範疇。"
+    },
+    {
+      "disease_name": "breast adenosis",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳腺腺病（腺體增生）與雌孕激素受體表達相關，孕激素對乳腺腺泡發育有調節作用，但在良性增生病變中的治療角色未經臨床驗證。孕激素補充可能促進而非抑制腺體增生，存在雙向不確定性。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "無任何臨床證據，安全性方向不明（孕激素可能惡化良性乳腺增生）。此類 KG 預測需基礎研究（in vitro/動物模型）確認方向後再評估。"
+    },
+    {
+      "disease_name": "primary ovarian failure",
+      "txgnn_score": 0.9972,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "原發性卵巢功能不全（POI）通常以雌激素替代治療為主，Desogestrel 作為孕激素在 HRT 方案中為子宮保護用途（有子宮者）而非針對卵巢功能本身。TxGNN 評分可能來自 HPO 軸相關 KG 節點的路徑，但孕激素無法恢復卵巢儲備或卵泡功能。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "Desogestrel 對 POI 的核心病因（卵巢儲備耗竭）無治療機轉，單純孕激素不足以替代 POI 的雌激素補充需求。無臨床基礎，Hold。"
+    },
+    {
+      "disease_name": "symptomatic form of fragile X syndrome in female carrier",
+      "txgnn_score": 0.9955,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "FMR1 前突變女性攜帶者（55-200 CGG repeats）約 20% 發展為 FXPOI（脆性 X 相關原發性卵巢功能不全）。Desogestrel 理論上可透過抑制促性腺激素延緩卵巢功能衰退，但此機轉在 FMR1 前突變情境中從未被臨床驗證。TxGNN 評分可能透過「POI → 孕激素」的 KG 路徑間接得分。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "key_concern": "高度特異性罕見遺傳病，無任何臨床試驗或文獻支持。雖機轉假說具一定合理性（FXPOI 管理），但需首先在 FXPOI 動物模型中驗證孕激素作用才有推進依據。Hold，屬長期研究議題。"
+    }
+  ],
+  "summary_table": {
+    "headers": ["適應症", "txgnn_score", "證據等級", "決策階段", "建議", "關鍵依據"],
+    "rows": [
+      ["amenorrhea", "0.9996", "L3", "S1", "Research Question", "Phase3/4 試驗間接相關，機轉雙向複雜"],
+      ["blunt duct adenosis of breast", "0.9992", "L5", "S0", "Hold", "零臨床證據，KG 系統類推"],
+      ["apocrine adenosis of breast", "0.9992", "L5", "S0", "Hold", "零臨床證據，與上同路徑"],
+      ["acne", "0.9991", "L2", "S2", "Proceed with Guardrails", "Phase4 RCT + 多篇直接臨床研究，機轉明確"],
+      ["breast abscess", "0.9989", "L5", "S0", "Hold", "感染性病因，孕激素治療無邏輯基礎"],
+      ["fat necrosis of breast", "0.9989", "L5", "S0", "Hold", "物理性損傷，荷爾蒙治療無效"],
+      ["lactation disease", "0.9987", "L3", "S1", "Research Question", "ACOG指引支持+1完成試驗，需明確病理範疇"],
+      ["breast adenosis", "0.9985", "L5", "S0", "Hold", "零臨床證據，安全方向不明"],
+      ["primary ovarian failure", "0.9972", "L5", "S0", "Hold", "孕激素無法恢復卵巢儲備"],
+      ["fragile X syndrome (female carrier)", "0.9955", "L5", "S0", "Hold", "罕見遺傳病，無任何臨床基礎"]
+    ]
+  },
+  "overall_assessment": {
+    "most_promising": "acne (disease) — L2/S2，具直接 Phase 4 RCT 及多篇機轉清楚的臨床研究，可在 VTE 風險評估守則下推進",
+    "worth_investigating": [
+      "amenorrhea — 建議聚焦 PCOS 相關高雄激素性亞型",
+      "lactation disease — 建議明確界定為「哺乳期避孕導致泌乳障礙的預防/管理」"
+    ],
+    "data_quality_flags": [
+      "5 個乳腺相關預測（blunt duct/apocrine/adenosis/abscess/fat necrosis）得分高度相似，暗示 KG 演算法存在系統性乳腺節點過度激活（knowledge graph neighborhood leakage）",
+      "original_moa 記載為 [Data Gap] 應補全，Desogestrel 機轉明確（孕激素受體激動劑/排卵抑制）",
+      "NCT01588873 狀態 UNKNOWN 降低試驗可用性"
+    ]
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+### 🟢 可推進（S2）
+| 適應症 | 等級 | 核心理由 |
+|--------|------|----------|
+| **痤瘡** | L2 | Phase 4 RCT (n=201) + 10篇直接臨床研究；etonogestrel 抗雄激素機轉清楚；VTE 風險為主要守護欄 |
+
+### 🟡 值得研究（S1）
+| 適應症 | 等級 | 核心理由 |
+|--------|------|----------|
+| **閉經** | L3 | Phase 3 試驗間接相關；需**亞型分層**（高雄激素性 vs. 低促性腺激素性），避免「致病藥物當治療藥物」的概念混淆 |
+| **哺乳期疾病** | L3 | ACOG 指引 + 完成試驗（n=300）；更接近「特殊族群認可」而非創新再利用 |
+
+### 🔴 暫緩（S0）
+其餘 **7 個適應症**均為 L5，特別注意：乳腺相關 5 個預測得分高度相似（0.9984–0.9992），高度疑似 **KG 鄰域洩漏（neighborhood leakage）**，建議作為演算法優化的參考案例，而非真實生物學訊號。

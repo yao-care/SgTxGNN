@@ -1,0 +1,384 @@
+```json
+{
+  "drug": "Hydroxychloroquine",
+  "drugbank_id": "DB01611",
+  "analysis_date": "2026-04-04",
+  "note": "市場狀態為「未上市」（當地藥監局資料缺口），原始 MOA 標記 [Data Gap]；實際機制為 TLR7/9 抑制、溶酶體 pH 改變、IL-1/IL-6/TNF-α 下調、抗原呈現干擾",
+  "indications": [
+    {
+      "disease_name": "Quinquaud's folliculitis decalvans",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "毛囊decalvans為中性粒細胞主導的瘢痕性脫髮，HCQ 透過抑制 TLR 信號與溶酶體酸化，可減少毛囊局部 IL-1β/IL-17 驅動的中性粒細胞聚集；EADV 工作小組（2025）已將 HCQ 納入輔助治療選項",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "40230058",
+          "study_type": "Expert Consensus / EADV Position Statement",
+          "tier": "1"
+        },
+        {
+          "pmid": "39893632",
+          "study_type": "Comprehensive Review",
+          "tier": "1"
+        },
+        {
+          "pmid": "39340420",
+          "study_type": "Retrospective Cohort (5-year, HCQ as adjuvant, direct)",
+          "tier": "2"
+        },
+        {
+          "pmid": "32030059",
+          "study_type": "Case Report (Adalimumab for refractory FD, indirect)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "telogen effluvium",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻（PMID 33405302）描述 COVID-19 作為休止期脫髮的觸發因子，並非 HCQ 治療休止期脫髮的直接證據。休止期脫髮為壓力誘導的生理反應，與 HCQ 之免疫調節機制缺乏直接機轉連結；TxGNN 高分預測可能源於 HCQ 與 COVID-19 的歷史關聯",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "33405302",
+          "study_type": "Case Series (COVID-19 sequelae, highly indirect)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "alopecia antibody deficiency",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "唯一文獻（PMID 36117202）為 SLE 合併遺傳性血管性水腫個案報告，與此特定罕見症候群（原發性抗體缺乏合併脫髮）無直接機轉連結；TxGNN 預測極可能源自 HCQ 在 SLE 的已知用途，屬知識圖譜遠距關聯推斷",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36117202",
+          "study_type": "Case Report (SLE + hereditary angioedema, highly indirect)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "alopecia mucinosa",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "毛囊黏蛋白症（follicular mucinosis）涉及 T 細胞介導的毛囊上皮損傷，HCQ 的抗炎作用可抑制毛囊周圍 T 細胞浸潤及黏蛋白異常沉積。兩篇直接報告（2010、2011）顯示特發性毛囊黏蛋白症對 HCQ 有臨床反應",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20302581",
+          "study_type": "Case Series (HCQ direct treatment for idiopathic follicular mucinosis)",
+          "tier": "2"
+        },
+        {
+          "pmid": "36873884",
+          "study_type": "Retrospective Cohort (15 patients, includes HCQ as treatment option)",
+          "tier": "2"
+        },
+        {
+          "pmid": "21242413",
+          "study_type": "Case Report (acneiform follicular mucinosis responding to HCQ)",
+          "tier": "3"
+        },
+        {
+          "pmid": "40657655",
+          "study_type": "Case Report (cyclosporine for follicular mucinosis, indirect comparator)",
+          "tier": "3"
+        },
+        {
+          "pmid": "23968145",
+          "study_type": "Case Report (bexarotene gel, indirect comparator)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "hereditary hypotrichosis with recurrent skin vesicles",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "此為 OMIM 記錄之極罕見遺傳性毛髮疾病（基因缺陷所致），無任何臨床試驗或文獻支持 HCQ 用於此症。HCQ 之免疫調節機制與遺傳性角蛋白/橋粒缺損的病理機轉無直接關聯；預測僅基於知識圖譜中「毛髮疾病」節點群集效應",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "極罕見多系統遺傳症候群，脫髮為遺傳缺損的組成特徵而非免疫介導，無任何文獻支持 HCQ 介入。TxGNN 高分預測可能反映「脫髮」語意節點的共同召回，機轉上無合理連結",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "alopecia areata",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Research Question",
+      "mechanistic_link": "AA 為 CD8+ T 細胞攻擊毛囊免疫豁免區（毛球周圍 MHC-I 上調），HCQ 可抑制干擾素信號（IFN-γ/CXCL10 軸）並降低自身抗原呈現。然而，PMID 27051848 明確顯示 HCQ 對全禿/重症 AA 無效，提示療效可能局限於輕至中度 AA 或特定合併免疫疾病亞群",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00176982",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 開放標籤研究，直接針對 AA/AT，n=16，已完成。無對照組、規模小，屬早期可行性數據，但為目前針對 AA 最直接的 HCQ 臨床試驗"
+        },
+        {
+          "nct_id": "NCT02466243",
+          "relevance_grade": "A",
+          "reasoning": "Phase 2 雙盲 RCT，直接針對 AA，已終止（n=22/計劃）。終止原因未揭露，但已積累的數據具有重要參考價值；終止事件本身亦是負向信號"
+        },
+        {
+          "nct_id": "NCT06512753",
+          "relevance_grade": "B",
+          "reasoning": "HCQ vs MTX 比較研究，針對扁平苔癬性脫髮（LPP），與 AA 為不同疾病但同屬免疫性脫髮，可作為 HCQ 在毛髮免疫疾病中療效比較的間接參考"
+        },
+        {
+          "nct_id": "NCT07190534",
+          "relevance_grade": "B",
+          "reasoning": "HCQ vs MTX 用於額部纖維化脫髮（FFA），屬瘢痕性脫髮（不同於 AA 之非瘢痕性），機轉部分重疊，研究結果可提供 HCQ 效力比較數據"
+        },
+        {
+          "nct_id": "NCT06512766",
+          "relevance_grade": "B",
+          "reasoning": "回顧性研究，瘢痕性脫髮（LPP/FFA）系統治療，n=315，已完成，可能包含 HCQ 真實世界數據"
+        },
+        {
+          "nct_id": "NCT06887517",
+          "relevance_grade": "C",
+          "reasoning": "中國風濕病生物樣本庫，主要收集自身免疫疾病數據，與 AA 無直接關聯"
+        },
+        {
+          "nct_id": "NCT07396168",
+          "relevance_grade": "C",
+          "reasoning": "Nemolizumab 用於 LPP 之 Phase 4 研究，非 HCQ，對本分析無直接貢獻"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "38058539",
+          "study_type": "Narrative Review (HCQ use in hair disorders, 2023)",
+          "tier": "1"
+        },
+        {
+          "pmid": "33940103",
+          "study_type": "Systematic Review (pediatric AA treatment, 2022)",
+          "tier": "1"
+        },
+        {
+          "pmid": "33630354",
+          "study_type": "Systematic Review (pediatric AA therapeutic management, 2021)",
+          "tier": "1"
+        },
+        {
+          "pmid": "39893632",
+          "study_type": "Comprehensive Review (alopecia drugs, 2025)",
+          "tier": "1"
+        },
+        {
+          "pmid": "27051848",
+          "study_type": "Retrospective Study (NEGATIVE: HCQ ineffective for alopecia totalis/extensive AA)",
+          "tier": "2"
+        },
+        {
+          "pmid": "29575039",
+          "study_type": "Retrospective Case Series (9 pediatric AA cases treated with HCQ, 2018)",
+          "tier": "2"
+        },
+        {
+          "pmid": "35199735",
+          "study_type": "Case Report (AA + hyperthyroidism, HCQ + azathioprine combination)",
+          "tier": "3"
+        },
+        {
+          "pmid": "33911611",
+          "study_type": "Case Report (twenty-nail dystrophy + AA treated with HCQ)",
+          "tier": "3"
+        },
+        {
+          "pmid": "33167077",
+          "study_type": "Case Report (co-localization AA + LPP under immunosuppressants)",
+          "tier": "3"
+        },
+        {
+          "pmid": "21570572",
+          "study_type": "Review/Case (Pseudopelade of Brocq, HCQ mentioned, indirect)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "RF+ 多關節型 JIA 在臨床與免疫病理上最接近成人 RA（HCQ 已知適應症），HCQ 作為 csDMARD 的 TLR 抑制與細胞因子下調機制具有直接外推合理性。現有文獻（PMID 8627446）屬間接證據，但 HCQ 在兒童風濕科的廣泛使用提供了安全性背景",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "8627446",
+          "study_type": "Case Report (MTX-induced nodulosis in JRA, mentions HCQ context, indirect)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "juvenile chronic polyarthritis",
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "HCQ 是兒科風濕科指引認可的 csDMARD（2016 EULAR/ACR JIA 治療建議），其 TLR7/9 抑制與 IL-1/IL-6/TNF-α 下調機制在多關節炎中有明確生物學基礎。多篇系統性回顧（PMID 26678914、11945114）確認其在 JIA 中的安全性與療效，PMID 33548956 特別評估兒童 HCQ 安全性。主要監控需求：視網膜毒性（長期使用）、心律不整（QTc 延長）",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "26678914",
+          "study_type": "Systematic Review (DMARDs in JIA biologic era, 2016)",
+          "tier": "1"
+        },
+        {
+          "pmid": "11945114",
+          "study_type": "Review (safety and efficacy of DMARDs in JIA, 2002)",
+          "tier": "1"
+        },
+        {
+          "pmid": "1379157",
+          "study_type": "Review (pharmacological management of JRA, 1992)",
+          "tier": "1"
+        },
+        {
+          "pmid": "9187235",
+          "study_type": "Review (combination second-line antirheumatic drugs)",
+          "tier": "1"
+        },
+        {
+          "pmid": "33548956",
+          "study_type": "Retrospective Review (HCQ safety in children with chronic disease, 2021)",
+          "tier": "2"
+        },
+        {
+          "pmid": "27629113",
+          "study_type": "Multicenter Retrospective Cohort (childhood-onset SLE with arthritis, n=852)",
+          "tier": "2"
+        },
+        {
+          "pmid": "34190324",
+          "study_type": "Retrospective Cohort (inflammatory arthritis, military cohort)",
+          "tier": "2"
+        },
+        {
+          "pmid": "20149327",
+          "study_type": "Registry Study (Brazilian JDM registry, HCQ co-treatment context)",
+          "tier": "2"
+        },
+        {
+          "pmid": "24044622",
+          "study_type": "Case Report (Nijmegen breakage syndrome + polyarthritis, indirect)",
+          "tier": "3"
+        },
+        {
+          "pmid": "24728117",
+          "study_type": "Review (not available, content unverifiable)",
+          "tier": "3"
+        }
+      ]
+    },
+    {
+      "disease_name": "rheumatoid nodulosis",
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "HCQ 可能透過腺苷釋放途徑（MTX 誘發腺苷積累的協同或對抗效應）及肉芽腫形成抑制，影響類風濕結節的發展。1993 年最早期報告（PMID 8496880）描述 MTX 誘發加速結節時 HCQ 的可能反向調節作用，但現有文獻主要描述結節的臨床特徵（MTX/tocilizumab/CAR-T 誘發），缺乏 HCQ 直接治療證據",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT01664117",
+          "relevance_grade": "C",
+          "reasoning": "RA 患者使用生物製劑的觀察性登記研究（n=210，已完成），未以 HCQ 或結節治療為主要研究目的，僅可能提供真實世界中 HCQ 合併使用時的結節發生率數據"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12222551",
+          "study_type": "Review (MTX-induced accelerated nodulosis, comprehensive, 2002)",
+          "tier": "1"
+        },
+        {
+          "pmid": "10458088",
+          "study_type": "Review (MTX nodulosis mechanisms and management)",
+          "tier": "1"
+        },
+        {
+          "pmid": "8496880",
+          "study_type": "Case Series (possible HCQ efficacy for MTX-induced nodulosis, DIRECT, 1993)",
+          "tier": "2"
+        },
+        {
+          "pmid": "39886296",
+          "study_type": "Case Series (MTX-induced accelerated nodulosis, 2024)",
+          "tier": "2"
+        },
+        {
+          "pmid": "8261056",
+          "study_type": "Case Series (accelerated nodulosis + systemic manifestations on MTX)",
+          "tier": "2"
+        },
+        {
+          "pmid": "29859543",
+          "study_type": "Case Series (tocilizumab-induced subcutaneous nodulosis)",
+          "tier": "2"
+        },
+        {
+          "pmid": "39754918",
+          "study_type": "Retrospective Cohort (CAR-T rheumatologic complications, 2025)",
+          "tier": "2"
+        },
+        {
+          "pmid": "26284464",
+          "study_type": "Case Report (rheumatoid nodulosis + extra-articular cyst synovitis)",
+          "tier": "3"
+        },
+        {
+          "pmid": "15645976",
+          "study_type": "Case Report (MTX-induced accelerated nodulosis)",
+          "tier": "3"
+        },
+        {
+          "pmid": "4573028",
+          "study_type": "Review (RA overview, 1973, historical reference only)",
+          "tier": "3"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 綜合摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|---------|---------|------|
+| Juvenile chronic polyarthritis | **L3** | S2 | ✅ Proceed with Guardrails |
+| Folliculitis decalvans | **L3** | S2 | 🔬 Research Question |
+| Alopecia mucinosa | **L3** | S2 | 🔬 Research Question |
+| Alopecia areata | **L3** | S2 | 🔬 Research Question（有負向結果） |
+| RF+ polyarticular JIA | **L4** | S1 | 🔬 Research Question |
+| Rheumatoid nodulosis | **L4** | S1 | 🔬 Research Question |
+| Telogen effluvium | **L5** | S0 | ⛔ Hold |
+| Alopecia antibody deficiency | **L5** | S0 | ⛔ Hold |
+| Hereditary hypotrichosis | **L5** | S0 | ⛔ Hold |
+| Alopecia-ID-hypogonadism syndrome | **L5** | S0 | ⛔ Hold |
+
+### 關鍵發現
+
+1. **最強適應症**：Juvenile chronic polyarthritis — HCQ 為兒科風濕科指引認可的 csDMARD，可直接推進臨床評估，監控重點為視網膜毒性（AAO 指引：≤5mg/kg/day）
+2. **最具研究潛力**：Alopecia areata — 已有 Phase 4 完成試驗與終止 Phase 2 RCT，活躍比較研究（HCQ vs MTX）正在進行，但需注意全禿亞型的負向結果
+3. **特殊注意**：Folliculitis decalvans — 2025 EADV 立場聲明納入 HCQ 為輔助選項，等級評估為 L3 但具臨床指引背書，臨床實用性高於分數所示
+4. **L5 適應症共同警示**：TxGNN 高分（0.984-0.985）源自「脫髮」語意節點群集，並非疾病特異性機轉，不宜直接用於臨床決策

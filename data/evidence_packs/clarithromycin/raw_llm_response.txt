@@ -1,0 +1,325 @@
+## 藥物再利用證據分析：Clarithromycin (DB01211)
+
+> **背景備註**：Clarithromycin 為大環內酯類抗生素，具 CYP3A4 抑制、NF-κB 抑制及免疫調節特性。資料顯示 `original_moa: "[Data Gap]"` 及 `market_status: "未上市"`，分析以現有文獻為主。
+
+---
+
+```json
+{
+  "drug": "Clarithromycin",
+  "drugbank_id": "DB01211",
+  "analysis_date": "2026-04-04",
+  "data_quality_warning": "original_moa 標記為 [Data Gap]，market_status 為未上市，部分適應症的文獻關聯性薄弱，需特別謹慎解讀",
+  "indications": [
+    {
+      "disease_name": "polyclonal hyperviscosity syndrome",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無可識別機轉連結。多株性高黏滯度症候群主因免疫球蛋白過度增生，Clarithromycin 的抗菌或免疫調節機轉與此無直接關聯。TxGNN 高分可能源自鄰近節點（如 monoclonal gammopathy）的圖譜傳播效應。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "HIGH_SCORE_NO_EVIDENCE — 需檢查 KG 節點是否混淆 monoclonal/polyclonal 分類"
+    },
+    {
+      "disease_name": "hyperamylasemia",
+      "txgnn_score": 0.9935,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "無直接機轉連結。Clarithromycin 已知可能引起肝酵素升高，但與澱粉酶升高的因果關係為副作用而非治療用途。唯一文獻為 MAC 肺部感染個案，與 hyperamylasemia 無直接關聯。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "15228140",
+          "title": "Mycobacterium abscessus 肺部感染合併原發性 MAC 感染案例",
+          "year": "2004",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "不相關 — 文獻描述 MAC 感染治療（Clarithromycin 為抗菌用途），非針對 hyperamylasemia"
+        }
+      ],
+      "flag": "LITERATURE_MISMATCH — 唯一文獻與適應症無關聯"
+    },
+    {
+      "disease_name": "congenital analbuminemia",
+      "txgnn_score": 0.9921,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性無白蛋白血症為罕見遺傳性疾病（ALB 基因缺陷），無任何生物學機制支持 Clarithromycin 的治療效益。0 trials, 0 literature。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "PURE_PREDICTION — 僅 TxGNN 計算分數，無任何臨床或基礎研究支持"
+    },
+    {
+      "disease_name": "punctate epithelial keratoconjunctivitis",
+      "txgnn_score": 0.9911,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "弱度間接機轉：大環內酯類（包含 Clarithromycin）具抗菌及抗炎特性，可用於治療瞼板腺功能障礙（MGD）及後眼瞼炎，而 meibomitis 為 punctate epithelial keratoconjunctivitis（MRKC）的重要病因。唯文獻僅1篇，且研究設計不明，需進一步評估。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "38472959",
+          "title": "Keratoepitheliopathy for Meibomitis-Related Keratoconjunctivitis: Features and Treatment Effects",
+          "year": "2024",
+          "study_type": "Observational/Case Series（待驗證）",
+          "tier": 3,
+          "relevance_to_indication": "間接相關 — 研究聚焦 MRKC 治療，Clarithromycin 可能作為 meibomitis 的抗菌治療選項，但文章標題未明確提及 Clarithromycin 為主要干預措施"
+        }
+      ],
+      "next_step": "確認 PMID 38472959 全文中 Clarithromycin 的具體角色；搜尋大環內酯類在眼表炎症的系統性回顧"
+    },
+    {
+      "disease_name": "blood group incompatibility",
+      "txgnn_score": 0.9907,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "血型不相容性為免疫介導的紅血球破壞機制，抗生素類藥物無任何已知治療價值。可能為 KG 中免疫相關節點的非特異性預測。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "PURE_PREDICTION — 生物學理論基礎不成立"
+    },
+    {
+      "disease_name": "premalignant hematological system disease",
+      "txgnn_score": 0.9892,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "廣泛分類，缺乏具體疾病定義。0 trials, 0 literature。雖然 Clarithromycin 在多發性骨髓瘤（相鄰節點）有明確證據，但「前惡性血液疾病」的預防應用缺乏任何直接依據。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "DISEASE_CATEGORY_TOO_BROAD — 建議聚焦具體疾病亞型（如 MGUS、MDS）"
+    },
+    {
+      "disease_name": "monoclonal gammopathy",
+      "txgnn_score": 0.9881,
+      "evidence_level": "L2",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "多重機轉支持：(1) CYP3A4 強效抑制 → 提高 thalidomide/lenalidomide/pomalidomide 及 dexamethasone 系統暴露量；(2) NF-κB 抑制及 TNF-α 下調 → 直接免疫調節及抗骨髓瘤效應；(3) 可能直接誘導漿細胞凋亡；(4) 協同增強免疫調節藥物對骨髓瘤細胞的細胞毒性（PMID 26505646）。BiaxinBLT-D（Clarithromycin + thalidomide + dexamethasone）為已建立的治療方案。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00006219",
+          "title": "Phase II Trial of DHEA and Clarithromycin in Monoclonal Gammopathy of Undetermined Significance (MGUS)",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "直接相關：Phase 2 完成試驗，以 Clarithromycin 為核心治療成分，且針對 MGUS（monoclonal gammopathy 的主要亞型）。完成狀態代表有可分析結果，需查閱結果報告。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "30792190",
+          "title": "Phase 2 study of clarithromycin, pomalidomide, and dexamethasone in relapsed/refractory multiple myeloma",
+          "year": "2019",
+          "study_type": "Phase 2 Clinical Trial",
+          "tier": 2,
+          "relevance": "高度相關 — 多發性骨髓瘤為 monoclonal gammopathy 的惡性進展形式"
+        },
+        {
+          "pmid": "24723438",
+          "title": "Clarithromycin overcomes resistance to lenalidomide and dexamethasone in multiple myeloma",
+          "year": "2014",
+          "study_type": "Clinical Study（耐藥性逆轉）",
+          "tier": 2,
+          "relevance": "高度相關 — 展示 Clarithromycin 的協同抗骨髓瘤機制"
+        },
+        {
+          "pmid": "26505646",
+          "title": "Clarithromycin Synergistically Enhances Thalidomide Cytotoxicity in Myeloma Cells",
+          "year": "2016",
+          "study_type": "Preclinical/Translational",
+          "tier": 2,
+          "relevance": "相關 — 機轉佐證研究"
+        },
+        {
+          "pmid": "34021118",
+          "title": "Lenalidomide and dexamethasone with or without clarithromycin in MM ineligible for transplant",
+          "year": "2021",
+          "study_type": "Randomized Clinical Trial",
+          "tier": 1,
+          "relevance": "高度相關 — 含對照組的隨機試驗設計，直接評估 Clarithromycin 加入的增益效果"
+        },
+        {
+          "pmid": "34424561",
+          "title": "Carfilzomib + dexamethasone induction with lenalidomide/clarithromycin/dexamethasone consolidation",
+          "year": "2021",
+          "study_type": "Clinical Trial",
+          "tier": 2,
+          "relevance": "相關 — 多藥聯合方案中的 Clarithromycin 角色"
+        },
+        {
+          "pmid": "24576165",
+          "title": "Thalidomide, clarithromycin, lenalidomide and dexamethasone in newly diagnosed symptomatic MM",
+          "year": "2014",
+          "study_type": "Phase 2 Clinical Trial",
+          "tier": 2,
+          "relevance": "相關 — 新診斷骨髓瘤的四藥聯合方案"
+        },
+        {
+          "pmid": "12685831",
+          "title": "BLT-D (clarithromycin, low-dose thalidomide, dexamethasone) for myeloma",
+          "year": "2002",
+          "study_type": "Phase 2 Clinical Trial",
+          "tier": 2,
+          "relevance": "相關 — BiaxinBLT-D 方案的原始研究"
+        },
+        {
+          "pmid": "28355602",
+          "title": "Consolidation Therapy after Autologous Transplant for Multiple Myeloma (two consecutive studies)",
+          "year": "2017",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "相關 — 移植後鞏固治療情境"
+        },
+        {
+          "pmid": "12720150",
+          "title": "Waldenstrom's macroglobulinemia: thalidomide alone vs BLT combination",
+          "year": "2003",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "相關 — Waldenström 氏巨球蛋白血症亦為 monoclonal gammopathy 亞型"
+        },
+        {
+          "pmid": "36394758",
+          "title": "Triplet regimens based on pomalidomide and dexamethasone for relapsed/refractory MM",
+          "year": "2022",
+          "study_type": "Systematic Review/Meta-analysis",
+          "tier": 1,
+          "relevance": "相關 — 涵蓋含 Clarithromycin 三藥方案的系統性評估"
+        }
+      ],
+      "guardrails": [
+        "市場狀態標記為「未上市」——需確認當地監管狀態及可及性",
+        "DDI 風險：CYP3A4 強效抑制劑，與多種抗腫瘤藥物存在交互作用",
+        "NCT00006219 結果需獲取以評估 MGUS（非 MM）特定證據強度",
+        "PMID 34021118 隨機試驗結果需確認 Clarithromycin 加入是否具統計顯著獲益"
+      ]
+    },
+    {
+      "disease_name": "septicemic plague",
+      "txgnn_score": 0.9870,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "鼠疫（Yersinia pestis）標準治療為 aminoglycosides、fluoroquinolones 或 tetracyclines。大環內酯類對鼠疫的體外活性有限，且3篇文獻均與敗血性鼠疫無關。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "23463743",
+          "title": "Cethromycin: a new ketolide antibiotic",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "不相關 — 描述 cethromycin（非 clarithromycin），與 septicemic plague 亦無直接關聯"
+        },
+        {
+          "pmid": "36284359",
+          "title": "H. pylori Clarithromycin resistance assessment",
+          "year": "2022",
+          "study_type": "Clinical Study",
+          "tier": 3,
+          "relevance_to_indication": "不相關 — 幽門螺旋桿菌耐藥性研究，與鼠疫無關"
+        },
+        {
+          "pmid": "28133585",
+          "title": "Helicobacter pylori Therapy in the West",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance_to_indication": "不相關 — H. pylori 治療指引，與鼠疫無關"
+        }
+      ],
+      "flag": "LITERATURE_MISMATCH — 3篇文獻均與 septicemic plague 無關，為文獻收集錯誤"
+    },
+    {
+      "disease_name": "hematological disease associated with an acquired peripheral neuropathy",
+      "txgnn_score": 0.9869,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "複合型疾病分類。雖然 Clarithromycin 在骨髓瘤（常合併周邊神經病變）有應用，但「血液病合併獲得性周邊神經病變」作為再利用目標缺乏獨立機轉支持。0 trials, 0 literature。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "flag": "DISEASE_CATEGORY_TOO_BROAD — 需具體化至特定疾病（如 POEMS syndrome、澱粉樣變）"
+    },
+    {
+      "disease_name": "congenital hematological disorder",
+      "txgnn_score": 0.9832,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "先天性血液疾病（如鐮刀型細胞貧血症、地中海貧血）與 Clarithromycin 無已知治療機轉關聯。唯一文獻為 HIV 合併 Factor VII 缺乏症患者的 MAC 感染治療案例，顯示 Clarithromycin 用於治療合併感染而非先天性血液疾病本身。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "10781200",
+          "title": "HAART and Mycobacterium avium complex in HIV patient with severe factor VII deficiency",
+          "year": "2000",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance_to_indication": "不相關 — Clarithromycin 用於 MAC 感染治療（抗菌用途），factor VII 缺乏症為背景合併症，非治療目標"
+        }
+      ],
+      "flag": "LITERATURE_MISMATCH — 文獻中 Clarithromycin 為抗感染用途，非針對先天性血液疾病"
+    }
+  ],
+  "summary": {
+    "total_indications": 10,
+    "evidence_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 1,
+      "L5": 8
+    },
+    "decision_distribution": {
+      "S3_proceed": 1,
+      "S2_feasibility": 0,
+      "S1_safety_review": 1,
+      "S0_insufficient": 8
+    },
+    "priority_indication": "monoclonal gammopathy（L2/S3）— 具 Phase 2 直接試驗及多篇相關文獻，建議優先評估",
+    "quality_concerns": [
+      "8/10 適應症為純 TxGNN 預測（L5），缺乏臨床驗證",
+      "septicemic plague 及 hyperamylasemia 的文獻存在明顯錯誤匹配，建議重新執行文獻收集",
+      "市場狀態「未上市」需釐清是否影響臨床可及性（Clarithromycin 為成熟藥物，此標記可能為資料錯誤）",
+      "original_moa [Data Gap] 需補充：Clarithromycin 為 CYP3A4 強效抑制劑 + 大環內酯類抗菌 + NF-κB 抑制"
+    ]
+  }
+}
+```
+
+---
+
+## 📊 決策矩陣摘要
+
+| 適應症 | TxGNN 分數 | 試驗數 | 文獻數 | 證據等級 | 決策階段 | 建議 |
+|--------|-----------|--------|--------|----------|----------|------|
+| **monoclonal gammopathy** | 0.988 | 1 (P2) | 20 | **L2** | **S3** | ✅ Proceed with Guardrails |
+| punctate epithelial keratoconjunctivitis | 0.991 | 0 | 1* | L4 | S1 | 🔍 Research Question |
+| polyclonal hyperviscosity syndrome | 0.993 | 0 | 0 | L5 | S0 | ❌ Hold |
+| hyperamylasemia | 0.993 | 0 | 1† | L5 | S0 | ❌ Hold |
+| congenital analbuminemia | 0.992 | 0 | 0 | L5 | S0 | ❌ Hold |
+| blood group incompatibility | 0.991 | 0 | 0 | L5 | S0 | ❌ Hold |
+| premalignant hematological system disease | 0.989 | 0 | 0 | L5 | S0 | ❌ Hold |
+| septicemic plague | 0.987 | 0 | 3† | L5 | S0 | ❌ Hold |
+| hematological disease w/ peripheral neuropathy | 0.987 | 0 | 0 | L5 | S0 | ❌ Hold |
+| congenital hematological disorder | 0.983 | 0 | 1† | L5 | S0 | ❌ Hold |
+
+> `*` 文獻間接相關；`†` 文獻與適應症不匹配
+
+---
+
+## 🔑 關鍵發現
+
+1. **Monoclonal Gammopathy 為唯一具臨床意義的候選適應症**：BiaxinBLT-D 方案（Clarithromycin + IMiD + Dexamethasone）在多發性骨髓瘤有豐富 Phase 2 證據，且 NCT00006219 直接針對 MGUS。**建議啟動 S3 流程，重點確認當地市場狀態及 DDI 監控機制**。
+
+2. **資料品質問題需修正**：septicemic plague、hyperamylasemia、congenital hematological disorder 的關聯文獻均與適應症不符，建議重新執行 Phase 5 文獻收集，使用更精確的疾病+藥物 MeSH 關鍵字。
+
+3. **高 TxGNN 分數 ≠ 高臨床可信度**：8個 L5 適應症的高預測分數（0.98+）可能反映知識圖譜中 Clarithromycin 節點與血液系統疾病節點的拓撲接近性，而非真實生物學關聯，特別是 polyclonal hyperviscosity syndrome 與 monoclonal gammopathy 在圖譜中為相鄰節點。

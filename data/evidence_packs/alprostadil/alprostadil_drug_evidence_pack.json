@@ -1,0 +1,1953 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00770-multi",
+    "version": "v4",
+    "created_at": "2026-04-05",
+    "data_cutoff": "2026-04-05",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alprostadil",
+    "drugbank_id": "DB00770",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "aortic malformation",
+      "txgnn": {
+        "score": 0.999840497970581,
+        "rank": 532
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02042092",
+            "title": "A Head-to-Head Comparison of Color Doppler Ultrasonography (CDUS) and Magnetic Resonance Angiography (MRA) in Patients With Systemic Large Vessel Vasculitis (sLVV) - A Cross Sectional Study",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 39,
+            "start_date": "2013-12",
+            "completion_date": "2015-12",
+            "brief_summary": "This study is a cross sectional comparison of the Color Doppler Ultrasonography (CDUS) and Magnetic Resonance Angiography (MRA) in patients diagnosed with sLVV. The supraaortic large vessels (aorta, carotid, subclavian, vertebral, and axillary arteries) and the temporal arteries of fifty patients suffering of sLVV will be examined by CDUS and MRA. The images will be evaluated by 2 blinded experts (one for CDUS and one for MRA). In addition, the intima media complex (IMC) thickness of the large v",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "影像學診斷比較研究，未測試 Alprostadil 療效。與藥物再利用評估無直接相關。"
+            }
+          },
+          {
+            "nct_id": "NCT04054115",
+            "title": "The Acute Effects of the Prostaglandin (Alprostadil) on Cerebral and Pulmonary Flow After the Bidirectional Cavopulmonary Connection",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 10,
+            "start_date": "2019-07-23",
+            "completion_date": "2022-11-09",
+            "brief_summary": "The second stage operation towards single ventricle palliation is 'bidirectional cavopulmonary connection' (BCPC). The superior vena cava is connected to the pulmonary artery, diverting 'blue' blood from the upper body (including the brain) to the lungs. A successful BCPC requires sufficient and easy blood flow through the lungs. Alprostadil is the synthetic form of prostaglandin (hormone that causes dilation of blood vessels) and has been shown to increase blood flow in the brain hence increasi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "直接測試 Alprostadil 對先天性心臟病術後血流動力學影響，機轉相關性高。但因 TERMINATED 且僅納入 10 人，無法提供療效結論。可作為安全性初步訊號參考。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26686446",
+            "title": "Management of Interrupted Aortic Arch.",
+            "authors": [
+              "Jonas Richard A"
+            ],
+            "journal": "Seminars in thoracic and cardiovascular surgery",
+            "year": "2015",
+            "abstract": "The introduction of prostaglandin E1 in the late 1970s revolutionized the management of interrupted aortic arch. Complete resuscitation should proceed over several days if necessary before surgery is undertaken. One-stage primary neonatal repair with direct arch anastomosis and ventricular septal defect closure is the preferred surgical approach. Selective cerebral perfusion with near-infrared monitoring is being used with increasing frequency. Although repair of interrupted arch is physiologica",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16368373",
+            "title": "Closed transventricular aortic valvotomy for critical aortic stenosis in neonates: outcomes, risk factors, and reoperations.",
+            "authors": [
+              "Brown John W",
+              "Ruzmetov Mark",
+              "Vijay Palaniswamy",
+              "Rodefeld Mark D",
+              "Turrentine Mark W"
+            ],
+            "journal": "The Annals of thoracic surgery",
+            "year": "2006",
+            "abstract": "Critical aortic stenosis (AS) in neonates necessitates urgent intervention for patient survival. The optimal treatment, however, continues to be controversial and still has high morbidity and mortality in many centers. This study examined our late outcome, risks, and reoperations after the treatment of critical AS in neonates.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6763200",
+            "title": "Evaluation of alprostadil (prostaglandin E1) in the management of congenital heart disease in infancy.",
+            "authors": [
+              "Heymann M A",
+              "Clyman R I"
+            ],
+            "journal": "Pharmacotherapy",
+            "year": "1982",
+            "abstract": "Prostaglandins have been shown to relax the smooth muscle of the ductus arteriosus in the fetus in utero. This physiologic action has been applied to the management of newborn infants with certain types of congenital malformations. Infants with lesions producing right ventricular outflow obstruction have a compromised pulmonary circulation and require a patent ductus arteriosus for adequate pulmonary blood flow. Infusion of alprostadil (PGE1) dilates the ductus, increases pulmonary blood flow, a",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25647388",
+            "title": "Preoperative management of the neonate with critical aortic valvar stenosis.",
+            "authors": [
+              "Affolter Jeremy T",
+              "Ghanayem Nancy S"
+            ],
+            "journal": "Cardiology in the young",
+            "year": "2014",
+            "abstract": "Neonatal critical aortic stenosis is a rare form of CHD that often presents with cardiogenic shock. Although surgical and cardiac catheterisation-based interventions have been successful in alleviating left ventricular outflow tract obstruction, it remains associated with high morbidity and mortality. Critical aortic stenosis results in elevated left ventricular wall stress, which ultimately increases myocardial oxygen consumption and disrupts coronary artery perfusion during diastole, leading t",
+            "classification": {
+              "study_type": "Review / Clinical Guideline",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27358171",
+            "title": "New Developments in Platelet Cyclic Nucleotide Signalling: Therapeutic Implications.",
+            "authors": [
+              "Procter Nathan E K",
+              "Hurst Nicola L",
+              "Nooney Vivek B",
+              "Imam Hasan",
+              "De Caterina Raffaele"
+            ],
+            "journal": "Cardiovascular drugs and therapy",
+            "year": "2016",
+            "abstract": "Altered platelet physiology may contribute to the emergence of thrombosis in patients with many forms of cardiovascular disease. Excess platelet activation may reflect increased stimulation of pro-aggregatory pathways. There is, however, increasing evidence that excessive platelet response, due to impaired efficacy of anti-aggregatory autacoids such as nitric oxide (NO) and prostacyclin (PGI2), may be just as important. For example, diminished platelet response to NO has been documented in acute",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19080093",
+            "title": "[Effects of alprostadil and ulinastatin on inflammatory response and lung injury after cardiopulmonary bypass in pediatric patients with congenital heart diseases].",
+            "authors": [
+              "Jiang Yi-fei",
+              "Wang Wen-wei",
+              "Ye Wen-lian",
+              "Ni Yu-fei",
+              "Li Jun"
+            ],
+            "journal": "Zhonghua yi xue za zhi",
+            "year": "2008",
+            "abstract": "To investigate the therapeutic effects of alprostadil (Lipo-PGE1) and Ulinastatin on inflammatory response and lung injury after cardiopulmonary bypass (CPB) in pediatric patients with congenital heart diseases.",
+            "classification": {
+              "study_type": "Quasi-RCT / Controlled Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7201134",
+            "title": "Prostaglandin E1 infusion in newborns with hypoplastic left ventricle and aortic atresia.",
+            "authors": [
+              "Hastreiter A R",
+              "van der Horst R L",
+              "Sepehri B",
+              "DuBrow I W",
+              "Fisher E A"
+            ],
+            "journal": "Pediatric cardiology",
+            "year": "1982",
+            "abstract": "Prostaglandin E1 (PGE1) infusion was used in 7 infants with hypoplastic left ventricle and aortic atresia. Of 5 non-operated patients, 4 died shortly after the onset of PGE1 infusion and 1 survived for 30 hours. Of the infants who had surgery, 1 died during the operation and 1 survived for 38 days. In 6 infants, a transient metabolic and/or circulatory improvement could be demonstrated following PGE1 infusion. The lack of response of other infants may be related to the advanced deterioration of ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32184038",
+            "title": "Staged surgical repair for infants with interrupted aortic arch.",
+            "authors": [
+              "Wu Shye-Jao",
+              "Fan Ya-Fen",
+              "Tan Yu-Hern",
+              "Chen Ming-Ren",
+              "Sun Shen"
+            ],
+            "journal": "Asian journal of surgery",
+            "year": "2020",
+            "abstract": "Interrupted aortic arch (IAA) is a rare congenital cardiac anomaly, which necessitates surgical treatment. There are several surgical strategies for corrective repair of IAA, such as one-stage repair, rapid two-stage repair and two-stage repair. Here, we reported our surgical result of staged-repair policy for the patients with IAA.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30347623",
+            "title": "Enteral feeding in duct-dependent congenital heart disease.",
+            "authors": [
+              "Day T G",
+              "Dionisio D",
+              "Zannino D",
+              "Brizard C",
+              "Cheung M M H"
+            ],
+            "journal": "Journal of neonatal-perinatal medicine",
+            "year": "2019",
+            "abstract": "Infants with duct-dependent congenital heart lesions are treated with a prostaglandin E1 infusion. We aimed to describe the feeding strategies used at our institution in such infants, and to describe the incidence of necrotising enterocolitis (NEC) in this patient group, investigating whether enteral feeding is associated with a higher risk.",
+            "classification": {
+              "study_type": "Cohort / Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26118445",
+            "title": "Right Aortic Arch Detected Prenatally: A Rare Case With Bilateral Arterial Duct and Nonconfluent Pulmonary Arteries.",
+            "authors": [
+              "Ricci Silvia",
+              "Fainardi Valentina",
+              "Spaziani Gaia",
+              "Favilli Silvia",
+              "Chiappa Enrico"
+            ],
+            "journal": "The Canadian journal of cardiology",
+            "year": "2015",
+            "abstract": "We describe a rare case of right aortic arch (RAA) and nonconfluent pulmonary arteries. RAA and a right-sided arterial duct (AD) were identified on the prenatal scan, but a second left-sided AD and disconnection of the left pulmonary artery were missed. The missed diagnosis in fetal life adversely affected postnatal management. We suggest that fetuses with a prenatal diagnosis of RAA and right-sided AD be delivered in tertiary care centres to rule out an association with bilateral AD and nonconf",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1926911",
+            "title": "Prostaglandin E1 treatment of congenital heart disease: use prior to neonatal transport.",
+            "authors": [
+              "Buck M L"
+            ],
+            "journal": "DICP : the annals of pharmacotherapy",
+            "year": "1991",
+            "abstract": "Prostaglandin E1 (PGE1) is used to maintain the patency of the ductus arteriosus in neonates when it is necessary to circumvent a defect in the heart or aorta in order to provide adequate peripheral perfusion. It has recently been recommended that medical stabilization with PGE1 be done as soon as a ductus-dependent cardiac defect is suspected, preferably prior to transport of the infant to a tertiary care center for surgical repair of the defect. To accomplish this, hospitals providing obstetri",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20029353",
+            "title": "Use of alprostadil, a stable prostaglandin E1 analogue, for the attenuation of rat skeletal muscle ischemia and reperfusion injury.",
+            "authors": [
+              "Antonio L G M",
+              "Evora P R B",
+              "Piccinato C E"
+            ],
+            "journal": "Minerva chirurgica",
+            "year": "2009",
+            "abstract": "Some stable prostaglandin analogues such as alprostadil have been used to attenuate the deleterious effects of ischemia and reperfusion injury. The aim of this paper was to test if alprostadil can decrease the ischemia- reperfusion injury in rat skeletal muscle using muscular enzymes as markers, such as aspartate aminotransferase (AST), creatine kinase (CPK), lactate dehydrogenase (LDH); degeneration products of cell membrane-malondialdehyde (MDA) and muscle glycogen storage.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10771966",
+            "title": "Prostaglandin E1: first stage palliation in neonates with congenital cardiac defects.",
+            "authors": [
+              "Reddy S C",
+              "Saxena A"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "1998",
+            "abstract": "E-type prostaglandins (PGE1) can effectively maintain the patency of the ductus arteriosus in neonates. Its use, therefore can be life saving in infants born with ductus dependent congenital heart disease. Although PGE1 is available for over two decades in western world, it has been introduced in India only since April, 1995. Various cardiac defects where PGE1 is useful include (a) lesions with ductus dependent pulmonary blood flow e.g. pulmonary atresia with or without ventricular septal defect",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "14579216",
+            "title": "Ventricular cardiac-assist devices in infants and children: anesthetic considerations.",
+            "authors": [
+              "Schindler Ehrenfried",
+              "Müller Matthias",
+              "Kwapisz Myron",
+              "Akintürk Hakan",
+              "Valeske Klaus"
+            ],
+            "journal": "Journal of cardiothoracic and vascular anesthesia",
+            "year": "2003",
+            "abstract": "The application of a mechanical cardiac-assist device is now a common procedure in modern cardiac surgery in patients with end-stage failure, whereas in pediatric patients it is still a great challenge. In the recent literature, a broad range of survival and weaning rates have been reported, depending on the variety of mechanical devices and the choice of patients with different conditions before implantation or if the device is used in emergency surgery. In this article, the authors report thei",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25263728",
+            "title": "Transient hypertrophic pyloric stenosis due to prostoglandin infusion.",
+            "authors": [
+              "Soyer T",
+              "Yalcin S",
+              "Bozkaya D",
+              "Yiğit S",
+              "Tanyel F C"
+            ],
+            "journal": "Journal of perinatology : official journal of the California Perinatal Association",
+            "year": "2014",
+            "abstract": "Prostaglandin E1 (PGE1) is widely used in ductus-dependant congenital heart disease to maintain the patency of ductus. Hypertrophic pyloric stenosis (HPS) due to gastric mucosal proliferation is a rare complication of prolonged PGE infusion. A male newborn who developed HPS during PGE1 infusion is presented to discuss the clinical features and treatment modalities of PGE-related transient HPS. The boy was 2500 g and born at 35 weeks of gestation from a 23-year-old mother. He was admitted to neon",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41167776",
+            "title": "[Preliminary exploration of the mode and timing of delivery for complex fetal congenital heart disease].",
+            "authors": [
+              "Xie J S",
+              "Han M M",
+              "Yin X J",
+              "Han T T",
+              "Pei Q Y"
+            ],
+            "journal": "Zhonghua fu chan ke za zhi",
+            "year": "2025",
+            "abstract": "Objective: To investigate the mode and timing of delivery in pregnant women with complex fetal congenital heart disease (CHD) detected by prenatal ultrasound. Methods: The clinical data of 123 fetuses with complex CHD detected by prenatal ultrasound in Peking University People's Hospital from January 2016 to December 2023 were retrospectively analyzed. Pregnant women with indications for prenatal diagnosis underwent G-banding karyotype analysis, single nucleotide polymorphism array (SNP arrry) o",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10216540",
+            "title": "Prostaglandin E1 in infants with congenital heart disease: Indian experience.",
+            "authors": [
+              "Saxena A",
+              "Sharma M",
+              "Kothari S S",
+              "Juneja R",
+              "Reddy S C"
+            ],
+            "journal": "Indian pediatrics",
+            "year": "1998",
+            "abstract": "E-type prostaglandins (PGE1) can effectively maintain the patency of the ductus arteriosus in neonates. Its use, therefore and be life saving in infants born with ductus dependent congenital heart disease. Although PGE1 is available for over two decade in western world, it has been introduced in India only since April, 1995.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6537955",
+            "title": "Long-term prostaglandin E1 therapy in congenital heart defects.",
+            "authors": [
+              "Teixeira O H",
+              "Carpenter B",
+              "MacMurray S B",
+              "Vlad P"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1984",
+            "abstract": "Seventeen neonates received an intravenous infusion of prostaglandin E1 for an average of 39 days (range 8 to 104). Seven (group 1) had transposition of the great arteries with no ventricular septal defect or a small one; eight (group 2) had ductus-dependent pulmonary flow (pulmonary atresia or stenosis in six and tricuspid atresia in two); and two (group 3) had aortic coarctation, one with no ventricular septal defect, the other with ventricular septal defect, isthmus hypoplasia and descending ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28508920",
+            "title": "Chronic Low Dose Prostaglandin and Neonatal Heart Block.",
+            "authors": [
+              "Aly Safwat A",
+              "Awad Sawsan M",
+              "Abdulla Ra-Id",
+              "Kazmouz Suhaib",
+              "Nguyen Hoang H"
+            ],
+            "journal": "Pediatric cardiology",
+            "year": "2017",
+            "abstract": "Long-term prostaglandin use is commonly associated with side effects such as cortical proliferation of the bones, hypertrophic pyloric stenosis, and soft tissue swelling of the extremities. We report a neonate with critical coarctation of the aorta, who developed second and third degree atrioventricular blocks associated with prolonged prostaglandin E1 (PGE1) infusion. Interestingly, these conduction blocks only occurred at low PGE1 dose. The rhythm disturbances resolved promptly with the discon",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27004548",
+            "title": "[Coarctation of the aorta--perinatal evolution of the defect].",
+            "authors": [
+              "Sołowiej Piotr",
+              "Kowalczyk Monika",
+              "Szymkiewicz-Dangel Joanna"
+            ],
+            "journal": "Kardiologia polska",
+            "year": "2016",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "主動脈畸形（如主動脈弓中斷、缺血性主動脈狹窄、主動脈瓣閉鎖）為導管依賴性病灶：動脈導管連接肺動脈與降主動脈，提供繞過阻塞段的體循環血流。PGE1 透過 EP2/EP4 → cAMP 上調，逆轉導管收縮，維持術前全身灌流，是新生兒手術前標準橋接策略。機轉鏈清晰，為本組最強連結。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "congenital tricuspid stenosis",
+      "txgnn": {
+        "score": 0.9993743300437928,
+        "rank": 1343
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "10216540",
+            "title": "Prostaglandin E1 in infants with congenital heart disease: Indian experience.",
+            "authors": [
+              "Saxena A",
+              "Sharma M",
+              "Kothari S S",
+              "Juneja R",
+              "Reddy S C"
+            ],
+            "journal": "Indian pediatrics",
+            "year": "1998",
+            "abstract": "E-type prostaglandins (PGE1) can effectively maintain the patency of the ductus arteriosus in neonates. Its use, therefore and be life saving in infants born with ductus dependent congenital heart disease. Although PGE1 is available for over two decade in western world, it has been introduced in India only since April, 1995.",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1921438",
+            "title": "Pulmonary atresia and intact ventricular septum. Definitive repair in the neonatal period.",
+            "authors": [
+              "McCaffrey F M",
+              "Leatherbury L",
+              "Moore H V"
+            ],
+            "journal": "The Journal of thoracic and cardiovascular surgery",
+            "year": "1991",
+            "abstract": "Pulmonary atresia with an intact ventricular septum and a small right ventricle is associated with high mortality and lacks a consensus surgical approach. The results of operations in eight of eleven patients with either pulmonary atresia and an intact ventricular septum or critical pulmonary stenosis, hypoplastic right ventricle, and intact ventricular septum, who were operated on between 1983 and 1989, are presented. Definitive correction was performed via a right ventricular transannular patc",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6537955",
+            "title": "Long-term prostaglandin E1 therapy in congenital heart defects.",
+            "authors": [
+              "Teixeira O H",
+              "Carpenter B",
+              "MacMurray S B",
+              "Vlad P"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1984",
+            "abstract": "Seventeen neonates received an intravenous infusion of prostaglandin E1 for an average of 39 days (range 8 to 104). Seven (group 1) had transposition of the great arteries with no ventricular septal defect or a small one; eight (group 2) had ductus-dependent pulmonary flow (pulmonary atresia or stenosis in six and tricuspid atresia in two); and two (group 3) had aortic coarctation, one with no ventricular septal defect, the other with ventricular septal defect, isthmus hypoplasia and descending ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2624556",
+            "title": "[Infusion of prostaglandin E1 in ductus-dependent congenital heart diseases. Analysis of 47 cases].",
+            "authors": [
+              "Atik E",
+              "Gutiérrez J A",
+              "Lyra Filho F J",
+              "Iwahashi E R",
+              "Ribeiro I G"
+            ],
+            "journal": "Arquivos brasileiros de cardiologia",
+            "year": "1989",
+            "abstract": "Prostaglandin E1, used since 1975, has changed favorably the clinical and surgical prognosis of neonates with congenital heart defects, mainly those with a variety of ductus-dependent defects. Due to recent modifications that have been observed with this drug as far as dosage, side effects, duration of venous infusion and the response of the different cardiac anomalies, this study was undertaken on 47 neonates evaluated with drug infusion between December 1985 and April 1988. The ages of the pat",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性三尖瓣狹窄導致右心輸出量下降，肺血流不足。PGE1 維持動脈導管開放，保留右向左分流通路（PDA → 降主動脈），作為肺循環的替代旁路。同時 PGE1 直接舒張肺血管，降低右心後負荷。此機轉為「導管依賴性右心病灶」共同路徑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "congenital valvular dysplasia",
+      "txgnn": {
+        "score": 0.999345600605011,
+        "rank": 1409
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性瓣膜發育不良為一廣泛診斷類別，視受影響瓣膜及血流動力學表現不同。部分亞型（如嚴重肺動脈瓣發育不良）可能呈導管依賴性，PGE1 機轉具合理性；但此類別本身過於異質，無法作為統一適應症評估。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "straddling or overriding tricuspid valve",
+      "txgnn": {
+        "score": 0.9992533326148988,
+        "rank": 1571
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "944520",
+            "title": "Overriding tricuspid valve: echocardiographic and angiocardiographic features.",
+            "authors": [
+              "LaCorte M A",
+              "Fellows K E",
+              "Williams R G"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1976",
+            "abstract": "Eight cases are presented in which the diagnosis of overriding of the tricuspid valve was made during life and the electrocardiographic, echocardiographic and angiographic features of the defect are presented. Four of the patients had dextrotransposition of the great arteries, three had normally related great arteries and one had corrected transposition. In each case there was hypoplasia of the right ventricle and a ventricular septal defect of the atrioventricular (A-V) canal type. The electroc",
+            "classification": {
+              "study_type": "Diagnostic/Observational",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33671890",
+            "title": "Atrioventricular Septal Defect: What Is in a Name?",
+            "authors": [
+              "Rigby Michael"
+            ],
+            "journal": "Journal of cardiovascular development and disease",
+            "year": "2021",
+            "abstract": "Robert Anderson has made a huge contribution to almost all aspects of morphology and understanding of congenital cardiac malformations, none more so than the group of anomalies that many of those in the practice of paediatric cardiology and adult congenital heart disease now call 'Atrioventricular Septal Defect' (AVSD). In 1982, with Anton Becker working in Amsterdam, their hallmark 'What's in a name?' editorial was published in the Journal of Thoracic and Cardiovascular Surgery. At that time mo",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7295418",
+            "title": "Detection and assessment of straddling and overriding atrioventricular valves by two dimensional echocardiography.",
+            "authors": [
+              "Smallhorn J F",
+              "Tommasini G",
+              "Macartney F J"
+            ],
+            "journal": "British heart journal",
+            "year": "1981",
+            "abstract": "Sixteen patients with a straddling tricuspid and two with a straddling mitral valve were identified by two dimensional echocardiography. In all but one the atrioventricular valves appeared at the same level, indicating absence of the ventriculoatrial septum. A straddling valve was diagnosed by identifying subvalvular apparatus from one atrioventricular valve in both chambers, independent of whether they were ventricles or rudimentary chambers. Further confirmation was obtained during real time s",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "3969890",
+            "title": "Straddling atrioventricular valve: two-dimensional echocardiographic diagnosis, classification and surgical implications.",
+            "authors": [
+              "Rice M J",
+              "Seward J B",
+              "Edwards W D",
+              "Hagler D J",
+              "Danielson G K"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1985",
+            "abstract": "The usefulness of subclassifying the anatomic variations of straddling and overriding atrioventricular (AV) valve by 2-dimensional echocardiographic observation were evaluated. Chordae straddling into a contralateral ventricle were subdivided into type A (chordae inserting into the contralateral ventricle near the crest of the ventricular septum), type B (chordae inserting along the contralateral ventricular septum) and type C (chordae inserting into the free wall or papillary muscles of the con",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8461495",
+            "title": "The surgical anatomy of ventricular septal defects associated with overriding valvar orifices.",
+            "authors": [
+              "Anderson R H",
+              "Wilcox B R"
+            ],
+            "journal": "Journal of cardiac surgery",
+            "year": "1993",
+            "abstract": "This is the second review in a three-part series concerned with the description and categorization of ventricular septal defects. By viewing the defects from the right ventricular aspect, they can be placed into one of three classes: perimembranous, muscular, or doubly committed and juxta-arterial. According to the posteroinferior margin of the third group, these could extend to become perimembranous or muscular. In this review, the complications produced by malalignment of the septal structures",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11390347",
+            "title": "Double-outlet right ventricle and overriding tricuspid valve reflect disturbances of looping, myocardialization, endocardial cushion differentiation, and apoptosis in TGF-beta(2)-knockout mice.",
+            "authors": [
+              "Bartram U",
+              "Molin D G",
+              "Wisse L J",
+              "Mohamad A",
+              "Sanford L P"
+            ],
+            "journal": "Circulation",
+            "year": "2001",
+            "abstract": "Transforming growth factor-beta(2) (TGF-beta(2)) is a member of a family of growth factors with the potential to modify multiple processes. Mice deficient in the TGF-beta(2) gene die around birth and show a variety of defects of different organs, including the heart.",
+            "classification": {
+              "study_type": "Basic Science / Developmental Biology",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9725451",
+            "title": "Pathologic substrates for 1 1/2 ventricular repair.",
+            "authors": [
+              "Anderson R H",
+              "Ho S Y"
+            ],
+            "journal": "The Annals of thoracic surgery",
+            "year": "1998",
+            "abstract": "The concept of \"one and a half ventricular repair\" relates to situations where one ventricle is capable of pumping one half of the circulation while the other ventricle is deemed inadequate and requires off-loading by means of a shunt. The inadequate ventricle is usually assigned the role of pumping the pulmonary circulation. The majority of hearts potentially amenable to this repair will have one large ventricle associated with a smaller and more-or-less rudimentary ventricle.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "16014192",
+            "title": "A very unusual combination of straddling and overriding of the tricuspid valve associated with clefting of the mitral valve.",
+            "authors": [
+              "Eberhardt Liane",
+              "Chetaille Philippe",
+              "Kreitmann Bernard"
+            ],
+            "journal": "Cardiology in the young",
+            "year": "2005",
+            "abstract": "We describe a patient in whom we found dual orifices in a straddling and overriding tricuspid valve, with two normally sized ventricles and a cleft in the mitral valve. The patient underwent successful surgical repair. We discuss the concept of \"double-orifice right atrium\", as well as the need to differentiate the isolated cleft of the morphologically mitral valve from the zone of apposition between the left ventricular components of the bridging leaflets seen in the setting of atrioventricular",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "495507",
+            "title": "Straddling and overriding atrioventricular valves: morphology and classification.",
+            "authors": [
+              "Milo S",
+              "Ho S Y",
+              "Macartney F J",
+              "Wilkinson J L",
+              "Becker A E"
+            ],
+            "journal": "The American journal of cardiology",
+            "year": "1979",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "689069",
+            "title": "The straddling mitral valve: morphological observations and clinical implications.",
+            "authors": [
+              "Freedom R M",
+              "Bini R",
+              "Dische R",
+              "Rowe R D"
+            ],
+            "journal": "European journal of cardiology",
+            "year": "1978",
+            "abstract": "The morphological features of 23 patients with straddling or overriding mitral valve are presented. Levocardia was present in 20 of 23; visceroatrial situs solitisu in 20 of 23, with 3 patients, 2 with asplenia and 1 with polysplenia, having visceral heterotaxia. A concordant D-ventricular loop was present in the 20 patients with visceroatrial situs solitus. Six of these had double outlet right ventricle; 2 had asplenia syndrome; 1 had D-transposition of the great arteries, ventricular defect an",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7169145",
+            "title": "[Straddling and overriding atrio-ventricular valves: echocardiographic and angiographic findings].",
+            "authors": [
+              "De Leva F",
+              "Arienzo V",
+              "Calabrò R",
+              "Marsico L",
+              "Gentile F"
+            ],
+            "journal": "Giornale italiano di cardiologia",
+            "year": "1982",
+            "abstract": "Recent advances in surgical technique for correction of positional abnormalities of atrio-ventricular (A-V) valve require accurate preoperative diagnosis of this malformation which can be distinguished into a complete (overriding + straddling) and a partial form (overriding or straddling). In this study, echocardiography and angiocardiography are shown to be complementary to each other for definition of the anatomic details of this pathology. Six cases of positional abnormalities of the A-V valv",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25687391",
+            "title": "The Eisenmenger malformation: a morphologic study.",
+            "authors": [
+              "Restivo Angelo",
+              "di Gioia Cira R T",
+              "Anderson Robert H",
+              "Carletti Raffaella",
+              "Gallo Pietro"
+            ],
+            "journal": "Cardiology in the young",
+            "year": "2016",
+            "abstract": "We studied 11 autopsied cases of the Eisenmenger malformation, comparing the findings with 11 hearts with intact ventricular septal structures, and nine hearts having perimembranous ventricular septal defects in the absence of aortic overriding. We found variable lengths for the subpulmonary infundibulum in the hearts with Eisenmenger defects. It was well developed in three hearts, of intermediate length in seven, and very short in one of the specimens. The muscular outlet septum was also of var",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10218082",
+            "title": "Cyanotic congenital heart disease with decreased pulmonary blood flow in children.",
+            "authors": [
+              "Waldman J D",
+              "Wernly J A"
+            ],
+            "journal": "Pediatric clinics of North America",
+            "year": "1999",
+            "abstract": "Of the \"five T's\" of cyanotic congenital heart disease--tetralogy of Fallot, TGA, TAPVC, truncus, and tricuspid valve abnormalities (tricuspid atresia, stenosis, and displacement)--the first and last are commonly associated with diminished PBF. The four features that comprise tetralogy of Fallot--right ventricular hypertrophy, VSD, overriding aorta, and subpulmonary stenosis--are all secondary to a single morphogenetic defect: failure of expansion of the subpulmonary conus. This also explains th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11117393",
+            "title": "Transthoracic three-dimensional echocardiography for the assessment of straddling tricuspid or mitral valves.",
+            "authors": [
+              "Vogel M",
+              "Ho S Y",
+              "Lincoln C",
+              "Anderson R H"
+            ],
+            "journal": "Cardiology in the young",
+            "year": "2000",
+            "abstract": "The advent of 3D echocardiography has provided a technique which, potentially, could afford significant additional information over conventional cross-sectional echocardiography in the assessment of patients with straddling atrioventricular valves prior to surgical correction.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1091128",
+            "title": "Ultrasound in the diagnosis of congenital heart disease.",
+            "authors": [
+              "Murphy K F",
+              "Kotler M N",
+              "Reichek N",
+              "Perloff J K"
+            ],
+            "journal": "American heart journal",
+            "year": "1975",
+            "abstract": "In addition to recording the motion of the mitral, tricuspid, aortic, and pulmonic valves, echocardiography can identify right and left ventricular cavities and the interventricular septum. Disorders such as atrial-septal defect, valvular and subvalvular aortic stenosis, pulmonic stenosis, Ebstein's anomaly of the tricuspid valve, and the hypoplastic left-heart syndrome can readily be evaluated by echocardiography. In tetralogy of Fallot and truncus arteriosus, discontinuity between the anterior",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30661433",
+            "title": "Absent Pulmonary Valve Syndrome in a Fetus: A Case Report and Literature Review.",
+            "authors": [
+              "Zhou Wan-Ying",
+              "Li Yue-Yi",
+              "He Xiao-Qin",
+              "Wang Yi-Bin"
+            ],
+            "journal": "Fetal and pediatric pathology",
+            "year": "2019",
+            "abstract": "The main characteristics of absent pulmonary valve syndrome (APVS) include the absence or hypoplasia of the pulmonary valve, stenosis of the pulmonary valve annulus, and aneurysmal dilatation of the pulmonary trunk and its branches. In the more common type 1, the tetralogy of Fallot-like type, there is a ventricular septal defect, overriding aorta, pulmonary arterial dilatation, and absence of ductus arteriosus, The second type has an intact ventricular septum, less pulmonary artery dilatation, ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2789916",
+            "title": "Straddling tricuspid valve without a ventricular septal defect.",
+            "authors": [
+              "Isomatsu Y",
+              "Kurosawa H",
+              "Imai Y"
+            ],
+            "journal": "British heart journal",
+            "year": "1989",
+            "abstract": "A four year old girl with pulmonary atresia had a straddling tricuspid valve without an interventricular communication. The overriding tricuspid valve had two orifices, which connected with the right and the left ventricles. Valve tissue separated both orifices and was firmly connected to the crest of the ventricular septum, thus sealing off the expected interventricular communication. Surgical correction was performed and the outcome was satisfactory.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6720500",
+            "title": "Two-dimensional echocardiographic evaluation of overriding and straddling atrioventricular valves associated with complex congenital heart disease.",
+            "authors": [
+              "Barron J V",
+              "Sahn D J",
+              "Valdes-Cruz L M",
+              "Lima C O",
+              "Grenadier E"
+            ],
+            "journal": "American heart journal",
+            "year": "1984",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29336395",
+            "title": "Tricuspid valve straddling: An uncommon cause of left ventricular outflow tract obstruction in transposition of great artery with ventricular septal defect.",
+            "authors": [
+              "Kumar Bhupesh",
+              "Jayant Aveek",
+              "Munirathinam Ganesh Kumar",
+              "Mahajan Sachin"
+            ],
+            "journal": "Annals of cardiac anaesthesia",
+            "year": "2018",
+            "abstract": "Transposition of great arteries (TGA) can be associated with left ventricle outflow tract (LVOT) obstruction. In the presence of ventricular septal defect (VSD), septal leaflet of tricuspid valve may prolapse through perimembranous VSD or rarely tricuspid valve tissue may override to produce LVOT obstruction. Occasionally, this may be mistaken for vegetation due to associated pulmonary valve endocarditis. We report a case of d-TGA with presumptive pulmonary valve endocarditis and LVOT obstructio",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "4055151",
+            "title": "Abnormal architecture of the ventricles in hearts with an overriding aortic valve and a perimembranous ventricular septal defect (\"Eisenmenger VSD\").",
+            "authors": [
+              "Oppenheimer-Dekker A",
+              "Gittenberger-de Groot A C",
+              "Bartelings M M",
+              "Wenink A C",
+              "Moene R J"
+            ],
+            "journal": "International journal of cardiology",
+            "year": "1985",
+            "abstract": "Among 111 hearts with so-called \"isolated\" ventricular septal defect, 18 specimens were found to have a subaortic perimembranous defect with an overriding aortic valve but without pulmonary stenosis. The ventricular architecture was characterized by several abnormalities. A constant finding was the wide right ventricular outflow tract. The outlet septum had its normal continuity with the septomarginal trabecula, but its parietal extension was located relatively far anteriorly. Part of the aortic",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "跨越或騎跨型三尖瓣與心室中隔缺損相關，屬複雜先天性心臟病。若合併肺動脈阻塞或導管依賴性體循環，PGE1 維持 PDA 的機轉具理論基礎；但此適應症本身的 PGE1 治療無直接文獻支撐。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "tricuspid valve agenesis",
+      "txgnn": {
+        "score": 0.9992533326148988,
+        "rank": 1572
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "1921438",
+            "title": "Pulmonary atresia and intact ventricular septum. Definitive repair in the neonatal period.",
+            "authors": [
+              "McCaffrey F M",
+              "Leatherbury L",
+              "Moore H V"
+            ],
+            "journal": "The Journal of thoracic and cardiovascular surgery",
+            "year": "1991",
+            "abstract": "Pulmonary atresia with an intact ventricular septum and a small right ventricle is associated with high mortality and lacks a consensus surgical approach. The results of operations in eight of eleven patients with either pulmonary atresia and an intact ventricular septum or critical pulmonary stenosis, hypoplastic right ventricle, and intact ventricular septum, who were operated on between 1983 and 1989, are presented. Definitive correction was performed via a right ventricular transannular patc",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "1385009",
+            "title": "Results of a right ventricular outflow patch for pulmonary atresia with intact ventricular septum.",
+            "authors": [
+              "Steinberger J",
+              "Berry J M",
+              "Bass J L",
+              "Foker J E",
+              "Braunlin E A"
+            ],
+            "journal": "Circulation",
+            "year": "1992",
+            "abstract": "Although overall outcome has improved, pulmonary atresia with intact septum remains a difficult surgical and clinical problem. To determine whether an early right ventricular outflow patch will result in biventricular repair for this lesion, we reviewed the long-term follow-up (5.8 +/- 0.8 years) of 19 newborns who underwent repair between 1979 and 1990.",
+            "classification": {
+              "study_type": "Retrospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6685153",
+            "title": "Transient neonatal tricuspid regurgitation: possible relation with premature closure of the ductus arteriosus.",
+            "authors": [
+              "Berry T E",
+              "Muster A J",
+              "Paul M H"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1983",
+            "abstract": "Normal fetal circulation requires patency of the ductus arteriosus. Prenatal ductal closure causes profound circulatory changes, such as massive tricuspid regurgitation. After delivery, the clinical picture of these severely distressed cyanotic newborns usually improves rapidly as the circulation is no longer dependent on ductal patency after onset of respiration. This case report deals with a newborn infant with severe tricuspid regurgitation and a large atrial right to left shunt who was treat",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三尖瓣缺如導致右心腔無法有效泵血至肺循環，生理上必須依賴 PDA 維持肺血流或系統性分流。PGE1 維持 PDA 開放的機轉直接適用，與三尖瓣閉鎖（tricuspid atresia）的 PGE1 使用情境高度類比。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "tricuspid valve prolapse (disease)",
+      "txgnn": {
+        "score": 0.9991905093193054,
+        "rank": 1655
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三尖瓣脫垂主要病理為反流而非阻塞，無導管依賴性生理；PGE1 對瓣葉組織無已知直接修復機轉。血管舒張效應對此適應症無明確益處，且可能惡化低血壓。機轉合理性極低。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "anomaly of the tricuspid subvalvular apparatus",
+      "txgnn": {
+        "score": 0.9991551637649536,
+        "rank": 1713
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "三尖瓣下瓣器異常（腱索/乳頭肌異常）為結構性問題，PGE1 無法修正解剖異常。若合併嚴重三尖瓣功能障礙導致導管依賴性，則有間接機轉，但需視具體血流動力學而定。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy",
+      "txgnn": {
+        "score": 0.9990928173065186,
+        "rank": 1819
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此複合型先天性心臟病（DORV + AVSD + PS + 異位症）常呈導管依賴性肺循環，PGE1 機轉具理論合理性（維持 PDA 提供肺血流）。然而此特定組合極為罕見，無任何針對性文獻或試驗。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "heart septal defect",
+      "txgnn": {
+        "score": 0.9938900470733644,
+        "rank": 7459
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26686446",
+            "title": "Management of Interrupted Aortic Arch.",
+            "authors": [
+              "Jonas Richard A"
+            ],
+            "journal": "Seminars in thoracic and cardiovascular surgery",
+            "year": "2015",
+            "abstract": "The introduction of prostaglandin E1 in the late 1970s revolutionized the management of interrupted aortic arch. Complete resuscitation should proceed over several days if necessary before surgery is undertaken. One-stage primary neonatal repair with direct arch anastomosis and ventricular septal defect closure is the preferred surgical approach. Selective cerebral perfusion with near-infrared monitoring is being used with increasing frequency. Although repair of interrupted arch is physiologica",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19080093",
+            "title": "[Effects of alprostadil and ulinastatin on inflammatory response and lung injury after cardiopulmonary bypass in pediatric patients with congenital heart diseases].",
+            "authors": [
+              "Jiang Yi-fei",
+              "Wang Wen-wei",
+              "Ye Wen-lian",
+              "Ni Yu-fei",
+              "Li Jun"
+            ],
+            "journal": "Zhonghua yi xue za zhi",
+            "year": "2008",
+            "abstract": "To investigate the therapeutic effects of alprostadil (Lipo-PGE1) and Ulinastatin on inflammatory response and lung injury after cardiopulmonary bypass (CPB) in pediatric patients with congenital heart diseases.",
+            "classification": {
+              "study_type": "Quasi-RCT",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23521358",
+            "title": "Prolonged prostaglandin E1 therapy in a neonate with pulmonary atresia and ventricular septal defect and the development of antral foveolar hyperplasia and hypertrophic pyloric stenosis.",
+            "authors": [
+              "Perme Tina",
+              "Mali Senja",
+              "Vidmar Ivan",
+              "Gvardijančič Diana",
+              "Blumauer Robert"
+            ],
+            "journal": "Upsala journal of medical sciences",
+            "year": "2013",
+            "abstract": "Prostaglandin E1 (alprostadil) is widely used for maintaining the patency of ductus arteriosus in ductus-dependent congenital heart defects in neonates to improve oxygenation. Among more common side effects are fever, rash, apnoea, diarrhoea, jitteriness, and flushing. More severe side effects are brown fat necrosis, cortical hyperostosis, and gastric outlet obstruction, most commonly the result of antral foveolar hyperplasia or hypertrophic pyloric stenosis. We report on an infant with a ductus",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7990277",
+            "title": "[A case of pulmonary hypertensive crisis (PHC) treated with prostaglandin E1 and tolazolin after surgery of ventricular septal defect in an adult].",
+            "authors": [
+              "Inoue S",
+              "Abe T",
+              "Yamada A",
+              "Urita R",
+              "Baba M"
+            ],
+            "journal": "Kyobu geka. The Japanese journal of thoracic surgery",
+            "year": "1994",
+            "abstract": "A 32-year-old woman was diagnosed with ventricular septal defect (VSD) with severe pulmonary hypertension (PH). Though Pp/Ps was 0.98, an operation was carried out because the index of pulmonary vascular disease (IPVD) was 1.73. Pp/Ps on the operation day was 0.51 and extubation was carried out on the next day. Five days after the operation, she suffered shock, convulsions and loss of consciousness, but these were relieved by endotracheal intubation. On the 7th day, because Pp/Ps was 0.97, we co",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "9539587",
+            "title": "Preoperative prostaglandin E1 therapy in a patient with atrial septal defect and predominant right-to-left shunting.",
+            "authors": [
+              "Trantina A E",
+              "Mächler H",
+              "Kulier A",
+              "Bergmann P",
+              "Dacar D"
+            ],
+            "journal": "Anesthesia and analgesia",
+            "year": "1998",
+            "abstract": "",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "10771966",
+            "title": "Prostaglandin E1: first stage palliation in neonates with congenital cardiac defects.",
+            "authors": [
+              "Reddy S C",
+              "Saxena A"
+            ],
+            "journal": "Indian journal of pediatrics",
+            "year": "1998",
+            "abstract": "E-type prostaglandins (PGE1) can effectively maintain the patency of the ductus arteriosus in neonates. Its use, therefore can be life saving in infants born with ductus dependent congenital heart disease. Although PGE1 is available for over two decades in western world, it has been introduced in India only since April, 1995. Various cardiac defects where PGE1 is useful include (a) lesions with ductus dependent pulmonary blood flow e.g. pulmonary atresia with or without ventricular septal defect",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6537955",
+            "title": "Long-term prostaglandin E1 therapy in congenital heart defects.",
+            "authors": [
+              "Teixeira O H",
+              "Carpenter B",
+              "MacMurray S B",
+              "Vlad P"
+            ],
+            "journal": "Journal of the American College of Cardiology",
+            "year": "1984",
+            "abstract": "Seventeen neonates received an intravenous infusion of prostaglandin E1 for an average of 39 days (range 8 to 104). Seven (group 1) had transposition of the great arteries with no ventricular septal defect or a small one; eight (group 2) had ductus-dependent pulmonary flow (pulmonary atresia or stenosis in six and tricuspid atresia in two); and two (group 3) had aortic coarctation, one with no ventricular septal defect, the other with ventricular septal defect, isthmus hypoplasia and descending ",
+            "classification": {
+              "study_type": "Case Series",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25263728",
+            "title": "Transient hypertrophic pyloric stenosis due to prostoglandin infusion.",
+            "authors": [
+              "Soyer T",
+              "Yalcin S",
+              "Bozkaya D",
+              "Yiğit S",
+              "Tanyel F C"
+            ],
+            "journal": "Journal of perinatology : official journal of the California Perinatal Association",
+            "year": "2014",
+            "abstract": "Prostaglandin E1 (PGE1) is widely used in ductus-dependant congenital heart disease to maintain the patency of ductus. Hypertrophic pyloric stenosis (HPS) due to gastric mucosal proliferation is a rare complication of prolonged PGE infusion. A male newborn who developed HPS during PGE1 infusion is presented to discuss the clinical features and treatment modalities of PGE-related transient HPS. The boy was 2500 g and born at 35 weeks of gestation from a 23-year-old mother. He was admitted to neon",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30184041",
+            "title": "Surgical Repair of Complex Aortopulmonary Window: A Case Study.",
+            "authors": [
+              "He Jigang",
+              "Yan Dan",
+              "Li Beibei",
+              "Li Hongrong"
+            ],
+            "journal": "Brazilian journal of cardiovascular surgery",
+            "year": "2018",
+            "abstract": "Aortopulmonary septal defect, also known as the aortopulmonary window, is a rare congenital macrovascular malformation. This case involves a 9-year-old boy with aortopulmonary septal defect (type I combined with type IV). Before surgery, milrinone and alprostadil were used to counteract high lung pressure. Surgery was performed under cardiopulmonary bypass, following which the pulmonary pressure decreased. The aorta was cut, and the right pulmonary artery opening was connected with the main pulm",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "6235913",
+            "title": "Therapeutic catheter procedures in congenital heart disease: current status and future prospects.",
+            "authors": [
+              "Fellows K E"
+            ],
+            "journal": "Cardiovascular and interventional radiology",
+            "year": "1984",
+            "abstract": "Advancing technology in catheterization techniques have allowed the development of several therapeutic procedures in patients with congenital heart disease. Some of these, such as atrial balloon septostomy, are well established. Others, such as pulmonary valve dilatation, patent ductus closure, and systemic-pulmonary collateral obliteration are currently being tried with success in many institutions. In the future, certain forms of coarctation, some intracardiac shunts and perhaps other anomalie",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33492430",
+            "title": "Elective Non-Urgent Balloon-Atrial Septostomy in Infants with d-Transposition of the Great Arteries Does Not Eliminate the Need for PGE1 Therapy at the Time of Arterial Switch Operation.",
+            "authors": [
+              "Zaleski Katherine L",
+              "McMullen Carl L",
+              "Staffa Steven J",
+              "Thiagarajan Ravi R",
+              "Maschietto Nicola"
+            ],
+            "journal": "Pediatric cardiology",
+            "year": "2021",
+            "abstract": "Once a mainstay in the treatment of neonates with d-transposition of the great arteries (d-TGA), the application of balloon atrial septostomy (BAS) in the d-TGA population has become more selective. Currently, there is no clear evidence for or against a selective BAS strategy. The aims of this single-center retrospective study were to determine the incidence of BAS in the neonatal d-TGA population in the current era, to measure the rate of procedural success, and to compare the outcomes and comp",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8283101",
+            "title": "[Successful surgical repair for a patient with atrial septal defect and severe pulmonary hypertension--its surgical indication and prostaglandin E1 use for postoperative pulmonary hypertensive crisis].",
+            "authors": [
+              "Nakagawa T",
+              "Konno S",
+              "Maemura T",
+              "Goto K",
+              "Hayashibe Y"
+            ],
+            "journal": "[Zasshi] [Journal]. Nihon Kyobu Geka Gakkai",
+            "year": "1993",
+            "abstract": "A 45-year-old woman with atrial septal defect and pulmonary hypertension was admitted for surgical repair. Cardiac catheterization data revealed pulmonary to systemic flow ratio (Qp/Qs) of 1.81, pulmonary artery pressure (PAP) of 82/30 mmHg and pulmonary vascular resistance (PVR) of 10.8 unit. Open lung biopsy was added to evaluate pulmonary vascular obstructive disease (PVOD) which was shown Heath-Edwards grade 3 PVOD. Following closure of the defect, PAP (systolic) exceeded momentarily systemi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "8337520",
+            "title": "[An adult case of secundum atrial septal defect with severe postoperative pulmonary hypertensive crisis].",
+            "authors": [
+              "Iwabuchi S",
+              "Suzuki S",
+              "Kako N",
+              "Koyama M",
+              "Hasegawa T"
+            ],
+            "journal": "Kokyu to junkan. Respiration & circulation",
+            "year": "1993",
+            "abstract": "We reported an adult case of secundum atrial septal defect with severe postoperative pulmonary hypertensive crisis. A 52 year-old female with secundum atrial septal defect and pulmonary hypertension underwent ASD patch closure. After the operation she experienced severe postoperative pulmonary hypertensive crisis. Only administration of PGE1 through the pulmonary artery was effective of hemodynamic improvement and reduction of pulmonary hypertension. Histological diagnosis of lung biopsy showed ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2671454",
+            "title": "[Pulmonary hypertensive crisis after open heart surgery].",
+            "authors": [
+              "Sakamoto K",
+              "Yokota M",
+              "Kyoku I",
+              "Kitano M",
+              "Shimada I"
+            ],
+            "journal": "Kyobu geka. The Japanese journal of thoracic surgery",
+            "year": "1989",
+            "abstract": "Three patients with pulmonary hypertensive crisis (PHC) after open heart surgery for ventricular septal defect are reported. These patients ranged in age from 2 to 47 months, with Rp from 7.0 to 10.6 U.m2, Pp/Ps from 0.67 to 1.0, and Qp/Qs from 1.6 to 1.79. Intraoperative lung biopsy showed pulmonary vascular obstructive disease of Health-Edwards grade 2 in each patient. Atelectasis or pleural effusion on their chest-XP films was found when PHC occurred. The PHC course of the last case was recor",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27589547",
+            "title": "Hemodynamic consequences of a restrictive ductus arteriosus and foramen ovale in fetal transposition of the great arteries.",
+            "authors": [
+              "Talemal L",
+              "Donofrio M T"
+            ],
+            "journal": "Journal of neonatal-perinatal medicine",
+            "year": "2016",
+            "abstract": "D-transposition of the great arteries (D-TGA) is the most commonly diagnosed cyanotic congenital heart disease presenting in the neonatal period. The survival after an arterial switch operation, with freedom from adverse cardiovascular events, has been reported to be as high as 93% at 25 years. However, despite excellent surgical outcomes, there continues to be significant preoperative morbidity and potential mortality due to compromise in the delivery room from foramen ovale closure requiring u",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7198428",
+            "title": "Comparison of effects of prostaglandin E1 and nitroprusside on pulmonary vascular resistance in children after open-heart surgery.",
+            "authors": [
+              "Rubis L J",
+              "Stephenson L W",
+              "Johnston M R",
+              "Nagaraj S",
+              "Edmunds L H"
+            ],
+            "journal": "The Annals of thoracic surgery",
+            "year": "1981",
+            "abstract": "Prostaglandin E1 (PGE1) is a vasodilator. Because the drug is metabolized by lung, we postulated a selective effect on pulmonary vasculature. Twenty-six patients aged 3 months to 16 year (mean, 6.5 years) were studied after repair of atrial septal defect (5), ventricular septal defect (10), tetralogy of Fallot (3), and other lesions (8). Fourteen patients also received nitroprusside. PGE1 (0.1 to 1.0 micrograms/kg/min) or nitroprusside (0.59 to 8.7 micrograms/kg/min) was infused through a centra",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "7578181",
+            "title": "Congenital heart disease with ductal-dependent systemic perfusion: Doppler ultrasonography flow velocities are altered by changes in the fraction of inspired oxygen.",
+            "authors": [
+              "Day R W",
+              "Tani L Y",
+              "Minich L L",
+              "Shaddy R E",
+              "Orsmond G S"
+            ],
+            "journal": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
+            "year": "1995",
+            "abstract": "An unfavorable balance in systemic and pulmonary perfusion may occur in neonates with ductal-dependent systemic perfusion while being treated with prostaglandin E1 before surgical palliation or transplantation. At our institution, we adjust the fraction of inspired oxygen, with supplemental nitrogen if needed, to control pulmonary vascular tone and maintain systemic oxygen saturations near 75%.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15461766",
+            "title": "The harlequin color change and association with prostaglandin E1.",
+            "authors": [
+              "Rao Jaggi",
+              "Campbell Morag E",
+              "Krol Alfons"
+            ],
+            "journal": "Pediatric dermatology",
+            "year": "2004",
+            "abstract": "The harlequin color change is an unusual cutaneous phenomenon observed in newborn infants as transient, benign episodes of a sharply demarcated erythema on half of the infant, with simultaneous contralateral blanching. In this report, two newborns with congenital heart anomalies demonstrated the harlequin color change, one whose skin findings showed a course related to the dose of systemic prostaglandin E1, suggesting a possible association. The benign, self-limited nature of the color change ma",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "2624556",
+            "title": "[Infusion of prostaglandin E1 in ductus-dependent congenital heart diseases. Analysis of 47 cases].",
+            "authors": [
+              "Atik E",
+              "Gutiérrez J A",
+              "Lyra Filho F J",
+              "Iwahashi E R",
+              "Ribeiro I G"
+            ],
+            "journal": "Arquivos brasileiros de cardiologia",
+            "year": "1989",
+            "abstract": "Prostaglandin E1, used since 1975, has changed favorably the clinical and surgical prognosis of neonates with congenital heart defects, mainly those with a variety of ductus-dependent defects. Due to recent modifications that have been observed with this drug as far as dosage, side effects, duration of venous infusion and the response of the different cardiac anomalies, this study was undertaken on 47 neonates evaluated with drug infusion between December 1985 and April 1988. The ages of the pat",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12947507",
+            "title": "Improved pretransplant management of infants with hypoplastic left heart syndrome enables discharge to home while waiting for transplantation.",
+            "authors": [
+              "Bourke K D",
+              "Sondheimer H M",
+              "Ivy D D",
+              "Pietra B",
+              "Gleason B K"
+            ],
+            "journal": "Pediatric cardiology",
+            "year": "2003",
+            "abstract": "For infants whose families select primary transplantation for hypoplastic left heart syndrome (HLHS), the waiting time averages 3 months. Given the relative shortage of organs, the morbidity and mortality of these patients have been high. Therefore, pretransplant management is critical to improve the number of patients who survive to transplantation. This series shows our evolving management for these children, with an emphasis on nonintensive care. Fifty-two infants with HLHS were listed for pr",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "心臟中隔缺損（VSD/ASD/AVSD）合併肺動脈阻塞或閉鎖時呈導管依賴性：PGE1 維持 PDA 開放，提供從體循環到肺循環的旁路（如 VSD + 肺動脈閉鎖）。另外 PGE1 可降低肺血管阻力，減輕右心室後負荷，適用於合併肺高壓的中隔缺損。雙重機轉（ductal patency + 肺血管舒張）為本適應症核心。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "endemic goiter",
+      "txgnn": {
+        "score": 0.9933813810348512,
+        "rank": 7933
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "地方性甲狀腺腫為碘缺乏所致甲狀腺肥大，病理機轉為 TSH 持續刺激。PGE1 作用於血管平滑肌 EP 受體，與甲狀腺碘代謝無任何已知交集。查閱 DrugBank DB00770 及 PubMed 無任何 Alprostadil 用於甲狀腺疾病的文獻。機轉連結不存在。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "aortic malformation"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "aortic malformation"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "aortic malformation"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "congenital tricuspid stenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "congenital tricuspid stenosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "congenital tricuspid stenosis"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "congenital valvular dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "congenital valvular dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "congenital valvular dysplasia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "straddling or overriding tricuspid valve"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "straddling or overriding tricuspid valve"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "straddling or overriding tricuspid valve"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "tricuspid valve agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "tricuspid valve agenesis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "tricuspid valve agenesis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "tricuspid valve prolapse (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "tricuspid valve prolapse (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "tricuspid valve prolapse (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "anomaly of the tricuspid subvalvular apparatus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "anomaly of the tricuspid subvalvular apparatus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "anomaly of the tricuspid subvalvular apparatus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "heart septal defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "heart septal defect"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "heart septal defect"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "endemic goiter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "endemic goiter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Alprostadil",
+        "disease": "endemic goiter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

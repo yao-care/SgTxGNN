@@ -1,0 +1,2398 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB11834-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Guselkumab",
+    "drugbank_id": "DB11834",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "drug-induced osteoporosis",
+      "txgnn": {
+        "score": 0.9983808994293212,
+        "rank": 2917
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IL-23/Th17 軸可誘導 RANKL 表達，促進破骨細胞分化，理論上對藥物誘導骨質疏鬆有保護潛力（如糖皮質激素誘導性骨質疏鬆中的炎症成分）。然而此機轉假說尚無臨床資料驗證，與 guselkumab 既有適應症的病理機轉距離較遠。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "severe nonproliferative diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9980111122131348,
+        "rank": 3392
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假設性路徑：IL-23 驅動視網膜周細胞周圍的炎症微環境，促進 VEGF 過度表達與微血管損傷。但糖尿病視網膜病變的主要驅動因子為慢性高血糖與 VEGF，而非 IL-23 主導的 Th17 炎症。此預測可能為模型在視網膜炎症疾病群組的泛化誤差。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "psoriasis",
+      "txgnn": {
+        "score": 0.997470498085022,
+        "rank": 4058
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02325219",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of CNTO 1959 (Guselkumab) in the Treatment of Subjects With Moderate to Severe Plaque-type Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 192,
+            "start_date": "2014-12-19",
+            "completion_date": "2019-02-08",
+            "brief_summary": "The purpose of this study is to demonstrate the superiority of CNTO 1959 (guselkumab) to placebo in the treatment of participants with moderate to severe plaque-type psoriasis (A common genetically determined, chronic, inflammatory skin disease characterized by rounded erythematous, dry, scaling patches).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "已完成的 Phase 3 雙盲 RCT，直接支持 psoriasis 療效；與 adalimumab 頭對頭比較，PASI 90 達成率顯著優於對照組，為核准依據之一"
+            }
+          },
+          {
+            "nct_id": "NCT04882098",
+            "title": "A Phase 3b, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Subcutaneously Administered Guselkumab in Improving the Signs and Symptoms and Inhibiting Radiographic Progression in Participants With Active Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 1054,
+            "start_date": "2021-06-17",
+            "completion_date": "2027-10-05",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab treatment in participants with active psoriatic arthritis (PsA) by assessing the reduction in signs and symptoms of PsA.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "進行中大型 Phase 3b，樣本數 >1000，將進一步擴充長期安全性與療效資料"
+            }
+          },
+          {
+            "nct_id": "NCT02319759",
+            "title": "A Phase 2a, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Guselkumab in the Treatment of Subjects With Active Psoriatic Arthritis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 149,
+            "start_date": "2015-03-27",
+            "completion_date": "2017-01-17",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety and tolerability of guselkumab in participants with Active Psoriatic Arthritis (PsA).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "已完成 Phase 2a，確立劑量反應關係，為 Phase 3 設計基礎"
+            }
+          },
+          {
+            "nct_id": "NCT02951533",
+            "title": "Multicenter, Randomized, Open-Label, Efficacy Assessor-Blinded, Active Comparator-Controlled Phase 3b Study to Compare the Efficacy of Guselkumab to Fumaric Acid Esters (Fumaderm Initial/ Fumaderm) for Adult Patients With Moderate to Severe Plaque Psoriasis Who Are Candidates for and Naive to Systemic Treatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 119,
+            "start_date": "2016-12-12",
+            "completion_date": "2019-02-06",
+            "brief_summary": "The purpose of the study is to compare the efficacy of Guselkumab with commercially available active comparator Fumaderm initial/Fumaderm tablets for the treatment of adult participants with moderate to severe plaque-type psoriasis who have not yet received any systemic therapy.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "已完成的 Phase 3 主動對照研究，直接比較療效，支持在 TNF-α 抑制劑替換場景下的使用"
+            }
+          },
+          {
+            "nct_id": "NCT04533737",
+            "title": "Efficacy and Safety Comparison of Brodalumab Versus Guselkumab in Adult Subjects With Moderate-to-severe Plaque Psoriasis and Inadequate Response to Ustekinumab",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 113,
+            "start_date": "2020-12-17",
+            "completion_date": "2022-12-07",
+            "brief_summary": "The trial investigates the efficacy and safety of brodalumab against guselkumab in treatment for patients with moderate-to-severe plaque psoriasis who still have some remaining symptoms after ustekinumab treatment.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 比較研究因提前終止（113人），資料解讀受限，但仍提供部分安全性資訊"
+            }
+          },
+          {
+            "nct_id": "NCT02343744",
+            "title": "A Phase 3, Multicenter, Open-Label Study Evaluating the Efficacy and Safety of CNTO1959 (Guselkumab) in the Treatment of Subjects With Generalized Pustular Psoriasis or Erythrodermic Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 21,
+            "start_date": "2015-01-19",
+            "completion_date": "2018-11-02",
+            "brief_summary": "The purpose of this study is to examine descriptively the efficacy of CNTO 1959 in participants with generalized pustular psoriasis (GPP) or erythrodermic psoriasis (EP).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "樣本數極小（n=21）且開放標籤，偏倚風險較高，僅作輔助參考"
+            }
+          },
+          {
+            "nct_id": "NCT07220824",
+            "title": "GUselkumab for the Treatment of PsA: Effectiveness Results by Ultrasound",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2025-12-04",
+            "completion_date": "2027-09-30",
+            "brief_summary": "The purpose of this study is to assess how well guselkumab works in improving symptoms of psoriatic arthritis (an inflammatory disease that affects the joints in participants with psoriasis, a skin condition that causes red, scaly patches) using muscoloskeletal ultrasound (MSUS) in a real-world setting.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "針對銀屑病關節炎，非直接 psoriasis 研究；超音波影像終點有助了解皮膚-關節軸，間接相關"
+            }
+          },
+          {
+            "nct_id": "NCT06055699",
+            "title": "Association Between the Occurrence of a Clinical RElapse and Gut MIcrobiota Modifications: a Cohort Study of Patients With pSOriasis",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 50,
+            "start_date": "2024-03-01",
+            "completion_date": "2028-03-01",
+            "brief_summary": "The human microbiota corresponds to an extremely rich and varied set of microorganisms that colonize our various epitheliums from birth, including the intestine, lungs and skin, where they interact continuously with our immune system. Changes in microbial composition and function, termed dysbiosis, have been linked to alterations in immune responses and to disease development, such as psoriasis. Recent research has shown that the gut microbiota can condition the therapeutic response to checkpoin",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "探索性觀察研究，聚焦腸道菌群生物標記，非直接療效評估；對藥物再利用決策貢獻有限"
+            }
+          },
+          {
+            "nct_id": "NCT05049798",
+            "title": "Assessment of Guselkumab (Tremfya) and IL-17 Inhibitor Therapies in Patients With Psoriatic Arthritis in Routine Clinical Practice; A Prospective, Observational Cohort Study",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 1314,
+            "start_date": "2021-08-25",
+            "completion_date": "2027-08-02",
+            "brief_summary": "The purpose of this study is to evaluate treatment persistence with guselkumab and interleukin-17 inhibitor (IL-17i) initiated at enrollment into this study (PsABIOnd).",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "大型真實世界觀察研究（n=1314），主要針對 PsA，提供真實世界安全性資料，但非 RCT"
+            }
+          },
+          {
+            "nct_id": "NCT00925574",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of CNTO 1959 Following a Single Intravenous or a Single Subcutaneous Administration in Healthy Subjects and in Subjects With Moderate to Severe Psoriasis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 71,
+            "start_date": "2009-06-04",
+            "completion_date": "2010-10-11",
+            "brief_summary": "The purpose of this study is to evaluate the safety and how the body affects a drug (CNTO 1959) in healthy volunteers and in patients with psoriasis.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "最早期安全性與耐受性研究，建立 PK/PD 基礎；對當前療效判斷為輔助性資料"
+            }
+          },
+          {
+            "nct_id": "NCT04080648",
+            "title": "Evaluation of the Preditive Value of Early Serum Trough Concentrations and Anti-drug Antibodies of Guselkumab and the Development of the Concentration-response Curve of Guselkumab for Psoriasis Patients.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 79,
+            "start_date": "2018-06-27",
+            "completion_date": "2023-12-31",
+            "brief_summary": "Biologic such as guselkumab are currently the most effective treatment option for patients with moderate to severe psoriasis. But they are costly for healthcare systems and still described according to a 'one dose fits all' dosing regimen, leading to potential over- and undertreatment. In this study we aim to investigate the predictive value of early serum trough levels of guselkumab and determine the therapeutic window of guselkumab in psoriasis patients.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02203032",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind Study to Evaluate the Efficacy and Safety of Guselkumab for the Treatment of Subjects With Moderate to Severe Plaque-type Psoriasis and an Inadequate Response to Ustekinumab",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 872,
+            "start_date": "2014-10-07",
+            "completion_date": "2016-05-24",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of guselkumab (CNTO 1959) in the treatment of participants with moderate to severe plaque-type psoriasis (scaly skin rash) who had inadequate response to ustekinumab.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02641730",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo Controlled Study Evaluating the Efficacy and Safety of Guselkumab for the Treatment of Subjects With Palmoplantar Pustulosis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 159,
+            "start_date": "2015-12-15",
+            "completion_date": "2018-07-17",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of guselkumab for the treatment of participants with palmoplantar pustulosis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06039189",
+            "title": "A Phase 3b, Multicenter, Randomized, Double-blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Guselkumab Versus Placebo for the Treatment of Low Body Surface Area (BSA) Moderate Plaque Psoriasis With Special Site Involvement",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 338,
+            "start_date": "2023-08-24",
+            "completion_date": "2025-04-14",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab compared to an inactive drug in participants with low body surface area moderate plaque psoriasis and special site involvement.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05503875",
+            "title": "Immunoclassification of Psoriasis: a Strategy for Precision Medicine",
+            "phase": "NA",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2023-01-01",
+            "completion_date": "2027-12-31",
+            "brief_summary": "Through the combination of clinical manifestations and omics, the investigators aim to explore the skin cell atlas in different stages of psoriasis lesions, establish a clinical classification standard for psoriasis, and guide the precise treatment of psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07352566",
+            "title": "Utilization of a Cutaneous Therapy In Situ Microdevice",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 10,
+            "start_date": "2026-01-01",
+            "completion_date": "2030-06-01",
+            "brief_summary": "This study is being done to test a microdevice, which is a small device designed to test drugs directly on skin conditions like atopic dermatitis (eczema) and psoriasis.\n\nThe small device, about the size of a grain of rice, has up to 20 tiny reservoirs that hold medications that are approved by the Food and Drug Administration (FDA) for atopic dermatitis and psoriasis. Very small amounts of these medications will be released into the skin (at levels in your body much lower than are typically use",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06663332",
+            "title": "A Phase 3, Multicenter, Open-label, Basket, LTE Study to Evaluate the Safety of Guselkumab in Pediatric Participants With Crohn's Disease, Ulcerative Colitis, or Juvenile Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 196,
+            "start_date": "2024-10-29",
+            "completion_date": "2031-12-12",
+            "brief_summary": "The purpose of this study is to evaluate long-term safety of subcutaneous guselkumab in pediatric participants with moderately to severely active ulcerative colitis, or moderately to severely active Crohn's disease, or juvenile psoriatic arthritis (jPsA).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04084665",
+            "title": "A Pilot Study to Examine Safety, Activity and Biomarkers in Participants With Hidradenitis Suppurativa Receiving a Previously Tested Subcutaneous Dose of Anti-IL-23 Monoclonal Antibody Guselkumab.",
+            "phase": "EARLY_PHASE1",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2020-06-01",
+            "completion_date": "2020-07-30",
+            "brief_summary": "Hidradenitis Suppurativa (HS) is a severe, chronic debilitating disease with a variable and incomplete response to current treatments. Existing immunological studies have found dysregulation in the TH17:Treg axis with an increase in inflammatory mediators including TNFalpha, IL-17 IL-23 (amongst others) in lesional skin. Multiple cell typesincluding CD4+ cells, dendritic cells and macrophages infiltrate active lesions of HS and produce this major contribution from the Th17 axis.\n\nOne of the main",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01848028",
+            "title": "Long-Term Benefits and Safety of Systemic Psoriasis Therapy: German Registry on the Treatment of Psoriasis With Biologics and Systemic Therapeutics",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 3500,
+            "start_date": "2008-01",
+            "completion_date": "2032-12",
+            "brief_summary": "Treatment of moderate to severe Psoriasis (Pso) and Psoriasis-Arthritis (PsA) is largely confined to systemic therapy in Germany. Systemic therapy includes conventional systemic therapy (e.g. fumaric acids, methotrexate, ciclosporin A) and biological treatment (e.g. adalimumab, etanercept). While short- and middle-term efficacy of most systemic treatments has been shown in clinical studies (and is incorporated in international guidelines), knowledge about long-term outcomes, optimal treatment an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05125679",
+            "title": "A Phase 4, Interventional, Single-arm, Open-label Study Evaluating the Effect of Guselkumab on Cardiovascular Risk Surrogate Markers in Participants With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 15,
+            "start_date": "2021-11-23",
+            "completion_date": "2023-07-28",
+            "brief_summary": "The purpose of this study is to evaluate the effect of guselkumab on coronary flow reserve (CFR), measured by transthoracic doppler-echocardiography, in participants with moderate-to-severe psoriasis and intermediate cardiovascular risk.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04645355",
+            "title": "Immunogenetic Profiling of Guselkumab for the Treatment of Plaque and Guttate Psoriasis",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 25,
+            "start_date": "2021-03-01",
+            "completion_date": "2025-01-01",
+            "brief_summary": "This is a two-arm open-label study to evaluate the clinical and immunogenetic responses of patients with plaque or guttate psoriasis to treatment with guselkumab.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05071664",
+            "title": "A Phase 2a, Multicenter, Randomized, Double-blind Study Evaluating the Efficacy and Safety of Subcutaneously Administered Guselkumab and Golimumab Combination Therapy in Participants With Active Psoriatic Arthritis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 91,
+            "start_date": "2021-10-25",
+            "completion_date": "2024-08-06",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab plus golimumab combination treatment in participants with active psoriatic arthritis (PsA) and inadequate response (IR) to prior anti-tumor necrosis factor-alpha (anti-TNF-alpha) therapies by assessing clinical response compared with guselkumab monotherapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07021495",
+            "title": "A Prospective, Multi-Center, Observational Biomarker Real-World Evidence Study for In-Depth Profiling of Patients With Chronic Immune-Mediated Inflammatory Skin Diseases in Daily Practice",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 840,
+            "start_date": "2025-07-29",
+            "completion_date": "2029-12-31",
+            "brief_summary": "The goal of this observational study is to comprehensively profile six immune-mediated inflammatory diseases, including atopic dermatitis (AD), plaque psoriasis (PSO), hidradenitis suppurativa (HS), cutaneous T-cell lymphoma subtype mycosis fungoides (MF), chronic spontaneous urticaria (CSU), and cutaneous lupus erythematosus (CLE) in daily practice. Data will be compared with data from healthy volunteers. This study is part of the larger NGID (Next Generation ImmunoDermatology) initiative, of w",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01483599",
+            "title": "A Phase 2 Multicenter, Randomized, Placebo- and Active-Comparator-Controlled, Dose-Ranging Trial to Evaluate CNTO 1959 for the Treatment of Subjects With Moderate to Severe Plaque-type Psoriasis (X-PLORE)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 293,
+            "start_date": "2011-11-10",
+            "completion_date": "2013-08-05",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of CNTO 1959 in the treatment of patients with moderate to severe plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02207244",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo and Active Comparator-controlled Study Evaluating the Efficacy and Safety of Guselkumab for the Treatment of Subjects With Moderate to Severe Plaque-type Psoriasis With Randomized Withdrawal and Retreatment",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 992,
+            "start_date": "2014-11-03",
+            "completion_date": "2020-07-01",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of guselkumab (CNTO 1959) in the treatment of participants with moderate to severe plaque-type psoriasis (scaly skin rash).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03998683",
+            "title": "A Phase 3b, Multicenter, Interventional, Randomized, Placebo-controlled Study Investigating the Efficacy and Safety of Guselkumab for the Treatment of Palmoplantar-non-Pustular Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 117,
+            "start_date": "2019-09-03",
+            "completion_date": "2021-11-30",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab for the treatment of palmoplantar psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04340076",
+            "title": "Dose Reduction of the New Generation Biologicals (IL17 and IL23 Inhibitors) in Psoriasis: A Pragmatic, Multicentre, Randomized, Controlled, Non-inferiority Study - BeNeBio Study",
+            "phase": "PHASE4",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 244,
+            "start_date": "2020-08-20",
+            "completion_date": "2025-12",
+            "brief_summary": "The main objective of this study is to investigate whether controlled dose reduction of IL17 or IL23 inhibiting biologics is not inferior compared to usual care in psoriasis patients. Therefore, a pragmatic, multicentre, randomized, controlled, non-inferiority study will be carried out.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04936308",
+            "title": "A Phase 3B, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Guselkumab Administered Subcutaneously in Participants With Active Psoriatic Arthritis Who Had an Inadequate Response and/or Intolerance to One Prior Anti-Tumor Necrosis Factor Alpha Agent",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 453,
+            "start_date": "2021-09-28",
+            "completion_date": "2026-07-16",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab treatment in participants with active psoriatic arthritis (PsA) and inadequate response (IR) and/or intolerance to a prior anti-tumor necrosis factor (TNF) by assessing the reduction in signs and symptoms of PsA.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03451851",
+            "title": "A Phase 3, Multicenter, Randomized, Placebo- and Active Comparator-Controlled Study Evaluating the Efficacy, Safety, and Pharmacokinetics of Subcutaneously Administered Guselkumab for the Treatment of Chronic Plaque Psoriasis in Pediatric Subjects (>=6 To <18 Years of Age)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 120,
+            "start_date": "2018-07-11",
+            "completion_date": "2026-12-18",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of guselkumab in pediatric participants aged greater than or equal to 6 through less than 18 years with chronic plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00508547",
+            "title": "A Multicenter, Open Registry of Patients With Plaque Psoriasis Who Are Candidates for Systemic Therapy Including Biologics",
+            "phase": "N/A",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 15842,
+            "start_date": "2007-06-21",
+            "completion_date": "2030-12-31",
+            "brief_summary": "The purpose of this study is to further evaluate the safety of infliximab, ustekinumab, and guselkumab in patients with plaque and other forms of psoriasis. The study also includes patients receiving other therapies, such as non-biologic and other biologic agents. The registry also evaluates patient and disease characteristics, including patient-reported assessment of psoriatic arthritis (PsA); and clinical and quality of life outcomes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05957120",
+            "title": "Subclinical Impairment of Cardiovascular System in Patients With Psoriasis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2022-01-03",
+            "completion_date": "2022-11-30",
+            "brief_summary": "A cross-sectional study will be conducted, which will include 80 young patients with psoriasis, aged 30-45 years, treated with five different types of antipsoriatic treatment, and 20 healthy patients. All 100 subjects will be subjected to anthropometric measurements, blood will be collected for laboratory tests, and an imaging test will be performed to determine the function of the endothelium and arterial stiffness. The results will then be statistically analyzed.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02207231",
+            "title": "Phase 3, Multicenter, Randomized, Double-blind, Placebo and Active Comparator-controlled Study Evaluating the Efficacy and Safety of Guselkumab in the Treatment of Subjects With Moderate to Severe Plaque-type Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 837,
+            "start_date": "2014-11-26",
+            "completion_date": "2020-06-17",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, safety, and tolerability of guselkumab (CNTO 1959) in the treatment of participants with moderate to severe plaque-type psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03090100",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind Study Evaluating the Comparative Efficacy of CNTO 1959 (Guselkumab) and Secukinumab for the Treatment of Moderate to Severe Plaque-type Psoriasis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 1048,
+            "start_date": "2017-04-27",
+            "completion_date": "2018-09-20",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab compared with secukinumab for the treatment of participants with moderate to severe plaque-type psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02397382",
+            "title": "A Phase 1, Open-label, Drug Interaction Study to Evaluate the Effect of Guselkumab (CNTO 1959) on Cytochrome P450 Enzyme Activities Following a Single Subcutaneous Administration in Subjects With Moderate to Severe Plaque-type Psoriasis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 16,
+            "start_date": "2015-06-18",
+            "completion_date": "2016-08-31",
+            "brief_summary": "The purpose of this study is to evaluate the potential effects of a single dose of 200 milligram (mg) guselkumab on the plasma concentrations of a cocktail of representative probe substrates of Cytochrome P450 isozymes (CYP3A4, CYP2C9, CYP2C19, CYP2D6, and CYP1A2) in participants with moderate to severe psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03796858",
+            "title": "Phase 3b, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Guselkumab Administered Subcutaneously in Participants With Active Psoriatic Arthritis and an Inadequate Response to Anti-Tumor Necrosis Factor Alpha (Anti-TNFα) Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 285,
+            "start_date": "2019-03-22",
+            "completion_date": "2020-11-11",
+            "brief_summary": "The purpose of this study is to evaluate guselkumab efficacy versus placebo in participants with active psoriatic arthritis (PsA) and an inadequate response to Anti-Tumor Necrosis Factor Alpha (TNF-alpha) therapy by assessing the reduction in signs and symptoms of joint disease.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07041112",
+            "title": "Pharmacogenetic Observational Study Evaluating the Influence of Genetic Variants and Cardiometabolic Risk Factors on 10-Year Survival of Biologic Therapies in Patients With Cutaneous Psoriasis With or Without Psoriatic Arthritis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1000,
+            "start_date": "2012-01-01",
+            "completion_date": "2024-06-01",
+            "brief_summary": "This retrospective observational study aims to evaluate the long-term survival of biologic therapies in adult patients with moderate-to-severe cutaneous psoriasis, with or without psoriatic arthritis, over a period of up to 10 years. The study investigates the influence of clinical, metabolic, and genetic factors, including SNPs and metabolic syndrome components, on treatment durability. Data were obtained from a single-centre cohort treated in routine clinical practice. This analysis seeks to i",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05083182",
+            "title": "A Phase 3 Multicenter, Open-label Study to Evaluate the Efficacy, Pharmacokinetics, Safety, and Immunogenicity of Subcutaneously Administered Ustekinumab or Guselkumab in Pediatric Participants With Active Juvenile Psoriatic Arthritis (PSUMMIT-Jr)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 48,
+            "start_date": "2022-08-30",
+            "completion_date": "2027-08-09",
+            "brief_summary": "The purpose of this study is to evaluate the pharmacokinetics (PK), efficacy, safety and immunogenicity of ustekinumab and guselkumab in active juvenile psoriatic arthritis (jPsA).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04261010",
+            "title": "TNF and IL23 Blocking Agents Gene Expression Ratios in the Psoriatic Arthritis Synovium",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 36,
+            "start_date": "2020-01-14",
+            "completion_date": "2023-09-12",
+            "brief_summary": "This study compare the genomics profiles in synovial biopsies obtained prior to, and 24 weeks after a biologic disease modifying anti-rheumatic drugs (DMARDs)(Adalimumab, Ustekinumab, Guselkumab) in patients with active psoriatic arthritis despite a treatment with a conventional synthetic DMARDs (such as methotrexate).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03553823",
+            "title": "A 16-week Randomized, Open-label, Multicenter Study to Assess the Superiority of Secukinumab Over Guselkumab in the Complete Treatment of Ustekinumab Resistant Psoriatic Plaques",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2019-01-14",
+            "completion_date": "2020-01-28",
+            "brief_summary": "The aim of this study was to describe the effect of direct IL-17A inhibition with secukinumab as compared with the selective inhibition of IL-23 with guselkumab (p19 subunit blocker) in controlling inflammation in psoriatic plaques that remain active despite treatment with the non-selective IL-23 inhibitor ustekinumab (blocker of p40 subunit, shared by IL-12 and IL 23).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03158285",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Guselkumab Administered Subcutaneously in Subjects With Active Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 741,
+            "start_date": "2017-07-12",
+            "completion_date": "2020-11-10",
+            "brief_summary": "The primary purpose of this study is to evaluate the efficacy of guselkumab treatment in participants with active psoriatic arthritis (PsA) by assessing the reduction in signs and symptoms of PsA.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05669833",
+            "title": "Guselkumab vs Golimumab in PsA TNF Inadequate Responder Patients: a Pragmatic Trial (EVOLUTION)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 63,
+            "start_date": "2023-07-14",
+            "completion_date": "2026-10",
+            "brief_summary": "The trial is an open-label randomized study that will examine whether switching to a selective IL23 inhibitor (guselkumab) is more effective than switching to a second TNFi (golimumab) among patients with PsA who have an inadequate response to a TNFi.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07449234",
+            "title": "A Non-interventional, Multi-centric, Single Country Observational Study to Assess the Safety and Effectiveness of Guselkumab After Ustekinumab (Originator or Biosimilar) in Moderate to Severe Psoriasis Patients in Clinical Routine",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2026-02-09",
+            "completion_date": "2027-09-01",
+            "brief_summary": "The purpose of this study is to assess the effectiveness and safety of guselkumab following a switch from ustekinumab or an ustekinumab biosimilar in participants with moderate to severe psoriasis, a chronic inflammatory skin disease characterized by erythematous, scaly plaques that may be associated with pain and pruritus, in routine clinical practice.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03975153",
+            "title": "An Open Label Pilot Trial of Guselkumab in the Treatment of Adults With Pityriasis Rubra Pilaris (PRP)",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 15,
+            "start_date": "2019-10-03",
+            "completion_date": "2024-03-22",
+            "brief_summary": "15 patients with PRP will be treated with guselkumab for 20 weeks to determine safety and efficacy. Participants are required to travel to Portland, OR only for the first visit, week-4 visit, and week-24 visit. 3 visits in between these times and one follow up visit may be performed by secure videoconferencing.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04439526",
+            "title": "Observational Study on GUselkumab: Effectiveness and Impact on quaLity of LIfe in naïVE or Bio Experienced Patients With Regional (Facial and Genital) Psoriasis (GULLIVER Study)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 356,
+            "start_date": "2020-06-10",
+            "completion_date": "2023-11-21",
+            "brief_summary": "The purpose of this study is to investigate the effectiveness profile of guselkumab used in a real-life setting in participants with moderate facial and/or genital psoriasis. Effectiveness will be evaluated using the static Physicians Global Assessment (sPGA) for the facial region and the sPGA for the genital region.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01845987",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled, Parallel Group Study to Assess the Efficacy, Safety and Tolerability of CNTO 1959, a Human Anti-IL 23 Monoclonal Antibody, Following Subcutaneous Administration in Subjects With Palmoplantar Pustulosis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 49,
+            "start_date": "2013-06",
+            "completion_date": "2014-09",
+            "brief_summary": "The purpose of this study is to assess the efficacy, safety, and tolerability of CNTO 1959 following subcutaneous administration in participants with palmoplantar pustulosis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04394936",
+            "title": "An Exploratory, Single-center, Double-blinded, Healthy Volunteer Controlled Study to Characterize Psoriasis Patients and Explore Novel Biomarkers for the Treatment Response of Psoriasis With a Multimodal Patient Profiling Approach.",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 37,
+            "start_date": "2020-09-01",
+            "completion_date": "2023-03-27",
+            "brief_summary": "Plaque psoriasis may be an ideal model disease to explore potential therapeutic effects of immunosuppressive agents, given the easy accessibility of inflammatory lesions. In this study, the applicability of a systems dermatology approach is investigated in order to better assess the efficacy of psoriasis treatments at an early clinical stage. Up to this point, the clinical manifestation and regression of psoriasis is not yet sufficiently characterized with a multimodal state-of-the-art evaluatio",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07141004",
+            "title": "A Phase-IV, Multicenter, Non-Comparative, Open-Label Study Evaluating the Safety and Efficacy of Guselkumab Administered Subcutaneously in the Treatment of Indian Patients With Psoriatic Arthritis",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 100,
+            "start_date": "2025-08-12",
+            "completion_date": "2027-09-11",
+            "brief_summary": "The purpose of this study is to evaluate the safety and how well guselkumab treatment works (efficacy) in participants with psoriatic arthritis (PsA; a chronic, autoimmune form of arthritis that causes joint inflammation) who had inadequate response to standard therapies.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01484587",
+            "title": "A Randomized, Double-blind, Placebo-controlled, Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of CNTO 1959 Following a Single Subcutaneous Administration in Japanese Subjects With Moderate to Severe Plaque Psoriasis",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 24,
+            "start_date": "2011-08-22",
+            "completion_date": "2013-04-11",
+            "brief_summary": "The purpose of this study is to assess the safety and tolerability of CNTO 1959 following a single subcutaneous (SC, under the skin) dose administered to Japanese participants with moderate to severe plaque psoriasis.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05083078",
+            "title": "A Phase 1 Study to Assess the Relative PK and Tissue Distribution of Guselkumab and Risankizumab in Healthy Participants and Patients With Psoriatic Arthritis",
+            "phase": "PHASE1",
+            "status": "TERMINATED",
+            "enrollment": 11,
+            "start_date": "2021-11-04",
+            "completion_date": "2022-07-01",
+            "brief_summary": "The purpose of this study is to assess the tissue distribution of guselkumab and risankizumab in healthy participants (Part 1) and psoriatic arthritis (PsA) participants (Part 2 and Part 3).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04929210",
+            "title": "A Phase 4, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Guselkumab Administered Subcutaneously in Bio-naive Participants With Active Psoriatic Arthritis Axial Disease",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 405,
+            "start_date": "2021-08-30",
+            "completion_date": "2027-04-13",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab treatment in participants with active psoriatic arthritis (PsA) axial disease by assessing reduction in axial symptoms and inflammation.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "32427307",
+            "title": "Pathophysiology, Clinical Presentation, and Treatment of Psoriasis: A Review.",
+            "authors": [
+              "Armstrong April W",
+              "Read Charlotte"
+            ],
+            "journal": "JAMA",
+            "year": "2020",
+            "abstract": "Approximately 125 million people worldwide have psoriasis. Patients with psoriasis experience substantial morbidity and increased rates of inflammatory arthritis, cardiometabolic diseases, and mental health disorders.",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35791876",
+            "title": "Drug Survival Associated With Effectiveness and Safety of Treatment With Guselkumab, Ixekizumab, Secukinumab, Ustekinumab, and Adalimumab in Patients With Psoriasis.",
+            "authors": [
+              "Yiu Zenas Z N",
+              "Becher Gabrielle",
+              "Kirby Brian",
+              "Laws Philip",
+              "Reynolds Nick J"
+            ],
+            "journal": "JAMA dermatology",
+            "year": "2022",
+            "abstract": "Drug survival of biologic therapies for psoriasis is a proxy for longer-term treatment effectiveness and safety. Patient factors that are associated with the survival of each biologic differently (effect modifiers) may inform the decision to choose between biologics.",
+            "classification": {
+              "study_type": "Real-world Cohort",
+              "tier": 2
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28057360",
+            "title": "Efficacy and safety of guselkumab, an anti-interleukin-23 monoclonal antibody, compared with adalimumab for the continuous treatment of patients with moderate to severe psoriasis: Results from the phase III, double-blinded, placebo- and active comparator-controlled VOYAGE 1 trial.",
+            "authors": [
+              "Blauvelt Andrew",
+              "Papp Kim A",
+              "Griffiths Christopher E M",
+              "Randazzo Bruce",
+              "Wasfi Yasmine"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2017",
+            "abstract": "Guselkumab, an interleukin-23 blocker, was superior to adalimumab in treating moderate to severe psoriasis in a phase II trial.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30772098",
+            "title": "Joint AAD-NPF guidelines of care for the management and treatment of psoriasis with biologics.",
+            "authors": [
+              "Menter Alan",
+              "Strober Bruce E",
+              "Kaplan Daniel H",
+              "Kivelevitch Dario",
+              "Prater Elizabeth Farley"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2019",
+            "abstract": "Psoriasis is a chronic, inflammatory multisystem disease that affects up to 3.2% of the US population. This guideline addresses important clinical questions that arise in psoriasis management and care, providing recommendations based on the available evidence. The treatment of psoriasis with biologic agents will be reviewed, emphasizing treatment recommendations and the role of the dermatologist in monitoring and educating patients regarding benefits as well as associated risks.",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28057361",
+            "title": "Efficacy and safety of guselkumab, an anti-interleukin-23 monoclonal antibody, compared with adalimumab for the treatment of patients with moderate to severe psoriasis with randomized withdrawal and retreatment: Results from the phase III, double-blind, placebo- and active comparator-controlled VOYAGE 2 trial.",
+            "authors": [
+              "Reich Kristian",
+              "Armstrong April W",
+              "Foley Peter",
+              "Song Michael",
+              "Wasfi Yasmine"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2017",
+            "abstract": "Phase II data suggested that guselkumab, an anti-interleukin-23 monoclonal antibody, was efficacious in psoriasis.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28635018",
+            "title": "Efficacy and safety of guselkumab in patients with psoriasis who have an inadequate response to ustekinumab: results of the randomized, double-blind, phase III NAVIGATE trial.",
+            "authors": [
+              "Langley R G",
+              "Tsai T-F",
+              "Flavin S",
+              "Song M",
+              "Randazzo B"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2018",
+            "abstract": "Guselkumab, an anti-interleukin-23 monoclonal antibody, has demonstrated significant efficacy in phase III psoriasis trials.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31583255",
+            "title": "Short-Term Efficacy and Safety of IL-17, IL-12/23, and IL-23 Inhibitors Brodalumab, Secukinumab, Ixekizumab, Ustekinumab, Guselkumab, Tildrakizumab, and Risankizumab for the Treatment of Moderate to Severe Plaque Psoriasis: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
+            "authors": [
+              "Bai Fan",
+              "Li Gang Gang",
+              "Liu Qingmin",
+              "Niu Xinwu",
+              "Li Ruilian"
+            ],
+            "journal": "Journal of immunology research",
+            "year": "2019",
+            "abstract": "The role of interleukin-12 (IL-12), interleukin-23 (IL-23), and interleukin-17 (IL-17) has been recognized in psoriasis pathogenesis, and new drugs targeting this axis have already been developed which may provide a new therapeutic approach for patients with moderate to severe psoriasis.",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32022825",
+            "title": "Comparison of Biologics and Oral Treatments for Plaque Psoriasis: A Meta-analysis.",
+            "authors": [
+              "Armstrong April W",
+              "Puig Luis",
+              "Joshi Avani",
+              "Skup Martha",
+              "Williams David"
+            ],
+            "journal": "JAMA dermatology",
+            "year": "2020",
+            "abstract": "The clinical benefits of novel treatments for moderate to severe psoriasis are well established, but wide variations exist in patient response across different therapies. In the absence of head-to-head randomized trials, meta-analyses synthesizing data from multiple studies are needed to assess comparative efficacy among psoriasis treatments.",
+            "classification": {
+              "study_type": "Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34105767",
+            "title": "Five-year maintenance of clinical response and health-related quality of life improvements in patients with moderate-to-severe psoriasis treated with guselkumab: results from VOYAGE 1 and VOYAGE 2.",
+            "authors": [
+              "Reich K",
+              "Gordon K B",
+              "Strober B E",
+              "Armstrong A W",
+              "Miller M"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2021",
+            "abstract": "Psoriasis is a chronic disease requiring long-term therapy.",
+            "classification": {
+              "study_type": "Long-term RCT Extension",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28887948",
+            "title": "Psoriasis pathogenesis and the development of novel targeted immune therapies.",
+            "authors": [
+              "Hawkes Jason E",
+              "Chan Tom C",
+              "Krueger James G"
+            ],
+            "journal": "The Journal of allergy and clinical immunology",
+            "year": "2017",
+            "abstract": "Psoriasis is caused by a complex interplay between the immune system, psoriasis-associated susceptibility loci, autoantigens, and multiple environmental factors. Over the last 2 decades, research has unequivocally shown that psoriasis represents a bona fide T cell-mediated disease primarily driven by pathogenic T cells that produce high levels of IL-17 in response to IL-23. The discovery of the central role for the IL-23/type 17 T-cell axis in the development of psoriasis has led to a major para",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37906417",
+            "title": "Long-Term Safety of Guselkumab in Patients with Psoriatic Disease: An Integrated Analysis of Eleven Phase II/III Clinical Studies in Psoriasis and Psoriatic Arthritis.",
+            "authors": [
+              "Strober Bruce",
+              "Coates Laura C",
+              "Lebwohl Mark G",
+              "Deodhar Atul",
+              "Leibowitz Evan"
+            ],
+            "journal": "Drug safety",
+            "year": "2024",
+            "abstract": "The benefit/risk profiles of biologics can be affected by comorbidities, certain demographic characteristics, and concomitant medications; therefore, it is important to evaluate the long-term safety profiles of biologics across broad patient populations. Guselkumab was well tolerated and efficacious across individual pivotal clinical studies in adults with moderate-to-severe psoriasis and/or active psoriatic arthritis (PsA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31887225",
+            "title": "A head-to-head comparison of ixekizumab vs. guselkumab in patients with moderate-to-severe plaque psoriasis: 12-week efficacy, safety and speed of response from a randomized, double-blinded trial.",
+            "authors": [
+              "Blauvelt A",
+              "Papp K",
+              "Gottlieb A",
+              "Jarell A",
+              "Reich K"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2020",
+            "abstract": "Patients with psoriasis value rapid and complete skin clearance. No head-to-head studies have focused on early responses to interleukin (IL)-17 vs. IL-23 inhibitors.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33349983",
+            "title": "EuroGuiDerm Guideline on the systemic treatment of Psoriasis vulgaris - Part 1: treatment and monitoring recommendations.",
+            "authors": [
+              "Nast A",
+              "Smith C",
+              "Spuls P I",
+              "Avila Valle G",
+              "Bata-Csörgö Z"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2020",
+            "abstract": "This evidence- and consensus-based guideline on the treatment of psoriasis vulgaris was developed following the EuroGuiDerm Guideline and Consensus Statement Development Manual. The first part of the guideline includes general information on the scope and purpose, health questions covered, target users and strength/limitations of the guideline. Suggestions for disease severity grading and treatment goals are provided. It presents the general treatment recommendations as well as detailed manageme",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32880909",
+            "title": "A head-to-head comparison of ixekizumab vs. guselkumab in patients with moderate-to-severe plaque psoriasis: 24-week efficacy and safety results from a randomized, double-blinded trial.",
+            "authors": [
+              "Blauvelt A",
+              "Leonardi C",
+              "Elewski B",
+              "Crowley J J",
+              "Guenther L C"
+            ],
+            "journal": "The British journal of dermatology",
+            "year": "2021",
+            "abstract": "Significantly more patients with moderate-to-severe plaque psoriasis treated with the interleukin (IL)-17A inhibitor ixekizumab vs. the IL-23p19 inhibitor guselkumab in the IXORA-R head-to-head trial achieved 100% improvement in Psoriasis Area and Severity Index (PASI 100) at week 12.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "34518264",
+            "title": "IL-23 blockade with guselkumab potentially modifies psoriasis pathogenesis: rationale and study protocol of a phase 3b, randomised, double-blind, multicentre study in participants with moderate-to-severe plaque-type psoriasis (GUIDE).",
+            "authors": [
+              "Eyerich Kilian",
+              "Weisenseel Peter",
+              "Pinter Andreas",
+              "Schäkel Knut",
+              "Asadullah Khusru"
+            ],
+            "journal": "BMJ open",
+            "year": "2021",
+            "abstract": "Guselkumab is an interleukin (IL)-23 pathway blocker with proven efficacy in patients with moderate-to-severe plaque psoriasis. Early intervention with guselkumab may result in changes to the clinical disease course versus later intervention.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30181299",
+            "title": "Discovery of the IL-23/IL-17 Signaling Pathway and the Treatment of Psoriasis.",
+            "authors": [
+              "Hawkes Jason E",
+              "Yan Bernice Y",
+              "Chan Tom C",
+              "Krueger James G"
+            ],
+            "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+            "year": "2018",
+            "abstract": "Psoriasis vulgaris is a common, heterogeneous, chronic inflammatory skin disease characterized by thickened, red, scaly plaques and systemic inflammation. Psoriasis is also associated with multiple comorbid conditions, such as joint destruction, cardiovascular disease, stroke, hypertension, metabolic syndrome, and chronic kidney disease. The discovery of IL-17-producing T cells in a mouse model of autoimmunity transformed our understanding of inflammation driven by T lymphocytes and associations",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37262309",
+            "title": "Early disease intervention with guselkumab in psoriasis leads to a higher rate of stable complete skin clearance ('clinical super response'): Week 28 results from the ongoing phase IIIb randomized, double-blind, parallel-group, GUIDE study.",
+            "authors": [
+              "Schäkel K",
+              "Reich K",
+              "Asadullah K",
+              "Pinter A",
+              "Jullien D"
+            ],
+            "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+            "year": "2023",
+            "abstract": "Guselkumab is an interleukin (IL)-23 inhibitor with demonstrated efficacy in patients with psoriasis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33050592",
+            "title": "New Treatment Addressing the Pathogenesis of Psoriasis.",
+            "authors": [
+              "Tokuyama Michio",
+              "Mabuchi Tomotaka"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2020",
+            "abstract": "Psoriasis is an immune cell-mediated inflammatory skin disease. The interleukin (IL)23/IL17 axis plays an important role in the development of psoriasis. The effectiveness of biologic treatments such as tumor necrosis factor (TNF)α inhibitors (infliximab, adalimumab, certolizumab pegol), IL23 inhibitors (ustekinumab, guselkumab, tildrakizumab, risankizumab), and IL17 inhibitors (secukinumab, ixekizumab, brodalumab) have verified these findings. Immune-related cells such as dendritic cells (DCs) ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37842734",
+            "title": "Efficacy of biologic agents for palmoplantar psoriasis: a systematic review and network meta-analysis.",
+            "authors": [
+              "Tsiogkas Sotirios G",
+              "Grammatikopoulou Maria G",
+              "Kontouli Katerina-Maria",
+              "Minopoulou Ioanna",
+              "Goulis Dimitrios D"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2023",
+            "abstract": "Palmoplantar psoriasis (PP) represents a localized type of disease. While controversy over its' classification exists, a hyperkeratotic type, a pustular type and palmoplantar pustulosis (PPP) have been recognized. PP management is regularly supported by biologic agents. Our study aimed to review and synthesize available data regarding the efficacy of approved biologics for PP and PPP.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39083288",
+            "title": "Noninferiority of 16-Week vs 8-Week Guselkumab Dosing in Super Responders for Maintaining Control of Psoriasis: The GUIDE Randomized Clinical Trial.",
+            "authors": [
+              "Eyerich Kilian",
+              "Asadullah Khusru",
+              "Pinter Andreas",
+              "Weisenseel Peter",
+              "Reich Kristian"
+            ],
+            "journal": "JAMA dermatology",
+            "year": "2024",
+            "abstract": "Psoriasis is a chronic inflammatory skin disease with unmet needs for tailored treatment and therapy de-escalation strategies.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IL-23/Th17 軸為銀屑病核心病理機轉：IL-23 驅動 Th17 細胞分化，促進 IL-17A/F 釋放，導致角質細胞過度增殖與中性球浸潤。IL-23p19 特異性阻斷可精準切斷此軸，不干擾 IL-12 介導的免疫保護。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "diabetic retinopathy",
+      "txgnn": {
+        "score": 0.9974408149719238,
+        "rank": 4093
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "同上，IL-23 在糖尿病視網膜病變中的作用機轉推測性強，VEGF 抑制劑（ranibizumab、aflibercept）為主流治療路徑，IL-23 靶向缺乏競爭優勢的科學假說支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "renal osteodystrophy",
+      "txgnn": {
+        "score": 0.9973203539848328,
+        "rank": 4224
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "CKD 中存在慢性炎症成分，IL-23 可能通過 RANKL/OPG 影響骨重塑，但腎性骨病的根本問題為礦物質-骨代謝紊亂（PTH、FGF-23、維生素 D），IL-23 抑制劑無法解決此病理核心。機轉關聯極弱。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "ulcerative colitis (disease)",
+      "txgnn": {
+        "score": 0.9970494508743286,
+        "rank": 4547
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05242484",
+            "title": "A Phase 2b Randomized, Double-blind, Active-and Placebo-controlled, Parallel-group, Multicenter Study to Evaluate the Efficacy and Safety of Induction and Maintenance Combination Therapy With Guselkumab and Golimumab in Participants With Moderately to Severely Active Ulcerative Colitis",
+            "phase": "PHASE2",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 577,
+            "start_date": "2022-09-19",
+            "completion_date": "2029-03-27",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of JNJ-78934804 as compared to guselkumab and golimumab in participants with moderately to severely active ulcerative colitis who have had an inadequate initial response, loss of response, or intolerance to one or more approved advanced therapy.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "QUASAR 主體試驗 Phase 2b，N=577，已發表結果（PMID 37659673），確立劑量與誘導緩解療效，為 Phase 3 直接依據"
+            }
+          },
+          {
+            "nct_id": "NCT07302360",
+            "title": "Guselkumab Real-world Effectiveness Among Bio-NaÏve Patients With Moderate-to-severe Ulcerative Colitis in China: A Multicenter, Non-interventional, Prospective Study",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2025-12-15",
+            "completion_date": "2028-06-30",
+            "brief_summary": "The purpose of this study is to assess the measurable changes in health, function, or quality of life (clinical outcomes) after receiving guselkumab in real-world clinical practice amongst Chinese participants with ulcerative colitis (UC; a long-term disease of the large intestine in which the lining of the colon \\[part of large intestine\\] becomes inflamed and develops tiny open ulcers), who have not received biologic therapy (a medicine made from living organisms or their components) previousl",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "真實世界療效研究，針對 bio-naïve 族群，補充 RCT 族群外的臨床實踐資訊"
+            }
+          },
+          {
+            "nct_id": "NCT06089590",
+            "title": "Ibd CAncer and seRious Infections in France (I-CARE 2)",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 6000,
+            "start_date": "2024-01-25",
+            "completion_date": "2031-03-01",
+            "brief_summary": "This is a French prospective longitudinal observational multicentre cohort study.\n\nPrimary objective : to assess prospectively the presence and the extent of safety concerns (cancer, serious infections, arterial and venous thrombotic events) in patients with CD and UC and treated with JAKi, anti-IL23p19, and S1p modulators.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型安全性監測隊列，主要目的為長期不良事件監測，非療效評估；對再利用決策貢獻較低"
+            }
+          },
+          {
+            "nct_id": "NCT06663332",
+            "title": "A Phase 3, Multicenter, Open-label, Basket, LTE Study to Evaluate the Safety of Guselkumab in Pediatric Participants With Crohn's Disease, Ulcerative Colitis, or Juvenile Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 196,
+            "start_date": "2024-10-29",
+            "completion_date": "2031-12-12",
+            "brief_summary": "The purpose of this study is to evaluate long-term safety of subcutaneous guselkumab in pediatric participants with moderately to severely active ulcerative colitis, or moderately to severely active Crohn's disease, or juvenile psoriatic arthritis (jPsA).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "兒科 Phase 3 LTE，擴充安全性資料庫至特殊族群，反映開發成熟度"
+            }
+          },
+          {
+            "nct_id": "NCT07184138",
+            "title": "Efficacy and Safety of Interleukin-23 Inhibitors (IL-23i) in the Treatment of Inflammatory Bowel Disease in China: A Multicenter, Single-Arm, Prospective, Observational Real-World Study",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 178,
+            "start_date": "2025-10-01",
+            "completion_date": "2028-11-01",
+            "brief_summary": "Inflammatory bowel disease (IBD), including ulcerative colitis (UC) and Crohn's disease (CD), has shown greatly improved outcomes with biologic therapies. However, nearly half of patients still experience primary or secondary non-response to existing biologics. Interleukin-23 (IL-23), a member of the IL-12 cytokine family, plays a role in maintaining intestinal homeostasis but is also involved in the pathogenesis of IBD. IL-23 is a heterodimer composed of p19 and p40 subunits linked by a disulfi",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "系統性評估 IL-23i 於 IBD 療效，間接支持藥物類別效益"
+            }
+          },
+          {
+            "nct_id": "NCT07177209",
+            "title": "Describing Prescription Patterns in an Ulcerative Colitis Population and Generating an Updated Ulcerative Colitis Treatment Paradigm",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 4000,
+            "start_date": "2026-02-27",
+            "completion_date": "2026-05-31",
+            "brief_summary": "Describing Treatment Patterns and Creating an Updated Treatment Flow in an Ulcerative Colitis Population",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "處方型態調查，不評估臨床療效，僅反映市場採用情況"
+            }
+          },
+          {
+            "nct_id": "NCT06916390",
+            "title": "Guselkumab Intervention and Diet Evaluation for Pouchitis",
+            "phase": "PHASE4",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 20,
+            "start_date": "2025-09-30",
+            "completion_date": "2028-09-30",
+            "brief_summary": "Restorative proctocolectomy (RPC) with ileal pouch-anal anastomosis (IPAA) is considered the procedure of choice in patients with ulcerative colitis (UC) refractory to medical therapy or with neoplasia. The most common complication after IPAA is the development of pouchitis. Pouchitis is clinically characterized by variable symptoms including increased stool frequency, altered consistency, bloody stools, abdominal cramping, urgency, and incontinence. Symptomatic pouchitis longer than four weeks ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "UC 術後合併症（迴廊炎）探索性研究，N=20 極小，但拓展臨床應用範疇"
+            }
+          },
+          {
+            "nct_id": "NCT06408935",
+            "title": "A Phase 3b, Open-label, Multicenter Study to Evaluate Transmural Healing and Disease Modifying Effect of Guselkumab in Crohn's Disease Patients",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 112,
+            "start_date": "2024-04-17",
+            "completion_date": "2029-03-26",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab in healing of all layers of the digestive tract (transmural healing) with the help of a score called Magnetic Resonance Index of Activity (MaRIA) based on a scan at Week 48.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "評估 transmural healing（跨壁癒合），代表 UC 治療目標深化，為高品質 Phase 3b 研究"
+            }
+          },
+          {
+            "nct_id": "NCT07242248",
+            "title": "Real World Observation of Guselkumab Treatment in Patients With Ulcerative Colitis and Crohn's Disease - a Study of Treatment Outcomes in the UK",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 220,
+            "start_date": "2025-11-17",
+            "completion_date": "2029-03-05",
+            "brief_summary": "The purpose of this study is to evaluate the clinical effectiveness (how well the treatment works) of Guselkumab, by lines of treatment and subpopulations, and what are the outcomes of treatment (clinical outcomes) in adult participants with moderately to severely active Ulcerative Colitis (UC) or Crohn's Disease (CD) under real-world settings. CD and UC are the main type of Inflammatory bowel disease, a group of inflammatory conditions of the colon and small intestine.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "混合 IBD 真實世界研究，包含 guselkumab，提供多疾病類型比較資料"
+            }
+          },
+          {
+            "nct_id": "NCT07102368",
+            "title": "Generation of Real-world Evidence of Guselkumab in IBD Evaluating Effectiveness, Early Outcomes and Patient Relevant Aspects",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 400,
+            "start_date": "2025-08-18",
+            "completion_date": "2029-01-15",
+            "brief_summary": "The purpose of this study is to characterize participants with Crohn's Disease (CD) and Ulcerative Colitis (UC) treated with Guselkumab in a real-world setting, and to assess the clinical effectiveness (how well the treatment works) in the overall population and in different participant subgroups. Furthermore patient-reported outcomes like fatigue, health-related quality of life (HRQoL), sexuality, work productivity and activity as well as treatment satisfaction will be assessed.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "中型真實世界研究，評估早期結果，補充長期 RCT 資料空白"
+            }
+          },
+          {
+            "nct_id": "NCT05696106",
+            "title": "Risk of Incident Immune-mediated Inflammatory Diseases (IMID) in Patients Treated With Biologics and Immunosuppressive Drugs for a Single IMID",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 750000,
+            "start_date": "2023-04-02",
+            "completion_date": "2024-01-15",
+            "brief_summary": "Individuals with immune-mediated inflammatory diseases (IMIDs) are at increased risk of developing other IMIDs, possibly through shared pathogenic inflammatory pathways, and up to 25% of patients with IMIDs have at least one other IMID. Additionally, a concomitant diagnosis of a second IMID is associated with a higher burden of disease, which usually requires therapeutic escalation. Thus, this risk should be taken into account in the benefit-risk balance of IMIDs-related treatment. While the ris",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05528510",
+            "title": "A Phase 3, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter Study to Evaluate the Efficacy and Safety of Guselkumab Subcutaneous Induction Therapy in Participants With Moderately to Severely Active Ulcerative Colitis",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 418,
+            "start_date": "2022-09-13",
+            "completion_date": "2028-10-06",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy, including clinical remission of guselkumab subcutaneous (SC) induction compared to placebo in participants with moderately to severely active ulcerative colitis (UC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04033445",
+            "title": "A Phase 2b/3, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter Protocol to Evaluate the Efficacy and Safety of Guselkumab in Participants With Moderately to Severely Active Ulcerative Colitis",
+            "phase": "PHASE2, PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 1064,
+            "start_date": "2019-09-26",
+            "completion_date": "2027-09-29",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of guselkumab in participants with moderately to severely active ulcerative colitis (UC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03662542",
+            "title": "A Phase 2a Randomized, Double-blind, Active-controlled, Parallel-group, Multicenter, Proof-of-concept Clinical Study to Evaluate the Efficacy and Safety of Combination Therapy With Guselkumab and Golimumab in Participants With Moderately to Severely Active Ulcerative Colitis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 214,
+            "start_date": "2018-11-20",
+            "completion_date": "2021-11-15",
+            "brief_summary": "The purpose of this study is to evaluate the clinical efficacy and safety of combination therapy with guselkumab and golimumab in participants with moderately to severely active ulcerative colitis (UC).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06260163",
+            "title": "A Phase 3 Randomized, Open-label Induction, Double-blind Maintenance, Parallel-group, Multicenter Protocol to Evaluate the Efficacy, Safety, and Pharmacokinetics of Guselkumab in Pediatric Participants With Moderately to Severely Active Ulcerative Colitis",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 112,
+            "start_date": "2024-01-19",
+            "completion_date": "2028-08-14",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab in pediatric participants with moderately to severely active ulcerative colitis at the end of maintenance therapy among participants who were induction responders.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07245394",
+            "title": "SHIFT-IBD: Switching to High-efficacy Anti-IL-23 Guselkumab in Ustekinumab-exposed Persons With Active IBD",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 200,
+            "start_date": "2026-01-29",
+            "completion_date": "2028-11-01",
+            "brief_summary": "The SHIFT-IBD Study is being conducted at multiple medical centers across Canada to evaluate how well guselkumab (Tremfya) works for people with inflammatory bowel disease (IBD) who haven't responded well enough to ustekinumab.\n\nPatients will begin guselkumab based on their doctor's decision. If eligible, they may be invited to participate in the study, which involves monitoring symptoms, test results, and overall health over the course of one year.\n\nGuselkumab will be given according to local m",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07198113",
+            "title": "Clinical Outcomes of Medications Post Anti-TNF: Researching Effectiveness in Pediatric IBD",
+            "phase": "N/A",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 1100,
+            "start_date": "2025-11-01",
+            "completion_date": "2028-09",
+            "brief_summary": "The purpose of the study is to compare the clinical effectiveness and safety of newer inflammatory bowel disease (IBD) medications in anti-tumor necrosis factor (TNF) refractory patients with pediatric IBD (PIBD). Refractory means that there was no clinical response to anti-tumor necrosis factor (TNF) drugs or that the if there was a response, it is no longer present. The main question this study aims to answer is:\n\nAre the newer medications used to treat IBD just as safe and effective for treat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "39706209",
+            "title": "Guselkumab in patients with moderately to severely active ulcerative colitis (QUASAR): phase 3 double-blind, randomised, placebo-controlled induction and maintenance studies.",
+            "authors": [
+              "Rubin David T",
+              "Allegretti Jessica R",
+              "Panés Julián",
+              "Shipitofsky Nicole",
+              "Yarandi Shadi S"
+            ],
+            "journal": "Lancet (London, England)",
+            "year": "2025",
+            "abstract": "Interleukin-23 inhibition is effective in treating ulcerative colitis. Guselkumab is a dual-acting, human IgG1, interleukin-23p19 subunit inhibitor that potently neutralises interleukin-23 and can bind to CD64. We aimed to evaluate the efficacy and safety of guselkumab as induction and maintenance therapy in patients with ulcerative colitis.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39572132",
+            "title": "AGA Living Clinical Practice Guideline on Pharmacological Management of Moderate-to-Severe Ulcerative Colitis.",
+            "authors": [
+              "Singh Siddharth",
+              "Loftus Edward V",
+              "Limketkai Berkeley N",
+              "Haydek John P",
+              "Agrawal Manasi"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2024",
+            "abstract": "This American Gastroenterological Association (AGA) living guideline is intended to support practitioners in the pharmacological management of moderate-to-severe ulcerative colitis (UC).",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37659673",
+            "title": "Guselkumab in Patients With Moderately to Severely Active Ulcerative Colitis: QUASAR Phase 2b Induction Study.",
+            "authors": [
+              "Peyrin-Biroulet Laurent",
+              "Allegretti Jessica R",
+              "Rubin David T",
+              "Bressler Brian",
+              "Germinaro Matthew"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2023",
+            "abstract": "The QUASAR Phase 2b Induction Study evaluated the efficacy and safety of guselkumab, an interleukin-23p19 subunit antagonist, in patients with moderately to severely active ulcerative colitis (UC) with prior inadequate response and/or intolerance to corticosteroids, immunosuppressants, and/or advanced therapy.",
+            "classification": {
+              "study_type": "Phase 2b RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28765121",
+            "title": "Novel therapies for immune-mediated inflammatory diseases: What can we learn from their use in rheumatoid arthritis, spondyloarthritis, systemic lupus erythematosus, psoriasis, Crohn's disease and ulcerative colitis?",
+            "authors": [
+              "Baker Kenneth F",
+              "Isaacs John D"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2018",
+            "abstract": "The past three decades have witnessed remarkable advances in our ability to target specific elements of the immune and inflammatory response, fuelled by advances in both biotechnology and disease knowledge. As well as providing superior treatments for immune-mediated inflammatory diseases (IMIDs), such therapies also offer unrivalled opportunities to study the underlying immunopathological basis of these conditions.In this review, we explore recent approaches to the treatment of IMIDs and the in",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37069321",
+            "title": "IL-12 and IL-23 pathway inhibition in inflammatory bowel disease.",
+            "authors": [
+              "Verstockt Bram",
+              "Salas Azucena",
+              "Sands Bruce E",
+              "Abraham Clara",
+              "Leibovitzh Haim"
+            ],
+            "journal": "Nature reviews. Gastroenterology & hepatology",
+            "year": "2023",
+            "abstract": "Interleukin-12 (IL-12) and interleukin-23 (IL-23), which belong to the IL-12 family of cytokines, have a key role in intestinal homeostasis and inflammation and are implicated in the pathogenesis of inflammatory bowel disease. Upon their secretion by antigen-presenting cells, they exert both pro-inflammatory and anti-inflammatory receptor-mediated effects. An increased understanding of these biological effects, particularly the pro-inflammatory effects mediated by IL-12 and IL-23, has led to the",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40113101",
+            "title": "Efficacy and Safety of Guselkumab Subcutaneous Induction and Maintenance in Participants With Moderately to Severely Active Crohn's Disease: Results From the Phase 3 GRAVITI Study.",
+            "authors": [
+              "Hart Ailsa",
+              "Panaccione Remo",
+              "Steinwurz Flavio",
+              "Danese Silvio",
+              "Hisamatsu Tadakazu"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2025",
+            "abstract": "Subcutaneous (SC) induction and maintenance with guselkumab was evaluated in adult participants with moderately to severely active Crohn's disease.",
+            "classification": {
+              "study_type": "Phase 3 RCT",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39425738",
+            "title": "Comparative Efficacy of Advanced Therapies for Management of Moderate-to-Severe Ulcerative Colitis: 2024 American Gastroenterological Association Evidence Synthesis.",
+            "authors": [
+              "Ananthakrishnan Ashwin N",
+              "Murad M Hassan",
+              "Scott Frank I",
+              "Agrawal Manasi",
+              "Haydek John P"
+            ],
+            "journal": "Gastroenterology",
+            "year": "2024",
+            "abstract": "We performed an updated systematic review and network meta-analysis to inform the 2024 American Gastroenterological Association (AGA) Clinical Guidelines on the management of moderate-to-severe ulcerative colitis (UC).",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39994836",
+            "title": "Epidemiology, pathogenesis, diagnosis, and treatment of inflammatory bowel disease: Insights from the past two years.",
+            "authors": [
+              "Wan Jian",
+              "Zhou Jiaming",
+              "Wang Zhuo",
+              "Liu Dan",
+              "Zhang Hao"
+            ],
+            "journal": "Chinese medical journal",
+            "year": "2025",
+            "abstract": "Inflammatory bowel disease (IBD), including ulcerative colitis and Crohn's disease, is a chronic inflammation of the gastrointestinal tract with unknown etiology. The cause of IBD is widely considered multifactorial, with prevailing hypotheses suggesting that the microbiome and various environmental factors contribute to inappropriate activation of the mucosal immune system in genetically susceptible individuals. Although the incidence of IBD has stabilized in Western countries, it is rapidly in",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "35553666",
+            "title": "Blockade of IL-23: What is in the Pipeline?",
+            "authors": [
+              "Parigi Tommaso Lorenzo",
+              "Iacucci Marietta",
+              "Ghosh Subrata"
+            ],
+            "journal": "Journal of Crohn's & colitis",
+            "year": "2022",
+            "abstract": "Interleukin 23 [IL-23] plays a key role in the pathogenesis of both Crohn's disease [CD] and ulcerative colitis [UC], promoting a Th17 cell-related immune response. The combined blockade of IL-23 and IL-12 with ustekinumab has been demonstrated to be safe and effective in the treatment of inflammatory bowel disease [IBD]. Studies on preclinical models and observations of other immune-mediated diseases, such as psoriasis, suggest that the selective inhibition of IL-23 could be beneficial in IBD. ",
+            "classification": {
+              "study_type": "Review",
+              "tier": 3
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40407729",
+            "title": "Network Meta-Analysis: Efficacy of Biological Therapies and Small Molecules as Maintenance Therapy in Ulcerative Colitis.",
+            "authors": [
+              "Barberio Brigida",
+              "Gracie David J",
+              "Black Christopher J",
+              "Ford Alexander C"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2025",
+            "abstract": "Numerous biologics and small molecules are licensed as maintenance therapy for ulcerative colitis (UC). Differences in the design of randomised controlled trials (RCTs) have not been considered when comparing efficacy between them.",
+            "classification": {
+              "study_type": "Network Meta-analysis",
+              "tier": 1
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39137239",
+            "title": "Comparative Efficacy of Biologics and Small Molecule Therapies in Improving Patient-Reported Outcomes in Ulcerative Colitis: Systematic Review and Network Meta-Analysis.",
+            "authors": [
+              "Shehab Mohammad",
+              "Hassan Amro",
+              "Alrashed Fatema",
+              "Abbas Adnan",
+              "Ma Christopher"
+            ],
+            "journal": "Inflammatory bowel diseases",
+            "year": "2025",
+            "abstract": "Ulcerative colitis (UC) is a chronic disorder with a considerable negative impact on health-related quality of life (HRQoL), which has been recently recognized as an important treatment target. The purpose of this study is to compare the efficacy of different biologics and small molecule therapies in achieving better patient-reported outcomes and HRQoL in patients with UC.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37906417",
+            "title": "Long-Term Safety of Guselkumab in Patients with Psoriatic Disease: An Integrated Analysis of Eleven Phase II/III Clinical Studies in Psoriasis and Psoriatic Arthritis.",
+            "authors": [
+              "Strober Bruce",
+              "Coates Laura C",
+              "Lebwohl Mark G",
+              "Deodhar Atul",
+              "Leibowitz Evan"
+            ],
+            "journal": "Drug safety",
+            "year": "2024",
+            "abstract": "The benefit/risk profiles of biologics can be affected by comorbidities, certain demographic characteristics, and concomitant medications; therefore, it is important to evaluate the long-term safety profiles of biologics across broad patient populations. Guselkumab was well tolerated and efficacious across individual pivotal clinical studies in adults with moderate-to-severe psoriasis and/or active psoriatic arthritis (PsA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36635556",
+            "title": "Improving IBD outcomes in the era of many treatment options.",
+            "authors": [
+              "Kobayashi Taku",
+              "Hibi Toshifumi"
+            ],
+            "journal": "Nature reviews. Gastroenterology & hepatology",
+            "year": "2023",
+            "abstract": "Key studies published in 2022 highlight the emergence of several novel drugs for inflammatory bowel disease. Head-to-head trials and network meta-analyses have also been conducted to identify the sequencing of these treatments, but we still have a long way to go to achieve personalized medicine.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39367678",
+            "title": "Network Meta-Analysis: Histologic and Histo-Endoscopic Improvement and Remission With Advanced Therapy in Ulcerative Colitis.",
+            "authors": [
+              "Estevinho Maria Manuela",
+              "Sousa-Pinto Bernardo",
+              "Moreira Paula Leão",
+              "Solitano Virginia",
+              "Mesquita Pedro"
+            ],
+            "journal": "Alimentary pharmacology & therapeutics",
+            "year": "2024",
+            "abstract": "Histology has prognostic value in ulcerative colitis (UC). However, direct comparisons of histological endpoints are lacking.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39800899",
+            "title": "Guselkumab: A New Therapeutic Option for the Treatment of Moderately to Severely Active Ulcerative Colitis.",
+            "authors": [
+              "Bhat Shubha",
+              "Choi David"
+            ],
+            "journal": "The Annals of pharmacotherapy",
+            "year": "2025",
+            "abstract": "To summarize the evidence and pharmacologic profile of guselkumab for moderate to severe ulcerative colitis (UC).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38980426",
+            "title": "Immunity in digestive diseases: new drugs for inflammatory bowel disease treatment-insights from Phase II and III trials.",
+            "authors": [
+              "Massironi Sara",
+              "Furfaro Federica",
+              "Bencardino Sarah",
+              "Allocca Mariangela",
+              "Danese Silvio"
+            ],
+            "journal": "Journal of gastroenterology",
+            "year": "2024",
+            "abstract": "Inflammatory bowel disease (IBD), encompassing Crohn's disease (CD) and ulcerative colitis (UC), continues to challenge treatment paradigms. Advancements in therapeutic options have been have been driven by Phase 2 and 3 clinical trials of new drug classes, particularly sphingosine-1-phosphate (S1P) modulators and interleukin-23 (IL-23) inhibitors.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40006003",
+            "title": "Drug Development in Inflammatory Bowel Diseases: What Is Next?",
+            "authors": [
+              "Petronio Lorenzo",
+              "Dal Buono Arianna",
+              "Gabbiadini Roberto",
+              "Migliorisi Giulia",
+              "Privitera Giuseppe"
+            ],
+            "journal": "Pharmaceuticals (Basel, Switzerland)",
+            "year": "2025",
+            "abstract": "Background/Objectives: Inflammatory bowel diseases (IBDs), which include Crohn's disease (CD) and ulcerative colitis (UC), are chronic conditions requiring long-term therapy to maintain remission and improve quality of life. Despite the approval of numerous drugs, IBD continues to present treatment challenges. This review aims to summarize novel therapeutic target agents in phases II and III of development, including sphingosine-1-phosphate receptor modulators (S1P), anti-interleukin-23 (IL-23),",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40470513",
+            "title": "Positioning Guselkumab in The Treatment Algorithm of Patients with Crohn's Disease.",
+            "authors": [
+              "D'Amico Ferdinando",
+              "Bencardino Sarah",
+              "Magro Fernando",
+              "Dignass Axel",
+              "Gutiérrez Casbas Ana"
+            ],
+            "journal": "Biologics : targets & therapy",
+            "year": "2025",
+            "abstract": "Guselkumab, a selective interleukin-23 (IL-23) inhibitor, has emerged as a promising biologic therapy for the management of patients with moderate-to-severe Crohn's disease (CD) and has been recently approved for its treatment. Unlike conventional therapies, guselkumab offers a different mechanism of action by selectively inhibiting IL-23, a key cytokine implicated in the pathogenesis of CD. IL-23 drives intestinal inflammation through activation of the Th17 cell pathway and other immune process",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41324615",
+            "title": "An evaluation of guselkumab for the treatment of ulcerative colitis.",
+            "authors": [
+              "Hanzel Jurij",
+              "Jairath Vipul",
+              "Feagan Brian G"
+            ],
+            "journal": "Expert opinion on biological therapy",
+            "year": "2025",
+            "abstract": "Interleukin (IL)-23 is a cytokine implicated in the pathogenesis of ulcerative colitis (UC). Guselkumab, a selective IL-23 antagonist, was approved for the treatment of moderately-to severely active UC in 2024/5.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37799456",
+            "title": "Advanced Combination Treatment With Biologic Agents and Novel Small Molecule Drugs for Inflammatory Bowel Disease.",
+            "authors": [
+              "Solitano Virginia",
+              "Ma Christopher",
+              "Hanžel Jurij",
+              "Panaccione Remo",
+              "Feagan Brian G"
+            ],
+            "journal": "Gastroenterology & hepatology",
+            "year": "2023",
+            "abstract": "The use of combination therapy with a biologic agent and immunosuppressant has well-established efficacy and safety and is common practice in the management of inflammatory bowel disease (IBD). Current research has shifted focus toward the use of advanced combination treatment (ACT). This term was coined to describe combination therapy using 2 or more advanced treatments (biologic agents and/or oral small molecule drugs) with the aim of achieving optimal disease control in selected patients. An ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "IL-23 在腸道黏膜免疫中驅動 Th17/Th1 過度活化，促進 TNF-α、IL-17、IL-22 釋放，破壞腸上皮屏障。anti-IL-23p19 阻斷可選擇性抑制腸道病理性炎症（保留 IL-12 介導的抗感染免疫），與 UC 腸道 IL-23 高表達病理高度契合。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "congenital hypotrichosis with juvenile macular dystrophy",
+      "txgnn": {
+        "score": 0.9966817498207092,
+        "rank": 4927
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此疾病由 CDH3（P-cadherin）突變導致毛囊與視網膜光感受器發育異常，屬發育性遺傳缺陷，非免疫介導炎症疾病。IL-23/Th17 軸與其病理機轉無科學關聯。預測分數高度疑似知識圖譜拓撲結構偽信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "primary release disorder of platelets",
+      "txgnn": {
+        "score": 0.9960522055625916,
+        "rank": 5557
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雖然慢性炎症可影響血小板功能，但原發性血小板釋放障礙的病因為 δ/α 顆粒缺乏或分泌缺陷，非炎症介導。IL-23 抑制劑無法修正血小板顆粒的結構或功能缺陷，機轉關聯缺乏生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn": {
+        "score": 0.9959518909454346,
+        "rank": 5643
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此疾病的病理核心為整合素 αIIbβ3 功能缺失，導致血小板無法聚集。IL-23 抑制劑作用於 T 細胞極化與炎症瀑布，對遺傳性血小板受體缺陷無任何作用機轉。預測分數可能反映知識圖譜中血液疾病節點的網路效應偽信號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "non-renal secondary hyperparathyroidism",
+      "txgnn": {
+        "score": 0.9954934120178224,
+        "rank": 6074
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "假設性路徑：IL-23 可能通過 Th17 介導的炎症影響腸道維生素 D 吸收，間接影響副甲狀腺素分泌。然而此機轉高度推測，且維生素 D 補充/鈣調節為標準治療。抗 IL-23 治療的潛在獲益遠低於現有標準療法。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "drug-induced osteoporosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "severe nonproliferative diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "psoriasis"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "psoriasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "psoriasis"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "diabetic retinopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "renal osteodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "renal osteodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "renal osteodystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "ulcerative colitis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 17,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "ulcerative colitis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "ulcerative colitis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "primary release disorder of platelets"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "Glanzmann thrombasthenia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "non-renal secondary hyperparathyroidism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "non-renal secondary hyperparathyroidism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Guselkumab",
+        "disease": "non-renal secondary hyperparathyroidism"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

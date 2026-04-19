@@ -1,0 +1,828 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB00630-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Alendronic acid",
+    "drugbank_id": "DB00630",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "HIV infectious disease",
+      "txgnn": {
+        "score": 0.967832088470459,
+        "rank": 21969
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02322099",
+            "title": "A Multi-centre, Prospective, Randomised Trial of Short Course Alendronate Therapy or Placebo Combined With Vitamin D and Calcium to Prevent Loss of Bone Mineral Density in Antiretroviral-naïve, HIV-1 Infected Subjects Initiating Antiretroviral Therapy",
+            "phase": "PHASE4",
+            "status": "TERMINATED",
+            "enrollment": 53,
+            "start_date": "2016-05",
+            "completion_date": "2019-09",
+            "brief_summary": "Antiretroviral therapy (ART) initiation is associated with a significant loss of bone mineral density (BMD), characterised by increases in bone turnover, which is largely limited to the first 48 weeks of therapy. Bisphosphonates, such as alendronate, decrease bone turnover and can limit loss of bone mineral density.\n\nThis study aims to determine if a short course of treatment with the oral bisphosphonate alendronate can limit loss of bone mineral density associated with initiation of ART in HIV-",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 4 上市後研究但提前終止（n=53），終止原因未知（可能為招募困難或安全訊號）。提供部分真實世界數據但完整性受限，列為輔助證據。需查明終止原因。"
+            }
+          },
+          {
+            "nct_id": "NCT00921557",
+            "title": "Impact of Oral Alendronate Therapy on Bone Mineral Density in HIV-infected Children and Adolescents With Low Bone Mineral Density",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 52,
+            "start_date": "2009-11",
+            "completion_date": "2017-01",
+            "brief_summary": "HIV-infected children, youth, and adults have lower bone mineral density (BMD) than would be expected for HIV-uninfected people of similar age, weight and race. As the majority of perinatally HIV-infected U.S. children are entering or in adolescence, the potential for HIV-related impaired BMD during the adolescent peak of bone mass acquisition is of particular concern. The primary purpose of this study was to compare changes from pre-treatment levels of BMD of the lumbar spine after 24 and 48 we",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "針對兒童/青少年 HIV 族群的 Phase 2 RCT（n=52），拓展適用族群證據，對兒科應用具重要參考價值。"
+            }
+          },
+          {
+            "nct_id": "NCT00120757",
+            "title": "Efficacy of Alendronate Versus Placebo in the Treatment of HIV-1 Associated Osteoporosis, a Multicenter, Randomized, Controlled Trial. ANRS 120 Fosivir",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2004-10",
+            "completion_date": "2008-11",
+            "brief_summary": "Osteopenia and osteoporosis are being described more frequently in people with HIV infection. This study will test the efficacy of alendronate in comparison with a placebo after 2 years, in people with primary osteoporosis. People will receive the recommended adequate intake of calcium and vitamin D.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "多中心、隨機、安慰劑對照 Phase 3 RCT，140人，直接評估 Alendronate 在 HIV-1 骨質疏鬆症的療效。此為最高等級直接證據，奠定 L1 評級基礎。"
+            }
+          },
+          {
+            "nct_id": "NCT00061256",
+            "title": "A Phase II, Randomized, Double-Blind, Placebo-Controlled Study of Once-Weekly Alendronate in HIV-Infected Subjects With Decreased Bone Mineral Density Receiving Calcium and Vitamin D",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 80,
+            "start_date": "",
+            "completion_date": "2006-09",
+            "brief_summary": "Alendronate is a drug that is used to treat osteoporosis. The purpose of this study is to examine whether alendronate in combination with calcium and vitamin D is safe and effective for treating bone loss in people with HIV.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "雙盲安慰劑對照 Phase 2 RCT（n=80），評估每周一次劑型，提供劑量方案支持性證據，設計嚴謹。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "25300622",
+            "title": "Is there enough evidence to use bisphosphonates in HIV-infected patients? A systematic review and meta-analysis.",
+            "authors": [
+              "Pinzone Marilia Rita",
+              "Moreno Santiago",
+              "Cacopardo Bruno",
+              "Nunnari Giuseppe"
+            ],
+            "journal": "AIDS reviews",
+            "year": "2014",
+            "abstract": "An increased prevalence of osteopenia and osteoporosis has been observed in HIV-infected cohorts. We investigated the effect of bisphosphonates on bone mineral density in adults with HIV infection. Outcomes of interest were bone mineral density changes measured by dual-energy X-ray absorptiometry at the lumbar spine, femoral neck, and total hip, and adverse events. Data were pooled using the fixed-effects model. We identified eight randomized controlled trials meeting our inclusion criteria, inv",
+            "classification": {
+              "study_type": "Systematic Review + Meta-analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26890207",
+            "title": "Pharmacologic approaches to the prevention and management of low bone mineral density in HIV-infected patients.",
+            "authors": [
+              "Negredo Eugenia",
+              "Warriner Amy H"
+            ],
+            "journal": "Current opinion in HIV and AIDS",
+            "year": "2016",
+            "abstract": "Osteoporosis is a growing concern among people living with HIV (PLWH) because of the recognized risk of fractures, which bring with them morbidity and mortality. New evidence is helping clinicians understand how to prevent and manage osteoporosis in this subpopulation.",
+            "classification": {
+              "study_type": "Pharmacologic Review / Practice Guideline",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "HIV感染與抗病毒藥物（尤其 Tenofovir、蛋白酶抑制劑）誘發繼發性骨質疏鬆，機轉涉及 RANKL/OPG 軸失衡、維生素 D 代謝異常及慢性炎症（IL-6、TNF-α 上升）促進破骨細胞活化。Alendronate 透過抑制甲羥戊酸途徑（Mevalonate pathway）中的法尼基焦磷酸合成酶（FPPS），阻斷破骨細胞活化，直接對應此繼發性骨流失機轉。注意：本適應症定性為『HIV相關骨流失管理』，非治療HIV感染本身。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
+      "txgnn": {
+        "score": 0.9522585868835448,
+        "rank": 26184
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "推測機轉極為薄弱：有觀點認為雙磷酸鹽可能影響大腦中法尼基化蛋白（Farnesylated proteins）或甲羥戊酸途徑相關的神經細胞信號，但無任何針對此特定基因性神經發育症候群的機轉研究。TxGNN 高分可能源於與其他骨代謝/溶酶體疾病的圖譜鄰近性，缺乏直接生物學依據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "feline acquired immunodeficiency syndrome",
+      "txgnn": {
+        "score": 0.9482071995735168,
+        "rank": 27103
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "貓免疫缺陷病毒（FIV）雖與 HIV 類似會導致免疫抑制，但本適應症為獸醫學範疇，Alendronate 用於貓科 AIDS 相關骨病變無任何臨床研究。TxGNN 分數高度可能反映與 HIV infectious disease 的圖譜關聯（相同分數 0.9482），屬於知識圖譜群聚效應。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "simian immunodeficiency virus infection",
+      "txgnn": {
+        "score": 0.9482071995735168,
+        "rank": 27104
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "SIV 感染靈長類動物模型理論上可作為 HIV 藥物研究的橋梁，但 Alendronate 在 SIV 模型中的應用無任何已發表研究。與 Feline AIDS 同分（0.9482）再次提示圖譜的免疫缺陷疾病群聚效應，非獨立預測訊號。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "deficiency anemia",
+      "txgnn": {
+        "score": 0.9424506425857544,
+        "rank": 28347
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "19337161",
+            "title": "Pathogenesis and management of osteoporosis in thalassemia.",
+            "authors": [
+              "Voskaridou Ersi",
+              "Terpos Evangelos"
+            ],
+            "journal": "Pediatric endocrinology reviews : PER",
+            "year": "2008",
+            "abstract": "Osteopenia and osteoporosis cause severe problems in thalassemic patients. The pathogenesis of bone loss in thalassemia is multifactorial. The delay in sexual maturation, the presence of diabetes and hypothyroidism, the parathyroid gland dysfunction, the accelerated hemopoiesis with progressive marrow expansion, the direct iron toxicity on osteoblasts, the iron chelators, the deficiency of growth hormone or insulin growth factors, all have been identified as major causes of osteoporosis in thala",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L4",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "間接機轉路徑：地中海貧血（Thalassemia，屬 deficiency anemia 廣義分類）患者因長期貧血→骨髓代償性擴張→骨皮質變薄，加上輸血含鐵過載抑制成骨、去鐵胺（Deferoxamine）副作用等，導致繼發性骨質疏鬆。Alendronate 可能透過抑制骨吸收改善此繼發性骨病變，但機轉路徑為『貧血→骨病變』的兩步間接關聯，非直接治療貧血。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "vitamin B12- and folate-independent constitutional megaloblastic anemia",
+      "txgnn": {
+        "score": 0.9061079621315002,
+        "rank": 34172
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "此為罕見先天性巨母細胞性貧血，與骨代謝的生物學連結極為薄弱。分數降至 0.906 可能反映其與 deficiency anemia 群組的圖譜鄰近性，而非獨立機轉預測。無已知生化路徑支持 Alendronate 對此疾病的影響。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "Plummer-Vinson syndrome",
+      "txgnn": {
+        "score": 0.9036832451820374,
+        "rank": 34423
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Plummer-Vinson 症候群（缺鐵性貧血+食道蹼+吞嚥困難）。注意：Alendronate 本身即有食道刺激的已知不良反應（需直立30分鐘），在具食道蹼/吞嚥障礙的患者中使用可能為禁忌而非適應症。此預測分數源於貧血群聚，但臨床上存在潛在安全衝突。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "osteomesopyknosis",
+      "txgnn": {
+        "score": 0.8816889524459839,
+        "rank": 36551
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Osteomesopyknosis 為體染色體顯性硬化性骨發育不良（骨密度過高，非過低）。Alendronate 機轉為抑制骨吸收，在骨吸收原本即已抑制/骨密度過高的疾病中，理論上為機轉反向，可能有害而非有益。TxGNN 高分可能反映骨疾病圖譜鄰近性，但機轉方向相悖。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "obsolete familial combined hyperlipidemia",
+      "txgnn": {
+        "score": 0.8631711602210999,
+        "rank": 38183
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "雙磷酸鹽類在甲羥戊酸途徑的作用位點（FPPS 抑制）理論上可降低膽固醇合成的上游前驅物，但 Alendronate 的全身生物利用度極低（<1%），無法達到有效的全身性血脂調控濃度。此外，本適應症標記為「obsolete」（過時）ontology 術語，臨床相關性存疑。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "biotin metabolic disease",
+      "txgnn": {
+        "score": 0.8615161180496216,
+        "rank": 38326
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Biotin 代謝疾病（生物素酶缺乏/全羧化酶合成酶缺乏）與 Alendronate 之間無已知生化交集。TxGNN 預測可能源於代謝疾病繼發骨骼表現的圖譜關聯（生物素缺乏可影響骨代謝），但此連結極為間接，無任何文獻支持直接應用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "HIV infectious disease"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "feline acquired immunodeficiency syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "simian immunodeficiency virus infection"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "deficiency anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "deficiency anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "deficiency anemia"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "vitamin B12- and folate-independent constitutional megaloblastic anemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "Plummer-Vinson syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "Plummer-Vinson syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "Plummer-Vinson syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "osteomesopyknosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "osteomesopyknosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "osteomesopyknosis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "obsolete familial combined hyperlipidemia"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "biotin metabolic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "biotin metabolic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Alendronic acid",
+        "disease": "biotin metabolic disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1634 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06703-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Gadobutrol",
+    "drugbank_id": "DB06703",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "benign prostatic hyperplasia (disease)",
+      "txgnn": {
+        "score": 0.8323671817779541,
+        "rank": 40257
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Gadobutrol 為順磁性對比劑，無已知治療 BPH 的藥理機轉（無抗雄性素、α阻斷或 5α-還原酶抑制效果）。TxGNN 高分（0.832）可能源於知識圖譜中 MRI 前列腺影像與 BPH 診斷的路徑關聯，而非治療連結。雖然 Gadobutrol 可用於前列腺 MRI（如多參數 MRI），但此屬診斷用途，並非治療性再利用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "peripheral arterial disease",
+      "txgnn": {
+        "score": 0.7671833634376526,
+        "rank": 43200
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05685160",
+            "title": "Ultrasound and MRI of the Forefoot: Intermetatarsal Bursitis or Morton's Neuroma",
+            "phase": "NA",
+            "status": "ENROLLING_BY_INVITATION",
+            "enrollment": 75,
+            "start_date": "2021-06-14",
+            "completion_date": "2027-03",
+            "brief_summary": "The aim of this study is to investigate the incidence of intermetatarsal bursitis and Morton's neuroma in patients with metatarsalgia (i.e. pain in the forefoot) and control subjects by diagnostic imaging with ultrasound and MRI.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "研究主題為前足滑囊炎 vs Morton神經瘤的影像鑑別，與PAD診斷無直接關聯。Gadobutrol 在此為輔助影像工具，不構成 PAD 適應症的核心證據。"
+            }
+          },
+          {
+            "nct_id": "NCT00955617",
+            "title": "Intra-individual Efficacy Evaluation of DOTAREM®-Enhanced MRA Compared to GADOVIST®-Enhanced MRA in the Diagnosis of Clinically Significant Abdominal or Lower Limb Arterial Diseases",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2009-07",
+            "completion_date": "2010-10",
+            "brief_summary": "This study is an intra-individual comparison of DOTAREM®-enhanced MRA and GADOVIST®-enhanced MRA in the diagnosis of clinically significant abdominal or lower limb arterial diseases.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，直接比較 Gadovist（Gadobutrol）與 Dotarem 於周邊動脈 MRA 的影像品質與診斷效能。雖樣本數小（n=20），但為頭對頭比較設計，直接支持 Gadobutrol 在 PAD 診斷的效能。"
+            }
+          },
+          {
+            "nct_id": "NCT01026389",
+            "title": "Efficacy Evaluation of Dotarem®-Enhanced MRA Compared to Gadovist®-Enhanced MRA in the Diagnosis of Clinically Significant Abdominal or Limb Arterial Diseases",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 189,
+            "start_date": "2009-10",
+            "completion_date": "2012-01",
+            "brief_summary": "This study is an efficacy evaluation of Dotarem®-enhanced magnetic resonance angiography (MRA) compared to Gadovist®-enhanced MRA in the diagnosis of clinically significant abdominal or lower limb arterial diseases.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，樣本數 189，為 PAD 診斷 CE-MRA 的核心比較試驗。直接評估 Gadobutrol MRA 在周邊血管疾病診斷的效能，屬最高相關性證據。"
+            }
+          },
+          {
+            "nct_id": "NCT02917213",
+            "title": "A Prospective, Observational Study to Assess the Efficacy of New Quantitative Imaging Methods to Assess the Risk of Acute and Subacute Thromboembolic Complications of Myocardial Infarction",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 92,
+            "start_date": "2016-09",
+            "completion_date": "2022-01-01",
+            "brief_summary": "This project aims to assess the ability of cardiac imaging (cardiac MRI and Doppler-echocardiography) post-processing tools to predict a combined end-point of intraventricular thrombosis, silent brain infarcts, clinical stroke and peripheral arterial embolism in patients with first acute myocardial infarction and ventricular dysfunction.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "前瞻性觀察性研究，評估量化影像方法（含 MRI）於 PAD 評估的效能。非隨機化設計降低證據強度，但前瞻性收案設計提供有意義的真實世界數據。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26001243",
+            "title": "MR Angiography at 3 T of Peripheral Arterial Disease: A Randomized Prospective Comparison of Gadoterate Meglumine and Gadobutrol.",
+            "authors": [
+              "Loewe Christian",
+              "Arnaiz Javier",
+              "Krause Denis",
+              "Marti-Bonmati Luis",
+              "Haneder Stefan"
+            ],
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2015",
+            "abstract": "This large-scale randomized study aimed to show the noninferiority in terms of diagnostic performance of gadoterate meglumine-enhanced versus gadobutrol-enhanced 3-T MR angiography (MRA) using digital subtraction angiography (DSA) as the reference standard in patients with peripheral arterial occlusive disease (PAOD).",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20959539",
+            "title": "Peripheral arterial occlusive disease: evaluation of a high spatial and temporal resolution 3-T MR protocol with a low total dose of gadolinium versus conventional angiography.",
+            "authors": [
+              "Attenberger Ulrike I",
+              "Haneder Stefan",
+              "Morelli John N",
+              "Diehl Steffen J",
+              "Schoenberg Stefan O"
+            ],
+            "journal": "Radiology",
+            "year": "2010",
+            "abstract": "To evaluate a peripheral magnetic resonance (MR) angiographic protocol combining continuous table movement (CTM) MR angiography of the entire runoff vasculature with time-resolved (TWIST) 3-T MR angiography of the calves with a total gadolinium dose of 0.1 mmol per kilogram of body weight.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12928960",
+            "title": "Gadobutrol-enhanced moving-table magnetic resonance angiography in patients with peripheral vascular disease: a prospective, multi-centre blinded comparison with digital subtraction angiography.",
+            "authors": [
+              "Hentsch Annette",
+              "Aschauer Manuela A",
+              "Balzer Jörn O",
+              "Brossmann Joachim",
+              "Busch Hans P"
+            ],
+            "journal": "European radiology",
+            "year": "2003",
+            "abstract": "The purpose of this study was to compare moving-table three-dimensional contrast-enhanced magnetic resonance angiography (CE MRA), using 1.0-mol gadobutrol, with intra-arterial digital subtraction angiography (i.a. DSA) for evaluation of pelvic and peripheral arteries in patients with peripheral arterial occlusive disease. A total of 203 patients were examined in a prospective, multi-centre study at 1.0/1.5 T. Ten vessel segments of one leg were evaluated on-site and by three independent blinded",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22848033",
+            "title": "Comparison of 0.5 M gadoterate and 1.0 M gadobutrol in peripheral MRA: a prospective, single-center, randomized, crossover, double-blind study.",
+            "authors": [
+              "Haneder Stefan",
+              "Attenberger Ulrike I",
+              "Schoenberg Stefan O",
+              "Loewe Christian",
+              "Arnaiz Javier"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2012",
+            "abstract": "To evaluate the diagnostic efficacy of macrocyclic paramagnetic gadolinium (Gd) chelates gadoterate (0.5 mmol/mL) and gadobutrol (1.0 mmol/mL) for the diagnosis of clinically significant abdominal/lower limb arterial diseases at 3.0T.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23188773",
+            "title": "Comparison of contrast-enhanced multi-station MR angiography and digital subtraction angiography of the lower extremity arterial disease.",
+            "authors": [
+              "Burbelko Mykhaylo",
+              "Augsten Michael",
+              "Kalinowski Marc O",
+              "Heverhagen Johannes T"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2013",
+            "abstract": "To compare diagnostic accuracy of multi-station, high-spatial resolution contrast-enhanced MR angiography (CE-MRA) of the lower extremities with digital subtraction angiography (DSA) as the reference standard in patients with symptomatic peripheral arterial occlusive disease.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15149986",
+            "title": "Whole-body 3D MR angiography of patients with peripheral arterial occlusive disease.",
+            "authors": [
+              "Herborn Christoph U",
+              "Goyen Mathias",
+              "Quick Harald H",
+              "Bosk Silke",
+              "Massing Sandra"
+            ],
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2004",
+            "abstract": "We assessed the diagnostic performance of whole-body 3D contrast-enhanced MR angiography in comparison with digital subtraction angiography (DSA) of the lower extremities in patients with peripheral arterial occlusive disease. SUBJECTS AND METHODS. Fifty-one patients with clinically documented peripheral arterial occlusive disease referred for DSA of the lower extremity arterial system underwent whole-body MR angiography on a 1.5-T MR scanner. Paramagnetic gadobutrol was administered and five co",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19652610",
+            "title": "Peripheral magnetic resonance angiography with continuous table movement in combination with high spatial and temporal resolution time-resolved MRA With a total single dose (0.1 mmol/kg) of gadobutrol at 3.0 T.",
+            "authors": [
+              "Voth Matthias",
+              "Haneder Stefan",
+              "Huck Kurt",
+              "Gutfleisch Alexandra",
+              "Schönberg Stefan O"
+            ],
+            "journal": "Investigative radiology",
+            "year": "2009",
+            "abstract": "To prove the concept of peripheral continuous table movement (CTM) MR-angiography (MRA) in combination with high spatial and temporal resolution time-resolved TWIST-MRA in a single MR-examination at 3.0 T with a single dose (0.1 mmol/kg) of gadobutrol in total.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12677513",
+            "title": "[First clinical results in a study of contrast enhanced magnetic resonance angiography with the 1.0 molar gadobutrol in peripheral arterial occlusive disease--comparison to intraarterial DSA].",
+            "authors": [
+              "Schäfer F K",
+              "Schäfer P J",
+              "Jahnke T",
+              "Walluscheck K",
+              "Priebe M"
+            ],
+            "journal": "RoFo : Fortschritte auf dem Gebiete der Rontgenstrahlen und der Nuklearmedizin",
+            "year": "2003",
+            "abstract": "To assess the value of contrast enhanced (CE)-MR angiography (MRA) with 1.0 molar Gadobutrol (Schering, Germany) in comparison to intraarterial DSA in peripheral arterial occlusive disease (PAOD).",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24893292",
+            "title": "Enhancement characteristics and impact on image quality of two gadolinium chelates at equimolar doses for time-resolved 3-Tesla MR-angiography of the calf station.",
+            "authors": [
+              "Hansmann Jan",
+              "Michaely Henrik J",
+              "Morelli John N",
+              "Luckscheiter André",
+              "Schoenberg Stefan O"
+            ],
+            "journal": "PloS one",
+            "year": "2014",
+            "abstract": "To compare enhancement characteristics and image quality of two macrocyclic gadolinium chelates, gadoterate meglumine and gadobutrol, in low-dose, time-resolved MRA of the calf station.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21031523",
+            "title": "Prospective comparison of image quality and diagnostic accuracy of 0.5 molar gadobenate dimeglumine and 1.0 molar gadobutrol in contrast-enhanced run-off magnetic resonance angiography of the lower extremities.",
+            "authors": [
+              "Achenbach Marina",
+              "Figiel Jens H",
+              "Burbelko Mykhaylo",
+              "Heverhagen Johannes T"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2010",
+            "abstract": "To compare image quality and diagnostic accuracy of 0.5 molar gadobenate dimeglumine and 1.0 molar gadobutrol in contrast-enhanced (CE) magnetic resonance angiography (MRA) of the lower extremities interindividually.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25073947",
+            "title": "Fusion guidance in endovascular peripheral artery interventions: a feasibility study.",
+            "authors": [
+              "Sailer Anna M",
+              "de Haan Michiel W",
+              "de Graaf Rick",
+              "van Zwam Willem H",
+              "Schurink Geert Willem H"
+            ],
+            "journal": "Cardiovascular and interventional radiology",
+            "year": "2015",
+            "abstract": "This study was designed to evaluate the feasibility of endovascular guidance by means of live fluoroscopy fusion with magnetic resonance angiography (MRA) and computed tomography angiography (CTA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22543971",
+            "title": "Magnetic resonance evaluation of renal artery stenosis in a swine model: performance of low-dose gadobutrol versus gadoterate meglumine in comparison with digital subtraction intra-arterial catheter angiography.",
+            "authors": [
+              "Morelli John N",
+              "Runge Val M",
+              "Ai Fei",
+              "Zhang Wei",
+              "Li Xiaoming"
+            ],
+            "journal": "Investigative radiology",
+            "year": "2012",
+            "abstract": "The aim of this study was to compare low-dose imaging with gadobutrol and gadoterate meglumine (Gd-DOTA) for evaluation of renal artery stenosis with 3-T magnetic resonance angiography (MRA) in a swine model.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12720266",
+            "title": "Using a 1 M Gd-chelate (gadobutrol) for total-body three-dimensional MR angiography: preliminary experience.",
+            "authors": [
+              "Goyen Mathias",
+              "Herborn Christoph U",
+              "Vogt Florian M",
+              "Kröger Knut",
+              "Verhagen Rüdiger"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2003",
+            "abstract": "To determine whether higher concentrated gadolinium chelates are advantageous for the recently introduced concept of total-body magnetic resonance angiography (MRA), allowing whole-body coverage, extending from the carotid arteries to the runoff vessels, in merely 72 seconds.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20972569",
+            "title": "\"Number needed to read\"--how to facilitate clinical trials in MR-angiography.",
+            "authors": [
+              "Voth M",
+              "Attenberger U I",
+              "Luckscheiter A",
+              "Haneder S",
+              "Henzler T"
+            ],
+            "journal": "European radiology",
+            "year": "2011",
+            "abstract": "To evaluate the effect of the number of readers on the statistical results in peripheral MRA.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22777620",
+            "title": "Triple-TWIST MRA: high spatial and temporal resolution MR angiography of the entire peripheral vascular system using a time-resolved 4D MRA technique.",
+            "authors": [
+              "Kinner Sonja",
+              "Quick Harald H",
+              "Maderwald Stefan",
+              "Hunold Peter",
+              "Barkhausen Jörg"
+            ],
+            "journal": "European radiology",
+            "year": "2013",
+            "abstract": "Multi-station contrast-enhanced magnetic resonance angiography (MRA) is considered as the imaging investigation of first choice in patients suffering from peripheral arterial occlusive disease. In order to overcome venous overlay and to gain dynamic flow information as provided by digital subtraction angiography (DSA), we developed a triple injection protocol for high-resolution MRA of the entire peripheral vascular system, applying time-resolved (TR) four-dimensional (4D) MRA sequences.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20706840",
+            "title": "High-resolution 3D non-contrast-enhanced, ECG-gated, multi-step MR angiography of the lower extremities: comparison with contrast-enhanced MR angiography.",
+            "authors": [
+              "Mohrs Oliver K",
+              "Petersen Steffen E",
+              "Heidt Martin C",
+              "Schulze Thomas",
+              "Schmitt Peter"
+            ],
+            "journal": "European radiology",
+            "year": "2011",
+            "abstract": "To determine the diagnostic value of non-contrast-enhanced, 3D-high-resolution, ECG-gated, multi-step MR angiography (non-ceMRA) of the lower extremities using a modified turbo-spin-echo technique in comparison to 1.0-molar contrast-enhanced MR angiography (ceMRA) in patients with suspected peripheral vascular disease (PVD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24156379",
+            "title": "Steady state vascular imaging with extracellular gadobutrol: evaluation of the additional diagnostic benefit in patients who have undergone a peripheral magnetic resonance angiography protocol.",
+            "authors": [
+              "Ong Melissa M",
+              "Hausotter Katharina",
+              "Pilz Lothar R",
+              "Schoenberg Stefan O",
+              "Michaely Henrik J"
+            ],
+            "journal": "Journal of cardiovascular magnetic resonance : official journal of the Society for Cardiovascular Magnetic Resonance",
+            "year": "2013",
+            "abstract": "To evaluate the feasibility and additional diagnostic benefit of a high-resolution steady state 3D-volume interpolated breath-hold exam (VIBE) sequence between a continuous table movement (CTM) MR angiography of the entire runoff vasculature and a time-resolved (TWIST) MRA of the calves.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24338813",
+            "title": "Nonenhanced ECG-gated quiescent-interval single shot MRA: image quality and stenosis assessment at 3 tesla compared with contrast-enhanced MRA and digital subtraction angiography.",
+            "authors": [
+              "Hansmann Jan",
+              "Morelli John N",
+              "Michaely Henrik J",
+              "Riester Thomas",
+              "Budjan Johannes"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2014",
+            "abstract": "To evaluate the diagnostic accuracy of a nonenhanced electrocardiograph-gated quiescent-interval single shot MR-angiography (QISS-MRA) at 3 Tesla with contrast-enhanced MRA (CE-MRA) and digital subtraction angiography (DSA) serving as reference standard.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "11747013",
+            "title": "0.5 M Gd chelate (Magnevist) versus 1.0 M Gd chelate (Gadovist): dose-independent effect on image quality of pelvic three-dimensional MR-angiography.",
+            "authors": [
+              "Goyen M",
+              "Lauenstein T C",
+              "Herborn C U",
+              "Debatin J F",
+              "Bosk S"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2001",
+            "abstract": "To compare the effect on image quality of a 1.0 M gadolinium (Gd) chelate to that of a conventional 0.5 M Gd chelate, five healthy volunteers and seven patients with angiographically documented aorto-iliac disease underwent a mono-station three-dimensional magnetic resonance angiography (MRA) exam (Siemens SONATA, Erlangen, Germany) twice, once using Gadovist 1.0 and the other time using Magnevist as the contrast agent. All subjects received a fixed volume of Gadovist 1.0, corresponding to a dos",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22660207",
+            "title": "Comparison of the quality of lower limb magnetic resonance angiographies performed with different paramagnetic contrast agents in relation to body mass index and ejection fraction.",
+            "authors": [
+              "Hrdina Lukas",
+              "Kocher Martin",
+              "Herman Miroslav",
+              "Cerna Marie",
+              "Kozak Jiri"
+            ],
+            "journal": "Biomedical papers of the Medical Faculty of the University Palacky, Olomouc, Czechoslovakia",
+            "year": "2012",
+            "abstract": "To compare the quality of magnetic resonance angiographies (MRAs) performed with different contrast agents and to evaluate the effect of body mass index (BMI) and ejection fraction (EF) on the quality of these MRAs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Gadobutrol 以 1.0 mol/L 高濃度縮短 T1 弛豫時間，在 MR 血管攝影（MRA）中提供優越的血管顯影效果。在周邊動脈疾病中，CE-MRA（對比增強磁振血管攝影）為評估狹窄程度、指引血管重建術的標準影像工具。機轉清晰：高濃度釓螯合物 → 增強血管訊號 → 精準診斷 PAD 病灶範圍與嚴重程度。此為診斷性適應症而非治療性再利用。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "cauda equina syndrome",
+      "txgnn": {
+        "score": 0.7523258924484253,
+        "rank": 43733
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "馬尾症候群為脊椎管內神經壓迫急症，需緊急手術減壓。Gadobutrol 無任何神經保護、抗炎或減壓機轉。TxGNN 預測可能源於脊髓/馬尾 MRI 診斷在知識圖譜中的路徑，而非治療機轉。零臨床試驗、零文獻。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "peripheral vascular disease",
+      "txgnn": {
+        "score": 0.7439441680908203,
+        "rank": 43983
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00955617",
+            "title": "Intra-individual Efficacy Evaluation of DOTAREM®-Enhanced MRA Compared to GADOVIST®-Enhanced MRA in the Diagnosis of Clinically Significant Abdominal or Lower Limb Arterial Diseases",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 20,
+            "start_date": "2009-07",
+            "completion_date": "2010-10",
+            "brief_summary": "This study is an intra-individual comparison of DOTAREM®-enhanced MRA and GADOVIST®-enhanced MRA in the diagnosis of clinically significant abdominal or lower limb arterial diseases.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "同 PAD 分析，直接比較試驗，PVD 患者為主要研究對象"
+            }
+          },
+          {
+            "nct_id": "NCT02401906",
+            "title": "MRI for the Etiological Diagnosis of Orbital Tumours",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2015-05-27",
+            "completion_date": "2020-05-25",
+            "brief_summary": "Orbital masses develop at the expense of the orbital structures lacrimal glands, oculomotor muscles, optic nerve, meningeal spaces, peripheral nerves, bone wall, orbital fat, lymphoid structures or vascular structures. These masses can be tumors, benign or malignant, or pseudotumor, mainly represented by specific or non-specific orbital inflammation.\n\nPathology is of considerable importance for the diagnosis and the treatment of those masses. However, biopsy or surgical resection of the orbital ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "眼眶腫瘤 MRI 研究，與 PVD 無直接關聯，相關性低"
+            }
+          },
+          {
+            "nct_id": "NCT00468819",
+            "title": "Open-label Multi-center Study of Magnetic Resonance Imaging (MRI) With 0.1 mmol/kg Body Weight (BW) Gadavist (1.0 M) to Assess Pharmacokinetics, Safety and Tolerability in Children.",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2007-05",
+            "completion_date": "2008-04",
+            "brief_summary": "In this clinical study a contrast agent for magnetic resonance imaging (MRI), which has already been approved for application in adults, will be investigated in children and adolescents. MRI is a modern and safe examination method without delivering radiation burden using magnetic fields to produce cross-sectional images of the human body. A special computer program then puts these images together and creates a two or three-dimensional image of the inner organs thus facilitating the detection an",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 開放性多中心研究（n=140），評估 Gadobutrol 在 MRI 中的安全性與效能，包含 PVD 患者，提供早期安全性資料。"
+            }
+          },
+          {
+            "nct_id": "NCT01026389",
+            "title": "Efficacy Evaluation of Dotarem®-Enhanced MRA Compared to Gadovist®-Enhanced MRA in the Diagnosis of Clinically Significant Abdominal or Limb Arterial Diseases",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 189,
+            "start_date": "2009-10",
+            "completion_date": "2012-01",
+            "brief_summary": "This study is an efficacy evaluation of Dotarem®-enhanced magnetic resonance angiography (MRA) compared to Gadovist®-enhanced MRA in the diagnosis of clinically significant abdominal or lower limb arterial diseases.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT，最大規模比較試驗（n=189），明確針對周邊血管疾病診斷"
+            }
+          },
+          {
+            "nct_id": "NCT02917213",
+            "title": "A Prospective, Observational Study to Assess the Efficacy of New Quantitative Imaging Methods to Assess the Risk of Acute and Subacute Thromboembolic Complications of Myocardial Infarction",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 92,
+            "start_date": "2016-09",
+            "completion_date": "2022-01-01",
+            "brief_summary": "This project aims to assess the ability of cardiac imaging (cardiac MRI and Doppler-echocardiography) post-processing tools to predict a combined end-point of intraventricular thrombosis, silent brain infarcts, clinical stroke and peripheral arterial embolism in patients with first acute myocardial infarction and ventricular dysfunction.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "前瞻性觀察性設計，評估 PVD 的量化影像方法"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "26001243",
+            "title": "MR Angiography at 3 T of Peripheral Arterial Disease: A Randomized Prospective Comparison of Gadoterate Meglumine and Gadobutrol.",
+            "authors": [
+              "Loewe Christian",
+              "Arnaiz Javier",
+              "Krause Denis",
+              "Marti-Bonmati Luis",
+              "Haneder Stefan"
+            ],
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2015",
+            "abstract": "This large-scale randomized study aimed to show the noninferiority in terms of diagnostic performance of gadoterate meglumine-enhanced versus gadobutrol-enhanced 3-T MR angiography (MRA) using digital subtraction angiography (DSA) as the reference standard in patients with peripheral arterial occlusive disease (PAOD).",
+            "classification": {
+              "study_type": "RCT",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12928960",
+            "title": "Gadobutrol-enhanced moving-table magnetic resonance angiography in patients with peripheral vascular disease: a prospective, multi-centre blinded comparison with digital subtraction angiography.",
+            "authors": [
+              "Hentsch Annette",
+              "Aschauer Manuela A",
+              "Balzer Jörn O",
+              "Brossmann Joachim",
+              "Busch Hans P"
+            ],
+            "journal": "European radiology",
+            "year": "2003",
+            "abstract": "The purpose of this study was to compare moving-table three-dimensional contrast-enhanced magnetic resonance angiography (CE MRA), using 1.0-mol gadobutrol, with intra-arterial digital subtraction angiography (i.a. DSA) for evaluation of pelvic and peripheral arteries in patients with peripheral arterial occlusive disease. A total of 203 patients were examined in a prospective, multi-centre study at 1.0/1.5 T. Ten vessel segments of one leg were evaluated on-site and by three independent blinded",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22848033",
+            "title": "Comparison of 0.5 M gadoterate and 1.0 M gadobutrol in peripheral MRA: a prospective, single-center, randomized, crossover, double-blind study.",
+            "authors": [
+              "Haneder Stefan",
+              "Attenberger Ulrike I",
+              "Schoenberg Stefan O",
+              "Loewe Christian",
+              "Arnaiz Javier"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2012",
+            "abstract": "To evaluate the diagnostic efficacy of macrocyclic paramagnetic gadolinium (Gd) chelates gadoterate (0.5 mmol/mL) and gadobutrol (1.0 mmol/mL) for the diagnosis of clinically significant abdominal/lower limb arterial diseases at 3.0T.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20959539",
+            "title": "Peripheral arterial occlusive disease: evaluation of a high spatial and temporal resolution 3-T MR protocol with a low total dose of gadolinium versus conventional angiography.",
+            "authors": [
+              "Attenberger Ulrike I",
+              "Haneder Stefan",
+              "Morelli John N",
+              "Diehl Steffen J",
+              "Schoenberg Stefan O"
+            ],
+            "journal": "Radiology",
+            "year": "2010",
+            "abstract": "To evaluate a peripheral magnetic resonance (MR) angiographic protocol combining continuous table movement (CTM) MR angiography of the entire runoff vasculature with time-resolved (TWIST) 3-T MR angiography of the calves with a total gadolinium dose of 0.1 mmol per kilogram of body weight.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "19652610",
+            "title": "Peripheral magnetic resonance angiography with continuous table movement in combination with high spatial and temporal resolution time-resolved MRA With a total single dose (0.1 mmol/kg) of gadobutrol at 3.0 T.",
+            "authors": [
+              "Voth Matthias",
+              "Haneder Stefan",
+              "Huck Kurt",
+              "Gutfleisch Alexandra",
+              "Schönberg Stefan O"
+            ],
+            "journal": "Investigative radiology",
+            "year": "2009",
+            "abstract": "To prove the concept of peripheral continuous table movement (CTM) MR-angiography (MRA) in combination with high spatial and temporal resolution time-resolved TWIST-MRA in a single MR-examination at 3.0 T with a single dose (0.1 mmol/kg) of gadobutrol in total.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22777620",
+            "title": "Triple-TWIST MRA: high spatial and temporal resolution MR angiography of the entire peripheral vascular system using a time-resolved 4D MRA technique.",
+            "authors": [
+              "Kinner Sonja",
+              "Quick Harald H",
+              "Maderwald Stefan",
+              "Hunold Peter",
+              "Barkhausen Jörg"
+            ],
+            "journal": "European radiology",
+            "year": "2013",
+            "abstract": "Multi-station contrast-enhanced magnetic resonance angiography (MRA) is considered as the imaging investigation of first choice in patients suffering from peripheral arterial occlusive disease. In order to overcome venous overlay and to gain dynamic flow information as provided by digital subtraction angiography (DSA), we developed a triple injection protocol for high-resolution MRA of the entire peripheral vascular system, applying time-resolved (TR) four-dimensional (4D) MRA sequences.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24156379",
+            "title": "Steady state vascular imaging with extracellular gadobutrol: evaluation of the additional diagnostic benefit in patients who have undergone a peripheral magnetic resonance angiography protocol.",
+            "authors": [
+              "Ong Melissa M",
+              "Hausotter Katharina",
+              "Pilz Lothar R",
+              "Schoenberg Stefan O",
+              "Michaely Henrik J"
+            ],
+            "journal": "Journal of cardiovascular magnetic resonance : official journal of the Society for Cardiovascular Magnetic Resonance",
+            "year": "2013",
+            "abstract": "To evaluate the feasibility and additional diagnostic benefit of a high-resolution steady state 3D-volume interpolated breath-hold exam (VIBE) sequence between a continuous table movement (CTM) MR angiography of the entire runoff vasculature and a time-resolved (TWIST) MRA of the calves.",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12677513",
+            "title": "[First clinical results in a study of contrast enhanced magnetic resonance angiography with the 1.0 molar gadobutrol in peripheral arterial occlusive disease--comparison to intraarterial DSA].",
+            "authors": [
+              "Schäfer F K",
+              "Schäfer P J",
+              "Jahnke T",
+              "Walluscheck K",
+              "Priebe M"
+            ],
+            "journal": "RoFo : Fortschritte auf dem Gebiete der Rontgenstrahlen und der Nuklearmedizin",
+            "year": "2003",
+            "abstract": "To assess the value of contrast enhanced (CE)-MR angiography (MRA) with 1.0 molar Gadobutrol (Schering, Germany) in comparison to intraarterial DSA in peripheral arterial occlusive disease (PAOD).",
+            "classification": {
+              "study_type": "Prospective Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21031523",
+            "title": "Prospective comparison of image quality and diagnostic accuracy of 0.5 molar gadobenate dimeglumine and 1.0 molar gadobutrol in contrast-enhanced run-off magnetic resonance angiography of the lower extremities.",
+            "authors": [
+              "Achenbach Marina",
+              "Figiel Jens H",
+              "Burbelko Mykhaylo",
+              "Heverhagen Johannes T"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2010",
+            "abstract": "To compare image quality and diagnostic accuracy of 0.5 molar gadobenate dimeglumine and 1.0 molar gadobutrol in contrast-enhanced (CE) magnetic resonance angiography (MRA) of the lower extremities interindividually.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24893292",
+            "title": "Enhancement characteristics and impact on image quality of two gadolinium chelates at equimolar doses for time-resolved 3-Tesla MR-angiography of the calf station.",
+            "authors": [
+              "Hansmann Jan",
+              "Michaely Henrik J",
+              "Morelli John N",
+              "Luckscheiter André",
+              "Schoenberg Stefan O"
+            ],
+            "journal": "PloS one",
+            "year": "2014",
+            "abstract": "To compare enhancement characteristics and image quality of two macrocyclic gadolinium chelates, gadoterate meglumine and gadobutrol, in low-dose, time-resolved MRA of the calf station.",
+            "classification": {
+              "study_type": "Prospective Comparative",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "18504760",
+            "title": "1.0-M gadobutrol versus 0.5-M gadoterate for peripheral magnetic resonance angiography: a prospective randomized controlled clinical trial.",
+            "authors": [
+              "Szucs-Farkas Zsolt",
+              "Froehlich Johannes M",
+              "Ulrich Martin",
+              "Wuersten Hans-Ueli",
+              "Guignard Dominique"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2008",
+            "abstract": "To perform a quantitative and qualitative comparison of gadobutrol and gadoterate in three-station contrast enhanced magnetic resonance angiography (CE-MRA) of the lower limbs.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31321491",
+            "title": "\"Myocardial transit-time\" (MyoTT): a novel and easy-to-perform CMR parameter to assess microvascular disease.",
+            "authors": [
+              "Chatzantonis Grigorios",
+              "Bietenbeck Michael",
+              "Florian Anca",
+              "Meier Claudia",
+              "Korthals Dennis"
+            ],
+            "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+            "year": "2020",
+            "abstract": "Myocardial microvascular disease may occur during the disease course of different cardiac as well as systemic disorders. With the present study, we introduce a novel and easy-to-perform cardiovascular magnetic resonance (CMR) parameter named \"myocardial transit-time\" (MyoTT).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15149986",
+            "title": "Whole-body 3D MR angiography of patients with peripheral arterial occlusive disease.",
+            "authors": [
+              "Herborn Christoph U",
+              "Goyen Mathias",
+              "Quick Harald H",
+              "Bosk Silke",
+              "Massing Sandra"
+            ],
+            "journal": "AJR. American journal of roentgenology",
+            "year": "2004",
+            "abstract": "We assessed the diagnostic performance of whole-body 3D contrast-enhanced MR angiography in comparison with digital subtraction angiography (DSA) of the lower extremities in patients with peripheral arterial occlusive disease. SUBJECTS AND METHODS. Fifty-one patients with clinically documented peripheral arterial occlusive disease referred for DSA of the lower extremity arterial system underwent whole-body MR angiography on a 1.5-T MR scanner. Paramagnetic gadobutrol was administered and five co",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "25073947",
+            "title": "Fusion guidance in endovascular peripheral artery interventions: a feasibility study.",
+            "authors": [
+              "Sailer Anna M",
+              "de Haan Michiel W",
+              "de Graaf Rick",
+              "van Zwam Willem H",
+              "Schurink Geert Willem H"
+            ],
+            "journal": "Cardiovascular and interventional radiology",
+            "year": "2015",
+            "abstract": "This study was designed to evaluate the feasibility of endovascular guidance by means of live fluoroscopy fusion with magnetic resonance angiography (MRA) and computed tomography angiography (CTA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "15280530",
+            "title": "Gadolinium-based contrast media compared with iodinated media for digital subtraction angiography in azotaemic patients.",
+            "authors": [
+              "Erley Christiane M",
+              "Bader Birgit D",
+              "Berger Elke D",
+              "Tuncel Nurdan",
+              "Winkler Sabine"
+            ],
+            "journal": "Nephrology, dialysis, transplantation : official publication of the European Dialysis and Transplant Association - European Renal Association",
+            "year": "2004",
+            "abstract": "To determine whether gadolinium-based contrast media (CM) could be used safely for angiographies in patients with renal dysfunction we investigated renal function after gadobutrol exposure and compared the results with standard iodinated CM (iohexol) in a randomized clinical study.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23188773",
+            "title": "Comparison of contrast-enhanced multi-station MR angiography and digital subtraction angiography of the lower extremity arterial disease.",
+            "authors": [
+              "Burbelko Mykhaylo",
+              "Augsten Michael",
+              "Kalinowski Marc O",
+              "Heverhagen Johannes T"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2013",
+            "abstract": "To compare diagnostic accuracy of multi-station, high-spatial resolution contrast-enhanced MR angiography (CE-MRA) of the lower extremities with digital subtraction angiography (DSA) as the reference standard in patients with symptomatic peripheral arterial occlusive disease.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30847564",
+            "title": "MR venography using time-resolved imaging in interventional management of pelvic venous insufficiency.",
+            "authors": [
+              "Chennur Vikash S",
+              "Nzekwu Emeka V",
+              "Bhayana Deepak",
+              "Raber Earl L",
+              "Wong Jason K"
+            ],
+            "journal": "Abdominal radiology (New York)",
+            "year": "2019",
+            "abstract": "To evaluate the utility of magnetic resonance venography with time-resolved imaging (MRV TRI) in the diagnosis of pelvic vein insufficiency (PVI).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12928957",
+            "title": "Safety of contrast-enhanced MR angiography employing gadobutrol 1.0 M as contrast material.",
+            "authors": [
+              "Balzer Jörn O",
+              "Loewe Christian",
+              "Davis Kirsten",
+              "Goyen Mathias",
+              "Leiner Tim"
+            ],
+            "journal": "European radiology",
+            "year": "2003",
+            "abstract": "Our objectives were to evaluate the safety of intravenous 1.0-M gadobutrol injections in patients with an indication for contrast-enhanced magnetic resonance angiography (CE MRA) of supra-aortal, pelvic, or peripheral arteries by examining and assessing adverse events, laboratory values, vital signs and ECG findings for clinical significance. In 435 patients, recruited in three multicenter trials for safety evaluations of the new contrast agent 1.0-M gadobutrol, CE MRA was performed with 1.0- to",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "12720266",
+            "title": "Using a 1 M Gd-chelate (gadobutrol) for total-body three-dimensional MR angiography: preliminary experience.",
+            "authors": [
+              "Goyen Mathias",
+              "Herborn Christoph U",
+              "Vogt Florian M",
+              "Kröger Knut",
+              "Verhagen Rüdiger"
+            ],
+            "journal": "Journal of magnetic resonance imaging : JMRI",
+            "year": "2003",
+            "abstract": "To determine whether higher concentrated gadolinium chelates are advantageous for the recently introduced concept of total-body magnetic resonance angiography (MRA), allowing whole-body coverage, extending from the carotid arteries to the runoff vessels, in merely 72 seconds.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20706840",
+            "title": "High-resolution 3D non-contrast-enhanced, ECG-gated, multi-step MR angiography of the lower extremities: comparison with contrast-enhanced MR angiography.",
+            "authors": [
+              "Mohrs Oliver K",
+              "Petersen Steffen E",
+              "Heidt Martin C",
+              "Schulze Thomas",
+              "Schmitt Peter"
+            ],
+            "journal": "European radiology",
+            "year": "2011",
+            "abstract": "To determine the diagnostic value of non-contrast-enhanced, 3D-high-resolution, ECG-gated, multi-step MR angiography (non-ceMRA) of the lower extremities using a modified turbo-spin-echo technique in comparison to 1.0-molar contrast-enhanced MR angiography (ceMRA) in patients with suspected peripheral vascular disease (PVD).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "與 PAD 高度重疊，PVD 為更廣泛的血管疾病範疇，包含動脈、靜脈及微血管病變。Gadobutrol 高濃度（1.0 M）特性使其在 CE-MRA 中提供優越的血管-背景對比，特別適合評估多站式（multi-station）周邊血管病變。部分試驗（如 NCT00468819 Phase 1）明確在 PVD 人群中評估 Gadobutrol 安全性與效能。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "strongyloidiasis",
+      "txgnn": {
+        "score": 0.7312735319137573,
+        "rank": 44340
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類圓線蟲病為寄生蟲感染，治療為伊維菌素（Ivermectin）或 Albendazole。Gadobutrol 為釓螯合物對比劑，無任何驅蟲或抗寄生蟲機轉。TxGNN 預測疑為知識圖譜中腸道/淋巴影像路徑的偽陽性。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "prostate calculus",
+      "txgnn": {
+        "score": 0.7247130870819092,
+        "rank": 44558
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "前列腺結石為鈣化沉積，無藥物治療適應症（通常無症狀，不需處理）。Gadobutrol 無溶石、抗鈣化或相關治療機轉。可能反映前列腺 MRI 在知識圖譜中的路徑關聯。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "obsolete neurogenic bladder (disease)",
+      "txgnn": {
+        "score": 0.719264030456543,
+        "rank": 44710
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "神經因性膀胱（已廢棄診斷術語）的治療涵蓋抗膽鹼藥物、β3促效劑或手術。Gadobutrol 無神經調控或泌尿道相關治療機轉。此 SNOMED 術語已被廢棄，臨床相關性存疑。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "iritis (disease)",
+      "txgnn": {
+        "score": 0.7123105525970459,
+        "rank": 44960
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "虹膜炎為前葡萄膜炎，治療為局部類固醇與散瞳劑。Gadobutrol 無抗炎或免疫調節機轉。眼科 MRI 偶用於評估後段眼部，但虹膜炎為前段病變，MRI 診斷價值有限。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "hypertrichosis (disease)",
+      "txgnn": {
+        "score": 0.7084270119667053,
+        "rank": 45096
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多毛症為毛髮過度生長，與激素、藥物或遺傳相關，治療為雷射/電解除毛或抗雄性素。Gadobutrol 無任何相關治療機轉。TxGNN 預測疑為知識圖譜噪音。零臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "disease of orbital region",
+      "txgnn": {
+        "score": 0.7061567306518555,
+        "rank": 45171
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT05762367",
+            "title": "MR Lymphatic Imaging in Idiopathic Intracranial Hypertension",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 40,
+            "start_date": "2023-03-10",
+            "completion_date": "2025-05-11",
+            "brief_summary": "In the brain and its borders, blood vessels coexist with lymphatic vessels exclusively in the dura mater, the outermost layer of meninges. Dural lymphatics are present in various vertebrate species, including humans, and a cluster of experimental studies in the mouse strongly suggest their relevance in the pathophysiology of chronic and acute neurological disorders in humans. Demonstrating this assumption is however still at stake and the lymphatic regulatory mechanisms involved remain poorly ch",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "評估 MR 淋巴影像於特發性顱內高壓（IIH）的應用，Gadobutrol 用於淋巴管顯影。研究涉及眼眶及顱內淋巴系統，與眼眶區疾病有間接關聯。非隨機設計，樣本數小（n=40）。"
+            }
+          },
+          {
+            "nct_id": "NCT02401906",
+            "title": "MRI for the Etiological Diagnosis of Orbital Tumours",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 200,
+            "start_date": "2015-05-27",
+            "completion_date": "2020-05-25",
+            "brief_summary": "Orbital masses develop at the expense of the orbital structures lacrimal glands, oculomotor muscles, optic nerve, meningeal spaces, peripheral nerves, bone wall, orbital fat, lymphoid structures or vascular structures. These masses can be tumors, benign or malignant, or pseudotumor, mainly represented by specific or non-specific orbital inflammation.\n\nPathology is of considerable importance for the diagnosis and the treatment of those masses. However, biopsy or surgical resection of the orbital ",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "前瞻性觀察性研究（n=200），直接評估對比增強 MRI（含 Gadobutrol）在眼眶腫瘤病因學診斷的效能。為目前最相關的眼眶區疾病 Gadobutrol 應用研究，但非隨機化設計限制證據等級。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "眼眶區疾病（含眼眶腫瘤、眼眶蜂窩織炎、淋巴管病變）的 MRI 評估中，Gadobutrol 高濃度特性可提升軟組織對比，協助鑑別良惡性眼眶病變。機轉為顯影增強的診斷輔助，特別在眼眶靜脈及淋巴管成像中有潛在優勢（如 NCT05762367 的淋巴影像研究）。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "benign prostatic hyperplasia (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "peripheral arterial disease"
+      },
+      "result_status": "success",
+      "result_count": 4,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "peripheral arterial disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "peripheral arterial disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "cauda equina syndrome"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "peripheral vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 5,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "peripheral vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "peripheral vascular disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "strongyloidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "strongyloidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "strongyloidiasis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "prostate calculus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "prostate calculus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "prostate calculus"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "obsolete neurogenic bladder (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "iritis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "iritis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "iritis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "hypertrichosis (disease)"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-10",
+      "query_params": {
+        "drug": "Gadobutrol",
+        "disease": "disease of orbital region"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

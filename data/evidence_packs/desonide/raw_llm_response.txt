@@ -1,0 +1,209 @@
+## 藥物再利用證據分析：Desonide (DB01260)
+
+**藥物背景評估**
+
+Desonide 為低效價外用糖皮質激素（glucocorticoid），主要機轉為結合糖皮質激素受體（GR），抑制磷脂酶A2、減少前列腺素/白三烯合成，發揮抗炎、抗增生及血管收縮作用。所有10個適應症的 TxGNN 分數雖高（~0.999），但臨床試驗與文獻均為 **零**，屬純計算預測。
+
+---
+
+```json
+{
+  "drug": "Desonide",
+  "drugbank_id": "DB01260",
+  "drug_class": "低效價外用糖皮質激素",
+  "analysis_date": "2026-04-04",
+  "overall_note": "所有適應症均無任何臨床試驗或文獻支持，高 TxGNN 分數可能反映 KG 對「抗炎藥物→息肉性病變」的泛化推斷，非特異性預測。Desonide 為外用製劑，對內臟/管腔息肉缺乏給藥可行性。",
+  "indications": [
+    {
+      "disease_name": "polyp of vocal cord",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "糖皮質激素可抑制聲帶黏膜局部炎症及水腫，對炎性型聲帶息肉有理論上的機轉依據（類固醇常用於聲帶充血/水腫）；然而聲帶息肉標準治療為顯微手術切除，外用 Desonide 無適當給藥途徑，機轉關聯屬弱間接推斷。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "給藥途徑不可行（外用藥無法到達聲帶）",
+        "標準治療為手術，藥物介入證據極稀少"
+      ]
+    },
+    {
+      "disease_name": "polyp of middle ear",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "中耳息肉多為慢性化膿性中耳炎繼發性炎性組織，糖皮質激素可抑制局部炎症；但中耳為封閉腔室，Desonide 外用製劑無給藥路徑，且中耳息肉標準治療為手術清創。機轉推斷極弱。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "中耳解剖位置使外用給藥不可行",
+        "無任何文獻支持類固醇用於中耳息肉"
+      ]
+    },
+    {
+      "disease_name": "polyp of external auditory canal",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外耳道息肉多為慢性外耳炎或膽脂瘤繼發性肉芽組織，外用糖皮質激素可抑制局部炎症水腫，在所有預測適應症中給藥途徑相對最可行（外耳道滴劑）。然而目前無 Desonide 用於外耳道息肉的臨床證據，耳用含類固醇複方製劑文獻零星存在但非針對 Desonide。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "現有含類固醇耳劑通常為複方（如 ciprofloxacin+dexamethasone）",
+        "Desonide 無耳用劑型核准"
+      ]
+    },
+    {
+      "disease_name": "polyp of frontal sinus",
+      "txgnn_score": 0.9991,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "額竇息肉屬鼻竇息肉（CRS with NP）範疇，鼻用糖皮質激素為鼻竇息肉的標準治療（有 L1 證據），此為 Desonide 在此適應症最強的間接機轉關聯。然而鼻用類固醇通常為 mometasone、fluticasone、budesonide，Desonide 無核准鼻用劑型，且額竇息肉具體缺乏 Desonide 研究。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "Desonide 無鼻用劑型",
+        "現有鼻竇息肉糖皮質激素證據針對其他製劑，不可直接外推"
+      ]
+    },
+    {
+      "disease_name": "polyp of ureter",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "輸尿管息肉多為纖維上皮性息肉，炎症成分極少，糖皮質激素機轉關聯極弱。外用 Desonide 對輸尿管完全無給藥可行性。此預測高度可能為 KG 模型泛化錯誤。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "輸尿管息肉非炎症性病變，糖皮質激素無生物學合理性",
+        "給藥途徑完全不可行",
+        "標準治療為輸尿管鏡切除"
+      ]
+    },
+    {
+      "disease_name": "polyp of vulva",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "外陰息肉可包含炎性息肉，外用糖皮質激素對外陰炎症性病變有理論依據；Desonide 外用製劑給藥途徑在所有適應症中相對可行（外陰外用）。然而外陰息肉標準治療為手術切除，無類固醇治療的臨床證據，長期外陰部使用類固醇有皮膚萎縮風險。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "外陰息肉無藥物治療標準指引",
+        "長期外陰類固醇使用有安全疑慮"
+      ]
+    },
+    {
+      "disease_name": "fibroepithelial polyp",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "纖維上皮息肉（皮膚軟纖維瘤/skin tag）為良性纖維結締組織增生，幾乎無炎症成分，糖皮質激素的機轉關聯極弱。此預測缺乏生物學合理性，KG 可能因解剖位置相鄰的疾病關係產生誤推。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "纖維上皮息肉無炎症機轉，糖皮質激素缺乏生物學依據",
+        "標準治療為物理/手術切除",
+        "此預測可信度最低"
+      ]
+    },
+    {
+      "disease_name": "neoplastic polyp",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "腫瘤性息肉（如腸腺瘤）主要為上皮增生性病變，糖皮質激素的抗炎機轉對腫瘤增生無直接抑制依據；部分研究顯示慢性炎症與腺瘤發展有關，但類固醇在腺瘤化學預防無有效證據。腫瘤性息肉使用免疫抑制類固醇可能有不利影響。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "腫瘤性息肉使用免疫抑制藥物存在安全疑慮",
+        "標準治療為內鏡切除及癌症監測"
+      ]
+    },
+    {
+      "disease_name": "epulis",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "齦瘤（epulis）包含多種亞型：纖維性齦瘤（無炎症）、巨細胞齦瘤（有炎症/反應性）及化脓性肉芽腫。對於炎症性/反應性亞型，皮質類固醇局部注射有零星案例報告；Desonide 外用貼附牙齦理論上可行但缺乏任何臨床研究支持。為 10 個適應症中機轉關聯相對較強者之一。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "需區分組織學亞型，纖維性齦瘤無類固醇適應",
+        "口腔黏膜外用 Desonide 無核准用途"
+      ]
+    },
+    {
+      "disease_name": "uterine polyp",
+      "txgnn_score": 0.9990,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "子宮內膜息肉為雌激素依賴性增生，糖皮質激素對子宮內膜的作用主要透過影響局部炎症介質及前列腺素合成；理論上可能影響子宮內膜微環境，但子宮內膜息肉的發病機轉以激素驅動為主，而非炎症。給藥途徑（子宮腔內）對外用 Desonide 不可行，全身吸收量不足。",
+      "trials_analysis": [],
+      "literature_analysis": [],
+      "additional_barriers": [
+        "子宮息肉機轉以雌激素為主，非糖皮質激素靶點",
+        "給藥途徑不可行",
+        "宮腔鏡切除為標準治療"
+      ]
+    }
+  ],
+  "summary": {
+    "l5_count": 10,
+    "l4_count": 0,
+    "l3_count": 0,
+    "l2_count": 0,
+    "l1_count": 0,
+    "proceed_count": 0,
+    "research_question_count": 0,
+    "hold_count": 10,
+    "key_finding": "10個適應症全數為 L5/S0/Hold。高 TxGNN 分數（~0.999）反映模型對「糖皮質激素→息肉性病變」的系統性泛化預測，非特異性信號。主要問題：(1) 零臨床證據；(2) 多數適應症給藥途徑不可行；(3) 部分息肉亞型（纖維上皮、腫瘤性、輸尿管）缺乏生物學合理性。建議優先排查其他具炎症機轉且給藥可行的適應症。",
+    "relative_priority_within_batch": [
+      {
+        "rank": 1,
+        "disease": "polyp of external auditory canal",
+        "reason": "給藥途徑相對可行（外耳道外用）"
+      },
+      {
+        "rank": 2,
+        "disease": "polyp of frontal sinus",
+        "reason": "同類藥物（鼻用類固醇）有 L1 間接支持，機轉最強"
+      },
+      {
+        "rank": 3,
+        "disease": "epulis",
+        "reason": "炎症性亞型有微弱案例文獻基礎"
+      }
+    ]
+  }
+}
+```
+
+---
+
+### 📊 決策矩陣摘要
+
+| 適應症 | TxGNN | 給藥可行性 | 機轉合理性 | 等級 | 建議 |
+|--------|-------|-----------|-----------|------|------|
+| polyp of vocal cord | 0.9991 | ❌ 不可行 | 弱 | L5 | Hold |
+| polyp of middle ear | 0.9991 | ❌ 不可行 | 極弱 | L5 | Hold |
+| polyp of external auditory canal | 0.9991 | ⚠️ 有限 | 弱 | L5 | Hold |
+| polyp of frontal sinus | 0.9991 | ❌ 無鼻劑型 | 中（類藥外推） | L5 | Hold |
+| polyp of ureter | 0.9990 | ❌ 不可行 | 極弱 | L5 | Hold |
+| polyp of vulva | 0.9990 | ⚠️ 有限 | 弱 | L5 | Hold |
+| fibroepithelial polyp | 0.9990 | ⚠️ 有限 | **無** | L5 | Hold |
+| neoplastic polyp | 0.9990 | ❌ | **無，有害疑慮** | L5 | Hold |
+| epulis | 0.9990 | ⚠️ 有限 | 弱（炎症亞型） | L5 | Hold |
+| uterine polyp | 0.9990 | ❌ 不可行 | 極弱 | L5 | Hold |
+
+> ⚠️ **重要提示**：本分析僅供研究參考，不構成醫療建議。所有老藥新用候選均需經過嚴謹臨床驗證方可應用。

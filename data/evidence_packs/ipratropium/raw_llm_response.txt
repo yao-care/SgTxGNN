@@ -1,0 +1,591 @@
+```json
+{
+  "drug": "Ipratropium",
+  "drugbank_id": "DB00332",
+  "analysis_date": "2026-04-04",
+  "analyst_note": "market_status='未上市' 可能指新加坡本地未收載；Ipratropium 全球已有大量上市紀錄（Atrovent®），original_moa=[Data Gap] 為資料缺漏，實際為 M1/M2/M3 muscarinic receptor antagonist。",
+  "indications": [
+    {
+      "disease_name": "obstructive lung disease",
+      "txgnn_score": 0.9998,
+      "evidence_level": "L1",
+      "decision_stage": "S3",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ipratropium 為競爭性毒蕈鹼受體拮抗劑（M1/M2/M3），阻斷副交感神經介導的支氣管收縮與黏液分泌過多，是 COPD/阻塞性肺疾病的第一線支氣管擴張劑。機轉與適應症高度吻合。",
+      "guardrails_note": "雖為 L1 證據，仍需確認本地市場適應症標示範圍（新加坡 HSA 核准狀態）、吸入製劑規格、及與 LABA/ICS 組合療法的比較優勢。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00000568",
+          "title": "Lung Health Study (LHS) I and III",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "指標性 Phase 3 RCT，直接評估 Ipratropium 在早期 COPD 患者的長期療效，奠定藥物在阻塞性肺疾病的核心地位。"
+        },
+        {
+          "nct_id": "NCT00846586",
+          "title": "Randomized, Double-blind, Parallel-group, 12-week Study (COPD comparison)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "大型（n=1134）Phase 3 RCT，直接比較支氣管擴張劑療效於 COPD 族群，高相關性。"
+        },
+        {
+          "nct_id": "NCT02233881",
+          "title": "Post-marketing Surveillance of Atrovent® Inhalets in COPD",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "上市後監測研究（n=4222），直接以 Atrovent® 為研究藥物於 COPD 族群，真實世界大規模證據。"
+        },
+        {
+          "nct_id": "NCT02172469",
+          "title": "Tiotropium vs. Atrovent® MDI (Phase 3)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "直接比較 Ipratropium（Atrovent®）vs. Tiotropium，Phase 3，提供本藥物在阻塞性肺疾病的比較療效資料。"
+        },
+        {
+          "nct_id": "NCT02182713",
+          "title": "Combivent vs. Salbutamol in Methacholine-Induced Bronchospasm",
+          "phase": "PHASE4",
+          "status": "COMPLETED",
+          "relevance_grade": "A",
+          "reasoning": "Phase 4 研究直接評估含 Ipratropium 之 Combivent 在支氣管痙攣的療效，相關性高。"
+        },
+        {
+          "nct_id": "NCT02182700",
+          "title": "Combivent® Aerosol vs. Control (Phase 3)",
+          "phase": "PHASE3",
+          "status": "TERMINATED",
+          "relevance_grade": "B",
+          "reasoning": "含 Ipratropium 的 Combivent 直接相關研究，但因提早終止（n=47），資料不完整，降為 B 級。"
+        },
+        {
+          "nct_id": "NCT00200967",
+          "title": "LARGE Study – LABA Response by Genotype (Phase 3)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "ACRN Phase 3 研究，雖主要關注 LABA 療效，Ipratropium 仍為對照組或標準治療背景藥物。"
+        },
+        {
+          "nct_id": "NCT00117182",
+          "title": "Mannitol Challenge to Predict Inhaled Treatment Response (Phase 2)",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "評估呼吸道反應作為吸入治療預測工具，Ipratropium 為研究治療選項之一，間接相關。"
+        },
+        {
+          "nct_id": "NCT07112456",
+          "title": "Nebulized Ketamine vs. Standard Care in Asthma Exacerbation (Phase 2)",
+          "phase": "PHASE2",
+          "status": "NOT_YET_RECRUITING",
+          "relevance_grade": "C",
+          "reasoning": "Ipratropium 為標準治療背景藥物而非研究主藥，相關性低。"
+        },
+        {
+          "nct_id": "NCT05565430",
+          "title": "Vocal Cord Responses During Hyperventilation",
+          "phase": "N/A",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "生理機轉研究，n=24，與 Ipratropium 直接療效相關性低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "16856113",
+          "title": "Ipratropium bromide versus long-acting beta-2 agonists for stable COPD",
+          "year": "2006",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "note": "Cochrane 系統性回顧，直接比較 Ipratropium 與 LABA，最高等級證據。"
+        },
+        {
+          "pmid": "26391969",
+          "title": "Tiotropium versus ipratropium bromide for COPD",
+          "year": "2015",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "note": "Cochrane 回顧，提供 Ipratropium 對 COPD 完整比較療效摘要。"
+        },
+        {
+          "pmid": "24043433",
+          "title": "Tiotropium versus ipratropium bromide for COPD",
+          "year": "2013",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "1",
+          "note": "另一版本 Cochrane 回顧，進一步鞏固證據基礎。"
+        },
+        {
+          "pmid": "20163324",
+          "title": "Inhaled albuterol/salbutamol and ipratropium bromide in COPD treatment",
+          "year": "2010",
+          "study_type": "Systematic Review/Meta-analysis",
+          "tier": "1",
+          "note": "評估 Ipratropium 與 β2 受體激動劑的組合治療，直接相關。"
+        },
+        {
+          "pmid": "38457591",
+          "title": "Probiotics + Budesonide + Ipratropium bromide for COPD",
+          "year": "2024",
+          "study_type": "RCT",
+          "tier": "2",
+          "note": "近期 RCT，評估 Ipratropium 組合療法於 COPD，結果積極。"
+        },
+        {
+          "pmid": "23170031",
+          "title": "Concomitant use of ipratropium and tiotropium in COPD",
+          "year": "2012",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "評估雙重抗膽鹼能治療的可行性與安全性。"
+        },
+        {
+          "pmid": "7813271",
+          "title": "Nonbronchodilator effects of pirbuterol and ipratropium in COPD",
+          "year": "1995",
+          "study_type": "RCT",
+          "tier": "2",
+          "note": "評估 Ipratropium 在 COPD 的非支氣管擴張效應，補充機轉理解。"
+        },
+        {
+          "pmid": "35616126",
+          "title": "Magnesium sulfate for COPD exacerbations",
+          "year": "2022",
+          "study_type": "Cochrane Systematic Review",
+          "tier": "2",
+          "note": "Ipratropium 為標準治療背景，MgSO4 為主要研究藥物，間接相關。"
+        },
+        {
+          "pmid": "2977109",
+          "title": "Use of ipratropium bromide in obstructive lung disease",
+          "year": "1988",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "早期奠基性回顧文章，確立 Ipratropium 在阻塞性肺疾病的臨床地位。"
+        },
+        {
+          "pmid": "6448137",
+          "title": "Ipratropium bromide review in asthma and COPD",
+          "year": "1980",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "歷史性回顧，奠定早期臨床基礎，但已過時。"
+        }
+      ]
+    },
+    {
+      "disease_name": "nasal cavity disease",
+      "txgnn_score": 0.9986,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Ipratropium 鼻腔噴霧劑（Atrovent Nasal®）透過阻斷鼻黏膜腺體的毒蕈鹼受體（主要 M3），抑制副交感神經介導的鼻分泌物過多。全球已有鼻炎適應症上市紀錄，機轉明確。",
+      "guardrails_note": "資料集中臨床試驗數為 0、文獻僅 1 篇（且非直接 Ipratropium 研究），但此為資料收集限制而非真實證據缺口。應補充 PubMed 鼻腔適應症搜尋（關鍵字：ipratropium nasal rhinitis）。本地核准狀態需另行確認。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39047643",
+          "title": "ROS responsive hydrogel for MUC5AC inhibition against allergic rhinitis",
+          "year": "2024",
+          "study_type": "Experimental/Drug Delivery",
+          "tier": "3",
+          "note": "以 Ipratropium 作為陽性對照組測試鼻黏液抑制，間接支持 Ipratropium 在鼻腔疾病的機轉連結，但非直接臨床療效研究。"
+        }
+      ]
+    },
+    {
+      "disease_name": "pharyngitis",
+      "txgnn_score": 0.9985,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "抗膽鹼能效應可減少咽部黏液腺分泌，理論上可緩解咽部分泌物堆積症狀。然而咽炎的主要病因（感染、炎症）並非膽鹼能途徑，機轉連結薄弱。臨床試驗列表中無直接評估 Ipratropium 於咽炎的研究。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT02299375",
+          "title": "Losmapimod (GW856553) for COPD/pharyngitis endpoint",
+          "phase": "PHASE2",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "Losmapimod 為主要研究藥物（p38 MAPK 抑制劑），咽炎可能為不良事件監測項目，非 Ipratropium 直接療效研究。"
+        },
+        {
+          "nct_id": "NCT00845728",
+          "title": "Phase IIIb 52-week Parallel Group Study (COPD with airway outcomes)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "大型 COPD 研究（n=3439），咽炎可能為安全性終點，非 Ipratropium 在咽炎中的療效評估。"
+        },
+        {
+          "nct_id": "NCT05165992",
+          "title": "Nebulized Fentanyl for COVID-19 Respiratory Symptoms",
+          "phase": "PHASE3",
+          "status": "UNKNOWN",
+          "relevance_grade": "C",
+          "reasoning": "Fentanyl 為主要研究藥物，與 Ipratropium 在咽炎的關聯性極低。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "35838014",
+          "title": "Intranasal Anticholinergics for Chronic Rhinitis: Systematic Review and Meta-Analysis",
+          "year": "2023",
+          "study_type": "Systematic Review",
+          "tier": "2",
+          "note": "聚焦於鼻腔抗膽鹼能藥物（含 Ipratropium），rhinitis 而非 pharyngitis，但提供上呼吸道適應症的機轉支持。"
+        },
+        {
+          "pmid": "6217949",
+          "title": "Therapeutic comparison of ipratropium bromide and salbutamol in asthmatic patients",
+          "year": "1982",
+          "study_type": "RCT",
+          "tier": "3",
+          "note": "早期 RCT 比較哮喘治療，咽炎並非主要終點，相關性低。"
+        },
+        {
+          "pmid": "15000120",
+          "title": "How to choose a cold remedy",
+          "year": "2004",
+          "study_type": "Review/Commentary",
+          "tier": "3",
+          "note": "一般性感冒藥物選擇回顧，Ipratropium 可能作為鼻分泌物治療選項被提及，但非針對咽炎。"
+        },
+        {
+          "pmid": "35089202",
+          "title": "Nebulized fentanyl for COVID-19 respiratory symptoms",
+          "year": "2022",
+          "study_type": "RCT",
+          "tier": "3",
+          "note": "與 Ipratropium 在咽炎中的應用幾乎無直接關聯。"
+        },
+        {
+          "pmid": "38879750",
+          "title": "Sinus Node Dysfunction Triggered by Tonsillar Abscess",
+          "year": "2024",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "病例報告，描述扁桃腺膿腫對迷走神經的壓迫效應，與 Ipratropium 治療咽炎無直接關聯。"
+        }
+      ]
+    },
+    {
+      "disease_name": "acute laryngopharyngitis",
+      "txgnn_score": 0.9984,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "急性喉咽炎主要為感染或炎症病因，Ipratropium 的抗膽鹼能機轉僅能間接減少分泌物，無直接抗感染或消炎效應。TxGNN 預測可能基於解剖位置相似性（上呼吸道）的推論，缺乏生物學合理性。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "respiratory malformation",
+      "txgnn_score": 0.9980,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "呼吸道結構異常（如早產兒支氣管肺發育不良 BPD、氣管支氣管軟化症 TBM）常伴有動態氣道塌陷與反應性氣道疾病。Ipratropium 透過抗膽鹼能作用擴張氣道平滑肌，可改善功能性氣流阻塞，但無法矯正結構性異常。部分回顧性研究支持早產兒族群中的支氣管擴張劑使用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT06110481",
+          "title": "Bronchodilator Response in Children Born Preterm (Recruiting)",
+          "phase": "N/A",
+          "status": "RECRUITING",
+          "relevance_grade": "B",
+          "reasoning": "直接評估早產出生兒（呼吸道結構異常高風險族群）對吸入 β2 和抗膽鹼能藥物（含 Ipratropium）的支氣管擴張反應，相關性高，但尚在進行中。"
+        },
+        {
+          "nct_id": "NCT01987219",
+          "title": "Bronchodilator Therapy Effects in Familial Dysautonomia (Phase 3)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "B",
+          "reasoning": "在先天性自律神經功能障礙（呼吸功能異常）患者中評估支氣管擴張劑效果，相關性中等。"
+        },
+        {
+          "nct_id": "NCT00000568",
+          "title": "Lung Health Study I and III (Phase 3)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "主要針對 COPD，呼吸道結構異常非主要研究族群，相關性低。"
+        },
+        {
+          "nct_id": "NCT00274040",
+          "title": "Tiotropium vs. Atrovent® MDI (Phase 3, COPD)",
+          "phase": "PHASE3",
+          "status": "COMPLETED",
+          "relevance_grade": "C",
+          "reasoning": "COPD 研究，與先天性呼吸道畸形的關聯性低。"
+        },
+        {
+          "nct_id": "NCT03170232",
+          "title": "Phase 2 Placebo-controlled 52-week Study (Terminated)",
+          "phase": "PHASE2",
+          "status": "TERMINATED",
+          "relevance_grade": "C",
+          "reasoning": "研究提前終止，資料不完整，相關性需進一步核實。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "23686692",
+          "title": "OCT-mediated tracheal accumulation of anticholinergic drugs in vivo",
+          "year": "2013",
+          "study_type": "Preclinical/Mechanistic",
+          "tier": "2",
+          "note": "闡明 Ipratropium 在氣管的轉運機轉（有機陽離子轉運體），支持其在氣道結構異常中的藥理作用基礎。"
+        },
+        {
+          "pmid": "8296756",
+          "title": "Pulmonary function abnormalities in CHF reversed with ipratropium",
+          "year": "1994",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "顯示 Ipratropium 可改善心衰竭繼發的肺功能異常，支持其在結構性肺疾病中的角色。"
+        },
+        {
+          "pmid": "10976150",
+          "title": "Pulmonary function in chronic CHF and effect of ipratropium",
+          "year": "2000",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "進一步支持 Ipratropium 在繼發性肺功能損害中的療效。"
+        },
+        {
+          "pmid": "10515429",
+          "title": "Effects of drugs on mucus clearance",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "回顧抗膽鹼能藥物對黏液清除的影響，與呼吸道結構異常（黏液滯留風險高）相關。"
+        },
+        {
+          "pmid": "19052054",
+          "title": "Acute bronchodilator reversibility in GOLD stage I COPD",
+          "year": "2009",
+          "study_type": "Clinical Study",
+          "tier": "2",
+          "note": "評估早期氣道功能受損患者的支氣管擴張劑反應，與早期呼吸道結構異常評估具參考價值。"
+        }
+      ]
+    },
+    {
+      "disease_name": "papillary conjunctivitis",
+      "txgnn_score": 0.9975,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "乳突性結膜炎為免疫介導的眼表炎症反應，Ipratropium 的抗膽鹼能機轉與其發病機轉無直接關聯。已知 Ipratropium 霧化吸入時意外接觸眼睛可導致散瞳（不良反應），但此現象與治療結膜炎無關。TxGNN 預測缺乏生物學支持。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "Rienhoff syndrome",
+      "txgnn_score": 0.9969,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Rienhoff 症候群（TGFB3 基因突變，結締組織疾病，類 Marfan 表現）為遺傳性結構蛋白異常，病理機轉涉及 TGF-β 信號通路過度活化，與毒蕈鹼受體路徑無直接關聯。此預測高度可能為 TxGNN 知識圖譜的間接關聯推斷（可能經由「結締組織疾病→心肺合併症→支氣管擴張劑」路徑），無臨床依據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    },
+    {
+      "disease_name": "tracheal disease",
+      "txgnn_score": 0.9966,
+      "evidence_level": "L3",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Ipratropium 透過阻斷氣管平滑肌的毒蕈鹼受體（M3），抑制鈣離子激活鉀通道活性，降低氣道收縮張力。同時影響氣管黏液分泌與纖毛清除功能。機轉研究（PMID 12133322, 23686692）直接在氣管模型中驗證效應，支持氣管疾病的理論應用。",
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04142814",
+          "title": "T-PEP Method Based on Positive Expiratory Pressure (Withdrawn)",
+          "phase": "N/A",
+          "status": "WITHDRAWN",
+          "relevance_grade": "C",
+          "reasoning": "研究撤回且 0 enrollment，無有效資料。T-PEP 為主要干預，與 Ipratropium 在氣管疾病中的直接關聯不明確。"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "12133322",
+          "title": "Effect of ipratropium bromide on calcium-activated K+ channel in tracheal smooth muscle cells",
+          "year": "2002",
+          "study_type": "Mechanistic/In vitro",
+          "tier": "2",
+          "note": "直接在氣管平滑肌細胞中研究 Ipratropium 的分子機轉，提供高品質機轉證據。"
+        },
+        {
+          "pmid": "23686692",
+          "title": "OCT-mediated tracheal accumulation of anticholinergic drug in vivo",
+          "year": "2013",
+          "study_type": "Preclinical",
+          "tier": "2",
+          "note": "體內研究，確認 Ipratropium 在氣管的選擇性累積，支持局部療效。"
+        },
+        {
+          "pmid": "8866585",
+          "title": "Cholinergic control of rabbit tracheal transepithelial potential difference in vivo",
+          "year": "1996",
+          "study_type": "Preclinical",
+          "tier": "2",
+          "note": "體內研究，說明膽鹼能系統調控氣管上皮離子轉運，為 Ipratropium 在氣管疾病的作用機轉基礎。"
+        },
+        {
+          "pmid": "29853489",
+          "title": "Mucus bundles retained in CF and by cholinergic stimulation",
+          "year": "2018",
+          "study_type": "Translational Research",
+          "tier": "2",
+          "note": "顯示膽鹼能刺激導致氣道黏液滯留，反向支持抗膽鹼能藥物（Ipratropium）在氣管黏液清除疾病中的潛在作用。"
+        },
+        {
+          "pmid": "25278282",
+          "title": "Comparative study of ipratropium and beclomethasone against insulin-induced effects",
+          "year": "2015",
+          "study_type": "Experimental Study",
+          "tier": "2",
+          "note": "比較性研究評估 Ipratropium 在氣道的保護效應，提供間接臨床前支持。"
+        },
+        {
+          "pmid": "10515429",
+          "title": "Effects of drugs on mucus clearance",
+          "year": "1999",
+          "study_type": "Review",
+          "tier": "2",
+          "note": "回顧藥物對黏液清除的影響，包含抗膽鹼能藥物在氣道管理中的角色。"
+        },
+        {
+          "pmid": "4081277",
+          "title": "Pharmacology of mucociliary transport",
+          "year": "1985",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "早期回顧，建立 Ipratropium 影響黏液纖毛清除的藥理基礎。"
+        }
+      ]
+    },
+    {
+      "disease_name": "anaphylaxis",
+      "txgnn_score": 0.9938,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "過敏性休克伴發的嚴重支氣管痙攣部分由副交感神經-膽鹼能途徑介導。Ipratropium 作為抗膽鹼能藥物可作為 epinephrine 後的輔助支氣管擴張劑。動物實驗顯示毒蕈鹼拮抗劑具抗過敏效應（PMID 20597367），並可抑制 thromboxane A2 生成（PMID 7052339）。",
+      "safety_flag": "⚠️ 注意：PMID 8449120 記錄一例因 Ipratropium 吸入引發的嚴重過敏性休克，提示藥物本身存在過敏原性，作為過敏性休克的治療研究需審慎設計安全篩查。",
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "20597367",
+          "title": "Antianaphylactic effects of muscarinic antagonists",
+          "year": "2010",
+          "study_type": "Preclinical/Animal Study",
+          "tier": "3",
+          "note": "動物模型顯示毒蕈鹼拮抗劑具抗過敏性休克效應，為機轉假說提供初步支持，但尚無人體臨床資料。"
+        },
+        {
+          "pmid": "7052339",
+          "title": "Atropine inhibits thromboxane A2 generation in isolated guinea-pig lungs",
+          "year": "1980",
+          "study_type": "Preclinical",
+          "tier": "3",
+          "note": "機轉研究，顯示抗膽鹼能藥物可抑制過敏介質生成，間接支持在過敏反應中的輔助角色。"
+        },
+        {
+          "pmid": "6125398",
+          "title": "Bronchodilator and antiallergic effects of thiazinamium chloride in guinea pigs",
+          "year": "1982",
+          "study_type": "Preclinical",
+          "tier": "3",
+          "note": "類似抗膽鹼能藥物在過敏模型中的研究，間接外推至 Ipratropium。"
+        },
+        {
+          "pmid": "18627797",
+          "title": "Validation of guinea pig model of allergic rhinitis by oral and topical drugs",
+          "year": "2008",
+          "study_type": "Preclinical",
+          "tier": "3",
+          "note": "動物模型驗證，Ipratropium 作為參考藥物，支持過敏反應中的治療潛力。"
+        },
+        {
+          "pmid": "8449120",
+          "title": "Severe anaphylaxis due to ipratropium bromide inhalation (ADVERSE EVENT)",
+          "year": "1993",
+          "study_type": "Case Report",
+          "tier": "3",
+          "note": "⚠️ 安全性警示：此為 Ipratropium 誘發的嚴重過敏性休克案例，顯示藥物本身可能加重而非緩解過敏反應。"
+        },
+        {
+          "pmid": "30059791",
+          "title": "Management of anaphylaxis in patients with long QT syndrome",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": "3",
+          "note": "回顧特殊族群（長 QT）的過敏性休克處理，Ipratropium 可能作為 epinephrine 替代考量，但非主要研究藥物。"
+        },
+        {
+          "pmid": "31626398",
+          "title": "Prehospital management of pediatric asthma in large EMS system",
+          "year": "2020",
+          "study_type": "Observational Study",
+          "tier": "3",
+          "note": "院前急救研究，Ipratropium 作為急性支氣管痙攣（含過敏誘發）的標準治療藥物，真實世界使用資料。"
+        }
+      ]
+    },
+    {
+      "disease_name": "food-dependent exercise-induced anaphylaxis",
+      "txgnn_score": 0.9936,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "食物依賴性運動誘發過敏性休克（FDEIA）的核心機轉為運動促進食物過敏原（如 ω-5 醇溶蛋白）的腸道吸收增加，進而觸發 IgE 介導的肥大細胞脫顆粒。此路徑與膽鹼能系統無直接關聯。雖然膽鹼激性蕁麻疹可有類似誘因，但 FDEIA 的發病機轉不同。TxGNN 預測為過度推論，無支持證據。",
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": {
+    "L1_count": 1,
+    "L2_count": 0,
+    "L3_count": 3,
+    "L4_count": 2,
+    "L5_count": 4,
+    "S3_proceed": ["obstructive lung disease"],
+    "S2_proceed_with_guardrails": ["nasal cavity disease"],
+    "S1_research_question": ["respiratory malformation", "tracheal disease", "anaphylaxis", "pharyngitis"],
+    "S0_hold": ["acute laryngopharyngitis", "papillary conjunctivitis", "Rienhoff syndrome", "food-dependent exercise-induced anaphylaxis"]
+  },
+  "overall_assessment": {
+    "strongest_repurposing_signal": "obstructive lung disease — 全球既有上市使用，多項 Phase 3 RCT 支持，L1 證據等級，建議確認本地（新加坡 HSA）核准狀態。",
+    "promising_exploratory": "nasal cavity disease (L3) — Ipratropium 鼻腔噴霧已有全球上市證據，資料集缺口需補充。tracheal disease (L3) — 機轉研究紮實，值得進一步臨床驗證。",
+    "safety_alert": "anaphylaxis 適應症中，PMID 8449120 記錄 Ipratropium 誘發嚴重過敏性休克的案例，若進行此適應症研究需特別設計安全排除標準。",
+    "data_gap_note": "original_moa=[Data Gap] 為資料庫缺漏。Ipratropium 實際藥理機轉明確：非選擇性毒蕈鹼受體拮抗劑，主要阻斷 M3 受體。建議更新資料庫條目。"
+  }
+}
+```
+
+---
+
+## 分析摘要
+
+| 適應症 | 證據等級 | 決策階段 | 建議 |
+|--------|----------|----------|------|
+| **obstructive lung disease** | **L1** | **S3** | ✅ Proceed with Guardrails |
+| nasal cavity disease | L3 | S2 | ⬆️ Proceed with Guardrails |
+| respiratory malformation | L3 | S1 | 🔬 Research Question |
+| tracheal disease | L3 | S1 | 🔬 Research Question |
+| pharyngitis | L4 | S1 | 🔬 Research Question |
+| anaphylaxis | L4 | S1 | ⚠️ Research Question (安全性警示) |
+| acute laryngopharyngitis | L5 | S0 | ❌ Hold |
+| papillary conjunctivitis | L5 | S0 | ❌ Hold |
+| Rienhoff syndrome | L5 | S0 | ❌ Hold |
+| food-dependent exercise-induced anaphylaxis | L5 | S0 | ❌ Hold |
+
+**關鍵發現**：Ipratropium 在阻塞性肺疾病擁有最高等級（L1）證據，核心原因是其 **M3 拮抗 → 支氣管擴張** 的機轉與多個 Phase 3 RCT（含 Cochrane 系統性回顧）高度吻合。市場狀態「未上市」可能反映新加坡本地的收載缺口，而非全球證據不足。

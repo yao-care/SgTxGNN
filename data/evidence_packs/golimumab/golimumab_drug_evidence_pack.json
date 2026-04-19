@@ -1,0 +1,2644 @@
+{
+  "meta": {
+    "candidate_id": "TW-DB06674-multi",
+    "version": "v4",
+    "created_at": "2026-04-04",
+    "data_cutoff": "2026-04-04",
+    "inputs_received": [
+      "drugbank",
+      "clinicaltrials",
+      "pubmed"
+    ],
+    "data_gaps": [
+      {
+        "id": "DG001",
+        "category": "Drug_Level",
+        "item": "TFDA 仿單警語/禁忌",
+        "severity": "Blocking",
+        "impact": "無法進入 S1 安全性初評",
+        "remediation": {
+          "source": "TFDA 官網",
+          "method": "下載仿單 PDF 並解析"
+        }
+      },
+      {
+        "id": "DG002",
+        "category": "Drug_Level",
+        "item": "作用機轉 (MOA)",
+        "severity": "High",
+        "impact": "影響機轉關聯性分析",
+        "remediation": {
+          "source": "DrugBank",
+          "method": "查詢 DrugBank API"
+        }
+      }
+    ]
+  },
+  "drug": {
+    "inn": "Golimumab",
+    "drugbank_id": "DB06674",
+    "brand_name_zh": null,
+    "original_indications": [],
+    "original_moa": "[Data Gap]"
+  },
+  "taiwan_regulatory": {
+    "market_status": "未上市",
+    "total_licenses": 0,
+    "licenses": [],
+    "dosage_forms_by_route": []
+  },
+  "safety": {
+    "key_warnings": [
+      "[Data Gap]"
+    ],
+    "contraindications": [
+      "[Data Gap]"
+    ],
+    "ddi": {
+      "query_status": "not_found",
+      "total_count": 0,
+      "interactions": []
+    }
+  },
+  "predicted_indications": [
+    {
+      "rank": 1,
+      "disease_name": "rheumatoid vasculitis",
+      "txgnn": {
+        "score": 0.9973148703575134,
+        "rank": 4226
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01579006",
+            "title": "A Multi National, Multi-center Non-interventional Study in Rheumatoid Arthritis (RA) Patients Treated With Tocilizumab (Actemra)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 184,
+            "start_date": "2012-05",
+            "completion_date": "2014-03",
+            "brief_summary": "This multi-center, observational study will evaluate the clinical practice patterns, efficacy and safety of RoActemra/Actemra in patients with rheumatoid arthritis who have had an inadequate response (or were intolerant to) treatment with non-biological DMARDs or with one biological agent. Data will be collected from each eligible patient initiated on RoActemra/Actemra treatment by their treating physician according to approved label for 6 months from start of treatment.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "RA 患者真實世界觀察性研究（n=184，已完成），族群包含 RA 血管炎合併症可能性，但未以血管炎為主要評估終點；可提供安全性背景資料。"
+            }
+          },
+          {
+            "nct_id": "NCT05696106",
+            "title": "Risk of Incident Immune-mediated Inflammatory Diseases (IMID) in Patients Treated With Biologics and Immunosuppressive Drugs for a Single IMID",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 750000,
+            "start_date": "2023-04-02",
+            "completion_date": "2024-01-15",
+            "brief_summary": "Individuals with immune-mediated inflammatory diseases (IMIDs) are at increased risk of developing other IMIDs, possibly through shared pathogenic inflammatory pathways, and up to 25% of patients with IMIDs have at least one other IMID. Additionally, a concomitant diagnosis of a second IMID is associated with a higher burden of disease, which usually requires therapeutic escalation. Thus, this risk should be taken into account in the benefit-risk balance of IMIDs-related treatment. While the ris",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "大型免疫媒介炎症性疾病（IMID）流行病學研究（n=750,000），範圍過廣且狀態 UNKNOWN，與 rheumatoid vasculitis 特異性低。"
+            }
+          },
+          {
+            "nct_id": "NCT07138898",
+            "title": "Immunosuppressant Management in Rheumatology Patients Undergoing Elective Total Shoulder Arthroplasty",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-09",
+            "completion_date": "2027-09",
+            "brief_summary": "The purpose of this study is to assess the incidence of rheumatologic flares, changes in pain scores (VAS), changes in functional outcomes (PROMIS), wound complications, surgical site infections, and return trips to the operating room for rheumatology patients following shoulder replacements, comparing those who stop their immunosuppressants preoperatively for the same amount of time as suggested in the literature for hip and knee arthroplasty versus those who hold the medications for a shorter ",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 2 研究聚焦於接受肩關節置換術患者之免疫抑制劑管理，與血管炎病理無直接關聯，相關性極低。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "29075910",
+            "title": "Pyoderma gangrenosum and pyogenic arthritis presenting as severe sepsis in a rheumatoid arthritis patient treated with golimumab.",
+            "authors": [
+              "Skalkou Anastasia",
+              "Manoli Sofia-Magdalini",
+              "Sachinidis Alexandros",
+              "Ntouros Vasilios",
+              "Petidis Konstantinos"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2018",
+            "abstract": "Rheumatoid arthritis is a systemic autoimmune disease resulting in joint destruction and deformities, but also associated with extraarticular and systemic manifestations. The later devastating conditions, such as the development of rheumatoid vasculitis, are more frequently encountered in seropositive patients and their incidence has been attenuated after the introduction of biologic disease modifying drugs, such as anti-tumor necrosis factor alpha (TNFa) agents, which generally have considerabl",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31491879",
+            "title": "Different Original and Biosimilar TNF Inhibitors Similarly Reduce Joint Destruction in Rheumatoid Arthritis-A Network Meta-Analysis of 36 Randomized Controlled Trials.",
+            "authors": [
+              "Graudal Niels",
+              "Kaas-Hansen Benjamin Skov",
+              "Guski Louise",
+              "Hubeck-Graudal Thorbjørn",
+              "Welton Nicky J"
+            ],
+            "journal": "International journal of molecular sciences",
+            "year": "2019",
+            "abstract": "The effect of five approved tumour necrosis factor inhibitors (TNFi: infliximab, etanercept, adalimumab, certolizumab, and golimumab) on joint destruction in rheumatoid arthritis (RA) have been compared versus methotrexate (MTX) in randomized controlled trials (RCTs) but have not been compared directly to each other or to an otherwise untreated placebo control. The present analysis compares effects of standard doses, high doses, and low doses of TNFis on radiographic joint destruction in RA and ",
+            "classification": {
+              "study_type": "Systematic Review / RCT analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27591827",
+            "title": "End-stage renal disease in patients with rheumatoid arthritis.",
+            "authors": [
+              "Paudyal Sunita",
+              "Yang Frances M",
+              "Rice Christopher",
+              "Chen Chen-Chun",
+              "Skelton Michael"
+            ],
+            "journal": "Seminars in arthritis and rheumatism",
+            "year": "2017",
+            "abstract": "To determine the frequency of end-stage renal disease (ESRD) in patients with rheumatoid arthritis (RA), the causes of ESRD, and the treatment of RA in the setting of ESRD.",
+            "classification": {
+              "study_type": "Cohort",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23557513",
+            "title": "Biologic therapy for autoimmune diseases: an update.",
+            "authors": [
+              "Rosman Ziv",
+              "Shoenfeld Yehuda",
+              "Zandman-Goddard Gisele"
+            ],
+            "journal": "BMC medicine",
+            "year": "2013",
+            "abstract": "Biologic therapies for rheumatologic diseases, which are targeted at molecules involved in the mechanisms of the immune system, provide an alternative to the existing treatment methods of disease-modifying anti-rheumatic drugs and other immunosuppressive medications. However, the current drawbacks of biologic therapies, including the inconvenience of intravenous administration, the high costs of these drugs, and the adverse events associated with them, prevent their wide use as first-line medica",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22999907",
+            "title": "Two cases of Takayasu's arteritis occurring under anti-TNF therapy.",
+            "authors": [
+              "Mariani Nicola",
+              "So Alexander",
+              "Aubry-Rozier Bérengère"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2013",
+            "abstract": "Takayasu's arteritis is a granulomatous, large vessel vasculitis that affects the aorta, its major branches and the pulmonary arteries. Compelling evidence exists to support the notion that Takayasu's arteritis is a T-cell mediated process and that tumor necrosis factor alpha (TNFa) is an important factor in the pathogenesis of this disease. Moreover, encouraging results from recent studies support the use of anti-TNFa therapy for relapsing or resistant cases of Takayasu's arteritis. Here, howev",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23252659",
+            "title": "Behçet disease-associated uveitis successfully treated with golimumab.",
+            "authors": [
+              "Mesquida Marina",
+              "Victoria Hernández María",
+              "Llorenç Victor",
+              "Pelegrín Laura",
+              "Espinosa Gerard"
+            ],
+            "journal": "Ocular immunology and inflammation",
+            "year": "2013",
+            "abstract": "Over the past decade, the off-label use of biologic agents such as TNF-α antagonists, including infliximab and adalimumab, has improved the treatment armamentarium for refractory immune-mediated uveitis, with particular success in Behçet disease-associated uveitis. Golimumab is a novel fully human anti-TNF-α monoclonal antibody that has been approved for the treatment of rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis, with very promising results. Herein, the authors presen",
+            "classification": {
+              "study_type": "Case Report",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L3",
+        "decision_stage": "S1",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "類風濕性血管炎病理核心為 TNF-α 驅動之血管壁慢性發炎與免疫複合體沉積。Golimumab 抑制 TNF-α 可理論上阻斷此下游炎症瀑布；但目前缺乏以 rheumatoid vasculitis 為主要終點之直接 RCT，現有證據多源自 RA 廣泛族群的觀察性數據及個案報告。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 2,
+      "disease_name": "hypermobility of coccyx",
+      "txgnn": {
+        "score": 0.9966865181922911,
+        "rank": 4925
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "尾骨過動症主要為機械性/結構性問題，與 TNF-α 炎症路徑無明確病理關聯。TxGNN 高分可能源自知識圖譜中脊椎相關節點的拓撲相似性，而非真實藥理機轉。無任何臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 3,
+      "disease_name": "inflammatory spondylopathy",
+      "txgnn": {
+        "score": 0.9966132044792176,
+        "rank": 4997
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT00741793",
+            "title": "BioTRAC (BIOLOGIC TREATMENT REGISTRY ACROSS CANADA)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 2821,
+            "start_date": "2002-02-12",
+            "completion_date": "2018-06-29",
+            "brief_summary": "This registry is a multi-center, prospective, longitudinal, observational program that will gather and analyse data on participants treated with infliximab, golimumab, golimumab Intravenous (I.V) or ustekinumab. Treatment will be prescribed by the physician according to actual clinical practice or standard of care for Rheumatoid Arthritis (RA), Axial Spondyloarthritis (AxSpA) , Psoriatic Arthritis (PsA); there will be no randomized assignments to treatment. At baseline and approximately every 6 ",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "加拿大生物製劑治療登記（n=2821，已完成），包含脊椎關節炎族群，提供真實世界安全性背景。"
+            }
+          },
+          {
+            "nct_id": "NCT02011386",
+            "title": "Improved Monitoring and Prediction of Clinical Response and Disease Course During Golimumab Therapy of Patients With Axial Spondyloarthritis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2013-02",
+            "completion_date": "2017-02-14",
+            "brief_summary": "The study investigates different criteria for remission based on MRI and circulating biomarkers for inflammation, cartilage, connective tissue and bone turnover in patients with axial spondyloarthritis treated with Golimumab. Furthermore, the study also investigates factors that affect disease activity, function and participation by use of different questionnaires.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Golimumab 治療監測與臨床反應預測研究（n=53），提供治療優化數據，間接支持炎症性脊椎病管理。"
+            }
+          },
+          {
+            "nct_id": "NCT05115903",
+            "title": "A Prospective, Randomized Biologic Tapering Study of TNF Inhibitors in Axial Spondyloarthritis",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 15,
+            "start_date": "2021-12-01",
+            "completion_date": "2024-08-01",
+            "brief_summary": "Current evidence on tapering of tumor necrosis factor inhibitors (TNFi) in axial spondyloarthritis (axSpA) is still hampered by heterogeneity in tapering regimens, selection and performance biases, and lack of data on optimized treatment dosing strategies especially in real-world clinical settings. This study aims to contribute to the ongoing investigation of disease-activity-guided tapering of TNFi in axSpA in the form of a prospective, randomized controlled trial.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 隨機生物製劑減量研究於軸性脊椎關節炎，評估 TNF 抑制劑長期管理，高度相關。"
+            }
+          },
+          {
+            "nct_id": "NCT05164198",
+            "title": "Multicenter, Prospective Clinical Trial for Optimizing TNF Inhibitor Dose Adjustment in Ankylosing Spondylitis Patients With Stable Disease Activity",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 448,
+            "start_date": "2022-01-15",
+            "completion_date": "2024-10-31",
+            "brief_summary": "Participants maintaining stable disease activity of Ankylosing Spondylitis (AS) with standard-dose tumor necrosis factor inhibitor (TNFi) treatment will randomly split into two groups: maintaining standard-dose TNFi, versus reduced-dose TNFi. The proportion of participants not underwent flare between the two groups will be analyzed.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 多中心前瞻性研究優化 AS 患者 TNF 抑制劑劑量調整（n=448），直接與炎症性脊椎病管理相關。"
+            }
+          },
+          {
+            "nct_id": "NCT02456363",
+            "title": "Anti-Tumor Necrosis Factor Therapy In Patients With Ankylosing Spondylitis-A Registry Project",
+            "phase": "PHASE2",
+            "status": "UNKNOWN",
+            "enrollment": 300,
+            "start_date": "2009-11",
+            "completion_date": "2019-12",
+            "brief_summary": "Assessed using (1) Adalimumab(Humira) and NSAIDs (2) Use only Adalimumab(Humira) treatment of ankylosing spondylitis patient safety and efficacy.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "AS 患者抗 TNF 治療登記研究（Phase 2，n=300，狀態 UNKNOWN），真實世界有效性數據。"
+            }
+          },
+          {
+            "nct_id": "NCT04152759",
+            "title": "A Randomized, Double-blinded, Single-dose, 2-arm Parallel, Comparative Study to Evaluate the Pharmacokinetics and Safety of BAT2506 Injection vs Simponi in Healthy Chinese Male Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 182,
+            "start_date": "2019-09-09",
+            "completion_date": "2020-12-31",
+            "brief_summary": "It is a randomized, double-blinded, single-dose, 2-arm parallel, comparative study to evaluate the pharmacokinetics and safety of BAT2506 Injection vs Simponi in healthy chinese male subjects A total of 182 subjects are planned to be included and randomized at a ratio of 1:1 to receive single subcutaneous administration of 50mg BAT2506 Injection or Simponi® (EU-licensed ).\n\nThe study has a screening period of 14 days. PK blood samples will be collected from subjects to determine the serum concen",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 1 單劑量 PK/PD 比較研究（n=182），提供藥動學數據支持劑量合理性。"
+            }
+          },
+          {
+            "nct_id": "NCT02758782",
+            "title": "COmparison of the Effect of Treatment With NSAIDs Added to Anti-TNF Therapy Versus Anti-TNF Therapy Alone on Progression of StrUctural Damage in the Spine Over Two Years in Patients With ankyLosing Spondylitis: a Randomized Controlled Multicentre Trial",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 156,
+            "start_date": "2016-09",
+            "completion_date": "2021-01",
+            "brief_summary": "To evaluate the impact of treatment with a non-steroidal anti-inflammatory drug (NSAID) - Celecoxib - when added to anti-tumour necrosis factor (TNF) therapy - Golimumab - as compared to anti-TNF therapy (Golimumab) alone on progression of structural damage in the spine over two years in patients with ankylosing spondylitis (AS).",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 4 RCT 比較 Anti-TNF ± NSAIDs 在 AS 之效果（n=156，已完成），直接評估 golimumab 在炎症性脊椎病之臨床應用策略。"
+            }
+          },
+          {
+            "nct_id": "NCT01692457",
+            "title": "A Post-Marketing Surveillance Study on the Safety and Effectiveness of Golimumab (Simponi) Among Adult Filipino Patients With Rheumatoid Arthritis, Psoriatic Arthritis and Ankylosing Spondylitis",
+            "phase": "N/A",
+            "status": "WITHDRAWN",
+            "enrollment": 0,
+            "start_date": "2013-07",
+            "completion_date": "2016-07",
+            "brief_summary": "The purpose of this study is to assess the safety and effectiveness of golimumab for the treatment of rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis among Filipino patients.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "上市後安全監測研究（已撤回，enrollment=0），無有效數據。"
+            }
+          },
+          {
+            "nct_id": "NCT00265096",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Trial of Golimumab, a Fully Human Anti-TNFa MonoclonalAntibody, Administered Subcutaneously in Subjects With Active Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 407,
+            "start_date": "2005-12",
+            "completion_date": "2012-01",
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy (improvement of signs and symptoms) of subcutaneous (under the skin) injections of golimumab for the treatment of active psoriatic arthritis (PsA). Efficacy will be measured by reduction in the signs and symptoms of active PsA, including effects on joint pain and swelling, changes on x-ray related to joint damage, psoriasis skin lesions, physical function, and quality of life.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "GO-RAISE：Phase 3 多中心隨機雙盲安慰劑對照試驗（n=407），直接以強直性脊椎炎為目標，已完成；構成 Golimumab 此適應症核准基礎，直接最高相關性。"
+            }
+          },
+          {
+            "nct_id": "NCT01965132",
+            "title": "Korean College of Rheumatology Biologics and Targeted Therapy Registry",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 10000,
+            "start_date": "2012-12-01",
+            "completion_date": "2030-06-30",
+            "brief_summary": "We established a nationwide biologics and targeted synthetic DMARDs registry (in the form of an inception cohort) to study the safety profiles in rheumatoid arthritis, ankylosing spondylitis and psoriatic arthritis patients receiving biologics or targeted synthetic DMARDs. As this registry is to observe the \"real world\" use of anti-rheumatic treatments under routine clinical practice, no hypothesis to prove is planned.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "韓國風濕科生物製劑登記（n=10,000，招募中），大規模真實世界數據，包含 SpA 族群。"
+            }
+          },
+          {
+            "nct_id": "NCT01848028",
+            "title": "Long-Term Benefits and Safety of Systemic Psoriasis Therapy: German Registry on the Treatment of Psoriasis With Biologics and Systemic Therapeutics",
+            "phase": "N/A",
+            "status": "RECRUITING",
+            "enrollment": 3500,
+            "start_date": "2008-01",
+            "completion_date": "2032-12",
+            "brief_summary": "Treatment of moderate to severe Psoriasis (Pso) and Psoriasis-Arthritis (PsA) is largely confined to systemic therapy in Germany. Systemic therapy includes conventional systemic therapy (e.g. fumaric acids, methotrexate, ciclosporin A) and biological treatment (e.g. adalimumab, etanercept). While short- and middle-term efficacy of most systemic treatments has been shown in clinical studies (and is incorporated in international guidelines), knowledge about long-term outcomes, optimal treatment an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03955861",
+            "title": "An Observational Study Evaluating the Utility of Ultrasound Confirmed Enthesitis as a Prognostic Marker for Response to Biologic Therapy in Psoriatic Arthritis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 80,
+            "start_date": "2019-02-14",
+            "completion_date": "2021-07-17",
+            "brief_summary": "The aim of this observational study will be to recruit 100 Psoriatic Arthritis (PsA) patients beginning on their biologic therapy and asses, both clinically and with the use of ultrasound (US), how enthesitis responds to biologic treatment.\n\nThe decision to start treatment with a biologic therapy will be made by the patients' usual clinical rheumatology team, as part of their standard clinical care. This is independent of the study. Patients in whom treatment with these drugs for their PsA has b",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05071664",
+            "title": "A Phase 2a, Multicenter, Randomized, Double-blind Study Evaluating the Efficacy and Safety of Subcutaneously Administered Guselkumab and Golimumab Combination Therapy in Participants With Active Psoriatic Arthritis",
+            "phase": "PHASE2",
+            "status": "COMPLETED",
+            "enrollment": 91,
+            "start_date": "2021-10-25",
+            "completion_date": "2024-08-06",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of guselkumab plus golimumab combination treatment in participants with active psoriatic arthritis (PsA) and inadequate response (IR) to prior anti-tumor necrosis factor-alpha (anti-TNF-alpha) therapies by assessing clinical response compared with guselkumab monotherapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02065713",
+            "title": "A Multicentre, Randomized, Double-blind, Parallel-group Study To Compare The Efficacy Of Golimumab In Combination With Methotrexate (MTX) Versus MTX Monotherapy, In Improving Dactylitis And Enthesitis, In MTX Naïve Psoriatic Arthritis Patients.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 44,
+            "start_date": "2014-08",
+            "completion_date": "2017-06",
+            "brief_summary": "Dactylitis is a poor prognostic factor in psoriatic arthritis (PsA) patients. The efficacy of synthetic or biologic disease modifying anti-rheumatic drugs (DMARDs) on dactylitis has not been previously studied in randomized controlled trials as a primary endpoint.\n\nIn this investigator initiated clinical trial the investigators aim to test the hypothesis that the combination therapy of golimumab and methotrexate (MTX) will result in a significant improvement of dactylitis in comparison with MTX ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01212653",
+            "title": "Effect of Anti-TNF(Alpha)Treatment on Circulating Endothelial Progenitor Cells (EPCs) and Vascular Stiffness in AS",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2010-10",
+            "completion_date": "2013-05",
+            "brief_summary": "1. To determine the effect of Golimumab treatment on the number and function of Endothelial Progenitor Cells (EPCs) in Ankylosing Spondylitis(AS) patients as a possible mechanism for the effect of this treatment on endothelial function.\n2. To ascertain the effect of Golimumab treatment on , carotid intima-media thickness, vascular stiffness in Ankylosing Spondylitis(AS) patients as measured by pulse wave velocity (PWV) and Augmentation index (AIx).\n3. To assess the clinical efficacy of Golimumab",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06085079",
+            "title": "A 24-week Two-armed Proof-of-concept Exploratory Analysis of Subcutaneous Ixekizumab Administration in Patients With Recalcitrant Non-infectious Intermediate, Posterior, Panuveitis, or Chronic Steroid-dependent Anterior Uveitis.",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 20,
+            "start_date": "2022-06-01",
+            "completion_date": "2024-12-30",
+            "brief_summary": "The objective of this study is to explore the efficacy of ixekizumab in treating patients with a diagnosis of non-infectious intermediate, posterior, panuveitis, or chronic steroid-dependent anterior uveitis who had failed treatment with a classic synthetic DMARD including methotrexate, mycophenolate, cyclosporin, azathioprine, cyclophosphamide and/or at least one anti-TNF agent including adalimumab, infliximab, etanercept, golimumab or certolizumab.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04610476",
+            "title": "A Prospective, Randomized, Controlled, Open Label, Assessor-blinded, Parallel-group Phase III Clinical Trial to Evaluate the Impact of Tapering Systemic Immunosuppressive Therapy in a Treat-to-target Approach on Maintaining Minimal Disease Activity in Adult Subjects With Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "UNKNOWN",
+            "enrollment": 270,
+            "start_date": "2020-10-19",
+            "completion_date": "2025-10-19",
+            "brief_summary": "The rationale for this study is to investigate whether in psoriatic arthritis (PsA) patients in stable remission a reduction or complete discontinuation of immunosuppressive therapy can be achieved in a treat-to-target approach while maintaining in remission. Due to the lack of reliable data that answers the question of how to safely reduce medication in which patients, this study will test a pragmatic treatment algorithm that can be applied in clinical practice and that offers a gradual reducti",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03557853",
+            "title": "A Prospective Observational Study to Evaluate Clinical and Radiological Manifestations of Coxitis in Patients With Ankylosing Spondylitis Treated With Simponi® (Golimumab)",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 39,
+            "start_date": "2016-06",
+            "completion_date": "2021-06-30",
+            "brief_summary": "Rationale. Coxitis in AS is inflammation of hip(s) affecting significant number of patients. It is associated with worse function and more expressed axial disease requiring hip replacement at end-stage. Number of studies dedicated to coxitis treated with TNF alpha inhibitors is very limited.\n\nPrimary objective. To evaluate change of functional impairment in AS patients with coxitis from baseline to 12 months of therapy with golimumab by BASFI in daily clinical practice\n\nStudy design. This study ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02841176",
+            "title": "A Pilot Study to Evaluate the Utility of Thermography in Assessing Response to Golimumab Treatment in Psoriatic Arthritis",
+            "phase": "NA",
+            "status": "TERMINATED",
+            "enrollment": 4,
+            "start_date": "2016-07",
+            "completion_date": "2017-09-19",
+            "brief_summary": "This study will be an open label pilot study to explore the utility of thermography in assessing response to Golimumab treatment in Psoriatic Arthritis (PsA). Ten patients fulfilling the Classification criteria for Psoriatic Arthritis (CASPAR) for Psoriatic Arthritis with active disease and eligible for anti-TNF therapy will be invited to participate in this study. They will be assessed at 4 time points during the study: prior to their first anti-TNF medication (screening and basal visits), and ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04891640",
+            "title": "Biologic Abatement and Capturing Kids' Outcomes and Flare Frequency in Juvenile Spondyloarthritis (BACK-OFF JSpA)",
+            "phase": "NA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 164,
+            "start_date": "2021-11-11",
+            "completion_date": "2026-07-01",
+            "brief_summary": "This randomized pragmatic trial will generate knowledge about strategies used to de-escalate tumor necrosis factor inhibitor (TNFi) therapy in patients with juvenile spondyloarthritis with sustained inactive disease and are treated at one of the 29 participating pediatric healthcare systems. This open label study will be conducted in the setting of routine clinical care and will compare the risk and timing of flare (Aim 1) and patients' lived experiences (Aim 2) across three arms.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01219257",
+            "title": "Longitudinal ULtrasonographic Study of Patients With Spondylarthritis Starting First Time or Switching to a New Biological Therapy; the ULSpABiT Study.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 50,
+            "start_date": "2011-09",
+            "completion_date": "2016-01",
+            "brief_summary": "Patients with spondylarthritis (SpA) (including ankylosing spondylitis, psoriatic arthritis, arthritis as part of inflammatory bowel disease and reactive arthritis) have axial involvement (the spine) as well as peripheral inflammation in joints and entheses (where the tendons and ligaments are anchored to the bone). Patients with high disease activity of SpA may need biological treatment (anti-TNF alpha), which are very expensive medications. Thus it is necessary to have a sensitive method for a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01313858",
+            "title": "Non-Interventional Study Investigating the Use of Golimumab (Simponi®) in Patients With Rheumatoid Arthritis, Psoriatic Arthritis, and Ankylosing Spondylitis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1613,
+            "start_date": "2010-04",
+            "completion_date": "2015-09",
+            "brief_summary": "This is a study to assess the use of golimumab (Simponi®) in participants with rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis. The study objective is to evaluate the clinical safety of golimumab (Simponi®) under real-life, clinical practice conditions as assessed by the incidence and type of (serious) adverse events and changes in clinical status of participants as assessed by clinical parameters.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01856569",
+            "title": "Assial - Anti Tnf Treatment In Ankylosing Spondylitis: An Observational Cohort Study In Italy",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 152,
+            "start_date": "2013-07",
+            "completion_date": "2015-11",
+            "brief_summary": "Observe in real life adherence therapy and time to switch in ankylosing spondylitis patients with predominant assial involvement with 4 anti-TNF.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05046431",
+            "title": "A Multicenter, Double-blind, Randomized, Parallel-group Study to Compare the Efficacy and Safety of BAT2506 Versus Simponi® in Participants With Active Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 704,
+            "start_date": "2021-05-06",
+            "completion_date": "2023-10-06",
+            "brief_summary": "This is a multicenter, double-blind, randomized, parallel-group study to compare the efficacy,pharmacodynamics (PD), pharmacokinetics (PK), safety, and immunogenicity of BAT2506 versus Simponi® in participants with active PsA.\n\nThe study will consist of up to 4-week Screening Period, a 52-week Treatment Period, and a 8-week Safety Follow-up Period.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05080218",
+            "title": "The SARS-CoV-2 Vaccine Response and Safety in Rheumatology Patients and the Influence of Temporary Interruptions in Immunomodulatory Therapy",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 841,
+            "start_date": "2021-11-15",
+            "completion_date": "2024-05-28",
+            "brief_summary": "The COVID-19 VaccinE Response in Rheumatology patients (COVER) study is a multicenter randomized controlled trial designed to evaluate the efficacy and safety of a mRNA COVID-19 vaccine supplemental dose (booster) in patients with autoimmune conditions and to evaluate the impact of different immunomodulatory therapies on vaccine response. The investigators propose to recruit up to 1000- patients with autoimmune conditions who have a completed 2-dose regime of mRNA COVID-19 vaccine (\\>28 days pri",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03733925",
+            "title": "A Phase-IV, Multicenter, Noncomparative, Open-Label Study Evaluating the Safety and Efficacy of Golimumab (a Fully Human Anti-TNFα Monoclonal Antibody, Administered Subcutaneously) in the Treatment of Indian Patients With Active Spondyloarthropathy of Ankylosing Spondylitis or Psoriatic Arthritis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 100,
+            "start_date": "2019-01-07",
+            "completion_date": "2021-11-15",
+            "brief_summary": "The purpose of this study is to assess the safety of subcutaneous (SC) golimumab in participants with active Ankylosing Spondylitis (AS) or Psoriatic Arthritis (PsA) over 24 weeks.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05332730",
+            "title": "A Randomized, Double-blind, Single-dose, Parallel Three-arm Comparative Study on Pharmacokinetics and Safety of BAT2506 Injection Versus the EU-licensed and US-licensed Simponi® in Healthy Chinese Male Subjects",
+            "phase": "PHASE1",
+            "status": "COMPLETED",
+            "enrollment": 375,
+            "start_date": "2022-08-01",
+            "completion_date": "2023-07-10",
+            "brief_summary": "This is a randomized, double-blind, parallel three-arm, and single-dose Phase I clinical study, designed to compare the similarity of pharmacokinetics, safety and immunogenicity between BAT2506 Injection and Simponi® (EU-licensed and US-licensed) after single subcutaneous administration in healthy Chinese male subjects.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04108468",
+            "title": "An Investigator-initiated Double-blind, Parallel-group Randomised Controlled Trial of GOLimumab and Methotrexate Versus Methotrexate in Very Early PsA Using Clinical and Whole Body MRI Outcomes: the GOLMePsA Study.",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 84,
+            "start_date": "2015-10-27",
+            "completion_date": "2023-07",
+            "brief_summary": "An investigator-initiated double-blind, parallel-group randomised controlled trial of Methotrexate versus GOLimumab and Methotrexate in very early PsA using clinical and whole body MRI outcomes.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04399382",
+            "title": "A Clinical Study Using Damage-associated Molecular Pattern and Apparent Diffusion Coefficient to Evaluate the Efficacy of Biologics for Treating Spondyloarthritis",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 40,
+            "start_date": "2022-01-12",
+            "completion_date": "2022-12",
+            "brief_summary": "Spondyloarthritis (SpA) is one of the potentially debilitating inflammatory diseases that affect the whole body, primarily burdening the sacroiliac joints and the spine. It mostly affects young and middle aged adults. SpA can be classified to non-radiographic axial SpA (nr-axSpA) and radiographic axSpA (r-axSpA). The latter is ankylosing spondylitis (AS). The key to its early treatment is the radiological detection and management of sacroiliitis. To date, biologics is the most powerful anti-infl",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05669833",
+            "title": "Guselkumab vs Golimumab in PsA TNF Inadequate Responder Patients: a Pragmatic Trial (EVOLUTION)",
+            "phase": "PHASE3",
+            "status": "RECRUITING",
+            "enrollment": 63,
+            "start_date": "2023-07-14",
+            "completion_date": "2026-10",
+            "brief_summary": "The trial is an open-label randomized study that will examine whether switching to a selective IL23 inhibitor (guselkumab) is more effective than switching to a second TNFi (golimumab) among patients with PsA who have an inadequate response to a TNFi.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01668004",
+            "title": "Open-Label, Phase 4 Study, Investigating the Incidence of Extra-Articular Manifestations in Subjects With Ankylosing Spondylitis Treated With Golimumab; Protocol No. MK-8259-012",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 101,
+            "start_date": "2012-09-03",
+            "completion_date": "2015-04-30",
+            "brief_summary": "The objective of this study is to determine the difference in the annual incidence rate of uveitis attacks in participants with ankylosing spondylitis (AS) before start initial anti-TNF therapy and after treatment with golimumab (GLM).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07149792",
+            "title": "A Multi-center RCT Clinical Trial on Personalized Precision Medicine for Patients With Psoriasis and Psoriatic Arthritis and Investigation on Cardiovascular Biomarkers",
+            "phase": "PHASE4",
+            "status": "RECRUITING",
+            "enrollment": 50,
+            "start_date": "2025-07-29",
+            "completion_date": "2028-06-01",
+            "brief_summary": "The inclusion criteria for this study were patients aged 18 to 75 years with a confirmed diagnosis of psoriasis by a dermatologist or psoriatic arthritis by a rheumatologist. Patients with active infections or suspected malignancies were excluded.\n\nA total of 40 patients with psoriasis, with or without psoriatic arthritis, were enrolled from multiple centers in Taiwan. All participants were recruited from the outpatient clinics of either the Department of Allergy, Immunology, and Rheumatology or",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01871649",
+            "title": "A Randomized, Double-blind, Placebo-controlled Trial of Golimumab+Methotrexate Versus Methotrexate Alone in Methotrexate-naïve Patients With Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 51,
+            "start_date": "2013-08",
+            "completion_date": "2018-11",
+            "brief_summary": "The investigators will perform a 22-week randomized, double-blind, placebo-controlled trial of golimumab + methotrexate (MTX) versus methotrexate alone in methotrexate-naïve patients with Psoriatic Arthritis (PsA). Afterwards, a 28 week open label phase with methotrexate alone is started. Golimumab will be discontinued.\n\nHypotheses:\n\nFirst, the investigators hypothesize that initiation of a combination therapy with golimumab + MTX will be safe and superior to MTX alone in MTX-naïve PsA patients,",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT05696106",
+            "title": "Risk of Incident Immune-mediated Inflammatory Diseases (IMID) in Patients Treated With Biologics and Immunosuppressive Drugs for a Single IMID",
+            "phase": "N/A",
+            "status": "UNKNOWN",
+            "enrollment": 750000,
+            "start_date": "2023-04-02",
+            "completion_date": "2024-01-15",
+            "brief_summary": "Individuals with immune-mediated inflammatory diseases (IMIDs) are at increased risk of developing other IMIDs, possibly through shared pathogenic inflammatory pathways, and up to 25% of patients with IMIDs have at least one other IMID. Additionally, a concomitant diagnosis of a second IMID is associated with a higher burden of disease, which usually requires therapeutic escalation. Thus, this risk should be taken into account in the benefit-risk balance of IMIDs-related treatment. While the ris",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02925338",
+            "title": "OBSERVATOIRE NATIONAL D'UTILISATION D'INFLECTRA™ EN VIE RÉELLE.",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1431,
+            "start_date": "2016-10-19",
+            "completion_date": "2021-04-12",
+            "brief_summary": "National, prospective, multicentre observational study designed for eligible patients treated with Inflectra.\n\nIts objectives are to describe under real conditions of use, the profile of patients treated with Inflectra and the response to treatment.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03270501",
+            "title": "Efficacy of Golimumab in Early Axial Spondyloarthritis in Relation to Gut Inflammation, an Early Remission Induction Study",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 64,
+            "start_date": "2017-11-08",
+            "completion_date": "2023-12-14",
+            "brief_summary": "The hypothesis of the study is that the presence of (subclinical) gut inflammation at baseline in patients with early active axial spondyloarthritis predisposes to a more severe disease defined as more need to use anti-tumor necrosis factor α therapy and a shorter time to relapse after stopping anti-tumor necrosis factor α therapy after obtaining sustained clinical remission. Overall, the investigators hypothesize that subclinical gut inflammation is an important predictor in therapy response an",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03006198",
+            "title": "Tracking Biologics Along the Silk Road",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 140,
+            "start_date": "2016-02-04",
+            "completion_date": "2018-12-01",
+            "brief_summary": "The objective of this study is to explore and describe the disease characteristics, treatment and outcomes of participants with rheumatoid arthritis, ankylosing spondylitis, psoriatic arthritis, Crohn's Disease or ulcerative colitis as the major disease treated with REMICADE, SIMPONI or STELARA in clinical practice in the emerging regions of North Africa, the Middle East, and Western Asia.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01604629",
+            "title": "Evaluation of Clinical Value of Standardized Protocol for Dose-reduction in Patients With Spondylarthropathies and Clinical Remission With Anti-TNF Therapy: Open-label, Controlled, Randomized, Multicenter Trial.",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 120,
+            "start_date": "2012-07",
+            "completion_date": "2015-09",
+            "brief_summary": "The purpose of this study is to demonstrate that patients with Spondylarthropathies in remission under antiTNF therapy, can maintain the remission with a maintenance dose inferior to the currently recommended dose schedule.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01453725",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Study of the Effect of Golimumab Administered Subcutaneously in Subjects With Active Axial Spondyloarthritis (Protocol No. P07642, Also Known as MK-8259-006-02).",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 198,
+            "start_date": "2012-02-13",
+            "completion_date": "2015-01-15",
+            "brief_summary": "This two-part study was to evaluate the effect of golimumab (SCH 900259, MK-8259) in participants with active axial spondyloarthritis (axial SpA). In Part 1, participants were to receive golimumab 50 mg or matching placebo subcutaneous injections on Day 1 (Baseline) and at Weeks 4, 8, and 12. During Part 1 of the study, participants were to not know the identity of the injection. In the Part 2 extension, all participants were to receive golimumab 50 mg subcutaneous injections beginning on Week 1",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT06715254",
+            "title": "TuBerculosis Incidence in AS, PsA or Pso Patients Treated With Secukinumab: Real World Evidence in Brazilian Environment (ToBeReal)",
+            "phase": "N/A",
+            "status": "TERMINATED",
+            "enrollment": 152,
+            "start_date": "2021-07-23",
+            "completion_date": "2023-11-30",
+            "brief_summary": "This was a retrospective observational study that relied on data extracted from patient's chart review at the participating centers. Data was entered into an electronic Case Report Form (eCRF) designed to capture all relevant information to achieve the study objectives.\n\nAfter the ethical approval for each participating site, the respective Investigator and/or designated qualified study staff were responsible for including all eligible patients in a consecutive manner and entering their informat",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03253796",
+            "title": "A Phase-IV, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Trial to Evaluate the Efficacy and Safety of Golimumab (MK-8259 [SCH 900259]) After Treatment Withdrawal, Compared With Continued Treatment (Either Full- or Reduced-Treatment Regimen), In Subjects With Non-Radiographic Axial Spondyloarthritis",
+            "phase": "PHASE4",
+            "status": "COMPLETED",
+            "enrollment": 323,
+            "start_date": "2017-11-07",
+            "completion_date": "2021-03-17",
+            "brief_summary": "The purpose of this study is to evaluate the effect of treatment withdrawal compared to continued treatment with golimumab (GLM) administered by subcutaneous (SC) injection on the incidence of a \"flare\" in non-radiographic axial spondyloarthritis over up to 12 months. The primary hypothesis is that continued treatment with golimumab is superior to treatment withdrawal, based on the percentage of subjects without a \"flare\" during up to 12 months of blinded therapy.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT07138898",
+            "title": "Immunosuppressant Management in Rheumatology Patients Undergoing Elective Total Shoulder Arthroplasty",
+            "phase": "PHASE2",
+            "status": "NOT_YET_RECRUITING",
+            "enrollment": 80,
+            "start_date": "2025-09",
+            "completion_date": "2027-09",
+            "brief_summary": "The purpose of this study is to assess the incidence of rheumatologic flares, changes in pain scores (VAS), changes in functional outcomes (PROMIS), wound complications, surgical site infections, and return trips to the operating room for rheumatology patients following shoulder replacements, comparing those who stop their immunosuppressants preoperatively for the same amount of time as suggested in the literature for hip and knee arthroplasty versus those who hold the medications for a shorter ",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01248793",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Golimumab in the Treatment of Chinese Subjects With Ankylosing Spondylitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 213,
+            "start_date": "2010-10",
+            "completion_date": "2012-03",
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of golimumab in Chinese patients with ankylosing spondylitis",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01081717",
+            "title": "A Large US Health Insurance Claims Database Will be Used to Estimate the Incidence of Serious Outcomes in Patients With Rheumatoid Arthritis, Psoriatic Arthritis, or Ankylosing Spondylitis Treated With Golimumab and Other Types of Biological and Systemic Non Biological Treatments",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 1064,
+            "start_date": "2009-04-14",
+            "completion_date": "2015-05-31",
+            "brief_summary": "The participants included in this observational study will be drawn from a research database containing claims and enrollment data for members of a large, geographically diverse US health plan.The objective of this study is to estimate the rate of serious infections, tuberculosis, malignancies, and other outcomes in rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis patients treated with golimumab, anti-tumor necrosis factor (TNF) biologics, non-anti-TNF biologics, or systemic",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT04435288",
+            "title": "SPondyloArthritis: Inducing Drug-free Remission by Early TNF-Alpha bloCkade Under Guidance of Single Cell RNA Sequencing and Epigenetic Profiling. (The SPARTACUS Trial)",
+            "phase": "PHASE3",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "enrollment": 90,
+            "start_date": "2020-08-24",
+            "completion_date": "2028-12-31",
+            "brief_summary": "The SPARTACUS study will explore the therapeutic efficacy of 2 different treatment strategies for patients suffering from peripheral Spondyloarthritis (pSpA), classified according to the \"Assessment in SpondyloArthritis international Society\" (ASAS) classification criteria; it will be set up as a 48-week, prospective, randomized, active-comparator controlled, double-blind, double-dummy, clinical trial with a two-fold clinical objective:\n\n* To compare a standard step-up approach using conventiona",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT03496831",
+            "title": "Development of a Prediction Model for the Risk of Hospitalized Infection in Patients With Chronic Inflammatory Arthritis Treated With Biological Drugs",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 7500,
+            "start_date": "2006-01-01",
+            "completion_date": "2017-12-31",
+            "brief_summary": "Background The risk for hospitalized infection (i.e. infection leading to hospitalization) in patients with inflammatory arthritis (rheumatoid arthritis (RA), psoriatic arthritis (PsA) or axial spondyloarthritis (axSpA) treated with biological drugs is known to be increased compared to the background population. In daily clinical practice, there is a need for a simple way to assess the absolute risk for hospitalized infection in individual patients based on easily available information such as a",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02181673",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Trial of Golimumab, an Anti-TNFα Monoclonal Antibody, Administered Intravenously, in Subjects With Active Psoriatic Arthritis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 480,
+            "start_date": "2014-09-08",
+            "completion_date": "2017-03-22",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy of intravenously (administration of a fluid into the vein) administered golimumab 2 milligram per kilogram (mg/kg) in participants with active psoriatic arthritis (a chronic inflammatory arthritis that is associated with psoriasis).",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT01610947",
+            "title": "Effect of Spacing of Anti-TNF Drugs in Ankylosing Spondylitis With Low Disease Activity: a Randomized Controlled Trial",
+            "phase": "NA",
+            "status": "COMPLETED",
+            "enrollment": 398,
+            "start_date": "2012-05-14",
+            "completion_date": "2018-10-18",
+            "brief_summary": "Patients with spondyloarthritis, already treated by TNF blocker (adalimumab, etanercept or infliximab), and in stable low disease activity for at least 6 months, will be randomized into 2 groups: either keeping on their usual treatment with stable doses or progressive spacing of injections of their treatment. Follow-up will be done every 3 months during 12 months, with regular monitoring of disease activity and, in patients from the group \"spacing\", modification of the rhythm of injections accor",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT00265083",
+            "title": "A Multicenter, Randomized, Double-blind, Placebo-controlled Trial of Golimumab, a Fully Human Anti-TNFalpha MonoclonalAntibody, Administered Subcutaneously, in Subjects With Active Ankylosing Spondylitis",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 356,
+            "start_date": "2005-12",
+            "completion_date": "2012-01",
+            "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of subcutaneous injections (under the skin) of golimumab for the treatment of active ankylosing spondylitis \\[AS(arthritis of the spine)\\]. Efficacy will be measured by reduction in the signs and symptoms of active AS, including effects on back pain and stiffness, physical function, range of motion in the spine, quality of life, and rate of spine damage or fusion on x-ray.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          },
+          {
+            "nct_id": "NCT02437162",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Ustekinumab in the Treatment of Anti-TNF Alpha Naive Subjects With Active Radiographic Axial Spondyloarthritis",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 347,
+            "start_date": "2015-09-03",
+            "completion_date": "2017-09-06",
+            "brief_summary": "The purpose of this study is to assess the efficacy of ustekinumab, in adult participants with active radiographic axial spondyloarthritis (AxSpA), who are naive to anti-TNF alpha agents, as measured by the reduction in signs and symptoms of radiographic AxSpA.",
+            "relevance": {
+              "grade": "pending",
+              "reasoning": ""
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "38503473",
+            "title": "Efficacy and safety of pharmacological treatment of psoriatic arthritis: a systematic literature research informing the 2023 update of the EULAR recommendations for the management of psoriatic arthritis.",
+            "authors": [
+              "Kerschbaumer Andreas",
+              "Smolen Josef S",
+              "Ferreira Ricardo J O",
+              "Bertheussen Heidi",
+              "Baraliakos Xenofon"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2024",
+            "abstract": "To obtain an overview of recent evidence on efficacy and safety of pharmacological treatments in psoriatic arthritis (PsA).",
+            "classification": {
+              "study_type": "Systematic Literature Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28612180",
+            "title": "Immunogenicity of Biologics in Chronic Inflammatory Diseases: A Systematic Review.",
+            "authors": [
+              "Strand Vibeke",
+              "Balsa Alejandro",
+              "Al-Saleh Jamal",
+              "Barile-Fabris Leonor",
+              "Horiuchi Takahiko"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2017",
+            "abstract": "A systematic review was conducted to explore the immunogenicity of biologic agents across inflammatory diseases and its potential impact on efficacy/safety.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38331098",
+            "title": "Vaccination recommendations for adults receiving biologics and oral therapies for psoriasis and psoriatic arthritis: Delphi consensus from the medical board of the National Psoriasis Foundation.",
+            "authors": [
+              "Chat Vipawee S",
+              "Ellebrecht Christoph T",
+              "Kingston Paige",
+              "Gondo George",
+              "Bell Stacie"
+            ],
+            "journal": "Journal of the American Academy of Dermatology",
+            "year": "2024",
+            "abstract": "For psoriatic patients who need to receive nonlive or live vaccines, evidence-based recommendations are needed regarding whether to pause or continue systemic therapies for psoriasis and/or psoriatic arthritis.",
+            "classification": {
+              "study_type": "Expert Recommendation",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31852268",
+            "title": "Infection risk in patients undergoing treatment for inflammatory arthritis: non-biologics versus biologics.",
+            "authors": [
+              "Chiu Ying-Ming",
+              "Chen Der-Yuan"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2020",
+            "abstract": "Introduction: Despite the therapeutic effectiveness of biologics targeting immune cells or cytokines in patients with inflammatory arthritis, which reflects their pathogenic roles, an increased infection risk is observed in those undergoing biological treatment. However, there are limited data regarding the comparison of infection risks in inflammatory arthritis patients treated with non-biologics (csDMARDs), biologics (bDMARDs), including tumor necrosis factor (TNF) inhibitors and non-TNF inhib",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36270657",
+            "title": "Efficacy and safety of biological DMARDs: a systematic literature review informing the 2022 update of the ASAS-EULAR recommendations for the management of axial spondyloarthritis.",
+            "authors": [
+              "Webers Casper",
+              "Ortolan Augusta",
+              "Sepriano Alexandre",
+              "Falzon Louise",
+              "Baraliakos Xenofon"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2023",
+            "abstract": "To update the evidence on efficacy and safety of biological disease-modifying antirheumatic drugs (bDMARDs) in patients with axial spondyloarthritis (axSpA) to inform the 2022 update of the Assessment of SpondyloArthritis international Society/European Alliance of Associations for Rheumatology (ASAS-EULAR) recommendations for the management of axSpA.",
+            "classification": {
+              "study_type": "Systematic Literature Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "20065639",
+            "title": "Golimumab.",
+            "authors": [
+              "Mazumdar Sohini",
+              "Greenwald David"
+            ],
+            "journal": "mAbs",
+            "year": "2009",
+            "abstract": "Golimumab, a human anti-TNFalpha IgG1kappa monoclonal antibody, was approved in the US and Canada in April 2009 as a treatment for rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis, and is undergoing regulatory review in the EU for these indications. The product was developed by Centocor and Janssen Pharmaceutical KK (Johnson & Johnson subsidiaries), in collaboration with Schering-Plough and Mitsubishi Tanabe Pharma. Golimumab faces numerous protein therapeutic competitors on ",
+            "classification": {
+              "study_type": "Drug Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30499246",
+            "title": "Special Article: 2018 American College of Rheumatology/National Psoriasis Foundation Guideline for the Treatment of Psoriatic Arthritis.",
+            "authors": [
+              "Singh Jasvinder A",
+              "Guyatt Gordon",
+              "Ogdie Alexis",
+              "Gladman Dafna D",
+              "Deal Chad"
+            ],
+            "journal": "Arthritis & rheumatology (Hoboken, N.J.)",
+            "year": "2019",
+            "abstract": "To develop an evidence-based guideline for the pharmacologic and nonpharmacologic treatment of psoriatic arthritis (PsA), as a collaboration between the American College of Rheumatology (ACR) and the National Psoriasis Foundation (NPF).",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40621455",
+            "title": "Risk of new-onset and recurrent uveitis with different biologics for ankylosing spondylitis: a network meta-analysis.",
+            "authors": [
+              "Zhao Xu",
+              "Xie Qingqing",
+              "He Xinyi",
+              "Lu Yiwei",
+              "Li Menglan"
+            ],
+            "journal": "Frontiers in immunology",
+            "year": "2025",
+            "abstract": "Uveitis is a common extra-articular manifestation of ankylosing spondylitis (AS), and a systematic analysis of the effects of biologics on new-onset and recurrent uveitis is clinically important.",
+            "classification": {
+              "study_type": "Network Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "22265264",
+            "title": "Spondyloarthritides.",
+            "authors": [
+              "Baraliakos Xenofon",
+              "Braun Juergen"
+            ],
+            "journal": "Best practice & research. Clinical rheumatology",
+            "year": "2011",
+            "abstract": "The most important clinical features of the spondyloarthritides (SpA) are not only inflammatory back pain (IBP) but also peripheral (enthesitis) and extra-articular symptoms. For clinical purposes, two forms related to the predominant clinical manifestation - axial and peripheral SpA - and five subgroups- ankylosing spondylitis (AS), SpA associated with psoriasis and inflammatory bowel disease (IBD), reactive arthritis and undifferentiated SpA - are differentiated. Axial SpA including AS is the ",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28530020",
+            "title": "Golimumab: A Review in Inflammatory Arthritis.",
+            "authors": [
+              "Frampton James E"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2017",
+            "abstract": "Golimumab (Simponi®), a fully human monoclonal antibody against tumour necrosis factor-alpha (TNFα), is given once monthly by subcutaneous injection. In the EU, golimumab is approved as monotherapy and/or in combination with methotrexate for the treatment of inflammatory arthritis, including rheumatoid arthritis (RA), psoriatic arthritis (PsA) and axial spondyloarthritis [comprising ankylosing spondylitis (AS) and non-radiographic axial spondyloarthritis (nr-axSpA)] in adults, and polyarticular ",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29278210",
+            "title": "Biologics in Inflammatory and Immunomediated Arthritis.",
+            "authors": [
+              "Luchetti Michele M",
+              "Benfaremo Devis",
+              "Gabrielli Armando"
+            ],
+            "journal": "Current pharmaceutical biotechnology",
+            "year": "2017",
+            "abstract": "Biologic drugs, introduced in clinical practice almost twenty years ago, represent nowadays a prominent treatment option in patients with chronic inflammatory arthritis, such as Rheumatoid Arthritis, Psoriatic Arthritis and Spondyloarthritis, that include ankylosing spondylitis and non-radiographic axial spondyloarthritis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27924643",
+            "title": "Risk of infections using anti-TNF agents in rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis: a systematic review and meta-analysis.",
+            "authors": [
+              "Minozzi Silvia",
+              "Bonovas Stefanos",
+              "Lytras Theodore",
+              "Pecoraro Valentina",
+              "González-Lorenzo Marien"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2016",
+            "abstract": "Five anti-tumor necrosis factor (anti-TNF) agents have received regulatory approval for use in rheumatology: adalimumab, golimumab, infliximab, certolizumab, and etanercept. Apart from their well-documented therapeutic value, it is still uncertain to what extent they are associated with an increased risk of infectious adverse events. Areas covered: We conducted a systematic review and meta-analysis of published randomized studies to determine the effect of anti-TNF drugs on the occurrence of inf",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37511975",
+            "title": "Golimumab for Polyarticular Juvenile Idiopathic Arthritis and Psoriatic Arthritis: Pharmacologic and Clinical Considerations.",
+            "authors": [
+              "McIntosh Sydney Moore",
+              "Kerut Christian",
+              "Hollenshead Payton P",
+              "Askins Dorothy H",
+              "Mansourian Kasra"
+            ],
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "Psoriatic arthritis is a chronic debilitating autoimmune condition, and when diagnosed in patients before the age of eighteen, it is considered pediatric polyarticular juvenile idiopathic arthritis. Monoarticular or polyarticular psoriatic arthritis can be distinguished from other arthropathies by its unique cutaneous manifestations. With numerous treatments already in clinical practice, there are numerous options for treatment. The current literature indicates an elevated level of tumor necrosi",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "24356481",
+            "title": "Effect of golimumab on carotid atherosclerotic disease measures and cardiovascular events in inflammatory arthritides.",
+            "authors": [
+              "Wasko Mary Chester",
+              "Hsia Elizabeth C",
+              "Kirkham Bruce",
+              "Touboul Pierre-Jean",
+              "Fleischmann Roy"
+            ],
+            "journal": "Journal of clinical rheumatology : practical reports on rheumatic & musculoskeletal diseases",
+            "year": "2014",
+            "abstract": "The objective of this study was to assess the effect of golimumab on carotid ultrasound measures and cardiovascular serious adverse events (SAEs) in patients with inflammatory arthritides.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30210584",
+            "title": "The role of golimumab in inflammatory arthritis. A review of the evidence.",
+            "authors": [
+              "Tahir Zunera",
+              "Kavanaugh Arthur"
+            ],
+            "journal": "Therapeutic advances in musculoskeletal disease",
+            "year": "2018",
+            "abstract": "Golimumab (GOL) is a tumor necrosis factor inhibitor that is used for various types of inflammatory arthritis such as rheumatoid arthritis (RA), psoriatic arthritis (PsA), and ankylosing spondylitis (AS). This article is a systematic review of the evidence for the efficacy and safety of golimumab in inflammatory arthritides, specifically RA, PsA and AS.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39617528",
+            "title": "TNFα-inhibitors cycling with golimumab as second drug in inflammatory arthritis patients: Data from the multicenter GO-REAL registry.",
+            "authors": [
+              "Isnardi Carolina Ayelen",
+              "Civit De Garignani Emma Estela",
+              "García Ciccarelli Agustín",
+              "Sanchez Alcover Jimena",
+              "Strusberg Ingrid"
+            ],
+            "journal": "Reumatologia clinica",
+            "year": "2024",
+            "abstract": "There are still controversies about the efficacy of cycling to a second tumor necrosis factor inhibitor (TNFi) in patients with inflammatory arthritis. The aim of this study was to evaluate survival, persistence and effectiveness of golimumab (GLM) in patients with rheumatoid arthritis (RA), axial spondyloarthritis (axSpA) and psoriatic arthritis (PsA) with previous experience with other TNFi and to compare these results with TNFi naive patients.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "21612149",
+            "title": "Golimumab and immunogenicity? 2010 and beyond.",
+            "authors": [
+              "Zidi I",
+              "Bouaziz A",
+              "Ben Amor N"
+            ],
+            "journal": "Die Pharmazie",
+            "year": "2011",
+            "abstract": "Immunogenicity is a frequent adverse event observed with biological agents' therapy. Challenges of management in patients with rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis treated with golimumab, an anti-TNF-alpha blocker, include limited generation of antibodies like anti-nuclear, anti-golimumab, and anti-double stranded DNA antibodies. We conducted here a meta-analysis study in order to evaluate and compare the newly generated antibody levels after golimumab therapy. Th",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40102973",
+            "title": "Guselkumab versus golimumab in patients with active psoriatic arthritis and inadequate response to an initial tumor necrosis factor inhibitor: study protocol for EVOLUTION, a pragmatic, phase 3b, open-label, randomized, controlled effectiveness trial.",
+            "authors": [
+              "Ogdie Alexis",
+              "Reddy Soumya M",
+              "Gillespie Sarah H",
+              "Husni M Elaine",
+              "Scher Jose U"
+            ],
+            "journal": "Trials",
+            "year": "2025",
+            "abstract": "Psoriatic arthritis (PsA) is a multi-domain, inflammatory disease impacting joints, soft tissues, and skin; tumor necrosis factor inhibitors (TNFi) are typically the first biologic following inadequate response (IR) to conventional therapies. Although guidance is lacking on therapy selection after initial TNFi failure, data suggest TNFi-IR PsA patients may benefit from switching to a different mechanism of action (MOA) vs. cycling to another TNFi. Guselkumab is a fully human monoclonal antibody ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "炎症性脊椎病（含強直性脊椎炎/軸性脊椎關節炎）之核心病機為 IL-23/IL-17 軸及 TNF-α 驅動的脊椎附著點炎症。Golimumab 透過高親和力結合可溶性與跨膜 TNF-α，顯著抑制椎體炎症、延緩放射學進展。此為全球已核准適應症（GO-RAISE Phase 3 研究），具最高等級直接臨床證據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 4,
+      "disease_name": "Kummell disease",
+      "txgnn": {
+        "score": 0.9961385130882264,
+        "rank": 5472
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "Kummell 病（延遲性椎體創傷後缺血性壞死）主要病機為創傷後血液供應中斷導致的骨質壞死，而非 TNF-α 驅動的炎症性疾病。TNF 抑制劑在此疾病無明確藥理基礎。無臨床試驗或文獻記錄。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 5,
+      "disease_name": "polyarticular juvenile rheumatoid arthritis",
+      "txgnn": {
+        "score": 0.9959046244621276,
+        "rank": 5702
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT01230827",
+            "title": "A Multicenter, Double-Blind, Randomized-Withdrawal Trial of Subcutaneous Golimumab, a Humanized Anti-TNFa Antibody, in Subjects With Active Polyarticular Juvenile Idiopathic Arthritis (JIA) Despite Standard Therapy",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 173,
+            "start_date": "2010-12",
+            "completion_date": "2014-05",
+            "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of golimumab (CNTO 148) in patients who have active juvenile idiopathic arthritis (JIA) and at least 5 joints with active arthritis that have poor response to methotrexate.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "Phase 3 隨機雙盲撤藥設計皮下注射 golimumab 研究（n=173，已終止）：雖因策略調整（轉向 IV 劑型）而終止，但提供重要的部分有效性安全性數據；終止原因非安全性問題。"
+            }
+          },
+          {
+            "nct_id": "NCT02277444",
+            "title": "A Multicenter, Open-Label Trial of Intravenous Golimumab, a Human Anti-TNFα Antibody, in Pediatric Subjects With Active Polyarticular Course Juvenile Idiopathic Arthritis Despite Methotrexate Therapy",
+            "phase": "PHASE3",
+            "status": "COMPLETED",
+            "enrollment": 130,
+            "start_date": "2014-12-22",
+            "completion_date": "2024-09-27",
+            "brief_summary": "The purpose of this study is to evaluate the pharmacokinetics (the study of the way a drug enters and leaves the blood and tissues over time) of golimumab administered intravenously (IV) to pediatric participants with polyarticular (affects 5 or more joints) juvenile (an onset before age 16) idiopathic (of unknown cause) arthritis (joint pain) (pJIA) manifested by greater than or equal to (\\>=) 5 joints with active arthritis despite methotrexate (MTX) therapy for \\>= 2 months.",
+            "relevance": {
+              "grade": "A",
+              "reasoning": "GO-KIDS Phase 3 多中心開放標籤試驗（n=130，已完成）：IV golimumab 在兒童脊椎關節炎及多關節型 JIA 之主要研究，直接最高相關性，構成核准申請基礎。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "37511975",
+            "title": "Golimumab for Polyarticular Juvenile Idiopathic Arthritis and Psoriatic Arthritis: Pharmacologic and Clinical Considerations.",
+            "authors": [
+              "McIntosh Sydney Moore",
+              "Kerut Christian",
+              "Hollenshead Payton P",
+              "Askins Dorothy H",
+              "Mansourian Kasra"
+            ],
+            "journal": "Life (Basel, Switzerland)",
+            "year": "2023",
+            "abstract": "Psoriatic arthritis is a chronic debilitating autoimmune condition, and when diagnosed in patients before the age of eighteen, it is considered pediatric polyarticular juvenile idiopathic arthritis. Monoarticular or polyarticular psoriatic arthritis can be distinguished from other arthropathies by its unique cutaneous manifestations. With numerous treatments already in clinical practice, there are numerous options for treatment. The current literature indicates an elevated level of tumor necrosi",
+            "classification": {
+              "study_type": "Pharmacology Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39089836",
+            "title": "Intravenous Golimumab in Children With Polyarticular-Course Juvenile Idiopathic Arthritis: Long-Term Extension of an Open-Label Phase III Study.",
+            "authors": [
+              "Brunner Hermine I",
+              "Pacheco-Tena César",
+              "Louw Ingrid",
+              "Vega-Cornejo Gabriel",
+              "Alexeeva Ekaterina"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2024",
+            "abstract": "To report pharmacokinetics (PK), immunogenicity, clinical effect, and safety of intravenous (IV) golimumab in children with active polyarticular-course juvenile idiopathic arthritis (pcJIA) who participated in A Study to Evaluate the Pharmacokinetics, Efficacy and Safety of Intravenous Golimumab in Pediatric Participants With Active Polyarticular Course Juvenile Idiopathic Arthritis Despite Methotrexate Therapy (GO-VIVA)'s open-label, long-term extension (LTE) through week 252.",
+            "classification": {
+              "study_type": "Phase 3 Extension Study",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26147756",
+            "title": "Advances in the treatment of polyarticular juvenile idiopathic arthritis.",
+            "authors": [
+              "Webb Kate",
+              "Wedderburn Lucy R"
+            ],
+            "journal": "Current opinion in rheumatology",
+            "year": "2015",
+            "abstract": "To review recent advances in the management strategies of polyarticular course juvenile idiopathic arthritis (JIA) and identify unanswered questions and avenues for further research.",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33626206",
+            "title": "Response Similarity Assessment Between Polyarticular Juvenile Idiopathic Arthritis and Adult Rheumatoid Arthritis for Biologics.",
+            "authors": [
+              "Singh Renu",
+              "Ivaturi Vijay D",
+              "Penzenstadler Justin",
+              "Liu Tao",
+              "Chen Jianmeng"
+            ],
+            "journal": "Clinical pharmacology and therapeutics",
+            "year": "2021",
+            "abstract": "Polyarticular juvenile idiopathic arthritis (pJIA) is a pediatric chronic inflammatory arthritis, much like rheumatoid arthritis (RA) in adults. Drug development for pJIA can potentially be expedited by using extrapolation of efficacy from adult RA; however, the lack of understanding of the response and exposure relationship between pJIA and RA to therapeutic interventions has been a major roadblock. To address this, the objective of our analysis was to conduct a systematic response and exposure",
+            "classification": {
+              "study_type": "Bridging/Modeling Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36171515",
+            "title": "Intravenous Golimumab in Patients with Polyarticular Juvenile Idiopathic Arthritis and Juvenile Psoriatic Arthritis and Subcutaneous Ustekinumab in Patients with Juvenile Psoriatic Arthritis: Extrapolation of Data from Studies in Adults and Adjacent Pediatric Populations.",
+            "authors": [
+              "Leu Jocelyn H",
+              "Shiff Natalie J",
+              "Clark Michael",
+              "Bensley Karen",
+              "Lomax Kathleen G"
+            ],
+            "journal": "Paediatric drugs",
+            "year": "2022",
+            "abstract": "To describe the extrapolation approaches used to support intravenous (IV) golimumab for polyarticular juvenile idiopathic arthritis (pJIA) and juvenile psoriatic arthritis (jPsA) and subcutaneous (SC) ustekinumab for jPsA.",
+            "classification": {
+              "study_type": "Clinical Trial Report",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "39946290",
+            "title": "An update on the safety of biologic therapies for the treatment of polyarticular juvenile idiopathic arthritis.",
+            "authors": [
+              "Zimmer Angela",
+              "Horneff Gerd"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2025",
+            "abstract": "An increasing number of patients with polyarticular course juvenile idiopathic arthritis are treated with biologics with great efficacy. Consequently, the importance regarding safety data in general as well as especially serious infections, incident autoimmune processes, or malignancies rises. In children, this is crucial concerning occurrences that manifest rarely and only after a prolonged latency period.",
+            "classification": {
+              "study_type": "Systematic Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36222562",
+            "title": "Biologics with or without methotrexate in treatment of polyarticular juvenile idiopathic arthritis: effectiveness, safety and drug survival.",
+            "authors": [
+              "Thiele Franz",
+              "Klein Ariane",
+              "Klotsche Jens",
+              "Windschall Daniel",
+              "Dressler Frank"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2023",
+            "abstract": "To investigate the impact of additionally given MTX on biologic treatment of polyarticular JIA in terms of effectiveness, safety and drug survival.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28530020",
+            "title": "Golimumab: A Review in Inflammatory Arthritis.",
+            "authors": [
+              "Frampton James E"
+            ],
+            "journal": "BioDrugs : clinical immunotherapeutics, biopharmaceuticals and gene therapy",
+            "year": "2017",
+            "abstract": "Golimumab (Simponi®), a fully human monoclonal antibody against tumour necrosis factor-alpha (TNFα), is given once monthly by subcutaneous injection. In the EU, golimumab is approved as monotherapy and/or in combination with methotrexate for the treatment of inflammatory arthritis, including rheumatoid arthritis (RA), psoriatic arthritis (PsA) and axial spondyloarthritis [comprising ankylosing spondylitis (AS) and non-radiographic axial spondyloarthritis (nr-axSpA)] in adults, and polyarticular ",
+            "classification": {
+              "study_type": "Narrative Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "33493312",
+            "title": "Open-label phase 3 study of intravenous golimumab in patients with polyarticular juvenile idiopathic arthritis.",
+            "authors": [
+              "Ruperto Nicolino",
+              "Brunner Hermine I",
+              "Pacheco-Tena César",
+              "Louw Ingrid",
+              "Vega-Cornejo Gabriel"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2021",
+            "abstract": "To assess efficacy, pharmacokinetics (PK) and safety of intravenous (i.v.) golimumab in patients with polyarticular-course JIA (pc-JIA).",
+            "classification": {
+              "study_type": "Phase 3 Clinical Trial",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28507219",
+            "title": "Subcutaneous golimumab for children with active polyarticular-course juvenile idiopathic arthritis: results of a multicentre, double-blind, randomised-withdrawal trial.",
+            "authors": [
+              "Brunner Hermine I",
+              "Ruperto Nicolino",
+              "Tzaribachev Nikolay",
+              "Horneff Gerd",
+              "Chasnyk Vyacheslav G"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2018",
+            "abstract": "This report aims to determine the safety, pharmacokinetics (PK) and efficacy of subcutaneous golimumab in active polyarticular-course juvenile idiopathic arthritis (polyJIA).",
+            "classification": {
+              "study_type": "Phase 3 Trial Report",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "29773268",
+            "title": "Recent therapeutic advances in juvenile idiopathic arthritis.",
+            "authors": [
+              "Giancane Gabriella",
+              "Alongi Alessandra",
+              "Rosina Silvia",
+              "Tibaldi Jessica",
+              "Consolaro Alessandro"
+            ],
+            "journal": "Best practice & research. Clinical rheumatology",
+            "year": "2017",
+            "abstract": "Over the past two decades, the management of juvenile idiopathic arthritis (JIA) has been revolutionized by the increased tendency toward early aggressive interventions and the availability of the novel biologic medications. In 2017, three novel randomized controlled trials have evaluated the effectiveness and tolerability of golimumab and tocilizumab in polyarticular JIA, and shown that methotrexate may increase and prolong the effect of intra-articular corticosteroid injection in children with",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "40763950",
+            "title": "Intravenous Golimumab in Children With Polyarticular-Course Juvenile Idiopathic Arthritis: Long-Term Extension of an Open-Label Phase III Study.",
+            "authors": [
+              "Brunner Hermine I",
+              "Pacheco-Tena César",
+              "Louw Ingrid",
+              "Vega-Cornejo Gabriel",
+              "Alexeeva Ekaterina"
+            ],
+            "journal": "The Journal of rheumatology",
+            "year": "2025",
+            "abstract": "",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31087133",
+            "title": "[Biologics in the treatment of juvenile idiopathic arthritis : A comparison of mono- and combination therapy with synthetic DMARDs].",
+            "authors": [
+              "Klein Ariane"
+            ],
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2019",
+            "abstract": "In polyarticular juvenile idiopathic arthritis, methotrexate (MTX) is still used as first-line treatment. In case of insufficient response or intolerance, a number of biologics are now available. This faces physicians with challenging choices. Biologics are often combined with MTX, although in JIA there is little evidence and inconsistent results from various studies. In rheumatoid arthritis, combination therapy with tumor necrosis factor (TNF) inhibitors has been associated with higher efficacy",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36854991",
+            "title": "Population Pharmacokinetics and Exposure-Response Modeling Analyses of Golimumab in Children and Young Adults With Recently Diagnosed Type 1 Diabetes.",
+            "authors": [
+              "Lee Jong Bong",
+              "Zhou Wangda",
+              "Xu Zhenhua",
+              "Hedrick Joseph A",
+              "Leu Jocelyn H"
+            ],
+            "journal": "Journal of clinical pharmacology",
+            "year": "2023",
+            "abstract": "Golimumab was recently evaluated in a phase 2a, randomized, double-blind, placebo-controlled, multicenter study (T1GER study) for safety and efficacy in children and young adults with newly diagnosed type 1 diabetes (T1D). Golimumab showed significant treatment effect where endogenous insulin production was preserved and clinical and metabolic parameters were improved. The objective of this report was to evaluate pharmacokinetic (PK) and pharmacodynamic data from the T1GER study by developing a ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "31204508",
+            "title": "Comparison of adverse events of biologicals for treatment of juvenile idiopathic arthritis: a systematic review.",
+            "authors": [
+              "Diener C",
+              "Horneff G"
+            ],
+            "journal": "Expert opinion on drug safety",
+            "year": "2019",
+            "abstract": "Objectives: Treatment of juvenile idiopathic arthritis has changed rapidly since the introduction of various biologics almost twenty years ago. Many clinical trials have been performed to monitor efficacy and safety of new agents. The aim of this review is to summarize safety concerns, which were observed during prospective clinical trials. Methods: Since etanercept was the first biologic approved and remains the most frequently used, as first biologic in polyarticular JIA patients, the authors ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30536638",
+            "title": "Population Pharmacokinetics and Exposure-Response Modeling Analyses of Golimumab in Children With Moderately to Severely Active Ulcerative Colitis.",
+            "authors": [
+              "Xu Yan",
+              "Adedokun Omoniyi J",
+              "Chan Daphne",
+              "Hu Chuanpu",
+              "Xu Zhenhua"
+            ],
+            "journal": "Journal of clinical pharmacology",
+            "year": "2019",
+            "abstract": "Population pharmacokinetics (PK) and exposure-response (E-R) analyses were conducted to compare the PK and E-R relationships of golimumab between children and adults with ulcerative colitis. PK data following subcutaneous golimumab administration to children with ulcerative colitis (6-17 years) in the PURSUIT-PEDS-PK study, adults with ulcerative colitis in the PURSUIT study, and children with pediatric polyarticular juvenile idiopathic arthritis (2-17 years) in the GO-KIDS study, were included ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "41639989",
+            "title": "Clinical Features and Outcome of Patients With Juvenile Spondyloarthropathy in a Tertiary Hospital in the Philippines.",
+            "authors": [
+              "Garcia Maria Catherine Joyce D",
+              "Bernal Christine B",
+              "Collante Ma Theresa M"
+            ],
+            "journal": "Clinical pediatrics",
+            "year": "2026",
+            "abstract": "To describe the clinical presentation at diagnosis and identify risk factors affecting outcomes in patients with juvenile spondyloarthropathy (JSpA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L1",
+        "decision_stage": "S3",
+        "recommendation": "Proceed with Guardrails"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "多關節型幼年型特發性關節炎（pJIA）之免疫病理與成人 RA 高度相似，TNF-α 為關節滑膜炎症之核心介質。Golimumab 靜脈注射劑型已有兩項 Phase 3 試驗（GO-KIDS），其中 NCT02277444 完成並取得全球核准（部分地區）；藥動學模型確認兒童體重基礎給藥方案（2mg/kg IV q8w）之安全性與有效性。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 6,
+      "disease_name": "vertebral disease",
+      "txgnn": {
+        "score": 0.9876179695129396,
+        "rank": 12340
+      },
+      "evidence": {
+        "clinical_trials": [
+          {
+            "nct_id": "NCT02011386",
+            "title": "Improved Monitoring and Prediction of Clinical Response and Disease Course During Golimumab Therapy of Patients With Axial Spondyloarthritis",
+            "phase": "N/A",
+            "status": "COMPLETED",
+            "enrollment": 53,
+            "start_date": "2013-02",
+            "completion_date": "2017-02-14",
+            "brief_summary": "The study investigates different criteria for remission based on MRI and circulating biomarkers for inflammation, cartilage, connective tissue and bone turnover in patients with axial spondyloarthritis treated with Golimumab. Furthermore, the study also investigates factors that affect disease activity, function and participation by use of different questionnaires.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Golimumab 療效監測研究（n=53，已完成），聚焦於脊椎關節炎，與炎症性椎體病變高度相關，提供藥物濃度與臨床反應關聯數據。"
+            }
+          },
+          {
+            "nct_id": "NCT05115903",
+            "title": "A Prospective, Randomized Biologic Tapering Study of TNF Inhibitors in Axial Spondyloarthritis",
+            "phase": "PHASE4",
+            "status": "UNKNOWN",
+            "enrollment": 15,
+            "start_date": "2021-12-01",
+            "completion_date": "2024-08-01",
+            "brief_summary": "Current evidence on tapering of tumor necrosis factor inhibitors (TNFi) in axial spondyloarthritis (axSpA) is still hampered by heterogeneity in tapering regimens, selection and performance biases, and lack of data on optimized treatment dosing strategies especially in real-world clinical settings. This study aims to contribute to the ongoing investigation of disease-activity-guided tapering of TNFi in axSpA in the form of a prospective, randomized controlled trial.",
+            "relevance": {
+              "grade": "C",
+              "reasoning": "Phase 4 TNF 抑制劑減量研究（n=15，樣本極小，狀態 UNKNOWN），提供有限的軸性 SpA 管理策略數據。"
+            }
+          },
+          {
+            "nct_id": "NCT02437162",
+            "title": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study Evaluating the Efficacy and Safety of Ustekinumab in the Treatment of Anti-TNF Alpha Naive Subjects With Active Radiographic Axial Spondyloarthritis",
+            "phase": "PHASE3",
+            "status": "TERMINATED",
+            "enrollment": 347,
+            "start_date": "2015-09-03",
+            "completion_date": "2017-09-06",
+            "brief_summary": "The purpose of this study is to assess the efficacy of ustekinumab, in adult participants with active radiographic axial spondyloarthritis (AxSpA), who are naive to anti-TNF alpha agents, as measured by the reduction in signs and symptoms of radiographic AxSpA.",
+            "relevance": {
+              "grade": "B",
+              "reasoning": "Phase 3 多中心隨機雙盲安慰劑對照研究（n=347，已終止）：原設計直接評估 golimumab 療效，但終止降低了證據等級；需評估終止原因（效益不足、安全性或資金問題）以判斷再利用可行性。"
+            }
+          }
+        ],
+        "ictrp_trials": [],
+        "literature": [
+          {
+            "pmid": "31969328",
+            "title": "EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2019 update.",
+            "authors": [
+              "Smolen Josef S",
+              "Landewé Robert B M",
+              "Bijlsma Johannes W J",
+              "Burmester Gerd R",
+              "Dougados Maxime"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2020",
+            "abstract": "To provide an update of the European League Against Rheumatism (EULAR) rheumatoid arthritis (RA) management recommendations to account for the most recent developments in the field.",
+            "classification": {
+              "study_type": "Clinical Practice Guideline",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38503473",
+            "title": "Efficacy and safety of pharmacological treatment of psoriatic arthritis: a systematic literature research informing the 2023 update of the EULAR recommendations for the management of psoriatic arthritis.",
+            "authors": [
+              "Kerschbaumer Andreas",
+              "Smolen Josef S",
+              "Ferreira Ricardo J O",
+              "Bertheussen Heidi",
+              "Baraliakos Xenofon"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2024",
+            "abstract": "To obtain an overview of recent evidence on efficacy and safety of pharmacological treatments in psoriatic arthritis (PsA).",
+            "classification": {
+              "study_type": "Systematic Literature Review",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27445459",
+            "title": "Golimumab in radiographic and nonradiographic axial spondyloarthritis: a review of clinical trials.",
+            "authors": [
+              "Toussirot Eric",
+              "Vauchy Charline",
+              "Binda Delphine",
+              "Michel Fabrice"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "abstract": "Axial spondyloarthritis (Ax SpA) refers to chronic inflammatory rheumatic diseases that mainly affect the axial skeleton, leading to erosions and new bone formation in the sacroiliac joints and/or the spine. Ax SpA includes the radiographic form of the disease, ie, ankylosing spondylitis (AS), and the nonradiographic Ax SpA (non-Rx Ax SpA) forms. Anti-tumor necrosis factor alpha (TNFα) agents are used in the treatment of Ax SpA in patients who do not respond to or are intolerant to nonsteroidal ",
+            "classification": {
+              "study_type": "Clinical Trials Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "36633815",
+            "title": "Comparative Efficacy of Biologic Disease-Modifying Anti-Rheumatic Drugs for Non-Radiographic Axial Spondyloarthritis: A Systematic Literature Review and Bucher Indirect Comparisons.",
+            "authors": [
+              "Akkoç Nurullah",
+              "Arteaga Carlos H",
+              "Auteri Simone E",
+              "Betts Marissa",
+              "Fahrbach Kyle"
+            ],
+            "journal": "Rheumatology and therapy",
+            "year": "2023",
+            "abstract": "Biologic disease-modifying anti-rheumatic drugs (bDMARDs), including certolizumab pegol (CZP), are effective treatment options for the management of non-radiographic spondyloarthritis (nr-axSpA). In the absence of head-to-head comparisons in nr-axSpA, we conducted a systematic literature review (SLR) and indirect treatment comparison (ITC) to better understand the comparative efficacy of CZP vs. other bDMARDs.",
+            "classification": {
+              "study_type": "Systematic Review / Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "26271141",
+            "title": "Effect of golimumab and pamidronate on clinical efficacy and MRI inflammation in axial spondyloarthritis: a 48-week open randomized trial.",
+            "authors": [
+              "Mok C C",
+              "Li O C",
+              "Chan K L",
+              "Ho L Y",
+              "Hui P K"
+            ],
+            "journal": "Scandinavian journal of rheumatology",
+            "year": "2015",
+            "abstract": "To compare the effect of golimumab (GLM) and pamidronate (PAM) on clinical efficacy and magnetic resonance imaging (MRI) inflammation in axial spondyloarthritis (aSpA).",
+            "classification": {
+              "study_type": "RCT / MRI Study",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27245419",
+            "title": "Herpes zoster: Risk and prevention during immunomodulating therapy.",
+            "authors": [
+              "Tran Cong Tri",
+              "Ducancelle Alexandra",
+              "Masson Charles",
+              "Lunel-Fabiani Françoise"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2017",
+            "abstract": "Herpes zoster can be serious or incapacitating, particularly in patients whose immune system is compromised by a disease or treatment. Immunomodulating drugs can increase the risk of infection. Well-established risk factors include advanced age and glucocorticoid therapy. The data are somewhat conflicting for medications such as methotrexate, tofacitinib, TNFα antagonists (infliximab, adalimumab, etanercept, certolizumab, and golimumab), abatacept, tocilizumab, and rituximab. Nevertheless, the r",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "30959214",
+            "title": "Systemic rheumatic diseases: From biological agents to small molecules.",
+            "authors": [
+              "Sarzi-Puttini Piercarlo",
+              "Ceribelli Angela",
+              "Marotto Daniela",
+              "Batticciotto Alberto",
+              "Atzeni Fabiola"
+            ],
+            "journal": "Autoimmunity reviews",
+            "year": "2019",
+            "abstract": "The development of biologics and small oral molecules has recently changed the scenario of pharmacologic treatment of systemic rheumatic diseases and it has become a real revolution. These drugs have innovative mechanisms of action, based on the inhibition of specific molecular or cellular targets directly involved in disease pathogenesis. This new scenario has lead to a regular update of the management recommendations of several institutions, such as those for Rheumatoid Arthritis treatment tha",
+            "classification": {
+              "study_type": "Review",
+              "tier": "3"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37322274",
+            "title": "Effect of Intravenous Golimumab on Fatigue and the Relationship with Clinical Response in Adults with Active Ankylosing Spondylitis in the Phase 3 GO-ALIVE Study.",
+            "authors": [
+              "Deodhar Atul",
+              "Shiff Natalie J",
+              "Gong Cinty",
+              "Chan Eric K H",
+              "Hsia Elizabeth C"
+            ],
+            "journal": "Rheumatology and therapy",
+            "year": "2023",
+            "abstract": "We studied the effect of intravenous (IV)-golimumab on fatigue and the association of fatigue improvement with clinical response post hoc in adults with active ankylosing spondylitis (AS) in the GO-ALIVE trial.",
+            "classification": {
+              "study_type": "Clinical Trial",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27796445",
+            "title": "Biologic therapies and bone loss in rheumatoid arthritis.",
+            "authors": [
+              "Zerbini C A F",
+              "Clark P",
+              "Mendez-Sanchez L",
+              "Pereira R M R",
+              "Messina O D"
+            ],
+            "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+            "year": "2017",
+            "abstract": "Rheumatoid arthritis (RA) is a common systemic autoimmune disease of unknown cause, characterized by a chronic, symmetric, and progressive inflammatory polyarthritis. One of the most deleterious effects induced by the chronic inflammation of RA is bone loss. During the last 15 years, the better knowledge of the cytokine network involved in RA allowed the development of potent inhibitors of the inflammatory process classified as biological DMARDs. These new drugs are very effective in the inhibit",
+            "classification": {
+              "study_type": "Review",
+              "tier": "2"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "23686218",
+            "title": "Treatment of ankylosing spondylitis with TNF blockers: a meta-analysis.",
+            "authors": [
+              "Machado Marina Amaral de Ávila",
+              "Barbosa Mariana Michel",
+              "Almeida Alessandra Maciel",
+              "de Araújo Vânia Eloisa",
+              "Kakehasi Adriana Maria"
+            ],
+            "journal": "Rheumatology international",
+            "year": "2013",
+            "abstract": "Biological agents directed against tumor necrosis factor (TNF) represent therapeutic options for patients with ankylosing spondylitis with high disease activity despite use of non-steroidal anti-inflammatory drugs. To evaluate the efficacy and safety of the anti-TNF agents infliximab, etanercept, adalimumab, golimumab, and certolizumab for the treatment of ankylosing spondylitis, we performed a systematic review of randomized clinical trials on adult patients with ankylosing spondylitis using ar",
+            "classification": {
+              "study_type": "Meta-Analysis",
+              "tier": "1"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "37271277",
+            "title": "Intra-articular injections of biological disease-modifying anti-rheumatic drugs in inflammatory arthropathies: An up-to-date narrative review.",
+            "authors": [
+              "Al Khayyat Suhel G",
+              "Conticini Edoardo",
+              "Falsetti Paolo",
+              "Fogliame Giuseppe",
+              "Gentileschi Stefano"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2023",
+            "abstract": "Since the 1990s thebiological disease-modifying anti-rheumatic drugs (bDMARDs) have revolutionized the treatment of chronic dysimmune inflammatory arthropathies such as Rheumatoid Arthritis, Psoriatic Arthritis and Axial Spondylarthritis. Nevertheless, despite a full treatment regimen, mono- and oligoarticular persistence of the synovitis is sometimes observed. The intra-articular (IA) use of bDMARD drugs could resolve the persistent joint inflammation and result in a reduction in the degree of ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27468228",
+            "title": "An appraisal of golimumab in the treatment of severe, active nonradiographic axial spondyloarthritis.",
+            "authors": [
+              "Paccou Julien",
+              "Flipo René-Marc"
+            ],
+            "journal": "Drug design, development and therapy",
+            "year": "2016",
+            "abstract": "Golimumab (Simponi(®)) is a fully human tumor necrosis factor α inhibitor (TNFi) antibody administered subcutaneously. In the European Union, golimumab is indicated for the treatment of adults with severe, active axial spondyloarthritis (axSpA), which includes both ankylosing spondylitis (AS) and nonradiographic axSpA (nr-axSpA). In the US, it is indicated for the treatment of adults with active AS only. This article reviews the efficacy and tolerability of golimumab in nr-axSpA patients compare",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38771349",
+            "title": "[Head-to-head studies on radiographic progression in axial spondyloarthritis].",
+            "authors": [
+              "Kiltz Uta",
+              "Haibel Hildrun"
+            ],
+            "journal": "Zeitschrift fur Rheumatologie",
+            "year": "2024",
+            "abstract": "In this review article four clinical comparative studies in axial spondylarthritis (axSpA) are presented and discussed. SURPASS as the only head-to-head study investigated the effect of adalimumab biosimilar disease-modifying antirheumatic drug (bsDMARD) or secukinumab on radiographic progression over a time period of 2 years. Overall, the radiographic progression of the spine was low and no significant difference between adalimumab bsDMARD or secukinumab was noted. The three other studies were ",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "27479149",
+            "title": "An update on the use of tumor necrosis factor alpha inhibitors in the treatment of ankylosing spondylitis.",
+            "authors": [
+              "Osman Mohammed S",
+              "Maksymowych Walter P"
+            ],
+            "journal": "Expert review of clinical immunology",
+            "year": "2017",
+            "abstract": "Ankylosing spondylitis is a chronic immune-mediated disease affecting the sacroiliac joints and the spine manifesting with new bone formation and osteopenia. Over the past decade, tumour necrosis factor alpha (TNF-α) inhibitors (TNFi) have become the cornerstone for therapy in improving functional outcomes, and decreasing disease activity in patients with a marginal benefit from non-steroidal anti-inflammatory (NSAID) therapy. At this time, it remains to be determined whether these agents decrea",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28031053",
+            "title": "Serum biomarkers and changes in clinical/MRI evidence of golimumab-treated patients with ankylosing spondylitis: results of the randomized, placebo-controlled GO-RAISE study.",
+            "authors": [
+              "Inman Robert D",
+              "Baraliakos Xenofon",
+              "Hermann Kay-Geert A",
+              "Braun Jürgen",
+              "Deodhar Atul"
+            ],
+            "journal": "Arthritis research & therapy",
+            "year": "2016",
+            "abstract": "In the present study, we evaluated relationships between serum biomarkers and clinical/magnetic resonance imaging (MRI) findings in golimumab-treated patients with ankylosing spondylitis.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32755721",
+            "title": "Golimumab effectiveness in biologic inadequate responding patients with rheumatoid arthritis, psoriatic arthritis and spondyloarthritis in real-life from the Italian registry GISEA.",
+            "authors": [
+              "Iannone Florenzo",
+              "Favalli Ennio G",
+              "Caporali Roberto",
+              "D'Angelo Salvatore",
+              "Cantatore Francesco Paolo"
+            ],
+            "journal": "Joint bone spine",
+            "year": "2021",
+            "abstract": "To evaluate the clinical effectiveness of golimumab in biologic inadequate responder (IR) patients with Rheumatoid arthritis (RA), Spondyloarthritis (SpA), and Psoriatic arthritis (PsA).",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "38228361",
+            "title": "Comparison of the effect of treatment with NSAIDs added to anti-TNF therapy versus anti-TNF therapy alone on the progression of structural damage in the spine over 2 years in patients with radiographic axial spondyloarthritis from the randomised-controlled CONSUL trial.",
+            "authors": [
+              "Proft Fabian",
+              "Torgutalp Murat",
+              "Muche Burkhard",
+              "Rios Rodriguez Valeria",
+              "Listing Joachim"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2024",
+            "abstract": "The study aimed to evaluate the effect of adding a non-steroidal anti-inflammatory drug (NSAID), celecoxib (CEL), to a tumour necrosis factor inhibitor (TNFi), golimumab (GOL), compared with TNFi monotherapy on radiographic spinal progression in patients with radiographic axial spondyloarthritis (r-axSpA) over 2 years.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28640088",
+            "title": "Safety of tumor necrosis factor-alpha inhibitors for treatment of ankylosing spondylitis: A meta-analysis.",
+            "authors": [
+              "Ma Zeren",
+              "Liu Xiaoping",
+              "Xu Xiaosheng",
+              "Jiang Jie",
+              "Zhou Jian"
+            ],
+            "journal": "Medicine",
+            "year": "2017",
+            "abstract": "Ankylosing spondylitis (AS) is a chronic immune-mediated disease affecting the sacroiliac joints and the spine, manifesting with new bone formation and osteopenia. Five tumor necrosis factor-alpha (TNF-α) inhibitors (infliximab, etanercept, adalimumab, certolizumab, and golimumab) are available for the treatment of AS, however, the results for the safety of TNF-α inhibitors in the treatment of AS are not consistent.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "32310294",
+            "title": "Novel whole-body magnetic resonance imaging response and remission criteria document diminished inflammation during golimumab treatment in axial spondyloarthritis.",
+            "authors": [
+              "Krabbe Simon",
+              "Eshed Iris",
+              "Sørensen Inge J",
+              "Møller Jakob",
+              "Jensen Bente"
+            ],
+            "journal": "Rheumatology (Oxford, England)",
+            "year": "2020",
+            "abstract": "To investigate criteria for treatment response and remission in patients with axial SpA as assessed by whole-body magnetic resonance imaging (WB-MRI) of axial and peripheral joints and entheses during treatment with golimumab.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          },
+          {
+            "pmid": "28606966",
+            "title": "Obesity and rates of clinical remission and low MRI inflammation in rheumatoid arthritis.",
+            "authors": [
+              "George Michael D",
+              "Østergaard Mikkel",
+              "Conaghan Philip G",
+              "Emery Paul",
+              "Baker Daniel G"
+            ],
+            "journal": "Annals of the rheumatic diseases",
+            "year": "2017",
+            "abstract": "Obesity has been proposed as a risk factor for refractory rheumatoid arthritis (RA). We evaluated the impact of obesity on achieving clinical and imaging definitions of low disease activity.",
+            "classification": {
+              "study_type": "pending",
+              "tier": "pending"
+            },
+            "relevance": "pending"
+          }
+        ]
+      },
+      "scoring": {
+        "evidence_level": "L2",
+        "decision_stage": "S2",
+        "recommendation": "Research Question"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "「椎體病變」若屬炎症性（如軸性脊椎關節炎、非放射學性軸性 SpA），TNF-α 在附著點炎症及椎體骨侵蝕中扮演關鍵角色；Golimumab 抑制 TNF-α 可阻斷椎體結構破壞。然而「vertebral disease」為廣義術語，若涵蓋退化性/代謝性/感染性椎體病變，則機轉連結不成立。NCT02437162（Phase 3）已終止需進一步釐清原因。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 7,
+      "disease_name": "congenital hypotrichosis with juvenile macular dystrophy",
+      "txgnn": {
+        "score": 0.9616329669952391,
+        "rank": 23858
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "先天性少毛症合併幼年型黃斑部退化症（HJMD）係 LPAR6 基因突變導致之遺傳性退化疾病，屬毛髮與視網膜光感受器退化機制，與 TNF-α 炎症路徑無已知關聯。TxGNN 高分可能為知識圖譜中眼部疾病節點的非特異性相似性所致。無任何支持性臨床或文獻數據。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 8,
+      "disease_name": "polyp of vocal cord",
+      "txgnn": {
+        "score": 0.9583098888397216,
+        "rank": 24673
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "聲帶息肉主要由機械性損傷（用聲過度）或慢性刺激導致之局部黏膜組織增生，其形成與 TNF-α 系統性炎症無直接藥理關聯。無任何臨床試驗或文獻支持，建議排除此適應症。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 9,
+      "disease_name": "polyp of middle ear",
+      "txgnn": {
+        "score": 0.9582883715629578,
+        "rank": 24681
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "中耳息肉通常繼發於慢性化膿性中耳炎（感染/機械性因素），雖涉及局部炎症，但非 TNF-α 全身性免疫驅動的適應症類型。Anti-TNF 治療感染性病灶可能增加感染擴散風險。無任何臨床試驗或文獻支持。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    },
+    {
+      "rank": 10,
+      "disease_name": "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency",
+      "txgnn": {
+        "score": 0.9573746919631958,
+        "rank": 24886
+      },
+      "evidence": {
+        "clinical_trials": [],
+        "ictrp_trials": [],
+        "literature": []
+      },
+      "scoring": {
+        "evidence_level": "L5",
+        "decision_stage": "S0",
+        "recommendation": "Hold"
+      },
+      "repurposing_rationale": {
+        "mechanistic_link": "⚠️ 安全性警示：IL12B 完全缺乏症患者原已存在 Th1 免疫防禦缺損，無法有效對抗胞內菌（尤其分枝桿菌）。TNF-α 在肉芽腫形成及結核菌控制中不可或缺；施予 Golimumab 抑制 TNF-α 將進一步破壞本已脆弱的抗分枝桿菌免疫屏障，極可能導致播散性非典型分枝桿菌感染或結核病惡化——此為 Anti-TNF 藥物最嚴重已知安全性風險，在此族群中風險尤為極高。TxGNN 此預測結果應被判定為假陽性，不建議任何臨床探索。",
+        "similarity_to_original": "pending"
+      },
+      "route_compatibility": {
+        "status": "pending",
+        "available_routes": [],
+        "required_routes": []
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": 1,
+      "source": "ddi",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab"
+      },
+      "result_status": "not_found",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "source": "drugbank",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab"
+      },
+      "result_status": "success",
+      "result_count": 1,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "rheumatoid vasculitis"
+      },
+      "result_status": "success",
+      "result_count": 6,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "hypermobility of coccyx"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 50,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "inflammatory spondylopathy"
+      },
+      "result_status": "success",
+      "result_count": 18,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "Kummell disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 2,
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyarticular juvenile rheumatoid arthritis"
+      },
+      "result_status": "success",
+      "result_count": 17,
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "vertebral disease"
+      },
+      "result_status": "success",
+      "result_count": 3,
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "vertebral disease"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "vertebral disease"
+      },
+      "result_status": "success",
+      "result_count": 20,
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "congenital hypotrichosis with juvenile macular dystrophy"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyp of vocal cord"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyp of middle ear"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyp of middle ear"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "polyp of middle ear"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "source": "clinicaltrials",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "source": "ictrp",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "source": "pubmed",
+      "query_date": "2026-03-09",
+      "query_params": {
+        "drug": "Golimumab",
+        "disease": "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"
+      },
+      "result_status": "success",
+      "result_count": 0,
+      "notes": ""
+    }
+  ]
+}

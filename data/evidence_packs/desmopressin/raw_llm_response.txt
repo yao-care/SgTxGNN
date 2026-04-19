@@ -1,0 +1,655 @@
+# Desmopressin (DB00035) 藥物再利用證據分析
+
+> ⚠️ **分析前置說明**：雖然本資料標示 `original_moa: "[Data Gap]"`，但 Desmopressin 為已知的 **V2 受體促效劑（V2 receptor agonist）**，可刺激內皮細胞 Weibel-Palade 小體釋放 vWF 與 FVIII，此為評估所有血液科適應症的核心機轉依據。
+
+---
+
+```json
+{
+  "drug": "Desmopressin",
+  "drugbank_id": "DB00035",
+  "analysis_date": "2026-04-04",
+  "global_moa_note": "V2受體促效劑：刺激內皮細胞釋放vWF/FVIII（血液科機轉）+ 增加腎集尿管水通道蛋白（泌尿科機轉）。資料庫標示[Data Gap]，但藥理機轉明確。",
+  "indications": [
+    {
+      "disease_name": "congenital prothrombin deficiency",
+      "txgnn_score": 0.9970,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "Desmopressin釋放vWF/FVIII，對凝血因子II（prothrombin）缺乏無直接補充作用。機轉連結為間接性——可改善同時存在的vWF/FVIII相關初級止血，但不影響凝血酶原路徑。文獻2607619記錄一例DDAVP用於合併Factor V + VIII缺乏症，顯示在混合凝血病變中的輔助價值，但對單純prothrombin缺乏症的直接證據缺乏。",
+      "key_concerns": [
+        "prothrombin缺乏症標準治療為FFP或凝血酶原複合物（PCC），Desmopressin無法替代",
+        "TxGNN高分可能源於疾病分類（罕見出血疾病）之相似性，而非真實機轉連結"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT04567511",
+          "title": "Emicizumab in Mild Hemophilia",
+          "relevance_grade": "C",
+          "reasoning": "完全不相關：(1)研究藥物為Emicizumab（雙特異性抗體），非Desmopressin；(2)適應症為輕型血友病A（FVIII缺乏），非prothrombin缺乏症；(3)研究方向無法外推至本適應症"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "2607619",
+          "title": "DDAVP administration in combined factor V and factor VIII deficiency",
+          "year": "1989",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "高——唯一直接涉及DDAVP於先天性凝血因子複合缺乏症的文獻，但非prothrombin缺乏症"
+        },
+        {
+          "pmid": "7684674",
+          "title": "Congenital bleeding disorders: rational treatment options",
+          "year": "1993",
+          "study_type": "Narrative Review",
+          "tier": 3,
+          "relevance": "中——廣泛討論先天性出血疾病治療，DDAVP列為選項之一，無prothrombin缺乏症專論"
+        },
+        {
+          "pmid": "21115138",
+          "title": "Acquired hemophilia A: diagnosis and treatment",
+          "year": "2011",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——為後天性血友病A，與先天性prothrombin缺乏症機轉及病程均不同"
+        },
+        {
+          "pmid": "1942544",
+          "title": "Cesarean section under factor VIII replacement therapy",
+          "year": "1991",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低——針對血友病A懷孕患者的FVIII替代療法，與prothrombin缺乏症無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "inherited thrombophilia",
+      "txgnn_score": 0.9944,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【安全性警示】Desmopressin釋放大量超大型vWF多聚體（ULVWF），可促進血小板聚集與血栓形成。遺傳性血栓傾向患者（如Factor V Leiden、蛋白C/S缺乏）本已有血栓風險，給予Desmopressin可能顯著加劇凝血活化。文獻16460464即描述Desmopressin與遺傳性血栓性血小板減少性紫癜的意外關聯。",
+      "key_concerns": [
+        "【主要安全疑慮】Desmopressin在血栓傾向患者中為相對禁忌症",
+        "現有文獻指向潛在傷害而非療效",
+        "TxGNN預測分數高可能源於疾病分類（遺傳性凝血異常）的模式匹配，忽略病理方向相反性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "16460464",
+          "title": "Desmopressin, an unexpected link between nocturnal enuresis and inherited thrombotic thrombocytopenic purpura",
+          "year": "2006",
+          "study_type": "Case Report / Safety Signal",
+          "tier": 3,
+          "relevance": "高（負面）——記錄Desmopressin觸發遺傳性TTP的案例，為直接安全性警示"
+        },
+        {
+          "pmid": "2657893",
+          "title": "Bleeding disorders in pregnant patients with rheumatic diseases",
+          "year": "1989",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "低——涉及混合性凝血異常，與遺傳性血栓傾向關聯薄弱"
+        },
+        {
+          "pmid": "17973844",
+          "title": "Multiple congenital coagulopathies co-expressed with VWD",
+          "year": "2007",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "低——聚焦於出血性疾病合併症，血栓傾向面向未涉及"
+        }
+      ]
+    },
+    {
+      "disease_name": "Glanzmann thrombasthenia",
+      "txgnn_score": 0.9930,
+      "evidence_level": "L4",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "Glanzmann血小板功能不全症（GT）為GPIIb/IIIa缺乏或功能異常，影響纖維蛋白原依賴性血小板聚集。Desmopressin釋放vWF可增強vWF-GP1b軸介導的血小板黏附，在一定程度補償GPIIb/IIIa缺失，但無法修復原發缺陷。文獻19967146（2009管理共識）及22726101（2012治療指南）均將DDAVP列為GT的輔助治療選項，特別於輕中度出血事件或手術前。臨床使用需先行DDAVP試驗（test dose）評估個體反應性。",
+      "key_concerns": [
+        "GT患者Desmopressin反應具高度個體差異",
+        "嚴重出血或大手術中DDAVP作為主要止血藥物不足，需合併使用重組活化因子VII（rFVIIa）或血小板輸注",
+        "指南推薦等級為專家意見/案例系列，尚無RCT支持"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "19967146",
+          "title": "Glanzmann's thrombasthenia: proposals for management between patients and doctors",
+          "year": "2009",
+          "study_type": "Expert Consensus / Guidelines",
+          "tier": 2,
+          "relevance": "高——國際工作組管理建議，明確列出DDAVP為輔助止血選項"
+        },
+        {
+          "pmid": "22726101",
+          "title": "Treatment of inherited platelet disorders",
+          "year": "2012",
+          "study_type": "Systematic Review / Guidelines",
+          "tier": 2,
+          "relevance": "高——涵蓋所有遺傳性血小板疾病治療，DDAVP輔助使用有明確論述"
+        },
+        {
+          "pmid": "41265828",
+          "title": "Management of severe menorrhagia in GT: case report and literature review",
+          "year": "2025",
+          "study_type": "Case Report + Mini-Review",
+          "tier": 3,
+          "relevance": "高——最新文獻，記錄DDAVP在GT月經過多的具體應用"
+        },
+        {
+          "pmid": "16722529",
+          "title": "Glanzmann thrombasthenia (review)",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——疾病全面回顧，治療章節提及DDAVP"
+        },
+        {
+          "pmid": "22726100",
+          "title": "Inherited platelet disorders",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——廣泛討論遺傳性血小板疾病，DDAVP作為跨疾病的通用止血輔助藥物"
+        },
+        {
+          "pmid": "41301446",
+          "title": "Molecular pathogenesis of inherited platelet dysfunction",
+          "year": "2025",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——聚焦分子機轉，治療層面著墨較少"
+        },
+        {
+          "pmid": "30097224",
+          "title": "Inherited bleeding disorders in the obstetric patient",
+          "year": "2018",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——產科場景下GT的止血管理，含DDAVP使用建議"
+        },
+        {
+          "pmid": "1321709",
+          "title": "Disorders of platelet function",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低（年代久遠）——早期血小板功能異常概述，DDAVP使用為歷史記錄"
+        },
+        {
+          "pmid": "26000186",
+          "title": "GT diagnosed following knee arthroscopy",
+          "year": "2015",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "低——診斷案例報告，治療描述為輔助"
+        },
+        {
+          "pmid": "22583386",
+          "title": "Inherited platelet disorders and oral health",
+          "year": "2013",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——牙科手術止血場景，DDAVP術前使用有具體討論"
+        }
+      ]
+    },
+    {
+      "disease_name": "primary release disorder of platelets",
+      "txgnn_score": 0.9926,
+      "evidence_level": "L3",
+      "decision_stage": "S2",
+      "recommendation": "Proceed with Guardrails",
+      "mechanistic_link": "血小板初級釋放缺陷（如dense granule缺乏症、αδ storage pool disease、aspirin-like defects）影響ADP/TXA2釋放路徑。Desmopressin通過：(1)釋放大量vWF多聚體增強血小板-血管壁黏附；(2)增加循環FVIII改善繼發止血；(3)促進血小板微粒形成（文獻23051555）來部分補償釋放缺陷。文獻21509710（2011前瞻性兒科研究）為直接臨床證據，文獻36656570（2023系統性回顧）確認其在出血疾病中的廣泛有效性。此為現有最強證據的適應症之一。",
+      "key_concerns": [
+        "需先行DDAVP試驗評估個體止血反應（出血時間或PFA-100改善）",
+        "多次給藥存在快速耐受（tachyphylaxis）風險",
+        "嚴重釋放缺陷患者療效有限，需備選方案"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "21509710",
+          "title": "Evaluation of desmopressin effect on primary haemostasis in pediatric patients with aspirin-like defects",
+          "year": "2011",
+          "study_type": "Prospective Observational Study",
+          "tier": 2,
+          "relevance": "高（最佳直接證據）——前瞻性兒科研究，直接評估DDAVP對血小板釋放缺陷的止血效果"
+        },
+        {
+          "pmid": "36656570",
+          "title": "Desmopressin as a hemostatic and blood sparing agent in bleeding disorders",
+          "year": "2023",
+          "study_type": "Systematic Review",
+          "tier": 1,
+          "relevance": "高——近期系統性回顧，涵蓋Desmopressin在多種出血疾病（包括血小板釋放缺陷）的證據整合"
+        },
+        {
+          "pmid": "23051555",
+          "title": "Increased amounts of vWF bound to microparticles after desmopressin infusion",
+          "year": "2013",
+          "study_type": "Prospective Mechanistic Study",
+          "tier": 2,
+          "relevance": "高——提供機轉層面的直接人體證據，解釋DDAVP如何增強血小板活化"
+        },
+        {
+          "pmid": "18278172",
+          "title": "Congenital disorders associated with platelet dysfunctions",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——涵蓋先天性血小板功能異常的治療策略，DDAVP有專節論述"
+        },
+        {
+          "pmid": "22726100",
+          "title": "Inherited platelet disorders",
+          "year": "2012",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——釋放缺陷相關疾病的診療綜述"
+        },
+        {
+          "pmid": "16580053",
+          "title": "Prophylaxis and von Willebrand's disease",
+          "year": "2006",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——以VWD預防為主，釋放缺陷機轉有交叉但非重點"
+        },
+        {
+          "pmid": "2514817",
+          "title": "Von Willebrand factor and its disorders: overview of recent molecular studies",
+          "year": "1989",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低（年代久遠）——vWF分子機轉基礎回顧"
+        },
+        {
+          "pmid": "1321709",
+          "title": "Disorders of platelet function",
+          "year": "1992",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低（年代久遠）——歷史性回顧"
+        },
+        {
+          "pmid": "30986390",
+          "title": "AGA Clinical Practice Update: Coagulation in Cirrhosis",
+          "year": "2019",
+          "study_type": "Clinical Practice Update",
+          "tier": 2,
+          "relevance": "低——肝硬化凝血病變中血小板功能異常與先天性釋放缺陷病生理不同"
+        },
+        {
+          "pmid": "26637729",
+          "title": "Coagulopathy in liver disease: a balancing act",
+          "year": "2015",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——肝病場景，與本適應症僅有間接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "pseudo-von Willebrand disease",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【安全性警示】假性VWD（PT-VWD / Platelet-type VWD）為GP1bα功能增益突變，導致血小板過度結合vWF超大多聚體。Desmopressin大量釋放ULVWF多聚體，將促進異常血小板-vWF交聯，可能誘發或加重血小板消耗性血栓（thrombocytopenia加劇）。文獻27819553明確指出PT-VWD在診療上為禁忌或需極度謹慎使用DDAVP。此與Type 2B VWD禁忌同理，且文獻30655369詳述其血栓機轉。",
+      "key_concerns": [
+        "【主要安全禁忌】PT-VWD為Desmopressin的禁忌症候群",
+        "給藥可能導致急性血小板消耗、微血管血栓",
+        "現有文獻指向傷害，無任何療效支持"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "27819553",
+          "title": "PT-VWD posing diagnostic and therapeutic challenges - small case series",
+          "year": "2017",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "高（負面）——直接記錄PT-VWD診療挑戰，含DDAVP禁忌討論"
+        },
+        {
+          "pmid": "30655369",
+          "title": "Mechanisms of thrombocytopenia in platelet-type von Willebrand disease",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "高（機轉警示）——闡明PT-VWD致血小板減少的分子機轉，解釋DDAVP為何危險"
+        },
+        {
+          "pmid": "20012256",
+          "title": "Von Willebrand disease: diagnosis and management",
+          "year": "2010",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——VWD各亞型診療，PT-VWD章節含安全性說明"
+        },
+        {
+          "pmid": "1785670",
+          "title": "Synergistic shortening of bleeding time by desmopressin and ethamsylate",
+          "year": "1991",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "低（有誤導性）——研究多種出血疾病的聯合治療，年代久遠且PT-VWD未充分鑑別"
+        }
+      ]
+    },
+    {
+      "disease_name": "Scott syndrome",
+      "txgnn_score": 0.9916,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "Scott症候群為TMEM16F（ANO6）功能缺失突變，導致磷脂醯絲胺酸（PS）外化障礙，影響凝血酶原酶複合體組裝（因子Xa/Va/Ca²⁺/PS）。Desmopressin的vWF/FVIII釋放機轉完全不針對PS外化缺陷，無法修復Scott症候群的核心病理。僅有一篇機轉回顧文獻（36074709）間接提及，無任何臨床試驗或治療案例支持。",
+      "key_concerns": [
+        "機轉不匹配：DDAVP針對初級止血，Scott syndrome為凝血酶生成階段缺陷",
+        "極罕見疾病，臨床研究可行性低",
+        "現無任何臨床應用證據"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "36074709",
+          "title": "Update on platelet procoagulant mechanisms in health and in bleeding disorders",
+          "year": "2022",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——機轉回顧文章，未直接討論DDAVP治療Scott syndrome"
+        }
+      ]
+    },
+    {
+      "disease_name": "flood factor deficiency",
+      "txgnn_score": 0.9915,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【疾病分類存疑】'Flood factor deficiency'非標準醫學術語，可能為罕見凝血因子缺乏症的非正式命名或資料庫分類錯誤。唯一相關文獻（39054329）為2024年VWD回顧，提示TxGNN可能將此疾病誤分類至vWF相關疾病群組。在疾病身份確認前，無法評估Desmopressin的治療潛力。",
+      "key_concerns": [
+        "疾病名稱非標準術語，需先確認疾病身份",
+        "無任何直接臨床證據",
+        "TxGNN預測可能源於錯誤的疾病分類"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "39054329",
+          "title": "Von Willebrand disease (review)",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低（間接）——VWD綜合回顧，與'flood factor deficiency'無直接關聯"
+        }
+      ]
+    },
+    {
+      "disease_name": "thrombocytopenic purpura",
+      "txgnn_score": 0.9896,
+      "evidence_level": "L4",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【重要安全禁忌】血栓性血小板減少性紫癜（TTP）的核心病理為ADAMTS13缺乏導致ULVWF多聚體累積，誘發微血管血栓。Desmopressin大量釋放ULVWF多聚體，將直接加劇TTP病理機轉。文獻15499705（2004）記錄DDAVP導致TTP症狀惡化的病例，文獻21921792（2011）記錄Desmopressin誘發Moschcowitz-like syndrome（TTP等效）。此為明確臨床禁忌，而非研究機會。",
+      "key_concerns": [
+        "【嚴重安全禁忌】TTP為Desmopressin的絕對禁忌症",
+        "有多個案例記錄Desmopressin導致TTP發作或惡化",
+        "臨床試驗NCT00632242研究ARC1779（anti-vWF藥物），恰好論證了阻斷vWF才是TTP的治療方向，與Desmopressin方向相反"
+      ],
+      "trials_analysis": [
+        {
+          "nct_id": "NCT00632242",
+          "title": "ARC1779 (anti-vWF aptamer) in TTP",
+          "relevance_grade": "C",
+          "reasoning": "反向證據：(1)研究藥物為ARC1779（抗vWF適體），非Desmopressin；(2)該試驗藉由阻斷vWF治療TTP，間接論證DDAVP（釋放vWF）在TTP中的危險性；(3)機轉完全相反，不支持Desmopressin用於此適應症"
+        }
+      ],
+      "literature_analysis": [
+        {
+          "pmid": "15499705",
+          "title": "Worsening of thrombotic thrombocytopenic purpura symptoms associated with desmopressin administration",
+          "year": "2004",
+          "study_type": "Case Report / Safety Signal",
+          "tier": 3,
+          "relevance": "高（負面關鍵）——直接記錄DDAVP加劇TTP，為核心安全性禁忌依據"
+        },
+        {
+          "pmid": "21921792",
+          "title": "Desmopressin-induced Moschcowitz-like syndrome",
+          "year": "2011",
+          "study_type": "Case Report / Safety Signal",
+          "tier": 3,
+          "relevance": "高（負面關鍵）——記錄DDAVP直接誘發TTP等效症候群，確認禁忌"
+        },
+        {
+          "pmid": "16460464",
+          "title": "Desmopressin, an unexpected link between nocturnal enuresis and inherited thrombotic TTP",
+          "year": "2006",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "高（負面）——DDAVP觸發遺傳性TTP的機轉研究"
+        },
+        {
+          "pmid": "16416683",
+          "title": "Unique case of thrombotic thrombocytopenic purpura and diabetes insipidus",
+          "year": "2005",
+          "study_type": "Case Report",
+          "tier": 3,
+          "relevance": "中——TTP合併尿崩症，涉及DDAVP使用的複雜性"
+        },
+        {
+          "pmid": "36807283",
+          "title": "The role of VWF:CB in diagnosis and treatment of VWD",
+          "year": "2024",
+          "study_type": "Review",
+          "tier": 2,
+          "relevance": "低——以VWD診斷為主，TTP關聯為次要"
+        },
+        {
+          "pmid": "8828561",
+          "title": "Screening and diagnosis of coagulation disorders",
+          "year": "1996",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——一般凝血篩查，與本適應症無直接關聯"
+        },
+        {
+          "pmid": "27819553",
+          "title": "PT-VWD diagnostic and therapeutic challenges",
+          "year": "2017",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "中——PT-VWD與TTP鑑別診斷，DDAVP安全性議題有交叉"
+        },
+        {
+          "pmid": "2657893",
+          "title": "Bleeding disorders in pregnant patients",
+          "year": "1989",
+          "study_type": "Case Series",
+          "tier": 3,
+          "relevance": "低——混合性凝血病變，與TTP無直接關聯"
+        },
+        {
+          "pmid": "9423814",
+          "title": "Platelet aggregates as markers of platelet activation",
+          "year": "1998",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "低——血小板活化標記物研究，與DDAVP/TTP關聯間接"
+        },
+        {
+          "pmid": "10381511",
+          "title": "VWF propeptide in vascular disorders",
+          "year": "1999",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "低——vWF分泌標記物，機轉參考價值"
+        }
+      ]
+    },
+    {
+      "disease_name": "bleeding diathesis due to a collagen receptor defect",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L4",
+      "decision_stage": "S1",
+      "recommendation": "Research Question",
+      "mechanistic_link": "膠原受體缺陷（主要為GPVI缺乏、GP1b-IX-V複合體異常，即Bernard-Soulier syndrome）影響血小板-膠原蛋白初始黏附。Desmopressin釋放大量vWF多聚體可部分補償GP1b依賴路徑（因vWF作為橋接分子連結GP1b與受損血管壁），但對GPVI-膠原直接結合缺陷的補償有限。文獻8652143及27443694提供vWF在血管-血小板互動的機轉背景，但針對膠原受體缺陷的直接DDAVP臨床研究付之闕如。",
+      "key_concerns": [
+        "缺乏針對膠原受體缺陷的直接DDAVP臨床研究",
+        "Bernard-Soulier syndrome（GP1b-IX缺乏）患者中DDAVP的療效未經系統評估",
+        "GPVI缺乏症機轉補償路徑尚不明確"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": [
+        {
+          "pmid": "18278172",
+          "title": "Congenital disorders associated with platelet dysfunctions",
+          "year": "2008",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——涵蓋膠原受體缺陷血小板疾病，DDAVP輔助治療有提及"
+        },
+        {
+          "pmid": "8652143",
+          "title": "Pathogenesis and treatment of von Willebrand's disease",
+          "year": "1995",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "中——vWF作為GP1b配體的機轉，為DDAVP輔助膠原受體缺陷提供理論基礎"
+        },
+        {
+          "pmid": "27443694",
+          "title": "Diagnostic differentiation of VWD by multimer analysis",
+          "year": "2017",
+          "study_type": "Clinical Study",
+          "tier": 2,
+          "relevance": "低——VWD多聚體診斷工具，與膠原受體缺陷的關聯為間接"
+        },
+        {
+          "pmid": "30655369",
+          "title": "Mechanisms of thrombocytopenia in platelet-type VWD",
+          "year": "2019",
+          "study_type": "Review",
+          "tier": 3,
+          "relevance": "低——PT-VWD機轉，與膠原受體缺陷疾病屬不同病理"
+        },
+        {
+          "pmid": "17155947",
+          "title": "Recombinant VWF with combined type 2B and type 2M characteristics",
+          "year": "2007",
+          "study_type": "Laboratory Study",
+          "tier": 3,
+          "relevance": "低——vWF分子特性研究，臨床應用層面連結薄弱"
+        },
+        {
+          "pmid": "22185369",
+          "title": "Evaluation of INNOVANCE PFA P2Y cartridge in impaired primary haemostasis",
+          "year": "2012",
+          "study_type": "Clinical Diagnostic Study",
+          "tier": 2,
+          "relevance": "低——初級止血檢測工具評估，與DDAVP治療關聯間接"
+        }
+      ]
+    },
+    {
+      "disease_name": "hereditary thrombocytosis with transverse limb defect",
+      "txgnn_score": 0.9895,
+      "evidence_level": "L5",
+      "decision_stage": "S0",
+      "recommendation": "Hold",
+      "mechanistic_link": "【疾病分類存疑】'Hereditary thrombocytosis with transverse limb defect'可能指Poland syndrome或TAR syndrome（Thrombocytopenia-Absent Radius）的相關疾病，或為罕見基因症候群。無任何文獻或臨床試驗支持。Desmopressin的vWF/FVIII機轉對骨骼發育缺陷-血小板減少症候群無明確治療連結。此預測可能源於TxGNN對罕見骨骼-血液複合症候群的模式匹配。",
+      "key_concerns": [
+        "零文獻、零臨床試驗——最低證據等級",
+        "疾病名稱需確認，可能為多種疾病的模糊分類",
+        "機轉連結極弱，不具可行性"
+      ],
+      "trials_analysis": [],
+      "literature_analysis": []
+    }
+  ],
+  "summary_table": {
+    "proceed_candidates": [
+      {
+        "disease": "primary release disorder of platelets",
+        "level": "L3",
+        "stage": "S2",
+        "priority": "高",
+        "rationale": "唯一有前瞻性研究（L3）且機轉直接對應的適應症"
+      },
+      {
+        "disease": "Glanzmann thrombasthenia",
+        "level": "L4",
+        "stage": "S2",
+        "priority": "中高",
+        "rationale": "多篇管理指南推薦為輔助療法，機轉部分符合"
+      }
+    ],
+    "research_questions": [
+      {
+        "disease": "congenital prothrombin deficiency",
+        "level": "L4",
+        "stage": "S1",
+        "rationale": "有間接機轉連結，需設計混合凝血病變亞族群研究"
+      },
+      {
+        "disease": "bleeding diathesis due to collagen receptor defect",
+        "level": "L4",
+        "stage": "S1",
+        "rationale": "vWF補償機轉合理，需前瞻性評估"
+      }
+    ],
+    "safety_holds": [
+      {
+        "disease": "thrombocytopenic purpura (TTP)",
+        "reason": "明確禁忌症——DDAVP釋放ULVWF加劇TTP，有案例記錄",
+        "severity": "嚴重"
+      },
+      {
+        "disease": "pseudo-von Willebrand disease",
+        "reason": "相對禁忌——DDAVP可加劇PT-VWD的血小板消耗",
+        "severity": "嚴重"
+      },
+      {
+        "disease": "inherited thrombophilia",
+        "reason": "安全疑慮——DDAVP促凝血特性與血栓傾向相悖",
+        "severity": "中度"
+      }
+    ],
+    "insufficient_evidence": [
+      "Scott syndrome (L5)",
+      "flood factor deficiency (L5 + 疾病分類存疑)",
+      "hereditary thrombocytosis with transverse limb defect (L5 + 疾病分類存疑)"
+    ]
+  }
+}
+```
+
+---
+
+## 關鍵發現摘要
+
+### ⚠️ 重要安全警示
+
+| 適應症 | 風險機轉 | 建議 |
+|--------|---------|------|
+| TTP（血栓性血小板減少性紫癜） | DDAVP釋放ULVWF直接加劇微血管血栓 | **絕對禁忌** |
+| Pseudo-VWD（PT-VWD） | ULVWF釋放導致GP1bα過度活化，加重血小板消耗 | **相對禁忌** |
+| Inherited thrombophilia | 促凝血效應加劇血栓風險 | **不建議** |
+
+### ✅ 具開發潛力的適應症
+
+1. **Primary release disorder of platelets（L3/S2）** — 最強證據，有前瞻性兒科研究直接支持
+2. **Glanzmann thrombasthenia（L4/S2）** — 多份國際指南列為輔助選項，機轉部分合理
+
+### 📌 方法論備注
+
+> TxGNN的高預測分數（0.99+）在本批適應症中呈現**疾病分類群組效應**（所有適應症均為罕見出血性疾病），而非針對Desmopressin特定機轉的精準預測。**安全性評估不能依賴TxGNN分數**，必須結合藥物的具體藥理機轉進行正反向驗證。
